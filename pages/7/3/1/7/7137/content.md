@@ -155,6 +155,8 @@ An approach via the [[Fargues-Fontaine curve]]:
 
 * {#FarguesScholze21} [[Laurent Fargues]], [[Peter Scholze]], _Geometrization of the local Langlands correspondence_ ([arXiv:2102.13459](https://arxiv.org/abs/2102.13459))
 
+* {#Scholze25} [[Peter Scholze]], *Geometrization of the local Langlands correspondence, motivically* ([arXiv:2501.07944](https://arxiv.org/abs/2501.07944))
+
 The above work is partially inspired by the following work on the _global_ Langlands correspondence for function fields over $\mathbb{F}_{q}$:
 
 * [[Vincent Lafforgue]], _Chtoucas pour les groupes réductifs et paramétrisation de Langlands
@@ -167,7 +169,6 @@ The spectral action of Fargues and Scholze is used to show the existence of the 
 The $p$-adic and mod $p$ local Langlands correspondence is discussed in:
 
 * {#Breuil2010} [[Christophe Breuil]], *The emerging p-adic Langlands program*, Proceedings of the International Congress of Mathematicians, Hyderabad, India, 2010 ([pdf](https://www.imo.universite-paris-saclay.fr/~breuil/PUBLICATIONS/ICM2010.pdf))
-
 
 [[!redirects local Langlands conjectures]]
 
