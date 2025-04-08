@@ -447,6 +447,8 @@ There are important standard functors from $\Delta$ to other categories which _[
 
 * [[join of simplicial sets]]
 
+* [[fat Delta category]]
+
 ## References
 
 An early description of the simplex category is in
