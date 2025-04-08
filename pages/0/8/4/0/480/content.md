@@ -104,6 +104,8 @@ See _[[topos of types]]_.
 
 * [[2-category]] version: [[coherent 2-category]]
 
+* [[distributive lattice]]
+
 [[!include categories and logic - table]]
 
 ## References
