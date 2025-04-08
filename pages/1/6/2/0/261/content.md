@@ -318,6 +318,8 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
   
   * [[pointed simplicial set]]
 
+  * [[simplicial infinity-groupoid]]
+
   * [[simplicial object in an (∞,1)-category]]
 
 * [[semi-simplicial object]]
