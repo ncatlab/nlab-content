@@ -466,6 +466,8 @@ By the [[adjoint functor theorem]], a right adjoint $x \Rightarrow -$ to the map
 * [[Heyting algebra object]]
 * [[locally Heyting-algebraic 2-poset]]
 * [[implicative structure]]
+* [[sigma-complete Heyting algebra]]
+* [[complete Heyting algebra]]
 
 ## References
 
