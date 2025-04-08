@@ -25,6 +25,10 @@ A point of $X$ is the same as a point (in the usual sense) of the [[topological 
 
 * [[completely prime filter]]
 
+* [[point of a topos]]
+
+* [[spatial locale]]
+
 
 [[!redirects point of a locale]]
 [[!redirects points of a locale]]
