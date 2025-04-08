@@ -504,7 +504,7 @@ There is also a notion of [[internal locale]], see also [[internal site]].
 
 * [[geometric hyperdoctrine]]
 
-* [[Priestley space]]
+* [[coherent locale]]
 
 ## References 
 
