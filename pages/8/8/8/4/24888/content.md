@@ -91,6 +91,8 @@ There are a number of axioms which in general could be called an axiom of cohesi
 
 * [[axiom of sufficient cohesion]]
 
+* [[axiom of simplicial cohesion]]
+
 * [[axiom of real cohesion]]
 
 ## References
