@@ -6,95 +6,43 @@
 
 ***
 
-$$\twoheadrightarrow$$
-
-The [[connected components]] of the [[mapping space]] $\mathrm{Map}(S^2, S^2)$ (from the [[2-sphere]] to itself) are labeled by the [[Hopf degree]] of the maps, being an [[integer]]
-
 $$
-  \pi_0 Map(S^2, S^2)
-  \;\simeq\;
-  \mathbb{Z}
-  \,.
+  (n_i, \sigma)( e_j )
+  \;=\;
+  e^{ \delta_{i \sigma(j)} \alpha_i }
+    \cdot 
+  e_{\sigma(j)}
 $$
 
-Given $k \in \mathbb{Z}$ we denote the connected component of Hopf degree $k$ maps by
-
 $$
-  Map_k(S^2, S^2)
-  \subset 
-  Map(S^2, S^2)
-  \,,
-$$
-
-and hence the [[fundamental group]] of $Map(S^2, S^2)$ with basepoint in that components as:
-
-$$
-  \pi_1 \, Map_k(S^2, S^2)
-  \;\;
-  \coloneqq
-  \;\;
-  \pi_1 \big( Map_k(S^2, S^2), k \cdot id \big) 
-  \,.
-$$
-
-To beware that this is the free mapping space in contrast to the [[pointed mapping space]] $Map^\ast(-,-)$: Since the latter is a [[based loop space]] (by the [[internal hom]]-[[adjoint functor|adjunction]] with the [[smash product]] of [[pointed topological spaces]]),
-
-$$
-  Map^\ast(S^2, S^2)
-  \;\simeq\;
-  Map^\ast(S^1 \wedge S^1, S^2)
-  \;\simeq\;
-  Map^\ast\big(
-    S^1
-    ,\,
-    Map^\ast(S^1, S^2)
+  (n_{i'}, \sigma')
+  \circ
+  (n_i, \sigma)
+    ( e_j )
+  \;=\;
+  (n_{i'}, \sigma')\big(
+    e^{ \delta_{i \sigma(j)} \alpha_i }
+      \cdot 
+    e_{\sigma(j)}
   \big)
-  \;\equiv\;
-  \Omega \Omega S^2
-  \mathrlap{\,,}
+  \;=\;
+    e^{ \delta_{i',\sigma'(\sigma(j))} \alpha_{i'} }
+    e^{ \delta_{i, \sigma(j)} \alpha_i }
+    e_{\sigma'(\sigma(j))}
 $$
 
-and hence an [[infinity-group]], all its connected components have the same [[homotopy type]] and hence in particular the same [[fundamental group]], namely  [[free group|generated]] by the [[Hopf fibration]] $h \colon S^3 \to S^2$:
-
 $$
-  \begin{array}{rcl}
-    \pi_1 \, Map^\ast_k(S^2, S^2)
-    &\simeq&
-    \pi_1 \, Map^\ast_0(S^2, S^2)
-    \\
-    &\simeq&
-    \pi_0 \, Map\big(S^1, Map^\ast_0(S^2, S^2) \big)
-    \\
-    &\simeq&
-    \pi_0 \, Map^\ast_0(S^1 \wedge S^2, S^2) \big)
-    \\
-    &\simeq&
-    \pi_0 \, Map^\ast_0(S^3, S^2) \big)
-    \\
-    &\simeq&
-    \pi_3(S^2)
-    \\
-    &\simeq&
-    \mathbb{Z}
-    \mathrlap{\,.}
-   \end{array}
+  (n_{i'} + n_{\sigma'(i)}, \sigma' \circ \sigma)(e_j)
+  \;=\;
+  e^{ \delta_{i', \sigma'(\sigma(j))} \alpha_{i'} }
+  e^{ \delta_{\sigma'(i), \sigma'(\sigma(j))} \alpha_{\sigma'(i)} }
+  e_{\sigma'(\sigma(j))}
+  \;=\;
+  e^{ \delta_{i', \sigma'(\sigma(j))} \alpha_{i'} }
+  e^{ \delta_{i), \sigma(j)} \alpha_{\sigma'(\sigma(j))} }
+  e_{\sigma'(\sigma(j))}
 $$
 
-In contrast, the fundamental group of the free mapping space deviates from this in the connected components of non-trivial [[Hopf degree]]:
-
-\begin{proposition}
-
-  $$
-    \pi_1 \, Map_k\big(
-      S^2 ,\, S^2
-    \big)
-    \;\simeq\;
-    \mathbb{Z}_{{2\vert k \vert}}
-    \,.
-  $$
-
-\end{proposition}
-Here $\mathbb{Z}_n \coloneqq \mathbb{Z}/n$ denotes the [[cyclic group]] of [[order of a groups|order]] $n$ if $n \neq 0$ and denotes the [[integers]] when $n = 0$, $\mathbb{Z}_0 \simeq \mathbb{Z}$. 
 
 
 The subgroup of boundary Dehn twists is central &lbrack;[Farb & Margalit 2012 p 77](mapping+class+group#FarbMargalit12)&rbrack;
