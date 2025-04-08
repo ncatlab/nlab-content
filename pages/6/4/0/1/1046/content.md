@@ -14,7 +14,7 @@
 
 ## Idea 
 
-**$\infty Grpd$** is the [[(∞,1)-category]] of [[∞-groupoids]], i.e. of [[(∞,0)-categories]]. This is the archetypical [[(∞,1)-topos]], the home of classical [[homotopy theory]].
+**$\infty Grpd$** or **$\mathrm{Ani}$** is the [[(∞,1)-category]] of [[∞-groupoids]] or [[anima]], i.e. of [[(∞,0)-categories]]. This is the archetypical [[(∞,1)-topos]], the home of classical [[homotopy theory]].
 
 [[equivalence of (∞,1)-categories|Equivalently]] this means all of the following:
 
@@ -126,3 +126,4 @@ category: category
 [[!redirects (∞,1)-category of spaces]]
 [[!redirects (infinity,1)-category of spaces]]
 
+[[!redirects Ani]]
