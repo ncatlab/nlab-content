@@ -3,6 +3,8 @@
 
 ## Selected writings
 
+* [[Nicolai Kraus]], [[Christian Sattler]], *Space-Valued Diagrams, Type-Theoretically (Extended Abstract)* ([arXiv:1704.04543](https://arxiv.org/abs/1704.04543))
+
 On the [[fat Delta category]]:
 
 * [[Tom de Jong]], [[Nicolai Kraus]], [[Simona Paoli]], [[Stiéphen Pradal]], *A study of Kock's fat Delta* ([arXiv:2503.10963](https://arxiv.org/abs/2503.10963))
