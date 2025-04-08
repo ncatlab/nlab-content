@@ -17,7 +17,10 @@
 
 ## Idea
 
-*Simplicial type theory* ([Riehl & Shulman 2017, §3](#RiehlShulman17)) is a [[homotopy type theory]] which introduces additional non-fibrant layers on top of [[Martin-Löf type theory]] to provide a logical calculus for a [[directed homotopy theory|directed]] [[interval type]] and with it for [[geometric shape for higher structures|geometric shapes]], consisting of [[Segal space]]-types, [[Rezk completion|Rezk complete]]-types, and covariant fibrations. 
+*Simplicial type theory* is a [[cohesive type theory|cohesive]] [[modal type theory|modal]] [[homotopy type theory]] which introduces a [[directed homotopy theory|directed]] [[linear interval]] [[type]] and various [[modalities]] on top of [[Martin-Löf type theory]] to model [[simplicial infinity-groupoids|simplicial $\infty$-groupoids]] and other [[geometric shape for higher structures|geometric shapes]], such as [[Segal space]]-types, [[Rezk completion|Rezk complete]]-types, and covariant fibrations. 
+
+The interval type can be defined either via axioms ([Gratzer, Weinberger & Buchholtz 2024](#GWB24), [Gratzer, Weinberger & Buchholtz 2025](#GWB24)), or via 
+additional non-fibrant layers ([Riehl & Shulman 2017, §3](#RiehlShulman17)). 
 
 ## Formal presentations
 
@@ -109,6 +112,10 @@ Simplicial type theory has recently been augmented with various [[modalities]] i
 * [[Reedy model structure]]
 
 * [[bisimplicial set]]
+
+* [[simplicial infinity-groupoid]]
+
+* [[simplicial object in an (infinity,1)-category]]
 
 * [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theory]]
 
