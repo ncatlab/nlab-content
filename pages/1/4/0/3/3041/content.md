@@ -36,5 +36,8 @@ Introducing [[weakly globular n-fold categories]]:
 
 * [[Simona Paoli]], _Simplicial Methods for Higher Categories -- Segal-type Models of Weak $n$-Categories_, Springer (2019)  &lbrack;[doi:10.1007/978-3-030-05674-2](https://doi.org/10.1007/978-3-030-05674-2), [toc pdf](https://link.springer.com/content/pdf/bfm%3A978-3-030-05674-2%2F1.pdf)&rbrack;
 
+On [[weakly globular double categories]]:
+
+* [[Simona Paoli]], *Weakly globular double categories and weak units* ([arXiv:2008.11180](https://arxiv.org/abs/2008.11180))
 
 category: people
