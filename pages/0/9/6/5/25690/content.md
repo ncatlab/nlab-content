@@ -50,7 +50,7 @@ for all types $A$.
 \begin{definition}
 $A$ is a **Segal type** if the above function $i$ is an [[equivalence of types]]. 
 
-$$\mathrm{isEquiv}(\lambda t.t \circ (\lambda t:\mathbb{I}.t, \lambda t:\mathbb{I}.t, P))$$
+$$\mathrm{isSegal}(A) \coloneqq \mathrm{isEquiv}(\lambda t.t \circ (\lambda t:\mathbb{I}.t, \lambda t:\mathbb{I}.t, P))$$
 \end{definition} 
 
 #### Type theory with shapes formalism
@@ -70,6 +70,8 @@ The categorical semantics of a Segal type is a [[Segal space object]] in a [[loc
 * [[Rezk type]]
 * [[isomorphism in a Segal type]]
 * [[Segal space]]
+* [[precategory]]
+* [[skeletal Segal type]]
 
 ## References
 
