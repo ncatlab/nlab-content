@@ -32,6 +32,9 @@ is argued to be, in modern language, the [[groupoid convolution algebras]] of [[
 
 * [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's picture of Quantum Mechanics*, Int. J. Geometric Methods in Modern Physics **17** 04 (2020)  2050054 \[<a href="https://doi.org/10.1142/S0219887820500541">doi:10.1142/S0219887820500541</a>, [arXiv:2002.09326](https://arxiv.org/abs/2002.09326)\]
 
+* [[Alberto Ibort]], [[Miguel A. Rodriguez]]: *An Application of Groupoids to Quantum Mechanics: Schwinger's Algebra*, Appendix C of: *An Introduction to Groups, Groupoids and Their Representations*, CRC Press (2021) \[<a href="https://doi.org/10.1201/b22019">doi:10.1201/b22019</a>, [ISBN:9781032086767](https://www.routledge.com/An-Introduction-to-Groups-Groupoids-and-Their-Representations/Ibort-Rodriguez/p/book/9781032086767?srsltid=AfmBOoqc0EH7Qjc1_0C-TYQtUbhTWpdb3Juy61vwE9TfRC5oaJwjlYfN)\]
+
+
 and as such further developed in:
 
 * [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schrödinger's problem with cats: measurements and states in the Groupoid Picture of Quantum Mechanics*, Entropy **22** 11 (2020) \[<a href="https://doi.org/10.3390/e22111292">doi:10.3390/e22111292</a>, [arXiv:2012.10284](https://arxiv.org/abs/2012.10284)\]
