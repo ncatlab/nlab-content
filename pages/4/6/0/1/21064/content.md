@@ -62,7 +62,13 @@ A new kind of [[perturbation series]] for the quantized super-membrane:
 
 Relation to the string [[dilaton]] under [[double dimensional reduction]]:
 
-* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton*,  J. High Energ. Phys. **2022** 219 (2022) $[$[arXiv:2208.05822](https://arxiv.org/abs/2208.05822), <a href="https://doi.org/10.1007/JHEP09(2022)219">doi:10.1007/JHEP09(2022)219</a>$]$
+* [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton*,  J. High Energ. Phys. **2022** 219 (2022) \[<a href="https://doi.org/10.1007/JHEP09(2022)219">doi:10.1007/JHEP09(2022)219</a>, [arXiv:2208.05822](https://arxiv.org/abs/2208.05822)\]
+
+See also:
+
+* So Katagiri: *A Lorentz Covariant Matrix Model for Bosonic M2-Branes: Nambu Brackets and Restricted Volume-Preserving Deformations* \[<a href="https://arxiv.org/abs/2504.05940">arXiv2504.05940</a>\]
+
+
 
 
 
