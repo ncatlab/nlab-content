@@ -45,6 +45,8 @@ from [[(∞,1)Cat]] to itself. Up to equivalence, this is the only nontrivial su
 
 * [[opposite model category]]
 
+* [[opposite simplicial infinity-groupoid]]
+
 [[!redirects opposite (∞,1)-category]]
 [[!redirects opposite-(∞,1)-category]]
 
