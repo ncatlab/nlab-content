@@ -89,4 +89,7 @@ See also:
 
 * {#Rijke17} [[Egbert Rijke]], *The join construction*, 26 Jan 2017, ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
 
+[[!redirects Rezk complete]]
+[[!redirects Rezk completeness]]
+
 category: category theory
