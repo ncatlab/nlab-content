@@ -14,6 +14,10 @@
 +--{: .hide}
 [[!include cohesive infinity-toposes - contents]]
 =--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
 #### Directed Type Theory
 +-- {: .hide}
 [[!include directed homotopy type theory - contents]]
