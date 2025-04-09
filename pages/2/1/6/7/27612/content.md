@@ -118,6 +118,8 @@ Simplicial $\infty$-groupoids can be modeled by [[bisimplicial sets]].
 
 * [[infinity-groupoid]]
 
+* [[cubical infinity-groupoid]]
+
 * [[(infinity,1)-functor]]
 
 * [[simplex category]]
