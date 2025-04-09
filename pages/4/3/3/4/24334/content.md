@@ -39,15 +39,21 @@ $$\esh \dashv \flat \dashv \sharp$$
 
 The [[flat modality]] $\flat A$ represents the [[global sections]] [[(infinity,1)-functor]] which takes a [[simplicial anima]] and returns its [[core]] discrete [[anima]]. 
 
+There is also an [[op modality]] $A^\op$ which reverses all (higher) morphisms in a type. This modality is an [[involution]] on types (i.e. $(A^\op)^\op \simeq A)$), and types have the same core as its opposite $\flat A^\op \simeq \flat A$. The op modality represents the [[opposite simplicial anima]] [[(infinity,1)-functor]]. 
+
 In addition, simplicial type theory comes with a designated [[bounded total order]] $\mathbb{I}$ called a *directed [[interval]]*, such that 
 
-* the shape modality is equivalent to [[localization of a type|localization]] at $\mathbb{I}$, $\esh A \simeq L_\mathbb{I}(A)$,
+* there is an [[equivalence of types]] $\neg:\mathbb{I}^op \simeq \mathbb{I}$ which swaps $0$ for $1$ and $\max$ for $\min$,
 
 * the [[booleans]] are the global points of $\mathbb{I}$: i.e. the unique endpoints-preserving [[monotonic function]] from the [[boolean domain]] $\mathbb{2}$ to $\mathbb{I}$ is an [[embedding of types]] and the unique endpoints-preserving monotonic function from $\mathbb{2}$ to $\flat \mathbb{I}$ is an [[equivalence of types]],
 
 * the **axiom of simplicial [[axiom of cohesion|cohesion]]**: for all crisp types $A$, the $\flat$-counit $\flat(-):\flat A \to A$ is an [[equivalence of types]] if and only if the function $\mathrm{const}_{A, \mathbb{I}}$ which takes elements of $A$ to constant functions $\mathbb{I} \to A$ is an [[equivalence of types]]. 
 
+* the interval [[cohesive (infinity,1)-topos#A1ExhibitingCohesion|exhibits the cohesion]] of types: the shape modality is equivalent to [[localization of a type|localization]] at $\mathbb{I}$, $\esh A \simeq L_\mathbb{I}(A)$, 
+
 * $n$-cubes detect continuity: for every crisp function $f::A \to B$, $f$ is $\sharp$-modal [[if and only if]] it lifts up against the $\flat$-counit $\flat(-):\flat(\mathrm{Fin}(n) \to \mathbb{I}) \to (\mathrm{Fin}(n) \to \mathbb{I})$ for all crisp natural numbers $n::\mathbb{N}$, where $\mathrm{Fin}(n) \coloneqq \sum_{i:\mathbb{N}} i \lt n$ is the crisp standard [[finite set]] with $n$ elements. 
+
+* $\mathbb{I}$ is [[tiny object|tiny]]: the [[path space]] [[modality]] $\mathbb{I} \to (-)$ has an [[amazing right adjoint]] $(-)^{1/\mathbb{I}}$. 
 
 * a [[Kock-Lawvere axiom|Kock-Lawvere]]-esque [[duality]] axiom: let $A$ be a finitely presented $\mathbb{I}$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\mathbb{I}[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I})$ be the type of $\mathbb{I}$-algebra homomorphisms. Then the following function is an [[equivalence of types]]
 
@@ -69,13 +75,9 @@ In the latter two approaches, the [[function type]] $\mathbb{I} \to A$ used in t
 
 ### Additional modalities
 
-Simplicial type theory has recently been augmented with various other [[modalities]] in [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2024](#GWB24), [Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
-
-* The [[op modality]] $A^\op$
+Simplicial type theory has recently been augmented additional [[modalities]] in [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2024](#GWB24), [Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
 
 * The [[twisted arrow modality]] $A^\mathrm{tw}$
-
-* The [[amazing right adjoint]] $A_\mathbb{I}$. 
 
 ## $(\infty,1)$-category theory in simplicial type theory
 
@@ -127,6 +129,8 @@ $$\lambda (g, f).g \circ f:\mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, y) \to 
 
 which by the uniqueness condition is automatically [[associative]] and [[unital]]. 
 
+The opposite $A^\op$ of an $(\infty,1)$-precategory $A$ is also an $(\infty,1)$-precategory; that is, the opposite modality preserves the [[Segal condition]].
+
 ### Isomorphisms and $(\infty,1)$-categories
 
 A [[morphism]] $f:\mathrm{hom}_A(x, y)$ between elements $x:A$ and $y:A$ in a type $A$ is an *[[isomorphism]]* if one can construct a morphism $g:\mathrm{hom}_A(y, x)$ such that $g \circ f = \mathrm{id}_A(x)$ and a morphism $h:\mathrm{hom}_A(y, x)$ such that $f \circ h = \mathrm{id}_A(y)$. 
@@ -136,16 +140,22 @@ The type of isomorphisms is given by the [[dependent sum type]]
 $$\mathrm{iso}_A(x, y) \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} \left(\sum_{g:\mathrm{hom}_A(y, x)} g \circ f = \mathrm{id}_A(x)\right) \times \left(\sum_{h:\mathrm{hom}_A(y, x)} f \circ h = \mathrm{id}_A(y)\right)$$
 
 \begin{definition}
-An *$(\infty,1)$-category* is an $(\infty,1)$-precategory $A$ which satisfies the [[univalence axiom]]: the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
+An *$(\infty,1)$-category* is an $(\infty,1)$-precategory $A$ which additionally is [[Rezk complete]]: the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
 
 $$\prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
 \end{definition}
+
+The opposite $A^\op$ of an $(\infty,1)$-category $A$ is also an $(\infty,1)$-category; that is, the opposite modality preserves [[Rezk completeness]].
 
 Examples of $(\infty,1)$-categories include the interval $\mathbb{I}$, the $n$-cubes $\mathrm{Fin}(n) \to \mathbb{I}$, and the $n$-simplices inductively defined by 
  
 $$\Delta^0 \coloneqq \mathrm{Fin}(0) \to \mathbb{I}$$
 
 $$n:\mathbb{N} \vdash \Delta^{n + 1} \coloneqq \sum_{t:\mathrm{Fin}(n + 1) \to \mathbb{I}} \prod_{i:\mathrm{Fin}(n)} t(\pi_1(i)) \leq t(\pi_1(i + 1))$$
+
+### Dependent morphisms and covariant families
+
+(...)
 
 ## See also
 
@@ -173,7 +183,9 @@ $$n:\mathbb{N} \vdash \Delta^{n + 1} \coloneqq \sum_{t:\mathrm{Fin}(n + 1) \to \
 
 * [[Jonathan Weinberger]], *Strict stability of extension types* $[$[arXiv:2203.07194](https://arxiv.org/abs/2203.07194)$]$
 
-* {#MyersRiley23} [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
+* [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
+
+* [[Mitchell Riley]], *A Type Theory with a Tiny Object* &lbrack;[arXiv:2403.01939](https://arxiv.org/abs/2403.01939)&rbrack;
 
 * [[Jonathan Weinberger]], *Generalized Chevalley criteria in simplicial homotopy type theory*, [arXiv:2403.08190](https://arxiv.org/abs/2403.08190)
 
