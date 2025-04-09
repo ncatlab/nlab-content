@@ -11,7 +11,7 @@ Review:
 
   > (focus on [[quantum Yang-Baxter equation]])
 
-* [[Camilo Arias Abad]], *Introduction to representations of braid groups*, Rev. colomb. mat. vol.49 no.1 (2015) ([arXiv:1404.0724](https://arxiv.org/abs/1404.0724), [doi:10.15446/recolma.v49n1.54160](https://doi.org/10.15446/recolma.v49n1.54160))
+* [[Camilo Arias Abad]]: *Introduction to representations of braid groups*, Rev. colomb. mat. **49** 1 (2015) \[<a href="https://doi.org/10.15446/recolma.v49n1.54160">doi:10.15446/recolma.v49n1.54160</a>, [arXiv:1404.0724](https://arxiv.org/abs/1404.0724)\] 
 
 * [[Toshitake Kohno]], *Introduction to representation theory of braid groups*, Peking 2018 ([pdf](https://www.math.pku.edu.cn/misc/puremath/summerschool/Peking_SummerSchool_kohno.pdf), [[KohnoBraidRepresentations.pdf:file]])
 
@@ -56,9 +56,12 @@ As [[quantum gates]] for [[topological quantum computation]] with [[anyons]]:
 
 * [[Louis H. Kauffman]], [[Samuel J. Lomonaco]], *Topological quantum computing and $SU(2)$ braid group representations*, Proceedings Volume 6976, Quantum Information and Computation VI; 69760M (2008) ([doi:10.1117/12.778068](https://doi.org/10.1117/12.778068), [rg:228451452](https://www.researchgate.net/publication/228451452))
 
-* C.-L. Ho, A.I. Solomon, C.-H.Oh, *Quantum entanglement, unitary braid representation and Temperley-Lieb algebra*, EPL 92 (2010) 30002 ([arXiv:1011.6229](https://arxiv.org/abs/1011.6229))
+* C.-L. Ho, A. I. Solomon, C.-H. Oh: *Quantum entanglement, unitary braid representation and Temperley-Lieb algebra*, EPL **92** (2010) 30002 \[<a href="https://doi.org/10.1209/0295-5075/92/30002">doi:10.1209/0295-5075/92/30002</a>, [arXiv:1011.6229](https://arxiv.org/abs/1011.6229)\]
 
-* [[Louis H. Kauffman]], *Majorana Fermions and Representations of the Braid Group*, International Journal of Modern Physics AVol. 33, No. 23, 1830023 (2018) ([arXiv:1710.04650](https://arxiv.org/abs/1710.04650), [doi:10.1142/S0217751X18300235](https://doi.org/10.1142/S0217751X18300235))
+* Rebecca Chen: *Generalized Yang-Baxter Equations and Braiding Quantum Gates*, Journal of Knot Theory and Its Ramifications **21** 09 (2012) 1250087 \[<a href="https://arxiv.org/abs/1108.5215">arXiv:1108.5215</a>, [doi:10.1142/S0218216512500873](https://doi.org/10.1142/S0218216512500873)\]
+
+
+* [[Louis H. Kauffman]], *Majorana Fermions and Representations of the Braid Group*, International Journal of Modern Physics A **33** 23 (2018) 1830023 \[<a href="https://doi.org/10.1142/S0217751X18300235">doi:10.1142/S0217751X18300235</a>, [arXiv:1710.04650](https://arxiv.org/abs/1710.04650)\] 
 
 * David Lovitz, *Universal Braiding Quantum Gates* &lbrack;[arXiv:2304.00710](https://arxiv.org/abs/2304.00710)&rbrack;
 
