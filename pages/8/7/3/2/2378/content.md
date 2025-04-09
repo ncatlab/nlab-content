@@ -295,6 +295,7 @@ identification on the bottom right mapping space out of the point space.
 
 * [[nearby homomorphisms from compact Lie groups are conjugate]]
 
+
 ## References
 
 Textbook accounts:
@@ -305,7 +306,7 @@ Textbook accounts:
 * [[Francis Borceux]], Sections 7.1 & 7.2 of: *Categories and Structures*, Vol. 2 of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
 
-* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Sections 1.2, 1.3 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Sections 1.2, 1.3 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) &lbrack;[doi:10.1007/b97586](https://doi.org/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)&rbrack;
 
 On the [[homotopy groups]] of mapping spaces:
 
