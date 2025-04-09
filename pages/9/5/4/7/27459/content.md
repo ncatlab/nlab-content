@@ -11,9 +11,7 @@ The twisted arrow modality is used in defining the [[(infinity,1)-Yoneda embeddi
 
 ## Related concepts
 
-* [[Segal type]]
-
-* [[Rezk type]]
+* [[simplicial type theory]]
 
 * [[op modality]]
 
