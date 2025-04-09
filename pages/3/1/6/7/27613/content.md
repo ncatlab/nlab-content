@@ -21,7 +21,7 @@
 
 ## Idea
 
-Triangulated type theory is a [[spatial type theory|spatial type theoretic]] variation of [[simplicial type theory]] where the directed interval type $\mathbb{I}$ is only required to be a [[distributive lattice]] instead of a [[bounded total order]]. 
+Triangulated type theory is a [[spatial type theory|spatial type theoretic]] variation of [[simplicial type theory]] where the directed interval type $\mathbb{I}$ is only required to be a [[distributive lattice]] instead of a [[bounded total order]]. As a result, not all types are simplicial, and instead there is a non-trivial [[idempotent lex monad]] which takes a type $A$ to a simplicial type $\Box A$. 
 
 ## Related concepts
 
