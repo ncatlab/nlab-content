@@ -2,14 +2,24 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Modalities, Closure and Reflection
++-- {: .hide}
+[[!include modalities - contents]]
+=--
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
 #### Directed Type Theory
 +-- {: .hide}
 [[!include directed homotopy type theory - contents]]
 =--
 =--
 =--
-
-
 
 #Contents#
 * table of contents
@@ -23,7 +33,7 @@ Simplicial type theory is used to construct various [[geometric shape for higher
 
 ## Definition
 
-Simplicial type theory is a [[cohesive homotopy type theory]]: that is, a [[dependent type theory]] with a [[sharp modality]], [[flat modality]], and [[shape modality]] [[adjoint triple]]
+Simplicial type theory is a [[cohesive homotopy type theory]]: that is, a [[modal type theory]] with a [[sharp modality]], [[flat modality]], and [[shape modality]] [[adjoint triple]]
 
 $$\esh \dashv \flat \dashv \sharp$$
 
@@ -35,7 +45,13 @@ In addition, simplicial type theory comes with a designated [[bounded total orde
 
 * the [[booleans]] are the global points of $\mathbb{I}$: i.e. the unique endpoints-preserving [[monotonic function]] from the [[boolean domain]] $\mathbb{2}$ to $\mathbb{I}$ is an [[embedding of types]] and the unique endpoints-preserving monotonic function from $\mathbb{2}$ to $\flat \mathbb{I}$ is an [[equivalence of types]],
 
-* the **axiom of simplicial [[axiom of cohesion|cohesion]]**: for all discrete types $A$, the canonically defined function $\flat(-):A \to \flat A$ is an [[equivalence of types]] if and only if the function $\mathrm{const}_{A, \mathbb{I}}$ which takes elements of $A$ to constant functions $\mathbb{I} \to A$ is an [[equivalence of types]]. 
+* the **axiom of simplicial [[axiom of cohesion|cohesion]]**: for all crisp types $A$, the $\flat$-counit $\flat(-):\flat A \to A$ is an [[equivalence of types]] if and only if the function $\mathrm{const}_{A, \mathbb{I}}$ which takes elements of $A$ to constant functions $\mathbb{I} \to A$ is an [[equivalence of types]]. 
+
+* $n$-cubes detect continuity: for every crisp function $f::A \to B$, $f$ is $\sharp$-modal [[if and only if]] it lifts up against the $\flat$-counit $\flat(-):\flat(\mathrm{Fin}(n) \to \mathbb{I}) \to (\mathrm{Fin}(n) \to \mathbb{I})$ for all crisp natural numbers $n::\mathbb{N}$, where $\mathrm{Fin}(n) \coloneqq \sum_{i:\mathbb{N}} i \lt n$ is the crisp standard [[finite set]] with $n$ elements. 
+
+* a [[Kock-Lawvere axiom|Kock-Lawvere]]-esque [[duality]] axiom: let $A$ be a finitely presented $\mathbb{I}$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\mathbb{I}[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I})$ be the type of $\mathbb{I}$-algebra homomorphisms. Then the following function is an [[equivalence of types]]
+
+$$\lambda a.\lambda f.f(a):A \to (\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I}) \to \mathbb{I})$$
 
 ### Formalising the bounded total order
 
@@ -53,11 +69,13 @@ In the latter two approaches, the [[function type]] $\mathbb{I} \to A$ used in t
 
 ### Additional modalities
 
-Simplicial type theory has recently been augmented with various other [[modalities]] in the sense of [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2024](#GWB24), [Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
+Simplicial type theory has recently been augmented with various other [[modalities]] in [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2024](#GWB24), [Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
 
 * The [[op modality]] $A^\op$
 
 * The [[twisted arrow modality]] $A^\mathrm{tw}$
+
+* The [[amazing right adjoint]] $A_\mathbb{I}$. 
 
 ## $(\infty,1)$-category theory in simplicial type theory
 
@@ -90,6 +108,10 @@ for all types $A$.
 The [[morphisms]] between elements $x:A$ and $y:A$ in a type $A$ are defined in simplicial type theory as a [[tuple]] consisting of a function $f:\mathbb{I} \to A$ and two identifications $p_0:f(0) = x$ and $p_1:f(1) = y$. The type of morphisms is called a *[[hom-type]]* and is defined as the [[dependent sum type]]
 
 $$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{I} \to A} (f(0) = x) \times (f(1) = y)$$
+
+Given an element $x:A$, the hom-type $\mathrm{hom}_A(x, x)$ has an [[identity morphism]] given by the tuple consisting of the [[constant function]] from $\mathbb{I}$ to $A$ at $x$ and two witnesses that $f(0) = x$ and $f(1) = x$ both derivable from the typal [[computation rules]] for [[function types]]. 
+
+$$\mathrm{id}_A(x) \coloneqq (\lambda t.x, \beta_{\mathbb{I} \to A}^{t.x}(0), \beta_{\mathbb{I} \to A}^{t.x}(1)):\mathrm{hom}_A(x, x)$$
 
 A *composite of morphisms* in a type $A$ is a function $f:\Delta^2 \to A$ from the [[2-simplex]] to $A$. A *pair of composable morphisms* in a type $A$ is a function $g:\Lambda^2_1 \to A$ from the [[horn]] $\Lambda^2_1$ to $A$. 
 
@@ -131,25 +153,17 @@ $$n:\mathbb{N} \vdash \Delta^{n + 1} \coloneqq \sum_{t:\mathrm{Fin}(n + 1) \to \
 
 * [[bisimplicial set]]
 
-* [[simplicial infinity-groupoid]]
+* [[simplicial anima]]
 
 * [[simplicial object in an (infinity,1)-category]]
 
 * [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theory]]
 
-* [[dependent type theory]]
+* [[parametric type theory]]
 
-  * [[homotopy type theory]]
+* [[cohesive homotopy type theory]]
 
-  * [[parametric type theory]]
-
-  * [[modal type theory]]
-
-  * [[cohesive homotopy type theory]]
-
-  * [[type theory with shapes]]
-
-  * [[two-level type theory]]
+* [[triangulated type theory]]
 
 ## References
 
@@ -159,7 +173,11 @@ $$n:\mathbb{N} \vdash \Delta^{n + 1} \coloneqq \sum_{t:\mathrm{Fin}(n + 1) \to \
 
 * [[Jonathan Weinberger]], *Strict stability of extension types* $[$[arXiv:2203.07194](https://arxiv.org/abs/2203.07194)$]$
 
+* {#MyersRiley23} [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
+
 * [[Jonathan Weinberger]], *Generalized Chevalley criteria in simplicial homotopy type theory*, [arXiv:2403.08190](https://arxiv.org/abs/2403.08190)
+
+* {#Aberle24} [[C.B. Aberlé]], *Parametricity via Cohesion* &lbrack;[arXiv:2404.03825](https://arxiv.org/abs/2404.03825)&rbrack; 
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
@@ -181,8 +199,5 @@ Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via
 [[!redirects simplicial homotopy type theory]]
 
 [[!redirects axiom of simplicial cohesion]]
-
-[[!redirects triangulated type theory]]
-[[!redirects triangulated homotopy type theory]]
 
 
