@@ -5,6 +5,7 @@
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=GOyrdJsAAAAJ&hl=nl)
 
+
 ## Selected writings
 
 On [[fiber bundles in physics]]:
@@ -20,11 +21,19 @@ On the [[spin-statistics theorem]] for [[non-relativistic particles]] via the [[
 
 * [[Aiyalam P. Balachandran]], A. Daughton, Z. C. Gu, [[Giuseppe Marmo]], [[Rafael D. Sorkin]] *Spin statistics theorems without relativity or field theory*, Int. J. Mod. Phys. A **8** (1993) 2993-3044 &lbrack;[doi:10.1142/S0217751X93001223](https://doi.org/10.1142/S0217751X93001223)&rbrack;
 
+On [[group theory]], [[Lie theory]], [[representation theory]],  and [[Hopf algebras]] for [[physics]]:
+
+* [[A. P. Balachandran]], S. G. Jo, [[Giuseppe Marmo]]: *Group Theory and Hopf Algebras -- Lectures for Physicists*, World Scientific (2010) &lbrack;[doi:10.1142/7872](https://doi.org/10.1142/7872)&rbrack;
+
+
 On [[canonical commutation relations]]:
 
 * [[Elisa Ercolessi]], [[Giuseppe Marmo]] Giuseppe Morandi, *From the Equations of Motion to the Canonical Commutation Relations*, Riv. Nuovo Cim. **33** (2010) 401-590 &lbrack;[arXiv:1005.1164](https://arxiv.org/abs/1005.1164), [doi:10.1393/ncr/i2010-10057-x](https://doi.org/10.1393/ncr/i2010-10057-x)&rbrack;
 
 Arguments that the proposal of [Schwinger 1969](groupoid+algebra#Schwinger1969), [Schwinger & Berthold-Englert 2001](groupoid+algebra#SchwingerBerthold-Englert01) for an "algebra of (selective) measurement" in [[quantum physics]] is to be understood as [[groupoid convolution algebra]] of [[groupoids]] whose  [[morphisms]] reflect transitions between possible [[quantum measurement]]-outcomes:
+
+* [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *A gentle introduction to Schwinger's formulation of quantum mechanics: The groupoid picture*, Modern Physics Letters A, **33** 20 (2018) \[<a href="https://doi.org/10.1142/S0217732318501225">doi:10.1142/S0217732318501225</a>, [arXiv:1807.00519](https://arxiv.org/abs/1807.00519)\]
+
 
 * [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's Picture of Quantum Mechanics I: Groupoids*, Int.  J. Geometric Methods in Modern Physics **16** 08 (2019) 1950119 \[<a href="https://doi.org/10.1142/S0219887819501196">doi:10.1142/S0219887819501196</a>, [arXiv:1905.12274](https://arxiv.org/abs/1905.12274)\]
 
