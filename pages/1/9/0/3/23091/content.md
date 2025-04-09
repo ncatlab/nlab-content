@@ -84,7 +84,7 @@ Monographs:
 * [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics **82**, Springer (1982) \[<a href="https://link.springer.com/book/10.1007/978-1-4757-3951-0">doi:10.1007/978-1-4757-3951-0</a>\]
   > (with focus on [[differential forms]], [[differential topology]])
 
-* [[James Munkres]], *Elements of Algebraic Topology*, Addison-Wesley (1984) $[$[pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)\]
+* [[James Munkres]]: *Elements of Algebraic Topology*, Addison-Wesley (1984) \[<a href="https://www.routledge.com/Elements-Of-Algebraic-Topology/Munkres/p/book/9780367091415?srsltid=AfmBOorgeT-ozzbrkknDo4359cwAJ2b0--yIEM5G-Xi9gbrNnLy6gO2E">ISBN:9780367091415</a>, [pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)\]
 
 * [[Joseph J. Rotman]], *An Introduction to Algebraic Topology*, Graduate Texts in Mathematics **119** (1988) $[$[doi:10.1007/978-1-4612-4576-6](https://doi.org/10.1007/978-1-4612-4576-6)\] 
 
