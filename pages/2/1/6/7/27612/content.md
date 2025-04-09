@@ -54,7 +54,13 @@ $$
   \infty\mathrm{Grpd}^{\Delta^{op}}
 $$
 
-of $\infty$-groupoids and of $(\infty,1)$-categories inside $\infty\mathrm{Grpd}^{\Delta^{op}}$.
+of $\infty$-groupoids and of $(\infty,1)$-categories inside $\infty\mathrm{Grpd}^{\Delta^{op}}$. Furthermore, the [[Sierpinski (infinity,1)-topos|Sierpinski $(\infty,1)$-topos]] embeds into $\infty\mathrm{Grpd}^{\Delta^{op}}$
+
+$$
+  \infty\mathrm{Grpd}^{\Delta^1}
+  \hookrightarrow 
+  \infty\mathrm{Grpd}^{\Delta^{op}}
+$$
 
 There is also an [[automorphism|automorphic]] [[(infinity,1)-functor|$(\infty,1)$-functor]] 
 
