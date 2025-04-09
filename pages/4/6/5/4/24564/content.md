@@ -109,6 +109,15 @@ See also:
 
 * Wikipedia, *[Majorana bound states](https://en.wikipedia.org/wiki/Majorana_fermion#Majorana_bound_states)*
 
+The issue of realizing non-[[Clifford gates|Clifford]] [[quantum gates]] on Majorana zero modes:
+
+* Marek Narożniak et al.: *Quantum gates for Majoranas zero modes in topological superconductors in one-dimensional geometry*, Phys. Rev. B **103** (2021) 205429 &lbrack;[doi:10.1103/PhysRevB.103.205429](https://doi.org/10.1103/PhysRevB.103.205429)&rbrack;
+
+* Ali Hamed Safwan, Raditya Weda Bomantara: *Generating non-Clifford gate operations through exact mapping between Majorana fermions and $\mathbb{Z}_4$ parafermions* &lbrack;[arXiv:2411.18736](https://arxiv.org/abs/2411.18736)&rbrack;
+
+* Microsoft Quantum: *Non-Clifford operations*, appendix D of: *Roadmap to fault tolerant quantum computation using topological qubit arrays* &lbrack;[arXiv:2502.12252](https://arxiv.org/abs/2502.12252), [inSpire:2890977](https://inspirehep.net/literature/2890977)&rbrack;
+
+
 ### Non-Detection 
   {#ReferencesNonDetection}
 
