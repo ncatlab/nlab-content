@@ -14,11 +14,13 @@ to be fruitfully understood as the [[groupoid convolution algebra]] of the [[pai
 
 Later but more generally, the "algebra of (selective) measurement" originally envision by
 
-* {#Schwinger1969} [[Julian Schwinger]]: *Quantum Kinematics and Dynamics*, CRC Press (1969, 1991) &lbrack;[ISBN:9780738203034](https://www.routledge.com/Quantum-Kinematics-And-Dynamic/Schwinger/p/book/9780738203034?srsltid=AfmBOopc1mHvjXy-9P4osTWSNmgMcshwipyqnBSRWr9wbFOAe380eo8h), [pdf](https://api.pageplace.de/preview/DT0400.9780429966484_A34209721/preview-9780429966484_A34209721.pdf)&rbrack;
+* {#Schwinger1969} [[Julian Schwinger]]: *Quantum Kinematics and Dynamics*, CRC Press (1969, 1991) \[<a href="https://www.routledge.com/Quantum-Kinematics-And-Dynamic/Schwinger/p/book/9780738203034?srsltid=AfmBOopc1mHvjXy-9P4osTWSNmgMcshwipyqnBSRWr9wbFOAe380eo8h">ISBN:9780738203034</a>, [pdf](https://api.pageplace.de/preview/DT0400.9780429966484_A34209721/preview-9780429966484_A34209721.pdf)\]
 
-* {#SchwingerBerthold-Englert01} [[Julian Schwinger]] (ed.: Berthold-Georg Englert): *Quantum Mechanics -- Symbolism of Atomic Measurements*, Springer (2001) &lbrack;[doi:10.1007/978-3-662-04589-3](https://doi.org/10.1007/978-3-662-04589-3)&rbrack;
+* {#SchwingerBerthold-Englert01} [[Julian Schwinger]] (ed.: Berthold-Georg Englert): *Quantum Mechanics -- Symbolism of Atomic Measurements*, Springer (2001) \[<a href="https://doi.org/10.1007/978-3-662-04589-3">doi:10.1007/978-3-662-04589-3</a>\]
 
 is argued to be, in modern language, the [[groupoid convolution algebras]] of [[groupoids]] whose [[morphisms]] reflect transitions between possible [[quantum measurement]]-outcomes -- by:
+
+* [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *A gentle introduction to Schwinger's formulation of quantum mechanics: The groupoid picture*, Modern Physics Letters A, **33** 20 (2018) \[<a href="https://doi.org/10.1142/S0217732318501225">doi:10.1142/S0217732318501225</a>, [arXiv:1807.00519](https://arxiv.org/abs/1807.00519)\]
 
 * [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's Picture of Quantum Mechanics I: Groupoids*, Int.  J. Geometric Methods in Modern Physics **16** 08 (2019) 1950119 \[<a href="https://doi.org/10.1142/S0219887819501196">doi:10.1142/S0219887819501196</a>, [arXiv:1905.12274](https://arxiv.org/abs/1905.12274)\]
 
