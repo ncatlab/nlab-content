@@ -2,6 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
 #### Directed homotopy type theory
 +-- {: .hide}
 [[!include directed homotopy type theory - contents]]
@@ -21,9 +29,9 @@ There are multiple different formalisms of simplicial homotopy type theory; two 
 
 ### Directed interval via axioms
 
-In [[simplicial homotopy type theory]] where the directed interval primitive $\mathbb{2}$ is defined via axioms as a [[bounded total order]], the hom type is defined as the [[dependent sum type]]
+In [[simplicial homotopy type theory]] where the directed interval primitive $\mathbb{I}$ is defined via axioms as a [[bounded total order]], the hom type is defined as the [[dependent sum type]]
 
-$$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{2} \to A} (f(0) =_A x) \times (f(1) =_A y)$$
+$$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{I} \to A} (f(0) =_A x) \times (f(1) =_A y)$$
 
 ### Type theory with shapes formalism
 
@@ -42,7 +50,7 @@ where $\Delta^1$ is the directed interval primitive $\mathbb{2}$ and $\partial \
 * [[directed univalence]]
 * [[Segal type]], [[Rezk type]]
 * [[covariant type family]]
-* [[dependent hom type]]
+* [[heterogeneous hom type]]
 
 ## References
 
