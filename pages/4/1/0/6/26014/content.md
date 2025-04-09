@@ -153,9 +153,14 @@ On the extension of this notion to [[supergroup|fermionic symmetries]] see e.g.
 
 * P. A. Grassi, S. Penati. *Super-Higher-Form Symmetries* (2025). ([arXiv:2503.16182](https://arxiv.org/abs/2503.16182)).
 
-On conserved currents (o putative global higher symmetries) coming from [[Chern-Weil theory]]
+On conserved currents (of putative global higher symmetries) coming from [[Chern-Weil theory]]
 
 * Ben Heidenreich, Jacob McNamara, Miguel Montero, Matthew Reece, Tom Rudelius, Irene Valenzuela. *Chern-Weil Global Symmetries and How Quantum Gravity Avoids Them* (2020). ([arXiv:2012.00009](https://arxiv.org/abs/2012.00009)).
+
+Via [[factorization algebras]] and [[classifying spaces]]:
+
+* [[Owen Gwilliam]]: *Remarks on the locality of generalized global symmetries* &lbrack;[arXiv:2504.05626](https://arxiv.org/abs/2504.05626)&rbrack;
+
 
 Further activity:
 
