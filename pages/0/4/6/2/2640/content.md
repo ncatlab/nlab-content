@@ -26,4 +26,6 @@ This is the same as a [[simplicial object]] in the [[category]] of [[simplicial 
 
 * [[simplicial object]]
 
+* [[cubical-simplicial object]]
+
 [[!redirects bisimplicial objects]]
