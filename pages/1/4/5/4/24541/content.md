@@ -84,6 +84,12 @@ called __composition__;
    *  composition satisfies the [[unit law|left and right unit laws]]:
       if $s(f) = x$ and $t(f) = y$, then $1_y \circ f = f = f \circ 1_x$.
 
+### In simplicial type theory
+
+In [[simplicial type theory]], a **precategory** is a [[Segal type]] in which all [[hom-types]] are [[sets]].
+
+$$\mathrm{isPrecat}(A) \coloneqq \mathrm{isSegal}(A) \times \prod_{x:A} \prod_{y:A} \mathrm{isSet}(\mathrm{hom}_A(x, y))$$
+
 ## Remarks
 
 * The interpretation of the notion of precategory in the model of homotopy type theory in [[simplicial sets]] yields a [[Segal space]] in which the morphism $A_1 \to A_0 \times A_0$ has homotopically discrete fibers.
