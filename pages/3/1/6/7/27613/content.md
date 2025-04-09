@@ -10,6 +10,10 @@
 +-- {: .hide}
 [[!include modalities - contents]]
 =--
+#### Cohesive $\infty$-Toposes
++--{: .hide}
+[[!include cohesive infinity-toposes - contents]]
+=--
 #### Directed Type Theory
 +-- {: .hide}
 [[!include directed homotopy type theory - contents]]
@@ -21,7 +25,9 @@
 
 ## Idea
 
-Triangulated type theory is a [[spatial type theory|spatial type theoretic]] variation of [[simplicial type theory]] where the directed interval type $\mathbb{I}$ is only required to be a [[distributive lattice]] instead of a [[bounded total order]]. As a result, not all types are simplicial, and instead there is a non-trivial [[idempotent lex monad]] which takes a type $A$ to a simplicial type $\Box A$. 
+Triangulated type theory is a variation of [[simplicial type theory]] where the directed interval type $\mathbb{I}$ is only required to be a [[distributive lattice]] instead of a [[bounded total order]]. As a result, not all types are simplicial, and instead there is an idempotent lex monad which takes a type $A$ to a simplicial type $\Box A$. 
+
+Triangulated type theory has semantics in the [[cohesive (infinity,1)-topos|cohesive]] locally cartesian closed $(\infty,1)$-category $\mathbf{H}^{\Box^\op}$ of cubical objects in the locally cartesian closed $(\infty,1)$-category $\mathbf{H}$, where $\Box$ is the category of [[finite set|finite]] [[flat distributive lattices]]. Since the [[simplex category]] $\Delta$ is a subcategory of $\Box$, we have an embedding $\mathbf{H}^{\Delta^\op} \hookrightarrow \mathbf{H}^{\Box^\op}$ of simplicial objects in $\mathbf{H}$ into cubical objects in $\mathbf{H}$. 
 
 ## Related concepts
 
