@@ -9,7 +9,7 @@ Introducing [[Berger's theorem]]:
 
 On [[geometry]] ([[Euclidean space]], [[projective space]], [[rotation groups]], [[group actions]], ...):
 
-* {#Berger87} [[Marcel Berger]], *Geometry I*, Springer 1987 ([doi:10.1007/978-3-540-93815-6](https://doi.org/10.1007/978-3-540-93815-6))
+* {#Berger87} [[Marcel Berger]], _Géométrie_, Cassini; Engl. translation: *Geometry I*, Springer 1987 ([doi:10.1007/978-3-540-93815-6](https://doi.org/10.1007/978-3-540-93815-6))
 
 On [[Riemannian geometry]]:
 
