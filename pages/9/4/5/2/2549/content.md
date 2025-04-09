@@ -32,6 +32,8 @@ from the cube category itself are **co-cubical object**s in $C$.
 
 * [[model structure on cubical presheaves]]
 
+* [[cubical object in an (infinity,1)-category]]
+
 [[!redirects cubical objects]]
 
 [[!redirects co-cubical object]]
