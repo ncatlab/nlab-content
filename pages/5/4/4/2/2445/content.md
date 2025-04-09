@@ -515,6 +515,12 @@ Standard textbook accounts:
 
 * {#Lounesto} [[Pertti Lounesto]], _Clifford  Algebras and Spinors_, London Mathematical Society **286**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511526022](https://doi.org/10.1017/CBO9780511526022)&rbrack;
 
+* Jayme Vaz, Jr., Roldão da Rocha, _An introduction to Clifford algebras and spinors_, Oxford University Press, 2019. xiv+242 pp. ISBN: 978-0-19-883628-5, 978-0-19-878292-6.  [DOI](https://doi.org/10.1093/acprof:oso/9780198782926.001.0001).
+
+* D. J. H. Garling, _Clifford algebras: an introduction_, London Mathematical Society Student Texts, 78. Cambridge University Press, Cambridge, 2011. viii+200 pp. ISBN: 978-1-107-42219-3.  [DOI](https://doi.org/10.1017/CBO9780511972997).
+
+* Jacques Helmstetter, Artibano Micali, _Quadratic mappings and Clifford algebras_, Birkhäuser Verlag, Basel, 2008. xiv+504 pp. ISBN: 978-3-7643-8605-4.  [DOI](https://doi.org/10.1007/978-3-7643-8606-1).
+
 See also:
 
 * [[Eckhard Meinrenken]]: *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
