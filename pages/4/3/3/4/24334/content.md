@@ -29,7 +29,7 @@
 
 *Simplicial type theory* is a [[cohesive homotopy type theory]] which is used to represent the internal logic of [[cohesive (infinity,1)-topos|cohesive]] [[locally cartesian closed (infinity,1)-category|locally cartesian closed $(\infty,1)$-categories]] of [[simplicial objects in an (infinity,1)-category|simplicial objects]] in a locally cartesian closed $(\infty,1)$-category. One can think of simplicial type theory as a [[synthetic mathematics|synthetic]] theory of [[simplicial anima]], since the [[cohesive (infinity,1)-topos]] $\mathrm{Ani}^{\Delta^\op}$ of [[simplicial anima]] is the characteristic example of a cohesive locally cartesian closed $(\infty,1)$-category of simplicial objects in a locally cartesian closed $(\infty,1)$-category. 
 
-Simplicial type theory is used to construct various [[geometric shape for higher structures|geometric shapes]] [[internal logic|internally]], such as [[precategory object in an (infinity,1)-category|$(\infty,1)$-precategories]] ([[Segal space]]-types), [[category object in an (infinity,1)-category|$(\infty,1)$-categories]] ([[Rezk completion|Rezk complete]]-types), and covariant fibrations. 
+Simplicial type theory is used to construct various [[geometric shape for higher structures|geometric shapes]] [[internal logic|internally]], such as [[Segal types]] (i.e. [[Segal space]]-types), [[complete Segal types]] (i.e. [[complete Segal space]]-types), and covariant fibrations. 
 
 ## Definition
 
@@ -75,13 +75,13 @@ In the latter two approaches, the [[function type]] $\mathbb{I} \to A$ used in t
 
 ### Additional modalities
 
-Simplicial type theory has recently been augmented additional [[modalities]] in [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2024](#GWB24), [Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
+Simplicial type theory has recently been augmented with additional [[modalities]] in [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
 
 * The [[twisted arrow modality]] $A^\mathrm{tw}$
 
 ## $(\infty,1)$-category theory in simplicial type theory
 
-Since [[simplicial type theory]] is a [[synthetic mathematics|synthetic]] theory of [[simplicial anima]], simplicial type theory is typically used in [[(infinity,1)-category theory]] to define [[(infinity,1)-categories]] in the same way that [[(infinity,1)-categories]] are defined in [[simplicial anima]] as [[category objects in an (infinity,1)-category|category objects]] in [[anima]].
+Since [[simplicial type theory]] is a [[synthetic mathematics|synthetic]] theory of [[simplicial anima]], simplicial type theory is typically used in [[(infinity,1)-category theory]] to define [[Segal spaces]] (i.e. [[Segal types]]) and [[complete Segal spaces]] (i.e. [[complete Segal types]]).
 
 ### Shapes in simplicial type theory
 
@@ -105,7 +105,7 @@ $$\lambda t.t \circ (\mathrm{id}, P):(\Delta^2 \to A) \to (\Lambda^2_1 \to A)$$
 
 for all types $A$. 
 
-### Morphisms and $(\infty,1)$-precategories
+### Morphisms and Segal types
 
 The [[morphisms]] between elements $x:A$ and $y:A$ in a type $A$ are defined in simplicial type theory as a [[tuple]] consisting of a function $f:\mathbb{I} \to A$ and two identifications $p_0:f(0) = x$ and $p_1:f(1) = y$. The type of morphisms is called a *[[hom-type]]* and is defined as the [[dependent sum type]]
 
@@ -118,20 +118,20 @@ $$\mathrm{id}_A(x) \coloneqq (\lambda t.x, \beta_{\mathbb{I} \to A}^{t.x}(0), \b
 A *composite of morphisms* in a type $A$ is a function $f:\Delta^2 \to A$ from the [[2-simplex]] to $A$. A *pair of composable morphisms* in a type $A$ is a function $g:\Lambda^2_1 \to A$ from the [[horn]] $\Lambda^2_1$ to $A$. 
 
 \begin{definition}
-An *$(\infty,1)$-precategory* is a type $A$ which satisfies the [[Segal condition]]: for every pair of composable morphisms, there exists a unique composite. That is, the canonical function which takes a composite of morphisms to its pair of composible morphisms is an [[equivalence of types]]
+A *[[Segal type]]* is a type $A$ which satisfies the [[Segal condition]]: for every pair of composable morphisms, there exists a unique composite. That is, the canonical function which takes a composite of morphisms to its pair of composible morphisms is an [[equivalence of types]]
 
 $$\mathrm{isEquiv}(\lambda t.t \circ (\mathrm{id}, P))$$ 
 \end{definition}
 
-As a result, in an $(\infty,1)$-precategory $A$, for all elements $x:A$, $y:A$, and $z:A$, one can construct a [[composition]] operation on [[hom-types]] 
+As a result, in a [[Segal type]] $A$, for all elements $x:A$, $y:A$, and $z:A$, one can construct a [[composition]] operation on [[hom-types]] 
 
 $$\lambda (g, f).g \circ f:\mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, y) \to \mathrm{hom}_A(x, z)$$
 
 which by the uniqueness condition is automatically [[associative]] and [[unital]]. 
 
-The opposite $A^\op$ of an $(\infty,1)$-precategory $A$ is also an $(\infty,1)$-precategory; that is, the opposite modality preserves the [[Segal condition]].
+The opposite $A^\op$ of a Segal type $A$ is also a Segal type; that is, the opposite modality preserves the [[Segal condition]].
 
-### Isomorphisms and $(\infty,1)$-categories
+### Isomorphisms and complete Segal types
 
 A [[morphism]] $f:\mathrm{hom}_A(x, y)$ between elements $x:A$ and $y:A$ in a type $A$ is an *[[isomorphism]]* if one can construct a morphism $g:\mathrm{hom}_A(y, x)$ such that $g \circ f = \mathrm{id}_A(x)$ and a morphism $h:\mathrm{hom}_A(y, x)$ such that $f \circ h = \mathrm{id}_A(y)$. 
 
@@ -140,14 +140,14 @@ The type of isomorphisms is given by the [[dependent sum type]]
 $$\mathrm{iso}_A(x, y) \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} \left(\sum_{g:\mathrm{hom}_A(y, x)} g \circ f = \mathrm{id}_A(x)\right) \times \left(\sum_{h:\mathrm{hom}_A(y, x)} f \circ h = \mathrm{id}_A(y)\right)$$
 
 \begin{definition}
-An *$(\infty,1)$-category* is an $(\infty,1)$-precategory $A$ which additionally is [[Rezk complete]]: the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
+A *[[complete Segal type]]* is a Segal type which additionally is [[Rezk completion|complete]]: the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
 
 $$\prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
 \end{definition}
 
-The opposite $A^\op$ of an $(\infty,1)$-category $A$ is also an $(\infty,1)$-category; that is, the opposite modality preserves [[Rezk completeness]].
+The opposite $A^\op$ of a complete Segal type $A$ is also a complete Segal type; that is, the opposite modality preserves completeness.
 
-Examples of $(\infty,1)$-categories include the interval $\mathbb{I}$, the $n$-cubes $\mathrm{Fin}(n) \to \mathbb{I}$, and the $n$-simplices inductively defined by 
+Examples of complete Segal types include the interval $\mathbb{I}$, the $n$-cubes $\mathrm{Fin}(n) \to \mathbb{I}$, and the $n$-simplices inductively defined by 
  
 $$\Delta^0 \coloneqq \mathrm{Fin}(0) \to \mathbb{I}$$
 
