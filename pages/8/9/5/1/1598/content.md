@@ -266,8 +266,9 @@ The [[exceptional Lie groups]] incude
 * [[Mark Haiman]] (notes by [[Theo Johnson-Freyd]]), _Lie groups_, lecture notes, Berkeley (2008) &lbrack;[[Haiman-LieGroups09.pdf:file]]&rbrack;
 
 
-
 * [[Eckhard Meinrenken]], _Lie groups and Lie algebras_, Lecture notes (2010) &lbrack;[pdf](http://www.math.toronto.edu/mein/teaching/LectureNotes/lie.pdf)&rbrack;
+
+* [[A. P. Balachandran]], S. G. Jo, [[Giuseppe Marmo]]: *Group Theory and Hopf Algebras -- Lectures for Physicists*, World Scientific (2010) &lbrack;[doi:10.1142/7872](https://doi.org/10.1142/7872)&rbrack;
 
 
 * {#HilgertNeeb12} [[Joachim Hilgert]], [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer (2012) &lbrack;[doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8)&rbrack;
