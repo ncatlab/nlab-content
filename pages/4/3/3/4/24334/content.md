@@ -61,7 +61,7 @@ In addition, simplicial type theory comes with a designated [[bounded total orde
 
 * $n$-cubes detect continuity: for every crisp function $f::A \to B$, $f$ is $\sharp$-modal [[if and only if]] it lifts up against the $\flat$-counit $\flat(-):\flat(\mathrm{Fin}(n) \to \mathbb{I}) \to (\mathrm{Fin}(n) \to \mathbb{I})$ for all crisp natural numbers $n::\mathbb{N}$, where $\mathrm{Fin}(n) \coloneqq \sum_{i:\mathbb{N}} i \lt n$ is the crisp standard [[finite set]] with $n$ elements. 
 
-* $\mathbb{I}$ is [[tiny object|tiny]]: the [[path space]] [[modality]] $\mathbb{I} \to (-)$ has an [[amazing right adjoint]] $(-)^{1/\mathbb{I}}$. 
+* $\mathbb{I}$ is [[tiny object|tiny]]: the heterogeneous  [[path space]] [[modality]] $\prod_{i:\mathbb{I}} (-)(i)$ has an [[amazing right adjoint]] $(-)^{1/\mathbb{I}}$. 
 
 * a [[Kock-Lawvere axiom|Kock-Lawvere]]-esque [[duality]] axiom: let $A$ be a finitely presented $\mathbb{I}$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\mathbb{I}[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I})$ be the type of $\mathbb{I}$-algebra homomorphisms. Then the following function is an [[equivalence of types]]
 
@@ -142,7 +142,7 @@ The type of isomorphisms is given by the [[dependent sum type]]
 $$\mathrm{iso}_A(x, y) \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} \left(\sum_{g:\mathrm{hom}_A(y, x)} g \circ f = \mathrm{id}_A(x)\right) \times \left(\sum_{h:\mathrm{hom}_A(y, x)} f \circ h = \mathrm{id}_A(y)\right)$$
 
 \begin{definition}
-A *[[complete Segal type]]* is a Segal type which additionally is [[Rezk completion|complete]]: the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
+A *[[complete Segal type]]* is a Segal type which additionally is [[Rezk completion|complete]]: the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\lambda t.\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
 
 $$\prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
 \end{definition}
@@ -171,13 +171,23 @@ $$\mathrm{isCovariant}(t:A.B(t)) \coloneqq \prod_{x:A} \prod_{y:A} \prod_{f:\mat
 
 ### Amazing covariance and directed univalent universes
 
-Definition of an amazingly covariant type to be inserted here
+A type $A$ is an **amazingly covariant type** if it satisfies the following predicate
 
-(...)
+$$\mathrm{isACov}(A) \coloneqq \mathrm{isCov}(i:\mathbb{I}.A^\eta \cdot i)^{1 / \mathbb{I}}$$
 
 Let $(U, T)$ be a [[univalent Tarski universe]]. The [[directed univalence|directed univalent]] subuniverse $\mathcal{S} \hookrightarrow U$ is defined as the type of $U$-small amazingly covariant types:
 
 $$\mathcal{S} \coloneqq \sum_{X:U} \mathrm{isACov}(T(X))$$
+
+The directed univalent universe $\mathcal{S}$ is a [[finitely complete Segal type|finitely complete]] and [[finitely cocomplete Segal type|finitely cocomplete]] [[complete Segal type]]. 
+
+### Limits and colimits
+
+* [[initial object in simplicial type theory]]
+
+* [[terminal object in simplicial type theory]]
+
+* [[coproduct in simplicial type theory]]
 
 ## See also
 
@@ -203,7 +213,15 @@ $$\mathcal{S} \coloneqq \sum_{X:U} \mathrm{isACov}(T(X))$$
 
 * [[Jonathan Weinberger]], *A Synthetic Perspective on $(\infty,1)$-Category Theory: Fibrational and Semantic Aspects* $[$[arXiv:2202.13132](https://arxiv.org/abs/2202.13132)$]$
 
+* Fredrik Bakke, *Segal Spaces in Homotopy Type Theory*. Master thesis $[$[no.ntnu:inspera:99217069:14871483	](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2995704)$]$
+
+* [[César Bardomiano Martínez]], *Limits and colimits of synthetic $\infty$-categories* $[$[arXiv:2202.12386](https://arxiv.org/abs/2202.12386)$]$
+
 * [[Jonathan Weinberger]], *Strict stability of extension types* $[$[arXiv:2203.07194](https://arxiv.org/abs/2203.07194)$]$
+
+* [[Jonathan Weinberger]], *Two-sided cartesian fibrations of synthetic $(\infty,1)$-categories* $[$[arXiv:2204.00938](https://arxiv.org/abs/2204.00938)$]$
+
+* [[Jonathan Weinberger]], *Internal sums for synthetic fibered $(\infty,1)$-categories* $[$[arXiv:2205.00386](https://arxiv.org/abs/2205.00386)$]$
 
 * [[David Jaz Myers]], [[Mitchell Riley]], *Commuting Cohesions* &lbrack;[arXiv:2301.13780](https://arxiv.org/abs/2301.13780)&rbrack;
 
