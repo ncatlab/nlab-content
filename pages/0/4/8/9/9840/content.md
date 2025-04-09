@@ -19,6 +19,11 @@ On the [[spin-statistics theorem]] for [[non-relativistic particles]] via the [[
 
 * [[Aiyalam P. Balachandran]], A. Daughton, Z. C. Gu, [[Giuseppe Marmo]], [[Rafael D. Sorkin]] *Spin statistics theorems without relativity or field theory*, Int. J. Mod. Phys. A **8** (1993) 2993-3044 &lbrack;[doi:10.1142/S0217751X93001223](https://doi.org/10.1142/S0217751X93001223)&rbrack;
 
+On [[group theory]], [[Lie theory]], [[representation theory]],  and [[Hopf algebras]] for [[physics]]:
+
+* [[A. P. Balachandran]], S. G. Jo, [[Giuseppe Marmo]]: *Group Theory and Hopf Algebras -- Lectures for Physicists*, World Scientific (2010) &lbrack;[doi:10.1142/7872](https://doi.org/10.1142/7872)&rbrack;
+
+
 Discussion of [[density matrices]], [[quantum entanglement]] and [[entropy]] in [[quantum probability]]/[[algebraic quantum field theory|algebraic quantum theory]], via the [[GNS construction]]:
 
 * [[A. P. Balachandran]], T. R. Govindarajan, Amilcar R. de Queiroz, A. F. Reyes-Lega, Section II of: *Algebraic approach to entanglement and entropy*, Phys. Rev. A **88** (2013) 022301  &lbrack;[arXiv:1301.1300](http://arxiv.org/abs/1301.1300), [doi:10.1103/PhysRevA.88.022301](https://doi.org/10.1103/PhysRevA.88.022301)&rbrack;
