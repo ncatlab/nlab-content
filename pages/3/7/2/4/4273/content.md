@@ -19,6 +19,10 @@ On the [[CS-WZW correspondence]] via [[factorization algebras]]:
 
 * {#GwilliamRabinovichWilliams2022} [[Owen Gwilliam]], [[Eugene Rabinovich]], [[Brian R. Williams]], *Factorization algebras and abelian CS/WZW-type correspondences*, Pure and Applied Mathematics Quarterly **18** 4 (2022) 1485–1553  &lbrack;[arXiv:2001.07888](https://arxiv.org/abs/2001.07888), [doi:10.4310/PAMQ.2022.v18.n4.a7](https://dx.doi.org/10.4310/PAMQ.2022.v18.n4.a7)&rbrack;
 
+On [[generalized global symmetries]] via [[factorization algebras]] and [[classifying spaces]]:
+
+* [[Owen Gwilliam]]: *Remarks on the locality of generalized global symmetries* &lbrack;[arXiv:2504.05626](https://arxiv.org/abs/2504.05626)&rbrack;
+
 
 
 ## Related entries
