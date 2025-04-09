@@ -36,9 +36,15 @@ There have been two main styles of approaches to formal $(\infty,1)$-category th
 
 ### Type theoretic approaches
 
-* [Riehl & Shulman 2017](#RiehlShulman17) propose a type theory called *[[simplicial type theory]]*, which have [[categorical semantics]] in [[bisimplicial sets]]. This is further developed by [Buchholtz & Weinberger 2021](#BuchholtzWeinberger21). 
+The type theoretic approaches attempt to formalise the [[internal logic]] of a [[cohesive (infinity,1)-topos|cohesive $(\infty,1)$-topos]] or [[local (infinity,1)-topos|local $(\infty,1)$-topos]] $\mathbf{H}$ over $\infty\mathrm{Grpd}$, such that $(\infty,1)\mathrm{Cat} \hookrightarrow \mathbf{H}$ is a $(\infty,1)$-subcategory of $\mathbf{H}$. Examples include
 
-* [Weaver & Licata 2020](#WeaverLicata20) propose a type theory, with semantics in [[bicubical sets]].
+* [Riehl & Shulman 2017](#RiehlShulman17) propose a type theory called *[[simplicial type theory]]*, which have [[categorical semantics]] in [[simplicial infinity-groupoids]] or [[bisimplicial sets]]. This is further developed by [Buchholtz & Weinberger 2021](#BuchholtzWeinberger21). 
+
+* [Gratzer, Weinberger & Buchholtz 2024](#GWB24) propose a modification of simplicial type theory called *[[triangulated type theory]]*, which have [[categorical semantics]] in [[cubical infinity-groupoids]] or [[cubical-simplicial sets]]. 
+
+* [Weaver & Licata 2020](#WeaverLicata20) propose a type theory, which has semantics in [[bicubical sets]].
+
+* [Kolomatskaia & Shulman 2023](#KS23) propose a type theory called *[[displayed type theory]]*, which has [[categorical semantics]] in [[augmented simplicial set|augmented]] [[semi-simplicial object|semi-simplicial]] $\infty$-groupoids. Unlike the previous three type theories, the semantics is not cohesive over $\infty\mathrm{Grpd}$ ([Aberlé 2024](#Aberle24)). 
 
 ## Related pages
 
@@ -116,6 +122,11 @@ A talk on [[synthetic (infinity,1)-category theory]] in [[simplicial type theory
 
 * [[Emily Riehl]], *The synthetic theory of infinity-categories vs the synthetic theory of infinity-categories*, [[Homotopy Type Theory Electronic Seminar Talks]], 1 March 2018, ([video](https://www.youtube.com/watch?v=ge-9m1SsEmc), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riehl-2018-03-01-HoTTEST.pdf))
 
+The authors of the following paper suggest that it should be possible to formalise $(\infty,1)$-categories in [[displayed type theory]]:
+
+* {#KS23} [[Astra Kolomatskaia]], [[Michael Shulman]], *Displayed Type Theory and Semi-Simplicial Types* &lbrack;[arXiv:2311.18781](https://arxiv.org/abs/2311.18781)&rbrack; 
+
+* {#Aberle24} [[C.B. Aberlé]], *Parametricity via Cohesion* &lbrack;[arXiv:2404.03825](https://arxiv.org/abs/2404.03825)&rbrack; 
 
 [[!redirects formal (∞,1)-category theory]]
 [[!redirects formal infinity1-category theory]]
