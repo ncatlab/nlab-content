@@ -987,7 +987,7 @@ Textbook accounts:
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
-* {#RudolfSchmidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], Thm. 3.5.1 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+* {#RudolfSchmidt17} [[Gerd Rudolph]], [[Matthias Schmidt]], Thm. 3.5.1 of: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer (2017) &lbrack;[doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8)&rbrack;
 
 * [[Loring Tu]], Section I.5 in: *Introductory Lectures on Equivariant Cohomology*, Annals of Mathematics Studies **204**, AMS 2020 ([ISBN:9780691191744](https://press.princeton.edu/books/hardcover/9780691191744/introductory-lectures-on-equivariant-cohomology))
 
