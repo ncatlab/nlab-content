@@ -276,6 +276,9 @@ $$S(x)=xe_0+ye_1$$
 
 * Nicolas Andruskiewitsch, Walter Ferrer Santos, *The beginnings of the theory of Hopf algebras*, Acta Appl Math **108** (2009) 3-17 &lbrack;[arXiv:0901.2460](https://arxiv.org/abs/0901.2460)&rbrack;
 
+* [[A. P. Balachandran]], S. G. Jo, [[Giuseppe Marmo]]: *Group Theory and Hopf Algebras -- Lectures for Physicists*, World Scientific (2010) &lbrack;[doi:10.1142/7872](https://doi.org/10.1142/7872)&rbrack;
+
+
 The diagrammatic definition of a Hopf algebra, is also in the [Wikipedia entry](http://en.wikipedia.org/wiki/Hopf_algebra#Formal_definition).
 
 * Eiichi Abe, _Hopf algebras_, Cambridge UP 1980.
