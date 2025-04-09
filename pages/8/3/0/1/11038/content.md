@@ -118,26 +118,17 @@ The following examples have no classical analog:
 
 \linebreak
 
-**[[Pauli gates]]**
+Forther (types of) quantum gates:
 
-(...)
+* [[Pauli gates]]
 
-\linebreak
+* [[Clifford gates]]
 
-**[[rotation gate]]**
+* [[rotation gates]]
 
-(...)
-
-\linebreak
-
-**[[T gate]]** and **[[S gate]]**
-
-(...)
+* [[T gate]], [[S gate]]
 
 \linebreak
-
-(...)
-
 
 ## Related concepts
 
