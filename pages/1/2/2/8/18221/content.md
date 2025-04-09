@@ -45,6 +45,12 @@ $$idtoiso : (a=b) \to (a \cong b)$$
 an equivalence of types. 
 \end{definition}
 
+### In simplicial type theory
+
+In [[simplicial type theory]], a **univalent category** or **saturated category** is a [[complete Segal type]] in which all [[hom-types]] are [[sets]].
+
+$$\mathrm{isUniCat}(A) \coloneqq \mathrm{isCompleteSegal}(A) \times \prod_{x:A} \prod_{y:A} \mathrm{isSet}(\mathrm{hom}_A(x, y))$$
+
 ## Comparing notions of category
 
 In [[homotopy type theory]], univalent categories are arguably the best notion of "category".  Specifically, in HoTT/UF:
@@ -152,6 +158,7 @@ There is a canonical way to turn a [[category]] into a univalent category via th
 
 * [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theory]]
 
+* [[complete Segal type]]
 
 ## References
  {#References}
