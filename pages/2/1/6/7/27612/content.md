@@ -56,6 +56,14 @@ $$
 
 of $\infty$-groupoids and of $(\infty,1)$-categories inside $\infty\mathrm{Grpd}^{\Delta^{op}}$.
 
+There is also an [[automorphism|automorphic]] [[(infinity,1)-functor|$(\infty,1)$-functor]] 
+
+$$
+  (-)^\op : \infty\mathrm{Grpd}^{\Delta^\op} \to \infty\mathrm{Grpd}^{\Delta^\op}
+$$
+
+on $\infty\mathrm{Grpd}^{\Delta^{op}}$ which takes a simplicial $\infty$-groupoid to its [[opposite simplicial infinity-groupoid|opposite simplicial $\infty$-groupoid]]. When restricted to the $(\infty,1)$-subcategory $(\infty,1)\mathrm{Cat} \hookrightarrow \infty\mathrm{Grpd}^{\Delta^\op}$, the $(-)^\op$ $(\infty,1)$-functor takes [[(infinity,1)-category|$(\infty,1)$-categories]] to its [[opposite (infinity,1)-category|opposite $(\infty,1)$-category]].  
+
 ### Cohesion
 
 Since $\infty\mathrm{Grpd}$ is an [[(∞,1)-topos]], $\infty\mathrm{Grpd}^{\Delta^{op}}$ is a [[cohesive (∞,1)-topos]] over $\infty\mathrm{Grpd}$:
