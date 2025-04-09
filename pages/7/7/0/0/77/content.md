@@ -231,6 +231,7 @@ See
 [[!include infinitesimal and local - table]]
 
 
+
 ## References
 
 Monographs:
@@ -270,6 +271,8 @@ Monographs:
 * [[Shlomo Sternberg]]: *Lie Algebras* (2004) &lbrack;[pdf](https://people.math.harvard.edu/~shlomo/docs/lie_algebras.pdf), [[Sternberg-LieAlgebras.pdf:file]]&rbrack;
 
 * [[Alexandre Kirillov]]: *An Introduction to Lie Groups and Lie Algebras*, Cambridge University Press (2008) \[<a href="https://doi.org/10.1017/CBO9780511755156">doi:10.1017/CBO9780511755156</a>\]
+
+* [[A. P. Balachandran]], S. G. Jo, [[Giuseppe Marmo]]: *Group Theory and Hopf Algebras -- Lectures for Physicists*, World Scientific (2010) &lbrack;[doi:10.1142/7872](https://doi.org/10.1142/7872)&rbrack;
 
 
 * [[Eckhard Meinrenken]], _Lie groups and Lie algebas_, Lecture notes (2010) &lbrack;[pdf](https://www.math.toronto.edu/mein/teaching/MAT1120_LieGroups/l1.pdf)&rbrack;
