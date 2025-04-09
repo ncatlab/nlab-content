@@ -51,6 +51,7 @@ $$
 
 * [[initial object in a 2-category]]
 
+* [[terminal object in a Segal type]]
 
 ##References#
 
