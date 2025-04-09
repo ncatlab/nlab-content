@@ -13,21 +13,19 @@
 
 ## Idea
 
-In [[dependent type theory]], a [[hom type]] on a type $A$ is a [[dependent type]] $\mathrm{hom}_A(x, y)$ which models the [[hom spaces]] of [[(infinity,1)-category|$\infty$-categories]]. 
+In [[simplicial type theory]], a [[hom type]] on a type $A$ is a [[dependent type]] $\mathrm{hom}_A(x, y)$ which models the [[hom spaces]] of [[(infinity,1)-category|$\infty$-categories]]. 
 
 ## Definition 
 
-### In simplicial homotopy type theory
-
 There are multiple different formalisms of simplicial homotopy type theory; two of them are given in [Gratzer, Weinberger, & Buchholtz 2024](#GWB24) and in [Riehl & Shulman 2017](#RiehlShulman17), and in each formalism there is a different way to define the hom type. 
 
-#### Directed interval via axioms
+### Directed interval via axioms
 
 In [[simplicial homotopy type theory]] where the directed interval primitive $\mathbb{2}$ is defined via axioms as a [[bounded total order]], the hom type is defined as the [[dependent sum type]]
 
 $$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{2} \to A} (f(0) =_A x) \times (f(1) =_A y)$$
 
-#### Type theory with shapes formalism
+### Type theory with shapes formalism
 
 In [[simplicial homotopy type theory]] in the [[type theory with shapes]] formalism, the hom type is defined as the [[extension type]]
 
