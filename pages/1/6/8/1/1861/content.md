@@ -1263,8 +1263,11 @@ Original articles:
 
 * [[Jan Jaworowski]], _Generalized cohomotopy groups as limit groups_, Fundamenta Mathematicae 50 (1962), 393-402 ([doi:10.4064/fm-50-4-333-340](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/4), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm50/fm50133.pdf))
 
+Textbook account:
 
-See also 
+* {#SzeTsen59} [[Sze-Tsen Hu]]: *Cohomotopy Groups*, chapter VII in: *Homotopy Theory*, Academic Press (1959) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hu2.pdf)&rbrack;
+
+See also:
 
 * Wikipedia: _[Cohomotopy group](http://en.wikipedia.org/wiki/Cohomotopy_group)_
 
