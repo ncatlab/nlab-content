@@ -40,7 +40,7 @@ Explicitly this means that (in the conentional normalization) the:
 1. *Pauli-Y gate* is given by the [[matrix]]
 
    $$
-     X \;\;\coloneqq\;\; 
+     Y \;\;\coloneqq\;\; 
      \left[
        \begin{array}{cc}
          0 & - \mathrm{i} 
@@ -53,7 +53,7 @@ Explicitly this means that (in the conentional normalization) the:
 1. *Pauli-Z gate* is given by the [[matrix]]
 
    $$
-     X \;\;\coloneqq\;\; 
+     Z \;\;\coloneqq\;\; 
      \left[
        \begin{array}{cc}
          1 & 0 
