@@ -15,6 +15,8 @@
 
 Arguments that the proposal of [Schwinger 1969](groupoid+algebra#Schwinger1969), [Schwinger & Berthold-Englert 2001](groupoid+algebra#SchwingerBerthold-Englert01) for an "algebra of (selective) measurement" in [[quantum physics]] is to be understood as [[groupoid convolution algebra]] of [[groupoids]] whose  [[morphisms]] reflect transitions between possible [[quantum measurement]]-outcomes:
 
+* [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *A gentle introduction to Schwinger's formulation of quantum mechanics: The groupoid picture*, Modern Physics Letters A, **33** 20 (2018) \[<a href="https://doi.org/10.1142/S0217732318501225">doi:10.1142/S0217732318501225</a>, [arXiv:1807.00519](https://arxiv.org/abs/1807.00519)\]
+
 * [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's Picture of Quantum Mechanics I: Groupoids*, Int.  J. Geometric Methods in Modern Physics **16** 08 (2019) 1950119 \[<a href="https://doi.org/10.1142/S0219887819501196">doi:10.1142/S0219887819501196</a>, [arXiv:1905.12274](https://arxiv.org/abs/1905.12274)\]
 
 * [[Florio M. Ciaglia]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schwinger's Picture of Quantum Mechanics II: Algebras and Observables*, Int. J. Geometric Methods in Modern Physics **16** 09 (2019) 1950136 \[<a href="https://doi.org/10.1142/S0219887819501366">doi:10.1142/S0219887819501366</a>, [arXiv:1907.03883](https://arxiv.org/abs/1907.03883)\]
