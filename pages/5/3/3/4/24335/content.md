@@ -106,7 +106,7 @@ For synthetic (infinity, 1)-category theory in [[simplicial type theory]]:
 
 * Fredrik Bakke, *Segal Spaces in Homotopy Type Theory*. Master thesis $[$[no.ntnu:inspera:99217069:14871483	](https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/2995704)$]$
 
-* César Bardomiano Martínez, *Limits and colimits of synthetic $\infty$-categories* $[$[arXiv:2202.12386](https://arxiv.org/abs/2202.12386)$]$
+* [[César Bardomiano Martínez]], *Limits and colimits of synthetic $\infty$-categories* $[$[arXiv:2202.12386](https://arxiv.org/abs/2202.12386)$]$
 
 * [[Jonathan Weinberger]], *Strict stability of extension types* $[$[arXiv:2203.07194](https://arxiv.org/abs/2203.07194)$]$
 
