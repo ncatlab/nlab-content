@@ -5,15 +5,13 @@
 
 In [[simplicial type theory]] and related approaches to [[synthetic mathematics|synthetic]] [[simplicial anima]], the **op modality** is a [[modality]] $(-)^\op$ which takes a type, representing simplicial anima, and turns it into the opposite type, representing the [[opposite simplicial anima]]. 
 
-In particular, for [[(infinity,1)-category theory]], the modality can take a [[Rezk type]], representing [[(infinity,1)-categories]], and turns it into the opposite [[Rezk type]], representing the [[opposite (infinity,1)-category]]. 
+In particular, for [[(infinity,1)-category theory]], the modality can take a [[complete Segal type]], representing [[(infinity,1)-categories]], and turns it into the opposite [[complete Segal type]], representing the [[opposite (infinity,1)-category]]. 
 
 ## Related concepts
 
 * [[opposite simplicial infinity-groupoid]]
 
-* [[Segal type]]
-
-* [[Rezk type]]
+* [[simplicial type theory]]
 
 * [[twisted arrows modality]]
 
