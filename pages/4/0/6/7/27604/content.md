@@ -36,6 +36,8 @@ The [[Gottesman-Knill theorem]] states that [[quantum circuits]] which are built
 
 ## References
 
+### General
+
 The origin of the attention paid to the [[normalizer subgroup]] of the [[Pauli group]] inside the [[unitary group]] is (p 5 of):
 
 * {#Gottesman98} [[Daniel Gottesman]]: *A Theory of Fault-Tolerant Quantum Computation*, Phys. Rev. A **57** (1998) 127 &lbrack;[arXiv:quant-ph/9702029](https://arxiv.org/abs/quant-ph/9702029), [doi:10.1103/PhysRevA.57.127](https://doi.org/10.1103/PhysRevA.57.127)&rbrack;
@@ -44,7 +46,7 @@ Contrary to common claims, the term "Clifford group" for this normalizer subgrou
 
 Review:
 
-* J. Tolar: *On Clifford groups in quantum computing*, J. Phys.: Conf. Series **1071** (2018) 012022 &lbrack;[arXiv:1810.10259](https://arxiv.org/abs/1810.10259), [doi:10.1088/1742-6596/1071/1/012022](https://doi.org/10.1088/1742-6596/1071/1/012022)&rbrack;
+* Jiri Tolar: *On Clifford groups in quantum computing*, J. Phys.: Conf. Series **1071** (2018) 012022 &lbrack;[arXiv:1810.10259](https://arxiv.org/abs/1810.10259), [doi:10.1088/1742-6596/1071/1/012022](https://doi.org/10.1088/1742-6596/1071/1/012022)&rbrack;
 
 * Kieran Mastel: *The Clifford theory of the $n$-qubit Clifford group* &lbrack;[arXiv:2307.05810](https://arxiv.org/abs/2307.05810)&rbrack;
 
@@ -59,6 +61,28 @@ See also:
 * George Biswas: *Exploring Classical Simulation of Quantum Circuits of Clifford Gates through Simple Examples and Intuitive Insights* &lbrack;[arXiv:2405.13590](https://arxiv.org/abs/2405.13590)&rbrack;
 
 
+### Realizing protected non-Clifford gates
+ {#RealizingNonCliffordGates}
+
+The practical issue of realizing fault-tolerant non-Clifford gates (either via [[quantum error correction]] or via [[topological quantum computing|topological error protection]]):
+
+* Marek Narożniak et al.: *Quantum gates for Majoranas zero modes in topological superconductors in one-dimensional geometry*, Phys. Rev. B **103** (2021) 205429 &lbrack;[doi:10.1103/PhysRevB.103.205429](https://doi.org/10.1103/PhysRevB.103.205429)&rbrack;
+
+* Ali Hamed Safwan, Raditya Weda Bomantara: *Generating non-Clifford gate operations through exact mapping between Majorana fermions and $\mathbb{Z}_4$ parafermions* &lbrack;[arXiv:2411.18736](https://arxiv.org/abs/2411.18736)&rbrack;
+
+* Wang Yifei et al.: *Efficient fault-tolerant implementations of non-Clifford gates with reconfigurable atom arrays*, npj Quantum Information **10** 136 (2024) &lbrack;[doi:10.1038/s41534-024-00945-3](https://doi.org/10.1038/s41534-024-00945-3)&rbrack;
+
+* Louis Golowich: *Improved Fault-Tolerant Non-Clifford Gates (or: How to Multiply Quantumly)*, talk at IAS (March 03, 2025) &lbrack;[ias.edu](https://www.ias.edu/video/improved-fault-tolerant-non-clifford-gates-or-how-multiply-quantumly), [youtu.be](https://youtu.be/0laX71DNUrg)&rbrack;
+
+* Margarita Davydova et al.: *Universal fault tolerant quantum computation in 2D without getting tied in knots* &lbrack;[arXiv:2503.15751](https://arxiv.org/abs/2503.15751)&rbrack;  
+
+* Microsoft Quantum: *Non-Clifford operations*, appendix D of: *Roadmap to fault tolerant quantum computation using topological qubit arrays* &lbrack;[arXiv:2502.12252](https://arxiv.org/abs/2502.12252), [inSpire:2890977](https://inspirehep.net/literature/2890977)&rbrack;
+
+
+
 [[!redirects Clifford groups]]
 
 [[!redirects Gottesman-Knill theorem]]
+
+[[!redirects Clifford gate]]
+[[!redirects Clifford gates]]
