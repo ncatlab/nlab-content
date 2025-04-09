@@ -68,7 +68,15 @@ $$
   (-)^\op : \infty\mathrm{Grpd}^{\Delta^\op} \to \infty\mathrm{Grpd}^{\Delta^\op}
 $$
 
-on $\infty\mathrm{Grpd}^{\Delta^{op}}$ which takes a simplicial $\infty$-groupoid to its [[opposite simplicial infinity-groupoid|opposite simplicial $\infty$-groupoid]]. When restricted to the $(\infty,1)$-subcategory $(\infty,1)\mathrm{Cat} \hookrightarrow \infty\mathrm{Grpd}^{\Delta^\op}$, the $(-)^\op$ $(\infty,1)$-functor takes [[(infinity,1)-category|$(\infty,1)$-categories]] to its [[opposite (infinity,1)-category|opposite $(\infty,1)$-category]].  
+on $\infty\mathrm{Grpd}^{\Delta^{op}}$ which takes a simplicial $\infty$-groupoid to its [[opposite simplicial infinity-groupoid|opposite simplicial $\infty$-groupoid]]. When restricted to the $(\infty,1)$-subcategory $(\infty,1)\mathrm{Cat} \hookrightarrow \infty\mathrm{Grpd}^{\Delta^\op}$, the $(-)^\op$ $(\infty,1)$-functor takes [[(infinity,1)-category|$(\infty,1)$-categories]] to its [[opposite (infinity,1)-category|opposite $(\infty,1)$-category]]. 
+
+The simplicial interval $\Delta^1 \in \infty\mathrm{Grpd}^{\Delta^{op}}$ (regarded under [[(∞,1)-Yoneda embedding]]) is a [[tiny object]]: there is an [[amazing right adjoint]]
+
+$$
+  (-)^{1/\Delta^1} : \infty\mathrm{Grpd}^{\Delta^\op} \to \infty\mathrm{Grpd}^{\Delta^\op}
+$$
+
+on $\infty\mathrm{Grpd}^{\Delta^{op}}$. 
 
 ### Cohesion
 
