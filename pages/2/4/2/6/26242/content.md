@@ -7,6 +7,11 @@
 
 Bicubical set are to [[cubical sets]] as [[bisimplicial sets]] are to [[simplicial sets]].
 
+## Related concepts
+
+* [[bisimplicial set]]
+* [[cubical-simplicial set]]
+
 ## References
 
 On [[synthetic (∞,1)-category theory]] in [[cubical type theory]] with bicubical sets:
