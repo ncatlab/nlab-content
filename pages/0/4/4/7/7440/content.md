@@ -1577,6 +1577,9 @@ Formalizations of [[1-categories]] and [[(n,1)-categories]] internal to [[homoto
 [[!redirects (infinity,1)-category objects]]
 [[!redirects (∞,1)-category objects]]
 
+[[!redirects Segal space object]]
+[[!redirects Segal space objects]]
+
 [[!redirects complete Segal space object]]
 [[!redirects complete Segal space objects]]
 
