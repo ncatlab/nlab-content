@@ -11,12 +11,16 @@ The general concept of [[braiding]] of [[defects]] in [[solid state physics]]:
 
 and more specifically for [[vortices]]:
 
-* {#LoPreskill93} [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 $[$[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)$]$
+* {#LoPreskill93} [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 \[<a href="https://doi.org/10.1103/PhysRevD.48.4821">doi:10.1103/PhysRevD.48.4821</a>\]
 
 Explicit discussion as defect [[anyons]]:
 
 * {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 \[<a href="https://doi.org/10.1016/j.aop.2005.10.005">doi:10.1016/j.aop.2005.10.005</a>\]
   > ${}$ \[p. 4:\] "*Anyonic particles are best viewed as a kind of topological defects that reveal nontrivial properties of the ground state.*"
+
+and with focus on defect [anyons in momentum space](braid+group+statistics#ReferencesAnyonicBraidingInMomentumSpace):
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *Anyonic topological order in TED K-theory*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
 
 {#ReferencesGenons} Anyonic defects which act as **genons**, changing the effective [[genus of a surface|genus]] of the ambient 2D [[surface]]:
 
