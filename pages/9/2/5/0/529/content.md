@@ -498,12 +498,15 @@ for the case of [[locally compact topological groups]]:
 
 * {#Dixmier77} [[Jacques Dixmier]], §13.2 in: *$C^\ast$-algebras*, North Holland (1977)
 
+
 * {#Landsman17} [[Klaas Landsman]], §C.18 in: *Foundations of quantum theory -- From classical concepts to Operator algebras*, Springer Open (2017) &lbrack;[doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf)&rbrack;
 
 
 for the case of [[finite groups]]:
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]], Section 3.4 of: *Representation Theory: a First Course*, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
+
+* [[A. P. Balachandran]], S. G. Jo, [[Giuseppe Marmo]], p 51, 197 of: *Group Theory and Hopf Algebras -- Lectures for Physicists*, World Scientific (2010) &lbrack;[doi:10.1142/7872](https://doi.org/10.1142/7872)&rbrack;
 
 
 Lecture notes:
