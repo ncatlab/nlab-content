@@ -305,6 +305,7 @@ $$
 
 * [[homotopy Kan fibration]]
 
+* [[cubical object in an (infinity,1)-category]]
 
 ## References
 
