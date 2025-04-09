@@ -56,6 +56,8 @@ Cubical $\infty$-groupoids can be modeled by [[cubical-simplicial sets]].
 
 * [[cubical object]]
 
+* [[cubical object in an (infinity,1)-category]]
+
 * [[triangulated type theory]]
 
 * [[cubical-simplicial set]]
