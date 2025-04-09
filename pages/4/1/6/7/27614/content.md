@@ -16,7 +16,7 @@
 
 ## Definition
 
-For $A$ a [[simplicial infinity-groupoid|simplicial $\infty$-groupoid]], it's opposite is the simplicial $\infty$-groupoid $A^{op}$ obtained by reversing the order of all the face and degeneracy maps. 
+For $A$ a [[simplicial infinity-groupoid|simplicial $\infty$-groupoid]], its opposite is the simplicial $\infty$-groupoid $A^{op}$ obtained by reversing the order of all the face and degeneracy maps. 
 
 ## Properties
 
