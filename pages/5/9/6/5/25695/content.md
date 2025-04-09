@@ -2,6 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
 #### Directed homotopy type theory
 +-- {: .hide}
 [[!include directed homotopy type theory - contents]]
@@ -10,6 +18,10 @@
 =--
 
 \tableofcontents
+
+## Idea
+
+The analogue of an [[anima]] in [[simplicial type theory]]. 
 
 ## Definition
 
@@ -38,11 +50,16 @@ $$
   \mathrm{id}_A(x)
 $$
 
+## Categorical semantics
+
+The [[categorical semantics]] of a discrete Segal type is a [[groupoid object in an (infinity,1)-category|groupoid]] in a [[locally cartesian closed (infinity,1)-category|locally cartesian closed $(\infty,1)$-category]] $\mathbf{H}$. 
+
 ## Related concepts
 
 * [[hom type]]
 * [[Segal type]]
 * [[Rezk type]]
+* [[anima]]
 * [[univalent groupoid]]
 
 ## References
