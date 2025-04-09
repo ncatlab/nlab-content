@@ -7,6 +7,21 @@
 
 ## Selected writings
 
+On [[experiment|experimental]] realization and observation of [[fractional quantum Hall systems]]:
+
+* [[Javad Shabani]], T. Gokmen, Y. T. Chiu, M. Shayegan: *Observation of fractional quantum Hall effect at even-denominator $1/2$ and $1/4$ fillings in asymmetric wide quantum wells*, Phys. Rev. Lett. **103** (2009) 256802 &lbrack;[arXiv:0909.2262](https://arxiv.org/abs/0909.2262), [doi:10.1103/PhysRevLett.103.256802](https://doi.org/10.1103/PhysRevLett.103.256802)&rbrack;
+
+* Yang Liu, [[Javad Shabani]], Mansour Shayegan:
+*When are the $q/3$ fractional quantum Hall states stable?*, Phys. Rev. B **84** (2011) 195303 &lbrack;[arXiv:1102.0070](https://arxiv.org/abs/1102.0070), [doi:10.1103/PhysRevB.84.195303](https://doi.org/10.1103/PhysRevB.84.195303)&rbrack;
+
+* Yang Liu, [[Javad Shabani]], D. Kamburov, M. Shayegan, L.N. Pfeiffer, K.W. West, K.W. Baldwin: *Evolution of the $7/2$ fractional quantum Hall state in two-subband systems*, PRL. 107 (2011) 266802 &lbrack;[arXiv:1109.1491](https://arxiv.org/abs/1109.1491), [doi:10.1103/PhysRevLett.107.266802](https://doi.org/10.1103/PhysRevLett.107.266802)&rbrack;
+
+* Keji Lai, Worasom Kundhikanjana, Michael A. Kelly, Zhi-Xun Shen, [[Javad Shabani]], Mansour Shayegan: *Imaging of the Coulomb driven quantum Hall edge states*, Phys. Rev. Lett. **107** (2011) 176809 &lbrack;[arXiv:1110.0067](https://arxiv.org/abs/1110.0067), [doi:10.1103/PhysRevLett.107.176809](https://doi.org/10.1103/PhysRevLett.107.176809)&rbrack;
+
+* [[Javad Shabani]], Y. Liu, M. Shayegan, L. N. Pfeiffer, K.W. West, K.W. Baldwin: *Phase Diagrams for the $\nu = 1/2$ Fractional Quantum Hall Effect in Electron Systems Confined to Symmetric, Wide $GaAs$ Quantum Wells*, Phys. Rev. B **88** (2013) 245413 &lbrack;[arXiv:1306.5290](https://arxiv.org/abs/1306.5290), [doi:10.1103/PhysRevB.88.245413](https://doi.org/10.1103/PhysRevB.88.245413)&rbrack;
+
+
+
 On [[topological superconductors]] possibly with [[Majorana zero modes]] for [[topological quantum computation]]:
 
 * {#ShabaniEtAl15} [[Javad Shabani]] et al., *Two-dimensional epitaxial superconductor-semiconductor heterostructures: A platform for topological superconducting networks*, Phys. Rev. B **93** 155402 (2016) \[<a href="https://doi.org/10.1103/PhysRevB.93.155402">doi:10.1103/PhysRevB.93.155402</a>, [arXiv:1511.01127](https://arxiv.org/abs/1511.01127)\]
@@ -22,4 +37,4 @@ https://doi.org/10.1103/PRXQuantum.5.030102">doi:10.1103/PRXQuantum.5.030102</a>
 
 
 
-caqtegory: people
+category: people
