@@ -110,6 +110,8 @@ Simplicial $\infty$-groupoids can be modeled by [[bisimplicial sets]].
 
 * [[bisimplicial set]]
 
+* [[opposite simplicial infinity-groupoid]]
+
 [[!redirects simplicial infinity-groupoid]]
 [[!redirects simplicial infinity-groupoids]]
 
