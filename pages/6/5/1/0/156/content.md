@@ -244,6 +244,8 @@ For more details (and more precise statements, see at *[[relation between preord
 
 * [[skeletal groupoid]]
 
+* [[skeletal Segal type]]
+
 ## References
 
 * {#MacLane71} [[Saunders MacLane]], p. 91 of: _[[Categories for the Working Mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
