@@ -623,7 +623,12 @@ The [[operator K-theory]] of the convolution $C^\ast$-algebra of a [[topological
 * [[Gian-Carlo Rota]], _On the foundations of combinatorial theory I: theory of M&#246;bius functions_ , Z. Wahrscheinlichkeitstheorie und Verw. Gebiete 2 (1964), 340&#8211;368.
  {#Rota64}
 
+
 ### For discrete geometry
+
+* [[Alberto Ibort]], [[Miguel A. Rodriguez]], chapter 10 of: *An Introduction to Groups, Groupoids and Their Representations*, CRC Press (2021) &lbrack;[ISBN:9781032086767](https://www.routledge.com/An-Introduction-to-Groups-Groupoids-and-Their-Representations/Ibort-Rodriguez/p/book/9781032086767?srsltid=AfmBOoqc0EH7Qjc1_0C-TYQtUbhTWpdb3Juy61vwE9TfRC5oaJwjlYfN), [doi:10.1201/b22019](https://doi.org/10.1201/b22019)&rbrack;
+
+
 
 
 The [[homotopy colimit]]-interpretation of category algebras over discrete categories is discussed in
