@@ -181,6 +181,8 @@ There is a Segal completion functor given in ([Rezk, 14.](#Rezk)).
 ### Complete Segal space objects
  {#CompleteSegalSpaceObjects}
 
+See [[category object in an (infinity,1)-category]] for more information.
+
 (...)
 
 ## Properties
