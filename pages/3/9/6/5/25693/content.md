@@ -25,7 +25,7 @@ The analogue of a [[Rezk category]] or [[complete Segal space]] in [[simplicial 
 
 ## Definition
 
-In [[simplicial type theory]], a [[Segal type]] $A$ is a **Rezk type** or a **complete Segal type** if for all elements $x:A$ and $y:A$ there is an equivalence between the [[identity type]] $x =_A y$ and the [[type of isomorphisms in a Segal type]] $x \cong_A y$:
+In [[simplicial type theory]], a **[[Rezk category|Rezk]] type** or **[[complete Segal space|complete Segal]] type** or **[[univalent category|univalent]] Segal type** or **[[saturated category|saturated]] Segal type** is a [[Segal type]] $A$ such that for all elements $x:A$ and $y:A$ there is an equivalence between the [[identity type]] $x =_A y$ and the [[type of isomorphisms in a Segal type]] $x \cong_A y$:
 
 $$\mathrm{isComplete}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\mathrm{idToIso}(x, y))$$
 
@@ -61,6 +61,8 @@ The categorical semantics of a complete Segal type is a [[complete Segal space o
 * [[isomorphism in a Segal type]]
 * [[discrete Segal type]]
 * [[univalent category]]
+* [[skeletal Segal type]]
+* [[gaunt Segal type]]
 
 ## References
 
@@ -73,3 +75,9 @@ The categorical semantics of a complete Segal type is a [[complete Segal space o
 
 [[!redirects complete Segal type]]
 [[!redirects complete Segal types]]
+
+[[!redirects univalent Segal type]]
+[[!redirects univalent Segal types]]
+
+[[!redirects saturated Segal type]]
+[[!redirects saturated Segal types]]
