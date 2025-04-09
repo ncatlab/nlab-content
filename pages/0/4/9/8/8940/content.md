@@ -114,6 +114,8 @@ Alternatively, we could avoid the equality on objects by requiring only that eve
 
 * [[core]]
 
+* [[gaunt Segal type]]
+
 ## References
 
 The term "gaunt category" was apparently introduced in 
