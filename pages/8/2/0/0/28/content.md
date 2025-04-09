@@ -1750,10 +1750,14 @@ Further early discussion:
 
 * [[Philip J. Higgins]], *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
      
-
-A motivation and introduction of the concept of groupoid and a tour of examples (including the refinement to [[topological groupoids]] and [[Lie groupoids]]) is in
+A motivation and introduction of the concept of groupoid and a tour of examples (including the refinement to [[topological groupoids]] and [[Lie groupoids]]):
 
 * [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS **43** 7 (1996) &lbrack;[pdf](http://www.ams.org/notices/199607/weinstein.pdf), [[Weinstein_Groupoids.pdf:file]]&rbrack;
+
+A textbook with an eye towards the [[representation theory]] of ([[groups]] and) groupoids:
+
+* [[Alberto Ibort]], [[Miguel A. Rodriguez]]: *An Introduction to Groups, Groupoids and Their Representations*, CRC Press (2021) &lbrack;[ISBN:9781032086767](https://www.routledge.com/An-Introduction-to-Groups-Groupoids-and-Their-Representations/Ibort-Rodriguez/p/book/9781032086767?srsltid=AfmBOoqc0EH7Qjc1_0C-TYQtUbhTWpdb3Juy61vwE9TfRC5oaJwjlYfN), [doi:10.1201/b22019](https://doi.org/10.1201/b22019)&rbrack;
+
 
 Further exposition:
 
