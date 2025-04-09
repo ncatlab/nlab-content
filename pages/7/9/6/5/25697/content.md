@@ -13,28 +13,14 @@
 
 ## Definition
 
-In [[simplicial homotopy type theory]], given a type $A$ and a type family 
-$$x:A \vdash B(x) \; \mathrm{type}$$ 
-let us define the type family 
-$$x:A, y:A, f:\mathrm{hom}_A(x, y), u:B(x), v:B(y) \vdash \mathrm{hom}_{B(f)}(u, v) \; \mathrm{type}$$
-as 
-$$\mathrm{hom}_{B(f)}(u, v) \coloneqq \left\langle\prod_{t:\mathbb{2}} C(f(t)) \vert_{[u,v]}^{\partial \Delta^1} \right\rangle$$
-where $\mathbb{2}$ is the directed interval primitive, $\Delta^1$ is the $1$-simplex probe shape, and $\partial \Delta^1$ is its boundary.
+In [[simplicial type theory]], a **covariant type family** over $A$ is a [[type family]] $x:A \vdash B(x)$ such that for all elements $x:A$, $y:A$, $f:\mathrm{hom}_A(x, y)$, and $u:B(x)$, [[uniqueness quantifier|there exists a unique]] element $v:B(y)$ with an morphism of the [[heterogeneous hom-type]] $\mathrm{hhom}_{B(f)}(u, v)$
 
-Then a **covariant type family** over $A$ is a [[type family]] 
-$$x:A \vdash B(x) \; \mathrm{type}$$ 
-such that given elements $x:A$, $y:A$, $f:\mathrm{hom}_A(x, y)$, and $u:B(x)$, the type
-$$\sum_{v:B(y)} \mathrm{hom}_{B(f)}(u, v)$$
-is a [[contractible type]]. 
+$$\mathrm{isCovariant}(t:A.B(t)) \coloneqq \prod_{x:A} \prod_{y:A} \prod_{f:\mathrm{hom}_A(x, y)} \prod_{u:B(x)} \exists!v:B(y).\mathrm{hhom}_{B(f)}(u, v)$$
 
 ## Properties
 
 \begin{theorem}
-Given a [[Segal type]] $A$, a type family 
-$$x:A \vdash B(x) \; \mathrm{type}$$ 
-is a covariant type family if and only if for all elements $f:\mathrm{hom}_A(x, y)$, and $u:B(x)$, there is a unique lifting of $f$ that starts at $u$; or equivalently, that the type 
-$$\sum_{v:B(y)} \left\langle\prod_{t:\mathbb{2}} C(f(t)) \vert_{u}^{0} \right\rangle$$
-is contractible. 
+Given a [[Segal type]] $A$, a type family $x:A \vdash B(x)$ is a covariant type family if and only if for all elements $f:\mathrm{hom}_A(x, y)$, and $u:B(x)$, there is a unique lifting of $f$ that starts at $u$. 
 \end{theorem}
 
 ## Related concepts
@@ -48,3 +34,5 @@ is contractible.
 ## References
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], *A type theory for synthetic $\infty$-categories* $[$[arXiv:1705.07442](https://arxiv.org/abs/1705.07442)$]$
+
+* {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
