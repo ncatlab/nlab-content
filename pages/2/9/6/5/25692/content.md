@@ -28,6 +28,10 @@ $$
   \mathrm{isIso}(f)
 $$
 
+We say that two elements $x:A$ and $y:A$ are **merely isomorphic** if [[existential quantifier|there merely exists]] an isomorphism between $x$ and $y$:
+
+$$\mathrm{isMerelyIso}(x, y) \coloneqq \exists f:\mathrm{hom}_A(x, y).\mathrm{isIso}(f)$$
+
 ## Related concepts
 
 * [[hom type]]
@@ -35,6 +39,8 @@ $$
 * [[Segal type]]
 
 * [[Rezk type]]
+
+* [[skeletal Segal type]]
 
 * [[isomorphism]]
 
