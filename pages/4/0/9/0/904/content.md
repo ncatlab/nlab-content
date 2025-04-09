@@ -342,11 +342,11 @@ By definition \ref{EMSpace}, the fundamental group of any [[Eilenberg-MacLane sp
 
 Historical origins:
 
-* [[Henri Poincaré]], *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123  (1895) (Orig.: [gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl.: [[John Stillwell]]: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
+* [[Henri Poincaré]]: *[[Analysis Situs]]*, Journal de l'École Polytechnique. (2). 1: 1–123  (1895) (Orig.: [gallica:12148/bpt6k4337198/f7](https://gallica.bnf.fr/ark:/12148/bpt6k4337198/f7), Engl.: [[John Stillwell]]: [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/poincare2009.pdf), [[Stillwell_AnalysisSitus.pdf:file]])
 
 Textbook accounts: 
 
-* {#AGP02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Section 2.5 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AGP02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Section 2.5 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) &lbrack;[doi:10.1007/b97586](https://doi.org/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)&rbrack;
 
 
 Review and Exposition:
