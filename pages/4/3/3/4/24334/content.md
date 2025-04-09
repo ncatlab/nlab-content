@@ -43,7 +43,11 @@ $$\esh \dashv \flat \dashv \sharp$$
 
 The [[flat modality]] $\flat A$ represents the [[global sections]] [[(infinity,1)-functor]] which takes a [[simplicial anima]] and returns its [[core]] discrete [[anima]]. 
 
-There is also an [[op modality]] $A^\op$ which reverses all (higher) morphisms in a type. This modality is an [[involution]] on types (i.e. $(A^\op)^\op \simeq A)$), and types have the same core as its opposite $\flat A^\op \simeq \flat A$. The op modality represents the [[opposite simplicial anima]] [[(infinity,1)-functor]]. 
+There are also two other modalities
+
+* the [[op modality]] $A^\op$ which reverses all (higher) morphisms in a type. This modality is an [[involution]] on types (i.e. $(A^\op)^\op \simeq A)$), and types have the same core as its opposite $\flat A^\op \simeq \flat A$. The op modality represents the [[opposite simplicial anima]] [[(infinity,1)-functor]]. 
+
+* the [[twisted arrow modality]] $A^\mathrm{tw}$ which represents the [[twisted arrow construction]] [[(infinity,1)-functor]] in [[simplicial anima]]. 
 
 In addition, simplicial type theory comes with a designated [[bounded total order]] $\mathbb{I}$ called a *directed [[interval]]*, such that 
 
@@ -76,12 +80,6 @@ There are many different ways to formalize the bounded total order in simplicial
 The first approach is simpler to define, while the latter two are easier to work with, since the equalities in the interval type are [[judgmental equalities]] rather than [[identifications]], so one doesn't have to deal with [[transport]] hell. 
 
 In the latter two approaches, the [[function type]] $\mathbb{I} \to A$ used in the axiom of cohesion is usually defined as an [[extension type]], while the [[dependent function type]] $\prod_{i:\mathbb{I}} A(i)$ is usually defined as a [[dependent extension type]]. 
-
-### Additional modalities
-
-Simplicial type theory has recently been augmented with additional [[modalities]] in [[modal type theory]] ([Gratzer, Weinberger, & Buchholtz 2025](#GWB25)). These modalities include 
-
-* The [[twisted arrow modality]] $A^\mathrm{tw}$
 
 ## $(\infty,1)$-category theory in simplicial type theory
 
@@ -157,9 +155,29 @@ $$\Delta^0 \coloneqq \mathrm{Fin}(0) \to \mathbb{I}$$
 
 $$n:\mathbb{N} \vdash \Delta^{n + 1} \coloneqq \sum_{t:\mathrm{Fin}(n + 1) \to \mathbb{I}} \prod_{i:\mathrm{Fin}(n)} t(\pi_1(i)) \leq t(\pi_1(i + 1))$$
 
-### Dependent morphisms and covariant families
+### Heterogeneous morphisms and covariant type families
+
+Given a type $A$, elements $x:A$ and $y:A$, a function $f:\mathbb{I} \to A$, [[identifications]] $p_0:f(0) =_A x$ and $p_1:f(1) =_A y$ a type family $x:A \vdash B(x)$, and elements $u:B(x)$ and $v:B(y)$, a *[[heterogeneous morphism]]* is a [[tuple]] consisting of a [[dependent function]] $g:\prod_{i:\mathbb{I}} B(f(i))$ and two [[heterogeneous identifications]] 
+$$q_0:g(0) =_{t.B(t)}^{(f(0), x, p_0)} u \; \mathrm{and} \; q_1:g(1) =_{t.B(t)}^{(f(1), y, p_1)} v$$ 
+where the type $u =_{t.B(t)}^{(x, y, p)} v$ is the [[heterogeneous identity type]] over the type family $x:A \vdash B(x)$. 
+
+The type of heterogeneous morphisms is called the *[[heterogeneous hom-type]]* and is defined as the [[dependent sum type]] 
+
+$$\mathrm{hhom}_{t.B(t)}(x, y, f, p_0, p_1, u, v) \coloneqq \sum_{g:\prod_{i:\mathbb{I}} B(f(i))} (g(0) =_{t.B(t)}^{(f(0), x, p_0)} u) \times (g(1) =_{t.B(t)}^{(f(1), y, p_1)} v)$$ 
+
+A *[[covariant type family]]* is a [[type family]] $x:A \vdash B(x)$ such that for all elements $x:A$, $y:A$, $f:\mathrm{hom}_A(x, y)$, and $u:B(x)$, [[uniqueness quantifier|there exists a unique]] element $v:B(y)$ with a [[heterogeneous morphism]]
+
+$$\mathrm{isCovariant}(t:A.B(t)) \coloneqq \prod_{x:A} \prod_{y:A} \prod_{f:\mathrm{hom}_A(x, y)} \prod_{u:B(x)} \exists!v:B(y).\mathrm{hhom}_{t.B(t)}(x, y, f, p_0, p_1, u, v)$$
+
+### Amazing covariance and directed univalent universes
+
+Definition of an amazingly covariant type to be inserted here
 
 (...)
+
+Let $(U, T)$ be a [[univalent Tarski universe]]. The [[directed univalence|directed univalent]] subuniverse $\mathcal{S} \hookrightarrow U$ is defined as the type of $U$-small amazingly covariant types:
+
+$$\mathcal{S} \coloneqq \sum_{X:U} \mathrm{isACov}(T(X))$$
 
 ## See also
 
