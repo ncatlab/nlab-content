@@ -22,6 +22,15 @@ For the second criterium, consider the complete quadrangle $O V W U$, then $A, B
 
 Now, one has to prove that if one takes $A,B,C$ distinct points that there is a unique $D$ with above properties, that is the construction does not depend on the choice of the points $V$ and $O$ (or equivalently, $U$ and $V$). In the synthetic approach this means that the choice of points $U,V$ with $U,V,C$ colinear (or equivalently, the  choice of points $U, O$) does not affect the position of $D$ in the construction. This however uses the fact that the plane is [[Desarguesian]]. For the projective planes over a commutative field this is hence automatic. 
 
+### A degenerate case of 6 intersection points of a quadrangle
+
+Given any complete quadrangle and a line in the same projective plane, one can consider the 6 points of intersection of a line with sides of quadrangle and name it in this order: first 3 points, say $A,B,C$, are intersections with the 3 sides passing through a single vertex of the quadrangle, then $E,F,E$ are intersections of the 3 remaining sides opposite to the first 3 sides in the same order. The fact that the 6 points are obtained this way is denoted by $Q(A B C, D E F)$. If $A,B,C,D,E$ are fixed than $F$ can be determined uniquely (it does not depend on a choice of the quadrangle giving the first 5 points). If the line on which the 6-tuple is standing is one of the diagonals of the quadrangle, then two pairs of points coincide by the definition of the diagonal (e.g. $A=D$ and $B = E$)$ and the 6-tuple becomes 4-tuple which is moreover harmonic.
+
+## Harmonic pencil
+
+Dually, we can consider a pencil of lines through a fixed point. 4 lines in this pencil are in a harmonic ratio if
+they by duality correspond to a harmonic 4-tuple of points in the dual projective plane of lines, but it can be characterized in many different ways including that the intersections of the 4 lines with one, and then automatically any other line not in the pencil are a harmonic 4-tuple of points. Thus to be harmonic is also an invariant under perspectivities. 
+
 ## Literature
 
 Modern treatment is in Chapter 6 of 
