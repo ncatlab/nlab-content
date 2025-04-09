@@ -453,6 +453,8 @@ Cubical methods are a key feature in using higher homotopy groupoids to prove ho
 
 * [[homotopy hypothesis for 1-types]]
 
+* [[cubical infinity-groupoid]]
+
 ### Theory of cubical sets
 
 * [[category of cubes]]
