@@ -360,7 +360,7 @@ $$
 =--
 
 This is briefly mentioned in [Bredon 93, p. 199](#Bredon93).
-The argument is spelled out in [James 84 pp 72](#James84), [MO:a/1645794](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
+The argument is spelled out in [James 84 Prop. 3.7 p. 72](#James84), [MO:a/1645794](https://math.stackexchange.com/a/1645794/58526), [Cutler 20, Prop. 1.6](#Cutler20).
 
 
 
