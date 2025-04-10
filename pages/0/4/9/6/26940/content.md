@@ -189,6 +189,8 @@ $$((\forall x.\neg (x \# x)) \wedge (\forall x, y.(x \# y) \Rightarrow (y \# x))
 
 * [[analytic Markov's principle]]
 
+* [[analytic resizing]]
+
 ## References
 
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
