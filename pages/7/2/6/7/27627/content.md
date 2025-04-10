@@ -25,9 +25,25 @@ The concept of a categorical [[product]] in [[simplicial type theory]]. Note tha
 
 ## Definition
 
-Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. The **product** of $x$ and $y$ is an tuple consisting of an element $x \times y:A$, a morphism $p_x:\mathrm{hom}_A(x \times y, x)$, and a morphism $p_y:\mathrm{hom}_A(x \times y, y)$, such that for all $z:A$, $f:\mathrm{hom}_A(z, x)$, $g:\mathrm{hom}_A(z, y)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(x \times y, z)$ such that $f$ is the [[unique composite]] of $p_x$ and $h(z, f, g)$ and $g$ is the [[unique composite]] of $p_y$ and $h(z, f, g)$. 
+Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. The **product** of $x$ and $y$ is an tuple consisting of 
 
-If $A$ is a [[Segal type]] then this notion coincides with the usual notion of [[product in an (infinity,1)-category]]. 
+* an element $x \times y:A$, 
+
+* a morphism $p_x:\mathrm{hom}_A(x \times y, x)$, 
+
+* and a morphism $p_y:\mathrm{hom}_A(x \times y, y)$, 
+
+such that for all $z:A$, $f:\mathrm{hom}_A(z, x)$, $g:\mathrm{hom}_A(z, y)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(z, x \times y)$ such that $f$ is the [[unique composite]] of $p_x$ and $h(z, f, g)$ and $g$ is the [[unique composite]] of $p_y$ and $h(z, f, g)$. 
+
+If $A$ is a [[Segal type]] then this notion coincides with the usual notion of [[product in an (infinity,1)-category]]: the *product* of $x$ and $y$ is an tuple consisting of 
+
+* an element $x \times y:A$, 
+
+* a morphism $p_x:\mathrm{hom}_A(x \times y, x)$, 
+
+* and a morphism $p_y:\mathrm{hom}_A(x \times y, y)$, 
+
+such that for all $z:A$, $f:\mathrm{hom}_A(z, x)$, $g:\mathrm{hom}_A(z, y)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(z, x \times y)$ such that $f = p_x \circ h(z, f, g)$ and $g = p_y \circ h(z, f, g)$. 
 
 ## Related concepts
 
