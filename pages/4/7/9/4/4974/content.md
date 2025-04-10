@@ -121,12 +121,12 @@ This can be defined more concretely: an event structure with symmetry is an even
 
 We say a map $E \to E'$ preserves symmetry if, for every $\theta : x \cong y$ in the symmetry of $E$, the bijection  
 \[ 
-fx \cong x \cong y \cong fy
+f x \cong x \cong y \cong f y
 \] 
 (determined by the injectivity of $f$ on configurations) is in the symmetry $E'$. This gives a category $\mathbf{ESS}$ of event structures with symmetry.  
 
 \begin{definition}
-Two parallel maps $f, g : E \to E'$ in $\mathbf{ESS}$ are homotopic (written $f \sim g$) if for every $x \in \mathscr{C}(E)$ the bijection $fx \cong x \cong gx$ (determined by the injectivity on configurations of $f$ and $g$) is in the symmetry of $E'$. 
+Two parallel maps $f, g : E \to E'$ in $\mathbf{ESS}$ are homotopic (written $f \sim g$) if for every $x \in \mathscr{C}(E)$ the bijection $f x \cong x \cong g x$ (determined by the injectivity on configurations of $f$ and $g$) is in the symmetry of $E'$. 
 \end{definition}
 
 ### Event structures with symmetry and presheaves  
@@ -152,6 +152,8 @@ Other papers on event structures:
 * [[G. Winskel]], _Events, causality, and symmetry_, (an earlier version appeared in the BCS conference 'Visions in Computer Science.' September 2008. The final version appears in a special issue of The Computer Journal 2009; doi: 10.1093/comjnl/bxp052; see also  an [online version](http://www.cl.cam.ac.uk/~gw104/CJVision-Revised.pdf)).
 
 * {#StatonWinskel} [[Sam Staton]] and [[G. Winskel]], On the expressivity of symmetry in event structures, [LICS 2010](http://www.cl.cam.ac.uk/~gw104/lics2010final.pdf)
+
+* R.J. van Glabbeek, [[Gordon Plotkin]], _Configuration Structures, Event Structures and Petri Nets_ &lbrack;[arXiv:0912.4023](https://arxiv.org/abs/0912.4023)&rbrack;
 
 
 [[!redirects event structure]]
