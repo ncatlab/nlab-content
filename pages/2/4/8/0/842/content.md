@@ -947,11 +947,6 @@ See also
 [[!redirects (∞,1)-limits]]
 [[!redirects (∞,1)-colimits]]
 
-[[!redirects (∞,1)-product]]
-[[!redirects (∞,1)-coproduct]]
-[[!redirects (∞,1)-products]]
-[[!redirects (∞,1)-coproducts]]
-
 [[!redirects limit in an (infinity,1)-category]]
 [[!redirects limits in an (infinity,1)-category]]
 [[!redirects limits in (infinity,1)-categories]]
