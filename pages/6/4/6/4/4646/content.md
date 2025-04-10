@@ -289,7 +289,7 @@ In the special case of [[flat connections]] (see also *[[local systems]]*) the s
 
 This history is recollected in the introduction of:
 
-* [[John Barrett]], _Holonomy and path structures in general relativity and Yang-Mills theory_, Int. J. of Theor. Phys., Iiol. 30, No. 9, 1991 ([doi:10.1007/BF00671007](https://doi.org/10.1007/BF00671007))
+* [[John Barrett]]: _Holonomy and path structures in general relativity and Yang-Mills theory_, Int. J. of Theor. Phys., Iiol. **30** 9 (1991) &lbrack;[doi:10.1007/BF00671007](https://doi.org/10.1007/BF00671007)&rbrack;
 
 who himself gives a proof. Barret implicitly uses the  [[diffeological space]] structure on the space of loops.
 
