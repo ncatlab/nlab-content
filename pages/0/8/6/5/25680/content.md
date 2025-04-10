@@ -58,6 +58,9 @@ where $\Delta^1$ is the directed interval primitive $\mathbb{2}$ and $\partial \
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
+[[!redirects morphism in simplicial type theory]]
+[[!redirects morphisms in simplicial type theory]]
+
 [[!redirects hom type]]
 [[!redirects hom types]]
 [[!redirects hom-type]]
