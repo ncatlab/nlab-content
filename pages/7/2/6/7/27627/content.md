@@ -25,25 +25,11 @@ The concept of a categorical [[product]] in [[simplicial type theory]]. Note tha
 
 ## Definition
 
-Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. The **product** of $x$ and $y$ is an tuple consisting of 
+Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. Let $\mathrm{span}_A(x, y)$ denote the [[type of spans in simplicial type theory|type of spans]], and for [[span in simplicial type theory|spans]] $f:\mathrm{span}_A(x, y)$ and $g:\mathrm{span}_A(x, y)$, let $\mathrm{homspan}_A(x, y, f, g)$ denote the [[type of morphisms of spans in simplicial type theory|type of morphisms of spans]] between $f$ and $g$. The **product** of $x$ and $y$ is a span $p:\mathrm{span}_A(x, y)$ such that for all other spans $z:\mathrm{span}_A(x, y)$, the type of morphisms of spans from $z$ to $p$ is a [[contractible type]]. The type of products is given by
 
-* an element $x \times y:A$, 
+$$\sum_{p:\mathrm{span}_A(x, y)} \prod_{z:\mathrm{span}_A(x, y)} \mathrm{isContr}(\mathrm{homspan}_A(x, y, z, p))$$
 
-* a morphism $p_x:\mathrm{hom}_A(x \times y, x)$, 
-
-* and a morphism $p_y:\mathrm{hom}_A(x \times y, y)$, 
-
-such that for all $z:A$, $f:\mathrm{hom}_A(z, x)$, $g:\mathrm{hom}_A(z, y)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(z, x \times y)$ such that $f$ is the [[unique composite]] of $p_x$ and $h(z, f, g)$ and $g$ is the [[unique composite]] of $p_y$ and $h(z, f, g)$. 
-
-If $A$ is a [[Segal type]] then this notion coincides with the usual notion of [[product in an (infinity,1)-category]]: the *product* of $x$ and $y$ is an tuple consisting of 
-
-* an element $x \times y:A$, 
-
-* a morphism $p_x:\mathrm{hom}_A(x \times y, x)$, 
-
-* and a morphism $p_y:\mathrm{hom}_A(x \times y, y)$, 
-
-such that for all $z:A$, $f:\mathrm{hom}_A(z, x)$, $g:\mathrm{hom}_A(z, y)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(z, x \times y)$ such that $f = p_x \circ h(z, f, g)$ and $g = p_y \circ h(z, f, g)$. 
+If $A$ is a [[Segal type]] then this notion coincides with the usual notion of [[product in an (infinity,1)-category]]. 
 
 ## Related concepts
 
