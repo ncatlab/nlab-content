@@ -39,6 +39,9 @@ If $A$ is a [[Segal type]] then this notion coincides with the usual notion of [
 
 * [[initial object in simplicial type theory]]
 
+[[!redirects terminal object in simplicial type theory]]
+[[!redirects terminal objects in simplicial type theory]]
+
 [[!redirects terminal object in a Segal type]]
 [[!redirects terminal objects in a Segal type]]
 
