@@ -27,23 +27,23 @@ The concept of a [[coproduct]] in [[simplicial type theory]]. Note that in the c
 
 Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. The **coproduct** of $x$ and $y$ is an tuple consisting of 
 
-* an element $x \coprod y:A$, 
+* an element $x \sqcup y:A$, 
 
-* a morphism $i_x:\mathrm{hom}_A(x, x \coprod y)$, and 
+* a morphism $i_x:\mathrm{hom}_A(x, x \sqcup y)$, and 
 
-* a morphism $i_y:\mathrm{hom}_A(y, x \coprod y)$, 
+* a morphism $i_y:\mathrm{hom}_A(y, x \sqcup y)$, 
 
-such that for all $z:A$, $f:\mathrm{hom}_A(x, z)$, $g:\mathrm{hom}_A(y, z)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(x \coprod y, z)$ such that $f$ is the [[unique composite]] of $h(z, f, g)$ and $i_x$ and $g$ is the [[unique composite]] of $h(z, f, g)$ and $i_y$. 
+such that for all $z:A$, $f:\mathrm{hom}_A(x, z)$, $g:\mathrm{hom}_A(y, z)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(x \sqcup y, z)$ such that $f$ is the [[unique composite]] of $h(z, f, g)$ and $i_x$ and $g$ is the [[unique composite]] of $h(z, f, g)$ and $i_y$. 
 
 If $A$ is a [[Segal type]] then this notion coincides with the usual notion of [[coproduct in an (infinity,1)-category]]: the *coproduct* of $x$ and $y$ is an tuple consisting of 
 
-* an element $x \coprod y:A$, 
+* an element $x \sqcup y:A$, 
 
-* a morphism $i_x:\mathrm{hom}_A(x, x \coprod y)$, and 
+* a morphism $i_x:\mathrm{hom}_A(x, x \sqcup y)$, and 
 
-* a morphism $i_y:\mathrm{hom}_A(y, x \coprod y)$, 
+* a morphism $i_y:\mathrm{hom}_A(y, x \sqcup y)$, 
 
-such that for all $z:A$, $f:\mathrm{hom}_A(x, z)$, $g:\mathrm{hom}_A(y, z)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(x \coprod y, z)$ such that $f = h(z, f, g) \circ i_x$ and $g = h(z, f, g) \circ i_y$. 
+such that for all $z:A$, $f:\mathrm{hom}_A(x, z)$, $g:\mathrm{hom}_A(y, z)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(x \sqcup y, z)$ such that $f = h(z, f, g) \circ i_x$ and $g = h(z, f, g) \circ i_y$. 
 
 ## Related concepts
 
