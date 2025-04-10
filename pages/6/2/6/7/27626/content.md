@@ -25,25 +25,11 @@ The concept of a [[coproduct]] in [[simplicial type theory]]. Note that in the c
 
 ## Definition
 
-Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. The **coproduct** of $x$ and $y$ is an tuple consisting of 
+Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. Let $\mathrm{cospan}_A(x, y)$ denote the [[type of cospans in simplicial type theory|type of cospans]], and for [[cospan in simplicial type theory|cospans]] $f:\mathrm{cospan}_A(x, y)$ and $g:\mathrm{cospan}_A(x, y)$, let $\mathrm{homcospan}_A(x, y, f, g)$ denote the [[type of morphisms of cospans in simplicial type theory|type of morphisms of cospans]] between $f$ and $g$. The **coproduct** of $x$ and $y$ is a cospan $c:\mathrm{cospan}_A(x, y)$ such that for all other cospans $z:\mathrm{cospan}_A(x, y)$, the type of morphisms of cospans from $c$ to $z$ is a [[contractible type]]. The type of products is given by
 
-* an element $x \sqcup y:A$, 
+$$\sum_{c:\mathrm{cospan}_A(x, y)} \prod_{z:\mathrm{cospan}_A(x, y)} \mathrm{isContr}(\mathrm{homspan}_A(x, y, c, z))$$
 
-* a morphism $i_x:\mathrm{hom}_A(x, x \sqcup y)$, and 
-
-* a morphism $i_y:\mathrm{hom}_A(y, x \sqcup y)$, 
-
-such that for all $z:A$, $f:\mathrm{hom}_A(x, z)$, $g:\mathrm{hom}_A(y, z)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(x \sqcup y, z)$ such that $f$ is the [[unique composite]] of $h(z, f, g)$ and $i_x$ and $g$ is the [[unique composite]] of $h(z, f, g)$ and $i_y$. 
-
-If $A$ is a [[Segal type]] then this notion coincides with the usual notion of [[coproduct in an (infinity,1)-category]]: the *coproduct* of $x$ and $y$ is an tuple consisting of 
-
-* an element $x \sqcup y:A$, 
-
-* a morphism $i_x:\mathrm{hom}_A(x, x \sqcup y)$, and 
-
-* a morphism $i_y:\mathrm{hom}_A(y, x \sqcup y)$, 
-
-such that for all $z:A$, $f:\mathrm{hom}_A(x, z)$, $g:\mathrm{hom}_A(y, z)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(x \sqcup y, z)$ such that $f = h(z, f, g) \circ i_x$ and $g = h(z, f, g) \circ i_y$. 
+If $A$ is a [[Segal type]] then this notion coincides with the usual notion of [[coproduct in an (infinity,1)-category]]. 
 
 ## Related concepts
 
@@ -54,6 +40,8 @@ such that for all $z:A$, $f:\mathrm{hom}_A(x, z)$, $g:\mathrm{hom}_A(y, z)$, [[u
 * [[coproduct in an (infinity,1)-category]]
 
 * [[product in simplicial type theory]]
+
+* [[cospan in simplicial type theory]]
 
 [[!redirects coproduct in simplicial type theory]]
 [[!redirects coproducts in simplicial type theory]]
