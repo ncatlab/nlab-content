@@ -179,6 +179,12 @@ Colimits include:
 
 * [[coequalizer in simplicial type theory]]
 
+Types with limits and colimits include:
+
+* [[finitely complete type]]
+
+* [[finitely cocomplete type]]
+
 ### Heterogeneous morphisms and covariant type families
 
 Given a type $A$, elements $x:A$ and $y:A$, a function $f:\mathbb{I} \to A$, [[identifications]] $p_0:f(0) =_A x$ and $p_1:f(1) =_A y$ a type family $x:A \vdash B(x)$, and elements $u:B(x)$ and $v:B(y)$, a *[[heterogeneous morphism]]* is a [[tuple]] consisting of a [[dependent function]] $g:\prod_{i:\mathbb{I}} B(f(i))$ and two [[heterogeneous identifications]] 
