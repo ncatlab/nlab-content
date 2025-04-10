@@ -91,6 +91,10 @@ Given elements $x:A$ and $y:A$ and cospans $f:\mathrm{cospan}_A(x, y)$ and $g:\m
 
 The type of morphisms of cospans $\mathrm{homcospan}_A(x, y, f, g)$ is then the respective [[record type]].
 
+## Right quotients
+
+Given a cospan $x:A$, $y:A$, $z:A$, $f:\mathrm{hom}_A(x, z)$ and $g:\mathrm{hom}_A(y, z)$, a **right quotient** is a unique morphism $g \,\backslash\, f:\mathrm{hom}_A(x, y)$ such that $g$ is the [[unique composite]] of $g \,\backslash\, f$ and $f$. A cospan is **right divisible** if there exists a unique morphism $g \,\backslash\, f:\mathrm{hom}_A(x, y)$ such that $g$ is the [[unique composite]] of $g \,\backslash\, f$ and $f$. 
+
 ## Related concepts
 
 * [[simplicial type theory]]
@@ -99,11 +103,13 @@ The type of morphisms of cospans $\mathrm{homcospan}_A(x, y, f, g)$ is then the 
 
 * [[cospan in an (infinity,1)-category]]
 
+* [[pair of composable morphisms]]
+
+* [[composite of morphisms]]
+
 * [[span in simplicial type theory]]
 
 * [[coproduct in simplicial type theory]]
-
-* [[quasigroupoid type]]
 
 [[!redirects cospan in simplicial type theory]]
 [[!redirects cospans in simplicial type theory]]
@@ -152,3 +158,39 @@ The type of morphisms of cospans $\mathrm{homcospan}_A(x, y, f, g)$ is then the 
 
 [[!redirects type of morphisms of cospans in a Rezk type]]
 [[!redirects types of morphisms of cospans in a Rezk type]]
+
+[[!redirects right quotient in simplicial type theory]]
+[[!redirects right quotients in simplicial type theory]]
+
+[[!redirects right quotient in a Segal type]]
+[[!redirects right quotients in a Segal type]]
+
+[[!redirects right quotient in a complete Segal type]]
+[[!redirects right quotients in a complete Segal type]]
+
+[[!redirects right quotient in a Rezk type]]
+[[!redirects right quotients in a Rezk type]]
+
+[[!redirects right divisible span in simplicial type theory]]
+[[!redirects right divisible spans in simplicial type theory]]
+
+[[!redirects right divisible span in a Segal type]]
+[[!redirects right divisible spans in a Segal type]]
+
+[[!redirects right divisible span in a complete Segal type]]
+[[!redirects right divisible spans in a complete Segal type]]
+
+[[!redirects right divisible span in a Rezk type]]
+[[!redirects right divisible spans in a Rezk type]]
+
+[[!redirects right divisibility in simplicial type theory]]
+[[!redirects right divisible in simplicial type theory]]
+
+[[!redirects right divisibility in a Segal type]]
+[[!redirects right divisible in a Segal type]]
+
+[[!redirects right divisibility in a complete Segal type]]
+[[!redirects right divisible in a complete Segal type]]
+
+[[!redirects right divisibility in a Rezk type]]
+[[!redirects right divisible in a Rezk type]]
