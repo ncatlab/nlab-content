@@ -91,6 +91,10 @@ Given elements $x:A$ and $y:A$ and spans $f:\mathrm{span}_A(x, y)$ and $g:\mathr
 
 The type of morphisms of spans $\mathrm{homspan}_A(x, y, f, g)$ is then the respective [[record type]].
 
+## Left quotients
+
+Given a span $x:A$, $y:A$, $z:A$, $f:\mathrm{hom}_A(z, x)$ and $g:\mathrm{hom}_A(z, y)$, a **left quotient** is a unique morphism $g / f:\mathrm{hom}_A(x, y)$ such that $g$ is the [[unique composite]] of $f$ and $g / f$. A span is said to be **left divisible** if there exists a unique morphism $g / f:\mathrm{hom}_A(x, y)$ such that $g$ is the [[unique composite]] of $f$ and $g / f$. 
+
 ## Related concepts
 
 * [[simplicial type theory]]
@@ -101,9 +105,11 @@ The type of morphisms of spans $\mathrm{homspan}_A(x, y, f, g)$ is then the resp
 
 * [[cospan in simplicial type theory]]
 
-* [[product in simplicial type theory]]
+* [[pair of composable morphisms]]
 
-* [[quasigroupoid type]]
+* [[composite of morphisms]]
+
+* [[product in simplicial type theory]]
 
 [[!redirects span in simplicial type theory]]
 [[!redirects spans in simplicial type theory]]
@@ -152,3 +158,39 @@ The type of morphisms of spans $\mathrm{homspan}_A(x, y, f, g)$ is then the resp
 
 [[!redirects type of morphisms of spans in a Rezk type]]
 [[!redirects types of morphisms of spans in a Rezk type]]
+
+[[!redirects left quotient in simplicial type theory]]
+[[!redirects left quotients in simplicial type theory]]
+
+[[!redirects left quotient in a Segal type]]
+[[!redirects left quotients in a Segal type]]
+
+[[!redirects left quotient in a complete Segal type]]
+[[!redirects left quotients in a complete Segal type]]
+
+[[!redirects left quotient in a Rezk type]]
+[[!redirects left quotients in a Rezk type]]
+
+[[!redirects left divisible span in simplicial type theory]]
+[[!redirects left divisible spans in simplicial type theory]]
+
+[[!redirects left divisible span in a Segal type]]
+[[!redirects left divisible spans in a Segal type]]
+
+[[!redirects left divisible span in a complete Segal type]]
+[[!redirects left divisible spans in a complete Segal type]]
+
+[[!redirects left divisible span in a Rezk type]]
+[[!redirects left divisible spans in a Rezk type]]
+
+[[!redirects left divisibility in simplicial type theory]]
+[[!redirects left divisible in simplicial type theory]]
+
+[[!redirects left divisibility in a Segal type]]
+[[!redirects left divisible in a Segal type]]
+
+[[!redirects left divisibility in a complete Segal type]]
+[[!redirects left divisible in a complete Segal type]]
+
+[[!redirects left divisibility in a Rezk type]]
+[[!redirects left divisible in a Rezk type]]
