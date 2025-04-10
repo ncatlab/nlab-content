@@ -25,33 +25,46 @@ The notion of [[composition]] of [[morphisms]] in [[simplicial type theory]].
 
 ## Definition
 
+### Using morphisms
+
 Let $A$ be a type in [[simplicial type theory]]. Recall that the [[hom-type]] is defined as 
 
 $$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{I} \to A} (f(0) = x) \times (f(1) = y)$$
 
-A **pair of composable morphisms** in $A$ is a [[tuple]] consisting of elements $x:A$, $y:A$, $z:A$ and morphisms $f:\mathrm{hom}_A(x, y)$ and $g:\mathrm{hom}_A(y, z)$. The type of pairs of composable morphisms is the [[dependent sum type]]
+Given $x:A$, $y:A$, and $z:A$, a **pair of composable morphisms** from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of 
 
-$$\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z)$$
+* a morphism $f:\mathrm{hom}_A(x, y)$ 
 
-A **composite of morphisms** in $A$ is a [[tuple]] consisting of elements $x:A$, $y:A$, $z:A$ and morphisms $f:\mathrm{hom}_A(x, y)$, $g:\mathrm{hom}_A(y, z)$, and $h:\mathrm{hom}_A(x, z)$. The type of pairs of composable morphisms is the [[dependent sum type]]
+* and a morphism $g:\mathrm{hom}_A(y, z)$. 
 
-$$\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, z)$$
+The type of pairs of composable morphisms between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]].
 
-There is a function from composites to pairs of composable morphisms
+### Using functions from shapes
 
-$$p:\left(\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, z)\right) \to \left(\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z)\right)$$
+Let $A$ be a type in [[simplicial type theory]], and let $\Lambda^2_1$ denote the $(2,1)$-[[horn]] type. Given elements $x:A$, $y:A$, and $z:A$, a composite of morphisms from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of
 
-which discards the morphism in $\mathrm{hom}_A(x, z)$ from the tuple. 
+* a function $f:\Lambda^2_1 \to A$
+
+* an identification $p_x:f(0, 0) = x$
+
+* an identification $p_y:f(0, 1) = y$
+
+* an identification $p_z:f(1, 1) = z$
+
+The type of composites of morphisms $\mathrm{comp}_A(x, y, z)$ between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]].
 
 ## Unique composites
 
-A pair of composable morphisms $(x, y, z, f, g)$ is **uniquely composable** if the [[fiber type]] of $p$ at $(x, y, z, f, g)$ is a [[contractible type]]. 
+A pair of composable morphisms $(f, g)$ is **uniquely composable** if there exists a unique morphism $h:\mathrm{hom}_A(x, z)$ and function $k:\Delta^2 \to A$ such that $k(0, 0) = x$, $k(0, 1) = y$, $k(1, 1) = z$, $k_{(0, 0), (0, 1)} = f$, $k_{(0, 1), (1, 1)} = g$, $k_{(0, 0), (1, 1)} = h$:
 
-$$\mathrm{isUniquelyComposable}(x, y, z, f, g) \coloneqq\mathrm{isContr}\left(\mathrm{fiber}(p, (x, y, z, f, g))\right)$$
+$$\mathrm{isUniquelyComposable}(f, g) \coloneqq \mathrm{isContr}\left(\sum_{h:\mathrm{hom}_A(x, z) \to A}\sum_{k:\Delta^2 \to A} \left(
+\begin{array}{c}
+    (k(0, 0) = x) \times (k(0, 1) = y) \times (k(1, 1) = z) \times \\
+    (k_{(0, 0), (0, 1)} = f) \times (k_{(0, 1), (1, 1)} = g) \times (k_{(0, 0), (1, 1)} = h)
+\end{array}
+\right)\right)$$
 
-In this case, the unique morphism $h:\mathrm{hom}_A(x, z)$ such that $p(x, y, z, f, g, h) = (x, y, z, f, g)$ is said to be the **unique composite** of the morphisms $f$ and $g$. 
-
-$$\mathrm{isUniqueComposite}(x, y, z, f, g, h) \coloneqq \mathrm{isUniquelyComposable}(x, y, z, f, g) \times (p(x, y, z, f, g, h) = (x, y, z, f, g))$$
+The morphism $h:\mathrm{hom}_A(x, z)$ is said to be the **unique composite** of $(f, g)$ if $(f, g)$ is uniquely composable. 
 
 Identity morphisms are always uniquely composable:
 
@@ -65,19 +78,17 @@ Identity morphisms are always uniquely composable:
 
 * [[Segal type]]
 
+* [[composite of morphisms]]
+
+* [[span in simplicial type theory]]
+
+* [[cospan in simplicial type theory]]
+
 [[!redirects pair of composable morphisms]]
 [[!redirects pairs of composable morphisms]]
 
 [[!redirects type of pairs of composable morphisms]]
 [[!redirects types of pairs of composable morphisms]]
-
-[[!redirects composite of morphisms]]
-[[!redirects composites of morphisms]]
-
-[[!redirects composition of morphisms]]
-
-[[!redirects type of composite of morphisms]]
-[[!redirects types of composites of morphisms]]
 
 [[!redirects uniquely composable]]
 
