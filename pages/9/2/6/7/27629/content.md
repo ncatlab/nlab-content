@@ -28,10 +28,10 @@ $$\mathrm{isUnivalent}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\la
 ## Related concepts
 
 * [[simplicial type theory]]
-* [[isomorphism in a Segal type]]
+* [[isomorphism in simplicial type theory]]
+* [[simplicially discrete type]]
+* [[Rezk type]]
 * [[univalent category]]
-* [[complete Segal space]]
-* [[discrete Segal type]]
 
 [[!redirects univalent type]]
 [[!redirects univalent types]]
