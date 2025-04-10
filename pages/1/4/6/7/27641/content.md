@@ -26,27 +26,7 @@ The concept of [[composition]] in [[simplicial type theory]].
 
 ## Definition
 
-### Using morphisms
-
-Let $A$ be a type in [[simplicial type theory]]. Given elements $x:A$, $y:A$, and $z:A$, a **composite of morphisms** from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of 
-
-* a morphism $f:\mathrm{hom}_A(x, y)$, 
-
-* a morphism $g:\mathrm{hom}_A(y, z)$, 
-
-* a morphism $h:\mathrm{hom}_A(x, z)$, 
-
-The type of composites of morphisms $\mathrm{comp}_A(x, y, z)$ between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]].
-
-In a [[Segal type]] $A$, for all elements $x:A$, $y:A$, and $z:A$, one can construct a [[composition]] operation on [[hom-types]] 
-
-$$\lambda (g, f).g \circ f:\mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, y) \to \mathrm{hom}_A(x, z)$$
-
-which by the uniqueness condition is automatically [[associative]] and [[unital]]. 
-
-### Using functions from shapes
-
-Let $A$ be a type in [[simplicial type theory]], and let $\Delta^2$ denote the [[2-simplex]] type. Given elements $x:A$, $y:A$, and $z:A$, a composite of morphisms from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of
+Let $A$ be a type in [[simplicial type theory]], and let $\Delta^2$ denote the [[boundary]] of the [[2-simplex]] type. A **composite of morphisms** from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of
 
 * a function $f:\Delta^2 \to A$
 
@@ -56,11 +36,21 @@ Let $A$ be a type in [[simplicial type theory]], and let $\Delta^2$ denote the [
 
 * an identification $p_z:f(1, 1) = z$
 
-The type of composites of morphisms $\mathrm{comp}_A(x, y, z)$ between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]].
+The type of composites of morphisms $\mathrm{comp}_A(x, y, z)$ between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]]. It is also given by the dependent sum type 
+
+$$\sum_{f:\Delta^2 \to A} (f(0, 0) = x) \times (f(0, 1) = y) \times (f(1, 1) = z)$$
+
+In a [[Segal type]] $A$, for all elements $x:A$, $y:A$, and $z:A$, from the [[Segal condition]] one can construct a [[composition]] operation on [[hom-types]] 
+
+$$\lambda (g, f).g \circ f:\mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, y) \to \mathrm{hom}_A(x, z)$$
+
+which by the uniqueness condition is automatically [[associative]] and [[unital]]. 
 
 ## Related concepts
 
 * [[simplicial type theory]]
+
+* [[hom-type]]
 
 * [[span in simplicial type theory]]
 
