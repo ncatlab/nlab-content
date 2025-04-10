@@ -42,6 +42,7 @@ If $\mathcal{V}$ contains a type classifying all $\mathcal{U}$ types, then the t
 
 * [[impredicative universe]]
 
+* [[analytic resizing]]
 
 ## References
 
