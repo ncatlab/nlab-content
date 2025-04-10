@@ -33,7 +33,7 @@
 
 *Simplicial type theory* is a [[cohesive homotopy type theory]] which is used to represent the internal logic of [[cohesive (infinity,1)-topos|cohesive]] [[locally cartesian closed (infinity,1)-category|locally cartesian closed $(\infty,1)$-categories]] of [[simplicial objects in an (infinity,1)-category|simplicial objects]] in a locally cartesian closed $(\infty,1)$-category. One can think of simplicial type theory as a [[synthetic mathematics|synthetic]] theory of [[simplicial anima]], since the [[cohesive (infinity,1)-topos]] $\mathrm{Ani}^{\Delta^\op}$ of [[simplicial anima]] is the characteristic example of a cohesive locally cartesian closed $(\infty,1)$-category of simplicial objects in a locally cartesian closed $(\infty,1)$-category. 
 
-Simplicial type theory is used to construct various [[geometric shape for higher structures|geometric shapes]] [[internal logic|internally]], such as [[Segal types]] (i.e. [[Segal space]]-types), [[complete Segal types]] (i.e. [[complete Segal space]]-types), and covariant fibrations. 
+Simplicial type theory is used to construct various [[geometric shape for higher structures|geometric shapes]] [[internal logic|internally]], such as [[Segal types]] (i.e. [[Segal space]]-types), [[Rezk types]] (i.e. [[Rezk category]]-types), and covariant fibrations. 
 
 ## Definition
 
@@ -81,31 +81,9 @@ The first approach is simpler to define, while the latter two are easier to work
 
 In the latter two approaches, the [[function type]] $\mathbb{I} \to A$ used in the axiom of cohesion is usually defined as an [[extension type]], while the [[dependent function type]] $\prod_{i:\mathbb{I}} A(i)$ is usually defined as a [[dependent extension type]]. 
 
-## Basic concepts in simplicial type theory
+## Simplicial anima theory and $(\infty,1)$-category theory
 
-### Shapes in simplicial type theory
-
-Let $\mathrm{Fin}(n) \coloneqq \sum_{i:\mathbb{N}} i \lt n$ be the canonical [[finite type]] with $n$ elements. Given the directed interval $\mathbb{I}$, the $n$-cubes are defined by the function type $\Box^n \coloneqq \mathrm{Fin}(n) \to \mathbb{I}$. 
-
-Subshapes of the cubes could also be defined. 
-
-* The $2$-simplex is defined as
-$$\Delta^2 \coloneqq \sum_{t:\mathrm{Fin}(2) \to \mathbb{I}} t(0) \leq t(1)$$
-
-* The horn $\Lambda^2_1$ is defined as
-$$\Lambda^2_1 \coloneqq \sum_{t:\mathrm{Fin}(2) \to \mathbb{I}} (t(0) =_{\mathbb{I}} 0) \vee (t(1) =_{\mathbb{I}} 1)$$
-
-Since $t(0) \leq t(1)$ implies $t(0) =_{\mathbb{I}} 0) \vee (t(1) =_{\mathbb{I}} 1)$ for all $t:\mathrm{Fin}(2) \to \mathbb{I}$, we have a canonical function 
-
-$$(\mathrm{id}, P):\Delta^2 \to \Lambda^2_1$$
-
-which is a pair consisting of the [[identity function]] on $\mathrm{Fin}(2) \to \mathbb{I}$ and a [[dependent function]] $P$ that takes the witness that $t(0) \leq t(1)$ to a witness that $(t(0) =_{\mathbb{I}} 0) \vee (t(1) =_{\mathbb{I}} 1)$. By precomposition, this leads to a function 
-
-$$\lambda t.t \circ (\mathrm{id}, P):(\Delta^2 \to A) \to (\Lambda^2_1 \to A)$$
-
-for all types $A$. 
-
-### Morphisms
+### Morphisms and simplicially discrete types
 
 The [[morphisms]] between elements $x:A$ and $y:A$ in a type $A$ are defined in simplicial type theory as a [[tuple]] consisting of a function $f:\mathbb{I} \to A$ and two identifications $p_0:f(0) = x$ and $p_1:f(1) = y$. The type of morphisms is called a *[[hom-type]]* and is defined as the [[dependent sum type]]
 
@@ -115,7 +93,91 @@ Given an element $x:A$, the hom-type $\mathrm{hom}_A(x, x)$ has an [[identity mo
 
 $$\mathrm{id}_A(x) \coloneqq (\lambda t.x, \beta_{\mathbb{I} \to A}^{t.x}(0), \beta_{\mathbb{I} \to A}^{t.x}(1)):\mathrm{hom}_A(x, x)$$
 
-A *composite of morphisms* in a type $A$ is a function $f:\Delta^2 \to A$ from the [[2-simplex]] to $A$. A *[[pair of composable morphisms]]* in a type $A$ is a function $g:\Lambda^2_1 \to A$ from the [[horn]] $\Lambda^2_1$ to $A$. 
+A *[[simplicially discrete type]]* is a type such that the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an morphism $J(\lambda t.\mathrm{id}_A(t), x, y, p):\mathrm{hom}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
+
+$$\mathrm{isSimpDisc}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
+
+### Functors
+
+Given two types $A$ and $B$, every function $f:A \to B$ induces a function 
+
+$$f_{x, y}:\mathrm{hom}_A(x, y) \to \mathrm{hom}_B(f(x), f(y))$$
+
+by postcomposition which takes a function $h:\mathbb{I} \to A$ to $f \circ h:\mathbb{I} \to B$ and by the [[action on identifications]] which take identifications $p_0:h(0) = x$ to $\mathrm{ap}_f(p_0):f(h(0)) = f(x)$ and $p_1:h(1) = x$ to $\mathrm{ap}_f(p_1):f(h(1)) = f(y)$. 
+
+As a result, functions can also be called *[[functors]]*. A *[[contravariant functor]]* $F$ from type $A$ to type $B$ is a function $F:A^\op \to B$ from the [[opposite type]] of $A$ to $B$. 
+
+### Composition of morphisms and Segal types
+
+A *[[pair of composable morphisms]]* in $A$ is a [[tuple]] consisting of elements $x:A$, $y:A$, $z:A$ and morphisms $f:\mathrm{hom}_A(x, y)$ and $g:\mathrm{hom}_A(y, z)$. The type of pairs of composable morphisms is the [[dependent sum type]]
+
+$$\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z)$$
+
+A *[[composite of morphisms]]* in $A$ is a [[tuple]] consisting of elements $x:A$, $y:A$, $z:A$ and morphisms $f:\mathrm{hom}_A(x, y)$, $g:\mathrm{hom}_A(y, z)$, and $h:\mathrm{hom}_A(x, z)$. The type of pairs of composable morphisms is the [[dependent sum type]]
+
+$$\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, z)$$
+
+There is a function from composites to pairs of composable morphisms
+
+$$p:\left(\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, z)\right) \to \left(\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z)\right)$$
+
+which discards the composite morphism in $\mathrm{hom}_A(x, z)$ from the tuple. 
+
+A pair of composable morphisms $(x, y, z, f, g)$ is **uniquely composable** if the [[fiber type]] of $p$ at $(x, y, z, f, g)$ is a [[contractible type]]. 
+
+$$\mathrm{isUniquelyComposable}(x, y, z, f, g) \coloneqq\mathrm{isContr}\left(\mathrm{fiber}(p, (x, y, z, f, g))\right)$$
+
+In this case, the unique morphism $h:\mathrm{hom}_A(x, z)$ such that $p(x, y, z, f, g, h) = (x, y, z, f, g)$ is said to be the **unique composite** of the morphisms $f$ and $g$. 
+
+$$\mathrm{isUniqueComposite}(x, y, z, f, g, h) \coloneqq \mathrm{isUniquelyComposable}(x, y, z, f, g) \times (p(x, y, z, f, g, h) = (x, y, z, f, g))$$
+
+A *[[Segal type]]* is a type $A$ which satisfies the [[Segal condition]]: every [[pair of composable morphisms]] is [[uniquely composable]]
+
+$$\mathrm{isSegal}(A) \coloneqq \prod_{x:A} \prod_{y:A} \prod_{z:A} \prod_{f:\mathrm{hom}_A(x, y)} \prod_{g:\mathrm{hom}_A(y, z)} \mathrm{isUniquelyComposable}(x, y, z, f, g)$$
+
+As a result, in a [[Segal type]] $A$, for all elements $x:A$, $y:A$, and $z:A$, one can construct a [[composition]] operation on [[hom-types]] 
+
+$$\lambda (g, f).g \circ f:\mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, y) \to \mathrm{hom}_A(x, z)$$
+
+which by the uniqueness condition is automatically [[associative]] and [[unital]]. 
+
+The opposite $A^\op$ of a Segal type $A$ is also a Segal type; that is, the opposite modality preserves the [[Segal condition]].
+
+### Isomorphisms, univalent types, and Rezk types
+
+Given elements $x:A$ and $y:A$, a morphism $f:\mathrm{hom}_A(x, y)$ is an *[[isomorphism in simplicial type theory|isomorphism]]* if it comes with morphisms $g:\mathrm{hom}_A(y, x)$ and $h:\mathrm{hom}_A(y, x)$ such that the identity morphism $\mathrm{id}_x$ is the [[unique composite]] of $g$ and $f$ and the identity morphism $\mathrm{id}_y$ is the [[unique composite]] of $f$ and $h$. The type of isomorphisms between $x:A$ and $y:A$ is defined as
+
+$$\mathrm{iso}_A(x, y) \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} \left(\sum_{g:\mathrm{hom}_A(y, x)} \mathrm{isUniqueComposite}(x, y, x, f, g, \mathrm{id}_x)\right) \times \left(\sum_{h:\mathrm{hom}_A(y, x)} \mathrm{isUniqueComposite}(y, x, y, h, f, \mathrm{id}_y)\right)$$
+
+A *[[univalent type]]* is a type $A$ such that the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\lambda t.\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
+
+$$\mathrm{isUnivalent}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
+
+The opposite $A^\op$ of a univalent type $A$ is also a univalent type; that is, the opposite modality preserves univalence.
+
+A *[[Rezk type]]* is a univalent Segal type  
+
+$$\mathrm{isRezk}(A) \coloneqq \mathrm{isSegal}(A) \times \mathrm{isUnivalent}(A)$$
+
+### Limits and colimits
+
+Limits and colimits in [[simplicial type theory]] can be defined in an arbitrary type, rather than just the [[Segal types]]. 
+
+Limits include:
+
+* [[terminal object in simplicial type theory]]
+
+* [[product in simplicial type theory]]
+
+* [[equalizer in simplicial type theory]]
+
+Colimits include:
+
+* [[initial object in simplicial type theory]]
+
+* [[coproduct in simplicial type theory]]
+
+* [[coequalizer in simplicial type theory]]
 
 ### Heterogeneous morphisms and covariant type families
 
@@ -131,62 +193,6 @@ A *[[covariant type family]]* is a [[type family]] $x:A \vdash B(x)$ such that f
 
 $$\mathrm{isCovariant}(t:A.B(t)) \coloneqq \prod_{x:A} \prod_{y:A} \prod_{f:\mathrm{hom}_A(x, y)} \prod_{u:B(x)} \exists!v:B(y).\mathrm{hhom}_{t.B(t)}(x, y, f, p_0, p_1, u, v)$$
 
-### Limits and colimits
-
-Limits and colimits in [[simplicial type theory]] can be defined in an arbitrary type, rather than just the [[Segal types]]. 
-
-Limits include:
-
-* [[terminal object in simplicial type theory]]
-
-* [[product in simplicial type theory]]
-
-Colimits include:
-
-* [[initial object in simplicial type theory]]
-
-* [[coproduct in simplicial type theory]]
-
-## $(\infty,1)$-category theory in simplicial type theory
-
-Since [[simplicial type theory]] is a [[synthetic mathematics|synthetic]] theory of [[simplicial anima]], simplicial type theory is typically used in [[(infinity,1)-category theory]] to define [[Segal spaces]] (i.e. [[Segal types]]) and [[complete Segal spaces]] (i.e. [[complete Segal types]]).
-
-### Segal types and complete Segal types
-
-\begin{definition}
-A *[[Segal type]]* is a type $A$ which satisfies the [[Segal condition]]: for every pair of composable morphisms, there exists a unique composite. That is, the canonical function which takes a composite of morphisms to its pair of composible morphisms is an [[equivalence of types]]
-
-$$\mathrm{isEquiv}(\lambda t.t \circ (\mathrm{id}, P))$$ 
-\end{definition}
-
-As a result, in a [[Segal type]] $A$, for all elements $x:A$, $y:A$, and $z:A$, one can construct a [[composition]] operation on [[hom-types]] 
-
-$$\lambda (g, f).g \circ f:\mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, y) \to \mathrm{hom}_A(x, z)$$
-
-which by the uniqueness condition is automatically [[associative]] and [[unital]]. 
-
-The opposite $A^\op$ of a Segal type $A$ is also a Segal type; that is, the opposite modality preserves the [[Segal condition]].
-
-A [[morphism]] $f:\mathrm{hom}_A(x, y)$ between elements $x:A$ and $y:A$ in a type $A$ is an *[[isomorphism]]* if one can construct a morphism $g:\mathrm{hom}_A(y, x)$ such that $g \circ f = \mathrm{id}_A(x)$ and a morphism $h:\mathrm{hom}_A(y, x)$ such that $f \circ h = \mathrm{id}_A(y)$. 
-
-The type of isomorphisms is given by the [[dependent sum type]]
-
-$$\mathrm{iso}_A(x, y) \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} \left(\sum_{g:\mathrm{hom}_A(y, x)} g \circ f = \mathrm{id}_A(x)\right) \times \left(\sum_{h:\mathrm{hom}_A(y, x)} f \circ h = \mathrm{id}_A(y)\right)$$
-
-\begin{definition}
-A *[[complete Segal type]]* is a Segal type which additionally is [[Rezk completion|complete]]: the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\lambda t.\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
-
-$$\prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
-\end{definition}
-
-The opposite $A^\op$ of a complete Segal type $A$ is also a complete Segal type; that is, the opposite modality preserves completeness.
-
-Examples of complete Segal types include the interval $\mathbb{I}$, the $n$-cubes $\mathrm{Fin}(n) \to \mathbb{I}$, and the $n$-simplices inductively defined by 
- 
-$$\Delta^0 \coloneqq \mathrm{Fin}(0) \to \mathbb{I}$$
-
-$$n:\mathbb{N} \vdash \Delta^{n + 1} \coloneqq \sum_{t:\mathrm{Fin}(n + 1) \to \mathbb{I}} \prod_{i:\mathrm{Fin}(n)} t(\pi_1(i)) \leq t(\pi_1(i + 1))$$
-
 ### Amazing covariance and directed univalent universes
 
 A type $A$ is an **amazingly covariant type** if it satisfies the following predicate
@@ -197,7 +203,11 @@ Let $(U, T)$ be a [[univalent Tarski universe]]. The [[directed univalence|direc
 
 $$\mathcal{S} \coloneqq \sum_{X:U} \mathrm{isACov}(T(X))$$
 
-The directed univalent universe $\mathcal{S}$ is a [[finitely complete Segal type|finitely complete]] and [[finitely cocomplete Segal type|finitely cocomplete]] [[complete Segal type]]. 
+The directed univalent universe $\mathcal{S}$ is a [[finitely complete type|finitely complete]] and [[finitely cocomplete type|finitely cocomplete]] [[Rezk type]]. 
+
+## Some open questions
+
+* Is it possible to define [[dagger (infinity,1)-category|dagger $(\infty,1)$-categories]] in simplicial type theory? Or do we have to use a complete graph for the interval in order to represent simplicial anima with involution $\mathrm{Ani}^{I \Delta^\op}$ a la [Bergner 12 Erratum](#Bergner12Erratum), which would result in a different type theory? ($I \Delta$ is the category of [[finite set|finite]] [[complete graphs]], a category with a finite number of objects and a single isomorphism between each object.)
 
 ## See also
 
@@ -245,6 +255,8 @@ The directed univalent universe $\mathcal{S}$ is a [[finitely complete Segal typ
 
 * {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
+* {#Bergner12Erratum} *Erratum to “Adding inverses to diagrams encoding algebraic structures” and “Adding inverses to diagrams II: Invertible homotopy theories are spaces”*, Homology, Homotopy and Applications **14** 1 (2012) 287-291 &lbrack;[doi:10.4310/HHA.2012.v14.n1.a15](https://dx.doi.org/10.4310/HHA.2012.v14.n1.a15), [arXiv:0710.2254 pp 18](https://arxiv.org/pdf/0710.2254#page=18)&rbrack;
+
 A talk on [[synthetic (infinity,1)-category theory]] in [[simplicial type theory]] and [[infinity-cosmos]] theory:
 
 * [[Emily Riehl]], *The synthetic theory of infinity-categories vs the synthetic theory of infinity-categories*, [[Homotopy Type Theory Electronic Seminar Talks]], 1 March 2018, ([video](https://www.youtube.com/watch?v=ge-9m1SsEmc), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Riehl-2018-03-01-HoTTEST.pdf))
@@ -256,7 +268,6 @@ A [[proof assistant]] implementing simplicial type theory:
 Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via [[simplicial homotopy type theory]] (in [[Rzk]]):
 
 * [[Nikolai Kudasov]], [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma* (2023) &lbrack;[arXiv:2309.08340](https://arxiv.org/abs/2309.08340)&rbrack;
-
 
 [[!redirects simplicial homotopy type theory]]
 
