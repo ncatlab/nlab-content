@@ -224,9 +224,7 @@ Other sources:
 
 * [[Glen Bredon]], Section II.1 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN:9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
-
-
-* [[Dale Husemöller]], _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/husemoller)) 
+* [[Dale Husemöller]]: _Fibre bundles_, Springer (1966, 1975 , 1994) &lbrack;[doi:10.1007/978-1-4757-2261-1](https://doi.org/10.1007/978-1-4757-2261-1), [pdf](https://link.springer.com/content/pdf/10.1007/978-1-4757-4008-0.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/husemoller), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/husemoller.pdf)&rbrack;
 
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
