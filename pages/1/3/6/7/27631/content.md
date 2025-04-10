@@ -29,6 +29,12 @@ In [[simplicial type theory]], a type $A$ is **finitely complete** if
 
 * $A$ has a [[terminal object in simplicial type theory|terminal object]] $1:A$
 
+* There is a [[pullback in simplicial type theory|pullback]] $x \times_z^{f, g} y:A$ for all elements $x:A$, $y:A$, $z:A$ and morphisms $f:\mathrm{hom}_A(x, z)$ and $g:\mathrm{hom}_A(y, z)$. 
+
+Equivalenty,  a type $A$ is **finitely complete** if 
+
+* $A$ has a [[terminal object in simplicial type theory|terminal object]] $1:A$
+
 * All elements $x:A$ and $y:A$ have a [[product in simplicial type theory|product]] $x \times y:A$
 
 * All elements $x:A$ and $y:A$ and morphisms $f:\mathrm{hom}_A(x, y)$ and $g:\mathrm{hom}_A(x, y)$ have an [[equalizer in simplicial type theory|equalizer]] $\mathrm{eq}(f, g):A$
@@ -47,3 +53,12 @@ If A is a [[Segal type]] then this notion coincides with the usual notion of [[f
 
 [[!redirects finitely complete type]]
 [[!redirects finitely complete types]]
+
+[[!redirects finitely complete Segal type]]
+[[!redirects finitely complete Segal types]]
+
+[[!redirects finitely complete complete Segal type]]
+[[!redirects finitely complete complete Segal types]]
+
+[[!redirects finitely complete Rezk type]]
+[[!redirects finitely complete Rezk types]]
