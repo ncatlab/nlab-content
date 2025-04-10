@@ -25,7 +25,7 @@ The concept of a [[skeleton]] in simplicial type theory. Note that in the contex
 
 ## Definition
 
-In [[simplicial type theory]], a **skeletal type** is a [[type]] $A$ such that for all $x:A$ and $y:A$ the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to a witness that $x$ and $y$ are [[isomorphism in a Segal type|merely isomorphic]] 
+In [[simplicial type theory]], given some notion of [[isomorphism in simplicial type theory|isomorphism]] $\mathrm{iso}_A(x, y)$, a **skeletal type** is a [[type]] $A$ such that for all $x:A$ and $y:A$ the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to a witness that $x$ and $y$ are [[isomorphism in a Segal type|merely isomorphic]] 
 $$\vert J(\lambda t.\mathrm{id}_A(t), x, y, p) \vert:[\mathrm{iso}_A(x, y)]$$ 
 is an [[equivalence of types]], where $[A]$ is the [[propositional truncation]] of $A$.  
 
