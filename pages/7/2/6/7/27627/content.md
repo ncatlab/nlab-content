@@ -55,6 +55,8 @@ such that for all $z:A$, $f:\mathrm{hom}_A(z, x)$, $g:\mathrm{hom}_A(z, y)$, [[u
 
 * [[coproduct in simplicial type theory]]
 
+* [[span in simplicial type theory]]
+
 [[!redirects product in simplicial type theory]]
 [[!redirects products in simplicial type theory]]
 
