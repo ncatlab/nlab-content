@@ -48,6 +48,7 @@ where $\Delta^1$ is the directed interval primitive $\mathbb{2}$ and $\partial \
 * [[identity type]]
 * [[function type]]
 * [[directed univalence]]
+* [[composite of morphisms]]
 * [[Segal type]], [[Rezk type]]
 * [[covariant type family]]
 * [[heterogeneous hom type]]
