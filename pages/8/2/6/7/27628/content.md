@@ -55,16 +55,27 @@ The type of composites of morphisms $\mathrm{comp}_A(x, y, z)$ between $x:A$, $y
 
 ## Unique composites
 
+\begin{definition}
 A pair of composable morphisms $(f, g)$ is **uniquely composable** if there exists a unique morphism $h:\mathrm{hom}_A(x, z)$ and function $k:\Delta^2 \to A$ such that $k(0, 0) = x$, $k(0, 1) = y$, $k(1, 1) = z$, $k_{(0, 0), (0, 1)} = f$, $k_{(0, 1), (1, 1)} = g$, $k_{(0, 0), (1, 1)} = h$:
 
-$$\mathrm{isUniquelyComposable}(f, g) \coloneqq \mathrm{isContr}\left(\sum_{h:\mathrm{hom}_A(x, z) \to A}\sum_{k:\Delta^2 \to A} \left(
+$$\mathrm{isUniquelyComposable}(f, g) \coloneqq \mathrm{isContr}\left(\sum_{h:\mathrm{hom}_A(x, z)}\sum_{k:\Delta^2 \to A} \left(
 \begin{array}{c}
     (k(0, 0) = x) \times (k(0, 1) = y) \times (k(1, 1) = z) \times \\
     (k_{(0, 0), (0, 1)} = f) \times (k_{(0, 1), (1, 1)} = g) \times (k_{(0, 0), (1, 1)} = h)
 \end{array}
 \right)\right)$$
+\end{definition}
 
-The morphism $h:\mathrm{hom}_A(x, z)$ is said to be the **unique composite** of $(f, g)$ if $(f, g)$ is uniquely composable. 
+\begin{definition}
+A morphism $h:\mathrm{hom}_A(x, z)$ is said to be the **unique composite** of $(f, g)$ if there exists a unique function $k:\Delta^2 \to A$ such that $k(0, 0) = x$, $k(0, 1) = y$, $k(1, 1) = z$, $k_{(0, 0), (0, 1)} = f$, $k_{(0, 1), (1, 1)} = g$, $k_{(0, 0), (1, 1)} = h$ and $(h, k)$ is the [[center of contraction]] of the dependent sum type:
+
+$$\sum_{h:\mathrm{hom}_A(x, z)}\sum_{k:\Delta^2 \to A} \left(
+\begin{array}{c}
+    (k(0, 0) = x) \times (k(0, 1) = y) \times (k(1, 1) = z) \times \\
+    (k_{(0, 0), (0, 1)} = f) \times (k_{(0, 1), (1, 1)} = g) \times (k_{(0, 0), (1, 1)} = h)
+\end{array}
+\right)$$
+\end{definition}
 
 Identity morphisms are always uniquely composable:
 
