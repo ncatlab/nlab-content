@@ -39,6 +39,9 @@ If $A$ is a [[Segal type]] then this notion coincides with the usual notion of [
 
 * [[coproduct in simplicial type theory]]
 
+[[!redirects product in simplicial type theory]]
+[[!redirects products in simplicial type theory]]
+
 [[!redirects product in a Segal type]]
 [[!redirects products in a Segal type]]
 
