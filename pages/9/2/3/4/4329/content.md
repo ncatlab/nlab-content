@@ -411,3 +411,20 @@ A formalization of homotopy pullbacks in [[homotopy type theory]] is [[Coq]]-cod
 [[!redirects (infinity,1)-fiber product]]
 [[!redirects (infinity,1)-fiber products]]
 
+[[!redirects pullback in an (infinity,1)-category]]
+[[!redirects pullbacks in an (infinity,1)-category]]
+
+[[!redirects pullback in an (∞,1)-category]]
+[[!redirects pullbacks in an (∞,1)-category]]
+
+[[!redirects fiber product in an (infinity,1)-category]]
+[[!redirects fiber products in an (infinity,1)-category]]
+
+[[!redirects fiber product in an (∞,1)-category]]
+[[!redirects fiber products in an (∞,1)-category]]
+
+[[!redirects fibre product in an (infinity,1)-category]]
+[[!redirects fibre products in an (infinity,1)-category]]
+
+[[!redirects fibre product in an (∞,1)-category]]
+[[!redirects fibre products in an (∞,1)-category]]
