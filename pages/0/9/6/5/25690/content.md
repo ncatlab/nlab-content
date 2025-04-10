@@ -29,29 +29,15 @@ There are multiple different formalisms of simplicial homotopy type theory; two 
 
 #### Directed interval via axioms
 
-In [[simplicial type theory]] where the directed interval primitive $\mathbb{2}$ is defined via axioms, let the 2-simplex type be defined as 
+In [[simplicial type theory]] where the directed interval primitive $\mathbb{I}$ is defined as a type via axioms, a **Segal type** is a type $A$ such that every [[pair of composable morphisms]] in $A$ is [[uniquely composable]]
 
-$$\Delta^2 \coloneqq \sum_{s:\mathbb{2}} \sum_{t:\mathbb{2}} s \leq t$$
+$$\mathrm{isSegal}(A) \coloneqq \prod_{x:A} \prod_{y:A} \prod_{z:A} \prod_{f:\mathrm{hom}_A(x, y)} \prod_{g:\mathrm{hom}_A(y, z)} \mathrm{isContr}(\mathrm{fiber}(p, (x, y, z, f, g))$$
 
-and let the 2-1-horn type be defined as 
+where $p$ is the function from composites to pairs of composable morphisms
 
-$$\Lambda_1^2 \coloneqq \sum_{s:\mathbb{2}} \sum_{t:\mathbb{2}} (s =_\mathbb{2} 0) \vee (t =_\mathbb{2} 1)$$
+$$p:\left(\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, z)\right) \to \left(\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z)\right)$$
 
-where $P \vee Q$ is the [[disjunction]] of the types $P$ and $Q$. Since $s \leq t$ implies $(s =_{\mathbb{2}} 0) \vee (t =_{\mathbb{2}} 1)$ for all $s:\mathbb{2}$ and $t:\mathbb{2}$, we have a canonical function 
-
-$$(\lambda t:\mathbb{I}.t, \lambda t:\mathbb{I}.t, P):\Delta^2 \to \Lambda^2_1$$
-
-which is a tuple consisting of two copies of the [[identity function]] on $\mathbb{I}$ and a [[dependent function]] $P$ that takes the witness that $s \leq t$ to a witness that $(s =_{\mathbb{2}} 0) \vee (t =_{\mathbb{2}} 1)$. By precomposition, this leads to a function 
-
-$$\lambda t.t \circ (\lambda t:\mathbb{I}.t, \lambda t:\mathbb{I}.t, P):(\Delta^2 \to A) \to (\Lambda^2_1 \to A)$$
-
-for all types $A$. 
-
-\begin{definition}
-$A$ is a **Segal type** if the above function $i$ is an [[equivalence of types]]. 
-
-$$\mathrm{isSegal}(A) \coloneqq \mathrm{isEquiv}(\lambda t.t \circ (\lambda t:\mathbb{I}.t, \lambda t:\mathbb{I}.t, P))$$
-\end{definition} 
+which discards the morphism in $\mathrm{hom}_A(x, z)$ from the tuple. 
 
 #### Type theory with shapes formalism
 
