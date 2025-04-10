@@ -26,8 +26,12 @@ This is the analog in [[(∞,1)-category theory]] of the notion of [[coproduct]]
 
 ## Related concepts
 
+* [[coproduct]]
+
 * [[(infinity,1)-product]]
+
 * [[(infinity,1)-pushout]]
+
 * [[(infinity,1)-colimit]]
 
 [[!redirects (infinity,1)-coproduct]]
