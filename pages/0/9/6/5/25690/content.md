@@ -86,7 +86,6 @@ The categorical semantics of a Segal type is a [[Segal space object]] in a [[loc
 * [[Segal space]]
 * [[precategory]]
 * [[skeletal Segal type]]
-* [[quasigroupoid type]]
 
 ## References
 
