@@ -43,6 +43,8 @@ $$p:\left(\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{h
 
 which discards the morphism in $\mathrm{hom}_A(x, z)$ from the tuple. 
 
+## Unique composites
+
 A pair of composable morphisms $(x, y, z, f, g)$ is **uniquely composable** if the [[fiber type]] of $p$ at $(x, y, z, f, g)$ is a [[contractible type]]. 
 
 $$\mathrm{isUniquelyComposable}(x, y, z, f, g) \coloneqq\mathrm{isContr}\left(\mathrm{fiber}(p, (x, y, z, f, g))\right)$$
@@ -50,6 +52,12 @@ $$\mathrm{isUniquelyComposable}(x, y, z, f, g) \coloneqq\mathrm{isContr}\left(\m
 In this case, the unique morphism $h:\mathrm{hom}_A(x, z)$ such that $p(x, y, z, f, g, h) = (x, y, z, f, g)$ is said to be the **unique composite** of the morphisms $f$ and $g$. 
 
 $$\mathrm{isUniqueComposite}(x, y, z, f, g, h) \coloneqq \mathrm{isUniquelyComposable}(x, y, z, f, g) \times (p(x, y, z, f, g, h) = (x, y, z, f, g))$$
+
+Identity morphisms are always uniquely composable:
+
+* Every morphism $f:\mathrm{hom}_A(x, y)$ is uniquely composable with the [[identity morphism]] $\mathrm{id}_A(x):\mathrm{hom}_A(x, x)$, whose unique composite is the original morphism $f$ itself. 
+
+* The [[identity morphism]] $\mathrm{id}_A(y):\mathrm{hom}_A(y, y)$ is uniquely composable with every morphism $f:\mathrm{hom}_A(x, y)$, whose unique composite is the original morphism $f$ itself. 
 
 ## Related concepts
 
