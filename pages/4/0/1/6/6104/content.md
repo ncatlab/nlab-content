@@ -1,5 +1,13 @@
 
-* [wikipedia entry](http://de.wikipedia.org/wiki/Dale_Husem%C3%B6ller)
+Dale Harper Husemöller
+
+* [institute page](https://www.haverford.edu/users/dhusemolle)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Dale_Husemoller) (en)
+
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Dale_Husem%C3%B6ller) (de)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=8299)
 
 
 ## Selected writings
@@ -7,7 +15,7 @@
 
 On [[fiber bundles]] ([[principal bundles]], [[associated bundles]], [[vector bundles]]):
 
-* [[Dale Husemoeller]], _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) ([gBooks](http://books.google.hr/books?id=DPr_BSH89cAC), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/husemoller))
+* [[Dale Husemöller]]: _Fibre bundles_, Springer (1966, 1975 , 1994) &lbrack;[doi:10.1007/978-1-4757-2261-1](https://doi.org/10.1007/978-1-4757-2261-1), [pdf](https://link.springer.com/content/pdf/10.1007/978-1-4757-4008-0.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/husemoller), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/husemoller.pdf)&rbrack;
 
 and with an eye towards [[topological K-theory]]:
 
@@ -27,6 +35,8 @@ On [[bilinear forms]]:
 * [[fiber bundle]]
 
   * [[principal bundle]], [[associated bundle]], [[vector bundle]]
+
+* [[clutching construction]]
 
 * [[Thom space]]
 
