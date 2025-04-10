@@ -349,6 +349,8 @@ Textbook accounts:
 * {#AGP02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Section 2.5 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) &lbrack;[doi:10.1007/b97586](https://doi.org/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)&rbrack;
 
 
+* [[Tamás Szamuely]]: *Galois groups and fundamental groups*, Cambridge Stud. Adv. Math. **117**, Cambridge University Press, (2009) &lbrack;[doi:10.1017/CBO9780511627064](https://doi.org/10.1017/CBO9780511627064)&rbrack;
+
 Review and Exposition:
 
 * {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) &lbrack;[arXiv:1106.5650](https://arxiv.org/abs/1106.5650), [pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf), [[Moller-FundamentalGroup.pdf:file]]&rbrack;
