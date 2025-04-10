@@ -51,6 +51,20 @@ Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two 
 
 The type of cospans $\mathrm{cospan}_A(x, y)$ between $x:A$ and $y:A$ is then the respective [[record type]].
 
+## Right quotients
+
+A **right quotient** of a cospan $g:\mathrm{hom}_A(y, z)$ and $h:\mathrm{hom}_A(x, z)$ is a morphism $f:\mathrm{hom}_A(x, y)$ such that $h$ is the [[unique composite]] of $f$ and $g$:
+
+$$\mathrm{rightQuotient}(g, h) \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} \mathrm{isUniqueComposite}(f, g, h)$$
+
+The cospan $(g, h)$ is said to be **right divisible** if it has a right quotient. 
+
+If $A$ is a [[Segal type]], this is equivalent to the usual definition of a right quotient
+
+$$\mathrm{rightQuotient}(g, h) \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} g \circ f = h$$
+
+Given a morphism $f:\mathrm{hom}_A(x, y)$, the cospan $(f, \mathrm{id}_y)$ is always right divisible with right quotient $f$. A [[section]] is a right quotient of the span $(\mathrm{id}_y, f)$. 
+
 ## Morphisms of cospans
 
 ### Using morphisms
@@ -91,10 +105,6 @@ Given elements $x:A$ and $y:A$ and cospans $f:\mathrm{cospan}_A(x, y)$ and $g:\m
 
 The type of morphisms of cospans $\mathrm{homcospan}_A(x, y, f, g)$ is then the respective [[record type]].
 
-## Right quotients
-
-Given a cospan $x:A$, $y:A$, $z:A$, $f:\mathrm{hom}_A(x, z)$ and $g:\mathrm{hom}_A(y, z)$, a **right quotient** is a unique morphism $g \,\backslash\, f:\mathrm{hom}_A(x, y)$ such that $g$ is the [[unique composite]] of $g \,\backslash\, f$ and $f$. A cospan is **right divisible** if there exists a unique morphism $g \,\backslash\, f:\mathrm{hom}_A(x, y)$ such that $g$ is the [[unique composite]] of $g \,\backslash\, f$ and $f$. 
-
 ## Related concepts
 
 * [[simplicial type theory]]
@@ -110,6 +120,8 @@ Given a cospan $x:A$, $y:A$, $z:A$, $f:\mathrm{hom}_A(x, z)$ and $g:\mathrm{hom}
 * [[span in simplicial type theory]]
 
 * [[coproduct in simplicial type theory]]
+
+* [[isomorphism in simplicial type theory]]
 
 [[!redirects cospan in simplicial type theory]]
 [[!redirects cospans in simplicial type theory]]
@@ -170,6 +182,8 @@ Given a cospan $x:A$, $y:A$, $z:A$, $f:\mathrm{hom}_A(x, z)$ and $g:\mathrm{hom}
 
 [[!redirects right quotient in a Rezk type]]
 [[!redirects right quotients in a Rezk type]]
+
+[[!redirects right divisible]]
 
 [[!redirects right divisible span in simplicial type theory]]
 [[!redirects right divisible spans in simplicial type theory]]
