@@ -31,6 +31,7 @@ $$\mathrm{isUnivalent}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\la
 * [[isomorphism in simplicial type theory]]
 * [[simplicially discrete type]]
 * [[Rezk type]]
+* [[gaunt type]]
 * [[univalent category]]
 
 [[!redirects univalent type]]
