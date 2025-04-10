@@ -39,9 +39,13 @@ In [[physics]], in [[gauge theory]], the clutching construction plays a central 
 
 Review:
 
+* [[Dale Husemöller]], chapter 7 of: _Fibre bundles_, Springer (1966, 1975 , 1994) &lbrack;[doi:10.1007/978-1-4757-2261-1](https://doi.org/10.1007/978-1-4757-2261-1), [pdf](https://link.springer.com/content/pdf/10.1007/978-1-4757-4008-0.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/husemoller), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/husemoller.pdf)&rbrack;
+
 * [[Allen Hatcher]], page 22 of: _Vector bundles and K-theory_ ([web](http://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], p. 17-28 of: _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
+
+See also: 
 
 * Wikipedia, _[Clutching construction](http://en.wikipedia.org/wiki/Clutching_construction)_
 
