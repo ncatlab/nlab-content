@@ -25,7 +25,7 @@ The concept of [[finitely complete]] in [[simplicial type theory]]. Note that in
 
 ## Definition
 
-In [[simplicial type theory]], a type $A$ is a [[finitely complete]] if 
+In [[simplicial type theory]], a type $A$ is **finitely complete** if 
 
 * $A$ has a [[terminal object in simplicial type theory|terminal object]] $1:A$
 
@@ -42,6 +42,8 @@ If A is a [[Segal type]] then this notion coincides with the usual notion of [[f
 * [[finitely complete]]
 
 * [[finitely complete (infinity,1)-category]]
+
+* [[finitely cocomplete type]]
 
 [[!redirects finitely complete type]]
 [[!redirects finitely complete types]]
