@@ -111,11 +111,11 @@ Diagrams in [[simplicial type theory]] can be defined in an arbitrary type, rath
 
 * [[composite of morphisms]]
 
-* [[isomorphism in simplicial type theory]]
-
 * [[span in simplicial type theory]]
 
 * [[cospan in simplicial type theory]]
+
+* [[isomorphism in simplicial type theory]]
 
 * [[fork in simplicial type theory]]
 
