@@ -103,7 +103,7 @@ The type of morphisms of spans $\mathrm{homspan}_A(x, y, f, g)$ is then the resp
 
 * [[product in simplicial type theory]]
 
-* [[cancellative type]]
+* [[quasigroupoid type]]
 
 [[!redirects span in simplicial type theory]]
 [[!redirects spans in simplicial type theory]]
