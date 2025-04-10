@@ -94,25 +94,30 @@ See [[simplicial fundamental groupoid]].
 
 * [[fundamental ∞-groupoid in a locally ∞-connected (∞,1)-topos]] / [[fundamental ∞-groupoid of a locally ∞-connected (∞,1)-topos|of a locally ∞-connected (∞,1)-topos]]
 
+
 ## References
 
-A detailed treatment is available in
+A detailed treatment:
 
 * [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer (1998, 2016)  [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8.
 
-Monograph:
+Monographs:
+
+* [[George W. Whitehead]], (1.7) in: *Elements of Homotopy Theory*, Springer (1978) &lbrack;[doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0)&rbrack;
+
 
 * [[Philip J. Higgins]], §6 of: *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
+
+* {#Brown06} [[Ronnie Brown]]: Chapter 6 of: *Topology and Groupoids*, Booksurge (2006) &lbrack;[pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf), [webpage](https://groupoids.org.uk/topgpds.html)&rbrack; 
 
 Review and Exposition:
 
 * {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) &lbrack;[arXiv:1106.5650](https://arxiv.org/abs/1106.5650), [pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf), [[Moller-FundamentalGroup.pdf:file]]&rbrack;
 
 * Alberto Santini, *Topological groupoids* (2011) &lbrack;[pdf](http://web.math.ku.dk/~moller/students/alberto.pdf), [[Santini-Groupoids.pdf:file]]&rbrack;
-
   > (about [[groupoids]] in [[topology]], notably [[fundamental groupoids]] -- not about [[topological groupoids]])
 
-* *[[Introduction to Topology -- 2]]*
+* [[Urs Schreiber]]: *[[Introduction to Topology -- 2]]*
 
 See also:
 
@@ -126,7 +131,6 @@ topological groupoid, _Proc. Edinburgh Math. Soc._ 19 (1975)
 * R. Brown and O. Mucuk,  The monodromy groupoid of a Lie
 groupoid, _Cah. Top. G\'eom. Diff. Cat_. 36 (1995) 345-369.
 
-* {#Brown06} [[Ronnie Brown]], _Topology and Groupoids_, Booksurge (2006). (See particularly 10.5.8, using lifted topologies to topologise $(\pi_1 X)/N$ where $N$ is a normal, totally disconnected subgroupoid of $\pi_1 X$, and $X$ admits a universal cover). ([more info] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
 
 Discussion from the point of view of [[Galois theory]] is in
