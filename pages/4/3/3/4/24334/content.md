@@ -115,7 +115,7 @@ Given an element $x:A$, the hom-type $\mathrm{hom}_A(x, x)$ has an [[identity mo
 
 $$\mathrm{id}_A(x) \coloneqq (\lambda t.x, \beta_{\mathbb{I} \to A}^{t.x}(0), \beta_{\mathbb{I} \to A}^{t.x}(1)):\mathrm{hom}_A(x, x)$$
 
-A *composite of morphisms* in a type $A$ is a function $f:\Delta^2 \to A$ from the [[2-simplex]] to $A$. A *pair of composable morphisms* in a type $A$ is a function $g:\Lambda^2_1 \to A$ from the [[horn]] $\Lambda^2_1$ to $A$. 
+A *composite of morphisms* in a type $A$ is a function $f:\Delta^2 \to A$ from the [[2-simplex]] to $A$. A *[[pair of composable morphisms]]* in a type $A$ is a function $g:\Lambda^2_1 \to A$ from the [[horn]] $\Lambda^2_1$ to $A$. 
 
 ### Heterogeneous morphisms and covariant type families
 
