@@ -21,20 +21,30 @@
 
 ## Idea
 
-The analogue of a [[Segal space]] in [[simplicial type theory]]. 
+The analogue of a [[Segal space]] in [[simplicial type theory]]. A *Segal type* is a type $A$ such that every [[pair of composable morphisms]] to $z:A$ is [[uniquely composable]]. 
 
 ## Definition
 
 ### Using morphisms
 
 \begin{definition}
-In [[simplicial type theory]], a **Segal type** is a type $A$ such that for all $x:A$, $y:A$, and $z:A$ every [[pair of composable morphisms]] from $x:A$ through $y:A$ to $z:A$ is [[uniquely composable]]. 
+In [[simplicial type theory]], a **Segal type** is a type $A$ such that given elements $x:A$, $y:A$, and $z:A$ and morphisms $f:\mathrm{hom}_A(x, y)$ and $g:\mathrm{hom}_A(y, z)$, the type
+
+$$\sum_{h:\mathrm{hom}_A(x, z)} \sum_{k:\Delta^2 \to A} \left(
+\begin{array}{c}
+    (k(0, 0) = x) \times (k(0, 1) = y) \times (k(1, 1) = z) \times \\
+    (k_{(0, 0), (0, 1)} = f) \times (k_{(0, 1), (1, 1)} = g) \times (k_{(0, 0), (1, 1)} = h)
+\end{array}
+\right)$$
+
+is a [[contractible type]], where $\Delta^2 \coloneqq \sum_{(s, t):\mathbb{I} \times \mathbb{I}} s \leq t$ is the [[2-simplex]] type. 
 \end{definition}
 
 \begin{definition}
-In [[simplicial type theory]] in the [[type theory with shapes]] formalism, a **Segal type** is a type $A$ such that given elements $x:A$, $y:A$, and $z:A$ and morphisms $f:\mathrm{hom}_A(x, y)$ and $g:\mathrm{hom}_A(y, z)$, [[uniqueness quantifier|there exists a unique]] morphism $h:\mathrm{hom}_A(x, z)$ such that 
-$$\left\langle \Delta^2 \to A \vert_{[x, y, z, f, g, h]}^{\partial \Delta^2} \right\rangle$$
-where $\Delta^2$ is the $2$-simplex probe shape and $\partial \Delta^2$ is its boundary. 
+In [[simplicial type theory]] in the [[type theory with shapes]] formalism, a **Segal type** is a type $A$ such that given elements $x:A$, $y:A$, and $z:A$ and morphisms $f:\mathrm{hom}_A(x, y)$ and $g:\mathrm{hom}_A(y, z)$, 
+$$\sum_{h:\mathrm{hom}_A(x, z)} \left\langle \Delta^2 \to A \vert_{[x, y, z, f, g, h]}^{\partial \Delta^2} \right\rangle$$
+
+is a [[contractible type]], where $\Delta^2$ is the $2$-simplex probe shape and $\partial \Delta^2$ is its boundary. 
 \end{definition}
 
 ### Using functions from shapes
