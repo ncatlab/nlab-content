@@ -21,7 +21,7 @@
 
 ## Definition
 
-In [[simplicial type theory]], a **univalent type** or **saturated type** is a type such that the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\lambda t.\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
+In [[simplicial type theory]], given some notion of [[isomorphism in simplicial type theory|isomorphism]] $\mathrm{iso}_A(x, y)$, a **univalent type** or **saturated type** is a type such that the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\lambda t.\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
 
 $$\mathrm{isUnivalent}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
 
