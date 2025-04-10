@@ -1465,9 +1465,9 @@ with structure maps
 $$
   \sigma_n^{X \vee Y}
     \;\colon\;
-  S^1 \wedge (X \vee Y)
+  S^1 \wedge (X \vee Y)_n
     \simeq
-  S^1 \wedge X \,\vee\, S^1 \wedge Y
+  S^1 \wedge X_n \,\vee\, S^1 \wedge Y_n
     \overset{(\sigma_n^X, \sigma_n^Y)}{\longrightarrow}
   X_{n+1} \vee Y_{n+1}
   \,.
