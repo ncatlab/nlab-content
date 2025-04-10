@@ -137,3 +137,5 @@ In the [[Elephant]], gaunt categories are briefly mentioned under the name "stif
 [[!redirects strict univalent category]]
 [[!redirects strict saturated categories]]
 [[!redirects strict univalent categories]]
+
+[[!redirects gauntness]]
