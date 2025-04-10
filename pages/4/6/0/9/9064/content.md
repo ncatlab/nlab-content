@@ -41,6 +41,7 @@ This is the analog in [[(∞,1)-category theory]] of the notion of [[pushout]] i
 ## Related concepts
 
 * [[(infinity,1)-pullback]]
+* [[(infinity,1)-coproduct]]
 * [[(infinity,1)-colimit]]
 
 [[!redirects (infinity,1)-pushout]]
