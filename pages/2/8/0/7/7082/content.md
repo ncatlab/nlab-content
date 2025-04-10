@@ -185,7 +185,7 @@ If the dependent type theory also has [[function extensionality]], then one coul
 * For homotopy isomorphisms, given a function $f:A \to B$, we define the $\mathrm{isEquiv}(f)$ type family as the product type of the type of [[sections]] of $f$ and the type of [[retractions]] of $f$. 
 $$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \left(\sum_{g:B \to A} \prod_{x:A} g(f(x)) =_A x\right) \times \left(\sum_{h:B \to A} \prod_{y:B} f(h(y)) =_B y\right)$$
 * For half adjoint equivalences, given a function $f:A \to B$, we define the $\mathrm{isEquiv}(f)$ type family as the type of quasi-inverse functions with a coherence condition. 
-$$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \left(\prod_{x:A} g(f(x)) =_A x\right) \times \left(\prod_{y:B} f(g(y)) =_B y\right) \times \left(\prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))\right)$$
+$$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \sum_{g:B \to A} \sum_{H:\prod_{x:A} g(f(x)) =_A x} \sum_{G:\prod_{y:B} f(g(y)) =_B y} \prod_{x:A} \mathrm{ap}_f(H(x)) =_{g(f(x)) =_A x} G(f(x))$$
 * For invertible functions, given a function $f:A \to B$, we define the $\mathrm{isEquiv}(f)$ type family as the proposition that the function merely has a [[quasi-inverse function]]:
 $$f:A \to B \vdash \mathrm{isEquiv}(f) \coloneqq \exists g:B \to A.(\Pi x:A.g(f(x)) =_A x) \times (\Pi y:B.f(g(y)) =_B y)$$
   and the [[equivalence type]] for the first definition: 
