@@ -11,7 +11,7 @@ On [[Galois cohomology]]:
 
 On [[Galois groups]] and [[fundamental groups]] of [[schemes]]:
 
-* _Galois Groups and Fundamental Groups_, Cambridge Studies in Advanced Mathematics, vol. 117, Cambridge University Press, 2009. 
+* [[Tamás Szamuely]]: *Galois groups and fundamental groups*, Cambridge Stud. Adv. Math. **117**, Cambridge University Press, (2009) &lbrack;[doi:10.1017/CBO9780511627064](https://doi.org/10.1017/CBO9780511627064)&rbrack;
 
 
 
