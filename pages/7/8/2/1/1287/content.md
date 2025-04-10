@@ -215,11 +215,19 @@ Then the first major account with discussion of the relation to [[twisted de Rha
 
 * {#Deligne70} [[Pierre Deligne]], *Equations différentielles à points singuliers réguliers*, Lecture Notes  Math. **163**, Springer (1970) &lbrack;[publications.ias:355](https://publications.ias.edu/node/355)&rbrack;
 
+Making explicit that instead of the [[fundamental group]] one may use the [[fundamental groupoid]] of the base space:
+
+* [[George W. Whitehead]], p. 257 in: *Elements of Homotopy Theory*, Springer (1978) &lbrack;[doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0)&rbrack;
+
+
 Textbook accounts:
 
 * {#Voisin02} [[Claire Voisin]] (translated by [[Leila Schneps]]), Section I 9.2.1 of: _[[Hodge theory and Complex algebraic geometry]] I_, Cambridge Stud. in Adv. Math. __76, 77__, 2002/3 ([doi:10.1017/CBO9780511615344](https://doi.org/10.1017/CBO9780511615344))
 
 * [[Alexandru Dimca]], Section 2.5 of: *Sheaves in Topology*, Universitext, Springer (2004) $[$[doi:10.1007/978-3-642-18868-8](https://doi.org/10.1007/978-3-642-18868-8)$]$
+
+* [[Tamás Szamuely]], section 2.6 of: *Galois groups and fundamental groups*, Cambridge Stud. Adv. Math. **117**, Cambridge University Press, (2009) &lbrack;[doi:10.1017/CBO9780511627064](https://doi.org/10.1017/CBO9780511627064)&rbrack;
+
 
 See also:
 
