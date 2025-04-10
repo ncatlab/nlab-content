@@ -86,6 +86,12 @@ With this definition of morphism, and the obvious notions of identity and compos
 
 ##References##
 
+Event structures were introduced in:
+
+* M. Nielsen, G. D. Plotkin, and [[G. Winskel]], _Petri nets, event structures and domains, part I_, Theoretical Computer Science, vol. 13, pp. 85–108, 1981. [doi:10.1016/0304-3975(81)90112-2](https://doi.org/10.1016/0304-3975%2881%2990112-2)
+
+Other papers:
+
 * [[G. Winskel]] and M. Nielsen, Models for concurrency. vol. 3, Handbook of Logic in Computer Science, pages 100 - 200, Oxford Univ. Press, 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
 * [[G. Winskel]], _Events, causality, and symmetry_, (an earlier version appeared in the BCS conference 'Visions in Computer Science.' September 2008. The final version appears in a special issue of The Computer Journal 2009; doi: 10.1093/comjnl/bxp052; see also  an [online version](http://www.cl.cam.ac.uk/~gw104/CJVision-Revised.pdf)).
