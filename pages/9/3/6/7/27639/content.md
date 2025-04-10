@@ -45,9 +45,9 @@ Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two 
 
 * a function $f:\Lambda^2_2 \to A$, 
 
-* an identification $p_x:f(0) = x$, 
+* an identification $p_x:f(0, 1) = x$, 
 
-* and an identification $p_y:f(1) = y$, 
+* and an identification $p_y:f(1, 1) = y$, 
 
 The type of spans $\mathrm{span}_A(x, y)$ between $x:A$ and $y:A$ is then the respective [[record type]].
 
