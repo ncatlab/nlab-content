@@ -51,6 +51,20 @@ Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two 
 
 The type of spans $\mathrm{span}_A(x, y)$ between $x:A$ and $y:A$ is then the respective [[record type]].
 
+## Left quotients
+
+A **left quotient** of a span $f:\mathrm{hom}_A(x, y)$ and $h:\mathrm{hom}_A(x, z)$ is a morphism $g:\mathrm{hom}_A(y, z)$ such that $h$ is the [[unique composite]] of $f$ and $g$:
+
+$$\mathrm{leftQuotient}(f, h) \coloneqq \sum_{g:\mathrm{hom}_A(y, z)} \mathrm{isUniqueComposite}(f, g, h)$$
+
+We say that the span $(f, h)$ is **left divisible** if it has a left quotient. 
+
+If $A$ is a [[Segal type]], this is equivalent to the usual definition of a left quotient
+
+$$\mathrm{leftQuotient}(f, h) \coloneqq \sum_{g:\mathrm{hom}_A(y, z)} g \circ f = h$$
+
+Given a morphism $f:\mathrm{hom}_A(x, y)$, the span $(\mathrm{id}_x, f)$ is always left divisible with left quotient $f$. A [[retraction]] is a left quotient of the span $(f, \mathrm{id}_x)$. 
+
 ## Morphisms of spans
 
 ### Using morphisms
@@ -91,10 +105,6 @@ Given elements $x:A$ and $y:A$ and spans $f:\mathrm{span}_A(x, y)$ and $g:\mathr
 
 The type of morphisms of spans $\mathrm{homspan}_A(x, y, f, g)$ is then the respective [[record type]].
 
-## Left quotients
-
-Given a span $x:A$, $y:A$, $z:A$, $f:\mathrm{hom}_A(z, x)$ and $g:\mathrm{hom}_A(z, y)$, a **left quotient** is a unique morphism $g / f:\mathrm{hom}_A(x, y)$ such that $g$ is the [[unique composite]] of $f$ and $g / f$. A span is said to be **left divisible** if there exists a unique morphism $g / f:\mathrm{hom}_A(x, y)$ such that $g$ is the [[unique composite]] of $f$ and $g / f$. 
-
 ## Related concepts
 
 * [[simplicial type theory]]
@@ -110,6 +120,8 @@ Given a span $x:A$, $y:A$, $z:A$, $f:\mathrm{hom}_A(z, x)$ and $g:\mathrm{hom}_A
 * [[composite of morphisms]]
 
 * [[product in simplicial type theory]]
+
+* [[isomorphism in simplicial type theory]]
 
 [[!redirects span in simplicial type theory]]
 [[!redirects spans in simplicial type theory]]
@@ -170,6 +182,8 @@ Given a span $x:A$, $y:A$, $z:A$, $f:\mathrm{hom}_A(z, x)$ and $g:\mathrm{hom}_A
 
 [[!redirects left quotient in a Rezk type]]
 [[!redirects left quotients in a Rezk type]]
+
+[[!redirects left divisible]]
 
 [[!redirects left divisible span in simplicial type theory]]
 [[!redirects left divisible spans in simplicial type theory]]
