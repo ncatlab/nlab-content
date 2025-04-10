@@ -207,7 +207,7 @@ If $\mathcal{C} = \mathbf{H}$ is an [[(∞,1)-topos]] then $\mathcal{C}^{\Delta^
 
 ### Internal language
 
-If $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]] whose [[internal language]] is [[homotopy type theory]], then the internal language of $\mathcal{C}^{\Delta^{op}}$ is that homotopy type theory equipped with the axioms for a [[linear interval]] object. (...)
+If $\mathcal{C}$ is a [[locally cartesian closed (∞,1)-category]] whose [[internal language]] is [[homotopy type theory]], then the internal language of $\mathcal{C}^{\Delta^{op}}$ is [[simplicial type theory]], a homotopy type theory equipped with the axioms for a [[linear interval]] object. If $\mathcal{C}$ is additionally an [[(∞,1)-topos]], then the internal language of $\mathcal{C}^{\Delta^{op}}$ is a [[cohesive homotopy type theory]] where the linear interval object exhibits the cohesion of simplicial objects. (...)
 
 ### Geometric realization and filtering
 
