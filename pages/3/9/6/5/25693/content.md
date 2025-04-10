@@ -25,30 +25,17 @@ The analogue of a [[Rezk category]] or [[complete Segal space]] in [[simplicial 
 
 ## Definition
 
-In [[simplicial type theory]], a **[[Rezk category|Rezk]] type** or **[[complete Segal space|complete Segal]] type** or **[[univalent category|univalent]] Segal type** or **[[saturated category|saturated]] Segal type** is a [[Segal type]] $A$ such that for all elements $x:A$ and $y:A$ there is an equivalence between the [[identity type]] $x =_A y$ and the [[type of isomorphisms in a Segal type]] $x \cong_A y$:
+In [[simplicial type theory]], a **[[Rezk category|Rezk]] type** or **[[complete Segal space|complete Segal]] type** is a [[univalent type|univalent]] [[Segal type]]
 
-$$\mathrm{isComplete}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\mathrm{idToIso}(x, y))$$
+$$\mathrm{isRezk}(A) \coloneqq \mathrm{isSegal}(A) \times \mathrm{isUnivalent}(A)$$ 
 
-where 
+## Examples
 
-$$
-  \mathrm{idToIso}(x, y)
-  \;\colon\;
-  (x =_A y) 
-  \;
-  \to 
-  \;
-  (x \cong_A y)
-$$
+Examples of Rezk types include the interval $\mathbb{I}$, the $n$-cubes $\mathrm{Fin}(n) \to \mathbb{I}$, and the $n$-simplices inductively defined by 
+ 
+$$\Delta^0 \coloneqq \mathrm{Fin}(0) \to \mathbb{I}$$
 
-$$
-  \mathrm{idToIso}(x, y)
-  \big(
-    \mathrm{refl}_A(x)
-  \big) 
-    \;\coloneqq\;
-  \mathrm{id}_A(x)
-$$
+$$n:\mathbb{N} \vdash \Delta^{n + 1} \coloneqq \sum_{t:\mathrm{Fin}(n + 1) \to \mathbb{I}} \prod_{i:\mathrm{Fin}(n)} t(\pi_1(i)) \leq t(\pi_1(i + 1))$$
 
 ## Categorical semantics
 
@@ -57,9 +44,9 @@ The categorical semantics of a complete Segal type is a [[complete Segal space o
 ## Related concepts
 
 * [[Segal type]]
+* [[univalent type]]
+* [[simplicially discrete type]]
 * [[complete Segal space]]
-* [[isomorphism in a Segal type]]
-* [[discrete Segal type]]
 * [[univalent category]]
 * [[skeletal Segal type]]
 * [[gaunt Segal type]]
