@@ -60,6 +60,9 @@ On [[mass]]-deformation of the IKKT matrix model (analogous to how the [[BMN mat
 
 * [[Shota Komatsu]], Adrien Martina, Joao Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part II* &lbrack;[arXiv:2411.18678](https://arxiv.org/abs/2411.18678)&rbrack;
 
+* [[Sean A. Hartnoll]], Jun Liu: *Statistical Physics of the Polarised IKKT Matrix Model* &lbrack;[arXiv:2504.06481](https://arxiv.org/abs/2504.06481)&rbrack;
+
+
 
 See also
 
