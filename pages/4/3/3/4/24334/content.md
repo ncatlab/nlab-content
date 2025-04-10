@@ -83,7 +83,7 @@ In the latter two approaches, the [[function type]] $\mathbb{I} \to A$ used in t
 
 ## Simplicial anima theory and $(\infty,1)$-category theory
 
-### Morphisms and simplicially discrete types
+### Morphisms
 
 The [[morphisms]] between elements $x:A$ and $y:A$ in a type $A$ are defined in simplicial type theory as a [[tuple]] consisting of a function $f:\mathbb{I} \to A$ and two identifications $p_0:f(0) = x$ and $p_1:f(1) = y$. The type of morphisms is called a *[[hom-type]]* and is defined as the [[dependent sum type]]
 
@@ -92,10 +92,6 @@ $$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{I} \to A} (f(0) = x) \times (f(
 Given an element $x:A$, the hom-type $\mathrm{hom}_A(x, x)$ has an [[identity morphism]] given by the tuple consisting of the [[constant function]] from $\mathbb{I}$ to $A$ at $x$ and two witnesses that $f(0) = x$ and $f(1) = x$ both derivable from the typal [[computation rules]] for [[function types]]. 
 
 $$\mathrm{id}_A(x) \coloneqq (\lambda t.x, \beta_{\mathbb{I} \to A}^{t.x}(0), \beta_{\mathbb{I} \to A}^{t.x}(1)):\mathrm{hom}_A(x, x)$$
-
-A *[[simplicially discrete type]]* is a type such that the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an morphism $J(\lambda t.\mathrm{id}_A(t), x, y, p):\mathrm{hom}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
-
-$$\mathrm{isSimpDisc}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
 
 ### Functors
 
@@ -107,57 +103,25 @@ by postcomposition which takes a function $h:\mathbb{I} \to A$ to $f \circ h:\ma
 
 As a result, functions can also be called *[[functors]]*. A *[[contravariant functor]]* $F$ from type $A$ to type $B$ is a function $F:A^\op \to B$ from the [[opposite type]] of $A$ to $B$. 
 
-### Composition of morphisms and Segal types
+### Diagrams
 
-A *[[pair of composable morphisms]]* in $A$ is a [[tuple]] consisting of elements $x:A$, $y:A$, $z:A$ and morphisms $f:\mathrm{hom}_A(x, y)$ and $g:\mathrm{hom}_A(y, z)$. The type of pairs of composable morphisms is the [[dependent sum type]]
+Diagrams in [[simplicial type theory]] can be defined in an arbitrary type, rather than just the [[Segal types]]. Diagrams include: 
 
-$$\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z)$$
+* [[pair of composable morphisms]]
 
-A *[[composite of morphisms]]* in $A$ is a [[tuple]] consisting of elements $x:A$, $y:A$, $z:A$ and morphisms $f:\mathrm{hom}_A(x, y)$, $g:\mathrm{hom}_A(y, z)$, and $h:\mathrm{hom}_A(x, z)$. The type of pairs of composable morphisms is the [[dependent sum type]]
+* [[composite of morphisms]]
 
-$$\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, z)$$
+* [[isomorphism in simplicial type theory]]
 
-There is a function from composites to pairs of composable morphisms
+* [[span in simplicial type theory]]
 
-$$p:\left(\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, z)\right) \to \left(\sum_{x:A} \sum_{y:A} \sum_{z:A} \mathrm{hom}_A(x, y) \times \mathrm{hom}_A(y, z)\right)$$
+* [[cospan in simplicial type theory]]
 
-which discards the composite morphism in $\mathrm{hom}_A(x, z)$ from the tuple. 
+* [[fork in simplicial type theory]]
 
-A pair of composable morphisms $(x, y, z, f, g)$ is **uniquely composable** if the [[fiber type]] of $p$ at $(x, y, z, f, g)$ is a [[contractible type]]. 
+* [[cofork in simplicial type theory]]
 
-$$\mathrm{isUniquelyComposable}(x, y, z, f, g) \coloneqq\mathrm{isContr}\left(\mathrm{fiber}(p, (x, y, z, f, g))\right)$$
-
-In this case, the unique morphism $h:\mathrm{hom}_A(x, z)$ such that $p(x, y, z, f, g, h) = (x, y, z, f, g)$ is said to be the **unique composite** of the morphisms $f$ and $g$. 
-
-$$\mathrm{isUniqueComposite}(x, y, z, f, g, h) \coloneqq \mathrm{isUniquelyComposable}(x, y, z, f, g) \times (p(x, y, z, f, g, h) = (x, y, z, f, g))$$
-
-A *[[Segal type]]* is a type $A$ which satisfies the [[Segal condition]]: every [[pair of composable morphisms]] is [[uniquely composable]]
-
-$$\mathrm{isSegal}(A) \coloneqq \prod_{x:A} \prod_{y:A} \prod_{z:A} \prod_{f:\mathrm{hom}_A(x, y)} \prod_{g:\mathrm{hom}_A(y, z)} \mathrm{isUniquelyComposable}(x, y, z, f, g)$$
-
-As a result, in a [[Segal type]] $A$, for all elements $x:A$, $y:A$, and $z:A$, one can construct a [[composition]] operation on [[hom-types]] 
-
-$$\lambda (g, f).g \circ f:\mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, y) \to \mathrm{hom}_A(x, z)$$
-
-which by the uniqueness condition is automatically [[associative]] and [[unital]]. 
-
-The opposite $A^\op$ of a Segal type $A$ is also a Segal type; that is, the opposite modality preserves the [[Segal condition]].
-
-### Isomorphisms, univalent types, and Rezk types
-
-Given elements $x:A$ and $y:A$, a morphism $f:\mathrm{hom}_A(x, y)$ is an *[[isomorphism in simplicial type theory|isomorphism]]* if it comes with morphisms $g:\mathrm{hom}_A(y, x)$ and $h:\mathrm{hom}_A(y, x)$ such that the identity morphism $\mathrm{id}_x$ is the [[unique composite]] of $g$ and $f$ and the identity morphism $\mathrm{id}_y$ is the [[unique composite]] of $f$ and $h$. The type of isomorphisms between $x:A$ and $y:A$ is defined as
-
-$$\mathrm{iso}_A(x, y) \coloneqq \sum_{f:\mathrm{hom}_A(x, y)} \left(\sum_{g:\mathrm{hom}_A(y, x)} \mathrm{isUniqueComposite}(x, y, x, f, g, \mathrm{id}_x)\right) \times \left(\sum_{h:\mathrm{hom}_A(y, x)} \mathrm{isUniqueComposite}(y, x, y, h, f, \mathrm{id}_y)\right)$$
-
-A *[[univalent type]]* is a type $A$ such that the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to an isomorphism $J(\lambda t.\mathrm{id}_A(t), x, y, p):\mathrm{iso}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
-
-$$\mathrm{isUnivalent}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.J(\lambda t.\mathrm{id}_A(t), x, y, p))$$ 
-
-The opposite $A^\op$ of a univalent type $A$ is also a univalent type; that is, the opposite modality preserves univalence.
-
-A *[[Rezk type]]* is a univalent Segal type  
-
-$$\mathrm{isRezk}(A) \coloneqq \mathrm{isSegal}(A) \times \mathrm{isUnivalent}(A)$$
+* [[commutative square in simplicial type theory]]
 
 ### Limits and colimits
 
@@ -183,11 +147,27 @@ Colimits include:
 
 * [[pushout in simplicial type theory]]
 
-Types with limits and colimits include:
+### Types
+
+Types include
+
+* [[simplicially discrete type]]
+
+* [[Segal type]]
+
+* [[univalent type]]
+
+* [[Rezk type]]
+
+* [[skeletal type]]
+
+* [[gaunt type]]
 
 * [[finitely complete type]]
 
 * [[finitely cocomplete type]]
+
+* [[quasigroupoid type]]
 
 ### Heterogeneous morphisms and covariant type families
 
