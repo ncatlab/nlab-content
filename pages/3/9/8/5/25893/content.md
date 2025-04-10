@@ -38,6 +38,8 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called a _finitely complet
 
 * [[finite (infinity,1)-limit]]
 
+* [[finitely cocomplete (infinity,1)-category]]
+
 * [[exact (infinity,1)-category]]
 
 [[!redirects finitely complete (infinity,1)-category]]
