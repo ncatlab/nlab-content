@@ -171,6 +171,8 @@ Limits include:
 
 * [[equalizer in simplicial type theory]]
 
+* [[pullback in simplicial type theory]]
+
 Colimits include:
 
 * [[initial object in simplicial type theory]]
@@ -178,6 +180,8 @@ Colimits include:
 * [[coproduct in simplicial type theory]]
 
 * [[coequalizer in simplicial type theory]]
+
+* [[pushout in simplicial type theory]]
 
 Types with limits and colimits include:
 
