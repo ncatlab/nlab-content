@@ -90,16 +90,18 @@ This crucially enters the definition of [[Artin L-functions]] associated with [[
 
 ## References
 
-Monographs
+Monographs:
 
 * Julio R. Bastida, *Field Extensions and Galois Theory*, Cambridge University Press (1984) &lbrack;[doi:10.1017/CBO9781107340749](https://doi.org/10.1017/CBO9781107340749)&rbrack;
  
 * {#Lenstra85} [[Hendrik Lenstra]], _Galois theory for schemes_ , Mathematisch Instituut Universiteit van Amsterdam (1985) &lbrack;[pdf](http://websites.math.leidenuniv.nl/algebra/GSchemes.pdf)&rbrack;
- 
 
-For the Galois group in [[stable homotopy theory]], see
+* [[Tamás Szamuely]]: *Galois groups and fundamental groups*, Cambridge Stud. Adv. Math. **117**, Cambridge University Press, (2009) &lbrack;[doi:10.1017/CBO9780511627064](https://doi.org/10.1017/CBO9780511627064)&rbrack; 
 
-* [[Akhil Mathew]], The Galois group of a stable homotopy theory, [arXiv](http://arxiv.org/abs/1404.2156).
+In [[stable homotopy theory]]:
+
+* [[Akhil Mathew]]: *The Galois group of a stable homotopy theory* &lbrack;[arXiv:1404.2156](http://arxiv.org/abs/1404.2156)&rbrack;
+
 
 [[!redirects Galois groups]]
 
