@@ -19,27 +19,32 @@
 
 \tableofcontents
 
+## Idea
+
+The concept of a [[skeleton]] in simplicial type theory. Note that in the context of simplicial type theory, skeletons make sense for any type, not just the Segal types.
+
 ## Definition
 
-In [[simplicial type theory]], a **skeletal Segal type** is a [[Segal type]] $A$ such that for all $x:A$ and $y:A$ the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to a witness that $x$ and $y$ are [[isomorphism in a Segal type|merely isomorphic]] 
+In [[simplicial type theory]], a **skeletal type** is a [[type]] $A$ such that for all $x:A$ and $y:A$ the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to a witness that $x$ and $y$ are [[isomorphism in a Segal type|merely isomorphic]] 
 $$\vert J(\lambda t.\mathrm{id}_A(t), x, y, p) \vert:[\mathrm{iso}_A(x, y)]$$ 
 is an [[equivalence of types]], where $[A]$ is the [[propositional truncation]] of $A$.  
 
-$$\mathrm{isSkeletal}(A) \coloneqq \mathrm{isSegal}(A) \times \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.\vert J(\lambda t.\mathrm{id}_A(t), x, y, p) \vert)$$ 
+$$\mathrm{isSkeletal}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.\vert J(\lambda t.\mathrm{id}_A(t), x, y, p) \vert)$$ 
 
-Every skeletal Segal type is a [[set]]. 
+Every skeletal type is a [[set]]. If $A$ is also a [[Segal type]], then the notion corresponds to the concept of a [[skeletal category|skeletal]] [[(infinity,1)-category]]. 
 
 ## Related concepts
 
-* [[Segal type]]
+* [[skeleton]]
 
-* [[complete Segal type]]
+* [[univalent type]]
 
-* [[skeletal category]]
+* [[gaunt type]]
 
-* [[gaunt Segal type]]
+* [[isomorphism in simplicial type theory]]
 
-* [[isomorphism in a Segal type]]
+[[!redirects skeletal type]]
+[[!redirects skeletal types]]
 
 [[!redirects skeletal Segal type]]
 [[!redirects skeletal Segal types]]
