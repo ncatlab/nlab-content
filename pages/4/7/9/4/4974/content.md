@@ -82,22 +82,27 @@ With this definition of morphism, and the obvious notions of identity and compos
 
 ##Event structures as presheaves 
 
+Presheaves are taken over finite partial orders of events to form a model of nondeterministic processes in which the computation paths have the shape of partial orders. Then the category of event structures embeds fully and faithfully in the presheaf category.
 
+It is shown in [Staton & Winksel](#StatonWinksel) that with the introduction of symmetry, event structures represent all presheaves over finite partial orders, rather than plain event structures which only represent certain [[separated presheaves]].
 
 ##References##
 
 Event structures were introduced in:
 
-* M. Nielsen, G. D. Plotkin, and [[G. Winskel]], _Petri nets, event structures and domains, part I_, Theoretical Computer Science, vol. 13, pp. 85–108, 1981. [doi:10.1016/0304-3975(81)90112-2](https://doi.org/10.1016/0304-3975%2881%2990112-2)
+* [[G. Winskel]], _Event Structures_, in _Advances in Petri Nets 1986_. Springer Lecture Notes in Computer Science 255, 1987, ([pdf](https://www.cl.cam.ac.uk/~gw104/Winskel1987_Chapter_EventStructures.pdf)).
 
-Other papers:
+Other papers on event structures:
+
+* M. Nielsen, G. D. Plotkin, and [[G. Winskel]], _Petri nets, event structures and domains, part I_, Theoretical Computer Science, vol. 13, pp. 85–108, 1981. [doi:10.1016/0304-3975(81)90112-2](https://doi.org/10.1016/0304-3975%2881%2990112-2)
 
 * [[G. Winskel]] and M. Nielsen, Models for concurrency. vol. 3, Handbook of Logic in Computer Science, pages 100 - 200, Oxford Univ. Press, 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
+* [[G. Winskel]], _Event Structures as Presheaves -- Two Representation Theorems_ [BRICS report](https://www.brics.dk/RS/99/7/BRICS-RS-99-7.pdf)
+
 * [[G. Winskel]], _Events, causality, and symmetry_, (an earlier version appeared in the BCS conference 'Visions in Computer Science.' September 2008. The final version appears in a special issue of The Computer Journal 2009; doi: 10.1093/comjnl/bxp052; see also  an [online version](http://www.cl.cam.ac.uk/~gw104/CJVision-Revised.pdf)).
 
-* [[Sam Staton]] and [[G. Winskel]], On the expressivity of symmetry in event structures,
-[LICS 2010](http://www.cl.cam.ac.uk/~gw104/lics2010final.pdf)
+* {#StatonWinksel} [[Sam Staton]] and [[G. Winskel]], On the expressivity of symmetry in event structures, [LICS 2010](http://www.cl.cam.ac.uk/~gw104/lics2010final.pdf)
 
 
 [[!redirects event structure]]
