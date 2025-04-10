@@ -119,6 +119,10 @@ such that this is [[universal property|universal]] among all objects with maps f
 
 * [[quasi-coproduct]]
 
+* [[homotopy coproduct]]
+
+* [[(infinity,1)-coproduct]]
+
 * [[sum type]]
 
 * [[free coproduct completion]]
