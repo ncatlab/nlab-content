@@ -19,7 +19,7 @@ To this end, the theory heart of the center develops understanding of otherwise 
 
 \linebreak
 
-The following lists the center's public activities, such as regional and international events and weekly seminars, with further materials (videos, slides, etc.) provided where available. 
+The following lists the center's public activities, notably local events and local weekly seminars regional and international events, with further materials (slides, references, videos, etc.) provided where available. 
 
 \linebreak
 
