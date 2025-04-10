@@ -188,6 +188,41 @@ Every poset is a [[Cauchy complete category]]. Posets are the Cauchy completions
 
 In [[homotopy type theory]], every [[type]] with a partial order in a [[univalent universe]] is a poset. ([Tosun](#Tosun), [Ahrens, North, Shulman, Tsementzis](#ANST))
 
+### Finite posets and Birkhoff duality
+ {#OppositeCategory}
+
+Let $FinPoset$ be the category of finite posets and order-preserving functions, and let $FinDistLat$ be the category of finite [[distributive lattices]] and lattice homomorphisms.  These are contravariantly equivalent, thanks to the presence of an [[ambimorphic object]]:
+
+**Proposition.** The [[opposite category]] of $FinPoset$ is [[equivalence of categories|equivalent]] to $FinDistLat$:
+
+$$
+  FinPoset^{op} \simeq FinDistLat.
+$$
+
+One direction of this equivalence is given by the hom-functor
+
+$$
+  [-,2] \;\colon\; FinPoset^{op} \stackrel{\simeq}{\to} FinDistLat
+$$
+
+where $2 = \{0,1\}$ is the 2-element poset with $0 \lt 1$ and for any $Y \in \FinPoset$, $[Y,2]$ is the distributive lattice of poset morphisms from $Y$ to $2$. The other direction is given by 
+
+$$
+  [-,2] \;\colon\; FinDistLat^{op} \stackrel{\simeq}{\to} FinPoset
+$$
+
+where $2$ is the 2-element distributive lattice and for any $X \in  FinDistLat$, $[X,2]$ is the poset of distributive lattice morphisms from $X$ to $2$. 
+
+This __Birkhoff duality__ is (in one form or another) mentioned in many places; the formulation in terms of hom-functors may be found in 
+
+* [[Gavin C. Wraith]], _Using the generic interval_, Cah. Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
+
+The functorial nature of the correspondence means that morphisms of finite posets (i.e. order-preserving maps) naturally correspond to morphisms of finite distributive lattices (i.e. order-preserving maps that also respect meet and join).
+
+It follows from Birkhoff's representation theorem that every finite distributive lattice can be seen as a lattice of sets (i.e. sets with join and meet given by union and intersection) -- in particular, sets whose elements are the join-irreducible elements of the lattice. Furthermore, a good intuition for why this duality holds is that either an element is generated as the join of existing elements, or it is join-irreducible. Hence given any existing poset, we can simply add all missing joins, and also a bottom (i.e. the nullary join). By general results (the adjoint functor theorem for posets) this suffices to ensure that all meets exist as well. This is analogous to the free colimit completion of a category, and indeed Birkhoff representation can be seen as a very special case of the Yoneda lemma as applied to (0,1)-category theory (i.e., order theory), since (0,1)-presheaves are functors into Bool rather than Set and hence correspond to [[lower set]]s.
+
+Birkhoff duality does not hold for infinite posets. 
+
 ## Examples
 
 * The [[function algebra]] of [[rational number|rational]]-valued [[functions]] on any [[set]] $X$ is a partial order. 
