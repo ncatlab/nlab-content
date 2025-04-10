@@ -233,4 +233,11 @@ And the existential quantifier defined from the type of propositions and depende
 [[!redirects particular quantifications]]
 
 [[!redirects existence]]
+[[!redirects mere existence]]
+
+[[!redirects exists]]
+[[!redirects there exists]]
+
+[[!redirects merely exists]]
+[[!redirects there merely exists]]
 
