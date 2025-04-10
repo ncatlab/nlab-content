@@ -36,6 +36,8 @@ On the [[IKKT matrix model]]:
 
 * [[Sean A. Hartnoll]], Jun Liu: *The Polarised IKKT Matrix Model* &lbrack;[arXiv:2409.18706](https://arxiv.org/abs/2409.18706)&rbrack;
 
+* [[Sean A. Hartnoll]], Jun Liu: *Statistical Physics of the Polarised IKKT Matrix Model* &lbrack;[arXiv:2504.06481](https://arxiv.org/abs/2504.06481)&rbrack;
+
 
 
 [[!redirects Sean A. Hartnoll]]
