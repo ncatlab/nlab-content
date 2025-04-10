@@ -20,9 +20,33 @@
 
 ## Definition
 
-In [[simplicial type theory]], given a type $A$ and [[terms]] $x:A$ and $y:A$, a morphism $f:\mathrm{hom}_A(x, y)$ is an **isomorphism** if the [[span in simplicial type theory|span]] $(f, \mathrm{id}_x)$ has a [[left quotient in simplicial type theory|left quotient]] and the [[cospan in simplicial type theory|cospan]] $(\mathrm{id}_y, f)$ has a [[right quotient in simplicial type theory|right quotient]]. 
+There are many possible definitions of an isomorphism in [[simplicial type theory]]. 
+
+### Bi-invertible morphisms
+
+In [[simplicial type theory]], given a type $A$ and [[terms]] $x:A$ and $y:A$, a morphism $f:\mathrm{hom}_A(x, y)$ is a **bi-invertible morphism** if the [[span in simplicial type theory|span]] $(f, \mathrm{id}_x)$ has a [[left quotient in simplicial type theory|left quotient]] and the [[cospan in simplicial type theory|cospan]] $(\mathrm{id}_y, f)$ has a [[right quotient in simplicial type theory|right quotient]]. 
 
 $$\mathrm{isIso}(f) \coloneqq \mathrm{leftQuotient}(f, \mathrm{id}_x) \times \mathrm{rightQuotient}(\mathrm{id}_y, f)$$
+
+### Merely quasi-invertible morphisms
+
+In [[simplicial type theory]], given a type $A$ and [[terms]] $x:A$ and $y:A$, a morphism $f:\mathrm{hom}_A(x, y)$ is a **quasi-invertible morphism** if one can construct a morphism $g:\mathrm{hom}_A(y, x)$ called a **quasi-inverse** such that $\mathrm{id}_x$ is the [[unique composite]] of $f$ and $g$ and $\mathrm{id}_y$ is the [[unique composite]] of $g$ and $f$. 
+
+$$\mathrm{quasiInverses}(f) \coloneqq \sum_{g:\mathrm{hom}_A(y, x)} \mathrm{isUniqueComposite}(f, g, \mathrm{id}_x) \times \mathrm{isUniqueComposite}(g, f, \mathrm{id}_y)$$
+
+A morphism $f:\mathrm{hom}_A(x, y)$ is a **merely quasi-invertible morphism** if [[there merely exists]] $g:\mathrm{hom}_A(y, x)$ such that $\mathrm{id}_x$ is the [[unique composite]] of $f$ and $g$ and $\mathrm{id}_y$ is the [[unique composite]] of $g$ and $f$. 
+
+$$\mathrm{isIso}(f) \coloneqq \exists g:\mathrm{hom}_A(y, x).\mathrm{isUniqueComposite}(f, g, \mathrm{id}_x) \times \mathrm{isUniqueComposite}(g, f, \mathrm{id}_y)$$
+
+If $A$ is a [[Segal type]], this is equivalent to the usual definition of a merely quasi-invertible morphism
+
+$$\mathrm{isIso}(f) \coloneqq \exists g:\mathrm{hom}_A(y, x).(g \circ f = \mathrm{id}_x) \times (f \circ g = \mathrm{id}_y)$$
+
+### Equivalence of definitions
+
+These definitions of an isomorphism are equivalent for [[Segal types]]. It is unknown whether the definitions are still equivalent for types which are not Segal, and if not, which notion of isomorphism is the right notion for non-Segal types. 
+
+## Type of isomorphisms
 
 The type of isomorphisms is given by the [[dependent sum type]]
 
@@ -40,7 +64,7 @@ $$x \cong_A y \coloneqq \exists f:\mathrm{hom}_A(x, y).\mathrm{isIso}(f)$$
 
 * [[Rezk type]]
 
-* [[skeletal Segal type]]
+* [[skeletal type]]
 
 * [[isomorphism]]
 
