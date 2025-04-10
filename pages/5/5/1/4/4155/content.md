@@ -75,7 +75,7 @@ $$
 
 Introduction:
 
-* Stephen J. Summers: "Tomita-Takesaki Modular Theory" ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0511034))
+* Stephen J. Summers: "Tomita-Takesaki Modular Theory" ([arXiv:math-ph/0511034](https://arxiv.org/abs/math-ph/0511034))
 
 Role in [[algebraic quantum field theory]]:
 
