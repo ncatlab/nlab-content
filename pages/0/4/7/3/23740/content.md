@@ -150,6 +150,8 @@ In [Lombardi & Quitté 2010](#LombardiQuitté2010), a [[unique factorization dom
 
 * [[prefield ring]]
 
+* [[quasiregular element]]
+
 ## References
 
 * {#LombardiQuitté2010} [[Henri Lombardi]], [[Claude Quitté]] (2010): *Commutative algebra: Constructive methods (Finite projective modules)* Translated by Tania K. Roblo, Springer (2015) ([doi:10.1007/978-94-017-9944-7](https://link.springer.com/book/10.1007/978-94-017-9944-7), [pdf](http://hlombardi.free.fr/CACM.pdf))
