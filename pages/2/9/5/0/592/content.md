@@ -271,6 +271,7 @@ where $\chi_i$ is the classifying map of $i$) and therefore strong.
 
 * [[homotopy pushout]]
 
+* [[(infinity,1)-pushout]]
 
 ## References
 
