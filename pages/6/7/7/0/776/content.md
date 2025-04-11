@@ -195,6 +195,8 @@ For $\mathcal{C} =$ [[Top]], the coequalizer of two [[continuous functions]] $f$
 
 * [[equalizer]]
 
+* [[(infinity,1)-coequalizer]]
+
 * [[regular epimorphism]]
 
 * [[propositional truncation object]]
