@@ -1,15 +1,25 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### $(\infty,1)$-Category theory
 +--{: .hide}
 [[!include quasi-category theory contents]]
 =--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
+#### Directed homotopy type theory
++-- {: .hide}
+[[!include directed homotopy type theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
 =--
 =--
-
+=--
 
 #Contents#
 * table of contents
@@ -355,8 +365,6 @@ anodyne since it is a pushout of $\Delta^{\{0\}}\to
 
 =--
 
-
-
 ### In model categories
 
 * [[homotopy pullback]]
@@ -365,6 +373,48 @@ anodyne since it is a pushout of $\Delta^{\{0\}}\to
 
 * [[pullback in a derivator]]
 
+### In simplicial type theory
+
+#### For Segal types
+
+In [[simplicial type theory]], the [[Segal types]] are the types that represent [[precategory objects in an (infinity,1)-category|(infinity,1)-precategories]]. Let $A$ be a type in [[simplicial type theory]], and let $x:A$, $y:A$, $z:A$ be three elements in $A$ and let $f:\mathrm{hom}_A(x, z)$ and $g:\mathrm{hom}_A(y, z)$ be two morphisms. The **$(\infty,1)$-pullback** of $f$ and $g$ is an tuple consisting of 
+
+* an element $x \times_z^{f,g} y:A$, 
+
+* a morphism $\mathrm{outl}(f, g):\mathrm{hom}_A(x \times_z^{f,g} y, x)$, 
+
+* a morphism $\mathrm{outr}(f, g):\mathrm{hom}_A(x \times_z^{f,g} y, y)$, 
+
+* and a morphism $\mathrm{compout}(f, g):\mathrm{hom}_A(x \times_z^{f,g} y, z)$ 
+
+such that 
+
+$$f \circ \mathrm{outl}(f, g) = \mathrm{compout}(f, g) \qquad \mathrm{and} \qquad g \circ \mathrm{outr}(f, g) = \mathrm{compout}(f, g)$$
+
+* and for any other element $w:A$ with morphisms $h:\mathrm{hom}_A(w, x)$, $j:\mathrm{hom}_A(w, y)$ and $k:\mathrm{hom}_A(w, z)$ such that $f \circ h = k$ and $g \circ j = k$, there exists a unique morphism $l(z, h, j, k):\mathrm{hom}_A(z, x \times_z^{f,g} y)$ such that
+$$h = \mathrm{outl}(f, g) \circ l(z, h, j, k) \qquad \mathrm{and} \qquad j = \mathrm{outr}(f, g) \circ l(z, h, j, k) \qquad \mathrm{and} \qquad k = \mathrm{compout}(f, g) \circ l(z, h, j, k)$$
+
+#### For arbitrary types
+
+The notion of an $(\infty,1)$-pullback can be generalised from [[Segal types]] to arbitrary types in [[simplicial type theory]], which represent [[simplicial infinity-groupoids]]. In a [[Segal type]] $A$, given morphisms $f:\mathrm{hom}_A(x, y)$, $g:\mathrm{hom}_A(y, z)$, and $h:\mathrm{hom}_A(x, z)$, $g \circ f = h$ if and only if $h$ is the [[unique composite]] of $f$ and $g$. This means that we can use the latter condition in the definition of an $(\infty,1)$-pullback in types which are not Segal and thus do not have a composition function on morphisms. 
+
+Let $A$ be a type in [[simplicial type theory]], and let $x:A$, $y:A$, $z:A$ be three elements in $A$ and let $f:\mathrm{hom}_A(x, z)$ and $g:\mathrm{hom}_A(y, z)$ be two morphisms. The **$(\infty,1)$-pullback** of $f$ and $g$ is an tuple consisting of 
+
+* an element $x \times_z^{f,g} y:A$, 
+
+* a morphism $\mathrm{outl}(f, g):\mathrm{hom}_A(x \times_z^{f,g} y, x)$, 
+
+* a morphism $\mathrm{outr}(f, g):\mathrm{hom}_A(x \times_z^{f,g} y, y)$, 
+
+* and a morphism $\mathrm{compout}(f, g):\mathrm{hom}_A(x \times_z^{f,g} y, z)$ 
+
+such that 
+
+* $\mathrm{compout}(f, g)$ is the [[unique composite]] of $f$ and $\mathrm{outl}(f, g)$ and the [[unique composite]] of $g$ and $\mathrm{outr}(f, g)$, 
+
+* and for any other element $w:A$ with morphisms $h:\mathrm{hom}_A(w, x)$, $j:\mathrm{hom}_A(w, y)$ and $k:\mathrm{hom}_A(w, z)$ such that $k$ is the unique composite of $f$ and $h$ and the unique composite of $g$ and $j$, there exists a unique morphism $l(z, h, j, k):\mathrm{hom}_A(z, x \times_z^{f,g} y)$ such that $h$ is the unique composite of $\mathrm{outl}(f, g)$ and $l(z, h, j, k)$, $j$ is the unique composite of $\mathrm{outr}(f, g)$ and $l(z, h, j, k)$, and $k$ is the unique composite of $\mathrm{compout}(f, g)$ and $l(z, h, j, k)$. 
+
+The fact that this definition works for any type $A$ implies that $(\infty,1)$-pullbacks should be definable in any [[simplicial infinity-groupoid]] or [[simplicial object in an (infinity,1)-category]], not just the $(\infty,1)$-categories or [[category objects in an (infinity,1)-category]].  
 
 ## Examples
 
@@ -389,7 +439,11 @@ For more on this see [[fiber sequence]].
 ## Related concepts
 
 * [[(infinity,1)-product]]
+
+* [[(infinity,1)-equalizer]]
+
 * [[(infinity,1)-pushout]]
+
 * [[(infinity,1)-limit]]
 
 [[!include notions of pullback -- contents]]
@@ -397,23 +451,31 @@ For more on this see [[fiber sequence]].
 
 ## References
 
+* [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], section 5.6 of: *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
+
 ### In homotopy type theory
 
 A formalization of homotopy pullbacks in [[homotopy type theory]] is [[Coq]]-coded in 
 
 * [[Guillaume Brunerie]], _[Hott/Coq/Limits/Pullbacks.v](https://github.com/guillaumebrunerie/HoTT/blob/master/Coq/Limits/Pullbacks.v)_ 
 
-
-
 [[!redirects (∞,1)-pullback]]
-[[!redirects (infinity,1)-pullbacks]]
 [[!redirects (∞,1)-pullbacks]]
+
+[[!redirects (infinity,1)-pullback]]
+[[!redirects (infinity,1)-pullbacks]]
 
 [[!redirects (∞,1)-fiber product]]
 [[!redirects (∞,1)-fiber products]]
 
 [[!redirects (infinity,1)-fiber product]]
 [[!redirects (infinity,1)-fiber products]]
+
+[[!redirects (∞,1)-fibre product]]
+[[!redirects (∞,1)-fibre products]]
+
+[[!redirects (infinity,1)-fibre product]]
+[[!redirects (infinity,1)-fibre products]]
 
 [[!redirects pullback in an (infinity,1)-category]]
 [[!redirects pullbacks in an (infinity,1)-category]]
@@ -432,3 +494,48 @@ A formalization of homotopy pullbacks in [[homotopy type theory]] is [[Coq]]-cod
 
 [[!redirects fibre product in an (∞,1)-category]]
 [[!redirects fibre products in an (∞,1)-category]]
+
+[[!redirects pullback in simplicial type theory]]
+[[!redirects pullbacks in simplicial type theory]]
+
+[[!redirects pullback in a type]]
+[[!redirects pullbacks in a type]]
+
+[[!redirects pullback in a Segal type]]
+[[!redirects pullbacks in a Segal type]]
+
+[[!redirects pullback in a complete Segal type]]
+[[!redirects pullbacks in a complete Segal type]]
+
+[[!redirects pullback in a Rezk type]]
+[[!redirects pullbacks in a Rezk type]]
+
+[[!redirects fiber product in simplicial type theory]]
+[[!redirects fiber products in simplicial type theory]]
+
+[[!redirects fiber product in a type]]
+[[!redirects fiber products in a type]]
+
+[[!redirects fiber product in a Segal type]]
+[[!redirects fiber products in a Segal type]]
+
+[[!redirects fiber product in a complete Segal type]]
+[[!redirects fiber products in a complete Segal type]]
+
+[[!redirects fiber product in a Rezk type]]
+[[!redirects fiber products in a Rezk type]]
+
+[[!redirects fibre product in simplicial type theory]]
+[[!redirects fibre products in simplicial type theory]]
+
+[[!redirects fibre product in a type]]
+[[!redirects fibre products in a type]]
+
+[[!redirects fibre product in a Segal type]]
+[[!redirects fibre products in a Segal type]]
+
+[[!redirects fibre product in a complete Segal type]]
+[[!redirects fibre products in a complete Segal type]]
+
+[[!redirects fibre product in a Rezk type]]
+[[!redirects fibre products in a Rezk type]]
