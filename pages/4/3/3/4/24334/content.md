@@ -141,7 +141,7 @@ Colimits include:
 
 * [[(infinity,1)-coproduct]]
 
-* [[coequalizer in simplicial type theory]]
+* [[(infinity,1)-coequalizer]]
 
 * [[(infinity,1)-pushout]]
 
