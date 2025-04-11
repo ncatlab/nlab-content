@@ -1,4 +1,4 @@
-> This page is about the [[rigs]] with a Kleene star closure operation. For the [[de Morgan algebra]], see [[Kleene algebra]].
+> This page is about the [[rigs]] with a Kleene star closure operation. For the [[de Morgan algebra]], see *[[Kleene algebra]]*.
 
 ----
 
@@ -18,7 +18,7 @@
 
 A *Kleene algebra* is a [[rig]] that generalizes the theory of [[regular expressions]]: it consists of a set with union (rig addition), concatenation (rig multiplication), and closure operation (Kleene star). 
 
-Disambiguation note: This article is called a *Kleene star algebra* solely for disambiguation purposes as [[Kleene algebra]] already exists for the [[de Morgan algebra]], and this rig is the only one with a Kleene star. In the existing literature, these objects are simply called *Kleene algebras*. 
+Disambiguation note: This article is titled *Kleene star algebra* solely for disambiguation purposes as *[[Kleene algebra]]* already refers to the [[de Morgan algebra]], and this rig is the only one with a Kleene star. In the existing literature, these objects are simply called *Kleene algebras*. 
 
 ## Definition
 
