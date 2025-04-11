@@ -28,7 +28,7 @@ In generality of its transformation properties, parastatistics is in-between ord
 
 ## Related concepts
 
-* [[bosons]], [[fermions]]
+* [[bosons]], [[fermions]], [[parafermion]]
 
 * [[braid group statistics]], [[anyons]]
 
@@ -141,7 +141,7 @@ Concrete lattice models for a kind of parastatistics in 3d:
 
 * {#FreedmanHastingsNayakQiWalkerWang11} [[Michael Freedman]], [[Matthew B. Hastings]], [[Chetan Nayak]], [[Xiao-Liang Qi]], [[Kevin Walker]], [[Zhenghan Wang]]: *Projective Ribbon Permutation Statistics: a Remnant of non-Abelian Braiding in Higher Dimensions*, Phys. Rev. B **83** 115132 (2011) &lbrack;[doi:10.1103/PhysRevB.83.115132](https://doi.org/10.1103/PhysRevB.83.115132), [arXiv:1005.0583](https://arxiv.org/abs/1005.0583)&rbrack;
 
-Claim of parastatistical [[quasiparticles]] emerging in low dimensional quantum spin systems:
+Claim of parastatistical [[quasiparticles]] (not to be confused with [[parafermion|parafermions]]) emerging in low dimensional quantum spin systems:
 
 * {#WangHazzard25} [[Zhiyuan Wang]], [[Kaden R. A. Hazzard]]: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
 
