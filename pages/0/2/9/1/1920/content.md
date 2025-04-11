@@ -171,6 +171,8 @@ Each of the above contexts for generalized multicategories requires a monad of a
 
 * [[Tom Leinster]], _Generalized enrichment for categories and multicategories_,  [math.CT/9901139](http://arxiv.org/abs/math.CT/9901139)
 
+* [[Claudio Hermida]], _From coherent structures to universal properties_, Journal of Pure and Applied Algebra 165.1 (2001): 7-61.
+
 * A blog post (of probably many; someone should find some others): [Generalized Operads in Classical Algebraic Topology](http://golem.ph.utexas.edu/category/2009/10/generalized_operads_in_classic.html)
 
 * [[Martin Hyland]], _Elements of a theory of algebraic theories_, [arXiv:1311.7642](http://arxiv.org/abs/1311.7642).
