@@ -38,7 +38,7 @@ The [[orientation|oriented]]
 | $1$ | [[2-torus]] $\mathbb{T}^2$ |
 | $2$ | [[double torus]] $\Sigma^2_2$ |
 
-(cf. [Kinsey 1991 Thm. 4.14](#Kinsey91), [Gallier & Xu 2013 Thm 6.3](#GallierXu13), [Thm. 4.14](#BBR21))
+(cf. [Kinsey 1991 Thm. 4.14](#Kinsey91), [Gallier & Xu 2013 Thm 6.3](#GallierXu13), [Bray et al. Thm. 4.14](#BBR21))
 
 \begin{imagefromfile}
     "file_name": "Hatcher-ClosedSurfaceDecomposition.jpg",
@@ -55,7 +55,7 @@ The [[orientation|oriented]]
 \end{imagefromfile}
 
 
-{#FundamentalPolygons} Here the closed oriented surface $\Sigma^2_g$ of genus $g$ may be obtained from the [[regular polygon|regular $4g$-gon]] by identifying 
+{#FundamentalPolygons} Here the closed oriented surface $\Sigma^2_g$ of genus $g$ may be obtained from the [[regular polygon|regular $4g$-gon]] by identifying (cf. [Giblin 1977 Thm 2.8](#Giblin77)):
 
 * all the [[boundary]] [[vertices]] with a single point, 
 
@@ -320,13 +320,13 @@ Monographs:
 
 * {#GallierXu13} [[Jean Gallier]], [[Dianna Xu]]: *A Guide to the Classification Theorem for Compact Surfaces*, Springer (2013) &lbrack;[doi:10.1007/978-3-642-34364-3](https://doi.org/10.1007/978-3-642-34364-3), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Guide_to_the_Classification_Theorem_for_Compact_Surfaces)&rbrack;
 
-* {#BBR21} Clark Bray, Adrian Butcher, Simon Rubinstein-Salzedo, chapters 2 & 4 of: *Algebraic Topology*, Springer (2021) \[<a href="https://doi.org/10.1007/978-3-030-70608-1">doi:10.1007/978-3-030-70608-1</a>, [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-70608-1.pdf)\]
-
 In the broader context of [[algebraic topology]]:
 
 * {#Giblin77} P. J. Giblin: *Graphs, Surfaces and Homology -- An Introduction to Algebraic Topology*, Chapman and Hall (1977) &lbrack;[doi:10.1007/978-94-009-5953-8](https://doi.org/10.1007/978-94-009-5953-8)&rbrack;
 
 * {#Hatcher02} [[Allen Hatcher]]: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+
+* {#BBR21} Clark Bray, Adrian Butcher, Simon Rubinstein-Salzedo, chapters 2 & 4 of: *Algebraic Topology*, Springer (2021) \[<a href="https://doi.org/10.1007/978-3-030-70608-1">doi:10.1007/978-3-030-70608-1</a>, [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-70608-1.pdf)\]
 
 
 See also:
