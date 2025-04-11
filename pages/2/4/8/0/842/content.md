@@ -383,7 +383,9 @@ In other words, suppose that $\lim_x F(x,y)$ exists for all $y$ and $\lim_y F(x,
 
 #### Coproduct
 
-...
+See also at [[(infinity,1)-coproduct]].
+
+(...)
 
 #### Pullback / Pushout
 
@@ -494,7 +496,9 @@ A proof appears as [[Higher Topos Theory|HTT, lemma 4.4.2.1]]
 
 #### Coequalizer
 
-...
+See also at [[(infinity,1)-coequalizer]].
+
+(...)
 
 #### Quotients
 
