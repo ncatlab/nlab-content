@@ -102,6 +102,12 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * [[multiplicatively cancellable rig]]
 
+* [[star rig]]
+
+* [[Conway rig]]
+
+* [[Kleene star algebra]]
+
 ## References
 
 The terminology "rig" is due to:
@@ -128,6 +134,11 @@ Discussion under the name *semirings*:
 
 * J. Jun, S. Ray, J. Tolliver, _Lattices, spectral spaces, and closure operations on idempotent semirings_, [arxiv/2001.00808](https://arxiv.org/abs/2001.00808)
 
+* [[Manfred Droste]], [[Werner Kuich]], *Semirings and Formal Power Series* (2009). In: Manfred Droste, Werner Kuich, [[Heiko Vogler]] (editors), Handbook of Weighted Automata. Monographs in Theoretical Computer Science. An EATCS Series. Springer, Berlin, Heidelberg. pp. 3–28.([doi:10.1007/978-3-642-01492-5_1](https://doi.org/10.1007%2F978-3-642-01492-5_1))
+
+* [[Zoltán Ésik]], *Iteration semirings* (2008). In: Masami Ito, Masafumi Toyama (editors), Developments in language theory. 12th international conference, DLT 2008, Kyoto, Japan, September 16–19, 2008. Proceedings. Lecture Notes in Computer Science. Vol. 5257. Berlin: Springer-Verlag. pp. 1–20. ([doi:10.1007/978-3-540-85780-8_1](https://doi.org/10.1007%2F978-3-540-85780-8_1))
+
+* [[Dexter Kozen]] (1990). *On Kleene algebras and closed semirings*. In: [[Branislav Rovan]] (editor). Mathematical Foundations of Computer Science 1990. MFCS 1990. Lecture Notes in Computer Science, vol 452. Springer, Berlin, Heidelberg. ([doi:10.1007/BFb0029594](https://doi.org/10.1007/BFb0029594), [pdf](https://www.cs.cornell.edu/~kozen/Papers/kacs.pdf))
 
 [[!redirects rigs]]
 [[!redirects Rigs]]
