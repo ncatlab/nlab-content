@@ -37,7 +37,7 @@ By the [[spin-statistics theorem]], this is the same thing as a particle whose [
 
 ## Related concepts
 
-* **boson**, [[fermion]], [[anyon]]
+* **boson**, [[fermion]], [[anyon]], [[paraparticle]]
 
 * [[spin-statistics theorem]]
 
