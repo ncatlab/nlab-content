@@ -25,11 +25,17 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The notion of a [[prelattice]] [[internalization|internal]] to a [[finitely complete category]]. 
+
 ## Definition
 
 In a [[finitely complete category]] $C$, a **bicartesian preordered object** or **prelattice object** is a [[preordered object]] $X$ that is both a [[cartesian monoidal preordered object]] and a [[cocartesian monoidal preordered object]]. 
 
 ## See also 
+
+* [[prelattice]]
 
 * [[cartesian monoidal preordered object]]
 
