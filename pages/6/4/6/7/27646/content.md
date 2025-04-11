@@ -2,6 +2,16 @@
 
 ----
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
