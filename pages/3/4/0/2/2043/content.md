@@ -22,7 +22,7 @@ Given a unital (typically noncommutative) [[ring]] $R$, the __Jacobson radical__
 
 1. For each [[simple object|simple]] left $R$-[[module]] $M$, $r M =0$.
 2. Each [[maximal ideal|maximal]] left [[ideal]] of $R$ contains $r$.
-3. For all $x\in R$, $1 - r x$ is left [[invertible element|invertible]] in $R$.
+3. For all $x\in R$, $r x$ is [[left quasiregular]], i.e. $1 - r x$ is left [[invertible element|invertible]] in $R$
 
 Alternatively,
 
@@ -82,6 +82,7 @@ The Jacobson radical of a possibly trivial [[local ring]] $R$ is the set of elem
 * [[radical]]
 * [[scale]]
 * [[Nakayama lemma]]
+* [[quasiregular element]]
 
 ## References
 
