@@ -39,7 +39,7 @@ Equivalenty,  a type $A$ is **finitely complete** if
 
 * All elements $x:A$ and $y:A$ and morphisms $f:\mathrm{hom}_A(x, y)$ and $g:\mathrm{hom}_A(x, y)$ have an [[equalizer in simplicial type theory|equalizer]] $\mathrm{eq}(f, g):A$
 
-If A is a [[Segal type]] then this notion coincides with the usual notion of [[finitely complete (infinity,1)-category]]. 
+If A is a [[Rezk type]] then this notion coincides with the usual notion of [[finitely complete (infinity,1)-category]]. 
 
 ## Related concepts
 
