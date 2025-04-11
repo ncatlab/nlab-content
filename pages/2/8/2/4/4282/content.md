@@ -1,4 +1,8 @@
 
+> This article is about $*$-rigs, rigs ($\mathbb{N}$-algebras) with an [[anti-involution]]. For the [[rig]] that is a generalization of a [[Kleene star algebra]], with a Kleene star operation, see [[star semiring]]. 
+
+---
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -195,15 +199,6 @@ Discussion of the Example \ref{StarAlgebraOfHorizontalChordDiagrams} of [[horizo
 [[!redirects *-rings]]
 [[!redirects * ring]]
 [[!redirects * rings]]
-
-[[!redirects star-rig]]
-[[!redirects star-rigs]]
-[[!redirects star rig]]
-[[!redirects star rigs]]
-[[!redirects *-rig]]
-[[!redirects *-rigs]]
-[[!redirects * rig]]
-[[!redirects * rigs]]
 
 [[!redirects Banach star-algebra]]
 [[!redirects Banach star-algebras]]
