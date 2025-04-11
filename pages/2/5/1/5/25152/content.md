@@ -103,3 +103,6 @@ $$\mathrm{isUnivalent}(U, T) \coloneqq \forall A:U.\exists! B:U.T(A) \simeq T(B)
 [[!redirects unicity quantifiers]]
 [[!redirects unicity quantification]]
 [[!redirects unicity quantifications]]
+
+[[!redirects there exists a unique]]
+[[!redirects there is a unique]]
