@@ -129,11 +129,11 @@ Limits include:
 
 * [[terminal object in simplicial type theory]]
 
-* [[product in simplicial type theory]]
+* [[(infinity,1)-product]]
 
-* [[equalizer in simplicial type theory]]
+* [[(infinity,1)-equalizer]]
 
-* [[pullback in simplicial type theory]]
+* [[(infinity,1)-pullback]]
 
 Colimits include:
 
