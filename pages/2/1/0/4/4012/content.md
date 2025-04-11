@@ -172,7 +172,9 @@ Discussion of the [[adjoint functor theorem]]:
 
 * {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, &lbrack;[arXiv:2306.10389](https://arxiv.org/abs/2306.10389)&rbrack;
 
+On connections to [[generalized multicategories]] and [[representable multicategory|representability]]:
 
+* [[Claudio Hermida]], _From coherent structures to universal properties_, Journal of Pure and Applied Algebra 165.1 (2001): 7-61.
 
 [[!redirects KZ monad]]
 [[!redirects KZ-monad]]
