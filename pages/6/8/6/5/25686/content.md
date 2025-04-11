@@ -16,14 +16,14 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 |2015|Aveiro|[website](https://sweet.ua.pt/dirk/ct2015/)| |
 |2014|Cambridge|[website](http://julia-goedecke.de/CT2014/)| |
 |2013|Sydney|[website](http://web.science.mq.edu.au/groups/coact/seminar/ct2013/)| |
-|2012|*Data missing*|*Data missing*| |
+|2012|*no event*|[reference](https://golem.ph.utexas.edu/category/2012/12/category_theory_2013.html)| |
 |2011|Vancouver|[website](http://www.mat.uc.pt/~ct2011/)| |
 |2010|Genoa|[archive](https://web.archive.org/web/20120115044855/http://ct2010.disi.unige.it/)| |
 |2009|Cape Town|[website](http://137.158.44.70/~janelidze/ct2009/Index.html)| |
 |2008|Calais|[website](http://www-lmpa.univ-littoral.fr/CT08/)|[slides](https://www-lmpa.univ-littoral.fr/CT08/program.html)|
 |2007|Carvoeiro|[website](https://www.mat.uc.pt/~categ/ct2007/)| |
 |2006|Nova Scotia|[website](https://www.mscs.dal.ca/~selinger/ct2006/)| |
-|2005|*Data missing*|*Data missing*| |
+|2005|*no event (Streetfest held instead)*|[Streetfest](http://streetfest.maths.mq.edu.au/)| |
 |2004|Vancouver|[archive](https://web.archive.org/web/20050209223404/http://www.pims.math.ca/science/2004/CT04/)| [pdf](https://web.archive.org/web/20070710174825/http://www.pims.math.ca/science/2004/CT04/ct04_abstracts.pdf)|
 |2003|*Data missing*|*Data missing*| |
 |2002|*Data missing*|*Data missing*| |
