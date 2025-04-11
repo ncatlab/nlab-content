@@ -4,19 +4,29 @@
 
 \tableofcontents
 
+## Idea
+
+A *Kleene algebra* is a [[rig]] that generalizes the theory of [[regular expressions]]: it consists of a set with union (rig addition), concatenation (rig multiplication), and closure operation (Kleene star). 
+
+Disambiguation note: This article is called a *Kleene star algebra* solely for disambiguation purposes as [[Kleene algebra]] already exists for the [[de Morgan algebra]], and this rig is the only one with a Kleene star. In the existing literature, these objects are simply called *Kleene algebras*. 
+
 ## Definition
 
-A **Kleene algebra** or **Kleene star algebra** is a [[rig]] $(R, 0, 1, +, (-)(-), (-)^*)$
+A **Kleene algebra** is a [[rig]] $(R, 0, \vee, \epsilon, (-)(-))$ with a function $(-)^*:R \to R$
 
-* $+$ is [[idempotent]]: for all $x \in R$, $x + x = x$, making $(R, 0, +)$ into a [[semilattice]]
+* $\vee$ is [[idempotent]]: for all $x \in R$, $x \vee x = x$, making $(R, 0, \vee)$ into a [[semilattice]]
 
-* for all $x \in R$, $1 + x x^* + x^* = x^*$
+* for all $x \in R$, $(\epsilon \vee x x^*) \vee x^* = x^*$
 
-* for all $x \in R$, $1 + x^* x + x^* = x^*$
+* for all $x \in R$, $(\epsilon \vee x^* x) \vee x^* = x^*$
 
-* for all $x \in R$ and $y \in R$, if $x y + y = y$, then $x^* y + y = y$
+* for all $x \in R$ and $y \in R$, if $x y \vee y = y$, then $x^* y \vee y = y$
 
-* for all $x \in R$ and $y \in R$, if $y x + y = y$, then $y x^* + y = y$
+* for all $x \in R$ and $y \in R$, if $y x \vee y = y$, then $y x^* \vee y = y$
+
+## Examples
+
+* The Kleene algebras of [[regular expressions]] are the [[free object|free]] Kleene algebras on [[finite sets]]. 
 
 ## Related concepts
 
@@ -28,11 +38,9 @@ A **Kleene algebra** or **Kleene star algebra** is a [[rig]] $(R, 0, 1, +, (-)(-
 
 * [[regular expression]]
 
-* [[closed semiring]]
+* [[quasiregular rig]]
 
 ## References
-
-Under the name "Kleene algebra":
 
 * Wikipedia, [Kleene algebra](https://en.wikipedia.org/wiki/Kleene_algebra)
 
