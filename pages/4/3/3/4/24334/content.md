@@ -141,11 +141,11 @@ Colimits include:
 
 * [[initial object in simplicial type theory]]
 
-* [[coproduct in simplicial type theory]]
+* [[(infinity,1)-coproduct]]
 
 * [[coequalizer in simplicial type theory]]
 
-* [[pushout in simplicial type theory]]
+* [[(infinity,1)-pushout]]
 
 ### Types
 
