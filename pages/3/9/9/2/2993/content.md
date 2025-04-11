@@ -1,3 +1,4 @@
+> This entry is about polynomials in commutative rings. For polynomials in categories, see _[[polynomial functor]]_.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
