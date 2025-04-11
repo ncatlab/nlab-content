@@ -202,8 +202,6 @@ Theorem \ref{LimitOverIdentityFunctorIsInitialObject} is actually a key of entry
 
 * [[adjoint functor theorem]] 
 
-* [[initial object in a Segal type]]
-
 ## References
 
 Textbook accounts:
