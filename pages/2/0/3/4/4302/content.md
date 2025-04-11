@@ -45,7 +45,7 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 * [[particle]], [[matter]]
 
-* [[boson]], **fermion**, [[anyon]]
+* [[boson]], **fermion**, [[anyon]], [[paraparticle]]
 
 * [[parafermion]]
 
