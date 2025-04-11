@@ -144,8 +144,6 @@ Some examples of terminal objects in notable categories follow:
 
 * [[terminal object in an (infinity,1)-category|terminal object in an $(\infty,1)$-category]]
 
-* [[terminal object in a Segal type]]
-
 ## References
 
 Textbook account:
