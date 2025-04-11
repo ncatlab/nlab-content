@@ -14,6 +14,10 @@
 +-- {: .hide}
 [[!include directed homotopy type theory - contents]]
 =--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
 =--
 =--
 
