@@ -64,7 +64,7 @@ The type theoretic approaches attempt to formalise the [[internal logic]] of a [
 
 ## References
 
-* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Kim Nguyen]], [[Tashi Walde]], *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
+* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
 ### Category theoretic approaches
 
