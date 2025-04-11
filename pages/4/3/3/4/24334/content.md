@@ -117,9 +117,7 @@ Diagrams in [[simplicial type theory]] can be defined in an arbitrary type, rath
 
 * [[isomorphism in simplicial type theory]]
 
-* [[fork in simplicial type theory]]
-
-* [[cofork in simplicial type theory]]
+* [[parallel morphisms in simplicial type theory]]
 
 * [[commutative square in simplicial type theory]]
 
