@@ -1872,6 +1872,7 @@ Talks:
 </center>
 
 
+
 \linebreak
 
 ### Feb 2025
@@ -1891,6 +1892,16 @@ Talks:
 </center>
 
 
+\linebreak
+
+### Apr 2025
+
+
+* 27 April 2025 
+
+  13th Annual International Hackathon
+
+  [hackathon.nyuad.nyu.edu](https://hackathon.nyuad.nyu.edu/)
 
 
 
