@@ -15,9 +15,11 @@
 
 ## Definition
 
-The __trivial ring__, or __zero ring__, is the [[ring]] with a single [[element]], which is both $0$ and $1$.  
+The __trivial ring__, or __zero ring__, is the [[ring]] with a single [[element]], which is both $0$ and $1$. 
 
-One usually denote the trivial ring as $0$ or $\{0\}$, even though $1$ or $\{1\}$ would make as much sense.  
+One usually denote the trivial ring as $0$ or $\{0\}$, even though $1$ or $\{1\}$ would make as much sense. 
+
+The **trivial rig** or **zero rig** is the [[rig]] with a single [[element]], which is both $0$ and $1$. By definition of [[neutral element]], this single element is its own additive inverse, making the trivial rig the same as the trivial ring. 
 
 ## Properties
 
@@ -46,6 +48,10 @@ One usually denote the trivial ring as $0$ or $\{0\}$, even though $1$ or $\{1\}
 [[!redirects zero ring]]
 [[!redirects zero rings]]
 
+[[!redirects trivial rig]]
+[[!redirects trivial rigs]]
+[[!redirects zero rig]]
+[[!redirects zero rigs]]
 
 [[!redirects trivial ring groupoid]]
 [[!redirects trivial ring groupoids]]
