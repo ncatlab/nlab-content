@@ -29,7 +29,6 @@ This modest program of generalizing model theory methods to higher doctrines may
 
 Remark that this abstract nonsense  may also be pedagogically very helpful to understand on a conceptual way the recent and numerous applications of higher categorical methods in mathematics and physics.
 
-
 ## Definition and challenges
 
 Suppose given a metalanguage of homotopical higher (and even multi-) categories, that we will call simply higher categories.
@@ -49,7 +48,6 @@ The main challenges of higher doctrine theory are the following:
 
 * Prove that, under the set theoretic axiom of choice and the formalization of higher categories through set theoretical methods (i.e., by one of the standard delooping machines), the doctrinal axiom of choice is true.
 
-
 ## Examples
 
 It may be interesting to show that these methods can be used to study concrete mathematical problems:
@@ -61,14 +59,11 @@ It may be interesting to show that these methods can be used to study concrete m
 3. Show that compactness arguments in analysis (those saying that one can extract a convergent subsequence from a sequence on a compact topological space) may be formalized by saying that the subsequence is a model of a theory associated to the topological space, that is coherent because of its
 compactness.
 
-
 ## References
 
 * See the Section [[doctrine]] for historical background and refined definitions in lower dimension, and
 
-* [[Frédéric Paugam]]: Chapter 1 of
-[Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf).
-
+* [[Frédéric Paugam]], *A Categorical Toolbox*, chapter 1 of: *Towards the mathematics of quantum field theory*, Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge / A Series of Modern Surveys in Mathematics, vol 59. Springer, Cham. ([doi:10.1007/978-3-319-04564-1_2](https://doi.org/10.1007/978-3-319-04564-1_2))
 
 [[!redirects higher doctrine]]
 [[!redirects higher doctrines]]
