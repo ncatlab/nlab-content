@@ -32,13 +32,41 @@ In other words it is a [[cocone]] $A \to A \sqcup B \leftarrow B$ which is [[uni
 
 This is the analog in [[(∞,1)-category theory]] of the notion of [[coproduct]] in [[category theory]]. 
 
-## In simplicial type theory
+## Incarnations
 
-Let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. Let $\mathrm{cospan}_A(x, y)$ denote the [[type of cospans in simplicial type theory|type of cospans]], and for [[cospan in simplicial type theory|cospans]] $f:\mathrm{cospan}_A(x, y)$ and $g:\mathrm{cospan}_A(x, y)$, let $\mathrm{homcospan}_A(x, y, f, g)$ denote the [[type of morphisms of cospans in simplicial type theory|type of morphisms of cospans]] between $f$ and $g$. The **$(\infty,1)$-coproduct** of $x$ and $y$ is a cospan $c:\mathrm{cospan}_A(x, y)$ such that for all other cospans $z:\mathrm{cospan}_A(x, y)$, the type of morphisms of cospans from $c$ to $z$ is a [[contractible type]]. The type of products is given by
+### In model categories
 
-$$\sum_{c:\mathrm{cospan}_A(x, y)} \prod_{z:\mathrm{cospan}_A(x, y)} \mathrm{isContr}(\mathrm{homcospan}_A(x, y, c, z))$$
+* [[homotopy coproduct]]
 
-If $A$ is a [[Segal type]] then this notion coincides with the usual notion of coproduct in an $(\infty,1)$-category. However, the fact that this definition works for any type $A$ implies that $(\infty,1)$-coproducts should be definable in any [[simplicial infinity-groupoid]] or [[simplicial object in an (infinity,1)-category]], not just the $(\infty,1)$-categories or [[category objects in an (infinity,1)-category]]. 
+### In simplicial type theory
+
+#### For Segal types
+
+In simplicial type theory, the Segal types are the types that represent (infinity,1)-precategories. Let $A$ be a [[Segal type]] in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. The **$(\infty,1)$-coproduct** of $x$ and $y$ is an tuple consisting of 
+
+* an element $x \sqcup y:A$, 
+
+* a morphism $i_x:\mathrm{hom}_A(x, x \sqcup y)$, and 
+
+* a morphism $i_y:\mathrm{hom}_A(y, x \sqcup y)$, 
+
+such that for all $z:A$, $f:\mathrm{hom}_A(x, z)$, $g:\mathrm{hom}_A(y, z)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(x \sqcup y, z)$ such that $f = h(z, f, g) \circ i_x$ and $g = h(z, f, g) \circ i_y$. 
+
+#### For arbitrary types
+
+The notion of an $(\infty,1)$-coproduct can be generalised from [[Segal types]] to arbitrary types in [[simplicial type theory]], which represent [[simplicial infinity-groupoids]]. In a [[Segal type]] $A$, given morphisms $f:\mathrm{hom}_A(x, y)$, $g:\mathrm{hom}_A(y, z)$, and $h:\mathrm{hom}_A(x, z)$, $g \circ f = h$ if and only if $h$ is the [[unique composite]] of $f$ and $g$. This means that we can use the latter condition in the definition of an $(\infty,1)$-coproduct in types which are not Segal and thus do not have a composition function on morphisms. 
+
+Thus, let $A$ be a type in [[simplicial type theory]], and let $x:A$ and $y:A$ be two elements in $A$. The **$(\infty,1)$-coproduct** of $x$ and $y$ is an tuple consisting of 
+
+* an element $x \sqcup y:A$, 
+
+* a morphism $i_x:\mathrm{hom}_A(x, x \sqcup y)$, and 
+
+* a morphism $i_y:\mathrm{hom}_A(y, x \sqcup y)$, 
+
+such that for all $z:A$, $f:\mathrm{hom}_A(x, z)$, $g:\mathrm{hom}_A(y, z)$, [[uniqueness quantifier|there exists a unique]] morphism $h(z, f, g):\mathrm{hom}_A(x \sqcup y, z)$ such that $f$ is the [[unique composite]] of $h(z, f, g)$ and $i_x$ and $g$ is the [[unique composite]] of $h(z, f, g)$ and $i_y$. 
+
+The fact that this definition works for any type $A$ implies that $(\infty,1)$-coproducts should be definable in any [[simplicial infinity-groupoid]] or [[simplicial object in an (infinity,1)-category]], not just the $(\infty,1)$-categories or [[category objects in an (infinity,1)-category]]. 
 
 ## Related concepts
 
@@ -51,8 +79,6 @@ If $A$ is a [[Segal type]] then this notion coincides with the usual notion of c
 * [[(infinity,1)-pushout]]
 
 * [[(infinity,1)-colimit]]
-
-* [[cospan]], [[cospan in simplicial type theory]]
 
 ## References
 
