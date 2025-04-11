@@ -37,6 +37,10 @@ If one adopts the second definition to define a semiring, and the fourth definit
 
 * [[tropical semiring]]
 
+* [[closed semiring]]
+
+* [[Conway semiring]]
+
 ## Related concepts
 
 * [[rig]]
