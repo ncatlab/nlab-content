@@ -1,4 +1,4 @@
-> This page is about [[de Morgan algebras]] satisfying an extra condition. For Kleene star algebras in relation to [[regular expressions]], see [[Kleene star algebra]].
+> This page is about [[de Morgan algebras]] satisfying an extra condition. For Kleene algebras in relation to [[regular expressions]], see [[Kleene star algebra]].
 
 ----
 
