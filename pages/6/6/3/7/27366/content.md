@@ -1223,6 +1223,13 @@ On [[group actions]] of the [[mapping class group]] of closed oriented [[surface
 *  [[Christian Blanchet]]: *Heisenberg homologies of surface configurations*, [talk at](CQTS#BlanchetMar2023) *[Geometric/Topological Quantum Field Theories Workshop](Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)* @ [[CQTS]] NYUAD (2023) &lbrack;slides: [[Blanchet-at-QFTAndCobordism2023.pdf:file]], video:[YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)&rbrack;
 
 
+See also:
+
+* Yves Benoist: *Positive Harmonic Functions on the Heisenberg group I*, in: Proceedings of *European Congress of Mathematics 2021*, EMS Press (2023) 181-198  &lbrack;[arXiv:1907.05041](https://arxiv.org/abs/1907.05041), [doi:10.4171/8ecm/17](https://doi.org/10.4171/8ecm/17)&rbrack;
+
+* Yves Benoist: *Positive harmonic functions on the Heisenberg group II*, Journal de l’École polytechnique - Mathématiques **8** (2021) 973-1003 &lbrack;[doi:10.5802/jep.163](https://doi.org/10.5802/jep.163), [numdam:10.5802/jep.163](https://www.numdam.org/articles/10.5802/jep.163), [hal:02400005](https://hal.science/hal-02400005)&rbrack;
+
+
 The above discussion of irreps and modular automorphisms related to abelian Chern-Simons theory follows:
 
 * {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]*, Lecture Notes (2025)
