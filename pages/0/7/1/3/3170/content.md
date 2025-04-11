@@ -1,9 +1,13 @@
-[[Claudio Hermida]] is a Portuguese-Canadian [[category theory|category theorist]] and theoretical [[computer science|computer scientist]]. His works include the study of [[higher category theory|higher categorical]] [[descent theory]], higher categorical [[fibrations]] (including ongoing work with [[Marta Bunge]]), [[multicategories]], the relationship between [[extra structure|structure]] and [[extra property|property]] in terms of [[2-algebra|2-categorical algebra]] and [[fibered categories]], etc.
+[[Claudio Hermida]] is a Portuguese-Canadian [[category theory|category theorist]] and theoretical [[computer science|computer scientist]]. His works include the study of [[higher category theory|higher categorical]] [[descent theory]], higher categorical [[fibrations]] (including ongoing work with [[Marta Bunge]]), ([[generalized multicategory|generalized]]) [[multicategories]], the relationship between [[extra structure|structure]] and [[extra property|property]] in terms of [[2-algebra|2-categorical algebra]] and [[fibered categories]], etc.
 
 * [homepage](http://maggie.cs.queensu.ca/chermida) at Queen's University
 
 
 ## Selected writings
+
+On [[generalized multicategories]] and [[representable multicategory|representability]]:
+
+* [[Claudio Hermida]], _From coherent structures to universal properties_, Journal of Pure and Applied Algebra 165.1 (2001): 7-61.
 
 On [[fibered 2-categories]] (and discussing [[fibered limits]]):
 
