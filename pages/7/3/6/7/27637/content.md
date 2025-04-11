@@ -46,11 +46,21 @@ If $A$ is a [[Segal type]] then this notion coincides with the usual notion of c
 
 * [[(infinity,1)-product]]
 
+* [[(infinity,1)-coequalizer]]
+
 * [[(infinity,1)-pushout]]
 
 * [[(infinity,1)-colimit]]
 
 * [[cospan]], [[cospan in simplicial type theory]]
+
+## References
+
+$(\infty,1)$-coproducts are defined in: 
+
+* [[Jacob Lurie]], section 4.4.1 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
+* [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], section 5.6 of: *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
 [[!redirects (infinity,1)-coproduct]]
 [[!redirects (infinity,1)-coproducts]]
