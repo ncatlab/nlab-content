@@ -159,8 +159,6 @@ In [Lombardi & Quitté 2010](#LombardiQuitté2010), a [[unique factorization dom
 
 [[!redirects cancellative element]]
 [[!redirects cancellative elements]]
-[[!redirects regular element]]
-[[!redirects regular elements]]
 
 [[!redirects cancellative element of a commutative ring]]
 [[!redirects cancellative elements of a commutative ring]]
