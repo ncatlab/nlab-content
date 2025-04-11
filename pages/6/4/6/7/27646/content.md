@@ -32,13 +32,11 @@ A **Kleene algebra** is a [[rig]] $(R, 0, \vee, \epsilon, (-)(-))$ with a functi
 
 * [[rig]]
 
-* [[star semiring]]
+* [[quasiregular rig]]
 
 * [[semilattice]]
 
 * [[regular expression]]
-
-* [[quasiregular rig]]
 
 ## References
 
