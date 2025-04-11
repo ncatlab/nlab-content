@@ -20,6 +20,8 @@ Further discussion:
 
 * W.T. Lin, [[Bernard M.A.G. Piette]], *Skyrmion Vibration Modes within the Rational Map Ansatz*,  	Phys. Rev. D77:125028, 2008 ([arXiv:0804.4786](https://arxiv.org/abs/0804.4786), [doi:10.1103/PhysRevD.77.125028](https://journals.aps.org/prd/abstract/10.1103/PhysRevD.77.125028))
 
+* L. A. Ferreira, L. R. Livramento: *Harmonic, Holomorphic and Rational Maps from Self-Duality* \[<a href="https://arxiv.org/abs/2412.02636">arXiv:2412.02636</a>\]
+
 
 On [[quantization]] of [[Skyrmions]] informed by [[homotopy of rational maps]]:
 
