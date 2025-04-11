@@ -11,6 +11,10 @@
 =--
 =--
 
+\tableofcontents
+
+## Idea
+
 A __regular element__ of a [[Heyting algebra]] is an element $x$ such that $\neg{\neg{x}} = x$.
 
 Thus a [[Boolean algebra]] is precisely a Heyting algebra in which every element is regular.
@@ -23,6 +27,9 @@ The __regularization__ of $x$ is $\neg{\neg{x}}$; note that this is regular.  In
 
 In a topological space, the regularization of an open set $G$ can be constructed as $Int(Cl(G))$, or equivalently as $Ext(Ext(G))$.  Sometimes one performs this operation to an arbitrary set (in the space) to produce a regular open set.  But note that while $G \subseteq Int(Cl(G))$ when $G$ is open, this does not hold for an arbitrary set.
 
+## Related concepts
+
+* [[double negation]]
 
 [[!redirects regular element]]
 [[!redirects regular elements]]
