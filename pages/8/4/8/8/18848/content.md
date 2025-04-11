@@ -52,6 +52,8 @@ The [[opposite category]] of the category of Morgan algebras is the category of 
 
 * {#CF79} [[William H Cornish]], [[Peter R Fowler]], *Coproducts of kleene algebras*, Journal of the Australian Mathematical Society (Series A), 27(02):209–220, 1979 ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AAD3D8E6D208205C39C54D0873AEB883/S1446788700012131a.pdf/div-class-title-coproducts-of-kleene-algebras-div.pdf))
 
+* [[Ulrik Buchholtz]], [[Edward Morehouse]], (2017). *Varieties of Cubical Sets*. In: [[Peter Höfner]], [[Damien Pous]], [[Georg Struth]] (eds) *Relational and Algebraic Methods in Computer Science*. RAMICS 2017. Lecture Notes in Computer Science, vol 10226. Springer, Cham. ([doi:10.1007/978-3-319-57418-9_5](https://doi.org/10.1007/978-3-319-57418-9_5), [arXiv:1701.08189](https://arxiv.org/abs/1701.08189))
+
 * *What's the deal with De Morgan algebras and Kleene algebras?*, MathOverflow ([web](https://mathoverflow.net/questions/483035/whats-the-deal-with-de-morgan-algebras-and-kleene-algebras))
 
 [[!redirects De Morgan algebra]]
