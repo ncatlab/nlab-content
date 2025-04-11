@@ -1,9 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Definition
 
-A **Conway semiring** or **Conway rig** is a [[*-semiring]] $(R, 0, 1, +, (-)(-), (-)^*)$ such that 
+A **Conway semiring** or **Conway rig** is a [[quasiregular rig]] $(R, 0, 1, +, (-)(-), (-)^*)$ such that 
 
 * for all $x \in R$ and $y \in R$, $(x + y)^* = (x^* y)^* x^*$
 
@@ -13,7 +23,7 @@ A **Conway semiring** or **Conway rig** is a [[*-semiring]] $(R, 0, 1, +, (-)(-)
 
 * [[rig]], [[semiring]]
 
-* [[star semiring]]
+* [[quasiregular rig]]
 
 * [[iteration semiring]]
 
