@@ -270,5 +270,11 @@ The [[completely distributive lattice|completely distributive]] [[algebraic latt
 
 * {#WeaverLicata20} [[Matthew Weaver]], [[Daniel Licata]], *A Constructive Model of Directed Univalence in Bicubical Sets*, in: *Proceedings of the 35th Annual ACM/IEEE Symposium on Logic in Computer Science. LICS ’20*, Association for Computing Machinery (2020) 915–928 &lbrack;[doi:10.1145/3373718.3394794](https://doi.org/10.1145/3373718.3394794)&rbrack;
 
+On the [[Birkhoff duality]] between finite posets and finite [[distributive lattices]]
+
+* {#Birkhoff37} [[Garrett Birkhoff]], *Rings of sets*. Duke Mathematical Journal, 3(3):443–454, 1937.
+
+* {#Spitters16} [[Bas Spitters]], *Cubical sets and the topological topos* ([arXiv:1610.05270](https://arxiv.org/abs/1610.05270))
+
 [[!redirects distributive lattices]]
 [[!redirects Birkhoff duality]]
