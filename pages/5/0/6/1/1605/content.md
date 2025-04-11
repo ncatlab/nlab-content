@@ -96,8 +96,7 @@ Doctrines are treated as cartesian [[double categories]] in:
 
 A pedadogically aimed study of higher doctrines, using the simple definition of doctrines as (weak) [[n-categories]] described by [[generators and relations]]:
 
-* [[Frédéric Paugam]]: Chapter 1 of
-[Towards the mathematics of quantum field theory](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf).
+* [[Frédéric Paugam]], *A Categorical Toolbox*, chapter 1 of: *Towards the mathematics of quantum field theory*, Ergebnisse der Mathematik und ihrer Grenzgebiete. 3. Folge / A Series of Modern Surveys in Mathematics, vol 59. Springer, Cham. ([doi:10.1007/978-3-319-04564-1_2](https://doi.org/10.1007/978-3-319-04564-1_2))
 
 * [[Higher doctrines]].
 
