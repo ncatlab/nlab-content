@@ -25,6 +25,8 @@ By [[Gavin Wraith]], at the nForum [in this post](https://nforum.ncatlab.org/dis
 
 ## Selected writings
 
+* [[John Horton Conway]], *Regular Algebra and Finite Machines*. Mineola, N.Y., Dover; Newton Abbot, 2012. ISBN:978-0486485836
+
 On platycosms (including the [[Hantzsche-Wendt manifold]]):
 
 * {#ConwayRossetti03} [[John Conway]] and Jean-Paul Rossetti, _Describing the platycosms_ (2003), [arXiv:math/0311476](https://arxiv.org/abs/math/0311476)
@@ -33,7 +35,7 @@ On platycosms (including the [[Hantzsche-Wendt manifold]]):
 
 * [[Conway's game of life]]
 
-
+* [[regular expression]]
 
 
 
