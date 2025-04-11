@@ -143,10 +143,10 @@ Concrete lattice models for a kind of parastatistics in 3d:
 
 Claim of parastatistical [[quasiparticles]] emerging in low dimensional quantum spin systems:
 
-* {#WangHazzard25} Zhiyuan Wang, Kaden R. A. Hazzard: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
+* {#WangHazzard25} [[Zhiyuan Wang]], [[Kaden R. A. Hazzard]]: *Particle exchange statistics beyond fermions and bosons*, Nature **637** (2025) 314-318 &lbrack;[arXiv:2308.05203](https://arxiv.org/abs/2308.05203), [doi:10.1038/s41586-024-08262-7](https://doi.org/10.1038/s41586-024-08262-7)&rbrack;
 
-
-
+[[!redirects paraparticle]]
+[[!redirects paraparticles]]
 
 
  
