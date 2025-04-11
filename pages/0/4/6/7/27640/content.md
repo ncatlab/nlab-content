@@ -87,6 +87,8 @@ If $A$ is a [[Segal type]], then the record consists of fields
 
 * an identification $\mathrm{pr}_3(g) = h \circ \mathrm{pr}_3(f)$. 
 
+which is the usual definition of a morphism of cospans in [[(infinity,1)-category theory]]
+
 ### Using functions from shapes
 
 Given elements $x:A$ and $y:A$ and cospans $f:\mathrm{cospan}_A(x, y)$ and $g:\mathrm{cospan}_A(x, y)$, a morphism of cospans between $f$ and $g$ is a [[record]] consisting of 
@@ -119,7 +121,7 @@ The type of morphisms of cospans $\mathrm{homcospan}_A(x, y, f, g)$ is then the 
 
 * [[span in simplicial type theory]]
 
-* [[coproduct in simplicial type theory]]
+* [[(infinity,1)-coproduct]]
 
 * [[isomorphism in simplicial type theory]]
 
