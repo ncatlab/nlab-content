@@ -25,13 +25,15 @@
 
 ## Idea
 
-Triangulated type theory is a variation of [[simplicial type theory]] where the directed interval type $\mathbb{I}$ is only required to be a [[distributive lattice]] instead of a [[bounded total order]]. As a result, not all types are simplicial, and instead there is an idempotent lex monad which takes a type $A$ to a simplicial type $\Box A$. 
+Triangulated type theory is a variation of [[simplicial type theory]] where the directed interval type $\mathbb{I}$ is only required to be a [[distributive lattice]] instead of a [[bounded total order]]. As a result, not all types are [[simplicial types]], and instead there is an idempotent lex monad which takes a type $A$ to a simplicial type $\Box A$. 
 
 Triangulated type theory has semantics in the [[cohesive (infinity,1)-topos|cohesive]] [[locally cartesian closed (infinity,1)-category|locally cartesian closed]] [[(infinity,1)-category|$(\infty,1)$-category]] $\mathbf{H}^{\Box^\op}$ of [[cubical object in an (infinity,1)-category|cubical objects]] in a locally cartesian closed $(\infty,1)$-category $\mathbf{H}$, where $\Box$ is the [[cube category]] of [[finite set|finite]] [[flat distributive lattices]]. 
 
 ## Related concepts
 
 * [[simplicial type theory]]
+
+* [[simplicial type]]
 
 ## References
 
