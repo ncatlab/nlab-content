@@ -20,20 +20,16 @@ The [[category of cubes]] in [[triangulated type theory]] is given by the catego
 ## Properties
 
 \begin{theorem}
-Finitely generated distributive lattices are flat. 
-\end{theorem}
-
-\begin{proof}
-...
-\end{proof}
-
-\begin{theorem}
 Given a flat distributive lattice $L$, if $a \vee b = 1$, then $a = 1$ or $b = 1$. 
 \end{theorem}
 
 \begin{proof}
 ...
 \end{proof}
+
+## Examples
+
+* Every [[finitely generated]] [[distributive lattice]] is flat. 
 
 ## Related concepts
 
