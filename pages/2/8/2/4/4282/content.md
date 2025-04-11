@@ -1,5 +1,5 @@
 
-> This article is about $*$-rigs, rigs ($\mathbb{N}$-algebras) with an [[anti-involution]]. For the [[rig]] that is a generalization of a [[Kleene star algebra]], with a Kleene star operation, see [[star semiring]]. 
+> This article is about the $*$-rig that is an $\mathbb{N}$-algebra with an [[anti-involution]]. For the $*$-rig that is a generalization of a [[Kleene star algebra]], see [[quasiregular rig]]. 
 
 ---
 
