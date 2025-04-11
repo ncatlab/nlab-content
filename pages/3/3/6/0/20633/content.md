@@ -23,7 +23,7 @@ The [[pin group]] in [[dimension]] 3.
 
 ## Properties
 
-$Pin_+(3) \simeq SO(3) \times C_4$ and $Pin_-(3) \simeq SU(2) \times C_2$.
+$Pin_+(3) \simeq \left(SU(2) \times C_4\right)/C_2$ and $Pin_-(3) \simeq SU(2) \times C_2$.
 
 
 ## Related concepts
