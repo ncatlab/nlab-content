@@ -89,7 +89,6 @@ Argument in favor of its use are:
 
 ## References
 
-
 A short introduction for large audience is in 
 
 * {#Poineau07} [[Jérôme Poineau]], _Global analytic geometry_, pages 20-23 in EMS newsletter September 2007 ([pdf](http://www.ems-ph.org/journals/newsletter/pdf/2007-09-65.pdf))
@@ -109,9 +108,7 @@ For more see
 
 * {#Paugam08} [[Frédéric Paugam]], _Global analytic geometry_ ([arXiv:0803.0148](http://arxiv.org/abs/0803.0148))
 
-
-* [[Frédéric Paugam]], _Global analytic geometry and the functional equation_, lecture notes ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf)) 
-
+* [[Frédéric Paugam]], _Global analytic geometry and the functional equation_, lecture notes ([pdf](https://webusers.imj-prg.fr/~frederic.paugam/documents/enseignement/master-global-analytic-geometry.pdf)) 
 
 * {#BassatKremnitzer13} [[Oren Ben-Bassat]], [[Kobi Kremnizer]], section 7 of _Non-Archimedean analytic geometry as relative algebraic geometry_ ([arXiv:1312.0338](http://arxiv.org/abs/1312.0338))
 
