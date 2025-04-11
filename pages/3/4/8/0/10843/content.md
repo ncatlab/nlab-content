@@ -23,7 +23,7 @@
 
 An _infinitesimal extension_ of a [[ring]] $R$ is [[quotient]] map $\widehat R \to R$ whose [[kernel]] is a [[nilpotent ideal]], hence a nilpotent [[ring extension]].
 
-(Only if the map $\widehat R \to R$ is finite, such as for [[infinitesimally thickened point|Weil  algebras]], then this may be cast as "epimorphism with nilpotent kernel", by [[Stacks Project]] [lemma 10.106.6](http://stacks.math.columbia.edu/tag/04VM).)
+(Only if the map $\widehat R \to R$ is finite, such as for [[infinitesimally thickened point|Weil  algebras]], then this may be cast as "epimorphism with nilpotent kernel", by [[Stacks Project]] [lemma 10.107.6](https://stacks.math.columbia.edu/tag/04VT).)
 
 If already the product of any two elements in the kernel is zero, this is also called a _square-zero extension_. See also at _[[tangent category]]_ and at _[[Mod]]_ for more on this.
 
