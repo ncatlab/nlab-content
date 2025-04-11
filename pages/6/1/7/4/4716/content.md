@@ -296,11 +296,11 @@ On [[finite number|finite]] [>index of a subgroup|index]] [[subgroups]] of mappi
 
 * [[Andrew Putman]]: *The Torelli group and congruence subgroups of the mapping class group*, in: *Moduli Spaces of Riemann Surfaces*, IAS/Park City Mathematics Series **20** (2013) &lbrack;[arXiv:1201.3946](https://arxiv.org/abs/1201.3946), [doi:10.1090/pcms/020](https://doi.org/10.1090/pcms/020)&rbrack;
 
-
 * Luis Paris, Jon A Berrick, Volker Gebhardt: *Finite index subgroups of mapping class groups*, Proceedings of the London Mathematical Society **108** 3 (2013) 575-599 &lbrack;[arXiv:1105.2468](https://arxiv.org/abs/1105.2468), [doi:10.1112/plms/pdt022](https://doi.org/10.1112/plms/pdt022)&rbrack;
 
 * Blazej Szepietowski: *On finite index subgroups of the mapping class group of a nonorientable surface*, Glas. Mat. **49** (2014), 337-350 &lbrack;[arXiv:1401.3557](https://arxiv.org/abs/1401.3557), [doi:10.3336/gm.49.2.08](https://doi.org/10.3336/gm.49.2.08)&rbrack;
 
+* [[Andrew Putman]]: *The topology of the mapping class group and its Torelli subgroup*, lectures at *[Low Dimensional Topology Summer School 2024](https://if-summer2024.sciencesconf.org/?lang=en)*, Institute Fourier &lbrack;video 1:[YT](https://youtu.be/WVUZxmmoUIY), 2:[YT](https://youtu.be/wj0WWTJwpr4), 3:[YT](https://youtu.be/JeHtTPQE00Y), 4:[YT](https://youtu.be/M0LGNpAmxA8)&rbrack;
 
 
 ### For orbifolds
