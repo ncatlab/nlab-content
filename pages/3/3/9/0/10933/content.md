@@ -20,6 +20,8 @@ On [[quantum logic]]:
 
 * {#BirkhoffvonNeumann36} [[Garrett Birkhoff]], [[John von Neumann]]: *The logic of quantum mechanics*, Annals of Mathematics **37** 823-843 (1936) &lbrack;[doi:10.2307/1968621](https://doi.org/10.2307/1968621), [pdf](http://www.fulviofrisone.com/attachments/article/451/the%20logic%20of%20quantum%20mechanics%201936.pdf)&rbrack;
 
+On the [[Birkhoff duality]] between finite [[posets]] and finite [[distributive lattices]]
 
+* {#Birkhoff37} [[Garrett Birkhoff]], *Rings of sets*. Duke Mathematical Journal, 3(3):443–454, 1937.
 
 category: people
