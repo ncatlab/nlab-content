@@ -28,6 +28,13 @@ On [[Eugène Cremmer]]:
 
 * [[Bernard Julia]], *Eugène Cremmer: 1942-2019*, Cern Courier **69** (19 July 2020) &lbrack;[web](https://cerncourier.com/a/eugene-cremmer-1942-2019), [web](https://www.lpens.ens.psl.eu/memories-of-eugene-cremmer-and-tributes)&rbrack;
 
+On [[supergravity]]:
+
+* [[Bernard L. Julia]]: *An exceptional story: Symmetries and dualities between Maximal supergravity and General relativity*, in: *Half a Century of Supergravity* &lbrack;[arXiv:2504.07576](https://arxiv.org/abs/2504.07576)&rbrack;
+
+
+[[!redirects Bernard L. Julia]]
+
 
 
 
