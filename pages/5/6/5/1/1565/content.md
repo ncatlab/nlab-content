@@ -102,7 +102,7 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * [[multiplicatively cancellable rig]]
 
-* [[star rig]]
+* [[quasiregular rig]]
 
 * [[Conway rig]]
 
