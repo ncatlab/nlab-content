@@ -180,7 +180,7 @@ See also
 
 * [[Georg Hegel]], [book 2](Science+of+Logic#LehreVomWesen) of _[[Science of Logic]]_
 
-For an alternative definition proven (in Theorem 3.16) to be equivalent to the one given above, see
+For an alternative definition proven (in Proposition 4.2) to be equivalent to the one given above, see
 
 * [[Nima Rasekh]], _A Theory of Elementary Higher Toposes_, ([arXiv:1805.03805](https://arxiv.org/abs/1805.03805), [ideals:2142/101508](https://www.ideals.illinois.edu/handle/2142/101508))
 
