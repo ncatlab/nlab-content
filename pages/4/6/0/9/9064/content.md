@@ -44,9 +44,15 @@ which is [[universal property|universal]] among all such cocones in the $(\infty
 
 This is the analog in [[(∞,1)-category theory]] of the notion of [[pushout]] in [[category theory]]. 
 
-## In simplicial type theory
+## Incarnations
 
-### For Segal types
+### In model categories
+
+* [[homotopy pushout]]
+
+### In simplicial type theory
+
+#### For Segal types
 
 In [[simplicial type theory]], the [[Segal types]] are the types that represent [[precategory objects in an (infinity,1)-category|(infinity,1)-precategories]]. Let $A$ be a [[Segal type]] in [[simplicial type theory]], and let $x:A$, $y:A$, $z:A$ be two elements in $A$ and let $f:\mathrm{hom}_A(x, y)$ and $g:\mathrm{hom}_A(x, z)$ be two morphisms. The **$(\infty,1)$-pushout** of $f$ and $g$ is an tuple consisting of 
 
@@ -65,7 +71,7 @@ $$\mathrm{inl}(f, g) \circ f = \mathrm{compin}(f, g) \qquad \mathrm{and} \qquad 
 and for any other element $w:A$ with morphisms $h:\mathrm{hom}_A(y, w)$, $j:\mathrm{hom}_A(z, w)$, and $k:\mathrm{hom}_A(x, w)$ such that $h \circ f = k$ and $j \circ g = k$, there exists a unique morphism $l(z, h, j, k):\mathrm{hom}_A(x \sqcup^z_{f, g} y, z)$ such that
 $$h = l(z, h, j, k) \circ \mathrm{inl}(f, g) \qquad \mathrm{and} \qquad j = l(z, h, j, k) \circ \mathrm{inr}(f, g) \qquad \mathrm{and} \qquad k = l(z, h, j, k) \circ \mathrm{compin}(f, g)$$
 
-### For arbitrary types
+#### For arbitrary types
 
 The notion of an $(\infty,1)$-pushout can be generalised from [[Segal types]] to arbitrary types in [[simplicial type theory]], which represent [[simplicial infinity-groupoids]]. In a [[Segal type]] $A$, given morphisms $f:\mathrm{hom}_A(x, y)$, $g:\mathrm{hom}_A(y, z)$, and $h:\mathrm{hom}_A(x, z)$, $g \circ f = h$ if and only if $h$ is the [[unique composite]] of $f$ and $g$. This means that we can use the latter condition in the definition of an $(\infty,1)$-pushout in types which are not Segal and thus do not have a composition function on morphisms. 
 
