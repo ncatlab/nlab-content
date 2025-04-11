@@ -38,7 +38,7 @@ The notion of  _Tannakian category_ is an abstraction of the kind of data that e
 
 * [[Pierre Deligne]], _[[Catégories Tannakiennes]]_, The Grothendieck Festschrift, Volume 2, 111--195. Birkh&#228;user, 1990.
 
-* [[Larry Breen]], _Tannakian categories_, in _Motives_, Proceedings of Symposia in Pure Mathematics, 55, Providence, R.I.: American Mathematical Society, 1994.  
+* [[Larry Breen]], _Tannakian categories_, in _Motives_, Proceedings of Symposia in Pure Mathematics, 55, part 1, Providence, R.I.: American Mathematical Society, 1994, pp. 337-376.  
 
 The relation to [[motives]] is discussed in
 
