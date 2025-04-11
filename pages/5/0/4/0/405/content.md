@@ -425,7 +425,7 @@ Zoologies of cube categories:
 
 * {#GrandisMauri2003} [[Marco Grandis]] and Luca Mauri, _Cubical sets and their site_, Theory Applic. Categories **11** (2003) 185--201 &lbrack;[tac](http://www.tac.mta.ca/tac/volumes/11/8/11-08abs.html)&rbrack;
 
-* {#BuchholtzMorehouse2017} [[Ulrik Buchholtz]], Edward Morehouse, _Varieties of Cubical Sets_, Relational and Algebraic Methods in Computer Science (RAMICS 2017), Lecture Notes in Computer Science **10226** (2017) 77--92 &lbrack;[arXiv:1701.08189](https://arxiv.org/abs/1701.08189), [doi:10.1007/978-3-319-57418-9_5](https://dx.doi.org/10.1007/978-3-319-57418-9_5)&rbrack;
+* {#BuchholtzMorehouse2017} [[Ulrik Buchholtz]], [[Edward Morehouse]], _Varieties of Cubical Sets_, Relational and Algebraic Methods in Computer Science (RAMICS 2017), Lecture Notes in Computer Science **10226** (2017) 77--92 &lbrack;[arXiv:1701.08189](https://arxiv.org/abs/1701.08189), [doi:10.1007/978-3-319-57418-9_5](https://dx.doi.org/10.1007/978-3-319-57418-9_5)&rbrack;
 
 For the semicartesian cube category:
 
