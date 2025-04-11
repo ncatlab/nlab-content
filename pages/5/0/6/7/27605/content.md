@@ -53,6 +53,10 @@ The category of Priestley spaces is the [[opposite category]] of [[DistLat]], th
 
 * [[Andrej Bauer]], [[Karin Cvetko-Vah]], [[Mai Gehrke]], [[Sam van Gool]], [[Ganna Kudryavtseva]], *A non-commutative Priestley duality*, Topology and its Applications, Volume 160, Issue 12, 1 August 2013, Pages 1423-1438 ([doi:10.1016/j.topol.2013.05.012](https://doi.org/10.1016/j.topol.2013.05.012), [arXiv:1206.5848](https://arxiv.org/abs/1206.5848))
 
+* {#CF77} [[William H Cornish]], [[Peter R Fowler]], *Coproducts of de morgan algebras*, Bulletin of the Australian Mathematical Society, 16(01):1–13, 1977. ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D86F551CF77BE8374CD4BFB1A73F73B6/S0004972700022966a.pdf/coproducts-of-de-morgan-algebras.pdf))
+
+* {#CF79} [[William H Cornish]], [[Peter R Fowler]], *Coproducts of kleene algebras*, Journal of the Australian Mathematical Society (Series A), 27(02):209–220, 1979 ([pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AAD3D8E6D208205C39C54D0873AEB883/S1446788700012131a.pdf/div-class-title-coproducts-of-kleene-algebras-div.pdf))
+
 [[!redirects Priestley space]]
 [[!redirects Priestley spaces]]
 
@@ -60,3 +64,5 @@ The category of Priestley spaces is the [[opposite category]] of [[DistLat]], th
 [[!redirects Priestley topological spaces]]
 
 [[!redirects category of Priestley spaces]]
+
+[[!redirects Priestley duality]]
