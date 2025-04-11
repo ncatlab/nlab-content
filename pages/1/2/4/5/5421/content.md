@@ -81,6 +81,8 @@ context-free languages_, in: Computer programming and formal systems, 118&#8211;
 * A. V. Aho, J. D. Ullman, _The theory of parsing, translation, and compiling_, vol 1, Parsing; vol. 2, Compiling. Prentice Hall, 1972.
 * A. V. Aho, J. D. Ullman, _Principles of compiler design_, Addison-Wesley, 1977.
 
+* [[John Horton Conway]], *Regular Algebra and Finite Machines*. Mineola, N.Y., Dover; Newton Abbot, 2012. ISBN:978-0486485836
+
 Some chapters in "Handbook of formal language theory" (3 vols.), G. Rozenberg, A. Salomaa (eds.), Springer 1997:
 
 * Jean-Michel Autebert, Jean Berstel, Luc Boasson, _Context-free languages and push-down automata_, vol. 1, ch. 3 
