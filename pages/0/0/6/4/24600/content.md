@@ -74,7 +74,7 @@ to the type theory.
 
 * [[identity type]]
 
-* [[heterogeneous identity type]]
+* [[indexed heterogeneous identity type]]
 
 ## References
 
