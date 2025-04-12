@@ -147,7 +147,7 @@ For strict function types, the judgmental computation and uniqueness rules autom
 
 ### As types of anafunctions
 
-In [[dependent type theory]], in the same way that one could define [[equivalence types]] as types of [[one-to-one correspondences]], one could also define function types as types of [[anafunctions]]. This requires both [[identity types]] and [[heterogeneous identity types]] being defined first, which we shall write as $a =_A b$ and $x =_{B}^{p} y$ respectively for $a:A$, $b:A$, $p:a =_A b$, $x:B(a)$, and $y:B(b)$.  
+In [[dependent type theory]], in the same way that one could define [[equivalence types]] as types of [[one-to-one correspondences]], one could also define function types as types of [[anafunctions]]. This requires both [[identity types]] and [[indexed heterogeneous identity types]] being defined first, which we shall write as $a =_A b$ and $x =_{B}^{p} y$ respectively for $a:A$, $b:A$, $p:a =_A b$, $x:B(a)$, and $y:B(b)$.  
 
 Rules for function types
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma \vdash A \to B \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, x:A, y:B \vdash \mathcal{F}_{A, B}(f, x, y) \; \mathrm{type}}$$
