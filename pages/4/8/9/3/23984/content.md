@@ -129,7 +129,7 @@ The type of families of transport functions on a [[type family]] $x:A \vdash B(x
 
 $$\prod_{p:\mathbb{I} \to A} \sum_{f:B(p(0)) \to B(p(1))} \prod_{x:B(p(0))} x =_{x:A.B(x)}^{p} f(x)$$
 
-where $x =_{x:A.B(x)}^{p} y$ is a [[heterogeneous identity type]] defined using paths. 
+where $x =_{x:A.B(x)}^{p} y$ is an [[indexed heterogeneous identity type]] defined using paths. 
 
 In general, a family of transport functions is an element of this type. However, any element of the type of families of transport functions is unique up to identification:
 
@@ -205,7 +205,7 @@ $$\pi_2(t(p))(\pi_1(t(p^{-1}))(y)):\pi_1(t(p^{-1}))(y) =_{x:A.B(x)}^{p} \pi_1(t(
 and 
 $$\pi_2(t(p^{-1}))(\pi_1(t(p))(x)):\pi_1(t(p)(x)) =_{x:A.B(x)}^{p^{-1}} \pi_1(t(p^{-1}))(\pi_1(t(p))(x))$$ 
 
-By concatenating heterogeneous identifications, we get
+By concatenating indexed heterogeneous identifications, we get
 $$\pi_2(t(p))(x) \bullet \pi_2(t(p^{-1}))(\pi_1(t(p))(x)):x =_{x:A.B(x)}^{\mathrm{rec}_\mathbb{I}^A(p(0), p(0), \mathrm{fill}(p,  p^{-1}, \mathrm{refl}_{A}(p(1))} \pi_1(t(p^{-1}))(\pi_1(t(p))(x))$$
 and
 $$\pi_2(t(p^{-1}))(y) \bullet \pi_2(t(p))(\pi_1(t(p^{-1}))(y)):y =_{x:A.B(x)}^{\mathrm{rec}_\mathbb{I}^A(p(1), p(1), \mathrm{fill}(p^{-1},  p, \mathrm{refl}_{A}(p(0))} \pi_1(t(p))(\pi_1(t(p^{-1}))(y))$$
@@ -221,7 +221,7 @@ $$\pi_2(t(p))(x) \bullet \pi_2(t(p^{-1}))(\pi_1(t(p))(x)):x =_{x:A.B(x)}^{p \bul
 and
 $$\pi_2(t(p^{-1}))(y) \bullet \pi_2(t(p))(\pi_1(t(p^{-1}))(y)):y =_{x:A.B(x)}^{p^{-1} \bullet p} \pi_1(t(p))(\pi_1(t(p^{-1}))(y))$$
 
-By converting heterogeneous identifications over constant paths, one gets
+By converting indexed heterogeneous identifications over constant paths, one gets
 $$\mathrm{hIdToId}(x, \pi_1(t(p^{-1}))(\pi_1(t(p))(x)), \pi_2(t(p))(x) \bullet \pi_2(t(p^{-1}))(\pi_1(t(p)(x))))):x =_{B(p(0))} \pi_1(t(p^{-1}))(\pi_1(t(p))(x))$$
 and
 $$\mathrm{hIdToId}(y, \pi_1(t(p))(\pi_1(t(p^{-1}))(y)), \pi_2(t(p^{-1}))(y) \bullet \pi_2(t(p))(\pi_1(t(p^{-1}))(y))):y =_{B(b)} \pi_1(t(p))(\pi_1(t(p^{-1}))(y))$$
@@ -277,7 +277,7 @@ The type of families of transport functions on a [[type family]] $x:A \vdash B(x
 
 $$\prod_{a:A} \prod_{b:A} \prod_{p:a =_A b} \sum_{f:B(a) \to B(b)} \prod_{x:B(a)} x =_{x:A.B(x)}^{(a, b, p)} f(x)$$
 
-where $x =_{x:A.B(x)}^{(a, b, p)} y$ is a [[heterogeneous identity type]] defined using identifications. 
+where $x =_{x:A.B(x)}^{(a, b, p)} y$ is a [[indexed heterogeneous identity type]] defined using identifications. 
 
 In general, a family of transport functions is an element of this type. However, any element of the type of families of transport functions is unique up to identification:
 
@@ -352,7 +352,7 @@ $$\pi_2(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)):\pi_1(t(b, a, p^{-1}))(y) =_{x:A.
 and 
 $$\pi_2(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x)):\pi_1(t(a, b, p)(x)) =_{x:A.B(x)}^{(b, a, p^{-1})} \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x))$$ 
 
-By concatenating heterogeneous identifications, we get
+By concatenating indexed heterogeneous identifications, we get
 $$\pi_2(t(a, b, p))(x) \bullet \pi_2(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x)):x =_{x:A.B(x)}^{(a, a, p \bullet p^{-1})} \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x))$$
 and
 $$\pi_2(t(b, a, p^{-1}))(y) \bullet \pi_2(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)):y =_{x:A.B(x)}^{(b, b, p^{-1} \bullet p)} \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))$$
@@ -362,7 +362,7 @@ $$\pi_2(t(a, b, p))(x) \bullet \pi_2(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x)):x =_
 and
 $$\pi_2(t(b, a, p^{-1}))(y) \bullet \pi_2(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)):y =_{x:A.B(x)}^{(b, b, p^{-1} \bullet p)} \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))$$
 
-By converting heterogeneous identifications over reflexivity to homogeneous identifications, one gets
+By converting indexed heterogeneous identifications over reflexivity to homogeneous identifications, one gets
 $$\mathrm{hIdToId}(x, \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x)), \pi_2(t(a, b, p))(x) \bullet \pi_2(t(b, a, p^{-1}))(\pi_1(t(a, b, p)(x))))):x =_{B(a)} \pi_1(t(b, a, p^{-1}))(\pi_1(t(a, b, p))(x))$$
 and
 $$\mathrm{hIdToId}(y, \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y)), \pi_2(t(b, a, p^{-1}))(y) \bullet \pi_2(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))):y =_{B(b)} \pi_1(t(a, b, p))(\pi_1(t(b, a, p^{-1}))(y))$$
