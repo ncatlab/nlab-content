@@ -171,9 +171,9 @@ Types include
 
 ### Heterogeneous morphisms and covariant type families
 
-Given a type $A$, elements $x:A$ and $y:A$, a function $f:\mathbb{I} \to A$, [[identifications]] $p_0:f(0) =_A x$ and $p_1:f(1) =_A y$ a type family $x:A \vdash B(x)$, and elements $u:B(x)$ and $v:B(y)$, a *[[heterogeneous morphism]]* is a [[tuple]] consisting of a [[dependent function]] $g:\prod_{i:\mathbb{I}} B(f(i))$ and two [[heterogeneous identifications]] 
+Given a type $A$, elements $x:A$ and $y:A$, a function $f:\mathbb{I} \to A$, [[identifications]] $p_0:f(0) =_A x$ and $p_1:f(1) =_A y$ a type family $x:A \vdash B(x)$, and elements $u:B(x)$ and $v:B(y)$, a *[[heterogeneous morphism]]* is a [[tuple]] consisting of a [[dependent function]] $g:\prod_{i:\mathbb{I}} B(f(i))$ and two [[indexed heterogeneous identifications]] 
 $$q_0:g(0) =_{t.B(t)}^{(f(0), x, p_0)} u \; \mathrm{and} \; q_1:g(1) =_{t.B(t)}^{(f(1), y, p_1)} v$$ 
-where the type $u =_{t.B(t)}^{(x, y, p)} v$ is the [[heterogeneous identity type]] over the type family $x:A \vdash B(x)$. 
+where the type $u =_{t.B(t)}^{(x, y, p)} v$ is the [[indexed heterogeneous identity type]] over the type family $x:A \vdash B(x)$. 
 
 The type of heterogeneous morphisms is called the *[[heterogeneous hom-type]]* and is defined as the [[dependent sum type]] 
 
@@ -194,10 +194,6 @@ Let $(U, T)$ be a [[univalent Tarski universe]]. The [[directed univalence|direc
 $$\mathcal{S} \coloneqq \sum_{X:U} \mathrm{isACov}(T(X))$$
 
 The directed univalent universe $\mathcal{S}$ is a [[finitely complete type|finitely complete]] and [[finitely cocomplete type|finitely cocomplete]] [[Rezk type]]. 
-
-## Some open questions
-
-* Is it possible to define [[dagger (infinity,1)-category|dagger $(\infty,1)$-categories]] in simplicial type theory? Or do we have to use a complete graph for the interval in order to represent simplicial anima with involution $\mathrm{Ani}^{I \Delta^\op}$ a la [Bergner 12 Erratum](#Bergner12Erratum), which would result in a different type theory? ($I \Delta$ is the category of [[finite set|finite]] [[complete graphs]], a category with a finite number of objects and a single isomorphism between each object.)
 
 ## See also
 
@@ -244,8 +240,6 @@ The directed univalent universe $\mathcal{S}$ is a [[finitely complete type|fini
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
 * {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
-
-* {#Bergner12Erratum} *Erratum to “Adding inverses to diagrams encoding algebraic structures” and “Adding inverses to diagrams II: Invertible homotopy theories are spaces”*, Homology, Homotopy and Applications **14** 1 (2012) 287-291 &lbrack;[doi:10.4310/HHA.2012.v14.n1.a15](https://dx.doi.org/10.4310/HHA.2012.v14.n1.a15), [arXiv:0710.2254 pp 18](https://arxiv.org/pdf/0710.2254#page=18)&rbrack;
 
 A talk on [[synthetic (infinity,1)-category theory]] in [[simplicial type theory]] and [[infinity-cosmos]] theory:
 
