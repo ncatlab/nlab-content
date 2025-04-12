@@ -1198,7 +1198,7 @@ In retrospect, this is roughly an algebraic version of the standard fact that ev
 
 * [[transport]]
 
-* [[heterogeneous identity type]]
+* [[indexed heterogeneous identity type]]
 
 * [[fibered heterogeneous identity type]]
 
