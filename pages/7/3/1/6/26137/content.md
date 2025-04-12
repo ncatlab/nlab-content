@@ -6,110 +6,185 @@
 +--{: .hide}
 [[!include equality and equivalence - contents]]
 =--
-#### Foundations
+#### Type theory
 +-- {: .hide}
-[[!include foundations - contents]]
+[[!include type theory - contents]]
 =--
 =--
 =--
 
-\tableofcontents
+## Disambiguation
 
-## Idea 
+In the [[dependent type theory]] literature, there are different kinds of [[types]] which are called *heterogeneous identity types* or *dependent identity types*:
 
-A form of [[equality]] which allows for elements of [[families]] of [[types]] to be compared for equality. 
+* *[[indexed heterogeneous identity types]]* are a variant of [[identity types]] for a [[type family]] and parameterized by a pair of elements and a [[identification]] between them; hence the name "indexed"
 
-## Definition 
+$$x:A, y:A, p:x =_A y, u:B(x), v:B(y) \vdash u =_{B}^{(x, y, p)} v$$
 
-### Typal heterogeneous equality
+* *[[fibered heterogeneous identity types]]* are a variant of [[identity types]] for a [[type family]] and parameterized by only a pair of elements. They are equivalent to the [[dependent sum]] of indexed heterogeneous identity types over all relevant [[identifications]]; hence the name "fibered" 
 
-In the [[type theory]] literature, there are different kinds of [[types]] which are called *heterogeneous equality* types:
+$$x:A, y:A, u:B(x), v:B(y) \vdash u =_{B}^{(x, y)} v \simeq \sum_{p:x = y} u =_{B}^{(x, y, p)} v$$
 
-* *[[heterogeneous identity types]]* are a variant of [[identity types]] but parameterized over pairs of possibly different types,
+category: disambiguation
 
-* *[[fibered heterogeneous identity types]]* are the [[dependent sum]] of heterogeneous identity types over all relevant [[identifications]]. 
+[[!redirects dependent identity type]]
+[[!redirects dependent identity types]]
+[[!redirects heterogeneous identity type]]
+[[!redirects heterogeneous identity types]]
+[[!redirects dependent heterogeneous identity type]]
+[[!redirects dependent heterogeneous identity types]]
+[[!redirects non-dependent heterogeneous identity type]]
+[[!redirects non-dependent heterogeneous identity types]]
 
-### Propositional heterogeneous equality
+[[!redirects weak dependent identity type]]
+[[!redirects weak dependent identity types]]
+[[!redirects weak heterogeneous identity type]]
+[[!redirects weak heterogeneous identity types]]
+[[!redirects weak dependent heterogeneous identity type]]
+[[!redirects weak dependent heterogeneous identity types]]
+[[!redirects weak non-dependent heterogeneous identity type]]
+[[!redirects weak non-dependent heterogeneous identity types]]
 
-In any two-layer type theory with a layer of [[types]] and a layer of [[propositions]], or equivalently a [[first order logic]] over [[type theory]] or a [[first-order theory]], every type $A$ has a binary [[relation]] called [[propositional equality]], according to which two elements $x$ and $y$ of $A$ are related if and only if they are equal; in this case we write $x =_A y$. Similarly, every type family $B(x)$ indexed by $x:A$ has a family of binary relations, according to which, given two elements $x$ and $y$ of $A$ where $x =_A y$, and two elements $a$ of $B(x)$ and $b$ of $B(y)$, $a$ and $b$ are related if and only if they are equal across the equality $x =_A y$. Since relations are propositions in the context of a term variable judgment in the type layer, this is called **[[propositional heterogeneous equality]]** or **[[heterogeneous propositional equality]]**. The formation and introduction rules for propositional heterogeneous equality is as follows
+[[!redirects strict dependent identity type]]
+[[!redirects strict dependent identity types]]
+[[!redirects strict heterogeneous identity type]]
+[[!redirects strict heterogeneous identity types]]
+[[!redirects strict dependent heterogeneous identity type]]
+[[!redirects strict dependent heterogeneous identity types]]
+[[!redirects strict non-dependent heterogeneous identity type]]
+[[!redirects strict non-dependent heterogeneous identity types]]
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, y:A, x =_A y \; \mathrm{true}, a:B(x), b:B(y) \vdash a =_{\underline{ }.B}^{x =_A y} b \; \mathrm{prop}} \quad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A, a:B(x) \vdash a =_{\underline{ }.B}^{x =_A x} a \; \mathrm{true}}$$
+[[!redirects judgmentally strict dependent identity type]]
+[[!redirects judgmentally strict dependent identity types]]
+[[!redirects judgmentally strict heterogeneous identity type]]
+[[!redirects judgmentally strict heterogeneous identity types]]
+[[!redirects judgmentally strict dependent heterogeneous identity type]]
+[[!redirects judgmentally strict dependent heterogeneous identity types]]
+[[!redirects judgmentally strict non-dependent heterogeneous identity type]]
+[[!redirects judgmentally strict non-dependent heterogeneous identity types]]
 
-Then we have the elimination rules for propositional heterogeneous equality:
+[[!redirects propositionally strict dependent identity type]]
+[[!redirects propositionally strict dependent identity types]]
+[[!redirects propositionally strict heterogeneous identity type]]
+[[!redirects propositionally strict heterogeneous identity types]]
+[[!redirects propositionally strict dependent heterogeneous identity type]]
+[[!redirects propositionally strict dependent heterogeneous identity types]]
+[[!redirects propositionally strict non-dependent heterogeneous identity type]]
+[[!redirects propositionally strict non-dependent heterogeneous identity types]]
 
-$$\frac{
-\begin{array}{c}
-\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\ 
-\Gamma, x:A, y:A, x =_A y \; \mathrm{true}, a:B(x), b:B(y), a =_{\underline{ }.B}^{x =_A y} b \; \mathrm{true} \vdash P(a, b, x, y) \; \mathrm{prop} \\ 
-\Gamma, x:A, a:B(x), \vdash P(x, x, a, a) \; \mathrm{true}
-\end{array}
-}{\Gamma, x:A, y:A, x =_A y \; \mathrm{true}, a:B(x), b:B(y), a =_{\underline{ }.B}^{x =_A y} b \; \mathrm{true} \vdash P(a, b, x, y) \; \mathrm{true}}$$
+[[!redirects dependent identification type]]
+[[!redirects dependent identification types]]
+[[!redirects heterogeneous identification type]]
+[[!redirects heterogeneous identification types]]
+[[!redirects dependent heterogeneous identification type]]
+[[!redirects dependent heterogeneous identification types]]
+[[!redirects non-dependent heterogeneous identification type]]
+[[!redirects non-dependent heterogeneous identification types]]
 
-## Properties
+[[!redirects weak dependent identification type]]
+[[!redirects weak dependent identification types]]
+[[!redirects weak heterogeneous identification type]]
+[[!redirects weak heterogeneous identification types]]
+[[!redirects weak dependent heterogeneous identification type]]
+[[!redirects weak dependent heterogeneous identification types]]
+[[!redirects weak non-dependent heterogeneous identification type]]
+[[!redirects weak non-dependent heterogeneous identification types]]
 
-### Heterogeneous equalities are equivalence relations
+[[!redirects strict dependent identification type]]
+[[!redirects strict dependent identification types]]
+[[!redirects strict heterogeneous identification type]]
+[[!redirects strict heterogeneous identification types]]
+[[!redirects strict dependent heterogeneous identification type]]
+[[!redirects strict dependent heterogeneous identification types]]
+[[!redirects strict non-dependent heterogeneous identification type]]
+[[!redirects strict non-dependent heterogeneous identification types]]
 
-The introduction rule of heterogeneous equality says that heterogeneous equality is reflexive. 
+[[!redirects judgmentally strict dependent identification type]]
+[[!redirects judgmentally strict dependent identification types]]
+[[!redirects judgmentally strict heterogeneous identification type]]
+[[!redirects judgmentally strict heterogeneous identification types]]
+[[!redirects judgmentally strict dependent heterogeneous identification type]]
+[[!redirects judgmentally strict dependent heterogeneous identification types]]
+[[!redirects judgmentally strict non-dependent heterogeneous identification type]]
+[[!redirects judgmentally strict non-dependent heterogeneous identification types]]
 
-We can show that heterogeneous equality is symmetric, that for all $x:A$ and $y:A$ such that $x =_A y$, and for all $a:B(x)$ and $b:B(y)$ such that $a =_{\underline{ }.B}^{x =_A y} b$, we have $b =_{\underline{ }.B}^{y =_A x} a$. Non-heterogeneous equality is symmetric, which means that for all $x:A$ and $y:A$ such that $x =_A y$, $y =_A x$. By the introduction rule, we have that for all $x:A$ and $a:B(x)$, we have that $a =_{\underline{ }.B}^{x =_A x} a$, and because all propositions imply themselves, we have that $a =_{\underline{ }.B}^{x =_A x} a$ implies $a =_{\underline{ }.B}^{x =_A x} a$. Thus, by the elimination rules for heterogeneous equality, for all $x:A$ and $y:A$ such that $x =_A y$, and for all $a:B(x)$ and $b:B(y)$ such that $a =_{\underline{ }.B}^{x =_A y} b$, we have $b =_{\underline{ }.B}^{y =_A x} a$. 
+[[!redirects propositionally strict dependent identification type]]
+[[!redirects propositionally strict dependent identification types]]
+[[!redirects propositionally strict heterogeneous identification type]]
+[[!redirects propositionally strict heterogeneous identification types]]
+[[!redirects propositionally strict dependent heterogeneous identification type]]
+[[!redirects propositionally strict dependent heterogeneous identification types]]
+[[!redirects propositionally strict non-dependent heterogeneous identification type]]
+[[!redirects propositionally strict non-dependent heterogeneous identification types]]
 
-We can also show that heterogeneous equality is transitive, that for all $x:A$, $y:A$, and $z:A$ such that $x =_A y$ and $y =_A z$, and for all $a:B(x)$, $b:B(y)$, and $c:B(z)$ such that $a =_{\underline{ }.B}^{x =_A y} b$, $b =_{\underline{ }.B}^{y =_A y} c$ implies $a =_{\underline{ }.B}^{x =_A z} c$. Non-heterogeneous equality is transitive, that for all $x:A$, $y:A$, and $z:A$ such that $x =_A y$ and $y =_A z$, $x =_A z$. By the introduction rule, we have that for all $x:A$ and $a:B(x)$, we have that $a =_{\underline{ }.B}^{x =_A x} a$, and because all propositions imply themselves, we have that $a =_{\underline{ }.B}^{x =_A z} c$ implies $a =_{\underline{ }.B}^{x =_A z} c$, and because true propositions imply true propositions, we have that $a =_{\underline{ }.B}^{x =_A x} a$ implies that $a =_{\underline{ }.B}^{x =_A z} c$ implies $a =_{\underline{ }.B}^{x =_A z} c$. Thus, by the elimination rules for heterogeneous equality, or all $x:A$, $y:A$, and $z:A$ such that $x =_A y$ and $y =_A z$, and for all $a:B(x)$, $b:B(y)$, and $c:B(z)$ such that $a =_{\underline{ }.B}^{x =_A y} b$, $b =_{\underline{ }.B}^{y =_A y} c$ implies $a =_{\underline{ }.B}^{x =_A z} c$. 
+[[!redirects dependent equality type]]
+[[!redirects dependent equality types]]
+[[!redirects heterogeneous equality type]]
+[[!redirects heterogeneous equality types]]
+[[!redirects dependent heterogeneous equality type]]
+[[!redirects dependent heterogeneous equality types]]
+[[!redirects non-dependent heterogeneous equality type]]
+[[!redirects non-dependent heterogeneous equality types]]
 
-Thus, heterogeneous equality is an equivalence relation. 
+[[!redirects weak dependent equality type]]
+[[!redirects weak dependent equality types]]
+[[!redirects weak heterogeneous equality type]]
+[[!redirects weak heterogeneous equality types]]
+[[!redirects weak dependent heterogeneous equality type]]
+[[!redirects weak dependent heterogeneous equality types]]
+[[!redirects weak non-dependent heterogeneous equality type]]
+[[!redirects weak non-dependent heterogeneous equality types]]
 
-### Dependent functions are extensional
+[[!redirects strict dependent equality type]]
+[[!redirects strict dependent equality types]]
+[[!redirects strict heterogeneous equality type]]
+[[!redirects strict heterogeneous equality types]]
+[[!redirects strict dependent heterogeneous equality type]]
+[[!redirects strict dependent heterogeneous equality types]]
+[[!redirects strict non-dependent heterogeneous equality type]]
+[[!redirects strict non-dependent heterogeneous equality types]]
 
-For all dependent function $f:\prod_{x:A} B(x)$ and elements $x:A$ and $y:A$ such that $x =_A y$, $f(x) =_{\underline{ }.B}^{x =_A y} f(y)$:
+[[!redirects judgmentally strict dependent equality type]]
+[[!redirects judgmentally strict dependent equality types]]
+[[!redirects judgmentally strict heterogeneous equality type]]
+[[!redirects judgmentally strict heterogeneous paequalityth types]]
+[[!redirects judgmentally strict dependent heterogeneous equality type]]
+[[!redirects judgmentally strict dependent heterogeneous paequalityth types]]
+[[!redirects judgmentally strict non-dependent heterogeneous equality type]]
+[[!redirects judgmentally strict non-dependent heterogeneous paequalityth types]]
 
-$$\forall f:\prod_{x:A} B(x).\forall x:A.\forall y:A.x =_A y \implies f(x) =_{\underline{ }.B}^{x =_A y} f(y)$$
+[[!redirects propositionally strict dependent equality type]]
+[[!redirects propositionally strict dependent equality types]]
+[[!redirects propositionally strict heterogeneous equality type]]
+[[!redirects propositionally strict heterogeneous equality types]]
+[[!redirects propositionally strict dependent heterogeneous equality type]]
+[[!redirects propositionally strict dependent heterogeneous equality types]]
+[[!redirects propositionally strict non-dependent heterogeneous equality type]]
+[[!redirects propositionally strict non-dependent heterogeneous equality types]]
 
-This is because for all dependent function $f:\prod_{x:A} B(x)$, by the introduction rule for heterogeneous equality, for all elements $x:A$, $f(x) =_{\underline{ }.B}^{x =_A x} f(x)$, and the elimination rule for heterogeneous equality states that if for all elements $x:A$, $f(x) =_{\underline{ }.B}^{x =_A x} f(x)$, then for all elements $x:A$ and $y:A$ such that $x =_A y$, $f(x) =_{\underline{ }.B}^{x =_A y} f(y)$. 
+[[!redirects dependent identity]]
+[[!redirects dependent identities]]
+[[!redirects heterogeneous identity]]
+[[!redirects heterogeneous identities]]
+[[!redirects dependent heterogeneous identity]]
+[[!redirects dependent heterogeneous identities]]
+[[!redirects non-dependent heterogeneous identity]]
+[[!redirects non-dependent heterogeneous identities]]
 
-### Dependent function extensionality
+[[!redirects dependent identification]]
+[[!redirects dependent identifications]]
+[[!redirects heterogeneous identification]]
+[[!redirects heterogeneous identifications]]
+[[!redirects dependent heterogeneous identification]]
+[[!redirects dependent heterogeneous identifications]]
+[[!redirects non-dependent heterogeneous identification]]
+[[!redirects non-dependent heterogeneous identifications]]
 
-The extensionality principle for [[dependent product types]] (dependent [[function extensionality]]) states that for all dependent functions $f:\prod_{x:A} B(x)$ and $g:\prod_{x:A} B(x)$, $f =_{\prod_{x:A} B(x)} g$ if and only if for all $a:A$ and $b:A$ such that $a =_A b$, $f(a) =_{\underline{ }.B}^{a =_A b} g(b)$
-
-$$\forall f:\prod_{x:A} B(x).\forall g:\prod_{x:A} B(x).f =_{\prod_{x:A} B(x)} g \iff \forall a:A. \forall b:A.a =_A b \implies (f(a) =_{\underline{ }.B}^{a =_A b} g(b))$$
-
-### Relation to non-heterogeneous propositional equality
-
-Given elements $x:A$, and for all $a:B(x)$ and $b:B(x)$, $a =_{\underline{ }.B}^{x =_A x} b$ if and only if $a =_{B(x)} b$
-
-$$\forall a:B(x).\forall b:B(x). a =_{\underline{ }.B}^{x =_A x} b \iff a =_{B(x)} b$$
-
-This is because by the introduction rules of propositional equality and heterogeneous propositional equality, we have that for all $a:B(x)$, $a =_{B(x)} a$ and $a =_{\underline{ }.B}^{x =_A x} a$, and since true propositions imply true propositions, we have $a =_{B(x)} a$ implies $a =_{\underline{ }.B}^{x =_A x} a$ and $a =_{\underline{ }.B}^{x =_A x} a$ implies $a =_{B(x)} a$. By the elimination rules for propositional equality, for all $a:B(x)$ and $b:B(x)$, we have $a =_{B(x)} b$ implies $a =_{\underline{ }.B}^{x =_A x} b$, and by the elimination rules for heterogeneous propositional equality, we have $a =_{\underline{ }.B}^{x =_A x} b$ implies $a =_{B(x)} b$. Thus, $a =_{\underline{ }.B}^{x =_A x} b$ if and only if $a =_{B(x)} b$. 
-
-### Transport functions
-
-The analogue of [[identity functions]] on a type $A$, a function $f:A \to A$ such that $x =_A f(x)$ for all elements $x:A$, is the notion of [[transport functions]] between a family of types $B(x)$ indexed by elements $x:A$. 
-
-Given elements $x:A$ and $y:A$ such that $x =_A y$, a [[transport function]] is a function $f:B(x) \to B(y)$ such that for all $a:B(x)$, $a =_{\underline{ }.B}^{x =_A y} f(a)$
-
-$$\forall a:B(x).a =_{\underline{ }.B}^{x =_A y} f(a)$$
-
-These transport functions, if they exist, are [[uniqueness quantifier|unique up to equality]]. Suppose we have a second function $g:B(x) \to B(y)$ such that $x =_A y$ implies that for all $a:B(x)$, $a =_{\underline{ }.B}^{x =_A y} g(a)$. Then by symmetry and transitivity of heterogeneous equality, we have $f(a) =_{\underline{ }.B}^{y =_A y} g(a)$, which is logically equivalent to $f(a) =_{B(y)} g(a)$. Then by function extensionality, we have $f =_{B(x) \to B(y)} g$, which implies that transport functions, if they exist, are unique up to equality. 
-
-Suppose that for all elements $x:A$ and $y:A$ such that $x =_A y$, there exists a transport function $\mathrm{tr}_{\underline{ }.B}^{x =_A y}:B(x) \to B(y)$. Then for all $a:B(x)$ and $b:B(y)$, $a =_{\underline{ }.B}^{x =_A y} b$ if and only if $\mathrm{tr}_{\underline{ }.B}^{x =_A y}(a) =_{B(y)} b$
-
-$$\forall a:B(x).\forall b:B(y). a =_{\underline{ }.B}^{x =_A y} b \iff \mathrm{tr}_{\underline{ }.B}^{x =_A y}(a) =_{B(y)} b$$
-
-In particular, this means that we have $\mathrm{tr}_{\underline{ }.B}^{y =_A x}(b) =_{B(x)} a$, and by the fact that functions preserve equality, $\mathrm{tr}_{\underline{ }.B}^{y =_A x}(\mathrm{tr}_{\underline{ }.B}^{x =_A y}(a)) =_{B(x)} \mathrm{tr}_{\underline{ }.B}^{y =_A x}(b)$, which by transitivity of propositional equality implies that $\mathrm{tr}_{\underline{ }.B}^{y =_A x}(\mathrm{tr}_{\underline{ }.B}^{x =_A y}(a)) =_{B(x)} a$. Similarly, we have $\mathrm{tr}_{\underline{ }.B}^{x =_A y}(\mathrm{tr}_{\underline{ }.B}^{y =_A x}(b)) =_{B(y)} \mathrm{tr}_{\underline{ }.B}^{x =_A y}(a)$, which by transitivity of propositional equality implies that $\mathrm{tr}_{\underline{ }.B}^{x =_A y}(\mathrm{tr}_{\underline{ }.B}^{y =_A x}(b)) =_{B(y)} b$. Thus, the transport functions $\mathrm{tr}_{\underline{ }.B}^{x =_A y}:B(x) \to B(y)$ and $\mathrm{tr}_{\underline{ }.B}^{y =_A x}:B(y) \to B(x)$ are [[inverse functions]] of each other, and thus both transport functions are [[bijections]], and could be written as $\mathrm{tr}_{\underline{ }.B}^{x =_A y}:B(x) \cong B(y)$ and $\mathrm{tr}_{\underline{ }.B}^{y =_A x}:B(y) \cong B(x)$ respectively. 
-
-## Related concepts
-
-* [[equality]]
-
+[[!redirects dependent equality]]
+[[!redirects dependent equalities]]
 [[!redirects heterogeneous equality]]
 [[!redirects heterogeneous equalities]]
-
-[[!redirects heterogeneous propositional equality]]
-[[!redirects heterogeneous propositional equalities]]
-
-[[!redirects heterogeneous typal equality]]
-[[!redirects heterogeneous typal equalities]]
-
-[[!redirects propositional heterogeneous equality]]
-[[!redirects propositional heterogeneous equalities]]
-
-[[!redirects typal heterogeneous equality]]
-[[!redirects typal heterogeneous equalities]]
+[[!redirects dependent heterogeneous equality]]
+[[!redirects dependent heterogeneous equalities]]
+[[!redirects non-dependent heterogeneous equality]]
+[[!redirects non-dependent heterogeneous equalities]]
