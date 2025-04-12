@@ -276,7 +276,15 @@ or
 $$\mathrm{congform}_\Sigma(p_A, p_B):\Sigma(A, B) =_U \Sigma(A', B')$$ 
 via the [[action on identifications]]. 
 
-However, without universes and function types into universes, we cannot compare type families by equality. As a result, the various typal congruence rules involving identity types between types cannot be directly stated using identifications and heterogeneous identifications, even when using identity types between types. Instead, we have to use [[transport]] or the inductively defined $\mathrm{idtoequiv}$ function to convert the identification $p_A:A = A'$ to an equivalence $e_A:A \simeq A'$, and then we can state that given a [[homotopy]] $p_B:\prod_{x:A} B(x) = B'(e_A(x))$, one can construct an identification 
+However, without universes and function types into universes, we cannot compare type families by equality. While it is true that with [[univalent universes]], the type $B =_{(-) \to U}^{A, A', p_A} B'$ is equivalent to the type 
+$$\prod_{x:A} B(x) \simeq B'(\mathrm{idtoequiv}(p)(x))$$
+and thus $U$-small, and it would theoretically make sense for the theory to have heterogeneous identity types between type families in the theory, the issue is that without function types into the universe, it isn't possible for a type to depend on a type family, which is what is required in the [[elimination rule]] and [[computation rule]] for any hypothetical heterogeneous identity types between type families
+$$(x:A.B(x)) =^{A, A', p_A} (x:A'.B'(x))$$
+For this to happen, we need to extend the theory with higher-order judgments of the kind described in the definition of a [[function type]] as a [[positive type]]: 
+$$(x:A \vdash B(x) \; \mathrm{type}) \vdash C(x:A.B(x)) \; \mathrm{type}$$
+See [[function type#AsPositiveType]] for more details. 
+
+As a result, the various typal congruence rules involving identity types between types cannot be directly stated using identifications and heterogeneous identifications, even when using identity types between types. Instead, we have to use [[transport]] or the inductively defined $\mathrm{idtoequiv}$ function to convert the identification $p_A:A = A'$ to the equivalence $\mathrm{idtoequiv}(p_A):A \simeq A'$, and then we can state that given a [[homotopy]] $p_B:\prod_{x:A} B(x) = B'(\mathrm{idtoequiv}(p_A)(x))$, one can construct an identification 
 $$\mathrm{congform}_\Pi(p_A, p_B):\Pi(A, B) = \Pi(A', B')$$
 or 
 $$\mathrm{congform}_\Sigma(p_A, p_B):\Sigma(A, B) = \Sigma(A', B')$$ 
