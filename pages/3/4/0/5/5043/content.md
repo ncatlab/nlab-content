@@ -9,9 +9,6 @@
 =--
 =--
 
-
-
-# Cofinal diagrams
 * table of contents
 {: toc}
 
