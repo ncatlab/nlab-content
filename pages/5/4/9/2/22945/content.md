@@ -37,3 +37,10 @@ On Gromov's [[h-principle|$h$-principle]]:
 * [[symplectic field theory]]
 
 * [[Timeline of category theory and related mathematics]]
+
+[[!redirects Y. Eliashberg]]
+[[!redirects Y. M. Eliashberg]]
+[[!redirects Яков Элиашберг]]
+[[!redirects Яков Матвеевич Элиашберг]]
+[[!redirects Я. М. Элиашберг]]
+[[!redirects Я. Элиашберг]]
