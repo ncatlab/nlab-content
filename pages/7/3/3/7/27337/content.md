@@ -192,10 +192,6 @@ Then there is a stronger notion of weak Tarski universe which is only possible i
 
 This is similar to the case for Tarski universes in the presentation of dependent type theory with a hierarchy of universes, which also has three different kinds of Tarski universes involving judgmental equality, identity types between types, and equivalences of types respectively. 
 
-#### Structured types and the structure identity principle
-
-Traditionally, the type of structured types is a [[dependent sum type]], $\sum_{X:U} \mathrm{struct}(X)$ over a type family of structures $\mathrm{struct}(X)$ indeed by a [[type universe]] $X:U$. However, the lack of universes $U$ is not a problem, because one can take it component wise, the structure identity principle for the bare types $X$ and $Y$ given by the [[univalence axiom]] and the structure identity principle for structures $\mathrm{struct}(X)$ on $X$ and $\mathrm{struct}(Y)$ on $Y$. 
-
 ### Large recursion principles
 
 Independently of the consequences of having [[identity type#IdentityTypesBetweenTypes|identity types between types]], having type variables allows for the formulation of certain large recursion principles which are not possible in the dependent type theory with a single type judgment but no type variables. These include large recursion for recursive inductive types and recursive higher inductive types such as the [[natural numbers type]], [[W-types]], and [[localizations of a type]]. 
@@ -266,9 +262,9 @@ Similar requirements of type variables apply to the large recursion principles o
 
 So far we have described in this article the various things we can do in dependent type theory with a single judgment if we extend the theory with type variables. However, there are still a few limitations if we do not have universes in the type theory. 
 
-### Heterogeneous identity types between type families
+### Indexed heterogeneous identity types between type families
 
-In type theory with universes, given a universe $U$, types $A:U$ and $A':U$, an identification $p_A:A =_U A'$, and type families $B:A \to U$ and $B':A \to U$, one can construct the [[heterogeneous identity type]] $B =_{(-) \to U}^{A, A', p_A} B'$ between type families $B$ and $B'$. 
+In type theory with universes, given a universe $U$, types $A:U$ and $A':U$, an identification $p_A:A =_U A'$, and type families $B:A \to U$ and $B':A \to U$, one can construct the [[indexed heterogeneous identity type]] $B =_{(-) \to U}^{A, A', p_A} B'$ between type families $B$ and $B'$. 
 
 However, without universes and function types into universes, we cannot compare type families by equality. While it is true that with [[univalent universes]], the type $B =_{(-) \to U}^{A, A', p_A} B'$ is equivalent to the type 
 $$\prod_{x:A} B(x) \simeq B'(\mathrm{idtoequiv}(p)(x))$$
