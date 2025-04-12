@@ -172,7 +172,7 @@ $$f \equiv (\lambda x:A.(x, \pi_2(f(x))), \pi_2(f))$$
 
 ### As types of dependent anafunctions
 
-In the same way that one could define [[equivalence types]] as types of [[one-to-one correspondences]] and [[function types]] as types of [[anafunctions]], one could define dependent function types as types of [[dependent anafunctions]]. This requires both [[identity types]] and [[heterogeneous identity types]] being defined first, which we shall write as $a =_A b$ and $x =_{B}^{p} y$ respectively for $a:A$, $b:A$, $p:a =_A b$, $x:B(a)$, and $y:B(b)$. We use Agda notation $(x:A) \to B(x)$ for dependent function types rather than the dependent product type notation $\prod_{x:A} B(x)$ or $\Pi(x:A).B(x)$ in this section. 
+In the same way that one could define [[equivalence types]] as types of [[one-to-one correspondences]] and [[function types]] as types of [[anafunctions]], one could define dependent function types as types of [[dependent anafunctions]]. This requires both [[identity types]] and [[indexed heterogeneous identity types]] being defined first, which we shall write as $a =_A b$ and $x =_{B}^{p} y$ respectively for $a:A$, $b:A$, $p:a =_A b$, $x:B(a)$, and $y:B(b)$. We use Agda notation $(x:A) \to B(x)$ for dependent function types rather than the dependent product type notation $\prod_{x:A} B(x)$ or $\Pi(x:A).B(x)$ in this section. 
 
 Rules for dependent function types
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash (x:A) \to B(x) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, f:(x:A) \to B(x), x:A, y:B(x) \vdash \mathcal{F}_{A, B}(f, x, y) \; \mathrm{type}}$$
