@@ -190,6 +190,25 @@ Then there is a stronger notion of weak Tarski universe which is only possible i
 
 This is similar to the case for Tarski universes in the presentation of dependent type theory with a hierarchy of universes, which also has three different kinds of Tarski universes involving judgmental equality, identity types between types, and equivalences of types respectively. 
 
+### Fibered heterogeneous identity types for type-indexed families
+
+Given the type-indexed family of types $X \; \mathrm{type} \vdash P(X) \; \mathrm{type}$, types $A$ and $B$, and elements $a:P(A)$ and $b:P(B)$, one can construct the [[fibered heterogeneous identity type]] 
+
+$$a =_{X.P(X)}^{(A, B)} b$$
+
+defined inductively in the same way that usual [[fibered heterogeneous identity types]] are defined:
+
+(TODO: Add inference rules for fibered heterogeneous identity types for type-indexed families.) 
+
+#### Structured types and the structure identity principle
+
+Traditionally, the type of structured types is a [[dependent sum type]], $\sum_{X:U} \mathrm{struct}(X)$ over a type family of structures $\mathrm{struct}(X)$ indeed by a [[type universe]] $X:U$. However, the lack of universes $U$ is not a problem, because one can define the identity types of $\sum_{X:U} \mathrm{struct}(X)$ directly, because the type 
+$$(A, s_A) =_{\sum_{X:U} \mathrm{struct}(X)} (B, s_B)$$ 
+is equivalent to the [[fibered heterogeneous identity type]]
+$$s_A =_{\mathrm{struct}(-)}^{A, B} s_B$$ 
+for the type-indexed family of types. The *[[structure identity principle]]* for the above structure then says that given the type of structure-preserving equivalences $A \simeq_\mathrm{struct} B$, there is an [[equivalence of types]] between 
+$$(s_A =_{\mathrm{struct}(-)}^{A, B} s_B) \simeq (A \simeq_\mathrm{struct} B)$$
+
 ### Large recursion principles
 
 Independently of the consequences of having [[identity type#IdentityTypesBetweenTypes|identity types between types]], having type variables allows for the formulation of certain large recursion principles which are not possible in the dependent type theory with a single type judgment but no type variables. These include large recursion for recursive inductive types and recursive higher inductive types such as the [[natural numbers type]], [[W-types]], and [[localizations of a type]]. 
@@ -260,21 +279,9 @@ Similar requirements of type variables apply to the large recursion principles o
 
 So far we have described in this article the various things we can do in dependent type theory with a single judgment if we extend the theory with type variables. However, there are still a few limitations if we do not have universes in the type theory. 
 
-### Structured types and the structure identity principle
+### Heterogeneous identity types between type families
 
-The first limitation comes from structured types and the [[structure identity principle]]. Traditionally this was said to be a consequence of the [[univalence axiom]], but we can add the univalence axiom to the type theory but still not be able to formulate the structure identity principle for various structured types. Traditionally, the type of structured types is a [[dependent sum type]], $\sum_{X:U} \mathrm{structure}(X)$ over a type family of structures $\mathrm{structure}(X)$ indeed by a [[type universe]] $X:U$. The issue is twofold: first of all, we don't have universes, so the usual dependent sum type is not able to be defined. 
-
-The lack of universes can be circumvented by attempting to define an untyped version of the dependent sum type, $\Sigma X.\mathrm{structure}(X)$ in the same way that [[impredicative polymorphism]] is defined using an untyped version of the dependent product type $\Pi x.P(X)$. However, this runs into the second issue: having an untyped version of the dependent sum type which is a [[dependent sum type]] for type variables $X \; \mathrm{type} \vdash P(X) \; \mathrm{type}$ leads to [[Girard's paradox]]. To see this is the case, take each $P(X)$ to be a [[contractible type]] family. Then $\Sigma X.P(X)$ is a [[type of all types]], since the dependent sum of a contractible family of types is always equivalent to the index type, and the index type of the untyped $\Sigma X.P(X)$ is the type which contains all types. As a result, it is impossible to construct $\Sigma X.\mathrm{structure}(X)$ for arbitrary $\mathrm{structure}(X)$ in the first place due to Girard's paradox. 
-
-The structure identity principle is specifically about characterising the identity type of the type of structured types $\Sigma X.\mathrm{structure}(X)$ in terms of structure-preserving equivalences. Since $\Sigma X.\mathrm{structure}(X)$ cannot be formed without trivialising the theory, the structure identity principle cannot be formulated without universes $U$, where we are then talking about only $U$-small structured types. 
-
-### Typal congruence rules
-
-Another limitation is in proving the typal congruence rules. Traditionally, with universes, the typal congruence rules for [[dependent product types]] or [[dependent sum types]] state that given an identification $p_A:A =_U A'$ between types and a [[heterogeneous identification]] $p_B:B =_{(-) \to U}^{A, A', p_A} B'$, one can construct an identification 
-$$\mathrm{congform}_\Pi(p_A, p_B):\Pi(A, B) =_U \Pi(A', B')$$
-or
-$$\mathrm{congform}_\Sigma(p_A, p_B):\Sigma(A, B) =_U \Sigma(A', B')$$ 
-via the [[action on identifications]]. 
+In type theory with universes, given a universe $U$, types $A:U$ and $A':U$, an identification $p_A:A =_U A'$, and type families $B:A \to U$ and $B':A \to U$, one can construct the [[heterogeneous identity type]] $B =_{(-) \to U}^{A, A', p_A} B'$ between type families $B$ and $B'$. 
 
 However, without universes and function types into universes, we cannot compare type families by equality. While it is true that with [[univalent universes]], the type $B =_{(-) \to U}^{A, A', p_A} B'$ is equivalent to the type 
 $$\prod_{x:A} B(x) \simeq B'(\mathrm{idtoequiv}(p)(x))$$
@@ -284,7 +291,19 @@ For this to happen, we need to extend the theory with higher-order judgments of 
 $$(x:A \vdash B(x) \; \mathrm{type}) \vdash C(x:A.B(x)) \; \mathrm{type}$$
 See [[function type#AsPositiveType]] for more details. 
 
-As a result, the various typal congruence rules involving identity types between types cannot be directly stated using identifications and heterogeneous identifications, even when using identity types between types. Instead, we have to use [[transport]] or the inductively defined $\mathrm{idtoequiv}$ function to convert the identification $p_A:A = A'$ to the equivalence $\mathrm{idtoequiv}(p_A):A \simeq A'$, and then we can state that given a [[homotopy]] $p_B:\prod_{x:A} B(x) = B'(\mathrm{idtoequiv}(p_A)(x))$, one can construct an identification 
+This has a number of consequences: 
+
+#### Typal congruence rules
+
+Traditionally, with universes, the typal congruence rules for [[dependent product types]] or [[dependent sum types]] state that given an identification $p_A:A =_U A'$ between types and a [[heterogeneous identification]] $p_B:B =_{(-) \to U}^{A, A', p_A} B'$, one can construct an identification 
+$$\mathrm{congform}_\Pi(p_A, p_B):\Pi(A, B) =_U \Pi(A', B')$$
+or
+$$\mathrm{congform}_\Sigma(p_A, p_B):\Sigma(A, B) =_U \Sigma(A', B')$$ 
+via the [[action on identifications]]. 
+
+But here, as illustrated above, in dependent type theory with type judgments and no universes, the corresponding heterogeneous identity type between type families
+$$(x:A.B(x)) =^{A, A', p_A} (x:A'.B'(x))$$
+cannot be constructed. As a result, the various typal congruence rules involving identity types between types cannot be directly stated using identifications and heterogeneous identifications, even when using identity types between types. Instead, we have to use [[transport]] or the inductively defined $\mathrm{idtoequiv}$ function to convert the identification $p_A:A = A'$ to the equivalence $\mathrm{idtoequiv}(p_A):A \simeq A'$, and then we can state that given a [[homotopy]] $p_B:\prod_{x:A} B(x) = B'(\mathrm{idtoequiv}(p_A)(x))$, one can construct an identification 
 $$\mathrm{congform}_\Pi(p_A, p_B):\Pi(A, B) = \Pi(A', B')$$
 or 
 $$\mathrm{congform}_\Sigma(p_A, p_B):\Sigma(A, B) = \Sigma(A', B')$$ 
