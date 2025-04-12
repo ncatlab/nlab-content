@@ -22,7 +22,7 @@ $$x:A, p:\sum_{y:B} R(x, y) \vdash f(x, p):B$$
 and for every [[mere proposition]]-valued type family $x:A \vdash P(x)$ and every [[partial function]] $x:A, p:P(x), \vdash f(x, p):B$, one could define the [[partial anafunction]] $x:A, y:B \vdash R(x, y)$ as
 $$R(x, y) \coloneqq \sum_{p:P(x)} f(x, p) =_B y$$
 
-Defining partial function types requires both [[identity types]] and [[heterogeneous identity types]] being defined first, which we shall write as $a =_A b$ and $x =_{B}^{p} y$ respectively for $a:A$, $b:A$, $p:a =_A b$, $x:B(a)$, and $y:B(b)$. We use the notation $A \rightharpoonup B$ to represent the type of partial functions between $A$ and $B$. 
+Defining partial function types requires both [[identity types]] and [[indexed heterogeneous identity types]] being defined first, which we shall write as $a =_A b$ and $x =_{B}^{p} y$ respectively for $a:A$, $b:A$, $p:a =_A b$, $x:B(a)$, and $y:B(b)$. We use the notation $A \rightharpoonup B$ to represent the type of partial functions between $A$ and $B$. 
 
 ## Rules for partial function types
 
