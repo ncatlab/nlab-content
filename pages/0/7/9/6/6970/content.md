@@ -56,6 +56,7 @@ If we want an [[∞-conversion]] rule, the natural one says that every function 
 $$ \lambda x.f(x) \;\to_\eta\; f$$
 
 ### As a positive type
+{#AsPositiveType}
 
 It is also possible to present function types as a [[positive type]].  However, this requires a stronger metatheory, such as a [[logical framework]].  We use the same constructor ($\lambda$-abstraction), but now the eliminator says that to define an operation using a function, it suffices to say what to do in the case that that function is a lambda abstraction.
 
