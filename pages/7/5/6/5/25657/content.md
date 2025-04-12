@@ -45,6 +45,10 @@ $$
   \,.
 $$
 
+Equivalently, let $I$ denote the directed interval used in the definition of hom-types. Then the directed univalence axiom states that there is an equivalence of types between functions $I \to A$ and functions in $A$:
+
+$$\mathrm{dua}_{I, A, B}:(I \to A) \simeq \sum_{x:A} \sum_{y:A} B(x) \to B(y)$$
+
 ## See also
 
 * [[univalence axiom]]
@@ -61,4 +65,15 @@ $$
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
+* {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
+
 [[!redirects directed univalence]]
+
+[[!redirects directed univalent universe]]
+[[!redirects directed univalent universes]]
+
+[[!redirects directed univalent covariant family]]
+[[!redirects directed univalent covariant families]]
+
+[[!redirects directed univalent covariant type family]]
+[[!redirects directed univalent covariant type families]]
