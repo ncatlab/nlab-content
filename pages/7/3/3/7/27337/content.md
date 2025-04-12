@@ -35,6 +35,8 @@ In the second presentation of dependent type theory, the theory does not come wi
 
   3. The same goes with the weak large recursion principles: in the absence of either judgmental equality or identity types between types, the [[computation rules]] associated with large recursion principles state that one can construct an equivalence of types between certain types given in the [[elimination rules]] of the large recursion principles. With identity types between types, one can simply make use of an [[identification]] between types. 
 
+* With type variables, one can also define [[fibered heterogeneous identity types]] $x =_{X.C(X)}^{A, B} y$ over the type-indexed family $X \; \mathrm{type} \vdash C(X) \; \mathrm{type}$ parameterised by types $A$ and $B$. and between elements $x:C(A)$ and $y:C(B)$. With these fibered heterogeneous identity types and the univalence axiom mentioned in a previous point, one can prove the [[structure identity principle]] for a type structure $X \; \mathrm{type} \vdash \mathrm{struct}(X)$ between $x =_{X.\mathrm{struct}(X)}^{A, B} y$ and the type of structure preserving morphisms 
+
 * The concept of [[impredicative polymorphism]] can be implemented as applying to the entire type theory, rather than to a single universe. 
 
 Dependent type theory with type variables is thus similar to [[System F]], which is a non-dependent [[polymorphism|polymorphic]] [[lambda calculus]] with type variables. 
@@ -190,24 +192,9 @@ Then there is a stronger notion of weak Tarski universe which is only possible i
 
 This is similar to the case for Tarski universes in the presentation of dependent type theory with a hierarchy of universes, which also has three different kinds of Tarski universes involving judgmental equality, identity types between types, and equivalences of types respectively. 
 
-### Fibered heterogeneous identity types for type-indexed families
-
-Given the type-indexed family of types $X \; \mathrm{type} \vdash P(X) \; \mathrm{type}$, types $A$ and $B$, and elements $a:P(A)$ and $b:P(B)$, one can construct the [[fibered heterogeneous identity type]] 
-
-$$a =_{X.P(X)}^{(A, B)} b$$
-
-defined inductively in the same way that usual [[fibered heterogeneous identity types]] are defined:
-
-(TODO: Add inference rules for fibered heterogeneous identity types for type-indexed families.) 
-
 #### Structured types and the structure identity principle
 
-Traditionally, the type of structured types is a [[dependent sum type]], $\sum_{X:U} \mathrm{struct}(X)$ over a type family of structures $\mathrm{struct}(X)$ indeed by a [[type universe]] $X:U$. However, the lack of universes $U$ is not a problem, because one can define the identity types of $\sum_{X:U} \mathrm{struct}(X)$ directly, because the type 
-$$(A, s_A) =_{\sum_{X:U} \mathrm{struct}(X)} (B, s_B)$$ 
-is equivalent to the [[fibered heterogeneous identity type]]
-$$s_A =_{\mathrm{struct}(-)}^{A, B} s_B$$ 
-for the type-indexed family of types. The *[[structure identity principle]]* for the above structure then says that given the type of structure-preserving equivalences $A \simeq_\mathrm{struct} B$, there is an [[equivalence of types]] between 
-$$(s_A =_{\mathrm{struct}(-)}^{A, B} s_B) \simeq (A \simeq_\mathrm{struct} B)$$
+Traditionally, the type of structured types is a [[dependent sum type]], $\sum_{X:U} \mathrm{struct}(X)$ over a type family of structures $\mathrm{struct}(X)$ indeed by a [[type universe]] $X:U$. However, the lack of universes $U$ is not a problem, because one can take it component wise, the structure identity principle for the bare types $X$ and $Y$ given by the [[univalence axiom]] and the structure identity principle for structures $\mathrm{struct}(X)$ on $X$ and $\mathrm{struct}(Y)$ on $Y$. 
 
 ### Large recursion principles
 
