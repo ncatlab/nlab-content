@@ -9,3 +9,5 @@ Diploma (1974), PhD (1980), Saint Petersburg State University, Faculty of Mathem
 [[!redirects Н. М. Мишачёв]]
 [[!redirects Н. Мишачёв]]
 [[!redirects Николай Мишачёв]]
+
+category: people
