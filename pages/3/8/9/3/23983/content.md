@@ -23,7 +23,7 @@
 
 ## Idea
 
-In [[dependent type theory]], a **heterogeneous identity type** or **dependent identity type** is a version of the [[identity type]] where given a [[type]] $A$, a [[type family]] $x:A \vdash B(x)$, [[terms]] $a:A$, $b:A$, and an [[identification]] $p:a =_A b$, the heterogeneous identity type between two elements $y:B(a)$ and $z:B(b)$ is a type whose elements witness that $y$ and $z$ are "equal" over or modulo the identification $p$. 
+In [[dependent type theory]], an **indexed heterogeneous identity type** or **indexed dependent identity type** is a version of the [[identity type]] where given a [[type]] $A$, a [[type family]] $x:A \vdash B(x)$, [[terms]] $a:A$, $b:A$, and an [[identification]] $p:a =_A b$, the indexed heterogeneous identity type between two elements $y:B(a)$ and $z:B(b)$ is a type whose elements witness that $y$ and $z$ are "equal" over or modulo the identification $p$. 
 
 ### Note on terminology
 
@@ -31,22 +31,22 @@ There are many different names used for this particular dependent type, as well 
 
 | name of type | name of terms |
 |--------------|---------------|
-| heterogeneous identity type | heterogeneous identities |
-| heterogeneous path type | heterogeneous paths |
-| heterogeneous identification type | heterogeneous identifications |
-| heterogeneous equality type | heterogeneous equalities |
+| indexed heterogeneous identity type | indexed heterogeneous identities |
+| indexed heterogeneous path type | indexed heterogeneous paths |
+| indexed heterogeneous identification type | indexed heterogeneous identifications |
+| indexed heterogeneous equality type | indexed heterogeneous equalities |
 
 These four names have different reasons behind the use of the name: 
 
-* The name "heterogeneous identity type" comes from the fact that the dependent identity type is the canonical [[one-to-one correspondence]] $x:B(a), y:B(b) \vdash \mathrm{Id}_B^p(x, y)$ of the [[transport]] [[equivalence in type theory|equivalence]] $\mathrm{tr}_B^p:B(a) \simeq B(b)$ on a type family $x:A \vdash B(x)$ and an identification $p:a =_A b$, which is the dependent/heterogeneous version of the identity type for the identity equivalence $\mathrm{id}_A:A \simeq A$
+* The name "indexed heterogeneous identity type" comes from the fact that the indexed dependent identity type is the canonical [[one-to-one correspondence]] $x:B(a), y:B(b) \vdash \mathrm{Id}_B^p(x, y)$ of the [[transport]] [[equivalence in type theory|equivalence]] $\mathrm{tr}_B^p:B(a) \simeq B(b)$ on a type family $x:A \vdash B(x)$ and an identification $p:a =_A b$, which is the dependent/heterogeneous version of the identity type for the identity equivalence $\mathrm{id}_A:A \simeq A$
 
-* The name "heterogeneous path type" comes from the fact that, in a context where terms of ordinary identity types can be represented as functions from an [[interval type]], the terms of the heterogeneous identity type can similarly be represented as [[dependent functions]] from the [[interval type]].  For instance, this is true in some categorical semantics and in [[cubical type theory]].
+* The name "indexed heterogeneous path type" comes from the fact that, in a context where terms of ordinary identity types can be represented as functions from an [[interval type]], the terms of the indexed heterogeneous identity type can similarly be represented as [[dependent functions]] from the [[interval type]].  For instance, this is true in some categorical semantics and in [[cubical type theory]].
 
 ## Definitions
 
 ### Using identity types
 
-There are many different ways to define heterogeneous identity types. The simplest definition states that given a [[type family]]  $x:A \vdash B(x)$, heterogeneous identity types are an [[inductive family]] of [[types]] 
+There are many different ways to define indexed heterogeneous identity types. The simplest definition states that given a [[type family]]  $x:A \vdash B(x)$, indexed heterogeneous identity types are an [[inductive family]] of [[types]] 
 
 $$a:A, b:A, p:\mathrm{Id}_A(a, b), y:B(a), z:B(b) \vdash \mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$$
 
@@ -56,9 +56,9 @@ $$a:A, y:B(a) \vdash \mathrm{hrefl}_{x:A.B(x)}(a, y):\mathrm{hId}_{x:A.B(x)}(a, 
 
 #### Inference rules
 
-The inference rules for forming heterogeneous identity types and terms are as follows.  First the inference rule that defines the heterogeneous identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
+The inference rules for forming indexed heterogeneous identity types and terms are as follows. First the inference rule that defines the indexed heterogeneous identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
 
-Formation rule for heterogeneous identity types:
+Formation rule for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
@@ -68,7 +68,7 @@ $$\frac{
 
 Now the basic "introduction" rule, which says that everything is equal to itself in a canonical way.
 
-Introduction rule for heterogeneous identity types:
+Introduction rule for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
@@ -78,7 +78,7 @@ $$\frac{
 
 Next we have the "elimination" rule: 
 
-Elimination rule for heterogeneous identity types:
+Elimination rule for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
@@ -100,7 +100,7 @@ for *any* $a$, $b$, $p$, $y$, $z$, and $q$.
 
 Then, we have the [[computation rule]] or [[beta-reduction]] rule. This says that for all elements $a:A$ and $y:B(a)$, substituting the dependent function $t:\prod_{a:A} \prod_{y:B(a)} C(a,a,\mathrm{refl}_A(x),y,y,\mathrm{hrefl}_{x:A.B(x)}(a, y))$ into the eliminator along heterogeneous [[reflexive relation|reflexivity]] for $a$ and $y$ yields an element equal to $t(a, y)$ itself.  Normally "equal" here means [[judgmental equality]] (a.k.a. definitional equality), but it is also possible for it to mean [[propositional equality]] (a.k.a. typal equality), so there are two possible computation rules.
 
-Computation rules for heterogeneous identity types:
+Computation rules for indexed heterogeneous identity types:
 
 * Judgmental computational rule
 $$\frac{
@@ -120,11 +120,11 @@ $$\frac{
     \end{array}
   }{\Gamma \vdash \beta_{\mathrm{hId}_{x:A.B(x)}}(t, a, y):\mathrm{Id}_{C(a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y))}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, a, a, \mathrm{refl}_A(a), y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y), t(a, y))}$$
 
-Finally, one might consider a [[uniqueness rule]] or [[eta-conversion]] rule.  But similar to the case for [[identity types]], a judgmental uniqueness rule for heterogeneous identity types implies that the type theory is an [[extensional type theory]], in which case there is not much need for heterogeneous identity types, so such a rule is almost never written down.  And as for identity types and other inductive types, the propositional/typal uniqueness rule is provable from the other four inference rules, so we don't write it out explicitly.
+Finally, one might consider a [[uniqueness rule]] or [[eta-conversion]] rule.  But similar to the case for [[identity types]], a judgmental uniqueness rule for indexed heterogeneous identity types implies that the type theory is an [[extensional type theory]], in which case there is not much need for indexed heterogeneous identity types, so such a rule is almost never written down.  And as for identity types and other inductive types, the propositional/typal uniqueness rule is provable from the other four inference rules, so we don't write it out explicitly.
 
 #### Dependent universal property
 
-The elimination, typal computation, and typal uniqueness rules for heterogeneous identity types state that heterogeneous identity types satisfy the **dependent universal property of heterogeneous identity types**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of heterogeneous identity types could be simplified to the following rule:
+The elimination, typal computation, and typal uniqueness rules for indexed heterogeneous identity types state that indexed heterogeneous identity types satisfy the **dependent universal property of indexed heterogeneous identity types**. If the dependent type theory also has [[dependent sum types]] and [[product types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of indexed heterogeneous identity types could be simplified to the following rule:
 
 $$\frac{
     \begin{array}{l}
@@ -149,9 +149,9 @@ such that $J(t, a, a, \mathrm{refl}_A, y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y))$ i
 
 ### Using function types from the interval type
 
-There is another notion of heterogeneous identity type, which uses [[functions]] from the [[interval type]] $f:\mathbb{I} \to A$, rather than elements $a:A$, $b:A$, and $p:a =_A b$: 
+There is another notion of indexed heterogeneous identity type, which uses [[functions]] from the [[interval type]] $f:\mathbb{I} \to A$, rather than elements $a:A$, $b:A$, and $p:a =_A b$: 
 
-Given a [[type family]] $x:A \vdash B(x)$, heterogeneous identity types are an [[inductive family]] of [[types]] 
+Given a [[type family]] $x:A \vdash B(x)$, indexed heterogeneous identity types are an [[inductive family]] of [[types]] 
 
 $$f:\mathbb{I} \to A, y:B(f(0)), z:B(f(1)) \vdash \mathrm{hId}_{x:A.B(x)}(f, y, z)$$
 
@@ -165,9 +165,9 @@ $$(\lambda i:\mathbb{I}.a)(0) \equiv a \qquad (\lambda i:\mathbb{I}.a)(1) \equiv
 
 #### Inference rules
 
-The inference rules for forming heterogeneous identity types and terms are as follows.  First the inference rule that defines the heterogeneous identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
+The inference rules for forming indexed heterogeneous identity types and terms are as follows. First the inference rule that defines the indexed heterogeneous identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
 
-Formation rule for heterogeneous identity types:
+Formation rule for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
@@ -177,7 +177,7 @@ $$\frac{
 
 Now the basic "introduction" rule, which says that everything is equal to itself in a canonical way.
 
-Introduction rule for heterogeneous identity types:
+Introduction rule for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
@@ -187,7 +187,7 @@ $$\frac{
 
 Next we have the "elimination" rule: 
 
-Elimination rule for heterogeneous identity types:
+Elimination rule for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
@@ -209,7 +209,7 @@ for *any* $f$, $y$, $z$, and $q$.
 
 Then, we have the [[computation rule]] or [[beta-reduction]] rule. This says that for all elements $a:A$ and $y:B(a)$, substituting the dependent function $t:\prod_{a:A} \prod_{y:B(a)} C(\lambda i:\mathbb{I}.a,y,y,\mathrm{hrefl}_{x:A.B(x)}(a, y))$ into the eliminator along heterogeneous [[reflexive relation|reflexivity]] for $a$ and $y$ yields an element equal to $t(a, y)$ itself.  Normally "equal" here means [[judgmental equality]] (a.k.a. definitional equality), but it is also possible for it to mean [[propositional equality]] (a.k.a. typal equality), so there are two possible computation rules.
 
-Computation rules for heterogeneous identity types:
+Computation rules for indexed heterogeneous identity types:
 
 * Judgmental computational rule
 $$\frac{
@@ -229,19 +229,19 @@ $$\frac{
     \end{array}
   }{\Gamma \vdash \beta_{\mathrm{hId}_{x:A.B(x)}}(t, a, y):\mathrm{Id}_{C(\lambda i:\mathbb{I}.a, y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y))}(\mathrm{ind}_{\mathrm{hId}_{x:A.B(x)}}(t, \lambda i:\mathbb{I}.a, y, y, \mathrm{hrefl}_{x:A.B(x)}(a, y), t(a, y))}$$
 
-Finally, one might consider a [[uniqueness rule]] or [[eta-conversion]] rule.  But similar to the case for [[identity types]], a judgmental uniqueness rule for heterogeneous identity types implies that the type theory is an [[extensional type theory]], in which case there is not much need for heterogeneous identity types, so such a rule is almost never written down.  And as for identity types and other inductive types, the propositional/typal uniqueness rule is provable from the other four inference rules, so we don't write it out explicitly.
+Finally, one might consider a [[uniqueness rule]] or [[eta-conversion]] rule.  But similar to the case for [[identity types]], a judgmental uniqueness rule for indexed heterogeneous identity types implies that the type theory is an [[extensional type theory]], in which case there is not much need for heterogeneous identity types, so such a rule is almost never written down.  And as for identity types and other inductive types, the propositional/typal uniqueness rule is provable from the other four inference rules, so we don't write it out explicitly.
 
 ### From two-type identity types
 
-Given [[two-type identity types]] in the type theory, heterogeneous identity types between $y:B(a)$ and $z:B(b)$ across the path $p:a =_A b$ could be defined as the two-type identity type between $y:B(a)$ and $z:B(b)$ across the [[transport]] equivalence $\mathrm{transport}_{x:A.B(x)}(a, b, p)$
+Given [[two-type identity types]] in the type theory, indexed heterogeneous identity types between $y:B(a)$ and $z:B(b)$ across the path $p:a =_A b$ could be defined as the two-type identity type between $y:B(a)$ and $z:B(b)$ across the [[transport]] equivalence $\mathrm{transport}_{x:A.B(x)}(a, b, p)$
 
 $$\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \coloneqq \mathrm{Id}_{B(a), B(b)}(\mathrm{transport}_{x:A.B(x)}(a, b, p), y, z)$$
 
 ## Properties
 
-### Groupoidal structure of heterogeneous identity types
+### Groupoidal structure of indexed heterogeneous identity types
 
-Reflexivity of heterogeneous identifications is already given in the [[introduction rule]] of heterogeneous identity types.
+Reflexivity of indexed heterogeneous identifications is already given in the [[introduction rule]] of indexed heterogeneous identity types.
 
 \begin{definition}
 Given 
@@ -254,7 +254,7 @@ Given
 
 * elements $y_1:B(a_1)$, $y_2:B(a_2)$, and $y_3:B(a_3)$,
 
-there is a function called the **concatenation of heterogeneous identifications**
+there is a function called the **concatenation of indexed heterogeneous identifications**
 
 $$(-) \bullet (-):\mathrm{hId}_{x:A.B(x)}(a_1, a_2, p_1, y_1, y_2) \times \mathrm{hId}_{x:A.B(x)}(a_2, a_3, p_2, y_2, y_3) \to \mathrm{hId}_{x:A.B(x)}(a_1, a_3, p_1 \bullet p_2, y_1, y_3)$$
 
@@ -278,7 +278,7 @@ Given
 
 * elements $y:B(a)$, $z:B(b)$,
 
-there is a dependent function called the **left unitor of heterogeneous identifications**
+there is a dependent function called the **left unitor of indexed heterogeneous identifications**
 
 $$\mathrm{hlunitor}:\prod_{q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)} \mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)}(\mathrm{hrefl}_A(a, y) \bullet q, q)$$
 
@@ -302,7 +302,7 @@ Given
 
 * elements $y:B(a)$, $z:B(b)$,
 
-there is a dependent function called the **right unitor of heterogeneous identifications**
+there is a dependent function called the **right unitor of indexed heterogeneous identifications**
 
 $$\mathrm{hrunitor}:\prod_{q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)} \mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)}(q \bullet \mathrm{hrefl}_A(b, z), q)$$
 
@@ -326,7 +326,7 @@ Given
 
 * elements $y_1:B(a_1)$, $y_2:B(a_2)$, $y_3:B(a_3)$, $y_4:B(a_4)$,
 
-there is a dependent function called the **associator of heterogeneous identifications**
+there is a dependent function called the **associator of indexed heterogeneous identifications**
 
 $$\mathrm{hassoc}:\prod_{q_1:\mathrm{hId}_{x:A.B(x)}(a_1, a_2, p_1, y_1, y_2)} \prod_{q_2:\mathrm{hId}_{x:A.B(x)}(a_2, a_3, p_2, y_2, y_3)} \prod_{q_3:\mathrm{hId}_{x:A.B(x)}(a_3, a_4, p_3, y_3, y_4)} \mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a_1, a_4, \mathrm{assoc}(p_1, p_2, p_3), y_1, y_4)}(q_1 \bullet (q_2 \bullet q_3), (q_1 \bullet q_2) \bullet q_3)$$
 
@@ -350,7 +350,7 @@ Given
 
 * elements $y_1:B(a_1)$, $y_2:B(a_2)$,
 
-there is a function called the **inverse of heterogeneous identifications**
+there is a function called the **inverse of indexed heterogeneous identifications**
 
 $$\mathrm{inv}(a_1, a_2, p_1, y_1, y_2):\mathrm{hId}_{x:A.B(x)}(a_1, a_2, p_1, y_1, y_2) \to \mathrm{hId}_{x:A.B(x)}(a_2, a_1, p_1^{-1}, y_2, y_1)$$
 
@@ -359,9 +359,9 @@ defined by induction on heterogeneous reflexivity:
 $$a:A, y:B(a) \vdash \mathrm{inv}(a, a, \mathrm{refl}_A(a), y, y)(\mathrm{hrefl}_A(a, y)) \equiv \mathrm{hrefl}_A(a, y):\mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y) \to \mathrm{hId}_{x:A.B(x)}(a, a, \mathrm{refl}_A(a), y, y)$$
 \end{definition}
 
-### Relation between identity types and heterogeneous identity types
+### Relation between identity types and indexed heterogeneous identity types
 
-There are equivalences between identity types and heterogeneous identity types
+There are equivalences between identity types and indexed heterogeneous identity types
 
 $$\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \simeq \mathrm{Id}_{B(b)}(\mathrm{transport}_{x:A.B(x)}(a, b, p)(y), z)$$
 
@@ -377,7 +377,7 @@ for constant type families $x:A \vdash B$.
 
 ### One-to-one correspondence structure
 
-Heterogeneous identity types are [[one-to-one correspondences]]. Given elements $a:A$, $b:A$, and $p:\mathrm{Id}_A(a, b)$, 
+Indexed heterogeneous identity types are [[one-to-one correspondences]]. Given elements $a:A$, $b:A$, and $p:\mathrm{Id}_A(a, b)$, 
 
 * for all elements $z:B(b)$, there exists a unique element $y:B(a)$ such that $\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)$; the witness is given by the right projection function of [[transport]] across $p$, $\mathrm{transport}_{x:A.B(x)}(a, b, p):B(a) \simeq B(b)$
 
@@ -401,7 +401,7 @@ $$\mathrm{apd}_{x:A.B(x)}(f, a, a, \mathrm{refl}_A(a)) \equiv \mathrm{hrefl}_{x:
 
 ### Extensionality principles
 
-Heterogeneous identity types are used in many extensionality principles.
+Indexed heterogeneous identity types are used in many extensionality principles.
 
 * The extensionality principle for [[function types]] (non-dependent [[function extensionality]]) states that there is an equivalence 
 
@@ -421,7 +421,7 @@ $$\mathrm{ext}_\Sigma:\prod_{s:\sum_{x:A} B(x)} \prod_{t:\sum_{x:A} B(x)} \mathr
 
 ### Inference rules for higher inductive types
 
-Whenever there is an [[identification]] given in an [[introduction rule]] for a [[higher inductive type]], one of the hypothesis in the elimination and computation rules for the higher inductive types is a judgment of a term of the corresponding heterogeneous identification type along the given identification in the introduction rule. 
+Whenever there is an [[identification]] given in an [[introduction rule]] for a [[higher inductive type]], one of the hypothesis in the elimination and computation rules for the higher inductive types is a judgment of a term of the corresponding indexed heterogeneous identification type along the given identification in the introduction rule. 
 
 For example, the introduction rules for the [[circle type]] $S^1$ state that one could construct an element $\mathcal{b}:S^1$ and an identification $\mathcal{l}:\mathrm{Id}_{S^1}(\mathcal{b}, \mathcal{b})$. The elimination rule for the circle type states that given the hypotheses of 
 
@@ -429,7 +429,7 @@ For example, the introduction rules for the [[circle type]] $S^1$ state that one
 
 * an element $c_\mathcal{b}:C(\mathcal{b})$,  
 
-* a heterogeneous identification $c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(\mathcal{b}, \mathcal{b}, \mathcal{l}, c_\mathcal{b}, c_\mathcal{b})$, 
+* a indexed heterogeneous identification $c_\mathcal{l}:\mathrm{hId}_{x:S^1.C(x)}(\mathcal{b}, \mathcal{b}, \mathcal{l}, c_\mathcal{b}, c_\mathcal{b})$, 
 
 one could construct the family of elements $p:S^1 \vdash \mathrm{ind}_{S^1}(c_\mathcal{b}, c_\mathcal{l})(p):C(p)$.
 
@@ -443,13 +443,13 @@ The [[path types]] in cubical type theory are heterogeneous path types. See [[cu
 
 ## In higher observational type theory 
 
-In [[higher observational type theory]], the heterogeneous identity type is a primitive type former (although depending on the presentation, it can also be obtained using $ap$ into the universe).  In its general form, the type family can depend not just on a single type but on a [[type telescope]] $\Delta$. The resulting heterogeneous identity type then depends on an "identification in that telescope", which is defined by mutual recursion as a telescope of heterogeneous identity types.  The [[type formation|formation rule]] is then
+In [[higher observational type theory]], the indexed heterogeneous identity type is a primitive type former (although depending on the presentation, it can also be obtained using $ap$ into the universe).  In its general form, the type family can depend not just on a single type but on a [[type telescope]] $\Delta$. The resulting indexed heterogeneous identity type then depends on an "identification in that telescope", which is defined by mutual recursion as a telescope of indexed heterogeneous identity types.  The [[type formation|formation rule]] is then
 
 $$\frac{\varsigma:\delta =_\Delta \delta^{'} \quad \delta \vdash A\; \mathrm{type} \quad a:A[\delta] \quad a^{'}:A[\delta^{'}]}{a =_{\Delta.A}^\varsigma a^{'}\; \mathrm{type}}$$
 
 ... needs to be finished
 
-### Heterogeneous identity types in universes
+### Indexed heterogeneous identity types in universes
 
 Given a term of a universe $A:\mathcal{U}$, a judgment $z:\mathcal{T}_\mathcal{U}(A) \vdash B:\mathcal{U}$, terms $x:\mathcal{T}_\mathcal{U}(A)$ and $y:\mathcal{T}_\mathcal{U}(A)$, and an identity $p:\mathrm{id}_{\mathcal{T}_\mathcal{U}(A)}(x,y)$, we have
 
@@ -459,7 +459,7 @@ and
 
 $$(u,v):\mathcal{T}_\mathcal{U}(B(x)) \times \mathcal{T}_\mathcal{U}(B(y)) \vdash \pi_1(\nabla(\mathrm{ap}_{z.B}(p)))(u,v):\mathcal{U}$$
 
-We could define a heterogeneous identity type as
+We could define a indexed heterogeneous identity type as
 
 $$\mathrm{id}_{\mathcal{T}_\mathcal{U}(z.B)}^{p}(u, v) \coloneqq \pi_1(\nabla(\mathrm{ap}_{z.B}(p)))(u, v)$$
 
@@ -473,7 +473,7 @@ $$\mathrm{id}_{\mathcal{T}_\mathcal{U}(z.B)}^{p}(u, v) \equiv \mathrm{id}_{\math
 
 ## A variant using dependent function types
 
-There is a variant of heterogeneous identity types which uses a dependent function $f:\prod_{x:A} B(x)$ instead of two elements $y:B(a)$ and $z:B(b)$ in the constructor. This variant is useful for defining [[dependent function application to identifications]]. 
+There is a variant of indexed heterogeneous identity types which uses a dependent function $f:\prod_{x:A} B(x)$ instead of two elements $y:B(a)$ and $z:B(b)$ in the constructor. This variant is useful for defining [[dependent function application to identifications]]. 
 
 These are given by the following inference rules:
 
@@ -577,195 +577,114 @@ Then by the properties of [[quasi-inverse functions]] and [[equivalences of type
 
 [[!include notions of type]]
 
-
 ## References
 
-Inference rules for heterogeneous identity types (referred to as "dependent identity types" in the article) could be found in section 6 of:
+Inference rules for indexed heterogeneous identity types (referred to as "dependent identity types" in the article) could be found in section 6 of:
 
 * {#LumsdaineShulman17} [[Peter LeFanu Lumsdaine]], [[Mike Shulman]], *Semantics of higher inductive types*, Math. Proc. Camb. Phil. Soc. **169** (2020) 159-208 &lbrack;[arXiv:1705.07088](https://arxiv.org/abs/1705.07088), talk slides [pdf](http://home.sandiego.edu/~shulman/papers/cellcxs.pdf), [doi:10.1017/S030500411900015X](https://doi.org/10.1017/S030500411900015X)&rbrack;
 
-For heterogeneous identity types in the context of [[higher observational type theory]], see:
+For indexed heterogeneous identity types in the context of [[higher observational type theory]], see:
 
 * [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
 * [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 2* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
 
-[[!redirects dependent identity type]]
-[[!redirects dependent identity types]]
-[[!redirects heterogeneous identity type]]
-[[!redirects heterogeneous identity types]]
-[[!redirects dependent heterogeneous identity type]]
-[[!redirects dependent heterogeneous identity types]]
-[[!redirects non-dependent heterogeneous identity type]]
-[[!redirects non-dependent heterogeneous identity types]]
+[[!redirects indexed dependent identity type]]
+[[!redirects indexed dependent identity types]]
+[[!redirects indexed heterogeneous identity type]]
+[[!redirects indexed heterogeneous identity types]]
 
-[[!redirects weak dependent identity type]]
-[[!redirects weak dependent identity types]]
-[[!redirects weak heterogeneous identity type]]
-[[!redirects weak heterogeneous identity types]]
-[[!redirects weak dependent heterogeneous identity type]]
-[[!redirects weak dependent heterogeneous identity types]]
-[[!redirects weak non-dependent heterogeneous identity type]]
-[[!redirects weak non-dependent heterogeneous identity types]]
+[[!redirects weak indexed dependent identity type]]
+[[!redirects weak indexed dependent identity types]]
+[[!redirects weak indexed heterogeneous identity type]]
+[[!redirects weak indexed heterogeneous identity types]]
 
-[[!redirects strict dependent identity type]]
-[[!redirects strict dependent identity types]]
-[[!redirects strict heterogeneous identity type]]
-[[!redirects strict heterogeneous identity types]]
-[[!redirects strict dependent heterogeneous identity type]]
-[[!redirects strict dependent heterogeneous identity types]]
-[[!redirects strict non-dependent heterogeneous identity type]]
-[[!redirects strict non-dependent heterogeneous identity types]]
+[[!redirects strict indexed dependent identity type]]
+[[!redirects strict indexed dependent identity types]]
+[[!redirects strict indexed heterogeneous identity type]]
+[[!redirects strict indexed heterogeneous identity types]]
 
-[[!redirects judgmentally strict dependent identity type]]
-[[!redirects judgmentally strict dependent identity types]]
-[[!redirects judgmentally strict heterogeneous identity type]]
-[[!redirects judgmentally strict heterogeneous identity types]]
-[[!redirects judgmentally strict dependent heterogeneous identity type]]
-[[!redirects judgmentally strict dependent heterogeneous identity types]]
-[[!redirects judgmentally strict non-dependent heterogeneous identity type]]
-[[!redirects judgmentally strict non-dependent heterogeneous identity types]]
+[[!redirects judgmentally strict indexed dependent identity type]]
+[[!redirects judgmentally strict indexed dependent identity types]]
+[[!redirects judgmentally strict indexed heterogeneous identity type]]
+[[!redirects judgmentally strict indexed heterogeneous identity types]]
 
-[[!redirects propositionally strict dependent identity type]]
-[[!redirects propositionally strict dependent identity types]]
-[[!redirects propositionally strict heterogeneous identity type]]
-[[!redirects propositionally strict heterogeneous identity types]]
-[[!redirects propositionally strict dependent heterogeneous identity type]]
-[[!redirects propositionally strict dependent heterogeneous identity types]]
-[[!redirects propositionally strict non-dependent heterogeneous identity type]]
-[[!redirects propositionally strict non-dependent heterogeneous identity types]]
+[[!redirects propositionally strict indexed dependent identity type]]
+[[!redirects propositionally strict indexed dependent identity types]]
+[[!redirects propositionally strict indexed heterogeneous identity type]]
+[[!redirects propositionally strict indexed heterogeneous identity types]]
 
-[[!redirects dependent identification type]]
-[[!redirects dependent identification types]]
-[[!redirects heterogeneous identification type]]
-[[!redirects heterogeneous identification types]]
-[[!redirects dependent heterogeneous identification type]]
-[[!redirects dependent heterogeneous identification types]]
-[[!redirects non-dependent heterogeneous identification type]]
-[[!redirects non-dependent heterogeneous identification types]]
+[[!redirects indexed dependent identification type]]
+[[!redirects indexed dependent identification types]]
+[[!redirects indexed heterogeneous identification type]]
+[[!redirects indexed heterogeneous identification types]]
 
-[[!redirects weak dependent identification type]]
-[[!redirects weak dependent identification types]]
-[[!redirects weak heterogeneous identification type]]
-[[!redirects weak heterogeneous identification types]]
-[[!redirects weak dependent heterogeneous identification type]]
-[[!redirects weak dependent heterogeneous identification types]]
-[[!redirects weak non-dependent heterogeneous identification type]]
-[[!redirects weak non-dependent heterogeneous identification types]]
+[[!redirects weak indexed dependent identification type]]
+[[!redirects weak indexed dependent identification types]]
+[[!redirects weak indexed heterogeneous identification type]]
+[[!redirects weak indexed heterogeneous identification types]]
 
-[[!redirects strict dependent identification type]]
-[[!redirects strict dependent identification types]]
-[[!redirects strict heterogeneous identification type]]
-[[!redirects strict heterogeneous identification types]]
-[[!redirects strict dependent heterogeneous identification type]]
-[[!redirects strict dependent heterogeneous identification types]]
-[[!redirects strict non-dependent heterogeneous identification type]]
-[[!redirects strict non-dependent heterogeneous identification types]]
+[[!redirects strict indexed dependent identification type]]
+[[!redirects strict indexed dependent identification types]]
+[[!redirects strict indexed heterogeneous identification type]]
+[[!redirects strict indexed heterogeneous identification types]]
 
-[[!redirects judgmentally strict dependent identification type]]
-[[!redirects judgmentally strict dependent identification types]]
-[[!redirects judgmentally strict heterogeneous identification type]]
-[[!redirects judgmentally strict heterogeneous identification types]]
-[[!redirects judgmentally strict dependent heterogeneous identification type]]
-[[!redirects judgmentally strict dependent heterogeneous identification types]]
-[[!redirects judgmentally strict non-dependent heterogeneous identification type]]
-[[!redirects judgmentally strict non-dependent heterogeneous identification types]]
+[[!redirects judgmentally strict indexed dependent identification type]]
+[[!redirects judgmentally strict indexed dependent identification types]]
+[[!redirects judgmentally strict indexed heterogeneous identification type]]
+[[!redirects judgmentally strict indexed heterogeneous identification types]]
 
-[[!redirects propositionally strict dependent identification type]]
-[[!redirects propositionally strict dependent identification types]]
-[[!redirects propositionally strict heterogeneous identification type]]
-[[!redirects propositionally strict heterogeneous identification types]]
-[[!redirects propositionally strict dependent heterogeneous identification type]]
-[[!redirects propositionally strict dependent heterogeneous identification types]]
-[[!redirects propositionally strict non-dependent heterogeneous identification type]]
-[[!redirects propositionally strict non-dependent heterogeneous identification types]]
+[[!redirects propositionally strict indexed dependent identification type]]
+[[!redirects propositionally strict indexed dependent identification types]]
+[[!redirects propositionally strict indexed heterogeneous identification type]]
+[[!redirects propositionally strict indexed heterogeneous identification types]]
 
-[[!redirects dependent equality type]]
-[[!redirects dependent equality types]]
-[[!redirects heterogeneous equality type]]
-[[!redirects heterogeneous equality types]]
-[[!redirects dependent heterogeneous equality type]]
-[[!redirects dependent heterogeneous equality types]]
-[[!redirects non-dependent heterogeneous equality type]]
-[[!redirects non-dependent heterogeneous equality types]]
+[[!redirects indexed dependent equality type]]
+[[!redirects indexed dependent equality types]]
+[[!redirects indexed heterogeneous equality type]]
+[[!redirects indexed heterogeneous equality types]]
 
-[[!redirects weak dependent equality type]]
-[[!redirects weak dependent equality types]]
-[[!redirects weak heterogeneous equality type]]
-[[!redirects weak heterogeneous equality types]]
-[[!redirects weak dependent heterogeneous equality type]]
-[[!redirects weak dependent heterogeneous equality types]]
-[[!redirects weak non-dependent heterogeneous equality type]]
-[[!redirects weak non-dependent heterogeneous equality types]]
+[[!redirects weak indexed dependent equality type]]
+[[!redirects weak indexed dependent equality types]]
+[[!redirects weak indexed heterogeneous equality type]]
+[[!redirects weak indexed heterogeneous equality types]]
 
-[[!redirects strict dependent equality type]]
-[[!redirects strict dependent equality types]]
-[[!redirects strict heterogeneous equality type]]
-[[!redirects strict heterogeneous equality types]]
-[[!redirects strict dependent heterogeneous equality type]]
-[[!redirects strict dependent heterogeneous equality types]]
-[[!redirects strict non-dependent heterogeneous equality type]]
-[[!redirects strict non-dependent heterogeneous equality types]]
+[[!redirects strict indexed dependent equality type]]
+[[!redirects strict indexed dependent equality types]]
+[[!redirects strict indexed heterogeneous equality type]]
+[[!redirects strict indexed heterogeneous equality types]]
 
-[[!redirects judgmentally strict dependent equality type]]
-[[!redirects judgmentally strict dependent equality types]]
-[[!redirects judgmentally strict heterogeneous equality type]]
-[[!redirects judgmentally strict heterogeneous paequalityth types]]
-[[!redirects judgmentally strict dependent heterogeneous equality type]]
-[[!redirects judgmentally strict dependent heterogeneous paequalityth types]]
-[[!redirects judgmentally strict non-dependent heterogeneous equality type]]
-[[!redirects judgmentally strict non-dependent heterogeneous paequalityth types]]
+[[!redirects judgmentally strict indexed dependent equality type]]
+[[!redirects judgmentally strict indexed dependent equality types]]
+[[!redirects judgmentally strict indexed heterogeneous equality type]]
+[[!redirects judgmentally strict indexed heterogeneous paequalityth types]]
 
-[[!redirects propositionally strict dependent equality type]]
-[[!redirects propositionally strict dependent equality types]]
-[[!redirects propositionally strict heterogeneous equality type]]
-[[!redirects propositionally strict heterogeneous equality types]]
-[[!redirects propositionally strict dependent heterogeneous equality type]]
-[[!redirects propositionally strict dependent heterogeneous equality types]]
-[[!redirects propositionally strict non-dependent heterogeneous equality type]]
-[[!redirects propositionally strict non-dependent heterogeneous equality types]]
+[[!redirects propositionally strict indexed dependent equality type]]
+[[!redirects propositionally strict indexed dependent equality types]]
+[[!redirects propositionally strict indexed heterogeneous equality type]]
+[[!redirects propositionally strict indexed heterogeneous equality types]]
 
-[[!redirects dependent identity]]
-[[!redirects dependent identities]]
-[[!redirects heterogeneous identity]]
-[[!redirects heterogeneous identities]]
-[[!redirects dependent heterogeneous identity]]
-[[!redirects dependent heterogeneous identities]]
-[[!redirects non-dependent heterogeneous identity]]
-[[!redirects non-dependent heterogeneous identities]]
+[[!redirects indexed dependent identity]]
+[[!redirects indexed dependent identities]]
+[[!redirects indexed heterogeneous identity]]
+[[!redirects indexed heterogeneous identities]]
 
-[[!redirects dependent identification]]
-[[!redirects dependent identifications]]
-[[!redirects heterogeneous identification]]
-[[!redirects heterogeneous identifications]]
-[[!redirects dependent heterogeneous identification]]
-[[!redirects dependent heterogeneous identifications]]
-[[!redirects non-dependent heterogeneous identification]]
-[[!redirects non-dependent heterogeneous identifications]]
+[[!redirects indexed dependent identification]]
+[[!redirects indexed dependent identifications]]
+[[!redirects indexed heterogeneous identification]]
+[[!redirects indexed heterogeneous identifications]]
 
-[[!redirects dependent equality]]
-[[!redirects dependent equalities]]
-[[!redirects dependent heterogeneous equality]]
-[[!redirects dependent heterogeneous equalities]]
-[[!redirects non-dependent heterogeneous equality]]
-[[!redirects non-dependent heterogeneous equalities]]
+[[!redirects indexed dependent equality]]
+[[!redirects indexed dependent equalities]]
+[[!redirects indexed heterogeneous equality]]
+[[!redirects indexed heterogeneous equalities]]
 
-[[!redirects dependent universal property of dependent identity types]]
-[[!redirects dependent universal property of dependent identification types]]
-[[!redirects dependent universal property of dependent equality types]]
-[[!redirects dependent universal property of dependent path types]]
+[[!redirects dependent universal property of indexed dependent identity types]]
+[[!redirects dependent universal property of indexed dependent identification types]]
+[[!redirects dependent universal property of indexed dependent equality types]]
+[[!redirects dependent universal property of indexed dependent path types]]
 
-[[!redirects dependent universal property of heterogeneous identity types]]
-[[!redirects dependent universal property of heterogeneous identification types]]
-[[!redirects dependent universal property of heterogeneous equality types]]
-[[!redirects dependent universal property of heterogeneous path types]]
-
-[[!redirects dependent universal property of dependent heterogeneous identity types]]
-[[!redirects dependent universal property of dependent heterogeneous identification types]]
-[[!redirects dependent universal property of dependent heterogeneous equality types]]
-[[!redirects dependent universal property of dependent heterogeneous path types]]
-
-[[!redirects dependent universal property of non-dependent heterogeneous identity types]]
-[[!redirects dependent universal property of non-dependent heterogeneous identification types]]
-[[!redirects dependent universal property of non-dependent heterogeneous equality types]]
-[[!redirects dependent universal property of non-dependent heterogeneous path types]]
+[[!redirects dependent universal property of indexed heterogeneous identity types]]
+[[!redirects dependent universal property of indexed heterogeneous identification types]]
+[[!redirects dependent universal property of indexed heterogeneous equality types]]
+[[!redirects dependent universal property of indexed heterogeneous path types]]
