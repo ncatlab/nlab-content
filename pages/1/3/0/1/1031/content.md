@@ -1,3 +1,5 @@
+> This entry is about the part of the domain of a morphism that is sent to zero. For the pullback of a morphism along itself, see [[kernel pair]].
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
