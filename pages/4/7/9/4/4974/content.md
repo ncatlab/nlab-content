@@ -61,6 +61,7 @@ Let $E$ be an event structure. A **configuration** of $E$
 
 ##The category of event structures##
 
+
 \begin{definition}
 A **map of event structures** from $(E, \leq, \Con)$ to $(E', \leq', \Con')$ is a function $f : E \to E'$ such that:
 
@@ -70,13 +71,15 @@ A **map of event structures** from $(E, \leq, \Con)$ to $(E', \leq', \Con')$ is 
  
 \end{definition}
 
+There are obvious notions of identity and composition, and we get a category $\mathbf{ES}$ of event structures and maps.
+
 Intuitively, a map $E \to E'$ expresses that all executions of $E$ can be faithfully simulated within $E'$. 
 
 *Partial* maps of event structures are also important in the literature, for example in the event structure model of CCS. The definition is the same when $f$ is a partial function, and the condition $f(e) = f(e')$ means in particular that they are both defined. Winskel and Nielsen explain this definition as follows: 
 
 _A morphism $f : E\to E'$ between event structures expresses how behaviour in $E$ determines behaviour in $E'$. The partial function, $f$, expresses how the occurrence of an event in $E$ implies the simultaneous occurrence of an event in $E'$; the fact that $f(e) = e'$ can be understood as expressing that the event $e$ is a ''component'' of the event $e'$ and, in this sense, that the occurrence of $e$ implies the simultaneous occurrence of $e'$. If two distinct events in $E$ have the same image in $E'$ under $f$ then they cannot belong to the same configuration._
 
-With this definition of morphism, and the obvious notions of identity and composition, we get the category $\mathbf{ES}$ of event structures (and total maps). 
+
 
 ##Event structures as presheaves 
 
@@ -123,7 +126,7 @@ We say a map $E \to E'$ preserves symmetry if, for every $\theta : x \cong y$ in
 \[ 
 f x \cong x \cong y \cong f y
 \] 
-(determined by the injectivity of $f$ on configurations) is in the symmetry $E'$. This gives a category $\mathbf{ESS}$ of event structures with symmetry.  
+(determined by the injectivity of $f$ on configurations) is in the symmetry of $E'$. This gives a category $\mathbf{ESS}$ of event structures with symmetry.  
 
 \begin{definition}
 Two parallel maps $f, g : E \to E'$ in $\mathbf{ESS}$ are homotopic (written $f \sim g$) if for every $x \in \mathscr{C}(E)$ the bijection $f x \cong x \cong g x$ (determined by the injectivity on configurations of $f$ and $g$) is in the symmetry of $E'$. 
