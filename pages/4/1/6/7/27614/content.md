@@ -26,7 +26,7 @@ $$
   (-)^\op : \infty\mathrm{Grpd}^{\Delta^\op} \to \infty\mathrm{Grpd}^{\Delta^\op}
 $$
 
-from [[∞GrpdΔop]] to itself. When the op $(\infty,1)$-functor is restricted to the $(\infty,1)$-subcategory $(\infty,1)\mathrm{Cat} \hookrightarrow \infty\mathrm{Grpd}^{\Delta^\op}$, it takes [[(infinity,1)-category|$(\infty,1)$-categories]] to its [[opposite (infinity,1)-category|opposite $(\infty,1)$-category]]. 
+from [[SimpInfGrpd]] to itself. When the op $(\infty,1)$-functor is restricted to the $(\infty,1)$-subcategory $(\infty,1)\mathrm{Cat} \hookrightarrow \infty\mathrm{Grpd}^{\Delta^\op}$, it takes [[(infinity,1)-category|$(\infty,1)$-categories]] to its [[opposite (infinity,1)-category|opposite $(\infty,1)$-category]]. 
 
 In [[simplicial type theory]] thought of as the [[internal logic]] of $\infty\mathrm{Grpd}^{\Delta^\op}$, the opposite simplicial $\infty$-groupoid is given by the [[op modality]]. 
 
