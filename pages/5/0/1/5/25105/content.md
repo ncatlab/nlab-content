@@ -278,9 +278,9 @@ which indicate that $\rho(R)$ and $\lambda(R)$ are quasi-inverse functions of ea
 
 By the rules for [[dependent sum types]] and [[dependent product types]], one could show that the above functions each have [[contractible]] [[fibers]], making both of them [[coherent inverse functions]] of each other. 
 
-### Heterogeneous identity types
+### Indexed heterogeneous identity types
 
-Given the definition of the equivalence type as the type of encodings for one-to-one correspondences, the [[heterogeneous identity type]] is defined by the rule 
+Given the definition of the equivalence type as the type of encodings for one-to-one correspondences, the [[indexed heterogeneous identity type]] is defined by the rule 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:a =_A b \quad \Gamma, x:A \vdash B \; \mathrm{type}}{\Gamma \vdash (x =_B^p y) \equiv (x =_{B(a), B(b)}^{\mathrm{tr}_B(p)} y) \; \mathrm{type}}$$
 
