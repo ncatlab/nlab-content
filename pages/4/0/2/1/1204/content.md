@@ -22,7 +22,7 @@ The aim of _Homological Perturbation Theory_ is to construct small [[chain compl
 
 Let $(X,d), (Y,d)$ be [[chain complexes]] over a [[commutative ring]] $R$ and let $f: X \to Y, \nabla: Y \to X$ be [[chain maps]], and $\Phi: X \to X$ be a [[chain homotopy]] such that 
 
-$$ f \nabla=1, \quad \nabla f= 1 + d\Phi + \phi d, $$ 
+$$ f \nabla=1, \quad \nabla f= 1 + d\Phi + \Phi d, $$ 
 
  $$ f\Phi = 0, \Phi \nabla=0, \Phi^2=0, \Phi d \Phi= - \Phi. $$
 
