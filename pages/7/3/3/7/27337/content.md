@@ -262,35 +262,19 @@ Similar requirements of type variables apply to the large recursion principles o
 
 So far we have described in this article the various things we can do in dependent type theory with a single judgment if we extend the theory with type variables. However, there are still a few limitations if we do not have universes in the type theory. 
 
-### Indexed heterogeneous identity types between type families
+### Comparing type families for equality
 
-In type theory with universes, given a universe $U$, types $A:U$ and $A':U$, an identification $p_A:A =_U A'$, and type families $B:A \to U$ and $B':A \to U$, one can construct the [[indexed heterogeneous identity type]] $B =_{(-) \to U}^{A, A', p_A} B'$ between type families $B$ and $B'$. 
+In type theory with universes, given a universe $U$ and a type $A$ type families $B:A \to U$ and $C:A \to U$, one can construct the [[identity type]] $B =_{A \to U} C$ between type families $B$ and $C$. 
 
-However, without universes and function types into universes, we cannot compare type families by equality. While it is true that with [[univalent universes]], the type $B =_{(-) \to U}^{A, A', p_A} B'$ is equivalent to the type 
-$$\prod_{x:A} B(x) \simeq B'(\mathrm{idtoequiv}(p)(x))$$
-and thus $U$-small, the issue is that without function types into the universe, it isn't possible for a type to depend on a type family, which is what is required in the [[elimination rule]] and [[computation rule]] for any hypothetical heterogeneous identity types between type families
-$$(x:A.B(x)) =^{A, A', p_A} (x:A'.B'(x))$$
+However, without universes and function types into universes, we cannot compare type families by equality. While it is true that with [[univalent universes]], the type $B =_{A \to U} C$ is equivalent to the type 
+$$\prod_{x:A} B(x) =_U C(x)$$
+and thus $U$-small, the issue is that without function types into the universe, it isn't possible for a type to depend on a type family, which is what is required in the [[elimination rule]] and [[computation rule]] for any hypothetical identity types between type families
+$$(x:A.B(x)) = (x:A.C(x))$$
 For this to happen, we need to extend the theory with higher-order judgments of the kind described in the definition of a [[function type]] as a [[positive type]]: 
-$$(x:A \vdash B(x) \; \mathrm{type}) \vdash C(x:A.B(x)) \; \mathrm{type}$$
+$$(x:A \vdash B(x) \; \mathrm{type}) \vdash P(x:A.B(x)) \; \mathrm{type}$$
 See [[function type#AsPositiveType]] for more details. 
 
-This has a number of consequences: 
-
-#### Typal congruence rules
-
-Traditionally, with universes, the typal congruence rules for [[dependent product types]] or [[dependent sum types]] state that given an identification $p_A:A =_U A'$ between types and a [[heterogeneous identification]] $p_B:B =_{(-) \to U}^{A, A', p_A} B'$, one can construct an identification 
-$$\mathrm{congform}_\Pi(p_A, p_B):\Pi(A, B) =_U \Pi(A', B')$$
-or
-$$\mathrm{congform}_\Sigma(p_A, p_B):\Sigma(A, B) =_U \Sigma(A', B')$$ 
-via the [[action on identifications]]. 
-
-But here, as illustrated above, in dependent type theory with type judgments and no universes, the corresponding heterogeneous identity type between type families
-$$(x:A.B(x)) =^{A, A', p_A} (x:A'.B'(x))$$
-cannot be constructed. As a result, the various typal congruence rules involving identity types between types cannot be directly stated using identifications and heterogeneous identifications, even when using identity types between types. Instead, we have to use [[transport]] or the inductively defined $\mathrm{idtoequiv}$ function to convert the identification $p_A:A = A'$ to the equivalence $\mathrm{idtoequiv}(p_A):A \simeq A'$, and then we can state that given a [[homotopy]] $p_B:\prod_{x:A} B(x) = B'(\mathrm{idtoequiv}(p_A)(x))$, one can construct an identification 
-$$\mathrm{congform}_\Pi(p_A, p_B):\Pi(A, B) = \Pi(A', B')$$
-or 
-$$\mathrm{congform}_\Sigma(p_A, p_B):\Sigma(A, B) = \Sigma(A', B')$$ 
-Since homotopies are not identifications, we cannot use the action on identifications, and the proof of the typal congruence rule becomes a lot more complicated. 
+Otherwise, we can only use [[homotopies]] $p:\prod_{x:A} B(x) = C(x)$ to compare between two type families. 
 
 ## Related concepts
 
