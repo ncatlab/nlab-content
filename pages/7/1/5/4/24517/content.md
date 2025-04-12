@@ -56,5 +56,3 @@ The reflexive graph/fibrational view of parametricity:
 
 * Brian Dunphy and [[Uday Reddy]], _Parametric Limits_, Logic in Computer Science 1994 ([doi](https://doi.org/10.1109/LICS.2004.1319618))
 
-
-
