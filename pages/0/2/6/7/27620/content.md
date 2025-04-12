@@ -36,7 +36,7 @@ where $\mathbb{2}$ is the directed interval primitive, $\Delta^1$ is the $1$-sim
 
 * [[simplicial homotopy type theory]]
 * [[directed homotopy type theory]]
-* [[heterogeneous identity type]]
+* [[indexed heterogeneous identity type]]
 * [[dependent function type]]
 * [[directed univalence]]
 * [[Segal type]], [[Rezk type]]
