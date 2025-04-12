@@ -66,11 +66,11 @@ $$\frac{\Gamma \vdash A \; type \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A 
 
 Uniqueness of identity proofs is a [[axiom of set truncation]], and turns the type theory into a [[set-level type theory]]. Judgmental uniqueness of identity proofs holds in [[XTT]], where it follows from [[boundary separation]]. 
 
-### Uniqueness of identity proofs for heterogeneous identity types
+### Uniqueness of identity proofs for indexed heterogeneous identity types
 
-There is also a notion of uniqueness of identity proofs for [[heterogeneous identity types]], which is given by the following rule:
+There is also a notion of uniqueness of identity proofs for [[indexed heterogeneous identity types]] over a type $B$, which is given by the following rule:
 
-* Judgmental uniqueness of identity proofs for heterogeneous identity types:
+* Judgmental uniqueness of identity proofs for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
@@ -79,16 +79,7 @@ $$\frac{
     \end{array}
 }{\Gamma \vdash q \equiv r:\mathrm{hId}_{B}(a, b, p, y, z)}$$
 
-* Propositional uniqueness of identity proofs for heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \\
-     \Gamma \vdash q:\mathrm{hId}_{B}(a, b, p, y, z) \quad \Gamma \vdash r:\mathrm{hId}_{B}(a, b, p, y, z)
-    \end{array}
-}{\Gamma \vdash q =_{\mathrm{hId}_{B}(a, b, p, y, z)} r \; \mathrm{true}}$$
-
-* Typal uniqueness of identity proofs for heterogeneous identity types:
+* Typal uniqueness of identity proofs for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
@@ -97,9 +88,9 @@ $$\frac{
     \end{array}
 }{\Gamma \vdash \mathrm{UIP}_{B}(a, b, p, y, z, q, r):\mathrm{Id}_{\mathrm{hId}_{B}(a, b, p, y, z)}(q, r)}$$
 
-and likewise for [[dependent heterogeneous identity types]]:
+and likewise for indexed heterogeneous identity types over a type family $x:A \vdash B(x)$:
 
-* Judgmental uniqueness of identity proofs for dependent heterogeneous identity types:
+* Judgmental uniqueness of identity proofs for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
@@ -108,16 +99,7 @@ $$\frac{
     \end{array}
 }{\Gamma \vdash q \equiv r:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)}$$
 
-* Propositional uniqueness of identity proofs for dependent heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \\
-     \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \quad \Gamma \vdash r:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)
-    \end{array}
-}{\Gamma \vdash q =_{\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)} r \; \mathrm{true}}$$
-
-* Typal uniqueness of identity proofs for dependent heterogeneous identity types:
+* Typal uniqueness of identity proofs for indexed heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
       \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
