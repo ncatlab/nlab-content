@@ -17,7 +17,7 @@
 
 ## Idea
 
-A form of [[heterogeneous equality]] in [[dependent type theory]].
+A form of [[heterogeneous identity type]] in [[dependent type theory]].
 
 ## Definition
  {#Definition}
@@ -40,7 +40,7 @@ Given a [[type]] $A$ and an $A$-[[dependent type]] $a \colon A \;\vdash\; B(a)$,
      b' \;\colon\; B(a')
    $$ 
 
-   whose "[[heterogeneous identity type|heterogeneous]]" [[identification]] is to be witnessed,
+   whose "[[indexed heterogeneous identity type|indexed heterogeneous]]" [[identification]] is to be witnessed,
 
 and defined equivalently as follows:
 
@@ -50,13 +50,13 @@ and defined equivalently as follows:
     fhId(a, b; a', b') 
     \;\coloneqq\; 
     \sum_{p \colon \mathrm{Id}_A(a, a')} 
-    \mathrm{hId}(b, p, b')
+    \mathrm{ihId}(b, p, b')
   $$
 
-  of the [[heterogeneous identity types]] 
+  of the [[indexed heterogeneous identity types]] 
   
   $$
-   hId(b, p, b') 
+   ihId(b, p, b') 
    \;\equiv\; 
    \mathrm{Id}_{B(b)}\big(
      p_\ast(b)
@@ -158,7 +158,7 @@ Then, the inference rules for forming fibered heterogeneous identity types and t
 Formation rule for fibered heterogeneous identity types:
 $$\frac{
     \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B(x) \; \mathrm{type} \\
+      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
       \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b)
     \end{array}
   }{\Gamma \vdash \mathrm{fhId}_{x:A.B(x)}(a, b, y, z) \; \mathrm{type}}$$ 
@@ -221,7 +221,7 @@ Finally, one might consider a [[uniqueness rule]] or [[eta-conversion]] rule.  B
 
 ## Related concepts
 
-* [[heterogeneous identity type]]
+* [[indexed heterogeneous identity type]]
 
 ## References
 
@@ -328,4 +328,3 @@ Finally, one might consider a [[uniqueness rule]] or [[eta-conversion]] rule.  B
 
 [[!redirects fibered dependent identification type]]
 [[!redirects fibered dependent identification types]]
-
