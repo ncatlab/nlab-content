@@ -104,4 +104,5 @@ Discussion in the context of the [[philosophy]] of [[structuralism]]:
 * [[Dimitris Tsementzis]], §5.1 in: *Univalent foundations as structuralist foundations*, Synthese **194** 9 (2017) 3583–3617 &lbrack;[jstor:26748765](https://www.jstor.org/stable/26748765), [doi:10.1007/s11229-016-1109-x](https://doi.org/10.1007/s11229-016-1109-x), [pdf](https://core.ac.uk/download/pdf/157866891.pdf)&rbrack;
 
 
-
+[[!redirects structure identity principle]]
+[[!redirects structure identity principles]]
