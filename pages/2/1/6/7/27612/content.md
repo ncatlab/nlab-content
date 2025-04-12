@@ -145,6 +145,12 @@ Simplicial $\infty$-groupoids can be modeled by [[bisimplicial sets]].
 [[!redirects simplicial anima]]
 [[!redirects simplicial animas]]
 
+[[!redirects Simp∞Grpd]]
+
+[[!redirects SimpInfGrpd]]
+
+[[!redirects SimpAni]]
+
 [[!redirects ∞GrpdΔop]]
 
 [[!redirects AniΔop]]
