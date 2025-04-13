@@ -1,4 +1,7 @@
 
+{:warning: .un_remark style="border:solid #cc0000;background: #fe0000;border-width:2px 1px;padding:2px 1em;margin:2px 1em;"}
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -17,13 +20,22 @@
 =--
 =--
 
+
 \tableofcontents
 
 ## Idea
 
-The concept of [[gauntness]] in simplicial type theory. Note that in the context of simplicial type theory, gauntness make sense for any type, not just the Segal types.
+This entry is meant to be about the analog of the notion of *[[gaunt categories]]* for [[types]] of [[simplicial type theory]].
 
+ 
 ## Definition
+
++-- {: warning}
+###### Warning
+
+The following definition is lacking reference or justification.
+
+=--
 
 In [[simplicial type theory]], a [[type]] $A$ is a **gaunt type** or **stiff type** if it is both a [[skeletal type]] and a [[univalent type]]. 
 
