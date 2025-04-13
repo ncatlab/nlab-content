@@ -13,7 +13,7 @@
 
 * [math for love](http://mathforlove.com/) Blog of mathematics education consultants includes puzzles, teaching tips, and philosophical musings
 
-* [Mathematics and Computation](http://math.andrej.com) (Andrej Bauer, includes also topology and foundations--last update July 2011)
+* [Mathematics and Computation](http://math.andrej.com) (Andrej Bauer, includes also topology and foundations)
 
 * [Mathematics Under the Microscope](http://micromath.wordpress.com) (Alexandre Borovik)
 
@@ -31,13 +31,7 @@
 
 * [Nuit Blanche](http://nuit-blanche.blogspot.com) (data/imager/sensory compression, pattern recognition, networking, internet, AI/machine learning, neuroscience)
 
-* [Oscar Cunningham's Blog](http://oscarcunningham.com/) (Category theory, nontrivial trivialities)
-
 * [Peter Cameron's Blog] (http://cameroncounts.wordpress.com/page/6/) notes on group theory, graph theory, number theory, and combinatorics
-
-* [Phd plus Epsilon](http://blogs.ams.org/phdplus/) Adriana Salerno reflects on her life as a junior faculty member at a Liberal Arts college
-
-* [Proof Math is Beautiful](http://proofmathisbeautiful.tumblr.com) Beautiful images of mathematical interest.
 
 * [Quomodocumque](http://quomodocumque.wordpress.com/) University professor Jordan Ellenberg's blog
 
@@ -52,10 +46,6 @@
 * [The n-Category Caf&#233;](http://golem.ph.utexas.edu/category) A group blog on math, physics and philosophy written by (currently) seven people and affiliated with this wiki
  
 * [Three-Toed Sloth](http://bactra.org/weblog)  (Cosma Shalizi: books, science, automata, complex networks, stochastic processes, numerics and simulation, arts, literature, politics)
-
-* [Transcendence](http://whzecomjm.com/) A math blog by whzecomjm covering Algebra, Number Theory etc. in Chinese.
-
-* [Vi Hart's blog](http://vihart.com/) Great videos and photos of mathematical art and story-telling
 
 * [What's new](http://terrytao.wordpress.com) (Terence Tao)
 
@@ -142,11 +132,17 @@
 
 * [NUMBERPLAY](http://wordplay.blogs.nytimes.com/category/numberplay/) A New York Times blog on math/numeric puzzles by Pradeep Mutalik
 
+* [Oscar Cunningham's Blog](http://oscarcunningham.com/) (Category theory, nontrivial trivialities)
+
 * [Paramanand's Math Notes] (http://paramanands.blogspot.com/) A math blog by Paramanand Singh covering Algebra, Number Theory, Mathematical Analysis, Geometry among other topics
+
+* [Phd plus Epsilon](http://blogs.ams.org/phdplus/) Adriana Salerno reflects on her life as a junior faculty member at a Liberal Arts college
 
 * [Political Math](http://www.politicalmathblog.com/) Visualization of political information 
 
 * [Pronunciation of Mathematicians' Names] (http://pronouncemath.blogspot.com) A blog about how to pronounce famous mathematicians' names.
+
+* [Proof Math is Beautiful](http://proofmathisbeautiful.tumblr.com) Beautiful images of mathematical interest.
 
 * [QED Insight](http://qedinsight.wordpress.com) (by Santo D'Agostino; mathematics, physics, education, pitched mainly to high school and undergraduate university students and teachers, with some material for lay people as well) 
 
@@ -180,9 +176,13 @@
 
 * [Todd and Vishal's blog](http://topologicalmusings.wordpress.com)--last updated January 2011
 
+* [Transcendence](http://whzecomjm.com/) A math blog by whzecomjm covering Algebra, Number Theory etc. in Chinese.
+
 * [Uncover a few](http://uncoverafew.wordpress.com/) New blog of problems and teaching ideas
 
 * [Victor Porton's math blog](http://portonmath.wordpress.com) (filters, posets, funcoids and reloids), abundant with self-centric claims of importance
+
+* [Vi Hart's blog](http://vihart.com/) Great videos and photos of mathematical art and story-telling
 
 * [Vivatsgasse 7](http://vivatsgasse7.wordpress.com) (Max Planck Bonn graduate students-- last update November 2007)
 
