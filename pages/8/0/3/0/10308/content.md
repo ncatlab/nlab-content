@@ -219,15 +219,18 @@ Detailed review in the case of abelian Chern-Simons theory includes
 
 Discussion in terms of [[Weyl quantization]] of [[Wilson lines]] and details on the role of [[theta functions]] is in
 
-Discussion of [[quantization of Chern-Simons theory]] in terms of [[Weyl quantization]] and [[skein relations]] is in
+Discussion of [[quantization of Chern-Simons theory]] in terms of [[Weyl quantization]] and [[skein relations]]:
 
 * [[Jørgen Andersen]], _Deformation quantization and geometric quantization of abelian moduli spaces_, Commun. Math. Phys., 255 (2005), 727&#8211;745
 
-* {#GelcaUribe02} [[Razvan Gelca]], [[Alejandro Uribe]], _The Weyl quantization and the quantum group quantization of the moduli space of flat SU(2)-connections on the torus are the same_, 	Commun.Math.Phys. 233 (2003) 493-512 ([arXiv:math-ph/0201059](http://arxiv.org/abs/math-ph/0201059))
+* {#GelcaUribe02} [[Răzvan Gelca]], [[Alejandro Uribe]]: _The Weyl quantization and the quantum group quantization of the moduli space of flat $SU(2)$-connections on the torus are the same_, Commun. Math. Phys. **233** (2003) 493-512 &lbrack;[arXiv:math-ph/0201059](http://arxiv.org/abs/math-ph/0201059)&rbrack;
+
+* {#GelcaUribe10b} [[Răzvan Gelca]], [[Alejandro Uribe]]: _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ &lbrack;[arXiv:1007.2010](http://arxiv.org/abs/1007.2010)&rbrack;
+
+and for [[abelian Chern-Simons theory]]
 
 * {#GelcaUribe10a} [[Razvan Gelca]], [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
 
-* {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
 
 
 Another approach is
