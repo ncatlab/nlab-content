@@ -32,7 +32,7 @@ See the [[HowTo]]
 
 ### My math doesn't look like math
 
-One of the notable ways in which itex differs from latex is that in itex's math mode, a string of letters without spaces in between is interpreted as a single identifier.  This has the advantage that you can invent new identifiers without needing to use `\operatorname` or `\DeclareMathOperator`, but it means that when you _don't_ want a string of letters interpreted that way you need to put spaces in between.  For example, `$sin(x)$` produces $sin(x)$ which is probably what you want, but `$h=gf$` produces $h=gf$, whereas you probably wanted to write `$h=g f$` to get $h=g f$. On the other hand, you can (and, for the sake of the LaTeX output, probably should) use `$\sin(x)$`, etc.
+One of the notable ways in which iTeX differs from LaTeX is that in iTeX's math mode, a string of letters without spaces in between is interpreted as a single identifier.  This has the advantage that you can invent new identifiers without needing to use `\operatorname` or `\DeclareMathOperator`, but it means that when you _don't_ want a string of letters interpreted that way you need to put spaces in between.  For example, `$sin(x)$` produces $sin(x)$ which is probably what you want, but `$h=gf$` produces $h=gf$, whereas you probably wanted to write `$h=g f$` to get $h=g f$. On the other hand, you can (and, for the sake of the LaTeX output, probably should) use `$\sin(x)$`, etc.
 
 ### Lists are acting strangely.
 
@@ -43,9 +43,7 @@ There are several bugs (or "edge cases") in the handling of lists by Maruku (the
 
 ### My LaTeX produces gobbledygook in iTeX and vice versa.
 
-iTeX is not LaTeX.  iTeX is a pure converter whereas LaTeX is a mixture of a converter and renderer (technically, latex is the rules for converting the input into pure TeX which is then rendered by tex, but since the conversion is also handled by tex, it can cheat and use information about the rendered output to reinterpret the input).  Therefore getting the two to do exactly the same is **never** going to happen.
-
-On the other hand, the aim is to keep iTeX as close as possible to standard LaTeX whilst keeping in mind that iTeX produces MathML.  Their similarity can make the differences all the more jarring.  Here is a list of the differences that we know about together with suggested work-arounds.
+iTeX is not LaTeX.  Their similarity can make the differences all the more jarring.  Here is a list of the differences that we know about together with suggested work-arounds.
 
 * Numbers are one thing.  The syntax `$10^10$` produces $10^10$ in iTeX but $10^{1}0$ in LaTeX.  The **safe** syntax is to always use braces: `$10^{10}$` is consistent.
 
@@ -72,9 +70,6 @@ Instiki's philosophy is that the "Preview" button is the one labeled "Save".  If
 One merit of this approach is that in the case when your preview was correct and doesn't require re-editing, it saves you an extra click.  Another is that it prevents you from ever *forgetting* to make the extra click.
 
 
-### itex is a pain, why do you guys use MathML? {#WhyMathML}
-
-Many web sites "support" LaTeX by running it through a script which converts LaTeX equations to image files for display.  While this produces acceptable results for many users, it is not true "support" for mathematics.  Images can sometimes be hard to see, and the user cannot easily resize them or change their color or font, nor can software easily read them aloud to a blind user.  In contrast, MathML is a markup language, like HTML, specifically designed to carry information not only about the display of mathematics, but its content and meaning.  A suitable client application can resize MathML along with the rest of the page, change its color or font, or even read it aloud, making MathML a much more accessible way to display mathematics.  See, for instance, [this comment](http://terrytao.wordpress.com/2009/10/29/displaying-mathematics-on-the-web/#comment-42119).
 
 ### I want to help out with the software, what can I do?
 
