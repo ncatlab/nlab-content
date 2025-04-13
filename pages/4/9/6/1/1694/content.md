@@ -80,6 +80,7 @@ Now you can create [[constructivism]] as usual and any pages that had previously
 
 See also [the official Instiki guidelines](http://golem.ph.utexas.edu/instiki/show/Syntax#redirecting) on redirects.
 
+category: meta
 
 [[!redirects redirects]]
 [[!redirects redirected page]]
