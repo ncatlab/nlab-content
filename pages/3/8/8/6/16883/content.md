@@ -1,6 +1,1 @@
-
-The [[integers]] $\mathbb{Z}$.
-
-## Related entries
-
-* [[S]]
+[[!redirects Z]]
