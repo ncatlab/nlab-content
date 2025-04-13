@@ -185,3 +185,4 @@ and specifically in [[cubical Agda]]
 [[!redirects additive group of integers]]
 [[!redirects additive groups of integers]]
 
+[[!redirects Z]]
