@@ -1,4 +1,3 @@
-
 # An Initial SVG editor HowTo
 
 1. Before creating an SVG using the editor, you need to choose where it will be placed in a page.  So first you need to be editing a page, then click in the source text where you want your SVG to appear.  The SVG editor will now launch.
