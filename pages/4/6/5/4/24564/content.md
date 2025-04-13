@@ -51,13 +51,27 @@ and a range of further claims are under similar criticism, see [Frolov & Mourik 
 While many researchers began to dismiss the whole approach of "Majorana zero modes" (e.g. [BSSA21](#BSSA21), [p. 3](https://arxiv.org/pdf/2106.11840v4.pdf#page=3)) a new claim of detection was made by [Nayak 22](#Nayak22) & [MicrosoftQuantum 23](#MicrosoftQuantum23) -- but see the [journal's editorial caveat](#MicrosoftQuantum23Caveat) and cautionary commentary by [Frolov & Mourik 22a](#FrolovMourik22a), [22b](#FrolovMourik22a), [Frolov 22](#Frolov22), [Das Sarma 22, p. 9](#DasSarma22), [Mourik 23](#Mourik23), [Legg 24](#Legg24), [Legg 25](#Legg25).
 
 On [19 Feb 2025](https://azure.microsoft.com/en-us/blog/quantum/2025/02/19/microsoft-unveils-majorana-1-the-worlds-first-quantum-processor-powered-by-topological-qubits/)
-a Microsoft Azure press release announced a quantum chip ("*Majorana 1*") suggested to host one topologically protected qbit. The accompanying Nature article [Microsoft Azure Quantum 2025](#AzureFeb25) states more carefully that:
+a Microsoft Azure press release announced a quantum chip ("*Majorana 1*") alleged to host a couple of topologically protected qbits. The accompanying Nature article [Microsoft Azure Quantum 2025](#AzureFeb25) states more carefully that:
 
 > "*These measurements do not, by themselves, determine whether the low-energy states detected by interferometry are topological.*"
 
 and again the journal issued a [caveat](#AzureFeb25Caveat).
 
-Detailed commentary on these claims in [Legg 2025](#Legg25), [Frolov & Mourik 2025](#FrolovMourik25).
+In fact, the referee reports for [Microsoft Azure Quantum 2025](#AzureFeb25) were made available ([pdf](https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-024-08445-2/MediaObjects/41586_2024_8445_MOESM2_ESM.pdf)) and say:
+
+> &lbrack;editorial team&rbrack;: "the results in this manuscript do not represent evidence for the presence of Majorana zero modes"
+
+> &lbrack;referee 1&rbrack;: "rather misleading way in which these data are presented and the extreme simplifications of the modeling which, essentially, assumes a topological state and includes Majoranas by hand, yet again forcing an a priori interpretation of the data. \[...\] There is no definitive proof of topology or qubit..."
+
+> &lbrack;referee 2&rbrack;: "the relationship to Majorana physics is not completely certain and needs some serious
+scrutiny"
+
+> &lbrack;referee 3&rbrack;: "I am firmly convinced this work should not be published in Nature or any other high visibility
+journal"
+
+
+
+Technical analysis of the claims is provided by [Legg 2025](#Legg25) and [Frolov & Mourik 2025](#FrolovMourik25), both concluding that the claims do not hold water.
 
 
 The accompanying company "roadmap" ([arXiv:2502.12252](https://arxiv.org/abs/2502.12252)) mentions the idea of Bonderson et al. 2008 (review [here](https://quantumcomputing.stackexchange.com/q/25638/19363)) of simulating braiding of these immovable states by a measurement-only protocol (a kind of [[quantum simulation]] of actual braiding, see [there](quantum+simulation#OfAnyons)).
