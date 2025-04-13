@@ -1,20 +1,12 @@
 
 This page is meant to provide a general example and template for new [[nLab:HomePage|nLab]]-pages. You can look at **[its source code](http://ncatlab.org/nlab/source/Template+page)** to see how the various parts are done. A minimal template is given first which can be copy-and-pasted into newly created pages.  See [[HowTo]] for more details.
 
-category: meta
-[[!redirects Template page]]
-[[!redirects Template pages]]
-[[!redirects template page]]
-[[!redirects template pages]]
-[[!redirects page template]]
-[[!redirects page templates]]
-[[!redirects Subobject Classifier a Generalization of the Classical Bit ]]
 
 
 ## Minimal Template Code
 
 ~~~~
-
+<nowiki>
 # Contents (or put a title here)
 * this block creates the table of contents, leave as is
 {: toc}
@@ -39,14 +31,20 @@ category: meta
 (...)
 
 
+## Related concepts
+
+* [[page name 1]], [[page name 2]]
+* [[page name 3]]
+
+
 ## References
 
 (...)
 
 
-[[!redirects <put page name here>]]
-[[!redirects <put page name here>s]]
-
+[[!redirects alternative title]]
+[[!redirects alternative titles]]
+</nowiki>
 ~~~~
 
 A more detailed example follows. Check out the source code [here](https://ncatlab.org/nlab/source/Template+page) to see how it's coded:
@@ -203,6 +201,11 @@ The original definition appeared in section 3 of
 
 * FirstName LastName, _Title_, Journal, **vol** num (year) pages-pages  ([arXiv:xxxxxx](http://put.url/here), [doi:yyyyyyy](http://another.url), [pdf](http://yet.another.url/)).
 
+category: meta
 
-[[!redirects uvw]]
-[[!redirects uvws]]
+[[!redirects Template page]]
+[[!redirects Template pages]]
+[[!redirects template page]]
+[[!redirects template pages]]
+[[!redirects page template]]
+[[!redirects page templates]]
