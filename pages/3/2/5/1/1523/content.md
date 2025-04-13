@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
+=--
+=--
+=--
+
 # Extended natural numbers
 * table of contents
 {: toc}
@@ -43,6 +57,8 @@ pred(x) = \begin{cases}
 (x_1,x_2,\ldots) & if\; x_0 = 0 .\end{cases}
 $$
 
+One can thus use this universal property to define an *extended natural numbers [[object]]* inside of a [[topos]]. 
+
 ## Formalization in proof assistants
 
 With the [[Coq]] [[proof assistant]]:
@@ -73,13 +89,11 @@ Given any topological space $X$, an [[infinite sequence]] in $X$ may be thought 
 
 This may all be generalised from sequences to other [[nets]]; given a [[directed set]] $D$, we form $\bar{D}$ by adjoining $\infty$ and taking $G \subseteq D$ as a neighbourhood of $\infty$ iff $G$ owns almost all of $D$.  (Constructively, this may require using locales for the general case.)
 
-
 ## In higher category theory
 
 Concepts in [[higher category theory]] often come in $n$-versions where $n$ is an extended natural number.  (Sometimes it's also possible to give $n$ a few negative values as well; see [[negative thinking]].)  Typically, the $\infty$-version is all-encompassing, with the $n$-versions as special cases.  On the other hand, the $1$-version is usually more familiar outside of category theory.
 
 See also [[categorification]].
-
 
 ## In constructive mathematics
 
@@ -87,13 +101,14 @@ The claim that every extended natural number is either finite or infinite is equ
 
 ## Related concepts
 
-* [[extended natural numbers object]]
+* [[natural numbers]]
+
+* [[one-point compactification]]
 
 ## References
 
 *  [[Martín Escardó]] (2011) via constructivenews, [Infinite sets that satisfy the principle of omniscience in all varieties of constructive mathematics](http://www.cs.bham.ac.uk/~mhe/papers/omniscient-2011-07-06.pdf) (pdf)
 {#Escardo}
-
 
 [[!redirects extended natural number]]
 [[!redirects extended natural numbers]]
@@ -104,3 +119,32 @@ The claim that every extended natural number is either finite or infinite is equ
 [[!redirects conat]]
 [[!redirects conumber]]
 [[!redirects conumbers]]
+
+[[!redirects conatural numbers object]]
+[[!redirects conatural numbers objects]]
+[[!redirects conatural number object]]
+[[!redirects conatural number objects]]
+[[!redirects conatural-numbers object]]
+[[!redirects conatural-numbers objects]]
+[[!redirects conatural-number object]]
+[[!redirects conatural-number objects]]
+
+[[!redirects co-natural numbers object]]
+[[!redirects co-natural numbers objects]]
+[[!redirects co-natural number object]]
+[[!redirects co-natural number objects]]
+[[!redirects co-natural-numbers object]]
+[[!redirects co-natural-numbers objects]]
+[[!redirects co-natural-number object]]
+[[!redirects co-natural-number objects]]
+
+[[!redirects extended natural numbers object]]
+[[!redirects extended natural numbers objects]]
+[[!redirects extended natural number object]]
+[[!redirects extended natural number objects]]
+[[!redirects extended natural-numbers object]]
+[[!redirects extended natural-numbers objects]]
+[[!redirects extended natural-number object]]
+[[!redirects extended natural-number objects]]
+[[!redirects extended NNO]]
+[[!redirects extended NNOs]]
