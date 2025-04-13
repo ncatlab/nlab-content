@@ -7,6 +7,8 @@
 
 ***
 
+&ouml;
+
 $$
   \left[
   \begin{matrix}
