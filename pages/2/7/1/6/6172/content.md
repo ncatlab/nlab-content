@@ -100,7 +100,6 @@ $x$`?`
 $x_1$|$x_2$
 : Matches either $x_1$ or $x_2$.
 
-
 [[!redirects Searching nLab]]
 [[!redirects searching nLab]]
 [[!redirects Searching the nLab]]
