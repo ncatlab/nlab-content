@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -247,13 +248,15 @@ On [[group algebras]] of ([[underlying]] [[discrete group|discrete]]) [[Heisenbe
 * [[Reinhard Honegger]], [[Alfred Rieckers]], *Heisenberg Group Algebra and Strict Weyl Quantization*, Chapter 23 in: *Photons in Fock Space and Beyond, Volume I: From Classical to Quantized Radiation Systems*, World Scientific (2015) &lbrack;chapter:[doi;10.1142/9789814696586_0023](https://doi.org/10.1142/9789814696586_0023), book:[doi:10.1142/9251-vol1](https://doi.org/10.1142/9251-vol1)&rbrack;
 
 
-### For Chern-Simons theory
+### For abelian Chern-Simons theory
 
-The Heisenberg group for the [[phase space]] $U(1)$-[[Chern-Simons theory]] on an arbitrary [[Riemann surface]] (and its relation to [[skein relations]] and [[theta functions]]) is discussed in
+The [[integer Heisenberg group]] describing the [[phase space]] of [[abelian Chern-Simons theory]] on [[closed manifold|closed]] [[Riemann surfaces]] (and its relation to [[skein relations]] and [[theta functions]]):
 
-* {#GelcaUribe10a} [[Razvan Gelca]], [[Alejandro Uribe]], _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
+* {#GelcaUribe10a} [[Răzvan Gelca]], [[Alejandro Uribe]]: *From classical theta functions to topological quantum field theory*  &lbrack;[arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf), [[GelcaUribe-ThetaFunctionsTQFT.pdf:file]]&rbrack;
 
-* {#GelcaHamilton12} [[Razvan Gelca]], [[Alastair Hamilton]], _Classical theta functions from a quantum group perspective_ ([arXiv:1209.1135](http://arxiv.org/abs/1209.1135))
+* {#GelcaHamilton12} [[Răzvan Gelca]], [[Alastair Hamilton]]: *Classical theta functions from a quantum group perspective*, New York J. Math. **21** (2015) 93–127 &lbrack;[arXiv:1209.1135](http://arxiv.org/abs/1209.1135), [nyjm:j/2015/21-4](https://nyjm.albany.edu/j/2015/21-4.html)&rbrack;
+
+* {#GelcaHamilton15} [[Răzvan Gelca]], [[Alastair Hamilton]]: *The topological quantum field theory of Riemann’s theta functions*, Journal of Geometry and Physics **98** (2015) 242-261 &lbrack;[doi:10.1016/j.geomphys.2015.08.008](https://doi.org/10.1016/j.geomphys.2015.08.008), [arXiv:1406.4269](https://arxiv.org/abs/1406.4269)&rbrack;
 
 
 [[!redirects Heisenberg groups]]
