@@ -131,7 +131,7 @@ $$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p
 
 $$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma \vdash t:\Pi A.C(A, A, \mathrm{refl}(A))}{\Gamma \vdash \beta_{=}^{C}(t):\Pi A.\mathrm{ind}_=^{C}(t, A, A, \mathrm{refl}(A)) =_{C(A, A, \mathrm{refl}(A))} t(A)}$$
 
-There are many consequences of having identity types between types in the dependent type theory, such as the [[univalence axiom]], a version of large recursion principles for inductive types and higher inductive types which uses identity types between types instead of equivalence types, and a new kind of [[Tarski universes]]. 
+There are many consequences of having identity types between types in the dependent type theory. One such example is that any time one uses an [[equivalence of types]] in a definition, such as [[weak Tarski universes]] or typal large recursion principles for inductive types, one can instead use identity types between types in the definition. In addition, one can add [[univalence]] to the dependent type theory itself, which makes the identity types between types and equivalence types coincide with each other. 
 
 #### Univalence axiom
 
@@ -151,14 +151,14 @@ where $\mathrm{id}_A \coloneqq \lambda x:A.x$ is the [[identity function]] on th
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ua}:\Pi A.\Pi B.\mathrm{isEquiv}(\lambda p:A = B.\mathrm{idtoequiv}(A, B, p))}$$
 
-Unlike the other presentation of dependent type theory in terms of universes, in this presentation of dependent type theory with a type judgment and type variables, it *is consistent* to assume both the [[univalence axiom]] and an [[axiom of set truncation]] like [[UIP]] or [[axiom K]], since here there is no universe. 
+Unlike the other presentation of dependent type theory in terms of universes, in this presentation of dependent type theory with a type judgment and type variables, it *is consistent* to assume both the [[univalence axiom]] and an [[axiom of set truncation]] like [[UIP]] or [[axiom K]], since here there is no universe, provided one doesn't have any higher types, such as the [[circle type]]. 
 
 #### Large recursion principles
 
 In the usual dependent type theory without type variables, large recursion of [[inductive types]] and [[higher inductive types]] is usually expressed in terms of [[equivalence of types|equivalences]] and [[transport]]. For example, the strict large recursion principle of the [[circle type]] $S^1$ usually states that given a type $A$ and an [[autoequivalence]] $e:A \simeq A$, one can form the type family $x:S^1 \vdash \mathrm{lrec}_{S^1}^{A, e}(x)$ such that 
-$$\mathrm{lrec}_{S^1}^{A, e}(\mathrm{base}) \equiv A \; \mathrm{type} \quad \mathrm{and} \quad \mathrm{tr}_{S^1}^{\mathrm{lrec}_{S^1}^{A, e}}(\mathrm{base}, \mathrm{base}, \mathrm{loop} \equiv e:A \simeq A$$
+$$\mathrm{lrec}_{S^1}^{A, e}(\mathrm{base}) \equiv A \; \mathrm{type} \quad \mathrm{and} \quad \mathrm{tr}_{S^1}^{\mathrm{lrec}_{S^1}^{A, e}}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv e:A \simeq A$$
 However, with type variables, instead of using equivalences and transport, one can instead use [[identity type#IdentityTypesBetweenTypes|identity types between types]] and the [[action on identifications]] for type families. For example, an alternative strict large recursion principle of the [[circle type]] $S^1$ states that given a type $A$ and an [[identification]] $p:A = A$, one can form the type family $x:S^1 \vdash \mathrm{lrec}_{S^1}^{A, p}(x)$ such that 
-$$\mathrm{lrec}_{S^1}^{A, p}(\mathrm{base}) \equiv A \; \mathrm{type} \quad \mathrm{and} \quad \mathrm{ap}_{S^1}^{\mathrm{lrec}_{S^1}^{A, p}}(\mathrm{base}, \mathrm{base}, \mathrm{loop} \equiv p:A = A$$
+$$\mathrm{lrec}_{S^1}^{A, p}(\mathrm{base}) \equiv A \; \mathrm{type} \quad \mathrm{and} \quad \mathrm{ap}_{S^1}^{\mathrm{lrec}_{S^1}^{A, p}}(\mathrm{base}, \mathrm{base}, \mathrm{loop}) \equiv p:A = A$$
 
 In addition, traditionally without type variables, there are strict and weak versions of large recursion principles: the strict large recursion principles use [[judgmental equality]] between types for the computation and uniqueness rules, while the weak large recursion principles use [[equivalences of types]] for the computation and uniqueness rules. For example, the strict large recursion principle for the [[boolean domain]] $\mathbb{2}$ says that given types $A$ and $B$, one can construct a type family $x:\mathbb{2} \vdash \mathrm{lrec}_\mathbb{2}^{A, B}(x)$ such that 
 $$\mathrm{lrec}_\mathbb{2}^{A, B}(0) \equiv A \quad \mathrm{and} \quad \mathrm{lrec}_\mathbb{2}^{A, B}(1) \equiv B$$
@@ -168,31 +168,7 @@ However, with type variables and [[identity type#IdentityTypesBetweenTypes|ident
 $$\mathrm{l}\beta_\mathbb{2}^{A}:\mathrm{lrec}_\mathbb{2}^{A, B}(0) = A \quad \mathrm{and} \quad \mathrm{l}\beta_\mathbb{2}^{B}:\mathrm{lrec}_\mathbb{2}^{A, B}(1) = B$$ 
 This third notion of weak large recursion in dependent type theory with a single type judgment and type variables parallels the usual notion of weak large recursion in the other formulation of dependent type theory involving a hierarchy of universes, where large recursion simply means the usual recursion principle into one of the predefined universes in the hierarchy. 
 
-#### Tarski universes
-
-Similarly to the case for the large recursion principles, there are now three different notions of [[Tarski universes]] in dependent type theory with type variables and identity types between types. 
-
-There is the usual notion of [[strict Tarski universe]] which states that, for example, 
-
-* the Tarski universe $(U, T)$ is strictly closed under dependent sum types if for $A:U$ and $B:T(A) \to U$ there is $\Sigma(A, B):U$ with a [[judgmental equality]] $T(\Sigma(A, B)) \equiv \sum_{x:T(A)} T(B(X))$
-
-* the Tarski universe $(U, T)$ is strictly closed under dependent product types if for $A:U$ and $B:T(A) \to U$ there is $\Pi(A, B):U$ with a [[judgmental equality]] $T(\Pi(A, B)) \equiv \prod_{x:T(A)} T(B(X))$
-
-There is the usual notion of [[weak Tarski universe]] which states that, for example, 
-
-* the Tarski universe $(U, T)$ is weakly closed under dependent sum types if for $A:U$ and $B:T(A) \to U$ there is $\Sigma(A, B):U$ with an [[equivalence of types|equivalence]] $e_\Sigma(A, B):T(\Sigma(A, B)) \simeq \sum_{x:T(A)} T(B(X))$
-
-* the Tarski universe $(U, T)$ is weakly closed under dependent product types if for $A:U$ and $B:T(A) \to U$ there is $\Pi(A, B):U$ with an [[equivalence of types|equivalence]] $e_\Pi(A, B):T(\Pi(A, B)) \simeq \prod_{x:T(A)} T(B(X))$
-
-Then there is a stronger notion of weak Tarski universe which is only possible if there are identity types between types, which states that 
-
-* the Tarski universe $(U, T)$ is weakly closed under dependent sum types if for $A:U$ and $B:T(A) \to U$ there is $\Sigma(A, B):U$ with an [[identification]] $p_\Sigma(A, B):T(\Sigma(A, B)) = \sum_{x:T(A)} T(B(X))$
-
-* the Tarski universe $(U, T)$ is weakly closed under dependent product types if for $A:U$ and $B:T(A) \to U$ there is $\Pi(A, B):U$ with an [[identification]] $p_\Pi(A, B):T(\Pi(A, B)) = \prod_{x:T(A)} T(B(X))$
-
-This is similar to the case for Tarski universes in the presentation of dependent type theory with a hierarchy of universes, which also has three different kinds of Tarski universes involving judgmental equality, identity types between types, and equivalences of types respectively. 
-
-### Large recursion principles
+### Large recursion principles of recursive inductive types
 
 Independently of the consequences of having [[identity type#IdentityTypesBetweenTypes|identity types between types]], having type variables allows for the formulation of certain large recursion principles which are not possible in the dependent type theory with a single type judgment but no type variables. These include large recursion for recursive inductive types and recursive higher inductive types such as the [[natural numbers type]], [[W-types]], and [[localizations of a type]]. 
 
@@ -257,24 +233,6 @@ $$n:\mathbb{N} \vdash \mathrm{rec}_\mathbb{N}^{T_0, T_s}(s(n)) \equiv T_s(n, \ma
 It is clear that type variables are needed, since otherwise the second requirement in the large recursion principle that we have a family of types $n:\mathbb{N}, X \; \mathrm{type} \vdash T_s(n, X) \; \mathrm{type}$ will not be possible. 
 
 Similar requirements of type variables apply to the large recursion principles of more general recursive inductive types like [[W-types]]. 
-
-## Limitations without universes
-
-So far we have described in this article the various things we can do in dependent type theory with a single judgment if we extend the theory with type variables. However, there are still a few limitations if we do not have universes in the type theory. 
-
-### Comparing type families for equality
-
-In type theory with universes, given a universe $U$ and a type $A$ type families $B:A \to U$ and $C:A \to U$, one can construct the [[identity type]] $B =_{A \to U} C$ between type families $B$ and $C$. 
-
-However, without universes and function types into universes, we cannot compare type families by equality. While it is true that with [[univalent universes]], the type $B =_{A \to U} C$ is equivalent to the type 
-$$\prod_{x:A} B(x) =_U C(x)$$
-and thus $U$-small, the issue is that without function types into the universe, it isn't possible for a type to depend on a type family, which is what is required in the [[elimination rule]] and [[computation rule]] for any hypothetical identity types between type families
-$$(x:A.B(x)) = (x:A.C(x))$$
-For this to happen, we need to extend the theory with higher-order judgments of the kind described in the definition of a [[function type]] as a [[positive type]]: 
-$$(x:A \vdash B(x) \; \mathrm{type}) \vdash P(x:A.B(x)) \; \mathrm{type}$$
-See [[function type#AsPositiveType]] for more details. 
-
-Otherwise, we can only use [[homotopies]] $p:\prod_{x:A} B(x) = C(x)$ to compare between two type families. 
 
 ## Related concepts
 
