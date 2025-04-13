@@ -32,13 +32,13 @@ We discuss the restriction of the basic $\mathbb{R}$-[[Heisenberg group]] $H_3$ 
 
 In the following, we denote [[cyclic groups]], for $n \in \mathbb{N}$, uniformly by
 $$
-  \mathbb{Z}_{n}
+  \mathbb{Z}_{k}
   \;\coloneqq\;
   \left\{
   \begin{array}{lcl}
-    \mathbb{Z} &\vert& n = 0
+    \mathbb{Z} &\vert& k = 0
     \\
-    \mathbb{Z}/(n) &\vert& \text{otherwise}
+    \mathbb{Z}/(k) &\vert& \text{otherwise}
     \mathrlap{\,.}
   \end{array}
   \right.
@@ -48,14 +48,14 @@ Recall (see [there](group+extension#CentralExtensionClassificationByGroupCohomol
 
 \begin{proposition}
   For $n \in \mathbb{N}$,
-  the [[central extension|central]] [[group extensions]] of $\mathbb{Z}^2$ by $\mathbb{Z}_n$ are all integral multiples of the following elementary Heisenberg extension:
+  the [[central extension|central]] [[group extensions]] of $\mathbb{Z}^2$ by $\mathbb{Z}_k$ are all integral multiples of the following elementary Heisenberg extension:
 \[
   \label{BasicIntegerHeisenbergExtensionOfZ2}
   \left\{
     \begin{array}{l}
     \big(a,b,[n]\big)
     \,\in\,
-    \mathbb{Z} \times \mathbb{Z} \times \mathbb{Z}_{2\vert k \vert}
+    \mathbb{Z} \times \mathbb{Z} \times \mathbb{Z}_{k}
     \,,
     \\
     \big(
@@ -67,7 +67,8 @@ Recall (see [there](group+extension#CentralExtensionClassificationByGroupCohomol
     \big)
     \;=\;
     \big(
-      a + a', b+ b', 
+      a + a', 
+      b + b', 
       [ 
         n + n' + 
         {\color{red}
@@ -80,13 +81,12 @@ Recall (see [there](group+extension#CentralExtensionClassificationByGroupCohomol
   \,.
 \]
 \end{proposition}
-
 \begin{proof} 
 The [[central extensions]] in question
 $$
   1 
     \to 
-  \mathbb{Z}_n
+  \mathbb{Z}_k
     \xrightarrow{cntrl}
   H
     \longrightarrow
@@ -94,27 +94,27 @@ $$
     \to
   1
 $$
-[are classified](group+extension#CentralExtensionClassificationByGroupCohomology) by the degree=2 [[group cohomology]] of $\mathbb{Z}^2$ with [[coefficients]] in $\mathbb{Z}_n$ (equipped with the [[trivial action|trivial]] $\mathbb{Z}^2$-[[group action|action]]).
+[are classified](group+extension#CentralExtensionClassificationByGroupCohomology) by the degree=2 [[group cohomology]] of $\mathbb{Z}^2$ with [[coefficients]] in $\mathbb{Z}_k$ (equipped with the [[trivial action|trivial]] $\mathbb{Z}^2$-[[group action|action]]).
  
 That second [[group cohomology]] is:
 \[
   \label{SecondGroupCohomologyOfZPlusZ}
   \begin{array}{ccl}
-    H^2_{Grp}(\mathbb{Z}^2;\, \mathbb{Z}_n)
+    H^2_{Grp}(\mathbb{Z}^2;\, \mathbb{Z}_k)
     &\simeq&
-    H^2(B \mathbb{Z}^2;\, \mathbb{Z}_n)    
+    H^2(B \mathbb{Z}^2;\, \mathbb{Z}_k)    
     \\
     &\simeq&
-    H^2(T^2;\, \mathbb{Z}_n)    
+    H^2(T^2;\, \mathbb{Z}_k)    
     \\
     &\simeq&
-    H^2(S^1_a \vee S^1_b \vee S^2;\, \mathbb{Z}_n)    
+    H^2(S^1_a \vee S^1_b \vee S^2;\, \mathbb{Z}_k)    
     \\
     &\simeq&
-    H^2(S^2;\, \mathbb{Z}_n)    
+    H^2(S^2;\, \mathbb{Z}_k)    
     \\
     &\simeq&
-    \mathbb{Z}_n
+    \mathbb{Z}_k
     \mathrlap{\,,}
   \end{array}
 \]
@@ -133,7 +133,7 @@ $$
   \alpha \,\in\, H^2_{Grp}\big(
     \mathbb{Z}^2
     ;\,
-    \mathbb{Z}_n
+    \mathbb{Z}_k
   \big)
 $$
 
@@ -152,7 +152,7 @@ given by
       (a,b), (a',b')
     \big)
     &\mapsto&
-    [a b']
+    [ a b']
     \mathrlap{\,,}
   \end{array}
 \]
@@ -204,18 +204,57 @@ In the integer Heisenberg group (eq:BasicIntegerHeisenbergExtensionOfZ2)
 
 \end{example}
 
-Of particular interest is the second multiple of this basic extension:
+\begin{remark}
+\label{BasicIntHeisenbergAsUpperTriangularMatrices}
+  The basic integer Heisenberg group extension (eq:BasicIntegerHeisenbergExtensionOfZ2), at $k = 0$, is [[isomorphism|isomorphic]] to the [[matrix group]] of $3 \times 3$ [[upper triangular matrices]] with [[integer]] entries and all "1"s on their diagonal, since [[matrix multiplication]] gives:
+
+$$
+  \left[
+  \begin{matrix}
+    1 & a & c
+    \\
+    0 & 1 & b
+    \\
+    0 & 0 & 1
+  \end{matrix}
+  \right]
+  \cdot
+  \left[
+  \begin{matrix}
+    1 & a' & c'
+    \\
+    0 & 1 & b'
+    \\
+    0 & 0 & 1
+  \end{matrix}
+  \right]
+  \;=\;
+  \left[
+  \begin{matrix}
+    1 & a + a' & c + c' + a b'
+    \\
+    0 & 1 & b + b'
+    \\
+    0 & 0 & 1
+  \end{matrix}
+  \right]
+$$
+
+In this matrix form the basic integer Heisenberg group $H_3(\mathbb{Z})$ is commonly known in the pure [[group theory]]-literature (e.g. [Budylin 2014](#Budylin14)) where the higher level extensions typically do not find attention.
+\end{remark}
+
+But the relation to the *real* [[Heisenberg group]] (in both senses of "real") is made by the second multiple of this basic extension:
 
 \begin{proposition}
 \label{TwiceHeisenbergExtensionInSymplecticForm}
-  Twice the basic integer Heisenberg extension (eq:IntegerHeisenbergExtension) at $n = 2k$ is [[isomorphism|isomorphic]] to
+  Twice the basic integer Heisenberg extension (eq:IntegerHeisenbergExtension)  is [[isomorphism|isomorphic]] to
 \[
   \label{TwiceOfBasicIntegerHeisInSymplecticForm}
   \left\{
     \begin{array}{l}
     \big(a, b, [n]\big)
     \,\in\,
-    \mathbb{Z} \times \mathbb{Z} \times \mathbb{Z}_{2\vert k\vert}
+    \mathbb{Z} \times \mathbb{Z} \times \mathbb{Z}_{k}
     \,,
     \\
     \big(
@@ -1184,7 +1223,7 @@ Generally on the integer/discrete Heisenberg $\mathbb{Z}$-extensions of $\mathbb
 * {#LeePacker96} Soo Teck Lee, Judith A. Packer: *The Cohomology of the Integer Heisenberg Groups*, Journal of Algebra **184** 1 (1996) 230-250 &lbrack;[doi:10.1006/jabr.1996.0258](https://doi.org/10.1006/jabr.1996.0258)&rbrack;
   > (concerning its [[group cohomology]])
 
-* Roman Budylin: *Conjugacy classes in discrete Heisenberg groups*, Sbornik: Mathematics **205** 8 (2014) 1069–1079 &lbrack;[arXiv:1405.5499](https://arxiv.org/abs/1405.5499), [doi:10.1070/SM2014v205n08ABEH004410](https://doi.org/10.1070/SM2014v205n08ABEH004410)&rbrack;
+* {#Budylin14} Roman Budylin: *Conjugacy classes in discrete Heisenberg groups*, Sbornik: Mathematics **205** 8 (2014) 1069–1079 &lbrack;[arXiv:1405.5499](https://arxiv.org/abs/1405.5499), [doi:10.1070/SM2014v205n08ABEH004410](https://doi.org/10.1070/SM2014v205n08ABEH004410)&rbrack;
 
 * [[Daniel Bump]], Persi Diaconis, Angela Hicks, Laurent Miclo, Harold Widom: *An Exercise (?) in Fourier Analysis on the Heisenberg Group*, Annales de la Faculté des sciences de Toulouse: Mathématiques, Serie 6, Volume 26 (2017) no. 2, pp. 263-288 &lbrack;[arXiv:1502.04160](https://arxiv.org/abs/1502.04160), [numdam:AFST_2017_6_26_2_263_0](http://www.numdam.org/item/AFST_2017_6_26_2_263_0)&rbrack;
 
