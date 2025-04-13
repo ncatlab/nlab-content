@@ -68,6 +68,8 @@ Introductory textbooks:
 
 * [[Serge Lang]]: _Algebra_, 3rd ed. Springer (2002) &lbrack;[doi:10.1007/978-1-4613-0041-0](https://doi.org/10.1007/978-1-4613-0041-0)&rbrack;
 
+* David S. Dummit, Richard M. Foote: *Abstract Algebra*, Wiley (2003) &lbrack;[ISBN:978-0-471-43334-7](https://www.wiley.com/en-us/Abstract+Algebra%2C+3rd+Edition-p-9780471433347), [pdf](https://rksmvv.ac.in/wp-content/uploads/2021/04/David_S_Dummit_Richard_M_Foote_Abstract_Algeb_230928_225848.pdf)&rbrack;
+
 * [[Anthony Knapp]], *Basic Algebra*, Springer (2006) &lbrack;[doi:10.1007/978-0-8176-4529-8](https://doi.org/10.1007/978-0-8176-4529-8), [pdf](https://www.math.mcgill.ca/darmon/courses/19-20/algebra2/knapp.pdf)&rbrack;
 
 * {#Aluffi09} [[Paolo Aluffi]], *Algebra: Chapter 0*, Graduate Studies in Mathematics **104**,  AMS (2009) &lbrack;[ISBN:978-1-4704-1168-8](https://bookstore.ams.org/gsm-104/)&rbrack;
