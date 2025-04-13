@@ -64,7 +64,7 @@ If you make any edits to the nLab, please follow the guidelines for announcing y
 ## Viewing and editing the $n$Lab
  {#SoftwareRequirements}
 
-The nLab should be viewable and editable in any modern web browser on any device. For technical reasons, browsers which are able to render [MathML](http://en.wikipedia.org/wiki/MathML), such as Firefox, may render very large pages quicker than other browsers, but these pages are few and far between, and most people will be able to use the browser of their choice. 
+The nLab should be viewable and editable in any modern web browser on any device. For technical reasons, modern browsers that are able to render [MathML](http://en.wikipedia.org/wiki/MathML), such as Firefox 2+, Chrome/Chromium/Edge 109+, Safari 10+ may render very large pages quicker than older browsers, but these pages are few and far between, and most people will be able to use the browser of their choice.
 
 The following custom themes are available for the nLab:
 
