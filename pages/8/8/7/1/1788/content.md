@@ -7,35 +7,38 @@
 
 ***
 
-## Clifford group
+$$
+  \left[
+  \begin{matrix}
+    1 & a & c
+    \\
+    0 & 1 & b
+    \\
+    0 & 0 & 1
+  \end{matrix}
+  \right]
+  \cdot
+  \left[
+  \begin{matrix}
+    1 & a' & c'
+    \\
+    0 & 1 & b'
+    \\
+    0 & 0 & 1
+  \end{matrix}
+  \right]
+  \;=\;
+  \left[
+  \begin{matrix}
+    1 & a + a' & c + c' + a b'
+    \\
+    0 & 1 & b + b'
+    \\
+    0 & 0 & 1
+  \end{matrix}
+  \right]
+$$
 
-
-In [[quantum information theory]], by the *Clifford group* on $n$-[[qbits]] (for $n \in \mathbb{N}_{\geq 1}$) one means the [[normalizer subgroup]], inside the [[unitary group]] $U(2n)$, of the $n$fold [[direct product group|direct product]] of the [[Pauli group]] with itself.
-
-An [[element]] of the Clifford group, understood as a [[unitary operator]] on the [[finite-dimensional Hilbert space]] $\mathbb{C}^{2n}$, is also called a *Clifford [[quantum gate]]* or just *Clifford gate*, for short.
-
-The [[Gottesman-Knill theorem]] states that [[quantum circuits]] which are built only from Clifford gates ("stabilizer circuits") may be efficiently [[quantum simulation|simulated]] on [[classical computers]]. Conversely this means that for a [[quantum computer]] to exhibit [[quantum advantage]] it must realize [[quantum gates]] which are non-Clifford gates.
-
-
-## References
-
-The origin of the attention paid to the [[normalizer subgroup]] of the [[Pauli group]] inside the [[unitary group]] is (p 5 of):
-
-* {#Gottesman98} [[Daniel Gottesman]]: *A Theory of Fault-Tolerant Quantum Computation*, Phys. Rev. A **57** (1998) 127 &lbrack;[arXiv:quant-ph/9702029](https://arxiv.org/abs/quant-ph/9702029), [doi:10.1103/PhysRevA.57.127](https://doi.org/10.1103/PhysRevA.57.127)&rbrack;
-
-Contrary to common claims, the term "Clifford group" for this normalizer subgroup seems to have emerged only in the following years.
-
-Review:
-
-* J. Tolar: *On Clifford groups in quantum computing*, J. Phys.: Conf. Series **1071** (2018) 012022 &lbrack;[arXiv:1810.10259](https://arxiv.org/abs/1810.10259), [doi:10.1088/1742-6596/1071/1/012022](https://doi.org/10.1088/1742-6596/1071/1/012022)&rbrack;
-
-* Kieran Mastel: *The Clifford theory of the $n$-qubit Clifford group* &lbrack;[arXiv:2307.05810](https://arxiv.org/abs/2307.05810)&rbrack;
-
-See also: 
-
-* Wikipedia: *[Clifford group](https://en.wikipedia.org/wiki/Clifford_group)*
-
-* Wikipedia: *[Gottesman-Knill theorem](https://en.wikipedia.org/wiki/Gottesman%E2%80%93Knill_theorem)*
 
 
 
