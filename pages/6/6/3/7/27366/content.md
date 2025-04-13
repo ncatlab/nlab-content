@@ -473,10 +473,10 @@ For more on linear representations of the level$=1$ integer Heisenberg group, se
 \begin{remark}\label{RelationToChernSimonsStates}
 **(relation to [[quantum states]] and [[quantum observables]] of [[abelian Chern-Simons theory]])**
 \linebreak
-The [[complex numbers|complex]] [[dimension of a vector space|dimension]] of the representation $\mathscr{H}_1$ (eq:IrrepOfIntegerHeisenbergGroup) is that expected for the [[space of quantum states]] of [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Manoliu 1998a p 40](abelian+Chern-Simons+theory#Manoliu98a))
+The [[complex numbers|complex]] [[dimension of a vector space|dimension]] of the representation $\mathscr{H}_1$ (eq:IrrepOfIntegerHeisenbergGroup) is that expected for the [[space of quantum states]] of [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Manoliu 1998a p 40](abelian+Chern-Simons+theory#Manoliu98a), [Gelca & Uribe 2010 Prop. 2.2](#GelcaUribe10))
 \[
   \label{CSLevel}
-  dim(\mathscr{H}_1) \;=\; k
+  dim(\mathscr{H}_1) \;=\; K
   \,,
 \]
 and the [[group commutator]]-relation (eq:RepresentationOfBasicGroupCommutator)
