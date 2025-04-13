@@ -47,7 +47,7 @@ $$
 Recall (see [there](group+extension#CentralExtensionClassificationByGroupCohomology)) the equivalence of [[central extensions]] of a [[discrete group|discrete]] [[group]] $G$ by an [[abelian group]] $A$ (for the present case equipped with the [[trivial action|trivial]] $G$-[[action]]) with the degree=2 [[group cohomology]] $H^2(G;A)$.
 
 \begin{proposition}
-  For $n \in \mathbb{N}$,
+  For $k \in \mathbb{N}$,
   the [[central extension|central]] [[group extensions]] of $\mathbb{Z}^2$ by $\mathbb{Z}_k$ are all integral multiples of the following elementary Heisenberg extension:
 \[
   \label{BasicIntegerHeisenbergExtensionOfZ2}
@@ -303,18 +303,19 @@ $$
 \end{proof}
 
 
+
 ## Properties
 
 ### Basic properties
 
 \begin{prop}
-  The multiple=2 discrete Heisenberg group $\mathbb{Z}_{2{\vert k \vert}} \to \widehat{\mathbb{Z}^{2}} \to \mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm) is the following [[quotient group]] of the [[product group]] $F(a,b) \times \mathbb{Z}_{2{\vert k \vert}}$ with the [[free group]] $F(a,b)$ on two generators:
+  The multiple=2 discrete Heisenberg group $\mathbb{Z}_{k} \to \widehat{\mathbb{Z}^{2}} \to \mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm) is the following [[quotient group]] of the [[product group]] $F(a,b) \times \mathbb{Z}_{k}$ with the [[free group]] $F(a,b)$ on two generators:
 \[
   \label{HeisenbergAsQuotientOfFreeGroup}
   \widehat{\mathbb{Z}^2}
   \,\simeq\,
   \big(
-    F(a,b) \times \mathbb{Z}_{2 {\vert k \vert}}
+    F(a,b) \times \mathbb{Z}_{k}
   \big) 
     \big/ 
   \big( a \cdot b = [2] \cdot b \cdot a \big)
@@ -329,7 +330,7 @@ $$
      \frac{
        F(a,b) 
        \times 
-       \mathbb{Z}_{2 {\vert k \vert}}
+       \mathbb{Z}_{k}
      }{
        a \cdot b = [2] \cdot b \cdot a     
      }
@@ -353,7 +354,7 @@ $$
  {#LinearRepresentations}
 
 \begin{example}
-For $k \in \mathbb{Z}$, the non-[[trivial representation|trivial]] [[irreducible representations]] of twice the $\mathbb{Z}_{2 {\left\vert k \right\vert}}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
+For $k \in \mathbb{Z}$,  [[linear representations]] of twice the $\mathbb{Z}_{2k}$-Heisenberg extension of $\mathbb{Z}^2$ (eq:TwiceOfBasicIntegerHeisInSymplecticForm)
 \[
   \label{IrrepOfIntegerHeisenbergGroup}
   \begin{array}{ccc}
@@ -366,11 +367,7 @@ For $k \in \mathbb{Z}$, the non-[[trivial representation|trivial]] [[irreducible
     \big)
   \end{array}
 \]
-are, up to [[isomorphism]], labeled by
-$$
-  \nu \,\coloneqq\, p/k,\;\; p \in \{1, 2, \cdots, k\}  
-$$
-and given by:
+are given by:
 $$
   \mathscr{H}_1
   \;\coloneqq\;
@@ -392,7 +389,7 @@ $$
   &\colon&
   {\big\vert n \big\rangle}
   &\mapsto&
-  e^{2 \pi \mathrm{i} n \nu}
+  \zeta^{2n}
   {\big\vert n \big\rangle}
   \\
   W_b  
@@ -409,11 +406,12 @@ $$
   &\colon&
   {\big\vert n \big\rangle}
   &\mapsto&
-  e^{\pi \mathrm{i} \nu}
+  \zeta
   {\big\vert n \big\rangle}
-  \mathrlap{\,.}
+  \mathrlap{\,,}
   \end{array}
 $$
+for $\zeta$ a $2k$th [[root of unity]].
 
 For instance:
 \[
@@ -429,13 +427,13 @@ For instance:
 **Notation:** In the following we write "$[n]$" for "$n \,mod\, k$" and "$\sum_{[n]}$" for "$\sum_{n =0}^{k-1}$".
 \begin{proof}
   To see that this is a [[linear representation]],
-  by (eq:HeisenbergAsQuotientOfFreeGroup) is it sufficient to check that the basic [[group commutator]] is represented, in that
+  by (eq:HeisenbergAsQuotientOfFreeGroup) it is sufficient to check that the basic [[group commutator]] is represented, in that
 \[
   \label{RepresentationOfBasicGroupCommutator}
   W_a \cdot W_b \,=\,
-  e^{ 2 \pi \mathrm{i} \tfrac{1}{k} }
+  \zeta^2
   \, 
-  W_b \cdot
+  W_b \cdot W_a
   \mathrlap{\,,}
 \]
 which is evidently the case, since
@@ -446,7 +444,7 @@ $$
     W_a \cdot {\big\vert [n+1] \big\rangle}
     \\
     &=&
-    e^{2 \pi \mathrm{i} \tfrac{n{\color{red}+1}}{k}}
+    \zeta^{2(n+1)}
     \,
     {\big\vert [n+1] \big\rangle}
     \mathrlap{\,,}
@@ -457,27 +455,25 @@ $$
   \begin{array}{ccl}
     W_b \cdot W_a {\big\vert [n] \big\rangle}
     &=&
-    e^{2 \pi \mathrm{i} \tfrac{n}{k}}
+    \zeta^{2n}
     \,
     W_b {\big\vert [n] \big\rangle}
     \\
     &=&
-    e^{2 \pi \mathrm{i} \tfrac{n}{k}}
+    \zeta^{2n}
     \,
     {\big\vert [n + 1] \big\rangle}
     \mathrlap{\,.}
   \end{array}
 $$
-
-To see that this is [[irreducible representation|irreducible]] just note that a [[linear basis]] of the [[underlying]] [[vector space]] is obtained by successively acting with $W_b$ on, say ${\big\vert [0] \big\rangle}$ (this thus being a [[cyclic vector]]).
 \end{proof}
 
-For more see [Floratos & Tsohantjis 2022](#FloratosTsohantjis22).
+For more on linear representations of the level$=1$ integer Heisenberg group, see [Floratos & Tsohantjis 2022](#FloratosTsohantjis22).
 
 \begin{remark}\label{RelationToChernSimonsStates}
 **(relation to [[quantum states]] and [[quantum observables]] of [[abelian Chern-Simons theory]])**
 \linebreak
-The [[complex numbers|complex]] [[dimension of a vector space|dimension]] of the [[irrep]] $\mathscr{H}_1$ (eq:IrrepOfIntegerHeisenbergGroup) is that expected for the [[space of quantum states]] of [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Manoliu 1998a p 40](abelian+Chern-Simons+theory#Manoliu98a))
+The [[complex numbers|complex]] [[dimension of a vector space|dimension]] of the representation $\mathscr{H}_1$ (eq:IrrepOfIntegerHeisenbergGroup) is that expected for the [[space of quantum states]] of [[abelian Chern-Simons theory]] on a [[2-torus]] (cf. [Manoliu 1998a p 40](abelian+Chern-Simons+theory#Manoliu98a))
 \[
   \label{CSLevel}
   dim(\mathscr{H}_1) \;=\; k
@@ -487,7 +483,7 @@ and the [[group commutator]]-relation (eq:RepresentationOfBasicGroupCommutator)
 $$
   W_a \cdot W_b 
   =
-  e^{2\pi \mathrm{i}\tfrac{1}{k}}
+  \zeta^2
   \,
   W_b \cdot W_a
 $$
@@ -500,7 +496,7 @@ of [[linear operators]] acting on this irrep (eq:IrrepOfIntegerHeisenbergGroup) 
  {#ModularAutomorphisms}
 
 
-Moreover, the integer Heisenberg group knows about the [[modular group]] acting on its irrep (eq:IrrepOfIntegerHeisenbergGroup), hence on the  [[space of quantum states]] $\mathscr{H}_{T^2}$ from Rem. \ref{RelationToChernSimonsStates}, hence about the "[[modular functor]]" of [[abelian Chern-Simons theory]]:
+Moreover, the integer Heisenberg group at leve 2 knows about the [[modular group]] acting on its irrep (eq:IrrepOfIntegerHeisenbergGroup), hence on the  [[space of quantum states]] $\mathscr{H}_{T^2}$ from Rem. \ref{RelationToChernSimonsStates}, hence about the "[[modular functor]]" of [[abelian Chern-Simons theory]]:
 
 
 \begin{definition}
