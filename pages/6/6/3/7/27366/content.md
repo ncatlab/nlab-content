@@ -240,10 +240,10 @@ $$
   \right]
 $$
 
-In this matrix form the basic integer Heisenberg group $H_3(\mathbb{Z})$ is commonly known in the pure [[group theory]]-literature (e.g. [Budylin 2014](#Budylin14)) where the higher level extensions typically do not find attention.
+In this matrix form the basic integer Heisenberg group $H_3(\mathbb{Z})$ is commonly known in the pure [[group theory]]-literature (e.g. [Dummit & Foote 2006 p 35](#DummitFoote06), [Budylin 2014](#Budylin14)) where the higher level extensions typically do not find attention.
 \end{remark}
 
-But the relation to the *real* [[Heisenberg group]] (in both senses of "real") is made by the second multiple of this basic extension:
+But the relation to the *real* [[Heisenberg group]] (in both senses of "real") is made by the second multiple of this basic extension (cf. [Gelca & Uribe 2010 p. 7](#GelcaUribe10), [Gelca & Hamilton 2012 Def 2.4](#GelcaHamilton12), [Gelca & Hamilton 2015 Def 2.3](#GelcaHamilton15)):
 
 \begin{proposition}
 \label{TwiceHeisenbergExtensionInSymplecticForm}
@@ -1214,14 +1214,21 @@ This completes the proof.
 
 ## Literature
 
-Generally on the integer/discrete Heisenberg $\mathbb{Z}$-extensions of $\mathbb{Z}^{2g}$:
+### In group theory
+
+Generally on the integer/discrete Heisenberg group in the [[algebra]] and [[group theory]] literature
 
 * {#LeePacker96} Soo Teck Lee, Judith A. Packer: *The Cohomology of the Integer Heisenberg Groups*, Journal of Algebra **184** 1 (1996) 230-250 &lbrack;[doi:10.1006/jabr.1996.0258](https://doi.org/10.1006/jabr.1996.0258)&rbrack;
   > (concerning its [[group cohomology]])
 
+* {#DummitFoote06} David S. Dummit, Richard M. Foote Ex. 11 on p. 35: *Abstract Algebra*, Wiley (2003) &lbrack;[ISBN:978-0-471-43334-7](https://www.wiley.com/en-us/Abstract+Algebra%2C+3rd+Edition-p-9780471433347), [pdf](https://rksmvv.ac.in/wp-content/uploads/2021/04/David_S_Dummit_Richard_M_Foote_Abstract_Algeb_230928_225848.pdf)&rbrack;
+
+
 * {#Budylin14} Roman Budylin: *Conjugacy classes in discrete Heisenberg groups*, Sbornik: Mathematics **205** 8 (2014) 1069–1079 &lbrack;[arXiv:1405.5499](https://arxiv.org/abs/1405.5499), [doi:10.1070/SM2014v205n08ABEH004410](https://doi.org/10.1070/SM2014v205n08ABEH004410)&rbrack;
 
 * [[Daniel Bump]], Persi Diaconis, Angela Hicks, Laurent Miclo, Harold Widom: *An Exercise (?) in Fourier Analysis on the Heisenberg Group*, Annales de la Faculté des sciences de Toulouse: Mathématiques, Serie 6, Volume 26 (2017) no. 2, pp. 263-288 &lbrack;[arXiv:1502.04160](https://arxiv.org/abs/1502.04160), [numdam:AFST_2017_6_26_2_263_0](http://www.numdam.org/item/AFST_2017_6_26_2_263_0)&rbrack;
+
+* {#DruţuKapovich18} [[Cornelia Druţu]], [[Michael Kapovich]] (appendix by [[Bogdan Nica]]): *Geometric group theory*, Colloquium Publications **63**, AMS (2018) &lbrack;[ISBN:978-1-4704-1104-6](https://bookstore.ams.org/coll-63/), [pdf](https://courses.maths.ox.ac.uk/node/view_material/35649)&rbrack;
 
 
 * Jayadev S. Athreya, Ioannis Konstantoulas: *Lattice deformations in the Heisenberg group*, Groups, Geometry and Dynamics **14** 3 (2020) 1007–1022 &lbrack;[arXiv:1510.01433](https://arxiv.org/abs/1510.01433), [doi:10.4171/ggd/572](https://doi.org/10.4171/ggd/572)&rbrack;
@@ -1234,8 +1241,7 @@ On (invertibility in) the [[group algebra]]:
 
 * Martin Göll, Klaus Schmidt, Evgeny Verbitskiy: *A Wiener Lemma for the discrete Heisenberg group: Invertibility criteria and applications to algebraic dynamics*, Monatsh Math **180** (2016) 485–525 &lbrack;[doi:10.1007/s00605-016-0894-0](https://doi.org/10.1007/s00605-016-0894-0), [arXiv:1603.08225](https://arxiv.org/abs/1603.08225)&rbrack;
 
-
-On their [[representation theory]] with an eye towards [[quantum information theory]]:
+On the [[representation theory]] with an eye towards [[quantum information theory]]:
 
 * {#FloratosTsohantjis22} E. Floratos, I. Tsohantjis: *Complete set of unitary irreps of Discrete Heisenberg Group $H W_{2^s}$* &lbrack;[arXiv:2210.04263](https://arxiv.org/abs/2210.04263)&rbrack;
 
@@ -1243,9 +1249,28 @@ On the [[automorphism group]]:
 
 * D.V. Osipov: *Discrete Heisenberg group and its automorphism group*, Mathematical Notes **98** 1 (2015) 185-188 &lbrack;[arXiv:1505.00348](https://arxiv.org/abs/1505.00348), [doi:10.1134/S0001434615070160](https://doi.org/10.1134/S0001434615070160)&rbrack;
 
+
+See also:
+
+* Yves Benoist: *Positive Harmonic Functions on the Heisenberg group I*, in: Proceedings of *European Congress of Mathematics 2021*, EMS Press (2023) 181-198  &lbrack;[arXiv:1907.05041](https://arxiv.org/abs/1907.05041), [doi:10.4171/8ecm/17](https://doi.org/10.4171/8ecm/17)&rbrack;
+
+* Yves Benoist: *Positive harmonic functions on the Heisenberg group II*, Journal de l’École polytechnique - Mathématiques **8** (2021) 973-1003 &lbrack;[doi:10.5802/jep.163](https://doi.org/10.5802/jep.163), [numdam:10.5802/jep.163](https://www.numdam.org/articles/10.5802/jep.163), [hal:02400005](https://hal.science/hal-02400005)&rbrack;
+
+
+### In modular/Chern-Simons theory
+
 In relation to $U(1)$-[[current algebra]] ([[WZW-model]]):
 
 * [[Ludwig D. Fadeev]]: *Discrete Heisenberg-Weyl Group and modular group*, Lett Math Phys **34** (1995) 249–254 &lbrack;[doi:10.1007/BF01872779](https://doi.org/10.1007/BF01872779)&rbrack;
+
+As describing the [[phase space]] of [[abelian Chern-Simons theory]] on [[closed manifold|closed]] [[Riemann surfaces]] (and its relation to [[skein relations]] and [[theta functions]]):
+
+* {#GelcaUribe10} [[Răzvan Gelca]], [[Alejandro Uribe]]: *From classical theta functions to topological quantum field theory*, in: *The Influence of Solomon Lefschetz in Geometry and Topology: 50 Years of Mathematics at CINVESTAV*, Contemporary Mathematics **621**, AMS (2014) 35-68 &lbrack;[arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [doi;10.1090/conm/621](https://doi.org/10.1090/conm/621), [ams:conm-621](https://bookstore.ams.org/conm-621), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf), [[GelcaUribe-ThetaFunctionsTQFT.pdf:file]]&rbrack;
+
+* {#GelcaHamilton12} [[Răzvan Gelca]], [[Alastair Hamilton]]: *Classical theta functions from a quantum group perspective*, New York J. Math. **21** (2015) 93–127 &lbrack;[arXiv:1209.1135](http://arxiv.org/abs/1209.1135), [nyjm:j/2015/21-4](https://nyjm.albany.edu/j/2015/21-4.html)&rbrack;
+
+* {#GelcaHamilton15} [[Răzvan Gelca]], [[Alastair Hamilton]]: *The topological quantum field theory of Riemann’s theta functions*, Journal of Geometry and Physics **98** (2015) 242-261 &lbrack;[doi:10.1016/j.geomphys.2015.08.008](https://doi.org/10.1016/j.geomphys.2015.08.008), [arXiv:1406.4269](https://arxiv.org/abs/1406.4269)&rbrack;
+
 
 On [[group actions]] of the [[mapping class group]] of closed oriented [[surfaces]] on integer Heisenberg groups:
 
@@ -1256,13 +1281,6 @@ On [[group actions]] of the [[mapping class group]] of closed oriented [[surface
 * [[Martin Palmer]]: *Representations of the Torelli group via the Heisenberg group*, talk at *Workshop for Young Researchers in Mathematics – 10th ed.* (2021) &lbrack;[pdf](https://mdp.ac/files/2105-talk-notes-WYRM.pdf), [[Palmer-Anghel-TorelliHeisenberg.pdf:file]]&rbrack;
 
 *  [[Christian Blanchet]]: *Heisenberg homologies of surface configurations*, [talk at](CQTS#BlanchetMar2023) *[Geometric/Topological Quantum Field Theories Workshop](Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)* @ [[CQTS]] NYUAD (2023) &lbrack;slides: [[Blanchet-at-QFTAndCobordism2023.pdf:file]], video:[YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)&rbrack;
-
-
-See also:
-
-* Yves Benoist: *Positive Harmonic Functions on the Heisenberg group I*, in: Proceedings of *European Congress of Mathematics 2021*, EMS Press (2023) 181-198  &lbrack;[arXiv:1907.05041](https://arxiv.org/abs/1907.05041), [doi:10.4171/8ecm/17](https://doi.org/10.4171/8ecm/17)&rbrack;
-
-* Yves Benoist: *Positive harmonic functions on the Heisenberg group II*, Journal de l’École polytechnique - Mathématiques **8** (2021) 973-1003 &lbrack;[doi:10.5802/jep.163](https://doi.org/10.5802/jep.163), [numdam:10.5802/jep.163](https://www.numdam.org/articles/10.5802/jep.163), [hal:02400005](https://hal.science/hal-02400005)&rbrack;
 
 
 The above discussion of irreps and modular automorphisms related to abelian Chern-Simons theory follows:
