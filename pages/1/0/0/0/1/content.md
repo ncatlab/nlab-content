@@ -34,11 +34,11 @@ $\,$
 ## Purpose
 {#purpose}
 
-The nLab records and explores a wide range of mathematics, physics, and philosophy. Along with work of an expository nature, original material can be found in abundance, as can notes from evolving research. Where mathematics, physics, and philosophy arise in other fields, computer science and linguistics for example, the nLab explores these too.
+The nLab records and explores a wide range of mathematics, physics, and philosophy. Where mathematics, physics, and philosophy arise in other fields, computer science and linguistics for example, the nLab explores these too.
 
 If you take a little time to find something in the literature, or to work through a proof or example, or to find an intuitive or new way to think about something, add a note on it to the nLab! Others will benefit, and you may well find that it proves useful to you too.
 
-> Note: In the past, people have used the nLab for their own personal notes and original research. This purpose has since been depreciated from the nLab. Please only add material that is discussed in the existing literature to the nLab, and please add references to the literature for the added material. 
+> Note: In the past, people have used the nLab for their own personal notes and unsubstantiated original research. This is no longer allowed on the nLab. When you add material to the nLab, please also include references to the literature to substantiate the added material. 
 
 A fundamental idea behind the nLab is that the linking between pages of a wiki is a profound way to record knowledge, placing it in a rich context.
 
