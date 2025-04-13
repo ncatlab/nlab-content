@@ -34,7 +34,6 @@ This page is supposed to give some idea about which kind of contributions to the
 In general: if some topic that seems to be worthwhile is missing from the $n$Lab (and a lot is) this is with high probability not by intent, but by lack of manpower. Be the first to improve on the situation!
 
 
-
 category: meta
 
 [[!redirects What to Contribute]]
