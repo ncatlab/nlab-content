@@ -684,6 +684,8 @@ $$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p
 
 $$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B \vdash C(A, B, p) \; \mathrm{type} \quad \Gamma \vdash t:\Pi A.C(A, A, \mathrm{refl}(A))}{\Gamma \vdash \beta_{=}^{C}(t):\Pi A.\mathrm{ind}_=^{C}(t, A, A, \mathrm{refl}(A)) =_{C(A, A, \mathrm{refl}(A))} t(A)}$$
 
+There are many consequences of having identity types between types in the dependent type theory. One such example is that any time one uses an [[equivalence of types]] in a definition, such as [[weak Tarski universes]] or typal large recursion principles for [[inductive types]], one can instead use identity types between types in the definition. In addition, one can add [[univalence]] to the dependent type theory itself, which makes the identity types between types and equivalence types coincide with each other.
+
 ## Definition from an interval type
 
 Suppose that one has an [[interval type]] $\mathbb{I}$, with elements $0:\mathbb{I}$ and $1:\mathbb{I}$. 
@@ -1277,14 +1279,16 @@ further highlighted in
 and the proof of the equivalence is spelled out in:
 
 * {#Götz18} Lennard Götz, §4.2 of: *Martin-Löf's J-rule*, LMU (2018) &lbrack;[pdf](https://www.math.lmu.de/~petrakis/Goetz.pdf)&rbrack; 
-
-
   
 Discussion of issues of [[extensional type theory|extensional]]/[[intensional type theory]]:
 
 * {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh, (1995) ([ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]])
 
 * {#Streicher} [[Thomas Streicher]], _Investigations Into Intensional Type Theory_, Habilitationsschrift ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/HabilStreicher.pdf))
+
+Some discussion about identity types between types in [[dependent type theory with type variables]] occurs in:
+
+* {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
 
 ### As inductive types
  {#ReferencesByInductiveTypes}
@@ -1480,3 +1484,27 @@ See also
 [[!redirects universal property of identification types]]
 [[!redirects universal property of path types]]
 [[!redirects universal property of equality types]]
+
+[[!redirects identity type between types]]
+[[!redirects identity types between types]]
+
+[[!redirects identification type between types]]
+[[!redirects identification types between types]]
+
+[[!redirects path type between types]]
+[[!redirects path types between types]]
+
+[[!redirects equality type between types]]
+[[!redirects equality types between types]]
+
+[[!redirects identity between types]]
+[[!redirects identities between types]]
+
+[[!redirects identification between types]]
+[[!redirects identifications between types]]
+
+[[!redirects path between types]]
+[[!redirects paths between types]]
+
+[[!redirects equality between types]]
+[[!redirects equalities between types]]
