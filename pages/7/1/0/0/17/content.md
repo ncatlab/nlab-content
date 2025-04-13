@@ -183,6 +183,38 @@ Suppose that `A` is the name of the page to be kept and and that `B` is the name
 
 Please make a request at the [nForum](https://nforum.ncatlab.org/). 
 
+### How to contribute to the nLab in ways other than writing articles?
+
+There are numerous ways you can help out and get acquainted with the community even if you don't (yet) feel comfortable writing math publicly on a wiki.
+
+1.  You can correct typos and spelling errors, fix links, create links, create redirects (there are many pages that still need redirects created for alternate and plural forms of the title), organize pages, and so on.
+
+2.  You can ask questions (see previous question), and join discussions, at the nForum, and comment at the nCafe.
+
+3.  You can try writing small additions to existing pages, for instance a paragraph or two that helps explain something that puzzled you initially.  If you aren't entirely positive that what you wrote was correct, when you announce your edit at Latest Changes on the nForum, you can mention that you're unsure and someone will usually reassure you or give a correction.
+
+4.  If you don\'t sign your edits, then they are attributed to [[Anonymous]].  We prefer that you sign your edits, but anonymous help is better than none at all, so that option is available to you.
+
+
+
+### How do I cite a page on the nLab? {#Citing}
+
+You should, of course, include a link or URL to the page or pages that you wish to cite.  You should also give the information about which *version* of the page you are citing, since pages change over time.  The version number can be found as follows: look at the bottom of the page where it says "Back in time ($N$ revisions)"; the current version number is $N+1$.
+
+You can link directly to the version you want to cite by using a url such as
+
+    http://ncatlab.org/nlab/revision/PageName/VERSIONNUMBER
+
+We recommend that if you only include one URL, it be of the form `show/PageName` which will point to whatever version of the page is current when it is accessed.  This is because pages generally improve over time, and whoever is following your reference ought to be taken to the best, up-to-date version of the page.  Anyone who cares about finding the exact version of the page that you cited can figure out how to find it in the history.
+
+On the other hand, if you can give two URLs (this would be cumbersome in a printed paper, but is possible with links on a web page), then it may be helpful to give the appropriate `revision` link as well as the `show` one.
+
+*All nLab pages now include a "Cite" link at the bottom of the page which produces a BibTeX entry in accord with the suggestions above.*
+
+
+
+
+
 ## How to organize and write content
  {#HowToOrganizeAndWriteContent}
 
@@ -430,6 +462,55 @@ One example of this that we have is the _[[implicit infinity-category theory con
 
 
 ## Special Typesetting Features
+
+### How to typeset mathematical formulas
+
+The nLab uses the [itex2MML](https://golem.ph.utexas.edu/~distler/blog/itex2MML.html) software with custom in-house hacks to typeset formulas.
+Its syntax is based on TeX (supporting many macros from plain TeX and LaTeX), with some important unfortunate differences documented below.
+The reasons for these differences are mostly historical: when the nLab was created in 2008, there was no standardized software to support formulas (like MathJax these days), with multiple competing solutions like itex2MML, jsMath, and others.
+
+One of the notable ways in which iTeX differs from LaTeX is that in iTeX's math mode, a string of letters without spaces in between is interpreted as a single identifier.  This has the advantage that you can invent new identifiers without needing to use `\operatorname` or `\DeclareMathOperator`, but it means that when you _don't_ want a string of letters interpreted that way you need to put spaces in between.  For example, `$sin(x)$` produces $sin(x)$ which is probably what you want, but `$h=gf$` produces $h=gf$, whereas you probably wanted to write `$h=g f$` to get $h=g f$. On the other hand, you can (and, for the sake of the LaTeX output, probably should) use `$\sin(x)$`, etc.
+
+iTeX is not LaTeX.  Their similarity can make the differences all the more jarring.  Here is a list of the differences that we know about together with suggested work-arounds.
+
+* Numbers are one thing.  The syntax `$10^10$` produces $10^10$ in iTeX but $10^{1}0$ in LaTeX.  The **safe** syntax is to always use braces: `$10^{10}$` is consistent.
+
+* Numbers include punctuation.  Periods and commas _within_ numbers are numbers.  This is so that `$1,000,000.00$` (or `$1.000.000,00$` if you are European) renders correctly as $1,000,000.00$ and not ${1},{000},{000}.{00}$.  When combined with the previous difference, this means that `$t^3.2$` renders as $t^3.2$ instead of $t^{3}.2$.  Either use braces or spaces.  (However, for some reason, `$t^3,2$` renders as $t^3,2$ like you\'d expect from TeX, so the two differences don\'t interact entirely logically.  This might have been different in earlier versions of iTeX.)
+
+* Operator names.  Since iTeX does not have macro support, extending the list of operator names would be difficult except for the fact that neighbouring strings of letters get combined into an operator name.  Thus `$cos$` produces $cos$.  However, in LaTeX this produces $c o s$.  Where the operator name is a standard LaTeX one, such as `\cos`, the backslash can be added so `$\cos$` renders correctly in both cases.  Where the operator name is not a standard LaTeX one, say `Poly`, the **safe** syntax is to use `\operatorname`; thus `$\operatorname{Poly}$` renders correctly as $\operatorname{Poly}$ in both situations.  If you *don\'t* want an operator name, then use spaces; thus `$c o s$` produces $c o s$.
+
+* Whitespace in embedded text.  In LaTeX `$x \text{ and } y$` renders as $x\;\text{and}\;y$ but in iTeX it renders as $x\text{ and }y$.  This is because MathML says that fore and aft whitespace on `mtext` elements should be swallowed.  The **safe** syntax is `$x\;\text{and}\;y$`.
+
+* Two-character relations.  In LaTeX, two neighbouring relation symbols are combined into one relation symbol.  Thus `$y := f(x)$` becomes $y \mathrel{:=} f(x)$, while `$y = -f(x)$` becomes $y = -f(x)$ because a minus sign is a unary operator instead of a binary relation.  Since MathML doesn\'t know the difference between unary operators and binary relations, it is inconvenient for iTeX to do this, so `$y := f(x)$` comes out as $y := f(x)$ instead.  The __safe__ syntax is `$y \mathrel{:=} f(x)$`, which produces $y \mathrel{:=} f(x)$.  However, in many cases, there is a combined command that you can use.  In this case, `$y \coloneqq f(x)$` produces $y \coloneqq f(x)$.  This method is better when [available](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html); even in LaTeX, it will adjust the vertical positioning a bit to look nice.
+
+* Non-ascii characters.  iTeX is designed only to parse the mathematical sections of any page and so it assumes that any strange characters will be generated via iTeX commands such as `\infty` instead of being directly input as ?.  iTeX actually takes an extreme view on this and will not parse mathematics if it includes non-ascii characters.  In ordinary mathematics this should not be a problem since one should use the iTeX commands themselves to produce such characters.  Where it can be a problem is in `\text` commands embedded in mathematics because these are **still** parsed by iTeX even though it does nothing with them.  Thus `\text{?}` is not a legal construct and will simply produce $\text{?}$.  Since iTeX does not allow nesting, the construction `\text{$\infty$}` will not work.  There are two possibilities:
+   1. Break the `\text` command: `\text{in~}\infty{-categories}` produces $\text{in}\;\infty{-categories}$ (note the forced space, simple whitespace there will not work).
+   2. Use **numbered** entities: `\text{in ∞-categories` produces $\text{in ∞-categories}$.  Named entities will not work here as they get converted to unicode internally before being sent to the iTeX parser.
+
+#### How do I make less-than and greater-than signs?
+
+The characters < and > are interpreted as beginning or ending HTML tags.  To make a less-than or greater-than sign in iTeX math mode, use `\lt` and `\gt` respectively.  For example, `$0\lt 1$` produces $0\lt 1$.
+
+### How do I get accented characters?
+
+You can use HTML/XML/SGML [character entity references](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references).  If the character you want has a mnemonic HTML name, like &amp;eacute; for &eacute;, you can use that.  Otherwise, you can use an SGML numerical code, like &amp;#x34AB; for &#x34AB;, that corresponds directly to Unicode.  To look up the numbers for SGML characters, try the [Unicode Character Names Index](http://unicode.org/charts/charindex.html).  [[Toby Bartels|Toby]] has a [complete list of HTML and XML character entity references](http://tobybartels.name/characters/) (or try the Unicode Databank pages listed below) with individual pages where you can check browser compliance (originally for when you couldn\'t take even things like &amp;harr; for granted, but even now &amp;lrm; and &amp;thinsp; may be lacking).  While you can use this technique for mathematical symbols too, it\'s best to do those in iTeX as explained above.
+
+* [Unicode Data Bank](http://www.sql-und-xml.de/unicode-database/) pages:
+  1.  [Math Symbols](http://www.sql-und-xml.de/unicode-database/sm.html)
+  1.  [Math Operators](http://www.sql-und-xml.de/unicode-database/mathematical-operators.html)
+  1.  [Math Miscellaneous A](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-a.html)
+  1.  [Math Miscellaneous B](http://www.sql-und-xml.de/unicode-database/miscellaneous-mathematical-symbols-b.html)
+  1.  [Letterlike Symbols](http://www.sql-und-xml.de/unicode-database/letterlike-symbols.html)
+  1.  [Miscellaneous Symbols](http://www.sql-und-xml.de/unicode-database/miscellaneous-symbols.html)
+  1.  [General Punctuation](http://www.sql-und-xml.de/unicode-database/general-punctuation.html)
+  1.  [Open Punctuation](http://www.sql-und-xml.de/unicode-database/ps.html)
+  1.  [Other Punctuation](http://www.sql-und-xml.de/unicode-database/po.html)
+  1.  [Close Punctuation](http://www.sql-und-xml.de/unicode-database/pe.html)
+  1.  [Geometric Shapes](http://www.sql-und-xml.de/unicode-database/geometric-shapes.html)
+  1.  [Other Symbols](http://www.sql-und-xml.de/unicode-database/so.html)
+  1.  [Dingbats](http://www.sql-und-xml.de/unicode-database/dingbats.html)
+
+
 
 ### How to make links to subsections of a page ##
  {#HowToMakeLinksToSubsections}
@@ -1242,24 +1323,31 @@ The $n$Lab serves mathematical symbols as [MathML](http://en.wikipedia.org/wiki/
 
 Older unmaintained browsers like Internet Explorer, as well as a few obscure mobile and desktop browsers,
 fall back to rendering MathML formulas using the [MathJax](https://www.mathjax.org/) [polyfill](https://en.wikipedia.org/wiki/Polyfill_(programming%29). This works, but is slow.  On small pages it is fine, on larger pages with many formulas MathJax may take up to several minutes for rendering.
- 
-### How to search the nLab & nForum from firefox
 
-(Firefox - and clones - specific)
 
-Here are some search plugins for firefox that will let you search the nLab from the firefox search bar.  **EDIT:** These are old and may not work with recent versions of Firefox.  Instead you can use the [search engine creator plugin](https://addons.mozilla.org/en-US/firefox/addon/search-engine-creator/).  Someone should update these files to conform to [OpenSearch](https://developer.mozilla.org/en-US/Add-ons/Creating_OpenSearch_plugins_for_Firefox); then they might work with other browsers too.
+### How to deal with nLab's spam protection ("Access denied" error when editing a page)
 
-* [[nlab-search.xml:file]]: searches the nLab (like the search box at the top of every page).
-* [[nlab-goto.xml:file]]: takes you directly to the page with a given exact title (if it exists; otherwise it takes you to an edit box to create such a page).
-* [[nlab-edit.xml:file]]: takes you directly to the "edit" page for a given title.
-* [[nforum-topic-search.xml:file]]: searches the nForum Topics.
-* [[nforum-comment-search.xml:file]]: searches the nForum Comments.
+The _n_Lab has a spam filter that checks your IP against a blacklist.  The blacklists used are maintained by [spamcop.net](http://www.spamcop.net/) and [spamhaus.org](http://www.spamhaus.org/).  IPs are added to these lists if they are detected doing things usually associated with computers infected with viruses.  There are instructions on the webpages for finding out if your IP has been added to these lists and what to do to remove your IP from them.  Three things to point out are:
 
-It would be nice if these had different icons.  To use one or more of these, drop them in the 'searchplugins' directory of your firefox profile.
+1. The _n_Lab cannot remove your IP from the list, you have to do that yourself.
+2. The _n_Lab is not going to remove its spam protection.
+3. If you got your IP dynamically (e.g. using some wireless providers) it is entirely possible that it is not your computer that was behaving badly but a previous one using the same IP.  A quick workaround is to disconnect from the network and try reconnecting (sometimes you have to wait a bit before reconnecting to get a new IP).  Of course, you should ensure that your virus software is up to date.
 
-Alternatively, you can try the [add to search bar](https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/) add-on for Firefox.  This will let you right-click in the search box on any page and add it to your search bar.  (You can't duplicate the "goto" and "edit" plugins this way, though.)
+### How to deal with nLab's internal errors
 
-If DuckDuckGo is your search engine, you can type "!nl" to search nLab, e.g. "!nl morphism".
+Sometimes something doesn't work quite right with the software and it bails out.  If you think that you were doing something that should work, please log the error message at the [nForum](https://nforum.ncatlab.org/).  The more information that you log, the easier it is for us to debug.  Useful information is: your IP, the time and date, and the URL that you were trying to access.
+
+There is actually more information contained in the HTML source of the error message ("view source"): some errors can be down to malformed input when editing a page and that can help you fix it yourself.
+
+### How to search the nLab
+
+The [[home page]] has a (rather slow) search box.
+
+Instiki's search uses regular expressions.  That means you can do all sorts of fancy searches, but it also means that pages with special characters in their names are hard to search for.  For instance, if you search for `(n,r)-category` you will come up with nothing, because Instiki interprets the parentheses as a regular expression grouping construct.  To search for actual parentheses, you need to backslash them: search instead for `\(n,r\)-category`.
+
+### How to search the nLab from DuckDuckGo
+
+If DuckDuckGo is your search engine, you can type "!nl" to search the nLab, e.g., "!nl morphism".
 
 ### How to edit nLab pages in your favorite text editor
 
