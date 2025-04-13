@@ -20,7 +20,7 @@ This page is to record material related to:
 
   _Spectral Algebraic Geometry_ 
 
-  ([pdf]( http://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
+  ([pdf]( https://www.math.ias.edu/~lurie/papers/SAG-rootfile.pdf))
 
 on [[spectral algebraic geometry]].
 
