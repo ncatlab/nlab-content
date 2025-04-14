@@ -136,15 +136,20 @@ Two parallel maps $f, g : E \to E'$ in $\mathbf{ESS}$ are homotopic (written $f 
 
 It is shown in [Staton & Winskel](#StatonWinskel) that with the introduction of symmetry, event structures represent all presheaves over $\mathbf{P}$. Here the functor $\mathbf{ESS} \to \mathrm{PSh}(\mathbf{P})$ takes $E$ to the presheaf $P \mapsto \mathbf{ESS}(P, E)/~$, where we quotient by homotopy of maps. 
 
+## Relationship with Petri nets
+
+Since they were first described ([NPW 81](#NPW81)), event structures have been associated with [[Petri nets]]. Proofs have been given demonstrating the correspondence between classes of event structure and classes of Petri Net, see, for example, ([van Glabbeek & Plotkin](#GlabbeekPlotkin)).
+
 ##References##
 
 Event structures were introduced in:
 
-* [[G. Winskel]], _Event Structures_, in _Advances in Petri Nets 1986_. Springer Lecture Notes in Computer Science 255, 1987, ([pdf](https://www.cl.cam.ac.uk/~gw104/Winskel1987_Chapter_EventStructures.pdf)).
+* {#NPW81} M. Nielsen, G. D. Plotkin, and [[G. Winskel]], _Petri nets, event structures and domains, part I_, Theoretical Computer Science, vol. 13, pp. 85–108, 1981. [doi:10.1016/0304-3975(81)90112-2](https://doi.org/10.1016/0304-3975%2881%2990112-2)
+
 
 Other papers on event structures:
 
-* M. Nielsen, G. D. Plotkin, and [[G. Winskel]], _Petri nets, event structures and domains, part I_, Theoretical Computer Science, vol. 13, pp. 85–108, 1981. [doi:10.1016/0304-3975(81)90112-2](https://doi.org/10.1016/0304-3975%2881%2990112-2)
+* [[G. Winskel]], _Event Structures_, in _Advances in Petri Nets 1986_. Springer Lecture Notes in Computer Science 255, 1987, ([pdf](https://www.cl.cam.ac.uk/~gw104/Winskel1987_Chapter_EventStructures.pdf)).
 
 * [[G. Winskel]] and M. Nielsen, Models for concurrency. vol. 3, Handbook of Logic in Computer Science, pages 100 - 200, Oxford Univ. Press, 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
@@ -156,7 +161,7 @@ Other papers on event structures:
 
 * {#StatonWinskel} [[Sam Staton]] and [[G. Winskel]], On the expressivity of symmetry in event structures, [LICS 2010](http://www.cl.cam.ac.uk/~gw104/lics2010final.pdf)
 
-* R.J. van Glabbeek, [[Gordon Plotkin]], _Configuration Structures, Event Structures and Petri Nets_ &lbrack;[arXiv:0912.4023](https://arxiv.org/abs/0912.4023)&rbrack;
+* {#GlabbeekPlotkin} R.J. van Glabbeek, [[Gordon Plotkin]], _Configuration Structures, Event Structures and Petri Nets_ &lbrack;[arXiv:0912.4023](https://arxiv.org/abs/0912.4023)&rbrack;
 
 
 [[!redirects event structure]]
