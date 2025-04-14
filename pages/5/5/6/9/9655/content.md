@@ -41,4 +41,8 @@ On [[polynomials]] and [[linear transformations]]:
 
 * [[Fred Richman]], *Polynomials and linear transformations*. Linear Algebra and its Applications, Volume 131, 1 April 1990, Pages 131-137. &lbrack;<a href="https://doi.org/10.1016/0024-3795(90)90379-Q">doi:10.1016/0024-3795(90)90379-Q</a>&rbrack;
 
+On [[uniform continuity]] and the [[fan theorem]]:
+
+* [[William H. Julian]], [[Fred Richman]], *A uniformly continuous function on [0,1] that is everywhere different from its infimum*, Pacific Journal of Mathematics, 111(2), 1984, pp. 333–340. ([10.2140/pjm.1984.111.333](https://doi.org/10.2140/pjm.1984.111.333))
+
 category: people
