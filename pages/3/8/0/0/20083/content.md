@@ -32,7 +32,7 @@ $$
 
 Specifically this applies to the special case where $G \subset $ [[SU(2)]] a [[finite subgroup of SU(2)]] and $V$ its defining representation on $\mathbb{C}^2$. The [[McKay correspondence]] states that in this case the corresponding McKay quivers are [[Dynkin quivers]]/[[Dynkin diagrams]] in the same [[ADE classification]] as the [[ADE singularity]] $\mathbb{C}^2 \sslash G$.
 
-More precisely: If one uses _all_ [[irreducible representations]] including the 1-dimensiona [[trivial representation]] $\rho_0$ then one gets the "extended Dynkin diagram", where the extra node corresponds to $\rho_0$. This is the vertex indicated by a cross in the following diagrams:
+More precisely: If one uses _all_ [[irreducible representations]] including the 1-dimensional [[trivial representation]] $\rho_0$ then one gets the "extended Dynkin diagram", where the extra node corresponds to $\rho_0$. This is the vertex indicated by a cross in the following diagrams:
 
 
 \begin{center}
