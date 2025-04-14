@@ -16,13 +16,15 @@
 
 ## Definition ## 
 
-Let $\mathcal{C}$ be a [[fusion category]]. The vector space
+Let $\mathcal{C}$ be a [[fusion category]]. The [[vector space]]
 
 $$
-Tube (\mathcal{C}) := \bigoplus_{a,b,c \in \mathcal{I}} \mathcal{C}(c \otimes a, b \otimes c),
+  Tube (\mathcal{C}) 
+  \coloneqq 
+  \bigoplus_{a,b,c \in \mathcal{I}} \mathcal{C}(c \otimes a, b \otimes c),
 $$
 
-for $\mathcal{I}$ the set of [[simple object|simple objects]] of $\mathcal{C}$, has an [[associative unital algebra|algebra]] structure. This is called the **Tube** (or Ocneanu) **algebra**. For $\epsilon \in \mathcal{C}(x \otimes a, a \otimes y)$, $\epsilon' \in \mathcal{C}(x' \otimes a', a' \otimes y')$, their product is given by
+for $\mathcal{I}$ the set of [[simple object|simple objects]] of $\mathcal{C}$, has an [[associative unital algebra|algebra]] structure. This is called the **Tube** (or [[Adrian Ocneanu|Ocneanu]]) **algebra**. For $\epsilon \in \mathcal{C}(x \otimes a, a \otimes y)$, $\epsilon' \in \mathcal{C}(x' \otimes a', a' \otimes y')$, their product is given by
 
 $$
 \epsilon \cdot \epsilon' = \delta_{y,x'} \sum_{b,\alpha} (\alpha \otimes \text{id}_{y'}) (\text{id}_a \otimes \epsilon') (\epsilon \otimes \text{id}_{a'}) (\text{id}_x \otimes \alpha^* ),
@@ -38,7 +40,7 @@ The [[category of representations]] of the tube algebra $Tube(\mathcal{C})$ of $
 
 ### Relation to action on Hilbert spaces
 
-In the context of a [[conformal field theory|2d CFT]], twist fields are thought of as elements of a twist Hilbert space $\mathcal{H}_a$ for $a \in \mathcal{I}$. The [[action]] of $b\in \mathcal{I}$ (essentially by conjugation) is described by an element $x\in \mathcal{C}( b\otimes a, c \otimes b)$. Thus, the tube algebra $Tube(\mathcal{C})$ acts on the total Hilbert space $\mathcal{H} = \bigoplus_{a\in \mathcal{I}} \mathcal{H}_a$, meaning the latter is a representation of the tube algebra, and by the equivalence above is identified with an object in the Drinfeld center $\mathcal{Z}(\mathcal{C})$ of $\mathcal{C}$. See e.g. ([Lin et al. 23](#Linetal23)).
+In the context of a [[conformal field theory|2d CFT]], twist fields are thought of as elements of a twist [[Hilbert space]] $\mathcal{H}_a$ for $a \in \mathcal{I}$. The [[action]] of $b\in \mathcal{I}$ (essentially by [[conjugation action|conjugation]]) is described by an element $x\in \mathcal{C}( b\otimes a, c \otimes b)$. Thus, the tube algebra $Tube(\mathcal{C})$ [[action|acts]] on the total [[Hilbert space]] $\mathcal{H} = \bigoplus_{a\in \mathcal{I}} \mathcal{H}_a$, meaning the latter is a [[representation]] of the tube algebra, and by the equivalence above is identified with an object in the [[Drinfeld center]] $\mathcal{Z}(\mathcal{C})$ of $\mathcal{C}$. See e.g. ([Lin et al. 23](#Linetal23)).
 
 ## References
 
