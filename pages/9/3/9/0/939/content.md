@@ -236,7 +236,7 @@ given by the (co-)[[Kleisli extension|bind-operation]] on the factors connected 
 
 ## Algebras for a distributive law
 
-Given a composite monad $T S$ arising from a distributive law $l : S T \Rightarrow T S$, an algebra for $T S$ comprises an object $A$ with both $S$- and $T$-algebra structures $s : SA \to A$ and $t : TA \to A$ satisfying the following compatibility law.
+Given a composite monad $T S$ arising from a distributive law $l : S T \Rightarrow T S$, an algebra for $T S$ comprises an object $A$ with both $S$- and $T$-algebra structures $s : S A \to A$ and $t : T A \to A$ satisfying the following compatibility law.
 \begin{tikzcd}
 	STA && TSA \\
 	SA && TA \\
