@@ -63,7 +63,9 @@ The original articles:
 
 Review:
 
-* {#Redei} [[Miklós Rédei]], _Von Neumann's proof of Uniqueness of Schrödinger representation of Heisenberg's commutation relation_ ([[RedeiCCRRepUniqueness.pdf:file]])
+* [[Amritanshu Prasad]]: *An easy proof of the Stone-von Neumann-Mackey theorem*, Expositiones Mathematicae **29** (2011) 110-118 &lbrack;[arXiv:0912.0574](https://arxiv.org/abs/0912.0574), [doi:10.1016/j.exmath.2010.06.001](https://doi.org/10.1016/j.exmath.2010.06.001)&rbrack;
+
+* {#Redei} [[Miklós Rédei]]: _Von Neumann's proof of Uniqueness of Schrödinger representation of Heisenberg's commutation relation_ &lbrack;[[RedeiCCRRepUniqueness.pdf:file]]&rbrack;
 
 
 Further discussion:
