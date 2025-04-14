@@ -100,7 +100,7 @@ and this definition and basic examples are briefly collected in
 
 See also
 
-* G. Lion, [[Michele Vergne]], _The Weil representation, Maslov index and theta series_, Progress in Math. __6__, Birkh&#228;user 1980 (Rus. transl. Mir 1983).
+* Gérard Lion, [[Michèle Vergne]]: *The Weil representation, Maslov index and Theta series*, Progress in Mathematics **6**, Birkhäuser (1980) &lbrack;[doi:10.1007/978-1-4684-9154-8](https://doi.org/10.1007/978-1-4684-9154-8)&rbrack;
 
 * [[Alan Weinstein]], _The Maslov gerbe_, Lett. Math. Phys. __69__, 1-3, July, 2004, [doi](http://dx.doi.org/10.1007/s11005-004-0342-2). ([arXiv:0312274](http://arxiv.org/abs/math/0312274))
 
