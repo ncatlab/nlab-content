@@ -25,7 +25,7 @@
 
 ## Idea
 
-A family of [[axioms]] in [[constructive mathematics]] which are provable from the [[principle of excluded middle]]. They imply their respective versions of the [[fan theorem]], since bar induction is about [[Baire space]] while the fan theorem is about [[Cantor space]], which is a subspace of Baire space. 
+A family of [[axioms]] in [[constructive mathematics]] which are provable from the [[principle of excluded middle]]. They imply their respective versions of the [[fan theorem]], since bar induction is about [[Baire space of sequences]] while the fan theorem is about [[Cantor space]], which is a subspace of Baire space. 
 
 > This page should contain the classical proof of full bar induction, as well as Brouwer’s reasoning for why bar induction should hold. 
 
@@ -45,6 +45,8 @@ Let $\mathbb{N}^*$ denote the [[list]] of [[natural numbers]]. A [[bar]] is a su
 
 $\Sigma_1^0$ bar induction and thus the full bar induction implies the [[limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$. 
 
+Monotone bar induction is equivalent to [[Baire space of sequences|Baire space]] being [[spatial locale|spatial]] as a [[locale]]. 
+
 ## Related concepts
 
 * [[bar]]
@@ -63,6 +65,10 @@ and Philosophy of Science III, Studies in Logic and the Foundations of Mathemati
 Amsterdam, 1968. North-Holland.
 
 * [[Michael Fourman]], [[Martin Hyland]], _Sheaf Models for Analysis_ , pp.280-301 in Fourman, Mulvey, Scott (eds.), _Applications of Sheaves_ , LNM **753** Springer Heidelberg 1979. ([draft](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Oldpapers/analysis79.pdf), 6.64 MB)
+
+* [[Anne Sjerp Troelstra]], [[Dirk van Dalen]]: *Constructivism in Mathematics -- An introduction*, Volume I, Studies in Logic and the Foundations of Mathematics **121**, North Holland (1988) &lbrack;[ISBN:9780444702661](https://www.elsevier.com/books/constructivism-in-mathematics-vol-1/troelstra/978-0-444-70266-1)&rbrack;
+
+* [[Nicola Gambino]], [[Peter Schuster]], *Spatiality for formal topologies* Mathematical Structures in Computer Science. 2007;17(1):65-80. ([doi:10.1017/S0960129506005810](https://doi.org/10.1017/S0960129506005810)) 
 
 * [[Benno van den Berg]], [[Ieke Moerdijk]], *Derived rules for predicative set theory: an application of sheaves* ([arXiv:1009.3553](https://arxiv.org/abs/1009.3553))
 
