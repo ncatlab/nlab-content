@@ -28,4 +28,10 @@ On the [[integer Heisenberg group]] describing the [[phase space]] of [[abelian 
 * {#GelcaHamilton15} [[Răzvan Gelca]], [[Alastair Hamilton]]: *The topological quantum field theory of Riemann’s theta functions*, Journal of Geometry and Physics **98** (2015) 242-261 &lbrack;[doi:10.1016/j.geomphys.2015.08.008](https://doi.org/10.1016/j.geomphys.2015.08.008), [arXiv:1406.4269](https://arxiv.org/abs/1406.4269)&rbrack;
 
 
+## Related entries
+
+* [[Stone-von Neumann theorem]]
+
+
+
 [[!redirects Razvan Gelca]]
