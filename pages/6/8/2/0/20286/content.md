@@ -18,7 +18,8 @@ Named after [[Ernst Leonard Lindelöf]].
 
 ## Definition
 
-A [[topological space]] is a _Lindel&#246;f space_ if every [[open cover]] has a [[countable set|countable]] subcover.
+A [[topological space]] is a _weakly Lindel&#246;f space_ if every [[open cover]] has a [[countable]] subcollection the union of which is dense.
+
 ## Related properties and theorems
 
 [[!include topology - countability axioms]]
