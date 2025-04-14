@@ -41,6 +41,12 @@ See also:
 
 
 
+## Related entries
+
+* [[Stone-von Neumann theorem]]
+
+
+
 
 
 category: people
