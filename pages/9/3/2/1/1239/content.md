@@ -194,6 +194,9 @@ and more generally for [[compact Lie groups]]:
 
 * {#FultonHarris91} [[William Fulton]], [[Joe Harris]]: _Representation Theory: a First Course_, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
 
+* [[Amritanshu Prasad]]: *Representation theory -- A Combinatorial Viewpoint*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781139976824](https://doi.org/10.1017/CBO9781139976824)&rbrack;
+
+
 In the context of [[physics]] and specifically [[quantum mechanics]] (cf. *[[Gruppenpest]]*):
 
 * J. F. Cornwell: *Group Theory in Physics -- An Introduction*, Academic Press (1997) \[<a href="https://www.sciencedirect.com/book/9780121898007/group-theory-in-physics">ISBN:9780121898007</a>, [doi:10.1016/B978-0-12-189800-7.X5000-6](https://doi.org/10.1016/B978-0-12-189800-7.X5000-6)\]
