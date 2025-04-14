@@ -26,6 +26,8 @@ Expositions:
 * [[Grigorios Giotopoulos]]: *Sheaf Topos Theory as a setting for Physics*, talk at *[Workshop on Noncommutative and Generalized Geometry in String Theory](http://www.physics.ntua.gr/corfu2024/nc.html)*, Corfu Summer Institute (2024) &lbrack;[[Giotopoulos-ToposTheoryForPhysics.pdf:file]]&rbrack;
   > (also on [[super smooth sets]])
 
+* [[Grigorios Giotopoulos]]: *Sheaf Topos Theory: A powerful setting for Lagrangian Field Theory* &lbrack;[arXiv:2504.08095](https://arxiv.org/abs/2504.08095)&rbrack;
+
 
 On [[geometry of physics -- flux quantization|flux quantization]] of the [[supergravity C-field]] via [[superspace]]-formulation of [[on-shell]] [[D=11 supergravity]]:
 
