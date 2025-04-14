@@ -5,6 +5,9 @@ Nicola Gambino is associate professor of [[mathematics]] at Manchester.
 
 ## Selected writings
 
+On [[enough points|spatiality]] of [[formal topologies]]:
+
+* [[Nicola Gambino]], [[Peter Schuster]], *Spatiality for formal topologies* Mathematical Structures in Computer Science. 2007;17(1):65-80. ([doi:10.1017/S0960129506005810](https://doi.org/10.1017/S0960129506005810)) 
 
 On [[inductive types]] in [[homotopy type theory]] via homotopy-[[initial algebras over an endofunctor]]:
 
