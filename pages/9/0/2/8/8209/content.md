@@ -77,11 +77,12 @@ See the references [below](#ReferencesInEarlyUniverseCosmology).
 
 * [[quarkonium]]
 
+
 ## References
 
 ### General
 
-* Stanislaw Mrowczynski, _Quark-Gluon Plasma_, Acta Phys.Polon.B29:3711, 1998 ([arXiv:nucl-th/9905005](https://arxiv.org/abs/nucl-th/9905005))
+* Stanislaw Mrowczynski, _Quark-Gluon Plasma_, Acta Phys. Polon. B **29** (1998) 3711 &lbrack;[arXiv:nucl-th/9905005](https://arxiv.org/abs/nucl-th/9905005)&rbrack;
 
 * {#Haseeb09} Mahnaz Q. Haseeb, _Introduction to Quark Gluon Plasma_, 2009 ([[HaseebQuarkGluonPlasma.pdf:file]])
 
@@ -92,6 +93,8 @@ See the references [below](#ReferencesInEarlyUniverseCosmology).
 * {#Blaizot04} Jean-Paul Blaizot, around p. 17 of _Thermodynamics of the high temperature Quark-Gluon Plasma_, AIP Conf. Proc. 739, 63-96 (2004) ([doi:10.1063/1.1843592](https://doi.org/10.1063/1.1843592))
 
 * Jacopo Ghiglieri, Aleksi Kurkela, Michael Strickland, Aleksi Vuorinen, _Perturbative Thermal QCD: Formalism and Applications_ ([arXiv:2002.10188](https://arxiv.org/abs/2002.10188))
+
+* W. Busza, W.A. Zajc: *The Early History of the Quark-Gluon Plasma* &lbrack;[arXiv:2504.08720](https://arxiv.org/abs/2504.08720)&rbrack;
 
 
 See also
