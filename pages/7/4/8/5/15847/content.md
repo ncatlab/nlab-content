@@ -18,6 +18,10 @@ On the [[integer Heisenberg group]] describing the [[phase space]] of [[abelian 
 
 ## Related entries
 
-* [[theta function]], [[quantization of 3d Chern-Simons theory]]
+* [[theta function]]
+
+* [[quantization of 3d Chern-Simons theory]]
+
+* [[Stone-von Neumann theorem]]
 
 category: people
