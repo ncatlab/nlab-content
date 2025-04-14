@@ -26,10 +26,14 @@ The [[continuous functions]] from Baire space to itself serve the role of _compu
 
 * [[irrational number]]
 
+* [[Cantor space]]
+
 [[!include computable mathematics -- table]]
 
 
 ## References
+
+* [[Tatsuji Kawai]], [[Giovanni Sambin]], *The principle of pointfree continuity*, Logical Methods in Computer Science, Volume 15, Issue 1 (March 5, 2019). ([doi:10.23638/LMCS-15%281%3A22%292019](https://doi.org/10.23638/LMCS-15%281%3A22%292019), [arXiv:1802.04512](https://arxiv.org/abs/1802.04512))
 
 Lecture notes include
 
