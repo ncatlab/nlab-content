@@ -171,7 +171,7 @@ which is [[irreducible representation|irreducible]] in that $L^2(A)$ does not ha
 
 Moreover, every other [[continuous map|continuous]] [[unitary representation]] $\widehat{(-)} \,\colon\, H(A) \xrightarrow{\;} \mathscr{H}$ on some [[separable Hilbert space|separable]] [[complex number|complex]] [[Hilbert space]] $\mathscr{H}$,  for which $\widehat{\zeta}^t \,=\, e^{2 \pi \mathrm{i}t}\, \mathrm{id}$, is [[isomorphism|isomorphic]] to an [[orthogonality|orthogonal]] [[direct sum]] of copies of this representation. 
 \end{theorem}
-([Prasad 2011 §4.1](#Prasad11))
+The original proofs are due to [Mackey 1949](#Mackey1949) and  [Rieffel 1972](#Rieffel72). The above formulation follows [Prasad 2011 §4.1](#Prasad11),
 
 
 ## Related concepts
@@ -200,16 +200,31 @@ The original generalization to Heisenberg groups of locally compact abelian grou
 
 * {#Mackey1949} [[George W. Mackey]]: *A theorem of Stone and von Neumann*, Duke Mathematical Journal, **16** (1949) 313–326 &lbrack;[doi:10.1215/S0012-7094-49-01631-2](https://projecteuclid.org/journals/duke-mathematical-journal/volume-16/issue-2/A-theorem-of-Stone-and-von-Neumann/10.1215/S0012-7094-49-01631-2.short)&rbrack;
 
-* [[Marc Rieffel]], _On the uniqueness of the Heisenberg commutation relations_, Duke Math. J. **39**  4 (1972) 745-752 &lbrack;[doi:10.1215/S0012-7094-72-03982-8](https://projecteuclid.org/journals/duke-mathematical-journal/volume-39/issue-4/On-the-uniqueness-of-the-Heisenberg-commutation-relations/10.1215/S0012-7094-72-03982-8.short)&rbrack;
+* {#Rieffel72} [[Marc Rieffel]]: _On the uniqueness of the Heisenberg commutation relations_, Duke Math. J. **39**  4 (1972) 745-752 &lbrack;[doi:10.1215/S0012-7094-72-03982-8](https://projecteuclid.org/journals/duke-mathematical-journal/volume-39/issue-4/On-the-uniqueness-of-the-Heisenberg-commutation-relations/10.1215/S0012-7094-72-03982-8.short)&rbrack;
 
+On the history of the theorem:
+
+* {#Rosenberg2004} [[Jonathan Rosenberg]]: *A Selective History of the Stone-von Neumann Theorem*, in: *Operator Algebras, Quantization, and Noncommutative Geometry: A Centennial Celebration Honoring John von Neumann and Marshall H. Stone*, Contemporary Mathematics **365**, AMS (2004)  &lbrack;[doi:10.1090/conm/365](https://doi.org/10.1090/conm/365), [pdf](https://www.math.umd.edu/~jmr/StoneVNart.pdf)&rbrack;
 
 Review:
+
+in [[mathematical physics]]:
+
+* [[Michael Reed]], [[Barry Simon]], Thm. VIII.14 in: *Functional Analysis*, Volume I of: *Methods of Modern Mathematical Physics*, Academic Press (1978) &lbrack;[ISBN:9780125850506](https://www.elsevier.com/books/i-functional-analysis/reed/978-0-08-057048-8), [doi:10.1016/B978-0-12-585001-8.X5001-6](https://doi.org/10.1016/B978-0-12-585001-8.X5001-6), [pdf](http://www.astrosen.unam.mx/~aceves/Metodos/ebooks/reed_simon1.pdf)&rbrack;
+
+in [[representation theory]]:
+
+* Gérard Lion, [[Michèle Vergne]], §1.3 in: *The Weil representation, Maslov index and Theta series*, Progress in Mathematics **6**, Birkhäuser (1980) &lbrack;[doi:10.1007/978-1-4684-9154-8](https://doi.org/10.1007/978-1-4684-9154-8)&rbrack;
 
 * {#Prasad11} [[Amritanshu Prasad]]: *An easy proof of the Stone-von Neumann-Mackey theorem*, Expositiones Mathematicae **29** (2011) 110-118 &lbrack;[arXiv:0912.0574](https://arxiv.org/abs/0912.0574), [doi:10.1016/j.exmath.2010.06.001](https://doi.org/10.1016/j.exmath.2010.06.001)&rbrack;
 
 * {#Redei} [[Miklós Rédei]]: _Von Neumann's proof of Uniqueness of Schrödinger representation of Heisenberg's commutation relation_ &lbrack;[[RedeiCCRRepUniqueness.pdf:file]]&rbrack;
 
+in [[Lie theory]]:
 
+* [[Karl-Hermann Neeb]]: *The Stone–von Neumann-Mackey Theorem*, Appendix VIII in: *Holomorphy and Convexity in Lie Theory*, De Gruyter (2000) &lbrack;[doi:10.1515/9783110808148.742](https://doi.org/10.1515/9783110808148.742)&rbrack;
+
+    
 See also:
 
 * Wikipedia, _[Stone-von Neumann theorem](https://en.wikipedia.org/wiki/Stone%E2%80%93von_Neumann_theorem)_
