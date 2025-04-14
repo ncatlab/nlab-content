@@ -47,9 +47,7 @@ And for $rows(\lambda) \leq n-1$ these are also the irreps of the [[special unit
 
 * {#Fulton97} [[William Fulton]], Section 8 of: _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997 ([doi:10.1017/CBO9780511626241](https://doi.org/10.1017/CBO9780511626241))
 
-
-
-* Amritanshu Prasad, *Representations of General Linear Groups* ([doi:10.1017/CBO9781139976824.007](https://doi.org/10.1017/CBO9781139976824.007)), Chapter 6 in: *Representation theory -- A Combinatorial Viewpoint*, Cambridge University Press  2014 ([doi:10.1017/CBO9781139976824](https://doi.org/10.1017/CBO9781139976824))
+* [[Amritanshu Prasad]]: *Representations of General Linear Groups* &lbrack;[doi:10.1017/CBO9781139976824.007](https://doi.org/10.1017/CBO9781139976824.007)&rbrack;, Chapter 6 in: *Representation theory -- A Combinatorial Viewpoint*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781139976824](https://doi.org/10.1017/CBO9781139976824)&rbrack;
 
 
 [[!redirects representation theory of general linear groups]]
