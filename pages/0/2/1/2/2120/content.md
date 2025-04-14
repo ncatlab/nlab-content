@@ -304,3 +304,4 @@ Discussion in [[constructive mathematics]]:
 [[!redirects continuous functions]]
 
 [[!redirects continuity]]
+[[!redirects continuous]]
