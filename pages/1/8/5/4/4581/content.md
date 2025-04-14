@@ -747,6 +747,8 @@ An introduction is in
 
 * [[Ian Anderson]], _Introduction to the variational bicomplex_, in _Mathematical aspects of classical field theory_, Contemp. Math. 132 (1992) 51–73, [PDF](https://digitalcommons.usu.edu/mathsci_facpub/32/).
 
+* Toru Tsujishita, _Formal geometry of systems of differential equations_, Sugaku Expositions 3:1 (1990), 25–73. [PDF](https://dmitripavlov.org/scans/tsujishita-formal-geometry-of-systems-of-differential-equations.pdf).  Japanese original: 辻下 徹. [微分方程式系の形式幾何学](https://doi.org/10.11429/sugaku1947.35.332). 数学 35:4 (1983), 332–357.  
+
 A careful discussion that compares the two versions (one over smooth functions globally of finite jet order, one over smooth functions locally of finite jet order) is in
 
 * G. Giachetta, L. Mangiarotti, [[Gennadi Sardanashvily]], _Cohomology of the variational bicomplex on the infinite order jet space_, Journal of
