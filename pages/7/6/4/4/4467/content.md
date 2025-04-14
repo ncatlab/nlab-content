@@ -241,6 +241,8 @@ $$\frac{
 
 * {#Palmgren05} [[Erik Palmgren]], _From Intuitionistic to Point-Free Topology: On the Foundation of Homotopy Theory_, Logicism, Intuitionism, and Formalism Volume 341 of the series Synthese Library pp 237-253, 2005 ([pdf](http://www2.math.uu.se/~palmgren/homotopy_rev2.pdf))
 
+* [[Nicola Gambino]], [[Peter Schuster]], *Spatiality for formal topologies* Mathematical Structures in Computer Science. 2007;17(1):65-80. ([doi:10.1017/S0960129506005810](https://doi.org/10.1017/S0960129506005810)) 
+
 * {#Tosun20} Ayberk Tosun, _Formal Topology in Univalent Foundations_, ([pdf](https://odr.chalmers.se/handle/20.500.12380/301098), [slides](https://www.cs.bham.ac.uk/~axt978/talks/lab-lunch-formal-topology.pdf))
 
 [[!redirects formal topology]]
