@@ -163,19 +163,6 @@ These 3d TQFTs hence arise from similar algebraic data as the [[Turaev-Viro mode
 =--
 
 
-## Suggestions ##
-
-Here are three things such that it'd be awesome if they were sorted out on this page:
-
-1. Kuperberg's theorem saying that [[abelian category|abelian]] semisimple implies [[linear category|linear]] over some field. [Finite, connected, semisimple, rigid tensor categories are linear](http://arxiv.org/abs/math/0209256)
-
-2. Some correct version of the claim that abelian semisimple is the same as [[idempotent complete category|idempotent complete]] and nondegenerate. [Math Overflow question](http://mathoverflow.net/questions/245/are-abelian-nondegenerate-tensor-categories-semisimple)
-
-3. Good notation distinguishing [[simple object|simple]] versus [[absolutely simple object|absolutely simple]] (is $End(V) = k$ or just $V$ has no nontrivial proper subobjects).
- 
-
-Together 1 and 2 let you go between the two different obvious notions of semisimple which seem a bit muddled here when I clicked through the links.
-
 
 ## Related concepts
 
