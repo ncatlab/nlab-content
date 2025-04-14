@@ -111,11 +111,17 @@ Every fusion category admits a [[pivotal structure]].
 
 Providing a certain condition is satisfied, a pivotal structure on a fusion category can be shown to correspond to a 'twisted' monoidal natural endotransformation of the identity functor on the category, where the twisting is given by the [[pivotal symbols]].
 
+### Tube (Ocneanu) algebra
+
+Every fusion category $\mathcal{C}$ has a [[tube algebra]], which encodes an action by conjugation of $\mathcal{C}$ on itself. See there for more.
+
 
 ### Relation to extended 3d TQFT 
  {#RelationtoTQFT}
 
 Given the data of a [[fusion category]] one can build a 3d [[extended TQFT]] by various means. This is explained by the fact, see below, that fusion categories are (probably precisely) the [[fully dualizable object]]s in the [[3-category]] $MonCat$ of [[monoidal categories]]. By the [[homotopy hypothesis]] this explains how they induce [[3d TQFT]]s.
+
+
 
 
 +-- {: .num_defn #MonCat}
