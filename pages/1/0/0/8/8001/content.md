@@ -48,7 +48,7 @@ $$
 
 * [[spin representation]]
 
-* [[related Langlands program]]
+* [[Langlands program]]
 
 
 
@@ -56,8 +56,8 @@ $$
 
 * {#KashiwaraVergne78} M. Kashiwara; [[Michèle Vergne]], _On the Segal-Shale-Weil Representations and Harmonic Polynomials_, Inventiones mathematicae (1978) ([EuDML](https://eudml.org/doc/142517), [pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN356556735_0044&divID=LOG_0008&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN356556735_0044%7C&targetFileName=PPN356556735_0044_LOG_0008.pdf&))
 
+* Gérard Lion, [[Michèle Vergne]]: *The Weil representation, Maslov index and Theta series*, Progress in Mathematics **6**, Birkhäuser (1980) &lbrack;[doi:10.1007/978-1-4684-9154-8](https://doi.org/10.1007/978-1-4684-9154-8)&rbrack;
 
-* G&#233;rard Lion, [[Michèle Vergne]], _The Weil representation, Maslov index and theta series_, Progress in Math. __6__, Birkh&#228;user 1980. vi+337 pp. 
 
 * [[Joel Robbin]], [[Dietmar Salamon]], _Feynman path integrals and the metaplectic representation_, Math. Z. __221__ (1996), no. 2, 307&#8211;-335, ([MR98f:58051](http://www.ams.org/mathscinet-getitem?mr=98f:58051), [doi](http://dx.doi.org/10.1007/BF02622118), [[RobbinSalamonMetaplectic.pdf:file]])
 
