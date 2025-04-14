@@ -43,7 +43,7 @@ which puts you into nLab and highlights the formula hit (in gray).
 
 +-- {: .standout style="text-align: center"}
  *Search the nLab using Google:*
- <form  name="gsearch" method="get" action="http://www.google.com/search"><input type="text" size="30" name="as_q" style="display: inline"/><input type="hidden" name="as_sitesearch" value="http://ncatlab.org/nlab/"/></form>
+ <form  name="gsearch" method="get" action="https://www.google.com/search"><input type="text" size="30" name="as_q" style="display: inline"/><input type="hidden" name="as_sitesearch" value="http://ncatlab.org/nlab/"/></form>
 =--
 
 ## Formula Search 
