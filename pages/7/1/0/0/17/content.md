@@ -191,8 +191,6 @@ There are numerous ways you can help out and get acquainted with the community e
 
 3.  You can try writing small additions to existing pages, for instance a paragraph or two that helps explain something that puzzled you initially.  If you aren't entirely positive that what you wrote was correct, when you announce your edit at Latest Changes on the nForum, you can mention that you're unsure and someone will usually reassure you or give a correction.
 
-4.  If you don\'t sign your edits, then they are attributed to [[Anonymous]].  We prefer that you sign your edits, but anonymous help is better than none at all, so that option is available to you.
-
 
 
 ### How do I cite a page on the nLab? {#Citing}
