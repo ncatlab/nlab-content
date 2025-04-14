@@ -75,8 +75,9 @@ There are also many special kinds of [[Lie groups]] ([[semisimple Lie group|semi
 
   Encyclopaedia of Mathematical Sciences, Volume 20, Springer 1993
 
+* [[Karl-Hermann Neeb]]: *Holomorphy and Convexity in Lie Theory*, De Gruyter (2000) &lbrack;[doi:10.1515/9783110808148.742](https://doi.org/10.1515/9783110808148.742)&rbrack;
 
-* {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer-Verlag New York, 2012 ([doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8))
+* {#HilgertNeeb12} Joachim Hilgert, [[Karl-Hermann Neeb]], _Structure and Geometry of Lie Groups_, Springer Monographs in Mathematics, Springer (2012) &lbrack;[doi:10.1007/978-0-387-84794-8](https://link.springer.com/book/10.1007/978-0-387-84794-8)&rbrack;
 
 
 * {#Okounkov18} [[Andrei Okounkov]], _New worlds for Lie theory_, talk at [ICM 2018](http://www.icm2018.org/portal/en/home) ([pdf](http://www.math.columbia.edu/~okounkov/icm.pdf))
