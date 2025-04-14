@@ -1,4 +1,7 @@
 
+George Whitelaw Mackey (1916-2006)
+
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/George_Mackey)
 
 ## Links
