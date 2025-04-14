@@ -9,7 +9,7 @@
 
 ## Some writings
 
-* _On the foundations of constructive mathematics &#8211; especially in relation to the theory of continuous functions_, 2003 ([pdf](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
+* [[Frank Waaldijk]], *On the foundations of constructive mathematics - especially in relation to the theory of continuous functions*, Foundations of Science, Volume 10, pages 249–324, (2005). ([doi:10.1007/s10699-004-3065-z](https://doi.org/10.1007/s10699-004-3065-z), [pdf](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
 
 * _Modern intuitionistic topology_  (PhD thesis, [web](https://www.fwaaldijk.nl/mathematics.html#modernintuitionistic))
 
