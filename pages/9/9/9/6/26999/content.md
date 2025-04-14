@@ -51,7 +51,11 @@ Monotone bar induction is equivalent to [[Baire space of sequences|Baire space]]
 
 * [[bar]]
 
-* [[fan theorem]]
+* [[Heine-Borel theorem]] (The [[locale]] of the [[unit interval]] is a [[spatial locale]].)
+
+* [[fan theorem]] (The [[locale]] of [[Cantor space]] is a [[spatial locale]].)
+
+* [[principle of enough functions]] (The [[locale]] of the [[function space]] $\mathbb{R}^\mathbb{R}$ is a [[spatial locale]].)
 
 ## References
 
@@ -65,6 +69,8 @@ and Philosophy of Science III, Studies in Logic and the Foundations of Mathemati
 Amsterdam, 1968. North-Holland.
 
 * [[Michael Fourman]], [[Martin Hyland]], _Sheaf Models for Analysis_ , pp.280-301 in Fourman, Mulvey, Scott (eds.), _Applications of Sheaves_ , LNM **753** Springer Heidelberg 1979. ([draft](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Oldpapers/analysis79.pdf), 6.64 MB)
+
+* {#Moerdijk84} [[Ieke Moerdijk]], *Heine-Borel Does Not Imply the Fan Theorem*, Journal of Symbolic Logic, vol. 49, no. 2, 1984, pp. 514–519. ([doi:10.2307/2274182](https://doi.org/10.2307/2274182))
 
 * [[Anne Sjerp Troelstra]], [[Dirk van Dalen]]: *Constructivism in Mathematics -- An introduction*, Volume I, Studies in Logic and the Foundations of Mathematics **121**, North Holland (1988) &lbrack;[ISBN:9780444702661](https://www.elsevier.com/books/constructivism-in-mathematics-vol-1/troelstra/978-0-444-70266-1)&rbrack;
 
