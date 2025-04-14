@@ -1,6 +1,10 @@
 **Ieke Moerdijk** is a professor of mathematics at University of Utrecht.  His main interests are in [[sheaf]] and [[topos theory]], [[descent]] and [[cohomology]], [[synthetic differential geometry]], [[operads]], [[groupoids]], [[stacks]] and [[orbifolds]], [[Lie groupoids]] and foliations, and abstract homotopy theory (Quillen [[model categories]]). 
 
-* [website](http://www.math.uu.nl/people/moerdijk/), [wikipedia](http://en.wikipedia.org/wiki/Ieke_Moerdijk), [GQT:researchers](http://www.gqt.nl/members.php)
+* [institute website](https://www.uu.nl/staff/IMoerdijk), 
+
+* [wikipedia](http://en.wikipedia.org/wiki/Ieke_Moerdijk), 
+
+* [GQT:researchers](http://www.gqt.nl/members.php)
 
 The website of the research group is [here](http://www.math.ru.nl/~mgroth/group/group.html).
 
