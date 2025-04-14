@@ -15,6 +15,10 @@ On [[Pontrjagin duality]]:
 
 * {#Mackey48} [[George Mackey]], *The Laplace Transform For Locally Compact Abelian Groups*, Proceedings of the National Academy of Sciences of the United States of America Vol. 34, No. 4 (Apr. 15, 1948), pp. 156-162 ([jstor:87968](https://www.jstor.org/stable/87968))
 
+Modern generalization of the [[Stone-von Neumann theorem]]:
+
+* {#Mackey1949} [[George W. Mackey]]: *A theorem of Stone and von Neumann*, Duke Mathematical Journal, **16** (1949) 313–326 &lbrack;[doi:10.1215/S0012-7094-49-01631-2](https://projecteuclid.org/journals/duke-mathematical-journal/volume-16/issue-2/A-theorem-of-Stone-and-von-Neumann/10.1215/S0012-7094-49-01631-2.short)&rbrack;
+
 On the [[representation theory]] of [[induced representations]] 
 
 * {#Mackey52} [[George Mackey]], *Induced representations of locally compact groups I*, Annals of Mathematics **55** 1 (1952) 101-139 &lbrack;[doi:10.2307/1969423](https://doi.org/10.2307/1969423), [jstor:1969423](https://www.jstor.org/stable/1969423)&rbrack;
