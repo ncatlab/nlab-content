@@ -2838,6 +2838,17 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > In this work we describe large-scale quantum network architectures that are based on quantum sneakernet principles. We outline the basic information transfer protocols, what are the requirements of the quantum technology to realise this type of network and how a quantum sneakernet can be used to form a high-bandwidth, low error rate truck system to a quantum internet.
 
+\linebreak
+
+* 14 Apr 2025
+
+  Ramis Movassagh (Google):
+
+  **Quantum supremacy and advantages beyond time-complexity**
+
+  cf. [nature:s41567-023-02131-2](https://www.nature.com/articles/s41567-023-02131-2), [arXiv:2501.18928](https://arxiv.org/abs/2501.18928)
+
+  > We will discuss various types of [[quantum advantages]]. We start with the state of the art [[quantum complexity theory|complexity theoretical]] evidence for "[[quantum supremacy]]". We then talk about a new result on secure delegation of [[quantum computation]] using random [[quantum circuit|circuits]], which we call "quantum function secret-sharing".
 
 
 \linebreak
