@@ -20,11 +20,11 @@
 ## Idea
  {#Idea}
 
-The _Stone--von Neumann theorem_ --- due to [Stone 1930](#Stone1930), [von Neumann 1931](vonNeumann1931)/[32](vonNeumann1932) ---  says that there is, up to [[isomorphism]], a *unique* [[irreducible representation|irreducible]] [[unitary representation]] of the [[Heisenberg group]] on [[finite set|finitely]] many generators, equivalently: of the [[Weyl algebra]], the [[Weyl relations]], the [[canonical commutation relations]].
+The _Stone--von Neumann theorem_ --- due to [Stone 1930](#Stone1930) and [von Neumann 1931](vonNeumann1931)/[32](vonNeumann1932) ---  says that there is, up to [[isomorphism]], a *unique* [[irreducible representation|irreducible]] [[unitary representation]] of the [[Heisenberg group]] on [[finite set|finitely]] many generators, equivalently: of the [[Weyl algebra]], the [[Weyl relations]], the [[canonical commutation relations]].
 
-This was originally motivated from and has special impact in [[quantum mechanics]], where it says that [[phase spaces]] which are [[symplectic vector spaces]], hence of the form $\mathbb{R}^{2n}$ equipped with their canonical [[symplectic form]] (such as describe for instance [[non-relativistic particles]] propagating on [[Euclidean space]] $\mathbb{R}^n$), have an essentially unique [[quantization]] (disregarding the choice of [[quantization]] of further [[observables]] such as [[Hamiltonians]]), namely with half of the [[canonical coordinates]] on $\mathbb{R}^{2n}$ represented as multiplication operators and the remaining [[canonical momenta]] represented as [[partial derivatives]] on [[square integrable functions]].
+This was originally motivated from and has special impact in [[quantum mechanics]], where it says that [[phase spaces]] which are [[symplectic vector spaces]], hence of the form $\mathbb{R}^{2n}$ equipped with its canonical [[symplectic form]] (such as describe for instance [[non-relativistic particles]] propagating on [[Euclidean space]] $\mathbb{R}^n$), have an essentially unique [[quantization]] (disregarding the choice of [[quantization]] of further [[observables]] such as [[Hamiltonians]]), namely with half of the [[canonical coordinates]] on $\mathbb{R}^{2n}$ represented as multiplication operators and the remaining [[canonical momenta]] represented as [[partial derivatives]] on [[square integrable functions]].
 
-Curiously, the analogous uniqueness statement does _not_ hold for infinitely many generators as they generically appear in [[quantum field theory]]: this is the statement of _[[Haag's theorem]]_.
+Curiously, the analogous uniqueness statement does _not_ hold for infinitely many generators which generically appear in [[quantum field theory]]: this is the statement of _[[Haag's theorem]]_.
 
 It was observed by [Mackey 1949](#Mackey1949) that the Stone-von Neumann theorem naturally generalizes from the usual [[Heisenberg groups]] based on the additive group of [[real numbers]] to analogous Heisenberg groups based on any [[locally compact topological group|locally compact]] [[abelian group]], whence some authors speak of the *Stone-von Neumann-Mackey theorem* (e.g. [Prasad 2011](#Prasad11)). 
 
@@ -33,7 +33,7 @@ For instance, the [[phase space]] of [[abelian Chern-Simons theory]] (a [[quantu
 
 ## Statement
 
-The form of the theorem closest to traditional discussion in [[quantum mechanics]] textbooks is in terms of representations of the [[Lie algebra]] or [[Weyl algebra]] of "[[canonical commutation relations]]"
+The form of the theorem closest to traditional discussion in [[quantum mechanics]] textbooks is in terms of representations of the [[Lie algebra]] or [[Weyl algebra]] of "[[canonical commutation relations]]":
 
 * *[For canonical commutation remations](#ForCanonicalCommutationRelations)*
 
@@ -169,7 +169,7 @@ $$
 $$
 which is [[irreducible representation|irreducible]] in that $L^2(A)$ does not have a [[closed subspace|closed]] [[linear subspace|linear]] proper [[subspace]] [[invariant]] under this action. 
 
-Moreover, every other [[continuous map|continuous]] [[unitary representation]] $\widehat{(-)} \colon H(A) \xrightarrow{\;} \mathscr{H}$ on some [[separable Hilbert space|separable]] [[complex number|complex]] [[Hilbert space]] $\mathscr{H}$,  for which $\widehat{\zeta}^t \,=\, e^{2 \pi \mathrm{i}t}\, \mathrm{id}$, is [[isomorphism|isomorphic]] to an [[orthogonality|orthogonal]] [[direct sum]] of copies of this representation. 
+Moreover, every other [[continuous map|continuous]] [[unitary representation]] $\widehat{(-)} \,\colon\, H(A) \xrightarrow{\;} \mathscr{H}$ on some [[separable Hilbert space|separable]] [[complex number|complex]] [[Hilbert space]] $\mathscr{H}$,  for which $\widehat{\zeta}^t \,=\, e^{2 \pi \mathrm{i}t}\, \mathrm{id}$, is [[isomorphism|isomorphic]] to an [[orthogonality|orthogonal]] [[direct sum]] of copies of this representation. 
 \end{theorem}
 ([Prasad 2011 §4.1](#Prasad11))
 
