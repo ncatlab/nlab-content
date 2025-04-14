@@ -10,6 +10,14 @@
 +-- {: .hide}
 [[!include topology - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
 =--
 =--
 
@@ -201,7 +209,6 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
 ## Related theorem
 
-
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
 * [[Tietze extension theorem]]
@@ -216,6 +223,11 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
 * [[Heine-Cantor theorem]]
 
+* [[fan theorem]] (The [[locale]] of [[Cantor space]] is a [[spatial locale]].)
+
+* [[monotone bar induction]] (The [[locale]] of the [[Baire space of sequences]] is a [[spatial locale]].)
+
+* [[principle of enough functions]] (The [[locale]] of the [[function space]] $\mathbb{R}^\mathbb{R}$ is a [[spatial locale]].)
 
 ## References
 
@@ -224,6 +236,10 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 A proof is spelled out for instance at
 
 * [ProofWiki](http://www.proofwiki.org/wiki/Main_Page),  _Heine-Borel Theorem [(General case)](http://www.proofwiki.org/wiki/Heine-Borel_Theorem_%28General_Case%29),  [(Special case)](http://www.proofwiki.org/wiki/Heine-Borel_Theorem_%28Special_Case%29)_
+
+On the [[Heine-Borel theorem]] not implying the [[fan theorem]] in the absence of [[countable choice]]:
+
+* [[Ieke Moerdijk]], *Heine-Borel Does Not Imply the Fan Theorem*, Journal of Symbolic Logic, vol. 49, no. 2, 1984, pp. 514–519. ([doi:10.2307/2274182](https://doi.org/10.2307/2274182))
 
 On constructing a compact locale from a CTB metric space:
 
