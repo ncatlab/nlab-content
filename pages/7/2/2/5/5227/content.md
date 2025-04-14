@@ -9,7 +9,7 @@ See also the [Petri net](http://www.azimuthproject.org/azimuth/show/Petri+net) i
 
 Petri nets are a well known model of concurrent computation, generalising [[transition systems]] by using a built in notion of resource.  Their use is widespread in modelling manufacturing systems, optimising control systems and in resource critical aspects of operational research, as well as being a useful model of computation.  Because of this they exist in many variants : colored, algebraic, probabilistic, timed, ..., and hence there are many forms of the basic definition, each thought best of that particular application.
 
-The initial use, here, is for their links with [[transition systems]], [[event structures]], [[asynchronous automata]] etc., leading on to their comparison with [[higher dimensional automaton|higher dimensional automata]] and [[higher dimensional transition system]]s, so the first definition we will use is that given by Winskel and Nielsen (see references below), but first we will attempt to give some idea of what a Petri net is and what it does.
+The initial use, here, is for their links with [[transition systems]], [[event structures]], [[asynchronous automata]] etc., leading on to their comparison with [[higher dimensional automaton|higher dimensional automata]] and [[higher dimensional transition system]]s, so the first definition we will use is that given by [Winskel and Nielsen](#WinskelNielsen), but first we will attempt to give some idea of what a Petri net is and what it does.
 
 
 ## Idea
@@ -43,7 +43,7 @@ Parts, represented by 'tokens' are stored in 'places' and the assembly process a
 
 represents a system with three places (labelled $A$, $B$, and $C$) and one event/ transition (labelled $e$).  Shown is a situation represented by an initial 'marking' where there are two tokens in $A$, one in $B$, and none in $C$. (The convention is that places are shown as circles and events as rectangles.)
 
-Suppose that the 'event' takes one 'part' of type $A$, one of type $B$ and produces one of type $C$.  (This is indicated on the diagram by the labels on the edges.  Clearly with the available  resources the even $e$ is able to be performed.  (The usual Petri net jargon for this is that '$e$ is enabled'.) In this case, $e$ can be 'fired' and the result will yield a marking of one token in $A$, none in $B$ and one in $C$.  This sort of structure gets abstracted as follows:
+Suppose that the 'event' takes one 'part' of type $A$, one of type $B$ and produces one of type $C$.  (This is indicated on the diagram by the labels on the edges.  Clearly with the available  resources the event $e$ is able to be performed.  (The usual Petri net jargon for this is that '$e$ is enabled'.) In this case, $e$ can be 'fired' and the result will yield a marking of one token in $A$, none in $B$ and one in $C$.  This sort of structure gets abstracted as follows:
 
 +--{: .un_defn}
 ###### Definition
@@ -118,7 +118,7 @@ where $SSMC$ is the category of [[symmetric monoidal category|strict symmetric m
 
 * [[John Baez]], Fabrizio Genovese, [[Jade Master]], [[Michael Shulman]], _Categories of Nets_, ([arXiv:2101.04238](https://arxiv.org/abs/2101.04238))
 
-* [[G. Winskel]], M. Nielsen, _Models for concurrency_, Handbook of Logic in Computer Science vol. 3, pp. 100 -- 200, Oxford Univ. Press 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
+* {#WinskelNielsen} [[G. Winskel]], M. Nielsen, _Models for concurrency_, Handbook of Logic in Computer Science vol. 3, pp. 100 -- 200, Oxford Univ. Press 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
 * [[John C. Baez]] and [[Jacob Biamonte]], _Quantum techniques in stochastic mechanics_, World Scientific, 2018. [World Scientific](https://www.worldscientific.com/worldscibooks/10.1142/10623#t=suppl) [pdf](http://math.ucr.edu/home/baez/stoch_stable.pdf)
 
@@ -139,9 +139,9 @@ On the categorical semantics of Petri nets:
 * {#gen} [[Jade Master]], _Petri nets based on Lawvere theories_, Mathematical Structures in Computer Science 30, no. 7 (2020): 833-864. Available at [journal](https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/petri-nets-based-on-lawvere-theories/9E0F011860A1285DDC498B740774FBDC)
 
 
-* {#functorial} [[Roberto Bruni]], [[José Meseguer]], [[Ugo Montanari]], and [[Vladimiro Sassone]]. _Functorial models for Petri nets_ Information and Computation 170, no. 2 (2001): 207-236. [pdf](https://eprints.soton.ac.uk/264742/1/prenetsIandCOff.pdf)
+* {#functorial} [[Roberto Bruni]], [[José Meseguer]], [[Ugo Montanari]], and [[Vladimiro Sassone]], _Functorial models for Petri nets_ Information and Computation 170, no. 2 (2001): 207-236. [pdf](https://eprints.soton.ac.uk/264742/1/prenetsIandCOff.pdf)
 
-* {#philosophy} [[Rob J. van Glabbeek]], and [[Gordon Plotkin]]. _Configuration structures, event structures and Petri nets_ Theoretical Computer Science 410, no. 41 (2009): 4111-4159. Available at [pdf](https://arxiv.org/abs/0912.4023)
+* {#philosophy} [[Rob J. van Glabbeek]], and [[Gordon Plotkin]], _Configuration structures, event structures and Petri nets_ Theoretical Computer Science 410, no. 41 (2009): 4111-4159. Available at [pdf](https://arxiv.org/abs/0912.4023)
 
 [[!redirects Petri net]]
 [[!redirects Petri nets]]
