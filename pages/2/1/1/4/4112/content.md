@@ -232,6 +232,8 @@ In fact, every closed subspace $K \hookrightarrow C$ admits a retraction. There 
 
 * [[line with two origins]]
 
+* [[Baire space of sequences]]
+
 ## References
 
 Named after [[Georg Cantor]].
