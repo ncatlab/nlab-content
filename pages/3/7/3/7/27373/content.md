@@ -3,7 +3,7 @@
  {#ReferencesSupersymmetryInFractionalQuantumHall}
 
 
-On hidden/emergent [[supersymmetry]] in [[fractional quantum Hall systems]]. 
+On hidden/emergent [[supersymmetry]] in [[fractional quantum Hall systems]] (cf. *[SuSy between Laughlin and Moore-Read states](Laughlin+wavefunction#SupersymmetryBetweenLaughlinAndMooreReadStates)*):
 
 > (for a similar phenomenon cf. also *[[hadron supersymmetry]]*)
 
