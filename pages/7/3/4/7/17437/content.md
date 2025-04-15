@@ -1,3 +1,8 @@
+
+\tableofcontents
+
+## Idea
+
 A __collineation__ is a bijection from a projective space to a projective space of the same finite dimension which preserves the inclusions of subspaces. Equivalently, it is often defined by a seemingly weaker condition, which is also used in the infinite-dimensional case: a collineation is a bijection of projective spaces which sends each triple of collinear points into a triple of collinear points.
 
 A __projective collineation__ is a collineation such that its restriction to every projective hyperplane is a projective isomorphism. 
