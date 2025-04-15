@@ -17,7 +17,11 @@
 
 ## Idea
 
-(...)
+Projective geometry is the study of the geometrical properties of projective spaces which are invariant under projective maps (transformations). By extension,  projective geometry also studies the geometry of closed subvarieties of projective spaces (projective varieties).
+
+Notice that projective transformations (collineations in the synthetic approach to projective planes) are in general more general than projective linear maps (for real projective spaces it is the same). 
+
+There is also an analogue in differential geometry, [[projective differential geometry]], which includes the differential geometry of properties of projective spaces invariant under the [[projective general linear group]] but also more generally the study of smooth manifolds equipped with a [[projective connection]] (a special case of a [[Cartan connection]] expressing pointwise projective geometry).
 
 ## Related entries
 
@@ -34,6 +38,8 @@
 * [[conic section]]
 
 * [[cross ratio]]
+
+* [[harmonic ratio]]
 
 
 ## References
