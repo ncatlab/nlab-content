@@ -17,7 +17,7 @@
 
 Given a [[complete quadrangle]] and a [[line]] $p$ not through a vertex of the quadrangle and in the same [[plane]] as the quadrangle, consider the 6 points of intersection of sides of the quadrangle with the line $p$. 
 
-*Pappus' involution theorem* is a result in [[projective geometry]] stating that in the above situation there is a [[projective involution]] (a [[projective transformation|projective]] [[automorphism]] which is also an [[involution]]) which interchanges each of the intersections of a side of the quadrangle with $p$ with the intersection of the opposite side of the quadrangle with $p$.
+*Pappus' involution theorem* is a result in [[projective geometry]] stating that in the above situation there is a [[projective involution]] (a [[projective transformation|projective]] [[automorphism]] which is also an [[involution]]) of the line $p$ which interchanges each of the intersections of a side of the quadrangle with $p$ with the intersection of the opposite side of the quadrangle with $p$.
 
 This [[morphism of projective spaces]] is not a perspectivity but a composition of two perspectivities.
 
