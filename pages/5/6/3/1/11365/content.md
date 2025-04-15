@@ -49,3 +49,4 @@ The _projective general linear group_ $PGL(n)$ (in some [[dimension]] $n$ and ov
 
 [[!redirects projective transformation]]
 [[!redirects projective transformations]]
+[[!redirects projective group]]
