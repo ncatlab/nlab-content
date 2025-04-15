@@ -46,7 +46,7 @@ A [[connected space|path-connected]], $n$-connected, orientable and closed $2n+1
 
 * Every [[smooth manifold]] homotopy-[[4-sphere]] is [[homeomorphism|homeomorphic]] to the actual [[4-sphere]].
 
-  (due to [[Michael Freedman]], see [Siebenmann](#Siebenmann))
+  (due to [[Michael Freedman]], see [Siebenmann 1982](#Siebenmann82))
 
 ## Related concepts
 
@@ -60,7 +60,10 @@ A [[connected space|path-connected]], $n$-connected, orientable and closed $2n+1
 
 ## References
 
-* {#Siebenmann} Laurent Siebenmann, _Topological Poincar&eacute; conjecture in dimension 4 (the work of M. H. Freedman)_ ([original fr](https://www.numdam.org/item/?id=SB_1981-1982__24__219_0)), ([translation en](https://celebratio.org/Freedman_MH/article/752/)).
+* {#Siebenmann82} Laurent Siebenmann: *La conjecture de Poincaré topologique en dimension 4*, Séminaire Bourbaki : volume 1981/82, exposés 579-596, Astérisque, no. 92-93 (1982), Talk no. 588 &lbrack;[numdam:SB_1981-1982__24__219_0](https://www.numdam.org/item/?id=SB_1981-1982__24__219_0)&rbrack;
+
+*  Laurent Siebenmann (translation by M. H. Kim & M. Powell): _Topological Poincaré conjecture in dimension 4 (the work of M. H. Freedman)_, Celebratio Mathematica &lbrack;[webpage](https://celebratio.org/Freedman_MH/article/752/)&rbrack;
+
 
 [[!redirects homotopy spheres]]
 
