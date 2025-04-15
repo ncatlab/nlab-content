@@ -3,7 +3,11 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Hermann_Nicolai)
 
-* [inspire page](https://inspirehep.net/authors/995715)
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=96867&fChrono=1)
+
+* [inSpire page](https://inspirehep.net/authors/995715)
+
+* [GoogleScholar page](https://scholar.google.ca/citations?user=NSsKy2kAAAAJ&hl=en)
 
 ## Selected writings
 
