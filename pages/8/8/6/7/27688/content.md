@@ -1,10 +1,13 @@
+
+\tableofcontents
+
 ## Definition
 
-If $V$ is a vector space denote by $p_V: V\backslash\{0\}\to P(V)$ the canonical projection onto the projective space of lines through origin.
+GIven $V$ a [[vector space]], denote by $p_V \colon V\backslash\{0\}\to P(V)$ the canonical projection onto the [[projective space]] of lines through origin.
 
-Given two projective spaces $P(V), P(W)$ over a field or a skewfield $F$, a morphism $g: P(V)\to P(W)$ is a map defined on $P(V)\backslash P(f^{-1}(0))\to P(W)$ for some $F$-linear map $f: V\to W$ satisfying $g\circ p_V = p_W\circ f$ on $V\backslash f^{-1}(0)$.
+Given two projective spaces $P(V), P(W)$ over a [[field]] (or a [[skewfield]]) $F$, a [[morphism]] $g \colon P(V)\to P(W)$ is a [[map]] defined on $P(V)\backslash P(f^{-1}(0))\to P(W)$ for some $F$-[[linear map]] $f: V\to W$ satisfying $g\circ p_V = p_W\circ f$ on $V\backslash f^{-1}(0)$.
 
-If $f$ is an isomorphism then we say that $g$ is a projective isomorphism or [[homography]].
+If $f$ is an [[isomorphism]] then we say that $g$ is a *projective isomorphism* or *[[homography]]*.
 
 ## Literature
 
@@ -13,3 +16,6 @@ If $f$ is an isomorphism then we say that $g$ is a projective isomorphism or [[h
 category: geometry
 
 [[!redirects morphisms of projective spaces]]
+
+[[!redirects projective map]]
+[[!redirects projective maps]]
