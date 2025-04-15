@@ -711,7 +711,10 @@ Review and survey of the FQHE:
 
 * [[Duncan Haldane]]: *Geometry of flux attachment in the fractional quantum hall effect states*, lecture at *CESC Cargèse Corsica July 2017*, abstract published in: *Topological Phase Transitions And New Developments*, World Scientific (2018) 2 &lbrack;[pdf](https://indico.in2p3.fr/event/14018/images/1095-cargese1-haldane.pdf), [[Haldane-FLuxAttachment.pdf:file]], [doi:10.1142/9789813271340_0002](https://doi.org/10.1142/9789813271340_0002)&rbrack;
 
-* [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
+* {#HalperinJain20} [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
+
+* Moty Heiblum, D. E. Feldman: *Edge probes of topological order*, Int. J. Mod. Phys. A **35** 18 (2020) 2030009 &lbrack;[arXiv:1910.07046](https://arxiv.org/abs/1910.07046), [doi:10.1142/S0217751X20300094](https://doi.org/10.1142/S0217751X20300094)&rbrack;
+  > (also chapter 1 in [Halperin & Jain 2020](#HalperinJain20))
 
 * D. E. Feldman, [[Bertrand I. Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
 
