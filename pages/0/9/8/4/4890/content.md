@@ -50,7 +50,7 @@ See [[inner automorphism 2-group]].
 
 * [[outer automorphism group]], [[outer automorphism ∞-group]]
 
-
+  
 
 
 [[!redirects automorphism 2-groups]]
