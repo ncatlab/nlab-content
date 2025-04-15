@@ -60,8 +60,7 @@ A [[connected space|path-connected]], $n$-connected, orientable and closed $2n+1
 
 ## References
 
-* {#Siebenmann} Laurent Siebenmann, _Topological Poincar&eacute; conjecture in dimension 4 (the work of M. H. Freedman)_ (<a href="http://www.profmath.uqam.ca/~powell/[Siebenmann]%20Poincare%20conjecture%20in%20dimension%204.pdf">pdf</a>)
-
+* {#Siebenmann} Laurent Siebenmann, _Topological Poincar&eacute; conjecture in dimension 4 (the work of M. H. Freedman)_ ([original fr](https://www.numdam.org/item/?id=SB_1981-1982__24__219_0)), ([translation en](https://celebratio.org/Freedman_MH/article/752/)).
 
 [[!redirects homotopy spheres]]
 
