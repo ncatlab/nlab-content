@@ -24,7 +24,9 @@ Now, one has to prove that if one takes $A,B,C$ distinct points that there is a 
 
 ### A degenerate case of 6 intersection points of a quadrangle
 
-Given any complete quadrangle and a line in the same projective plane, one can consider the 6 points of intersection of a line with sides of quadrangle and name it in this order: first 3 points, say $A,B,C$, are intersections with the 3 sides passing through a single vertex of the quadrangle, then $E,F,E$ are intersections of the 3 remaining sides opposite to the first 3 sides in the same order. The fact that the 6 points are obtained this way is denoted by $Q(A B C, D E F)$. If $A,B,C,D,E$ are fixed than $F$ can be determined uniquely (it does not depend on a choice of the quadrangle giving the first 5 points). If the line on which the 6-tuple is standing is one of the diagonals of the quadrangle, then two pairs of points coincide by the definition of the diagonal (e.g. $A=D$ and $B = E$)$ and the 6-tuple becomes 4-tuple which is moreover harmonic.
+Given any [[complete quadrangle]] and a line in the same projective plane, one can consider the 6 points of intersection of a line with sides of quadrangle and name it in this order: first 3 points, say $A,B,C$, are intersections with the 3 sides passing through a single vertex of the quadrangle, then $E,F,E$ are intersections of the 3 remaining sides opposite to the first 3 sides in the same order. The fact that the 6 points are obtained this way is denoted by $Q(A B C, D E F)$. If $A,B,C,D,E$ are fixed than $F$ can be determined uniquely (it does not depend on a choice of the quadrangle giving the first 5 points). There is a [[projective involution]] sending each of the 6 intersections of the line with a side of the quadrangle to the intersection of the line with the opposite side ([[Pappus' involution theorem]]).
+
+If the line on which the 6-tuple is standing is one of the diagonals of the quadrangle, then two pairs of points coincide by the definition of the diagonal (e.g. $A=D$ and $B = E$) and the 6-tuple becomes 4-tuple which is moreover harmonic.
 
 ## Harmonic pencil
 
