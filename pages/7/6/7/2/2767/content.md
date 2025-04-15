@@ -50,7 +50,9 @@ Therefore, in this case a functor $F:C\to D$ is essentially constant if and only
 
   is a [[cocone]].
 
-* If $C$ is a strongly connected category (i.e. all hom-sets are non-empty) with small products and $D$ is an essentially small category, then any functor $C\to D$ is isomorphic to a constant functor [FIKZ25](#FIKZ25). For example, any functor from the category of groups to the category of finite groups is isomorphic to a constant functor. 
+* If $C$ is a strongly connected category (i.e. all [[hom-sets]] are [[inhabited set|non-empty]]) with small products and $D$ is an [[essentially small category]], then any functor $C\to D$ is [[natural isomorphism|isomorphic]] to a constant functor ([FIKZ25](#FIKZ25)). 
+
+  For example, any functor from the [[category of groups]]) to the category of [[finite groups]] is isomorphic to a constant functor. 
 
 ## Related concepts
 
@@ -69,4 +71,4 @@ Therefore, in this case a functor $F:C\to D$ is essentially constant if and only
 
 
 
-* {#FIKZ25} [[Emmanuel Dror Farjoun]], [[Sergei O. Ivanov]],  Aleksandr Krasilnikov, Anatolii Zaikovskii, _A note on the non-existence of functors_, Journal of Algebra **675**  (2025) 273-288 &lbrack;[arXiv:2306.04432](https://arxiv.org/abs/2306.04432), [doi:10.1016/j.jalgebra.2025.03.037](https://doi.org/10.1016/j.jalgebra.2025.03.037)&rbrack;
+* {#FIKZ25} [[Emmanuel Dror Farjoun]], [[Sergei O. Ivanov]],  Aleksandr Krasilnikov, Anatolii Zaikovskii: _A note on the non-existence of functors_, Journal of Algebra **675**  (2025) 273-288 &lbrack;[arXiv:2306.04432](https://arxiv.org/abs/2306.04432), [doi:10.1016/j.jalgebra.2025.03.037](https://doi.org/10.1016/j.jalgebra.2025.03.037)&rbrack;
