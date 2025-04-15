@@ -4,7 +4,7 @@
 
 * [wikipedia](http://en.wikipedia.org/wiki/Ieke_Moerdijk), 
 
-* [GQT:researchers](http://www.gqt.nl/members.php)
+* [GQT:researchers](https://gqt.nl/for-researchers/members/)
 
 The website of the research group is [here](http://www.math.ru.nl/~mgroth/group/group.html).
 
