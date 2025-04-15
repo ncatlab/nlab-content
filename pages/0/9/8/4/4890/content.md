@@ -11,7 +11,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -28,7 +27,7 @@ $$
   AUT(H) 
    \;\coloneqq\; 
   Aut_{Grp_2}(H)
-   \;\coloneq\;
+   \;\coloneqq\;
   Aut(\mathbf{B}H)
 $$
 
