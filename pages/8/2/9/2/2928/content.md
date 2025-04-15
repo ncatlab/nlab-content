@@ -134,6 +134,8 @@ and since $xor$ is defined such that $(xor\otimes id) \circ (2\otimes inr) \circ
 
 * [[complex conjugation]]
 
+* [[projective involution]]
+
 * [[anti-linear map]], [[anti-dual linear space]]
 
 * [[duality]]
