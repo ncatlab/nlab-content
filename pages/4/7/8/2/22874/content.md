@@ -1,5 +1,10 @@
-* [webpage](https://katalog.uu.se/profile/?id=N20-103)
 
+
+* [personal page](https://katalog.uu.se/profile/?id=N20-103)
+
+* [inSpire page](https://inspirehep.net/authors/1259740)
+
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=TfzpEe0AAAAJ&hl=en)
 
 ## Selected writings
 
