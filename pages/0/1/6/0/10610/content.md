@@ -13,6 +13,8 @@ In dimension different from $2$ only the projective spaces over division rings a
 
 * [[projective plane]]
 * [[synthetic geometry]]
+* [[Fano's axiom]]
+* [[Desargues's theorem]]
 
 ## References
 
