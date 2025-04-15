@@ -839,9 +839,11 @@ On [[geometric engineering]] of aspects of the quantum Hall effect on [[M5-brane
 
 * [[Simeon Hellerman]], [[Leonard Susskind]]: *Realizing the Quantum Hall System in String Theory* \[<a href="https://arxiv.org/abs/hep-th/0107200">arXiv:hep-th/0107200</a>\]
 
+Alternative derivation via [[geometry of physics -- flux quantization|flux quantization]] on [[probe brane|probe]] [[M5-branes]] according to [[schreiber:Hypothesis H]]:
 
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Abelian Anyons on Flux-Quantized M5-Branes]]* &lbrack;[arXiv:2408.11896](https://arxiv.org/abs/2408.11896)&rbrack;
 
-
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes]]* &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
 
 
 
