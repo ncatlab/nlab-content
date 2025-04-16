@@ -56,7 +56,7 @@ The [[Galois theory]] normally taught in graduate-level algebra courses (and bas
 
 Frequently Galois connections between collections of [[subsets]] ([[power sets]]) arise where $f(a)$ is "the set of all $y$ standing in some relation to every $x\in a$" and dually $g(b)$ is "the set of all $x$ standing in some relation to every $y\in b$."  
 
-Examples of this class of Galois connections include the following
+Examples of this class of Galois connections include the following:
 
 * **(Zariski topology)** The [[closed subsets]] in the [[Zariski topology]] on [[affine space]] $k^n$ or on the set of [[maximal ideals]] of a [[polynomial ring]], which may be understood as the [[fixed point of an adjunction|fixed points]]  of a Galois connection between [[polynomials]] and [[affine space]]/[[maximal ideal]]. This is discussed at _[Zariski topology -- In terms of Galois connections](Zariski+topology#InTermsOfGaloisConnections)_.
 
