@@ -11,6 +11,10 @@ professor of physics at NYU Abu Dhabi. He works on ([[string theory|string theor
 
 ## Selected writings
 
+Early discussion of [[nonabelian T-duality]]:
+
+* {#OssaQuevedo92} [[Xenia de la Ossa]], [[Fernando Quevedo]]: _Duality Symmetries from Non-Abelian Isometries in String Theories_, Nucl. Phys. B **403** (1993) 377-394 &lbrack;<a href="https://doi.org/10.1016/0550-3213(93)90041-M">doi:10.1016/0550-3213(93)90041-M</a>, [hep-th/9210021](https://arxiv.org/abs/hep-th/9210021)&rbrack;
+
 On [[bottom-up model building]] for [[intersecting D-brane models]]:
 
 * {#AldazabalIbanezQuevedoUranga00} G. Aldazabal, [[Luis Ibáñez]], [[Fernando Quevedo]], [[Angel Uranga]], _D-Branes at Singularities: A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067v2](https://arxiv.org/abs/hep-th/0005067))
