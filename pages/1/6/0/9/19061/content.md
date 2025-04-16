@@ -39,12 +39,12 @@ But see [Hassler 20](#Hassler20), [Borsato-Wulff 20](#BorsatoWulff20).
 
 The original articles:
 
-* {#OssaQuevedo92} Xenia C. de la Ossa, Fernando Quevedo, _Duality Symmetries from Non--Abelian Isometries in String Theories_, Nucl.Phys. B **403** (1993) 377-394 &lbrack;[hep-th/9210021](https://arxiv.org/abs/hep-th/9210021)&rbrack;
+* {#OssaQuevedo92} [[Xenia de la Ossa]], [[Fernando Quevedo]]: _Duality Symmetries from Non-Abelian Isometries in String Theories_, Nucl. Phys. B **403** (1993) 377-394 &lbrack;<a href="https://doi.org/10.1016/0550-3213(93)90041-M">doi:10.1016/0550-3213(93)90041-M</a>, [hep-th/9210021](https://arxiv.org/abs/hep-th/9210021)&rbrack;
 
 * {#Rocek93} [[Amit Giveon]], [[Martin Roček]], *On Nonabelian Duality*, Nucl. Phys. B **421** (1994) 173-190
-&lbrack;[arXiv:hep-th/9308154](https://www.arxiv.org/abs/hep-th/9308154), <a href="https://doi.org/10.1016/0550-3213(94)90230-5"</a>&rbrack;
+&lbrack;[arXiv:hep-th/9308154](https://www.arxiv.org/abs/hep-th/9308154), <a href="https://doi.org/10.1016/0550-3213(94)90230-5">doi:10.1016/0550-3213(94)90230-5</a>&rbrack;
 
-* {#KlimcikSevera95} [[Ctirad Klimcik]], [[Pavol Ševera]], _Dual non-Abelian duality and the Drinfeld double_, Physics Letters B **351** 4 (1995) 455-462 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)00451-P">doi:10.1016/0370-2693(95)00451-P</a>&rbrack;
+* {#KlimcikSevera95} [[Ctirad Klimcik]], [[Pavol Ševera]]: _Dual non-Abelian duality and the Drinfeld double_, Physics Letters B **351** 4 (1995) 455-462 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)00451-P">doi:10.1016/0370-2693(95)00451-P</a>, [arXiv:hep-th/9502122](https://arxiv.org/abs/hep-th/9502122)&rbrack;
 
 * {#vonUnge02} [[Rikard von Unge]], _Poisson-Lie T-plurality_,  Journal of High Energy Physics **2002** JHEP07 (2002) &lbrack;[arXiv:hep-th/0205245](https://arxiv.org/abs/hep-th/0205245)&rbrack;
 
