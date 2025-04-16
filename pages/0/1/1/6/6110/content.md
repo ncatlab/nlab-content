@@ -13,7 +13,7 @@ This entry collects material related to the book
 
   Springer (1982)
 
-  [doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0)
+  [doi:10.1007/978-1-4757-3951-0](https://doi.org/10.1007/978-1-4757-3951-0)
 
 on applications of [[differential forms]], or rather of [[de Rham cohomology]], in [[algebraic topology]].
 
