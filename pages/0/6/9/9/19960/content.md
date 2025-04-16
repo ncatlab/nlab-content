@@ -788,10 +788,16 @@ On [[jet bundle]] [[cohomology]] in the Sakai-Sugimoto model:
 
 * Ekkehart Winterroth, *Variational cohomology and Chern-Simons gauge theories in higher dimensions* ([arXiv:2103.03037](https://arxiv.org/abs/2103.03037))
 
-Comparison of the WSS model To [[lattice QCD]]:
+Comparison of the WSS model to [[lattice QCD]]:
 
 
 * {#KovenskySchmitt24} [[Nicolas Kovensky]], [[Andreas Schmitt]]: *Thermal pion condensation: holography meets lattice QCD* &lbrack;[arXiv:2407.12641](https://arxiv.org/abs/2407.12641)&rbrack;
+
+See also:
+
+* Michael Lublinsky, Timofey Solomko: *Sakai-Sugimoto Model in an Off-Shell: Chiral Lagrangian to All Orders* &lbrack;[arXiv:2504.10575](https://arxiv.org/abs/2504.10575)&rbrack;
+
+
 
 
 
