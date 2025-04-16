@@ -4,6 +4,10 @@
 
 ## Selected writings
 
+Early discussion of [[nonabelian T-duality]]:
+
+* {#Rocek93} [[Amit Giveon]], [[Martin Roček]], *On Nonabelian Duality*, Nucl. Phys. B **421** (1994) 173-190
+&lbrack;[arXiv:hep-th/9308154](https://www.arxiv.org/abs/hep-th/9308154), <a href="https://doi.org/10.1016/0550-3213(94)90230-5">doi:10.1016/0550-3213(94)90230-5</a>&rbrack;
 
 On [[geometric engineering of QFT]] in [[intersecting D-brane models]] subject to the [[s-rule]]:
 
