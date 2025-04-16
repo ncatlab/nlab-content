@@ -80,9 +80,8 @@ Monographs:
 * {#Giblin77} P. J. Giblin: *Graphs, Surfaces and Homology -- An Introduction to Algebraic Topology*, Chapman and Hall (1977) \[<a href="https://doi.org/10.1007/978-94-009-5953-8">doi:10.1007/978-94-009-5953-8</a>\]
   > (focus on [[graphs]] and [[surfaces]])
 
-
 * [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics **82**, Springer (1982) \[<a href="https://link.springer.com/book/10.1007/978-1-4757-3951-0">doi:10.1007/978-1-4757-3951-0</a>\]
-  > (with focus on [[differential forms]], [[differential topology]])
+  > (focus on [[differential forms]], [[differential topology]])
 
 * [[James Munkres]]: *Elements of Algebraic Topology*, Addison-Wesley (1984) \[<a href="https://www.routledge.com/Elements-Of-Algebraic-Topology/Munkres/p/book/9780367091415?srsltid=AfmBOorgeT-ozzbrkknDo4359cwAJ2b0--yIEM5G-Xi9gbrNnLy6gO2E">ISBN:9780367091415</a>, [pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)\]
 
@@ -110,6 +109,7 @@ Monographs:
 
 * Clark Bray, Adrian Butcher, Simon Rubinstein-Salzedo: *Algebraic Topology*, Springer (2021) \[<a href="https://doi.org/10.1007/978-3-030-70608-1">doi:10.1007/978-3-030-70608-1</a>, [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-70608-1.pdf)\]
 
+* Holger Kammeyer: *Introduction to Algebraic Topology*,   Compact Textbooks in Mathematics, Birkhäuser (2022) \[<a href="https://doi.org/10.1007/978-3-030-98313-0">doi:10.1007/978-3-030-98313-0</a>\]
 
 On [[constructive mathematics|constructive]] methods ([[constructive algebraic topology]]):
 
@@ -136,7 +136,7 @@ Survey with relation to [[differential topology]]:
 
 * [[Sergei Novikov]], _Topology I -- General survey_, in: Encyclopedia of Mathematical Sciences Vol. 12, Springer 1986 ([doi:10.1007/978-3-662-10579-5](https://link.springer.com/book/10.1007/978-3-662-10579-5), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/novikovsurv.pdf))
 
-* [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkh&auml;user Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
+* [[Jean Dieudonné]], _A History of Algebraic and Differential Topology, 1900 - 1960_, Modern Birkhäuser Classics 2009 ([ISBN:978-0-8176-4907-4](https://www.springer.com/de/book/9780817649067))
 
 With focus on [[ordinary homology]], [[ordinary cohomology]] and [[abelian sheaf cohomology]]:
 
@@ -239,7 +239,7 @@ On [[simplicial homotopy theory]]:
 
 * [[Francis Sergeraert]], _Introduction to Combinatorial Homotopy Theory_, 2008 ([pdf](https://www-fourier.ujf-grenoble.fr/~%20sergerar/Papers/Trieste-Lecture-Notes.pdf), [[SergeraertCombinatorialHomotopyTheory.pdf:file]])
 
-* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.4 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkh&#228;user (1999) Modern Birkh&#228;user Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
+* {#GoerssJardine09} [[Paul Goerss]], [[J. F. Jardine]], Section V.4 of: _[[Simplicial homotopy theory]]_, Progress in Mathematics, Birkhäuser (1999) Modern Birkhäuser Classics (2009) ([doi:10.1007/978-3-0346-0189-4](https://link.springer.com/book/10.1007/978-3-0346-0189-4), [webpage](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/))
 
 * [[Garth Warner]]: *Categorical Homotopy Theory*, EPrint Collection, University of Washington (2012) \[<a href="http://hdl.handle.net/1773/19589">hdl:1773/19589</a>, [pdf](https://digital.lib.washington.edu/researchworks/bitstreams/0082c74f-f4e0-4578-a44e-d57a0ea29112/download), [[Waner-CategoricalHomotopy.pdf:file]]\]
 
