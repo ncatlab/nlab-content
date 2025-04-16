@@ -109,7 +109,7 @@ $$
 
 ## References
 
-* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://doi.org/10.1007/978-1-4757-3951-0))
 
 For more references see at _[[Chern class]]_ and at _[[characteristic class]]_.
 
