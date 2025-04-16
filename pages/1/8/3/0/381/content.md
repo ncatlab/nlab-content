@@ -34,22 +34,24 @@ An **$\omega$-category** $C$ [[internalization|internal to]]  $Sets$ is
 
 * a [[globular set]] 
 $$
-  C :=
-  (\cdots
-  C_3 \stackrel{\to}{\to}
-  C_2 \stackrel{\to}{\to}
-  C_1 \stackrel{\to}{\to}
-  C_0
- )
+  C
+    \,\coloneqq\,
+  \big(
+    \cdots
+    C_3 \rightrightarrows
+    C_2 \rightrightarrows
+    C_1 \rightrightarrows
+    C_0
+  \big)
 $$
 
 * together with the structure of a [[category]] on 
 all
-$(  C_{k} \stackrel{\to}{\to} C_l )$ for all $k \gt l$;
+$(  C_{k} \rightrightarrows C_l )$ for all $k \gt l$;
 
 * such that 
-$(  C_{k} \stackrel{\to}{\to}
-  C_{l} \stackrel{\to}{\to} C_m )$ for all $k \gt l \gt m$;
+ $\big(  C_{k} \rightrightarrows
+  C_{l} \rightrightarrows C_m \big)$ for all $k \gt l \gt m$;
 is a [[strict 2-category]].
 
 Similarly for an $\omega$-category [[internalization|internal to]]  another ambient category $A$.
@@ -61,19 +63,24 @@ as its objects and morphism of the underlying globular objects respecting all th
 
 * The last condition in the above definition says that all pairs of composition operations satisfy the [[exchange law]].
 
-* $\omega$-Categories can also be understood as the directed limit of the sequence of iterated [[enriched category theory|enrichments]]
-$$
-  (0 Cat = Set)
-  \hookrightarrow
-  (1 Cat = Set-Cat)
-  \hookrightarrow
-  (2 Cat = Cat-Cat)
-  \hookrightarrow
-  \left(3 Cat = (2Cat)-Cat = (Cat-Cat)-Cat\right)
-  \hookrightarrow
-  \cdots
-  \,.
-$$
+* {#AsADirectLimit} $\omega$-Categories can also be understood as the [[directed limit]] of the [[sequence]] of iterated [[enriched category theory|enrichments]]
+
+  $$
+    (0 Cat \,\coloneqq\, Set)
+    \xhookrightarrow{\phantom{-}}
+    (1 Cat \,\coloneqq\, Set\text{-}Cat)
+    \xhookrightarrow{\phantom{-}}
+    (2 Cat \,\coloneqq\, Cat\text{-}Cat)
+    \xhookrightarrow{\phantom{-}}
+    \big(
+      3 Cat 
+        \,\coloneqq\, 
+      (2Cat)\text{-}Cat \simeq (Cat\text{-}Cat)\text{-}Cat
+    \big)
+    \xhookrightarrow{\phantom{-}}
+    \cdots
+    \,.
+  $$
 
 * The category of strict $\omega$-categories admits a [[closed monoidal category|biclosed monoidal structure]] called the [[Crans-Gray tensor product]].
 
@@ -93,16 +100,14 @@ $$
 Under the [[oriental|∞-nerve]] 
 
 $$
-  N : Str \omega Cat \to SSet
+  N \,\colon\, Str \omega Cat \longrightarrow SSet
 $$
 
 strict $\omega$-categories yield simplicial sets that are called [[complicial sets]]. 
 
-+-- {: .un_prop}
-###### Proposition
-
+\begin{proposition}
 The categories of $\omega$-categories and complicial sets are [[equivalence of categories|equivalent]].
-=--
+\end{proposition}
 
 This is sometimes called the _Street-Roberts conjecture_. It was completely proven in
 
