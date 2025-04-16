@@ -584,7 +584,7 @@ So the braiding phase is a [[root of unity]] of order the [[denominator]] $q$ an
 
 The theoretical prediction of (eq:BraidingAngleAsFunctionOfFillingFraction) --- via the [[quantum adiabatic theorem]] applied to [[Laughlin wavefunctions]] --- is, for the special case $\nu = 1/n$,  due to [Arovas, Schrieffer & Wilczek 1984 (12)](#ArovasSchriefferWilczek84) (also claimed in [Halperin 1984 p 1584](#Halperin84)) and for general $\nu$ it is noted by [Su 1986 (3)](#Su86).
 
-Starting around 2020, this braiding phase is reported to be observed in [[experiments]] for some cases such as $\nu = 1/3$ and $\nu = 2/5$, see the references [below](#ObservationOfAnyonsInFQH).
+Starting around 2020, this braiding phase is reported to be observed in [[experiments]] for some cases such as $\nu = 1/3$ and $\nu = 2/5$ ([Nakamura et al. 2023 p 1,7](#NakamuraEtAl23)), see also further references [below](#ObservationOfAnyonsInFQH).
 
 > The K-matrix formalism allows more general relations between filling factor and braiding phase, cf. [Wen 1995 (2.30-1)](#Wen95).
 
