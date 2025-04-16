@@ -22,7 +22,7 @@ Observation in [[gallium arsenide]] ($GaAs$) [[semiconductor]] [heterostructures
 
 * [[James Nakamura]] et al.: *Impact of bulk-edge coupling on observation of anyonic braiding statistics in quantum Hall interferometers*, Nature Communications **13** 344 (2022) \[<a href="https://doi.org/10.1038/s41467-022-27958-w">doi:10.1038/s41467-022-27958-w</a>, [arXiv:2107.02136](https://arxiv.org/abs/2107.02136)\]
 
-* [[James Nakamura]] et al.: *Fabry-Perot interferometry at the $\nu = 2/5$ fractional quantum Hall state*, Phys. Rev. X **13** (2023) 041012  \[<a href="https://doi.org/10.1103/PhysRevX.13.041012">doi:10.1103/PhysRevX.13.041012</a>, [arXiv:2304.12415](https://arxiv.org/abs/2304.12415)\]
+* {#NakamuraEtAl23} [[James Nakamura]] et al.: *Fabry-Perot interferometry at the $\nu = 2/5$ fractional quantum Hall state*, Phys. Rev. X **13** (2023) 041012  \[<a href="https://doi.org/10.1103/PhysRevX.13.041012">doi:10.1103/PhysRevX.13.041012</a>, [arXiv:2304.12415](https://arxiv.org/abs/2304.12415)\]
 
 
 * M. Ruelle et al.: *Comparing fractional quantum Hall Laughlin and Jain topological orders with the anyon collider*, Physical Review X **13** (2023) 011031 \[<a href="https://doi.org/10.1103/PhysRevX.13.011031">doi:10.1103/PhysRevX.13.011031</a>, [arXiv:2210.01066](https://arxiv.org/abs/2210.01066)\]
