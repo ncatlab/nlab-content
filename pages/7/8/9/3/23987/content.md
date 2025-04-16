@@ -3957,21 +3957,22 @@ Neumann algebras**
 
 \linebreak
 
-### Apr 20225
+### Apr 2025
 
 * {#CavalcantiApr25} 17 Apr 2025
 
-  [[Gil Cavalcanti]] (Utrecth University):
+  [[Gil Cavalcanti]] (Utrecht University, The Netherlands):
 
   **T-duality from circles to spheres and beyond**
 
+  slides: [[Cavalcanti-CQTS-Apr2025.pdf:file]]
+
   cf. [arXiv:2503.20143](https://arxiv.org/abs/2503.20143), [arXiv:2405.14054](https://arxiv.org/abs/2405.14054)
 
-
-  > ...on [[topological T-duality]], [[spherical T-duality]] and beyond...
+  > I will introduce the definition and basic properties of usual [[topological T-duality|abelian T-duality]] and present [[spherical T-duality|extensions to sphere bundles]] and more general fibrations.
 
   
-  
+\linebreak
 
 
 
