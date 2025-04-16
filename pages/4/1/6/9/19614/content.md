@@ -107,6 +107,7 @@ Possible relation to [[dark energy]]:
 
 * Mingwei Dai, Walter Freeman, Jack Laiho, Marc Schiffer, Judah Unmuth-Yockey: *Dynamical Dark Energy from Lattice Quantum Gravity* &lbrack;[arXiv:2408.08963](https://arxiv.org/abs/2408.08963)&rbrack;
 
+* Axel Maas, Simon Plätzer, Felix Pressler: *Hints for a Geon from Causal Dynamic Triangulations* &lbrack;[arXiv:2504.11047](https://arxiv.org/abs/2504.11047)&rbrack;
 
 
 
