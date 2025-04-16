@@ -119,7 +119,7 @@ A particular example of this is a ring in a [[topos]]. In a topos one usually al
 
 Picking a ring object $R$ in a [[topos]] $\mathcal{T}$ promotes it into a [[ringed topos]].
 
-In cartesian categories one can also define the structure of an (abelian) group object as the lifting of the correspoding [[representable presheaf]] to a presheaf into (abelian) groups. This kind of lifting of some algebraic structure in sets to algebraic structure in a cartesian category makes sense when some category of algebras creates the limits needed to define them in sets. 
+In cartesian categories one can also define the structure of an (abelian) group object as the lifting of the corresponding [[representable presheaf]] to a presheaf into (abelian) groups. This kind of lifting of some algebraic structure in sets to algebraic structure in a cartesian category makes sense when some category of algebras creates the limits needed to define them in sets. 
 
 
 ### Internalising the abelian groups
