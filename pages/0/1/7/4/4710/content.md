@@ -97,36 +97,32 @@ For example, the [[kilogram]] is a unit of mass, because any mass may be express
 
 ## Identities as units
 
-Often the term 'unit' (or 'unity') is used as a synonym for '[[identity element]]', especially when this identity element is denoted $1$.  For example, a 'ring with unit' (or 'ring with unity') is a ring with an identity (used by authors who say 'ring' for a rng).  Of course, a rng with identity has a unit, since $1$ itself is a unit; conversely, a commutative rng with a unit must have an identity.
-+-- {: .query}
-I haven\'t managed to find either a proof or a counterexample to the converse (in the noncommutative case): that a rng with a unit must have an identity.
+Often the term 'unit' (or 'unity') is used as a synonym for '[[identity element]]', especially when this identity element is denoted $1$.  For example, a 'ring with unit' (or 'ring with unity') is a ring with an identity (used by authors who say 'ring' for a rng).  Of course, a rng with identity has a unit, since $1$ itself is a unit; the converse also holds.
 
-Response: If $R$ is a rng with a unit $u$, then every element uniquely factors through $u$. In particular, $u$ itself does. $u = a u$, with $a$ unique. So $a$ is an identity.
+\begin{prop}
+A rng with a unit must have an identity.
+\end{prop}
 
-Reply: Why is $a$ an identity then?  This works if the rng is commutative: given any $v$, write $v$ as $b u$, and then $a v = a (b u) = b (a u) = b u = v$.  But without commutativity (and associativity), this doesn\'t work.
+\begin{proof}
+Let $R$ be a rng with a unit $u$;\linebreak
 
-Response: I believe it also works in the non-commutative case, but with a more complicated proof.\linebreak
-Suppose $R$ is a not-necessarily-commutative rng with a unit $u$;\linebreak
-first, observe that $u$ is neither a left nor a right zero divisor, as the equations $0=x\cdot u$ and $0=u\cdot x$ both have $0$ as a solution, and that must be unique.\linebreak
-Now, for any $a,b\in R$ denote by ${}_a u^{-1}$ the unique element s.t. $a= {}_a u^{-1} \cdot u$, and denote by $u^{-1}_b$ the unique element s.t. $b= u\cdot u^{-1}_b$;\linebreak
-we want to show that $u^{-1}_u= {}_u u^{-1}$ and that is the identity of $R$.\linebreak
-First, notice that
+For any $a,b\in R$ denote by ${}_a u^{-1}$ the unique element s.t. $a= {}_a u^{-1} \cdot u$, and denote by $u^{-1}_b$ the unique element s.t. $b= u\cdot u^{-1}_b$;\linebreak
+the goal is to show that $u^{-1}_u= {}_u u^{-1}$ and that is the identity of $R$.
+
+One has
 $$ a\cdot u^{-1}_u= {}_a u^{-1}\cdot u \cdot u^{-1}_u= {}_a u^{-1} \cdot u = a$$
-and
+and also
 $$ {}_u u^{-1} \cdot b= {}_u u^{-1} \cdot u\cdot u^{-1}_b=u\cdot u^{-1}_b=b,$$
 for all $a,b\in R$;\linebreak
-therefore, we just need to show that $u^{-1}_u= {}_u u^{-1}$.\linebreak
-To accomplish this, first notice that, on the one hand, one has $u = {}_u u^{-1}\cdot u$;\linebreak
-on the other hand, one has $u\cdot u^{-1}_u \cdot u=u\cdot u$, hence $u\cdot (u^{-1}_u\cdot u-u)=0$, which must imply $u= u^{-1}_u\cdot u$ since $u$ is not a zero divisor.\linebreak
-By uniqueness of the solution $x$ to $u=x\cdot u$, we deduce that $u^{-1}_u= {}_u u^{-1}$.
+therefore, it remains to show that $u^{-1}_u= {}_u u^{-1}$.
 
-Addendum: Having uniqueness for the solutions is essential in order for the converse to hold.\linebreak
-This is because, if a rng has an identity, the units are not zero divisors, therefore the equations of the form $a=x\cdot u$ and $a=u\cdot x$ all have a unique solution;\linebreak
-therefore, by contrapositive, if some of these equations have multiple solutions, then the rng has no identity.
-=--
+To accomplish this, notice that, on one hand, one has $u = {}_u u^{-1}\cdot u$;\linebreak
+on the other hand, one has $u\cdot u^{-1}_u \cdot u=u\cdot u$, hence $u\cdot (u^{-1}_u\cdot u-u)=0$, which must imply $u= u^{-1}_u\cdot u$ since $u$ is neither a left nor a right zero divisor (The equations $0=x\cdot u$ and $0=u\cdot x$ both have $0$ as a solution, and that must be unique).
+
+By uniqueness of the solution to $u=x\cdot u$, one concludes that $u^{-1}_u= {}_u u^{-1}$.
+\end{proof}
 
 It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
-
 
 ## Related concepts
 
