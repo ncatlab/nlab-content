@@ -13,15 +13,19 @@
 * table of contents
 {: toc}
 
+
 ## Idea
+ {#Idea}
 
 In the context of [[mechanics]] (broadly construed), one distinguishes between *kinematics* and *dynamics*:
 
-1. __Kinematics__ concerns (only) the [[physical fields]], [[states]] and [[observables]], including the [[spaces]] and [[algebras]] (such as a [[phase space]] or [[Hilbert space]] [[space of states|of (pure) states]] and an appropriate [[algebra of observables]]) into which they are organised;
+1. __Kinematics__ concerns (only) the [[physical fields]], [[space of states|space of]] [[states]] and [[algebra of observables|algebras of]] [[observables]].
 
-2. __Dynamics__ additionally treats the evolution of the system in [[time]] or even [[spacetime]]: as given by a [[Lagrangian]] and [[action functional]] and as given by the [[action]] of [[Hamiltonian]] [[quantum observables]] on physical states.
+2. __Dynamics__ additionally treats the evolution of the system in [[time]] or generally [[spacetime]], via, a [[Hamiltonian flow]] or similar.
 
-   In the [[Schrödinger picture]], we think of the [[states]] as evolving, while the [[observables]] evolve in the [[Heisenberg picture]]. In the [[interaction picture]] we think of the states as evolving with respect to a given time evolution and the observables to evolve, too, with respect to a [[perturbation theory|perturbation]] of this time evolution.
+   > (In the [[Schrödinger picture]], one think of the [[states]] as evolving, while the [[observables]] evolve in the [[Heisenberg picture]]. In the [[interaction picture]] we think of the states as evolving with respect to a given time evolution and the observables to evolve, too, with respect to a [[perturbation theory|perturbation]] of this time evolution.)
+
+In the common framework of [[Lagrangian field theory]] both of these aspects are in principle encoded by a [[Lagrangian density]] (cf. at *[[covariant phase space]]*).
 
 
 ## Formalization
@@ -41,17 +45,17 @@ from a [[category of cobordisms]] with $S$-[[structure]] (for instance [[conform
 
 Then:
 
-* the _kinematics_ of $Z$ is $Z_0 : Ob(Bord_n^S) \to Ob(\mathcal{C})$, the action of the [[functor]] $Z$ on [[object]]s.
+* the _kinematics_ of $Z$ is $Z_0 : Ob(Bord_n^S) \to Ob(\mathcal{C})$, the action of the [[functor]] $Z$ on [[objects]].
 
-* with that given, the _dynamics_ of $Z$ is $Z_1 : Mor(Bord_n^S) \to Mor(\mathcal{C})$, the action of the functor $Z$ on [[morphism]]s.
+* with that given, the _dynamics_ of $Z$ is $Z_1 : Mor(Bord_n^S) \to Mor(\mathcal{C})$, the action of the functor $Z$ on [[morphisms]].
 
 This means that as we regard an $n$-dimensional [[QFT]] as an [[FQFT|extended QFT]] given by an [[n-functor]]
 
 $$
-  Z : Bord_n^S \to \mathcal{C}
+  Z \colon Bord_n^S \to \mathcal{C}
 $$
 
-to from a [[(infinity,n)-category of cobordisms]] with $S$-structure to some [[symmetric monoidal (infinity,n)-category]] $\mathcal{C}$ the dichotomy between kinematics and dynamics may be regarded as being blurred a bit: we can regard the action $Z_0$ on [[object]]s as the genuine kinematics and the action $Z_n$ on [[n-morphism]]s as the genuine dynamics, and then the actions $Z_{1 \leq k \leq n-1}$ as interpolating between these two notions.
+from an [[(infinity,n)-category of cobordisms]] with $S$-structure to some [[symmetric monoidal (infinity,n)-category]] $\mathcal{C}$ the dichotomy between kinematics and dynamics may be regarded as being blurred a bit: we can regard the action $Z_0$ on [[object]]s as the genuine kinematics and the action $Z_n$ on [[n-morphism]]s as the genuine dynamics, and then the actions $Z_{1 \leq k \leq n-1}$ as interpolating between these two notions.
 
 
 ### In AQFT
