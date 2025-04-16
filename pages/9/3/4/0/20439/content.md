@@ -23,12 +23,14 @@
 
 _UniMath_ is a library of [[formal logic|formalized]] [[mathematics]] ([[formal proof]]) based on the [[univalent foundations of mathematics]] ([[homotopy type theory]] with the [[univalence axiom]]) and currently developed with the [[Coq]] [[proof assistant]].  It is thus a particular [[formalized libraries of homotopy type theory|library of formalized homotopy type theory]].
 
-Current "coordinating committee" (according to the [home page](http://unimath.github.io/UniMath/)):
+Current "coordinating committee" (according to the [site](https://unimath.github.io/UniMath/documentation/unimath/About-UniMath.html)):
 
 
 * [[Benedikt Ahrens]]
 
 * [[Daniel Grayson]]
+
+* Arnoud van der Leer
 
 * [[Michael Lindgren]]
     
