@@ -3953,6 +3953,24 @@ Neumann algebras**
 
   > Given a [[complex manifold]] and a [[coherent sheaf|coherent]] analytic [[sheaf]], it is of interest to construct the corresponding [[Chern classes]] in some [[cohomology theory]]. In (truncated) [[de Rham cohomology]], things can be done explicitly: one can write down [[Cech cohomology|Čech]] representatives in terms of the [[transition functions]] of the ([[simplicial bundle|simplicial]]) [[vector bundles]] in a [[resolution]] of the [[coherent sheaf]]. In [[Deligne cohomology]] there is an abstract proof of existence, but (as far as the speaker is aware) no equally explicit construction is known. In this talk, I will explain the construction of the [[Cech cohomology|Čech data]] in [[de Rham cohomology]], and why it doesn't transfer over to [[Deligne cohomology]].
 
+\linebreak
+
+\linebreak
+
+### Apr 20225
+
+* {#CavalcantiApr25} 17 Apr 2025
+
+  [[Gil Cavalcanti]] (Utrecth University):
+
+  **T-duality from circles to spheres and beyond**
+
+  cf. [arXiv:2503.20143](https://arxiv.org/abs/2503.20143), [arXiv:2405.14054](https://arxiv.org/abs/2405.14054)
+
+
+  > ...on [[topological T-duality]], [[spherical T-duality]] and beyond...
+
+  
   
 
 
