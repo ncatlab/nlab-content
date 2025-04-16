@@ -31,6 +31,9 @@ Observation in [[gallium arsenide]] ($GaAs$) [[semiconductor]] [heterostructures
 
 * [[Pierre Glidic]] et al.: *Signature of anyonic statistics in the integer quantum Hall regime*, Nature Commun. **15** 6578 (2024) 1 \[<a href="https://doi.org/10.1038/s41467-024-50820-0">doi:10.1038/s41467-024-50820-0</a>, [arXiv:2401.06069](https://arxiv.org/abs/2401.06069)\]
 
+* Hemanta Kumar Kundu et al.: *Anyonic interference and braiding phase in a Mach-Zehnder interferometer*, Nature Physics **19** (2023) 515–521 \[<a href="https://doi.org/10.1038/s41567-022-01899-z">doi:10.1038/s41567-022-01899-z</a>, [arXiv:2203.0420](https://arxiv.org/abs/2203.04205)\]
+
+
 and in [[graphene]] [heterostructures](semiconductor#ReferencesHeterostructures):
 
 * Noah Samuelson et al.: *Anyonic statistics and slow quasiparticle dynamics in a graphene fractional quantum Hall interferometer* \[<a href="https://arxiv.org/abs/2403.19628">arXiv:2403.19628</a>\]
