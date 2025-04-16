@@ -483,6 +483,8 @@ A generalization of [[Lie integration]] to conjectural Leibniz groups has been c
 
 * [[Simon Covez]], _On the conjectural cohomology for groups_, Journal of K-theory __10__:03, Dec 2012, pp 519-563  ([arXiv:1202.2269](http://arxiv.org/abs/1202.2269), [doi:10.1017/is011011011jkt195](http://dx.doi.org/10.1017/is011011011jkt195))
 
+* Martin Bordemann, Friedrich Wagemann. *A dirty integration of Leibniz algebras* (2016). ([arXiv:1606.08214](https://arxiv.org/abs/1606.08214)).
+
 
 
 [[!redirects Leibniz algebras]]
