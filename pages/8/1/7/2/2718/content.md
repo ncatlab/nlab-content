@@ -1,7 +1,11 @@
 
 Pavol Ševera is a mathematical physicist originally from Bratislava.
 
-* [website](http://fyzikus.fmph.uniba.sk/typo/index.php?id=433)
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=329386)
+
+* [inSpire page](https://inspirehep.net/authors/989230)
+
+* [GoogleScholar page](https://scholar.google.ch/citations?user=IfhJCCwAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -17,7 +21,8 @@ On [[symplectic Lie n-algebroids]]:
 
 On [[non-abelian T-duality]]:
 
-* {#KlimcikSevera95} [[Ctirad Klimcik]], [[Pavol Ševera]], _Dual non-Abelian duality and the Drinfeld double_, Physics Letters B, Volume 351, Issue 4, 1 June 1995, Pages 455-462 (<a href="https://doi.org/10.1016/0370-2693(95)00451-P">doi:10.1016/0370-2693(95)00451-P</a>)
+* {#KlimcikSevera95} [[Ctirad Klimcik]], [[Pavol Ševera]]: _Dual non-Abelian duality and the Drinfeld double_, Physics Letters B **351** 4 (1995) 455-462 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)00451-P">doi:10.1016/0370-2693(95)00451-P</a>, [arXiv:hep-th/9502122](https://arxiv.org/abs/hep-th/9502122)&rbrack;
+
 
 specifically applied to [[type II supergravity]]:
 
