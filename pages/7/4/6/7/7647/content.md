@@ -63,12 +63,53 @@ But when $G = Sym(n)$ is a [[symmetric group]], then often its defining action o
 
 ## Properties
 
+### General 
+
 \begin{remark}\label{AsAPermutationGroup}
 **(as a permutation group)**
 \linebreak
 If both $H \subset Sym(X)$ and $G \subset Sym(Y)$ are presented as [[permutation groups]], then the wreath product is itself a permutation group, acting on the [[Cartesian product]] set $X \times Y$ by letting $G$ act trivially on the first and naturally on the second factor and letting $H^Y$ act on $X\times Y$ such that the $y$-th component of $H^Y$ permutes $X\times\{y\}$ naturally and fixes everything else pointwise.
 \end{remark}
 (e.g. [Holland 1989](#Holland89))
+
+
+### Irreducible representations
+ {#IrreducibleRepresentations}
+
+Let $G$ be a [[finite group]]. Denote by $Irr(G) \simeq \big\{ [\rho_i] \big\}_{i \in I}$ the [[set]] of [[isomorphism classes]] of its [[irreducible representations]].
+
+For $n \in \mathbb{N}$ and  $(n_i \in \mathbb{N})_{i \in I}$ an $I$-[partition](partition#partitions_of_natural_numbers), in that $n = \sum_i n_i$, write
+
+$$
+  Sym_{(n)}
+  \;\coloneqq\;
+  \prod_i Sym_{n_i}
+  \;\;
+  \subset
+  \;\;
+  Sym_n
+$$
+
+There is an evident [[linear representation]] of $G \wr Sym_{(n)} \subset G \wr Sym_n$ on $  \displaystyle{\underset{i \in I}{\bigotimes}}
+  \rho_i^{\otimes_{n_i}} 
+$, where the subgroup $G^n$ acts according to the [[external tensor product of representations]], and the subgroup $Sym_n$  acts by [[permutation]] of [[tensor product of vector spaces|tensor factors]].
+
+For $R$ an irrep of $Sym_n$, we canonically regard it as a representation of $G \wr Sym_n \twoheadrightarrow Sym_n$.
+
+\begin{theorem}
+  Up to [[isomorphism]], the [[irreducible representations]] of the [[wreath product group]] $G \wr Sym_n$ are exactly the [[induced representations]] along $G \wr Sym_{(n)} \hookrightarrow G \wr Sym_n$ of the [[tensor product of representations|tensor products]] of the form
+$$
+  \Big(
+    \displaystyle{\underset{i \in I}{\bigotimes}}
+    \rho_i^{\otimes_{n_i}} 
+  \Big)
+  \otimes
+  R
+$$
+for $(n)$ an $I$-partition as above and $R$ an [[irrep]] of $Sym_n$.
+\end{theorem}
+
+This is [James & Kerber 1984 Thm. 4.3.34](#JamesKerber84), for the special case that their "$H$" is all of $H = Sym_n$. For proper subgroups $H \subset Sym_n$ the analogous statement holds for the irreps of $G \wr H$, with $Sym_{(n)}$ above replaced by $Sym_{(n)} \cap H$.
 
 
 ## Examples ##
