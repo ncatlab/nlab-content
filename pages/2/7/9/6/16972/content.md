@@ -54,12 +54,24 @@ $$
 
 to match standard conventions.
 
-This means that if $S^7$ is regarded as the [[unit sphere]] $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the  [[quaternionic projective space]], then $p$ is given (on points $(x,y)$ with $y \neq 0$) simply by 
+This means that if $S^7$ is regarded as the [[unit sphere]] $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the  [[quaternionic projective space]], then $p_{\mathbb{H}}$ is given (on points $(x,y)$ with $y \neq 0$) simply by 
 
 $$
-  p_{\mathbb{H}} \colon (x,y) \mapsto [x;y] = [x/y; 1]
+  p_{\mathbb{H}} \colon (x,y) \mapsto [x : y] = [xy^{-1}; 1]
   \,,
 $$
+
+This is the quotient map for the action of $Sp(1) \simeq S^3$ on $S^7$ by right multiplication: $g \cdot (x,y) = (x g, y g)$.
+By restricting this action to the subgroup $U(1) \subset Sp(1)$ this yields the fibration $U(1) \to S^7 \to \mathbb{C}P^3$ fitting into the following commutative diagram:
+\begin{centre}
+    \begin{tikzcd}
+        & U(1) \ar[d] \ar[dl] & \\
+        Sp(1) \ar[r] \ar[d] & S^7 \ar[d] \ar[r, "p_{\mathbb{H}}"] & \mathbb{H}P^1 \\
+        \mathbb{C}P^1 \ar[r] & \mathbb{C}P^3 \ar[ur] & 
+    \end{tikzcd}
+\end{centre}
+
+The sequence at the bottom is the [[twistor fibration]].
 
 
 ## Properties
