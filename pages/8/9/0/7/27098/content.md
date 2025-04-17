@@ -1,3 +1,4 @@
+> This entry is about partial [[adjoint functors]] at a single object. For adjunctions in which the counit is invertible, see [[reflective subcategory]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
