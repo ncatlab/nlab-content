@@ -119,7 +119,9 @@ of [[jointly monic morphisms|jointly monic]] maps, which is reflexive, symmetric
 \end{definition}
 
 This can be defined more concretely: an event structure with symmetry is an event structure $E$ equipped with a collection of set-theoretic bijections $\theta : x \cong y$ between configurations of $E$, closed under inverses and compositions and containing all identities (so the set $\mathscr{C}(E)$ of configurations becomes a subcategory of $\mathbf{Set}$, and a groupoid), such that, for every  bijection $\theta : x \to y$ in $\mathscr{C}(E)$:
-* if $x' \subseteq x$ for some configuration $x'$, then the restriction of $\theta$ to $x'$ is also in $\conf{E}$;
+
+* if $x' \subseteq x$ for some configuration $x'$, then the restriction of $\theta$ to $x'$ is also in $\mathscr{C}(E)$;
+
 * if $x \subseteq x'$ for some configuration $x'$, then there is an extension of the bijection $\theta$ to some bijection $\theta' : x' \to y'$ in the symmetry.
 
 We say a map $E \to E'$ preserves symmetry if, for every $\theta : x \cong y$ in the symmetry of $E$, the bijection  
