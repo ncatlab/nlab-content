@@ -30,7 +30,7 @@ This always exists and is unique; in other words, the empty set is an [[initial 
 
 If regarded as a [[bundle]], the empty function is the [[empty bundle]] over its [[codomain]].
 
-In generalization to ambient categories other that [[Sets]], an *empty morphism* would be any [[morphism]] out of a [[strict initial object]].
+In generalization to ambient categories other than [[Sets]], an *empty morphism* would be any [[morphism]] out of a [[strict initial object]].
 
 ## Properties
 
@@ -41,7 +41,6 @@ The empty function to the [[empty set]] is _not_ a [[constant function]], though
 [[!include empty objects -- contents]]
 
 
-[[!redirects empty function]]
 [[!redirects empty functions]]
 
 [[!redirects empty morphism]]
