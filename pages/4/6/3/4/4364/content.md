@@ -1,4 +1,15 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
 # Sublocales
 * table of contents
 {: toc}
@@ -40,16 +51,15 @@ is a localic map, i.e., it has a left adjoint that preserves finite meets.
 Thus, sublocales of $L$ can be defined as subsets $S$ of $L$
 such that $S$ is a [[locale]] once we equip it with the order induced from $L$,
 and the left adjoint to the inclusion $S\to L$ exists and preserves finite meets.
-(Proposition 2.2 in [Picado and Pultr](#PP).)
+(Proposition 2.2 in [Picado & Pultr 2012](#PicadoPultr12).)
 
 (The inclusion $S\to L$ need not preserve joins, so in particular,
 the lattice structure on $S$ may be different from that of $L$,
 only the ordering is the same.)
 
 Equivalently, sublocales of $L$ can also be described
-([2.1](#PP)) as subsets $S$ of $L$
-that are closed under all meets and for any $s\in S$ and $x\in L$,
-we have $(x\to s)\in S$.
+([PP12 §2.1](#PicadoPultr12)) as subsets $S$ of $L$
+that are closed under all meets and for any $s\in S$ and $x\in L$, we have $(x\to s)\in S$.
 
 
 ### Equivalence of these two definitions
@@ -132,19 +142,21 @@ However, any [[subset]] $S$ of a [[topological space]] $X$ can be equipped with 
 
 Thus, we have a canonical map from the set of (topological) subspaces of $X$ to the set of spatial sublocales of $\Omega X$.
 
-This map is injective if $X$ satisfies the [[separation axiom]] $T_D$, e.g., is a [[Hausdorff space]] (VI.1.2 in [PP](#PP)).
+This map is injective if $X$ satisfies the [[separation axiom]] $T_D$, e.g., is a [[Hausdorff space]] (VI.1.2 in [PP12](#PicadoPultr12)).
 
-This map is a surjection if $X$ is a [[sober space]] (Proposition VI.2.2.1 in [PP](#PP)).
+This map is a surjection if $X$ is a [[sober space]] (Proposition VI.2.2.1 in [PP12](#PicadoPultr12)).
 
 
 ## References
 
-* _[[Stone Spaces]]_, II.2
+* [[Peter Johnstone]], II.2 in: *[[Stone Spaces]]*, Studies in Advanced Mathematics __3__, Cambridge University Press (1982, 1986) &lbrack;[ISBN:9780521337793](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/stone-spaces?format=PB&isbn=9780521337793)&rbrack;
 
-* [[Jorge Picado]], [[Aleš Pultr]], _Frames and Locales_.
-  {#PP}
 
-* [[Steven Vickers]], Sublocales in formal topology. *The Journal of Symbolic Logic*, Volume 72, Issue 2, June 2007, pp. 463 - 482 ([doi:10.2178/jsl/1185803619](https://doi.org/10.2178/jsl/1185803619))
+* {#PicadoPultr12} [[Jorge Picado]], [[Aleš Pultr]]: _[[Frames and Locales]]_, Frontiers in Mathematics, Birkhäuser (2012) &lbrack;[doi:10.1007/978-3-0348-0154-6](https://doi.org/10.1007/978-3-0348-0154-6)&rbrack;
+
+  
+
+* [[Steven Vickers]]: *Sublocales in formal topology*, Journal of Symbolic Logic **72** 2 (2007) 463-482 &lbrack;[doi:10.2178/jsl/1185803619](https://doi.org/10.2178/jsl/1185803619)&rbrack;
 
 
 [[!redirects sublocale]]
