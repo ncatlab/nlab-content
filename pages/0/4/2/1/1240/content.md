@@ -490,17 +490,23 @@ Original articles:
   > (cf. *[[Wigner classification]]*)
 
 
-Textbook accounts include
+Textbook accounts:
+
+* {#Serre77} [[Jean-Pierre Serre]], section 3.3 of: *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
 
 * {#CurtisReiner62} [[Charles Curtis]], [[Irving Reiner]]: *Induced Representations*, chapter VII in: _Representation theory of finite groups and associative algebras_, AMS (1962) &lbrack;[ISBN:978-0-8218-4066-5](https://bookstore.ams.org/chel-356.h)&rbrack;
 
-
 * {#CurtisReiner81} [[Charles Curtis]], [[Irving Reiner]]: *Methods of representation theory -- With applications to finite groups and orders -- Vol. I*, Wiley (1981) &lbrack;[ark:/13960/t8gf4wd3x](https://archive.org/details/methodsofreprese00curt/page/n1/mode/2up)&rbrack;
 
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], section 3.3 of: _Representation Theory: a First Course_, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
+
+
+* [[Pavel Etingof]], [[Dmitry Vaintrob]], et al., section 4.8 of: *Introduction to representation theory*, Student Mathematical Library **59**, AMS (2011) &lbrack;[arXiv:0901.0827](https://arxiv.org/abs/0901.0827), [ams:stml-59](https://bookstore.ams.org/stml-59)&rbrack;
  
+* {#Steinberg12} [[Benjamin Steinberg]], section 8.2 of: *Representation Theory of Finite Groups -- An Introductory Approach*, Springer (2012) &lbrack;[doi:10.1007/978-1-4614-0776-8](https://doi.org/10.1007/978-1-4614-0776-8)&rbrack;
 
 
-Lecture note with standard material on induced representations and [[Frobenius reciprocity]] include
+Lecture notes with standard material on induced representations and [[Frobenius reciprocity]] include
 
 * {#tomDieck09} [[Tammo tom Dieck]], Chapter 4 of _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf))
  
