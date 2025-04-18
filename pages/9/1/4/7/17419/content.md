@@ -36,18 +36,23 @@ $$
   \,.
 $$
 
-Here the [[external tensor product]] has as underlying [[vector space]] the corresponding [[tensor product of vector spaces]], equipped with the evident [[action]]
+Here the [[external tensor product]] has as [[underlying]] [[vector space]] the corresponding [[tensor product of vector spaces]], equipped with the evident [[action]]
 
 $$
-  (g_1, g_2)( (v_1 \otimes v_2) ) \;=\; ( g_1(v_1) \otimes g_2(v_2) )
+  (g_1, g_2)( (v_1 \otimes v_2) ) 
+    \;=\; 
+  \big( 
+    g_1(v_1) \otimes g_2(v_2) 
+  \big)
   \,.
 $$
 
 =--
 
+(cf. [Fulton & Harris 1991 Ex. 2.36](#FultonHarris91))
+
 +-- {: .proof}
 ###### Proof
-
 
 By [[Schur's lemma]] see e.g. [here](https://math.stackexchange.com/a/2503141/58526).
 
@@ -74,10 +79,12 @@ Also the converse to Prop. \ref{IrrepsOfDirectProductsAreExternalTensorProductsO
 
 ## References
 
-* {#Kowalski13} E. Kowalski, around p. 41 of _Representation theory_, 2013 ([[KowalskiReptheory2013.pdf:file]])
+* {#Fein67} Burton Fein, _Representations of direct products of finite groups_, Pacific J. Math. **20** 1 (1967) 45-58 &lbrack;[euclid:1102992967](https://projecteuclid.org/euclid.pjm/1102992967)&rbrack;
 
-* {#Fein67} Burton Fein, _Representations of direct products of finite groups_, Pacific J. Math. Volume 20, Number 1 (1967), 45-58 ([Euclid:1102992967](https://projecteuclid.org/euclid.pjm/1102992967))
-See also
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]]: _Representation Theory: a First Course_, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
+
+* {#Kowalski13} E. Kowalski, around p. 41 of _Representation theory_ (2013) &lbrack;[[KowalskiReptheory2013.pdf:file]]&rbrack;
+
 
 * Wikipedia, _[Direct product of groups](https://en.wikipedia.org/wiki/Direct_product_of_groups)_
 
