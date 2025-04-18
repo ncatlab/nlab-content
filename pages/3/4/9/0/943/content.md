@@ -236,7 +236,7 @@ Appreciation of the role of convenient categories was in full force by the early
 
 The terminology ("convenient category of topological spaces") became widely adopted with
 
-* {#Steenrod67} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
+* {#Steenrod67} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152 ([doi](https://doi.org/10.1307/mmj/1028999711), [euclid:mmj/1028999711](http://projecteuclid.org/euclid.mmj/1028999711))
 
 referring there to the category of *[[compactly generated topological space]]* (see the references [there](compactly+generated+topological+space#Refererences) for more), whose convenient [[cartesian closed category|cartesian closure]] had [previously](#HistoricalRemarks) been highlighted in:
 
@@ -269,33 +269,32 @@ On the abstract construction principle of these examples:
    
 See also:
 
-* {#Spanier} [[Edwin Spanier]], _Quasi-topologies_, Duke Mathematical Journal 30 (1) (1963), 1--14.
+* {#Spanier} [[Edwin Spanier]], _Quasi-topologies_, Duke Mathematical Journal 30:1 (1963), 1--14.  [doi](https://doi.org/10.1215/s0012-7094-63-03001-1).
 
   > (on [[quasi-topological spaces]])
 
-* {#Booth} Peter I. Booth,  _The exponential law of maps. II._  Math. Z. 121 (1971), 311&#8211;319. 
+* {#Booth} Peter I. Booth,  _The exponential law of maps. II._  Math. Z. 121:4 (1971), 311–319.  [doi](https://doi.org/10.1007/bf01109977).
 
-* {#BT} P. Booth, ; Tillotson, J., _Monoidal closed, Cartesian closed and convenient categories of topological spaces_. Pacific J. Math. 88 (1980), no. 1, 35--53. [project euclid](http://projecteuclid.org/euclid.pjm/1102779712)
+* {#BT} P. Booth, ; Tillotson, J., _Monoidal closed, Cartesian closed and convenient categories of topological spaces_. Pacific J. Math. 88:1 (1980), 35--53.  [doi](https://doi.org/10.2140/pjm.1980.88.35), [euclid](http://projecteuclid.org/euclid.pjm/1102779712).
 
-* Michael Crabb, [[Ioan James]] ,  _Fibrewise homotopy theory_.   Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. viii+341 pp. ISBN: 1-85233-014-7 {#CrabbJames}
-
-
-* {#Preuss02} Gerhard Preu&#223;, _Foundations of topology: an approach to convenient topology_, Kluwer, Dordrecht/ Boston 2002 ([doi:10.1007/978-94-010-0489-3](https://www.springer.com/gp/book/9781402008917))
-
-  survey in: _Convenient topology --  a new branch of topology_ ([web](http://at.yorku.ca/i/a/a/c/54.htm))
+* Michael Crabb, [[Ioan James]] ,  _Fibrewise homotopy theory_.   Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. viii+341 pp. ISBN: 1-85233-014-7.  [doi](https://doi.org/10.1007/978-1-4471-1265-5) {#CrabbJames}
 
 
-* {#Brown06} [[Ronnie Brown]] _Topology and Groupoids_, Booksurge (2006), available from amazon: Section 5.9: Spaces of functions and the compact-open topology. 
+* {#Preuss02} Gerhard Preu&#223;, _Foundations of topology: an approach to convenient topology_, Kluwer, Dordrecht/ Boston 2002 ([doi:10.1007/978-94-010-0489-3](https://doi.org/10.1007/978-94-010-0489-3))
+
+survey in: _Convenient topology --  a new branch of topology_ ([web](http://at.yorku.ca/i/a/a/c/54.htm))
+
+* {#Brown06} [[Ronnie Brown]] _[[Topology and Groupoids]]_, Booksurge (2006), Section 5.9: Spaces of functions and the compact-open topology. 
 
 Discussion via [[topos theory]]:
 
-* {#Johnstone} [[Peter Johnstone]], _On a topological topos_, Proc. London Math. Soc. (3) 38 (1979) 237--271.
+* {#Johnstone} [[Peter Johnstone]], _On a topological topos_, Proc. London Math. Soc. (3) 38:2 (1979) 237--271.  [doi](https://doi.org/10.1112/plms/s3-38.2.237).
 
 * Harasani, Hamed A. _Topos theoretic methods in general topology_, PhD Thesis, University of Wales, Bangor, (1988) [(link to pdf files)](http://groupoids.org.uk/harasani.html). {#Harasani}
 
 Analogous considerations for [[diffeological spaces]] (subsuming [[D-topological spaces]])
 
-* {#KM} [[Andreas Kriegl]]; [[Peter Michor]], _[[The Convenient Setting of Global Analysis]]_, Mathematical Surveys and Monographs, Volume 53. American Mathematical Society, Providence, RI (1997).
+* {#KM} [[Andreas Kriegl]]; [[Peter Michor]], _[[The Convenient Setting of Global Analysis]]_, Mathematical Surveys and Monographs, Volume 53. American Mathematical Society, Providence, RI (1997).  [doi](https://doi.org/10.1090/surv/053).
 
 
 
