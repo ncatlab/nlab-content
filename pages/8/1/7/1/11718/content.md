@@ -15,6 +15,10 @@ Making more explicit the relation of higher spin gauge theory to [[Chevalley-Eil
 
 * [[Xavier Bekaert]], S. Cnockaert, [[Carlo Iazeolla]], [[Mikhail A. Vasiliev]]: *Nonlinear higher spin theories in various dimensions*, in *Higher spin gauge theories: Proceedings, 1st Solvay Workshop: Brussels, Belgium, 12-14 May, 2004*  \[<a href="https://arxiv.org/abs/hep-th/0503128">arXiv:hep-th/0503128</a>, [inSpire](https://inspirehep.net/literature/678495)\]
 
+On [[field (physics)|fields]] on [[de Sitter spacetime]] via the [[representation theory]] of the [[de Sitter group]]:
+
+* [[Thomas Basile]], [[Xavier Bekaert]]: [[Nicolas Boulanger]]: _Mixed-symmetry fields in de Sitter space: a group theoretical glance_, J. High Energ. Phys. **2017** 81 (2017) &lbrack;[arXiv:1612.08166](https://arxiv.org/abs/1612.08166)&rbrack;
+
 
 On [[Lie algebroids]] (motivated by [[higher spin gauge theory]]):
 
