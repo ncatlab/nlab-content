@@ -159,7 +159,7 @@ So far everything has been very formal.  The concrete input from the fact that w
 If $f:A\to B$ is a [[monomorphism in an (infinity,1)-category|monomorphism]] that is plus-connected, then $f^+ : A^+ \to B^+$ is an equivalence.
 \end{lemma}
 \begin{proof}
-Since the plus-construction preserves finite limits, it preserves monomorphisms; thus it suffices to show that $f^+$ is surjective.  An object $x\in B^+(U)$ is determined by a matching family over a covering sieve $R\hookrightarrow y U$, consisting of $x_V \in B(V)$ for all $V\to U$ in $R$.  Since $f$ is plus-connected, we have a map $h:B\to A^+$ assigning to each $x_V$ an object $h(x_V) \in A^+(V)$, determined by a matching family over a covering sieve $S_V \hookrightarrow y V$.  Now we can compose the sieves $S_V$ and $R$ to obtain a covering sieve $T$ on $U$, such that the restriction of $x$ to $T$ (which is equal to $x$) is in the image of $f^+$.
+Since the plus-construction preserves finite limits, it preserves monomorphisms; thus it suffices to show that $f^+$ is surjective.  An object $x\in B^+(U)$ is determined by a [[matching family]] over a [[covering sieve]] $R\hookrightarrow y U$, consisting of $x_V \in B(V)$ for all $V\to U$ in $R$.  Since $f$ is plus-connected, we have a map $h:B\to A^+$ assigning to each $x_V$ an object $h(x_V) \in A^+(V)$, determined by a matching family over a covering sieve $S_V \hookrightarrow y V$.  Now we can compose the sieves $S_V$ and $R$ to obtain a covering sieve $T$ on $U$, such that the restriction of $x$ to $T$ (which is equal to $x$) is in the image of $f^+$.
 \end{proof}
 
 \begin{lemma}
