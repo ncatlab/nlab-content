@@ -48,7 +48,7 @@ On the [[representation theory]] of the de Sitter group and its [[Inönü-Wigner
 
 * Francisco J. Herranz, Mariano Santander, section 4 of _(Anti)de Sitter/Poincare symmetries and representations from Poincare/Galilei through a classical deformation approach_, J.Phys.A41:015204,2008 ([arXiv:math-ph/0612059](https://arxiv.org/abs/math-ph/0612059))
 
-* Thomas Basile, [[Xavier Bekaert]], Nicolas Boulanger, _Mixed-symmetry fields in de Sitter space: a group theoretical glance_ ([arXiv:1612.08166](https://arxiv.org/abs/1612.08166))
+* [[Thomas Basile]], [[Xavier Bekaert]]: [[Nicolas Boulanger]]: _Mixed-symmetry fields in de Sitter space: a group theoretical glance_, J. High Energ. Phys. **2017** 81 (2017) &lbrack;[arXiv:1612.08166](https://arxiv.org/abs/1612.08166)&rbrack;
 
 * Zimo Sun, *A note on the representations of $SO(1,d+1)$* ([arXiv:2111.04591](https://arxiv.org/abs/2111.04591))
 
