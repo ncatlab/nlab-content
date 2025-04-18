@@ -37,7 +37,21 @@ $$
 $$
 
 
-The slice category is a special case of a [[comma category]].
+The slice category is a special case of a [[comma category]]. Specifically, if $F_c: \mathbf{*} \to \mathbf{C}$ is a constant functor to $c$, then $\mathbf{C}/c := (Id_{\mathbf{C}} \downarrow F_c)$.
+
+The slice constructor $\mathbf{C}/(\cdot): \mathbf{C} \to Cat$ is functorial. A morphism $f: c \to d$ in $\mathbf{C}$ induces a functor between over-categories $F: \mathbf{C}/c \to \mathbf{C}/d$ by "composing" an object of $\mathbf{C}/c$ with $f$. Below is a commutative diagram illustrating the functoriality of $F$:
+\begin{tikzcd}
+	\bullet && \bullet \\
+	& {\bullet{c}} \\
+	& {\bullet{d}}
+	\arrow["{\phi = F(\phi)}"{description}, from=1-1, to=1-3]
+	\arrow["\alpha", from=1-1, to=2-2]
+	\arrow["{F(\alpha)}", from=1-1, to=3-2]
+	\arrow["\beta", from=1-3, to=2-2]
+	\arrow["{F(\beta)}", from=1-3, to=3-2]
+	\arrow["f", from=2-2, to=3-2]
+\end{tikzcd}
+The properties of the slice functor are explored further [below](#SliceFunctor).
 
 There is a [[forgetful functor]] $U_c: \mathbf{C}/c \to \mathbf{C}$ which maps an object $f:X \to c$ to its domain $X$ and a morphism $g: X \to X' \in \mathbf{C}/c$ (from $f:X \to c$ to $f': X' \to c$ such that $f' \circ g = f$) to the morphism $g: X \to X'$.
 
@@ -65,6 +79,7 @@ The [[duality|dual]] notion is an [[under category]].
 If $C$ admits binary coproducts with the fixed object $c$, then the forgetful functor $C/c \to C$ is [[comonadic]]. See [[coreader comonad]] for more details.
 
 ### Relation to codomain fibration
+{#SliceFunctor}
 
 The assignment of overcategories $C/c$ to objects $c \in C$ extends to a [[functor]]
 
@@ -80,8 +95,10 @@ $$
 
 from the [[arrow category]] of $C$.  (Note that unless $C$ has [[pullbacks]], this functor is not actually a [[Grothendieck fibration|fibration]], though it is always an opfibration.)
 
-
-
+### Base Change Functor.
+(Main article: [[base change]])
+This is another important induced functor between over-categories. If $\mathbf{C}/c$ has finite products, then a morphism $f: d \to c$ in $\mathbf{C}$ induces the base change functor $f^*: \mathbf{C}/c \to \mathbf{C}/d$, which takes an object $\alpha: z \to c$ in $\mathbf{C}/c$ to the projection from the fibered product $y \times_{f,\alpha} d \to_{\pi_1} d$ as an object of $\mathbf{C}/d$. 
+The [[right adjoint]] to this functor is (by definition) the [[dependent product]].
 
 
 [[!include sliced adjoint functors -- section]]
@@ -162,7 +179,7 @@ $
   \simeq
   C(d,c) \times F(d) 
 $
-and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure on presheaves]].
+and hence $F' = Y(c) \times F$ with respect to the [[closed monoidal structure on presheaves]].
 
 =--
 
