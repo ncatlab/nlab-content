@@ -83,6 +83,6 @@ See also:
 
 [[!redirects causets]]
 [[!redirects causal set]]
-[[!redirects locally finite poset]]
-
 [[!redirects causal sets]]
+[[!redirects locally finite poset]]
+[[!redirects locally finite posets]]
