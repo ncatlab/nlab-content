@@ -12,15 +12,26 @@
 =--
 =--
 
-This entry provides a hyperlinked index for the book
+This entry is to record the reference:
 
-* [[Jorge Picado]], [[Aleš Pultr]],
+* [[Jorge Picado]], [[Aleš Pultr]]:
+
+  \linebreak
  
-  _Frames and Locales.  Topology without points_, 
-  
-  Frontiers in Mathematics, Birkhäuser (2012)
+  **Frames and Locales:  Topology without points**
 
-on basics of [[locales]] and [[pointfree topology]].
+  \linebreak 
+  
+  Frontiers in Mathematics
+
+  Birkhäuser (2012)
+
+  [doi:10.1007/978-3-0348-0154-6](https://doi.org/10.1007/978-3-0348-0154-6)
+
+  slides: [pdf](https://www.mat.uc.pt/~picado/talks/louvain2019.pdf)
+
+on [[frames]], [[locales]] and their use in [[pointfree topology]].
+
 
 # Contents
 * table of contents
