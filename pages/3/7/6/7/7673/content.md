@@ -645,6 +645,8 @@ Comparisons of various models can be found in
 
 * [[Daniel Gratzer]], [[Jonathan Sterling]], *Syntactic categories for dependent type theory: sketching and adequacy* &lbrack;[arXiv:2012.10783](https://arxiv.org/abs/2012.10783)&rbrack;
 
+* [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], [[Paige Randall North]] (2025). *Comparing Semantic Frameworks for Dependently-Sorted Algebraic Theories*. In: Kiselyov, O. (eds) Programming Languages and Systems. APLAS 2024. Lecture Notes in Computer Science, vol 15194. Springer, Singapore. [doi:10.1007/978-981-97-8943-6_1](https://doi.org/10.1007/978-981-97-8943-6_1)
+
 
 Recent work on abstract definitions of (models of) type theory include:
 
