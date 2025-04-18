@@ -128,17 +128,11 @@ The underlying [[locale]] of a [[topological space]]
 will typically have many sublocales that are not [[spatial locale|spatial]],
 i.e., do not come from any [[topological space]].
 
-However, any [[subset]] $S$ of a [[topological space]] $X$ can be equipped
-with the induced topology, which turns it into a subspace,
-whose underlying [[locale]] is a sublocale of $\Omega(X)$.
-This can be most easily seen in the language of surjective [[morphisms of frames]],
-since open sets in the induced topology are by definition intersections
-of $S$ and an open subset of $X$.
+However, any [[subset]] $S$ of a [[topological space]] $X$ can be equipped with the induced topology, which turns it into a subspace, whose underlying [[locale]] is a sublocale of $\Omega(X)$. This can be most easily seen in the language of surjective [[morphisms of frames]], since open sets in the induced topology are by definition intersections of $S$ and an open subset of $X$.
 
-Thus, we have a canonical map from the set of (topological) subspaces of $X$
-to the set of spatial sublocales of $\Omega X$.
+Thus, we have a canonical map from the set of (topological) subspaces of $X$ to the set of spatial sublocales of $\Omega X$.
 
-This map is a bijection if $X$ satisfies the [[separation axiom]] $T_D$, e.g., is a [[Hausdorff space]] (VI.1.2 in [PP](#PP)).
+This map is injective if $X$ satisfies the [[separation axiom]] $T_D$, e.g., is a [[Hausdorff space]] (VI.1.2 in [PP](#PP)).
 
 This map is a surjection if $X$ is a [[sober space]] (Proposition VI.2.2.1 in [PP](#PP)).
 
