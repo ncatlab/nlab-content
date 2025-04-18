@@ -1416,13 +1416,58 @@ There is actually more information contained in the HTML source of the error mes
 
 ### How to search the nLab
 
-The [[home page]] has a (rather slow) search box.
+Most conventional search engines such as Google, Bing, Yandex, Yahoo, Baidu, DuckDuckGo, StartPage, and others allow to search the nlab by appending `site:ncatlab.org` to the query.
+If DuckDuckGo is your search engine, you can type "!nl" to search the nLab, e.g., "!nl morphism".
+
+**The built-in search.**  This is via the search box at the top of every page.  The distinguishing characteristics of this search are:
+
+   1. It uses _regular expressions_.
+   1. It searches the _source_ of each page.
 
 Instiki's search uses regular expressions.  That means you can do all sorts of fancy searches, but it also means that pages with special characters in their names are hard to search for.  For instance, if you search for `(n,r)-category` you will come up with nothing, because Instiki interprets the parentheses as a regular expression grouping construct.  To search for actual parentheses, you need to backslash them: search instead for `\(n,r\)-category`.
 
-### How to search the nLab from DuckDuckGo
+#### Regular Expressions
 
-If DuckDuckGo is your search engine, you can type "!nl" to search the nLab, e.g., "!nl morphism".
+Regular expressions are a powerful way of extending search capabilities to take into account that one often wants to search for more than just a set phrase.  In a regular expression, certain characters are declared to be "special" and have a particular interpretation (somewhat like TeX with its special catcodes).  A special character can always be "escaped" to interpret it as an ordinary character.  Thus `.` means "match any single character" but `\.` means "match a period".
+
+As Instiki is written in ruby, it uses the ruby version of regular expressions (each language has its own version; the differences are usually minor).  The following is based on the list at [ruby-doc](http://www.ruby-doc.org/docs/ProgrammingRuby/html/language.html#UJ).  It has been condensed slightly to those aspects likely to be of use here:
+
+Special characters
+: The special characters are: `.`, `|`, `(`, `)`, `[`, `\`, `^`, `{`, `+`, `$`, `*`, and `?`. To match one of these characters, precede it with a backslash.  All other characters ordinarily just match themselves unless they are made somehow special by one of the special characters.
+
+`\b`, `\B`
+: Match word boundaries and nonword boundaries respectively.  Thus `cat` matches against `category` and `cat` but `cat\b` only matches `cat` (and `scat`).
+
+`[`...`]`
+: This matches against a single character in a list.  The characters `|`, `(`, `)`, `[`, `^`, `$`, `*`, `?` are treated as regular characters in such a list.  You can specify a range using `-`: thus, `a-z`.  To include a `]` or `-` it must come at the start of the list.  A `^` at the start negates the list.
+
+`\d`, `\s`, `\w`
+: These match, respectively, digits, spaces, and word characters.
+
+`\D`, `\S`, `\W`
+: These are the negations of the lowercase versions.
+
+`.` (period)
+: Matches any character except a newline.
+
+`(`...`)`
+: Parentheses group pieces of the regular expression.  This is important for the following modifications.  In these, $x$ stands for a sub-expression which can be a single character, a `[`...`]`, or a `(`...`)`.
+
+$x$`*`
+: Matches zero or more occurrences of $x$.  Thus `ab*` matches `a`, `ab`, `abb`, and so forth.  Similarly, `(cat)*` matches `cat`, `catcat`, `catcatcat`, and so forth.  This will try to match as much as possible; use $x$`*?` to make it match as little as possible.
+
+$x$`+`
+: Matches one or more occurrences of $x$.  Thus `ab+` matches `ab`, `abb`, but not `a`.  This will try to match as much as possible; use $x$`+?` to make it match as little as possible.
+
+$x$`{`$m$`,`$n$`}`
+: Matches at least $m$ and at most $n$ occurrences of $re$.  This will try to match as much as possible; use $x$`{`$m$`,`$n$`}?` to make it match as little as possible.
+
+$x$`?`
+: Matches zero or one occurrence of $x$.
+
+$x_1$|$x_2$
+: Matches either $x_1$ or $x_2$.
+
 
 ### How to edit nLab pages in your favorite text editor
 
