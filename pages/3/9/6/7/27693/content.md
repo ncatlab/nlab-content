@@ -18,7 +18,7 @@ The *Bondi-Metzner-Sach group* (BMS group) is the group of [[asymptotic symmetri
 
 ## References
 
-Named after
+Named after:
 
 * Hermann Bondi, M. G. J. Van der Burg, A. W. K. Metzner: *Gravitational waves in general relativity, VII. Waves from axi-symmetric isolated system*, Proceedings of the Royal Society A **269** 1336 &lbrack;[doi:10.1098/rspa.1962.0161](https://doi.org/10.1098/rspa.1962.0161)&rbrack;
 
