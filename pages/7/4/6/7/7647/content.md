@@ -94,7 +94,7 @@ There is an evident [[linear representation]] of $G \wr Sym_{(n)} \subset G \wr 
   \rho_i^{\otimes_{n_i}} 
 $, where the subgroup $G^n$ acts according to the [[external tensor product of representations]], and the subgroup $Sym_n$  acts by [[permutation]] of [[tensor product of vector spaces|tensor factors]].
 
-For $R$ an irrep of $Sym_n$, we canonically regard it as a representation of $G \wr Sym_n \twoheadrightarrow Sym_n$.
+For $R$ an irrep of $Sym_{(n)}$, we canonically regard it as a representation of $G \wr Sym_{(n)} \twoheadrightarrow Sym_{(n)}$.
 
 \begin{theorem}
   Up to [[isomorphism]], the [[irreducible representations]] of the [[wreath product group]] $G \wr Sym_n$ are exactly the [[induced representations]] along $G \wr Sym_{(n)} \hookrightarrow G \wr Sym_n$ of the [[tensor product of representations|tensor products]] of the form
@@ -106,10 +106,10 @@ $$
   \otimes
   R
 $$
-for $(n)$ an $I$-partition as above and $R$ an [[irrep]] of $Sym_n$.
+for $(n)$ an $I$-partition as above and $R$ an [[irrep]] of $Sym_{(n)}$.
 \end{theorem}
 
-This is [James & Kerber 1984 Thm. 4.3.34](#JamesKerber84), for the special case that their "$H$" is all of $H = Sym_n$. For proper subgroups $H \subset Sym_n$ the analogous statement holds for the irreps of $G \wr H$, with $Sym_{(n)}$ above replaced by $Sym_{(n)} \cap H$.
+This is [James & Kerber 1984 Thm. 4.3.34](#JamesKerber84), for the special case that their "$H$" is all of $H = Sym_n$. For proper subgroups $H \subset Sym_n$ the analogous statement holds for the irreps of $G \wr H$, with $Sym_{(n)}$ above replaced throughout by $Sym_{(n)} \cap H$.
 
 
 ## Examples ##
