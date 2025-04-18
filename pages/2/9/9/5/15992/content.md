@@ -45,7 +45,7 @@ The _[[Schur orthogonality relation]]_ is the statement that the [[complex numbe
 \]
 
 
-(e.g. [Fulton & Harris 1991 Thm. 2.12](#FultonHarris91), [tom Dieck 2009 Prop. 2.2.1 & (2.3.3)](#tomDieck09), [Steinberg 2012 Thm. 4.3.9](#Steinberg12))
+(e.g. [Fulton & Harris 1991 Thm. 2.12](#FultonHarris91), [tom Dieck 2009 Prop. 2.2.1 & (2.3.3)](#tomDieck09), [Etingof et al. 2011 Thm. 3.8](#EtingofEtAl), [Steinberg 2012 Thm. 4.3.9](#Steinberg12))
 
 In fact, this holds also at the level of complex [[irreducible representations]] $\rho^{(a)}$ ("grand Schur orthogonality"), regarded for each $g \in G$ as [[unitary matrices]] $\rho^{(a)}(g) \in U(\chi^{(a)}(e))$ with matrix entries $\big(\rho^{(a)}(g)_{i j}\big)_{i j}$:
 
@@ -114,6 +114,10 @@ Lecture notes:
 * {#tomDieck09} [[Tammo tom Dieck]], _Representation theory_, 2009 ([pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]])
 
 * Andrei Yafaev, _Characters of finite groups_ ([pdf](http://www.ucl.ac.uk/~ucahaya/Characters.pdf))
+
+* {#EtingofEtAl} [[Pavel Etingof]], Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, [[Dmitry Vaintrob]], Elena Yudovina:
+*Introduction to representation theory*, Student Mathematical Library **59**, AMS (2011) &lbrack;[arXiv:0901.0827](https://arxiv.org/abs/0901.0827), [ams:stml-59](https://bookstore.ams.org/stml-59)&rbrack;
+
 
 See also:
 
