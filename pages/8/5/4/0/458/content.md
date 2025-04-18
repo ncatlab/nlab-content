@@ -514,13 +514,18 @@ An early paper, containing much of the basic theory, and in which the term "loca
 
 An introduction to and survey of the use of locales instead of topological spaces ("[[point-free topology]]"):
 
-* {#Johnstone83} [[Peter Johnstone]], _The point of pointless topology_ ,  Bull. Amer. Math. Soc. (N.S.) **8** 1 (1983), 41-53 &lbrack;[Bulletin AMS](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html), [Euclid](http://projecteuclid.org/euclid.bams/1183550014)&rbrack;
+* {#Johnstone83} [[Peter Johnstone]]: _The point of pointless topology_; Bull. Amer. Math. Soc. (N.S.) **8** 1 (1983) 41-53 &lbrack;[ams:1983-08-01/S0273-0979-1983-15080-2](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html)[euclid:bams/1183550014](http://projecteuclid.org/euclid.bams/1183550014)&rbrack;
+  > (advertised as the "trailer" for [Johnston 1982](#Johnstone82))
 
-This is, in its own words, to be read as the trailer for the book
 
-*  [[Peter Johnstone]], _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press (1982, 1986) xxi+370 pp. &lbrack;[MR85f:54002](http://www.ams.org/mathscinet-getitem?mr=698074)&rbrack;
 
-that develops, among other things, much of [[general topology]] entirely with the notion of locales used in place of that of [[topological spaces]]. See also *[[Stone Spaces]]* for more.
+that develops, among other things, much of [[general topology]] entirely with the notion of locales used in place of that of [[topological spaces]]. 
+
+Monographs on locales and [[pointfree topology]]:
+
+* {#Johnstone82} [[Peter Johnstone]]: _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press (1982, 1986) &lbrack;[ISBN:9780521337793](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/stone-spaces?format=PB&isbn=9780521337793)&rbrack;
+
+* {#PicadoPultr12} [[Jorge Picado]], [[Aleš Pultr]]: _[[Frames and Locales]]_, Frontiers in Mathematics, Birkhäuser (2012) &lbrack;[doi:10.1007/978-3-0348-0154-6](https://doi.org/10.1007/978-3-0348-0154-6)&rbrack;
 
 
 Other textbook accounts:
