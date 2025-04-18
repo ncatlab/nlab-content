@@ -1123,7 +1123,7 @@ The notion of the [[external tensor product of vector bundles]] originates in di
 
 The notion of [[external tensor product of representations]] seems to be [[folklore]], it is mentioned in most textbooks but without any attribution:
 
-* [[William Fulton]], [[Joe Harris]], Exc. 2.36 in: *Representation Theory: a First Course*, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
+* [[William Fulton]], [[Joe Harris]], Ex. 2.36 in: *Representation Theory: a First Course*, Springer (1991) &lbrack;[doi:10.1007/978-1-4612-0979-9](https://link.springer.com/book/10.1007/978-1-4612-0979-9)&rbrack;
 
 * Caroline Gruson, Vera Serganova, p. 3 of: *From Finite Groups to Quivers via Algebras -- A Journey Through Representation Theory*, Springer (2018) &lbrack;[doi:10.1007/978-3-319-98271-7](https://doi.org/10.1007/978-3-319-98271-7)&rbrack;
 
