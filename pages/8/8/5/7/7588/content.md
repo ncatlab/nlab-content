@@ -115,15 +115,22 @@ We see that a non-trivial space can have have an empty set of points for purely 
 
 * [[localic homotopy theory]]
 
+
 ## References
 
-An introduction to [[locale theory]] is
+An introduction:
 
-* {#Johnstone83} [[Peter Johnstone]] (1983); _The point of pointless topology_; Bull. Amer. Math. Soc. (N.S.) Volume 8, Number 1, 41--53; [Euclid](http://projecteuclid.org/euclid.bams/1183550014).
+* {#Johnstone83} [[Peter Johnstone]]: _The point of pointless topology_; Bull. Amer. Math. Soc. (N.S.) **8** 1 (1983) 41-53 &lbrack;[ams:1983-08-01/S0273-0979-1983-15080-2](http://www.ams.org/bull/1983-08-01/S0273-0979-1983-15080-2/home.html)[euclid:bams/1183550014](http://projecteuclid.org/euclid.bams/1183550014)&rbrack;
+  > (advertised as the "trailer" for [Johnstone 1982](#Johnstone82))
 
-This is, in its own words, to be read as the trailer for Johnstone's book _[[Stone Spaces]]_, which see.
+Monographs:
 
-For a constructive treatment more appropriate to the ideas on this page see
+* {#Johnstone82} [[Peter Johnstone]]: _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics __3__, Cambridge University Press (1982, 1986) &lbrack;[ISBN:9780521337793](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/stone-spaces?format=PB&isbn=9780521337793)&rbrack;
+
+* {#PicadoPultr12} [[Jorge Picado]], [[Aleš Pultr]]: _[[Frames and Locales]]_, Frontiers in Mathematics, Birkhäuser (2012) &lbrack;[doi:10.1007/978-3-0348-0154-6](https://doi.org/10.1007/978-3-0348-0154-6)&rbrack;
+
+
+A [[constructive mathematics|constructive]] treatment:
 
 * {#JoyalTierney84}[[Andre Joyal|Andr&eacute; Joyal]], [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_, Memoirs of the American Mathematical Society **51** (1984), no. 309
 
