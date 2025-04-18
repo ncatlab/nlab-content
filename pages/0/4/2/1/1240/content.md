@@ -9,9 +9,9 @@
 =--
 =--
 
-# Induced modules
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -537,10 +537,6 @@ The [general abstract formulation](#GeneralAbtractDefinition) above is mentioned
 * {#Lawvere70} [[Bill Lawvere]], _[[Equality in hyperdoctrines and comprehension schema as an adjoint functor]]_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14. ([pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf))
 
  
-The general case of $\infty$-groups in $\infty$-toposes is further discussed in 
-
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
-
 
 [[!redirects induced module]]
 [[!redirects induced representations]]
