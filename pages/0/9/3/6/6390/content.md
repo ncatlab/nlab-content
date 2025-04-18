@@ -98,7 +98,7 @@ Discussion of worldline dynamics of spinning particles in [[background fields]]:
 
 Discussion via [[coadjoint orbits]]:
 
-* Thomas Basile, Euihun Joung, TaeHwan Oh, *Manifestly Covariant Worldline Actions from Coadjoint Orbits. Part I: Generalities and Vectorial Descriptions* &lbrack;[arXiv:2307.13644](https://arxiv.org/abs/2307.13644)&rbrack;
+* [[Thomas Basile]], Euihun Joung, TaeHwan Oh: *Manifestly Covariant Worldline Actions from Coadjoint Orbits. Part I: Generalities and Vectorial Descriptions*, J. High Energ. Phys. **2024** 18 (2024). &lbrack;[arXiv:2307.13644](https://arxiv.org/abs/2307.13644)&rbrack;
 
 
 
