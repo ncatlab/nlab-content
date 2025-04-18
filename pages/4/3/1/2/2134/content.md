@@ -255,10 +255,14 @@ The statement of Schur's lemma applies also to objects which are stable with res
 
 Named after *[[Issai Schur]]*.
 
-Lecture notes:
+Textbook accounts:
+
+* {#Serre77} [[Jean-Pierre Serre]], section 2.2 of: *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
+
 
 * [[Pavel Etingof]], Oleg Golberg, Sebastian Hensel, Tiankai Liu, Alex Schwendner, [[Dmitry Vaintrob]], Elena Yudovina: Prop. 1.16 & Cor. 1.17 in: *Introduction to representation theory*, Student Mathematical Library **59**, AMS (2011) &lbrack;[arXiv:0901.0827](https://arxiv.org/abs/0901.0827), [ams:stml-59](https://bookstore.ams.org/stml-59)&rbrack;
 
+Lecture notes:
 
 * {#tomDieck09} [[Tammo tom Dieck]], §1.1.2 in: _Representation theory_ (2009) &lbrack;[pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf), [[tomDieckRepresentationTheory.pdf:file]]&rbrack;
 
