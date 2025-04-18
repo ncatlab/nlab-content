@@ -196,8 +196,12 @@ A review is in
 
 * F. Falceto, _Branes in Poisson sigma models_ (2009) ([pdf](http://benasque.org/2009gph/talks_contr/094Falceto.pdf))
 
-### Recent developments
+### Further developments
 
 * Francesco Bonechi, [[Alberto Cattaneo]], [[Pavel Mnev]], _The Poisson sigma model on closed surfaces_ ([arXiv:1110.4850](http://arxiv.org/abs/1110.4850))
+
+* [[Thomas Basile]], [[Athanasios Chatzistavrakidis]], [[Sylvain Lavau]]: *Supersymmetric Poisson and Poisson-supersymmetric sigma models* &lbrack;[arXiv:2504.13114](https://arxiv.org/abs/2504.13114)&rbrack;
+
+
 
 [[!redirects Poisson sigma model]]
