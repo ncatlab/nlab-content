@@ -629,7 +629,7 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 
 * [[John H. Schwarz]]: *From Hadrons to Gravitons via Strings*, in: *Fields, Gravity, Strings and Beyond: In Memory of Stanley Deser* &lbrack;[arXiv:2412.16885](https://arxiv.org/abs/2412.16885)&rbrack;
 
-
+* [[Paolo Di Vecchia]]: *The birth of string theory*, PhT Colloquium (April 2025) &lbrack;video:[YT](https://youtu.be/NwRRoR8mMWQ)&rbrack;
 
 
 [[!redirects string theories]]
