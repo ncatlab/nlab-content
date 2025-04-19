@@ -30,6 +30,8 @@ On the early history of [[string theory]]:
   
   published as: *From the S-matrix to string theory*, Section 11 in: [[Paolo Di Vecchia]] et al. (eds.), *The Birth of String Theory*, Campridge University Press (2011) 156-178 &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
 
+* [[Paolo Di Vecchia]]: *The birth of string theory*, PhT Colloquium (April 2025) &lbrack;video:[YT](https://youtu.be/NwRRoR8mMWQ)&rbrack;
+
 On [[Lars Brink]]:
 
 * [[Paolo Di Vecchia]]: *Remembering Lars Brink and some of his work* &lbrack;[arXiv:2501.02498](https://arxiv.org/abs/2501.02498)&rbrack;
