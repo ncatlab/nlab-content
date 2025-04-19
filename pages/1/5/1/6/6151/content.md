@@ -42,6 +42,7 @@ On lax [[braided monoidal categories]] with possibly non-invertible [[braiding]]
 
 [[!redirects B. Day]]
 [[!redirects Brian Day]]
+[[!redirects Brian J. Day]]
 [[!redirects B. J. Day]]
 
 category:people
