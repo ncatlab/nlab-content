@@ -95,7 +95,8 @@ $$
 
 from the [[arrow category]] of $C$.  (Note that unless $C$ has [[pullbacks]], this functor is not actually a [[Grothendieck fibration|fibration]], though it is always an opfibration.)
 
-### Base Change Functor.
+### Base change 
+
 (Main article: [[base change]])
 This is another important induced functor between over-categories. If $\mathbf{C}/c$ has finite products, then a morphism $f: d \to c$ in $\mathbf{C}$ induces the base change functor $f^*: \mathbf{C}/c \to \mathbf{C}/d$, which takes an object $\alpha: z \to c$ in $\mathbf{C}/c$ to the projection from the fibered product $y \times_{f,\alpha} d \to_{\pi_1} d$ as an object of $\mathbf{C}/d$. 
 The [[right adjoint]] to this functor is (by definition) the [[dependent product]].
