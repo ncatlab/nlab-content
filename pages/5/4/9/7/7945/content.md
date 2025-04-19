@@ -69,7 +69,7 @@ $$
   \tilde \mu \colon X \to \mathfrak{g}^\ast
 $$
 
-which is a [[homomorphism]] of [[Poisson manifolds]], called the **[[moment map]]** of the (infinitesimal) Hamiltonian $G$-action.
+which is a [[homomorphism]] of [[Poisson manifolds]], called the **[[momentum map]]** of the (infinitesimal) Hamiltonian $G$-action.
 
 **Warning** The lift from $\phi$ to $\hat \phi$ above, hence from the _existence_ of [[Hamiltonians]] to an actual _choice_ of Hamiltonians is in general not unique. In the literature the difference between $\hat \phi$ and $\phi$ (or of their Lie theoretic analogs) is not always made clear.
 
@@ -83,7 +83,7 @@ By [Atiyah & Bott](#AtiyahBott), the action of a Lie algebra on a symplectic man
 
 ## Related concepts
 
-* [[moment map]]
+* [[momentum map]]
 
 * [[symplectic quotient]]
 
