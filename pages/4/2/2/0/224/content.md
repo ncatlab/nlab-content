@@ -123,15 +123,15 @@ The lexicon will be spread over a number of entries with links given in the tabl
 
 ### (Pre-)graded vector spaces
 
- A _pre-$\mathbb{Z}$-graded vector space_ (pre-gvs) is a direct sum $V = \bigoplus_{p\in \mathbb{Z}} V_p$.  The elements of $V_p$ are said to be _homogeneous of degree $p$_.  If $x \in V_p$, write $|x| = p$. 
+ A _pre-$\mathbb{Z}$-graded vector space_ (pre-gvs) is a direct sum $V = \bigoplus_{p \in \mathbb{Z}} V_p$.  The elements of $V_p$ are said to be _homogeneous of degree $p$_.  If $x \in V_p$, write $|x| = p$. 
 
-Sometimes it may be convenient to write $\bar{x} = (-1)^{|x|}x$ and $V_+ = \bigoplus_{p\gt 0}V_p$.  Another very useful piece of notation is $V^p = V_{-p}$.  In this case we will refer to an 'upper grading' with, in contrast, the other notation being a 'lower grading'.  These are merely for convenience and have little or no mathematical significance.
+Sometimes it may be convenient to write $\bar{x} = (-1)^{|x|}x$ and $V_+ = \bigoplus_{p \gt 0} V_p$.  Another very useful piece of notation is $V^p = V_{-p}$.  In this case we will refer to an 'upper grading' with, in contrast, the other notation being a 'lower grading'.  These are merely for convenience and have little or no mathematical significance.
 
 
 
 For the purposes of this lexicon:
 
-A _graded vector space_ (gvs) is a positively or negatively graded pre-gvs that is either $V = \sum_{p\geq 0}V_p$ or $V = \sum_{p\leq 0}V^p$. (This effectively restricts from a $\mathbb{Z}$-grading to one over $\mathbb{N}$
+A _graded vector space_ (gvs) is a positively or negatively graded pre-gvs that is either $V = \sum_{p \geq 0} V_p$ or $V = \sum_{p \leq 0} V^p$. (This effectively restricts from a $\mathbb{Z}$-grading to one over $\mathbb{N}$
  
 We consider the field $k$ to be a pre-gvs with $(k)_0 = k$, and $(k)_p =0$ if $p\neq 0$.  We say $V$ is of _finite type_ if $dim(V_p) \lt \infty$ for all $p$.
 
@@ -147,9 +147,11 @@ Of course, we now have two notations for the same object, ${pre GVS}(V,W) = Hom_
 
 ### Suspension
 
-If $r\in \mathbb{Z}$, the $r$-suspension of $V$ is given by $(s^r V)_n = V_{n-r}.$
+If $r \in \mathbb{Z}$, the $r$-suspension of $V$ is given by $(s^r V)_n = V_{n-r}.$
 
-We will need $s$, the 1-suspension, and $s^{-1}$ in particular.  Of course, $(s^{-1}V)_n = V_{n+1}$.  It is also useful to note $(s^r V)^p = V^{p+r}$. Again, of course, $s^r: V\to s^r V$ is an isomorphism of degree $-r$ having $s^{-r}$ as its inverse.
+We will need $s$, the 1-suspension, and $s^{-1}$ in particular.  Of course, $(s^{-1}V)_n = V_{n+1}$.  It is also useful to note $(s^r V)^p = V^{p+r}$. Again, of course, $s^r: V \to s^r V$ is an isomorphism of degree $-r$ having $s^{-r}$ as its inverse.
+
+Note that the $r$-suspension $s^r V$ of a $\mathbb{Z}$-graded vector space $V$ is also commonly denoted by $V[-r]$, and correspondingly, its inverse $s^{-r} V$ by $V[r]$.
 
 (This is the basic example of the **suspension functor** discussed in [[triangulated category]].)
 
@@ -233,7 +235,7 @@ Notice that given suitable [[cocycles]] on $G$, then $G$-graded vector spaces ma
 
 ## References
 
-* {#AragonEtAl97} G. Aragón, J.L. Aragón, M.A. Rodríguez (1997), Clifford Algebras and Geometric Algebra, _Advances in Applied Clifford Algebras_ Vol. 7 No. 2, pg 91–102, doi:10.1007/BF03041220, S2CID:120860757
+* {#AragonEtAl97} G. Aragón, J.L. Aragón, M.A. Rodríguez, _Clifford Algebras and Geometric Algebra_, Advances in Applied Clifford Algebras **7** 2 (1997) 91–102, &lbrack;[doi:10.1007/BF03041220](https://doi.org/10.1007/BF03041220)&rbrack;
 
 [[!redirects graded vector space]]
 [[!redirects graded vector spaces]]
