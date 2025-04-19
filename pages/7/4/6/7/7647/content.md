@@ -83,33 +83,61 @@ For $n \in \mathbb{N}$ and  $(n_i \in \mathbb{N})_{i \in I}$ an $I$-[partition](
 $$
   Sym_{(n)}
   \;\coloneqq\;
-  \prod_i Sym_{n_i}
+  \textstyle{\prod_{i \in I}} Sym_{n_i}
   \;\;
   \subset
   \;\;
   Sym_n
 $$
 
-There is an evident [[linear representation]] of $G \wr Sym_{(n)} \subset G \wr Sym_n$ on $  \displaystyle{\underset{i \in I}{\bigotimes}}
-  \rho_i^{\otimes_{n_i}} 
-$, where the subgroup $G^n$ acts according to the [[external tensor product of representations]], and the subgroup $Sym_n$  acts by [[permutation]] of [[tensor product of vector spaces|tensor factors]].
+There is an evident [[linear representation]] of $G \wr Sym_{(n)} \subset G \wr Sym_n$ on 
+\[
+  \label{PartitionedExternalTensorProduct}
+  \rho
+  \;\coloneqq\;
+  \displaystyle{\underset{i \in I}{\boxtimes}}
+  \rho_i^{\boxtimes_{n_i}} 
+  \;\;\;
+  \in
+  \;\;
+  Rep(G \wr Sym_{(n)})
+  \,,
+\]
+where the [[subgroup]] $G^n \subset G \wr Sym_{(n)}$ acts according to the [[external tensor product of representations]], and the subgroup $Sym_{(n)}$ acts by [[permutation]] of [[tensor product of vector spaces|tensor factors]].
 
-For $R$ an irrep of $Sym_{(n)}$, we canonically regard it as a representation of $G \wr Sym_{(n)} \twoheadrightarrow Sym_{(n)}$.
+The irreps $\sigma$ of the [[direct product group]] $Sym_{(n)}$ are (see [there](direct+product+group#IrrepsOfDirectProductsAreExternalTensorProductsOfIrreps)) of the form 
+\[
+  \label{IrrepsOfPartitionedSymmetricGroup}
+  \sigma 
+    \;\simeq\; 
+  \underset{i \in I}{\boxtimes} \sigma_{j(i)}
+  \,,
+\] 
+for $\sigma_{j(i)}$ an [[representation theory of the symmetric group|irrep of the symmetric group]] $Sym_{n_i}$. We may canonically regard $\sigma$ as a representation of $G \wr Sym_{(n)} \twoheadrightarrow Sym_{(n)}$.
 
 \begin{theorem}
-  Up to [[isomorphism]], the [[irreducible representations]] of the [[wreath product group]] $G \wr Sym_n$ are exactly the [[induced representations]] along $G \wr Sym_{(n)} \hookrightarrow G \wr Sym_n$ of the [[tensor product of representations|tensor products]] of the form
+  For $G$ a [[finite group]] and $n \in \mathbb{N}$,
+  the [[irreducible representations]] of the [[wreath product group]] $G \wr Sym_n$ are, up to [[isomorphism]], exactly the [[induced representations]] along $G \wr Sym_{(n)} \hookrightarrow G \wr Sym_n$ of the [[tensor product of representations|tensor products]] of representations $\rho$ (eq:PartitionedExternalTensorProduct) for $(n)$ an $I$-partition as above, with irreps $\sigma$ (eq:IrrepsOfPartitionedSymmetricGroup) of $Sym_{(n)}$:
 $$
-  \Big(
-    \displaystyle{\underset{i \in I}{\bigotimes}}
-    \rho_i^{\otimes_{n_i}} 
-  \Big)
-  \otimes
-  R
+  \mathbb{C}\big[
+    G \wr Sym_n
+  \big]
+  \otimes_{
+    \mathbb{C}\big[ G \wr Sym_{(n)} \big]
+  }
+  \bigg(
+    \Big(
+      \displaystyle{\underset{i \in I}{\boxtimes}}
+      \rho_i^{\boxtimes_{n_i}} 
+    \Big)
+    \otimes
+    \sigma
+  \bigg)
+  \,.
 $$
-for $(n)$ an $I$-partition as above and $R$ an [[irrep]] of $Sym_{(n)}$.
 \end{theorem}
 
-This is [James & Kerber 1984 Thm. 4.3.34](#JamesKerber84), for the special case that their "$H$" is all of $H = Sym_n$. For proper subgroups $H \subset Sym_n$ the analogous statement holds for the irreps of $G \wr H$, with $Sym_{(n)}$ above replaced throughout by $Sym_{(n)} \cap H$.
+This is a digest of [James & Kerber 1984 Thm. 4.3.34](#JamesKerber84), for the special case that their "$H$" is all of $H = Sym_n$. For proper subgroups $H \subset Sym_n$ the analogous statement holds for the irreps of $G \wr H$, with $Sym_{(n)}$ above replaced throughout by $Sym_{(n)} \cap H$.
 
 
 ## Examples ##
