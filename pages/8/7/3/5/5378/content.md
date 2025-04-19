@@ -50,6 +50,6 @@ gives an account of the author's interpretation of  [[Henry Whitehead]]'s [[Alge
 
 See also:
 
-*  [[Tim Porter]], _Review of "Algebraic Homotopy'' by H.J.Baues_, in Bull. London Math. Soc. 22 (1990) 196-197.
+*  [[Tim Porter]], _Review of "Algebraic Homotopy" by H.J.Baues_, in Bull. London Math. Soc. **22** (1990) 196-197 &lbrack;[doi:10.1112/blms/22.2.196](https://doi.org/10.1112/blms/22.2.196)&rbrack;
 
 category: reference
