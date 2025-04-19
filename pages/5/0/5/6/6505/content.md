@@ -14,14 +14,17 @@
 
 ## Idea
 
-A _momentum map_ is a dual incarnation of a [[Hamiltonian action]] of a [[Lie group]] (or [[Lie algebra]]) on a [[symplectic manifold]].
+In [[symplectic geometry]] a _momentum map_ is a dual incarnation of a [[Hamiltonian action]] of a [[Lie group]] (or [[Lie algebra]]) on a [[symplectic manifold]].
 
-An [[action]] of a [[Lie group]] $G$ on a [[symplectic manifold]] $X$ by ([[Hamiltonian symplectomorphisms|Hamiltonian]]) [[symplectomorphisms]] corresponds [[infinitesimal space|infinitesimally]] to a Lie algebra [[homomorphism]] from the [[Lie algebra]] $\mathfrak{g}$ to the [[Hamiltonian vector fields]] on $X$. If this lifts to a coherent choice of [[Hamiltonians]], hence to a Lie algebra homomorphism $\mathfrak{g} \to (C^\infty(X), \{-,-\})$ to the [[Poisson bracket]], then, by [[dual vector space|dualization]], this is equivalently a [[Poisson manifold]] homomorphism of the form
-$$\mu : X \to \mathfrak{g}^*.$$
+An [[action]] of a [[Lie group]] $G$ on a [[symplectic manifold]] $X$ by ([[Hamiltonian symplectomorphisms|Hamiltonian]]) [[symplectomorphisms]] corresponds [[infinitesimal space|infinitesimally]] to a Lie algebra [[homomorphism]] from the [[Lie algebra]] $\mathfrak{g}$ to the [[Hamiltonian vector fields]] on $X$. If this lifts to a coherent choice of [[Hamiltonians]], hence to a Lie algebra homomorphism $\mathfrak{g} \to (C^\infty(X), \{-,-\})$ to the [[Poisson bracket]], then, by [[dual vector space|dualization]], this is equivalently a [[Poisson manifold]] homomorphism of the form 
+$$
+  \mu 
+    \,\colon\, 
+  X \longrightarrow \mathfrak{g}^*
+  \,.
+$$
 
-This $\mu$ is called the __momentum map__ of the Hamiltonian action.
-
-(*Moment map* is a misnomer and physically incorrect. It is an erroneous translation of the French term _application moment_. See [this mathoverflow question](https://mathoverflow.net/q/242468) for the history of the name.)
+This $\mu$ is called the __momentum map__ of the Hamiltonian action (in fact it is commonly called the *moment map* even if that is a misnomer arising from erroneous translation of the French term _application moment_. See [this mathoverflow question](https://mathoverflow.net/q/242468) for the history of the name).
 
 The name derives from the special and historically first case of [[angular momentum]] in the [[rigid body dynamics|dynamics of rigid bodies]], see _[Examples - Angular momentum](#AngularMomentum)_ below.
 
@@ -249,11 +252,10 @@ Original articles include
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], _Geometric asymptotics_, AMS (1977) ([online](http://www.ams.org/online_bks/surv14))
 
-* [[Michael Atiyah]], _Convexity and commuting Hamiltonians_, Bull. London
-Math. Soc. __14__ (1982), 1-15.
+* [[Michael Atiyah]], _Convexity and commuting Hamiltonians_, Bull. London Math. Soc. __14__ (1982), 1-15.
 
-* [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology, Vol 23, No. 1 (1984) ([pdf](https://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
-  {#AtiyahBott84}
+* {#AtiyahBott84} [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology, Vol 23, No. 1 (1984) ([pdf](https://www.math.sunysb.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
+  
 
 Further developments are in
 
@@ -304,13 +306,12 @@ The relation between momentum maps and [[conserved currents]]/[[Noether's theore
 
 Discussion in [[diffeology]]:
 
-* {#PIZ} [[Patrick Iglesias-Zemmour]], *The moment map in diffeology*, Memoirs of the American Mathematical Society (2010) $[$[web](http://math.huji.ac.il/~piz/Site/The%20Articles/084469EE-D890-4CAA-8A13-1C655A76CF63.html), [ISBN: 978-1-4704-0586-1](https://bookstore.ams.org/memo-207-972)$]$
+* {#PIZ} [[Patrick Iglesias-Zemmour]], *The moment map in diffeology*, Memoirs of the American Mathematical Society (2010) &lbrack;[web](http://math.huji.ac.il/~piz/Site/The%20Articles/084469EE-D890-4CAA-8A13-1C655A76CF63.html), [ISBN: 978-1-4704-0586-1](https://bookstore.ams.org/memo-207-972)&rbrack;
 
 ### In thermodynamics
  {#ReferencesInThermodynamics}
 
 Since momentum maps generalize [[energy]]-functionals, they provide a covariant formulation of [[thermodynamics]]:
-
 
 * [[Jean-Marie Souriau]], _Thermodynamique et g&#233;om&#233;trie_,  Lecture Notes in Math. 676 (1978), 369&#8211;397 ([scan](http://www-lib.kek.jp/cgi-bin/kiss_prepri.v8?KN=197810025))
 
