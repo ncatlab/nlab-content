@@ -14,7 +14,7 @@
 
 ## Idea
 
-In [[symplectic geometry]] a _momentum map_ is a dual incarnation of a [[Hamiltonian action]] of a [[Lie group]] (or [[Lie algebra]]) on a [[symplectic manifold]].
+In [[symplectic geometry]] a _momentum map_ (French: _application moment_, often erroneously translated as _moment map_) is a dual incarnation of a [[Hamiltonian action]] of a [[Lie group]] (or [[Lie algebra]]) on a [[symplectic manifold]].
 
 An [[action]] of a [[Lie group]] $G$ on a [[symplectic manifold]] $X$ by ([[Hamiltonian symplectomorphisms|Hamiltonian]]) [[symplectomorphisms]] corresponds [[infinitesimal space|infinitesimally]] to a Lie algebra [[homomorphism]] from the [[Lie algebra]] $\mathfrak{g}$ to the [[Hamiltonian vector fields]] on $X$. If this lifts to a coherent choice of [[Hamiltonians]], hence to a Lie algebra homomorphism $\mathfrak{g} \to (C^\infty(X), \{-,-\})$ to the [[Poisson bracket]], then, by [[dual vector space|dualization]], this is equivalently a [[Poisson manifold]] homomorphism of the form 
 $$
@@ -242,6 +242,12 @@ The concept is originally due to [[Jean-Marie Souriau]].
 
 * [[Victor Guillemin]], [[Yael Karshon]], [[Viktor Ginzburg]], _Moment maps, cobordisms, and Hamiltonian group actions_, Mathematical Surveys and Monographs, volume 98 (2002) 350 pp
 
+* Juan-Pablo Ortega, Tudor S. Ratiu, _Momentum maps and Hamiltonian reduction_, Progress in Mathematics 222 (2004). Birkhäuser Boston. ISBN 0-8176-4307-9.
+
+* Yvonne Choquet-Bruhat, Cécile DeWitt-Morette, _Analysis, Manifolds and Physics_, Elsevier, 1977.  ISBN 978-0-7204-0494-4.
+
+* S. K. Donaldson and P. B. Kronheimer, The Geometry of Four-Manifolds, Oxford Science Publications, 1990. ISBN 0-19-850269-9.
+
 Lecture notes and surveys include
 
 * [[Joel W. Robbin]], _The moment map_, an exposition, [pdf](http://www.math.wisc.edu/~robbin/moment.pdf)
@@ -269,6 +275,9 @@ Further developments are in
 * Friedrich Knop, _Automorphisms of multiplicity free Hamiltonian manifolds_, [arxiv/1002.4256](https://arxiv.org/abs/1002.4256)
 
 * [[W. Crawley-Boevey]], _Geometry of the moment map for representations of quivers_, Compositio Math. __126__ (2001), no. 3, 257-293 [doi](https:/doi.org/10.1023/A:1017558904030) [MR1834739](https://mathscinet.ams.org/mathscinet-getitem?mr=1834739)
+
+* Karl-Hermann Neeb, _Kähler geometry, momentum maps and convex sets_, Tsinghua lectures in mathematics, 361–391.
+Adv. Lect. Math. (ALM), 45.  International Press, Somerville, MA, 019.  ISBN: 978-1-57146-372-2.
 
 See also
 
