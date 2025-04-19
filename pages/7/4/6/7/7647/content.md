@@ -61,85 +61,6 @@ But when $G = Sym(n)$ is a [[symmetric group]], then often its defining action o
 \end{remark}
 
 
-## Properties
-
-### General 
-
-\begin{remark}\label{AsAPermutationGroup}
-**(as a permutation group)**
-\linebreak
-If both $H \subset Sym(X)$ and $G \subset Sym(Y)$ are presented as [[permutation groups]], then the wreath product is itself a permutation group, acting on the [[Cartesian product]] set $X \times Y$ by letting $G$ act trivially on the first and naturally on the second factor and letting $H^Y$ act on $X\times Y$ such that the $y$-th component of $H^Y$ permutes $X\times\{y\}$ naturally and fixes everything else pointwise.
-\end{remark}
-(e.g. [Holland 1989](#Holland89))
-
-
-### Irreducible representations
- {#IrreducibleRepresentations}
-
-Let $G$ be a [[finite group]]. Denote by $Irr(G) \simeq \big\{ [\rho_i] \big\}_{i \in I}$ the [[set]] of [[isomorphism classes]] of its [[irreducible representations]].
-
-For $n \in \mathbb{N}$ and  $(n_i \in \mathbb{N})_{i \in I}$ an $I$-[partition](partition#partitions_of_natural_numbers), in that $n = \sum_i n_i$, write
-
-$$
-  Sym_{(n)}
-  \;\coloneqq\;
-  \textstyle{\prod_{i \in I}} Sym_{n_i}
-  \;\;
-  \subset
-  \;\;
-  Sym_n
-$$
-
-There is an evident [[linear representation]] of $G \wr Sym_{(n)} \subset G \wr Sym_n$ on 
-\[
-  \label{PartitionedExternalTensorProduct}
-  \rho
-  \;\coloneqq\;
-  \displaystyle{\underset{i \in I}{\boxtimes}}
-  \rho_i^{\boxtimes_{n_i}} 
-  \;\;\;
-  \in
-  \;\;
-  Rep(G \wr Sym_{(n)})
-  \,,
-\]
-where the [[subgroup]] $G^n \subset G \wr Sym_{(n)}$ acts according to the [[external tensor product of representations]], and the subgroup $Sym_{(n)}$ acts by [[permutation]] of [[tensor product of vector spaces|tensor factors]].
-
-The irreps $\sigma$ of the [[direct product group]] $Sym_{(n)}$ are (see [there](direct+product+group#IrrepsOfDirectProductsAreExternalTensorProductsOfIrreps)) of the form 
-\[
-  \label{IrrepsOfPartitionedSymmetricGroup}
-  \sigma 
-    \;\simeq\; 
-  \underset{i \in I}{\boxtimes} \sigma_{j(i)}
-  \,,
-\] 
-for $\sigma_{j(i)}$ an [[representation theory of the symmetric group|irrep of the symmetric group]] $Sym_{n_i}$. We may canonically regard $\sigma$ as a representation of $G \wr Sym_{(n)} \twoheadrightarrow Sym_{(n)}$.
-
-\begin{theorem}
-  For $G$ a [[finite group]] and $n \in \mathbb{N}$,
-  the [[irreducible representations]] of the [[wreath product group]] $G \wr Sym_n$ are, up to [[isomorphism]], exactly the [[induced representations]] along $G \wr Sym_{(n)} \hookrightarrow G \wr Sym_n$ of the [[tensor product of representations|tensor products]] of representations $\rho$ (eq:PartitionedExternalTensorProduct) for $(n)$ an $I$-partition as above, with irreps $\sigma$ (eq:IrrepsOfPartitionedSymmetricGroup) of $Sym_{(n)}$:
-$$
-  \mathbb{C}\big[
-    G \wr Sym_n
-  \big]
-  \otimes_{
-    \mathbb{C}\big[ G \wr Sym_{(n)} \big]
-  }
-  \bigg(
-    \Big(
-      \displaystyle{\underset{i \in I}{\boxtimes}}
-      \rho_i^{\boxtimes_{n_i}} 
-    \Big)
-    \otimes
-    \sigma
-  \bigg)
-  \,.
-$$
-\end{theorem}
-
-This is a digest of [James & Kerber 1984 Thm. 4.3.34](#JamesKerber84), for the special case that their "$H$" is all of $H = Sym_n$. For proper subgroups $H \subset Sym_n$ the analogous statement holds for the irreps of $G \wr H$, with $Sym_{(n)}$ above replaced throughout by $Sym_{(n)} \cap H$.
-
-
 ## Examples ##
 
 \begin{example}
@@ -189,6 +110,174 @@ $$
 \begin{example}
   A [[framed braid group]] is the wreath product with the [[integers]] $\mathbb{Z}$ of a plain [[braid group]].
 \end{example}
+
+
+
+## Properties
+
+### General 
+
+\begin{remark}\label{AsAPermutationGroup}
+**(as a permutation group)**
+\linebreak
+If both $H \subset Sym(X)$ and $G \subset Sym(Y)$ are presented as [[permutation groups]], then the wreath product is itself a permutation group, acting on the [[Cartesian product]] set $X \times Y$ by letting $G$ act trivially on the first and naturally on the second factor and letting $H^Y$ act on $X\times Y$ such that the $y$-th component of $H^Y$ permutes $X\times\{y\}$ naturally and fixes everything else pointwise.
+\end{remark}
+(e.g. [Holland 1989](#Holland89))
+
+
+### Irreducible representations
+ {#IrreducibleRepresentations}
+
+Let $G$ be a [[finite group]]. Denote by $Irr(G) \simeq \big\{ [\rho_i] \big\}_{i \in I}$ the [[set]] of [[isomorphism classes]] of its [[irreducible representations]].
+
+For $n \in \mathbb{N}$ and  $(n_i \in \mathbb{N})_{i \in I}$ an $I$-[partition](partition#partitions_of_natural_numbers), in that $n = \sum_i n_i$, write
+
+$$
+  Sym_{(n)}
+  \;\coloneqq\;
+  \textstyle{\prod_{i \in I}} Sym_{n_i}
+  \;\;
+  \subset
+  \;\;
+  Sym_n
+$$
+
+There is an evident [[linear representation]] of 
+$$
+  \textstyle{\prod_{i \in I}}
+  \big(
+    G \wr Sym_{n_i}
+  \big)
+  \;\;
+  \simeq
+  \;\;
+  G \wr Sym_{(n)} 
+  \;\;\subset\;\; 
+  G \wr Sym_n
+$$ 
+on 
+\[
+  \label{PartitionedExternalTensorProduct}
+  \rho
+  \;\coloneqq\;
+  \displaystyle{\underset{i \in I}{\boxtimes}}
+  \rho_i^{\boxtimes_{n_i}} 
+  \;\;\;
+  \in
+  \;\;
+  Rep(G \wr Sym_{(n)})
+  \,,
+\]
+where the [[subgroup]] $G^n \subset G \wr Sym_{(n)}$ acts according to the [[external tensor product of representations]], and the subgroup $Sym_{(n)}$ acts by [[permutation]] of [[tensor product of vector spaces|tensor factors]].
+
+The irreps $\sigma$ of the [[direct product group]] $Sym_{(n)}$ are (see [there](direct+product+group#IrrepsOfDirectProductsAreExternalTensorProductsOfIrreps)) of the form 
+\[
+  \label{IrrepsOfPartitionedSymmetricGroup}
+  \sigma 
+    \;\simeq\; 
+  \underset{i \in I}{\boxtimes} \sigma_{j(i)}
+  \,,
+\] 
+for $\sigma_{j(i)}$ an [[representation theory of the symmetric group|irrep of the symmetric group]] $Sym_{n_i}$. We may canonically regard $\sigma$ as a representation of $G \wr Sym_{(n)} \twoheadrightarrow Sym_{(n)}$.
+
+\begin{theorem}
+  \label{IrrepsOfWreathProductOfFiniteGroup}
+  For $G$ a [[finite group]] and $n \in \mathbb{N}$,
+  the [[irreducible representations]] of the [[wreath product group]] $G \wr Sym_n$ are, up to [[isomorphism]], exactly the [[induced representations]] along $G \wr Sym_{(n)} \hookrightarrow G \wr Sym_n$ of the [[tensor product of representations|tensor products]] of representations $\rho$ (eq:PartitionedExternalTensorProduct) for $(n)$ an $I$-partition as above, with irreps $\sigma$ (eq:IrrepsOfPartitionedSymmetricGroup) of $Sym_{(n)}$:
+\[
+  \label{FormulaForIrrepsOfWreathProductWithFiniteGroup}
+  \mathbb{C}\big[
+    G \wr Sym_n
+  \big]
+  \otimes_{
+    \mathbb{C}\big[ G \wr Sym_{(n)} \big]
+  }
+  \bigg(
+    \Big(
+      \displaystyle{\underset{i \in I}{\boxtimes}}
+      \rho_i^{\boxtimes_{n_i}} 
+    \Big)
+    \otimes
+    \sigma
+  \bigg)
+  \,.
+\]
+\end{theorem}
+
+This is a digest of [James & Kerber 1984 Thm. 4.3.34](#JamesKerber84), for the special case that their "$H$" is all of $H = Sym_n$. For proper subgroups $H \subset Sym_n$ the analogous statement holds for the irreps of $G \wr H$, with $Sym_{(n)}$ above replaced throughout by $Sym_{(n)} \cap H$.
+
+\begin{example}
+\label{IrrepsOfCkWreathSym3}
+**(Irreps of $C_k \wr Sym_3$)**
+
+For $k \in \mathbb{N}_{\gt 0}$ denote by $C_k$ the [[cyclic group]] of [[order of a group|order]] $k$. Its [[complex numbers|complex]] [[irreps]] $\mathbf{1}_{p}$ are all 1-dimensional, labeled by $p \in C_k$: The element $[1] \in C_k$ acts on $\mathbf{1}_p$ as multiplication with $e^{2 \pi \mathrm{i} \tfrac{p}{k}}$.
+
+The irreps of $Sym_3$ are the [[trivial representation]] $\mathbf{1}$, the [[sign representation]] $\mathbf{1}_{sgn}$ and the [standard representation](representation+theory+of+the+symmetric+group#TheStandardRepresentation) $\mathbf{2}$.
+
+The irreps of $C_p \wr Sym_3$ according to Thm. \ref{IrrepsOfWreathProductOfFiniteGroup} may be regarded as falling into 3 classes, according to the nature of the corresponding partition:
+
+**Case 1 -- Partition involves a single irrep** $\mathbf{1}_p$. 
+In this case $Sym_{(3)} \simeq Sym_3$ and the formula (eq:FormulaForIrrepsOfWreathProductWithFiniteGroup) produces the representations
+$$
+  \mathbf{1}_{p}^{\boxtimes_3}
+  \otimes
+  \sigma
+  \;\;
+  \in
+  \;\;
+  Rep(C_p \wr Sym_3)
+$$
+for $p \in C_p$ and $\sigma \in \big\{\mathbf{1}, \mathbf{1}_{sgn}, \mathbf{2}\big\}$.
+
+
+**Case 2 -- Partition involves two distinct irreps**, $\mathbf{1}_p$ and $\mathbf{1}_{p'}$. 
+In this case $Sym_{(3)} = 1 \times Sym_2 \simeq Sym_2$ and the formula (eq:FormulaForIrrepsOfWreathProductWithFiniteGroup) produces
+$$
+  \mathbb{C}\big[
+    C_k \wr Sym_3
+  \big]
+  \otimes_{
+    \mathbb{C}\big[
+      C_k \times (C_k \wr Sym_2)
+    \big]
+  }
+  \Big(
+    \big(
+      \mathbf{1}_{p} 
+        \boxtimes
+      \mathbf{1}_{p'}^{\boxtimes_2}
+    \big)
+    \otimes
+    \sigma
+  \Big)
+$$
+for $p \neq p' \in C_k$ and $\sigma \in \big\{\mathbf{1}, \mathbf{1}_{sgn}\big\}$.
+
+**Case 3 -- Partition involves three distinct irreps**, $\mathbf{1}_{p_1}, \mathbf{1}_{p_2}, \mathbf{1}_{p_3}$. 
+In this case $Sym_{(3)} \simeq 1 \times 1 \times 1 \simeq 1$ and the formula (eq:FormulaForIrrepsOfWreathProductWithFiniteGroup) produces
+$$
+  \mathbb{C}\big[
+    C_k \wr Sym_3
+  \big]
+  \otimes_{
+    \mathbb{C}\big[
+      C_k^3
+    \big]
+  }
+  \big(
+    \mathbf{1}_{p_1} 
+      \boxtimes
+    \mathbf{1}_{p_2}
+      \boxtimes
+    \mathbf{1}_{p_3}
+  \big)
+$$
+for $p_i \in C_k$ pairwise distinct.
+
+\end{example}
+
+
+\linebreak
 
 
 ## References 
