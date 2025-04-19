@@ -121,10 +121,12 @@ The last two imply that it has an [[internal logic]] that resembles ordinary mat
 The above is the definition of an *elementary* topos.  We also have the (historically earlier) notion of [[Grothendieck topos]]: a __Grothendieck topos__ is a topos that is neither too small nor too large, in that it is:
 
 *  [[cocomplete category|cocomplete]] (not too small), and
+
 *  has a [[small set|small]] [[generating set]] (not too large).
 
-Equivalently, a Grothendieck topos is any category [[equivalence of categories|equivalent]] to the [[category of sheaves]] on some 
-[[small category|small]] [[site]].
+([Johnstone 2002, Vol 1 Theorem 2.2.8 (iv)](#Johnstone02))
+
+Equivalently, a Grothendieck topos is any category [[equivalence of categories|equivalent]] to the [[category of sheaves]] on some [[small category|small]] [[site]].
 
 
 ### $W$-toposes
@@ -347,7 +349,7 @@ A monograph that aims to be more expository, focusing on [[presheaf toposes]]:
 
 * [[Francis Borceux]], _[[Handbook of Categorical Algebra]] 3 - Categories of Sheaves_, Cambridge UP 1994 ([ISBN:9780521061247](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/handbook-categorical-algebra-volume-3?format=PB))
 
-* [[Peter Johnstone]], *[[Elephant|Sketches of an elephant: a topos theory compendium]]*  Oxford University Press 2002, Volume 1 ([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259)), Volume 2 ([ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982))
+* {#Johnstone02} [[Peter Johnstone]], *[[Elephant|Sketches of an elephant: a topos theory compendium]]*  Oxford University Press (2002), Volume 1 ([ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259)), Volume 2 ([ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982))
 
 * {#Warner12} [[Garth Warner]], *Homotopical Topos Theory*, EPrint Collection, University of Washington (2012) &lbrack;[hdl:1773/19722](http://hdl.handle.net/1773/19722), [pdf](https://sites.math.washington.edu//~warner/HTT_Warner.pdf), [[Waner-HomotopicalTopos.pdf:file]]&rbrack;
 
