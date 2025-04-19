@@ -217,7 +217,7 @@ in $\bigwedge(x_1, \ldots, x_p )$. We note that although we write $\varepsilon(\
 
 ### Terminology
 
-Baues (in his book on _Algebraic Homotopy_) has suggested using the terminology **chain algebra** for positively graded differential algebras  and **cochain algebras** for the negatively graded ones. This seems to be a very useful convention.
+Baues (in his book on [_Algebraic Homotopy_](#Baues)) has suggested using the terminology **chain algebra** for positively graded differential algebras  and **cochain algebras** for the negatively graded ones. This seems to be a very useful convention.
 
 ### Enrichment of dg-algebras over dg-coalgebras
 
@@ -287,7 +287,9 @@ to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-al
 
 ## References
 
-* {#AnelJoyal} [[Mathieu Anel]], [[André Joyal]], _Sweedler theory of (co)algebras and the bar-cobar constructions_, [pdf](http://mathieu.anel.free.fr/mat/doc/Anel%20-%20Sweedlertheory_v1.1.pdf)
+* {#Baues} [[Hans Joachim Baues]], _[[Algebraic Homotopy]]_, Cambridge Studies in Advanced Mathematics **15**, Cambridge University Press (1989) &lbrack;[doi:10.1017/CBO9780511662522](https://doi.org/10.1017/CBO9780511662522)&rbrack;
+
+* {#AnelJoyal} [[Mathieu Anel]], [[André Joyal]], _Sweedler theory of (co)algebras and the bar-cobar constructions_ &lbrack;[arXiv:1309.6952](https://arxiv.org/abs/1309.6952)&rbrack; 
 
 Twisted tensor products of smooth dg algebras:
 
