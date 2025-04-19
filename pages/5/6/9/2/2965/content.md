@@ -59,11 +59,11 @@ These results can all be generalized to [[enriched categories]], and also relati
 
 * {#Kelly82} [[Max Kelly]], _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
-* [[B. J. Day]], [[Steve Lack]], _Limits of small functors_, JPAA, [pdf](http://www.maths.usyd.edu.au/u/stevel/papers/small.pdf)
+* [[Brian J. Day]], [[Stephen Lack]], _Limits of small functors_, Journal of Pure and Applied Algebra 210:3 (2007), 651-663.  [doi](https://doi.org/10.1016/j.jpaa.2006.10.019), [arXiv](http://arxiv.org/abs/math/0610439), [pdf](http://www.maths.usyd.edu.au/u/stevel/papers/small.pdf).
 
-* [[Boris Chorny]], [[William Dwyer]], _The homotopy theory of small diagrams over large categories_,  Forum Math. 21 (2009), no. 2, 167--179; [preprint](http://math.haifa.ac.il/chorny/publications/Chorny,%20Dwyer%20-%20SmallFunctors.pdf)
+* [[Boris Chorny]], [[William Dwyer]], _The homotopy theory of small diagrams over large categories_,  Forum Math. 21:2 (2009), 167–179.  [doi](https://doi.org/10.1515/forum.2009.009), [arXiv](https://arxiv.org/abs/math/0607117)
 
-* [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures, 2022. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531))
+* [[Paolo Perrone]], [[Walter Tholen]], *Kan extensions are partial colimits*, Applied Categorical Structures 30:4 (2022), 685-753. ([arXiv:2101.04531](https://arxiv.org/abs/2101.04531), [doi](https://doi.org/10.1007/s10485-021-09671-9))
   
 The results of Chorny--Dwyer are cited by Rosický in 
 
@@ -71,7 +71,8 @@ The results of Chorny--Dwyer are cited by Rosický in
 
 See also
 
-* [[Georg Biedermann]], [[Boris Chorny]], _Duality and small functors_, Algebraic & Geometric Topology 15 (2015) 2609--2657 [doi](https://doi.org/10.2140/agt.2015.15.2609)
+* [[Georg Biedermann]], [[Boris Chorny]], _Duality and small functors_, Algebraic & Geometric Topology 15 (2015) 2609--2657.  [doi](https://doi.org/10.2140/agt.2015.15.2609)
+
 * [[Boris Chorny]], David White, _A variant of a Dwyer-Kan theorem for model categories_ (v1: _Homotopy theory of homotopy presheaves_), Algebraic & Geometric Topology __24__:4, 2185--2208 [arXiv:1805.05378](https://arxiv.org/abs/1805.05378)
 
 On when [[finitely continuous]] [[presheaves]] are small:
