@@ -4,4 +4,13 @@ This is equivalently a [[representable functor]] defined on the [[opposite categ
 
 Particularly in the study of moduli problems, there is also the notion of corepresentable contravariant functors. A functor $F : C^op \to Set$ is **corepresentable** if and only if there exists an object $X$ in $C$ and a morphism $F \to h_X$ such that for any object $T$ in $C$, the canonical map $Hom_C(X,T) \to Hom_{\PSh(C)}(h_X, h_T) \to Hom_{PSh(C)}(F, h_T)$ is bijective.
 
+## Related concepts
+
+* [[corepresentable functor theorem]]
+
+* [[representable functor]]
+
 [[!redirects corepresentable functors]]
+[[!redirects corepresenting object]]
+[[!redirects corepresenting objects]]
+[[!redirects corepresentable]]
