@@ -12,15 +12,27 @@
 * table of contents
 {: toc}
 
+## Idea
+
+The representable and corepresentable functor theorems are simple consequences of the [[general adjoint functor theorem]] and the following observations:
+
+* Suppose $C$ is a [[cocomplete category]].  A functor $F: C^{op}\to Set$ is [[representable]] if and only if it has a [[left adjoint]] $L$.  In this case, $L(\{\ast\})=X$ is the [[representing object]].  More generally, $L(S)=X^S$ is the [[product]] of $S$ copies of $X$, which exists.
+
+* Suppose $C$ is a [[complete category]].  A functor $F:C\to Set$ is [[corepresentable]] if and only if it has a [[left adjoint]] $L$.  In this case, $L(\{\ast\})=X$ is the [[corepresenting object]].  More generally, $L(S)=\coprod_S X$ is the [[coproduct]] of $S$ copies of $X$, which exists. 
+
 ## Statement
 
 The __representable functor theorem__ states that:
 
-- A [[presheaf]] $C^{op} \to Set$ on a [[cocomplete category]] $C$ is [[representable functor|representable]] (i.e. of the form $C({-}, c)$ for some object $c \in C$) if and only if it sends [[colimits]] in $C$ to [[limits]] in $Set$ and has a [[solution set condition|solution set]].
+- A [[presheaf]] $C^{op} \to Set$ on a [[cocomplete category]] $C$ is [[representable functor|representable]], i.e., of the form $C({-}, c)$ for some object $c \in C$ if and only if it sends [[colimits]] in $C$ to [[limits]] in $Set$ and has a [[solution set condition|solution set]].
+
+The latter condition means the following: there is a set $I$, an $I$-indexed family of objects $X_i\in C$, and an $I$-indexed family of elements $f_i\in F(X_i)$ such that for every object $Y\in C$ and $h\in F(Y)$ there is $k\in I$ and $t\colon Y\to X_i$ such that $h=F(t)(f_i)$.
 
 Dually, the __corepresentable functor theorem__ states that:
 
-- A [[copresheaf]] $C \to Set$ on a [[complete category]] $C$ is [[corepresentable functor|corepresentable]] (i.e. of the form $C(c, {-})$ for some object $c \in C$) if and only if it is [[continuous functor|continuous]] and has a [[solution set condition|solution set]].
+- A [[copresheaf]] $C \to Set$ on a [[complete category]] $C$ is [[corepresentable functor|corepresentable]], i.e., of the form $C(c, {-})$ for some object $c \in C$ if and only if it is [[continuous functor|continuous]] and has a [[solution set condition|solution set]].
+
+The latter condition means the following: there is a set $I$, an $I$-indexed family of objects $X_i\in C$, and an $I$-indexed family of elements $f_i\in F(X_i)$ such that for every object $Y\in C$ and $h\in F(Y)$ there is $k\in I$ and $t\colon X_i\to Y$ such that $h=F(t)(f_i)$.
 
 ## Related facts
 
