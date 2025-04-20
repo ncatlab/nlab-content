@@ -454,3 +454,4 @@ A stronger version for finitary functors between locally finitely presentable ca
 
 
 [[!redirects adjoint functor theorems]]
+[[!redirects general adjoint functor theorem]]
