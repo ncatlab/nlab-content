@@ -112,6 +112,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Multinomial and hypergeometric distributions: described in terms of [[Markov categories]] in [Jacobs'21](#multinomial).
 
+* [[point-free measure theory|Point-free measure theory]]: [Moss-Perrone'22](#det_submonad) and [Fritz-Lorenzin'25](#quantum_measurable).
+
 * [[Radon-Nikodym theorem]]: proven using [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales).
 
 * [[support|Supports]] of [[probability measures]]: studied in terms of [[probability monads]] in [Fritz-Perrone-Rezagholi'21](#monads_supports) and in terms of [[Markov categories]] in [FGLPS'23](#markov_supports)
@@ -177,6 +179,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * Categorical characterization of von Neumann entropy: [Parzygnat'22](#von_neumann).
 
 * Quantum versions of Markov categories: [Parzygnat'20](#quantum_markov) and [Fritz-Lorenzin'23](#quantum_definetti).
+
+* Quantum versions of measurable spaces: [Fritz-Lorenzin'25](#quantum_measurable).
 
 (...)
 
@@ -338,6 +342,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#free_gs} [[Tobias Fritz]], [[Wendong Liang]], _Free gs-monoidal categories and free Markov categories_, Applied Categorical Structures 31, 21, 2023. ([arXiv:2204.02284](https://arxiv.org/abs/2204.02284))
 
 * {#quantum_definetti} [[Tobias Fritz]] and Antonio Lorenzin, _Involutive Markov categories and the quantum de Finetti theorem_, 2023. ([arXiv](https://arxiv.org/abs/2312.09666))
+
+* {#quantum_measurable} [[Tobias Fritz]] and Antonio Lorenzin, _Categories of abstract and noncommutative measurable spaces_, 2025. ([arXiv](https://arxiv.org/abs/2504.13708))
 
 * {#orderedkantorovich} [[Tobias Fritz]] and [[Paolo Perrone]], _Stochastic order on metric spaces and the ordered Kantorovich monad_, Advances in Mathematics 366, 2020. ([arXiv:1808.09898](https://arxiv.org/abs/1808.09898))
 
