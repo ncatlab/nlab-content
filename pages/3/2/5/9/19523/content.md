@@ -427,6 +427,9 @@ The proposal that backreaction of cosmic inhomogeneities may mimic a [[cosmologi
 
 * {#SLGRW25} Antonia Seifert, Zachary G. Lane, Marco Galoppo, Ryan Ridden-Harper, [[David L. Wiltshire]]: *Supernovae evidence for foundational change to cosmological models*, MNRAS Letters **537** 1 (2025) L55-L60 &lbrack;[arXiv:2412.15143](https://www.arxiv.org/abs/2412.15143), [doi:10.1093/mnrasl/slae112](https://doi.org/10.1093/mnrasl/slae112)&rbrack;
 
+* Jing-Yi Jia, Jia-Lei Niu, Da-Chun Qiang, Hao Wei: *Alleviating the Hubble Tension with a Local Void and Transitions of the Absolute Magnitude* &lbrack;[arXiv:2504.13380](https://arxiv.org/abs/2504.13380)&rbrack;
+
+
 
 
 ### No effective dark energy from inhomogeneity
