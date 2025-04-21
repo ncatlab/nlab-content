@@ -367,10 +367,10 @@ that $f$ is indeed a continuous function. This proves the claim in generality.
 
 
 
-### Soberification reflection
+### Sobrification reflection
  {#Reflection}
 
-The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint]] is called the **soberification**.  
+The [[category]] of sober spaces is [[reflective subcategory|reflective]] in the category of all topological spaces; the [[left adjoint]] is called the **sobrification**, occasionally also **soberification**.  
 
 This reflection is also induced by the [[idempotent adjunction]] between spaces and [[locales]]; thus sober spaces are precisely those spaces that are the spaces of points of some [[locale]], and the [[category]] of sober spaces is [[equivalence of categories|equivalent]] to the category of [[locales with enough points]]. 
 
@@ -538,7 +538,7 @@ So let $p_1 \neq p_2 \in S X$ be two distinct points. This means that there exis
 +-- {: .num_prop}
 ###### Proposition
 
-For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the soberification $s_X \colon (X, \tau_X) \longrightarrow(S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
+For $(X, \tau_X)$ any [[topological space]], for $(Y,\tau_Y^{sob})$ a sober topological space, and for $f \colon (X, \tau_X) \longrightarrow (Y, \tau_Y)$ a [[continuous function]], then it factors uniquely through the sobrification $s_X \colon (X, \tau_X) \longrightarrow(S X, \tau_{S X})$ from def. \ref{SoberificationConstruction}, lemma \ref{SoberificationConstructionWellDefined}
 
 $$
   \array{
@@ -572,9 +572,9 @@ $$
   \,.
 $$
 
-By lemma \ref{SoberificationIsIndeedSober} and lemma \ref{UnitIntoSXDetectsT0AndSoberity}, the right vertical morphism $s_{S X}$ is an isomorphism (a [[homeomorphism]]), hence has an [[inverse morphism]]. This defines the diagonal morphism, which is the desired factorization.
+By Lemma \ref{SoberificationIsIndeedSober} and Lemma \ref{UnitIntoSXDetectsT0AndSoberity}, the right vertical morphism $s_{S X}$ is an isomorphism (a [[homeomorphism]]), hence has an [[inverse morphism]]. This defines the diagonal morphism, which is the desired factorization.
 
-To see that this factorization is unique, consider two factorizations $\tilde f, \overline{f} \colon \colon (S X, \tau_{S X}) \to (Y, \tau_Y^{sob})$ and apply the soberification construction once more to the triangles
+To see that this factorization is unique, consider two factorizations $\tilde f, \overline{f} \colon \colon (S X, \tau_{S X}) \to (Y, \tau_Y^{sob})$ and apply the sobrification construction once more to the triangles
 
 $$
   \array{
@@ -597,7 +597,7 @@ $$
   \,.
 $$
 
-Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to find that the vertical morphism is an isomorphism, and that $\tilde f$ and $\overline{f}$ do not change under soberification, as they already map between sober spaces. But now that the left vertical morphism is an isomorphism, the commutativity of this triangle for both $\tilde f$ and $\overline{f}$ implies that $\tilde f = \overline{f}$.
+Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to find that the vertical morphism is an isomorphism, and that $\tilde f$ and $\overline{f}$ do not change under sobrification, as they already map between sober spaces. But now that the left vertical morphism is an isomorphism, the commutativity of this triangle for both $\tilde f$ and $\overline{f}$ implies that $\tilde f = \overline{f}$.
 
 =--
 
@@ -626,11 +626,11 @@ Further examples of spaces that are _not_ sober includes the following:
 
 More interestingly: 
 
-* For $R$ a [[commutative ring]], then the space $R^2$ with the [[Zariski topology]] is $T_1$ but not sober, since every subvariety is an irreducible closed set which is not the [[topological closure|closure]] of a point.  Its _soberification_ is, unsurprisingly, the [[scheme]] $Spec(R[x,y])$, which contains "generic points" whose closures are the subvarieties. 
+* For $R$ a [[commutative ring]], then the space $R^2$ with the [[Zariski topology]] is $T_1$ but not sober, since every subvariety is an irreducible closed set which is not the [[topological closure|closure]] of a point.  Its sobrification is, unsurprisingly, the [[scheme]] $Spec(R[x,y])$, which contains "generic points" whose closures are the subvarieties. 
 
 The following non-example shows that sobriety is not a hereditary separation property, i.e., [[topological subspaces]] of sober spaces need not be sober:
 
-* The [[Alexandroff topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words ([[lists]]) with the "extends" preorder), then the soberification of its Alexandroff topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words ([[streams]]). Generally, the soberification has the set of [[filters]] on the poset as its points.
+* The [[Alexandroff topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words ([[lists]]) with the "extends" preorder), then the sobrification of its Alexandroff topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words ([[streams]]). Generally, the sobrification has the set of [[filters]] on the poset as its points.
 
 
 ## Related concepts
