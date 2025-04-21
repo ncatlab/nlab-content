@@ -45,7 +45,7 @@ $$
 
 This may be understood as arising from the [[causal additivity]]-[[axiom]] of the [[perturbative S-matrix]]. It generalizes the 1-dimensional time-ordering (path ordering) of the [[Dyson series]] in [[quantum mechanics]].
 
-More precisely, the time-ordere product is a  [[commutative algebra]]-[[structure]] on the [[microcausal polynomial observables]] of a [[free field theory|free]] [[Lagrangian field theory]] equipped with a [[vacuum state]] ([[Hadamard state]]) which on [[regular polynomial observables]] given on the [[regular polynomial observables]] by the [[star product]] which is induced (via [this def.](star+product#PropagatorStarProduct)) by the [[Feynman propagator]] and which is extended from there, in the sense of [[extensions of distributions]], to all [[microcausal polynomial observables]]. (This extension is the "[[renormalization]]" of the time-ordered product).
+More precisely, the time-ordered product is a  [[commutative algebra]]-[[structure]] on the [[microcausal polynomial observables]] of a [[free field theory|free]] [[Lagrangian field theory]] equipped with a [[vacuum state]] ([[Hadamard state]]) which on [[regular polynomial observables]] given on the [[regular polynomial observables]] by the [[star product]] which is induced (via [this def.](star+product#PropagatorStarProduct)) by the [[Feynman propagator]] and which is extended from there, in the sense of [[extensions of distributions]], to all [[microcausal polynomial observables]]. (This extension is the "[[renormalization]]" of the time-ordered product).
 
 ## Definition
  {#Definition}
