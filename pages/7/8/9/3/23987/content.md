@@ -1896,6 +1896,20 @@ Talks:
 
 ### Apr 2025
 
+17 Apr 2025
+
+**Quantum Industry Day**
+
+[www.q-innovision.com/quantum-industry-day-april-2025](https://www.q-innovision.com/quantum-industry-day-april-2025)
+
+<center>
+<a href="https://www.q-innovision.com/quantum-industry-day-april-2025">
+<img src="/nlab/files/CQTS-QuantumIndustryDay-Apr2025.png" width="900">
+</a>
+</center>
+
+\linebreak
+
 
 * 27 April 2025 
 
@@ -2849,6 +2863,16 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   cf. [nature:s41567-023-02131-2](https://www.nature.com/articles/s41567-023-02131-2), [arXiv:2501.18928](https://arxiv.org/abs/2501.18928)
 
   > We will discuss various types of [[quantum advantages]]. We start with the state of the art [[quantum complexity theory|complexity theoretical]] evidence for "[[quantum supremacy]]". We then talk about a new result on secure delegation of [[quantum computation]] using random [[quantum circuit|circuits]], which we call "quantum function secret-sharing".
+
+\linebreak
+
+* 21 Apr 2025
+
+  Yutaka Tabuchi (RIKEN Center for Quantum Computing)
+
+  **Superconducting quantum computers in RIKEN**
+
+  > [Superconducting quantum computers](qbit#SuperconductingQBitsReferences) have garnered significant attention in recent years. Having their scalability and controllability, they are regarded as one of the most promising physical systems for realizing [[quantum computation]]. In this presentation, I will give an overview of the superconducting quantum computers based on the ones developed in [RIKEN](https://www.riken.jp/en/research/labs/rqc/). Furthermore,  I discuss gate schemes and control mechanisms for further improvements.
 
 
 \linebreak
