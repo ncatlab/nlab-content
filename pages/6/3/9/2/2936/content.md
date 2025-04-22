@@ -251,7 +251,7 @@ Let $X$ be a compact Polish space and $Y$ a Polish space.  Let $\mathrm{Emb}(X,Y
 ###### Proof 
 Since $X$ is compact and $Y$ is Hausdorff, a map $f : X \to Y$ is an embedding, i.e. $f$ is a homeomorphism from $X$ to its image, if and only if $f$ is injective.  Thus we have
 
-$$ \mathrm{Emb}(X,Y) = \{ f \in Y^X: \forall x, y \in X \; f(x) \ne f(y) \} $$
+$$ \mathrm{Emb}(X,Y) = \{ f \in Y^X: (\forall x, y \in X) \; x \ne y \Rightarrow f(x) \ne f(y) \} $$
 
 To show $\mathrm{Emb}(X,Y)$ is a Polish space it is sufficient to show that is a $G_\delta$, i.e. a countable intersection of open subsets of $Y^X$ ([Marker](#Marker), Theorem 1.33).  For this we consider the sets
 
