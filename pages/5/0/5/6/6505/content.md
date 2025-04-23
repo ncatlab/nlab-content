@@ -341,7 +341,7 @@ Review includes
 
 * F. Barbaresco, F. Gay-Balmaz, _Lie group cohomology and (multi)symplectic integrators: new geometric tools for Lie group machine learning based on Souriau geometric statistical mechanics_, Entropy 22 (2020) 498  [link](https://www.mdpi.com/1099-4300/22/5/498)
 
-* Koszul, J.-L., _Introduction to symplectic geometry_, SPRINGER, 2019
+* [[Jean-Louis Koszul]], Yi Ming Zou, _Introduction to symplectic geometry_, ISBN 978-981-13-3986-8, 978-981-13-3987-5.  [doi](https://doi.org/10.1007/978-981-13-3987-5).
 
 * F. Barbaresco (2021) Archetypal Model of Entropy by Poisson Cohomology as Invariant Casimir Function in Coadjoint Representation and Geometric Fourier Heat Equation. In: Nielsen F., Barbaresco F. (eds) Geometric Science of Information. GSI 2021. Lecture Notes in Computer Science, vol 12829. Springer
 
