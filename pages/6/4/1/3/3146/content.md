@@ -28,7 +28,7 @@ This extrinsic curvature of a surface is called [[Gaussian curvature]]. It may a
 
 This notion of curvature of a [[Levi-Civita connection]] in turn generalizes straightforwardly to a notion of curvature of any [[connection on a bundle]] and thus gives the name to the general concept. 
 
-For instance in the [[first-order formulation of gravity]] the curvature of [[spacetime]] is literally the curvature of the [[Levi-Civita connection]] on spacetime in this sense. But also the [[Yang-Mills field]] is a connection on a [[principal bundle]] and its curvature encodes the [[field strength]] of the [[Yang-Mills field]], which is a concept rather remote from the intuition of a curved surface (thogh not unrelated).
+For instance in the [[first-order formulation of gravity]] the curvature of [[spacetime]] is literally the curvature of the [[Levi-Civita connection]] on spacetime in this sense. But also the [[Yang-Mills field]] is a connection on a [[principal bundle]] and its curvature encodes the [[field strength]] of the [[Yang-Mills field]], which is a concept rather remote from the intuition of a curved surface (though not unrelated).
 
 Even more generally, the notion of a [[connection on a bundle]] and of a [[Lie algebra]]-valued 1-form generalizes to connections on [[principal 2-bundle]]s and [[principal ∞-bundle]]s and [curvature of ∞-Lie algebroid valued differential forms](#OfInfLieAlgebroidValuedForms). 
 
