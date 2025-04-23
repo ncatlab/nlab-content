@@ -8,8 +8,6 @@
 ***
 
 
-[[CQTS-QuantumIndustryDay-Apr2025.png:file]]
-
 
 
 
