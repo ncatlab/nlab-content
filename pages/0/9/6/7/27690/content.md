@@ -8,6 +8,6 @@
 
 This is a theorem for a [[projective plane]] over a field in [[characteristic]] different from $2$.
 
-category: geometry.
+category: geometry
 
 [[!redirects Fano axiom]]
