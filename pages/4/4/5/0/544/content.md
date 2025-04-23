@@ -169,21 +169,25 @@ See [[ring spectrum]] and [[algebra spectrum]].
 
 A survey of $A_\infty$-algebras in chain complexes is in
 
-* [[Bernhard Keller]], _A brief introduction to $A_\infty$-algebras_ ([pdf](http://people.math.jussieu.fr/~keller/publ/IntroAinfEdinb.pdf))
+* [[Bernhard Keller]], _A brief introduction to $A_\infty$-algebras_ ([pdf](https://webusers.imj-prg.fr/~bernhard.keller/publ/IntroAinfEdinb.pdf))
+
+* [[Bernhard Keller]], _Introduction to A-infinity algebras and modules_, Homology, Homotopy and Applications **3** 1 (2001) 1-35 &lbrack;[doi:10.4310/hha.2001.v3.n1.a1](https://doi.org/10.4310/hha.2001.v3.n1.a1), [arXiv:math/9910179](https://arxiv.org/abs/math/9910179v2)&rbrack;
+
+* [[Bernhard Keller]], _A-infinity algebras, modules and functor categories_, Contemp. Math. **406** (2006) 67–93 &lbrack;[doi:10.1090/conm/406](https://doi.org/10.1090/conm/406), [arXiv:math/0510508](https://arxiv.org/abs/math/0510508)&rbrack;
 
 Classical articles on $A_\infty$-algebra in topological spaces are 
 
-* {#Stasheff63a} [[Jim Stasheff]], *Homotopy associativity of H-spaces I*, Trans. Amer. Math. Soc. **108** 2 (1963) 275-292 &lbrack;[doi:10.2307/1993608](https://doi.org/10.2307/1993608)&rbrack;
+* {#Stasheff63a} [[Jim Stasheff]], _Homotopy associativity of H-spaces I_, Trans. Amer. Math. Soc. **108** 2 (1963) 275-292 &lbrack;[doi:10.2307/1993608](https://doi.org/10.2307/1993608)&rbrack;
 
 * {#Stasheff63b} [[Jim Stasheff]], *Homotopy associativity of H-spaces II* **108** 2 (1963) 293-312 &lbrack;[doi:10.2307/1993609](https://doi.org/10.2307/1993609), [doi:10.1090/S0002-9947-1963-0158400-5](https://doi.org/10.1090/S0002-9947-1963-0158400-5)&rbrack;
 
 
-* [[Michael Boardman]] and [[Rainer Vogt]], _Homotopy invariant algebraic structures on topological spaces_ , Lect. Notes Math. 347 (1973).
+* [[Michael Boardman]] and [[Rainer Vogt]], _Homotopy invariant algebraic structures on topological spaces_, Lect. Notes Math. __347__, Springer Berlin, Heidelberg 1973. &lbrack;[doi:10.1007/BFb0068547](https://doi.org/10.1007/BFb0068547)&rbrack;
 {#BoardmanVogt}
 
 A brief survey is in section 1.8 of
 
-* [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
+* [[Martin Markl]], Steve Shnider, [[Jim Stasheff|James D. Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002. &lbrack;[doi:10.1090/surv/096](https://doi.org/10.1090/surv/096)&rbrack;
 
 
 The 1986 thesis of [[Alain Prouté]] explores the possibility of obtaining analogues of [[minimal model]]s for $A_\infty$ algebras. It was published in TAC much later.
