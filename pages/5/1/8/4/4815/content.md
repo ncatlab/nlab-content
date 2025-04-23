@@ -146,6 +146,9 @@ Introduction and review:
 
 * Konstantinos Xenos, _An Introduction to FRW Cosmology and dark energy models_ ([arXiv:2101.06135](https://arxiv.org/abs/2101.06135))
 
+* Federico Scali: *The cosmological constant problem: from Newtonian cosmology to the greatest puzzle of modern theoretical cosmology* &lbrack;[arXiv:2504.15358](https://arxiv.org/abs/2504.15358)&rbrack;
+
+
 Careful discussion in [[perturbative quantum gravity]]:
 
 * [[John Donoghue]]: *The cosmological constant and the use of cutoffs*, Phys. Rev. D **104** 045005 (2021) &lbrack;[arXiv:2009.00728](https://arxiv.org/abs/2009.00728), [doi:10.1103/PhysRevD.104.045005](https://doi.org/10.1103/PhysRevD.104.045005)&rbrack;
