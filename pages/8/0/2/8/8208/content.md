@@ -104,7 +104,7 @@ and is further discussed in
 
 * {#ABDNZ18} A. Anastasiou, L. Borsten, M. J. Duff, S. Nagy, M. Zoccali, _BRST squared_ ([arXiv:1807.02486](https://arxiv.org/abs/1807.02486))
 
-* L. Borsten, _Gravity as the square of gauge theory: a review_, ([doi:10.1007/s40766-020-00003-6](https://doi.org/10.1007/s40766-020-00003-6))
+* L. Borsten, _Gravity as the square of gauge theory: a review_, Riv. Nuovo Cim. **43** (2020) 97–186 &lbrack;[doi:10.1007/s40766-020-00003-6](https://doi.org/10.1007/s40766-020-00003-6)&rbrack;
 
 Discussion in terms of [[superstring scattering amplitudes]] is in
 
