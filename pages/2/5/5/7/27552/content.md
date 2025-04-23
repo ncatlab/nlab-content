@@ -32,4 +32,4 @@ On the [[Bruhat-Tits tree]] of [[special linear group|$SL(2)$]]:
 
 * [[building]]
 
-category: peop
+category: people
