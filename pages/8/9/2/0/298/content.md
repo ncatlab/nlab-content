@@ -29,11 +29,9 @@ The traditional definition of _vertex operator algebra_ (VOA) is long and tends 
 There is a [[monoidal category]] or [[operad]] whose [[morphism|morphisms]] are conformal spheres with $n$-punctures marked as incoming and one puncture marked as outgoing (each puncture equipped with a conformally parametrized annular neighborhood). Composition of such spheres is by gluing along punctures. This can be regarded as a category $2Cob_{conf}^0$ of 2-dimensional genus-0 conformal [[cobordism|cobordisms]].
 
 As shown by theorems by [[Yi-Zhi Huang]] and [[Liang Kong]], a vertex operator algebra is precisely a *holomorphic representation* of this category, or [[algebra over an operad]] for this [[operad]] i.e. an genus-0 [[conformal field theory|conformal]] [[FQFT]], hence a [[monoidal functor]]
-
 $$
   V : 2Cob_{conf}^0 \to Vect
 $$
-
 such that its component $V_1$ is a holomorphic function on the moduli space of conformal punctured spheres.
 
 ## Standard definition
@@ -58,6 +56,23 @@ This data satisfy three axioms:
 In practice, the most important case is when the shift $T$ is related to a conformal vector "the energy momentum tensor" $\omega$ whose Fourier components are related to the generators $L_i$ of the [[Virasoro Lie algebra]] $Vir$. In that case we talk about a __conformal vertex algebra__.
 
 There is a notion of a module over a vertex algebra. A conformal vertex algebra $A$ is said to be __rational__ if every $A$-module is completely reducible. Then it follows that there are only finitely many nonisomorphic simple $A$-modules.  
+
+## Simplified definition
+
+The following definition appears with increasing level of details in [Borcherds 1998](#Borcherds1998), [Kim 2011](#Kim2011), Joyce (unpublished), and the [blog post by Chenjing Bu](#Bu2021).
+
+A __vertex algebra__ is a [[vector space]] $V$ equipped with a family of operations ($n\ge0$)
+$$V^{\otimes n}\to V[[z_1,\ldots,z_n]][(z_i-z_j)^{-1}],\qquad a_1\otimes\cdots\otimes a_n\mapsto a_1(z_1)\cdots a_n(z_n)$$
+such that the following properties are satisfied:
+
+* Unit axiom:
+$$a(z)=a\cdot z^0+z\cdot(\cdots),$$
+* Commutativity axiom:
+$$a_1(z_1)\cdots a_n(z_n) = a_{\sigma(1)}(z_{\sigma(1)}\cdots a_{\sigma(n)}(z_{\sigma(n)}),\qquad \sigma\in \Sigma_n,$$ 
+* Associativity axiom:
+$$(a_{1,1}(z_{1,1})\cdots a_{1,n}(z_{1,n}))(y_1)\cdots (a_{m,1}(z_{m,1})\cdots a_{m,n}(z_{m,n}))(y_m)=a_{1,1}(z_{1,1}+y_1)\cdots a_{m,n}(z_{m,n}+y_m).$$
+
+As explained in [Bu](#Bu2024), this definition is equivalent to the usual one, e.g., the one in Frenkel–Ben Zvi.
 
 ## Properties
  {#Properties}
@@ -159,6 +174,9 @@ Review:
 
 * {#Bu2024} [[Chenjing Bu]]: *[Vertex algebras done right](https://chenjing-bu.github.io/posts/2024/vertex-algebras-done-right/)*, blog post (2024)
 
+* {#Borcherds1998} [[Richard Borcherds]], _Vertex algebras_, Topological field theory, primitive forms and related topics, 1998, 35–77. Birkhäuser.  [arXiv](https://arxiv.org/abs/q-alg/9706008).
+
+* {#Kim2011} Namhoon Kim, _Associativity of Field Algebras_, Annales Henri Poincaré 12:6 (2011), 1145-1168.  [doi](https://doi.org/10.1007/s00023-011-0092-5).
 
 See also:
 
@@ -233,7 +251,7 @@ Other operadic approaches are known, e.g. an earlier one in:
 
 and even earlier treatments via coloured [[operads]] and [[generalized multicategories]], for references (Snydal, Soibelman, Beilinson-Drinfeld) see [[relaxed multicategory]].  
 
-More recently Huang's student [[Liang Kong]] has been developing these results further, generalizing them to open-closed CFTs and to non-chiral, i.e. completely general CFTs. See 
+Huang's student [[Liang Kong]] developed these results further, generalizing them to open-closed CFTs and to non-chiral, i.e. completely general CFTs. See 
 
 * {#Kong08} [[Liang Kong]], _Open-closed field algebras_ Commun. Math. Physics. 280, 207-261 (2008), [math.QA/0610293](http://arxiv.org/abs/math/0610293).
 
@@ -275,7 +293,7 @@ An algebrogeometric version is due Beilinson and Drinfel'd and called the [[chir
 
 * Ruthi Hortsch, [[Igor Kriz]], Ales Pultr, _A universal approach to vertex algebras_, [arxiv/1006.0027](http://arxiv.org/abs/1006.0027)
 
-Much algebraic insight to algebaric structures in CFT is in unfinished notes
+Much algebraic insight to algebraic structures in CFT is in unfinished notes
 
 * [[A. Beilinson]], [[B. Feigin]], B. Mazur, _Notes on conformal field theory_, &lt;http://www.math.sunysb.edu/~kirillov/manuscripts.html>
 
