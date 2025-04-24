@@ -28,7 +28,7 @@ Let $P$ be a [[Banach space]] and let $C$ be a strictly positive constant. We sa
 
 Semadeni (see below for reference) gives a slightly different definition. Slightly paraphrased, it reads as follows: $F$ is a $Ban_1$-projective space if, for any [[short linear map]] $\phi: F\to H$ and any short linear map $\pi: G\to H$ which satisfies $\phi(Ball(G))=Ball(H)$, there exists a short linear map $\psi:F\to G$ such that $\phi=\psi\pi$. Here, $Ball(\cdot)$ denotes the closed unit ball of a given Banach space.
 
-The condition that $\phi(Ball(G))=Ball(H)$ is stronger than requiring the canonical induced map $G/\ker\phi \to H$ to be an isometric isomorphism. For instance, let us work momentarily with real Banach spaces, and consider the map $\phi:c_0 \to {\mathbb R}$ defined by $\phi((x_n)) = \sum_{n=1}^\infty x_n/2^n$, where $\mathbb R$ is normed by saying that $1$ has norm $1$. Clearly this is a surjective, short linear map, and one can check that the induced map from $c_0/\ker(\phi)$ to $\mathbb R$ is an isometry. But a little thought shows that $1\notin \phi(Ball(c_0))$.
+The condition that $\phi(Ball(G))=Ball(H)$ is stronger than requiring the canonical induced map $G/\ker\phi \to H$ to be an isometric isomorphism. For instance, let us work momentarily with real Banach spaces, and consider the map $\phi:c_0 \to \mathbb{R}$ defined by $\phi((x_n)) = \sum_{n=1}^\infty x_n/2^n$, where $\mathbb{R}$ is normed by saying that $1$ has norm $1$. Clearly this is a surjective, short linear map, and one can check that the induced map from $c_0/\ker(\phi)$ to $\mathbb{R}$ is an isometry. But a little thought shows that $1\notin \phi(Ball(c_0))$.
 
 
 ## Examples
