@@ -3997,13 +3997,15 @@ Neumann algebras**
 
 \linebreak
 
-* 23 Apr 2025
+* {#IbortApr2025} 23 Apr 2025
 
   [[Alberto Ibort]] (Universidad Carlos III of Madrid, Spain)
 
   **The groupoids picture of Quantum Mechanics**
 
   cf. [arXiv:2002.09326](https://arxiv.org/abs/2002.09326)
+
+  video: [zm](https://nyu.zoom.us/rec/share/wpxjPBiUAMt5oTdBwgD39RvzzjvcMvnD5DsQ8A1cF5_QaBWO5HGAWcS4IOi7TPwV.9i7MJDWMkmQ8qM7E)
 
   > The [groupoids picture of Quantum Mechanics](quantum+observable#ReferencesQuantumObservableAlgebrasAsGroupoidAlgebras) is the formal expression of [Schwinger’s conceptualisation](quantum+observable#Schwinger1969) of [[quantum mechanics]], that drinks directly from the original ideas by [[Niels Bohr|Bohr]] and [[Werner Heisenberg|Heisenberg]] on the fundamental role played by physical transitions in the description of quantum phenomena. In this talk we will review some of the fundamental notions leading to this picture and will discuss some applications regarding the dynamical description of quantum theories.
 
