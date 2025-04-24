@@ -512,4 +512,6 @@ with a general notion of higher equivariance:
 
 * [Krepski 2017](#Krepski17)
 
+* [[Krzysztof Gawedzki]]. *Square root of gerbe holonomy and invariants of time-reversal-symmetric topological insulators* (2017). ([arXiv:1702.06179](https://arxiv.org/abs/1702.06179)).
+
 [[!redirects bundle gerbes]]
