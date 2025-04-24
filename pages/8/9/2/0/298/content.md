@@ -109,11 +109,7 @@ The [[Moonshine]] module over the [[Griess algebra]] admits the structure of a v
 
 * has trivial degree-1 subspaces.
 
-A conjecture due to
-
-* [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1998.
-
-says that the Moonshine VOA is, up to isomorphism the unique VOA with these properties. See at _[[monster vertex algebra]]_.
+A conjecture due to [Frenkel–Lepowsky–Meurman](#FLM) says that the Moonshine VOA is, up to isomorphism the unique VOA with these properties. See at _[[monster vertex algebra]]_.
 
 ## Variants 
 
@@ -138,6 +134,16 @@ says that the Moonshine VOA is, up to isomorphism the unique VOA with these prop
 * [[automorphism of a vertex operator algebra]]
 
 ## References
+
+### Original articles
+
+Introducing vertex algebras:
+
+* [[Richard Borcherds]], _Vertex algebras, Kac-Moody algebras, and the Monster_, Proceedings of the National Academy of Sciences of the United States of America, 83:10 (1986), 3068–3071.  [doi](doi:10.1073/pnas.83.10.3068).
+
+Introducing vertex operator algebras:
+
+* {#FLM} [[Igor Frenkel]], [[James Lepowsky]], Arne Meurman, _Vertex operator algebras and the monster_, Pure and Applied Mathematics __134__, Academic Press, New York 1988.
 
 ### General
 
