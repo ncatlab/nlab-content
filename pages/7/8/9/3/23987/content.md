@@ -3999,7 +3999,7 @@ Neumann algebras**
 
 * {#IbortApr2025} 23 Apr 2025
 
-  [[Alberto Ibort]] (Universidad Carlos III of Madrid, Spain)
+  [[Alberto Ibort]] (Universidad Carlos III of Madrid, Spain):
 
   **The groupoid picture of Quantum Mechanics**
 
