@@ -11,7 +11,7 @@
 
 
 
-> This entry largely discusses [[Schreier theory]] of nonabelian [[group extensions]] -- but from the [[nPOV]].
+> This entry largely discusses *[[Schreier theory]]* of nonabelian [[group extensions]] -- but from the [[nPOV]].
 
 
 #Contents#
@@ -44,7 +44,8 @@ $$
   [\mathbf{B}^2 K]
   = 
   \left(
-    K \to {*} \stackrel{\to}{\to} {*}
+    K \to {*} 
+     \rightrightarrows {*}
   \right)
   \,.
 $$
@@ -54,14 +55,18 @@ But for every [[group]] $K$ there is also its [[2-group|automorphism 2-group]] $
 $$
   [\mathbf{B} AUT(K)]
   =
-  \left(
-    K \stackrel{\delta = Ad}{\to} Aut(K) \stackrel{\to}{\to}
+  \big(
+    K 
+    \xrightarrow
+      {\delta = Ad}
+     Aut(K) 
+   \rightrightarrows
     {*}
-  \right)
+  \big)
   \,,
 $$
 
-where the boundary map $\delta$ is the one that sends an element $k \in K$ to the [[adjoint action]] automorphism $Ad(k) \,\colon\, k' \mapsto k k' k^{-1}$.
+where the boundary map $\delta$ is the one that sends an element $k \in K$ to the [[inner automorphism]] ([[adjoint action]])  $Ad(k) \,\colon\, k' \mapsto k k' k^{-1}$.
 
 So this looks much like $\mathbf{B}^2 K$ (when that exists) only that it has more elements in degree 1.
 
@@ -113,7 +118,7 @@ $$
   \,.
 $$
 
-As we shall discuss below, along the lines of the abstract discussion abive, nonabelian degree=2 cocycles really classify something slightly richer, namely exact sequences of groupoids
+As we shall discuss below, along the lines of the abstract discussion above, nonabelian degree=2 cocycles really classify something slightly richer, namely exact sequences of groupoids
 
 $$
   Aut(K) \sslash K 
@@ -127,7 +132,7 @@ $$
 where the double slashes denote [[homotopy quotients]] (presented as [[action groupoids]], and so ${*}\sslash G = \mathbf{B}G$ is the [[delooping groupoid]]).
 
 
-In the existing literature -- which does not usually present the picture quite in the way we are doing here -- nonabelian group cohomology is rarely considered beyond degree=2. But the picture does straightforwardly generalize. For instance degree=3 nonabelian cohomology of $G$ with coefficients in $K$ may be taken to be the cohomology of $\mathbf{B}G$ with coefficients in the [[3-groupoid]] $\mathbf{B}AUT\big(AUT(K)\big)$.
+In the existing literature --- which does not usually present the picture quite in the way we are doing here --- nonabelian group cohomology is rarely considered beyond degree$=2$. But the picture does straightforwardly generalize. For instance degree$=3$ nonabelian cohomology of $G$ with coefficients in $K$ may be taken to be the cohomology of $\mathbf{B}G$ with coefficients in the [[3-groupoid]] $\mathbf{B}AUT\big(AUT(K)\big)$.
 
 $$
   H^3_{nonab}(G,K) 
@@ -135,7 +140,7 @@ $$
   \Big\{
     \mathbf{B}G \to \mathbf{B}AUT\big(AUT(K)\big)
   \Big\}_{/\sim}
-  \,.
+  \,,
 $$
 
 and so on.
@@ -146,10 +151,12 @@ and so on.
 We work out in detail what nonabelian group cocycles, such as morphisms
 
 $$
-  \mathbf{B}G \to \mathbf{B}AUT(K)
+  \mathbf{B}G 
+    \longrightarrow
+  \mathbf{B}AUT(K)
 $$
 
-correspond to in terms of classical group data, using the relation between [[strict 2-groups]] and [[crossed modules]] that is spelled out in detail at [strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules).
+correspond to in terms of classical group data, using the relation between [[strict 2-groups]] and [[crossed modules]] that is spelled out at *[strict 2-group -- in terms of crossed modules](strict+2-group#InTermsOfCrossedModules)*.
 
 For making the translation we follow the **convention LB** there.
 
@@ -158,7 +165,7 @@ For making the translation we follow the **convention LB** there.
 
 
 \begin{proposition}
-Degree=2 cocycles of nonabelian group cohomology on $G$ with coefficients in $K$ are given by the following data:
+Degree$=2$ cocycles of nonabelian group cohomology on $G$ with coefficients in $K$ are given by the following data:
 
 1. a map $\psi \,\colon\, G \to Aut(K)$;
 
@@ -281,7 +288,7 @@ Precisely the same kind of "twisted" cocycles appear as the cocycles of nonabeli
 
 ### Extensions classified by degree=2 cocycles
 
-The following statement is classically the central statement of [[Schreier theory]]. We state and prove it in the guise of [[2-groupoids]] where the thing classified by a cocycle is nothing but its [[homotopy fiber]].
+The following statement is classically the central statement of [[Schreier theory]]. We state and prove it in terms of [[delooping]]  [[2-groupoids]], where the object classified by a cocycle is nothing but its [[homotopy fiber]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -363,31 +370,37 @@ $$
 
 as described at [[generalized universal bundle]]. ($\mathbf{E}AUT(K)$ is the universal $AUT(K)$-[[principal 2-bundle]]).
 
-Recall from the discussion there that a morphism in $\mathbf{AUT}(K)$ is a triangle
+Recall from the discussion there that
 
-$$
-  \array{
-     && \bullet
-     \\
-     & {}^{\mathllap{\alpha}}\swarrow
-     &{}^\mathrlap{k}\swArrow& 
-     \searrow^{\mathrlap{\beta}}
-     \\
-     \bullet 
-     &&\stackrel{\gamma}{\to}&&
-     \bullet
-  }
-$$
+* [[1-morphisms]] in $\mathbf{E}AUT(K)$ are triangular [[2-morphism]]
 
-in $\mathbf{B}AUT(K)$, and composition of morphisms is pasting of these triangles along their vertical edges. 2-morphisms in $\mathbf{E}AUT(K)$ are given by paper-cup pasting diagrams of such triangles in $\mathbf{B}AUT(K)$.
+  $$
+    \array{
+       && \bullet
+       \\
+       & 
+       {}^{\mathllap{\alpha}}\swarrow
+       & 
+       {}^\mathrlap{k}\swArrow& 
+       \searrow^{\mathrlap{\beta}}
+       \\
+       \bullet 
+       &&\stackrel{\gamma}{\to}&&
+       \bullet
+    }
+  $$
+
+  in $\mathbf{B}AUT(K)$, and [[composition]] of morphisms is [[pasting diagram|pasting]] of these triangles along their vertical edges
+
+* [[2-morphisms]] in $\mathbf{E}AUT(K)$ are given by paper-cup [[pasting diagrams]] of such triangles in $\mathbf{B}AUT(K)$.
 
 
 
 Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$ has
 
-* objects are elements of $Aut(K)$ (this is the bit not seen in the classical picture of [[Schreier theory]], as that doesn't know about [[groupoids]]);
+* [[objects]] are elements of $Aut(K)$ (this is the bit not seen in the classical picture of [[Schreier theory]], as that doesn't know about [[groupoids]]);
 
-* morphisms $\alpha \to \beta$ are pairs 
+* [[1-morphisms]] $\alpha \to \beta$ are pairs 
 
   \[
     \label{MorphismsOfWidehatG}
@@ -401,7 +414,7 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
       & {}^{\mathllap{\alpha}}\swarrow
       &{}^\mathrlap{k}\swArrow& 
       \searrow^{\mathrlap{\beta}}
-      &&&&& \in \mathbf{AUT}(K)
+      &&&&& \in \mathbf{B}AUT(K)
       \\
       \bullet 
       &&\stackrel{\psi(g)}{\to}&&
@@ -416,8 +429,7 @@ Accordingly, the [[pullback]] $\mathbf{B}G \times_{(\psi,\xi)} \mathbf{E}AUT(K)$
     \right)
   \]
 
-* 2-morphisms (thought of as 2-[[simplex]]es) take two 
-  such triangles $(k_1, g_1)$ and $(k_2, g_2)$ to the pair $(k', g_1, g_2)$, where $k'$ is given by the pasting diagram
+* [[2-morphisms]] (thought of as 2-[[simplices]]) take pairs of such triangles, $(k_1, g_1)$ and $(k_2, g_2)$, to the pair $(k', g_1 g_2)$, where $k'$ is given by the pasting diagram
 
   $$
     \array{
