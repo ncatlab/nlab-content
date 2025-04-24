@@ -63,7 +63,7 @@ and the term "exceptional tangent space" (or rather "exceptional generalised tan
 
 Argument that the [[M-algebra]] constitutes the maximal ($n=11$) (super-)exceptional tangent space:
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *The M-algebra completes the hierarchy of Super-Exceptional Tangent Spaces*, Physics Letters B &lbrack;[arXiv:2411.03661](https://arxiv.org/abs/2411.03661)&rbrack;
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:M-Algebra and Exceptional Tangent Spaces|The M-algebra completes the hierarchy of Super-Exceptional Tangent Spaces]]*, Physics Letters B **860** (2025) 139199 &lbrack;[arXiv:2411.03661](https://arxiv.org/abs/2411.03661), [doi:10.1016/j.physletb.2024.139199](https://doi.org/10.1016/j.physletb.2024.139199)&rbrack;
 
 
 [[!redirects exceptional tangent bundles]]
