@@ -121,7 +121,7 @@ However, it is possible to characterise when the composite of two functors is mo
 \end{theorem}
 
 Monadic functors have the following cancellation property:
-\begin{proposition}
+\begin{proposition}\label{Cancellation}
 Consider a pair of [[adjoint functors|adjunctions]]:
 \begin{tikzcd}
 	A & B & C
