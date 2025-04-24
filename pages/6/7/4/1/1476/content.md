@@ -28,7 +28,7 @@ For example, you can start with the concept of [[abelian group]] and try removin
 
 * remove commutativity to get [[groups]];
 * then remove inverses to get [[monoids]];
-* or remove associativity instead of inverses to get [[loop(algebra)|loops]];
+* or remove associativity instead of inverses to get [[loop+(algebra)|loops]];
 * etc (see [[group]] for more).
 
 What still works?  Abelian groups form an [[abelian category]], while groups only form a [[semi-abelian category]], so [[cohomology]] gets more complicated (see [[nonabelian cohomology]]) but still makes sense.  Monoid [[representation|representations]] (say on [[vector space|vector spaces]]) make as much sense as group representations, but loop representations are not apparently meaningful.  (But like nonabelian cohomology, maybe somebody will make sense of them some day.)  Describing homomorphisms and presentations of monoids takes a little more care than for groups, while the na&#239;ve definitions continue to work for loops.  Sometimes things actually work better; [[group object|group objects]] make sense only in a [[cartesian monoidal category]], while [[monoid object|monoid objects]] make sense in any [[monoidal category]].  By seeing what are the salient features for making sense of things like cohomology and representation theory, we also see that we can generalise these, not by simply removing clauses from the definition of group, but by reworking the concept into such things as [[category|categories]] or [[quantum group|quantum groups]].
