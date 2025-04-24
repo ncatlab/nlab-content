@@ -26,7 +26,7 @@ The _Dubuc topos_ is a model in which one may apply [[synthetic differential geo
 ###### Definition
 **([[germ-determined C-infinity ring]])**
 
-A finitely generated [[C-infinity ring]] of the form $C^\infty(M)/I$ for some [[smooth manifold]] $M$ and [[ideal]] $I$ is __germ-determined__ if the [[ideal]] $I$ is a [[germ-determined ideal]], which means that for any $f\in I$, if the [[germ]] of $f$ at any point $x$ in the [[zero locus]] of $I$ in $M$ coincides with the [[germ]] of some element of $I$ at $x$, then $f$ itself belongs to $I$. 
+A finitely generated [[C-infinity ring]] of the form $C^\infty(M)/I$ for some [[smooth manifold]] $M$ and [[ideal]] $I$ is __germ-determined__ if the [[ideal]] $I$ is a [[germ-determined ideal]], which means that for any $f\in C^\infty(M)$, if the [[germ]] of $f$ at any point $x$ in the [[zero locus]] of $I$ in $M$ coincides with the [[germ]] of some element of $I$ at $x$, then $f$ itself belongs to $I$. 
 
 Equivalently, germ-determined [[ideals]] are precisely those [[ideals]]
 that are closed under (possibly infinite) sums of [[locally finite]] families. One can also take sums with coefficients in a [[partition of unity]].
