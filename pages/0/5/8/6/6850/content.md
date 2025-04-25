@@ -27,16 +27,7 @@ This page lists (or will some day) some (online) resources on [[physics]] in gen
 
 * [Physics.Stack exchange](http://physics.stackexchange.com/)
 
-  basic physics
-
-* [Theoretical Physics.Stack Exchange](http://theoreticalphysics.stackexchange.com/)
-
-  research-level theoretical physics
-
-* [Bartleby](https://www.bartleby.com/)
-
-  basic and research-level Physics, and other STEM subjects
-
+  physics Q&A
 
 
 ## Related entries 
