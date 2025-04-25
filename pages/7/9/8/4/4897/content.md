@@ -96,7 +96,9 @@ We list archives of **online** books and videos, not the catalogues of physical 
 * [eom.springer.de](http://eom.springer.de)  encyclopaedia of math articles with approximately 8000 entries
 
 * [[HomePage|nlab]] this wiki on higher category theory and applications
-* Joyal's CatLab: &lt;http://www.ncatlab.org/joyalscatlab/published/HomePage>
+
+* [Joyal's CatLab](http://www.ncatlab.org/joyalscatlab/published/HomePage).
+
 [[!redirects math archive]]
 [[!redirects math arxive]]
 [[!redirects math arxives]]
