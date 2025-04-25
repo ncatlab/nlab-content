@@ -2840,7 +2840,7 @@ for the restriction of the excisive functor incarnation of the [[sphere spectrum
 ###### Remark
 
 
-Since $\mathbb{S}_{exc}$ is the [[tensor unit]] with repect to the [[Day convolution]] product on pre-excisive functors, and since it is therefore canonically a [[commutative monoid]], by example \ref{MonoidGivenByTensorUnit}, 
+Since $\mathbb{S}_{exc}$ is the [[tensor unit]] with respect to the [[Day convolution]] product on pre-excisive functors, and since it is therefore canonically a [[commutative monoid]], by example \ref{MonoidGivenByTensorUnit}, 
 prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution}
 says that all these restricted sphere spectra are still [[monoid object|monoids]], and that under restriction every [[pre-excisive functor]], regarded as a $\mathbb{S}_{exc}$-[[module object|module]] via remark \ref{EveryPreExcisiveFunctorIsSModule}, canonically becomes a [[module object|module]] under the restricted sphere spectrum:
 
