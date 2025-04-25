@@ -9,8 +9,6 @@
 =--
 =--
 
-
-# Amnestic functors
 * table of contents
 {: toc}
 
