@@ -34,7 +34,6 @@ is argued to be, in modern language, the [[groupoid convolution algebras]] of [[
 
 * [[Alberto Ibort]], [[Miguel A. Rodriguez]]: *An Application of Groupoids to Quantum Mechanics: Schwinger's Algebra*, Appendix C of: *An Introduction to Groups, Groupoids and Their Representations*, CRC Press (2021) \[<a href="https://doi.org/10.1201/b22019">doi:10.1201/b22019</a>, [ISBN:9781032086767](https://www.routledge.com/An-Introduction-to-Groups-Groupoids-and-Their-Representations/Ibort-Rodriguez/p/book/9781032086767?srsltid=AfmBOoqc0EH7Qjc1_0C-TYQtUbhTWpdb3Juy61vwE9TfRC5oaJwjlYfN)\]
 
-
 and as such further developed in:
 
 * [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Alberto Ibort]], [[Giuseppe Marmo]]: *Schrödinger's problem with cats: measurements and states in the Groupoid Picture of Quantum Mechanics*, Entropy **22** 11 (2020) \[<a href="https://doi.org/10.3390/e22111292">doi:10.3390/e22111292</a>, [arXiv:2012.10284](https://arxiv.org/abs/2012.10284)\]
@@ -45,8 +44,11 @@ and as such further developed in:
 
 * [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Paolo Facchi]], [[Alberto Ibort]], [[Arturo Konderak]], [[Giuseppe Marmo]]: *Groupoid and algebra of the infinite quantum spin chain*, Journal of Geometry and Physics **191** (2023) \[<a href="https://doi.org/10.1016/j.geomphys.2023.104901">doi:10.1016/j.geomphys.2023.104901</a>, [arXiv:2302.01050](https://arxiv.org/abs/2302.01050)\],
 
+Review: 
+
+* [[Alberto Ibort]]: *The groupoid picture of Quantum Mechanics*, [talk at](CQTS#IbortApr2025) [[CQTS]] (23 Apr 2025) \[slides:[[Ibort-CQTS-Apr2025.pdf:file]], video: [zm](https://nyu.zoom.us/rec/share/wpxjPBiUAMt5oTdBwgD39RvzzjvcMvnD5DsQ8A1cF5_QaBWO5HGAWcS4IOi7TPwV.9i7MJDWMkmQ8qM7E)\]
+
 Proof that [[C* algebraic deformation quantization|non-perturbative]] [[quantum observables]] on [[Yang-Mills theory|Yang-Mill]] [[fluxes]] through a [[surface]] form a [[convolution algebra]]:
 
 * [[Hisham Sati]], [[Urs Schreiber]], Thm 1 in: *[[schreiber:Quantum Observables of Quantized Fluxes]]*, Annales Henri Poincaré (2024) \[<a href="https://doi.org/10.1007/s00023-024-01517-z">doi:10.1007/s00023-024-01517-z</a>, [arXiv:2312.13037](https://arxiv.org/abs/2312.13037)\]
-
 
