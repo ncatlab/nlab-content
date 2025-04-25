@@ -19,8 +19,6 @@
   * [nForum](http://nforum.ncatlab.org/)
     * [Latest Changes](https://nforum.ncatlab.org/5/)
   * [[HowTo|HowTo]]
-  * [[FAQ|FAQ]]
-  * [[Contributors]]
 
   * [Uploaded Files](http://ncatlab.org/nlab/file_list)
   * [[Sandbox|Sandbox]]
