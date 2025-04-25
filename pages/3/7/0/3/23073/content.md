@@ -13,7 +13,7 @@
 
 ## Definition
 
-In an [[unsorted set theory|unsorted]] [[material set theory]], the [[axiom]] or rule of **full** or **unrestricted comprehension** says that for any property $P$, there exists an [[set]] $\{ x \mid P(x) \}$ of all objects satisfying $P$. 
+In an [[unsorted set theory|unsorted]] [[material set theory]], the [[axiom]] or rule of **full** or **unrestricted comprehension** says that for any property $P$, there exists a [[set]] $\{ x \mid P(x) \}$ of all objects satisfying $P$. 
 
 ## Resolving the inconsistency
 
