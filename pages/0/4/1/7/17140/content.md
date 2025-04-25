@@ -208,7 +208,7 @@ $$
          {\overset{\mu}{\longleftarrow}}
      E \wedge E
         \underoverset
-          {\underset{e \edge id}{\longrightarrow}}
+          {\underset{e \wedge id}{\longrightarrow}}
           {\overset{id \wedge e}{\longrightarrow}}
           {
             \underoverset
