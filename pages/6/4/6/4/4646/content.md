@@ -235,7 +235,7 @@ This is called a **path-ordered integral**. The "P" in the above formula is shor
 
 ## Higher parallel transport
 
-The notion of [[connection on a bundle]] generalizes to that of [[connection on a 2-bundle]]. [[connection on a 3-bundle]] and generally to that of [[connection on an ∞-bundle]]. The come with a notion of _higher parallel transport_ over manifolds of dimension greater than 1.
+The notion of [[connection on a bundle]] generalizes to that of [[connection on a 2-bundle]], [[connection on a 3-bundle]] and generally to that of [[connection on an ∞-bundle]]. They come with a notion of _higher parallel transport_ over manifolds of dimension greater than 1.
 
 See [[higher parallel transport]] for details.
 
