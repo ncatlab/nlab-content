@@ -31,21 +31,14 @@ This page lists some (online) resources for the topic of [[mathematics]].
 
 * [[lists of journals]]
 
-* [[funding]]
-
 
 ## External lists
 
 Some other lists are:
 
-* [Math on the Web](http://www.mathontheweb.org/mathweb/index.html) -- links maintained by American Mathematical Society
-
 * [MathOverflow](http://mathoverflow.net) question: [mathematical resources on the 
 web](http://mathoverflow.net/questions/2147/most-helpful-math-resources-on-the-web)
 
-* [MathOnline](http://mathonline.andreaferretti.it/) is dedicated to collecting free mathematics resources, like books, lecture notes, videos and more. Using reviews, votes, and a tagging system, all this material is kept organized. (No DNS entry as of 2012-07-14.)
-
-* {#FundingSourceListsOnWikipedia} Wikipedia: [Funding Sources for American Mathematicians](https://en.wikipedia.org/wiki/Draft:Funding_Sources_for_American_Mathematicians)
 
 ## Related specific entries 
 
