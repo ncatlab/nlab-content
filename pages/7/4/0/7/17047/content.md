@@ -33,7 +33,7 @@ By the identification of [[propositions as types]], inductive families correspon
 
 ## Examples
 
-* The identity types of an indexed W-type are another indexed W-type.  This has been formalized by [Huginin](#Huginin).
+* The identity types of an indexed W-type are another indexed W-type.  This has been formalized by [Huginin](#Hugunin).
 
 * The [[inductive covers]] in [[formal topology]] and [[real analysis]] are an example of a [[higher inductive type|higher]] inductive family.
 
