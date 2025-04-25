@@ -9,7 +9,7 @@
 
 ## Related entries
 
-* [[galaxy]], [[Miky way]]
+* [[galaxy]], [[Milky Way]]
 
 * [[cosmology]], [[observable universe]]
 
