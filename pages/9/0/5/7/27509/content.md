@@ -37,6 +37,11 @@ and as such further developed in:
 
 * [[Florio M. Ciaglia]], [[Fabio Di Cosmo]], [[Paolo Facchi]], [[Alberto Ibort]], [[Arturo Konderak]], [[Giuseppe Marmo]]: *Groupoid and algebra of the infinite quantum spin chain*, Journal of Geometry and Physics **191** (2023) \[<a href="https://doi.org/10.1016/j.geomphys.2023.104901">doi:10.1016/j.geomphys.2023.104901</a>, [arXiv:2302.01050](https://arxiv.org/abs/2302.01050)\],
 
+Review:
+
+* [[Alberto Ibort]]: *The groupoid picture of Quantum Mechanics*, [talk at](CQTS#IbortApr2025) [[CQTS]] (23 Apr 2025) \[slides:[[Ibort-CQTS-Apr2025.pdf:file]], video: [zm](https://nyu.zoom.us/rec/share/wpxjPBiUAMt5oTdBwgD39RvzzjvcMvnD5DsQ8A1cF5_QaBWO5HGAWcS4IOi7TPwV.9i7MJDWMkmQ8qM7E)\]
+
+
 On [[groupoids]] and their [[representation theory]] ([[groupoid representations]], [[groupoid algebras]]):
 
 * [[Alberto Ibort]], [[Miguel A. Rodriguez]]: *An Introduction to Groups, Groupoids and Their Representations*, CRC Press (2021) &lbrack;[ISBN:9781032086767](https://www.routledge.com/An-Introduction-to-Groups-Groupoids-and-Their-Representations/Ibort-Rodriguez/p/book/9781032086767?srsltid=AfmBOoqc0EH7Qjc1_0C-TYQtUbhTWpdb3Juy61vwE9TfRC5oaJwjlYfN), [doi:10.1201/b22019](https://doi.org/10.1201/b22019)&rbrack;
