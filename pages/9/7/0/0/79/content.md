@@ -9,6 +9,10 @@
 =--
 =--
 
+__Mathematics__ is the part of [[science]] that constructs and studies [[mathematical objects]] used to implement mathematical models.  The results of study are organized into [[definitions]], [[theorems]], and [[proofs]].
+
+Subfields of mathematics include the following:
+
 * [[philosophy of mathematics]]
 
 * [[foundations of mathematics]]
