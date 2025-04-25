@@ -7,6 +7,10 @@
 
 * [[physics]]
 
+* [[chemistry]]
+
+* [[astronomy]]
+
 ## References
 
 * Wikipedia, _[Science](http://en.wikipedia.org/wiki/Science)_
