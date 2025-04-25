@@ -3999,9 +3999,11 @@ Neumann algebras**
 
 * {#IbortApr2025} 23 Apr 2025
 
-  [[Alberto Ibort]] (Universidad Carlos III of Madrid, Spain):
+  [[Alberto Ibort]] (Universidad Carlos III of Madrid, Spain)
 
   **The groupoid picture of Quantum Mechanics**
+
+  slides: [[Ibort-CQTS-Apr2025.pdf:file]]
 
   video: [zm](https://nyu.zoom.us/rec/share/wpxjPBiUAMt5oTdBwgD39RvzzjvcMvnD5DsQ8A1cF5_QaBWO5HGAWcS4IOi7TPwV.9i7MJDWMkmQ8qM7E)
 
@@ -4330,6 +4332,7 @@ The following is a (very) inclomplete list of selected invited presentations by 
   mini-course at *[IX International Workshop on Information Geometry, Quantum Mechanics and Applications 2025](http://www.q-math.es/conferences/IGQMA2025)*, [ICMAT Madrid](https://www.icmat.es/),  
 
 \linebreak  
+
 
 
 
