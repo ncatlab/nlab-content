@@ -577,7 +577,7 @@ Then use the [[pasting law]] as above.
 ### (Co)Homology of a cover 
  {#CohomologyOfACover}
 
-A special case of the general Mayer-Vietoris sequence, corollary \ref{LongExactSequenceOfHomotopyGroups} -- which historically was the first case considered -- applies to the [[cohomology]]/[[homology]] of a [[topological space]] $X$ equipped with an [[open cover]] $\{U_1, U_2 \to X\}$.
+A special case of the general Mayer-Vietoris sequence, corollary \ref{LongExactSequenceOfHomotopyGroups} -- which historically was the first case considered -- applies to the [[cohomology]]/[[homology]] of a [[topological space]] $X$ equipped with an [[open cover]] $\{U, V\}$.
 
 Being a [[cover]] means (see [[effective epimorphism in an (∞,1)-category]]) that there is a [[homotopy pushout]] [[diagram]] of the form
 
