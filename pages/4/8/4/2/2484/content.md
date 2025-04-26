@@ -22,7 +22,7 @@ In [[algebraic geometry]], there are two equivalent ways of looking at a [[schem
 
 1. as a [[petit topos]] with a [[structure sheaf]] of [[commutative rings]], hence as a [[locally ringed space]], 
 
-1. as an object of the [[gros topos]] of [[sheaves]] on the [[site]] of [[commutative rings]] (with [[étale topology]] or [[Zariski topology]]) satisfying the condition that it is covered by [[representable functor|representables]] via [[open maps]].
+1. as an object of the [[gros topos]] of [[sheaves]] on the [[site]] of [[commutative rings]] (with [[étale topology]] or [[Zariski topology]]) satisfying the condition that it is covered by [[representable functor|representables]] via [[open maps]] cf. *[[schemes as sheaves on affine schemes]]*.
 
 In other words, according to viewpoint (2), a [[scheme]] may be identified with the [[sheaf]] it [[representable functor|represents]]; this sheaf is often called the _functor of points_ of the scheme.
 
@@ -89,6 +89,8 @@ $$
 where $U$ is the forgetful functor (representing the [[affine line]]). Details on this approach are in Part III of [Blechschmidt 17](#Blechschmidt17).
 
 ## Related concepts
+
+* [[schemes as sheaves on affine schemes]]
 
 * [[gros topos]]
 
