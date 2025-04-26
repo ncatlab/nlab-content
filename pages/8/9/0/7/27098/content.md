@@ -35,7 +35,7 @@ In other words this means that a reflection is an [[relative adjunction|adjoint 
 
 [[formal duality|Dually]], a  __coreflection__ of $d$ along $F$ is a [[pair]] $(R_d,\epsilon_d)$ of 
 
-* an [[object]] $R_c\in C$ 
+* an [[object]] $R_d\in C$ 
 
 * a [[morphism]] $\epsilon_d \colon F(R_d)\to d$ in $D$ 
 
