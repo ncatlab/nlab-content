@@ -80,6 +80,8 @@ On when [[finitely continuous]] [[presheaves]] are small:
 * [[Jiří Adámek]], V. Koubek, and V. Trnková. *How large are left exact functors?*. Theory and Applications of Categories 8.13 (2001): 377-390. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n13/n13.pdf))
 
 [[!redirects small presheaves]]
+[[!redirects small sheaf]]
+[[!redirects small sheaves]]
 [[!redirects small functor]]
 [[!redirects small functors]]
 [[!redirects small presheaf category]]
