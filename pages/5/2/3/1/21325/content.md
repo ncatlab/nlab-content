@@ -25,7 +25,7 @@ $$
   g_{\mu \nu} =
   \eta_{\mu \nu}
   +
-  H \cdot k_\my k\nu
+  H \cdot k_\mu k_\nu
 $$
 
 where $k$ is a [[lightlike]] [[vector field]] with respect to both metrics, and $H$ is any [[scalar]] [[function]].
