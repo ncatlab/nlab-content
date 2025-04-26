@@ -17,11 +17,11 @@ In an [[unsorted set theory|unsorted]] [[material set theory]], the [[axiom]] or
 
 ## Resolving the inconsistency
 
-An [[unsorted set theory]] with the unrestricted [[comprehension]] rule is called [[naive set theory]], and is inconsistent due to [[Russell's paradox]] and [[Curry's paradox]]. Here we mention several approaches to this issue.
+An [[unsorted set theory]] with the unrestricted [[comprehension]] rule is called [[naive set theory]], and is [[inconsistency|inconsistent]] due to [[Russell's paradox]] and [[Curry's paradox]]. Here we mention several approaches to this issue.
 
 ### Separating the sets and elements
 
-One way to resolve the inconsistency is to require the set theory to have multiple [[sorts]], one for the [[elements]] and one for the [[sets]], and not allow any reflection rules which send sets to elements or elements to sets. This means that the membership relation is only between elements and sets, and there is no notion of $x \in x$ necessary to express [[Russell's paradox]] and [[Curry's paradox]]. This is the approach taken by [[structural set theories]]. 
+One way to resolve the [[inconsistency]] is to require the set theory to have multiple [[sorts]], one for the [[elements]] and one for the [[sets]], and not allow any reflection rules which send sets to elements or elements to sets. This means that the membership relation is only between elements and sets, and there is no notion of $x \in x$ necessary to express [[Russell's paradox]] and [[Curry's paradox]]. This is the approach taken by [[structural set theories]]. 
 
 ### Restricted comprehension
 
