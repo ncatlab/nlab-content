@@ -276,6 +276,8 @@ Monographs:
 
 * [[John F. Donoghue]], Eugene Golowich, Barry R. Holstein: *Dynamics of the Standard Model*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781009291033](https://doi.org/10.1017/9781009291033), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/FF8A95F0F22A67FABA729DBB39BA2816/9781009291002AR.pdf)&rbrack;
 
+* Wolfgang Bietenholz, Uwe-Jens Wiese: *Uncovering Quantum Field Theory and the Standard Model*, Cambridge University Press (2025) &lbrack;[ISBN:9781108472333](https://www.cambridge.org/highereducation/books/uncovering-quantum-field-theory-and-the-standard-model/D68C7687188CBD9111503A348A5E09FA)&rbrack;
+
 Further review and introduction:
 
 * [[Cliff Burgess]], Guy Moore: *The Standard Model -- A Primer*, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9780511819698](https://doi.org/10.1017/CBO9780511819698), [pdf](https://physics.mcmaster.ca/~cburgess/Book/Ch1-6SnippetSM.pdf)&rbrack;
