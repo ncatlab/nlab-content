@@ -1163,8 +1163,8 @@ Paris (1975) 187&#8212;210
 
 A fairly comprehensive textbook with modern developments is
 
-* [[Nicholas Woodhouse]], _Geometric Quantization_, Oxford University Press (1997)
- {#Woodhouse}
+* {#Woodhouse} [[Nicholas Woodhouse]]: *Geometric Quantization*, Oxford University Press (1997) &lbrack;[ISBN:9780198502708](https://global.oup.com/academic/product/geometric-quantization-9780198502708)&rbrack;
+ 
 
 Introductions and lecture notes:
 
