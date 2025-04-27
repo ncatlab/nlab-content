@@ -21,7 +21,7 @@ On [[linear representations]] of [[mapping class group]] of [[surfaces]] and the
 * [[Martin Palmer]], *Mapping class group representations via Heisenberg, Schr&ouml;dinger and Stone-von Neumann* (2022) &lbrack;[talk](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#MartinPalmerMarch22)&rbrack;
 
 
-* [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]]: *Action of subgroups of the mapping class group on Heisenberg homologies*, Contemporary Mathematics &lbrack[arXiv:2306.08614](https://arxiv.org/abs/2306.08614)&rbrack;
+* [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]]: *Action of subgroups of the mapping class group on Heisenberg homologies*, Contemporary Mathematics &lbrack;[arXiv:2306.08614](https://arxiv.org/abs/2306.08614)&rbrack;
 
 
 
