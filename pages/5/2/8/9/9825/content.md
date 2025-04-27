@@ -196,6 +196,9 @@ Discussion in the refined context of ([[local field theory|local]] [[algebraic q
 
 * Jan Mandrysch, Miguel Navascués: *Quantum Field Measurements in the Fewster-Verch Framework* &lbrack;[arXiv:2411.13605](https://arxiv.org/abs/2411.13605)&rbrack;
 
+* [[Christopher J. Fewster]]: *Lectures on measurement in quantum field theory* &lbrack;[arXiv:2504.17437](https://arxiv.org/abs/2504.17437)&rbrack;
+
+
 
 
 ### Formalization
