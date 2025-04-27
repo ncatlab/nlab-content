@@ -228,7 +228,7 @@ An original account:
 
 Monographs:  
 
-* [[Jean-Luc Brylinski]], section II.3 of: _Loop spaces, characteristic classes and geometric quantization_, Birkh&#228;user (1993) &lbrack;([doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308)&rbrack;
+* [[Jean-Luc Brylinski]], section II.3 of: _Loop spaces, characteristic classes and geometric quantization_, Birkhäuser  (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308)&rbrack;
 
 * [[Ernst Binz]], Sonja Pods, *The geometry of Heisenberg groups --- With Applications in Signal Theory, Optics, Quantization, and Field Quantization*, Mathematical Surveys and Monographs **151**, American Mathematical Society (2008) &lbrack;[ams:surv-151](https://bookstore.ams.org/surv-151)&rbrack; 
 
