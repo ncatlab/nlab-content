@@ -9,8 +9,7 @@ member of [[CQTS]]
 
 Emphasis that the description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], and a list of sufficient conditions that would have to be demonstrated:
 
-* [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) &lbrack;
-[arXiv:2004.06282](https://arxiv.org/abs/2004.06282), [doi:10.1016/j.aop.2021.168471](https://doi.org/10.1016/j.aop.2021.168471)&rbrack;
+* [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) &lbrack;[arXiv:2004.06282](https://arxiv.org/abs/2004.06282), [doi:10.1016/j.aop.2021.168471](https://doi.org/10.1016/j.aop.2021.168471)&rbrack;
 
 On [[braided fusion categories]] and [[skein relations]]:
 
@@ -22,7 +21,7 @@ These make up the thesis:
 
 Exposition and review:
 
-* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Inituial Researcher Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]&rbrack;
+* [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Initial Researcher Meeting* (Sep 2022) &lbrack;[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]&rbrack;
 
 On [[quantum teleportation]] with [[anyons]]:
 
