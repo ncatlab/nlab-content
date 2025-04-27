@@ -462,6 +462,8 @@ $$
 This statement is sometimes called the [[co-Yoneda lemma]].
 =--
 
+More generally, ends and coends may be expressed as limits and colimits from the [[twisted arrow category]]: see there for more details.
+
 ### Commutativity of ends and coends
 
 Ordinary [[limit]]s commute with each other, if both limits exist separately. The analogous statement does hold for ends and coends. Since it looks like the commutativity of two integrals, this fact is called the _Fubini theorem_ for ends (for instance [Kelly, p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=35)).
