@@ -218,17 +218,27 @@ The [[automorphism group]] of the Heisenberg group is the [[symplectic group]].
 
 * [[Heisenberg n-group]]
 
+
 ## References
 
 ### General
 
 An original account:
 
-* [[Bertram Kostant]], _Quantization and unitary representations_, in _Lectures in modern analysis and applications III_. Lecture Notes in Math. 170 (1970), Springer Verlag, 87&#8212;208
+* [[Bertram Kostant]], _Quantization and unitary representations_, in: _Lectures in modern analysis and applications III_. Lecture Notes in Math. **170**, Springer (1970) &lbrack;[doi:10.1007/BFb0079068](https://doi.org/10.1007/BFb0079068)&rbrack;
 
 Monographs:  
 
+* {#PressleySegal} [[Andrew Pressley]], [[Graeme Segal]] §9.5 in: *Loop groups*, Oxford University Press (1988) &lbrack;[ISBN:9780198535614](https://global.oup.com/academic/product/loop-groups-9780198535614)&rbrack;
+  > (in the context of [[loop groups]])
+  
 * [[Jean-Luc Brylinski]], section II.3 of: _Loop spaces, characteristic classes and geometric quantization_, Birkhäuser  (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308)&rbrack;
+  > (in the context of [[geometric quantization]])
+
+* {#Woodhouse} [[Nicholas Woodhouse]], pp 166 in: *Geometric Quantization*, Oxford University Press (1997) &lbrack;[ISBN:9780198502708](https://global.oup.com/academic/product/geometric-quantization-9780198502708)&rbrack;
+  > (in the context of [[geometric quantization]])
+
+
 
 * [[Ernst Binz]], Sonja Pods, *The geometry of Heisenberg groups --- With Applications in Signal Theory, Optics, Quantization, and Field Quantization*, Mathematical Surveys and Monographs **151**, American Mathematical Society (2008) &lbrack;[ams:surv-151](https://bookstore.ams.org/surv-151)&rbrack; 
 
