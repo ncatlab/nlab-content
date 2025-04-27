@@ -922,11 +922,14 @@ See also:
 
 ### General
 
-Textbook accounts:
+Monographs:
 
-* [[Kenneth Brown]],  *Cohomology of Groups*, Graduate Texts in Mathematics, **87**, Springer 1982 &lbrack;[doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6)&rbrack;
+* [[Kenneth Brown]],  *Cohomology of Groups*, Graduate Texts in Mathematics **87**, Springer (1982) &lbrack;[doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6)&rbrack;
 
-specifically with an eye towards cohomology of [[finite groups]]:
+* [[Burt Tataro]]: *Group Cohomology and Algebraic Cycles*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781139059480](https://doi.org/10.1017/CBO9781139059480), [pdf](http://ndl.ethernet.edu.et/bitstream/123456789/33006/1/6.pdf.pdf)&rbrack;
+  > (in the context of [[algebraic cycles]])
+
+and specifically with an eye towards cohomology of [[finite groups]]:
 
 * [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([Numdam](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
 
