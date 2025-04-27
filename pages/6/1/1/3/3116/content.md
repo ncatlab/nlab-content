@@ -17,7 +17,7 @@
 
 A 'Fermat theory' is a [[Lawvere theory]] that extends the usual theory of [[commutative rings]] by permitting [[differentiation]].  
 
-The term _Fermat theory_ seems to have been introduced in ([Kock 09](#Kock09)) based on ([Dubuc-Kock 84](#DubucKock84)).  But as the name suggests, it has its roots in an old observation of [[Fermat]].  Namely: if $f \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}$ is a [[polynomial]] function, then
+The term _Fermat theory_ has been introduced in ([Dubuc-Kock 84](#DubucKock84)) but as the name suggests, it has its roots in an old observation of [[Fermat]].  Namely: if $f \;\colon\; \mathbb{R} \longrightarrow \mathbb{R}$ is a [[polynomial]] function, then
 
 $$f (x+y) = f(x) + y \tilde{f}(x,y) $$
 
