@@ -219,7 +219,7 @@ The concept is implicit in classical texts on [[differential topology]], for ins
 
 Discussion of the [[twisted Pontrjagin theorem]] and of twisted [[stable cohomotopy]] ([[framed manifold|framed]] [[cobordism cohomology theory]]):
 
-* {#Cruickshank03} [[James Cruickshank]], Lemma 5.2 and Section 7 of: _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
+* {#Cruickshank03} [[James Cruickshank]], Lemma 5.2 and Section 7 of: _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications **129** 3 (2003) 251-271 \[<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>\]
 
 Discussion of unstable twisted Cohomotopy, with application to [[flux quantization]] of [[supergravity C-field]] ("[[Hypothesis H]]"):
 
