@@ -1201,6 +1201,26 @@ This completes the proof.
 \end{proof}
 
 
+
+
+### As quotients of surface braid group
+ {#AsQuotientsOfSurfaceBraidGroups}
+
+The level$=2$ Heisenberg extensions of $\mathbb{Z}^{2g}$ by the [[cyclic group]] $C_{2(n+g-1)}$ arise as [[quotient groups]] of [[surface braid groups]] $Br_n(\Sigma_{g})$ of the [[surface]] of [[genus of a surface|genus]] $g$ for $n \geq 3$ &lbrack;[Bellingeri, Gervais & Guaschi 2008 (10)](#BellingeriGervaisGuaschi08)&rbrack;.
+
+Under the identification of these level$=2$ Heisenberg groups with the [[fundamental groups]] $\pi_1$ of 2-[[Cohomotopy]] [[cocycle spaces]] (see [there](cohomotopy#CohomotopyModuliOfSurfaces)) this quotient map is the image under $\pi_1(-)$ of the [[cohomotopy charge map]]/[[scanning map]] 
+$$
+  Conf_n(\Sigma)
+  \longrightarrow
+  Map_{n+g-1}(\Sigma, S^2)
+$$
+from the [[configuration space of points|configuration space of $n$ points]] of the surface.
+
+> (This observation is due to [[Martin Palmer]]. It may be seen from the [[finitely presented group|presentation]] given by [BGG08 (10)](#BellingeriGervaisGuaschi08): Each [Artin generator](braid+group#PresentationOfGeneralBraids) is sent to the central generator and the loop around the $a_i$ ($b_i$) cycle is sent to the corresponding element $a_i$ ($b_i$).)
+
+The analogous statement of surfaces with one [[boundary of a manifold|boundary]] [[connected component]] is [Blanchet, Palmer & Shaukat 2021 Cor. 8](#BlanchetPalmerShaukat21), [2025 Prop. 1.1](#BlanchetPalmerShaukat25)
+
+
 \linebreak
 
 
@@ -1249,6 +1269,10 @@ On the [[automorphism group]]:
 
 * D.V. Osipov: *Discrete Heisenberg group and its automorphism group*, Mathematical Notes **98** 1 (2015) 185-188 &lbrack;[arXiv:1505.00348](https://arxiv.org/abs/1505.00348), [doi:10.1134/S0001434615070160](https://doi.org/10.1134/S0001434615070160)&rbrack;
 
+As [[quotient groups]] of [[surface braid groups]]:
+
+* {#BellingeriGervaisGuaschi08} [[Paolo Bellingeri]], [[Sylvain Gervais]], [[John Guaschi]]: *Lower central series of Artin–Tits and surface braid groups*, Journal of Algebra **319** 4 (2008) 1409-1427 \[<a href="https://doi.org/10.1016/j.jalgebra.2007.10.023">doi:10.1016/j.jalgebra.2007.10.023</a>\]
+
 
 See also:
 
@@ -1272,20 +1296,22 @@ As describing the [[phase space]] of [[abelian Chern-Simons theory]] on [[closed
 * {#GelcaHamilton15} [[Răzvan Gelca]], [[Alastair Hamilton]]: *The topological quantum field theory of Riemann’s theta functions*, Journal of Geometry and Physics **98** (2015) 242-261 &lbrack;[doi:10.1016/j.geomphys.2015.08.008](https://doi.org/10.1016/j.geomphys.2015.08.008), [arXiv:1406.4269](https://arxiv.org/abs/1406.4269)&rbrack;
 
 
-On [[group actions]] of the [[mapping class group]] of closed oriented [[surfaces]] on integer Heisenberg groups:
-
-* [[Awais Shaukat]], [[Christian Blanchet]]: *Weakly framed surface configurations, Heisenberg homology and Mapping Class Group action*, Arch. Math. **120** (2023) 99–109 &lbrack;[arXiv:2206.11475](https://arxiv.org/abs/2206.11475), [doi:10.1007/s00013-022-01793-3](https://doi.org/10.1007/s00013-022-01793-3)&rbrack;
-
-* [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]]: *Action of subgroups of the mapping class group on Heisenberg homologies*, Contemporary Mathematics &lbrack;[arXiv:2306.08614](https://arxiv.org/abs/2306.08614)&rbrack;
-
-* [[Martin Palmer]]: *Representations of the Torelli group via the Heisenberg group*, talk at *Workshop for Young Researchers in Mathematics – 10th ed.* (2021) &lbrack;[pdf](https://mdp.ac/files/2105-talk-notes-WYRM.pdf), [[Palmer-Anghel-TorelliHeisenberg.pdf:file]]&rbrack;
-
-*  [[Christian Blanchet]]: *Heisenberg homologies of surface configurations*, [talk at](CQTS#BlanchetMar2023) *[Geometric/Topological Quantum Field Theories Workshop](Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)* @ [[CQTS]] NYUAD (2023) &lbrack;slides: [[Blanchet-at-QFTAndCobordism2023.pdf:file]], video:[YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)&rbrack;
-
-
 The above discussion of irreps and modular automorphisms related to abelian Chern-Simons theory follows:
 
-* {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]*, Lecture Notes (2025)
+* {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]*, Lecture Notes &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
+
+* {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Understanding Topological Quantum Gates in FQH Systems|Understanding Topological Quantum Gates in FQH Systems via the Algebraic Topology of exotic Flux Quantization]]*
+
+
+
+
+
+[[!include Heisenberg homology -- references]]
+
+
+
+
+
 
 
 [[!redirects integer Heisenberg groups]]
