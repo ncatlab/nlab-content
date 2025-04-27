@@ -66,10 +66,19 @@ where
 Copowers are frequently called _tensors_ and a $V$-category having all copowers is called _tensored_, while the word "copower" is reserved for the case $V=Set$.  However, there seems to be no good reason for making this distinction.  Moreover, the word "tensor" is fairly overused, and unfortunate since a tensor (= a copower) is a colimit, while a cotensor (= [[power]]) is a limit.
 \end{remark}
 
+## Copowers as colimits
+
+### Conical colimits
+
+For a [[Set]]-enriched category $C$, a copower $v \cdot c$ is the colimit of the constant functor $v \to C$ on $c$ (where $v$ is viewed as a [[discrete category]]).
+
+### Weighted colimits
+
+A copower $v \cdot c$ is the colimit of the functor $1 \to C$ picking out $c$ [[weighted colimit|weighted by]] the presheaf $1^{op} \to V$ picking out $v$.
 
 ## Properties
 
-* Copowers are a special sort of [[weighted limit|weighted colimit]].  Conversely, all weighted colimits can be constructed from copowers together with [[conical colimits]] (i.e., ordinary $Set$-based colimits with an enhanced $V$-universal property, although the latter is automatic if powers also exist), assuming these exist.  The dual limit notion of a copower is a [[power]].
+* As described above, copowers are a kind of [[weighted limit|weighted colimit]].  Conversely, all weighted colimits can be constructed from copowers together with [[conical colimits]] (i.e., ordinary $Set$-based colimits with an enhanced $V$-universal property, although the latter is automatic if powers also exist), assuming these exist.  The dual limit notion of a copower is a [[power]].
 
 
 ## Examples
