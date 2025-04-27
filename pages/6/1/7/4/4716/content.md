@@ -284,9 +284,20 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 * E. Y. Miller, _The homology of the mapping class group_, J. Differential Geom. __24__ (1986), no. 1, 1&#8211;14, [MR88b:32051](http://www.ams.org/mathscinet-getitem?mr=88b:32051), [euclid](http://projecteuclid.org/euclid.jdg/1214440254)
 
 
+
+
+
+
+[[!include Heisenberg homology -- references]]
+
+
+
+
+
+
 ### Finite-index Subgroups
 
-On [[finite number|finite]] [>index of a subgroup|index]] [[subgroups]] of mapping class groups:
+On [[finite number|finite]] [[index of a subgroup|index]] [[subgroups]] of mapping class groups:
 
 * {#Grossman74} Edna K. Grossman: *On the residual finiteness of certain mapping class groups*,  J. London Math. Soc. **s2-9** 1 (1974) 160–164 &lbrack;[doi;10.1112/jlms/s2-9.1.160](https://doi.org/10.1112/jlms/s2-9.1.160)&rbrack;
   > ($MCG(\Sigma^2_g)$ is [[residually finite group|residually finite]])
