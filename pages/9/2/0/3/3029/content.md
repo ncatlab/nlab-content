@@ -1658,7 +1658,7 @@ Textbooks accounts
 
 * A. G. Kurosh, Theory of groups 
 
-* [[Kenneth Brown]],  _Cohomology of Groups_, Graduate Texts in Mathematics, **87**, Springer 1982 ([doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6))
+* [[Kenneth Brown]]: _Cohomology of Groups_, Graduate Texts in Mathematics **87**, Springer (1982) &lbrack;[doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6)&rbrack;
 
 Lecture and course notes, etc.:
 
