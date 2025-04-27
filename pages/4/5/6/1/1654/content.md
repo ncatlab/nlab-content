@@ -95,7 +95,9 @@ A leitmotif playing in the background is that the category of weights $Set^{J^{o
 
 $$\widetilde{F}: V^{J^{op}} \to C$$ 
 
-which is given by the weighted colimit construction $W \mapsto W * F$. 
+which is given by the weighted colimit construction $W \mapsto W * F$.
+
+Weighted colimits are covariantly functorial in both $W$ and $F$, in the sense that natural transformations $W \Rightarrow W'$ and $F \Rightarrow F'$ induces a morphism $W * F \to W' * F$.
 
 ## Examples
 
