@@ -79,6 +79,8 @@ are the same as
 
 This can be used to give a proof of the reduction of [[end|ends]] to [[conical limit|conical limits]] in the $\mathbf{Set}$-enriched case, and is used in the construction of [[ends in a derivator]].
 
+In particular, there is a functor $[C^{op} \times C, B] \to [Tw(C), B]$ sending $F \colon C^{op} \times C \to B$ to $\bar F \colon Tw(C) \to B$ and $\int_{b \in B} F(b, b) \cong lim\bar F$.
+
 ## Generalizations
 
 * The twisted arrow category is a special case of a **category of judgments** in the sense of ([Melli&#232;s-Zeilberger 15](#MZ15)).
