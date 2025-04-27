@@ -293,7 +293,7 @@ A useful reference with direct ties to the [[(∞,1)-category]] story in the bac
 
 1-categorical picture 
 
-* {#CasacubertaFrei2000} [[Carles Casacuberta]], John Frei, _On saturated classes of morphisms_, Theory and Applications of Categories __7__:4 (2000) 43--46 [pdf](https://www2.math.ethz.ch/EMIS/journals/TAC/volumes/7/n4/n4.pdf)
+* {#CasacubertaFrei2000} [[Carles Casacuberta]], Armin Frei, _On saturated classes of morphisms_, Theory and Applications of Categories __7__:4 (2000) 43--46 [pdf](https://www2.math.ethz.ch/EMIS/journals/TAC/volumes/7/n4/n4.pdf)
 
 * [[Carles Casacuberta]], Georg Peschke, Markus Pfenniger, _On orthogonal pairs in categories and localization_, J. Pure & Applied Algebra __142__:1 (1999) 25--33
 
