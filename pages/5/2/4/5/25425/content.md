@@ -9,22 +9,26 @@
 
 ## Selected writings
 
+Concerning the construction of [[linear representations]] of [[surface]]-[[mapping class groups]] on the [[ordinary homology|homology]] of [[configuration spaces of points]], [[twisted cohomology|twisted]] by [[linear representations]] of the [[integer Heisenberg group]] ("Heisenberg homology"):
 
-On the [[ordinary homology]] of [[configuration spaces of points]] in a [[surface]] as a [[group representation]] of the [[mapping class group]]:
+* [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]]: *Action of subgroups of the mapping class group on Heisenberg homologies*, Contemporary Mathematics **813**, AMS (2025) &lbrack;[arXiv:2306.08614](https://arxiv.org/abs/2306.08614), [doi:10.1090/conm/813](https://doi.org/10.1090/conm/813)&rbrack;
 
 * [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]], *Heisenberg homology on surface configurations* &lbrack;[arXiv:2109.00515](https://arxiv.org/abs/2109.00515)&rbrack;
 
 * [[Awais Shaukat]], [[Christian Blanchet]], *Weakly framed surface configurations, Heisenberg homology and Mapping Class Group action*, Archiv der Mathematik **120** (2023) 99–109 &lbrack;[arXiv:2206.11475](https://arxiv.org/abs/2206.11475), [doi:10.1007/s00013-022-01793-3](https://doi.org/10.1007/s00013-022-01793-3)&rbrack;
 
-* [[Christian Blanchet]], *Heisenberg homologies of surface configurations*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[web](Center+for+Quantum+and+Topological+Systems#BlanchetMar2023)&rbrack;
+* [[Christian Blanchet]]: *Heisenberg homology of ribbon graphs*, in: *Essays in Geometry*, IRMA Lectures in Math. and Theor. Physics **34**, EMS (2023) &lbrack;[arXiv:2401.04477](https://arxiv.org/abs/2401.04477), [doi:10.4171/irma/34/10](https://doi.org/10.4171/irma/34/10)&rbrack;
 
-On [[mapping class groups]] of closed [[surfaces]] and the [[integer Heisenberg group]]:
+and relation to [[abelian Chern-Simons theory]]:
 
-* [[Awais Shaukat]], [[Christian Blanchet]]: *Weakly framed surface configurations, Heisenberg homology and Mapping Class Group action*, Arch. Math. **120** (2023) 99–109 &lbrack;[arXiv:2206.11475](https://arxiv.org/abs/2206.11475), [doi:10.1007/s00013-022-01793-3](https://doi.org/10.1007/s00013-022-01793-3)&rbrack;
+* Aleksei Andreev, Anna Beliakova, [[Christian Blanchet]]: *Abelian TQFTS and Schrödinger local systems* &lbrack;[arXiv:2306.10725](https://arxiv.org/abs/2306.10725)&rbrack;
 
-* [[Christian Blanchet]], [[Martin Palmer]], [[Awais Shaukat]]: *Action of subgroups of the mapping class group on Heisenberg homologies*, Contemporary Mathematics &lbrack;[arXiv:2306.08614](https://arxiv.org/abs/2306.08614)&rbrack;
+Review:
 
-* [[Christian Blanchet]]: *Heisenberg homologies of surface configurations*, [talk at](CQTS#BlanchetMar2023) *[Geometric/Topological Quantum Field Theories Workshop](Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)* @ [[CQTS]] NYUAD (2023) &lbrack;slides: [[Blanchet-at-QFTAndCobordism2023.pdf:file]], video:[YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)&rbrack;
+* [[Christian Blanchet]]: *Heisenberg homologies of surface configurations*, [talk at](CQTS#BlanchetMar2023) *[Geometric/Topological Quantum Field Theories Workshop](Center+for+Quantum+and+Topological+Systems#ConferencesMar2023)* @ [[CQTS]] NYUAD (2023) &lbrack;slides:[[Blanchet-at-QFTAndCobordism2023.pdf:file]], video:[YT](https://www.youtube.com/watch?v=prcU4v7LFZQ)&rbrack;
+
+
+
 
 
 
