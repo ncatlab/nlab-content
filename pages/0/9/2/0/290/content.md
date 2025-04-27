@@ -8,11 +8,11 @@
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
-#### Algebraic Quantum Field Theory
+#### Algebraic QFT
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
-#### Functorial Quantum field theory
+#### Functorial QFT
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
@@ -204,6 +204,8 @@ Introductions:
 * [[Michel Talagrand]], *What is a Quantum Field Theory? -- A first Introduction for Mathematicians*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108225144](https://doi.org/10.1017/9781108225144)&rbrack; 
 
 * [[Pavel Etingof]]: *Mathematical ideas and notions of quantum field theory* &lbrack;[arXiv:2409.03117](https://arxiv.org/abs/2409.03117)&rbrack;
+
+* Wolfgang Bietenholz, Uwe-Jens Wiese: *Uncovering Quantum Field Theory and the Standard Model*, Cambirdge University Press (2025) &lbrack;[ISBN:9781108472333](https://www.cambridge.org/highereducation/books/uncovering-quantum-field-theory-and-the-standard-model/D68C7687188CBD9111503A348A5E09FA)&rbrack;
 
 
 A standard textbook written from the perspective of [[effective field theory]]:
