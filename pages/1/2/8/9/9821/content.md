@@ -54,6 +54,10 @@ where the sum goes over closed integral subschemes $Z$ of codimension 1 and with
 Standard references are
 
 * [[EGA IV]], section 21
+
+* [[Burt Tataro]]: *Group Cohomology and Algebraic Cycles*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781139059480](https://doi.org/10.1017/CBO9781139059480), [pdf](http://ndl.ethernet.edu.et/bitstream/123456789/33006/1/6.pdf.pdf)&rbrack;
+
+
 * [[Stacks Project]], [02QQ](http://stacks.math.columbia.edu/tag/02QQ)
 
 On the relation with [[Weil cohomology theories]], [[algebraic K-theory]], [[Beilinson-Lichtenbaum conjectures]], and [[motivic cohomology]]:
