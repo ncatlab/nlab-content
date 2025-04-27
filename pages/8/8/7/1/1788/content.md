@@ -9,7 +9,8 @@
 
 
 
+On electrodynamics via field strengths instead of gauge potentials:
+
+* Joshua Newey, John Terning, Christopher B. Verhaaren: *Geometrizing the Anomaly* &lbrack;[arXiv:2504.16998](https://arxiv.org/abs/2504.16998)&rbrack;
 
 
-
-(...)
