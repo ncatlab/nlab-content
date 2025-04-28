@@ -43,8 +43,10 @@ Further discussion (mostly review and mostly without attribution):
 
 * [[Sachin Valera]], *A Quick Introduction to the Algebraic Theory of Anyons*, talk at *[[CQTS]] Initial Researcher Meeting* (Sep 2022) $[$[[CQTS-InitialResearcherMeeting-Valera-220914.pdf:file]]\]
 
-
 * Willie Aboumrad, *Quantum computing with anyons: an F-matrix and braid calculator* \[<a href="https://arxiv.org/abs/2212.00831">arXiv:2212.00831</a>\]
+
+* {#Simon23} [[Steven H. Simon]], *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
+
 
 
 Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
