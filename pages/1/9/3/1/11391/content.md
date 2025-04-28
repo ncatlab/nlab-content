@@ -1,6 +1,11 @@
 
 
-* [German Wikipedia entry](https://de.wikipedia.org/wiki/Tammo_tom_Dieck)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Tammo_tom_Dieck) (en)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Tammo_tom_Dieck) (de)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=26332)
+
 
 ## Selected writings
 
