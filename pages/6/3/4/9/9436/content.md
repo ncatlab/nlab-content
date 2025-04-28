@@ -15,8 +15,8 @@
 
 ## Idea
 
-Many algebraic objects have a [[representation theory]] in which they act on other things; for example, [[groups]] often act on sets and [[algebras]] act on [[modules]].
-In these situations, the acting object can often be viewed as an example of the type of thing acted upon: a group has an underlying set and an algebra has an underlying module.
+Many algebraic objects have a [[representation theory]] in which they act on other things; for example, [[groups]] often act on sets ([[permutation representations]]) or on [[vector spaces]] ([[linear representations]]) and [[algebras]] act on [[modules]].
+In these situations, the acting object can often be viewed itself as an example of the type of thing acted upon: a group has an [[underlying set]] and an algebra has an underlying [[module]].
 The multiplication in the acting object then defines an action of the object on this unstructured copy of itself.
 This is called the **regular representation** and is an extremely useful representation to study as it only involves the object itself, whence is in a sense *canonical*, but contains a lot of information, as opposed to, say, the [[trivial representation]] (which is also canonical).
 
@@ -55,12 +55,14 @@ The **regular representation** of $M$ is the action of $M$ on ${|M|}$ induced by
 ## Properties
  {#Properties}
 
+Let $G$ be a [[group]].
+
 \begin{proposition}
 The regular representation of $G$ as a linear representation is the [[induced representation]] $Ind_{1}^G 1$ of the [[trivial representation]] along the inclusion of the [[trivial group|trivial]] [[subgroup]].
 \end{proposition}
 
 \begin{prop}\label{RegularRepDecomposedIntoIrreps}
-Over the [[complex numbers]], the regular representation of a [[finite group]] is a [[direct sum]] that contains each [[irreducible representation]] $\rho_i$ with multiplicity its dimension 
+Over the [[complex numbers]], the regular representation of a [[finite group]] is a [[direct sum]] that contains each [[irreducible representation]] $\rho_i$ with multiplicity its [[dimension of a vector space|dimension]]:
 
 \[
   \label{DecompositionOfRegularRepIntoIrreps}
@@ -84,7 +86,9 @@ The [[sum]] of the squares of the [[dimension of a vector space|dimensions]] of 
 
 $$
   \sum_{
-    [\rho] \in Irrep(G)_{/\sim}
+    \mathclap{
+      [\rho] \in Irrep(G)_{/\sim}
+    }
   }
   \big( dim \rho \big)^2
   \;\;
@@ -106,7 +110,7 @@ $$
 
 ## References
 
-Most texts of [[representation theory]] discuss the regular representation, see [there](representation+theory#References).
+Most texts of [[representation theory]] discuss the regular representation, see [there](representation+theory#References), for instance:
 
 Monographs:
 
