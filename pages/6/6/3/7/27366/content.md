@@ -1216,7 +1216,7 @@ $$
 $$
 from the [[configuration space of points|configuration space of $n$ points]] of the surface.
 
-> (This observation is due to [[Martin Palmer]]. It may be seen from the [[finitely presented group|presentation]] given by [BGG08 (10)](#BellingeriGervaisGuaschi08): Each [Artin generator](braid+group#PresentationOfGeneralBraids) is sent to the central generator and the loop around the $a_i$ ($b_i$) cycle is sent to the corresponding element $a_i$ ($b_i$).)
+> This observation is due to [[Martin Palmer]] (private communication, April 2025). It may be seen from the [[finitely presented group|presentation]] given by [BGG08 (10)](#BellingeriGervaisGuaschi08): Each [Artin generator](braid+group#PresentationOfGeneralBraids) is sent to the central generator and the loop around the $a_i$ ($b_i$) cycle is sent to the corresponding element $a_i$ ($b_i$).
 
 The analogous statement of surfaces with one [[boundary of a manifold|boundary]] [[connected component]] is [Blanchet, Palmer & Shaukat 2021 Cor. 8](#BlanchetPalmerShaukat21), [2025 Prop. 1.1](#BlanchetPalmerShaukat25)
 
