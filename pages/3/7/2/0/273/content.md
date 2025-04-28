@@ -1094,7 +1094,7 @@ Review:
 
 Review in topological spaces (via [[classifying spaces]]):
 
-* Nicolas Addington, _Fiber bundles and nonabelian cohomology_ (2007) &lbrack;[pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf)&rbrack;
+* Nicolas Addington, _Fiber bundles and nonabelian cohomology_, talk at *[Graduate Student Topology Conference](https://www.math.uchicago.edu/~gstc/)* (2007) &lbrack;[pdf](http://pages.uoregon.edu/adding/notes/gstc2007.pdf)&rbrack;
 
 * {#Mitchell11} [[Stephen Mitchell]], around Theorem 7.4 in: _Notes on principal bundles and classifying spaces_, Lecture Notes. University of Washington (2011) &lbrack;[pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]]&rbrack;
 
