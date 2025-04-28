@@ -68,7 +68,7 @@ such that the following properties are satisfied:
 * Unit axiom:
 $$a(z)=a\cdot z^0+z\cdot(\cdots),$$
 * Commutativity axiom:
-$$a_1(z_1)\cdots a_n(z_n) = a_{\sigma(1)}(z_{\sigma(1)}\cdots a_{\sigma(n)}(z_{\sigma(n)}),\qquad \sigma\in \Sigma_n,$$ 
+$$a_1(z_1)\cdots a_n(z_n) = a_{\sigma(1)}(z_{\sigma(1)})\cdots a_{\sigma(n)}(z_{\sigma(n)}),\qquad \sigma\in \Sigma_n,$$ 
 * Associativity axiom:
 $$(a_{1,1}(z_{1,1})\cdots a_{1,n}(z_{1,n}))(y_1)\cdots (a_{m,1}(z_{m,1})\cdots a_{m,n}(z_{m,n}))(y_m)=a_{1,1}(z_{1,1}+y_1)\cdots a_{m,n}(z_{m,n}+y_m).$$
 
