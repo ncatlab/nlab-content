@@ -247,6 +247,9 @@ See also:
 
 * H Mkrtchyan, R. Mkrtchyan: *Remarks on $E_{11}$ approach*,  Modern Physics Letters A **21** 06 (2006) 503-514 &lbrack;[doi:10.1142/S0217732306019645](https://doi.org/10.1142/S0217732306019645), [arXiv:hep-th/0507183](https://arxiv.org/abs/hep-th/0507183)&rbrack;
 
+* [[Peter West]]: *Local symmetry and extended spacetime* &lbrack;[arXiv:2504.18229](https://arxiv.org/abs/2504.18229)&rbrack;
+
+
 
 
 [[!redirects E11]]
