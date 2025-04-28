@@ -210,5 +210,3 @@ On non-perturbative quantization of topological [[flux]] observables in pure [[h
 [[!redirects nonperturbative QFTs]]
 
 [[!redirects non-perturbative physics]]
-
-
