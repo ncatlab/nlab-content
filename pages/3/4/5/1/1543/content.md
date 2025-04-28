@@ -885,7 +885,7 @@ See also the references at *[[classifying space]]*.
 
 Textbook accounts:
 
-* {#Steenrod51} [[Norman Steenrod]], section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951 ([jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5))
+* {#Steenrod51} [[Norman Steenrod]], section I.7 of: _The topology of fibre bundles_, Princeton Mathematical Series **14**, Princeton Univ. Press (1951) &lbrack;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&rbrack;
 
 * {#Husemoeller} [[Dale Husemöller]], _Fiber bundles_, Springer (1994) ([doi:10.1007/978-1-4757-2261-1](https://doi.org/10.1007/978-1-4757-2261-1))
  
