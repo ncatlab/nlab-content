@@ -53,7 +53,7 @@ On [[algebraic topology]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[algebraic topology]]
 
@@ -62,7 +62,6 @@ On [[algebraic topology]]:
 * [[equivariant cohomotopy]]
 
 * [[Burnside ring]]
-
 
 * [[equivariant Hopf degree theorem]]
 
@@ -73,6 +72,8 @@ On [[algebraic topology]]:
 * [[equivariant bordism homology theory]]
 
 * [[CW-approximation]]
+
+
 
 category: people
 
