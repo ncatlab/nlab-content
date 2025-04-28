@@ -3912,7 +3912,7 @@ Further introduction and review:
 
 * [[Dale Rolfsen]]: *New developments in the theory of Artin’s braid groups*, Topology and its Applications **127** 1–2 (2003) 77-90 &lbrack;<a href="https://doi.org/10.1016/S0166-8641(02)00054-8">doi:10.1016/S0166-8641(02)00054-8</a>, [pdf](https://personal.math.ubc.ca/~rolfsen/papers/newbraid/newbraid2.pdf)&rbrack;
 
-* John Guaschi, Daniel Juan-Pineda: *A survey of surface braid groups and the lower algebraic K-theory of their group rings* &lbrack;[arXiv:1302.6536](https://arxiv.org/abs/1302.6536)&rbrack;
+* [[John Guaschi]], Daniel Juan-Pineda: *A survey of surface braid groups and the lower algebraic K-theory of their group rings* &lbrack;[arXiv:1302.6536](https://arxiv.org/abs/1302.6536)&rbrack;
 
 * [[Jennifer C. H. Wilson]], *The geometry and topology of braid groups*, lecture at *[2018 Summer School on Geometry and Topology](https://www.pims.math.ca/scientific-event/180611-ssgt)*, Chicago (2018) &lbrack;[pdf](http://www.math.lsa.umich.edu/~jchw/RTG-Braids.pdf), [[Wilson-BraidGroups.pdf:file]]&rbrack;
 
