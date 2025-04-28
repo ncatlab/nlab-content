@@ -112,6 +112,9 @@ See also
 
 * Jonte Gödicke. *An $\infty$-Category of 2-Segal Spaces* (2024). ([arXiv:2407.13357](https://arxiv.org/abs/2407.13357)).
 
+* Walker H. Stern, _Perspectives on the 2-Segal Conditons_, [PDF](https://www.walkerstern.com/assets/pdf/Survey_draft3.pdf).
+
+
 [[!redirects higher Segal space]]
 [[!redirects higher Segal spaces]]
 
