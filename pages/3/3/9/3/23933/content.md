@@ -22,6 +22,7 @@ On [[p-adic Teichmüller theory]]:
 
 * [[Kirti Joshi]], *The status of the Scholze-Stix Report and an analysis of the Mochizuki-Scholze-Stix Controversy* ([pdf] (https://www.math.arizona.edu/~kirti/report-on-scholze-stix-mochizuki-controversy.pdf))
 
+* [[Kirti Joshi]], *Final report on the Mochizuki-Scholze-Stix Controversy* ([pdf] (https://math.arizona.edu/~kirti/Final-Mochizuki-Scholze-Stix-Controversy.pdf))
 
 * [[Kirti Joshi]], *(Older-Version) Construction of Arithmetic Teichmuller spaces II: Towards Diophantine Estimates* ([arXiv:2111.04890](https://arxiv.org/abs/2111.04890))
 
