@@ -5,11 +5,17 @@
 
 * [GoogleScholar entry](https://scholar.google.fr/citations?user=OMinh70AAAAJ&hl=fr)
 
+
 ## Selected writings
 
 On [[finitely presented group|presentations]] of [[surface braid groups]]:
 
 * [[Paolo Bellingeri]]: *On presentation of Surface Braid Groups* &lbrack;[arXiv:math/0110129](https://arxiv.org/abs/math/0110129)&rbrack;
+
+On [[quotient groups]] of [[surface braid groups]] (such as [[integer Heisenberg groups]]):
+
+* {#BellingeriGervaisGuaschi08} [[Paolo Bellingeri]], [[Sylvain Gervais]], [[John Guaschi]]: *Lower central series of Artin–Tits and surface braid groups*, Journal of Algebra **319** 4 (2008) 1409-1427 \[<a href="https://doi.org/10.1016/j.jalgebra.2007.10.023">doi:10.1016/j.jalgebra.2007.10.023</a>\]
+
 
 On [[framed braid group|framed]] [[surface braid groups]]:
 
