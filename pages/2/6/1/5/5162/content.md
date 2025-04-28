@@ -9,7 +9,6 @@ His PhD students include [[George Whitehead]], [[Edwin Spanier]], [[William Mass
 ## Selected writings
 
 
-
 On [[twisted ordinary cohomology]]:
 
 * [[Norman Steenrod]], _Homology With Local Coefficients_, Annals of Mathematics, Second Series, Vol. 44, No. 4 (Oct., 1943), pp. 610-627 ([jstor:1969099](https://www.jstor.org/stable/1969099))
@@ -17,6 +16,11 @@ On [[twisted ordinary cohomology]]:
 Introducing the *[[Eilenberg-Steenrod axioms]]* for [[ordinary cohomology]]:
 
 * [[Samuel Eilenberg]], [[Norman E. Steenrod]], _Axiomatic Approach to Homology Theory_, Proceedings of the National Academy of Sciences **31** 4 (1945) 117–120  &lbrack;[doi:10.1073/pnas.31.4.117](http://dx.doi.org/10.1073/pnas.31.4.117)&rbrack;
+
+On [[fiber bundles]]and [[principal bundles]]:
+
+* {#Steenrod51} [[Norman Steenrod]]: *The topology of fibre bundles*, Princeton Mathematical Series **14**, Princeton Univ. Press (1951) &lbrack;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&rbrack;
+
 
 
 On [[algebraic topology]]:
@@ -34,7 +38,7 @@ On [[compactly generated topological spaces]] as a [[convenient category of topo
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[cohomology operations]]
 
