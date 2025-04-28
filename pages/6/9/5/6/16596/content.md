@@ -21,7 +21,7 @@ Formulation of [[D=6 N=1 supergravity]] on [[superspace]]:
 * [[Gianguido Dall'Agata]], [[Kurt Lechner]], *$N = 1$, $D = 6$ Supergravity: Duality and non Minimal Couplings*, Nucl.Phys. B **511** (1998) 326-352 &lbrack;[arXiv:hep-th/9707236](https://arxiv.org/abs/hep-th/9707236), <a href="https://doi.org/10.1016/S0550-3213(97)00719-0">doi:10.1016/S0550-3213(97)00719-0</a>&rbrack;
 
 
-On [[anyons]] described by [[Chern-Simons theory]]:
+On [[anyons]] in [[fractional quantum Hall systems]] [[effective quantum field theory|effectively]] described by [[abelian Chern-Simons theory]]:
 
 * [[Roberto Iengo]], [[Kurt Lechner]], *Anyon quantum mechanics and Chern-Simons theory*, Physics Reports **213** 4 (1992) 179-269 &lbrack;<a href="https://doi.org/10.1016/0370-1573(92)90039-3">doi:10.1016/0370-1573(92)90039-3</a>&rbrack;
 
