@@ -3,9 +3,13 @@ Ioan Mackenzie James (1928-2025)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Ioan_James)
 
+* [Queen's College obituary](https://www.queens.ox.ac.uk/news/prof-ioan-james-1928-2025/)
+
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=22474)
 
 * [MacTutoBiography page](https://mathshistory.st-andrews.ac.uk/Biographies/James/)
+
+
 
 ## Selected writings
 
@@ -52,7 +56,7 @@ Proving the [[equivariant Whitehead theorem]]:
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Stiefel manifold]]
 
