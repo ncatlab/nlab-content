@@ -38,10 +38,13 @@ In [[quantum chromodynamics]]: See at _[[QCD trace anomaly]]_.
 
 ### General
 
-* [[Daniel Freed]], _Determinants, torsion, and strings_,  Comm. Math. Phys. Volume 107, Number 3 (1986), 483-513. ([Euclid](http://projecteuclid.org/euclid.cmp/1104116145))
-  {#Freed86}
+* {#Freed86} [[Daniel Freed]], _Determinants, torsion, and strings_,  Comm. Math. Phys. Volume 107, Number 3 (1986), 483-513. ([Euclid](http://projecteuclid.org/euclid.cmp/1104116145))
+  
 
 * Nicolas Boulanger, _Algebraic Classification of Weyl Anomalies in Arbitrary Dimensions_, Phys. Rev. Lett.98:261302, 2007 ([arXiv:0706.0340](https://arxiv.org/abs/0706.0340))
+
+* Markus B. Fröb, Jochen Zahn: *The Weyl anomaly in interacting quantum field theory on curved spacetimes* &lbrack;[arXiv:2504.17854](https://arxiv.org/abs/2504.17854)&rbrack;
+
 
 See also:
 
