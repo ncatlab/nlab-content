@@ -232,11 +232,7 @@ Monographs:
 * {#PressleySegal} [[Andrew Pressley]], [[Graeme Segal]] §9.5 in: *Loop groups*, Oxford University Press (1988) &lbrack;[ISBN:9780198535614](https://global.oup.com/academic/product/loop-groups-9780198535614)&rbrack;
   > (in the context of [[loop groups]])
   
-* [[Jean-Luc Brylinski]], section II.3 of: _Loop spaces, characteristic classes and geometric quantization_, Birkhäuser  (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308)&rbrack;
-  > (in the context of [[geometric quantization]])
 
-* {#Woodhouse} [[Nicholas Woodhouse]], pp 166 in: *Geometric Quantization*, Oxford University Press (1997) &lbrack;[ISBN:9780198502708](https://global.oup.com/academic/product/geometric-quantization-9780198502708)&rbrack;
-  > (in the context of [[geometric quantization]])
 
 
 
@@ -245,7 +241,12 @@ Monographs:
 
 Discussion in the context of [[geometric quantization]]: 
 
-* _Geometric quantization II, Prequantization and the Heisenberg group_ ([pdf](http://www.maths.ed.ac.uk/~jthomas7/GeomQuant/Lecture2.pdf))
+* [[Jean-Luc Brylinski]], section II.3 of: _Loop spaces, characteristic classes and geometric quantization_, Birkhäuser  (1993) &lbrack;[doi:10.1007/978-0-8176-4731-5](https://www.springer.com/gp/book/9780817647308)&rbrack;
+
+* {#Woodhouse} [[Nicholas Woodhouse]], pp 166 in: *Geometric Quantization*, Oxford University Press (1997) &lbrack;[ISBN:9780198502708](https://global.oup.com/academic/product/geometric-quantization-9780198502708)&rbrack;
+
+
+* _Geometric quantization II, Prequantization and the Heisenberg group_ &lbrack;[pdf](http://www.maths.ed.ac.uk/~jthomas7/GeomQuant/Lecture2.pdf)&rbrack;
 
 Discussion of the [[representation theory]] of the infinite-dimensional Heisenberg group is in
 
