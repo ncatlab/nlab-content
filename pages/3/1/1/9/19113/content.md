@@ -434,9 +434,9 @@ See also
 
 * [[Groupprops]], _<a href="https://groupprops.subwiki.org/wiki/Classification_of_finite_subgroups_of_SO(3,R)">Classification of finite subgroups of SO(3,R)</a>
 
-Discussion of the [[lattice]] of [[subgroups]] of the three exceptional subgroups is in 
+Discussion of the [[lattice]] of [[subgroups]] of the three exceptional subgroups:
 
-* {#GoncalvesGuaschi11} Daciberg Lima Gonçalves, John Guaschi, _The Subgroups of the Binary Polyhedral Groups_, Appendix of _The classification of the virtually cyclic subgroups of the sphere braid groups_, Springer (Ed.) (2013) 112 ([arXiv:1110.6628](https://arxiv.org/abs/1110.6628), [pdf](https://link.springer.com/content/pdf/bbm%3A978-3-319-00257-6%2F1.pdf))
+* {#GoncalvesGuaschi11} [[Daciberg Lima Gonçalves]], [[John Guaschi]]: _The Subgroups of the Binary Polyhedral Groups_, Appendix of: _The classification of the virtually cyclic subgroups of the sphere braid groups_, Briefs in Mathematics, Springer (2013) &lbrack;[arXiv:1110.6628](https://arxiv.org/abs/1110.6628), [doi:10.1007/978-3-319-00257-6](https://doi.org/10.1007/978-3-319-00257-6),  [pdf](https://link.springer.com/content/pdf/bbm%3A978-3-319-00257-6%2F1.pdf)&rbrack;
 
 Discussion of the [[group cohomology]]:
 
