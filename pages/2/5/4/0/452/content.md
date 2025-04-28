@@ -356,7 +356,7 @@ On crossed modules in other algebraic contexts:
 
 * Johan Leray, Salim Rivière, [[Friedrich Wagemann]]: *Crossed modules and cohomology of algebras over an operad* &lbrack;[arXiv:2411.04614](https://arxiv.org/abs/2411.04614)&rbrack;
 
-* Clovis Chabertier : *Higher crossed modules of algebras over an operad* &lbrack;[arXiv:2412.03341](https://arxiv.org/abs/2412.03341)&rbrack;
+* Clovis Chabertier: *Higher crossed modules of algebras over an operad* &lbrack;[arXiv:2412.03341](https://arxiv.org/abs/2412.03341)&rbrack;
   > (in the generality of [[algebras over an operad]])
 
 
