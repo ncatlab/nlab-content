@@ -197,7 +197,6 @@ Correspondingly, [[nerves]] of codiscrete groupoids are precisely the [[codiscre
 
 
 ## Examples
- {Example}
 
 \begin{example}\label{UniversalGPrincipalBundle}
 **(chaotic groupoids as models for [[universal principal bundles]])**
