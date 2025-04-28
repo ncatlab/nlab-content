@@ -94,7 +94,9 @@ On the derivation of the [[equations of motion]] of [[11D supergravity]] and max
 
 * [[Alexander G. Tumanov]], [[Peter West]]: *$E_{11}$ in $11d$*, Physics Letters B **758** (2016) 278285 &lbrack;[arXiv:1601.03974](https://arxiv.org/abs/1601.03974), [doi:10.1016/j.physletb.2016.04.058](https://doi.org/10.1016/j.physletb.2016.04.058)&rbrack;
 
-Review
+* [[Peter West]]: *Local symmetry and extended spacetime* &lbrack;[arXiv:2504.18229](https://arxiv.org/abs/2504.18229)&rbrack;
+
+Review:
 
 * {#West16} [[Peter West]]: _A brief review of E theory_, in:  *Memorial Volume on Abdus Salam's 90th Birthday*, World Scientific (2017) 135-176 &lbrack;[arXiv:1609.06863](http://arxiv.org/abs/1609.06863), [doi:10.1142/9789813144873_0009](https://doi.org/10.1142/9789813144873_0009)&rbrack;
 
