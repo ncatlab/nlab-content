@@ -68,7 +68,7 @@ On [[higher topos theory]] in physics:
 
 On [[higher geometry]] in physics:
 
-* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308), [doi:10.1016/B978-0-323-95703-8.00209-3](https://doi.org/10.1016/B978-0-323-95703-8.00209-3)&rbrack;
 
 On [[3d quantum gravity]]:
 
@@ -92,7 +92,7 @@ On [[twisted cohomology]] (with focus on [[twisted ordinary cohomology]] and [[t
 
 On [[higher gauge theory]]:
 
-* [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
+* [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275), [doi:10.1016/B978-0-323-95703-8.00217-2](https://doi.org/10.1016/B978-0-323-95703-8.00217-2)&rbrack;
 
 On [[flux quantization]] of [[higher gauge theories]]:
 
