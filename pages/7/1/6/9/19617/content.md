@@ -74,7 +74,7 @@ On [[derived differential geometry]] and [[higher Lie theory]] cast in ([[differ
 
 On [[higher geometry]] ([[higher differential geometry]]) in physics:
 
-* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308), [doi:10.1016/B978-0-323-95703-8.00209-3](https://doi.org/10.1016/B978-0-323-95703-8.00209-3)&rbrack;
 
 
 ## Invited talks
