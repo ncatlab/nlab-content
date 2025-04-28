@@ -182,6 +182,10 @@ On the [[representation theory]] of the spherical braid group:
 
 * V. G. Bardakov: *Linear Representations of the Braid Groups of Some Manifolds*, Acta Appl Math **85** (2005) 41–48 &lbrack;[doi:10.1007/s10440-004-5584-6](https://doi.org/10.1007/s10440-004-5584-6)&rbrack;
 
+On [[subgroups]] of spherical braid groups:
+
+* {#GoncalvesGuaschi11} [[Daciberg Lima Gonçalves]], [[John Guaschi]]: *The classification of the virtually cyclic subgroups of the sphere braid groups*, Briefs in Mathematics, Springer (2013) &lbrack;[arXiv:1110.6628](https://arxiv.org/abs/1110.6628), [doi:10.1007/978-3-319-00257-6](https://doi.org/10.1007/978-3-319-00257-6),  [pdf](https://link.springer.com/content/pdf/bbm%3A978-3-319-00257-6%2F1.pdf)&rbrack;
+
 
 [[!redirects spherical braid groups]]
 
