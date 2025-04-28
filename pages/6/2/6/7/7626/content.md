@@ -315,9 +315,9 @@ The "[[fictitious gauge field]]"-method for modelling anyons:
 
 * {#Wilczek91} [[Frank Wilczek]], *States of Anyon Matter*,  International Journal of Modern Physics B **05** 09 (1991) 1273-1312 &lbrack;[doi:10.1142/S0217979291000626](https://doi.org/10.1142/S0217979291000626)&rbrack;
 
-and with specific emphasis on the resulting (abelian!) [[Chern-Simons theory]]:
+and with specific emphasis on the resulting ([[abelian Chern-Simons theory|abelian]]!) [[Chern-Simons theory]]:
 
-* {#IengoLechner92} [[Roberto Iengo]], [[Kurt Lechner]], *Anyon quantum mechanics and Chern-Simons theory*, Physics Reports **213** 4 (1992) 179-269 &lbrack;<a href="https://doi.org/10.1016/0370-1573(92)90039-3">doi:10.1016/0370-1573(92)90039-3</a>&rbrack;
+* {#IengoLechner92} [[Roberto Iengo]], [[Kurt Lechner]]: *Anyon quantum mechanics and Chern-Simons theory*, Physics Reports **213** 4 (1992) 179-269 &lbrack;<a href="https://doi.org/10.1016/0370-1573(92)90039-3">doi:10.1016/0370-1573(92)90039-3</a>&rbrack;
 
 
 
