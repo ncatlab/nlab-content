@@ -69,7 +69,7 @@ and, going clockwise for $k \in \{0, \cdots, g-1\}$,
 <img src="/nlab/files/FundamPolygonsForOrntdClosedSurfaces.jpg" width="420">
 </center>
 
-
+> (This and the following graphics are taken from [[schreiber:Engineering of Anyons on M5-Probes|SS25]].)
 
 
 
