@@ -20,7 +20,6 @@ and was made more explicit in:
 
 * {#WenNiu90} [[Xiao-Gang Wen]], Qian Niu: *Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces*, Phys. Rev. B **41** 9377 (1990) \[<a href="https://doi.org/10.1103/PhysRevB.41.9377">doi:10.1103/PhysRevB.41.9377</a>\]
 
-
 * [[Jürg Fröhlich]], T. Kerler: *Universality in quantum Hall systems*, Nuclear Physics B **354** 2–3 (1991) 369-417 \[<a href="https://doi.org/10.1016/0550-3213(91)90360-A">doi:10.1016/0550-3213(91)90360-A</a>\]
 
 * [[Jürg Fröhlich]], [[Anthony Zee]]: *Large scale physics of the quantum hall fluid*, Nuclear Physics B **364** 3 (1991) 517-540 \[<a href="https://doi.org/10.1016/0550-3213(91)90275-3">doi:10.1016/0550-3213(91)90275-3</a>\]
@@ -32,6 +31,9 @@ and was made more explicit in:
 * Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>, [pdf](http://home.ustc.edu.cn/~gengb/200923/Fradkin,%20Field%20Theories%20of%20Condensed%20Matter%20Physics.pdf)\]
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Topological structures, universality classes, and statistics screening in the anyon superfluid*, Phys. Rev. B **44** (1991) 274 \[<a href="https://doi.org/10.1103/PhysRevB.44.274">doi:10.1103/PhysRevB.44.274</a>\]
+
+* {#IengoLechner92} [[Roberto Iengo]], [[Kurt Lechner]]: *Anyon quantum mechanics and Chern-Simons theory*, Physics Reports **213** 4 (1992) 179-269 \[<a href="https://doi.org/10.1016/0370-1573(92)90039-3">doi:10.1016/0370-1573(92)90039-3</a>\]
+
 
 * {#WenZee92Classification} [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 \[<a href="https://doi.org/10.1103/PhysRevB.46.2290">doi:10.1103/PhysRevB.46.2290</a>\]
 
