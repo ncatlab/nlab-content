@@ -122,7 +122,7 @@ Co-Extension of scalars coincides with *[[extension of scalars]]* (to make an [[
 
 ## References
 
-* H. Fausk, P. Hu, [[Peter May]], _Isomorphisms between left and right adjoints_ ([pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf))
+* H. Fausk, P. Hu, [[Peter May]], _Isomorphisms between left and right adjoints_ ([pdf](https://www.math.uchicago.edu/~may/PAPERS/FormalFinalMarch.pdf))
 
 
 [[!redirects coextensions of scalars]]
