@@ -345,7 +345,7 @@ The [[worldline]] path integral as a way to compute [[scattering amplitudes]] in
 
 * {#Strassler92} [[Matthew Strassler]], _Field Theory Without Feynman Diagrams: One-Loop Effective Actions_, Nucl. Phys. B385:145-184,1992 ([arXiv:hep-ph/9205205](http://arxiv.org/abs/hep-ph/9205205))
 
-On dicretization of path integrals for [[AKSZ sigma-models]]:
+On discretization of path integrals for [[AKSZ sigma-models]]:
 
 * {#Lackman24} [[Joshua Lackman]], *A Groupoid Construction of Functional Integrals: Brownian Motion and Some TQFTs* &lbrack;[arXiv:2402.05866](https://arxiv.org/abs/2402.05866)&rbrack;
   
@@ -354,6 +354,11 @@ On dicretization of path integrals for [[AKSZ sigma-models]]:
 * [[Joshua Lackman]], *A Mathematical Definition of Path Integrals on Symplectic Manifolds* &lbrack;[arXiv:2406.14547](https://arxiv.org/abs/2406.14547)&rbrack;
 
 * [[Joshua Lackman]]: *On an Axiomatization of Path Integral Quantization and its Equivalence to Berezin's Quantization* &lbrack;[arXiv:2410.02739](https://arxiv.org/abs/2410.02739)&rbrack;
+
+Conversely, on using an [[AKSZ sigma-model]] for understanding path integral quantization of [[symplectic manifolds]]:
+
+* [[Thomas Basile]], [[Nicolas Boulanger]], Arghya Chattopadhyay: *Reframing classical mechanics: An AKSZ sigma model perspective* &lbrack;[arXiv:2504.18826](https://arxiv.org/abs/2504.18826)&rbrack;
+
 
 
 ### Stochastic integration theory
