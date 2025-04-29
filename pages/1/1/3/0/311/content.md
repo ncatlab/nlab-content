@@ -221,7 +221,7 @@ These general considerations are quite commonplace in algebraic topology, where 
 
 ## Properties
 
-- A functor is representable if and only if its [[category of elements]] has a [[terminal object]].
+- A functor is representable if and only if its [[category of elements]] has a [[terminal object]]. In this case, the functor is isomorphic to the canonical functor $C/X \to C$ from the slice over the representing object $X$. See [[discrete fibration]] for more.
 
 ## Related concepts
 
