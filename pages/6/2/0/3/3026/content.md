@@ -430,9 +430,9 @@ By the [[Heine-Borel theorem]] the closed and bounded subsets of $\mathbb{R}^n$ 
 
 +-- {: .num_remark #RelevanceForMonopolesAndInstantons}
 ###### Remark
-**(relevance for [[monopoles]] and [[instantons]] in [[gauge theory]])**
+**(relevance for [[solitongs]] and [[instantons]] in [[non-perturbative quantum field theory|non-perturbative]] [[gauge theory]])**
 
-In [[physics]], Example \ref{nSphereIsOnePointCompactificationOfRn} governs the phenomenon of [[monopoles]] and [[instantons]] for [[gauge theory]] on [[Minkowski spacetime]] or [[Euclidean space]]: While such spaces themselves are not [[compact topological space|compact]], the consistency condition that any [[field history|field configuration]] carries a [[finite number|finite]] [[energy]] requires that [[gauge fields]] _[[vanishing at infinity|vanish at infinity]]_. 
+In [[physics]], Example \ref{nSphereIsOnePointCompactificationOfRn} governs the phenomenon of [[solitons]] and [[instantons]] for [[gauge theory]] on [[Minkowski spacetime]] or [[Euclidean space]]: While such spaces themselves are not [[compact topological space|compact]], the consistency condition that any [[field history|field configuration]] carries a [[finite number|finite]] [[energy]] requires that [[gauge fields]] _[[vanishing at infinity|vanish at infinity]]_. 
 
 This means that if $A$ is the [[classifying space]] for the corresponding gauge field --  e.g. $A = B G$ for [[Yang-Mills theory]] with [[gauge group]] $G$ -- and if $a_\infty \in A$ denotes the [[pointed topological space|base point]] witnessing vanishing fields, then a [[field configuration]]/[[cocycle]]
 
