@@ -1,6 +1,10 @@
 
 
-*  [webpage](https://imag.umontpellier.fr/~calaque/)
+* [personal page](https://imag.umontpellier.fr/~calaque/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=92579)
+
+* [inSpire page](https://inspirehep.net/authors/1900299)
 
 ## Selected writings
 
@@ -26,7 +30,12 @@ On [[derived geometry|derived]] [[symplectic geometry]] ([[shifted symplectic st
 
 On [[preprojective algebras]] and [[Calabi-Yau structure]]s
 
-* Tristan Bozec, [[Damien Calaque]], [[Sarah Scherotzke]], _Calabi-Yau structures for multiplicative preprojective algebras_, J. Noncommut. Geom. __17__(3) (2023) 783--810  [arXiv:2102.12336](https://arxiv.org/abs/2102.12336)
+* Tristan Bozec, [[Damien Calaque]], [[Sarah Scherotzke]], _Calabi-Yau structures for multiplicative preprojective algebras_, J. Noncommut. Geom. __17__ 3 (2023) 783-810  &lbrack;[arXiv:2102.12336](https://arxiv.org/abs/2102.12336)&rbrack;
+
+Review of [[formal moduli problems]] via [[L-infinity algebras|$L_\infty$-algebras]]:
+
+* {#CalaqueGrivaux18} [[Damien Calaque]], Julien Grivaux: *Formal moduli problems and formal derived stacks*, in *Derived Algebraic Geometry*, Panoramas & Synthèses **55**, AMS (2021) 85-145 &lbrack;[arXiv:1802.09556](https://arxiv.org/abs/1802.09556), [pdf](https://jgrivaux.perso.math.cnrs.fr/articles/fmp.pdf), [ISBN:978-2-85629-938-8](https://bookstore.ams.org/view?ProductCode=PASY/55)&rbrack;
+
 
 Review of [[shifted symplectic structures]]:
 
