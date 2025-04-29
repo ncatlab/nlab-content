@@ -116,7 +116,7 @@ $$
   f(-)(h)
   \,,
 $$
-where the first equality is the $G$-equivariance of $f$, and the second is the $H$-equivariance of $f(-)$. This shows that $f(-)(\mathrm{e})$ is $H$-equivariant and that it uniquely determines $f$. 
+where the first equality is the $G$-[[equivariance]] of $f$, and the second is the $H$-[[equivariance]] of $f(-)$. This shows that $f(-)(\mathrm{e})$ is $H$-equivariant and that it uniquely determines $f$. 
 
 \end{proof}
 
