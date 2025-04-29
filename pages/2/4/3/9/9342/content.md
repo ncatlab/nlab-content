@@ -6,6 +6,14 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Algebraic QFT
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Functorial QFT
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
 =--
 =--
 
@@ -51,15 +59,15 @@ Passage from the perturbative to the non-perturbative description of QFT involve
 
 These arise notably from the presence of [[soliton|solitonic]] field configurations ([[instanton|instantonic]], after [[Wick rotation]]): Such solitonic fields are invisible to perturbation theory because  they are not continuously [[connected topological space|connected]] to the [[vacuum]] field configuration, since they are constituted by topologically non-trivial structures, e.g. [[gauge potentials]] which are [[connection on a bundle|connections]] on a topologically non-trivial [[principal bundle]] on [[spacetime]] (such as [[Dirac monopoles]] or [[Yang-Mills instantons]], see at *[[fiber bundles in physics]]*). 
 
-Beware that this is relevant even on [[Minkowski spacetime]] $\mathbb{R}^{1,d}$, and prominently so: While these [[spacetimes]] are [[contractible topological space|contractible]] in themselves, [[solitons]] ([[instantons]]) are [[field configurations]] constrained to "[[vanish at infinity]]", which means that they are [[cocycles]] in ([[differential cohomology|differential]]) [[compactly supported cohomology]], hence defined on the [[one-point compactification]] $(-)_{\cup \{\infty\}}$ of space. For instance [[instantons]] on $\mathbb{R}^4$ are effectively bundles on $\mathbb{R}^4_{\cup \{\infty\}} \simeq S^4$ (see [there](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)).
+Beware that this is relevant even on [[Minkowski spacetime]] $\mathbb{R}^{1,d}$, and prominently so: While these [[spacetimes]] are [[contractible topological space|contractible]] in themselves, [[solitons]] ([[instantons]]) are [[field configurations]] whose [[field strength]] is constrained to "[[vanish at infinity]]", which means that they are [[cocycles]] in ([[differential cohomology|differential]]) [[compactly supported cohomology]], hence defined on the [[one-point compactification]] $(-)_{\cup \{\infty\}}$ of space. For instance [[instantons]] on $\mathbb{R}^4$ are effectively bundles [on $\mathbb{R}^4_{\cup \{\infty\}} \simeq S^4$](one-point+compactification#ExamplesSpheres) (see [there](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)).
 
 In lack of a general prescription for non-perturbative [[quantization]], authors try to make educated guesses about the would-be non-perturbative effects from inspection of the behaviour of the formal [[Feynman perturbation series]]: popular methods here go by the name *[[Borel resummation]]* and *[[resurgence theory]]*.
 
 
-**Theory and reality.** Beware the usual habit in theoretical physics jargon of conflating the map with the territory (the field *theory* with the actual fields "in nature" that the theory means to describe): Real quantum fields in nature are always non-perturbative (the value of $\hbar$ and $g$ is not contained in the infinitesimal neightbourhood of the origin -- this is a purely theoretical/computational concept) so that their description by [[perturbative QFT]] is, by design, just an approximation of their complete nature. 
+**Theory and reality.** Beware the usual habit in theoretical physics jargon of conflating the map with the territory (the field *theory* with the actual fields "in nature" that the theory means to describe): Real quantum fields in nature are always non-perturbative (the experimentally observed values of [[Planck's constant|$\hbar$]] and [[coupling constant|$g$]] are not contained in the [[infinitesimal neighbourhood]] of the [[zero]] -- this is a purely theoretical/computational concept) so that their description by [[perturbative QFT]] is, by design, just an approximation of their complete nature. 
 
 
-**As non-analyticity.** This is just as with [[smooth functions]] and their description by their [[Taylor series]] of their [[derivatives]] at a given origin: The Taylor series is a "perturbative description" of the full smooth function, which in contrast is the full non-perturbative object. Indeed the [[Feynman perturbation series]] in [[pQFT]] are imagined to be just such Taylor series of actual smooth functions (e.g. [[scattering amplitudes]]) in $\hbar$ and $g$, and the goal of non-perturbative QFT is to provide more information on "[[non-perturbative effects]]", hence on the actual functions (scattering amplitudes) at all or at least some positive values of $\hbar$ and/or $g$.
+**As non-analyticity.** The distinction between nonperturbative and perturbative is much that between [[smooth functions]] and the [[Taylor series]] of their [[derivatives]] at a given origin: The Taylor series is a "perturbative description" of the full smooth function, which in contrast is the full non-perturbative object. Indeed the [[Feynman perturbation series]] in [[perturbative QFT]] are imagined to be just such Taylor series of actual smooth functions (e.g. [[scattering amplitudes]]) in $\hbar$ and $g$, and the goal of non-perturbative QFT is to provide more information on "[[non-perturbative effects]]", hence on the actual functions (scattering amplitudes) at all or at least some positive values of $\hbar$ and/or $g$.
 
 Of course, special among all smooth functions are the [[analytic functions]], whose Taylor series does already capture the full function, at least in some [[open neighbourhood]].
 Accordingly, among QFTs that one can write to paper (but which are unlikely to describe anything in the real world) there are interacting examples (cite...) whose perturbative description already exhausts their full non-perturbative content, in that their [[Feynman perturbation series]] actually [[convergence|converges]], or at least has a [[positive number|positive]] [[radius of convergence]].
@@ -191,11 +199,13 @@ On non-perturbative [[BV-BRST formalism]]:
 
 * [[Luigi Alfonsi]], *Derived $n$-plectic geometry: towards non-perturbative BV-BFV quantisation and M-theory*, talk at *[M-Theory and Mathematics 2023](/nlab/show/M-Theory+and+Mathematics#2023)*, NYU Abu Dhabi (2023) &lbrack;[web](/nlab/show/M-Theory+and+Mathematics#Alfonsi2023)&rbrack;
 
-On non-perturbative quantization of topological [[flux]] observables in pure [[higher gauge theory]]:
+On non-perturbative quantization of topological [[flux]] [[observables]] in pure [[higher gauge theory]] (cf. *[[geometry of physics -- flux quantization]]*):
 
-* {#SS23QOQF} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Quantum Observables of Quantized Fluxes]]* &lbrack;[arXiv:2312.13037](https://arxiv.org/abs/2312.13037)&rbrack;
+* {#SS23QOQF} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Quantum Observables of Quantized Fluxes]]*, Annales Henri Poincaré (2024) &lbrack;[arXiv:2312.13037](https://arxiv.org/abs/2312.13037), [doi:10.1007/s00023-024-01517-z](https://doi.org/10.1007/s00023-024-01517-z)&rbrack;
 
-* {#SS24IHH} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Introduction to Hypothesis H]]*
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Flux Quantization]]*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 281-324 &lbrack;[arXiv:2402.18473](https://arxiv.org/abs/2402.18473), [doi:10.1016/B978-0-323-95703-8.00078-1](https://doi.org/10.1016/B978-0-323-95703-8.00078-1)&rbrack;
+
+* {#SS24IHH} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Introduction to Hypothesis H]]*, lecture notes (2024-)
 
 [[!redirects non-perturbative QFT]]
 
