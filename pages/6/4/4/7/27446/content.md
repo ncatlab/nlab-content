@@ -20,6 +20,10 @@ On [[field (physics)|fields]] on [[de Sitter spacetime]] via the [[representatio
 
 * [[Thomas Basile]], [[Xavier Bekaert]]: [[Nicolas Boulanger]]: _Mixed-symmetry fields in de Sitter space: a group theoretical glance_, J. High Energ. Phys. **2017** 81 (2017) &lbrack;[arXiv:1612.08166](https://arxiv.org/abs/1612.08166)&rbrack;
 
+On [[path integral]] [[quantization]] of [[symplectic manifold|symplectic]] [[phase spaces]] via an [[AKSZ sigma-model]]:
+
+* [[Thomas Basile]], [[Nicolas Boulanger]], Arghya Chattopadhyay: *Reframing classical mechanics: An AKSZ sigma model perspective* &lbrack;[arXiv:2504.18826](https://arxiv.org/abs/2504.18826)&rbrack;
+
 
 
 category: people
