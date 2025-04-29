@@ -51,6 +51,8 @@ Passage from the perturbative to the non-perturbative description of QFT involve
 
 These arise notably from the presence of [[soliton|solitonic]] field configurations ([[instanton|instantonic]], after [[Wick rotation]]): Such solitonic fields are invisible to perturbation theory because  they are not continuously [[connected topological space|connected]] to the [[vacuum]] field configuration, since they are constituted by topologically non-trivial structures, e.g. [[gauge potentials]] which are [[connection on a bundle|connections]] on a topologically non-trivial [[principal bundle]] on [[spacetime]] (such as [[Dirac monopoles]] or [[Yang-Mills instantons]], see at *[[fiber bundles in physics]]*). 
 
+Beware that this is relevant even on [[Minkowski spacetime]] $\mathbb{R}^{1,d}$, and prominently so: While these [[spacetimes]] are [[contractible topological space|contractible]] in themselves, [[solitons]] ([[instantons]]) are [[field configurations]] constrained to "[[vanish at infinity]]", which means that they are classified by [[compactly supported cohomology]], hence defined on the [[one-point compactification]] $(-)_{\cup \{\infty\}}$ of space. For instance [[instantons]] on $\mathbb{R}^4$ are effectively bundles on $\mathbb{R}^4_{\cup \{\infty\}} \simeq S^4$ (see [there](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)).
+
 In lack of a general prescription for non-perturbative [[quantization]], authors try to make educated guesses about the would-be non-perturbative effects from inspection of the behaviour of the formal [[Feynman perturbation series]]: popular methods here go by the name *[[Borel resummation]]* and *[[resurgence theory]]*.
 
 
