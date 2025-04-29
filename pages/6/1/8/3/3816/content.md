@@ -17,7 +17,7 @@
 
 ## Idea
 
-The term _soliton_ comes from an abbreviation of "solitary wave".
+The term _soliton_ originates as an abbreviation of "solitary [[wave]]", in the tradition of naming [[fields and quanta - table|fields and particles]] ending on "-on".
 
 A **soliton solution** of a nonlinear [[wave equation]] is a solution whose large amplitude part is **localized in space** and is **asymptotically stable in time**. This asymptotic stability (more precisely non-damping and asymptotic preservation of shape, up to translation) is typically a feature of an infinite number of [[conservation law]]s, and many models of equations allowing soliton solutions are in fact [[integrable systems]] (with infinitely many degrees of freedom). Soliton solution often combine to multisoliton solutions in a nonlinear way, with a period of interaction when they "meet", but after a passage of some time, the waves gradually uncouple and regain their original shape when outgoing to infinity.  A typical example of a nonlinear wave equation exhibiting soliton solutions is the exactly solvable "nonlinear Schroedinger equation" appearing in [[optics]]. 
 
