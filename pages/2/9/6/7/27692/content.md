@@ -19,4 +19,10 @@ On [[supersymmetry|supersymmetric]] forms of the [[Poisson sigma-model]]:
 
 * [[Thomas Basile]], [[Athanasios Chatzistavrakidis]], [[Sylvain Lavau]]: *Supersymmetric Poisson and Poisson-supersymmetric sigma models* &lbrack;[arXiv:2504.13114](https://arxiv.org/abs/2504.13114)&rbrack;
 
+On [[path integral]] [[quantization]] of [[symplectic manifold|symplectic]] [[phase spaces]] via an [[AKSZ sigma-model]]:
+
+* [[Thomas Basile]], [[Nicolas Boulanger]], Arghya Chattopadhyay: *Reframing classical mechanics: An AKSZ sigma model perspective* &lbrack;[arXiv:2504.18826](https://arxiv.org/abs/2504.18826)&rbrack;
+
+
+
 category: people
