@@ -22,7 +22,7 @@ Once one has obtained the theta series, one may investigate the following:
 
 ## References
 
-* [[David Ben-Zvi]], [[Yiannis Sakellaridis]], [[Akshay Venkatesh]], _Relative Langlands duality_ ([pdf](https://www.math.ias.edu/~akshay/research/BZSVpaperV1.pdf)).
+* [[David Ben-Zvi]], [[Yiannis Sakellaridis]], [[Akshay Venkatesh]], _Relative Langlands duality_ ([arXiv: 2409.04677](https://arxiv.org/abs/2409.04677))
 
 * [[David Ben-Zvi]], _Relative Geometric Langlands Duality_ ([MSRI lectures](https://www.msri.org/workshops/918/schedules/28232))
 
