@@ -35,3 +35,7 @@ A _formal neighbourhood_ is a [[neighbourhood]] in [[formal geometry]], hence an
 
 [[!redirects formal neighbourhoods]]
 
+[[!redirects formal neighborhood]]
+[[!redirects formal neighborhoods]]
+
+
