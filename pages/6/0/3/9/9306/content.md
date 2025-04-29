@@ -55,7 +55,7 @@ This means that a "formal deformation problem" is a [[space]] in [[higher geomet
 +-- {: .num_remark }
 ###### Remark
 
-The clause about pullbacks is what makes the behaviour at arbitrary infinitesimal order be all controlled by that at first order, see [Calaque-Grivaux 18, top of p. 8](#CalaqueGrivaux18).
+The clause about pullbacks is what makes the behaviour at arbitrary infinitesimal order be all controlled by that at first order, see [Calaque & Grivaux 2018, top of p. 8](#CalaqueGrivaux18).
 
 This ability to understand deformations order-by-order is related to the existence of a good obstruction theory. Indeed, evaluating a formal moduli problem $X$ on a pullback diagram defining an elementary morphism exhibits $X(\Omega^{\infty - n}E)$ as an obstruction space.
 
@@ -137,7 +137,7 @@ Hence we may call this the operaton of **[[Lie differentiation]]** of spaces in 
 
 * {#Porta13} [[Mauro Porta]], _Derived formal moduli problems_, master thesis 2013, [pdf](http://algant.eu/documents/theses/porta.pdf).
 
-* {#CalaqueGrivaux18} Damien Calaque, Julien Grivaux, _Formal moduli problems and formal derived stacks_ ([arXiv:1802.09556](https://arxiv.org/abs/1802.09556))
+* {#CalaqueGrivaux18} [[Damien Calaque]], Julien Grivaux: *Formal moduli problems and formal derived stacks*, in *Derived Algebraic Geometry*, Panoramas & Synthèses **55**, AMS (2021) 85-145 &lbrack;[arXiv:1802.09556](https://arxiv.org/abs/1802.09556), [pdf](https://jgrivaux.perso.math.cnrs.fr/articles/fmp.pdf), [ISBN:978-2-85629-938-8](https://bookstore.ams.org/view?ProductCode=PASY/55)&rbrack;
 
 * Arjen Baarsma: *Deformation problems and $L_\infty$-algebras of Fréchet type*, PhD thesis, Utrecht University (2019) &lbrack;[dspace:1874/386311](https://dspace.library.uu.nl/handle/1874/386311), [pdf](https://webspace.science.uu.nl/~caval101/homepage/Students_files/BaarsmaPhD.pdf)&rbrack;
 
