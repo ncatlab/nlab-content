@@ -33,3 +33,5 @@ Derived analytic methods may also be useful to study intersection theory and vir
 * [[Mauro Porta]], _Derived complex analytic geometry II: square-zero extensions_, [arXiv:1507.06602](https://arxiv.org/abs/1507.06602)
 
 * [[Frédéric Paugam]], _Overconvergent global analytic geometry_, [arXiv:1410.7971](https://arxiv.org/abs/1410.7971).
+
+* [[Oren Ben-Bassat]], Jack Kelly, [[Kobi Kremnizer]], *A Perspective on the Foundations of Derived Analytic Geometry* &lbrack;[arXiv:2405.07936](https://arxiv.org/abs/2405.07936)&rbrack;
