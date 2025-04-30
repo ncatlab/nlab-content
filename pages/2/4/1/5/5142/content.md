@@ -38,7 +38,7 @@ The theory of [[(∞,1)-toposes]], generalizing [[topos theory]] from [[category
 
 An quick introduction is in part 3, 4 of
 
-* [[André Joyal]], _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), November 2015, Paris 
+* {#Joyal15} [[André Joyal]]: _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), Paris (November 2015) &lbrack;videos: part [1](https://youtu.be/Ro8KoFFdtS4), [2](https://youtu.be/4vxzK4LjFlY), [3](https://youtu.be/u_cl0qiJxWY), [4](https://youtu.be/xzyxgJBNW8w)&rbrack;
 
 For origins of the notion of $(\infty,1)$-topos itself see the references at [[(∞,1)-topos]].
 
