@@ -11,9 +11,10 @@ I'm currently in the revision stage on a number of projects. For instance, on th
 
 On the [[Boardman-Vogt tensor product]] of [[G-∞-operads]]:
 
-* [[Natalie Stewart]]: _Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products_ (2025) ([arXiv:2501.02129](https://arxiv.org/abs/2501.02129))
+* [[Natalie Stewart]]: _Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products_ (2025) &lbrack;[arXiv:2501.02129](https://arxiv.org/abs/2501.02129)&rbrack;
 
-* [[Natalie Stewart]]: _On tensor products of equivariant commutative operads_ (draft)  &lbrack;[pdf](https://nataliesstewart.github.io/files/Ninfty_draft.pdf)&rbrack;
+* [[Natalie Stewart]]: _On tensor products with equivariant commutative operads_ (2025) &lbrack;[arXiv:2504.02143](https://arxiv.org/abs/2504.02143)&rbrack;
+
 
 On [[connectivity]] of equivariant [[configuration spaces]] in [[G-manifolds]], and the equivalence between [[EV-operad|$\mathbb{E}_{(d+1)V}$-algebras]] and [[N-∞ operad|$\mathcal{N}_{AV \infty}$-algebras]] in [[equivariant symmetric monoidal categories|G-symmetric monoidal d-categories]]:
 
