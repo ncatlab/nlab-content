@@ -624,6 +624,8 @@ Hence:
 Over the [[complex numbers]], the [[virtual representations]] of a [[finite group]] are all virtual combinations of [[induced representations]] of 1-dimensional representations.
 \end{proposition}
 
+Note that this discussion also generalizes to representations of [[Hopf algebra|Hopf algebras]]. See e.g. ([Flake et al. 24](#FLP24)).
+
 
 
 ## Examples and Applications
@@ -751,7 +753,9 @@ See also:
 * {#Srinivasan} Bhama Srinivasan; *Modular Representations, Old and New*, &lbrack;[pdf](http://homepages.math.uic.edu/~srinivas/bfggpaper.pdf), [[Srinivasan-ModularRepresentations.pdf:file]]&rbrack;
 
 
+### For Hopf algebras
 
+* {#FLP24} Johannes Flake, Robert Laugwitz, Sebastian Posur. *Frobenius monoidal functors induced by Frobenius extensions of Hopf algebras* (2024). ([arXiv:2412.15056](https://arxiv.org/abs/2412.15056)).
 
 ### General abstract formulation
 
