@@ -1,11 +1,158 @@
 
 
-> This [[HomePage|nLab]] page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](https://ncatlab.org/nlab/history/Sandbox).
+> This [[HomePage|nLab]] page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](/nlab/history/Sandbox).
 
 \linebreak
 
 
 ***
+
+The passage of [[group]] [[inverse elements]] $(-)^{-1}$ on $G$ extends to an [[anti-involution]] $\overline{(-)}$ on $\mathbb{K}[G]$, 
+
+$$
+  \overline{
+    \textstyle{\sum_g} c_g \, g
+  }
+  \;=\;
+  \textstyle{\sum_g} \overline{c_g} \, g^{-1}  
+  \,.
+$$ 
+
+\begin{lemma}
+\label{ComparisonBetweenLeftAndRightInducedRepresentations}
+**(comparison map between left and right induced representations)**
+\linebreak
+For $H \xhookrightarrow{\;} G$ a [[subgroup]] inclusion and
+$V \in H Rep$,
+we have a $G$-[[equivariant]] [[linear map|linear]] [[injection]] from the left into the right induced representation
+$$
+  \mathbb{K}[G] \otimes_{\mathbb{K}[H]} V
+  \xhookrightarrow{\phantom{--}\phi\phantom{--}}
+  hom_H\big(
+    \mathbb{K}[G]
+    ,\,
+    V
+  \big)
+  \mathrlap{\,,}
+$$
+[[natural transformation|natural]] in $V$, which is an [[isomorphism]] if the subgroup inclusion $H \hookrightarrow G$ has [[finite number|finite]] [[index of a subgroup|index]]. 
+\end{lemma}
+\begin{proof}
+Define $\phi$ to take homogeneous elements of the form $[g,v]$, for $g \in G$, to the linear map $\phi[g,v] \,\colon\, \mathbb{K}[G] \to V$ which, in turn, is given on basis elements $g' \in G \subset \mathbb{C}[G]$ by
+$$
+  \phi[g,v]
+  \;\colon\;
+  g'
+    \;\mapsto\;
+  \left\{
+  \begin{array}{lll}
+    h \cdot v &\vert& g' = h \cdot g^{-1}
+    \\
+    0 &\vert& \text{otherwise}
+  \end{array}
+  \right.
+$$
+First to observe that this construction is well defined, 
+in that 
+
+1. $\phi[g,v]$ is $H$-equivariant, 
+
+   which is immediate from the form of the above formula;
+
+1. $\phi$ is independent of the choice of representative $[g,v] = [g \cdot k, k^{-1}\cdot v]$, 
+
+   which is seen from
+   $$
+     \phi[g \cdot k, k^{-1} \cdot v]
+     \;\colon\;
+     g' 
+       \;\mapsto\;
+     \left\{
+     \begin{array}{lll}
+       h \cdot k^{-1} \cdot v 
+          &\vert& 
+           g' 
+            = 
+           h \cdot (g \cdot k)^{-1} 
+            = 
+           h \cdot k^{-1} \cdot g^{-1}
+       \\
+       0 &\vert& \text{otherwise}
+     \end{array}
+     \right.
+   $$
+   whence indeed
+   $
+     \phi[g \cdot k, k^{-1} \cdot v]
+     \;=\;
+     \phi[g,v]
+     \,;
+   $
+
+1. $\phi$ is $G$-equivariant,
+
+   which is seen by computing for $q \in G$ as follows:
+   $$
+     \begin{array}{rcl}
+     \phi\big(
+       q \cdot [g,v]
+     \big)(g')
+     &\equiv&
+     \phi\big(
+       [q \cdot g,v]
+     \big)(g')
+     \\
+     &=&
+     \left\{
+     \begin{array}{rcl}
+       h \cdot v &\vert& g' = h \cdot (q\cdot g)^{-1}
+       \\
+       0 &\vert& \text{otherwise}
+     \end{array}
+     \right.
+     \\
+     &=&
+     \left\{
+     \begin{array}{rcl}
+       h \cdot v &\vert& g' \cdot q = h \cdot g^{-1}
+       \\
+       0 &\vert& \text{otherwise}
+     \end{array}
+     \right.
+     \\
+     &=&
+     (\phi[g,v])(g' \cdot q)
+     \\
+     &\equiv&
+     \big( q \cdot \phi[g,v] \big)(g')
+     \mathrlap{\,.}
+     \end{array}
+   $$
+
+It is also immediate that the construction is natural in $V$.
+
+Now the $H$-equivariance implies that for any choice of [[section]] $[g] \mapsto g$ of the [[coset]] [[quotient]] [[coprojection]] $ G \twoheadrightarrow G/H$ (in [[Sets]]) the [[range]] of $\phi$ is [[linear span|spanned]] by the combinations $\sum_{[g] \in G/H} \phi[g,v_g]$.
+
+For this to vanish on all $g'$ clearly all the $v_g$ must vanish separately, which shows that the kernel of $\phi$ is $0$, hence that we have an injection. 
+
+At the same time, if $H$ has finite index in $G$ then both this range as well as the [[codomain]] 
+$
+  hom_H\big(
+    \mathbb{K}[G]
+    ,\,
+    V
+  \big)
+$
+have [[finite dimensional vector space|finite dimension]], equal to the number ${\vert G \colon H\vert}$ of $H$-[[cosets]] of elements of $G$. 
+This means (by the *[[rank-nullity theorem]]*, if you wish) that in the case of finite index the injection $\phi$ is moreover surjective and hence an [[isomorphism]], as claimed.
+\end{proof}
+
+\begin{proposition}
+  When the subgroup inclusion $H \xhookrightarrow{\iota} G$ has [[finite number|finite]] [[index of a subgroup|index]] then the left and right induced representation functors are [[natural isomorphism|naturally isomorphic]] $\iota_! \simeq \iota_{\ast}$, constituting with $\iota^\ast$ an [[ambidextrous adjunction]].
+\end{proposition}
+\begin{proof}
+  By Lem. \ref{ComparisonBetweenLeftAndRightInducedRepresentations}.
+\end{proof}
 
 Consider 
 
