@@ -171,6 +171,9 @@ See also:
 
 * Bruno Balthazar, Amit Giveon, David Kutasov, Emil J. Martinec, *Asymptotically Free AdS3/CFT2* ([arXiv:2109.00065](https://arxiv.org/abs/2109.00065))
 
+* Zhe-fei Yu: *On the CFT dual of superstring on $AdS_3$* &lbrack;[arXiv:2504.20227](https://arxiv.org/abs/2504.20227)&rbrack;
+
+
 Relating to [[random matrix theory]]:
 
 * Gabriele Di Ubaldo, [[Eric Perlmutter]], *$AdS_3/RMT_2$ Duality* &lbrack;[arXiv:2307.03707](https://arxiv.org/abs/2307.03707)&rbrack;
