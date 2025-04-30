@@ -165,6 +165,10 @@ As [[thermal field theory]]:
 
 * Jacopo Ghiglieri, Aleksi Kurkela, Michael Strickland, Aleksi Vuorinen, _Perturbative Thermal QCD: Formalism and Applications_ ([arXiv:2002.10188](https://arxiv.org/abs/2002.10188))
 
+Via [[algebraic quantum field theory]]:
+
+* Iustus C. Hemprich, Karl-Henning Rehren: *Dressed fields for Quantum Chromodynamics* &lbrack;[arXiv:2504.20641](https://arxiv.org/abs/2504.20641)&rbrack;
+
 
 
 ### Phase diagram
