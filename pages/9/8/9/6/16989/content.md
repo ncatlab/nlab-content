@@ -13,22 +13,26 @@
 =--
 =--
 
-* [[André Joyal]], 
+This entry is to record the reference:
 
-  _A crash course in topos theory: The big picture_, 
 
-  lecture series
+* [[André Joyal]]:
 
-  at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), November 2015, Paris 
+  \linebreak
 
-  three parts 
+  **A crash course in topos theory: The big picture**
 
-  1) [[locale]] theory
+  \linebreak
 
-  2) [[topos theory]]
+  lecture series  
 
-  3) [[(infinity,1)-topos theory]] 
+  at *[Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/)*, Paris (November 2015)
 
-  ([recordings with time annotations](https://sites.google.com/site/logiquecategorique/autres-seminaires/ihes/ihestopos/cours/joyal))
+    videos: part [1](https://youtu.be/Ro8KoFFdtS4), [2](https://youtu.be/4vxzK4LjFlY), [3](https://youtu.be/u_cl0qiJxWY), [4](https://youtu.be/xzyxgJBNW8w)
+
+on, in this order, [[point-free topology|locale theory]], [[topos theory]], and [[(∞,1)-topos theory]].
+
+
+
 
 category: reference
