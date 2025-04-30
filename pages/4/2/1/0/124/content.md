@@ -291,10 +291,14 @@ For various applications, one uses toposes that have [[stuff, structure, propert
 ## References 
   {#References}
 
+> (see also references at *[[topos theory]]*)
+
 ### Introductions
  {#Introductions}
 
 Brief expositions:
+
+* [[Michael Barr]], [[Colin McLarty]], [[Charles Wells]],  *Variable set theory*, prepared for *Scientific American* but unpublished (~1985) &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/vst.pdf), [[BarrMcLartyWells-VariableSetTheory.pdf:file]]&rbrack;
 
 * [[Ieke Moerdijk]], *Background in topos theory*, chapter I in: _Classifying Spaces and Classifying Topoi_, Lecture Notes in Mathematics **1616**, Springer (1995) &lbrack;[doi:10.1007/BFb0094441](https://doi.org/10.1007/BFb0094441)&rbrack;
 
@@ -302,9 +306,11 @@ Brief expositions:
 
 * [[Tom Leinster]], _[[Leinster2010|An informal introduction to topos theory]]_ (2010) &lbrack;[arXiv:1012.5647](https://arxiv.org/abs/1012.5647)&rbrack;
 
+* MathProofsable: *Toposes - "Nice Places to Do Math"* (2017) &lbrack;video:[YT](https://youtu.be/gKYpvyQPhZo?list=PL4FD0wu2mjWM3ZSxXBj4LRNsNKWZYaT7k)&rbrack; 
+
 * [[John Baez]], *Topos Theory in a Nutshell* (2021) &lbrack;[web](http://math.ucr.edu/home/baez/topos.html)&rbrack;
 
-* MathProofsable, Category Theory - Toposes [video playlist] (https://www.youtube.com/watch?v=gKYpvyQPhZo&list=PL4FD0wu2mjWM3ZSxXBj4LRNsNKWZYaT7k) 
+* [[Urs Schreiber]]: *[[schreiber:Higher Topos Theory in Physics]]*, [[nLab:Encyclopedia of Mathematical Physics 2nd ed]]$\;$**4** (2025) 62-76 &lbrack;[arXiv:2311.11026](https://arxiv.org/abs/2311.11026), [doi:10.1016/B978-0-323-95703-8.00210-X](https://doi.org/10.1016/B978-0-323-95703-8.00210-X)&rbrack;
 
 Lecture notes:
 
@@ -314,8 +320,7 @@ Lecture notes:
 
 * {#Wyler} [[Oswald Wyler]], *Lecture Notes on Topoi and Quasitopoi*, World Scientific (1991) &lbrack;[doi:10.1142/1047](https://doi.org/10.1142/1047)&rbrack;
 
-
-* {#Joyal15} [[André Joyal]], _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), Paris (November 2015)
+* {#Joyal15} [[André Joyal]]: _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), Paris (November 2015) &lbrack;videos: part [1](https://youtu.be/Ro8KoFFdtS4), [2](https://youtu.be/4vxzK4LjFlY), [3](https://youtu.be/u_cl0qiJxWY), [4](https://youtu.be/xzyxgJBNW8w)&rbrack;
 
 * [[André Joyal]], _Geometric aspects of topos theory in relation with logical doctrines_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=kaZpOEOAUzE))
 
