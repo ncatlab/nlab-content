@@ -56,6 +56,8 @@ Consider:
 
 *  $H \xhookrightarrow{\iota} G$ a [[subgroup]] inclusion.
 
+\linebreak
+
 Write
 \[
   \label{FunctorOfRestrictedRepresentation}
@@ -67,7 +69,9 @@ Write
 \]
 for the functor forming [[restricted representations]] along $\iota \colon H \hookrightarrow G$ (letting $H$ act on a given $G$-representation via its inclusion $\iota$ into $G$).
 
-\begin{proposition}
+\linebreak
+
+\begin{proposition}\label{LeftInductionAdjunction}
 **(left induced representation)**
   The functor $\iota^\ast$ (eq:FunctorOfRestrictedRepresentation) has a [[left adjoint]] $\iota_! \colon H Rep_{\mathbb{K}} \xrightarrow{\;} G Rep_{\mathbb{K}}$ given by
   \[
@@ -102,7 +106,8 @@ for the functor forming [[restricted representations]] along $\iota \colon H \ho
 \end{proposition}
 \begin{proof}
 We claim that the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) is given by [[evaluation]] at the [[neutral element]] $\mathrm{e} \in G$:
-$$
+\[
+  \label{LeftHomIso}
   \left.
   \begin{array}{l}
     V \,\in\, H Rep_{\mathbb{K}}
@@ -127,8 +132,9 @@ $$
     V 
     \xrightarrow{ f([\mathrm{e},-]) }
     \iota^\ast W
+    \mathrlap{\,.}
   }
-$$
+\]
 To see this, just observe that 
 $$
   \left.
@@ -175,7 +181,7 @@ $$
       [\mathrm{e}, v]
     \big)  
   \Big)
-  \,,
+  \mathrlap{\,,}
   \end{array}
 $$
 where the first equality is by definition of the [[tensor product of bimodules|tensor product]], the second-but-last is (eq:ActionOnLeftInducedRep) and the last one is by the $G$-[[equivariance]] of $f$.
@@ -199,8 +205,49 @@ $$
 Finally, it is manifest that this bijection $f \mapsto f([\mathrm{e},-])$ is [[natural transformation|natural]] in $V$ and $W$, and so this establishes a [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) exhibiting the claimed [[adjoint functor|adjunction]] $\iota_! \dashv \iota^\ast$.
 \end{proof}
 
+\begin{corollary}\label{LeftAdjunctionUnit}
+The [[unit of an adjunction|counit]] $\eta^{L}$ of the left [[adjoint functor|adjunction]] $\iota_! \dashv \iota^\ast$ (Prop. \ref{LeftInductionAdjunction}) is given by inserting the [[neutral element]]:
+$$
+  \begin{array}{rcc}
+    V
+    &\xrightarrow{\phantom{--} \epsilon^L_V \phantom{--}}&
+    \mathbb{K}[G]
+      \otimes_{\mathbb{K}[H]}
+    V
+    \\
+    v &\mapsto& [\mathrm{e},v]
+  \end{array}
+$$
+\end{corollary}
+\begin{proof}
+  The [[adjunction unit]] is (see [there](adjoint+functor#AdjunctionUnitFromHomIsomorphism)) the [[adjunct]] $\widetilde{(-)}$ of the [[identity map]]:
+  $$
+  \begin{array}{rcl}
+    \mathbb{K}[G]
+      \otimes_{\mathbb{K}[H]}
+    V
+    &\xrightarrow{\phantom{--} id \phantom{--}}&
+    \mathbb{K}[G]
+      \otimes_{\mathbb{K}[H]}
+    V
+    \mathrlap{\,,}
+  \end{array}
+  $$
+  hence is its image $\widetilde{id}$ under the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) (eq:LeftHomIso). From that formula (eq:LeftHomIso) we have indeed
+  $$
+    \widetilde{id}(v)
+    \;=\;
+    id([\mathrm{e},v])
+    \;=\;
+    [\mathrm{e},v]
+    \,.
+  $$
+\end{proof}
 
-\begin{proposition}
+
+\linebreak
+
+\begin{proposition}\label{RightInductionAdjunction}
 **(right induced representation)**
   The functor $\iota^\ast$ (eq:FunctorOfRestrictedRepresentation) has a [[right adjoint]] $\iota_\ast \colon H Rep_{\mathbb{K}} \xrightarrow{\;} G Rep_{\mathbb{K}}$ given by
   \[
@@ -216,7 +263,7 @@ Finally, it is manifest that this bijection $f \mapsto f([\mathrm{e},-])$ is [[n
       ,\,
       V
     \big)
-    \,,
+    \mathrlap{\,,}
   \]
   where on the right we have the $\mathbb{K}$-[[vector space]] (or [[module|$\mathbb{K}$-module]]) of $H$-[[equivariant map|equivariant]] $\mathbb{K}$-[[linear maps]] equipped with the $G$-[[group action]] given by
 \[
@@ -239,7 +286,8 @@ Finally, it is manifest that this bijection $f \mapsto f([\mathrm{e},-])$ is [[n
 \end{proposition}
 \begin{proof}
 We claim that the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) is given by [[evaluation]] at the [[neutral element]] $\mathrm{e} \in G$:
-$$
+\[
+  \label{RightHomIso}
   \left.
   \begin{array}{l}
     V \,\in\, H Rep_{\mathbb{K}}
@@ -266,8 +314,9 @@ $$
     \iota^\ast W 
     \xrightarrow{\;\; f(-)(\mathrm{e}) \;\;} 
     V
+    \mathrlap{\,.}
   }
-$$
+\]
 To see this, just observe that 
 $$
   \left.
@@ -303,9 +352,9 @@ $$
   &=&
   f(w)(h \cdot \mathrm{e})
   \;=\;
-  h\cdot\big(f(w)(\mathrm{e})\big)
+  h\cdot\big(f(w)(\mathrm{e})\big)   
+  \mathrlap{\,,}
   \end{array}
-  \,,
 $$
 where the first equality is the $G$-[[equivariance]] of $f$, the second is (eq:ActionOnRightInducedRep) and the last one is the $H$-[[equivariance]] of $f(w)$. This shows that $f(-)(\mathrm{e})$ is $H$-equivariant and that it uniquely determines $f$, hence that we have a [[bijection]] of [[hom-sets]]:
 $$
@@ -324,9 +373,55 @@ $$
     ,\,
     V
   \big)
+  \mathrlap{\,.}
 $$
 
 Finally, it is manifest that this bijection $f \mapsto f([\mathrm{e},-])$ is [[natural transformation|natural]] in $W$ and $V$, and so this establishes a [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) exhibiting the claimed [[adjoint functor|adjunction]] $\iota^\ast \dashv \iota_{\ast}$.
+\end{proof}
+
+\begin{corollary}\label{RightAdjunctionConit}
+The [[counit of an adjunction|counit]] $\epsilon^{R}$ of the right [[adjoint functor|adjunction]] $\iota^\ast \dashv \iota_\ast$ (Prop. \ref{RightInductionAdjunction}) is given by [[evaluation]] at the [[neutral element]]:
+$$
+  \begin{array}{rcc}
+    hom_H\big(
+      \mathbb{K}[G]
+      ,\,
+      V
+    \big)
+    &\xrightarrow{\phantom{--} \epsilon^R_V \phantom{--}}&
+    V
+    \\
+    \phi &\mapsto& \phi(\mathrm{e})
+  \end{array}
+$$
+\end{corollary}
+\begin{proof}
+  The [[adjunction counit]] is (see [there](adjoint+functor#AdjunctionUnitFromHomIsomorphism)) the [[adjunct]] $\widetilde{(-)}$ of the [[identity map]]:
+  $$
+  \begin{array}{rcl}
+    hom_H\big(
+      \mathbb{K}[G]
+      ,\,
+      V
+    \big)
+    &\xrightarrow{\phantom{--} id \phantom{--}}&
+    hom_H\big(
+      \mathbb{K}[G]
+      ,\,
+      V
+    \big)
+    \mathrlap{\,,}
+  \end{array}
+  $$
+  hence is its image $\widetilde{id}$ under the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) (eq:RightHomIso). From that formula (eq:RightHomIso) we have indeed
+  $$
+    \widetilde{id}(\phi)
+    \;=\;
+    id(\phi)(\mathrm{e})
+    \;=\;
+    \phi(\mathrm{e})
+    \,.
+  $$
 \end{proof}
 
 
@@ -502,7 +597,7 @@ $
     V
   \big)
 $
-have [[finite dimensional vector space|finite dimension]], equal to the number ${\vert G \colon H\vert}$ of $H$-[[cosets]] of elements of $G$. 
+have [[finite dimensional vector space|finite dimension]], both equal to the number ${\vert G \colon H\vert}$ of $H$-[[cosets]] of elements of $G$. 
 This means (by the *[[rank-nullity theorem]]*, if you wish) that in the case of finite index the injection $\phi$ is moreover surjective and hence an [[isomorphism]], as claimed.
 \end{proof}
 
