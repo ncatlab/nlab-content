@@ -32,7 +32,7 @@ Consider:
 
 * $\mathbb{K}$ a [[ground field]] (or [[ground ring]]), 
 
-* $\mathbb{K}[G] \,\coloneqq\, Span_{\mathbb{K}}\big( g \in G \big)$ the $\mathbb{K}$-[[linear span]] of the [[elements]] of $G$, equipped with the [[structure]] of the [[group algebra]] of $G$ [[associative algebra|over $\mathbb{K}$]], to be regarded canonically as a [[module]] ([[bimodule]]) over itself,
+* $\mathbb{K}[G] \,\coloneqq\, Span_{\mathbb{K}}\big( g \in G \big)$ the $\mathbb{K}$-[[linear span]] of the [[elements]] of $G$, hence with [[linear basis]] $G \subset \mathbb{K}[G]$, and equipped with the [[structure]] of the [[group algebra]] of $G$ [[associative algebra|over $\mathbb{K}$]], to be regarded canonically as a [[module]] ([[bimodule]]) over itself,
 
 * $G Rep_{\mathbb{K}} \,\simeq\, \mathbb{K}[G]\text{-}Mod_{\mathbb{K}}$ the [[category of representations|category of]] $\mathbb{K}$-[[linear representations]] $G \curvearrowright V$ of $G$,
 
@@ -134,7 +134,7 @@ $$
   \left.
   \begin{array}{l}
     f \,\in\, Hom_G\big(
-      \mathbb{C}[G] \otimes_{\mathbb{C}[H]} V
+      \mathbb{K}[G] \otimes_{\mathbb{K}[H]} V
       ,\,
       W
     \big)
@@ -326,7 +326,7 @@ $$
   \big)
 $$
 
-Finally, it is manifest that this bijection $f \mapsto f([\mathrm{e},-])$ is [[natural transformation|natural]], and so this establishes a [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) exhibiting the claimed [[adjoint functor|adjunction]] $\iota^\ast \dashv \iota_{\ast}$.
+Finally, it is manifest that this bijection $f \mapsto f([\mathrm{e},-])$ is [[natural transformation|natural]] in $W$ and $V$, and so this establishes a [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) exhibiting the claimed [[adjoint functor|adjunction]] $\iota^\ast \dashv \iota_{\ast}$.
 \end{proof}
 
 
@@ -506,6 +506,8 @@ Lecture notes:
 * {#tomDieck09} [[Tammo tom Dieck]], Chapter 4 of _Representation theory_ (2009) &lbrack;[pdf](http://www.uni-math.gwdg.de/tammo/rep.pdf)&rbrack;
 
 See also: 
+
+* Wikipedia: *[Induced representation](https://en.wikipedia.org/wiki/Induced_representation)*
 
 * [[eom]]: *[induced representation](https://www.encyclopediaofmath.org/index.php/Induced_representation)*
  
