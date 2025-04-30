@@ -38,14 +38,16 @@ of the set $G/H$ of [[cosets]].
 
 ### Multiplicativity
 
-If $H$ is a subgroup of $G$, the coset projection $-H: G\to G/H$ sends an element $g$ of $G$ to its orbit $gH$. 
+If $H$ is a subgroup of $G$, the [[coset]] [[coprojection]] $-H \,\colon\, G \twoheadrightarrow G/H$ sends an element $g$ of $G$ to its [[orbit]] $g H$. 
 
-If $s : G/H\to G$ is a section of the coset projection $-H: G\to G/H$, then $G/H \times H \to G$ given by $( g H , h )\mapsto s( g H ) h^{-1}$ is a bijection. Its inverse is given by the set map $G\to G/H \times H$ given by $g\mapsto ( g H , g^{-1} s( g H ) )$. Note that the induced product projections $G\to G/H$ coincides with the coset projection.
+If $s \colon G/H\to G$ is a [[section]] of the coset coprojection $-H \colon G \twoheadrightarrow G/H$, then $G/H \times H \to G$ given by $( g H , h )\mapsto s( g H ) h^{-1}$ is a [[bijection]]. Its [[inverse map|inverse]] is given by the set map $G\to G/H \times H$ given by $g \mapsto \big( g H , g^{-1} s( g H ) \big)$. To note that the induced product coprojections $G\to G/H$ coincides with the coset coprojection.
 
-This argument can be internalized to a group object $G$ and a subgroup object $G$ in a category $C$. In this case, the coset projection $-H: G\to G/H$ is the coequalizer of the action on $G$ by multiplication of $H$. The coset projection need not have a section. However, in case such sections exist, each section $s$ of the coset projection, the above argument internalized yields an isomorphism 
+This argument can be [[internalization|internalized]] to appy to [[group objects]] $G$ with subgroup objects $H \hookrightarrow G$ in a suitable [[category]] $C$. In this generality, the coset coprojection $-H \colon G\to G/H$ is the [[coequalizer]] of the action on $G$ by multiplication of $H$. 
+
+The coset coprojection need not have a section. However, in case such sections exist, each section $s$ of the coset coprojection, the above argument internalized yields an [[isomorphism]]
 $$
-G/H \times H \overset{\simeq}\rightarrow G
-\, .
+  G/H \times H \overset{\simeq}\rightarrow G
+  \,.
 $$ 
 
 Even more generally, if $H \hookrightarrow K \hookrightarrow G$ is a sequence of [[subgroup]] objects, then each section of the projection $G/H \to G/K$ yields an isomorphism 
@@ -54,12 +56,12 @@ $$
 \, .
 $$
 
-Returning to the case of ordinary groups, i.e. group objects internal to $Set$, where the external axiom of choice is assumed to hold, the coset projection, being a coequalizer and hence an epimorphism, has a section. This gives the multiplicative property of the indices of a sequence $H \hookrightarrow K \hookrightarrow G$ of [[subgroups]] 
+Returning to the case of ordinary groups, i.e. [[group objects]] [[internalization|internal]] to [[Set]], where the [[external axiom of choice]] is assumed to hold, the coset coprojection, being a coequalizer and hence an [[epimorphism]], has a section. This gives the multiplicative property of the indices of a sequence $H \hookrightarrow K \hookrightarrow G$ of [[subgroups]] 
 
 $$
-  {\vert G : K\vert} \dot {\vert K : H\vert}
+  {\vert G \colon K\vert} \dot {\vert K \colon H\vert}
   = 
-  {\vert G : H\vert}
+  {\vert G \colon H\vert}
   \,.
 $$
 
