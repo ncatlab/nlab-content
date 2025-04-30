@@ -26,7 +26,7 @@ In fact, often $F$ is *identified* with $H$, which is the situation of a *strong
 
 Sometimes $F$ is said to be *biadjoint* to $G$ (not to be confused with [[biadjoint]] in the sense of *[[biadjunction]]*). Functor $G$ which has a left and right adjoint which are equivalent is said to be [[Frobenius functor]]. 
 
-In the special case that $G$ is a [[fully faithful functor]] with an ambidextrous adjoint one also speaks of an *[[essential localization]]* (cf. *[[bireflective subcategory]]*).
+In the special case that $G$ is a [[fully faithful functor]] with an ambidextrous adjoint one also speaks of an *essential localization* (cf. *[[bireflective subcategory]]*).
 
  
 ## Properties
@@ -73,38 +73,43 @@ A morphism $f \colon X \to Y$ between [[∞-groupoids]], is $\mathcal{D}$-ambide
 
 
 ## Examples
+ {#Examples}
 
-+-- {: .num_example}
-###### Example
+\begin{example}
+Every [[self-adjoint functor]] forms an ambidextrous adjunction.
+\end{example}
+
+\begin{example}
+If $F \dashv G$ is an [[adjoint equivalence]], then there are ambidextrous adjunctions $F \dashv G \dashv F$ and $G \dashv F \dashv G$.
+\end{example}
+
+\begin{example}
 **(coincident limits and colimits)**
-
+\linebreak
 Let $\mathcal{C}$ be a [[small category]] and $\mathcal{D}$ any category and consider the functor $const \mathcal{D} \longrightarrow [\mathcal{C}^{op}, \mathcal{D}]$ that sends objects to constant [[presheaves]] with this value. Then the [[right adjoint]] of this functor is, if it exists, the [[limit]] construction, and the [[left adjoint]] is, if it exists, the [[colimit]] construction. (See also at _[[Kan extension]]_.) Therefore if both exist as an ambidextrous adjunction, then this means that limits in $\mathcal{D}$ over [[diagrams]] of shape $\mathcal{C}$ coincide with the [[colimits]] over these diagrams. If $\mathcal{C}$ is a [[finite set]], then this situation is traditionally referred to as _[[biproducts]]_. Generally therefore this is sometimes called _[[bilimits]]_ (but see the discussion of the terminology there). 
 
-In ([Hopkins-Lurie 14, section 4.3](#HopkinsLuire14)) such $\mathcal{C}$ is called _$\mathcal{D}$-ambidextrous_ (or rather, they consider $\mathcal{C}$ an [[∞-groupoid]] and hence call it a _$\mathcal{D}$-ambidextrous space_). Concrete examples of this include those discussed at _[[K(n)-local stable homotopy theory]]_.
+In [Hopkins & Lurie 2014, section 4.3](#HopkinsLuire14) such $\mathcal{C}$ is called _$\mathcal{D}$-ambidextrous_ (or rather, they consider $\mathcal{C}$ an [[∞-groupoid]] and hence call it a _$\mathcal{D}$-ambidextrous space_). Concrete examples of this include those discussed at _[[K(n)-local stable homotopy theory]]_.
+\end{example}
 
-=--
+\begin{example}\label{FrobeniusReciprocity}
+**([[Frobenius reciprocity]])**
+For $H \xhookrightarrow{\iota} G$ a [[subgroup]]-inclusion of [[finite number|finite]] [[index of a subgroup|index]] the left and right [[induced representation]]-functors (adjoints to the functor $i^\ast \colon G Rep \to H Rep$ forming [[restricted representations]]) agree, $\iota_! \simeq \iota_\ast \,\colon\, H Rep \to G Rep$, making an ambidextrous adjunction  (see [there](induced+representation#Ambidexterity) for more).
+\end{example}
 
-+-- {: .num_example}
-###### Example
-**(Yoga of six functors)**
 
+\begin{example}
+**([[yoga of six functors]])**
 A [[Wirthmüller context]] in the presence of an un-twisted [[Wirthmüller isomorphism]] is an ambidextrous adjunction.
+\end{example}
 
-###### Example
 
-Every [[self-adjoint functor]] forms an ambidextrous adjunction.
-
-###### Example
-
-If $F \dashv G$ is an [[adjoint equivalence]], then there are ambidextrous adjunctions $F \dashv G \dashv F$ and $G \dashv F \dashv G$.
-
-=--
 
 ## Related concepts
 
 * [[Wirthmüller context]]
 
 * [[infinitesimal cohesion]]
+
 
 ## References
 
