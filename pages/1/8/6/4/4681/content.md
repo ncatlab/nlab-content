@@ -34,11 +34,16 @@ In this context, __[[linear operators]]__ are more general; they are (in general
 Notice that we do *not* require partially-defined linear operators to be continuous; see [[unbounded operator]].  However, we have the theorem that any densely-defined, continuous, linear map $T\colon V \to W$, with $W$ [[complete space|complete]] and [[Hausdorff space|Hausdorff]], extends uniquely to all of $V$.  Thus one typically assumes that a continuous (or bounded) linear operator $T$ is defined on all of $V$ while an arbitrary linear operator $T$ is defined only on a dense subspace of $V$.
 
 
-## Terminology
-
+\begin{remark}
+**(Terminology)**
 In elementary mathematics (at least as taught in the United States, perhaps elsewhere?), the term 'linear function' is usually used more generally, for an [[affine map]] (but still between vector spaces); in this same context, the term 'linear transformation' is often used instead for specifically linear maps.  (Another difference at this level is that 'linear functions' are usually scalar-valued, while 'linear transformations' are usually vector-valued.)
 
-In [[operator theory]], one sometimes distinguishes 'linear maps' (defined everywhere, but not necessarily continuous in general) from 'linear operators' (partially defined in general, but assumed to be defined everywhere if continuous between complete Hausdorff spaces).  There is also a tendency for 'operator' to be used only for (possibly partial) [[endomorphisms]], that is $T\colon V \to V$; then operators may be [[composition|composed]], giving rise to an [[operator algebra]].  If $V$ is a [[function space]], then an endomorphism of $V$ is an [[operator]] in the sense of [[higher-order logic]]; the more general meaning of 'linear operator' is abstracted from this.
+In [[operator algebra|operator theory]], one sometimes distinguishes 'linear maps' (defined everywhere, but not necessarily continuous in general) from 'linear operators' (partially defined in general, but assumed to be defined everywhere if continuous between complete Hausdorff spaces).  There is also a tendency for 'operator' to be used only for (possibly partial) [[endomorphisms]], that is $T\colon V \to V$; then operators may be [[composition|composed]], giving rise to an [[operator algebra]].  If $V$ is a [[function space]], then an endomorphism of $V$ is an [[operator]] in the sense of [[higher-order logic]]; the more general meaning of 'linear operator' is abstracted from this.
+\end{remark}
+
+## Properties
+
+* [[rank-nullity theorem]]
 
 
 ## Related concepts
@@ -63,7 +68,6 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 * [[linear differential equation]]
 
-* [[piecewise linear function]]
 
 ## References
 
