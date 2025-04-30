@@ -93,4 +93,3 @@ See also
 [[!redirects conformal groups]]
 
 [[!redirects conformal symmetry]]
-[[!redirects conformal invariance]]
