@@ -30,7 +30,7 @@
 
 ## References
 
-* [[John Baez]], [*Lecture 21 - Chapter 2: Monoidal Preorders*](https://forum.azimuthproject.org/discussion/2082/lecture-21-chapter-2-monoidal-preorders)
+* [[John Baez]], [*Lecture 21 - Chapter 2: Monoidal Preorders*](https://forum.azimuthproject.org/discussion/2082/lecture-21-chapter-2-monoidal-preorders) (BROKEN)
 
 [[!redirects monoidal preorders]]
 [[!redirects monoidal proset]]
