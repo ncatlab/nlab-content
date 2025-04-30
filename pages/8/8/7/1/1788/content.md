@@ -7,6 +7,8 @@
 
 ***
 
+$Sym(T^\ast X \otimes T^\ast X)$
+
 For $G$ a [[group]] and 
 $$
   H \xhookrightarrow{\iota} G
