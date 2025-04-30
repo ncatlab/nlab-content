@@ -11,6 +11,10 @@ An object is _scale invariant_ if it is preserved by global rescaling of length.
 
 * [[conformal transformation]]
 
+* [[conformal group]]
+
+* [[conformal field theory]]
+
 * [[fractal]]
 
 ## Referenes
