@@ -4011,6 +4011,17 @@ Neumann algebras**
 
   > The [groupoid picture of Quantum Mechanics](quantum+observable#ReferencesQuantumObservableAlgebrasAsGroupoidAlgebras) is the formal expression of [Schwinger’s conceptualisation](quantum+observable#Schwinger1969) of [[quantum mechanics]], that drinks directly from the original ideas by [[Niels Bohr|Bohr]] and [[Werner Heisenberg|Heisenberg]] on the fundamental role played by physical transitions in the description of quantum phenomena. In this talk we will review some of the fundamental notions leading to this picture and will discuss some applications regarding the dynamical description of quantum theories.
 
+\linebreak
+
+* {#NivesvivatApr2025} 30 Apr 2025
+
+  [[Rongvoram Nivesvivat]] (NYUAD):
+ 
+  **Three-point connectivities of interfaces in 2D critical statistical models.**
+
+  cf.: [arXiv:2311.17558](https://arxiv.org/abs/2311.17558), [arXiv:2302.08168](https://arxiv.org/abs/2302.08168)
+
+  > It is widely conjectured that the [critical limit](universality+class#GeneralAnd2DCriticalPhenomena) of interfaces of statistical models, such as hull percolations and the [[Ising model|Ising]] [[domain walls]], can be described by [[conformal invariance|conformally-invariant]] [[quantum field theory]], known as [[conformal field theory]] (CFT). Using the technology from CFT, we will propose the closed expression for a large class of three-point connectivities of interfaces in [2D critical statistical models](universality+class#GeneralAnd2DCriticalPhenomena). Our conjectures have been tested to be in an excellent agreement with the transfer matrix formalism based on the [[Temperley-Lieb algebra]]. Moreover, the special case of our result that describes the probability of having 3 points on the same hull percolation perfectly coincides with the same result from the conformal [[Brownian loop soup|loop ensembles]] by Xin Sun al. Up to our best knowledge, this is one of the first instances where we have a non-trivial agreement between [[CFT]] and [[Brownian loop soup|conformal loop ensembles]]. 
 
 \linebreak
 
