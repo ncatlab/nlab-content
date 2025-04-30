@@ -100,8 +100,7 @@ In terms of the [[Burnside category]],
 
 * {#Barkan22} [[Shaul Barkan]], [[Rune Haugseng]], [[Jan Steinebrunner]], _Envelopes for Algebraic Patterns_, (2022) ([arXiv:2208.07183](https://arxiv.org/abs/2208.07183))
 
-* [[Natalie Stewart]]: _On tensor products of equivariant commutative operads_ (draft)  &lbrack;[pdf](https://nataliesstewart.github.io/files/Ninfty_draft.pdf)&rbrack;
-
+* [[Natalie Stewart]]: _Equivariant operads, symmetric sequences, and Boardman-Vogt tensor products_ (2025) &lbrack;[arXiv:2501.02129](https://arxiv.org/abs/2501.02129)&rbrack;
 
 [[!redirects G-∞-operad]]
 [[!redirects G-∞ operad]]
