@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[linear algebra]], what is known as the *rank-nullity theorem* (e.g. 3.22 in [Axler (2015)](#Axler15), who calls it the *fundamental theorem of linear maps*) is the statement that for any [[linear map]] $f \colon V \to W$ out of a [[finite-dimensional vector space]], the [[sum]] of 
+In [[linear algebra]], what is known as the *rank-nullity theorem* (e.g. 3.22 of [Axler 2015](#Axler15), who calls it the *fundamental theorem of linear maps*) is the statement that for any [[linear map]] $f \colon V \to W$ out of a [[finite-dimensional vector space]], the [[sum]] of 
 
 * the [[rank of a linear map|rank]] $rk(f) \coloneqq dim\big(im(f)\big)$, i.e. the [[dimension of a vector space|dimension]] of the [[image]];
 
