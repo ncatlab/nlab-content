@@ -99,13 +99,14 @@ The following is a capsule history tabulating some important events in the histo
  {#References}
 
 ### General and 2d critical phenomena
+ {#GeneralAnd2DCriticalPhenomena}
 
 General sources: 
 
 * [[Terence Tao]] (2010), "A second draft of a non-technical article on universality" ([web](http://terrytao.wordpress.com/2010/09/14/a-second-draft-of-a-non-technical-article-on-universality/))
 
 
-Review of 2D critcal phenomena universally described by [[2D conformal field theory]]:
+Review of 2D critical phenomena universally described by [[2D conformal field theory]]:
 
 * [[Philippe Di Francesco]], Pierre Mathieu, David Sénéchal, secton 3.2 of: *Conformal field theory*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-2256-9](https://doi.org/10.1007/978-1-4612-2256-9)&rbrack;
 
