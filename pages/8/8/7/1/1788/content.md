@@ -7,45 +7,68 @@
 
 ***
 
-$Sym(T^\ast X \otimes T^\ast X)$
+Consider 
 
-For $G$ a [[group]] and 
-$$
-  H \xhookrightarrow{\iota} G
-$$
-a [[subgroup]], write
+* $G$ a [[group]],
+
+* $\mathbb{K}$ a [[ground field]] (or [[ground ring]]), 
+
+* $\mathbb{K}[G] \,\coloneqq\, Span_{\mathbb{K}}\big( g \in G \big)$ the $\mathbb{K}$-[[linear span]] of the [[elements]] of $G$, equipped with the [[structure]] of the [[group algebra]] of $G$ [[associative algebra|over $\mathbb{K}$]], to be regarded canonically as a [[module]] ([[bimodule]]) over itself,
+
+* $G Rep_{\mathbb{K}} \,\simeq\, \mathbb{K}[G]\text{-}Mod_{\mathbb{K}}$ the [[category of representations|category of]] $\mathbb{K}$-[[linear representations]] $G \curvearrowright V$ of $G$,
+
+  $$
+    \begin{array}{ccc}
+      G \times V &\longrightarrow& V
+      \\
+      (g,v) &\mapsto& g \cdot v
+      \mathrlap{\,,}
+    \end{array}
+  $$
+
+  with [[intertwiners]] between them as [[morphisms]], 
+
+  [[equivalence of categories|equivalently]] the [[category of modules|category of]] [[module|$\mathbb{K}[G]$-modules]], with [[hom-spaces]] to be denoted
+
+  $$
+    Hom_G(-,-) \,\equiv\, Hom_{\mathbb{K}[G]}(-,-)
+    \mathrlap{\,,}
+  $$
+
+*  $H \xhookrightarrow{\iota} G$ a [[subgroup]] inclusion.
+
+Write
 \[
   \label{FunctorOfRestrictedRepresentation}
   \iota^\ast
   \;\colon\;
-  G Rep_{\mathbb{C}}
+  G Rep_{\mathbb{K}}
   \xrightarrow{\;}
-  H Rep_{\mathbb{C}}
+  H Rep_{\mathbb{K}}
 \]
-for the functor of [[restricted representations]].
-
+for the functor forming [[restricted representations]] along $\iota \colon H \hookrightarrow G$ (letting $H$ act on a given $G$-representation via its inclusion $\iota$ into $G$).
 
 \begin{proposition}
-  The functor $\iota^\ast$ (eq:FunctorOfRestrictedRepresentation) has a [[right adjoint]] $\iota_\ast \colon H Rep_{\mathbb{C}} \xrightarrow{\;} G Rep_{\mathbb{C}}$ given by
+**(left induced representation)**
+  The functor $\iota^\ast$ (eq:FunctorOfRestrictedRepresentation) has a [[left adjoint]] $\iota_! \colon H Rep_{\mathbb{K}} \xrightarrow{\;} G Rep_{\mathbb{K}}$ given by
   $$
-    V \in H Rep_{\mathbb{C}}
+    V \in H Rep_{\mathbb{K}}
     \;\;\;\;\;\;
     \vdash
     \;\;\;\;\;\;
-    \iota_{\ast} V
+    \iota_{!} V
     \;\coloneqq\;
-    Hom_H\big(
-      \mathbb{C}[H]
-      ,\,
-      V
-    \big)
+    \mathbb{K}[G]
+      \otimes_{\mathbb{K}[H]}
+    V
     \,,
   $$
-  where on the right we have the [[vector space]] of $H$-[[equivariant map|equivariant]] [[linear maps]] equipped with the $G$-[[group action]] given by
-$$
+  where on the right we have the $\mathbb{K}$-[[vector space]] (or [[module|$\mathbb{K}$-module]]) [[underlying]] the [[tensor product of modules|tensor product of]] (right-with-left) [[module|$\mathbb{K}[H]$-modules]] equipped with the $G$-[[group action]] given by
+\[
+  \label{ActionOnLeftInducedRep}
   \left.
   \begin{array}{l}
-    f \,\colon\, \mathbb{C}[H] \xrightarrow{\;} V
+    [a,v] \,\in\, \mathbb{K}[G] \otimes_{\mathbb{K}[H]} V
     \\
     g \,\in\, G
   \end{array}
@@ -53,18 +76,154 @@ $$
   \;\;\;\;\;\;
     \vdash
   \;\;\;\;\;\;
-  g \cdot f \,\coloneqq\, f(- \cdot g)
+  g \cdot [a,v] \,\coloneqq\, [g \cdot a, v]
   \,.
-$$
+\]
 \end{proposition}
 \begin{proof}
 We claim that the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) is given by [[evaluation]] at the [[neutral element]] $\mathrm{e} \in G$:
 $$
   \left.
   \begin{array}{l}
-    V \,\in\, H Rep
+    V \,\in\, H Rep_{\mathbb{K}}
     \\
-    W \,\in\, G Rep
+    W \,\in\, G Rep_{\mathbb{K}}
+  \end{array}
+  \right\}
+  \;\;\;\;\;
+  \vdash
+  \;\;\;\;\;
+  \frac{
+    \overset{
+      \iota_! V
+    }{
+      \overbrace{
+        \mathbb{K}[G] \otimes_{\mathbb{K}[H]} V
+      }
+    }
+    \xrightarrow{\;\; f \;\;}
+    W
+  }{
+    V 
+    \xrightarrow{ f([\mathrm{e},-]) }
+    \iota^\ast W
+  }
+$$
+To see this, just observe that 
+$$
+  \left.
+  \begin{array}{l}
+    f \,\in\, Hom_G\big(
+      \mathbb{C}[G] \otimes_{\mathbb{C}[H]} V
+      ,\,
+      W
+    \big)
+    \\
+    h \,\in\, H
+    \\
+    v \,\in\, V
+  \end{array}
+  \right\}
+  \;\;\;\;\;
+  \vdash
+  \;\;\;\;\;
+  \begin{array}{rcl}
+  f\big(
+    [\mathrm{e}, h \cdot v]
+  \big)
+  &=&
+  f\big(
+    [\mathrm{e} \cdot h, v]
+  \big)  
+  \;=\;
+  f\big(
+    [h, v]
+  \big)  
+  \\  
+  &=&
+  f\big(
+    [h \cdot \mathrm{e}, v]
+  \big)
+  \;=\;
+  f\big(
+    h \cdot [\mathrm{e}, v]
+  \big)  
+  \;=\;
+  h \cdot
+  \Big(
+    f\big(
+      [\mathrm{e}, v]
+    \big)  
+  \Big)
+  \,,
+  \end{array}
+$$
+where the first equality is by definition of the [[tensor product of bimodules|tensor product]], the second-but-last is (eq:ActionOnLeftInducedRep) and the last one is by the $G$-[[equivariance]] of $f$.
+This shows that $f\big([\mathrm{e},-]\big)$ is $H$-[[equivariant]] and that it uniquely determines $f$, hence that we have a [[bijection]] of [[hom-sets]]
+
+$$
+  Hom_G\Big(
+    \mathbb{K}[G] \otimes_{\mathbb{K}[H]} V
+    ,\,
+    W
+  \Big)
+  \;\;\simeq\;\;
+  Hom_H\Big(
+    V
+    ,\,
+    \iota^\ast W
+  \Big)
+  \,.  
+$$
+
+Finally, it is manifest that this bijection $f \mapsto f([\mathrm{e},-])$ is [[natural transformation|natural]] in $V$ and $W$, and so this establishes a [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) exhibiting the claimed [[adjoint functor|adjunction]] $\iota_! \dashv \iota^\ast$.
+\end{proof}
+
+
+\begin{proposition}
+**(right induced representation)**
+  The functor $\iota^\ast$ (eq:FunctorOfRestrictedRepresentation) has a [[right adjoint]] $\iota_\ast \colon H Rep_{\mathbb{K}} \xrightarrow{\;} G Rep_{\mathbb{K}}$ given by
+  $$
+    V \in H Rep_{\mathbb{K}}
+    \;\;\;\;\;\;
+    \vdash
+    \;\;\;\;\;\;
+    \iota_{\ast} V
+    \;\coloneqq\;
+    hom_H\big(
+      \mathbb{K}[G]
+      ,\,
+      V
+    \big)
+    \,,
+  $$
+  where on the right we have the $\mathbb{K}$-[[vector space]] (or [[module|$\mathbb{K}$-module]]) of $H$-[[equivariant map|equivariant]] $\mathbb{K}$-[[linear maps]] equipped with the $G$-[[group action]] given by
+\[
+  \label{ActionOnRightInducedRep}
+  \left.
+  \begin{array}{l}
+    f \,\colon\, \mathbb{K}[G] \xrightarrow{\;} V
+    \\
+    g \,\in\, G
+    \\
+    a \,\in\, \mathbb{K}[G]
+  \end{array}
+  \right\}
+  \;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;
+  (g \cdot f)(a) \,\coloneqq\, f(a \cdot g)
+  \,.
+\]
+\end{proposition}
+\begin{proof}
+We claim that the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) is given by [[evaluation]] at the [[neutral element]] $\mathrm{e} \in G$:
+$$
+  \left.
+  \begin{array}{l}
+    V \,\in\, H Rep_{\mathbb{K}}
+    \\
+    W \,\in\, G Rep_{\mathbb{K}}
   \end{array}
   \right\}
   \;\;\;\;\;\;\;\;
@@ -75,8 +234,8 @@ $$
   \xrightarrow{\;\;\;\; f \;\;\;\;}
   \overset{\iota_\ast V}{
   \overbrace{
-    Hom_{H}\big(
-      \mathbb{C}[H]
+    hom_{H}\big(
+      \mathbb{K}[G]
       ,\,
       V
     \big)
@@ -96,30 +255,57 @@ $$
     Hom_G\Big(
       W
       ,\,
-      Hom_H\big(
-       \mathbb{C}[H]
+      hom_H\big(
+       \mathbb{K}[G]
        ,\,
        V
       \big)
     \Big)
     \\
     h \,\in\, H
+    \\
+    w \,\in\, W
   \end{array}
   \right\}
-  \;\;\;\;\;\;\;
+  \;\;\;\;\;\;
   \vdash
-  \;\;\;\;\;\;\;
-  f(h \cdot -)(\mathrm{e})
+  \;\;\;\;\;\;
+  \begin{array}{rcl}
+  f(h \cdot w)(\mathrm{e})
+  &=&
+  \big( h \cdot f(w) \big)(\mathrm{e})  
   \;=\;
-  \big( h \cdot f(-)\big)(\mathrm{e})  
+  f(w)(\mathrm{e} \cdot h)
   \;=\;
-  f(-)(\mathrm{e} \cdot h)
+  f(w)(h)
+  \\
+  &=&
+  f(w)(h \cdot \mathrm{e})
   \;=\;
-  f(-)(h)
+  h\cdot\big(f(w)(\mathrm{e})\big)
+  \end{array}
   \,,
 $$
-where the first equality is the $G$-[[equivariance]] of $f$, and the second is the $H$-[[equivariance]] of $f(-)$. This shows that $f(-)(\mathrm{e})$ is $H$-equivariant and that it uniquely determines $f$. 
+where the first equality is the $G$-[[equivariance]] of $f$, the second is (eq:ActionOnRightInducedRep) and the last one is the $H$-[[equivariance]] of $f(w)$. This shows that $f(-)(\mathrm{e})$ is $H$-equivariant and that it uniquely determines $f$, hence that we have a [[bijection]] of [[hom-sets]]:
+$$
+  Hom_G\Big(
+    W 
+    ,\,
+    hom_H\big(
+      \mathbb{K}[G]
+      ,\,
+      V
+    \big)
+  \Big)
+  \;\;\simeq\;\;
+  Hom_H\big(
+    \iota^\ast W 
+    ,\,
+    V
+  \big)
+$$
 
+Finally, it is manifest that this bijection $f \mapsto f([\mathrm{e},-])$ is [[natural transformation|natural]], and so this establishes a [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) exhibiting the claimed [[adjoint functor|adjunction]] $\iota^\ast \dashv \iota_{\ast}$.
 \end{proof}
 
 
