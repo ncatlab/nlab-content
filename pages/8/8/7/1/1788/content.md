@@ -7,6 +7,46 @@
 
 ***
 
+\begin{corollary}
+The [[unit of an adjunction|counit]] $\eta^{L}$ of the left [[adjoint functor|adjunction]] $\iota_! \dashv \iota^\ast$ (Prop. \ref{LeftInductionAdjunction}) is given by inserting the [[neutral element]]:
+$$
+  \begin{array}{rcc}
+    V
+    &\xrightarrow{\phantom{--} \epsilon^L_V \phantom{--}}&
+    \mathbb{K}[G]
+      \otimes_{\mathbb{K}[H]}
+    V
+    \\
+    v &\mapsto& [\mathrm{e},v]
+  \end{array}
+$$
+\end{corollary}
+\begin{proof}
+  The [[adjunction unit]] is (see [there](adjoint+functor#AdjunctionUnitFromHomIsomorphism)) the [[adjunct]] $\widetilde{(-)}$ of the [[identity map]]:
+  $$
+  \begin{array}{rcl}
+    \mathbb{K}[G]
+      \otimes_{\mathbb{K}[H]}
+    V
+    &\xrightarrow{\phantom{--} id \phantom{--}}&
+    \mathbb{K}[G]
+      \otimes_{\mathbb{K}[H]}
+    V
+    \mathrlap{\,,}
+  \end{array}
+  $$
+  hence is its image $\widetilde{id}$ under the [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism) (eq:LeftHomIso). From that formula (eq:LeftHomIso) we have indeed
+  $$
+    \widetilde{id}(\phi)(v)
+    \;=\;
+    id([\mathrm{e},v])
+    \;=\;
+    [\mathrm{e},v]
+    \,.
+  $$
+\end{proof}
+
+
 The passage of [[group]] [[inverse elements]] $(-)^{-1}$ on $G$ extends to an [[anti-involution]] $\overline{(-)}$ on $\mathbb{K}[G]$, 
 
 $$
