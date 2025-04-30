@@ -504,7 +504,7 @@ Discussion in relation to the [[AdS-CFT correspondence]]:
 
 See also:
 
-* Sylvain Ribault: *Exactly solvable conformal field theories* &lbrack;[arXiv:2411.17262](https://arxiv.org/abs/2411.17262)&rbrack;
+* [[Sylvain Ribault]]: *Exactly solvable conformal field theories* &lbrack;[arXiv:2411.17262](https://arxiv.org/abs/2411.17262)&rbrack;
 
 
 
