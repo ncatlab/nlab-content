@@ -1,4 +1,6 @@
-A __pro-C-star-algebra__ (also called locally C-star algebra) is very much like a [[pro-object]] in the category of [[C-star-algebra]]s, but the inverse limits are in fact taken in an ambient category of [[topological algebra|topological]] [[*-algebra]]s. $\sigma$-$C^*$-algebras are those pro-$C^*$-algebras which may be obtained as countable inverse limits (there are also intrinsic characterizations in terms of seminorms). 
+A __pro-C-star-algebra__ (also called locally C-star algebra) is very much like a [[pro-object]] in the category of [[C-star-algebra]]s, but the inverse limits are in fact taken in an ambient category of [[topological algebra|topological]] [[*-algebra]]s, not presheaves. $\sigma$-$C^*$-algebras are those pro-$C^*$-algebras which may be obtained as countable inverse limits (there are also intrinsic characterizations in terms of seminorms). 
+
+## Literature
 
 * N. C. Phillips, _Inverse limits of $C^\ast$-algebras_, J. Operator Theory 19 (1988) 159--195, [pdf](http://www.theta.ro/jot/archive/1988-019-001/1988-019-001-010.pdf); _Inverse limits of $C^\ast$-algebras_, in: Operator Algebras and Applications vol. 1, Structure Theory K-theory, Geometry and Topology (London Math. Soc. Lecture Note Series), D. E. Evans, M. Takesaki, eds.; _Representable K-theory for $\sigma$-$C^*$-algebras_, K-Theory __3__, 441–478 (1989)
 * Massoud Amini, _Locally compact pro-$C^\ast$-algebras_, [math.OA/0205253](http://arxiv.org/abs/math/0205253)
@@ -17,4 +19,8 @@ There is a functor $(-)_b:pro-C^\ast\to C^\ast$ which is the dual of Stone-&#268
 
 A class of topological algebras which correspond to pro-$C^\ast$-algebras can be characterized in terms of properties of the topological algebra:
 
-* S.J. Bhatt, D.J. Karia, _An intrinsic characterization of pro-$C^\ast$-algebras and its applications_, J. Math. Anal. Appl. __175__:1 (1993) 68&#8211;80, [doi](http://dx.doi.org/10.1006/jmaa.1993.1152)
+* S.J. Bhatt, D.J. Karia, _An intrinsic characterization of pro-$C^\ast$-algebras and its applications_, J. Math. Anal. Appl. __175__:1 (1993) 68--80, [doi](http://dx.doi.org/10.1006/jmaa.1993.1152)
+
+Analogues of EG and BG in operator algebraic world:
+
+* Alexandru Chirvasitu, Mariusz Tobolski, _Non-commutative classifying spaces of groups via quasi-topologies and pro-$C^*$-algebras_, [arxiv/2502.19702](https://arxiv.org/abs/2502.19702)
