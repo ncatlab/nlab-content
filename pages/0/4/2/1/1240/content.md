@@ -397,7 +397,7 @@ $$
 [[natural transformation|natural]] in $V$, which is an [[isomorphism]] if the subgroup inclusion $H \hookrightarrow G$ has [[finite number|finite]] [[index of a subgroup|index]]. 
 \end{lemma}
 \begin{proof}
-Define $\phi$ to take homogeneous elements of the form $[g,v]$, for $g \in G$, to the linear map $\phi[g,v] \,\colon\, \mathbb{K}[G] \to V$ which, in turn, is given on basis elements $g' \in G \subset \mathbb{C}[G]$ by
+Define $\phi$ to take homogeneous elements of the form $[g,v]$, for $g \in G \subset \mathbb{K}[G]$, to the linear map $\phi[g,v] \,\colon\, \mathbb{K}[G] \to V$ which, in turn, is given on basis elements $g' \in G \subset \mathbb{K}[G]$ by
 $$
   \phi[g,v]
   \;\colon\;
