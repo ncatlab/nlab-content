@@ -144,6 +144,8 @@ This is discussed in further detail at [[model structure on categories with weak
 
 * [[category with weak equivalences]]
 
+* [[monoidal relative category]]
+
 * [[simplicial localization]]
 
 * [[F-category]]
