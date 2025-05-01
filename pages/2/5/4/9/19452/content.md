@@ -1,7 +1,15 @@
 
-> This entry is one chapter of _[[geometry of physics]]_.
+> This entry is one chapter of _[[geometry of physics]]_,
+
+> prepared for [[schreiber:Categories and Toposes|lectures]] given at:
+
+> *Modern Mathematics Methods in Physics*, _[Diffeology, Categories and Toposes and Non-commutative Geometry Summer School](https://web.archive.org/web/20170712104119/http://www.nesinkoyleri.org/eng/events-detail.php?egitimkod=203)_, [Nesin Mathematics Village](http://www.nesinkoyleri.org/eng/index.php) — Şirince, Turkey (2018)
+
+> download this entry: [[CategoriesAndToposes-20250501.pdf:file]] (418 pages)
 
 > next chapters: _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- supergeometry|supergeometry]]_ 
+
+
 
 $\,$
 
