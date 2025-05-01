@@ -41,7 +41,7 @@ Early comments:
 
   > (by the title, apparently originally intended to touch on [[AdS-QCD]], but de facto ending with focus on the problem of flat space holography)
 
-Dedicayed introduction and survey:
+Dedicated introduction and survey:
 
 * [[Daniel Grumiller]], *Flat Space Holography*, 2015 ([pdf](http://quark.itp.tuwien.ac.at/~grumil/pdf/schwarzschild2015.pdf), [[Grumiller_FlatSpaceHolography.pdf:file]])
 
