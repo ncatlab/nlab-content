@@ -128,9 +128,9 @@ Frobenius monoidal functors are a special case of Frobenius *linear* functors be
 
 * **Frobenius monoidal functor**
 
-This concept is related to that of
+The concept of Frobenius monoidal functors is related to that of
 
-* [[Frobenius functor]]
+* [[Frobenius functors]],
 
 albeit in a nontrivial way. See Theorem 3.18 of ([Flake et al 2024](#FLP24)) for more on this.
 
@@ -140,11 +140,10 @@ albeit in a nontrivial way. See Theorem 3.18 of ([Flake et al 2024](#FLP24)) for
 
 * M. B. McCurdy, [[R. Street]], *What separable Frobenius monoidal functors preserve*, [[Cahiers]] TGDC **51** (2010) 29-50 &lbrack;[arxiv/0904.3449](http://arxiv.org/abs/0904.3449)&rbrack; .
 
-* {#FLP24} Johannes Flake, Robert Laugwitz, Sebastian Posur. *Frobenius monoidal functors from ambiadjunctions and their lifts to Drinfeld centers* (2024). ([arXiv:2410.08702](https://arxiv.org/abs/2410.08702)).
 
 Relation to [[Drinfeld centers]]:
 
-* Johannes Flake, Robert Laugwitz, Sebastian Posur: *Frobenius monoidal functors from ambiadjunctions and their lifts to Drinfeld centers* &lbrack;[arXiv:2410.08702](https://arxiv.org/abs/2410.08702)&rbrack;
+* {#FLP24} Johannes Flake, Robert Laugwitz, Sebastian Posur: *Frobenius monoidal functors from ambiadjunctions and their lifts to Drinfeld centers* &lbrack;[arXiv:2410.08702](https://arxiv.org/abs/2410.08702)&rbrack;
 
 
 [[!redirects Frobenius monoidal functors]]
