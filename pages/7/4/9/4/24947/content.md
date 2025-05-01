@@ -33,7 +33,7 @@ Relation to [[conformal field theory]]:
 
 Review:
 
-* [[Valentino Foit]], *Brownian loops and conformally invariant systems*, talk at *[[CQTS]]* (Nov 2022) &lbrack;[[Foit_CQTS-Nov2022.pdf:file]], video: [rec](https://nyu.zoom.us/rec/play/DxmoQSXAGXA331jrD4isyOJrmpvTdgmRnaDLeD3gAabO1v6zlTjYNcxPT74SS0VDtWzbiRyYQTltw9vp.dI1nqe74UCpaouu_?continueMode=true&_x_zm_rtaid=kQZZ5EfLRZiMesvQXmFYBg.1669295362714.dd968befceb1ba32e41f0349dfb7ca0f&_x_zm_rhtaid=14)&rbrack;
+* [[Valentino Foit]]: *Brownian loops and conformally invariant systems*, [talk at](Center+for+Quantum+and+Topological+Systems#FoitNov2022) *[[CQTS]]* (Nov 2022) &lbrack;[[Foit_CQTS-Nov2022.pdf:file]], video: [rec](https://nyu.zoom.us/rec/play/DxmoQSXAGXA331jrD4isyOJrmpvTdgmRnaDLeD3gAabO1v6zlTjYNcxPT74SS0VDtWzbiRyYQTltw9vp.dI1nqe74UCpaouu_?continueMode=true&_x_zm_rtaid=kQZZ5EfLRZiMesvQXmFYBg.1669295362714.dd968befceb1ba32e41f0349dfb7ca0f&_x_zm_rhtaid=14)&rbrack;
 
 Further discussion:
 
@@ -43,6 +43,10 @@ Further discussion:
 
 * Linnea Grans-Samuelsson, [[Jesper L. Jacobsen]], [[Rongvoram Nivesvivat]], [[Sylvain Ribault]], Hubert Saleur: *From combinatorial maps to correlation functions in loop models*, SciPost Phys. **15** 147 (2023) &lbrack;[arXiv:2302.08168](https://arxiv.org/abs/2302.08168), [doi:10.21468/SciPostPhys.15.4.147](https://doi.org/10.21468/SciPostPhys.15.4.147)&rbrack;
 
-  
+Review:
+
+* [[Rongvoram Nivesvivat]]: *Three-point connectivities of interfaces in 2D critical statistical models* [talk at](CQTS#NivesvivatApr2025) [[CQTS]] (30 Apr 2025) &lbrack;slides: [[Nivesvivat-CQTS-Apr2025.pdf:file]]&rbrack;
+
+ 
 [[!redirects Brownian loop soups]]
 
