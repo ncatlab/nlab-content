@@ -217,6 +217,8 @@ In [John Francis' PhD thesis](#Francis)  the theory of [[(∞,1)-categories]] eq
 
 ## Related concepts
 
+* [[monoidal relative category]]
+
 * [[monoidal category]], [[monoidal (2,1)-category]], **monoidal $(\infty,1)$-category**
 
   * [[monoidal (∞,1)-functor]]
