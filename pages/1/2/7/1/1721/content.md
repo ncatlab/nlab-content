@@ -1023,7 +1023,7 @@ The original article on the Eilenberg–Steenrod axioms:
 
 Further development and an expository account:
 
-* {#EilenbergSteenrod52} [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of algebraic topology_, Princeton 1952 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
+* {#EilenbergSteenrod52} [[Samuel Eilenberg]], [[Norman Steenrod]]: *Foundations of algebraic topology*, Princeton (1952) &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology)&rbrack;
 
 The concept of generalized homology obtained by discarding the dimension axiom and the observation that every [[spectrum]] induces an example is due to
 
