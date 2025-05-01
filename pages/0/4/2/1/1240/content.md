@@ -613,7 +613,9 @@ Hence:
   By Lem. \ref{ComparisonBetweenLeftAndRightInducedRepresentations}.
 \end{proof}
 
-(This statement is mentioned for instance in [Hristova 2019 p 1](Frobenius+reciprocity#Hristova19)).
+This statement is mentioned for instance in [Hristova 2019 p 1](Frobenius+reciprocity#Hristova19).
+
+The situation generalizes to representations of [[Hopf algebra|Hopf algebras]], cf. [Flake et al. 2024](#FLP24).
 
 
 ### Further
@@ -624,7 +626,7 @@ Hence:
 Over the [[complex numbers]], the [[virtual representations]] of a [[finite group]] are all virtual combinations of [[induced representations]] of 1-dimensional representations.
 \end{proposition}
 
-Note that this discussion also generalizes to representations of [[Hopf algebra|Hopf algebras]]. See e.g. ([Flake et al. 24](#FLP24)).
+
 
 
 
@@ -755,7 +757,7 @@ See also:
 
 ### For Hopf algebras
 
-* {#FLP24} Johannes Flake, Robert Laugwitz, Sebastian Posur. *Frobenius monoidal functors induced by Frobenius extensions of Hopf algebras* (2024). ([arXiv:2412.15056](https://arxiv.org/abs/2412.15056)).
+* {#FLP24} Johannes Flake, Robert Laugwitz, Sebastian Posur: *Frobenius monoidal functors induced by Frobenius extensions of Hopf algebras* &lbrack;[arXiv:2412.15056](https://arxiv.org/abs/2412.15056)&rbrack;
 
 ### General abstract formulation
 
