@@ -26,6 +26,10 @@ On [[enriched monoidal categories]]:
 
 * [[Liang Kong]], Wei Yuan, Zhi-Hao Zhang, Hao Zheng, *Enriched monoidal categories I: centers* &lbrack;[arXiv:2104.03121](https://arxiv.org/abs/2104.03121)&rbrack;
 
+On ([[braided monoidal category|braided]], [[fusion category|fusion]]) [[monoidal category|monoidal]] [[category theory]] for the description of [[topological order]] and [[anyon]] [[braiding]]:
+
+* [[Liang Kong]], Zhi-Hao Zhang: *An invitation to topological orders and category theory* \[<a href="https://arxiv.org/abs/2205.05565">arXiv:2205.05565</a>\]
+
 
 On [[topological order]], [[braided fusion categories]] and the [[holographic principle]]:
 
