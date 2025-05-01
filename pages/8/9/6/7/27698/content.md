@@ -16,5 +16,10 @@ On [[Brownian loop soups]] and [[2D conformal field theory]]:
 
 * Linnea Grans-Samuelsson, [[Jesper L. Jacobsen]], [[Rongvoram Nivesvivat]], [[Sylvain Ribault]], Hubert Saleur: *From combinatorial maps to correlation functions in loop models*, SciPost Phys. **15** 147 (2023) &lbrack;[arXiv:2302.08168](https://arxiv.org/abs/2302.08168), [doi:10.21468/SciPostPhys.15.4.147](https://doi.org/10.21468/SciPostPhys.15.4.147)&rbrack;
 
+Review:
+
+* [[Rongvoram Nivesvivat]]: *Three-point connectivities of interfaces in 2D critical statistical models* [talk at](CQTS#NivesvivatApr2025) [[CQTS]] (30 Apr 2025) &lbrack;slides: [[Nivesvivat-CQTS-Apr2025.pdf:file]]&rbrack;
+
+
 
 category: people
