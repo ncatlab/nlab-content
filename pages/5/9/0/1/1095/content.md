@@ -54,10 +54,9 @@ This is [[Higher Topos Theory|HTT, def. 6.2.2.6]].
 
 An $(\infty,1)$-category of $(\infty,1)$-sheaves is an **[[(∞,1)-topos]]**.
 
-+-- {: .num_remark}
-###### Remark
-
-Equivalence (eq:DescentCondition) is the _[[descent]]_ condition and the presheaves satisfying it are the **[[(∞,1)-sheaves]]** .
+\begin{remark}
+\label{OnTheDescentCondition}
+The equivalence (eq:DescentCondition) is the _[[descent]]_ condition and the presheaves satisfying it are the **[[(∞,1)-sheaves]]**.
   
 Typically $U$ here is the [[Cech nerve]] 
 
@@ -70,20 +69,21 @@ of a [[covering]] family $\{U_i \to c\}$
 
 $$
   A(c) \simeq PSh(\lim_\to U_\cdots, A)
- \simeq
+ \;\simeq\;
   \lim_{\leftarrow} A(U_\cdots)
- =
+ \;=\;
  \lim_{\leftarrow}
  \left(
-    \cdots
-    \stackrel{\to}{\stackrel{\to}{\to}}
+    \prod_i A(U_i)
+    \stackrel{\to}{\to}
     \prod_{i,j} A(U_i) \times_{A(c)} A(U_j) 
-    \stackrel{\to}{\to}\prod_i A(U_i)
+    \stackrel{\to}{\stackrel{\to}{\to}}
+    \cdots
  \right)
  \,.
 $$
 
-=--
+\end{remark}
 
 
 +-- {: .num_remark}
@@ -514,6 +514,8 @@ An overview is in
 [[!redirects (∞,1)-category of (∞,1)-sheaves]]
 [[!redirects (infinity,1)-categories of (infinity,1)-sheaves]]
 [[!redirects (∞,1)-categories of (∞,1)-sheaves]]
+
+[[!redirects infinity1-category of infinity1-sheaves]]
 
 [[!redirects (∞,1)-sheaf (∞,1)-topos]]
 [[!redirects (∞,1)-sheaf (∞,1)-toposes]]
