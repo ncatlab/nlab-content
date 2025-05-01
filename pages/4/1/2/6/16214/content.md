@@ -1,6 +1,6 @@
-This entry is about the book (in progress)
+This entry is about the book
 
-* [[D. Gaitsgory]], [[N. Rozenblyum]], _A study in derived algebraic geometry_, [web](http://www.math.harvard.edu/~gaitsgde/GL/).
+* [[D. Gaitsgory]], [[N. Rozenblyum]], _A study in derived algebraic geometry_, Mathematical Surveys and Monographs **221**, Americal Mathematical Society 2017, [publisher page](https://bookstore.ams.org/view?ProductCode=SURV/221), [author's website](http://www.math.harvard.edu/~gaitsgde/GL/).
 
 It develops some aspects of the theory of [[derived algebraic geometry]] with the [[categorical geometric Langlands conjecture]] in mind.
 
