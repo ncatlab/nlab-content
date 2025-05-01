@@ -48,3 +48,9 @@ See also:
 
 * Wikipedia, *[Hawking radiation](https://en.wikipedia.org/wiki/Hawking_radiation)*
 
+In [[supergravity]]:
+
+* Guanda Lin, Luca V. Iliesiu, Mykhaylo Usatyuk: *The evaporation of black holes in supergravity* &lbrack;[arXiv:2504.21077](https://arxiv.org/abs/2504.21077)&rbrack;
+
+
+
