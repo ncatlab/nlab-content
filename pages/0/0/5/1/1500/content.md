@@ -191,6 +191,10 @@ These 3d TQFTs hence arise from similar algebraic data as the [[Turaev-Viro mode
 
 ### General
 
+Motivation as generalization of (the [[representation theory]] of) [[finite groups]]:
+
+* [[Greg Kuperberg]] (2009) &lbrack;[MO:a/6183](https://mathoverflow.net/a/6183/381)&rbrack;
+
 Original articles:
 
 * {#EtingofNikshychOstrik05} [[Pavel Etingof]], [[Dmitri Nikshych]], [[Victor Ostrik]], *On fusion categories*, Annals of Mathematics Second Series **162** 2 (2005) 581-642 &lbrack;[arXiv:math/0203060](http://arxiv.org/abs/math/0203060), [jstor:20159926](https://www.jstor.org/stable/20159926)&rbrack;
