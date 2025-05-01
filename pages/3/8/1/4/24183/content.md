@@ -25,7 +25,7 @@ Further discussion (mostly review and mostly without attribution):
 
 * [[Tian Lan]], *A Classification of (2+1)D Topological Phases with Symmetries* \[<a href="https://arxiv.org/abs/1801.01210">arXiv:1801.01210</a>\]
 
-* *From categories to anyons: a travelogue* \[<a href="https://arxiv.org/abs/1811.06670">arXiv:1811.06670</a>\]
+* K. Beer et al.: *From categories to anyons: a travelogue* \[<a href="https://arxiv.org/abs/1811.06670">arXiv:1811.06670</a>\]
 
 * [[Colleen Delaney]], *A categorical perspective on symmetry, topological order, and quantum information* (2019) \[<a href="https://escholarship.org/uc/item/5z384290">uc:5z384290>, [pdf](https://crdelane.pages.iu.edu/dissertationch1-5.pdf)\]
 
