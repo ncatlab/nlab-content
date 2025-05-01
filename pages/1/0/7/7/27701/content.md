@@ -1,3 +1,18 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### $(\infty,1)$-Categories
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
@@ -14,5 +29,8 @@ The canonical functor from the quasicategorical localization of the [[relative c
 
 ## References
 
-* Kensuke Arakawa, _Monoidal Relative Categories Model Monoidal ∞-Categories_, [arXiv](https://arxiv.org/abs/2504.20606).
+* [[Kensuke Arakawa]]: _Monoidal Relative Categories Model Monoidal $\infty$-Categories_ &lbrack;[arXiv:2504.20606](https://arxiv.org/abs/2504.20606)&rbrack;
+
+[[!redirects monoidal relative categories]]
+
 
