@@ -1036,11 +1036,15 @@ The proof that every generalized (co)homology theory arises this way ([[Brown re
 
 * {#Brown65} [[Edgar Brown]], _Abstract homotopy theory_, Trans. AMS 119 no. 1 (1965) ([doi:10.1090/S0002-9947-1965-0182970-6](https://doi.org/10.1090/S0002-9947-1965-0182970-6))
 
-An early lecture note account is in
+Earlu discussion of the [[Atiyah-Hirzebruch spectral sequence]] in this generality (and use of the terminology "extraordinary cohomology"):
 
-* {#Adams74} [[Frank Adams]], part III, sections 2 and 6 of _[[Stable homotopy and generalised homology]]_, 1974
+* [[C. R. F. Maunder]]: *The spectral sequence of an extraordinary cohomology theory*,  Mathematical Proceedings of the Cambridge Philosophical Society **59** 3 (1963) 567-574 &lbrack;[doi:10.1017/S0305004100037245](https://doi.org/10.1017/S0305004100037245)&rbrack;
 
-Textbook accounts:
+Early lecture notes:
+
+* {#Adams74} [[Frank Adams]], part III, sections 2 and 6 of _[[Stable homotopy and generalised homology]]_ (1974)
+
+Monographs:
 
 * {#Switzer75} [[Robert Switzer]], chapter 7 (and 8-12) of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
