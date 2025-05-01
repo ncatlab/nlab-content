@@ -131,12 +131,13 @@ Every coalgebra is the [[filtered colimit]] of its finite-dimensional sub-coalge
 
 =--
 
-This is maybe due to ([Sweedler 69](#Sweedler69)), for proof see also for instance ([Michaelis 03](#Michaelis03)). That this remains true for [[dg-coalgebras]] (see at _[dg-coalgebra -- As filtered colimit](differential+graded+coalgebra#AsFilteredColimits)_) is due to ([Getzler-Goerss 99](#GetzlerGoerss99)).
+This is maybe due to ([Sweedler 69](#Sweedler69), §2.2), for proof see also for instance ([Michaelis 03](#Michaelis03)). That this remains true for [[dg-coalgebras]] (see at _[dg-coalgebra -- As filtered colimit](differential+graded+coalgebra#AsFilteredColimits)_) is due to ([Getzler-Goerss 99](#GetzlerGoerss99)).
 
 +-- {: .num_remark }
 ###### Remark
 
-It follows that an [[associative algebra|algebra]], while not itself the filtered limit of its finite dimensional subalgebras in general, is, being the [[linear dual]] of a coalgebra, a "formal filtered limit", hence a [[pro-object]] in finite-dimensional algebras (e.g. [Abrams-Weibel 99, p. 7](#AbramsWeibel99)). 
+It follows that a [[associative algebra|algebra]]
+in pro-finite dimensional vector spaces, is, being the [[linear dual]] of a coalgebra, a "formal filtered limit", hence a [[pro-object]] in finite-dimensional algebras (e.g. [Abrams-Weibel 99, p. 7](#AbramsWeibel99) or [Dieudonné 73, p. 12](#Dieudonne73)). 
 
 =--
 
@@ -168,6 +169,7 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
 
 * {#GetzlerGoerss99} [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_, 1999 ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
  
+* {#Dieudonne73} [[Jean Dieudonné]], _Introduction to the theory of formal groups_, 1973.
 
 * [[Kathryn Hess]], [[Brooke Shipley]], _The homotopy theory of coalgebras over a comonad_ ([arXiv:1205.3979](http://arxiv.org/abs/1205.3979))
 
