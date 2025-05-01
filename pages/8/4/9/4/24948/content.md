@@ -1,7 +1,7 @@
 
-* [spire page](https://inspirehep.net/authors/1395407?ui-citation-summary=true)
+* [inSpire page](https://inspirehep.net/authors/1395407?ui-citation-summary=true)
 
-* [NYU Abu Dhabi Stochastics Seminar page](https://wp.nyu.edu/adps/people/)
+* [GoogleScholar page](https://scholar.google.com/citations?user=INVSGpcAAAAJ&hl=en)
 
 
 ## Selected writings
@@ -15,7 +15,7 @@ Relating the [[Brownian loop soup]] to [[conformal field theory]]:
 
 Review:
 
-* [[Valentino Foit]], *Brownian loops and conformally invariant systems*, talk at *[[CQTS]]* (Nov 2022) &lbrack;[[Foit_CQTS-Nov2022.pdf:file]], video: [rec](https://nyu.zoom.us/rec/play/DxmoQSXAGXA331jrD4isyOJrmpvTdgmRnaDLeD3gAabO1v6zlTjYNcxPT74SS0VDtWzbiRyYQTltw9vp.dI1nqe74UCpaouu_?continueMode=true&_x_zm_rtaid=kQZZ5EfLRZiMesvQXmFYBg.1669295362714.dd968befceb1ba32e41f0349dfb7ca0f&_x_zm_rhtaid=14)&rbrack;
+* [[Valentino Foit]]: *Brownian loops and conformally invariant systems*, [talk at](Center+for+Quantum+and+Topological+Systems#FoitNov2022) *[[CQTS]]* (Nov 2022) &lbrack;[[Foit_CQTS-Nov2022.pdf:file]], video: [rec](https://nyu.zoom.us/rec/play/DxmoQSXAGXA331jrD4isyOJrmpvTdgmRnaDLeD3gAabO1v6zlTjYNcxPT74SS0VDtWzbiRyYQTltw9vp.dI1nqe74UCpaouu_?continueMode=true&_x_zm_rtaid=kQZZ5EfLRZiMesvQXmFYBg.1669295362714.dd968befceb1ba32e41f0349dfb7ca0f&_x_zm_rhtaid=14)&rbrack;
 
 category: people
 
