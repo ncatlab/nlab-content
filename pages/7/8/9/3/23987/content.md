@@ -4019,6 +4019,8 @@ Neumann algebras**
  
   **Three-point connectivities of interfaces in 2D critical statistical models.**
 
+  slides: [[Nivesvivat-CQTS-Apr2025.pdf:file]]
+
   cf.: [arXiv:2311.17558](https://arxiv.org/abs/2311.17558), [arXiv:2302.08168](https://arxiv.org/abs/2302.08168)
 
   > It is widely conjectured that the [critical limit](universality+class#GeneralAnd2DCriticalPhenomena) of interfaces of statistical models, such as hull percolations and the [[Ising model|Ising]] [[domain walls]], can be described by [[conformal invariance|conformally-invariant]] [[quantum field theory]], known as [[conformal field theory]] (CFT). Using the technology from CFT, we will propose the closed expression for a large class of three-point connectivities of interfaces in [2D critical statistical models](universality+class#GeneralAnd2DCriticalPhenomena). Our conjectures have been tested to be in an excellent agreement with the transfer matrix formalism based on the [[Temperley-Lieb algebra]]. Moreover, the special case of our result that describes the probability of having 3 points on the same hull percolation perfectly coincides with the same result from the conformal [[Brownian loop soup|loop ensembles]] by Xin Sun al. Up to our best knowledge, this is one of the first instances where we have a non-trivial agreement between [[CFT]] and [[Brownian loop soup|conformal loop ensembles]]. 
@@ -4343,7 +4345,6 @@ The following is a (very) inclomplete list of selected invited presentations by 
   mini-course at *[IX International Workshop on Information Geometry, Quantum Mechanics and Applications 2025](http://www.q-math.es/conferences/IGQMA2025)*, [ICMAT Madrid](https://www.icmat.es/),  
 
 \linebreak  
-
 
 
 
