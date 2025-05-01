@@ -40,15 +40,15 @@ However, this is not a defect in the conceptual idea itself, but merely a failur
 
 This notion comes with its own variant of [[commutative algebra]].  Some of the resulting concepts turn out to be exactly the same as in the traditional case.  For example, ideals of [[C^∞-rings]] and [[modules over C^∞-rings]] happen to coincide with ideals and modules in the traditional sense.  Others, like derivations, must be defined carefully, and definitions that used to be equivalent in the traditional algebraic context need not remain so in the context of [[C^∞-rings]].
 
-Observe that a map of sets $\mathrm{d} \colon A\to M$ (where $M$ is an $A$-module) is a derivation if and only if for any real [[polynomial]] $f(x_1,\ldots,x_n)$ the [[chain rule]] holds:
+Let $A$ be a commutative real algebra. Observe that a map of sets $\mathrm{d} \colon A\to M$ (where $M$ is an $A$-module) is a derivation if and only if for any real [[polynomial]] $f(x_1,\ldots,x_n)$ the [[chain rule]] holds:
 $$
  \mathrm{d}
  \big(
    f(a_1,\ldots,a_n)
  \big)
   =
-  \sum_i {\partial f\over\partial x_i}(x_1,\ldots,x_n) 
- \mathrm{d}x_i
+  \sum_i {\partial f\over\partial x_i}(a_1,\ldots,a_n) 
+ \mathrm{d}a_i
  \,.
 $$
 Indeed, taking $f(x_1,x_2)=x_1+x_2$ and $f(x_1,x_2)=x_1 x_2$ recovers the additivity and [[Leibniz rule|Leibniz property]] of derivations, respectively.
@@ -68,7 +68,7 @@ $$
   \sum_i 
   {
    \partial f\over\partial x_i
-  }(x_1,\ldots,x_n) \mathrm{d} x_i
+  }(a_1,\ldots,a_n) \mathrm{d} a_i
  \,,
 $$
 where both sides use the structure of a [[C^∞-ring]] to evaluate a smooth real function on a collection of elements in $A$.
