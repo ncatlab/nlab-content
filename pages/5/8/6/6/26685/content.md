@@ -5,7 +5,12 @@
 
 On [[homotopy limits]] and [[homotopy colimits]] of [[chain complexes]]:
 
-* [[Kensuke Arakawa]], Section 1 of: _Homotopy Limits and Homotopy Colimits of Chain Complexes_, (2023)  &lbrack;[arXiv:2310.00201](https://arxiv.org/abs/2310.00201)&rbrack;
+* [[Kensuke Arakawa]]: _Homotopy Limits and Homotopy Colimits of Chain Complexes_, (2023)  &lbrack;[arXiv:2310.00201](https://arxiv.org/abs/2310.00201)&rbrack;
+
+On [[monoidal relative categories]]:
+
+* [[Kensuke Arakawa]]: _Monoidal Relative Categories Model Monoidal $\infty$-Categories_ &lbrack;[arXiv:2504.20606](https://arxiv.org/abs/2504.20606)&rbrack;
+
 
 ## Related entries
 
