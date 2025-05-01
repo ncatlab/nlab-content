@@ -128,7 +128,7 @@ The analogous argument works for finite limits. In particular, for $C$ finitely 
 
 ## References
 
-* [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
+* [[Robert Paré]], _Simply connected limits_,  Canadian Journal of Mathematics, Volume 42, Issue 4, 1990, pp. 731-746. [doi:10.4153/CJM-1990-038-6](https://doi.org/10.4153/CJM-1990-038-6)
 
 [[!redirects connected limit]]
 [[!redirects connected limits]]
