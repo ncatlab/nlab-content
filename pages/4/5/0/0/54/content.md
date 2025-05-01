@@ -189,11 +189,11 @@ Monographs:
 
 * further monographs on the [[nLab]]:
 
-  * _[[schreiber:Introduction to Homological algebra]]_
+  * *[[geometry of physics -- categories and toposes|Categories and Toposes]]*
 
-  * _[[Introduction to Stable homotopy theory]]_
+  * *[[schreiber:Introduction to Homological algebra]]*
 
-  * [[geometry of physics -- categories and toposes]]
+  * *[[Introduction to Stable homotopy theory]]*
 
 * other:
 
