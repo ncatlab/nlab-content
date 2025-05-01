@@ -7,6 +7,8 @@
 
 ***
 
+[[CategoriesAndToposes-20250501.pdf:file]]
+
 \begin{corollary}
 The [[unit of an adjunction|counit]] $\eta^{L}$ of the left [[adjoint functor|adjunction]] $\iota_! \dashv \iota^\ast$ (Prop. \ref{LeftInductionAdjunction}) is given by inserting the [[neutral element]]:
 $$
