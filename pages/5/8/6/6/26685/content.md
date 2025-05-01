@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[homotopy limits]] and [[homotopy colimits]] of [[chain complexes]]:
+On [[homotopy limits]] and [[homotopy colimits]] of [[chain complexes]] (cf. *[[model structure on chain complexes]]*):
 
 * [[Kensuke Arakawa]]: _Homotopy Limits and Homotopy Colimits of Chain Complexes_, (2023)  &lbrack;[arXiv:2310.00201](https://arxiv.org/abs/2310.00201)&rbrack;
 
