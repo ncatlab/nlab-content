@@ -19,9 +19,7 @@ Early accounts re-stating this claim (without attribution):
 Further discussion (mostly review and mostly without attribution):
 
 * [[Simon Burton]], *A Short Guide to Anyons and Modular Functors* \[<a href="https://arxiv.org/abs/1610.05384">arXiv:1610.05384</a>\]
-
   > (this one stands out as still attributing the claim to [Kitaev (2006), Appendix E](#Kitaev06))
-
 
 * {#RowellWang18} [[Eric C. Rowell]], [[Zhenghan Wang]], _Mathematics of Topological Quantum Computing_, Bull. Amer. Math. Soc. 55 (2018), 183-238 ([arXiv:1705.06206](https://arxiv.org/abs/1705.06206), [doi:10.1090/bull/1605](https://doi.org/10.1090/bull/1605))
 
@@ -38,6 +36,8 @@ Further discussion (mostly review and mostly without attribution):
 * [[Parsa Bonderson]], *Measuring Topological Order*, Phys. Rev. Research **3**, 033110 (2021) \[<a href="https://doi.org/10.1103/PhysRevResearch.3.033110">doi:10.1103/PhysRevResearch.3.033110</a>, [arXiv:2102.05677](https://arxiv.org/abs/2102.05677)\]
 
 * Zhuan Li, Roger S.K. Mong, *Detecting topological order from modular transformations of ground states on the torus* \[<a href="https://arxiv.org/abs/2203.04329">arXiv:2203.04329</a>\]
+
+* [[Liang Kong]], Zhi-Hao Zhang: *An invitation to topological orders and category theory* \[<a href="https://arxiv.org/abs/2205.05565">arXiv:2205.05565</a>\]
 
 * [[Eric C. Rowell]], *Braids, Motions and Topological Quantum Computing* \[<a href="https://arxiv.org/abs/2208.11762">arXiv:2208.11762</a>\]
 
