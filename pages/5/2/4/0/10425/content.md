@@ -73,4 +73,6 @@ Although it lacks the infinitary disjunctions of geometric logic, they can in ma
 
 * {#Vickers18}[[Steve Vickers]], _Sketches for arithmetic universes_, accepted 2018 for Journal of Logic and Analysis ([pdf](http://arxiv.org/abs/1608.01559))
 
+* {#vBB25} [[Johannes Schipp von Branitz]] and [[Ulrik Buchholtz]]. *Propositional Geometric Type Theory*, Workshop on Homotopy Type Theory / Univalent Foundations 2025, Genoa, Italy, 16 April 2025. ([slides](https://hott-uf.github.io/2025/slides/Schipp_von_Branitz.pdf), [video](https://www.youtube.com/watch?v=URr93_DWDNg))
+
 [[!redirects geometric type theories]]
