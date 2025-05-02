@@ -136,7 +136,7 @@ $$
   hofib(f)\longrightarrow X
 $$
 
-is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of any fibration resolution of $f$.
+is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the ordinary [[fiber]] of any [[fibration]] [[resolution]] of $f$.
 
 =--
 
