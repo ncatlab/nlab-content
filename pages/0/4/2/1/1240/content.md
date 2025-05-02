@@ -475,7 +475,7 @@ $$
 
 Accordingly, for $\mathcal{G} \in Grpd$ any [[groupoid]], a functor $\mathcal{G} \xrightarrow{\;} Vec$ is a *[[groupoid representation]]*.
 
-\begin{proposition}\label{ResolvingHRepsToGroupoidReps}
+\begin{lemma}\label{ResolvingHRepsToGroupoidReps}
 For $H \xhookrightarrow{\iota} G$ a [[subgroup]] inclusion:
 
 
@@ -488,13 +488,14 @@ For $H \xhookrightarrow{\iota} G$ a [[subgroup]] inclusion:
 
 1. such that the canonical functor
 
-   $$
+   \[
+     \label{ResolutionOfBIota}
      G \backslash\!\backslash G\!/\!H
-     \xrightarrow{\phantom{---}}
+     \xrightarrow{\phantom{--\widehat{\mathbf{B}\iota}--}}
      G \backslash\!\backslash \{\ast\}
      \,\simeq\,
      \mathbf{B}G
-   $$
+   \]
 
    is a [[resolution]] of $\mathbf{B}\iota \,\colon\, \mathbf{B}H \xrightarrow{\;} \mathbf{B}G$ by a [surjective](Kan+fibration#SurjectiveKanFibrations) [[Kan fibration]], 
 
@@ -524,7 +525,7 @@ For $H \xhookrightarrow{\iota} G$ a [[subgroup]] inclusion:
     }
 \end{imagefromfile}
 
-\end{proposition}
+\end{lemma}
 
 > Note that $g \cdot H$ on the left is (the name of) an object of the groupoid $G \backslash\!\backslash G\!/\!H$, while on the right it is the actual set of right $H$-translates of the element $g$.
 
@@ -564,18 +565,92 @@ Moreover, the following inspection shows that the claimed operation $\widehat{(-
 Hence by the [[2-out-of-3]]-property enjoyed by [[equivalences of groupoids]] (cf. the [[canonical model structure on groupoids]]) it follows that $\widehat{(-)}$ is an equivalence, as claimed.
 \end{proof}
 
-With this in hand we have an equivalent but "more obvious" re-statement of the existence of left induced representations:
+With this in hand we have an equivalent but "more obvious" re-statement of the existence of left induced representations (eq:LeftInducedRepresentation):
+
+\begin{proposition}
+**(resolved left induced representation)**
+  The functor $\widehat{\mathbf{B}\iota}$ (eq:ResolutionOfBIota) has a [[left adjoint]] $\big(\widehat{\mathbf{B}\iota}\big)_! \,\colon\, Func\big( G \sslash\!\sslash G/H ,\, Vect \big) \longrightarrow Func\big(G \sslash\!\sslash \{\ast\},\, Vect\big)$ given by
+\[
+  \label{ResolvedLeftInducedRepresentation}
+  \mathscr{V}
+  \,\in\,
+  Func\big(
+    G \backslash\!\backslash G/H
+  \big)
+  \;\;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;\;
+  \big(\widehat{\mathbf{B}\iota}\big)_!
+  \mathscr{V}
+  \;\coloneqq\;
+  \underset{
+    g\cdot H
+  }{\bigoplus}
+  \mathscr{V}_{g\cdot H}
+  \,,
+\]
+where on the right we let $G$ act in the evident way between direct summands.
+\end{proposition}
+\begin{proof}
+The [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)  is essentially tautologous:
+$$  
+  \left.
+  \begin{array}{l}
+    \mathscr{V} \,\in\,  
+    Func\big( G\backslash\!\backslash G/H, Vect\big)
+    \\
+    \mathscr{W} \,\in\,
+    Func\big( G\backslash\!\backslash \{\ast\}, Vect\big)
+  \end{array}
+  \right\}
+  \;\;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;\;
+  \frac{
+    \Big(
+    \displaystyle{
+    \underset{
+      g\cdot H \in G/H
+    }{\bigoplus}
+    \mathscr{V}_{{}_{g\cdot H}}
+    }
+    \Big)
+    \xrightarrow{
+      \Big(
+        f_{{}_{g \cdot H}}
+      \Big)_{g \cdot H \in G/H}
+    }
+    \mathscr{W}
+  }{
+    g\cdot H 
+    \;\;\;\vdash\;\;\;
+    \mathscr{V}_{g \cdot H}
+    \xrightarrow{\;\;
+      f_{g \cdot H}
+    \;\;}
+    \mathscr{V}
+    \mathrlap{\,,}
+  }
+$$
+where we don't display the $G$-action, which is however evident and evidently respected.
+\end{proof}
+
 
 \begin{corollary}
-  Under the identification of $H$-representations $\mathscr{V}$ with groupoid representations $\widehat{\mathscr{V}}$ according to Prop. \ref{ResolvingHRepsToGroupoidReps}, their left induced representations (eq:LeftInducedRepresentation) are simply the [[direct sum]] of the contributions of $\widehat{\mathscr{V}}$ over the [[homotopy fiber]] of $\mathbf{B}\iota$:
+  Under the identification of $H$-representations $\mathscr{V}$ with groupoid representations $\widehat{\mathscr{V}}$ according to Prop. \ref{ResolvingHRepsToGroupoidReps}, their left induced representations (eq:ResolvedLeftInducedRepresentation) are simply the [[direct sum]] of the contributions of $\widehat{\mathscr{V}}$ over the [[homotopy fiber]] $G/H$ of $\mathbf{B}\iota$:
 
 $$
+  \big(\widehat{\mathbf{B}\iota}\big)_!
+  \widehat{\mathscr{V}}
+  \;\;
+  \equiv
+  \;\;
   \underset{
     g\cdot H \in G/H
   }{\bigoplus}
   \widehat{\mathscr{V}}_{g \cdot H}
   \;\;
-  \equiv
+  \simeq
   \;\;
   \underset{
     g\cdot H \in G/H
@@ -583,9 +658,23 @@ $$
   \mathbb{K}[g\!\cdot\!H]
   \otimes_H
   \mathscr{V}
-  \;\simeq\;
+  \;\;\simeq\;\;
   \mathbb{K}[G]\otimes_H \mathscr{V}
+  \;\;\equiv\;\;
+  \iota_! \mathscr{V}
 $$
+
+\begin{imagefromfile}
+    "file_name": "InducedRep-LeftInductionViaResolution.png",
+    "width": 520,
+    "unit": "px",
+    "margin": {
+        "top": -15,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
 
 \end{corollary}
 
