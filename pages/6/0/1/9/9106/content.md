@@ -22,7 +22,8 @@ What is called the _hierarchy problem_ is an issue in [[phenomenology]] and [[mo
 
 ### Just an artifact
 
-In 2021, Mooij and Shaposhnikov suggested that the hierarchy problem might not have any physical meaning, rather being a mere artifact of a certain formulation of the quantum field theory and/or model of the Standard model, and that if a different formulation was chosen the hierarchy problem can be avoided entirely. See [Mooij and Shaposhnikov](#Mooij-Shaposhnikov) for more details. 
+[Mooij & Shaposhnikov 2021](#MooijShaposhnikov21) suggested that the hierarchy problem might not have any physical meaning, rather being a mere artifact of a certain formulation of the quantum field theory and/or model of the Standard model, and that if a different formulation was chosen the hierarchy problem can be avoided entirely. 
+
 
 ### In M-theory on $G_2$-manifolds
   {#InMTheoryOnG2Manifols}
@@ -44,9 +45,11 @@ In the context of [[M-theory on G₂-manifolds]] (the [[G₂-MSSM]]) a generic s
 
 * Seth Koren, _The Hierarchy Problem: From the Fundamentals to the Frontiers_ ([arXiv:2009.11870](https://arxiv.org/abs/2009.11870))
 
-* {#Mooij-Shaposhnikov} [[Sander Mooij]], [[Mikhail Shaposhnikov]], _QFT without infinities and hierarchy problem_ &lbrack;[arXiv:2110.05175](https://arxiv.org/abs/2110.05175)&rbrack;
+* {#MooijShaposhnikov21} [[Sander Mooij]], [[Mikhail Shaposhnikov]], _QFT without infinities and hierarchy problem_ &lbrack;[arXiv:2110.05175](https://arxiv.org/abs/2110.05175)&rbrack;
+  > "The aim of this work has been to stress that there is no physical sense in the [[naturalness]] criterion."
 
-  > The aim of this work has been to stress that there is no physical sense in the [[naturalness]] criterion.
+* [[Michael E. Peskin]]: *What is the Hierarchy Problem?* &lbrack;[arXiv:2505.00694](https://arxiv.org/abs/2505.00694)&rbrack;
+
 
 In the context of [[M-theory on G₂-manifolds]]/[[G₂-MSSM]] a solution is proposed in 
 
