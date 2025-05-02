@@ -104,3 +104,4 @@ In [Lowe10](#Lowe10) and [Lowe12](#Lowe12) a yet more general construction is co
 [[!redirects single pushout rewriting]]
 [[!redirects sesqui-pushout graph rewriting]]
 [[!redirects sesqui-pushout rewriting]]
+[[!redirects double-pushout rewriting]]
