@@ -216,6 +216,28 @@ is a symmetric Frobenius object in the category $\text{Bimod}(H,H)$ of bimodules
 
 * the [[ordinary homology]] of a [[finite type]] [[H-space]] (for instance a [[based loop space]]) is a [[Hopf algebra]] via its [[Pontrjagin ring]]-[[mathematical structure|structure]] -- see at _[[homology of loop spaces]]_ for more
 
+### Extensions
+
+As in the case of groups, more interesting of Hopf algebras can be constructed using [[algebra extension|extensions]]. These fit in short exact sequences
+
+$$
+\mathbb{C} \to A \to C \to B \to \mathbb{C},
+$$
+
+where $\mathbb{C},A,B,C$ are Hopf algebras, $A\to C$ is injective, $\pi:C\to B$ is surjective, the composition $A\to B$ factors through the [[co-unitality|counit]] of $A$, $ker(B\to C)$ is the augmentation ideal of $A$ in $C$, and $A:= \{ x \in C \vert (\pi\otimes \text{id})\Delta(x) = 1\otimes x\}$.
+
+Such extensions are classified by extensions data $(\rho',\rho,\sigma,\tau)$ for $\rho': B\otimes A \to A$ a weak action, $\rho: B\to B\otimes A$ a weak coaction, $\sigma: B\otimes B \to A$ a twisted 2-cocycle, and $\tau: B \to A \otimes A$ a twisted dual 2-cocycle, satisfying compatibility conditions (see ([Andruskiewitsch and Devoto 93](#AD93))).
+
+The complexity of this data reduces considerably when $A= (\mathbb{C}[\Gamma])^*$ is a dual group algebra, and $B= \mathbb{C}[G]$ is a group algebra
+
+$$
+\mathbb{C} \to (\mathbb{C}[\Gamma])^* \to C \to \mathbb{C}[G] \to \mathbb{C},
+$$
+
+as the extensions data becomes a pair of weak actions and a pair of twisted 2-cocycles which, nevertheless, can still give rise to non-commutative and non-cocommutative Hopf algebras. See ([Takeuchi 81](#Tak81)) and ([Masuoka 02](#Mas02)) for more.
+
+
+
 ### The Kac-Paljutkin $H_8$ Hopf algebra 
 
 The Kac-Paljutkin $H_8$ Hopf algebra was first described in [Kac & Paljutkin (1966)](#KP66) and it is the Hopf algebra with the smallest dimension that is [[semisimple object|semisimple]], [[commutative algebra|noncommutative]], and [[cocommutative coalgebra|noncocommutative]]. It is also [[self-dual object|self-dual]] (see e.g. [Burciu (2017)](#Burciu17)). One presentation  is in terms of generators $\{x,y,z\}$ satisfying the relations $x^2=y^2=z^2=1$, $xz=zx$, $zy=yz$, $xyz=yx$, along with comultiplication
@@ -235,6 +257,20 @@ $$S(x)=xe_0+ye_1$$
  $$S(z)=z$$
 
 . Its [[category of representations]] is the unique $\mathbb{Z}_2\times\mathbb{Z}_2$ [[Tambara-Yamagami category]] that admits a [[fiber functor]] and is not the representation category of some group.
+
+### Generalized Kac-Paljutkin algebras
+
+There exist some generalizations of the Kac-Paljutkin algebras. For instance, in ([Pansera 17](#Pan17)), a $2n^2$-dimensional Hopf algebra fitting in the short exact sequence of Hopf algebras
+
+$$
+
+(\mathbb{C}[\mathbb{Z}_n \times \mathbb{Z}_n ])^* \to H_{2n^2 } \to \mathbb{C}[\mathbb{Z}_2 ] .
+
+$$
+
+is constructed as an abelian extension (in the sense of ([Takeuchi 81](#Tak81)) and ([Masuoka 02](#Mas02))). The original Kac-Paljutkin algebra corresponds to the case $n=2$.
+
+A further generalization, a family of Hopf algebras of dimension $n^m m!$ is constructed in ([Lomp 25](#Lomp25)).
 
 ## Related concepts
 
@@ -350,6 +386,16 @@ The proof that $H^*$ can be endowed with the structure of a symmetric special Fr
 
 * {#FSS11} [[Jürgen Fuchs]], [[Christoph Schweigert]], Carl Stigner: *Modular invariant Frobenius algebras from ribbon Hopf algebra automorphisms*. Journal of Algebra **363**, 1 August 2012, Pages 29-72. ([doi](https://doi.org/10.1016/j.jalgebra.2012.04.008))
 
+Extensions of Hopf algebras
+
+* {#Tak81} M. Takeuchi, “Matched pairs of groups and bismash products of Hopf algebras,” *Communications in Algebra* 9 8 (1981): 841-882.
+
+* {#AD96} N. Andruskiewitsch, and J. Devoto, "Extensions of Hopf algebras”, *Algebra i Analiz*
+7 (1995) 22–61; St. Petersburg Math. J. 7 (1996) 17–52.
+
+* {Mas02} A. Masuoka, “Hopf algebra extensions and cohomology,” *Mathematical Sciences Research Institute Publications* 43 (2002): 167-209.
+
+
 
 On the $H_8$ Hopf algebra
 
@@ -357,6 +403,13 @@ On the $H_8$ Hopf algebra
 
 * {#Burciu17} Sebastian Burciu. *Representations and conjugacy classes of semisimple quasitriangular Hopf algebras*. (2017) (([arXiv:1709.02176
 ](https://arxiv.org/abs/1709.02176)).
+
+
+Generalized Kac-Paljutkin Hopf algebras
+
+* {#Pan17} Deividi Pansera. *A class of semisimple Hopf algebras acting on quantum polynomial algebras* (2017). ([arXiv:1710.02729](https://arxiv.org/abs/1710.02729)).
+
+* {#Lomp25} Christian Lomp. *Generalized Kac-Paljutkin algebras* (2025). ([arXiv:2505.00645](https://arxiv.org/abs/2505.00645)).
 
 [[!redirects Hopf algebras]]
 
