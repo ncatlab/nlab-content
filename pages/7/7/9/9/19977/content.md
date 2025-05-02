@@ -2,6 +2,8 @@
 
 * [webpage](https://physicalsciences.leeds.ac.uk/pgr/806/josh-cork)
 
+* [GoogleScholar page](https://scholar.google.com/citations?user=B8X7H6kAAAAJ&hl=en)
+
 ## Selected writings
 
 On [[calorons]]:
@@ -25,9 +27,13 @@ On [[Skyrmions]] via [[Yang-Mills instantons]]:
 
 * [[Josh Cork]], [[Chris Halcrow]], *Quantisation of skyrmions using instantons* &lbrack;[arXiv:2403.17080](https://arxiv.org/abs/2403.17080)&rbrack;
 
+More:
+
+* [[Josh Cork]], Linden Disney-Hogg: *Locations of JNR skyrmions* &lbrack;[arXiv:2505.00075](https://arxiv.org/abs/2505.00075)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[Skyrmion]]
 
