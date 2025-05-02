@@ -363,6 +363,9 @@ Further development:
 
 * [[Paul Sutcliffe]]: *JNR Skyrmions* &lbrack;[arXiv:2409.05058](https://arxiv.org/abs/2409.05058)&rbrack;
 
+* [[Josh Cork]], Linden Disney-Hogg: *Locations of JNR skyrmions* &lbrack;[arXiv:2505.00075](https://arxiv.org/abs/2505.00075)&rbrack;
+
+
 
 Large computer search for Skyrmion solutions:
 
