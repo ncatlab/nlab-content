@@ -306,7 +306,7 @@ apparently (see [there](Hans+Freudenthal#AsAForerunnerOfCategoryTheory)) taking 
 
 * {#Freudenthal37} [[Hans Freudenthal]], *Entwicklungen von Räumen und ihren Gruppen*, Comp. Math. **4** (1937) 145-234. &lbrack;[numdam](http://www.numdam.org/item/CM_1937__4__145_0/)&rbrack;  
 
-The rational for introducing the concept of [[categories]] was to introduce the concept of [[functors]], and the reason for introducing functors was to introduce the concept of [[natural transformations]] (more specifically [[natural equivalences]]) in order to make precise the meaning of "natural" means in mathematics:
+The rational for introducing the concept of [[categories]] was to introduce the concept of [[functors]], and the reason for introducing functors was to introduce the concept of [[natural transformations]] (more specifically [[natural equivalences]]) in order to make precise the meaning of "natural" means in [[mathematics]] and specifically in [[algebraic topology]]:
 
 > If [[topology]] were publicly defined as the study of families of sets closed under finite intersection and infinite unions a serious disservice would be perpetrated on embryonic students of topology. The mathematical correctness of such a definition reveals nothing about topology except that its basic axioms can be made quite simple. And with category theory we are confronted with the same pedagogical problem. The basic axioms, which we will shortly be forced to give, are much too simple.
 
@@ -323,14 +323,17 @@ and
 > (from [Freyd 65, beginning of Part Two](#Freyd65))
 
 
-
 The paper [Eilenberg-Maclane 45](#EilenbergMacLane45) was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Since then category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
 
 This and much more history is recalled in
 
 * {#MacLaneHistory} [[Saunders MacLane]], _Concepts and Categories in Perspective_, AMS ([pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf))
 
-* [[Ralf Krömer]], *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32** (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
+* {#Krömer07} [[Ralf Krömer]]: *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32** (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
+
+see specifically 
+
+* [[Ralf Krömer]]: *Category theory in Algebraic Topology*, chapter 3 of: [Krömer 2007](#Krömer07) &lbrack;[doi:10.1007/978-3-7643-7524-9_2](https://doi.org/10.1007/978-3-7643-7524-9_2)&rbrack;
 
 See also:
 
