@@ -131,13 +131,13 @@ Every coalgebra is the [[filtered colimit]] of its finite-dimensional sub-coalge
 
 =--
 
-This is maybe due to ([Sweedler 69](#Sweedler69), §2.2), for proof see also for instance ([Michaelis 03](#Michaelis03)). That this remains true for [[dg-coalgebras]] (see at _[dg-coalgebra -- As filtered colimit](differential+graded+coalgebra#AsFilteredColimits)_) is due to ([Getzler-Goerss 99](#GetzlerGoerss99)).
+This is maybe due to [Sweedler 1969 §2.2](#Sweedler69), for proof see also [Michaelis 2003](#Michaelis03). That this remains true for [[dg-coalgebras]] (see at _[dg-coalgebra -- As filtered colimit](differential+graded+coalgebra#AsFilteredColimits)_) is due to [Getzler & Goerss 1999](#GetzlerGoerss99).
 
 +-- {: .num_remark }
 ###### Remark
 
 It follows that a [[associative algebra|algebra]]
-in pro-finite dimensional vector spaces, is, being the [[linear dual]] of a coalgebra, a "formal filtered limit", hence a [[pro-object]] in finite-dimensional algebras (e.g. [Abrams-Weibel 99, p. 7](#AbramsWeibel99) or [Dieudonné 73, p. 12](#Dieudonne73)). 
+in pro-finite dimensional vector spaces, is, being the [[linear dual]] of a coalgebra, a "formal filtered limit", hence a [[pro-object]] in finite-dimensional algebras (e.g. [Abrams & Weibel 1999 p. 7](#AbramsWeibel99) or [Dieudonné 1973 p. 12](#Dieudonne73)). 
 
 =--
 
@@ -157,25 +157,30 @@ in pro-finite dimensional vector spaces, is, being the [[linear dual]] of a coal
 
 ## References
 
-* {#Sweedler69} [[Moss Sweedler]], _Hopf algebras_, 1969
+* {#Sweedler69} [[Moss Sweedler]]: _Hopf algebras_ (1969)
+
+* {#Dieudonne73} [[Jean Dieudonné]]: *Introduction to the theory of formal groups*, CRC Press (1973) &lbrack;[ISBN:9780824760113](https://www.routledge.com/Introduction-to-the-Theory-of-Formal-Groups/Dieudonne/p/book/9780824760113?srsltid=AfmBOooT7CZ-_fe3EuYKJKcQAS1CFoWc84f3D_BEZyaihjKXIjiqEH5e), 
+[doi:10.1201/9780367813154](https://doi.org/10.1201/9780367813154)&rbrack;
 
 * [[Michael Barr]], *Coalgebras over a commutative ring*, Journal of Algebra **32** 3 (1974) 600-610 &lbrack;<a href="https://doi.org/10.1016/0021-8693(74)90161-6">doi:10.1016/0021-8693(74)90161-6</a>, [pdf](https://www.math.mcgill.ca/barr/ftp/pdffiles/coalgebra.pdf), [[Barr-Coalgebras.pdf:file]]&rbrack;
 
-* {#Michaelis03}  [[Walter Michaelis]], _Coassociative coalgebras_, Handbook of Algebra Volume 3, Elsevier (2003). 
 
-* Luzius Grunenfelder, [[Robert Paré]], _Families parametrized by coalgebras_,  J. Alg. __107__:2 (1987) 316-375 <a href="https://doi.org/10.1016/0021-8693(87)90093-7">doi</a> [pdf](https://core.ac.uk/download/pdf/82530098.pdf)
+* Luzius Grunenfelder, [[Robert Paré]]: _Families parametrized by coalgebras_,  J. Alg. __107__ 2 (1987) 316-375 \[<a href="https://doi.org/10.1016/0021-8693(87)90093-7">doi</a>,  [pdf](https://core.ac.uk/download/pdf/82530098.pdf)\]
 
-* {#AbramsWeibel99} [[Lowell Abrams]], [[Charles Weibel]], _Cotensor products of modules_ ([arXiv:math/9912211](http://arxiv.org/abs/math/9912211))
+* {#AbramsWeibel99} [[Lowell Abrams]], [[Charles Weibel]], _Cotensor products of modules_ &lbrack;[arXiv:math/9912211](http://arxiv.org/abs/math/9912211)&rbrack;
 
-* {#GetzlerGoerss99} [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_, 1999 ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
+* {#GetzlerGoerss99} [[Ezra Getzler]], [[Paul Goerss]]: _A model category structure for differential graded coalgebras_ (1999) &lbrack;[ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps)&rbrack;
  
-* {#Dieudonne73} [[Jean Dieudonné]], _Introduction to the theory of formal groups_, 1973.
+* {#Michaelis03}  [[Walter Michaelis]], _Coassociative coalgebras_, Handbook of Algebra **3**, Elsevier (2003)
+
+* [[Hans-Eberhard Porst]], *On corings and comodules*, Archivum Mathematicum **42** 4 (2006) 419-425 &lbrack;[dmlcz:108017](https://dml.cz/handle/10338.dmlcz/108017), [pdf](http://dml.cz/bitstream/handle/10338.dmlcz/108017/ArchMathRetro_042-2006-4_7.pdf)&rbrack; 
+  > (on [[locally presentable category|local presentability]] of [[CocommCoalg|categories of coalgebras]] and of their [[comodules]])
 
 * [[Kathryn Hess]], [[Brooke Shipley]], _The homotopy theory of coalgebras over a comonad_ ([arXiv:1205.3979](http://arxiv.org/abs/1205.3979))
 
-On [[locally presentable category|local presentability]] of [[CocommCoalg|categoris of coalgebras]] and their [[comodules]]:
 
-* [[Hans-Eberhard Porst]], *On corings and comodules*, Archivum Mathematicum **42** 4 (2006) 419-425 &lbrack;[dmlcz:108017](https://dml.cz/handle/10338.dmlcz/108017), [pdf](http://dml.cz/bitstream/handle/10338.dmlcz/108017/ArchMathRetro_042-2006-4_7.pdf)&rbrack; 
+
+
 
 category: algebra
 
