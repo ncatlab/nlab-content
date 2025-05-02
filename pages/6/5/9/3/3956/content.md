@@ -1,4 +1,3 @@
-# Lax algebras for a $2$-monad
 * table of contents
 {: toc}
 
