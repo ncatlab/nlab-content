@@ -15,7 +15,7 @@
 
 ## Idea
 
-An *adhesive category* is a [[category]] in which [[pushouts]] of [[monomorphisms]] exist and "behave more or less as they do in the category of [[Set|sets]]", or equivalently in any [[topos]].
+An *adhesive category* is a [[category]] in which [[pushouts]] of [[monomorphisms]] exist and "behave more or less as they do in the category of [[Set|sets]]", or equivalently in any [[topos]]. This makes adhesive categories useful for [[double-pushout rewriting]] ([Lack-Sobocinski, Sec. 5](#LS)).
 
 ## Definition
 
@@ -145,7 +145,7 @@ Some [[counter-examples]]:
 
 ## Related concepts
 
-Adhesiveness is an [[exactness property]], similar to being a [[regular category]], an [[exact category]], or an [[extensive category]].  In particular, it can be phrased in the language of "lex colimits".
+Adhesiveness is an [[exactness property]], similar to being a [[regular category]], an [[exact category]], or an [[extensive category]].  In particular, it can be phrased in the language of "lex colimits". Adhesive categories with a [[strict initial object]] are extensive.
 
 
 ## References
