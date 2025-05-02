@@ -25,7 +25,7 @@ Often this is considered for [[finite groups]] or at least for [[subgroups]] of 
 ## Definition
 
 ### Traditional formulation
- {#TraditionalFormulation}
+{#TraditionalFormulation}
 
 Consider:
 
@@ -433,7 +433,7 @@ $$
 ### Groupoid formulation
  {#GroupoidFormulation}
 
-A first step towards a deeper understanding for what's going on with induced representations [above](#ReferencesTraditionalFormulation) is to [[resolution|resolve]] the subgroup inclusion $H \xhookrightarrow{\iota} G$ to a ([[Kan fibration|Kan]]) [[fibration]] of [[groupoids]], which will show that left/right induced representations are about forming (direct) *sums/products* of contributions over the [[homotopy fiber]] of $\mathbf{B}\iota$.
+A first step towards a deeper understanding for what's going on with induced representations [above](#TraditionalFormulation) is to [[resolution|resolve]] the subgroup inclusion $H \xhookrightarrow{\iota} G$ to a ([[Kan fibration|Kan]]) [[fibration]] of [[groupoids]], which will show that left/right induced representations are about forming (direct) *sums/products* of contributions over the [[homotopy fiber]] of $\mathbf{B}\iota$.
 
 To that end, recall for any [[group action]] $G \curvearrowright S$ on a [[set]] $S$ the [[action groupoid]]
 
@@ -449,7 +449,7 @@ To that end, recall for any [[group action]] $G \curvearrowright S$ on a [[set]]
     }
 \end{imagefromfile}
 
-Examples are [[delooping groupoids]] $\mathbf{B}G$ and "[[homotopy quotient|homotopy]] [[double cosets]]" like $G \backslash\!\backslash G\!/\!H$:
+Examples are [[delooping groupoids]] $\mathbf{B}G$ and "[[homotopy quotient|homotopy]] [[double coset]] [[groupoids]]" like $G \backslash\!\backslash G\!/\!H$:
 
 
 \begin{imagefromfile}
@@ -476,10 +476,10 @@ $$
 Accordingly, for $\mathcal{G} \in Grpd$ any [[groupoid]], a functor $\mathcal{G} \xrightarrow{\;} Vec$ is a *[[groupoid representation]]*.
 
 \begin{proposition}\label{ResolvingHRepsToGroupoidReps}
-For $H \xhookrightarrow{\iota} G$ a [[subgroup]] inclusion,
-the [[homotopy quotient|homotopy]] [[double coset]] $G \backslash\!\backslash G\!/\!H$  
+For $H \xhookrightarrow{\iota} G$ a [[subgroup]] inclusion:
 
-1. is [[equivalence of groupoids|equivalent]] to the [[delooping groupoid]] of $H$:
+
+1. the [[homotopy quotient|homotopy]] [[double coset]] [[groupoid]] $G \backslash\!\backslash G\!/\!H$  is [[equivalence of groupoids|equivalent]] to the [[delooping groupoid]] of $H$:
 
    $$
      \mathbf{B}H \,\simeq\, G \backslash\!\backslash G\!/\!H
@@ -627,7 +627,7 @@ Here
 
 * the [[dependent product]] $\prod_f$ is the _coinduced representation_ ∞-functor.
  
-{#LawvereInduced} For the case of [[permutation representations]] of [[discrete groups]]  this perspective is made explicit by [Lawvere 1069 p. 14](#Lawvere69), [1970 p. 5](#Lawvere70).
+{#LawvereInduced} For the case of [[permutation representations]] of [[discrete groups]]  this perspective is made explicit by [Lawvere 1969 p. 14](#Lawvere69), [1970 p. 5](#Lawvere70).
 
 
 
@@ -884,7 +884,7 @@ _[[Zuckerman induction]]_. See there for more details.
 ## References
 
 ### Traditional formulation
- {#ReferencesTraditionalFormulation}
+{#ReferencesTraditionalFormulation}
 
 Original articles:
 
