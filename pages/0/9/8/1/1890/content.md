@@ -112,7 +112,7 @@ A _left-strong monad_ over a [[monoidal category]] $(C,\otimes,1)$ is a [[monad]
 
 called the *left-strength*, and required to make the following [[commuting diagram|diagrams commute]]:
 
-"Strengthening with 1 is irrelevant" (and plays well with the [[unitors]]):
+"Strengthening with 1 is irrelevant" (and plays well with the left unitor):
 
 \begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
@@ -121,10 +121,6 @@ column sep=small,%
 & TA \ar{ddr}{\cong} \ar{ddl}[swap]{\cong} \\ \\
 1 \otimes TA \ar{rr}{t_{1,A}} && T(1\otimes A)
 \end{tikzcd}
-
-+-- {: .query}
-  I think it only plays well with the left unitor?
-=--
 
 "Consecutive applications of strength commute" (and play well with the [[associators]]):
 \begin{tikzcd}[%
