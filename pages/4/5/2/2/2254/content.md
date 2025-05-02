@@ -467,18 +467,21 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 ### General
 
-* Shigkaki T&#244;g&#244;, _Note of formal Lie groups_ , American Journal of Mathematics, Vol. 81, No. 3, Jul., 1959 ([JSTOR](http://www.jstor.org/stable/2372919))
+* Shigkaki T&#244;g&#244;, _Note of formal Lie groups_ , American Journal of Mathematics **81** 3, (1959) &lbrack;[JSTOR](http://www.jstor.org/stable/2372919)&rbrack;
 
 * A. Fr&#246;hlich, _Formal group_,  Lecture Notes in Mathematics Volume 74, Springer (1968)
 
 * [[Victor M. Buchstaber]], [[Sergei P. Novikov]], _Formal groups, power systems and Adams operators_, Math. USSR-Sb.13 (1971) 80-116 &lbrack;[doi:10.1070/SM1971v013n01ABEH001030](https://iopscience.iop.org/article/10.1070/SM1971v013n01ABEH001030)&rbrack;
 
-* {#Adams74} [[Frank Adams]], Part II.1 of _[[Stable homotopy and generalised homology]]_, 1974
+* [[Jean Dieudonné]]: *Introduction to the theory of formal groups*, CRC Press (1973) &lbrack;[ISBN:9780824760113](https://www.routledge.com/Introduction-to-the-Theory-of-Formal-Groups/Dieudonne/p/book/9780824760113?srsltid=AfmBOooT7CZ-_fe3EuYKJKcQAS1CFoWc84f3D_BEZyaihjKXIjiqEH5e), 
+[doi:10.1201/9780367813154](https://doi.org/10.1201/9780367813154)&rbrack;
+
+* {#Adams74} [[Frank Adams]], Part II.1 of _[[Stable homotopy and generalised homology]]_ (1974)
 
 * {#Grothendieck} [[Alexander Grothendieck]] et al. [[SGA]] III, vol. 1, Expose VIIB (P. Gabriel) ETUDE INFINITESIMALE DES SCHEMAS EN GROUPES (part B) 474-560 
 
  
-* {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS (1996)
 
 * {#Fresse} [[Benoit Fresse]], _Lie theory of formal groups over an operad_, J. Alg. __202__, 455--511, 1998, [doi](http://dx.doi.org/10.1006/jabr.1997.7280) 
  
@@ -487,7 +490,7 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 * Michel [[Demazure, lectures on p-divisible groups]]
  
-* [[Jean Dieudonné]], _Introduction to the theory of formal groups_, Marcel Dekker, New York 1973.
+
 
 
 
