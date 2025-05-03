@@ -66,7 +66,16 @@ The category $Ho(Top)_{he}$ can be studied by testing its objects with objects f
 
 ## References
 
-The [[exact completion]] of the category $Ho(Top)$ is shown to be a [[pretopos]] in:
+> For more see the references at *[[homotopy theory]]*.
+
+On the non-[[concrete category|concreteness]] of the classical homotopy category:
+
+* {#Freyd70} [[Peter Freyd]]: *Homotopy is not concrete*, in: _The Steenrod Algebra and its Applications_, Lecture Notes in Mathematics **168**, Springer (1970) &lbrack;[doi:10.1007/BFb0058516](https://doi.org/10.1007/BFb0058516)&rbrack; 
+
+  reprinted in: Reprints in Theory and Applications of Categories **6** (2004) 1-10 &lbrack;[tac:tr6](http://www.tac.mta.ca/tac/reprints/articles/6/tr6abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/6/tr6.pdf)&rbrack;
+
+
+On the [[exact completion]] of $Ho(Top)$ being a [[pretopos]]:
 
 * [[Marino Gran]], [[Enrico Vitale]], *On the exact completion of the homotopy category*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **39** 4 (1998)  287-297 &lbrack;[numdam:CTGDC_1998__39_4_287_0](http://www.numdam.org/item/CTGDC_1998__39_4_287_0)&rbrack;
 
