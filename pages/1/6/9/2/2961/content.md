@@ -1,9 +1,26 @@
 
-This page collects links related to the book
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+
+
+This page is to record the reference
 
 * [[Jiri Adamek|Ji&#345;í Adámek]], [[Horst Herrlich]], [[George Strecker]]:
 
+  \linebreak
+
   **Abstract and Concrete Categories -- The Joy of Cats**
+
+  \linebreak
 
   John Wiley and Sons, New York (1990)
 
