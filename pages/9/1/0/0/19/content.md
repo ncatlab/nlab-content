@@ -383,11 +383,9 @@ See also:
 * [[Nicolae Popescu]], Liliana Popescu: _Theory of categories_, Sijthoff & Noordhoff International Publishers (1979) &lbrack;[doi:10.1007/978-94-009-9550-5](https://doi.org/10.1007/978-94-009-9550-5)&rbrack;
 
 * {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, University of Chicago Press (1985) &lbrack;[ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html), [ark:/13960/t10p8v264](https://archive.org/details/mathematicalphys0000gero/mode/2up)&rbrack;
-
   > (introduces categories by examples arising in [[mathematical physics]])
 
-* [[Jiri Adamek]], [[Horst Herrlich]], [[George Strecker]], *[[Abstract and Concrete Categories]]*, John Wiley and Sons, New York (1990) reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 &lbrack;[tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/)&rbrack;
-
+* {#AdámekHerrlichStrecker90} [[Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]]: *[[Abstract and Concrete Categories -- The Joy of Cats]]*, Wiley (1990), reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 &lbrack;[tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://www.tac.mta.ca/tac/reprints/articles/17/tr17.pdf)&rbrack;
 
 * [[Peter Freyd]], [[Andre Scedrov]], *[[Categories, Allegories]]*, Mathematical Library Vol 39, North-Holland (1990) ([ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2))
 
