@@ -54,7 +54,7 @@ Fedosov's method proceeds by the following steps:
 
 The method is due to
 
-* {#Fedosov94} [[Boris Fedosov]], _A simple geometrical construction of deformation quantization_ Journal of Differential Geometry, 40(2):213&#8211;238, 1994 ([Euclid](https://projecteuclid.org/euclid.jdg/1214455536))
+* {#Fedosov94} [[Boris Fedosov]], _A simple geometrical construction of deformation quantization_, Journal of Differential Geometry **40** 2 (1994) 213&#8211;238 &lbrack;[doi:10.4310/jdg/1214455536](https://doi.org/10.4310/jdg/1214455536)&rbrack;
 
 with a monograph account in
 
@@ -66,16 +66,15 @@ Its generalization to [[almost Kähler structures]] is due to
 
 with a survey in
 
-* [[Martin Schlichenmaier]], _Deformation quantization for almost-Kähler manifolds_, J. of Nonlinear Math. Phys.
-**11**, Supplement (2004) 49–54 &lbrack;[doi:10.2991/jnmp.2004.11.s1.6](https://doi.org/10.2991/jnmp.2004.11.s1.6), [pdf](http://www.atlantis-press.com/php/download_paper.php?id=540)&rbrack;
+* [[Martin Schlichenmaier]], _Deformation quantization for almost-Kähler manifolds_, J. of Nonlinear Math. Phys. **11**, Supplement (2004) 49–54 &lbrack;[doi:10.2991/jnmp.2004.11.s1.6](https://doi.org/10.2991/jnmp.2004.11.s1.6), [pdf](http://www.atlantis-press.com/php/download_paper.php?id=540)&rbrack;
 
 The observation that the construction of [[perturbative quantum field theory]] via [[causal perturbation theory]] is equivalent to Fedosov quantization is due to 
 
-* {#Collini16} [[Giovanni Collini]], _Fedosov Quantization and Perturbative Quantum Field Theory_ ([arXiv:1603.09626](https://arxiv.org/abs/1603.09626))
+* {#Collini16} [[Giovanni Collini]], _Fedosov Quantization and Perturbative Quantum Field Theory_ &lbrack;[arXiv:1603.09626](https://arxiv.org/abs/1603.09626)&rbrack;
 
 Discussion showing that this generalization to field theory is not given by Kontsevich deformation quantization:
 
-* {#HawkinsRejzner16} [[Eli Hawkins]], [[Kasia Rejzner]], section 5.3.2 of _The Star Product in Interacting Quantum Field Theory_ ([arXiv:1612.09157](https://arxiv.org/abs/1612.09157))
+* {#HawkinsRejzner16} [[Eli Hawkins]], [[Kasia Rejzner]], section 5.3.2 of _The Star Product in Interacting Quantum Field Theory_, Lett. Math. Phys. **110** (2020) 1257–1313 &lbrack;[arXiv:1612.09157](https://arxiv.org/abs/1612.09157), [doi:10.1007/s11005-020-01262-4](https://doi.org/10.1007/s11005-020-01262-4)&rbrack;
 
 
 [[!redirects Fedosov deformation quantization]]
