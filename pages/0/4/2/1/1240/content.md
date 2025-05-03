@@ -473,7 +473,7 @@ $$
   \,.
 $$
 
-Accordingly, for $\mathcal{G} \in Grpd$ any [[groupoid]], a functor $\mathcal{G} \xrightarrow{\;} Vec$ is a *[[groupoid representation]]*.
+Accordingly, for $\mathcal{G} \in Grpd$ any [[groupoid]], functors $\mathcal{G} \xrightarrow{\;} Vec$ are linear *[[groupoid representations]]*.
 
 \begin{lemma}\label{ResolvingHRepsToGroupoidReps}
 For $H \xhookrightarrow{\iota} G$ a [[subgroup]] inclusion:
