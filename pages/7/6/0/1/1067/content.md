@@ -171,7 +171,7 @@ The [[category of chain complexes]] of vector spaces carries the [[tensor produc
 
 ### In super vector spaces 
 
-A chain complex in [[super vector spaces]] is a [[chain complex in super vector spaces]]. The category of these carries a [[symmetric monoidal category]]-[[structure]] and the corresponging [[commutative monoids]] are the [[differential graded-commutative superalgebras]].
+A chain complex in [[super vector spaces]] is a [[chain complex in super vector spaces]]. The category of these carries a [[symmetric monoidal category]]-[[structure]] and the corresponding [[commutative monoids]] are the [[differential graded-commutative superalgebras]].
 
 ### In chain complexes
 
