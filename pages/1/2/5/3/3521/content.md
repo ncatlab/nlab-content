@@ -135,7 +135,7 @@ $$
 for the _box product functor_ that takes $X,Y \in sSet$ to the [[bisimplicial set]]
 
 $$
-  (X \Box Y) : ([k],[l]) \mapsto X_k \times X_l
+  (X \Box Y) : ([k],[l]) \mapsto X_k \times Y_l
   \,.
 $$
 
