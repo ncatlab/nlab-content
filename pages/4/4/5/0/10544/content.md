@@ -17,7 +17,13 @@ Here's a list of the papers I've written: [link](https://arxiv.org/search/math?s
 
 Write me an email any time!
 
+
 ## Selected writings
+
+On the non-[[concrete category|concreteness]] of generic [[homotopy categories of model categories]]:
+
+* {#DiliLore} [[Ivan di Liberti]], [[Fosco Loregian]]: *Homotopical algebra is not concrete*, Journal of Homotopy and Related Structures **13** (2018) 673–687 &lbrack;[arXiv:1704.00303](https://arxiv.org/abs/1704.00303), [doi:10.1007/s40062-018-0197-3](https://doi.org/10.1007/s40062-018-0197-3)&rbrack;
+
 
 On [[formal category theory]]:
 
