@@ -5,7 +5,7 @@
 
 Introducing what is now called *[[Fedosov deformation quantization]]*:
 
-* {#Fedosov94} [[Boris Fedosov]], _A simple geometrical construction of deformation quantization_ Journal of Differential Geometry, 40(2):213&#8211;238, 1994 ([Euclid](https://projecteuclid.org/euclid.jdg/1214455536))
+* {#Fedosov94} [[Boris Fedosov]], _A simple geometrical construction of deformation quantization_, Journal of Differential Geometry **40** 2 (1994) 213&#8211;238 &lbrack;[doi:10.4310/jdg/1214455536](https://doi.org/10.4310/jdg/1214455536)&rbrack;
 
 with a monograph account in
 
@@ -14,7 +14,7 @@ with a monograph account in
 
 ## Related entries
 
-* [[formal deformation quantization|formal]] [[deformation quantization]]
+* [[formal deformation quantization|formal deformation quantization]]
 
 
 category: people
