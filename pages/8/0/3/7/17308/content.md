@@ -865,6 +865,10 @@ The [[higher category theory|higher]] variant of [[homotopy 2-categories]] of mo
 
 * [[Eduardo J. Dubuc]], Jacqueline Girabel  *The 2-localization of a model category*, Theory and Applications of Categories **40** 18 (2024) 537-574 &lbrack;[arXiv:2208.00314](https://arxiv.org/abs/2208.00314), [tac:40-18](http://www.tac.mta.ca/tac/volumes/40/18/40-18abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/40/18/40-18.pdf)&rbrack;
 
+On the non-[[concrete category|concreteness]] of generic homotopy categories of model categories:
+
+* {#DiliLore} [[Ivan di Liberti]], [[Fosco Loregian]]: *Homotopical algebra is not concrete*, Journal of Homotopy and Related Structures **13** (2018) 673–687 &lbrack;[arXiv:1704.00303](https://arxiv.org/abs/1704.00303), [doi:10.1007/s40062-018-0197-3](https://doi.org/10.1007/s40062-018-0197-3)&rbrack;
+
 
 
 [[!redirects homotopy categories of model categories]]
