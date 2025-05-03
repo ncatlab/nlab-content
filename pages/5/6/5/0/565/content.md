@@ -13,9 +13,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -65,7 +64,7 @@ We remark that the existence of a left [[adjoint functor|adjoint]] $F$ to $U: C 
 +-- {: .num_remark}
 ###### Remark
 
-One can also consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in [The Joy of Cats](#JoyOfCats).  Then the (small) categories concrete over $X$ form a [[2-category]] $Cat(X)$.
+One can also consider concrete categories over any base category $X$ instead of necessarily over $Set$.  This is the approach taken in [Adámek, Herrlich & Strecker 1990](#AdámekHerrlichStrecker90).  Then the (small) categories concrete over $X$ form a [[2-category]] $Cat(X)$.
 
 =--
 
@@ -200,14 +199,14 @@ The distinction between concreteness and well-pointedness is the distinction bet
 +-- {: .num_theorem}
 ###### Theorem
 
-A [[finitely complete category]] is concretizable, i.e., admits a [[faithful functor]] to $Set$, if and only if it is [[well-powered category|well-powered]] with respect to [[regular monomorphism|regular]] [[subobject]]s.
+A [[finitely complete category]] is concretizable, i.e., admits a [[faithful functor]] to $Set$, if and only if it is [[well-powered category|well-powered]] with respect to [[regular monomorphism|regular]] [[subobjects]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-"Only if" was proven in ([Isbell](#Isbell)).  To prove it, note that if $F: C\to D$ is a faithful functor, then it is injective on equivalence classes of regular subobjects.  For suppose that $m\colon a \to x$ is the [[equalizer]] of $f,g\colon x\rightrightarrows y$, and $n\colon b\to x$ is the equalizer of $h,k\colon x\rightrightarrows z$.  If $F(a) \cong F(b)$ as subobjects of $F(x)$, then since $f m = g m$ and so $F(f)\circ F(m) = F(g)\circ F(m)$, we must also have  $F(f)\circ F(n) = F(g)\circ F(n)$; hence (since $F$ is faithful) $f n = g n$, so that $n$ factors through $m$.  Conversely, $n$ factors through $m$, so we have $a\cong b$ as subobjects of $x$.  Since $Set$ is regularly well-powered, it follows that any category admitting a faithful functor to $Set$ must also be so.
+The "only if"-part is due to [Isbell 1963](#Isbell63).  To prove it, note that if $F \colon C\to D$ is a faithful functor, then it is injective on equivalence classes of regular subobjects.  For suppose that $m\colon a \to x$ is the [[equalizer]] of $f,g\colon x\rightrightarrows y$, and $n\colon b\to x$ is the equalizer of $h,k\colon x\rightrightarrows z$.  If $F(a) \cong F(b)$ as subobjects of $F(x)$, then since $f m = g m$ and so $F(f)\circ F(m) = F(g)\circ F(m)$, we must also have  $F(f)\circ F(n) = F(g)\circ F(n)$; hence (since $F$ is faithful) $f n = g n$, so that $n$ factors through $m$.  Conversely, $n$ factors through $m$, so we have $a\cong b$ as subobjects of $x$.  Since $Set$ is regularly well-powered, it follows that any category admitting a faithful functor to $Set$ must also be so.
 
 (Actually, Isbell proved a more general condition which applies to categories that may lack finite limits.)
 
@@ -226,34 +225,47 @@ A similar way to use Isbell's result applies to show that a really vast number o
 ## Related concepts
 
 * [[topological concrete category]]
+
 * [[concrete object]]
+
 * [[amnestic functor]]  (for many usual concrete categories, the forgetful functor happens to be amnestic)
+
 * [[function extensionality]]
+
 * [[well-pointed category]]
+
 * [[family of objects in a concrete category]]
+
 * [[concrete (2,1)-category]]
+
 * [[concrete (n,1)-category]]
+
 * [[concrete (infinity,1)-category]]
+
 
 ## References
 
-* [[Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]], *Abstract and Concrete Categories*, Wiley 1990, reprinted as: Reprints in Theory and Applications of Categories, No. 17 (2006) pp. 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html))
+Monograph:
 
+* {#AdámekHerrlichStrecker90} [[Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]]: *[[Abstract and Concrete Categories -- The Joy of Cats]]*, Wiley (1990), reprinted as: Reprints in Theory and Applications of Categories **17** (2006) 1-507 &lbrack;[tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html), [book webpage](http://katmat.math.uni-bremen.de/acc/), [pdf](http://www.tac.mta.ca/tac/reprints/articles/17/tr17.pdf)&rbrack;
 
-* _[[The Joy of Cats]]_
-{#JoyOfCats}
+Original articles:
 
-* [[John Isbell]], _Two set-theoretical theorems in categories_, Fund. Math 53 (1963)
-{#Isbell}
+* {#Isbell63} [[John Isbell]]: *Two set-theoretical theorems in categories*, Fund. Math **53** 1 (1963) 43-49 &lbrack;[eudml:213746](https://eudml.org/doc/213746)&rbrack;
 
-* {#Freyd} [[Peter Freyd]], _Concreteness_, JPAA 3 (1973)
+* {#Freyd69} [[Peter Freyd]]: *On the concreteness of certain categories*, in: Symposia Mathematica **4** (1969) 431–456
 
-* {#Freyd70} [[Peter Freyd]], _Homotopy is not concrete_, in _The Steenrod Algebra and its Applications_, Springer Lecture Notes in Mathematics Vol. 168, Springer-Verlag, 1970, Republished in: Reprints in Theory and Applications of Categories, No. 6 (2004) pp 1-10 ([web](http://www.tac.mta.ca/tac/reprints/articles/6/tr6abs.html))
+* {#Freyd} [[Peter Freyd]]: *Concreteness*, Journal of Pure and Applied Algebra **3** 2 (1973) 171-191 \[<a href="https://doi.org/10.1016/0022-4049(73)90031-5">doi:10.1016/0022-4049(73)90031-5</a>\]
 
+On non-concreteness of the [[classical homotopy category]]:
 
-* {#Freyd69} [[Peter Freyd]], _On the concreteness of certain categories_, in _Symposia Mathematica, vol. 4, 1969, pp. 431–456.
+* {#Freyd70} [[Peter Freyd]]: *Homotopy is not concrete*, in: _The Steenrod Algebra and its Applications_, Lecture Notes in Mathematics **168**, Springer (1970) &lbrack;[doi:10.1007/BFb0058516](https://doi.org/10.1007/BFb0058516)&rbrack; 
 
-* {#DiliLore} [[Ivan di Liberti]], [[Fosco Loregian]] "Homotopical algebra is not concrete." Journal of Homotopy and Related Structures (2017): 1-15.
+  reprinted in: Reprints in Theory and Applications of Categories **6** (2004) 1-10 &lbrack;[tac:tr6](http://www.tac.mta.ca/tac/reprints/articles/6/tr6abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/6/tr6.pdf)&rbrack;
+
+and generalized to certain [[homotopy categories of model categories]]:
+
+* {#DiliLore} [[Ivan di Liberti]], [[Fosco Loregian]]: *Homotopical algebra is not concrete*, Journal of Homotopy and Related Structures **13** (2018) 673–687 &lbrack;[arXiv:1704.00303](https://arxiv.org/abs/1704.00303), [doi:10.1007/s40062-018-0197-3](https://doi.org/10.1007/s40062-018-0197-3)&rbrack;
 
 
 [[!redirects concrete category]]
