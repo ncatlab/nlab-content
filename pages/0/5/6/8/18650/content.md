@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+On the non-[[concrete category|concreteness]] of generic [[homotopy categories of model categories]]:
+
+* {#DiliLore} [[Ivan di Liberti]], [[Fosco Loregian]]: *Homotopical algebra is not concrete*, Journal of Homotopy and Related Structures **13** (2018) 673–687 &lbrack;[arXiv:1704.00303](https://arxiv.org/abs/1704.00303), [doi:10.1007/s40062-018-0197-3](https://doi.org/10.1007/s40062-018-0197-3)&rbrack;
+
+
 A geometric account on the [[Scott adjunction]] and the duality between [[topoi]] and [[ionads]]:
 
 * [[Ivan Di Liberti]], *Towards Higher Topology* &lbrack;[arXiv:2009.14145](https://arxiv.org/abs/2009.14145)&rbrack;
