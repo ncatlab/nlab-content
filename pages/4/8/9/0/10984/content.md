@@ -56,7 +56,7 @@ Say that an [[∞-groupoid]] $A \in Grpd_\infty$ is _$\mathcal{D}$-ambidextrous_
 
 =--
 
-([Hopkins-Lurie 14, def. 4.1.11](#{#HopkinsLurie14})) 
+([Hopkins & Lurie 2014, def. 4.1.11](#HopkinsLurie14)) 
 
 
 
@@ -68,7 +68,7 @@ A morphism $f \colon X \to Y$ between [[∞-groupoids]], is $\mathcal{D}$-ambide
 
 =--
 
-([Hopkins-Lurie 14, prop. 4.3.5](#HopkinsLurie14))
+([Hopkins & Lurie 2014, prop. 4.3.5](#HopkinsLurie14))
 
 
 
@@ -106,6 +106,8 @@ A [[Wirthmüller context]] in the presence of an un-twisted [[Wirthmüller isomo
 
 ## Related concepts
 
+* [[norm map]]
+
 * [[Wirthmüller context]]
 
 * [[infinitesimal cohesion]]
@@ -137,7 +139,7 @@ On the [[Frobenius monads]] induced by ambidextrous adjuntions:
 
 See also:
  
-* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2014)
+* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]]: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2014)
 
 with some review in:
 
