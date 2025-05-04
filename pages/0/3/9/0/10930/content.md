@@ -32,7 +32,8 @@ on [[biproduct|bilimits]] in [[K(n)-local stable homotopy theory]] and generally
 
 The discussion in the article is apparently motivated as part of what it takes to make precise the discussion of [[quantization]] in sections 3 and 8 of 
 
-* [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ in P. R. Kotiuga (ed.) A celebration of the mathematical legacy of Raoul Bott AMS (2010) ([arXiv:0905.0731](http://arxiv.org/abs/0905.0731))
+* [[Daniel Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]]: *[[Topological Quantum Field Theories from Compact Lie Groups]]*, in P. R. Kotiuga (ed.), *A celebration of the mathematical legacy of Raoul Bott*,  AMS (2010) 367-403 &lbrack;[arXiv:0905.0731](http://arxiv.org/abs/0905.0731), [doi:10.1090/crmp/050](https://doi.org/10.1090/crmp/050), [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/view?ProductCode=CRMP/50)&rbrack;
+
 
 For the 2014 installment of UOregon's Moursund Lecture Series, Jacob Lurie gave three (video recorded) lectures on [[spectral algebraic geometry]], one of which is
 
