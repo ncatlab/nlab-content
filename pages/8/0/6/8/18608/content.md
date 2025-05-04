@@ -58,7 +58,7 @@ A more fundamental approach to [[confinement|confined]] [[QCD]]/[[Yang-Mills the
 ### The mass gap problem
  {#ReferencesMassGapProblem}
 
-A survey and problem description in [[mathematics]]/[[mathematical physics]]:
+Survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 * [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_
 
@@ -123,7 +123,10 @@ Notes reviewing more technical details of the problem:
 
 Problem description in terms of [[probability theory|probabilistic]] [[lattice gauge theory]]:
 
-* [[Sourav Chatterjee]], _Yang-Mills for probabilists_, in: _Probability and Analysis in Interacting Physical Systems_, PROMS **283** (2019) Springer ([arXiv:1803.01950](https://arxiv.org/abs/1803.01950), [doi:10.1007/978-3-030-15338-0](https://link.springer.com/book/10.1007/978-3-030-15338-0))
+* [[Sourav Chatterjee]], _Yang-Mills for probabilists_, in: _Probability and Analysis in Interacting Physical Systems_, PROMS **283**, Springer (2019) &lbrack;[arXiv:1803.01950](https://arxiv.org/abs/1803.01950), [doi:10.1007/978-3-030-15338-0](https://link.springer.com/book/10.1007/978-3-030-15338-0)&rbrack;
+
+* [[Sourav Chatterjee]]: *Yang-Mills Existence and Mass Gap*, talk at: *[Millennium Prize Problems Lecture Series](https://cmsa.fas.harvard.edu/millennium/)*, Center of Mathematical Science and Applications, Harvard (15 Oct 2025) &lbrack;[webpage](https://cmsa.fas.harvard.edu/event/clay_101425/)&rbrack;
+
 
 See also
 
