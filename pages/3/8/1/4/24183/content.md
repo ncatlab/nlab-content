@@ -49,7 +49,7 @@ Further discussion (mostly review and mostly without attribution):
 
 
 
-Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
+{#ReferencesFusionCategoryFolklore} Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
 
 * {#Valera21} [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) \[<a href="https://doi.org/10.1016/j.aop.2021.168471">doi:10.1016/j.aop.2021.168471</a>, [arXiv:2004.06282](https://arxiv.org/abs/2004.06282)\]
 
