@@ -207,7 +207,7 @@ Finally, it is manifest that this bijection $f \mapsto f([\mathrm{e},-])$ is [[n
 \end{proof}
 
 \begin{corollary}\label{LeftAdjunctionUnit}
-The [[unit of an adjunction|counit]] $\eta^{L}$ of the left [[adjoint functor|adjunction]] $\iota_! \dashv \iota^\ast$ (Prop. \ref{LeftInductionAdjunction}) is given by inserting the [[neutral element]]:
+The [[unit of an adjunction|unit]] $\eta^{L}$ of the left [[adjoint functor|adjunction]] $\iota_! \dashv \iota^\ast$ (Prop. \ref{LeftInductionAdjunction}) is given by inserting the [[neutral element]]:
 $$
   \begin{array}{rcc}
     V
