@@ -73,6 +73,7 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
     * [[supergravity C-field|C-field]]
 
 
+
 ## References
 
 ### Classical electromagnetism
@@ -121,7 +122,13 @@ Textbook accounts of [[classical field theory|classical]] electrodynamics:
 * [[Robert Wald]], *Advanced Classical Electromagnetism*, Princeton University Press (2022) &lbrack;[ISBN:9780691220390](https://press.princeton.edu/books/hardcover/9780691220390/advanced-classical-electromagnetism)&rbrack;
 
 
+
+
+
+
 [[!include electromagnetism in terms of differential forms -- references]]
+
+
 
 
 ### Phase space and Poisson brackets
