@@ -217,12 +217,11 @@ the many experimental cross section measurements.
 
 \linebreak
 
-* {#Chatterjee20} [[Sourav Chatterjee]], _A probabilistic mechanism for quark confinement_, Comm. Math. Phys. 2021 ([arXiv:2006.16229](https://arxiv.org/abs/2006.16229))
+* {#Chatterjee20} [[Sourav Chatterjee]]: *A probabilistic mechanism for quark confinement*, Comm. Math. Phys. **385** (2021) 1007–1039 \[<a href="https://doi.org/10.1007/s00220-021-04086-y">doi:10.1007/s00220-021-04086-y</a>, [arXiv:2006.16229](https://arxiv.org/abs/2006.16229)\]
 
-> The confinement of quarks is one of the enduring mysteries of modern physics. $[\ldots]$ In spite of many decades of research, physically relevant quantum gauge theories have not yet been constructed in a rigorous mathematical sense. $[$ [[non-perturbative quantum field theory|non-perturbatively]], that is $]$ $[\ldots]$ Taking this program to its completion is one of the Clay millennium problems. $[\ldots]$ Perhaps the most important example is four-dimensional [[SU(3)]]-[[lattice gauge theory]]. If one can show that this theory has a [[mass gap]] at all values of the [[coupling constant|coupling strength]], that would explain why particles known as [[glue-balls]] in the [[QCD|theory of strong interactions]] have mass. All such questions remain open.
+> The [[confinement]] of [[quarks]] is one of the enduring mysteries ofmodern physics. \[\ldots\] In spite of many decades of research, physically relevant quantum gauge theories have not yet been constructed in a rigorous mathematical sense. $[$[[non-perturbative quantum field theory|non-perturbatively]], that is\] \[$\ldots$\] Perhaps the most important example is four-dimensional [[SU(3)]]-[[lattice gauge theory]]. If one can show that this theory has a [[mass gap]] at all values of the [[coupling constant|coupling strength]], that would explain why particles known as [[glue-balls]] in the [[QCD|theory of strong interactions]] have [[mass]]. All such questions remain open.
 
-> The second big open question is the problem of quark confinement. Quarks are the constituents of various elementary particles, such as protons and neutrons. It is an enduring mystery why quarks are never observed freely in nature. The problem of quark confinement has received enormous attention in the physics literature, but the current consensus seems to be that a satisfactory theoretical explanation does not exist.
-
+> The second big open question is the problem of [[quark]] [[confinement]]. Quarks are the constituents of various elementary particles, such as protons and neutrons. It is an enduring mystery why quarks are never observed freely in nature. The problem of quark confinement has received enormous attention in the physics literature, but the current consensus seems to be that a satisfactory theoretical explanation does not exist.
 
 
 \linebreak
