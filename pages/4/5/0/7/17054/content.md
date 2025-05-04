@@ -35,8 +35,16 @@ $$
 For the [[stable (∞,1)-category of spectra]] this is accordingly called the _[[Tate spectrum]]_.
 
 
+## Examples
+
+\begin{example}
+The comparison map between left and right [[induced representations]] is a norm map (for [[linear representations]] understood as [[local systems]] on [[delooping groupoids]]), see [there](induced+representation#OnTheNormMap).
+\end{example}
+
 
 ## Related concepts
+
+* [[ambidextrous adjunction]]
 
 * [[Tate spectrum]]
 
@@ -50,6 +58,9 @@ For the [[stable (∞,1)-category of spectra]] this is accordingly called the _[
 The general abstract construction is due to
 
 * {#Lurie} [[Jacob Lurie]], section 6.1.6 of _[[Higher Algebra]]_
+
+* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]]: Remark 4.1.12 of: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2014)
+
 
 Review with an eye towards discussion of [[topological cyclic homology]] is in section I.1 of 
 
