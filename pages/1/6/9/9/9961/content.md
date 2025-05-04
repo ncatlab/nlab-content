@@ -62,6 +62,7 @@ See at *[[sign problem in lattice QCD]]*.
 
 * [[string bit model]]
 
+
 ## References
  {#References}
 
@@ -69,9 +70,9 @@ See at *[[sign problem in lattice QCD]]*.
 
 The concept was introduced in
 
-* {#Wegner71} [[Franz Wegner]], _Duality in Generalized Ising Models and Phase Transitions without Local Order Parameters_, Journal of Mathematical Physics 12, 2259 (1971) ([doi:10.1063/1.1665530](https://doi.org/10.1063/1.1665530))
+* {#Wegner71} [[Franz Wegner]]: *Duality in Generalized Ising Models and Phase Transitions without Local Order Parameters*, Journal of Mathematical Physics **12** 2259 (1971) &lbrack;[doi:10.1063/1.1665530](https://doi.org/10.1063/1.1665530)&rbrack;
 
-* {#Wilson74} [[Kenneth Wilson]],  _Confinement of quarks, Phys. Rev. D10, 2445, 1974 ([doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445))
+* {#Wilson74} [[Kenneth Wilson]]:  _Confinement of quarks, Phys. Rev. D **10** 2445 (1974) &lbrack;[doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445)&rbrack;
 
 ([Wilson 1974](#Wilson74) envisioned to take the continuum limit by way of [[block spin transformations]], but [Creutz 1979](#Creutz79) successfully applied [[Monte Carlo methods]], and that has been the method of choice ever since.)
 
