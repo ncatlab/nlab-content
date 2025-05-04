@@ -158,6 +158,17 @@ In [[quantum simulation]] of the [[Schrödinger equation]]:
 (Mar 2025) &lbrack;[doi:10.1126/science.ad6285](https://doi.org/10.1126/science.ado6285)&rbrack;
 
 
+{#ReferencesQuantumAdvantageInMachineLearning} On quantum advantage in [[quantum machine learning]]:
+
+* Blake Johnson et al.: *Demonstration of quantum advantage in machine learning*, npj Quantum Information **3** 16 (2017) &lbrack;[doi:10.1038/s41534-017-0017-3](https://doi.org/10.1038/s41534-017-0017-3)&rbrack;
+
+* Hsin-Yuan Huang, Richard Kueng, [[John Preskill]]: *Information-Theoretic Bounds on Quantum Advantage in Machine Learning*, Phys. Rev. Lett. **126** (2021) 190505 &lbrack;[doi:10.1103/PhysRevLett.126.190505](https://doi.org/10.1103/PhysRevLett.126.190505)&rbrack;
+
+* Maria Schuld, Nathan Killoran: *Is quantum advantage the right goal for quantum machine learning?*, PRX Quantum **3** 030101 (2022) &lbrack;[arXiv:2203.01340](https://arxiv.org/abs/2203.01340), [doi:10.1103/PRXQuantum.3.030101](https://doi.org/10.1103/PRXQuantum.3.030101)&rbrack;
+
+* Seeking a quantum advantage for machine learning*, Nature Machine Intelligence **5** (2023) 813 &lbrack;[doi:10.1038/s42256-023-00710-9](https://doi.org/10.1038/s42256-023-00710-9)&rbrack;
+
+* Hayata Yamasaki, Natsuto Isogai, Mio Murao: *Advantage of Quantum Machine Learning from General Computational Advantages* &lbrack;[arXiv:2312.03057](https://arxiv.org/abs/2312.03057)&rbrack:
 
 
 
