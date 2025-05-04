@@ -25,19 +25,25 @@ This "external switching" of electron conductivity in semi-conductors is the bas
 
 ## Related concepts
 
+* [[semiconductor doping]]
+
 * [[semi-metal]]
 
 * [[solid state physics]]
+
 
 ## References
 
 ### General
 
-Monographs:
+Monographs and textbooks:
 
 * [[Karlheinz Seeger]], *Semiconductor Physics*, Advanced texts in physics, Springer (2004) &lbrack;[doi:10.1007/978-3-662-09855-4](https://doi.org/10.1007/978-3-662-09855-4)&rbrack;
 
 * [[Sheng San Li]] (ed.), *Semiconductor Physical Electronics*, Springer (2006)  &lbrack;[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2)&rbrack;
+
+* *Semiconductor Electronics: Materials, Devices and Simple Circuits* &lbrack;[pdf](https://ncert.nic.in/textbook/pdf/leph206.pdf)&rbrack;
+
 
 See also:
 
