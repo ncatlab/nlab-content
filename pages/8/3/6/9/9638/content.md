@@ -312,7 +312,7 @@ Textbook accounts on quantum computation:
 
 * [[Alexei Y. Kitaev]], A. H. Shen, M. N. Vyalyi, *Classical and Quantum Computation*, Graduate Studies in Mathematics **47** (2002) &lbrack;[doi:10.1090/gsm/047](http://dx.doi.org/10.1090/gsm/047)&rbrack;
 
-* [[Ranee K. Brylinski]], [[Goong Chen]] (eds.), *Mathematics of Quantum Computation*, Chapman and Hall/CRC (2002) &lbrack;[doi:10.1201/9781420035377](https://doi.org/10.1201/9781420035377)&rrback;
+* [[Ranee K. Brylinski]], [[Goong Chen]] (eds.), *Mathematics of Quantum Computation*, Chapman and Hall/CRC (2002) &lbrack;[doi:10.1201/9781420035377](https://doi.org/10.1201/9781420035377)&rbrack;
 
 * [[Giuliano Benenti]], [[Giulio Casati]], [[Davide Rossini]], *Principles of Quantum Computation and Information*, World Scientific (2004, 2018)  ([doi:10.1142/10909](https://doi.org/10.1142/10909), [2004 pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608149307696.pdf))
 
@@ -692,8 +692,9 @@ There exist toy desktop quantum computers for educational purposes, operating on
 category: computer science, physics
 
 
-[[!redirects quantum computing]]
 [[!redirects quantum computations]]
+
+[[!redirects quantum computing]]
 
 [[!redirects quantum computer]]
 [[!redirects quantum computers]]
