@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -69,13 +70,14 @@ As a result, [[scattering amplitudes]] for [[electron-photon interactions]] in Q
     * [[QCD]], [[quantization of Yang-Mills theory]]
 
 
+
 ## References
 
 ### Original articles
 
 The term "quantum electrodynamics" is due to 
 
-* [[Paul Dirac]], _The quantum theory of emission and absorption of radiation_, Proc. Roy. Soc. London A 114, 243, 1927 ([spire](http://inspirehep.net/record/42586?ln=en), [pdf](http://wwwhome.lorentz.leidenuniv.nl/~boyarsky/media/Proc.R.Soc.Lond.-1927-Dirac-243-65.pdf))
+* [[Paul Dirac]]: _The quantum theory of emission and absorption of radiation_, Proc. Roy. Soc. London A **114** (1927) 243 &lbrack;[spire](http://inspirehep.net/record/42586?ln=en), [pdf](http://wwwhome.lorentz.leidenuniv.nl/~boyarsky/media/Proc.R.Soc.Lond.-1927-Dirac-243-65.pdf)&rbrack;
 
 This left some issues with the quantization of the radiation field. These were addressed, and the [[causal propagator]] for the [[electromagnetic field]] was first found in 
 
@@ -132,7 +134,11 @@ Further discussion of the [[adiabatic limit]] and [[infrared divergences]] inclu
 
 * Daniel Kapec, Malcolm Perry, Ana-Maria Raclariu, [[Andrew Strominger]], _Infrared Divergences in QED, Revisited_, Phys. Rev. D 96, 085002 (2017) ([arXiv:1705.04311](https://arxiv.org/abs/1705.04311))
 
+On the *field strength formalism*, expressing [[scattering amplitudes]] of electrodynamics in terms of non-local expressions in the [[field strengths]]/[[flux densities]] instead of in the [[gauge potentials]]:
 
+* Joshua Newey, John Terning, Christopher B. Verhaaren: *Schwinger vs Coleman: Magnetic Charge Renormalization*, Journal of High Energy Physics **2024** 75 (2024) &lbrack;[arXiv:2407.13823](https://arxiv.org/abs/2407.13823), <a href="https://doi.org/10.1007/JHEP11(2024)075">doi:10.1007/JHEP11(2024)075</a>&rbrack;
+
+* Joshua Newey, John Terning, Christopher B. Verhaaren: *Geometrizing the Anomaly* &lbrack;[arXiv:2504.16998](https://arxiv.org/abs/2504.16998)&rbrack;
 
 
 
