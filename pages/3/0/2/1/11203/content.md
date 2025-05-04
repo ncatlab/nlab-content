@@ -202,6 +202,15 @@ Via [[topological phases of matter]]:
 * M. C. Diamantini, C. A. Trugenberger, V. M. Vinokur, _Topological Nature of High Temperature Superconductivity_ ([arXiv:2009.01763](https://arxiv.org/abs/2009.01763))
 
 
+### Doping semiconductors to superconductors
+
+On [[semiconductor doping|doping]] of [[semiconductors]] to become superconducting:
+
+* Patrick J. Strohbeen, Aurelia M. Brook, Wendy L. Sarney, [[Javad Shabani]]: *Superconductivity in hyperdoped $Ge$ by molecular beam epitaxy*, AIP Advances **13** 085118 (2023) &lbrack;[arXiv:2305.04610](https://arxiv.org/abs/2305.04610), [doi:10.1063/5.0157509](https://doi.org/10.1063/5.0157509)&rbrack;
+
+* [[Javad Shabani]] et al.: *Coherent Superconductor-Semiconductor Epitaxy for Integrated Quantum Electronics* &lbrack;[arXiv:2412.15421](https://arxiv.org/abs/2412.15421)&rbrack;
+
+
 
 [[!redirects superconductor]]
 [[!redirects superconductors]]
