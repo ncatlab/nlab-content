@@ -23,7 +23,7 @@
 
 Where a [[vector]] specifies a _direction_ and a _magnitude_, a _bivector_ specifies a _plane_ and a magnitude.
 
-A _bivector_ is a [[multivector]]_ of degree 2.
+A _bivector_ is a [[multivector]] of degree 2.
 
 ## Definition
 
