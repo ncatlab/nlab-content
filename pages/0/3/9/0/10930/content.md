@@ -10,11 +10,15 @@
 =--
 
 
-This page collects some links related to 
+This page is to record the reference:
 
 * [[Michael Hopkins]], [[Jacob Lurie]]:
 
+  \linebreak
+
   **Ambidexterity in $K(n)$-Local Stable Homotopy Theory**
+
+  \linebreak
 
   (2013)
 
