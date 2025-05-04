@@ -102,9 +102,9 @@ probability_, Springer 2005; book presentation [pdf](http://www.hutter1.net/ai/s
 
 In view of [[quantum computation]] (ie. quantum machine learning):
 
-* Diego Ristè, Marcus P. da Silva, Colm A. Ryan, Andrew W. Cross, Antonio D. Córcoles, John A. Smolin, Jay M. Gambetta, Jerry M. Chow & Blake R. Johnson,
- 
-  *Demonstration of quantum advantage in machine learning*, npj Quantum Information volume 3, Article number: 16 (2017) ([doi:10.1038/s41534-017-0017-3](https://doi.org/10.1038/s41534-017-0017-3))
+* Srinivasan Arunachalam, Ronald de Wolf: *A Survey of Quantum Learning Theory*, ACM SIGACT News **48** 2 (2017) 41-67 &lbrack;[arXiv:1701.06806](https://arxiv.org/abs/1701.06806), [doi:10.1145/3106700.3106710](https://doi.org/10.1145/3106700.3106710)&rbrack;
+
+* Blake R. Johnson et al.: *Demonstration of quantum advantage in machine learning*, npj Quantum Information volume 3, Article number: 16 (2017) ([doi:10.1038/s41534-017-0017-3](https://doi.org/10.1038/s41534-017-0017-3))
 
 * [[Jacob Biamonte]], Peter Wittek, Nicola Pancotti, Patrick Rebentrost, Nathan Wiebe, [[Seth Lloyd]], *Quantum Machine Learning*, Nature **549**  (2017) 195–202 ([doi:10.1038/nature23474](https://doi.org/10.1038/nature23474))
 
