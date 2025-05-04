@@ -40,6 +40,8 @@ $$
 
 but not the other way around.
 
+> ("While ostensibly coined in 1989 by Xiao-Gang Wen, the term 'topological order' has been in use since 1972 to describe the behavior of the classical xy model. &lbrack;[arXiv:2308.01765](https://arxiv.org/abs/2308.01765)&rbrack;)
+
 Specifically, the [[ground state]] of a topologically ordered material is rich in structure (besides being topologically stable), which need not be the case for a general topological phase. In particular a topologically ordered ground state is "degenerate" (a standard but somewhat unfortunate jargon in this context: it really refers to the *[[energy]]* [[eigenvalues]] being degenerate) in that there is a $\geq 2$-dimensional Hilbert space of [[quantum states]] that all have the same lowest energy (within experimentally relevant approximation). 
 
 Moreover, for this to qualify as topologically ordered, one typically demands that in its degenerate ground state the system may exhibit "[[anyon|anyonic]] [[defects]]". A popular more succinct way of making this somewhat more precise is to say that the [[dynamics]] of (the [[electrons]] in) a topologically ordered material, when restricted to the energy=0 ground states, is a [[topological field theory]] equal or akin to a [[Chern-Simons theory]] with [[Wilson line]]-insertions: these Wilson lines being the [[worldlines]] of the [[anyon]]-[[defects]]. 
