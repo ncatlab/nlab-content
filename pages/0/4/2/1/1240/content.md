@@ -725,7 +725,7 @@ Here
 
 ## Properties
 
-### Ambidexterity
+### Norm map & Ambidexterity
  {#Ambidexterity}
 
 We show that for subgroup inclusions of [[finite number|finite]] [[index of a subgroup|index]] the left and right induced representations ([above](#TraditionalFormulation)) agree.
@@ -737,7 +737,10 @@ We show that for subgroup inclusions of [[finite number|finite]] [[index of a su
 For $H \xhookrightarrow{\;} G$ a [[subgroup]] inclusion and
 $V \in H Rep$,
 we have a $G$-[[equivariant]] [[linear map|linear]] [[injection]] from the left (eq:LeftInducedRepresentation) into the right induced representation (eq:RightInducedRepresentation)
-$$
+\[
+  \label{NormMap}
+  \iota_! V
+  \,\equiv\,
   \mathbb{K}[G] \otimes_{\mathbb{K}[H]} V
   \xhookrightarrow{\phantom{--}\phi\phantom{--}}
   hom_H\big(
@@ -745,8 +748,10 @@ $$
     ,\,
     V
   \big)
+  \,\equiv\,
+  \iota_\ast V
   \mathrlap{\,,}
-$$
+\]
 [[natural transformation|natural]] in $V$, which is an [[isomorphism]] if the subgroup inclusion $H \hookrightarrow G$ has [[finite number|finite]] [[index of a subgroup|index]]. 
 \end{lemma}
 \begin{proof}
@@ -871,9 +876,14 @@ Hence:
   By Lem. \ref{ComparisonBetweenLeftAndRightInducedRepresentations}.
 \end{proof}
 
-This statement is mentioned for instance in [Hristova 2019 p 1](Frobenius+reciprocity#Hristova19).
+This statement is mentioned for instance in [Hristova 2019 p 1](Frobenius+reciprocity#Hristova19). In the generality of [[modules]] of [[Hopf algebra|Hopf algebras]] it is discussed by [Flake et al. 2024](#FLP24).
 
-The situation generalizes to representations of [[Hopf algebra|Hopf algebras]], cf. [Flake et al. 2024](#FLP24).
+\begin{remark}\label{OnTheNormMap}
+**(norm map)** \linebreak
+The comparison map $\iota_! \xrightarrow{\;} \iota_\ast$ (eq:NormMap) (in Lem. \ref{ComparisonBetweenLeftAndRightInducedRepresentations}) plays the role of a *[[norm map]]*, manifestly so when the representations are understood (as [above](#GroupoidFormulation)) as [[groupoid representations]] of [[delooping groupoids]], hence as [[local systems]],
+\end{remark}
+
+\linebreak
 
 
 ### Further
@@ -883,8 +893,6 @@ The situation generalizes to representations of [[Hopf algebra|Hopf algebras]], 
 \linebreak
 Over the [[complex numbers]], the [[virtual representations]] of a [[finite group]] are all virtual combinations of [[induced representations]] of 1-dimensional representations.
 \end{proposition}
-
-
 
 
 
