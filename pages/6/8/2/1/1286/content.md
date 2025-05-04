@@ -18,7 +18,7 @@ A _derived stack_ $X$ is an [[∞-stack]] -- an [[(∞,1)-sheaf]] -- on an [[(�
 
 One says _derived stack_ in order to distinguish from the more restrictive notion of an [[∞-stack]] on a 1-categorical [[site]], such as for instance described at [[topological ∞-groupoid]].
 
-For recall that a [[sheaf]] is a [[functor]] $F : C^{op} \to Set$ satisfying some [[descent]]-condition.
+For recall that a [[sheaf]] is a [[functor]] $F : C^{op} \to Set$ satisfying some [[descent]] condition.
 So there are two steps in which the notion of [[sheaf]] may be [[vertical categorification|categorified]]:
 
 1. the codomain is categorified and the domain remains a 1-category
@@ -41,7 +41,7 @@ One general idea for the use of higher and derived stacks is that
 
   * in [[sheaf|sheaves]] in $[Diff^{op},Set]$ it will exist, but will have the wrong properties in general with respect to some operations such as taking cohomology,
 
-  * while finally in [[stack]]s $[Diff^{op}, Grpd]$ it exists as the corresponding smooth [[action groupoid]] or [[orbifold]] and in this form rembers in terms of the isomorphisms how the quotient was obtained. The cohomology of the stack is then indeed the equivariant cohomology of the original manifold.
+  * while finally in [[stack]]s $[Diff^{op}, Grpd]$ it exists as the corresponding smooth [[action groupoid]] or [[orbifold]] and in this form remembers in terms of the isomorphisms how the quotient was obtained. The cohomology of the stack is then indeed the equivariant cohomology of the original manifold.
 
 * similarly passing to higher categorical domain -- i.e. from presheaves on categories to presheaves on higher categories, is analogously a means to ensure that good [[limit]]s exist.
 
@@ -108,7 +108,7 @@ $$
   \,,
 $$
 
-where, as indicated, the free loop space object is something like the [[de Rham space]] of $Spec R$. This means that regarded as a derived stack, the space $Spec R$ becomes an [[∞-groupoid]] whose morphisms are given by [[infinitesimal object|infinitesimal paths]] in the orighinal space.
+where, as indicated, the free loop space object is something like the [[de Rham space]] of $Spec R$. This means that regarded as a derived stack, the space $Spec R$ becomes an [[∞-groupoid]] whose morphisms are given by [[infinitesimal object|infinitesimal paths]] in the original space.
 
 By the $\infty$-erspective on [[Hochschild cohomology]] (as discussed there) this implies a bunch of nice relations. Details are in
 
@@ -132,9 +132,9 @@ An overview is provided in
 
 * [[Bertrand Toën]], _Higher and derived stacks: a global overview_, In: _Algebraic Geometry Seattle 2005_, Proceedings of Symposia in Pure Mathematics, Vol. 80.1, AMS 2009 ([arXiv:math/0604504](http://arxiv.org/abs/math/0604504), [doi:10.1090/pspum/080.1](https://doi.org/10.1090/pspum/080.1))
 
-A set of lecture notes on the [[model structure on simplicial presheaves]] with an eye towrads algebraic sites and derived algebraic geometry is
+A set of lecture notes on the [[model structure on simplicial presheaves]] with an eye towards algebraic sites and derived algebraic geometry is
 
-* [[Bertrand Toën]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methofs in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
+* [[Bertrand Toën]], _Simplicial presheaves and derived algebraic geometry_ , lecture at [Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)  ([pdf](http://www.crm.cat/HigherCategories/hc1.pdf))
 
 
 Details modeled on [[simplicially enriched category|simplicial categories]] have been developed in the series of articles by To&#235;n and Vezossi.
