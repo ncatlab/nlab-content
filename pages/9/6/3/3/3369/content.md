@@ -19,7 +19,7 @@
 
 
 
-This entry is about the article
+This entry is to record the reference:
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]]:
  
@@ -33,9 +33,11 @@ This entry is about the article
 
   *A celebration of the mathematical legacy of Raoul Bott* 
 
-  AMS (2010)
+  AMS (2010) 367-403
 
   [arXiv:0905.0731](http://arxiv.org/abs/0905.0731)
+
+  [doi:10.1090/crmp/050](https://doi.org/10.1090/crmp/050)
 
   [ISBN:978-0-8218-4777-0](https://bookstore.ams.org/view?ProductCode=CRMP/50)
 
