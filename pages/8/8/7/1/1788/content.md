@@ -8,82 +8,55 @@
 ***
 
 
-### Groupoid formulation
 
 
-\begin{proposition}
-**(resolved left induced representation)**
-  The functor $\widehat{\mathbf{B}\iota}$ (eq:ResolutionOfBIota) has a [[left adjoint]] $\big(\widehat{\mathbf{B}\iota}\big)_!$ given by
-$$
-  \mathscr{V}
-  \,\in\,
-  Func\big(
-    G \backslash\!\backslash G/H
-  \big)
-  \;\;\;\;\;\;\;\;\;
-  \vdash
-  \;\;\;\;\;\;\;\;\;
-  \big(\widehat{\mathbf{B}\iota}\big)_!
-  \mathscr{V}
-  \;\coloneqq\;
-  \underset{
-    g\cdot H
-  }{\bigoplus}
-  \mathscr{V}_{g\cdot H}
-  \,,
-$$
-where on the right we let $G$ act in the evident way between direct summands.
-\end{proposition}
-\begin{proof}
-The [hom-isomorphism](adjoint+functor#InTermsOfHomIsomorphism)  is essentially tautologous:
-$$  
-  \left.
-  \begin{array}{l}
-    \mathscr{V} \,\in\,  
-    Func\big( G\backslash\!\backslash G/H, Vect\big)
-    \\
-    \mathscr{W} \,\in\,
-    Func\big( G\backslash\!\backslash \ast, Vect\big)
-  \end{array}
-  \right\}
-  \;\;\;\;\;\;\;\;
-  \vdash
-  \;\;\;\;\;\;\;\;
-  \frac{
-    \Big(
-    \displaystyle{
-    \underset{
-      g\cdot H \in G/H
-    }{\bigoplus}
-    \mathscr{V}_{{}_{g\cdot H}}
-    }
-    \Big)
-    \xrightarrow{
-      \Big(
-        f_{{}_{g \cdot H}}
-      \Big)_{g \cdot H \in G/H}
-    }
-    \mathscr{W}
-  }{
-    g\cdot H 
-    \;\;\;\vdash\;\;\;
-    \mathscr{V}_{g \cdot H}
-    \xrightarrow{\;\;
-      f_{g \cdot H}
-    \;\;}
-    \mathscr{V}
-    \mathrlap{\,,}
-  }
-$$
-where we don't display the $G$-action, which is however evident and evidently respected.
-\end{proof}
+
+++++++++++++++++++++++++++++++++++++++++++++
 
 
-[[InducedRep-LeftInductionByResolution.png:file]]
+*Rethinking Topological Quantum Logic*
+
+I Problem
+
+- quantum computers excessively more powerful than classical ones -- in principle
+
+- possible dramatic enhancement for machine learning algorithms -- in principle
+
+- but quantum is immensely noise intolerant $\Rightarrow$ existing quantum computers are puny
+
+- popular hope: live with the noise and fight it by software: "quantum error correction"
+
+- more profound approach: prevent noise at hardware level by fundamental physical effects!
+
+- tantalizing candidate: *topological quantum effects* keep information in *knotted* quantum states
+  
+
+- but theoretical understanding remained superficial & experimental claims remain dubious
+
+- because topological quantum is "non-perturbative" physics: a $1M "Millennium Problem"
+
+II Solution
+
+- recent progress @CQTS [LMP 115 36 (2025)] via strongly coupled "M-branes" ("M-Theory"):
+
+- topological states in "fractional quantum Hall" systems carried by exotic magnetic flux quanta
+
+- but state-of-the-art understanding of magnetic "flux quantization" was a century old (Dirac 1931)
+
+- novel math developed @CQTS [EoMP 4 (2025) 281] explains generalized exotic flux quantization
+
+- shows there exists an exotic "flux quantization law" which knows fractional Hall quantum topology!
+
+- this novel law ("Hypothesis H") predicts pathway to topological quantum gates via "defect anyons"
+
+- I [will have] just come from a meeting at ShabaniLab@NYU NY, discussing experimental prospects
 
 
-On electrodynamics via field strengths instead of gauge potentials:
+=> gate opened towards scaling-up quantum-computing towards practical quantum machine learning?
 
-* Joshua Newey, John Terning, Christopher B. Verhaaren: *Geometrizing the Anomaly* &lbrack;[arXiv:2504.16998](https://arxiv.org/abs/2504.16998)&rbrack;
+
+Thanks for your attention.
+
+
 
 
