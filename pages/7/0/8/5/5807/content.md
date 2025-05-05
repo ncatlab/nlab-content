@@ -41,3 +41,15 @@ The **writhe** of an oriented [[link diagram]] is defined to be the sum of the o
 
 * [[framing number]]
 
+## References
+
+* Colin C. Adams p. 152 of: *The Knot Book -- An elementary Introduction to the Mathematical Theory of Knots*,  W. H. Freedman and Co. (1994) &lbrack;[ISBN:978-0-8218-3678-1](https://bookstore.ams.org/KNOT)&rbrack;
+
+* {#Ohtsuki01} [[Tomotada Ohtsuki]], p. 523 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
+
+* David Cimasoni: *Computing the writhe of a knot*, J. Knot Theory Ramifications **10** 3 (2001) 387-395 &lbrack;[arXiv:math/0406148](https://arxiv.org/abs/math/0406148), [doi:10.1142/S0218216501000913](https://doi.org/10.1142/S0218216501000913), [pdf](https://www.unige.ch/math/folks/cimasoni/writhe.pdf)&rbrack;
+
+See also:
+
+* Wikipedia: *[Writhe](https://en.wikipedia.org/wiki/Writhe)*
+
