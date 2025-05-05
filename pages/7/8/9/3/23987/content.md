@@ -2758,29 +2758,19 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-### Nov 2024
+### Dec 2024
 
 * {#HuangDec2024} 09 Dec 2024
 
-  Yingyi Huang (Guangdong University of Technology, China):
+  [Yingyi Huang](https://scholar.google.com/citations?hl=en&user=ePDrMDsAAAAJ&view_op=list_works&sortby=pubdate):
 
   **Search for Majorana Zero Modes in Full-Shell Hybrid Nanowires for Topological Quantum Computing**
 
   cf.: [arXiv:1904.13374](https://arxiv.org/abs/1904.13374)
 
-  > Majorana fermions are fermions that were originally proposed in particle physics by Ettore Majorana and are characterized as being their own anti-particle. In condensed matter systems, Majorana quasiparticles occur as fractionalized excitations with an associated topologically protected degeneracy. In this talk, I will briefly review the basic concepts and recent developments in the study of Majorana zero modes in semiconductor-superconductor nanowires and $Fe$-based superconductors, and discuss the possible quantum anomalous vortex and Majorana zero mode in full-shell hybrid nanowires.  
+  > Majorana fermions are fermions that were originally proposed in particle physics by Ettore Majorana and are characterized as being their own anti-particle. In condensed matter systems, Majorana quasiparticles occur as fractionalized excitations with an associated topologically protected degeneracy. In this talk, I will briefly review the basic concepts and recent developments in the study of [[Majorana zero modes]] in semiconductor-superconductor nanowires and $Fe$-based superconductors, and discuss the possible quantum anomalous vortex and Majorana zero mode in full-shell hybrid nanowires.  
 
 \linebreak
-
-### Dec 2024
-
-* 9 Dec 2024
-
-  Yingyi Huang (Guangdong University of Technology, China):
-
-  *Search for Majorana Zero Modes in Full-Shell Hybrid Nanowires for Topological Quantum Computing*
-
-  > Majorana fermions are fermions that were originally proposed in particle physics by Ettore Majorana and are characterized as being their own anti-particle. In condensed matter systems, Majorana quasiparticles occur as fractionalized excitations with an associated topologically protected degeneracy. In this talk, I will briefly review the basic concepts and recent developments in the study of [[Majorana zero modes]] in semiconductor-superconductor nanowires and Fe-based superconductors, and discuss the possible quantum anomalous vortex and Majorana zero mode in full-shell hybrid nanowires.
 
 
 ### Jan 2025
@@ -2873,6 +2863,28 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
   **Superconducting quantum computers in RIKEN**
 
   > [Superconducting quantum computers](qbit#SuperconductingQBitsReferences) have garnered significant attention in recent years. Having their scalability and controllability, they are regarded as one of the most promising physical systems for realizing [[quantum computation]]. In this presentation, I will give an overview of the superconducting quantum computers based on the ones developed in [RIKEN](https://www.riken.jp/en/research/labs/rqc/). Furthermore,  I discuss gate schemes and control mechanisms for further improvements.
+
+\linebreak
+
+### May 2025
+
+* 05 May 2025 
+
+  Malo Cadoret (ONERA, The French Aerospace Lab, Centre de Palaiseau):
+
+  **Progress towards the development of a compact quantum cold-atom inertial measurement unit for onboard applications**
+
+  > Since the 1990’s, a new generation of inertial sensor based on matter-wave interferometry has appeared: accelerometers [1], gradiometers [2] and gyroscopes [3] have been developed and demonstrated high sensitivity, accuracy and long-term stability that outperforms the classical sensors. Major applications for atom interferometers are today geophysics, inertial navigation and fundamental physics. However, most of the [[quantum sensing|quantum sensors]] are nowadays lab-based experiments and cannot perform onboard measurements, except for some notable exceptions such as ONERA’s marine and airborne gravimeter [4, 5]. In this talk, I will present our progress towards the development of a complete cold-atom Inertial Measurement Unit (IMU). Our goal is to have a single atomic sensor that will alternatively measure each inertial component (3 accelerations and 3 rotations). Every atomic measurement will be hybridized with a set of classical inertial sensors. Hybridization enables to combine the advantages of both classical and quantum technologies and to provide accurate continuous measurements with high dynamic range, in the scope of onboard inertial navigation compatibility. I will present our last results published in [6] regarding the development of a compact atomic gyroscope using magnetically-launched atoms.
+
+  > [1] V. Menoret et al., Sci Rep 8, 12300 (2018). \linebreak
+  > [2] M. J. Snadden et al. Phys. Rev. Lett 81, 971 (1998) \linebreak
+  > [3] T.L. Gustavson et al., Phys. Rev. Lett 78 2046 (1997) \linebreak
+  > [4] Y. Bidel et al., Nat. Com. 9 627 (2018) \linebreak
+  > [5] Y. Bidel et al., J. Geod. 94 20 (2020) \linebreak
+  > [6] C. Salducci et al. Sci. Adv.10,eadq4498 (2024)
+
+
+
 
 
 \linebreak
