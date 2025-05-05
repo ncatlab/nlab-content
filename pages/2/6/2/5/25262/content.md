@@ -18,6 +18,11 @@ On [[mapping class groups]]:
 * [[Benson Farb]], [[Dan Margalit]]: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
 
 
+On [[normal subgroups]] of [[mapping class groups]]:
+
+* Tara Brendle, [[Dan Margalit]]: *Normal subgroups of mapping class groups and the metaconjecture of Ivanov*, J. Amer. Math. Soc. **32** (2019) 1009-1070 &lbrack;[arXiv:1710.08929](https://arxiv.org/abs/1710.08929), [doi:10.1090/jams/927](https://doi.org/10.1090/jams/927)&rbrack;
+
+
 On [[Joan Birman]]:
 
 * [[Dan Margalit]], *The Mathematics of Joan Birman*, Notices of the AMS **66** 3 (2019) &lbrack;[pdf](https://www.ams.org/journals/notices/201903/rnoti-p341.pdf), [pdf](https://www.ams.org/journals/notices/201903/201903FullIssue.pdf)&rbrack;
