@@ -17,6 +17,10 @@ On [[braid groups]]:
 
 * [[Dale Rolfsen]]: *New developments in the theory of Artin’s braid groups*, Topology and its Applications **127** 1–2 (2003) 77-90 &lbrack;<a href="https://doi.org/10.1016/S0166-8641(02)00054-8">doi:10.1016/S0166-8641(02)00054-8</a>, [pdf](https://personal.math.ubc.ca/~rolfsen/papers/newbraid/newbraid2.pdf), [pdf](https://personal.math.ubc.ca/~rolfsen/papers/braidnorm/B_nFinal2.pdf)&rbrack;
 
+On the [[Burau representation|Burau]] [[braid representation]] in relation to [[configuration spaces of points]], [[group completion]] and [[topological quantum field theory]]:
+
+* [[Jack Morava]], [[Dale Rolfsen]]: *Toward the group completion of the Burau representation*, Trans. Amer. Math. Soc. **376** (2023) 1845-1865 &lbrack;[arXiv:1809.01994](https://arxiv.org/abs/1809.01994), [doi:10.1090/tran/8796](https://doi.org/10.1090/tran/8796)&rbrack;
+
 
 
 category: people
