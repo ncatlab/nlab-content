@@ -1919,6 +1919,16 @@ Talks:
 
 
 
+\linebreak
+
+### May 2025
+
+* {#QuantumMatterAndComputing2025} 19-20 May 2025
+
+  **NYU-NYUAD Workshop on Quantum Matter and Quantum Computing**
+
+  NYU New York
+
 
 \linebreak
 
