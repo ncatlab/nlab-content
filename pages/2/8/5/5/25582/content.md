@@ -24,7 +24,10 @@ and the related notion of [[representation stability]]:
 
 On [[mapping class groups]]:
 
+* {#Farb06} [[Benson Farb]] (ed.): *Problems on Mapping Class Groups and Related Topics*, Proceedings of Symposia in pure Mathematics **74**, American Mathematical Society  (2006) &lbrack;[ISBN:978-0-8218-3838-9](https://bookstore.ams.org/view?ProductCode=PSPUM/74)[pdf](https://www.math.uchicago.edu/~farb/papers/mcgbook.pdf)&rbrack;
+
 * [[Benson Farb]], [[Dan Margalit]]: *A primer on mapping class groups*, Princeton Mathematical Series, Princeton University Press (2012) &lbrack;[ISBN:9780691147949](https://press.princeton.edu/books/hardcover/9780691147949/a-primer-on-mapping-class-groups), [jstor:j.ctt7rkjw](https://www.jstor.org/stable/j.ctt7rkjw), [pdf](http://euclid.nmu.edu/~joshthom/Teaching/MA589/farbmarg.pdf)&rbrack;
+
 
 
 
