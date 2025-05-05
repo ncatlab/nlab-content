@@ -44,7 +44,7 @@ We can think of $G$ as a groupoid, $\mathbf{B}G$, (the [[delooping]] of $G$), an
 
 ## General definition
 
-In a rather general form, we therefore have a __representation__ of a category $C$ in a category $D$ is simply a [[functor]] $F\colon C \to D$.  Similarly, an [[homomorphism]] between representations ("[[intertwiner]]") is simply a [[natural transformation]] between functors when they are being thought of as representations. Thus we have a [[category of representations]].
+In a rather general form, we therefore have a __representation__ of a category $C$ in a category $D$ is simply a [[functor]] $F\colon C \to D$.  Similarly, a [[homomorphism]] between representations ("[[intertwiner]]") is simply a [[natural transformation]] between functors when they are being thought of as representations. Thus we have a [[category of representations]].
 
 The term 'representation' is most often used when one or more of the following conditions apply:
 
