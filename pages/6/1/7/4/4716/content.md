@@ -196,7 +196,7 @@ Surveys:
 
 * [[Shigeyuki Morita]]: *Structure of the mapping class groups of surfaces: a survey and a prospect*, Geom. Topol. Monogr. **2** (1999) 349-406 &lbrack;[arXiv:math/9911258](https://arxiv.org/abs/math/9911258), [pdf](https://msp.org/gtm/1999/02/gtm-1999-02-020p.pdf)&rbrack;
 
-* Nikolai V. Ivanov: *Mapping class groups*, in: *Handbook of Geometric Topology*, North-Holland (2002) 523-633 &lbrack;[doi:10.1016/B978-0-444-82432-5.X5000-8](https://doi.org/10.1016/B978-0-444-82432-5.X5000-8), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/handgt.pdf), 1998 draft: [pdf](https://math.hawaii.edu/~andrew/GDT2013/I98.pdf), [ps](http://www.mth.msu.edu/~ivanov/m99.ps)&rbrack;
+* [[Nikolai V. Ivanov]]: *Mapping class groups*, in: *Handbook of Geometric Topology*, North-Holland (2002) 523-633 &lbrack;[doi:10.1016/B978-0-444-82432-5.X5000-8](https://doi.org/10.1016/B978-0-444-82432-5.X5000-8), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/handgt.pdf), 1998 draft: [pdf](https://math.hawaii.edu/~andrew/GDT2013/I98.pdf), [ps](http://www.mth.msu.edu/~ivanov/m99.ps)&rbrack;
 
 * {#BakalovKirillov} [[Bojko Bakalov]], [[Alexander Kirillov]], chapter 5 of: *Lectures on tensor categories and modular functor*, University Lecture Series **21**, Amer. Math. Soc. (2001)  &lbrack;[web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html), [ams:ulect/21](https://bookstore.ams.org/view?ProductCode=ULECT/21), [[BakalovKirillovChapter5.pdf:file]]&rbrack;
 
@@ -226,10 +226,17 @@ More on the equivalence of MCGs defined via [[diffeomorphisms]] or [[homeomorphi
 
 * {#Boldsen09} Søren Kjærgaard Boldsen: *Different versions of mapping class groups of surfaces* &lbrack;[arXiv:0908.2221](https://arxiv.org/abs/0908.2221)&rbrack;
 
-
 In relation to [[motion groupoids]]:
 
 * [[Fiona Torzewska]], [[João Faria Martins]], [[Paul Purdon Martin]], *Motion groupoids and mapping class groupoids*, Comm. Math. Phys. **402** (2023) 1621-1705 &lbrack;[arXiv:2103.10377](https://arxiv.org/abs/2103.10377), [doi:10.1007/s00220-023-04755-0](https://doi.org/10.1007/s00220-023-04755-0)&rbrack;
+
+See also:
+
+* {#Farb06} [[Benson Farb]] (ed.): *Problems on Mapping Class Groups and Related Topics*, Proceedings of Symposia in pure Mathematics **74**, American Mathematical Society  (2006) &lbrack;[ISBN:978-0-8218-3838-9](https://bookstore.ams.org/view?ProductCode=PSPUM/74)[pdf](https://www.math.uchicago.edu/~farb/papers/mcgbook.pdf)&rbrack;
+
+* [[Nikolai V. Ivanov]]: *Fifteen problems about the mapping class groups*, chapter 4 in [Farb 2006](#Farb06), AMS (2006) 74-84 &lbrack;[arXiv:math/0608325](https://arxiv.org/abs/math/0608325)&rbrack;
+
+* *Ivanov's metaconjecture on surface homeomorphisms*, MO discussion (2015) &lbrack;[MO:q/200413](https://mathoverflow.net/q/200413/381)&rbrack;
 
 
 ### Braid groups
@@ -310,6 +317,10 @@ On [[finite number|finite]] [[index of a subgroup|index]] [[subgroups]] of mappi
 * Luis Paris, Jon A Berrick, Volker Gebhardt: *Finite index subgroups of mapping class groups*, Proceedings of the London Mathematical Society **108** 3 (2013) 575-599 &lbrack;[arXiv:1105.2468](https://arxiv.org/abs/1105.2468), [doi:10.1112/plms/pdt022](https://doi.org/10.1112/plms/pdt022)&rbrack;
 
 * Blazej Szepietowski: *On finite index subgroups of the mapping class group of a nonorientable surface*, Glas. Mat. **49** (2014), 337-350 &lbrack;[arXiv:1401.3557](https://arxiv.org/abs/1401.3557), [doi:10.3336/gm.49.2.08](https://doi.org/10.3336/gm.49.2.08)&rbrack;
+
+* Tara Brendle, [[Dan Margalit]]: *Normal subgroups of mapping class groups and the metaconjecture of Ivanov*, J. Amer. Math. Soc. **32** (2019) 1009-1070 &lbrack;[arXiv:1710.08929](https://arxiv.org/abs/1710.08929), [doi:10.1090/jams/927](https://doi.org/10.1090/jams/927)&rbrack;
+
+* Alan McLeay: *Normal subgroups of the braid group and the metaconjecture of Ivanov* &lbrack;[arXiv:1801.05209](https://arxiv.org/abs/1801.05209)&rbrack;
 
 * [[Andrew Putman]]: *The topology of the mapping class group and its Torelli subgroup*, lectures at *[Low Dimensional Topology Summer School 2024](https://if-summer2024.sciencesconf.org/?lang=en)*, Institute Fourier &lbrack;video 1:[YT](https://youtu.be/WVUZxmmoUIY), 2:[YT](https://youtu.be/wj0WWTJwpr4), 3:[YT](https://youtu.be/JeHtTPQE00Y), 4:[YT](https://youtu.be/M0LGNpAmxA8)&rbrack;
 
