@@ -70,6 +70,16 @@ On [[quotient stacks]]:
 
 * _Theories of anything_ &lbrack;[arXiv:1202.0684](http://arxiv.org/abs/1202.0684)&rbrack;
 
+On the [[Burau representation|Burau]] [[braid representation]] in relation to [[configuration spaces of points]], [[group completion]] and [[topological quantum field theory]]:
+
+* [[Jack Morava]], [[Dale Rolfsen]]: *Toward the group completion of the Burau representation*, Trans. Amer. Math. Soc. **376** (2023) 1845-1865 &lbrack;[arXiv:1809.01994](https://arxiv.org/abs/1809.01994), [doi:10.1090/tran/8796](https://doi.org/10.1090/tran/8796)&rbrack;
+
+and related discussion revolving around the [[loop space]] of the [[2-sphere]] regarded as a [[classifying space]]:
+
+* [[Jack Morava]]: *A homotopy-theoretic context for CKM/Birkhoff renormalization* &lbrack;[arXiv:2307.10148](https://arxiv.org/abs/2307.10148), [spire:2678618](https://inspirehep.net/literature/2678618)&rbrack;
+
+* [[Jack Morava]]: *Some very low-dimensional algebraic topology* &lbrack;[arXiv:2411.15885](https://arxiv.org/abs/2411.15885)&rbrack;
+
 See also:
 
 * [[Jack Morava]]: *Boundary framings for locally conformally symplectic four-manifolds* &lbrack;[arXiv:2502.05983](https://arxiv.org/abs/2502.05983)&rbrack;
