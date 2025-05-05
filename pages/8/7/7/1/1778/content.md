@@ -430,7 +430,7 @@ Remembering that the &#268;ech cohomology is the colimit over refinement of cove
 ###### Theorem
 
 &#268;ech cohomology with coefficients in $\mathbf{B}G$
-(as above) classies $G$-[[principal bundles]]
+(as above) classifies $G$-[[principal bundles]]
 
 $$
 
