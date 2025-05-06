@@ -176,6 +176,10 @@ Review and discussion:
 
 * {#Landsman17} [[Klaas Landsman]], Section 11: of _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([doi:10.1007/978-3-319-51777-3](https://link.springer.com/book/10.1007/978-3-319-51777-3), [pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
+See also:
+
+* Wikipedia: *[Measurement in quantum mechanics](https://en.wikipedia.org/wiki/Measurement_in_quantum_mechanics)*
+
 In view of dynamical [[quantum decoherence]]:
 
 * [[Maximilian Schlosshauer]], *Decoherence, the measurement problem, and interpretations of quantum mechanics*,  	Rev. Mod. Phys. **76** (2004) 1267-1305 &lbrack;[arXiv:quant-ph/0312059](https://arxiv.org/abs/quant-ph/0312059), [doi:10.1103/RevModPhys.76.1267](https://doi.org/10.1103/RevModPhys.76.1267)&rbrack;
