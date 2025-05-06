@@ -26,7 +26,7 @@ A _doubleton representation_ is one where the generators are realized as two set
 
 ## In AdS/CFT
 
-In ([Fronsdal 81](#Fronsdal81), [Flato-Fronsdal 81](#FlatoFronsdal81), [Angelopoulos-Flato-Fronsdal-Sternheimer 81](#AngelopoulosFlatoFronsdalSternheimer81)) it was observed that these representations may naturally be understood as arising in [[free field theory]] on the [[asymptotic boundary]] of [[anti de Sitter spacetime]].
+It was observed by  [Fronsdal 81](#Fronsdal81), [Flato & Fronsdal 81](#FlatoFronsdal81), [Angelopoulos, Flato, Fronsdal & Sternheimer 81](#AngelopoulosFlatoFronsdalSternheimer81) that these representations may naturally be understood as arising in [[free field theory]] on the [[asymptotic boundary]] of [[anti de Sitter spacetime]].
 
 Analogous statements hold true for the [[super anti de Sitter group]] (e.g. [Gunyadin 89](#Gunyadin89))
 
@@ -70,6 +70,10 @@ to "CPT self-conjugate" vacuum supermultiplets.
 * {#Gunyadin98} [[Murat Günaydin]], _Unitary Supermultiplets of $OSp(1 \vert32,\mathbb{R}$) and M-theory_, Nucl. Phys. B **528** (1998) 432-450 &lbrack;[arXiv:hep-th/9803138](https://arxiv.org/abs/hep-th/9803138)&rbrack;
 
 * [[Henning Samtleben]], [[Ergin Sezgin]]: *Singletons in supersymmetric field theories and in supergravity* &lbrack;[arXiv:2409.03000](https://arxiv.org/abs/2409.03000)&rbrack;
+
+* M. A. Vasiliev: *Dirac Singleton as a Relativistic Field Beyond Standard Model* &lbrack;[arXiv:2505.01915](https://arxiv.org/abs/2505.01915)&rbrack;
+
+
 
 
 
