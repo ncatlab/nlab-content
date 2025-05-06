@@ -45,7 +45,7 @@ Equivalently, for $n \geq 0$, we stipulate that the $n$-ary tensor product $\oti
 ### Rigidity
 [HA 2.4.1.5](#Lurie) constructs a [[Cartesian symmetric monoidal ∞-category]] structure $\mathcal{C}^\times$ on $\mathcal{C}$ whenever $\mathcal{C}$ has all finite products, and by unwinding definitions, $\mathcal{C}$ has all finite products if it attains a Cartesian symmetric monoidal structure.
 
-Additionally, [HA 2.4.1.7](#Lurie) characterizes functors from Cartesian symmetric monoidal $\infty$-categories to histhe particular construction of [HA 2.4.1.5](#2.4.1.5), including constructing a canonical equivalence.
+Additionally, [HA 2.4.1.7](#Lurie) characterizes functors from Cartesian symmetric monoidal $\infty$-categories to the particular construction of [HA 2.4.1.5](#2.4.1.5), including constructing a canonical equivalence.
 We may summarize these results as the following, wherein $\mathrm{Cat}_\infty^\times$ denotes the subcategory of $\mathrm{Cat}_\infty$ whose objects are $\infty$-categories possessing finite products and whose morphisms are product-preserving functors.
 \begin{theorem}
   Lurie's construction yields a fully faithful functor $(-)^\times:\mathrm{Cat}_\infty^{\times} \hookrightarrow \mathrm{Cat}_\infty^{\otimes}$ whose image is spanned by the Cartesian symmetric monoidal $\infty$-categories.
