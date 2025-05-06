@@ -1,5 +1,5 @@
 
-> This page is about the general concept of embeddings in [[category theory]]. For the special cases see embeddings  _[[embedding of topological spaces|of topological spaces]]_, _[[embedding of smooth manifolds|of smooth manifolds]]_, or _[[embedding of types|of types]]_. For the (unrelated) notion in [[model theory]] see instead at *[[elementary embedding]]*.
+> This page is about the general concept of embeddings in [[category theory]]. For the special cases see embeddings  _[[embedding of topological spaces|of topological spaces]]_, _[[embedding of smooth manifolds|of smooth manifolds]]_, or _[[embedding of types|of types]]_. For the notion in [[model theory]] see instead at *[[elementary embedding]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
