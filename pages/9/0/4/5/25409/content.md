@@ -48,7 +48,9 @@ Review:
 
 * [[Piotr Sułkowski]], Section 5 of: *Quantum fields, strings, and physical mathematics*, PoS **390** (2021) &lbrack;[arXiv:2104.03350](https://arxiv.org/abs/2104.03350), [doi:10.22323/1.390.0042](https://doi.org/10.22323/1.390.0042)&rbrack;
 
-based on
+* Shivrat Sachdeva: *A survey of knots and quivers* &lbrack;[arXiv:2505.02059](https://arxiv.org/abs/2505.02059)&rbrack;
+
+See also:
 
 * {#OV19} [[Hirosi Ooguri]], [[Cumrun Vafa]], *Knot invariants and topological strings*, Nucl. Phys. B **577** (2000), 419-438 &lbrack;[arXiv:hep-th/9912123](https://arxiv.org/abs/hep-th/9912123), <a href="https://doi.org/10.1016/S0550-3213(00)001188">doi:10.1016/S0550-3213(00)001188</a>&rbrack;
 
@@ -64,6 +66,9 @@ Further discussion:
 * [[Vivek Kr. Singh]], S. Chauhan, A. Dwivedi, P. Ramadevi, B.P. Mandal, S. Dwivedi, *Knot-Quiver correspondence for double twist knots* &lbrack;[arXiv:2303.07036](https://arxiv.org/abs/2303.07036)&rbrack;
 
 * [[Marko Stošić]], *Generalized knots-quivers correspondence* &lbrack;[arXiv:2402.03066](https://arxiv.org/abs/2402.03066)&rbrack;
+
+
+
 
 
 
