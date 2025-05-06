@@ -103,6 +103,11 @@ See also:
 
 * Yong Xiao, Qiang Wang, Aonan Zhang: *A Proof of the Weak Gravity Conjecture via Leading-Order Quantum Gravity Effects* &lbrack;[arXiv:2503.08459](https://arxiv.org/abs/2503.08459)&rbrack;
 
+In relation to [[amplituhedron|positivity]] relations among [[scattering amplitudes]]:
+
+* Tran Quang Loc: *Exploring amplitude criteria for weak gravity in electroweak theory* &lbrack;[arXiv:2505.01497](https://arxiv.org/abs/2505.01497)&rbrack;
+
+
 
 
 
