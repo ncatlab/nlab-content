@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include quantum systems -- contents]]
 =--
-#### Constructivism, Realizability, Computability
+#### Computability
 +-- {: .hide}
 [[!include constructivism - contents]]
 =--
