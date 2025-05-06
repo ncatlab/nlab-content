@@ -680,7 +680,7 @@ Then for $X\in H$ the locally constant ∞-stacks $E\in \L\Const(X)$, regarded a
 ### Formally &#233;tale morphisms
  {#EtaleMorphisms}
 
-If a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham space]] functor $\Im$ satisfies the above assumptions. The $\Im$-closed morphisms are precisely the [[formally étale morphisms]].
+In a [[differential cohesive (∞,1)-topos]] $\mathbf{H}_{th}$, the [[de Rham space]] functor $\Im$ satisfies the above assumptions. The $\Im$-closed morphisms are precisely the [[formally étale morphisms]].
 
 ## Related entries
 
