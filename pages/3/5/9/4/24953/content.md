@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[quantum computing]] (but the idea applies generally to [[nondeterministic computation]]), *repeat-until-success* &lbrack;[Shah & Oi (2013)](#ShahOi13), [Lim, Beige & Kwek (2005)](#LimBeigeKwek05)&rbrack; is a computation scheme where a given non-deterministic [[logic gate]] is re-applied to its given input data until a failure syndrome vanishes to indicate that the desired kind of gate operation has been performed.
+In [[quantum computing]] (but the idea applies generally to [[nondeterministic computation]]), *repeat-until-success* &lbrack;[Shah & Oi (2013)](#ShahOi13), [Lim, Beige & Kwek (2005)](#LimBeigeKwek05)&rbrack; is a computation scheme with [[postselection]], where a given non-deterministic [[logic gate]] is re-applied to its given input data until a failure syndrome vanishes to indicate that the desired kind of gate operation has been performed.
 
 Concretely, in [[quantum computation]] this means that a [[quantum logic gate]] is executed followed by [[quantum measurement]] of parts of its output data, and depending on this measurement either the remaining quantum state output is accepted and forwarded to the next [[logic gate]] in the [[quantum circuit]], or else the result is [[uncomputation|uncomputed]] and the procedure repeated.
 
@@ -29,7 +29,10 @@ While it has been shown &lbrack;[Lim, Beige & Kwek (2005)](#LimBeigeKwek05)&rbra
 
 Phrased differently, repeat-until-success algorithms do have a generalized [[quantum circuit]]-description, but involving an infinite number of "wires"  (since it may take arbitrarily long until the failure syndrome vanishes).
 
+
 ## Related concepts
+
+* [[postselection]]
 
 * [[classically controlled quantum gate]]
 
