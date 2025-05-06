@@ -17,6 +17,8 @@ and what to do about it:
 
 * [[Hao Geng]], [[Andreas Karch]], [[Carlos Perez-Pardavila]], [[Suvrat Raju]], [[Lisa Randall]], [[Marcos Riojas]], [[Sanjit Shashi]], *Information Transfer with a Gravitating Bath*, SciPost Phys. **10** 103 (2021)  \[<a href="https://arxiv.org/abs/2012.04671">arXiv:2012.04671</a>, [doi:10.21468/SciPostPhys.10.5.103](https://scipost.org/10.21468/SciPostPhys.10.5.103)\]
 
+* [[Hao Geng]]: *Revisiting Recent Progress in the Karch-Randall Braneworld* \[<a href="https://arxiv.org/abs/2306.15671">arXiv:2306.15671</a>\]
+
 
 Claim of reconciliation of [[causal locality]] in the island proposal, under the explicit assumption of massive gravity:
 
