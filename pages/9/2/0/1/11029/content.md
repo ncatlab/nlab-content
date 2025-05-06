@@ -1,4 +1,5 @@
 
+Scott Joen Aaronson
 
 * [personal page](http://www.scottaaronson.com)
 
@@ -6,17 +7,24 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Scott_Aaronson)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=109495)
+
+* [inSpire page](https://inspirehep.net/authors/1960151)
+
 * [GoogleScholar page](https://scholar.google.com/citations?user=EYv2BNQAAAAJ&hl=en)
 
 
 
 ## Selected writings
 
+Introducing the [[quantum complexity theory|quantum complexity class]] *[[PostBQP]]* ([[BQP]] with [[postselection]]):
+
+* [[Scott Aaronson]]: *Quantum computing, postselection, and probabilistic polynomial-time*, Proceedings of the Royal Society A **461** 2063 (2005) 3473–3482 &lbrack;[doi:10.1098/rspa.2005.1546](https://doi.org/10.1098%2Frspa.2005.1546), [arXiv:quant-ph/0412187](https://arxiv.org/abs/quant-ph/0412187)&rbrack;
+
+
 On [[quantum computing]] and [[quantum complexity theory]]:
 
-* [[Scott Aaronson]], *Quantum computing, postselection, and probabilistic polynomial-time*, Proceedings of the Royal Society A **461** 2063 (2005) 3473–3482 &lbrack;[doi:10.1098/rspa.2005.1546](https://doi.org/10.1098%2Frspa.2005.1546), [arXiv:quant-ph/0412187](https://arxiv.org/abs/quant-ph/0412187)&rbrack;
-
-* [[Scott Aaronson]], _Quantum Computing Since Democritus_, Lecture notes (2006) &lbrack;[web](http://www.scottaaronson.com/democritus/)&rbrack;
+* [[Scott Aaronson]]: _Quantum Computing Since Democritus_, Lecture notes (2006) &lbrack;[web](http://www.scottaaronson.com/democritus/)&rbrack;
 
 
 On [[complexity theory|complexity theoretic]] aspects of [[quantum supremacy]]:
