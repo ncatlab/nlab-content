@@ -30,6 +30,10 @@ Argument that the would-be proof of the island conjecture secretly works only fo
 
 * [[Hao Geng]], *Graviton Mass and Entanglement Islands in Low Spacetime Dimensions* \[<a href="https://arxiv.org/abs/2312.13336">arXiv:2312.13336</a>\]
 
+* [[Hao Geng]]: *Revisiting Recent Progress in the Karch-Randall Braneworld* \[<a href="https://arxiv.org/abs/2306.15671">arXiv:2306.15671</a>\]
+
+
+
 reviewed in:
  
 * [[Hao Geng]], *Recent Progress in Quantum Gravity: Karch-Randall Braneworld, Entanglement Islands and Graviton Mass*, Washington (2022) \[<a href="http://hdl.handle.net/1773/49427">hdl:1773/49427</a>\]
