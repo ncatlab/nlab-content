@@ -24,7 +24,7 @@ For $\Gamma \colon \mathcal{E} \to \mathcal{B}$ a [[functor]] we say that it _ha
 
 An object in the [[essential image]] of $coDisc$ is called a **codiscrete object.
 
-This is for instance the case for the [[global section]] [[geometric morphism]] of a [[local topos]] $ (Disc \dashv \Gamma \dashv coDisc) \mathcal{E} \to \mathcal{B}$. 
+This is for instance the case for the [[global section]] [[geometric morphism]] of a [[local topos]] $ (Disc \dashv \Gamma \dashv coDisc): \mathcal{E} \to \mathcal{B}$. 
 
 If one thinks of $\mathcal{E}$ as a [[category]] of [[spaces]], then the codiscrete objects are called [[codiscrete spaces]].
 
