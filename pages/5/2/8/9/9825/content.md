@@ -118,6 +118,8 @@ Namely -- by the [above](#Definition) -- a quantum measurement is formally refle
 
 * [[Bell's inequality]]
 
+* [[postselection]]
+
 * [[open quantum system]]
 
 * [[decoherence]]
