@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+#### Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 \tableofcontents
 
 \section{Idea}
@@ -11,14 +26,18 @@ PostBQP is closed under [[unions]] and [[intersections]] of problems in PostBQP.
 
 \section{Related concepts}
 
+* [[postselection]]
+
 * [[BQP]]
 
 * [[QMA]]
 
 \section{References}
 
-* [[Scott Aaronson]], *Quantum computing, postselection, and probabilistic polynomial-time*, Proceedings of the Royal Society A, Volume 461, Issue 2063, pages 3473–3482, 08 November 2005. ([doi:10.1098/rspa.2005.1546](https://doi.org/10.1098%2Frspa.2005.1546), [arXiv:quant-ph/0412187](https://arxiv.org/abs/quant-ph/0412187))
+The notion is due to:
 
-Wikipedia:
+* [[Scott Aaronson]]: *Quantum computing, postselection, and probabilistic polynomial-time*, Proceedings of the Royal Society A **461** 2063 (2005) 3473–3482 &lbrack;[doi:10.1098/rspa.2005.1546](https://doi.org/10.1098%2Frspa.2005.1546), [arXiv:quant-ph/0412187](https://arxiv.org/abs/quant-ph/0412187)&rbrack;
+
+See also:
 
 * Wikipedia, [PostBQP](https://en.wikipedia.org/wiki/PostBQP)
