@@ -533,7 +533,10 @@ In relation to the [[Grothendieck inequality]]:
 
 ### In quantum field theory
 
-In the generality of [[quantum field theory]]:
+In the generality of ([[relativistic field theory|relativistic]]) [[quantum field theory]]:
+
+* M. S. Guimaraes, I. Roditi, S. P. Sorella: *Bell's inequality in relativistic Quantum Field Theory* &lbrack;[arXiv:2410.19101](https://arxiv.org/abs/2410.19101)&rbrack;
+
 
 
 On Bell inequalities in [[particle physics]] and possible relation to the [[weak gravity conjecture]]:
