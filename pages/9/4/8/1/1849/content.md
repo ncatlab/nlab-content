@@ -905,9 +905,9 @@ The discussion in [[twisted differential c-structures|twisted nonabelian differe
 
 * {#FiSaSc} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_ Advances in Theoretical and Mathematical Physics, Volume 18, Number 2 (2014) p. 229?321   ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277), [doi:10.4310/ATMP.2014.v18.n2.a1](https://dx.doi.org/10.4310/ATMP.2014.v18.n2.a1))
 
-Discussion with [[Dirac charge quantization]] of the C-field in [[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]):
+Discussion with [[geometry of physics -- flux quantization|flux quantization]] of the C-field in [[twisted Cohomotopy]] ([[schreiber:Hypothesis H]]):
 
-* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]_, Communications in Mathematical Physics **377** (2020) 1961-2025 &lbrack;[arXiv:1904.10207](https://arxiv.org/abs/1904.10207), [doi:10.1007/s00220-020-03707-2](https://doi.org/10.1007/s00220-020-03707-2)&rbrack;
+* {#FSS19b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation]]*, Communications in Mathematical Physics **377** (2020) 1961-2025 &lbrack;[arXiv:1904.10207](https://arxiv.org/abs/1904.10207), [doi:10.1007/s00220-020-03707-2](https://doi.org/10.1007/s00220-020-03707-2)&rbrack;
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization]]_, Comm. Math. Phys. **384** (2021) 403–432  &lbrack;[arXiv:1906.07417](https://arxiv.org/abs/1906.07417), [doi:10.1007/s00220-021-03951-0](https://doi.org/10.1007/s00220-021-03951-0)&rbrack;
 
