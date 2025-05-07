@@ -42,6 +42,8 @@ Classes of examples of residually finite groups include
 
 * [[finite groups]]
 
+* [[profinite groups]]
+
 * [[free groups]]
 
 * [[finitely generated group|finitely generated]]$\;$[[nilpotent groups]]
