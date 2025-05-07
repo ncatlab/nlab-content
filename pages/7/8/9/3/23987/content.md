@@ -390,7 +390,7 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
   
   video: [YT](https://www.youtube.com/watch?v=wkucLJ7jTlM)
 
-  > [[quantum field theory|Quantum field theories]] can have an inconsistency called an [[quantum anomaly|anomaly]], formulated as an [[invertible field theory]] in one dimension higher. Theorems of Freed-Hopkins-Teleman and [Freed-Hopkins](invertible+field+theory#FreedHopkins21) classify [[invertible field theories]] in terms of [[bordism groups]]. In this talk, I'll apply this to the low-energy approximation of $E_8 \times E_8$ [[heterotic string theory]]; Witten proved anomaly cancellation in a restricted setting, but we perform a twisted string bordism computation to show that the relevant group of 11-dimensional [[invertible field theories]] does not vanish, and therefore there could be an anomaly in $E_8 \times E_8$ heterotic string theory. Standard computational techniques for twisted [[string bordism]] do not work for this problem; I will also discuss work joint with Matthew Yu using Baker-Lazarev's R-module Adams spectral sequence to simplify a large class of twisted spin and string bordism computations.
+  > [[quantum field theory|Quantum field theories]] can have an inconsistency called an [[quantum anomaly|anomaly]], formulated as an [[invertible field theory]] in one dimension higher. Theorems of Freed-Hopkins-Teleman and [Freed-Hopkins](invertible+field+theory#FreedHopkins21) classify [[invertible field theories]] in terms of [[bordism groups]]. In this talk, I'll apply this to the low-energy approximation of $E_8 \times E_8$ [[heterotic string theory]]; Witten proved anomaly cancellation in a restricted setting, but we perform a twisted string bordism computation to show that the relevant group of 11-dimensional [[invertible field theories]] does not vanish, and therefore there could be an anomaly in $E_8 \times E_8$ heterotic string theory. Standard computational techniques for twisted [[string bordism]] do not work for this problem; I will also discuss work joint with [[Matthew Yu]] using Baker-Lazarev's R-module [[Adams spectral sequence]] to simplify a large class of twisted spin and string bordism computations.
 
 \linebreak
 
@@ -4046,6 +4046,23 @@ Neumann algebras**
   cf.: [arXiv:2311.17558](https://arxiv.org/abs/2311.17558), [arXiv:2302.08168](https://arxiv.org/abs/2302.08168)
 
   > It is widely conjectured that the [critical limit](universality+class#GeneralAnd2DCriticalPhenomena) of interfaces of statistical models, such as hull percolations and the [[Ising model|Ising]] [[domain walls]], can be described by [[conformal invariance|conformally-invariant]] [[quantum field theory]], known as [[conformal field theory]] (CFT). Using the technology from CFT, we will propose the closed expression for a large class of three-point connectivities of interfaces in [2D critical statistical models](universality+class#GeneralAnd2DCriticalPhenomena). Our conjectures have been tested to be in an excellent agreement with the transfer matrix formalism based on the [[Temperley-Lieb algebra]]. Moreover, the special case of our result that describes the probability of having 3 points on the same hull percolation perfectly coincides with the same result from the conformal [[Brownian loop soup|loop ensembles]] by Xin Sun al. Up to our best knowledge, this is one of the first instances where we have a non-trivial agreement between [[CFT]] and [[Brownian loop soup|conformal loop ensembles]]. 
+
+\linebreak
+
+
+### May 2025
+
+
+* {#YuMay2025} 07 May 2025
+
+  [[Matthew Yu]] (Oxford University, UK)
+
+  **A new tangential structure for type IIA string theory**
+
+  cf.: [arXiv:2411.07299](https://arxiv.org/abs/2411.07299)
+
+  > The [[Green-Schwarz anomaly cancellation]] condition says that the [[target space]] of [[heterotic string theory]] must come with a [[string structure]] for the theory to be consistent. In this talk we discuss a new [[tangential structure]] called $string^h$, first introduced [by Devalapurkar](string+orientation+of+tmf#Devalapurkar), as a [[spin^c|$spin^c$]] analogue of string. Approximating the correct [[tangential structure]] of [[string theory]] has many implications, primarily is the [[swampland|Swampland program]] via the [cobordism conjecture](swampland#SwamplandCobordismConjecture) of Mcnamara and Vafa. We will show that the spectrum of $string^h$ has the notable property that it orients [[Tmf(n)|$tmf_1(n)$]], just like how the [[string orientation of tmf|spectrum of string orients tmf]], by the work of Ando-Hopkins-Rezk. Finally we will show that the anomaly condition of the [[partition function]] of [[M-theory]], studied by [[Diaconescu-Moore-Witten anomaly|Diaconescu-Moore-Witten]] is implied by a $string^h$ structure on the target space of [[type IIA string theory|type IIA]], in parallel to the Green-Schwarz anomaly for heterotic string theory, and discuss applications for anomaly cancellation.
+
 
 \linebreak
 
