@@ -131,7 +131,7 @@ For more references see also at *[[string theory results applied elsewhere]]*.
 
 A review of superstring scattering amplitudes is in the last section of ([Staessens-Vernocke 10](#StaessensVernocke10)). A general discussion of the problem of superstring amplitudes is in 
 
-* [[Eric D'Hoker]] [[Duong Phong]], _Loop amplitudes for the fermionic string_, Nucl. Phys. B 278 (1986) 225;
+* [[Eric D'Hoker]],  [[Duong Phong]]: _Loop amplitudes for the fermionic string_, Nucl. Phys. B 278 (1986) 225;
 
 * [[Greg Moore]], P. Nelson, [[Joseph Polchinski]], _Strings and supermoduli_, Phys. Lett. B 169 (1986) 47-53.
 
@@ -139,9 +139,17 @@ On analycity of the superstring [[S-matrix]]:
 
 * {#dLES18} Corinne de Lacroix, Harold Erbin, [[Ashoke Sen]], _Analyticity and Crossing Symmetry of Superstring Loop Amplitudes_ ([arXiv:1810.07197](https://arxiv.org/abs/1810.07197))
 
-Survey of the presence and role of divergences includes
+Survey of the presence and role of divergences:
 
 * [[Ashoke Sen]], _Ultraviolet and Infrared Divergences in Superstring Theory_ ([arXiv:1512.00026](http://arxiv.org/abs/1512.00026))
+
+Review of the scattering of massive modes in [[type IIB string theory]]:
+
+* Nicholas Agia, *Massive Type IIB Superstrings Part I: 3- and 4-Point Amplitudes* &lbrack;[arXiv:2309.11538](https://arxiv.org/abs/2309.11538)&rbrack;
+
+See also:
+
+* Sergio Luigi Cacciatori, Samuel Grushevsky, [[Alexander A. Voronov]], *Tree-Level Superstring Amplitudes: The Neveu-Schwarz Sector* &lbrack;[arXiv:2403.09600](https://arxiv.org/abs/2403.09600)&rbrack;
 
 
 Discussion of superstring scattering amplitudes in terms of [[pure spinors]] ([[Berkovits superstring]]) with emphasis on [[KLT relations]]:
@@ -188,7 +196,7 @@ Review of this work:
 
 * A.Morozov, _NSR Superstring Measures Revisited_, JHEP0805:086,2008 ([arXiv:0804.3167](http://arxiv.org/abs/0804.3167))
 
-Further development in:
+Further developments:
 
 * [[Eric D'Hoker]], [[Carlos Mafra]], [[Boris Pioline]], [[Oliver Schlotterer]], _Two-loop superstring five-point amplitudes I: Construction via chiral splitting and pure spinors_ ([arXiv:2006.05270](https://arxiv.org/abs/2006.05270))
 
@@ -201,13 +209,12 @@ The technical issue of the [[moduli space]] of [[super Riemann surfaces]] of hig
 
 * [[Ron Donagi]], [[Edward Witten]], _Supermoduli Space Is Not Projected_ ([arXiv:1304.7798](http://arxiv.org/abs/1304.7798))
 
-Review of the scattering of massive modes in [[type IIB string theory]]:
 
-* Nicholas Agia, *Massive Type IIB Superstrings Part I: 3- and 4-Point Amplitudes* &lbrack;[arXiv:2309.11538](https://arxiv.org/abs/2309.11538)&rbrack;
 
-See also:
+On the case of [[3-loop]]:
 
-* Sergio Luigi Cacciatori, Samuel Grushevsky, [[Alexander A. Voronov]], *Tree-Level Superstring Amplitudes: The Neveu-Schwarz Sector* &lbrack;[arXiv:2403.09600](https://arxiv.org/abs/2403.09600)&rbrack;
+* Petr Dunin-Barkowski, Igor Fedorov, Alexey Sleptsov: *RNS superstring measure for genus 3* &lbrack;[arXiv:2505.02950](https://arxiv.org/abs/2505.02950)&rbrack;
+
 
 
 
@@ -222,10 +229,10 @@ Here is a commented list of references on the degreewise [finiteness of string s
 
 #### Finiteness of bosonic string scattering
 
-Introductory lecture notes include
+Introductory lecture notes:
 
-* Wieland Staessens, Bert Vercnocke, _Lectures on Scattering Amplitudes in String Theory_, Lecture notes based on lectures given at the fifth Modave School on Mathematical Physics (August 2009) ([arXiv:1011.0456](http://arxiv.org/abs/1011.0456))
- {#StaessensVernocke10}
+* {#StaessensVernocke10} Wieland Staessens, Bert Vercnocke, _Lectures on Scattering Amplitudes in String Theory_, Lecture notes based on lectures given at the fifth Modave School on Mathematical Physics (August 2009) ([arXiv:1011.0456](http://arxiv.org/abs/1011.0456))
+ 
 
 Discussion of the term-wise finiteness of the bosonic string scattering amplitudes is in
 
@@ -235,8 +242,8 @@ There are also arguments in
 
 * Simon Davis, _On the domain of string perturbation theory_, Classical and Quantum Gravity, Volume 6, Issue 12, pp. 1791-1803 (1989) ([web](http://adsabs.harvard.edu/abs/1989CQGra...6.1791D))
 
-#### Finiteness of superstring scattering
 
+#### Finiteness of superstring scattering
 
 Finiteness of heterotic and type II superstring $n$-point functions in flat spacetime is argued for in
 
@@ -254,7 +261,7 @@ Also
 
 argues finiteness of the superstring amplitudes at each order.
 
-Also
+Also:
 
 * [[Eric D'Hoker]], [[Duong Phong]], _Momentum Analyticity and Finiteness of the 1-Loop Superstring Amplitude_,  Phys. Rev. Lett. 70 (1993) 3692-3695 ([arXiv:hep-th/9302003](http://arxiv.org/abs/hep-th/9302003))
 
@@ -268,11 +275,11 @@ Arguments for the finiteness of superstring scattering amplitudes to all loop or
 
 (In footnote 2 this article claims that the claimed proofs of the same statement by G.S Danilov in [hep-th/9801013](http://arxiv.org/abs/hep-th/9801013), [hep-th/0312177](http://arxiv.org/abs/hep-th/0312177) are not in fact proofs.)
 
-Discussion of 2-loop amplitudes from holomorphy arguments is in 
+Discussion of [[2-loop]] amplitudes from holomorphy arguments:
 
 * [[Edward Witten]], _Notes On Holomorphic String And Superstring Theory Measures Of Low Genus_ ([arXiv:1306.3621](http://arxiv.org/abs/1306.3621))
 
-See also
+See also:
 
 * [[Ashoke Sen]], _Supersymmetry Restoration in Superstring Perturbation Theory_ ([arXiv:1508.02481](http://arxiv.org/abs/1508.02481))
 
