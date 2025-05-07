@@ -160,7 +160,7 @@ which further generalizes the discussion to non-compact Lie groups.
 
 On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] via [[parafermions]]:
 
-* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], *Geometrical interpretation of D-branes in gauged WZW models*, JHEP 0107:046 (2001) $[$[arXiv:hep-th/0105038](https://arxiv.org/abs/hep-th/0105038), [doi:10.1088/1126-6708/2001/07/046](https://doi.org/10.1088/1126-6708/2001/07/046)$]$
+* [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], *Geometrical interpretation of D-branes in gauged WZW models*, JHEP 0107:046 (2001) &lbrack;[arXiv:hep-th/0105038](https://arxiv.org/abs/hep-th/0105038), [doi:10.1088/1126-6708/2001/07/046](https://doi.org/10.1088/1126-6708/2001/07/046)&rbrack;
 
 See also:
 
@@ -171,6 +171,9 @@ See also:
 * Konstadinos Sfetsos, _Gauged WZW models and Non-abelian duality_,  	Phys.Rev. D50 (1994) 2784-2798 ([arXiv:hep-th/9402031](http://arxiv.org/abs/hep-th/9402031))
 
 * [[Elias Kiritsis]], _Duality in gauged WZW models_ ([pdf](http://hep.physics.uoc.gr/~kiritsis/papers2/dual.pdf))
+
+* [[José Figueroa-O'Farrill]], Girish S Vishwa: *Non-relativistic quantum strings from gauged WZW models* &lbrack;[arXiv:2505.03462](https://arxiv.org/abs/2505.03462)&rbrack;
+
 
 The [[partition function]]/[[elliptic genus]] of the SU(2)/U(1) gauged WZW model is considered in 
 
