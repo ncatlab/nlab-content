@@ -258,7 +258,7 @@ Linearly distributive categories have now been used as the substrate for a numbe
 
 * {#HH} Willem Heijltjes, [[Robin Houston]], _No proof nets for MLL with units: proof equivalence in MLL is PSPACE-complete_, CSL-LICS '14 Proceedings of the Joint Meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic (CSL) and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS), Article No. 50. ([web](http://dl.acm.org/citation.cfm?id=2603126)) 
 
-* {#CKS99}[[Robin Cockett]],[[Jürgen Koslowski]],[[Robert Seely]]*Introduction to linearly distributive categories*, Mathematical Structures in Computer Science, Vol. 10, 2000 pp 165-.203 ([pdf] https://www.math.mcgill.ca/rags/bicats/bicat.pdf))
+* {#CKS99} [[Robin Cockett]], [[Jürgen Koslowski]], [[Robert Seely]], *Introduction to linearly distributive categories*, Mathematical Structures in Computer Science, Vol. 10, 2000 pp 165-.203 [pdf](https://www.math.mcgill.ca/rags/bicats/bicat.pdf)
 
 * {#CS97}[[Robin Cockett]] and [[R.A.G. Seely]], 1997. _Proof theory for full intuitionistic linear logic, bilinear logic, and mix categories_. 1997. [[TAC]] 5:3. [Web](http://tac.mta.ca/tac/volumes/1997/n5/3-05abs.html).
 
