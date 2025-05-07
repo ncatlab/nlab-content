@@ -25,10 +25,16 @@ $$
   (a_1,a_2)\in H_1(\Sigma,\mathbb{Z})
 $$
 
-of the first [[ordinary homology]] of $\Sigma$ with [[integer]] [[coefficients]] (and vanishing [[intersection number]]).  The [[special linear group]] $SL_2(\mathbb{Z})$ naturally acts on this data (by [[Möbius transformations]] on $\tau$) and the [[quotient]] [[projection]] exhibits an infinite [[covering]] ([[atlas]]) of the  [[moduli stack of elliptic curves]] over the complex numbers
+of the first [[ordinary homology]] of $\Sigma$ with [[integer]] [[coefficients]] (and vanishing [[intersection number]]).  The [[modular group|modular]] [[special linear group]] [[SL(2,Z)|$SL_2(\mathbb{Z})$]] naturally acts on this data (by [[Möbius transformations]] on $\tau$) and the [[quotient]] [[projection]] exhibits an infinite [[covering]] ([[atlas]]) of the  [[moduli stack of elliptic curves]] over the complex numbers
 
 $$
-  \mathfrak{h} \longrightarrow \mathfrak{h}//SL_2(\mathbb{C}) \simeq \mathcal{M}_{ell}(\mathbb{C})
+  \mathfrak{h} \longrightarrow 
+ 
+ \mathfrak{h}
+  \sslash
+  SL_2(\mathbb{C}) 
+   \simeq 
+ \mathcal{M}_{ell}(\mathbb{C})
   \,.
 $$
 
