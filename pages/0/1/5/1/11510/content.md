@@ -20,7 +20,7 @@
 
 ## Idea
 
-After localization at primes dividing $n \in \mathbb{N}$ the [[covering]] of the [[moduli stack of elliptic curves]] $\mathcal{M}_{{ell}}$ by that of [[elliptic curves with level-n structure]] $\mathcal{M}_{{ell}}[n] \to \mathcal{M}_{{ell}}$ is sufficiently good that the [[Goerss-Hopkins-Miller-Lurie theorem]] may be applied to produce a [[homomorphism]] of [[E-∞ rings]]
+After localization at primes dividing $n \in \mathbb{N}$, the [[covering]] of the [[moduli stack of elliptic curves]] $\mathcal{M}_{{ell}}$ by that of [[elliptic curves with level-n structure]], $\mathcal{M}_{{ell}}[n] \to \mathcal{M}_{{ell}}$, is sufficiently good that the [[Goerss-Hopkins-Miller-Lurie theorem]] may be applied to produce a [[homomorphism]] of [[E-∞ rings]]
 
 $$
   (TMF \to TMF(n)) 
@@ -33,11 +33,11 @@ $$
   \right)
 $$
 
-exhibiting [[TMF]] (after localization at $n$) as the [[homotopy fixed points]] of a [[modular group]] action by $SL_2(\mathbb{Z}/n\mathbb{Z})$ ([Hill-Lawson 13, p.3](#HillLawson13)).
+exhibiting [[TMF]] (after localization at $n$) as the [[homotopy fixed points]] of a [[modular group]] action by $SL_2(\mathbb{Z}/n\mathbb{Z})$ ([Hill & Lawson 2013 p.3](#HillLawson13)).
 
-With a bit more work one obtains analogous statements for the [[Deligne-Mumford compactification|compactified]] [[moduli stack of elliptic curves]] and $Tmf$ instead of $TMF$ ([Hill-Lawson 13, theorem 9.1](#HillLawson13))
+With a bit more work one obtains analogous statements for the [[Deligne-Mumford compactification|compactified]] [[moduli stack of elliptic curves]] and $Tmf$ instead of $TMF$ ([Hill & Lawson 2013 Theorem 9.1](#HillLawson13))
 
-This is directly analogous ([Lawson-Naumann 12](#LawsonNaumann12), [Hill-Lawson 13](#HillLawson13)) to how [[KO]] $\to$ [[KU]] exhibits the inclusion of the homotopy fixed points of the $\mathbb{Z}_2$-action on [[complex K-theory]] (which defines [[KR-theory]], see there for more).
+This is directly analogous ([Lawson & Naumann 2012](#LawsonNaumann12), [Hill-Lawson 13](#HillLawson13)) to how [[KO]] $\to$ [[KU]] exhibits the inclusion of the homotopy fixed points of the $\mathbb{Z}_2$-action on [[complex K-theory]] (which defines [[KR-theory]], see there for more).
 
 See also at _[[modular equivariant elliptic cohomology]]_.
 
