@@ -337,9 +337,7 @@ In [[enriched category theory]]:
 
 * {#Kelly82} [[Max Kelly]], §4.5 in: _Basic concepts of enriched category theory_, London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press (1982), Reprints in Theory and Applications of Categories **10** (2005) 1-136  &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/academic/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029), [tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
-In [[internal category]] theory
-
-for [[internal functors]] between [[internal groupoids]] in [[exact categories]]:
+In [[internal category]] theory for [[internal functors]] between [[internal groupoids]] in [[exact categories]]:
 
 * {#Cigoli18} [[Alan S. Cigoli]], *A characterization of final functors between internal groupoids in exact categories*, Theory and Applications of Categories **33** 11 (2018) 265-275.  &lbrack;[arXiv:1711.10747](https://arxiv.org/abs/1711.10747), [tac:33-11](http://www.tac.mta.ca/tac/volumes/33/11/33-11abs.html)&rbrack;
 
