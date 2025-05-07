@@ -38,7 +38,7 @@ A group is *residually finite* if it has a good supply of [[subgroups]] of [[fin
 ## Examples
 
 \begin{example}
-Classes of examples of residually finite groups include
+Classes of examples of residually finite groups include:
 
 * [[finite groups]]
 
@@ -48,7 +48,7 @@ Classes of examples of residually finite groups include
 
 * [[finitely generated group|finitely generated]]$\;$[[nilpotent groups]]
 
-* [[finitely generated group|finitely generated]]$\;$[[linear group]]
+* [[finitely generated group|finitely generated]]$\;$[[linear groups]].
 
 \end{example}
 
