@@ -20,7 +20,7 @@ On [[differential cohomology]] in [[mathematical physics]]:
 
 * [[Arun Debray]], *Differential Cohomology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.14338](https://arxiv.org/abs/2312.14338)&rbrack;
 
-On a variant of the [[string orientation of tmf]] with level structure:
+On a variant of the [[string orientation of tmf]] for the case of [[Tmf(n)|with level structure]] and possible relation to the [[DMW anomaly]] and [[type IIA string theory]]:
 
 * [[Arun Debray]], [[Matthew Yu]]: *Type IIA String Theory and tmf with Level Structure* &lbrack;[arXiv:2411.07299](https://arxiv.org/abs/2411.07299)&rbrack;
 
