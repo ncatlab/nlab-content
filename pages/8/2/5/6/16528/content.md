@@ -58,6 +58,9 @@ and further discussed in:
 
 * David Andriot, [[Dimitrios Tsimpis]], Timm Wrase, *Accelerated expansion of an open universe, and string theory realizations* &lbrack;[arXiv:2309.03938](https://arxiv.org/abs/2309.03938)&rbrack;
 
+* Paul Marconnet, [[Dimitrios Tsimpis]]: *Universal Cosmologies* &lbrack;[arXiv:2505.03449](https://arxiv.org/abs/2505.03449)&rbrack;
+
+
 On [[holography]] and the [[BFSS matrix model]]:
 
 * Alfred Bovon, [[Henning Samtleben]], [[Dimitrios Tsimpis]]: *Holographic deformations of matrix models* &lbrack;[arXiv:2503.15954](https://arxiv.org/abs/2503.15954)&rbrack;
