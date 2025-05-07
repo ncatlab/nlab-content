@@ -17,7 +17,7 @@ $$
   \mathbb{Z}^n_{\sum = [0]_k}
     \longrightarrow
   \mathbb{Z}^n
-    \longrightarrow
+    \xrightarrow{\sum \,\mathrm{mod}\, k}
   C_k
     \to 
   0
