@@ -99,6 +99,8 @@ $$
 
 ## References
 
+### General
+
 The construction/identification of the string orientation and its relation to the Witten genus is due to
 
 * {#AndoHopkinsStrickland01} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus and the theorem of the cube_, Invent. Math. 146 (2001) 595&#8211;687 MR1869850 ([doi:10.1007/s002220100175](https://doi.org/10.1007/s002220100175), [pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/musix.pdf))
@@ -132,9 +134,15 @@ Possible hints for further relation between [[2d SCFT]] and [[tmf]] are presente
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], _Holomorphic SCFTs with small index_ ([arXiv:1811.00589](https://arxiv.org/abs/1811.00589))
 
-On $string^h$-orientation of tmf with level structure:
 
-* Sanath K. Devalapurkar: *A $String$-ANALOGUE OF $Spin^{\mathbf{C}}$* &lbrack;[pdf](https://sanathdevalapurkar.github.io/files/string-analogue-spinc.pdf), [[Devalapurkar-StringAnalogue.pdf:file]]&rbrack;
+### With level structure
+ {#ReferencesWithLevelStructure}
+
+On $string^h$-orientation of tmf [[Tmf(n)|with level structure]]:
+
+* {#Devalapurkar} Sanath K. Devalapurkar: *A $String$-ANALOGUE OF $Spin^{\mathbf{C}}$* &lbrack;[pdf](https://sanathdevalapurkar.github.io/files/string-analogue-spinc.pdf), [[Devalapurkar-StringAnalogue.pdf:file]]&rbrack;
+
+and further developed with possible application to [[DMW anomaly]]-cancellation and [[type IIA string theory]]:
 
 * [[Arun Debray]], [[Matthew Yu]]: *Type IIA String Theory and tmf with Level Structure* &lbrack;[arXiv:2411.07299](https://arxiv.org/abs/2411.07299)&rbrack;
 
