@@ -17,6 +17,8 @@ On the [[gauged WZW model]] and [[equivariant de Rham cohomology]]:
 
 * {#FigueroaOFarrillStanciu94} [[José Figueroa-O'Farrill]], [[Sonia Stanciu]], _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys. Lett. B **341** (1994) 153-159 &lbrack;[arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196), <a href="https://doi.org/10.1016/0370-2693(94)90304-2">doi:10.1016/0370-2693(94)90304-2</a>&rbrack;
 
+* [[José M Figueroa-O'Farrill]], Girish S Vishwa: *Non-relativistic quantum strings from gauged WZW models* &lbrack;[arXiv:2505.03462](https://arxiv.org/abs/2505.03462)&rbrack;
+
 
 On [[Majorana spinors]]:
 
