@@ -141,7 +141,7 @@ If $Q$ is acyclic, then $k Q$ is finite-dimensional as a vector space, so in stu
 ### Classification 
  {#Classification}
 
-[[Gabriel's theorem]] ([Gabriel 72](#Gabriel72)) says that connected quivers with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically closed field]]are precisely the _[[Dynkin quivers]]_: those whose underlying [[undirected graph]] is a [[Dynkin diagram]] in the [[ADE classification|ADE series]], and that the [[indecomposable object|indecomposable]] [[quiver representations]] are in [[bijection]] with the positive [[root (in representation theory)|roots]] in the [[root system]] of the Dynkin diagram. ([Gabriel 72](#Gabriel72)).
+[[Gabriel's theorem]] ([Gabriel 72](#Gabriel72)) says that connected quivers with a [[finite number]] of [[indecomposable object|indecomposable]] [[quiver representations]] over an [[algebraically closed field]] are precisely the _[[Dynkin quivers]]_: those whose underlying [[undirected graph]] is a [[Dynkin diagram]] in the [[ADE classification|ADE series]], and that the [[indecomposable object|indecomposable]] [[quiver representations]] are in [[bijection]] with the positive [[root (in representation theory)|roots]] in the [[root system]] of the Dynkin diagram. ([Gabriel 72](#Gabriel72)).
 
 ## Generalizations
 
