@@ -223,7 +223,7 @@ $$
 That the [[geometric series]] $\sum_{k = 0}^\infty 1/3^k$ [[convergence of a sequence|converges]]
 
 $$
-  \underoverset{n}{k = 0}{\sum} 1/3 k
+  \underoverset{k = 0}{n}{\sum} 1/3^k
    \overset{n \to \infty}{\longrightarrow}
   \frac{1}{1 - 1/3} = 3/2
 $$
