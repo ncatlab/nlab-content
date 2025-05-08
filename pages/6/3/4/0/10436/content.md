@@ -237,6 +237,10 @@ Further developments along these lines are in
 
 * {#AnelBiedermanFinsterJoyal17b} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _Goodwillie's Calculus of Functors and Higher Topos Theory_ ([arXiv:1703.09632](https://arxiv.org/abs/1703.09632))
 
+Another proof and generalization in the context of [[homotopy type theory]], which also recovers a basic result of [[Bass-Serre theory]] in such context, has been provided in
+
+* {#Wärn24} [[David Wärn]], _Path Spaces of Pushouts_ ([arXiv:2402.12339](https://arxiv.org/pdf/2402.12339))
+
 ### In shape theory
 
 * &#352;ime Ungar, $n$-Connectedness of inverse systems and applications to shape theory, Glasnik Matemati&#269;ki 13 (1978), 371-396 [pdf](http://www.irb.hr/korisnici/zskoda/ungarConnwoabsh.pdf)
