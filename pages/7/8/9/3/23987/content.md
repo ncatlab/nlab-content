@@ -1927,7 +1927,51 @@ Talks:
 
   **NYU-NYUAD Workshop on Quantum Matter and Quantum Computing**
 
-  NYU New York
+  @ [Center for Quantum Information Physics](https://as.nyu.edu/departments/physics/research/center-for-quantum-information-physics.html), NYU New York
+
+  venue: [19 Washington Square North](https://www.google.com/maps/search/19+Washington+Square+North?entry=gmail&source=g)
+
+*Program:*
+
+$\phantom{-----------}$Monday, May 19:
+
+| Time | Speaker |
+|------|---------|
+| 08:00-08:45 | &lbrack;Breakfast&rbrack; |
+| 09:00-09:45 | [[Andrei Bernevig]] (Princeton University) |
+| 09:50-10:35 | [[Meng Cheng]] (Yale) |
+| 10:35-11:00 |	\[Break\] |
+| 11:00-11:45 | [[Sankar Das Sarma]] (University of Maryland) |
+| 11:45-13:00 |	\[Lunch\] |
+| 12:00-13:45 |	[[Sophia Economou]] (Virginia Tech) |
+| 13:50-14:35 |	[[Tudor Stanescu]] (West Virginia) |
+| 14:35-15:00 |	\[Break\] |
+| 15:00-15:45 |	[[Abhay Pasupathy]] (Columbia University) |
+| 15:50-16:35 |	[[Yi Li]] (Johns Hopkins University) |
+| 16:35-17:00 |	\[Break\] |
+| 17:00-18:00 |	Microsoft |
+| 18:00       |	\[Dinner\]
+
+$\phantom{-----------}$Tuesday, May 20
+
+| Time | Speaker |
+|------|---------|
+| 08:00-08:45 | \[Breakfast\] $\phantom{-------------}$ |
+| 09:00-9:45  |	[[Hisham Sati]] (NYU Abu Dhabi) |
+| 09:50-10:35 |	[[Tim Byrnes]] (NYU Shanghai) |
+| 10:35-11:00 |	\[Break\] |
+| 11:00-11:45 |	[[Pouyan Ghaemi]] (CUNY) |
+| 11:45-13:00 |	\[Lunch\] |
+| 13:00-13:45 | [[Emil Prodan]] (Yeshiva University) |
+| 13:50-14:35 | [[Javad Shabani]] (NYU) |
+| 14:35-15:00 |	\[Break\] |
+| 15:00-15:45 |	[[Urs Schreiber]] (NYU Abu Dhabi) |
+| 15:50-16:35 |	[[Andrei Vrajitoarea]] (NYU New York) |
+| 17:00       | \[Closing\] |
+
+
+
+
 
 
 \linebreak
@@ -4059,6 +4103,8 @@ Neumann algebras**
 
   **A new tangential structure for type IIA string theory**
 
+  slides: [[Yu-CQTS-May2025.pdf:file]]
+
   cf.: [arXiv:2411.07299](https://arxiv.org/abs/2411.07299)
 
   > The [[Green-Schwarz anomaly cancellation]] condition says that the [[target space]] of [[heterotic string theory]] must come with a [[string structure]] for the theory to be consistent. In this talk we discuss a new [[tangential structure]] called $string^h$, first introduced [by Devalapurkar](string+orientation+of+tmf#Devalapurkar), as a [[spin^c|$spin^c$]] analogue of string. Approximating the correct [[tangential structure]] of [[string theory]] has many implications, primarily is the [[swampland|Swampland program]] via the [cobordism conjecture](swampland#SwamplandCobordismConjecture) of Mcnamara and Vafa. We will show that the spectrum of $string^h$ has the notable property that it orients [[Tmf(n)|$tmf_1(n)$]], just like how the [[string orientation of tmf|spectrum of string orients tmf]], by the work of Ando-Hopkins-Rezk. Finally we will show that the anomaly condition of the [[partition function]] of [[M-theory]], studied by [[Diaconescu-Moore-Witten anomaly|Diaconescu-Moore-Witten]] is implied by a $string^h$ structure on the target space of [[type IIA string theory|type IIA]], in parallel to the Green-Schwarz anomaly for heterotic string theory, and discuss applications for anomaly cancellation.
@@ -4384,6 +4430,7 @@ The following is a (very) inclomplete list of selected invited presentations by 
   mini-course at *[IX International Workshop on Information Geometry, Quantum Mechanics and Applications 2025](http://www.q-math.es/conferences/IGQMA2025)*, [ICMAT Madrid](https://www.icmat.es/),  
 
 \linebreak  
+
 
 
 
