@@ -63,6 +63,12 @@ Interpretation via an analogue of the [[string orientation of tmf]] but for [[Tm
 
 * [[Arun Debray]], [[Matthew Yu]]: *Type IIA String Theory and tmf with Level Structure* &lbrack;[arXiv:2411.07299](https://arxiv.org/abs/2411.07299)&rbrack;
 
+Review:
+
+* [[Matthew Yu]]: *A new tangential structure for type IIA string theory*, [talk at](CQTS#YuMay2025) [[CQTS]] (May 2025) &lbrack;slides:[[Yu-CQTS-May2025.pdf:file]]&rbrack;
+
+
+
 
 ## Related concepts
 
