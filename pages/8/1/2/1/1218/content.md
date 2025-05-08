@@ -433,6 +433,19 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 ## References 
  {#References}
 
+
+### Introductions
+ {#Introductions}
+
+* [[Patrick Iglesias-Zemmour]]: _Diffeologies_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris (2015) &lbrack;[video](https://www.youtube.com/watch?v=4sZDmiVOhaA)&rbrack;
+
+* {#IglesiasZemmour18} [[Patrick Iglesias-Zemmour]]: _An introduction to diffeology_, lecture at _[Modern Mathematics Methods in Physics: Diffeology, Categories and Toposes and Non-commutative Geometry Summer School](http://www.turkmath.org/beta/konferans.php?id_konferans=365)_ (2018) 
+
+  published in: _[[New Spaces for Mathematics and Physics]]_, Cambridge University Press (2021) 31-82 &lbrack;[doi:10.1017/9781108854429.003](https://doi.org/10.1017/9781108854429.003), [pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf)&rbrack;
+
+* {#IZ25} [[Patrick Iglesias-Zemmour]]: *Why Diffeology?* (2025) &lbrack;[pdf](https://math.huji.ac.il/~piz/documents/WD.pdf)&rbrack;
+
+
 ### Foundations
   {#ReferencesGeneral}
 
@@ -490,11 +503,6 @@ following the thesis
 which contains some useful material that may not yet have made it into the book. 
 
 
-Further exposition and lecture notes are in 
-
-* [[Patrick Iglesias-Zemmour]], _Diffeologies_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=4sZDmiVOhaA))
-
-* {#IglesiasZemmour18} [[Patrick Iglesias-Zemmour]], _An introduction to diffeology_, lecture at _[Modern Mathematics Methods in Physics: Diffeology, Categories and Toposes and Non-commutative Geometry Summer School](http://www.turkmath.org/beta/konferans.php?id_konferans=365)_, 2018, to appear in _[[New Spaces for Mathematics and Physics]]_ ([pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf))
 
 
 [[Cartan calculus]] for [[diffeological spaces]] is developed in
