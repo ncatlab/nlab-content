@@ -1923,13 +1923,35 @@ Talks:
 
 ### May 2025
 
+\begin{imagefromfile}
+    "file_name": "NYU-Physics-Research.png",
+    "float": "right",
+    "width": 275,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+
+        "bottom": 20,
+        "right": 0, 
+        "left": -100
+    }
+\end{imagefromfile}
+
 * {#QuantumMatterAndComputing2025} 19-20 May 2025
 
-  **NYU-NYUAD Workshop on Quantum Matter and Quantum Computing**
+  \linebreak
+
+  **NYU-NYUAD Workshop on** 
+
+  **Quantum Matter and Quantum Computing**
+
+  \linebreak
 
   @ [Center for Quantum Information Physics](https://as.nyu.edu/departments/physics/research/center-for-quantum-information-physics.html), NYU New York
 
   venue: [19 Washington Square North](https://www.google.com/maps/search/19+Washington+Square+North?entry=gmail&source=g)
+
+  \linebreak
 
   *Program:*
 
