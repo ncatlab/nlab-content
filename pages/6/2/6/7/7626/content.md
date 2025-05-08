@@ -447,6 +447,7 @@ The topic of [[quantum measurement]] of non-abelian anyons is crucial to their i
 
 [[!redirects braid statistics]]
 
+[[!redirects fractional statistics]]
 
 [[!redirects anyon]]
 [[!redirects anyons]]
