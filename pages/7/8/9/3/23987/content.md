@@ -1931,7 +1931,7 @@ Talks:
 
   venue: [19 Washington Square North](https://www.google.com/maps/search/19+Washington+Square+North?entry=gmail&source=g)
 
-*Program:*
+  *Program:*
 
 $\phantom{-----------}$Monday, May 19:
 
@@ -1946,8 +1946,8 @@ $\phantom{-----------}$Monday, May 19:
 | 12:00-13:45 |	[[Sophia Economou]] (Virginia Tech) |
 | 13:50-14:35 |	[[Tudor Stanescu]] (West Virginia) |
 | 14:35-15:00 |	\[Break\] |
-| 15:00-15:45 |	[[Abhay Pasupathy]] (Columbia University) |
-| 15:50-16:35 |	[[Yi Li]] (Johns Hopkins University) |
+| 15:00-15:45 |	[Abhay Pasupathy](https://www.physics.columbia.edu/content/abhay-narayan-pasupathy) (Columbia University) |
+| 15:50-16:35 |	[Yi Li](https://scholar.google.com/citations?hl=en&user=tBxA-ZoAAAAJ&view_op=list_works&sortby=pubdate) (Johns Hopkins University) |
 | 16:35-17:00 |	\[Break\] |
 | 17:00-18:00 |	Microsoft |
 | 18:00       |	\[Dinner\]
@@ -1960,13 +1960,13 @@ $\phantom{-----------}$Tuesday, May 20
 | 09:00-9:45  |	[[Hisham Sati]] (NYU Abu Dhabi) |
 | 09:50-10:35 |	[[Tim Byrnes]] (NYU Shanghai) |
 | 10:35-11:00 |	\[Break\] |
-| 11:00-11:45 |	[[Pouyan Ghaemi]] (CUNY) |
+| 11:00-11:45 |	[Pouyan Ghaemi](https://scholar.google.com/citations?hl=en&user=IYvQn6sAAAAJ&view_op=list_works) (CUNY) |
 | 11:45-13:00 |	\[Lunch\] |
-| 13:00-13:45 | [[Emil Prodan]] (Yeshiva University) |
+| 13:00-13:45 | [Emil Prodan](https://scholar.google.com/citations?hl=en&user=Fax-mQYAAAAJ&view_op=list_works) (Yeshiva University) |
 | 13:50-14:35 | [[Javad Shabani]] (NYU) |
 | 14:35-15:00 |	\[Break\] |
 | 15:00-15:45 |	[[Urs Schreiber]] (NYU Abu Dhabi) |
-| 15:50-16:35 |	[[Andrei Vrajitoarea]] (NYU New York) |
+| 15:50-16:35 |	[Andrei Vrajitoarea](https://scholar.google.com/citations?hl=en&user=k7q8hL8AAAAJ&view_op=list_works) (NYU New York) |
 | 17:00       | \[Closing\] |
 
 
