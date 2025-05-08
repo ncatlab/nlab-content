@@ -182,3 +182,7 @@ With Qiskit:
 
 [[!redirects quantum memory]]
 
+[[!redirects quantum register]]
+[[!redirects quantum registers]]
+
+
