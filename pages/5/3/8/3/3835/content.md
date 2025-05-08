@@ -12,12 +12,25 @@ On [[thermodynamics]] and [[general relativity]]:
 
 * [[Patrick Iglesias-Zemmour]], _Essai de «thermodynamique rationnelle» des milieux continus_, Annales de l'I.H.P. Physique théorique, Volume 34 (1981) no. 1,  p. 1-24 ([numdam:AIHPA_1981__34_1_1_0](http://www.numdam.org/item/AIHPA_1981__34_1_1_0))
 
-On [[diffeological spaces]]:
+On [[diffeological spaces]] ([[diffeology]]):
 
 * {#IglesiasZemmour85} [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologiques et Homotopie_,  Dissertation (1985) ([web](http://math.huji.ac.il/~piz/Site/The%20Articles/D9DD15EE-6993-4CA3-8B9B-4FC1DEF4A418.html), [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf), [[IglesiasZemmourFibrationsDiffeologiques1985.pdf:file]])
 
 * {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185)).
 Reprint (revised version) by Beijing WPC (2022), World Map Technology, ([pdf] (http://www.icloud.com/iclouddrive/08bIgfV5NT8F8oBo-Ipqoz1kg#Diffeology), [publisher] (https://mp.weixin.qq.com/s?__biz=MjM5NzE3Nzc4MQ==&mid=2664511235&idx=2&sn=a2b55b7fc0e88a3ae4142a8f53077055)).
+
+Exposition:
+
+
+* [[Patrick Iglesias-Zemmour]]: _Diffeologies_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris (2015) &lbrack;[video](https://www.youtube.com/watch?v=4sZDmiVOhaA)&rbrack;
+
+* {#IglesiasZemmour18} [[Patrick Iglesias-Zemmour]]: _An introduction to diffeology_, lecture at _[Modern Mathematics Methods in Physics: Diffeology, Categories and Toposes and Non-commutative Geometry Summer School](http://www.turkmath.org/beta/konferans.php?id_konferans=365)_ (2018) 
+
+  published in: _[[New Spaces for Mathematics and Physics]]_, Cambridge University Press (2021) 31-82 &lbrack;[doi:10.1017/9781108854429.003](https://doi.org/10.1017/9781108854429.003), [pdf](http://math.huji.ac.il/~piz/documents/AITD.pdf)&rbrack;
+
+* {#IZ25} [[Patrick Iglesias-Zemmour]]: *Why Diffeology?* (2025) &lbrack;[pdf](https://math.huji.ac.il/~piz/documents/WD.pdf)&rbrack;
+
+
 
 On the [[de Rham theorem]] over [[diffeological spaces]]:
 
