@@ -35,7 +35,7 @@ Review:
 
 * D. E. Feldman, [[Bertrand Halperin]]: *Fractional charge and fractional statistics in the quantum Hall effects*, Rep. Prog. Phys. **84** (2021) 076501 \[<a href="https://doi.org/10.1088/1361-6633/ac03aa">doi:10.1088/1361-6633/ac03aa</a>, [arXiv:2102.08998](https://arxiv.org/abs/2102.08998)\]
 
-As potential hardware for [[topological quantum computing]]:
+{#ReferencesFQHAsPotentialTQCHardware} On ([[anyons]] in) [[fractional quantum Hall systems]] as potential [[quantum materials|quantum hardware]] for [[topological quantum computing]]:
 
 * D. V. Averin, V. J. Goldman: *Quantum computation with quasiparticles of the fractional quantum Hall effect*, Solid State Communications **121** 1 (2001) 25-28 \[<a href="https://doi.org/10.1016/S0038-1098(01)00447-1">doi:10.1016/S0038-1098(01)00447-1</a>, [arXiv:cond-mat/0110193](https://arxiv.org/abs/cond-mat/0110193)\]
 
