@@ -78,8 +78,26 @@ While there is little to no theory for strongly interacting quantum systems, [[e
 The heuristic idea is that at these filling fractions the interacting electrons form a kind of [[bound state]] with $k$ flux quanta each, making "composite [[bosons]]" that as such [[Bose-Einstein condensate|condense]] to produce an insulating [[mass gap]], after all.
 
 
-**Anyonic quasi-particles.**
-But this suggests that in the Hall plateau neighbourhood around such filling fraction, there are unpaired flux quanta each "bound to" one $1/k$th of a (missing) electron: called "[[quasi-particles]]" ("quasi-holes"). These evidently have fractional charge $\pm e/k$ and are expected to be [[anyon|anyonic]] with pair exchange phase $e^{\mathrm{i} \pi/k}$. There is claim that this anyonic phase has been experimentally observed.
+{#IntroAnyonicQuasiParticles} **Anyonic quasi-particles.**
+But this suggests that in the Hall plateau neighbourhood around such filling fraction, there are unpaired [[flux]] [[quanta]] each "bound to" one $1/k$th of a (missing) electron: called "[[quasi-particles]]" ("quasi-holes"). 
+
+\begin{imagefromfile}
+    "file_name": "FluxQuantaAsAnyons.png",
+    "width": 520,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    },
+    "caption": "(graphics from [SS25](#SS25AlgTop))"
+\end{imagefromfile}
+
+
+These evidently have fractional charge $\pm e/k$ and are expected to be [[anyon|anyonic]] with pair exchange phase $e^{\mathrm{i} \pi/k}$. There is claim that this anyonic phase has been experimentally observed (see [below](#BraidingPhase)).
+
+
 
 
 \linebreak
@@ -88,7 +106,7 @@ But this suggests that in the Hall plateau neighbourhood around such filling fra
 ### Hall effect and Hall resistivity
  {#IdeaHallResistivity}
 
-The setup of any *Hall effect* is a plane sheet of [[conductor (electromagnetism)|conducting]]  material placed in a transverse [[magnetic field]] (constant across the plane, directed perpendicular to it).
+The setup of any *Hall effect* is a plane sheet of ([[semiconductor|semi-]])[[conductor (electromagnetism)|conducting]]  material placed in a transverse [[magnetic field]] (constant across the plane, directed perpendicular to it).
 
 The *[[classical Hall effect]]* is the phenomenon that a [[voltage]] $V_x$ applied along the conducting sheet in some direction -- to be called the $x$-direction -- induces a *Hall voltage* $V_y$ in the *perpendicular* direction -- to be called the $y$-direction -- across the conducting sheet.
 
@@ -848,7 +866,7 @@ Alternative derivation via [[geometry of physics -- flux quantization|flux quant
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes]]* &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
 
-
+* {#SS25AlgTop} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Understanding FQH via Algebraic Topology|Understanding Fractional Quantum Hall Anyons via the Algebraic Topology of exotic Flux Quanta]]* (2025)
 
 
 category: physics
