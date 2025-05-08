@@ -46,4 +46,7 @@ If a [[topological space]] $X$ is $(n-1)$-[[n-connected space|connected]] for $n
 
 * [[wrapped brane]]
 
+* [[Steenrod representability]]
+
+
 [[!redirects fundamental classes]]
