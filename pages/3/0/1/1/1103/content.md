@@ -75,7 +75,7 @@ A morphism $f:(A,\varepsilon)\to (A',\varepsilon')$ of augmented pre-gas is a ho
 
 If $A$, $A'$ are two pre-gas, then $A\otimes A'$ is a pre-ga with
 
-$$(a\otimes a')(b\otimes b') = (-1)^{|a' | |b|} a b \otimes a' b'$$
+$$(a\otimes a')(b\otimes b') = (-1)^{|{a^'} | |b|} a b \otimes a' b'$$
 
 for homogeneous $a,b \in A$, $a', b' \in A'$.
 
