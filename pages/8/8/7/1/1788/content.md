@@ -7,68 +7,30 @@
 
 ***
 
-$\phantom{-----------}$Monday, May 19:
 
-| Time | Speaker |
-|------|---------|
-| 08:00-08:45 | &lbrack;Breakfast&rbrack; |
-| 09:00-09:45 | [[Andrei Bernevig]] (Princeton University) |
-| 09:50-10:35 | [[Meng Cheng]] (Yale) |
-| 10:35-11:00 |	\[Break\] |
-| 11:00-11:45 | [[Sankar Das Sarma]] (University of Maryland) |
-| 11:45-13:00 |	\[Lunch\] |
-| 12:00-13:45 |	[[Sophia Economou]] (Virginia Tech) |
-| 13:50-14:35 |	[[Tudor Stanescu]] (West Virginia) |
-| 14:35-15:00 |	\[Break\] |
-| 15:00-15:45 |	[[Abhay Pasupathy]] (Columbia University) |
-| 15:50-16:35 |	[[Yi Li]] (Johns Hopkins University) |
-| 16:35-17:00 |	\[Break\] |
-| 17:00-18:00 |	Microsoft |
-| 18:00       |	\[Dinner\]
+\begin{imagefromfile}
+    "file_name": "NYU-Physics-Research.png",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -30,
 
-$\phantom{-----------}$Tuesday, May 20
-
-| Time | Speaker |
-|------|---------|
-| 08:00-08:45 | \[Breakfast\] $\phantom{-------------}$ |
-| 09:00-9:45  |	[[Hisham Sati]] (NYU Abu Dhabi) |
-| 09:50-10:35 |	[[Tim Byrnes]] (NYU Shanghai) |
-| 10:35-11:00 |	\[Break\] |
-| 11:00-11:45 |	[[Pouyan Ghaemi]] (CUNY) |
-| 11:45-13:00 |	\[Lunch\] |
-| 13:00-13:45 | [[Emil Prodan]] (Yeshiva University) |
-| 13:50-14:35 | [[Javad Shabani]] (NYU) |
-| 14:35-15:00 |	\[Break\] |
-| 15:00-15:45 |	[[Urs Schreiber]] (NYU Abu Dhabi) |
-| 15:50-16:35 |	[[Andrei Vrajitoarea]] (NYU New York) |
-| 17:00       | \[Closing\] |
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    }
+\end{imagefromfile}
 
 
+> **Abstract.** [[nLab:fractional quantum Hall system|Fractional quantum Hall systems]] (FQH) are a main contender for future [[nLab:quantum material|hardware]]-implementation of error-*protected* [[nLab:quantum registers]] (“[[nLab:topological order|topological]] [[nLab:qbits]]”) subject to error-protected [[nLab:quantum operations]] (“[[nLab:topological quantum computing|topological quantum gates]]”), both [plausibly necessary](/topological+quantum+computation#ReferencesNeedForTopologicalProtection) for future [[nLab:quantum computing]] at [useful scale](/nlab/show/quantum+computation#ReferencesNISQ), but both remaining insufficiently understood.
 
+> One issue is that [[nLab:FQH system|FQH]] [[nLab:anyons]] [are](/nlab/show/quantum+Hall+effect#IntroAnyonicQuasiParticles) ([[nLab:vortices]] supported by) [[nLab:magnetic field|magnetic]] [[nLab:flux]] [[nLab:quanta]], while proper [[nLab:geometry of physics -- flux quantization|flux quantization]] in [[nLab:FQH systems]] has [remained problematic](https://arxiv.org/pdf/1510.07698#page=35). 
 
+> This talk is to present a novel [[nLab:non-Lagrangian field theory|non-Lagrangian]] [[nLab:effective field theory|effective]] [[nLab:quantum field theory]] for [[nLab:FQH system|FQH]] [[nLab:anyons]] which is all based on proper [[nLab:geometry of physics -- flux quantization|flux quantization]], reducing the analysis of [[nLab:anyon|anyonic]] [[nLab:quantum physics|quantum]] [[nLab:quantum states|-states]], [[nLab:quantum observable|-observables]], and [[nLab:quantum measurement|-measurement channels]] to rigorous [[nLab:algebraic topology]].
 
+> I will indicate how [[nLab:fractional statistics]] and [[nLab:topological order]] of [[nLab:FQH systems]] is (re-)derived while some predictions differ subtly from those of traditional [effective Chern-Simons theory](/nlab/show/abelian+Chern-Simons+theory#AbelianCSTheoryAsEffectiveQFTForFRactionalQuantumHall) --- which might be observable in experiment and might inform the search for topological quantum hardware.
 
-
-$$   
-  \mathbb{C}[\mathbb{Z}^n]
-  \underset{
-    \mathbb{Z}\big[\mathbb{Z}^n_{[\sum] = 0}\big]
-  }{\otimes}
-  \mathbf{1}_{\zeta^{1/n}}
-$$
-
-$$
-  shift 
-  \sum_{i=0}^{n-1}
-  \zeta^{-i/n} (i, 0, \cdot)
-  \;=\;
-  \sum_{i=0}^{n-1}
-  \zeta^{-i/n} (i+1, 0, \cdot)
-  \;=\;
-  \zeta^{1/n}
-  \sum_{i=0}^{n-1}
-  \zeta^{-i/n} (i, 0, \cdot)
-$$
 
 \linebreak
 
