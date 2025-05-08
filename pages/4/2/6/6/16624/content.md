@@ -15,7 +15,12 @@
 
 ## Idea
 
-A [[brane]] [[worldvolume]] $\phi \colon \Sigma \longrightarrow X$ is said to _wrap_ a [[cycle]] $c \in H_{\dim(\Sigma)}(X)$ in [[spacetime]] $X$ when the pushforward $\phi_\ast [\Sigma] \in H_\bullet(X)$ of the [[fundamental class]] of $\Sigma$ is the class, $[c]$, of the given cycle in $X$. If the pushforward is a multiple of $[c]$, then the brane is said to wrap $c$ multiple times.
+In [[physics]] ([[string theory]]), a (factor space of a) [[brane]] [[worldvolume]] $\phi \colon \Sigma \longrightarrow X$ is said to _wrap_ a [[cycle]] $c \in H_{\dim(\Sigma)}(X)$ in [[spacetime]] $X$ when the pushforward $\phi_\ast [\Sigma] \in H_\bullet(X)$ of the [[fundamental class]] of the [[manifold]] (or [[orbifold]]) $\Sigma$ is the class, $[c]$, of the given cycle in $X$. If the pushforward is a multiple of $[c]$, then the brane is said to wrap $c$ multiple times.
+
+Here $H_\bullet$ is typically taken to be [[ordinary homology]] but may also be [[K-homology]] (cf. *[[D-brane charge quantization in K-theory]]*) and could in principle by any other [[generalized homology]]-theory thought to encode the [[geometry of physics -- flux quantization|flux quantization]]. 
+
+In [[mathematics]] ([[algebraic topology]]), a cycle represented by a [[manifold]] this way is said to be *[[Steenrod representability|Steenrod representable]]*.
+
 
 ## Examples
 
