@@ -7,30 +7,17 @@
 
 ***
 
-
-\begin{imagefromfile}
-    "file_name": "NYU-Physics-Research.png",
-    "float": "right",
-    "width": 300,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-
-        "bottom": 20,
-        "right": 0, 
-        "left": 20
-    }
-\end{imagefromfile}
-
-
-> **Abstract.** [[nLab:fractional quantum Hall system|Fractional quantum Hall systems]] (FQH) are a main contender for future [[nLab:quantum material|hardware]]-implementation of error-*protected* [[nLab:quantum registers]] (“[[nLab:topological order|topological]] [[nLab:qbits]]”) subject to error-protected [[nLab:quantum operations]] (“[[nLab:topological quantum computing|topological quantum gates]]”), both [plausibly necessary](/topological+quantum+computation#ReferencesNeedForTopologicalProtection) for future [[nLab:quantum computing]] at [useful scale](/nlab/show/quantum+computation#ReferencesNISQ), but both remaining insufficiently understood.
-
-> One issue is that [[nLab:FQH system|FQH]] [[nLab:anyons]] [are](/nlab/show/quantum+Hall+effect#IntroAnyonicQuasiParticles) ([[nLab:vortices]] supported by) [[nLab:magnetic field|magnetic]] [[nLab:flux]] [[nLab:quanta]], while proper [[nLab:geometry of physics -- flux quantization|flux quantization]] in [[nLab:FQH systems]] has [remained problematic](https://arxiv.org/pdf/1510.07698#page=35). 
-
-> This talk is to present a novel [[nLab:non-Lagrangian field theory|non-Lagrangian]] [[nLab:effective field theory|effective]] [[nLab:quantum field theory]] for [[nLab:FQH system|FQH]] [[nLab:anyons]] which is all based on proper [[nLab:geometry of physics -- flux quantization|flux quantization]], reducing the analysis of [[nLab:anyon|anyonic]] [[nLab:quantum physics|quantum]] [[nLab:quantum states|-states]], [[nLab:quantum observable|-observables]], and [[nLab:quantum measurement|-measurement channels]] to rigorous [[nLab:algebraic topology]].
-
-> I will indicate how [[nLab:fractional statistics]] and [[nLab:topological order]] of [[nLab:FQH systems]] is (re-)derived while some predictions differ subtly from those of traditional [effective Chern-Simons theory](/nlab/show/abelian+Chern-Simons+theory#AbelianCSTheoryAsEffectiveQFTForFRactionalQuantumHall) --- which might be observable in experiment and might inform the search for topological quantum hardware.
-
+$$
+  \begin{array}{ccc}
+     \Omega &\overset{f}{\longrightarrow}& \mathcal{N}
+     \\
+     \mathllap{^{sample}}\Big\downarrow 
+       && 
+     \Big\downarrow\mathrlap{^{sample}}
+     \\
+     X_n &\underset{g}{\longrightarrow}& Y_n
+  \end{array}
+$$
 
 \linebreak
 
