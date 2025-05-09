@@ -223,7 +223,7 @@ See at [flow of a vector field](flow+of+a+vector+field#SyntheticDefinition).
 
 The idea of axiomatizing [[differential geometry]] using ideas inspired by [[topos]] theory originates in 
 
-* {#Lawvere67} [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967). ([abstract pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
+* {#Lawvere67} [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967). 
 
 They were published as pp.1-28 in
 
@@ -242,6 +242,10 @@ Transcripts or notes of further talks by Bill Lawvere on the subject are
   (on the description of [[differential equation | differential equations]] in terms of synthetic differential geometry)
 
 * [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998). ([[LawvereSDGOutline.pdf:file]])
+
+An abstract of another talk by Lawvere which reuses the title of the original 1967 lectures and 1978 notes:
+
+* ([Toposes of laws of motion](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf)), Talk at the [[Category Theory Conference]] 2011 in Vancouver.
 
 Two articles that exhibit the link to [[continuum mechanics]]:
 
