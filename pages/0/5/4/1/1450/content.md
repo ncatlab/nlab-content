@@ -243,9 +243,9 @@ Transcripts or notes of further talks by Bill Lawvere on the subject are
 
 * [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998). ([[LawvereSDGOutline.pdf:file]])
 
-An abstract of another talk by Lawvere which reuses the title of the original 1967 lectures and 1978 notes:
+An abstract of another talk which reuses the title of the original 1967 lectures and 1978 notes:
 
-* ([Toposes of laws of motion](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf)), Talk at the [[Category Theory Conference]] 2011 in Vancouver.
+* [[Bill Lawvere]], [Categorical Dynamics](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf), Talk at the [Category Theory Conference](https://ncatlab.org/nlab/show/Category+Theory+conference) 2011 in Vancouver.
 
 Two articles that exhibit the link to [[continuum mechanics]]:
 
