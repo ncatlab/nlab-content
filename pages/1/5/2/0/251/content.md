@@ -220,8 +220,7 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 | Strict double categories, strict functors | Strict functors, strict vertical and horizontal transformations, modifications | Yes | Cartesian | Follows from the theory of [internal categories](https://ncatlab.org/nlab/show/internal+category#CartesianClosure) |
 | Strict double categories, strict functors | Strict functors, pseudo vertical and horizontal transformations, modifications | Yes | Symmetric | [Campbell19](#Campbell19), [Böhm20](#Böhm20) |
 | Pseudo double categories, strict functors | Pseudo functors, tight transformations, pseudo loose transformations, modifications | No | Symmetric skew | [Campbell19](#Campbell19) |
-| Pseudo double categories, strict functors | Pseudo functors, tight transformations, pseudo loose transformations, cubical modifications | Yes | Cartesian | §2 of [Garner06](#Garner06) |
-| Pseudo double categories, pseudo functors | Pseudo functors, tight transformations, pseudo loose transformations, modifications | No | Symmetric | [Campbell19](#Campbell19) |
+| Pseudo double categories, pseudo functors | Pseudo functors, tight transformations, pseudo loose transformations, modifications | Bicategorically cartesian monoidal | Symmetric | [Campbell19](#Campbell19), §2 of [Garner06](#Garner06) |
 | Strict double categories, strict functors | Strict functors, oplax horizontal, lax vertical, modifications | Yes | | Theorem 4.2 of [Femić24](#Femić24) |
 | Strict double categories, strict functors | Pseudo/lax/oplax functors, pseudo/lax/oplax horizontal, dually for vertical, modifications | Yes | Skew | §6.4.2 of [Femić24](#Femić24) |
 
@@ -237,7 +236,7 @@ An exploration of the possibility of a closed structure on strict double categor
 
 [[skew monoidal category|Skew monoidal]] structures are constructed on categories of double categories in:
 
-* {#Femić24} [[Bojana Femić]], _Gray (skew) multicategories: double and Gray-categorical cases_, [arXiv:2408.00561](https://arxiv.org/abs/2207.13452) (2024).
+* {#Femić24} [[Bojana Femić]], _Gray (skew) multicategories: double and Gray-categorical cases_, [arXiv:2408.00561](https://arxiv.org/abs/2408.00561) (2024).
 
 ## Model structures on the category of double categories
 
