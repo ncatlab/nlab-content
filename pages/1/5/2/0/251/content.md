@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -222,6 +220,7 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 | Strict double categories, strict functors | Strict functors, strict vertical and horizontal transformations, modifications | Yes | Cartesian | Follows from the theory of [internal categories](https://ncatlab.org/nlab/show/internal+category#CartesianClosure) |
 | Strict double categories, strict functors | Strict functors, pseudo vertical and horizontal transformations, modifications | Yes | Symmetric | [Campbell19](#Campbell19), [Böhm20](#Böhm20) |
 | Pseudo double categories, strict functors | Pseudo functors, tight transformations, pseudo loose transformations, modifications | No | Symmetric skew | [Campbell19](#Campbell19) |
+| Pseudo double categories, strict functors | Pseudo functors, tight transformations, pseudo loose transformations, cubical modifications | Yes | Cartesian | §2 of [Garner06](#Garner06) |
 | Pseudo double categories, pseudo functors | Pseudo functors, tight transformations, pseudo loose transformations, modifications | No | Symmetric | [Campbell19](#Campbell19) |
 | Strict double categories, strict functors | Strict functors, oplax horizontal, lax vertical, modifications | Yes | | Theorem 4.2 of [Femić24](#Femić24) |
 | Strict double categories, strict functors | Pseudo/lax/oplax functors, pseudo/lax/oplax horizontal, dually for vertical, modifications | Yes | Skew | §6.4.2 of [Femić24](#Femić24) |
@@ -332,8 +331,7 @@ See also:
 
 * [[The Catsters]], Double Categories ([YouTube](http://www.youtube.com/watch?v=kiCZiSA2W3Q&feature=channel_page)).
 
-* Tom Fiore, [Double categories and pseudo algebras](http://www-personal.umd.umich.edu/~tmfiore/1/CT2006Fioreslides.pdf). 
-
+* Tom Fiore, [Double categories and pseudo algebras](http://www-personal.umd.umich.edu/~tmfiore/1/CT2006Fioreslides.pdf).
 
 * Jeffrey C. Morton, [Double bicategories and double cospans](http://arxiv.org/abs/math/0611930).
 
@@ -364,6 +362,10 @@ On [[model structures on DblCat]]:
 * {#CampbellGreg} [[Alexander Campbell]], *The gregarious model structure for double categories* (2020) &lbrack;[talk slides pdf](https://acmbl.github.io/greg_slides.pdf)&rbrack;
 
 * {#MSVHInvar} [[Lyne Moser]], Maru Sarazola, Paula Verdugo,  *A model structure for weakly horizontally invariant double categories*, Algebraic & Geometric Topology **23** 4 (2023) 1725-1786 &lbrack;[arxiv:2007.00588](https://arxiv.org/abs/2007.00588), journal:[pdf](https://msp.org/agt/2023/23-4/agt-v23-n4-p08-p.pdf)&rbrack;
+
+For the ([[bicategory|bicategorically]]) cartesian closed structure, see:
+
+* [[Richard Garner]], *Double clubs*, Cahiers de Topologie et Geometrie Differentielle Categoriques 47 (2006), no. 4, 261--317; [arXiv](http://arxiv.org/abs/math/0606733)
 
 An explicit description of what it means to be a one-object double category (i.e. filling in the gap in "a delooping of a ___ is a double category") is given in [this Math.StackExchange answer](https://math.stackexchange.com/a/3790232).
 
