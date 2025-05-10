@@ -208,6 +208,9 @@ See also
 
 * Wikipedia, _[Lens space](https://en.wikipedia.org/wiki/Lens_space)_.
 
+* [[Neil Strickland]], section 9 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
+
 In the context of [[orbifolds]]:
 
 * Siddhartha Gadgil, _Equivariant framings, lens spaces and contact structures_, Pacific Journal of Mathematics, Vol. 208 (2003), No. 1, 73–84 ([doi:10.2140/pjm.2003.208.73](http://dx.doi.org/10.2140/pjm.2003.208.73))
