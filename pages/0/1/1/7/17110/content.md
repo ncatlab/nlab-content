@@ -86,6 +86,9 @@ Now
 
 ### General
 
+* [[Neil Strickland]], section 13 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
+
 All [[PL manifold|PL]] [[4-manifolds]] are _simple_ [[branched covers]] of the  [[4-sphere]]:
 
 * {#Piergallini95} [[Riccardo Piergallini]], _Four-manifolds as 4-fold branched covers of $S^4$_, Topology Volume 34, Issue 3, July 1995 (<a href="https://doi.org/10.1016/0040-9383(94)00034-I">doi:10.1016/0040-9383(94)00034-I</a>, [pdf](https://core.ac.uk/download/pdf/82379618.pdf))
