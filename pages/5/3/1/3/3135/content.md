@@ -331,9 +331,13 @@ This implies the claim.
 * [[unitary operator]]
 
 
+
 ## References
 
 (...)
+
+* [[Neil Strickland]], section 7 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
 
 * {#MimuraToda63} M. Mimura and H. Toda, _Homotopy Groups of $SU(3)$, $SU(4)$ and $Sp(2)$_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 217-250. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524818))
 
