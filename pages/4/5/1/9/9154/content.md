@@ -146,9 +146,10 @@ If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines
 
 * [[classifying space]], [[universal bundle]]
 
+
 ## References
 
-Textbook accounts include
+Textbook accounts:
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
@@ -160,9 +161,14 @@ Textbook accounts include
 Bull. Iranian Math. Soc. 47 (2021) (Suppl 1):S5--S33
 [doi](https://doi.org/10.1007/s41980-021-00542-6)
 
-Lecture notes include
+Lecture notes:
 
 * [[Michael Hopkins]], _Grassmannian manifolds_ ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1471353.files/grassmannian.pdf))
+
+See also:
+
+* [[Neil Strickland]], section 5 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
 
 category: geometry, algebra
 
