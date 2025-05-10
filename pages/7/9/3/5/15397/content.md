@@ -73,7 +73,7 @@ The concept was introduced in
 
 The history of the concept is reviewed in 
 
-* B. L. Reinhart
+* B. L. Reinhart, _Differential Geometry of Foliations: The Fundamental Integrability Problem_. Germany: Springer-Verlag, 1983. See the discussion at the end of I &sect;1.
 
 who attributes the term "pseudogroup" to 
 
