@@ -1,5 +1,13 @@
 
-* [website](http://neil-strickland.staff.shef.ac.uk/)
+* [personal page](http://neil-strickland.staff.shef.ac.uk/)
+
+* [personal github page](https://neilstrickland.github.io/)
+
+* [institute page](https://www.sheffield.ac.uk/mps/people/all-academic-staff/neil-strickland)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=75751)
+
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=ZEoB08IAAAAJ&hl=en)
 
 ## Selected writings
 
