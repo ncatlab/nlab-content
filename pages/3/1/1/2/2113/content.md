@@ -45,7 +45,9 @@ More generally, the __generalized flag variety__ is the complex projective varie
 
 * [[character sheaf]], [[horocycle correspondence]], [[Harish Chandra transform]]
 
+
 [[!include local and global geometry - table]]
+
 
 ## References
 
@@ -56,6 +58,8 @@ More generally, the __generalized flag variety__ is the complex projective varie
 * M. Brion, _Lectures on the geometry of flag varieties_, [pdf](http://www-fourier.ujf-grenoble.fr/~mbrion/lecturesrev.pdf)
 
 * [[Armand Borel]], _Linear algebraic groups_, Springer
+
+* [[Neil Strickland]], section 5 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
 
 
 On flag varieties of [[loop groups]]:
