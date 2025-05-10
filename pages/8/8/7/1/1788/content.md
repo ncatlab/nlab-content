@@ -8,6 +8,144 @@
 
 ***
 
+\begin{example}
+  
+Let 
+
+* $A \equiv \mathbb{Z}_n$
+
+* $H \equiv \mathbb{Z}_2$ acting as the sign [[involution]].
+
+The irreps of $\mathbb{Z}_n$ are given by
+
+$$
+  \begin{array}{ccc}
+    \mathbb{Z}_n 
+       &\xrightarrow{\;\; \chi_{[k]} \;\;}& 
+    \mathbb{C}^\times
+    \\
+    [r] &\mapsto& e^{2 \pi \mathrm{i} \tfrac{r k}{n}}
+  \end{array}
+$$
+
+for $[k] \in \mathbb{Z}_n$
+
+and $\mathbb{Z}_2$ acts on them by $[k] \mapsto [-k]$.
+
+Hence we have two kinds of orbits:
+
+1. consisting of a single (the trivial) rep $\big\{ [0] \big\}$ 
+
+   with stabilizer $\mathbb{Z}_2$ 
+
+2. consisting of a pair of reps, $([k],[-k])$ for $k \in \{1, \cdots, n-1\}$, 
+
+   with stabilizer the [[trivial group]] $1$.
+
+Hence the first case gives rise to two irreps, corresponding to the two irreps of $\mathbb{Z}_2$:
+
+$$
+  Ind
+    ^{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+    _{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+  \Big(
+    \big(
+      ([r], [s]) \mapsto 1
+    \big)
+    \otimes
+    \big(
+      ([r], [s]) \mapsto 1
+    \big)
+  \Big)
+  \;=\;
+  triv
+$$
+
+and
+
+$$
+  Ind
+    ^{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+    _{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+  \Big(
+    \big(
+      ([r], [s]) \mapsto 1
+    \big)
+    \otimes
+    \big(
+      ([r], [s]) \mapsto e^{\pi \mathrm{i} s}
+    \big)
+  \Big)
+  \;=\;
+  \big(
+    ([r], [s]) \mapsto e^{\pi \mathrm{i} s}
+  \big)
+  \,,
+$$
+
+while the second case gives rise to one irrep for each $k \in \{1, \cdots, (n-1)/2\}$:
+
+$$
+  \begin{array}{l}
+  Ind
+    ^{ \mathbb{Z}_p \rtimes \mathbb{Z}_2 }
+    _{ \mathbb{Z}_p }
+  \Big(
+    \big(
+      [r] \mapsto e^{2 \pi \mathrm{i} \tfrac{r k}{n}}
+    \big)
+    \otimes
+    \big(
+      [r] \mapsto 1
+    \big)
+  \Big)
+  \\
+  \;\simeq\;
+  \mathbb{C}\big[
+    \mathbb{Z}_p \rtimes \mathbb{Z}_2
+  \big]  
+  \otimes_{ \mathbb{C}[\mathbb{Z}_p] }
+    \big(
+      [r] \mapsto e^{2 \pi \mathrm{i} \tfrac{r k}{n}}
+    \big)
+  \end{array}
+$$
+
+These latter irreps are 2-dimensional with matrix representation $\widehat{(-)}$
+
+$$
+  \widehat{
+  \big(
+    [1], [0]
+  \big)
+  }
+  \;=\;
+  \left[
+    \begin{matrix}
+       e^{+ 2 \pi \mathrm{i} \tfrac{k}{n}} & 0
+       \\ 
+       0 & e^{- 2 \pi \mathrm{i} \tfrac{k}{n}} 
+    \end{matrix}
+  \right]
+  \,,\;\;\;\;\;\;
+  \widehat{
+  \big(
+    [0], [1]
+  \big)
+  }
+  \;=\;
+  \left[
+  \begin{matrix}
+     0 & 1 
+     \\
+     1 & 0
+  \end{matrix}
+  \right]
+$$
+ 
+
+\end{example}
+
 
 **Mackey theory**
 
