@@ -565,6 +565,9 @@ Textbook account:
 
 See also:
 
+* [[Neil Strickland]], section 4 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
+
 * Miles Reid, _Graded rings and varieties in weighted projective space_ ([pdf](http://www.warwick.ac.uk/~masda/surf/more/grad.pdf))
 
 * [[Aurelio Carboni]], [[Marco Grandis]] , _Categories of projective spaces_ , JPAA **110** (1996) pp.241-258.
