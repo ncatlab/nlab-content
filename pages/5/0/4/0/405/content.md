@@ -251,7 +251,7 @@ The following two choices, for one and two connections respectively, reflect the
 +-- {: .num_defn}
 ###### Definition
 
-The **join (resp. meet) semilattice category** is the Lawvere theory of bounded join (resp. meet) [[semilattice|semilattices]].
+The **join (resp. meet) semilattice category** is the Lawvere theory of [[01-bounded]] join (resp. meet) [[semilattice|semilattices]].
 (The join and meet variants are of course isomorphic.)
 
 =--
@@ -466,6 +466,7 @@ A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in
 [[!redirects symmetric cube category]]
 [[!redirects semicartesian cube category]]
 [[!redirects cartesian cube category]]
+[[!redirects semilattice cube category]]
 [[!redirects de Morgan cube category]]
 [[!redirects Dedekind cube category]]
 [[!redirects category of cubes - exposition]]
