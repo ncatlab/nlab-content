@@ -155,6 +155,8 @@ For related topics in [[homotopy type theory]]:
 
 * [[Martín Escardó]], Cory Knapp, *Partial Elements and Recursion via Dominances in Univalent Type Theory* &lbrack;[doi:10.4230/LIPIcs.CSL.2017.21](https://doi.org/10.4230/LIPIcs.CSL.2017.21)&rbrack;
 
+* {#PS25} [[Leoni Pugh]], [[Jonathan Sterling]], *When is the partial map classifier a Sierpiński cone?* ([arXiv:2504.06789](https://arxiv.org/abs/2504.06789))
+
 Discussion for [[topological spaces]]:
 
 * {#MaySigurdsson06} [[Peter May]], [[Johann Sigurdsson]], Def. 1.3.6 in: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006   ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
