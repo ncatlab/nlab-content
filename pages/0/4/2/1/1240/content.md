@@ -1031,7 +1031,13 @@ The [general abstract formulation](#GeneralAbtractDefinition) above is mentioned
 
 * {#Lawvere69} [[William Lawvere]]: _[[Adjointness in Foundations]]_, Dialectica **23** (1969) 281-296,  Reprints in Theory and Applications of Categories, **16** (2006) 1-16 &lbrack;[pdf](http://www.tac.mta.ca/tac/reprints/articles/16/tr16.pdf)&rbrack;
  
-* {#Lawvere70} [[William Lawvere]]: _[[Equality in hyperdoctrines and comprehension schema as an adjoint functor]]_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970) 1-14 &lbrack;[pdf](https://ncatlab.org/nlab/files/LawvereComprehension.pdf)&rbrack;
+* {#Lawvere70} [[William Lawvere]]: _[[Equality in hyperdoctrines and comprehension schema as an adjoint functor]]_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970) 1-14 &lbrack;[pdf](/nlab/files/LawvereComprehension.pdf)&rbrack;
+
+### For Lie groups
+
+For [[Lie groups]]:
+
+* [[José Figueroa-O’Farrill]]: *The Theory of Induced Representations in Field Theory* &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/~jmf/Teaching/Projects/Poincare/IndReps.pdf), [[Figueroa-InducedReps.pdf:file]]&rbrack;
 
  
 
