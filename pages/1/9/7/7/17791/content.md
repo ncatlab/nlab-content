@@ -53,6 +53,9 @@ $$
 
 * [[McKay quiver]]
 
+[[!redirects tensor products of representations]]
+
 [[!redirects tensor product of representations]]
+
 
 
