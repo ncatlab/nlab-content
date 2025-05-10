@@ -30,7 +30,7 @@ For details see at
 
 * _[[unitary representation of the super Poincaré group]]_.
 
-It uses a method that goes back to Frobenius and came to be known as "Wigner's little group method" or the "Mackey machine" ([Mackey 68](#Mackey68)). 
+It uses a method that goes back to Frobenius and came to be known as "Wigner's little group method" or the "[[Mackey theory]]" (going back to [Mackey 1968](#Mackey68)). 
 
 ## Related concepts
 
