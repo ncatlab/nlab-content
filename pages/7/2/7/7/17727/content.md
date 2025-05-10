@@ -24,6 +24,7 @@ A Grothendieck topos model that is very closely related to the analytic notion o
 * [[synthetic guarded domain theory]]
 * [[synthetic topology]]
 * [[synthetic computability theory]]
+* [[Phoa's principle]]
 
 ##References
 
@@ -34,3 +35,5 @@ A Grothendieck topos model that is very closely related to the analytic notion o
 * [[Marcelo Fiore]] and [[Giuseppe Rosolini]], _The Category of Cpos From a Synthetic Viewpoint_, ENTCS Vol 6, 1997, ([doi](https://doi.org/10.1016/S1571-0661%2805%2980165-3))
 
 * [[Marcelo Fiore]] and [[Giuseppe Rosolini]], _Two models of synthetic domain theory_, Journal of Pure and Applied Algebra, Volume 116, Issues 1–3, 28 March 1997, ([doi](https://doi.org/10.1016/S0022-4049%2896%2900164-8))
+
+* {#PS25} [[Leoni Pugh]], [[Jonathan Sterling]], *When is the partial map classifier a Sierpiński cone?* ([arXiv:2504.06789](https://arxiv.org/abs/2504.06789))
