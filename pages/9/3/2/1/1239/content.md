@@ -80,6 +80,7 @@ More in detail, this yields the following identifications:
 
 * [[Schur-Weyl duality]]
 
+
 ## Related entries
 
 * [[representation]], [[action]], [[module]]
@@ -92,7 +93,9 @@ More in detail, this yields the following identifications:
 
   * [[action]], [[module]], [[equivariant object]]
 
-  * [[bimodule]], [[Morita equivalence]], [[induced representation]]
+  * [[bimodule]], [[Morita equivalence]]
+
+  * [[induced representation]], [[Mackey theory]]
 
   * [[Hilbert space]], [[Banach space]], [[Fourier transform]], [[functional analysis]]
   
