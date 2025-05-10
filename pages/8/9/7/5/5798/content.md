@@ -49,7 +49,7 @@ is called the [[de Rham space]] of $X$.
 
 ### Relation to prime ideals 
 
-\begin{theorem} Assuming the [[axiom of choice]], if $R$ is a commutative ring, then the nilradical equals the [[Jacobson radical]], the intersection of all [[prime ideals]] of $R$. \end{theorem} 
+\begin{theorem} Assuming the [[axiom of choice]], if $R$ is a commutative ring, then the nilradical equals the intersection of all [[prime ideals]] of $R$. \end{theorem} 
 
 \begin{proof} In one direction, it it elementary that if $x$ is nilpotent, then $x$ belongs to any prime $\mathfrak{p}$. 
 
