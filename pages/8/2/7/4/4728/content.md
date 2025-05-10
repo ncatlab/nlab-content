@@ -354,6 +354,9 @@ Review and exposition of the classification of surfaces by fundamental [[polygon
 
 * Ana da Silva Rodrigues: *Classification of Surfaces*, BSc thesis, ETH (2023) &lbrack;[pdf](https://people.math.ethz.ch/~acannas/Student_Papers/BSc_Theses/2023_bsc_da_silva_classification_of_surfaces.pdf), [[Rodrigues-ClassificationOfSurfaces.pdf:file]]&rbrack;
 
+* [[Neil Strickland]], section 11 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
+
 See also:
 
 * Wikipedia: *[Fundamental polygon](https://en.wikipedia.org/wiki/Fundamental_polygon)*
