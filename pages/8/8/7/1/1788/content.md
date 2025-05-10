@@ -5,19 +5,15 @@
 \linebreak
 
 
+
+
 ***
 
-$$
-  \begin{array}{ccc}
-     \Omega &\overset{f}{\longrightarrow}& \mathcal{N}
-     \\
-     \mathllap{^{sample}}\Big\downarrow 
-       && 
-     \Big\downarrow\mathrlap{^{sample}}
-     \\
-     X_n &\underset{g}{\longrightarrow}& Y_n
-  \end{array}
-$$
+* Ha Quang Trung, Bo Yang: *Fractionalisation and dynamics of anyons at $\nu = n + 1/3$ in fractional quantum Hall effect and their experimental signatures*, Phys. Rev. Lett. **127** (2021) 046402 &lbrack;[arXiv:2009.14214](https://arxiv.org/abs/2009.14214), [doi:10.1103/PhysRevLett.127.046402](https://doi.org/10.1103/PhysRevLett.127.046402)&rbrack;
+
+* Bo Yang, Ying-Hai Wu, Zlatko Papic: *Effective Abelian theory from a non-Abelian topological order in $\nu = 2/5$ fractional quantum Hall effect*, Phys. Rev. B **100** (2019) 245303 &lbrack;[arXiv:1907.12572](https://arxiv.org/abs/1907.12572), [doi:10.1103/PhysRevB.100.245303](https://doi.org/10.1103/PhysRevB.100.245303)&rbrack;
+
+
 
 \linebreak
 
