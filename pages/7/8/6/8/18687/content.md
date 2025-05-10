@@ -3,6 +3,8 @@
 
 ## Selected writings
 
+* {#PS25} [[Leoni Pugh]], [[Jonathan Sterling]], *When is the partial map classifier a Sierpiński cone?* ([arXiv:2504.06789](https://arxiv.org/abs/2504.06789))
+
 On [[guarded recursion]]:
 
 * [[Jonathan Sterling]], [[Robert Harper]], *Guarded Computational Type Theory*, LICS '18 (2018) 879–888 &lbrack;[arxiv:1804.09098](https://arxiv.org/abs/1804.09098), [doi:10.1145/3209108.3209153](https://doi.org/10.1145/3209108.3209153)&rbrack;
