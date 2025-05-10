@@ -553,9 +553,17 @@ and the GWW *neutral fermion* excitation of the Moore-Read state:
 * {#GreiterWenWilczek91} [[Martin Greiter]], [[Xiao-Gang Wen]], [[Frank Wilczek]]: *Paired Hall state at half filling*, Phys. Rev. Lett. **66** (1991) 3205 &lbrack;[doi:10.1103/PhysRevLett.66.3205](https://doi.org/10.1103/PhysRevLett.66.3205)&rbrack;
 
 
-Critical discussion:
+Critique:
 
 * {#Mikhailov24} S. A. Mikhailov: *Toward a new theory of the fractional quantum Hall effect*, Nanomaterials **14** 2 (2024) 297 &lbrack;[arXiv:2206.05152](https://arxiv.org/abs/2206.05152), [doi:10.3390/nano14030297](https://doi.org/10.3390/nano14030297)&rbrack;
+
+
+Further fractonalization of quasi-hole states into *Gaffnian states*:
+
+* Bo Yang, Ying-Hai Wu, Zlatko Papic: *Effective Abelian theory from a non-Abelian topological order in $\nu = 2/5$ fractional quantum Hall effect*, Phys. Rev. B **100** (2019) 245303 &lbrack;[arXiv:1907.12572](https://arxiv.org/abs/1907.12572), [doi:10.1103/PhysRevB.100.245303](https://doi.org/10.1103/PhysRevB.100.245303)&rbrack;
+
+* Ha Quang Trung, Bo Yang: *Fractionalisation and dynamics of anyons at $\nu = n + 1/3$ in fractional quantum Hall effect and their experimental signatures*, Phys. Rev. Lett. **127** (2021) 046402 &lbrack;[arXiv:2009.14214](https://arxiv.org/abs/2009.14214), [doi:10.1103/PhysRevLett.127.046402](https://doi.org/10.1103/PhysRevLett.127.046402)&rbrack;
+
 
 
 
