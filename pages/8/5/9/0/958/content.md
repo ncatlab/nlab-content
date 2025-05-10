@@ -83,6 +83,9 @@ See also:
 
 * Wikipedia *[Wedge sum](https://en.wikipedia.org/wiki/Wedge_sum)* 
 
+* [[Neil Strickland]], Section 2 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
+
 
 [[!redirects wedge sum]]
 [[!redirects wedge sums]]
