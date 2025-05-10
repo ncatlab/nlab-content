@@ -273,6 +273,9 @@ Lecture notes:
 
 * {#Kobin16} Andrew Kobin, Section 7.6 of: _Algebraic Topology_, 2016 ([[KobinAT2016.pdf:file]])
 
+* [[Neil Strickland]], section 15 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
+
 The construction via reduced linearization of spheres is considered in
 
 * {#Schwede12} [[Stefan Schwede]], Example I.1.14 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
