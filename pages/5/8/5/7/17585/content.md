@@ -74,8 +74,9 @@ The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is akin to that that
 ### For the based loop space
  {#ConstructionForBasedLoopSpace}
 
-For $X$ a [[pointed topological space]] and for the [[circle]] $S^1$ regarded as [[pointed topological space|pointed]] by any base point $\ast \to S^1$ 
-there is the following [[homotopy fiber sequence]] which exhibits the [[based loop space]] as the [[homotopy fiber]] of the [[evaluation map]] out of the [[free loop space]]:
+The [above](#ConstructionForFreeLoopSpace) result for the Sullivan model of free loop spaces implies also the models for based loop spaces, as follows.
+
+For $X$ a [[pointed topological space]] and for the [[circle]] $S^1$ regarded as [[pointed topological space|pointed]] by any base point $\ast \to S^1$  there is the following [[homotopy fiber sequence]] which exhibits the [[based loop space]] as the [[homotopy fiber]] of the [[evaluation map]] out of the [[free loop space]]:
 
 $$
   \Omega X 
@@ -93,7 +94,7 @@ $$
   \overset{ cofib\big( (ev_\ast)^\ast \big) }{\longleftarrow}
   (\wedge^\bullet( V \oplus s V ), d_{\mathcal{L}X})
   \overset{ (ev_\ast)^\ast }{\longleftarrow}
-  (\wedge\bullet V, d_X)
+  (\wedge^\bullet V, d_X)
   \,.
 $$
 
@@ -102,11 +103,13 @@ Since the inclusion on the right is manifestly a [[relative Sullivan algebra]], 
 \begin{prop}\label{SullivanModelForBasedLoopSpace}
 **([[Sullivan model]] for [[based loop space]])**
 \linebreak
-For $X$ a [[connected topological space|connected]] and [[simply connected topological space]] with [[Sullivan model]] $(\wedge\bullet V, d_X)$, the Sullivan model 
+For $X$ a [[connected topological space|connected]] and [[simply connected topological space]] with [[Sullivan model]] $(\wedge^\bullet V, d_X)$, the Sullivan model 
 $(\wedge^\bullet( s V ), d_{\Omega X})$ 
 of its [[based loop space]] $\Omega X$
 is the dgc-algebra obtained from $(\wedge^\bullet V, d_X)$ by shifting down all generators in degree by 1, and by keeping only the co-unary component of the [[differential]].
 \end{prop}
+
+(cf. also [Félix, Halperin & Thomas 2000 p 143](#FelixHalperinThomas00))
 
 \begin{remark}\label{PontrjaginProductOnHomologyOfBasedLoopSpace}
   While Prop. \ref{SullivanModelForBasedLoopSpace} says that the rational [[Whitehead brackets]] of a loop space all vanish (as generally for any [[H-space]], see [there](H-space#RationalHomotopy)), the [[ordinary homology]] of a loop space inherits another product, namely the [[Pontrjagin product]], and this makes (see [there](Pontrjagin+ring#RelationToWhiteheadProduct)) the homology form the [[universal enveloping algebra]] of the binary [[Whitehead bracket]] [[super Lie algebra]] of the original space.
@@ -847,7 +850,8 @@ Examples:
 
 Review:
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]]: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000) &lbrack;[doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9)rbrack;
+
 
 * {#Hess06} [[Kathryn Hess]], example 2.5 of _Rational homotopy theory: a brief introduction_ ([math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
