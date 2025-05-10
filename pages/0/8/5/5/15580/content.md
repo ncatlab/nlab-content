@@ -93,9 +93,12 @@ This means that given an abelian group $A$ then
 
 * {#Schwede12} [[Stefan Schwede]], section II.6.3 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/people/schwede/SymSpec-v3.pdf))
 
-Lecture notes include 
+Lecture notes:
 
 * {#Strickland} [[Neil Strickland]], p. 9 of _An introduction to the category of spectra_ ([pdf](https://neil-strickland.staff.shef.ac.uk/research/stableintro.pdf))
+
+* [[Neil Strickland]], section 14 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
 
 * {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
 
