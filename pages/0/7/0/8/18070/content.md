@@ -1541,6 +1541,9 @@ General accounts:
 
 * {#Cohen09} [[Frederick R. Cohen]]: *Introduction to configuration spaces and their applications*, in: *Braids*, Lecture Notes Series **19**, Institute for Mathematical Sciences, National University of Singapore (2009)  183-261  &lbrack;[doi:10.1142/9789814291415_0003](https://doi.org/10.1142/9789814291415_0003), [doi:10.1142/7550](https://doi.org/10.1142/7550 ), [pdf](https://www.mimuw.edu.pl/~sjack/prosem/Cohen_Singapore.final.24.december.2008.pdf), [[Cohen-IntroConfigSpaces.pdf:file]]&rbrack;
 
+* [[Neil Strickland]], section 3 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
+
 * [[Craig Westerland]], _Configuration spaces in geometry and topology_ (2011) &lbrack;[pdf](https://www.austms.org.au/Publ/Gazette/2011/Nov11/TechPaperWesterland.pdf)&rbrack;
   > (in [[geometry]] and [[topology]])
 
@@ -1550,6 +1553,8 @@ General accounts:
 * {#Williams20} [[Lucas Williams]]: *Configuration Spaces for the Working Undergraduate*,  Rose-Hulman Undergraduate Mathematics Journal **21** 1 (2020) Article 8 &lbrack;[arXiv:1911.11186](https://arxiv.org/abs/1911.11186), [rhumj:vol21/iss1/8](https://scholar.rose-hulman.edu/rhumj/vol21/iss1/8)&rbrack;
 
 * {#Kallel24} [[Sadok Kallel]], *Configuration spaces of points: A user's guide*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 98-135 &lbrack;[arXiv:2407.11092](https://arxiv.org/abs/2407.11092), [doi:10.1016/B978-0-323-95703-8.00211-1](https://doi.org/10.1016/B978-0-323-95703-8.00211-1)&rbrack;
+
+
 
 In relation to [[braid groups]]:
 
