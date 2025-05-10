@@ -88,6 +88,8 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 
 * [[suplattice]]
 
+* [[01-bounded semilattice]]
+
 ## Related concepts
 
 * [[band]]
@@ -105,7 +107,6 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 [[!redirects meet semilattice]]
 [[!redirects join semilattice]]
 [[!redirects cosemilattice]]
-[[!redirects bounded semilattice]]
 [[!redirects pseudosemilattice]]
 [[!redirects semipseudolattice]]
 [[!redirects semilattices]]
@@ -114,6 +115,14 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 [[!redirects meet semilattices]]
 [[!redirects join semilattices]]
 [[!redirects cosemilattices]]
-[[!redirects bounded semilattices]]
 [[!redirects pseudosemilattices]]
 [[!redirects semipseudolattices]]
+
+[[!redirects bounded semilattice]]
+[[!redirects bounded semilattices]]
+
+[[!redirects bounded meet-semilattice]]
+[[!redirects bounded meet-semilattices]]
+
+[[!redirects bounded join-semilattice]]
+[[!redirects bounded join-semilattices]]
