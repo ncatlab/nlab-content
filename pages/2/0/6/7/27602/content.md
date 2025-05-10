@@ -13,18 +13,20 @@
 
 ## Idea
 
-Let $L$ be a [[distributive lattice]]. **Phoa's principle** states that for all [[endofunctions]] $f:L \to L$ and elements $x \in L$:
+Let $L$ be a [[01-bounded semilattice]], that is, a semilattice with an [[absorbing element]]. **Phoa's principle** states that every [[endofunction]] $f:L \to L$ is [[monotonic]] and the precomposition function $h \mapsto h \circ i:L^L \to L^\mathbb{2}$ by the [[embedding]] $i:\mathbb{2} \hookrightarrow L$ of the [[booleans]] into $L$ is an embedding. 
+
+If $L$ is a [[distributive lattice]], then Phoa's principle is equivalent to the linear interpolation condition that for all [[endofunctions]] $f:L \to L$ and elements $x \in L$:
 $$f(x) = f(\top) \wedge (x \vee f(\bot))$$
 
-More generally, let $L$ be a bounded [[semilattice]], that is, a semilattice with an [[absorbing element]]. **Phoa's principle** states that every [[endofunction]] $f:L \to L$ is [[monotonic]] and the precomposition function $h \mapsto h \circ i:L^L \to L^\mathbb{2}$ by the [[embedding]] $i:\mathbb{2} \hookrightarrow L$ is an embedding. 
-
-In [[Pos]] the category of [[posets]] and [[monotonic functions]], Phoa's principle holds for the [[boolean domain]] $\mathbb{2}$. In [[synthetic Stone duality]], Phoa's principle holds for the [[type of propositions|type of]] [[open propositions]] $\mathrm{Open}$. 
+In [[Pos]] the category of [[posets]] and [[monotonic functions]], Phoa's principle holds for the [[boolean domain]] $\mathbb{2}$. In [[synthetic Stone duality]], Phoa's principle holds for the [[type of propositions|type of]] [[open propositions]] $\mathrm{Open}$. In [[synthetic domain theory]], Phoa's principle holds for a [[dominance]] $\Omega$. 
 
 ## Related concepts
 
 * [[distributive lattice]]
 
 * [[flat distributive lattice]]
+
+* [[01-bounded semilattice]]
 
 * [[directed univalence]]
 
