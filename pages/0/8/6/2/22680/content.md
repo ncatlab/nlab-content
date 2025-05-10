@@ -131,7 +131,7 @@ The multiplicative monoid of the natural numbers $\mathbb{N}^\times$ is the [[fr
 
 * The multiplicative monoid of every [[rig]] is an absorption monoid. 
 
-* Every join-[[semilattice]] with a [[top element]] and evety meet-semilattice with a [[bottom element]] is an absorption monoid. 
+* Every [[01-bounded semilattice]] is an abosrption [[semilattice]]. 
 
 ## Related concepts
 
