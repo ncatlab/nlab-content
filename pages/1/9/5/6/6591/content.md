@@ -37,7 +37,7 @@ $$
   \,.
 $$
 
-One can prove that this is independent of all the occurring choices. In particular it does not depend on the specific choice of embedding of the manifold $X$ into to the [[Euclidean space]]. The _topological index function_ is uniquely fixed by two properties (this is the content of the [[Atiyah-Singer index theorem]]):
+One can prove that this is independent of all the occurring choices. In particular it does not depend on the specific choice of embedding of the manifold $X$ into the [[Euclidean space]]. The _topological index function_ is uniquely fixed by two properties (this is the content of the [[Atiyah-Singer index theorem]]):
 
 1. For $X$ a point we have $ind_t=id$.
 
