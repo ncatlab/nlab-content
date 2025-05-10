@@ -1253,10 +1253,9 @@ Emphasis of the role of [[de Rham complexes]] of [[smooth manifolds]])
 
 Survey and review:
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000 ([doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9))
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]]: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000) &lbrack;[doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9)rbrack;
 
-* {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific 2015 ([doi:10.1142/9473](https://doi.org/10.1142/9473))
-
+* {#FelixHalperinThomas15} [[Yves Félix]], [[Steve Halperin]], [[Jean-Claude Thomas]], _Rational Homotopy Theory II_, World Scientific (2015) &lbrack;[doi:10.1142/9473](https://doi.org/10.1142/9473)&brack;
   > (with aspects of the generalizing to [[Borel-equivariant rational homotopy theory]] for non-[[nilpotent spaces]])
 
 * {#Majewski00} Martin Majewski, *Rational homotopy models and uniqueness*, Memoir of the AMS **143** 682 (2000) &lbrack;[doi:10.1090/memo/0682](https://doi.org/10.1090/memo/0682)&rbrack;
