@@ -29,27 +29,31 @@ A type theory is said to enjoy **canonicity** if every closed term (i.e. a [[ter
 
 ## Canonicity vs axioms
 
-Adding [[axioms]] to type theory, such as the principle of [[excluded middle]] or the usual version of the [[univalence axiom]], can destroy canonicity.  The axioms result in "stuck terms" which are not of canonical form, yet neither can they be "computed" any further.
+Adding [[axioms]] to [[Martin-Löf type theory]], such as the principle of [[excluded middle]] or the usual version of the [[univalence axiom]], can destroy canonicity.  The axioms result in "stuck terms" which are not of canonical form, yet neither can they be "computed" any further.
 
 For instance, if we assume the law of excluded middle, then we can build a term $case(LEM(Goldbach),0,1) \colon \mathbb{N}$ which is $0$ or $1$ according as the Goldbach conjecture is true or false.  Clearly this term doesn't "compute", but neither is it of canonical form (a numeral).
 
-Similarly, using the univalence axiom, we can obtain a term $p : (\mathbf{2}=\mathbf{2})$ corresponding to the automorphism of the type $\mathbf{2}$ which switches $0_\mathbf{2}$ and $1_\mathbf{2}$.  Then the term $transport(p,0_\mathbf{2})$ also has type $\mathbf{2}$, but doesn't "compute" because the computer gets "stuck" on the univalence term.
+Similarly, using the [[univalence axiom]], we can obtain a term $p : (\mathbf{2}=\mathbf{2})$ corresponding to the automorphism of the type $\mathbf{2}$ which switches $0_\mathbf{2}$ and $1_\mathbf{2}$. Then the term $transport(p,0_\mathbf{2})$ also has type $\mathbf{2}$, but doesn't "compute" because the computer gets "stuck" on the univalence term.
 
-It is conjectured that univalence, unlike excluded middle, can be given a "computational" interpretation while preserving canonicity.  Some partial progress towards this can be found in ([Licata 2011](#Licata2011)).
+On the other hand, this form of univalence can be given a "computational" interpretation while preserving canonicity in [[cubical type theory]] (see e.g. [Huber 2019](#Huber16)). It is conjectured that univalence can also be given a "computational" interpretation while preserving canonicity in [[higher observational type theory]] (see [Altenkirch et al. 2024](#ACKS24)). 
+
 ## See also
 
 * [[homotopy canonicity]]
 
 ## References
 
-Discussion of canonicity in [[homotopy type theory]] with [[univalence]] is discussed in 
+Discussion of canonicity in [[univalent type theory]] is discussed in 
 
 * Simon Huber (with [[Thierry Coquand]]), _Towards a computational justification of the Axiom of Univalence_ , talk at _TYPES 2011_ ([pdf](http://www.cse.chalmers.se/~simonhu/slides/types11.pdf))
 
 * [[Dan Licata]], [[Robert Harper]], _Computing with Univalence_  (2012) ([pdf](http://4wft.fmf.uni-lj.si/wp-content/uploads/2012/04/Licata.pdf))
 
-
 * {#Licata2011}[[Dan Licata]], _Canonicity for 2-Dimensional Type theory_  (2011) ([web](http://homotopytypetheory.org/2011/07/27/canonicity-for-2-dimensional-type-theory/))
+
+* {#Huber16} [[Simon Huber]], _Canonicity for Cubical Type Theory_, Journal of Automated Reasoning, 63, 2019. ([doi:10.1007/s10817-018-9469-1](https://dx.doi.org/10.1007/s10817-018-9469-1), [arXiv:1607.04156](https://arxiv.org/abs/1607.04156))
+
+* {#ACKS24} [[Thorsten Altenkirch]], [[Yorgo Chamoun]], [[Ambrus Kaposi]], [[Michael Shulman]], *Internal parametricity, without an interval*, Proceedings of the ACM on Programming Languages (POPL) **8** (2024) 2340-2369 &lbrack;[arXiv:2307.06448](https://arxiv.org/abs/2307.06448), [doi:10.1145/3632920](https://doi.org/10.1145/3632920)&rbrack;
 
 [[!redirects canonical form]]
 [[!redirects canonical forms]]
