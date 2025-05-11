@@ -13,7 +13,7 @@
 
 ## Idea
 
-A **higher coinductive type** is a version of a [[coinductive type]] in which the input of a method is a higher-dimensional version of itself, dually to how a [[higher inductive type]] has constructors whose output is a higher-dimensional version of itself. 
+**Higher coinductive types** are a generalization of [[coinductive types]] where the input of a method is a higher-dimensional version of itself, dually to how a [[higher inductive type]] has constructors whose output is a higher-dimensional version of itself. 
 
 As a result, higher [[coinductive]] types typically require context modification rules which replace [[variables]] with higher-dimensional cubes (see e.g. [here](https://github.com/gwaithimirdain/narya/issues/66#issuecomment-2840396249)). 
 
