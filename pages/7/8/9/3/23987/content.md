@@ -1457,7 +1457,7 @@ $\;\;\;\;\;\;$[[Jennifer Paykin|Paykin]] $\;\;\;\;$[[David Wärn|Wärn]] $\;$ [[
   > [[higher observational type theory|Higher Observational Type Theory]] is a third style of [[homotopy type theory|Homotopy Type Theory]], contrasting with [[Book HoTT]] and [[cubical type theory|Cubical Type Theory]]. It is characterized by a definition of [[identity types]] by [[recursion]] on the base type: the identity type of a [[product type]] is defined to be a product of identity types, and so on. [[extensional type theory|Extensionality principles]] like [[function extensionality|funext]], [[univalence]], and [[bisimulation]] then hold essentially by definition, rather than only up to [[type equivalence|equivalence]]. Like [[cubical type theory|Cubical Type Theory]], [[higher observational type theory|Higher Observational Type Theory]] can be built by defining a [[fibrant type|fibrancy predicate]] in a non-univalent substrate theory, which in this case is a form of internally parametric type theory. [Altenkirch's talk](#AltenkirchApr2024) describes a [[canonicity]] proof for this substrate; I will sketch a normalization algorithm for it (sans proof), and then demonstrate a prototype implementation of this algorithm. This is joint work in progress with [[Thorsten Altenkirch|Altenkirch]], [[Ambrus Kaposi|Kaposi]], and Uskuplu.
 
 
-* {#SterlingApr2024} [[Jonathan Sterling]] (Univ. Cambirdge):
+* {#SterlingApr2024} [[Jonathan Sterling]] (Univ. Cambridge):
 
   **Baby steps in higher domain theory**
 
