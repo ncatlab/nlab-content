@@ -9,6 +9,8 @@
 =--
 =--
 
+
+
 \tableofcontents
 
 
@@ -92,6 +94,7 @@ and consider the [[induced representations]] of the [[tensor product of represen
 \]
 
 \begin{proposition}
+\label{ForFiniteSemidirectProductsWithAbelianGroups}
   
 1. The representations $\theta_{i,\rho}$ (eq:MackeyIrrepForFiniteSemProdWithAbelian) are irreducible.
 
@@ -102,6 +105,278 @@ and consider the [[induced representations]] of the [[tensor product of represen
 \end{proposition}
 
 ([Serre 1977 Prop. 25 p 62](#Serre77))
+
+## Examples
+
+\begin{example}
+\label{ExampleIrrepsOfZnRtimesZTwo}
+Consider the semidirect product group $G \equiv \mathbb{Z}_n \rtimes \mathbb{Z}_2$, with
+
+* $A \equiv \mathbb{Z}_n \,\coloneqq\, \mathbb{Z}/n$ the [[cyclic group]] of [[order of a group|order]] $n \in \mathbb{N}$,
+
+* $H \equiv \mathbb{Z}_2$ the [[cyclic group of order 2]] acting on $\mathbb{Z}_n$ via the sign [[involution]].
+
+In order find all the (complex) [[irreps]] of $\mathbb{Z}_n \rtimes \mathbb{Z}_2$ we unwind the statement of Prop. \ref{ForFiniteSemidirectProductsWithAbelianGroups}:
+
+> (We denote [[congruence classes]] by square brackets: $[-] \colon \mathbb{Z} \twoheadrightarrow \mathbb{Z}_n$.)
+
+First, the complex irreps of the [[normal subgroup]] $\mathbb{Z}_n$ are themselves labeled by $[k] \in \mathbb{Z}_n$ and given by
+
+$$
+  \begin{array}{ccc}
+    \mathbb{Z}_n 
+       &\xrightarrow{\;\; \chi_{[k]} \;\;}& 
+    \mathbb{C}^\times
+    \\
+    [r] &\mapsto& e^{2 \pi \mathrm{i} \tfrac{r k}{n}}
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+On these, the nontrivial element $\sigma \in \mathbb{Z}_2$ acts by $\sigma \colon [k] \mapsto [-k]$:
+$$
+  \begin{array}{l}
+    (\sigma \chi_{[k]})\big([r]\big)
+    \\
+    \;\equiv\;
+    \chi_{[k]}\big(\sigma^{-1}\cdot [r] \cdot \sigma\big)
+    \\
+    \;\equiv\;
+    \chi_{[k]}\big(\sigma^{-1}\cdot \sigma\cdot [-r]\big)
+    \\
+    \;=\;
+    \chi_{[k]}\big([-r]\big)
+    \\
+    \;\equiv\;
+    e^{2 \pi \mathrm{i} \tfrac{(-r)k}{n}}
+    \\
+    \;=\;
+    e^{2 \pi \mathrm{i} \tfrac{r (-k)}{n}}
+    \\
+    \;\equiv\;
+    \chi_{[-k]}\big([r]\big)
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+From this we have two kinds of orbits:
+
+1. the [[singleton]] orbits with stabilizer $\mathbb{Z}_2$:
+
+   $\big\{ [0] \big\}$, which always exists
+
+   and $\big\{ [n/2] \big\}$, which exists when $n$ is an [[even number]],
+
+2. the pairs with stabilizer the [[trivial group]] $1$:
+
+   $\big\{[k],[-k]\big\}$, for $k \in \{1, \cdots, \lfloor(n-1)/2\rfloor\}$ (with $\lfloor-\rfloor$ the [[floor]]).
+
+The first singleton in the first case gives rise to two irreps, corresponding to the two irreps of $\mathbb{Z}_2$ (the [[trivial representation]] and the [[sign representation]]):
+
+$$
+  \underset{Id}{
+  \underbrace{
+  Ind
+    ^{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+    _{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+  }
+  }
+  \Big(
+    \big(
+      ([r], [s]) \mapsto 1
+    \big)
+    \otimes
+    \big(
+      ([r], [s]) \mapsto 1
+    \big)
+  \Big)
+  \;=\;
+  triv
+$$
+
+and
+
+$$
+  Ind
+    ^{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+    _{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+  \Big(
+    \big(
+      ([r], [s]) \mapsto 1
+    \big)
+    \otimes
+    \big(
+      ([r], [s]) \mapsto e^{\pi \mathrm{i} s}
+    \big)
+  \Big)
+  \;=\;
+  \big(
+    ([r], [s]) \mapsto e^{\pi \mathrm{i} s}
+  \big)
+  \,,
+$$
+
+while the second singleton in the first case similarly gives 
+
+$$
+  Ind
+    ^{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+    _{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+  \Big(
+    \big(
+      ([r], [s]) \mapsto e^{\pi \mathrm{i} r}
+    \big)
+    \otimes
+    \big(
+      ([r], [s]) \mapsto 1
+    \big)
+  \Big)
+  \;=\;
+  \big(
+    ([r], [s]) \mapsto e^{\pi \mathrm{i} r}
+  \big)
+$$
+
+and
+
+
+$$
+  Ind
+    ^{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+    _{\mathbb{Z}_p \rtimes \mathbb{Z}_2}
+  \Big(
+    \big(
+      ([r], [s]) \mapsto e^{\pi \mathrm{i} r}
+    \big)
+    \otimes
+    \big(
+      ([r], [s]) \mapsto e^{\pi \mathrm{i} s}
+    \big)
+  \Big)
+  \;=\;
+  \big(
+    ([r], [s]) \mapsto e^{\pi \mathrm{i} (r + s)}
+  \big)
+  \,.
+$$
+
+
+The second case gives rise to one irrep for each $k \in \{1, \cdots, \lfloor(n-1)/2\rfloor\}$:
+
+$$
+  \begin{array}{l}
+  Ind
+    ^{ \mathbb{Z}_p \rtimes \mathbb{Z}_2 }
+    _{ \mathbb{Z}_p }
+  \Big(
+    \big(
+      [r] \mapsto e^{2 \pi \mathrm{i} \tfrac{r k}{n}}
+    \big)
+    \otimes
+    \big(
+      [r] \mapsto 1
+    \big)
+  \Big)
+  \\
+  \;\simeq\;
+  \mathbb{C}\big[
+    \mathbb{Z}_p \rtimes \mathbb{Z}_2
+  \big]  
+  \otimes_{ \mathbb{C}[\mathbb{Z}_p] }
+    \Big(
+      [r] \mapsto e^{2 \pi \mathrm{i} \tfrac{r k}{n}}
+    \Big)
+   \mathrlap{\,.}
+  \end{array}
+$$
+
+These latter irreps are 2-dimensional, with an evident matrix representation $\widehat{(-)}$ given by
+
+$$
+  \widehat{
+  \big(
+    [1], [0]
+  \big)
+  }
+  \;=\;
+  \left[
+    \begin{matrix}
+       e^{+ 2 \pi \mathrm{i} \tfrac{k}{n}} & 0
+       \\ 
+       0 & e^{- 2 \pi \mathrm{i} \tfrac{k}{n}} 
+    \end{matrix}
+  \right]
+  \,,\;\;\;\;\;\;
+  \widehat{
+  \big(
+    [0], [1]
+  \big)
+  }
+  \;=\;
+  \left[
+  \begin{matrix}
+     0 & 1 
+     \\
+     1 & 0
+  \end{matrix}
+  \right]
+  \mathrlap{\,.}
+$$
+ 
+As a consistency check that we found all irreps, we verify that the [sum of squares formula](regular+representation#SumOfSquaresFormula) holds:
+
+We have found two 1-dimensional irreps when $n$ is odd and four of them when $n$ is even, together with 
+$\lfloor (n-1)/2\rfloor$ irreps of dimension 2, whence the sum of their squares of dimensions is,
+
+for odd $n$:
+
+$$
+  2 \cdot 1^2
+  \,+\,
+  \lfloor (n-1)/2\rfloor \cdot 2^2
+  \;=\;
+  2 + \frac{n-1}{2} 4
+  \;=\;
+  2 + 2 (n-1)
+  \;=\;
+  2 n 
+$$
+
+and for even $n$:
+
+$$
+  4 \cdot 1^2
+  \,+\,
+  \lfloor (n-1)/2\rfloor \cdot 2^2
+  \;=\;
+  2 \cdot 2 
+  \,+\,
+  \frac{n-2}{2} 4
+  \;=\;
+  2 \cdot 2 + 2 \cdot (n-2)
+  \;=\;
+  2 n
+  \,,
+$$
+
+correctly coinciding with 
+the [[order of a group|order]] of our group :
+
+$$
+  {\vert \mathbb{Z}_n \rtimes \mathbb{Z}_2 \vert} 
+  \;=\;  
+  {\vert \mathbb{Z}_2 \vert} 
+  \cdot
+  {\vert \mathbb{Z}_n \vert} 
+  \;=\;  
+  2 n
+  \,.
+$$
+\end{example}
+
+\begin{example}
+  For construction of irreps of [[wreath products of groups]] see [there](wreath+product+of+groups#IrreducibleRepresentations).
+\end{example}
 
 
 ## References
@@ -120,7 +395,9 @@ Review for the case of [[finite groups]]:
 
 * {#Serre77} [[Jean-Pierre Serre]], section 8.2 of : *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
 
-* Amirtanshu Prasad, M. K. Vemuri: *Mackey's Little Group Method* &lbrack;[pdf](https://www.imsc.res.in/~amri/little_groups.pdf)&rbrack;
+* [[Brian Conrad]]: *Mackey theory and applications* &lbrack;[pdf](https://math.stanford.edu/~conrad/210BPage/handouts/mackey.pdf), [[Conrad-MackeyTheory.pdf:file]]&rbrack;
+
+* Amirtanshu Prasad, M. K. Vemuri: *Mackey's Little Group Method* &lbrack;[pdf](https://www.imsc.res.in/~amri/little_groups.pdf), [[PrasadVemuri-MackeyMethod.pdf:file]]&rbrack;
 
 Further developments:
 
