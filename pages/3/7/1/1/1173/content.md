@@ -1,4 +1,7 @@
 
+> The article is about bounded semilattices in the sense of a join-semilattice having a [[bottom element]] or a meet-semilattice having a [[top element]]. For "bounded semilattices" which have both a [[top element]] and a [[bottom element]] and thus are a [[bounded poset]], see [[01-bounded semilattice]]. 
+
+----
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
