@@ -54,6 +54,8 @@ However, it is possible instead to dualize the alternative characterization of i
 
 * [[inductive type]]
 
+* [[higher coinductive type]]
+
 * [[codependent type theory]]
 
 [[!redirects coinductive types]]
