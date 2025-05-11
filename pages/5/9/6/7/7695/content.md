@@ -34,13 +34,13 @@ A nice survey is in
 
 * {#LeStum12} [[Bernard Le Stum]], _One century of $p$-adic geometry -- From Hensel to Berkovich and beyond_, talk notes, June 2012 ([pdf](http://www-irma.u-strasbg.fr/IMG/pdf/NotesCoursLeStum.pdf))
 
-A standard textbook on [[rigid analytic geometry]] is
+Textbook account on [[rigid analytic geometry]]:
 
 * {#BoschGüntzerRemmert84} [[Siegfried Bosch]], [[Ulrich Güntzer]], [[Reinhold Remmert]], *[[Non-Archimedean Analysis]] -- A systematic approach to rigid analytic geometry*, Grundlehren der Mathem. Wissen. **261** (1984) &lbrack;  [ISBN:9783540125464](https://link.springer.com/book/9783540125464), [pdf](http://math.arizona.edu/~cais/scans/BGR-Non_Archimedean_Analysis.pdf)&rbrack;
 
-For comparison see
+See also:
 
-* [[Brian Conrad]], _Several approaches to non-archimedean geometry_, lectures at Arizona winter school 2007, [pdf](http://www.wstein.org/swc/aws/07/ConradNotes11Mar.pdf)
+* [[Brian Conrad]]: *Several approaches to non-archimedean geometry*, chapter 2 in: *$p$-adic Geometry: Lectures from the 2007 Arizona Winter School*, University Lecture Series **45**, AMS (2008) &lbrack;[doi:10.1090/ulect/045](https://doi.org/10.1090/ulect/045), [pdf](https://math.stanford.edu/~conrad/papers/aws.pdf), [[Conrad-ApproachesNonArchGeometry.pdf:file]]&rbrack;
 
 * Kiran S. Kedlaya, _Reified valuations and (re)adic spectra _, [arxiv/1309.0574](http://arxiv.org/abs/1309.0574)
 
