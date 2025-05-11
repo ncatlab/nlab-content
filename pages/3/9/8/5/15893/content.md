@@ -20,7 +20,7 @@
 ## Idea
 
 A surprising parallel between classical [[Hodge theory]] and the theory of [[Galois representations]] was noted in the beginning of the 60's; shortly [[John Tate|Tate]] and [[Alexander Grothendieck|Grothendieck]] attempted to understand the topology of p-adic [[algebraic variety|varieties]] in light of this analogy.
-A series of precise conjectures about p-adic Hodge theory was formulated by [[Jean-Marc Fontaine|Fontaine]] at the beginning of the 80's; three different proofs were proposed by [[Gerd Faltings|Faltings]], [[Wieslawa Niziol|Niziol]] and [[Takeshi Tsuji|Tsuji]].
+A series of precise conjectures about p-adic Hodge theory was formulated by [[Jean-Marc Fontaine|Fontaine]] at the beginning of the 80's; three different proofs were proposed by [[Gerd Faltings|Faltings]], Niziol and [[Takeshi Tsuji|Tsuji]].
 A significantly simpler approach was developed recently in works of [[Alexander Beilinson|Beilinson]] and [[Bhargav Bhatt|Bhatt]].
 
 _This paragraph is translated from the abstract of ([Beilinson's Yaroslavly' lectures](#BeilinsonLectures2014))._
@@ -143,14 +143,14 @@ If the dimension of $V$ is equal to the dimension of $V_{dR}$, we say that $V$ i
 
 ### Introductory references
 
-[[Laurent Berger]], _An Introduction to the Theory of $p$-adic Representations, [pdf](http://perso.ens-lyon.fr/laurent.berger/articles/article05.pdf)
+* Laurent Berger: _An Introduction to the Theory of $p$-adic Representations, [pdf](http://perso.ens-lyon.fr/laurent.berger/articles/article05.pdf)
 
-[[Oliver Brinon]] and [[Brian Conrad]], _CMI Summer School Notes on $p$-adic Hodge Theory, [pdf](https://math.stanford.edu/~conrad/papers/notes.pdf)
+* Oliver Brinon, [[Brian Conrad]]: *CMI Summer School Notes on $p$-adic Hodge Theory* (2009) &lbrack;[pdf](https://math.stanford.edu/~conrad/papers/notes.pdf), [[BrinonConrad-AdicHodgeTheory.pdf:file]]&rbrack;
 
 
 Niziol's [[algebraic K-theory|K-theoretic]] proof:
 
-* [[Wiesława Nizioł]], _Crystalline conjecture via $K$-theory_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure 31.5 (1998): 659-681. [web](http://eudml.org/doc/82474).
+* Wiesława Nizioł: _Crystalline conjecture via $K$-theory_, Annales scientifiques de l'&#201;cole Normale Sup&#233;rieure 31.5 (1998): 659-681. [web](http://eudml.org/doc/82474).
 
 ### Beilinson-Bhatt approach
 
@@ -170,4 +170,4 @@ Niziol's [[algebraic K-theory|K-theoretic]] proof:
 
 ### $p$-adic absolute Hodge cohomology
 
-* [[Frédéric Déglise]], [[Wiesława Nizioł]], _On $p$-adic absolute Hodge cohomology and syntomic coefficients, I_, [arXiv:1508.02567](http://arxiv.org/abs/1508.02567).
+* [[Frédéric Déglise]], Wiesława Nizioł: _On $p$-adic absolute Hodge cohomology and syntomic coefficients, I_, [arXiv:1508.02567](http://arxiv.org/abs/1508.02567).
