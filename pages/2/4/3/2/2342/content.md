@@ -465,7 +465,7 @@ Discussion over the [[rational numbers]] includes
 
 Discussion of elliptic curves over the [[p-adic numbers]] includes
 
-* {#Conrad07} [[Brian Conrad]], _Arithmetic moduli of generalized elliptic curves_, J. Inst. Math. Jussieu 6 (2007), no. 2, 209-278. ([pdf](http://math.stanford.edu/~conrad/papers/kmpaper.pdf))
+* {#Conrad07} [[Brian Conrad]]: *Arithmetic moduli of generalized elliptic curves*, J. Inst. Math. Jussieu **6** 2 (2007) 209-278 &lbrack;[doi:10.1017/S1474748006000089](https://doi.org/10.1017/S1474748006000089), [pdf](http://math.stanford.edu/~conrad/papers/kmpaper.pdf)&rbrack;
 
 * {#Winter11} Rosa Winter, _Elliptic curves over $\mathbb{Q}_p$_, 2011 ([pdf](http://www.math.leidenuniv.nl/scripties/BachWinter.pdf))
 
