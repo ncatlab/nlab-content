@@ -13,7 +13,7 @@
 
 ## Idea
 
-A reflexive type family $\mathrm{Br}_A(x, y)$ which behaves like the [[identity type]] but without [[transport]]. 
+A reflexive type family $\mathrm{Br}_A(x, y)$ used in [[internal parametricity]] that behaves like the [[identity type]] but without [[transport]]. 
 
 ## Univalence axiom
 
