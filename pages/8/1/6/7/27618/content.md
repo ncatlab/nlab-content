@@ -61,3 +61,9 @@ If $C$ is [[1-truncated]], then a cubical object in $C$ is just a [[cubical obje
 
 [[!redirects cubical object in an (∞,1)-category]]
 [[!redirects cubical objects in an (∞,1)-category]]
+
+[[!redirects cubical object in an (infinity,1)-topos]]
+[[!redirects cubical objects in an (infinity,1)-topos]]
+
+[[!redirects cubical object in an (∞,1)-topos]]
+[[!redirects cubical objects in an (∞,1)-topos]]
