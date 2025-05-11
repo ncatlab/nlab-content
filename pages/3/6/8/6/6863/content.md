@@ -80,6 +80,11 @@ On [[U-duality]] symmetry of [[D=11 supergravity]] in view of [[M-theory]]:
 * [[Bernard de Wit]], [[Hermann Nicolai]]: *Hidden Symmetries, Central Charges and All That*, Class. Quant. Grav. **18** (2001) 3095-3112 &lbrack;[arXiv:hep-th/0011239](https://arxiv.org/abs/hep-th/0011239), [doi:10.1088/0264-9381/18/16/302](https://doi.org/10.1088/0264-9381/18/16/302)&rbrack;
 
 
+On [[quantum gravity]]:
+
+* [[Hermann Nicolai]]: *Quantum Gravity: The View from Particle Physics*, Fundam. Theor. Phys. **177** (2014) 369-387 &lbrack;[arXiv:1301.5481](http://arxiv.org/abs/1301.5481), [doi:10.1007/978-3-319-06349-2_18](https://doi.org/10.1007/978-3-319-06349-2_18)&rbrack;
+
+
 Discussion of [[E9]] in view of [[U-duality]]-symmetry of [[D=11 supergravity]] [[Kaluza-Klein reduction|reduced]] to $D=2$ ([[finite-dimensional vector space|finite-dimensional]] [[representations]] of the [[maximal compact subgroup|maximal compact]] subalgebra $\mathfrak{k} = Lie\big(K(E_9)\big)$:
 
 * {#KleinschmidtNicolaiVigano20} [[Axel Kleinschmidt]], [[Hermann Nicolai]], Adriano Viganò: *On spinorial representations of involutory subalgebras of Kac-Moody algebras*, In: *Partition Functions and Automorphic Forms*, Moscow Lectures **5**, Springer  (2020) &lbrack;[arXiv:1811.11659](https://arxiv.org/abs/1811.11659), [doi:10.1007/978-3-030-42400-8_4](https://doi.org/10.1007/978-3-030-42400-8_4)&rbrack;
@@ -211,9 +216,6 @@ and on the relation to the [[string theory]]-[[dilaton]] under [[double dimensio
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Evidence for a stable supermassive gravitino with charge $2/3$?* &lbrack;[arXiv:2303.09131](https://arxiv.org/abs/2303.09131)&rbrack;
 
 
-On [[quantum gravity]]:
-
-* [[Hermann Nicolai]], _Quantum Gravity: the view from particle physics_ ([arXiv:1301.5481](http://arxiv.org/abs/1301.5481))
 
 On [[Lars Brink]]:
 
