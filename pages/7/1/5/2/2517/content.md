@@ -124,3 +124,5 @@ Textbook accounts are in
 [[!redirects Kock–Lawvere axiom]]
 [[!redirects Kock Lawvere axiom]]
 
+[[!redirects synthetic quasicoherence]]
+[[!redirects synthetic quasi-coherence]]
