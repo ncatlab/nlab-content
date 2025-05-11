@@ -335,3 +335,9 @@ Simplicial obects in [[stable (∞,1)-categories]] are discussed in
 [[!redirects cosimplicial object in an (infinity,1)-category]]
 [[!redirects cosimplicial objects in an (infinity,1)-category]]
 
+[[!redirects simplicial objects in an (∞,1)-topos]]
+[[!redirects simplicial objects in an (infinity,1)-topos]]
+
+[[!redirects simplicial object in an (∞,1)-topos]]
+[[!redirects simplicial object in an (infinity,1)-topos]]
+
