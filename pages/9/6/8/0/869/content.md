@@ -129,6 +129,9 @@ One can also extend this notion of negation from rings to other [[bi-pointed set
 [[!redirects negation]]
 [[!redirects negations]]
 
+[[!redirects logical negation]]
+[[!redirects logical negations]]
+
 [[!redirects denial negation]]
 [[!redirects denial negations]]
 
