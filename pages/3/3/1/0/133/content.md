@@ -117,7 +117,7 @@ There are a number of weaker axioms which are implied by the full axiom of choic
 
 * A still weaker axiom along the lines of "AC fails in only a small way," which is implied by AMC, is [[WISC]], i.e. that for any set $X$, the full subcategory of $Set/X$ consisting of the surjections has a [[weakly initial set]] (under COSHEP it has a single weakly initial object, namely a projective cover of $X$).  Two similar assertions are that the [[free exact completion]] $Set_{ex/lex}$ of $Set$ is a [[topos]] (i.e. that $Set$ has a [[generic proof]]), and that $Set_{ex/lex}$ is [[well-powered category|well-powered]]; both of these imply WISC.
 
-* In [[constructive mathematics]], there is also [[decidable choice]], where every [[set]] with [[decidable equality]] is projective. 
+* In [[constructive mathematics]], one can express weaker versions of the axiom of choice by using an arbitrary [[dominance]] $\Sigma \subseteq \Omega$ and restricting choice to the $\Sigma$-open relations: For any set $A$ and $B$, any entire open relation $R:A \times B \to \Sigma$ from $A$ to $B$ contains a functional entire relation, i.e. there exists a [[function]] $f:A \to B$ such that $R(x, f(x)) = \top$. When $\Sigma$ is the [[boolean domain]], this results in [[decidable choice]]. 
 
 The axiom of choice can also be strengthened in a few ways.
 
