@@ -285,6 +285,9 @@ In [[cohesive homotopy type theory]]:
 
 category: foundational axiom, logic
 
+[[!redirects LEM]]
+[[!redirects PEM]]
+
 [[!redirects Excluded Middle]]
 [[!redirects excluded middle]]
 [[!redirects law of excluded middle]]
