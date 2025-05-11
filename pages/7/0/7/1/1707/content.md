@@ -926,7 +926,7 @@ Monographs:
 
 * [[Kenneth Brown]],  *Cohomology of Groups*, Graduate Texts in Mathematics **87**, Springer (1982) &lbrack;[doi:10.1007/978-1-4684-9327-6](https://link.springer.com/book/10.1007/978-1-4684-9327-6)&rbrack;
 
-* [[Burt Tataro]]: *Group Cohomology and Algebraic Cycles*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781139059480](https://doi.org/10.1017/CBO9781139059480), [pdf](http://ndl.ethernet.edu.et/bitstream/123456789/33006/1/6.pdf.pdf)&rbrack;
+* [[Burt Totaro]]: *Group Cohomology and Algebraic Cycles*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781139059480](https://doi.org/10.1017/CBO9781139059480), [pdf](http://ndl.ethernet.edu.et/bitstream/123456789/33006/1/6.pdf.pdf)&rbrack;
   > (in the context of [[algebraic cycles]])
 
 and specifically with an eye towards cohomology of [[finite groups]]:
@@ -948,6 +948,8 @@ On [[homotopy theory]]-methods:
 * [[William G. Dwyer]], [[Hans-Werner Henn]], *Homotopy Theoretic Methods in Group Cohomology*, Advanced Courses in Mathematics - CRM Barcelona, Springer (2001) &lbrack;[doi:10.1007/978-3-0348-8356-6](https://doi.org/10.1007/978-3-0348-8356-6)&rbrack;
 
 Further exposition:
+
+* {#Conrad} [[Brian Conrad]]: *Group cohomology and group extensions* &lbrack;[pdf](https://math.stanford.edu/~conrad/210BPage/handouts/gpext.pdf), [[Conrad-GroupCohomologyExtensions.pdf:file]]&rbrack;
 
 * [[Alejandro Adem]], _Lectures on the cohomology of finite groups_ ([pdf](http://www.math.uic.edu/~bshipley/ConMcohomology1.pdf))
 
