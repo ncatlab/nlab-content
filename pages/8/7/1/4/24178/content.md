@@ -526,6 +526,8 @@ Low-Dimensional Materials and Nanostructures](https://www.lancaster.ac.uk/users/
 
 * Roman Remme, *The Laughlin Wavefunction*, talk notes (2017) &lbrack;[pdf](https://www.mathi.uni-heidelberg.de/~walcher/teaching/sose17/atqft/writeups/Roman.pdf), [[Remme-LaughlinWavefunction.pdf:file]]&rbrack;
 
+* {#Simon20} [[Steven H. Simon]]: *Wavefunctionology: The Special Structure of Certain Fractional Quantum Hall Wavefunctions*, Chapter 8 of: *Fractional Quantum Hall Effects* eds. Halperin and Jain, World Scientific (2020) &lbrack;[arXiv:2107.00437](https://arxiv.org/abs/2107.00437), [doi:10.1142/11751](https://doi.org/10.1142/11751)&rbrack;
+
 
 See also:
 
@@ -558,11 +560,18 @@ Critique:
 * {#Mikhailov24} S. A. Mikhailov: *Toward a new theory of the fractional quantum Hall effect*, Nanomaterials **14** 2 (2024) 297 &lbrack;[arXiv:2206.05152](https://arxiv.org/abs/2206.05152), [doi:10.3390/nano14030297](https://doi.org/10.3390/nano14030297)&rbrack;
 
 
+
 Further fractonalization of quasi-hole states into *Gaffnian states*:
+
+* [[Steven H. Simon]], [[Edward H. Rezayi]], N. R. Cooper, I. Berdnikov: *Construction of a paired wave function for spinless electrons at filling fraction $\nu = 2/5$*, Phys. Rev. B **75** (2007) 075317 &lbrack;[doi:10.1103/PhysRevB.75.075317](https://doi.org/10.1103/PhysRevB.75.075317)&rbrack;
 
 * Bo Yang, Ying-Hai Wu, Zlatko Papic: *Effective Abelian theory from a non-Abelian topological order in $\nu = 2/5$ fractional quantum Hall effect*, Phys. Rev. B **100** (2019) 245303 &lbrack;[arXiv:1907.12572](https://arxiv.org/abs/1907.12572), [doi:10.1103/PhysRevB.100.245303](https://doi.org/10.1103/PhysRevB.100.245303)&rbrack;
 
+* [Simon 2020](#Simon20)
+
 * Ha Quang Trung, Bo Yang: *Fractionalisation and dynamics of anyons at $\nu = n + 1/3$ in fractional quantum Hall effect and their experimental signatures*, Phys. Rev. Lett. **127** (2021) 046402 &lbrack;[arXiv:2009.14214](https://arxiv.org/abs/2009.14214), [doi:10.1103/PhysRevLett.127.046402](https://doi.org/10.1103/PhysRevLett.127.046402)&rbrack;
+
+* Byungmin Kang, Joel E. Moore: *The Neutral Excitations in the Gaffnian State*, Phys. Rev. B **95** (2017) 245117 &lbrack;[arXiv:1606.05353](https://arxiv.org/abs/1606.05353), [doi:10.1103/PhysRevB.95.245117](https://doi.org/10.1103/PhysRevB.95.245117)&rbrack;
 
 
 
@@ -589,6 +598,8 @@ Further fractonalization of quasi-hole states into *Gaffnian states*:
 [[!redirects Moore-read wavefunction]]
 [[!redirects Moore-Read wavefunctions]]
 
+[[!redirects Gaffnian state]]
+[[!redirects Gaffnian states]]
 
 
 
