@@ -232,6 +232,7 @@ See ([Lumsdaine-Shulman17](#LumsdaineShulman17)).
 
 * [[quotient inductive type]]
 
+* [[higher coinductive type]]
 
 ## References
 
