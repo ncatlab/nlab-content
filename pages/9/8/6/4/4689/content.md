@@ -179,15 +179,18 @@ For further early discussion of the subject see pointers in:
 * [[Cécile DeWitt-Morette]], *The Pursuit of Quantum Gravity -- Memoirs of Bryce DeWitt from 1946 to 2004*, Springer (2011) &lbrack;[doi:10.1007/978-3-642-14270-3_4](https://doi.org/10.1007/978-3-642-14270-3_4)&rbrack;
 
 
-Some of the standard lore about necessity of and the problems of quantum gravity are discussed in reviews such as
+Some of the standard lore concerning necessity of and the problems of quantum gravity:
 
-* [[Steve Carlip]], _Quantum Gravity: a Progress Report_ ([arXiv:gr-qc/0108040](http://arxiv.org/abs/gr-qc/0108040))
+* [[Steve Carlip]]: _Quantum Gravity: a Progress Report_ &lbrack;[arXiv:gr-qc/0108040](http://arxiv.org/abs/gr-qc/0108040)&rbrack;
 
-* [[Richard Woodard]], _How Far Are We from the Quantum Theory of Gravity?_ ([arXiv:0907.4238](http://arxiv.org/abs/0907.4238))
+* [[Richard Woodard]]: _How Far Are We from the Quantum Theory of Gravity?_ &lbrack;[arXiv:0907.4238](http://arxiv.org/abs/0907.4238)&rbrack;
 
-* [[Hermann Nicolai]], _Quantum Gravity: the view from particle physics_ ([arXiv:1301.5481](http://arxiv.org/abs/1301.5481))
+* [[Hermann Nicolai]]: *Quantum Gravity: The View from Particle Physics*, Fundam. Theor. Phys. **177** (2014) 369-387 &lbrack;[arXiv:1301.5481](http://arxiv.org/abs/1301.5481), [doi:10.1007/978-3-319-06349-2_18](https://doi.org/10.1007/978-3-319-06349-2_18)&rbrack;
 
-* [[Steven Carlip]], Dah-Wei Chiou, Wei-Tou Ni, Richard Woodard, _Quantum Gravity: A Brief History of Ideas and Some Prospects_, Int. J. Mod. Phys. D  ([arXiv:1507.08194](http://arxiv.org/abs/1507.08194))
+* [[Steven Carlip]], Dah-Wei Chiou, Wei-Tou Ni, Richard Woodard: _Quantum Gravity: A Brief History of Ideas and Some Prospects_, Int. J. Mod. Phys. D  &lbrack;[arXiv:1507.08194](http://arxiv.org/abs/1507.08194)&rbrack;
+
+* Karen Crowther: *Why Do We Want a Theory of Quantum Gravity?*, Cambridge Elements in Philosophy of Physics, Cambridge University Press (2025) &lbrack;[ISBN:9781108878074](https://www.cambridge.org/core/elements/why-do-we-want-a-theory-of-quantum-gravity/03BD1C19AE8F0CE92D6DF6DA0336FF1D), [doi:10.1017/9781108878074](https://doi.org/10.1017/9781108878074), [arXiv:2505.04858](https://arxiv.org/abs/2505.04858)&rbrack;
+
 
 Exposition from the point of view of [[worldline formalism]]:
 
