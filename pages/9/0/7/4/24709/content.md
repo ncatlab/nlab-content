@@ -30,6 +30,10 @@ In the case for the [[natural numbers type]] homotopy canonicity states that eve
 
 * [[cubical type theory]] has homotopy canonicity
 
+## Related concepts
+
+* [[canonicity]]
+
 ## References
 
 * [[Michael Shulman]], _Univalence for inverse diagrams, oplax limits, and gluing, and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
