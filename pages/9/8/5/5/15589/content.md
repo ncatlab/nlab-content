@@ -10,13 +10,14 @@ In the spirit of the [[function field analogy]], _geometric class field theory_ 
 
 As such, geometric class field theory has become part of the [[geometric Langlands program]] and of higher dimensional class field theory.
 
+
 ## References
 
-A brief survey of classical results is in 
+A brief survey of classical results:
 
-* [[Brian Conrad]], _Geometric global class field theory_ ([pdf](https://math.stanford.edu/%7Econrad/249BW09Page/handouts/geomcft.pdf))
+* [[Brian Conrad]]: _Geometric global class field theory_ &lbrack;[pdf](https://math.stanford.edu/%7Econrad/249BW09Page/handouts/geomcft.pdf), [[Conrad-GeometricClassFieldTheory.pdf:file]]&rbrack;
 
-A fairly comprehensive review of the theory is in the thesis
+A fairly comprehensive review of the theory:
 
 * {#Toth11} Peter Toth, _Geometric abelian class field theory_, 2011 ([web](http://dspace.library.uu.nl/handle/1874/206061))
 
@@ -30,7 +31,7 @@ See also
 
 Higher dimensional class field theory, using the [[Chow group with modulus]], is developed in
 
-* [[Moritz Kerz]], [[Shuji Saito]], _Chow group of 0-cycles with modulus and higher dimensional class field theory_, [arXiv:1304.4400](http://arxiv.org/abs/1304.4400).
+* [[Moritz Kerz]], Shuji Saito: _Chow group of 0-cycles with modulus and higher dimensional class field theory_ &lbrack;[arXiv:1304.4400](http://arxiv.org/abs/1304.4400)&rbrack;
 
 which is briefly summarized in
 
