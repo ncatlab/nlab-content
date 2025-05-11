@@ -38,7 +38,7 @@ This most desirable property of any [[homotopy type theory]] has previously been
 
 The hope is therefore that higher observational type theory would provide a type system which achieves both:
 
-1. its syntax is logically cleaner than that of [[cubical type theories]], since there isn't a second-class interval primitive;
+1. its syntax is logically cleaner than that of [[cubical type theories]], since there isn't a interval primitive;
 
 1. its [[inference rules]] for [[identification types]] make the [[univalence axiom]] be a computable function, as it is in [[cubical type theories]] and unlike the case for [[Martin-Löf dependent type theory]].
 
@@ -46,7 +46,9 @@ To which extent this hope is being realized would ideally be elucidated by the r
 
 ## Definition
 
-Higher observational type theory is an extension of [[dependent type theory]] with 
+### Using internal parametricity
+
+One version of higher observational type theory is an extension of [[dependent type theory]] with 
 
 * [[internal parametricity|internal binary parametricity]] in the form of [[bridge types]] and heterogeneous bridge types, with a symmetry operation on higher-dimensional bridge cubes. 
 
