@@ -1,4 +1,8 @@
 
+> This article is about bounded semilattices in the sense of the semilattice having both a [[bottom element]] and a [[top element]]. For "bounded semilattices" in the sense of a join-semilattice having a [[bottom element]] or a meet-semilattice having a [[top element]], see [[semilattice]]. 
+
+----
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
