@@ -25,6 +25,8 @@ The [[univalence axiom]] of a [[type universe]] $U$ for bridge types says that t
 
 * [[identity type]]
 
+* [[hom type]]
+
 * [[higher observational type theory]]
 
 ## References
