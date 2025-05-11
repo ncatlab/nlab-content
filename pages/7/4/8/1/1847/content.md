@@ -331,11 +331,11 @@ General accounts include
 
 * R. Engelking, _General topology_, chapter 5 is dedicated to paracompact spaces
 
-* [[Brian Conrad]], _Paracompactness and local compactness_, [pdf](http://math.stanford.edu/~conrad/diffgeomPage/handouts/paracompact.pdf)
+* [[Brian Conrad]]: *Paracompactness and local compactness* &lbrack;[pdf](http://math.stanford.edu/~conrad/diffgeomPage/handouts/paracompact.pdf), [[Conrad-ParaAndLocalCompactness.pdf:file]]&rbrack;
 
 * D. K. Burke, _Covering properties_, in: [[K. Kunen]], J.E. Vaughan (eds.), Handbook of Set-Theoretic Topology, North-Holland (1984) Ch. 9, 347&#8211;422
 
-* {#Hatcher} [[Alan Hatcher]], section 1.2 of _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* {#Hatcher} [[Allen Hatcher]], section 1.2 of _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
 * {#Junnia07} Heikki Junnila, pp. 73 in: *A second course in general topology* (2007) &lbrack;[[Junnila-ParacompactSpaces.pdf:file]]&rbrack;
 
