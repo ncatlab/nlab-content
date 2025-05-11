@@ -67,7 +67,7 @@ In addition, simplicial type theory comes with a designated [[bounded total orde
 
 * $\mathbb{I}$ is [[tiny object|tiny]]: the heterogeneous  [[path space]] [[modality]] $\prod_{i:\mathbb{I}} (-)(i)$ has an [[amazing right adjoint]] $(-)^{1/\mathbb{I}}$. 
 
-* a [[Kock-Lawvere axiom|Kock-Lawvere]]-esque [[duality]] axiom: let $A$ be a finitely presented $\mathbb{I}$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\mathbb{I}[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I})$ be the type of $\mathbb{I}$-algebra homomorphisms. Then the following function is an [[equivalence of types]]
+* a [[Kock-Lawvere axiom|Kock-Lawvere]]-esque synthetic quasi-coherence [[duality]] axiom: let $A$ be a finitely presented $\mathbb{I}$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\mathbb{I}[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I})$ be the type of $\mathbb{I}$-algebra homomorphisms. Then the following function is an [[equivalence of types]]
 
 $$\lambda a.\lambda f.f(a):A \to (\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I}) \to \mathbb{I})$$
 
@@ -199,9 +199,9 @@ The directed univalent universe $\mathcal{S}$ is a [[finitely complete type|fini
 
 There are many generalizations of simplicial type theory, where the interval is not a [[total order]] and thus the types only represent [[cubical objects in an (infinity,1)-topos|cubical objects in an $(\infty,1)$-topos]] instead of [[simplicial objects in an (infinity,1)-topos|simplicial objects in an $(\infty,1)$-topos]]:
 
-* [Gratzer, Weinberger & Buchholtz 2024](#GWB24) use a [[distributive lattice]] instead of a [[bounded total order]] in their versions of simplicial type theory called [[triangulated type theory]]. The theories have semantics in [[Dedekind cube category|Dedekind cube]] objects of an $(\infty,1)$-topos. 
+* [Gratzer, Weinberger & Buchholtz 2024](#GWB24) use a [[distributive lattice]] instead of a [[bounded total order]] in their versions of simplicial type theory called [[triangulated type theory]]. The theory has semantics in [[Dedekind cube category|Dedekind cube]] objects of an $(\infty,1)$-topos. 
 
-* [Pugh & Sterling 2025](#PS25) use a [[01-bounded semilattice]] instead of a [[bounded total order]] in their version of simplicial type theory for [[synthetic domain theory]]. It has semantics in [[semilattice cube category|meet-semilattice cube]] objects of an $(\infty,1)$-topos. 
+* [Pugh & Sterling 2025](#PS25) use a [[01-bounded semilattice]] instead of a [[bounded total order]] in their version of simplicial type theory for [[synthetic domain theory]]. The Kock-Lawreve synthetic quasi-coherence axiom cannot be expressed in the theory since the interval is not a [[lattice]], so it is replaced with [[Phoa's principle]]. The theory has semantics in [[semilattice cube category|meet-semilattice cube]] objects of an $(\infty,1)$-topos. 
 
 These theories could hypothetically be called *cubical type theories* or *cubical homotopy type theories* for the internal type theory of cubical objects in an $(\infty,1)$-topos in parallel with the name *simplicial type theory* or *simplicial homotopy type theory* for the internal type theory of simplicial objects in an $(\infty,1)$-topos. However, the term *[[cubical type theory]]* is already used for dependent type theories where the [[identity type]] itself is defined as a [[cubical path type]] out of a pre-defined interval. 
 
