@@ -59,7 +59,7 @@ Higher observational type theory is an extension of [[dependent type theory]] wi
 
   * a witness that heterogeneous bridge types of fibrant types are also fibrant
 
-The context modification rules needed in higher observational type theory likely makes the theory less logically clean compared to that of [[Martin-Löf dependent type theory]] equipped with the [[univalence axiom]]. However, the context modification rules of higher observational type theory are probably still comparable to [[cubical type theory]] defined as a [[type theory with shapes]]. 
+The context modification rules needed in higher observational type theory likely makes the theory less logically clean compared to that of [[Martin-Löf dependent type theory]] equipped with the [[univalence axiom]]. 
 
 ## See also
 
