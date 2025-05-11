@@ -356,6 +356,42 @@ as $P$ is decidable.
 
 * $\mathrm{LLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, $\mathrm{WLPO}_\mathbb{N}$ is equivalent to fully untruncated $\mathrm{LLPO}_\mathbb{N}$, which implies $\mathrm{LLPO}_\mathbb{N}$, and $\mathrm{WLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Thus $\mathrm{LLPO}_\mathbb{N}$ is separated from $\mathrm{LPO}_\mathbb{N}$. 
 
+### Inconsistent statements
+
+There are various statements in mathematics which are inconsistent with $\mathrm{LPO}_\mathbb{N}$. 
+
+\begin{theorem}
+$\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[canonicity]] or [[homotopy canonicity]] in [[dependent type theory]]. 
+\end{theorem}
+
+\begin{proof}
+By $\mathrm{LPO}_\mathbb{N}$, we can define the sequence $f:\mathbb{N} \to \mathbb{2}$ to the booleans $\mathbb{2}$ by $f(n) = 1$ if $n$ is the sum of two [[prime numbers]] and $f(n) = 0$ if $n$ is not the sum of two prime numbers, since $n$ being the sum of two prime numbers is a [[decidable proposition]]. Then [[Goldbach's conjecture]] states that the $f$ is equal to the constant sequence $\lambda n:\mathbb{N}.1$, and we can define a term $\mathrm{LPO}(\mathrm{Goldbach}, 0, 1):\mathbb{N}$ which is 0 or 1 according as the Goldbach conjecture is true or false. This term is not [[identification|identified with]] a [[canonical form]] (a numeral).
+\end{proof}
+
+\begin{theorem}
+$\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[Brouwer's continuity principle]] for any one of the [[Cauchy real numbers]], the [[HoTT book real numbers]], or the [[Dedekind real numbers]] defined using the initial $\sigma$-frame $\Sigma$. 
+\end{theorem}
+
+\begin{proof}
+...
+\end{proof}
+
+\begin{theorem}
+In the presence of the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, 2}$, $\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[Brouwer's continuity principle]] for the usual impredicative [[Dedekind real numbers]] defined using the [[frame of truth values]] $\Omega$. 
+\end{theorem}
+
+\begin{proof}
+$\mathrm{AC}_{\mathbb{N}, 2}$ implies that the Cauchy real numbers and the Dedekind real numbers coincide. Since the previous theorem implies that $\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[Brouwer's continuity principle]] for the Cauchy real numbers, $\mathrm{AC}_{\mathbb{N}, 2}$ implies that $\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[Brouwer's continuity principle]] for the Dedekind real numbers. 
+\end{proof}
+
+This means that theories which accept both $\mathrm{LPO}_\mathbb{N}$ and [[Brouwer's continuity principle]] for the Dedekind real numbers, such as the [[internal logic]] of the [[cohesive (infinity,1)-topos]] of [[Euclidean-topological infinity-groupoids]], necessarily reject $\mathrm{AC}_{\mathbb{N}, 2}$. 
+
+\begin{theorem}
+$\mathrm{LPO}_\mathbb{N}$ is inconsistent with the existence of a [[Specker sequence]]. 
+\end{theorem}
+
+See [Diener 2018](#Diener18) for more statements that are inconsistent with $\mathrm{LPO}_\mathbb{N}$. 
+
 ### Models
 
 * Assuming that [[Set]] is a [[Boolean topos]], then $LPO_{\mathbb{N}}$ (the LPO for natural numbers) holds in any [[presheaf topos]] over $Set$ and indeed in any [[locally connected topos]] over $Set$, essentially since then $2^N$ is a constant object.
