@@ -36,4 +36,8 @@ A Grothendieck topos model that is very closely related to the analytic notion o
 
 * [[Marcelo Fiore]] and [[Giuseppe Rosolini]], _Two models of synthetic domain theory_, Journal of Pure and Applied Algebra, Volume 116, Issues 1–3, 28 March 1997, ([doi](https://doi.org/10.1016/S0022-4049%2896%2900164-8))
 
+On [[synthetic domain theory]] in [[homotopy type theory]]:
+
+* [[Jonathan Sterling]], *Baby steps in higher domain theory*, talk at [Homotopy Type Theory and Computing – Classical and Quantum](https://nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html), [[Center for Quantum and Topological Systems]] ([video](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_b57uwin3?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_b57uwin3))
+
 * {#PS25} [[Leoni Pugh]], [[Jonathan Sterling]], *When is the partial map classifier a Sierpiński cone?* ([arXiv:2504.06789](https://arxiv.org/abs/2504.06789))
