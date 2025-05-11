@@ -13,7 +13,7 @@
 
 ## Definition
 
-Given a natural number $n$, the ring of **integers modulo $n$** is the [[quotient ring]] $\mathbb{Z}/n\mathbb{Z}$.
+Given a natural number $n$, the ring of **integers modulo $n$** is the [[quotient ring]] $\mathbb{Z}/n\mathbb{Z}$, consisting of the *congruence classes* of integers [[modulo]] $n$.
 
 These are also the [[quotient]] [[rig]] $\mathbb{N}/n\mathbb{N}$. 
 
@@ -48,4 +48,7 @@ e.g. example 5 in these notes: [pdf](http://www-math.mit.edu/~dav/fields.pdf)
 
 [[!redirects finite cyclic ring]]
 [[!redirects finite cyclic rings]]
+
+[[!redirects congruence class]]
+[[!redirects congruence classes]]
 
