@@ -115,7 +115,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 Amplification of [[torsion subgroup|torsion]]-charges implied by charge quantization in Ktheory
 
-* [[Volker Braun]], *K-Theory Torsion* &lbrack;<a href="https://arxiv.org/abs/hep-th/0005103">arXiv:hep-th/0005103</a>&rbrack;
+* [[Volker Braun]]: *K-Theory Torsion* \[<a href="https://arxiv.org/abs/hep-th/0005103">arXiv:hep-th/0005103</a>\]
 
 * [[Ilka Brunner]], [[Jacques Distler]], *Torsion D-Branes in Nongeometrical Phases*, Adv. Theor. Math. Phys. **5** (2002) 265-309 \[<a href="https://doi.org/10.4310/ATMP.2001.v5.n2.a3">doi:10.4310/ATMP.2001.v5.n2.a3</a>, [arXiv:hep-th/0102018](https://arxiv.org/abs/hep-th/0102018)\]
 
@@ -129,7 +129,7 @@ Review of D-branes charge seen in [[KK-theory]]:
 
 based on
 
-* {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ , Commun. Math. Phys. **266** (2006) 71-122 &lbrack;[arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043)&rbrack;
+* {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ , Commun. Math. Phys. **266** (2006) 71-122 \[<a href="https://arxiv.org/abs/hep-th/0507043">arXiv:hep-th/0507043</a>\]
 
 * {#BrodzkiMathaiRosenbergSzabo06} [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]], _D-Branes, RR-Fields and Duality on Noncommutative Manifolds_, Commun. Math. Phys. **277** (2008) 643-706 \[<a href="https://doi.org/10.1007/s00220-007-0396-y">doi:10.1007/s00220-007-0396-y</a>, [arXiv:hep-th/0607020](http://arxiv.org/abs/hep-th/0607020)\]
 
