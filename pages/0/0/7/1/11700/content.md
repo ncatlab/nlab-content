@@ -112,7 +112,7 @@ Discussion for [[real analytic spaces]] includes
 
 Generalizations to [[higher geometry]] are in
 
-* {#ConradTemkin09} [[Brian Conrad]], M. Temkin, _Non-Archimedean analytification of algebraic spaces_, J. Algebraic Geom. 18 (2009), no. 4, 731&#8211;788 ([arXiv:0706.3441](http://arxiv.org/abs/0706.3441))
+* {#ConradTemkin09} [[Brian Conrad]], M. Temkin: *Non-Archimedean analytification of algebraic spaces*, J. Algebraic Geom. **18** 4 (2009) 731-788 &lbrack;[arXiv:0706.3441](http://arxiv.org/abs/0706.3441), [doi:10.1090/S1056-3911-09-00497-4](https://doi.org/10.1090/S1056-3911-09-00497-4)&rbrack;
 
 
 * {#Lurie04} [[Jacob Lurie]], _[[Tannaka duality for geometric stacks]]_, ([arXiv:math.AG/0412266](http://arxiv.org/abs/math/0412266))
