@@ -176,8 +176,9 @@ Original articles:
 
 The maximal compact subgroups inside the (indefinite) rotation groups
 
-* {#Conrad} [[Brian Conrad]], _Examples of maximal compact subgroups_ ([pdf](http://virtualmath1.stanford.edu/~conrad/210CPage/handouts/maxcompact.pdf))
+* [[Brian Conrad]]: *Examples of maximal compact subgroups* &lbrack;[pdf](http://virtualmath1.stanford.edu/~conrad/210CPage/handouts/maxcompact.pdf), [[Conrad-MaxCpctSubgroups.pdf:file]]&rbrack;
  
+
 
 [[!redirects maximal compact subgroups]]
 
