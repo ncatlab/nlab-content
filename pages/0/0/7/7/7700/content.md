@@ -58,6 +58,7 @@ where $f,g\in A$.
 
 * Torsten Wedhorn, _Adic spaces_ ([arXiv:1910.05934](https://arxiv.org/abs/1910.05934))
 
-* [[Brian Conrad]], _A brief introduction to adic spaces_, [PDF](http://virtualmath1.stanford.edu/~conrad/papers/Adicnotes.pdf).
+* [[Brian Conrad]]: *A brief introduction to adic spaces* &lbrack;[pdf](http://virtualmath1.stanford.edu/~conrad/papers/Adicnotes.pdf), [[Conrad-AdicSpaces.pdf:file]]&rbrack;
+
 
 [[!redirects adic spaces]]
