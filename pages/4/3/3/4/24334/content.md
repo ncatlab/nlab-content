@@ -195,6 +195,16 @@ $$\mathcal{S} \coloneqq \sum_{X:U} \mathrm{isACov}(T(X))$$
 
 The directed univalent universe $\mathcal{S}$ is a [[finitely complete type|finitely complete]] and [[finitely cocomplete type|finitely cocomplete]] [[Rezk type]]. 
 
+## Generalizations 
+
+There are many generalizations of simplicial type theory, where the interval is not a [[total order]] and thus the types only represent [[cubical objects in an (infinity,1)-topos|cubical objects in an $(\infty,1)$-topos]] instead of [[simplicial objects in an (infinity,1)-topos|simplicial objects in an $(\infty,1)$-topos]]:
+
+* [Gratzer, Weinberger & Buchholtz 2024](#GWB24) use a [[distributive lattice]] instead of a [[bounded total order]] in their versions of simplicial type theory called [[triangulated type theory]]. The theories have semantics in [[Dedekind cube category|Dedekind cube]] objects of an $(\infty,1)$-topos. 
+
+* [Pugh & Sterling 2025](#PS25) use a [[01-bounded semilattice]] instead of a [[bounded total order]] in their version of simplicial type theory for [[synthetic domain theory]]. It has semantics in [[semilattice cube category|meet-semilattice cube]] objects of an $(\infty,1)$-topos. 
+
+These theories could hypothetically be called *cubical type theories* or *cubical homotopy type theories* for the internal type theory of cubical objects in an $(\infty,1)$-topos in parallel with the name *simplicial type theory* or *simplicial homotopy type theory* for the internal type theory of simplicial objects in an $(\infty,1)$-topos. However, the term *[[cubical type theory]]* is already used for dependent type theories where the [[identity type]] itself is defined as a [[cubical path type]] out of a pre-defined interval. 
+
 ## See also
 
 * [[Reedy model structure]]
@@ -241,6 +251,10 @@ The directed univalent universe $\mathcal{S}$ is a [[finitely complete type|fini
 
 * {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
+For [[synthetic domain theory]] in simplicial type theory:
+
+* [[Jonathan Sterling]], *Baby steps in higher domain theory*, talk at [Homotopy Type Theory and Computing – Classical and Quantum](https://nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html), [[Center for Quantum and Topological Systems]] ([video](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_b57uwin3?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_b57uwin3))
+
 * {#PS25} [[Leoni Pugh]], [[Jonathan Sterling]], *When is the partial map classifier a Sierpiński cone?* ([arXiv:2504.06789](https://arxiv.org/abs/2504.06789))
 
 A talk on [[synthetic (infinity,1)-category theory]] in [[simplicial type theory]] and [[infinity-cosmos]] theory:
@@ -258,5 +272,3 @@ Formalization of the [[(infinity,1)-Yoneda lemma|$(\infty,1)$-Yoneda lemma]] via
 [[!redirects simplicial homotopy type theory]]
 
 [[!redirects axiom of simplicial cohesion]]
-
-
