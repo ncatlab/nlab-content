@@ -34,21 +34,21 @@ The idea of higher observational type theory is to make these and analogous stru
 
 In such a higher observational theory, in particular also the [[univalence axiom]] would be a [[definitional equality]] and hence would "compute". 
 
-This most desirable property of any [[homotopy type theory]] has previously been accomplished only by [[cubical type theories]].  However, cubical type theories achieve this only by adding syntax for auxiliary/spurious [[interval types]] with rewrite rules which encode technical detail that has no abstract motivation other than making the univalence axiom compute and which one would rather keep out of the syntactic logic and instead relegate to the construction of [[categorical semantics]]. 
+This most desirable property of any [[homotopy type theory]] has previously been accomplished only by [[cubical type theories]]. However, cubical type theories achieve this only by adding syntax for auxiliary/spurious [[interval types]] with rewrite rules which encode technical detail that has no abstract motivation other than making the univalence axiom compute and which one would rather keep out of the syntactic logic and instead relegate to the construction of [[categorical semantics]]. 
 
 The hope is therefore that higher observational type theory would provide a type system which achieves both:
 
-1. its syntax is as logically clean as that of [[Martin-Löf dependent type theory]] equipped with the [[univalence axiom]];
+1. its syntax is logically cleaner than that of [[cubical type theories]], since there isn't a second-class interval primitive;
 
-1. its [[inference rules]] for [[identification types]] make the [[univalence axiom]] be a computable function as it is in [[cubical type theories]].
+1. its [[inference rules]] for [[identification types]] make the [[univalence axiom]] be a computable function, as it is in [[cubical type theories]] and unlike the case for [[Martin-Löf dependent type theory]].
 
-To which extent this hope is being realized would ideally be elucidated by the references [below](#References).
+To which extent this hope is being realized would ideally be elucidated by the references [below](#References). 
 
 ## Definition
 
 Higher observational type theory is an extension of [[dependent type theory]] with 
 
-* [[internal parametricity|internal binary parametricity]] in the form of [[bridge types]] and heterogeneous bridge types, with a symmetry operation on higher dimensional bridge cubes. 
+* [[internal parametricity|internal binary parametricity]] in the form of [[bridge types]] and heterogeneous bridge types, with a symmetry operation on higher-dimensional bridge cubes. 
 
 * [[higher coinductive types]] that modify the whole [[context]] by replacing [[variables]] in the context with higher-dimensional bridge cubes. This means that, like [[multimodal dependent type theory]] and unlike [[Martin-Löf dependent type theory]], assuming an [[axiom]] [[term]] of type $A$ is not the same as working in the context of a variable of type $A$ (see [here](https://github.com/gwaithimirdain/narya/issues/66#issuecomment-2840396249) for more information)
 
@@ -58,8 +58,6 @@ Higher observational type theory is an extension of [[dependent type theory]] wi
   * two dependent functions which give witness that each element is heterogeneously bridged with its transported version, 
 
   * a witness that heterogeneous bridge types of fibrant types are also fibrant
-
-The context modification rules needed in higher observational type theory likely makes the theory less logically clean compared to that of [[Martin-Löf dependent type theory]] equipped with the [[univalence axiom]]. 
 
 ## See also
 
@@ -76,7 +74,7 @@ The context modification rules needed in higher observational type theory likely
 
 Higher observational type theory was introduced as joint work of [[Thorsten Altenkirch]], [[Ambrus Kaposi]] and [[Michael Shulman]], first presented in:
 
-* [[Michael Shulman]], *Towards a Third-Generation HOTT:*, talk at *[Homotopy Type Theory at CMU](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (2022)  &lbrack;part 1: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA); part 2: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU); part 3: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE)&rbrack;
+* {#Shulman22} [[Michael Shulman]], *Towards a Third-Generation HOTT:*, talk at *[Homotopy Type Theory at CMU](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* (2022)  &lbrack;part 1: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA); part 2: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU); part 3: [slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-12.pdf), [video](https://www.youtube.com/watch?v=9pDddxB7LbE)&rbrack;
 
 * {#AgdaCode} Agda code: [github.com/mikeshulman/ohtt](https://github.com/mikeshulman/ohtt)
 
@@ -109,5 +107,6 @@ Parametric and higher observational type theory in [[Narya]]:
 
 * *Higher Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/hott.html))
 
+[[!redirects higher observational type theory]]
 [[!redirects higher observational type theories]]
 [[!redirects HOTT]]
