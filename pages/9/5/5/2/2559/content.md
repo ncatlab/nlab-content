@@ -66,3 +66,10 @@ The ubiquity of right adjoints to exponential functors in the context of [[synth
 * {#Yetter1987} [[David Yetter]], _On Right Adjoints of Exponential Functors_ , JPAA **45** (1987) pp.287-304. (Corrections in JPAA **58** (1989) pp.103-105)
 
 * {#Lawvere2002} [[William Lawvere]], Categorical algebra for continuum micro physics, Journal of Pure and Applied Algebra 175 (2002) 267&#8211;287
+
+A [[modal type theory]] for [[tiny objects]]:
+
+* [[Mitchell Riley]], *A Type Theory with a Tiny Object* &lbrack;[arXiv:2403.01939](https://arxiv.org/abs/2403.01939)&rbrack;
+
+* [[Mitchell Riley]]: *Tiny Objects in Type Theory*, [talk at](CQTS#RileyTinyApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]] @ NYU Abu Dhabi (Apr 2024) &lbrack;slides:[[Riley-TinyTypes-Apr2024.pdf:file]], video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_31zdfvgi?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_31zdfvgi)&rbrack;
+
