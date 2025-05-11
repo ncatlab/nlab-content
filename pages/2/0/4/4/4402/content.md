@@ -57,9 +57,9 @@ A summary is also in
 
 * [[Donu Arapura]], _Building mixed Hodge structures_, in: The arithmetic and geometry of algebraic cycles (Banff, AB, 1998), 13--32, CRM Proc. Lecture Notes, 24, Amer. Math. Soc., Providence, RI, 2000.
 
-For a readable introduction see
+A readable introduction:
 
-* [[Brian Conrad]], _Cohomological descent_ ([pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf))
+* [[Brian Conrad]]: _Cohomological descent_ &lbrack;[pdf](http://math.stanford.edu/~conrad/papers/hypercover.pdf), [[Conrad-CohomologicalDescent.pdf:file]]&rbrack;
 
 Closely related is the [[monadic descent]] for Karoubian triangulated categories in the sense of pages 36--37 in 
 
