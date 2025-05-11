@@ -54,6 +54,7 @@ $$\mathrm{hom}_{A, I}(x, y) \coloneqq \sum_{f:I \to A} (f(0) =_A x) \times (f(1)
 * [[simplicial homotopy type theory]]
 * [[directed homotopy type theory]]
 * [[identity type]]
+* [[bridge type]]
 * [[function type]]
 * [[directed univalence]]
 * [[composite of morphisms]]
