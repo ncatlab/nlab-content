@@ -71,7 +71,8 @@ Introductions are in
 
 * Johannes Nicaise, _Formal and rigid geometry: an intuitive introduction, and some applications_ ([pdf](http://gc83.perso.sfr.fr/GTIM/PDF%20GROUPE%20DE%20TRAVAIL/Nicaise/formal%20rigid%20Nicaise.pdf))
 
-* [[Brian Conrad]], _Several approaches to non-Archimedean geometry_, [pdf](http://math.stanford.edu/~conrad/papers/aws.pdf)
+* [[Brian Conrad]]: *Several approaches to non-archimedean geometry*, chapter 2 in: *$p$-adic Geometry: Lectures from the 2007 Arizona Winter School*, University Lecture Series **45**, AMS (2008) &lbrack;[doi:10.1090/ulect/045](https://doi.org/10.1090/ulect/045), [pdf](https://math.stanford.edu/~conrad/papers/aws.pdf), [[Conrad-ApproachesNonArchGeometry.pdf:file]]&rbrack;
+
 * Peter Schneider, _Basic notions of rigid analytic geometry_, in: Galois representations in arithmetic algebraic geometry (Durham, 1996), 369&#8211;378, London Math. Soc. Lecture Note Ser. __254__, Cambridge Univ. Press 1998, [doi](http://dx.doi.org/10.1017/CBO9780511662010.010)
 
 A comprehensive textbook account is in 
