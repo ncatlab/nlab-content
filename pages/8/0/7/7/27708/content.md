@@ -399,6 +399,8 @@ Review for the case of [[finite groups]]:
 
 * Amirtanshu Prasad, M. K. Vemuri: *Mackey's Little Group Method* &lbrack;[pdf](https://www.imsc.res.in/~amri/little_groups.pdf), [[PrasadVemuri-MackeyMethod.pdf:file]]&rbrack;
 
+* S. Martin: *Mackey Theory*, chapter 12 of *[Representation Theory](https://dec41.user.srcf.net/h/II_L/representation_theory/)*, notes by [[Dexter Chua]] (2016) &lbrack;[pdf](https://dec41.user.srcf.net/h/II_L/representation_theory/12)&rbrack;
+
 Further developments:
 
 * Geetha Venkataraman: *On irreducibility of induced modules and an adaptation of the Wigner--Mackey method of little groups*, J. Korean Math. Soc. **50** 6 (2013) 1213-1222 &lbrack;[arXiv:0908.0026](https://arxiv.org/abs/0908.0026), [doi:10.4134/JKMS.2013.50.6.1213](https://doi.org/10.4134/JKMS.2013.50.6.1213)&rbrack;
