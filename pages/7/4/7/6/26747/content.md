@@ -43,6 +43,8 @@ Parametric dependent type theories are distinguished by the kind of parametricit
 
   * [[displayed type theory]]
 
+* [[bridge type]]
+
 ## References
 
 * {#BJP10} [[Jean-Philippe Bernardy]], [[Patrik Jansson]], and [[Ross Paterson]]. 2010. *Parametricity and dependent types.* In Proceeding of the 15th ACM SIGPLAN international conference on Functional programming, ICFP 2010, Baltimore, Maryland, USA, September 27-29, 2010, Paul Hudak and Stephanie Weirich (Eds.). ACM, 345–356. &lbrack;[doi:10.1145/1863543.1863592](https://doi.org/10.1145/1863543.1863592)&rbrack;
