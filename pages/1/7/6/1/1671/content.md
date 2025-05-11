@@ -58,7 +58,7 @@ Unlike the full axiom of choice, countable choice is often considered to be a [[
 
 ### $\mathrm{AC}_{00}$
 
-Sometimes in foundations it is useful to consider a weaker version of countable choice, called __$AC_{00}$__.  This states that any entire relation $R$ from $\mathbb{N}$ to itself contains a functional entire relation, i.e. there exists a [[sequence]] $x$ in $\mathbb{N}$ such that $R(n, x_n)$ holds. In terms of surjections, the axiom states that any surjection $p\colon X \to \mathbb{N}$ has a section if $X$ is a [[subset]] of $\mathbb{N} \times \mathbb{N}$ and $p$ is the [[restriction]] to $X$ of a product projection. $AC_{00}$ is enough to prove that every [[Dedekind real number]] is a [[Cauchy real number]] (the converse is always true).
+Sometimes in foundations it is useful to consider a weaker version of countable choice, called **$\mathrm{AC}_{00}$** or **$\mathrm{AC}_{\mathbb{N},\mathbb{N}}$**. This states that any entire relation $R$ from $\mathbb{N}$ to itself contains a functional entire relation, i.e. there exists a [[sequence]] $x$ in $\mathbb{N}$ such that $R(n, x_n)$ holds. In terms of surjections, the axiom states that any surjection $p\colon X \to \mathbb{N}$ has a section if $X$ is a [[subset]] of $\mathbb{N} \times \mathbb{N}$ and $p$ is the [[restriction]] to $X$ of a product projection. $AC_{00}$ is enough to prove that every [[Dedekind real number]] is a [[Cauchy real number]] (the converse is always true).
 
 ### Weak countable choice {#WCC}
 
@@ -66,20 +66,47 @@ The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon
 
 ### Another weak countable choice {#ACN2}
 
-An axiom variously called $AC_{weak}$ and $AC_{N2}$ is countable choice for subsets of $\{0,1\}$; that is, every $\mathbb{N}$-indexed sequence of inhabited subsets of $\{0,1\}$ has a choice function.  Like $WCC$ above, this also follows from either $CC$ or excluded middle.  It is enough to prove the equivalence of the [[Dedekind reals]] and [[Cauchy reals]].  See [Saving et al (2021)](#Saving2021), [King et al (2024)](#King2024).
-
+An axiom variously called $AC_{weak}$ and $\mathrm{AC}_{\mathrm{N},2}$ is countable choice for subsets of $\{0,1\}$. This states that any entire relation $R$ from $\mathbb{N}$ to $\{0,1\}$ contains a functional entire relation, i.e. there exists a [[sequence]] $x$ in $\{0,1\}$ such that $R(n, x_n)$ holds. Like $WCC$ above, this also follows from either $CC$ or excluded middle. It is enough to prove the equivalence of the [[Dedekind reals]] and [[Cauchy reals]].  See [Saving et al (2021)](#Saving2021), [King et al (2024)](#King2024).
 
 ### Very weak countable choice
 
 An even weaker form of countable choice was proposed by [Martin Escardo](#EscardoCN); it states that any surjection of the form $A \sqcup (\mathbf{N}\times B) \to \mathbf{N}$ has a section, where $A\to \mathbf{N}$ is a [[decidable subset]] and $B$ is an arbitrary set with $\mathbf{N}\times B \to \mathbf{N}$ the projection.  This follows from WCC and also from the [[limited principle of omniscience]]; see the [constructivenews discussion](#EscardoCN).
 
+### Using a dominance
+
+In [[constructive mathematics]], one can express weaker versions of the axiom of countable choice by using an arbitrary [[dominance]] $\Sigma \subseteq \Omega$ and restricting countable choice to the $\Sigma$-open relations: For any set $A$, any entire open relation $R:\mathbb{N} \times A \to \Sigma$ from $\mathbb{N}$ to $A$ contains a functional entire relation, i.e. there exists a [[sequence]] $x$ in $A$ such that $R(n, x_n) = \top$. 
+
+Similarly, we can express weaker versions of $\mathrm{AC}_{\mathbb{N},\mathbb{N}}$ and $\mathrm{AC}_{\mathbb{N},2}$ using a dominance $\Sigma$:
+
+* $\mathrm{AC}_{\mathbb{N},\mathbb{N},\Sigma}$ states that any entire open relation $R:\mathbb{N} \times \mathbb{N} \to \Sigma$ from $\mathbb{N}$ to itself contains a functional entire relation, i.e. there exists a [[sequence]] $x$ in $\mathbb{N}$ such that $R(n, x_n) = \top$. 
+
+* $\mathrm{AC}_{\mathbb{N},2,\Sigma}$ states that any entire open relation $R:\mathbb{N} \times \{0, 1\} \to \Sigma$ from $\mathbb{N}$ to the [[boolean domain]] $\{0, 1\}$ contains a functional entire relation, i.e. there exists a [[sequence]] $x$ in $\{0, 1\}$ such that $R(n, x_n) = \top$. 
+
+\begin{theorem}
+For $\Sigma$ an $\mathbb{N}$-overt [[dominance]], any of the above axioms are sufficient to prove that the [[Cauchy real numbers]] $\mathbb{R}_C$ and the [[Dedekind real numbers]] $\mathbb{R}_\Sigma$ constructed out of [[Dedekind cuts]] valued in $\Sigma$ are equivalent. 
+\end{theorem}
+
+\begin{proof}
+It suffices to prove the theorem using $\mathrm{AC}_{\mathbb{N},2,\Sigma}$, since both $\mathrm{AC}_{\mathbb{N},\mathbb{N},\Sigma}$ and the more general $\Sigma$-open countable choice both imply $\mathrm{AC}_{\mathbb{N},2,\Sigma}$. 
+
+Adopting the proof of Corollary 11.4.3 from the [[HoTT book]], suppose that $\mathrm{AC}_{\mathbb{N},2,\Sigma}$ holds. The set 
+$$S = \{ (q, r) \in \mathbb{Q} \times \mathbb{Q} \vert q \lt r \}$$ 
+is equivalent to $\mathbb{N}$, so we may apply $\mathrm{AC}_{\mathbb{N},2,\Sigma}$ to the statement that $x$ is located: 
+$$\forall q,r \in S.(q \lt x) \vee (x \lt r)$$
+Note that $(q \lt x) \vee (x \lt r)$ is expressible as an existential statement 
+$$\exists b \in \{0, 1\}.(b = 0) \Rightarrow (q \lt x) \times (b = 1) \Rightarrow (x \lt r)$$
+and $(b = 0) \Rightarrow (q \lt x) \times (b = 1) \Rightarrow (x \lt r)$ is $\Sigma$-open, since the order relation $x \lt y$ on $\mathbb{R}_\Sigma$ is $\Sigma$-open by theorem 11.2.14 from the [[HoTT book]] and equality on $\{0, 1\}$ is a [[decidable relation]], and given a decidable proposition $P$ (which implies that both $P$ and $\neg P$ are $\Sigma$-open) and a $\Sigma$-open proposition $Q$, $P \Rightarrow Q$ is [[logically equivalent]] to $(P \wedge Q) \vee \neg P$ and thus $\Sigma$-open. 
+
+The (curried form) of the choice function from $\mathrm{AC}_{\mathbb{N},2,\Sigma}$ is then the [[locator]]
+$$\prod_{q, r \in \mathbb{Q}} (q \lt r) \to (q \lt x) + (x \lt r)$$
+and lemma 11.4.1 from the [[HoTT book]] implies that $\mathbb{R}_C$ and $\mathbb{R}_\Sigma$ coincide. 
+\end{proof}
 
 ### Topos violating the CAC
 
 One easy example is the category $Sh([0,1])$, the sheaves on the unit interval, since in that topos the [[real numbers object#classical_dedekind_real_numbers|Dedekind real numbers]] and the [[real numbers object#cauchy_real_numbers|Cauchy real numbers]] are not isomorphic, and this is a consequence of the internal countable choice.
 
 Discussion [here](https://mathoverflow.net/questions/79807/example-of-a-topos-that-violates-countable-choice). 
-
 
 ### In higher category theory
 
@@ -114,6 +141,8 @@ There are also "internal" versions of these axioms.
 * {#King2024} Christopher King et al (2024). *Does weak countable choice imply that the Cauchy reals are Dedekind complete?* [MathOverflow](https://mathoverflow.net/questions/461200/does-weak-countable-choice-imply-that-the-cauchy-reals-are-dedekind-complete). 
 
 * {#AB24} [[Mathieu Anel]], [[Reid Barton]], *Choice axioms and Postnikov completeness* ([arXiv:2403.19772](https://arxiv.org/abs/2403.19772))
+
+* {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 See also 
 
