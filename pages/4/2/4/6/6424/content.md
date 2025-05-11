@@ -1,4 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
 # Specker sequences
 * table of contents
 {: toc}
@@ -6,7 +24,6 @@
 ## Definition
 
 A __Specker sequence__ is a [[bounded function|bounded]] [[computable function|computable]] [[increasing function|increasing]] [[infinite sequence]] of [[rational numbers]] with no [[computable number|computable]] [[supremum]].
-
 
 ## Examples
 
@@ -27,6 +44,15 @@ In many other varieties of [[constructive mathematics]], the computability of al
 
 For a non-computable number that can be expressed as the limit of a Specker sequence, the sequence itself is a way to work with the number in constructive mathematics without assuming that it exists as a real number.  (This amounts to treating it as a computable [[lower real number]].)
 
+The [[limited principle of omniscience]] for the [[natural numbers]] $\mathrm{LPO}_\mathbb{N}$ is inconsistent with the existence of a [[Specker sequence]]. 
+
+## Related concepts
+
+* [[limited principle of omniscience]]
+
+## References
+
+* {#Diener18} [[Hannes Diener]], *Constructive reverse mathematics*, Habilitationsschrift Fakultät IV - Naturwissenschaftlich-Technische Fakultät, 2018. ([arXiv:1804.05495](https://arxiv.org/abs/1804.05495), [dspace:ubsi/1306](https://dspace.ub.uni-siegen.de/handle/ubsi/1306))
 
 [[!redirects Specker sequence]]
 [[!redirects Specker sequences]]
