@@ -365,15 +365,15 @@ $\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[canonicity]] or [[homotopy cano
 \end{theorem}
 
 \begin{proof}
-By $\mathrm{LPO}_\mathbb{N}$, we can define the sequence $f:\mathbb{N} \to \mathbb{2}$ to the booleans $\mathbb{2}$ by $f(n) = 1$ if $n$ is the sum of two [[prime numbers]] and $f(n) = 0$ if $n$ is not the sum of two prime numbers, since $n$ being the sum of two prime numbers is a [[decidable proposition]]. Then [[Goldbach's conjecture]] states that the $f$ is equal to the constant sequence $\lambda n:\mathbb{N}.1$, and we can define a term $\mathrm{LPO}(\mathrm{Goldbach}, 0, 1):\mathbb{N}$ which is 0 or 1 according as the Goldbach conjecture is true or false. This term is not [[identification|identified with]] a [[canonical form]] (a numeral).
+By $\mathrm{LPO}_\mathbb{N}$, we can define the sequence $f:\mathbb{N} \to \mathbb{2}$ to the booleans $\mathbb{2}$ by $f(n) = 1$ if $2 n + 2$ is the sum of two [[prime numbers]] and $f(n) = 0$ if $2 n + 2$ is not the sum of two prime numbers, since $2 n + 2$ being the sum of two prime numbers is a [[decidable proposition]]. Then [[Goldbach's conjecture]] states that the $f$ is equal to the constant sequence $\lambda n:\mathbb{N}.1$, and we can define a term $\mathrm{LPO}(\mathrm{Goldbach}, 0, 1):\mathbb{N}$ which is 0 or 1 according as the Goldbach conjecture is true or false. This term is not [[identification|identified with]] a [[canonical form]] (a numeral), contradicting [[homotopy canonicity]] and by extension [[canonicity]].
 \end{proof}
 
 \begin{theorem}
-$\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[Brouwer's continuity principle]] for any one of the [[Cauchy real numbers]], the [[HoTT book real numbers]], or the [[Dedekind real numbers]] defined using the initial $\sigma$-frame $\Sigma$. 
+$\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[Brouwer's continuity principle]] for any one of the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[HoTT book real numbers]] $\mathbb{R}_H$, or the [[Dedekind real numbers]] $\mathbb{R}_\Sigma$ defined using the initial $\sigma$-frame $\Sigma$. 
 \end{theorem}
 
 \begin{proof}
-...
+$\mathrm{LPO}_\mathbb{N}$ implies that $\mathbb{R}_C$, $\mathbb{R}_H$, and $\mathbb{R}_\Sigma$ are equivalent to each other, which means we can simply denote this set of real numbers as $\mathbb{R}$, and that the [[pseudo-order]] relation on $\mathbb{R}$ is decidable. As a result, we can define a pointwise-discontinuous function $f:\mathbb{R} \to \mathbb{R}$ by case analysis $f(x) = 1$ if $x \gt 0$ and $f(x) = 1$ if $x \leq 0$. This contradicts Brouwer's continuity principle which says that all functions $f:\mathbb{R} \to \mathbb{R}$ are pointwise-continuous. 
 \end{proof}
 
 \begin{theorem}
@@ -385,6 +385,26 @@ $\mathrm{AC}_{\mathbb{N}, 2}$ implies that the Cauchy real numbers and the Dedek
 \end{proof}
 
 This means that theories which accept both $\mathrm{LPO}_\mathbb{N}$ and [[Brouwer's continuity principle]] for the Dedekind real numbers, such as the [[internal logic]] of the [[cohesive (infinity,1)-topos]] of [[Euclidean-topological infinity-groupoids]], necessarily reject $\mathrm{AC}_{\mathbb{N}, 2}$. 
+
+\begin{theorem}
+$\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[Phoa's principle]] for the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$. 
+\end{theorem}
+
+\begin{proof}
+$\mathrm{LPO}_\mathbb{N}$ is equivalent to the fact that the unique [[distributive lattice]] [[homomorphism]] from the [[boolean domain]] to the initial $\sigma$-frame $\Sigma$ is an [[isomorphism]]. However, the [[logical negation]] function $x \mapsto \neg x$ on the [[boolean domain]] does not satisfy the linear interpolation condition for Phoa's principle for the booleans; it is not true that $\neg x = (\neg 0) \wedge (x \vee \neg 1) = 1 \wedge (x \vee 0) = x$ on the booleans. As a result, $\mathrm{LPO}_\mathbb{N}$ is inconsistent with Phoa's principle for the initial $\sigma$-frame $\Sigma$. 
+\end{proof}
+
+\begin{lemma}
+$\mathrm{LPO}_\mathbb{N}$ is inconsistent with synthetic quasi-coherence (i.e. the [[Kock-Lawvere axiom]]) for the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$; that is, let $A$ be a finitely presented $\Sigma$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\Sigma[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{Spec}_\Sigma(A)$ be the set of $\Sigma$-algebra homomorphisms. Then the canonical lattice homomorphism
+
+$$a \mapsto (f \mapsto f(a)):A \to \Sigma^{\mathrm{Spec}_\Sigma(A)}$$
+
+is an [[isomorphism]]
+\end{lemma}
+
+\begin{proof}
+Synthetic quasi-coherence for the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$ implies [[Phoa's principle]] for $\Sigma$, and so is thus inconsistent with $\mathrm{LPO}_\mathbb{N}$.  
+\end{proof}
 
 \begin{theorem}
 $\mathrm{LPO}_\mathbb{N}$ is inconsistent with the existence of a [[Specker sequence]]. 
