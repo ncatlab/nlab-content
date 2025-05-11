@@ -192,7 +192,7 @@ With emphasis on [[Cartan geometry]]:
 
 Lecture notes:
 
-* {#Conrad} [[Brian Conrad]], Handouts on Differential Geometry ([web](http://math.stanford.edu/~conrad/diffgeomPage/handouts.html))
+* {#Conrad} [[Brian Conrad]]: *Handouts on Differential Geometry* &lbrack;[web](http://math.stanford.edu/~conrad/diffgeomPage/handouts.html)&rbrack;
 
 * [[Liviu Nicolaescu]], _Lectures on the Geometry of Manifolds_, 2018 ([pdf](https://www3.nd.edu/~lnicolae/Lectures.pdf))
 
