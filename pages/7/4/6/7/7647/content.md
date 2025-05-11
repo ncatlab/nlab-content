@@ -128,6 +128,8 @@ If both $H \subset Sym(X)$ and $G \subset Sym(Y)$ are presented as [[permutation
 ### Irreducible representations
  {#IrreducibleRepresentations}
 
+> (See also at *[[Mackey theory]]*.)
+
 Let $G$ be a [[finite group]]. Denote by $Irr(G) \simeq \big\{ [\rho_i] \big\}_{i \in I}$ the [[set]] of [[isomorphism classes]] of its [[irreducible representations]].
 
 For $n \in \mathbb{N}$ and  $(n_i \in \mathbb{N})_{i \in I}$ an $I$-[partition](partition#partitions_of_natural_numbers), in that $n = \sum_i n_i$, write
