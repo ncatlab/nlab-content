@@ -151,7 +151,9 @@ For more on the free topos and the first appearance in print of Freyd's observat
 
 * [[Joachim Lambek|J. Lambek]], P. J. Scott, _Intuitionist Type Theory and the Free Topos_ , JPAA **19** (1980) pp.215-257.
 
-The following paper studies when the partial map classifier is a Sierpiński cone:
+The following studies when the [[partial map classifier]] is a Sierpiński cone in [[synthetic domain theory]]:
+
+* [[Jonathan Sterling]], *Baby steps in higher domain theory*, talk at [Homotopy Type Theory and Computing – Classical and Quantum](https://nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html), [[Center for Quantum and Topological Systems]] ([video](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_b57uwin3?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_b57uwin3))
 
 * {#PS25} [[Leoni Pugh]], [[Jonathan Sterling]], *When is the partial map classifier a Sierpiński cone?* ([arXiv:2504.06789](https://arxiv.org/abs/2504.06789))
 
