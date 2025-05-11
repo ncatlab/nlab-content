@@ -322,6 +322,11 @@ Textbook accounts:
 
 * {#Piccinini92} [[Renzo A. Piccinini]], *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland 1992 ([ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)) 
 
+Lecture notes:
+
+* [[Brian Conrad]]: *Paracompactness and local compactness* &lbrack;[pdf](http://math.stanford.edu/~conrad/diffgeomPage/handouts/paracompact.pdf), [[Conrad-ParaAndLocalCompactness.pdf:file]]&rbrack;
+
+
 Further discussion in relation to [[compactly generated topological spaces]]:
 
 * {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
