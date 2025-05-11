@@ -22,13 +22,17 @@ On [[topological quantum compilation]] and approximating (cf. the [[Solovay-Kita
 * [[Layla Hormozi]], [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Topological Quantum Computing with Read-Rezayi States*, Phys. Rev. Lett. **103** 160501 (2009) $[$[doi:10.1103/PhysRevLett.103.160501](https://doi.org/10.1103/PhysRevLett.103.160501), [arXiv:0903.2239](https://arxiv.org/abs/0903.2239)$]$
 
 * M. Baraban, [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Resources required for topological quantum factoring*, Phys. Rev. A **81** 062317 (2010) $[$[doi:10.1103/PhysRevA.81.062317](https://doi.org/10.1103/PhysRevA.81.062317), [arXiv:1002.0537](https://arxiv.org/abs/1002.0537)$]$
-
   > (focus on compiling [[Shor's algorithm]])
 
 
 and particularly by just the "weaves" among all [[braids]]:
 
 * [[Steven H. Simon]], [[Nick E. Bonesteel]], [[Michael H. Freedman]], N. Petrovic, [[Layla Hormozi]], *Topological Quantum Computing with Only One Mobile Quasiparticle*, Phys. Rev. Lett. 96 (2006) 070503 ([arXiv:quant-ph/0509175](https://arxiv.org/abs/quant-ph/0509175), [doi:10.1103/PhysRevLett.96.070503](https://doi.org/10.1103/PhysRevLett.96.070503))
+
+On [[Laughlin wavefunctions]] and its cousins, approximating ground states of [[fractional quantum Hall systems]]:
+
+* [[Steven H. Simon]]: *Wavefunctionology: The Special Structure of Certain Fractional Quantum Hall Wavefunctions*, Chapter 8 of: *Fractional Quantum Hall Effects* eds. Halperin and Jain, World Scientific (2020) &lbrack;[arXiv:2107.00437](https://arxiv.org/abs/2107.00437), [doi:10.1142/11751](https://doi.org/10.1142/11751)&rbrack;
+
 
 On [[topological phases of matter]] via [[higher gauge theory|higher]] lattice gauge theory:
 
