@@ -393,7 +393,7 @@ Review for the case of [[finite groups]]:
 
 * [[Charles Curtis]], [[Irving Reiner]], around Prop. 11.8 of: _Representation theory of finite groups and associative algebras_, AMS (1962) &lbrack;[ISBN:978-0-8218-4066-5](https://bookstore.ams.org/chel-356.h)&rbrack;
 
-* {#Serre77} [[Jean-Pierre Serre]], section 8.2 of : *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
+* {#Serre77} [[Jean-Pierre Serre]], section 8.2 of: *Linear Representations of Finite Groups*, Graduate Texts in Mathematics **42**, Springer (1977) &lbrack;[doi:10.1007/978-1-4684-9458-7](https://doi.org/10.1007/978-1-4684-9458-7), [pdf](https://www.math.tau.ac.il/~borovoi/courses/ReprFG/Hatzagot.pdf)&rbrack;
 
 * [[Brian Conrad]]: *Mackey theory and applications* &lbrack;[pdf](https://math.stanford.edu/~conrad/210BPage/handouts/mackey.pdf), [[Conrad-MackeyTheory.pdf:file]]&rbrack;
 
