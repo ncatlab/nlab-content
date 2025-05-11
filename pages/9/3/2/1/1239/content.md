@@ -167,6 +167,7 @@ Lecture notes:
 
 * [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §14 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
 
+* S. Martin: *Representation Theory*, notes by [[Dexter Chua]] (2016) &lbrack;[web](https://dec41.user.srcf.net/h/II_L/representation_theory)&rbrack;
 
 Textbook accounts 
 
