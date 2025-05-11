@@ -118,8 +118,11 @@ Moreover, the rigidity method works also for finite type **Deligne-Mumford stack
 * Z. Mebkhout, _Le formalisme des six op&#233;rations de Grothendieck pour les $\mathcal{D}_X$-modules coh&#233;rents_, Travaux en Cours __35__. Hermann, Paris, 1989. x+254 pp. [MR90m:32026](http://www.ams.org/mathscinet-getitem?mr=1008245)
 * [[Amnon Neeman]], _Derived categories and Grothendieck duality_, in:  Triangulated categories, 290&#8211;350, London Math. Soc. Lecture Note Ser. __375__, Cambridge Univ. Press 2010
 * Amnon Neeman, _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc. __9__ (1996), no. 1, 205&#8211;236, [MR96c:18006](http://www.ams.org/mathscinet-getitem?mr=1308405), [doi](http://dx.doi.org/10.1090/S0894-0347-96-00174-9)
-* Brian Conrad, _Grothendieck duality and base change_, Springer Lec. Notes Math. __1750__ (2000) vi+296 pp.
+
+* [[Brian Conrad]]: *Grothendieck duality and base change*, Lec. Notes Math. __1750__, Springer (2000) &lbrack;[doi:10.1007/b75857](https://doi.org/10.1007/b75857), [errata](https://math.stanford.edu/~conrad/papers/dualitycorrections.pdf)&rbrack;
+
 * [[Joseph Lipman]], _Notes on derived functors and Grothendieck duality_, in: Foundations of Grothendieck duality for diagrams of schemes, 1&#8211;259, Lecture Notes in Math. __1960__, Springer 2009, [doi](http://dx.doi.org/10.1007/978-3-540-85420-3), [draft pdf](http://www.math.purdue.edu/~lipman/Duality.pdf)
+
 * J. Lipman, _Grothendieck operations and coherence in categories_, conference slides, 2009, [pdf](http://www.math.purdue.edu/~lipman/Madrid.pdf)
 * Alonso Tarr&#237;o, Leovigildo; Jerem&#237;as L&#243;pez, Ana; Joseph Lipman, _Studies in duality on Noetherian formal schemes and non-Noetherian ordinary schemes_, Contemporary Mathematics __244__ Amer. Math. Soc. 1999. x+126L. [MR2000h:14017](http://www.ams.org/mathscinet-getitem?mr=1716706); _Duality and flat base change on formal schemes_, Contemporary Math. __244__ (1999), pp. 3&#8211;90.
 * J. Ayoub, _Les six op&#233;rations de Grothendieck et le formalisme des cycles &#233;vanescents dans le monde motivique. I._, Ast&#233;risque No. 314 (2007), x+466 pp. (2008) [MR2009h:14032](http://www.ams.org/mathscinet-getitem?mr=2423375); _II._ Ast&#233;risque No. 315 (2007), vi+364 pp. (2008) [MR2009m:14007](http://www.ams.org/mathscinet-getitem?mr=2438151); 
