@@ -8,6 +8,8 @@
 
 ***
 
+* *Tunneling between helical edge states through extended contact* (4)
+
 * *Two point-contact interferometer for quantum Hall systems* &lbrack;[doi:10.1103/PhysRevB.55.2331](https://doi.org/10.1103/PhysRevB.55.2331)&rbrack;
 
 chiral quasiparticle operators
