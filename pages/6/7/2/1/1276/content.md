@@ -365,7 +365,7 @@ Let $R \to S$ be a morphism of commutative rings and let $M$ be a flat $R$-modul
 \begin{proof}
 Let $X \to Y$ be an injective morphism of $S$-modules, then
 the map $(M \otimes_R S) \otimes_S X \to (M \otimes_R S) \otimes_S Y$ is
-isomorphic to the map $M \otimes_R X \to M \otimes_R X$ which is injective because $M$ is flat.
+isomorphic to the map $M \otimes_R X \to M \otimes_R Y$ which is injective because $M$ is flat.
 \end{proof}
 
 \begin{proposition}(Flatness is a local property)
