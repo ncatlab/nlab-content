@@ -27,6 +27,8 @@ In the second presentation of dependent type theory, the theory does not come wi
 
 * Large recursion principles of inductive types and higher inductive types $T$ are principles where given some existing data one can construct a type family $C(x)_{x:T}$ indexed by the inductive type $T$. (In the other formulation, large recursion principles are just the usual recursion principles for functions $T \to U$ into a type universe $U$.) While the large recursion principles of certain non-recursive inductive types and higher inductive types, such as the [[boolean domain]], the [[circle type]], and [[graph quotients]], can be defined without type variables, the large recursion principles of recursive inductive types and higher inductive types, such as the [[natural numbers type]] and [[W-types]], require type variables in the theory. 
 
+* The concept of [[impredicative polymorphism]] can be implemented as applying to the entire type theory, rather than to a single universe. Impredicative polymorphism is important for defining axioms such as [[UIP]], [[excluded middle]], the [[type theoretic axiom of replacement|axiom of replacement]] and the [[axiom of choice]] as actual axioms rather than unjustified rules. Axioms involving type families can be represented using an auxiliary type and a function to the index type, where the type family itself is represented by the [[fiber types]] of the function. 
+
 * With type variables, one can define [[identity types]] $A = B$ between types $A$ and $B$. This has a few benefits: 
 
   1. With identity types between types, it is possible to define the [[univalence axiom]] and thus make the type theory a [[univalent type theory]] without requiring universes in the type theory. This is important since the univalence axiom implies the large recursion principles discussed in the previous point. 
@@ -36,8 +38,6 @@ In the second presentation of dependent type theory, the theory does not come wi
   3. The same goes with the weak large recursion principles: in the absence of either judgmental equality or identity types between types, the [[computation rules]] associated with large recursion principles state that one can construct an equivalence of types between certain types given in the [[elimination rules]] of the large recursion principles. With identity types between types, one can simply make use of an [[identification]] between types. 
 
 * With type variables, one can also define [[fibered heterogeneous identity types]] $x =_{X.C(X)}^{A, B} y$ over the type-indexed family $X \; \mathrm{type} \vdash C(X) \; \mathrm{type}$ parameterised by types $A$ and $B$. and between elements $x:C(A)$ and $y:C(B)$. With these fibered heterogeneous identity types and the univalence axiom mentioned in a previous point, one can prove the [[structure identity principle]] for a type structure $X \; \mathrm{type} \vdash \mathrm{struct}(X)$ between $x =_{X.\mathrm{struct}(X)}^{A, B} y$ and the type of structure preserving morphisms 
-
-* The concept of [[impredicative polymorphism]] can be implemented as applying to the entire type theory, rather than to a single universe. 
 
 Dependent type theory with type variables is thus similar to [[System F]], which is a non-dependent [[polymorphism|polymorphic]] [[lambda calculus]] with type variables. 
 
