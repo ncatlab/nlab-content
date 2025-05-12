@@ -235,6 +235,10 @@ Equivalently, given types $A$ and $B$, there is a function
 
 $$\mathrm{axrepl}_U^{A, B}:\left(\sum_{C:U} T(C) \simeq A\right) \times \left(\sum_{R:B \times B \to U} \prod_{a:B} \prod_{b:B} T(R(a, b)) \simeq (a =_B b)\right) \to \left(\sum_{I:(A \to B) \to U} \prod_{f:A \to B} T(I(f)) \simeq \mathrm{im}(f)\right)$$
 
+If the dependent type theory has [[type variables]] and [[impredicative polymorphism]], the axiom of replacement can be expressed as an actual [[axiom]] rather than an [[axiom schema]]:
+
+$$\mathrm{axrepl}_U:\Pi A.\Pi B.\left(\sum_{C:U} T(C) \simeq A\right) \times \left(\sum_{R:B \times B \to U} \prod_{a:B} \prod_{b:B} T(R(a, b)) \simeq (a =_B b)\right) \to \left(\sum_{I:(A \to B) \to U} \prod_{f:A \to B} T(I(f)) \simeq \mathrm{im}(f)\right)$$
+
 ### Excluded middle
 
 A [[univalent Tarski universe]] $(U, T)$ satisfies **[[excluded middle]]** if all $U$-small propositions are [[decidable propositions]]:
