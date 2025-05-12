@@ -760,6 +760,17 @@ Realization via [[AdS/CFT in condensed matter physics]]:
 
 * Mitsutoshi Fujita, Wei Li, [[Shinsei Ryu]], [[Tadashi Takayanagi]], *Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy*, JHEP 0906:066 (2009) &lbrack;[arXiv:0901.0924](https://arxiv.org/abs/0901.0924)&rbrack;
 
+#### Edge modes
+
+On [[edge modes]] in fractional quantum Hall systems:
+
+* [[Xiao-Gang Wen]]: *Chiral Luttinger liquid and the edge excitations in the fractional quantum Hall states*, Phys. Rev. B **41** (1990) 12838 &lbrack;[doi:10.1103/PhysRevB.41.12838](https://doi.org/10.1103/PhysRevB.41.12838)&rbrack;
+
+* [[Xiao-Gang Wen]]: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
+
+* C. de C. Chamon, D. E. Freed, S. A. Kivelson, S. L. Sondhi, [[Xiao-Gang Wen]]: *Two point-contact interferometer for quantum Hall systems*, Phys. Rev. B **55** (1997) 2331 &lbrack;[doi:10.1103/PhysRevB.55.2331](https://doi.org/10.1103/PhysRevB.55.2331)&rbrack;
+
+
 #### Experiment
 
 Observation of the FQHE in $GaAS$:
