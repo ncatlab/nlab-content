@@ -11,6 +11,14 @@
 
 \tableofcontents
 
+## Idea
+
+Given a type family indexed by [[type variables]], impredicative polymorphism states that we can construct the [[dependent function type]] and dependent functions for said type family. If types are represented by elements of a [[type universe]] $U$, then impredicative polymorphism also says that such a type is a $U$-[[small type]]. 
+
+Impredicative polymorphism is important for defining axioms such as [[UIP]], [[excluded middle]], the [[type theoretic axiom of replacement|axiom of replacement]] and the [[axiom of choice]] as actual axioms rather than unjustified rules. Axioms involving type families can be represented using an auxiliary type and a function to the index type, where the type family itself is represented by the [[fiber types]] of the function. 
+
+Impredicative polymorphism is also important for defining impredicative structures in [[dependent type theory]], such as [[frames]], [[Grothendieck topoi]], the [[type of all propositions]], etc.
+
 ## Definition
 
 ### For universes
