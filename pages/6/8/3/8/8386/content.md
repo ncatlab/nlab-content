@@ -42,7 +42,7 @@ But things don\'t always work out this way.
 
 ## Parametric polymorphism
 
-In **parametric polymorphism** or **parametricity**, one writes code to define a function *once*, which contains a "type variable" that can be instantiated at many different types to produce different functions.  For instance, we can define a function
+In **parametric polymorphism** or **parametricity**, one writes code to define a function *once*, which contains a [[type variable]] that can be instantiated at many different types to produce different functions.  For instance, we can define a function
 
 $$ first : A\times A \to A $$
 
@@ -57,9 +57,9 @@ $$ first : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$$
 
 and so on, for any types we wish.  In contrast to *ad hoc* polymorphism, in this case we do have a guarantee that all these same-named functions are doing "the same thing", because they are all instantiated by the same original polymorphic code.
 
-In a [[dependent type theory|dependently typed programming language]] with a [[type of types]], such as [[Coq]] or [[Agda]], a parametrically polymorphic family of functions can simply be considered to be a single dependently typed function whose first argument is a type.  Thus our function above would be typed as
+In a [[dependent type theory|dependently typed programming language]] with a [[type of types]], such as [[Coq]] or [[Agda]], or with [[dependent type theory with type variables|type variables]] and [[impredicative polymorphism]], a parametrically polymorphic family of functions can simply be considered to be a single dependently typed function whose first argument is a type. Thus our function above would be typed as
 
-$$ first : \prod_{A:Type} A\times A \to A$$
+$$ first : \prod_{A:Type} A\times A \to A \qquad \mathrm{or} \qquad first : \prod_{A \; \mathrm{type}} A\times A \to A$$
 
 However, parametric polymorphism makes sense and is very useful even in languages with less rich type systems, such as [[Haskell]] and [[Standard ML]].
 
