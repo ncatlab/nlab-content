@@ -764,11 +764,20 @@ Realization via [[AdS/CFT in condensed matter physics]]:
 
 On [[edge modes]] in fractional quantum Hall systems:
 
+Original articles:
+
 * [[Xiao-Gang Wen]]: *Chiral Luttinger liquid and the edge excitations in the fractional quantum Hall states*, Phys. Rev. B **41** (1990) 12838 &lbrack;[doi:10.1103/PhysRevB.41.12838](https://doi.org/10.1103/PhysRevB.41.12838)&rbrack;
 
 * [[Xiao-Gang Wen]]: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
 
 * C. de C. Chamon, D. E. Freed, S. A. Kivelson, S. L. Sondhi, [[Xiao-Gang Wen]]: *Two point-contact interferometer for quantum Hall systems*, Phys. Rev. B **55** (1997) 2331 &lbrack;[doi:10.1103/PhysRevB.55.2331](https://doi.org/10.1103/PhysRevB.55.2331)&rbrack;
+
+Review:
+
+* A. M. Chang: *Chiral Luttinger liquids at the fractional quantum Hall edge*, Rev. Mod. Phys. **75** (2003) 1449 &lbrack;[doi:10.1103/RevModPhys.75.1449](https://doi.org/10.1103/RevModPhys.75.1449)&rbrack;
+
+* [[David Tong]]: *Edge Modes*, chapter 6 of: [Tong 2016](#Tong16)
+
 
 
 #### Experiment
