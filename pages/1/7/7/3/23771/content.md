@@ -44,6 +44,8 @@ The hope is therefore that higher observational type theory would provide a type
 
 Since higher observational type theory is still work in progress, there being as yet no formally specified theory called 'HOTT' in the literature, the extent to which this hope is being realized should be explored in the references [below](#References). 
 
+HOTT has been motivated by the philosophical claim that [[Book HoTT]] does not provide a foundation for mathematics that is truly autonomous from [[set theory]] ([Shulman 24](#Shulman24)).
+
 ## Definition
 
 ### Using internal parametricity
@@ -101,6 +103,10 @@ The authors of the above article write:
 > * a strictification construction which turns the isomorphism for $\Pi$ types into a definitional equality (in case of bridge, we also need the same for $\Sigma$),
 > * Kan fibrancy, which adds transport and turns the bridge type into a proper identity type. This would also change the correspondence between $\forall U$ and spans into $\forall U$ and equivalences.
 
+Philosophical motivation for HOTT as an autonomous foundation is given in:
+
+* {#Shulman24} [[Mike Shulman]], *From HoTT to HOTT: Autonomy in new foundations for mathematics* &lbrack;[slides](https://home.sandiego.edu/~shulman/papers/philsci.pdf)&rbrack;.
+
 Parametric and higher observational type theory in [[Narya]]:
 
 * *Parametric Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametric-observational-type-theory.html)) 
@@ -108,6 +114,8 @@ Parametric and higher observational type theory in [[Narya]]:
 * *Higher datatypes and codatatypes*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/higher-types.html))
 
 * *Higher Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/hott.html))
+
+
 
 [[!redirects higher observational type theory]]
 [[!redirects higher observational type theories]]
