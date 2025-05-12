@@ -54,11 +54,15 @@ $$\mathrm{isProp}(A) \coloneqq A \to \mathrm{isContr}(A)$$
 
 We shall be agnostic about the different definitions of $\mathrm{isProp}(A)$, and just directly use $\mathrm{isProp}(A)$. 
 
-### The type of all propositions
+The **type of (all) propositions** $\mathrm{Prop}$ in a [[dependent type theory]] could be defined in many different ways:
 
-The **type of all propositions** $\mathrm{Prop}$ in a [[dependent type theory]] could be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[mere proposition]] in the type theory is literally an element of the type of all propositions, while in the latter, elements of $\mathrm{Prop}$ are only indices of a (-1)-truncated type family $\mathrm{El}$; every [[mere proposition]] in the type theory is only [[essentially small type|essentially $\mathrm{Prop}$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\mathrm{Prop}$ for [[strict Tarski universes]]. 
+* as a [[negative type|negative]] [[Russell universe]] or [[Tarski universe]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
-#### As a strict Tarski universe
+* in [[dependent type theory with type variables]] and [[impredicative polymorphism]], as a [[positive type|positive]] [[higher inductive-inductive type]] representing the [[initial object|initial]] [[frame]] or [[complete Heyting algebra]]. 
+
+The difference between Russell and Tarski universes is that in the former, every [[mere proposition]] in the type theory is literally an element of the type of propositions, while in the latter, elements of $\mathrm{Prop}$ are only indices of a (-1)-truncated type family $\mathrm{El}$; every [[mere proposition]] in the type theory is only [[essentially small type|essentially $\mathrm{Prop}$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\mathrm{Prop}$ for [[strict Tarski universes]]. 
+
+### As a strict Tarski universe
 
 As a [[strict Tarski universe]], the type of all propositions is given by the following [[natural deduction]] [[inference rules]]:
 
@@ -94,7 +98,7 @@ $$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \eta_{\mathrm{Prop}}(A):A =
 Extensionality principle of the type of all propositions:
 $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gamma \vdash \mathrm{ext}_\mathrm{Prop}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
-#### As a weak Tarski universe
+### As a weak Tarski universe
 
 As a [[weak Tarski universe]], the type of all propositions is given by the following [[natural deduction]] [[inference rules]]:
 
@@ -142,7 +146,7 @@ $$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \eta_{\mathrm{Prop}}(A):A =
 Extensionality principle of the type of all propositions:
 $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gamma \vdash \mathrm{ext}_\mathrm{Prop}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
-#### As a Russell universe
+### As a Russell universe
 
 As a [[Russell universe]], the type of all propositions is given by the following [[natural deduction]] [[inference rules]]:
 
@@ -178,32 +182,17 @@ $$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash \eta_{\mathrm{Prop}}(A):A =
 Extensionality principle for the type of all propositions:
 $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gamma \vdash \mathrm{ext}_\mathrm{Prop}(A, B):(A =_\mathrm{Prop} B) \simeq (A \simeq B)}$$
 
-### Other types of propositions
+### As a higher inductive-inductive type
 
-Other types of propositions include 
+Suppose that the dependent type theory has [[type variables]] and [[impredicative polymorphism]]. Then the **type of (all) propositions** can be defined as any of the following [[higher inductive-inductive types]]:
 
-* the [[boolean domain]], which is the type of *decidable propositions*.
+* As the (homotopy)-initial [[frame]] $\mathrm{Prop}$
 
-* any [[dominance]], which is the type of *open propositions*, or the type of *semi-decidable propositions*. 
+* As the (homotopy)-initial [[complete Heyting algebra]] $\mathrm{Prop}$
 
-* For a [[Russell universe]] $U$, the type $\sum_{A:U} \mathrm{isProp}(A)$ is the type of *$U$-small propositions*. Similarly, for a [[Tarski universe]] $(U, T)$, the type $\sum_{A:U} \mathrm{isProp}(T(A))$ is the type of *$U$-small propositions*
+since these structures can only be defined with [[impredicative polymorphism]] in the absence of an already pre-existing type of all propositions. The Tarski universe type family $P:\mathrm{Prop} \vdash \mathrm{El}(P)$ is given by [[identification]] with [[truth]]
 
-* [[sProp]], which is the *type of strict propositions*
-
-* any [[contractible type]], which is (equivalent to) the *type of pointed propositions* or the *type of contractible types*. 
-
-In general, these types of propositions can also be distinguished between their Russell and Tarski variants, where elements of the type of propositions are actual types, or indices for the type family $\mathrm{El}$. 
-
-Most generally, a **type of propositions** is a [[type]] $\Omega$ with a [[type family]] $T$ such that 
-
-* for every elements $P:\Omega$, the type $T(P)$ is an [[h-proposition]]:
-$$\prod_{P:\Omega} \prod_{a:T(P)} \prod_{b:T(P)} a =_{T(P)} b$$
-* the [[transport]] function
-$$\mathrm{trans}^T(P, Q):P =_\Omega Q \to (T(P) \simeq T(Q))$$
-is an equivalence of types for all elements $P:\Omega$ and $Q:\Omega$
-$$\prod_{P:\Omega} \prod_{Q:\Omega} \mathrm{isEquiv}(\mathrm{trans}^T(P, Q))$$
-
-These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] and thus that $\Omega$ is an [[h-set]]. 
+$$\mathrm{El}(P) \coloneqq (P =_{\mathrm{Prop}} \top)$$
 
 ## Predicate logic
 
@@ -366,6 +355,33 @@ Suppose that the [[dependent type theory]] has [[hom-types]] $\mathrm{hom}_A(a, 
 ## Categorical semantics
 
 The [[categorical semantics]] of the type of all propositions is the [[subobject classifier]]. 
+
+## Other types of propositions
+
+There are other types which can also be considered "types of propositions", that only contain some propositions instead of all propositions. These include 
+
+* the [[boolean domain]], which is the type of *decidable propositions*.
+
+* any [[dominance]], which is the type of *open propositions*, or the type of *semi-decidable propositions*. 
+
+* For a [[Russell universe]] $U$, the type $\sum_{A:U} \mathrm{isProp}(A)$ is the type of *$U$-small propositions*. Similarly, for a [[Tarski universe]] $(U, T)$, the type $\sum_{A:U} \mathrm{isProp}(T(A))$ is the type of *$U$-small propositions*
+
+* [[sProp]], which is the *type of strict propositions*
+
+* any [[contractible type]], which is (equivalent to) the *type of pointed propositions* or the *type of contractible types*. 
+
+In general, these types of propositions can also be distinguished between their Russell and Tarski variants, where elements of the type of propositions are actual types, or indices for the type family $\mathrm{El}$. 
+
+Most generally, a **type of propositions** is a [[type]] $\Omega$ with a [[type family]] $T$ such that 
+
+* for every elements $P:\Omega$, the type $T(P)$ is an [[h-proposition]]:
+$$\prod_{P:\Omega} \prod_{a:T(P)} \prod_{b:T(P)} a =_{T(P)} b$$
+* the [[transport]] function
+$$\mathrm{trans}^T(P, Q):P =_\Omega Q \to (T(P) \simeq T(Q))$$
+is an equivalence of types for all elements $P:\Omega$ and $Q:\Omega$
+$$\prod_{P:\Omega} \prod_{Q:\Omega} \mathrm{isEquiv}(\mathrm{trans}^T(P, Q))$$
+
+These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] and thus that $\Omega$ is an [[h-set]]. 
 
 ## Related concepts
 
