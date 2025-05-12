@@ -66,8 +66,17 @@ On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fr
 
 * [[Xiao-Gang Wen]]: *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** 5 (1995) 405 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi:10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
 
-* [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 \[<a href="https://doi.org/10.1142/S0217979292000840">doi:10.1142/S0217979292000840</a>\]
-  > (on [[edge modes]])
+* {#WenEdgeStates92} [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 \[<a href="https://doi.org/10.1142/S0217979292000840">doi:10.1142/S0217979292000840</a>\]
+
+On [[edge modes]] in [[fractional quantum Hall systems]]:
+
+* [Wen 1992](#WenEdgeStates92), "Theory of Edge States..."
+
+* [[Xiao-Gang Wen]]: *Chiral Luttinger liquid and the edge excitations in the fractional quantum Hall states*, Phys. Rev. B **41** (1990) 12838 &lbrack;[doi:10.1103/PhysRevB.41.12838](https://doi.org/10.1103/PhysRevB.41.12838)&rbrack;
+
+* [[Xiao-Gang Wen]]: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
+
+* C. de C. Chamon, D. E. Freed, S. A. Kivelson, S. L. Sondhi, [[Xiao-Gang Wen]]: *Two point-contact interferometer for quantum Hall systems*, Phys. Rev. B **55** (1997) 2331 &lbrack;[doi:10.1103/PhysRevB.55.2331](https://doi.org/10.1103/PhysRevB.55.2331)&rbrack;
 
 On ground state degeneracy ([[topological order]]) of [[topological phases of matter]] on [[surfaces]] with ("gapped") [[boundary of a manifold|boundaries]] via [[effective field theory|effective]] [[abelian Chern-Simons theory]]:
 
@@ -140,15 +149,15 @@ More on [[topological order]]/[[topological phases of matter]]:
 
 * Xiao-Gang Wen, _Vacuum degeneracy of chiral spin state in compactified spaces_, Phys. Rev. B, 40, 7387 (1989), 
 
-* Xiao-Gang Wen, _Topological orders in rigid states_, Int. J. Mod. Phys. B4, 239 (1990)
 
 * Xiao-Gang Wen, Qian Niu,  _Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces_, Phys. Rev. B41, 9377 (1990)
 
 * E. Keski-Vakkuri, Xiao-Gang Wen, _Ground state structure of hierarchical QH states on torus and modular transformation_, Int. J. Mod. Phys. B7, 4227 (1993) [pdf](http://dao.mit.edu/~wen/pub/kw.pdf)
 
-* Xiao-Gang Wen, _Mean field theory of spin liquid states with finite energy gap and topological orders_, Phys. Rev. B 44 2664 (1991).
-* Xiao-Gang Wen, _Non-Abelian Statistics in the FQH states_, [pdf](http://dao.mit.edu/~wen/pub/nab.pdf)
-Phys. Rev. Lett. 66, 802 (1991). 
+* Xiao-Gang Wen, _Mean field theory of spin liquid states with finite energy gap and topological orders_, Phys. Rev. B **44** 2664 (1991)
+
+* Xiao-Gang Wen, _Non-Abelian Statistics in the FQH states_ &lbrack;[pdf](http://dao.mit.edu/~wen/pub/nab.pdf)&rbrack;
+Phys. Rev. Lett. 66, 802 (1991)
 
 * Xiao-Gang Wen,  Yong-Shi Wu, _Chiral operator product algebra hidden in certain FQH states_,  Nucl. Phys. B419, 455 (1994), [pdf](http://dao.mit.edu/~wen/pub/nabdw.pdf)
 
