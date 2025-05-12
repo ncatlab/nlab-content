@@ -258,6 +258,3 @@ Some discussion about extending dependent type theory with type variables occurs
 
 [[!redirects dependent type theory with type variables]]
 [[!redirects dependent type theories with type variables]]
-
-[[!redirects type variable]]
-[[!redirects type variables]]
