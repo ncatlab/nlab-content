@@ -390,16 +390,16 @@ One can construct an element $\mathbb{R}:U$ representing the $U$-small type of r
 
 Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
 
-Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]], which is the initial $\mathbb{N}$-overt [[dominance]]. The [[axiom of choice]] for $\Sigma$-open entire relations from set $A$ says that for any set $B$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
+Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]], which is the initial $\mathbb{N}$-overt [[dominance]]. The [[axiom of choice]] for $\Sigma$-open entire relations to set $B$ says that for any set $A$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
 
 \begin{theorem}
-The [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies $\mathrm{LPO}_\mathbb{N}$. 
+The [[axiom of choice]] for $\Sigma$-open entire relations to the [[boolean domain]] implies $\mathrm{LPO}_\mathbb{N}$. 
 \end{theorem}
 
 \begin{proof}
 The proof is similar to one direction of the proof of the [[Diaconescu-Goodman-Myhill theorem]]. 
 
-Let $P$ be a $\Sigma$-open proposition. Quotient the [[boolean domain]] $\mathbb{2}$ by the [[equivalence relation]] where $0 = 1$ [[if and only if]] $P$ holds, resulting in a set $A$. Then we have an $\Sigma$-open entire relation $R$ between $\mathbb{2}$ and $A$, and there existws a function $f:\mathbb{2} \to A$ such that $R(x, f(x)) = \top$ if and only if $P$ is a [[decidable proposition]], and that it holds for all such $P$ is precisely $\mathrm{LPO}_\mathbb{N}$. Thus, the [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies $\mathrm{LPO}_\mathbb{N}$. 
+Let $P$ be a $\Sigma$-open proposition. Quotient the [[boolean domain]] $\mathbb{2}$ by the [[equivalence relation]] where $0 = 1$ [[if and only if]] $P$ holds, resulting in a set $A$. Then we have an $\Sigma$-open entire relation $R$ between $A$ and $\mathbb{2}$, and there exists a function $f:A \to \mathbb{2}$ such that $R(x, f(x)) = \top$ if and only if $P$ is a [[decidable proposition]], and that it holds for all such $P$ is precisely $\mathrm{LPO}_\mathbb{N}$. Thus, the [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies $\mathrm{LPO}_\mathbb{N}$. 
 \end{proof}
 
 The full [[axiom of choice]] for $\Sigma$-open entire relations says that for any set $A$ and $B$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
@@ -409,7 +409,7 @@ The [[axiom of choice]] for $\Sigma$-open entire relations implies $\mathrm{LPO}
 \end{lemma}
 
 \begin{proof}
-The [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies the [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] stated above, which in turn implies $\mathrm{LPO}_\mathbb{N}$. 
+The [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies the [[axiom of choice]] for $\Sigma$-open entire relations to the [[boolean domain]] stated above, which in turn implies $\mathrm{LPO}_\mathbb{N}$. 
 \end{proof}
 
 \begin{theorem}
