@@ -38,7 +38,11 @@ $$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{i
 
 where $\mathrm{isProp}$ is the [[isProp]] [[modality]] commonly defined as $\prod_{x:P} \prod_{y:P} \mathrm{Id}_P(x, y)$, negation $\neg P$ is simply the the function type $P \to \mathbb{0}$ into the [[empty type]] and [[disjunction]] $A \vee B$ is the [[bracket type]] of the [[sum type]] $[A + B]$. 
 
-If one additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of truncated excluded middle could be expressed as an axiom:
+If the dependent type theory has [[type variables]] and [[impredicative polymorphism]], then the law of truncated excluded middle can be expressed as an axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{lem}:\Pi P.\mathrm{isProp}(P) \to (P \vee \neg P)}$$
+
+Similarly, if the dependent type theory additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of truncated excluded middle can be expressed as an axiom:
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} P \vee \neg P}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{El}_\Omega(P) \vee \neg \mathrm{El}_\Omega(P)}\mathrm{Tarski}$$
 
@@ -56,7 +60,11 @@ $$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{i
 
 In the untruncated case, the requirement that $P$ be an [[h-proposition]] is necessary; the untruncated law of excluded middle for [[h-sets]] is the [[set-theoretic choice operator]], which implies the [[set-theoretic axiom of choice]] in addition to [[excluded middle]], and the untruncated law of excluded middle for general [[types]] is the [[type-theoretic choice operator]], which implies [[UIP]] in addition to the set-theoretic axiom of choice and excluded middle. 
 
-If one additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of untruncated excluded middle could be expressed as an axiom:
+If the dependent type theory has [[type variables]] and [[impredicative polymorphism]], then the law of untruncated excluded middle can be expressed as an axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{lem}:\Pi P.\mathrm{isProp}(P) \to (P + \neg P)}$$
+
+Similarly, if the dependent type theory additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of untruncated excluded middle could be expressed as an axiom:
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} P + \neg P}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{El}_\Omega(P) + \neg \mathrm{El}_\Omega(P)}\mathrm{Tarski}$$
 
@@ -76,7 +84,11 @@ In [[dependent type theory]] as [[foundations of mathematics]], the requirement 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_A:\mathrm{isContr}(A + \neg A)}$$
 
-If one additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of excluded middle could be expressed as an axiom:
+If the dependent type theory has [[type variables]] and [[impredicative polymorphism]], then the law of truncated excluded middle can be expressed as an axiom:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{lem}:\Pi P.\mathrm{isProp}(P) \to \mathrm{isContr}(P + \neg P)}$$
+
+Similarly, if the dependent type theory additionally has a [[Russell type of all propositions]] $\Omega$ or a [[Tarski type of all propositions]] $(\Omega, \mathrm{El}_\Omega)$, the law of excluded middle could be expressed as an axiom:
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{isContr}(P + \neg P)}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{isContr}(\mathrm{El}_\Omega(P) + \neg \mathrm{El}_\Omega(P))}\mathrm{Tarski}$$
 
