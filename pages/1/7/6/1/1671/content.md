@@ -39,6 +39,14 @@ Alternatively, the axiom of countable choice states that given a family of sets 
 
 $$\frac{\Gamma, n:\mathbb{N} \vdash A(n) \; \mathrm{type} \quad \Gamma, n:\mathbb{N}, x:A(n) \vdash P(n, x) \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}_\mathbb{N}^{A, P}:\left(\prod_{n:\mathbb{N}} \mathrm{isSet}(A(n)) \times \prod_{x:A(n)} \mathrm{isProp}(P(n, x))\right) \to \left(\prod_{n:\mathbb{N}} \exists x:A(n).P(n, x)\right) \to \exists g:\prod_{n:\mathbb{N}} A(n).\prod_{n:\mathbb{N}} P(n, g(n))}$$
 
+One can also use the version using surjections: let $A$ be a [[set]]. Then the axiom of countable choice states that for all functions $f:A \to \mathbb{N}$, if for all natural numbers $n:\mathbb{N}$ there merely exists an element $x:A$ such that $f(x) = n$, then there merely exists a function $g:\mathbb{N} \to A$ such that $f(g(n)) = n$ for all $n:\mathbb{N}$. 
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{AC}_\mathbb{N}^{A}:\mathrm{isSet}(A) \times \left(\prod_{f:A \to \mathbb{N}} \left(\prod_{n:\mathbb{N}} \exists x:A.f(x) = n\right) \to \exists g:\mathbb{N} \to A.\prod_{n:\mathbb{N}} f(g(n)) = n\right)}$$
+
+The version using surjections has the advantage that if the dependent type theory has [[type variables]] and [[impredicative polymorphism]], countable choice can be expressed as an actual axiom rather than an axiom schema:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{AC}_\mathbb{N}:\Pi A.\mathrm{isSet}(A) \times \left(\prod_{f:A \to \mathbb{N}} \left(\prod_{n:\mathbb{N}} \exists x:A.f(x) = n\right) \to \exists g:\mathbb{N} \to A.\prod_{n:\mathbb{N}} f(g(n)) = n\right)}$$
+
 ## Consequences
 
 Here we collect some consequences of the countable axiom of choice.
