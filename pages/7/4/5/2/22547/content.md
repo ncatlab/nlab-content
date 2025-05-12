@@ -41,7 +41,7 @@ so (0,1)-presheaves are just antitones.
 
 ## (0,1)-category of (0,1)-presheaves
 
-The [[(0,1)-category]] of a (0,1)-presheaf on a [[(0,1)-site]] forms a [[(0,1)-topos]]. In traditional order theoretic language, the poset (or proset) of (0,1)-presheaves on a [[posite]] forms a [[locale]]. 
+The [[(0,1)-category]] of (0,1)-presheaves on a [[(0,1)-site]] forms a [[(0,1)-topos]]. In traditional order theoretic language, the poset (or proset) of (0,1)-presheaves on a [[posite]] forms a [[locale]]. 
 
 ## Related concepts
 
