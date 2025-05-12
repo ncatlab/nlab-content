@@ -27,7 +27,11 @@ In the second presentation of dependent type theory, the theory does not come wi
 
 * Large recursion principles of inductive types and higher inductive types $T$ are principles where given some existing data one can construct a type family $C(x)_{x:T}$ indexed by the inductive type $T$. (In the other formulation, large recursion principles are just the usual recursion principles for functions $T \to U$ into a type universe $U$.) While the large recursion principles of certain non-recursive inductive types and higher inductive types, such as the [[boolean domain]], the [[circle type]], and [[graph quotients]], can be defined without type variables, the large recursion principles of recursive inductive types and higher inductive types, such as the [[natural numbers type]] and [[W-types]], require type variables in the theory. 
 
-* The concept of [[impredicative polymorphism]] can be implemented as applying to the entire type theory, rather than to a single universe. Impredicative polymorphism is important for defining axioms such as [[UIP]], [[excluded middle]], the [[type theoretic axiom of replacement|axiom of replacement]] and the [[axiom of choice]] as actual axioms rather than unjustified rules. Axioms involving type families can be represented using an auxiliary type and a function to the index type, where the type family itself is represented by the [[fiber types]] of the function. 
+* The concept of [[impredicative polymorphism]] can be implemented as applying to the entire type theory, rather than to a single universe. Impredicative polymorphism is important for: 
+
+  1. defining axioms such as [[UIP]], [[excluded middle]], the [[type theoretic axiom of replacement|axiom of replacement]] and the [[axiom of choice]] as actual axioms rather than unjustified rules. Axioms involving type families can be represented using an auxiliary type and a function to the index type, where the type family itself is represented by the [[fiber types]] of the function. 
+
+  2. defining impredicative structures in [[dependent type theory]], such as [[frames]], [[Grothendieck topoi]], the [[type of all propositions]], etc.
 
 * With type variables, one can define [[identity types]] $A = B$ between types $A$ and $B$. This has a few benefits: 
 
