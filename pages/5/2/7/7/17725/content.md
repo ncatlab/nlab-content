@@ -20,9 +20,9 @@ The second condition implies that $\Sigma$ is closed under binary [[meets]] $\we
 
 The elements of $\Sigma$ are called **open** truth values.
 
-### In homotopy type theory
+### In dependent type theory
 
-In [[homotopy type theory]], every [[univalent]] [[type of propositions]] is a [[subtype]] of the [[type of all propositions]] $\Omega$. A **dominance** is a univalent type of propositions $(\Sigma, \mathrm{El}_\Sigma)$ with an element $\top:\Sigma$ such that
+In [[dependent type theory]], every [[univalent]] [[type of propositions]] is a [[subtype]] of the [[type of all propositions]] $\Omega$. A **dominance** is a univalent type of propositions $(\Sigma, \mathrm{El}_\Sigma)$ with an element $\top:\Sigma$ such that
 
 * $\mathrm{El}_\Sigma(\top)$ is a [[contractible type]]
 * given a [[mere proposition]] $P$, for all elements $U:\Sigma$ with a function from $\mathrm{El}_\Sigma(U)$ to the type that $P$ is essentially $\Sigma$-small, the [[product type]] $\mathrm{El}_\Sigma(U) \times P$ is essentially $\Sigma$-small. 
@@ -41,14 +41,14 @@ It is hard to get very far without an additional assumption that $\Sigma$ is clo
 Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is closed under $I$-indexed joins.  (This is related to, but not identical to, the notion of [[overt space]].)  In general it is reasonable to expect [[discrete object|discrete]] sets to be overt in this sense.  In some frameworks such as [[spatial type theory]] there is a formal notion of "discrete" and we can actually assert that all discrete sets are overt.   Otherwise we can assume that specific sets that we expect to be discrete are overt.  For instance, we might assume that:
 
 * The [[empty set]] is overt, i.e. $\bot\in\Sigma$.
-* [[finite sets|Finite sets]] are overt, i.e. $\Sigma$ is also a sub-join-semilattice of $\Omega$.
+* The [[boolean domain]] is overt, i.e. $\Sigma$ is also a sub-join-semilattice of $\Omega$.
 * The [[natural numbers]] are overt, i.e. $\Sigma$ is closed under countable joins in $\Omega$.
 
 ## Examples
 
 * The singleton $\{\top\}$ is a dominance, for which only singletons are overt.
 
-* The [[boolean domain]] $\{\bot,\top\}$ is a dominance.  This is the smallest dominance such that the empty set is overt.  (In [[classical mathematics]], of course, this and the previous example are the only two dominances, and the theory trivializes.)
+* The [[boolean domain]] $\{\bot,\top\}$ is a dominance.  This is the smallest dominance such that the empty set is overt and the smallest dominance such that the boolean domain is overt. (In [[classical mathematics]], of course, this and the previous example are the only two dominances, and the theory trivializes.)
 
 * The [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$ is a dominance: the unique $\sigma$-frame [[homomorphism]] from $\Sigma$ to the [[frame of truth values]] $\Omega$ is an [[injection]], meaning that $\Sigma$ is a (structural) [[subset]] of $\Omega$. This is the smallest dominance such that the [[natural numbers]] $\mathbb{N}$ is overt. 
 
@@ -69,6 +69,8 @@ Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is cl
 * [[Martin Escardo]], *Synthetic  topology  of  data  types  and  classical  spaces.*  Electronic Notes in Theoretical Computer Science, 87:21--156, 2004.  [pdf](http://www.cs.bham.ac.uk/~mhe/papers/entcs87.pdf)
 
 * [[Andrej Bauer]] and Davorin Lesnik, *Metric Spaces in Synthetic Topology*, [pdf](http://math.andrej.com/wp-content/uploads/2010/01/csms_in_synthtop.pdf)
+
+* Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
 
 [[!redirects dominance]]
 [[!redirects dominances]]
