@@ -264,7 +264,7 @@ The internal versions of the limited principles of omniscience, like all interna
 
 The term "limited principle of omniscience", without any specification of the set for which LPO holds, usually refers to the limited principle of omniscience for the natural numbers $\mathrm{LPO}_\mathbb{N}$. 
 
-### Equivalent statements
+### Statements equivalent to $\mathrm{LPO}_\mathbb{N}$
 
 Apart from the equivalent statements stated above for the LPO for a general set $A$, there are various other results that are equivalent specifically to the limited principle of omniscience for the natural numbers. 
 
@@ -332,31 +332,93 @@ Here are a few others:
 
 * The [[ring]] of [[rational numbers|rational]] [[power series]] $\mathbb{Q}[[x]]$ being a [[discrete integral domain]] is equivalent to $\mathrm{LPO}_\mathbb{N}$. Similarly, the [[Heyting field]] of [[rational numbers|rational]] [[Laurent series]] $\mathbb{Q}((x))$ being a [[discrete field]] is equivalent to $\mathrm{LPO}_\mathbb{N}$. 
 
-### Related statements
+### Statements implied by $\mathrm{LPO}_\mathbb{N}$
 
-There are various other results that are related to the principles of omniscience. Here are a few:
+There are various statements that are implied by $\mathrm{LPO}_\mathbb{N}$. 
 
-* The [[full bar theorem]] implies the $\mathrm{LPO}_\mathbb{N}$. 
+\begin{theorem}
+$\mathrm{WLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, but not conversely. 
+\end{theorem}
 
-* The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies the $\mathrm{LPO}_\mathbb{N}$: 
-
-  * Any model $\mathcal{V}$ of bounded Zermelo set theory contains a [[pure set]] of [[real numbers]] $\mathbb{R}$. One can collect all the pure sets of $\mathcal{V}$ which are in $\mathbb{R}$ and show that the resulting set is a subset of $\mathcal{V}$ and a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of stronger models of [[material set theory]] such as [[ZFC]] also imply $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. 
-
-  * For a similar reason, the existence of a constructively [[well-pointed topos|well-pointed]] [[Boolean topos|Boolean]] [[W-topos]] $\mathcal{E}$ implies the $\mathrm{LPO}_\mathbb{N}$, since the hom-set $\mathrm{Hom}_\mathcal{E}(1, \mathbb{R})$, where $1 \in \mathcal{E}$ is the [[terminal object|terminal]] [[generator]] and  $\mathbb{R} \in \mathcal{E}$ is the [[real numbers object]] in $\mathcal{E}$, yields a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of any constructive model of [[ETCS]] also implies $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. 
-
-  * Finally, in [[dependent type theory]], there being a [[univalent Tarski universe]] $(U, T)$ closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies the $\mathrm{LPO}_\mathbb{N}$, since one can construct an element $\mathbb{R}:U$ representing the $U$-small type of real numbers, whose type reflection $T(\mathbb{R})$ is a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. Thus, any univalent Tarski universe which has [[axiom of choice]] or a [[choice operator]] for the types in the universe also implies $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. 
-
-  * Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
-
-* $\mathrm{WLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, but not conversely. If $P(x)$ is a decidable proposition, then so is $\neg{P(x)}$, and so $\mathrm{LPO}_\mathbb{N}$ gives
+\begin{proof}
+If $P(x)$ is a decidable proposition, then so is $\neg{P(x)}$, and so $\mathrm{LPO}_\mathbb{N}$ gives
 $$(\exists x, \neg{P(x)}) \vee (\forall x, \neg{\neg{P(x)}}), $$
 which implies
 $$\neg(\forall x, P(x)) \vee (\forall x, P(x))$$
 as $P$ is decidable.
+\end{proof} 
 
-* $\mathrm{LLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, $\mathrm{WLPO}_\mathbb{N}$ is equivalent to fully untruncated $\mathrm{LLPO}_\mathbb{N}$, which implies $\mathrm{LLPO}_\mathbb{N}$, and $\mathrm{WLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Thus $\mathrm{LLPO}_\mathbb{N}$ is separated from $\mathrm{LPO}_\mathbb{N}$. 
+\begin{theorem}
+$\mathrm{LLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, but not conversely. 
+\end{theorem}
 
-### Inconsistent statements
+\begin{proof}
+$\mathrm{LLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$, $\mathrm{WLPO}_\mathbb{N}$ is equivalent to fully untruncated $\mathrm{LLPO}_\mathbb{N}$, which implies $\mathrm{LLPO}_\mathbb{N}$, and $\mathrm{WLPO}_\mathbb{N}$ follows from $\mathrm{LPO}_\mathbb{N}$. However, the converse does not necessarily hold, since in <http://www1.maths.leeds.ac.uk/~rathjen/Lifschitz.pdf> is a model by Michael Rathjen that separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Similarly, [Grossack 24](#Grossack24) shows that Johnstone's topological topos separates $\mathrm{WLPO}_\mathbb{N}$ from $\mathrm{LLPO}_\mathbb{N}$. Thus $\mathrm{LLPO}_\mathbb{N}$ is separated from $\mathrm{LPO}_\mathbb{N}$. 
+\end{proof}
+
+See [Diener 2018](#Diener18) for more statements that are implied by $\mathrm{LPO}_\mathbb{N}$. 
+
+### Statements that imply $\mathrm{LPO}_\mathbb{N}$
+
+There are various other statements that imply $\mathrm{LPO}_\mathbb{N}$. 
+
+The existence of various [[classical mathematics|classical]] [[universes]] or models of [[foundations of mathematics]] implies the $\mathrm{LPO}_\mathbb{N}$: 
+
+\begin{theorem}
+Any model $\mathcal{V}$ of bounded Zermelo set theory contains a [[pure set]] of [[real numbers]] $\mathbb{R}$.
+\end{theorem}
+
+\begin{proof}
+One can collect all the pure sets of $\mathcal{V}$ which are in $\mathbb{R}$ and show that the resulting set is a subset of $\mathcal{V}$ and a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of stronger models of [[material set theory]] such as [[ZFC]] also imply $\mathrm{LPO}_\mathbb{N}$ for the entire foundations.
+\end{proof} 
+
+\begin{theorem}
+The existence of a constructively [[well-pointed topos|well-pointed]] [[Boolean topos|Boolean]] [[W-topos]] $\mathcal{E}$ implies the $\mathrm{LPO}_\mathbb{N}$.
+\end{theorem}
+
+\begin{proof}
+The hom-set $\mathrm{Hom}_\mathcal{E}(1, \mathbb{R})$, where $1 \in \mathcal{E}$ is the [[terminal object|terminal]] [[generator]] and  $\mathbb{R} \in \mathcal{E}$ is the [[real numbers object]] in $\mathcal{E}$, yields a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. Thus, the existence of any constructive model of [[ETCS]] also implies $\mathrm{LPO}_\mathbb{N}$ for the entire foundations. 
+\end{proof}
+
+\begin{theorem}
+In [[dependent type theory]], there being a [[univalent Tarski universe]] $(U, T)$ closed under dependent product types, dependent sum types, and identity types and satisfying the axiom of infinity and [[excluded middle]] implies the $\mathrm{LPO}_\mathbb{N}$. 
+\end{theorem}
+
+\begin{proof}
+One can construct an element $\mathbb{R}:U$ representing the $U$-small type of real numbers, whose type reflection $T(\mathbb{R})$ is a sequentially Cauchy complete Archimedean ordered field which satisfies the [[analytic LPO]], thus implying $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. Thus, any univalent Tarski universe which has [[axiom of choice]] or a [[choice operator]] for the types in the universe also implies $\mathrm{LPO}_\mathbb{N}$ for the entire type theory. 
+\end{proof}
+
+Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
+
+Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]], which is the initial $\mathbb{N}$-overt [[dominance]]. The [[axiom of choice]] for $\Sigma$-open entire relations from set $A$ says that for any set $B$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
+
+\begin{theorem}
+The [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies $\mathrm{LPO}_\mathbb{N}$. 
+\end{theorem}
+
+\begin{proof}
+The proof is similar to one direction of the proof of the [[Diaconescu-Goodman-Myhill theorem]]. 
+
+Let $P$ be a $\Sigma$-open proposition. Quotient the [[boolean domain]] $\mathbb{2}$ by the [[equivalence relation]] where $0 = 1$ [[if and only if]] $P$ holds, resulting in a set $A$. Then we have an $\Sigma$-open entire relation $R$ between $\mathbb{2}$ and $A$, and there existws a function $f:\mathbb{2} \to A$ such that $R(x, f(x)) = \top$ if and only if $P$ is a [[decidable proposition]], and that it holds for all such $P$ is precisely $\mathrm{LPO}_\mathbb{N}$. Thus, the [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies $\mathrm{LPO}_\mathbb{N}$. 
+\end{proof}
+
+The full [[axiom of choice]] for $\Sigma$-open entire relations says that for any set $A$ and $B$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
+
+\begin{lemma}
+The [[axiom of choice]] for $\Sigma$-open entire relations implies $\mathrm{LPO}_\mathbb{N}$. 
+\end{lemma}
+
+\begin{proof}
+The [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] implies the [[axiom of choice]] for $\Sigma$-open entire relations from the [[boolean domain]] stated above, which in turn implies $\mathrm{LPO}_\mathbb{N}$. 
+\end{proof}
+
+\begin{theorem}
+The [[full bar theorem]] implies the $\mathrm{LPO}_\mathbb{N}$
+\end{theorem}
+
+See [Diener 2018](#Diener18) for more statements that imply $\mathrm{LPO}_\mathbb{N}$. 
+
+### Statements inconsistent with $\mathrm{LPO}_\mathbb{N}$
 
 There are various statements in mathematics which are inconsistent with $\mathrm{LPO}_\mathbb{N}$. 
 
