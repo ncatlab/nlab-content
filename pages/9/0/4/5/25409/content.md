@@ -50,6 +50,9 @@ Review:
 
 * Shivrat Sachdeva: *A survey of knots and quivers* &lbrack;[arXiv:2505.02059](https://arxiv.org/abs/2505.02059)&rbrack;
 
+* [[Piotr Kucharski]], Dmitry Noshchenko: *Knot-quiver correspondence: a brief review* &lbrack;[arXiv:2505.05668](https://arxiv.org/abs/2505.05668)&rbrack;
+
+
 See also:
 
 * {#OV19} [[Hirosi Ooguri]], [[Cumrun Vafa]], *Knot invariants and topological strings*, Nucl. Phys. B **577** (2000), 419-438 &lbrack;[arXiv:hep-th/9912123](https://arxiv.org/abs/hep-th/9912123), <a href="https://doi.org/10.1016/S0550-3213(00)001188">doi:10.1016/S0550-3213(00)001188</a>&rbrack;
