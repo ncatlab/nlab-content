@@ -48,7 +48,7 @@ Since every Tarski universe consists of a type $U$ of encodings and a type famil
 
 ### As a rule in the type theory
 
-Uniqueness of identity proofs could also be rewritten as a rule instead of an axiom, by making the hypotheses of the axioms into premises of the rule. This makes uniqueness of identity proofs applicable not only to universes, but to the entire type theory. In addition, one could use, in addition to [[typal equality]], either [[judgmental equality]] or [[propositional equality]], resulting in **judgmental uniqueness of identity proofs** and **propositional uniqueness of identity proofs**, with the original uniqueness of identity proofs axiom called **typal uniqueness of identity proofs**
+Uniqueness of identity proofs could also be rewritten as a rule instead of an axiom, by making the hypotheses of the axioms into premises of the rule. This makes uniqueness of identity proofs applicable not only to universes, but to the entire type theory. In addition, one could use [[judgmental equality]] in addition to [[typal equality]], resulting in **judgmental uniqueness of identity proofs**, with the original uniqueness of identity proofs axiom called **typal uniqueness of identity proofs**
 
 In this manner, uniqueness of identity proofs then becomes the rules:
 
@@ -56,15 +56,15 @@ In this manner, uniqueness of identity proofs then becomes the rules:
 
 $$\frac{\Gamma \vdash A \; type \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash q:\mathrm{Id}_A(a, b)}{\Gamma \vdash p \equiv q:\mathrm{Id}_A(a, b)}$$
 
-* Propositional uniqueness of identity proofs
-
-$$\frac{\Gamma \vdash A \; type \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash q:\mathrm{Id}_A(a, b)}{\Gamma \vdash p =_{\mathrm{Id}_A(a, b)} q \; \mathrm{true}}$$
-
 * Typal uniqueness of identity proofs
 
 $$\frac{\Gamma \vdash A \; type \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash q:\mathrm{Id}_A(a, b)}{\Gamma \vdash \mathrm{UIP}_A(a, b, p, q):\mathrm{Id}_{\mathrm{Id}_A(a, b)}(p, q)}$$
 
 Uniqueness of identity proofs is a [[axiom of set truncation]], and turns the type theory into a [[set-level type theory]]. Judgmental uniqueness of identity proofs holds in [[XTT]], where it follows from [[boundary separation]]. 
+
+If the dependent type theory has [[dependent product types]], [[type variables]], and [[impredicative polymorphism]], the typal uniqueness of identity proofs can be expressed as an axiom rather than an axiom schema:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{UIP}:\Pi A.\prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} \prod_{q:\mathrm{Id}_A(a, b)} \mathrm{Id}_{\mathrm{Id}_A(a, b)}(p, q)}$$
 
 ### Uniqueness of identity proofs for indexed heterogeneous identity types
 
