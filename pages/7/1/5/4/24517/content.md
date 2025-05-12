@@ -38,6 +38,8 @@ The internalization to reflexive graphs models the relational structures: the "e
 
 ## Related concepts
 
+* [[type variable]]
+
 * [[dependent type theory with type variables]]
 
 ## References
