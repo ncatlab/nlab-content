@@ -45,7 +45,7 @@ On edge modes in [[fractional quantum Hall systems]]:
 
 * [[Xiao-Gang Wen]]: *Topological order in rigid states and edge excitations in fractional quantum Hall states*, Advances in Physics **44** 5 (1995) 405-437 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi;10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
 
-* C. de C. Chamon, D. E. Freed, S. A. Kivelson, S. L. Sondhi, [[Xiao-Gang Wen]]: *Two point-contact interferometer for quantum Hall systems*, Phys. Rev. B **55** (1997) 2331 &lbrack;[doi:10.1103/PhysRevB.55.2331](https://doi.org/10.1103/PhysRevB.55.2331)&rbrack;
+* Claudio Chamon, D. E. Freed, S. A. Kivelson, S. L. Sondhi, [[Xiao-Gang Wen]]: *Two point-contact interferometer for quantum Hall systems*, Phys. Rev. B **55** (1997) 2331 &lbrack;[doi:10.1103/PhysRevB.55.2331](https://doi.org/10.1103/PhysRevB.55.2331)&rbrack;
 
 
 ### In topological insulators
