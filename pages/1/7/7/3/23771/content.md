@@ -16,7 +16,7 @@
 ## Idea
  {#Idea}
 
-Where the idea of (non-higher) [[observational type theory]] is to equip all [[type formation]] rules (notably [[dependent functions]], [[dependent pairs]] and [[W-types|inductive constructions]]) with their dedicated notion of *structure preserving* [[definitional equality]] --- namely: component-wise, ie. [[homomorphism|homo-morphic]], hence: "observational" ---; the idea of *higher* observational type theory is to do the same for [[propositional equality]] hence for [[identification types]] used in [[homotopy type theory]] (where [[types]] behave like [[homotopy n-type|*higher* homomotopy types]], whence the qualifier "higher").
+Where the idea of (non-higher) [[observational type theory]] is to equip all [[type formation]] rules (notably [[dependent functions]], [[dependent pairs]] and [[W-types|inductive constructions]]) with their dedicated notion of *structure preserving* [[definitional equality]] --- namely: component-wise, ie. [[homomorphism|homo-morphic]], hence: "observational" ---; the idea of *higher* observational type theory (or 'HOTT') is to do the same for [[propositional equality]] hence for [[identification types]] used in [[homotopy type theory]] (where [[types]] behave like [[homotopy n-type|*higher* homomotopy types]], whence the qualifier "higher").
 
 Concretely:
 
@@ -42,7 +42,7 @@ The hope is therefore that higher observational type theory would provide a type
 
 1. its [[inference rules]] for [[identification types]] make the [[univalence axiom]] be a computable function, as it is in [[cubical type theories]] and unlike the case for [[Martin-Löf dependent type theory]].
 
-To which extent this hope is being realized would ideally be elucidated by the references [below](#References). 
+Since higher observational type theory is still work in progress, there being as yet no formally specified theory called 'HOTT' in the literature, the extent to which this hope is being realized should be explored in the references [below](#References). 
 
 ## Definition
 
