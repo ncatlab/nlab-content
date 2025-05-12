@@ -67,6 +67,7 @@ On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fr
 * [[Xiao-Gang Wen]]: *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** 5 (1995) 405 &lbrack;[arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066), [doi:10.1080/00018739500101566](https://doi.org/10.1080/00018739500101566)&rbrack;
 
 * [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 \[<a href="https://doi.org/10.1142/S0217979292000840">doi:10.1142/S0217979292000840</a>\]
+  > (on [[edge modes]])
 
 On ground state degeneracy ([[topological order]]) of [[topological phases of matter]] on [[surfaces]] with ("gapped") [[boundary of a manifold|boundaries]] via [[effective field theory|effective]] [[abelian Chern-Simons theory]]:
 
