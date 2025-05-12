@@ -15,7 +15,7 @@
 
 ##Idea 
 
-Any [[abelian category]] $C$ gives rise to an abelian group $K(C)$ called its [[Grothendieck group]] (see there for more).  If we apply this construction to a [[monoidal category|monoidal]] abelian category or generally to a [[rig category]], $K(C)$ is a [[ring]], called the **Grothendieck ring**.
+Any [[abelian category]] $C$ gives rise to an abelian group $K(C)$ called its [[Grothendieck group]] (see there for more).  If we apply this construction to a [[monoidal category|monoidal]] abelian category or generally to a [[rig category]], then $K(C)$ inherits the further [[mathematical structure|structure]] of a [[ring]], thus called the **Grothendieck ring**.
 
 If $C$ is a [[braided monoidal category]], $K(C)$ becomes a [[commutative ring]].
 
