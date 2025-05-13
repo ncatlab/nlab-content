@@ -69,7 +69,7 @@ $$
   \,,
 $$
 
-where $SmothAlg_{\mathbb{R}}$ is the category of [[smooth algebras]].
+where $SmthAlg_{\mathbb{R}}$ is the category of [[smooth algebras]].
 
 Now, there is the [[fully faithful functor]] 
 
