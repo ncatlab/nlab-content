@@ -789,6 +789,8 @@ The generalization to [[supergeometry]] is
 
 * [[module over a C^∞-ring]]
 
+* [[C^∞-derivation]], [[Kähler C^∞-differential]], [[differential graded C^∞-ring]]
+
 * [[germ-determined C-infinity ring]]
 
 * [[Dubuc topos]]
