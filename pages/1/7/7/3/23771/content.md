@@ -13,6 +13,9 @@
 * table of contents
 {: toc}
 
+Higher observational type theory is currently a work in progress, supported by only one scientific publication, that started to be advertised in the community of type theory in 2022. For most of its claims, at current stage, we only have a collection of talks and slides, the reader should keep this information in mind while reading this page. 
+
+
 ## Idea
  {#Idea}
 
