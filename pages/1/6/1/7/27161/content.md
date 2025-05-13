@@ -41,3 +41,11 @@ the zero cochain complex, i.e., $\mathbf{R}$ in degree 0.
 ## References
 
 * [[E. J. Dubuc]], [[A. Kock]], _On 1-form classifiers_, Communications in Algebra 12:12 (1984), 1471–1531.  [doi](https://doi.org/10.1080/00927878408823064).
+
+The earliest occurrence of differential graded [[C^∞-rings]] is in the paper
+
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An infinity-Lie theoretic construction_, [arXiv](https://arxiv.org/abs/1011.4735v1), Adv. Theor. Math. Phys. 16 (2012) 149-250,
+
+where at the bottom of page 28 in arXiv version 1 one reads:
+
+> The underlying algebra in degree 0 can be generalized to an algebra over some Lawvere theory. In particular in a proper setup of higher differential geometry, we would demand $CE(\mathfrak{g})_0$ to be equipped with the structure of a [[C^∞-ring]].
