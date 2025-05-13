@@ -51,7 +51,7 @@ be the [[positive number|positive]] rational numbers. The __HoTT book real numbe
 
 * a function $inj: \mathbb{Q} \to \mathbb{R}_H$
 
-* a function $lim: C(\mathbb{R}_H) \to \mathbb{R}_H$, where $C(\mathbb{R}_H)$ is the type of [[Cauchy approximation]]s in $\mathbb{R}_H$.  
+* a function $lim: C(\mathbb{R}_H) \to \mathbb{R}_H$, where $C(\mathbb{R}_H)$ is the type of [[rational Cauchy approximation]]s in $\mathbb{R}_H$.  
 
 * a dependent family of terms
 
