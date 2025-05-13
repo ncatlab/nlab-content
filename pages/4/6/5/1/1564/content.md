@@ -26,7 +26,6 @@ A [[ring with unit]] $R$ is __boolean__ if the operation of multiplication is [[
 
 Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]] $Bool Ring$.
 
-
 ## Properties
 
 *  A boolean ring is an [[algebra]] over the [[field]] [[prime field|$\mathbb{F}_2$]] with two elements, since 
@@ -35,7 +34,7 @@ Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]
 *  $R$ is commutative (meaning that $x y = y x$ for all $x, y$):
    $$ y x = x + y - x - y + y x = (x + y)^2 - x^2 - y^2 + y x = x^2 + x y + y x + y^2 - x^2 - y^2 + y x = x y + 2 y x = x y .$$
 
-Thus, multiplication in a boolean ring makes it into a [[semilattice]], while addition makes it into a [[vector space]] over the field with two elements, $\mathbb{F}_2$. 
+Thus, multiplication in a boolean ring makes it into a [[01-bounded semilattice]], while addition makes it into a [[vector space]] over the field with two elements, $\mathbb{F}_2$. 
 
 Define $x \vee y$ to mean $x + x y + y$.  Then:
 
@@ -78,7 +77,6 @@ The category of Boolean algebras is discussed further in [[BoolAlg]], but some o
 
 Here is a very convenient result: although a boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
 
-
 ## Examples
 
 The most familiar example is the [[power set]] $\mathcal{P}S$ of any set $S$. This is a boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. In [[constructive mathematics]], one would use the set of [[decidable subsets]] $2^S$ instead of the set of all subsets $\mathcal{P}S$ to get the corresponding boolean ring.
@@ -112,7 +110,7 @@ where $\lambda$ is a lax monoidal constraint.
 
 ## Analogues
 
-Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a boolean ring may be defined as a semilattice in $Ab$.  However, with boolean rings, we do not need to hypothesize commutativity; it follows.  That is, any idempotent monoid in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative. 
+Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a boolean ring may be defined as a semilattice in $Ab$. However, with boolean rings, we do not need to hypothesize commutativity; it follows. That is, any idempotent monoid in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative. 
 
 +-- {: .proof} 
 ###### Proof 
@@ -132,6 +130,7 @@ which by cancellation gives $y x + x y = 0$, or $y x = -(x y) = x y$.
 * [[Boolean algebra]]
 * [[BoolAlg]] - the category of boolean algebras
 * [[Boolean rig]]
+* [[01-bounded semilattice]]
 
 [[!redirects Boolean ring]]
 [[!redirects boolean ring]]
