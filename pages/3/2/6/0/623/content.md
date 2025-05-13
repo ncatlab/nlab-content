@@ -941,3 +941,6 @@ The discusson of the [[hypercrossed complex]] structure on the Moore complex of 
 [[!redirects normalized cochains complexes]]
 [[!redirects normalized cochains functor]]
 [[!redirects normalized cochains functors]]
+
+[[!redirects normalized chains]]
+[[!redirects normalized cochains]]
