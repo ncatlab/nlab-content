@@ -34,7 +34,9 @@ On non-[[supersymmetry|supersymmetric]] [[branes]] in [[heterotic string theory]
 
 * [[Justin Kaidi]], [[Kantaro Ohmori]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], *Non-supersymmetric heterotic branes* &lbrack;[arXiv:2303.17623](https://arxiv.org/abs/2303.17623)&rbrack; 
 
+On [[edge modes]] in [[3D TQFT]]:
 
+* Atsushi Ueda, Kansei Inamura, [[Kantaro Ohmori]]: *Chiral Edge States Emerging on Anyon-Net* &lbrack;[arXiv:2408.02724](https://arxiv.org/abs/2408.02724)&rbrack;
 
 
 category: people
