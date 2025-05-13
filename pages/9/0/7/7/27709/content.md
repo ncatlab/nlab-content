@@ -26,11 +26,19 @@ Equivalently, $L$ is a [[semilattice]] with an [[absorbing element]] and a [[neu
 
 The [[Lawvere theory]] of 01-bounded semilattices is the [[semilattice cube category]], the [[cartesian cube category]] with one connection. 
 
+## Examples
+
+* Every [[lattice]] is both a 01-bounded meet-semilattice and a 01-bounded join-semilattice
+
+* Every [[commutative rig|commutative]] [[Boolean rig]] is a 01-bounded meet-semilattice
+
 ## Related concepts
 
 * [[lattice]]
 
 * [[semilattice]]
+
+* [[Boolean rig]], [[Boolean ring]]
 
 * [[category of cubes]]
 
