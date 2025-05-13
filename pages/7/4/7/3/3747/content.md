@@ -50,7 +50,7 @@ In weak foundations, we sometimes want to be a little more strict about how a se
 
 In general, a __[[modulus of convergence]]__ may be any function $\alpha$ from the positive rational numbers to the natural numbers such that, for every natural number $n$, there is a positive rational number $\epsilon$ such that $\alpha(\epsilon) \geq n$.
 
-A **modulated Cauchy real number** or **regular real number** $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers such that there exists a modulus $\alpha$ such that
+A **regular Cauchy real number** or **modulated Cauchy real number** $x$ is an infinite sequence $(x_0,x_1,x_2,\ldots)$ of rational numbers with a modulus $\alpha$ such that
 $$ {|x_i - x_j|} \leq \epsilon $$
 holds whenever $i,j \geq \alpha(\epsilon)$.  Two modulated Cauchy real numbers $x,y$ are considered __equal__ if there exists a modulus $\alpha$ such that
 $$ {|x_i - y_i|} \leq \epsilon $$
