@@ -77,10 +77,38 @@ Note that in a [[complete space]], every Cauchy net has a limit, not just every 
 
 When [[Bill Lawvere]] idenitified Lawvere metric spaces with [[enriched categories]] over the [[closed monoidal category|closed monoidal]] [[poset]] $(\mathbf{R}^+,+)$, he identified Cauchy sequences in such spaces with certain [[adjunctions]] of [[bimodules]], enough so that a metric space would be a Cauchy-[[complete space]] if and only if every adjunction of bimodules is induced by an [[enriched functor]].  Generalising this condition from $(\mathbf{R}^+,+)$ to an arbitrary closed monoidal category, we have the concept of [[Cauchy-complete category]].
 
+### Modulated sequences and nets
+
+One can also consider sequences and nets with a [[modulus of convergence]] $\alpha$ from the positive numbers or the set of [[entourages]] to the [[natural numbers]] or the [[directed set]] of a [[net]]. This is common in [[constructive mathematics]] or in other foundations which do not assume the [[axiom of choice]]. 
+
+A sequence or net $(x_i)_i$ of [[real numbers]] is __modulated Cauchy__ if there exists a [[modulus of convergence]] $\alpha$ for $(x_i)_i$. Explicitly:
+$$ \forall \epsilon,\; \forall i, j \geq \alpha(\epsilon),\; |x_i - x_j| \lt \epsilon .$$
+
+In a [[metric space]], a sequence or net $(x_i)_i$ is __modulated Cauchy__ under the same condition, now relative to the metric $d$ on that space.  Explicitly:
+$$ \forall \epsilon,\; \forall i, j \geq \alpha(\epsilon),\; d(x_i,x_j) \lt \epsilon .$$
+
+In a [[gauge space]], a sequence or net $(x_i)_i$ is __modulated Cauchy__ if this condition is satisfied for each gauging distance separately.  Explicitly:
+$$ \forall d,\; \forall \epsilon,\; \forall i, j \geq \alpha(\epsilon),\; d(x_i,x_j) \lt \epsilon .$$
+
+In a [[uniform space]], a sequence or net $(x_i)_i$ is __modulated Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$. Explicitly:
+$$ \forall U,\; \forall i, j \geq \alpha(U),\; x_i \approx_U x_j .$$
+
+## Related concepts
+
+* [[sequence]], [[net]]
+* [[modulus of convergence]]
+* [[metric space]], [[gauge space]], [[uniform space]], [[Cauchy space]]
+* [[limit of a sequence]], [[limit of a net]]
+* [[complete space]]
+* [[sequentially complete space]]
+
 ## References
 
 * Wikipedia, _[Cauchy sequence](https://en.wikipedia.org/wiki/Cauchy_sequence)_
 
+* Auke B. Booij, Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
+
+* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 [[!redirects Cauchy sequence]]
 [[!redirects Cauchy sequences]]
@@ -91,6 +119,8 @@ When [[Bill Lawvere]] idenitified Lawvere metric spaces with [[enriched categori
 [[!redirects multivalued Cauchy sequence]]
 [[!redirects multivalued Cauchy sequences]]
 
-[[!redirects sequentially complete space]]
-[[!redirects sequentially complete spaces]]
-[[!redirects sequentially complete]]
+[[!redirects modulated Cauchy sequence]]
+[[!redirects modulated Cauchy sequences]]
+
+[[!redirects modulated Cauchy net]]
+[[!redirects modulated Cauchy nets]]
