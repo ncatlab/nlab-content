@@ -18,7 +18,7 @@
 
 ## Idea
 
-The concept of _$(\infty,1)$-pretopos_ ([Lurie, appendix A](#Lurie)) is a version of the concept of _[[pretopos]]_ as one passes from [[toposes]] to [[(∞,1)-toposes]]. The definition is a variant of the characterization of [[Grothendieck (∞,1)-toposes]], via the [Giraud-Rezk-Lurie axioms](infinity-topos#GiraudAxioms), asking only for [[finite (∞,1)-limits]] and [[finite (∞,1)-colimits]] with some exactness properties relating them.
+The concept of _$(\infty,1)$-pretopos_ ([Lurie, appendix A](#Lurie)) is a version of the concept of _[[pretopos]]_ as one passes from [[toposes]] to [[(∞,1)-toposes]]. The definition is a variant of the characterization of [[Grothendieck (∞,1)-toposes]], via the [Giraud-Rezk-Lurie axioms](infinity-topos#GiraudAxioms), asking only for [[finite (∞,1)-limits]], finite [[(∞,1)-coproducts]], and [[groupoid object in an (infinity,1)-category|groupoid objects]] with some exactness properties relating them.
 
 ## Definition
 
@@ -29,9 +29,7 @@ Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _$(\infty,1)$-pr
 
 1. $\mathcal{C}$ has a [[terminal object in an (∞,1)-category|terminal object]] and [[homotopy fiber products]];
 
-1. $\mathcal{C}$ has [[finite (∞,1)-colimits|finite]] [[(∞,1)-coproducts]];
-
-1. finite [[coproducts]] in $\mathcal{C}$ are [[universal colimits|universal]] and [[disjoint coproducts|disjoint]];
+1. $\mathcal{C}$ has [[finite (∞,1)-colimits|finite]] [[(∞,1)-coproducts]], which are [[universal colimits|universal]] and [[disjoint coproducts|disjoint]];
 
 1. [[groupoid object in an (infinity,1)-category|groupoid objects]] in $\mathcal{C}$ are effective:
 
@@ -75,6 +73,8 @@ If moreover $\mathbf{H}$ is an [[coherent (∞,1)-topos]], then $\mathbf{H}_{coh
 
 
 ## Related concepts
+
+* [[Grothendieck (∞,1)-topos]]
 
 * [[elementary (∞,1)-topos]]
 
