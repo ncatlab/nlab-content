@@ -124,7 +124,7 @@ $$
   KU^0_G(\ast)
 $$
 
-from the [[Burnside ring]] to the [[representation ring]] of the [[finite group]] $G$, by forming [[permutation representations]]; where we may think of the [[Burnside ring]] as being the [[representation ring]] over the "[[field with one element]]" (see e.g. [Chu-Lorscheid-Santhanam 10](field+with+one+element#ChuLorscheidSanthanam10)), as indicated above.
+from the [[Burnside ring]] to the [[representation ring]] of the [[finite group]] $G$, by forming [[permutation representations]]; where we may think of the [[Burnside ring]] as being the [[representation ring]] over the "[[field with one element]]" (see e.g. [Chu, Lorscheid & Santhanam 2010](field+with+one+element#ChuLorscheidSanthanam10)), as indicated above.
 
 So far, this applies to [[stable Cohomotopy theory]], which historically has received almost all the attention. But, while [[stabilization]]  makes the immensely rich nature of [[homotopy theory]] a tad more tractable, it is only an approximation (just the first [[Goodwillie calculus|Goodwillie derivative]]!) of full unstable/[[non-abelian cohomology]].
 Hence the one concept more fundamental than stable Cohomotopy theory is actual Cohomotopy theory.
