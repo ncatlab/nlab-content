@@ -183,11 +183,17 @@ $$\frac{\Gamma \vdash A:\mathrm{Type}_P \quad \Gamma \vdash B:\mathrm{Type}_P} {
 
 * Wikipedia, <a href="https://en.wikipedia.org/wiki/Record_(computer_science)">Record (computer science)</a>
 
+[[!redirects record]]
+[[!redirects records]]
+
 [[!redirects record type]]
 [[!redirects record types]]
 
-[[!redirects record]]
-[[!redirects records]]
+[[!redirects finitary record type]]
+[[!redirects finitary record types]]
+
+[[!redirects infinitary record type]]
+[[!redirects infinitary record types]]
 
 [[!redirects record type with type fields]]
 [[!redirects record types with type fields]]
