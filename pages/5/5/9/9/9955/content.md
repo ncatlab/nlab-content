@@ -88,7 +88,9 @@ On [[black branes]]/[[solitonic branes|solitonic]] [[exotic branes]] and their [
 
 * [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
 
+On [[discrete light cone quantization]] of the [[heterotic string]]:
 
+* [[Eric A. Bergshoeff]], Kevin T. Grosvenor, Luca Romano, Ziqi Yan: *Heterotic String Sigma Models: Discrete Light Cone Quantization and Its Current-Current Deformation* &lbrack;[arXiv:2505.07458](https://arxiv.org/abs/2505.07458)&rbrack;
 
 
 
