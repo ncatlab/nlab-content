@@ -244,6 +244,10 @@ Concise formulation of the [[Lagrangian density]] of heterotic/type I [[D=10 sup
 * Julian Kupka, [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Batalin-Vilkovisky formulation of the $\mathcal{N}=1$ supergravity in ten dimensions* &lbrack;[arXiv:2501.18008](https://arxiv.org/abs/2501.18008)&rbrack;
   > ([[BV-formalism|BV-formulation]])
 
+See also:
+
+* [[Eric A. Bergshoeff]], Kevin T. Grosvenor, Luca Romano, Ziqi Yan: *Heterotic String Sigma Models: Discrete Light Cone Quantization and Its Current-Current Deformation* &lbrack;[arXiv:2505.07458](https://arxiv.org/abs/2505.07458)&rbrack;
+  > (on [[discrete light cone quantization]])
 
 
 
