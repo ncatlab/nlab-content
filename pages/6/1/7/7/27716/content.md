@@ -14,11 +14,12 @@ Every coconnective differential graded C^∞-ring in the sense defined above is 
 
 \begin{remark}
 In fact, having a C^∞-structure in degree 0 together an ordinary algebra structure in higher degrees
-is sufficient to define a C^∞-structure for nonhomogeneous elements of mixed degrees: given a smooth function $f(x_1, \ldots, x_n)$ and some nonhomogeneous elements $b_1, \ldots, b_n$ (i.e., formal sums of homogeneous elements), set $b_i = c_i + d_i$, where $c_i$ has degree 0 and $d_i$ is a sum of homogeneous elements of positive cohomological degree.
+is sufficient to define a C^∞-structure for nonhomogeneous elements of mixed degrees: given a smooth function $f(x_1, \ldots, x_n)$ and some nonhomogeneous even elements $b_1, \ldots, b_n$ (i.e., formal sums of homogeneous elements of even degrees), set $b_i = c_i + d_i$, where $c_i$ has degree 0 and $d_i$ is a sum of homogeneous elements of positive cohomological degree.
 Now set
 $$f(b_1, \ldots, b_n) = \sum_m (\partial_m f)(c_1, \ldots, c_n) \prod_k d_k^{m_k} / m_k!,$$
 where $m$ is a multi-index and $\partial_m f$ is the partial derivative of $f$, which can be evaluated on $c_1, \ldots, c_n$ using the C^∞-structure.
 This formula yields a (possibly infinite) formal sum of homogeneous elements.
+Nonhomogeneous elements of odd degrees can be incorporated in the picture by taking $f\in \mathrm{C}^\infty(\mathbf{R}^m)\otimes\Lambda(\mathbf{R}^n)$ (i.e., $f$ has $m$ even and $n$ odd variables) and modifying the formula accordingly.
 This yields an equivalent notion of differential graded C^∞-rings.
 The price to pay is having to manipulate infinite formal sums of homogeneous elements, so we choose the equivalent definition given above, even though it may seem slightly ad hoc on the first sight.
 \end{remark}
