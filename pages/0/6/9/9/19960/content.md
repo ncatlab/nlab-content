@@ -1419,6 +1419,7 @@ See also
 
 * Bruno Toniato, David Dudal, Subhash Mahapatra, Roldao da Rocha, Siddhi Swarupa Jena: *Holographic QCD model for heavy and exotic mesons at finite density: A self-consistent dynamical approach* &lbrack;[arXiv:2502.12694](https://arxiv.org/abs/2502.12694)&rbrack;
 
+* Jesús Cruz Rojas, Tuna Demircik, Christian Ecker, Matti Järvinen: *Towards holographic color superconductivity in QCD* &lbrack;[arXiv:2505.06338](https://arxiv.org/abs/2505.06338)&rbrack;
 
 
 
