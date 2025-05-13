@@ -9,4 +9,10 @@ On [[weight systems]] on [[chord diagrams]] as [[observables]] in  [[Jackiw-Teit
 
 * [[Andreas Blommaert]], [[Thomas Mertens]], [[Henri Verschelde]], _Fine Structure of Jackiw-Teitelboim Quantum Gravity_, JHEP 1909 (2019) 066 ([arXiv:1812.00918](https://arxiv.org/abs/1812.00918))
 
+On [[edge modes]] of [[Chern-Simons theory]] (cf. *[[AdS3-CFT2 and CS-WZW correspondence]]*):
+
+* [[Thomas G. Mertens]], Qi-Feng Wu: *Minimal Factorization of Chern-Simons Theory -- Gravitational Anyonic Edge Modes* &lbrack;[arXiv:2505.00501](https://arxiv.org/abs/2505.00501)&rbrack;
+
 category: people
+
+[[!redirects Thomas G. Mertens]]
