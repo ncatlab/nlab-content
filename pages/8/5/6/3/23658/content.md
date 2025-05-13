@@ -25,17 +25,17 @@ $$\mathbb{Q}_{+} \coloneqq \{x \in \mathbb{Q} \vert 0 \lt x\}$$
 
 be the set of positive rational numbers. 
 
-A __Cauchy structure__ is a [[Booij premetric space]] $(S, \sim)$ with a function $rat:\mathbb{Q}_{+} \to S$ and a function $lim:C(S) \to S$, where $C(S)$ is the set of [[Cauchy approximation]]s in $S$, such that
+A __Cauchy structure__ is a [[Booij premetric space]] $(S, \sim)$ with a function $rat:\mathbb{Q}_{+} \to S$ and a function $lim:C(S) \to S$, where $C(S)$ is the set of [[rational Cauchy approximation]]s in $S$, such that
 
 * for all elements $a \in S$ and $b \in S$ and all positive rational numbers $\epsilon$, $a \sim_\epsilon b$ implies $a = b$. 
 
 * for all elements $a \in S$ and $b \in S$ and all positive rational numbers $\epsilon$, $\vert a - b \vert \lt \epsilon$ implies that $rat(a) \sim_\epsilon rat(b)$
 
-* for all elements $a \in S$ and Cauchy approximations $b \in C(S)$ and all positive rational numbers $\epsilon$ and $\eta$, $rat(a) \sim_\epsilon b(\eta)$ implies that $rat(a) \sim_{\epsilon + \eta} lim(b)$
+* for all elements $a \in S$ and rational Cauchy approximations $b \in C(S)$ and all positive rational numbers $\epsilon$ and $\eta$, $rat(a) \sim_\epsilon b(\eta)$ implies that $rat(a) \sim_{\epsilon + \eta} lim(b)$
 
-* for all Cauchy approximations $a \in C(S)$ and elements $b \in S$ and all positive rational numbers $\delta$ and $\epsilon$, $a(\delta) \sim_\epsilon rat(b)$ implies that $lim(a) \sim_{\delta + \epsilon} rat(b)$
+* for all rational Cauchy approximations $a \in C(S)$ and elements $b \in S$ and all positive rational numbers $\delta$ and $\epsilon$, $a(\delta) \sim_\epsilon rat(b)$ implies that $lim(a) \sim_{\delta + \epsilon} rat(b)$
 
-* for all Cauchy approximations $a \in C(S)$ and $b \in C(S)$ and all positive rational numbers $\delta$, $\epsilon$ and $\eta$, $a(\delta) \sim_\epsilon b(\eta)$ implies that $lim(a) \sim_{\delta + \epsilon + \eta} lim(b)$
+* for all rational Cauchy approximations $a \in C(S)$ and $b \in C(S)$ and all positive rational numbers $\delta$, $\epsilon$ and $\eta$, $a(\delta) \sim_\epsilon b(\eta)$ implies that $lim(a) \sim_{\delta + \epsilon + \eta} lim(b)$
 
 For two Cauchy structures $S$ and $T$, a __Cauchy structure homomorphism__ is a function $f:S \to T$ such that
 
@@ -43,7 +43,7 @@ For two Cauchy structures $S$ and $T$, a __Cauchy structure homomorphism__ is a 
 
 * for all rational numbers $r \in \mathbb{Q}$, $f(rat(r)) = rat(r)$
 
-* for all Cauchy approximations $r \in C(S)$, $f(lim(r)) = lim(f \circ r)$
+* for all rational Cauchy approximations $r \in C(S)$, $f(lim(r)) = lim(f \circ r)$
 
 * for all elements $a \in S$ and $b \in S$, suppose $P(a, b)$ is the predicate that if for all positive rational numbers $\epsilon$ $a \sim_\epsilon b$ is true, then $a = b$, and $Q(a, b)$ is the predicate that for all positive rational numbers $\epsilon$ $f(a) \sim_\epsilon f(b)$ is true, then $f(a) = f(b)$. Then for all elements $a \in S$ and $b \in S$, $P(a, b)$ implies $Q(a, b)$
 
@@ -61,7 +61,7 @@ A __Cauchy structure__ is a [[Booij premetric space]] $S$ with
 
 * a function $inj: \mathbb{Q} \to S$
 
-* a function $lim: C(S) \to S$, where $C(S)$ is the type of $R_{+}$-[[Cauchy approximation]]s in $S$
+* a function $lim: C(S) \to S$, where $C(S)$ is the type of [[rational Cauchy approximation]]s in $S$
 
 * dependent families of terms
 
