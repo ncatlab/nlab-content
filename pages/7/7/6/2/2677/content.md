@@ -10,9 +10,8 @@
 =--
 
 
-#F-un#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Overview
 
@@ -132,13 +131,11 @@ After the very first observations by Tits, pioneers were [[Christophe Soulé]] a
 
 * [[Lieven Le Bruyn]], _The field with one element_, seminar notes 2008 ([web](http://win.ua.ac.be/~lebruyn/b2hd-LeBruyn2008d.html))
 
-* {#Lorscheid14} [[Oliver Lorscheid]], _Lectures on $\mathbb{F}_1$_, 2014 ([pdf](http://www.impa.br/~lorschei/Lectures_on_F1.pdf))
+* {#Lorscheid14} [[Oliver Lorscheid]]: *Lectures on $\mathbb{F}_1$* (2014) &lbrack;[pdf](https://www.lorscheid.org/notes/Lectures_on_F1.pdf), [[Lorscheid-F1Lectures.pdf:file]]&rbrack;
 
 * [[Tim Hosgood]]: _Under $\mathop{Spec}\mathbb{Z}$: a reader's companion_, Master Thesis, Oxford (2016) &lbrack;[pdf](https://thosgood.com/assets/files/under-spec-z.pdf), [[Hosgood-UnderSpecZ.pdf:file]]&rbrack;
 
-
-
-* [[Oliver Lorscheid]], _$\mathbb{F}_1$ for everyone_, 2018 ([arXiv:1801.05337](https://arxiv.org/abs/1801.05337))
+* [[Oliver Lorscheid]]: *$\mathbb{F}_1$ for everyone*, Jahresber. Dtsch. Math.-Ver. **120** 2 (2018) 83–116 &lbrack;[arXiv:1801.05337](https://arxiv.org/abs/1801.05337)&rbrack;
 
 
 
@@ -206,11 +203,16 @@ The interpretation of [[stable cohomotopy]] as [[algebraic K-theory]] over $\mat
 
 * {#Berman18} John D. Berman, p. 92 of _Categorified algebra and equivariant homotopy theory_ ([arXiv:1805.08745](https://arxiv.org/abs/1805.08745))
 
-* {#ChuLorscheidSanthanam10} Chenghao Chu, [[Oliver Lorscheid]], Rekha Santhanam, _Sheaves and K-theory for $\mathbb{F}_1$-schemes_, Advances in Mathematics, Volume 229, Issue 4, 1 March 2012, Pages 2239-2286 ([arxiv:1010.2896](https://arxiv.org/abs/1010.2896))
+* {#ChuLorscheidSanthanam10} Chenghao Chu, [[Oliver Lorscheid]], Rekha Santhanam: _Sheaves and K-theory for $\mathbb{F}_1$-schemes_, Advances in Mathematics, Volume 229, Issue 4, 1 March 2012, Pages 2239-2286 ([arxiv:1010.2896](https://arxiv.org/abs/1010.2896))
 
-see also
+and generalization from $\mathbb{F}_1$-schemes to monoid schemes:
 
-* {#MoravaSomeBackground} [[Jack Morava]], _Some background on Manin's theorem $K(\mathbb{F}_1) \sim \mathbb{S}$_ ([pdf](http://www.alainconnes.org/docs/Morava.pdf), [[MoravaSomeBackground.pdf:file]])
+* Jens Niklas Eberhardt, [[Oliver Lorscheid]], [[Matthew B. Young]]: *Algebraic K-theory and Grothendieck-Witt theory of monoid schemes*, Math. Z. **301** (2022) 1407–1445 &lbrack;[arXiv:2009.12636](https://arxiv.org/abs/2009.12636), [doi:10.1007/s00209-021-02919-z](https://doi.org/10.1007/s00209-021-02919-z)&rbrack;
+
+
+see also:
+
+* {#MoravaSomeBackground} [[Jack Morava]]: _Some background on Manin's theorem $K(\mathbb{F}_1) \sim \mathbb{S}$_ &lbrack;[pdf](http://www.alainconnes.org/docs/Morava.pdf), [pdf](/nlab/files/MoravaSomeBackground.pdf)&rbrack;
 
 * {#ConnesConsani16} [[Alain Connes]], [[Caterina Consani]], _Absolute algebra and Segal's Gamma sets_, Journal of Number Theory 162 (2016): 518-551 ([arXiv:1502.05585](https://arxiv.org/abs/1502.05585))
 
