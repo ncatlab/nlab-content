@@ -289,6 +289,8 @@ Further review and introduction:
 
 * Ben Gripaios, _Lectures: From quantum mechanics to the Standard Model_ ([arXiv:2005.06355](https://arxiv.org/abs/2005.06355))
 
+* [[Tristan Hübsch]]: *The Standard Model*, chapter II of: *Advanced Concepts in Particle and Field Theory*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781009291507](https://doi.org/10.1017/9781009291507)&rbrack;
+
 * [[Fernando Quevedo]], Andreas Schachner: *Cambridge Lectures on The Standard Model* &lbrack;[arXiv:2409.09211](https://arxiv.org/abs/2409.09211)&rbrack;
 
 
