@@ -208,6 +208,8 @@ See also
 
 * Tommi Tenkanen, Eemeli Tomberg, _Initial conditions for plateau inflation_ ([arXiv:2002.02420](https://arxiv.org/abs/2002.02420))
 
+* A. Tronconi, G. Venturi: *An Effective Theory for Higgs Inflation* &lbrack;[arXiv:2505.06197](https://arxiv.org/abs/2505.06197)&rbrack;
+
 
 
 ### Gauge field inflation
