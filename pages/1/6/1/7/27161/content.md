@@ -11,7 +11,7 @@ This definition does not quite work for [[smooth manifolds]]: as already explain
 Thus, in order to get the algebra of smooth differential forms, the notion of a [[commutative differential graded algebra]] must likewise be adjusted.
 
 \begin{definition}
-A __commutative differential graded C^∞-ring__ is a real [[commutative differential graded algebra]] $A$ whose degree 0 component $A_0$ is equipped with a structure of a [[C^∞-ring]] in such a way that the degree 0 differential $A_0\to A_1$ is a [[C^∞-derivation]].
+A (commutative) __[[differential graded C^∞-ring]]__ is a real [[commutative differential graded algebra]] $A$ whose degree 0 component $A_0$ is equipped with a structure of a [[C^∞-ring]] in such a way that the degree 0 differential $A_0\to A_1$ is a [[C^∞-derivation]].
 \end{definition}
 
 With this definition, we can recover smooth differential forms in a manner similar to algebraic geometry, deducing the following consequence of the Dubuc–Kock theorem for Kähler C^∞-differentials.
@@ -44,7 +44,8 @@ the zero cochain complex, i.e., $\mathbf{R}$ in degree 0.
 
 The earliest occurrence of differential graded [[C^∞-rings]] is in the paper
 
-* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Cech cocycles for differential characteristic classes -- An infinity-Lie theoretic construction_, [arXiv](https://arxiv.org/abs/1011.4735v1), Adv. Theor. Math. Phys. 16 (2012) 149-250,
+* [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], _Čech cocycles for differential characteristic classes: an ∞-Lie theoretic construction_, Advances in Theoretical and Mathematical Physics 16:1 (2012), 149-250.  [arXiv](https://arxiv.org/abs/1011.4735), [doi](https://doi.org/10.4310/atmp.2012.v16.n1.a5).
+
 
 where at the bottom of page 28 in arXiv version 1 one reads:
 
