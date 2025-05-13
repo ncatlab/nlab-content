@@ -19,33 +19,39 @@
 
 ## Idea ##
 
-A more general concept of [[metric space]] by Auke Booij. While Auke Booij simply called these structures "[[premetric spaces]]", there are multiple notions of premetric spaces in the mathematical literature, so we shall refer to these as Booij premetric spaces. 
+A more general concept of [[metric space]]. 
 
-## Definition ##
+Disambiguation note: This article is titled *Booij premetric space* solely for disambiguation purposes as *[[premetric space]]* is already used for various other generalizations of a [[metric space]], and this version is the one defined by [[Auke Booij]] in [Booij 2020](#Booij20). In the existing literature, these objects are simply called *premetric spaces*. 
 
-A __Booij premetric space__ is a [[set]] $S$ with a ternary [[relation]] $a \sim_\epsilon b$ for $a \in S$, $b \in S$, and $\epsilon \in \mathbb{Q}_+$, where $\mathbb{Q}_+$ represent the positive [[rational numbers]] in $\mathbb{Q}$. 
+## Definition 
 
-Booij premetric spaces are used as in the construction of the [[Cauchy real numbers]] and the [[HoTT book real numbers]]. 
+A __premetric space__ is a [[set]] $S$ with a ternary [[relation]] $a \sim_\epsilon b$ for $a \in S$, $b \in S$, and $\epsilon \in \mathbb{Q}_+$, where $\mathbb{Q}_+$ represent the positive [[rational numbers]] in $\mathbb{Q}$. 
 
-### Uniform Booij premetric spaces
+Premetric spaces are used as in the construction of the [[Cauchy real numbers]] and the [[HoTT book real numbers]]. 
 
-A Booij premetric space is [[uniform space|uniform]] if
+### Real premetric spaces
 
-1. for every positive rational number $\epsilon \in \mathbb{Q}_+$ and $a \in S$, $a \sim_\epsilon a$
+The usual notion of a [[metric space]] uses the [[real numbers]] rather than the [[rational numbers]] in the metric inequalities. This means that to generalize from metric spaces, one can use the positive [[real numbers]] instead of the positive [[rational numbers]] as the indexing set of the ternary relation (i.e. $a \sim_\epsilon b$ for $a \in S$, $b \in S$, and $\epsilon \in \mathbb{R}_+$), yielding a notion of a *real premetric space*. The original notion of a premetric space by Booij can then be called a *rational premetric space*.
 
-2. for every positive rational number $\epsilon \in \mathbb{Q}_+$, there exists a positive rational number $\delta \in \mathbb{Q}_+$ such that for every $a \in S$, $b \in S$, and $c \in S$, if $a \sim_\epsilon b$ and $b \sim_\epsilon c$, then $a \sim_\delta c$. 
+### Uniform premetric spaces
 
-3. For every positive rational number $\epsilon \in \mathbb{Q}_+$, there exists a positive rational number $\delta \in \mathbb{Q}_+$ such that for every $a \in S$ and $b \in S$, if $a \sim_\epsilon b$, then $b \sim_\delta a$. 
+A rational or real premetric space is [[uniform space|uniform]] if
 
-4. There is a positive rational number $\epsilon \in \mathbb{Q}_+$ and elements $a \in S$ and $b \in S$ such that $a \sim_\epsilon b$. 
+1. for every positive number $\epsilon$ and $a \in S$, $a \sim_\epsilon a$
 
-5. If there are positive rational numbers $\epsilon \in \mathbb{Q}_+$ and $\delta \in \mathbb{Q}_+$, then there is a positive rational number $\eta \in \mathbb{Q}_+$ such that for every element $a \in S$ and $b \in S$, if $a \sim_\eta b$, then $a \sim_\epsilon b$ and $a \sim_\delta b$. 
+2. for every positive number $\epsilon$, there exists a positive number $\delta$ such that for every $a \in S$, $b \in S$, and $c \in S$, if $a \sim_\epsilon b$ and $b \sim_\epsilon c$, then $a \sim_\delta c$. 
 
-6. If there is a positive rational number $\epsilon \in \mathbb{Q}_+$, then there is a positive rational number $\delta \in \mathbb{Q}_+$ such that for all $a \in S$ and $b \in S$, if $a \sim_\epsilon b$, then $a \sim_\delta b$. 
+3. For every positive number $\epsilon$, there exists a positive number $\delta$ such that for every $a \in S$ and $b \in S$, if $a \sim_\epsilon b$, then $b \sim_\delta a$. 
+
+4. There is a positive number $\epsilon$ and elements $a \in S$ and $b \in S$ such that $a \sim_\epsilon b$. 
+
+5. If there are positive numbers $\epsilon$ and $\delta$, then there is a positive number $\eta$ such that for every element $a \in S$ and $b \in S$, if $a \sim_\eta b$, then $a \sim_\epsilon b$ and $a \sim_\delta b$. 
+
+6. If there is a positive number $\epsilon$, then there is a positive number $\delta$ such that for all $a \in S$ and $b \in S$, if $a \sim_\epsilon b$, then $a \sim_\delta b$. 
 
 ## Generalizations
 
-Booij premetric spaces could be generalized from the positive rational numbers $\mathbb{Q}_+$ to any set $T$. The binary relation $\sim_U$ for each element $U \in T$ is called an **[[entourage]]**. These are called **$T$-premetric spaces** and are sets $S$ with a ternary [[relation]] $a \sim_U b$ for $a \in S$, $b \in S$, and $U \in T$. These could also be used to construct the [[HoTT book real numbers]] if one only has an integral subdomain $R \subseteq \mathbb{Q}$ such as the [[dyadic rational numbers]] or the [[decimal rational numbers]], where the index set $T$ is $R_+$ rather than $\mathbb{Q}_+$. 
+Premetric spaces could be generalized from the positive rational or real numbers to any set $T$. The binary relation $\sim_U$ for each element $U \in T$ is called an **[[entourage]]**. These are called **$T$-premetric spaces** and are sets $S$ with a ternary [[relation]] $a \sim_U b$ for $a \in S$, $b \in S$, and $U \in T$. These could also be used to construct the [[HoTT book real numbers]] if one only has an integral subdomain $R \subseteq \mathbb{Q}$ such as the [[dyadic rational numbers]] or the [[decimal rational numbers]], where the index set $T$ is $R_+$ rather than $\mathbb{Q}_+$. 
 
 ### Uniform spaces
 
@@ -89,17 +95,17 @@ $$a \sim_\epsilon b \coloneqq \sum_{i = 0}^{n - 1} \langle a - b, X_i\rangle^2 \
 
 which makes $V$ an [[Euclidean space]]. 
 
-## Convergence
+### Convergence
 
 Every $T$-premetric space is a [[generalised sequential space]] with the convergence relation $x \to b$ between sequences $x$ and elements $b$ true if and only if for all elements $U \in T$, there exists a natural number $N \in \mathbb{N}$ such that for all natural numbers $n \geq N$, $x_n \sim_U b$. 
 
 Given a $T$-premetric space $(S, \sim)$ and a sequence $x:\mathbb{N} \to S$, a modulus of Cauchy convergence is a function $M:T \to \mathbb{N}$ such that for all elements $U \in T$ and for all natural numbers $m \geq M(\epsilon)$ and $n \geq M(\epsilon)$, $x_m \sim_U x_n$.  
 
-A $T$-premetric space $S$ is **[[sequentially Cauchy complete]]** if every [[Cauchy sequence]] has a unique limit. A $T$-premetric space $S$ is **sequentially modulated Cauchy complete** if every sequence with a modulus of Cauchy convergence has a unique limit. 
+A $T$-premetric space $S$ is **[[sequentially complete]]** if every [[Cauchy sequence]] has a unique limit. A $T$-premetric space $S$ is **[[regularly sequentially complete]]** if every sequence with a modulus of Cauchy convergence has a unique limit. 
 
 All this could be generalised to [[nets]], since every $T$-premetric space is also a [[generalised net space]] with the convergence relation $x \to b$ between nets $x$ and elements $b$ true if and only if for all elements $U \in T$ and [[directed sets]] $I$, there exists an element $N \in I$ such that for all elements $n \geq N$, $x_n \sim_U b$. 
 
-## See also ##
+## See also 
 
 * [[premetric space]]
 
@@ -109,14 +115,24 @@ All this could be generalised to [[nets]], since every $T$-premetric space is al
 
 * [[metric space]]
 
-## References ##
+## References 
 
-* Auke B. Booij, Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
+* {#Booij20} [[Auke Booij]], *Analysis in Univalent Type Theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
 
 [[!redirects Booij premetric]]
 [[!redirects Booij premetrics]]
 [[!redirects Booij premetric space]]
 [[!redirects Booij premetric spaces]]
+
+[[!redirects rational premetric]]
+[[!redirects rational premetrics]]
+[[!redirects rational premetric space]]
+[[!redirects rational premetric spaces]]
+
+[[!redirects real premetric]]
+[[!redirects real premetrics]]
+[[!redirects real premetric space]]
+[[!redirects real premetric spaces]]
 
 [[!redirects preentourage]]
 [[!redirects preentourages]]
