@@ -480,7 +480,7 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, Proceedings of POPL, 2021. ([arXiv](https://arxiv.org/abs/2007.08638))
 
-* {#probability_sheaves} [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, 2017 ([pdf](https://coalg.org/mfps-calco2017/calco-papers/calco2017-1.pdf))
+* {#probability_sheaves} [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, 2017 ([pdf](https://drops.dagstuhl.de/storage/00lipics/lipics-vol072-calco2017/LIPIcs.CALCO.2017.1/LIPIcs.CALCO.2017.1.pdf))
 
 * {#independence} [[Alex Simpson]], _Category-theoretic structure for independence and conditional independence_, ENTCS, 2018. ([link](https://www.sciencedirect.com/science/article/pii/S1571066118300318))
 
