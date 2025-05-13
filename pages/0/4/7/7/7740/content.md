@@ -197,6 +197,10 @@ $$
 
 ## References
 
+A coordinate-free definition of a linear differential operator suitable for [[algebraic geometry]] was introduced by [[Grothendieck]] in Proposition IV.16.8.8(b) of
+
+* [[A. Grothendieck]], [[J. Dieudonné]]. _[[Éléments de géométrie algébrique]] IV. Étude locale des schémas et des morphismes des schémas, Quatrième partie_, Publications Mathematiques de l’IHÉS 32, 5–361, 1967.
+
 
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
 
