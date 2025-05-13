@@ -145,6 +145,9 @@ Note that the stronger universe axiom implies, as above, that finite colimits ar
 
 ## Examples
  {#Examples}
+
+* The [[terminal object|terminal]] [[(infinity,1)-category|$(\infty,1)$-category]] $\mathbf{1}$ is a elementary $(\infty,1)$-topos. In the [[internal logic]] this occurs when the [[empty type]] is [[contractible type|contractible]].
+
 * [ (Rasekh21) ] (#Rasekh21) gives a construction using filter products using which we get a large class of elementary $(\infty,1)$-toposes that aren't Grothendieck $(\infty,1)$ toposes. To be precise Corollary 2.31 in the paper gives the following construction: Suppose we've an elementary $(\infty,1)$-topos $\mathcal{C}$, and a [[filter]] $\zeta$ on the [[subobject classifier]] of $\mathcal{C}$ which is product-closed, such that the [[filter quotient]] of the elementary topos of 0-truncated objects $(\tau_{0}(\mathcal{C}))_{\zeta}$ is not a Grothendieck topos, then the filter quotient $\mathcal{C}_{\zeta}$ is an elementary $(\infty,1)$-topos that isn't a Grothendieck $(\infty,1)$-topos. Further, examples for the specific case of  filter products are constructed.
 
 * Other ideas for the construction of an  [[elementary (∞,1)-topos]] which is not a [[Grothendieck (∞,1)-topos]] also exist in the literature. (cf. [Anel 21](#Anel21)). 
