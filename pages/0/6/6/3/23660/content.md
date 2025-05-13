@@ -21,21 +21,19 @@
 
 A construction ([UFP13, Sec. 11.3](#UFP13)) of the [[type]] of [[real numbers]] in [[homotopy type theory]] as a [[higher inductive-inductive type]].
 
-As opposed to the "naive" [[quotient type]] of [[regular sequence|regular]] [[Cauchy sequences]] of [[rational numbers]] (i.e. the quotient type of the [[setoid]]/[[Bishop set]] by which the [[Cauchy real numbers]] are traditionally modeled in [[constructive analysis]]) this [[higher inductive-inductive type]] is [[sequentially modulated Cauchy complete]].
+As opposed to the "naive" [[quotient type]] of [[regular Cauchy sequences]] of [[rational numbers]] (i.e. the quotient type of the [[setoid]]/[[Bishop set]] by which the [[Cauchy real numbers]] are traditionally modeled in [[constructive analysis]]) this [[higher inductive-inductive type]] is [[sequentially complete]].
 
 Notice that this crucial property of the [[real number]] fails for other constructions:
 
-* The [[quotient type]] of [[regular sequence|regular]] [[Cauchy sequences]] of [[rational numbers]] is Cauchy complete only assuming that any sequence of its [[terms]] has a [[lift]] to a sequence of representing [[Cauchy sequences]], which requires an extra [[axiom of countable choice]] (and is the reason why traditional [[Errett Bishop|Bishop]]-[[constructive analysis]] does not pass to the quotient but stays with the [[setoid]]/[[Bishop set]]).
-
-* The [[modulated Cauchy real numbers]] are not sequentially modulated Cauchy complete either, in [[constructive mathematics]].
+* The [[Cauchy real numbers]], defined as the [[quotient type]] of [[regular Cauchy sequences]] of [[rational numbers]], is [[sequentially complete]] only assuming that any sequence of its [[terms]] has a [[lift]] to a sequence of representing [[regular Cauchy sequences]], which requires an extra [[axiom of countable choice]] (and is the reason why traditional [[Errett Bishop|Bishop]]-[[constructive analysis]] does not pass to the quotient but stays with the [[setoid]]/[[Bishop set]]).
 
 ## Definition ##
 
-### As a sequentially modulated Cauchy complete Archimedean ordered field ###
+### As a sequentially complete Archimedean ordered field ###
 
-Let $K$ be an [[Archimedean ordered field]]. $K$ is *[[sequentially modulated Cauchy complete]]* if every [[Cauchy sequence]] in $K$ with a [[modulus of convergence]] [[converges]]. The set of __HoTT book real numbers__ $\mathbb{R}_H$ is the [[initial object]] in the [[category]] of sequentially modulated Cauchy complete Archimedean fields. 
+Let $K$ be an [[Archimedean ordered field]]. $K$ is *[[sequentially complete]]* if every [[regular Cauchy sequence]] in $K$ [[converges]]. The set of __HoTT book real numbers__ $\mathbb{R}_H$ is the [[initial object]] in the [[category]] of sequentially complete Archimedean fields. 
 
-More abstractly, let $\mathrm{ArchiFields}$ be the [[category]] of [[Archimedean ordered fields]] and Archimedean ordered field homomorphisms, and let $F:\mathrm{ArchiFields} \to \mathrm{ArchiFields}$ be the [[endofunction]] which takes an Archimedean ordered field $K$ to the Archimedean ordered field $F(K)$ which is the [[quotient set]] of the set of [[Cauchy sequences]] in $K$ with a [[modulus of convergence]]. $K$ is [[sequentially modulated Cauchy complete]] if there is an isomorphism $K \cong F(K)$, and the **HoTT book real numbers** $\mathbb{R}_H$ is the initial Archimedean ordered field with an isomorphism $\mathbb{R}_H \cong F(\mathbb{R}_H)$. 
+More abstractly, let $\mathrm{ArchiFields}$ be the [[category]] of [[Archimedean ordered fields]] and Archimedean ordered field homomorphisms, and let $F:\mathrm{ArchiFields} \to \mathrm{ArchiFields}$ be the [[endofunction]] which takes an Archimedean ordered field $K$ to the Archimedean ordered field $F(K)$ which is the [[quotient set]] of the set of [[regular Cauchy sequences]] in $K$. $K$ is [[sequentially complete]] if there is an isomorphism $K \cong F(K)$, and the **HoTT book real numbers** $\mathbb{R}_H$ is the initial Archimedean ordered field with an isomorphism $\mathbb{R}_H \cong F(\mathbb{R}_H)$. 
 
 ### As a Cauchy structure ###
 
@@ -78,7 +76,7 @@ $$a:\mathbb{R}_H, b:\mathbb{R}_H, \epsilon:\mathbb{Q}_{+} \vdash \pi(a, b, \epsi
 
 ## Properties 
 
-The [[analytic functions]], such as the [[exponential function]], the [[sine function]], and the [[cosine function]] are well defined in the HoTT book real numbers, since all modulated Cauchy sequences converge in the HoTT book real numbers. 
+The [[analytic functions]], such as the [[exponential function]], the [[sine function]], and the [[cosine function]] are well defined in the HoTT book real numbers, since all regular Cauchy sequences converge in the HoTT book real numbers. 
 
 ## See also ##
 
