@@ -1,4 +1,9 @@
-* [webpage](https://nimarasekh.github.io/)
+
+* [personal page](https://nimarasekh.github.io/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=gh51F68AAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=244240)
 
 ## Selected writings
 
