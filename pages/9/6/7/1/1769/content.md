@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include topology - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
@@ -20,10 +24,13 @@ A [[space]] (with "space" taken in a sense relevant to the field of [[topology]]
 
 A space that is not complete has "gaps" that may be filled to form its _completion_; it is rather natural to make the space (or equivalently its underlying topological space) [[Hausdorff space|Hausdorff]] at the same time.  Forming the completion of a Hausdorff space is an important example of [[completion]] in the general abstract sense. 
 
-
 ## Definitions
 
-A space (which may be a [[metric space]], a [[Cauchy space]], or anything in between) is __Cauchy-complete__, or simply __complete__, if every [[Cauchy filter]] converges, equivalently if every [[Cauchy net]] converges.  A space is __[[sequentially complete]]__ or __sequentially Cauchy-complete__ if every [[Cauchy sequence]] converges.  Note that a sequentially complete metric space must be complete (in [[classical mathematics]]), but this does not hold for more general spaces (nor even for metric spaces in [[constructive mathematics]]).
+A space (which may be a [[metric space]], a [[Cauchy space]], or anything in between) is __complete__ or __Cauchy complete__, if every [[Cauchy filter]] converges, equivalently if every [[Cauchy net]] converges.  
+
+In the absence of the [[axiom of choice]], we can also distinguish between the usual notion of Cauchy net and [[regular Cauchy nets]], which come with a [[modulus of convergence]]. A space $S$ is __regularly complete__ or __modulated(ly) complete__ if every [[regular Cauchy net]] in $S$ [[converges]].
+
+A space is __[[sequentially complete]]__ if every [[Cauchy sequence]] converges.  Note that a sequentially complete metric space must be complete (in [[classical mathematics]]), but this does not hold for more general spaces (nor even for metric spaces in [[constructive mathematics]]).
 
 A space is __topologically complete__ if its [[underlying topological space]] is completely [[metrizable space|metrizable]].  There are various other notions related to this.  See [[topologically complete space]].
 
@@ -80,17 +87,12 @@ When [[Bill Lawvere]] interpreted (in [Lawvere 1973](#Lawvere1973)) [[metric spa
 
 * [[completion of a space]]
 
-* [[modulated Cauchy complete space]]
-
 ## References
 
 *  {#Ark1977} A.V. Arkhangel&#8242;skii (1977).  _Complete space_.  Matematicheskaya entsiklopediya.  [Updated English version](https://www.encyclopediaofmath.org/index.php/Complete_space). 
-   
 
 *  {#Lawvere1973} [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
    
-
-
 [[!redirects complete space]]
 [[!redirects complete spaces]]
 
@@ -165,3 +167,42 @@ When [[Bill Lawvere]] interpreted (in [Lawvere 1973](#Lawvere1973)) [[metric spa
 [[!redirects Cauchy-completion of a Cauchy space]]
 [[!redirects Cauchy-completion of Cauchy spaces]]
 [[!redirects Cauchy-completions of Cauchy spaces]]
+
+[[!redirects regularly complete]]
+
+[[!redirects regularly complete space]]
+[[!redirects regularly complete spaces]]
+
+[[!redirects regularly Cauchy complete]]
+[[!redirects regularly Cauchy-complete]]
+
+[[!redirects regularly Cauchy complete space]]
+[[!redirects regularly Cauchy-complete space]]
+[[!redirects regularly Cauchy complete spaces]]
+[[!redirects regularly Cauchy-complete spaces]]
+
+[[!redirects modulated complete]]
+
+[[!redirects modulated complete space]]
+[[!redirects modulated complete spaces]]
+
+[[!redirects modulated Cauchy complete]]
+[[!redirects modulated Cauchy-complete]]
+
+[[!redirects modulated Cauchy complete space]]
+[[!redirects modulated Cauchy-complete space]]
+[[!redirects modulated Cauchy complete spaces]]
+[[!redirects modulated Cauchy-complete spaces]]
+
+[[!redirects modulatedly complete]]
+
+[[!redirects modulatedly complete space]]
+[[!redirects modulatedly complete spaces]]
+
+[[!redirects modulatedly Cauchy complete]]
+[[!redirects modulatedly Cauchy-complete]]
+
+[[!redirects modulatedly Cauchy complete space]]
+[[!redirects modulatedly Cauchy-complete space]]
+[[!redirects modulatedly Cauchy complete spaces]]
+[[!redirects modulatedly Cauchy-complete spaces]]
