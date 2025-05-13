@@ -1,6 +1,6 @@
 This entry is about the text
 
-* [[Alexander Grothendieck]], _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_ ([numdam](http://www.numdam.org/numdam-bin/recherche?au=Grothendieck&format=short))
+* [[Alexander Grothendieck]], [[Jean Dieudonné]], _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_
 
 
 
@@ -12,7 +12,7 @@ This entry is about the text
 
 EGA stands for _&#201;l&#233;ments de g&#233;om&#233;trie alg&#233;brique_ (Elements of algebraic geometry), which was written by [[Alexandre Grothendieck]] and co-edited with [[Jean Dieudonne|Jean Dieudonné]]. These volumes (and a list is given below) were among his many works attempting to build the foundations for [[algebraic geometry]] in the language of [[schemes]]. They were preceded by [[FGA]] and were followed up by the SGA, more details of these can be found below.
 
-The published part of _EGA_ is in Publ. IH&#201;S, now free online at [numdam](http://www.numdam.org/numdam-bin/recherche?au=Grothendieck&format=short) (detailed links to chapters, and their contents will be added here later, see also below for a list of the volumes in the series). We plan to list here the grand plan and some remarks and links.
+The published part of _EGA_ is in Publ. IH&#201;S, free online at Numdam (see below for a list of the volumes in the series).
 
 ### List of volumes of EGA
 
