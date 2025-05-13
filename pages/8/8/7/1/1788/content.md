@@ -8,6 +8,8 @@
 
 ***
 
+* Bronisław Wajnryb: *An elementary approach to the mapping class group of a surface*, Geometry & Topology **3** (1999) 405–466 &lbrack;[doi:10.2140/gt.1999.3.405](http://dx.doi.org/10.2140/gt.1999.3.405)&rbrack;
+
 - problem with traditional flux quantization
 
   so let's have a new look at flux quantization
