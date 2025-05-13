@@ -8,4 +8,6 @@ See the article [[Kähler C^∞-differentials of smooth functions are differenti
 
 ## Related concepts
 
-* [[C^∞-derivation]], [[C^∞-ring]], [[Kähler differential]]
+* [[C^∞-derivation]], [[C^∞-ring]], [[Kähler differential]], [[differential graded C^∞-ring]]
+
+[[!redirects Kähler C^∞-differentials]]
