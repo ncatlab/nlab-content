@@ -10,6 +10,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,24 +25,23 @@ The concept of _$(\infty,1)$-pretopos_ ([Lurie, appendix A](#Lurie)) is a versio
 +-- {: .num_defn #InfinityPreTopos}
 ###### Definition
 
-
 Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _$(\infty,1)$-pretopos_ if
 
 1. $\mathcal{C}$ has a [[terminal object in an (∞,1)-category|terminal object]] and [[homotopy fiber products]];
 
-1. $\mathcal{C}$ has [[finite (∞,1)-colimits]];
+1. $\mathcal{C}$ has [[finite (∞,1)-colimits|finite]] [[(∞,1)-coproducts]];
 
 1. finite [[coproducts]] in $\mathcal{C}$ are [[universal colimits|universal]] and [[disjoint coproducts|disjoint]];
 
 1. [[groupoid object in an (infinity,1)-category|groupoid objects]] in $\mathcal{C}$ are effective:
 
-1. realization of groupoid objects is [[universal colimit|universal]].
+1. [[realization]] of groupoid objects is [[universal colimit|universal]].
 
 If these conditions hold except possibly for the existence of a [[terminal object in an (∞,1)-category|terminal object]], then $\mathcal{C}$ is a _local $(\infty,1)$-pretopos._
 
 =--
 
-[Lurie, def. A:6.1.1](#Lurie)
+([Lurie, def. A.6.1.1](#Lurie))
 
 ## Examples
 
@@ -81,5 +81,5 @@ If moreover $\mathbf{H}$ is an [[coherent (∞,1)-topos]], then $\mathbf{H}_{coh
 ## References
 
 
-* {#Lurie} [[Jacob Lurie]], appendix A of _[[Spectral Algebraic Geometry]]_ ([pdf]( http://math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
+* {#Lurie} [[Jacob Lurie]], appendix A of _[[Spectral Algebraic Geometry]]_ (2018) &lbrack;[pdf](https://www.math.ias.edu/~lurie/papers/SAG-rootfile.pdf)&rbrack;
 
