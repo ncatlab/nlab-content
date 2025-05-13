@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _Cauchy sequence_ is an infinite [[sequence]] which ought to [[convergence|converge]] in the sense that successive terms get arbitrarily close together, as they would if they were getting arbitrarily close to a limit.  Among sequences, only Cauchy sequences will converge; in a [[complete space]], all Cauchy sequence converge.
+A _Cauchy sequence_ is an infinite [[sequence]] which ought to [[convergence|converge]] in the sense that successive terms get arbitrarily close together, as they would if they were getting arbitrarily close to a limit.  Among sequences, only Cauchy sequences will converge; in a [[sequentially complete space]], all Cauchy sequence converge.
 
 
 ## Definitions
@@ -37,17 +37,14 @@ The same definition immediately applies to an extended quasipseudometric space (
 In a [[gauge space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each gauging distance separately.  Explicitly:
 $$ \forall d,\; \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; d(x_i,x_j) \lt \epsilon .$$
 
-In a [[Booij premetric space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric for all positive rational numbers $\epsilon$.  Explicitly:
+In a [[rational premetric space|rational]] or [[real premetric space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for the premetric for all positive rational numbers $\epsilon$.  Explicitly:
 $$ \forall \epsilon,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_\epsilon x_j .$$
 
-In a [[uniform space]], a sequence $(x_i)_i$ is __Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$.  Explicitly:
+In a [[uniform space]] or [[preuniform space]], a sequence $(x_i)_i$ is __Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$.  Explicitly:
 $$ \forall U,\; \exists N,\; \forall i, j \geq N,; x_i \approx_U x_j .$$
 
-In a [[preuniform space]], a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each [[preuniformity]] $U$.  Explicitly:
-$$ \forall U,\; \exists N,\; \forall i, j \geq N,\; x_i \approx_U x_j .$$
-
-Generalizing both [[Booij premetric spaces]] and [[preuniform spaces]], in a $T$-premetric space with set $T$, a sequence $(x_i)_i$ is __Cauchy__ if this condition is satisfied for each element $U \in T$. Explicitly:
-$$ \forall U,\; \exists N,\; \forall i, j \geq N,\; x_i \sim_U x_j .$$
+More generally, let $S$ and $T$ be sets and let $R(a, b, t)$ be a ternary relation indexed by $a, b \in S$ and $t \in T$. A sequence $(x_i)_i$ in $S$ is __Cauchy__ if this condition is satisfied for each element $t \in T$. Explicitly:
+$$ \forall t,\; \exists N,\; \forall i, j \geq N,\; R(x_i, x_j, t) .$$
 
 In a [[Cauchy space]], a sequence $(x_i)_i$ is __Cauchy__ if it generates a [[Cauchy filter]].  Explicitly:
 $$ \{ A \;|\; \exists N,\; \forall i, j \geq N,\; x_i \in A \} \in \mathcal{C} ,$$
@@ -67,7 +64,11 @@ In a [[metric space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(
 
 In a [[gauge space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every positive number $\epsilon$ and every gauge $d:S \times S \to \mathbb{R}_{\geq 0}$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $d(a, b) \lt \epsilon$. 
 
-In a [[uniform space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every [[entourage]] $U$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $a \approx_U b$. 
+In a [[rational premetric space|rational]] or [[real premetric space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every positive number $\epsilon$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $a \sim_\epsilon b$. 
+
+In a [[uniform space]] or [[preuniform space]] $S$, a multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every [[entourage]] $U$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $a \approx_U b$. 
+
+More generally, let $S$ and $T$ be sets and let $R(a, b, t)$ be a ternary relation indexed by $a, b \in S$ and $t \in T$. A multivalued sequence $x:\mathbb{N} \to \mathcal{P}(S)$ is __Cauchy__ if, for every element $t \in T$, there exist a natural number $N$ such that for all $i, j \geq N$, there exist elements $a, b \in S$ such that $x(i)(a)$ and $x(j)(b)$ holds and $R(a, b, t)$ holds. 
 
 ### Nets and filters
 
@@ -90,8 +91,14 @@ $$ \forall \epsilon,\; \forall i, j \geq \alpha(\epsilon),\; d(x_i,x_j) \lt \eps
 In a [[gauge space]], a sequence or net $(x_i)_i$ is __regular Cauchy__ or __modulated Cauchy__ if this condition is satisfied for each gauging distance separately.  Explicitly:
 $$ \forall d,\; \forall \epsilon,\; \forall i, j \geq \alpha(\epsilon),\; d(x_i,x_j) \lt \epsilon .$$
 
+In a [[rational premetric space|rational]] or [[real premetric space]], a sequence or net $(x_i)_i$ is __regular Cauchy__ or __modulated Cauchy__ under the same condition, now relative to the premetric on that space. Explicitly:
+$$ \forall \epsilon,\; \forall i, j \geq \alpha(\epsilon),\; x_i \sim_\epsilon x_j .$$
+
 In a [[uniform space]], a sequence or net $(x_i)_i$ is __regular Cauchy__ or __modulated Cauchy__ if an analogous condition is satisfied for each [[entourage]] $U$. Explicitly:
 $$ \forall U,\; \forall i, j \geq \alpha(U),\; x_i \approx_U x_j .$$
+
+More generally, let $S$ and $T$ be sets and let $R(a, b, t)$ be a ternary relation indexed by $a, b \in S$ and $t \in T$. A sequence $(x_i)_i$ in $S$ is __regular Cauchy__ or __modulated Cauchy__ if this condition is satisfied for each element $t \in T$. Explicitly:
+$$ \forall t,\; \forall i, j \geq \alpha(t),\; R(x_i, x_j, t) .$$
 
 ## Related concepts
 
