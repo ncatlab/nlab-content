@@ -17,7 +17,7 @@ Given a type family indexed by [[type variables]], impredicative polymorphism st
 
 Impredicative polymorphism is important for defining axioms such as [[UIP]], [[excluded middle]], the [[type theoretic axiom of replacement|axiom of replacement]] and the [[axiom of choice]] as actual axioms rather than unjustified rules. Axioms involving type families can be represented using an auxiliary type and a function to the index type, where the type family itself is represented by the [[fiber types]] of the function. 
 
-Impredicative polymorphism is also important for defining impredicative structures in [[dependent type theory]], such as [[frames]], [[Grothendieck topoi]], the [[type of all propositions]], etc.
+Impredicative polymorphism is also important for defining impredicative structures in [[dependent type theory]], such as [[frames]], [[Cauchy complete spaces]], [[Grothendieck topoi]], the [[type of all propositions]], etc.
 
 ## Definition
 
