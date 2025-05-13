@@ -111,6 +111,10 @@ Formulation in [[homotopical AQFT]]:
 
 * [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *The linear CS/WZW bulk/boundary system in AQFT*, Annales Henri Poincaré (2023) &lbrack;[arXiv:2302.06990](https://arxiv.org/abs/2302.06990)&rbrack;
 
+See also:
+
+* [[Thomas G. Mertens]], Qi-Feng Wu: *Minimal Factorization of Chern-Simons Theory -- Gravitational Anyonic Edge Modes* &lbrack;[arXiv:2505.00501](https://arxiv.org/abs/2505.00501)&rbrack;
+
 
 [[!include 3d gravity and Chern-Simons theory -- references]]
 
