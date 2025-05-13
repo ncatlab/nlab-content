@@ -9,6 +9,10 @@ See the article [[Kähler C^∞-differentials of smooth functions are differenti
 
 ## Related concepts
 
-* [[derivation]], [[Beck derivation]], [[C^∞-ring]], [[Kähler C^∞-differential]], [[module over a C^∞-ring]]
+* [[derivation]], [[Beck derivation]]
+
+* [[C^∞-ring]], [[module over a C^∞-ring]]
+
+* [[Kähler C^∞-differential]], [[differential graded C^∞-ring]]
 
 [[!redirects C^∞-derivations]]
