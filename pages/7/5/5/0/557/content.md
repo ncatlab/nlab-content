@@ -1,7 +1,5 @@
 
-
-
-> This article is about the [[symmetric monoidal category]]. For the [[type]] of [[h-propositions]] see  [[Prop]]. 
+> This article is about the [[symmetric monoidal category]]. For the [[type]] of [[h-propositions]] in [[dependent type theory]], see [[Prop]]. 
 
 ---
 
