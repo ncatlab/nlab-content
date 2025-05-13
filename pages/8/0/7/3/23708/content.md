@@ -25,21 +25,27 @@ Note that this is usually just called *Cauchy complete space* in some areas of m
 
 ## Examples
 
-* The [[Dedekind real numbers]] are sequentially Cauchy complete. 
+* The [[Dedekind real numbers]] are sequentially complete. 
 
 ## Related concepts
 
 * [[Cauchy space]]
+
 * [[complete space]]
+
 * [[modulated Cauchy complete space]]
 
 ## References
 
+See also:
+
 * Wikipedia, *[Sequentially complete](https://en.wikipedia.org/wiki/Sequentially_complete)*
 
-* Auke B. Booij, Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
+Formalization in [[type theory]]:
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* Univalent Foundations Project: *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
+* [[Auke B. Booij]]: *Analysis in univalent type theory*, PhD thesis, Birmingham (2020) &lbrack;[pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
 
 [[!redirects sequentially complete space]]
 [[!redirects sequentially complete spaces]]
