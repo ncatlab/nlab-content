@@ -40,7 +40,7 @@ the zero cochain complex, i.e., $\mathbf{R}$ in degree 0.
 
 ## References
 
-* [[E. J. Dubuc]], [[A. Kock]], _On 1-form classifiers_, Communications in Algebra 12:12 (1984), 1471–1531.  [doi](https://doi.org/10.1080/00927878408823064).
+* [[E. J. Dubuc]], [[A. Kock]], _On 1-form classifiers_, Communications in Algebra 12:12 (1984), 1471–1531.  [doi:10.1080/00927878408823064](https://doi.org/10.1080/00927878408823064), ([author pdf](https://tildeweb.au.dk/au76680/DK84.pdf))
 
 The earliest occurrence of differential graded [[C^∞-rings]] is in the paper
 
