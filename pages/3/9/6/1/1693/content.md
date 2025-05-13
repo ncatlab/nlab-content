@@ -7,13 +7,11 @@
 
 As a [[Boolean ring]] is a [[ring]] in which multiplication is [[idempotent]], so a Boolean rig is a [[rig]] in which multiplication is idempotent; that is, a rig in which $x^2 = x$ always holds.
 
-While many further properties follow from the idempotence of multiplication in a ring, most of these require subtraction (or at least cancellation of addition), so these will not necessarily hold for a Boolean rig.  As such, it might be proper to add some of them as axioms for a Boolean rig.
-
+While many further properties follow from the idempotence of multiplication in a ring, most of these require subtraction (or at least cancellation of addition), so these will not necessarily hold for a Boolean rig. As such, it might be proper to add some of them as axioms for a Boolean rig.
 
 ## Properties
 
-Even without subtraction, we may define the Boolean join operation $x \vee y \coloneqq x + x y + y$; however, it also seems to have no nice properties without additional axioms.  In a *commutative* Boolean rig, however, we can prove that multiplication distributes over join, meaning that multiplication and join together form another rig structure.  But we cannot prove that this rig is also Boolean, or that join is a [[semilattice]] operation.
-
+Even without subtraction, we may define the Boolean join operation $x \vee y \coloneqq x + x y + y$; however, it also seems to have no nice properties without additional axioms.  In a *commutative* Boolean rig, however, we can prove that multiplication distributes over join, meaning that multiplication and join together form another rig structure.  But we cannot prove that this rig is also Boolean, or that join is a [[semilattice]] operation; in fact, if the Boolean rig is a [[distributive lattice]], then the "join" operation defined above is the same as the addition operation. 
 
 ## Examples
 
@@ -34,6 +32,7 @@ There are exactly two boolean rings of cardinal $2$. In such a boolean ring, we 
 
 * [[Boolean algebra]]
 * [[Boolean ring]]
+* [[01-bounded semilattice]]
 
 ## References
 
