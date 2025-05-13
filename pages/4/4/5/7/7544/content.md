@@ -128,7 +128,7 @@ There is some structure that the definition probably does not imply, namely a se
 
 However, although this is an open question, it is arguably not a question about the definition of "elementary $(\infty,1)$-topos", but some stronger notion, analogous to a stronger notion of 1-topos that lacks an accepted name.  Moreover, a great deal of [[homotopy type theory]] (including synthetic homotopy theory) can be done with only non-recursive HITs, truncations, and a natural numbers type, and even in the absence of a general coherence theorem any particular result of HoTT could probably be explicitly written down in $(\infty,1)$-categorical language.
 
-Also, an elementary $(\infty,1)$-topos as defined isn't a [[(infinity,1)-pretopos|$(\infty,1)$-pretopos]] in the sense of [[Jacob Lurie]]'s [[Higher Topos Theory]], since it doesn't have effective [[groupoid object in an (infinity,1)-category|groupoid objects]] due to similar coherence issues as those of [[semi-simplicial objects]], [[simplicial object in an (infinity,1)-category|simplicial objects]], and other objects representing infinitary [[record types]]. 
+Also, an elementary $(\infty,1)$-topos as defined isn't a [[(infinity,1)-pretopos|$(\infty,1)$-pretopos]] in the sense of [[Spectral Algebraic Geometry|Lurie 2018]], since it doesn't have effective [[groupoid object in an (infinity,1)-category|groupoid objects]] due to similar coherence issues as those of [[semi-simplicial objects]], [[simplicial object in an (infinity,1)-category|simplicial objects]], and other objects representing infinitary [[record types]]. 
 
 ## Definition (predicative case)
 
