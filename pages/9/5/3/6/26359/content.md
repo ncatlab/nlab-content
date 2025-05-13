@@ -41,15 +41,53 @@ The membership relation and the subtype operations used above are defined in the
 
 The definitions of the various different types of finite types are agnostic regarding the definition of $\mathrm{isFinite}$, as they uses $\mathrm{isFinite}$ directly rather than a particular definition. 
 
-### The type of all finite types
+The **type of (all) finite types** $\mathrm{FinType}$ in a [[dependent type theory]] could be defined in many different ways:
 
-Unlike the case for the [[type of all types]] $\mathrm{Type}$, the type of all finite types $\mathrm{FinType}$ doesn't run into [[Girard's paradox]], because neither $\mathrm{FinType}$ nor its set truncation is itself a finite type, and so isn't an element of itself. 
+* as a [[positive type|positive]] [[higher inductive type]] representing the [[Rezk completion]] of the [[strict category]] of standard [[finite types]], whose objects is the set of [[natural numbers]]. 
 
-The **type of all finite types** $\mathrm{FinType}$ in a [[dependent type theory]] could be presented either as a [[Russell universe]] or a [[Tarski universe]]. The difference between the two is that in the former, every [[finite type]] in the type theory is literally an element of the type of finite types, while in the latter, elements of $\mathrm{FinType}$ are only indices of a type family $\mathrm{El}$; every [[finite type]] in the type theory is only [[essentially small type|essentially $\mathrm{FinType}$-small]] for [[weak Tarski universes]] or [[judgmentally equal]] to an $\mathrm{El}(P)$ for $P:\mathrm{FinType}$ for [[strict Tarski universes]]. 
+* as a homotopy-[[terminal object|terminal]] [[univalent Tarski universe]] of [[finite types]], suitably defined. 
 
-#### As a strict Tarski universe
+* as a [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isFinite}(P)$ or $\sum_{P:U} \mathrm{isFinite}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
-As a [[strict Tarski universe]], the type of all finite types is given by the following [[natural deduction]] [[inference rules]]:
+In addition, in [[dependent type theory]] defined using a [[universe hierarchy]] instead of a separate type judgment, a universe $U_i$ having the type of all finite types as defined above is equivalent to a local resizing axiom which says that the [[locally small type|locally $U_i$-small type]] $\sum_{P:U_i} \mathrm{isFinite}(P)$ is ([[essentially small type|essentially]]) [[small type|$U_i$-small]]. 
+
+### As Rezk completion of a strict category
+
+The [[natural numbers type]] has a [[strict category]] structure where the [[objects]] are [[natural numbers]] and the [[hom-sets]] $\mathrm{hom}(m, n)$ are [[function types]] $\mathrm{Fin}(m) \to \mathrm{Fin}(n)$ between the standard finite sets with $m$ and $n$ elements respectively. This strict category is not a [[univalent category]]. The **type of (all) finite types** is defined as the [[Rezk completion]] of the above strict category, which is a [[higher inductive type]]. 
+
+The [[set truncation]] of this [[univalent category]] results in the [[natural numbers]] again, with [[cardinality]] function $\lambda X.\vert X \vert:\mathrm{FinType} \to \mathbb{N}$ from the definition of set truncation, so the Tarski universe type family $X:\mathrm{FinType} \vdash \mathrm{El}(X)$ is defined by the standard finite type of the cardinality of the finite type
+$$\mathrm{El}(X) \coloneqq \mathrm{Fin}(\vert X \vert)$$
+This Tarski universe is a univalent Tarski universe of finite types by definition of Rezk completion. 
+
+### As a homotopy-terminal type
+
+A **univalent Tarski universe of finite types** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
+
+* $B(x)$ is a [[finite type]] for all $x:A$,
+
+* the [[transport]] function
+$$\mathrm{tr}^B(x, y):x =_A y \to (B(x) \simeq B(y))$$
+is an [[equivalence of types]] for all $x:A$ and $y:A$
+
+A morphism of univalent Tarski universe of finite types between univalent Tarski universes of finite types $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
+
+The **type of (all) finite types** $(\mathrm{FinType}, \mathrm{El})$ is the homotopy-terminal univalent Tarski universe of finite types: given any other univalent Tarski universe of finite types $(A, B)$, there exists a unique function $u_A:A \to \mathrm{FinType}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
+
+### As a record type with a type fields
+
+The **type of (all) finite types** $\mathrm{FinType}$ is a [[record type]] where one of the fields is a [[type]], consisting of 
+
+* a type $A \; \mathrm{type}$
+
+* a witness $p:\mathrm{isFinite}(A)$ that $A$ is a [[finite type]]. 
+
+As a result, the type of all finite type behaves as a [[type universe]]. 
+
+Similar to other [[type universes]] and [[record types with type fields]], the type of all propositions can be presented [[a la Tarski]] or [[a la Russell]]. 
+
+#### A la Tarski
+
+The type of all finite types [[a la Tarski]] is given by the following [[natural deduction]] [[inference rules]]:
 
 Formation rules for the type of all finite types:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{FinType} \; \mathrm{type}}$$
@@ -64,68 +102,18 @@ Computation rules for the type of all finite types:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \mathrm{El}(\mathrm{toElem}_A(p)) \equiv A \; \mathrm{type}}$$
 
-* Judgmental computation rules:
-
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \mathrm{finWitn}(\mathrm{toElem}_A(p)) \equiv p:\mathrm{isFinite}(A)}$$
 
-* Typal computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \beta_\mathrm{FinType}^{\mathrm{finWitn},A}(p):\mathrm{finWitn}(\mathrm{toElem}_A(p)) =_{\mathrm{isFinite}(A)} p}$$
-
 Uniqueness rules for the type of all finite types:
 
-* Judgmental computation rules:
 $$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{finWitn}(A)) \equiv A:\mathrm{FinType}}$$
 
-* Typal computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \eta_{\mathrm{FinType}}(A):\mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{finWitn}(A)) =_{\mathrm{FinType}} A}$$
-
 [[univalence axiom|Extensionality principle]] of the type of all finite types:
 $$\frac{\Gamma \vdash A:\mathrm{FinType} \quad \Gamma \vdash B:\mathrm{FinType}} {\Gamma \vdash \mathrm{ext}_\mathrm{FinType}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
-#### As a weak Tarski universe
+#### A la Russell
 
-As a [[weak Tarski universe]], the type of all finite types is given by the following [[natural deduction]] [[inference rules]]:
-
-Formation rules for the type of all finite types:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{FinType} \; \mathrm{type}}$$
-
-Introduction rules for the type of all finite types:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toElem}_A:\mathrm{isFinite}(A) \to \mathrm{FinType}}$$
-
-Elimination rules for the type of all finite types:
-$$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \mathrm{finWitn}(A):\mathrm{isFinite}(\mathrm{El}(A))}$$
-
-Computation rules for the type of all finite types:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \beta_\mathrm{FinType}^{\mathrm{El}, A}(p):\mathrm{El}(\mathrm{toElem}_A(p)) \simeq A \; \mathrm{type}}$$
-
-* Judgmental computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p))(\mathrm{finWitn}(\mathrm{toElem}_A(p))) \equiv p:\mathrm{isFinite}(A)}$$
-
-* Typal computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \beta_\mathrm{FinType}^{\mathrm{finWitn},A}(p):\mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p))(\mathrm{finWitn}(\mathrm{toElem}_A(p))) =_{\mathrm{isFinite}(A)} p}$$
-
-where the equivalence
-$$\mathrm{congform}_\mathrm{isFinite}(\beta_\mathrm{FinType}^{\mathrm{El}, A}(p)):\mathrm{isFinite}(\mathrm{El}(\mathrm{toElem}_A(p))) \simeq \mathrm{isFinite}(A)$$
-can always be constructed in a type theory with [[dependent product types]], [[dependent sum types]], [[identity types]], and a [[type of all propositions]], as given types $A$ and $B$ and an equivalence $e:A \simeq B$, it is possible to form the equivalence $\mathrm{congform}_\mathrm{isFinite}(e):\mathrm{isFinite}(A) \simeq \mathrm{isFinite}(B)$ through [[function application to identifications|application of equivalences to identifications]] and the typal congruence rules of [[function types]], [[dependent product types]], [[product types]], and [[dependent sum types]]. 
-
-Uniqueness rules for the type of all finite types:
-
-* Judgmental computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash A \equiv \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{finWitn}(A)):\mathrm{FinType}}$$
-
-* Typal computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \eta_{\mathrm{FinType}}(A):A =_{\mathrm{FinType}} \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{finWitn}(A))}$$
-
-[[univalence axiom|Extensionality principle]] of the type of all finite types:
-$$\frac{\Gamma \vdash A:\mathrm{FinType} \quad \Gamma \vdash B:\mathrm{FinType}} {\Gamma \vdash \mathrm{ext}_\mathrm{FinType}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
-
-#### As a Russell universe
-
-As a [[Russell universe]], the type of all finite types is given by the following [[natural deduction]] [[inference rules]]:
+The type of all propositions [[a la Russell]] is given by the following [[natural deduction]] [[inference rules]]:
 
 Formation rules for the type of all finite types:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{FinType} \; \mathrm{type}}$$
@@ -140,36 +128,18 @@ Computation rules for the type of all finite types:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \mathrm{toElem}_A(p) \equiv A \; \mathrm{type}}$$
 
-* Judgmental computation rules:
-
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \mathrm{finWitn}(\mathrm{toElem}_A(p)) \equiv p:\mathrm{isFinite}(A)}$$
-
-* Typal computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isFinite}(A)}{\Gamma \vdash \beta_\mathrm{FinType}^{\mathrm{finWitn},A}(p):\mathrm{finWitn}(\mathrm{toElem}_A(p)) =_{\mathrm{isFinite}(A)} p}$$
 
 Uniqueness rules for the type of all finite types:
 
-* Judgmental computation rules:
 $$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \mathrm{toElem}_{A}(\mathrm{finWitn}(A)) \equiv A:\mathrm{FinType}}$$
-
-* Typal computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{FinType}}{\Gamma \vdash \eta_{\mathrm{FinType}}(A):\mathrm{toElem}_{A}(\mathrm{finWitn}(A)) =_{\mathrm{FinType}} A}$$
 
 [[univalence axiom|Extensionality principle]] of the type of all finite types:
 $$\frac{\Gamma \vdash A:\mathrm{FinType} \quad \Gamma \vdash B:\mathrm{FinType}} {\Gamma \vdash \mathrm{ext}_\mathrm{FinType}(A, B):\mathrm{isEquiv}(\mathrm{idToEquiv}(A, B))}$$
 
-### Type of small finite types
-
-Given an already existing [[Russell universe]] $U$, the type of $U$-small finite types is given by the [[dependent sum type]]
-
-$$\sum_{A:U} \mathrm{isFinite}(A)$$
-
-Similarly, given an already existing [[Tarski universe]] $(U, T)$, the type of $U$-small finite types is given by the [[dependent sum type]]
-
-$$\sum_{A:U} \mathrm{isFinite}(T(A))$$
-
 ## Properties
+
+Unlike the case for the [[type of all types]] $\mathrm{Type}$, the type of all finite types $\mathrm{FinType}$ doesn't run into [[Girard's paradox]], because neither $\mathrm{FinType}$ nor its set truncation is itself a finite type, and so isn't [[essentially small type|essentially]] $\mathrm{FinType}$-small. 
 
 ### Closure under type formers
 
