@@ -60,25 +60,13 @@ We shall be agnostic about the different definitions of $\mathrm{isProp}(A)$, an
 
 The **type of (all) propositions** $\mathrm{Prop}$ in a [[dependent type theory]] could be defined in many different ways:
 
-* as a homotopy-[[terminal object|terminal]] [[univalent Tarski universe]] of [[h-propositions]], suitably defined. 
-
 * in [[dependent type theory with type variables]] and [[impredicative polymorphism]], as a [[positive type|positive]] [[higher inductive-inductive type]] representing the homotopy-[[initial object|initial]] [[frame]] or [[complete Heyting algebra]]. 
+
+* as a homotopy-[[terminal object|terminal]] [[univalent Tarski universe]] of [[h-propositions]], suitably defined. 
 
 * as a [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
-### As a homotopy-terminal type
-
-A **univalent Tarski universe of propositions** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
-
-* $B(x)$ is a [[mere proposition]] for all $x:A$,
-
-* the [[transport]] function
-$$\mathrm{tr}^B(x, y):x =_A y \to (B(x) \simeq B(y))$$
-is an [[equivalence of types]] for all $x:A$ and $y:A$
-
-A morphism of univalent Tarski universe of propositions between Tarski universes of propositions $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
-
-The **type of (all) propositions** $(\mathrm{Prop}, \mathrm{El})$ is the homotopy-terminal univalent Tarski universe of propositions: given any other univalent Tarski universe of propositions $(A, B)$, there exists a unique function $u_A:A \to \mathrm{Prop}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
+In addition, in [[dependent type theory]] defined using a [[universe hierarchy]] instead of a separate type judgment, a universe $U_i$ having the type of all propositions as defined above is equivalent to a local [[propositional resizing]] axiom which says that the [[locally small type|locally $U_i$-small type]] $\sum_{P:U_i} \mathrm{isProp}(P)$ is ([[essentially small type|essentially]]) [[small type|$U_i$-small]]. 
 
 ### As a homotopy-initial type
 
@@ -93,6 +81,20 @@ since these structures can only be defined with [[impredicative polymorphism]] i
 $$\mathrm{El}(P) \coloneqq (P =_{\mathrm{Prop}} \top)$$
 
 and the Tarski universe is univalent by concatenation of identifications in the frame. 
+
+### As a homotopy-terminal type
+
+A **univalent Tarski universe of propositions** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
+
+* $B(x)$ is a [[mere proposition]] for all $x:A$,
+
+* the [[transport]] function
+$$\mathrm{tr}^B(x, y):x =_A y \to (B(x) \simeq B(y))$$
+is an [[equivalence of types]] for all $x:A$ and $y:A$
+
+A morphism of univalent Tarski universe of propositions between Tarski universes of propositions $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
+
+The **type of (all) propositions** $(\mathrm{Prop}, \mathrm{El})$ is the homotopy-terminal univalent Tarski universe of propositions: given any other univalent Tarski universe of propositions $(A, B)$, there exists a unique function $u_A:A \to \mathrm{Prop}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
 
 ### As a record type with type fields
 
@@ -131,30 +133,6 @@ $$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash A \equiv \mathrm{toProp}_{\
 
 Extensionality principle of the type of all propositions:
 $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gamma \vdash \mathrm{ext}_\mathrm{Prop}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
-
-In [[dependent type theory with type variables]], the [[natural deduction]] [[inference rules]] for the type of all propositions can be written using type variables in the same manner as the natural deduction inference rules for usual [[record types]] / [[dependent sum types]]:
-
-Formation rules for the type of all propositions:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Prop} \; \mathrm{type}}$$
-
-Introduction rules for the type of all propositions:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A \; \mathrm{type}, p:\mathrm{isProp}(A) \vdash \mathrm{toProp}(A, p):\mathrm{Prop}}$$
-
-Elimination rules for the type of all propositions:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathrm{Prop} \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathrm{Prop} \vdash \mathrm{proptrunc}(A):\mathrm{isProp}(\mathrm{El}(A))}$$
-
-Computation rules for the type of all propositions:
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A \; \mathrm{type}, p:\mathrm{isProp}(A) \vdash \mathrm{El}(\mathrm{toProp}_A(p)) \equiv A \; \mathrm{type}}$$
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A \; \mathrm{type}, p:\mathrm{isProp}(A) \vdash \mathrm{proptrunc}(\mathrm{toProp}_A(p)) \equiv p:\mathrm{isProp}(A)}$$
-
-Uniqueness rules for the type of all propositions:
-
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma, A:\mathrm{Prop} \vdash A \equiv \mathrm{toProp}_{\mathrm{El}(A)}(\mathrm{proptrunc}(A)):\mathrm{Prop}}$$
-
-Extensionality principle of the type of all propositions:
-$$\frac{\Gamma \; \mathrm{ctx}} {\Gamma, A:\mathrm{Prop}, B:\mathrm{Prop} \vdash \mathrm{ext}_\mathrm{Prop}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
 #### A la Russell
 
@@ -393,8 +371,6 @@ These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] a
 
 * [[type of entire relations]]
 
-* [[local propositional resizing]]
-
 * [[impredicative polymorphism]]
 
 * [[impredicative dependent type theory]]
@@ -508,3 +484,5 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 [[!redirects strict Coquand universes of all propositions]]
 
 [[!redirects Prop]]
+
+[[!redirects local propositional resizing]]
