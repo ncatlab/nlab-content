@@ -52,6 +52,12 @@ $$ \forall t,\; \forall i, j \geq \alpha(t),\; R(x_i, x_j, t) .$$
 
 * Wikipedia, *[Modulus of convergence](https://en.wikipedia.org/wiki/Modulus_of_convergence)*
 
-* Auke B. Booij, Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
+* {#Booij20} [[Auke Booij]], *Analysis in Univalent Type Theory* (2020) &lbrack;[etheses:10411](http://etheses.bham.ac.uk/id/eprint/10411), [pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf), [[Booij-AnalysisInUF.pdf:file]]&rbrack;
 
 * Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
+[[!redirects modulus of convergence]]
+[[!redirects moduli of convergence]]
+
+[[!redirects modulus of Cauchy convergence]]
+[[!redirects moduli of Cauchy convergence]]
