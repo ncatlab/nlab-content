@@ -14,13 +14,19 @@
 =--
 
 
-This page is to record material related to:
+This page is to record the reference
 
-* [[Jacob Lurie]], 
+* [[Jacob Lurie]]:
 
-  _Spectral Algebraic Geometry_ 
+  \linebreak
 
-  ([pdf]( https://www.math.ias.edu/~lurie/papers/SAG-rootfile.pdf))
+  **Spectral Algebraic Geometry**
+
+  \linebreak
+
+  (2018)
+
+  [pdf](https://www.math.ias.edu/~lurie/papers/SAG-rootfile.pdf)
 
 on [[spectral algebraic geometry]].
 
