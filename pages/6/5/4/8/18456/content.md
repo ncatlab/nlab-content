@@ -26,8 +26,12 @@ The classification of [[adinkras]] in terms of [[graphs]] and [[linear codes]] i
 
 The [[dimensional reduction]] of the standard [[supermultiplets]] of $D = 4, \mathcal{N} = 1$ [[supersymmetry]] to [[adinkraic representations]] of $D = 1, \mathcal{N}=4$:
 
-
 * {#GatesHubschStiffler14} [[Jim Gates]], [[Tristan Hübsch]], Kory Stiffler, _Adinkras and SUSY Holography_, Int. J. Mod. Phys. A29 no. 7, (2014) 1450041 ([arXiv:1208.5999](https://arxiv.org/abs/1208.5999))
+
+On [[standard model of particle physics]] and beyond ([[grand unified theory]], [[supersymmetry]], [[string theory]]):
+
+* [[Tristan Hübsch]]: *Advanced Concepts in Particle and Field Theory*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781009291507](https://doi.org/10.1017/9781009291507)&rbrack;
+
 
 On [[Yukawa couplings]] in [[string phenomenology]] for [[heterotic strings]] on [[Calabi-Yau manifolds]]:
 
