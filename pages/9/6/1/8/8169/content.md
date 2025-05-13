@@ -56,6 +56,9 @@
 
 * [[Particle Data Group]], _Review of Particle Physics_, Progress of Theoretical and Experimental Physics, Volume 2020, Issue 8, August 2020, 083C01 ([doi:10.1093/ptep/ptaa104](https://doi.org/10.1093/ptep/ptaa104))
 
+* [[Tristan Hübsch]]: *Fundamental physics: elementary particles and processes *, section I.2 of: *Advanced Concepts in Particle and Field Theory*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781009291507](https://doi.org/10.1017/9781009291507)&rbrack;
+
+
 Relation to [[string theory phenomenology]]:
 
 * [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012 ([doi:10.1017/CBO9781139018951](https://doi.org/10.1017/CBO9781139018951))
