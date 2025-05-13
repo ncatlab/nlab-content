@@ -1,4 +1,8 @@
 
+> This article is about the [[type]] of [[h-propositions]] in [[dependent type theory]]. For the [[symmetric monoidal category]], see [[PROP]]. 
+
+---
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -17,7 +21,7 @@
 
 ## Idea
 
-In [[type theory]] the _type of propositions_ --- typically denoted $Prop$ or $\Omega$ --- corresponds, under [[categorical semantics]], roughly to a *[[subobject classifier]]*.  
+In [[dependent type theory]] the _type of propositions_ --- typically denoted $Prop$ or $\Omega$ --- corresponds, under [[categorical semantics]], roughly to a *[[subobject classifier]]*.  
 
 > (To be precise, depending on the type theoretic rules and axioms this may not be quite true: one needs [[propositional resizing]], [[propositional extensionality]], and --- in some type theories where "proposition" is not defined as an [[h-proposition]], such as the [[calculus of constructions]] --- the [[principle of unique choice]].)
 
@@ -56,11 +60,41 @@ We shall be agnostic about the different definitions of $\mathrm{isProp}(A)$, an
 
 The **type of (all) propositions** $\mathrm{Prop}$ in a [[dependent type theory]] could be defined in many different ways:
 
-* as a [[type universe]] or [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P))$ respectively, but for all types, not just the $U$-small types. 
+* as a homotopy-[[terminal object|terminal]] [[univalent Tarski universe]] of [[h-propositions]], suitably defined. 
 
-* in [[dependent type theory with type variables]] and [[impredicative polymorphism]], as a [[positive type|positive]] [[higher inductive-inductive type]] representing the [[initial object|initial]] [[frame]] or [[complete Heyting algebra]]. 
+* in [[dependent type theory with type variables]] and [[impredicative polymorphism]], as a [[positive type|positive]] [[higher inductive-inductive type]] representing the homotopy-[[initial object|initial]] [[frame]] or [[complete Heyting algebra]]. 
 
-### As a universe or record type with type fields
+* as a [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P))$ respectively, but for all types, not just the $U$-small types. 
+
+### As a homotopy-terminal type
+
+A **univalent Tarski universe of propositions** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
+
+* $B(x)$ is a [[mere proposition]] for all $x:A$,
+
+* the [[transport]] function
+$$\mathrm{tr}^B(x, y):x =_A y \to (B(x) \simeq B(y))$$
+is an [[equivalence of types]] for all $x:A$ and $y:A$
+
+A morphism of univalent Tarski universe of propositions between Tarski universes of propositions $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
+
+The **type of (all) propositions** $(\mathrm{Prop}, \mathrm{El})$ is the homotopy-terminal univalent Tarski universe of propositions: given any other univalent Tarski universe of propositions $(A, B)$, there exists a unique function $u_A:A \to \mathrm{Prop}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
+
+### As a homotopy-initial type
+
+Suppose that the dependent type theory has [[type variables]] and [[impredicative polymorphism]]. Then the **type of (all) propositions** can be defined as any of the following [[higher inductive-inductive types]]:
+
+* As the (homotopy)-initial [[frame]] $\mathrm{Prop}$
+
+* As the (homotopy)-initial [[complete Heyting algebra]] $\mathrm{Prop}$
+
+since these structures can only be defined with [[impredicative polymorphism]] in the absence of an already pre-existing type of all propositions. The Tarski universe type family $P:\mathrm{Prop} \vdash \mathrm{El}(P)$ is given by [[identification]] with [[truth]]
+
+$$\mathrm{El}(P) \coloneqq (P =_{\mathrm{Prop}} \top)$$
+
+and the Tarski universe is univalent by concatenation of identifications in the frame. 
+
+### As a record type with type fields
 
 The **type of (all) propositions** $\mathrm{Prop}$ is a [[record type]] where one of the fields is a [[type]], consisting of 
 
@@ -147,18 +181,6 @@ $$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash A \equiv \mathrm{toProp}_{A
 
 Extensionality principle for the type of all propositions:
 $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gamma \vdash \mathrm{ext}_\mathrm{Prop}(A, B):(A =_\mathrm{Prop} B) \simeq (A \simeq B)}$$
-
-### As a higher inductive-inductive type
-
-Suppose that the dependent type theory has [[type variables]] and [[impredicative polymorphism]]. Then the **type of (all) propositions** can be defined as any of the following [[higher inductive-inductive types]]:
-
-* As the (homotopy)-initial [[frame]] $\mathrm{Prop}$
-
-* As the (homotopy)-initial [[complete Heyting algebra]] $\mathrm{Prop}$
-
-since these structures can only be defined with [[impredicative polymorphism]] in the absence of an already pre-existing type of all propositions. The Tarski universe type family $P:\mathrm{Prop} \vdash \mathrm{El}(P)$ is given by [[identification]] with [[truth]]
-
-$$\mathrm{El}(P) \coloneqq (P =_{\mathrm{Prop}} \top)$$
 
 ## Predicate logic
 
