@@ -61,10 +61,12 @@ A Cauchy space $S$ is __[[totally bounded space|precompact]]__ (or __totally bou
 
 ## See also 
 
-* [[Cauchy structure]]
-* [[sequentially Cauchy complete space]]
+* [[sequentially complete space]]
+* [[complete space]]
 
 ## References
+
+* Wikipedia, *[Cauchy space](https://en.wikipedia.org/wiki/Cauchy_space)*
 
 * Eva Lowen-Colebunder, _Function Classes of Cauchy Continuous Maps_ Dekker, New York, 1989
 
