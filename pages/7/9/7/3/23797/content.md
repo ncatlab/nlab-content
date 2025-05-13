@@ -63,14 +63,21 @@ Review:
 * {#Tong16} [[David Tong]]: *Edge Modes*, chapter 6 of: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
 
-
-
-
 ### In topological insulators
 
 On edges modes in [[topological insulators]]:
 
 * Lukasz Fidkowski, T. S. Jackson, Israel Klich, *Edge modes in band topological insulators* &lbrack;[arXiv:1101.0320](https://arxiv.org/abs/1101.0320)&rbrack;
+
+### Via Chern-Simons theory & other TQFT
+
+On edge modes via [[Chern-Simons theory]] (cf. also *[[AdS3-CFT2 and CS-WZW correspondence]]*):
+
+* [[Thomas G. Mertens]], Qi-Feng Wu: *Minimal Factorization of Chern-Simons Theory -- Gravitational Anyonic Edge Modes* &lbrack;[arXiv:2505.00501](https://arxiv.org/abs/2505.00501)&rbrack;
+
+See also:
+
+* Atsushi Ueda, Kansei Inamura, [[Kantaro Ohmori]]: *Chiral Edge States Emerging on Anyon-Net* &lbrack;[arXiv:2408.02724](https://arxiv.org/abs/2408.02724)&rbrack;
 
 
 
