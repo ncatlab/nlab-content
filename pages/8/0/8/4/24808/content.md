@@ -241,6 +241,11 @@ For more see the references at *[[type universe]]*.
 [[!redirects Russell universe]]
 [[!redirects Russell universes]]
 
+[[!redirects a la Russell]]
+
+[[!redirects universe a la Russell]]
+[[!redirects universes a la Russell]]
+
 [[!redirects à la Russell]]
 
 [[!redirects universe à la Russell]]
