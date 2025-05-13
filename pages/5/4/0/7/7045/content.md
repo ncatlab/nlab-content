@@ -154,7 +154,9 @@ For more on this see the respective sections at _[[relation between type theory 
 
 ## Other types of types
 
-There is other notions of type of types. Suppose we have a Russell universe $U$ or a Tarski universe $(U, T)$ and a function $P:U \to \mathrm{Prop}_U$. Then the type of $U$-small types which satisfy $P$ is given by the [[dependent sum type]] $\sum_{A:U} P(A)$ for Russell universes and $\sum_{A:U} T(P(A))$ for Tarski universes. 
+There is other notions of type of types. These are typically given by a universe-indexed dependent sum type, or in dependent type theory without type universes, by a [[record type with type fields]]. 
+
+Suppose we have a Russell universe $U$ or a Tarski universe $(U, T)$ and a function $P:U \to \mathrm{Prop}_U$. Then the type of $U$-small types which satisfy $P$ is given by the [[dependent sum type]] $\sum_{A:U} P(A)$ for Russell universes and $\sum_{A:U} T(P(A))$ for Tarski universes. 
 
 Since universes are internal models of type theory, in a dependent type theory with a separate [[type]] [[judgment]], one could generalize the above notion of "type of $U$-small types which satisfy $P$" to the notion of "type of all types which satisfy $P$". Types $A$, previously elements of the universe $A:U$, are now judged to be types $A \; \mathrm{type}$. The function $P:U \to \mathrm{Prop}_U$ which takes types to propositons is now an operator on types, which is defined using [[inference rules]]:
 
