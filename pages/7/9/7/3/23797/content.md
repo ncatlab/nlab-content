@@ -53,6 +53,8 @@ On edge mode [[quantum tunneling|tunneling]]:
 
 * [[Claudio Chamon]], D. E. Freed, S. A. Kivelson, S. L. Sondhi, [[Xiao-Gang Wen]]: *Two point-contact interferometer for quantum Hall systems*, Phys. Rev. B **55** (1997) 2331 &lbrack;[doi:10.1103/PhysRevB.55.2331](https://doi.org/10.1103/PhysRevB.55.2331)&rbrack;
 
+* D. Christian Glattli: *Tunneling Experiments in the Fractional Quantum Hall Effect Regime*, in: *The Quantum Hall Effect*, Progress in Mathematical Physics **45**, Birkhäuser (2005) &lbrack;[doi:10.1007/3-7643-7393-8_5](https://doi.org/10.1007/3-7643-7393-8_5), [pdf](http://www.bourbaphy.fr/glattli.pdf)&rbrack;
+
 * G. Dolcetto, S. Barbarino, D. Ferraro, N. Magnoli, M. Sassetti: *Tunneling between helical edge states through extended contacts*, Phys. Rev. B **85** (2012) 195138 &lbrack;[arXiv:1203.4486](https://arxiv.org/abs/1203.4486), [doi:10.1103/PhysRevB.85.195138](https://doi.org/10.1103/PhysRevB.85.195138)&rbrack;
 
 
