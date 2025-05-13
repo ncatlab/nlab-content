@@ -27,7 +27,7 @@ On [[cobordism cohomology theory]], [[algebraic topology]] and [[chromatic homot
 
 On [[stable cohomotopy]] as the [[algebraic K-theory]] of [[FinSet]]:
 
-* {#MoravaSomeBackground} [[Jack Morava]], _Some background on Manin's theorem $K(\mathbb{F}_1) \sim \mathbb{S}$_ &lbrack;[[MoravaSomeBackground.pdf:file]]&rbrack;
+* [[Jack Morava]]: _Some background on Manin's theorem $K(\mathbb{F}_1) \sim \mathbb{S}$_ &lbrack;[pdf](http://www.alainconnes.org/docs/Morava.pdf), [pdf](/nlab/files/MoravaSomeBackground.pdf)&rbrack;
 
 Comments on the analogy between [[power operations]] in [[homotopy theory]] and [[Lambda ring]] structure in [[Borger's absolute geometry]]:
 
