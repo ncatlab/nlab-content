@@ -18,7 +18,7 @@
 
 ## Idea
 
-In the [[standard model of particle physics]], the _CKM matrix_, arising from [[diagonal matrix|diagranomalizing]] the [[Yukawa couplings]], measures the [[interaction]] of the [[quarks]] via [[W-bosons]] and hence via the [[weak nuclear force]].
+In the [[standard model of particle physics]], the _CKM matrix_, arising from [[diagonal matrix|diagonalizing]] the [[Yukawa couplings]], measures the [[interaction]] of the [[quarks]] via [[W-bosons]] and hence via the [[weak nuclear force]].
 
 ## Definition
 
