@@ -216,7 +216,7 @@ Via generators-and-relations:
 
 * Sylvain Gervais: *A finite presentation of the mapping class group of an oriented surface* &lbrack;[arXiv:math/9811162](https://arxiv.org/abs/math/9811162)&rbrack;
 
-* Bronisław Wajnryb: *An elementary approach to the mapping class group of a surface*, Geometry & Topology **3** (1999) 405–466 &lbrack;[doi:10.2140/gt.1999.3.405](http://dx.doi.org/10.2140/gt.1999.3.405)&rbrack;
+* Bronisław Wajnryb: *An elementary approach to the mapping class group of a surface*, Geometry & Topology **3** (1999) 405–466 &lbrack;[doi:10.2140/gt.1999.3.405](http://dx.doi.org/10.2140/gt.1999.3.405), [arXiv:math/9912248](https://arxiv.org/abs/math/9912248)&rbrack;
 
 See also:
 
