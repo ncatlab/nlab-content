@@ -601,7 +601,7 @@ And for bosonic quasiparticles in the hierarchichal construction of FQH in elect
 
 And for pairs of electrons with opposite spin:
 
-* Philipp Lunt, Paul Hill, Johannes Reiter, Philipp M. Preiss, Maciej Gałka, Selim Jochim: *Realization of a Laughlin state of two rapidly rotating fermions* &lbrack;[arXiv:2402.14814](https://arxiv.org/abs/2402.14814)&rbrack;
+* Philipp Lunt, Paul Hill, Johannes Reiter, Philipp M. Preiss, Maciej Gałka, Selim Jochim: *Realization of a Laughlin state of two rapidly rotating fermions*, Phys. Rev. Lett. **133** (2024) 253401 &lbrack;[arXiv:2402.14814](https://arxiv.org/abs/2402.14814), [doi:10.1103/PhysRevLett.133.253401](https://doi.org/10.1103/PhysRevLett.133.253401)&rbrack;
 
 
 
