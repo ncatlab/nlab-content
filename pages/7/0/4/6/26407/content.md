@@ -17,7 +17,7 @@
 
 ## Idea
 
-**Displayed type theory** &lbrack;[KS23](#KS23)&rbrack; is a [[parametric type theory|parametric]] [[modal type theory]] which [[synthetic mathematics|synthetically]] models an [[(infinity,1)-topos|$(\infty,1)$-topos]] and the corresponding [[(infinity,1)-category|$(\infty,1)$-category]] of [[Reedy model category|Reedy fibrant]] [[augmented simplicial set|augmented]] [[semi-simplicial object|semi-simplicial]] [[diagrams]] of objects in the $(\infty,1)$-topos. Displayed type theory has an indexed endo-[[modality]] called *display* given by [[inference rules]] which can be used to construct [[semi-simplicial types]] as [[coinductive types]] in the type theory. It has only partial internal unary parametricity, rather than full internal unary parametricity, so that it has [[semantics]] in any $(\infty,1)$-topos rather than merely the $(\infty,1)$-topos of [[cubical objects]]. 
+**Displayed type theory** &lbrack;[KS23](#KS23)&rbrack; is a [[parametric type theory|parametric]] [[modal type theory]] which [[synthetic mathematics|synthetically]] models an [[(infinity,1)-topos|$(\infty,1)$-topos]] and the corresponding [[(infinity,1)-category|$(\infty,1)$-category]] of [[Reedy model category|Reedy fibrant]] [[augmented simplicial set|augmented]] [[semi-simplicial object|semi-simplicial]] [[diagrams]] of objects in the $(\infty,1)$-topos. Displayed type theory has a [[unary bridge type]] called *display* which can be used to construct [[semi-simplicial types]] as [[coinductive types]] in the type theory. It has only partial internal unary parametricity, rather than full internal unary parametricity, so that it has [[semantics]] in any $(\infty,1)$-topos rather than merely the $(\infty,1)$-topos of [[cubical objects]]. 
 
 ## Related concepts
 
