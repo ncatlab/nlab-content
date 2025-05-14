@@ -13,7 +13,9 @@ On [[su(2)-anyons]] via [[parafermions]]:
 
 Introducing the *[[Gaffnian state]]* for description of [[FQH systems]]:
 
-* [[Steven H. Simon]], [[Edward H. Rezayi]], N. R. Cooper, I. Berdnikov: *Construction of a paired wave function for spinless electrons at filling fraction $\nu = 2/5$*, Phys. Rev. B **75** (2007) 075317 &lbrack;[doi:10.1103/PhysRevB.75.075317](https://doi.org/10.1103/PhysRevB.75.075317)&rbrack;
+* [[Steven H. Simon]], [[Edward H. Rezayi]], [[Nigel R. Cooper]], I. Berdnikov: *Construction of a paired wave function for spinless electrons at filling fraction $\nu = 2/5$*, Phys. Rev. B **75** (2007) 075317 &lbrack;[doi:10.1103/PhysRevB.75.075317](https://doi.org/10.1103/PhysRevB.75.075317)&rbrack;
+
+
 
 
 category: people
