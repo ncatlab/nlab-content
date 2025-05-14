@@ -24,9 +24,6 @@ A list of (believed to be) open problems in [[homotopy type theory]].  To add mo
 
 * The [[model invariance problem]]: show that the interpretation of type theory is independent of the [[model category]] chosen to present an [[(infinity,1)-category]].
 
-* Treat co-inductive types in HoTT. Part of the problem is that general co-inductive types are not fully understood in ordinary type theory.
-Using extensionality, we obtain [[M-types]] from W-types.
-
 ## Metatheory
 
 * "Writing all inductive definitions in terms of Sigma-types and W-types is theoretically possible, but extremely tedious ... it’s unknown whether any similar reduction for HITs is possible." ([source](http://homotopytypetheory.org/2014/06/08/hiru-tdd/))
@@ -76,7 +73,7 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 ## Higher algebra and higher category theory
 
-* Define [[semi-simplicial types]] in single-level non-modal dependent type theory without either [[type telescopes]] or [[internal parametricity]], or show that this is not possible. Define [[Segal space]] [[complete Segal space]].
+* Define [[infinitary record types]] (such as [[semi-simplicial types]]) in plain [[Martin-Lof type theory]] / [[homotopy type theory]], or show that this is not possible.
 
 * Define a [[weak omega-category in type theory]].
 
@@ -214,3 +211,5 @@ Guillaume Brunerie did this in 2017, written up in [this paper](https://arxiv.or
 * Define the Hurewicz map and prove the Hurewicz theorem. A proof of the Hurewicz theorem in HoTT can be [found here](https://arxiv.org/abs/2007.05833).
  
 * What is the [[loop space of a wedge of circles]] indexed by a set without decidable equality? It is a set, and can be shown to be using the [zigzag construction](https://arxiv.org/abs/2402.12339).
+
+* Treat [[coinductive types]] in HoTT. Part of the problem is that general co-inductive types are not fully understood in ordinary type theory. Using extensionality, we obtain [[M-types]] from W-types. Resolved by Ahrens, Capriotti & Spadotti by defining coinductive types using [[indexed inductive types]]. In addition, coinductive types with typal computation rules can be postulated directly as a homotopy-terminal coalgebra via its [[universal property]] [[axiom schema]] using the [[uniqueness quantifier]]. See also the coinductive types in dependently typed [[programming languages]] such as [[cubical Agda]] and [[Narya]].
