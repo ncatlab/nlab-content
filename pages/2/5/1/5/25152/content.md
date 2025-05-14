@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Definition
@@ -35,7 +45,7 @@ which indicates that the [[dependent sum type]] $\sum_{x:T} P(x)$ is a [[contrac
 
 ### Defining exclusive disjunction
 
-In [[dependent type theory]], given two [[mere propositions]] $P$ and $Q$, by [[descent]] or [[large elimination]] of the [[boolean domain]], one can construct a boolean-indexed family of propositions 
+In [[dependent type theory]], given two [[mere propositions]] $P$ and $Q$, by [[descent]] or [[large elimination]] of the [[type of booleans]], one can construct a boolean-indexed family of propositions 
 
 $$x:\mathrm{bool} \vdash \mathrm{rec}_\mathrm{bool}^{P, Q}(x)$$
 
@@ -79,7 +89,7 @@ Similarly, a [[Tarski universe]] $(U, T)$ is a [[univalent universe]] if for all
 
 $$\mathrm{isUnivalent}(U, T) \coloneqq \forall A:U.\exists! B:U.T(A) \simeq T(B)$$
 
-## See also
+## Related concepts
 
 * [[quantification]]
 
@@ -92,6 +102,10 @@ $$\mathrm{isUnivalent}(U, T) \coloneqq \forall A:U.\exists! B:U.T(A) \simeq T(B)
 * [[generalized the]]
 
 * [[exclusive disjunction]]
+
+## References
+
+* [Uniqueness quantification](https://en.wikipedia.org/wiki/Uniqueness_quantification)
 
 [[!redirects uniquely quantified]]
 
