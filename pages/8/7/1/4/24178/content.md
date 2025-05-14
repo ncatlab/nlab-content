@@ -500,9 +500,9 @@ In this sense, these two collective excitations of the Moore-Read state are pred
 
 ## References
 
-### General
+### For FQH 2D electron systems
 
-The Laughlin wavefunction is due to
+The Laughlin wavefunction as a model for [[ground states]] of [[unit fraction|unit]]-[[fractional quantum Hall systems]] at odd denominator is due to:
 
 * {#Laughlin83} [[Robert B. Laughlin]]: *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
 
@@ -519,7 +519,7 @@ Review:
 
 * [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], Section III.D.2.c (pp. 1125) of: *Non-Abelian Anyons and Topological Quantum Computation*, Rev. Mod. Phys. **80** 1083 (2008) &lbrack;[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889)&rbrack;
 
-* {#Cooper10} Nigel Cooper: *The Moore-Read Quantum Hall State: An Overview*, talk at *[Quantum Phenomena in
+* {#Cooper10} [[Nigel R. Cooper]]: *The Moore-Read Quantum Hall State: An Overview*, talk at *[Quantum Phenomena in
 Low-Dimensional Materials and Nanostructures](https://www.lancaster.ac.uk/users/esqn/windsor10/)*, Windsor (2010) &lbrack;[pdf](https://www.lancaster.ac.uk/users/esqn/windsor10/lectures/cooper.pdf), [[Cooper-MooreReadState.pdf:file]]&rbrack;
 
 * {#Tong16} [[David Tong]], Section 3.1 of: *The Quantum Hall Effect* (2016) &lbrack;[course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
@@ -563,7 +563,7 @@ Critique:
 
 Further fractonalization of quasi-hole states into *Gaffnian states*:
 
-* [[Steven H. Simon]], [[Edward H. Rezayi]], N. R. Cooper, I. Berdnikov: *Construction of a paired wave function for spinless electrons at filling fraction $\nu = 2/5$*, Phys. Rev. B **75** (2007) 075317 &lbrack;[doi:10.1103/PhysRevB.75.075317](https://doi.org/10.1103/PhysRevB.75.075317)&rbrack;
+* [[Steven H. Simon]], [[Edward H. Rezayi]], [[Nigel R. Cooper]], I. Berdnikov: *Construction of a paired wave function for spinless electrons at filling fraction $\nu = 2/5$*, Phys. Rev. B **75** (2007) 075317 &lbrack;[doi:10.1103/PhysRevB.75.075317](https://doi.org/10.1103/PhysRevB.75.075317)&rbrack;
 
 * Bo Yang, Ying-Hai Wu, Zlatko Papic: *Effective Abelian theory from a non-Abelian topological order in $\nu = 2/5$ fractional quantum Hall effect*, Phys. Rev. B **100** (2019) 245303 &lbrack;[arXiv:1907.12572](https://arxiv.org/abs/1907.12572), [doi:10.1103/PhysRevB.100.245303](https://doi.org/10.1103/PhysRevB.100.245303)&rbrack;
 
@@ -574,6 +574,34 @@ Further fractonalization of quasi-hole states into *Gaffnian states*:
 * Byungmin Kang, Joel E. Moore: *The Neutral Excitations in the Gaffnian State*, Phys. Rev. B **95** (2017) 245117 &lbrack;[arXiv:1606.05353](https://arxiv.org/abs/1606.05353), [doi:10.1103/PhysRevB.95.245117](https://doi.org/10.1103/PhysRevB.95.245117)&rbrack;
 
 
+### For FQH Bose-Einstein condensates
+ {#ReferencesForFQHBECs}
+
+
+On Laughlin wavefunctions with [[even number|even]] exponents as describing FQH effects in rotating [[Bose-Einstein condensates]] with repulsive contact interaction:
+
+* N. K. Wilkin, J. M. F. Gunn: *Condensation of “Composite Bosons” in a Rotating BEC*, Phys. Rev. Lett. **84** 6 (2000) &lbrack;[doi:10.1103/PhysRevLett.84.6](https://doi.org/10.1103/PhysRevLett.84.6)&rbrack;
+
+* Nicolas Regnault, Th. Jolicoeur: *Quantum Hall Fractions in Rotating Bose-Einstein Condensates*, Phys. Rev. Lett. **91** (2003) 030402 &lbrack;[doi:10.1103/PhysRevLett.91.030402](https://doi.org/10.1103/PhysRevLett.91.030402)&rbrack;
+  > (also filling fractions $\nu = 2/3$, $3/4$, $4/3$ and $5/4$)
+
+* Nicolas Regnault, Th. Jolicoeur: *Quantum Hall fractions for spinless bosons*, Phys. Rev. B **69** (2004) 235309 &lbrack;[doi:10.1103/PhysRevB.69.235309](https://doi.org/10.1103/PhysRevB.69.235309), [hal:00000939](https://hal.science/hal-00000939)&rbrack;
+  > (the principal series $\nu = p/(p \pm 1)$ of filling fractions)
+
+
+
+
+* [[Nigel R. Cooper]], §2.4.3 in: *Rapidly Rotating Atomic Gases*, Advances in Physics **57** (2008) 539-616 &lbrack;[arXiv:0810.4398](https://arxiv.org/abs/0810.4398), [doi:10.1080/00018730802564122](https://doi.org/10.1080/00018730802564122)&rbrack;
+
+* T. Duric, A. Lazarides, p. 1 of: *Bosonic Fractional Quantum Hall States in Rotating Optical Lattices: Projective Symmetry Group Analysis*, Phys. Rev. B **86** (2012) 115135  &lbrack;[arXiv:1207.2667](https://arxiv.org/abs/1207.2667), [doi:10.1103/PhysRevB.86.115135](https://doi.org/10.1103/PhysRevB.86.115135)&rbrack;
+
+And for bosonic quasiparticles in the hierarchichal construction of FQH in electron gases:
+
+* [[Xiao-Gang Wen]], section 7.3.3 of: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007) &lbrack;[doi:10.1093/acprof:oso/9780199227259.001.0001](https://doi.org/10.1093/acprof:oso/9780199227259.001.0001), [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)&rbrack; 
+
+And for pairs of electrons with opposite spin:
+
+* Philipp Lunt, Paul Hill, Johannes Reiter, Philipp M. Preiss, Maciej Gałka, Selim Jochim: *Realization of a Laughlin state of two rapidly rotating fermions* &lbrack;[arXiv:2402.14814](https://arxiv.org/abs/2402.14814)&rbrack;
 
 
 
