@@ -318,7 +318,7 @@ $$
 ### Booleans
  {#Booleans}
 
-The [[inference rules]] for the type of classical [[truth values]]/[[bits]] (the classical [[boolean domain]]):
+The [[inference rules]] for the [[type of booleans]]:
 
 \linebreak
 
@@ -390,7 +390,7 @@ $$
   }
 $$
 
-See at *[Boolean domain -- In type theory](boolean+domain#InTypeTheory)*
+See at *[[type of booleans]]*
 
 
 \linebreak
