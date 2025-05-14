@@ -75,7 +75,7 @@ A pair of mutually exclusive propositions is **[[stable proposition|stable]]**  
 
 ### Decidable propositions
 
-A pair of mutually exclusive propositions $P$ is **decidable** if $P \sqcup P^\bot = 1$. The type of all decidable pairs of mutually exclusive propositions is equivalent to the [[boolean domain]]
+A pair of mutually exclusive propositions $P$ is **decidable** if $P \sqcup P^\bot = 1$. The type of all decidable pairs of mutually exclusive propositions is equivalent to the [[type of booleans]]
 
 $$\mathrm{bool} \simeq \sum_{P:\Omega_\pm} P \sqcup P^\bot =_{\Omega_\pm} 1$$
 
@@ -89,7 +89,7 @@ The type of mutually exclusive propositions is a [[De Morgan algebra]] where the
 
 ### Excluded middle
 
-Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]], so that the logic becomes [[classical logic]]. Then $\mathrm{Prop}$ is equivalent to the [[boolean domain]] $\mathbb{2}$, and $\mathrm{Prop}_\pm$ is equivalent to the three-element set $\{(\top, \bot), (\bot, \bot), (\bot, \top)\}$ representing the propositions in [[Łukasiewicz logic]]. As a result, the affine predicate logic in the antithesis interpretation becomes predicate Łukasiewicz logic. The affirmative and refutative pairs of mutually exclusive propositions are all decidable. 
+Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]], so that the logic becomes [[classical logic]]. Then $\mathrm{Prop}$ is equivalent to the [[type of booleans]] $\mathbb{2}$, and $\mathrm{Prop}_\pm$ is equivalent to the three-element set $\{(\top, \bot), (\bot, \bot), (\bot, \top)\}$ representing the propositions in [[Łukasiewicz logic]]. As a result, the affine predicate logic in the antithesis interpretation becomes predicate Łukasiewicz logic. The affirmative and refutative pairs of mutually exclusive propositions are all decidable. 
 
 The law of excluded middle can be expressed in the affine logic as 
 
