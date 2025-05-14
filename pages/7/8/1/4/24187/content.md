@@ -27,7 +27,7 @@ _Sphere types_ are the [[axiom|axiomatization]] of the [[homotopy type]] of the 
 ## Definition
  {#Definition}
 
-For $n = 0$, the *[[0-sphere]]*-type is defined to the [[boolean domain]] $\mathbf{2}$ (or "[[Bit]]", see [there](boolean+domain#InHomotopyTypeTheory)):
+For $n = 0$, the *[[0-sphere]]*-type is defined to the [[type of booleans]] $\mathbf{2}$:
 
 \[
   \label{ZeroSphereType}
