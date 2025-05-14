@@ -59,7 +59,7 @@ A **$\sigma$-frame of propositions** consists of
 
 * The [[type of all propositions]], if it exists, is the [[terminal object|terminal]] $\sigma$-frame of propositions. 
 
-* Assuming the [[limited principle of omniscience]], the [[boolean domain]] is a $\sigma$-frame of propositions. 
+* Assuming the [[limited principle of omniscience]], the [[type of booleans]] is a $\sigma$-frame of propositions. 
 
 ## Related concepts
 
