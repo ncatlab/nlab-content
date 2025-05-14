@@ -91,10 +91,13 @@ Textbook accounts:
 
 * [[Alexander L. Fetter]], [[John Dirk Walecka]], *Quantum theory of many-particle systems*, Mcgraw-Hill (1991); Dover (2003) &lbrack;[archive.org](https://archive.org/details/quantum-theory-of-many-particle-systems-by-alexander-l.-fetter-john-dirk-walecka-physics-z-lib.org/mode/thumb)&rbrack; 
 
-* {#Roessler04} [[Ulrich Rößler]], _Solid State Theory: An Introduction_, Springer (2004, 2009) $[$[doi:10.1007/978-3-540-92762-4](https://link.springer.com/book/10.1007/978-3-540-92762-4)$]$
+* {#Roessler04} [[Ulrich Rößler]], _Solid State Theory: An Introduction_, Springer (2004, 2009) &lbrack;[doi:10.1007/978-3-540-92762-4](https://link.springer.com/book/10.1007/978-3-540-92762-4)&rbrack;
 
 
 In terms of ([[effective quantum field theory|effective]]) [[quantum field theory]]:
+
+* [[Xiao-Gang Wen]]: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007) &lbrack;[doi:10.1093/acprof:oso/9780199227259.001.0001](https://doi.org/10.1093/acprof:oso/9780199227259.001.0001), [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)&rbrack; 
+  > (with an eye towards [[topological phases of matter]] and [[topological order]], such as in [[fractional quantum Hall systems]])
 
 * [[Eduardo Fradkin]]: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
 
