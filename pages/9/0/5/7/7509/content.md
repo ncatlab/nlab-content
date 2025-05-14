@@ -20,7 +20,7 @@ In [[dependent type theory]], what is traditionally called the _dependent sum ty
 
 In the [[categorical semantics]] [[categorical model of dependent type theory|of dependent type theory]] in [[fibration categories]], the dependent sum corresponds to internal [[coproducts]] over an index type.
 
-In the special case that $C_d \,=\, C$ is independent of $A$ this reduces to the [[product type]] $D \times C$, while in the special case that $D =$ [[boolean domain|Bool]] it reduces to a binary [[coproduct]].
+In the special case that $C_d \,=\, C$ is independent of $A$ this reduces to the [[product type]] $D \times C$, while in the special case that $D =$ [[type of booleans|Bool]] it reduces to a binary [[coproduct]].
 
 This notion is dual (in fact: adjoint) to the corresponding notion of [[dependent product type]]:
 
