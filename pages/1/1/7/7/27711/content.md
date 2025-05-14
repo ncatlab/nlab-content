@@ -27,11 +27,11 @@ Binary bridge types behave like [[identity types]] but without [[transport]].
 
 ## Univalence axiom
 
-* The [[univalence axiom]] of a [[type universe]] $U$ for nullary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U$ and the type of types $1 \to U$. 
+* The [[univalence axiom]] of a [[type universe]] $U$ for nullary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U$ and the type of types $U$. 
 
 * The [[univalence axiom]] of a [[type universe]] $U$ for unary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A)$ and the type of type families $A \to U$. 
 
-* The [[univalence axiom]] of a [[type universe]] $U$ for binary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A, B)$ and the type of correspondences $(A \times B) \to U$. 
+* The [[univalence axiom]] of a [[type universe]] $U$ for binary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A, B)$ and the type of correspondences $A \to B \to U$. 
 
 ## Related concepts
 
@@ -40,6 +40,8 @@ Binary bridge types behave like [[identity types]] but without [[transport]].
 * [[identity type]]
 
 * [[hom type]]
+
+* [[displayed coinductive type]]
 
 * [[cubical type theory]]
 
