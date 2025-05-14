@@ -23,7 +23,7 @@ $$\mathrm{in}_B:B \to B \sqcup_{A}^{f, g} C$$
 $$\mathrm{in}_C:C \to B \sqcup_{A}^{f, g} C$$
 $$\mathrm{glue}:\prod_{x:A} \mathrm{in}(f(x)) = \mathrm{in}(g(x))$$
 
-However, by using large elimination for the [[boolean domain]] $\mathrm{bool}$ on the codomain of the functions and by using the induction principle for the boolean domain on the functions themselves, one has a family of functions
+However, by using large elimination for the [[type of booleans]] $\mathrm{bool}$ on the codomain of the functions and by using the induction principle for the type of booleans on the functions themselves, one has a family of functions
 
 $$\mathrm{ind}_\mathrm{bool}(f, g):\prod_{b:\mathrm{bool}} A \to \mathrm{rec}_\mathrm{bool}(B, C, b)$$
 
@@ -60,7 +60,7 @@ $$\mathrm{in}:\prod_{b:\mathrm{bool}} B(b) \to (B(0) \sqcup_A^{f(0), f(1)} B(1))
 $$\mathrm{gluehubs}:A \to (B(0) \sqcup_A^{f(0), f(1)} B(1))$$
 $$\mathrm{gluespokes}:\prod_{x:A} \prod_{b:\mathrm{bool}} \mathrm{in}(b, f(b, x)) = \mathrm{gluehubs}(x)$$
 
-By generalizing this definition of binary pushouts from the boolean domain to any arbitrary type, one gets general dependent pushouts of an arbitrary family of functions with [[domain]] $A$, which are also known as *[[wide pushouts]]* in [[category theory]]. 
+By generalizing this definition of binary pushouts from the type of booleans to any arbitrary type, one gets general dependent pushouts of an arbitrary family of functions with [[domain]] $A$, which are also known as *[[wide pushouts]]* in [[category theory]]. 
 
 ## Definition
 
