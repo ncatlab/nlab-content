@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Semi-simplicial sets
 * table of contents
 {:toc}
@@ -27,7 +26,6 @@ Let $\Delta$ denote the [[simplex category]], which is a [[skeleton]] of the [[c
 Recall that a [[simplicial set]] is a [[presheaf]] $X\colon \Delta^{op}\to Set$.  Similarly, a **semi-simplicial set** is a presheaf $X\colon \Delta_+^{op} \to Set$.
 
 More generally, for $\mathcal{C}$ any other category, a functor $\Delta_+^{op} \to \mathcal{C}$ is a _[[semi-simplicial object]]_ in $\mathcal{C}$.
-
 
 ## Properties
 
@@ -160,6 +158,38 @@ Note also the existence of an alternative terminology "presimplicial sets", or "
 
 Similarly, the subcategory of injective functions of the simplex category was written $\Delta$ at some time of the history (e.g. in [Rourke & Sanderson 71](#RourkeSanderson71)) but this is now the standard notation for the [[simplex category]]. In the more recent history, different notations can be found but none seems to be widely adopted. $\Delta_+$ emphasizes that it is the subcategory of $\Delta$ that raise the degree when $\Delta$ is seen as a [[Reedy category]] but the $+$ may also ambiguously suggests that it adds something to $\Delta$. The notation $\Delta_{inj}$  emphasizes that it is the subcategory of injective morphisms of $\Delta$. Similarly for $\Delta_i$ though less explicitly. The notation $\widehat{\Delta}$ (e.g. in [Friedman](#Friedman12)) has the risk of introducing a confusion for readers used with the hat notation for presheaves. The notation $\Delta'$ and $\overline{\Delta}$ (e.g. in [[Sina Hazratpour]]) express that it is a variant of $\Delta$ but without giving precisions.
 
+## Indexed semi-simplicial sets
+
+Classically, a semi-simplicial set is a [[presheaf]] on the category $\Delta_i$, of finite nonempty ordinals and just [[injections]] between them as [[morphisms]]. However, in [[dependent type theory]], by iterating the [[categorical semantics of dependent types|correspondence between fibrations and families]], there is a second way of representing semi-simplicial types: not as a contravariant functor but as a family of families. This can be called "indexed" presentation of semi-simplicial types based on "iterated dependencies".
+
+To illustrate the idea of *indexed semi-simplicial sets* as families of families of $n$-semi-simplices, let us consider the finite-dimensional parts of such semi-simplicial set. 
+
+Let $\mathrm{Set}$ be a [[category of sets]]. Then, 
+
+* A $\mathrm{Set}$-small 0-semi-simplicial set is just a $\mathrm{Set}$-small set $X_0:\mathrm{Set}$.
+
+* A $\mathrm{Set}$-small 1-semi-simplicial set is a $\mathrm{Set}$-small 0-semi-simplicial set $X_0$ with a family of $\mathrm{Set}$-small sets 
+$$x_0:X_0, x_1:X_0 \vdash X_1(x_0, x_1):\mathrm{Set}$$
+
+* A $\mathrm{Set}$-small 2-semi-simplicial set is a $\mathrm{Set}$-small 1-semi-simplicial set $(X_0, X_1)$ with a family of $U$-small set
+$$x:X_0, x_1:X_0, x_2:X_0, x_{0, 1}:X_1(x_0, x_1), x_{1, 2}:X_1(x_1, x_2), x_{0, 2}:X_1(x_0, x_2) \vdash X_2(x_0, x_1, x_2, x_{0, 1}, x_{1, 2}, x_{0, 2}):\mathrm{Set}$$
+representing triangular configurations from $X_0$ and $X_1$. 
+
+* A $\mathrm{Set}$-small 3-semi-simplicial set is a $\mathrm{Set}$-small 2-semi-simplicial set $(X_0, X_1, X_2)$ with a family of $\mathrm{Set}$-small sets 
+$$\begin{array}{l}
+x:X_0, x_1:X_0, x_2:X_0, x_3:X_0, \\
+x_{0, 1}:X_1(x_0, x_1), x_{1, 2}:X_1(x_1, x_2), x_{2, 3}:X_1(x_2, x_3), \\ 
+x_{0, 2}:X_1(x_0, x_2), x_{1, 3}:X_1(x_1, x_3), x_{0, 3}:X_1(x_0, x_3), \\ 
+x_{0, 1, 2}:X_2(x_0, x_1, x_2, x_{0, 1}, x_{1, 2}, x_{0, 2}), x_{0, 1, 3}:X_2(x_0, x_1, x_3, x_{0, 1}, x_{1, 3}, x_{0, 3}), \\
+x_{0, 2, 3}:X_2(x_0, x_2, x_3, x_{0, 2}, x_{2, 3}, x_{0, 3}), x_{1, 2, 3}:X_2(x_1, x_2, x_3, x_{1, 2}, x_{2, 3}, x_{1, 3}), \\
+\vdash X_2(x_0, x_1, x_2, x_3, x_{0, 1}, x_{1, 2}, x_{2, 3}, x_{0, 2}, x_{1, 3}, x_{0, 3}, x_{0, 1, 2}, x_{0, 1, 3}, x_{0, 2, 3}, x_{1, 2, 3}):\mathrm{Set}
+\end{array}$$
+representing tetrahedral configurations from $X_0$, $X_1$ and $X_2$. 
+
+And so on. Then a $\mathrm{Set}$-small semi-simplicial type (i.e. infinity-semi-simplicial sets) should be a set that is an $\mathrm{Set}$-small $n$-semi-simplicial set for all $n$. 
+
+[[Hugo Herbelin]] worked at the IAS on a formalization in [[Coq]] based on the presentation of $\Delta_i$ with face maps $d_i$. In [Herbelin (2014)](#Herbelin14) he describes the construction in [[Coq]] assuming that the types in every [[type universe]] satisfy [[uniqueness of identity proofs]] (UIP), which implies that every type is a [[set]]. What the construction shows is how to define in all details such alternative presentation of semi-simplicial sets based on iterated dependencies, what can also be seen as an effective and generic construction of [[Reedy model structure|matching object]] representatives in a semi-simplicial set.
+
 ## Related concepts
 
 * [[simplicial object]]
@@ -204,10 +234,6 @@ See also the references at _[[semi-simplicial object]]_ and:
 * MO, _[Semi-simplicial versus simplicial sets (and simplicial categories)](http://mathoverflow.net/questions/75094/semi-simplicial-versus-simplicial-sets-and-simplicial-categories)_
     _[Degeneracies for semi-simplicial Kan complexes](http://mathoverflow.net/questions/57653/degeneracies-for-semi-simplicial-kan-complexes/)_
 
-In [[homotopy type theory]]:
-
-* [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Nicolai Kraus]], _Extending Homotopy Type Theory with Strict Equality_, CSL 2016, [arXiv](http://arxiv.org/abs/1604.03799)
-
 On the [[model structure on semi-simplicial sets]]:
 
 * [[Benno van den Berg]], _A note on semisimplicial sets_, 2013 ([[vandenBerg_SemisimplicialSets.pdf:file]])
@@ -226,13 +252,47 @@ as a [[fibration category]] and [[cofibration category]]:
 
 on the lattice of [[Lawvere-Tierney topology|Lawvere-Tierney topologies]]:
 
-* {#RHE24}A. Rosset, H. H. Hansen, J. Endrullis, _Characterisation of Lawvere-Tierney Topologies on Simplicial Sets, Bicolored Graphs, and Fuzzy Sets_, arXiv:2407.04535 (2024). ([abstract](https://arxiv.org/abs/2407.04535))  
+* {#RHE24}A. Rosset, H. H. Hansen, J. Endrullis, _Characterisation of Lawvere-Tierney Topologies on Simplicial Sets, Bicolored Graphs, and Fuzzy Sets_, arXiv:2407.04535 (2024). ([abstract](https://arxiv.org/abs/2407.04535)) 
 
+### In dependent type theory
 
+* {#Herbelin14} [[Hugo Herbelin]], *A dependently-typed construction of semi-simplicial types*, Mathematical Structures in Computer Science, Vol 25 (special issue 05), 2015 &lbrack;[pdf](http://pauillac.inria.fr/~herbelin/articles/mscs-Her14-semisimplicial.pdf), [[Herbelin-SemiSimplicial.pdf:file]]&rbrack; &lbrack;Coq [code](http://pauillac.inria.fr/~herbelin/articles/semisimplicial.v)&rbrack;
+
+* [[Thorsten Altenkirch]], [[Paolo Capriotti]], [[Nicolai Kraus]], _Extending Homotopy Type Theory with Strict Equality_, CSL 2016, [arXiv](http://arxiv.org/abs/1604.03799)
+
+The original page about [[semi-simplicial types]] on the wiki of the Univalent Foundations year contained also material related to semi-simplicial sets in general though not to semi-simplicial types properly speaking. It is kept here for historical reasons.
+
+**Update 4/12**: [A note on semisimplicial sets](https://ncatlab.org/ufias2012/files/semisimplicialsets.pdf) by Benno van den Berg.
+
+**Update 4/15**: [A note on a presheaf model for simplicial sets](https://ncatlab.org/ufias2012/files/countermodel.pdf) by Marc Bezem and Thierry Coquand.
+
+**Update 6/24**: Accompanying files to Update 4/15:
+
+* [CL.pl](https://ncatlab.org/ufias2012/files/CL.pl), the prover for coherent logic (requires [SWI-Prolog](http://www.swi-prolog.org/))
+* [X.in](https://ncatlab.org/ufias2012/files/X.in), a formalization of the model in coherent logic
+* [X.model](https://ncatlab.org/ufias2012/files/X.model), the edges, fill1 and fill2, day by day, generated by the prover from input X.in.
+* [X.v](https://ncatlab.org/ufias2012/files/X.v), a Coq script verifying the proof that no homotopy equivalence between the fibers can exist in the model.
+
+[[!redirects Delta set]]
+[[!redirects Delta sets]]
+
+[[!redirects semi-simplicial set]]
 [[!redirects semi-simplicial sets]]
 [[!redirects semisimplicial set]]
 [[!redirects semisimplicial sets]]
 
+[[!redirects indexed semi-simplicial set]]
+[[!redirects indexed semi-simplicial sets]]
+[[!redirects indexed semisimplicial set]]
+[[!redirects indexed semisimplicial sets]]
 
-[[!redirects Delta set]]
-[[!redirects Delta sets]]
+[[!redirects semi-simplicial set in homotopy type theory]]
+[[!redirects semi-simplicial sets in homotopy type theory]]
+[[!redirects semisimplicial set in homotopy type theory]]
+[[!redirects semisimplicial sets in homotopy type theory]]
+
+[[!redirects semi-simplicial set in dependent type theory]]
+[[!redirects semi-simplicial sets in dependent type theory]]
+[[!redirects semisimplicial set in dependent type theory]]
+[[!redirects semisimplicial sets in dependent type theory]]
+
