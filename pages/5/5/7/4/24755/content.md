@@ -72,9 +72,9 @@ $$A / \sum_{z:B} (s(z) =_A -) \times (t(z) =_A -)$$
 $$T + T \coloneqq \mathrm{coeq}_{\emptyset, T}(\mathrm{rec}_\emptyset^T, \mathrm{rec}_\emptyset^T)$$
 * The [[circle type]] is the coequalizer of any two [[endofunctions]] $f:C \to C$ and $g:C \to C$ on a [[contractible type]] $C$. 
 $$S^1 \coloneqq \mathrm{coeq}_{C, C}(f, g) \quad \mathrm{given} \quad p:\mathrm{isContr}(C)$$
-* The [[interval type]] is the coequalizer of the [[constant functions]] with value $\mathrm{false}$ and $\mathrm{true}$ from any [[contractible type]] $C$ to the [[boolean domain]].
+* The [[interval type]] is the coequalizer of the [[constant functions]] with value $\mathrm{false}$ and $\mathrm{true}$ from any [[contractible type]] $C$ to the [[type of booleans]].
 $$\mathbb{I} \coloneqq \mathrm{coeq}_{C, \mathrm{bool}}(\mathrm{const}_{C, \mathrm{bool}}(\mathrm{false}). \mathrm{const}_{C, \mathrm{bool}}(\mathrm{true})) \quad \mathrm{given} \quad p:\mathrm{isContr}(C)$$
-* More generally, the [[suspension]] of a type $T$ is the coequalizer of the constant functions with value $\mathrm{false}$ and $\mathrm{true}$ from $T$ to the [[boolean domain]].
+* More generally, the [[suspension]] of a type $T$ is the coequalizer of the constant functions with value $\mathrm{false}$ and $\mathrm{true}$ from $T$ to the [[type of booleans]].
 $$\Sigma T \coloneqq \mathrm{coeq}_{T, \mathrm{bool}}(\mathrm{const}_{T, \mathrm{bool}}(\mathrm{false}). \mathrm{const}_{T, \mathrm{bool}}(\mathrm{true}))$$
 * The [[cyclic group]] of [[order]] $n + 1$ for natural number $n:\mathbb{N}$ is the coequalizer of the constant functions with value $0$ and $n + 1$ from any [[contractible type]] $C$ to the [[natural numbers type]]. 
 $$\mathbb{Z}_{n + 1} \coloneqq \mathrm{coeq}_{C, \mathbb{N}}(\mathrm{const}_{C, \mathbb{N}}(0), \mathrm{const}_{C, \mathbb{N}}(n + 1)) \quad \mathrm{given} \quad p:\mathrm{isContr}(C)$$
