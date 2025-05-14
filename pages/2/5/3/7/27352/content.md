@@ -58,7 +58,7 @@ Early review:
 
 Further review and exposition:
 
-* [[Xiao-Gang Wen]]: *Effective theory of fractional quantum Hall liquids*, section 7.3 of: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007)\[<a href="https://doi.org/10.1093/acprof:oso/9780199227259.001.0001">doi:10.1093/acprof:oso/9780199227259.001.0001</a>, [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)\] 
+* {#Wen07} [[Xiao-Gang Wen]]: *Effective theory of fractional quantum Hall liquids*, section 7.3 of: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007)\[<a href="https://doi.org/10.1093/acprof:oso/9780199227259.001.0001">doi:10.1093/acprof:oso/9780199227259.001.0001</a>, [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)\] 
 
 * [[Yuan-Ming Lu]], [[Ashvin Vishwanath]], part II of: *Theory and classification of interacting integer topological phases in two dimensions: A Chern-Simons approach*, Phys. Rev. B **86** (2012) 125119, Erratum Phys. Rev. B **89** (2014) 199903 \[<a href="https://doi.org/10.1103/PhysRevB.86.125119">doi:10.1103/PhysRevB.86.125119</a>, [arXiv:1205.3156](https://arxiv.org/abs/1205.3156)\]
 
