@@ -26,11 +26,11 @@ The **axiom of punctual cohesion** or **axiom C1** states that there is a [[poin
 ## Properties
 
 \begin{theorem}
-The [[boolean domain]] $\mathbb{2}$ is discrete.
+The [[type of booleans]] $\mathbb{2}$ is discrete.
 \end{theorem}
 
 \begin{proof}
-Theorem 6.19 of [Shulman 18](#Shulman18) says that the [[unit type]] is crisply discrete, and theorem 6.21 of [Shulman 18](#Shulman18) says that the [[sum type]] of two crisply discrete types is itself crisply discrete. Since the boolean domain is the [[sum type]] of two copies of the unit type, the boolean domain is crisply discrete, thus discrete.  
+Theorem 6.19 of [Shulman 18](#Shulman18) says that the [[unit type]] is crisply discrete, and theorem 6.21 of [Shulman 18](#Shulman18) says that the [[sum type]] of two crisply discrete types is itself crisply discrete. Since the type of booleans is the [[sum type]] of two copies of the unit type, the type of booleans is crisply discrete, thus discrete.  
 \end{proof}
 
 \begin{theorem}
@@ -46,7 +46,7 @@ Assuming crisp [[excluded middle]] and punctual cohesion, the [[limited principl
 \end{theorem}
 
 \begin{proof}
-Since the [[natural numbers]] $\mathbb{N}$ and the [[boolean domain]] $\mathbb{2}$ are discrete, the function type $\mathbb{N} \to \mathbb{2}$ is also discrete by [[axiom C0]], so we may assume that any function $f:\mathbb{N} \to \mathbb{2}$ is crisp. Then the [[existential quantifier]] on $\exists x:A.f(x) = 1$
+Since the [[natural numbers]] $\mathbb{N}$ and the [[type of booleans]] $\mathbb{2}$ are discrete, the function type $\mathbb{N} \to \mathbb{2}$ is also discrete by [[axiom C0]], so we may assume that any function $f:\mathbb{N} \to \mathbb{2}$ is crisp. Then the [[existential quantifier]] on $\exists x:A.f(x) = 1$
 is crisp, so by crisp excluded middle, we have $\exists x:A.f(x) = 1$ or $\neg \exists x:A.f(x) = 1$. But $\neg \exists x:A.f(x) = 1$ is just $\forall x:A.f(x) = 0$, so we are done. 
 \end{proof}
 
