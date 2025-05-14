@@ -32,6 +32,8 @@ As a result, higher [[coinductive]] types typically require context modification
 
 * [[coinductive type]]
 
+* [[displayed coinductive type]]
+
 * [[higher inductive type]]
 
 * [[higher observational type theory]]
