@@ -13,6 +13,7 @@ Interview on [[topological order]]:
 
 * [[Philip Ball]], *Making the world from topological order*, National Science Review **6** 2 (2019) 227–230 $[$[doi:10.1093/nsr/nwy116](https://doi.org/10.1093/nsr/nwy116)$]$
 
+
 ## Selected writings
 
 Introducing and developing the notion of [[topological order]]:
@@ -89,14 +90,13 @@ On ground state degeneracy ([[topological order]]) of [[topological phases of ma
 
 On understanding generalized [[Laughlin wavefunctions]] as [[conformal blocks]]:
 
-* B. Blok, [[Xiao-Gang Wen]], *Many-body systems with non-abelian statistics*, Nuclear Physics B **374** 3 (1992) 615-646 $[$<a href="https://doi.org/10.1016/0550-3213(92)90402-W">doi:10.1016/0550-3213(92)90402-W</a>$]$
+* B. Blok, [[Xiao-Gang Wen]], *Many-body systems with non-abelian statistics*, Nuclear Physics B **374** 3 (1992) 615-646 &lbrack;<a href="https://doi.org/10.1016/0550-3213(92)90402-W">doi:10.1016/0550-3213(92)90402-W</a>&rbrack;
 
-
-* [[Xiao-Gang Wen]], Yong-Shi Wu, *Chiral operator product algebra hidden in certain fractional quantum Hall wave functions*, Nucl. Phys. B **419** (1994) 455-479 $[$<a href="https://doi.org/10.1016/0550-3213(94)90340-9">doi:10.1016/0550-3213(94)90340-9</a>$]$
+* [[Xiao-Gang Wen]], Yong-Shi Wu, *Chiral operator product algebra hidden in certain fractional quantum Hall wave functions*, Nucl. Phys. B **419** (1994) 455-479 &lbrack;<a href="https://doi.org/10.1016/0550-3213(94)90340-9">doi:10.1016/0550-3213(94)90340-9</a>&rbrack;
 
 Suggestion that [[topological order]] goes along with [[long-range entanglement]]:
 
-* {#ChenGuWen2010} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], Section V of: _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B **82** 155138 (2010) $[$[arXiv:1004.3835](http://arxiv.org/abs/1004.3835)$]$ 
+* {#ChenGuWen2010} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], Section V of: _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B **82** 155138 (2010) &lbrack;[arXiv:1004.3835](http://arxiv.org/abs/1004.3835)&rbrack;
 
 
 On the [[quantum adiabatic theorem]] in the context of [[topological phases of matter]]:
@@ -106,7 +106,7 @@ On the [[quantum adiabatic theorem]] in the context of [[topological phases of m
 
 Introducing [[string-net models]] and the [[Levin-Wen model]]:
 
-* [[Michael Levin]], [[Xiao-Gang Wen]], _String-net condensation: A physical mechanism for topological phases_, Phys.Rev. B71 (2005) 045110 ([arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617))
+* [[Michael Levin]], [[Xiao-Gang Wen]], _String-net condensation: A physical mechanism for topological phases_, Phys.Rev. B71 (2005) 045110 &lbrack;[arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617)&rbrack;
 
 
 Introducing the [[3d toric code]]:
@@ -117,7 +117,12 @@ Introducing the [[3d toric code]]:
 
 Introducing [[topological entanglement entropy]] in view of [[string-net models]]:
 
-* [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett., 96, 110405 (2006) ([arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613))
+* [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett. **96** 110405 (2006) &lbrack;[arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613)&rbrack;
+
+On [[effective field theory|effective]] [[quantum field theory]] for [[solid state physics]] (with an eye towards [[topological phases of matter]] and [[topological order]], such as in [[fractional quantum Hall systems]]):
+
+* [[Xiao-Gang Wen]]: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007) &lbrack;[doi:10.1093/acprof:oso/9780199227259.001.0001](https://doi.org/10.1093/acprof:oso/9780199227259.001.0001), [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)&rbrack; 
+
 
 Introducing the notion of [[symmetry protected topological phases]]:
 
