@@ -97,7 +97,7 @@ $$
 
 the Laughlin Ansatz needs modification, since here the even power of the [[Vandermonde determinant]] would be symmetric under particle exchange and hence not describe the intended [[Fermions]].
 
-A further educated guess suggests to multiply, at even filling fraction, the Laughlin wavefunction by some other factor which *is* skew-symmetric in the particule positions. The *Moore-Read wavefunction* &lbrack;[Moore & Read 1991 (5.1)](#MooreRead91)&rbrack; is the result of choosing this factor to be the *[[Pfaffian]]* $pf(-)$ of the [[matrix]] of inverse [[distances]] between pairs of particles 
+A further educated guess suggests to multiply, at even filling fraction, the Laughlin wavefunction by some other factor which *is* skew-symmetric in the particle positions. The *Moore-Read wavefunction* &lbrack;[Moore & Read 1991 (5.1)](#MooreRead91)&rbrack; is the result of choosing this factor to be the *[[Pfaffian]]* $pf(-)$ of the [[matrix]] of inverse [[distances]] between pairs of particles 
 
 > (For the [[Pfaffian]] to be defined in this situation, we must consider an [[even number]] $N$ of electrons. But in the practice of the [[fractional quantum Hall effect]], $N$ is a humongous "macroscopic" number on the scale of the [[Avogadro constant]], and hence may be assumed to be [[even number|even]] without any conceivable restriction of practical generality.)
 
