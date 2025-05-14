@@ -23,3 +23,6 @@ lens of homology.
 9. [[Julie Bergner]] and Walker Stern: Cyclic 2-Segal spaces.  [arXiv](https://arxiv.org/abs/2409.11945).
 
 10. Imma Gálvez-Carrillo, [[Joachim Kock]], [[Andrew Tonks]]: Decomposition spaces in combinatorics.  [arXiv](https://arxiv.org/abs/1612.09225).
+
+
+category: reference
