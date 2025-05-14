@@ -58,7 +58,7 @@ The simplicially discrete types are the types which are cohesively discrete: giv
 
 ## Examples
 
-The [[unit type]], the [[empty type]], the [[boolean domain]], the [[natural numbers type]], and the [[circle type]] are all simplicially discrete. 
+The [[unit type]], the [[empty type]], the [[type of booleans]], the [[natural numbers type]], and the [[circle type]] are all simplicially discrete. 
 
 ## Categorical semantics
 
