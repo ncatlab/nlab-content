@@ -99,7 +99,7 @@ $$
   \,,
 $$
 
-where $B^A$ is the [[function set]] with [[domain]] $A$ and [[codomain]] $B$ and $\mathbb{2}$ is the two-element set (the classical [[boolean domain]]), and the predicate $\mathrm{isBijection}(f)$ on the function set $f \in B^A$ is defined as 
+where $B^A$ is the [[function set]] with [[domain]] $A$ and [[codomain]] $B$ and $\mathbb{2}$ is the [[type of booleans]], and the predicate $\mathrm{isBijection}(f)$ on the function set $f \in B^A$ is defined as 
 $$\mathrm{isBijection}(f) \coloneqq \forall y \in B.\exists!x \in A.f(x) = y$$
 
 This results in **binomial sets**. 
