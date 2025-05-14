@@ -252,8 +252,8 @@ Suppose that there is a univalent Tarski universe closed under dependent product
 \begin{proof}
 The type of all $U$-small propositions $\mathrm{Prop}_U$ is a [[sigma-frame|$\sigma$-frame]], and thus the homotopy-initial $\sigma$-frame $\Sigma$ is a sub-$\sigma$-frame of $\mathrm{Prop}_U$, with the following [[embedding of types]]
 $$\mathrm{bool} \hookrightarrow \Sigma \hookrightarrow \mathrm{Prop}_U$$
-The first embedding is a [[uniqueness quantifier|unique]] [[distributive lattice]] [[homomorphism]], since the boolean domain is the homotopy-initial distributive lattice, and the second embedding is a [[uniqueness quantifier|unique]] $\sigma$-frame homomorphism, by definition of homotopy-initial $\sigma$-frame.
-Excluded middle for $U$ implies that $\mathrm{Prop}_U$ is [[equivalence of types|equivalent]] to the [[boolean domain]] and to $\Sigma$, implying that the boolean domain is the initial [[sigma-frame|$\sigma$-frame]], which then implies $\mathrm{LPO}_\mathbb{N}$. 
+The first embedding is a [[uniqueness quantifier|unique]] [[distributive lattice]] [[homomorphism]], since the type of booleans is the homotopy-initial distributive lattice, and the second embedding is a [[uniqueness quantifier|unique]] $\sigma$-frame homomorphism, by definition of homotopy-initial $\sigma$-frame.
+Excluded middle for $U$ implies that $\mathrm{Prop}_U$ is [[equivalence of types|equivalent]] to the [[type of booleans]] and to $\Sigma$, implying that the type of booleans is the initial [[sigma-frame|$\sigma$-frame]], which then implies $\mathrm{LPO}_\mathbb{N}$. 
 \end{proof}
 
 ### Choice
@@ -418,7 +418,7 @@ Every [[concrete category]] and every [[concrete dagger category]] is a Tarski u
 
 ### Other examples
 
-The [[empty type]], [[unit type]], [[boolean domain]], and [[FinSet]] are all regular univalent Tarski universes. The [[types of propositions]] in a type theory are univalent Tarski universes: they model a dependent type theoretic model of [[propositional logic]] with [[function types]], [[product types]], [[disjunction]] [[higher inductive types]], [[empty type]], and [[unit type]]. 
+The [[empty type]], [[unit type]], [[type of booleans]], and [[FinSet]] are all regular univalent Tarski universes. The [[types of propositions]] in a type theory are univalent Tarski universes: they model a dependent type theoretic model of [[propositional logic]] with [[function types]], [[product types]], [[disjunction]] [[higher inductive types]], [[empty type]], and [[unit type]]. 
 
 ## See also
 
