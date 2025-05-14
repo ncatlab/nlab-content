@@ -44,7 +44,7 @@ Let $E$ and $F$ be [[Banach spaces]] with [[norms]] ${\|\cdot\|_E}$ and ${\|\cdo
 Let $U \subseteq E$ be an open subset.
 A (possibly non-linear) function $f \colon U \to F$ is said to be **Fr&#233;chet differentiable** at $x \in U$ if there is a continuous linear operator $A_x \colon E \to F$ such that:
 $$
-\lim_{h \to 0} \frac{\|f(x + h) - f(x) - A_x h\|_F}{\|h\|_F} = 0
+\lim_{h \to 0} \frac{\|f(x + h) - f(x) - A_x h\|_F}{\|h\|_E} = 0
 $$
 
 The operator $A_x$ is called the **Fr&#233;chet derivative** of $f$ at $x$ and is written $D f_x$ or $D f(x)$.
