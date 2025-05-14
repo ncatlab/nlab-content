@@ -232,7 +232,7 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 ### Review
 
 
-* {#Wen91Review} [[Xiao-Gang Wen]], *Topological orders and Chern-Simons theory in strongly correlated quantum liquid*,  International Journal of Modern Physics B **05** 10 (1991)  1641-1648 $[$[doi:10.1142/S0217979291001541](https://doi.org/10.1142/S0217979291001541)$]$
+* {#Wen91Review} [[Xiao-Gang Wen]], *Topological orders and Chern-Simons theory in strongly correlated quantum liquid*,  International Journal of Modern Physics B **05** 10 (1991)  1641-1648 &lbrack;[doi:10.1142/S0217979291001541](https://doi.org/10.1142/S0217979291001541)&rbrack;
 
 * [[Jason Alicea]], [[Matthew Fisher]], [[Marcel Franz]], [[Yong-Baek Kim]],  *Strongly Interacting Topological Phases*, report on Banff workshop [15w5051](http://www.birs.ca/events/2015/5-day-workshops/15w5051) (2015) &lbrack;[pdf](https://www.birs.ca/workshops/2015/15w5051/report15w5051.pdf), [[AliceaEtAl-InteractingTopPhases.pdf:file]]&rbrack;
 
@@ -240,6 +240,9 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 
 
 Textbook accounts:
+
+* {#Wen2007} [[Xiao-Gang Wen]]: *Topological and quantum order*, chapter 8 in: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007) &lbrack;[doi:10.1093/acprof:oso/9780199227259.001.0001](https://doi.org/10.1093/acprof:oso/9780199227259.001.0001), [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)&rbrack; 
+
 
 * {#ZCZW19} [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
 
