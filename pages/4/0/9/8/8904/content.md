@@ -19,18 +19,11 @@ A _semi-simplicial object_ is like a [[simplicial object]], but without degenera
 
 ## Definition
 
-### In terms of functors
-
 For $\mathcal{C}$ a [[category]] or [[(∞,1)-category]], a semi-simplicial object $X$ in $\mathcal{C}$ is a [[functor]] or [[(∞,1)-functor]]
 $$
   X \colon \Delta_+^{op}  \to \mathcal{C}
 $$
 from $\Delta_+$, the [[wide subcategory]] of the [[simplex category]] on the injective functions (the co-face maps).
-
-### In homotopy type theory
- {#InHomotopyTypeTheory}
-
-One may try to formulate semi-simplicial [[types]] in [[homotopy type theory]]. See *[[semi-simplicial types in homotopy type theory]]* and see the discussion at ([IAS](#IAS)).
 
 ## Properties
 
@@ -47,7 +40,7 @@ As opposed to the [[simplex category]] $\Delta$, the subcategory $\Delta_+$ is a
 
 * in [[SimplicialSets]]: [[semi-Segal space]] (if extra conditions are met)
 
-* in [[type theory]]: [[homotopytypetheory:semi-simplicial types]]
+* in [[type theory]]: [[semi-simplicial types]]
 
 ## Related concepts
 
@@ -61,16 +54,16 @@ As opposed to the [[simplex category]] $\Delta$, the subcategory $\Delta_+$ is a
 
   * [[semisimplicial set]]
 
+  * [[semi-simplicial type]]
+
 * [[semi-category]]
 
   * [[semi-Segal space]]
 
-* [[Homotopy Type System]] ("HTS")
-
 ## References
  {#References}
 
-> For more references see also at _[[semi-simplicial set]]_ and _[[semi-Segal space]]_.
+> For more references see also at _[[semi-simplicial set]]_, _[[semi-Segal space]]_, and _[[semi-simplicial type]]_.
 
 ### Semi-simplicial bundles
 
@@ -80,38 +73,11 @@ Discussion of semi-simplicial [[fiber bundles]] is in
 
 * S. Weingram, _The realization of a semisimplicial bundle map is a $k$-bundle map_ ([pdf](http://www.ams.org/journals/tran/1967-127-03/S0002-9947-1967-0231382-7/S0002-9947-1967-0231382-7.pdf))
 
-### In homotopy type theory
- {#ReferencesInHomotopyTypeTheory}
-
-Discussion of formulation of semsiplicial [[types]] in the context of [[homotopy type theory]] (for use as discussed at _[[category object in an (infinity,1)-category]]_) is in
-
-* {#IAS} [[UF-IAS-2012]], _[Semi-simplicial types](https://web.archive.org/web/20180728221737/http://uf-ias-2012.wikispaces.com/Semi-simplicial+types)_
- 
-[[Coq]]-code for semi-simplicial types in [[homotopy type theory]] had been proposed in
-
-* [[Vladimir Voevodsky]], _[[Voevodsky-semisimplicial.txt:file]]_
-
-but its execution requires augmenting [[homotopy type theory]] with an auxilirary [[extensional type theory|extensional]] [[identity type]], discussed in 
-
-* [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ (Feb. 2013) &lbrack;[[Voevodsky-HTS.pdf:file]]&rbrack;
-
-See at _[[Homotopy Type System]]_ ("HTS") for more on this.
-
-More along these lines is in 
-
-* [[Hugo Herbelin]], _A dependently-typed construction of semi-simplicial types_ (March 2013) &lbrack;[[Herbelin-SemiSimplicial.pdf:file]]&rbrack;
-
-* [[Bruno Barras]], [[Thierry Coquand]], [[Simon Huber]], _A generalization of Takeuti-Gandy Interpretation_  &lbrack;[[BarrasCoquandHuber-TakeutiGandyInterpretation.pdf:file]]&rbrack;
-
 [[!redirects semi-simplicial object]]
 [[!redirects semisimplicial object]]
 [[!redirects semi-simplicial objects]]
 [[!redirects semisimplicial objects]]
 
-[[!redirects semi-simplicial type]]
-[[!redirects semisimplicial type]]
-[[!redirects semi-simplicial types]]
-[[!redirects semisimplicial types]]
 [[!redirects category of semisimplices]]
 [[!redirects categories of semisimplices]]
 
