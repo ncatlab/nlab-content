@@ -13,19 +13,25 @@
 
 ## Idea
 
-A reflexive type family used in [[internal parametricity]] that behaves like the [[identity type]] but without [[transport]]. 
+A reflexive type family used in [[internal parametricity]] and [[modal parametricity]]. 
 
-Bridge types come in $n$-ary forms, for any positive natural number $n$. Examples include
+Bridge types come in $n$-ary forms, for any natural number $n$. Examples include
 
-* Unary bridge types $\mathrm{Br}_A(x)$, in [Bernardy & Moulin 2012](#BM12), [Bernardy, Coquand, & Moulin 2015](#BCM15)
+* Unary bridge types $\mathrm{Br}_A(x)$, in [Bernardy & Moulin 2012](#BM12), [Bernardy, Coquand, & Moulin 2015](#BCM15), [Kolomatskaia & Shulman 2023](#KS23)
 
 * Binary bridge types $\mathrm{Br}_A(x, y)$, in [Cavallo & Harper 2021](#CH21)
 
 [[Narya]] has $n$-ary bridge types for $1 \leq n \leq 9$. 
 
+Binary bridge types behave like [[identity types]] but without [[transport]]. 
+
 ## Univalence axiom
 
-The [[univalence axiom]] of a [[type universe]] $U$ for binary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A, B)$ and the type of correspondences $(A \times B) \to U$. 
+* The [[univalence axiom]] of a [[type universe]] $U$ for nullary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U$ and the type of types $1 \to U$. 
+
+* The [[univalence axiom]] of a [[type universe]] $U$ for unary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A)$ and the type of type families $A \to U$. 
+
+* The [[univalence axiom]] of a [[type universe]] $U$ for binary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A, B)$ and the type of correspondences $(A \times B) \to U$. 
 
 ## Related concepts
 
@@ -38,6 +44,8 @@ The [[univalence axiom]] of a [[type universe]] $U$ for binary bridge types says
 * [[cubical type theory]]
 
 * [[higher observational type theory]]
+
+* [[displayed type theory]]
 
 * [[symmetric cube category]]
 
@@ -58,6 +66,10 @@ An equivalent of univalence for unary bridge types appears (with inverse conditi
 The equivalent of univalence for (binary) bridge types is called "relativity" in
 
 * {#CH21} [[Evan Cavallo]] and [[Robert Harper]]. 2021. *Internal Parametricity for Cubical Type Theory.* Log. Methods Comput. Sci. 17, 4 (2021). &lbrack;<a href="https://doi.org/10.46298/lmcs-17(4:5)2021">doi:10.46298/lmcs-17(4:5)2021</a>, [arXiv:2005.11290](https://arxiv.org/abs/2005.11290)&rbrack;
+
+A unary bridge type called "display" and written as $A^d(x)$ instead of $\mathrm{Br}_A(x)$ appears in
+
+* {#KS23} [[Astra Kolomatskaia]], [[Michael Shulman]], *Displayed Type Theory and Semi-Simplicial Types* &lbrack;[arXiv:2311.18781](https://arxiv.org/abs/2311.18781)&rbrack; 
 
 A fibered version of bridge types is defined in:
 
