@@ -649,6 +649,8 @@ Review:
 
 * Benoît Douçot, [[Vincent Pasquier]], Bertrand Duplantier, Vincent Rivasseau (eds.): *The Quantum Hall Effect -- Poincaré Seminar 2004*, Progress in Mathematical Physics, Springer (2005) \[<a href="https://doi.org/10.1007/3-7643-7393-8">doi:10.1007/3-7643-7393-8</a>\]
 
+* {#Wen2007} [[Xiao-Gang Wen]]: *Theory of quantum Hall States*, chapter 7 in: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007) &lbrack;[doi:10.1093/acprof:oso/9780199227259.001.0001](https://doi.org/10.1093/acprof:oso/9780199227259.001.0001), [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)&rbrack; 
+
 * {#Tong16} [[David Tong]]: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
 * _The quantum Hall effect_ &lbrack;[pdf](http://www.tezu.ernet.in/rctp2015/SR%20On%20quantum%20Hall%20effect.pdf)&rbrack;
