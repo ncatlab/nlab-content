@@ -52,7 +52,7 @@ As opposed to the [[simplex category]] $\Delta$, the subcategory $\Delta_+$ is a
 
 * **semi-simplicial object**
 
-  * [[semisimplicial set]]
+  * [[semi-simplicial set]]
 
   * [[semi-simplicial type]]
 
