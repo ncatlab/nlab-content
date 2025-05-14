@@ -59,15 +59,15 @@ The second says that being a proposition is equivalent to being "[[contractible]
 
 The third states that being a proposition is the same as being a $\mathrm{bool}$-[[localization of a type|local type]]: the function 
 $$\mathrm{const}_{\mathbb{2}, A} \equiv \lambda x:A.\lambda b:v.x:A \to (\mathrm{bool} \to A)$$ 
-which takes elements $x:A$ to [[constant functions]] from the [[boolean domain]] with value $x$ is an [[equivalence of types]]. 
+which takes elements $x:A$ to [[constant functions]] from the [[type of booleans]] with value $x$ is an [[equivalence of types]]. 
 
-The fourth states that being a proposition is equivalent to the condition that for every function from the [[boolean domain]], $f(0) = f(1)$, and is interderivable from the usual definition of isProp via the recursion principle of the boolean domain. 
+The fourth states that being a proposition is equivalent to the condition that for every function from the [[type of booleans]], $f(0) = f(1)$, and is interderivable from the usual definition of isProp via the recursion principle of the type of booleans. 
 
-The fifth states that being a proposition is equivalent to the condition that for every function from the [[boolean domain]], $f(0) = f(1)$ is contractible, and is interderivable from the first via the recursion principle of the boolean domain. 
+The fifth states that being a proposition is equivalent to the condition that for every function from the [[type of booleans]], $f(0) = f(1)$ is contractible, and is interderivable from the first via the recursion principle of the type of booleans. 
 
-The sixth states that being a proposition is equivalent to the condition that every function from the [[boolean domain]] is a [[weakly constant function]], and can be proven to be equivalent to the fourth via double induction on the boolean domain and the properties of identity types. 
+The sixth states that being a proposition is equivalent to the condition that every function from the [[type of booleans]] is a [[weakly constant function]], and can be proven to be equivalent to the fourth via double induction on the type of booleans and the properties of identity types. 
 
-The seventh states that being a proposition is equivalent to the condition that every function from the [[boolean domain]] to $A$ factors through the [[interval type]] via the function $\mathrm{rec}_\mathbb{2}^\mathbb{I}(0_\mathbb{I}, 1_\mathbb{I}):\mathbb{2} \to \mathbb{I}$ defined by the recursion principle of the boolean domain. 
+The seventh states that being a proposition is equivalent to the condition that every function from the [[type of booleans]] to $A$ factors through the [[interval type]] via the function $\mathrm{rec}_\mathbb{2}^\mathbb{I}(0_\mathbb{I}, 1_\mathbb{I}):\mathbb{2} \to \mathbb{I}$ defined by the recursion principle of the type of booleans. 
 
 ### Rules for isProp
 
