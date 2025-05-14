@@ -890,7 +890,6 @@ Alternative derivation via [[geometry of physics -- flux quantization|flux quant
 
 * {#SS25AlgTop} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Understanding FQH via Algebraic Topology|Understanding Fractional Quantum Hall Anyons via the Algebraic Topology of exotic Flux Quanta]]* (2025)
 
-
 category: physics
 
 [[!redirects quantum Hall effects]]
