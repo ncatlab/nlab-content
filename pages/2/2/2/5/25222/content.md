@@ -66,7 +66,7 @@ One has the following analogies between localization at a specific type and the 
 
 ## Consequences
  
-Since the [[boolean domain]] $\mathbb{2}$ is $S^1$-local, the axiom of $S^1$-localization implies that $S^1$ is [[compact connected]]:
+Since the [[type of booleans]] $\mathbb{2}$ is $S^1$-local, the axiom of $S^1$-localization implies that $S^1$ is [[compact connected]]:
 
 \begin{theorem}
 Assuming [[propositional truncation]], where $\Omega$ is the type of all $\mathcal{U}$-small propositions with type reflector $T$, and the axiom of $S^1$-localization, if the function $\mathrm{const}_{2, S^1}$ is an equivalence of types, then for all functions $P:S^1 \to \Omega$, if for all $x:S^1$, $T(P(x)) \vee \neg T(P(x))$ is contractible, then either for all $x:S^1$, $T(P(x))$ is contractible, or for all $x:S^1$, $\neg T(P(x))$ is contractible. 
