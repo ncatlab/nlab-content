@@ -762,6 +762,18 @@ Realization via [[AdS/CFT in condensed matter physics]]:
 
 * Mitsutoshi Fujita, Wei Li, [[Shinsei Ryu]], [[Tadashi Takayanagi]], *Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy*, JHEP 0906:066 (2009) &lbrack;[arXiv:0901.0924](https://arxiv.org/abs/0901.0924)&rbrack;
 
+
+#### Observation of specific filling fractions
+
+Experimental observations of FQH effects at specific filling fractions $\nu$:
+
+$\nu = 1/4$:
+
+* D.R. Luhman, W. Pan, D.C. Tsui, L.N. Pfeiffer, K.W. Baldwin, K.W. West: *Observation of a Fractional Quantum Hall State at   in a Wide $GaAs$ Quantum Well*, Phys. Rev. Lett. **101** (2008) 266804 &lbrack;[arXiv:0810.2274](https://arxiv.org/abs/0810.2274), [doi:10.1103/PhysRevLett.101.266804](https://doi.org/10.1103/PhysRevLett.101.266804)&rbrack;
+
+* A. A. Zibrov, et al.: *Even-denominator fractional quantum Hall states at an isospin transition in monolayer graphene*, Nature Physics **14** (2018) 930–935 &lbrack;[doi;10.1038/s41567-018-0190-0](https://doi.org/10.1038/s41567-018-0190-0)&rbrack;
+
+
 #### Edge modes
 
 On [[edge modes]] in fractional quantum Hall systems:
