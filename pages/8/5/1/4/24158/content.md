@@ -76,7 +76,7 @@ Using extensionality, we obtain [[M-types]] from W-types.
 
 ## Higher algebra and higher category theory
 
-* Define [[semi-simplicial type|semi-simplicial types]] in single-level non-modal dependent type theory without either [[type telescopes]] or [[internal parametricity]], or show that this is not possible. Define [[Segal space]] [[complete Segal space]].
+* Define [[semi-simplicial types]] in single-level non-modal dependent type theory without either [[type telescopes]] or [[internal parametricity]], or show that this is not possible. Define [[Segal space]] [[complete Segal space]].
 
 * Define a [[weak omega-category in type theory]].
 
