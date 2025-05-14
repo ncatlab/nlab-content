@@ -33,7 +33,7 @@ Recall:
 
 * $S^{-1}$ is the [[empty type]],
 
-* $S^0$ (the [[0-sphere]]) is the [[boolean domain]] [type](boolean+domain#InTypeTheory)
+* $S^0$ (the [[0-sphere]]) is the [[type of booleans]] [type](boolean+domain#InTypeTheory)
 
 * $S^{n+1} \,\coloneqq\, \Sigma S^n$ is the [[suspension type]] of the sphere type of dimension lower.
 
