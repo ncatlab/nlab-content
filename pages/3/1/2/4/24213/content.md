@@ -19,7 +19,11 @@
 
 ## Idea
 
-Note: This page is an update of a page initially posted on the wiki of the special year on Univalent Foundations at IAS in 2012-13.
+> Note: This page began on the homotopy type theory personal web as an update of a page initially posted on the wiki of the special year on Univalent Foundations at IAS in 2012-13. It was then posted to the main nLab web on 2022-06-09 when the homotopy type theory web was depreciated. This page is currently under revision since a lot of information on this page is out of date, with many dependent type theories developed in the past decade where one can construct semi-simplicial types. 
+
+> The idea is that this page should contain a brief comment that it is unknown how to construct semi-simplicial types in vanilla [[Martin-Löf type theory]] / [[homotopy type theory]], and then detailed descriptions on how semi-simplicial types are defined in various extensions of MLTT/HoTT, such as [[Homotopy Type System]], [[two-level type theory]], [[parametric dependent type theories]] such as [[cubical type theory]] and [[displayed type theory]], [[simplicial type theory]], etc. 
+
+> Right now, the situation is entirely reversed. There is a lot of description that it is unknown how to construct semi-simplicial types in MLTT/HoTT, and brief comments that it is possible to construct semi-simplicial types in various extensions of MLTT/HoTT. 
 
 One interesting open problem (considered by [[Vladimir Voevodsky]] and others): define _[[semi-simplicial object|semi-simplicial]]_ types in Homotopy Type Theory.
 
@@ -30,8 +34,6 @@ Can we define these internally to [[type theory]], that is as a [[functor]] from
 The initial idea, proposed at IAS, was to represent semi-simplicial types not as a contravariant functor but, iterating the [[categorical semantics of dependent types|correspondence between fibrations and families]], as a family of families, what could be called an "indexed" presentation of semi-simplicial types based on "iterated dependencies".
 
 ## Semi-simplicial types as families of families of $n$-semi-simplices
-
-### Small semi-simplicial types
 
 To illustrate the idea of semi-simplicial types as families of families of $n$-semi-simplices, let us consider the finite-dimensional parts of such semi-simplicial type:
 
@@ -79,24 +81,27 @@ To cut the need for higher-dimensional coherences, several extensions of homotop
 
 * According to [Kraus (2018)](#Kraus18), semi-simplicial types can also be constructed in Angiuli-Harper-Wilson's computational higher-dimensional type theory. 
 
+* Another approach is to use an [[internal parametricity|internally parametric]] or a [[modal parametricity|modally parametric]] [[dependent type theory]] with [[unary bridge types]], such as [[displayed type theory]] ([Kolomatskaia 2022](#Kolomatskaia22), [Kolomatskaia & Shulman 2023](#KS23), [Narya docs](#NaryaDocs)). The type of semi-simplicial types in a [[type universe]] can be defined as a [[displayed coinductive type]] using the unary bridge type, where each semi-simplicial type has a family of semi-simplicial types, coinductively yielding the above notion of semi-simplicial type. 
+
 ## Other approaches
 
 The "indexed" approach as families of families with iterated dependencies is only one possible approach! Other approaches to the problem are also possible, and may be better.
 
 An alternative idea is something like "in the simplicial model, or more generally in other homotopy-theoretic model, they should be equivalent to coherent (possibly: [[Reedy model structure|Reedy-fibrant]]) semi-simplicial objects".
 
-Why not imitate the classical definition, using internal functors from the internally-defined category $\Delta{}_i$? Giving a reasonable definition of $\Delta{}_i$ is not too hard: the objects [n] are very well-behaved. But defining functors out of it is problematic, because there are coherence issues. One would have to specify the functoriality laws using equations, i.e. inhabitants of equality types, which homotopically we treat as paths. But specified paths in homotopy theory have to be coherent to define a useful notion of functor; thus we need equations between our equations (associativity pentagons, etc), then higher equations between those, and so on forever. Thus we end up with the same problem we had before of specifying infinitely much data using a finite description in type theory.
+Why not imitate the classical definition, using internal functors from the internally-defined category $\Delta{}_i$? Giving a reasonable definition of $\Delta{}_i$ is not too hard: the objects [n] are very well-behaved. But defining functors out of it is problematic, because there are coherence issues. One would have to specify the functoriality laws using equations, i.e. inhabitants of equality types, which homotopically we treat as paths. But specified paths in homotopy theory have to be coherent to define a useful notion of functor; thus we need equations between our equations (associativity pentagons, etc), then higher equations between those, and so on forever. Thus we end up with the same problem we had before of specifying infinitely much data using a finite description in type theory. 
 
 If one restricts the types involved to [[h-sets]], then this problem go away; but then one has again only defined semi-simplicial [[h-sets]], which are (presumably) strictly less general.
 
-Another approach is to extend type theory with streams typed by streams of types as in [a HoTTEST talk by Astra Kolomatskaia](#Kolomatskaia22).
+To cut the need for higher-dimensional coherences, one can consider extensions of homotopy type theory: 
+
+* Two such extensions is [[simplicial type theory]] and [[triangulated type theory]], where the coherence conditions of [[functors]] are already satisfied via [[synthetic (infinity,1)-category theory]] using the directed interval primitive. With the [[op modality]] $(-)^\op$, the [[directed univalent]] [[type universe]] $\mathcal{S}$, and the category $\Delta{}_i$, one can define [[semi-simplicial types]] as [[functions]] $X:\Delta{}_i^op \to \mathcal{S}$, which are automatically functors. 
 
 ## Why semi-simplicial, not simplicial?
 
 With semi-simplicial sets, the “iterated dependency” approach gives us at least a candidate approach for tackling coherence issues. With simplicial sets, it’s hard to see how one might tackle or avoid them. (Comparing it to the semi-simplicial approach, one requires degeneracy maps and equations between them, which lets loose the spectre of coherence again.) Furthermore, reasoning about Kan simplicial sets seems to insist on classical logic. For example, the classical result stating the homotopy equivalence of fibers of a Kan fibration cannot be proved constructively ([pdf](https://ncatlab.org/ufias2012/files/countermodel.pdf)).
 
 In homotopy-theoretic terms, this is because $\Delta{}_i$ is a [[direct category]], while the [[simplex category]] $\Delta$ is not. 
-
 
 ## About the original page on the wiki of the Univalent Foundations year
 
@@ -113,16 +118,31 @@ The original page about semi-simplicial types on the wiki of the Univalent Found
 * [X.model](https://ncatlab.org/ufias2012/files/X.model), the edges, fill1 and fill2, day by day, generated by the prover from input X.in.
 * [X.v](https://ncatlab.org/ufias2012/files/X.v), a Coq script verifying the proof that no homotopy equivalence between the fibers can exist in the model.
 
-## See also
+## Related concepts
 
 * [[open problems in homotopy type theory]]
 
+* [[Homotopy Type System]] ("HTS")
 
 ## References
 
+Discussion of formulation of semi-simplicial [[types]] in the context of [[homotopy type theory]] (for use as discussed at _[[category object in an (infinity,1)-category]]_) is in
+
+* {#IAS} [[UF-IAS-2012]], _[Semi-simplicial types](https://web.archive.org/web/20180728221737/http://uf-ias-2012.wikispaces.com/Semi-simplicial+types)_
+
+[[Coq]]-code for semi-simplicial types in [[homotopy type theory]] had been proposed in
+
 * {#Voevodsky12} [[Vladimir Voevodsky]], sketch of a definition (2012) &lbrack;Coq [code](https://ncatlab.org/ufias2012/files/semisimplicial.v)&rbrack;
 
-* {#Herbelin14} [[Hugo Herbelin]], *A dependently-typed construction of semi-simplicial types*, Mathematical Structures in Computer Science, Vol 25 (special issue 05), 2015 &lbrack;[pdf](http://pauillac.inria.fr/~herbelin/articles/mscs-Her14-semisimplicial.pdf)&rbrack; &lbrack;Coq [code](http://pauillac.inria.fr/~herbelin/articles/semisimplicial.v)&rbrack;
+but its execution requires augmenting [[homotopy type theory]] with an auxilirary [[extensional type theory|extensional]] [[identity type]], discussed in 
+
+* [[Vladimir Voevodsky]], _A type system with two kinds of identity types_ (Feb. 2013) &lbrack;[[Voevodsky-HTS.pdf:file]]&rbrack;
+
+See at _[[Homotopy Type System]]_ ("HTS") for more on this.
+
+* {#BCH13} [[Bruno Barras]], [[Thierry Coquand]], [[Simon Huber]], _A generalization of Takeuti-Gandy Interpretation_  &lbrack;[[BarrasCoquandHuber-TakeutiGandyInterpretation.pdf:file]]&rbrack;
+
+* {#Herbelin14} [[Hugo Herbelin]], *A dependently-typed construction of semi-simplicial types*, Mathematical Structures in Computer Science, Vol 25 (special issue 05), 2015 &lbrack;[pdf](http://pauillac.inria.fr/~herbelin/articles/mscs-Her14-semisimplicial.pdf), [[Herbelin-SemiSimplicial.pdf:file]]&rbrack; &lbrack;Coq [code](http://pauillac.inria.fr/~herbelin/articles/semisimplicial.v)&rbrack;
 
 * {#PartLuo15} [[Fedor Part]], [[Zhaohui Luo]]:  *Semi-simplicial Types in Logic-enriched Homotopy Type Theory* &lbrack;[arXiv:1506.04998](http://arxiv.org/abs/1506.04998)&rbrack; (Submitted on 16 Jun 2015) &lbrack;Plastic [code](https://github.com/part-xx/hott-plastic/tree/master/lib/Univalence/SimplicialTypes)&rbrack;
 
@@ -135,6 +155,17 @@ The original page about semi-simplicial types on the wiki of the Univalent Found
 * {#Kraus18} [[Nicolai Kraus]]: *On the Role of Semisimplicial Types*, 2018 &lbrack;[pdf](https://www.cs.nott.ac.uk/~psznk/docs/on_semisimplicial_types.pdf)&rbrack;
 
 * {#Kolomatskaia22} [[Astra Kolomatskaia]], *Semi-Simplicial Types*, [[Homotopy Type Theory Electronic Seminar Talks]], 15 December 2022 ([slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Kolomaskaia-2022-12-15-HoTTEST.pdf), [video](https://www.youtube.com/watch?v=fQv2FpeFxew))
+
+* {#KS23} [[Astra Kolomatskaia]], [[Michael Shulman]], *Displayed Type Theory and Semi-Simplicial Types* &lbrack;[arXiv:2311.18781](https://arxiv.org/abs/2311.18781)&rbrack; 
+
+Semi-simplicial types in [[Narya]]
+
+* {#NaryaDocs} *Higher datatypes and codatatypes*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/higher-types.html))
+
+[[!redirects semi-simplicial type]]
+[[!redirects semisimplicial type]]
+[[!redirects semi-simplicial types]]
+[[!redirects semisimplicial types]]
 
 [[!redirects semi-simplicial type in homotopy type theory]]
 [[!redirects semi-simplicial types in homotopy type theory]]
