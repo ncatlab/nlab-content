@@ -94,6 +94,12 @@ See also
 Discussion of Wick's lemma as a consequence of the [[homological perturbation lemma]] for [[BV-complexes]] is in 
 
 * {#Gwilliam} [[Owen Gwilliam]], section 2.3 _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+
+
+Formalization of Wick's theorem in the [[proof assistant]] [[Lean]]:
+
+* [[Joseph Tooby-Smith]]: *Digitalizing Wick's theorem* &lbrack;[arXiv:2505.07939](https://arxiv.org/abs/2505.07939)&rbrack;
+
  
 
 [[!redirects Wick lemma]]
