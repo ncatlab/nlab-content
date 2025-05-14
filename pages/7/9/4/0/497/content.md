@@ -46,9 +46,9 @@ Similarly, if the dependent type theory additionally has a [[Russell type of all
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} P \vee \neg P}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{El}_\Omega(P) \vee \neg \mathrm{El}_\Omega(P)}\mathrm{Tarski}$$
 
-If the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, truncated excluded middle could be stated as given a type $P$, if $P$ is a [[mere proposition]], then there exists a boolean $Q$ such that $P$ is equivalent to the type reflection of $Q$:
+If the type theory has a [[type of booleans]] $\mathrm{Bool}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bool}$ and thus satisfies the extensionality principle, truncated excluded middle could be stated as given a type $P$, if $P$ is a [[mere proposition]], then there exists a boolean $Q$ such that $P$ is equivalent to the type reflection of $Q$:
 
-$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists Q:\mathrm{Bit}.P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists Q:\mathrm{Bool}.P \simeq \mathrm{El}_\mathrm{Bool}(Q)}$$
 
 By definition, the only two booleans are $0$ representing false and $1$ representing true. 
 
@@ -68,9 +68,9 @@ Similarly, if the dependent type theory additionally has a [[Russell type of all
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} P + \neg P}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{El}_\Omega(P) + \neg \mathrm{El}_\Omega(P)}\mathrm{Tarski}$$
 
-Similarly as above, if the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, there is also an untruncated version of excluded middle using the [[boolean domain]] and [[dependent sum types]]:
+Similarly as above, if the type theory has a [[type of booleans]] $\mathrm{Bool}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bool}$ and thus satisfies the extensionality principle, there is also an untruncated version of excluded middle using the [[type of booleans]] and [[dependent sum types]]:
 
-$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \sum_{Q:\mathrm{Bit}} P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \sum_{Q:\mathrm{Bool}} P \simeq \mathrm{El}_\mathrm{Bool}(Q)}$$
 
 By definition, the only two booleans are $0$ representing false and $1$ representing true. 
 
@@ -92,13 +92,13 @@ Similarly, if the dependent type theory additionally has a [[Russell type of all
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{isContr}(P + \neg P)}\mathrm{Russell} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{doubleneg}:\prod_{P:\Omega} \mathrm{isContr}(\mathrm{El}_\Omega(P) + \neg \mathrm{El}_\Omega(P))}\mathrm{Tarski}$$
 
-Similarly as above, if the type theory has a [[boolean domain]] $\mathrm{Bit}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bit}$ and thus satisfies the extensionality principle, there is also an contractible version of excluded middle using the [[boolean domain]] and [[dependent sum types]]:
+Similarly as above, if the type theory has a [[type of booleans]] $\mathrm{Bool}$ which is a [[univalent Tarski universe]] with [[type family]] $\mathrm{El}_\mathrm{Bool}$ and thus satisfies the extensionality principle, there is also an contractible version of excluded middle using the [[type of booleans]] and [[dependent sum types]]:
 
-$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \mathrm{isContr}\left(\sum_{Q:\mathrm{Bit}} P \simeq \mathrm{El}_\mathrm{Bit}(Q)\right)}$$
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \mathrm{isContr}\left(\sum_{Q:\mathrm{Bool}} P \simeq \mathrm{El}_\mathrm{Bool}(Q)\right)}$$
 
-or equivalently, using the [[boolean domain]] and the [[uniqueness quantifier]]:
+or equivalently, using the [[type of booleans]] and the [[uniqueness quantifier]]:
 
-$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists!Q:\mathrm{Bit}.P \simeq \mathrm{El}_\mathrm{Bit}(Q)}$$
+$$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to \exists!Q:\mathrm{Bool}.P \simeq \mathrm{El}_\mathrm{Bool}(Q)}$$
 
 By definition, the only two booleans are $0$ representing false and $1$ representing true. 
 
