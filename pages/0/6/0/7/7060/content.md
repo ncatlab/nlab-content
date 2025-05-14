@@ -326,7 +326,7 @@ The [[categorical semantics]] of the type of all propositions is the [[subobject
 
 There are other types which can also be considered "types of propositions", that only contain some propositions instead of all propositions. These include 
 
-* the [[boolean domain]], which is the type of *decidable propositions*.
+* the [[type of booleans]], which is the type of *decidable propositions*.
 
 * any [[dominance]], which is the type of *open propositions*, or the type of *semi-decidable propositions*. 
 
@@ -351,7 +351,7 @@ These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] a
 
 ## Related concepts
 
-* [[boolean domain]]
+* [[type of booleans]]
 
 * [[subtype]], [[subobject]]
 
