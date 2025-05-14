@@ -13,5 +13,9 @@ On using the [[Lean]] [[proof assistant]] for problems in [[high energy physics]
 
 * [[Joseph Tooby-Smith]], *HepLean: Digitalising high energy physics* &lbrack;[arXiv:2405.08863](https://arxiv.org/abs/2405.08863)&rbrack;
 
+Formalization of [[Wick's theorem]] in the [[proof assistant]] [[Lean]]:
+
+* [[Joseph Tooby-Smith]]: *Digitalizing Wick's theorem* &lbrack;[arXiv:2505.07939](https://arxiv.org/abs/2505.07939)&rbrack;
+
 
 category: people
