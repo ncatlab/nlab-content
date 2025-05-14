@@ -21,7 +21,7 @@ In [[dependent type theory]], the binary pullback type of functions $f:A \to C$ 
 
 $$\sum_{x:A} \sum_{y:B} f(x) = g(y)$$
 
-However, by using large elimination of the [[boolean domain]] $\mathrm{bool}$ on the codomain of the functions and by using the induction principle for the boolean domain on the functions themselves, one has a family of functions
+However, by using large elimination of the [[type of booleans]] $\mathrm{bool}$ on the codomain of the functions and by using the induction principle for the type of booleans on the functions themselves, one has a family of functions
 
 $$\mathrm{ind}_\mathrm{bool}(f, g):\prod_{b:\mathrm{bool}} \mathrm{rec}_\mathrm{bool}(A, B, b) \to C$$
 
@@ -45,7 +45,7 @@ By induction on the booleans, this is equivalently
 
 $$\sum_{z:C} \prod_{b:\mathrm{bool}} \sum_{x:A(b)} f(b, x) = z$$
 
-By generalizing this definition of binary pullbacks from the boolean domain to any arbitrary type, one gets general dependent pullbacks of an arbitrary family of functions with [[codomain]] $C$, which are also known as *[[wide pullbacks]]* in [[category theory]]. 
+By generalizing this definition of binary pullbacks from the type of booleans to any arbitrary type, one gets general dependent pullbacks of an arbitrary family of functions with [[codomain]] $C$, which are also known as *[[wide pullbacks]]* in [[category theory]]. 
 
 ## Definition
 
