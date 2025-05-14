@@ -97,7 +97,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} 
 
 ### In terms of dependent sum types and booleans
 
-The sum type can be defined in terms of the [[boolean domain]] and the [[dependent sum type]]. Given types $A$ and $B$, the sum type $A + B$ is defined as 
+The sum type can be defined in terms of the [[type of booleans]] and the [[dependent sum type]]. Given types $A$ and $B$, the sum type $A + B$ is defined as 
 
 $$A + B \coloneqq \sum_{x:\mathrm{Bool}} ((x =_\mathrm{Bool} 1) \to A) \times ((x =_\mathrm{Bool} 0) \to B)$$
 
