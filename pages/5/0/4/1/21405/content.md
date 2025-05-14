@@ -129,13 +129,13 @@ This appears whenever the [[Levi-Civita symbol]] is contracted with itself:
   }
 \]
 
-Notice the minus sign in (eq:ContractionofLeviCivitaSymbols), which comes, via (eq:LCSymbolUp), from the [[Minkowski spacetime|Minkowski]] [[signature of a quadratic form|signature]].
+To note the minus sign in (eq:ContractionofLeviCivitaSymbols), which comes, via (eq:LCSymbolUp), from the [[Minkowski spacetime|Minkowski]] [[signature of a quadratic form|signature]].
 
 
 
 #### Definition
 
-We write $\iota_\mu$ for the operator of contraction of [[differential forms]] with the [[vector field]] $d/d x^\mu$, hence the [[linear operator]] on [[differential forms]] with [[anticommutator]]
+We write $\iota_\mu$ for the operator of [[tensor contraction|contraction]] of [[differential forms]] with the [[vector field]] $d/d x^\mu$, hence the [[linear operator]] on [[differential forms]] with [[anticommutator]]
 
 $$
   \big\{
@@ -147,7 +147,7 @@ $$
 
 
 With the [[volume form]] as in (eq:VolumeForm) it follows that
-(notice the reversion of the index ordering in the contraction operators $\iota$)
+(to note the reversion of the index ordering in the contraction operators $\iota$):
 
 \[
   \label{ContractionIntoVolumeForm}
@@ -155,11 +155,17 @@ With the [[volume form]] as in (eq:VolumeForm) it follows that
     \color{green}
     \mu_1 \cdots \mu_p
   }
+  \,
   \iota_{\color{green} \mu_p} 
      \cdots 
    \iota_{ \color{green} \mu_1}
   dvol
   \;=\;
+  \alpha^{
+    \color{green}
+    \mu_1 \cdots \mu_p
+  }
+  \,
   \epsilon_{ 
     { \color{green} \mu_1 \cdots \mu_p }
     { \color{orange} \nu_1 \cdots \nu_{(D-p)}  }
@@ -694,3 +700,4 @@ $$
 Here the sign in the last lines arises from the [[Minkowski spacetime|Minkowski]] [[signature of a quadratic form|signature]] via (eq:ContractionofLeviCivitaSymbols).
 
 =--
+
