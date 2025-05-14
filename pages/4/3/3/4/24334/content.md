@@ -57,7 +57,7 @@ In addition, simplicial type theory comes with a designated [[bounded total orde
 
 * there is an [[equivalence of types]] $\neg:\mathbb{I}^op \simeq \mathbb{I}$ which swaps $0$ for $1$ and $\max$ for $\min$,
 
-* the [[booleans]] are the global points of $\mathbb{I}$: i.e. the unique endpoints-preserving [[monotonic function]] from the [[boolean domain]] $\mathbb{2}$ to $\mathbb{I}$ is an [[embedding of types]] and the unique endpoints-preserving monotonic function from $\mathbb{2}$ to $\flat \mathbb{I}$ is an [[equivalence of types]],
+* the [[booleans]] are the global points of $\mathbb{I}$: i.e. the unique endpoints-preserving [[monotonic function]] from the [[type of booleans]] $\mathbb{2}$ to $\mathbb{I}$ is an [[embedding of types]] and the unique endpoints-preserving monotonic function from $\mathbb{2}$ to $\flat \mathbb{I}$ is an [[equivalence of types]],
 
 * the **axiom of simplicial [[axiom of cohesion|cohesion]]**: for all crisp types $A$, the $\flat$-counit $\flat(-):\flat A \to A$ is an [[equivalence of types]] if and only if the function $\mathrm{const}_{A, \mathbb{I}}$ which takes elements of $A$ to constant functions $\mathbb{I} \to A$ is an [[equivalence of types]]. 
 
