@@ -72,6 +72,8 @@ $$\mathrm{dua}_{I, A, B}:(I \to A) \simeq \sum_{x:A} \sum_{y:A} B(x) \to B(y)$$
 [[!redirects directed univalent universe]]
 [[!redirects directed univalent universes]]
 
+[[!redirects directed univalent]]
+
 [[!redirects directed univalent covariant family]]
 [[!redirects directed univalent covariant families]]
 
