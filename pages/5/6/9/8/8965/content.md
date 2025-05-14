@@ -359,7 +359,7 @@ One gets back the usual induction principle of the natural numbers type when $C 
 
 ### Extensionality principle of the natural numbers
 
-First we [[inductive definition|inductively define]] a [[binary function]] into the [[boolean domain]] called [[observational equality]] of the natural numbers: 
+First we [[inductive definition|inductively define]] a [[binary function]] into the [[type of booleans]] called [[observational equality]] of the natural numbers: 
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Eq}_\mathbb{N}:\mathbb{N} \times \mathbb{N} \to \mathrm{Bit}}$$
 
