@@ -36,7 +36,12 @@ Further early discussion:
 
 * [[Nicholas Read]], B. Chakraborty, *Statistics of the excitations of the resonating-valence-bond state*, Phys. Rev. B **40** (1989) 7133 &lbrack;[doi:10.1103/PhysRevB.40.7133](https://doi.org/10.1103/PhysRevB.40.7133)&rbrack;
 
-Review:
+Textbook account:
+
+* {#Wen2007} [[Xiao-Gang Wen]]: *Mean-field theory of spin liquids and quantum order*, chapter 9 in: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007) &lbrack;[doi:10.1093/acprof:oso/9780199227259.001.0001](https://doi.org/10.1093/acprof:oso/9780199227259.001.0001), [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)&rbrack; 
+
+
+Further review:
 
 * Lucile Savary, Leon Balents, *Quantum Spin Liquids*, Rep. Prog. Phys. **80** 016502 (2017) &lbrack;[arXiv:1601.03742](https://arxiv.org/abs/1601.03742), [doi:10.1088/0034-4885/80/1/016502](https://doi.org/10.1088/0034-4885/80/1/016502)&rbrack;
 
