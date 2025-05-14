@@ -32,17 +32,21 @@ In [[condensed matter theory]], *string-net models* were introduced as [[lattice
 
 * [[string diagrams]]
 
+
 ## References
 
 Original articles:
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], *String-net condensation: A physical mechanism for topological phases*, Phys.Rev. B **71** (2005) 045110 $[$[arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617)$]$
-
   > (see also at *[[Levin-Wen model]]*)
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], *Detecting topological order in a ground state wave function*, Phys. Rev. Lett., 96, 110405 (2006) ([arXiv:cond-mat/0510613](https://arxiv.org/abs/cond-mat/0510613))
-
   > (introducing [[topological entanglement entropy]] with regards to string-net models)
+
+Textbook account:
+
+* {#Wen2007} [[Xiao-Gang Wen]]: *String-condensation -- a unification of light and fermions*, chapter 10 in: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007) &lbrack;[doi:10.1093/acprof:oso/9780199227259.001.0001](https://doi.org/10.1093/acprof:oso/9780199227259.001.0001), [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)&rbrack; 
+
 
 In terms of [[tensor networks]]:
 
@@ -57,11 +61,11 @@ Further development:
 
 * Chien-Hung Lin, *Multi-flavor string-net models*, Phys. Rev. B **95** 195110 (2017) $[$[arXiv:1611.08288](https://arxiv.org/abs/1611.08288), [doi:10.1103/PhysRevB.95.195110](https://doi.org/10.1103/PhysRevB.95.195110)$]$
 
-Review and exposition:
+Further review and exposition:
 
 * [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
 
-  Sections 6.4-6.9 in: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+  Sections 6.4-6.9 in: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) &lbrack;[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)&rbrack;
 
 * Chien-Hung Lin, [[Michael Levin]], Fiona J. Burnell, *Generalized string-net models: A thorough exposition*, Phys. Rev. B **103** (2021) 195155  &lbrack;[arXiv:2012.14424](https://arxiv.org/abs/2012.14424), [doi:10.1103/PhysRevB.103.195155](https://doi.org/10.1103/PhysRevB.103.195155)&rbrack;
 
