@@ -17,7 +17,7 @@
 
 ## Idea
 
-Dependent type theory is traditionally said to be a [[predicative mathematics|predicative]] [[foundations of mathematics]]. However, this is only the case if [[excluded middle]] is not assumed in the theory, because once excluded middle holds, then [[power sets]] are simply [[function types]] into the [[boolean domain]] resulting in an [[impredicative mathematics|impredicative]] foundations of mathematics. Function types into the boolean domain are in most versions of dependent type theory. 
+Dependent type theory is traditionally said to be a [[predicative mathematics|predicative]] [[foundations of mathematics]]. However, this is only the case if [[excluded middle]] is not assumed in the theory, because once excluded middle holds, then [[power sets]] are simply [[function types]] into the [[type of booleans]] resulting in an [[impredicative mathematics|impredicative]] foundations of mathematics. Function types into the type of booleans are in most versions of dependent type theory. 
 
 The real problem here is with [[function types]] and [[dependent product type]]. These types are usually placed in the same [[type universe]] as the types from which they are formed from; i.e. if $A:U_i$ and $B:U_i$, then $A \to B:U_i$. For dependent type theory to remain predicative even in the presence of excluded middle, the function types and dependent product type have to lie in the next universe up; i.e. if $A:U_i$ and $B:U_i$, $A \to B:U_{i+1}$. Thus, the concept of a *[[strongly predicative mathematics|strongly predicative]] dependent type theory*, which can implement [[strongly predicative mathematics]]. 
 
@@ -302,7 +302,7 @@ Thus, the [[h-sets]] in each $U_i$ form an [[arithmetic pretopos]].
 
 ### Excluded middle
 
-The [[law of excluded middle]] can be formulated in strongly predicative dependent type theory as the following: that for each universe level $i$, the canonical [[embedding of types|embedding]] of the [[boolean domain]] $\mathbb{2}$ into the [[type of propositions|type of $U_i$-small propositions]], which takes $0:\mathbb{2}$ to the [[empty type]] and $1:\mathbb{2}$ to the [[unit type]], is an [[equivalence of types]]. 
+The [[law of excluded middle]] can be formulated in strongly predicative dependent type theory as the following: that for each universe level $i$, the canonical [[embedding of types|embedding]] of the [[type of booleans]] $\mathbb{2}$ into the [[type of propositions|type of $U_i$-small propositions]], which takes $0:\mathbb{2}$ to the [[empty type]] and $1:\mathbb{2}$ to the [[unit type]], is an [[equivalence of types]]. 
 
 Thus, with excluded middle, the [[h-sets]] in each $U_i$ form an [[arithmetic pretopos|arithmetic]] [[Boolean pretopos]] and the univeres $U_i$ themselves correspond to the [[regular cardinals]] in [[set theory]]. 
 
