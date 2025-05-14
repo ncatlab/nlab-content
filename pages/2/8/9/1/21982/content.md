@@ -79,6 +79,11 @@ An elaborate proposal for the correct flavour of [[equivariant K-theory|equivari
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
+More on this in:
+
+* Saghar S. Hosseini, [[Yuji Tachikawa]], Hao Y. Zhang: *Type I anomaly cancellation revisited* \[<a href="https://arxiv.org/abs/2505.07933">arXiv:2505.07933</a>\]
+
+
 
 Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|differential]] [[topological K-theory|K-theory]] and its relation to [[D-brane charge]] in [[type II string theory]] 
 
