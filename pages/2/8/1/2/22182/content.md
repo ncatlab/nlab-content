@@ -228,7 +228,7 @@ which is precisely the judgmental [[K rule]] for type $A$.
 
 The circle type is equivalent to the following types
 
-* The [[suspension type]] $\Sigma \mathrm{Bool}$ of the [[boolean domain]]. 
+* The [[suspension type]] $\Sigma \mathrm{Bool}$ of the [[type of booleans]]. 
 
 * The [[coequalizer type]] of any two [[endofunctions]] on the [[unit type]]
 
