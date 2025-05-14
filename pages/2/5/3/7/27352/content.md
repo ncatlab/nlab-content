@@ -14,7 +14,7 @@ and was made more explicit in:
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Quantum statistics and superconductivity in two spatial dimensions*, Nuclear Physics B -- Proceedings Supplements **15** (1990) 135-156 \[<a href="https://doi.org/10.1016/0920-5632(90)90014-L">doi:10.1016/0920-5632(90)90014-L</a>\]
 
-* B. Blok, [[Xiao-Gang Wen]]: *Effective theories of the fractional quantum Hall effect at generic filling fractions*, Phys. Rev. B **42** (1990) 8133 \[<a href="https://doi.org/10.1103/PhysRevB.42.8133">doi:10.1103/PhysRevB.42.8133</a>\]
+* {#BlokWen90} B. Blok, [[Xiao-Gang Wen]]: *Effective theories of the fractional quantum Hall effect at generic filling fractions*, Phys. Rev. B **42** (1990) 8133 \[<a href="https://doi.org/10.1103/PhysRevB.42.8133">doi:10.1103/PhysRevB.42.8133</a>\]
 
 * {#Wen90Rigid} [[Xiao-Gang Wen]]: *Topological Orders in Rigid States*, Int. J. Mod. Phys. B **4** 239 (1990) \[<a href="https://doi.org/10.1142/S0217979290000139">doi:10.1142/S0217979290000139</a>\]
 
@@ -57,6 +57,8 @@ Early review:
 * {#Wen95} [[Xiao-Gang Wen]]: *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** 5 (1995) 405 \[<a href="https://doi.org/10.1080/00018739500101566">doi:10.1080/00018739500101566</a>, [arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066)\]
 
 Further review and exposition:
+
+* [[Xiao-Gang Wen]]: *Effective theory of fractional quantum Hall liquids*, section 7.3 of: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007)\[<a href="https://doi.org/10.1093/acprof:oso/9780199227259.001.0001">doi:10.1093/acprof:oso/9780199227259.001.0001</a>, [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)\] 
 
 * [[Yuan-Ming Lu]], [[Ashvin Vishwanath]], part II of: *Theory and classification of interacting integer topological phases in two dimensions: A Chern-Simons approach*, Phys. Rev. B **86** (2012) 125119, Erratum Phys. Rev. B **89** (2014) 199903 \[<a href="https://doi.org/10.1103/PhysRevB.86.125119">doi:10.1103/PhysRevB.86.125119</a>, [arXiv:1205.3156](https://arxiv.org/abs/1205.3156)\]
 
