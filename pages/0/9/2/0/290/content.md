@@ -216,6 +216,10 @@ A standard textbook written from the perspective of [[effective field theory]]:
 
 Application in/to [[solid state physics]]:
 
+
+* [[Xiao-Gang Wen]]: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007) &lbrack;[doi:10.1093/acprof:oso/9780199227259.001.0001](https://doi.org/10.1093/acprof:oso/9780199227259.001.0001), [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)&rbrack; 
+  > (with an eye towards [[topological phases of matter]] and [[topological order]], such as in [[fractional quantum Hall systems]])
+
 * [[Eduardo Fradkin]], *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509](https://doi.org/10.1017/CBO9781139015509)&rbrack;
 
 
