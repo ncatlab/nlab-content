@@ -33,6 +33,7 @@ $$
 ## Examples
 
 * A [[submersion]] is transversal to all differentiable functions into its [[codomain]].
+* Maps $f \colon X \to Z$, $g \colon Y \to Z$ with $dim(X)+dim(Y)\lt dim(Z)$ are transversal iff their images are disjoint.
 
 
 
