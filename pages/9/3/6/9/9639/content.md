@@ -508,7 +508,7 @@ Remarkably, this resulting formula captures a significant part of the zoo of obs
 
 
 
-{#Störmer99Quote} A vivid account of the composite boson picture at odd filling denominator is given by [Störmer 1999](#Störmer99):
+{#Störmer99Quote} A vivid account of the composite boson picture at odd [[unit fractions]] of electron-filling is given by [Störmer 1999](#Störmer99):
 
 > "In the [[fractional quantum Hall effect|FQHE]], the electrons assume an even more favorable state \[than in the IQHE\], unforeseen by theory, by conducting an elaborate, mutual, quantum-mechanical dance. Many-particle effects are extraordinarily challenging to address theoretically. \[...\] on occasion many-particle interactions become the essence of a physical effect. [[superconductivity|Superconductivity]] and [[superfluidity]] are of such intricate origin. To account for their occurrence one had to devise novel, sophisticated theoretical means. The emergence of the FQHE requires such a new kind of thinking. \[...\] 
 
@@ -817,7 +817,7 @@ The Halperin multi-component model:
 * [[Bertrand I. Halperin]]: *Theory of the Quantized Hall Conductance*, Helvetica Physica Acta **56** (1983) 75-102 \[<a href="https://doi.org/10.5169/seals-115362">doi:10.5169/seals-115362</a>, [[Halperin-TheoryOfQHE.pdf:file]]\]
 
 
-The Haldane-Halperin model:
+The Haldane-Halperin hierachy model for FQH system at non-[[unit fraction|unit]] filling fractions:
 
 * [[F. Duncan M. Haldane]]: *Fractional Quantization of the Hall Effect: A Hierarchy of Incompressible Quantum Fluid States*, Phys. Rev. Lett. **51** (1983) 605 \[<a href="https://doi.org/10.1103/PhysRevLett.51.605">doi:10.1103/PhysRevLett.51.605</a>\]
 
