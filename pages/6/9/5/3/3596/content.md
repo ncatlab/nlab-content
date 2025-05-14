@@ -508,13 +508,13 @@ $$
 
 Given a type $A$, two elements $x:A$ and $y:A$ is equivalently 
 
-* a function $\mathrm{rec}_\mathbb{2}^A(x, y):\mathbb{2} \to A$ from $\mathbb{2}$ to $A$ by the recursion and uniqueness principle of the [[boolean domain]] $\mathbb{2}$, 
+* a function $\mathrm{rec}_\mathbb{2}^A(x, y):\mathbb{2} \to A$ from $\mathbb{2}$ to $A$ by the recursion and uniqueness principle of the [[type of booleans]] $\mathbb{2}$, 
 
 * a [[pair]] $\mathrm{in}(x, y):A \times A$ by the introduction rule of [[pair types]] $A \times A$. 
 
 From the other side, a function $f:\mathbb{2} \to A$ is equivalently two elements $f(0):A$ and $f(1):A$, and by the negative recursion and uniqueness rules of [[pair types]], a pair $z:A \times A$ is equivalently two elements $\pi_1(z):A$ and $\pi_2(z)$. This implies that one can define two variants of the identity type, 
 
-* a variant $\mathrm{Id}_A(f)$ indexed by functions $f:\mathbb{2} \to A$ out of the boolean domain, where the usual identity type is then defined as 
+* a variant $\mathrm{Id}_A(f)$ indexed by functions $f:\mathbb{2} \to A$ out of the type of booleans, where the usual identity type is then defined as 
 $$x =_A y \coloneqq \mathrm{Id}_A(\mathrm{rec}_\mathbb{2}^A(x, y))$$
 
 * a variant $\mathrm{Id}_A(z)$ indexed by pairs $z:A \times A$, where the usual identity type is then defined as 
