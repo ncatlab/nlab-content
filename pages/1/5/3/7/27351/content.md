@@ -126,10 +126,11 @@ This means we are focused on the local nature of fields, not on their global pro
 **The auxiliary gauge potential.**
 With the assumption (eq:AssumingdeRham2CohomologyVanishes) also the conserved current density (eq:CurrentConservationLaw) admits a [[coboundary]], a [[differential 1-form]] to be denoted $a$:
 
-$$
+\[
+  \label{AuxiliaryGaugePotential}
   J \,=\, \mathrm{d}a
   \,.
-$$
+\]
 
 The central Ansatz of the approach is to *think of this 1-form as an effective dynamical gauge field for the FQH dynamics*.
 
@@ -259,6 +260,17 @@ Here
 \linebreak
 
 This largely concludes the traditional justification for the effective abelian Chern-Simons theory (eq:TheEffectiveLagrangianDensity).
+
+\linebreak
+
+
+#### Hierarchical K-matrix formalism
+ {#HierarchicalKMatrixFormalism}
+
+Following the hierarchical picture of [[FQH systems]] at non-unit filling fraction (due to [Haldane 1983](quantum+Hall+effect#Haldane83) and [Halperin 1984](quantum+Hall+effect#Halperin1984)), where [[quasiparticles]] at unit filling fractions are imagined to support themselves a secondary FQH effect with secondary quasi-particles, and so on  (a picture that faces various challenges, cf. [Jain 2007 §12.1](quantum+Hall+effect#Jain07), [Jacak 2021 p. 3](quantum+Hall+effect#Jacak21)), authors consider abelian Chern Simons theory of multiple gauge fields that are hierarchically coupled to each other, called the "K-matrix formalism" ([Blok & Wen 1990](#BlokWen90), [Wen & Zee 1992](#WenZee92Classification), early review in [Wen 1995 §2.1](#Wen95), textbook account in [Wen 2007 §7.3.3](#Wen07)).
+
+The basic idea is to observe that the above step from (i) introducing a gauge potential (eq:AuxiliaryGaugePotential) for the electron current density $J$ to (ii) the effective Chern-Simons action (eq:TheEffectiveLagrangianDensity) with quasi-particle current density $j$ may be repeated by next introducing also a gauge potential for the quasi-particle current (cf. [Wen 2007 (7.3.13)](#Wen07)), and so on.
+
 
 
 \linebreak
