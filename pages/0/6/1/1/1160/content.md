@@ -68,17 +68,17 @@ The converse of this is also true: if untruncated decidable equality holds, then
 
 For non-h-sets, the difference between untruncated decidable equality and truncated decidable equality can be dramatic. For instance, if we model homotopy type theory in a [[Boolean topos|Boolean]] $(\infty,1)$-topos (such as $\infty Gpd$ constructed classically), then *every* type satisfies truncated decidable equality (which is what it means for the logic to be boolean), but only the h-sets satisfy untruncated decidable equality (in accordance with Hedberg\'s theorem).
 
-### Using the boolean domain
+### Using the type of booleans
 
-There is also a few definitions of decidable equality in [[dependent type theory]], which rely on the [[boolean domain]] with its extensionality principle and the fact that that the decidable equality is always valued in the [[boolean domain]]. 
+There is also a few definitions of decidable equality in [[dependent type theory]], which rely on the [[type of booleans]] with its extensionality principle and the fact that that the decidable equality is always valued in the [[type of booleans]]. 
 
 The first definition states that decidable equality on a type $A$ is a [[binary function]] $\mathrm{Eq}_A:A \times A \to \mathrm{Bit}$ which comes with a family of equivalences
 $$x:A, y:A \vdash \delta(x, y):\mathrm{Id}_A(x, y) \simeq \mathrm{Id}_\mathbb{2}(\mathrm{Eq}_A(x, y), 1)$$
 
-The second also relies on the fact that the [[boolean domain]] forms a [[univalent Tarski universe]] $(\mathrm{Bit}, \mathrm{El}_\mathrm{Bit})$. Here, decidable equality on a type $A$ is a [[binary function]] $\mathrm{Eq}_A:A \times A \to \mathrm{Bit}$ which comes with a family of equivalences 
+The second also relies on the fact that the [[type of booleans]] forms a [[univalent Tarski universe]] $(\mathrm{Bit}, \mathrm{El}_\mathrm{Bit})$. Here, decidable equality on a type $A$ is a [[binary function]] $\mathrm{Eq}_A:A \times A \to \mathrm{Bit}$ which comes with a family of equivalences 
 $$x:A, y:A \vdash \delta(x, y):\mathrm{El}_\mathrm{Bit}(\mathrm{Eq}_A(x, y)) \simeq (x =_A y)$$
 
-Either way, this is typically how the [[natural numbers type]] is proven to have decidable equality, by defining a binary function into the boolean domain called [[observational equality]] and using the extensionality principle of the natural numbers. 
+Either way, this is typically how the [[natural numbers type]] is proven to have decidable equality, by defining a binary function into the type of booleans called [[observational equality]] and using the extensionality principle of the natural numbers. 
 
 ### Properties
 
