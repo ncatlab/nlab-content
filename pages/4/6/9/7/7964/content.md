@@ -155,7 +155,7 @@ There is no lack of proposals for realizing the Higgs field in various big schem
 
 ### Gauge-Higgs unification
 
-A mechanis, of _gauge-Higgs unification_ ([Manton 79](#Manton79), [Hosotani 83](#Hosotani83)) also known as the _Hosotani mechanism_ (see [Hosotani 12](#Hosotani12)) refers to hypothetical [[model (in theoretical physics)|models]] of [[particle physics]] where the [[Higgs field]] on 4d [[spacetimes]] arises as a component of a [[gauge field]] in higher dimensions, either after [[Kaluza-Klein compactification]] or by passage to a 4d [[asymptotic boundary]] in a [[Randall-Sundrum model]] or similar.
+A mechanism, of _gauge-Higgs unification_ ([Manton 79](#Manton79), [Hosotani 83](#Hosotani83)) also known as the _Hosotani mechanism_ (see [Hosotani 12](#Hosotani12)) refers to hypothetical [[model (in theoretical physics)|models]] of [[particle physics]] where the [[Higgs field]] on 4d [[spacetimes]] arises as a component of a [[gauge field]] in higher dimensions, either after [[Kaluza-Klein compactification]] or by passage to a 4d [[asymptotic boundary]] in a [[Randall-Sundrum model]] or similar.
 
 
 <center>
