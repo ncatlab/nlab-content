@@ -604,7 +604,7 @@ The theoretical prediction of (eq:BraidingAngleAsFunctionOfFillingFraction) --- 
 
 Starting around 2020, this braiding phase is reported to be observed in [[experiments]] for some cases such as $\nu = 1/3$ and $\nu = 2/5$ ([Nakamura et al. 2023 p 1,7](#NakamuraEtAl23)), see also further references [below](#ObservationOfAnyonsInFQH).
 
-> The K-matrix formalism allows more general relations between filling factor and braiding phase, cf. [Wen 1995 (2.30-1)](#Wen95).
+> The [hierarchical K-matrix formalism](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism) allows more general relations between filling factor and braiding phase, cf. [Wen 1995 (2.30-1)](#Wen95).
 
 \linebreak
 
@@ -833,7 +833,7 @@ The Halperin multi-component model:
 
 The Haldane-Halperin hierachy model for FQH system at non-[[unit fraction|unit]] filling fractions:
 
-* [[F. Duncan M. Haldane]]: *Fractional Quantization of the Hall Effect: A Hierarchy of Incompressible Quantum Fluid States*, Phys. Rev. Lett. **51** (1983) 605 \[<a href="https://doi.org/10.1103/PhysRevLett.51.605">doi:10.1103/PhysRevLett.51.605</a>\]
+* {#Haldane83} [[F. Duncan M. Haldane]]: *Fractional Quantization of the Hall Effect: A Hierarchy of Incompressible Quantum Fluid States*, Phys. Rev. Lett. **51** (1983) 605 \[<a href="https://doi.org/10.1103/PhysRevLett.51.605">doi:10.1103/PhysRevLett.51.605</a>\]
 
 * {#Halperin84} [[Bertrand Halperin]]: *Statistics of Quasiparticles and the Hierarchy of Fractional Quantized Hall States*, Phys. Rev. Lett. **52** (1984) 1583 \[<a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.52.1583">doi:10.1103/PhysRevLett.52.1583</a>\]
 
@@ -854,7 +854,7 @@ Further discussion:
 
 Discussion highlighting the lack of microscopic explanation of these phenomenological models:
 
-* [[Janusz E. Jacak]]: *Topological approach to electron correlations at fractional quantum Hall effect*, Annals of Physics **430** (2021) 168493 \[<a href="https://doi.org/10.1016/j.aop.2021.168493">doi:10.1016/j.aop.2021.168493</a>\]
+* {#Jacak21} [[Janusz E. Jacak]]: *Topological approach to electron correlations at fractional quantum Hall effect*, Annals of Physics **430** (2021) 168493 \[<a href="https://doi.org/10.1016/j.aop.2021.168493">doi:10.1016/j.aop.2021.168493</a>\]
 > &lbrack;p 3:&rbrack; "Though the Laughlin function very well approximates the true ground state at $\nu = \tfrac{1}{q}$, the physical mechanism of related correlations and of the whole hierarchy of the FQHE remained, however, still obscure."
 
 > "The so-called HH (Halperin–Haldane) model of consecutive generations of Laughlin states of anyonic quasiparticle excitations from the preceding Laughlin state has been abandoned early because of the rapid growth of the daughter quasiparticle size, which quickly exceeded the sample size."
@@ -908,6 +908,9 @@ category: physics
 
 [[!redirects fractional quantum Hall effect]]
 [[!redirects fractional quantum Hall effects]]
+
+[[!redirects FQH effect]]
+[[!redirects FQH effects]]
 
 [[!redirects integer quantum Hall effect]]
 [[!redirects integer quantum Hall effect]]
