@@ -69,9 +69,13 @@ On the mod-2 [[elliptic genus]], both as a [[partition function]] of a [[superst
 
 * [[Yuji Tachikawa]], [[Mayuko Yamashita]], [[Kazuya Yonekura]], *Remarks on mod-2 elliptic genus* &lbrack;[arXiv:2302.07548](https://arxiv.org/abs/2302.07548)&rbrack;
 
-On [[tmf]] as claaifying certain torsion topological terms in [[heterotic string theory]]:
+On [[tmf]] as classifying certain torsion topological terms in [[heterotic string theory]]:
 
 * [[Yuji Tachikawa]], Hao Y. Zhang, On a $\mathbb{Z}_3$-valued discrete topological term in 10d heterotic string theories* \[<a href="https://arxiv.org/abs/2403.08861">arXiv:2403.08861</a>\]
+
+On [[quantum anomaly]]-cancellation in [[type I string theory]] via [[RR-field]] [[flux quantization]] in [[KO]]:
+
+* Saghar S. Hosseini, [[Yuji Tachikawa]], Hao Y. Zhang: *Type I anomaly cancellation revisited* \[<a href="https://arxiv.org/abs/2505.07933">arXiv:2505.07933</a>\]
 
 
 
