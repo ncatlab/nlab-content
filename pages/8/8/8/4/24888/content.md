@@ -47,21 +47,21 @@ The type $I$ is inhabited by $\kappa_I(\sigma_I)$, so it remains to show that fo
 ## Properties
 
 \begin{theorem}
-The [[boolean domain]] $\mathbb{2}$ is discrete.
+The [[type of booleans]] $\mathbb{2}$ is discrete.
 \end{theorem}
 
 \begin{proof}
-Theorem 6.19 of [Shulman 18](#Shulman18) says that the [[unit type]] is crisply discrete, and theorem 6.21 of [Shulman 18](#Shulman18) says that the [[sum type]] of two crisply discrete types is itself crisply discrete. Since the boolean domain is the [[sum type]] of two copies of the unit type, the boolean domain is crisply discrete, thus discrete.  
+Theorem 6.19 of [Shulman 18](#Shulman18) says that the [[unit type]] is crisply discrete, and theorem 6.21 of [Shulman 18](#Shulman18) says that the [[sum type]] of two crisply discrete types is itself crisply discrete. Since the type of booleans is the [[sum type]] of two copies of the unit type, the type of booleans is crisply discrete, thus discrete.  
 \end{proof}
 
-Since the [[boolean domain]] is discrete, then the type $R$ is [[compact connected]]:
+Since the [[type of booleans]] is discrete, then the type $R$ is [[compact connected]]:
 
 \begin{theorem}
 Assuming the axiom of $R$-cohesion, if the function $\mathrm{const}_{\mathbb{2}, R}$ is an equivalence of types, then for all $R$-indexed families of [[mere propositions]] $x:R \vdash P(x)$, if for all $x:R$, $P(x) \vee \neg P(x)$ is contractible, then either for all $x:R$, $P(x)$ is contractible, or for all $x:R$, $\neg P(x)$ is contractible. 
 \end{theorem}
 
 \begin{proof}
-If the family of mere propositions $x:R \vdash P(x)$ is such that for all $x:R$, $P(x) \vee \neg P(x)$ is contractible, then there is a function $P':R \to \mathbb{2}$ into the [[boolean domain]] $\mathbb{2}$ with $\delta_{P'}^{1_2}(x):(P'(x) = 1_2)) \simeq P(x)$ and $\delta_{P'}^{0_2}(x):(P'(x) = 0_2)) \simeq \neg P(x)$. But since $\mathbb{2}$ is discrete, then by $R$-cohesion $P'$ is constant, which implies that either for all $x:R$, $P'(x) = 1_2$ and thus $P(x)$ is contractible, or for all $x:R$, $P'(x) = 0_2$ and thus $\neg P(x)$ is contractible. Thus, $R$ is compact connected. 
+If the family of mere propositions $x:R \vdash P(x)$ is such that for all $x:R$, $P(x) \vee \neg P(x)$ is contractible, then there is a function $P':R \to \mathbb{2}$ into the [[type of booleans]] $\mathbb{2}$ with $\delta_{P'}^{1_2}(x):(P'(x) = 1_2)) \simeq P(x)$ and $\delta_{P'}^{0_2}(x):(P'(x) = 0_2)) \simeq \neg P(x)$. But since $\mathbb{2}$ is discrete, then by $R$-cohesion $P'$ is constant, which implies that either for all $x:R$, $P'(x) = 1_2$ and thus $P(x)$ is contractible, or for all $x:R$, $P'(x) = 0_2$ and thus $\neg P(x)$ is contractible. Thus, $R$ is compact connected. 
 \end{proof}
 
 ## Examples
