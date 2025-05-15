@@ -23,7 +23,7 @@ Bridge types come in $n$-ary forms, for any natural number $n$. Examples include
 
 [[Narya]] has $n$-ary bridge types for $1 \leq n \leq 9$. 
 
-Binary bridge types behave like [[identity types]] but without [[transport]]. 
+Binary bridge types behave like [[identity types]] in that they have [[function application on identifications]], but unlike identity types, binary bridge types do not have [[transport]]. 
 
 ## Univalence axiom
 
