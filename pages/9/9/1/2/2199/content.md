@@ -39,7 +39,7 @@ In [[dependent type theory]] the boolean domain is called the __[[type of boolea
 
 ## Properties
 
-The boolean domain is in [[bijection]] with the set of [[decidable propositions]]. 
+The boolean domain is in [[bijection]] with the set of [[decidable propositions|decidable]] [[truth values]]. 
 
 $$\mathrm{Bool} \cong \{P \in \Omega \vert P \vee \neg P\}$$
 
@@ -105,22 +105,64 @@ We can show that
 
 ### Boolean algebra structure
 
-Using the recursion principle of the boolean domain, one can recursively define the logical functions on $\mathrm{Bool}$ as follows
+We can also define the logical functions on $\mathrm{Bool}$ using the recursion principle of the boolean domain.
 
-* For negation $b \mapsto \neg b$
+\begin{definition}
+The [[negation]] of a boolean $x \mapsto \neg x$ is recursively defined by 
 $$\neg 0 \coloneqq 1 \qquad \neg 1 \coloneqq 0$$
-* For conjunction $b \mapsto b \wedge a$, given a boolean $a$
-$$0 \wedge a \coloneqq 0 \qquad 1 \wedge a \coloneqq a$$
-* For disjunction $b \mapsto b \vee a$, given a boolean $a$
-$$0 \vee a \coloneqq a \qquad 1 \vee a \coloneqq 1$$
-* For implication $b \mapsto b \implies a$, given a boolean $a$
-$$0 \implies a \coloneqq 1 \qquad 1 \implies a \coloneqq a$$
-* For the biconditional $b \mapsto b \iff a$, given a boolean $a$
-$$0 \iff a \coloneqq \neg a \qquad 1 \iff a \coloneqq a$$
+\end{definition}
 
-One could prove that $(\mathrm{Bool}, 0, 1, \neg, \wedge, \vee, \implies, \leq)$ form a [[Boolean algebra]] with respect to the inductively defined partial order above. 
+\begin{definition}
+The [[conjunction]] of two booleans $x, y \mapsto x \wedge y$ is recursively defined by 
+$$0 \wedge 0 \coloneqq 0 \qquad 0 \wedge 1 \coloneqq 0 \qquad 1 \wedge 0 \coloneqq 0 \qquad 1 \wedge 1 \coloneqq 1$$
+\end{definition}
 
-A _boolean predicate_ valued in a type $T$ is a function $P: T \rightarrow \mathrm{Bool}$, and the type $T \to \mathrm{Bool}$ is a boolean [[function algebra]] for all types $T$. 
+\begin{definition}
+The [[disjunction]] of two booleans $x, y \mapsto x \vee y$ is recursively defined by 
+$$0 \vee 0 \coloneqq 0 \qquad 0 \vee 1 \coloneqq 1 \qquad 1 \vee 0 \coloneqq 1 \qquad 1 \vee 1 \coloneqq 1$$
+\end{definition}
+
+\begin{definition}
+The [[exclusive disjunction]] of two booleans $x, y \mapsto x \underline{\vee} y$ is recursively defined by 
+$$0 \underline{\vee} 0 \coloneqq 0 \qquad 0 \underline{\vee} 1 \coloneqq 1 \qquad 1 \underline{\vee} 0 \coloneqq 1 \qquad 1 \underline{\vee} 1 \coloneqq 0$$
+\end{definition}
+
+\begin{definition}
+The implication of two booleans $x, y \mapsto x \Rightarrow y$ is recursively defined by 
+$$0 \Rightarrow 0 \coloneqq 1 \qquad 0 \Rightarrow 1 \coloneqq 1 \qquad 1 \Rightarrow 0 \coloneqq 0 \qquad 1 \Rightarrow 1 \coloneqq 1$$
+\end{definition}
+
+\begin{definition}
+The abjunction of two booleans $x, y \mapsto x \not\Rightarrow y$ is recursively defined by 
+$$0 \not\Rightarrow 0 \coloneqq 0 \qquad 0 \not\Rightarrow 1 \coloneqq 0 \qquad 1 \not\Rightarrow 0 \coloneqq 1 \qquad 1 \not\Rightarrow 1 \coloneqq 0$$
+\end{definition}
+
+\begin{definition}
+The converse implication of two booleans $x, y \mapsto x \Leftarrow y$ is recursively defined by 
+$$0 \Leftarrow 0 \coloneqq 1 \qquad 0 \Leftarrow 1 \coloneqq 0 \qquad 1 \Leftarrow 0 \coloneqq 1 \qquad 1 \Leftarrow 1 \coloneqq 1$$
+\end{definition}
+
+\begin{definition}
+The converse abjunction of two booleans $x, y \mapsto x \not\Leftarrow y$ is recursively defined by 
+$$0 \not\Leftarrow 0 \coloneqq 0 \qquad 0 \not\Leftarrow 1 \coloneqq 1 \qquad 1 \not\Leftarrow 0 \coloneqq 1 \qquad 0 \not\Leftarrow 1 \coloneqq 0$$
+\end{definition}
+
+\begin{definition}
+The biconditional of two booleans $x, y \mapsto x \iff y$ is recursively defined by 
+$$0 \iff 0 \coloneqq 1 \qquad 0 \iff 1 \coloneqq 0 \qquad 1 \iff 0 \coloneqq 0 \qquad 1 \iff 1 \coloneqq 1$$
+\end{definition}
+
+We can prove that 
+
+* $(\mathrm{Bool}, 0, 1, \neg, \wedge, \vee, \leq)$ forms a [[Boolean algebra]] with respect to the inductively defined total order above,
+
+* $(\mathrm{Bool}, 0, 1, \wedge, \vee, \Rightarrow, \Leftarrow, \leq)$ forms a [[bi-Heyting algebra]] with respect to the inductively defined total order above,
+
+* $(\mathrm{Bool}, 0, 1, x \mapsto x \underline{\vee} 1, \wedge, \underline{\vee})$ and $(\mathrm{Bool}, 1, 0, x \mapsto x \underline{\vee} 1, \vee, \underline{\vee})$ both form a [[Boolean ring]]
+
+* For all booleans $x$ and $y$, 
+$$x \iff y = 1 \;\mathrm{iff}\; x = y \qquad x \underline{\vee} y = 1 \;\mathrm{iff}\; x \neq y$$
+$$x \Rightarrow y = 1 \;\mathrm{iff}\; x \leq y \qquad x \not\Rightarrow y = 1 \;\mathrm{iff}\; x \gt y \qquad x \Leftarrow y = 1 \;\mathrm{iff}\; x \geq y \qquad x \not\Leftarrow y = 1 \;\mathrm{iff}\; x \lt y$$
 
 ## Related concepts
 
@@ -159,6 +201,28 @@ See also:
 [[!redirects Bit]]
 
 [[!redirects decidable subset classifier]]
+
+[[!redirects set of decidable truth values]]
+[[!redirects proset of decidable truth values]]
+[[!redirects poset of decidable truth values]]
+[[!redirects toset of decidable truth values]]
+[[!redirects semilattice of decidable truth values]]
+[[!redirects lattice of decidable truth values]]
+[[!redirects Boolean algebra of decidable truth values]]
+[[!redirects algebra of decidable truth values]]
+[[!redirects Boolean ring of decidable truth values]]
+[[!redirects ring of decidable truth values]]
+
+[[!redirects set of decidable propositions]]
+[[!redirects proset of decidable propositions]]
+[[!redirects poset of decidable propositions]]
+[[!redirects toset of decidable propositions]]
+[[!redirects semilattice of decidable propositions]]
+[[!redirects lattice of decidable propositions]]
+[[!redirects Boolean algebra of decidable propositions]]
+[[!redirects algebra of decidable propositions]]
+[[!redirects Boolean ring of decidable propositions]]
+[[!redirects ring of decidable propositions]]
 
 [[!redirects two-valued type]]
 [[!redirects two-valued types]]
