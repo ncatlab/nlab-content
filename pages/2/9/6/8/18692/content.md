@@ -232,21 +232,21 @@ of $\mathsf{Weil}_1$.
 
 The definition is due to
 
-* [[Jiri Rosicky]], _Abstract tangent functors_, Diagrammes 12 (1984)
+* [[Jiri Rosicky]], _Abstract tangent functors_, Diagrammes 12:3 (1984), 1–11.  [Numdam](https://www.numdam.org/item/DIA_1984__12__A3_0/).
 
 For developments of his ideas, see
 
-* [[Robin Cockett]] and [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_, ([pdf](https://www.mta.ca/uploadedFiles/Community/Bios/Geoff_Cruttwell/sman3.pdf))
+* [[Robin Cockett]], [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_, Applied Categorical Structures 22, 331–417 (2014), [doi](https://doi.org/10.1007/s10485-013-9312-0), [pdf](https://www.reluctantm.com/gcruttw/publications/sman3.pdf).
 
-* [[Robin Cockett]] and [[Geoff Cruttwell]], _Differential bundles and fibrations for tangent categories_, ([arXiv:1606.08379](https://arxiv.org/abs/1606.08379))
+* [[Robin Cockett]], [[Geoff Cruttwell]], _Differential bundles and fibrations for tangent categories_, ([arXiv:1606.08379](https://arxiv.org/abs/1606.08379))
 
-* [[Robin Cockett]] and [[Geoff Cruttwell]], _Connections in tangent categories_, ([arXiv:1610.08774](https://arxiv.org/abs/1610.08774))
+* [[Robin Cockett]], [[Geoff Cruttwell]], _Connections in tangent categories_, ([arXiv:1610.08774](https://arxiv.org/abs/1610.08774))
 
 * [[Geoff Cruttwell]], [[Rory Lucyshyn-Wright]], _A simplicial foundation for differential and sector forms in tangent categories_, ([arXiv:1606.09080](https://arxiv.org/abs/1606.09080))
 
 * Poon Leung, _Classifying tangent structures using Weil algebras_, Theory and Applications of Categories, 32(9):286–337, 2017, ([tac](http://www.tac.mta.ca/tac/volumes/32/9/32-09abs.html))
 
-* [[Geoff Cruttwell]] and [[Jean-Simon Lemay]], _Tangent categories as a bridge between differential geometry and algebraic geometry_, 2023. ([arXiv:2301.05542](https://arxiv.org/abs/2301.05542))
+* [[Geoff Cruttwell]], [[Jean-Simon Lemay]], _Tangent categories as a bridge between differential geometry and algebraic geometry_, ([arXiv:2301.05542](https://arxiv.org/abs/2301.05542))
 
 * [[Michael Ching]], _A characterization of differential bundles in tangent categories_ &lbrack;[arXiv:2407.06515](https://arxiv.org/abs/2407.06515)&rbrack;
 
@@ -256,29 +256,29 @@ Representation of this tangent structure as exponentiation by a tangent vector i
 
 The enriching category from the above paper was discussed earlier in
 
-* [[Eduardo Dubuc]]. _Sur les modeles de la géométrie différentielle synthétique._ Cahiers de topologie et géométrie différentielle catégoriques 20, no. 3 (1979): 231-279. ([pdf](http://www.numdam.org/article/CTGDC_1979__20_3_231_0.pdf))
+* [[Eduardo Dubuc]], _Sur les modeles de la géométrie différentielle synthétique_ Cahiers de topologie et géométrie différentielle catégoriques 20, no. 3 (1979): 231-279. ([Numdam](https://www.numdam.org/item/CTGDC_1979__20_3_231_0/))
 
-* Wolfgang Bertram _Weil spaces and Weil-Lie groups._ arXiv preprint arXiv:1402.2619 (2014),([arXiv:1402.2619](https://arxiv.org/abs/1402.2619))
+* Wolfgang Bertram, _Weil spaces and Weil-Lie groups_, [arXiv:1402.2619](https://arxiv.org/abs/1402.2619).
 
 Weil Prolongation is discussed in the following papers:
 
-* [[Anders Kock]] (1986). _Convenient vector spaces embed into the Cahiers topos._ Cahiers de topologie et géométrie différentielle catégoriques, 27(1), 3-17 ([pdf](http://www.numdam.org/article/CTGDC_1986__27_1_3_0.pdf))
+* [[Anders Kock]], _Convenient vector spaces embed into the Cahiers topos_, Cahiers de topologie et géométrie différentielle catégoriques, 27:1 (1986), 3-17 ([Numdam](https://www.numdam.org/item/CTGDC_1986__27_1_3_0/))
 
-* Wolfgang Bertram and Arnaud Souvay. _A general construction of Weil functors._ arXiv preprint arXiv:1111.2463 (2011).([arXiv:1111.2463](https://arxiv.org/pdf/1111.2463.pdf))
+* Wolfgang Bertram, Arnaud Souvay, _A general construction of Weil functors_, [arXiv:1111.2463](https://arxiv.org/abs/1111.2463).
 
 On an abstract approach to tangent bundle categories in the style of [[formal category theory]]:
 
-* Marcello Lanfranchi, *The Grothendieck construction in the context of tangent categories* &lbrack;[arXiv:2311.14643](https://arxiv.org/abs/2311.14643)&rbrack;
+* Marcello Lanfranchi, *The Grothendieck construction in the context of tangent categories*, &lbrack;[arXiv:2311.14643](https://arxiv.org/abs/2311.14643)&rbrack;
 
 * Marcello Lanfranchi, *The formal theory of tangentads I* &lbrack;[arXiv:2503.18354](https://arxiv.org/abs/2503.18354)&rbrack;
 
 On [[connections]] in [[algebraic geometry]]:
 
-* G.S.H. Cruttwell, Jean-Simon Pacaud Lemay, Elias Vandenberg, _A Tangent Category Perspective on Connections in Algebraic Geometry_ &lbrack;[arXiv:2406.15137](https://arxiv.org/abs/2406.15137)&rbrack;
+* G. S. H. Cruttwell, Jean-Simon Pacaud Lemay, Elias Vandenberg, _A Tangent Category Perspective on Connections in Algebraic Geometry_ &lbrack;[arXiv:2406.15137](https://arxiv.org/abs/2406.15137)&rbrack;
 
 An extension of the concept of a tangent bundle category to $(\infty, 1)$-categories is in:
 
-* {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_ ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819)).
+* {#BauerBurkeChing21} [[Kristine Bauer]], [[Matthew Burke]], [[Michael Ching]], _Tangent $\infty$-categories and Goodwillie calculus_, ([arXiv:2101.07819](https://arxiv.org/abs/2101.07819)).
 
 Two further examples of tangent structures on an $(\infty,1)$-category, on [[(∞,1)-Topos]] and its [[opposite (infinity,1)-category|opposite]], are given in:
 
