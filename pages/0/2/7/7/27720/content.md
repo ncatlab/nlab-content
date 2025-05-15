@@ -101,7 +101,7 @@ The **type of booleans** can also be defined as the *type of all [[decidable pro
 
 * using the [[type of all propositions]], as the subuniverse of [[decidable propositions]]. 
 
-* as a homotopy-[[terminal object|terminal]] [[univalent Tarski universe]] of [[decidable propositions]], suitably defined. 
+* as a homotopy-[[terminal object|terminal]] univalent type family of [[decidable propositions]], suitably defined. 
 
 * as a [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P) \times \mathrm{isDecidable}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P)) \times \mathrm{isDecidable}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
@@ -115,7 +115,7 @@ where $A \vee B$ is the [[disjunction]] of two types $A$ and $B$ and $\neg A \eq
 
 #### As a homotopy-terminal type
 
-A **univalent Tarski universe of decidable propositions** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
+A **univalent family of decidable propositions** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
 
 * $B(x)$ is a [[decidable proposition]] for all $x:A$,
 
@@ -123,9 +123,9 @@ A **univalent Tarski universe of decidable propositions** consists of a type $A$
 $$\mathrm{tr}^B(x, y):x =_A y \to (B(x) \simeq B(y))$$
 is an [[equivalence of types]] for all $x:A$ and $y:A$
 
-A morphism of univalent Tarski universe of decidable propositions between Tarski universes of decidable propositions $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
+A morphism of univalent families of decidable propositions between univalent families of decidable propositions $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
 
-The **type of booleans** $(\mathrm{Bool}, \mathrm{El})$ is the homotopy-terminal univalent Tarski universe of decidable propositions: given any other univalent Tarski universe of decidable propositions $(A, B)$, there exists a unique function $u_A:A \to \mathrm{Bool}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
+The **type of booleans** $(\mathrm{Bool}, \mathrm{El})$ is the homotopy-terminal univalent family of decidable propositions: given any other univalent family of decidable propositions $(A, B)$, there exists a unique function $u_A:A \to \mathrm{Bool}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
 
 #### As a record type with type fields
 
