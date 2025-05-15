@@ -98,31 +98,99 @@ $$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(
 [[!redirects function application to paths]]
 [[!redirects function application to equalities]]
 
+[[!redirects function applications to identities]]
+[[!redirects function applications to identifications]]
+[[!redirects function applications to paths]]
+[[!redirects function applications to equalities]]
+
+[[!redirects function application on identities]]
+[[!redirects function application on identifications]]
+[[!redirects function application on paths]]
+[[!redirects function application on equalities]]
+
+[[!redirects function applications on identities]]
+[[!redirects function applications on identifications]]
+[[!redirects function applications on paths]]
+[[!redirects function applications on equalities]]
+
 [[!redirects application of a function to identities]]
 [[!redirects application of a function to identifications]]
 [[!redirects application of a function to paths]]
 [[!redirects application of a function to equalities]]
+
+[[!redirects applications of a function to identities]]
+[[!redirects applications of a function to identifications]]
+[[!redirects applications of a function to paths]]
+[[!redirects applications of a function to equalities]]
+
+[[!redirects application of a function on identities]]
+[[!redirects application of a function on identifications]]
+[[!redirects application of a function on paths]]
+[[!redirects application of a function on equalities]]
+
+[[!redirects applications of a function on identities]]
+[[!redirects applications of a function on identifications]]
+[[!redirects applications of a function on paths]]
+[[!redirects applications of a function on equalities]]
 
 [[!redirects action on identities]]
 [[!redirects action on identifications]]
 [[!redirects action on paths]]
 [[!redirects action on equalities]]
 
+[[!redirects actions on identities]]
+[[!redirects actions on identifications]]
+[[!redirects actions on paths]]
+[[!redirects actions on equalities]]
+
 [[!redirects binary function application to identities]]
 [[!redirects binary function application to identifications]]
 [[!redirects binary function application to paths]]
 [[!redirects binary function application to equalities]]
+
+[[!redirects binary function applications to identities]]
+[[!redirects binary function applications to identifications]]
+[[!redirects binary function applications to paths]]
+[[!redirects binary function applications to equalities]]
+
+[[!redirects binary function application on identities]]
+[[!redirects binary function application on identifications]]
+[[!redirects binary function application on paths]]
+[[!redirects binary function application on equalities]]
+
+[[!redirects binary function applications on identities]]
+[[!redirects binary function applications on identifications]]
+[[!redirects binary function applications on paths]]
+[[!redirects binary function applications on equalities]]
 
 [[!redirects application of a binary function to identities]]
 [[!redirects application of a binary function to identifications]]
 [[!redirects application of a binary function to paths]]
 [[!redirects application of a binary function to equalities]]
 
+[[!redirects applications of a binary function to identities]]
+[[!redirects applications of a binary function to identifications]]
+[[!redirects applications of a binary function to paths]]
+[[!redirects applications of a binary function to equalities]]
+
+[[!redirects application of a binary function on identities]]
+[[!redirects application of a binary function on identifications]]
+[[!redirects application of a binary function on paths]]
+[[!redirects application of a binary function on equalities]]
+
+[[!redirects applications of a binary function on identities]]
+[[!redirects applications of a binary function on identifications]]
+[[!redirects applications of a binary function on paths]]
+[[!redirects applications of a binary function on equalities]]
+
 [[!redirects binary action on identities]]
 [[!redirects binary action on identifications]]
 [[!redirects binary action on paths]]
 [[!redirects binary action on equalities]]
 
-[[!redirects happly]]
+[[!redirects binary actions on identities]]
+[[!redirects binary actions on identifications]]
+[[!redirects binary actions on paths]]
+[[!redirects binary actions on equalities]]
 
-[[!redirects function application to identities]]
+[[!redirects happly]]
