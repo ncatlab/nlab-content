@@ -7,9 +7,9 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |-----|------|----|---|------|
 |Exact Categories and Duality|[[David Buchsbaum]]|1954|[doi](https://doi.org/10.1090/S0002-9947-1955-0074407-6)|on [[homological algebra]] in [[abelian categories]]|
 |Functor theory|[[Peter Freyd]]|1960|[Category Theory Archive](https://github.com/CategoryTheoryArchive/archive/blob/main/resources/1960_freyd_functor-theory.pdf) | |
-|[[Des Catégories Abéliennes]]|[[Pierre Gabriel]]|1960|[numdam](http://www.numdam.org/item/?id=BSMF_1962__90__323_0)| |
+|[[Des Catégories Abéliennes]]|[[Pierre Gabriel]]|1960|[numdam](http://www.numdam.org/item/?id=BSMF_1962__90__323_0)| on [[abelian categories]] |
 |[[Functorial Semantics of Algebraic Theories]]|[[William Lawvere]]|1963|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)| on [[algebraic theories]] |
-|The Functorial Foundations of Measure Theory|[[Fred Linton]]|1963|[Scan](http://tlvp.net/~fej.math.wes/FredLintonPhDThesis_compressed.pdf)| |
+|The Functorial Foundations of Measure Theory|[[Fred Linton]]|1963|[Scan](http://tlvp.net/~fej.math.wes/FredLintonPhDThesis_compressed.pdf)| on [[measure theory]] |
 |Categories of Set Valued Functors|[[Marta Bunge]]|1966|[ProQuest](https://www.proquest.com/docview/302207560/48E9615B59B04E17PQ/1?accountid=10474&sourcetype=Dissertations%20&%20Theses) | on [[categories of presheaves]] |
 |Fibred Categories and the Theory of Structures (Part I)|[[John Duskin]]|1966|[McMaster repository](https://macsphere.mcmaster.ca/handle/11375/17610)| |
 |Triples, algebras and cohomology|[[Jon Beck]]|1967|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)| |
