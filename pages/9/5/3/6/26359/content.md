@@ -45,7 +45,7 @@ The **type of (all) finite types** $\mathrm{FinType}$ in a [[dependent type theo
 
 * as a [[positive type|positive]] [[higher inductive type]] representing the [[Rezk completion]] of the [[strict category]] of standard [[finite types]], whose objects is the set of [[natural numbers]]. 
 
-* as a homotopy-[[terminal object|terminal]] [[univalent Tarski universe]] of [[finite types]], suitably defined. 
+* as a homotopy-[[terminal object|terminal]] univalent type family of [[finite types]], suitably defined. 
 
 * as a [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isFinite}(P)$ or $\sum_{P:U} \mathrm{isFinite}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
@@ -61,7 +61,7 @@ This Tarski universe is a univalent Tarski universe of finite types by definitio
 
 ### As a homotopy-terminal type
 
-A **univalent Tarski universe of finite types** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
+A **univalent family of finite types** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
 
 * $B(x)$ is a [[finite type]] for all $x:A$,
 
@@ -69,9 +69,9 @@ A **univalent Tarski universe of finite types** consists of a type $A$ and a typ
 $$\mathrm{tr}^B(x, y):x =_A y \to (B(x) \simeq B(y))$$
 is an [[equivalence of types]] for all $x:A$ and $y:A$
 
-A morphism of univalent Tarski universe of finite types between univalent Tarski universes of finite types $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
+A morphism of univalent families of finite types between univalent families of finite types $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
 
-The **type of (all) finite types** $(\mathrm{FinType}, \mathrm{El})$ is the homotopy-terminal univalent Tarski universe of finite types: given any other univalent Tarski universe of finite types $(A, B)$, there exists a unique function $u_A:A \to \mathrm{FinType}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
+The **type of (all) finite types** $(\mathrm{FinType}, \mathrm{El})$ is the homotopy-terminal univalent family of finite types: given any other univalent family of finite types $(A, B)$, there exists a unique function $u_A:A \to \mathrm{FinType}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
 
 ### As a record type with a type fields
 
