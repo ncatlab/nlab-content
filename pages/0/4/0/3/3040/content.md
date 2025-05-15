@@ -1,10 +1,12 @@
-Stephen Lack (commonly known as 'Steve') is an Australian [[category theory|category theorist]] with notable contributions to [[2-category theory]] and the theory of [[monoidal categories]].
+Stephen Geoffrey Lack (commonly known as 'Steve') is an Australian [[category theory|category theorist]] with notable contributions to [[2-category theory]] and the theory of [[monoidal categories]].
 
 He was winner of [The Australian Mathematical Society Medal](http://www.austms.org.au/The+Australian+Mathematical+Society+Medal) for 2009.
 
 He is on the Steering Board of the Journal '[[Compositionality]]'.
 
-* [Homepage](http://maths.mq.edu.au/~slack/) of Steve Lack.
+* [Homepage](https://researchers.mq.edu.au/en/persons/steve-lack), [archived old homepage](https://web.archive.org/web/20220929011918/http://web.science.mq.edu.au/~slack/)
+
+* [Mathematics Genealogy Project page](https://mathgenealogy.org/id.php?id=70001).
 
 ## Selected writings
 
