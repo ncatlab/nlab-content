@@ -1,11 +1,17 @@
-Jon Mock Beck was a [[category theory|category theorist]] whose thesis (under the supervision of [[Sammy Eilenberg]]) and subsequent work with [[Mike Barr]] have been highly influential in the development of the subject.  He died in March 2006.
+Jonathan Mock Beck (1935-2006) was a [[category theory|category theorist]] whose thesis (under the supervision of [[Sammy Eilenberg]]) and subsequent work with [[Mike Barr]] have been highly influential in the development of the subject.  
 
 
 * [Wikipedia article](http://en.wikipedia.org/wiki/Jonathan_Mock_Beck)
 
-* [thesis](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html)
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=13272)
+
+
 
 ## Selected writings
+
+On [[monads]] ("triples"), [[algebras over monads]] and [[monadic cohomology]]:
+
+* [[Jonathan M. Beck]]: *Triples, algebras and cohomology*, PhD thesis, Columbia University (1967), reprinted as: Reprints in Theory and Applications of Categories **2** (2003) 1-59 &lbrack;[tac:tr2](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/2/tr2.pdf)&rbrack;
 
 Introducing the [[monadicity theorem]]:
 
@@ -32,3 +38,5 @@ category:people
 [[!redirects Jonathan Mock Beck]]
 [[!redirects Jonathan Beck]]
 [[!redirects Jon Mock Beck]]
+
+[[!redirects Jonathan M. Beck ]]
