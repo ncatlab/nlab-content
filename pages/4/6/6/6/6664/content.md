@@ -44,8 +44,11 @@ On [[AdS/CFT]] for $AdS_3/CFT_2$:
 
 * {#EberhardtGaberdielGopakumar19} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], [[Rajesh Gopakumar]], _Deriving the $AdS_3/CFT_2$ Correspondence_ ([arXiv:1911.00378](https://arxiv.org/abs/1911.00378))
 
+* [[Lorenz Eberhardt]], [[Matthias R. Gaberdiel]]: *A localising $AdS_3$ sigma model* \[<a href="https://arxiv.org/abs/2505.09226">arXiv:2505.09226</a>\]
 
-## Related $n$Lab entries
+
+
+## Related entries
 
 * [[duality between type I and heterotic string theory]]
 
