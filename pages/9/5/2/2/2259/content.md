@@ -1,16 +1,20 @@
 
-With [[S. Eilenberg|"Sammy" Eilenberg]], Saunders Mac Lane was one of the original pioneers of
-[[category theory]]. He initially worked on it as a language to enable 'natural transformations' to be described in a 'natural' way, and also developed, again with Eilenberg many of the strong links with group theory and the cohomology of groups.  He was the author of one of the key books on homological algebra, see below. 
+
+Saunders MacLane (1909-2005) was one of the founders of [[category theory]], with [[Samuel Eilenberg]]. Their 1945 paper *[[General Theory of Natural Equivalences]]* introduced [[category theory]] with the notions of *[[categories]]*, *[[functors]]* and *[[natural transformations]]*, motivated by formalizing the concept of [[dual objects]]. 
+
+Further with Eilenberg he developed of the strong links with [[group theory]] and [[group cohomology]].  
 
 With [[Henry Whitehead]] he gave the first algebraic description of the [[homotopy 2-type]] of a space.
 
+\linebreak
 
-* [English Wikipedia entry](https://secure.wikimedia.org/wikipedia/en/wiki/Saunders_Mac_Lane)
+* [Wikipedia entry](https://secure.wikimedia.org/wikipedia/en/wiki/Saunders_Mac_Lane)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=834)
 
 * [MacTutor biography](http://www-history.mcs.st-andrews.ac.uk/Biographies/MacLane.html)
 
-
-* [[Colin McLarty]], _The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics_,Brit. J. Phil. Sci. 2007 ([pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf))
+* [[Colin McLarty]]: *The Last Mathematician from Hilbert's G&#246;ttingen: Saunders Mac Lane as Philosopher of Mathematics*, Brit. J. Phil. Sci. (2007) &lbrack;[pdf](http://www.cwru.edu/artsci/phil/BJPSMacLane.pdf)&rbrack;
 
 
 ## Selected writings
@@ -90,11 +94,6 @@ On [[sheaf and topos theory]]:
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], *[[Sheaves in Geometry and Logic]]*, Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
-
-
-
-
-)
 
 See also:
 
