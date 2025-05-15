@@ -1,7 +1,39 @@
 
-With [[Saunders Mac Lane]], 'Sammy' Eilenberg was one of the 'fathers' of [[category theory]]. In their 1945 paper *[[General Theory of Natural Equivalences]]* they introduced [[category theory]] with the notions of *[[categories]]*, *[[functors]]* and *[[natural transformations]]*. 
+Samuel 'Sammy' Eilenberg (1913-1998) was one of the founders of [[category theory]], with [[Saunders Mac Lane]]. Their 1945 paper *[[General Theory of Natural Equivalences]]* introduced [[category theory]] with the notions of *[[categories]]*, *[[functors]]* and *[[natural transformations]]*, motivated by formalizing the concept of [[dual objects]]. 
+
+Further with Eilenberg he developed of the strong links with [[group theory]] and [[group cohomology]].  
+
+
+\linebreak
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Samuel_Eilenberg)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=7643)
+
+* [[Hyman Bass]], [[Henri Cartan]], [[Peter Freyd]], [[Alex Heller]], [[Saunders Mac Lane]]: \linebreak
+  *Samuel Eilenberg (1913–1998)*, \linebreak
+  Notices of the AMS **45** 9 (Oct 1998) 1344-1352 &lbrack;[pdf](https://www.ams.org/notices/199810/mem-eilenberg.pdf)&rbrack;
+
+
+## Selected students
+ {#SelectedStudents}
+
+* [[Alex Heller]] (1950)
+
+* [[Kuo Tsai Chen]] (1950)
+
+* [[David Buchsbaum]] (1954)
+
+* [[Daniel Kan]] (1955)
+
+* [[William Lawvere]] (1963)
+
+* [[Harry Applegate]] (1965)
+
+* [[Myles Tierney]] (1965)
+
+* [[Jonathan Beck]] (1967)
+
 
 ## Selected writings
 
