@@ -309,7 +309,8 @@ Discussion in [[homotopy type theory]]:
 
 Large recursion and descent of the type of booleans can be found in 
 
-* {#Sattler23} [[Christian Sattler]], *Natural numbers from integers* ([pdf](https://www.cse.chalmers.se/~sattler/docs/naturals.pdf))
+* {#Sattler23} [[Christian Sattler]], [[David Wärn]], *Natural numbers from integers*, LICS'24 (2024) 1–9 &lbrack;[arXiv:2405.18388](http://arxiv.org/abs/2405.18388), [doi:10.1145/3661814.3662129](https://doi.org/10.1145/3661814.3662129)&rbrack;
+
 
 [[!redirects boolean type]]
 [[!redirects boolean types]]
