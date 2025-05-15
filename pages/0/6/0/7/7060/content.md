@@ -62,7 +62,7 @@ The **type of (all) propositions** $\mathrm{Prop}$ in a [[dependent type theory]
 
 * in [[dependent type theory with type variables]] and [[impredicative polymorphism]], as a [[positive type|positive]] [[higher inductive-inductive type]] representing the homotopy-[[initial object|initial]] [[frame]] or [[complete Heyting algebra]]. 
 
-* as a homotopy-[[terminal object|terminal]] [[univalent Tarski universe]] of [[h-propositions]], suitably defined. 
+* as a homotopy-[[terminal object|terminal]] univalent family of [[h-propositions]], suitably defined. 
 
 * as a [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
@@ -84,7 +84,7 @@ and the Tarski universe is univalent by concatenation of identifications in the 
 
 ### As a homotopy-terminal type
 
-A **univalent Tarski universe of propositions** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
+A **univalent family of propositions** consists of a type $A$ and a type family $(B(x))_{x:A}$ such that 
 
 * $B(x)$ is a [[mere proposition]] for all $x:A$,
 
@@ -92,9 +92,9 @@ A **univalent Tarski universe of propositions** consists of a type $A$ and a typ
 $$\mathrm{tr}^B(x, y):x =_A y \to (B(x) \simeq B(y))$$
 is an [[equivalence of types]] for all $x:A$ and $y:A$
 
-A morphism of univalent Tarski universe of propositions between Tarski universes of propositions $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
+A morphism of univalent families of propositions between univalent families of propositions $(A, B)$ and $(A', B')$ consists of a function $f_A:A \to A'$ and a family of functions $f_B(x):B(x) \to B'(f_A(x))$.  
 
-The **type of (all) propositions** $(\mathrm{Prop}, \mathrm{El})$ is the homotopy-terminal univalent Tarski universe of propositions: given any other univalent Tarski universe of propositions $(A, B)$, there exists a unique function $u_A:A \to \mathrm{Prop}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
+The **type of (all) propositions** $(\mathrm{Prop}, \mathrm{El})$ is the homotopy-terminal univalent family of propositions: given any other univalent family of propositions $(A, B)$, there exists a unique function $u_A:A \to \mathrm{Prop}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
 
 ### As a record type with type fields
 
