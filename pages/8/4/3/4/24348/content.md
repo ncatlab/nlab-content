@@ -6,6 +6,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Title|Author|Year|URL|Summary|
 |-----|------|----|---|------|
 |Exact Categories and Duality|[[David Buchsbaum]]|1954|[doi](https://doi.org/10.1090/S0002-9947-1955-0074407-6)|on [[homological algebra]] in [[abelian categories]]|
+|Representations for Dicategories|Stanley Parlett Hughart|1954|[doi](https://doi.org/10.7907/DFNY-2J08)|on [[factorisation systems]]|
 |Functor theory|[[Peter Freyd]]|1960|[Category Theory Archive](https://github.com/CategoryTheoryArchive/archive/blob/main/resources/1960_freyd_functor-theory.pdf) | |
 |[[Des Catégories Abéliennes]]|[[Pierre Gabriel]]|1960|[numdam](http://www.numdam.org/item/?id=BSMF_1962__90__323_0)| on [[abelian categories]] |
 |[[Functorial Semantics of Algebraic Theories]]|[[William Lawvere]]|1963|[TAC reprint](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html)| on [[algebraic theories]] |
