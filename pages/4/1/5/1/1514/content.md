@@ -321,6 +321,9 @@ See also:
 
 * {#Ong} Yen Chin Ong, *Where is the Commutation Relation Hiding in the Path Integral Formulation?* &lbrack;[pdf](https://physicstravelguide.com/_media/quantum_theory/path-integral.pdf), [[Ong-CommutationRelationInPathIntegral.pdf:file]]&rbrack;
 
+* Giampiero Esposito, Tepper L. Gill: *On the physical and mathematical foundations of quantum physics via functional integrals* &lbrack;[arXiv:2408.16404](https://arxiv.org/abs/2408.16404)&rbrack;
+
+
 Further lecture notes:
 
 * R. Rosenfelder, _Path Integrals in Quantum Physics_ &lbrack;[arXiv:1209.1315](http://arxiv.org/abs/1209.1315)&rbrack;
