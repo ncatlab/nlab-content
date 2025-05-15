@@ -128,23 +128,23 @@ $$0 \underline{\vee} 0 \coloneqq 0 \qquad 0 \underline{\vee} 1 \coloneqq 1 \qqua
 \end{definition}
 
 \begin{definition}
-The implication of two booleans $x, y \mapsto x \Rightarrow y$ is recursively defined by 
-$$0 \Rightarrow 0 \coloneqq 1 \qquad 0 \Rightarrow 1 \coloneqq 1 \qquad 1 \Rightarrow 0 \coloneqq 0 \qquad 1 \Rightarrow 1 \coloneqq 1$$
+The implication of two booleans $x, y \mapsto x \rightarrow y$ is recursively defined by 
+$$0 \rightarrow 0 \coloneqq 1 \qquad 0 \rightarrow 1 \coloneqq 1 \qquad 1 \rightarrow 0 \coloneqq 0 \qquad 1 \rightarrow 1 \coloneqq 1$$
 \end{definition}
 
 \begin{definition}
-The abjunction of two booleans $x, y \mapsto x \not\Rightarrow y$ is recursively defined by 
-$$0 \not\Rightarrow 0 \coloneqq 0 \qquad 0 \not\Rightarrow 1 \coloneqq 0 \qquad 1 \not\Rightarrow 0 \coloneqq 1 \qquad 1 \not\Rightarrow 1 \coloneqq 0$$
+The abjunction of two booleans $x, y \mapsto x \nrightarrow y$ is recursively defined by 
+$$0 \nrightarrow 0 \coloneqq 0 \qquad 0 \nrightarrow 1 \coloneqq 0 \qquad 1 \nrightarrow 0 \coloneqq 1 \qquad 1 \nrightarrow 1 \coloneqq 0$$
 \end{definition}
 
 \begin{definition}
-The converse implication of two booleans $x, y \mapsto x \Leftarrow y$ is recursively defined by 
-$$0 \Leftarrow 0 \coloneqq 1 \qquad 0 \Leftarrow 1 \coloneqq 0 \qquad 1 \Leftarrow 0 \coloneqq 1 \qquad 1 \Leftarrow 1 \coloneqq 1$$
+The converse implication of two booleans $x, y \mapsto x \leftarrow y$ is recursively defined by 
+$$0 \leftarrow 0 \coloneqq 1 \qquad 0 \leftarrow 1 \coloneqq 0 \qquad 1 \leftarrow 0 \coloneqq 1 \qquad 1 \leftarrow 1 \coloneqq 1$$
 \end{definition}
 
 \begin{definition}
-The converse abjunction of two booleans $x, y \mapsto x \not\Leftarrow y$ is recursively defined by 
-$$0 \not\Leftarrow 0 \coloneqq 0 \qquad 0 \not\Leftarrow 1 \coloneqq 1 \qquad 1 \not\Leftarrow 0 \coloneqq 1 \qquad 0 \not\Leftarrow 1 \coloneqq 0$$
+The converse abjunction of two booleans $x, y \mapsto x \nleftarrow y$ is recursively defined by 
+$$0 \nleftarrow 0 \coloneqq 0 \qquad 0 \nleftarrow 1 \coloneqq 1 \qquad 1 \nleftarrow 0 \coloneqq 1 \qquad 0 \nleftarrow 1 \coloneqq 0$$
 \end{definition}
 
 \begin{definition}
@@ -156,13 +156,13 @@ We can prove that
 
 * $(\mathrm{Bool}, 0, 1, \neg, \wedge, \vee, \leq)$ forms a [[Boolean algebra]] with respect to the inductively defined total order above,
 
-* $(\mathrm{Bool}, 0, 1, \wedge, \vee, \Rightarrow, \Leftarrow, \leq)$ forms a [[bi-Heyting algebra]] with respect to the inductively defined total order above,
+* $(\mathrm{Bool}, 0, 1, \wedge, \vee, \rightarrow, \leftarrow, \leq)$ forms a [[bi-Heyting algebra]] with respect to the inductively defined total order above,
 
-* $(\mathrm{Bool}, 0, 1, x \mapsto x \underline{\vee} 1, \wedge, \underline{\vee})$ and $(\mathrm{Bool}, 1, 0, x \mapsto x \underline{\vee} 1, \vee, \underline{\vee})$ both form a [[Boolean ring]]
+* $(\mathrm{Bool}, 0, 1, \neg, \wedge, \underline{\vee})$ and $(\mathrm{Bool}, 1, 0, \neg, \vee, \underline{\vee})$ both form a [[Boolean ring]]
 
 * For all booleans $x$ and $y$, 
 $$x \iff y = 1 \;\mathrm{iff}\; x = y \qquad x \underline{\vee} y = 1 \;\mathrm{iff}\; x \neq y$$
-$$x \Rightarrow y = 1 \;\mathrm{iff}\; x \leq y \qquad x \not\Rightarrow y = 1 \;\mathrm{iff}\; x \gt y \qquad x \Leftarrow y = 1 \;\mathrm{iff}\; x \geq y \qquad x \not\Leftarrow y = 1 \;\mathrm{iff}\; x \lt y$$
+$$x \rightarrow y = 1 \;\mathrm{iff}\; x \leq y \qquad x \nrightarrow y = 1 \;\mathrm{iff}\; x \gt y \qquad x \leftarrow y = 1 \;\mathrm{iff}\; x \geq y \qquad x \nleftarrow y = 1 \;\mathrm{iff}\; x \lt y$$
 
 ## Related concepts
 
