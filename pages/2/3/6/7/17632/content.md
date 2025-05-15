@@ -31,7 +31,7 @@ We can additionally specify a characteristic $p$ to obtain $\mathsf{ACF}_p$ by e
 
 * $\mathsf{ACF}$ is _totally transcendental_: [[Morley rank]] is defined everywhere. In this setting Morley rank subsumes the usual Krull dimension of an algebraic variety.
 
-* $\mathsf{ACF}$ is _uncountably categorical_: for each uncountable $\kappa$, models of $\mathsf{ACF}$ of size $\kappa$ must all be isomorphic. This fails at $\aleph_0$: $\mathbb{Q}^{\operatorname{alg}}$ has transcendence degree zero while there exist countable algebraically closed overfields of $\mathbb{Q}$ with infinite transcendence degree.
+* $\mathsf{ACF}_p$ is _uncountably categorical_: for each uncountable $\kappa$, models of $\mathsf{ACF}_p$ of size $\kappa$ must all be isomorphic. This fails at $\aleph_0$: $\mathbb{Q}^{\operatorname{alg}}$ has transcendence degree zero while there exist countable algebraically closed overfields of $\mathbb{Q}$ with infinite transcendence degree.
 
 * $\mathsf{ACF}$ [[elimination of imaginaries|eliminates imaginaries]]. This means that its [[syntactic category]] $\mathbf{Def}(\mathsf{ACF})$ has effective [[internal congruence|internal congruences]], and has a good [[model-theoretic Galois theory|Galois theory]].
 
