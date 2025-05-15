@@ -7,3 +7,4 @@
 category: people
 
 [[!redirects Rory B. B. Lucyshyn-Wright]]
+[[!redirects R. B. B. Lucyshyn-Wright]]
