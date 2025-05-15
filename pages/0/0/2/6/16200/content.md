@@ -7,6 +7,9 @@ Alexei Starobinsky (1948 - 2023)
 
 * *[‘A Physicist Has to Be a Romantic’](https://www.hse.ru/en/news/305811947.html)*, HSE University News (Sep 2019)
 
+* Varun Sahni: *Remembering Alexei Starobinsky -- the gentle giant of cosmology* &lbrack;[arXiv:2505.08824](https://arxiv.org/abs/2505.08824)&rbrack;
+
+
 ## Selected writings
 
 Introducing the [[Starobinsky model of cosmic inflation]] (and with it the field of [[cosmic inflation]] in the first place):
