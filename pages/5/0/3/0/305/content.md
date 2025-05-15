@@ -1,4 +1,4 @@
-Geoff Cruttwell is an assistant professor in the Department of Mathematics and Computer Science at Mount Allison University (and an adjunt Professor at the Dalhousie university mathematics department).
+Geoffrey S. H. Cruttwell is an assistant professor in the Department of Mathematics and Computer Science at Mount Allison University (and an adjunt Professor at the Dalhousie university mathematics department).
 
 
 * [institutional homepage](https://www.mta.ca/gcruttwell/)
@@ -13,5 +13,6 @@ Geoff Cruttwell is an assistant professor in the Department of Mathematics and C
 
 category: people
 [[!redirects G. Cruttwell]]
-[[!redirects G.S.H. Cruttwell]]
+[[!redirects G. S. H. Cruttwell]]
 [[!redirects Geoffrey Cruttwell]]
+[[!redirects Geoffrey S. H. Cruttwell]]
