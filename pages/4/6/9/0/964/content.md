@@ -163,41 +163,36 @@ Conversely, any [[topological space]] has a [[frame of opens|frame of open subse
 
 ## Examples
 
-+-- {: .num_example}
-###### Example
-
+\begin{example}
 For $X$ a [[topological space]], the [[category of open subsets]] of $X$ is a frame: the [[frame of opens]].
+\end{example}
 
-=--
-
-+-- {: .num_example}
-###### Example
-
+\begin{example}
 For $X$ a [[set]], the [[power set]] $\mathcal{P}(X)$ of $X$ is the [[frame of opens]] corresponding to the [[discrete topology]] on $X$. 
+\end{example}
 
-=--
-
-+-- {: .num_example}
-###### Example
-
+\begin{example}
 The [[poset of truth values]] $\Omega$ is a [[frame]] equivalent to the [[frame of opens]] corresponding to the [[discrete topology]] on a [[singleton]]. 
+\end{example}
 
-=--
 
-+-- {: .num_example}
-###### Example
-
+\begin{example}
 For $\mathcal{E}$ a [[geometric category]] and $X$ an [[object]] in $\mathcal{E}$, the [[subobject poset]] $\mathrm{Sub}(X)$ is a [[frame]]. 
+\end{example}
 
-=--
+\begin{example}
+The [[category]] of [[boolean]]-indexed sets and [[surjection]]-preserving functions is a [[frame]] equivalent to the [[frame of truth values]]. 
+\end{example}
 
-+-- {: .num_prop} 
-###### Proposition 
+\begin{example}
+The [[category]] of [[total order|total]] [[Boolean algebras]] and [[Boolean algebra]] [[homomorphisms]] is a [[frame]] equivalent to the [[frame of truth values]]. 
+\end{example}
+
+\begin{proposition}
 A [[sup-lattice|complete]] [[decidable equality|decidable]] [[linear order]] is a frame. 
-=-- 
+\end{proposition}
 
-+-- {: .proof} 
-###### Proof 
+\begin{proof}
 For any $x$ and collection $y_i$, the inequality $\bigvee_i x \wedge y_i \leq x \wedge \bigvee_i y_i$ holds automatically. For the reverse inequality, we note this follows trivially in case $\bigvee_i y_i \leq x$, since in that case we have $y_i \leq x$ for all $i$, whence 
 
 $$x \wedge \bigvee_i y_i = \bigvee_i y_i = \bigvee_i x \wedge y_i.$$ 
@@ -207,7 +202,7 @@ Otherwise we are in the case $x \lt \bigvee_i y_i$, where we must show the inequ
 $$x \wedge \bigvee_i y_i = x \leq \bigvee_i x \wedge y_i$$ 
 
 But this inequality must hold, else $\bigvee_i x \wedge y_i \lt x$ which would imply $y_i \lt x$ for all $i$, whence $\bigvee_i y_i \leq x$, contradiction. 
-=-- 
+\end{proof}
 
 ## Related concepts
 
