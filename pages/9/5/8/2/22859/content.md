@@ -167,8 +167,19 @@ The focus is more on codifferential categories in:
 * [[Jean-Simon Lemay]]: _Why FHilb is Not an Interesting (Co)Differential Category_, conference proceedings of QPL2019 ([arXiv:1803.02304](https://arxiv.org/abs/1803.02304),  	
 [doi:10.4202/EPTCS.318.2](https://doi.org/10.4204/EPTCS.318.2))
 
-* [[Jean-Simon Lemay]]: _Differential algebras in codifferential categories_, Journal of pure and applied algebra (2019) ([arXiv:1803.02304](https://arxiv.org/abs/1803.02304),  	
+* [[Jean-Simon Lemay]]: _Differential algebras in codifferential categories_, Journal of Pure and Applied Algebra (2019) ([arXiv:1803.02304](https://arxiv.org/abs/1803.02304),  	
 [doi:10.1016/j.jpaa.2019.01.005](https://doi.org/10.1016/j.jpaa.2019.01.005))
+
+Further references:
+
+* [[G. S. H. Cruttwell]], [[J.-S. P. Lemay]], [[R. B. B. Lucyshyn-Wright]], _Integral and differential structure on the free C^∞-ring modality_, Cahiers de Topologie et Géométrie Différentielle Catégoriques LXII (2021), 116-176.  [arXiv](https://arxiv.org/abs/1902.04555).
+
+* [[Richard Blute]], [[Rory B. B. Lucyshyn-Wright]], Keith O'Neill, _Derivations in Codifferential Categories_, Cahiers de Topologie et Géométrie Différentielle Catégoriques LVII (2016), 243-280.  [arXiv](https://arxiv.org/abs/1505.00220).
+
+* Keith O’Neill, _Smoothness in Codifferential Categories_, [doi](https://doi.org/10393/36703).
+
+* [[G. S. H. Cruttwell]], [[Jean-Simon Pacaud Lemay]], _Differential Bundles in Commutative Algebra and Algebraic Geometry_, Theory and Applications of Categories 39:36, 1077-1120, 2023.  [arXiv](https://arxiv.org/abs/2301.05542).
+
 
 [[!redirects differential categories]]
 [[!redirects codifferential category]]
