@@ -26,6 +26,9 @@ On proof of [[AdS/CFT duality]] for the special case of [[AdS3-CFT2|$AdS_3/CFT_2
 
 * [[Lorenz Eberhardt]], *A perturbative CFT dual for pure NS-NS $AdS_3$ strings*, J. Phys. A: Math. Theor. **55** 064001 &lbrack;[arXiv:2110.07535](https://arxiv.org/abs/2110.07535), [arXiv:10.1088/1751-8121/ac47b2](https://doi.org/10.1088/1751-8121/ac47b2)&rbrack;
 
+* [[Lorenz Eberhardt]], [[Matthias R. Gaberdiel]]: *A localising $AdS_3$ sigma model* \[<a href="https://arxiv.org/abs/2505.09226">arXiv:2505.09226</a>\]
+
+
 On the [[Wess-Zumino-Witten model]]:
 
 * [[Lorenz Eberhardt]], *Wess-Zumino-Witten models*, lecture notes at *[YRISW 2019: A modern primer for 2D CFT](https://conf.itp.phys.ethz.ch/esi-school/)*, Vienna (2019) &lbrack;[pdf](https://conf.itp.phys.ethz.ch/esi-school/Lecture_notes/WZW%20models.pdf), [[Eberhardt-WZWModels.pdf:file]]&rbrack;
