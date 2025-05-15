@@ -32,6 +32,8 @@ Every [[monad]] induces an augmented cosimplicial [[endofunctor]]; in an [[addit
 
 On [[monad|monadic]] [[cohomology]] and [[comonad|comonadic]] [[homology]]:
 
+* [[Jonathan M. Beck]]: *Triples, algebras and cohomology*, PhD thesis, Columbia University (1967), reprinted as: Reprints in Theory and Applications of Categories **2** (2003) 1-59 &lbrack;[tac:tr2](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/2/tr2.pdf)&rbrack;
+
 * [[Michael Barr]], [[Jon Beck]], _Homology and Standard Constructions_, in: _[[Seminar on Triples and Categorical Homology Theory]]_, Lecture Notes in Maths. **80**, Springer (1969), Reprints in Theory and Applications of Categories __18__ (2008) 186-248 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
 
 *  {#Duskin75} [[John Duskin]], *Simplicial methods and the interpretation of "triple" cohomology"*  Memoirs  of the AMS **163**, Amer. Math. Soc. (1975) &lbrack;[ISBN:978-1-4704-0645-5](https://bookstore.ams.org/memo-3-163)&rbrack;
