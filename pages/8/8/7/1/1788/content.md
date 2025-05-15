@@ -10,9 +10,21 @@
 
 * Bronisław Wajnryb: *An elementary approach to the mapping class group of a surface*, Geometry & Topology **3** (1999) 405–466 &lbrack;[doi:10.2140/gt.1999.3.405](http://dx.doi.org/10.2140/gt.1999.3.405)&rbrack;
 
-- problem with traditional flux quantization
+**Motivation.**
 
-  so let's have a new look at flux quantization
+- FQH as potential TQC platform -- if anyons can be controlled
+
+- but persistent mystery of its topological order
+
+- key: topological states carried by magnetic flux quanta
+
+- but flux quantization inconsistent in effective CS description!
+
+so let's have a new look at flux quantization
+
+**Exotic Topological Flux Quanta**
+
+- EM classifying space and vortices
 
 - EM flux observables via $\mathscr{A} \equiv \mathbb{C}P^\infty$
 
@@ -28,9 +40,12 @@
 
 - generalize to covariantization and punctured surfaces
 
-- quantum states form irreps of $\pi_1$ of flux moduli
+- quantum states form irreps of $\pi_1$ of flux moduli (local systems)
 
 - algebraic topology: toolbox for computing such groups
+
+
+**Flux quantized in 2-Cohomotopy**
 
 - first case, $\Sigma^2 = \mathbb{R}^2$ $\Rightarrow$ fractional statistics
 
@@ -40,11 +55,15 @@
 
 - so this does quack like effective FQH theory! 
 
-- but subtle differences to usual CS theory $\Rightarrow$ exprimentally discernible
+- but subtle differences to usual CS theory $\Rightarrow$ experimentally discernible
 
-- major new prediction: possibility of non-abelian defect anyons
+- new prediction: possibility of non-abelian *defect* anyons
+
+**Conclusion**
 
 
+
+(...)
 
 \linebreak
 
