@@ -435,7 +435,11 @@ one could construct the family of elements $p:S^1 \vdash \mathrm{ind}_{S^1}(c_\m
 
 ## Categorical semantics
 
-needs to be written
+The [[categorical semantics]] of the indexed heterogeneous identity types are given by the [[fibration]]
+
+$$B^I \to B \times_A A^I \times_A B$$
+
+for the fibration $B \to A$, where $A^I$ is a [[path space object]]. 
 
 ## In cubical type theory
 
@@ -588,6 +592,10 @@ For indexed heterogeneous identity types in the context of [[higher observationa
 * [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 1* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-04-28.pdf), [video](https://www.youtube.com/watch?v=FrxkVzItMzA))
 
 * [[Mike Shulman]], *Towards Third-Generation HOTT -- Part 2* ([slides](https://www.cmu.edu/dietrich/philosophy/hott/slides/shulman-2022-05-05.pdf), [video](https://www.youtube.com/watch?v=5ciDNfmvMdU))
+
+For indexed heterogeneous identity types in [[Narya]], see
+
+* *Parametric Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametric-observational-type-theory.html#heterogeneous-identity-bridge-types)) 
 
 [[!redirects indexed dependent identity type]]
 [[!redirects indexed dependent identity types]]
