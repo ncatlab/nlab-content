@@ -32,144 +32,27 @@ Most type-theory based proof assistants include primitive record types, with [[d
 
 It is also possible to have "record types" whose fields themselves are types. These are typically [[types of types]] with additional structure. 
 
-For example, traditionally we have [[dependent sum types]] involving a type universe field: suppose we have a Russell universe $U$ or a Tarski universe $(U, T)$ and a function $P:U \to U$. Then the type of $U$-small types which have the structure $P$ is given by the [[dependent sum type]] $\sum_{A:U} P(A)$ for Russell universes and $\sum_{A:U} T(P(A))$ for Tarski universes. 
+Let $A$ be a type and let $x:A \vdash B(x)$ be a type family. 
 
-But in a dependent type theory with a separate [[type]] [[judgment]], types are not elements of universes. Instead of the above notion of "type of $U$-small types which have the structure $P$", we have the notion of "type of all types which have the structure $P$". Types $A$, previously elements of the universe $A:U$, are now judged to be types $A \; \mathrm{type}$. The function $P:U \to U$ which takes types to propostions is now an operator on types, which is defined using [[inference rules]]:
+Traditionally a record type with type fields is a [[dependent sum types]] involving a type universe field: suppose we have a Russell universe $U$ or a Tarski universe $(U, T)$ and a function $P:(A \to U) \to U$ representing the non-type fields of the record type. Then the type of record types with type fields is given by the [[dependent sum type]] 
+$$\sum_{A:U} \sum_{B:A \to U} P(A, B) \qquad \sum_{A:U} \sum_{B:T(A) \to U} T(P(A, B)$$ 
+for Russell universes and Tarski universes respectively, where $A$ is the index type of the family $B$ of type fields. 
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash P(A) \; \mathrm{type}}$$
+But in a dependent type theory with a separate [[type]] [[judgment]], types are not elements of universes. Instead of the above notion of "record type with $U$-small types fields", we have the notion of "record types with type fields". Type families $(B(x))_{x:A}$, previously functions $B:A \to U$, are now judged to be types in [[context]] $x:A \vdash B(x) \; \mathrm{type}$. The function $P:(A \to U) \to U$ which takes types to propostions is now an operator on types and type families, which is defined using [[inference rules]]:
 
-or in [[dependent type theory with type variables]], as a type family 
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x)}{\Gamma \vdash P(\underline{ }x.B(x)) \; \mathrm{type}}$$
 
-$$A \; \mathrm{type} \vdash P(A) \; \mathrm{type}$$
+Examples of such $P$ definable from the existing type formers in [[dependent type theory]], include
 
-Examples of such $P$ definable from the existing type formers in [[dependent type theory]] include 
-
-* $\mathrm{isProp}$, which results in the [[type of all propositions]], 
-* $\mathrm{isFinite}$, which results in the [[type of all finite types]], 
+* $\mathrm{isProp}$, which results in the [[type of propositions]], 
+* $\mathrm{isMutuallyExclusive}$, which results in the [[type of mutually exclusive propositions]], 
+* $\mathrm{isFinite}$, which results in the [[type of finite types]], 
 * given a type $T$, $[(-) \simeq T]$, which results in the type of all types merely [[equivalence of types|equivalent]] to $T$. 
 * given a type $T$, $[(-) \hookrightarrow T]$, which results in the [[subobject preorder|subtype preorder]] of $T$, the type of all types which merely [[embedding of types|embed into]] $T$. 
 
-The resulting type of all types which have the structure $P$ is denoted in this section by $\mathrm{Type}_P$. 
+The resulting record type with type fields $(B(x))_{x:A}$ and non-type fields $P$ is denoted in this section by $\mathrm{Type}_P$. 
 
-Care must be taken for which $P$ one could use to define the record type of all types which have the structure $P$. For example, given [[unit type]] $\mathbb{1}$, for $P(A) \equiv A \to \mathbb{1}$ and $P(A) \equiv \mathrm{isSet}(A)$, the resulting $\mathrm{Type}_P$ always contains itself or its [[set truncation]] in addition to the [[empty type]], resulting in [[Girard's paradox]]; thus, one cannot form such record types with type fields in the type theory. 
-
-Now, similar to [[type universes]], $\mathrm{Type}_P$ could be presented either [[a la Russell]] or [[a la Tarski]] in a [[dependent type theory]]. The difference between the two is that in the former, every type which satisfies $P$ in the type theory is literally an element of the type of types which satisfy $P$, while in the latter, elements of $\mathrm{Type}_P$ are only indices of a type family $\mathrm{El}$; every [[finite type]] in the type theory is only [[essentially small type|essentially $\mathrm{Type}_P$-small]] for [[weakly Tarski]] record types or [[judgmentally equal]] to an $P(A)$ for $A:\mathrm{Type}_P$ for [[strictly Tarski]] record types. 
-
-For weak Tarski record types with satisfy $P$, one also needs the typal congruence rules for forming $P(A)$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \quad \Gamma \vdash e:A \simeq B}{\Gamma \vdash \mathrm{congform}_P(e):P(A) \simeq P(B) \; \mathrm{type}}$$
-
-#### Strictly a la Tarski
-
-Presented strictly a la Tarski, the type of all types which have the structure $P$ is given by the following [[natural deduction]] [[inference rules]]:
-
-Formation rules for the type of all types which have the structure $P$:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Type}_P \; \mathrm{type}}$$
-
-Introduction rules for the type of all types which have the structure $P$:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toElem}_A:P(A) \to \mathrm{Type}_P}$$
-
-Elimination rules for the type of all types which have the structure $P$:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{witn}_P(A):P(\mathrm{El}(A))}$$
-
-Computation rules for the type of all types which have the structure $P$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{El}(\mathrm{toElem}_A(p)) \equiv A \; \mathrm{type}}$$
-
-* Judgmental computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{witn}_P(\mathrm{toElem}_A(p)) \equiv p:P(A)}$$
-
-* Typal computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \beta_{\mathrm{Type}_P}^{\mathrm{Witn}_P,A}(p):\mathrm{witn}_P(\mathrm{toElem}_A(p)) =_{P(A)} p}$$
-
-Uniqueness rules for the type of all types which have the structure $P$:
-
-* Judgmental computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{witn}_P(A)) \equiv A:\mathrm{Type}_P}$$
-
-* Typal computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \eta_{\mathrm{Type}_P}(A):\mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{witn}_P(A)) =_{\mathrm{Type}_P} A}$$
-
-[[univalence axiom|Extensionality principle]] of the type of all types which have the structure $P$:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P \quad \Gamma \vdash B:\mathrm{Type}_P} {\Gamma \vdash \mathrm{ext}_{\mathrm{Type}_P}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
-
-#### Weakly a la Tarski
-
-Presented [[weakly a la Tarski]], the type of all types which have the structure $P$ is given by the following [[natural deduction]] [[inference rules]]:
-
-Formation rules for the type of all types which have the structure $P$:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Type}_P \; \mathrm{type}}$$
-
-Introduction rules for the type of all types which have the structure $P$:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toElem}_A:P(A) \to \mathrm{Type}_P}$$
-
-Elimination rules for the type of all types which have the structure $P$:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{El}(A) \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{witn}_P(A):P(\mathrm{El}(A))}$$
-
-Computation rules for the type of all types which have the structure $P$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \beta_{\mathrm{Type}_P}^{\mathrm{El}, A}(p):\mathrm{El}(\mathrm{toElem}_A(p)) \simeq A \; \mathrm{type}}$$
-
-* Judgmental computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{congform}_P(\beta_{\mathrm{Type}_P}^{\mathrm{El}, A}(p))(\mathrm{witn}_P(\mathrm{toElem}_A(p))) \equiv p:P(A)}$$
-
-* Typal computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \beta_{\mathrm{Type}_P}^{\mathrm{witn}_P,A}(p):\mathrm{congform}_P(\beta_{\mathrm{Type}_P}^{\mathrm{El}, A}(p))(\mathrm{witn}_P(\mathrm{toElem}_A(p))) =_{P(A)} p}$$
-
-where the equivalence
-$$\mathrm{congform}_P(\beta_{\mathrm{Type}_P}^{\mathrm{El}, A}(p)):P(\mathrm{El}(\mathrm{toElem}_A(p))) \simeq P(A)$$
-is provided from the typal computation rules for $P(A)$. 
-
-Uniqueness rules for the type of all types which have the structure $P$:
-
-* Judgmental computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash A \equiv \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{witn}_P(A)):\mathrm{Type}_P}$$
-
-* Typal computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \eta_{\mathrm{Type}_P}(A):A =_{\mathrm{Type}_P} \mathrm{toElem}_{\mathrm{El}(A)}(\mathrm{witn}_P(A))}$$
-
-[[univalence axiom|Extensionality principle]] of the type of all types which have the structure $P$:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P \quad \Gamma \vdash B:\mathrm{Type}_P} {\Gamma \vdash \mathrm{ext}_{\mathrm{Type}_P}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
-
-#### A la Russell
-
-Presented a la Russell, the type of all types which have the structure $P$ is given by the following [[natural deduction]] [[inference rules]]:
-
-Formation rules for the type of all types which have the structure $P$:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Type}_P \; \mathrm{type}}$$
-
-Introduction rules for the type of all types which have the structure $P$:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \mathrm{toElem}_A:P(A) \to \mathrm{Type}_P}$$
-
-Elimination rules for the type of all types which have the structure $P$:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash A \; \mathrm{type}} \qquad \frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{witn}_P(A):P(A)}$$
-
-Computation rules for the type of all types which have the structure $P$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{toElem}_A(p) \equiv A \; \mathrm{type}}$$
-
-* Judgmental computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \mathrm{witn}_P(\mathrm{toElem}_A(p)) \equiv p:P(A)}$$
-
-* Typal computation rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:P(A)}{\Gamma \vdash \beta_{\mathrm{Type}_P}^{\mathrm{finWitn},A}(p):\mathrm{witn}_P(\mathrm{toElem}_A(p)) =_{P(A)} p}$$
-
-Uniqueness rules for the type of all types which have the structure $P$:
-
-* Judgmental computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \mathrm{toElem}_{A}(\mathrm{witn}_P(A)) \equiv A:\mathrm{Type}_P}$$
-
-* Typal computation rules:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P}{\Gamma \vdash \eta_{\mathrm{Type}_P}(A):\mathrm{toElem}_{A}(\mathrm{witn}_P(A)) =_{\mathrm{Type}_P} A}$$
-
-[[univalence axiom|Extensionality principle]] of the type of all types which satisfy $P$:
-$$\frac{\Gamma \vdash A:\mathrm{Type}_P \quad \Gamma \vdash B:\mathrm{Type}_P} {\Gamma \vdash \mathrm{ext}_{\mathrm{Type}_P}(A, B):\mathrm{isEquiv}(\mathrm{idToEquiv}(A, B))}$$ 
+Care must be taken for which $P$ one could use to define the record type with type fields. For example, given [[unit type]] $\mathbb{1}$ and the type family $(B(x))_{x:\mathbb{1}}$, for $P(\underline{ }x.B(x)) \equiv B(\mathrm{pt}) \to \mathbb{1}$ and $P(\underline{ }x.B(x)) \equiv \mathrm{isSet}(B(\mathrm{pt}))$, the resulting $\mathrm{Type}_P$ always contains itself or its [[set truncation]] in addition to the [[empty type]], resulting in [[Girard's paradox]]; thus, one cannot form such record types with type fields in the type theory. 
 
 ## Related concepts
 
