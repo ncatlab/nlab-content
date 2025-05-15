@@ -772,6 +772,8 @@ Further original texts:
 
 * {#Maranda66} [[Jean-Marie Maranda]], *On Fundamental Constructions and Adjoint Functors*, Canadian Mathematical Bulletin **9** 5  (1966) 581-591 &lbrack;[doi:10.4153/CMB-1966-072-9](https://doi.org/10.4153/CMB-1966-072-9)&rbrack;
 
+* [[Jonathan M. Beck]]: *Triples, algebras and cohomology*, PhD thesis, Columbia University (1967), reprinted as: Reprints in Theory and Applications of Categories **2** (2003) 1-59 &lbrack;[tac:tr2](http://www.tac.mta.ca/tac/reprints/articles/2/tr2abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/2/tr2.pdf)&rbrack;
+
 * {#Maranda68} [[Jean-Marie Maranda]], *Sur les Proprietes Universelles des Foncteurs Adjoints*,  In: *Études sur les Groupes abéliens* / *Studies on Abelian Groups* Springer (1968) &lbrack;[doi:10.1007/978-3-642-46146-0_16](https://doi.org/10.1007/978-3-642-46146-0_16)&rbrack;
 
 * {#Linton69} [[Fred Linton]], *An outline of functorial semantics*, in *[[Seminar on Triples and Categorical Homology Theory]]*, Lecture Notes in Mathematics **80**, Springer (1969) 7-52 &lbrack;[doi:10.1007/BFb0083080](https://doi.org/10.1007/BFb0083080)&rbrack;
