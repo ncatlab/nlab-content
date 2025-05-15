@@ -296,7 +296,7 @@ The [[image]] of a function $x:A \vdash f(x):B$ is given by the type
 
 $$\mathrm{im}(f) \coloneqq \sum_{y:B} \left[\sum_{x:A} f(x) =_B y\right]$$
 
-The [[type theoretic axiom of replacement]] states that for all universe levels $i$, for every [[essentially small type|essentially $U_i$-small]] type $A$, every [[locally small type|locally $U_i$-small]] type $B$, and every function $x:A \vdash f(x):B$, the [[image]] $\mathrm{im}(f)$ is essentially $U_i$-small. From the axiom of replacement one can construct [[quotient sets]] in all $U_i$, cf. section 2.22.9 of [Bezam et al 2021](#BBCDG). 
+The [[type theoretic axiom of replacement]] states that for all universe levels $i$, for every [[essentially small type|essentially $U_i$-small]] type $A$, every [[locally small type|locally $U_i$-small]] type $B$, and every function $x:A \vdash f(x):B$, the [[image]] $\mathrm{im}(f)$ is essentially $U_i$-small. From the axiom of replacement one can construct [[quotient sets]] in all $U_i$, cf. section 2.22.9 of [Bezem et al 2021](#BBCDG). 
 
 Thus, the [[h-sets]] in each $U_i$ form an [[arithmetic pretopos]]. 
 
