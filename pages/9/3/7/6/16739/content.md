@@ -19,7 +19,7 @@
 
 ## Idea
 
-A [[Heyting algebra]] is called a **De Morgan Heyting algebra** if it satisfies the [[De Morgan laws]], which may be considered a weak form of the [[law of excluded middle]].  The corresponding [[logic]] is an interesting intermediate logic between [[intuitionistic logic]] and [[classical logic]].
+A [[Heyting algebra]] is called a **De Morgan Heyting algebra** if it is also a [[De Morgan algebra]]; i.e. it satisfies the [[De Morgan laws]], which may be considered a weak form of the [[law of excluded middle]].  The corresponding [[logic]] is an interesting intermediate logic between [[intuitionistic logic]] and [[classical logic]].
 
 De Morgan Heyting algebras are also known as **Stone algebras** or **Stone lattices**.  They are also often called simply **de Morgan algebras**, although that clashes with a different notion; see [[De Morgan algebra]].
 
