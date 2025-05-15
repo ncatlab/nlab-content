@@ -11,3 +11,4 @@ category: people
 
 [[!redirects Jean-Simon Pacaud Lemay]]
 [[!redirects JS Pacaud Lemay]]
+[[!redirects J.-S. P. Lemay]]
