@@ -45,7 +45,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Cauchy completion in enriched categories|Scott Russell Johnson|1993|[ANU repository](https://doi.org/10.25911/5d6513e948cab)| |
 |Linear Logic, Bimodules, and Full Coherence for Autonomous Categories|[[Todd Trimble]]|1994| | |
 |Cobordism Categories|Sean Carmody|1995| | | 
-|The algebra of distributive and extensive categories|[[Stephen Lack]]|1995|[[Lack_TheAlgebraOfDistributiveAndExtensiveCategories.pdf:file]]| | 
+|The algebra of distributive and extensive categories|[[Stephen Lack]]|1995|| | 
 |Ultraproducts and continuous families of models|[[Francisco Marmolejo]]|1995|[pdf](http://peterlefanulumsdaine.com/files/marmolejo-1995-phd-thesis.pdf)|on [[ultracategory|ultracategories]], treated 2-monadically|
 |Groupoid Representations for Sheaves on Orbifolds|[[Dorette Pronk]]|1995| | |
 |Internal categories and quantum groups|[[Marcelo Aguiar]]|1997|[pdf](https://ncatlab.org/nlab/files/Aguiar_InternalCategoriesAndQuantumGroups.pdf)| |
