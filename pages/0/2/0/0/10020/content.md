@@ -150,6 +150,9 @@ See also
 
 * Soumangsu Chakraborty, [[Amit Giveon]], [[David Kutasov]]: *Effective $AdS_3/CFT_2$* \[<a href="https://arxiv.org/abs/2501.09119">arXiv:2501.09119</a>\]
 
+* [[Lorenz Eberhardt]], [[Matthias R. Gaberdiel]]: *A localising $AdS_3$ sigma model* \[<a href="https://arxiv.org/abs/2505.09226">arXiv:2505.09226</a>\]
+
+
 
 
 Relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
