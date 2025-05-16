@@ -9,18 +9,20 @@
 
 The original motivations and applications for the *Scott adjunction* come from [[model theory]] &lbrack;[Henry 2019](#Henry2019)&rbrack;, but a lot of its scientific placing and naming choices have a [[geometry|geometric]] flavour. 
 
-> Mention higher topology and formal model theory are keywords. 
-
-> Create separate entries for those.
 
 
-### Geometric aspect
+
+### Geometric intuition
 
 > To be written. Reproduce parts of Sec 1 of [Di Liberti 2022](#DiLiberti22) and mention categorification.
 
+> Mention higher topology and Create separate entries for it.
+
 ### Logical aspects
 
-> To be written. Free geometric theory associated to a topos. Recap of the intro of Formal Model Theory & Higher Topology. 
+> To be written. Free geometric theory associated to an accessible category with directed colimits. Recap of the intro of Formal Model Theory & Higher Topology. 
+
+> Mention formal model theory and Create separate entries for it.
 
 ## Applications
 
