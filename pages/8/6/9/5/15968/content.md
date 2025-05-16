@@ -1,13 +1,16 @@
 
 
-> Incidentally, the reaction of one Cambridge colleague on learning
-that I'd appeared as a Dover reprint was 'I didn't know you were dead'.  Peter Johnstone[^mail]
+> "Incidentally, the reaction of one Cambridge colleague on learning that I'd appeared as a Dover reprint was 'I didn't know you were dead'"  &lbrack;[Johnstone 2014](https://web.archive.org/web/20150326212121/http://comments.gmane.org/gmane.science.mathematics.categories/8044)&rbrack;
 
-This page compiles material related to the book
+This page is to record the reference:
 
 * [[Peter Johnstone]]:
 
-  **Topos Theory**, 
+  \linebreak
+
+  **Topos Theory**
+
+  \linebreak
 
   Academic Press (1977)
 
@@ -43,7 +46,6 @@ It has also several unique features in comparison with its successor volumes in 
 
 * [[Robert Seely]], _Review, P. T. Johnstone, Topos Theory_ , JSL **47** no.2 (1982) pp.448-450. ([draft](www.math.mcgill.ca/rags/JSL/PTJ.pdf))
 
-[^mail]: [mail to catlist March 2014](https://web.archive.org/web/20150326212121/http://comments.gmane.org/gmane.science.mathematics.categories/8044).
 
 
 [[!redirects Johnstone Topos Theory]]
