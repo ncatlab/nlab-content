@@ -145,6 +145,10 @@ On [[XTT]]:
 
 * [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https://arxiv.org/abs/2003.01491)). 
 
+Univalent cubical type theory is discussed in sections 5.3 and 5.4 of:
+
+* {#AngiuliGratzer} [[Carlo Angiuli]], [[Daniel Gratzer]], *Principles of Dependent Type Theory* ([pdf](https://www.danielgratzer.com/papers/type-theory-book.pdf))
+
 [[!redirects cubical type theories]]
 [[!redirects boundary in cubical type theory]]
 [[!redirects boundary (cubical type theory)]]
