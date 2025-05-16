@@ -160,7 +160,7 @@ $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gam
 
 ## Predicate logic
 
-In this section, we assume that [[function extensionality]] or [[weak function extensionality]] is true for all dependent function types. 
+In this section, we assume that [[function extensionality]] or [[weak function extensionality]] is true for all dependent function types. The [[predicate logic]] can be defined in the type theory purely from the type of all propositions, dependent function types, dependent sum types, and identity types (see [Angiuli & Gratzer](#AngiuliGratzer)). 
 
 ### The empty type and falsehood
 
@@ -379,7 +379,7 @@ These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] a
 
 * {#UFP13} [[Univalent Foundations Project]], *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
-The impredicative universe of all propositions and its inference rules are defined in sections 2.8.4 and 5.1.1 of:
+The impredicative universe of all propositions and its inference rules are defined in sections 2.8.4 and 5.1.1 of the following draft reference, and the predicate logic of the type theory is defined in section 2.8.5 of:
 
 * {#AngiuliGratzer} [[Carlo Angiuli]], [[Daniel Gratzer]], *Principles of Dependent Type Theory* ([pdf](https://www.danielgratzer.com/papers/type-theory-book.pdf))
 
@@ -428,6 +428,48 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 [[!redirects weak Tarski universes of propositions]]
 [[!redirects strict Tarski universe of propositions]]
 [[!redirects strict Tarski universes of propositions]]
+
+[[!redirects impredicative type of propositions]]
+[[!redirects impredicative types of propositions]]
+[[!redirects weak impredicative type of propositions]]
+[[!redirects weak impredicative types of propositions]]
+[[!redirects strict impredicative type of propositions]]
+[[!redirects strict impredicative types of propositions]]
+
+[[!redirects Russell impredicative type of propositions]]
+[[!redirects Russell impredicative types of propositions]]
+[[!redirects weak Russell impredicative type of propositions]]
+[[!redirects weak Russell impredicative types of propositions]]
+[[!redirects strict Russell impredicative type of propositions]]
+[[!redirects strict Russell impredicative types of propositions]]
+
+[[!redirects Tarski impredicative type of propositions]]
+[[!redirects Tarski impredicative types of propositions]]
+[[!redirects weak Tarski impredicative type of propositions]]
+[[!redirects weak Tarski impredicative types of propositions]]
+[[!redirects strict Tarski impredicative type of propositions]]
+[[!redirects strict Tarski impredicative types of propositions]]
+
+[[!redirects impredicative universe of propositions]]
+[[!redirects impredicative universes of propositions]]
+[[!redirects weak impredicative universe of propositions]]
+[[!redirects weak impredicative universes of propositions]]
+[[!redirects strict impredicative universe of propositions]]
+[[!redirects strict impredicative universes of propositions]]
+
+[[!redirects Russell impredicative universe of propositions]]
+[[!redirects Russell impredicative universes of propositions]]
+[[!redirects weak Russell impredicative universe of propositions]]
+[[!redirects weak Russell impredicative universes of propositions]]
+[[!redirects strict Russell impredicative universe of propositions]]
+[[!redirects strict Russell impredicative universes of propositions]]
+
+[[!redirects Tarski impredicative universe of propositions]]
+[[!redirects Tarski impredicative universes of propositions]]
+[[!redirects weak Tarski impredicative universe of propositions]]
+[[!redirects weak Tarski impredicative universes of propositions]]
+[[!redirects strict Tarski impredicative universe of propositions]]
+[[!redirects strict Tarski impredicative universes of propositions]]
 
 [[!redirects type of all propositions]]
 [[!redirects types of all propositions]]
