@@ -1,11 +1,15 @@
 
-This page is about the textbook
+This page is to record the refereces:
 
 * [[Peter Freyd]], [[Andre Scedrov]]:
 
+  \linebreak
+
   **Categories, Allegories** 
 
-  Mathematical Library Vol 39, North-Holland (1990). 
+  \linebreak
+
+  Mathematical Library **39** North-Holland (1990). 
 
   [ISBN 978-0-444-70368-2](https://www.elsevier.com/books/categories-allegories/freyd/978-0-444-70368-2)
 
