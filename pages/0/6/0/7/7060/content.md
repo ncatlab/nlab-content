@@ -64,7 +64,7 @@ The **type of (all) propositions** $\mathrm{Prop}$ in a [[dependent type theory]
 
 * as a homotopy-[[terminal object|terminal]] univalent family of [[h-propositions]], suitably defined. 
 
-* as a [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P))$ respectively, but for all types, not just the $U$-small types. 
+* as a [[type universe]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
 In addition, in [[dependent type theory]] defined using a [[universe hierarchy]] instead of a separate type judgment, a universe $U_i$ having the type of all propositions as defined above is equivalent to a local [[propositional resizing]] axiom which says that the [[locally small type|locally $U_i$-small type]] $\sum_{P:U_i} \mathrm{isProp}(P)$ is ([[essentially small type|essentially]]) [[small type|$U_i$-small]]. 
 
