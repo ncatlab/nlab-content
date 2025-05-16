@@ -92,6 +92,10 @@ Extensional [[Martin-Löf type theory]] does not have [[decidability|decidable]]
 
 * [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https://arxiv.org/abs/2003.01491)). 
 
+Extensional type theory is discussed in chapter 2 of:
+
+* {#AngiuliGratzer} [[Carlo Angiuli]], [[Daniel Gratzer]], *Principles of Dependent Type Theory* ([pdf](https://www.danielgratzer.com/papers/type-theory-book.pdf))
+
 [[!redirects extensional type theories]]
 [[!redirects equality reflection]]
 [[!redirects equality reflection rule]]
