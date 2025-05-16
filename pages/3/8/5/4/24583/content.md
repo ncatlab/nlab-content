@@ -3,6 +3,10 @@
 
 ## Selected works
 
+On the principles of [[dependent type theory]]
+
+* {#AngiuliGratzer} [[Carlo Angiuli]], [[Daniel Gratzer]], *Principles of Dependent Type Theory* ([pdf](https://www.danielgratzer.com/papers/type-theory-book.pdf))
+
 On [[categorical models of dependent types]] via [[locally Cartesian closed categories]]:
 
 * [[Daniel Gratzer]], [[Jonathan Sterling]], *Syntactic categories for dependent type theory: sketching and adequacy* &lbrack;[arXiv:2012.10783](https://arxiv.org/abs/2012.10783)&rbrack;
