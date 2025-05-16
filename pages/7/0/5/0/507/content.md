@@ -10,7 +10,7 @@
 =--
 
 
-This page collects material related to the book
+This page is to record the reference:
 
 * [[Peter Johnstone]]:
 
