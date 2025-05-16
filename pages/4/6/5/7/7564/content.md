@@ -27,6 +27,8 @@ Also the perspective of [[string theory]] as the dimensional reduction of a conj
 
 ## Related concepts
 
+* [[Chern-Simons theory as a topological string theory]]
+
 * [[TCFT]]
 
   * [[A-model]]
@@ -38,6 +40,7 @@ Also the perspective of [[string theory]] as the dimensional reduction of a conj
 * [[quantum cohomology ring]]
 
 * [[topological M-theory]], [[topological membrane]]
+
 
 ## References
  {#References}
@@ -53,6 +56,7 @@ Review:
 * Marcel Vonk, _A mini-course on topological strings_ ([arXiv:hep-th/0504147](http://arxiv.org/abs/hep-th/0504147))
 
 * [[Andrew Neitzke]], _Nonperturbative topological strings_, 2005 ([pdf](http://people.maths.ox.ac.uk/lmason/Tws/Neitzke.pdf))
+
 
 On the relation to [[integrable systems]]:
 
