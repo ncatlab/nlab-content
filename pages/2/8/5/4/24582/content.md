@@ -17,7 +17,7 @@
 
 XTT is an [[set-level type theory|set-level]] [[cubical type theory]] developed by [[Jonathan Sterling]], [[Carlo Angiuli]], and [[Daniel Gratzer]]. The authors have stated that the name is not short for anything, but it is a pun on "eXtensional Type Theory".
 
-XTT features [[boundary separation]], which implies [[UIP]] as a theorem of XTT, rather than an axiom as in [[Martin-Löf type theory]]. As a result, it is an example of a [[cubical type theory]] which is not a [[homotopy type theory]]. 
+XTT features [[boundary separation]], which implies [[UIP]] as a theorem of XTT, rather than an axiom as in [[Martin-Löf type theory]]. As a result, it is an example of a [[cubical type theory]] which is not a [[univalent type theory]]. 
 
 Additionally, XTT has [[regularity]], [[canonicity]], and certain [[higher inductive types]] like [[propositional truncation]]. It is an open question if it additionally has [[decidable]] [[type checking]] and [[normal form|normalization]].
 
