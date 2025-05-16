@@ -96,21 +96,19 @@ A morphism of univalent families of propositions between univalent families of p
 
 The **type of (all) propositions** $(\mathrm{Prop}, \mathrm{El})$ is the homotopy-terminal univalent family of propositions: given any other univalent family of propositions $(A, B)$, there exists a unique function $u_A:A \to \mathrm{Prop}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
 
-### As a record type with type fields
+### As a type universe
 
-The **type of (all) propositions** $\mathrm{Prop}$ is a [[record type]] where one of the fields is a [[type]], consisting of 
+The **type of (all) propositions** $\mathrm{Prop}$ is the [[type universe]] of all [[mere propositions]]. It behaves as a [[record type]] where one of the fields is a [[type]], consisting of 
 
 * a type $A \; \mathrm{type}$
 
 * a witness $p:\mathrm{isProp}(A)$ that $A$ is a [[mere proposition]]. 
 
-As a result, the type of all propositions behaves as a [[type universe]]. 
-
 Similar to other [[type universes]] and [[record types with type fields]], the type of all propositions can be presented [[a la Tarski]] or [[a la Russell]]
 
 #### A la Tarski
 
-The type of all propositions [[a la Tarski]] is given by the following [[natural deduction]] [[inference rules]]:
+The type of all propositions [[a la Tarski]] is given by the following [[natural deduction]] [[inference rules]] (see [Angiuli & Gratzer](#AngiuliGratzer)):
 
 Formation rules for the type of all propositions:
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{Prop} \; \mathrm{type}}$$
@@ -380,6 +378,10 @@ These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] a
 ## References
 
 * {#UFP13} [[Univalent Foundations Project]], *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+The impredicative universe of all propositions and its inference rules are defined in sections 2.8.4 and 5.1.1 of:
+
+* {#AngiuliGratzer} [[Carlo Angiuli]], [[Daniel Gratzer]], *Principles of Dependent Type Theory* ([pdf](https://www.danielgratzer.com/papers/type-theory-book.pdf))
 
 Detailed discussion of the type of propositions in [[Coq]] is in
 
