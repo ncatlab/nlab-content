@@ -14,11 +14,15 @@ A microscopic model of the [[fractional quantum Hall effect]] as the [[integer q
 
 * [[Jainendra K. Jain]]: *Microscopic theory of the fractional quantum Hall effect*, Adv. Phys. **41** (1992) 105-146 \[<a href="https://doi.org/10.1080/00018739200101483">doi:10.1080/00018739200101483</a>\]
 
-* [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>\]
+* {#Jain07} [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>, §5:[[Jain07-ch5.pdf:file]]\]
 
 * [[Jainendra K. Jain]]: *A note contrasting two microscopic theories of the fractional quantum Hall effect*, Indian J of Phys **88** (2014) 915-929 \[<a href="https://doi.org/10.1007/s12648-014-0491-9">doi:10.1007/s12648-014-0491-9</a>, [arXiv:1403.5415](https://arxiv.org/abs/1403.5415)\]
 
+and, at more general filling fractions, as a fractional quantum Hall effect of composite fermions:
+
 * C.-C Chang, [[Jainendra K. Jain]]: *Microscopic origin of the next generation fractional quantum Hall effect*, Phys. Rev. Lett. **92** (2004) 196806 \[<a href="https://doi.org/10.1103/PhysRevLett.92.196806">doi:10.1103/PhysRevLett.92.196806</a>, [arXiv:cond-mat/0404079](https://arxiv.org/abs/cond-mat/0404079)\]
+
+Review:
 
 * {#Jain2020} [[Jainendra K. Jain]]: *Thirty Years of Composite Fermions and Beyond*, chapter 1 in: [Halperin & Jain 2020](#HalperinJain20), *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) &lbrack;[arXiv:2011.13488](https://arxiv.org/abs/2011.13488), <a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
 
