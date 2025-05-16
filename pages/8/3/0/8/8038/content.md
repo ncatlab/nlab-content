@@ -90,8 +90,7 @@ Introduction and review:
 
 * [[Clifford Cheung]]: *TASI Lectures on Scattering Amplitudes* (2017) &lbrack;[arXiv:1708.03872](https://arxiv.org/abs/1708.03872), video recordings: [YT](https://www.youtube.com/results?search_query=Clifford+Cheung+Lecture+Scattering+Amplitudes)&rbrack;
 
-* Simon Badger, Johannes Henn, [[Jan Plefka]], Simone Zoia, *Scattering Amplitudes in Quantum Field Theory* &lbrack;[arXiv:2306.05976](https://arxiv.org/abs/2306.05976)&rbrack;
-
+* Simon Badger, Johannes Henn, [[Jan Plefka]], Simone Zoia: *Scattering Amplitudes in Quantum Field Theory*, Lecture Notes in Physics **1021**, Springer (2024) &lbrack;[arXiv:2306.05976](https://arxiv.org/abs/2306.05976), [doi:10.1007/978-3-031-46987-9](https://doi.org/10.1007/978-3-031-46987-9)&rbrack;
   > "These lecture notes bridge a gap between introductory quantum field theory (QFT) courses and state-of-the-art research in scattering amplitudes"
 
 For related reference on the *[[S-matrix]]* see there, such as
