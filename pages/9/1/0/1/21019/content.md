@@ -36,6 +36,10 @@ The original article:
 * {#Witten92} [[Edward Witten]], _Chern-Simons Gauge Theory As A String Theory_, Prog. Math. 133: 637-678, 1995 ([arXiv:hep-th/9207094](https://arxiv.org/abs/hep-th/9207094))
 
 
+See also:
+
+* [[Cumrun Vafa]]: *Chern-Simons Theory, Holography and Topological Strings* &lbrack;[arXiv:2505.09750](https://arxiv.org/abs/2505.09750)&rbrack;
+
 
 
 ### Dual closed topological string theory
