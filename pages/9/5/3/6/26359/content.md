@@ -47,7 +47,7 @@ The **type of (all) finite types** $\mathrm{FinType}$ in a [[dependent type theo
 
 * as a homotopy-[[terminal object|terminal]] univalent type family of [[finite types]], suitably defined. 
 
-* as a [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isFinite}(P)$ or $\sum_{P:U} \mathrm{isFinite}(T(P))$ respectively, but for all types, not just the $U$-small types. 
+* as a [[type universe]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isFinite}(P)$ or $\sum_{P:U} \mathrm{isFinite}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
 In addition, in [[dependent type theory]] defined using a [[universe hierarchy]] instead of a separate type judgment, a universe $U_i$ having the type of all finite types as defined above is equivalent to a local resizing axiom which says that the [[locally small type|locally $U_i$-small type]] $\sum_{P:U_i} \mathrm{isFinite}(P)$ is ([[essentially small type|essentially]]) [[small type|$U_i$-small]]. 
 
@@ -73,17 +73,15 @@ A morphism of univalent families of finite types between univalent families of f
 
 The **type of (all) finite types** $(\mathrm{FinType}, \mathrm{El})$ is the homotopy-terminal univalent family of finite types: given any other univalent family of finite types $(A, B)$, there exists a unique function $u_A:A \to \mathrm{FinType}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
 
-### As a record type with a type fields
+### As a type universe
 
-The **type of (all) finite types** $\mathrm{FinType}$ is a [[record type]] where one of the fields is a [[type]], consisting of 
+The **type of (all) finite types** $\mathrm{FinType}$ is a [[type universe]] of [[finite types]]. It behaves as a [[record type]] where one of the fields is a [[type]], consisting of 
 
 * a type $A \; \mathrm{type}$
 
 * a witness $p:\mathrm{isFinite}(A)$ that $A$ is a [[finite type]]. 
 
-As a result, the type of all finite type behaves as a [[type universe]]. 
-
-Similar to other [[type universes]] and [[record types with type fields]], the type of all propositions can be presented [[a la Tarski]] or [[a la Russell]]. 
+Similar to other [[type universes]] and [[record types with type fields]], the type of all finite types can be presented [[a la Tarski]] or [[a la Russell]]. 
 
 #### A la Tarski
 
