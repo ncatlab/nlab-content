@@ -40,8 +40,7 @@ The original motivations and applications for the *Scott adjunction* come from [
 
 * {#DiLiberti22} [[Ivan Di Liberti]]: *Towards higher topology*, Journal of Pure and Applied Algebra **226** 3 (2022) 106838 &lbrack;[arXiv:2009.14145](https://arxiv.org/abs/2009.14145), [doi:10.1016/j.jpaa.2021.106838](https://doi.org/10.1016/j.jpaa.2021.106838)&rbrack;
 
-
-* [[Ivan Di Liberti]]: *Formal Model Theory & Higher Topology*
+* [[Ivan Di Liberti]]: *Formal model theory and higher topology*, Mathematical Logic Quarterly **70** 1 (2024) &lbrack;[arXiv:2010.00319](https://arxiv.org/abs/2010.00319), [doi:10.1002/malq.202300006](https://doi.org/10.1002/malq.202300006)&rbrack;
 
 
 [[!redirects Scott adjunction]]
