@@ -4,6 +4,7 @@
 
 We spell out the formulas for the images under the [[Chern-Weil homomorphism]] of the [[Chern classes]], [[Pontrjagin classes]] and [[Euler classes]] as [[characteristic forms]] over [[smooth manifolds]].
 
+
 #### Preliminaries
 
 Let $X$ be a [[smooth manifold]].
@@ -80,7 +81,7 @@ The multiplicative [[unit]]
   \big)
 \]
 
-in this algebra is the [[smooth function]] ([[differential 0-forms]]) which is [[constant function|constant]] on the $n \times n$ [[identity matrix]] and independent of $t$.
+in this algebra is the [[smooth function]] ([[differential 0-forms]]) which is [[constant function|constant]] on the $n \times n$ [[identity matrix]].
 
 Given a [[connection on a principal bundle|connection]] on a $G$-[[principal bundle]], we regard its [[Lie algebra valued differential form|$\mathfrak{g}$-valued]] [[curvature form]] as an element of this algebra
 
@@ -92,7 +93,7 @@ Given a [[connection on a principal bundle|connection]] on a $G$-[[principal bun
   \xrightarrow{\; \rho \;}
   \Omega^2(X) \otimes_{\mathbb{R}} End_{\mathbb{C}}(V)
   \xhookrightarrow{\;\;\;}
-  \Omega^{2\bullet}(X) \otimes_{\mathbb{R}} End_{\mathbb{C}}(V)[t]
+  \Omega^{2\bullet}(X) \otimes_{\mathbb{R}} End_{\mathbb{C}}(V)
   \;\simeq\;
   Mat_{n \times n}
   \Big(
@@ -129,7 +130,7 @@ $$
   \;\;
   det
   \left(
-    I + t \frac{i F_\nabla}{2\pi}
+    I + \frac{i F_\nabla}{2\pi}
   \right)
   \,.
 $$
@@ -144,7 +145,7 @@ By the [[relation between determinant and trace]], this is equal to the [[expone
   \;=\;
   det
   \left(
-    I + t \frac{i F_\nabla}{2\pi}
+    I + \frac{i F_\nabla}{2\pi}
   \right)
   \\
   &
