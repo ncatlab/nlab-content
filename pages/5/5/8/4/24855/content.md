@@ -18,7 +18,7 @@
 ## Idea
  {#Idea}
 
-In any [[predicate logic over type theory]], **propositional equality** is the notion of [[equality]] which is defined to be a proposition. Propositional equality is most commonly used in [[set theories]] like [[ZFC]] and [[ETCS]], but it could also be used for [[definitional equality]] and [[conversional equality]] in some presentations of [[dependent type theories]] like [[Martin-Löf type theory]] or [[cubical type theory]] in place of [[judgmental equality]]. 
+In any [[predicate logic over type theory]], **propositional equality** is the notion of [[equality]] which is defined to be a proposition. Propositional equality is most commonly used in [[set theories]] like [[ZFC]] and [[ETCS]] and [[dependently sorted set theories]], but it could also be used for [[definitional equality]] and [[conversional equality]] in [[logic over dependent type theory]] in place of [[judgmental equality]]. 
 
 Propositional equality can be contrasted with [[judgmental equality]], where equality is a [[judgment]], and [[typal equality]], where equality is a [[type]].
 
@@ -54,11 +54,11 @@ $$\frac{\Gamma, x, y \vdash P(x, y) \; \mathrm{prop}}{\Gamma \vdash \left(\foral
 
 The introduction rule of propositional equality says that propositional equality is reflexive. 
 
-We can show that heterogeneous equality is symmetric, that for all $x:A$ and $y:A$ such that $x =_A y$, we have $y =_A x$. By the introduction rule, we have that for all $x:A$, we have that $x =_A x$, and because all propositions imply themselves, we have that $x =_A x$ implies $x =_A x$. Thus, by the elimination rules for heterogeneous equality, for all $x:A$ and $y:A$ such that $x =_A y$, we have $y =_A x$. 
+We can show that propositional equality is symmetric, that for all $x:A$ and $y:A$ such that $x =_A y$, we have $y =_A x$. By the introduction rule, we have that for all $x:A$, we have that $x =_A x$, and because all propositions imply themselves, we have that $x =_A x$ implies $x =_A x$. Thus, by the elimination rules for propositional equality, for all $x:A$ and $y:A$ such that $x =_A y$, we have $y =_A x$. 
 
-We can also show that heterogeneous equality is transitive, that for all $x:A$, $y:A$, and $z:A$ such that $x =_A y$, $y =_A z$ implies that $x =_A z$. By the introduction rule, we have that for all $x:A$ and $a:B(x)$, we have that $x =_A x$, and because all propositions imply themselves, we have that $x =_A z$ implies $y =_A z$, and because true propositions imply true propositions, we have that $x =_A x$ implies that $x =_A z$ implies $x =_A z$. Thus, by the elimination rules for heterogeneous equality, for all $x:A$, $y:A$, and $z:A$ such that $x =_A y$, $y =_A z$ implies that $x =_A z$. 
+We can also show that propositional equality is transitive, that for all $x:A$, $y:A$, and $z:A$ such that $x =_A y$, $y =_A z$ implies that $x =_A z$. By the introduction rule, we have that for all $x:A$ and $a:B(x)$, we have that $x =_A x$, and because all propositions imply themselves, we have that $x =_A z$ implies $y =_A z$, and because true propositions imply true propositions, we have that $x =_A x$ implies that $x =_A z$ implies $x =_A z$. Thus, by the elimination rules for propositional equality, for all $x:A$, $y:A$, and $z:A$ such that $x =_A y$, $y =_A z$ implies that $x =_A z$. 
 
-Thus, heterogeneous equality is an equivalence relation. 
+Thus, propositional equality is an equivalence relation. 
 
 ### Functions are extensional
 
@@ -74,37 +74,18 @@ The extensionality principle for [[function types]] ([[function extensionality]]
 
 $$\forall f:A \to B.\forall g:A \to B.f =_{A \to B} g \iff \forall a:A. \forall b:A.a =_A b \implies (f(a) =_{B} g(b))$$
 
-### Relation to heterogeneous propositional equality
+### Transport and heterogeneous propositional equality
 
-Given elements $x:A$ and $y:A$ such that $x =_A y$ and $a:B(x)$ and $b:B(y)$, [[heterogeneous propositional equality]] is given by the relation $a =_{\underline{ }.B}^{x =_A y} b$. Given elements $x:A$, and for all $a:B(x)$ and $b:B(x)$, $a =_{\underline{ }.B}^{x =_A x} b$ if and only if $a =_{B(x)} b$
+Given a set $A$ and elements $x \in A$ and $y \in A$ and a family of sets $(B(x))_{x \in A}$, $a \in B(x)$ and $b \in B(y)$, if $x =_A y$, then we can define [[transport]] functions $\mathrm{tr}_{A, B}(x, y):B(x) \to B(y)$ whose [[inverse function]] is $\mathrm{tr}_{A, B}(y, x)$ by symmetry of propositional equality. 
 
-$$\forall a:B(x).\forall b:B(x). a =_{\underline{ }.B}^{x =_A x} b \iff a =_{B(x)} b$$
+The fibered heterogeneous propositional equality is given by the [[logically equivalent]] relations 
+$$\mathrm{tr}_{A, B}(x, y, a) =_{B(y)} b \quad \mathrm{or} \quad a =_{B(x)} \mathrm{tr}_{A, B}(y, x, b)$$
 
-This is because by the introduction rules of propositional equality and heterogeneous propositional equality, we have that for all $a:B(x)$, $a =_{B(x)} a$ and $a =_{\underline{ }.B}^{x =_A x} a$, and since true propositions imply true propositions, we have $a =_{B(x)} a$ implies $a =_{\underline{ }.B}^{x =_A x} a$ and $a =_{\underline{ }.B}^{x =_A x} a$ implies $a =_{B(x)} a$. By the elimination rules for propositional equality, for all $a:B(x)$ and $b:B(x)$, we have $a =_{B(x)} b$ implies $a =_{\underline{ }.B}^{x =_A x} b$, and by the elimination rules for heterogeneous propositional equality, we have $a =_{\underline{ }.B}^{x =_A x} b$ implies $a =_{B(x)} b$. Thus, $a =_{\underline{ }.B}^{x =_A x} b$ if and only if $a =_{B(x)} b$. 
-
-### Transport and the principle of substitution
-
-The analogue of [[identity functions]] on a type $A$, a function $f:A \to A$ such that $x =_A f(x)$ for all elements $x:A$, is the notion of [[transport functions]] between a family of types $B(x)$ indexed by elements $x:A$. 
-
-Given elements $x:A$ and $y:A$ such that $x =_A y$, a [[transport function]] is a function $f:B(x) \to B(y)$ such that for all $a:B(x)$, $a =_{\underline{ }.B}^{x =_A y} f(a)$
-
-$$\forall a:B(x).a =_{\underline{ }.B}^{x =_A y} f(a)$$
-
-These transport functions, if they exist, are [[uniqueness quantifier|unique up to equality]]. Suppose we have a second function $g:B(x) \to B(y)$ such that $x =_A y$ implies that for all $a:B(x)$, $a =_{\underline{ }.B}^{x =_A y} g(a)$. Then by symmetry and transitivity of heterogeneous equality, we have $f(a) =_{\underline{ }.B}^{y =_A y} g(a)$, which is logically equivalent to $f(a) =_{B(y)} g(a)$. Then by function extensionality, we have $f =_{B(x) \to B(y)} g$, which implies that transport functions, if they exist, are unique up to equality. 
-
-Suppose that for all elements $x:A$ and $y:A$ such that $x =_A y$, there exists a transport function $\mathrm{tr}_{\underline{ }.B}^{x =_A y}:B(x) \to B(y)$. Then for all $a:B(x)$ and $b:B(y)$, $a =_{\underline{ }.B}^{x =_A y} b$ if and only if $\mathrm{tr}_{\underline{ }.B}^{x =_A y}(a) =_{B(y)} b$
-
-$$\forall a:B(x).\forall b:B(y). a =_{\underline{ }.B}^{x =_A y} b \iff \mathrm{tr}_{\underline{ }.B}^{x =_A y}(a) =_{B(y)} b$$
-
-In particular, this means that we have $\mathrm{tr}_{\underline{ }.B}^{y =_A x}(b) =_{B(x)} a$, and by the fact that functions preserve equality, $\mathrm{tr}_{\underline{ }.B}^{y =_A x}(\mathrm{tr}_{\underline{ }.B}^{x =_A y}(a)) =_{B(x)} \mathrm{tr}_{\underline{ }.B}^{y =_A x}(b)$, which by transitivity of propositional equality implies that $\mathrm{tr}_{\underline{ }.B}^{y =_A x}(\mathrm{tr}_{\underline{ }.B}^{x =_A y}(a)) =_{B(x)} a$. Similarly, we have $\mathrm{tr}_{\underline{ }.B}^{x =_A y}(\mathrm{tr}_{\underline{ }.B}^{y =_A x}(b)) =_{B(y)} \mathrm{tr}_{\underline{ }.B}^{x =_A y}(a)$, which by transitivity of propositional equality implies that $\mathrm{tr}_{\underline{ }.B}^{x =_A y}(\mathrm{tr}_{\underline{ }.B}^{y =_A x}(b)) =_{B(y)} b$. Thus, the transport functions $\mathrm{tr}_{\underline{ }.B}^{x =_A y}:B(x) \to B(y)$ and $\mathrm{tr}_{\underline{ }.B}^{y =_A x}:B(y) \to B(x)$ are [[inverse functions]] of each other, and thus both transport functions are [[bijections]], and could be written as $\mathrm{tr}_{\underline{ }.B}^{x =_A y}:B(x) \cong B(y)$ and $\mathrm{tr}_{\underline{ }.B}^{y =_A x}:B(y) \cong B(x)$ respectively. 
-
-Thus, provided that [[transport functions]] exist, we have the following derivable rules for the [[principle of substitution]] of propositionally equal terms:
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a : A \quad \Gamma \vdash b : A \quad \Gamma \vdash a =_A b \; \mathrm{true} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \mathrm{tr}_{\underline{ }.B}^{a =_A b}:B(a) \to B(b)}$$
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a : A \quad \Gamma \vdash b : A \quad \Gamma \vdash a =_A b \; \mathrm{true} \quad \Gamma, x:A \vdash c(x):B(x)}{\Gamma \vdash \mathrm{tr}_{\underline{ }.B}^{a =_A b}(c(a)) =_{B(b)} c(b) \; \mathrm{true}}$$
+Transport and heterogeneous propositional equality are important in some [[set theories]] which do not have equality between sets themselves, and the only way to compare sets for equality is through [[isomorphisms]]. The same is true of [[logic over dependent type theory]] which do not have definitional equality between types, and one has to use [[definitional isomorphisms]] instead. In the presence of equality between sets, transport is simply the [[identity function]] on the equal set. 
 
 ### In computation and uniqueness rules
 
-Propositional equality can be used in the [[computation rules]] and [[uniqueness rules]] of types in [[dependent type theory]]: 
+Propositional equality can be used in the [[computation rules]] and [[uniqueness rules]] of types in [[logic over dependent type theory]]: 
 
 * Computation rules for dependent product types:
 
@@ -133,6 +114,14 @@ $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma \vdas
 * [[judgmental equality]], [[typal equality]]
 
 * [[logic over dependent type theory]]
+
+* [[dependently sorted set theory]]
+
+## References
+
+The usual notion of equality as a proposition is discussed in 
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Equality_(mathematics)">Equality (mathematics)</a>*
 
 [[!redirects propositional equality]]
 [[!redirects propositional equalities]]
