@@ -132,6 +132,7 @@ $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma \vdas
 
 * [[judgmental equality]], [[typal equality]]
 
+* [[logic over dependent type theory]]
 
 [[!redirects propositional equality]]
 [[!redirects propositional equalities]]
