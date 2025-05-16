@@ -393,7 +393,11 @@ More technical introductions:
 
 * {#ShulmanCourse} [[Mike Shulman]], _Minicourse on homotopy type theory_, Swansea, April (2012) ([web](http://home.sandiego.edu/~shulman/hottminicourse2012/))
 
-* [[Dan Licata]], *Programming in Homotopy Type Theory*, Talk at IFIP Working Group 2.8 meeting, November, 2012 ([pdf](https://dlicata.wescreates.wesleyan.edu/pubs/lh122tttalks/lh12wg2.8.pdf), [[LicataProgrammingInHoTT.pdf:file]])
+* [[Dan Licata]], *Programming in Homotopy Type Theory*, Talk at IFIP Working Group 2.8 meeting, November, 2012 ([pdf](https://dlicata.wescreates.wesleyan.edu/pubs/lh122tttalks/lh12wg2.8.pdf), [[LicataProgrammingInHoTT.pdf:file]]) 
+
+Homotopy type theory is discussed in sections 5.2 of:
+
+* {#AngiuliGratzer} [[Carlo Angiuli]], [[Daniel Gratzer]], *Principles of Dependent Type Theory* ([pdf](https://www.danielgratzer.com/papers/type-theory-book.pdf))
 
 On [[synthetic homotopy theory]] in [[homotopy type theory]]:
 
