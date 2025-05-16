@@ -23,11 +23,11 @@ Dependently sorted set theory is different from [[set-level type theory|set-leve
 
 * [[unsorted set theory]]
 * [[two-sorted set theory]]
-* [[dependently sorted set theory]]
 * [[material set theory]]
 * [[structural set theory]]
 * [[structurally presented set theory]]
 * [[set-level type theory]]
+* [[logic over dependent type theory]]
 
 [[!redirects dependently sorted set theory]]
 [[!redirects dependently sorted set theories]]
