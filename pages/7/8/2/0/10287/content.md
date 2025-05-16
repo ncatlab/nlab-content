@@ -1,6 +1,15 @@
 
+Jan Christoph Plefka
 
-* [webpage](http://fakultaeten.hu-berlin.de/mnf1/mitarbeiter/1680831)
+
+* [research group page](https://qft.physik.hu-berlin.de/research/elementary-particle-physics-group/jan-plefka/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Jan_Christoph_Plefka)
+
+* [inSpire page](https://inspirehep.net/authors/993182)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=e4hzXVoAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -25,6 +34,9 @@ On [[higher curvature corrections]] in [[D=11 supergravity]]/[[M-theory]] via an
 
 * [[Kasper Peeters]], [[Jan Plefka]], [[Steffen Stern]], _Higher-derivative gauge field terms in the M-theory action_, JHEP 0508 (2005) 095 ([arXiv:hep-th/0507178](https://arxiv.org/abs/hep-th/0507178))
 
+On [[scattering amplitudes]] in [[quantum field theory]]:
+
+* Simon Badger, Johannes Henn, [[Jan Plefka]], Simone Zoia: *Scattering Amplitudes in Quantum Field Theory*, Lecture Notes in Physics **1021**, Springer (2024) &lbrack;[arXiv:2306.05976](https://arxiv.org/abs/2306.05976), [doi:10.1007/978-3-031-46987-9](https://doi.org/10.1007/978-3-031-46987-9)&rbrack;
 
 
 
