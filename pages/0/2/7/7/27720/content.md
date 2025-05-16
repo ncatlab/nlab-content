@@ -103,7 +103,7 @@ The **type of booleans** can also be defined as the *type of all [[decidable pro
 
 * as a homotopy-[[terminal object|terminal]] univalent type family of [[decidable propositions]], suitably defined. 
 
-* as a [[record type with type fields]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P) \times \mathrm{isDecidable}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P)) \times \mathrm{isDecidable}(T(P))$ respectively, but for all types, not just the $U$-small types. 
+* as a [[type universe]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P) \times \mathrm{isDecidable}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P)) \times \mathrm{isDecidable}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
 #### Using the type of all propositions
 
@@ -127,15 +127,13 @@ A morphism of univalent families of decidable propositions between univalent fam
 
 The **type of booleans** $(\mathrm{Bool}, \mathrm{El})$ is the homotopy-terminal univalent family of decidable propositions: given any other univalent family of decidable propositions $(A, B)$, there exists a unique function $u_A:A \to \mathrm{Bool}$ and a unique family of functions $u_B(x):B(x) \to \mathrm{El}(u_A(x))$. 
 
-#### As a record type with type fields
+#### As a type universe
 
-The **type of booleans** $\mathrm{Bool}$ is a [[record type]] where one of the fields is a [[type]], consisting of 
+The **type of booleans** $\mathrm{Bool}$ is a [[type universe]] of all [[decidable propositions]]. It behaves as a [[record type]] where one of the fields is a [[type]], consisting of 
 
 * a type $A \; \mathrm{type}$
 
 * a witness $p:\mathrm{isProp}(A) \times (A \vee \neg A)$ that $A$ is a [[decidable proposition]]. 
-
-As a result, the type of booleans behaves as a [[type universe]]. 
 
 Similar to other [[type universes]] and [[record types with type fields]], the type of booleans can be presented [[a la Tarski]] or [[a la Russell]]
 
