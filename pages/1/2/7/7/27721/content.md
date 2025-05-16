@@ -398,6 +398,11 @@ $$\frac{\Gamma \vdash \prod_{x:A} B(x) \; \mathrm{type}}{\Gamma \vdash \forall x
 
 * [[higher order logic as a dependent type theory]]
 
+* [[dependently sorted set theory]]
+
 * [[propositional equality]], [[definitional equality]]
 
 * [[propositions as types]]
+
+[[!redirects logic over dependent type theory]]
+[[!redirects logic over dependent type theories]]
