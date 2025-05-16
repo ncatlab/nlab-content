@@ -103,7 +103,7 @@ A comprehensive treatment in the context of [[(∞,1)-category]]-theory,  genera
 
 later absorbed as
 
-* [[Jacob Lurie]], section 6.2.4 of _[[Higher Algebra]]_
+* [[Jacob Lurie]], section 4.7 of _[[Higher Algebra]]_
 
 Unfortunately, [[Maxim Kontsevich|Kontsevich]]'s [[monadicity theorem]] (July 2004) which is in the setup of [[A-infinity category|A-∞-categories]], still remains unpublished. The [[triangulated category|triangulated]] version is in Rosenberg's lectures
 
