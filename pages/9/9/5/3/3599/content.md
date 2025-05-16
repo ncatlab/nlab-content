@@ -171,6 +171,9 @@ The relation between dependent types and bundles (functions of given codomain)
 [[!redirects type family]]
 [[!redirects type families]]
 
+[[!redirects family of types]]
+[[!redirects families of types]]
+
 [[!redirects type in context]]
 [[!redirects types in context]]
 [[!redirects types in contexts]]
