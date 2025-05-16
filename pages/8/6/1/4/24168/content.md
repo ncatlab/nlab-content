@@ -56,6 +56,10 @@ These univalent type theories usually have additional types such as the [[empty 
 
 * [[Martín Hötzel Escardó]] and [Cory Knapp](https://github.com/cmknapp), _Partial Elements and Recursion via Dominances in Univalent Type Theory_, ([LIPIcs:2017:7682](https://drops.dagstuhl.de/opus/volltexte/2017/7682/))
 
+Univalent type theory is discussed in chapter 5 of:
+
+* {#AngiuliGratzer} [[Carlo Angiuli]], [[Daniel Gratzer]], *Principles of Dependent Type Theory* ([pdf](https://www.danielgratzer.com/papers/type-theory-book.pdf))
+
 [[!redirects univalent type theories]]
 
 [[!redirects univalent type universe]]
