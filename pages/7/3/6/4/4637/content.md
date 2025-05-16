@@ -16,7 +16,7 @@
 =--
 =--
 
-> Note that the term 'Isbell duality' is also applied to a particular [[duality]] between [[frames]] with enough points and [[sober spaces]].
+> Note that the term 'Isbell duality' is also applied to a particular [[duality]] between [[frames]] with enough points and [[sober spaces]] (cf. [BKR 08](#BKR08)).
 
 [[higher geometry]] $\leftarrow$ **Isbell duality**  $\rightarrow$ [[higher algebra]]
 
@@ -625,7 +625,7 @@ More recent discussion:
 
 * {#Lawvere86} [[William Lawvere]], p. 17 of _Taking categories seriously_, Revista Colombiana de Matematicas, XX (1986) 147-178, reprinted as: Reprints in Theory and Applications of Categories, No. 8 (2005) pp. 1-24 ([web](http://tac.mta.ca/tac/reprints/articles/8/tr8abs.html))
 
-* [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell Duality* Theory and Applications of Categories **20** 15 (2008) 504-542 &lbrack;[tac:20-15](http://www.tac.mta.ca/tac/volumes/20/15/20-15abs.html)&rbrack;
+* {#BKR08} [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell Duality* Theory and Applications of Categories **20** 15 (2008) 504-542 &lbrack;[tac:20-15](http://www.tac.mta.ca/tac/volumes/20/15/20-15abs.html)&rbrack;
 
 * [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *Isbell duality for modules*, Theory and Applications of Categories **22** 17 (2009) 401-419 &lbrack;[tac:22-17](http://www.tac.mta.ca/tac/volumes/22/17/22-17abs.html), [pdf](https://www.math.mcgill.ca/barr/papers/rmod.pdf)&rbrack;
 
