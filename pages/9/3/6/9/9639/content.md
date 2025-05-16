@@ -845,6 +845,8 @@ The composite-fermion model (CF) which explains the FQHE as the [[integer quantu
 
 * {#Jain07} [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>\]
 
+* {#Jain2020} [[Jainendra K. Jain]]: *Thirty Years of Composite Fermions and Beyond*, chapter 1 in [Halperin & Jain 2020](#HalperinJain20), *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) &lbrack;[arXiv:2011.13488](https://arxiv.org/abs/2011.13488), <a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
+
 
 Further discussion:
 
