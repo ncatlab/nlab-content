@@ -87,7 +87,7 @@ This table gives the six different notions of equality found in type theory.
 |--------|--------|--------|
 | Judgmental equality | $\Gamma \vdash A = B \; \mathrm{type}$ | $\Gamma \vdash a = b:A$ |
 | Propositional equality | $\Gamma \vdash A = B \; \mathrm{true}$ | $\Gamma \vdash a =_A b \; \mathrm{true}$ |
-| Typal equality | $\Gamma \vdash P:A \simeq B$ | $\Gamma \vdash p:a =_A b$ |
+| Typal equality | $\Gamma \vdash P:A \equiv B$ | $\Gamma \vdash p:a =_A b$ |
 
 ## Structural rules of equalities
 
