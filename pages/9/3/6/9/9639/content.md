@@ -662,7 +662,6 @@ Review:
 * [[Eduardo C. Marino]]: *Quantum Hall Effect*, chapter 26 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
 
 
-
 Discussion via Newton-Cartan theory:
 
 * William Wolf, James Read, Nicholas Teh, *Edge modes and dressing fields for the Newton-Cartan quantum Hall effect* &lbrack;[arXiv:2111.08052](https://arxiv.org/abs/2111.08052)&rbrack;
@@ -847,7 +846,7 @@ The composite-fermion model (CF) which explains the FQHE as the [[integer quantu
 
 * {#Jain92} [[Jainendra K. Jain]]: *Microscopic theory of the fractional quantum Hall effect*, Adv. Phys. **41** (1992) 105-146 \[<a href="https://doi.org/10.1080/00018739200101483">doi:10.1080/00018739200101483</a>\]
 
-* {#Jain07} [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>\]
+* {#Jain07} [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>, §5:[[Jain07-ch5.pdf:file]]\]
 
 On FQH *of* composite fermions:
 
