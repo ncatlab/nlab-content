@@ -453,13 +453,13 @@ hence for
 
 If one accepts this heuristics of electron+flux *composite particles*, then it provides the following heuristic explanation of the fractional quantum Hall effect, in fact it provides two alternative explanations.
 
-First, at simple Landau filling fraction $\nu = 1/q$ with $q$ odd, there are $q$ flux quanta per electron. Thinking of these as being coupled in the form of "composite bosons" (since $q$ is assumed to be odd, which are indeed the primary filling fractions seen in experiment, though far from the only ones) then the effective system is now bosonic and hence may [[Bose-Einstein condensate|condense]] to give the fractional quantum Hall phase. ([Girvin & MacDonald 1987 p 1254](https://doi.org/10.1103/PhysRevLett.58.1252))
+First, at unit filling fraction $\nu = 1/q$ with $q$ odd, there are $q$ flux quanta per electron. Thinking of these as being coupled in the form of "composite bosons" (since $q$ is assumed to be odd, which are indeed the primary filling fractions seen in experiment, though far from the only ones) then the effective system is now bosonic and hence may [[Bose-Einstein condensate|condense]] to give the fractional quantum Hall phase ([Girvin & MacDonald 1987 p 1254](https://doi.org/10.1103/PhysRevLett.58.1252)).
 
 Further exposition of this perspective by [Störmer 1999](#Störmer99) is quoted [below](#Störmer99Quote).
 
 \linebreak
 
-But [Jain 1989](#Jain89), [1992](#Jain92), [2007](#Jain07) has argued that the following alternative perspective of composite fermions is more compelling and in any case more general and more expressive, as it neatly captures also the correct hierarchy of filling fractions $\nu = p/q$ with $p \gt 1$:
+But [Jain 1989](#Jain89), [1992](#Jain92), [2007](#Jain07) has argued that the following alternative perspective of composite *fermions* is more compelling and in any case more general and more expressive, as it neatly captures also the correct hierarchy of filling fractions $\nu = p/q$ with $p \gt 1$:
 
 First assume that the electrons each bind to $2m$ flux quanta ($m \in \mathbb{N}$) to make composite fermions, and *then* assume that these composite fermions *themselves* show an integer quantum Hall effect at filling number $p$, hence that there are $p$ such composite fermions for each *remaining* (unbound) flux quantum.
 
@@ -502,6 +502,7 @@ Remarkably, this resulting formula captures a significant part of the zoo of obs
     "caption": "(from [Jain 1989](#Jain89))"
 \end{imagefromfile}
 
+Further fractions have been argued to be explained this way if one assumes moreover that the composite fermions may themselves exhibit not just the integer also a fractional quantum Hall effect &lbrack;[Chang & Jain 2004](#ChangJain04)&rbrack;
 
 
 \linebreak
@@ -763,13 +764,16 @@ Realization via [[AdS/CFT in condensed matter physics]]:
 * Mitsutoshi Fujita, Wei Li, [[Shinsei Ryu]], [[Tadashi Takayanagi]], *Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy*, JHEP 0906:066 (2009) &lbrack;[arXiv:0901.0924](https://arxiv.org/abs/0901.0924)&rbrack;
 
 
-#### Observation of specific filling fractions
+#### Specific filling fractions
 
-Experimental observations of FQH effects at specific filling fractions $\nu$:
+On the $\nu = 5/2$ FQH state:
 
-$\nu = 1/4$:
+* [[Jainendra K. Jain]]: *The $5/2$ enigma in a spin?*, Physics **3** (2010) 71 &lbrack;[doi:10.1103/Physics.3.71](http://link.aps.org/doi/10.1103/Physics.3.71), [pdf](https://physics.aps.org/articles/pdf/10.1103/Physics.3.71)&rbrack;
 
-* D.R. Luhman, W. Pan, D.C. Tsui, L.N. Pfeiffer, K.W. Baldwin, K.W. West: *Observation of a Fractional Quantum Hall State at   in a Wide $GaAs$ Quantum Well*, Phys. Rev. Lett. **101** (2008) 266804 &lbrack;[arXiv:0810.2274](https://arxiv.org/abs/0810.2274), [doi:10.1103/PhysRevLett.101.266804](https://doi.org/10.1103/PhysRevLett.101.266804)&rbrack;
+
+Observations of the $\nu = 1/4$ FQH state:
+
+* D. R. Luhman, W. Pan, D.C. Tsui, L.N. Pfeiffer, K.W. Baldwin, K.W. West: *Observation of a Fractional Quantum Hall State at   in a Wide $GaAs$ Quantum Well*, Phys. Rev. Lett. **101** (2008) 266804 &lbrack;[arXiv:0810.2274](https://arxiv.org/abs/0810.2274), [doi:10.1103/PhysRevLett.101.266804](https://doi.org/10.1103/PhysRevLett.101.266804)&rbrack;
 
 * A. A. Zibrov, et al.: *Even-denominator fractional quantum Hall states at an isospin transition in monolayer graphene*, Nature Physics **14** (2018) 930–935 &lbrack;[doi;10.1038/s41567-018-0190-0](https://doi.org/10.1038/s41567-018-0190-0)&rbrack;
 
@@ -845,6 +849,13 @@ The composite-fermion model (CF) which explains the FQHE as the [[integer quantu
 
 * {#Jain07} [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>\]
 
+On FQH *of* composite fermions:
+
+* {#ChangJain04} C.-C Chang, [[Jainendra K. Jain]]: *Microscopic origin of the next generation fractional quantum Hall effect*, Phys. Rev. Lett. **92** (2004) 196806 \[<a href="https://doi.org/10.1103/PhysRevLett.92.196806">doi:10.1103/PhysRevLett.92.196806</a>, [arXiv:cond-mat/0404079](https://arxiv.org/abs/cond-mat/0404079)\]
+
+
+Review:
+
 * {#Jain2020} [[Jainendra K. Jain]]: *Thirty Years of Composite Fermions and Beyond*, chapter 1 in [Halperin & Jain 2020](#HalperinJain20), *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) &lbrack;[arXiv:2011.13488](https://arxiv.org/abs/2011.13488), <a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
 
 
@@ -852,7 +863,6 @@ Further discussion:
 
 * [[Jainendra K. Jain]]: *A note contrasting two microscopic theories of the fractional quantum Hall effect*, Indian J of Phys **88** (2014) 915-929 \[<a href="https://doi.org/10.1007/s12648-014-0491-9">doi:10.1007/s12648-014-0491-9</a>, [arXiv:1403.5415](https://arxiv.org/abs/1403.5415)\]
 
-* C.-C Chang, [[Jainendra K. Jain]]: *Microscopic origin of the next generation fractional quantum Hall effect*, Phys. Rev. Lett. **92** (2004) 196806 \[<a href="https://doi.org/10.1103/PhysRevLett.92.196806">doi:10.1103/PhysRevLett.92.196806</a>, [arXiv:cond-mat/0404079](https://arxiv.org/abs/cond-mat/0404079)\]
 
 Discussion highlighting the lack of microscopic explanation of these phenomenological models:
 
