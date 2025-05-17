@@ -48,6 +48,8 @@ The lattice-ordered groups form a variet ub the category of residuated lattices 
 
 * [[lattice-ordered ring]]
 
+* [[Kleene algebra]]
+
 ## References
 
 The original article that considered ordered groups in the non-commutative case is by Garrett Birkhoff:
