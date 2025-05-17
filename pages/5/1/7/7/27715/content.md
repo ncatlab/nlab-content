@@ -15,11 +15,11 @@ The notion of a [[type]] [[variable]] in [[type theory]].
 
 In one sense, any [[dependent type theory]] with a [[Russell universe]] $U$ has type variables that are simply variables of the universe $U$, by definition of a Russell universe. 
 
-However, the term "type variable" is usually used for type variables that range over all types, in the sense of [[polymorphism|polymorphic]] type theory.
+However, the term "type variable" is usually used for type variables that range over all types, in the sense of [[polymorphic type theory]].
 
 * [[System F]] is a [[polymorphic]] [[simple type theory]] with type variables.
 
-* For type variables in [[polymorphic]] [[dependent type theories]] with a single separate [[type]] [[judgment]], see [[dependent type theory with type variables]]
+* For type variables in [[polymorphic]] [[dependent type theories]] with a single separate [[type]] [[judgment]], see [[polymorphic dependent type theories]]
 
 category: disambiguation
 
