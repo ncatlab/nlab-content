@@ -36,11 +36,11 @@ Manifolds with non-trivial Kervaire invariant, hence with _Kervaire invariant 1_
 
 * $d = 14 = 4 \cdot 3 + 2$
 
-* $d =  30 = 4 \cdot 7 + 2$
+* $d = 30 = 4 \cdot 7 + 2$
 
 * $d = 62 = 4 \cdot 15 + 2$
 
-and in no other dimension, except possibly in $d = 126$ (a case that is still open).
+* $d = 126 = 4 \cdot 31 + 2$
 
 This is the statement of (the solution to) the _[[Arf-Kervaire invariant problem]]_.
 
@@ -74,17 +74,21 @@ of the space of [[holomorphic sections]] of $L$:
 
 * [[Akhil Mathew]], _[The Kervaire invariant I](https://amathew.wordpress.com/2012/10/01/the-kervaire-invariant-i/)_
 
-On the solution of the [[Arf-Kervaire invariant problem]]:
+On the solution of the [[Arf-Kervaire invariant problem]] away from $d = 126$:
 
-* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _On the non-existence of elements of Kervaire invariant one_
+* [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]]: _On the non-existence of elements of Kervaire invariant one_, Annals of Mathematics **184** 1 (2016) 1-262 &lbrack;[arXiv:0908.3724](https://arxiv.org/abs/0908.3724), [doi:10.4007/annals.2016.184.1.1](https://doi.org/10.4007/annals.2016.184.1.1)&rbrack;
 
 On the [[equivariant homotopy theory]] involved:
 
 * [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
 
-More resources are collected at
+More resources are collected at:
 
 * [[Douglas Ravenel]], _[A solution to the Arf-Kervaire invariant problem](http://www.math.rochester.edu/people/faculty/doug/kervaire.html)_, web esources 2009
+
+Solution to the last remaining case, $d = 126$, is claimed in:
+
+* {#LinWangXu24} Weinan Lin, Guozhen Wang, Zhouli Xu: *On the Last Kervaire Invariant Problem* &lbrack;[arXiv:2412.10879](https://arxiv.org/abs/2412.10879)&rbrack;
 
 
 
