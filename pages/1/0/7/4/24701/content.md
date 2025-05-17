@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -26,83 +27,79 @@
 
 ## Idea
 
-**Objective type theory** is a [[dependent type theory]] without [[judgmental equality]]. 
+A [[dependent type theory]] where the [[computation rules]] and [[uniqueness rules]] for types use [[identity types]] instead of [[judgmental equality]]. As a result, the results in the dependent type theory are more general than in models which use judgmental equality for computational and uniqueness rules, since judgmental equality implies typal equality, while the converse isn't necessarily the case. 
 
-This means that in additon to being a [[weak type theory]], where the computation and uniqueness rules ([[beta-reduction]] and [[eta-conversion]]) for each type in the type theory are all propositional computational and uniqueness rules using the [[identity type]], objective type theory is similar to other non-type theory foundations such as the various flavors of set theory, since it also only has one notion of equality, propositional equality, and uses propositional equality in [[definitions]]. 
+The dependent type theory has many different names in the existing literature
 
-Objective type theory has [[decidable]] [[type checking]], and the type checking can be done in quadratic time. 
+* *propositional type theory* (e.g. [Spadetto 2023](#Spadetto23))
+
+* *objective type theory* (e.g. [van der Berg & den Besten 2021](#BB21))
+
+* *weak type theory* (e.g. [Winterhalter 2020](#Winterhalter20))
+
+Propositional type theory has [[decidable]] [[type checking]], and the type checking can be done in quadratic time. 
+
+## Definitions in propositional type theory
+
+Propositional type theories come into two general versions, depending on how they treat [[definitions]] in dependent type theory:
+
+* Dependent type theories which have a judgmental [[definitional equality]] (e.g. [Spadetto 2023](#Spadetto23)). 
+
+* Dependent type theories which do not have judgmental [[definitional equality]] (e.g. [van der Berg & den Besten 2021](#BB21)). 
+
+These two approaches differ in whether aliases of terms and types reduce to the original term or type, or are identified or equivalent to the original term or type. They each have their own advantages:
+
+Advantages of not having judgmental definitional equality include 
+
+* a simpler set of inference rules 
+
+* more models
+
+* type theories without any definitional equalities are cofibrant in categories of theories.
+
+Advantages of having judgmental definitional equality include 
+
+* shorter internal proofs and constructions
+
+* avoids “higher transport hell” for aliases of terms and types
+
+### With judgmental definitional equality
+
+For propositional type theory with judgmental definitional equality, definitions of aliases of [[types]] and [[terms]] are still made using [[judgmental equality]]. The [[structural rules]] and [[congruence rules]] have to be postulated explicitly in the theory like in the usual dependent type theories. In addition to the [[congruence rules]] for [[judgmental equality]] for the [[formation rules]], [[introduction rules]], and [[elimination rules]] of each type former, there are additional [[congruence rules]] for the computation and uniqueness rules, since the conversion rules are represented by the structure of an identification rather than judgmental equality, and thus this structure has to be preserved across judgmental equality. 
+
+### Without judgmental definitional equality
+
+For propositional type theory without judgmental definitional equality, [[definitions]] of [[types]] and [[terms]] are made using [[identifications]] or [[equivalences of types]]. Any judgmental equality $\equiv$ in the theory represents [[alpha-equivalence|$\alpha$-equivalence]] or [[syntactic equality]], where the usual [[structural rules]] and [[congruence rules]] are [[admissible rules]].  
+
+Furthermore, in the context of propositional type theory where there is no [[definitional equality]] in the type theory in the traditional sense, there is the question of how to define aliases of terms and types in the type theory. 
+
+For the case of terms, that is easily resolved by using identity types. For example, to define $2$ as the successor of the succcessor of zero in the [[natural numbers type]], one could postulate an [[identification]] $\mathrm{def}2:2 =_{\mathrm{N}} s(s(0))$. On the other hand, the situation for types is a bit more complicated. For example, the [[isProp]] [[modality]] $\mathrm{isProp}(A)$ in [[dependent type theory]] indicating whether the type $A$ is a [[mere proposition]] is usually defined to be $\prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$. But without [[judgmental equality]], one cannot simply write 
+$$\mathrm{isProp}(A) \equiv \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
+
+When presenting [[dependent type theory]] using [[Russell universes]], the answer is as simple as that for terms: one simply uses [[typal equality]] instead, because every type is an element of a Russell universe, and so one could write 
+$$\mathrm{defisProp}_A:\mathrm{isContr}(A) =_{\mathrm{Type}_i} \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
+for types $\mathrm{isProp}(A):\mathrm{Type}_i$ and $\prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y):\mathrm{Type}_i$. 
+
+On the other hand, when using a separate type judgment, types are not elements of other types, and thus one cannot compare them for typal equality. Instead, one has two alternatives 
+
+* One can use [[polymorphism|polymorphic]] dependent type theory with [[dependent type theory with type variables|type variables]] and postulate an [[identity type#IdentityTypeBetweenTypes|identity type between types]] $A = B$, where we then have
+$$\mathrm{defisProp}_A:\mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
+* One can postulate a [[type of equivalences]] $A \simeq B$ as a [[record type]] with propositional computation rules, where we then have
+$$\mathrm{defisProp}_A:\mathrm{isProp}(A) \simeq \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$ 
 
 ## Formalizations and syntax
 
-### Substitutions
+In section 9 of [Winterhalter 2020](#Winterhalter20), [[Theo Winterhalter]] indicates that there are many ways to formalize [[dependent type theory]]. One important aspect is whether to use [[Russell universes]] or a separate [[type]] [[judgment]] to denote types. [van der Berg & den Besten 2021](#BB21) and [Spadetto 2023](#Spadetto23) for example both use [[Russell universes]] in their formal presentation of dependent type theory. 
 
-There are two ways one could define [[substitutions]] in [[dependent type theory]], either by [[explicit substitution]] or by showing that the [[substitution rule]] is an [[admissible rule]]. However, for objective type theory, only the latter approach is possible. 
-
-The problem with explicit substitutions is that with explicit substitution approaches, the contexts are usually formalized with [[judgmental equality]] of [[morphisms]] of contexts, such that the [[categorical semantics]] correspond to a functor from the category of contexts $C$ to the [[2-category]] $\mathrm{Cat}$ which takes a context $\Gamma:C$ to the slice category $C/\Gamma$. However, without judgmental equality, $C$ doesn't form a category anymore, since the morphisms in $C$ don't form a [[set]] anymore, and one can no longer express the unit and associatvity laws for composition of morphisms of contexts, which are needed for the unit and associativity laws of explicit substitution. The same holds for explicit substitution via [[telescopes]]; here, substitutions are elements of telescopes, and one has judgmental equalities of the substitutions themselves. 
-
-Alternatively, one can try to define structure indicating that the collection of contexts $C$ forms an [[(infinity,1)-category|$(\infty, 1)$-category]], avoiding the need for judgmental equality entirely, but one quickly runs into [[coherence]] issues, since the structure of an $(\infty, 1)$-category cannot be expressed from nothing using a finite amount of structure. This is similar to the issues in defining an $(\infty, 1)$-category in dependent type theory without using pre-existing [[simplicial set|simplicial]] or [[cubical set|cubical]] structure or [[modal type theory|modalities]]. Thus, it is currently unknown how to avoid this use of judgmental equality for explicit substitution and/or telescopes in dependent type theory, rendering it impossible for those to formulate objective type theory.
-
-The other approach involving an admissible substitution rule doesn't suffer from this issue because the analogue in admissible substitution approaches of the judgmental equality in explicit substitution approaches resides in the metatheory rather than the actual theory itself, so the type theory itself can genuinely be said to not contain any judgmental equalities. 
-
-### Definitions in objective type theory
-
-In section 9 of [Winterhalter2020](#Winterhalter20), [[Theo Winterhalter]] indicates that there are many ways to formalize [[dependent type theory]]. One important aspect is whether to use [[Russell universes]] or a separate [[type]] [[judgment]] to denote types: [van der Berg & den Besten 2021](#BB21) and [UPF 2013](#UPF13) both use [[Russell universes]] in their formal presentation of dependent type theory, while [Rijke 2022](#Rijke22) uses a separate type judgment to denote types. 
-
-In the context of objective type theory, there is no [[judgmental equality]] in the type theory in the traditional sense, so there is the question of how to define aliases of terms and types in the type theory. For the case of terms, that is easily resolved by using identity types. For example, to define $2$ as the successor of the succcessor of zero in the [[natural numbers type]], one could postulate an [[identification]] $\mathrm{def}2:2 =_{\mathrm{N}} s(s(0))$. On the other hand, the situation for types is a bit more complicated. For example, the [[isContr]] [[modality]] $\mathrm{isContr}(A)$ in [[dependent type theory]] indicating whether the type $A$ is a [[contractible type]] is usually defined to be $\sum_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$. But without [[judgmental equality]], one cannot simply write 
-$$\mathrm{isContr}(A) \equiv \sum_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
-When presenting [[dependent type theory]] using [[Russell universes]], the answer is as simple as that for terms: one simply uses [[typal equality]] instead, because every type is an element of a Russell universe, and so one could write 
-$$\mathrm{defisContr}_A:\mathrm{isContr}(A) =_{\mathrm{Type}_i} \sum_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
-for types $\mathrm{isContr}(A):\mathrm{Type}_i$ and $\sum_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y):\mathrm{Type}_i$. On the other hand, when using a separate type judgment, types are not elements of other types, and thus one cannot compare them for typal equality. Instead, one has to use [[equivalences of types]] instead: 
-$$\mathrm{defisContr}_A:\mathrm{isContr}(A) \simeq \sum_{a:A} \prod_{b:A} \mathrm{Id}_A(a, b)$$
-This poses another problem: the [[equivalence type]] $A \simeq B$ has not yet been defined yet.  
-
-When expanded out using [[dependent sum types]] and [[function types]], one gets 
-$$\sum_{f:A \to B} \mathrm{isEquiv}(f)$$
-
-[UPF 2013](#UPF13) says that the type family $f:A \to B \vdash \mathrm{isEquiv}(f)$ comes with 
-
-* a family of functions 
-$$f:A \to B \vdash \mathrm{qinvtoisEquiv}(f):\sum_{g:B \to A} \left(\prod_{y:B} \mathrm{Id}_B(f(g(y)), y)\right) \times \left(\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)\right) \to \mathrm{isEquiv}(f)$$
-
-* a family of functions
-$$f:A \to B \vdash \mathrm{isEquivtoqinv}(f):\mathrm{isEquiv}(f) \to \sum_{g:B \to A} \left(\prod_{y:B} \mathrm{Id}_B(f(g(y)), y)\right) \times \left(\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)\right)$$
-
-* a family of identifications
-$$f:A \to B, p:\mathrm{isEquiv}(f), q:\mathrm{isEquiv}(f) \vdash \mathrm{proptruncisEquiv}(f, p, q):\mathrm{Id}_{\mathrm{isEquiv}(f)}(p, q)$$
-
-This could be made into inference rules
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{isEquiv}(f)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{qinvtoisEquiv}(f):\sum_{g:B \to A} \left(\prod_{y:B} \mathrm{Id}_B(f(g(y)), y)\right) \times \left(\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)\right) \to \mathrm{isEquiv}(f)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{isEquivtoqinv}(f):\mathrm{isEquiv}(f) \to \sum_{g:B \to A} \left(\prod_{y:B} \mathrm{Id}_B(f(g(y)), y)\right) \times \left(\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)\right)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, p:\mathrm{isEquiv}(f), q:\mathrm{isEquiv}(f) \vdash \mathrm{proptruncisEquiv}(f, p, q):\mathrm{Id}_{\mathrm{isEquiv}(f)}(p, q)}$$
-
-Breaking the functions down, the inference rules become
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B \vdash \mathrm{isEquiv}(f)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, g:B \to A, G:\prod_{y:B} \mathrm{Id}_B(f(g(y)), y), H:\prod_{x:A} \mathrm{Id}_A(g(f(x)), x) \vdash \mathrm{qinvtoisEquiv}(f, g, G, H):\mathrm{isEquiv}(f)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, p:\mathrm{isEquiv}(f) \vdash \mathrm{isEquivtoqinv}(f, p):\sum_{g:B \to A} \left(\prod_{y:B} \mathrm{Id}_B(f(g(y)), y)\right) \times \left(\prod_{x:A} \mathrm{Id}_A(g(f(x)), x)\right)}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type}}{\Gamma, f:A \to B, p:\mathrm{isEquiv}(f), q:\mathrm{isEquiv}(f) \vdash \mathrm{proptruncisEquiv}(f, p, q):\mathrm{Id}_{\mathrm{isEquiv}(f)}(p, q)}$$
-
-One could postulate a single equality judgment between types $A \equiv B \; \mathrm{type}$ which reflects into an equivalence:
-$$\frac{\Gamma \vdash B \equiv A \; \mathrm{type}}{\Gamma \vdash \mathrm{def}_{A, B}:\sum_{f:A \to B} \mathrm{isEquiv}(f)}$$
-A similar equality judgment could be made for terms, with a similar rule to reflect it into an identification:
-$$\frac{\Gamma \vdash b \equiv a:A}{\Gamma \vdash \mathrm{def}_{A, a, b}:\mathrm{Id}_A(a, b)}$$
-These equalities, while judgmental, are different from the judgmental equality found in other dependent type theories like [[Martin-Löf type theory]] and [[cubical type theory]] in that they have neither the [[structural rules]] nor the [[congruence rules]] found in those theories: they are only a formalization of a notational representation of definitional equality and definitional equivalence otherwise represented by [[identity types]] and [[equivalence types]]. 
+In this section, we present two separate formalizations, the first using a [[universe hierarchy]] of [[Russell universes]] in the style of [UFP 13](#UFP13), and the second using a separate type judgment in the style of [Rijke 2022](#Rijke22), along with type variables to define identity types between types for explicit conversion. 
 
 ### Without a separate type judgment
 
-In this section, we describe a formalization of objective type theory using an infinite hierarchy of Russell universes with cumulativity, in the style of [UPF 2013](#UPF13). 
+In this section, we describe a formalization of propositional type theory using an infinite hierarchy of Russell universes with cumulativity, in the style of [UPF 2013](#UPF13). 
 
 #### Judgments, contexts, and universes
 
-This presentation of objective type theory consists of the following judgments: 
+This presentation of propositional type theory consists of the following judgments: 
 
 * Element judgments, where we judge $a$ to be an element of $A$, $a:A$
 
@@ -122,20 +119,11 @@ $$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx} \quad \Gamma \
 
 #### Variable rule
 
-There is one additional [[structural rule]] in objective type theory, the [[variable rule]]. 
+There is one additional [[structural rule]] in propositional type theory, the [[variable rule]]. 
 
 The variable rule states that we may derive a element judgment if the element judgment is in the context already:
 
 $$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
-
-#### Admissible structural rules
-
-The [[weakening rule]] and the [[substitution rule]] are [[admissible rules]]: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
-
-Let $\mathcal{J}$ be any arbitrary judgment. Then the weakening rule is
-$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A:\mathrm{Type}_i}{\Gamma, a:A, \Delta \vdash \mathcal{J}}$$
-and the substitution rule is
-$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta(b) \vdash \mathcal{J}(b)}{\Gamma, \Delta(a) \vdash \mathcal{J}(a)}$$
 
 #### Families of types and elements
 
@@ -159,7 +147,7 @@ $$\frac{\Gamma, x:A, y:A, p:x =_A y, \Delta(x, y, p) \vdash C(x, y, p):\mathrm{T
 
 #### Definitions
 
-Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A:\mathrm{Type}_i$ are made in the same way, as $\mathrm{def}_{A, B}:A =_{\mathrm{Type}_i} B$. Thus, the [[identity type]] behaves very similarly to [[explicit conversion]] as discussed in section 9.2 of [Winterhalter2020](#Winterhalter20). 
+Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A:\mathrm{Type}_i$ are made in the same way, as $\mathrm{def}_{A, B}:A =_{\mathrm{Type}_i} B$. Thus, the [[identity type]] behaves very similarly to [[explicit conversion]] as discussed in section 9.2 of [Winterhalter 2020](#Winterhalter20). 
 
 #### Dependent function types
 
@@ -306,11 +294,11 @@ $$\frac{\Gamma, x:\mathbb{N} \vdash C(x):\mathrm{Type}_i \quad \Gamma \vdash c_0
 
 ### With a separate type judgment and type variables
 
-In this section, we describe a formalization of objective type theory using a type judgment, in the style of [Rijke 2022](#Rijke22), as well as [[dependent type theory with type variables|type variables]]. 
+In this section, we describe a formalization of propositional type theory using a type judgment, in the style of [Rijke 2022](#Rijke22), as well as [[dependent type theory with type variables|type variables]]. 
 
 #### Judgments and contexts
 
-This presentation of objective type theory consists of the following judgments: 
+This presentation of propositional type theory consists of the following judgments: 
 
 * Type judgments, where we judge $A$ to be a type, $A \; \mathrm{type}$
 
@@ -324,7 +312,7 @@ $$\frac{}{() \; \mathrm{ctx}} \qquad \frac{\Gamma \; \mathrm{ctx}}{(\Gamma, A \;
 
 #### Variable rules
 
-There are two additional [[structural rules]] in objective type theory, the [[variable rule]] for types and elements. 
+There are two additional [[structural rules]] in propositional type theory, the [[variable rule]] for types and elements. 
 
 The variable rule for types states that we may derive a type judgment if the type judgment is in the context already:
 
@@ -333,15 +321,6 @@ $$\frac{\Gamma, A \; \mathrm{type}, \Delta \; \mathrm{ctx}}{\Gamma, A \; \mathrm
 The variable rule for elements states that we may derive a element judgment if the element judgment is in the context already:
 
 $$\frac{\Gamma, a:A, \Delta \; \mathrm{ctx}}{\Gamma, a:A, \Delta \vdash a:A}$$
-
-#### Admissible structural rules
-
-The [[weakening rules]] and the [[substitution rules]] are [[admissible rules]]: they do not need to be explicitly included in the type theory as they could be proven by induction on the structure of all possible derivations. 
-
-Let $\mathcal{J}$ be any arbitrary judgment. Then the weakening rules are
-$$\frac{\Gamma, \Delta \vdash \mathcal{J} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, a:A, \Delta \vdash \mathcal{J}} \qquad \frac{\Gamma, \Delta \vdash \mathcal{J}}{\Gamma, A \; \mathrm{type}, \Delta \vdash \mathcal{J}}$$
-and the substitution rules are
-$$\frac{\Gamma \vdash a:A \quad \Gamma, b:A, \Delta(b) \vdash \mathcal{J}(b)}{\Gamma, \Delta(a) \vdash \mathcal{J}(a)} \qquad \frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, B \; \mathrm{type}, \Delta(B) \vdash \mathcal{J}(B)}{\Gamma, \Delta(A) \vdash \mathcal{J}(A)}$$
 
 #### Families of types and elements
 
@@ -383,7 +362,7 @@ $$\frac{\Gamma, A \; \mathrm{type}, B \; \mathrm{type}, p:A = B, \Delta(A, B, p)
 
 #### Definitions
 
-Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A$ are made in the same way using [[identity type#IdentityTypesBetweenTypes|identity types between types]], as $\mathrm{def}_{A, B}:A = B$. Thus, the [[identity type]] behaves very similarly to [[explicit conversion]] as discussed in section 9.2 of [Winterhalter2020](#Winterhalter20), even though we do not have universes here. 
+Definitions of a symbol $b$ for the element $a:A$ are made by using [[identity types]] between the symbol and element: $\mathrm{def}_{a, b}:a =_A b$. Definitions of a symbol $B$ for the type $A$ are made in the same way using [[identity type#IdentityTypesBetweenTypes|identity types between types]], as $\mathrm{def}_{A, B}:A = B$. Thus, the [[identity type]] behaves very similarly to [[explicit conversion]] as discussed in section 9.2 of [Winterhalter 2020](#Winterhalter20), even though we do not have universes here. 
 
 #### Dependent function types
 
@@ -542,11 +521,33 @@ $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_
 
 ## Categorical semantics
 
-The fragment of objective type theory consisting of only [[identity types]] and [[dependent product types]] can be interpreted in any [[path category]] with weak homotopy $\Pi$-types. 
+The fragment of propositional type theory consisting of only [[identity types]] and [[dependent product types]] can be interpreted in any [[path category]] with weak homotopy $\Pi$-types. 
 
-## See also
+## Open problems
 
-* [[weak type theory]]
+There are plenty of questions which are currently unresolved in propositional type theory. Van der Berg and Besten listed the following problems:
+
+* Does [[univalence]] imply [[function extensionality]] for types in the universe in [[propositional type theory]]?
+
+* Is (the [[homotopy type theory]] based upon) [[Martin-Löf type theory]] conservative over (the [[homotopy type theory]] based upon) [[propositional type theory|propositional]] Martin-Löf type theory?
+
+* How much of the [[HoTT book]] could be done in [[propositional type theory]]?
+
+* Does [[propositional type theory]] have [[homotopy canonicity]] and [[normalization]]?
+
+Other problems include
+
+* What is the [[categorical semantics]] of the [[homotopy type theory]] based upon [[propositional type theory]], with all [[higher inductive types]] and [[weakly Tarski]] [[univalent universes]]? 
+
+* Is [[weak function extensionality]] equivalent to [[function extensionality]] in [[propositional type theory]]?
+
+* Does [[product extensionality]] hold in [[propositional type theory]]? Namely, given types $A$ and $B$ and elements $a:A \times B$ and $b:A \times B$, is the canonical function $\mathrm{idtoprojectionids}:(a =_{A \times B} b) \to (\pi_1(a) \simeq \pi_1(b)) \times (\pi_2(a) \simeq \pi_2(b))$ an [[equivalence of types]]?
+
+* Is [[function extensionality]] still provable in propositional [[cubical type theory]]?
+
+See also [[open problems in homotopy type theory]]
+
+## Related concepts
 
 * [[judgmental equality]], [[identity type]]
 
@@ -554,19 +555,90 @@ The fragment of objective type theory consisting of only [[identity types]] and 
 
 ## References
 
-The original paper on this topic:
+* {#Winterhalter20} [[Théo Winterhalter]], *Formalisation and Meta-Theory of Type Theory*, Nantes (2020) &lbrack;[pdf](https://github.com/TheoWinterhalter/phd-thesis/releases/download/v1.2.1/TheoWinterhalter-PhD-v1.2.1.pdf), [github](https://github.com/TheoWinterhalter/phd-thesis)&rbrack;
+
+* {#Spadetto23} [[Matteo Spadetto]], *Relating homotopy equivalences to conservativity in dependendent type theories with propositional computation* ([arXiv:2303.05623](https://arxiv.org/abs/2303.05623))
+
+On quadratic type checking in propositional type theory:
 
 * {#BB21} [[Benno van den Berg]], [[Martijn den Besten]], *Quadratic type checking for objective type theory* ([arXiv:2102.00905](https://arxiv.org/abs/2102.00905))
 
-General dependent type theory references used for the formalizations of objective type theory in this article:
+Talks at *Strength of Weak Type Theory*, hosted by *[[DutchCATS]]*:
+
+* [[Daniël Otten]], *Models for Propositional Type Theory* (11 May 2023) &lbrack;[slides pdf](https://dutchcats.github.io/Weak_type_theories/slides_otten.pdf)&rbrack;
+
+* [[Théo Winterhalter]], *A conservative and constructive translation from extensional type theory to weak type theory*, 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_winterhalter.pdf))
+
+* [[Sam Speight]], *Higher-Dimensional Realizability for Intensional Type Theory*, 11 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_speight.pdf))
+
+* [[Matteo Spadetto]], *Weak type theories: a conservativity result for homotopy elementary types* (12 May 2023) &lbrack;[slides pdf](https://dutchcats.github.io/Weak_type_theories/slides_spadetto.pdf)&rbrack;
+
+* [[Benno van den Berg]], *Towards homotopy canonicity for propositional type theory*, 12 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_van_den_berg.pdf))
+
+* [[Rafaël Bocquet]], *Towards coherence theorems for equational extensions of type theories*, 12 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_bocquet.pdf))
+
+Project to convert [[extensional type theory]] to [[weak type theory]]:
+
+* Github, [ett-to-wtt](https://github.com/TheoWinterhalter/ett-to-wtt)
+
+Additional general dependent type theory references used for the formalizations of propositional type theory in this article:
 
 * {#UFP13} *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
 
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
-* {#Winterhalter20} [[Theo Winterhalter]], *Formalisation and Meta-Theory of Type Theory* ([github](https://github.com/TheoWinterhalter/phd-thesis/releases/tag/v1.2.1))
-
 * {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
 
 [[!redirects objective type theory]]
 [[!redirects objective type theories]]
+
+[[!redirects objective dependent type theory]]
+[[!redirects objective dependent type theories]]
+
+[[!redirects propositional type theory]]
+[[!redirects propositional type theories]]
+
+[[!redirects propositional dependent type theory]]
+[[!redirects propositional dependent type theories]]
+
+[[!redirects weak type theory]]
+[[!redirects weak type theories]]
+
+[[!redirects weak dependent type theory]]
+[[!redirects weak dependent type theories]]
+
+[[!redirects dependent type theory with explicit conversion]]
+[[!redirects dependent type theories with explicit conversion]]
+
+[[!redirects dependent type theory with explicit conversions]]
+[[!redirects dependent type theories with explicit conversions]]
+
+[[!redirects homotopy type theory with explicit conversion]]
+[[!redirects homotopy type theories with explicit conversion]]
+
+[[!redirects homotopy type theory with explicit conversions]]
+[[!redirects homotopy type theories with explicit conversions]]
+
+[[!redirects dependent type theory with propositional computation]]
+[[!redirects dependent type theories with propositional computation]]
+
+[[!redirects dependent type theory with propositional computation rules]]
+[[!redirects dependent type theories with propositional computation rules]]
+
+[[!redirects dependent type theory with typal computation]]
+[[!redirects dependent type theories with typal computation]]
+
+[[!redirects dependent type theory with typal computation rules]]
+[[!redirects dependent type theories with typal computation rules]]
+
+[[!redirects homotopy type theory with propositional computation]]
+[[!redirects homotopy type theories with propositional computation]]
+
+[[!redirects homotopy type theory with propositional computation rules]]
+[[!redirects homotopy type theories with propositional computation rules]]
+
+[[!redirects homotopy type theory with typal computation]]
+[[!redirects homotopy type theories with typal computation]]
+
+[[!redirects homotopy type theory with typal computation rules]]
+[[!redirects homotopy type theories with typal computation rules]]
