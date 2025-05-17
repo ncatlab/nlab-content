@@ -35,6 +35,8 @@ Assuming the deductive system is [[soundness theorem|sound]], every sequent whic
 ## Examples
  {#Examples}
 
+* In [[polymorphic dependent type theory]], many axioms are represented by a type-indexed family of terms. 
+
 [[!include foundational axiom - contents]]
 
 
@@ -64,8 +66,6 @@ For instance def. D1.1.6 in
 
 
 [[!redirects axiom]]
-[[!redirects axioms]]
-
 [[!redirects axioms]]
 
 [[!redirects axiomatization]]
