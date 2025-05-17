@@ -62,6 +62,9 @@ You can also interpret these axioms to say that, if you think of $F$ as a functi
 
 A __filter of subsets__ of a given set $S$ is a filter in the [[power set]] of $S$.  One also sees filters of open subsets, filters of compact subsets, etc, especially in topology.
 
+### As pro-objects
+Under the correspondence between [[upper sets]] and duals of (0,1)-copresheaves, filters correspond to duals of precisely those copresheaves that are cofiltered limits of [[corepresentable|corepresentables]]. Filters can therefore be viewed as the [[pro-objects]] of posets, dual to how ideals can be viewed as [[ind-objects]].
+
 ### In dependent type theory
 
 In [[dependent type theory]], let $(\Omega, \mathrm{El}_\Omega)$ be the [[type of all propositions]] with its type reflector type family. Given a type $T$, the type of all subsets of $T$ is given by the function type $T \to \Omega$. We define the [[relation]] $x:T, U:T \to \Omega \vdash x \in F$ by
