@@ -64,4 +64,23 @@ Some work has been done on [[synthetic differential geometry]] in modal homotopy
 
 * {#JazMyers} [[David Jaz Myers]], Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory ([arXiv:2205.15887](https://arxiv.org/abs/2205.15887))
 
+[[!redirects elastic type theory]]
+[[!redirects elastic type theories]]
+
+[[!redirects elastic dependent type theory]]
+[[!redirects elastic dependent type theories]]
+
+[[!redirects elastic homotopy type theory]]
+[[!redirects elastic homotopy type theories]]
+
+[[!redirects differential cohesive type theory]]
+[[!redirects differential cohesive type theories]]
+
+[[!redirects differential cohesive dependent type theory]]
+[[!redirects differential cohesive dependent type theories]]
+
+[[!redirects differential cohesive homotopy type theory]]
+[[!redirects differential cohesive homotopy type theories]]
+
 [[!redirects differential homotopy type theory]]
+[[!redirects differential homotopy type theories]]
