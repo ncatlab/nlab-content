@@ -20,6 +20,8 @@ Observation in [[gallium arsenide]] ($GaAs$) [[semiconductor]] [heterostructures
 
 * Bob Yirka, _Best evidence yet for existence of anyons_, PhysOrg News (July 10, 2020)  \[<a href="https://phys.org/news/2020-07-evidence-anyons.html">phys.org/news/2020-07</a>\]
 
+* Davide Castelvecchi: *Welcome anyons! Physicists find best evidence yet for long-sought 2D structures*, Nature News, **583** (03 July 2020) 176-177 \[<a href="https://doi.org/10.1038/d41586-020-01988-0">doi:10.1038/d41586-020-01988-0</a>\]
+
 * [[James Nakamura]] et al.: *Impact of bulk-edge coupling on observation of anyonic braiding statistics in quantum Hall interferometers*, Nature Communications **13** 344 (2022) \[<a href="https://doi.org/10.1038/s41467-022-27958-w">doi:10.1038/s41467-022-27958-w</a>, [arXiv:2107.02136](https://arxiv.org/abs/2107.02136)\]
 
 * {#NakamuraEtAl23} [[James Nakamura]] et al.: *Fabry-Perot interferometry at the $\nu = 2/5$ fractional quantum Hall state*, Phys. Rev. X **13** (2023) 041012  \[<a href="https://doi.org/10.1103/PhysRevX.13.041012">doi:10.1103/PhysRevX.13.041012</a>, [arXiv:2304.12415](https://arxiv.org/abs/2304.12415)\]
@@ -32,6 +34,8 @@ Observation in [[gallium arsenide]] ($GaAs$) [[semiconductor]] [heterostructures
 * [[Pierre Glidic]] et al.: *Signature of anyonic statistics in the integer quantum Hall regime*, Nature Commun. **15** 6578 (2024) 1 \[<a href="https://doi.org/10.1038/s41467-024-50820-0">doi:10.1038/s41467-024-50820-0</a>, [arXiv:2401.06069](https://arxiv.org/abs/2401.06069)\]
 
 * {#KunduEtAl23} Hemanta Kumar Kundu et al.: *Anyonic interference and braiding phase in a Mach-Zehnder interferometer*, Nature Physics **19** (2023) 515–521 \[<a href="https://doi.org/10.1038/s41567-022-01899-z">doi:10.1038/s41567-022-01899-z</a>, [arXiv:2203.0420](https://arxiv.org/abs/2203.04205)\]
+
+* {#VeillonEtAl24} A. Veillon et al.: *Observation of the scaling dimension of fractional quantum Hall anyons*, Nature **632** (2024) 517–521 \[<a href="https://doi.org/10.1038/s41586-024-07727-z">doi:10.1038/s41586-024-07727-z</a>\]
 
 
 and in [[graphene]] [heterostructures](semiconductor#ReferencesHeterostructures):
