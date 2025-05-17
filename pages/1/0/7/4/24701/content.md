@@ -77,12 +77,12 @@ For the case of terms, that is easily resolved by using identity types. For exam
 $$\mathrm{isProp}(A) \equiv \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
 
 When presenting [[dependent type theory]] using [[Russell universes]], the answer is as simple as that for terms: one simply uses [[typal equality]] instead, because every type is an element of a Russell universe, and so one could write 
-$$\mathrm{defisProp}_A:\mathrm{isContr}(A) =_{\mathrm{Type}_i} \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
+$$\mathrm{defisProp}_A:\mathrm{isProp}(A) =_{\mathrm{Type}_i} \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
 for types $\mathrm{isProp}(A):\mathrm{Type}_i$ and $\prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y):\mathrm{Type}_i$. 
 
 On the other hand, when using a separate type judgment, types are not elements of other types, and thus one cannot compare them for typal equality. Instead, one has two alternatives 
 
-* One can use [[polymorphism|polymorphic]] dependent type theory with [[dependent type theory with type variables|type variables]] and postulate an [[identity type#IdentityTypeBetweenTypes|identity type between types]] $A = B$, where we then have
+* One can use [[polymorphic dependent type theory]] with [[type variables]] and postulate an [[identity type#IdentityTypeBetweenTypes|identity type between types]] $A = B$, where we then have
 $$\mathrm{defisProp}_A:\mathrm{isProp}(A) = \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
 * One can postulate a [[type of equivalences]] $A \simeq B$ as a [[record type]] with propositional computation rules, where we then have
 $$\mathrm{defisProp}_A:\mathrm{isProp}(A) \simeq \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$ 
