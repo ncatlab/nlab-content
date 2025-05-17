@@ -135,7 +135,7 @@ On [[U-duality]] (and possibly [[mysterious duality]]) via [[Hypothesis H]] as [
 
 * [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and Rational Homotopy Theory* &lbrack;[arXiv:2111.14810](https://arxiv.org/abs/2111.14810)&rbrack;
 
-* [[Hisham Sati]], [[Alexander Voronov]], *Mysterious Triality and M-Theory* &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968)
+* [[Hisham Sati]], [[Alexander Voronov]]: *Mysterious Triality and M-Theory*, Advances in Theoretical and Mathematical Physics **28** 8 (2024) 2491-2601 &lbrack;[arXiv:2212.13968](https://arxiv.org/abs/2212.13968), [doi:10.4310/ATMP.241119034750](https://dx.doi.org/10.4310/ATMP.241119034750)&rbrack;
 
 * {#SatiVoronov24} [[Hisham Sati]], [[Alexander A. Voronov]]: Section 2 of: *Mysterious Triality and the Exceptional Symmetry of Loop Spaces* &lbrack;[arXiv:2408.13337](https://arxiv.org/abs/2408.13337)&rbrack;
 
