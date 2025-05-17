@@ -31,6 +31,7 @@ $$ x \wedge \neg x \wedge (y \vee \neg y) = x \wedge \neg x. $$
 
 * Any [[Boolean algebra]] is a Kleene algebra, with $\neg$ the logical negation.
 * The unit interval $[0,1]$ is a Kleene algebra, with $\neg x = (1-x)$. 
+* More generally, any [[bounded poset|bounded]] [[interval]] $[a, b]$ in a [[lattice-ordered abelian group]] is a Kleene algebra, with $\neg x = a + b - x$. 
 
 ## Related concepts
 
@@ -39,6 +40,8 @@ $$ x \wedge \neg x \wedge (y \vee \neg y) = x \wedge \neg x. $$
 * [[Boolean algebra]]
 
 * [[de Morgan algebra]]
+
+* [[l-group]]
 
 ## References
 
