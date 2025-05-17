@@ -113,6 +113,16 @@ _[[relation between type theory and category theory]]_.
 
 ## Related concepts
 
+* [[type theory]]
+
+  * [[simple type theory]]
+
+  * [[polymorphic type theory]]
+
+  * **dependent type theory**
+
+  * [[polymorphic dependent type theory]]
+
 * [[categorical semantics of dependent types]]
 
   [[relation between category theory and type theory]]
