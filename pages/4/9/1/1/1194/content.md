@@ -434,12 +434,6 @@ One can then prove, under certain hypotheses, various things about the relations
 
 The "certain hypotheses" is where we get into the difference between *first-order* and *higher-order*.  We say that a type theory is *higher-order* if it involves type constructors such as function-types $B^A$ (intended to represent the "type of all functions $A\to B$") or power-types $P A$ (intended to represent the "type of all subtypes of $A$).  Otherwise it is *first-order*.  (We have to deal with $Prop$ specially in first-order logic.  If we actually have a type $Prop$, then the theory should be higher-order, since $Prop \cong P 1$; thus in first-order logic we take $Prop$ to be a "kind" on the same level as $Type$, which doesn't participate in type operations.)  We say "second-order" if we never iterate the power-type operation.
 
-+-- {: .query}
-I don\'t buy your argument that $Prop$ must be treated specially; perhaps I don\'t understand what you\'re saying, but I\'ll pretend that I do.  First, I don\'t see the relevance of your premise, that $Prop$ makes things higher-order because it is a power type.  You might as well say that $1$ makes things higher-order because $1 \cong P 0$.  What really makes things higher order is the ability to form *arbitrary* power types or function types, not the existence of one or two special cases.  And second, I don\'t agree with the conclusion, that $Prop$ can\'t participate in type operations.  It\'s true that many type theories *do* treat $Prop$ specially and forbid its participation in type operations, but allowing it to participate in first-order type operations like $\times$ and $+$ is not going to make things higher order.  Conversely, $Prop \cong 1 + 1$ in some type theories, in which case you can hardly stop it from participating in type operations!  ---Toby
-
-[[Mike Shulman]]: This seems to be basically a dispute about the meaning of "higher-order"?  To me, for something to be first-order, it should be interpretable in a [[Heyting category]], which does not necessarily have a [[subobject classifier]] (though it does, as you point out, have a power object for $0$).  I also expect that the presence of $Prop$ as a type is sufficient to make the Completeness Theorem fail, as described in the next paragraph.  Probably "participate in type operations" is the wrong claim to be making, rather the claim should be something along the lines of $Prop$ being a kind, rather than a type, i.e. we don't have $Prop:Type$, or at least not $Prop:Type_0$.
-=--
-
 The Soundness Theorem is true for all theories, but *the Completeness Theorem is true only for first-order theories*.  The Incompleteness Theorem as stated above is true for higher-order theories, but the corollary fails since the completeness theorem does.  In particular, a higher-order theory can sometimes be *categorical* in the logician's sense: having exactly one model (at least, up to isomorphism).  The second-order version of Peano Arithmetic has this property.  (At this level, there is little fundamental difference between first-order and higher-order theories; they each have advantages and disadvantages.  However, when we move up to the metalevel and talk about the term calculus itself, we always get a first-order theory.  This is why some people believe that first-order logic is the only truly "foundational" logic.)
 
 ### Term models
@@ -458,80 +452,131 @@ In the case of Peano Arithmetic, we can avoid introducing new constant terms and
 
 The slicker categorial approach described above using categories of [[contexts]] does produce a really canonical model, but only with an expanded notion of "model": instead of each $[A]$ being a set, we take it to be an object of some fixed category $\mathcal{S}$ with enough structure.  We can then build a much more "tautological" model because we have the freedom to build the category $\mathcal{S}$ along with the model.  In the resulting model, the true statements are *precisely* the statements provable in the theory, and it's even initial among all models of the theory in the appropriate sort of category.
 
-
-## Extensional vs Intensional
- {#ExtensionalIntensional}
-
-There is an important distinction between *[[extensional type theory|extensional]]* type theories and *[[intensional type theory|intensional]]* ones.  The meanings of these words is probably clearest when dealing with function types, such as an exponential $Y^X$, but also arises in respect to quotient types and identity types.
-
-### Extensional and intensional function types
-
-A [[function type]] $Y^X$ is said to be **extensional** if whenever $f,g\colon X\to Y$ are functions such that $f(x)=g(x)$ for all $x\in X$, then in fact $f=g$ as elements of $Y^X$.  This clearly corresponds to the modeling of function types by [[function sets]] in the set-theoretic semantics, or more generally by [[exponential objects]] in the categorical semantics discussed above.  The uniqueness clause of the defining assertion of an exponential object, i.e. that any map $Z\times X\to Y$ factors through a *unique* map $Z\to Y^X$, precisely models this "extensionality" property.  Thus, the standard categorical semantics is most closely allied to type theories which have such an "extensionality" axiom.
-
-By contrast, suppose that $X$ and $Y$ are interpreted by [[data types]] in some [[programming language]], and $Y^X$ is interpreted by some type of computable functions from $Y^X$.  Of course, many differently coded functions can have the same "extensional behavior," i.e. the same output for any given input, but we may still want to distinguish between these functions because they may not share other properties (such as running time or complexity).  Thus, this type $Y^X$ is not extensional---equality of functions, as elements of $Y^X$, is "implementation-sensitive," a finer measure than mere equality on all inputs.  We say instead that these function types are **intensional**.
-
-In type theory, extensional function-types generally come with both a "$\beta$-rule," which specifies the computational behavior of a $\lambda$-abstraction (i.e. $(\lambda x. t)(y) = t[y/x]$), and an "$\eta$-rule," which specifies that a $\lambda$-abstraction is determined by its behavior (i.e. $f = (\lambda x. f(x))$).  In the categorical semantics, the first specifies the existence of factorizations, while the second requires them to be unique.  In intensional type theory, we generally keep the $\beta$-rule (it is certainly natural from a computational standpoint) but discard the $\eta$-rule.  Thus, one natural sort of semantics for intensional type theory is valued in a category with "weak exponentials," i.e. objects which satisfy the existence but not uniqueness property of an exponential (and similarly for dependent type theory with $\Pi$-types and weak [[dependent product]]s).
-
-### Quotient types and exact completion
-
-[[intensional type theory|Intensional type theory]] is also popular among adherents of [[constructive mathematics]] and especially [[predicative mathematics]], because of its computational content.  [[Per Martin-Lof|Per Martin-Löf]]'s original [[Martin-Löf dependent type theory|dependent type theory]] is often presented from this perspective.
-
-When viewing intensional type theory as a foundation for mathematics (rather than, say, a syntax for reasoning about computer programs), it is natural to view the types as representing [[presets]], rather than sets.  This is in line with the classical constructivist viewpoint that "a set is defined by a collection of things together with an equality relation."  Note that in intensional type theory, the "equality" between terms is free to be the "syntactic" equality, which is entirely computable and preserved by everything in sight.  In particular, if we adopt the viewpoint of [[propositions as types]], then "the axiom of choice is trivially valid" for functions between types (i.e. presets) since to assert that something exists is to give an element of a sum type, which is exactly to give a witness and thereby a way to choose such a thing.
-
-If we then define "sets" to be types equipped with equality relations (sometimes called [[setoids]]), then the sets will have more familiar properties, such as existence of extensional exponentials (obtained by equipping the intensional exponentials with an extensional equality relation), as well as the existence of [[quotient sets]].  (The existence of quotient types is often assumed in extensional type theory, but not in intensional type theory.)  In categorical terms, the [[syntactic category]] of an intensional type theory has only weak exponentials (resp. dependent products), but that is sufficient to ensure that its [[free exact completion]] has actual exponentials (resp. dependent products).  Note also that free exact completions always also validate [[COSHEP]], since every object of the starting category (here the category of types) is projective.  This matches the above observations about the axiom of choice.
-
-### Identity types
-
-+-- {: .query}
-Quick comment:  Even in internal type theory, one needs identity types to validate COSHEP.  Type theory without identity types is very strange (the category of contexts may not have all pullbacks, and not every morphism need be a display morphism).
-
-[[Mike Shulman]]: I'm not sure that that's so strange.  At least, not to the type theorists.  (-:  Categorically, I think of display maps as being fibrations in some model-category-type structure, which makes sense to me, although in semantics valued in an honest higher-category I would expect every morphism to be equivalent to a display morphism.
-
-Actually, don't you need *extensional* identity types in order to get all pullbacks and make every morphism display?  I think intensional identity types just mean that you can factor every morphism through a display morphism which is "equivalent" in some sense, i.e. you have the [[identity type weak factorization system]].
-
-And I didn't know that about COSHEP, why is that?  Isn't it true that all types are projective, at least in the propositions-as-types logic, since to assert that something exists is to give a construction of it?  Or are you saying that you need identity types in order to even construct the category of setoids, since you need the category of types to have at least weak finite limits?
-
-_Toby_:  I mean that you need identity types in order to have the free functor from presets to sets that allows every type (preset) to be interpreted as a set.  So every set is a quotient (in a sense) of a preset, and every preset is projective (in a sense), but it\'s not a projective *set*.  We merely have that the free set on that preset is projective *if* it exists.
-
-I really meant to work out a clean example of such a type theory on [my personal web](tobybartels:HomePage), but I never did (so you don\'t need to look there).
-
-PS:  You\'re right about the display maps; that part\'s not so strange.  Maybe it\'s not strange at all, but Martin-L&#246;f (at least) considers identity types indispensible (and they are, in his framework, for $W$-types to work).
-=--
-
-(to be written...)
-
-Relation between [[identity types]] and [[path space objects]] in a [[category with weak equivalences]]. 
-
-### Higher-categorical semantics
-
-* [[homotopy type theory]]
-
-(to be written...)
-
 ## Particular type theories
 
 The following particular type theories are important enough to (potentially) have pages of their own.
+
+### Simple type theories
 
 * [[simple type theory]]
 
 * [[simply typed lambda calculus]]
 
-* [[Martin-Lof dependent type theory|Martin-Löf dependent type theory]]
+* [[typed predicate logic]]
+
+* typed predicate logic with one type (equivalent to untyped predicate logic)
+
+  * [[arithmetic]]
+
+    * [[primitive recursive arithmetic]]
+
+    * [[Peano arithmetic]], [[Heyting arithmetic]]
+
+    * [[second-order arithmetic]]
+
+  * [[set theory]] / [[class theory]]
+
+    * [[material set theory]]
+
+      * [[ZFC]]
+
+      * [[Mostowski set theory]]
+
+      * [[Morse-Kelley set theory]]
+
+      * [[von Neumann–Bernays–Gödel set theory]]
+
+      * [[ZFA]]
+
+    * [[structural set theory]]
+
+      * [[fully formal ETCS]]
+
+* [[ETCS]] presented using two sorts, a sort of sets and a sort of functions
+
+### Dependent type theories
+
+* [[dependent type theory]]
+
+* [[logic over dependent type theory]]
+
+* [[dependently sorted set theory]]
+
+  * [[ETCS]]
+
+  * [[ETCS with elements]]
+
+  * [[SEAR]]
 
 * [[pure type system]]
 
-* the [[calculus of constructions]]
+  * [[calculus of constructions]]
 
-* the [[internal logic]] of various kinds of categories, including the [[Mitchell-Benabou language]] of an [[elementary topos]]
+  * [[calculus of inductive constructions]]
 
-* the [[internal logic of a (2,1)-topos]]
+* [[intensional type theory]]
 
-* the [[internal logic of an (∞,1)-topos]]
+* [[extensional type theory]]
 
-* [[homotopy type theory]]
+* [[propositional type theory]]
+
+* [[observational type theory]]
+
+* [[higher observational type theory]]
+
+* [[Martin-Löf dependent type theory]]
+
+* [[homotopy type theory]] 
 
 * [[cubical type theory]]
 
+  * [[XTT]]
+
+* [[modal type theory]]
+
+  * [[spatial type theory]]
+
+  * [[cohesive type theory]]
+
+  * [[differential cohesive type theory]]
+
+  * [[simplicial type theory]]
+
+  * [[displayed type theory]]
+
+* [[computational type theory]]
+
+* [[geometric type theory]]
+
+* [[linear type theory]]
+
+* [[Homotopy Type System]]
+
+* [[two-level type theory]]
+
+* [[type theory with shapes]]
+
+* [[directed homotopy type theory]]
+
+* [[opetopic type theory]]
+
+* [[polymorphic dependent type theory]]
+
+### Polymorphic type theories
+
+* [[System F]]
+
+* [[polymorphic type theory]]
+
+* [[polymorphic dependent type theory]]
+
+### Internal languages
+
+* the [[internal logic]] of various [[categories]] 
+
+  * the [[Mitchell-Benabou language]] of an [[elementary topos]]
+
+  * the [[internal logic of an (∞,1)-topos]]
 
 ## Related concepts
 
@@ -539,39 +584,19 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[logical framework]], [[meaning explanation]]
 
-  * [[natural deduction]], [[calculus of constructions]]
+  * [[natural deduction]]
 
-  * [[dependent type theory]], [[Martin-Löf dependent type theory]]
+* [[type checking]]
 
-  * [[intensional type theory]], [[extensional type theory]], [[observational type theory]]
+* [[coercion]]
 
-  * [[type checking]]
+* [[intrinsic and extrinsic views of typing]]
 
-  * [[calculus of inductive constructions]]
+* [[bidirectional typechecking]]
 
-  * [[initiality conjecture]]
+* [[canonical form]], [[normal form]], [[beta-reduction]]
 
-  * [[modal type theory]]
-
-  * [[computational type theory]]
-
-  * [[geometric type theory]]
-
-  * [[linear type theory]]
-
-  * [[two-level type theory]]
-
-  * [[canonical form]], [[normal form]], [[beta-reduction]]
-
-  * [[Bishop set]], [[predicative topos]]
-
-  * [[coercion]]
-
-  * [[intrinsic and extrinsic views of typing]]
-
-  * [[bidirectional typechecking]]
- 
-
+* [[initiality conjecture]]
 
 * [[relation between category theory and type theory]]
 
@@ -581,15 +606,11 @@ The following particular type theories are important enough to (potentially) hav
 
 * [[(∞,1)-type theory]], [[(∞,1)-logic]]
 
-  * [[homotopy type theory]]
-
-* [[directed homotopy type theory]]
-
-  [[opetopic type theory]]
-
 * [[computer science]]
 
   * [[data type]]
+
+* [[Bishop set]], [[predicative topos]]
 
 [[!include notions of type]]
 
