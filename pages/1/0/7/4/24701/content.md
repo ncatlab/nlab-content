@@ -304,17 +304,6 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{N}} \qquad \frac{\Gamma 
 Induction rule for the natural numbers type:
 $$\frac{\Gamma, x:\mathbb{N} \vdash C(x):\mathrm{Type}_i \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{N}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{N}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{N}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
 
-##### Integers type
-
-Formation rules for the integers type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{Z}:\mathrm{Type}_i}$$
-
-Introduction rules for the integers type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{Z}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{Z} \simeq \mathbb{Z}}$$
-
-Induction rule for the integers type:
-$$\frac{\Gamma, x:\mathbb{Z} \vdash C(x):\mathrm{Type}_i \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{Z}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{Z}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
-
 ### With a separate type judgment and type variables
 
 In this section, we describe a formalization of objective type theory using a type judgment, in the style of [Rijke 2022](#Rijke22), as well as [[dependent type theory with type variables|type variables]]. 
@@ -550,20 +539,6 @@ $$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C \quad \Gamma 
 
 Induction rule for the natural numbers type:
 $$\frac{\Gamma, x:\mathbb{N} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{N}} C(x) \to C(s(x))}{\Gamma \vdash \mathrm{dup}_\mathbb{N}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{N}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{N}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
-
-##### Integers type
-
-Formation rules for the integers type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{Z} \; \mathrm{type}}$$
-
-Introduction rules for the integers type:
-$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{Z}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash s:\mathbb{Z} \simeq \mathbb{Z}}$$
-
-Recursion rule for the integers type:
-$$\frac{\Gamma \vdash C \; \mathrm{type} \quad \Gamma \vdash c_0:C \quad \Gamma \vdash c_s:C \simeq C}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\exists!c:\mathbb{Z} \to C.(c(0) =_{C} c_0) \times \prod_{x:\mathbb{Z}} c(s(x)) =_{C} c_s(c(x))}$$
-
-Induction rule for the integers type:
-$$\frac{\Gamma, x:\mathbb{Z} \vdash C(x) \; \mathrm{type} \quad \Gamma \vdash c_0:C(0) \quad \Gamma \vdash c_s:\prod_{x:\mathbb{Z}} C(x) \simeq C(s(x))}{\Gamma \vdash \mathrm{up}_\mathbb{Z}^C(c_0, c_s):\exists!c:\prod_{x:\mathbb{Z}} C(x).(c(0) =_{C(0)} c_0) \times \prod_{x:\mathbb{Z}} c(s(x)) =_{C(s(x))} c_s(c(x))}$$
 
 ## Categorical semantics
 
