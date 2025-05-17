@@ -21,7 +21,7 @@ Traditionally, there are two different ways to present [[dependent type theory]]
 
 * Alternatively, one can present dependent type theory with a separate type [[judgment]] and no [[type universes]] at all. Examples of such dependent type theories include the one found in [[Egbert Rijke]]'s [[Introduction to Homotopy Type Theory]]. 
 
-In the first presentation of dependent type theory, the concept of a "$U$-small type variable" exists: since types are terms of universes, type variables are term variables where the [[context]] is extended by a free variable of a universe. However, there are no variables of all types, since having a universe of all types leads to [[Russell's paradox]]. 
+In the first presentation of dependent type theory, the concept of a "$U_i$-small type variable" exists: since types are terms of universes, type variables are term variables where the [[context]] is extended by a free variable of a universe. Thus, the type theory is polymorphic in the sense that it has *$U_i$-small polymorphism* for all universe $U_i$ in the universe hierarchy. 
 
 In the second presentation of dependent type theory, the theory does not come with the concept of a type variable, since the context can only be extended by term judgments, and not type judgments. While this is sufficient to define [[univalent universes]] and [[higher inductive types]] in the type theory, there are a few reasons why one might want to extend dependent type theory with type variables to form polymorphic dependent type theory: 
 
@@ -278,3 +278,5 @@ Some discussion about extending dependent type theory with type variables occurs
 
 [[!redirects polymorphic type theory with dependent types]]
 [[!redirects polymorphic type theories with dependent types]]
+
+[[!redirects small polymorphism]]
