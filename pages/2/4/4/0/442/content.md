@@ -282,7 +282,7 @@ There is a whole class of infinitary sup-operations for sup-lattices (one for ev
 ###### Definition (congruence)
 {#congruence}
 
-Let $T$ be a Lawvere theory and $A$ a $T$-algebra. A **[[congruence]]**  on $A$  is an [[equivalence relation]] on the set $A(1)$ such that whenever for all $n \in \mathbb{N}$ whenever any $(a_i \in A(1))_{i=1}^n$ and $(b_i \in A(1))_{i=1}^n$ are pairwise equivalent, $a_i \sim b_i$, then also for every operation $f \in T(n,1)$ the results are equivalent: $f(a_1, \cdot, a_n) \sim f(b_1, \cdots , b_n)$.
+Let $T$ be a Lawvere theory and $A$ a $T$-algebra. A **[[congruence]]**  on $A$  is an [[equivalence relation]] on the set $A(1)$ such that whenever for all $n \in \mathbb{N}$ whenever any $(a_i \in A(1))_{i=1}^n$ and $(b_i \in A(1))_{i=1}^n$ are pairwise equivalent, $a_i \sim b_i$, then also for every operation $f \in T(n,1)$ the results are equivalent: $f(a_1, \cdots, a_n) \sim f(b_1, \cdots , b_n)$.
 
 =--
 
