@@ -70,9 +70,9 @@ In addition, extensional type theory does not have decidable [[judgmental equali
 \end{theorem}
 
 \begin{proof}
-Already, the equality reflection rule for the [[type of booleans]] implies undecidability of judgmental equality in the dependent type theory. 
-$$\frac{\Gamma \vdash p:\mathrm{Id}_\mathrm{Bool}(x,y)}{\Gamma \vdash x \equiv y}$$
-In order to show that, in an arbitrary [[context]] $\Gamma$, $0 \equiv 1$ in $\mathrm{Bool}$, we need to determine whether the empty type is a [[pointed type]] in $\Gamma$, which is undecidable in general. 
+Already, the equality reflection rule for the [[natural numbers type]] implies undecidability of judgmental equality in the dependent type theory. 
+$$\frac{\Gamma \vdash p:\mathrm{Id}_\mathbb{N}(x,y)}{\Gamma \vdash x \equiv y}$$
+In order to show that, in an arbitrary [[context]] $\Gamma$, $0 \equiv 1$ in $\mathbb{N}$, we need to determine whether the empty type is a [[pointed type]] in $\Gamma$, which is undecidable in general. 
 \end{proof}
 
 ## Related concepts
