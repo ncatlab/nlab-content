@@ -19,12 +19,23 @@ In mild generalization, if one admits in addition [[product type]]-[[type format
 
 More generally, the term "simple type theory" has come to refer to any [[type theory]] whose [[type formations]] are *not indexed*, in that the [[judgment]] that a [[type]] $A$ is well-formed has no other inputs, understood *in contrast* to:
 
-* [[polymorphism|polymorphic type theory]], where types depend on a [[context]] of [[type variables]], 
+* [[polymorphic type theory]], where types depend on a [[context]] of [[type variables]], 
 
 * [[dependent type theory]], where types depend on a [[context]] of more general variables.
 
+* [[polymorphic dependent type theory]], which is the combination of the two previous notions of type theory
 
-## Related Pages
+## Related concepts
+
+* [[type theory]]
+
+  * **simple type theory**
+
+  * [[polymorphic type theory]]
+
+  * [[dependent type theory]]
+
+  * [[polymorphic dependent type theory]]
 
 * [[pure type system]]
 
