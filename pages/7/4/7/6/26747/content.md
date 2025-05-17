@@ -13,15 +13,15 @@
 
 ## Idea
 
-Parametric dependent type theory is [[dependent type theory]] with [[parametricity]] (i.e. [[parametric polymorphism]]). 
+Parametric dependent type theory is [[dependent type theory]] that can prove [[parametricity]] (i.e. [[parametric polymorphism]]) inside of the theory itself. 
 
-Parametric dependent type theories are distinguished by the kind of parametricity that they have: 
-
-* External parametricity only applies to closed types and terms, and is a meta-theoretic statement about the type theory rather than something that is provable inside the theory itself. 
+Parametric dependent type theories are distinguished by the kind of internal parametricity that they have: 
 
 * Internal parametricity is a statement provable inside the theory itself and applies to all types and terms, but contradicts classical axioms such as the [[axiom of choice]] and [[excluded middle]]. 
 
 * Modal internal parametricity is a statement also provable inside the theory itself, but only applies to types and terms guarded by a [[modal operator]]. Unlike the usual internal parametricity, modal internal parametricity is consistent with classical axioms such as the [[axiom of choice]] and [[excluded middle]]. 
+
+There is also external parametricity, but it only applies to closed types and terms, and is a meta-theoretic statement about the type theory rather than something that is provable inside the theory itself. One can show that every [[polymorphic dependent type theory]] has external parametricity. 
 
 ## Related concepts
 
@@ -83,7 +83,6 @@ A proof assistant implementing an observational [[parametric type theory]] with 
 [[!redirects parametric dependent type theory]]
 [[!redirects parametric dependent type theories]]
 
-[[!redirects external parametricity]]
 [[!redirects internal parametricity]]
 [[!redirects modal parametricity]]
 [[!redirects modal internal parametricity]]
