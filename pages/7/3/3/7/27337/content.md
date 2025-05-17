@@ -13,17 +13,17 @@
 
 ## Idea
 
+A [[type theory]] with both [[type variables]] (i.e. [[polymorphic type theory]]) and, for any type $A$, [[variables]] of [[terms]] of type $A$ (i.e. [[dependent type theory]]). 
+
 Traditionally, there are two different ways to present [[dependent type theory]]:
 
 * One can present dependent type theory with a [[hierarchy of type universes]] such that every type is a term of a universe of the hierarchy. Examples of such dependent type theories include the one found in the [[HoTT book]] and the proof assistants [[Agda]], [[Coq]], [[Lean]], and its variants like [[Cubical Agda]]. 
 
 * Alternatively, one can present dependent type theory with a separate type [[judgment]] and no [[type universes]] at all. Examples of such dependent type theories include the one found in [[Egbert Rijke]]'s [[Introduction to Homotopy Type Theory]]. 
 
-In the first presentation of dependent type theory, the concept of a "type variable" exists: since types are terms of universes, type variables are term variables where the [[context]] is extended by a free variable of a universe. 
+In the first presentation of dependent type theory, the concept of a "$U$-small type variable" exists: since types are terms of universes, type variables are term variables where the [[context]] is extended by a free variable of a universe. However, there are no variables of all types, since having a universe of all types leads to [[Russell's paradox]]. 
 
-In the second presentation of dependent type theory, the theory does not come with the concept of a type variable, since the context can only be extended by term judgments, and not type judgments. While this is sufficient to define [[univalent universes]] and [[higher inductive types]] in the type theory, there are a few reasons why one might want to extend dependent type theory with type variables:
-
-* One wants a [[polymorphism|polymorphic]] [[dependent type theory]]. 
+In the second presentation of dependent type theory, the theory does not come with the concept of a type variable, since the context can only be extended by term judgments, and not type judgments. While this is sufficient to define [[univalent universes]] and [[higher inductive types]] in the type theory, there are a few reasons why one might want to extend dependent type theory with type variables to form polymorphic dependent type theory: 
 
 * Large recursion principles of inductive types and higher inductive types $T$ are principles where given some existing data one can construct a type family $C(x)_{x:T}$ indexed by the inductive type $T$. (In the other formulation, large recursion principles are just the usual recursion principles for functions $T \to U$ into a type universe $U$.) While the large recursion principles of certain non-recursive inductive types and higher inductive types, such as the [[type of booleans]], the [[circle type]], and [[graph quotients]], can be defined without type variables, the large recursion principles of recursive inductive types and higher inductive types, such as the [[natural numbers type]] and [[W-types]], require type variables in the theory. 
 
@@ -43,7 +43,7 @@ In the second presentation of dependent type theory, the theory does not come wi
 
 * With type variables, one can also define [[fibered heterogeneous identity types]] $x =_{X.C(X)}^{A, B} y$ over the type-indexed family $X \; \mathrm{type} \vdash C(X) \; \mathrm{type}$ parameterised by types $A$ and $B$. and between elements $x:C(A)$ and $y:C(B)$. With these fibered heterogeneous identity types and the univalence axiom mentioned in a previous point, one can prove the [[structure identity principle]] for a type structure $X \; \mathrm{type} \vdash \mathrm{struct}(X)$ between $x =_{X.\mathrm{struct}(X)}^{A, B} y$ and the type of structure preserving morphisms 
 
-Dependent type theory with type variables is thus similar to [[System F]], which is a non-dependent [[polymorphism|polymorphic]] [[lambda calculus]] with type variables. 
+Polymorphic dependent type theory with type variables is thus similar to [[System F]], which is a non-dependent [[polymorphism|polymorphic]] [[lambda calculus]] with type variables. 
 
 ## Definition
 
@@ -240,6 +240,16 @@ Similar requirements of type variables apply to the large recursion principles o
 
 ## Related concepts
 
+* [[type theory]]
+
+  * [[simple type theory]]
+
+  * [[polymorphic type theory]]
+
+  * [[dependent type theory]]
+
+  * **polymorphic dependent type theory**
+
 * [[identity type]]
 
 * [[univalence axiom]]
@@ -260,5 +270,11 @@ Some discussion about extending dependent type theory with type variables occurs
 
 * {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
 
+[[!redirects polymorphic dependent type theory]]
+[[!redirects polymorphic dependent type theories]]
+
 [[!redirects dependent type theory with type variables]]
 [[!redirects dependent type theories with type variables]]
+
+[[!redirects polymorphic type theory with dependent types]]
+[[!redirects polymorphic type theories with dependent types]]
