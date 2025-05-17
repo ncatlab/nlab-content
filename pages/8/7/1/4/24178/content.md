@@ -578,16 +578,15 @@ Further fractonalization of quasi-hole states into *Gaffnian states*:
  {#ReferencesForFQHBECs}
 
 
-On Laughlin wavefunctions with [[even number|even]] exponents as describing FQH effects in rotating [[Bose-Einstein condensates]] with repulsive contact interaction:
+On Laughlin wavefunctions with [[even number|even]] exponents as describing [[FQH effects]] in rotating [[Bose-Einstein condensates]] with repulsive contact interaction:
 
 * N. K. Wilkin, J. M. F. Gunn: *Condensation of “Composite Bosons” in a Rotating BEC*, Phys. Rev. Lett. **84** 6 (2000) &lbrack;[doi:10.1103/PhysRevLett.84.6](https://doi.org/10.1103/PhysRevLett.84.6)&rbrack;
 
-* Nicolas Regnault, Th. Jolicoeur: *Quantum Hall Fractions in Rotating Bose-Einstein Condensates*, Phys. Rev. Lett. **91** (2003) 030402 &lbrack;[doi:10.1103/PhysRevLett.91.030402](https://doi.org/10.1103/PhysRevLett.91.030402)&rbrack;
+* [[Nicolas Regnault]], Th. Jolicoeur: *Quantum Hall Fractions in Rotating Bose-Einstein Condensates*, Phys. Rev. Lett. **91** (2003) 030402 &lbrack;[doi:10.1103/PhysRevLett.91.030402](https://doi.org/10.1103/PhysRevLett.91.030402)&rbrack;
   > (also filling fractions $\nu = 2/3$, $3/4$, $4/3$ and $5/4$)
 
-* Nicolas Regnault, Th. Jolicoeur: *Quantum Hall fractions for spinless bosons*, Phys. Rev. B **69** (2004) 235309 &lbrack;[doi:10.1103/PhysRevB.69.235309](https://doi.org/10.1103/PhysRevB.69.235309), [hal:00000939](https://hal.science/hal-00000939)&rbrack;
+* [[Nicolas Regnault]], Th. Jolicoeur: *Quantum Hall fractions for spinless bosons*, Phys. Rev. B **69** (2004) 235309 &lbrack;[doi:10.1103/PhysRevB.69.235309](https://doi.org/10.1103/PhysRevB.69.235309), [hal:00000939](https://hal.science/hal-00000939)&rbrack;
   > (the principal series $\nu = p/(p \pm 1)$ of filling fractions)
-
 
 
 
