@@ -50,5 +50,11 @@ and with more details in section 2 of
 
 * [[Jonathan Block]], Calder Daenzer, _Mukai duality for gerbes with connection_ ([arXiv:0803.1529v2](http://arxiv.org/abs/0803.1529v2))
 
+An early use of curved dg-algebras can be found in a 1993 paper of Positselski:
+
+* L. E. Positselski, Nonhomogeneous quadratic duality and curvature, Funktsional. Anal. i Prilozhen. 27 (1993), no. 3, 57–66; English transl., Funct. Anal. Appl. 27 (1993), no. 3, 197–204. 
+
+Available at (https://www.mathnet.ru/links/e9c418f6c2cdbb10fafba78627743cdb/faa712.pdf)
+
 
 [[!redirects curved dg-algebras]]
