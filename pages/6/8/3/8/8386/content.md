@@ -57,11 +57,7 @@ $$ first : \mathbb{R} \times \mathbb{R} \to \mathbb{R}$$
 
 and so on, for any types we wish.  In contrast to *ad hoc* polymorphism, in this case we do have a guarantee that all these same-named functions are doing "the same thing", because they are all instantiated by the same original polymorphic code.
 
-In a [[dependent type theory|dependently typed programming language]] with a [[type of types]], such as [[Coq]] or [[Agda]], or with [[dependent type theory with type variables|type variables]] and [[impredicative polymorphism]], a parametrically polymorphic family of functions can simply be considered to be a single dependently typed function whose first argument is a type. Thus our function above would be typed as
-
-$$ first : \prod_{A:Type} A\times A \to A \qquad \mathrm{or} \qquad first : \prod_{A \; \mathrm{type}} A\times A \to A$$
-
-However, parametric polymorphism makes sense and is very useful even in languages with less rich type systems, such as [[Haskell]] and [[Standard ML]].
+Parametric polymorphism makes sense and is very useful in languages with non-dependent type systems, such as [[Haskell]] and [[Standard ML]].
 
 ### Theorems for Free
 
@@ -70,6 +66,20 @@ In type systems with parametric polymorphism, such as [[System F]], there is a f
 $$ \alpha \circ f = f \circ (\alpha \times \beta) $$
 
 for all functions $f$ with that signature ([Wadler 89](#Wadler89), figure 1).
+
+### In dependent type theory
+
+In a [[dependent type theory]] with a [[type universe]] or [[type variables]], our family of functions above would be typed respectively as
+
+$$\Gamma, A:Type \vdash \mathrm{first}(A):A\times A \to A \qquad \mathrm{or} \qquad \Gamma, A \; \mathrm{type} \vdash \mathrm{first}(A): A \times A \to A$$
+
+If the dependent type theory additionally has universe-indexed [[dependent product types]] or [[impredicative polymorphism]] respectively, a parametrically polymorphic family of functions can simply be considered to be a single dependently typed function whose first argument is a type. Thus our function above would be typed as
+
+$$ \mathrm{first} : \prod_{A:Type} A\times A \to A \qquad \mathrm{or} \qquad \mathrm{first} : \prod_{A \; \mathrm{type}} A\times A \to A$$
+
+Examples of parametric polymorphism in dependent type theory include [[axioms]] and [[axiom schemata]], such as [[UIP]] and [[axiom K]], [[excluded middle]], [[axiom of choice]], and the [[type theoretic axiom of replacement|axiom of replacement]] for a [[Tarski universe]]. 
+
+For certain dependent type theories, one can prove that they have parametric polymorphism inside the type theory itself. These are the [[parametric dependent type theories]]. 
 
 ## Related concepts
 
@@ -115,5 +125,6 @@ See also the references at *[[parametric dependent type theory]]* for the variou
 [[!redirects polymorphic]]
 
 [[!redirects parametricity]]
+[[!redirects external parametricity]]
 
 [[!redirects polymorphic type theory]]
