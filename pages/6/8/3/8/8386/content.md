@@ -73,13 +73,21 @@ for all functions $f$ with that signature ([Wadler 89](#Wadler89), figure 1).
 
 ## Related concepts
 
+* [[type theory]]
+
+  * [[simple type theory]]
+
+  * **polymorphic type theory**
+
+  * [[dependent type theory]]
+
+  * [[polymorphic dependent type theory]]
+
 * [[logical relations]]
 
 * [[impredicative polymorphism]]
 
 * [[parametric dependent type theory]]
-
-* [[dependent type theory with type variables]]
 
 ## References
 
@@ -107,3 +115,5 @@ See also the references at *[[parametric dependent type theory]]* for the variou
 [[!redirects polymorphic]]
 
 [[!redirects parametricity]]
+
+[[!redirects polymorphic type theory]]
