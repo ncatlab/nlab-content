@@ -60,6 +60,8 @@ See also the references at *[[coding theory]]* and *[[linear code]]*.
 
 * [[Victor V. Albert]] et al.,  *[errorcorrectionzoo.org](https://errorcorrectionzoo.org)*
 
+* [[N. J. A. Sloane]], *Error-Correcting Codes and Cryptography*, The Mathematical Gardner, D. A. Klarner (editor), Prindle, Weber & Schmidt, Boston, MA, 1981, pp. 346-382, Reprinted in ``Cryptologia'', Vol. 6 (1982), 128-153 and 258-278.
+
 An observation on classical codes preconceiving aspects of [[holographic tensor network]] [[quantum error correcting codes]]:
 
 * [[Beni Yoshida]], *Information storage capacity of discrete spin systems*, Annals of Physics 338, 134 (2013) ([arXiv:1111.3275](https://arxiv.org/abs/1111.3275))
