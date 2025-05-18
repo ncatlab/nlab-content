@@ -167,7 +167,7 @@ $$
 
 for $\sigma_{x x}, \sigma_{x y} \,\in\, \mathbb{R}$.
 
-The corresponding *[[resistivity]] [[tensor]]* is  the [[inverse matrix]]  $rho = \sigma^{-1}$
+The corresponding *[[resistivity]] [[tensor]]* is  the [[inverse matrix]]  $\rho = \sigma^{-1}$
 
 \[
   \label{GenericResistivityTensor}
@@ -283,7 +283,7 @@ Remarkably, the height of these Hall plateaus is an experimental constant to hig
 
 Yet more remarkably, the explanation for the horizontal extension of these plateaux is thought to be related to *impurities* in the material --- in an ideally pure conductor the quantum Hall effect is expected to be invisible! The idea is that, due to the impurities, the idealized picture of Landau levels applies only to some of the electrons in the sample, while others are "localized" at/by the imporitites; and as the magnetic field is varied it is only after the reservoir of localized electrons has changed energy levels that it becomes the turn of the "quantum Hall electrons".
 
-To compute the Hall plataux values:
+To compute the Hall plateaux values:
 
 The density of available states (number per surface area) available in a Landau level is
 
