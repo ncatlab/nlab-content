@@ -449,7 +449,7 @@ $$
   \,.
 $$
 
-From the tradtional point of view of differential cohomology this may be what one expects to see, but from the intrinsic $(\infty,1)$-topos theoretic point of view it is quite unnatural -- and in fact "[[evil]]" -- to fix that set of objects of the $\infty$-groupoid. Of intrinsic meaning is only the set of their equivalences classes.
+From the tradtional point of view of differential cohomology this may be what one expects to see, but from the intrinsic $(\infty,1)$-topos theoretic point of view it is quite unnatural -- since it violates the [[principle of equivalence]] -- to fix that set of objects of the $\infty$-groupoid. Of intrinsic meaning is only the set of their equivalences classes.
 
 =--
 
