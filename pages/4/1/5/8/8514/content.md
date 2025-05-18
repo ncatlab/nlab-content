@@ -97,7 +97,7 @@ Guided by analogies between the ring of integers and the ring of polynomials in 
 * Conjecture: For all $\epsilon \lt 0$ there exists $C(\epsilon) \lt 0$ such that for relatively prime integers $a, b, c$ satisfying $a + b = c$, we have 
 $$\max({|a|}, {|b|}, {|c|}) \leq C(\epsilon)N_0(a b c)^{1+\epsilon}.$$ 
 
-Of course, this differs from the polynomial case because of the presence of $1+ \epsilon$ in the exponent, but this is a necessary evil. For example, for any $C \gt 0$, we can find relatively prime $a$, $b$, $c$ with $a + b = c$ and ${|a|} \gt C N_0(a b c)$: take $a = 3^{2^n}$, $b = -1$, and observe by repeated application of $x^2 - y^2 = (x-y)(x+y)$ that $c = a + b$ is of the form $2^n d$ for some integer $d$. Taking $n$ sufficiently large, we can easily derive the claimed inequality. 
+Of course, this differs from the polynomial case because of the presence of $1+ \epsilon$ in the exponent, but this is necessary. For example, for any $C \gt 0$, we can find relatively prime $a$, $b$, $c$ with $a + b = c$ and ${|a|} \gt C N_0(a b c)$: take $a = 3^{2^n}$, $b = -1$, and observe by repeated application of $x^2 - y^2 = (x-y)(x+y)$ that $c = a + b$ is of the form $2^n d$ for some integer $d$. Taking $n$ sufficiently large, we can easily derive the claimed inequality. 
 
 
 
