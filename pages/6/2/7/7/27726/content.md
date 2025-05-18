@@ -22,3 +22,4 @@ However, the term "evil" is also used in [[mathematics]] in a few unrelated cont
 category: disambiguation
 
 [[!redirects evil]]
+[[!redirects non-evil]]
