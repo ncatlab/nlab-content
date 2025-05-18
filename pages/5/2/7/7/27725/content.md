@@ -1,5 +1,5 @@
 
-> For other uses of the word "evil" in mathematics, see [[evil]]. 
+> For other uses of "evil" in mathematics, see [[evil]]. 
 
 ----
 
