@@ -13,7 +13,7 @@
 
 ## Idea
 
-The **On-Line Encyclopedia of Integer Sequences (OEIS)** is an online database of various [[integer]] [[sequences]] maintained by [[Neil Sloane]]. 
+The **On-Line Encyclopedia of Integer Sequences (OEIS)** is an online database of various [[integer]] [[sequences]] maintained by [[Neil Sloane]] until 2009. 
 
 Web:
 
