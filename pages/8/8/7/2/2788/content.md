@@ -243,8 +243,9 @@ $$
 
 [[Eric]]: Motivated by some discussion over at [[natural transformation]], I was wondering if the following alternative definition of functor holds water:
 
->###Definition##
->Given categories $A$, $B$, a **functor** is a map $F:A\to B$ that assigns maps $\alpha_x:x\to F(x)$ and $\alpha_y:y\to F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
+####Definition####
+> Given categories $A$, $B$, a **functor** is a map $F:A\to B$ that assigns maps $\alpha_x:x\to F(x)$ and $\alpha_y:y\to F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
+
 $$ 
   \array{ 
     x
@@ -284,6 +285,7 @@ Alternatively, you could take it as understood that the sets $A_0$ and $B_0$ are
 
 ###Definition###
 Given categories $A$, $B$ and inclusion maps $i_A:A\to A\sqcup B$, $i_B:B\to A\sqcup B$, a **functor** is a map $F:A\to B$ that assigns morphisms $\alpha_x:i_A(x)\to i_B\circ F(x)$ and $\alpha_y:i_A(y)\to i_B\circ F(y)$ for any morphism $f:x\to y$ in $A$ such that the following diagram commutes:
+
 $$ 
   \array{ 
     i_A(x)
@@ -300,6 +302,7 @@ $$
     \stackrel{i_B\circ F(f)}{\to} & i_B\circ F(y) 
   }
 $$
+
 It follows that $i_A$ and $i_B$ are functors.
 
 Note that a map $F:A\to B$ is a functor if the map $\alpha:i_A\Rightarrow i_B\circ F$ is a natural transformation.
@@ -330,8 +333,6 @@ In a nutshell, I'm not saying there is anything wrong the definitions there, but
 
 ##Reference
 
-* See all [[experimental alternative definition of adjunction]].
-
-  
+* See all [[experimental alternative definition of adjunction]].  
 
 [[!redirects functor (discussion)]]
