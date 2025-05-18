@@ -1,6 +1,5 @@
 
-
-* [webpage](https://people.maths.ox.ac.uk/scheimbauer/)
+* [webpage](http://www.scheimbauer.at/)
 
 ## Selected writings
 
