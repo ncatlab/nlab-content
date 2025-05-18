@@ -34,7 +34,7 @@ The ideas here generalize in many directions.  For example, not only properties,
 
 * {#evil} In the [[category theory]] and [[higher category theory]] literature, a [[mathematical structure]] or [[definition]] is **evil** if it breaks equivalence invariance (see e.g. [Pavlovic 2023](#Pavlovic23), [Ferrer et al. 2024](#FerrerEtAl24)). The usage of the term "evil" in category theory originated from [[John Baez]] and [[Toby Bartels]] in 2008 in the early days of the nLab (see [[2008 changes]]). 
 
-**Note:** *Due to confusion with the concept of evil in moral [[philosophy]], the nLab now discourages the usage of the term "evil" on the nLab itself to refer to the concept of breaking equivalence invariance, instead preferring alternative ways to describe the concept. If you encounter uses of this sort elsewhere on the nLab, please replace them if possible.* 
+**Note:** *Due to confusion with the concept of [[evil]] in moral [[philosophy]], the nLab now discourages the usage of the term "evil" on the nLab itself to refer to the concept of breaking equivalence invariance, instead preferring alternative ways to describe the concept. If you encounter uses of this sort elsewhere on the nLab, please replace them if possible.* 
 
 *Sometimes it is not possible to remove instances of "evil" on the nLab that are used for "breaking equivalence invariance", such as if "evil" is used in a quotation from a reference. For example, in the [[Center for Quantum and Topological Systems]] article, "evil" appears in the quoted abstract of the 2023 [[CQTS]] talk [Johnson-Freyd 2023](#JohnsonFreyd23) that appears on the article, and so is unavoidable unless the quoted abstract itself is removed from the article. In this case, it is fine to leave "evil" in the article as part of the quote.*
 
@@ -193,7 +193,6 @@ For the use of the term "evil" to refer to the violation of the [[principle of e
 [[!redirects principle of invariance]]
 [[!redirects principle of covariance]]
 
-[[!redirects evil]]
 [[!redirects evil definition]]
 [[!redirects evil structure]]
 
