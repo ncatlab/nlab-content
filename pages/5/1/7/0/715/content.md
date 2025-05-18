@@ -40,7 +40,7 @@ Assuming [[excluded middle]], $Hilb_\mathbb{R}$ is a [[concrete category|concret
 
 * a [[dagger equaliser]] $eq$ such that $(Hilb_\mathbb{R},\oplus,0,eq)$ is a [[finitely complete dagger category]]
 
-* a [[directed colimit]] $\underrightarrow{lim} F$ for any inductive system $F$ in the wide sub-dagger category of objects and [[dagger monomorphisms]]. 
+* a [[directed colimit]] $\underset{\rightarrow}\lim F$ for any inductive system $F$ in the wide sub-dagger category of objects and [[dagger monomorphisms]]. 
 
 * a morphism $g:B \to C$ for any [[dagger monomorphism]] $f:A \to B$ such that $g = eq(f,0_B \circ 0_A^\dagger)$
 
