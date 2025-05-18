@@ -37,7 +37,7 @@ $$
   n \;=\; 2^{n_1}  \cdot 3^{n_2} \cdot  5^{n_3} \cdot 7^{n_4} \cdot  11^{ n_5 } \cdots
 $$
 
-This is called the _prime factorization_ of $n$.
+This is called the _prime factorization_ of $n$, proved in the [[fundamental theorem of arithmetic]].
 
 Notice that while the number $1 \in \mathbb{N}$ is, clearly, only divisible by one and by itself, hence might look like it deserves to be counted as a prime number, too, this would break the uniqueness of this prime factorization. In view of the general phenomenon in classifications in [[mathematics]] of some objects being _[[too simple to be simple]]_ one could say that 1 is "too prime to be prime".
 
