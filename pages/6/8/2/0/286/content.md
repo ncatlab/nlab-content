@@ -22,7 +22,6 @@ For instance, a [[category]] can be presented by a [[simplicial set]] (the [[ner
 
 The ideas here generalize in many directions.  For example, not only properties, but also constructions involving categories and functors, can fail to preserve equivalences.  
 
-
 ## Terminology
 {#terminology}
 
@@ -33,8 +32,11 @@ The ideas here generalize in many directions.  For example, not only properties,
 
 * A very precise way of stating this idea is encapsulated in [[Vladimir Voevodsky]]'s [[univalence axiom]], which is a fundamental part of [[homotopy type theory]] as a [[foundation]] for mathematics.  By identifying equivalences/isomorphisms with inhabitants of an [[identity type]], it ensures that all properties and structure which can be expressed within the formal [[type theory]] are invariant under such (see [AhrensNorth18](#AhrensNorth18)).
 
-* {#evil} Floating around the web (and maybe the $n$Lab) is the idea of half-jokingly referring to a breaking of equivalence invariance as "evil". This is probably meant as a pedagogical way of amplifying that it is to be avoided.
+* {#evil} In the [[category theory]] and [[higher category theory]] literature, a [[mathematical structure]] or [[definition]] is **evil** if it breaks equivalence invariance (see e.g. [Pavlovic 2023](#Pavlovic23), [Ferrer et al. 2024](#FerrerEtAl24)). The usage of the term "evil" in category theory originated from [[John Baez]] and [[Toby Bartels]] in 2008 in the early days of the nLab (see [[2008 changes]]). 
 
+**Note:** *Due to confusion with the concept of evil in moral [[philosophy]], the nLab now discourages the usage of the term "evil" on the nLab itself to refer to the concept of breaking equivalence invariance, instead preferring alternative ways to describe the concept. If you encounter uses of this sort elsewhere on the nLab, please replace them if possible.* 
+
+*Sometimes it is not possible to remove instances of "evil" on the nLab that are used for "breaking equivalence invariance", such as if "evil" is used in a quotation from a reference. For example, in the [[Center for Quantum and Topological Systems]] article, "evil" appears in the quoted abstract of the 2023 [[CQTS]] talk [Johnson-Freyd 2023](#JohnsonFreyd23) that appears on the article, and so is unavoidable unless the quoted abstract itself is removed from the article. In this case, it is fine to leave "evil" in the article as part of the quote.*
 
 ## Motivation
 
@@ -45,7 +47,6 @@ The ideas here generalize in many directions.  For example, not only properties,
 >Draw an analogy with vector spaces (maybe just finite-dimensional ones?).  We can *use* a basis to study a vector space, but the basis is not *part of* the vector space.  Even if we use a foundation of mathematics in which the basis literally is part of the vector space (which arguably was the case for 18th-century linear algebra, which studied only Cartesian spaces; and is still the case today if we study finite-dimensional vector spaces using a foundational type theory with propositions as types, but probably this is too obscure), anything that we consider to be a property *of the vector space* should be independent of the basis.  We can make this precise by comparing the groupoids $Vect_\sim$ and $Vect_b$.
 
 ...
-
 
 ### From foundations and logic
 
@@ -179,10 +180,23 @@ A discussion of the principle of equivalence in the very [[foundations]] of math
 
 * {#AhrensNorth18} [[Benedikt Ahrens]], [[Paige Randall North]], _Univalent foundations and the equivalence principle_, ([pdf](https://paigenorth.github.io/ep.pdf))
 
+For the use of the term "evil" to refer to the violation of the [[principle of equivalence]] in [[category theory]] and [[higher category theory]]:
+
+* {#JohnsonFreyd23} [[Theo Johnson-Freyd]], *Higher Dagger Categories*, [talk at](Center+for+Quantum+and+Topological+Systems#JohnsonFreydNov2023) [[CQTS]] (08 Nov 2023) &lbrack;slides:[pdf](http://categorified.net/NYUADtalk.pdf), [[JohnsonFreyd-HigherDaggerNYUAD.pdf:file]], video:[YT](https://youtu.be/zvtziTpl2T0)&rbrack;
+
+* {#Pavlovic23} [[Dusko Pavlovic]], *Catales: From topologies without points to categories without objects* &lbrack;[arXiv:2311.10342](https://arxiv.org/abs/2311.10342)&rbrack;
+
+* {#FerrerEtAl24} [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv:2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
+
 [[!redirects principle of isomorphism]]
 [[!redirects principle of equivalence]]
 [[!redirects principle of invariance]]
 [[!redirects principle of covariance]]
 
 [[!redirects evil]]
+[[!redirects evil definition]]
+[[!redirects evil structure]]
+
 [[!redirects non-evil]]
+[[!redirects non-evil definition]]
+[[!redirects non-evil structure]]
