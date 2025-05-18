@@ -46,7 +46,7 @@ Taking this definition literally in material [[set theory]], each cardinal is th
 
 In the absence of the appropriate axioms, the definitions above can still be used to define __well-ordered cardinals__ and __well-founded cardinals__, respectively.
 
-From the perspective of structural [[set theory]], it is [[evil]] to care about distinctions between isomorphic objects, and unnecessary to insist on a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply say:
+From the perspective of structural [[set theory]], caring about distinctions between isomorphic objects is at odds with the [[principle of equivalence]], and it is unnecessary to insist on a canonical choice of representatives for isomorphism classes.  Therefore, from this point of view it is natural to simply say:
 
 * A __cardinal__ is a [[set]] (that is, an object of [[Set]]).
 
