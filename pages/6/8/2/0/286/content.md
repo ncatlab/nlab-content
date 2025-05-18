@@ -32,9 +32,11 @@ The ideas here generalize in many directions.  For example, not only properties,
 
 * A very precise way of stating this idea is encapsulated in [[Vladimir Voevodsky]]'s [[univalence axiom]], which is a fundamental part of [[homotopy type theory]] as a [[foundation]] for mathematics.  By identifying equivalences/isomorphisms with inhabitants of an [[identity type]], it ensures that all properties and structure which can be expressed within the formal [[type theory]] are invariant under such (see [AhrensNorth18](#AhrensNorth18)).
 
-* {#evil} In the [[category theory]] and [[higher category theory]] literature, a [[mathematical structure]] or [[definition]] is **evil** if it breaks equivalence invariance (see e.g. [Pavlovic 2023](#Pavlovic23), [Ferrer et al. 2024](#FerrerEtAl24)). The usage of the term "evil" in category theory originated from [[John Baez]] and [[Toby Bartels]] in 2008 in the early days of the nLab (see [[2008 changes]]). 
+* {#evil} In the [[category theory]] and [[higher category theory]] literature, a [[mathematical structure]] or [[definition]] is **evil** if it breaks equivalence invariance (see e.g. [Pavlovic 2023](#Pavlovic23), [Ferrer et al. 2024](#FerrerEtAl24)).
 
-**Note:** *Due to confusion with the concept of [[evil]] in moral [[philosophy]], the nLab now discourages the usage of the term "evil" on the nLab itself to refer to the concept of breaking equivalence invariance, instead preferring alternative ways to describe the concept. If you encounter uses of this sort elsewhere on the nLab, please replace them if possible.* 
+The usage of the term "evil" in category theory originated from [[John Baez]] and [[Toby Bartels]] in 2008 in the early days of the nLab: this article was originally titled "evil" before [being renamed](https://ncatlab.org/nlab/revision/diff/principle+of+equivalence/70) "principle of equivalence" by [[Urs Schreiber]] on 4 July 2012 (see [[2008 changes]] and [the history of this page](https://ncatlab.org/nlab/history/principle+of+equivalence)). 
+
+**Note:** *Due to confusion with the concept of [[evil]] in moral [[philosophy]], the nLab now discourages the usage of the term "evil" elsewhere on the nLab itself to refer to the concept of breaking equivalence invariance, instead preferring alternative ways to describe the concept. If you encounter uses of this sort elsewhere on the nLab, please replace them if possible.* 
 
 *Sometimes it is not possible to remove instances of "evil" on the nLab that are used for "breaking equivalence invariance", such as if "evil" is used in a quotation from a reference. For example, in the [[Center for Quantum and Topological Systems]] article, "evil" appears in the quoted abstract of the 2023 [[CQTS]] talk [Johnson-Freyd 2023](#JohnsonFreyd23) that appears on the article, and so is unavoidable unless the quoted abstract itself is removed from the article. In this case, it is fine to leave "evil" in the article as part of the quote.*
 
@@ -85,9 +87,25 @@ This definition should be the conclusion of a theorem that using certain languag
 
 ### In category theory
 
-A common misconception in category theory is that [[strict categories]] violate the principle of equivalence. However, this is not true; strict categories are the mathematical structures in which the equivalence of objects are precisely equality on objects: important examples of strict categories which do not violate the principle of equivalence include [[posets]] and the [[walking parallel pair]]. In fact, every strict category is equivalent to a [[setoid]]-valued [[presheaf]] on the [[simplex category]] or the full subcategory of the [[arrow category]] of the [[(2,1)-category]] of [[weak categories]], consisting of [[essentially surjective functors]] whose [[domain]] is a [[setoid]]. 
+A common misconception in category theory is that [[strict categories]] violate the principle of equivalence. However, this is not true. 
+
+First of all, there are some strict categories in which the equivalence of objects are precisely equality on objects: the [[gaunt categories]]. Important examples of gaunt categories include [[posets]] and the [[walking parallel pair]]. 
+
+\begin{example}
+The [[strict category]] consisting of [[Archimedean ordered fields]] and [[ring homomorphisms]] is equivalence-invariant, since there is at most one ring homomorphism between Archimedean ordered fields. 
+\end{example}
+
+More generally in fact, every strict category is equivalent to a [[setoid]]-valued [[presheaf]] on the [[simplex category]] or the full subcategory of the [[arrow category]] of the [[(2,1)-category]] of [[weak categories]], consisting of [[essentially surjective functors]] whose [[domain]] is a [[setoid]]. 
 
 Instead, what does break the principle of equivalence is to say that certain [[concrete categories]] with non-trivial [[automorphisms]] such as [[Set]] or [[Grp]] are strict categories, as the objects of the categories are [[sets]], and equality of objects is equality of sets. In this case, one has to instead say that they are [[isomorphism|isomorphic]] and then (usually) impose some [[coherence relation]] on the relevant family of isomorphisms.  But of course, this is more complicated!
+
+\begin{example}
+The [[strict category]] consisting of the [[natural numbers]] $\mathbb{N}$ and [[function sets]] between standard finite types $\mathrm{Fin}(n)^{\mathrm{Fin}(m)}$, where the [[family]] of $\mathbb{N}$-indexed sets is $\mathrm{Fin}(n) \coloneqq \{k \in \mathbb{N} \vert k \lt n\}$, breaks equivalence invariance, since [[equality]] of natural numbers does not coincide with [[bijection]] of [[finite sets]]. The equivalence-invariant version is the [[Rezk completion]] $\hat{\mathbb{N}}$ of this category, yielding the [[univalent category]] of [[finite sets]]. 
+\end{example}
+
+\begin{example}
+The [[strict category]] consisting of a model of [[ZFC]] $V$ and [[function sets]] between the sets $\mathrm{El}(a)^{\mathrm{El}(b)}$ of $V$, where the [[family]] of $V$-indexed sets is $\mathrm{El}(a) \coloneqq \{x \in V \vert x \in a\}$, breaks equivalence invariance, since [[equality]] of [[pure sets]] does not coincide with [[bijection]] of [[sets]]. The equivalence-invariant version is the [[Rezk completion]] $\hat{V}$ of this category, yielding the [[univalent category]] of $V$-[[small sets]]. 
+\end{example}
 
 #### Identity-on-objects functors
 
@@ -193,9 +211,40 @@ For the use of the term "evil" to refer to the violation of the [[principle of e
 [[!redirects principle of invariance]]
 [[!redirects principle of covariance]]
 
+[[!redirects isomorphism-invariant]]
+[[!redirects isomorphism invariant]]
+
+[[!redirects isomorphism-invariance]]
+[[!redirects isomorphism invariance]]
+
+[[!redirects isomorphism-invariant structure]]
+[[!redirects isomorphism invariant structure]]
+[[!redirects isomorphism-invariant structures]]
+[[!redirects isomorphism invariant structures]]
+
+[[!redirects isomorphism-invariant definition]]
+[[!redirects isomorphism invariant definition]]
+[[!redirects isomorphism-invariant definitions]]
+[[!redirects isomorphism invariant definitions]]
+
+[[!redirects equivalence-invariant]]
+[[!redirects equivalence invariant]]
+
+[[!redirects equivalence-invariance]]
+[[!redirects equivalence invariance]]
+
+[[!redirects equivalence-invariant structure]]
+[[!redirects equivalence invariant structure]]
+[[!redirects equivalence-invariant structures]]
+[[!redirects equivalence invariant structures]]
+
+[[!redirects equivalence-invariant definition]]
+[[!redirects equivalence invariant definition]]
+[[!redirects equivalence-invariant definitions]]
+[[!redirects equivalence invariant definitions]]
+
 [[!redirects evil definition]]
 [[!redirects evil structure]]
 
-[[!redirects non-evil]]
 [[!redirects non-evil definition]]
 [[!redirects non-evil structure]]
