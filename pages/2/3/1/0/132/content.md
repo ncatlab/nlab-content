@@ -35,7 +35,7 @@ See also the related discussion at [[discrete space]].
 
 A [[category]] is **discrete** if it is both a [[groupoid]] and a [[preorder]].  That is, every morphism should be invertible, any two [[parallel morphisms]] should be equal.  The idea is that in a discrete category, no two distinct (nonisomorphic) objects are connectable by any path (morphism), and an object connects to itself only through its [[identity morphism]].
 
-Often one also assumes that a discrete category is [[skeletal category|skeletal]]; a category is both discrete and skeletal if and only if it contains only identity morphisms.  However, this definition is [[evil]], because it states that objects (the source and target of the identity morphism in question) are equal; it is cleaner to separate the discreteness from the skeletality.
+Often one also assumes that a discrete category is [[skeletal category|skeletal]]; a category is both discrete and skeletal if and only if it contains only identity morphisms.  However, this definition violates the [[principle of equivalence]], because it states that objects (the source and target of the identity morphism in question) are equal; it is cleaner to separate the discreteness from the skeletality.
 
 A ([[small category|small]]) discrete category may be identified with its [[set]] of isomorphism classes.  Conversely, given a [[collection]] $S$ of objects, the __discrete category over $S$__ is the category with $S$ as its collection of objects and only identity morphisms.
 
