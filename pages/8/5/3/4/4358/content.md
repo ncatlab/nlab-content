@@ -122,6 +122,8 @@ See also
 
 * Wikipedia, _[Prime number](https://en.wikipedia.org/wiki/Prime_number)_
 
+* [[Neil Sloane]], *Sequence A000040 (The prime numbers.)*, The [[On-Line Encyclopedia of Integer Sequences]], OEIS Foundation &lbrack;[web](https://oeis.org/A000040)&rbrack;
+
 [[!redirects prime number]]
 [[!redirects prime numbers]]
 [[!redirects theory of primes]]
