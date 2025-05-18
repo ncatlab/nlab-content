@@ -3,7 +3,7 @@
 
 In moral [[philosophy]], evil is traditionally defined to be the opposite or absence of good. 
 
-However, the word "evil" is also used in [[mathematics]] in a few unrelated contexts:
+However, the term "evil" is also used in [[mathematics]] in a few unrelated contexts:
 
 * [[evil number]] in [[number theory]]
 
