@@ -21,7 +21,9 @@ Web:
 
 ## Related concepts
 
-* [[integer]] [[sequence]]
+* [[integer]] 
+
+* [[sequence]]
 
 ## References
 
