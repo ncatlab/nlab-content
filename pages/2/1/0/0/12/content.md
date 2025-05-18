@@ -1,6 +1,5 @@
 This is a timeline of [[category theory]] and related mathematics.
 
-
 #Timeline#
 |Year| |Contributors     | |Event|
 |----|-|-----------------|-|-----|
@@ -129,7 +128,7 @@ This is a timeline of [[category theory]] and related mathematics.
 |1970| |[[Jean Bénabou]]-Jacques Roubaud| |connect the [[descent]] in fibered categories with monadic descent: [[Benabou-Roubaud theorem]]|
 |1971| |[[Saunders Mac Lane]]| |Influential book: Categories for the working mathematician, which became the standard reference in category theory|
 |1971| |[[Horst Herrlich]]-[[Oswald Wyler]]| |[[Categorical topology]]: The study of [[topological category|topological categories]] of [[structured set]]s (generalizations of topological spaces, uniform spaces and the various other spaces in topology) and relations between them, culminating in [[universal topology]]. General categorical topology study and uses structured sets in a topological category as general topology study and uses topological spaces. Algebraic categorical topology tries to apply the machinery of algebraic topology for topological spaces to structured sets in a topological category.|
-|1971| |[[Harold Neville Vazeille Temperley|Harold Temperley]]-[[Elliott Lieb]]| |[[Temperley-Lieb algebra]]s: Algebras of [[tangle (mathematics)|tangle]]s defined by generators of tangles and relations among them|
+|1971| |[[Harold Neville Vazeille Temperley|Neville Temperley]]-[[Elliott Lieb]]| |[[Temperley-Lieb algebra]]s: Algebras of [[tangle (mathematics)|tangle]]s defined by generators of tangles and relations among them|
 |1971| |[[William Lawvere]]-[[Myles Tierney]]| |[[Lawvere-Tierney topology]] on a topos|
 |1971| |[[William Lawvere]]-[[Myles Tierney]]| |[[Topos theoretic forcing]] (forcing in toposes): Categorization of the [[Forcing (mathematics)|set theoretic forcing]] method to toposes for attempts to prove or disprove the [[continuum hypothesis]], independence of the [[axiom of choice]], etc. in toposes|
 |1971| |Bob Walters-[[Ross Street]]| |[[Yoneda structure]]s on 2-categories|
