@@ -24,7 +24,7 @@ certain relations.
 
 Let $G$ be a [[quiver|directed graph]], and let $R$ be a function that assigns to each pair $a,b$ of objects of the [[free category]] $F(G)$ a [[binary
 relation]] $R_{a,b}$ on the [[hom-set]] $F(G)(a,b)$.  The
-**category with generators $G$ and relations $R$** is the [[quotient category]] (as defined in [Mac Lane](#MacLane) or [Mitchell](#Mitchel), for example -- this is _not_ the nLab definition due to issues of [[evil]]) $F(G)/R$. For a category $C$, an [[isomorphism of categories|isomorphism]] $C\to F(G)/R$ is called a **presentation** of $C$.
+**category with generators $G$ and relations $R$** is the [[quotient category]] (as defined in [Mac Lane](#MacLane) or [Mitchell](#Mitchel), for example -- this is _not_ the nLab definition since it violates the [[principle of equivalence]]) $F(G)/R$. For a category $C$, an [[isomorphism of categories|isomorphism]] $C\to F(G)/R$ is called a **presentation** of $C$.
 
 
 ## Properties
