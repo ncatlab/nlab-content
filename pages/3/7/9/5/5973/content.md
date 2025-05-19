@@ -54,7 +54,7 @@ On 2-type theory:
 
 * [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
 
-* Philip Saville, *Cartesian closed bicategories: type theory and coherence*. PhD thesis, 2020. [pdf](https://arxiv.org/pdf/2007.00624.pdf).
+* [[Philip Saville]], *Cartesian closed bicategories: type theory and coherence*. PhD thesis, 2020. [pdf](https://arxiv.org/pdf/2007.00624.pdf).
 
 * A type system with semantics in [[virtual equipment]]s:
 
