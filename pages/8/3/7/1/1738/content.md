@@ -16,7 +16,7 @@ $$
 
 It is also commonly called the **interval preorder** or the **interval poset** (since it is indeed a [[poset]]).
 
-The interval category serves as a [[combinatorial]] model for the [[directed space|directed]] [[interval]]. It is the directed canonical [[interval object]] in [[Cat]].  It is also called the **[[walking structure|walking]] arrow**.  It might also be called the "arrow category" although that term is [[arrow category|also used]] for a category of functors out of $\mathbf{2}$.
+The interval category serves as a [[combinatorial]] model for the [[directed space|directed]] [[interval]]. It is the directed canonical [[interval object]] in [[Cat]].  It is also called the **[[free-living structure|free-living]] arrow**.  It might also be called the "arrow category" although that term is [[arrow category|also used]] for a category of functors out of $\mathbf{2}$.
 
 The notation $\mathbf{2}$ comes from the fact that the interval category is also the [[ordinal number]] $2$ regarded as a [[poset]], regarded as a category.
 
@@ -120,7 +120,6 @@ $$
 With $I$ replaced by $I_{iso}$ this is again a natural isomorphism, now represented as a [[right homotopy]] in [[Cat]].
 
 The analogous statements are true in [[higher category theory]]. 
-
 
 
 [[!redirects I]]
