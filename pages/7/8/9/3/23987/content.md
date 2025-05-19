@@ -1919,6 +1919,7 @@ Talks:
 
 
 
+
 \linebreak
 
 ### May 2025
@@ -1937,6 +1938,7 @@ Talks:
     }
 \end{imagefromfile}
 
+
 * {#QuantumMatterAndComputing2025} 19-20 May 2025
 
   \linebreak
@@ -1947,13 +1949,28 @@ Talks:
 
   \linebreak
 
-  @ [Center for Quantum Information Physics](https://as.nyu.edu/departments/physics/research/center-for-quantum-information-physics.html), NYU New York
+  joint with [Center for Quantum Information Physics](https://as.nyu.edu/departments/physics/research/center-for-quantum-information-physics.html), NYU New York
 
-  venue: [19 Washington Square North](https://www.google.com/maps/search/19+Washington+Square+North?entry=gmail&source=g)
+\begin{imagefromfile}
+    "file_name": "WashingtonSquareNorth.png",
+    "float": "right",
+    "width": 230,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+
+        "bottom": 20,
+        "right": 0, 
+        "left": -40
+    }
+\end{imagefromfile}
+
+
+venue: [19 Washington Square North](https://www.google.com/maps/search/19+Washington+Square+North?entry=gmail&source=g)
 
   \linebreak
 
-  *Program:*
+*Program:*
 
 $\phantom{-----------}$Monday, May 19:
 
@@ -1973,6 +1990,9 @@ $\phantom{-----------}$Monday, May 19:
 | 16:35-17:00 |	\[Break\] |
 | 17:00-18:00 |	[[Chetan Nayak]] (Microsoft) |
 | 18:00       |	\[Dinner\]
+
+
+\linebreak
 
 $\phantom{-----------}$Tuesday, May 20
 
