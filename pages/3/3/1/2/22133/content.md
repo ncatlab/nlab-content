@@ -1,5 +1,13 @@
 
-* [Institute page](https://umdphysics.umd.edu/people/faculty/current/item/114-dassarma.html)
+* [institute page](https://umdphysics.umd.edu/people/faculty/current/item/114-dassarma.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Sankar_Das_Sarma)
+
+* [physics.APS page](https://physics.aps.org/authors/sankar_das_sarma)
+
+* [inSpire page](https://inspirehep.net/authors/1072225)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=qr4xe_YAAAAJ&hl=en)
 
 ## Selected writings
 
