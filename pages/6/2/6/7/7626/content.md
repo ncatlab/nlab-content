@@ -331,7 +331,7 @@ More comprehensive accounts of anyons:
 
 * {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) &lbrack;[doi:10.1142/0961](https://doi.org/10.1142/0961)&rbrack;
 
-* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 &lbrack;[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005)&rbrack;
+* {#Kitaev06} [[Alexei Kitaev]], *Anyons in an exactly solved model and beyond*, Annals of Physics **321** 1 (2006) 2-111 &lbrack;[doi:10.1016/j.aop.2005.10.005](https://doi.org/10.1016/j.aop.2005.10.005), [arXiv:cond-mat/0506438](https://arxiv.org/abs/cond-mat/0506438)&rbrack;
 
 * [[Eduardo Fradkin]], *Anyon superconductivity*, Chapter 11 in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) 414-431 &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509.013](https://doi.org/10.1017/CBO9781139015509.013)&rbrack;
 
