@@ -63,13 +63,13 @@ The following list is meant to be roughly in decreasing order of the number of a
 |[Logica Universalis](https://www.springer.com/journal/11787)|Springer|[[Olivia Caramello|Caramello]], [[Valeria de Paiva|de Paiva]]|subscription|logic|
 |[The Journal of Symbolic Logic](https://www.cambridge.org/core/journals/journal-of-symbolic-logic)|Cambridge UP|[[Steve Awodey|Awodey]]|subscription|logic|
 |[Mathematical Logic Quaterly](https://onlinelibrary.wiley.com/journal/15213870)|Wiley|[[Steve Awodey|Awodey]], [[Maria Emilia Maietti|Maietti]], [[Emily Riehl|Riehl]]|subscription|logic|
+|[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|Benno van den Berg|subscription|logic|
 
 ## Journals previously publishing homotopy theory and/or category theory
 
 |Journal|Publisher|
 |-------|---------|
 |[[Comptes rendus hebdomadaires des séances de l'Académie des sciences]]|French Academy of Sciences|
-|[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|
 ## Related pages
 
 * [[list of theses in category theory]]
