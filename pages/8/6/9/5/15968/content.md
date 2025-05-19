@@ -18,7 +18,7 @@ This page is to record the reference:
 
   xxiii + 367 pages
 
-on [[topos theory]], sometimes referred to as the "Baby Elephant" (retroactively, after the [[Elephant]]).
+on [[topos theory]].
 
 Peter Johnstone's classic text on [[topos theory]] from 1977 served as the standard reference in the field until the publication of MacLane-Moerdijk's *[[Sheaves in Geometry and Logic]]* in 1992 and the monumental first two volumes of *[[Sketches of an elephant]]* in 2002, also by Johnstone. _Topos Theory_ reportedly contains almost all results in topos theory known in the mid 1970s.
 
@@ -50,7 +50,6 @@ It has also several unique features in comparison with its successor volumes in 
 
 [[!redirects Johnstone Topos Theory]]
 [[!redirects Johnstone topos theory]]
-[[!redirects Baby Elephant]] 
 [[!redirects Topos Theory 1977]]
 
 category:reference
