@@ -2050,6 +2050,10 @@ $\phantom{-----------}$Tuesday, May 20
 
 * {#LiMay2025} [Yi Li](https://scholar.google.com/citations?hl=en&user=tBxA-ZoAAAAJ&view_op=list_works&sortby=pubdate):
 
+  **Novel Unconventional Superconductivity and Phase Sensitive Probes**
+
+  cf.: [arXiv:2407.18701](https://arxiv.org/abs/2407.18701)
+
 * ...
 
 \linebreak
