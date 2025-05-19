@@ -410,7 +410,7 @@ is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, becau
 
 * {#Borceux94a} [[Francis Borceux]], p. 196 in *Basic Category Theory*,  vol.1 of: *[[Handbook of Categorical Algebra]]*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
 
-* {#Borceux94b} [[Francis Borceux]], Cor. 2.4.2 in: *Categories and Structures*, *[[Handbook of Categorical Algebra]]*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
+* {#Borceux94b} [[Francis Borceux]], Cor. 4.2.4 in: *Categories and Structures*, *[[Handbook of Categorical Algebra]]*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
 
 
 * {#AdamekRosicky} [[Jiri Adamek|Jiri Adamek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
