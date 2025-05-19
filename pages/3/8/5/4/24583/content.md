@@ -1,5 +1,5 @@
 
-* [personal page](https://jozefg.github.io/)
+* [personal page](https://www.danielgratzer.com/)
 
 ## Selected works
 
