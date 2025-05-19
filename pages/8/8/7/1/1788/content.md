@@ -8,7 +8,12 @@
 
 ***
 
+* Exotic non-Abelian anyons from conventional fractional quantum Hall states
 
+* Universal Topological Quantum Computation from a Superconductor-Abelian
+Quantum Hall Heterostructure
+
+* Induced superconductivity in high-mobility two-dimensional electron gas in gallium arsenide heterostructures
 
 
 ...
