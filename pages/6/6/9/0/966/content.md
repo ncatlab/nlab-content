@@ -412,6 +412,10 @@ The adjoint functor theorem in context with [[Yoneda embedding]] is discussed in
 
 * Friedrich Ulmer, *The adjoint functor theorem and the Yoneda embedding*, Illinois J. Math. **15**  no.3 (1971), pp. 355-361. ([euclid](http://projecteuclid.org/euclid.ijm/1256052605))
 
+This perspective is extended to explore a spectrum of adjoint functor theorems in:
+
+* {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, &lbrack;[arXiv:2306.10389](https://arxiv.org/abs/2306.10389)&rbrack;
+
 The connection between the solution set condition and the Čech homology construction is discussed in
 
 * Renato Betti, _Čech methods and the adjoint functor theorem_ , Cah. Top. Géom. Diff. Cat. **XXVI** no.3 (1985) pp.245-257. ([numdam](http://www.numdam.org/item/?id=CTGDC_1985__26_3_245_0))
