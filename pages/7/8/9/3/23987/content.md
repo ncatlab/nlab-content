@@ -1924,21 +1924,6 @@ Talks:
 
 ### May 2025
 
-\begin{imagefromfile}
-    "file_name": "NYU-Physics-Research.png",
-    "float": "right",
-    "width": 275,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-
-        "bottom": 20,
-        "right": 0, 
-        "left": -100
-    }
-\end{imagefromfile}
-
-
 * {#QuantumMatterAndComputing2025} 19-20 May 2025
 
   \linebreak
@@ -1947,9 +1932,19 @@ Talks:
 
   **Quantum Matter and Quantum Computing**
 
+  [nyuad.nyu.edu/en/events/2025/may/quantum-matter-and-quantum-computing.html](https://nyuad.nyu.edu/en/events/2025/may/quantum-matter-and-quantum-computing.html)
+
   \linebreak
 
   joint with [Center for Quantum Information Physics](https://as.nyu.edu/departments/physics/research/center-for-quantum-information-physics.html), NYU New York
+
+  $\;$
+
+  venue: [19 Washington Square North](https://nyuad.nyu.edu/en/about/the-nyuad-campus/19-washington-square-north.html) (NYUAD embassy @ NYU New York)
+
+  $\;$
+
+  *Program:*
 
 \begin{imagefromfile}
     "file_name": "WashingtonSquareNorth.png",
@@ -1957,20 +1952,14 @@ Talks:
     "width": 230,
     "unit": "px",
     "margin": {
-        "top": -30,
-
+        "top": -160,
         "bottom": 20,
         "right": 0, 
         "left": -40
     }
 \end{imagefromfile}
 
-
-venue: [19 Washington Square North](https://www.google.com/maps/search/19+Washington+Square+North?entry=gmail&source=g)
-
-  \linebreak
-
-*Program:*
+\linebreak
 
 $\phantom{-----------}$Monday, May 19:
 
@@ -1991,7 +1980,6 @@ $\phantom{-----------}$Monday, May 19:
 | 17:00-18:00 |	[[Chetan Nayak]] (Microsoft) |
 | 18:00       |	\[Dinner\]
 
-
 \linebreak
 
 $\phantom{-----------}$Tuesday, May 20
@@ -2011,6 +1999,100 @@ $\phantom{-----------}$Tuesday, May 20
 | 15:50-16:35 |	[Andrei Vrajitoarea](https://scholar.google.com/citations?hl=en&user=k7q8hL8AAAAJ&view_op=list_works) (NYU New York) |
 | 17:00       | \[Closing\] |
 
+
+\linebreak
+
+**Titles:**
+
+* {#ShabaniMay2025} [[Javad Shabani]]: 
+
+  **Engineering Topological States of Matter**
+
+\linebreak
+
+* {#ChengMay2025} [[Meng Cheng]]:
+
+  **Anomalous Insights into Phases of Matter in Open Quantum Systems**
+
+\linebreak
+
+
+* {#ChengMay2025} [[Sankar Das Sarma]]:
+
+  ...
+
+\linebreak
+
+
+* {#Pasupathy<ay2025} [Abhay Pasupathy](https://www.physics.columbia.edu/content/abhay-narayan-pasupathy):
+
+  ...
+
+\linebreak
+
+
+* {#LiMay2025} [Yi Li](https://scholar.google.com/citations?hl=en&user=tBxA-ZoAAAAJ&view_op=list_works&sortby=pubdate):
+
+* ...
+
+\linebreak
+
+
+* {#NayakMay2025} [[Chetan Nayak]]:
+
+  ...
+
+\linebreak
+
+
+* {#SatiMay2025} [[Hisham Sati]]:
+
+  ...
+
+
+\linebreak
+
+
+* {#ByrnesMay2025} [[Tim Byrnes]]:
+
+  ...
+
+\linebreak
+
+
+* {#GhaemiMay2025} [Pouyan Ghaemi](https://scholar.google.com/citations?hl=en&user=IYvQn6sAAAAJ&view_op=list_works):
+
+   ...
+
+\linebreak
+
+
+* {#ProdanMay2025} [Emil Prodan](https://scholar.google.com/citations?hl=en&user=Fax-mQYAAAAJ&view_op=list_works):
+
+  ...
+
+\linebreak
+
+
+* {#RegnaultMay2025} [[Nicolas Regnault]]:
+
+  ...
+
+\linebreak
+
+
+
+* {#SchreiberMay2025} [[Urs Schreiber]]:
+
+  **[[schreiber:Rethinking FQH Anyons -- talk|Rethinking FQH Anyons]]**
+
+
+\linebreak
+
+
+* {#VrajitoareaMay2025} [Andrei Vrajitoarea](https://scholar.google.com/citations?hl=en&user=k7q8hL8AAAAJ&view_op=list_works):
+
+  ...
 
 
 
