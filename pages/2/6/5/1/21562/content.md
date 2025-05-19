@@ -153,9 +153,23 @@ We deduce that $x \circ \left( \mathcal{E}_{semi} \times s \right) = \mathcal{E}
 
 \begin{rmk} All of the structures in this section have an analogue for $\mathcal{E}$, the free-standing equivalence, as well. All the required compatibilities hold except for one: $\Gamma_{lr}$ and $\Gamma_{ur}$ are not compatible with $\left(S, r_0, r_1, s \right)$. This is exactly where the semi-strictness of $\mathcal{E}_{semi}$ is needed.  \end{rmk}
 
+## Related concepts
+
+* [[walking structure]]
+
+  * [[walking morphism]]
+
+  * [[walking isomorphism]]
+
+  * **walking equivalence**
+
 \section{References}
 
 * {#Williamson2011} [[Richard Williamson]], _Cylindrical model structures_, DPhil thesis, University of Oxford, 2011. [author's webpage](http://rwilliamson-mathematics.info/cylindrical_model_structures/cylindrical_model_structures.html) [arXiv:1304.0867](https://arxiv.org/abs/1304.0867)
+
+The phrase "walking equivalence" appears in:
+
+* {#HLOR24} [[Amar Hadzihasanovic]], [[Félix Loubaton]], [[Viktoriya Ozornova]], [[Martina Rovelli]] *A model for the coherent walking $\omega$-equivalence* ([arXiv:2404.14509](https://arxiv.org/abs/2404.14509))
 
 [[!redirects walking equivalences]]
 [[!redirects walking semi-strict equivalence]]
