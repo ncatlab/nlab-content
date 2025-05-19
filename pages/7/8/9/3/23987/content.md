@@ -2017,9 +2017,9 @@ $\phantom{-----------}$Tuesday, May 20
 \linebreak
 
 
-* {#ChengMay2025} [[Sankar Das Sarma]]:
+* {#DasSarmaMay2025} [[Sankar Das Sarma]]:
 
-  ...
+  **Majorana Nanowires in Semiconductor/Superconductor Hybrid Platform**
 
 \linebreak
 
