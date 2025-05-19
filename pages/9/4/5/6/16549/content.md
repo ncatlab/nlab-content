@@ -15,7 +15,7 @@
 
 ## Idea
 
-In a context of [[differential cohesion]], with [[infinitesimal shape modality]] $\Im$, then for every [[object]] $X \in \mathbf{H}$ its _infinitesimal disk bundle_ $T_{inf}X$ is the [[bundle]] over $X$ whose [[fiber]] over a [[point]] is the *[[infinitesimal neighbourhood]]* of that point, fomalized as the [[homotopy fiber]] at this point of the [[unit of a monad|unit]] of the [[infinitesimal shape modality]] $\Im$ on $X$.
+In a context of [[differential cohesion]], with [[infinitesimal shape modality]] $\Im$, then for every [[object]] $X \in \mathbf{H}$ its _infinitesimal disk bundle_ $T_{inf}X$ is the [[bundle]] over $X$ whose [[fiber]] over a [[point]] is the *[[infinitesimal neighbourhood]]* of that point, formalized as the [[homotopy fiber]] at this point of the [[unit of a monad|unit]] of the [[infinitesimal shape modality]] $\Im$ on $X$.
 
 The collection of these fiber hence forms the [[homotopy fiber product|homotopy]] [[fiber product]]
 
