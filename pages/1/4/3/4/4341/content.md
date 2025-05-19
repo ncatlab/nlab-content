@@ -17,17 +17,20 @@ The notion of structures that are an archetypal model of the [[mathematical stru
 
 ## Terminology
 
-There are many terms used in the category theory literature for this concept:
+There are several terms used in the category theory literature for this concept:
 
-* The term **walking** ([Hadzihasanovic et al 2024](#HLOR24), [Ozornova & Rovelli 2024](#OR24))
 
-* The term **free-living** ([Foltz, Lair, & Kelly 1980](#FLK80)))
+* **free-living** (e.g. [Foltz, Lair, & Kelly 1980](#FLK80)))
 
-* The term **free-standing**
+* **free-standing**
 
-The term *walking* is [believed](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) to have been introduced by [[James Dolan]]. Pronunciation of 'walking' is just as in ‘John is a walking almanac’ or ‘Eugene Levy is a walking pair of eyebrows’. 
+* **walking** (e.g. [Hadzihasanovic et al 2024](#HLOR24), [Ozornova & Rovelli 2024](#OR24))
 
-**Note:** *Some people regard the use of "walking" as colloquial.*
+
+The term *walking* is [believed](http://golem.ph.utexas.edu/category/2010/01/f_and_the_shibboleth.html#c031066) to have been introduced by [[James Dolan]], was used colloquially for several years and eventually got enshrined, for better or worse, in various nLab articles (such as this one here, originating [in 2010](/nlab/revision/walking+structure/1)), from which the recent literature cited above probably picked it up. 
+
+The idea of "walking" here is as in "John is a walking almanac" or "[Eugene Levy](https://en.wikipedia.org/wiki/Eugene_Levy) is a walking pair of eyebrows" (which may be the original motivation given by Dolan). 
+
 
 ## Definition
 
