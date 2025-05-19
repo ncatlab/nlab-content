@@ -21,13 +21,13 @@
 
 (...)
 
-> *The introduction of the $Z_k$ parafermions $[$[1](#ZamolodchikovFateev85)$]$ in the context of statistical models and conformal field theory [2] is perhaps one of the most significant conceptual advances in modern theoretical physics* $[$[DGZ02](#DGZ02)$]$
+> *The introduction of the $Z_k$ parafermions &lbrack;[1](#ZamolodchikovFateev85)&rbrack; in the context of statistical models and conformal field theory [2] is perhaps one of the most significant conceptual advances in modern theoretical physics* &lbrack;[DGZ02](#DGZ02)&rbrack;
 
 (...)
 
-> *We caution the reader that the level-$k$ Read-Rezayi wavefunction $[$[10](#ReadRezayi99)$]$ is constructed from a conformal field theory (CFT) known as the $Z_k$ parafermions of Zamolodchikov-Fateev $[$[32](#ZamolodchikovFateev85)$]$ type which is closely related to the $SU(2)_k$ Chern-Simons theory, and which is a different object from the parafermions of the Fradkin-Kadanoff-Fendley type $[$[46](#CFRS00InFact)$]$. To avoid confusion we emphasise at this point that within this paper, all mention of parafermions will refer to Fradkin-Kadanoff-Fendley type.* $[$[CFRS00, p. 1](#CFRS00)$]$
+> *We caution the reader that the level-$k$ Read-Rezayi wavefunction &lbrack;[10](#ReadRezayi99)&rbrack; is constructed from a conformal field theory (CFT) known as the $Z_k$ parafermions of Zamolodchikov-Fateev &lbrack;[32](#ZamolodchikovFateev85)&rbrack; type which is closely related to the $SU(2)_k$ Chern-Simons theory, and which is a different object from the parafermions of the Fradkin-Kadanoff-Fendley type &lbrack;[46](#CFRS00InFact)&rbrack;. To avoid confusion we emphasise at this point that within this paper, all mention of parafermions will refer to Fradkin-Kadanoff-Fendley type.* &lbrack;[CFRS00, p. 1](#CFRS00)&rbrack;
 
-> {#CFRS00InFact} *In fact the Zamolodchikov-Fateev parafermions represent a critical point at the transition into a phase described by Fradkin-Kadanoff-Fendley parafermions.* $[$[CFRS00, p. 9](#CFRS00)$]$
+> {#CFRS00InFact} *In fact the Zamolodchikov-Fateev parafermions represent a critical point at the transition into a phase described by Fradkin-Kadanoff-Fendley parafermions.* &lbrack;[CFRS00, p. 9](#CFRS00)&rbrack;
 
 (...)
 
@@ -42,7 +42,7 @@ Related to the [[fractional superstring]].
 
 Introducing parafermion [[2d CFT]]:
 
-* {#ZamolodchikovFateev85} [[Alexander B. Zamolodchikov]], [[Vladimir A. Fateev]] *Nonlocal (parafermion) currents in two-dimensional conformal quantum field theory and self-dual critical points in $Z_N$-symmetric statistical systems*, Sov. Phys. JETP **62** 2 (1985) 215-225 $[$[pdf](http://www.jetp.ras.ru/cgi-bin/dn/e_062_02_0215.pdf), [osti:5929972](https://www.osti.gov/biblio/5929972)$]$
+* {#ZamolodchikovFateev85} [[Alexander B. Zamolodchikov]], [[Vladimir A. Fateev]]: *Nonlocal (parafermion) currents in two-dimensional conformal quantum field theory and self-dual critical points in $Z_N$-symmetric statistical systems*, Sov. Phys. JETP **62** 2 (1985) 215-225 $[$[pdf](http://www.jetp.ras.ru/cgi-bin/dn/e_062_02_0215.pdf), [osti:5929972](https://www.osti.gov/biblio/5929972)$]$
 
 
 Further discussion:
