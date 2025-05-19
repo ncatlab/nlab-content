@@ -77,7 +77,7 @@ If the dependent type theory additionally has universe-indexed [[dependent produ
 
 $$ \mathrm{first} : \prod_{A:Type} A\times A \to A \qquad \mathrm{or} \qquad \mathrm{first} : \prod_{A \; \mathrm{type}} A\times A \to A$$
 
-Examples of parametric polymorphism in dependent type theory include [[axioms]] and [[axiom schemata]], such as [[UIP]] and [[axiom K]], [[excluded middle]], [[axiom of choice]], and the [[type theoretic axiom of replacement|axiom of replacement]] for a [[Tarski universe]]. 
+Examples of parametric polymorphism in dependent type theory include [[axioms]] and [[axiom schemata]], such as [[UIP]] and [[axiom K]], [[excluded middle]], [[axiom of choice]], and the [[type theoretic axiom of replacement|axiom of replacement]] for a [[Tarski universe]]. Other examples include the [[typal equality|typal]] [[recursion|recursion principle]] of ([[higher inductive types|higher]]) [[inductive types]] that shows it to be a homotopy-[[initial object]] and the [[typal equality|typal]] [[corecursion|corecursion principle]] of ([[higher coinductive type|higher]]) [[coinductive types]] that shows it to be a homotopy-[[terminal object]]. 
 
 For certain dependent type theories, one can prove that they have parametric polymorphism inside the type theory itself. These are the [[parametric dependent type theories]]. 
 
