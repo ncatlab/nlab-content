@@ -38,7 +38,8 @@ The nLab records and explores a wide range of mathematics, physics, and philosop
 
 If you take a little time to find something in the literature, or to work through a proof or example, or to find an intuitive or new way to think about something, add a note on it to the nLab! Others will benefit, and you may well find that it proves useful to you too.
 
-> Note: In the past, people have used the nLab for their own personal notes and unsubstantiated original research. This is no longer allowed on the nLab. When you add material to the nLab, please also include references to the literature to substantiate the added material. 
+In doing so, follow common academic practice of substantiating your edit: Either justify it by citing relevant literature or else provide relevant proof (for claims) or other sanity checks (e.g. when introducing new definitions or terminology).
+
 
 A fundamental idea behind the nLab is that the linking between pages of a wiki is a profound way to record knowledge, placing it in a rich context.
 
