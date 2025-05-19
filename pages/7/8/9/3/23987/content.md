@@ -2016,17 +2016,34 @@ $\phantom{-----------}$Tuesday, May 20
 
 \linebreak
 
-
 * {#DasSarmaMay2025} [[Sankar Das Sarma]]:
 
   **Majorana Nanowires in Semiconductor/Superconductor Hybrid Platform**
 
 \linebreak
 
-
-* {#Pasupathy<ay2025} [Abhay Pasupathy](https://www.physics.columbia.edu/content/abhay-narayan-pasupathy):
+* {#EconomouMay2025} [[Sophia Economou]]: 
 
   ...
+
+
+\linebreak
+
+
+* {#StanescuMay2025} [[Tudor Stanescu]]:
+
+  **Planar Josephson junction devices with narrow superconducting strips: \linebreak Topological properties and optimization**
+
+  cf. [arXiv:2504.04468](https://arxiv.org/abs/2504.04468)
+
+
+\linebreak
+
+
+* {#PasupathyMay2025} [Abhay Pasupathy](https://www.physics.columbia.edu/content/abhay-narayan-pasupathy):
+
+  **Some thoughts on disorder in superconductors relevant to qubits**
+
 
 \linebreak
 
