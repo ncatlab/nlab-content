@@ -38,19 +38,16 @@ Nat. Commun. 4, 1348 (2013).
 projective non-Abelian braiding statistics, Phys. Rev. B 87,
 045130 (2013).
 
-[14] M. Barkeshli, C.-M. Jian, and X.-L. Qi, Classification of topo-
-logical defects in Abelian topological states, Phys. Rev. B 88,
+[14] M. Barkeshli, C.-M. Jian, and X.-L. Qi, Classification of topological defects in Abelian topological states, Phys. Rev. B 88,
 241103(R) (2013).
 
 [15] R. S. K. Mong, D. J. Clarke, J. Alicea, N. H. Lindner, P.
 Fendley, C. Nayak, Y. Oreg, A. Stern, E. Berg, K. Shtengel, and
 M. P. A. Fisher, Universal Topological Quantum Computation
 from a Superconductor-Abelian Quantum Hall Heterostructure,
-Phys. Rev. X 4, 011036 (2014).
+Phys. Rev. X 4., 011036 (2014).
 
-[16] M. N. Khan, J. C. Y. Teo, and T. L. Hughes, Anyonic symme-
-tries and topological defects in abelian topological phases: An
-application to the ADE classification, Phys. Rev. B 90, 235149
+[16] M. N. Khan, J. C. Y. 9Teo, and T. L. Hughes, Anyonic symmetries and topological defects in abelian topological phases: An application to the ADE classification, Phys. Rev. B 90, 235149
 (2014).
 
 [17] L. H. Santos and T. L. Hughes, Parafermionic Wires at the
