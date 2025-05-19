@@ -34,7 +34,7 @@ Introducing the idea of [[topological quantum computation]] with [[anyons]]:
 
 Introducing a model with [[Majorana zero modes]] in quantum wires ([[Kitaev spin chain]]):
 
-* [[Alexei Kitaev]], *Unpaired Majorana fermions in quantum wires*,  Physics-Uspekhi, **44** 10S (2001) 131-136 &lbrack;[doi:10.1070/1063-7869/44/10S/S29](https://iopscience.iop.org/article/10.1070/1063-7869/44/10S/S29)&rbrack;
+* [[Alexei Kitaev]], *Unpaired Majorana fermions in quantum wires*,  Physics-Uspekhi, **44** 10S (2001) 131-136 &lbrack;[doi:10.1070/1063-7869/44/10S/S29](https://iopscience.iop.org/article/10.1070/1063-7869/44/10S/S29), [arXiv:cond-mat/0010440](https://arxiv.org/abs/cond-mat/0010440)&rbrack;
 
 and its [[interaction|interacting]] generalization:
 
