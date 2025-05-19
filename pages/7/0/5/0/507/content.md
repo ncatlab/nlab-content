@@ -28,7 +28,7 @@ This page is to record the reference:
 
   Volume 3: (long announced, yet to be published)
 
-on [[topos theory]] (the shorter 1977 book by Johnstone on the topic is thus sometimes called the [[Baby Elephant]]).
+on [[topos theory]].
 
 {#TheElephantAnalogy} The title refers to the strikingly different aspects of topos theory (such as [[functorial geometry|functorial]] [[geometry]] versus [[mathematical logic]]) by alluding to the Indian folklore story of the blind men and the elephant (cf. E. J. Robinson’s *[Tales and Poems of South India](https://archive.org/details/TalesAndPoemsOfSouthIndia)*), recalled in Johnstone's preface like this:
 
