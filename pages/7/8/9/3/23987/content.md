@@ -2061,7 +2061,9 @@ $\phantom{-----------}$Tuesday, May 20
 
 * {#NayakMay2025} [[Chetan Nayak]]:
 
-  ...
+  **Majorana-Based Topological Qubits**
+
+  cf.: [arXiv:2502.12252](https://arxiv.org/abs/2502.12252)
 
 \linebreak
 
