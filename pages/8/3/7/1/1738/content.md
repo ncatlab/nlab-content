@@ -1,10 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Definition
 
-### Interval category
-
-The **interval category** -- often denoted $\mathbf{2}$ or $I$ or $\Delta[1]$ -- is the [[category]] with two [[object]]s and precisely one nontrivial [[morphism]] connecting them:
+The **walking morphism** ([Ozornova & Rovelli 2024](#OR24)) or **interval category** -- often denoted $\mathbf{2}$ or $I$ or $\Delta[1]$ -- is the [[category]] with two [[object]]s and precisely one nontrivial [[morphism]] connecting them:
 
 $$
   I =
@@ -49,7 +58,9 @@ It can equivalently be defined [[recursion|recursively]] on $\mathbb{2}$ by
 
 Since the symbol $\mathbb{I}$ is sometimes used for the [[interval type]] in [[homotopy type theory]], which is [[contractible type|contractible]], it may be better to avoid it for the interval category unless the meaning is clear from context.
 
-### Interval groupoid
+## Properties
+
+### Relation to the interval groupoid
 
 Inverting the single non-identity arrow of the interval category, we obtain the [[interval groupoid]], which is an (undirected) [[interval object]] in [[Cat]] and [[Grpd]].
 
@@ -121,11 +132,28 @@ With $I$ replaced by $I_{iso}$ this is again a natural isomorphism, now represen
 
 The analogous statements are true in [[higher category theory]]. 
 
+## Related concepts
+
+* [[walking structure]]
+
+  * **walking morphism**
+
+  * [[walking isomorphism]]
+
+  * [[walking equivalence]]
+
+## References
+
+The phrase “walking morphism” appears in:
+
+* {#OR24} [[Viktoriya Ozornova]], [[Martina Rovelli]], *What is an equivalence in a higher category*, Bulletin of the London Mathematical Society, Volume 56, Issue 1, January 2024, Pages 1-58 ([doi:10.1112/blms.12947](https://doi.org/10.1112/blms.12947))
 
 [[!redirects I]]
 [[!redirects walking arrow]]
 [[!redirects walking morphism]]
+[[!redirects walking morphism category]]
 
+[[!redirects interval category]]
 [[!redirects interval preorder]]
 [[!redirects interval proset]]
 [[!redirects interval poset]]
