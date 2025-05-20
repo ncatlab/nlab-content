@@ -1922,6 +1922,7 @@ Talks:
 
 \linebreak
 
+
 ### May 2025
 
 * {#QuantumMatterAndComputing2025} 19-20 May 2025
@@ -2036,6 +2037,8 @@ $\phantom{-----------}$Tuesday, May 20
 
   cf. [arXiv:2504.04468](https://arxiv.org/abs/2504.04468)
 
+  slides: [[Stanescu-CQICQTS-May2025.pdf:file]]
+
 
 \linebreak
 
@@ -2054,7 +2057,6 @@ $\phantom{-----------}$Tuesday, May 20
 
   cf.: [arXiv:2407.18701](https://arxiv.org/abs/2407.18701)
 
-* ...
 
 \linebreak
 
