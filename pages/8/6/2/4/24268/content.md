@@ -172,13 +172,15 @@ References which make explicit that [[topological quantum computation]] by [[bra
 
 * {#NayakSimonSternFreedman08} [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], §II.A.2 (p. 6) of: _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. **80** 1083 (2008) &lbrack;[arXiv:0707.1888] (http://arxiv.org/abs/0707.1889), [doi:10.1103/RevModPhys.80.1083](https://doi.org/10.1103/RevModPhys.80.1083)&rbrack;
 
+
+* {#ProdanHaldan09} [[Emil Prodan]], [[F. Duncan Haldane]]: *Mapping the braiding properties of the Moore-Read state*, Phys. Rev. B **80** (2009) 115121 &lbrack;[doi:10.1103/PhysRevB.80.115121](https://doi.org/10.1103/PhysRevB.80.115121)&rbrack;
+
 * {#ChengGalitskiDasSarma11} [[Meng Cheng]], [[Victor Galitski]], [[Sankar Das Sarma]], *Non-adiabatic Effects in the Braiding of Non-Abelian Anyons in Topological Superconductors*, Phys. Rev. B **84** (2011) 104529 &lbrack;[arXiv:1106.2549](https://arxiv.org/abs/1106.2549), [doi:10.1103/PhysRevB.84.104529](https://doi.org/10.1103/PhysRevB.84.104529)&rbrack;
 
 * [[Gustavo Rigolin]], [[Gerardo Ortiz]], p. 1 of: *The Adiabatic Theorem for Quantum Systems with Spectral Degeneracy*, Phys. Rev. A **85** 062111 (2012) &lbrack;[arXiv:1111.5333](https://arxiv.org/abs/1111.5333), [doi:10.1103/PhysRevA.85.062111](https://doi.org/10.1103/PhysRevA.85.062111)&rbrack;
 
 
 * [[Jiannis K. Pachos]], *Introduction to Topological Quantum Computation*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511792908]( https://doi.org/10.1017/CBO9780511792908)&rbrack;
-
   > &lbrack;p. 50&rbrack;: "topological quantum computation resembles an adiabatic quantum computation with constant energy gap, where the quasiparticle coordinates provide the control parameters of the Hamiltonian."
 
   > &lbrack;p. 52&rbrack;: "Holonomic quantum computation resembles the adiabatic scheme &lbrack;...&rbrack; topological quantum computation can be considered as holonomic computation where the employed adiabatic evolutions have topological characteristics."
@@ -194,7 +196,7 @@ References which make explicit that [[topological quantum computation]] by [[bra
 * {#Stanescu20} [[Tudor D. Stanescu]], p. 321 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
 
-* {#BarlasProdan20} Yafis Barlas, Emil Prodan, *Topological braiding of non-Abelian mid-gap defects in classical meta-materials*, Phys. Rev. Lett. **124** (2020) 146801 &lbrack;[arXiv:1903.00463](https://arxiv.org/abs/1903.00463), [doi:10.1103/PhysRevLett.124.146801](https://doi.org/10.1103/PhysRevLett.124.146801)&rbrack;
+* {#BarlasProdan20} Yafis Barlas, [[Emil Prodan]], *Topological braiding of non-Abelian mid-gap defects in classical meta-materials*, Phys. Rev. Lett. **124** (2020) 146801 &lbrack;[arXiv:1903.00463](https://arxiv.org/abs/1903.00463), [doi:10.1103/PhysRevLett.124.146801](https://doi.org/10.1103/PhysRevLett.124.146801)&rbrack;
 
 
 
@@ -204,5 +206,8 @@ References which make explicit that [[topological quantum computation]] by [[bra
 
 
 [[!redirects holonomic quantum computation]]
+
+[[!redirects adiabatic quantum computing]]
+
 
 
