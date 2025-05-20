@@ -2072,7 +2072,7 @@ $\phantom{-----------}$Tuesday, May 20
 
 * {#SatiMay2025} [[Hisham Sati]]:
 
-  ...
+  **Global perspectives on topological quantum matter/information**
 
 
 \linebreak
