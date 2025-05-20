@@ -87,6 +87,10 @@ On candidate for a [[2-topos]] version of the [[effective topos]]:
 
 * [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ &lbrack;[arXiv:2503.24279](https://arxiv.org/abs/2503.24279)&rbrack;
 
+An algebraic treatment of [[dependent type theory]], analogous to [[algebraic set theory]], is in
+
+* [[Steve Awodey]], _Algebraic Type Theory, Part 1: Martin-Löf algebras_ &lbrack;[arXiv:2505.10761](https://arxiv.org/abs/2505.10761)&rbrack;
+
 ## Related entries
 
 * [[algebraic set theory]]
