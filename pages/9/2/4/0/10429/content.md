@@ -381,4 +381,7 @@ Via [[higher gauge theory|higher]] [[lattice gauge theory]]:
 
 [[!redirects topological matter]]
 
+[[!redirects bulk-boundary correspondence]]
+[[!redirects bulk-boundary correspondences]]
+
 
