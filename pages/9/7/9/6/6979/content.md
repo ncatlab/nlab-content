@@ -223,6 +223,10 @@ A formal definition of dependent type theories beyond [[Martin-Löf dependent ty
 * Vladimir Voevodsky, _C-system of a module over a monad on sets_, ([arXiv:1406.7413](http://arxiv.org/abs/1407.3394))
 * Vladimir Voevodsky, _Subsystems and regular quotients of C-systems_, ([arXiv:1406.7413](http://arxiv.org/abs/1406.7413))
 
+An algebraic treatment of dependent type theory, analogous to [[algebraic set theory]], is in
+
+* [[Steve Awodey]], _Algebraic Type Theory, Part 1: Martin-Löf algebras_ &lbrack;[arXiv:2505.10761](https://arxiv.org/abs/2505.10761)&rbrack;
+
 For more see the references at _[[Martin-Löf dependent type theory]]_.
 
 [[!redirects dependent type theories]]
