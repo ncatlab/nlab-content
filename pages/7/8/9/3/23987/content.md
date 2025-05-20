@@ -2087,7 +2087,7 @@ $\phantom{-----------}$Tuesday, May 20
 
 * {#GhaemiMay2025} [Pouyan Ghaemi](https://scholar.google.com/citations?hl=en&user=IYvQn6sAAAAJ&view_op=list_works):
 
-   ...
+  **Quantum algorithm to realize and study fractional Hall states and their dynamics on near term quantum computers: A tabletop experiment on quantum gravity**
 
 \linebreak
 
