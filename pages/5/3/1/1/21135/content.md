@@ -73,6 +73,11 @@ Generalization of the K-theory classification of free topological pgases to incl
 
 [[!include T-duality in K-theory classification of topological phases -- references]]
 
+Further on the [[bulk-boundary correspondence]]:
+
+* Danilo Polo Ojito, [[Emil Prodan]], Tom Stoiber: *$C^\ast$-framework for higher-order bulk-boundary correspondences* \[<a href="https://arxiv.org/abs/2406.04226">arXiv:2406.04226</a>\]
+
+
 
 Discussion via [[cobordism cohomology]]:
 
