@@ -5,10 +5,14 @@
 
 On the classification (now often referred to, somewhat rudimentarily, as the *[[ten-fold way]]*) of *[[free field|free]] [[fermion]]* [[topological phases of matter]] ([[condensed matter physics|condensed matter]] with [[gapped Hamiltonians]], specifically [[topological insulators]]) by [[twisted K-theory|twisted]] [[equivariant K-theory|equivariant]] [[topological K-theory]]:
 
+Early detailed discussion (ignored by the revival of the idea following [Kitaev 2009](#Kitaev09))
 
-Precursor discussion phrased in terms of [[random matrix theory]] instead of K-theory:
+* [[Jean Bellissard]]: *K-theory of $C^\ast$-Algebras in solid state physics*, in: *Statistical mechanics and field theory: Mathematical Aspects*, Lecture Notes in Physics **2577**, Springer (1986) 99–156 \[<a href=" https://doi.org/10.1007/3-540-16777-3_74">doi:10.1007/3-540-16777-3_74</a>, [inSpire:222243](https://inspirehep.net/literature/222243), scan:[pdf](https://lib-extopc.kek.jp/preprints/PDF/1986/8604/8604219.pdf)\]
 
-* Denis Bernard, André LeClair, *A classification of 2D random Dirac fermions*, J. Phys. A: Math. Gen. **35** (2002) 2555 $[$[doi:10.1088/0305-4470/35/11/303](https://iopscience.iop.org/article/10.1088/0305-4470/35/11/303)$]$
+
+Later precursor discussion phrased in terms of [[random matrix theory]] instead of K-theory:
+
+* Denis Bernard, André LeClair, *A classification of 2D random Dirac fermions*, J. Phys. A: Math. Gen. **35** (2002) 2555 \[<a href="https://iopscience.iop.org/article/10.1088/0305-4470/35/11/303">doi:10.1088/0305-4470/35/11/303</a>\]
 
 * [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]], *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) $[$[doi:10.1103/PhysRevB.78.195125](https://doi.org/10.1103/PhysRevB.78.195125), [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)$]$
 
@@ -88,7 +92,7 @@ With application of the [[external tensor product of vector bundles]] to describ
 
 For [[quasicrystals]] via [[KK-theory]] of the [[noncommutative topology of quasiperiodicity]]:
 
-* {#Bellissard03} Jean Bellissard, *The Noncommutative Geometry of Aperiodic Solids*, in: Geometric and Topological Methods for Quantum Field Theory, pp. 86-156 (2003) ([pdf](http://people.math.gatech.edu/~jeanbel/Publi/ncg02.pdf), [doi:10.1142/9789812705068_0002](https://doi.org/10.1142/9789812705068_0002))
+* {#Bellissard03} [[Jean Bellissard]], *The Noncommutative Geometry of Aperiodic Solids*, in: Geometric and Topological Methods for Quantum Field Theory, pp. 86-156 (2003) ([pdf](http://people.math.gatech.edu/~jeanbel/Publi/ncg02.pdf), [doi:10.1142/9789812705068_0002](https://doi.org/10.1142/9789812705068_0002))
 
 * {#Ypma05} Fonger Ypma, *Quasicrystals, $C^\ast$-algebras and K-theory*, 2005 ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.214.4414&rep=rep1&type=pdf))
 
