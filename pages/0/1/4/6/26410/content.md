@@ -36,5 +36,10 @@ On [[topological superconductors]] possibly with [[Majorana zero modes]] for [[t
 https://doi.org/10.1103/PRXQuantum.5.030102">doi:10.1103/PRXQuantum.5.030102</a>, [arXiv:2408.12749](https://arxiv.org/abs/2408.12749)\]
 
 
+On [[topological phase of matter|topological properties]] of planar [[Josephson junctions]] with narrow [[superconductor|superconducting]] strips:
+
+* Purna P. Paudel, [[Javad Shabani]], [[Tudor D. Stanescu]]:  *Planar Josephson junction devices with narrow superconducting strips: Topological properties and optimization* &lbrack;[arXiv:2504.04468](https://arxiv.org/abs/2504.04468)&rbrack;
+
+
 
 category: people
