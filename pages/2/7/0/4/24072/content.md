@@ -16,9 +16,15 @@ Introducing [[Majorana dimers]] for [[Ising anyons]]:
 
 * Brayden Ware, Jun Ho Son, [[Meng Cheng]], Ryan V. Mishmash, [[Jason Alicea]], and Bela Bauer, *Ising anyons in frustration-free Majorana-dimer models*, Phys. Rev. B 94, 115127 2016 ([arXiv:10.1103/PhysRevB.94.115127](https://doi.org/10.1103/PhysRevB.94.115127))
 
-On [[parafermions]] and [[topological order]]:
+On non-abelian ([[parafermion|parafermionic]]) [[defect]] [[anyons]] associated with [[superconductor|superconducting]] islands inside [[nLab:abelian Chern-Simons theory|abelian]] [[fractional quantum Hall systems]]:
 
-* David J. Clarke, [[Jason Alicea]], Kirill Shtengel . *Exotic non-Abelian anyons from conventional fractional quantum Hall states*, Nature Communications **4** 1348 (2013) $[$[doi: 10.1038/ncomms2340 (2013)](https://www.nature.com/articles/ncomms2340)$]$
+* [[David J. Clarke]], [[Jason Alicea]], [[Kirill Shtengel]]: *Exotic non-Abelian anyons from conventional fractional quantum Hall states*, Nature Communications **4** 1348 (2013) &lbrack;[doi: 10.1038/ncomms2340](https://www.nature.com/articles/ncomms2340), [arXiv:1204.5479](https://arxiv.org/abs/1204.5479)&rbrack;
+
+* [[Roger S. K. Mong]], [[David J. Clarke]], [[Jason Alicea]], [[Netanel H. Lindner]], Paul Fendley, [[Chetan Nayak]], Yuval Oreg, [[Ady Stern]], [[Erez Berg]], [[Kirill Shtengel]], Matthew P. A. Fisher: *Universal Topological Quantum Computation from a Superconductor-Abelian Quantum Hall Heterostructure*, Phys. Rev. X **4** (2014) 011036 &lbrack;[arXiv:1307.4403](https://arxiv.org/abs/1307.4403), [doi:10.1103/PhysRevX.4.011036](https://doi.org/10.1103/PhysRevX.4.011036)&rbrack;
+
+
+And generally on [[parafermions]] and [[topological order]]:
+
 
 * [[Jason Alicea]], [[Paul Fendley]], *Topological phases with parafermions: theory and blueprints*, Annual Review of Condensed Matter Physics **7** (2016) 119-139 $[$[doi:10.1146/annurev-conmatphys-031115-011336](https://doi.org/10.1146/annurev-conmatphys-031115-011336)$]$
 
