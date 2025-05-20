@@ -5,59 +5,37 @@
 \linebreak
 
 
-
 ***
 
-* Exotic non-Abelian anyons from conventional fractional quantum Hall states
+[[Stanescu-CQICQTS-May2025.pdf:file]]
 
-* Universal Topological Quantum Computation from a Superconductor-Abelian
-Quantum Hall Heterostructure
+On non-abelian ([[parafermion|parafermionic]]) [[defect]] [[anyons]] associated with [[superconductor|superconducting]] islands inside [[nLab:abelian Chern-Simons theory|abelian]] [[fractional quantum Hall systems]]:
 
-* Induced superconductivity in high-mobility two-dimensional electron gas in gallium arsenide heterostructures
+* [[Netanel H. Lindner]], [[Erez Berg]], Gil Refael, [[Ady Stern]]: *Fractionalizing Majorana fermions: non-abelian statistics on the edges of abelian quantum Hall states*, Phys. Rev. X **2** (2012) 041002 &lbrack;[arXiv:1204.5733](https://arxiv.org/abs/1204.5733), [doi:10.1103/PhysRevX.2.041002](https://doi.org/10.1103/PhysRevX.2.041002)&rbrack;
 
-* Coulomb Blockade in Fractional Topological Superconductors
 
-M. Barkeshli and X.-L. Qi, Topological Nematic States and
-Non-Abelian Lattice Dislocations, Phys. Rev. X 2, 031013
-(2012).
+* [[David J. Clarke]], [[Jason Alicea]], [[Kirill Shtengel]]: *Exotic non-Abelian anyons from conventional fractional quantum Hall states*, Nature Communications **4** 1348 (2013) &lbrack;[doi: 10.1038/ncomms2340](https://www.nature.com/articles/ncomms2340), [arXiv:1204.5479](https://arxiv.org/abs/1204.5479)&rbrack;
 
-[9] N. H. Lindner, E. Berg, G. Refael, and A. Stern, Fractionalizing
-Majorana Fermions: Non-Abelian Statistics on the Edges of
-Abelian Quantum Hall States, Phys. Rev. X 2, 041002 (2012).
+* Abolhassan Vaezi: *Fractional topological superconductor with fractionalized Majorana fermions*, Phys. Rev. B **87** (2013) 035132 &lbrack;[doi:10.1103/PhysRevB.87.035132](https://doi.org/10.1103/PhysRevB.87.035132), [arXiv:1204.6245](https://arxiv.org/abs/1204.6245)&rbrack;
 
-[10] D. J. Clarke, J. Alicea, and K. Shtengel, Exotic non-Abelian
-anyons from conventional fractional quantum Hall states,
-Nat. Commun. 4, 1348 (2013).
+* [[Roger S. K. Mong]], [[David J. Clarke]], [[Jason Alicea]], [[Netanel H. Lindner]], Paul Fendley, [[Chetan Nayak]], Yuval Oreg, [[Ady Stern]], [[Erez Berg]], [[Kirill Shtengel]], Matthew P. A. Fisher: *Universal Topological Quantum Computation from a Superconductor-Abelian Quantum Hall Heterostructure*, Phys. Rev. X **4** (2014) 011036 &lbrack;[arXiv:1307.4403](https://arxiv.org/abs/1307.4403), [doi:10.1103/PhysRevX.4.011036](https://doi.org/10.1103/PhysRevX.4.011036)&rbrack;
 
-[11] M. Cheng, Superconducting proximity effect on the edge of fractional topological insulators, Phys. Rev. B 86, 195126
-(2012).
+* Younghyun Kim, [[David J. Clarke]], Roman M. Lutchyn: *Coulomb Blockade in Fractional Topological Superconductors*, Phys. Rev. B **96** (2017) 041123 &lbrack;[arXiv:1703.00498](https://arxiv.org/abs/1703.00498), [doi:10.1103/PhysRevB.96.041123](https://doi.org/10.1103/PhysRevB.96.041123)&rbrack;
 
-[12] A. Vaezi, Fractional topological superconductor with fractionalized Majorana fermions, Phys. Rev. B 87, 035132 (2013).
+* [[Luiz H. Santos]], Taylor L. Hughes: *Parafermionic Wires at the Interface of Chiral Topological States*, Phys. Rev. Lett. **118** (2019) 136801 &lbrack;[doi:10.1103/PhysRevLett.118.136801](https://doi.org/10.1103/PhysRevLett.118.136801)&rbrack;
 
-[13] M. Barkeshli, C.-M. Jian, and X.-L. Qi, Twist defects and
-projective non-Abelian braiding statistics, Phys. Rev. B 87,
-045130 (2013).
+* [[Luiz H. Santos]]: *Parafermions in Hierarchical Fractional Quantum Hall States*, Phys. Rev. Research **2** (2020) 013232 &lbrack;[arXiv:1906.07188](https://arxiv.org/abs/1906.07188), [doi:10.1103/PhysRevResearch.2.013232](https://doi.org/10.1103/PhysRevResearch.2.013232)&rbrack;
 
-[14] M. Barkeshli, C.-M. Jian, and X.-L. Qi, Classification of topological defects in Abelian topological states, Phys. Rev. B 88,
-241103(R) (2013).
+see also:
 
-[15] R. S. K. Mong, D. J. Clarke, J. Alicea, N. H. Lindner, P.
-Fendley, C. Nayak, Y. Oreg, A. Stern, E. Berg, K. Shtengel, and
-M. P. A. Fisher, Universal Topological Quantum Computation
-from a Superconductor-Abelian Quantum Hall Heterostructure,
-Phys. Rev. X 4., 011036 (2014).
+* Zhong Wan et al.: *Induced superconductivity in high-mobility two-dimensional electron gas in gallium arsenide heterostructures*, Nature Communications **6** (2015) 7426 &lbrack;[doi:10.1038/ncomms8426](https://doi.org/10.1038/ncomms8426)&rbrack;
 
-[16] M. N. Khan, J. C. Y. 9Teo, and T. L. Hughes, Anyonic symmetries and topological defects in abelian topological phases: An application to the ADE classification, Phys. Rev. B 90, 235149
-(2014).
+    , 
 
-[17] L. H. Santos and T. L. Hughes, Parafermionic Wires at the
-Interface of Chiral Topological States, Phys. Rev. Lett. 118,
-136801 (2017).
 
-[18] V. Ostrik, Module categories over the Drinfeld double of a finite
-group, Int. Math. Res. Not. 2003, 1507 (2003).
 
-Parafermions in hierarchical fractional quantum Hall states
+
+
 
 
 ...
