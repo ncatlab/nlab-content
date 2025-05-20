@@ -403,6 +403,9 @@ Gauged skyrmions with more realistic binding energies (via [[equivariant de Rham
 
 * [[Josh Cork]], [[Derek Harland]], *Geometry of Gauged Skyrmions*, SIGMA **19** o71 (2023) &lbrack;[doi:10.3842/SIGMA.2023.071](https://doi.org/10.3842/SIGMA.2023.071), [arXiv:2303.02623](https://arxiv.org/abs/2303.02623)&rbrack;
 
+* [[Nicholas S. Manton]]: *Approach to nuclear cross sections via classical Skyrmion scattering: A proposal* &lbrack;[arXiv:2505.12362](https://arxiv.org/abs/2505.12362)&rbrack;
+
+
 
 In strong [[magnetic fields]]:
 
