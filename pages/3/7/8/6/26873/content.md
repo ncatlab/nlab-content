@@ -1,5 +1,5 @@
 
-On [[T-duality]] in the [[K-theory classification of topological phases of matter]], related to the [[Fourier transform]] between [[crystals]] and their [[Brillouin torus]]:
+On [[T-duality]] in the [[K-theory classification of topological phases of matter]] (related to the [[Fourier transform]] between [[crystals]] and their [[Brillouin torus]]) as expressing the [[bulk-boundary correspondence]]:
 
 * [[Varghese Mathai]], [[Guo Chuan Thiang]], *T-Duality of Topological Insulators*, J. Phys. A: Math. Theor. **48** (2015) 42FT02 \[<a href="https://doi.org/10.1088/1751-8113/48/42/42FT02">doi:10.1088/1751-8113/48/42/42FT02</a>, [arXiv:1503.01206](https://arxiv.org/abs/1503.01206)\]
 
