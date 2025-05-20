@@ -2104,10 +2104,11 @@ $\phantom{-----------}$Tuesday, May 20
 
 * {#RegnaultMay2025} [[Nicolas Regnault]]:
 
-  ...
+  **Moir&eacute; and more**
+
+  cf.: [arXiv:2502.17320](https://arxiv.org/abs/2502.17320)
 
 \linebreak
-
 
 
 * {#SchreiberMay2025} [[Urs Schreiber]]:
