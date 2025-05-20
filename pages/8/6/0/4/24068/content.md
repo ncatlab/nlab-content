@@ -103,28 +103,29 @@ and boundaries* [RTN](http://training.hepi.tsu.ge/rtn/activities/theses.shtml) (
 
 As models for [[su(2)-anyon]] [[wavefunctions]]:
 
-* {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 $[$[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)$]$
+* {#ReadRezayi99} [[Nicholas Read]], [[Edward Rezayi]], *Beyond paired quantum Hall states: Parafermions and incompressible states in the first excited Landau level*, Phys. Rev. B **59** (1999) 8084 &lbrack;[doi:10.1103/PhysRevB.59.8084](https://doi.org/10.1103/PhysRevB.59.8084)&rbrack;
 
-* David J. Clarke, [[Jason Alicea]], Kirill Shtengel . *Exotic non-Abelian anyons from conventional fractional quantum Hall states*, Nature Communications **4** 1348 (2013) $[$[doi: 10.1038/ncomms2340 (2013)](https://www.nature.com/articles/ncomms2340)$]$
+* David J. Clarke, [[Jason Alicea]], Kirill Shtengel: *Exotic non-Abelian anyons from conventional fractional quantum Hall states*, Nature Communications **4** 1348 (2013) &lbrack;[doi: 10.1038/ncomms2340](https://www.nature.com/articles/ncomms2340), [arXiv:1204.5479](https://arxiv.org/abs/1204.5479)&rbrack;
+ 
 
 An [[integrable model]] for $\mathbb{Z}_N$-parafermions:
 
-* {#Tsvelik14a} [[Alexei M. Tsvelik]], *An integrable model with parafermion zero energy modes*, Phys Rev. Lett. **113** 066401 (2014) $[$[arXiv:1404.2840](https://arxiv.org/abs/1404.2840), [doi:10.1103/PhysRevLett.113.066401](https://doi.org/10.1103/PhysRevLett.113.066401)$]$
+* {#Tsvelik14a} [[Alexei M. Tsvelik]], *An integrable model with parafermion zero energy modes*, Phys Rev. Lett. **113** 066401 (2014) &lbrack;[arXiv:1404.2840](https://arxiv.org/abs/1404.2840), [doi:10.1103/PhysRevLett.113.066401](https://doi.org/10.1103/PhysRevLett.113.066401)&rbrack;
 
 * {#Tsvelik14b} [[Alexei M. Tsvelik]], *$\mathbf{Z}_N$ parafermion zero modes without Fractional Quantum Hall effect* $[$[arXiv:1407.4002](https://arxiv.org/abs/1407.4002)$]$
 
-* {#Borcherding18} Daniel Borcherding, *Non-Abelian quasi-particles in electronic systems*, Hannover 2018 $[$[doi:10.15488/4280](https://doi.org/10.15488/4280)$]$
+* {#Borcherding18} Daniel Borcherding, *Non-Abelian quasi-particles in electronic systems*, Hannover 2018 &lbrack;[doi:10.15488/4280](https://doi.org/10.15488/4280)&rbrack;
 
 
 Relation to [[topological phases of matter]] with [[topological order]]:
 
-* [[Jason Alicea]], [[Paul Fendley]], *Topological phases with parafermions: theory and blueprints*, Annual Review of Condensed Matter Physics **7** (2016) 119-139 $[$[doi:10.1146/annurev-conmatphys-031115-011336](https://doi.org/10.1146/annurev-conmatphys-031115-011336)$]$
+* [[Jason Alicea]], [[Paul Fendley]], *Topological phases with parafermions: theory and blueprints*, Annual Review of Condensed Matter Physics **7** (2016) 119-139 &lbrack;[doi:10.1146/annurev-conmatphys-031115-011336](https://doi.org/10.1146/annurev-conmatphys-031115-011336)&rbrack;
 
-* Fernando Iemini, Christophe Mora, Leonardo Mazza, *Topological phases of parafermions: a model with exactly-solvable ground states*, Phys. Rev. Lett. **118** 170402 (2017) $[$[arXiv;1611.00832](https://arxiv.org/abs/1611.00832), [doi:10.1103/PhysRevLett.118.170402](https://doi.org/10.1103/PhysRevLett.118.170402)$]$
+* Fernando Iemini, Christophe Mora, Leonardo Mazza, *Topological phases of parafermions: a model with exactly-solvable ground states*, Phys. Rev. Lett. **118** 170402 (2017) &lbrack;[arXiv;1611.00832](https://arxiv.org/abs/1611.00832), [doi:10.1103/PhysRevLett.118.170402](https://doi.org/10.1103/PhysRevLett.118.170402)&rbrack;
 
 On twisted parafermions:
 
-* Xiang-Mao Ding, Mark Gould, and Yao-Zhong Zhang. *Twisted Parafermions*. (2001). [arXiv:hep-th/0110165](https://arxiv.org/abs/hep-th/0110165)
+* Xiang-Mao Ding, Mark Gould, and Yao-Zhong Zhang. *Twisted Parafermions* (2001) &lbrack;[arXiv:hep-th/0110165](https://arxiv.org/abs/hep-th/0110165)&rbrack;
 
 
 [[!redirects parafermions]]
