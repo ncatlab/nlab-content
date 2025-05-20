@@ -73,6 +73,10 @@ On [[Skyrmions]] in relation to [[chiral perturbation theory|chiral]] [[effectiv
 
 * [[Nicholas S. Manton]], *Robustness of the Hedgehog Skyrmion* &lbrack;[arXiv:2405.05731](https://arxiv.org/abs/2405.05731)&rbrack;
 
+On [[nucleus|nuclear]] [[scattering amplitudes]] via [[classical field theory|classical]] [[Skyrmions]]:
+
+* [[Nicholas S. Manton]]: *Approach to nuclear cross sections via classical Skyrmion scattering: A proposal* &lbrack;[arXiv:2505.12362](https://arxiv.org/abs/2505.12362)&rbrack;
+
 
 
 
