@@ -427,6 +427,8 @@ More generally, every [[quasitopos]] is locally cartesian closed.
 
 * [[distributivity pullback]]
 
+* [[Conduché functor]]
+
 ## References
 
 A standard textbook account is around corollary A1.5.3 in 
