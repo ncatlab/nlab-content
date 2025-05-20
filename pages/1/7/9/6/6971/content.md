@@ -50,12 +50,22 @@ $$ (x:A),(y:A),(p:Id_A(x,y)) \;\vdash\; Id_{Id_A(x,y)}(p,refl(x)). $$
 
 This is well-typed because the reflection rule applied to $p$ yields a judgmental equality $x\equiv y$, so that we have $refl(x):Id_A(x,y)$.  Moreover, [[substitution|substituting]] $x$ for $y$ and $refl(x)$ for $p$ yields the type $Id_{Id_A(x,x)}(refl(x),refl(x))$, which is inhabited by $refl(refl(x))$.
 
-Thus, by induction on identity, we have a term in the above type, witnessing a [[typal equality]] between $p$ and $refl(x)$.  Finally, applying the equality reflection rule again, we get a judgmental equality $p\equiv refl(x)$.
+Thus, by induction on identity, we have a term in the above type, witnessing a [[typal equality]] between $p$ and $refl(x)$.  Finally, applying the equality reflection rule again, we get a definitional equality $p\equiv refl(x)$.
 
 +-- {: .num_remark}
 ###### Remark
 On the other hand, if in addition to the equality reflection rule we postulate that all equality proofs are definitionally equal to reflexivity, then we can derive the induction rule for identity types.  Extensional type theory is often presented in this form.
 =--
+
+If the [[dependent type theory]] has an [[interval type]] $\mathbb{I}$ with judgmental computation rules for the point constructors, it suffices for the two point constructors $0:\mathbb{I}$ and $1:\mathbb{I}$ to be definitionally equal:
+
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0 \equiv 1:\mathbb{I}}$$ 
+
+\begin{proof}
+By the recursion principle of the interval type, for elements $x:A$, $y:A$, and $p:\mathrm{Id}_A(x, y)$, we have a function $\mathrm{rec}_\mathbb{I}^A(x, y, p):\mathbb{I} \to A$ such that $\mathrm{rec}_\mathbb{I}^A(x, y, p, 0) \equiv x$ and $\mathrm{rec}_\mathbb{I}^A(x, y, p, 1) \equiv y$. If we have $0 \equiv 1:\mathbb{I}$, then by the [[congruence rules]] of [[definitional equality]] we have 
+$$x \equiv \mathrm{rec}_\mathbb{I}^A(x, y, p, 0) \equiv \mathrm{rec}_\mathbb{I}^A(x, y, p, 1) \equiv y$$
+which is precisely equality reflection. 
+\end{proof}
 
 A different, also equivalent, way of presenting extensional type theory is with a definitional [[eta-conversion]] rule for the identity types; see _[here](identity+type#EtaConversion)_.
 
