@@ -27,7 +27,9 @@
 For $A$ and $B$ two [[commutative monoids]],
 their _tensor product_ $A \otimes B$ is a new commutative monoid
 such that a [[monoid homomorphism]] $A \otimes B \to C$
-is equivalently a [[bilinear map]] out of $A$ and $B$.
+is equivalently a [[bilinear map]] out of $A$ and $B$. 
+
+Another way to think of it is that commutative monoid maps $A \otimes B \to C$ are in natural bijection with commutative monoid maps $A \to [B, C]$, where $[B, C]$ is the set of commutative monoid maps $B \to C$ provided with the pointwise-defined commutative monoid structure. 
 
 ## Definition
  {#Definition}
@@ -80,7 +82,7 @@ On elements this sends $(a,b)$ to the equivalence class that it represents under
 
 =--
 
-The following relates the tensor product to [[bilinear functions]]. It is a definition or a proposition dependening on whether one takes the notion of bilinear function to be defined before or after that of tensor product of commutative monoids.
+The following relates the tensor product to [[bilinear functions]]. It is a definition or a proposition depending on whether one takes the notion of bilinear function to be defined before or after that of tensor product of commutative monoids.
 
 +-- {: .num_defn}
 ###### Definition/Proposition
@@ -101,7 +103,7 @@ $$
 
 ## Properties
 
-### Symmetric monoidal category structure
+### Symmetric monoidal closed category structure
 
 
 +-- {: .num_prop}
@@ -143,6 +145,41 @@ This shows that $A \otimes \mathbb{N} \to A$ is in fact an [[isomorphism]].
 Showing that $\sigma_{A, B}$ is natural in $A, B$ is trivial, so $\sigma$ is a braiding. $\sigma^2$ is identity, so it gives CMon a symmetric monoidal structure.
 
 =--
+
+Notice the symmetry or braiding provides a natural isomorphism $A \otimes - \cong - \otimes A$. 
+
+The symmetric monoidal structure is naturally seen as adjoint to a [[monoidal closed category|closed]] structure, where the [[internal hom]] $[B, C]$ of commutative monoids, whose underlying set consists of commutative monoid maps $f: B \to C$, is defined in pointwise fashion: 
+
+$$(f + g)(b) \coloneqq f(b) + g(b), \qquad 0_{[B, C]}(b) \coloneqq 0_C.$$ 
+
+That $f+g$ so defined is a homomorphism uses commutativity in the monoid $C$: 
+
+$$(f + g)(b + b') \coloneqq f(b + b') + g(b + b') = f(b) + f(b') + g(b) + g(b') = f(b) + g(b) + f(b') + g(b') = (f + g)(b) + (f + g)(b').$$ 
+
++-- {: .num_prop}
+###### Proposition
+
+For every B, there is an [[adjunction]] $- \otimes B \dashv [B, -]$, 
+
+$$CMon(A \otimes B, C) \cong CMon(A, [B, C]),$$ 
+
+i.e., maps $A \to [B, C]$ are in natural bijection with maps $A \otimes B \to C$. 
+
+=-- 
+
++-- {: .proof}
+###### Proof
+
+Given $f: A \to [B, C]$, define $f^\vee: A \otimes B \to C$ by $f^\vee(a \otimes b) = f(a)(b)$. The linearity of $f^\vee$ in the second argument $b$ follows from the fact that $f(a): B \to C$ is a linear map. The linearity in the first argument follows from the fact that $f$ is itself linear, and the pointwise-defined structure of $[B, C]$: 
+
+$$f^\vee((a + a') \otimes b) = f(a + a')(b) = (f(a) + f(a'))(b) \coloneqq f(a)(b) + f(a')(b) = f^\vee(a \otimes b) + f^\vee(a' \otimes b).$$ 
+
+In the other direction, given $g: A \otimes B \to C$, define $g^\wedge: A \to [B, C]$ by $g^\wedge(a)(b) = g(a \otimes b)$. The linearity of $g^\wedge$ follows from an argument similar to the one in the paragraph above. The fact that the assignments $f \mapsto f^\vee$ and $g \mapsto g^\wedge$ are mutually inverse is obvious. 
+
+=-- 
+
+Since $- \otimes A$ and its isomorph $A \otimes -$ are thus [[left adjoint]] functors, and since left adjoints preserve coproducts, we also have the following result. 
+
 
 +-- {: .num_prop}
 ###### Proposition
