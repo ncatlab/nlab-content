@@ -40,7 +40,7 @@ Noncommutative topology of [[Penrose tilings]]:
 
 Discussion of the [[noncommutative topology]]/[[KK-theory]] of the [[Brillouin zone]] of [[quasi-crystals]] in the spirit of the [[K-theory classification of topological phases of matter]]:
 
-* {#Bellissard03} Jean Bellissard, *The Noncommutative Geometry of Aperiodic Solids*, in: Geometric and Topological Methods for Quantum Field Theory, pp. 86-156 (2003) ([pdf](http://people.math.gatech.edu/~jeanbel/Publi/ncg02.pdf), [doi:10.1142/9789812705068_0002](https://doi.org/10.1142/9789812705068_0002))
+* {#Bellissard03} [[Jean Bellissard]]: *The Noncommutative Geometry of Aperiodic Solids*, in: Geometric and Topological Methods for Quantum Field Theory, pp. 86-156 (2003) ([pdf](http://people.math.gatech.edu/~jeanbel/Publi/ncg02.pdf), [doi:10.1142/9789812705068_0002](https://doi.org/10.1142/9789812705068_0002))
 
 * {#Ypma05} Fonger Ypma, *Quasicrystals, $C^\ast$-algebras and K-theory*, 2005 ([pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.214.4414&rep=rep1&type=pdf))
 
