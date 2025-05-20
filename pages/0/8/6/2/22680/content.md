@@ -153,3 +153,6 @@ The multiplicative monoid of the natural numbers $\mathbb{N}^\times$ is the [[fr
 [[!redirects absorbing elements]]
 [[!redirects annihilating element]]
 [[!redirects annihilating elements]]
+
+[[!redirects absorption law]]
+[[!redirects absorption laws]]
