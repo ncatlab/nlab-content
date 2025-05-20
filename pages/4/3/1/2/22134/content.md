@@ -57,7 +57,7 @@ Review:
 
 * [[Gavin K. Brennen]], [[Jiannis K. Pachos]], *Why should anyone care about computing with anyons?*, Proc. R. Soc. A **464** (2008) 1-24 \[<a href="https://doi.org/10.1098/rspa.2007.0026">doi:10.1098/rspa.2007.0026</a>, [arXiv:0704.2241](https://arxiv.org/abs/0704.2241)\]
 
-* [[Ady Stern]], Netanel H. Lindner, *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science **339** 6124 (2013) 1179-1184 \[<a href="https://doi.org/10.1126/science.1231473">doi:10.1126/science.1231473</a>, [spire:2748124](https://inspirehep.net/literature/2748124)\]
+* [[Ady Stern]], [[Netanel H. Lindner]]: *Topological Quantum Computation -- From Basic Concepts to First Experiments*, Science **339** 6124 (2013) 1179-1184 \[<a href="https://doi.org/10.1126/science.1231473">doi:10.1126/science.1231473</a>, [spire:2748124](https://inspirehep.net/literature/2748124)\]
 
 * [[Eric C. Rowell]], *An Invitation to the Mathematics of Topological Quantum Computation*, J. Phys.: Conf. Ser. **698** (2016) 012012 \[<a href="https://iopscience.iop.org/article/10.1088/1742-6596/698/1/012012">doi:10.1088/1742-6596/698/1/012012</a>, [arXiv:1601.05288](https://arxiv.org/abs/1601.05288)\]
 
