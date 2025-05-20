@@ -502,6 +502,8 @@ In this sense, these two collective excitations of the Moore-Read state are pred
 
 ### For FQH 2D electron systems
 
+#### The Laughlin states
+
 The Laughlin wavefunction as a model for [[ground states]] of [[unit fraction|unit]]-[[fractional quantum Hall systems]] at odd denominator is due to:
 
 * {#Laughlin83} [[Robert B. Laughlin]]: *Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations*, Phys. Rev. Lett. **50** (1983) 1395 &lbrack;[doi:10.1103/PhysRevLett.50.1395](https://doi.org/10.1103/PhysRevLett.50.1395)&rbrack;
@@ -542,7 +544,14 @@ A "hierarchy" of Laughlin-like states:
 
 * {#Lan19} [[Tian Lan]], *Matrix formulation for non-Abelian families*, Phys. Rev. B **100** 241102 (2019) \[<a href="https://doi.org/10.1103/PhysRevB.100.241102">doi:10.1103/PhysRevB.100.241102</a>, [arXiv:1908.02599](https://arxiv.org/abs/1908.02599)\]
 
-The pfaffian modification for even-fractional filling factor is due to
+Critique:
+
+* {#Mikhailov24} S. A. Mikhailov: *Toward a new theory of the fractional quantum Hall effect*, Nanomaterials **14** 2 (2024) 297 &lbrack;[arXiv:2206.05152](https://arxiv.org/abs/2206.05152), [doi:10.3390/nano14030297](https://doi.org/10.3390/nano14030297)&rbrack;
+
+
+#### Moore-Read Pfaffian states
+
+The Pfaffian modification of the Laughlin states for even-fractional filling factor are the *Moore-Read states* due to
 
 * {#MooreRead91} [[Gregory Moore]], [[Nicholas Read]]: *Nonabelions in the fractional quantum hall effect*, Nuclear Physics B **360** 2–3 (1991) 362-396 \[<a href="https://doi.org/10.1016/0550-3213(91)90407-O">doi:10.1016/0550-3213(91)90407-O</a>, [pdf](https://www.physics.rutgers.edu/~gmoore/MooreReadNonabelions.pdf)\]
 
@@ -554,12 +563,12 @@ and the GWW *neutral fermion* excitation of the Moore-Read state:
 
 * {#GreiterWenWilczek91} [[Martin Greiter]], [[Xiao-Gang Wen]], [[Frank Wilczek]]: *Paired Hall state at half filling*, Phys. Rev. Lett. **66** (1991) 3205 &lbrack;[doi:10.1103/PhysRevLett.66.3205](https://doi.org/10.1103/PhysRevLett.66.3205)&rbrack;
 
+Explicit computation of [[quantum adiabatic theorem|adiabatic]] [[braiding]] of pinned [[anyons]] in the Moore-Read state:
 
-Critique:
-
-* {#Mikhailov24} S. A. Mikhailov: *Toward a new theory of the fractional quantum Hall effect*, Nanomaterials **14** 2 (2024) 297 &lbrack;[arXiv:2206.05152](https://arxiv.org/abs/2206.05152), [doi:10.3390/nano14030297](https://doi.org/10.3390/nano14030297)&rbrack;
+* {#ProdanHaldan09} [[Emil Prodan]], [[F. Duncan Haldane]]: *Mapping the braiding properties of the Moore-Read state*, Phys. Rev. B **80** (2009) 115121 &lbrack;[doi:10.1103/PhysRevB.80.115121](https://doi.org/10.1103/PhysRevB.80.115121)&rbrack;
 
 
+#### Gaffnian states
 
 Further fractonalization of quasi-hole states into *Gaffnian states*:
 
