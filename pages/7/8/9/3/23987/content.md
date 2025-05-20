@@ -2094,7 +2094,10 @@ $\phantom{-----------}$Tuesday, May 20
 
 * {#ProdanMay2025} [Emil Prodan](https://scholar.google.com/citations?hl=en&user=Fax-mQYAAAAJ&view_op=list_works):
 
-  ...
+  **Engineering Topological Dynamics with Operator Algebraic Methods**
+
+  cf.: [arXiv:2406.04226](https://arxiv.org/abs/2406.04226)
+
 
 \linebreak
 
