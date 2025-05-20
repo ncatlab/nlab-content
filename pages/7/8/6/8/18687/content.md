@@ -1,5 +1,13 @@
 
-* [website](http://www.jonmsterling.com/)
+* [personal page](http://www.jonmsterling.com/)
+
+* [institute page](https://www.cst.cam.ac.uk/people/js2878)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=281274)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=6idp9xEAAAAJ&hl=en)
+
+
 
 ## Selected writings
 
