@@ -1993,7 +1993,7 @@ $\phantom{-----------}$Tuesday, May 20
 | 10:35-11:00 |	\[Break\] |
 | 11:00-11:45 |	[Pouyan Ghaemi](https://scholar.google.com/citations?hl=en&user=IYvQn6sAAAAJ&view_op=list_works) (CUNY) |
 | 11:45-13:00 |	\[Lunch\] |
-| 13:00-13:45 | [Emil Prodan](https://scholar.google.com/citations?hl=en&user=Fax-mQYAAAAJ&view_op=list_works) (Yeshiva University) |
+| 13:00-13:45 | [[Emil Prodan]] (Yeshiva University) |
 | 13:50-14:35 | [[Nicolas Regnault]] (Princeton University) |
 | 14:35-15:00 |	\[Break\] |
 | 15:00-15:45 |	[[Urs Schreiber]] (NYU Abu Dhabi) |
@@ -2092,7 +2092,7 @@ $\phantom{-----------}$Tuesday, May 20
 \linebreak
 
 
-* {#ProdanMay2025} [Emil Prodan](https://scholar.google.com/citations?hl=en&user=Fax-mQYAAAAJ&view_op=list_works):
+* {#ProdanMay2025} [[Emil Prodan]]:
 
   **Engineering Topological Dynamics with Operator Algebraic Methods**
 
@@ -2115,13 +2115,18 @@ $\phantom{-----------}$Tuesday, May 20
 
   **[[schreiber:Rethinking FQH Anyons -- talk|Rethinking FQH Anyons]]**
 
+  slides: [link](/schreiber/show/Rethinking+FQH+Anyons+--+talk#download)
+
 
 \linebreak
 
 
 * {#VrajitoareaMay2025} [Andrei Vrajitoarea](https://scholar.google.com/citations?hl=en&user=k7q8hL8AAAAJ&view_op=list_works):
 
-  ...
+  **Quantum-controlled Synthetic Matter:** \linebreak
+  **when analog and digitial hybridize**
+
+
 
 
 
