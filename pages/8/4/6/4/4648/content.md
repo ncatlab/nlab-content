@@ -130,7 +130,7 @@ In some cases the passage between a Lie group and its [[Langlands dual group]] c
 
 The conjecture goes back to 
 
-* {#BeilinsonDrinfeld9x} [[Alexander Beilinson]], [[Vladimir Drinfeld]], section 5.2.7 of _Quantization of the Hitchin system and Hecke eigensheaves_, ([pdf](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf))
+* {#BeilinsonDrinfeld9x} [[Alexander Beilinson]], [[Vladimir Drinfeld]], section 5.2.7 of _Quantization of the Hitchin system and Hecke eigensheaves_, ([pdf](https://math.uchicago.edu/~drinfeld/langlands/QuantizationHitchin.pdf), [other pdf link](http://www.math.uchicago.edu/~mitya/langlands/hitchin/BD-hitchin.pdf))
 
 based on
 
