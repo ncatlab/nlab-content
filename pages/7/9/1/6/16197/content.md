@@ -29,6 +29,8 @@ $$
 
 where $N$ is the number of $e$-foldings during inflation (see e.g. [Kehagias-Dizgah-Riotto 13 (2.6)](#KehagiasDizgahRiotto13)).
 
+> &lbrack;[Kallosh & Linde 2025](#KalloshLinde25)&rbrack;: The first realistic model of inflationary type was proposed by Starobinsky &lbrack;[1](#Starobinsky80)&rbrack;. However, it did not attempt to solve the homogeneity, isotropy, horizon, and flatness problems, which were the main goals of the inflationary scenario proposed by Guth [2]. In the beginning, the Starobinsky model stayed slightly outside the mainstream of inflationary cosmology, but then it was realized that its predictions derived by Mukhanov and Chibisov &lbrack;[6](#MukhanovChibisov81)&rbrack; provided a perfect match to the WMAP and [[Planck collaboration|Planck]] data.
+
 
 ## Observational support
  {#ObservationalSupport}
@@ -65,7 +67,7 @@ Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[mat
 
 * {#ShrinkingOfInitialHomogeneousPatch} shrinking the necessary initial homogeneous patch from $\sim 10^3$ [[Planck lengths]] (which would be in need of further explanation) down to just $\sim 10^1$ [[Planck lengths]] ([Dalianis-Farakos 15 equations (68), (72) in v1, equations (4.11), (4.17) in v3](#DalianisFarakos15), reviewed in [Dalianis 16](#Dalianis16));
 
-* {#CompatibilityWithsusybreaking} naturally subsuming a mechanism for [[supersymmetry breaking]] ([Ferrar-Kehagias 14](#FerrarKehagias14), [DFKRU 14](#DFKRU14)) notably with a Starobisnky potential naturally induced from [[gravitino condensation]] ([Alexandre-Houston-Mavromatos 14](#AlexandreHoustonMavromatos14)).
+* {#CompatibilityWithsusybreaking} naturally subsuming a mechanism for [[supersymmetry breaking]] ([Ferrar-Kehagias 14](#FerrarKehagias14), [DFKRU 14](#DFKRU14)) notably with a Starobinsky potential naturally induced from [[gravitino condensation]] ([Alexandre-Houston-Mavromatos 14](#AlexandreHoustonMavromatos14)).
 
 <center>
 <img src="https://ncatlab.org/nlab/files/DalianisDiagram.jpg" width="600">
@@ -89,11 +91,11 @@ Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[mat
 
 The model is due to
 
-* {#Starobisnky80} [[Aleksei Starobinsky]], *A new type of isotropic cosmological models without singularity*, Phys. Lett. B **91**  (1980) 99-102 \[<a href="https://doi.org/10.1016/0370-2693(80)90670-X">doi:10.1016/0370-2693(80)90670-X</a>\]
+* {#Starobinsky80} [[Aleksei Starobinsky]], *A new type of isotropic cosmological models without singularity*, Phys. Lett. B **91**  (1980) 99-102 \[<a href="https://doi.org/10.1016/0370-2693(80)90670-X">doi:10.1016/0370-2693(80)90670-X</a>\]
 
 and the analysis of its predictions is due to:
 
-* [[Viatcheslav Mukhanov]] and G. V. Chibisov, JETP Lett. **33** (1981) 532 and: Pisma Zh. Eksp. Teor. Fiz. **33**  (1981) 549 &lbrack;[spire:170051](https://inspirehep.net/literature/170051)&rbrack;
+* {#MukhanovChibisov81} [[Viatcheslav Mukhanov]] and G. V. Chibisov, JETP Lett. **33** (1981) 532 and: Pisma Zh. Eksp. Teor. Fiz. **33**  (1981) 549 &lbrack;[spire:170051](https://inspirehep.net/literature/170051)&rbrack;
 
 * [[Aleksei Starobinsky]], *Isotropization of arbitrary cosmological expansion given an effective cosmological constant*, JETP Lett. **37** (1983) 66-69 &lbrack;[spire:187801](https://inspirehep.net/literature/187801)&rbrack;
 
@@ -142,6 +144,9 @@ Review and exposition:
 * {#Efstathiou2019} George P. Efstathiou on behalf of the PLANCK mission, _The PLANCK legacy, inflation and the origin of structure in the universe_, talk at University of Cambridge, January 28, 2019 ([recording from 50:49](https://www.youtube.com/watch?v=16CkVzVK7Wk&feature=youtu.be&t=3049))
 
 * [[Sergei V. Ketov]]: *On Legacy of Starobinsky Inflation* &lbrack;[arXiv:2501.06451](https://arxiv.org/abs/2501.06451)&rbrack;
+
+
+* {#KalloshLinde25} [[Renata Kallosh]], [[Andrei Linde]]: *On the Present Status of Inflationary Cosmology* &lbrack;[arXiv:2505.13646](https://arxiv.org/abs/2505.13646)&rbrack;
 
 
 Discussion with more general [[higher curvature corrections]]:
