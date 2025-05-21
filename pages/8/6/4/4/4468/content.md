@@ -5,7 +5,7 @@
 
 ## Idea
 
-In [[classical mathematics]], an element of a [[poset]] is positive if and only if it not a [[bottom element]].
+In [[classical mathematics]], an element of a [[preordered set]] is positive if and only if it not a [[bottom element]].
 
 A more subtle definition is needed in [[constructive mathematics]]; analogously to how "nonempty sets" may need to be replaced by [[inhabited sets]].  In mathematics that is both constructive and [[predicative mathematics|predicative]], positivity can be axiomatised but not defined.
 
