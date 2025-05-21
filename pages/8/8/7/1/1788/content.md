@@ -7,6 +7,8 @@
 
 ***
 
+[[CQTS-CQIP-Meeting-May2025-GroupPhoto.png:file]]
+
 [[Stanescu-CQICQTS-May2025.pdf:file]]
 
 On non-abelian ([[parafermion|parafermionic]]) [[defect]] [[anyons]] associated with [[superconductor|superconducting]] islands inside [[nLab:abelian Chern-Simons theory|abelian]] [[fractional quantum Hall systems]]:
