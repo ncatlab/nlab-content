@@ -77,7 +77,7 @@ The universal cocartesian fibration can also be viewed as a full $(\infty,2)$-su
 
 +-- {: .num_prop }
 ###### Proposition
-The hom-categories of the universal cocaretsian fibration are given by the [[comma category]]
+The hom-categories of the universal cocartesian fibration are given by the [[comma category]]
 $$
   Fun_{Z'}([C_{/x} \to C], [D_{/y} \to D]) \simeq (eval_x \downarrow y)
 $$
