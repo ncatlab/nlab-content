@@ -60,7 +60,7 @@ $$\frac{\Gamma \vdash A \; type \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A 
 
 $$\frac{\Gamma \vdash A \; type \quad \Gamma \vdash a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash q:\mathrm{Id}_A(a, b)}{\Gamma \vdash \mathrm{UIP}_A(a, b, p, q):\mathrm{Id}_{\mathrm{Id}_A(a, b)}(p, q)}$$
 
-Uniqueness of identity proofs is a [[axiom of set truncation]], and turns the type theory into a [[set-level type theory]]. Judgmental uniqueness of identity proofs holds in [[XTT]], where it follows from [[boundary separation]]. 
+Uniqueness of identity proofs is a [[axiom of set truncation]], and turns the type theory into a [[set-level type theory]]. Judgmental uniqueness of identity proofs holds in [[XTT]], where it follows from [[boundary separation]], and also in the [[Lean]] [[proof assistant]].  
 
 If the dependent type theory has [[dependent product types]], [[type variables]], and [[impredicative polymorphism]], the typal uniqueness of identity proofs can be expressed as an axiom rather than an axiom schema:
 
@@ -110,6 +110,40 @@ $$\frac{
 
 ## Properties
 
+### Relation to the circle type
+
+In this section, we assume that the [[circle type]] $S^1$ is inductively defined using two elements $\mathrm{left}:S^1$ and $\mathrm{right}:S^1$ and a two parallel identifications $\mathrm{upath}:\mathrm{left} =_{S^1} \mathrm{right}$ and $\mathrm{dpath}:\mathrm{left} =_{S^1} \mathrm{right}$, and that $S^1$ has judgmental [[computation rules]]. 
+
+\begin{theorem}
+Suppose that the [[circle type]] has an identification $\mathrm{UIP}:\mathrm{upath} = \mathrm{dpath}$. Then the uniqueness of identity proof holds. 
+\end{theorem}
+
+\begin{proof}
+For all types $A$, terms $x:A$ and $y:A$, and identifications $p:x =_A y$ and $q:x =_A y$, by the recursion principle of the strict circle type defined this way, we have the function $\mathrm{rec}_{S^1}(x, y, p, q):S^1 \to A$ such that 
+
+$$\mathrm{rec}_{S^1}(x, y, p, q)(\mathrm{left}) \equiv x \qquad \mathrm{rec}_{S^1}(x, y, p, q)(\mathrm{right}) \equiv y$$ 
+$$\mathrm{ap}_{\mathrm{rec}_{S^1}^A(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{upath}) \equiv p \qquad \mathrm{ap}_{\mathrm{rec}_{S^1}^A(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{dpath}) \equiv q$$ 
+By applying $\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right})$ to $\mathrm{UIP}$, we have the identification 
+$$\mathrm{ap}_{\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right})}(\mathrm{upath}, \mathrm{dpath}, \mathrm{UIP}):\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{upath}) = \mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{left}, \mathrm{right}, \mathrm{dpath})$$
+which reduces down to 
+$$\mathrm{ap}_{\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right})}(\mathrm{upath}, \mathrm{dpath}, \mathrm{UIP}):p = q$$
+which is precisely the [[uniqueness of identity proofs]] for type $A$. 
+\end{proof}
+
+\begin{theorem}
+Suppose that the two parallal identifications of the strict circle type are [[judgmentally equal]] to each other of the base of the circle $\mathrm{upath} \equiv \mathrm{dpath}:\mathrm{left} =_{S^1} \mathrm{right}$. Then the [[judgmental uniqueness of identity proofs]] holds.
+\end{theorem}
+
+\begin{proof}
+For all types $A$, terms $x:A$ and $y:A$, and identifications $p:x =_A y$ and $q:x =_A y$, by the recursion principle of the strict circle type defined this way, we have the function $\mathrm{rec}_{S^1}(x, y, p, q):S^1 \to A$ such that 
+
+$$\mathrm{rec}_{S^1}(x, y, p, q)(\mathrm{left}) \equiv x \qquad \mathrm{rec}_{S^1}(x, y, p, q)(\mathrm{right}) \equiv y$$ 
+$$\mathrm{ap}_{\mathrm{rec}_{S^1}^A(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{upath}) \equiv p \qquad \mathrm{ap}_{\mathrm{rec}_{S^1}^A(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{dpath}) \equiv q$$ 
+By the [[congruence rules]] of [[judgmental equality]] applied to the [[function]] $\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right})$ to $\mathrm{UIP}$, we have the judgmental equality 
+$$p \equiv \mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{upath}) \equiv \mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{left}, \mathrm{right}, \mathrm{dpath}) \equiv q$$
+which is precisely the [[judgmental uniqueness of identity proofs]] for type $A$. 
+\end{proof}
+
 ### Uniqueness of identity proofs and univalence
 
 In this section we assume that the universe is a Tarski universe. Uniqueness of identity proofs is inconsistent with having a [[univalent type with a type family]] $(A, B)$ with at least one term $a:A$ where the dependent type $B(a)$ is provably not a proposition
@@ -128,6 +162,8 @@ However, unlike the case for uniqueness of identity proofs, the familial uniquen
 * [[axiom K]]
 
 * [[boundary separation]]
+
+* [[circle type]]
 
 * [[axiom of circle type localization]]
 
@@ -149,9 +185,18 @@ For definitional UIP in [[XTT]]
 [[!redirects UIP]]
 
 [[!redirects judgmental uniqueness of identity proofs]]
+[[!redirects definitional uniqueness of identity proofs]]
 [[!redirects propositional uniqueness of identity proofs]]
 [[!redirects typal uniqueness of identity proofs]]
 
 [[!redirects judgmental UIP]]
+[[!redirects definitional UIP]]
 [[!redirects propositional UIP]]
 [[!redirects typal UIP]]
+
+[[!redirects proof irrelevance]]
+
+[[!redirects judgmental proof irrelevance]]
+[[!redirects definitional proof irrelevance]]
+[[!redirects propositional proof irrelevance]]
+[[!redirects typal proof irrelevance]]
