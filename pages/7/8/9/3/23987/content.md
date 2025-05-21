@@ -1945,7 +1945,7 @@ Talks:
 
   $\;$
 
-  *Program:*
+**Program:**
 
 \begin{imagefromfile}
     "file_name": "WashingtonSquareNorth.png",
@@ -1960,7 +1960,6 @@ Talks:
     }
 \end{imagefromfile}
 
-\linebreak
 
 $\phantom{-----------}$Monday, May 19:
 
@@ -2000,10 +1999,17 @@ $\phantom{-----------}$Tuesday, May 20
 | 15:50-16:35 |	[Andrei Vrajitoarea](https://scholar.google.com/citations?hl=en&user=k7q8hL8AAAAJ&view_op=list_works) (NYU New York) |
 | 17:00       | \[Closing\] |
 
+\linebreak
+
+**Group photo:**
+
+<center>
+<img src="/nlab/files/CQTS-CQIP-Meeting-May2025-GroupPhoto.png" width="450"/>
+</center>
 
 \linebreak
 
-**Titles:**
+**Titles and materials:**
 
 * {#ShabaniMay2025} [[Javad Shabani]]: 
 
