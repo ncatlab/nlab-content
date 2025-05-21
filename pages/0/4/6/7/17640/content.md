@@ -16,9 +16,15 @@
 
 ## Definition
 
-A [[ring]] is (left) **coherent** if every [[finitely generated object|finitely generated]] (left) [[ideal]] of this ring is [[finitely presented object|finitely presented]].   Equivalently, a ring is coherent if and only if it is a (left) [[coherent module]] over itself.
+A [[ring]] is left **coherent** if the category of [[finitely presented object|finitely presented]] left modules is [[abelian category|abelian]].
 
-Every (left) [[noetherian ring]] is a coherent  ring.  
+For this it is sufficient that [[finitely generated object|finitely generated]] left [[ideal]] of this ring is [[finitely presented object|finitely presented]] (this is often cited as a definition).  Equivalently, a ring is left coherent if and only if it is a left [[coherent module]] over itself.
+
+## Properties
+
+Every (left) [[noetherian ring]] is a coherent  ring. 
+
+A ring is left coherent iff every finitely presented left module has a resolution by finitely presented projective left modules. 
 
 [Lombardi & Quitté 2015](#LombardiQuitte15) argue that coherent rings are more suited to [[constructive mathematics]] than noetherian rings.  This is probably connected to the importance of [[coherent sheaves]].
 
