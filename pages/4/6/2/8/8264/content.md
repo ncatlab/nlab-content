@@ -101,6 +101,9 @@ See _[[ekpyrotic cosmology]]_.
 
 * Debika Chowdhury, Jerome Martin, Christophe Ringeval, Vincent Vennin, _Inflation after Planck: Judgment Day_ ([arXiv:1902.03951](https://arxiv.org/abs/1902.03951))
 
+* [[Renata Kallosh]], [[Andrei Linde]]: *On the Present Status of Inflationary Cosmology* &lbrack;[arXiv:2505.13646](https://arxiv.org/abs/2505.13646)&rbrack;
+
+
 
 
 With emphasis on the [[Schwinger effect]]:
