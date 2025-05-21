@@ -1,8 +1,8 @@
 
 
-**Ivan Mirković** is a professor of mathematics at the University of Massachusets at Amherst (diploma from Zagreb and Ph. D. under D. Mili&#269;i&#263; in Utah) with interests in [[geometric representation theory]].
+**Ivan Mirković** is a professor of mathematics at the University of Massachusets at Amherst (diploma from Zagreb and Ph. D. under D. Mili&#269;i&#263; in Utah) with interests in [[geometric representation theory]]. His work is also used toward the proof of the [[geometric Langlands conjecture]].
 
-* [personal page](https://people.math.umass.edu/~mirkovic/)
+* [personal page](https://people.math.umass.edu/~mirkovic)
 
 * [institute page](https://www.umass.edu/mathematics-statistics/directory/emeritus-faculty/ivan-mirkovic)
 
@@ -19,6 +19,9 @@ On [[superalgebra]] and [[supergeometry]] ([[supermanifolds]], [[integration ove
 
 
 See also:
+
+* [[Michael Finkelberg]], Vasily Krylov, Ivan Mirković, _Drinfeld--Gaitsgory--Vinberg interpolation Grassmannian and geometric Satake equivalence_, with an app. by [[Dennis Gaitsgory]] J. Topology __13__:2 (2020) 683--729
+[doi](https://doi.org/10.1112/topo.12143) [arXiv:1895.07721](https://arxiv.org/abs/1805.07721)
 
 * R. Bezrukavnikov, I. Mirkovi&#263;, _Representations of semisimple Lie algebras in prime characteristic and noncommutative Springer resolution_, [arXiv:1001.2562](http://arxiv.org/abs/1001.2562)
 
