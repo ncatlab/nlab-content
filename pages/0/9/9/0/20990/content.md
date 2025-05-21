@@ -13,4 +13,7 @@ On a mathematical definition of [[Coulomb branches]] of [[D=3 N=4 super Yang-Mil
 
   (relation to [[Hilbert schemes]])
 
+* [[Michael Finkelberg]], Vasily Krylov, Ivan Mirković, _Drinfeld--Gaitsgory--Vinberg interpolation Grassmannian and geometric Satake equivalence_, with an app. by [[Dennis Gaitsgory]] J. Topology __13__:2 (2020) 683--729
+[doi](https://doi.org/10.1112/topo.12143) [arXiv:1895.07721](https://arxiv.org/abs/1805.07721)
+
 category: people
