@@ -26,6 +26,10 @@ On [[moduli stabilization]] in [[M-theory on 8-manifolds]] for the [[product man
 
 * [[Paul Aspinwall]], [[Renata Kallosh]], _Fixing All Moduli for M-Theory on $K3 \times K3$_, JHEP 0510:001, 2005 ([arXiv:hep-th/0506014](https://arxiv.org/abs/hep-th/0506014))
 
+On [[cosmic inflation]]:
+
+* [[Renata Kallosh]], [[Andrei Linde]]: *On the Present Status of Inflationary Cosmology* &lbrack;[arXiv:2505.13646](https://arxiv.org/abs/2505.13646)&rbrack;
+
 
 ## Related entries
 
