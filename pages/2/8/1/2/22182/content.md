@@ -16,14 +16,14 @@ The _circle type_ is an [[axiom|axiomatization]] of the [[homotopy type]] of the
 
 ## Definition
 
-There are two ways to define the circle type: one can define it in terms of explicit [[inference rules]], or one can use the notion of [[higher inductive type]].  We will discuss both formulations.
+There are many ways of defining the [[circle type]] as a [[higher inductive type]]
 
-* [with inference rules](#ExplicitDefinition).
+* As the [generic self-identification](#GenericSelfIdentification): the homotopy-initial type $S^1$ with element $\mathrm{base}:S^1$ and a self-identification $\mathrm{loop}:\mathrm{Id}_{S^1}(\mathrm{base}, \mathrm{base})$
 
-* [in terms of higher inductive types](#InTermsOfHigherInductiveTypes)
+* As the [generic parallel pair of identifications](#GenericPairOfIdentifications): the homotopy-initial type $S^1$ with points $\mathrm{left}:S^1$ and $\mathrm{right}:S^1$ and self-identifications $\mathrm{upath}:\mathrm{Id}_{S^1}(\mathrm{left}, \mathrm{right})$ and $\mathrm{dpath}:\mathrm{Id}_{S^1}(\mathrm{left}, \mathrm{right})$
 
-### With inference rules
-{#ExplicitDefinition}
+### As the generic self-identification
+  {#GenericSelfIdentification}
 
 Let $a =_A b$ denote the [[identification type]] between elements $a:A$ and $b:A$ of type $A$, and let $y =_{x:A.B(x)}^{(a, b, p)} z$ denote the [[heterogeneous identification type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:a =_A b$. Let $\mathrm{apd}_f(a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:a =_A b$
 
@@ -167,27 +167,50 @@ $$\beta_{S^1}^{\mathrm{loop},A}(p):\mathrm{tr}_{S^1}^C(\mathrm{base}, \mathrm{ba
 
 ...
 
-### In terms of higher inductive types
-{#InTermsOfHigherInductiveTypes}
+### As the generic parallel pair of identifications
+  {#GenericPairOfIdentifications}
 
-As a [[higher inductive type]], the circle is given by
+Let $a =_A b$ denote the [[identification type]] between elements $a:A$ and $b:A$ of type $A$, and let $y =_{x:A.B(x)}^{(a, b, p)} z$ denote the [[heterogeneous identification type]] between elements $y:B(a)$ and $z:B(b)$ of type family $x:A \vdash B(x)$, given elements $a:A$ and $b:A$ and [[identification]] $p:a =_A b$. Let $\mathrm{apd}_f(a, b, p)$ denote the [[dependent function application]] of the [[dependent function]] $f:\prod_{x:A} B(x)$ to the [[identification]] $p:a =_A b$
 
-    Inductive Circle : Type
-      | base : Circle
-      | loop : Id Circle base base
+In the [[natural deduction]] formulation of [[dependent type theory]], the circle type is given by the following [[inference rules]]:
 
-This says that the type is inductively constructed from 
+First the rule that defines the circle type itself in some context $\Gamma$.
 
-1. a [[term]] of circle type whose [[semantics|interpretation]] is as the [[base point]] of the circle, 
+**[[type formation]]**
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash S^1 \; \mathrm{type}}$$
 
-1. a term of the [[identification type]] between these two terms, whose interpretation is as the 1-cell of the circle
+Now the basic “introduction” rule, which says that the circle type consists of two endpoints $\mathrm{left}:S^1$ and $\mathrm{right}:S^1$ and a pair of parallel identifications $\mathrm{upath}:\mathrm{left} =_{S^1} \mathrm{right}$ and $\mathrm{dpath}:\mathrm{left} =_{S^1} \mathrm{right}$.
 
-   $$
-     base \stackrel{loop}{\to} base
-     \,
-   $$
+**[[term introduction]]**:
+$$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{left}:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{right}:S^1} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{upath}:\mathrm{left} =_{S^1} \mathrm{right}} \qquad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{dpath}:\mathrm{left} =_{S^1} \mathrm{right}}$$
 
-   Hence as a non-constant path from the base point to itself.
+#### Induction principle
+
+There are different induction principles associated with the [[circle type]], depending on whether [[judgmental equalities]] or [[identifications]] are used; if the former are used, this results in **strict circle types**, and if the latter are used, this results in **weak circle types**. 
+
+The induction principle for strict circle types states that if:
+
+1. For all $x:S^1$ we have a type $C(x)$
+
+1. For any term $c_\mathrm{left}:C(\mathrm{left})$ and $c_\mathrm{right}:C(\mathrm{right})$ and any two heterogeneous identifications $c_\mathrm{upath}:c_\mathrm{left} =_{x:S^1.C(x)}^{(\mathrm{left}, \mathrm{right}, \mathrm{upath})} c_\mathrm{right}$ and $c_\mathrm{dpath}:c_\mathrm{left} =_{x:S^1.C(x)}^{(\mathrm{left}, \mathrm{right}, \mathrm{dpath})} c_\mathrm{right}$ that $c_\mathrm{left}$ is identified with $c_\mathrm{right}$ itself across $\mathrm{upath}$ and $\mathrm{dpath}$
+
+then we have a dependent function $c:\prod_{x:S^1} C(x)$ such that evaluating $c$ at $\mathrm{left}$ and $\mathrm{right}$ results in $c_\mathrm{left}$ and $c_\mathrm{right}$ and applying $c$ across $\mathrm{upath}$ and $\mathrm{dpath}$ results in $c_\mathrm{upath}$ and $c_\mathrm{dpath}$ respectively.
+
+$$c(\mathrm{left}) \equiv c_\mathrm{left} \qquad c(\mathrm{right}) \equiv c_\mathrm{right} \qquad \mathrm{apd}_c(\mathrm{left}, \mathrm{right}, \mathrm{upath}) \equiv c_\mathrm{upath} \qquad \mathrm{apd}_c(\mathrm{left}, \mathrm{right}, \mathrm{dpath}) \equiv c_\mathrm{dpath}$$
+
+#### Recursion principle
+
+In general, given a type $C$, by the [[weakening rule]] of [[dependent type theory]], one can form the constant type family $C$ indexed by $x:S^1$; then one can get the recursion principle of the circle type from the induction principle on $C$ regarded as a constant type family: 
+
+The recursion principle for strict circle types states that if:
+
+1. We have a type $C$
+
+1. For any term $c_\mathrm{left}:C$ and $c_\mathrm{right}:C$ and any two identifications $c_\mathrm{upath}:c_\mathrm{left} =_{C} c_\mathrm{right}$ and $c_\mathrm{dpath}:c_\mathrm{left} =_{C} c_\mathrm{right}$ that $c_\mathrm{left}$ is identified with $c_\mathrm{right}$
+
+then we have a function $c:S^1 \to C$ such that evaluating $c$ at $\mathrm{left}$ and $\mathrm{right}$ results in $c_\mathrm{left}$ and $c_\mathrm{right}$ and applying $c$ across $\mathrm{upath}$ and $\mathrm{dpath}$ results in $c_\mathrm{upath}$ and $c_\mathrm{dpath}$ respectively.
+
+$$c(\mathrm{left}) \equiv c_\mathrm{left} \qquad c(\mathrm{right}) \equiv c_\mathrm{right} \qquad \mathrm{apd}_c(\mathrm{left}, \mathrm{right}, \mathrm{upath}) \equiv c_\mathrm{upath} \qquad \mathrm{apd}_c(\mathrm{left}, \mathrm{right}, \mathrm{dpath}) \equiv c_\mathrm{dpath}$$
 
 ## Properties 
  {#Properties}
@@ -195,7 +218,7 @@ This says that the type is inductively constructed from
 ### Relation to axiom K
 
 \begin{theorem}
-Suppose that the strict circle type has an identification $K:\mathrm{refl}_{S^1}(\mathrm{base}) = \mathrm{loop}$. Then every type is a [[set]]. 
+Suppose that the strict circle type, defined using a single element and a single self-identification, has an identification $K:\mathrm{refl}_{S^1}(\mathrm{base}) = \mathrm{loop}$. Then every type is a [[set]]. 
 \end{theorem}
 
 \begin{proof}
@@ -222,6 +245,38 @@ $$\mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{base}, \mathrm{base}, \mathrm{l
 which reduces down to 
 $$p \equiv \mathrm{refl}_A(x):x =_A x$$
 which is precisely the judgmental [[K rule]] for type $A$. 
+\end{proof}
+
+### Relation to UIP
+
+\begin{theorem}
+Suppose that the strict circle type, defined using two elements and a pair of parallel identifications, has an identification $\mathrm{UIP}:\mathrm{upath} = \mathrm{dpath}$. Then every type is a [[set]]. 
+\end{theorem}
+
+\begin{proof}
+For all types $A$, terms $x:A$ and $y:A$, and identifications $p:x =_A y$ and $q:x =_A y$, by the recursion principle of the strict circle type defined this way, we have the function $\mathrm{rec}_{S^1}(x, y, p, q):S^1 \to A$ such that 
+
+$$\mathrm{rec}_{S^1}(x, y, p, q)(\mathrm{left}) \equiv x \qquad \mathrm{rec}_{S^1}(x, y, p, q)(\mathrm{right}) \equiv y$$ 
+$$\mathrm{ap}_{\mathrm{rec}_{S^1}^A(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{upath}) \equiv p \qquad \mathrm{ap}_{\mathrm{rec}_{S^1}^A(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{dpath}) \equiv q$$ 
+By applying $\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right})$ to $\mathrm{UIP}$, we have the identification 
+$$\mathrm{ap}_{\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right})}(\mathrm{upath}, \mathrm{dpath}, \mathrm{UIP}):\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{upath}) = \mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{left}, \mathrm{right}, \mathrm{dpath})$$
+which reduces down to 
+$$\mathrm{ap}_{\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right})}(\mathrm{upath}, \mathrm{dpath}, \mathrm{UIP}):p = q$$
+which is precisely the [[uniqueness of identity proofs]] for type $A$. Thus every type $A$ is a set.
+\end{proof}
+
+\begin{theorem}
+Suppose that the two parallal identifications of the strict circle type are [[judgmentally equal]] to each other of the base of the circle $\mathrm{upath} \equiv \mathrm{dpath}:\mathrm{left} =_{S^1} \mathrm{right}$. Then the [[judgmental uniqueness of identity proofs]] holds.
+\end{theorem}
+
+\begin{proof}
+For all types $A$, terms $x:A$ and $y:A$, and identifications $p:x =_A y$ and $q:x =_A y$, by the recursion principle of the strict circle type defined this way, we have the function $\mathrm{rec}_{S^1}(x, y, p, q):S^1 \to A$ such that 
+
+$$\mathrm{rec}_{S^1}(x, y, p, q)(\mathrm{left}) \equiv x \qquad \mathrm{rec}_{S^1}(x, y, p, q)(\mathrm{right}) \equiv y$$ 
+$$\mathrm{ap}_{\mathrm{rec}_{S^1}^A(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{upath}) \equiv p \qquad \mathrm{ap}_{\mathrm{rec}_{S^1}^A(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{dpath}) \equiv q$$ 
+By the [[congruence rules]] of [[judgmental equality]] applied to the [[function]] $\mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right})$ to $\mathrm{UIP}$, we have the judgmental equality 
+$$p \equiv \mathrm{ap}_{\mathrm{rec}_{S^1}(x, y, p, q)}(\mathrm{left}, \mathrm{right}, \mathrm{upath}) \equiv \mathrm{ap}_{\mathrm{rec}_{S^1}(x, p)}(\mathrm{left}, \mathrm{right}, \mathrm{dpath}) \equiv q$$
+which is precisely the [[judgmental uniqueness of identity proofs]] for type $A$. 
 \end{proof}
 
 ### Types equivalent to the circle type
