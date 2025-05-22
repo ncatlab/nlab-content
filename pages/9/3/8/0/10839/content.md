@@ -654,7 +654,7 @@ $$
 Here the [[direct image]] is given on a [[sheaf]] $\mathcal{F} \in Sh(X_{et})$ by
 
 $$
-  f_\ast \mathcal{F} \;\colon\;  (U_Y \to Y) \mapsto \mathcal{F}(f^{-1}(U_Y)) = \mathcal{F}(X \times_X U_Y)
+  f_\ast \mathcal{F} \;\colon\;  (U_Y \to Y) \mapsto \mathcal{F}(f^{-1}(U_Y)) = \mathcal{F}(X \times_Y U_Y)
 $$
 
 while the [[inverse image]] is given on a [[sheaf]] $\mathcal{F} \in Sh_(Y_{et})$ by
