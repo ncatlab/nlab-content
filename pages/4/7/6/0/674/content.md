@@ -35,7 +35,7 @@ An __[[umbrella category]]__ is a nonempty category $C$ such that for every obje
 
 If $C$ has a [[terminal object]] $1$, then $U$ is subterminal precisely if the unique morphism $U \to 1$ is [[monomorphism|monic]], so that $U$ represents a [[subobject]] of $1$; hence the name "sub-terminal."  
 
-This is equivalent to the hypothesis that the [[cone]] given by identity morphisms $U \leftarrow U \rightarrow U$ is a [[product]] cone, or that *some* [[product]] $U \times U$ exists and the [[diagonal]] $U \to U \times U$ is an [[isomorphism]].
+This is equivalent to the hypothesis that the [[cone]] given by identity morphisms $U \leftarrow U \rightarrow U$ is a [[product]] cone, or that *some* [[product]] $U \times U$ exists and the [[diagonal]] $U \to U \times U$ is an [[isomorphism]], or that some [[product]] $U \times U$ exists and the projections $\pi_1, \pi_2 : U \times U \to U$ are equal.
 
 Therefore for a [[sheaf topos]] over a [[topological space]] the subterminal objects of the topos are the [[open subsets]] of the topological space. Accordingly, the subterminal objects in any [[topos]] are also called _open objects_ (e.g. [Johnstone 77, p. 94](#Johnstone77))
 
