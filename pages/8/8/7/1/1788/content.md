@@ -7,6 +7,8 @@
 
 ***
 
+* Neural Tangent Kernel
+
 * Rupak Chatterjee, Ting Yu: *Generalized Coherent States, Reproducing Kernels, and Quantum Support Vector Machines*, Quantum Information and Communication **17** 15&16 (2017) 1292 &lbrack;[arXiv:1612.03713](arxiv.org/abs/1612.03713), [doi:10.26421/QIC17.15-16](https://doi.org/10.26421/QIC17.15-16)&rbrack;
 
 
