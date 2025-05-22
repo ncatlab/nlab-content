@@ -2031,7 +2031,11 @@ $\phantom{-----------}$Tuesday, May 20
 
 * {#EconomouMay2025} [[Sophia Economou]]: 
 
-  ...
+  **State preparation for quantum information processing**
+ 
+  cf.: [arXiv:2411.07920](https://arxiv.org/abs/2411.07920)
+
+  slides: [[Economou-CQICQTS-May2025.pdf:file]]
 
 
 \linebreak
