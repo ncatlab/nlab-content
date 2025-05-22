@@ -7,7 +7,11 @@
 
 ***
 
-[[Economou-CQICQTS-May2025.pdf:file]]
+* *Quantum Machine Learning in Feature Hilbert Spaces*
+
+* *Quantum support vector machine for big data classification*
+
+* *Supervised learning with quantum enhanced feature spaces*
 
 On non-abelian ([[parafermion|parafermionic]]) [[defect]] [[anyons]] associated with [[superconductor|superconducting]] islands inside [[nLab:abelian Chern-Simons theory|abelian]] [[fractional quantum Hall systems]]:
 
