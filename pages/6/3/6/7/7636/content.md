@@ -123,7 +123,7 @@ $$
 
 =--
 
-This was originally claimed as an [[equivalence of categories]] ([Seely, theorem 6.3](#Seely)). However, that argument did not properly treat a subtlety central to the whole subject: that [[substitution]] of [[terms]] for [[variables]] composes strictly, while its [[categorical semantics]] by [[pullback]] is by the [[universal construction|very nature]] of pullbacks only defined up to [[isomorphism]]. This problem was pointed out and ways to fix it were given in ([Curien](#Curien)) and ([Hofmann](#Hofmann)); see _[[categorical model of dependent types]]_ for the latter.  However, the full equivalence of categories was not recovered until ([Clairambault-Dybjer](#ClairambaultDybjer)) solved both problems by promoting the statement to an [[equivalence of 2-categories]], see also ([Curien-Garner-Hofmann](#CurienGarnerHofmann)). Another approach to this which also works with [[intensional identity types]] and hence with [[homotopy type theory]] is in ([Lumsdaine-Warren 13](#LumsdaineWarren13)).
+This was originally claimed as an [[equivalence of categories]] [Seely 1974 theorem 6.3](#Seely84b). However, that argument did not properly treat a subtlety central to the whole subject: that [[substitution]] of [[terms]] for [[variables]] composes strictly, while its [[categorical semantics]] by [[pullback]] is by the [[universal construction|very nature]] of pullbacks only defined up to [[isomorphism]]. This problem was pointed out and ways to fix it were given by [Curien](#Curien) and [Hofmann](#Hofmann); see _[[categorical model of dependent types]]_ for the latter.  However, the full equivalence of categories was not recovered until [Clairambault & Dybjer](#ClairambaultDybjer) solved both problems by promoting the statement to an [[equivalence of 2-categories]], see also [Curien, Garner & Hofmann](#CurienGarnerHofmann). Another approach to this which also works with [[intensional identity types]] and hence with [[homotopy type theory]] is in [Lumsdaine & Warren 2013](#LumsdaineWarren13).
 
 We now indicate some of the details.
 
@@ -384,6 +384,7 @@ Notice that this statement, once realized, makes (or would make) Univalent HoTT+
 * [[computational trinitarianism]]
 
 * [[Awodey's conjecture]]
+
 
 ## References
  {#References}
