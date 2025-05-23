@@ -254,7 +254,7 @@ $$
   f_!(f^\ast a \otimes c) \longrightarrow a \otimes f_! c\,.
 $$
 
-By running through this calculation one can see that if $\phi$ is a invertible then all the other natural maps listed above are too, including $\pi$.  Conversely, starting with $\pi$ we can run the argument backwards and get $\phi$, and if $\pi$ is invertible then so is $\phi$.
+By running through this calculation one can see that if $\phi$ is invertible then all the other natural maps listed above are too, including $\pi$.  Conversely, starting with $\pi$ we can run the argument backwards and get $\phi$, and if $\pi$ is invertible then so is $\phi$.
 
 =--
 
