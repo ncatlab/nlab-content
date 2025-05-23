@@ -163,7 +163,7 @@ This interpretation of existential quantification as the left adjoint to context
 
 ### Frobenius reciprocity
 
-The extential quantifier and [[context extension]] is related via [[Frobenius reciprocity]]: if $\psi$ does not have $x$ as a [[free variable]] then
+The existential quantifier and [[context extension]] are related via [[Frobenius reciprocity]]: if $\psi$ does not have $x$ as a [[free variable]] then
 
 $$
   \exists_x (\phi \wedge \psi)
