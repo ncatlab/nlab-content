@@ -66,6 +66,13 @@ Projects:
 
   video: [yt](https://youtu.be/eLJIQmpnH3Q)
 
+* **[[schreiber:Rethinking FQH Anyons -- talk|Rethinking FQH Anyons]]** 
+ 
+  talk at: *[NYU-NYUAD Workshop on Quantum Matter and Quantum Computing](/nlab/show/Center+for+Quantum+and+Topological+Systems#QuantumMatterAndComputing2025)*, NYU New York (20 May 2025)
+  
+  video: [yt](https://youtu.be/I1MpihOkiqw), [lm](https://www.loom.com/share/e8943efccf53465bb475ef0807106057?sid=3284879c-d7b6-4be1-9b18-f566762d54f4)
+
+
 * **[[schreiber:Perì Pantheōrías]]** 
 
   guest appearance on *[Theories of Everything with Curt Jaimungal](https://www.youtube.com/channel/UCdWIQh9DGG6uhJk8eyIFl1w)*, 8 March 2025
