@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -21,7 +19,15 @@ A [[2-category]] $K$ has three different [[opposite category|opposites]] (two in
 
 * The **$1$-cell dual** $K^{op}$, in which the $1$-cells but not the $2$-cells are reversed.
 * The **$2$-cell dual** $K^{co}$, in which the $2$-cells but not the $1$-cells are reversed.
-* The **bidual** $K^{co op}$ in which both $1$-cells and $2$-cells are reversed.
+* The **$1$- and $2$-cell dual** $K^{co op}$ in which both $1$-cells and $2$-cells are reversed.
+
+## Interaction with 2-functor 2-categories
+
+The category [[2-Cat]] is [[cartesian closed]], with the exponential $B^A$ being given by the [[2-functor 2-category]] $[A, B]$ whose objects are (strict) [[2-functors]] from $A$ to $B$, whose 1-cells are [[2-natural transformations]], and whose 2-cells are [[modifications]].
+
+* $[A, B]^{op} = [A^{op}, B^{op}]$
+* $[A, B]^{co} = [A^{co}, B^{co}]$
+* $[A, B]^{co op} = [A^{co op}, B^{co op}]$
 
 ## Related pages
 
