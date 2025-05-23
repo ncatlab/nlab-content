@@ -176,6 +176,8 @@ For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]],
 
 * [[Grothendieck construction]]
 
+* [[graph of a profunctor]]
+
 * [[2-Grothendieck construction]]
 
 * [[(∞,1)-Grothendieck construction]]
