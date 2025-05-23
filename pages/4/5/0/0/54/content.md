@@ -60,6 +60,12 @@ Projects:
 
 > For the complete list of invited talks I have given, see [there](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
+* **[[schreiber:Rethinking Topological Quantum]]**
+
+  lightning talk at *AI & Evolution Gathering* by [Softmax](https://www.softmax.com/) @ [The Royal Institution](https://www.rigb.org/) London (22 May 2025) 
+
+  video: [yt](https://youtu.be/eLJIQmpnH3Q)
+
 * **[[schreiber:Perì Pantheōrías]]** 
 
   guest appearance on *[Theories of Everything with Curt Jaimungal](https://www.youtube.com/channel/UCdWIQh9DGG6uhJk8eyIFl1w)*, 8 March 2025
