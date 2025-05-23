@@ -2125,7 +2125,9 @@ $\phantom{-----------}$Tuesday, May 20
 
   **[[schreiber:Rethinking FQH Anyons -- talk|Rethinking FQH Anyons]]**
 
-  slides: [link](/schreiber/show/Rethinking+FQH+Anyons+--+talk#download)
+  slides: [link](/schreiber/show/Rethinking+FQH+Anyons+--+talk#download), [pdf](/schreiber/files/RethinkingFQH-Talk-250520b.pdf)
+
+  video: [yt](https://youtu.be/I1MpihOkiqw), [lm](https://www.loom.com/share/e8943efccf53465bb475ef0807106057?sid=3284879c-d7b6-4be1-9b18-f566762d54f4)
 
 
 \linebreak
