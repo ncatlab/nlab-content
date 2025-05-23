@@ -4,8 +4,7 @@
 
 \linebreak
 
-
-***
+****
 
 * Neural Tangent Kernel
 
