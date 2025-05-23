@@ -29,7 +29,7 @@ However, there are a number of different ways to construct such a category of el
 
 ### Graphs of a profunctor
 
-Let $H:C^{op}\to D$ be a [[profunctor]]; it has the following four **graphs**.  In each case, the objects are triples $(c\in C, d\in D, x\in H(c,d))$, but we can take the morphisms $(c,d,x) \to (c',d',x')$ to be any of the following:
+Let $H:C^{op} \times D \to Set$ be a [[profunctor]]; it has the following four **graphs**.  In each case, the objects are triples $(c\in C, d\in D, x\in H(c,d))$, but we can take the morphisms $(c,d,x) \to (c',d',x')$ to be any of the following:
 
 * Pairs $(f:c\to c', g:d\to d')$ such that $H(1,g)(x) = H(f,1)(x')$.  This graph comes with a projection to $C\times D$, which is a [[two-sided discrete fibration]] that is contravariant over $C$ and covariant over $D$.
 
