@@ -4,7 +4,7 @@ Graham Ellis works at the National University of Ireland Galway. His recent work
 
 ## Selected writings
 
-Comoutational  classification of [[strict 2-groups|strict]] [[2-groups]] ([[crossed modules]]):
+Computational  classification of [[strict 2-groups|strict]] [[2-groups]] ([[crossed modules]]):
 
 * [[Graham Ellis]], Luyen Van Le, *Homotopy 2-types of Low order*, Experimental Mathematics **23** 4 (2014)  &lbrack;[doi:10.1080/10586458.2014.912059](https://doi.org/10.1080/10586458.2014.912059), [pdf](http://hamilton.nuigalway.ie/preprints/2t.pdf)&rbrack;
 
