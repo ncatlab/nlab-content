@@ -166,11 +166,17 @@ with [[QWIRE]]:
 
 * [[Robert Rand]], [[Jennifer Paykin]], Dong-Ho Lee, [[Steve Zdancewic]], *ReQWIRE: Reasoning about Reversible Quantum Circuits*, EPTCS **287** (2019) 299-312 $[$[arXiv:1901.10118](https://arxiv.org/abs/1901.10118), [doi:10.4204/EPTCS.287.17](https://doi.org/10.4204/EPTCS.287.17)$]$
 
-
 for [[Quipper]] with [[QPMC]]:
 
 * Linda Anticoli, Carla Piazza, Leonardo Taglialegne, Paolo Zuliani, _Towards Quantum Programs Verification: From Quipper Circuits to QPMC_, In: Devitt S., Lanese I. (eds.) *Reversible Computation. RC 2016*, Lecture Notes in Computer Science **9720** Springer (2016) $[$[arXiv:1708.06312](https://arxiv.org/abs/1708.06312), [doi:10.1007/978-3-319-40578-0_16](https://doi.org/10.1007/978-3-319-40578-0_16)$]$
 
 with [[CoqQ]]: [Ying et al. (2022)](#YingEtAl22)
+
+with [[QBricks]]:
+
+* [[Christophe Chareton]], [[Sébastien Bardin]], [[François Bobot]], [[Valentin Perrelle]], [[Benoit Valiron]]: *A Deductive Verification Framework for Circuit-building Quantum Programs*, in: *Programming Languages and Systems. ESOP 2021*, Lecture Notes in Computer Science **12648**, Springer (2021)  \[<a href="https://doi.org/10.1007/978-3-030-72019-3_6">doi:10.1007/978-3-030-72019-3_6</a>, [arXiv:2003.05841](https://arxiv.org/abs/2003.05841), [pdf](https://github.com/Qbricks/qbricks.github.io/files/6414263/final--ESOP-2021.pdf)\]
+
+
+
 
 
