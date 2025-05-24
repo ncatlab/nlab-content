@@ -6,6 +6,7 @@
 
 ****
 
+
 * $\mathcal{F}$ itself becomes an $\mathcal{F}$-category in the usual way.  Its tight morphisms are just the morphisms in the underlying ordinary category $\mathcal{F}$, while its loose morphisms are simply functors between the loose parts (the codomains of the full embeddings).
 
 ## $\mathcal{F}$-functors and $\mathcal{F}$-transformations
