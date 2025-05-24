@@ -30,6 +30,8 @@
 
 ## Related
 
+* [[QBricks]]
+
 * [[Quipper]]
 
 * [[CoqQ]]
