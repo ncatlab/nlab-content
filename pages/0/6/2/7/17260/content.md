@@ -77,7 +77,7 @@ and hence corresponding [[multiplicative cohomology theory]]-[[homomorphisms]] o
 
 * [[Nigel Ray]], _The symplectic bordism ring_, Volume 71, Issue 2 March 1972, pp. 271-282 ([doi:10.1017/S0305004100050519](https://doi.org/10.1017/S0305004100050519))
 
-* [[Stanley Kochman]], _The symplectic cobordism ring I_, Memoirs of the American Mathematical Society 1980, Volume 24, Number 271 ([doi:10.1090/memo/0271](http://dx.doi.org/10.1090/memo/0271))
+* [[Stanley Kochman]], _The symplectic cobordism ring I_, Memoirs of the American Mathematical Society 1980, Volume 24, Number 228 ([doi:10.1090/memo/0228](http://dx.doi.org/10.1090/memo/0228))
 
 * [[Stanley Kochman]], _The symplectic cobordism ring II_, Memoirs of the American Mathematical Society 1982 
 Volume 40, Number 271 ([doi:10.1090/memo/0271](http://dx.doi.org/10.1090/memo/0271))
