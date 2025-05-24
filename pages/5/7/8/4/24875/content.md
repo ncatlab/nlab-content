@@ -31,13 +31,14 @@
 
 CoqQ uses an analytic formalization of ([[finite dimensional vector space|finite dimensional]]) [[Hilbert spaces]] (from [Mahboubi & Tassi (2021)](Coq#MahboubiTassi21)) in order to formalize [[quantum gates]] as actual [[linear maps]] between these.
 
+
 ## Related languages
 
 * [[Quipper]]
 
 * [[QWIRE]]
 
-* [[quantum programming language]]
+* [[QBricks]]
 
 ## References
 
