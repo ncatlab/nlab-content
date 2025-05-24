@@ -250,7 +250,7 @@ general:
 
 * {#YingFeng21} [[Mingsheng Ying]], [[Yuan Feng]], *Model Checking Quantum Systems -- Principles and Algorithms*, Cambridge University Press (2021) &lbrack;[ISBN:9781108484305](https://www.cambridge.org/ae/academic/subjects/computer-science/programming-languages-and-applied-logic/model-checking-quantum-systems-principles-and-algorithms?format=HB)&rbrack;
 
-* Christophe Chareton, Sébastien Bardin, [[Dongho Lee]], [[Benoît Valiron]], Renaud Vilmart, Zhaowei Xu, *Formal Methods for Quantum Programs: A Survey*, in: *Handbook of Formal Analysis and Verification in Cryptography*, CRC (2023) &lbrack;[arXiv:2109.06493](https://arxiv.org/abs/2109.06493), [doi:10.1201/9781003090052](https://doi.org/10.1201/9781003090052)&rbrack;
+* [[Christophe Chareton]], [[Sébastien Bardin]], [[Dongho Lee]], [[Benoît Valiron]], Renaud Vilmart, Zhaowei Xu, *Formal Methods for Quantum Programs: A Survey*, in: *Handbook of Formal Analysis and Verification in Cryptography*, CRC (2023) &lbrack;[arXiv:2109.06493](https://arxiv.org/abs/2109.06493), [doi:10.1201/9781003090052](https://doi.org/10.1201/9781003090052)&rbrack;
 
 * Marco Lewis, Sadegh Soudjani, Paolo Zuliani, *Formal Verification of Quantum Programs: Theory, Tools and Challenges* &lbrack;[arXiv:2110.01320](https://arxiv.org/abs/2110.01320)&rbrack;
 
