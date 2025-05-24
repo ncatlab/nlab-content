@@ -34,6 +34,14 @@ _Quipper_ is a [[functional programming language|functional]] [[quantum programm
 
 * [[QPL]]
 
+* [[QWIRE]]
+
+* [[QBricks]]
+
+* [[CoqQ]]
+
+* [[quantum programming language]]
+
 ## References
  {#References}
 
