@@ -21,7 +21,7 @@
 
 ## Idea
 
-A **covering space** (or **wrapping space**) is a [[bundle]] $p: E \to B$ in which is locally trivial and with [[discrete space|discrete]] fiber. 
+A **covering space** is a [[bundle]] $p: E \to B$ that is locally trivial and has [[discrete space|discrete]] fibers. 
 
 
 ## Definition
