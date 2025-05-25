@@ -36,14 +36,21 @@ U \times E_x & \cong & p^{-1}(U) & \to & E\\
 
 (the square is a pullback and the isomorphism maps $(x, e \in E_x) \mapsto e$). 
 
-Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$ of the [[slice category]] of [[Top]] over $B$, the _[[category of covering spaces]]_. These may be put together to form a [[replete subcategory|replete]], [[wide subcategory|wide]] subcategory $Cov$ of $Top$, so that $Cov/B$ is an [[over category]], just as the notation suggests.
+Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$ of the [[slice category]] of [[Top]] over $B$, the _[[category of covering spaces]]_.
+
++-- {: .num_remark}
+###### Remark
+
+A composition of covering spaces $X \to Y \to S$ is [not necessarily a covering space](https://math.stackexchange.com/questions/989083/is-composition-of-covering-maps-covering-map).
+
+=--
 
 +-- {: .num_remark}
 ###### Remark
 
 Different points in $B$ may have non-isomorphic fibers. However, if open sets $U$ and $V$ are evenly covered by $p: E \to B$ and have nonempty intersection, then there are canonical identifications 
 $$E_x \cong E_z \cong E_y$$ 
-between typical fibers over $x \in U$, $y \in V$, and $z \in U \cap V$. If $B$ is path-connected, then all the fibers match up to isomorphism (by the unique path-lifting lemma (lemma \ref{CoveringSpacePathLifting} below)). 
+between typical fibers over $x \in U$, $y \in V$, and $z \in U \cap V$. The map which sends a point $x \in B$ to the homeomorphism type of the fiber $E_x$ is thus [[locally constant function|locally constant]], and hence constant on the components of $B$.
 
 =--
 
