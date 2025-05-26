@@ -9,6 +9,11 @@
 
 ## Selected writings
 
+On [[orbifold|orbifolded]] bilayer [[fractional quantum Hall systems]] descrived by $2 \times 2$ [K-matrix formalism](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism):
+
+* {#BarkeshliWen17} [[Maissam Barkeshli]], [[Xiao-Gang Wen]]: *Bilayer quantum Hall phase transitions and the orbifold non-Abelian fractional quantum Hall states*, Phys. Rev. B **95** (2017) 085135 \[<a href="https://doi.org/10.1103/PhysRevB.95.085135">doi:10.1103/PhysRevB.95.085135</a>, [arXiv:1010.4270](https://arxiv.org/abs/1010.4270)\]
+
+
 On *genon* [[defect]] [[anyons]]:
 
 * [[Maissam Barkeshli]],  [[Xiao-Liang Qi]]: *Topological Nematic States and Non-Abelian Lattice Dislocations*, Phys. Rev. X **2** 031013 (2012) \[<a href="https://doi.org/10.1103/PhysRevX.2.031013">doi:10.1103/PhysRevX.2.031013</a>, [arXiv:1112.3311](https://arxiv.org/abs/1112.3311)\]
