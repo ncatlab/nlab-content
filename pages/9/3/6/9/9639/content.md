@@ -729,6 +729,8 @@ Review and survey of the FQHE:
 
 * [[Peter Fulde]], §14.2 in: *Correlated Electrons in Quantum Matter*, World Scientific (2012) &lbrack;[doi:10.1142/8419](https://doi.org/10.1142/8419), [pdf](https://www.pks.mpg.de/fileadmin/user_upload/MPIPKS/group_pages/Electronic_Correlations/BOOK_Aktualisierung_Oct19.pdf)&rbrack;
 
+* [[Thors H. Hansson]], M. Hermanns, [[Steven H. Simon]], S. F. Viefers: *Quantum Hall Physics -- hierarchies and CFT techniques*, Rev. Mod. Phys. **89** (2017) 025005 &lbrack;[arXiv:1601.01697](https://arxiv.org/abs/1601.01697), [doi:10.1103/RevModPhys.89.025005](https://doi.org/10.1103/RevModPhys.89.025005)&rbrack;
+
 * [[Duncan Haldane]]: *Geometry of flux attachment in the fractional quantum hall effect states*, lecture at *CESC Cargèse Corsica July 2017*, abstract published in: *Topological Phase Transitions And New Developments*, World Scientific (2018) 2 &lbrack;[pdf](https://indico.in2p3.fr/event/14018/images/1095-cargese1-haldane.pdf), [[Haldane-FLuxAttachment.pdf:file]], [doi:10.1142/9789813271340_0002](https://doi.org/10.1142/9789813271340_0002)&rbrack;
 
 * {#HalperinJain20} [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
