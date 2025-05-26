@@ -44,6 +44,10 @@ On higher [[orbifolds]] and [[Deligne-Mumford stacks]] as [[(∞,1)-toposes]]:
 
 * [[David Carchedi]], *Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi*, Memoirs of the American Mathematical Society **264** 1282 (2020) &lbrack;[doi:10.1090/memo/1282](https://doi.org/10.1090/memo/1282), [arXiv:1312.2204](https://arxiv.org/abs/1312.2204)&rbrack;
 
+On derived differential [[supergeometry]]:
+
+* [[David Carchedi]], *Quasi-coherent sheaves and D-modules in Derived Differential Supergeometry* &lbrack;[arXiv:2503.14426](https://arxiv.org/abs/2503.14426)&rbrack;
+
 
 ## Related $n$Lab entries
 
