@@ -132,10 +132,14 @@ On [[string-net models]] via [[tensor networks]]:
 
 * [[Zheng-Cheng Gu]], [[Michael Levin]], [[Brian Swingle]], [[Xiao-Gang Wen]], *Tensor-product representations for string-net condensed states*, Phys. Rev. B **79** (2009) 085118 $[$[doi:10.1103/PhysRevB.79.085118](https://doi.org/10.1103/PhysRevB.79.085118)$]$  
 
+On [[orbifold|orbifolded]] bilayer [[fractional quantum Hall systems]] descrived by $2 \times 2$ [K-matrix formalism](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism):
+
+* {#BarkeshliWen17} [[Maissam Barkeshli]], [[Xiao-Gang Wen]]: *Bilayer quantum Hall phase transitions and the orbifold non-Abelian fractional quantum Hall states*, Phys. Rev. B **95** (2017) 085135 \[<a href="https://doi.org/10.1103/PhysRevB.95.085135">doi:10.1103/PhysRevB.95.085135</a>, [arXiv:1010.4270](https://arxiv.org/abs/1010.4270)\]
+
 
 On the classification of free fermion [[SPTs]]:
 
-* {#Wen12} [[Xiao-Gang Wen]], *Symmetry-protected topological phases in noninteracting fermion systems*, Phys. Rev. B **85** (2012) 085103 $[$[doi:10.1103/PhysRevB.85.085103](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.85.085103)$]$
+* {#Wen12} [[Xiao-Gang Wen]], *Symmetry-protected topological phases in noninteracting fermion systems*, Phys. Rev. B **85** (2012) 085103 &lbrack;[doi:10.1103/PhysRevB.85.085103](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.85.085103)&rbrack;
 
 On [[internal symmetry|internal]]-[[symmetry protected topological phases]]:
 
