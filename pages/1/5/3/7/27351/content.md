@@ -268,7 +268,7 @@ This largely concludes the traditional justification for the effective abelian C
 #### Hierarchical K-matrix formalism
  {#HierarchicalKMatrixFormalism}
 
-Following the hierarchical picture of [[FQH systems]] at non-unit filling fraction (due to [Haldane 1983](quantum+Hall+effect#Haldane83) and [Halperin 1984](quantum+Hall+effect#Halperin1984)), where [[quasiparticles]] at unit filling fractions are imagined to support themselves a secondary FQH effect with secondary quasi-particles, and so on  (a picture that faces various experimental challenges, cf. [Jain 2007 §12.1](quantum+Hall+effect#Jain07), [Jain 2014, esp. p 8](quantum+Hall+effect#Jain14)), authors consider abelian Chern Simons theory of multiple gauge fields that are hierarchically coupled to each other, called the "K-matrix formalism" ([Blok & Wen 1990](#BlokWen90), [Wen & Zee 1992](#WenZee92Classification), early review in [Wen 1995 §2.1](#Wen95), textbook account in [Wen 2007 §7.3.3](#Wen07)).
+Following the hierarchical picture of [[FQH systems]] at non-unit filling fraction (due to [Haldane 1983](quantum+Hall+effect#Haldane83) and [Halperin 1984](quantum+Hall+effect#Halperin1984)), where [[quasiparticles]] at unit filling fractions are imagined to support themselves a secondary FQH effect with secondary quasi-particles, and so on  (a picture that faces various experimental challenges, cf. [Jain 2007 §12.1](quantum+Hall+effect#Jain07), [Jain 2014, esp. p 8](quantum+Hall+effect#Jain14) and Rem. \ref{PhenomenologyOfKMatrixFormalism} below), authors consider abelian Chern Simons theory of multiple gauge fields that are hierarchically coupled to each other, called the "K-matrix formalism" ([Blok & Wen 1990](#BlokWen90), [Wen & Zee 1992](#WenZee92Classification), early review in [Wen 1995 §2.1](#Wen95), textbook account in [Wen 2007 §7.3.3](#Wen07)).
 
 The basic idea is to observe that the above step from (i) introducing a gauge potential (eq:AuxiliaryGaugePotential) for the electron current density $J$ to (ii) the effective Chern-Simons action (eq:TheEffectiveLagrangianDensity) with quasi-particle current density $j$ may be repeated by next introducing also a gauge potential for the quasi-particle current (cf. [Wen 2007 (7.3.13)](#Wen07)), and so on.
 
@@ -391,6 +391,17 @@ $$
 $$
 
 (cf. [Wen 2007 (7.3.19)](#Wen07))
+
+
+\begin{remark}
+ \label{PhenomenologyOfKMatrixFormalism}
+ The phenomenological (experimental) validity already of the HH-hierarchy underlying this K-matrix formulation, when applied to ordinary single-component [[FQH systems]], has been called into question ([Jain 2007 §12.1](quantum+Hall+effect#Jain07) and [Jain 2014, esp. p 8](quantum+Hall+effect#Jain14)):  The required assumptions on quasi-particle densities necessary for the hierarchy to be physically plausible seem to be drastically violated, and in any case the experimentally observed filling fractions do not reflect the predicted hierarchy.
+
+On the other hand, the K-matrix formalism may be the natural description of *multi-*component FQH systems, where each column/row of the K-matrix corresponds to one "component" of possible electron modes (e.g. different spin polarizations or different layers in multi-layer materials), cf. [Barkeshli & Wen 2017](#BarkeshliWen17), [Sodemann et al 2017](#SodemannEtAl17), [Zeng 2021](#Zeng21) [Hu, Liu & Zhu 2023](#HuLiuZhu23), [Zeng 2024](#Zeng24).
+\end{remark}
+
+
+
 
 \linebreak
 
