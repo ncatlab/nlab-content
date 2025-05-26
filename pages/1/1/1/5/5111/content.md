@@ -164,7 +164,7 @@ This is ([Lurie, cor. 4.3.5.15](#Lurie)).
 
 The original articles are
 
-* Charles E. Watts, _Intrinsic characterizations of some additive functors_,  Proc. Amer. Math. Soc. __11__, 1960, 5&#8211;8, [MR0806.0832](http://www.ams.org/mathscinet-getitem?mr=0806.0832), [doi](http://dx.doi.org/10.2307/2032707)
+* Charles E. Watts, _Intrinsic characterizations of some additive functors_,  Proc. Amer. Math. Soc. __11__, 1960, 5&#8211;8, [MR118757](https://mathscinet.ams.org/mathscinet/article?mr=118757), [doi](http://dx.doi.org/10.2307/2032707)
  {#Watts}
 
 * [[Samuel Eilenberg]], _Abstract description of some basic functors_, J. Indian Math. Soc. (N.S.) __24__, 1960, 231&#8211;234 (1961), [MR0125148](http://www.ams.org/mathscinet-getitem?mr=0125148)
