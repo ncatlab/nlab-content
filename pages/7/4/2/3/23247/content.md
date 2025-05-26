@@ -21,7 +21,7 @@ On [[topological quantum compilation]] and approximating (cf. the [[Solovay-Kita
 
 * [[Layla Hormozi]], [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Topological Quantum Computing with Read-Rezayi States*, Phys. Rev. Lett. **103** 160501 (2009) $[$[doi:10.1103/PhysRevLett.103.160501](https://doi.org/10.1103/PhysRevLett.103.160501), [arXiv:0903.2239](https://arxiv.org/abs/0903.2239)$]$
 
-* M. Baraban, [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Resources required for topological quantum factoring*, Phys. Rev. A **81** 062317 (2010) $[$[doi:10.1103/PhysRevA.81.062317](https://doi.org/10.1103/PhysRevA.81.062317), [arXiv:1002.0537](https://arxiv.org/abs/1002.0537)$]$
+* M. Baraban, [[Nicholas E. Bonesteel]], [[Steven H. Simon]], *Resources required for topological quantum factoring*, Phys. Rev. A **81** 062317 (2010) &lbrack;[doi:10.1103/PhysRevA.81.062317](https://doi.org/10.1103/PhysRevA.81.062317), [arXiv:1002.0537](https://arxiv.org/abs/1002.0537)&rbrack;
   > (focus on compiling [[Shor's algorithm]])
 
 and particularly by just the "weaves" among all [[braids]]:
@@ -31,6 +31,10 @@ and particularly by just the "weaves" among all [[braids]]:
 On "[[Gaffnian states]]" for [[quantum Hall systems]]:
 
 * [[Steven H. Simon]], [[Edward H. Rezayi]], [[Nigel R. Cooper]], I. Berdnikov: *Construction of a paired wave function for spinless electrons at filling fraction $\nu = 2/5$*, Phys. Rev. B **75** (2007) 075317 &lbrack;[doi:10.1103/PhysRevB.75.075317](https://doi.org/10.1103/PhysRevB.75.075317)&rbrack;
+
+On [[fractional quantum Hall systems]] and description of its [[Laughlin wavefunctions]] as [[conformal blocks]] of [[2d CFT]]:
+
+* [[Thors H. Hansson]], M. Hermanns, [[Steven H. Simon]], S. F. Viefers: *Quantum Hall Physics -- hierarchies and CFT techniques*, Rev. Mod. Phys. **89** (2017) 025005 &lbrack;[arXiv:1601.01697](https://arxiv.org/abs/1601.01697), [doi:10.1103/RevModPhys.89.025005](https://doi.org/10.1103/RevModPhys.89.025005)&rbrack;
 
 
 
