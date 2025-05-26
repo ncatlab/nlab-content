@@ -76,9 +76,21 @@ For discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Sim
 
 * see [there](quantum+Hall+effect#ReferencesNoncommutativeGeometryOfFQHE).
 
-On edge modes:
+More on [[edge modes]]:
 
 * {#Levin13} [[Michael Levin]]: *Protected edge modes without symmetry*, Phys. Rev. X **3** 021009 (2013) \[<a href="https://doi.org/10.1103/PhysRevX.3.021009">doi:10.1103/PhysRevX.3.021009</a>, [arXiv:1301.7355](https://arxiv.org/abs/1301.7355)\]
+
+Amplification of the [K-matrix formalism](abelian+Chern-Simons theory#HierarchicalKMatrixFormalism) as being about (not the usual single-component but) *multi-component* [[FQH systems]]:
+
+* {#BarkeshliWen17} [[Maissam Barkeshli]], [[Xiao-Gang Wen]]: *Bilayer quantum Hall phase transitions and the orbifold non-Abelian fractional quantum Hall states*, Phys. Rev. B **95** (2017) 085135 \[<a href="https://doi.org/10.1103/PhysRevB.95.085135">doi:10.1103/PhysRevB.95.085135</a>, [arXiv:1010.4270](https://arxiv.org/abs/1010.4270)\]
+
+* {#SodemannEtAl17} Inti Sodemann, Itamar Kimchi, Chong Wang, T. Senthil: *Composite fermion duality for half-filled multicomponent Landau levels*, Phys. Rev. B **95** (2017) 085135 \[<a href="https://doi.org/10.1103/PhysRevB.95.085135">doi:10.1103/PhysRevB.95.085135</a>, [doi:1609.08616](https://arxiv.org/abs/1609.08616)\]
+
+* {#Zeng21} Tian-Sheng Zeng: *Fractional quantum Hall effect of Bose-Fermi mixtures*, Phys. Rev. B **103** (2021) L201118 \[<a href="https://doi.org/10.1103/PhysRevB.103.L201118">doi:10.1103/PhysRevB.103.L201118</a>, [arXiv:2012.08203](https://arxiv.org/abs/2012.08203)\]
+
+* {#HuLiuZhu23} Liangdong Hu, Zhao Liu, W. Zhu: *Modular transformation and anyonic statistics of multi-component fractional quantum Hall states*, Phys. Rev. B **108** (2023) 235121  \[<a href="https://arxiv.org/abs/2301.06427">arXiv:2301.06427</a>, <a href="https://doi.org/10.1103/PhysRevB.108.235121">doi:10.1103/PhysRevB.108.235121</a>\]
+
+* {#Zeng24} Tian-Sheng Zeng: *Three-component fractional quantum Hall effect in topological flat bands*, Phys. Rev. B **110** (2024) 165126 \[<a href="https://doi.org/10.1103/PhysRevB.110.165126">doi:10.1103/PhysRevB.110.165126</a>, [arXiv:2407.08568](https://arxiv.org/abs/2407.08568)\]
 
 
 Further developments:
