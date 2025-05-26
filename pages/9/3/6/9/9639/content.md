@@ -846,7 +846,8 @@ The composite-fermion model (CF) which explains the FQHE as the [[integer quantu
 
 * {#Jain92} [[Jainendra K. Jain]]: *Microscopic theory of the fractional quantum Hall effect*, Adv. Phys. **41** (1992) 105-146 \[<a href="https://doi.org/10.1080/00018739200101483">doi:10.1080/00018739200101483</a>\]
 
-* {#Jain07} [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>, §5:[[Jain07-ch5.pdf:file]]\]
+* {#Jain07} [[Jainendra K. Jain]]: *Composite Fermions*, Cambridge University Press (2007) \[<a href="https://doi.org/10.1017/CBO9780511607561">doi:10.1017/CBO9780511607561</a>, §5:[[Jain07-ch5.pdf:file]], §12:[[Jain07-ch12.pdf:file]]\]
+
 
 On FQH *of* composite fermions:
 
