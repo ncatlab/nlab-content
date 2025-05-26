@@ -176,7 +176,7 @@ Let $\mathcal{C}$ be the category of (not necessarily abelian) [[groups]] and le
 +-- {: .proof}
 ###### Proof
 
-Let $\epsilon : H \to G$ be group homomorphism. To give it the structure of a Beck module over $G$, we must give group homomorphisms $\eta : G \to H$ and $\mu : H \times_G H \to H$ such that $\epsilon \circ \eta = id_A$, $\epsilon (\mu (h_0, h_1)) = \epsilon (h_0) = \epsilon (h_1)$, as well as various other equations. Given elements $h_0, h_1, h_2, h_3$ of $H$ such that $\epsilon (h_0) = \epsilon (h_2)$ and $\epsilon (h_1) = \epsilon (h_3)$, we have the following interchange law:
+Let $\epsilon : H \to G$ be group homomorphism. To give it the structure of a Beck module over $G$, we must give group homomorphisms $\eta : G \to H$ and $\mu : H \times_G H \to H$ such that $\epsilon \circ \eta = id_G$, $\epsilon (\mu (h_0, h_1)) = \epsilon (h_0) = \epsilon (h_1)$, as well as various other equations. Given elements $h_0, h_1, h_2, h_3$ of $H$ such that $\epsilon (h_0) = \epsilon (h_2)$ and $\epsilon (h_1) = \epsilon (h_3)$, we have the following interchange law:
 $$\mu (h_0 h_1, h_2 h_3) = \mu (h_0, h_2) \mu (h_1, h_3)$$
 and in particular,
 $$\mu (\eta (\epsilon (h_2)) h_1, h_2 \eta (\epsilon (h_1))) = \mu (\eta (\epsilon (h_2)), h_2) \mu (h_1, \eta (\epsilon (h_1))) = h_2 h_1$$
