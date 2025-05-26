@@ -861,7 +861,7 @@ Review:
 
 Further discussion:
 
-* [[Jainendra K. Jain]]: *A note contrasting two microscopic theories of the fractional quantum Hall effect*, Indian J of Phys **88** (2014) 915-929 \[<a href="https://doi.org/10.1007/s12648-014-0491-9">doi:10.1007/s12648-014-0491-9</a>, [arXiv:1403.5415](https://arxiv.org/abs/1403.5415)\]
+* {#Jain14} [[Jainendra K. Jain]]: *A note contrasting two microscopic theories of the fractional quantum Hall effect*, Indian J of Phys **88** (2014) 915-929 \[<a href="https://doi.org/10.1007/s12648-014-0491-9">doi:10.1007/s12648-014-0491-9</a>, [arXiv:1403.5415](https://arxiv.org/abs/1403.5415)\]
 
 
 Discussion highlighting the lack of microscopic explanation of these phenomenological models:
