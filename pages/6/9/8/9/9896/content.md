@@ -24,6 +24,9 @@ Review:
 
 * Steven B. Giddings: *The unitarity crisis, nonviolent unitarization, and implications for quantum spacetime* &lbrack;[arXiv:2412.18650](https://arxiv.org/abs/2412.18650)&rbrack;
 
+* Thiago T. Bergamaschi: *A pedagogical approach to the black hole information problem* &lbrack;[arXiv:2505.17164](https://arxiv.org/abs/2505.17164)&rbrack;
+
+
 
 See also:
 
