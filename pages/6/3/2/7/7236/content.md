@@ -24,13 +24,13 @@ An *adhesive category* is a [[category]] in which [[pushouts]] of [[monomorphism
 
 The following conditions on a [[category]] $C$ are equivalent.  When they are satisfied, we say that $C$ is **adhesive**.
 
-1. $C$ has [[pullbacks]] and [[pushouts]] of [[monomorphisms]], and pushout squares of monomorphisms are also pullback squares and are stable under pullback.
+1. $C$ has [[pullbacks]], and [[pushouts]] of [[monomorphisms]], and pushout squares of monomorphisms are also pullback squares and are stable under pullback.
 
 1. $C$ has pullbacks, and pushouts of monomorphisms, and the latter are also [[2-colimit|(bicategorical)]] pushouts in the [[bicategory]] of [[spans]] in $C$.
 
-1. (If $C$ is small) $C$ has pullbacks and pushouts of monomorphisms, and admits a [[fully faithful functor|full embedding]] into a [[Grothendieck topos]] preserving pullbacks and pushouts of monomorphisms.
+1. (If $C$ is small) $C$ has pullbacks, and pushouts of monomorphisms, and admits a [[fully faithful functor|full embedding]] into a [[Grothendieck topos]] preserving pullbacks and pushouts of monomorphisms.
 
-1. $C$ has pullbacks and pushouts of monomorphisms, and in any cubical diagram:
+1. $C$ has pullbacks, and pushouts of monomorphisms, and in any cubical diagram:
 
    ![cube](https://i.imgur.com/doD9CSD.png)
 
