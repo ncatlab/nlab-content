@@ -22,8 +22,8 @@
 A linear-non-linear adjunction is an [[adjunction]] between a cartesian and a non-cartesian [[monoidal categories]]:
 
 \begin{tikzcd}
-	{\mathbf{M}} && {\mathbf{L}}
-	\arrow["{!}"', from=1-1, to=1-1, loop, in=215, out=145, distance=10mm]
+	{(\mathbf{L}, \otimes, 1)} && {(\mathbf{M}, \times, \top)}
+	\arrow["{!}", from=1-1, to=1-1, loop, in=145, out=215, distance=20mm]
 	\arrow[""{name=0, anchor=center, inner sep=0}, "M"', shift right=2, from=1-1, to=1-3]
 	\arrow[""{name=0p, anchor=center, inner sep=0}, phantom, from=1-1, to=1-3, start anchor=center, end anchor=center, shift right=2]
 	\arrow[""{name=1, anchor=center, inner sep=0}, "L"', shift right=2, from=1-3, to=1-1]
@@ -34,7 +34,7 @@ A linear-non-linear adjunction is an [[adjunction]] between a cartesian and a no
 Here $\mathbf{L}$ is [[symmetric monoidal category|symmetric monoidal]], $\mathbf{M}$ is [[cartesian monoidal category|cartesian monoidal]].
 The adjunction takes place in the [[2-category]] of symmetric monoidal categories and [[lax monoidal functors]], thus by [[doctrinal adjunction]] $L$ is in fact [[strong monoidal functor|strong monoidal]].
 
-Such a situation forms the ground on which practically all categorical semantics of linear logic (of various kinds) are built. Specifically, the comonad $!=L M$ on $\mathbf{M}$ is the [[exponential modality]] of [[linear logic]]. A survey can be found in ([Mellies '09](#PAM09), Chapter 7).
+Such a situation forms the ground on which practically all categorical semantics of linear logic (of various kinds) are built. Specifically, the comonad $!=L M$ on $\mathbf{L}$ is the [[exponential modality]] of [[linear logic]]. A survey can be found in ([Mellies '09](#PAM09), Chapter 7).
 
 ## Related
 
