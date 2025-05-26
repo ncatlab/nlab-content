@@ -27,13 +27,11 @@ A **covering space** is a [[bundle]] $p: E \to B$ that is locally trivial and ha
 ## Definition
 
 A [[continuous function]] $p: E \to B$ is a covering space over $B$ if for each point $x \in B$, there exists an [[open neighborhood]] $U$ of $x$ which is **evenly covered** by $p$ in that the [[pullback]] of $p$ over $U$ is isomorphic to a product bundle with discrete fiber $E_x = p^{-1}(x)$: 
-
 $$\array{
 U \times E_x & \cong & p^{-1}(U) & \to & E\\
 & \pi \searrow & \downarrow & & \downarrow p\\
 & & U & \hookrightarrow & B
 }$$
-
 (the square is a pullback and the isomorphism maps $(x, e \in E_x) \mapsto e$). 
 
 Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$ of the [[slice category]] of [[Top]] over $B$, the _[[category of covering spaces]]_.
@@ -42,6 +40,8 @@ Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrighta
 ###### Remark
 
 A composition of covering spaces $X \to Y \to S$ is [not necessarily a covering space](https://math.stackexchange.com/questions/989083/is-composition-of-covering-maps-covering-map).
+
+However, [[locally path-connected]] and [[semilocally simply-connected spaces]] with covering maps as morphisms do form a [[category]].  (See, for example, [Jerzak](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2008/REUPapers/Jerzak.pdf).)
 
 =--
 
@@ -188,7 +188,7 @@ is an open subset of the complement of the diagonal in the fiber product.
 =--
 
 
-### Relation to &#233;tale spaces
+### Relation to etale spaces
 
 Every covering space (even in the more general sense not requiring any connectedness axiom) is an [[etale space]], but not vice versa: 
 
