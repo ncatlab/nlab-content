@@ -177,7 +177,7 @@ In total, the traditional Ansatz for the effective Lagrangian density for "singl
   \,.
 \]
 
-&lbrack;[Wen 1995 (2.11)](#Wen95)&rbrack;
+&lbrack;[Wen 1995 (2.11)](#Wen95), reviewed in [Wen 2007 (7.3.10)](#Wen07)&rbrack;
 
 \linebreak
 
