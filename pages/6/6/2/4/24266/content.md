@@ -13,6 +13,11 @@ Relating [[anyon|anyonic]] [[topological order|topologically ordered]] [[Laughli
 
 * [[Xiao-Gang Wen]], Yong-Shi Wu, *Chiral operator product algebra hidden in certain fractional quantum Hall wave functions*, Nucl. Phys. B **419** (1994) 455-479 \[<a href="https://doi.org/10.1016/0550-3213(94)90340-9">doi:10.1016/0550-3213(94)90340-9</a>\]
 
+Review:
+
+* [[Thors H. Hansson]], M. Hermanns, [[Steven H. Simon]], S. F. Viefers: *Quantum Hall Physics -- hierarchies and CFT techniques*, Rev. Mod. Phys. **89** (2017) 025005 \[<a href="https://doi.org/10.1103/RevModPhys.89.025005">doi:10.1103/RevModPhys.89.025005</a>, [arXiv:1601.01697](https://arxiv.org/abs/1601.01697)\]
+
+
 Review in the broader context of the [[CS-WZW correspondence]]:
 
 * [[Daniel C. Cabra]], [[Gerardo L. Rossini]], *Explicit connection between conformal field theory and 2+1 Chern-Simons theory*, Mod. Phys. Lett. A **12** (1997) 1687-1697 \[<a href="https://doi.org/10.1142/S0217732397001722">doi:10.1142/S0217732397001722</a>, [arXiv:hep-th/9506054](https://arxiv.org/abs/hep-th/9506054)\]
