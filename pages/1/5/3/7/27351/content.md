@@ -34,7 +34,7 @@ One major application of abelian Chern-Simons theory is as an [[effective field 
 ### Space of quantum states
  {#SpaceOfQuantumStates}
 
-For abelian Chern-Simons theory with $N$ [[gauge fields]] $(A_i)_{i = 1}^N$ and [[Lagrangian density]] of the form (using [[Einstein summation convention]]) $K^{i j} A_i \wedge \mathrm{d} A_j$, for $K$ an $N \times N$ *even* [[integer]] [[symmetric matrix]] (the diagonal entries are [[even numbers]]), the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ (obtained by [[geometric quantization]], cf. *[[quantization of D=3 Chern-Simons theory]]*) over an [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g$ is the [[absolute value]] of the [[determinant]] of $K$ raised to the $g$th [[exponent|power]]:
+For abelian Chern-Simons theory with $N$ [[gauge fields]] $(a^{(i)})_{i = 1}^N$ and [[Lagrangian density]] of the form (using [[Einstein summation convention]]) $K_{i j} a^{(i)} \wedge \mathrm{d} a^{(j)}$ (eq:SecondaryEffectiveLagrangianInKMatrixForm) , for $K$ an $N \times N$ *even* [[integer]] [[symmetric matrix]] (the diagonal entries are [[even numbers]]), the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ (obtained by [[geometric quantization]], cf. *[[quantization of D=3 Chern-Simons theory]]*) over an [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g$ is the [[absolute value]] of the [[determinant]] of $K$ raised to the $g$th [[exponent|power]]:
 
 $$ 
   dim(\mathscr{H}_g)
@@ -147,24 +147,25 @@ The central Ansatz of the approach is to *think of this 1-form as an effective d
 
 1. a further interaction term for $a$, now regarded as a gauge potential, to its own current density $j$, to be thought of as the current of FQH [[quasi-particles]] (or quasi-holes)
 
-   $$
+   \[
+     \label{QuasiParticleCoupling}
      L_{quas} \;=\; a \wedge j
-   $$
+   \]
 
-1. a dynamical term for $a$ itself, where the only sensible choice is the [[Chern-Simons theory|Chern-Simons form]] at [[level (Chern-Simons theory)|level]] $k$
+1. a kinetic term for $a$ itself, where the only sensible choice is the [[Chern-Simons theory|Chern-Simons form]] at [[level (Chern-Simons theory)|level]] $k = K/2 \in \mathbb{Z}/2$
 
    $$
-     L_{CS} \;=\; k \tfrac{1}{2} a \wedge \mathrm{d}a
+     L_{CS} \;=\; K \tfrac{1}{2} a \wedge \mathrm{d}a
      \,.
    $$
 
-In total, the traditional Ansatz for the effective Lagrangian density for "single layer" FQH systems at filling fraction $1/k$ is hence:
+In total, the traditional Ansatz for the effective Lagrangian density for "single layer" FQH systems at filling fraction $1/K$ is hence:
 
 \[
   \label{TheEffectiveLagrangianDensity}
   L 
   \,\coloneqq\,
-  k \tfrac{1}{2}\, a\wedge \mathrm{d}a
+  K \tfrac{1}{2}\, a\wedge \mathrm{d}a
   \,-\,
   A \wedge 
   \underset{J}{
@@ -172,7 +173,7 @@ In total, the traditional Ansatz for the effective Lagrangian density for "singl
       \mathrm{d}a
     }
   }
-  \,+\,
+  \,-\,
   a \wedge j
   \,.
 \]
@@ -195,7 +196,7 @@ The [[Euler-Lagrange equation]] [[equation of motion|of motion]] for the effecti
   J
     \,=\,
   \tfrac{1}{k}\Big(
-    F - j
+    F + j
   \Big)
   \,.
 \]
@@ -246,7 +247,7 @@ which is the correct form of the *Hall field* $E_y$ for given longitudinal curre
 Second, the spatial component of the equation of motion (eq:EquationOfMotion) says that (1.) the magnetic flux quanta and (2.) the quasi-particles contribute their $k$th fraction to the total charge density:
 
 $$
-  J_0 \;=\; \tfrac{1}{k}(B - j_0)
+  J_0 \;=\; \tfrac{1}{K}(B + j_0)
   \,.
 $$
 
@@ -254,7 +255,7 @@ Here
 
 * statement (1) reflects exactly the composite fermion model, where at $k$th filling fraction each electron is bound to $k$ quanta of magnetic flux 
 
-* statement (2) is the desired property of quasi-holes to have $k$th fractional charge.
+* statement (2) is the desired property of quasi-particles to have $k$th fractional charge.
 
 
 \linebreak
@@ -271,7 +272,125 @@ Following the hierarchical picture of [[FQH systems]] at non-unit filling fracti
 
 The basic idea is to observe that the above step from (i) introducing a gauge potential (eq:AuxiliaryGaugePotential) for the electron current density $J$ to (ii) the effective Chern-Simons action (eq:TheEffectiveLagrangianDensity) with quasi-particle current density $j$ may be repeated by next introducing also a gauge potential for the quasi-particle current (cf. [Wen 2007 (7.3.13)](#Wen07)), and so on.
 
+Concretely, postulating that the quasi-particle current $j$ (eq:QuasiParticleCoupling) is itself the field strength of a secondary auxiliary gauge field $a^{(2)}$
 
+$$
+  j \,=\, \mathrm{d} a^{(2)}
+$$
+
+(and renaming the previous auxiliary gauge field to $a^{(1)} \equiv a$)
+
+and then adjoining for that secondary gauge field another Chern-Simons kinetic term, turns the effective Lagrangian density (eq:TheEffectiveLagrangianDensity) into
+
+\[
+  \label{TheSecondaryEffectiveLagrangianDensity}
+  L_{1,2} 
+  \,\coloneqq\,
+  K_1 \tfrac{1}{2}\, a^{(1)} \wedge \mathrm{d} a^{(1)}
+  \,-\,
+  A \wedge 
+  \underset{J}{
+    \underbrace{
+      \mathrm{d} a^{(1)}
+    }
+  }
+  \,-\,
+  a^{(1)} 
+    \wedge 
+  \underset{j}{
+    \underbrace{
+      \mathrm{d} a^{(2)}
+    }
+  }
+  \,+\,
+  K_2 \tfrac{1}{2}\, 
+    a^{(2)} \wedge \mathrm{d} a^{(2)}
+  \,.
+\]
+
+(cf. [Wen 1995 (2.15)](#Wen95), [Wen 2007 (7.3.13)](#Wen07))
+
+meant to be an effective theory at filling fraction
+
+\[
+  \label{SecondHierarchyFillingFraction}
+  \nu
+  \;=\;
+  \tfrac
+    { 1 }
+    { K_1 - \tfrac{1}{K_2} }
+  \,.
+\]
+
+(cf. [Wen 1995 (2.18)](#Wen95), [Wen 2007 (7.3.15)](#Wen07))
+
+
+Now this secondary effective Lagrangian (eq:TheSecondaryEffectiveLagrangianDensity) may be rewritten equivalently as (using [[Einstein summation convention]])
+
+\[
+  \label{SecondaryEffectiveLagrangianInKMatrixForm}
+  L_{1,2}
+  \;=\;
+  K_{i j} \tfrac{1}{2} a^{(i)} \wedge \mathrm{d} a^{(j)}   
+  -
+  Q_i \, A \wedge \mathrm{d} a^{(i)}
+\]
+
+with the *K-[[matrix]]*
+
+$$
+  K
+  \;\coloneqq\;
+  \left[
+  \begin{matrix}
+    K_1 & -1
+    \\
+    -1 & K_2
+  \end{matrix}
+  \right]
+$$
+
+and the *charge vector*
+
+$$
+  Q
+  \;\coloneqq\;
+  \left[
+  \begin{matrix}
+    1
+    \\
+    0
+  \end{matrix}
+  \right]
+  \,.
+$$
+
+(cf. [Wen 1995 (2.19)](#Wen95), [Wen 2007 (7.3.15)](#Wen07)).
+
+Observing that the [[inverse matrix|inverse]] K-matrix is 
+
+\[
+  \label{InverseKMatrixAtSecondLayer}
+  K^{-1}
+  \,=\,
+  \tfrac{1}{K_1 K_2 - 1}
+  \left[
+  \begin{matrix}
+    K_2 & 1
+    \\
+    1 & K_1
+  \end{matrix}
+  \right]
+\]
+
+the second-layer filling fraction (eq:SecondHierarchyFillingFraction) is recognized as the top left entry of (eq:InverseKMatrixAtSecondLayer) and hence re-expressed in terms of these matrix quantities as
+
+$$
+  \nu \,=\, Q^t \cdot K^{-1} \cdot Q
+  \,.
+$$
+
+(cf. [Wen 2007 (7.3.19)](#Wen07))
 
 \linebreak
 
