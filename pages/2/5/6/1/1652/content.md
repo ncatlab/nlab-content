@@ -85,15 +85,21 @@ For a [[topos]]-theoretic notion of locally $n$-connected see [[locally n-connec
 
 [[!redirects semi-locally simply connected space]]
 [[!redirects semi-locally simply connected spaces]]
-
 [[!redirects semi-locally simply-connected space]]
 [[!redirects semi-locally simply-connected spaces]]
-
 [[!redirects semi-locally simply connected topological space]]
 [[!redirects semi-locally simply connected topological spaces]]
-
 [[!redirects semi-locally simply-connected topological space]]
 [[!redirects semi-locally simply-connected topological spaces]]
+
+[[!redirects semilocally simply connected space]]
+[[!redirects semilocally simply connected spaces]]
+[[!redirects semilocally simply-connected space]]
+[[!redirects semilocally simply-connected spaces]]
+[[!redirects semilocally simply connected topological space]]
+[[!redirects semilocally simply connected topological spaces]]
+[[!redirects semilocally simply-connected topological space]]
+[[!redirects semilocally simply-connected topological spaces]]
 
 [[!redirects locally simply connected space]]
 [[!redirects locally simply connected spaces]]
@@ -106,6 +112,3 @@ For a [[topos]]-theoretic notion of locally $n$-connected see [[locally n-connec
 
 [[!redirects locally simply-connected topological space]]
 [[!redirects locally simply-connected topological spaces]]
-
-[[!redirects semi-locally simply topological connected space]]
-
