@@ -269,6 +269,13 @@ Discussion of HITs which arise as homotopy-[[initial algebras of an endofunctor]
 
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], *Homotopy-initial algebras in type theory*, Journal of the ACM **63** 6 (2017) 1–45 &lbrack;[arXiv:1504.05531](http://arxiv.org/abs/1504.05531), [doi:10.1145/3006383](https://doi.org/10.1145/3006383)&rbrack;
 
+HITs in [[cubical type theories]]:
+
+* [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], *On Higher Inductive Types in Cubical Type Theory*, Proceedings of the 33rd Annual ACM/IEEE Symposium on Logic in Computer Science. LICS ’18. Oxford, United Kingdom: ACM, 2018, pp. 255–264. &lbrack;[arXiv:1802.01170](http://arxiv.org/abs/1802.01170), [doi:10.1145/3209108.3209197](https://doi.org/10.1145/3209108.3209197)&rbrack;
+
+
+* [[Evan Cavallo]], [[Robert Harper]], *Higher inductive types in cubical computational type theory*, Proceedings of the ACM on Programming Languages **3** POPL (2019) 1–27 &lbrack;[doi:10.1145/3290314](https://doi.org/10.1145/3290314), [pdf](https://ecavallo.net/works/10.1145/3290314.pdf)&rbrack;
+
 Further developments:
 
 * [[Henning Basold]], [[Herman Geuvers]], [[Niels van der Weide]], *Higher Inductive Types in Programming*, Journal of Universal Computer Science **23** 1 (2017) 63-88 &lbrack;[pdf](https://www.jucs.org/jucs_23_1/higher_inductive_types_in/jucs_23_01_0063_0088_basold.pdf), [slides pdf](https://nmvdw.github.io/pubs/Agda25.pdf)&rbrack;
