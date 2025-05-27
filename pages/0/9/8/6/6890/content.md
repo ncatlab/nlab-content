@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -14,17 +15,17 @@
 
 ## Idea
 
-The computer software _Coq_ "runs" the formal [[foundations]]-language _[[dependent type theory|dependent]] [[type theory]]_ and serves in particular as a formal [[proof management system]]. It provides a formal language to write mathematical [[definitions]], executable [[programs]] and [[theorems]] together with an environment for semi-interactive development of machine-checked [[proofs]], i.e. for [[certified programming]]. 
+The computer software _Rocq_ (previously called _Coq_) "runs" the formal [[foundations]]-language _[[dependent type theory|dependent]] [[type theory]]_ and serves in particular as a formal [[proof management system]]. It provides a formal language to write mathematical [[definitions]], executable [[programs]] and [[theorems]] together with an environment for semi-interactive development of machine-checked [[proofs]], i.e. for [[certified programming]]. 
 
-Coq is named after [[Thierry Coquand]], with a reference as well to Coquand's [[calculus of constructions|Calculus of Constructions]] (CoC). It follows a tradition of naming languages after animals (compare OCaml).
+The old name, _Coq_, originates from [[Thierry Coquand]], with a reference as well to Coquand's [[calculus of constructions|Calculus of Constructions]] (CoC). The new name _Rocq_ originates from [Inria Rocquencourt](https://www.inria.fr/en), the institute in which the language was originally developed at, and is a reference to the mythological bird Roc. Both names follow a tradition of naming languages after animals (compare OCaml). 
 
 ## Applications
 
-Computer systems such as Coq and [[Agda]] have been used to give machine-assisted and machine-verified proofs of extraordinary length, such as of the [[four-colour theorem]] and the [[Kepler conjecture]]. 
+Computer systems such as Rocq and [[Agda]] have been used to give machine-assisted and machine-verified proofs of extraordinary length, such as of the [[four-colour theorem]] and the [[Kepler conjecture]]. 
 
 More generally, they are being used to formalise and machine-verify large parts of mathematics as such, see the section _[Formalization of set-based mathematics](#FormalizationOfSetBasedMathematics)_ below. 
 
-One striking insight by [[Vladimir Voevodsky]] was that Coq naturally lends itself also to a formalization of higher mathematics that is founded not on sets, but on [[higher category theory]] and [[homotopy theory]]. For this see below the section _[Homotopy type theory](#HomotopyTypeTheory)_.
+One striking insight by [[Vladimir Voevodsky]] was that Rocq naturally lends itself also to a formalization of higher mathematics that is founded not on sets, but on [[higher category theory]] and [[homotopy theory]]. For this see below the section _[Homotopy type theory](#HomotopyTypeTheory)_.
 
 
 
@@ -39,21 +40,21 @@ Projects include
 
 ### Formalized proofs
 
-Major [[theorems]] whose [[proofs]] have been fully formalized in Coq include
+Major [[theorems]] whose [[proofs]] have been fully formalized in Rocq include
 
 * [[Feit-Thompson theorem]]
 
 ### Homotopy type theory
   {#HomotopyTypeTheory}
 
-For Coq-projects in [[homotopy type theory]] see the section [Code](homotopy+type+theory#Code).
+For Rocq-projects in [[homotopy type theory]] see the section [Code](homotopy+type+theory#Code).
 
 
 
 ## Related entries
  {#RelatedEntries}
 
-* Coq uses the _[[Gallina specification language]]_ for specifying [[theories]].
+* Rocq uses the _[[Gallina specification language]]_ for specifying [[theories]].
 
 * and it uses a version of the *[[calculus of constructions]]* to implement [[natural deduction]].
 
@@ -70,7 +71,7 @@ For Coq-projects in [[homotopy type theory]] see the section [Code](homotopy+typ
 ### General
  {#ReferencesGeneral}
 
-* [Coq home page](http://coq.inria.fr/)
+* [Rocq home page](https://rocq-prover.org/)
 
 * {#jsCoq} [JsCoq](https://x80.org/rhino-coq/), a ready-to-use online Coq environment
 
@@ -123,4 +124,8 @@ Formalization of [[internal categories in homotopy type theory]]:
 
 category: software
 
+[[!redirects Coq]]
 [[!redirects coq]]
+
+[[!redirects Rocq]]
+[[!redirects rocq]]
