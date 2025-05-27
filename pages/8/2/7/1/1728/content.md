@@ -408,6 +408,8 @@ Discussion of [[topological defects]] of higher [[codimension]]  in [[gauge theo
 * {#PreskillVilenkin92} [[John Preskill]], [[Alexander Vilenkin]]: *Decay of Metastable Topological Defects*, Phys. Rev. D **47** (1993) 2324-2342 &lbrack;[arXiv:hep-ph/9209210](http://arxiv.org/abs/hep-ph/9209210), [doi:10.1103/PhysRevD.47.2324](https://doi.org/10.1103/PhysRevD.47.2324)&rbrack;
  
 * {#VilenkinShellard94} [[Alexander Vilenkin]], E. P. S. Shellard: *Cosmic strings and other topological defects*, Cambridge University Press (1994) &lbrack;[ISBN:9780521654760](https://www.cambridge.org/us/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/cosmic-strings-and-other-topological-defects?format=PB&isbn=9780521654760)&rbrack;
+
+* Minoru Eto, Youichi Isozumi, Muneto Nitta, Keisuke Ohashi, Norisuke Sakai. *Instantons in the Higgs Phase* (2004). ([arXiv:hep-th/0412048](https://arxiv.org/abs/hep-th/0412048)).
  
 
 
