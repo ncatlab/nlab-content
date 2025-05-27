@@ -15,6 +15,10 @@ On [[global equivariant homotopy theory]] and [[cohesive homotopy theory]] appli
 
 * [[Adrian Clough]], [[Bastiaan Cnossen]], [[Sil Linskens]]: *Global spaces and the homotopy theory of stacks* &lbrack;[arXiv:2407.06877](https://arxiv.org/abs/2407.06877)&rbrack;
 
+On an approach to the [[six functor formalism]] via the universality of certain $(\infty, 2)$-categories of [[higher correspondences]]:
+
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Universality of span 2-categories and the construction of 6-functor formalisms_ &lbrack;[arXiv:2505.19192](https://arxiv.org/abs/2505.19192)&rbrack;
+
 
 
 category:people
