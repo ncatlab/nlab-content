@@ -34,14 +34,13 @@ U \times E_x & \cong & p^{-1}(U) & \to & E\\
 }$$
 (the square is a pullback and the isomorphism maps $(x, e \in E_x) \mapsto e$). 
 
-Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$ of the [[slice category]] of [[Top]] over $B$, the _[[category of covering spaces]]_.
+Covering spaces over $B$ form an evident [[full subcategory]] $Cov_B \hookrightarrow Top/B$ of the [[slice category]] of [[Top]] over $B$, the _[[category of covering spaces]]_.
 
 +-- {: .num_remark}
 ###### Remark
 
-A composition of covering spaces $X \to Y \to S$ is [not necessarily a covering space](https://math.stackexchange.com/questions/989083/is-composition-of-covering-maps-covering-map).
-
-However, [[locally path-connected]] and [[semilocally simply-connected spaces]] with covering maps as morphisms do form a [[category]].  (See, for example, [Jerzak](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2008/REUPapers/Jerzak.pdf).)
+A composition of covering spaces $X \to Y \to S$ is not necessarily a covering space (see example&nbsp;2.8 in [Jerzak’s notes](#Jerzak) for a counterexample).
+However, [[locally path-connected]] and [[semilocally simply-connected spaces]] with covering maps as morphisms do form a [[category]] (e.g. theorem&nbsp;2.11 of Jerzak’s notes), in which case we even have $Cov_X = Cov/X$ (by lemma&nbsp;1 of §2.5 of [Spanier 1966](#Spanier1966)).
 
 =--
 
@@ -895,7 +894,7 @@ This means that $f$ induces a [[natural transformation]] between the monodromy f
 $$
   Fib
    \;\colon\;
-  Cov(X)
+  Cov_X
     \longrightarrow
   Set^{\Pi_1(X)}
   \,.
@@ -963,7 +962,7 @@ Given a [[permutation representation]] of the [[fundamental groupoid]]
 of a locally path-connected and semi-locally simply connected space, there is a construction of _[[reconstructing covering spaces from monodromy]]_, which is a [[functor]] of the form
 
 $$
-  Rec \;\colon\; Set^{\Pi_1(X)} \longrightarrow Cov(X)
+  Rec \;\colon\; Set^{\Pi_1(X)} \longrightarrow Cov_X
   \,.
 $$
 
@@ -985,7 +984,7 @@ Let $X$ be a [[locally path-connected topological space|locally path-connected]]
 constitute an [[adjoint equivalence|adjoint]] [[equivalence of categories]]
 
 $$
-  Cov(X)
+  Cov_X
     \underoverset
       {\underset{Fib}{\longrightarrow}}
       {\overset{Rec}{\longleftarrow}}
@@ -1170,7 +1169,9 @@ A detailed treatment is available in
 Textbook accounts:
 
 
-* [[William S. Massey]], Chapter 5 of: *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)) 
+* [[William S. Massey]], Chapter 5 of: *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715))
+
+* {#Spanier1966} [[Edwin Spanier]], Chapter 2 of _Algebraic topology_, Springer 1966 &lbrack;[doi:10.1007/978-1-4684-9322-1](https://doi.org/10.1007/978-1-4684-9322-1)&rbrack;
 
 
 * {#tomDieck06} [[Tammo tom Dieck]], sections 2 an 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
@@ -1182,7 +1183,9 @@ Review
 
 * [[Ronnie Brown]], chapter 11 of _[Topology and Groupoids](http://pages.bangor.ac.uk/~mas010/topgpds.html)_
 
-* {#Dahlke} Karl Dahlke, _[Covering spaces, Building a universal cover](http://www.mathreference.com/at-cov,build.html)_ , [Math Reference Project](http://www.mathreference.com/) 
+* {#Dahlke} Karl Dahlke, _[Covering spaces, Building a universal cover](http://www.mathreference.com/at-cov,build.html)_ , [Math Reference Project](http://www.mathreference.com/)
+
+* {#Jerzak} Ethan Jerzak, _[Fundamental groups and covering spaces](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2008/REUPapers/Jerzak.pdf)_, notes for a REU project.
 
 Some of the problems of generalising covering spaces to deal with  wild spaces are dealt with in:
 
