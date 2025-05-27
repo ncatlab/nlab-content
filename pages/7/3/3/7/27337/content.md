@@ -41,8 +41,6 @@ In the second presentation of dependent type theory, the theory does not come wi
 
   3. The same goes with the weak large recursion principles: in the absence of either judgmental equality or identity types between types, the [[computation rules]] associated with large recursion principles state that one can construct an equivalence of types between certain types given in the [[elimination rules]] of the large recursion principles. With identity types between types, one can simply make use of an [[identification]] between types. 
 
-* With type variables, one can also define [[fibered heterogeneous identity types]] $x =_{X.C(X)}^{A, B} y$ over the type-indexed family $X \; \mathrm{type} \vdash C(X) \; \mathrm{type}$ parameterised by types $A$ and $B$. and between elements $x:C(A)$ and $y:C(B)$. With these fibered heterogeneous identity types and the univalence axiom mentioned in a previous point, one can prove the [[structure identity principle]] for a type structure $X \; \mathrm{type} \vdash \mathrm{struct}(X)$ between $x =_{X.\mathrm{struct}(X)}^{A, B} y$ and the type of structure preserving morphisms 
-
 Polymorphic dependent type theory with type variables is thus similar to [[System F]], which is a non-dependent [[polymorphism|polymorphic]] [[lambda calculus]] with type variables. 
 
 ## Definition
