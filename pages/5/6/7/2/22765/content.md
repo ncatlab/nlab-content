@@ -14,7 +14,7 @@
 
 ## Idea
 
-The idea of a symmetric cloaed midpoint algebra comes from [[Peter Freyd]]. 
+The idea of a symmetric closed midpoint algebra comes from [[Peter Freyd]]. 
 
 ## Definition
 
