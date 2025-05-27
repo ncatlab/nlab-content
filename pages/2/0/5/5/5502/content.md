@@ -239,6 +239,11 @@ Six operations formalism for [[rigid analytic geometry]] is in
 The abstract approach behind Mann's work is the subject of [Scholze (2022)](#Scholze22) and developed in
 
 * {#HeyerMann24} Claudius Heyer, [[Lucas Mann]], _6-Functor Formalisms and Smooth Representations_ &lbrack;[arXiv:2410.13038](https://arxiv.org/abs/2410.13038)&rbrack;
+
+An approach via the universality of certain $(\infty, 2)$-categories of [[higher correspondences]] is in:
+
+* [[Bastiaan Cnossen]], [[Tobias Lenz]], [[Sil Linskens]], _Universality of span 2-categories and the construction of 6-functor formalisms_ &lbrack;[arXiv:2505.19192](https://arxiv.org/abs/2505.19192)&rbrack;
+
  
 
 
