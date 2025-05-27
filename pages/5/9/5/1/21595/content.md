@@ -23,7 +23,7 @@
 A [[category]] is called _algebraically compact_ if for every [[endofunctor]] on it the respective  [[initial algebra of an endofunctor|initial algebra]] coincides with the [[final coalgebra]].
 
 
-Under [[categorical semantics]] of [[programming languages]] this condition ensures the existence of [[inductive-recursive types]] (e.g. [Zamdzhiev 20](#Zamdzhiev20)). For that, recall:
+Under [[categorical semantics]] of [[programming languages]] this condition ensures the existence of recursive types (e.g. [Zamdzhiev 20](#Zamdzhiev20)). For that, recall:
 
 In [[computer science]], a [[data type]] is often defined by an [[isomorphism]] of types $X\cong T(X)$ for some construction $T$ (an [[endofunctor]] on the [[category]] of types), namely as a [[fixed point]] of an endofunctor. (For example, the [[natural numbers]] may be defined -- see [there](inductive+type#NaturalNumbers) --  as being fixed $\mathbb{N} \cong \mathbb{N} + 1$ by the operation of [[disjoint union]] with a [[singleton]].) These are _[[inductive types]]_.
 
