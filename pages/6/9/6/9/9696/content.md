@@ -12,12 +12,17 @@ On [[magnetic monopoles]]:
 * [[John Preskill]], *Magnetic Monopoles*, Ann. Rev. Nucl. Part. Sci. **34** (1984) 461-530 &lbrack;[doi:10.1146/annurev.ns.34.120184.002333](https://doi.org/10.1146/annurev.ns.34.120184.002333)&rbrack;
 
 
+On [[topological defects]] of higher [[codimension]] in [[gauge theory]] (cf. [here](QFT+with+defects#DefectsFromBrokenSymmetry) at *[[QFT with defects]]*):
+
+* {#PreskillVilenkin92} [[John Preskill]], [[Alexander Vilenkin]]: *Decay of Metastable Topological Defects*, Phys. Rev. D **47** (1993) 2324-2342 &lbrack;[arXiv:hep-ph/9209210](http://arxiv.org/abs/hep-ph/9209210), [doi:10.1103/PhysRevD.47.2324](https://doi.org/10.1103/PhysRevD.47.2324)&rbrack;
+ 
+
+
 On [[vortex]]$\;$[[anyons]]:
 
 * [[Hoi-Kwong Lo]], [[John Preskill]], *Non-Abelian vortices and non-Abelian statistics*, Phys. Rev. D **48** (1993) 4821 &lbrack;[doi:10.1103/PhysRevD.48.4821](https://doi.org/10.1103/PhysRevD.48.4821)&rbrack;
 
 On [[topological quantum computation]]:
-
 
 * R. Walter Ogburn, [[John Preskill]], *Topological Quantum Computation*, in: *Quantum Computing and Quantum Communications*, Lecture Notes in Computer Science **1509**, Springer (1998) &lbrack;[doi:10.1007/3-540-49208-9_31](https://doi.org/10.1007/3-540-49208-9_31)&rbrack;
 
