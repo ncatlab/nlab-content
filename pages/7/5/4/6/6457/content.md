@@ -30,7 +30,7 @@ Let $k$ be a [[field]]. Write $LieAlg_k$ for the [[category]] of [[Lie algebras]
 +-- {: .num_defn #dgLieAlgebraOfASimplicialLieAlgebra}
 ###### Definition
 
-Let $(\mathfrak{g}, [-,-]$ be a simplicial Lie algebra according to def. \ref{CategoryOfSimplicialLieAlgebras}. Then the [[normalized chains complex]] $N \mmathfrak{g}$ of the underlying [[simplicial abelian group]] becomes a [[dg-Lie algebra]] by equipping it with the [[Lie bracket]] given by the following [[composition|composite]] morphisms
+Let $(\mathfrak{g}, [-,-])$ be a simplicial Lie algebra according to def. \ref{CategoryOfSimplicialLieAlgebras}. Then the [[normalized chains complex]] $N \mathfrak{g}$ of the underlying [[simplicial abelian group]] becomes a [[dg-Lie algebra]] by equipping it with the [[Lie bracket]] given by the following [[composition|composite]] morphisms
 
 $$
   [-,-]_{N \mathfrak{g}}
@@ -129,7 +129,7 @@ See also
 
 * Christian R&#252;schoff, section 8.3 of _relative algebraic $K$-theory and algebraic cyclic homology_ ([pdf](http://archiv.ub.uni-heidelberg.de/volltextserver/22305/1/Dissertation%20-%20Rueschoff.pdf))
 
-* &#304;. Ak&#231;a and Z. Arvasi, _Simplicial and crossed Lie algebras_ Homology Homotopy Appl. Volume 4, Number 1 (2002), 43-57. 
+* &#304;. Ak&#231;a and Z. Arvasi, _Simplicial and crossed Lie algebras_, Homology Homotopy Appl. Volume 4, Number 1 (2002), 43-57. 
 
 On the [[homotopy theory]] of simplicial Lie algebras see also
 
