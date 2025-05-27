@@ -47,7 +47,7 @@ $$
 
 written as multiplication or juxtaposition.  
 
-Then the _opposite magna_ $A^{op}$ (also denoted $A^*$ or $A^\perp$) has the same underlying set
+Then the _opposite magma_ $A^{op}$ (also denoted $A^*$ or $A^\perp$) has the same underlying set
 
 $$
   \left\vert A^{op} \right\vert
