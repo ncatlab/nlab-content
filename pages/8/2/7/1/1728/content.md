@@ -63,13 +63,13 @@ Given a [[symmetric monoidal (∞,n)-category]] $\mathcal{C}^\otimes$, then for 
 ### Topological defects from spontaneously broken symmetry
  {#DefectsFromBrokenSymmetry}
 
-> under construction
+An old notion of _[[defects]]_ in field theory -- well preceding the [above](#DefinitionGeneral) general notion in the context of [[FQFT]] -- is that of **[[topological defects]] in the [[vacuum]] structure of [[gauge theories]] that exhibit [[spontaneous symmetry breaking]] (such as a [[Higgs mechanism]]).
 
-An old notion of _defects_ in field theory -- well preceeding the [above](#DefinitionGeneral) general notion in the context of [[FQFT]] -- is that of **[[topological defects]] in the [[vacuum]] structure of [[gauge theories]] that exhibit [[spontaneous symmetry breaking]] (such as a [[Higgs mechanism]]).
+A comprehensive review is [Vilenkin & Shellard 1994](#VilenkinShellard94). Steps towards conceptually systematizing these broken-symmetry defects and their interaction are made by  [Preskill & Vilenkin 1992](#PreskillVilenkin92). We now discuss how this may be translated to and formalized in the general [[FQFT]] definition [above](#DefinitionGeneral) along the lines of [Fiorenza & Valentino](#FiorenzaValentino) and [FSS](#FSS).
 
-A comprehensive review in in ([Vilenkin-Shellard 94](#VilenkinShellard94). Steps towards conceptually systematizing these broken-symmetry defects and their interaction are made in [Preskill-Vilenkin 92](#PreskillVilenkin92). We now discuss this may be translated to and formalized in the general [[FQFT]] definition [above](#DefinitionGeneral) along the lines of ([Fiorenza-Valentino](#FiorenzaValentino), [FSS](#FSS)).
+\linebreak
 
-Let $G$ be a [[Lie group]], to be thought of as the (local or global) [[gauge group]] of some [[gauge theory]]. Let $H \hookrightarrow G$ a [[subgroup]], to be thought of as the subgroup of global symmetries preserved by some [[vacuum]] configuration (which "[[spontaneous symmetry breaking|spontaneously breaks]]" the symmetry from $G$ to $H$, the archetypical example is the [[Higgs mechanism]]). 
+Let $G$ be a [[Lie group]], to be thought of as the (local or global) [[gauge group]] of some [[gauge theory]]. Let $H \hookrightarrow G$ a [[subgroup]], to be thought of as the [[subgroup]] of global symmetries preserved by some [[vacuum]] configuration (which "[[spontaneous symmetry breaking|spontaneously breaks]]" the symmetry from $G$ to $H$, the archetypical example is the [[Higgs mechanism]]). 
 
 Then the space of such vacuum configurations is the [[coset]] space $G/H$. So given a [[manifold]] $X$ ([[spacetime]]), [[vacuum]] configuratons are given by [[functions]] $X \to G/H$. Hence $G/H_1$ is the "[[moduli space]] of vacua" or "vacuum space" in this context.
 
@@ -134,7 +134,7 @@ $$
   \,.
 $$
 
-So for every metastable defect of codimension $n-k$ given by $c \in ker(\pi_k(H_1/H_2) \to \pi_k(H_0/H_2))$ there is an element in $\pi_{k+1}(H_0/H_1)$ of one codimension higher. One says ([Preskill-Vilenkin 92](#PreskillVilenkin92)) that the codimenion $(n-k)$-defect may end on that codimension $(n-k-1)$-defect.
+So for every metastable defect of codimension $n-k$ given by $c \in ker(\pi_k(H_1/H_2) \to \pi_k(H_0/H_2))$ there is an element in $\pi_{k+1}(H_0/H_1)$ of one codimension higher. One says ([Preskill & Vilenkin 1992](#PreskillVilenkin92)) that the codimenion $(n-k)$-defect may end on that codimension $(n-k-1)$-defect.
 
 (...)
 
@@ -194,7 +194,7 @@ $$
 
 shows that the former models a $k$-disk whose center point carries a singularity: the fields at the bounding $S^{k-1}$ take values in the moduli space of the ambient theory $\Pi(H_1/H_2)$, but then at the tip of the "cap" there is a "field insertion" of a field with values in $\Pi(H_0/H_2)$. Hence this labels a defect of codimension $k$.
 
-To construct such a decay-process span that captures the above story from [Preskill-Vilenkin 92](#PreskillVilenkin92), consider the following diagram:
+To construct such a decay-process span that captures the above story from [Preskill & Vilenkin 1992](#PreskillVilenkin92), consider the following diagram:
 
 $$
   \array{
@@ -224,7 +224,7 @@ This may be read as follows:
 
 1. these decaying configurations are therefore given by the [[homotopy fiber product]] of the bottom two functions, which is $[\Pi(S^{k-1}), \Omega\Pi(H_0/H_1)]$, as indicated. But this space is really given by field configurations at energy scale $E_1$ that wind around a $(k+1)$-ball, as shown at the very top.
 
-Hence the top part of this diagram is a span that exhibits a defect-of-defects which tells just the story that ([Preskill-Vilenkin 92](#PreskillVilenkin92)) is telling: a codimension-$k$ defect of the low energy theory decays at higher energy, and the decay is witnessed by the appearance of a codimension $(k+1)$-defect of the high energy theory.
+Hence the top part of this diagram is a span that exhibits a defect-of-defects which tells just the story that ([Preskill & Vilenkin 1992](#PreskillVilenkin92)) is telling: a codimension-$k$ defect of the low energy theory decays at higher energy, and the decay is witnessed by the appearance of a codimension $(k+1)$-defect of the high energy theory.
 
 $$
   \array{
@@ -403,12 +403,11 @@ Defects in [[higher dimensional Chern-Simons theory]] on [[manifolds with corner
 
 The following references discuss the traditional notion of _[[topological defects]] in the [[vacuum]] structure of gauge theory with [[spontaneous symmetry breaking]]_ such as [[domain walls]], [[cosmic strings]] and [[monopoles]].
 
-Discussion of "topological defects in [[gauge theory]]" in higher codimension is in
+Discussion of [[topological defects]] of higher [[codimension]]  in [[gauge theory]]:
 
-* {#PreskillVilenkin92} [[John Preskill]], [[Alexander Vilenkin]], _Decay of Metastable Topological Defects_, Phys. Rev. D47 : 2324-2342 (1993) ([arXiv:hep-ph/9209210](http://arxiv.org/abs/hep-ph/9209210))
+* {#PreskillVilenkin92} [[John Preskill]], [[Alexander Vilenkin]]: *Decay of Metastable Topological Defects*, Phys. Rev. D **47** (1993) 2324-2342 &lbrack;[arXiv:hep-ph/9209210](http://arxiv.org/abs/hep-ph/9209210), [doi:10.1103/PhysRevD.47.2324](https://doi.org/10.1103/PhysRevD.47.2324)&rbrack;
  
-
-* {#VilenkinShellard94} [[Alexander Vilenkin]], E.P.S. Shellard, _Cosmic strings and other topological defects_, Cambridge University Press (1994)
+* {#VilenkinShellard94} [[Alexander Vilenkin]], E. P. S. Shellard: *Cosmic strings and other topological defects*, Cambridge University Press (1994) &lbrack;[ISBN:9780521654760](https://www.cambridge.org/us/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/cosmic-strings-and-other-topological-defects?format=PB&isbn=9780521654760)&rbrack;
  
 
 
