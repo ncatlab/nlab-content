@@ -20,7 +20,7 @@
 ## Definition
 
 Given a [[set]] $G$, an __$G$-graded vector space__ is a map $V$
-assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f\colon V \to W$ assigns to each element $g \in G$ a linear operator $f_g\colon V_g \to W_g$.  That is, the [[category]] of $G$-graded vector spaces is the [[functor category]] $Vect^G$.
+assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f\colon V \to W$ assigns to each element $g \in G$ a linear operator $f_g\colon V_g \to W_g$.
 
 We can just as easily talk about a __$G$-graded [[module]]__ or a __$G$-[[graded object]]__ in any [[category]].  However, a [[graded algebra]] has additional requirements (using a [[monoid]] structure on $G$, as below).
 
