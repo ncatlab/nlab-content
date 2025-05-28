@@ -15,7 +15,7 @@ Handlers have also been defined ([Lindley14](#Lindley14)) for more general effec
 
 * {#PlotPret13} [[Gordon Plotkin]], [[Matija Pretnar]], _Handling Algebraic Effects_, [arXiv:1312.1399](https://arxiv.org/abs/1312.1399)
 
-* Ohad Kammar, Sam Lindley, Nicolas Oury, _Handlers in Action_, [pdf](https://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf)
+* [[Ohad Kammar]], Sam Lindley, Nicolas Oury, _Handlers in Action_, [pdf](https://homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf)
 
 * Nicolas Wu, Tom Schrijvers, Ralf Hinze, _Effect Handlers in Scope_, [pdf](http://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf)
 
