@@ -159,7 +159,7 @@ The parts of algebra that we set aside at the end of the *idea* are not outside 
 
 ## References
 
-A comprehensive development of the theory is in
+A comprehensive development of the theory:
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
 
@@ -170,10 +170,15 @@ A comprehensive development of the theory is in
   * _[[Deformation Theory]]_
 
 
+Introduction:
 
-See also 
+* [[David Gepner]]: *An Introduction to Higher Categorical Algebra*, chapter in: *[[Handbook of Homotopy Theory]]*, CRC Press (2019) &lbrack;[arXiv:1907.02904](https://arxiv.org/abs/1907.02904), [doi:10.1201/9781351251624-13](https://www.taylorfrancis.com/chapters/edit/10.1201/9781351251624-13/introduction-higher-categorical-algebra-david-gepner)&rbrack;
 
-* [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, Mathematical surveys and monographs 47, American Mathematical Society, 1997
+See also :
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]]: _[[Rings, modules and algebras in stable homotopy theory]]_, Mathematical Surveys and Monographs **47**, American Mathematical Society (1997)
+
+and the references at *[[brave new algebra]]*.
 
 
 
