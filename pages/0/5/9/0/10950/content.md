@@ -58,7 +58,9 @@ The [[philosophy]] of [[physics]].
 * [[Lawrence Sklar]], _Philosophy of Physics_, Oxford University Press (1992)
 
 
-* [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press, 2005
+* [[Roland Omnès]], _[[Converging Realities -- Toward a common philosophy of physics and mathematics]]_, Princeton University Press (2005)
+
+* [[Dean Rickles]] (ed.): *The Ashgate Companion to Contemporary Philosophy of Physics*, Routledge (2008) &lbrack;[ISBN:9780754655183](https://www.routledge.com/The-Ashgate-Companion-to-Contemporary-Philosophy-of-Physics/Rickles/p/book/9780754655183)&rbrack;
 
 * {#Albert12} [[David Albert]], _[On the origin of Everything](http://www.nytimes.com/2012/03/25/books/review/a-universe-from-nothing-by-lawrence-m-krauss.html?_r=1&adxnnl=1&adxnnlx=1415727315-pCXR9NUmWeBxo+FViR+NlA)_, 2012
 
