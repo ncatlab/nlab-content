@@ -1,6 +1,11 @@
 
-* [website](https://www.math.purdue.edu/~dgepner/),
-[new website](http://math.soimeme.org/~davidgepner/)
+* [personal page](http://math.soimeme.org/~davidgepner/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=109720)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Gw8bjkEAAAAJ&hl=en)
+
+
 
 
 ## Selected writings
@@ -33,6 +38,9 @@ On [[noncommutative motives]] in terms of [[algebraic K-theory]]:
 
 * {#BlumbergGepnerTabuada10} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_,  Geometry and Topology 17 (2013) 733&#8211;838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282))
 
+On [[higher algebra]] in [[stable (infinity,1)-categories|stable $(\infty,1)$-categories]]:
+
+* [[David Gepner]]: *An Introduction to Higher Categorical Algebra*, chapter in: *[[Handbook of Homotopy Theory]]*, CRC Press (2019) &lbrack;[arXiv:1907.02904](https://arxiv.org/abs/1907.02904), [doi:10.1201/9781351251624-13](https://www.taylorfrancis.com/chapters/edit/10.1201/9781351251624-13/introduction-higher-categorical-algebra-david-gepner)&rbrack;
 
 
 ## Related entries
