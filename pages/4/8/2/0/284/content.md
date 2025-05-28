@@ -314,23 +314,22 @@ This sequence of maneuvers balances twin aims.  On the one hand, Toen's theorem 
 
 ### General
 
-For several years [[Andre Joyal]] -- who was one of the first to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive write-up of lecture notes does:
+For several years [[André Joyal]] -- who was one of the first to promote the idea that for studying [[higher category theory]] it is good to first study $(\infty,1)$-categories in terms of [[quasi-category|quasi-categories]] -- has been preparing a textbook on the subject. This still doesn't quite exist, but an extensive write-up of lecture notes does:
 
-* {#Joyal08} [[André Joyal]], *[[The Theory of Quasi-Categories and its Applications]]*, lectures at: _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, Quadern **45** 2, Centre de Recerca Matemàtica, Barcelona 2008 ( [[JoyalTheoryOfQuasiCategories.pdf:file]])
+* {#Joyal08} [[André Joyal]]: *[[The Theory of Quasi-Categories and its Applications]]*, lectures at: _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, Quadern **45** 2, Centre de Recerca Matemàtica, Barcelona (2008) &lbrack;[[JoyalTheoryOfQuasiCategories.pdf:file]]&rbrack;
 
-Further notes (where the term "[[logos]]" is used instead of [[quasi-category]]):
+Further notes (where the term *[[logos]]* is used instead of *[[quasi-category]]*):
 
-* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf), [[JoyalOnLogoi2008.pdf:file]])
+* {#Joyal08} [[André Joyal]]: _Notes on Logoi_ (2008) &lbrack;[pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf), [[JoyalOnLogoi2008.pdf:file]]&rbrack;
   
 
 Meanwhile [[Jacob Lurie]], building on Joyal's work, has considerably pushed the theory further. A comprehensive discussion of the theory of $(\infty,1)$-categories in terms of the models [[quasi-category]] and [[simplicially enriched category]] is
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+* [[Jacob Lurie]]: *[[Higher Topos Theory]]*, Annals of Mathematics Studies **170**, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)&rbrack;
 
-An brief exposition from the point of view of [[algebraic topology]] is in 
+A brief exposition from the point of view of [[algebraic topology]] is in:
 
-* [[Jacob Lurie]], _What is... an $\infty$-category?_, _Notices of the AMS_, September 2008 ([pdf](http://www.ams.org/notices/200808/tx080800949p.pdf)) 
-
+* [[Jacob Lurie]], _What is... an $\infty$-category?_, _Notices of the AMS_, (September 2008) &lbrack;[pdf](http://www.ams.org/notices/200808/tx080800949p.pdf)&rbrack;
 
 A useful comparison of the four [[model category]] structures on
 
@@ -409,7 +408,7 @@ A survey on various notions of [[homotopical categories]]:
 
 Also:
 
-* [[Markus Land]], *Introduction to Infinity-Categories*, Birkh&auml;user 2021 ([doi:10.1007/978-3-030-61524-6](https://link.springer.com/book/10.1007/978-3-030-61524-6))
+* [[Markus Land]], *Introduction to Infinity-Categories*, Birkh&auml;user (2021) &lbrack;[doi:10.1007/978-3-030-61524-6](https://link.springer.com/book/10.1007/978-3-030-61524-6)&rbrack;
 
 Lecture notes:
 
