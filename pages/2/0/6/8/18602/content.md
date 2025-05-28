@@ -134,13 +134,12 @@ Prediction to [[loop order]] 5 in [[QED]]:
 
 Comprehensive discussion for the [[muon]]:
 
-* T. Aoyama et al., _The anomalous magnetic moment of the muon in the Standard Model_ ([arXiv:2006.04822](https://arxiv.org/abs/2006.04822))
-
+* T. Aoyama et al., _The anomalous magnetic moment of the muon in the Standard Model_ &lbrack;[arXiv:2006.04822](https://arxiv.org/abs/2006.04822)&rbrack;
   > Discussion up to 12th [[loop order]] in section 6.3.
 
-* Alex Keshavarzi, Kim Siang Khaw, Tamaki Yoshioka, *Muon $g-2$: current status* ([arXiv:2106.06723](https://arxiv.org/abs/2106.06723))
+* Alex Keshavarzi, Kim Siang Khaw, Tamaki Yoshioka, *Muon $g-2$: current status* &lbrack;[arXiv:2106.06723](https://arxiv.org/abs/2106.06723)&rbrack;
 
-
+* *The anomalous magnetic moment of the muon in the Standard Model: an update* &lbrack;[arXiv:2505.21476](https://arxiv.org/abs/2505.21476)&rbrack;
 
 
 ### Experiment and deviation
