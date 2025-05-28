@@ -406,9 +406,9 @@ A survey on various notions of [[homotopical categories]]:
 
 * [[Emily Riehl]], _Homotopical categories: from model categories to (∞,1)-categories_, in: [[Andrew J. Blumberg]], [[Teena Gerhardt]], [[Michael A. Hill]] (eds,) *[[Stable categories and structured ring spectra]]*,  MSRI Book Series, Cambridge University Press ([arXiv:1904.00886](https://arxiv.org/abs/1904.00886))
 
-Also:
+Textbook account
 
-* [[Markus Land]], *Introduction to Infinity-Categories*, Birkh&auml;user (2021) &lbrack;[doi:10.1007/978-3-030-61524-6](https://link.springer.com/book/10.1007/978-3-030-61524-6)&rbrack;
+* [[Markus Land]]: *Introduction to Infinity-Categories*, Birkhäuser (2021) &lbrack;[doi:10.1007/978-3-030-61524-6](https://link.springer.com/book/10.1007/978-3-030-61524-6)&rbrack;
 
 Lecture notes:
 
