@@ -1,4 +1,4 @@
-This entry records the article
+This entry is to record the reference:
 
 * [[Stephan Stolz]], [[Peter Teichner]]: 
 
