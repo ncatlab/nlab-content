@@ -27,7 +27,7 @@ Introducing the modern theory of [[constrained mechanics|constrained]] [[Hamilto
 
   reprinted in:
 
-  Alexander S. Blum, Dean Rickles (eds.), Ch.34 in: *Quantum Gravity in the First Half of the Twentieth Century: A Sourcebook*, Edition Open Sources **10** (2018) 484-503 &lbrack;[doi:10.34663/9783945561317-00](https://edition-open-sources.org/sources/10/), [pdf](https://edition-open-sources.org/media/sources/10/36/sources10chap34.pdf)&rbrack;
+  Alexander S. Blum, [[Dean Rickles]] (eds.), Ch.34 in: *Quantum Gravity in the First Half of the Twentieth Century: A Sourcebook*, Edition Open Sources **10** (2018) 484-503 &lbrack;[doi:10.34663/9783945561317-00](https://edition-open-sources.org/sources/10/), [pdf](https://edition-open-sources.org/media/sources/10/36/sources10chap34.pdf)&rbrack;
 
 
 On a [[relativistic membrane]] [[model (in theoretical physics)|model]] for the [[electron]]:
