@@ -1,7 +1,12 @@
 
-* [Institute page](https://as.nyu.edu/faculty/alexander-migdal.html)
+* [personal page](https://alexandermigdal.com/)
+
+* [institute page](https://as.nyu.edu/faculty/alexander-migdal.html)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Alexander_Arkadyevich_Migdal)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Tjnr6kgAAAAJ&hl=en)
+
 
 
 ## Selected writings
