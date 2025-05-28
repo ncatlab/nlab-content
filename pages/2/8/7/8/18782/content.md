@@ -71,7 +71,7 @@ The monad can be regarded as a [[probability monad]], and  its [[Kleisli categor
 
 Quasi-Borel spaces were introduced in 
 
-* [[Chris Heunen]], Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Logic in Computer Science 2017 ([arXiv:1701.02547](https://arxiv.org/abs/1701.02547))
+* [[Chris Heunen]], [[Ohad Kammar]], [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Logic in Computer Science 2017 ([arXiv:1701.02547](https://arxiv.org/abs/1701.02547))
 
 [[!redirects quasi-Borel spaces]]
 [[!redirects quasi-Borel structure]]
