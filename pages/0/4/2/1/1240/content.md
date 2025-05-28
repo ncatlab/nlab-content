@@ -560,7 +560,7 @@ Moreover, the following inspection shows that the claimed operation $\widehat{(-
     }
 \end{imagefromfile}
 
-> (To note here that the [[natural transformation]] in the middle is indeed well-defined, due to the the [[intertwiner|intertwining]]-property of the [[homomorphism]] $\eta$ of [[linear representations]].)
+> (To note here that the [[natural transformation]] in the middle is indeed well-defined, due to the [[intertwiner|intertwining]]-property of the [[homomorphism]] $\eta$ of [[linear representations]].)
 
 Hence by the [[2-out-of-3]]-property enjoyed by [[equivalences of groupoids]] (cf. the [[canonical model structure on groupoids]]) it follows that $\widehat{(-)}$ is an equivalence, as claimed.
 \end{proof}
