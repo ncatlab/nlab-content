@@ -7,7 +7,7 @@ Timothy P. Killingback
 
 ## Selected writings
 
-Identifying the spinorial [[anomaly cancellation]] of the [[heterotic string]] [[sigma model]] with (what came to be called) ([[twisted string structure|twisted]]) [[string structure]] and hence with a lift of the [[Green-Schwarz anomaly cancellation]]-condition (trivialization of the [[first fractional Pontrjagin class]] of the [[tangent bundle]] minus the [[second Chern class]] of the gauge bundle) from [[de Rham cohomology]]/[[real cohomology]] to [[integral cohomology]]:
+Identifying the spinorial [[anomaly cancellation]] of the [[heterotic string]] [[sigma model]] with ([[twisted string structure|twisted]]) [[string structure]] (and coining that term) and hence with a lift of the [[Green-Schwarz anomaly cancellation]]-condition (trivialization of the [[first fractional Pontrjagin class]] of the [[tangent bundle]] minus the [[second Chern class]] of the gauge bundle) from [[de Rham cohomology]]/[[real cohomology]] to [[integral cohomology]]:
 
 * [[Timothy Killingback]]: *World-sheet anomalies and loop geometry*, Nuclear Physics B **288** 578-588 (1987) \[<a href="https://doi.org/10.1016/0550-3213(87)90229-X">doi:10.1016/0550-3213(87)90229-X</a>, [inSpire:237516](https://inspirehep.net/literature/237516), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1987/8704/8704177.pdf)\]
 
