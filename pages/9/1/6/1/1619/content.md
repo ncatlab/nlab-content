@@ -369,27 +369,27 @@ The rest of the diagram is constructed in order to prove the following:
 
 The relevance of String structures (like that of Spin structures half a century before) was recognized in the physics of spinning strings, therefore the name.
 
-The article
+The coinage "string structure" is due to p. 11 of:
 
-* [[Timothy Killingback|T.P. Killingback]], _World-sheet anomalies and loop geometry_ Nuclear Physics B Volume 288, 1987, Pages 578-588 [doi:10.1016/0550-3213(87)90229-X](https://doi.org/10.1016/0550-3213%2887%2990229-X)
+* [[Timothy Killingback]]: *World-sheet anomalies and loop geometry*, Nuclear Physics B **288** 578-588 (1987) \[<a href="https://doi.org/10.1016/0550-3213(87)90229-X">doi:10.1016/0550-3213(87)90229-X</a>, [inSpire:237516](https://inspirehep.net/literature/237516), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1987/8704/8704177.pdf)\]
 
-was (it seems) the first to derive the Green-Schwarz anomaly cancellation condition of the effective background theory as the [[quantum anomaly]] cancellation condition for the worldsheet theory of the heterotic string's [[sigma-model]] by direct generalization of the way the condition of a [[spin structure]] may be deduced from anomaly cancellation for the superparticle.
+which was the first to derive the Green-Schwarz anomaly cancellation condition of the effective background theory as  (the rational shadow of) the [[quantum anomaly]] cancellation condition for the [[worldsheet]] theory of the [[heterotic string]]'s [[sigma-model]], by direct generalization of the way the condition of a [[spin structure]] may be deduced from anomaly cancellation for the superparticle, and to argue -- cf. equation (8) -- that the condition is the vanishing of $\tfrac{1}{2}p_1 (- c_2)$ not just in [[rational cohomology]]/[[de Rham cohomology]] (as was known by the [[Green-Schwarz anomaly cancellation]]) but in [[integral cohomology]].
 
-String stuctures had at that time been discussed in terms of their transgressions to loop spaces
+String sructures had at that time been discussed in terms of their [[transgressions]] to the [[free loop space]]:
 
 * {#WittenIndexLoopSpace} [[Edward Witten]], _The Index of the Dirac Operator in Loop Space_, In: Landweber, P.S. (eds) Elliptic Curves and Modular Forms in Algebraic Topology (Princeton, N.J., Sep 1986). Lecture Notes in Mathematics **1326**  (1988) Springer, Berlin, Heidelberg. [doi:10.1007/BFb0078045](https://doi.org/10.1007/BFb0078045)
 
+* {#WittenElliptic} [[Edward Witten]], _Elliptic Genera and Quantum Field Theory_, Commun. Math. Phys. **109** (1987) 525–536 &lbrack;[doi:10.1007/BF01208956](https://doi.org/10.1007/BF01208956)&rbrack:
 
-* {#WittenElliptic} [[Edward Witten]], _Elliptic Genera and Quantum Field Theory_, Commun. Math. Phys. **109** (1987) 525–536 [doi:10.1007/BF01208956](https://doi.org/10.1007/BF01208956)
+* R. Coquereaux, K. Pilch: *String structures on loop bundles*, Commun. Math. Phys. **120** (1989) 353–378 (1989) &lbrack;[doi:10.1007/BF01225503](https://doi.org/10.1007/BF01225503)&rbrack;
 
+The formulation in terms of an lift to the [[string 2-group]] was popularized by:
 
-later it was reformulated in terms of the classes down on base space just mentioned in
-
-* [[Stefan Stolz]], [[Peter Teichner]], [What is an elliptic object](http://math.ucr.edu/home/baez/qg-winter2007/Oxford.pdf).
+* [[Stefan Stolz]], [[Peter Teichner]]: *[[What is an elliptic object?]]*, in: _Topology, geometry and quantum field theory_, London Math. Soc. LNS **308**, Cambridge Univ. Press (2004) 247-343 &lbrack;[pdf](https://math.berkeley.edu/~teichner/Papers/Oxford.pdf), [[Stolz-Teichner_EllipticObject.pdf:file]]&rbrack;
 
 The relation between the two pictures is analyzed for instance in
 
-* A. Asada, _Characteristic classes of loop group bundles and generalized string classes_ , Differential geometry and its applications (Eger, 1989), 33--66, Colloq. Math. Soc. J&#225;nos Bolyai, 56, North-Holland, Amsterdam, 1992. ([[Asada.pdf:file]])
+* A. Asada: _Characteristic classes of loop group bundles and generalized string classes_ , Differential geometry and its applications (Eger, 1989), 33--66, Colloq. Math. Soc. J&#225;nos Bolyai, 56, North-Holland, Amsterdam, 1992. ([[Asada.pdf:file]])
 
 A precise formulation of Killingback's original argument in [[differential K-theory]] appeared in 
 
