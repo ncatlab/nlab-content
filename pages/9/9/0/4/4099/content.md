@@ -13,7 +13,6 @@
 =--
 =--
 
-# Discrete morphisms
 * table of contents
 {: toc}
 
