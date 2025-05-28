@@ -599,10 +599,9 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 * {#Polyakov08} [[Alexander M. Polyakov]], *From Quarks to Strings* &lbrack;[arXiv:0812.0183](https://arxiv.org/abs/0812.0183)&rbrack;
 
   published as *Quarks, strings and beyond*, section 44 in: [[Paolo Di Vecchia]] et al. (ed.), *The Birth of String Theory*, Cambridge University Press (2012) 544-551 &lbrack;[doi:10.1017/CBO9780511977725.048](https://doi.org/10.1017/CBO9780511977725.048)&rbrack;
-
   > (on [[gauge/string duality]])
 
-* Dean Rickles, *A Brief History of String Theory*, Springer (2014) &lbrack;[doi:10.1007/978-3-642-45128-7](https://doi.org/10.1007/978-3-642-45128-7)&rbrack;
+* [[Dean Rickles]], *A Brief History of String Theory*, Springer (2014) &lbrack;[doi:10.1007/978-3-642-45128-7](https://doi.org/10.1007/978-3-642-45128-7)&rbrack;
 
 * {#Schwarz16} [[John Schwarz]], _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](https://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2016/main/Schwarz.pdf), [[SchwarzString2016.pdf:file]])
 
