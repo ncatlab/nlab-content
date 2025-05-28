@@ -18,6 +18,8 @@ The _[swampland cobordism conjecture](swampland#SwamplandCobordismConjecture)_ i
 
 * [[Ralph Blumenhagen]], Christian Kneissl, Chuying Wang, *Dynamical Cobordism Conjecture: Solutions for End-of-the-World Branes*, J. High Energ. Phys.**2023** (2023) 123 \[<a href="https://arxiv.org/abs/2303.03423">arXiv:2303.03423</a>, <a href="https://doi.org/10.1007/JHEP05(2023)123">doi:10.1007/JHEP05(2023)123</a>\]
 
+* Noah Braeger, [[Arun Debray]], [[Markus Dierigl]], [[Jonathan J. Heckman]], [[Miguel Montero]], *Cobordism Utopia: U-Dualities, Bordisms, and the Swampland* &lbrack;[arXiv:2505.15885](https://arxiv.org/abs/2505.15885)&rbrack;
+
 
 Relation to [[topological K-theory]] and [[D-brane charge quantization in K-theory]]:
 
