@@ -169,17 +169,23 @@ Early mentioning of potential breakdown of classical geometry at microscopic sca
   > &lbrack;[§III.3](https://ncatlab.org/nlab/files/Riemann-OnTheHypotheses.pdf#page=11)&rbrack; *Now it seems that the empirical notions on which the metric determinations of Space are based, the concept of a solid body and a light ray, lose their validity in the infinitely small; it is therefore quite definitely conceivable that the metric relations of Space in the infinitely small do not conform to the hypotheses of geometry; and in fact, one ought to assume this as soon as it permits a simpler way of explaining phenomena.*
 
 
-
 Original discussion of the [[Wheeler-DeWitt equation]]:
 
 * {#DeWitt67} [[Bryce DeWitt]], (5.5) in:  *Quantum Theory of Gravity. I. The Canonical Theory*, Phys. Rev. **160** (1967) 1113 &lbrack;[doi:10.1103/PhysRev.160.1113](https://doi.org/10.1103/PhysRev.160.1113)&rbrack;
 
-For further early discussion of the subject see pointers in:
+Compilation of early articles:
+
+* Alexander S. Blum, [[Dean Rickles]] (eds.): *Quantum Gravity in the First Half of the Twentieth Century*, Sources **10**, Edition Open Access (2018) &lbrack;[doi:10.34663/9783945561317-00](https://edition-open-sources.org/sources/10/), [pdf](https://edition-open-sources.org/media/sources/10/sources10.pdf)&rbrack;
+
+
+Accounts of the early history of the subject:
 
 * [[Cécile DeWitt-Morette]], *The Pursuit of Quantum Gravity -- Memoirs of Bryce DeWitt from 1946 to 2004*, Springer (2011) &lbrack;[doi:10.1007/978-3-642-14270-3_4](https://doi.org/10.1007/978-3-642-14270-3_4)&rbrack;
 
+* [[Dean Rickles]]: *Covered with Deep Mist -- The Development of Quantum Gravity (1916-1956)*, Oxford University Press (2020) &lbrack;[ISBN:9780199602957](https://global.oup.com/academic/product/covered-with-deep-mist-9780199602957), [oup:40408](https://academic.oup.com/book/40408)&rbrack;
 
-Some of the standard lore concerning necessity of and the problems of quantum gravity:
+
+On the standard lore concerning necessity of and the problems of quantum gravity:
 
 * [[Steve Carlip]]: _Quantum Gravity: a Progress Report_ &lbrack;[arXiv:gr-qc/0108040](http://arxiv.org/abs/gr-qc/0108040)&rbrack;
 
