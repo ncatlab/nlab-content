@@ -106,12 +106,20 @@ but it was already described earlier by others such as Seppo Linnainmaa:
 
 * [[Seppo Linnainmaa]], The representation of the cumulative rounding error of an algorithm as a Taylor expansion of the local rounding errors. Master's Thesis (in Finnish), Univ. Helsinki. 1970.
 
-A categorical analysis of (non-interleaved) forward and reverse AD is given by 
+A categorical analysis of (non-interleaved) forward and reverse AD (CHAD) is given by 
 
-* [[Matthijs Vákár]], CHAD: Combinatory Homomorphic Automatic Differentiation. 2021. [arXiv preprint 2103.15776](https://arxiv.org/abs/2103.15776) [Haskell implementation](https://github.com/VMatthijs/CHAD; funded by European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 895827) 
+* [[Matthijs Vákár]], Reverse AD at Higher Types: Pure, Principled and Denotationally Correct 2021. [arXiv preprint 2007.05283](https://arxiv.org/abs/2007.05283) 
 
-* [[Fernando Lucatelli Nunes]], [[Matthijs Vákár]], CHAD for Expressive Total Languages. 2021. [arXiv preprint 2110.00446] (https://arxiv.org/abs/2110.00446; funded by European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 895827) 
+* [[Fernando Lucatelli Nunes]], [[Matthijs Vákár]], CHAD for Expressive Total Languages. 2021. [arXiv preprint 2110.00446] (https://arxiv.org/abs/2110.00446), [Math. Struct. Comput. Sci. 33, No. 4--5, 311--426 (2023)] (https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/chad-for-expressive-total-languages/930FC0D594612D06166D836FBA596F8F?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark). 
 
-A categorical analysis of (interleaved) forward mode AD for calculating higher order derivatives is given by 
+CHAD was extended to languages featuring non-termination (and iteration) in:
 
-* [[Mathieu Huot]], [[Sam Staton]], [[Matthijs Vákár]], Higher Order AD of Higher Order Functions. 2021. [arXiv preprint 2101.06757](https://arxiv.org/abs/2101.06757; funded by European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 895827) 
+* [[Fernando Lucatelli Nunes]], [[Gordon Plotkin]], [[Matthijs Vákár]], Unraveling the iterative CHAD. 2025. [arXiv preprint 2505.15002] (https://www.arxiv.org/abs/2505.15002)
+
+A categorical analysis of (interleaved) forward mode (dual numbers) AD for calculating higher order derivatives is given by 
+
+* [[Mathieu Huot]], [[Sam Staton]], [[Matthijs Vákár]], Higher Order AD of Higher Order Functions. 2021. [arXiv preprint 2101.06757](https://arxiv.org/abs/2101.06757) 
+
+The extension of the work above to reversed mode (dual numbers) and to (realistic) languages featuring recursive types can be found in:
+
+* [[Fernando Lucatelli Nunes]], [[Matthijs Vákár]], Automatic Differentiation for ML-family languages: correctness via logical relations. 2022. [arXiv preprint 2210.07724](https://arxiv.org/abs/2210.07724), [Math. Struct. Comput. Sci. 34, No. 8, 747--806 (2024)] (https://www.cambridge.org/core/journals/mathematical-structures-in-computer-science/article/automatic-differentiation-for-mlfamily-languages-correctness-via-logical-relations/6D01A27CF59D9C53DF327B7A998D4FCA?utm_campaign=shareaholic&utm_medium=copy_link&utm_source=bookmark).  
