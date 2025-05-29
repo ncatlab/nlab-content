@@ -40,11 +40,17 @@ proteins.
 
 * [[Kadomtsev-Petviashvili equation]]
 
+
+
 ## Refereneces
 
 > (See also the general references at *[[non-perturbative quantum field theory]]*.)
 
 * [[Ramamurti Rajaraman]]: *Solitons and Instantons: An Introduction to Solitons and Instantons in Quantum Field Theory*, North Holland (1984) &lbrack;ISBN:9780444862297, [spire:181162](https://inspirehep.net/literature/181162)&rbrack;
+
+* [[Nicholas Manton]], [[Paul Sutcliffe]]: *Topological Solitons*, Cambridge University Press (2004) &lbrack;[doi:10.1017/CBO9780511617034](https://doi.org/10.1017/CBO9780511617034), [inSpire:660150](https://inspirehep.net/literature/660150), [pdf](http://www.lmpt.univ-tours.fr/~volkov/Manton-Sutcliffe.pdf)&rbrack;
+
+* [[Nicholas Manton]]: *Topological Solitons*, lecture notes, Wolfersdorf (2007) &lbrack;[pdf](https://saalburg.aei.mpg.de/wp-content/uploads/sites/25/2017/03/manton.pdf), [[Manton-TopologicalSolitons.pdf:file]]&rbrack;
 
 * [[Anthony Zee]]: Section V.6 of: *Quantum Field Theory in a Nutshell* 2nd ed. , Princeton University Press (2010) &lbrack;[ISBN:9780691140346](https://press.princeton.edu/books/hardcover/9780691140346/quantum-field-theory-in-a-nutshell?srsltid=AfmBOoovOHTlGiQ8S-JqFUpn26ihzhfNQocoId3eN9SUZ8WYL83oyKG0)&rbrack;
 
