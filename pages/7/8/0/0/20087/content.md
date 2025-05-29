@@ -45,6 +45,13 @@ On constructing [[Skyrmions]] from [[instantons]] in [[D=5 Yang-Mills theory]] (
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
 
+On [[solitons]]:
+
+* [[Nicholas Manton]], [[Paul Sutcliffe]]: *Topological Solitons*, Cambridge University Press (2004) &lbrack;[doi:10.1017/CBO9780511617034](https://doi.org/10.1017/CBO9780511617034), [inSpire](https://inspirehep.net/literature/660150), [pdf](http://www.lmpt.univ-tours.fr/~volkov/Manton-Sutcliffe.pdf)&rbrack;
+
+* [[Nicholas Manton]]: *Topological Solitons*, lecture notes, Wolfersdorf (2007) &lbrack;[pdf](https://saalburg.aei.mpg.de/wp-content/uploads/sites/25/2017/03/manton.pdf), [[Manton-TopologicalSolitons.pdf:file]]&rbrack;
+
+
 
 On [[Skyrmion]] [[model (in theoretical physics)|model]] for [[carbon]] [[nucleus]]:
 
