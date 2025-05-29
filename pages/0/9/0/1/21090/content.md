@@ -661,7 +661,7 @@ In cartesian monoidal categories, no randomness is present (as defined below), a
 
 \begin{remark}
 Note that, while the copy-discard structure of *Set* and of other cartesian monoidal categories may seem trivial, it is not.
-The copy map is implicitly used whenever we are *reusing* a variable in an expression. For example, every function $f:X\times X\to Y$ also defines a function $f':X\to Y$ by just "pluggin in $x$ twice": 
+The copy map is implicitly used whenever we are *reusing* a variable in an expression. For example, every function $f:X\times X\to Y$ also defines a function $f':X\to Y$ by just "plugging in $x$ twice": 
 $$
 f'(x) = f(x,x) .
 $$
@@ -981,7 +981,7 @@ has the interpretation of a _probability measure_ on $X$, or in terms of informa
 This reflect the intuition in our main examples:
 
 * In [[FinStoch]], a state is exactly a $n\times 1$ stochastic matrix, i.e. a column vector whose entries sum to one. In other words, it is exactly a (discrete) probability distribution on $X$, of entries $p(x)$.
-* In [[Stoch]], a state es exactly a probability measure on a measurable space $(X,\mathcal{A})$, of values $p(A)$ for $A\in\mathcal{A}$. 
+* In [[Stoch]], a state is exactly a probability measure on a measurable space $(X,\mathcal{A})$, of values $p(A)$ for $A\in\mathcal{A}$. 
 * In [[Set]] (no randomness!), a state is exactly a function $1\to X$, i.e. a point $x$ of $X$. 
 
 Let's now turn to morphisms:
