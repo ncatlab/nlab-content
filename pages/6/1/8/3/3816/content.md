@@ -30,7 +30,7 @@ proteins.
 
 ## Related concepts
 
-* [[vortex]], [[instanton]], [[caloron]], [[skyrmion]]
+* [[vortex]], [[instanton]], [[caloron]], [[Skyrmion]], [[Hopfion]]
 
 * [[integrable model]], [[Korteweg de Vries equation]]
 
