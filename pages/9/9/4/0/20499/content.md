@@ -27,13 +27,15 @@ Similar Hopf terms can be considered in all dimensions $4k+2$ ([TN 89](#TN89)).
 
 ## Related concepts
 
+* [[Hopfion]]
+
 * [[Hopf invariant]], [[Hopf invariant one theorem]]
 
 * [[Whitehead integral formula]]
 
 * [[functional cup product]]
 
-* [[M-theory]]
+* [[M5-brane]] in [[M-theory]]
 
 ## References
 
