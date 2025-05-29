@@ -3,7 +3,16 @@
 
 * Wikipedia entry: in [English](http://en.wikipedia.org/wiki/Ludvig_Faddeev), [Russian](http://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B4%D0%B4%D0%B5%D0%B5%D0%B2,_%D0%9B%D1%8E%D0%B4%D0%B2%D0%B8%D0%B3_%D0%94%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%B8%D1%87)
 
-## Writings
+## Selected writings
+
+Introducing what came to be called the [[Skyrme-Fadeev model]] and its *[[Hopfion]]* [[solitons]]:
+
+* {#Fadeev75} [[Ludwig D. Faddeev]]: *Quantization of Solitons*, talk at [ICHEP 76](https://inspirehep.net/conferences/964007) (1975) &lbrack;[inSpire:2631](https://inspirehep.net/literature/2631)&rbrack;
+
+* {#FadeevNiemi97} [[Ludwig D. Faddeev]], [[Antti J. Niemi]]: *Knots and Particles*, Nature **387** (1997) 58–61 &lbrack;[arXiv:hep-th/9610193](https://arxiv.org/abs/hep-th/9610193), [doi:10.1038/387058a0](https://doi.org/10.1038/387058a0)&rbrack;
+
+* [[Ludwig D. Faddeev]]: *Knotted solitons*, Proceedings of the ICM, Beijing 2002, vol. 1, 235-244 &lbrack;[arXiv:math-ph/0212079](https://arxiv.org/abs/math-ph/0212079), [pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM2002.1/ICM2002.1.ocr.pdf)&rbrack;
+
 
 On [[discrete Heisenberg groups]] motivated from $U(1)$-[[current algebra]]:
 
