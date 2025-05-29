@@ -25,6 +25,10 @@ By "$\mathbb{C}P^N$-models" one refers to ([[TQFT|topological]]) [[sigma-models]
 properties with [[QCD]] in 3+1 dimensions, among them [[confinement]], [[asymptotic freedom]], [[instantons]], a [[large-N limit|$1/N$ expansion]], a topological charge, and a [[theta angle|θ-term]]. Thus, they serve as benchmark models for developing and testing both new numerical techniques and new proposed solutions to open questions of QCD. Both the $CP(N-1)$ models and QCD contain many [[nonperturbative phenomena]], which cannot be addressed
 with conventional [[lattice field theory|lattice]] techniques."
 
+## Related concepts
+
+* [[Hopfion]]
+
 ## References
 
 ### $\mathbb{C}P^N$-models
