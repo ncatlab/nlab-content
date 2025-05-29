@@ -43,6 +43,10 @@ On [[solitons]]:
 
 * [[Nicholas Manton]], [[Paul Sutcliffe]]: *Topological Solitons*, Cambridge University Press (2004) &lbrack;[doi:10.1017/CBO9780511617034](https://doi.org/10.1017/CBO9780511617034), [inSpire](https://inspirehep.net/literature/660150), [pdf](http://www.lmpt.univ-tours.fr/~volkov/Manton-Sutcliffe.pdf)&rbrack;
 
+On *[[Hopfion]]* [[solitons]] in the [[Skyrme-Fadeev model]]:
+
+* [[Paul Sutcliffe]]: *Knots in the Skyrme-Faddeev model*, Proc. R. Soc. A **463** (2007) 3001–3020 &lbrack;[arXiv:0705.1468](https://arxiv.org/abs/0705.1468), [doi:10.1098/rspa.2007.0038](https://doi.org/10.1098/rspa.2007.0038)&rbrack;
+
 
 On [[skyrmions]] as [[model (in theoretical physics)|models]] of [[atomic nuclei]]:
 
