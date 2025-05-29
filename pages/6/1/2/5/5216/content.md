@@ -38,5 +38,8 @@ This observation first appears in Example 1.5(k) of
 
 *  [[Steve Lack]], _A 2-categories companion_, in: John C. Baez and J. Peter May (Eds) Towards Higher Categories, The IMA Volumes in Mathematics and its Applications, vol 152, Springer, 2009, doi:[10.1007/978-1-4419-1524-5_4](https://doi.org/10.1007/978-1-4419-1524-5_4), [arXiv:math/0702535](https://arxiv.org/abs/math/0702535).
 
+The observation that instances generally arise from [[Kleisli bicategories]] is in:
+
+* [[Nathanael Arkor]], [[Philip Saville]], Andrew Slattery, *Bicategories of algebras for relative pseudomonads*, [arXiv:2501.12510](https://arxiv.org/abs/2501.12510)
 
 [[!redirects Lack's coherence theorem]]
