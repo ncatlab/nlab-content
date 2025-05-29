@@ -309,6 +309,8 @@ The Hopf fibrations over other [[normed division algebras]] also figure in the m
 
 * [[Hopf invariant one]]
 
+* [[Hopfion]]
+
 * [[real Hopf fibration]], [[quaternionic Hopf fibration]], [[octonionic Hopf fibration]]
 
 * [[complex projective space]]
