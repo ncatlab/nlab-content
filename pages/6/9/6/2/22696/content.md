@@ -24,7 +24,7 @@
 
 ## Idea
 
-An *infertile semigroup* is [[semigroup]] that is also an [[invertible magma]]. 
+An *invertible semigroup* is [[semigroup]] that is also an [[invertible magma]]. 
 
 ## Definition
 
