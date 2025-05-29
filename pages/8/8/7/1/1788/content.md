@@ -6,6 +6,51 @@
 
 ****
 
+## Hopfion
+
+By *Hopfions* one refers to those [[solitons]] on 3-dimensional [[Euclidean space]] $\mathbb{R}^3$ whose topological configurations are classified by [[homotopy classes]] of [[maps]] to the ([[Riemann sphere|Riemann]]) [[2-sphere]] $S^2 \simeq \mathbb{C}P^1$, hence (by the defining [[vanishing at infinity]] of solitons) by [[homotopy classes]] of [[pointed topological space|pointed]] maps from the [[one-point compactification]] $\mathbb{R}^3_{\cup\{\infty\}} \simeq S^3$ to $S^2$, hence by the 3rd [[homotopy group]] of [[2-sphere|$S^2$]], which is the [[integers]]
+$$  
+  \pi_3(S^2) \,\simeq\, \mathbb{Z}
+  \,.
+$$
+Since the unit generator of this group is represented by the class of the [[Hopf fibration]] $h \colon S^3 \longrightarrow S^2$ this means that Hopfions have classifying maps given by (multiples of) the [[Hopf fibration]], whence the name.
+
+> To note the difference to but similarity with *[[Skyrmions]]* in 3d, which are instead classified by maps $\mathbb{R}^3_{\cup \{\infty\}} \longrightarrow S^3$ to the [[3-sphere]], and to magnetic Skyrmions in 2d, which are instead classified by maps $\mathbb{R}^2_{\cup \{\infty\}} \longrightarrow S^2$ ---
+albeit both also being classified by [[integers]], now via the [[Hopf degree theorem]]: $\pi_n(S^n) \simeq \mathbb{Z}$.
+
+If one identified the "core" locus of a Hopfion with the [[preimage]] under its classifying map of the [[antipode]] of the chosen base point in $S^2$, then this is, by the [[Pontrjagin theorem]], the ([[cobordism class]]) of a [[normal framing|normally framed]] [[submanifold]] of [[codimension]]=2 hence of [[dimension of a manifold|dimension]]=1, hence is (the [[cobordism class]]) of a ([[framed link|framed]]) [[link]].
+
+Traditional [[Lagrangian field theory|Langrangian field]] realization of Hopfions are unit-[[norm]] [[vector]] [[field (physics)|fields]], such as the [[Skyrme-Fadeev model]] ([Fadeev 1975](#Fadeev75), [Fadeev & Niemi 1997](#FadeevNiemi97), review in [Manton & Sutcliffe 2004 §9.11](#MantonSutcliffe04)).
+
+
+## Related concepts
+
+* [[Hopf-Wess-Zumino term]]
+
+* [[Skyrmion]]
+
+## References
+
+The (Skyrme-)Fadeev model:
+
+* {#Fadeev75} [[Ludwig D. Faddeev]]: *Quantization of Solitons*, talk at [ICHEP 76](https://inspirehep.net/conferences/964007) (1975) &lbrack;[inSpire:2631](https://inspirehep.net/literature/2631)&rbrack;
+
+* {#FadeevNiemi97} [[Ludwig D. Faddeev]], [[Antti J. Niemi]]: *Knots and Particles*, Nature **387** (1997) 58–61 &lbrack;[arXiv:hep-th/9610193](https://arxiv.org/abs/hep-th/9610193), [doi:10.1038/387058a0](https://doi.org/10.1038/387058a0)&rbrack;
+
+
+Textbook account:
+
+* {#MantonSutcliffe04} [[Nicholas Manton]], [[Paul Sutcliffe]]: *Topological Solitons*, Cambridge University Press (2004) &lbrack;[doi:10.1017/CBO9780511617034](https://doi.org/10.1017/CBO9780511617034), [inSpire:660150](https://inspirehep.net/literature/660150), [pdf](http://www.lmpt.univ-tours.fr/~volkov/Manton-Sutcliffe.pdf)&rbrack;
+
+See also: 
+
+* Wikipedia: *[Hopfion](https://en.wikipedia.org/wiki/Hopfion)*
+
+
+
+
+\linebreak
+
 
 * $\mathcal{F}$ itself becomes an $\mathcal{F}$-category in the usual way.  Its tight morphisms are just the morphisms in the underlying ordinary category $\mathcal{F}$, while its loose morphisms are simply functors between the loose parts (the codomains of the full embeddings).
 
