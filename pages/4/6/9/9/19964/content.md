@@ -201,6 +201,8 @@ This way, via the equivalence between [[D4-D8-brane intersections]] with [[insta
 
 ## Related concepts
 
+* [[Hopfion]]
+
 * [[soliton]], [[vortex]] 
 
 * [[instanton]], [[caloron]]
