@@ -85,10 +85,10 @@ Lecture notes in view of application to [[perturbative quantum field theory]] vi
 
 Discussion that cancellation of the [[quantum anomaly]] of the spinning particle precisely requires [[Spin-structure]] on its [[target spacetime]]:
 
-* {#Witten85} [[Edward Witten]], _Global anomalies in string theory_, in: W. Bardeen and A. White (eds.). _Symposium on Anomalies, Geometry, Topology_, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]], [spire:214913](https://inspirehep.net/literature/214913))
+* {#Witten85} [[Edward Witten]], _Global anomalies in string theory_, in: *Symposium on Anomalies, Geometry, Topology*,  World Scientific (1985) 61-99 &lbrack;[spire:214913](https://inspirehep.net/literature/214913), [[WittenGlobalAnomaliesInStringTheory.pdf:file]]&rbrack;
 
 
-Discussion of worldline dynamics of spinning particles in [[background fields]]:
+Discussion of [[worldline]] dynamics of spinning particles in [[background fields]]:
 
 * [[Jan-Willem van Holten]], *Relativistic Dynamics of Spin in Strong External Fields* &lbrack;[arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124)&rbrack;
 
