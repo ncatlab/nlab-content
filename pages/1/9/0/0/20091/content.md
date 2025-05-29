@@ -23,7 +23,6 @@ Discussion relating [[skyrmions]] with [[instantons]], [[calorons]] and [[solito
 
 * {#BolognesiSutcliffe13} [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
 
-
 * {#Sutcliffe15} [[Paul Sutcliffe]], _Holographic Skyrmions_, Mod. Phys. Lett. B29 (2015) no. 16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608))
 
 On [[Skyrmions]] via [[rational maps]] from the [[complex plane]], hence [[holomorphic maps]] from the [[Riemann sphere]], to itself:
@@ -38,6 +37,11 @@ On [[Skyrmions]] via [[rational maps]] from the [[complex plane]], hence [[holom
 Introducing the [[Atiyah-Sutcliffe conjecture]]:
 
 * {#AtiyahSutcliffe02} [[Michael F. Atiyah]], [[Paul M. Sutcliffe]], _The geometry of point particles_, Proc. Roy. Soc. London Ser. A 458 (2002) 1089--1115 (arXiv:[hep-th/0105179](https://arxiv.org/abs/hep-th/0105179), [doi:10.1098/rspa.2001.0913](https://doi.org/10.1098/rspa.2001.0913))
+
+
+On [[solitons]]:
+
+* [[Nicholas Manton]], [[Paul Sutcliffe]]: *Topological Solitons*, Cambridge University Press (2004) &lbrack;[doi:10.1017/CBO9780511617034](https://doi.org/10.1017/CBO9780511617034), [inSpire](https://inspirehep.net/literature/660150), [pdf](http://www.lmpt.univ-tours.fr/~volkov/Manton-Sutcliffe.pdf)&rbrack;
 
 
 On [[skyrmions]] as [[model (in theoretical physics)|models]] of [[atomic nuclei]]:
