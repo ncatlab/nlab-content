@@ -6,13 +6,13 @@
 
 ## Introduction 
 
-Abstraction or generalization is a basic tactic in mathematics research. By formulating an argument or placing a concept in 'proper generality', one not only strengthens results and widens applicability, but one also perceives much more clearly what is truly at stake within the sphere of concepts where the mathematics takes place. 
+*Abstraction* or *generalization* is a basic tactic in [[mathematics]] research. By formulating an argument or placing a concept in 'proper generality', one not only strengthens results and widens applicability, but one also perceives much more clearly what is truly at stake within the sphere of concepts where the mathematics takes place. 
 
-Without too much of an exaggeration, one could say that the development of modern algebra generally, and categorical algebra in particular, has been driven by the need to extract the essence of mathematical structures and situate them within axiomatic frameworks of general type. This is certain true of such concepts as [[topos]], [[abelian category]], [[scheme]], [[cohomology theory]], and countless others. 
+Without too much of an exaggeration, one could say that the development of modern [[algebra]] generally, and [[categorical algebra]] in particular, has been driven by the need to extract the essence of [[mathematical structures]] and situate them within [[axiom|axiomatic]] frameworks of general type. This is certainly true of such concepts as *[[toposes]]*, *[[abelian categories]]*, *[[schemes]]*, *[[cohomology theories]]*, and countless others. 
 
 Finding the 'right' generality (as opposed to merely maximal generality) of concepts is a kind of dialectical process, in which generality in the strictly logical sense must be balanced against other considerations such as simplicity, ease of application, suggestiveness, aesthetics, etc. The result of such persistent conceptual polishing is often a theory that becomes concentrated in its well-chosen definitions, from which key summary results flow naturally. 
 
-Occasionally throughout the history of mathematics (and physics, etc.), the drive to abstraction has met with suspicion. To some extent this may be a generational phenomenon, where shifting conceptual landscapes and pressure to relearn the foundations of a subject may meet with resistance from mathematicians long accustomed to older insights. There can also be justice in the charge that generality for the sake of generality is a sterile pursuit, and a typical counter-reaction is that further layers of abstraction should "prove themselves", e.g., by leading to solutions of venerable problems. 
+Occasionally throughout the history of [[mathematics]] (and [[physics]], etc.), the drive to abstraction has been met with suspicion. To some extent this may be a generational phenomenon, where shifting conceptual landscapes and pressure to relearn the foundations of a subject may meet with resistance from mathematicians long accustomed to older formulations. It may also be right to assert that generality for the sake of generality itself is a sterile pursuit, and a typical counter-reaction is that further layers of abstraction should "prove themselves", e.g., by leading to solutions of venerable problems. 
 
 ## Styles of abstraction 
 
