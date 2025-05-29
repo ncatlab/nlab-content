@@ -16,6 +16,7 @@
 =--
 =--
 
+
 # Contents #
 * table of contents
 {:toc}
@@ -365,47 +366,63 @@ The rest of the diagram is constructed in order to prove the following:
 [[!include higher spin structure - table]]
 
 
-## References ##
 
-The relevance of String structures (like that of Spin structures half a century before) was recognized in the physics of spinning strings, therefore the name.
+## References
+ {#References}
 
-The coinage "string structure" is due to p. 11 of:
+The relevance of String structures was originally recognized in the physics of [[spinning strings]] ([[superstring|super]] [[string theory]]) in higher dimensional generalization of the theory (from half a century earlier) of [[spin structures]] for [[spinning particles]], therefore the name *string structure*.
 
-* [[Timothy Killingback]]: *World-sheet anomalies and loop geometry*, Nuclear Physics B **288** 578-588 (1987) \[<a href="https://doi.org/10.1016/0550-3213(87)90229-X">doi:10.1016/0550-3213(87)90229-X</a>, [inSpire:237516](https://inspirehep.net/literature/237516), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1987/8704/8704177.pdf)\]
 
-which was the first to derive the Green-Schwarz anomaly cancellation condition of the effective background theory as  (the rational shadow of) the [[quantum anomaly]] cancellation condition for the [[worldsheet]] theory of the [[heterotic string]]'s [[sigma-model]], by direct generalization of the way the condition of a [[spin structure]] may be deduced from anomaly cancellation for the superparticle, and to argue -- cf. equation (8) -- that the condition is the vanishing of $\tfrac{1}{2}p_1 (- c_2)$ not just in [[rational cohomology]]/[[de Rham cohomology]] (as was known by the [[Green-Schwarz anomaly cancellation]]) but in [[integral cohomology]].
+\begin{imagefromfile}
+    "file_name": "Killingback-IntroducingStringStructure.jpg",
+    "float": "right",
+    "width": 400,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": -5,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
 
-String sructures had at that time been discussed in terms of their [[transgressions]] to the [[free loop space]]:
+The coinage "string structure" is due to p. 585 (shown on the right) of:
 
-* {#WittenIndexLoopSpace} [[Edward Witten]], _The Index of the Dirac Operator in Loop Space_, In: Landweber, P.S. (eds) Elliptic Curves and Modular Forms in Algebraic Topology (Princeton, N.J., Sep 1986). Lecture Notes in Mathematics **1326**  (1988) Springer, Berlin, Heidelberg. [doi:10.1007/BFb0078045](https://doi.org/10.1007/BFb0078045)
+* {#Killingback87} [[Timothy Killingback]]: *World-sheet anomalies and loop geometry*, Nuclear Physics B **288** 578-588 (1987) \[<a href="https://doi.org/10.1016/0550-3213(87)90229-X">doi:10.1016/0550-3213(87)90229-X</a>, [inSpire:237516](https://inspirehep.net/literature/237516), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1987/8704/8704177.pdf)\]
 
-* {#WittenElliptic} [[Edward Witten]], _Elliptic Genera and Quantum Field Theory_, Commun. Math. Phys. **109** (1987) 525–536 &lbrack;[doi:10.1007/BF01208956](https://doi.org/10.1007/BF01208956)&rbrack:
+where this structure is understood as a de-[[transgression]] (both the naming and this insight are often incorrectly attributed to various mathematicians) of the required "spin structure on loop space", due to
+
+* {#WittenIndexLoopSpace} [[Edward Witten]]: *The Index of the Dirac Operator in Loop Space*, in *Elliptic Curves and Modular Forms in Algebraic Topology* (Princeton, N.J., Sep 1986), Lecture Notes in Mathematics **1326**, Springer (1988) &lbrack;[doi:10.1007/BFb0078045](https://doi.org/10.1007/BFb0078045)&rbrack;
+
+* {#WittenElliptic} [[Edward Witten]], _Elliptic Genera and Quantum Field Theory_, Commun. Math. Phys. **109** (1987) 525–536 &lbrack;[doi:10.1007/BF01208956](https://doi.org/10.1007/BF01208956)&rbrack;
+
+which arises as an [[anomaly cancellation]] condition on the [[worldsheet]] of the [[superstring]]'s (specifically the [[heterotic string]]'s) [[sigma-model]], analogous to how the condition of [[spin structure]] may be understood ([Witten 1985](spinning+particle#Witten85)) as an [[anomaly cancellation]] on the [[worldline]] of [[spinning particles]] such as [[superparticles]].
+
+See also:
 
 * R. Coquereaux, K. Pilch: *String structures on loop bundles*, Commun. Math. Phys. **120** (1989) 353–378 (1989) &lbrack;[doi:10.1007/BF01225503](https://doi.org/10.1007/BF01225503)&rbrack;
 
-The formulation in terms of an lift to the [[string 2-group]] was popularized by:
+The understanding of Killingback's string structure equivalently as the condition to [[tangential structure|lifting]] the [[structure group]] of the [[tangent bundle]] from a [[spin group]] to a *[[string group]]* (or [[string 2-group]]) was introduced or at least popularized by:
 
 * [[Stefan Stolz]], [[Peter Teichner]]: *[[What is an elliptic object?]]*, in: _Topology, geometry and quantum field theory_, London Math. Soc. LNS **308**, Cambridge Univ. Press (2004) 247-343 &lbrack;[pdf](https://math.berkeley.edu/~teichner/Papers/Oxford.pdf), [[Stolz-Teichner_EllipticObject.pdf:file]]&rbrack;
 
-The relation between the two pictures is analyzed for instance in
+The relation between the two pictures is further analyzed for instance in
 
 * A. Asada: _Characteristic classes of loop group bundles and generalized string classes_ , Differential geometry and its applications (Eger, 1989), 33--66, Colloq. Math. Soc. J&#225;nos Bolyai, 56, North-Holland, Amsterdam, 1992. ([[Asada.pdf:file]])
 
-A precise formulation of Killingback's original argument in [[differential K-theory]] appeared in 
+A mathematically rigorous formulation of [Killingback 1987](#Killingback87)'s original argument, now using [[differential K-theory]], is given by
 
 * [[Ulrich Bunke]], *String structures and trivialisations of a Pfaffian line bundle*, Commun. Math. Phys. **307** (2011) : 675-712 &lbrack;[arXiv:0909.0846](http://arxiv.org/abs/0909.0846), [doi:10.1007/s00220-011-1348-0](https://doi.org/10.1007/s00220-011-1348-0)&rbrack;
 
-A review of that is in 
+in turn reviewed in:
 
 * [[Konrad Waldorf]], _Geometric string structure and supersymmetric sigma-models_ ([pdf](http://www.konradwaldorf.de/docs/cardiff.pdf))
 
-The definition of string structures by degree-3 classes on the total space of the spin bundle is used in
+The definition of string structures by degree-3 classes on the total space of the spin bundle (also already mentioned by [Killingback 1987](#Killingback87)) is used in
 
-* [[Corbett Redden]], _Canonical metric connections associated to string structures_ PhD Thesis, (2006)([pdf](https://www.math.sunysb.edu/~redden/Thesis.pdf))
+* [[Corbett Redden]], _Canonical metric connections associated to string structures_ PhD Thesis (2006) &lbrack;[pdf](https://www.math.sunysb.edu/~redden/Thesis.pdf)&rbrack;
 
-For discussion of String-structures using 3-classes on total spaces see for instance the work by Corbett Redden and Konrad Waldorf described at 
-
-* [[Oberwolfach Workshop, June 2009 -- Friday, June 12]]
+* Redden & Waldorf at [[Oberwolfach Workshop, June 2009 -- Friday, June 12]]
 
 Discussion of the [[moduli stack]] of [[twisted differential string structures]]:
 
