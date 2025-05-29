@@ -236,6 +236,60 @@ It is clear that type variables are needed, since otherwise the second requireme
 
 Similar requirements of type variables apply to the large recursion principles of more general recursive inductive types like [[W-types]]. 
 
+## Type family variables
+
+### With function types
+
+Given a [[dependent type theory]] with [[type variables]], [[dependent sum types]], [[identity types]], and [[function types]], type families indexed by type $A$ and functions to $A$ are equivalent to each other: 
+
+* By the inference rules of [[dependent sum types]], a type family $x:A \vdash B(x)$ is equivalently a type $\sum_{x:A} B(x)$ with a [[function]] $\pi_A$ to $A$. 
+
+* Similarly, a type $B$ with a function $f:B \to A$ is equivalently a type family $x:A \vdash \sum_{y:B} f(x) =_A y$. 
+
+If the type theory is formulated using a [[hierarchy of universes]] $U_i$, one can show for all types $A:U_i$ that the above operations form an [[equivalence of types]] between the following types:
+
+$$(A \to U_i) \simeq \left(\sum_{B:U_i} B \to A\right)$$
+
+As a result, a *type family variable* or a *variable of type families* simply consists of a type variable and a term variable of a function type:
+
+$$(\Gamma, B \; \mathrm{type}, f:B \to A, \Delta)$$
+
+### With type family judgments
+
+On the other hand, if the dependent type theory does not have [[function types]], such as the case for a hypothetical [[geometric homotopy type theory]] as the [[internal logic]] of a [[Grothendieck (infinity,1)-topos|Grothendieck $(\infty,1)$-topos]], then one would have to postulate, for each type $A$, a separate [[judgment]] for [[type families]] indexed by $A$: 
+
+$$B \; \mathrm{type} \; \mathrm{at} \; A$$  
+
+There are [[inference rules]] which mimic the inference rules for [[function types]] $A \to U_i$ for a [[type universe]] $U_i$:
+
+$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \lambda x:A.B(x) \; \mathrm{type} \; \mathrm{at} \; A}$$
+
+$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A}{\Gamma, x:A \vdash B(x) \; \mathrm{type}}$$
+
+$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A \vdash B(x) \equiv (\lambda x:A.B(x))(x) \; \mathrm{type}}$$
+
+$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A}{\Gamma \vdash B \equiv \lambda x:A.B(x) \; \mathrm{type} \; \mathrm{at} \; A}$$
+
+Then we have additional context forming rules that says that given a type judgment $A \; \mathrm{type}$ in context $\Gamma$, we can add the type family judgment to $B \; \mathrm{type} \; \mathrm{at} \; A$ the context:
+
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, B \; \mathrm{type} \; \mathrm{at} \; A) \; \mathrm{ctx}}$$
+
+For (dependent) function variables in the absence of function types, we need to also postulate the typing judgment $b:_A B$ given type $A$ and type family $B$, which says that $b$ is a function from $A$ to $B$ or a family of elements in $B$ indexed by $A$. We also have [[inference rules]] which mimic the inference rules for [[dependent function types]] $(x:A) \to B(x)$: 
+
+$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda x:A.b(x) :_A \lambda x:A.B(x)}$$
+
+$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A \quad \Gamma \vdash b:_A B}{\Gamma, x:A \vdash b(x):B(x)}$$
+
+$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash b(x) \equiv (\lambda x:A.b(x))(x):B(x)}$$
+
+$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A \quad \Gamma \vdash b:_A B}{\Gamma \vdash b \equiv \lambda x:A.b(x) :_A B}$$
+
+Then we have additional context forming rules that says that given the type family judgment $B \; \mathrm{type} \; \mathrm{at} \; A$ in context $\Gamma$, we can add the function judgment $b :_A B$ to the context:
+
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A}{(\Gamma, b :_A B) \; \mathrm{ctx}}$$
+
+Collectively, the additions to the dependent type theory behave as if it is a [[modal type theory]] whose mode theory is given by the original [[dependent type theory]] and represents, for an $(\infty,1)$-topos $\mathcal{E}$, the [[(infinity,2)-category|$(\infty,2)$-category]] of [[slice (infinity,1)-topos|slice $(\infty,1)$-toposes]] $\mathcal{E} / A$. 
+
 ## Related concepts
 
 * [[type theory]]
@@ -278,3 +332,9 @@ Some discussion about extending dependent type theory with type variables occurs
 [[!redirects polymorphic type theories with dependent types]]
 
 [[!redirects small polymorphism]]
+
+[[!redirects type family variable]]
+[[!redirects type family variables]]
+
+[[!redirects variable of type families]]
+[[!redirects variables of type families]]
