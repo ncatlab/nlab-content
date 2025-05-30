@@ -29,7 +29,7 @@ A [[compact closed monoidal category]]
 ### Splitting lemma
  {#SplittingLemma}
 
-The [[splitting lemma]] says that ever [[short exact sequence]] of [[vector spaces]] [[split exact sequence|splits]]
+The [[splitting lemma]] says that every [[short exact sequence]] of [[vector spaces]] [[split exact sequence|splits]]
 so that (in [[categorification]] of the [[rank-nullity theorem]]) every linear map $f \,\colon\, D \to C$ is equivalent to 
 
 $$
