@@ -55,7 +55,7 @@ Review:
 
 On appatent [[bound states]] of FQH anyons:
 
-* Mytraya Gattu, [[Jainendra K. Jain]]: *Molecular anyons in fractional quantum Hall effect* \[<a href="https://arxiv.org/abs/2505.22782">arXiv:2505.22782</a>\]
+* {#GattuJain25} Mytraya Gattu, [[Jainendra K. Jain]]: *Molecular anyons in fractional quantum Hall effect* \[<a href="https://arxiv.org/abs/2505.22782">arXiv:2505.22782</a>\]
 
 
 ### Superconducting defect anyons in FQH systems
