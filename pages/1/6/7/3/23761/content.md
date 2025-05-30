@@ -26,7 +26,7 @@
 
 ## Idea
 
-In [[solid state physics]], the *Haldane model* is a [[model (in theoretical physics)|model]] for effectively 2-[[dimension of a manifold|dimensional]] [[crystalline topological insulator|crystalline]] [[Chern insulators]] (ie. [[topological phases of matter]] "without [[symmetry protected topological phase|symmetry protection]]") obtained by starting with a simple [[model (in theoretical physics)|model]] for a [[graphene]]-like 2d [[semi-metal]] and then adding a [[mass term]] and [[interactions]] (similar to [[spin-orbit coupling]]) which [[symmetry breaking|break]] the [[time-reversal symmetry]] and the [[crystallographic point group|spatial inversion symmetry]].
+In [[solid state physics]], the *Haldane model* is a [[model (in theoretical physics)|model]] for effectively 2-[[dimension of a manifold|dimensional]] [[crystalline topological insulator|crystalline]] [[Chern insulators]] (ie. [[topological phases of matter]] "without [[symmetry protected topological phase|symmetry protection]]") -- thus exhibiting a *[[quantum anomalous Hall effect]]* -- obtained by starting with a simple [[model (in theoretical physics)|model]] for a [[graphene]]-like 2d [[semi-metal]] and then adding a [[mass term]] and [[interactions]] (similar to [[spin-orbit coupling]]) which [[symmetry breaking|break]] the [[time-reversal symmetry]] and the [[crystallographic point group|spatial inversion symmetry]].
 
 ## Definition
 
@@ -310,6 +310,8 @@ This accurately reflects what is seen [above](#PhaseDiagram) in the phase diagra
 
 
 ## Related concepts
+
+* [[quantum anomalous Hall effect]]
 
 * [[topological phase of matter]]
 
