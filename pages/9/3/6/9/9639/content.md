@@ -471,7 +471,8 @@ $$
 $$
 (the sign choice reflecting choice of relative orientation of the magnetic field)
 and so the corresponding filling fractions are ([Jain 1989 p 1-2](#Jain89))
-$$
+\[
+  \label{JainSequenceOfFillingFractions}
   \nu 
     \;\equiv\;
   \tfrac{electrons}{flux} 
@@ -486,8 +487,8 @@ $$
     2 p m \pm 1
   }
   \,.
-$$
-Remarkably, this resulting formula captures a significant part of the zoo of observed filling fractions with odd denominators:
+\]
+Remarkably, this *Jain sequence* formula captures a significant part of the zoo of observed filling fractions with odd denominators:
 
 \begin{imagefromfile}
     "file_name": "Jain1989-Fig1.jpg",
@@ -573,7 +574,7 @@ is advantageous to represent the vortices simply by their
 
 In an FQH system, when one quasi-hole (unpaired flux quantum) is [[quantum adiabatic theorem|adiabatically]] moved past another, hence one quasi-hole moved along *[[hemisphere|half]]* a [[circle]] centered at the other, then their joint [[quantum state]] picks up a [[Berry phase]] $e^{ \mathrm{i}  \theta} \in $ [[U(1)|$U(1)$]] $\subset \mathbb{C}$, exhibiting the quasi-holes as [[abelian anyons]].
 
-The [[angle]] of that *braiding phase* is [[pi|$\pi$]] times the filling fraction $\nu \equiv p/q$:
+The [[angle]] of that *braiding angle* is [[pi|$\pi$]] times the filling fraction $\nu \equiv p/q$:
 
 \[
   \label{BraidingAngleAsFunctionOfFillingFraction}
@@ -599,20 +600,21 @@ The [[angle]] of that *braiding phase* is [[pi|$\pi$]] times the filling fractio
 \end{imagefromfile}
 
 
-So the braiding phase is a [[root of unity]] of order the [[denominator]] $q$ and as such determined by the [[numerator]] $p$ of the filling fraction $\nu = \tfrac{p}{q}$.
-
 The theoretical prediction of (eq:BraidingAngleAsFunctionOfFillingFraction) --- via the [[quantum adiabatic theorem]] applied to [[Laughlin wavefunctions]] --- is, for the special case $\nu = 1/n$,  due to [Arovas, Schrieffer & Wilczek 1984 (12)](#ArovasSchriefferWilczek84) (also claimed in [Halperin 1984 p 1584](#Halperin84)) and for general $\nu$ it is noted by [Su 1986 (3)](#Su86).
+
+> Other authors state that at filling factor $\nu = n/(2 p n \pm 1)$ in the Jain sequence (eq:JainSequenceOfFillingFractions) the braiding phase is $\theta/\pi = 2p/(2 p n \pm 1)$ (e.g. [Gattu & Jain 2025 p. 1](#GattuJain25) with reference to [Halperin 1984](#Halperin84)). This coincides with $\theta/\pi = \nu$ only if $n = 2p$.
 
 Starting around 2020, this braiding phase is reported to be observed in [[experiments]] for some cases such as $\nu = 1/3$ and $\nu = 2/5$ ([Nakamura et al. 2023 p 1,7](#NakamuraEtAl23)), see also further references [below](#ObservationOfAnyonsInFQH).
 
 > The [hierarchical K-matrix formalism](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism) allows more general relations between filling factor and braiding phase, cf. [Wen 1995 (2.30-1)](#Wen95).
+
 
 \linebreak
 
 
 ### As a topological insulator
 
-The bulk/edge behaviour in a quantum Hall effect is is that of a [[topological insulator]]. (While topological insulator materials typically show this behaviour without the need of a strong magnetic field.)
+The bulk/edge behaviour in a quantum Hall effect is that of a [[topological insulator]]. (While topological insulator materials typically show this behaviour without the need of a strong magnetic field.)
 
 (...)
 
