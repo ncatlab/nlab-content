@@ -19,9 +19,10 @@ Introducing the "Haldane phase of the 1d spin chain", the first example of a [[s
 
 * {#Haldane83} [[Duncan Haldane]], *Continuum dynamics of the 1-D Heisenberg antiferromagnet: Identification with the $O(3)$ nonlinear sigma model*, Physics Letters A **93** 9 (1983) 464-468 &lbrack;<a href="https://doi.org/10.1016/0375-9601(83)90631-X">doi:10.1016/0375-9601(83)90631-X</a>&rbrack;
 
-Introducing the [[Haldane model]]:
+Introducing the [[Haldane model]] and thereby predicting the [[quantum anomalous Hall effect]]:
 
-* [[Duncan Haldane]], *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015 &lbrack;[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)&rbrack;
+* [[Duncan Haldane]]: *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015 &lbrack;[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)&rbrack;
+
 
 On [[parastatistics]]:
 
