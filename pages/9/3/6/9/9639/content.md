@@ -572,41 +572,86 @@ is advantageous to represent the vortices simply by their
 ### Braiding phase
  {#BraidingPhase}
 
-In an FQH system, when one quasi-hole (unpaired flux quantum) is [[quantum adiabatic theorem|adiabatically]] moved past another, hence one quasi-hole moved along *[[hemisphere|half]]* a [[circle]] centered at the other, then their joint [[quantum state]] picks up a [[Berry phase]] $e^{ \mathrm{i}  \theta} \in $ [[U(1)|$U(1)$]] $\subset \mathbb{C}$, exhibiting the quasi-holes as [[abelian anyons]].
-
-The [[angle]] of that *braiding angle* is [[pi|$\pi$]] times the filling fraction $\nu \equiv p/q$:
-
-\[
-  \label{BraidingAngleAsFunctionOfFillingFraction}
-  \theta 
-    \;=\;
-  \pm
-  \pi \nu
-  \,.
-\]
-
-(Where the sign reflects the orientation of the braiding.)
+In an FQH system, when one quasi-hole (unpaired flux quantum) is [[quantum adiabatic theorem|adiabatically]] moved past another, hence one quasi-hole moved along *[[hemisphere|half]]* a [[circle]] centered at the other, then their joint [[quantum state]] picks up a [[Berry phase]] 
+$$
+  e^{ \mathrm{i}  \theta} 
+$$ 
+in [[U(1)|$U(1)$]] $\subset \mathbb{C}$, exhibiting the quasi-holes as [[abelian anyons]].
 
 \begin{imagefromfile}
-    "file_name": "FQH-BraidingPhase.jpg",
-    "width": 520,
+    "file_name": "FQH-BraidingPhase-250530.jpg",
+    "width": 580,
     "unit": "px",
     "margin": {
         "top": -30,
         "bottom": 30,
         "right": 0, 
         "left": 10
-    }
+    },
+    "caption": "(graphics from [SS25](#SS25AlgTop))"
 \end{imagefromfile}
 
+At [[unit fraction]] filling factors $\nu = 1/q$
+the [[angle]] of that *braiding phase* is the same fraction of [[pi|$\pi$]] (up to a sign reflecting the orientation of the braiding and the choice of quasi-holes over quasi-particles)
 
-The theoretical prediction of (eq:BraidingAngleAsFunctionOfFillingFraction) --- via the [[quantum adiabatic theorem]] applied to [[Laughlin wavefunctions]] --- is, for the special case $\nu = 1/n$,  due to [Arovas, Schrieffer & Wilczek 1984 (12)](#ArovasSchriefferWilczek84) (also claimed in [Halperin 1984 p 1584](#Halperin84)) and for general $\nu$ it is noted by [Su 1986 (3)](#Su86).
+\[
+  \label{BraidingAngleAtUnitFractionFillingFactor}
+  \nu = 1/q,
+  \;\;
+  q \in \mathbb{Z}
+  \;\;\;\;\;\;\;\; 
+  \Rightarrow
+  \;\;\;\;\;\;\;\;
+  \theta 
+    \;=\;
+  \pm
+  \pi \nu
+  \,,
+\]
 
-> Other authors state that at filling factor $\nu = n/(2 p n \pm 1)$ in the Jain sequence (eq:JainSequenceOfFillingFractions) the braiding phase is $\theta/\pi = 2p/(2 p n \pm 1)$ (e.g. [Gattu & Jain 2025 p. 1](#GattuJain25) with reference to [Halperin 1984](#Halperin84)). This coincides with $\theta/\pi = \nu$ only if $n = 2p$.
+this according to a [[Berry phase]] computation via the [[quantum adiabatic theorem]], due to [Arovas, Schrieffer & Wilczek 1984 (12)](#ArovasSchriefferWilczek84) (also claimed in [Halperin 1984 p 1584](#Halperin84)).
 
-Starting around 2020, this braiding phase is reported to be observed in [[experiments]] for some cases such as $\nu = 1/3$ and $\nu = 2/5$ ([Nakamura et al. 2023 p 1,7](#NakamuraEtAl23)), see also further references [below](#ObservationOfAnyonsInFQH).
+It appears that [Su 1986 (3)](#Su86) claims that $\theta = \pm \pi \nu$ (eq:BraidingAngleAtUnitFractionFillingFactor) should hold for general filling fractions $\nu$, but the commonly accepted statement nowadays is different:
 
-> The [hierarchical K-matrix formalism](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism) allows more general relations between filling factor and braiding phase, cf. [Wen 1995 (2.30-1)](#Wen95).
+Motivated by [Halperin 1984](#Halperin84), [Goldhaber & Jain 1995](#GoldhaberJain95) claim, reviewed by [Jain 2007 (9.46)](#Jain07) that for filling factors in the Jain sequence (eq:JainSequenceOfFillingFractions) the braiding angle is 
+
+\[
+  \label{BraidingAngleAtJainSequenceFillingFactor}
+  \nu \,=\, 
+  \frac{
+    n
+  }{
+    2 p n \pm 1
+  }
+  \;\;
+  p, n \in \mathbb{Z}
+  \;\;\;\;\;\;\;\; 
+  \Rightarrow
+  \;\;\;\;\;\;\;\;
+  \theta 
+    \;=\;
+  \pm
+  \pi
+  \frac{
+    2 p
+  }{
+    2 p n \pm 1
+  }
+  \,.
+\]
+
+For the two cases $\nu = 1/3$ and $\nu = 2/5$ this appears to be confirmed first by numerical computations (referenced around [Jain 2007 (9.46)](#Jain07)) and then, starting around 2020, this braiding angle is reported to be observed in [[experiments]] (see [Nakamura et al. 2020](#NakamuraEtAl20), [Nakamura et al. 2023 p 1,7](#NakamuraEtAl23) and further references [below](#ObservationOfAnyonsInFQH)).
+
+\begin{remark}
+More precisely, these interferometry experiments measure the effect of full rotations and hence *twice* the braiding angle [[modulo]] $2\pi$. This means that at $\nu = 1/3$ they do not distinguish between braiding angles $\pm \tfrac{1}{3}\pi  = \nu \pi$ and $\mp \tfrac{2}{3} \pi = 2\nu \pi$. 
+
+Moreover, for $\nu = 2/5$ the formula \eqref{BraidingAngleAtJainSequenceFillingFactor} happens to coincide with $\theta = \nu \pi$.
+\end{remark}
+
+
+\begin{remark}
+The [hierarchical K-matrix formalism](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism) seems to allow more general relations between filling factor and braiding phase, cf. [Wen 1995 (2.30-1)](#Wen95).
+\end{remark}
 
 
 \linebreak
@@ -917,7 +962,7 @@ Alternative derivation via [[geometry of physics -- flux quantization|flux quant
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes]]* &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
 
-* {#SS25AlgTop} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Understanding FQH via Algebraic Topology|Understanding Fractional Quantum Hall Anyons via the Algebraic Topology of exotic Flux Quanta]]* (2025)
+* {#SS25AlgTop} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQH Anyons|Fractional Quantum Hall Anyons via the Algebraic Topology of exotic Flux Quanta]]* &lbrack;[arXiv:2505.22144](https://arxiv.org/abs/2505.22144)&rbrack;
 
 
 category: physics
