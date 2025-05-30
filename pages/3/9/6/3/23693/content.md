@@ -89,6 +89,8 @@ The [[opposite category]] of $\sigma\mathrm{Frm}$ is the category $\sigma\mathrm
 
 * [[Raquel Bernardes]], *Lebesgue integration on $\sigma$-locales: simple functions*, ([arXiv:2408.13911](https://arxiv.org/abs/2408.13911))
 
+* [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
+
 [[!redirects sigma-frame]]
 [[!redirects sigma-frames]]
 [[!redirects σ-frame]]
