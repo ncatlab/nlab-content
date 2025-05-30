@@ -29,7 +29,7 @@ Since the unit generator of this group is represented by the class of the [[Hopf
 > To note the difference to but similarity with *[[Skyrmions]]* in 3d, which are instead classified by maps $\mathbb{R}^3_{\cup \{\infty\}} \longrightarrow S^3$ to the [[3-sphere]], and to magnetic Skyrmions in 2d, which are instead classified by maps $\mathbb{R}^2_{\cup \{\infty\}} \longrightarrow S^2$ ---
 albeit both also being classified by [[integers]], now via the [[Hopf degree theorem]]: $\pi_n(S^n) \simeq \mathbb{Z}$.
 
-If one identified the "core" locus of a Hopfion with the [[preimage]] under its classifying map of the [[antipode]] of the chosen base point in $S^2$, then this is, by the [[Pontrjagin theorem]], the ([[cobordism class]]) of a [[normal framing|normally framed]] [[submanifold]] of [[codimension]]=2 hence of [[dimension of a manifold|dimension]]=1, hence is (the [[cobordism class]]) of a ([[framed link|framed]]) [[link]].
+If one identifies the "core" locus of a Hopfion with the [[preimage]] under its classifying map of the [[antipode]] of the chosen base point in $S^2$, then this is, by the [[Pontrjagin theorem]], the ([[cobordism class]]) of a [[normal framing|normally framed]] [[submanifold]] of [[codimension]]=2 hence of [[dimension of a manifold|dimension]]=1, hence is (the [[cobordism class]]) of a ([[framed link|framed]]) [[link]].
 
 The traditional [[Lagrangian field theory|Langrangian field]] realization of Hopfions are unit-[[norm]] [[vector]] [[field (physics)|fields]] in the [[Skyrme-Fadeev model]] ([Fadeev 1975](#Fadeev75), [Fadeev & Niemi 1997](#FadeevNiemi97), review in [Fadeev 2002](#Fadeev02), [Manton & Sutcliffe 2004 §9.11](#MantonSutcliffe04)).
 
