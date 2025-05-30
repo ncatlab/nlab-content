@@ -15,10 +15,13 @@ The prediction of [[abelian group|abelian]] [[anyon]]-excitations in the [[quant
   > (for filling fraction $\nu = 1/q$)
 
 * {#Su86} W. P. Su: *Statistics of the fractionally charged excitations in the quantum Hall effect*, Phys. Rev. B **34** (1986) 1031 \[<a href="https://doi.org/10.1103/PhysRevB.34.1031">doi:10.1103/PhysRevB.34.1031</a>\]
-  > (for general filling fraction $\nu = p/q$)
+  > (claim for general filling fraction $\nu = p/q$)
 
+* {#GoldhaberJain95} A. S. Goldhaber, [[Jainendra K. Jain]]: *Characterization of fractional-quantum-Hall-effect quasiparticles*, Physics Letters A **199** 3–4 (1995) 267-273 \[<a href="https://doi.org/10.1016/0375-9601(95)00101-8">doi:10.1016/0375-9601(95)00101-8</a>, [arXiv:cond-mat/9501080](https://arxiv.org/abs/cond-mat/9501080)\]
+  > (for Jain series fractions $\nu = n/(2p n \pm 1)$)
 
-
+* [Jain 2007 §9.8](#Jain07) 
+  > (review)
 
 
 The original discussion of [[non-abelian group|non-abelian]] [[anyon]]-excitations in the [[quantum Hall effect]] (i.e. satisfying [[braid group statistics]] in higher dimensional [[linear representations]] of the [[braid group]], related to [[modular tensor categories]]):
