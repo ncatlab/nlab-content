@@ -117,7 +117,7 @@ such that
 
 =--
 
-This is ([Lurie, theorem 2.4.6](#Lurie)).
+This is ([Lurie 2009, theorem 2.4.6](#Lurie09)).
 
 
 +-- {: .proof}
