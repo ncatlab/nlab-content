@@ -640,12 +640,38 @@ Motivated by [Halperin 1984](#Halperin84), [Goldhaber & Jain 1995](#GoldhaberJai
   \,.
 \]
 
-For the two cases $\nu = 1/3$ and $\nu = 2/5$ this appears to be confirmed first by numerical computations (referenced around [Jain 2007 (9.46)](#Jain07)) and then, starting around 2020, this braiding angle is reported to be observed in [[experiments]] (see [Nakamura et al. 2020](#NakamuraEtAl20), [Nakamura et al. 2023 p 1,7](#NakamuraEtAl23) and further references [below](#ObservationOfAnyonsInFQH)).
+\begin{remark}
+  While in the special case $n = 1$ the formula (eq:BraidingAngleAtJainSequenceFillingFactor) still differs from (eq:BraidingAngleAtUnitFractionFillingFactor) it does so only by a unit shift
+
+\[
+  \label{ShiftInBraidingAngles}
+  \mp 
+  \frac{
+    2 p
+  }{
+    2 p \pm 1
+  }
+  \;=\;
+  \frac{
+    1
+  }{
+    2 p \pm 1
+  }
+  \,\mp\,
+  1
+  \,,
+\]
+
+and hence by a sign of the corresponding braiding phase, which [Jain 2007 (9.49)](#Jain07) attributes but to a different convention of normalizing the corresponding [[Laughlin wavefunction]].
+
+\end{remark}
+
+For the two cases $\nu = 1/3$ and $\nu = 2/5$, equation (eq:BraidingAngleAtJainSequenceFillingFactor) appears to be confirmed first by numerical computations (referenced around [Jain 2007 (9.46)](#Jain07)) and then, starting around 2020, this braiding angle is reported to be observed in [[experiments]] for the cases $\nu \in \big\{ \tfrac{1}{3}, \tfrac{2}{5} \big\}$ (see [Nakamura et al. 2020](#NakamuraEtAl20), [Nakamura et al. 2023 p 1,7](#NakamuraEtAl23) and further references [below](#ObservationOfAnyonsInFQH)).
 
 \begin{remark}
-More precisely, these interferometry experiments measure the effect of full rotations and hence *twice* the braiding angle [[modulo]] $2\pi$. This means that at $\nu = 1/3$ they do not distinguish between braiding angles $\pm \tfrac{1}{3}\pi  = \nu \pi$ and $\mp \tfrac{2}{3} \pi = 2\nu \pi$. 
+More precisely, these interferometry experiments measure the effect of full rotations and hence *twice* the braiding angle [[modulo]] $2\pi$, thus being insensitive to the shift in (eq:ShiftInBraidingAngles). Concretely, these experiments at $\nu = 1/3$ do not distinguish between braiding angles $\pm \tfrac{1}{3}\pi  = \nu \pi$ and $\mp \tfrac{2}{3} \pi = 2\nu \pi$. 
 
-Moreover, for $\nu = 2/5$ the formula \eqref{BraidingAngleAtJainSequenceFillingFactor} happens to coincide with $\theta = \nu \pi$.
+Moreover, for $\nu = 2/5$ the formula \eqref{BraidingAngleAtJainSequenceFillingFactor} happens to coincide with $\theta = \nu \pi$ on the nose.
 \end{remark}
 
 
@@ -668,6 +694,8 @@ The bulk/edge behaviour in a quantum Hall effect is that of a [[topological insu
 * [[Hall effect]]
 
 * [[Laughlin wavefunction]]
+
+* [[quantum anomalous Hall effect]]
 
 * [[spin Hall effect]], [[quantum spin Hall effect]]
 
