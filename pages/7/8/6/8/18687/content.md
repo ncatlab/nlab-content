@@ -11,6 +11,10 @@
 
 ## Selected writings
 
+On [[synthetic domain theory]]: 
+
+* [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
+
 * {#PS25} [[Leoni Pugh]], [[Jonathan Sterling]], *When is the partial map classifier a Sierpiński cone?* ([arXiv:2504.06789](https://arxiv.org/abs/2504.06789))
 
 On [[guarded recursion]]:
