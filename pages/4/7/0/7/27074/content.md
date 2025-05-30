@@ -26,6 +26,11 @@ Review:
 
 * {#Jain2020} [[Jainendra K. Jain]]: *Thirty Years of Composite Fermions and Beyond*, chapter 1 in: [Halperin & Jain 2020](#HalperinJain20), *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) &lbrack;[arXiv:2011.13488](https://arxiv.org/abs/2011.13488), <a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
 
+On the [[anyon]] [braiding phase](quantum+Hall+effect#BraidingPhase) in [[fractional quantum Hall systems]]:
+
+* {#GoldhaberJain95} A. S. Goldhaber, [[Jainendra K. Jain]]: *Characterization of fractional-quantum-Hall-effect quasiparticles*, Physics Letters A **199** 3–4 (1995) 267-273 \[<a href="https://doi.org/10.1016/0375-9601(95)00101-8">doi:10.1016/0375-9601(95)00101-8</a>, [arXiv:cond-mat/9501080](https://arxiv.org/abs/cond-mat/9501080)\]
+
+
 On the $\nu = 5/2$ [[FQH system|FQH state]]:
 
 * [[Jainendra K. Jain]]: *The $5/2$ enigma in a spin?*, Physics **3** (2010) 71 &lbrack;[doi:10.1103/Physics.3.71](http://link.aps.org/doi/10.1103/Physics.3.71), [pdf](https://physics.aps.org/articles/pdf/10.1103/Physics.3.71)&rbrack;
