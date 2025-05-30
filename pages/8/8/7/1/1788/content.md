@@ -6,6 +6,10 @@
 
 ****
 
+* Anyonic statistics and slow quasiparticle dynamics in a graphene fractional quantum Hall interferometer
+
+* Exploring the Fractional Quantum AnomalousHall Effect in Moiré Materials: Advances andFuture Perspectives
+
 ## Hopfion
 
 By *Hopfions* one refers to those [[solitons]] on 3-dimensional [[Euclidean space]] $\mathbb{R}^3$ whose topological configurations are classified by [[homotopy classes]] of [[maps]] to the ([[Riemann sphere|Riemann]]) [[2-sphere]] $S^2 \simeq \mathbb{C}P^1$, hence (by the defining [[vanishing at infinity]] of solitons) by [[homotopy classes]] of [[pointed topological space|pointed]] maps from the [[one-point compactification]] $\mathbb{R}^3_{\cup\{\infty\}} \simeq S^3$ to $S^2$, hence by the 3rd [[homotopy group]] of [[2-sphere|$S^2$]], which is the [[integers]]
