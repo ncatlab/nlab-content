@@ -49,7 +49,7 @@ Every skeletal type is a [[set]]. If $A$ is also a [[Segal type]], then the noti
 
 * [[skeleton]]
 
-* [[univalent type]]
+* [[Rezk complete type]]
 
 * [[gaunt type]]
 
