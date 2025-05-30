@@ -60,7 +60,7 @@ $$x \cong_A y \coloneqq \exists f:\mathrm{hom}_A(x, y).\mathrm{isIso}(f)$$
 
 * [[hom type]]
 
-* [[univalent type]]
+* [[Rezk complete type]]
 
 * [[Rezk type]]
 
