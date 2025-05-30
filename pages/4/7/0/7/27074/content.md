@@ -35,6 +35,10 @@ On the [[fractional quantum Hall effect]]:
 
 * {#HalperinJain20} [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
 
+On [[bound states]] of [[anyons]] in [[fractional quantum Hall systems]]:
+
+* Mytraya Gattu, [[Jainendra K. Jain]]: *Molecular anyons in fractional quantum Hall effect* \[<a href="https://arxiv.org/abs/2505.22782">arXiv:2505.22782</a>\]
+
 
 category: people
 
