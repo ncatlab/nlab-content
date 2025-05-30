@@ -11,6 +11,10 @@
 
 ## Selected writings
 
+See also the [personal bibliography](https://www.jonmsterling.com/jms-0064/index.xml).
+
+\linebreak
+
 On [[synthetic domain theory]]: 
 
 * [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
@@ -38,11 +42,12 @@ On [[XTT]]:
 
 * [[Jonathan Sterling]], [[Carlo Angiuli]], [[Daniel Gratzer]], _A Cubical Language for Bishop Sets_, Logical Methods in Computer Science, 18 (1), 2022. ([arXiv:2003.01491](https://arxiv.org/abs/2003.01491)). 
 
-## See Also
+On [[synthetic domain theory]] via [[classifying topos|classifying]] [[topos theory]]:
 
-* [Personal Bibliography](https://www.jonmsterling.com/jms-0064/index.xml)
+* [[Jonathan Sterling]], [[Lingyuan Ye]]: *Domains and Classifying Topoi* &lbrack;[arXiv:2505.13096](https://arxiv.org/abs/2505.13096)&rbrack;
 
-* [Personal Website](https://www.jonmsterling.com/index/index.xml)
+
+
 
 ## Related entries
 
