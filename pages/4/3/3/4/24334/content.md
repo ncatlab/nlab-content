@@ -157,7 +157,7 @@ Types include
 
 * [[Segal type]]
 
-* [[univalent type]]
+* [[Rezk complete type]]
 
 * [[Rezk type]]
 
