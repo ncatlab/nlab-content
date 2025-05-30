@@ -37,7 +37,7 @@ The following definition is lacking reference or justification.
 
 =--
 
-In [[simplicial type theory]], a [[type]] $A$ is a **gaunt type** or **stiff type** if it is both a [[skeletal type]] and a [[univalent type]]. 
+In [[simplicial type theory]], a [[type]] $A$ is a **gaunt type** or **stiff type** if it is both a [[skeletal type]] and a [[Rezk complete type]]. 
 
 If $A$ is also a [[Segal type]], then the notion corresponds to the concept of a [[gaunt category|gaunt]] [[(infinity,1)-category]].
 
@@ -45,7 +45,7 @@ If $A$ is also a [[Segal type]], then the notion corresponds to the concept of a
 
 * [[skeletal type]]
 
-* [[univalent type]]
+* [[Rezk complete type]]
 
 * [[gaunt category]]
 
