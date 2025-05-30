@@ -5,7 +5,7 @@
 
 ## Idea
 
-A pairing of the notions of [[quantum group]] and [[2-group]].
+Combination of the notions of [[quantum groups]] and [[2-groups]].
 
 ## Related concepts
 
