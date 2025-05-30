@@ -68,7 +68,7 @@ The [[categorical semantics]] of a simplicially discrete type is a [[groupoid ob
 
 * [[hom type]]
 * [[anima]]
-* [[univalent type]]
+* [[Rezk complete type]]
 * [[univalent groupoid]]
 
 ## References
