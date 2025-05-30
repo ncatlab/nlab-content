@@ -103,13 +103,16 @@ reproduced as
 
 * {#Schellekens06} [[Bert Schellekens]], _The Landscape "avant la lettre"_ ([arXiv:physics/0604134](http://arxiv.org/abs/physics/0604134))
 
-More recent account of how the relevant community pictures the situation includes
+More recent accounts of how the relevant community pictures the situation:
 
 * {#Bousso11} [[Raphael Bousso]], _The State of the Multiverse: The String Landscape, the Cosmological Constant, and the Arrow of Time_, 2011 ([pdf](http://www.ctc.cam.ac.uk/stephen70/talks/swh70_bousso.pdf))
 
 * [[Brian Greene]], _Is our universe the only universe?_, talk at TED2012 ([web](http://www.ted.com/talks/brian_greene_why_is_our_universe_fine_tuned_for_life))
 
 * [[Andrei Linde]], _A brief history of the multiverse_ ([arXiv:1512.01203](https://arxiv.org/abs/1512.01203))
+
+* [[Jeremy Butterfield]]: *The Multiverse: a Philosophical Introduction*, University of Calgary Press &lbrack;[arXiv:2505.23639](https://arxiv.org/abs/2505.23639)&rbrack;
+
 
 Further and popular expositions include
 
