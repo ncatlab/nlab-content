@@ -1,4 +1,8 @@
 
+> This article is about synthetic pre-categories satisfying the Rezk completion condition in [[simplicial type theory]]. For arbitrary types satisfying the Rezk completion condition, see [[Rezk complete type]]
+
+----
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -25,9 +29,9 @@ The analogue of a [[Rezk category]] or [[complete Segal space]] in [[simplicial 
 
 ## Definition
 
-In [[simplicial type theory]], a **[[Rezk category|Rezk]] type** or **[[complete Segal space|complete Segal]] type** is a [[univalent type|univalent]] [[Segal type]]
+In [[simplicial type theory]], a **[[Rezk category|Rezk]] type** or **[[complete Segal space|complete Segal]] type** is a [[Rezk complete type|Rezk complete]] [[Segal type]]
 
-$$\mathrm{isRezk}(A) \coloneqq \mathrm{isSegal}(A) \times \mathrm{isUnivalent}(A)$$ 
+$$\mathrm{isRezk}(A) \coloneqq \mathrm{isSegal}(A) \times \mathrm{isRezkComplete}(A)$$ 
 
 ## Examples
 
@@ -44,7 +48,7 @@ The categorical semantics of a complete Segal type is a [[complete Segal space o
 ## Related concepts
 
 * [[Segal type]]
-* [[univalent type]]
+* [[Rezk complete type]]
 * [[simplicially discrete type]]
 * [[complete Segal space]]
 * [[univalent category]]
