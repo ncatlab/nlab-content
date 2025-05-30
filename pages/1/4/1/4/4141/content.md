@@ -2,7 +2,11 @@ Jeremy Butterfield is a Senior Research Fellow at Trinity College, Cambridge and
 
 * [website](http://www.trin.cam.ac.uk/butterfield/) 
 
-* [biography](http://en.wikipedia.org/wiki/Jeremy_Butterfield) (brief)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Jeremy_Butterfield)
+
+* [inSpire page](https://inspirehep.net/authors/1048829)
+
+* [GoogleScholar page](https://scholar.google.co.uk/citations?user=_1XT6RoAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -33,8 +37,12 @@ On [[black holes in string theory]] and [[black hole entropy]]:
 
 * Jeroen van Dongen, Sebastian De Haro, Manus Visser, [[Jeremy Butterfield]], _Emergence and Correspondence for String Theory Black Holes_ ([arXiv:1904.03234](https://arxiv.org/abs/1904.03234))
 
+On the "[[multiverse]]" (in the sense of [[physics]]):
 
-## Related $n$Lab entries
+* [[Jeremy Butterfield]]: *The Multiverse: a Philosophical Introduction*, University of Calgary Press &lbrack;[arXiv:2505.23639](https://arxiv.org/abs/2505.23639)&rbrack;
+
+
+## Related entries
 
 * [[BV-BRST formalism]]
 
