@@ -92,11 +92,10 @@ Models akin to the [[Haldane model]]:
 
 ### Experimental realization
 
-* Aizhu Wang, Xiaoming Zhang, Yuanping Feng, Mingwen Zhao*, *Chern Insulator and Chern Half-Metal States in the Two-Dimensional Spin-Gapless Semiconductor $Mn_2 \mathrm{C}_6\mathrm{S}_12$*, J. Phys. Chem. Lett. **8** 16 (2017) 3770–3775 $[$[doi:10.1021/acs.jpclett.7b01187](https://doi.org/10.1021/acs.jpclett.7b01187)$]$
+* Aizhu Wang, Xiaoming Zhang, Yuanping Feng, Mingwen Zhao*, *Chern Insulator and Chern Half-Metal States in the Two-Dimensional Spin-Gapless Semiconductor $Mn_2 \mathrm{C}_6\mathrm{S}_12$*, J. Phys. Chem. Lett. **8** 16 (2017) 3770–3775 &lbrack;[doi:10.1021/acs.jpclett.7b01187](https://doi.org/10.1021/acs.jpclett.7b01187)&rbrack;
 
 [[!redirects Chern insulators]]
 
-[[!redirects quantum anomalous Hall effect]]
 
 [[!redirects Chern semimetal]]
 [[!redirects Chern semimetals]]
