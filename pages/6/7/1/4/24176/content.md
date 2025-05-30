@@ -73,6 +73,8 @@ We now go on to build a univalent category $\hat{A}$ with a [[weak equivalence]]
 
 * [[higher inductive type]]
 
+* [[Rezk complete type]]
+
 ## References ##
 
 The relation between [[complete Segal space|Segal completeness]] (now often "Rezk completion") for [[internal categories in HoTT]] and the [[univalence axiom]] had been pointed out in:
