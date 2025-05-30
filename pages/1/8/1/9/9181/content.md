@@ -97,11 +97,13 @@
 
 **[[solitons]]**
 
+* [[instanton]]
+
 * [[Skyrmion]]
 
-* [[caloron]]
+* [[Hopfion]]
 
-* [[instanton]]
+* [[caloron]]
 
 
 **in [[grand unified theory]]**
