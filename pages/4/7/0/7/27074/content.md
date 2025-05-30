@@ -1,7 +1,7 @@
 
-* [Wikipedia entry](https://en.wikipedia.org/wiki/Jainendra_K._Jain)
+* [insitute page](https://science.psu.edu/physics/people/jkj2)
 
-* [Insitute page](https://pure.psu.edu/en/persons/jainendra-k-jain)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Jainendra_K._Jain)
 
 * [InSpire page](https://inspirehep.net/authors/1039261)
 
