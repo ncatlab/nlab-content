@@ -54,6 +54,8 @@ Accordingly, one rarely hears of commutative triangles on their own; instead, th
 
 * [[composable pair]]
 
+* [[composite of morphisms]]
+
 ## References
 
 The phrase "commutative triangle" appears in:
