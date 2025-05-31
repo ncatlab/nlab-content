@@ -693,9 +693,10 @@ The bulk/edge behaviour in a quantum Hall effect is that of a [[topological insu
 
 * [[Hall effect]]
 
+* [[quantum anomalous Hall effect]]
+
 * [[Laughlin wavefunction]]
 
-* [[quantum anomalous Hall effect]]
 
 * [[spin Hall effect]], [[quantum spin Hall effect]]
 
