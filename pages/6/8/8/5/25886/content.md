@@ -74,19 +74,24 @@ See also:
 * [[Edward Witten]], *On the structure of the topological phase of two-dimensional gravity*, Nuclear Physics B
 **340** 2–3 (1990) 281-332 &lbrack;<a href="https://doi.org/10.1016/0550-3213(90)90449-N">doi:10.1016/0550-3213(90)90449-N</a>&rbrack;
 
-* [[Tohru Eguchi]], Sung-Kil Yang, *The Topological $C P^1$ Model and the Large-$N$ Matrix Integral*, Mod. Phys. Lett. A **9** (1994) 2893-2902 &lbrack;[arXiv:hep-th/9407134](https://arxiv.org/abs/hep-th/9407134), [doi:10.1142/S0217732394002732](https://doi.org/10.1142/S0217732394002732)&rbrack;
-
 * [[Shmuel Elitzur]], A. Forge, [[Eliezer Rabinovici]], *On effective theories of topological strings*, Nuclear Physics B **388** 1 (1992) 131-155 &lbrack;<a href="https://doi.org/10.1016/0550-3213(92)90548-P">doi:10.1016/0550-3213(92)90548-P</a>&rbrack;
 
-* [[Shmuel Elitzur]], [[Yaron Oz]], [[Eliezer Rabinovici]], [[Johannes Walcher]], *Open/Closed Topological $\mathbb{C}P^1$ Sigma Model Revisited*,  J. High Energ. Phys. **2012** 101 (2012) &lbrack;[arXiv:1106.2967](https://arxiv.org/abs/1106.2967)&rbrack;
+* Stefano Forte, §VI.A in: *Quantum mechanics and field theory with fractional spin and statistics*, Rev. Mod. Phys. **64** (1992) 193 &lbrack;[doi:10.1103/RevModPhys.64.193](https://doi.org/10.1103/RevModPhys.64.193)&rbrack; 
+
+
+* [[Tohru Eguchi]], Sung-Kil Yang, *The Topological $C P^1$ Model and the Large-$N$ Matrix Integral*, Mod. Phys. Lett. A **9** (1994) 2893-2902 &lbrack;[arXiv:hep-th/9407134](https://arxiv.org/abs/hep-th/9407134), [doi:10.1142/S0217732394002732](https://doi.org/10.1142/S0217732394002732)&rbrack;
+
+* R. Banerjee, *Quantum equivalence of $O(3)$ nonlinear σ model and the $CP^1$ model: A gauge-independent Hamiltonian approach*, Phys. Rev. D **49** 2133 (1994) &lbrack;[doi:10.1103/PhysRevD.49.2133](https://doi.org/10.1103/PhysRevD.49.2133)&rbrack;
 
 * [[Rajesh Gopakumar]], *What is the Simplest Gauge-String Duality?* &lbrack;[arXiv:1104.2386](https://arxiv.org/abs/1104.2386)&rbrack;
+
+* [[Shmuel Elitzur]], [[Yaron Oz]], [[Eliezer Rabinovici]], [[Johannes Walcher]], *Open/Closed Topological $\mathbb{C}P^1$ Sigma Model Revisited*,  J. High Energ. Phys. **2012** 101 (2012) &lbrack;[arXiv:1106.2967](https://arxiv.org/abs/1106.2967)&rbrack;
 
 * [[Rajesh Gopakumar]], Roji Pius, *Correlators in the Simplest Gauge-String Duality* &lbrack;[arXiv:1212.1236](https://arxiv.org/abs/1212.1236)&rbrack;
 
 * Lwazi Nkumane, *The Simplest Gauge-String Duality* (2015) &lbrack;[pdf](https://core.ac.uk/download/pdf/188771529.pdf)&rbrack;
 
-* R. Banerjee, *Quantum equivalence of $O(3)$ nonlinear σ model and the $CP^1$ model: A gauge-independent Hamiltonian approach*, Phys. Rev. D **49** 2133 (1994) &lbrack;[doi:10.1103/PhysRevD.49.2133](https://doi.org/10.1103/PhysRevD.49.2133)&rbrack;
+* B. Chakraborty, Subir Ghosh, R. P. Malik: *$C P^1$ model with Hopf interaction: the quantum theory*, Nucl. Phys. B **600** 2 (2001) 351-377 &lbrack;[arXiv:hep-th/0008168](https://arxiv.org/abs/hep-th/0008168), <a href="https://doi.org/10.1016/S0550-3213(01)00060-8">doi:10.1016/S0550-3213(01)00060-8</a>&rbrack;
 
 * {#NakayamaFunckeJansenKaoKühn22} Katsumasa Nakayama, Lena Funcke, Karl Jansen, Ying-Jer Kao, Stefan Kühn, *Phase structure of the $CP(1)$ model in the presence of a topological $\theta$-term*, Phys. Rev. D **105** 054507 (2022) &lbrack;[arXiv:2107.14220](https://arxiv.org/abs/2107.14220), [doi:10.1103/PhysRevD.105.054507](https://doi.org/10.1103/PhysRevD.105.054507)&rbrack;
 
@@ -119,12 +124,23 @@ See also:
 
 [[!redirects CPN sigma-model]]
 [[!redirects CPN sigma-models]]
+[[!redirects CPN model]]
+[[!redirects CPN models]]
 
 [[!redirects CP^n sigma-model]]
 [[!redirects CP^n sigma-models]]
+[[!redirects CP^n model]]
+[[!redirects CP^n models]]
+
+[[!redirects CP1 sigma-model]]
+[[!redirects CP1 sigma-models]]
+[[!redirects CP1 model]]
+[[!redirects CP1 models]]
 
 [[!redirects CP^1 sigma-model]]
 [[!redirects CP^1 sigma-models]]
+[[!redirects CP^1 model]]
+[[!redirects CP^1 models]]
 
 [[!redirects flag manifold sigma-model]]
 [[!redirects flag manifold sigma-models]]
