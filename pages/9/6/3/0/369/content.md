@@ -53,6 +53,18 @@ The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]
 
 * [[fork]]
 
+* [[walking structure]]
+
+  * [[walking pair of objects]]
+
+  * [[walking morphism]]
+
+  * **walking parallel pair**
+
+  * [[walking isomorphism]]
+
+  * [[walking equivalence]]
+
 [[!include free diagrams -- table]]
 
 [[!redirects parallel morphism]]
