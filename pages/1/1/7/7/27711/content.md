@@ -41,6 +41,8 @@ Binary bridge types behave like [[identity types]] in that they have [[function 
 
 * [[hom type]]
 
+* [[directed interval]]
+
 * [[displayed coinductive type]]
 
 * [[cubical type theory]]
@@ -81,6 +83,9 @@ Bridge types in [[Narya]]:
 
 * *Parametric Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametric-observational-type-theory.html)) 
 
+[[!redirects bridge]]
+[[!redirects bridges]]
+
 [[!redirects bridge type]]
 [[!redirects bridge types]]
 
@@ -92,3 +97,9 @@ Bridge types in [[Narya]]:
 
 [[!redirects n-ary bridge type]]
 [[!redirects n-ary bridge types]]
+
+[[!redirects heterogeneous bridge]]
+[[!redirects heterogeneous bridges]]
+
+[[!redirects heterogeneous bridge type]]
+[[!redirects heterogeneous bridge types]]
