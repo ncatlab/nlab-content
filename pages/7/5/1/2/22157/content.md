@@ -25,9 +25,16 @@ In particular, no external [[magnetic field]] is needed to induce a spin Hall ef
 
 ## Related concepts
 
-* [[Hall effect]], [[quantum Hall effect]]
+
+**Types of Hall effects**
+
+* [[Hall effect]], [[anomalous Hall effect]]
+
+* [[quantum Hall effect]], [[quantum anomalous Hall effect]]
 
 * [[quantum spin Hall effect]]
+
+
 
 ## References
 
