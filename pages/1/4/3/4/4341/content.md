@@ -145,6 +145,13 @@ The term *free-living* is defined in:
 [[!redirects free-living object]]
 [[!redirects free-living objects]]
 
+[[!redirects free-standing]]
+[[!redirects free-standing structure]]
+[[!redirects free-standing structures]]
+[[!redirects free-standing object]]
+[[!redirects free-standing objects]]
+
+
 [[!redirects walking]]
 [[!redirects walking structure]]
 [[!redirects walking structures]]
