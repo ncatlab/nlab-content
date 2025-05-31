@@ -61,13 +61,13 @@ Since the groupoid core of the walking morphism is the boolean domain, using the
 
 The walking morphism satisfies [[directed univalence]]: for all objects $x, y \in I$, we have a [[bijection]] between the [[function set]] $B_y^{B_x}$ and the [[hom-set]] $\mathrm{hom}_I(x, y)$. 
 
-### Phoa's principle
+### Relation to the walking commutative triangle
 
-The walking morphism $I$ satisfies [[Phoa's principle]]: The [[functor category]] $I^I$ is [[equivalence of categories|equivalent]] to the *[[walking]] [[commutative triangle]]* $\Delta[2]$ consisting of three objects $0, 1, 2 \in \Delta[2]$ and three morphisms $h_{01}:\mathrm{hom}_{\Delta[2]}(0, 1)$, $h_{02}:\mathrm{hom}_{\Delta[2]}(0, 2)$, $h_{12}:\mathrm{hom}_{\Delta[2]}(1, 2)$, such that $h_{02} = h_{12} \circ h_{01}$. 
+The [[functor category]] $I^I$ is [[equivalence of categories|equivalent]] to the [[walking commutative triangle]] $\Delta[2]$ consisting of three objects $0, 1, 2 \in \Delta[2]$ and three morphisms $h_{01}:\mathrm{hom}_{\Delta[2]}(0, 1)$, $h_{02}:\mathrm{hom}_{\Delta[2]}(0, 2)$, $h_{12}:\mathrm{hom}_{\Delta[2]}(1, 2)$, such that $h_{02} = h_{12} \circ h_{01}$. This is equivalently [[Phoa's principle]] for $\mathbb{I}$ as a [[poset]]. 
 
-### Relation to the interval groupoid
+### Relation to the walking isomorphism
 
-Inverting the single non-identity arrow of the walking morphism, we obtain the [[interval groupoid]], which is an (undirected) [[interval object]] in [[Cat]] and [[Grpd]].
+Inverting the single non-identity arrow of the walking morphism, we obtain the [[walking isomorphism]], which is an (undirected) [[interval object]] in [[Cat]] and [[Grpd]].
 
 ## In dependent type theory
 
@@ -113,7 +113,7 @@ $$
 
 in [[Cat]], where on the left we have the [[cartesian product]] of $C$ with $I$. 
 
-Accordingly, for $I_{iso}$ the interval groupoid, a [[natural isomorphism]] $\eta : F \Rightarrow G$ is the same as a diagram
+Accordingly, for $I_{iso}$ the [[walking isomorphism]], a [[natural isomorphism]] $\eta : F \Rightarrow G$ is the same as a diagram
 
 $$
   \array{
@@ -168,6 +168,8 @@ The analogous statements are true in [[higher category theory]].
   * **walking morphism**
 
   * [[walking parallel pair]]
+
+  * [[walking commutative triangle]]
 
   * [[walking isomorphism]]
 
