@@ -26,7 +26,15 @@ In analogy to how the ordinary [[quantum Hall effect]] has a [fractional version
 
 ## Related entries
 
-* [[spin Hall effect]], [[quantum spin Hall effect]]
+**Types of Hall effects**
+
+* [[Hall effect]], [[anomalous Hall effect]]
+
+* [[quantum Hall effect]], [[quantum anomalous Hall effect]]
+
+* [[quantum spin Hall effect|quantum]]$\;$[[spin Hall effect]]
+
+
 
 ## References
 
