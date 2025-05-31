@@ -153,7 +153,5 @@ intervals, _Theory and Applications of Categories_, 24:10 (2010), 221-265. ([tac
 [[!redirects factorisation category]]
 [[!redirects factorization categories]]
 [[!redirects factorisation categories]]
-[[!redirects interval category]]
-[[!redirects interval categories]]
 
 category:computer science
