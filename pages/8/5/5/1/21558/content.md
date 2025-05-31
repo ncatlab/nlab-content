@@ -92,6 +92,8 @@ and thus $N(\mathcal{I})$ represents the subpresheaf $FullSub \subseteq Sub$ of 
 
   * [[walking parallel pair]]
 
+  * [[walking commutative triangle]]
+
   * **walking isomorphism**
 
   * [[walking equivalence]]
