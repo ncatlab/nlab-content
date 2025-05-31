@@ -53,7 +53,7 @@ There are also two other modalities
 
 * the [[twisted arrow modality]] $A^\mathrm{tw}$ which represents the [[twisted arrow construction]] [[(infinity,1)-functor]] in [[simplicial anima]]. 
 
-In addition, simplicial type theory comes with a designated [[bounded total order]] $\mathbb{I}$ called a *directed [[interval]]*, such that 
+In addition, simplicial type theory comes with a designated [[bounded total order]] $\mathbb{I}$ called a *[[directed interval]]*, such that 
 
 * there is an [[equivalence of types]] $\neg:\mathbb{I}^op \simeq \mathbb{I}$ which swaps $0$ for $1$ and $\max$ for $\min$,
 
@@ -71,9 +71,9 @@ In addition, simplicial type theory comes with a designated [[bounded total orde
 
 $$\lambda a.\lambda f.f(a):A \to (\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I}) \to \mathbb{I})$$
 
-### Formalising the bounded total order
+### Formalising the directed interval
 
-There are many different ways to formalize the bounded total order in simplicial type theory: 
+There are many different ways to formalize the directed interval in simplicial type theory: 
 
 * one could simply postulate in vanilla [[dependent type theory]] via inference rules and axioms a [[bounded total order]], as in [Gratzer, Weinberger, & Buchholtz 2024](#GWB24) and [Gratzer, Weinberger, & Buchholtz 2025](#GWB25). 
 
@@ -81,7 +81,7 @@ There are many different ways to formalize the bounded total order in simplicial
 
 * one could use [[type theory with shapes]] consisting of a non-fibrant layer of cubes which is a [[simple type theory]] and a non-fibrant layer of topes which is a [[propositional logic]] over the cube layer, and then define the [[bounded total order]] using the cube and tope layers, as in [Riehl & Shulman 2017](#RiehlShulman17). 
 
-The first approach is simpler to define, while the latter two are easier to work with, since the equalities in the interval type are [[judgmental equalities]] rather than [[identifications]], so one doesn't have to deal with [[transport]] hell. 
+The first approach is simpler to define, while the latter two are easier to work with, since the equalities in the directed interval type are [[judgmental equalities]] rather than [[identifications]], so one doesn't have to deal with [[transport]] hell. 
 
 In the latter two approaches, the [[function type]] $\mathbb{I} \to A$ used in the axiom of cohesion is usually defined as an [[extension type]], while the [[dependent function type]] $\prod_{i:\mathbb{I}} A(i)$ is usually defined as a [[dependent extension type]]. 
 
@@ -197,11 +197,11 @@ The directed univalent universe $\mathcal{S}$ is a [[finitely complete type|fini
 
 ## Generalizations 
 
-There are many generalizations of simplicial type theory, where the interval is not a [[total order]] and thus the types only represent [[cubical objects in an (infinity,1)-topos|cubical objects in an $(\infty,1)$-topos]] instead of [[simplicial objects in an (infinity,1)-topos|simplicial objects in an $(\infty,1)$-topos]]:
+There are many generalizations of simplicial type theory, where the [[directed interval]] is not a [[total order]] and thus the types only represent [[cubical objects in an (infinity,1)-topos|cubical objects in an $(\infty,1)$-topos]] instead of [[simplicial objects in an (infinity,1)-topos|simplicial objects in an $(\infty,1)$-topos]]:
 
-* [Gratzer, Weinberger & Buchholtz 2024](#GWB24) use a [[distributive lattice]] instead of a [[bounded total order]] in their versions of simplicial type theory called [[triangulated type theory]]. The theory has semantics in [[Dedekind cube category|Dedekind cube]] objects of an $(\infty,1)$-topos. 
+* [Gratzer, Weinberger & Buchholtz 2024](#GWB24) use a [[distributive lattice]] instead of a [[bounded total order]] for the [[directed interval]] in their versions of simplicial type theory called [[triangulated type theory]]. The theory has semantics in [[Dedekind cube category|Dedekind cube]] objects of an $(\infty,1)$-topos. 
 
-* [Pugh & Sterling 2025](#PS25) use a [[01-bounded semilattice]] instead of a [[bounded total order]] in their version of simplicial type theory for [[synthetic domain theory]]. The synthetic quasi-coherence axiom is not required for the results of this paper, which instead assumes only [[Phoa's principle]] (which is equivalent to quasi-coherence for free finitely generated algebras).
+* [Pugh & Sterling 2025](#PS25) use a [[01-bounded semilattice]] instead of a [[bounded total order]] for the [[directed interval]] in their version of simplicial type theory for [[synthetic domain theory]]. The synthetic quasi-coherence axiom is not required for the results of this paper, which instead assumes only [[Phoa's principle]] (which is equivalent to quasi-coherence for free finitely generated algebras).
 
 These theories could hypothetically be called *cubical type theories* or *cubical homotopy type theories* for the internal type theory of cubical objects in an $(\infty,1)$-topos in parallel with the name *simplicial type theory* or *simplicial homotopy type theory* for the internal type theory of simplicial objects in an $(\infty,1)$-topos. However, the term *[[cubical type theory]]* is already used for dependent type theories where the [[identity type]] itself is defined as a [[cubical path type]] out of a pre-defined interval. 
 
