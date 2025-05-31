@@ -27,7 +27,12 @@ The fact that no external field is needed in a quantum spin Hall effect make the
 
 ## Related concepts
 
-* [[Hall effect]], [[quantum Hall effect]]
+
+**Types of Hall effects**
+
+* [[Hall effect]], [[anomalous Hall effect]]
+
+* [[quantum Hall effect]], [[quantum anomalous Hall effect]]
 
 * [[spin Hall effect]]
 
