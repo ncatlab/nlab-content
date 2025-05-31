@@ -16,7 +16,7 @@ Early proposal to model the [[fractional quantum Hall effect]] by [[abelian Cher
 
 * [[Steven M. Girvin]], around (10.7.15) in: *Summary, Omissions and Unanswered Questions*, Chapter 10 of: *The Quantum Hall Effect*, Graduate Texts in Contemporary Physics, Springer (1986, 1990) \[<a href="https://doi.org/10.1007/978-1-4612-3350-3">doi:10.1007/978-1-4612-3350-3</a>\]
 
-* [[Steven M. Girvin]], A. H. MacDonald, around (10) of: *Off-diagonal long-range order, oblique confinement, and the fractional quantum Hall effect*, Phys. Rev. Lett. **58** 12 (1987) (1987) 1252-1255 \[<a href="https://doi.org/10.1103/PhysRevLett.58.1252">doi:10.1103/PhysRevLett.58.1252</a>\]
+* [[Steven M. Girvin]], [[Allan H. MacDonald]]: *Off-diagonal long-range order, oblique confinement, and the fractional quantum Hall effect*, Phys. Rev. Lett. **58** 12 (1987) (1987) 1252-1255 \[<a href="https://doi.org/10.1103/PhysRevLett.58.1252">doi:10.1103/PhysRevLett.58.1252</a>\]
 
 
 
