@@ -194,6 +194,8 @@ In addition, the boolean domain is the [[groupoid]] [[core]] of a number of cate
 
   * [[walking parallel pair]]
 
+  * [[walking commutative triangle]]
+
   * [[walking isomorphism]]
 
   * [[walking equivalence]]
