@@ -115,9 +115,9 @@ As a result, functions can also be called *[[functors]]*. A *[[contravariant fun
 
 Diagrams in [[simplicial type theory]] can be defined in an arbitrary type, rather than just the [[Segal types]]. Diagrams include: 
 
-* [[pair of composable morphisms]]
+* [[composable pair]]
 
-* [[composite of morphisms]]
+* [[composite of morphisms]], [[commutative triangle]]
 
 * [[span in simplicial type theory]]
 
