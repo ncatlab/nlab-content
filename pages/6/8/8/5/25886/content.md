@@ -142,6 +142,13 @@ See also:
 [[!redirects CP^1 model]]
 [[!redirects CP^1 models]]
 
+[[!redirects SO(3) sigma-model]]
+[[!redirects SO(3) sigma-models]]
+
+[[!redirects SO(3) model]]
+[[!redirects SO(3) models]]
+
+
 [[!redirects flag manifold sigma-model]]
 [[!redirects flag manifold sigma-models]]
 
