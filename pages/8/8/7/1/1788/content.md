@@ -6,13 +6,13 @@
 
 ****
 
-**Types of Hall effects**
+### Orbifolds in solid state physics
 
-* [[Hall effect]], [[anomalous Hall effect]]
+In the [[solid state physics]], the effective [[Brillouin torus]] of quasi-[[momenta]] of [[electrons]] in a [[crystal|crystalline material]] is generally an [[orbifold]], namely the [[quotient orbifold]] of [[Euclidean space]] (momentum space) by the corresponding [[crystallographic group]]:
 
-* [[quantum Hall effect]], [[quantum anomalous Hall effect]]
+* [[Kiyonori Gomi]], [[Guo Chuan Thiang]]: *Crystallographic T-duality*, J. Geom. Phys **139** (2019) 50-77 &lbrack;[arXiv:1806.11385](https://arxiv.org/abs/1806.11385), [doi:10.1016/j.geomphys.2019.01.002](https://doi.org/10.1016/j.geomphys.2019.01.002)&rbrack;
 
-* [[quantum spin Hall effect|quantum]] [[spin Hall effect]]
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563), [doi:10.1142/S0129055X23500010](https://doi.org/10.1142/S0129055X23500010)&rbrack;
 
 
 \linebreak
