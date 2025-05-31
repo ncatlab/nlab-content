@@ -38,6 +38,8 @@ Another field theory where such maps appear is the 3-dimensional [[CP^1 sigma-mo
 
 ## Related concepts
 
+* [[SO(3) model]]/[[CP1 model|$\mathbb{C}P^1$ model]]
+
 * [[Hopf-Wess-Zumino term]]
 
 * [[Skyrmion]]
