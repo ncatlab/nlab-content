@@ -43,6 +43,10 @@ be true for a real-valued angle measure $\gamma$, which is equivalent to the ana
 
 * [[triangle type]]
 
+* [[commutative triangle]]
+
+* [[triangle category]]
+
 ## Reference
 
 * Wikipedia, *[Triangle](https://en.wikipedia.org/wiki/Triangle)*
