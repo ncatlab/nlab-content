@@ -125,6 +125,8 @@ On the other hand, there are also cases where this argument does not apply.  For
 
   * [[walking parallel pair]]
 
+  * [[walking commutative triangle]]
+
   * [[walking isomorphism]]
 
   * [[walking equivalence]]
