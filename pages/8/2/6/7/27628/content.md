@@ -21,42 +21,14 @@
 
 ## Idea
 
-The notion of [[composition]] of [[morphisms]] in [[simplicial type theory]].
+The notion of [[uniqueness quantifier|unique]] [[composition]] of a [[composable pair of morphisms]] in [[(infinity,1)-category theory]].
 
 ## Definition
 
-### Using morphisms
-
-Let $A$ be a type in [[simplicial type theory]]. Recall that the [[hom-type]] is defined as 
-
-$$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{I} \to A} (f(0) = x) \times (f(1) = y)$$
-
-Given $x:A$, $y:A$, and $z:A$, a **pair of composable morphisms** from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of 
-
-* a morphism $f:\mathrm{hom}_A(x, y)$ 
-
-* and a morphism $g:\mathrm{hom}_A(y, z)$. 
-
-The type of pairs of composable morphisms between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]].
-
-### Using functions from shapes
-
-Let $A$ be a type in [[simplicial type theory]], and let $\Lambda^2_1$ denote the $(2,1)$-[[horn]] type. Given elements $x:A$, $y:A$, and $z:A$, a composite of morphisms from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of
-
-* a function $f:\Lambda^2_1 \to A$
-
-* an identification $p_x:f(0, 0) = x$
-
-* an identification $p_y:f(0, 1) = y$
-
-* an identification $p_z:f(1, 1) = z$
-
-The type of composites of morphisms $\mathrm{comp}_A(x, y, z)$ between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]].
-
-## Unique composites
+### In simplicial type theory
 
 \begin{definition}
-A pair of composable morphisms $(f, g)$ is **uniquely composable** if there exists a unique morphism $h:\mathrm{hom}_A(x, z)$ and function $k:\Delta^2 \to A$ such that $k(0, 0) = x$, $k(0, 1) = y$, $k(1, 1) = z$, $k_{(0, 0), (0, 1)} = f$, $k_{(0, 1), (1, 1)} = g$, $k_{(0, 0), (1, 1)} = h$:
+A composable pair of morphisms $(f, g)$ is **uniquely composable** if there exists a unique morphism $h:\mathrm{hom}_A(x, z)$ and function $k:\Delta^2 \to A$ such that $k(0, 0) = x$, $k(0, 1) = y$, $k(1, 1) = z$, $k_{(0, 0), (0, 1)} = f$, $k_{(0, 1), (1, 1)} = g$, $k_{(0, 0), (1, 1)} = h$:
 
 $$\mathrm{isUniquelyComposable}(f, g) \coloneqq \mathrm{isContr}\left(\sum_{h:\mathrm{hom}_A(x, z)}\sum_{k:\Delta^2 \to A} \left(
 \begin{array}{c}
@@ -95,11 +67,13 @@ Identity morphisms are always uniquely composable:
 
 * [[cospan in simplicial type theory]]
 
-[[!redirects pair of composable morphisms]]
-[[!redirects pairs of composable morphisms]]
+## References
 
-[[!redirects type of pairs of composable morphisms]]
-[[!redirects types of pairs of composable morphisms]]
+* {#RS17} [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
+
+* [[Emily Riehl]], *[Could $\infty$-category theory be taught to undergraduates?](https://www.ams.org/journals/notices/202305/noti2692/noti2692.html?adat=May%202023&trk=2692&galt=feature&cat=feature&pdfissue=202305&pdffile=rnoti-p727.pdf)*, Notices of the AMS (May 2023) &lbrack;[published pdf](https://www.ams.org/journals/notices/202305/rnoti-p727.pdf), [arxiv:2302.07855](https://arxiv.org/abs/2302.07855)&rbrack;
+
+* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], section 1.6 of: *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
 [[!redirects uniquely composable]]
 
@@ -112,5 +86,3 @@ Identity morphisms are always uniquely composable:
 [[!redirects unique composites of morphisms]]
 
 [[!redirects unique composition of morphisms]]
-
-[[!redirects composable morphisms]]
