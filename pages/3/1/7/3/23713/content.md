@@ -31,9 +31,15 @@ For [[semimetals]] the Berry phases of the [[valence bundle]] around their nodal
 
 ## Examples
 
-### Braiding of Laughlin quasi-holes in FGH systems
+### Hall systems
 
-see [there](Laughlin+wavefunction#BasicLaughlinStateWithQuasiHoles).
+In [[Hall systems]], Berry curvature:
+
+* induces the [[anomalous Hall effect]] 
+
+  (here this is Berry curvature on the "reciprocal space" [[Brillouin torus]] of quasi-[[momenta]] in a [[crystal|crystalline]] material),
+
+* induces the [[anyon]] [braiding phase](quantum+Hall+effect#BraidingPhase) in [[fractional quantum Hall systems]] (see [here](Laughlin+wavefunction#BasicLaughlinStateWithQuasiHoles) at *[[Laughlin wavefunction]]*).
 
 
 ## Related concepts
