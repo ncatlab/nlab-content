@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _factorization category_ (also called the _interval category_) $Fact(f)$ of a [[morphism]] $f$ in a [[category]] $C$ is a way of organizing its binary factorizations $f = p\circ q$ into a category. 
+The _factorization category_ (also called the _[[interval category]]_) $Fact(f)$ of a [[morphism]] $f$ in a [[category]] $C$ is a way of organizing its binary factorizations $f = p\circ q$ into a category. 
 
 
 ## Definition
