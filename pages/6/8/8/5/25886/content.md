@@ -90,6 +90,11 @@ See also:
 
 * {#NakayamaFunckeJansenKaoKühn22} Katsumasa Nakayama, Lena Funcke, Karl Jansen, Ying-Jer Kao, Stefan Kühn, *Phase structure of the $CP(1)$ model in the presence of a topological $\theta$-term*, Phys. Rev. D **105** 054507 (2022) &lbrack;[arXiv:2107.14220](https://arxiv.org/abs/2107.14220), [doi:10.1103/PhysRevD.105.054507](https://doi.org/10.1103/PhysRevD.105.054507)&rbrack;
 
+Textbook account:
+
+* [[Nicholas Manton]], [[Paul Sutcliffe]], section 6.1 of: *Topological Solitons*, Cambridge University Press (2004) &lbrack;[doi:10.1017/CBO9780511617034](https://doi.org/10.1017/CBO9780511617034), [inSpire:660150](https://inspirehep.net/literature/660150), [pdf](http://www.lmpt.univ-tours.fr/~volkov/Manton-Sutcliffe.pdf)&rbrack;
+
+
 
 ### Flag manifold sigma-models
 
