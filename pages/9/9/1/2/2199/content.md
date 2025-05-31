@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
 =--
 =--
 
@@ -164,6 +168,12 @@ We can prove that
 $$x \iff y = 1 \;\mathrm{iff}\; x = y \qquad x \underline{\vee} y = 1 \;\mathrm{iff}\; x \neq y$$
 $$x \rightarrow y = 1 \;\mathrm{iff}\; x \leq y \qquad x \nrightarrow y = 1 \;\mathrm{iff}\; x \gt y \qquad x \leftarrow y = 1 \;\mathrm{iff}\; x \geq y \qquad x \nleftarrow y = 1 \;\mathrm{iff}\; x \lt y$$
 
+## In category theory
+
+In [[category theory]], the boolean domain is the [[discrete category]] $\mathbb{2}$ with two objects $0, 1 \in \mathbb{2}$. Pairs of [[objects]] in a [[category]] $C$ are equivalently [[functors]] $F:\mathbb{2} \to C$ from the boolean domain to $C$ by the recursion principle of the boolean domain. As a result, the boolean domain can be called the **[[walking]] pair of objects** or **[[free-standing]] pair of objects** or **[[free-living]] pair of objects**. 
+
+In addition, the boolean domain is the [[groupoid]] [[core]] of a number of categories, including the [[interval category]] and the [[walking parallel pair]]. 
+
 ## Related concepts
 
 * [[decidable equality]]
@@ -174,7 +184,19 @@ $$x \rightarrow y = 1 \;\mathrm{iff}\; x \leq y \qquad x \nrightarrow y = 1 \;\m
 
 * [[type of booleans]]
 
-* [[two-valued logic]]
+* [[classical logic]], [[two-valued logic]]
+
+* [[walking structure]]
+
+  * **walking pair of objects**
+
+  * [[walking morphism]]
+
+  * [[walking parallel pair]]
+
+  * [[walking isomorphism]]
+
+  * [[walking equivalence]]
 
 ## References
 
@@ -223,6 +245,15 @@ See also:
 [[!redirects algebra of decidable propositions]]
 [[!redirects Boolean ring of decidable propositions]]
 [[!redirects ring of decidable propositions]]
+
+[[!redirects walking pair of objects]]
+[[!redirects walking pairs of objects]]
+
+[[!redirects free-standing pair of objects]]
+[[!redirects free-standing pairs of objects]]
+
+[[!redirects free-living pair of objects]]
+[[!redirects free-living pairs of objects]]
 
 [[!redirects two-valued type]]
 [[!redirects two-valued types]]
