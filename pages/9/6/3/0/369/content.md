@@ -61,6 +61,8 @@ The [[limit]] of a pair (or family) or morphisms is called their __[[equalizer]]
 
   * **walking parallel pair**
 
+  * [[walking commutative triangle]]
+
   * [[walking isomorphism]]
 
   * [[walking equivalence]]
