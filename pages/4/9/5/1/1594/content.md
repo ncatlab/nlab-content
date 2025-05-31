@@ -14,10 +14,9 @@
 =--
 
 
-
 #Contents#
 * table of contents
- {:toc}
+{:toc}
 
 ## Idea
 
@@ -469,14 +468,36 @@ On [[supergravity]] [[KK-compactification|KK-compactified]] (and [[branes]] [[wr
 
 * K. C. Matthew Cheung, Jacob H. T. Fry, [[Jerome P. Gauntlett]], [[James Sparks]], *M5-branes wrapped on four-dimensional orbifolds*, J. High Energ. Phys. **2022** 82 (2022) &lbrack;[arXiv:2204.02990](https://arxiv.org/abs/2204.02990), <a href="https://doi.org/10.1007/JHEP08(2022)082">doi:10.1007/JHEP08(2022)082</a>&rbrack;
 
-
-
-
-
- 
 On orbifolds by [[2-groups]] in view of [[sigma-models]] inspired from [[string theory]]:
 
 * [[Alonso Perez-Lona]], [[Eric Sharpe]], *Three-dimensional orbifolds by 2-groups* &lbrack;[arXiv:2303.16220](https://arxiv.org/abs/2303.16220)&rbrack;
+
+
+### In condensed matter theory
+ {#ReferencesInCondensedMatter}
+
+In [[solid state physics]], the effective [[Brillouin torus]] of quasi-[[momenta]] of [[electrons]] in a [[crystal|crystalline material]] is generally an [[orbifold]], namely the [[quotient orbifold]] of [[Euclidean space]] (momentum space) by the corresponding [[crystallographic group]].
+
+Explicit discussion of such *crystallographic orbifolds* for the purpose of [[crystallography]]:
+
+* [[Carroll K. Johnson]], Michael N. Burnett, William D. Dunbar: *Crystallographic Topology and Its Applications*, in: *[Crystallographic Computing 7](https://www.iucr.org/resources/commissions/crystallographic-computing/schools/school96)* *Proceedings of the Macromolecular Crystallography Computing School* (1996) &lbrack;[pdf](https://www.iucr.org/__data/assets/pdf_file/0010/9001/cj.pdf), [[JohnsonEtAl-CrystallographicTopology.pdf:file]]&rbrack;
+
+* [[Carroll K. Johnson]]: *Crystallographic Topology 2: Overview and Work in Progress*, in: *Trends in Mathematical Physics*, AMS/International Press (1999) &lbrack;[amsip:13](https://bookstore.ams.org/amsip-13), [[Johnson-CrystalTopology2.pdf:file]]&rbrack;
+
+* [[Carroll K. Johnson]], Michael N. Burnett: *Crystallographic Topology -- The Topology of Crystallographic Groups and Simple Crystal Structures* &lbrack;[webpage](https://ornl-ndav.github.io/ortep/topology.html)&rbrack;
+
+  * 2.2. [Euclidean 2-Orbifolds from Plane Groups](https://ornl-ndav.github.io/ortep/topology/orbfld2.html)
+
+  * [Orbifold atlas](https://ornl-ndav.github.io/ortep/topology/atlas/atlas.html)
+
+* Olaf Delgado Friedrichs, Daniel H. Huson: *Orbifold Triangulations and Crystallographic Groups*, Periodica Mathematica Hungarica **34** (1997) 29–55 &lbrack;[arXiv:10.1023/A:1004220406857](https://doi.org/10.1023/A:1004220406857)&rbrack;
+
+In the [[physics]] literature this orbifold nature of the [[Brillouin torus]] is not often made explicit, but see articles in the context of crystalline [[topological phases of matter]]:
+
+* [[Kiyonori Gomi]], [[Guo Chuan Thiang]]: *Crystallographic T-duality*, J. Geom. Phys **139** (2019) 50-77 &lbrack;[arXiv:1806.11385](https://arxiv.org/abs/1806.11385), [doi:10.1016/j.geomphys.2019.01.002](https://doi.org/10.1016/j.geomphys.2019.01.002)&rbrack;
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563), [doi:10.1142/S0129055X23500010](https://doi.org/10.1142/S0129055X23500010)&rbrack;
+
 
 
 category: Lie theory
