@@ -6,6 +6,18 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
+#### Directed homotopy type theory
++-- {: .hide}
+[[!include directed homotopy type theory - contents]]
+=--
 =--
 =--
 
@@ -27,9 +39,9 @@ The **[[walking]] [[composable pair]]** or **2-1-horn** is the [[reflexive graph
 
 Every composable pair in a category $C$ is represented by a [[graph]] [[homomorphism]] $F:\Lambda_1^2 \to C$ from the walking composable pair to $C$ that preserves identity morphisms. By definition of a [[category]], we have an [[equivalence of categories]] between the [[functor category]] $C^\Lambda_1^2$ of composable pairs in $C$ and the functor category $C^\Delta^2$ of [[commutative triangles]] in $C$. 
 
-On the other hand, the walking composable pair is typically used in the definition of a category, especially in i.e. [[synthetic (infinity,1)-category theory|synthetic $(\infty,1)$-category theory]]: 
+On the other hand, the walking composable pair is typically used in the definition of a category as a reflexive graph satisfying the [[Segal condition]]: 
 
-> $C$ is a [[category]] [[if and only if]] for every composable pair of morphisms $F:\Lambda_1^2 \to C$ [[there exists a unique]] [[commutative triangle]] $G:\Delta^2 \to C$ whose composable pair is $F$ itself. 
+> A [[reflexive graph]] $C$ is a [[category]] [[if and only if]] for every composable pair of morphisms $F:\Lambda_1^2 \to C$ [[there exists a unique]] [[commutative triangle]] $G:\Delta^2 \to C$ whose composable pair is $F$ itself. 
 
 ## In simplicial type theory
 
