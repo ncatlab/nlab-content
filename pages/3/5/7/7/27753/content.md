@@ -19,7 +19,7 @@
 
 ## Idea
 
-The *quantum anomalous Hall effect* (QAHE) is a joint variant of the [[quantum Hall effect]] and the anomalous Hall effect: Where a [[quantum Hall effect]] is induced by a strong *external* [[magnetic field]], in the "anomalous" version, realized in in [[crystal|crystalline materials]], the effect of the external magnetic field on the [[electrons]] is instead mimicked by the latter's [[spin-orbit coupling]] in the presence of magnetization, jointly reflected in a non-vanishing [[Berry curvature]] over the [[Brillouin torus]] which now plays the role of the external field's [[flux density]].
+The *quantum anomalous Hall effect* (QAHE) is a joint variant of the [[quantum Hall effect]] and the [[anomalous Hall effect]]: Where a [[quantum Hall effect]] is induced by a strong *external* [[magnetic field]], in the "anomalous" version, realized in in [[crystal|crystalline materials]], the effect of the external magnetic field on the [[electrons]] is instead mimicked by the latter's [[spin-orbit coupling]] in the presence of magnetization, jointly reflected in a non-vanishing [[Berry curvature]] over the [[Brillouin torus]] which now plays the role of the external field's [[flux density]].
 
 In analogy to how the ordinary [[quantum Hall effect]] has a [fractional version](quantum+Hall+effect#IdeaFQHE), there is even a fractional version of the QAHE: the *fractional quantum anomalous Hall effect* (FQAHE).
 
@@ -66,12 +66,24 @@ Further discussion:
 
 [[!redirects quantum anomalous Hall effects]]
 
+[[!redirects quantum anomalous Hall system]]
+[[!redirects quantum anomalous Hall systems]]
+
 [[!redirects anomalous quantum Hall effect]]
 [[!redirects anomalous quantum Hall effects]]
+
+[[!redirects anomalous quantum  Hall system]]
+[[!redirects anomalous quantum  Hall systems]]
 
 [[!redirects fractional quantum anomalous Hall effect]]
 [[!redirects fractional quantum anomalous Hall effects]]
 
+[[!redirects fractional quantum anomalous Hall system]]
+[[!redirects fractional quantum anomalous Hall systems]]
+
 [[!redirects fractional anomalous quantum Hall effect]]
 [[!redirects fractional anomalous quantum Hall effects]]
+
+[[!redirects fractional anomalous quantum Hall system]]
+[[!redirects fractional anomalous quantum Hall systems]]
 
