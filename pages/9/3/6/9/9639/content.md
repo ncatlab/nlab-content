@@ -453,7 +453,9 @@ hence for
 
 If one accepts this heuristics of electron+flux *composite particles*, then it provides the following heuristic explanation of the fractional quantum Hall effect, in fact it provides two alternative explanations.
 
-First, at unit filling fraction $\nu = 1/q$ with $q$ odd, there are $q$ flux quanta per electron. Thinking of these as being coupled in the form of "composite bosons" (since $q$ is assumed to be odd, which are indeed the primary filling fractions seen in experiment, though far from the only ones) then the effective system is now bosonic and hence may [[Bose-Einstein condensate|condense]] to give the fractional quantum Hall phase ([Girvin & MacDonald 1987 p 1254](https://doi.org/10.1103/PhysRevLett.58.1252)).
+First, at unit filling fraction $\nu = 1/q$ with $q$ odd, there are $q$ flux quanta per electron. Thinking of these as being coupled in the form of "composite bosons" (since $q$ is assumed to be odd, which are indeed the primary filling fractions seen in experiment, though far from the only ones) then the effective system is now bosonic and hence may [[Bose-Einstein condensate|condense]] to give the fractional quantum Hall phase ([Girvin & MacDonald 1987 p 1254](#GirvinMacDonald87)).
+
+
 
 Further exposition of this perspective by [Störmer 1999](#Störmer99) is quoted [below](#Störmer99Quote).
 
@@ -691,14 +693,18 @@ The bulk/edge behaviour in a quantum Hall effect is that of a [[topological insu
 
 ## Related concepts
 
-* [[Hall effect]]
 
-* [[quantum anomalous Hall effect]]
+**Types of Hall effects**
+
+* [[Hall effect]], [[anomalous Hall effect]]
+
+* [[quantum Hall effect]], [[quantum anomalous Hall effect]]
+
+* [[quantum spin Hall effect|quantum]]$\;$[[spin Hall effect]]
+
+**See also:**
 
 * [[Laughlin wavefunction]]
-
-
-* [[spin Hall effect]], [[quantum spin Hall effect]]
 
 * [[quantum technology]]
 
