@@ -157,7 +157,11 @@ We deduce that $x \circ \left( \mathcal{E}_{semi} \times s \right) = \mathcal{E}
 
 * [[walking structure]]
 
+  * [[walking pair of objects]]
+
   * [[walking morphism]]
+
+  * [[walking parallel pair]]
 
   * [[walking isomorphism]]
 
