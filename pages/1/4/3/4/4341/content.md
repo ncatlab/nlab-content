@@ -119,7 +119,11 @@ On the other hand, there are also cases where this argument does not apply.  For
 
 * **walking structure**
 
+  * [[walking pair of objects]]
+
   * [[walking morphism]]
+
+  * [[walking parallel pair]]
 
   * [[walking isomorphism]]
 
