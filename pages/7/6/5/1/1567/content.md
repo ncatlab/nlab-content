@@ -276,5 +276,8 @@ On the [[Birkhoff duality]] between finite posets and finite [[distributive latt
 
 * {#Spitters16} [[Bas Spitters]], *Cubical sets and the topological topos* ([arXiv:1610.05270](https://arxiv.org/abs/1610.05270))
 
+[[!redirects distributive lattice]]
 [[!redirects distributive lattices]]
+[[!redirects bounded distributive lattice]]
+[[!redirects bounded distributive lattices]]
 [[!redirects Birkhoff duality]]
