@@ -267,7 +267,7 @@ Review in:
 
 A weak version of the simplicial statement: 
 
-* [[Charles Weibel]], Theorem 8.1.5 in: _An introduction to homological algebra_
+* [[Charles Weibel]], Theorem 8.5.1 in: _An introduction to homological algebra_
 
 The stronger version as stated above: 
 
