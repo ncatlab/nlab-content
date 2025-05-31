@@ -163,6 +163,8 @@ We deduce that $x \circ \left( \mathcal{E}_{semi} \times s \right) = \mathcal{E}
 
   * [[walking parallel pair]]
 
+  * [[walking commutative triangle]]
+
   * [[walking isomorphism]]
 
   * **walking equivalence**
