@@ -47,33 +47,27 @@ On the other hand, the walking composable pair is typically used in the definiti
 
 In [[simplicial type theory]], not every composable pair of morphisms has a [[unique composite]] forming a [[commutative triangle]], so one has to distinguish between the notions. 
 
-### Using morphisms
-
-Let $A$ be a type in [[simplicial type theory]]. Recall that the [[hom-type]] is defined as 
+Let $A$ be a type, and let $\mathbb{I}$ be the [[directed interval]] in simplicial type theory. Recall that the [[hom-type]] is defined as 
 
 $$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{I} \to A} (f(0) = x) \times (f(1) = y)$$
 
-Given $x:A$, $y:A$, and $z:A$, a **pair of composable morphisms** from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of 
+A **composable pair of morphisms** is a [[record]] consisting of 
+
+* elements $x:A$, $y:A$, and $z:A$
 
 * a morphism $f:\mathrm{hom}_A(x, y)$ 
 
 * and a morphism $g:\mathrm{hom}_A(y, z)$. 
 
-The type of pairs of composable morphisms between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]].
+The type of composable pairs of morphisms is then the respective [[record type]].
 
-### Using functions from shapes
+There is another definition involving the $(2,1)$-[[horn]] type $\Lambda^2_1$, defined from the [[directed interval]] as
 
-Let $A$ be a type in [[simplicial type theory]], and let $\Lambda^2_1$ denote the $(2,1)$-[[horn]] type. Given elements $x:A$, $y:A$, and $z:A$, a composite of morphisms from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of
+$$\Lambda^2_1 \coloneqq \sum_{i:\mathbb{I}} \sum_{j:\mathbb{I}} (i = 0) \vee (j = 1)$$
 
-* a function $f:\Lambda^2_1 \to A$
+A **composable pair of morphisms** is simply a function $f:\Lambda^2_1 \to A$. 
 
-* an identification $p_x:f(0, 0) = x$
-
-* an identification $p_y:f(0, 1) = y$
-
-* an identification $p_z:f(1, 1) = z$
-
-The type of composites of morphisms $\mathrm{comp}_A(x, y, z)$ between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]].
+The type of composable pairs of morphisms is then the [[function type]] $\Lambda^2_1 \to A$. 
 
 ## Related concepts
 
