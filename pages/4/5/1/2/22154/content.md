@@ -119,9 +119,15 @@ Since the first term is typicall known by construction,  knowledge of either of 
 
 ## Related concepts
 
-* [[quantum Hall effect]]
+**Types of Hall effects**
 
-* [[spin Hall effect]], [[quantum spin Hall effect]]
+* [[Hall effect]], [[anomalous Hall effect]]
+
+* [[quantum Hall effect]], [[quantum anomalous Hall effect]]
+
+* [[quantum spin Hall effect|quantum]]$\;$[[spin Hall effect]]
+
+
 
 ## References
 
@@ -134,6 +140,9 @@ See also:
 * Wikipedia: _[Hall effect](https://en.wikipedia.org/wiki/Hall_effect)_
 
 [[!redirects Hall effects]]
+
+[[!redirects Hall system]]
+[[!redirects Hall systems]]
 
 [[!redirects classical Hall effect]]
 [[!redirects classical Hall effects]]
