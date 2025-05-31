@@ -31,7 +31,7 @@ There are multiple different formalisms of [[simplicial homotopy type theory]]; 
 
 #### Directed interval via axioms
 
-In [[simplicial homotopy type theory]] where the directed interval primitive $\mathbb{I}$ is defined via axioms as a [[bounded total order]], the hom type is defined as the [[dependent sum type]]
+In [[simplicial homotopy type theory]] where the [[interval poset]] $\mathbb{I}$ is defined via axioms as a [[bounded total order]], the hom type is defined as the [[dependent sum type]]
 
 $$\mathrm{hom}_A(x, y) \coloneqq \sum_{f:\mathbb{I} \to A} (f(0) =_A x) \times (f(1) =_A y)$$
 
