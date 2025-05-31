@@ -64,8 +64,7 @@ Further discussion of the [[electron band structure]] of graphene:
 
 Computation of the (tiny) [[spin-orbit coupling]] in graphene:
 
-* {#MHSSKM06} Hongki Min, J. E. Hill, N. A. Sinitsyn, B. R. Sahu, Leonard Kleinman, A. H. MacDonald, *Intrinsic and Rashba spin-orbit interactions in graphene sheets*,
-Phys. Rev. B **74** (2006) 165310 $[$[doi:10.1103/PhysRevB.74.165310](https://doi.org/10.1103/PhysRevB.74.165310)$]$
+* {#MHSSKM06} Hongki Min, J. E. Hill, [[Nikolai A. Sinitsyn]], B. R. Sahu, Leonard Kleinman, [[Allan H. MacDonald]]: *Intrinsic and Rashba spin-orbit interactions in graphene sheets*, Phys. Rev. B **74** (2006) 165310 &lbrack;[doi:10.1103/PhysRevB.74.165310](https://doi.org/10.1103/PhysRevB.74.165310), [arXiv:cond-mat/0606504](https://arxiv.org/abs/cond-mat/0606504)&rbrack;
 
 Observation that the [[spin-orbit coupling]] in graphene should open the gap at the [[Dirac points]] revealing a [[quantum spin Hall effect]] in graphene:
 
