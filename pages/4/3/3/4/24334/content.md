@@ -121,9 +121,7 @@ Diagrams in [[simplicial type theory]] can be defined in an arbitrary type, rath
 
 * [[composite]], [[unique composite]]
 
-* [[span in simplicial type theory]]
-
-* [[cospan in simplicial type theory]]
+* [[span]], [[cospan]]
 
 * [[isomorphism in simplicial type theory]]
 
