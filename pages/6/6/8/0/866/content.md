@@ -195,7 +195,7 @@ As a [[function]] may be seen as a functional, entire relation, so the category 
 
 Endorelations on sets are the objects of the [[quasitopos]] __$EndoRel$__ or __$Bin$__. It is a  [[reflective subcategory]] of [[Quiv]] the [[category of presheaves|presheaf topos]] of quivers and its morphisms are quiver morphisms. Endorelations are the [[separated presheaf|separated presheaves]] for the [[double negation#in_topos_theory|double negation topology]] on $Quiv$. "Separated" here translates to a quiver having  at most one arc between pairs of verticies. The [[reflective subcategory|reflector]] $Quiv \to EndoRel$ collapses parallel arcs together. Such quivers might also be called __singular__ or __simple__  though sometimes "simple" also means "no loops".
 
-#### Relation closures as reflexive subcategories of $EndoRel$
+#### Relation closures as reflective subcategories of $EndoRel$
 
 All of the sub-types  of endorelations with positive conditions ([[reflexive relation|reflexive]], [[symmetric relation|symmetric]], [[transitive relations|transitive]], and left and right [[euclidean relations|euclidean]]) and their combinations have an associated [[Moore closure|closure]] that can produce one from an arbitrary relation. Such a closure [[completion|completes]] a relation by adding the least number of arcs such that the conditions are satisfied.
 Within $EndoRel$ these closures are reflectors that produce reflective subcategories.
