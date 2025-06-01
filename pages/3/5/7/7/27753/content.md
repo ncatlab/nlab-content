@@ -19,7 +19,7 @@
 
 ## Idea
 
-The *quantum anomalous Hall effect* (QAHE) is a joint variant of the [[quantum Hall effect]] and the [[anomalous Hall effect]]: Where a [[quantum Hall effect]] is induced by a strong *external* [[magnetic field]], in the "anomalous" version, realized in in [[crystal|crystalline materials]], the effect of the external magnetic field on the [[electrons]] is instead mimicked by the latter's [[spin-orbit coupling]] in the presence of magnetization, jointly reflected in a non-vanishing [[Berry curvature]] over the [[Brillouin torus]] which now plays the role of the external field's [[flux density]].
+The *quantum anomalous Hall effect* (QAHE) is a joint variant of the [[quantum Hall effect]] and the [[anomalous Hall effect]]: Where a [[quantum Hall effect]] is induced by a strong *external* [[magnetic field]], in the "anomalous" version --- realized in [[crystal|crystalline]] [[topological phases of matter]] called *[[Chern insulators]]* --- the effect of the external magnetic field on the [[electrons]] is instead mimicked by the latter's [[spin-orbit coupling]] in the presence of magnetization, jointly reflected in a non-vanishing [[Berry curvature]] over the [[Brillouin torus]] which now plays the role of the external field's [[flux density]].
 
 In analogy to how the ordinary [[quantum Hall effect]] has a [fractional version](quantum+Hall+effect#IdeaFQHE), there is even a fractional version of the QAHE: the *fractional quantum anomalous Hall effect* (FQAHE).
 
@@ -50,7 +50,11 @@ Experimental realization:
 
 Review:
 
-* Chao-Xing Liu, Shou-Cheng Zhang, Xiao-Liang Qi: *The quantum anomalous Hall effect* &lbrack;[arXiv:1508.07106](https://arxiv.org/abs/1508.07106)&rbrack;
+
+*  [[Chao-Xing Liu]], Shou-Cheng Zhang, Xiao-Liang Qi: *The Quantum Anomalous Hall Effect: Theory and Experiment*,  Annual Review of Condensed Matter Physics **7** (2016) &lbrack;[arXiv:1508.07106](https://arxiv.org/abs/1508.07106), [doi:10.1146/annurev-conmatphys-031115-011417](https://doi.org/10.1146/annurev-conmatphys-031115-011417)&rbrack;
+
+* Cui-Zu Chang, [[Chao-Xing Liu]], [[Allan H. MacDonald]]: *Colloquium: Quantum anomalous Hall effect*, Rev. Mod. Phys. **95** (2023) 011002  &lbrack;[arXiv:2202.13902](https://arxiv.org/abs/2202.13902), [doi:10.1103/RevModPhys.95.011002](https://doi.org/10.1103/RevModPhys.95.011002)&rbrack;
+
 
 See also:
 
