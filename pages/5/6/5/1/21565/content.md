@@ -25,7 +25,8 @@ $\mathcal{AE}$ is the model for all adjoint equivalences in all 2-categories. In
 \section{Related entries}
 
 * [[Adj]]
-* [[walking equivalence]]
+
+[[!include notions of walking structure]]
 
 [[!redirects walking adjoint equivalences]]
 [[!redirects free-standing adjoint equivalence]]
