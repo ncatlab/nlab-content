@@ -370,6 +370,8 @@ With [[extra structure|extra]] [[structure]]:
 
 ## References
 
+> (see also the references at *[[differential geometry]]*)
+
 The vision of the modern notion of [[manifolds]] is attributed to:
 
 * [[Bernhard Riemann]], *[[Über die Hypothesen, welche der Geometrie zu Grunde liegen]]*, Göttingen (1845) &lbrack;[doi:10.1007/978-3-642-35121-1](https://doi.org/10.1007/978-3-642-35121-1)&rbrack;
@@ -395,29 +397,23 @@ Textbook accounts:
 
 * [[Georges de Rham]], Chapter I of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
 
-* {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Section 1 of: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press 1974 ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76))
+* {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Section 1 of: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press (1974) &lbrack;[ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76)&rbrack;
 
-
-* [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) $[$[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)$]$
-
+* [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) &lbrack;[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)&rbrack;
   > (with an eye towards [[mathematical physics]])
 
 
-* {#KolarSlovakMichor93} [[Ivan Kolar]], [[Jan Slovak]] and [[Peter Michor]], _Natural operations in differential geometry_, 1993, 1999 ([web](http://www.emis.de/monographs/KSM/))
+* {#KolarSlovakMichor93} [[Ivan Kolar]], [[Jan Slovak]], [[Peter Michor]]: _Natural operations in differential geometry_ (1993, 1999) &lbrack;[web](http://www.emis.de/monographs/KSM/)&rbrack;
 
-* {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+* {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press (1993) &lbrack;[pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf)&rbrack;
 
-
-* {#Lee09}  [[Jeffrey Lee]], _Manifolds and differential geometry_, Graduate Studies in Mathematics **107**  (2009) ([ISBN: 978-0-8218-4815-9](https://bookstore.ams.org/gsm-107), [doi:10.1090/gsm/107](https://doi.org/10.1090/gsm/107))
-
+* {#Lee09}  [[Jeffrey Lee]]: _Manifolds and differential geometry_, Graduate Studies in Mathematics **107**  (2009) &lbrack;[ISBN: 978-0-8218-4815-9](https://bookstore.ams.org/gsm-107), [doi:10.1090/gsm/107](https://doi.org/10.1090/gsm/107)&rbrack;
 
 * {#Lee12} [[John Lee]], *Introduction to Smooth Manifolds*, Springer (2012) &lbrack;[doi:10.1007/978-1-4419-9982-5](https://doi.org/10.1007/978-1-4419-9982-5), [book webpage](https://sites.math.washington.edu/~lee/Books/ISM/), [pdf](https://math.berkeley.edu/~jchaidez/materials/reu/lee_smooth_manifolds.pdf)&rbrack;
 
-* [[Theodore Frankel]], chapter 1 of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
+* [[Theodore Frankel]], chapter 1 of: _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
 
-* Jet Nestruev, _Smooth Manifolds and Observables_ , Springer LNM **220** Heidelberg 2003 ([doi:10.1007/b98871](https://link.springer.com/book/10.1007/b98871))
-
-
+* Jet Nestruev: _Smooth Manifolds and Observables_, LNM **220** Springer (2003) &lbrack;[doi:10.1007/b98871](https://link.springer.com/book/10.1007/b98871)&rbrack;
 
 
 With an eye towards application in [[mathematical physics]]:
