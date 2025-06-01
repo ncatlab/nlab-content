@@ -161,19 +161,7 @@ The analogous statements are true in [[higher category theory]].
 
 ## Related concepts
 
-* [[walking structure]]
-
-  * [[walking pair of objects]]
-
-  * **walking morphism**
-
-  * [[walking parallel pair]]
-
-  * [[walking commutative triangle]]
-
-  * [[walking isomorphism]]
-
-  * [[walking equivalence]]
+[[!include notions of walking structure]]
 
 * [[hom type]], [[bridge type]]
 
