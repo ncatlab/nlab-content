@@ -71,9 +71,15 @@ The type of composable pairs of morphisms is then the [[function type]] $\Lambda
 
 ## Related concepts
 
+* [[hom set]], [[hom type]]
+
+* [[composite]]
+
 * [[commutative triangle]]
 
 * [[unique composite]]
+
+* [[Segal type]]
 
 ## References
 
