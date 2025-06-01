@@ -51,6 +51,16 @@ A cospan in the category $C$ is the same as a [[span]] in the [[opposite categor
 
 A cospan that admits a [[cone]] is called a [[quadrable cospan]].
 
+### In type theoretic approaches to synthetic $(\infty,1)$-category theory
+
+In [[simplicial type theory]], [[parametric type theory|binary parametric]] [[observational type theory]], and other type theoretic approaches to synthetic $(\infty,1)$-category theory, a cospan in a synthetic $(\infty,1)$-category $C$ can be defined as the following:
+
+* a [[record]] consisting of objects (elements of [[types]]) $x:C$, $y:C$, and $z:C$ and morphisms (elements of [[hom types]]) $g:\mathrm{hom}_C(y, z)$ and $h:\mathrm{hom}_C(x, z)$
+
+* a function $k:\Lambda_0^2 \to C$ from the **(2,0)-[[horn]] type** $\Lambda_0^2$ to $C$, where $\Lambda_0^2$ is defined in terms of the [[directed interval]] as the type of pairs of elements $i, j:\mathbb{I}$ such that $i = 1$ or $j = 1$. 
+
+$$\Lambda_0^2 \coloneqq \sum_{i:\mathbb{I}} \sum_{j:\mathbb{I}} (i = 1) \vee (j = 1)$$
+
 ## The walking cospan
 
 The **[[walking]] [[cospan]]** or **(2,0)-[[horn]] category** is the [[category]] $\Lambda_0^2$ which consists of three objects $0, 1, 2 \in \Lambda_0^2$ and two morphisms $h_{02}:\mathrm{hom}_{\Lambda_0^2}(0, 2)$ and $h_{12}:\mathrm{hom}_{\Lambda_0^2}(1, 2)$. 
@@ -59,9 +69,17 @@ The category $\Lambda_0^2$ is also called the **(2,0)-horn preorder** or the **(
 
 Every cospan in a category $C$ is represented by a [[functor]] $F:\Lambda_0^2 \to C$ from the walking cospan to $C$. 
 
-In [[dependent type theory]], given a [[directed interval]] $\mathbb{I}$, the **(2,0)-horn type** representing the walking cospan is defined as the type of pairs of elements $i, j:\mathbb{I}$ such that $i = 1$ or $j = 1$. 
+In type theoretic approaches to synthetic $(\infty,1)$-category theory, the **(2,0)-[[horn]] type** $\Lambda_0^2$ defined above plays the role of the walking cospan. 
 
-$$\Lambda_0^2 \coloneqq \sum_{i:\mathbb{I}} \sum_{j:\mathbb{I}} (i = 1) \vee (j = 1)$$
+## Properties
+
+### Right quotients
+
+Following the notion of a right [[quotient]] of two elements in a [[monoid]], we can define in [[category]] the notion of a *right quotient* of a cospan in a category. 
+
+A **right quotient** of a cospan $g:\mathrm{hom}_A(y, z)$ and $h:\mathrm{hom}_A(x, z)$ is a morphism $f:\mathrm{hom}_A(x, y)$ such that $h$ is the [[unique composite]] of $f$ and $g$, $g \circ f = h$. 
+
+Given a morphism $f:\mathrm{hom}_A(x, y)$, the cospan $(f, \mathrm{id}_y)$ is always right divisible with right quotient $f$. A [[section]] is a right quotient of the span $(\mathrm{id}_y, f)$. 
 
 ## The bicategory of cospans
 
@@ -134,6 +152,18 @@ If $V$ has a terminal object, $pt$, then cospans from $pt$ to itself are [[bi-po
 
 * [[product]], [[coproduct]]
 
+* [[horn]]
+
+* [[span]], [[cospan]]
+
+* [[composable pair]]
+
+* [[composite]]
+
+* [[commutative triangle]]
+
+* [[isomorphism]]
+
 [[!include notions of walking structure]]
 
 ##References
@@ -181,3 +211,22 @@ Topological cospans and their role as models for [[cobordism]]s are discussed in
 
 [[!redirects (2,0)-horn type]]
 [[!redirects (2,0)-horn types]]
+
+[[!redirects right quotient]]
+[[!redirects right divisible]]
+[[!redirects right divisibility]]
+
+[[!redirects right divisible span]]
+[[!redirects right divisible spans]]
+
+[[!redirects right divisible correspondence]]
+[[!redirects right divisible correspondences]]
+
+[[!redirects right divisibility in a category]]
+[[!redirects right divisible in a category]]
+
+[[!redirects cospan in simplicial type theory]]
+[[!redirects cospans in simplicial type theory]]
+
+[[!redirects cospan in an (infinity,1)-category]]
+[[!redirects cospans in an (infinity,1)-category]]
