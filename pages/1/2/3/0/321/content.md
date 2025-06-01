@@ -51,6 +51,35 @@
 
 In [[set theory]], a **span** or **correspondence** between [[sets]] $A$ and $B$ is a set $C$ with a [[function]] $R:C \to A \times B$ to the [[product set]] $A \times B$. A span between a set $A$ and $A$ itself is a [[directed pseudograph]], which is used to define [[categories]] in set theory. 
 
+
+### In category theory
+
+In any [[category]] $C$, a __span__, or __roof__, or __correspondence__, from an [[object]] $x$ to an object $y$ is a [[diagram]] of the form
+
+$$
+  \array{
+     && s
+      \\
+      & {}^{f}\swarrow
+      && \searrow^{g}
+     \\
+     x
+     &&&&
+     y
+  }
+$$
+
+where $s$ is some other object of the category.  (The word "correspondence" is also sometimes used for a [[profunctor]].)
+
+This [[diagram]] is also called a 'span' because it looks like a little bridge; 'roof' is similar.  The term 'correspondence' is prevalent in geometry and related areas; it comes about because a correspondence is a generalisation of a binary [[relation]].  
+
+Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span with $g = 1$ is a morphism from $y$ to $x$. So, a span can be thought of as a generalization of a morphism in which there is no longer any asymmetry between source and target.
+
+A span in the [[opposite category]] $C^op$ is called a [[co-span]] in $C$.  
+
+A span that has a [[cocone]] is called a [[coquadrable span]].
+
+
 ### In dependent type theory
 
 In [[dependent type theory]], there is a distinction between a *span*, a *multivalued partial function*, and a *correspondence*:
@@ -86,34 +115,8 @@ Given types $A$, $B$, and $C$ and correspondences $x:A, y:B \vdash R(x, y)$ and 
 $$(S \circ R)(x, z) \coloneqq \sum_{y:B} R(x, y) \times S(y, z)$$
 
 
-### In category theory
 
-In any [[category]] $C$, a __span__, or __roof__, or __correspondence__, from an [[object]] $x$ to an object $y$ is a [[diagram]] of the form
-
-$$
-  \array{
-     && s
-      \\
-      & {}^{f}\swarrow
-      && \searrow^{g}
-     \\
-     x
-     &&&&
-     y
-  }
-$$
-
-where $s$ is some other object of the category.  (The word "correspondence" is also sometimes used for a [[profunctor]].)
-
-This [[diagram]] is also called a 'span' because it looks like a little bridge; 'roof' is similar.  The term 'correspondence' is prevalent in geometry and related areas; it comes about because a correspondence is a generalisation of a binary [[relation]].  
-
-Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span with $g = 1$ is a morphism from $y$ to $x$. So, a span can be thought of as a generalization of a morphism in which there is no longer any asymmetry between source and target.
-
-A span in the [[opposite category]] $C^op$ is called a [[co-span]] in $C$.  
-
-A span that has a [[cocone]] is called a [[coquadrable span]].
-
-### In type theoretic approaches to synthetic $(\infty,1)$-category theory
+### In synthetic $(\infty,1)$-category theory
 
 In [[simplicial type theory]], [[parametric type theory|binary parametric]] [[observational type theory]], and other type theoretic approaches to synthetic $(\infty,1)$-category theory, a span in a synthetic $(\infty,1)$-category $C$ can be defined as the following:
 
