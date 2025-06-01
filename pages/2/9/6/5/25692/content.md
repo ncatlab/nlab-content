@@ -25,7 +25,7 @@ There are many possible definitions of an isomorphism in [[simplicial type theor
 
 ### Bi-invertible morphisms
 
-In [[simplicial type theory]], given a type $A$ and [[terms]] $x:A$ and $y:A$, a morphism $f:\mathrm{hom}_A(x, y)$ is a **bi-invertible morphism** if the [[span in simplicial type theory|span]] $(f, \mathrm{id}_x)$ has a [[left quotient in simplicial type theory|left quotient]] and the [[cospan in simplicial type theory|cospan]] $(\mathrm{id}_y, f)$ has a [[right quotient in simplicial type theory|right quotient]]. 
+In [[simplicial type theory]], given a type $A$ and [[terms]] $x:A$ and $y:A$, a morphism $f:\mathrm{hom}_A(x, y)$ is a **bi-invertible morphism** if the [[span]] $(f, \mathrm{id}_x)$ has a [[left quotient]] and the [[cospan]] $(\mathrm{id}_y, f)$ has a [[right quotient]]. 
 
 $$\mathrm{isIso}(f) \coloneqq \mathrm{leftQuotient}(f, \mathrm{id}_x) \times \mathrm{rightQuotient}(\mathrm{id}_y, f)$$
 
@@ -73,9 +73,7 @@ $$x \cong_A y \coloneqq \exists f:\mathrm{hom}_A(x, y).\mathrm{isIso}(f)$$
 
 * [[equivalence in an (∞,1)-category]]
 
-* [[span in simplicial type theory]]
-
-* [[cospan in simplicial type theory]]
+* [[span]], [[cospan]]
 
 ## References
 
