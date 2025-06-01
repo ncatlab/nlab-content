@@ -27,7 +27,7 @@
 
 _$L_\infty$-algebras_ (or _strong homotopy Lie algebras_) are a higher generalization (a "[[vertical categorification]]") of [[Lie algebras]]: in an $L_\infty$-algebra the [[Jacobi identity]] is allowed to hold (only) up to higher [[coherence law|coherent]] [[homotopy]]. 
 
-An $L_\infty$-algebra that is concentrated in lowest degree is an ordinary [[Lie algebra]]. If it is concentrated in the lowest two degrees is is a [[Lie 2-algebra]], etc.
+An $L_\infty$-algebra that is concentrated in lowest degree is an ordinary [[Lie algebra]]. If it is concentrated in the lowest two degrees it is a [[Lie 2-algebra]], etc.
 
 From another perspective: an $L_\infty$-algebra is a [[Lie ∞-algebroid]] with a single object.
 
