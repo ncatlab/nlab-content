@@ -25,6 +25,18 @@
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
+#### Directed homotopy type theory
++-- {: .hide}
+[[!include directed homotopy type theory - contents]]
+=--
 =--
 =--
 
@@ -101,7 +113,26 @@ A span in the [[opposite category]] $C^op$ is called a [[co-span]] in $C$.
 
 A span that has a [[cocone]] is called a [[coquadrable span]].
 
-### Categories of spans
+## The walking span
+
+The **[[walking]] [[span]]** or **walking [[correspondence]]** or **(2,2)-[[horn]] category** is the [[category]] $\Lambda_2^2$ which consists of three objects $0, 1, 2 \in \Lambda_2^2$ and two morphisms $h_{01}:\mathrm{hom}_{\Lambda_2^2}(0, 1)$ and $h_{02}:\mathrm{hom}_{\Lambda_2^2}(0, 2)$. 
+
+The category $\Lambda_2^2$ is also called the **(2,2)-horn preorder** or the **(2,2)-horn poset** because $\Lambda_2^2$ can be shown to be a [[poset]]. 
+
+Every span in a category $C$ is represented by a [[functor]] $F:\Lambda_2^2 \to C$ from the walking span to $C$. 
+
+In [[dependent type theory]], given a [[directed interval]] $\mathbb{I}$, the **(2,2)-horn type** representing the walking span is defined as the type of pairs of elements $i, j:\mathbb{I}$ such that $i = 0$ or $j = 0$. 
+
+$$\Lambda_2^2 \coloneqq \sum_{i:\mathbb{I}} \sum_{j:\mathbb{I}} (i = 0) \vee (j = 0)$$
+
+## Properties
+
+### Relation to relations
+ {#RelationToRelations}
+
+Correspondences may be seen as generalizations of [[relations]]. A relation is a [[correspondence]] which is [[(-1)-truncated]] as a [[morphism]] into the [[cartesian product]]. See at _[[relation]]_ and at _[[Rel]]_ for more on this.
+
+## The bicategory of spans
 
 If the category $C$ has [[pullback|pullbacks]], we can compose spans.  Namely, given a span from $x$ to $y$ and a span from $y$ to $z$:
 $$
@@ -189,8 +220,6 @@ We can also obtain a [[pseudo-double category]], whose [[loose]] structure is as
 
 Moreover, when $C$ is an arbitrary category, not necessarily having pullbacks, one can still obtain a [[covirtual double category]]. More details can be found in Section 4 of [Dawson, Paré, Pronk](#DawsonParePronk10) (where the term oplax double category is used).
 
-## Properties
-
 ### The 1-category of spans
 
 Let $C$ be a category with [[pullback]]s and let $Span_1(C) := (Span(C))_{\sim 1}$ be the 1-category of objects of $C$ and isomorphism classes of spans between them as morphisms.
@@ -271,11 +300,6 @@ If the underlying category $\mathcal{C}$ is an [[extensive category]], then the 
 
 More generally, every [[van Kampen colimit]] in $\mathcal{C}$ is a (co)limit in $Corr(\mathcal{C})$ &#8212; and conversely, this property characterizes van Kampen colimits. ([Sobocinski-Heindel 11](SobocinskiHeindel11)).
 
-### Relation to relations
- {#RelationToRelations}
-
-Correspondences may be seen as generalizations of [[relations]]. A relation is a [[correspondence]] which is [[(-1)-truncated]] as a [[morphism]] into the [[cartesian product]]. See at _[[relation]]_ and at _[[Rel]]_ for more on this.
-
 ### Closure
 
 When $E$ is a [[locally cartesian closed category]], $Span(E)$ is a [[closed bicategory]]: see there for details.
@@ -321,7 +345,11 @@ When $E$ is a [[locally cartesian closed category]], $Span(E)$ is a [[closed bic
 
 * [[reflexive graph]]
 
+* [[horn]]
+
 A category of correspondences is a refinement of a category [[Rel]] of relations. See there for more.
+
+[[!include notions of walking structure]]
 
 ## References ##
 
@@ -375,19 +403,57 @@ The structure of a [[k-tuply monoidal (n,r)-category|monoidal]] [[tricategory]] 
 Generally, an [[(∞,n)-category of spans]] is indicated in section 3.2 of
 
 * {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
- 
 
+[[!redirects span]]
 [[!redirects spans]]
-
-[[!redirects category of spans]]
-[[!redirects categories of spans]]
-[[!redirects bicategory of spans]]
 
 [[!redirects correspondence]]
 [[!redirects correspondences]]
 
+[[!redirects walking span]]
+[[!redirects walking spans]]
+
+[[!redirects walking correspondence]]
+[[!redirects walking correspondences]]
+
+[[!redirects free-standing span]]
+[[!redirects free-standing spans]]
+
+[[!redirects free-standing correspondence]]
+[[!redirects free-standing correspondences]]
+
+[[!redirects free-living span]]
+[[!redirects free-living spans]]
+
+[[!redirects free-living correspondence]]
+[[!redirects free-living correspondences]]
+
+[[!redirects (2,2)-horn category]]
+[[!redirects (2,2)-horn categories]]
+
+[[!redirects (2,2)-horn preorder]]
+[[!redirects (2,2)-horn preorders]]
+
+[[!redirects (2,2)-horn proset]]
+[[!redirects (2,2)-horn prosets]]
+
+[[!redirects (2,2)-horn poset]]
+[[!redirects (2,2)-horn posets]]
+
+[[!redirects (2,2)-horn type]]
+[[!redirects (2,2)-horn types]]
+
+[[!redirects category of spans]]
+[[!redirects categories of spans]]
+
 [[!redirects category of correspondences]]
 [[!redirects categories of correspondences]]
+
+[[!redirects bicategory of spans]]
+[[!redirects bicategories of spans]]
+
+[[!redirects bicategory of correspondences]]
+[[!redirects bicategories of correspondences]]
 
 [[!redirects correspondence space]]
 [[!redirects correspondence spaces]]
