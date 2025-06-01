@@ -107,11 +107,21 @@ where $s$ is some other object of the category.  (The word "correspondence" is a
 
 This [[diagram]] is also called a 'span' because it looks like a little bridge; 'roof' is similar.  The term 'correspondence' is prevalent in geometry and related areas; it comes about because a correspondence is a generalisation of a binary [[relation]].  
 
-Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span with $g = 1$ is a morphism from $y$ to $x$.  So, a span can be thought of as a generalization of a morphism in which there is no longer any asymmetry between source and target.
+Note that a span with $f = 1$ is just a morphism from $x$ to $y$, while a span with $g = 1$ is a morphism from $y$ to $x$. So, a span can be thought of as a generalization of a morphism in which there is no longer any asymmetry between source and target.
 
 A span in the [[opposite category]] $C^op$ is called a [[co-span]] in $C$.  
 
 A span that has a [[cocone]] is called a [[coquadrable span]].
+
+### In type theoretic approaches to synthetic $(\infty,1)$-category theory
+
+In [[simplicial type theory]], [[parametric type theory|binary parametric]] [[observational type theory]], and other type theoretic approaches to synthetic $(\infty,1)$-category theory, a span in a synthetic $(\infty,1)$-category $C$ can be defined as the following:
+
+* a [[record]] consisting of objects (elements of [[types]]) $x:C$, $y:C$, and $z:C$ and morphisms (elements of [[hom types]]) $f:\mathrm{hom}_C(x, y)$ and $h:\mathrm{hom}_C(x, z)$
+
+* a function $k:\Lambda_2^2 \to C$ from the **(2,2)-[[horn]] type** $\Lambda_2^2$ to $C$, where $\Lambda_2^2$ is defined in terms of the [[directed interval]] as the type of pairs of elements $i, j:\mathbb{I}$ such that $i = 0$ or $j = 0$. 
+
+$$\Lambda_2^2 \coloneqq \sum_{i:\mathbb{I}} \sum_{j:\mathbb{I}} (i = 0) \vee (j = 0)$$
 
 ## The walking span
 
@@ -121,9 +131,7 @@ The category $\Lambda_2^2$ is also called the **(2,2)-horn preorder** or the **(
 
 Every span in a category $C$ is represented by a [[functor]] $F:\Lambda_2^2 \to C$ from the walking span to $C$. 
 
-In [[dependent type theory]], given a [[directed interval]] $\mathbb{I}$, the **(2,2)-horn type** representing the walking span is defined as the type of pairs of elements $i, j:\mathbb{I}$ such that $i = 0$ or $j = 0$. 
-
-$$\Lambda_2^2 \coloneqq \sum_{i:\mathbb{I}} \sum_{j:\mathbb{I}} (i = 0) \vee (j = 0)$$
+In type theoretic approaches to synthetic $(\infty,1)$-category theory, the **(2,2)-[[horn]] type** $\Lambda_2^2$ defined above plays the role of the walking span. 
 
 ## Properties
 
@@ -131,6 +139,14 @@ $$\Lambda_2^2 \coloneqq \sum_{i:\mathbb{I}} \sum_{j:\mathbb{I}} (i = 0) \vee (j 
  {#RelationToRelations}
 
 Correspondences may be seen as generalizations of [[relations]]. A relation is a [[correspondence]] which is [[(-1)-truncated]] as a [[morphism]] into the [[cartesian product]]. See at _[[relation]]_ and at _[[Rel]]_ for more on this.
+
+### Left quotients
+
+Following the notion of a left [[quotient]] of two elements in a [[monoid]], we can define in [[category]] the notion of a *left quotient* of a span in a category. 
+
+A **left quotient** of a span $f:\mathrm{hom}_A(x, y)$ and $h:\mathrm{hom}_A(x, z)$ is a morphism $g:\mathrm{hom}_A(y, z)$ such that $h$ is the [[unique composite]] of $f$ and $g$, i.e. $g \circ f = h$. 
+
+Given a morphism $f:\mathrm{hom}_A(x, y)$, the span $(\mathrm{id}_x, f)$ is always left divisible with left quotient $f$. A [[retraction]] is a left quotient of the span $(f, \mathrm{id}_x)$. 
 
 ## The bicategory of spans
 
@@ -347,6 +363,16 @@ When $E$ is a [[locally cartesian closed category]], $Span(E)$ is a [[closed bic
 
 * [[horn]]
 
+* [[span]], [[cospan]]
+
+* [[composable pair]]
+
+* [[composite]]
+
+* [[commutative triangle]]
+
+* [[isomorphism]]
+
 A category of correspondences is a refinement of a category [[Rel]] of relations. See there for more.
 
 [[!include notions of walking structure]]
@@ -457,3 +483,22 @@ Generally, an [[(∞,n)-category of spans]] is indicated in section 3.2 of
 
 [[!redirects correspondence space]]
 [[!redirects correspondence spaces]]
+
+[[!redirects left quotient]]
+[[!redirects left divisible]]
+[[!redirects left divisibility]]
+
+[[!redirects left divisible span]]
+[[!redirects left divisible spans]]
+
+[[!redirects left divisible correspondence]]
+[[!redirects left divisible correspondences]]
+
+[[!redirects left divisibility in a category]]
+[[!redirects left divisible in a category]]
+
+[[!redirects span in simplicial type theory]]
+[[!redirects spans in simplicial type theory]]
+
+[[!redirects span in an (infinity,1)-category]]
+[[!redirects spans in an (infinity,1)-category]]
