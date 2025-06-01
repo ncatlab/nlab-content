@@ -1,18 +1,28 @@
 
 * [[walking structure]]
 
-  * [[walking pair of objects]]
+  * the [[boolean domain]] $2 \coloneqq \partial \Delta^1$; i.e. the walking [[pair]] of [[objects]]
 
-  * [[walking morphism]]
+  * the [[directed interval category]] $I \coloneqq \Delta^1$; i.e. the walking [[morphism]]
 
-  * [[walking parallel pair]]
+  * the [[(2,0)-horn category]] $\Lambda_0^2$; i.e. the walking [[cospan]]
 
-  * [[walking composable pair]]
+  * the [[(2,1)-horn category]] $\Lambda_1^2$; i.e. the walking [[composable pair]]
 
-  * [[walking span]]
+  * the [[(2,2)-horn category]] $\Lambda_2^2$; i.e. the walking [[span]] 
 
-  * [[walking commutative triangle]]
+  * the [[2-simplex category]] $\Delta^2$; i.e. the walking [[commutative triangle]]
 
-  * [[walking isomorphism]]
+  * the [[walking parallel pair]]
 
-  * [[walking equivalence]]
+  * the [[walking isomorphism]]
+
+  * [[Adj]]; i.e. the walking [[adjunction]]
+
+  * the [[walking equivalence]]
+
+  * the [[walking adjoint equivalence]]
+
+  * the [[walking 2-isomorphism with trivial boundary]]
+
+  * the [[syntactic category]] of a [[theory]] $T$; i.e. the walking $T$-[[model]]
