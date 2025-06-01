@@ -84,19 +84,7 @@ and thus $N(\mathcal{I})$ represents the subpresheaf $FullSub \subseteq Sub$ of 
 
 ## Related concepts
 
-* [[walking structure]]
-
-  * [[walking pair of objects]]
-
-  * [[walking morphism]]
-
-  * [[walking parallel pair]]
-
-  * [[walking commutative triangle]]
-
-  * **walking isomorphism**
-
-  * [[walking equivalence]]
+[[!include notions of walking structure]]
 
 ## References
 
