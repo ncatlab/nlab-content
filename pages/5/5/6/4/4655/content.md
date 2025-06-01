@@ -36,7 +36,7 @@ $$ \array {
 
 The triangle is **[[commutative diagram|commutative]]** if $h = g \circ f$.
 
-$f$ and $g$ are the [[composable pair of morphisms]] of a commutative triangle, and $h$ is the **composite** or **unique composite** of the morphisms $f$ and $g$ in the commutative triangle. 
+$f$ and $g$ are the [[composable pair of morphisms]] of a commutative triangle, and $h$ is the [[composite]] or [[unique composite]] of the morphisms $f$ and $g$ in the commutative triangle. 
 
 Equivalently, every **commutative triangle** in a category $C$ is represented by a [[functor]] $F:\Delta^2 \to C$ from the [[triangle category]] $\Delta^2$ to $C$. 
 
@@ -52,9 +52,15 @@ Accordingly, one rarely hears of commutative triangles on their own; instead, th
 
 * [[triangle]], [[2-simplex]]
 
-* [[composable pair]]
+* [[hom set]], [[hom type]]
 
-* [[composite of morphisms]]
+* [[composite]]
+
+* [[commutative triangle]]
+
+* [[unique composite]]
+
+* [[Segal type]]
 
 ## References
 
