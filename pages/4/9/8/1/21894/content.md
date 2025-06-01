@@ -22,7 +22,7 @@ The [[octonionic projective plane]] is an infinite example.
 
 ## Desarguesian configuration
 
-Desarguesian configuration consists of all 10 points and 10 lines mentioned in the statement, satisfying the condition of the perspective. Thus one includes 6 distinct points $A,B,C,A',B',C'$ such that $A,B,C$ are not colinear, $A',B',C'$ are not colinear and lines $A A'$, $B B'$ and $C C'$ meet in a single point $O$ which is the 7th point; then one adds the three intersections $A B\cap A'B'$, $A C\cap A' C'$ and $B C\cap B'C'$ which should be on the same line $p$. Lines are the three sides of each triangles, the lines $A A'$, $B B'$, $C C'$ and $p$. In higher dimension, the configuration may lay but does not need to lay on a single plane.  
+Desarguesian configuration consists of all 10 points and 10 lines mentioned in the statement, satisfying the condition of the perspective. Thus one includes 6 distinct points $A,B,C,A',B',C'$ such that $A,B,C$ are not colinear, $A',B',C'$ are not colinear and lines $A A'$, $B B'$ and $C C'$ meet in a single point $O$ which is the 7th point; then one adds the three intersections $A B\cap A'B'$, $A C\cap A' C'$ and $B C\cap B'C'$ which should be on the same line $p$. The ten lines are the three sides of both triangles ($A B C$ and $A' B' C'$), the lines $A A'$, $B B'$, $C C'$ and $p$. In higher dimension, the configuration may lay but does not need to lay on a single plane.  
 
 ## Related entries
 
@@ -37,7 +37,7 @@ Desarguesian configuration consists of all 10 points and 10 lines mentioned in t
 ## References
 
 * [[Emil Artin]], §II.6 in: *[[Geometric Algebra]]*, Wiley 1957 (1988) &lbrack;[ISBN:978-1-118-16454-9](https://www.wiley.com/en-ae/Geometric+Algebra-p-9781118164549), <a href="https://en.wikipedia.org/wiki/Geometric_Algebra_(book)">Wikipedia entry</a>, [ark:/13960/t4nk37034](https://archive.org/details/geometricalgebra033556mbp/page/n5/mode/2upa)&rbrack;
-
+* O. Veblen, J. H. Maclagan-Wedderburn, _Non-Desarguesian and non-Pascalian geometries_, Trans.Amer Math. Soc. 8 (1907) 379--388
 
 See also
 
