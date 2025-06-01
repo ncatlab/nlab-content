@@ -23,6 +23,10 @@ On the [[anomalous Hall effect]] and its explanation via [[Berry curvature]] of 
 
 * {#NagaosaEtAl10} [[Naoto Nagaosa]], Jairo Sinova, Shigeki Onoda, [[Allan H. MacDonald]], N. P. Ong: *Anomalous Hall effect*, Rev. Mod. Phys. **82** (2010) 1539 &lbrack;[arXiv:0904.4154](https://arxiv.org/abs/0904.4154), [doi:10.1103/RevModPhys.82.1539](https://doi.org/10.1103/RevModPhys.82.1539)&rbrack;
 
+On the [[quantum anomalous Hall effect]]:
+
+* Cui-Zu Chang, [[Chao-Xing Liu]], [[Allan H. MacDonald]]: *Colloquium: Quantum anomalous Hall effect*, Rev. Mod. Phys. **95** (2023) 011002  &lbrack;[arXiv:2202.13902](https://arxiv.org/abs/2202.13902), [doi:10.1103/RevModPhys.95.011002](https://doi.org/10.1103/RevModPhys.95.011002)&rbrack;
+
 
 
 category: people
