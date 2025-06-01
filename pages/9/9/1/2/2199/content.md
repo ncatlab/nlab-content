@@ -186,19 +186,7 @@ In addition, the boolean domain is the [[groupoid]] [[core]] of a number of cate
 
 * [[classical logic]], [[two-valued logic]]
 
-* [[walking structure]]
-
-  * **walking pair of objects**
-
-  * [[walking morphism]]
-
-  * [[walking parallel pair]]
-
-  * [[walking commutative triangle]]
-
-  * [[walking isomorphism]]
-
-  * [[walking equivalence]]
+[[!include notions of walking structure]]
 
 ## References
 
