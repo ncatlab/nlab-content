@@ -92,6 +92,15 @@ See also:
 
 * Wikipedia, *[Berry connection and curvature](https://en.wikipedia.org/wiki/Berry_connection_and_curvature)*
 
+Berry curvature in momentum space is closely analogous to [[magnetic field|magnetic]] [[flux density]] -- the ordinary [[Lorentz force]]-term is analogous to "anomalous group velocity" term induced by Berry curvature:
+
+* Y. D. Chong: *Berry's phase and the anomalous velocity of Bloch wavepackets*, Phys. Rev. B **81** (2010) 052303 &lbrack;[arXiv:0912.0716](https://arxiv.org/abs/0912.0716), [doi:10.1103/PhysRevB.81.052303](https://doi.org/10.1103/PhysRevB.81.052303)&rbrack;
+
+
+* Michael Stone: *Berry Curvature, Spin, and Anomalous Velocity* &lbrack;[pdf](https://www.thp.uni-koeln.de/ESI-Web/slides/Stone.pdf)&rbrack;
+
+
+
 ### For anyon statistics
 
 On [[anyon statistics|anyon phases]] (specifically in the [[quantum Hall effect]]) as [[Berry phases]] of a [[quantum adiabatic theorem|adiabatic]] transport of anyon positions:
