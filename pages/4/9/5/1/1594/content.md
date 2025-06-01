@@ -36,9 +36,24 @@ An [[orbifold]] is much like a [[smooth manifold]] but possibly with [[singulari
   "caption": "(from [Hyde-Ramsden-Robins 14](#HydeRamsdenRobins14))" 
 \end{imagefromfile}
 
-Where a [[smooth manifold]] is a [[space]] locally modeled on [[Cartesian spaces]]/[[Euclidean spaces]] $\mathbb{R}^n$, an _orbifold_ is, more generally, a [[space]] that is locally modeled on [[Lie groupoid|smooth]] [[action groupoids]] ([[homotopy quotients]]) $\mathbb{R}^n\sslash G$ of a [[finite group]] $G$ [[action|acting]] on a [[Cartesian space]].
+{#OrbifoldChartIdea} Where a [[smooth manifold]] is a [[space]] locally modeled on [[Cartesian spaces]]/[[Euclidean spaces]] $\mathbb{R}^n$, an _orbifold_ is, more generally, a [[space]] that is locally modeled on [[quotients]] of $\mathbb{R}^n$s, suitably understood, by [[group action|actions]] of [[finite groups]] of [[diffeomorphisms]]. Here [[fixed points]] of the [[group action]] become [[singularity|singular]] points in the quotient, like the tip of a [[cone]], which are not allowed in mere manifolds:
 
-This turns out to be broadly captured ([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
+\begin{imagefromfile}
+  "file_name": "OrbifoldChartSchematics.png",
+  "width": 440,
+  "margin": {
+    "top": -30,
+    "right": 10,
+    "bottom": 10,
+    "left": 10,
+    "unit": "px"
+  }
+\end{imagefromfile}
+
+
+
+One way to make precise the nature of these quotients is as [[quotient stack|stacky]] [[homotopy quotients]], hence as
+[[Lie groupoid|smooth]] [[action groupoids]] $\mathbb{R}^n\sslash G$.  This turns out to be broadly captured ([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
 
 The word _orbifold_ was introduced in ([Thurston 1992](#Thurston92)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the [[actions]] of [[finite groups]] on the charts are always [[effective group action|effective]]. Nowadays these are called _effective orbifolds_ and those which are global quotients by a finite group are _[[global quotient orbifolds]]_.  
 
@@ -497,6 +512,7 @@ In the [[physics]] literature this orbifold nature of the [[Brillouin torus]] is
 * [[Kiyonori Gomi]], [[Guo Chuan Thiang]]: *Crystallographic T-duality*, J. Geom. Phys **139** (2019) 50-77 &lbrack;[arXiv:1806.11385](https://arxiv.org/abs/1806.11385), [doi:10.1016/j.geomphys.2019.01.002](https://doi.org/10.1016/j.geomphys.2019.01.002)&rbrack;
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563), [doi:10.1142/S0129055X23500010](https://doi.org/10.1142/S0129055X23500010)&rbrack;
+
 
 
 
