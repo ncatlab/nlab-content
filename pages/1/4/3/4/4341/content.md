@@ -117,19 +117,7 @@ On the other hand, there are also cases where this argument does not apply.  For
 
 ## Related concepts
 
-* **walking structure**
-
-  * [[walking pair of objects]]
-
-  * [[walking morphism]]
-
-  * [[walking parallel pair]]
-
-  * [[walking commutative triangle]]
-
-  * [[walking isomorphism]]
-
-  * [[walking equivalence]]
+[[!include notions of walking structure]]
 
 ## References
 
@@ -156,7 +144,6 @@ The term *free-living* is defined in:
 [[!redirects free-standing structures]]
 [[!redirects free-standing object]]
 [[!redirects free-standing objects]]
-
 
 [[!redirects walking]]
 [[!redirects walking structure]]
