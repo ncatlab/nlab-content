@@ -51,17 +51,19 @@ $$\mathrm{hom}_{A, I}(x, y) \coloneqq \sum_{f:I \to A} (f(0) =_A x) \times (f(1)
 
 ## Related concepts
 
-* [[simplicial homotopy type theory]]
-* [[directed homotopy type theory]]
 * [[identity type]]
 * [[bridge type]]
 * [[function type]]
 * [[directed univalence]]
-* [[composite of morphisms]]
-* [[pair of composable morphisms]]
+* [[hom set]]
+* [[composite]]
+* [[composable pair]]
+* [[commutative triangle]]
 * [[Segal type]], [[Rezk type]]
 * [[covariant type family]]
 * [[heterogeneous hom type]]
+* [[simplicial homotopy type theory]]
+* [[directed homotopy type theory]]
 
 ## References
 
