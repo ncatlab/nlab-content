@@ -86,25 +86,38 @@ $$
 
 ### In simplicial type theory
 
-Let $A$ be a type in [[simplicial type theory]], and let $\Delta^2$ denote the [[boundary]] of the [[2-simplex]] type. A **composite of morphisms** from $x:A$ through $y:A$ to $z:A$ is a [[record]] consisting of
+We work in [[simplicial type theory]] with a [[directed interval]] $\mathbb{I}$. 
+Let the 2-simplex type be defined as 
 
-* a function $f:\Delta^2 \to A$
+$$\Delta^2 \coloneqq \sum_{s:\mathbb{I}} \sum_{t:\mathbb{I}} s \leq t$$
 
-* an identification $p_x:f(0, 0) = x$
+and let the (2,1)-[[horn]] type be defined as 
 
-* an identification $p_y:f(0, 1) = y$
+$$\Lambda_1^2 \coloneqq \sum_{s:\mathbb{2}} \sum_{t:\mathbb{2}} (s =_\mathbb{I} 0) \vee (t =_\mathbb{I} 1)$$
 
-* an identification $p_z:f(1, 1) = z$
+where $P \vee Q$ is the [[disjunction]] of the types $P$ and $Q$. Since $s \leq t$ implies $(s =_{\mathbb{I}} 0) \vee (t =_{\mathbb{I}} 1)$ for all $s:\mathbb{I}$ and $t:\mathbb{I}$, we have a canonical function 
 
-The type of composites of morphisms $\mathrm{comp}_A(x, y, z)$ between $x:A$, $y:A$, and $z:A$ is then the respective [[record type]]. It is also given by the dependent sum type 
+$$(\lambda t:\mathbb{I}.t, \lambda t:\mathbb{I}.t, P):\Delta^2 \to \Lambda^2_1$$
 
-$$\sum_{f:\Delta^2 \to A} (f(0, 0) = x) \times (f(0, 1) = y) \times (f(1, 1) = z)$$
+which is a tuple consisting of two copies of the [[identity function]] on $\mathbb{I}$ and a [[dependent function]] $P$ that takes the witness that $s \leq t$ to a witness that $(s =_{\mathbb{I}} 0) \vee (t =_{\mathbb{I}} 1)$. By precomposition, this leads to a function 
 
-In a [[Segal type]] $A$, for all elements $x:A$, $y:A$, and $z:A$, from the [[Segal condition]] one can construct a [[composition]] operation on [[hom-types]] 
+$$\lambda u.u \circ (\lambda t:\mathbb{I}.t, \lambda t:\mathbb{I}.t, P):(\Delta^2 \to A) \to (\Lambda^2_1 \to A)$$
+
+for all types $A$. 
+
+Let $h_{0,2}:\mathbb{I} \to \Delta^2$ be the [[face map]] which represents the unique morphism from $0$ to $2$ in the 2-simplex. 
+
+\begin{definition}
+A morphism $f:\mathbb{I} \to A$ is the **composite** of a [[composable pair of morphisms]] $k:\Lambda^2_1 \to A$ if one can construct a [[commutative triangle]] $h:\Delta^2 \to A$ such that 
+
+$$h \circ (\lambda t:\mathbb{I}.t, \lambda t:\mathbb{I}.t, P) = k \; \mathrm{and} \; h \circ h_{0,2} = f$$
+\end{definition}
+
+In a [[Segal type]] $A$, for all elements $x:A$, $y:A$, and $z:A$, all composites are [[unique composites]] by definition of the [[Segal condition]], and thus one can construct a [[composition]] operation on [[hom-types]] 
 
 $$\lambda (g, f).g \circ f:\mathrm{hom}_A(y, z) \times \mathrm{hom}_A(x, y) \to \mathrm{hom}_A(x, z)$$
 
-which by the uniqueness condition is automatically [[associative]] and [[unital]]. 
+which by the Segal condition is automatically [[associative]] and [[unital]]. 
 
 ## Higher arity
 
@@ -140,15 +153,23 @@ In some older category theory papers, arrows were written pointing from right to
 
 * [[composition ring]]
 
-* [[hom-type]]
+* [[composable pair]] 
+
+* [[commutative triangle]]
+
+* [[unique composite]]
+
+* [[hom set]], [[hom type]]
 
 * [[span in simplicial type theory]]
 
 * [[cospan in simplicial type theory]]
 
-* [[composable pair]], [[commutative triangle]]
-
 ## References
+
+* {#RS17} [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
+
+* [[Emily Riehl]], *[Could $\infty$-category theory be taught to undergraduates?](https://www.ams.org/journals/notices/202305/noti2692/noti2692.html?adat=May%202023&trk=2692&galt=feature&cat=feature&pdfissue=202305&pdffile=rnoti-p727.pdf)*, Notices of the AMS (May 2023) &lbrack;[published pdf](https://www.ams.org/journals/notices/202305/rnoti-p727.pdf), [arxiv:2302.07855](https://arxiv.org/abs/2302.07855)&rbrack;
 
 The phrase "composite" appears in:
 
