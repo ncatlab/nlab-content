@@ -29,6 +29,8 @@
 
 ## Definition
 
+### In category theory
+
 In any [[category]], a **cospan** is a diagram like this:
 $$
   \array{
@@ -51,7 +53,8 @@ A cospan in the category $C$ is the same as a [[span]] in the [[opposite categor
 
 A cospan that admits a [[cone]] is called a [[quadrable cospan]].
 
-### In type theoretic approaches to synthetic $(\infty,1)$-category theory
+
+### In synthetic $(\infty,1)$-category theory
 
 In [[simplicial type theory]], [[parametric type theory|binary parametric]] [[observational type theory]], and other type theoretic approaches to synthetic $(\infty,1)$-category theory, a cospan in a synthetic $(\infty,1)$-category $C$ can be defined as the following:
 
