@@ -6,6 +6,8 @@
 
 ****
 
+[[OrbifoldChartSchematics.png:file]]
+
 ### Orbifolds in solid state physics
 
 In the [[solid state physics]], the effective [[Brillouin torus]] of quasi-[[momenta]] of [[electrons]] in a [[crystal|crystalline material]] is generally an [[orbifold]], namely the [[quotient orbifold]] of [[Euclidean space]] (momentum space) by the corresponding [[crystallographic group]]:
