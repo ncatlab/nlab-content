@@ -202,9 +202,13 @@ A related concept is discussed in:
 
 * [[Kosta Došen]], Zoran Petrić: _Intermutation_, Applied Categorical Structures **20** (2012) 43-95 &lbrack;[arXiv:math/0701325](https://arxiv.org/abs/math/0701325), [doi:10.1007/s10485-010-9228-x](https://doi.org/10.1007/s10485-010-9228-x)&rbrack;
 
-On a [[horizontal categorification]] to [[double categories]]:
+On a [[horizontal categorification]] to [[double categories]] with two classes of loose morphism:
 
 * Patrick Schultz, _Algebraic Weak Factorization Systems in Double Categories_, PhD thesis (2014).
+
+On a [[horizontal categorification]] to [[double categories]] with "oplax" monoidal structure:
+
+* Nicola Gambino, Richard Garner, and Christina Vasilakopoulou. "Monoidal Kleisli bicategories and the arithmetic product of coloured symmetric sequences." Documenta Mathematica 29.3 (2024): 627-702.
 
 [[!redirects duoidal category]]
 [[!redirects duoidal categories]]
