@@ -27,6 +27,8 @@ On the [[quantum anomalous Hall effect]]:
 
 * Cui-Zu Chang, [[Chao-Xing Liu]], [[Allan H. MacDonald]]: *Colloquium: Quantum anomalous Hall effect*, Rev. Mod. Phys. **95** (2023) 011002  &lbrack;[arXiv:2202.13902](https://arxiv.org/abs/2202.13902), [doi:10.1103/RevModPhys.95.011002](https://doi.org/10.1103/RevModPhys.95.011002)&rbrack;
 
+* {#Morales-DuranShiMacDonald24} Nicolás Morales-Durán, Jingtian Shi, [[Allan H. MacDonald]]: *Fractionalized electrons in moiré materials*, Nature Reviews Physics **6** (2024) 349–351 &lbrack;[doi:10.1038/s42254-024-00718-z](https://doi.org/10.1038/s42254-024-00718-z)&rbrack;
+
 
 
 category: people
