@@ -45,19 +45,7 @@ The walking commutative triangle is [[equivalence of categories|equivalent]] to 
 
 ## Related concepts
 
-* [[walking structure]]
-
-  * [[walking pair of objects]]
-
-  * [[walking morphism]]
-
-  * [[walking parallel pair]]
-
-  * **walking commutative triangle**
-
-  * [[walking isomorphism]]
-
-  * [[walking equivalence]]
+[[!include notions of walking structure]]
 
 * [[triangle]], [[2-simplex]]
 
