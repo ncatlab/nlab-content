@@ -48,13 +48,13 @@ For this reason such "symmetry un-protected" topological insulators are commonly
 
 ### Haldane model & QAHE
 
-While mathematically the case without any quantum symmetry is the simplest one, physically this typically has to be realized with more effort by starting with a symmetry-protected material (such as [[graphene]]) and then "[[symmetry breaking|breaking]]" its symmetries (either by manipulating the material in the lab or, quite often, just theoretically by adding more terms to the Hamiltonian of its theoretical model).
+While, mathematically, the case without any quantum symmetry is the simplest one, physically this typically has to be realized with more effort by starting with a symmetry-protected material (such as [[graphene]]) and then "[[symmetry breaking|breaking]]" its symmetries (either by manipulating the material in the lab or, quite often, just theoretically by adding more terms to the [[Hamiltonian]] of its theoretical model).
 
 Therefore it is regarded as a seminal achievement when the *[[Haldane model]]* was found, which *intrinsically* breaks the symmetries of an idealized  graphene-like model (by [[spin-orbit coupling]]) and which is generally regarded as the archetype of a (model for a) Chern insulator.
 
 An *extrinsic* way to break the [[time-reversal symmetry]] of a material like [[graphene]] is to simply place it in an external [[magnetic field]]; in this case one sometimes speaks of a *[[quantum Hall material]]*, instead. 
 
-With reference to this relation, the intrinsic effect that breaks the [[time-reversal symmetry]] of some material to a Chern insulator-phase are also known as a *[[quantum anomalous Hall effect]]* (QAHE).
+With reference to this relation, the intrinsic effect that breaks the [[time-reversal symmetry]] of some material to a Chern insulator-phase is also known as a *[[quantum anomalous Hall effect]]* (QAHE).
 
 
 ### Chern semi-metals
@@ -65,6 +65,8 @@ Some authors speak of "Chern semi-metals" to amplify this.
 
 
 ## Related concepts
+
+* [[quantum anomalous Hall effect]]
 
 * [[topological insulator]]
 
