@@ -155,15 +155,13 @@ In some older category theory papers, arrows were written pointing from right to
 
 * [[composable pair]] 
 
+* [[span]], [[cospan]]
+
 * [[commutative triangle]]
 
 * [[unique composite]]
 
 * [[hom set]], [[hom type]]
-
-* [[span in simplicial type theory]]
-
-* [[cospan in simplicial type theory]]
 
 ## References
 
