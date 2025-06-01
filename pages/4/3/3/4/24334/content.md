@@ -117,7 +117,9 @@ Diagrams in [[simplicial type theory]] can be defined in an arbitrary type, rath
 
 * [[composable pair]]
 
-* [[composite of morphisms]], [[commutative triangle]]
+* [[commutative triangle]]
+
+* [[composite]], [[unique composite]]
 
 * [[span in simplicial type theory]]
 
