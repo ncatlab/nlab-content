@@ -103,9 +103,7 @@ Identity morphisms are always uniquely composable:
 
 * [[Segal type]]
 
-* [[span in simplicial type theory]]
-
-* [[cospan in simplicial type theory]]
+* [[span]], [[cospan]]
 
 ## References
 
