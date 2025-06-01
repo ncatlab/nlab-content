@@ -48,6 +48,8 @@ Review with emphasis on the explanation via [[Berry curvature]]:
 
 * {#NagaosaEtAl10} [[Naoto Nagaosa]], Jairo Sinova, Shigeki Onoda, [[Allan H. MacDonald]], N. P. Ong: *Anomalous Hall effect*, Rev. Mod. Phys. **82** (2010) 1539 &lbrack;[arXiv:0904.4154](https://arxiv.org/abs/0904.4154), [doi:10.1103/RevModPhys.82.1539](https://doi.org/10.1103/RevModPhys.82.1539)&rbrack;
 
+* Di Xiao, Ming-Che Chang, Qian Niu, section III.D of: *Berry phase effects on electronic properties*, Rev. Mod. Phys. **82** (2010) 1959 &lbrack;[arXiv:10.1103/RevModPhys.82.1959](https://doi.org/10.1103/RevModPhys.82.1959)&rbrack;
+
 See also:
 
 * Wikipedia: *[Hall effect -- Anomalous Hall effect](https://en.wikipedia.org/wiki/Hall_effect#Anomalous_Hall_effect)*
