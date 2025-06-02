@@ -254,41 +254,43 @@ As a result, a *type family variable* or a *variable of type families* simply co
 
 $$(\Gamma, B \; \mathrm{type}, f:B \to A, \Delta)$$
 
-### With type family judgments
+### With type telescopes
 
-On the other hand, if the dependent type theory does not have [[function types]], such as the case for a hypothetical [[geometric homotopy type theory]] as the [[internal logic]] of a [[Grothendieck (infinity,1)-topos|Grothendieck $(\infty,1)$-topos]], then one would have to postulate, for each type $A$, a separate [[judgment]] for [[type families]] indexed by $A$: 
+On the other hand, if the dependent type theory does not have [[function types]], such as the case for a hypothetical [[geometric homotopy type theory]] as the [[internal logic]] of a [[Grothendieck (infinity,1)-topos|Grothendieck $(\infty,1)$-topos]], then one would have to add [[type telescopes]] to the theory. Via telescopes, we have, for each type $A$, a separate [[judgment]]: 
 
-$$B \; \mathrm{type} \; \mathrm{at} \; A$$  
+$$B \; \mathrm{type} / (x:A)$$  
 
-There are [[inference rules]] which mimic the inference rules for [[function types]] $A \to U_i$ for a [[type universe]] $U_i$:
+where $(x:A)$ is the telescope consisting of the judgment $x:A$. 
 
-$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \lambda x:A.B(x) \; \mathrm{type} \; \mathrm{at} \; A}$$
+With type telescopes, there [[inference rules]] which mimic the inference rules for [[function types]] $A \to U_i$ for a [[type universe]] $U_i$ are derivable from the inference rules for telescopes:
 
-$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A}{\Gamma, x:A \vdash B(x) \; \mathrm{type}}$$
+$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma \vdash \lambda x:A.B(x) \; \mathrm{type} / (x:A)}$$
+
+$$\frac{\Gamma \vdash B \; \mathrm{type} / (x:A)}{\Gamma, x:A \vdash B(x) \; \mathrm{type}}$$
 
 $$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type}}{\Gamma, x:A \vdash B(x) \equiv (\lambda x:A.B(x))(x) \; \mathrm{type}}$$
 
-$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A}{\Gamma \vdash B \equiv \lambda x:A.B(x) \; \mathrm{type} \; \mathrm{at} \; A}$$
+$$\frac{\Gamma \vdash B \; \mathrm{type} / (x:A)}{\Gamma \vdash B \equiv \lambda x:A.B(x) \; \mathrm{type} / (x:A)}$$
 
-Then we have additional context forming rules that says that given a type judgment $A \; \mathrm{type}$ in context $\Gamma$, we can add the type family judgment to $B \; \mathrm{type} \; \mathrm{at} \; A$ the context:
+Then we have additional context forming rules that says that given a type judgment $A \; \mathrm{type}$ in context $\Gamma$, we can add the judgment to $B \; \mathrm{type} / (x:A)$ the context:
 
-$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, B \; \mathrm{type} \; \mathrm{at} \; A) \; \mathrm{ctx}}$$
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash A \; \mathrm{type}}{(\Gamma, B \; \mathrm{type} / (x:A)) \; \mathrm{ctx}}$$
 
-For (dependent) function variables in the absence of function types, we need to also postulate the typing judgment $b:_A B$ given type $A$ and type family $B$, which says that $b$ is a function from $A$ to $B$ or a family of elements in $B$ indexed by $A$. We also have [[inference rules]] which mimic the inference rules for [[dependent function types]] $(x:A) \to B(x)$: 
+In addition, the judgment $b : B / (x:A)$ behaves as a dependent function, and we also have [[inference rules]] which mimic the inference rules for [[dependent function types]] $(x:A) \to B(x)$: 
 
-$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda x:A.b(x) :_A \lambda x:A.B(x)}$$
+$$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash \lambda x:A.b(x) : \lambda x:A.B(x) / (x:A)}$$
 
-$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A \quad \Gamma \vdash b:_A B}{\Gamma, x:A \vdash b(x):B(x)}$$
+$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A \quad \Gamma \vdash b: B / (x:A)}{\Gamma, x:A \vdash b(x):B(x)}$$
 
 $$\frac{\Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash b(x):B(x)}{\Gamma \vdash b(x) \equiv (\lambda x:A.b(x))(x):B(x)}$$
 
-$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A \quad \Gamma \vdash b:_A B}{\Gamma \vdash b \equiv \lambda x:A.b(x) :_A B}$$
+$$\frac{\Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A \quad \Gamma \vdash b: B / (x:A)}{\Gamma \vdash b \equiv \lambda x:A.b(x) : B / (x:A)}$$
 
-Then we have additional context forming rules that says that given the type family judgment $B \; \mathrm{type} \; \mathrm{at} \; A$ in context $\Gamma$, we can add the function judgment $b :_A B$ to the context:
+Then we have additional context forming rules that says that given the judgment $B \; \mathrm{type} / (x:A)$ in context $\Gamma$, we can add the judgment $b : B / (x:A)$ to the context:
 
-$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A}{(\Gamma, b :_A B) \; \mathrm{ctx}}$$
+$$\frac{\Gamma \; \mathrm{ctx} \quad \Gamma \vdash B \; \mathrm{type} \; \mathrm{at} \; A}{(\Gamma, b : B  / (x:A)) \; \mathrm{ctx}}$$
 
-Collectively, the additions to the dependent type theory behave as if it is a [[modal type theory]] whose mode theory is given by the original [[dependent type theory]] and represents, for an $(\infty,1)$-topos $\mathcal{E}$, the [[(infinity,2)-category|$(\infty,2)$-category]] of [[slice (infinity,1)-topos|slice $(\infty,1)$-toposes]] $\mathcal{E} / A$. 
+Collectively, the additions of [[type telescopes]] to the dependent type theory behave as if it is a [[modal type theory]] whose mode theory is given by the original [[dependent type theory]] and represents, for an $(\infty,1)$-topos $\mathcal{E}$, the [[(infinity,2)-category|$(\infty,2)$-category]] of [[slice (infinity,1)-topos|slice $(\infty,1)$-toposes]] $\mathcal{E} / A$. 
 
 ## Related concepts
 
