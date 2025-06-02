@@ -14,8 +14,11 @@ On [[fuzzy dark matter]] and its [[MOND]]-like [[phenomenology]]:
 
 * [[Justin Khoury]], *Dark Matter Superfluidity* ([arXiv:2109.10928](https://arxiv.org/abs/2109.10928))
 
+On [[superfluid dark matter]]:
 
-## Related $n$Lab entries
+* Giordano Cintia, Valerio De Luca, [[Justin Khoury]], Lasha Berezhiani: *Superfluid Dark Matter* &lbrack;[arXiv:2505.23900](https://arxiv.org/abs/2505.23900)&rbrack;
+
+## Related entries
 
 * [[MOND]], [[fuzzy dark matter]]
 
