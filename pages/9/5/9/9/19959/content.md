@@ -79,6 +79,9 @@ The LSC also has applications in:
 
 > **complexity**: for decades, people had been wondering whether $\beta$-reduction is a reasonable cost model for [[computational complexity]].  Most were convinced that the answer was "no", because $\beta$-reduction may make an arbitrary number of duplications in just one step.  Suprisingly, Beniamino Accattoli and Ugo Dal Lago showed that the answer is in fact "yes", and their proof uses the LSC in a crucial way, in particular its capability of succinctly expressing computation thanks to sharing.
 
+## Related concepts
+
+* [[explicit parametricity]]
 
 ## References
 
