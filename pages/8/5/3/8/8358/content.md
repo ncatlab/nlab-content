@@ -43,7 +43,7 @@ Applying the tripos-to-topos construction to this tripos produces the realizabil
 
 ### Via assemblies 
 
-Let $Asm_A$ be the category of [[assemblies]] on a set $A$, and let $PAsm_A$ be the category of [[partitioned assemblies]] on a set $A$. 
+Let $Asm_A$ be the category of [[assemblies]] on a [[partial combinatory algebra]] $A$, and let $PAsm_A$ be the category of [[partitioned assemblies]] on $A$. 
 
 \begin{definition}
 The **realizability topos** is the [[ex/reg completion]] of $Asm_A$. 
