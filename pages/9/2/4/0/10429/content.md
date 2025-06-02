@@ -300,6 +300,9 @@ Classification of [[topological phases of matter]] via [[tensor network states]]
 [[!include topological phases of matter via K-theory -- references]]
 
 
+[[!include unstable classification of topological phases -- references]]
+
+
 ### Interacting topological phases
  {#ReferencesInteractingTopologicalPhases}
 
