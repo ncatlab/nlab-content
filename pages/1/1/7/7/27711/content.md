@@ -13,7 +13,7 @@
 
 ## Idea
 
-A reflexive type family used in [[internal parametricity]] and [[modal parametricity]]. 
+A reflexive type family used in [[explicit parametricity]]. 
 
 Bridge types come in $n$-ary forms, for any natural number $n$. Examples include
 
