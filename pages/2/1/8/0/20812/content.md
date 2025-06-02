@@ -184,6 +184,10 @@ Discussion of the [[Page charge]] in relation to the [[Myers effect]] in [[M-the
 
 * [[Krzysztof Pilch]], Alexander Tyukov, [[Nicholas Warner]], _Flowing to Higher Dimensions: A New Strongly-Coupled Phase on M2 Branes_, JHEP11 (2015) 170 ([arXiv:1506.01045](https://arxiv.org/abs/1506.01045))
 
+Proof that C-field [[geometry of physics -- flux quantization|flux quantization]] in [[stable Cohomotopy]] implies the desired divisibility by 6 of the [[D=11 supergravity]] [[action functional]]:
+
+* [[Daniel Grady]]: *Cohomotopy and flux quantization in M-theory* &lbrack;[arXiv:2505.24696](https://arxiv.org/abs/2505.24696)&rbrack;
+
 ### Relation to Freed-Witten anomaly
 
 
