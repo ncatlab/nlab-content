@@ -1220,6 +1220,9 @@ The suggestion that *every* ([[pointed topological space|pointed]]) [[topologica
   > (generalizing the [[Chern-Dold character]] to nonabelian cohomology in this sense)
 
 
+[[!include unstable classification of topological phases -- references]]
+
+
 
 [[!redirects non-abelian cohomology]]
 
