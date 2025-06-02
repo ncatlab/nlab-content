@@ -9,6 +9,13 @@
 
 ## Selected writings
 
+
+Predicting what came to be called the *[[fractional quantum anomalous Hall effect]]*:
+
+* [[Titus Neupert]], [[Luiz Santos]], [[Claudio Chamon]], [[Christopher Mudry]]: *Fractional quantum Hall states at zero magnetic field*, Phys. Rev. Lett. **106** (2011) 236804  &lbrack;[arXiv:1012.4723](https://arxiv.org/abs/1012.4723), [doi:10.1103/PhysRevLett.106.236804](https://doi.org/10.1103/PhysRevLett.106.236804)&rbrack;
+
+
+
 On non-abelian ([[parafermion|parafermionic]]) [[defect]] [[anyons]] associated with [[superconductor|superconducting]] islands inside [[nLab:abelian Chern-Simons theory|abelian]] [[fractional quantum Hall systems]]:
 
 * [[Luiz H. Santos]], Taylor L. Hughes: *Parafermionic Wires at the Interface of Chiral Topological States*, Phys. Rev. Lett. **118** (2019) 136801 &lbrack;[doi:10.1103/PhysRevLett.118.136801](https://doi.org/10.1103/PhysRevLett.118.136801)&rbrack;
