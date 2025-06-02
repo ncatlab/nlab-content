@@ -37,7 +37,7 @@ In analogy to how the ordinary [[quantum Hall effect]] has a [fractional version
         "right": 0, 
         "left": 30
     },
-    "caption": "(from [Chang, Liu & MacDonald 2023](#ChangLiuMacDonald23))"
+    "caption": "(from [Chang, Liu, MacDonald 2023](#ChangLiuMacDonald23))"
 \end{imagefromfile}
 
 
@@ -90,6 +90,17 @@ See also:
 
 ### Fractional QAHE
 
+Theoretical prediction:
+
+* [[Titus Neupert]], [[Luiz Santos]], [[Claudio Chamon]], [[Christopher Mudry]]: *Fractional quantum Hall states at zero magnetic field*, Phys. Rev. Lett. **106** (2011) 236804  &lbrack;[arXiv:1012.4723](https://arxiv.org/abs/1012.4723), [doi:10.1103/PhysRevLett.106.236804](https://doi.org/10.1103/PhysRevLett.106.236804)&rbrack;
+
+* S. A. Parameswaran, R. Roy, S. L. Sondhi: *Fractional Quantum Hall Physics in Topological Flat Bands*, Comptes Rendus. Physique, Topological insulators / Isolants topologiques, **14** 9-10 (2013) 816-839 &lbrack;[arXiv:1302.6606](https://arxiv.org/abs/1302.6606), [doi:10.1016/j.crhy.2013.04.003](https://doi.org/10.1016/j.crhy.2013.04.003)&rbrack;
+
+* Rahul Roy: *Band geometry of fractional topological insulators*, Phys. Rev. B **90** (2014) 165139 &lbrack;[arXiv:1208.2055](https://arxiv.org/abs/1208.2055), [doi:10.1103/PhysRevB.90.165139](https://doi.org/10.1103/PhysRevB.90.165139)&rbrack;
+
+
+
+
 Experimental detection:
 
 * Jiaqi Cai et al.: *Signatures of Fractional Quantum Anomalous Hall States in Twisted $MoTe_2$ Bilayer*, Nature **622** (2023) 63–68 &lbrack;[arXiv:2304.08470](https://arxiv.org/abs/2304.08470), [doi:10.1038/s41586-023-06289-w](https://doi.org/10.1038/s41586-023-06289-w)&rbrack;
@@ -100,6 +111,7 @@ Experimental detection:
 
 * Zhengguang Lu: *Fractional quantum anomalous Hall effect in multilayer graphene*, Nature **626** (2024) 759–764 &lbrack;[doi:10.1038/s41586-023-07010-7](https://doi.org/10.1038/s41586-023-07010-7)&rbrack;
      
+
 
 Review:
 
