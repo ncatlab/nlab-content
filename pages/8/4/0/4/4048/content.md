@@ -51,7 +51,7 @@ This implies the weak form by applying the functor $\hom(I, -): V \to Set$.
 
 ### Density form
 
-If $V$ is also (small-)cocomplete, there is an equivalent dual formulation of the enriched Yondeda lemma as a $V$-[[natural isomorphism]]
+If $V$ is also (small-)cocomplete, there is an equivalent dual formulation of the enriched Yoneda lemma as a $V$-[[natural isomorphism]]
 $$\int^c \hom_C(c,d) \otimes F(c) \cong F(d)$$
 induced by the morphisms
 $$\hom_C(c,d) \otimes F(c) \to F(d)$$
