@@ -28,8 +28,11 @@ On [[formal category theory]] and formal aspects of general category theory:
 
 * {#ALL23} [[Nathanael Arkor]], [[Ivan Di Liberti]], [[Fosco Loregian]], _Adjoint functor theorems for lax-idempotent pseudomonads_, &lbrack;[arXiv:2306.10389](https://arxiv.org/abs/2306.10389)&rbrack;
 
+On topos theory and fragments of geometric logic
 
-On the [[Higher Topology]] and the  [[Scott adjunction]]:
+* [[Ivan Di Liberti]], [[Lingyuan Ye]]: *Logic and concepts in the 2-category of topoi* &lbrack;[arXiv:2504.16690](https://arxiv.org/abs/2504.16690)&rbrack;
+
+More specifically, in [[Higher Topology]] and the  [[Scott adjunction]]:
 
 * [[Ivan Di Liberti]]: *The Scott adjunction* &lbrack;[arXiv:2009.07320](https://arxiv.org/abs/2009.07320)&rbrack;
 
@@ -37,14 +40,15 @@ On the [[Higher Topology]] and the  [[Scott adjunction]]:
 
 * [[Ivan Di Liberti]], *Towards Higher Topology* &lbrack;[arXiv:2009.14145](https://arxiv.org/abs/2009.14145)&rbrack;
 
+* [[Ivan Di Liberti]], *The geometry of coherent topoi and Ultrastructures* &lbrack;[arXiv:2211.03104](https://arxiv.org/abs/2211.03104)&rbrack;
+
 Generalizing [[Lawvere theories]] to partial [[algebraic theories]]:
 
 * [[Ivan Di Liberti]], [[Fosco Loregian]], [[Pawel Sobocinski]], [[Chad Nester]]: *Functorial semantics for partial theories* &lbrack;[arXiv:2011.06644](https://arxiv.org/abs/2011.06644)&rbrack;
 
 
-On geometric aspects of [[coherent topoi]] and their relationship to ultrastructures:
 
-* [[Ivan Di Liberti]], *The geometry of coherent topoi and Ultrastructures* &lbrack;[arXiv:2211.03104](https://arxiv.org/abs/2211.03104)&rbrack;
+
 
 On [[judgements]], [[natural deduction]] and [[dependent type theory]]:
 
