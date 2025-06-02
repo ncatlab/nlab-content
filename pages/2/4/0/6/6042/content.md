@@ -28,7 +28,9 @@ If one models the [[electromagnetic field]] via the [[Kaluza-Klein mechanism]] a
 
 ## Related concepts
 
-* [[quantum Hall effect]]
+* [[Hall effect]], [[quantum Hall effect]]
+
+* [[anomalous velocity]]
 
 * [[strong nuclear force]]
 
