@@ -77,7 +77,7 @@ Review and further discussion:
 
 * Ming-Che Chang, Qian Niu, *Berry curvature, orbital moment, and effective quantum theory of electrons in electromagnetic fields*, J. Phys.: Condens. Matter **20** (2008) 193202 ([doi:10.1088/0953-8984/20/19/193202](https://iopscience.iop.org/article/10.1088/0953-8984/20/19/193202))
 
-* Di Xiao, Ming-Che Chang, Qian Niu, *Berry Phase Effects on Electronic Properties*, Rev. Mod. Phys. **82** (2010) 1959-2007 ([arXiv:0907.2021](https://arxiv.org/abs/0907.2021), [doi:10.1103/RevModPhys.82.1959](https://doi.org/10.1103/RevModPhys.82.1959))
+* {#XiaoChangNiu10} Di Xiao, Ming-Che Chang, Qian Niu, *Berry Phase Effects on Electronic Properties*, Rev. Mod. Phys. **82** (2010) 1959-2007 &lbrack;[arXiv:0907.2021](https://arxiv.org/abs/0907.2021), [doi:10.1103/RevModPhys.82.1959](https://doi.org/10.1103/RevModPhys.82.1959)&rbrack;
 
 With focus on [[topological phases of matter]] ([[topological insulators]], [[semimetals]], etc.):
 
@@ -92,12 +92,14 @@ See also:
 
 * Wikipedia, *[Berry connection and curvature](https://en.wikipedia.org/wiki/Berry_connection_and_curvature)*
 
-Berry curvature in momentum space is closely analogous to [[magnetic field|magnetic]] [[flux density]] -- the ordinary [[Lorentz force]]-term is analogous to "anomalous group velocity" term induced by Berry curvature:
+Berry curvature in momentum space is closely analogous to [[magnetic field|magnetic]] [[flux density]] -- the ordinary [[Lorentz force]]-term is analogous to the "[[anomalous velocity]]" term induced by Berry curvature:
+
+* [Xiao, Chang and Niu 2010 §III.A](#XiaoChangNiu10)
 
 * Y. D. Chong: *Berry's phase and the anomalous velocity of Bloch wavepackets*, Phys. Rev. B **81** (2010) 052303 &lbrack;[arXiv:0912.0716](https://arxiv.org/abs/0912.0716), [doi:10.1103/PhysRevB.81.052303](https://doi.org/10.1103/PhysRevB.81.052303)&rbrack;
 
+* Michael Stone: *Berry Curvature, Spin, and Anomalous Velocity* &lbrack;[pdf](https://www.thp.uni-koeln.de/ESI-Web/slides/Stone.pdf), [[Stone-BerryCurvature.pdf:file]]&rbrack;
 
-* Michael Stone: *Berry Curvature, Spin, and Anomalous Velocity* &lbrack;[pdf](https://www.thp.uni-koeln.de/ESI-Web/slides/Stone.pdf)&rbrack;
 
 
 
