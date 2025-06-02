@@ -6,7 +6,33 @@
 
 ****
 
-[[OrbifoldChartSchematics.png:file]]
+
+## Idea
+
+In [[crystal|crystalline]] materials whose [[Berry curvature]] $\Omega$ of the [[valence band]] is non-vanishing over the [[Brillouin torus]] of [[crystal momentum|crystal]] [[momenta]], the [[semiclassical approximation|semiclassical]] [[equation of motion]] for movement of [[electrons]] [[quantum state|states]] in momentum space contains an extra "anomalous" term proportional to $\Omega$ which is a momentum-space analogue of what for electrons moving through position space in the presence of [[magnetic field]] [[flux density]] $F$
+is the *[[Lorentz force]]*.
+
+Accordingly the [[Lorentz force]] in ambient [[magnetic field]] (hence by [[curvature 2-form]] of the [[electromagnetism|electromagnetic]] [[gauge potential]]) is the cause of the [[Hall effect]], so this *anomalous velocity* induced instead by [[Berry curvature]] in momentum space is the cause of the *[[anomalous Hall effect]]*.
+
+## References
+
+The original articles:
+
+* [[Ming-Che Chang]], [[Qian Niu]]: *Berry Phase, Hyperorbits, and the Hofstadter Spectrum*, Phys. Rev. Lett. **75** (1995) 1348 &lbrack;[doi:10.1103/PhysRevLett.75.1348](https://doi.org/10.1103/PhysRevLett.75.1348)&rbrack;
+
+* [[Ming-Che Chang]], [[Qian Niu]]: *Berry phase, hyperorbits, and the Hofstadter spectrum: Semiclassical dynamics in magnetic Bloch bands*, Phys. Rev. B **53** (1996) 7010 &lbrack;[doi:10.1103/PhysRevB.53.7010](https://doi.org/10.1103/PhysRevB.53.7010)&rbrack;
+
+* Ganesh Sundaram, [[Qian Niu]], §III.B in: *Wave-packet dynamics in slowly perturbed crystals: Gradient corrections and Berry-phase effects*, Rev. B **59** (1999) 14915 &lbrack;[doi:10.1103/PhysRevB.59.14915](https://doi.org/10.1103/PhysRevB.59.14915)&rbrack;
+
+Review:
+
+* {#XiaoChangNiu10} Di Xiao, [[Ming-Che Chang]], [[Qian Niu]], §III.A in: *Berry Phase Effects on Electronic Properties*, Rev. Mod. Phys. **82** (2010) 1959-2007 &lbrack;[arXiv:0907.2021](https://arxiv.org/abs/0907.2021), [doi:10.1103/RevModPhys.82.1959](https://doi.org/10.1103/RevModPhys.82.1959)&rbrack;
+
+* Y. D. Chong: *Berry's phase and the anomalous velocity of Bloch wavepackets*, Phys. Rev. B **81** (2010) 052303 &lbrack;[arXiv:0912.0716](https://arxiv.org/abs/0912.0716), [doi:10.1103/PhysRevB.81.052303](https://doi.org/10.1103/PhysRevB.81.052303)&rbrack;
+
+* Michael Stone: *Berry Curvature, Spin, and Anomalous Velocity* &lbrack;[pdf](https://www.thp.uni-koeln.de/ESI-Web/slides/Stone.pdf), [[Stone-BerryCurvature.pdf:file]]&rbrack;
+
+
 
 ### Orbifolds in solid state physics
 
