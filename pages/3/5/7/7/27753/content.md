@@ -109,7 +109,7 @@ Experimental detection:
 
 * Heonjoon Park et al.: *Observation of fractionally quantized anomalous Hall effect*, Nature **622** (2023) 74–79 &lbrack;[doi:10.1038/s41586-023-06536-0](https://doi.org/10.1038/s41586-023-06536-0)&rbrack;
 
-* Zhengguang Lu: *Fractional quantum anomalous Hall effect in multilayer graphene*, Nature **626** (2024) 759–764 &lbrack;[doi:10.1038/s41586-023-07010-7](https://doi.org/10.1038/s41586-023-07010-7)&rbrack;
+* Zhengguang Lu et al.: *Fractional quantum anomalous Hall effect in multilayer graphene*, Nature **626** (2024) 759–764 &lbrack;[doi:10.1038/s41586-023-07010-7](https://doi.org/10.1038/s41586-023-07010-7)&rbrack;
      
 
 
