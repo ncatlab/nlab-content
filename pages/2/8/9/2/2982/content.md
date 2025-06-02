@@ -64,5 +64,4 @@ In the context of [[higher algebra]] of [[(infinity,1)-operads]], the associativ
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
 
-[[!redirects Ass]]
 [[!redirects Assoc]]
