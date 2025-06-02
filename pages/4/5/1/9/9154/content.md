@@ -174,6 +174,10 @@ category: geometry, algebra
 
 [[!redirects Grassmannians]]
 
+[[!redirects Grassmannian space]]
+[[!redirects Grassmannian spaces]]
 
 [[!redirects Grassmannian manifold]]
 [[!redirects Grassmannian manifolds]]
+
+
