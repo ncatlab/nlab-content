@@ -21,7 +21,16 @@ A [[class]] $\Phi$ of [[diagram]] shapes for [[limits]] --- or more generally a 
 
 ## Definition
 
-...
+A collection of small categories $\mathbb{D}$ is a doctrine if, seen as a full subcategory of $Cat$, it is essentially small.
+
+
+A doctrine is said to be sound if for every small category $C$ the following are equivalent.
+
+1. For every $D \in \mathcal{D}$ and any functor $D^{op} \to C$ the corresponding category of cocones is connected.
+
+2. $C$-colimits commute with $D$-limits in $Set$ for all $D \in \mathbb{D}$.
+
+Note that we always have $2. \implies 1.$, [Adámek, Borceux, Lack, Rosicky, Prop.2.1]. A category $C$ satisfying 2. is called $\mathbb{D}$-filtered.
 
 ## References
 
