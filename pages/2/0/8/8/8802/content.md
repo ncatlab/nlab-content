@@ -26,8 +26,6 @@ In particular the [[complex plane]] $\mathbb{C}$ itself is a complex line; conve
 
 * [[complex vector space]]
 
-  * **complex line**
-
 * [[complex vector bundle]]
 
   * [[complex line bundle]]
