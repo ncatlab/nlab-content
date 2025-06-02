@@ -67,15 +67,25 @@ See also:
 
 * Huahui Qiu et al., *Minimal non-abelian nodal braiding in ideal metamaterials*, Nature Communications **14** 1261 (2023) \[<a href="https://doi.org/10.1038/s41467-023-36952-9">doi:10.1038/s41467-023-36952-9</a>\]
 
-* Wojciech J. Jankowski, Mohammedreza Noormandipour, [[Adrien Bouhon]], [[Robert-Jan Slager]], *Disorder-induced topological quantum phase transitions in Euler semimetals* \[<a href="https://arxiv.org/abs/2306.13084">arXiv:2306.13084</a>\]
+* [[Wojciech J. Jankowski]], Mohammedreza Noormandipour, [[Adrien Bouhon]], [[Robert-Jan Slager]]: *Disorder-induced topological quantum phase transitions in Euler semimetals*, Phys. Rev. B **110** (2024) 064202 \[<a href="https://arxiv.org/abs/2306.13084">arXiv:2306.13084</a>, <a href=" https://doi.org/10.1103/PhysRevB.110.064202">doi:10.1103/PhysRevB.110.064202</a>\]
 
 * Seung Hun Lee, Yuting Qian, Bohm-Jung Yang, *Euler band topology in spin-orbit coupled magnetic systems* \[<a href="https://arxiv.org/abs/2404.16383">arXiv:2404.16383</a>\]
-
   > "Based on first-principles calculations, we report that such nodal point braiding in 2D electronic bands can be realized in a MSWI candidate, the bilayer $ZrTe_5$ with in-plane ferromagnetism under pressure. \[...\] one can expect that the braiding of nodes can be achieved in 2D bilayer $ZrTe_5$ under the influence of an external in-plane Zeeman field."
 
 \linebreak
 
 Incidentally, references indicating that the required toroidal (or yet higher genus) geometry for anyonic topological order in position space is dubious (as opposed to the evident toroidal geometry of the momentum-space [[Brillouin torus]]): [Lan 19, p. 1](Laughlin+state#Lan19), ....
+
+\linebreak
+
+Exposition:
+
+* Gunnar F. Lange: *Multi-gap topology & non-abelian braiding in $\mathbf{k}$-space*, talk at University of Oslo (Feb 2023) $[$[[Lange-MultiGapTopology.pdf:file]]\]
+
+* [[Adrien Bouhon]]: *Non-Abelian and Euler multi-gap topologies in crystalline materials*, [talk at](CQTS#BouhonMay2023): *[Quantum Information and Quantum Matter](CQTS#QuantumConference2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023) $[$[[Bouhon-MultiGapTopolgies.pdf:file]]\]
+
+
+\linebreak
 
 **Knotted nodal lines in 3d semimetals**
 
