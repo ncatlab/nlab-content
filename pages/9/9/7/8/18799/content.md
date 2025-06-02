@@ -39,6 +39,11 @@ In Euclidean spaces:
 
 * [[torque]]
 
+In [[solid state physics]]:
+
+* [[anomalous velocity]]
+
+
 ## References
 
 See the references at *[[differential geometry of curves and surfaces]]*.
