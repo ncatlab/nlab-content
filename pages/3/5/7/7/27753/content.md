@@ -77,8 +77,9 @@ Experimental realization:
 
 Review:
 
+* Jing Wang, [[Biao Lian]], [[Shou-Cheng Zhang]]: *Quantum anomalous Hall effect in magnetic topological insulators*, Physica Scripta **2015** T164 (2015) 014003 &lbrack;[arXiv:1409.6715](https://arxiv.org/abs/1409.6715), [doi:10.1088/0031-8949/2015/T164/014003](https://doi.org/10.1088/0031-8949/2015/T164/014003)&rbrack;
 
-*  [[Chao-Xing Liu]], Shou-Cheng Zhang, Xiao-Liang Qi: *The Quantum Anomalous Hall Effect: Theory and Experiment*,  Annual Review of Condensed Matter Physics **7** (2016) &lbrack;[arXiv:1508.07106](https://arxiv.org/abs/1508.07106), [doi:10.1146/annurev-conmatphys-031115-011417](https://doi.org/10.1146/annurev-conmatphys-031115-011417)&rbrack;
+*  [[Chao-Xing Liu]], [[Shou-Cheng Zhang]], Xiao-Liang Qi: *The Quantum Anomalous Hall Effect: Theory and Experiment*,  Annual Review of Condensed Matter Physics **7** (2016) &lbrack;[arXiv:1508.07106](https://arxiv.org/abs/1508.07106), [doi:10.1146/annurev-conmatphys-031115-011417](https://doi.org/10.1146/annurev-conmatphys-031115-011417)&rbrack;
 
 * {#ChangLiuMacDonald23} Cui-Zu Chang, [[Chao-Xing Liu]], [[Allan H. MacDonald]]: *Colloquium: Quantum anomalous Hall effect*, Rev. Mod. Phys. **95** (2023) 011002  &lbrack;[arXiv:2202.13902](https://arxiv.org/abs/2202.13902), [doi:10.1103/RevModPhys.95.011002](https://doi.org/10.1103/RevModPhys.95.011002)&rbrack;
 
