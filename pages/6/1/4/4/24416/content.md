@@ -174,7 +174,9 @@ From [SS 19c](#SS19c):
 ## See also
 
 * [[twisted cohomotopy]]
+
 * [[equivariant cohomotopy]] 
+
 * [[differential cohomotopy]]
 
 ## FAQ
@@ -283,6 +285,8 @@ and was further developed in:
   [doi:10.1016/j.geomphys.2016.11.024](http://dx.doi.org/10.1016/j.geomphys.2016.11.024)
 
   [arXiv:1606.03206](http://arxiv.org/abs/1606.03206)
+
+  > (see [Grady 2025](#Grady25) for details)
 
 
 * [[Hisham Sati]], [[Urs Schreiber]]:
@@ -492,7 +496,7 @@ was formulated, and first consistency checks were made, in:
 
 * [[Hisham Sati]], [[Urs Schreiber]]:
 
-  **[[schreiber:The Character Map in Equivariant Twistorial Cohomotopy]]**
+  **[[schreiber:The Character Map in Twisted Equivariant Nonabelian Cohomology]]**
 
   [arXiv:2011.06533](https://arxiv.org/abs/2011.06533)
 
@@ -522,6 +526,11 @@ See also:
   <a href=" https://doi.org/10.1007/JHEP06(2020)052">doi:10.1007/JHEP06(2020)052</a>
 
   [arXiv:2003.09832](https://arxiv.org/abs/2003.09832)
+
+Proof that [[supergravity C-field|C-field]] [[geometry of physics -- flux quantization|flux quantization]] in [[stable Cohomotopy]] implies the desired divisibility by 6 of the [[D=11 supergravity]] [[action functional]]:
+
+* {#Grady25} [[Daniel Grady]]: *Cohomotopy and flux quantization in M-theory* &lbrack;[arXiv:2505.24696](https://arxiv.org/abs/2505.24696)&rbrack;
+
 
 
 
