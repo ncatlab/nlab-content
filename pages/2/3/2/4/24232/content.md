@@ -9,7 +9,7 @@ On [[fibration categories]]:
 
 * [[Taichi Uemura]], *Fibred fibration categories*, 32nd Annual ACM/IEEE Symposium on Logic in Computer Science (LICS) (2017) $[$[arXiv:1602.08206](http://arxiv.org/abs/1602.08206), [doi:10.1109/LICS.2017.8005084](https://doi.org/10.1109/LICS.2017.8005084)$]$
 
-On [[categorical semantics]]  [[relation between type theory and category theory|for type theories]] and presenting a solution to the [[initiality conjecture]] for type theories formulated in terms of second-order generalized algebraic theories:
+On [[categorical semantics]]  [[relation between type theory and category theory|for type theories]] and presenting a solution to the [[initiality conjecture]] for type theories formulated in terms of second-order [[generalized algebraic theories]]:
 
 * [[Taichi Uemura]], _A General Framework for the Semantics of Type Theory_ &lbrack;[arXiv:1904.04097](https://arxiv.org/abs/1904.04097), talk slides: [pdf](https://hott.github.io/HoTT-2019/conf-slides/Uemura.pdf)&rbrack;
 
