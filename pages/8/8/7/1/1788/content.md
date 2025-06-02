@@ -7,110 +7,16 @@
 ****
 
 
-## Idea
+### Unstable classification of topological phases
 
-In [[crystal|crystalline]] materials whose [[Berry curvature]] $\Omega$ of the [[valence band]] is non-vanishing over the [[Brillouin torus]] of [[crystal momentum|crystal]] [[momenta]], the [[semiclassical approximation|semiclassical]] [[equation of motion]] for movement of [[electrons]] [[quantum state|states]] in momentum space contains an extra "anomalous" term proportional to $\Omega$ which is a momentum-space analogue of what for electrons moving through position space in the presence of [[magnetic field]] [[flux density]] $F$
-is the *[[Lorentz force]]*.
+Arguments that some effects in [[topological phases of matter]] are "unstable" or "fragile" in that the relevant deformation class of their [[valence bundles]] over the [[Brillouin torus]] is not their class in [[topological K-theory]] (as assumed by the [[K-theory classification of topological phases of matter]]) but an unstable [[homotopy class]] (what may be called a class in generalized *[[nonabelian cohomology]]*) such as of maps to a [[Grassmannian space]] (or more general [[flag variety]]) classifying (systems of) [[sub-bundles]] of a [[trivial bundle|trivial]] [[vector bundle]] of fixed *[[finite number|finite]]* [[rank of a vector bundle|rank]]:
 
-Accordingly the [[Lorentz force]] in ambient [[magnetic field]] (hence by [[curvature 2-form]] of the [[electromagnetism|electromagnetic]] [[gauge potential]]) is the cause of the [[Hall effect]], so this *anomalous velocity* induced instead by [[Berry curvature]] in momentum space is the cause of the *[[anomalous Hall effect]]*.
-
-## References
-
-The original articles:
-
-* [[Ming-Che Chang]], [[Qian Niu]]: *Berry Phase, Hyperorbits, and the Hofstadter Spectrum*, Phys. Rev. Lett. **75** (1995) 1348 &lbrack;[doi:10.1103/PhysRevLett.75.1348](https://doi.org/10.1103/PhysRevLett.75.1348)&rbrack;
-
-* [[Ming-Che Chang]], [[Qian Niu]]: *Berry phase, hyperorbits, and the Hofstadter spectrum: Semiclassical dynamics in magnetic Bloch bands*, Phys. Rev. B **53** (1996) 7010 &lbrack;[doi:10.1103/PhysRevB.53.7010](https://doi.org/10.1103/PhysRevB.53.7010)&rbrack;
-
-* Ganesh Sundaram, [[Qian Niu]], §III.B in: *Wave-packet dynamics in slowly perturbed crystals: Gradient corrections and Berry-phase effects*, Rev. B **59** (1999) 14915 &lbrack;[doi:10.1103/PhysRevB.59.14915](https://doi.org/10.1103/PhysRevB.59.14915)&rbrack;
-
-Review:
-
-* {#XiaoChangNiu10} Di Xiao, [[Ming-Che Chang]], [[Qian Niu]], §III.A in: *Berry Phase Effects on Electronic Properties*, Rev. Mod. Phys. **82** (2010) 1959-2007 &lbrack;[arXiv:0907.2021](https://arxiv.org/abs/0907.2021), [doi:10.1103/RevModPhys.82.1959](https://doi.org/10.1103/RevModPhys.82.1959)&rbrack;
-
-* Y. D. Chong: *Berry's phase and the anomalous velocity of Bloch wavepackets*, Phys. Rev. B **81** (2010) 052303 &lbrack;[arXiv:0912.0716](https://arxiv.org/abs/0912.0716), [doi:10.1103/PhysRevB.81.052303](https://doi.org/10.1103/PhysRevB.81.052303)&rbrack;
-
-* Michael Stone: *Berry Curvature, Spin, and Anomalous Velocity* &lbrack;[pdf](https://www.thp.uni-koeln.de/ESI-Web/slides/Stone.pdf), [[Stone-BerryCurvature.pdf:file]]&rbrack;
+* [[Adrien Bouhon]], [[Tomáš Bzdušek]], [[Robert-Jan Slager]]: *Geometric approach to fragile topology beyond symmetry indicators*, Phys. Rev. B **102** (2020) 115135 &lbrack;[arXiv:2005.02044](https://arxiv.org/abs/2005.02044), [doi:10.1103/PhysRevB.102.115135](https://doi.org/10.1103/PhysRevB.102.115135)&rbrack;
 
 
-
-### Orbifolds in solid state physics
-
-In the [[solid state physics]], the effective [[Brillouin torus]] of quasi-[[momenta]] of [[electrons]] in a [[crystal|crystalline material]] is generally an [[orbifold]], namely the [[quotient orbifold]] of [[Euclidean space]] (momentum space) by the corresponding [[crystallographic group]]:
-
-* [[Kiyonori Gomi]], [[Guo Chuan Thiang]]: *Crystallographic T-duality*, J. Geom. Phys **139** (2019) 50-77 &lbrack;[arXiv:1806.11385](https://arxiv.org/abs/1806.11385), [doi:10.1016/j.geomphys.2019.01.002](https://doi.org/10.1016/j.geomphys.2019.01.002)&rbrack;
-
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 &lbrack;[arXiv:2206.13563](https://arxiv.org/abs/2206.13563), [doi:10.1142/S0129055X23500010](https://doi.org/10.1142/S0129055X23500010)&rbrack;
+* [[Adrien Bouhon]], [[Robert-Jan Slager]], equation (3) in: *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* &lbrack;[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)&rbrack;
 
 
-\linebreak
-
-
-* $\mathcal{F}$ itself becomes an $\mathcal{F}$-category in the usual way.  Its tight morphisms are just the morphisms in the underlying ordinary category $\mathcal{F}$, while its loose morphisms are simply functors between the loose parts (the codomains of the full embeddings).
-
-## $\mathcal{F}$-functors and $\mathcal{F}$-transformations
-
-\begin{definition}
-An **$\mathcal{F}$-functor** $F:\mathbb{A} \to \mathbb{B}$ is a [[2-functor]] $F_\lambda:\mathcal{A}_\lambda \to \mathcal{B}_\lambda$ sends tight 1-cells to tight 1-cells, i.e. such that it co/restrcts to a 2-functor $\mathcal{A}_\tau \to \mathcal{B}_\tau$.
-\end{definition}
-
-\begin{definition}
-An **$\mathcal{F}$-natural transformation** $\alpha:F \to G$ is a [[2-natural transformation]] $F_\tau \to G_\tau$, i.e. a 2-natural transformation $F \to G$ whose components are all tight.
-\end{definition}
-
-## $\mathcal{F}$-weighted limits
-
-The general machinery of [[enriched category]] theory applied to $\mathcal{F}$ gives us a notion of [[weighted limit]].  Note first that an $\mathcal{F}$-enriched *diagram* in an $\mathcal{F}$-category is a diagram of morphisms in which some are required to be tight, and others are not (but could "accidentally" be tight).
-
-In general, a weighted limit of such a diagram in a (strict) $\mathcal{F}$-category is a weighted (strict) [[2-limit]] in its 2-category of loose morphisms, with the property that certain specified projections from the limit object are tight and "jointly detect tightness", in the sense that a morphism into the limit is tight if and only if its composites with all of the specified projections are tight.  Details and examples can be found in ([LS](#LS)).
-
-One of the most important things about $\mathcal{F}$-categories is that they allow us to define the classes of [[rigged limits]], which are the $\mathcal{F}$-weighted limits that are [[created limit|created]] by the forgetful functors from the various $\mathcal{F}$-categories of algebras and strict/pseudo/lax/colax morphisms over a 2-monad (or an $\mathcal{F}$-monad).
-
-### $\mathcal{F}$-weights
-
-Let $\mathbb{F}$ be $\mathcal{F}$ considered as self-enriched.
-In ([LS](#LS)) (where all that follows is taken from), it is shown that an $\mathcal{F}$-weight $\Phi:\mathbb{D} \to \mathbb{F}$ is given by the following data:
-
-1. [[2-functors]] $\Phi_\tau : \mathcal{D}_\tau \to \mathbf{Cat}$ and $\Phi_\lambda : \mathcal{D}_\lambda \to \mathbf{Cat}$,
-2. a [[2-natural transformation]] $\varphi : \Phi_\tau \to \Phi_\lambda J_{\mathbb{D}}$ whose components are full embeddings (i.e. [[injective-on-objects]], [[fully faithful]] functors)
-
-\begin{tikzcd}
-	{\mathcal{D}_\tau} \\
-	&& {\mathbf{Cat}} \\
-	{\mathcal{D}_\lambda}
-	\arrow[""{name=0, anchor=center, inner sep=0}, "{\Phi_\tau}", from=1-1, to=2-3]
-	\arrow["{J_{\mathbb{D}}}"', from=1-1, to=3-1]
-	\arrow[""{name=1, anchor=center, inner sep=0}, "{\Phi_\lambda}"', from=3-1, to=2-3]
-	\arrow["\phi"', shift right=4, shorten <=7pt, shorten >=7pt, Rightarrow, from=0, to=1]
-\end{tikzcd}
-
-Here $J_\mathbb{D}$ denotes the [[identity-on-objects]], [[faithful]] and [[locally fully faithful]] inclusion of the tight 2-category associated to $\mathbb{D}$ into its loose 2-category.
-
-Representable weights are easily constructed. Let $S:\mathbb{D} \to \mathbb{A}$ be an $\mathcal{F}$-diagram, i.e. an $\mathcal{F}$-functor.
-Any chosen $A \in \mathbb{A}$ induces an $\mathcal{F}$-weight on $\mathbb{D}$ given by
-
-\begin{tikzcd}
-	{\mathcal{D}_\tau} & {\mathcal{A}_\tau} \\
-	&&& {\mathbf{Cat}} \\
-	{\mathcal{D}_\lambda} & {\mathcal{A}_\lambda}
-	\arrow["{S_\tau}", from=1-1, to=1-2]
-	\arrow["{J_{\mathbb{D}}}"', from=1-1, to=3-1]
-	\arrow[""{name=0, anchor=center, inner sep=0}, "{\mathcal{A}_\tau(A,-)}", from=1-2, to=2-4]
-	\arrow["{J_{\mathbb{A}}}"{description}, from=1-2, to=3-2]
-	\arrow["{S_\lambda}"', from=3-1, to=3-2]
-	\arrow[""{name=1, anchor=center, inner sep=0}, "{\mathcal{A}_\lambda(A,-)}"', from=3-2, to=2-4]
-	\arrow["{j_\mathbb{A}}"', shift right=4, shorten <=4pt, shorten >=4pt, Rightarrow, from=0, to=1]
-\end{tikzcd}
-
-Now a $\Phi$-[[weighted limit]] for $S$, $\lim^\Phi S$, is characterized by the isomorphism
-$$\mathbb{A}(A, \lim^\Phi S) \cong [\mathbbf{D},\mathbb{F}](\Phi, \mathbb{A}(A,S))$$
-One can prove (by an easy characterization of the $\mathcal{F}$-category on the right) this amounts to three conditions:
-
-1. $\lim^\Phi S$ is a [[2-limit]] in the 2-category $\mathcal{A}_\lambda$,
-2. for any $w \in \Phi_\tau(D)$, the projection $p_D^w : \lim^\Phi S \to S(D)$ is tight,
-3. for any $h:A \to \{\Phi,S\}$, $h$ is tight as soon as for each $w \in \Phi_\tau(D)$, $h p_D^w$ is tight.
-
-The third condition is succinctly expressed by saying the family $\{p_D^w\}_{D \in \mathbb{D}, w \in \Phi_\tau(D)}$ **jointly detects tightness**.
 
 *****
 
