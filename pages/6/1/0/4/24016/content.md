@@ -10,6 +10,8 @@ Arguments that some effects in [[topological phases of matter]] are "unstable" o
 
 * [[Adrien Bouhon]], [[Tomáš Bzdušek]], [[Robert-Jan Slager]]: *Geometric approach to fragile topology beyond symmetry indicators*, Phys. Rev. B **102** (2020) 115135 &lbrack;[arXiv:2005.02044](https://arxiv.org/abs/2005.02044), [doi:10.1103/PhysRevB.102.115135](https://doi.org/10.1103/PhysRevB.102.115135)&rbrack;
 
+* Zory Davoyan, [[Wojciech J. Jankowski]], [[Adrien Bouhon]], [[Robert-Jan Slager]]: *Three-dimensional $\mathcal{P}\mathcal{T}$-symmetric topological phases with Pontryagin index* &lbrack;[arXiv:2308.15555](https://arxiv.org/abs/2308.15555), [doi:10.1103/PhysRevB.109.165125](https://doi.org/10.1103/PhysRevB.109.165125)&rbrack;
+
 
 On [[braid group statistics|anyonic braiding]] of nodal points in the [[Brillouin zone]] of [[semi-metals]] ("braiding in momentum space"):
 
@@ -32,7 +34,7 @@ Phys. Rev. B **105** (2022) L081117 &lbrack;[arXiv:2108.10330](https://arxiv.org
 
 * [[Robert-Jan Slager]], [[Adrien Bouhon]], [[Fatma Nur Ünal]], *Floquet multi-gap topology: Non-Abelian braiding and anomalous Dirac string phase* &lbrack;[arXiv:2208.12824](https://arxiv.org/abs/2208.12824)&rbrack;
 
-* Wojciech J. Jankowski, Mohammedreza Noormandipour, [[Adrien Bouhon]], [[Robert-Jan Slager]], *Disorder-induced topological quantum phase transitions in Euler semimetals* &lbrack;[arXiv:2306.13084](https://arxiv.org/abs/2306.13084)&rbrack;
+* [[Wojciech J. Jankowski]], Mohammedreza Noormandipour, [[Adrien Bouhon]], [[Robert-Jan Slager]]: *Disorder-induced topological quantum phase transitions in Euler semimetals*, Phys. Rev. B **110** (2024) 064202 \[<a href="https://arxiv.org/abs/2306.13084">arXiv:2306.13084</a>, <a href=" https://doi.org/10.1103/PhysRevB.110.064202">doi:10.1103/PhysRevB.110.064202</a>\]
 
 
 
