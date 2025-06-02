@@ -52,16 +52,16 @@ An **assembly** $X$ consists of a set ${|X|}$ and a function $[-]_X \colon {|X|}
 A **morphism** $X \to Y$ between assemblies is a function $f \colon {|X|} \to {|Y|}$ for which there exists $a \in A$ such that for all $x\in X$ and $b\in [x]_X$, $a\cdot b$ is defined and belongs to $[f(x)]_Y$.
 =--
 
-The categories of assemblies and partitioned assemblies are denoted $Ass_A$ and $PAss_A$ respectively.
+The categories of assemblies is denoted $Asm_A$ ([Maietti, Pasquali, & Rosolini 2019](#MPR19)) or $Ass_A$ ([Vermeeren 2009](#Vermeeren09)) and the category of partitioned assemblies is denoted $PAsm_A$ ([Frey 2014](#Frey14)) or $PAss_A$.
 
 +-- {: .num_prop} 
 ###### Proposition 
-$Ass_A$ and $PAss_A$ are finitary [[extensive category|lextensive]].  Moreover, $Ass_A$ is [[regular category|regular]] and [[locally cartesian closed category|locally cartesian closed]].
+$Asm_A$ and $PAsm_A$ are finitary [[extensive category|lextensive]].  Moreover, $Asm_A$ is [[regular category|regular]] and [[locally cartesian closed category|locally cartesian closed]].
 =-- 
 
 +-- {: .num_defn} 
 ###### Theorem
-$Ass_A$ is the [[reg/lex completion]] of $PAss_A$.  Therefore, [[ex/lex completion]] of $PAss_A$ coincides with the [[ex/reg completion]] of $Ass_A$.  This category is a [[topos]], called the **realizability topos** of $A$. 
+$Asm_A$ is the [[reg/lex completion]] of $PAsm_A$.  Therefore, [[ex/lex completion]] of $PAsm_A$ coincides with the [[ex/reg completion]] of $Asm_A$. This category is a [[topos]], called the **realizability topos** of $A$. 
 =-- 
 
 +-- {: .num_remark #pax}
@@ -71,7 +71,7 @@ A general result about the ex/lex completion $C_{ex/lex}$ of a left exact catego
 
 +-- {: .num_remark #ac}
 ###### Remark
-The fact that a realizability topos is an ex/lex completion depends on the [[axiom of choice]] for [[Set]], since it requires the partitioned assemblies to be projective objects therein.  In the absence of the axiom of choice, the projective objects in a realizability topos are the (isomorphs of) partitioned assemblies whose underlying set is [[projective object|projective]] in [[Set]].  Thus, if [[COSHEP]] holds in [[Set]], then a realizability topos is the ex/wlex completion of the category of such "projective partitioned assemblies" (wlex because this category may not have finite limits, only weak finite limits).  Without some choice principle, the realizability topos may not be an ex/wlex completion at all; but it is still an ex/reg completion of $Ass_A$.
+The fact that a realizability topos is an ex/lex completion depends on the [[axiom of choice]] for [[Set]], since it requires the partitioned assemblies to be projective objects therein.  In the absence of the axiom of choice, the projective objects in a realizability topos are the (isomorphs of) partitioned assemblies whose underlying set is [[projective object|projective]] in [[Set]].  Thus, if [[COSHEP]] holds in [[Set]], then a realizability topos is the ex/wlex completion of the category of such "projective partitioned assemblies" (wlex because this category may not have finite limits, only weak finite limits).  Without some choice principle, the realizability topos may not be an ex/wlex completion at all; but it is still an ex/reg completion of $Asm_A$.
 =--
 
 
@@ -107,7 +107,7 @@ A [[locally small category]] $\mathcal{E}$ is ([[equivalence of categories|equiv
 
 =--
 
-This is due to ([Frey 14](#Frey14))
+This is due to ([Frey 2014](#Frey14))
 
 
 ## Related concepts
@@ -122,6 +122,8 @@ This is due to ([Frey 14](#Frey14))
 * {#Vermeeren09} [[Stijn Vermeeren]], _Realizability Toposes_, 2009 ([pdf](http://stijnvermeeren.be/download/mathematics/essay.pdf))
 
 * Mat&#237;as Menni, Exact completions and toposes. Ph.D. Thesis, University of Edinburgh (2000). ([web](http://www.lfcs.inf.ed.ac.uk/reports/00/ECS-LFCS-00-424/)) 
+
+* {#MPR19} [[Maria Emilia Maietti]], [[Fabio Pasquali]], [[Giuseppe Rosolini]], *Elementary Quotient Completions, Church's Thesis, and Partioned Assemblies*, Logical Methods in Computer Science, Volume 15, Issue 2 (June 25, 2019). &lbrack;[doi:10.23638/LMCS-15(2:21)2019](https://doi.org/10.23638/LMCS-15%282%3A21%292019), [arXiv:1802.06400](https://arxiv.org/abs/1802.06400)&rbrack;
 
 A characterization of realizability toposes analogous to the [[Giraud axioms]] for [[Grothendieck toposes]] is given in 
 
