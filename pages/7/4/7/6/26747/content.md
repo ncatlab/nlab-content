@@ -13,15 +13,19 @@
 
 ## Idea
 
-Parametric dependent type theory is [[dependent type theory]] that can prove [[parametricity]] (i.e. [[parametric polymorphism]]) inside of the theory itself. 
+All [[dependent type theories]] satisfy a meta-theoretic version of [[parametricity]] (i.e. [[parametric polymorphism]]). 
 
-Parametric dependent type theories are distinguished by the kind of internal parametricity that they have: 
+**Parametric dependent type theory** is [[dependent type theory]] with an explicit notion of [[parametricity]] inside of the theory itself, in the same way that some dependent type theories have [[explicit substitution]]. 
 
-* Internal parametricity is a statement provable inside the theory itself and applies to all types and terms, but contradicts classical axioms such as the [[axiom of choice]] and [[excluded middle]]. 
+Parametric dependent type theories are distinguished by the kind of explicit parametricity that they have: 
 
-* Modal internal parametricity is a statement also provable inside the theory itself, but only applies to types and terms guarded by a [[modal operator]]. Unlike the usual internal parametricity, modal internal parametricity is consistent with classical axioms such as the [[axiom of choice]] and [[excluded middle]]. 
+* **External parametricity**, which applies to types and terms in the empty context. External parametricity has [[categorical semantics]] in any [[(infinity,1)-topos|$(\infty,1)$-topos]]. 
 
-There is also external parametricity, but it only applies to closed types and terms, and is a meta-theoretic statement about the type theory rather than something that is provable inside the theory itself. One can show that every [[polymorphic dependent type theory]] has external parametricity. 
+* **Modal parametricity**, which applies to types and terms in contexts guarded by a [[modal operator]]. Modal parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[semi-cubical objects]] in a base $(\infty,1)$-topos. 
+
+* **Internal parametricity**, which applies to types and terms in all contexts. Internal parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[cubical objects]] in a base $(\infty,1)$-topos. 
+
+External parametricity is fully consistent with all classical axioms such as the [[axiom of choice]] and [[excluded middle]]. Modal parametricity is only consistent with all classical axioms in the discrete mode, while internal parametricity contradicts many classical axioms such as the [[axiom of choice]] and [[excluded middle]].
 
 ## Related concepts
 
@@ -73,7 +77,7 @@ There is also external parametricity, but it only applies to closed types and te
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
-A proof assistant implementing an observational [[parametric type theory]] with both internal and external [[parametricity]] of variable [[arity]]:
+A proof assistant implementing an observational [[parametric type theory]] with both internal and external parametricity of variable [[arity]]:
 
 * [Narya](https://github.com/mikeshulman/narya)
 
@@ -83,6 +87,21 @@ A proof assistant implementing an observational [[parametric type theory]] with 
 [[!redirects parametric dependent type theory]]
 [[!redirects parametric dependent type theories]]
 
+[[!redirects explicit parametricity]]
+
+[[!redirects external parametricity]]
 [[!redirects internal parametricity]]
 [[!redirects modal parametricity]]
 [[!redirects modal internal parametricity]]
+
+[[!redirects explicit external parametricity]]
+[[!redirects explicit internal parametricity]]
+[[!redirects explicit modal parametricity]]
+[[!redirects explicit modal internal parametricity]]
+
+[[!redirects explicit parametric polymorphism]]
+
+[[!redirects external parametric polymorphism]]
+[[!redirects internal parametric polymorphism]]
+[[!redirects modal parametric polymorphism]]
+[[!redirects modal internal parametric polymorphism]]
