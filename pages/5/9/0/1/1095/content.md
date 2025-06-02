@@ -521,6 +521,10 @@ An overview is in
 [[!redirects (∞,1)-sheaf (∞,1)-toposes]]
 [[!redirects (∞,1)-sheaf (∞,1)-topoi]]
 
+[[!redirects (infinity,1)-sheaf (infinity,1)-topos]]
+[[!redirects (infinity,1)-sheaf (infinity,1)-toposes]]
+[[!redirects (infinity,1)-sheaf (infinity,1)-topoi]]
+
 [[!redirects ∞-stack (∞,1)-topos]]
 [[!redirects ∞-stack (∞,1)-toposes]]
 [[!redirects ∞-stack (∞,1)-topoi]]
@@ -543,5 +547,6 @@ An overview is in
 
 [[!redirects (∞,1)-sheaf ∞-topos]]
 [[!redirects (∞,1)-sheaf ∞-toposes]]
+
 
 
