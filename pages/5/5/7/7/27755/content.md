@@ -22,6 +22,19 @@ The *anomalous Hall effect* is like a [[Hall effect]] but in the absence of a (s
 
 Like the ordinary [[Hall effect]] is caused by the [[Lorentz force]] which is exerted on [[electrons]] moving in "real" space filled with a [[magnetic field|magnetic]] [[flux density]] $F$, so the anomalous Hall effect is caused analogously by an "[[anomalous velocity]]" contribution due to the [[Berry curvature]] $\Omega$ in momentum space.
 
+\begin{imagefromfile}
+    "file_name": "AnomalousVelocityAndLorentzForce.png",
+    "width": 560,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+
 Historically, the microscopic understanding of the anomalous Hall effect had been slow and was riddled by debates. In modern understanding it is primarily due to non-vanishing [[Berry curvature]] over the [[Brillouin torus]] of the [[crystal|crystalline]] material, which plays the role of [[magnetic field|magnetic]] [[flux density]] in "reciprocal" [[momentum]]-space (cf. [Sinitsyn 2008](#Sinitsyn08), [Nagaosa et al 2010](#NagaosaEtAl10)). 
 
 As such, the anomalous Hall effect is a "[[quantum system|quantum]]" effect on par with the [[quantum Hall effect]], and indeed the two combine in [[quantum anomalous Hall systems]].
