@@ -36,6 +36,10 @@ On the [[ordinary differential cohomology]] and [[differential K-theory]] of the
 
 * [[Daniel Grady]]: *On the differential K-theory of moduli stacks* &lbrack;[arXiv:2501.03108](https://arxiv.org/abs/2501.03108)&rbrack;
 
+Proof that [[supergravity C-field]] [[geometry of physics -- flux quantization|flux quantization]] in [[stable Cohomotopy]] (stable [[Hypothesis H]]) implies the desired divisibility by 6 of the [[D=11 supergravity]] [[action functional]]:
+
+* [[Daniel Grady]]: *Cohomotopy and flux quantization in M-theory* &lbrack;[arXiv:2505.24696](https://arxiv.org/abs/2505.24696)&rbrack;
+
 
 category: people
 
