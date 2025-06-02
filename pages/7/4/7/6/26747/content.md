@@ -19,13 +19,27 @@ All [[dependent type theories]] satisfy a meta-theoretic version of [[parametric
 
 Parametric dependent type theories are distinguished by the kind of explicit parametricity that they have: 
 
-* **External parametricity**, which applies to types and terms in the empty context. External parametricity has [[categorical semantics]] in any [[(infinity,1)-topos|$(\infty,1)$-topos]]. 
+* **External parametricity**, which applies to types and terms in the empty context. 
 
-* **Modal parametricity**, which applies to types and terms in contexts guarded by a [[modal operator]]. Modal parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[semi-cubical objects]] in a base $(\infty,1)$-topos. 
+* **Internal parametricity**, which applies to types and terms in all contexts. 
 
-* **Internal parametricity**, which applies to types and terms in all contexts. Internal parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[cubical objects]] in a base $(\infty,1)$-topos. 
+Explicit external parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[semi-cubical objects]] in a base $(\infty,1)$-topos, while internal parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[cubical objects]] in a base $(\infty,1)$-topos (see [Kolomatskaia & Shulman 2023](#KS23), [Narya Docs](#NaryaDocs)). 
 
-External parametricity is fully consistent with all classical axioms such as the [[axiom of choice]] and [[excluded middle]]. Modal parametricity is only consistent with all classical axioms in the discrete mode, while internal parametricity contradicts many classical axioms such as the [[axiom of choice]] and [[excluded middle]].
+In addition, the various forms of explicit parametricity have different relations to various classical axioms such as the [[axiom of choice]] and [[excluded middle]]. 
+
+* External parametricity is fully consistent with all classical axioms. 
+
+* Internal parametricity contradicts many classical axioms such as the [[axiom of choice]] and [[excluded middle]].  
+
+There are also versions of explicit parametricity called **modal parametricity**, which are [[modal type theories]] with a discrete mode and a non-discrete mode, where parametricity can only be applied in the non-discrete mode and where the discrete mode is consistent with all classical axioms: 
+
+* In external modal parametricity the parametricity in the non-discrete mode can only be applied to types and terms in contexts that are guarded by a context lock for the [[modal operator]] representing the discrete coreflection of a type. 
+
+* In internal modal parametricity the parametricity in the non-discrete mode can be applied to types and terms in all contexts. 
+
+These modal type theories attempt to formalize, in addition to the [[internal logic]] of a $(\infty,1)$-topos of cubical or semi-cubical objects, also the internal logic of the base $(\infty,1)$-topos and its [[adjoint functors]] with the [[(infinity,1)-sheaf (infinity,1)-topos|$(\infty,1)$-sheaf $(\infty,1)$-topos]]. 
+
+Examples of such modal parametric type theories include the [[displayed type theory]] by [Kolomatskaia & Shulman 2023](#KS23) with external modal parametricity and the [[cohesive type theory]] by [Aberlé 2024](#Aberle24) with internal modal parametricity. 
 
 ## Related concepts
 
@@ -77,6 +91,8 @@ External parametricity is fully consistent with all classical axioms such as the
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
+* {#NaryaDocs} *Parametric Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametric-observational-type-theory.html)) 
+
 A proof assistant implementing an observational [[parametric type theory]] with both internal and external parametricity of variable [[arity]]:
 
 * [Narya](https://github.com/mikeshulman/narya)
@@ -87,21 +103,41 @@ A proof assistant implementing an observational [[parametric type theory]] with 
 [[!redirects parametric dependent type theory]]
 [[!redirects parametric dependent type theories]]
 
+[[!redirects modal parametricity]]
+
+[[!redirects modal parametric type theory]]
+[[!redirects modal parametric type theories]]
+
+[[!redirects modal parametric dependent type theory]]
+[[!redirects modal parametric dependent type theories]]
+
+[[!redirects parametric modal type theory]]
+[[!redirects parametric modal type theories]]
+
+[[!redirects parametric modal dependent type theory]]
+[[!redirects parametric modal dependent type theories]]
+
 [[!redirects explicit parametricity]]
 
 [[!redirects external parametricity]]
 [[!redirects internal parametricity]]
-[[!redirects modal parametricity]]
+
+[[!redirects modal external parametricity]]
+[[!redirects external modal parametricity]]
 [[!redirects modal internal parametricity]]
+[[!redirects internal modal parametricity]]
 
 [[!redirects explicit external parametricity]]
 [[!redirects explicit internal parametricity]]
+
 [[!redirects explicit modal parametricity]]
+
+[[!redirects explicit modal external parametricity]]
+[[!redirects explicit external modal parametricity]]
 [[!redirects explicit modal internal parametricity]]
+[[!redirects explicit internal modal parametricity]]
 
 [[!redirects explicit parametric polymorphism]]
-
 [[!redirects external parametric polymorphism]]
 [[!redirects internal parametric polymorphism]]
 [[!redirects modal parametric polymorphism]]
-[[!redirects modal internal parametric polymorphism]]
