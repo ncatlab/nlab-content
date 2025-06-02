@@ -54,7 +54,10 @@ In the context of [[topological phases of matter]]:
 
 See also:
 
-* Wikipedia, *[Bloch's theorem](https://en.wikipedia.org/wiki/Bloch%27s_theorem)*
+* Wikipedia: *[Bloch's theorem](https://en.wikipedia.org/wiki/Bloch%27s_theorem)*
+
+* Wikipedia: *[Crystal momentum](https://en.wikipedia.org/wiki/Crystal_momentum)* 
+
 
 Variant for [[hyperbolic spaces]]:
 
@@ -84,4 +87,11 @@ Variant for [[hyperbolic spaces]]:
 
 [[!redirects Bloch wave]]
 [[!redirects Bloch waves]]
+
+[[!redirects crystal momentum]]
+[[!redirects crystal momenta]]
+
+[[!redirects quasi-momentum]]
+[[!redirects quasi-momenta]]
+
 
