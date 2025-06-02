@@ -36,6 +36,9 @@ Phys. Rev. B **105** (2022) L081117 &lbrack;[arXiv:2108.10330](https://arxiv.org
 
 * [[Wojciech J. Jankowski]], Mohammedreza Noormandipour, [[Adrien Bouhon]], [[Robert-Jan Slager]]: *Disorder-induced topological quantum phase transitions in Euler semimetals*, Phys. Rev. B **110** (2024) 064202 \[<a href="https://arxiv.org/abs/2306.13084">arXiv:2306.13084</a>, <a href=" https://doi.org/10.1103/PhysRevB.110.064202">doi:10.1103/PhysRevB.110.064202</a>\]
 
+Exposition:
+
+* [[Adrien Bouhon]]: *Non-Abelian and Euler multi-gap topologies in crystalline materials*, [talk at](CQTS#BouhonMay2023): *[Quantum Information and Quantum Matter](CQTS#QuantumConference2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023) &lbrack;[[Bouhon-MultiGapTopolgies.pdf:file]]&rbrack;
 
 
 
