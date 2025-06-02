@@ -21,7 +21,7 @@ Given a (typically [[algebraically closed field|algebraically closed]]) field $k
 
 ## Linear algebraic groups and abelian varieties
 
-There are two important classes of algebraic groups whose intersection is trivial (the identity group): Linear algebraic groups and abelian varieties.
+There are two important classes of algebraic groups whose intersection is trivial (the identity group): Linear algebraic groups and [[abelian variety|abelian varieties]].
 
 Any algebraic group contains a unique normal linear algebraic subgroup $H$ such that their quotient $G/H$ is an abelian variety.
 
