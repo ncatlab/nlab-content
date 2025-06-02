@@ -78,6 +78,9 @@ Review:
 
 * [[Hisham Sati]], [[Sachin Valera]]: *Topological Quantum Computing*, [[Encyclopedia of Mathematical Physics 2nd ed]] **4** (2025) 325-345 \[<a href="https://doi.org/10.1016/B978-0-323-95703-8.00262-7">doi:10.1016/B978-0-323-95703-8.00262-7</a>\]
 
+* [[Jason Alicea]]: *What does it mean to create a topological qubit?*, Quantum Frontiers blog (March 2025) \[<a href="https://quantumfrontiers.com/2025/03/05/what-does-it-mean-to-create-a-topological-qubit/">webpage</a>\]
+
+
 {#FocusOnAbelianAnyons} Focus on *[[abelian anyons]]*:
 
 * [[Jiannis K. Pachos]], *Quantum computation with abelian anyons on the honeycomb lattice*, International Journal of Quantum Information **4** 6 (2006) 947-954 \[<a href="https://doi.org/10.1142/S0219749906002328">doi:10.1142/S0219749906002328</a>, [arXiv:quant-ph/0511273](https://arxiv.org/abs/quant-ph/0511273)\]
