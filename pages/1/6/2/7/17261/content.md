@@ -217,4 +217,4 @@ Presumeably named after [[Leopold Kronecker]].
 
 * {#Kochman96} [[Stanley Kochman]], (4.2.1) and prop. 4.2.10 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* {#Schwede12} [[Stefan Schwede]], chapter II, section 6 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+* {#Schwede12} [[Stefan Schwede]], chapter II, section 6 (Construction 6.13) of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
