@@ -49,7 +49,7 @@ such that for every commuting square
    {}^{\mathllap{y}} \downarrow && \downarrow^{\mathrlap{f}}\\
    B & \overset{g}{\to} & C}\]
 
-there exists a morphism $h: \colon X\to P$, not necessarily unique, such that $x = h p$ and $y = h q$;
+there exists a morphism $h \colon X\to P$, not necessarily unique, such that $x = h p$ and $y = h q$;
 
 If the actual [[pullback]] $A \underset{C}{\times}B$ exists, then this condition means equivalently that the universal morphism 
 
