@@ -149,6 +149,8 @@ If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines
 
 ## References
 
+### General
+
 Textbook accounts:
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
@@ -168,6 +170,9 @@ Lecture notes:
 See also:
 
 * [[Neil Strickland]], section 5 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+
+
+[[!include unstable classification of topological phases -- references]]
 
 
 category: geometry, algebra
