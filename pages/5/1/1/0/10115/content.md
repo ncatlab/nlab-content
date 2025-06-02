@@ -21,11 +21,24 @@
 
 The 2-[[sphere]] with its canonical structure of a [[complex manifold]] is called the _[[Riemann sphere]]_.
 
-As such this is [[complex projective space]] $\mathbb{C}P^1$.
+As such this is: 
+
+* the [[complex numbers|complex]] 1-[[dimension of a manifold|dimensional]] [[complex projective space]] $\mathbb{C}P^1$, hence the *complex [[projective line]]*,
+
+* the complex [[Grassmannian]] of 1-dimensional complex [[linear subspaces]] of the [[complex plane]], hence the double [[coset space]] of the [[unitary group]] $\mathrm{U}(2)$ by [[U(1)]], hence the [[quotient space]] by its [[maximal torus]] $\mathrm{U}(1) \times \mathrm{U}(1)$:
+
+  $$
+    \mathbb{C}P^1 \,\simeq\, Gr_1(\mathbb{C}^2) \,\simeq\, \mathrm{U}(2)/\big(\mathrm{U}(1) \times \mathrm{U}(1)\big)
+    \,.
+  $$
+
+  > (NB: There is also the famous [[coset space]] realization of the [[2-sphere]] as $S^2 \,\simeq\, SU(2)/\mathrm{U}(1)$, witnessing the [[complex Hopf fibration]], but this quotient presentation does not determine the [[complex structure]] that makes the 2-sphere into the Riemann sphere.)
+
+
 
 ## Properties
 
-The [[biholomorphisms]], i.e. the bijective [[conformal transformations]] from the Riemann sphere to itself are the [[Möbius transformations]].
+* The [[biholomorphisms]], i.e. the bijective [[conformal transformations]] from the Riemann sphere to itself are the [[Möbius transformations]].
 
 ## Related concepts
 
