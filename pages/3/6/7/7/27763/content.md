@@ -14,10 +14,24 @@
 
 ## Idea
 
-In [[crystal|crystalline]] materials whose [[Berry curvature]] $\Omega$ of the [[valence band]] is non-vanishing over the [[Brillouin torus]] of [[crystal momentum|crystal]] [[momenta]], the [[semiclassical approximation|semiclassical]] [[equation of motion]] for movement of [[electrons]] [[quantum state|states]] in momentum space contains an extra "anomalous" term proportional to $\Omega$ which is a momentum-space analogue of what for electrons moving through position space in the presence of [[magnetic field]] [[flux density]] $F$
+In [[crystal|crystalline]] materials whose [[Berry curvature]] $\Omega$ of the [[valence band]] is non-vanishing over the [[Brillouin torus]] of [[crystal momentum|crystal]] [[momenta]], the [[semiclassical approximation|semiclassical]] [[equation of motion]] for movement of [[electron]] [[quantum state|states]] in momentum space contains an extra "anomalous" term proportional to $\Omega$. This is a momentum-space analogue of what for electrons moving through position space in the presence of [[magnetic field]] [[flux density]] $F$
 is the *[[Lorentz force]]*.
 
-Accordingly, like the [[Lorentz force]] in the presence of an ambient [[magnetic field]] (the latter being the [[curvature 2-form|curvature]] of the [[electromagnetism|electromagnetic]] [[gauge potential]]) is the cause of the [[Hall effect]], so this *anomalous velocity* induced instead by [[Berry curvature]] in momentum space is the cause of the *[[anomalous Hall effect]]*.
+Accordingly, like the [[Lorentz force]] in the presence of an ambient [[magnetic field]] (the latter being the [[curvature 2-form|curvature]] of the [[electromagnetism|electromagnetic]] [[gauge potential]]) is the cause of the [[Hall effect]], so this *anomalous velocity*, induced instead by [[Berry curvature]] in momentum space, is the cause of the *[[anomalous Hall effect]]*.
+
+\begin{imagefromfile}
+    "file_name": "AnomalousVelocityAndLorentzForce.png",
+    "width": 560,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+
 
 
 ## References
