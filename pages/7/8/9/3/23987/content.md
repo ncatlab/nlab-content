@@ -14,12 +14,12 @@ CQTS is concerned with fundamental questions of [[quantum systems]] relevant for
 <img src="/nlab/files/TwoKindsOfQuantumTechnology.png" width="420" alt="the two kinds of quantum technologies">
 </div>
 
-To this end, the theory heart of the center develops understanding of otherwise elusive [[non-perturbative field theory|strongly cloupled/correlated]] [[condensed matter]] (such as [[fractional quantum Hall systems]]) via "[[geometric engineering of quantum field theories|geometric engineering]] on [[M5-branes|branes]]" &lbrack;[[schreiber:Engineering of Anyons on M5-Probes|SS25a]]&rbrack;, alongside a compatible development of [[schreiber:QS|topology-aware]] [[quantum programming languages]] &lbrack;[[schreiber:Quantum Language via Linear Homotopy Types|SS25b]]&rbrack; based on insights from [[stable homotopy theory|stable]] [[homotopy theory]] -- an approach informed by [[high energy physics]] and [[algebraic topology]]. At the same time, the center's *Quantum Lab*s develop [[spin resonance qbit|spin-based]] [cold atom](trapped-ion+quantum+computing#ReferencesTrappedNeutralAtoms) platforms for [[quantum sensing]] &lbrack;[Eq22](spin+resonance+qbit#EqubalNov22)&rbrack; and related [[quantum technologies]] (such as [[quantum key distribution]]) that do not require further stabilization and hence are near-term application ready.
+To this end, the theory heart of the center develops understanding of otherwise elusive [[non-perturbative field theory|strongly cloupled/correlated]] [[condensed matter]] (such as [[fractional quantum Hall systems]]) via "[[geometric engineering of quantum field theories|geometric engineering]] on [[M5-branes|branes]]" &lbrack;[[schreiber:Engineering of Anyons on M5-Probes|SS25a]]&rbrack;, alongside a compatible development of [[schreiber:QS|topology-aware]] [[quantum programming languages]] &lbrack;[[schreiber:Quantum Language via Linear Homotopy Types|SS25b]], [[schreiber:FQH Anyons|SS25c]]&rbrack; based on insights from [[stable homotopy theory|stable]] [[homotopy theory]] -- an approach informed by [[high energy physics]] and [[algebraic topology]]. At the same time, the center's *Quantum Lab*s develop [[spin resonance qbit|spin-based]] [cold atom](trapped-ion+quantum+computing#ReferencesTrappedNeutralAtoms) platforms for [[quantum sensing]] &lbrack;[Eq22](spin+resonance+qbit#EqubalNov22)&rbrack; and related [[quantum technologies]] (such as [[quantum key distribution]]) that do not require further stabilization and hence are near-term application ready.
 
 
 \linebreak
 
-The following lists the center's public activities, notably local events and local weekly seminars regional and international events, with further materials (slides, references, videos, etc.) provided where available. 
+The following lists the center's public activities, notably local events and local weekly seminars, international and regional events, with further materials (slides, references, videos) provided where available. 
 
 \linebreak
 
@@ -662,11 +662,11 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
 {#QuantumConference2023} 22 - 26 May 2023 
 
-  **Quantum Information and Quantum Matter**
+**Quantum Information and Quantum Matter**
 
-  > on [[quantum information]], [[quantum material|quantum matter]]
+on [[quantum information]], [[quantum material|quantum matter]]
 
-  [webpage](https://nyuad.nyu.edu/en/events/2023/may/quantum-information-quantum-matter.html)
+[nyuad.nyu.edu/en/events/2023/may/quantum-information-quantum-matter.html](https://nyuad.nyu.edu/en/events/2023/may/quantum-information-quantum-matter.html)
 
 \begin{imagefromfile}
     "file_name": "CQTS-QuantumConference-2023b.png",
@@ -712,7 +712,9 @@ $\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\
 
   **Non-abelian and Euler multi-gap topologies in crystalline materials**
 
-  on [braiding of band nodes in momentum space](braid+group+statistics#ReferencesAnyonicBraidingInMomentumSpace)
+  slides: [[Bouhon-MultiGapTopolgies.pdf:file]]
+
+  > on [braiding of band nodes in momentum space](braid+group+statistics#ReferencesAnyonicBraidingInMomentumSpace)
 
 \linebreak
 
@@ -3645,6 +3647,7 @@ Stone-von Neumann**
   **A (gentle) introduction to logarithmic conformal field theory**
 
   > [[conformal field theory|Conformal field theory]] is an integral part of modern [[mathematical physics]] with applications to [[statistical physics]], [[string theory]] and pure [[mathematics]].  Textbooks teach us that such theories are built from [[chiral algebras]] (also called [[vertex operator algebras]]) with nice ([[semisimple category|semisimple]]) [[representation theories]].  But, what happens when the algebra has non-semisimple representations?  This is the defining feature of [[logarithmic conformal field theory]]...
+
 
 \linebreak
 
