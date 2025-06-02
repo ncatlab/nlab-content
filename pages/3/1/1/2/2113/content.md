@@ -51,6 +51,8 @@ More generally, the __generalized flag variety__ is the complex projective varie
 
 ## References
 
+### General
+
 * D. Monk, _The geometry of flag manifolds_, Proceedings of the London Mathematical Society 1959 s3-9(2):253--286; [doi:10.1112/plms/s3-9.2.253](http://dx.doi.org/10.1112/plms/s3-9.2.253)
 
 * Wikipedia, _[Generalized flag variety](http://en.wikipedia.org/wiki/Generalized_flag_variety)_
@@ -69,6 +71,10 @@ On flag varieties of [[loop groups]]:
 On [[flag manifold sigma-models]]:
 
 * [[Ian Affleck]], [[Dmitri Bykov]], [[Kyle Wamer]], *Flag manifold sigma models: spin chains and integrable theories*,  Phys. Rept. **953** (2022) 1-93 &lbrack;[arXiv:2101.11638](https://arxiv.org/abs/2101.11638), [doi:10.1016/j.physrep.2021.09.004](https://doi.org/10.1016/j.physrep.2021.09.004)&rbrack;
+
+
+
+[[!include unstable classification of topological phases -- references]]
 
 
 
