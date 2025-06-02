@@ -18,6 +18,10 @@ On the [[Ryu-Takayanagi formula]] for [[holographic entanglement entropy]]:
 * {#NishiokaRyuTakayanagi09} Tatsuma Nishioka, [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Entanglement Entropy: An Overview_, J.Phys.A42:504008,2009 ([arXiv:0905.0932](https://arxiv.org/abs/0905.0932))
 
 
+Precursor discussion to the [[K-theory classification of topological phases of matter]]:
+
+* [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]]: *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) &lbrack;[doi:10.1103/PhysRevB.78.195125](https://doi.org/10.1103/PhysRevB.78.195125), [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)&rbrack;
+
 
 On [[Chern-Simons theories]] arising from the [[higher WZ term]] on [[super p-brane]] [[worldvolumes]] (notably on [[D2-branes]]):
 
