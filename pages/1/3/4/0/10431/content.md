@@ -71,7 +71,6 @@ Reviews:
 
 * [[M. Zahid Hasan]], [[Charles Kane]], *Colloquium: Topological insulators*, Rev. Mod. Phys. **82** (2010) 3045 &lbrack;[doi:10.1103/RevModPhys.82.3045](https://doi.org/10.1103/RevModPhys.82.3045)&rbrack;
 
-
 * [[Joel E. Moore]], *The birth of topological insulators*, Nature volume 464, pages 194–198 (2010) ([doi:10.1038/nature08916](https://doi.org/10.1038/nature08916))
 
 * [[Xiao-Liang Qi]], [[Shou Cheng Zhang]], *Topological insulators and superconductors*, Rev. Mod. Phys. **83** (2011) 1057-1110 &lbrack;[arXiv:1008.2026](https://arxiv.org/abs/1008.2026), [doi:10.1103/RevModPhys.83.1057](https://doi.org/10.1103/RevModPhys.83.1057)&rbrack;
@@ -87,6 +86,21 @@ Reviews:
   Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) &lbrack;[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)&rbrack;
 
 * Ben Webster et al. *2024 roadmap on 2D topological insulators*,  Journal of Physics: Materials **7** 2 (2024) 022501 &lbrack;[doi:10.1088/2515-7639/ad2083](https://iopscience.iop.org/article/10.1088/2515-7639/ad2083)&rbrack;
+
+Monographs:
+
+* Shun-Qing Shen, *Topological Insulators*, Springer (2012) &lbrack;[doi:10.1007/978-3-642-32858-9](https://link.springer.com/book/10.1007/978-3-642-32858-9)&rbrack;
+
+* [[B. Andrei Bernevig]] with [[Taylor L. Hughes]]: *Topological Insulators and Topological Superconductors*, Princeton University Press (2013) &lbrack;[ISBN:9780691151755](https://press.princeton.edu/books/hardcover/9780691151755/topological-insulators-and-topological-superconductors), [jstor:j.ctt19cc2gc](https://www.jstor.org/stable/j.ctt19cc2gc)&rbrack;
+
+
+* Panagiotis Kotetes: *Topological Insulators*, IOP Science (2019) &lbrack;[ISBN:978-1-68174-517-6](https://iopscience.iop.org/book/978-1-68174-517-6)&rbrack;
+
+
+See also:
+
+* Wikipedia, _[Topological insulator](http://en.wikipedia.org/wiki/Topological_insulator)_
+
 
 Via [[effective field theory]]:
 
@@ -105,16 +119,6 @@ Via [[coarse topology]]:
 * [[Matthias Ludewig]], *Coarse geometry and its applications in solid state physics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.06384](https://arxiv.org/abs/2308.06384)&rbrack;
 
 
-
-Monographs:
-
-* Shun-Qing Shen, *Topological Insulators*, Springer 2012 ([doi:10.1007/978-3-642-32858-9](https://link.springer.com/book/10.1007/978-3-642-32858-9))
-
-* Panagiotis Kotetes, *Topological Insulators*, IOP Science 2019 ([ISBN:978-1-68174-517-6](https://iopscience.iop.org/book/978-1-68174-517-6))
-
-See also:
-
-* Wikipedia, _[Topological insulator](http://en.wikipedia.org/wiki/Topological_insulator)_
 
 
 Review in the more general context of [[topological phases of matter]]
@@ -144,7 +148,7 @@ Interacting topological insulators:
 
 The topological insulator in 2D exhibiting a [[quantum spin Hall effect]] has been first proposed in
 
-* B. Andrei Bernevig, Taylor L. Hughes, Shou-Cheng Zhang, _Quantum spin Hall effect and topological phase transition in HgTe quantum wells_, Science __314__, n. 5806, pp. 1757-1761, Dec 2006 [doi](http://dx.doi.org/10.1126/science.1133734)
+* [[B. Andrei Bernevig]], [[Taylor L. Hughes]], [[Shou-Cheng Zhang]]: _Quantum spin Hall effect and topological phase transition in HgTe quantum wells_, Science __314__ 5806 (2006) 1757-1761 &lbrack;[doi:10.1126/science.1133734)](http://dx.doi.org/10.1126/science.1133734)&rbrack;
 
 * Y. L. Chen et al. _Experimental Realization of a Three-Dimensional Topological Insulator, $Bi_2 Te_3$_, Science __325__, no. 5937 pp. 178-181, July 2009, [doi](http://dx.doi.org/10.1126/science.1173034)
 
