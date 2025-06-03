@@ -34,7 +34,7 @@ The 2-adjunction is said to be **lax-idempotent** if one (hence all) of the foll
 
    In comonad notation: the induced equality $1_C = \epsilon C . \delta$ is the unit of an adjunction $\delta \dashv \epsilon C$.
 
-4. The induced 2-monad $M = G F$ is [[lax-idempotent 2-monad|lax-idempotent]], meaning that every strict Eilenberg-Moore algebra $(A, \alpha)$ has the property that the identity $1_A = \alpha . \eta_A$ is the unit of an adjunction $\alpha \dashv \eta_A$.
+4. The induced 2-monad $M = G F$ is [[lax-idempotent 2-monad|lax-idempotent]], meaning that every strict Eilenberg-Moore algebra $(A, \alpha)$ has the property that the identity $\alpha . \eta_A=1_A$ is the counit of an adjunction $\alpha \dashv \eta_A$.
 
 5. There is a modification $w : G F \eta \to \eta G F$ such that $w . \eta = 1$ and $(G\epsilon F) . w = 1$.
 
@@ -56,7 +56,7 @@ And the duals (which we will refer to below using a prime, i.e. 1'-7'):
 
    In monad notation: the induced equality $\mu . \eta M = 1_M$ is the counit of an adjunction $\mu \dashv \eta M$.
 
-4. The induced 2-comonad $F G$ is colax-idempotent, meaning that every strict Eilenberg-Moore coalgebra $(Z, \zeta)$ has the property that the identity $\epsilon_Z . \zeta = 1_Z$ is the counit of an adjunction $\zeta \dashv \epsilon_Z$.
+4. The induced 2-comonad $F G$ is colax-idempotent, meaning that every strict Eilenberg-Moore coalgebra $(Z, \zeta)$ has the property that the identity $1_Z = \epsilon_Z . \zeta$ is the unit of an adjunction $\zeta \dashv \epsilon_Z$.
 
 5. There is a modification $v : \epsilon F G \to F G \epsilon$ such that $\epsilon . v = 1$ and $v . (F\eta G) = 1$.
 
