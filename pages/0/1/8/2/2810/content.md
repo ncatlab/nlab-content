@@ -127,14 +127,14 @@ Let $\mathcal{X}$ be an [[(∞,1)-sheaf]]  [[(∞,1)-topos]]
 and $X \colon Assoc \to \mathcal{X}$ be a monoid object in $\mathcal{X}$.  Say that $X$ is _grouplike_ if the composite
 
 $$
-  \Delta^{op} \to Ass \to \mathcal{X}
+  \Delta^{op} \to Assoc \to \mathcal{X}
 $$
 
 (see 1.1.13 of [[Commutative Algebra]])
 
 is a [[groupoid object in an (infinity,1)-category|groupoid object]] in $\mathcal{X}$.
 
-Say an $\mathbb{E}[1]$-algebra object is grouplike if it is grouplike as an $Ass$-monoid. Say that an $\mathbb{E}[k]$-algebra object in $\mathcal{X}$ is grouplike if the restriction along $\mathbb{E}[1] \hookrightarrow \mathbb{E}[k]$ is.
+Say an $\mathbb{E}[1]$-algebra object is grouplike if it is grouplike as an $Assoc$-monoid. Say that an $\mathbb{E}[k]$-algebra object in $\mathcal{X}$ is grouplike if the restriction along $\mathbb{E}[1] \hookrightarrow \mathbb{E}[k]$ is.
 Write 
 
 $$
