@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include (infinity,1)-topos - contents]]
 =--
+#### $(\infty,2)$-Topos theory
++--{: .hide}
+[[!include (infinity,2)-topos theory - contents]]
+=--
 =--
 =--
 
