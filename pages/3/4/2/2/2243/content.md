@@ -25,7 +25,7 @@
 
 * [[obstruction]]
 
-### Special and general types ###
+**Special and general types**
 
 * [[cochain cohomology]]
 
@@ -99,14 +99,15 @@
 
 * [[Gerstenhaber-Schack cohomology|bialgebra cohomology]]
 
-### Special notions
+
+**Special notions**
 
 * [[Čech cohomology]]
 
 * [[hypercohomology]]
 
 
-### Variants ###
+**Variants**
 
 * [[equivariant cohomology]]
 
@@ -144,14 +145,15 @@
 
 * [[relative cohomology]]
 
-### Extra structure
+
+**Extra structure**
 
 * [[Hodge structure]]
 
 * [[orientation]], [[orientation in generalized cohomology|in generalized cohomology]]
 
 
-### Operations ###
+**Operations**
 
 * [[cohomology operations]]
 
@@ -163,7 +165,8 @@
 
 * [[cohomology localization]]
 
-### Theorems
+
+**Theorems**
 
 * [[universal coefficient theorem]]
 
@@ -181,7 +184,6 @@
 
 * [[Eckmann-Hilton duality|Eckmann-Hilton-Fuks duality]]
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/cohomology+-+contents)</div>
 
 
 
