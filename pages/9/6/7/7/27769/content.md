@@ -7,20 +7,22 @@ Arguments that some effects in [[topological phases of matter]] are "unstable" o
 
 Influential precursor discussion:
 
-* [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]]: *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) &lbrack;[doi:10.1103/PhysRevB.78.195125](https://doi.org/10.1103/PhysRevB.78.195125), [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)&rbrack;
+* [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]]: *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) \[<a href="https://doi.org/10.1103/PhysRevB.78.195125">doi:10.1103/PhysRevB.78.195125</a>, [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)\]
 
-More explicit highlighting:
+More explicit highlighting of the role of the unstable case (and coinage of the term "fragile" for "unstable"):
 
-* [[Adrien Bouhon]], [[Tomáš Bzdušek]], [[Robert-Jan Slager]]: *Geometric approach to fragile topology beyond symmetry indicators*, Phys. Rev. B **102** (2020) 115135 &lbrack;[arXiv:2005.02044](https://arxiv.org/abs/2005.02044), [doi:10.1103/PhysRevB.102.115135](https://doi.org/10.1103/PhysRevB.102.115135)&rbrack;
+* Hoi Chun Po, Haruki Watanabe, [[Ashvin Vishwanath]]: *Fragile Topology and Wannier Obstructions*, Phys. Rev. Lett. **121** (2018) 126402 \[<a href="https://doi.org/10.1103/PhysRevLett.121.126402">doi:10.1103/PhysRevLett.121.126402</a>\]
+
+* [[Adrien Bouhon]], [[Tomáš Bzdušek]], [[Robert-Jan Slager]]: *Geometric approach to fragile topology beyond symmetry indicators*, Phys. Rev. B **102** (2020) 115135 \[<a href="https://doi.org/10.1103/PhysRevB.102.115135">doi:10.1103/PhysRevB.102.115135</a>, [arXiv:2005.02044](https://arxiv.org/abs/2005.02044)\] 
 
 Applications:
 
-* [[Adrien Bouhon]], [[Robert-Jan Slager]], around equation (3) in: *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* &lbrack;[arXiv:2203.16741](https://arxiv.org/abs/2203.16741)&rbrack;
+* [[Adrien Bouhon]], [[Robert-Jan Slager]], around equation (3) in: *Multi-gap topological conversion of Euler class via band-node braiding: minimal models, PT-linked nodal rings, and chiral heirs* \[<a href="https://arxiv.org/abs/2203.16741">arXiv:2203.16741</a>\]
 
-* Zory Davoyan, [[Wojciech J. Jankowski]], [[Adrien Bouhon]], [[Robert-Jan Slager]], section II.A in: *Three-dimensional $\mathcal{P}\mathcal{T}$-symmetric topological phases with Pontryagin index* &lbrack;[arXiv:2308.15555](https://arxiv.org/abs/2308.15555), [doi:10.1103/PhysRevB.109.165125](https://doi.org/10.1103/PhysRevB.109.165125)&rbrack;
+* Zory Davoyan, [[Wojciech J. Jankowski]], [[Adrien Bouhon]], [[Robert-Jan Slager]], section II.A in: *Three-dimensional $\mathcal{P}\mathcal{T}$-symmetric topological phases with Pontryagin index* \[<a href="https://doi.org/10.1103/PhysRevB.109.165125">doi:10.1103/PhysRevB.109.165125</a> [arXiv:2308.15555](https://arxiv.org/abs/2308.15555)\]
 
 Expositions with an eye towards non-abelian [braiding of band nodes in momentum space](braid+group+statistics#ReferencesAnyonicBraidingInMomentumSpace):
 
-* Gunnar F. Lange: *Multi-gap topology & non-abelian braiding in $\mathbf{k}$-space*, talk at University of Oslo (Feb 2023) &lbrack;[[Lange-MultiGapTopology.pdf:file]]&rbrack;
+* Gunnar F. Lange: *Multi-gap topology & non-abelian braiding in $\mathbf{k}$-space*, talk at University of Oslo (Feb 2023) $[$[[Lange-MultiGapTopology.pdf:file]]\]
 
-* [[Adrien Bouhon]]: *Non-Abelian and Euler multi-gap topologies in crystalline materials*, [talk at](CQTS#BouhonMay2023): *[Quantum Information and Quantum Matter](CQTS#QuantumConference2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023) &lbrack;[[Bouhon-MultiGapTopolgies.pdf:file]]&rbrack;
+* [[Adrien Bouhon]]: *Non-Abelian and Euler multi-gap topologies in crystalline materials*, [talk at](CQTS#BouhonMay2023): *[Quantum Information and Quantum Matter](CQTS#QuantumConference2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023) $[$[[Bouhon-MultiGapTopolgies.pdf:file]]\]
