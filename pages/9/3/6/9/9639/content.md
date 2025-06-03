@@ -853,6 +853,13 @@ On the $\nu = 5/2$ FQH state:
 
 * [[Jainendra K. Jain]]: *The $5/2$ enigma in a spin?*, Physics **3** (2010) 71 &lbrack;[doi:10.1103/Physics.3.71](http://link.aps.org/doi/10.1103/Physics.3.71), [pdf](https://physics.aps.org/articles/pdf/10.1103/Physics.3.71)&rbrack;
 
+* Michael R Peterson: *The fractional quantum Hall effect at filling factor $5/2$: numerically searching for non-abelian anyons*, J. Phys.: Conf. Ser. **402** (2012) 012021 &lbrack;[doi:10.1088/1742-6596/402/1/012021](https://iopscience.iop.org/article/10.1088/1742-6596/402/1/012021)&rbrack;
+
+* R L Willett: *The quantum Hall effect at $5/2$ filling factor*, Rep. Prog. Phys. **76** (2013) 076501 &lbrack;[doi:10.1088/0034-4885/76/7/076501](https://iopscience.iop.org/article/10.1088/0034-4885/76/7/076501)&rbrack;
+
+
+* Ken K. W. Ma, Michael R. Peterson, V. W. Scarola, Kun Yang: *Fractional quantum Hall effect at the filling factor $\nu = 5/2$*, Encyclopedia of Condensed Matter 2nd ed. **1** (2024) 324-365 &lbrack;[arXiv:2208.07908](https://arxiv.org/abs/2208.07908), [doi:10.1016/B978-0-323-90800-9.00135-9](https://doi.org/10.1016/B978-0-323-90800-9.00135-9)&rbrack;
+
 
 Observations of the $\nu = 1/4$ FQH state:
 
