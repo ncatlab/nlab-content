@@ -55,8 +55,6 @@ The **category of $A$-valued assemblies** is the [[category]] whose objects are 
 
 The category of $A$-valued assemblies is denoted $\mathrm{Asm}(A)$ ([Maietti, Pasquali, & Rosolini 2019](#MPR19), [Awodey & Emmenegger 2025](#AE25)) or $\mathrm{Ass}(A)$ ([Vermeeren 2009](#Vermeeren09)). The category of partitioned $A$-valued assemblies is denoted $\mathrm{PAsm}(A)$ ([Frey 2014](#Frey14)) or $\mathbb{P}$ ([Awodey & Emmenegger 2025](#AE25)) or $\mathrm{PAss}(A)$.
 
-**Note:** *Due to confusion with the English language obscenity, the nLab now discourages the usage of the term "Ass" and "PAss" on the nLab itself to refer to the category of assemblies and partitioned assemblies respectively, instead preferring the alternate terms listed. If you encounter uses of this sort elsewhere on the nLab, please replace them if possible.* 
-
 \begin{theorem}
 $\mathrm{Asm}(A)$ and $\mathrm{PAsm}(A)$ are finitary [[extensive category|lextensive]].  Moreover, $\mathrm{Asm}(A)$ is [[regular category|regular]] and [[locally cartesian closed category|locally cartesian closed]].
 \end{theorem}
