@@ -124,11 +124,16 @@ A brief indication of some ideas of [[Yan Soibelman]] and [[Maxim Kontsevich]] o
 
 Further development of this and application to the study of the [[large volume limit]] of [[superstring]] [[vacua]] is in
 
-* {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ ([pdf](http://www.math.ksu.edu/~soibel/nc-riem-3.pdf), [pdf](https://ncatlab.org/schreiber/files/SoibelmanCFTandRicciCurvature.pdf)), in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001) 
+* {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ ([pdf](http://www.math.ksu.edu/~soibel/nc-riem-3.pdf), [pdf](https://ncatlab.org/schreiber/files/SoibelmanCFTandRicciCurvature.pdf)), in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001) 
 
 based on 
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], section 2 of _Homological mirror symmetry and torus fibrations_, Proceedings of KIAS Annual International Conference on Symplectic Geometry and Mirror Symmetry ([arXiv:math/0011041](http://arxiv.org/abs/math/0011041), [spire](http://inspirehep.net/record/536540/))
+
+recalled in
+
+* [[Yan Soibelman]]: *Moduli space of Conformal Field Theories and non-commutative Riemannian geometry* &lbrack;[arXiv:2506.00896](https://arxiv.org/abs/2506.00896)&rbrack;
+
 
 (discussing aspects of [[homological mirror symmetry]]).
 
