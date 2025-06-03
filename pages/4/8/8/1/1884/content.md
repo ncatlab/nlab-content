@@ -2584,6 +2584,8 @@ $$
 
 then this is a [[complex oriented cohomology|complex orientation]] for complex topological K-theory.
 
+(cf. [Tamaki & Kono 2006 Thm. 4.18](#TamakiKono06))
+
 From this we obtain the [[formal group law]] associated with topological K-theory (from [this prop.](complex+oriented+cohomology+theory#ComplexOrientedCohomologyTheoryFormalGroupLaw)):
 
 By the nature of the [[classifying space]] [[BU(n)|$B U(1)$]] we have that for
@@ -2773,7 +2775,7 @@ Textbook accounts:
 
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_, 2003/2009 ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* [[Dai Tamaki]], [[Akira Kono]], Section 4.1 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Chapter 4 in: *Generalized Cohomology*, Translations of Mathematical Monographs, American Mathematical Society (2006) &lbrack;[ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230)&rbrack;
 
 Further introductions:
 
