@@ -3,8 +3,8 @@
 
 In mathematics, **Ass** can refer to 
 
-* The [[associative operad]]
+* The [[associative operad]] $Assoc$
 
-* The category of [[assemblies]]
+* The category $Asm$ of [[assemblies]]
 
 category: disambiguation
