@@ -41,7 +41,7 @@ In analogy to how the ordinary [[quantum Hall effect]] has a [fractional version
 \end{imagefromfile}
 
 
-> &lbrack;[Chang, Liu & MacDonald 2023](#ChangLiuMacDonald23):&rbrack; A common feature of all the QAH systems that are established as of this writing --- magnetically doped [[topological insulator|TI]] films, films of the intrinsic magnetic TI $Mn Bi_2 Te_4$, magic-angle TBG, ABC trilayer [[graphene]] on $h\text{-}BN$, and TMD moir&eacute;s --- is adiabatic connection to a limit in which the band states
+> &lbrack;[Chang, Liu & MacDonald 2023  §II.A](#ChangLiuMacDonald23):&rbrack; A common feature of all the QAH systems that are established as of this writing --- magnetically doped [[topological insulator|TI]] films, films of the intrinsic magnetic TI $Mn Bi_2 Te_4$, magic-angle TBG, ABC trilayer [[graphene]] on $h\text{-}BN$, and TMD moir&eacute;s --- is adiabatic connection to a limit in which the band states
 close to the Fermi level can be described by 2D massive [[Dirac equations]]. \[...\] The 2D Dirac model is not periodic in momentum and is therefore not a crystal Hamiltonian. When applied to crystalline electronic degrees of freedom, it is intended to apply only in small isolated portions of the Brillouin zone (BZ) with large Berry curvatures \[...\]  the Berry curvature in the 2D Dirac equation is concentrated within a momentum-space area proportional to $(m/\hbar v_D)^2$  (where $v_D \sim v_{D,x} \sim v_{D,y}$), and that it decays as ${\vert \mathbf{k} \vert}^{-3}$ for large ${\vert \mathbf{k} \vert}$. \[...\] Each 2D Dirac Hamiltonian therefore contributes $\pm (e^2/2 h)$ to the Hall conductivity
 
 
