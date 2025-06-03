@@ -18,7 +18,8 @@ Later precursor discussion phrased in terms of [[random matrix theory]] instead 
 
 The original proposal making [[topological K-theory]] explicit:
 
-* {#Kitaev09} [[Alexei Kitaev]], _Periodic table for topological insulators and superconductors_, talk at: L.D.Landau Memorial Conference "Advances in Theoretical Physics", June 22-26, 2008, In:AIP Conference Proceedings 1134, 22 (2009) ([arXiv:0901.2686](https://arxiv.org/abs/0901.2686), [doi:10.1063/1.3149495](https://doi.org/10.1063/1.3149495))
+* {#Kitaev09} [[Alexei Kitaev]]: *Periodic table for topological insulators and superconductors*, talk at: L. D. Landau Memorial Conference "Advances in Theoretical Physics", June 22-26, 2008, in: 
+AIP Conference Proceedings 1134 (2009) 22-30 \[<a href="https://doi.org/10.1063/1.3149495">doi:10.1063/1.3149495</a>, [arXiv:0901.2686](https://arxiv.org/abs/0901.2686)\]
 
 Further details:
 
