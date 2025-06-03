@@ -153,15 +153,15 @@ If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines
 
 Textbook accounts:
 
-* {#Kochmann96} [[Stanley Kochmann]], section 1.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], section 1.3 of *[[Bordism, Stable Homotopy and Adams Spectral Sequences]]*,   Fields Institute Monographs **7**, American Mathematical Society (1996) &lbrack;[ams:fim-7](https://bookstore.ams.org/fim-7), [cds:2264210](https://cdsweb.cern.ch/record/2264210)&rbrack;
 
-* {#Hatcher} [[Allen Hatcher]], section 1.2 of _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* {#Hatcher} [[Allen Hatcher]], section 1.2 of: _Vector bundles & K-theory_ &lbrack;[web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)&rbrack;
 
-* SL Kleiman, _Geometry on Grassmannians and applications to splitting bundles and smoothing cycles_, Publications Mathématiques de l'IHÉS, 1969, numdam/[pdf](http://www.numdam.org/article/PMIHES_1969__36__281_0.pdf)
+* SL Kleiman, _Geometry on Grassmannians and applications to splitting bundles and smoothing cycles_, Publications Mathématiques de l'IHÉS (1969) &lbrack;[numdam:PMIHES_1969__36__281_0](https://www.numdam.org/item/?id=PMIHES_1969__36__281_0), [pdf](http://www.numdam.org/article/PMIHES_1969__36__281_0.pdf)&rbrack;
 
 * Karin Baur, _Grassmannians and cluster structures_,
-Bull. Iranian Math. Soc. 47 (2021) (Suppl 1):S5--S33
-[doi](https://doi.org/10.1007/s41980-021-00542-6)
+Bull. Iranian Math. Soc. **47** (2021) (Suppl 1) S5-S33
+&lbrack;[doi:10.1007/s41980-021-00542-6](https://doi.org/10.1007/s41980-021-00542-6)&rbrack;
 
 Lecture notes:
 
