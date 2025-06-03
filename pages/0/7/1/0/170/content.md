@@ -46,7 +46,7 @@ From [Fröhlich 92, p. 11](non-perturbative+quantum+field+theory#Froehlich92):
 
 Later it was shown more formally ([Roggenkamp-Wendland 03](#RoggenkampWendland03)), reviewed in ([Roggenkamp-Wendland 08](#RoggenkampWendland08)), that there is a precise algebraically formalization of taking the "point particle limit" of a quantum string, by sending its [[vertex operator algebra]] to a spectral triple obtained by suitably retaining only [[worldsheet]] 0-modes.
 
-In ([Soibelman 11](#Soibelman11)) this was used as a means to systematically study the large volume limit of [[effective quantum field theory|effective]] string [[spacetimes]] (and hence aspects of the [[landscape of string theory vacua]]) by studying the spectral geometries (i.e. the Connes-style noncommutative geometries) of the spectral triples arising from the string's point particle limit this way.
+[Soibelman 2011](#Soibelman11) used this as a means to systematically study the large volume limit of [[effective quantum field theory|effective]] string [[spacetimes]] (and hence aspects of the [[landscape of string theory vacua]]) by studying the spectral geometries (i.e. the Connes-style noncommutative geometries) of the spectral triples arising from the string's point particle limit this way.
 
 Now, since there is information lost in passing from a stringy "2-spectral triple" (a [[2d SCFT]]) to its underlying point particle [[spectral triple]], not all spectral triples are to be expected to have a lift to a 2-spectral triple (possibly corresponding to a [[UV-completion]] of the corresponding target space [[effective field theories]]).
 
@@ -124,15 +124,18 @@ A brief indication of some ideas of [[Yan Soibelman]] and [[Maxim Kontsevich]] o
 
 Further development of this and application to the study of the [[large volume limit]] of [[superstring]] [[vacua]] is in
 
-* {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ ([pdf](http://www.math.ksu.edu/~soibel/nc-riem-3.pdf), [pdf](https://ncatlab.org/schreiber/files/SoibelmanCFTandRicciCurvature.pdf)), in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001) 
+* {#Soibelman11} [[Yan Soibelman]], *Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry*, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001) &lbrack;[arXiv:2506.00896](https://arxiv.org/abs/2506.00896), [ams:pspum-83](https://bookstore.ams.org/pspum-83), precursor notes:[pdf](http://www.math.ksu.edu/~soibel/nc-riem-3.pdf), [pdf](https://ncatlab.org/schreiber/files/SoibelmanCFTandRicciCurvature.pdf)&rbrack;
+
+also re-posted as:
+
+* [[Yan Soibelman]]: *Moduli space of Conformal Field Theories and non-commutative Riemannian geometry* &lbrack;[arXiv:2506.00896](https://arxiv.org/abs/2506.00896)&rbrack;
+  > (text of [Soibelman 2011](#Soibelman11))
+
 
 based on 
 
 * [[Maxim Kontsevich]], [[Yan Soibelman]], section 2 of _Homological mirror symmetry and torus fibrations_, Proceedings of KIAS Annual International Conference on Symplectic Geometry and Mirror Symmetry ([arXiv:math/0011041](http://arxiv.org/abs/math/0011041), [spire](http://inspirehep.net/record/536540/))
 
-recalled in
-
-* [[Yan Soibelman]]: *Moduli space of Conformal Field Theories and non-commutative Riemannian geometry* &lbrack;[arXiv:2506.00896](https://arxiv.org/abs/2506.00896)&rbrack;
 
 
 (discussing aspects of [[homological mirror symmetry]]).
