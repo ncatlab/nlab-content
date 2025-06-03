@@ -16,16 +16,27 @@
 
 ##  Idea
 
-
 The _associative operad_ $Assoc$ is the [[operad]] whose [[algebras over an operad|algebras]] are [[monoid|monoids]]; i.e. objects equipped with an [[associative]] and [[unital]] binary operation.
 
 One might also consider the non-unital version, whose algebras are objects equipped with a binary operation but not with a [[unit]]. 
+
+## Terminology
+
+There are many terms used for the associative operad. These include:
+
+* **As**, in [Aguiar & Livernet 2005](#AL05) for the symmetric associative operad and in [Lodey & Vallette 2012](#LV12), [Chenavier, Cordero & Giraudo 2018](#CCG18) for the non-symmetric associative operad. 
+
+* **Ass**, in [Lodey & Vallette 2012](#LV12) for the symmetric associative operad.
+
+* **Assoc**, in [Lurie 2017](#Lurie17). 
+
+**Note:** *Due to confusion with the English language obscenity, the nLab now discourages the usage of the term "Ass" on the nLab itself to refer to the associative operad, instead preferring the alternate terms listed. If you encounter uses of this sort elsewhere on the nLab, please replace them if possible.* 
 
 ## Definition
 
 ### As a $Vect$-operad
 
-The _associative operad_, denoted $Assoc$ or $Ass$, is often taken to be the [[Vect]]-[[operad]] whose [[algebra over an operad|algebras]] are precisely [[associative unital algebras]].
+The _associative operad_ $Assoc$ is often taken to be the [[Vect]]-[[operad]] whose [[algebra over an operad|algebras]] are precisely [[associative unital algebras]].
 
 ### As a $Set$-operad
 
@@ -59,9 +70,25 @@ A [[planar operad]] may be identified with a [[symmetric operad]] that is equipe
 
 ## References
 
+* {#AL05} [[Marcelo Aguiar]], [[Muriel Livernet]] *The associative operad and the weak order on the symmetric groups* &lbrack;[arXiv:math/0511698](https://arxiv.org/abs/math/0511698)&rbrack;
+
+* {#LV12} [[Jean-Louis Loday]], [[Bruno Vallette]], *Algebraic Operads*, Grundlehren der mathematischen Wissenschaften, Springer-Verlag Berlin Heidelberg 2012 &lbrack;[doi:10.1007/978-3-642-30362-3](https://doi.org/10.1007/978-3-642-30362-3), [version 0.99 pdf](https://www.math.univ-paris13.fr/~vallette/Operads.pdf)&rbrack;
+
+* {#CCG18} [[Cyrille Chenavier]], [[Christophe Cordero]] and [[Samuele Giraudo]], *Generalizations of the associative operad and convergent rewrite systems*, Higher-Dimensional Rewriting and Algebra, EasyChair Preprint no. 143, 2018 &lbrack;[doi:10.29007/mfnh](https://doi.org/10.29007/mfnh), [arXiv:1808.06181](https://arxiv.org/abs/1808.06181)&rbrack;
+
 In the context of [[higher algebra]] of [[(infinity,1)-operads]], the associative operad is discussed in section 4.1.1 of 
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
+* {#Lurie17} [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
 
+[[!redirects associative operad]]
+[[!redirects associative operads]]
+
+[[!redirects symmetric associative operad]]
+[[!redirects symmetric associative operads]]
+
+[[!redirects non-symmetric associative operad]]
+[[!redirects non-symmetric associative operads]]
+
 [[!redirects Assoc]]
+[[!redirects As]]
