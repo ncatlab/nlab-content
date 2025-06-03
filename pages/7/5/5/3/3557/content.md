@@ -233,6 +233,10 @@ The two steps are as follows, starting with a bicategory of relations (or perhap
 
 Of course, the topos obtained from a tripos has an [[internal logic]].  But a tripos itself has an internal logic in which the "types" are the objects of the base category and the propositions are those of the fiber category.  In fact, the internal logic of a topos is often presented in a way that actually only makes use of the tripos of subobjects of the topos.  The type constructors of this internal logic correspond to objects with universal properties in the base category; so in a general tripos there would be only [[product types]] and [[power types]].  If the base category is cartesian closed, then the latter would decompose into [[function types]] and a [[type of propositions]].  However, note that these "functions" are less general than the morphisms in the topos constructed from the tripos; in the internal language of the tripos the latter manifest as [[anafunctions]].
 
+## See also
+
+* [[ 2-tripos ]]
+  
 
 ##References##
 
