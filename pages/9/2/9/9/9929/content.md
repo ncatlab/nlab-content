@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents$X$ 
 {:toc}
@@ -1113,7 +1112,7 @@ Textbook accounts:
 
 * [[Doug Ravenel]], Section 4.1 of: _[[Complex cobordism and stable homotopy groups of spheres]]_
 
-* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Section 3.2 in: _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230))
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Section 3.2 in: *Generalized Cohomology*, Translations of Mathematical Monographs, American Mathematical Society (2006) &lbrack;[ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230)&rbrack;
 
 Introduction includes
 
