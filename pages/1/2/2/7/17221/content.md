@@ -17,7 +17,7 @@
 =--
 =--
 
-This page collects material related to the book
+This page is to record the reference:
 
 * [[Stanley Kochman]]:
 
@@ -27,9 +27,11 @@ This page collects material related to the book
 
   \linebreak
 
-  Fields Institute Monographs
+  Fields Institute Monographs **7**
 
-  American Mathematical Society, 1996
+  American Mathematical Society (1996)
+
+  [ams:fim-7](https://bookstore.ams.org/fim-7)
 
   [cds:2264210](https://cdsweb.cern.ch/record/2264210)
 
