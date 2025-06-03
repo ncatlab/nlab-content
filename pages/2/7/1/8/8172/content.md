@@ -8170,7 +8170,7 @@ based in parts on
 
 * {#Adams69} [[John Frank Adams]], _Lectures on generalised cohomology_, in [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York. 
 
-The [[spectrum]]-level discussion of the ASS goes back to around
+The [[spectrum]]-level discussion of the Adams spectral sequence goes back to around
 
 * R. M. F. Moss, _On the composition pairing of Adams spectral sequences_, Proceedings of the London Mathematical Society 3.1 (1968): 179-192.
 
