@@ -209,7 +209,7 @@ For $M \neq 0$ and as the parameter $t_2$  (eq:HaldaneHamiltonian) increases, th
 ### Berry curvature
  {#BerryCurvature}
 
-A curious property of the Haldane model, possibly not shared by all 2d [[Chern insulators]], is that its [[Berry curvature]] is strongly localized around the (would-be) nodal [[Dirac points]], hence that the [[Berry connection]] is essentially a [[flat connection]] on the [[complement]] of a small [[neighbourhood retract]] of the (would-be) nodal points.
+A curious property of the Haldane model and its cousins (see [Chang, Liu & MacDonald 2023  §II.A](QAH+system#ChangLiuMacDonald23)), possibly not shared by all 2d [[Chern insulators]], is that its [[Berry curvature]] is strongly localized around the (would-be) nodal [[Dirac points]], hence that the [[Berry connection]] is essentially a [[flat connection]] on the [[complement]] of a small [[neighbourhood retract]] of the (would-be) nodal points.
 
 (eg. [Atteia 16, Sec. 2-3.4, p. 4](#Atteia16), [DTC](#DTC) [here](https://topocondmat.org/w4_haldane/haldane_model.html#gap-closings-are-sources-of-berry-curvature))
 
@@ -325,18 +325,18 @@ This accurately reflects what is seen [above](#PhaseDiagram) in the phase diagra
 
 The original article:
 
-* [[Duncan Haldane]], *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015-2018 $[$[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)$]$
+* [[Duncan Haldane]], *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015-2018 &lbrack;[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)&rbrack;
 
 see also 
 
-* Doru Sticlet, Frederic Piéchon, [[Jean-Noël Fuchs]], Pavel Kalugin, Pascal Simon, Section 2.B.1 (pp. 3) of: *Geometrical engineering of a two-bands Chern insulator in two dimensions with arbitrary topological index*, Phys. Rev. B **85** 165456 (2012) $[$[arXiv:1201.6613](https://arxiv.org/abs/1201.6613), [doi:10.1103/PhysRevB.85.165456](https://doi.org/10.1103/PhysRevB.85.165456)$]$
+* Doru Sticlet, Frederic Piéchon, [[Jean-Noël Fuchs]], Pavel Kalugin, Pascal Simon, Section 2.B.1 (pp. 3) of: *Geometrical engineering of a two-bands Chern insulator in two dimensions with arbitrary topological index*, Phys. Rev. B **85** 165456 (2012) &lbrack;[arXiv:1201.6613](https://arxiv.org/abs/1201.6613), [doi:10.1103/PhysRevB.85.165456](https://doi.org/10.1103/PhysRevB.85.165456)&rbrack;
 
 
 Review:
 
-* Online course on topology in condensed matter*, *Haldane model, Berry curvature, and Chern number* (2015-) $[$[topocondmat.org/w4_haldane/haldane_model.html](https://topocondmat.org/w4_haldane/haldane_model.html)$]$
+* *Online course on topology in condensed matter*, *Haldane model, Berry curvature, and Chern number* (2015-) &lbrack;[topocondmat.org/w4_haldane/haldane_model.html](https://topocondmat.org/w4_haldane/haldane_model.html)&rbrack;
 
-* {#Atteia16} [[Jonathan Atteia]], *Topology and electronic transport in Dirac systems under irradiation* (2016) $[$[tel:02426217](https://tel.archives-ouvertes.fr/tel-02426217), [pdf](https://tel.archives-ouvertes.fr/tel-02426217/document)$]$
+* {#Atteia16} [[Jonathan Atteia]], *Topology and electronic transport in Dirac systems under irradiation* (2016) &lbrack;[tel:02426217](https://tel.archives-ouvertes.fr/tel-02426217), [pdf](https://tel.archives-ouvertes.fr/tel-02426217/document)&rbrack;
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1.1 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
 
@@ -366,7 +366,7 @@ Realization in [[experiment]]:
 
 * {#JMDLUGE14} Gregor Jotzu, Michael Messer, Rémi Desbuquois, Martin Lebrat, Thomas Uehlinger, Daniel Greif,  Tilman Esslinger:
 
-  *Experimental realization of the topological Haldane model with ultracold fermions*, Nature **515** (2014) 237–240  ([doi:10.1038/nature13915](https://doi.org/10.1038/nature13915))
+  *Experimental realization of the topological Haldane model with ultracold fermions*, Nature **515** (2014) 237–240  &lbrack;[doi:10.1038/nature13915](https://doi.org/10.1038/nature13915)&rbrack;
 
 
 [[!redirects Haldane models]]
