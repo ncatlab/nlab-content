@@ -895,6 +895,8 @@ Textbook accounts:
 
 * {#EGNO15} [[Pavel Etingof]], [[Shlomo Gelaki]], [[Dmitri Nikshych]], [[Victor Ostrik]], Chapter 2 of: *Tensor Categories*, AMS Mathematical Surveys and Monographs **205** (2015) &lbrack;[ISBN:978-1-4704-3441-0](https://bookstore.ams.org/surv-205), [pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf)&rbrack;    (This has a focus on [[tensor categories]].)
 
+* {#Perrone24} [[Paolo Perrone]], Chapter 6 of: *Starting Category Theory*, World Scientific (2024) \[<a href="https://doi.org/10.1142/13670">doi:10.1142/13670</a>, [arXiv:1912.10642](http://arxiv.org/abs/1912.10642)\]
+
 Exposition of basics of monoidal categories and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
