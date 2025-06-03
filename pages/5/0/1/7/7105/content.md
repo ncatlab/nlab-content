@@ -148,17 +148,17 @@ For $\mathcal{C} = $ [[∞Grpd]] $\simeq L_{whe}$ [[Top]], this point of view is
 The corresponding [[long exact sequence of homotopy groups]] is of the form
 
 $$
-  \cdots \to \pi_{n+1} B \to \pi_n X \times_B Y \stackrel{(f_*, g_*)}{\to} \pi_n X \oplus \pi_n Y \stackrel{f_* - g_*}{\to} \pi_n B \to \cdots 
+  \cdots \to \pi_{n+1} B \to \pi_n (X \times_B Y) \stackrel{(f_*, g_*)}{\to} \pi_n X \oplus \pi_n Y \stackrel{f_* - g_*}{\to} \pi_n B \to \cdots 
 $$
 
 $$
-  \cdots \to \pi_2 B \to \pi_1 X \times_B Y \stackrel{(f_+, g_*)}{\to}  \pi_1 X \times \pi_1 Y \stackrel{f_* \cdot g_*^{-1}}{\to} \pi_1 B \to \pi_0 (X \times_B Y) \to \pi_0 (X \times Y)
+  \cdots \to \pi_2 B \to \pi_1 (X \times_B Y) \stackrel{(f_*, g_*)}{\to}  \pi_1 X \times \pi_1 Y \stackrel{f_* \cdot g_*^{-1}}{\to} \pi_1 B \to \pi_0 (X \times_B Y) \to \pi_0 (X \times Y)
   \,.
 $$
 
 =--
 
-This is what has historically been the definition of Mayer-Vietories sequences ([Eckmann-Hilton 64](#EckmannHilton)).
+This is what has historically been the definition of Mayer-Vietoris sequences ([Eckmann-Hilton 64](#EckmannHilton)).
 
 ### Presentation by fibrant objects
  {#PresentationByFibrantObjects}
