@@ -4,11 +4,11 @@
 ## Idea
 
 The **principle of [[interval type]] localization** states that for all types $A$, $A$ is $\mathbb{I}$-[[localization of a type|local]], or equivalently that the function 
-$$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:mathbb{I}.x:A \to (\mathbb{I} \to A)$$
+$$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:\mathbb{I}.x:A \to (\mathbb{I} \to A)$$
 is an [[equivalence of types]].
 
 There is also a **definitional interval type localization** which says that the function
-$$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:mathbb{I}.x:A \to (\mathbb{I} \to A)$$
+$$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:\mathbb{I}.x:A \to (\mathbb{I} \to A)$$
 is a [[definitional isomorphism]]. The usual notion of interval type localization can be called **propositional interval type localization**. 
 
 One has the following analogies between localization at a specific type and the type theoretic letter rule that it proves:
