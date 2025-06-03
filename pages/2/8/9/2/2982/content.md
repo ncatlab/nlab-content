@@ -24,9 +24,9 @@ One might also consider the non-unital version, whose algebras are objects equip
 
 There are many terms used for the associative operad. These include:
 
-* **As**, in [Aguiar & Livernet 2005](#AL05) for the symmetric associative operad and in [Lodey & Vallette 2012](#LV12), [Chenavier, Cordero & Giraudo 2018](#CCG18) for the non-symmetric associative operad. 
+* **As**, in [Aguiar & Livernet 2005](#AL05) for the symmetric associative operad and in [Loday & Vallette 2012](#LV12), [Chenavier, Cordero & Giraudo 2018](#CCG18) for the non-symmetric associative operad. 
 
-* **Ass**, in [Lodey & Vallette 2012](#LV12) for the symmetric associative operad.
+* **Ass**, in [Loday & Vallette 2012](#LV12) for the symmetric associative operad.
 
 * **Assoc**, in [Lurie 2017](#Lurie17). 
 
