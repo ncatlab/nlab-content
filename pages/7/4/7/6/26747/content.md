@@ -13,9 +13,9 @@
 
 ## Idea
 
-All [[dependent type theories]] satisfy a meta-theoretic version of [[parametricity]] (i.e. [[parametric polymorphism]]). 
+All [[dependent type theories]] satisfy a meta-theoretic version of [[parametricity]] traditionally called *external parametricity*. 
 
-**Parametric dependent type theory** is [[dependent type theory]] with an explicit notion of [[parametricity]] inside of the theory itself, in the same way that some dependent type theories have [[explicit substitution]]. 
+**Parametric dependent type theory** is [[dependent type theory]] with an explicit notion of [[parametricity]] inside of the theory itself called **explicit parametricity**, in the same way that some dependent type theories have [[explicit substitution]]. A dependent type theory without explicit parametricity is called **non-parametric**. 
 
 Parametric dependent type theories are distinguished by the kind of explicit parametricity that they have: 
 
@@ -23,13 +23,17 @@ Parametric dependent type theories are distinguished by the kind of explicit par
 
 * **Internal parametricity**, which applies to types and terms in all contexts. 
 
-Explicit external parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[semi-cubical objects]] in a base $(\infty,1)$-topos, while internal parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[cubical objects]] in a base $(\infty,1)$-topos (see [Kolomatskaia & Shulman 2023](#KS23), [Narya Docs](#NaryaDocs)). 
+Explicit external parametricity is not the same as meta-theoretic external parametricity in that the parametricity is partially internalized in the theory itself. The use of the bare *external parametricity* for explicit external parametricity originates from [[Narya]]'s [documentation](#NaryaDocs). 
 
-In addition, the various forms of explicit parametricity have different relations to various classical axioms such as the [[axiom of choice]] and [[excluded middle]]. 
+**Note:** *In the rest of this article, we shall follow the terminology of the Narya documentation and use* external parametricity *for explicit external parametricity. To disambiguate, we shall use* meta-theoretic parametricity *for the traditional meta-theoretic notion of external parametricity.* 
 
-* External parametricity is fully consistent with all classical axioms. 
+The various forms of explicit parametricity differ to whether it is a conservative extension of non-parametric dependent type theory. 
 
-* Internal parametricity contradicts many classical axioms such as the [[axiom of choice]] and [[excluded middle]].  
+* External parametricity is a [[conservative extension]] over non-parametric dependent type theory and is thus fully consistent with all classical axioms. 
+
+* Internal parametricity is not a conservative extension; it contradicts many classical axioms such as the [[axiom of choice]] and [[excluded middle]].  
+
+In addition, external parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[semi-cubical objects]] in a base $(\infty,1)$-topos, while internal parametricity has [[categorical semantics]] in any $(\infty,1)$-topos of [[cubical objects]] in a base $(\infty,1)$-topos (see [Kolomatskaia & Shulman 2023](#KS23), [Narya Docs](#NaryaDocs)). 
 
 There are also versions of explicit parametricity called **modal parametricity**, which are [[modal type theories]] with a discrete mode and a non-discrete mode, where parametricity can only be applied in the non-discrete mode and where the discrete mode is consistent with all classical axioms: 
 
@@ -102,6 +106,12 @@ A proof assistant implementing an observational [[parametric type theory]] with 
 
 [[!redirects parametric dependent type theory]]
 [[!redirects parametric dependent type theories]]
+
+[[!redirects non-parametric type theory]]
+[[!redirects non-parametric type theories]]
+
+[[!redirects non-parametric dependent type theory]]
+[[!redirects non-parametric dependent type theories]]
 
 [[!redirects modal parametricity]]
 
