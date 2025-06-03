@@ -59,7 +59,7 @@ Review:
 
 * Mikhail A. Stephanov, Y. Yin, (12-13) in: *Chiral Kinetic Theory*, Phys. Rev. Lett. **109** (2012) 162001 &lbrack;[arXiv:1207.0747](https://arxiv.org/abs/1207.0747), [doi:10.1103/PhysRevLett.109.162001](https://doi.org/10.1103/PhysRevLett.109.162001)&rbrack;
 
-* Michael Stone: *Berry Curvature, Spin, and Anomalous Velocity* &lbrack;[pdf](https://www.thp.uni-koeln.de/ESI-Web/slides/Stone.pdf), [[Stone-BerryCurvature.pdf:file]]&rbrack;
+* Michael Stone: *Berry Curvature, Spin, and Anomalous Velocity*, talk at ESI, Vienna (2014) &lbrack;[pdf](https://www.thp.uni-koeln.de/ESI-Web/slides/Stone.pdf), [[Stone-BerryCurvature.pdf:file]]&rbrack;
 
 
 [[!redirects anomalous velocities]]
