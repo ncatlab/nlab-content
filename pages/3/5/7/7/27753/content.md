@@ -71,7 +71,7 @@ The first theoretical lattice model, which came to be called the *[[Haldane mode
 
 * [[Duncan Haldane]]: *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015 &lbrack;[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)&rbrack;
 
-Experimental realization:
+Experimental realization of QAH systems:
 
 * Cui-Zu Chang et al.: *Experimental Observation of the Quantum Anomalous Hall Effect in a Magnetic Topological Insulator*, Science **340** (2013) 167 &lbrack;[doi:10.1126/science.1234414](https://doi.org/10.1126/science.1234414), [arXiv:1605.08829](https://arxiv.org/abs/1605.08829)&rbrack;
 
@@ -91,18 +91,20 @@ See also:
 
 ### Fractional QAHE
 
+
 Theoretical prediction:
 
 * [[Titus Neupert]], [[Luiz Santos]], [[Claudio Chamon]], [[Christopher Mudry]]: *Fractional quantum Hall states at zero magnetic field*, Phys. Rev. Lett. **106** (2011) 236804  &lbrack;[arXiv:1012.4723](https://arxiv.org/abs/1012.4723), [doi:10.1103/PhysRevLett.106.236804](https://doi.org/10.1103/PhysRevLett.106.236804)&rbrack;
 
-* S. A. Parameswaran, [[Rahul Roy]], S. L. Sondhi: *Fractional Quantum Hall Physics in Topological Flat Bands*, Comptes Rendus. Physique, Topological insulators / Isolants topologiques, **14** 9-10 (2013) 816-839 &lbrack;[arXiv:1302.6606](https://arxiv.org/abs/1302.6606), [doi:10.1016/j.crhy.2013.04.003](https://doi.org/10.1016/j.crhy.2013.04.003)&rbrack;
+* S. A. Parameswaran, [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Quantum Hall Physics in Topological Flat Bands*, Comptes Rendus. Physique, Topological insulators / Isolants topologiques, **14** 9-10 (2013) 816-839 &lbrack;[arXiv:1302.6606](https://arxiv.org/abs/1302.6606), [doi:10.1016/j.crhy.2013.04.003](https://doi.org/10.1016/j.crhy.2013.04.003)&rbrack;
 
 * [[Rahul Roy]]: *Band geometry of fractional topological insulators*, Phys. Rev. B **90** (2014) 165139 &lbrack;[arXiv:1208.2055](https://arxiv.org/abs/1208.2055), [doi:10.1103/PhysRevB.90.165139](https://doi.org/10.1103/PhysRevB.90.165139)&rbrack;
 
+* [[Nicolas Regnault]], [[B. Andrei Bernevig]]: *Fractional Chern Insulator*, Phys. Rev. X **1** (2011) 021014  &lbrack;[arXiv:1105.4867](https://arxiv.org/abs/1105.4867), [doi:10.1103/PhysRevX.1.021014](https://doi.org/10.1103/PhysRevX.1.021014)&rbrack;
 
 
 
-Experimental detection:
+Experimental realization of FQAH systems:
 
 * Jiaqi Cai et al.: *Signatures of Fractional Quantum Anomalous Hall States in Twisted $MoTe_2$ Bilayer*, Nature **622** (2023) 63–68 &lbrack;[arXiv:2304.08470](https://arxiv.org/abs/2304.08470), [doi:10.1038/s41586-023-06289-w](https://doi.org/10.1038/s41586-023-06289-w)&rbrack;
 
@@ -116,11 +118,20 @@ Experimental detection:
 
 Review:
 
+* [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional quantum Hall effect without Landau levels*, Physics **4**46  (June 2011) &lbrack;[physics.aps:v4/46](https://physics.aps.org/articles/v4/46)&rbrack;
+
+* [[Titus Neupert]], [[Claudio Chamon]], [[Thomas Iadecola]], [[Luiz H. Santos]], [[Christopher Mudry]]: *Fractional (Chern and topological) insulators* Physica Scripta **2015** (2015) 014005 &lbrack;[arXiv:1410.5828](https://arxiv.org/abs/1410.5828), [doi:10.1088/0031-8949/2015/T164/014005](https://doi.org/10.1088/0031-8949/2015/T164/014005)&rbrack;
+
+
 * Long Yu et al., *The fractional quantum anomalous Hall effect*, Nature Reviews Materials **9** (2024) 455–459 &lbrack;[doi:10.1038/s41578-024-00694-x](https://doi.org/10.1038/s41578-024-00694-x)&rbrack;
 
 * {#Morales-DuranShiMacDonald24} Nicolás Morales-Durán, Jingtian Shi, [[Allan H. MacDonald]]: *Fractionalized electrons in moiré materials*, Nature Reviews Physics **6** (2024) 349–351 &lbrack;[doi:10.1038/s42254-024-00718-z](https://doi.org/10.1038/s42254-024-00718-z)&rbrack;
 
 * Jian Zhao et al.: *Exploring the Fractional Quantum Anomalous Hall Effect in Moiré Materials: Advances and Future Perspectives*, ACS Nano (2025) &lbrack;[doi:10.1021/acsnano.5c01598](https://doi.org/10.1021/acsnano.5c01598)&rbrack;
+
+See also:
+
+* Wikipedia: *[Fractional Chern insulator](https://en.wikipedia.org/wiki/Fractional_Chern_insulator)*
 
 Further discussion:
 
@@ -165,7 +176,8 @@ Further discussion:
 [[!redirects FQAH system]]
 [[!redirects FQAH systems]]
 
-
+[[!redirects fractional Chern insulator]]
+[[!redirects fractional Chern insulators]]
 
 
 
