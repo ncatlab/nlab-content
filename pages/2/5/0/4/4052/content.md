@@ -160,7 +160,7 @@ Discussion of 2-classifiers for 2-toposes is in
 
 * [[Luca Mesiti]], _2-classifiers via dense generators and Hofmann-Streicher universe in stacks_ &lbrack;[arXiv:2401.16900](https://arxiv.org/abs/2401.16900)&rbrack;
 
-A candidate for a 2-topos version of the [[effective topos]] is in 
+A candidate for a (2,1)-topos version of the [[effective topos]] is in 
 
 * [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ &lbrack;[arXiv:2503.24279](https://arxiv.org/abs/2503.24279)&rbrack;
 
