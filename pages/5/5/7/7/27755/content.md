@@ -65,7 +65,11 @@ Review with emphasis on the explanation of [[anomalous velocity]] via [[Berry cu
 
 * {#NagaosaEtAl10} [[Naoto Nagaosa]], Jairo Sinova, Shigeki Onoda, [[Allan H. MacDonald]], N. P. Ong: *Anomalous Hall effect*, Rev. Mod. Phys. **82** (2010) 1539 &lbrack;[arXiv:0904.4154](https://arxiv.org/abs/0904.4154), [doi:10.1103/RevModPhys.82.1539](https://doi.org/10.1103/RevModPhys.82.1539)&rbrack;
 
-* Di Xiao, [[Ming-Che Chang]], [[Qian Niu]], section III.D of: *Berry phase effects on electronic properties*, Rev. Mod. Phys. **82** (2010) 1959 &lbrack;[arXiv:10.1103/RevModPhys.82.1959](https://doi.org/10.1103/RevModPhys.82.1959)&rbrack;
+* Di Xiao, [[Ming-Che Chang]], [[Qian Niu]], section III.D of: *Berry phase effects on electronic properties*, Rev. Mod. Phys. **82** (2010) 1959 &lbrack;[arXiv:0907.2021](https://arxiv.org/abs/0907.2021), [doi:10.1103/RevModPhys.82.1959](https://doi.org/10.1103/RevModPhys.82.1959)&rbrack;
+
+
+* {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1. of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205)&rbrack;
+
 
 See also:
 
