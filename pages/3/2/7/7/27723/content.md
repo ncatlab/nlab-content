@@ -18,6 +18,12 @@ On [[Laughlin wavefunctions]] with [[even number|even]] exponents as describing 
 
 * [[Nicolas Regnault]], Th. Jolicoeur: *Quantum Hall fractions for spinless bosons*, Phys. Rev. B **69** (2004) 235309 &lbrack;[doi:10.1103/PhysRevB.69.235309](https://doi.org/10.1103/PhysRevB.69.235309), [hal:00000939](https://hal.science/hal-00000939)&rbrack;
 
+Early theoretical discussion of [[fractional Chern insulators]] exhibiting the [[fractional quantum anomalous Hall effect]]:
+
+* [[Nicolas Regnault]], [[B. Andrei Bernevig]]: *Fractional Chern Insulator*, Phys. Rev. X **1** (2011) 021014  &lbrack;[arXiv:1105.4867](https://arxiv.org/abs/1105.4867), [doi:10.1103/PhysRevX.1.021014](https://doi.org/10.1103/PhysRevX.1.021014)&rbrack;
+
+
+
 On the [[fractional quantum anomalous Hall effect]]:
 
 * [[Nicolas Regnault]] et al.: *Fractional topological states in rhombohedral multilayer graphene modulated by kagome superlattice* &lbrack;[arXiv:2502.17320](https://arxiv.org/abs/2502.17320)&rbrack;
