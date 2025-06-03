@@ -1,9 +1,7 @@
 
 ## Disambiguation 
 
-"Ass" is an obscenity in the English language. 
-
-However, the term "Ass" is also used in [[mathematics]] in a few unrelated contexts:
+The term "Ass" is used in [[mathematics]] for:
 
 * The [[associative operad]] $\mathrm{As}$ or $\mathrm{Assoc}$
 
