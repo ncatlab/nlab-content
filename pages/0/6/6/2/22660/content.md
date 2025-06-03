@@ -66,6 +66,7 @@ Concrete examples:
 
 * [[holographic duality in solid state physics]]
 
+
 ## References
 
 Surveys:
@@ -74,11 +75,18 @@ Surveys:
 
 * US Department of Energy -- Office of Science, *Basic Reseacrh Needs for Quantum Materials* (2017) &lbrack;[pdf](https://science.osti.gov/-/media/bes/pdf/brochures/2017/Quantum_Materials_Brochure.pdf), [[DOE-QuantumMaterials.pdf:file]]&rbrack;
 
-* Feliciano Giustino et al., *The 2021 quantum materials roadmap*, J. Phys. Mater. 3 042006 (2020) ([doi:10.1088/2515-7639/abb74e](https://iopscience.iop.org/article/10.1088/2515-7639/abb74e))
+* Feliciano Giustino et al., *The 2021 quantum materials roadmap*, J. Phys. Mater. **3** (2020) 042006 &lbrack;[doi:10.1088/2515-7639/abb74e](https://iopscience.iop.org/article/10.1088/2515-7639/abb74e)&rbrack;
 
 * Nicholas R. Glavin, Pulickel M. Ajayan, Swastik Kar, *The Age of Quantum Materials*, Advanced Materials **35** special issue 27 (2023) &lbrack;[doi:10.1002/adma.202204928](https://doi.org/10.1002/adma.202204928)&rbrack;
 
-with emphasis on strong-correlation (cf. [[non-perturbative QFT]]):
+* Victor Hammed et al.: *A review of quantum materials for advancement in nanotechnology and materials science*, World Journal of Advanced Research and Reviews **23** 02 (2024) 1991-1997 &lbrack;[doi:10.30574/wjarr.2022.23.2.2547](https://doi.org/10.30574/wjarr.2022.23.2.2547)&rbrack;
+
+* Vincent G. Harris, Parisa Andalib: *Modern quantum materials*, Frontiers of Material Science **11** (2024) 1343005 &lbrack;[doi:10.3389/fmats.2024.1343005](https://doi.org/10.3389/fmats.2024.1343005)&rbrack;
+
+* Rajat Kumar Goyal et al.: *Exploring Quantum Materials & Applications: A Review*, Journal of Materials Science: Materials in Engineering **20** 4 (2025) &lbrack;[arXiv:2404.17594](https://arxiv.org/abs/2404.17594), [doi:10.1186/s40712-024-00202-7](https://doi.org/10.1186/s40712-024-00202-7)&rbrack;
+
+
+With emphasis on strong-correlation (cf. [[non-perturbative QFT]]):
 
 * Andreas Schadschneider, Götz S. Uhrig: *Strongly Correlated Systems in Solid State Physics*, lecture notes (2004) &lbrack;[pdf](https://www.thp.uni-koeln.de/~as/Mypage/PSfiles/Korrel/korrel.pdf), [[SchadschneiderUhrig-StronglyCorrelated.pdf:file]]&rbrack;
 
