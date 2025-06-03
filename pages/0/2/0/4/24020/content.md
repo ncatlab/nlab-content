@@ -27,7 +27,9 @@ On [[symmetry protected topological phases]]:
 
 * {#CLV14} [[Xie Chen]], [[Yuan-Ming Lu]], [[Ashvin Vishwanath]]: *Symmetry-protected topological phases from decorated domain walls*, Nature Communications **5** 3507  (2014) &lbrack;[doi:10.1038/ncomms4507](https://doi.org/10.1038/ncomms4507)&rbrack;
 
+On "fragile" (unstable, [[nonabelian cohomology]]) effects in [[topological phases of matter]], finer than the [[K-theory classification of topological phases]]:
 
+* Hoi Chun Po, Haruki Watanabe, [[Ashvin Vishwanath]]: *Fragile Topology and Wannier Obstructions*, Phys. Rev. Lett. **121** (2018) 126402 \[<a href="https://doi.org/10.1103/PhysRevLett.121.126402">doi:10.1103/PhysRevLett.121.126402</a>\]
 
 
 
