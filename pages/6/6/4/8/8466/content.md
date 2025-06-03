@@ -1,4 +1,14 @@
-* [webpage](http://etale.site/)
+
+
+* [personal page](http://etale.site/)
+
+* [substack page](https://lovetruthandbeauty.substack.com/about)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=326771)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=oABHYSMAAAAJ&hl=en)
+
+
 
 ## Selected writing
 
