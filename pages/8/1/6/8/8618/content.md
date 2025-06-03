@@ -7,13 +7,15 @@
 
 * [[complex analytic space]]
 
-### Variants
+
+**Variants**
 
 * [[generalized complex geometry]]
 
 * [[complex supermanifold]]
 
-### Structures
+
+**Structures**
 
 * [[Dolbeault complex]], [[holomorphic de Rham complex]]
 
@@ -21,7 +23,8 @@
 
 * [[Hodge-filtered differential cohomology]]
 
-### Examples
+
+**Examples**
 
 * $dim = 1$: [[Riemann surface]], [[super Riemann surface]]
 
@@ -30,3 +33,4 @@
   * $dim = 2$: [[K3 surface]]
 
 * [[generalized Calabi-Yau manifold]]
+
