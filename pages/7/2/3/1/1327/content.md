@@ -14,6 +14,14 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
@@ -24,12 +32,13 @@
 
 ## Idea
 
-
 The _associahedra_ or _Stasheff polytopes_ $\{K_n\}$ are [[CW complex]]es that naturally arrange themselves into a topological [[operad]] that resolves the standard associative operad: an [[A-infinity-operad]]. 
 
 The vertices of $K_n$ correspond to ways in which one can bracket a product of $n$ variables. The edges correspond to rebracketings, the faces relate different sequences of rebracketings that lead to the same result, and so on.
 
 The associahedra were introduced by Jim Stasheff in order to describe [[topological space]]s equipped with a multiplication operation that is associative up to every higher coherent homotopy. 
+
+The associahedra are used in [[quantum field theory]] as a generalization of the [[amplituhedron]] in [[scattering amplitudes]]. 
 
 ## Definition
 
@@ -123,6 +132,14 @@ The associahedron is closely related to a structure known as the _Tamari lattice
 
 As the name suggests, the Tamari lattice also carries the structure of a [[lattice]].  This property was originally established by Haya Friedman and Tamari (1967), and later simplified by Samuel Huang and Tamari (1972).
 
+## Related concepts
+
+* [[scattering amplitudes]]
+
+* [[amplituhedron]]
+
+* [[Yang-Mills theory]]
+
 ## References
 
 The original articles that define associahedra and in which the operad $K$ that gives $A(\infty)$-topological spaces is implicit are
@@ -156,6 +173,10 @@ For a template of $K_5$, see Appendix B of the following.
 For the combinatorics of associahedra, see
 
 * [[Viviane Pons]], *Combinatorics of the Permutahedra, Associahedra, and Friends* ([arXiv:2310.12687](https://arxiv.org/abs/2310.12687))
+
+For the use of associahedra in [[scattering amplitudes]]: 
+
+* [[Nima Arkani-Hamed]], Yuntao Bai, Song He & Gongwang Yan, _Scattering forms and the positive geometry of kinematics, color and the worldsheet_, Journal of High Energy Physics, Volume 2018, article number 96, (2018) &lbrack;<a href="https://doi.org/10.1007/JHEP05(2018)096">doi:10.1007/JHEP05(2018)096</a>, [arXiv:1711.09102](https://arxiv.org/abs/1711.09102)&rbrack;
 
 category: combinatorics
 [[!redirects associahedra]]
