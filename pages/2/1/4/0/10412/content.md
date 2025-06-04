@@ -44,6 +44,8 @@ For $k = 2$ again there is the "[[Parke-Taylor formula]]" efficiently expressing
 
 * [[associahedron]]
 
+* [[cosmohedron]]
+
 * [[surfaceology]]
 
 ## References
@@ -100,3 +102,8 @@ See also
 * Wikipedia: _[Amplituhedron](http://en.wikipedia.org/wiki/Amplituhedron)_
 * Thomas Lam, _Amplituhedron cells and Stanley symmetric functions_, 
 [arxiv/1408.5531](http://arxiv.org/abs/1408.5531)
+
+Some discussion about the use of amplituhedra in physics occurred on the category theory Zulip [here](https://categorytheory.zulipchat.com/#narrow/channel/411259-theory.3A-science/topic/Amplituhedron.2C.20associahedron.2C.20and.20related.20approaches). 
+
+[[!redirects amplituhedron]]
+[[!redirects amplituhedra]]
