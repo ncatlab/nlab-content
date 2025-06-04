@@ -37,7 +37,11 @@ The theory has been used by [[Nima Arkani-Hamed]] and collaborators to extend te
 
 * [[Yang-Mills theory]]
 
+* [[amplituhedron]]
+
 * [[associahedron]]
+
+* [[cosmohedron]]
 
 * [[surfaceology]]
 
@@ -53,13 +57,21 @@ The theory has been used by [[Nima Arkani-Hamed]] and collaborators to extend te
 
 * [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He, *Scalar-Scaffolded Gluons and the Combinatorial Origins of Yang-Mills Theory* &lbrack;[arXiv:2401.00041](https://arxiv.org/abs/2401.00041)&rbrack;
 
-* [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He, *NLSM $\subset$ Tr($\phi^3$)* &lbrack;[arXiv:2401.05483](https://arxiv.org/abs/2401.05483)&rbrack;
-
 * [[Nima Arkani-Hamed]], Carolina Figueiredo, Hadleigh Frost, Giulio Salvatori, *Tropical Amplitudes For Colored Lagrangians* &lbrack;[arXiv:2402.06719](https://arxiv.org/abs/2402.06719)&rbrack;
+
+* [[Nima Arkani-Hamed]], Carolina Figueiredo, *All-order splits and multi-soft limits for particle and string amplitudes* &lbrack;[arXiv:2405.09608](https://arxiv.org/abs/2405.09608)&rbrack;
+
+Discussion on the relation between the [[nonlinear sigma-model|nonlinear $\sigma$-model]] and $Tr(\phi^3)$:
+
+* [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He, *NLSM $\subset$ Tr($\phi^3$)* &lbrack;[arXiv:2401.05483](https://arxiv.org/abs/2401.05483)&rbrack;
 
 * [[Nima Arkani-Hamed]], Carolina Figueiredo, *Circles and Triangles, the NLSM and Tr($\phi^3$)* &lbrack;[arXiv:2403.04826](https://arxiv.org/abs/2403.04826)&rbrack;
 
-* [[Nima Arkani-Hamed]], Carolina Figueiredo, *All-order splits and multi-soft limits for particle and string amplitudes* &lbrack;[arXiv:2405.09608](https://arxiv.org/abs/2405.09608)&rbrack;
+Discussion on [[cosmohedra]] in $Tr(\phi^3)$: 
+
+* [[Nima Arkani-Hamed]], Carolina Figueiredo, Francisco Vazão, _Cosmohedra_ &lbrack;[arXiv:2412.19881](https://arxiv.org/abs/2412.19881)&rbrack;
+
+* Ross Glew, Tomasz Lukowski, _Amplitubes: Graph Cosmohedra_ &lbrack;[arXiv:2502.17564](https://arxiv.org/abs/2502.17564)&rbrack;
 
 [[!redirects Tr(ϕ³)]]
 [[!redirects Tr(ϕ3)]]
