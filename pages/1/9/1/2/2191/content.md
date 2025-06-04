@@ -85,6 +85,8 @@ For this reason, many concepts from enriched category theory make sense for modu
 
 ## Related Concepts
 
+* [[multiactegory]], a generalisation of the concept from monoidal categories to [[multicategories]]
+
 * [[action object]], [[module object]]
 
 * [[2-module]], [[n-module]]
