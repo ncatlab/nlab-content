@@ -3,7 +3,11 @@
 
 ## Selected writings and talks
 
-A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in a [[Quillen model category]] of equivariant [[cartesian cube category|cartesian]] [[cubical sets]] that [[classical mathematics|classically]] presents the usual [[homotopy theory]] of [[spaces]]:
+On [[algebraic weak factorization systems]] and the [[algebraic small object argument]]:
+
+* [[Evan Cavallo]], [[Christian Sattler]], *The algebraic small object argument as a saturation*, 2025 ([arXiv:2506.02759](https://arxiv.org/abs/2506.02759))
+
+A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in a [[Quillen model category]] of equivariantly fibrant [[cartesian cube category|cartesian]] [[cubical sets]] that [[classical mathematics|classically]] presents the usual [[homotopy theory]] of [[spaces]]:
 
 * [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets*, 2024 ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
 
