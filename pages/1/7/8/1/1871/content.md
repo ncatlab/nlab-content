@@ -104,6 +104,8 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 * [[super Yang-Mills theory]]
 
+* [[Tr(ϕ³)]]
+
 * [[minimal coupling]]
 
 * [['t Hooft double line notation]]
