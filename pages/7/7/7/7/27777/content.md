@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[quantum field theory]], a *cosmohedron* or *cosmological polytope* is a [[polytope]] used to computes the [[wavefunction]] of the [[universe]] in the theory. In this manner, cosmohedra are similar to the [[amplituhedra]] and [[associahedra]], which are polytopes used to compute [[scattering amplitudes]]. 
+In [[quantum field theory]], a *cosmohedron* or *cosmological polytope* is a [[polytope]] used to computes the [[Wheeler superspace|Wheeler]]-[[wavefunction]] of the [[observable universe|universe]] in the theory. In this manner, cosmohedra are similar to the [[amplituhedra]] and [[associahedra]], which are polytopes used to compute [[scattering amplitudes]]. 
 
 ## Related concepts
 
