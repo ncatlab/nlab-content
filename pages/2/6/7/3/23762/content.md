@@ -23,6 +23,11 @@ Introducing the [[Haldane model]] and thereby predicting the [[quantum anomalous
 
 * [[Duncan Haldane]]: *Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the "Parity Anomaly"*, Phys. Rev. Lett. **61** (1988) 2015 &lbrack;[doi:10.1103/PhysRevLett.61.2015](https://doi.org/10.1103/PhysRevLett.61.2015)&rbrack;
 
+Lecture:
+
+* [[Duncan Haldane]]: *Online course on topology in condensed matter*, *Haldane model, Berry curvature, and Chern number* (2015-) &lbrack;[topocondmat.org/w4_haldane/haldane_model.html](https://topocondmat.org/w4_haldane/haldane_model.html)&rbrack;
+
+
 
 On [[parastatistics]]:
 
