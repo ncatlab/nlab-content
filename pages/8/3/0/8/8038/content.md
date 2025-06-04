@@ -61,8 +61,6 @@ See at _[[moduli space of monopoles]]_ the section _[Scattering amplitudes of mo
 
 * [[KLT relations]]
 
-* [[amplituhedron]]
-
 * [[celestial amplitude]]
 
 * [[string theory results applied elsewhere]]
@@ -72,6 +70,10 @@ See at _[[moduli space of monopoles]]_ the section _[Scattering amplitudes of mo
 * [[motives in physics]]
 
 * [[graph complex]], [[formality of the little n-disk operad]]
+
+* [[amplituhedron]], [[associahedron]]
+
+* [[Feynman polytope]]
 
 
 ## References
