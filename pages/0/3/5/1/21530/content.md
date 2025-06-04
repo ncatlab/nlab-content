@@ -20,11 +20,11 @@
 
 ## Idea
 
-_Orbifold K-theory_ is [[K-theory]] (typically: [[topological K-theory]]) of [[orbifolds]], typically meant to reduce to [[equivariant K-theory]] on [[global quotient orbifolds]].
+_Orbifold K-theory_ is [[K-theory]] (typically: [[topological K-theory]]) of [[orbifolds]], usually meant to reduce to $G$-[[equivariant K-theory]] on $G$-[[global quotient orbifolds]].
 
 ## Definition
 
-In general it is subtle to decide whether a given [[orbifold cohomology]]-theory $E^\bullet(\mathcal{X})$ is equivalently the $G$-[[equivariant cohomology]] of a [[topological G-space]] $X$ for any realization of $\mathcal{X}$ as a [[global quotient orbifold]] of $X$ by $G$ (as highlighted in[Pronk-Scull 07](#PronkScull07)). But for [[topological K-theory|topological]] [[equivariant K-theory]] this is the case, by [Pronk-Scull 07, Prop. 4.1](#PronkScull07).
+In general it is subtle to decide whether a given [[orbifold cohomology]]-theory $E^\bullet(\mathcal{X})$ is equivalently the $G$-[[equivariant cohomology]] of a [[topological G-space]] $X$ for any realization of $\mathcal{X}$ as a [[global quotient orbifold]] of $X$ by $G$ (as highlighted by [Pronk & Scull 2007](#PronkScull07)). But for [[topological K-theory|topological]] [[equivariant K-theory]] this is the case, by [Pronk & Scull 07, Prop. 4.1](#PronkScull07).
 
 Therefore it makes sense to _define_ the K-theory of an [[orbifold]] $\mathcal{X}$ which is equivalent to a [[global quotient orbifold]] 
 
@@ -41,7 +41,8 @@ $$
   \,.
 $$
 
-This is the approach taken in [AdemRuan 01, Def. 3.4](#AdemRuan01)
+This is the approach taken in [Adem & Ruan 01, Def. 3.4](#AdemRuan01).
+
 
 ## Related concepts
 
@@ -77,32 +78,29 @@ The general [[proof]] that this is well-defined (independent of the realization 
 
 A more geometric model of orbifold K-theory in terms of [[bundles]] of [[Fredholm operators]] over [[Lie groupoids]]/[[differentiable stacks]]:
 
-* {#FreedHopkinsTeleman07} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Loop groups and twisted K-theory I_, Journal of Topology, **4** 4 &lbrack;[arXiv:0711.1906](https://arxiv.org/abs/0711.1906), [doi:10.1112/jtopol/jtr019](https://doi.org/10.1112/jtopol/jtr019)&rbrack;
+* {#FreedHopkinsTeleman07} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Loop groups and twisted K-theory I_, Journal of Topology, **4** 4 (2016) &lbrack;[arXiv:0711.1906](https://arxiv.org/abs/0711.1906), [doi:10.1112/jtopol/jtr019](https://doi.org/10.1112/jtopol/jtr019)&rbrack;
 
 Review in:
 
-* {#Freed12} [[Daniel Freed]], Lecture 1 of: _Lectures on twisted K-theory and orientifolds_, lecures at _[K-Theory and Quantum Fields](http://www.esi.ac.at/activities/events/2012/k-theory-and-quantum-fields)_, ESI 2012 ([[FreedESI2012.pdf:file]])
+* {#Freed12} [[Daniel Freed]], Lecture 1 of: _Lectures on twisted K-theory and orientifolds_, lecures at _[K-Theory and Quantum Fields](http://www.esi.ac.at/activities/events/2012/k-theory-and-quantum-fields)_, ESI (2012) &lbrack;[[FreedESI2012.pdf:file]]&rbrack;
 
-* [[Joost Nuiten]], Section 3.2.2 of: _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_ MSc thesis, Utrecht, August 2013 ([pdf](http://ncatlab.org/schreiber/files/thesisNuiten.pdf))
+* [[Joost Nuiten]], Section 3.2.2 of: _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_ MSc thesis, Utrecht (August 2013) &lbrack;[pdf](http://ncatlab.org/schreiber/files/thesisNuiten.pdf)&rbrack;
 
-* [[Valentin Zakharevich]], Sections 2.2, 2.3 of: _K-Theoretic Computation of the Verlinde Ring_, thesis 2018 ([hdl:2152/67663](http://hdl.handle.net/2152/67663), [pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf), [[ZakharevichKTheoryAndVerlindeRing.pdf:file]])
+* [[Valentin Zakharevich]], Sections 2.2, 2.3 of: _K-Theoretic Computation of the Verlinde Ring_, PhD thesis (2018) &lbrack;[hdl:2152/67663](http://hdl.handle.net/2152/67663), [pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf), [[ZakharevichKTheoryAndVerlindeRing.pdf:file]]&rbrack;
 
 
-
-The claim that these two definitions are equivalent, in that this groupoid K-theory reduces to [[equivariant K-theory]] on [[global quotient orbifolds]], is [Freed-Hopkins-Teleman 07, Prop. 3.5](#FreedHopkinsTeleman07).
+The claim that these two definitions are equivalent, in that this groupoid K-theory reduces to [[equivariant K-theory]] on [[global quotient orbifolds]], is Prop. 3.5 in [Freed, Hopkins & Teleman 2007](#FreedHopkinsTeleman07).
 
 
 Another definition of K-theory of orbifolds ("full orbifold K-theory") is due to
 
-* Tyler J. Jarvis, Ralph Kaufmann, Takashi Kimura, _Stringy K-theory and the Chern character_, Invent. math. 168, 23–81 (2007) ([arXiv:math/0502280](https://arxiv.org/abs/math/0502280), [doi:10.1007/s00222-006-0026-x](https://doi.org/10.1007/s00222-006-0026-x))
+* Tyler J. Jarvis, [[Ralph Kaufmann]], Takashi Kimura: _Stringy K-theory and the Chern character_, Invent. math. **168** (2007) 23–81 &lbrack;[arXiv:math/0502280](https://arxiv.org/abs/math/0502280), [doi:10.1007/s00222-006-0026-x](https://doi.org/10.1007/s00222-006-0026-x)&rbrack;
 
-proven there to coincide with [Adem-Ruan 01](#AdemRuan01) on global quotients.
+proven there to coincide with [Adem & Ruan 2001](#AdemRuan01) on global quotients.
 
 More on this in:
 
-* Rebecca Goldin, Megumi Harada, Tara S. Holm, Takashi Kimura, _The full orbifold K-theory of abelian symplectic quotients_, Journal of K-theory, Volume 8, Issue 2 (2011) pp. 339-362 ([arXiv:0812.4964](https://arxiv.org/abs/0812.4964), [doi:10.1017/is010005021jkt118](https://doi.org/10.1017/is010005021jkt118))
-
-
+* Rebecca Goldin, Megumi Harada, Tara S. Holm, [[Takashi Kimura]], _The full orbifold K-theory of abelian symplectic quotients_, Journal of K-theory **8** 2 (2011) 339-362 &lbrack;[arXiv:0812.4964](https://arxiv.org/abs/0812.4964), [doi:10.1017/is010005021jkt118](https://doi.org/10.1017/is010005021jkt118)&rbrack;
 
 
 
@@ -110,7 +108,7 @@ More on this in:
 
 The suggestion ([Schwede 17, Intro](orbifold+cohomology#Schwede17), [Schwede 18, p. ix-x](orbifold+cohomology#Schwede18)) that [[orbifolds]] should be regarded as [[orbispaces]] in [[global equivariant homotopy theory]] and then their [[orbifold cohomology]] be given by [[equivariant cohomology]] with [[coefficients]] in [[global equivariant spectra]] is worked out for ([[Bredon cohomology]] and) [[orbifold K-theory]] in:
 
-* Branko Juran, _Orbifolds, Orbispaces and Global Homotopy Theory_ ([arXiv:2006.12374](https://arxiv.org/abs/2006.12374))
+* Branko Juran: _Orbifolds, Orbispaces and Global Homotopy Theory_ &lbrack;[arXiv:2006.12374](https://arxiv.org/abs/2006.12374)&rbrack;
 
 Example 5.31 there shows that on [[global quotient orbifolds]] this is again equivalent to the previous definitions.
 
@@ -124,4 +122,5 @@ Example 5.31 there shows that on [[global quotient orbifolds]] this is again equ
 * Jianxun Hu, [[Bai-Ling Wang]], _Delocalized Chern character for stringy orbifold K-theory_, Trans. Amer. Math. Soc. 365 (2013), 6309-6341  ([arXiv:1110.0953](https://arxiv.org/abs/1110.0953), [doi:10.1090/S0002-9947-2013-05834-5](https://doi.org/10.1090/S0002-9947-2013-05834-5))
 
 
+[[!redirects orbifold K-theories]]
 
