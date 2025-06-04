@@ -34,13 +34,20 @@ The theory of [[(∞,1)-toposes]], generalizing [[topos theory]] from [[category
 
 * [[Awodey's conjecture]]
 
+
 ## References
+
+> For more see the references at *[[(infinity,1)-topos]]*:
+
+Lecture notes:
+
+* [[Charles Rezk]]: _Lectures on Higher Topos Theory_, Leeds (2019) &lbrack;[pdf](https://rezk.web.illinois.edu/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]]&rbrack;
 
 An quick introduction is in part 3, 4 of
 
 * {#Joyal15} [[André Joyal]]: _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), Paris (November 2015) &lbrack;videos: part [1](https://youtu.be/Ro8KoFFdtS4), [2](https://youtu.be/4vxzK4LjFlY), [3](https://youtu.be/u_cl0qiJxWY), [4](https://youtu.be/xzyxgJBNW8w)&rbrack;
 
-For origins of the notion of $(\infty,1)$-topos itself see the references at [[(∞,1)-topos]].
+For origins of the notion of $(\infty,1)$-topos itself see the references at *[[(∞,1)-topos]]*.
 
 Early frameworks for [[Grothendieck topos|Grothendieck]] (as opposed to "elementary") $(\infty,1)$-topoi are due [[Charles Rezk]] via [[model categories]]
 
@@ -56,4 +63,4 @@ A general abstract conception of $(\infty,1)$-topos theory in terms of [[(∞,1)
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
-The analog of the [[Elephant]] for $(\infty,1)$-topos theory is still to be written.
+The analog of the [[Sketches of an Elephant|Johnstone 2002]] for $(\infty,1)$-topos theory is still to be written.
