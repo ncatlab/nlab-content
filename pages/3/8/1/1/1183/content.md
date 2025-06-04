@@ -251,6 +251,8 @@ Further (and original) discussion of [[string]] sigma-models and their [[Ricci f
 
 Discussion on the relation between the nonlinear $\sigma$-model and the [[Tr(ϕ³)|$Tr(\phi^3)$]] theory:
 
+* [[Nima Arkani-Hamed]], Qu Cao, Jin Dong, Carolina Figueiredo, Song He, *NLSM $\subset$ Tr($\phi^3$)* &lbrack;[arXiv:2401.05483](https://arxiv.org/abs/2401.05483)&rbrack;
+
 * [[Nima Arkani-Hamed]], Carolina Figueiredo, *Circles and Triangles, the NLSM and Tr($\phi^3$)* &lbrack;[arXiv:2403.04826](https://arxiv.org/abs/2403.04826)&rbrack;
 
 First indications on how to formalize $\sigma$-models in a [[higher category theory|higher categorical]] context were given in
