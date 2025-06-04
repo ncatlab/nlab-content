@@ -136,13 +136,17 @@ As the name suggests, the Tamari lattice also carries the structure of a [[latti
 
 ## Related concepts
 
+* [[S-matrix]]
+
 * [[scattering amplitudes]]
 
 * [[amplituhedron]]
 
 * [[Yang-Mills theory]]
 
+  * [[super Yang-Mills theory]]
 
+  * [[Tr(ϕ³)]]
 
 ## References
 
