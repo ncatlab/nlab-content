@@ -45,6 +45,25 @@ In analogy to how the ordinary [[quantum Hall effect]] has a [fractional version
 close to the Fermi level can be described by 2D massive [[Dirac equations]]. \[...\] The 2D Dirac model is not periodic in momentum and is therefore not a crystal Hamiltonian. When applied to crystalline electronic degrees of freedom, it is intended to apply only in small isolated portions of the Brillouin zone (BZ) with large Berry curvatures \[...\]  the Berry curvature in the 2D Dirac equation is concentrated within a momentum-space area proportional to $(m/\hbar v_D)^2$  (where $v_D \sim v_{D,x} \sim v_{D,y}$), and that it decays as ${\vert \mathbf{k} \vert}^{-3}$ for large ${\vert \mathbf{k} \vert}$. \[...\] Each 2D Dirac Hamiltonian therefore contributes $\pm (e^2/2 h)$ to the Hall conductivity
 
 
+{#FQAHDetails} Moreover, for fractional quantum Hall systems the [[valence band]]:
+
+* is "almost flat", meaning that its energy gradient with respect to momentum is small, so that the [[kinetic energy]] of electrons is small ("quenched") and the electron-interaction/correlation is dominant
+
+* overlaps the Fermi energy, so that it is only partially (fractionally) filled, with holes at the peaks of the Dirac domes:
+
+\begin{imagefromfile}
+    "file_name": "FQAH-BandStructure.png",
+    "width": 640,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+
 
 ## Related entries
 
