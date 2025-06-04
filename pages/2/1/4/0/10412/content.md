@@ -48,6 +48,8 @@ For $k = 2$ again there is the "[[Parke-Taylor formula]]" efficiently expressing
 
 * [[surfaceology]]
 
+* [[Feynman polytope]]
+
 ## References
 
 Review:
