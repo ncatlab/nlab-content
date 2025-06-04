@@ -63,6 +63,11 @@ On [[U-duality]]-symmetry and fermionic representations of its [[maximal compact
 
 * {#deBuylHenneauxPaulot05} Sophie de Buyl, [[Marc Henneaux]], Louis Paulot: *Hidden Symmetries and Dirac Fermions*, Class. Quant. Grav. **22** (2005) 3595-3622 &lbrack;[arXiv:hep-th/0506009](https://arxiv.org/abs/hep-th/0506009), [doi:10.1088/0264-9381/22/17/018](https://doi.org/10.1088/0264-9381/22/17/018)&rbrack;
 
+On the [[Wheeler-DeWitt equation]] in relation to the [[Bondi-Metzner-Sachs group]] of [[asymptotic symmetries]]:
+
+* [[Marc Henneaux]]: *Wheeler-DeWitt equation and Bondi-Metzner-Sachs (BMS) symmetry* &lbrack;[arXiv:2506.02240](https://arxiv.org/abs/2506.02240)&rbrack;
+
+
 
 
 ## Related entries
