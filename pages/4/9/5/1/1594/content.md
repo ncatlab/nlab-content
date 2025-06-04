@@ -88,6 +88,30 @@ It has been noticed that the topological invariants of the underlying topologica
 
 ## Examples
 
+\begin{example}
+\label{SignInvolutionOrbifoldOfNTorus}
+**(sign involution orbifold of the $n$-torus)**
+\linebreak
+ A basic class of examples of closed [[flat orbifolds]] are the [[orbifold quotients]] $\mathbb{T}^n \sslash C_2$ of the [[n-torus|$n$-torus]] $\mathbb{T}^n \,\coloneqq\, \mathbb{R}^n/\mathbb{Z}^n$ by the [[involution]]-[[group action|action]] inverting the sign of the canonical [[coordinates]]:
+
+* For $n = 0$ this is the [[delooping groupoid]] $\mathbf{B} \mathbb{Z}_2$.
+
+* For $n = 1$ this plays the central role in  [[Hořava-Witten theory]].
+
+* For $n = 2$ this is known as the [[pillowcase orbifold]].
+
+* For $n = 3$ this does not have a special name but appears in some [[string theory vacuum|string backgrounds]] (e.g. [arXiv:2205.09764](https://arxiv.org/abs/2205.09764)).
+
+* For $n = 4$ this is known as the [Kummer surface](K3+surface#KummerSurface).
+
+* For $n = 5$ this appears as the [[MO5-plane]] [[spacetime]] in [[M-theory]].
+ 
+\end{example}
+
+
+**Further examples:**
+
+
 * Some basic building blocks of orbifolds:
 
   The quotient of a  [[ball]] by a [[discrete group|discrete]] [[subgroup]] of the [[special orthogonal group]] of rotations is an orbifold, and orbifolds may be obtained by cutting out balls from ordinary [[smooth manifolds]] and gluing in these orbifold quotients.
