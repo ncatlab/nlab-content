@@ -133,7 +133,7 @@ Historically, this radical perspective fell out of fashion for a while with the 
 
 But fashions come and go, and the original idea of [[Geoffrey Chew]] and the [[S-matrix]] approach continues to make sense in itself, and it is this form of a physical theory that perturbative string theory is an example of. 
 
-Ironically, more recently, the [[S-matrix]]-perspective also becomes fashionable again in [[Yang-Mills theory]] itself, with people noticing that [[scattering amplitudes]] in [[super Yang-Mills theory]] and in [[Tr(ϕ³)]] have good properties that are essentially invisible when expressing them as vast sums of [[Feynman diagram]] contributions as obtained from the [[action functional]]. For more on this see at _[[amplituhedron]]_.
+Ironically, more recently, the [[S-matrix]]-perspective also becomes fashionable again in [[Yang-Mills theory]] itself, with people noticing that [[scattering amplitudes]] in [[super Yang-Mills theory]] and in [[Tr(ϕ³)]] have good properties that are essentially invisible when expressing them as vast sums of [[Feynman diagram]] contributions as obtained from the [[action functional]]. For more on this see at _[[amplituhedron]]_ and _[[associahedron]]_.
 
 
 On the other hand, there _is_ also an analog of the [[second quantization|second quantized]] field-theory-with-equations for string scattering: this is called [[string field theory]], and this again is given by [[equations of motion]]. For instance the equations of motion of closed string field theory are of the form
