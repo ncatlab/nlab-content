@@ -8,3 +8,6 @@
 
 
 ...
+
+
+[[KummerSurfaceProjections.png:file]]
