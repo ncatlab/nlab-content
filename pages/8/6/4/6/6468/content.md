@@ -30,11 +30,26 @@ The term "K3" is
 
 * A nonsingular degree $4$ hypersurface in $\mathbb{P}^3$, such as the [[Fermat hypersurface|Fermat quartic]] $\{[w,x,y,z] \in \mathbb{P}^3 | w^4 + x^4 + y^4 + z^4 = 0\}$ (in fact every K3 surface over $\mathbb{C}$ is [[diffeomorphism|diffeomorphic]] to this example).
 
-* The [[flat orbifold]] quotient of the [[4-torus]] (equipped with some [[complex structure]]) by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as a _Kummer surface_ $T^4 \sslash \mathbb{Z}_2$, a singular [[K3-surface]] (e.g. [Bettiol, Derdzinski & Piccione 2018, 5.5](Riemannian+orbifold#BettiolDerdzinskiPiccione18); [Taormina & Wendland 2015, §1](#TaorminaWendland15))
+\begin{example} \label{KummerSurface}
+**(Kummer surface)** 
+\linebreak
+The [[flat orbifold]] quotient of the [[4-torus]] (equipped with some [[complex structure]]) by the sign [[involution]] on all four canonical [[coordinates]] is the flat compact 4-dimensional orbifold known as a _Kummer surface_ $T^4 \sslash \mathbb{Z}_2$, a singular [[K3-surface]] (e.g. [Bettiol, Derdzinski & Piccione 2018, 5.5](Riemannian+orbifold#BettiolDerdzinskiPiccione18); [Taormina & Wendland 2015, §1](#TaorminaWendland15), [Dolgachev 2020](#Dolgachev20)).
+
+\begin{imagefromfile}
+    "file_name": "KummerSurfaceProjections.png",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    },
+    "caption": "A sequence of 2d projections of the 4d Kummer surface, from [Dolgachev 2020](#Dolgachev20)."
+\end{imagefromfile}
 
 
-
-
+\end{example}
 ## Properties
 
 
@@ -459,7 +474,7 @@ Original sources:
 
 History:
 
-* [[Igor Dolgachev]]: *Kummer Surfaces: 200 Years of Study*, Notices of the AMS **67** 10 (2020) 1527-1534 &lbrack;[arXiv:1910.07650](https://arxiv.org/abs/1910.07650), [doi:10.1090/noti2168](https://doi.org/10.1090/noti2168), [pdf](https://www.ams.org/notices/202010/rnoti-p1527.pdf), full issue:[pdf](https://www.ams.org/notices/202010/202010FullIssue.pdf)&rbrack;
+* {#Dolgachev20} [[Igor Dolgachev]]: *Kummer Surfaces: 200 Years of Study*, Notices of the AMS **67** 10 (2020) 1527-1534 &lbrack;[arXiv:1910.07650](https://arxiv.org/abs/1910.07650), [doi:10.1090/noti2168](https://doi.org/10.1090/noti2168), [pdf](https://www.ams.org/notices/202010/rnoti-p1527.pdf), full issue:[pdf](https://www.ams.org/notices/202010/202010FullIssue.pdf)&rbrack;
 
 Textbook account:
 
