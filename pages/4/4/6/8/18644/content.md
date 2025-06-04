@@ -86,6 +86,9 @@ Further discussion in relation to the [[soft graviton theorem]]:
 
 * Neelima Agarwal, Lorenzo Magnea, Chiara Signorile-Signorile, Anurag Tripathi, *The Infrared Structure of Perturbative Gauge Theories* ([arXiv:2112.07099](https://arxiv.org/abs/2112.07099))
 
+Discussion in relation to [[Feynman polytopes]]:
+
+* [[Nima Arkani-Hamed]], Aaron Hillman, Sebastian Mizera, _Feynman Polytopes and the Tropical Geometry of UV and IR Divergences_, Physical Review D, volume 105, issue 12, 21 June 2022. &lbrack;[doi:10.1103/PhysRevD.105.125013](https://doi.org/10.1103/PhysRevD.105.125013), [arXiv:2202.12296](https://arxiv.org/abs/2202.12296)&rbrack;
 
 See also:
 
