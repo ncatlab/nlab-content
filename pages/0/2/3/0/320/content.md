@@ -112,6 +112,8 @@ See also the examples at _[[operad]]_.
 
 * [[multifunctor]]
 
+* [[multiactegory]], the appropriate notion of *action* of a multicategory
+
 * [[polycategory]]
 
 * [[properad]]
@@ -124,7 +126,7 @@ See also the examples at _[[operad]]_.
 
 * [[sequential multicategory]]
 
-* [[generalized multicategory]], [[operad]] 
+* [[generalized multicategory]], [[operad]]
 
 
 ## References
