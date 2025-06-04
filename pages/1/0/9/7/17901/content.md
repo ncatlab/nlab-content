@@ -48,6 +48,8 @@ The Wheeler-DeWitt [[quantum mechanics]] of the [[type II superstring theory|typ
 
 * [[quantum cosmology]]
 
+* [[cosmohedron]]
+
 ## References
 
 Original articles:
