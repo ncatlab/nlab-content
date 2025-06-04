@@ -87,7 +87,7 @@ and letting $\Delta t \to 0, N \to \infty,$ we get
 
 For arbitrary Hamiltonians $H = \frac{p^2}{2m} + V(x),$ we get
 \[ \array{\langle \psi_F|e^{-iHt}|\psi_I\rangle &=& \int Dq e^{i \int_0^t dt \frac{1}{2}m \dot{q}^2 - V(x)} \\ &=& \int Dq e^{i\int_0^t\mathcal{L}(\dot{q},q) dt} \\ &=& \int Dq e^{iS(q)}, } \]
-where $S(q)$ is the [[action]] functional.
+where $S(q)$ is the [[action functional]].
 
 \begin{remark}\label{OperatorOrderAndTimeOrder}
 **(operator product order and time-order)**
