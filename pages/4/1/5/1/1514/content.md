@@ -101,7 +101,7 @@ Conversely the product of [[observable]] values in the path integral corresponds
 ### As an integral against the Wiener measure
  {#AsAnIntegralAgainstTheWienerMeasure}
 
-More abstractly, the Euclidean path integral for the [[quantum mechanics]] of a [[charged particle]] may be defined by [[integration]] the gauge-coupling action again the [[Wiener measure]] on the space of paths.
+More abstractly, the Euclidean path integral for the [[quantum mechanics]] of a [[charged particle]] may be defined by [[integration]] of the gauge-coupling action against the [[Wiener measure]] on the space of paths.
 
 
 Consider a [[Riemannian manifold]] $(X,g)$ -- hence a [[background field]] of [[gravity]] -- and a [[connection on a bundle|connection]] $\nabla : X \to \mathbf{B}U(1)_{conn}$  -- hence an [[electromagnetic field|electromagnetic]] [[background gauge field]].
