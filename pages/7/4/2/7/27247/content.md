@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
@@ -13,7 +17,11 @@
 
 ## Idea
 
-(...)
+$Tr(\phi^3)$ is a [[Yang-Mills theory]] consisting of [[spin]]-zero [[gluons]]. The name of the theory comes from the cubic self-interaction term $Tr(\phi^3)$ which appears in the [[Lagrangian]] of the theory:
+
+$$\mathcal{L} = Tr(\partial \phi)^2 + m^2 Tr(\phi^2) + g Tr(\phi^3)$$
+
+The theory has been used by [[Nima Arkani-Hamed]] and collaborators to extend the techniques of [[scattering amplitudes]] to non-supersymmetric [[Yang-Mills theory]]. 
 
 ## Related concepts
 
