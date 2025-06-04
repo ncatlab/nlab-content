@@ -3,7 +3,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -94,7 +94,7 @@ See also:
 
 * Holmfridur Hannesdottir, Matthew D. Schwartz, _A Finite S-Matrix_ ([arXiv:1906.03271](https://arxiv.org/abs/1906.03271))
 
-* Wikipedia, _[Infrared divergence](https://en.wikipedia.org/wiki/Infrared_divergence)_
+* Wikipedia: *[Infrared divergence](https://en.wikipedia.org/wiki/Infrared_divergence)*
 
 * Andrzej Herdegen, *Infrared structure beyond locality in electrodynamics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.09234](https://arxiv.org/abs/2403.09234)&rbrack;
 
