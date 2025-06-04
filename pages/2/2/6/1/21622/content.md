@@ -17,13 +17,30 @@
 
 ## Definition
 
-The _pillowcase orbifold_ is the 2-dimensional [[flat orbifold|flat]] ([[complex orbifold|complex]]) [[orbifold]] which is the [[global quotient orbifold|global quotient]] of the [[torus]] $\mathbb{C}/\mathbb{Z}[i]$ by the [[reflection]] [[involution]] $z \mapsto -z$:
+The _pillowcase orbifold_ is the 2-dimensional [[flat orbifold|flat]] ([[complex orbifold|complex]]) [[orbifold]] which is the [[global quotient orbifold|global quotient]] of the [[2-torus]] by the [[reflection]] [[involution]] $z \mapsto -z$ on its canonical [[coordinates]]:
 
 $$
   Pillow  
   \;\coloneqq \;
-  (\mathbb{C}/\mathbb{Z}[i])\sslash_{refl} \mathbb{Z}_2
+  \mathbb{T}^2 \sslash_{refl} \mathbb{Z}_2
+  \;\coloneqq\;
+  (\mathbb{R}^2/\mathbb{Z}^2) \sslash_{refl} \mathbb{Z}_2
+  \,.
 $$
+
+\begin{imagefromfile}
+    "file_name": "PillowcaseOrbifold.png",
+    "width": 540,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    },
+    "caption": "(graphics from [Dragomir 2011 Fig 2.6](#Dragomir11))"
+\end{imagefromfile}
+
 
 ## Properties
 
@@ -55,6 +72,9 @@ $$
 
 * {#GoujardMoeller18} Elise Goujard, Martin Moeller, _Pillowcase covers: Counting Feynman-like graphs associated with quadratic differentials_ &lbrack;[arXiv:1809.05016](https://arxiv.org/abs/1809.05016)&rbrack;
 
+See also:
+
+* {#Dragomir11} George Dragomir: *Closed Geodesics on compact developable orbifold*, PhD thesis, McMaster University (2011) &lbrack;[pdf](https://math.mcmaster.ca/~boden/students/Dragomir-PhD.pdf), [[Dragomir-GeodesicsOnOrbifolds.pdf:file]]&rbrack;
 
 
 ### In string theory
