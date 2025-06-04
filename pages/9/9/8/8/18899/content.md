@@ -18,7 +18,7 @@
 
 ## Idea
 
-In [[relativistic field theory|relativistic]] [[perturbative quantum field theory]], the _time-ordered product_ is a product on suitably well-behave [[observables]]  which re-orders its arguments according to the [[causal ordering]] of their spacetime supports befor multiplying with the [[Wick algebra]] product. 
+In [[relativistic field theory|relativistic]] [[perturbative quantum field theory]], the _time-ordered product_ is a product on suitably well-behaved [[observables]]  which re-orders its arguments according to the [[causal ordering]] of their spacetime supports before multiplying with the [[Wick algebra]] product. 
 
 (Analogously reverse [[causal ordering]] this is called the _reverse-time ordered_ or _anti-time ordered_ prouct.)
 
