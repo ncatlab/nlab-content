@@ -100,7 +100,7 @@ It has been noticed that the topological invariants of the underlying topologica
 
 * For $n = 2$ this is known as the [[pillowcase orbifold]].
 
-* For $n = 3$ this does not have a special name but appears in some [[string theory vacuum|string backgrounds]] (e.g. [arXiv:2205.09764](https://arxiv.org/abs/2205.09764)).
+* For $n = 3$ this does not have a special name but appears as the [[Brillouin torus]] orbifold for [[crystal|crystalline]] materials with [[time-reversal symmetry]] when considering their [[K-theory classification of topological phases of matter]], and in some [[string theory vacuum|string backgrounds]] (e.g. [arXiv:2205.09764](https://arxiv.org/abs/2205.09764)).
 
 * For $n = 4$ this is known as the [Kummer surface](K3+surface#KummerSurface).
 
