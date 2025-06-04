@@ -31,9 +31,15 @@ The theory has been used by [[Nima Arkani-Hamed]] and collaborators to extend te
 
 ## Related concepts
 
-* [[surfaceology]]
+* [[S-matrix]]
 
 * [[scattering amplitudes]]
+
+* [[Yang-Mills theory]]
+
+* [[associahedron]]
+
+* [[surfaceology]]
 
 ## References
 
