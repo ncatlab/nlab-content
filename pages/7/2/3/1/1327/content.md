@@ -31,14 +31,16 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-The _associahedra_ or _Stasheff polytopes_ $\{K_n\}$ are [[CW complex]]es that naturally arrange themselves into a topological [[operad]] that resolves the standard associative operad: an [[A-infinity-operad]]. 
+The _associahedra_ or _Stasheff polytopes_ $\{K_n\}_{n \in \mathbb{N}}$ are [[CW complexes]] that naturally arrange themselves into a [[topological operad]] that [[resolution|resolves]] the standard [[associative operad]]: an [[A-infinity-operad]]. 
 
-The vertices of $K_n$ correspond to ways in which one can bracket a product of $n$ variables. The edges correspond to rebracketings, the faces relate different sequences of rebracketings that lead to the same result, and so on.
+These were introduced by [Stasheff 1963](#Stasheff1963) in order to describe [[topological spaces]] equipped with a multiplication operation that is associative up to [[coherence|coherent]] [[higher homotopy]]:
 
-The associahedra were introduced by Jim Stasheff in order to describe [[topological space]]s equipped with a multiplication operation that is associative up to every higher coherent homotopy. 
+The [[vertices]] of $K_n$ correspond to ways in which one can bracket a product of $n$ [[variables]], the edges correspond to rebracketings, the faces relate different sequences of rebracketings that lead to the same result, and so on.
 
-The associahedra are used in [[quantum field theory]] as a generalization of the [[amplituhedron]] in [[scattering amplitudes]]. 
+Much later, the associahedra also found use in [[quantum field theory]] as a generalization of the "[[amplituhedron]]" in the discussion of certain [[scattering amplitudes]]. 
+
 
 ## Definition
 
@@ -140,13 +142,15 @@ As the name suggests, the Tamari lattice also carries the structure of a [[latti
 
 * [[Yang-Mills theory]]
 
+
+
 ## References
 
-The original articles that define associahedra and in which the operad $K$ that gives $A(\infty)$-topological spaces is implicit are
+The original articles that define associahedra (and in which the [[operad]] $K$ that gives $A(\infty)$-topological spaces is implicit)
 
-* [[Jim Stasheff]], _Homotopy associativity of H-spaces I_, Trans. Amer. Math. Soc. 108 (1963), 275--312.  ([web](http://www.jstor.org/stable/1993608))
+* {#Stasheff1963} [[Jim Stasheff]]: *Homotopy associativity of H-spaces I*, Trans. Amer. Math. Soc. **108** (1963) 275-312 &lbrack;[jstor:1993608](http://www.jstor.org/stable/1993608)&rbrack;
 
-* [[Jim Stasheff]], _Homotopy associativity of H-spaces II_, Trans. Amer. Math. Soc. 108 (1963), 293--312.  ([web](http://www.jstor.org/stable/1993609))
+  *Homotopy associativity of H-spaces II*, Trans. Amer. Math. Soc. **108* (1963) 293-312 &lbrack;[jstor:1993609](http://www.jstor.org/stable/1993609)&rbrack;
 
 A textbook discussion (slightly modified) is in section 1.6 of the book
 
