@@ -249,6 +249,9 @@ Further (and original) discussion of [[string]] sigma-models and their [[Ricci f
 
 * {#Tseytlin06} [[Arkady Tseytlin]], _On sigma model RG flow, "central charge" action and Perelman's entropy_, Phys.Rev.D75:064024,2007 ([arXiv:hep-th/0612296](http://arxiv.org/abs/hep-th/0612296))
 
+Discussion on the relation between the nonlinear $\sigma$-model and the [[Tr(ϕ³)|$Tr(\phi^3)$]] theory:
+
+* [[Nima Arkani-Hamed]], Carolina Figueiredo, *Circles and Triangles, the NLSM and Tr($\phi^3$)* &lbrack;[arXiv:2403.04826](https://arxiv.org/abs/2403.04826)&rbrack;
 
 First indications on how to formalize $\sigma$-models in a [[higher category theory|higher categorical]] context were given in
 
@@ -296,8 +299,18 @@ See also:
 
 
 
+[[!redirects sigma-model]]
 [[!redirects sigma-models]]
 [[!redirects sigma model]]
 [[!redirects sigma models]]
 [[!redirects σ-model]]
 [[!redirects σ-models]]
+
+[[!redirects nonlinear sigma-model]]
+[[!redirects nonlinear sigma-models]]
+[[!redirects nonlinear sigma model]]
+[[!redirects nonlinear sigma models]]
+[[!redirects nonlinear σ-model]]
+[[!redirects nonlinear σ-models]]
+
+[[!redirects NLSM]]
