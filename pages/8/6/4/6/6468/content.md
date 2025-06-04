@@ -453,13 +453,17 @@ See
 
 Original sources:
 
-* {#Artin74} [[Michael Artin]], _Supersingular K3 Surfaces_, Annal. Sc. d, l'&#201;c Norm. Sup.  4e  s&#233;ries, T. 7, fasc.  4, 1974, pp. 543-568
+* {#Artin74} [[Michael Artin]], _Supersingular K3 Surfaces_, Annal. Sc. d, l'&#201;c Norm. Sup.  4e  s&#233;ries, T. 7, fasc.  4, (1974) 543-568
 
 * {#Weil79} [[Andre Weil]], Final report on contract AF 18 (603)-57. In Scientific works. Collected papers. Vol. II (1951-1964). 1979.
 
-Textbook accounts include
+History:
 
-* {#BarthPetersVandenVen84} W. Barth, C. Peters, A. Van den Ven, chapter VII of _Compact complex surfaces_, Springer 1984
+* [[Igor Dolgachev]]: *Kummer Surfaces: 200 Years of Study*, Notices of the AMS **67** 10 (2020) 1527-1534 &lbrack;[arXiv:1910.07650](https://arxiv.org/abs/1910.07650), [doi:10.1090/noti2168](https://doi.org/10.1090/noti2168), [pdf](https://www.ams.org/notices/202010/rnoti-p1527.pdf), full issue:[pdf](https://www.ams.org/notices/202010/202010FullIssue.pdf)&rbrack;
+
+Textbook account:
+
+* {#BarthPetersVandenVen84} W. Barth, C. Peters, A. Van den Ven, chapter VII of _Compact complex surfaces_, Springer (1984)
 
 Lecture notes:
 
