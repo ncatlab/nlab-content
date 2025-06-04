@@ -140,13 +140,15 @@ As the name suggests, the Tamari lattice also carries the structure of a [[latti
 
 * [[scattering amplitudes]]
 
-* [[amplituhedron]]
-
 * [[Yang-Mills theory]]
 
   * [[super Yang-Mills theory]]
 
   * [[Tr(ϕ³)]]
+
+* [[amplituhedron]]
+
+* [[cosmohedron]]
 
 ## References
 
@@ -185,6 +187,12 @@ For the combinatorics of associahedra, see
 For the use of associahedra in [[scattering amplitudes]]: 
 
 * [[Nima Arkani-Hamed]], Yuntao Bai, Song He & Gongwang Yan, _Scattering forms and the positive geometry of kinematics, color and the worldsheet_, Journal of High Energy Physics, Volume 2018, article number 96, (2018) &lbrack;<a href="https://doi.org/10.1007/JHEP05(2018)096">doi:10.1007/JHEP05(2018)096</a>, [arXiv:1711.09102](https://arxiv.org/abs/1711.09102)&rbrack;
+
+* [[Nima Arkani-Hamed]], Song He, Giulio Salvatori, Hugh Thomas, _Causal diamonds, cluster polytopes and scattering amplitudes_, Journal of High Energy Physics, Volume 2022, article number 49, (2022) &lbrack;<a href=" https://doi.org/10.1007/JHEP11(2022)049">doi:10.1007/JHEP11(2022)049</a>, [arXiv:1912.12948](https://arxiv.org/abs/1912.12948)&rbrack;
+
+* Kristian Ranestad, Bernd Sturmfels, Simon Telen: *What is Positive Geometry?* &lbrack;[arXiv:2502.12815](https://arxiv.org/abs/2502.12815)&rbrack;
+
+* Ross Glew, Tomasz Lukowski, _Amplitubes: Graph Cosmohedra_ &lbrack;[arXiv:2502.17564](https://arxiv.org/abs/2502.17564)&rbrack;
 
 category: combinatorics
 [[!redirects associahedra]]
