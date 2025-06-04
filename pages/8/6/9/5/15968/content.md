@@ -26,7 +26,7 @@ Peter Johnstone's classic text on [[topos theory]] from 1977 served as the stand
 
 Although the author takes no prisoners the text is not really as unreadable as the introduction to the [[Elephant]] boasts but contains in a concise form what still constitutes the core of the subject.
 
-It has also several unique features in comparison with its successor volumes in that it offers (somewhat more opiniated) remarks on the _historical development of topos theory_ and an emphasis of the intuitionistic algebra and theory of spectrum prominent in the early 1970s, a chapter on _cohomology theory_ and due to the recent paperback reprint an affordable price.
+It has also several unique features in comparison with its successor volumes in that it offers (somewhat more opinionated) remarks on the _historical development of topos theory_ and an emphasis of the intuitionistic algebra and theory of spectrum prominent in the early 1970s, a chapter on _cohomology theory_ and due to the recent paperback reprint an affordable price.
 
 ## Table of contents
 
