@@ -18,6 +18,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 An [[orbifold]] is much like a [[smooth manifold]] but possibly with [[singularities]] of the form of [[fixed points]] of [[finite group|finite]] [[group]]-[[actions]].
@@ -209,7 +210,7 @@ Survey of basic orbifold theory:
 
 * {#Porti09} Joan Porti, _An introduction to orbifolds_, 2009 ([pdf](http://mat.uab.es/~porti/orbifoldLeiden.pdf))
 
-* {#Snowden11} Andrew Snowden, _Introduction to orbifolds_, 2011 ([pdf](https://ocw.mit.edu/courses/mathematics/18-904-seminar-in-topology-spring-2011/final-paper/MIT18_904S11_finlOrbifolds.pdf))
+* {#Snowden11} Andrew Snowden: _Introduction to orbifolds_ (2011) &lbrack;[webpage](https://ocw.mit.edu/courses/18-904-seminar-in-topology-spring-2011/resources/mit18_904s11_finlorbifolds/), [[Snowden-Orbifolds.pdf:file]]&rbrack;
 
 * {#AdemKlaus} [[Alejandro Adem]], Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf), [[AdemKlausOrbifolds.pdf:file]])
 
