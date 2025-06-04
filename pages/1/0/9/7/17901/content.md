@@ -70,6 +70,10 @@ Further discussion:
 
 * Eftychios Kaimakkamis, Hervé Partouche, Karunava Sil, Nicolaos Toumbas: *The exact Wheeler-DeWitt equation for the scale-factor minisuperspace model* &lbrack;[arXiv:2412.18532](https://arxiv.org/abs/2412.18532)&rbrack;
 
+In relation to the [[Bondi-Metzner-Sachs group]] of [[asymptotic symmetries]]:
+
+* [[Marc Henneaux]]: *Wheeler-DeWitt equation and Bondi-Metzner-Sachs (BMS) symmetry* &lbrack;[arXiv:2506.02240](https://arxiv.org/abs/2506.02240)&rbrack;
+
 
 For [[11D supergravity]] and comparing to the 1d [[sigma-model]] on a [[coset space]] of its [[E10]] [[U-duality]]-group:
 
