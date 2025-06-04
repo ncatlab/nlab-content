@@ -29,5 +29,13 @@ Lecture notes:
 
 * Níckolas de Aguiar Alves: *Lectures on the Bondi--Metzner--Sachs group and related topics in infrared physics* &lbrack;[arXiv:2504.12521](https://arxiv.org/abs/2504.12521)&rbrack;
 
+In relation to the [[Wheeler-DeWitt equation]]:
+
+* [[Marc Henneaux]]: *Wheeler-DeWitt equation and Bondi-Metzner-Sachs (BMS) symmetry* &lbrack;[arXiv:2506.02240](https://arxiv.org/abs/2506.02240)&rbrack;
+
+
+
+
+
 
 [[!redirects BMS group]]
