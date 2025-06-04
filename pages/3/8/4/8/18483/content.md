@@ -25,7 +25,7 @@ While scientific results are recorded or archived at the nLab, and undergo furth
 With few exceptions, all edits to the nLab (either the creation of a new page or the revision of an extant one) should be announced at the nForum, in the "Latest Changes" category. 
 =-- 
 
-The only real exceptions are very minor edits such as correction of spelling mistakes or obvious typos or indisputable grammatical errors.  However, because of this rule there can at times be a large volume of Latest Changes posts; thus a corollary is that Latest Changes posts at the forum should generally be kept very short and to the point.  They should also include a link to the nLab page in question (links at the nForum are created with the same `[[syntax]]` as on the nLab itself).
+The only real exceptions are very minor edits such as correction of spelling mistakes or obvious typos or indisputable grammatical errors.  However, because of this rule there can at times be a large volume of Latest Changes posts; thus a corollary is that Latest Changes posts at the forum should generally be kept very short and to the point.  They should also include a link to the nLab page in question (links at the nForum are created with the same `[‍[syntax]]` as on the nLab itself).
 
 The nForum is also home to wide-ranging discussion of scientific matters related to this project, and we encourage newcomers to join these conversations as well and get to know the existing members of the community.  We ask each other questions and suggest ideas; then when those ideas yield fruit, we often record the results back in the nLab. 
 
@@ -150,7 +150,7 @@ Unlike the above advice about notation, such variations in spelling and punctuat
 
 ## References 
 
-* Paul Halmos, *How To Write Mathematics*, Enseign. Math. (2) 16 (1970), 123-152. ([online pdf](http://www2.math.uu.se/~takis/ETC/Halmos_howToWriteMath.pdf)) 
+* Paul Halmos, *How To Write Mathematics*, Enseign. Math. (2) 16 (1970), 123-152. ([online pdf](http://www2.math.uu.se/~takis/ETC/Halmos_howToWriteMath.pdf)) {#Halmos}
 
 
 [[!redirects writing in the nLab]]
