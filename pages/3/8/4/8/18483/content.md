@@ -17,7 +17,7 @@ Perhaps the one overarching piece of advice we can impart to newcomers, which ap
 Let the mathematics, physics, and philosophy speak for itself; try to get your own self out of the way. 
 =-- 
 
-The purpose of the community of nLab editors is to maximize insight, both for other members of that community and for others readers, and largely from a particular point of view called the [[nPOV]], as well as from the [[string theory]] point of view for physics related articles.  When joining that community, your purpose should be the same.  The existing community has found that this happens best in an atmosphere where we minimize distractions and help keep ourselves and our readers focused on the big picture. This advice may seem obvious, but there is a bit more to it than may appear at first glance, and so we elaborate on it below.
+The purpose of the community of nLab editors is to maximize insight, both for other members of that community and for others readers.  
 
 While scientific results are recorded or archived at the nLab, and undergo further polishing and revision there, the principal organ of communication we have is the [[nForum]]. A basic rule is that 
 
