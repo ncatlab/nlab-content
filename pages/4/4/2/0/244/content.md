@@ -289,6 +289,8 @@ Textbook accounts:
 
   > (focused on [[tensor categories]])
 
+* {#Perrone24} [[Paolo Perrone]], Chapter 6 of: *Starting Category Theory*, World Scientific (2024) \[<a href="https://doi.org/10.1142/13670">doi:10.1142/13670</a>, [arXiv:1912.10642](http://arxiv.org/abs/1912.10642)\]
+
 Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 
 * _[[geometry of physics -- categories and toposes]]_, Section 2: _[Basic notions of categorical algebra](geometry+of+physics+--+categories+and+toposes#BasicNotionsOfCategoricalAlgebra)_
