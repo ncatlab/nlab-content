@@ -60,7 +60,7 @@ The original articles are
 
 * {#DasguptaMukhil95} Keshav Dasgupta, [[Sunil Mukhi]], _Orbifolds of M-theory_, Nucl. Phys. B465 (1996) 399-412 ([arXiv:hep-th/9512196](https://arxiv.org/abs/hep-th/9512196))
 
-* {#Witten95} [[Edward Witten]], _Five-branes And M-Theory On An Orbifold_, Nucl. Phys. B463:383-397, 1996 ([arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219))
+* {#Witten95} [[Edward Witten]]: *Five-branes And M-Theory On An Orbifold*, Nucl. Phys. B **463** (1996) 383-397 &lbrack;[arXiv:hep-th/9512219](https://arxiv.org/abs/hep-th/9512219), <a href="https://doi.org/10.1016/0550-3213(96)00032-6">doi:10.1016/0550-3213(96)00032-6</a>&rbrack;
 
 * {#Hori98} [[Kentaro Hori]], _Consistency Conditions for Fivebrane in M Theory on $\mathbb{R}^5/\mathbb{Z}_2$ Orbifold_, Nucl.Phys.B539:35-78, 1999 ([arXiv:hep-th/9805141](https://arxiv.org/abs/hep-th/9805141))
 
@@ -79,6 +79,7 @@ and in view of [[super-embedding formalism|super-embeddings]] of [[M5-branes]] i
 
 * {#FSS19c} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Section 4 of: _[[schreiber:Super-exceptional embedding construction of the M5-brane|Super-exceptional geometry: origin of heterotic M-theory and super-exceptional embedding construction of M5]]_ ([arXiv:1908.00042](https://arxiv.org/abs/1908.00042))
 
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]*, Journal of Geometry and Physics **156** (2020) 103775 &lbrack;[doi:10.1016/j.geomphys.2020.103775](https://doi.org/10.1016/j.geomphys.2020.103775), [arXiv:1909.12277](https://arxiv.org/abs/1909.12277)&rbrack;
 
 
 ### Relation to O4-planes
