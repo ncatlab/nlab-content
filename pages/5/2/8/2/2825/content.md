@@ -4,7 +4,13 @@ He got his PhD degree in 1996 at MIT, advised by [[Michael J. Hopkins]].
 
 His PhD students include [[Nathaniel Stapleton]] and [[Nima Rasekh]].
 
-* [website](https://rezk.web.illinois.edu/)
+* [personal page](https://rezk.web.illinois.edu/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Charles_Rezk)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=37595)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=kPOCW1AAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -30,7 +36,7 @@ Introducing [[quasi-elliptic cohomology]]:
 
 Review of [[higher topos theory]]:
 
-* [[Charles Rezk]], _Lectures on Higher Topos Theory_, Leeds 2019 ([pdf](https://rezk.web.illinois.edu/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]])
+* [[Charles Rezk]]: _Lectures on Higher Topos Theory_, Leeds (2019) &lbrack;[pdf](https://rezk.web.illinois.edu/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]]&rbrack;
 
 
 On [[complete Segal spaces]]:
