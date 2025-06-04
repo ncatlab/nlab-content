@@ -194,6 +194,8 @@ For the use of associahedra in [[scattering amplitudes]]:
 
 * Ross Glew, Tomasz Lukowski, _Amplitubes: Graph Cosmohedra_ &lbrack;[arXiv:2502.17564](https://arxiv.org/abs/2502.17564)&rbrack;
 
+Some discussion about the use of associahedra in physics occurred on the category theory Zulip [here](https://categorytheory.zulipchat.com/#narrow/channel/411259-theory.3A-science/topic/Amplituhedron.2C.20associahedron.2C.20and.20related.20approaches). 
+
 category: combinatorics
 [[!redirects associahedra]]
 [[!redirects Stasheff polytope]]
