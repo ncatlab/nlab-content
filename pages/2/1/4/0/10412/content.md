@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
@@ -28,10 +32,19 @@ For $k = 2$ again there is the "[[Parke-Taylor formula]]" efficiently expressing
 
 ## Related concepts
 
-* [[surfaceology]]
-
 * [[motives in physics]]
 
+* [[scattering amplitudes]]
+
+* [[Yang-Mills theory]]
+
+  * [[super Yang-Mills theory]]
+
+  * [[Tr(ϕ³)]]
+
+* [[associahedron]]
+
+* [[surfaceology]]
 
 ## References
 
