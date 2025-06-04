@@ -32,7 +32,10 @@ The ideas here generalize in many directions.  For example, not only properties,
 
 * A very precise way of stating this idea is encapsulated in [[Vladimir Voevodsky]]'s [[univalence axiom]], which is a fundamental part of [[homotopy type theory]] as a [[foundation]] for mathematics.  By identifying equivalences/isomorphisms with inhabitants of an [[identity type]], it ensures that all properties and structure which can be expressed within the formal [[type theory]] are invariant under such (see [AhrensNorth18](#AhrensNorth18)).
 
-* {#evil} In the [[category theory]] and [[higher category theory]] literature, a [[mathematical structure]] or [[definition]] is **evil** if it breaks equivalence invariance (see e.g. [Pavlovic 2023](#Pavlovic23), [Ferrer et al. 2024](#FerrerEtAl24)). The term "evil" in category theory was in use prior to the formation of the [[nLab]] itself in November 2008: two such instances of the use of "evil" are by [Mike Stay](https://reperiendi.wordpress.com/2007/09/19/the-problem-of-evil-and-cartesian-categories/) and [Urs Schreiber](https://golem.ph.utexas.edu/category/2007/08/more_on_tangent_categories.html) both in 2007. 
+* {#evil} In the [[category theory]] and [[higher category theory]] literature, a [[mathematical structure]] or [[definition]] has been called "evil" if it breaks equivalence invariance (see e.g. [Pavlovic 2023](#Pavlovic23), [Ferrer et al. 2024](#FerrerEtAl24)). Early usage of this terminology goes back to talks in 2005 ([p. 4 here](https://math.ucr.edu/home/baez/street/street2.pdf#page=4)) and blog discussion in 2006 ([here](https://math.ucr.edu/home/baez/corfield/2006/08/klein-2-geometry-iv.html#115517983940912832)), where it says:
+  > "But what do I mean by **evil**? This is a technical term here: it means "not invariant under equivalence of categories"."
+
+
 
 ## Motivation
 
@@ -40,7 +43,7 @@ The ideas here generalize in many directions.  For example, not only properties,
 
 ...
 
->Draw an analogy with vector spaces (maybe just finite-dimensional ones?).  We can *use* a basis to study a vector space, but the basis is not *part of* the vector space.  Even if we use a foundation of mathematics in which the basis literally is part of the vector space (which arguably was the case for 18th-century linear algebra, which studied only Cartesian spaces; and is still the case today if we study finite-dimensional vector spaces using a foundational type theory with propositions as types, but probably this is too obscure), anything that we consider to be a property *of the vector space* should be independent of the basis.  We can make this precise by comparing the groupoids $Vect_\sim$ and $Vect_b$.
+> Draw an analogy with vector spaces (maybe just finite-dimensional ones?).  We can *use* a basis to study a vector space, but the basis is not *part of* the vector space.  Even if we use a foundation of mathematics in which the basis literally is part of the vector space (which arguably was the case for 18th-century linear algebra, which studied only Cartesian spaces; and is still the case today if we study finite-dimensional vector spaces using a foundational type theory with propositions as types, but probably this is too obscure), anything that we consider to be a property *of the vector space* should be independent of the basis.  We can make this precise by comparing the groupoids $Vect_\sim$ and $Vect_b$.
 
 ...
 
