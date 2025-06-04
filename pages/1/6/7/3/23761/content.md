@@ -329,12 +329,12 @@ The original article:
 
 see also 
 
-* Doru Sticlet, Frederic Piéchon, [[Jean-Noël Fuchs]], Pavel Kalugin, Pascal Simon, Section 2.B.1 (pp. 3) of: *Geometrical engineering of a two-bands Chern insulator in two dimensions with arbitrary topological index*, Phys. Rev. B **85** 165456 (2012) &lbrack;[arXiv:1201.6613](https://arxiv.org/abs/1201.6613), [doi:10.1103/PhysRevB.85.165456](https://doi.org/10.1103/PhysRevB.85.165456)&rbrack;
+* Doru Sticlet, [[Frédéric Piéchon]], [[Jean-Noël Fuchs]], Pavel Kalugin, Pascal Simon, Section 2.B.1 (pp. 3) of: *Geometrical engineering of a two-bands Chern insulator in two dimensions with arbitrary topological index*, Phys. Rev. B **85** 165456 (2012) &lbrack;[arXiv:1201.6613](https://arxiv.org/abs/1201.6613), [doi:10.1103/PhysRevB.85.165456](https://doi.org/10.1103/PhysRevB.85.165456)&rbrack;
 
 
 Review:
 
-* *Online course on topology in condensed matter*, *Haldane model, Berry curvature, and Chern number* (2015-) &lbrack;[topocondmat.org/w4_haldane/haldane_model.html](https://topocondmat.org/w4_haldane/haldane_model.html)&rbrack;
+* [[Duncan Haldane]]: *Online course on topology in condensed matter*, *Haldane model, Berry curvature, and Chern number* (2015-) &lbrack;[topocondmat.org/w4_haldane/haldane_model.html](https://topocondmat.org/w4_haldane/haldane_model.html)&rbrack;
 
 * {#Atteia16} [[Jonathan Atteia]], *Topology and electronic transport in Dirac systems under irradiation* (2016) &lbrack;[tel:02426217](https://tel.archives-ouvertes.fr/tel-02426217), [pdf](https://tel.archives-ouvertes.fr/tel-02426217/document)&rbrack;
 
