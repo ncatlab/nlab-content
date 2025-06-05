@@ -18,6 +18,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -65,7 +66,7 @@ The original articles:
 
 * [[Sheldon Katz]], [[Cumrun Vafa]]: *Matter From Geometry*,  Nucl. Phys. B **497** (1997) 146-154 &lbrack;[arXiv:hep-th/9606086](https://arxiv.org/abs/hep-th/9606086), <a href="https://doi.org/10.1016/S0550-3213(97)00280-0">doi:10.1016/S0550-3213(97)00280-0</a>&rbrack;
 
-* {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]]: *Geometric Engineering of Quantum Field Theories*, Nucl.Phys. B **497** (1997) 173-195 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)00282-4">doi:10.1016/S0550-3213(97)00282-4</a>, [arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239)&rbrack;
+* {#KatzKlemmVafa97} [[Sheldon Katz]], [[Albrecht Klemm]], [[Cumrun Vafa]]: *Geometric Engineering of Quantum Field Theories*, Nucl. Phys. B **497** (1997) 173-195 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)00282-4">doi:10.1016/S0550-3213(97)00282-4</a>, [arXiv:hep-th/9609239](http://arxiv.org/abs/hep-th/9609239)&rbrack;
 
 * {#KatzKlemm96} [[Sheldon Katz]], [[Cumrun Vafa]], _Geometric Engineering of $N=1$ Quantum Field Theories_, Nucl.Phys. B **497** (1997) 196-204 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(97)00283-6">doi:10.1016/S0550-3213(97)00283-6</a>, [arXiv:hep-th/9611090](http://arxiv.org/abs/hep-th/9611090)&rbrack;
 
@@ -78,19 +79,18 @@ Review:
 
 * [[Amit Giveon]], [[David Kutasov]]: *Brane Dynamics and Gauge Theory*, Rev. Mod. Phys. **71** (1999) 983-1084 &lbrack;[arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067) [doi:10.1103/RevModPhys.71.983](https://doi.org/10.1103/RevModPhys.71.983)&rbrack;
 
-* [[Andreas Karch]], _Field Theory Dynamics from Branes in String Theory_, PhD thesis (1998) &lbrack;[doi:10.18452/14371](https://doi.org/10.18452/14371)&rbrack;
+* [[Andreas Karch]]: _Field Theory Dynamics from Branes in String Theory_, PhD thesis, Berlin (1998) &lbrack;[doi:10.18452/14371](https://doi.org/10.18452/14371)&rbrack;
 
 * [[David Morrison]], *Limitations of Geometric Engineering: Implications for Model Building*, talk (2008) &lbrack;slides:[[Morrison-GeometricEngineering.pdf:file]]&rbrack;
 
 * Moritz Kuentzler: *Elliptic Fibrations for F-Theory Geometric Engineering* (2014) PhD thesis &lbrack;[webpage](https://kclpure.kcl.ac.uk/portal/en/studentTheses/elliptic-fibrations-for-f-theory-geometric-engineering), [pdf](https://kclpure.kcl.ac.uk/ws/portalfiles/portal/44454578/2014_Kuentzler_Moritz_1146215_ethesis.pdf)&rbrack;
 
     
-
 * {#Fazzi17} [[Marco Fazzi]], _Higher-dimensional field theories from type II supergravity_ &lbrack;[arXiv:1712.04447](https://arxiv.org/abs/1712.04447)&rbrack;
 
 * Iñaki García Etxebarria: *Symmetries from string theory* talk notes (2021) &lbrack;[pdf](https://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Garcia-Etxebarria.pdf)&rbrack;
 
-* [[Michele Del Zotto]]: *Uncharted Territories in Geometric Engineering*, talk at *[Strings and Geometry 2023](https://web.sas.upenn.edu/strings-and-geometry-2023/)* (2023) \[slides:[pdf](https://web.sas.upenn.edu/strings-and-geometry-2023/files/2023/03/Talk9DelZotto.pdf), video:[YT](https://www.youtube.com/watch?v=hmuudu_C9JM)\]
+* [[Michele Del Zotto]]: *Uncharted Territories in Geometric Engineering*, talk at *[Strings and Geometry 2023](https://web.sas.upenn.edu/strings-and-geometry-2023/)* (2023) \[slides:[pdf](https://web.sas.upenn.edu/strings-and-geometry-2023/files/2023/03/Talk9DelZotto.pdf), [[DelZotto-GeometricEngineering.pdf:file]], video:[YT](https://www.youtube.com/watch?v=hmuudu_C9JM)\]
 
 Further developments:
 
