@@ -19,45 +19,53 @@
 
 ## Definition
 
-By __$Topos$__ (or __$Toposes$__) is denoted the [[category]] of [[topos]]es. Usually this means:
+By __$Topos$__ (or __$Toposes$__) is denoted the [[category]] of [[toposes]]. Usually this means:
 
-* [[object]]s are [[topos]]es;
+* [[objects]] are [[sheaf toposes]];
 
-* [[morphism]]s are [[geometric morphism]]s of toposes.
+* [[morphisms]] are [[geometric morphisms]] of toposes.
+
+
+> (In parts of the literature this is denoted merely "$Top$", but that clashes with the common notation for the [[Top|the category of]] [[topological spaces]].)
+
 
 This is naturally a [[2-category]], where
 
-* [[2-morphism]] are [[geometric transformation]]s 
+* [[2-morphism]] are [[geometric transformations]].
 
-That is, a 2-morphism $f\to g$ is a [[natural transformation]] $f^* \to g^*$ (which is, by [[mate]] calculus, equivalent to a natural transformation $g_* \to f_*$ between [[direct image]]s).  Thus, $Toposes$ is equivalent to both of
+That is, a 2-morphism $f\to g$ is a [[natural transformation]] $f^* \to g^*$ (which is, by [[mate]] calculus, equivalent to a natural transformation $g_* \to f_*$ between [[direct image]]s).  
 
-* the (non-full) [[sub-2-category]] of $Cat^{op}$ on categories that are toposes and morphisms that are the inverse image parts of geometric morphisms, and
-* the (non-full) sub-2-category of $Cat^{co}$ on categories that are toposes and morphisms that are the direct image parts of geometric morphisms.
+Thus, $Toposes$ is equivalent to both of
 
-### Related 2-categories
+* the (non-full) [[sub-2-category]] of the [[opposite 2-category|1-opposite]] $Cat^{op}$ of [[Cat]] on categories that are sheaf toposes and morphisms that are the [[inverse image]] parts of [[geometric morphisms]], and
 
-* There is also the sub-2-category $ShToposes = GrToposes$ of [[sheaf topos]]es (i.e. Grothendieck toposes).
+* the (non-full) sub-2-category of the [[opposite 2-category|2-opposite]] $Cat^{co}$ of [[Cat]] on categories that are sheaf toposes and morphisms that are the [[direct image]] parts of geometric morphisms.
 
-* Note that in some literature this 2-category is denoted merely $Top$, but that is also commonly used to denote [[Top|the category]] of [[topological spaces]].
 
-* We obtain a very different 2-category of toposes if we take the morphisms to be [[logical functors]]; this 2-category is sometimes denoted $Log$ or $LogTopos$.
+\begin{remark}\label{ElementaryToposesAndLogicalFunctors}
+**(elementary toposes and logical functors)**
+We obtain a very different 2-category of toposes if we take objects to be [[elementary toposes]] and morphisms the [[logical functors]]; this 2-category is sometimes denoted $Log$ or $LogTopos$.
+\end{remark}
+
 
 
 ## Properties
-
 
 ### From topological spaces to toposes
 
 The operation of forming [[categories of sheaves]]
 
 $$
-  Sh(-) : Top \to ShToposes
+  Sh(-) \,\colon\, Top \longrightarrow Topos
 $$
 
-embeds [[topological space]]s into toposes. For $f : X \to Y$ a [[continuous map]] we have that $Sh(f)$ is the [[geometric morphism]]
+embeds [[topological spaces]] into toposes. For $f \colon X \to Y$ a [[continuous map]] we have that $Sh(f)$ is the [[geometric morphism]]
 
 $$
-  Sh(f) : Sh(X) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
+  Sh(f) 
+   \,\colon\, 
+  Sh(X) 
+    \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}
   Sh(Y)
 $$
 
@@ -70,14 +78,16 @@ However, if we regard $Top$ as a [[(1,2)-category]] where the 2-cells are inequa
 
 ### From toposes to higher toposes
 
-There are similar full embeddings $ShTopos \hookrightarrow Sh 2 Topos$ and $ShTopos \hookrightarrow Sh(n,1)Topos$ of sheaf (1-)toposes into [[2-sheaf]] [[2-topos]]es and sheaf [[(n,1)-topos]]es for $2\le n\le \infty$.  Note that these embeddings are *not* the identity functor on underlying categories: a 1-topos is not itself an $n$-topos, instead we have to take $n$-sheaves on a suitable generating [[site]] for it.
+There are similar full embeddings $Topos \hookrightarrow 2 Topos$ and $Topos \hookrightarrow (n,1)Topos$ of sheaf (1-)toposes into [[2-sheaf]] [[2-toposes]] and sheaf [[(n,1)-toposes]] for $2\le n\le \infty$.  
+
+Note that these embeddings are *not* the identity functor on underlying categories: a 1-topos is not itself an $n$-topos, instead we have to take $n$-sheaves on a suitable generating [[site]] for it.
 
 ### From locally presentable categories to toposes
  {#AdjunctionToLocallyPresentable}
 
-There is a canonical [[forgetful functor]] $ U : Topos \to$ [[Cat]] that lands, by definition, in the sub-2-category of [[locally presentable categories]] and [[functors]] which preserve all limits / are [[right adjoints]]. 
+There is a canonical [[forgetful functor]] $ U : Topos \to$ [[PrCat|LocPrCat]]${}^{op}$  assigning [[underlying]] [[locally presentable categories]]. 
 
-This [[2-functor]] has a [[2-adjunction|right 2-adjoint]] ([Bunge-Carboni](#BungeCarboni)).
+This [[2-functor]] has a [[2-adjunction|right 2-adjoint]] ([Bunge & Carboni 1995 p 235](#BungeCarboni95)).
 
 
 
@@ -85,6 +95,8 @@ This [[2-functor]] has a [[2-adjunction|right 2-adjoint]] ([Bunge-Carboni](#Bung
  {#Limits}
 
 The 2-category $Topos$ is not all that well-endowed with [[limits]], but its [[slice categories]] are finitely complete [[2-limit|as 2-categories]], and $ShTopos$ is closed under finite limits in $Topos/Set$.  In particular, the [[terminal object]] in $ShToposes$ is the topos [[Set]] $\simeq Sh(*)$.
+
+
 
 #### Colimits
  {#Colimits}
@@ -98,7 +110,7 @@ All small (indexed) [[2-colimit]]s in $ShTopos$ exists and are computed as (inde
 
 =--
 
-This appears as ([Moerdijk, theorem 2.5](#Moerdijk))
+This appears as [Moerdijk, theorem 2.5](#Moerdijk)
 
 +-- {: .num_prop}
 ###### Proposition
@@ -149,6 +161,34 @@ The 2-category $Topos$ is an [[extensive category]]. Same for toposes bounded ov
 
 This is in ([BungeLack, proposition 4.3](#BungeLack)).
 
+#### Products
+ {#Products}
+
+\begin{proposition}\label{ProductOfGrothendieckToposes}
+The [[Cartesian product]] of [[presheaf toposes]] $PSh(C_i)$ in $Topos$ is the presheaf topos on the [[product category]] of their sites:
+$$
+  PSh(C_1)
+  \times_{Topos}
+  PSh(C_2)
+  \;\simeq\;
+  PSh(C_1 \times_{Cat} C_2 )
+  \,.
+$$
+More generally, for $J_i$ a [[Grothendieck topology]] on $C_i$, the product in $Topos$ of the sheaf topos is the sheaf topos over the product site $(C_1 \times C_2, J_1 \times J_2)$, where $J_1 \times J_2$ is the Grothendieck topology on the [[product category]] generated from products of [[covering sieves]] from $J_1$ and $J_2$:
+$$
+  Sh(C_1, J_1)
+  \times_{Topos}
+  PSh(C_2, J_2)
+  \;\simeq\;
+  PSh(C_1 \times C_2,\,  J_1 \times J_2 )
+  \,.
+$$
+\end{proposition}
+
+(cf. [Pitts 1985 proof of Thm. 2.3](#Pitts85), [Valero 2018 p 98-99](#Valero18))
+
+
+
 #### Pullbacks
  {#Pullbacks}
 
@@ -192,10 +232,12 @@ $$
   \array{
     && \mathcal{X}
     \\
-    && \downarrow^{\mathrlap{(g^* \dashv g_*)}}
+    && 
+    ^{\mathllap{(g^* \dashv g_*)}}
+    \Big\downarrow
     \\
     \mathcal{Y}
-    &\stackrel{(f^* \dashv f_*)}{\to}&  
+    &\underset{(f^* \dashv f_*)}{\longrightarrow}&  
     \mathcal{Z}
   }
   \right) 
@@ -206,10 +248,11 @@ $$
   \array{
     && Sh(\mathcal{D})
     \\
-    && \downarrow^{\mathrlap{(Lan_g \dashv (-)\circ g)}}
+    && 
+    ^{\mathllap{(Lan_g \dashv (-)\circ g)}}\Big\downarrow
     \\
     Sh(\tilde \mathcal{D})
-    &\stackrel{(Lan_f \dashv (-)\circ f)}{\to}&  
+    &\underset{(Lan_f \dashv (-)\circ f)}{\longrightarrow}&  
     Sh(\mathcal{C})
   }
   \right) 
@@ -220,12 +263,18 @@ Let then
 
 $$
   \array{
-    \tilde \mathcal{D} \coprod_{\mathcal{C}} \mathcal{D} &\stackrel{f'}{\leftarrow}& \mathcal{D}
+    \widetilde{\mathcal{D}} 
+      \textstyle{\coprod_{\mathcal{C}}} 
+    \mathcal{D} 
+      &\overset{f'}{\longleftarrow}& 
+    \mathcal{D}
     \\
-    {}^{\mathllap{g'}}\uparrow &\swArrow_{\simeq}& \uparrow^{\mathrlap{g}}
+    \mathllap{{}^{g'}}\big\uparrow 
+       &\swArrow_{\simeq}& 
+    \big\uparrow\mathrlap{^g}
     \\
-    \tilde \mathcal{D}
-    &\stackrel{f}{\leftarrow}&  
+    \widetilde{\mathcal{D}}
+      &\underset{f}{\longleftarrow}&  
     \mathcal{C}
   }
   \,\,\,\,\,
@@ -233,14 +282,22 @@ $$
   Cat^{lex}
 $$
 
-be the [[pushout]] of the underlying [[categories]] in the [[full subcategory]] [[Cat]]${}^{lex} \subset Cat$ of categories with finite limits.
+be the [[pushout]] of the underlying [[categories]] in the non-[[full subcategory|full]] [[subcategory]] ${Cat}^{lex} \subset Cat$ of categories with [[finite limits]] and [[preserved limit|limit-preserving]] functors between them (cf. [Lurie, prop. 6.3.4.3](#Lurie)).
 
 Let moreover
 
 $$
-  Sh(\tilde \mathcal{D} \coprod_{\mathcal{C}} \mathcal{D})
+  Sh\big(
+    \widetilde{\mathcal{D}}
+      \textstyle{\coprod_{\mathcal{C}}} 
+    \mathcal{D}
+  \big)
   \hookrightarrow
-  PSh(\tilde \mathcal{D} \coprod_{\mathcal{C}} \mathcal{D})
+  PSh\big(
+    \widetilde{\mathcal{D}} 
+      \textstyle{\coprod_{\mathcal{C}}}
+    \widetilde{\mathcal{D}}
+  \big)
 $$
 
 be the [[reflective subcategory]] obtained by [[localization]] at the class of morphisms generated by the inverse image $Lan_{f'}(-)$ of the [[covering]]s of $\mathcal{D}$ and the inverse image $Lan_{g'}(-)$ of the coverings of $\tilde \mathcal{D}$.
@@ -265,13 +322,13 @@ is a [[pullback]] square.
 
 =--
 
-This appears for instance as ([Lurie, prop. 6.3.4.6](#Lurie)).
+This appears as [Lurie, prop. 6.3.4.6](#Lurie).
 
 
 +-- {: .num_remark}
 ###### Remark
 
-For [[localic toposes]] this reduces to the statement of [[localic reflection]]: the pullback of toposes is given by the of the underlying [[locales]] which in turn is the [[pushout]] of the corresponding [[frames]].
+For [[localic toposes]] this reduces to the statement of [[localic reflection]]: the pullback of toposes is given by the of pullback the underlying [[locales]] which in turn is the [[pushout]] of the corresponding [[frames]].
 
 =--
 
@@ -288,27 +345,32 @@ The [[free loop space object]] of a topos in [[Topos]] is called the [[isotropy 
 
 ## References
 
-The characterization of colimits in $Topos$ is in
+On [[Cartesian products]] and [[base change]] in $Topos$:
 
-* [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid. I_ Transaction of the American mathematical society Volume 310, Number 2, (1988) ([pdf](http://www.ams.org/journals/tran/1988-310-02/S0002-9947-1988-0973173-9/S0002-9947-1988-0973173-9.pdf))
-{#Moerdijk}
+* {#Pitts85} [[Andrews Pitts]]: *On product and change of base for toposes*, [[Cahiers]] de topologie et géométrie différentielle catégoriques **26** 1 (1985) 43-61 &lbrack;[numdam:CTGDC_1985__26_1_43_0](https://www.numdam.org/item/?id=CTGDC_1985__26_1_43_0), [pdf](https://www.numdam.org/item/CTGDC_1985__26_1_43_0.pdf)&rbrack;
 
-The fact that $Topos$ is extensive is in
+On the characterization of colimits in $Topos$:
 
-* [[Marta Bunge]], [[Steve Lack]], _van Kampen theorem for toposes_ ([ps](http://www.maths.usyd.edu.au/u/stevel/papers/vkt.ps.gz))
-{#BungeLack}
+* {#Moerdijk} [[Ieke Moerdijk]], _The classifying topos of a continuous groupoid. I_ Transaction of the American mathematical society **310** 2 (1988) &lbrack;[pdf](http://www.ams.org/journals/tran/1988-310-02/S0002-9947-1988-0973173-9/S0002-9947-1988-0973173-9.pdf)&rbrack;
 
-Limits and colimits of toposes are discussed in 6.3.2-6.3.4 of 
+The fact that $Topos$ is extensive:
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
- {#Lurie}
+* {#BungeLack} [[Marta Bunge]], [[Steve Lack]]: _van Kampen theorem for toposes_ &lbrack;[ps](http://www.maths.usyd.edu.au/u/stevel/papers/vkt.ps.gz)&rbrack;
 
-There this is discussed for for [[(∞,1)-topos]]es, but the statements are verbatim true also for ordinary toposes (in the [[(2,1)-category]] version of $Topos$).
+General limits and colimits of toposes: 
 
-The adjunction between toposes and locally presentable categories is discussed in 
+* {#Lurie} [[Jacob Lurie]], 6.3.2-6.3.4 of: _[[Higher Topos Theory]]_ (1992) 
+  > (discussed for [[(∞,1)-toposes]], but the statements are verbatim true in the [[(2,1)-category]] category $Topos$)
 
-* [[Marta Bunge]], [[Aurelio Carboni]], _The symmetric topos_, Journal of Pure and Applied Algebra 105:233-249, (1995)
- {#BungeCarboni}
+The adjunction between toposes and locally presentable categories:
+
+* {#BungeCarboni95} [[Marta Bunge]], [[Aurelio Carboni]]: *The symmetric topos*, Journal of Pure and Applied Algebra **105** (1995) 233-249 \[<a href="https://doi.org/10.1016/0022-4049(94)00157-X">doi;10.1016/0022-4049(94)00157-X</a>\]
+
+
+See also:
+
+* {#Valero18} Juan Sebastian Arias Valero: *Gesture Theory: Topos-Theoretic Perspectives and Philosophical Framework*, PhD thesis (2018) &lbrack;[handle:63339](https://repositorio.unal.edu.co/handle/unal/63339), [pdf](https://repositorio.unal.edu.co/bitstream/handle/unal/63339/Thesisfinal.pdf)&rbrack;
+
 
 category: category
 
