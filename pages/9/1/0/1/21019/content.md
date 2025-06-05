@@ -40,6 +40,9 @@ See also:
 
 * [[Cumrun Vafa]]: *Chern-Simons Theory, Holography and Topological Strings* &lbrack;[arXiv:2505.09750](https://arxiv.org/abs/2505.09750)&rbrack;
 
+* [[Davide Gaiotto]], Suriyah Rajalingam Kannagi, Sergio Sanjurjo: *D-branes and the planar limit of Chern-Simons theory I: Link invariants* &lbrack;[arXiv:2506.03246](https://arxiv.org/abs/2506.03246)&rbrack;
+
+
 
 
 ### Dual closed topological string theory
