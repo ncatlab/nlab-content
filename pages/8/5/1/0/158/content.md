@@ -36,12 +36,12 @@ Special cases of $\infty$-groupoids include [[groupoid]]s, [[2-groupoid]]s, [[3-
 
 ### Presentations
 
-There are many ways to [[presentable (∞,1)-category|present]] the [[(∞,1)-category]] [[∞Grpd]] of all $\infty$-groupoids, or at least obtain its [[homotopy category]].
+There are many ways to model the [[(∞,1)-category]] [[∞Grpd]] of all $\infty$-groupoids, or at least obtain its [[homotopy category]].
 
 A simple and very useful incarnation of $\infty$-groupoids is available using a [[geometric definition of higher categories]] in the form of [[simplicial sets]] that are [[Kan complex]]es: the $k$-cells of the underlying simplicial set are the [[k-morphism]]s of the $\infty$-groupoid, and the Kan [[horn]]-[[filler]] conditions encode the fact that adjacent $k$-morphisms have a (non-unique) composite $k$-morphism and that every $k$-morphism is invertible with respect to this composition.
 See [[Kan complex]] for a detailed discussion of how these incarnate $\infty$-groupoids. 
 
-The [[(∞,1)-category]] of all $\infty$-groupoids is [[presentable (∞,1)-category|presented]] along these lines by the Quillen [[model structure on simplicial sets]], whose fibrant-cofibrant objects are precisely the Kan complexes:
+The [[(∞,1)-category]] of all $\infty$-groupoids is modeled along these lines by the Quillen [[model structure on simplicial sets]], whose fibrant-cofibrant objects are precisely the Kan complexes:
 $$
   \infty Grpd \simeq (sSet_{Quillen})^\circ.
 $$
