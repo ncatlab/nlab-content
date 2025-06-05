@@ -590,6 +590,11 @@ Further developments:
 
 * Sukŗti Bansal, *Manifestly Covariant Polynomial M5-brane Lagrangians*,  J. High Energ. Phys. **2024** 87 (2024)  &lbrack;[arXiv:2307.13449](https://arxiv.org/abs/2307.13449), <a href="https://doi.org/10.1007/JHEP01(2024)087">doi:10.1007/JHEP01(2024)087</a>&rbrack;
 
+[[BPS state|BPS]] solution in [[pp-wave]] backgounds:
+
+* Yuhma Asano, Goro Ishiki, Yuto Yoshida: *Classical BPS M5-brane on the plane wave background* &lbrack;[arXiv:2506.03708](https://arxiv.org/abs/2506.03708)&rbrack;
+
+
 
 
 
