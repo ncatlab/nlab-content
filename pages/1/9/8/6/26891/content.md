@@ -1,8 +1,6 @@
 
 * [personal page](https://www.federicapasqualone.com/)
 
-* [institute page](https://www.cmu.edu/dietrich/philosophy/people/phd/federica-pasqualone.html)
-
 
 ## Selected writings
 
