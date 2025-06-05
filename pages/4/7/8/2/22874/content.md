@@ -32,6 +32,9 @@ On the [[Coulomb branch]] of [[D=3 N=4 SYM]] from [[heterotic string theory]] on
 
 On [[geometric engineering of QFTs]] cast in "[[generalized symmetry]]" language:
 
+* [[Michele Del Zotto]]: *Uncharted Territories in Geometric Engineering*, talk at *[Strings and Geometry 2023](https://web.sas.upenn.edu/strings-and-geometry-2023/)* (2023) \[slides:[pdf](https://web.sas.upenn.edu/strings-and-geometry-2023/files/2023/03/Talk9DelZotto.pdf), [[DelZotto-GeometricEngineering.pdf:file]], video:[YT](https://www.youtube.com/watch?v=hmuudu_C9JM)\]
+
+
 * [[Michele Del Zotto]], Shani Nadir Meynet, Robert Moscrop: *Remarks on Geometric Engineering, Symmetry TFTs and Anomalies* &lbrack;[arXiv:2503.19022](https://arxiv.org/abs/2503.19022)&rbrack;
 
 
