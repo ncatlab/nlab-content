@@ -425,7 +425,7 @@ Detailed rigorous discussion for [[quadratic Hamiltonians]] and for [[phase spac
 
 Discussion of quantization of [[Chern-Simons theory]] via a [[Wiener measure]] is in
 
-* Adrian P. C. Lim, _Chern-Simons Path Integral on $\mathbb{R}^3$ using Abstract Wiener Measure_ ([pdf](http://www.math.cornell.edu/~pclim/Docs/papers/CSabe01.pdf))
+* Adrian P. C. Lim. _Chern-Simons Path Integral on $\mathbb{R}^3$ Using Abstract Wiener Measure_. Commun. Math. Anal., vol. 11, num. 2; 1-22 (2011). ([Euclid](https://projecteuclid.org/journals/communications-in-mathematical-analysis/volume-11/issue-2/Chern-Simons-Path-Integral-on-R3-Using-Abstract-Wiener-Measure/cma/1298669952.full),  [MR2780879](https://mathscinet.ams.org/mathscinet-getitem?mr=MR2780879)).
 
 Lecture notes on [[quantum field theory]], emphasizing mathematics of the Euclidean path integrals and the relation to statistical physics are at
 
