@@ -82,7 +82,7 @@ who attributes the term "pseudogroup" to
 
 The relation of pseudogroups to [[Lie groupoids]] originates with Haefliger, see at _[[Haefliger groupoid]]_. 
 
-Further discussion of the relation of psuedogroups to [[étale groupoids]]/[[étale stacks]] includes
+Further discussion of the relation of pseudogroups to [[étale groupoids]]/[[étale stacks]] includes
 
 * {#LawsonLenz11} [[Mark Lawson]], [[Daniel Lenz]], _Pseudogroups and their &#233;tale groupoids_ ([arXiv:1107.5511](http://arxiv.org/abs/1107.5511))
 
