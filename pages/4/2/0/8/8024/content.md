@@ -91,6 +91,10 @@ $\pi_3(\mathbb{S})$
 
 * [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Mock modularity and a secondary elliptic genus* ([arXiv:1904.05788](https://arxiv.org/abs/1904.05788))
 
+On [[Chern-Simons theory]] as a [[topological string theory]]:
+
+* [[Davide Gaiotto]], Suriyah Rajalingam Kannagi, Sergio Sanjurjo: *D-branes and the planar limit of Chern-Simons theory I: Link invariants* &lbrack;[arXiv:2506.03246](https://arxiv.org/abs/2506.03246)&rbrack;
+
 
 
 ## Related entries
