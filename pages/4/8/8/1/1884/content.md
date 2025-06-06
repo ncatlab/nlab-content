@@ -2771,7 +2771,7 @@ Textbook accounts:
 
 * {#Switzer75} [[Robert Switzer]], sections 11 and 13.90 of: _Algebraic Topology - Homotopy and Homology_, Grundlehren **212** Springer (1975) &lbrack;[doi:10.1007/978-3-642-61923-6_12](https://doi.org/10.1007/978-3-642-61923-6_12)&rbrack;
 
-* {#Karoubi} [[Max Karoubi]], _K-Theory -- An introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
+* {#Karoubi} [[Max Karoubi]], _K-Theory -- An Introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
 
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_, 2003/2009 ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
