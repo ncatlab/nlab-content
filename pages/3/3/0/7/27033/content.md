@@ -28,6 +28,10 @@ We can also state the principle set-theoretically, with explicit reference to th
 
 While $LPO$ for $\mathbb{N}$ is a classic example of the difference between constructive and classical mathematics, $LPO$ holds for the set $\overline{\mathbb{N}}$ of [[extended natural number]]s; this is related to the fact that $\overline{\mathbb{N}}$ may constructively be given a [[compact space|compact]] topology. See [Escard&#243; (2011)](#Escardo11) for this and much more.
 
+### In the antithesis interpretation
+
+In the [[antithesis interpretation]] of constructive mathematics, propositions are functions from from the [[boolean domain]] $\{0,1\}$ to the [[set of truth values]] $\Omega$. Given any [[set]] $A$ and [[function]] $f$ from $A$ to $\{0,1\}$, the antithesis proposition $b \mapsto f(x) = b$ is [[mutually exclusive propositions|mutually exclusive]] and [[decidable proposition|decidable]] by the [[induction principle]] of the [[boolean domain]]. As a result, the [[affine logic|affine]] [[existential quantifier]] $\bigsqcup_{x \in A} (b \mapsto f(x) = b)$ is mutually exclusive and affirmative and the the [[affine logic|affine]] [[universal quantifier]] $\bigsqcap_{x \in A} (b \mapsto f(x) = b)$ is mutually exclusive and refutative. The __limited principle of omniscience for $A$__ ($LPO_A$) states that, given any [[function]] $f$ from $A$ to the [[boolean domain]] $\{0,1\}$, $\bigsqcup_{x \in A} (b \mapsto f(x) = b)$ or $\bigsqcap_{x \in A} (b \mapsto f(x) = b)$ is decidable. 
+
 ### Using exclusive disjunction
 
 There is an equivalent version of the limited principle of omniscience which uses the [[exclusive disjunction]] instead of the inclusive [[disjunction]] for the definition of a [[decidable proposition]]:
@@ -533,6 +537,14 @@ These two references call the limited principle of omniscience simply by the ter
 [[!redirects LPO]]
 [[!redirects limited principle of omniscience]]
 [[!redirects limited principles of omniscience]]
+
+[[!redirects antithesis LPO]]
+[[!redirects antithesis limited principle of omniscience]]
+[[!redirects antithesis limited principles of omniscience]]
+
+[[!redirects affine LPO]]
+[[!redirects affine limited principle of omniscience]]
+[[!redirects affine limited principles of omniscience]]
 
 [[!redirects internal LPO]]
 [[!redirects internal limited principle of omniscience]]
