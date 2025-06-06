@@ -258,7 +258,7 @@ where $\alpha(x)$ is the floor of $x$, and $\beta(x) = 1/(1 - x + \alpha(x)) - 1
 $$x = a_0 + \frac1{1 + \frac1{a_1 + \frac1{1 + \frac1{a_2 + \ldots}}}},$$ 
 and the resulting [[bijection]] $\mathbb{R}_+ \to \omega \times \omega \times \ldots$, sending $x$ to $(a_0, a_1, \ldots)$, is again a poset isomorphism if we endow the right-hand side with the lexicographic order.
 
-There are more and similar characterizations along these lines. An interesting application of the coalgebraic views is that they allow defining morphisms between the reals. A coalgebaic version Dedekind cuts or Conway numbers makes $\mathbb{R}$ into a compact category where the addition arises as the biproduct. The real vector spaces are the $\mathbb{R}$-enriched bicompletions and linear operators arise as the $\mathbb{R}$-enriched Kan extensions. ([Pavlovic 2020](#Pavlovic)) 
+There are more and similar characterizations along these lines. An interesting application of the coalgebraic views is that they allow defining morphisms between the reals. A coalgebraic version Dedekind cuts or Conway numbers makes $\mathbb{R}$ into a compact category where the addition arises as the biproduct. The real vector spaces are the $\mathbb{R}$-enriched bicompletions and linear operators arise as the $\mathbb{R}$-enriched Kan extensions. ([Pavlovic 2020](#Pavlovic)) 
 
 ### Smooth real numbers
 
