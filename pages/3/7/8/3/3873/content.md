@@ -33,6 +33,7 @@ The first relativistic Schr&#246;dinger type equation found was Klein-Gordon. At
 
 (...)
 
+
 ## Definition
 
 ### In components
@@ -168,32 +169,36 @@ Lecture notes:
 
 
 
-The relation to [[index theory]]:
+Relation to [[index theory]]:
 
-* {#BerlineGetzlerVergne04} [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]]: _Heat Kernels and Dirac Operators_, Springer Verlag Berlin (2004)
+* {#BerlineGetzlerVergne04} [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]]: *Heat Kernels and Dirac Operators*, Springer (2004) &lbrack;[doi:10.1007/978-3-642-58088-8](https://doi.org/10.1007/978-3-642-58088-8)&rbrack;
   
 based on original articles such as
 
-* {#MacKeanSinger67} H. MacKean, [[Isadore Singer]], _Curvature and eigenvalues of the Laplacian_, J. Diff. Geom. 1 (1967)
+* {#MacKeanSinger67} H. MacKean, [[Isadore Singer]]: _Curvature and eigenvalues of the Laplacian_, J. Diff. Geom. **1** (1967)
  
 * [[Michael Atiyah]], [[Raoul Bott]], V. K. Patodi, _On the heat equation and the index theorem_, Invent. Math. 19 (1973), 279-330.
 
 See also:
 
+* R. Parthasarathy, _Dirac operator and the discrete series_, Ann. of Math. __96__ (1972) 1-30
+
 * {#Freed87} [[Daniel Freed]], *Geometry of Dirac operators*, (1987) &lbrack;[pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf), [[FreedGeometryOfDiracOperators.pdf:file]]&rbrack;
  
-
-* C. Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
-
-* [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_, Lecture Notes, University of Toronto, Fall 2009.
-
-* Jing-Song Huang, Pavle Pand&#382;i&#263;, J.-S. Huang, P. Pandzic, Dirac Operators in Representation Theory,. Birkh&#228;user, Boston, 2006, 199 pages; short version _Dirac operators in representation theory_, 48 pp. [pdf](http://www.ims.nus.edu.sg/Programs/liegroups/files/singnotes.pdf)
+* C. Nash, _Differential topology and quantum field theory_, Acad. Press (1991) 
 
 * J.-S. Huang, Pavle Pand&#382;i&#263;, _Dirac cohomology, unitary representations and a proof of a conjecture of Vogan_, J. Amer. Math. Soc. __15__ (2002), 185&#8212;202.
 
-* R. Parthasarathy, _Dirac operator and the discrete series_, Ann. of Math. __96__ (1972), 1-30.
+* Jing-Song Huang, Pavle Pand&#382;i&#263;, J.-S. Huang, P. Pandzic, Dirac Operators in Representation Theory,. Birkh&#228;user (2006) &lbrack;[pdf](http://www.ims.nus.edu.sg/Programs/liegroups/files/singnotes.pdf)&rbrack;
+
+* [[Eckhard Meinrenken]]: _Clifford algebras and Lie groups_, Lecture Notes, University of Toronto (2009)
+
 
 Explicit formulas for [[Dirac operators]] parameterized by [[n-spheres]] and regarded as [[Fredholm operators]] representing [[topological K-theory]], with an eye towards the [[K-theory classification of topological phases of matter]]:
+
+* [[Paul Baum]]: *Dirac operator*, lecture at TIFR Mumbai, India (2015) &lbrack;[pdf](https://mathweb.tifr.res.in/sites/default/files/conferences/lectures/DiracOperator.pdf), [[Baum-DiracOperator.pdf:file]]&rbrack;
+
+* [[Paul Baum]], [[Erik van Erp]], 2.11 of: *$K$-homology and Fredholm operators I: Dirac operators*, Journal of Geometry and Physics **134** (2018) 101-118 &lbrack;[doi:10.1016/j.geomphys.2018.08.008](https://doi.org/10.1016/j.geomphys.2018.08.008)&rbrack;
 
 * [[Hermann Schulz-Baldes]], Tom Stoiber: *The generators of the $K$-groups of the sphere*, Expositiones Mathematicae **41** 4 (2023) 125519 &lbrack;[arXiv:2403.18944](https://arxiv.org/abs/2403.18944), [doi:10.1016/j.exmath.2023.125519](https://doi.org/10.1016/j.exmath.2023.125519)&rbrack;
 
