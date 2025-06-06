@@ -106,6 +106,10 @@ Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]
 
 * [[unified topological space]]
 
+* [[limited principle of omniscience]]
+
+* [[Markov's principle]]
+
 ## From a philosophical perspective
 
 Philosophically the antithesis translation positions itself at the crossroad of several approaches to "logicist metaphysics" that usually are thought to be incompatible:
