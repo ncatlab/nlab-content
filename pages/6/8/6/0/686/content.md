@@ -92,14 +92,70 @@ Even in their non-strict forms, the lax pullback and comma object are distinct. 
 
 Here are some more important examples of 2-limits, all of which come in strict and weak forms and respect the [[principle of equivalence]].
 
-* The **[[inserter]]** of a pair of parallel arrows $f,g:A \;\rightrightarrows\; B$ is a universal object $I$ equipped with a map $i:I\to A$ and a 2-cell $f i \to g i$.
+* The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.
 
-* The **[[equifier]]** of a pair of parallel 2-cells $\alpha,\beta: f\to g: A\to B$ is a universal object $E$ equipped with a map $e:E\to A$ such that $\alpha e = \beta e$.
+* The **[[inserter]]** of a pair of parallel arrows $f,g:A \;\rightrightarrows\; B$ is a universal object $I$ equipped with a map $i:I\to A$ and a 2-cell $f i \to g i$.
 
 * The **[[inverter]]** of a 2-cell $\alpha:f\to g:A\to B$ is a universal object $V$ with a map $v:V\to A$ such that $\alpha v$ is invertible.
 
-* The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.
+* The **[[identifier]]** of a 2-cell $\alpha:f\to g:A\to B$ is a universal object $V$ with a map $v:V\to A$ such that $\alpha v$ is the identity.
 
+* The **[[equifier]]** of a pair of parallel 2-cells $\alpha,\beta: f\to g: A\to B$ is a universal object $E$ equipped with a map $e:E\to A$ such that $\alpha e = \beta e$.
+
+
+## Existence and construction
+
+Strict 2-limits can be constructed from one another. We record some fact about this from ([Kelly '89](#Kelly89)).
+
+\begin{proposition}
+Every strict 2-limit can be constructed out of [[conical limits]] (which, in turn, can be constructed by either [[products]] and [[equalizers]] or [[pullbacks]] and [[terminal objects]]) and [[powers]] by the [[walking arrow]] $\mathbf{2}$.
+\end{proposition}
+\begin{proof}
+This is a special case of the fact that $\mathcal{V}$-enriched completeness is ensured by conical completeness plus $\mathcal{V}$-[[powers]] alone. Since [[2-categories]] are $\mathbf{Cat}$-categories and strict 2-limits $\mathbf{Cat}$-limits, we get the claim once we observe that the [[walking arrow]] is a [[strong generator]] in $\mathbf{Cat}$.
+\end{proof}
+
+Fix a [[2-category]] $\mathcal{K}$.
+
+\begin{proposition}
+If $\mathcal{K}$ admits binary products and (iso)inserters, it also admits (iso)commas.
+\end{proposition}
+
+\begin{proposition}
+If $\mathcal{K}$ admits (iso)commas, it also admits (pseudo)co/lax limits of arrows, and powers by the walking arrow (the [[walking isomorphism]] $\mathbf{I}$).
+\end{proposition}
+
+\begin{proposition}
+
+1. If $\mathcal{K}$ admits inserters and identifiers, it also admits equalizers.
+2. If $\mathcal{K}$ admits commas and identifiers, it also admits pullbacks,
+3. If $\mathcal{K}$ admits commas and pullbacks, it also admits identifiers.
+
+\end{proposition}
+\begin{proof}
+Claim (3) is not from Kelly, but it can be easily verified that the identifier of $\alpha:f \Rightarrow g:A \to B$ is given by taking the pullback of $A \xrightarrow{'\alpha'} f/g \leftarrow f \times_B g$ where both maps are universal comparison maps induced by the comma $f/g$ (one by the lax square $\alpha$, the other by the pullback square).
+\end{proof}
+
+This is Proposition 4.2 in *ibid.*, which in turn attributes it to [[Greg Bird|Bird]]'s thesis:
+
+\begin{proposition}
+(a) If equifiers exist in a 2-category, so do endo*identifiers*;  
+(b) if inserters and endo*identifiers* exist, so do inverters;  
+(c) if inserters and inverters exist, so do isoinserters.
+
+Hence a 2-category with inserters and equifiers admits endo-*identifiers*, inverters, and isoinserters; if it also admits binary products, it admits commas and isocommas, the lax limit, the colax limit, and the pseudolimit of an arrow, and the powers $\mathbf{2} \pitchfork B$ and $\mathbf{I} \pitchfork B$.
+\end{proposition}
+
+This is Proposition 4.3 in *ibid.*:
+
+\begin{proposition}
+If $\mathcal{K}$ admits products, inserters, and equifiers, it admits powers.
+\end{proposition}
+
+This is Proposition 5.2 in *ibid.*:
+
+\begin{proposition}
+If $\mathcal{K}$ admits products, inserters, and equifiers, it admits all pseudo *and* lax limits.
+\end{proposition}
 
 ## References 
 
