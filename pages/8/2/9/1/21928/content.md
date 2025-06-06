@@ -1,7 +1,15 @@
 
 * [German Wikipedia entry](https://de.m.wikipedia.org/wiki/Klaus_J%C3%A4nich)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=18322)
+
+
 ## Selected writings
+
+Proving what came to be called the [[Atiyah-Jänich theorem]]:
+
+* {#Jänich65} [[Klaus Jänich]]: *Vektorraumbündel und der Raum der Fredholm-Operatoren*, Mathematische Annalen **161** (1965) 129–142 &lbrack;[doi:10.1007/BF01360851 129–142](https://doi.org/10.1007/BF01360851)&rbrack;
+
 
 On [[equivariant differential topology]] ([[topological G-space|G-]][[smooth manifold|manifolds]]) and [[manifolds with corners]]:
 
@@ -10,7 +18,6 @@ On [[equivariant differential topology]] ([[topological G-space|G-]][[smooth man
 On [[differential topology]]:
 
 * [[Theodor Bröcker]], [[Klaus Jänich]], *Introduction to differentiable topology* (1982) &lbrack;[ISBN:9780521284707](https://www.cambridge.org/ae/universitypress/subjects/mathematics/differential-and-integral-equations-dynamical-systems-and-co/introduction-differential-topology?format=PB&isbn=9780521284707)&rbrack;
-
   > (translated from the German 1973 edition)
 
 
