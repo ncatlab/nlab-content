@@ -61,7 +61,8 @@ A famous open problem is the question whether the 6-sphere admits an actual [[co
 
 * {#FukamiIshihara55} T. Fukami, S. Ishihara, _Almost Hermitian structure on $S^6$_ , Tohoku Math J. 7 (1955), 151–156.
 
-* {#AgrikolaBorowkaFriedrich17} [[Ilka Agricola]], Aleksandra Borówka, [[Thomas Friedrich]], _$S^6$ and the geometry of nearly Kähler 6-manifolds_ ([arXiv:1707.08591](https://arxiv.org/abs/1707.08591))
+* {#AgrikolaBorowkaFriedrich17} [[Ilka Agricola]], Aleksandra Borówka, [[Thomas Friedrich]]: *$S^6$ and the geometry of nearly Kähler 6-manifolds*, Differential Geometry and its Applications **57** (2018) 75-86 &lbrack;[arXiv:1707.08591](https://arxiv.org/abs/1707.08591), [doi:10.1016/j.difgeo.2017.10.007](https://doi.org/10.1016/j.difgeo.2017.10.007)&rbrack;
+
 
 * {#Bryant14} [[Robert Bryant]], _S.-S. Chern's study of almost-complex structures on the six-sphere_ ([arXiv:1405.3405](https://arxiv.org/abs/1405.3405))
 
