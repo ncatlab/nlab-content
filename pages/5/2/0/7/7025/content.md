@@ -35,7 +35,7 @@ This was answered to the positive in ([Etingof-Kazhdan](#EtingofKazhdan)).
 * [[Vladimir Drinfeld]], _On some unsolved problems in quantum group theory_,  Lecture Notes in Math., 1510, Springer, Berlin, 1992.
  {#Drinfeld}
 
-* P. Etingof , D. Kazhdan, _Quantization of Lie bialgebras_ , I, Selecta Math. 2 (1996) n. 1, 1-41.
+* P. Etingof , D. Kazhdan, _Quantization of Lie bialgebras_ (in five parts) ([arXiv:q-alg/9506005](https://arxiv.org/abs/q-alg/9506005)), ([arXiv:q-alg/9701038](https://arxiv.org/abs/q-alg/9701038)), ([arXiv:q-alg/9610030](https://arxiv.org/abs/q-alg/9610030)), ([arXiv:math/9801043](https://arxiv.org/abs/math/9801043)), ([arXiv:math/9808121](https://arxiv.org/abs/math/9808121)).
  {#EtingofKazhdan}
 
 * Wikipedia, _[Lie biablgebra](http://en.wikipedia.org/wiki/Lie_bialgebra)_
