@@ -75,7 +75,7 @@ $$
 ### By bundles of Fredholm operators
  {#ByBundlesOfFredholmOperators}
 
-The following is due to ([Atiyah-Singer 69](#AtiyahSinger69), [Atiyah-Segal 04](#AtiyahSegal04)).
+The following is due to [Atiyah & Singer 1969](#AtiyahSinger69), [Atiyah & Segal 2004](#AtiyahSegal04), in generalization of the [[Atiyah-Jänich theorem]].
 
 Write
 
