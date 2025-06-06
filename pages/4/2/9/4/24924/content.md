@@ -79,7 +79,12 @@ Debate between a proponent and a critic :
 
 See also:
 
-* [[Samir Mathur]], podcast comment (2024) &lbrack;[x:1789623310348698044](https://x.com/Hassaan_PHY/status/1789623310348698044)&rbrack;
+* [[Samir Mathur]], podcast comment (2024) &lbrack;<a href="https://x.com/Hassaan_PHY/status/1789623310348698044">x:1789623310348698044</a>\]
+
+Reaction to the criticism:
+
+* Stefano Antonini, Chang-Han Chen, Henry Maxfield, [[Geoff Penington]]: *An apologia for islands* \[<a href="https://arxiv.org/abs/2506.04311">arXiv:2506.04311</a>\]
+
 
 
 
