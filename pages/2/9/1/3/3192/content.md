@@ -130,7 +130,6 @@ Discussion of the space of Fredholm operators as the [[classifying space]] for [
 
 * {#Atiyah67}  [[Michael Atiyah]], Appendix of: _K-theory_, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin 1967 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]])
 
-
 See also:
 
 * Wikipedia, *[Fredholm operator](http://en.wikipedia.org/wiki/Fredholm_operator)*
@@ -158,6 +157,7 @@ See also:
 For Fredholm complexes, see
 
 * [[Graeme Segal]], _Fredholm complexes_, Quarterly Journal of Mathematics 21:4 (1970), 385–402.  [doi](http://dx.doi.org/10.1093/qmath/21.4.385).
+
 
 category: analysis
 
