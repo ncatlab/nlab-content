@@ -2,7 +2,7 @@ Ross Street is a major member of the Australian school of [[higher category theo
 
 * [homepage](http://www.maths.mq.edu.au/~street)
 
-His most important works include works in [[sheaf]]-, [[fibred category]]-, and [[descent]]-theory, including the introduction of [[orientals]], a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum group]]s, [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], [[coherence theorems]] for [[tricategories]], etc.
+His most important works include works in [[sheaf]]-, [[fibred category]]-, and [[descent]]-theory, including the introduction of [[orientals]], a definition of [[n-category|weak higher category]], [[braided categories]] and [[quantum groups]], [[Tannaka duality|Tannaka reconstruction]], categorical [[algebraic theory|algebra]] (e.g. formal theory of [[monad]]s), [[bicategories]], [[coherence theorems]] for [[tricategories]], etc.
 
 
 ## Selected writings
@@ -70,6 +70,14 @@ Introducing the notion of *[[orientals]]*:
 
 * {#Street87} [[Ross Street]], _The algebra of oriented simplexes_, J. Pure Appl. Algebra **49** (1987) 283-335;  &lbrack;[pdf](http://www.math.mq.edu.au/~street/aos.pdf), <a href="https://doi.org/10.1016/0022-4049(87)90137-X">doi:10.1016/0022-4049(87)90137-X</a>, MR89a:18019&rbrack;
 
+On [[Tannaka duality]] and [[quantum groups]]:
+
+* [[André Joyal]], [[Ross Street]]: *An introduction to Tannaka duality and quantum groups*, in *Category theory (Como, 1990)*,  Lecture Notes in Math. __1488__, Springer (1991) 413-492 &lbrack;[doi:10.1007/BFb0084235](https://doi.org/10.1007/BFb0084235), [pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)&rbrack;
+
+* [[Ross Street]]: *Quantum Groups --- A Path to Current Algebra*, Cambridge University Press (2007) &lbrack;[doi:10.1017/CBO9780511618505](https://doi.org/10.1017/CBO9780511618505), [pdf](http://maths.mq.edu.au/~street/Quantum.pdf)&rbrack;
+
+
+
 On basic notions of [[2-category theory]]:
 
 * {#Street96}  [[Ross Street]], *Categorical Structures*, in Handbook of Algebra Vol. 1 (ed. M. Hazewinkel), Elsevier Science, Amsterdam (1996) &lbrack;<a href="https://doi.org/10.1016/S1570-7954(96)80019-2">doi:10.1016/S1570-7954(96)80019-2</a>, [pdf](http://maths.mq.edu.au/~street/45.pdf), [[Street-CategoricalStructures.pdf:file]], [ISBN:978-0-444-82212-3](https://shop.elsevier.com/books/handbook-of-algebra/hazewinkel/978-0-444-82212-3)&rbrack;
@@ -89,12 +97,11 @@ Introducing [[skew-closed categories]]:
 
 
 
+
 Further:
 
 * [[André Joyal|A. Joyal]], R. Street, _Pullbacks equivalent to pseudopullbacks_, Cahiers topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques 34 (1993) 153-156; [numdam](http://www.numdam.org/item?id=CTGDC_1993__34_2_153_0) MR94a:18004.
 
-
-* A. Joyal, R. Street, _An introduction to Tannaka duality and quantum groups_,  Category theory (Como, 1990),  413--492, Lecture Notes in Math. __1488__, Springer 1991 ([pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)).
 
 * A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); 
 
@@ -217,8 +224,6 @@ On [[monoidal categories]]:
 * [[André Joyal]] and [[Ross Street]], _The geometry of tensor calculus, I_, Advances in Mathematics, Vol. 88, No. 1, 1991, pp. 55-112. &lbrack;<a href="https://doi.org/10.1016/0001-8708(91)90003-P">doi:10.1016/0001-8708(91)90003-P</a>&rbrack;
 
 * [[André Joyal]] and [[Ross Street]], _Tortile Yang-Baxter operators in tensor categories_, Journal of Pure and Applied Algebra, Vol. 71, No. 1, year, pp. 43-51. &lbrack;<a href="https://doi.org/10.1016/0022-4049(91)90039-5">doi:10.1016/0022-4049(91)90039-5</a>&rbrack;
-
-* [[Ross Street]], _Quantum Groups: an entree to modern algebra_, unpublished, 1990. &lbrack;[pdf](http://maths.mq.edu.au/~street/Quantum.pdf)&rbrack;
 
 * [[André Joyal]] and [[Ross Street]], _An introduction to Tannaka duality and quantum groups_, Lecture Notes in Mathematics, Vol. 1488, 1991, pp. 413–492. &lbrack;[doi:10.1007/BFb0084235](https://doi.org/10.1007/BFb0084235)&rbrack;
 
