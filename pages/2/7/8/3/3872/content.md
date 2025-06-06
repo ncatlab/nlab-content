@@ -195,7 +195,7 @@ On [[twistors]]:
 
 * [[topological K-theory]]
 
-* [[equivariant K-theory]]
+* [[twisted K-theory]], [[equivariant K-theory]], [[twisted equivariant K-theory]]
 
 * [[Atiyah-Bott-Shapiro orientation]]
 
@@ -204,6 +204,8 @@ On [[twistors]]:
 * [[Atiyah-Singer index theorem]]
 
 * [[Atiyah-Segal completion theorem]]
+
+* [[Atiyah-Jänich theorem]]
 
 * [[topological field theory]]
 
