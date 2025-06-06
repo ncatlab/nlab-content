@@ -29,4 +29,9 @@ Further discussion of [[defect QFT|defects]] in the model (such as [[defect bran
 
 * {#KongTianZhang20} [[Liang Kong]], Yin Tian, Zhi-Hao Zhang,  *Defects in the 3-dimensional toric code model form a braided fusion 2-category*, J. High Energ. Phys. 2020, 78 (2020) ([arXiv:2009.06564](https://arxiv.org/abs/2009.06564), <a href="https://doi.org/10.1007/JHEP12(2020)078">doi:10.1007/JHEP12(2020)078</a>)
 
+Relation of [[extended TQFT|extended]] [[3d TQFT]] to lattice models for [[topological phases of matter]] (like the [[3d toric code]]):
+
+* [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
+
+
 [[!redirects 3d toric codes]]
