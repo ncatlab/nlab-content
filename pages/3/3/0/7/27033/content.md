@@ -422,6 +422,16 @@ The [[full bar theorem]] implies the $\mathrm{LPO}_\mathbb{N}$
 
 See [Diener 2018](#Diener18) for more statements that imply $\mathrm{LPO}_\mathbb{N}$. 
 
+In [[triangulated type theory]], certain properties of the [[directed interval]] imply the $\mathrm{LPO}_\mathbb{N}$. 
+
+\begin{theorem}
+Suppose that the [[directed interval]] $\mathbb{I}$ is a [[sigma-frame|$\sigma$-frame]]. Then $\mathrm{LPO}_\mathbb{N}$ holds. 
+\end{theorem}
+
+\begin{proof}
+Suppose that $\mathbb{I}$ is a [[sigma-frame|$\sigma$-frame]]. Then the [[discrete]] [[coreflection]] $\flat \mathbb{I}$ is also a $\sigma$-frame, and since $\flat \mathbb{I}$ is in [[bijection]] with the [[boolean domain]] in triangulated type theory, this implies $\mathrm{LPO}_\mathbb{N}$ in the discrete mode of simplicial type theory. Triangulated type theory satisfies the [[axiom of cohesion|axiom of $\mathbb{I}$-coheson]]: every discrete type is $\mathbb{I}$-null, which implies the [[axiom of punctual cohesion]] because $\mathbb{I}$ is a [[pointed type]]. Finally, by an adaptation of theorem 8.29 of [Shulman 2018](#Shulman18), punctual cohesion and $\mathrm{LPO}_\mathbb{N}$ in the discrete mode implies $\mathrm{LPO}_\mathbb{N}$ in the non-discrete mode. 
+\end{proof}
+
 ### Statements inconsistent with $\mathrm{LPO}_\mathbb{N}$
 
 There are various statements in mathematics which are inconsistent with $\mathrm{LPO}_\mathbb{N}$. 
@@ -470,6 +480,14 @@ is an [[isomorphism]]
 
 \begin{proof}
 Synthetic quasi-coherence for the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$ implies [[Phoa's principle]] for $\Sigma$, and so is thus inconsistent with $\mathrm{LPO}_\mathbb{N}$.  
+\end{proof}
+
+\begin{corollary}
+The [[directed interval]] $\mathbb{I}$ is not the [[initial object|initial]] $\sigma$-frame in [[triangulated type theory]]. 
+\end{corollary}
+
+\begin{proof}
+The directed interval $\mathbb{I}$ satisfies [[Phoa's principle]] in [[triangulated type theory]], while the directed interval $\mathbb{I}$ being a $\sigma$-frame implies $\mathrm{LPO}_\mathbb{N}$ as proven above. $\mathrm{LPO}_\mathbb{N}$ then implies that the [[initial object|initial]] $\sigma$-frame $\Sigma$ is the [[boolean domain]], and it is inconsistent for the boolean domain to satisfy [[Phoa's principle]] because of the [[negation]] [[endofunction]] on the boolean domain. 
 \end{proof}
 
 \begin{theorem}
