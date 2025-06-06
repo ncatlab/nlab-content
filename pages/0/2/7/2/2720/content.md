@@ -75,7 +75,7 @@ in particular, the lengths of curves in $M$ are necessarily comparable to the us
 
 An introduction in terms of [[synthetic differential geometry]] is in 
 
-* [[Gonzalo Reyes]], _Metrics, connections and curvature_ ([pdf](http://po-start.com/reyes/wp-content/uploads/2007/01/metrics.pdf))
+* [[Gonzalo Reyes]], _Metrics, connections and curvature_ ([pdf](https://reyes-reyes.com/wp-content/uploads/2006/11/metrics1.pdf))
 
 
 [[!redirects Riemannian metrics]]
