@@ -68,6 +68,8 @@ Some authors speak of "Chern semi-metals" to amplify this.
 
 * [[quantum anomalous Hall effect]]
 
+* [[fractional Chern insulator]], [[fractional quantum anomalous Hall effect]]
+
 * [[topological insulator]]
 
 * [[K-theory classification of topological phases of matter]]
@@ -83,7 +85,8 @@ Some authors speak of "Chern semi-metals" to amplify this.
 
 * Panagiotis Kotetes, Chapter 5 of: *Topological Insulators*, IOP Science 2019 ([ISBN:978-1-68174-517-6](https://iopscience.iop.org/book/978-1-68174-517-6))
 
-* N. Regnault, B. Andrei Bernevig, *Fractional Chern Insulator*, Phys. Rev. X 1, 021014 (2011) ([arXiv:1105.4867](https://arxiv.org/abs/1105.4867))
+* Jason G. Kattan, J. E. Sipe: *Chern insulators in two and three dimensions: A global perspective* &lbrack;[arXiv:2506.04466](https://arxiv.org/abs/2506.04466)&rbrack;
+
 
 Models akin to the [[Haldane model]]:
 
