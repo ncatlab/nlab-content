@@ -308,8 +308,7 @@ we evidently have
   y(\ast_1,  c_2)
 \]
 
-(where "$\ast_i$" denotes the [[terminal object]] of $C_i$), 
-whence it follows that to be finite-limit preserving and hence in particular [[finite product]]-preserving, the dashed map must send representables 
+(where "$\ast_i$" denotes the [[terminal object]] of $C_i$). It follows that to be finite-limit preserving, and hence in particular [[finite product]]-preserving, the dashed map must send representables 
 
 $$
   (c_1, c_2) \,\in\, C_1 \times C_2 
@@ -375,7 +374,7 @@ $$
   \end{array}
 $$
 
-where we used, in order of appearance, that:
+where we have used, in order of appearance, that:
 
 1. limits in a product category are computed via the limits in the factor categories,
 
