@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -157,34 +156,34 @@ If one thinks of $D^2$ as the time-evolution [[Hamiltonian]] of a system of [[su
 
 ## References
 
-Textbooks include
+Textbooks:
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
-* [[Thomas Friedrich]], _Dirac operators in Riemannian geometry_, Graduate studies in mathematics 25, AMS (1997)
- {#Friedrich97}
+* {#Friedrich97} [[Thomas Friedrich]]: *Dirac operators in Riemannian geometry*, Graduate Studies in Mathematics **25**,  AMS (2000) &lbrack;ISBN:978-0-8218-2055-1, [ams:gsm-25](https://bookstore.ams.org/gsm-25)&rbrack;
+ 
+Lecture notes:
 
-The relation to [[index theory]] is discussed in 
+* [[Thomas Friedrich]]: *Dirac operators in Riemannian geometry*, lecture notes, Torino (2014) &lbrack;[pdf](https://www.mathematik.uni-marburg.de/~agricola/material/Turin2014.pdf), [[Friedrich-DiracRiemannian.pdf:file]]&rbrack;
 
-* [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]], _Heat Kernels and Dirac Operators_, Springer Verlag Berlin (2004)
-  {#BerlineGetzlerVergne04}
 
+
+The relation to [[index theory]]:
+
+* {#BerlineGetzlerVergne04} [[Nicole Berline]], [[Ezra Getzler]], [[Michèle Vergne]]: _Heat Kernels and Dirac Operators_, Springer Verlag Berlin (2004)
+  
 based on original articles such as
 
-* H. MacKean, [[Isadore Singer]], _Curvature and eigenvalues of the Laplacian_, J. Diff. Geom. 1 (1967)
- {#MacKeanSinger67}
+* {#MacKeanSinger67} H. MacKean, [[Isadore Singer]], _Curvature and eigenvalues of the Laplacian_, J. Diff. Geom. 1 (1967)
+ 
+* [[Michael Atiyah]], [[Raoul Bott]], V. K. Patodi, _On the heat equation and the index theorem_, Invent. Math. 19 (1973), 279-330.
 
-* [[Michael Atiyah]], [[Raoul Bott]], V. K. Patodi, _On the heat equation and the index theorem_, Invent. Math. 19 (1973), 279&#8211;330.
-
-
-
-See also
+See also:
 
 * {#Freed87} [[Daniel Freed]], *Geometry of Dirac operators*, (1987) &lbrack;[pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf), [[FreedGeometryOfDiracOperators.pdf:file]]&rbrack;
  
 
 * C. Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
-
 
 * [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_, Lecture Notes, University of Toronto, Fall 2009.
 
@@ -193,6 +192,13 @@ See also
 * J.-S. Huang, Pavle Pand&#382;i&#263;, _Dirac cohomology, unitary representations and a proof of a conjecture of Vogan_, J. Amer. Math. Soc. __15__ (2002), 185&#8212;202.
 
 * R. Parthasarathy, _Dirac operator and the discrete series_, Ann. of Math. __96__ (1972), 1-30.
+
+Explicit formulas for [[Dirac operators]] parameterized by [[n-spheres]] and regarded as [[Fredholm operators]] representing [[topological K-theory]], with an eye towards the [[K-theory classification of topological phases of matter]]:
+
+* [[Hermann Schulz-Baldes]], Tom Stoiber: *The generators of the $K$-groups of the sphere*, Expositiones Mathematicae **41** 4 (2023) 125519 &lbrack;[arXiv:2403.18944](https://arxiv.org/abs/2403.18944), [doi:10.1016/j.exmath.2023.125519](https://doi.org/10.1016/j.exmath.2023.125519)&rbrack;
+
+
+
 
 
 [[!redirects Dirac operators]]
