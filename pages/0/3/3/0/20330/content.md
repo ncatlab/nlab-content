@@ -61,7 +61,7 @@ Review:
 
 * A. Gyenge, Section 4.2 of _On the topology of the exceptional Lie group $G_2$_, 2011 ([pdf](https://www.math.ubc.ca/~agyenge/thesis_mathmsc.pdf))
 
+* {#ABF17} [[Ilka Agricola]], Aleksandra Borówka, [[Thomas Friedrich]]: *$S^6$ and the geometry of nearly Kähler 6-manifolds*, Differential Geometry and its Applications **57** (2018) 75-86 &lbrack;[arXiv:1707.08591](https://arxiv.org/abs/1707.08591), [doi:10.1016/j.difgeo.2017.10.007](https://doi.org/10.1016/j.difgeo.2017.10.007)&rbrack;
 
-* {#ABF17} [[Ilka Agricola]], Aleksandra Borówka, [[Thomas Friedrich]], _$S^6$ and the geometry of nearly Kähler 6-manifolds_ ([arXiv:1707.08591](https://arxiv.org/abs/1707.08591))
 
 [[!redirects G2/SU(3) is the 6-sphere]]
