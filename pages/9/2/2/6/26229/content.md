@@ -253,9 +253,10 @@ On [[rational homotopy theory]] in [[mathematical physics]], such as in [[Hypoth
 
 * [[Alexander A. Voronov]], *Rational Homotopy Theory*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.00939](https://arxiv.org/abs/2404.00939)&rbrack;
 
-On [[topological index|topological indices]] in [[solid state physics]]:
+On [[topological index|topological indices]] in [[solid state physics]] ([[topological phases of matter]]):
 
-* Hermann Schulz-Baldes, *Topological indices in condensed matter*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2403.18948](https://arxiv.org/abs/2403.18948)&rbrack;
+* [[Hermann Schulz-Baldes]]: *Topological indices in condensed matter*,  in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, **1** (2025) 17-26 &lbrack;[arXiv:2403.18948](https://arxiv.org/abs/2403.18948), [doi:10.1016/B978-0-323-95703-8.00041-0](https://doi.org/10.1016/B978-0-323-95703-8.00041-0)&rbrack;
+
 
 On [[matrix models]], [[group field theory|group field theories]], and their [[combinatorics]]:
 
