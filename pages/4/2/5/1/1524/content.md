@@ -29,6 +29,9 @@ Markov\'s principle is often stated in terms of [[infinite sequences]] of natura
 $$ \forall{\alpha}\, \big(\neg\forall{n}\, (\alpha_n = 0) \Rightarrow \exists{n}\, (\alpha_n \ne 0)\big) .$$
 Here, $P(n)$ is the statement that $\alpha_n = 0$, and the hypothesis $\forall{n} (P(n) \vee \neg{P(n)})$ is true for any sequence of natural numbers.  Conversely, given any predicate $P$ satisfying this hypothesis, we can define $\alpha$ by $\alpha_n = 0$ if $P(n)$ is true and $\alpha_n = 1$ if $P(n)$ is false, so the two versions of Markov\'s principle are equivalent.
 
+### In the antithesis interpretation
+
+In the [[antithesis interpretation]] of constructive mathematics, propositions are functions from from the [[boolean domain]] $\{0,1\}$ to the [[set of truth values]] $\Omega$. Given any [[set]] $A$ and [[function]] $f$ from $A$ to $\{0,1\}$, the antithesis proposition $b \mapsto f(x) = b$ is [[mutually exclusive propositions|mutually exclusive]] and [[decidable proposition|decidable]] by the [[induction principle]] of the [[boolean domain]]. As a result, the [[affine logic|affine]] [[existential quantifier]] $\bigsqcup_{x \in A} (b \mapsto f(x) = b)$ is mutually exclusive and affirmative and the the [[affine logic|affine]] [[universal quantifier]] $\bigsqcap_{x \in A} (b \mapsto f(x) = b)$ is mutually exclusive and refutative. __Markov's principle for $A$__ ($MP_A$) states that, given any [[function]] $f$ from $A$ to the [[boolean domain]] $\{0,1\}$, $\bigsqcup_{x \in A} (b \mapsto f(x) = b)$ is refutative or equivalently $\bigsqcap_{x \in A} (b \mapsto f(x) = b)$ is affirmative. 
 
 ## Discussion
 
