@@ -132,7 +132,7 @@ The concept should be covered in any decent textbook on algebra and ring theory,
 
 * P. M. Cohn, _Further Algebra and Applications_, Springer Heidelberg 2003. (sec. 4.4-4.5 pp.148ff)
 
-* [[Ross Street]], _Quantum Groups - A Path to Current Algebra_ , Cambridge UP 2007. ([doi](https://doi.org/10.1017/CBO9780511618505)).
+* [[Ross Street]]: *Quantum Groups --- A Path to Current Algebra*, Cambridge University Press (2007) &lbrack;[doi:10.1017/CBO9780511618505](https://doi.org/10.1017/CBO9780511618505), [pdf](http://maths.mq.edu.au/~street/Quantum.pdf)&rbrack;
 
 For an early extension to domains other than ring theory see
 
