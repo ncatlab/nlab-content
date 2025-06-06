@@ -296,6 +296,10 @@ Classification of [[topological phases of matter]] via [[tensor network states]]
 
 * Andreas Bauer, [[Jens Eisert]], Carolin Wille, _Towards a mathematical formalism for classifying phases of matter_ ([arXiv:1903.05413](https://arxiv.org/abs/1903.05413))
 
+Relation of [[extended TQFT|extended]] [[3d TQFT]] to lattice models for [[topological phases of matter]] (like the [[3d toric code]]):
+
+* [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
+
 
 [[!include topological phases of matter via K-theory -- references]]
 
