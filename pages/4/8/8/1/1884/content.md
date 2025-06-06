@@ -2694,6 +2694,8 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 
   * [[topological index]]
 
+  * [[Atiyah-Jänich theorem]]
+
   * [[KO-theory]]
 
   * [[KR-theory]]
@@ -2728,6 +2730,7 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 [[!include orientations in higher quantization - table]]
 
 [[!include string theory and cohomology theory -- table]]
+
 
 
 ## References
