@@ -81,9 +81,10 @@ See also
 
 * Wikipedia, _[Sasakian manifold](https://en.wikipedia.org/wiki/Sasakian_manifold)_
 
-Discussion related to [[spin structure]] and [[G₂-structure]] includes
+Discussion related to [[spin structure]] and [[G₂-structure]]:
 
-* {#AgFried10} [[Ilka Agricola]], [[Thomas Friedrich]], _3-Sasakian manifolds in dimension seven, their spinors and $G_2$ structures_, J. Geom. Phys. 60 (2010), 326-332 doi:[10.1016/j.geomphys.2009.10.003](http://dx.doi.org/10.1016/j.geomphys.2009.10.003), [arXiv:0812.1651](http://arxiv.org/abs/0812.1651)
+* {#AgFried10} [[Ilka Agricola]], [[Thomas Friedrich]]: *3-Sasakian manifolds in dimension seven, their spinors and $G_2$ structures*, J. Geom. Phys. **60** (2010) 326-332 &lbrack;[doi:10.1016/j.geomphys.2009.10.003](http://dx.doi.org/10.1016/j.geomphys.2009.10.003), [arXiv:0812.1651](http://arxiv.org/abs/0812.1651)&rbrack;
+
 
 Relation to [[SU(2)-structure]]:
 
