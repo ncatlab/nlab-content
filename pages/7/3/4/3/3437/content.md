@@ -30,6 +30,7 @@ In any case, given a universe $U$, we say that a [[collection]] is **$U$-small**
 *  [[Set]], [[Cat]], [[michaelshulman:category of all sets]]
 *  [[small presheaf]], [[accessible category]], [[presentable category]]
 
+[[!redirects size]]
 
 [[!redirects size issue]]
 [[!redirects size issues]]
