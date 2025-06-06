@@ -87,6 +87,8 @@ Further axioms can be assumed of the category of classical sets which are not [[
 
 * That the [[set of truth values]] is a classical set is equivalent to [[excluded middle]]; thus this is usually not assumed to be a classical set in constructive mathematics. In fact, either [[decidable equality]] or a [[tight apartness relation]] on the set of truth values is sufficient to prove [[excluded middle]]. 
 
+* That the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$ is a classical set is equivalent to the [[limited principle of omniscience]]. 
+
 ### Cartesian closure
 
 One can also postulate that the category of classical sets is [[cartesian closed category|cartesian closed]] or equivalently [[locally cartesian closed category|locally cartesian closed]]. 
