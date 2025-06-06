@@ -40,11 +40,15 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 ## Related concepts
 
 * [[quantum algebra]]
+
 * [[noncommutative geometry]], [[noncommutative algebraic geometry]], [[deformation quantization]]
 
 * [[quantum inverse scattering method]], [[Knizhnik-Zamolodchikov equation]], [[Tannaka duality]], [[Yang-Baxter equation]], [[classical Yang-Baxter equation]], [[quantum Yang-Baxter equation]], [[dynamical Yang-Baxter equation]], [[reflection equation]]
+
 * [[Hopf algebra]], [[bialgebra]], [[gebra]], [[Yangian]], [[RTT algebra]], [[matrix bialgebra]], [[quantum linear group]], [[quantized function algebra]], [[quantized enveloping algebra]]
+
 * [[braided monoidal category]], [[quantum double]], [[Heisenberg double]], [[Yetter-Drinfeld module]]
+
 * [[quantum homogeneous space]], [[quantum flag manifold]], [[quantum symmetric pair]], [[Hopf-Galois extension]], [[noncommutative principal bundle]]
 
 * [[Poisson Lie group]], [[dressing action]]
@@ -62,6 +66,9 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
   expanded version:
 
   Journal of Soviet Mathematics **41** (1988) 898--915 &lbrack;[doi:10.1007/BF01247086](https://doi.org/10.1007/BF01247086)&rbrack;
+
+
+* [[André Joyal]], [[Ross Street]]: *An introduction to Tannaka duality and quantum groups*, in *Category theory (Como, 1990)*,  Lecture Notes in Math. __1488__, Springer (1991) 413-492 &lbrack;[doi:10.1007/BFb0084235](https://doi.org/10.1007/BFb0084235), [pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)&rbrack;
 
 * {#Tjin92} [[Tjark Tjin]], *An introduction to quantized Lie groups and algebras*, Int. J. Mod. Phys. A **7** (1992) 6175--6213 &lbrack;[arXiv:hep-th/9111043](https://arxiv.org/abs/hep-th/9111043), [doi:10.1142/S0217751X92002805](https://doi.org/10.1142/S0217751X92002805)&rbrack;
 
@@ -98,8 +105,7 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 * {#EtingofFrenkelKirillov98} [[Pavel Etingof]], [[Igor Frenkel]], [[Alexander Kirillov]], *Lectures on Representation Theory and Knizhnik-Zamolodchikov Equations*, Mathematical surveys and monographs **58**, American Mathematical Society (1998) &lbrack;[ISBN:978-1-4704-1285-2](https://bookstore.ams.org/surv-58), [review pdf](http://www.ams.org/journals/bull/2000-37-02/S0273-0979-00-00853-3/S0273-0979-00-00853-3.pdf)&rbrack;
 
-
-* [[Ross Street]], _Quantum groups : a path to current algebra_, Cambridge Univ. Press (2007)
+* [[Ross Street]]: *Quantum Groups --- A Path to Current Algebra*, Cambridge University Press (2007) &lbrack;[doi:10.1017/CBO9780511618505](https://doi.org/10.1017/CBO9780511618505), [pdf](http://maths.mq.edu.au/~street/Quantum.pdf)&rbrack;
 
 * Bangming Deng, Jie Du, [[Brian Parshall]], Jianpan Wang, _Finite dimensional algebras and quantum groups_, Mathematical Surveys and Monographs __150__, Amer. Math. Soc. (2008) [MR2009i:17023)](http://www.ams.org/mathscinet-getitem?mr=2457938)
 
