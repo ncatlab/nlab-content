@@ -63,11 +63,12 @@ To obtain adjoint functor theorems for categories that are not preorders, one mu
 
 ## Statement
 
+### General
 
 +-- {: .num_theorem #StandardAdjointFunctorTheorem}
 ###### Theorem
 
-Sufficient conditions for a limit-preserving functor $R : C \to D$ to be a [[right adjoint]] include:
+Sufficient conditions for a limit-preserving functor $R \colon C \to D$ to be a [[right adjoint]] include:
 
 * $C$ is [[complete category|complete]] and [[locally small category|locally small]], and $R$ satisfies the [[solution set condition]].  
 
@@ -87,7 +88,7 @@ In the first two cases, which work by replacing large limits by small ones, it s
 +-- {: .proof}
 ###### Proof
 
-Here is a proof of the General Adjoint Functor Theorem: that a functor $R : C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satisfies the [[solution set condition]]. 
+That a functor $R \colon C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satisfies the [[solution set condition]]. 
 
 From the discussion at <a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">adjoint functors -- In terms of universal arrows</a> we have that the existence of the adjoint is equivalent to the existence for each $d \in D$ of an [[initial object]] $i_d : d \to R L d$ in the [[comma category]] $(d \downarrow R)$: an object such that for each $f : d \to R d'$ there is a unique $\tilde f$ such that 
 
@@ -130,9 +131,11 @@ It then remains to prove that any locally small, small-complete, well-powered ca
 
 On the other hand, for each $x$ the canonical map 
 
-$$i: x \to \prod_{s \in S} k_{s}^{\hom(x, k_s)}$$ 
+$$
+  i \colon x \to \prod_{s \in S} k_{s}^{\hom(x, k_s)}
+$$ 
 
-is monic since the $k_s$ cogenerate. The following pullback of $i$, 
+is a [[monomorphism]] since the $k_s$ cogenerate. The following pullback of $i$, 
 
 $$\array{
 k & \to & x \\ 
@@ -142,10 +145,12 @@ k & \to & x \\
 gives a subobject $k$ of $\prod_s k_s$ that maps to $x$, and into which $0$ embeds. Thus there exists a map $0 \to x$, and we conclude $0$ is initial. 
 =--
 
-### In locally presentable categories
 
-In practice an important special case is that of functors between
-[[locally presentable categories]]. For these there is the following version of an adjoint functor theorem.
+
+### For locally presentable categories
+ {#StatementForLocPresCategories}
+
+In practice an important special case is that of functors between [[locally presentable categories]]. For these there is the following version of an adjoint functor theorem.
 
 +-- {: .num_theorem #AdjFuncTheoremForLocallyPresentableCats}
 ###### Theorem
