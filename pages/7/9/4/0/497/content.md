@@ -18,13 +18,13 @@ In [[logic]], the principle of **excluded middle** states that every [[truth val
 
 The principle of excluded middle (hereafter, PEM), as a statement about truth values themselves, is accepted by nearly all mathematicians ([[classical mathematics]]); those who doubt or deny it are a distinct minority, the [[constructive mathematics|constructivists]]. However, when one [[internalization|internalises]] mathematics in [[categories]] other than [[Set|the category of sets]], there is no doubt that excluded middle often fails [[internal logic|internally]]. See the examples listed at [[internal logic]]. (Those categories in which excluded middle holds are called [[Boolean category|Boolean]]; in general, the adjective 'Boolean' is often used to indicate the applicability of PEM.)
 
-Although the term 'excluded middle' (sometimes even _excluded third_) suggests that the principle does not apply in many-valued logics, that is not the point; many-valued logics are many-valued *externally* but may still be two-valued *internally*.  In the language of [[categorial logic]], whether a category has exactly two [[subterminal objects]] is in general independent of whether it is Boolean; instead, the category is Boolean iff the statement that it has exactly two subterminal objects holds in its [[internal logic]] (which is in general independent of whether that statement is true).
+Although the term 'excluded middle' (sometimes even _excluded third_) suggests that the principle does not apply in many-valued logics, that is not the point; many-valued logics are many-valued *externally* but may still be two-valued *internally*.  In the language of [[categorical logic]], whether a category has exactly two [[subterminal objects]] is in general independent of whether it is Boolean; instead, the category is Boolean iff the statement that it has exactly two subterminal objects holds in its [[internal logic]] (which is in general independent of whether that statement is true).
 
 In fact, intuitionistic logic proves that there is no truth value that is neither true nor false; in this sense, the possibility of a 'middle' or 'third' truth value is still 'excluded'.  But since the relevant [[de Morgan law]] fails in intuitionistic logic, we may not conclude that every truth value is either true or false, which is the actual PEM.
 
 ## In set theory
 
-In [[material set theory]], [Shulman 18](#Shulman18) makes the distinction between **full classical logic**, where the principle of excluded middle holds for all logical formulae in the [[material set theory]], and **$\Delta_0$-classical logic**, where the principle of excluded middle holds for only holds for $\Delta_0$-formulae. $\Delta_0$-formulae are logical formulae where every [[quantifier]] $Q$ has to be bounded by the membership relation; i.e. $Q x \in y.P(x) \coloneqq Q x.x \in y \wedge P(x)$. In [[structural set theory]], the above difference between full classical logic and $\Delta_0$-classical logic in [[material set theory]] is the difference between defining [[structural set theory]] as a [[well-pointed topos|well-pointed]] [[Boolean topos]] in [[classical logic]] and in [[intuitionistic logic]] respectively. 
+In [[material set theory]], [Shulman 18](#Shulman18) makes the distinction between **full classical logic**, where the principle of excluded middle holds for all logical formulae in the [[material set theory]], and **$\Delta_0$-classical logic**, where the principle of excluded middle holds for only holds for $\Delta_0$-formulae. $\Delta_0$-formulae are logical formulae where every [[quantifier]] $Q$ has to be bounded by the membership relation, i.e. $\exists x \in y.P(x)$, defined to mean $\exists x.x \in y \wedge P(x)$, or $\forall x \in y$, defined to mean $\forall x. x \in y \implies P(x)$. In [[structural set theory]], the above difference between full classical logic and $\Delta_0$-classical logic in [[material set theory]] is the difference between defining [[structural set theory]] as a [[well-pointed topos|well-pointed]] [[Boolean topos]] in [[classical logic]] and in [[intuitionistic logic]] respectively. 
 
 ## In type theory
 
@@ -54,7 +54,7 @@ By definition, the only two booleans are $0$ representing false and $1$ represen
 
 ### Untruncated excluded middle
 
-There is also an untruncated version of excluded middle, which uses the sum type instead of the disjunciton:
+There is also an untruncated version of excluded middle, which uses the sum type instead of the disjunction:
 
 $$\frac{\Gamma \vdash P \; \mathrm{type}}{\Gamma \vdash \mathrm{lem}_P:\mathrm{isProp}(P) \to (P + \neg P)}$$
 
