@@ -82,12 +82,28 @@ The subspace $Fred(B_1,B_2)\subset B(B_1,B_2)$ of Fredholm operators in the spac
 
   In other words, given a Fredholm operator $F$, there exists $\epsilon\gt 0$ such that every bounded linear operator $G$ satisfying $\| G-F\|\lt \epsilon$ is Fredholm. Fredholm operators on a fixed separable Hilbert space $H = B_1 = B_2$ form a [[semigroup]] with respect to the composition and the index is a morphism of semigroups: $ind F G = ind F + ind G$. 
 
-+-- {: .num_prop }
-###### Proposition
 
-The space $Fred$ of all Fredholm operators on an (infinite dimensional) [[separable Hilbert space]] is a model for the [[classifying space]] of degree-0 [[topological K-theory]].
+\begin{proposition}
+**([[Atiyah-Jänich theorem]])**
+\linebreak
+The space of [[Fredholm operators]] $Fred(\mathscr{H})$ on a (countably infinite-dimensional, [[separable Hilbert space|separable]], [[complex vector space|complex]]) [[Hilbert space]] $\mathscr{H}$ is a [[classifying space]] for [[topological K-theory]] $K(-)$:
 
-=--
+For $X$ a [[compact Hausdorff space]], the [[homotopy classes]] of [[continuous maps]] from $X$ to $Fred(\mathscr{H})$ are in [[natural bijection]] with $K(X)$
+
+$$
+  \pi_0 \, 
+  Map\big(
+    X,
+    \,
+    Fred(\mathscr{H})
+  \big)
+  \xrightarrow[\sim]{ind_X}
+  K(X)
+  \,,
+$$
+
+where $ind_X$ is an $X$-parameterized enhancement of the [[Fredholm index]].
+\end{proposition}
 
 (...)
 
