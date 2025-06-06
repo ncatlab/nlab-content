@@ -146,5 +146,11 @@ and its formalization in differentially [[cohesive homotopy type theory]]:
 [[!redirects halos]]
 [[!redirects haloes]]
 
+[[!redirects infinitesimal halo]]
+[[!redirects infinitesimal halos]]
+[[!redirects infinitesimal haloes]]
+
+
 [[!redirects infinitesimal disk]]
 [[!redirects infinitesimal disks]]
+
