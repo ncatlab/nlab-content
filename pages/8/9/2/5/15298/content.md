@@ -51,7 +51,7 @@ The archetypical example is [[twisted differential K-theory]], which combines [[
 
 This example of [[D-brane charge]] used to be one of the main motivations for finding a definition and construction of twisted differential cohomology theories. Earlier account of D-brane charge theory had to assume without a construction that such a theory exists (e.g. [DFM 09](twisted+differential+K-theory#DFM09)).
 
-Other [[higher gauge fields]] in [[string theory]]/[[M-theory]] are expected to be [[cocycles]] in twisted differential cohomology theories for other [[generalized cohomology theories]] apart from K-thery. For instance the hypothesis that the [[M-theory]] [[supergravity C-field|C-field]] is topologically a cocycle in [[twisted cohomotopy]] ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS19b]], [[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|FSS19c]]) means that with all differential form data added. it is actually a cocycle in _twisted differential cohomotopy_.
+Other [[higher gauge fields]] in [[string theory]]/[[M-theory]] are expected to be [[cocycles]] in twisted differential cohomology theories for other [[generalized cohomology theories]] apart from K-theory. For instance the hypothesis that the [[M-theory]] [[supergravity C-field|C-field]] is topologically a cocycle in [[twisted cohomotopy]] ([[schreiber:Twisted Cohomotopy implies M-theory anomaly cancellation|FSS19b]], [[schreiber:Twisted Cohomotopy implies M5 WZ term level quantization|FSS19c]]) means that with all differential form data added. it is actually a cocycle in _twisted differential cohomotopy_.
 
 
 ## References
