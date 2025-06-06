@@ -66,6 +66,7 @@ Notice that there is a non-trivial [[automorphism]] of $\mathbb{Z}$ as an [[abel
 
 ## Properties
 
+### General
 
 +-- {: .num_lemma #ClutchingConstructionOfBasicLineBundle}
 ###### Lemma
@@ -256,6 +257,66 @@ This is called the _[[fundamental product theorem in topological K-theory]]_. It
 
 =--
 
+### As an index bundle
+ {#AsAnIndexBundle}
+
+For $\vec x \in \mathbb{R}^3$ write
+
+$$
+  D_{\vec x}
+  \,\colon\,
+  \mathbb{C}^2 
+    \longrightarrow 
+  \mathbb{C}^2
+$$
+
+for the [[linear operator]] given by the [[linear combination]] of the  [[Pauli matrices]] (normalized to $\sigma_i^2 = -1 $ and $\sigma_i^\dagger = - \sigma_i$):
+$$
+  D_{\vec x}
+  \;\coloneqq\;
+  \mathrm{i}
+  \sum_i x^i \sigma_i
+  \,.
+$$
+
+Restricting their parameter to the [[2-sphere]],
+$$
+  S^2 
+    \,=\,
+  \big\{
+    \vec x
+    \equiv
+    (x^1, x^2, x^3)
+    \,\in\,
+    \mathbb{R}^3 
+    \,\big\vert\,
+    \textstyle{\sum_i} (x^i)^2
+    \,\,
+    1
+  \big\}
+  \,,
+$$
+these operators satisfy
+$$
+  \vec x \,\in\, S^2 
+  \;\;\;\;\;
+  \vdash
+  \;\;\;\;\;
+  D_x \circ D_x 
+    \;=\; 
+  \sum_i (x^i)^2 \mathrm{id}_{\mathbb{C}^2}
+    \;=\;
+  \mathrm{id}_{\mathbb{C}^2}
+$$
+and hence have [[eigenvalues]] $\pm 1$.
+
+As $\vec x$ varies over $S^2$, the $+1$ [[eigenspaces]] of $D_{\vec x}$, hence the [[kernels]] of $\big(D_{\vec x} - \mathrm{id}_{\mathbb{C}^2}\big)$, form a [[subbundle]] of the [[trivial bundle|trivial]] [[complex vector bundle]] of [[rank of a vector bundle|rank]]$=2$ over $S^2$.
+
+This kernel sub-bundle is [[isomorphism|isomorphic]] to $\pm$ the [[basic complex line bundle on the 2-sphere]].
+
+(e.g. [Baum 2015 slide 32](#Baum15). [Baum & Erp 2018 p 106-107](#BaumErp18))
+
+
 
 ## Related concepts
 
@@ -269,5 +330,8 @@ This is called the _[[fundamental product theorem in topological K-theory]]_. It
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
 
+* {#Baum15} [[Paul Baum]], slide 32 of: *Dirac operator*, lecture at TIFR Mumbai, India (2015) &lbrack;[pdf](https://mathweb.tifr.res.in/sites/default/files/conferences/lectures/DiracOperator.pdf), [[Baum-DiracOperator.pdf:file]]&rbrack;
+
+* {#BaumErp18} [[Paul Baum]], [[Erik van Erp]], 2.11 of: *$K$-homology and Fredholm operators I: Dirac operators*, Journal of Geometry and Physics **134** (2018) 101-118 &lbrack;[doi:10.1016/j.geomphys.2018.08.008](https://doi.org/10.1016/j.geomphys.2018.08.008)&rbrack;
 
 [[!redirects basic line bundles on the 2-sphere]]
