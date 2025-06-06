@@ -45,6 +45,8 @@ See also
 
 * Wikipedia, _[Atiyah-Singer index theorem](http://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem)_
 
+* [[Paul Baum]], [[Erik van Erp]]: *$K$-homology and Fredholm operators I: Dirac operators*, Journal of Geometry and Physics **134** (2018) 101-118 &lbrack;[doi:10.1016/j.geomphys.2018.08.008](https://doi.org/10.1016/j.geomphys.2018.08.008)&rbrack;
+
 
 A proof of the Atiyah-Singer index theorem in terms of  [[KK-theory]]/[[E-theory]] has been given by [[Nigel Higson]], an account is in
 
