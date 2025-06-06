@@ -30,6 +30,10 @@ Introducing the notion of [[braided monoidal categories]]:
 
 * [[André Joyal]], [[Ross Street]], _Braided tensor categories_, Adv. Math. **102** (1993) 20-78 &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
 
+On [[Tannaka duality]] and [[quantum groups]]:
+
+* [[André Joyal]], [[Ross Street]]: *An introduction to Tannaka duality and quantum groups*, in *Category theory (Como, 1990)*,  Lecture Notes in Math. __1488__, Springer (1991) 413-492 &lbrack;[doi:10.1007/BFb0084235](https://doi.org/10.1007/BFb0084235), [pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)&rbrack;
+
 
 On [[algebraic set theory]]:
 
@@ -67,7 +71,7 @@ On [[quasi-categories]]:
 On [[simplicial homotopy theory]], the [[classical model structure on simplicial sets]] and the [[classical model structure on topological spaces]]:
 
 
-* {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]] _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008  ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
+* {#JoyalTierney08} [[André Joyal]], [[Myles Tierney]] _Notes on simplicial homotopy theory_, Lecture at _[Advanced Course on Simplicial Methods in Higher Categories](https://lists.lehigh.edu/pipermail/algtop-l/2007q4/000017.html)_, CRM 2008 ([[JoyalTierneyNotesOnSimplicialHomotopyTheory.pdf:file]])
 
 * {#JoyalTierney09} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2009  ([web](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), [[JoyalTierneySimplicialHomotopyTheory.pdf:file]])
 
@@ -98,7 +102,6 @@ See also:
 
 * A. Joyal, M. Tierney, _Strong stacks and classifying spaces_,  Category theory (Como, 1990),  213--236, Lecture Notes in Math. __1488__, Springer 1991. 
 
-* A. Joyal, [[Ross Street|R. Street]], _An introduction to Tannaka duality and quantum groups_,  Category theory (Como, 1990),  413--492, Lecture Notes in Math. __1488__, Springer 1991 ([pdf](http://www.math.mq.edu.au/~street/CT90Como.pdf)).
 
 * A. Joyal, R. Street, _The geometry of tensor calculus I_,  Adv. Math.  __88__(1991),  no. 1, 55--112, [doi](http://dx.doi.org/10.1016/0001-8708%2891%2990003-P); _Tortile Yang-Baxter operators in tensor categories_,  J. Pure Appl. Algebra  __71__  (1991),  no. 1, 43--51, [doi](http://dx.doi.org/10.1016/0022-4049%2891%2990039-5); 
 
