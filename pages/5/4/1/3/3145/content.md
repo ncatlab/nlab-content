@@ -123,6 +123,11 @@ On classification of [[invertible TQFTs]] via [[reflection positivity]]:
 
 * {#FreedHopkins21} [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology **25** (2021) 1165–1330  &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
 
+On a relation of [[extended TQFT|extended]] [[3d TQFT]] to lattice models for [[topological phases of matter]] (like the [[3d toric code]]):
+
+* [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
+
+
 
 
 ## Related entries
