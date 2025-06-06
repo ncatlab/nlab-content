@@ -32,7 +32,7 @@ However, this approach of defining Tarski universes means that the notion of "Ta
 
 All three notions of Tarski universe described above are in fact definable in all three versions of intensional type theory mentioned above, but Tarski universes are usually described as having, apart from addiitonal internal Tarski universes, exactly the internal type formers that the external type theory has. One usually doesn't consider Tarski universes with an internal [[James construction type]] in bare intensional Martin-Löf type theory, even though a Tarski universe closed under James constructions is definable in Martin-Löf type theory. On the other hand, in [[homotopy type theory]] the name "Tarski universe" isn't usually used for a universe only closed under [[identity types]], [[dependent product types]], [[dependent sum types]]. 
 
-From a global perspective, however, all of these types should be considered Tarski universes, since they model some notion of type of small types, even though the small types in the universe do not behave as the external types in the type theory do. And that is how we approach Tarski universes in this article: Tarski universes are a very general notion encompassing all of the above notions of Tarski universe and more, and one could describe more specific versions of Tarski universes by adding additional structure and axioms to Tarski universes, in the same way one adds additional structure and axioms to an [[abelian group]] to get a [[ring]], a [[commutative ring]], a $R$-[[module]], a $R$-algebra, and an $R$-[[commutative algebra]]. We could then study in general Tarski universes and their properties as we do for abelian groups and rings. This requires a shift in the point of view of what Tarski universes are: Tarski universes are actual [[mathematical structure]] in intensional type theory, rather than being something in the [[foundations of mathematics]] to merely address [[size]] issues or do mathematics in. 
+From a global perspective, however, all of these types should be considered Tarski universes, since they model some notion of type of small types, even though the small types in the universe do not behave as the external types in the type theory do. And that is how we approach Tarski universes in this article: Tarski universes are a very general notion encompassing all of the above notions of Tarski universe and more, and one could describe more specific versions of Tarski universes by adding additional structure and axioms to Tarski universes, in the same way one adds additional structure and axioms to an [[abelian group]] to get a [[ring]], a [[commutative ring]], a $R$-[[module]], a $R$-algebra, and an $R$-[[commutative algebra]]. We could then study in general Tarski universes and their properties as we do for abelian groups and rings. This requires a shift in the point of view of what Tarski universes are: Tarski universes are actual [[mathematical structure]] in intensional type theory, rather than being something in the [[foundations of mathematics]] to merely address [[size issues]] or do mathematics in. 
 
 ## Definition
 
@@ -278,13 +278,13 @@ $U$ satisfying the type-theoretic axiom of existence implies that $U$ satisfies 
 
 There are many ways of defining type formers internally in a universe: 
 
-* by an equivalence or definitional equality with an existing global type former for the entire type theory. 
+* by an equivalence, [[definitional isomorphism]], or [[judgmental equality]] with an existing global type former for the entire type theory. 
 
 * by translating the rules for the type former into internal structure on the universe - the [[formation rules]], the [[introduction rules]], and the dependent [[universal property]] of the structure. 
 
 * by using the [[universal properties]] corresponding to the [[categorical semantics]] of the types
 
-Using a definitional equality with an existing global type former for each type former results in a **strict Tarski universe**, while using equivalences for each type former results in a **weak Tarski universe**. There are also various Tarski universes where some type formers are strictly closed, and some type formers are only weakly closed, resulting in Tarski universes which are intermediate between strict Tarski universes and weak Tarski universes. 
+Using a [[judgmental equality]] with an existing global type former for each type former results in a **strict Tarski universe**, while using equivalences or [[definitinal isomorphisms]] for each type former results in a **weak Tarski universe**. There are also various Tarski universes where some type formers are strictly closed, and some type formers are only weakly closed, resulting in Tarski universes which are intermediate between strict Tarski universes and weak Tarski universes. 
 
 ### Tarski universes with all propositions
 
