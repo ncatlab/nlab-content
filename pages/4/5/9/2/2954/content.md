@@ -136,6 +136,11 @@ On [[quantum anomalies]] of gapped theories via [[invertible field theories]]:
 * [[Clay Córdova]], [[Daniel S. Freed]], [[Constantin Teleman]]: *Gapped theories have torsion anomalies* &lbrack;[arXiv:2408.15148](https://arxiv.org/abs/2408.15148)&rbrack;
 
 
+On a relation of [[extended TQFT|extended]] [[3d TQFT]] to lattice models for [[topological phases of matter]] (like the [[3d toric code]]):
+
+* [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
+
+
 ## Related entries
 
 * [[differential cohomology]]
