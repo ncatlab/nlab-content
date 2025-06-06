@@ -359,7 +359,7 @@ The fact that $Topos$ is extensive:
 
 General limits and colimits of toposes: 
 
-* {#Lurie} [[Jacob Lurie]], 6.3.2-6.3.4 of: _[[Higher Topos Theory]]_ (1992) 
+* {#Lurie} [[Jacob Lurie]], 6.3.2-6.3.4 of: _[[Higher Topos Theory]]_ (2009) 
   > (discussed for [[(∞,1)-toposes]], but the statements are verbatim true in the [[(2,1)-category]] category $Topos$)
 
 The adjunction between toposes and locally presentable categories:
