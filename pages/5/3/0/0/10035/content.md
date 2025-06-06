@@ -84,6 +84,11 @@ Constructions in the generality of non-[[semisimple category|semisimple]] [[tens
 
 * Christian Blanchet, Marco De Renzi, _Modular Categories and TQFTs Beyond Semisimplicity_ ([arXiv:2011.12932](https://arxiv.org/abs/2011.12932))
 
+Relation of [[extended TQFT|extended]] 3d TQFT to lattice models for [[topological phases of matter]] (like the [[3d toric code]]):
+
+* [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
+
+
 [[!redirects D=3 TQFTs]]
 [[!redirects D=3 topological field theory]]
 [[!redirects D=3 topological field theories]]
