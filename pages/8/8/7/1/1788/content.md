@@ -7,49 +7,64 @@
 ****
 
 
-## Idea 
-
-The *Atiyah-Jänich theorem* ([Atiyah 1967 Thm A1](#Atiyah67), [Jänich 1965](#Jänich65)) states that the space of [[Fredholm operators]] $Fred(\mathscr{H})$ on a (countably infinite-dimensional [[separable Hilbert space|separable]], [[complex vector space|complex]]) [[Hilbert space]] $\mathscr{H}$ is a [[classifying space]] for [[topological K-theory]] $K(-)$:
-
-For $X$ a [[compact Hausdorff space]], the [[homotopy classes]] of [[continuous maps]] from $X$ (hence the [[connected components]] of the [[mapping space]]) to $Fred(\mathscr{H})$ are in [[natural bijection]] to $K(X)$
+For $\vec x \in \mathbb{R}^3$ write
 
 $$
-  \pi_0 \, 
-  Map\big(
-    X,
-    \,
-    Fred(\mathscr{H})
-  \big)
-  \xrightarrow[\sim]{ind_X}
-  K(X)
+  D_{\vec x}
+  \,\colon\,
+  \mathbb{C}^2 
+    \longrightarrow 
+  \mathbb{C}^2
+$$
+
+for the [[linear operator]] given by the [[linear combination]] of the  [[Pauli matrices]] (normalized to $\sigma_i^2 = -1 $ and $\sigma_i^\dagger = - \sigma_i$):
+$$
+  D_{\vec x}
+  \;\coloneqq\;
+  \mathrm{i}
+  \sum_i x^i \sigma_i
+  \,.
+$$
+
+Restricting their parameter to the [[2-sphere]],
+$$
+  S^2 
+    \,=\,
+  \big\{
+    \vec x
+    \equiv
+    (x^1, x^2, x^3)
+    \,\in\,
+    \mathbb{R}^3 
+    \,\big\vert\,
+    \textstyle{\sum_i} (x^i)^2
+    \,\,
+    1
+  \big\}
   \,,
 $$
+these operators satisfy
+$$
+  \vec x \,\in\, S^2 
+  \;\;\;\;\;
+  \vdash
+  \;\;\;\;\;
+  D_x \circ D_x 
+    \;=\; 
+  \sum_i (x^i)^2 \mathrm{Iid}_{\mathbb{C}^2}
+    \;=\;
+  \mathrm{id}_{\mathbb{C}^2}
+$$
+and hence have [[eigenvalues]] $\pm 1$.
 
-where $ind_X$ is an $X$-parameterized enhancement of the [[Fredholm index]].
+As $\vec x$ varies over $S^2$, the $+1$ [[eigenspaces]] of $D_{\vec x}$, hence the [[kernels]] of $D_{\vec x} - \mathrm{id}$ form a [[subbundle]] of the [[trivial bundle|trivial]] [[complex vector bundle]] of [[rank of a vector bundle|rank]]$=2$ over $S^2$.
 
-This relation generalizes to a definition of [[twisted K-theory]] and of [[equivariant K-theory]] (hence of [[twisted equivariant K-theory]]) as given by homotopy classes of [[sections]] of $Fred(\mathscr{H})$-[[fiber bundles]] ([Atiyah & Segal 2004](#AtiyahSegal04)).
+This bundle is [[isomorphism|isomorphic]] to $\pm$ the [[basic complex line bundle on the 2-sphere]].
+
+(e.g. [Baum 2015, slide 32](#Baum15))
 
 
-## References
-
-The original articles:
-
-* {#Atiyah67}  [[Michael Atiyah]], Thm. A1 in: *K-theory*, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin (1967) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]]&rbrack;
-
-* {#Jänich65} [[Klaus Jänich]]: *Vektorraumbündel und der Raum der Fredholm-Operatoren*, Mathematische Annalen **161** (1965) 129–142 &lbrack;[doi:10.1007/BF01360851 129–142](https://doi.org/10.1007/BF01360851 129–142)&rbrack;
-
-In monographs:
-
-* {#Karoubi} [[Max Karoubi]], §7.10 in: _K-Theory -- An Introduction_, Grundlehren der mathematischen Wissenschaften **226**, Springer (1978) &lbrack;[pdf](https://webusers.imj-prg.fr/~max.karoubi/K.book/MK.book.pdf), [doi:10.1007%2F978-3-540-79890-3](https://link.springer.com/book/10.1007%2F978-3-540-79890-3)&rbrack;
-
-Lecture notes:
-
-* Arshay Sheth: *The Atiyah-Jänich Theorem* &lbrack;[pdf](https://warwick.ac.uk/fac/sci/maths/people/staff/sheth/report_talk12_arshaysheth.pdf), [[Sheth-AtiyahJanich.pdf:file]]&rbrack;
-
-As the basis of a definition of [[twisted K-theory]] and [[equivariant K-theory]] and [[twisted equivariant K-theory]]:
-
-* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_, Ukrainian Math. Bull. **1** 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
-
+* {#Baum15} [[Paul Baum]], slide 32 of: *Dirac operator*, lecture at TIFR Mumbai, India (2015) &lbrack;[pdf](https://mathweb.tifr.res.in/sites/default/files/conferences/lectures/DiracOperator.pdf), [[Baum-DiracOperator.pdf:file]]&rbrack;
 
 
 
