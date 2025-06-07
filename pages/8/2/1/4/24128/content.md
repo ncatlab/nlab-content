@@ -14,7 +14,12 @@ On [[anyon statistics|anyon phases]] (specifically in the [[quantum Hall effect]
 
 The model of [[anyon statistics]] as an [[Aharonov-Bohm effect]] of a "[[fictitious gauge field]]" sourced by and coupled to each anyon:
 
-* {#ArovasScriefferWilczekZee85} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](Frank+Wilczek#Wilczek90)) $[$<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>$]$
+* {#ArovasScriefferWilczekZee85} [[Daniel P. Arovas]], [[John Robert Schrieffer]], [[Frank Wilczek]], [[Anthony Zee]], *Statistical mechanics of anyons*, Nuclear Physics B **251** (1985) 117-126 (reprinted in [Wilczek 1990, p. 173-182](Frank+Wilczek#Wilczek90)) &lbrack;<a href="https://doi.org/10.1016/0550-3213(85)90252-4">doi:10.1016/0550-3213(85)90252-4</a>&rbrack;
+
+On the [[quantum Hall effect]]:
+
+* [[Daniel Arovas]]: *Lecture Notes on Quantum Hall Effect* (2024) &lbrack;[pdf](https://courses.physics.ucsd.edu/2019/Spring/physics230/LECTURES/QHE.pdf)&rbrack;
+
 
 category: people
 
