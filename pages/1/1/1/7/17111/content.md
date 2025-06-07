@@ -308,28 +308,28 @@ To record some aspects of the [[linear representation|linear]] [[representation 
     \left\{
       \array{
         a_1^+
-        :=
+        \coloneqq
         q_0 \wedge q_1 + q_2 \wedge q_3,
         \\
         a_2^+
-        :=
+        \coloneqq
         q_0 \wedge  q_2 + q_3 \wedge  q_1,
         \\
         a_3^+
-        :=
+        \coloneqq
         q_0 \wedge q_3 + q_1 \wedge  q_2,
       }
       \array{
         a_1^-
-        :=
+        \coloneqq
         q_0 \wedge q_1 - q_2 \wedge q_3,
         \\
         a_2^-
-        :=
+        \coloneqq
         q_0 \wedge q_2 - q_3 \wedge q_1,
         \\
         a_3^-
-        :=
+        \coloneqq
         q_0 \wedge q_3 - q_1 \wedge q_2
       }
     \right\}
@@ -574,13 +574,13 @@ To record some aspects of the [[linear representation|linear]] [[representation 
     \left\langle
     \left\{
     \begin{array}{l}
-      b_0 := + q_1 \wedge q_2 \wedge q_3
+      b_0 \coloneqq + q_1 \wedge q_2 \wedge q_3
       \\
-      b_1 := - q_0 \wedge q_2 \wedge q_3
+      b_1 \coloneqq - q_0 \wedge q_2 \wedge q_3
       \\
-      b_2 := + q_0 \wedge q_1 \wedge q_3
+      b_2 \coloneqq + q_0 \wedge q_1 \wedge q_3
       \\
-      b_3 := - q_0 \wedge q_1 \wedge q_2
+      b_3 \coloneqq - q_0 \wedge q_1 \wedge q_2
     \end{array}
     \right\}
     \right\rangle
