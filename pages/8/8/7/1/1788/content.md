@@ -6,6 +6,14 @@
 
 ****
 
+Denote 
+
+* $\mathbb{H}$ the space of [[quaternions]]
+
+* $\mathbb{H}_{im} \subset \mathbb{H}$ the subspace of imaginar quaternions ($q \in \mathbb{H}$ such that $\overline{q} = - q$).
+
+* ...
+
 \begin{tikzcd}
   S(\mathbb{H})
   \times_{\mathrm{U}(1)}
