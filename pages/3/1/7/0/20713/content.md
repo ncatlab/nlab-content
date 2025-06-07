@@ -1,3 +1,4 @@
+[[!redirects rational Cohomotopy]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
