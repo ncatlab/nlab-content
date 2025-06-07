@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -519,7 +520,9 @@ This subbundle is evidently characterized as the bundle of +1 [[eigenspaces]] of
   \label{SphereParameterizedHamiltonian}
   \begin{array}{rrcl}
     S(\mathbb{H})
-      &\overset{\phantom{--} \sigma \phantom{--}}{\longrightarrow}&
+      &\overset{\phantom{--} 
+          - \mathrm{i}\, \sigma 
+        \phantom{--}}{\longrightarrow}&
     End(\mathbb{C}^2)
     \\
     q \mathbf{i} q^\ast
@@ -566,14 +569,15 @@ Similar arguments are ubiquituous in the literature on [[Chern insulators]] (cf.
 \end{remark}
 
 \begin{remark}\label{AsAFredholmIndexBundle}
-**(As Fredholm index Abundle)**
+**(As a Fredholm index bundle)**
 \linebreak
   From (eq:SphereParameterizedHamiltonian) it immediate to produce a nice $S^2$-parameterized [[Fredholm operator]]
-$$
+\[
+  \label{AsAParameterizedFredholmOperator}
   \begin{array}{rcl}
     S^2 &\overset{F}{\longrightarrow}& Fred(\mathscr{H})
   \end{array}
-$$
+\]
 whose [[index bundle]] is the basic complex line bundle, hence which represents the latter's class in [[topological K-theory]] under the [[Atiyah-Jänich theorem]]:
 
 To that end let $\mathscr{H} \coloneqq \mathbb{C}^2 \oplus \ell_2(\mathbb{N})$, and take 
@@ -631,6 +635,22 @@ $$
 
 This is such that $ker(F_{\vec x}) = ker(H_{\vec x} - id)$
 and $coker(F_{\vec x}) = 0$, whence we indeed have a parametrized Fredholm operator whose index bundle is $ker(H_{\vec x} - id)$.
+\end{remark}
+
+\begin{remark}\label{InEquivariantKTheory}
+  The first presentation in (eq:SphereParameterizedHamiltonian) makes manifest that the map $S^2 \longrightarrow End(\mathbb{C}^2)$ is $Spin(3)$-[[equivariant map|equivariant]]: with respect to the rotation action through $SO(3)$ on the left and the [[conjugation action]] by special unitary matrices in $SU(2) \simeq Spin(3)$ on the right. 
+
+From this it follows that also the corresponding parameterized Fredholm operator (eq:AsAParameterizedFredholmOperator) is $Spin(3)$-equivariant, if we let $Spin(3) \simeq SU(2)$ act on 
+$$
+  \mathscr{H} 
+    \,\simeq\, 
+  \mathbb{C}^2 \oplus \ell_2(\mathbb{N}) 
+    \,\simeq\, 
+  \bigoplus_{\mathbb{N}} \mathbb{C}^2
+$$
+as the infinite direct sum of the defining representation of $SU(2)$.
+ 
+The resulting $Spin(3)$-equivariant family of Fredholm operators should the the representation of the [[tautological equivariant line bundle]] in the [[equivariant K-theory]] of $S^2$.
 \end{remark}
 
 
