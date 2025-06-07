@@ -45,6 +45,12 @@ where $ind_X$ forms the *index bundle*, an $X$-parameterized enhancement of the 
 This relation generalizes to a definition of [[twisted K-theory]] and of [[equivariant K-theory]] (hence of [[twisted equivariant K-theory]]) as given by homotopy classes of [[sections]] of $Fred(\mathscr{H})$-[[fiber bundles]] ([Atiyah & Segal 2004](#AtiyahSegal04)).
 
 
+## Examples
+
+\begin{example}
+  For discussion of the [[basic complex line bundle on the 2-sphere]] realized as a Fredholm index bundle see [there](basic+complex+line+bundle+on+the+2-sphere#AsAFredholmIndexBundle).
+\end{example}
+
 ## References
 
 The original articles:
