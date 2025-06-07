@@ -80,7 +80,12 @@ More on [[edge modes]]:
 
 * {#Levin13} [[Michael Levin]]: *Protected edge modes without symmetry*, Phys. Rev. X **3** 021009 (2013) \[<a href="https://doi.org/10.1103/PhysRevX.3.021009">doi:10.1103/PhysRevX.3.021009</a>, [arXiv:1301.7355](https://arxiv.org/abs/1301.7355)\]
 
-Amplification of the [K-matrix formalism](abelian+Chern-Simons theory#HierarchicalKMatrixFormalism) as being about (not the usual single-component but) *multi-component* [[FQH systems]]:
+The [[symmetry protected topological phase|symmetry protected]] situation:
+
+* [[Yuan-Ming Lu]], [[Ashvin Vishwanath]]: *Classification and properties of symmetry-enriched topological phases: Chern-Simons approach with applications to $\mathbb{Z}_2$ spin liquids*, Phys. Rev. B **93** (2016) 155121 \[<a href="https://doi.org/10.1103/PhysRevB.93.155121">doi:10.1103/PhysRevB.93.155121</a>, [arXiv:1302.2634](https://arxiv.org/abs/1302.2634)\]
+
+
+Amplification of the [K-matrix formalism](abelian+Chern-Simons+theory#HierarchicalKMatrixFormalism) as being about (not the usual single-component but) *multi-component* [[FQH systems]]:
 
 * {#BarkeshliWen17} [[Maissam Barkeshli]], [[Xiao-Gang Wen]]: *Bilayer quantum Hall phase transitions and the orbifold non-Abelian fractional quantum Hall states*, Phys. Rev. B **95** (2017) 085135 \[<a href="https://doi.org/10.1103/PhysRevB.95.085135">doi:10.1103/PhysRevB.95.085135</a>, [arXiv:1010.4270](https://arxiv.org/abs/1010.4270)\]
 
