@@ -740,8 +740,9 @@ Review:
 
 * [[Eduardo Fradkin]], chapters 12, 13 in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
 
-
 * [[Eduardo C. Marino]]: *Quantum Hall Effect*, chapter 26 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
+* [[Daniel Arovas]]: *Lecture Notes on Quantum Hall Effect* (2024) &lbrack;[pdf](https://courses.physics.ucsd.edu/2019/Spring/physics230/LECTURES/QHE.pdf)&rbrack;
 
 
 Discussion via Newton-Cartan theory:
