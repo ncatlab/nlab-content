@@ -31,6 +31,8 @@ A [[dependent type theory]] where the [[computation rules]] and [[uniqueness rul
 
 The dependent type theory has many different names in the existing literature
 
+* *axiomatic type theory* (e.g. [Otten 2024](#Otten24), [Spadetto 2025](#Spadetto25))
+
 * *propositional type theory* (e.g. [Spadetto 2023](#Spadetto23))
 
 * *objective type theory* (e.g. [van der Berg & den Besten 2021](#BB21))
@@ -577,6 +579,14 @@ Talks at *Strength of Weak Type Theory*, hosted by *[[DutchCATS]]*:
 
 * [[Rafaël Bocquet]], *Towards coherence theorems for equational extensions of type theories*, 12 May 2023. ([slides](https://dutchcats.github.io/Weak_type_theories/slides_bocquet.pdf))
 
+Talk at the Workshop on Homotopy Type Theory / Univalent Foundations 2024:
+
+* {#Otten24} [[Daniël Otten]], *Models for Axiomatic Type Theory* ([slides](https://hott-uf.github.io/2024/slides/Otten.pdf), [video](https://www.youtube.com/watch?v=OT2fQ5iwRU))
+
+Talk at the WG6 meeting at Geneva in 2025:
+
+* {#Spadetto25} [[Matteo Spadetto]], A 2-categorical approach to the sematics of axiomatic dependent type theory ([slides](https://europroofnet.github.io/_pages/WG6/Genova/talks/spadetto.pdf))
+
 Project to convert [[extensional type theory]] to [[weak type theory]]:
 
 * Github, [ett-to-wtt](https://github.com/TheoWinterhalter/ett-to-wtt)
@@ -588,6 +598,12 @@ Additional general dependent type theory references used for the formalizations 
 * {#Rijke22} [[Egbert Rijke]], *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
 
 * {#CTZulip} *Dependent Type Theory vs Polymorphic Type Theory*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Dependent.20Type.20Theory.20vs.20Polymorphic.20Type.20Theory))
+
+[[!redirects axiomatic type theory]]
+[[!redirects axiomatic type theories]]
+
+[[!redirects axiomatic dependent type theory]]
+[[!redirects axiomatic dependent type theories]]
 
 [[!redirects objective type theory]]
 [[!redirects objective type theories]]
