@@ -161,6 +161,7 @@ The 2-category $Topos$ is an [[extensive category]]. Same for toposes bounded ov
 
 This is in ([BungeLack, proposition 4.3](#BungeLack)).
 
+
 #### Products
  {#Products}
 
@@ -246,7 +247,7 @@ $$
 a [[pair]] of cocontinuous and finitely continuous functors, there is a unique such functor
 
 $$
-  (f^\ast_1, f^\ast_2) \,\colon\,
+  (f_1, f_2)^\ast \,\colon\,
   PSh(C_1 \times C_2) \longrightarrow \mathcal{X}
 $$
 
@@ -261,7 +262,7 @@ which makes the following [[commuting diagram|diagram commute]]:
   \ar[
     u, 
     dashed,
-    "{ (f^\ast_1, f^\ast_2) }"{description}
+    "{ (f_1, f_2)^\ast }"{description}
   ]
   \\
   \mathrm{PSh}(C_1)    
@@ -319,12 +320,12 @@ to
 
 $$
   \begin{array}{rcl}
-    (f^\ast_1, f^\ast_2)
+    (f_1, f_2)^\ast
     \big( 
       y(c_1, c_2)
     \big)
     &\simeq&
-    (f^\ast_1, f^\ast_2)
+    (f_1, f_2)^\ast
     \big( 
       y\big( 
         (c_1, \ast_2) 
@@ -333,7 +334,7 @@ $$
     \big)
     \\
     &\simeq&
-    (f^\ast_1, f^\ast_2)
+    (f_1, f_2)^\ast
     \big( 
       y(c_1, \ast_2) 
         \times 
@@ -341,25 +342,25 @@ $$
     \big)
     \\
     &\simeq&
-    (f^\ast_1, f^\ast_2)
+    (f_1, f_2)^\ast
     \big( 
       y(c_1, \ast_2) 
     \big)
     \times
-    (f^\ast_1, f^\ast_2)
+    (f_1, f_2)^\ast
     \big( 
       y(\ast_1, c_2) 
     \big)
     \\
     &\simeq&
-    (f^\ast_1, f^\ast_2)
+    (f_1, f_2)^\ast
     \circ
     p^\ast_1 
     \big(
        y(c_1) 
     \big)
     \;\times\;
-    (f^\ast_1, f^\ast_2)
+    (f_1, f_2)^\ast
     \circ
     p^\ast_2
     \big( 
@@ -380,13 +381,13 @@ where we have used, in order of appearance, that:
 
 1. the [Yoneda embedding preserves limits](Yoneda+embedding#PreservesLimits),
 
-1. $(f^\ast_1, f^\ast_2)$ is assumed to preserve finite limits,
+1. $(f_1, f_2)^\ast$ is assumed to preserve finite limits,
 
 1. the equivalences (eq:PullbackOfRepresentablesAlongProductProjection) hold,
 
 1. the above triangles commute.
 
-So this fixes the values of $(f^\ast_1, f^\ast_2)$ on all representables. But thereby it actually fixes its values on all of $PSh(C_1 \times C_2)$, since the latter is the [[free cocompletion]] of $C_1 \times C_2$ (all [presheaves are colimits of representables](presheaf#PresheavesAreColimitsOfRepresentables)) and since $(f^\ast_1, f^\ast_2)$ is also required to be cocontinuous and hence must [[preserved colimit|preserve]] these colimits. 
+So this fixes the values of $(f_1, f_2)^\ast$ on all representables. But thereby it actually fixes its values on all of $PSh(C_1 \times C_2)$, since the latter is the [[free cocompletion]] of $C_1 \times C_2$ (all [presheaves are colimits of representables](presheaf#PresheavesAreColimitsOfRepresentables)) and since $(f_1, f_2)^\ast$ is also required to be cocontinuous and hence must [[preserved colimit|preserve]] these colimits. 
 
 This establishes the claim 
 
