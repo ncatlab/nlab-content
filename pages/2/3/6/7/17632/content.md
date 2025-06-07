@@ -18,7 +18,7 @@ Fields are finitely [[first-order theory|first-order]] axiomatizable. An [[algeb
 ## Definition
 $\mathsf{ACF}$ is the countable collection of sentences in the language $\mathcal{L}_{\operatorname{ring}}$ of rings given by:
 
-$$\{\text{field axioms}\} + \left\{ (\forall a_0, \ldots, a_{n-1}) (\exists x)[x^n + \sum_{i=0}^{n-1} a_i x_i^i = 0] \right\},$$
+$$\{\text{field axioms}\} + \left\{ (\forall a_0, \ldots, a_{n-1}) (\exists x)[x^n + \sum_{i=0}^{n-1} a_i x^i = 0] \right\},$$
 
 where $n = 1, 2, \ldots$. 
 
