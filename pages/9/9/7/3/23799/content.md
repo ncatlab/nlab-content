@@ -30,13 +30,15 @@ This means that a topological crystalline insulator phase observed in the [[bulk
 
 ### Original articles
 
-* [[Liang Fu]], *Topological Crystalline Insulators*, Phys. Rev. Lett. **106** (2011) 106802 ([doi:10.1103/PhysRevLett.106.106802](https://doi.org/10.1103/PhysRevLett.106.106802))
+* [[Liang Fu]], *Topological Crystalline Insulators*, Phys. Rev. Lett. **106** (2011) 106802 &lbrack;[arXiv:1010.1802](https://arxiv.org/abs/1010.1802), 
+[doi:10.1103/PhysRevLett.106.106802](https://doi.org/10.1103/PhysRevLett.106.106802)&rbrack;
 
 * [[Robert-Jan Slager]], Andrej Mesaros, Vladimir Juricic, [[Jan Zaanen]], *The space group classification of topological band insulators*, Nature Physics **9** 98 (2013) $[$[doi:10.1038/nphys2513](https://doi.org/10.1038/nphys2513), [arXiv:1209.2610](https://arxiv.org/abs/1209.2610)$]$
 
-* Jie Shen, Judy J. Cha,  *Topological Crystalline Insulator Nanostructures*, Nanoscale **6** 23 (2014) 14133-14140 $[$[doi:10.1039/c4nr05124f](https://doi.org/10.1039/c4nr05124f)$]$
+* Jie Shen, Judy J. Cha,  *Topological Crystalline Insulator Nanostructures*, Nanoscale **6** 23 (2014) 14133-14140 &lbrack;[doi:10.1039/c4nr05124f](https://doi.org/10.1039/c4nr05124f)&rbrack;
 
-* [[Jorrit Kruthoff]], [[Jan de Boer]], Jasper van Wezel, [[Charles L. Kane]], [[Robert-Jan Slager]], *Topological Classification of Crystalline Insulators through Band Structure Combinatorics*, Phys. Rev. X **7** (2017) 041069 $[$[doi:10.1103/PhysRevX.7.041069](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.7.041069)$]$
+* [[Jorrit Kruthoff]], [[Jan de Boer]], Jasper van Wezel, [[Charles L. Kane]], [[Robert-Jan Slager]], *Topological Classification of Crystalline Insulators through Band Structure Combinatorics*, Phys. Rev. X **7** (2017) 041069 &lbrack;[arXiv:1612.02007](https://arxiv.org/abs/1612.02007), 
+[doi:10.1103/PhysRevX.7.041069](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.7.041069)&rbrack;
 
   > (explicit relation to [[equivariant K-theory]] in appendix B)
 
