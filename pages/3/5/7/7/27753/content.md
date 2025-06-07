@@ -14,6 +14,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -161,8 +162,13 @@ Further discussion:
 
 The case of [[crystalline topological insulators]] and [[symmetry protected topological order]]:
 
+* Yuan-Ming Lu, Ying Ran: *Symmetry protected fractional Chern insulators and fractional topological insulators*, Phys. Rev. B **85** (2012)  165134 &lbrack;[arXiv:1109.0226](https://arxiv.org/abs/1109.0226), [doi:10.1103/PhysRevB.85.165134](https://doi.org/10.1103/PhysRevB.85.165134)&rbrack;
+  > "In fact, the recently discovered FCI states preserve all the lattice point group symmetry as well as translational symmetry. Here in this paper, we point out that as a consequence of the lattice symmetry, there exist many different quantum FCI phases, all respecting the full lattice symmetry, even at the same filling fraction with the same quantum Hall conductance \[...\] These distinct FCI phases cannot be adiabatically connected with each other without a phase transition while the lattice symmetry is respected"
+
 * Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators* &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431)&rbrack;
 
+* Naren Manjunath: *Crystalline invariants of integer
+and fractional Chern insulators*, talk at *[Recent Developments and Challenges in Topological Phases](https://www2.yukawa.kyoto-u.ac.jp/~yitpmolecule-topology-2024/)*, Kyoto University (2024) &lbrack;[pdf](https://www2.yukawa.kyoto-u.ac.jp/~yitpmolecule-topology-2024/slide/Naren.pdf), [[Manjunath-CrystallineInvariantsofFCI.pdf:file]]&rbrack;
 
 
 [[!redirects quantum anomalous Hall effects]]
