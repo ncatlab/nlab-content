@@ -84,6 +84,7 @@ $$
 
 In other words, the Hopf fibration is the $U(1)$-bundle with unit first [[Chern class]] on $S^2$.
 
+
 ### Realization via the complex numbers
 
 An explicit [[topological space]] presenting the Hopf fibration may be obtained as follows. Identify
@@ -148,6 +149,7 @@ $$
   \,.
 $$
 
+
 ### Realization via quaternions
  {#RealizationViaQuaternions}
 
@@ -167,6 +169,7 @@ $$
 
 where $\mathbf{i} \in S\left( \mathbb{H}_{\mathrm{im}}\right)$ is any unit imaginary quaternion.
 
+See also at *[[basic complex line bundle on the 2-sphere]]*, the section *[As an index bundle](basic+complex+line+bundle+on+the+2-sphere#AsAnIndexBundle)*.
 
 
 ### Realization via the Hopf construction
