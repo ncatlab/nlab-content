@@ -159,6 +159,11 @@ Further discussion:
 * Sen Niu, [[Jason Alicea]], D. N. Sheng, Yang Peng: *Quantum anomalous Hall effects and Hall crystals at fractional filling of helical trilayer graphene* &lbrack;[arXiv:2505.24146](https://arxiv.org/abs/2505.24146)&rbrack;
 
 
+The case of [[crystalline topological insulators]] and [[symmetry protected topological order]]:
+
+* Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators* &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431)&rbrack;
+
+
 
 [[!redirects quantum anomalous Hall effects]]
 
