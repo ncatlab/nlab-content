@@ -40,7 +40,7 @@ Both the Atiyah Lie groupoid and its Lie algebroid are used to characterize and 
 
 As generally for every [[Lie algebroid]], there are different [[Lie groupoids]] [[Lie integration|integrating]] the [[Atiyah Lie algebroid]]. We describe two of them.
 
-The Aityah Lie algebroid $at(P)$ of the [[principal bundle]] $P \to X$ comes canonically with a morphism $at(X) \to T X$ to the [[tangent Lie algebroid]].
+The Atiyah Lie algebroid $at(P)$ of the [[principal bundle]] $P \to X$ comes canonically with a morphism $at(X) \to T X$ to the [[tangent Lie algebroid]].
 
 The simplest [[Lie integration]] of the tangent Lie algebroid is the [[pair groupoid]] $X \times X$ of $X$. On the other hand, the universal integration is the [[fundamental groupoid]] $\Pi(X)$ (both coincide precisey if $X$ is a [[simply connected space]]). 
 
