@@ -39,7 +39,6 @@ This convention is used for example by [[Jacob Lurie]] and often on [[nLab]] ent
 
 (Note that this convention *never* applies to the *names* of pages in the Lab; see [Naming conventions](/nlab/show/HowTo#naming).  That also means that when writing pages using this convention, one must be sure to use the appropriate "pipelinks," such as `[[(infinity,1)-topos|topos]]`.)
 
-
 [[!redirects implicit infinity-category theory convention]]
 [[!redirects implicit ∞-category theory convention]]
 [[!redirects implicit (infinity,1)-category theory convention]]
