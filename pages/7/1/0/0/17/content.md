@@ -451,12 +451,6 @@ There is really no such thing as a "global convention on the $n$Lab" for ambiguo
 
 Therefore the general rule is: whatever you write in some entry, try to make sure that you provide enough context that the relevant conventions are clear. If you find yourself using some notation for the first time on a page and are worrying if readers will read it as intended, be sure to add a parenthetical remark (where we use here the convention that...) or similar. 
 
-If you feel that you need to refer to a specific convention repeatedly over several $n$Lab pages, just create another page that states the convention, and then simply point to that page.
-
-One example of this that we have is the _[[implicit infinity-category theory convention]]_-page.
-
-
-
 ## Special Typesetting Features
 
 ### How to typeset mathematical formulas
