@@ -6,6 +6,35 @@
 
 ****
 
+\begin{tikzcd}
+  S^2
+  \ar[
+    rr,
+    "{ F }"
+  ]
+  \ar[
+    d,
+    "{
+     \widehat{R}
+    }"
+  ]
+  &&
+  \mathrm{Fred}(\mathcal{H})
+  \ar[
+    d,
+    "{ U(\widehat{R}) }"
+  ]
+  \\
+  S^2
+  \ar[
+    rr,
+    "{ F }"
+  ]
+  &&
+  \mathrm{Fred}(\mathcal{H})
+\end{tikzcd}
+
+
 Consider:
 
 * $\mathbb{H}$ the [[real numbers|real]] [[star-algebra]] of [[quaternions]], with [[norm]] given by ${\vert q \vert}^2 \coloneqq q q^\ast$,
