@@ -1,7 +1,13 @@
 
 * [institute page](https://www.physics.harvard.edu/people/facpages/vishwanath)
 
+* [research group page](https://avishwanath.scholars.harvard.edu/)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Ashvin_Vishwanath)
+
+* [inSpire page](https://inspirehep.net/authors/1056252)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Js1q86YAAAAJ&hl=en)
 
 
 ## Selected writings
@@ -26,6 +32,11 @@ On [[topological semi-metals]]:
 On [[symmetry protected topological phases]]:
 
 * {#CLV14} [[Xie Chen]], [[Yuan-Ming Lu]], [[Ashvin Vishwanath]]: *Symmetry-protected topological phases from decorated domain walls*, Nature Communications **5** 3507  (2014) &lbrack;[doi:10.1038/ncomms4507](https://doi.org/10.1038/ncomms4507)&rbrack;
+
+and specifically for [[fractional quantum Hall systems]] via [[effective field theory|effective]] [[abelian Chern-Simons theory]]:
+
+* [[Yuan-Ming Lu]], [[Ashvin Vishwanath]]: *Classification and properties of symmetry-enriched topological phases: Chern-Simons approach with applications to $\mathbb{Z}_2$ spin liquids*, Phys. Rev. B **93** (2016) 155121 \[<a href="https://doi.org/10.1103/PhysRevB.93.155121">doi:10.1103/PhysRevB.93.155121</a>, [arXiv:1302.2634](https://arxiv.org/abs/1302.2634)\]
+
 
 On "fragile" (unstable, [[nonabelian cohomology]]) effects in [[topological phases of matter]], finer than the [[K-theory classification of topological phases]]:
 
