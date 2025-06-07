@@ -66,6 +66,8 @@ Some authors speak of "Chern semi-metals" to amplify this.
 
 ## Related concepts
 
+* [[basic complex line bundle on the 2-sphere]] -- [as an index bundle](https://ncatlab.org/nlab/show/basic+complex+line+bundle+on+the+2-sphere#AsAnIndexBundle)
+
 * [[quantum anomalous Hall effect]]
 
 * [[fractional Chern insulator]], [[fractional quantum anomalous Hall effect]]
@@ -80,17 +82,17 @@ Some authors speak of "Chern semi-metals" to amplify this.
 
 ### General
 
-* {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
+* {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205)&rbrack;
 
 
-* Panagiotis Kotetes, Chapter 5 of: *Topological Insulators*, IOP Science 2019 ([ISBN:978-1-68174-517-6](https://iopscience.iop.org/book/978-1-68174-517-6))
+* Panagiotis Kotetes, Chapter 5 of: *Topological Insulators*, IOP Science (2019) &lbrack;[ISBN:978-1-68174-517-6](https://iopscience.iop.org/book/978-1-68174-517-6)&rbrack;
 
 * Jason G. Kattan, J. E. Sipe: *Chern insulators in two and three dimensions: A global perspective* &lbrack;[arXiv:2506.04466](https://arxiv.org/abs/2506.04466)&rbrack;
 
 
 Models akin to the [[Haldane model]]:
 
-* Doru Sticlet, [[Frédéric Piéchon]], [[Jean-Noël Fuchs]], Pavel Kalugin, Pascal Simon, *Geometrical engineering of a two-bands Chern insulator in two dimensions with arbitrary topological index*, Phys. Rev. B **85** 165456 (2012) &lbrack;[arXiv:1201.6613](https://arxiv.org/abs/1201.6613), [doi:10.1103/PhysRevB.85.165456](https://doi.org/10.1103/PhysRevB.85.165456)&rbrack;
+* {#SticletEtAl12} Doru Sticlet, [[Frédéric Piéchon]], [[Jean-Noël Fuchs]], Pavel Kalugin, Pascal Simon, *Geometrical engineering of a two-bands Chern insulator in two dimensions with arbitrary topological index*, Phys. Rev. B **85** 165456 (2012) &lbrack;[arXiv:1201.6613](https://arxiv.org/abs/1201.6613), [doi:10.1103/PhysRevB.85.165456](https://doi.org/10.1103/PhysRevB.85.165456)&rbrack;
 
 * [[Marwa Mannaï]], [[Jean-Noël Fuchs]], [[Frédéric Piéchon]], [[Sonia Haddad]], *Stacking-induced Chern insulator* &lbrack;[arXiv:2208.02491](https://arxiv.org/abs/2208.02491)&rbrack;
 
