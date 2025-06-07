@@ -1,4 +1,3 @@
-[[!redirects basic line bundle on the 2-sphere]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -257,65 +256,382 @@ This is called the _[[fundamental product theorem in topological K-theory]]_. It
 
 =--
 
+
 ### As an index bundle
  {#AsAnIndexBundle}
 
-For $\vec x \in \mathbb{R}^3$ write
+We discuss how the basic complex line bundle on $S^2$ is isomorphically the [[subbundle]] of +1 [[eigenspaces]] of a natural $S^2$-parameterized [[Dirac operator|Dirac]]-like [[linear operator]] acting on $\mathbb{C}^2$, which gives its natural realization as a [[Fredholm operator|Fredholm]] [[index bundle]] (cf. Rem. \ref{AsAFredholmIndexBundle} below). This kind of construction plays a key role in the discussion of [[Chern insulators]] ([[topological phases of matter]] with nontivial [[first Chern class]] of the [[valence bundle]], cf. Rem. \ref{RelationToChernInsulators} below).
 
-$$
-  D_{\vec x}
-  \,\colon\,
-  \mathbb{C}^2 
-    \longrightarrow 
-  \mathbb{C}^2
-$$
+\linebreak
 
-for the [[linear operator]] given by the [[linear combination]] of the  [[Pauli matrices]] (normalized to $\sigma_i^2 = -1 $ and $\sigma_i^\dagger = - \sigma_i$):
+To this end, consider:
+
+* $\mathbb{H}$ the [[real numbers|real]] [[star-algebra]] of [[quaternions]], with [[norm]] given by ${\vert q \vert}^2 \coloneqq q q^\ast$,
+
+* $\mathbb{H}_{im} \subset \mathbb{H}$ the subspace of [[imaginary number|imaginary]] quaternions ($q \in \mathbb{H}$ such that $q^\ast = - q$), in which we choose, as usual, an [[orthonormal basis|orthonormal]] [[linear basis]] $\mathbf{i}, \mathbf{j}, \mathbf{k}$ such that $\mathbf{i} \mathbf{j} = \mathbf{k}$,
+
+* $\mathbb{H} \longrightarrow End(\mathbb{C}^2)$ the [[star-algebra]] [[homomorphism]] which identifies the unit imaginary quaternions with [[Pauli matrices]]:
+
+  $$
+    \begin{array}{rcr}
+      \mathbb{H} 
+        &\overset
+         {\phantom{--} \sigma \phantom{--}}
+         {\longrightarrow}& 
+      End(\mathbb{C}^2)
+      \\
+      1 &\mapsto& 
+       \left[\begin{matrix}
+          \phantom{+}1 & \phantom{+}0 
+          \\ 
+          \phantom{+}0 & \phantom{+}1
+        \end{matrix}\right]
+      \\   
+      \mathbf{i} &\mapsto& 
+       \mathrm{i}
+       \left[\begin{matrix}
+          \phantom{+}1 & \phantom{+}0 
+          \\ 
+          \phantom{+}0 & -1
+        \end{matrix}\right]
+      \\   
+       \mathbf{j} &\mapsto& 
+       \mathrm{i}
+       \left[\begin{matrix}
+          \phantom{+}0 & \phantom{+}1 
+          \\ 
+          \phantom{+}1 & \phantom{+}0
+        \end{matrix}\right]
+      \\   
+       \mathbf{k} &\mapsto& 
+       \mathrm{i}
+       \left[\begin{matrix}
+          \phantom{+}0 & \phantom{+}\mathrm{i} 
+          \\ 
+          -\mathrm{i} & \phantom{+}0
+        \end{matrix}\right]
+       \mathrlap{\,,}
+    \end{array}
+  $$
+
+* $S(\mathbb{H})$ the [[3-sphere]] of unit norm quaternions, which by the above homomorphism is identified with the [[special unitary group|special unitary]] [[matrices]], 
+
+  $$
+    S(\mathbb{H}) 
+      \underoverset
+        {\sim}
+        {\phantom{--} \sigma \phantom{--}}
+        {\longrightarrow}
+    SU(2)
+  $$
+
+  because
+
+  $$
+    \begin{array}{l}
+      det\big( 
+        x_0 \mathrm{id} 
+        + 
+        x_1 \sigma_{\mathbf{i}}
+        + 
+        x_2 \sigma_{\mathbf{j}}
+        + 
+        x_3 \sigma_{\mathbf{k}}
+     \big)
+     \\
+     \;=\;
+     det
+     \left[
+       \begin{matrix}
+          x_0  + \mathrm{i} x_1 & \mathrm{i}x_2 - x_3
+          \\
+          \mathrm{i} x_2 + x_3 & x_0 - \mathrm{i} x_1
+       \end{matrix}
+     \right]
+     \\
+     \;=\;
+     (x_0)^2 + (x_1)^2 + (x_2)^2 + (x_3)^2
+    \end{array}
+  $$
+
+  and
+  
+  $$
+    \begin{array}{l}
+    \big(
+      x_0 \mathrm{id}
+      + 
+      x_1 \sigma_{\mathbf{i}}
+      + 
+      x_2 \sigma_{\mathbf{j}}
+      + 
+      x_3 \sigma_{\mathbf{k}}
+    \big)^\dagger
+    \big(
+      x_0 \mathrm{id}
+      + 
+      x_1 \sigma_{\mathbf{i}}
+      + 
+      x_2 \sigma_{\mathbf{j}}
+      + 
+      x_3 \sigma_{\mathbf{k}}
+    \big)
+    \\
+    \;=\;
+    \big(
+      x_0 \mathrm{id}
+      - 
+      x_1 \sigma_{\mathbf{i}}
+      - 
+      x_2 \sigma_{\mathbf{j}}
+      - 
+      x_3 \sigma_{\mathbf{k}}
+    \big)
+    \big(
+      x_0 \mathrm{id}
+      + 
+      x_1 \sigma_{\mathbf{i}}
+      + 
+      x_2 \sigma_{\mathbf{j}}
+      + 
+      x_3 \sigma_{\mathbf{k}}
+    \big)
+    \\
+    \;=\;
+    (x_0)^2 
+    + (x_1)^2
+    + (x_2)^2
+    + (x_3)^2
+    \,,
+    \end{array}
+  $$
+
+* the [[group action]] of $SU(2) \simeq Spin(3)$ through [[SO(3)]] on $\mathbb{H}_{im} \simeq_{{}_{\mathbb{R}}} \mathbb{R}^3$ given by
+
+  $$
+    \begin{array}{ccc}
+      \overset{
+        Spin(3) \times \mathbb{R}^3
+      }{
+        \overbrace{
+          S(\mathbb{H}) \times \mathbb{H}_{im} 
+        }
+      }
+        &\longrightarrow& 
+      \overset{
+        \mathbb{R}^3
+      }{
+        \overbrace{
+          \mathbb{H}_{im}
+        }
+      }
+      \\
+      (q, x) &\mapsto& q x q^\ast
+      \mathrlap{\,,}
+    \end{array}
+  $$
+
+* $S(\mathbb{H}_{im})$ the [[2-sphere]] of unit-[[norm]] imaginary quaternions.
+
+Observing that the [[complex Hopf fibration]] is equivalently (see [there](Hopf+fibration#RealizationViaQuaternions)):
 $$
-  D_{\vec x}
-  \;\coloneqq\;
-  \mathrm{i}
-  \sum_i x^i \sigma_i
+  \begin{array}{c}
+    S(\mathbb{H}) 
+      &\overset
+        {\phantom{--} h_{\mathbb{C} \phantom{--}} }
+        {\longrightarrow}
+      & 
+    S(\mathbb{H}_{im})
+    \\
+    q &\mapsto& q \cdot \mathbf{i} \cdot q^\ast
+  \end{array}
+$$ 
+whose [[fiber]] over $\mathbf{i}$ is 
+$$
+  \begin{array}{rcl}
+    \overset{
+      \mathrm{U}(1)
+    }{
+      \overbrace{
+        S(\mathbb{C})
+      }
+    }
+    &\xhookrightarrow{\phantom{---}}& 
+    \overset{
+      \mathrm{SU}(2)
+    }{
+      \overbrace{
+        S(\mathbb{H})
+      }
+    }
+    \\
+    x + y \mathrm{i}
+    &\mapsto&
+    x + y \mathbf{i}
+    \,,
+  \end{array}
+$$
+it follows that the [[basic complex line bundle on the 2-sphere]] is the [[associated bundle|associated]] [[complex line bundle]]
+$$
+  S(\mathbb{H}) \times_{\mathrm{U}(1)} \mathbb{C}
+  \;=\;
+  \Big\{
+    (q,z) \in S(\mathbb{H}) \times \mathrm{U}(1)
+  \Big\}_{
+    \big/\big( 
+      (q,z) \sim (q \alpha^{-1}, \alpha z)
+      \,\forall_{\alpha \in \mathrm{U}(1)}\,
+    \big)
+  }
   \,.
 $$
 
-Restricting their parameter to the [[2-sphere]],
+As such, this is a [[subbundle]] of the [[trivial]] [[complex vector bundle]] of [[rank of a vector bundle|rank]]$=2$, via this map:
+\begin{tikzcd}[
+  sep=0pt
+]
+  {[q,z]}
+  &\mapsto&
+  \left(
+    q \mathbf{i} q^\ast
+    ,\,
+    \sigma_{q}  
+    \cdot 
+    \left[\begin{matrix} z \\ 0 \end{matrix}\right]
+  \right)
+  \\
+  S(\mathbb{H})
+  \times_{\mathrm{U}(1)}
+  \mathbb{C}
+  \ar[d]
+  \ar[rr, hook]
+  &&
+  S^2 \times \mathbb{C}^2
+  \ar[d]
+  \\[+15pt]
+  S(\mathbb{H}_{\mathrm{im}})
+  \ar[rr, equals]
+  &&
+  S^2
+\end{tikzcd}
+This subbundle is evidently characterized as the bundle of +1 [[eigenspaces]] of this $S^2$-parameterized linear operator:
+\[
+  \label{SphereParameterizedHamiltonian}
+  \begin{array}{rrcl}
+    S(\mathbb{H})
+      &\overset{\phantom{--} \sigma \phantom{--}}{\longrightarrow}&
+    End(\mathbb{C}^2)
+    \\
+    q \mathbf{i} q^\ast
+    &\mapsto&
+    -\mathrm{i}
+    \sigma_{
+      q \mathbf{i} q^\ast
+    }    
+  \end{array}
+  \;\;\;\;
+  \text{hence equivalently of}
+  \;\;\;\;
+  \begin{array}{rrcl}
+    S^2
+      &\overset{\phantom{--} H \phantom{--}}{\longrightarrow}&
+    End(\mathbb{C}^2)
+    \\
+    \vec x \equiv (x^1, x^2, x^3)
+    &\mapsto&
+    -\mathrm{i}
+    \big(
+      x^1 \sigma_{\mathbf{i}}
+      +
+      x^2 \sigma_{\mathbf{j}}
+      +
+      x^3 \sigma_{\mathbf{k}}
+    \big)
+    \,.
+  \end{array}
+\]
+(This statement, without proof, may be found for instance in [Baum 2015 slide 32](#Baum15), [Baum & Erp 2018 p 106-107](#BaumErp18)).
+
+\begin{remark}\label{RelationToChernInsulators}
+**(relation to Chern insulators)**
+The normalized Hamiltonians (eq:SphereParameterizedHamiltonian) play a key role in [[solid state physics]] in the discussion of 2D 2-[[electron band|band]] [[crystals]] such as notably considered as models for [[Chern insulators]] (like the [[Haldane model]], cf. [Sticlet et al 2012 (2-3)](Chern+insulator#SticletEtAl12)).
+
+It follows from the above discussion that 
+
+1. any continuous family of such operators over a [[Brillouin torus]] $T^2$ is given by a continuous map $f \colon T^2 \longrightarrow{} S^2$,
+
+2. the +1 eigenspace bundle of the corresponding family of operators on $T^2$ (the *[[valence bundle]]* in these models) has [[first Chern class]] equal to the pullback along $f$ of the generating class $1 \in H^2(S^2;\mathbb{Z})$ of the basic line bundle on $S^2$.
+
+Similar arguments are ubiquituous in the literature on [[Chern insulators]] (cf. [Sticlet et al 2012 p 2](Chern+insulator#SticletEtAl12)), though the concrete statement that all these constructions amount to pulling back the Bott generator along a map to the 2-sphere may not have been made explicit elsewhere.
+\end{remark}
+
+\begin{remark}\label{AsAFredholmIndexBundle}
+**(As Fredholm index Abundle)**
+\linebreak
+  From (eq:SphereParameterizedHamiltonian) it immediate to produce a nice $S^2$-parameterized [[Fredholm operator]]
 $$
-  S^2 
-    \,=\,
-  \big\{
-    \vec x
-    \equiv
-    (x^1, x^2, x^3)
-    \,\in\,
-    \mathbb{R}^3 
-    \,\big\vert\,
-    \textstyle{\sum_i} (x^i)^2
-    \,\,
-    1
-  \big\}
+  \begin{array}{rcl}
+    S^2 &\overset{F}{\longrightarrow}& Fred(\mathscr{H})
+  \end{array}
+$$
+whose [[index bundle]] is the basic complex line bundle, hence which represents the latter's class in [[topological K-theory]] under the [[Atiyah-Jänich theorem]]:
+
+To that end let $\mathscr{H} \coloneqq \mathbb{C}^2 \oplus \ell_2(\mathbb{N})$, and take 
+$$
+  F_{\vec x}
+  \;\coloneqq\;
+  \left[
+  \begin{matrix}
+    H_x - \mathrm{id}
+    & 
+    P_2
+    \\
+    0 & shift^2  
+  \end{matrix}
+  \right]
   \,,
 $$
-these operators satisfy
+where
 $$
-  \vec x \,\in\, S^2 
-  \;\;\;\;\;
-  \vdash
-  \;\;\;\;\;
-  D_x \circ D_x 
-    \;=\; 
-  \sum_i (x^i)^2 \mathrm{id}_{\mathbb{C}^2}
-    \;=\;
-  \mathrm{id}_{\mathbb{C}^2}
+  \begin{array}{rcl}
+    \ell_2(\mathbb{N}) 
+      &\overset{ P_2 }{\longrightarrow}& 
+    \mathbb{C}^2
+    \\
+    \sum_n c_n {\vert n \rangle} 
+      &\mapsto&
+    \left[
+      \begin{matrix}
+        c_0
+        \\
+        c_1
+      \end{matrix}
+    \right]
+  \end{array}
 $$
-and hence have [[eigenvalues]] $\pm 1$.
+and
+$$
+  \begin{array}{rcl}
+    \ell_2(\mathbb{N}) 
+      &\overset{shift^2}{\longrightarrow}&
+    \ell_2(\mathbb{N}) 
+    \\
+    {\vert n \rangle}
+      &\mapsto&     
+    \left\{ 
+    \begin{array}{ccl}
+      0 & \text{if}\; n \leq 1
+      \\
+      {\vert n-2\rangle} & \text{otherwise}
+      \mathrlap{\,.}
+    \end{array}
+    \right.
+  \end{array}
+$$
 
-As $\vec x$ varies over $S^2$, the $+1$ [[eigenspaces]] of $D_{\vec x}$, hence the [[kernels]] of $\big(D_{\vec x} - \mathrm{id}_{\mathbb{C}^2}\big)$, form a [[subbundle]] of the [[trivial bundle|trivial]] [[complex vector bundle]] of [[rank of a vector bundle|rank]]$=2$ over $S^2$.
-
-This kernel sub-bundle is [[isomorphism|isomorphic]] to $\pm$ the [[basic complex line bundle on the 2-sphere]].
-
-(e.g. [Baum 2015 slide 32](#Baum15). [Baum & Erp 2018 p 106-107](#BaumErp18))
-
+This is such that $ker(F_{\vec x}) = ker(H_{\vec x} - id)$
+and $coker(F_{\vec x}) = 0$, whence we indeed have a parametrized Fredholm operator whose index bundle is $ker(H_{\vec x} - id)$.
+\end{remark}
 
 
 ## Related concepts
@@ -326,12 +642,18 @@ This kernel sub-bundle is [[isomorphism|isomorphic]] to $\pm$ the [[basic comple
 
 ## References
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([webpage](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
+* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_ (2012) &lbrack;[[wirthmueller-vector-bundles-and-k-theory.pdf:file]]&rbrack;
 
 * {#Baum15} [[Paul Baum]], slide 32 of: *Dirac operator*, lecture at TIFR Mumbai, India (2015) &lbrack;[pdf](https://mathweb.tifr.res.in/sites/default/files/conferences/lectures/DiracOperator.pdf), [[Baum-DiracOperator.pdf:file]]&rbrack;
 
 * {#BaumErp18} [[Paul Baum]], [[Erik van Erp]], 2.11 of: *$K$-homology and Fredholm operators I: Dirac operators*, Journal of Geometry and Physics **134** (2018) 101-118 &lbrack;[doi:10.1016/j.geomphys.2018.08.008](https://doi.org/10.1016/j.geomphys.2018.08.008)&rbrack;
 
+
+[[!redirects basic complex line bundles on the 2-sphere]]
+
+[[!redirects basic line bundle on the 2-sphere]]
 [[!redirects basic line bundles on the 2-sphere]]
+
+
