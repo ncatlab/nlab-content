@@ -258,6 +258,9 @@ See also
 [[!redirects H-group]]
 [[!redirects H-groups]]
 
+[[!redirects H-monoid]]
+[[!redirects H-monoids]]
+
 [[!redirects H-ring]]
 [[!redirects H-rings]]
 
@@ -265,5 +268,4 @@ See also
 [[!redirects H-unitoid]]
 [[!redirects H-cogroup]]
 [[!redirects H-comonoid]]
-
 
