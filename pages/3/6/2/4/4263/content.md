@@ -98,3 +98,5 @@ In particular, [[Stone locales]], [[Stonean locales]], and [[hyperstonean locale
 [[!redirects locales of open subsets]]
 [[!redirects locale of open sets]]
 [[!redirects locales of open sets]]
+[[!redirects Hofmann–Lawson duality]]
+[[!redirects Hofmann-Lawson duality]]
