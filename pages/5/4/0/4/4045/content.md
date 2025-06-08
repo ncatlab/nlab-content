@@ -32,9 +32,9 @@
 
 **With duals for morphisms**
 
-* [[monoidal dagger-category]]
+* [[monoidal dagger category]]
 
-* [[symmetric monoidal dagger-category]]
+* [[symmetric monoidal dagger category]]
 
 * [[dagger compact category]]
 
