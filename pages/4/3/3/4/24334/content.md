@@ -163,7 +163,7 @@ Types include
 
 * [[skeleton]]
 
-* [[gaunt type]]
+* [[gaunt Segal type]]
 
 * [[finitely complete type]]
 
