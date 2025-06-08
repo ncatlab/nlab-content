@@ -1,1 +1,0 @@
-I just saw that it said "possibly Jonas Meyer" for "JM" on the Contributors in nLab page, and I wanted to say that I am Jonas Meyer and I have not contributed anything on nLab under "JM".  (Perhaps JM is also named Jonas Meyer, but I doubt it.)  I hope it is appropriate to post this here.
