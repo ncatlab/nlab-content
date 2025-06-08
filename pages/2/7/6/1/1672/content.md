@@ -48,6 +48,8 @@ Of course, any $\sigma$-ideal in an [[ideal]].  A $\sigma$-ideal is a $\sigma$-[
 
 [[!redirects sigma-ideal]]
 [[!redirects sigma-ideals]]
+[[!redirects σ-ideal]]
+[[!redirects σ-ideals]]
 [[!redirects ∞-ideal]]
 [[!redirects ∞-ideals]]
 
