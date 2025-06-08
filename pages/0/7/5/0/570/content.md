@@ -55,3 +55,5 @@ Note that there may be a gap in the proof of the main result of the paper above:
 
 
 [[!redirects strict monoidal categories]]
+[[!redirects strict monoidal groupoid]]
+[[!redirects strict monoidal groupoids]]
