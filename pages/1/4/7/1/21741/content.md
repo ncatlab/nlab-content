@@ -49,7 +49,7 @@
 * [[categorical compositional distributional semantics]]
 
 
-#### [[pragmatics|Pragmatics]]
+#### Pragmatics
 
 
 * [[monad (in linguistics)]]
