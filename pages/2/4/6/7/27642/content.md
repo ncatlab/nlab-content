@@ -27,6 +27,8 @@ In particular, this means that in [[simplicial type theory]] with [[bounded tota
 
 ## Related concepts
 
+* [[skeletal type]]
+
 * [[triangulated type theory]]
 
 * [[simplicial type theory]]
@@ -34,6 +36,8 @@ In particular, this means that in [[simplicial type theory]] with [[bounded tota
 ## References
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
+
+* [[Jonathan Sterling]], [[Lingyuan Ye]], *Domains and Classifying Topoi* ([arXiv:2505.13096](https://arxiv.org/abs/2505.13096))
 
 [[!redirects simplicial type]]
 [[!redirects simplicial types]]
