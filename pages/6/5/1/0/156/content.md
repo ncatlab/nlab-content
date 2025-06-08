@@ -10,6 +10,18 @@
 +--{: .hide}
 [[!include equality and equivalence - contents]]
 =--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
+#### Directed homotopy type theory
++-- {: .hide}
+[[!include directed homotopy type theory - contents]]
+=--
 =--
 =--
 
@@ -174,10 +186,6 @@ so $F$ is a functor. The inverse $F^{-1}: sk (\mathcal{C})'\to sk (\mathcal{C})$
 
 Notice that the [[axiom of choice]] fails in general when one considers [[internal category|internal categories]].  Hence not every [[internal category]] has a skeleton. A necessary condition for an internal category $X_1 \rightrightarrows X_0$ to have a skeleton is the existence quotient $X_0/X_1$ - the object of orbits under the action of the core of $X$. If the quotient map $X_0 \to X_0/X_1$ has a section, then one could consider $X$ to have a skeleton, but this condition isn't sufficient for the induced inclusion functor to be a weak equivalence of internal categories when this makes sense (i.e. if the category is internal to a site).
 
-+--{: .query}
-[[David Roberts]]: The claim above about the necessity of the existence of the quotient needs to be checked.
-=--
-
 ### Equivalents of Choice
 
 Define a *coskeleton* of a category $C$ to be a skeletal category $S$ with a surjective equivalence $C\to S$.  In [[Categories, Allegories]] it is shown that the following are equivalent.
@@ -205,9 +213,9 @@ For example, given any projections $A\times B\to A$ and $A\times B\to B$ that ex
 
 (It is true in a few cases, though, that skeletality implies uniqueness on the nose.  For instance, a [[terminal object]] can have no nonidentity automorphisms, so in a skeletal category, a terminal object (if one exists) really is unique on the nose.)
 
-## In intensional/homotopy type theory
+## In dependent type theory
 
-All the discussion above pertains to [[set-level foundations]].  In [[intensional type theory]] such as [[homotopy type theory]], additional care is needed.
+All the discussion above pertains to [[set-level foundations]]. In [[intensional type theory]] such as [[homotopy type theory]], additional care is needed.
 
 A first guess is to define a [[precategory]] $C$ to be skeletal if for any objects $a,b$ there is a function $\Vert a\cong b\Vert \to (a=b)$, i.e. if $a$ and $b$ are merely isomorphic then they are equal.  (Here $\Vert-\Vert$ denotes the [[propositional truncation]].)  However, if the [[type]] $ob(C)$ of objects is not a set, then $a=b$ is not a [[proposition]], and so under this definition a category could "be skeletal" in more than one way.
 
@@ -218,6 +226,14 @@ is an equivalence.  Since $\Vert a\cong b\Vert$ is always a proposition, this en
 Note the analogy between this condition and the notion of [[univalent category]]: the only difference is the propositional truncation.  It follows that if a precategory is both skeletal and univalent, then $a\cong b$ is always a proposition (since it is equivalent to its propositional truncation), and thus the category is [[gaunt category|gaunt]].  Indeed, the gaunt categories are precisely those that are both skeletal and univalent.
 
 Unlike in set-level foundations, in intensional type theory not every precategory (and not even every univalent category) has a skeleton.  Indeed, if the axiom [[sets cover]] fails, then there can be univalent categories that are not weakly equivalent to any strict category.  For this reason, the notion of skeleton tends to be less useful outside of set-level foundations, although particular concrete examples may turn out to be skeletal.
+
+In [[simplicial type theory]], the notion of a "skeleton" generalizes from [[precategories]] to [[Segal types]], which are [[synthetic mathematics|synthetic]] $(\infty,1)$-precategories. Given some notion of [[isomorphism in simplicial type theory|isomorphism]] $\mathrm{iso}_A(x, y)$ defined from the [[directed interval type]] $\mathbb{I}$, a [[Segal type]] $A$ is **skeletal** if for all $x:A$ and $y:A$ the canonical function which by the [[J rule]] takes an identification of elements $p:x =_A y$ to a witness that $x$ and $y$ are [[isomorphism in a Segal type|merely isomorphic]] 
+$$\vert J(\lambda t.\mathrm{id}_A(t), x, y, p) \vert:[\mathrm{iso}_A(x, y)]$$ 
+is an [[equivalence of types]], where $[A]$ is the [[propositional truncation]] of $A$.  
+
+$$\mathrm{isSkeletal}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{isEquiv}(\lambda p.\vert J(\lambda t.\mathrm{id}_A(t), x, y, p) \vert)$$ 
+
+One gets the usual notion of a *skeletal category* if all [[hom types]] of a Segal type are [[h-sets]]. 
 
 ## Examples
 
@@ -244,7 +260,11 @@ For more details (and more precise statements, see at *[[relation between preord
 
 * [[skeletal groupoid]]
 
-* [[skeletal Segal type]]
+* [[Rezk complete type]]
+
+* [[gaunt type]]
+
+* [[isomorphism in simplicial type theory]]
 
 ## References
 
@@ -269,6 +289,23 @@ Presenting a [[pretorsion theory]] on [[Cat]] whose torsion(-free) objects are t
 [[!redirects skeleta]]
 [[!redirects skeletons]]
 [[!redirects skeletal]]
+
 [[!redirects skeletal category]]
 [[!redirects skeletal categories]]
+[[!redirects skeletal precategory]]
+[[!redirects skeletal precategories]]
 
+[[!redirects skeletal (infinity,1)-category]]
+[[!redirects skeletal (infinity,1)-categories]]
+
+[[!redirects skeletal (∞,1)-category]]
+[[!redirects skeletal (∞,1)-categories]]
+
+[[!redirects skeletal (infinity,1)-precategory]]
+[[!redirects skeletal (infinity,1)-precategories]]
+
+[[!redirects skeletal (∞,1)-precategory]]
+[[!redirects skeletal (∞,1)-precategories]]
+
+[[!redirects skeletal Segal type]]
+[[!redirects skeletal Segal types]]
