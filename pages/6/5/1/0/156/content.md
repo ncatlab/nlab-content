@@ -260,9 +260,9 @@ For more details (and more precise statements, see at *[[relation between preord
 
 * [[skeletal groupoid]]
 
-* [[Rezk complete type]]
+* [[gaunt category]]
 
-* [[gaunt type]]
+* [[Rezk complete type]]
 
 * [[isomorphism in simplicial type theory]]
 
