@@ -67,7 +67,7 @@ $$x \cong_A y \coloneqq \exists f:\mathrm{hom}_A(x, y).\mathrm{isIso}(f)$$
 
 * [[Rezk type]]
 
-* [[skeletal type]]
+* [[skeleton]]
 
 * [[isomorphism]]
 
