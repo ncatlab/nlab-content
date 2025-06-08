@@ -9,7 +9,6 @@
 =--
 =--
 
-# Dominant functors
 * table of contents
 {: toc}
 
@@ -32,7 +31,7 @@ $F\colon C \to D$ is **dominant** if for every [[object]] $y$ of $D$, there exis
 
 * Let $L \dashv R$. If $L$ is dominant, then $R$ is [[faithful]]. $R$ is [[full]] if it is full on the image of $L$. This is Proposition 1.7 of [DFH75](#DFH75).
 
-* Let $G : A \to B$ be a functor between small categories. The induced functor $[G^{op}, Set] : [B^{op}, Set] \to [A^{op}, Set]$ between [[presheaf categories]] is a [[surjective geometric morphism]] if and only if $G$ is dominant, if and only if $[G^{op}, Set]$ is [[monadic]]. This is Example A4.2.7(b) of [[Sketches of an Elephant]].
+* Let $G : A \to B$ be a functor between small categories. The induced functor $[G^{op}, Set] : [B^{op}, Set] \to [A^{op}, Set]$ between [[presheaf categories]] is a [[surjective geometric morphism]] if and only if $G$ is dominant, if and only if $[G^{op}, Set]$ is [[monadic]]. This follows from Example A4.2.7(b) of [[Sketches of an Elephant]], which states that under these assumptions, $[G^{op}, Set]$ is [[conservative]], from which monadicity follows because $[G^{op}, Set]$ creates [[coequalisers]], so that the [[crude monadicity theorem]] applies.
 
 ## Related concepts
 
