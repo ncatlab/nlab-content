@@ -51,7 +51,7 @@ $$\mathrm{isRezkComplete}(A) \coloneqq \mathrm{isEquiv}(\lambda f.f \circ u_\mat
 * [[isomorphism in simplicial type theory]]
 * [[simplicially discrete type]]
 * [[Rezk type]]
-* [[gaunt type]]
+* [[gaunt Segal type]]
 * [[univalent category]]
 
 ## References
