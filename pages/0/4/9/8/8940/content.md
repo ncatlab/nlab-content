@@ -107,7 +107,7 @@ The [[Rezk completion]] of a core-thin category is a gaunt category.
 In [[simplicial type theory]] and other [[higher foundations]], the notion of a *gaunt Segal type* or *gaunt $(\infty,1)$-category* makes sense as well. 
 
 \begin{definition}
-A **gaunt Segal type** or a **gaunt $(\infty,1)$-category** is a [[Segal type]] or $(\infty,1)$-precategory that is [[skeletal]] and [[Rezk complete]]. 
+A **gaunt Segal type** or a **gaunt $(\infty,1)$-category** is a [[Segal type]] or $(\infty,1)$-precategory that is [[0-truncated]] and [[Rezk complete]], or equivalently, [[skeletal]] and [[Rezk complete]]. 
 \end{definition}
 
 ## Related invariant concepts
