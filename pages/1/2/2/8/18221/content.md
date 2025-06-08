@@ -47,7 +47,7 @@ an equivalence of types.
 
 ### In simplicial type theory
 
-In [[simplicial type theory]], a **univalent category** or **saturated category** is a [[complete Segal type]] in which all [[hom-types]] are [[sets]].
+In [[simplicial type theory]], a **Rezk complete category**, **univalent category**, or **saturated category** is a [[complete Segal type]] in which all [[hom-types]] are [[sets]].
 
 $$\mathrm{isUniCat}(A) \coloneqq \mathrm{isCompleteSegal}(A) \times \prod_{x:A} \prod_{y:A} \mathrm{isSet}(\mathrm{hom}_A(x, y))$$
 
@@ -243,12 +243,26 @@ _[agda-infinity-categories](https://github.com/freebroccolo/agda-infinity-catego
 [[!redirects internal category theory in homotopy type theory]]
 [[!redirects internal category theory in HoTT]]
 
+[[!redirects Rezk complete category]]
+[[!redirects Rezk complete categories]]
+
+[[!redirects Rezk-complete category]]
+[[!redirects Rezk-complete categories]]
+
 [[!redirects saturated category]]
-[[!redirects univalent category]]
 [[!redirects saturated categories]]
+
+[[!redirects univalent category]]
 [[!redirects univalent categories]]
 
+[[!redirects weak Rezk complete category]]
+[[!redirects weak Rezk complete categories]]
+
+[[!redirects weak Rezk-complete category]]
+[[!redirects weak Rezk-complete categories]]
+
 [[!redirects weak saturated category]]
-[[!redirects weak univalent category]]
 [[!redirects weak saturated categories]]
+
+[[!redirects weak univalent category]]
 [[!redirects weak univalent categories]]
