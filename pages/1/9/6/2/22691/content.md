@@ -13,9 +13,9 @@ __monoid theory__ in [[algebra]]:
 
 * [[trivial monoid]]
 
-* [[submonoid]], [[quotient monoid]]
+* [[submonoid]]
 
-* [[divisor]], [[multiple]], [[quotient element]]
+* [[divisor]]
 
 * [[inverse element]], [[unit]], [[irreducible element]]
 
