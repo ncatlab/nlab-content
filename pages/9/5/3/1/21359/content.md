@@ -1,5 +1,3 @@
-[[!redirects locally connected locales]]
-[[!redirects locally connected locales]]
 ## Definition
 
 A [[locale]] $L$ is __connected__ if $1\ne0$ and $1=A\cup B$
@@ -21,3 +19,5 @@ See [[cosheaf of connected components]] for a parametrized version of this const
 * [[locally connected (∞,1)-topos]]
 
 [[!redirects locally connected locales]]
+[[!redirects connected locales]]
+[[!redirects connected locale]]
