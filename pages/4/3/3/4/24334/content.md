@@ -161,7 +161,7 @@ Types include
 
 * [[Rezk type]]
 
-* [[skeletal type]]
+* [[skeleton]]
 
 * [[gaunt type]]
 
