@@ -103,3 +103,5 @@ Closed maps of locales and toposes are discussed in section C3.2 of
 
 [[!redirects closed geometric morphism]]
 [[!redirects closed geometric morphisms]]
+[[!redirects closed localic map]]
+[[!redirects closed localic maps]]
