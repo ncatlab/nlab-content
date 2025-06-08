@@ -49,7 +49,7 @@ all
 $(  C_{k} \rightrightarrows C_l )$ for all $k \gt l$;
 
 * such that 
- $\big(  C_{k} \rightrightarrows
+$\big(  C_{k} \rightrightarrows
   C_{l} \rightrightarrows C_m \big)$ for all $k \gt l \gt m$;
 is a [[strict 2-category]].
 
