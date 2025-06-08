@@ -6,6 +6,18 @@
 +-- {: .hide}
 [[!include category theory - contents]]
 =--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
+#### Directed homotopy type theory
++-- {: .hide}
+[[!include directed homotopy type theory - contents]]
+=--
 =--
 =--
 
@@ -90,6 +102,13 @@ In addition, we have
 The [[Rezk completion]] of a core-thin category is a gaunt category. 
 \end{theorem}
 
+## Gaunt $(\infty,1)$-categories
+
+In [[simplicial type theory]] and other [[higher foundations]], the notion of a *gaunt Segal type* or *gaunt $(\infty,1)$-category* makes sense as well. 
+
+\begin{definition}
+A **gaunt Segal type** or a **gaunt $(\infty,1)$-category** is a [[Segal type]] or $(\infty,1)$-precategory that is [[skeletal]] and [[Rezk complete]]. 
+\end{definition}
 
 ## Related invariant concepts
 
@@ -114,7 +133,9 @@ Alternatively, we could avoid the equality on objects by requiring only that eve
 
 * [[core]]
 
-* [[gaunt Segal type]]
+* [[skeleton]]
+
+* [[Rezk complete type]]
 
 ## References
 
@@ -133,9 +154,70 @@ In the [[Elephant]], gaunt categories are briefly mentioned under the name "stif
 [[!redirects stiff category]]
 [[!redirects stiff categories]]
 
+[[!redirects strict Rezk complete category]]
+[[!redirects strict Rezk complete categories]]
+
+[[!redirects strict Rezk-complete category]]
+[[!redirects strict Rezk-complete categories]]
+
 [[!redirects strict saturated category]]
-[[!redirects strict univalent category]]
 [[!redirects strict saturated categories]]
+
+[[!redirects strict univalent category]]
 [[!redirects strict univalent categories]]
 
 [[!redirects gauntness]]
+
+[[!redirects gaunt (infinity,1)-category]]
+[[!redirects gaunt (infinity,1)-categories]]
+
+[[!redirects gaunt (∞,1)-category]]
+[[!redirects gaunt (∞,1)-categories]]
+
+[[!redirects stiff (infinity,1)-category]]
+[[!redirects stiff (infinity,1)-categories]]
+
+[[!redirects stiff (∞,1)-category]]
+[[!redirects stiff (∞,1)-categories]]
+
+[[!redirects gaunt (infinity,1)-precategory]]
+[[!redirects gaunt (infinity,1)-precategories]]
+
+[[!redirects gaunt (∞,1)-precategory]]
+[[!redirects gaunt (∞,1)-precategories]]
+
+[[!redirects stiff (infinity,1)-precategory]]
+[[!redirects stiff (infinity,1)-precategories]]
+
+[[!redirects stiff (∞,1)-precategory]]
+[[!redirects stiff (∞,1)-precategories]]
+
+[[!redirects gaunt Segal type]]
+[[!redirects gaunt Segal types]]
+
+[[!redirects stiff Segal type]]
+[[!redirects stiff Segal types]]
+
+[[!redirects gaunt Rezk type]]
+[[!redirects gaunt Rezk types]]
+
+[[!redirects stiff Rezk type]]
+[[!redirects stiff Rezk types]]
+
+[[!redirects gaunt complete Segal type]]
+[[!redirects gaunt complete Segal types]]
+
+[[!redirects stiff complete Segal type]]
+[[!redirects stiff complete Segal types]]
+
+[[!redirects skeletal Rezk type]]
+[[!redirects skeletal Rezk types]]
+
+[[!redirects skeletal complete Segal type]]
+[[!redirects skeletal complete Segal types]]
+
+[[!redirects gaunt type]]
+[[!redirects gaunt types]]
+
+[[!redirects stiff type]]
+[[!redirects stiff types]]
