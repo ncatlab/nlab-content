@@ -118,6 +118,9 @@ See also
 
 * [[Nima Arkani-Hamed]], Carolina Figueiredo, [[Grant N. Remmen]]: *Open String Amplitudes: Singularities, Asymptotics, and New Representations* &lbrack;[arXiv:2412.20639](https://arxiv.org/abs/2412.20639)&rbrack;
 
+* Carolina Figueiredo, Marcos Skowronek: *Cuts and Contours* &lbrack;[arXiv:2506.05456](https://arxiv.org/abs/2506.05456)&rbrack;
+
+
 
 
 On string scattering amplitudes in view of the [[S-matrix bootstrap]]:
