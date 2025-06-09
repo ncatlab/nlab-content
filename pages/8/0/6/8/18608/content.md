@@ -27,7 +27,7 @@ The [[Lagrangian]] for [[Yang-Mills theory]] coupled to [[fermion fields]] (such
 
 But at comparatively smaller [[temperature]] it is observed in [[experiment]] as well as in [[lattice QCD]] [[computer experiment]] that [[QCD]] exhibits _[[confinement]]_, meaning that the low energy states of the theory are not free massless quarks and gluons anymore, but that these form [[bound states]] in the form of [[hadrons]] (including, notably, [[protons]] and [[neutrons]], and hence all the ordinary [[baryon|baryonic]] [[matter]] of the [[observable universe]]). 
 
-The existence of massive [[hadron]]-[[bound states]] in low-energy [[QCD]] is thus well-established [[phenomenology|phenomenologically]], but it is as yet lacking a conceptual theoretical explanation.
+The existence of massive [[hadron]]-[[bound states]] in low-energy [[QCD]] is thus well-established [[phenomenology|pincludehenomenologically]], but it is as yet lacking a conceptual theoretical explanation.
 
 The _mass gap problem_ is the problem in [[mathematical physics]] to demonstrate theoretically (i.e. not just by [[lattice QCD|computer simulation]]) the existence of this mass gap/[[confinement]]-phenomenon in [[QCD]] and in [[Yang-Mills theory]] coupled to [[fermion fields]] in general.
 
@@ -155,6 +155,9 @@ Explicit mentioning of the CMI's "mass gap" Millennium Problem in [[nuclear phys
 * [Roberts (2021), footn. 2](#Roberts21)
 
 * [Roberts (2022), p. 2](#Roberts22)
+
+* The STAR Collaboration, ftn. 2 in: *Probing QCD Confinement with Spin Entanglement* &lbrack;[arXiv:2506.05499](https://arxiv.org/abs/2506.05499)&rbrack;
+
 
 
 
