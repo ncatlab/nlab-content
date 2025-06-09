@@ -333,9 +333,19 @@ is absent.
 
 \linebreak
 
-* Seth Grable, [[Paul Romatschke]], *Elements of Confinement for QCD with Twelve Massless Quarks* $[$[arXiv:2310.12203](https://arxiv.org/abs/2310.12203)$]$
+* Seth Grable, [[Paul Romatschke]], *Elements of Confinement for QCD with Twelve Massless Quarks* $[$[arXiv:2310.12203](https://arxiv.org/abs/2310.12203)\]
 
 > Quantum Chromodynamics (QCD) is notorious for being a quantum field theory that is difficult to solve on large length scales $[\ldots]$ what is missing in current QCD literature is a (potentially approximate) solution to continuum QCD that captures the main qualitative features such as confinement in the IR and asymptotic freedom in the UV $[\ldots]$ if such a solution does exist, it cannot be based on a perturbative weak-coupling expansion, because QCD becomes strongly coupled towards long length scales. So the putative solution must arise from non-perturbative methods.
+
+\linebreak
+
+* The STAR Collaboration: *Probing QCD Confinement with Spin Entanglement* \[<a href="https://arxiv.org/abs/2506.05499">arXiv:2506.05499</a>\]
+
+> The fundamental and [literally million-dollar question](Yang-Mills+mass+gap#ReferencesMassGapProblem) is to understand the origin of these emergent [[hadron]] structures, e.g. [[mass]] and [[spin]], which arise as a consequence of [[quark]] [[confinement]]. \[...\] [[QCD]] [13], the theory of strong interactions, predicts that the strong force grows as the distance between partons increases, offering a qualitative explanation for confinement. However, as the distance scale approaches the typical length scale of a hadron, ∼ 1 [[fm]] ($10^{-15}$ meters), the complexity of first-principle QCD calculations becomes difficult to solve numerically at current computational power, due to the nature of low energy self-interacting gluons. This challenging regime, where simple approximations no longer work, is called nonperturbative QCD. Therefore, the detailed mechanisms through which confinement occurs from partons to hadrons, and how it manifests itself in hadron structure, remain unresolved puzzles [14].
+
+
+\linebreak
+
 
 
 
