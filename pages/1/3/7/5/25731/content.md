@@ -41,7 +41,7 @@ $F\colon C \to D$ is **dominant** if for every [[object]] $y$ of $D$, there exis
 
 * {#DFH75} [[Aristide Deleanu]], [[Armin Frei]], [[Peter Hilton]], _Idempotent triples and completion_, Mathematische Zeitschrift **143** (1975) 91-104 &lbrack;[doi:10.1007/BF01173053](https://doi.org/10.1007/BF01173053)&rbrack;
 
-Called **liberal** in:
+Called **liberal** in (see Proposition 3.1):
 
 * [[Aurelio Carboni]] and [[Scott Johnson]] and [[Ross Street]] and [[Dominic Verity]], "Modulated bicategories" (MB 1994) [MR](http://www.ams.org/mathscinet-getitem?mr=1285544).
 
