@@ -36,6 +36,8 @@ The *Category Theory Octoberfest* (usually simply called *Octoberfest*) is an an
 
 * [[Peripatetic Seminar on Sheaves and Logic]]
 
+* [[Séminaire Itinérant de Catégories]]
+
 * [[events of interest for the working category theorist]]
 
 category: reference
