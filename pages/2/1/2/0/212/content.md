@@ -21,19 +21,21 @@
 
 ## Idea
 
-_Alg_ is the [[category]] with [[algebra|algebras]] as [[object|objects]] and algebra homomorphisms as [[morphism]]s.
+By _Alg_ is usually meant a [[category]] with [[associative algebras]] as [[objects]] and [[algebra homomorphisms]] as [[morphisms]].
 
-More abstractly, we can think of $Alg$ as the [[category|full subcategory]] of $Cat(Vect)$, [[internal category|internal categories]] in [[Vect]], with algebras as objects.
+(This depends on a choice of [[ground field]] or even [[ground ring]], which is often left implicit and determined by the context. Over the [[ground ring]] $\mathbb{Z}$ of [[integers]], $Alg_{\mathbb{Z}} \simeq$ [[Ring]] is the category of [[rings]].)
 
-In case of [[Ab]], this gives us Category of Rings, namely, $Alg_Z$.
+Beware that many other types of algebras exist besides [[associative algebras]] (e.g. [[Lie algebras]] or generally [[algebras over an operad]] or [[algebras over a monad]]) and all of them form categories which may in corresponding contexts be denoted "$Alg$" or similar.
+
+
 
 ## Properties
 
-### Relation to algebras with bimodules
+### Relation with Bimod
 
-Since algebras may be identified with one-object [[category|categories]] [[internalization|internal to]] vector spaces, it is sometimes useful to regard $Alg$ as a strict 2-category, namely as a full sub-2-category of the 2-category $Cat(Vect)$. In this case the 2-morphisms between morphisms of algebras come from "intertwiners": inner endomorphisms of the target algebra.
+Since [[associative algebras]] may be identified with one-object [[categories]] [[enriched category|enriched]] in [[modules]] over the [[ground ring]]), it is sometimes useful to regard $Alg$ as the [[strict 2-category|strict]] [[full sub-2-category]] of the [[2-category]] [[VCat|$Mod Cat$]] of [[Mod]]-[[enriched categories]]. In this case the [[2-morphisms]] between morphisms of algebras come from "[[intertwiners]]": inner [[endomorphisms]] of the [[codomain]] algebra. 
 
-Precisely analogous statements hold for the category [[Grp]] of groups.
+(Analogous statements hold for the category [[Grp]] of groups when the latter are regarded as their [[delooping groupoids]].)
 
 With $Alg$ regarded as a strict 2-category this way there is a canonical 2-functor 
 
@@ -41,7 +43,7 @@ $$
   Alg \hookrightarrow Bimod
 $$
 
-to the category [[Bimod]], which sends algebra homomorphisms $f : A \to B$ to the $A$-$B$ bimodule ${}_f B$.  This exhibits $Bimod$ as a [[framed bicategory]] in the sense of Shulman.
+to the category [[Bimod]] of [[bimodules]], which sends algebra homomorphisms $f : A \to B$ to the $A$-$B$ bimodule ${}_f B$.  This exhibits $Bimod$ as a [[framed bicategory]] in the sense of Shulman.
 
 ## Related concepts
 
