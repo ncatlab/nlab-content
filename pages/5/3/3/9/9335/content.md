@@ -36,6 +36,8 @@ A morphism $f \colon \{*\} \coprod S \to \{*\} \coprod T$ in $\Gamma$ may be tho
 
 ## Related concepts
 
+* [[category of operators]]
+
 * [[Gamma space]]
 
 
