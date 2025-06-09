@@ -46,6 +46,8 @@ Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 * [[Category Theory Octoberfest]]
 
+* [[Séminaire Itinérant de Catégories]]
+
 * [[events of interest for the working category theorist]]
 
 category: reference
