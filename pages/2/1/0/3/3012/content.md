@@ -109,7 +109,7 @@ This summarizes aspects of
 
 * G. Cruttwell, [[Mike Shulman]], _A unified framework for generalized multicategories_ ([arXiv:0907.2460](http://arxiv.org/abs/0907.2460))
 
-See [example 11.20](http://arxiv.org/PS_cache/arxiv/pdf/0907/0907.2460v1.pdf#page=70) there.
+See [example 11.20](https://arxiv.org/pdf/0907.2460v1#page=70) there (note that this example is missing from the final version of the paper).
 
 [[!redirects categories of operators]]
 
