@@ -476,6 +476,8 @@ The [[Boardman-Vogt tensor product]] makes the category of symmetric colored ope
 
 ## Related concepts
 
+* [[category of operators]], from which every operad can be reconstructed
+
 * [[symmetric colored sequence]]
 
 * [[algebraic theory]] / [[Lawvere theory]] /  [[(∞,1)-algebraic theory]]
