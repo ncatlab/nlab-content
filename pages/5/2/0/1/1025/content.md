@@ -47,8 +47,8 @@ Two introductions are:
 
 A standard textbook is
 
-* [[André Joyal]], [[Ieke Moerdijk]], _Algebraic set theory_, Cambridge University Press (1995)
- {#JoyalMoerdijk}
+* {#JoyalMoerdijk} [[André Joyal]], [[Ieke Moerdijk]]: _Algebraic set theory_, London Mathematical Society Lecture Note Series __220__, Cambridge University Press (1995) &lbrack;ISBN:0-521-55830-1, [doi:10.1017/CBO9780511752483](https://doi.org/10.1017/CBO9780511752483)&rbrack;
+ 
 
 A reference for BIST is
 
