@@ -81,7 +81,30 @@ row sep=0,%
 
 ### The adjunction
 
-(...work in progress...)
+Just as in the topological case, the functors $\Sigma: Meas^{op} \to \sigma Bool$ and $Sp: \sigma Bool^{op}\to Meas$ form a (contravariant) [[idempotent adjunction]]:
+
+* The [[unit of an adjunction|unit]] has as components measurable functions $\eta: X \to Sp(\Sigma_X)$ which map a point $x\in X$ to the corresponding [[principal filter]] on $\Sigma_X$ (or equivalently, to the [[Dirac measure|Dirac delta]] [[zero-one measure]]) $\delta_x$: for every $A\in\Sigma_X$,
+$$
+\delta_x (A) = \begin{cases}
+1 & x\in A \\
+0 & x\notin A .
+\end{cases}
+$$
+* The [[counit]] has as components morphisms of $\sigma Bool^{op}$ in the form $\epsilon^{op}\Sigma_{Sp(\Sigma)}\to\Sigma$, or equivalently, morphisms of $\sigma Bool$ of the form $\epsilon:\Sigma\to \Sigma_{Sp(\Sigma)}$ mapping $A\in\Sigma$ to the set $A^*\in\Sigma_{Sp(\Sigma)}$ defined above.
+
+The adjunction induces an [[idempotent monad]] on $Meas$ (the [[zero-one measure#the_monad_of_zeroone_measures|monad of zero-one measures]]), and an idempotent monad on $\sigma Bool$ as well (or equivalently, an idempotent [[comonad]] on $\sigma Bool^{op}$).
+
+As usual with idempotent adjunctions, we have that the [[fixed point of an adjunction|center]] is equivalently given by 
+
+* The full subcategory of $Meas$ whose objects are those spaces for which the unit $\eta:X\to Sp(\Sigma_X)$ is an isomorphism. These are sometimes called [[sober measurable spaces]]. Analogously to [[sober topological spaces]], these are the spaces whose points are uniquely determined by the σ-algebra.
+* The full subcategory of $\sigma Bool$ whose objects are those σ-algebras for which the counit $\epsilon^{op}\Sigma_{Sp(\Sigma)}\to\Sigma$. These are sometimes called **spatial** or **concrete** σ-algebras.
+
+Because of this, sometimes one calls the monad on $Meas$ the *sobrification monad*. 
+
+
+## Particular results
+
+(Work in progress. For now see the references.)
 
 
 ## See also
@@ -98,6 +121,21 @@ row sep=0,%
 
 * Roman Sikorski, _Boolean Algebras_, Springer, 1969.
 
+* Sean Moss and [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS, 2022. ([arXiv](https://arxiv.org/abs/2204.07003))
+
 * Ruiyuan Chen, _A universal characterization of standard Borel spaces_. The Journal of Symbolic Logic, 88(2), 2023. ([arXiv](https://arxiv.org/abs/1908.10510))
 
 * [[Tobias Fritz]] and Antonio Lorenzin, _Categories of abstract and noncommutative measurable spaces_, 2025. ([arXiv](https://arxiv.org/abs/2504.13708))
+
+
+### Introductory material
+
+* [[Paolo Perrone]], _When measurable spaces don't have enough points_, introductory talk. ([YouTube](https://www.youtube.com/watch?v=V4WzTgjbP3c))
+
+
+category: probability
+
+
+[[!redirects Stone duality for measurable spaces]]
+[[!redirects Stone duality for sigma-algebras]]
+[[!redirects Stone duality for σ-spaces]]
