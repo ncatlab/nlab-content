@@ -1,5 +1,5 @@
 
-Mike Shulman is an Associate Professor at the [University of San Diego](http://www.sandiego.edu).  His personal web page is [here](http://home.sandiego.edu/~shulman/).
+Mike Shulman is a Professor at the [University of San Diego](http://www.sandiego.edu).  His personal web page is [here](http://home.sandiego.edu/~shulman/).
 
 ## Selected writings
 
