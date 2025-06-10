@@ -141,7 +141,8 @@ First, we quotient under the relation of "being indistinguishable for the sigma-
 
 ## Related entries
 
-* [[zero-one kernel]], [[Markov kernel]], [[Stoch]]
+* [[zero-one measure]], [[zero-one kernel]], [[Markov kernel]], [[Stoch]]
+* [[Loomis-Sikorski duality]]
 * [[sober topological space]], [[locale]], [[point of a locale]], [[frame]], [[point-free topology]]
 * [[Markov category]], [[probability monad]]
 
