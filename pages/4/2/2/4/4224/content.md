@@ -122,6 +122,11 @@ as morphisms.
 See [[complete Boolean algebra]] for more information.
 
 
+### Measurable spaces and σ-complete Boolean algebras
+
+See at [[Loomis-Sikorski duality]].
+
+
 ### Profinite algebras
 
 If $T$ is a [[Lawvere theory]] on $Set$, we can talk about *Stone $T$-algebras*, i.e. $T$-algebras with a compatible Stone topology, and compare the resulting category $T Alg(Stone)$ with the category $Pro(Fin T Alg)$ of pro-(finite $T$-algebras).  The previous duality says that these categories are equivalent when $T$ is the identity theory.  It is also true in many other cases, such as:
