@@ -58,7 +58,7 @@ Some remarks about this proposal are in order. First, the kind of symmetries tha
 ## References
  {#References}
 
-Early discussion of "generalized global symmetries" under the name of *[[QFT with defects|defects]]*, in [[2d conformal field theory]] (via the [[FRS theorem on rational 2d CFT]]):
+Early discussion of possibly "non-invertible generalized global symmetries", but then under the name of *[[QFT with defects|defects]]*, in [[2d conformal field theory]] (via the [[FRS theorem on rational 2d CFT]]):
 
 * {#FRS02I} [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], _TFT construction of RCFT correlators I: Partition functions_, Nucl. Phys. B **646**  (2002) 353-497 &lbrack;[arXiv:hep-th/0204148](http://arxiv.org/abs/hep-th/0204148), <a href="https://doi.org/10.1016/S0550-3213(02)00744-7">doi:10.1016/S0550-3213(02)00744-7</a>&rbrack;
 
