@@ -39,8 +39,21 @@ Covering spaces over $B$ form an evident [[full subcategory]] $Cov_B \hookrighta
 +-- {: .num_remark}
 ###### Remark
 
-A composition of covering spaces $X \to Y \to S$ is not necessarily a covering space (see example&nbsp;2.8 in [Jerzak’s notes](#Jerzak) for a counterexample).
-However, [[locally path-connected]] and [[semilocally simply-connected spaces]] with covering maps as morphisms do form a [[category]] (e.g. theorem&nbsp;2.11 of Jerzak’s notes), in which case we even have $Cov_X = Cov/X$ (by lemma&nbsp;1 of §2.5 of [Spanier 1966](#Spanier1966)).
+A composition of covering spaces $X \to Y \to S$ is not necessarily a covering space: if $S \coloneqq \prod_{n\in\mathbf{N}}S^1$ is a countable product of $1$-spheres, $q\colon Y\coloneqq\coprod_{n\in\mathbf{N}} S \to S$ is the projection (a trivial covering with countably infinite fiber), $f_n\colon \mathbf{R}^n\times S\to S$ is the covering map which is given by $t\mapsto\exp 2\pi i t$ on the first $n$ coordinates and $\id_{S^1}$ on the rest, 
+then the coproduct $f \coloneqq \coprod_{n\in\mathbf{N}} f_n
+\colon X\coloneqq \coprod_{n\in\mathbf{N}}(\mathbf{R}^n\times S) \to \coprod_{n\in\mathbf{N}} S=Y$} is again a covering map.
+The composition $p\coloneqq q\circ f\colon X\to S$, however,
+is not locally trivial:
+every basic open set $U=\prod_{n\in\mathbf{N}}U_n\subseteq S$ has only finitely many factors with $U_n\ne S^1$, i.e. we have $U_n=S^1$ for all $n$ greater than some $N\in\mathbf{N}$, and $p|_{p^{-1}(U)}
+\colon\coprod_{n\in\mathbf{N}}f_n^{-1}(U)\to U$ doesn’t map any open neighborhood of $x\in f_n^{-1}(U)$ homeomorphically onto $U$ if $n\gt N$.
+(This is [Spanier (1966: 69)](#Spanier1966)’s example&nbsp;2.2.8.)
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Covering maps between [[locally path-connected]] and [[semilocally simply-connected spaces]] *do* form a [[category]] (e.g. theorem&nbsp;2.11 of Jerzak’s notes), in which case we even have $Cov_X = Cov/X$ (by lemma&nbsp;1 of §2.5 of [Spanier 1966](#Spanier1966)).
 
 =--
 
