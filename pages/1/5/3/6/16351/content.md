@@ -277,20 +277,19 @@ following an announcement in
 
 * {#Shanks51} M. E. Shanks, *Rings of functions on locally compact spaces*, 469th meeting of the AMS (1951) &lbrack;[pdf](https://www.ams.org/journals/bull/1951-57-04/S0002-9904-1951-09521-X/S0002-9904-1951-09521-X.pdf)&rbrack; 
 
-See also
+See also:
 
-* Janez Mrčun, _On isomorphisms of algebras of smooth functions_, Proceedings of the American Mathematical Society 133:10 (2005), 3109-3113.  [arXiv](https://arxiv.org/abs/math/0309179), [doi](http://dx.doi.org/10.1090/s0002-9939-05-07979-7).
+* [[Janez Mrčun]]: _On isomorphisms of algebras of smooth functions_, Proceedings of the American Mathematical Society **133** 10 (2005) 3109-3113 &lbrack;[arXiv:math/0309179](https://arxiv.org/abs/math/0309179), [doi:10.1090/s0002-9939-05-07979-7](http://dx.doi.org/10.1090/s0002-9939-05-07979-7)&rbrack;
 
-* J. Grabowski, _Isomorphisms of algebras of smooth functions revisited_. Arch. Math. 85, 190–196 (2005).  [arXiv](https://arxiv.org/abs/math/0310295), [doi](https://doi.org/10.1007/s00013-005-1268-3).
+* [[Janusz Grabowski]]: _Isomorphisms of algebras of smooth functions revisited_, Arch. Math. **85** (2005) 190–196 &lbrack;[arXiv:math/0310295](https://arxiv.org/abs/math/0310295), [doi:10.1007/s00013-005-1268-3](https://doi.org/10.1007/s00013-005-1268-3)&rbrack;
 
-The statement for domain a point also appears as an exercise in
+The statement for domain a point appears as an exercise in:
 
 * {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Problem 1-C (p. 11) in: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press (1974) &lbrack;[ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [pdf](/nlab/files/Milnor_exercise.pdf)&rbrack;
 
 A proof is spelled out in
 
 * {#Dubuc79} [[Eduardo Dubuc]], Prop. 0.7 in: *Sur les modèles de la géométrie différentielle synthétique*, [[Cahiers|Cahiers de Topologie et Géométrie Différentielle Catégoriques]] **20**  3 (1979) 231-279  &lbrack;[numdam:CTGDC_1979__20_3_231_0](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)&rbrack; 
-
   > (in defining the [[Cahiers topos]])
 
 
