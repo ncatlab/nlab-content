@@ -18,7 +18,10 @@ A *gs-monoidal category* is a [[symmetric monoidal category]] that [[supply|supp
 
 ## Related concepts
 
-For now, see §6.6 of [Corradini & Gadducci 1999](#CG99).
+- [[Markov category]]
+- [[commutative monad]]
+
+See also §6.6 of [Corradini & Gadducci 1999](#CG99).
 
 ## References
 
