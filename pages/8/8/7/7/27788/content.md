@@ -63,6 +63,24 @@ We can define a **point of $\Sigma$** to be any of the following equivalent stru
 * A *prime σ-filter* on $\Sigma$, i.e. a proper subset of $\Sigma$ which is closed under countable unions and intersections;
 * A  *σ-ultrafilter* on $\Sigma$, i.e. an [[ultrafilter]] on $\Sigma$ which is closed under countable intersections.
 
+Given a morphism $\phi:\Sigma\to\Gamma$ and a point $p$ of $\Gamma$, the composition $p\circ\phi$ is a point of $\Sigma$. 
+Denoting by $Sp(\Sigma)$ the space of points of $\Sigma$ (or **spectrum**), we then have a function $\phi^*:Sp(\Gamma)\to Sp(\Sigma)$.
+
+In order to turn this assignment into a functor $\sigma Bool^\mathrm{op}\to Meas$, we need to equip the spaces $Sp(\Sigma)$ with σ-algebras. We do it as follows (see also at [[zero-one measure##the_monad_of_zeroone_measures|zero-one measure - the monad]]): for every $A\in \Sigma$, define 
+$$
+A^* = \{p\in Sp(\Sigma) : p(A)=1 \} .
+$$
+The sets $A^*$ form a σ-algebra, and the maps $\phi^*:Sp(\Gamma)\to Sp(\Sigma)$ are measurable. This gives the desired functor 
+\begin{tikzcd}[%
+nodes={scale=1.25}, arrows={thick},%
+row sep=0,%
+]
+\sigma\mathbf{Bool}^\mathrm{op} \ar{r}{\mathrm{Sp}} & \mathbf{Meas} .
+\end{tikzcd}
+
+
+### The adjunction
+
 (...work in progress...)
 
 
