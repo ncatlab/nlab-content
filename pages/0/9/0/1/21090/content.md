@@ -953,7 +953,7 @@ For example, [[Stoch]] is the Kleisli category of the [[Giry monad]].
 
 ### States, channels, joints, marginals
 
-The Markov category structures can be interpreted in terms of probability, statistics, and information theory in these ways. 
+The Markov category structures can be interpreted in terms of probability, statistics and information theory in these ways. 
 
 First of all, a state on $X$
 
@@ -1353,7 +1353,7 @@ In this case,
 Once again, the inferential information flow is perfectly reflected by the topological properties of the string diagram. 
 This is one of the main assets of Markov categories: no matter how complex the model is, there always a perfect correspondence between the diagram topology and the interaction structure.
 
-Let's now consider the case of *Set*: why is every morphism displaying conditional independence? The reason is that if $p:W\to X\times Y$ is a (deterministic) function, then knowing $W$ will already tell us everything about $Y$ (and $X$). Therefore there is no additional knowledge than observing $X$ can give us, if we know $W$.
+Let's now consider the case of *Set*: why is every morphism displaying conditional independence? The reason is that if $p:W\to X\times Y$ is a (deterministic) function, then knowing $W$ will already tell us everything about $Y$ (and $X$). Therefore there is no additional knowledge that observing $X$ can give us, if we know $W$.
 (See also Proposition \ref{eqdet} below.)
 
 Let's now make precise the idea of determinism.
@@ -1512,6 +1512,8 @@ For a Markov category, the following conditions are equivalent.
 4. Every morphism displays conditional independence of its outputs given its inputs.
 
 \end{proposition}
+
+(See also [[Fox's theorem]].)
 
 Therefore, we can consider Markov categories as a generalization of cartesian monoidal categories to the case where "randomness is present".
 
@@ -1952,9 +1954,9 @@ Conversely, consider a Markov category $C$.
 Let's make this precise in terms of a [[universal property]].
 
 Let $X$ be an object in a Markov category $C$. A **distribution object for $X$** is an object, which we denote by $P X$, together with a bijection
-$$
+\begin{equation}\label{adjunction}
 C_det(A,P X) \cong C(A,X)
-$$
+\end{equation}
 for all objects $A$, natural in $A$ against deterministic morphisms.
 
 The object $P X$ has the interpretation of being a *space of probability measures over $X$*. Setting $A=I$ in the definition, we see in particular that the deterministic states (or "points") of $P X$ are exactly the (generic, random) states on $X$. 
@@ -1992,6 +1994,13 @@ The map $samp$ can be thought of as being the *universal* random map, in the sen
 From the point of view of probability theory, in [[Stoch]], we can view this map $P X\to X$ as taking a distribution $p\in P X$, and returning a random point of $X$ distributed according to $p$. In other words, it is [[sampling map|sampling]] from $p$.
 
 This also corresponds to the idea of sampling in [[probabilistic programming]], (see [[monad (in computer science)]]).
+
+Additional properties can be imposed on a representable Markov category. For example:
+
+- An **almost-surely-compatible representable Markov category** is a representable Markov category in which the bijection \eqref{adjunction} preserves and reflects [almost sure equality](#almost_sure_equality).
+- An **observationally representable Markov category** is a representable Markov category whose monad is [[observational monad|observational]]. Intuitively, this models situation where one can distinguish distribution by performing [[iid|repeated independent sampling]]. **[[Stoch]]**, with the [[Giry monad]], is an example. 
+
+Every observationally representable Markov category is almost surely compatible ([FGLPS'23, Proposition A.44](#supports_idemp)). 
 
 
 ### Kolmogorov products
