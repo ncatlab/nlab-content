@@ -410,3 +410,4 @@ See also
 [[!redirects adjoint pair]]
 [[!redirects adjoint pairs]]
 [[!redirects adjunctions]]
+[[!redirects adjointness]]
