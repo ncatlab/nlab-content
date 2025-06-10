@@ -92,7 +92,7 @@ On some history of mathematics:
 
 On [[sheaf and topos theory]]:
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], *[[Sheaves in Geometry and Logic]]*, Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
+* [[Saunders Mac Lane]], [[Ieke Moerdijk]]: *[[Sheaves in Geometry and Logic]]* -- *A first introduction to topos theory*, Springer (1992) & lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
 
 
 See also:
