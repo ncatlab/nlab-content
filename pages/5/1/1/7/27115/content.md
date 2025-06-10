@@ -29,29 +29,33 @@ A **$\sigma$-complete Boolean algebra** is a [[Boolean algebra]] which is also a
 
 ## Related concepts
 
-* [[sigma-complete lattice]]
+* [[sigma-complete lattice]], [[sigma-frame]], [[sigma-complete Heyting algebra]]
 
-* [[sigma-frame]]
+* [[Boolean algebra]], [[complete Boolean algebra]]
 
-* [[sigma-complete Heyting algebra]]
+* [[sigma-algebra]], [[measurable space]], [[measure space]]
 
-* [[Boolean algebra]]
-
-* [[complete Boolean algebra]]
-
-* [[sigma-algebra]]
-
-* [[measurable space]]
-
-* [[measure space]]
+* [[point-free measure theory]], [[Loomis-Sikorski duality]]
 
 ## References
 
 * [[Thierry Coquand]], [[Jonas Höfer]], [[Hugo
 Moeneclaey]], *Model for Synthetic Stone Duality* ([draft pdf](https://felix-cherubini.de/condensed-sheaves.pdf))
 
+* Roman Sikorski, _Boolean Algebras_, Springer, 1969.
+
+* Ruiyuan Chen, _A universal characterization of standard Borel spaces_. The Journal of Symbolic Logic, 88(2), 2023. ([arXiv](https://arxiv.org/abs/1908.10510))
+
+* [[Tobias Fritz]] and Antonio Lorenzin, _Categories of abstract and noncommutative measurable spaces_, 2025. ([arXiv](https://arxiv.org/abs/2504.13708))
+
+
 [[!redirects sigma-complete Boolean algebra]]
 [[!redirects sigma-complete Boolean algebras]]
 
 [[!redirects σ-complete Boolean algebra]]
 [[!redirects σ-complete Boolean algebras]]
+
+[[!redirects Boolean sigma-algebra]]
+[[!redirects Boolean sigma-algebras]]
+[[!redirects Boolean σ-algebra]]
+[[!redirects Boolean σ-algebras]]
