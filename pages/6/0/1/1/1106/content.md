@@ -9,7 +9,7 @@
 =--
 =--
 
-This entry collects hyperlinks related to the textbook
+This page is to record the reference:
 
 * [[Saunders Mac Lane]], [[Ieke Moerdijk]]:
 
