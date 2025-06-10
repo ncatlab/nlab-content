@@ -102,7 +102,7 @@ Almost surely zero-one kernels are closed under composition, and so are their al
 * [[zero-one measure]]
 * [[Markov kernel]], [[Markov category]], [[Stoch]], [[Krn]]
 * [[thunk-force category]]
-* [[sober measurable space]]
+* [[sober measurable space]], [[Loomis-Sikorski duality]]
 * [[point-free topology]], [[point of a locale]]
 
 
