@@ -656,13 +656,13 @@ A more advanced reference containing several developments of the general theory,
 The relation between the existence of natural number objects and classifying toposes is discussed in
 
 * {#blass} [[Andreas Blass]], *Classifying topoi and the axiom of infinity*, Algebra Universalis **26** (1989) 341-345 &lbrack;[doi:10.1007/BF01211840](https://doi.org/10.1007/BF01211840)&rbrack; 
-
   > (in relation to the [[axiom of infinity]])
 
-The study of classifying spaces of topological categories is described in the monograph
 
-* [[Ieke Moerdijk]], _Classifying spaces, classifying topoi_,
-Lec. Notes Math. 1616, Springer Verlag 1995
+The study of classifying spaces of topological categories:
+
+* [[Ieke Moerdijk]]: *Classifying spaces and classifying topoi*, Lecture Notes in Mathematics __1616__, Springer (1995) &lbrack;ISBN:3-540-60319-0, [doi:10.1007/BFb0094441](https://doi.org/10.1007/BFb0094441)&rbrack;
+
 
 The original theory for a general algebraic theory is developed in 
 
