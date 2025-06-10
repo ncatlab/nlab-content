@@ -17,6 +17,8 @@ A [[symmetric monoidal category]] is cartesian if and only if it is [[isomorphic
 ## Related concepts
 
 - [[semicartesian monoidal category]]
+- [[comonoid]]
+- [[gs-monoidal category]], [[Markov category]]
 
 ## Reference
 
