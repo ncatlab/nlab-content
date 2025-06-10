@@ -1,14 +1,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
-=--
-
 #### Measure and probability theory
 +-- {: .hide}
 [[!include measure theory - contents]]
+=--
+#### Duality
++--{: .hide}
+[[!include duality - contents]]
 =--
 =--
 =--
