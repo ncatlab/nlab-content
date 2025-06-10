@@ -336,7 +336,7 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 
 * [[globular set]], [[cubical set]], [[cellular set]], [[dendroidal set]]
 
-
+* [[Segal condition]], characterising the nerves of small categories
 
 ## References
 
