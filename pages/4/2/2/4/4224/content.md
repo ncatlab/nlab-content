@@ -194,6 +194,8 @@ Discussion of an $(\infty, 1)$-version of Stone duality is in
 
 [[!redirects Stone duality]]
 [[!redirects Stone dualities]]
+[[!redirects Stone-type duality]]
+[[!redirects Stone-type dualities]]
 
 [[!redirects Stone spectrum]]
 [[!redirects Stone spectra]]
