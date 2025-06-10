@@ -59,8 +59,9 @@ A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all o
 
 
 ## References
+ {#References}
 
-Discussion in [[relativistic field theory]] and [[quantum gravity]]:
+Discussion of causal sets in [[relativistic field theory]] and [[quantum gravity]]:
 
 * Nomaan X, *Quantum Field Theory On Causal Sets*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2306.04800](https://arxiv.org/abs/2306.04800)&rbrack;
 
