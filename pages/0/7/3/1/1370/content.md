@@ -37,7 +37,7 @@ On [[Tannaka duality]] and [[quantum groups]]:
 
 On [[algebraic set theory]]:
 
-* A. Joyal, [[Ieke Moerdijk|I. Moerdijk]], _Algebraic set theory_. London Mathematical Society Lecture Note Series __220__. Cambridge Univ. Press (1995) viii+123 pp. ISBN: 0-521-55830-1
+* [[André Joyal]], [[Ieke Moerdijk]]: _Algebraic set theory_, London Mathematical Society Lecture Note Series __220__, Cambridge University Press (1995) &lbrack;ISBN:0-521-55830-1, [doi:10.1017/CBO9780511752483](https://doi.org/10.1017/CBO9780511752483)&rbrack;
 
 On [[transition systems]], [[bisimulations]] and [[open morphisms]]:
 
