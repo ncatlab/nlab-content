@@ -35,5 +35,4 @@ Homotopical cohomology theory in the context of the [[homotopy theory]] of simpl
 
 * J. Jardine, _Cocycle categories_ ([arXiv](http://arxiv.org/abs/math.AT/0605198))
 
-
 [[!redirects Homotopical cohomology theory]]
