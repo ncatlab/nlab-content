@@ -279,7 +279,7 @@ $$
 $$
 \end{lemma}
 \begin{proof}
-  It is straightforward, to check this directly. But it also follows abstractly by [this Prop.](Borel+model+structure#RelationToSliceOverSimplicialClassifyingSpace) about the general relation between slicing over $B G$ and [[infinity-action|$\infty$-actions]] of $G$: 
+  It is straightforward to check this directly. But it also follows abstractly by [this Prop.](Borel+model+structure#RelationToSliceOverSimplicialClassifyingSpace) about the general relation between slicing over $B G$ and [[infinity-action|$\infty$-actions]] of $G$: 
 
 The functor which assigns to $B H \xrightarrow{\;\; B i_H\;\;} B G$ its [[homotopy fiber]] is a [[fully faithful functor]] into the [[G-sets]] among all $G$-[[infinity-action|$\infty$-actions]] (by the [[n-truncated object in an (infinity,1)-category|0-truncation condition]]). But the [[homotopy fiber]] of $B i_H$ is the [[coset space|coset set]] (by [this Example](...)):
 $$
@@ -490,13 +490,13 @@ where further properties of this cohesive situation are proven, revolving around
 
 Some of the above notation (e.g. for "$\prec\!\! G$") follows:
 
-* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Proper Orbifold Cohomology]]_ &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
+* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Proper Orbifold Cohomology]]_, CRC Press (to appear) &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
 
 which expands on application of the above singular cohesion -- in the special case of [[discrete group|discrete]] $G$, but combined with [[smooth infinity-groupoid|smooth cohesion]] --  to differential-geometric [[orbifolds]]  and [[orbifold cohomology]].
 
 Diagrams and discussion as presented above are taken from:
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* &lbrack;[arXiv:](https://arxiv.org/abs/2112.13654)&rbrack;
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]*, Cambridge University Press (2025, in print) &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
 
 
