@@ -263,9 +263,17 @@ $$H / G = U \mapsto \int_{V\in X} G(V) \to H(U\otimes V)$$
 
 In the case where the monoidal structure on $X$ is cartesian, the induced closed monoidal structure on $Psh(X)$ coincides with the cartesian closed structure described in the previous sections.
 
-## Related concepts
+## Closed monoidal structure on sheaves
 
 * The cartesian closure restricts from presheaves to [[categories of sheaves]] (e.g. [MacLane-Moerdijk, section III.6, p. 136-138](#MacLaneMoerdijk))
+
+Let $X$ be a [[site]] with underlying category $S_X$. Write $PSh(X) = [S^{op}, Set]$ for the [[presheaf]] category of $X$ and $Sh(X)$ for the corresponding [[subcategory]] [[category of sheaves|of sheaves]].
+
+The [[closed monoidal structure on presheaves]] restricts under the inclusion $Sh(X) \hookrightarrow PSh(X)$ to a closed monoidal structure on sheaves.
+
+For $f : X \to Y$ a left exact [[site|morphism of sites]], there is for $F \in Sh(X)$, $F \in Sh(Y)$ a natural [[isomorphism]]
+$$f_* hom(f^{-1}G, F) \simeq hom(G, f_* F).$$
+Here $f_*$ is the [[direct image]] and $f^{-1}$ the [[inverse image]] operation.
 
 ## References
 
@@ -285,3 +293,4 @@ The second definition is discussed for instance in section 17.1 of
 [[!redirects cartesian closure of categories of presheaves]]
 [[!redirects categories of presheaves are cartesian closed]]
 
+[[!redirects closed monoidal structure on sheaves]]
