@@ -5,6 +5,7 @@
 
 >  This entry is about the notion in [[physics]] in the sense of [[field theory]] ([[classical field theory|classical]]/[[quantum field theory]]). For the different notion of the same name in [[algebra]] see at _[[field]]_.
 
+
 ***
 
 +-- {: .rightHandSide}
@@ -991,11 +992,11 @@ In the course of discussing the problems we also motivate and indicate their sol
 #### Large gauge transformations 
  {#IdeaLargeGaugeTransformations}
 
-In [[gauge theory]] specifically but in [[physics]] generally, physical fields come equipped with a notion of which fields configurations, while nominally different, are [[equivalence|equivalent]], called _[[gauge equivalence|gauge equivalent]]_ and it is crucial to retain the information of gauge equivalences and not pass to [[equivalence classes]] of gauge equivalent fields. This means that generically for any [[physical theory]], even if all field configurations would be represented by a section of some [[field bundle]], many such sections are in fact to be regarded as being equivalent. Or more precisely, there should be a _[[groupoid]]_ or _[[∞-groupoid]]_ of field configurations of which the sections of the field bundle only form the space of [[objects]], while the [[gauge transformations]] form the [[morphisms]] and the [[higher gauge transformations]] of order $n$ form the [[n-morphisms]].
+In [[gauge theory]] specifically but in [[physics]] generally, physical fields come equipped with a notion of which [[field histories]], while possibly nominally different, are to becregarded as [[equivalence|equivalent]], called _[[gauge equivalence|gauge equivalent]]_, and it is crucial to retain the information of gauge equivalences and not pass to [[equivalence classes]] of gauge equivalent fields. This means that, generically, for any [[physical theory]], even if field configurations are represented by [[sections]] of some [[field bundle]], many such sections are in fact to be regarded as being equivalent. Or more precisely, there should be a _[[groupoid]]_ and generally an _[[∞-groupoid]]_ of field histories of which the sections of the field bundle only form the space of [[objects]], while the [[gauge transformations]] form the [[morphisms]] and the [[higher gauge transformations]] of order $n$ form the [[n-morphisms]].
 
    To some extent this is dealt with in traditional [[variational calculus]]: after a choice of [[action functional]] on the space of field configurations, [[BV-BRST formalism]] spits out a [[derived L-∞ algebroid]] whose objects are field configurations, and whose 1-cells are infinitesimal invariances of the given [[action functional]]. 
 
-   This goes in the right direction-- it is the [[Lie differentiation]] of the more encompassing [[smooth ∞-groupoid]] of fields and gauge transformations -- but has several problems, the main one being that this does now know about the [[large gauge transformations]], those which are not connected to the identity (because it only sees infinitesimal data). 
+   This goes in the right direction -- it is the [[Lie differentiation]] of the more encompassing [[smooth ∞-groupoid]] of fields and gauge transformations -- but has several problems, the main one being that it does not know about [[large gauge transformations]], those which are not connected to the identity (because it only sees infinitesimal data). 
 These are important in the full quantum theory. 
 
 Famous examples of the importance of [[large gauge transformations]] appear in
