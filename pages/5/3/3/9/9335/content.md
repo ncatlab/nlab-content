@@ -83,7 +83,7 @@ such that for all $A,B\in FinSetPart$ the map
 $$X_{A\sqcup B}\to X_A\times X_B$$
 induced by the morphisms
 $$(A,id_A)\colon A\sqcup B\to A, \qquad (B,id_B)\colon A\sqcup B\to B$$
-is an equivalence.
+is an equivalence, as is the map $X_\emptyset\to1$.
 Here $A\sqcup B$ denotes the [[coproduct]] in the category [[Set]] (i.e., [[disjoint union]]).  It does not denote the coproduct in the category FinSetPart.
 
 Γ-objects in $C$ encode $\mathrm{E}_\infty$-monoids in $C$, i.e., homotopy coherent commutative monoids.
