@@ -69,7 +69,7 @@ $$
 \integral \phi_E(x_1, t_1) \cdots \phi_E(x_n, t_n) = \langle \Omega, \phi_M(x_1, i t_1) \cdots \phi_M(x_n, i t_n) \Omega \rangle
 $$
 $\phi_E$ is a Schwinger function, $\phi_M$ is a Wightman field and $\Omega$ is the vacuum vector of the Wightman fields.
-See theorem 6.15 in the book by Glimm and Jaffe (see references).
+See theorem 6.1.5 (p. 98) in the book by Glimm and Jaffe (see references).
 
 ## Related theorems
 
