@@ -317,3 +317,5 @@ Twisted tensor products of smooth dg algebras:
 [[!redirects commutative differential graded algebras]]
 
 
+[[!redirects homologically smooth differential graded algebra]]
+[[!redirects homologically smooth dga]]
