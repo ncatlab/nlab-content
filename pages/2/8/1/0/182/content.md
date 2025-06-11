@@ -7,13 +7,11 @@ We write $CoDGCA$ for the [[category]] of such codifferential coalgebras.
 
 ##Remarks##
 
-
 * Codifferential coalgebras whose underlying graded-cocommutative coalgebra is free over a complex of vector spaces in positive degree are [[L-infinity-algebra|Lie infinity-algebra]]s.
 
 #References#
 
 * Ezra Getzler and Paul  Goerss, _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
-
 
 #Blog resources#
 
