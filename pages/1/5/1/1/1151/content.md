@@ -152,7 +152,7 @@ By generalizing the notion of [[Chern character]] to richer $(\infty,1)$-toposes
 
 \linebreak
 
-+-- {: .standout}
++-- {: .standout #Slogan}
 
 **Slogan.**
 
