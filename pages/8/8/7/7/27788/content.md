@@ -60,8 +60,8 @@ We can define a **point of $\Sigma$** to be any of the following equivalent stru
 
 * A [[zero-one measure]] on $\Sigma$, i.e. an assignment $p:\Sigma\to\{0,1\}$ which is countably additive and for which $p(X)=1$;
 * An assignment $p:\Sigma\to\{0,1\}$ which is a morphism of σ-complete Boolean algebras;
-* A *prime σ-filter* on $\Sigma$, i.e. a proper subset of $\Sigma$ which is closed under countable unions and intersections;
-* A  *σ-ultrafilter* on $\Sigma$, i.e. an [[ultrafilter]] on $\Sigma$ which is closed under countable intersections.
+* A *prime σ-filter* on $\Sigma$, i.e. a proper subset of $\Sigma$ which is closed under countable joins and meets;
+* A  *σ-ultrafilter* on $\Sigma$, i.e. an [[ultrafilter]] on $\Sigma$ which is closed under countable meets.
 
 Given a morphism $\phi:\Sigma\to\Gamma$ and a point $p$ of $\Gamma$, the composition $p\circ\phi$ is a point of $\Sigma$. 
 Denoting by $Sp(\Sigma)$ the space of points of $\Sigma$ (or **spectrum**), we then have a function $\phi^*:Sp(\Gamma)\to Sp(\Sigma)$.
