@@ -288,3 +288,9 @@ A treatment of [[2-representations]] of [[Lie 2-groups]] is in
 
 [[!redirects 2-module]]
 [[!redirects 2-modules]]
+
+[[!redirects Baez--Crans 2-vector space]]
+[[!redirects Baez–Crans 2-vector space]]
+[[!redirects Baez--Crans 2-vector spaces]]
+[[!redirects Baez–Crans 2-vector spaces]]
+[[!redirects Baez-Crans 2-vector spaces]]
