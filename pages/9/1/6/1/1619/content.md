@@ -37,7 +37,7 @@ A lift one further step through the Whitehead tower is a [[Fivebrane structure]]
 
 This has generalizations to the smooth context, where instead of the topological String-group one uses the [[String Lie 2-group]].
 
-Let $X$ be an $n$-dimensional [[topological manifold]]. 
+Let $X$ be an $n$-dimensional [[smooth manifold]]. 
 
 Its tangent [[bundle]] is canonically associated to a $O(n)$-principal bundle, which is in turn classified by a [[continuous function]]
 
@@ -404,7 +404,7 @@ See also:
 
 The understanding of Killingback's string structure equivalently as the condition to [[tangential structure|lifting]] the [[structure group]] of the [[tangent bundle]] from a [[spin group]] to a *[[string group]]* (or [[string 2-group]]) was introduced or at least popularized by:
 
-* [[Stefan Stolz]], [[Peter Teichner]]: *[[What is an elliptic object?]]*, in: _Topology, geometry and quantum field theory_, London Math. Soc. LNS **308**, Cambridge Univ. Press (2004) 247-343 &lbrack;[pdf](https://math.berkeley.edu/~teichner/Papers/Oxford.pdf), [[Stolz-Teichner_EllipticObject.pdf:file]]&rbrack;
+* [[Stephan Stolz]], [[Peter Teichner]]: *[[What is an elliptic object?]]*, in: _Topology, geometry and quantum field theory_, London Math. Soc. LNS **308**, Cambridge Univ. Press (2004) 247-343 &lbrack;[pdf](https://math.berkeley.edu/~teichner/Papers/Oxford.pdf), [[Stolz-Teichner_EllipticObject.pdf:file]]&rbrack;
 
 The relation between the two pictures is further analyzed for instance in
 
