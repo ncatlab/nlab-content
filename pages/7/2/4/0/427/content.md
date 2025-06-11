@@ -1,1 +1,0 @@
-The _Day tensor product_ is the [[monoidal category|monoidal product]] on [[presheaf]] [[category|categories]] induced from [[Day convolution]].
