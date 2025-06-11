@@ -842,11 +842,7 @@ The link with multicategories is observed in:
 
 * {#Pisani14} [[Claudio Pisani]], _Sequential multicategories_, Theory and Applications of Categories 29.19 (2014), [arXiv:1402.0253](https://arxiv.org/abs/1402.0253)
 
-
 [[!redirects Day convolutions]]
-
-[[!redirects day convolution]]
-
 
 [[!redirects Day tensor product]]
 [[!redirects Day tensor products]]
