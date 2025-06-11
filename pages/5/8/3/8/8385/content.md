@@ -33,7 +33,7 @@ A [[functor]] $f:C\to D$ is a **morphism of sites** if
 
 +-- {: .num_remark}
 ###### Remark
-If $C$ has [[finite limit]]s and all covering families in $D$ are [[strong epimorphism|strong epic]], then covering-flatness of $f$ is equivalent to $f$ preserving finite limits, i.e. being a [[left exact functor]], or equivalently to being a [[representably flat functor]].  Thus, frequently in the literature one finds a definition of a morphism of sites as being representably flat and preserving covering families.
+If $C$ has [[finite limits]] and all covering families in $D$ are [[strong epimorphisms]], then covering-flatness of $f$ is equivalent to $f$ [[preserved limit|preserving]] [[finite limits]], i.e. being a [[left exact functor]], or equivalently to being a [[representably flat functor]].  Thus, frequently in the literature one finds a definition of a morphism of sites as being representably flat and preserving covering families.
 
 For general $C$ and $D$, however, being representably flat *implies* being covering-flat, but not conversely.  Thus, the above definition of morphism of sites is more general than the common one.  There are few practical examples where the distinction matters, but our definition has better formal properties (see below).
 =--
@@ -88,7 +88,7 @@ $$
 where $f_*$ is the restriction of $(-)\circ f$ to sheaves.
 =--
 
-For the classical definition of morphisms of sites, using representably-flat functors, this appears for instance as ([Johnstone, lemma C2.3.3, cor. C2.3.4](#Johnstone)).  We give the proof in this special case; for the general case see ([Shulman](#Shulman)).
+For the classical definition of morphisms of sites, using representably-flat functors, this appears for instance as [Johnstone, lemma C2.3.3, cor. C2.3.4](#Johnstone).  We give the proof in this special case; for the general case see [Shulman 2012](#Shulman).
 
 +-- {: .proof}
 ###### Proof
@@ -98,54 +98,82 @@ By the assumption that $f$ preserves covers we have that the restriction of $(-)
 Because for $\{U_i \to U\}$ a [[cover]] in $\mathcal{C}$ and $F$ a [[sheaf]] on $\mathcal{D}$, we have that (assuming here for simplicity that $\mathcal{C}$ has finite limits)
 
 $$
-  \begin{aligned}
-    PSh_{\mathcal{C}}( \underset{\to}{\lim} ( \coprod_{i, j} U_i \times_{U} U_j)
-    \stackrel{\to}{\to}
-      \coprod_{i} U_i )
-    \;,\;
-    F(f(-))
-    )
-    & \simeq 
-    \lim_{\leftarrow}
-     \left(
-      \prod_{i,j} PSh_{\mathcal{C}}( U_i \times_U U_j, F(f(-)))
-       \stackrel{\leftarrow}{\leftarrow}
-       \prod_i PSh_C(U_i , F(f(-)))
-     \right)
+  \begin{array}{l}
+    PSh_{\mathcal{C}}\Big( 
+      \underset{\to}{\lim} 
+      \big( 
+        \textstyle{\coprod_{i,j}} U_i \times_{U} U_j       
+        \rightrightarrows
+        \coprod_{i} U_i )
+      \big)
+      \;,\;
+      F\big(
+        f(-)
+      \big)
+    \Big)
     \\
-    & \simeq
-    \lim_{\leftarrow}
-     \left(
-      \prod_{i,j} F(f(U_i \times_U U_j)))
-       \stackrel{\leftarrow}{\leftarrow}
+    \;\simeq\;
+    \underset{\leftarrow}{\lim}
+     \bigg(
+       \prod_{i,j} 
+        PSh_{\mathcal{C}}\Big( 
+          U_i \times_U U_j, F\big(f(-)\big)
+       \Big)
+       \leftleftarrows
+       \prod_i 
+       PSh_C\Big(
+         U_i , F\big(f(-)\big)
+       \Big)
+     \bigg)
+    \\
+    \;\simeq\;
+    \underset{\leftarrow}{\lim}
+    \Big(
+      \prod_{i,j} 
+        F\big(
+          f(U_i \times_U U_j)
+        \big)
+       \leftleftarrows
+       \prod_i F\big(f(U_i)\big)
+    \Big)   
+    \\
+    \;\simeq\;
+    \underset{\leftarrow}{\lim}
+    \Big(
+      \prod_{i,j} 
+        F\big(f(U_i) \times_{f(U)} f(U_j)\big)
+       \leftleftarrows
        \prod_i F(f(U_i))
-     \right)   
+     \Big)       
     \\
-    & \simeq
-    \lim_{\leftarrow}
-     \left(
-      \prod_{i,j} F(f(U_i) \times_{f(U)} f(U_j))))
-       \stackrel{\leftarrow}{\leftarrow}
-       \prod_i F(f(U_i))
-     \right)       
-    \\
-    & \simeq
-    PSh_{\mathcal{D}}( \underset{\to}{\lim} ( \coprod_{i, j} f(U_i) \times_{f(U)} f(U_j))
-    \stackrel{\to}{\to}
-      \coprod_{i} f(U_i) )
-    \;,\;
-    F
-   )         
-  \end{aligned}
-  \,,
+    \;\simeq\;
+    PSh_{\mathcal{D}}\bigg( 
+       \underset{\to}{\lim}\Big( 
+          \coprod_{i, j} \big(
+            f(U_i) \times_{f(U)} f(U_j)
+          \big)
+          \rightrightarrows
+        \coprod_{i} \big( f(U_i) \big)
+        \Big)
+      \;,\;
+      F
+    \bigg) 
+    \,.
+  \end{array}
 $$
 
-where we used the [[Yoneda lemma]], the fact that the [[hom functor]] $PSh(-,-)$ sends [[colimit]]s in the first argument to [[limit]]s, and the assumption that $f$ preserves the [[pullback]]s involved.
+Here we used the [[Yoneda lemma]], the [[hom-functor preserves limits|fact]] that the [[hom functor]] $PSh(-,-)$ sends [[colimits]] in the first argument to [[limits]], and the assumption that $f$ preserves the [[pullbacks]] involved.
 
-Also $(-)\circ f$ preserves all [[limit]]s, because for presheaves these are computed objectwise. And since the inclusion $Sh_K(\mathcal{D}) \to PSh(\mathcal{D})$ is [[right adjoint]] (to [[sheafification]]) we have that 
+Also $(-)\circ f$ preserves all [[limits]], because for presheaves these are computed objectwise. And since the inclusion $Sh_K(\mathcal{D}) \to PSh(\mathcal{D})$ is [[right adjoint]] (to [[sheafification]]) we have that 
 
 $$
-  f_* : Sh_K(\mathcal{D}) \hookrightarrow PSh(\mathcal{D}) \stackrel{(-)\circ f}{\to} Sh_J(\mathcal{C})
+  f_* 
+  \;\colon\; 
+  Sh_K(\mathcal{D}) 
+   \hookrightarrow 
+  PSh(\mathcal{D})  
+    \stackrel{(-)\circ f}{\to} 
+  Sh_J(\mathcal{C})
 $$ 
 
 preserves all limits. Therefore by the [[adjoint functor theorem]] it has a [[left adjoint]]. Explicitly, this is the composite of the left adjoint to $(-)\circ f$ and to sheaf inclusion. The first is left [[Kan extension]] $Lan_f$ along $f$ and the second is [[sheafification]] $L_J$ on $(\mathcal{C},J)$, so the left adjoint is the composite
@@ -255,14 +283,16 @@ See ([Shulman, Prop. 4.8](#Shulman))
 
 ## References
 
-* Kashiwara-Schapira, _[[Categories and Sheaves]]_, section 17.2 (in terms of [[local isomorphisms]]).
+* [[Saunders MacLane]] [[Ieke Moerdijk]], section VII. 10 of: _[[Sheaves in Geometry and Logic]]_,  Springer (1992) &lbrack;[doi:10.1007/978-1-4612-0927-0](https://link.springer.com/book/10.1007/978-1-4612-0927-0)&rbrack;
+  > (in terms of covering [[sieves]]).
 
-* [[Saunders MacLane]] [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, section VII. 10 of (in terms of covering [[sieves]]).
+* [[Masaki Kashiwara]], [[Pierre Schapira]], section 17.2 in: *[[Categories and Sheaves]]*, Grundlehren der Mathematischen Wissenschaften **332**, Springer (2006) &lbrack;[doi:10.1007/3-540-27950-4](https://link.springer.com/book/10.1007/3-540-27950-4), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/kashiwara2.pdf)&rbrack;
+  > (in terms of [[local isomorphisms]]).
 
-* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_, section C2.3.
+* [[Peter Johnstone]], section C2.3 of: *[[Sketches of an Elephant]]*, Offord University Press (2002)
 
-* [[Michael Shulman]], "Exact completions and small sheaves".  *Theory and Applications of Categories*, Vol. 27, 2012, No. 7, pp 97-173.  [Free online](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)
-{#Shulman}
+* {#Shulman} [[Michael Shulman]]: *Exact completions and small sheaves*, Theory and Applications of Categories **27** 7 (2012) 97-173 &lbrack;[tac:27-07](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)&rbrack;
+
 
 
 [[!redirects morphism of sites]]
