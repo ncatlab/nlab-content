@@ -54,6 +54,7 @@ See also:
 * Wikipedia, *[Hilbert's third problem](https://en.wikipedia.org/wiki/Hilbert%27s_third_problem)*
 
 Via [[K-theory]]:
+* [[Renee Hoekzema]], [[Mona Merling]], [[Laura Murray]], [[Carmen Rovi]], [[Julia Semikina]]: *Cut and paste invariants of manifolds via algebraic K-theory*, Topology and its Applications, Volume 316 (2022), &lbrack;[arXiv:2001.00176](https://arxiv.org/abs/2001.00176)&rbrack;
 
 * [[Mona Merling]], [[Ming Ng]], [[Julia Semikina]], [[Alba Sendón Blanco]], [[Lucas Williams]]: *Scissors congruence K-theory for equivariant manifolds* &lbrack;[arXiv:2501.06928](https://arxiv.org/abs/2501.06928)&rbrack;
 
