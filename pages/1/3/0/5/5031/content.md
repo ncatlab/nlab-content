@@ -397,9 +397,9 @@ $$
   PSh(C_1 \times C_2)
 $$
 
-for the case that the $C_i$ have all finite limits. To conclude, it is now sufficient to observe that this construction descends to sheaf toposes as claimed
+for the case that the $C_i$ have all finite limits. To conclude, it is now sufficient to observe that this construction descends to sheaf toposes as claimed.
 
-(...)
+To that end, just to note that for a geometric morphism $f$ between presheaf toposes to descend to sheaves is equivalent to $f^\ast$ sending covering morphisms to [[local isomorphisms]] (cf. at *[[morphism of sites]]*, because, by adjunction, this is equivalently the condition for $f_\ast$ to take sheaves to sheaves, whence as such its left adjoint is $f^\ast$ followed by [[sheafification]]).
 \end{proof}
 
 
