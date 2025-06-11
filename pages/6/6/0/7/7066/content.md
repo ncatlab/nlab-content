@@ -27,7 +27,7 @@
 
 For a [[symplectic manifold]] $(X, \omega)$ regarded as the [[phase space]] of a [[physical system]], a choice of _polarization_ is, locally, a choice of decomposition of the [[coordinates]] on $X$ into "[[canonical coordinates]]" and "[[canonical momenta]]".
 
-The archtypical example is that where $X = T^* \Sigma$ is the [[cotangent bundle]] of a [[manifold]] $\Sigma$. In this case the canonical [[canonical coordinates]] are those parameterizing $\Sigma$ itself, while the canonical [[canonical momenta]] are coordinates on each [[fiber]] of the cotangent bundle.
+The archetypical example is that where $X = T^* \Sigma$ is the [[cotangent bundle]] of a [[manifold]] $\Sigma$. In this case the canonical [[canonical coordinates]] are those parameterizing $\Sigma$ itself, while the canonical [[canonical momenta]] are coordinates on each [[fiber]] of the cotangent bundle.
 
 But for general symplectic manifolds there is no such canonical choice of coordinates and momenta. Moreover, in general there is not even a global notion of canonical momenta. Instead, a choice of (real) polarization is a [[foliation]] of phase space by [[Lagrangian submanifolds]] and then
 
@@ -47,7 +47,7 @@ where the $\{q^i : \mathbb{R}^{2n} \simeq \mathbb{R}^n \times \mathbb{R}^n \to \
 
 The traditional notion of polarization applies to a [[symplectic manifold]].
 
-* [Of a symplectic manifold](OfASymplecticManifold)
+* [Of a symplectic manifold](#OfASymplecticManifold)
 
 Symplectic manifold are the lowest step in a tower of notions in [[higher symplectic geometry]] which proceeds with [[n-plectic geometry]] for all $n$ and manifolds refined to [[smooth infinity-groupoids]]. The next simplest cases in this tower are [[symplectic Lie n-algebroids]], which for $n=1$ are [[Poisson Lie algebroids]] and for $n = 2$ are [[Courant Lie 2-algebroids]]:
 
@@ -223,7 +223,7 @@ Lagrangian submanifolds of [[L-infinity algebroids]] are considered in
 
 * {#Severa} [[Pavol Ševera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:0105080](http://arxiv.org/abs/math/0105080))
  
-In the case that the polarization integrates to the [[action]] of a [[Lie group]] $G$ one may think of passing to polarized sections as equivlent to passing to $G$-[[gauge equivalence|gauge equivalence classes]]. This point of view is highlighted in
+In the case that the polarization integrates to the [[action]] of a [[Lie group]] $G$ one may think of passing to polarized sections as equivalent to passing to $G$-[[gauge equivalence|gauge equivalence classes]]. This point of view is highlighted in
 
 * [[Gabriel Catren]], _On the Relation Between Gauge and Phase Symmetries_, Foundations of Physics 44 (12):1317-1335 (2014) ([web](http://philpapers.org/rec/CATOTR))
 
