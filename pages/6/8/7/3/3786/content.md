@@ -1,4 +1,4 @@
-This is a book entry on:
+This page is to record the reference:
 
 \linebreak
 
@@ -10,7 +10,7 @@ This is a book entry on:
 
    \linebreak
 
-   Springer 1981, 1987
+   Springer (1981, 1987)
 
    [doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)
 
