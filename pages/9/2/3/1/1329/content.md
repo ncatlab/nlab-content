@@ -48,7 +48,7 @@ This may be read as saying that the [[Whitehead theorem]] is valid in the [[(∞
 
 Section 10 of 
 
-* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+* [[Charles Rezk]], _Toposes and homotopy toposes_ ([pdf](https://rezk.web.illinois.edu/homotopy-topos-sketch.pdf))
 {#Rezk}
 
 Section 6.5 of
