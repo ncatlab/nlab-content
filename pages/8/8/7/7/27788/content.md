@@ -21,7 +21,7 @@
 
 *Loomis-Sikorski duality* is a [[Stone-type duality]] between [[measurable spaces]] and particular ([[σ-complete Boolean algebras|σ-complete]]) [[Boolean algebras]], and it is one of the main approaches to [[point-free measure theory]].
 
-It is closely related to [[point-free topology]], as well as to the duality between [[measure spaces|_measure_ spaces]] (not *measurable*) and [[measurable locales]]. 
+It is closely related to [[point-free topology]], as well as to [[measurable Gelfand duality]] and to the duality between [[measure spaces|_measure_ spaces]] (not *measurable*) and [[measurable locales]]. 
 
 
 ## Main concepts
@@ -112,7 +112,7 @@ Because of this, sometimes one calls the monad on $Meas$ the *sobrification mona
 * [[sober measurable space]], [[zero-one measure]], [[zero-one kernel]]
 * [[von Neumann algebra]], [[measure algebra]]
 * [[σ-complete Boolean algebra]], [[monotone-complete $C^*$-algebra]]
-* [[point-free measure theory]]
+* [[point-free measure theory]], [[measurable Gelfand duality]]
 * [[Stone duality]], [[Gelfand duality]], [[Isbell duality]]
 * [[categorical approaches to probability theory]]
 
