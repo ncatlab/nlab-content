@@ -70,7 +70,7 @@ Throughout we use the case of the real [[scalar field]] as an illustrative runni
 
 #### Spacetime
 
-Thoughout, let
+Throughout, let
 
 $$
   p \in \mathbb{N}
