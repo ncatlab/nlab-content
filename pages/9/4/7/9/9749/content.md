@@ -133,7 +133,7 @@ We say an object $A$ in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ satisfies the 
 \end{equation}
 holds.
 
-\begin{lemma} Every $V$-generalized element $\tilde{P}$ of $A$ which satisfies the fullness property is a point, i.e, $\tilde{P} =ev_a$ for a unique element $a \in A$. ($ev_a$ is the evaluation map at the point $a$.)
+\begin{lemma} \label{ff} Every $V$-generalized element $\tilde{P}$ of $A$ which satisfies the fullness property is a point, i.e, $\tilde{P} =ev_a$ for a unique element $a \in A$. ($ev_a$ is the evaluation map at the point $a$.)
 \end{lemma} 
 \begin{proof} Since the fullness property is satisfied there exist at least one element $a \in A$ such that $\tilde{P}(m)=m(a)$. 
 Since $A$ lies in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ it is coseparated by $V$, and hence there is at most one element $a \in A$ satisfying $\tilde{P}(m)=m(a)$.  
@@ -166,6 +166,22 @@ so taking the intersection over all elements in the generating field (with a bas
 \end{proof}
 
 This lemma shows there exists a functor $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{SCvx}$ which is the  Giry monad functor with codomain $\mathbf{Std}_{SCvx}$, and coupled with the partial forgetful functor $\mathbf{Std}_{SCvx} \xrightarrow{\mathcal{U}_{SCvx}} \mathbf{Std}$ which forgets the superconvex space structure, we obtain a factorization of the $G$ monad. (This will be an adjoint factorization once we prove some more facts.)
+
+\begin{theorem} Let $\mathbf{V}$ denote the full subcategory of $\mathbf{Std}_{SCvx}$ consisting of the single object $V$.
+The functor defined (on objects) by
+\begin{equation}
+\begin{array}{ccc}
+\mathbf{Std}_{SCvx}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathbf{V}} \\
+A & \mapsto & \mathbf{Std}_{SCvx}(A, \bullet)
+\end{array}
+\end{equation}
+is a full and faithful functor.
+\end{theorem}
+\begin{proof} 
+In the category $\mathbf{Std}_{SCvx}$ every countably affine measurable function is determined by its value on points $1 \xrightarrow{a} A$. Hence to prove the fully faithful property it suffices to prove those properties on points.
+
+Since $A$ lies in $\mathbf{Std}_{SCvx}$, which has $V$ as a coseparator, the faithful property holds.  The fullness property follows from Lemma \ref{ff}.
+\end{proof}
 
 \begin{lemma} If $A$ is an object in $\mathbf{Std}_{SCvx}$ then there exists a unique countably affine measurable function $G(A) \xrightarrow{\epsilon_A} A$.
 Moreover, this function $\epsilon_A$ is a $G$-algebra.
