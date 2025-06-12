@@ -33,4 +33,4 @@ A [[semilattice]] is the same thing as a [[commutative]] band.
 
 A [[rectangular band]] is a band (see there). 
 
-A [[skew lattice]] is a band. 
+A [[skew lattice]] $(L, \wedge, \vee)$ is a band, using either $\wedge$ or $\vee$ as the semigroup operation. 
