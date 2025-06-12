@@ -44,6 +44,14 @@ On a [[2-monad|2-monadic]] treatment of ultracategories:
 
 * [[Francisco Marmolejo]], _Ultraproducts and continuous families of models_, PhD thesis (1995) &lbrack;[hdl:10222/55092](https://dalspace.library.dal.ca/handle/10222/55092); [pdf](http://peterlefanulumsdaine.com/files/marmolejo-1995-phd-thesis.pdf)&rbrack;
 
+As [[colax algebra for a 2-monad|colax algebras]] for a [[pseudomonad]]:
+
+* Ali Hamad, *Ultracategories as colax algebras for a pseudo-monad on CAT* &lbrack;[arXiv:2502.20597](https://arxiv.org/abs/2502.20597)&rbrack;
+
+In terms of [[Kan extensions]] of [[relative monads]]:
+
+* Umberto Tarantino, Joshua Wrigley, *Ultracategories via Kan extensions of relative monads* &lbrack;[arXiv:2506.09788](https://arxiv.org/abs/2506.09788)&rbrack;
+
 [[!redirects ultracategories]]
 
 
