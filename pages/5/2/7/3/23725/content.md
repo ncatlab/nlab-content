@@ -57,6 +57,12 @@ The resulting Brillouin torus $Hom_{Grp}\big(\Lambda, \, \mathbb{R} \big)/Hom_{G
 
 * [[Guo Chuan Thiang]], §2.1 in: *Topological Semimetals*, [[Encyclopedia of Mathematical Physics 2nd ed]] (2024) &lbrack;[arXiv:2407.12692](https://arxiv.org/abs/2407.12692)&rbrack;
 
+Texts that make explicit the choice of [[spin structure]] on Brillouin tori:
+
+* Ümit Ertem: *Weyl semimetals and $spin^c$ cobordism* &lbrack;[arXiv:2003.04082](https://arxiv.org/abs/2003.04082)&rbrack;
+
+* Andy Knoll, [[Carsten Timm]]: *Irreducible momentum-space spin structure of Weyl semimetals and its signatures in Friedel oscillations*, Phys. Rev. B **109** (2024) 035145 &lbrack;[doi:10.1103/PhysRevB.109.035145](https://doi.org/10.1103/PhysRevB.109.035145)&rbrack;
+
 
 
 
