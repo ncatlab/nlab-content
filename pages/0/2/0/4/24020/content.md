@@ -42,6 +42,7 @@ On "fragile" (unstable, [[nonabelian cohomology]]) effects in [[topological phas
 
 * Hoi Chun Po, Haruki Watanabe, [[Ashvin Vishwanath]]: *Fragile Topology and Wannier Obstructions*, Phys. Rev. Lett. **121** (2018) 126402 \[<a href="https://doi.org/10.1103/PhysRevLett.121.126402">doi:10.1103/PhysRevLett.121.126402</a>\]
 
+* Hoi Chun Po,  Liujun Zou, T. Senthil, [[Ashvin Vishwanath]]: *Faithful tight-binding models and fragile topology of magic-angle bilayer graphene*, Phys. Rev. B **99** (2019) 195455 \[<a href="https://doi.org/10.1103/PhysRevB.99.195455">doi:10.1103/PhysRevB.99.195455</a>, [arXiv:1808.02482](https://arxiv.org/abs/1808.02482)\]
 
 
 
