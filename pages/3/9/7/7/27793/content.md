@@ -1,3 +1,7 @@
+
+
+\tableofcontents
+
 ## Definition 
 
 A *band* is a [[semigroup]] in which every element is [[idempotent]]. 
