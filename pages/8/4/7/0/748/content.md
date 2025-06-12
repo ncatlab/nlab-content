@@ -186,8 +186,8 @@ and hence $F' = Y(c) \times F$ with respect to the [[closed monoidal structure o
 
 See also [[functors and comma categories]].
 
-For the analogous statement in [[(∞,1)-category theory]]  see at
-*[[infinity1-category+of+infinity1-presheaves#WithOvercategories|(∞,1)-category of (∞,1)-presheaves -- Interaction with overcategories]]*.
+For the analogous statement in [[(∞,1)-category theory]]  see at *[(∞,1)-category of (∞,1)-presheaves -- Interaction with overcategories](infinity1-category+of+infinity1-presheaves#WithOvercategories)*.
+
 
 
 
@@ -227,7 +227,14 @@ For $\mathcal{C}$ a [[category]], $X \;\colon\; \mathcal{D} \longrightarrow \mat
  
 =--
 
-For a proof see at [[(∞,1)-limit]]  _[here](limit+in+a+quasi-category#InOvercategories)_.
+For proof
+
+* with formalization in [Cubical Agda](Agda#CubicalAgda): see  [[1lab]], *[arbitrary-limits-in-slices](https://1lab.dev/Cat.Instances.Slice.Limit.html#arbitrary-limits-in-slices)*,
+
+* in the generality of [[(∞,1)-category theory]]: see [at [[(∞,1)-limit]]  _[here](limit+in+a+quasi-category#InOvercategories)_.
+
+
+
 
 ### Initial and terminal objects
  {#InitialAndTerminalObjects}
