@@ -99,7 +99,7 @@ See the [[HowTo]] page for information on how to contribute to the $n$Lab and ed
 
 ##Organization of the $n$Lab
 
-* see [[organization of the nLab]]
+* see [[HomePage]]
 
 ## Technology and Support
 
