@@ -29,6 +29,7 @@ To say this in a bit more detail (following [[schreiber:The Character Map in Equ
 
 
 ### Cohomology via classifying spaces
+ {#CohomologyViaClassifyingSpaces}
 
 It is a classical and yet possibly undervalued fact that *reasonable [[cohomology]] theories have [[classifying spaces]]* (and more generally *[[moduli stacks|classifying stacks]]*). To quickly recall (more details and pointers in [FSS23, §2](#FSS23)):
 
