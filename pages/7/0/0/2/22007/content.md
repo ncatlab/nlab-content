@@ -21,12 +21,13 @@ A **rectangular band** or **nowhere commutative semigroup** is a [[semigroup]] w
 
 * $a b a = a$ for all $a$ and $b$
 
-* it is a [[band]] and $a b c = a c$ for all $a$, $b$, and $c$
+* $a a a = a$ and $a b c = a c$ for all $a$, $b$, and $c$
+
+However, despite its name, there exist [[commutative semigroup|commutative]] nowhere commutative semigroups, such as the [[empty set|empty]] semigroup and the [[trivial group]]. 
 
 ## Properties
 
-* A rectangular band is indeed a [[band]] since the defining identity implies
-$ x y z = x z$ for all $x,y,z$ whence by taking $y=z=x$ one gets $x x x = x x$ and from the defining identity $x x x=x$ hence $x x = x$. In order to get the first equation expand $x y z$ by substituting $ x z x$ for $x$: $x y z = (x z x) y z = x (z (xy) z) = x z \; .$
+* A rectangular band is indeed a [[band]] since the defining identity implies $ x y z = x z$ for all $x,y,z$ whence by taking $y=z=x$ one gets $x x x = x x$ and from the defining identity $x x x=x$ hence $x x = x$. In order to get the first equation expand $x y z$ by substituting $ x z x$ for $x$: $x y z = (x z x) y z = x (z (xy) z) = x z \; .$
 
 * If $S$ is a rectangular band, then there exist [[inhabited set|non-empty sets]] $I$ and $J$ such that $S$ is [[isomorphism|isomorphic]] as a [[semigroup]] to $I\times J$ equipped with the [[multiplication]]
 $(i, j)(p,q) = (i,q)$ for $i,p\in I$ and $j,q\in J$.
@@ -41,11 +42,13 @@ Let $Rect$ be the category of rectangular bands with semigroup homomorphisms as 
 
 * Since $Rect$ is the 2-valued [[collapsed topos|collapse]] of the [[topos]] $Set\times Set$ it is even a [[cartesian closed category|cartesian closed]] variety. Since the [[distributive law]] holds for (finite) coproducts in cartesian closed categories, $Rect$ is a [[distributive category]]. Since it is not [[locally cartesian closed category|locally cartesian closed]] it is neither a topos nor even  an [[extensive category]]. For more on this see Johnstone ([1990](#Johnstone90)).
 
-## Some ramifications
-
-* A band $S$ satisfying the [[graphic category| graphic identity]] $x y x = x y$ for all $x$ and $y$ is said to be _left-regular_. Left-regular bands can arise from hyperplane arrangements and there has been work studying [[random walk|random walks]] on these hyperplane arrangements by analysing the semigroup algebras of the associated bands: see [Brown 00](#Brown00) and [Margolis-Saliola-Steinberg 15](#MargolisSaliolaSteinberg15). Left-regular band monoids are also called _graphic monoids_ which are examples of 1-object [[graphic category|graphic categories]].
-
 ## Related concepts
+
+* [[semigroup]]
+
+* [[band]] 
+
+* [[semilattice]]
 
 * [[distributive category]]
 
@@ -59,14 +62,9 @@ Let $Rect$ be the category of rectangular bands with semigroup homomorphisms as 
 
 * {#Howie76} J. Howie, _An introduction to semigroup theory_, Academic Press 1976.
 
-* {#Brown00} K. S. Brown, _Semigroups, Semirings, and Markov Chains_, J. Theor. Prob. **13** no.3 (2000) pp.871-938. ([arXiv:math/0006145](https://arxiv.org/abs/math/0006145))
-
-
 * {#Johnstone90}[[Peter Johnstone]], _Collapsed toposes and cartesian closed varieties_ , JPAA **129** (1990) pp.446-480.
 
 * N. Kimura, _The structure of idempotent semigroups I_ , Pacific Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1958/8-2/pjm-v8-n2-p07-p.pdf))
-
-* {#MargolisSaliolaSteinberg15}  Stuart Margolis, Franco Saliola, [[Benjamin Steinberg]], _Cell complexes, poset topology and the representation theory of algebras arising in algebraic combinatorics and discrete geometry_ ([arXiv:1508.05446](https://arxiv.org/abs/1508.05446))
 
 See also:
 
