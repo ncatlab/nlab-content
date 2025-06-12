@@ -13,6 +13,8 @@ More explicit highlighting of the role of the unstable case (and coinage of the 
 
 * Hoi Chun Po, Haruki Watanabe, [[Ashvin Vishwanath]]: *Fragile Topology and Wannier Obstructions*, Phys. Rev. Lett. **121** (2018) 126402 \[<a href="https://doi.org/10.1103/PhysRevLett.121.126402">doi:10.1103/PhysRevLett.121.126402</a>\]
 
+* Hoi Chun Po,  Liujun Zou, T. Senthil, [[Ashvin Vishwanath]]: *Faithful tight-binding models and fragile topology of magic-angle bilayer graphene*, Phys. Rev. B **99** (2019) 195455 \[<a href="https://doi.org/10.1103/PhysRevB.99.195455">doi:10.1103/PhysRevB.99.195455</a>, [arXiv:1808.02482](https://arxiv.org/abs/1808.02482)\]
+
 * [[Adrien Bouhon]], [[Tomáš Bzdušek]], [[Robert-Jan Slager]]: *Geometric approach to fragile topology beyond symmetry indicators*, Phys. Rev. B **102** (2020) 115135 \[<a href="https://doi.org/10.1103/PhysRevB.102.115135">doi:10.1103/PhysRevB.102.115135</a>, [arXiv:2005.02044](https://arxiv.org/abs/2005.02044)\] 
 
 Applications:
