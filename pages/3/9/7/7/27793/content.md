@@ -63,7 +63,7 @@ The category of semilattices is a full subcategory of the category of bands; by 
 The following result, due to Clifford and Preston, is fundamental. 
 
 \begin{theorem} 
-Given a band $B$, the equivalence relation induced from the natural preorder, where $x \sim y$ iff $(x \preceq y) \wedge (y \preceq x)$, is a band [[congruence]]. The quotient $B/\sim$ is a semilattice, and $B \mapsto B/\sim$ is universal among all maps from $B$ to semilattices, thus defining the reflector from bands to semilattices. 
+Given a band $B$, the equivalence relation induced from the natural preorder, where $x \sim y$ iff $(x \preceq y) \wedge (y \preceq x)$, is a band [[congruence]]. The quotient $B/\sim$ is a semilattice, and $B \to B/\sim$ is universal among all maps from $B$ to semilattices, thus defining the reflector $B \mapsto B/\sim$ from bands to semilattices. 
 \end{theorem} 
 
 ## Properties of bands 
