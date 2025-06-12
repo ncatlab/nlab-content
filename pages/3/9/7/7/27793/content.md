@@ -15,8 +15,6 @@
 
 A *band* is a [[semigroup]] in which every element is [[idempotent]]. 
 
-Finitely generated bands are finite: see [Howie 76, Section IV.4](#Howie76).
-
 ## Order structures on bands 
 
 There are two distinct order structures on bands, referred to in the literature by the "natural poset" structure and the "natural preorder" structure. 
@@ -38,13 +36,40 @@ $$x z x =_P x z(x z y x) =_A (x z)(x z)y x =_I x z y x =_P x$$
 which completes the proof. 
 \end{proof} 
 
+As is the case with any preorder structure, there is an associated equivalence relation $\sim$, where $x \sim y$ iff the two conditions $x \preceq y$ and $y \preceq x$ hold. 
+
+\begin{proposition} 
+Every $\sim$-equivalence class is a [[rectangular band]]. 
+\end{proposition} 
+
+\begin{proof} 
+This is immediate from the definitions: for any $\sim$-equivalent elements $x, y$, we have $x = x y x$. 
+\end{proof} 
+
 ## Examples of bands 
 
-A [[semilattice]] is the same thing as a [[commutative]] band. 
+A [[semilattice]] (in this article, we mean semilattices without identity) is the same thing as a [[commutative]] band. 
 
 A [[rectangular band]] is a band (see there). 
 
 A [[skew lattice]] $(L, \wedge, \vee)$ is a band, using either $\wedge$ or $\vee$ as the semigroup operation. 
+
+To be added: varieties of bands, and particularly of regular bands. 
+
+## Relation to semilattices 
+
+The category of semilattices is a full subcategory of the category of bands; by general categorical considerations, the full inclusion has a left adjoint, called the [[reflector]] from bands to semilattices. 
+
+The following result, due to Clifford and Preston, is fundamental. 
+
+\begin{theorem} 
+Given a band $B$, the equivalence relation induced from the natural preorder, where $x \sim y$ iff $(x \preceq y) \wedge (y \preceq x)$, is a band [[congruence]]. The quotient $B/\sim$ is a semilattice, and $B \mapsto B/\sim$ is universal among all maps from $B$ to semilattices, thus defining the reflector from bands to semilattices. 
+\end{theorem} 
+
+## Properties of bands 
+
+By a theorem of [McLean](#McLean54), finitely generated bands are finite; see [Howie 76, Section IV.4](#Howie76).
+
 
 ## Related concepts
 
@@ -53,6 +78,8 @@ A [[skew lattice]] $(L, \wedge, \vee)$ is a band, using either $\wedge$ or $\vee
 * [[semilattice]]
 
 ## References
+
+* {#McLean54} David McLean, _Idempotent Semigroups_, The American Mathematical Monthly, Vol. 61, No. 2 (February 1954), pp. 110-113. 
 
 * {#Howie76} J. Howie, _An introduction to semigroup theory_, Academic Press 1976.
 
