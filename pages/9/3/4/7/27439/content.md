@@ -43,3 +43,7 @@ and in [[graphene]] [heterostructures](semiconductor#ReferencesHeterostructures)
 * Noah Samuelson et al.: *Anyonic statistics and slow quasiparticle dynamics in a graphene fractional quantum Hall interferometer* \[<a href="https://arxiv.org/abs/2403.19628">arXiv:2403.19628</a>\]
 
 * Jehyun Kim et al.: *Aharonov-Bohm Interference in Even-Denominator Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2412.19886">arXiv:2412.19886</a>\]
+
+See also:
+
+* Flavio Ronetti et al.: *Probing anyon statistics on a single-edge loop in the fractional quantum Hall regime* \[<a href="https://arxiv.org/abs/2506.09774">arXiv:2506.09774</a>\]
