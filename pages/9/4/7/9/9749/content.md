@@ -81,97 +81,101 @@ The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategori
 It is one of the most important examples of a [[Markov category]].
 
 ### Algebras over the Giry monad
-We can't say anything about the $G$-algebras on the category of measurable spaces due to lack of structure and set-theoretical issues.  However, we can analyze the $P$-algebras exploiting the continuous morphisms and countably dense subsets on the spaces $P{X}$, and give a class of non-free $P$-algebras.
+We can't say anything about the $G$-algebras on the category of measurable spaces due to lack of structure and set-theoretical issues.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to understand how $G$ algebras arise via expectation maps.
    
-If $X$ is any measurable space then the space of probability measures $P{X}$ is a convex space with the structure defined pointwise, i.e., if $\{P_i\}_{i=1}^{n}$ is a finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{n}$ with each $p_i \in [0,1]$  the  affine sum  $\sum_{i=1}^{n} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
+If $X$ is any standard space then the space of probability measures $G{X}$ is a [[superconvex space]] with the structure defined pointwise, i.e., if $\{P_i\}_{i=1}^{\infty}$ is a finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{\infty}$ with each $p_i \in [0,1]$  the countable affine sum  $\sum_{i=1}^{\infty} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
 \begin{equation}
-\big(\sum_{i=1}^{n} p_i P_i\big)(U) = \sum_{i=1}^{n} p_i P_i(U).
-\end{equation}
-On the otherhand, given any $P$-algebra $h: P{X} \rightarrow X$ it follows that $X$ can also be endowed with a convex structure by defining, for every affine sum of $n$ elements of $X$,
-\begin{equation}
- \sum_{i=1}^n p_i x_i := h(\sum_{i=1}^n p_i \delta_{x_i}).
+\big(\sum_{i=1}^{\infty} p_i P_i\big)(U) = \sum_{i=1}^{\infty} p_i P_i(U).
 \end{equation}
 
-To analyze $P$-algebras, via the Eilenberg-Moore representation as morphisms $h:P{X} \rightarrow X$, we require
 
-\begin{lemma} \label{FunThm} Given any $P$-algebra $h: P{X} \rightarrow X$ the continuous function $h$ is an affine map.  
-Moreover, for any measurable space $Y$ and $P$-algebra $k:P{Y} \rightarrow Y$ on it,  if $f: (X, h) \rightarrow (Y, k)$ is a map of $P$-algebras then the continuous function $f$ is also affine.
+\begin{lemma} \label{FunThm} Given any $G$-algebra $h: G{X} \rightarrow X$ the space $X$ has the structure of a superconvex space which makes the measurable function $h$ a countably affine (measurable) map.  
+Moreover, for any measurable space $Y$ and $G$-algebra $k:G{Y} \rightarrow Y$ on it,  if $f: (X, h) \rightarrow (Y, k)$ is a map of $G$-algebras then the measurable function $f$ is also countably affine.
 \end{lemma}
-\begin{proof}  Because a $P$-algebra $h$ must satisfy $h \circ \mu_X = h \circ P{h}$ we have
+\begin{proof} Given $h$ define the superconvex space structure on $X$ by
+\begin{equation}
+ \sum_{i=1}^{\infty} p_i x_i := h(\sum_{i=1}^{\infty} p_i \delta_{x_i}).
+\end{equation}
+
+ Because a $G$-algebra $h$ must satisfy $h \circ \mu_X = h \circ G{h}$ we have
 \begin{equation}
 \begin{array}{lcl}
-(h \circ \mu_X)( \sum_{i=1}^n p_i \delta_{Q_i}) &=& (h \circ P{h})( \sum_{i=1}^n p_i \delta_{Q_i}) \\
-h( \sum_{i=1}^n p_i Q_i) &=& h(\sum_{i=1}^n p_i \, \delta_{h(Q_i)}) \\
- &=& \sum_{i=1}^n p_i h(Q_i)
+(h \circ \mu_X)( \sum_{i=1}^{\infty} p_i \delta_{Q_i}) &=& (h \circ G{h})( \sum_{i=1}^{\infty} p_i \delta_{Q_i}) \\
+h( \sum_{i=1}^{\infty} p_i Q_i) &=& h(\sum_{i=1}^{\infty} p_i \, \delta_{h(Q_i)}) \\
+ &=& \sum_{i=1}^{\infty} p_i h(Q_i)
 \end{array}
 \end{equation}
-where the last line makes use of the definition of the convex structure on $X$.  Thus every $P$-algebra is affine.
+where the last line makes use of the definition of the convex structure on $X$.  Thus every $G$-algebra is countably affine.
 
-To prove the map of $P$-algebras is an affine map we compute
+To prove the map of $G$-algebras is a countably affine map we compute
 \begin{equation}
 \begin{array}{lcll}
-f(\sum_{i=1}^n p_i x_i) &=& f(h(\sum_{i=1}^n p_i \delta_{x_i})) &  \\
-&=& k(P(f)(\sum_{i=1}^n p_i \delta_{x_i}) &  \\
-&=& k(\sum_{i=1}^n p_i \delta_{f(x_i)}) &  \\
-&=& \sum_{i=1}^n p_i f(x_i) & 
+f(\sum_{i=1}^{\infty} p_i x_i) &=& f(h(\sum_{i=1}^{\infty} p_i \delta_{x_i})) &  \\
+&=& k(G(f)(\sum_{i=1}^{\infty} p_i \delta_{x_i}) &  \\
+&=& k(\sum_{i=1}^{\infty} p_i \delta_{f(x_i)}) &  \\
+&=& \sum_{i=1}^{\infty} p_i f(x_i) & 
 \end{array}.
 \end{equation}
+
 \end{proof}
 
-Remark: The space $P{X}$ actually has a superconvex structure since, for $\lim_{n \rightarrow \infty}  \sum_{i=1}^n p_i=1$ and each $p_i \in [0,1]$,   the countable affine sum $\sum_{i=1}^{\infty} p_i P_i$ also defines a probability measure on $P{X}$.  The preceding Lemma also then holds for the term "affine" replaced by "countably affine". 
+Let $\mathbf{Std}\cap \mathbf{SCvx}$ be the category of standard spaces with a superconvex space structure with morphisms be countably affine measurable functions.  Let $V=[0,\infty]$ which is the one-point compactification of the   interval $[0,\infty)$.  $V$ is a second-countable compact Hausdorff space so it is a [[Polish space]], and hence $V$ with the Borel $\sigma$-algebra is a standard space.  Let $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ denote the full subcategory of $\mathbf{Std} \cap \mathbf{SCvx}$ consisting of those spaces which are coseparable by $V$.
 
-\begin{lemma} (Uniqueness of $P$-algebras) Let $X$ be a Polish space and suppose $f,g:P{X} \rightarrow X$ are a pair of $P$-algebras.  Then $f=g$.
-\end{lemma}
-\begin{proof}  
- The space $X$, being a separable metric space, has a countable dense subset  $E$, and hence  the set $D=\{\sum_{i=1}^n r_i \delta_{e_i} \, | \, e_i\in \E, r_i \in \mathbb{Q}\cap[0,1],  \sum_{i=1}^n  r_i=1,  \text{ and } n  \text{ finite}\}$ is dense in $P{X}$.(Parthasarathy, Probability measures on metric spaces,Theorem 6.3)   Since the set $D$ is dense in $P{X}$ and $P{X}$ is a complete separable metric space it follows that the functions $f$ and $g$ are completely determined by their  values on the dense subset $D$.  We have $f(\sum_{i=1}^n r_i \delta_{e_i})= \sum_{i=1}^n r_i f(\delta_{e_i}) =  \sum_{i=1}^n r_i e_i$, where the first equality follows by Lemma \ref{FunThm}, and the second equality by the required condition on algebras, $h(\delta_e)=e$, and similiarly $g(\sum_{i=1}^n r_i \delta_{e_i}) = \sum_{i=1}^n r_i e_i.$  Since $f=g$ on the dense subset and both $f$ and $g$ are continuous maps it follows that $f=g$ on all of $P{X}$. 
-\end{proof} 
-
-\begin{lemma} \label{thm} Let $X$  be a Polish space and suppose $h:P{X} \rightarrow X$ is a $P$-algebra.  Then $h$ is a free $P$-algebra if and only if there exists a $\mathbf{Cvx}$-isomorphism $\phi: X \rightarrow P{Y}$ for some Polish space $Y$.
-\end{lemma}
-\begin{proof}
-Suppose there exists a $\mathbf{Cvx}$-isomorphism $\phi: X \rightarrow P{Y}$ then $\hat{h} = \phi \circ h \circ P(\phi^{-1}): P(P{Y}) \rightarrow P{Y}$ is also a $P$-algebra.  Since the multiplication natural transformation $\mu: P \circ P \Rightarrow P$ gives the free $P$-algebra $\mu_Y: P(P{Y}) \rightarrow P{Y}$ it follows by the uniqueness lemma that $\hat{h}=\mu_Y$.  Because $\phi$ is a $\mathbf{Cvx}$-isomorphism it then follows that $h$ is a free $P$-algebra.
-
-Conversely, if $h$ is a free $P$-algebra then, since all free $P$-algebras are given by $\mu_Y: P(P{Y}) \rightarrow P{Y}$ for every space $Y$,  there must exists a particular space $Y$ such that $X = P{Y}$. Hence the identity map yields  a  $\mathbf{Cvx}$-isomorphism  $id: X \rightarrow P{Y}$.
-\end{proof}
-
-\begin{lemma} \label{L3}
-The space $P{\mathbf{2}} \times P{\mathbf{2}}$ is not $\mathbf{Cvx}$-isomorphic to $P{X}$ for any Polish space $X$.
-\end{lemma}
- \begin{proof}
-Every element of $P{\mathbf{2}} \times P{\mathbf{2}}$ is characterized precisely by two independent real numbers $r,s \in [0,1]$.
-The only space $X$ for which every element $Q \in P{X}$ is characterized by two parameters  is $P{\mathbf{3}}$.  However those two parameters are not independent since choosing the first parameter as one forces the second parameter to be zero.  An equivalent way to state this is to say that 
-the coequalizer  of the pair of points $(0,1)$ and $(1,1)$ of the space $[0,1] \times [0,1]$ is, up to isomorphism, $P(\mathbf{3})$.
-The congruence relation $R$ is the relationship on $[0,1]\times [0,1]$ with the equivalence classes specified by
+Given any standard space $A$ and any $P \in G(A)$ let $\mathbf{Std}(A, V) \xrightarrow{\tilde{P}} V$ denote the functional sending $f \mapsto \int_A f \, dP$.  Let $V^A = (\mathbf{Std} \cap \mathbf{SCvx})_{cos}(A, V)$. Taking $A=V$ we obtain the space $V^V$ of endomaps on $V$.  Recall that a $V$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in V^V$ and all $m \in V^A$, the equation 
 \begin{equation}
-[(x,y)]_R =            \left\{
- \begin{array}{l}  
-\{(x,y)\} \quad \text{when } x+y \lt 1  \\
-\{(u,y) \in [0,1]\times [0,1] \, | \, u+y \ge 1\}
-\end{array}      \right.,
+\phi \big( \tilde{P}(m) \big) = \tilde{P}(\phi \circ m).
 \end{equation}
-is $\mathbf{Cvx}$-isomorphic to $P(\mathbf{3})$.  (Draw the picture.)
+The reader can verify than any such $V$-generalized element $\tilde{P}$ is $V$-linear, weakly averaging, and additive.
 
-  \end{proof}
+We say an object $A$ in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ satisfies the fullness property if and only if for every $P \in G(A)$ the property
+\begin{equation}
+\displaystyle{ \bigcap_{m \in V^A}} m^{-1}\big(\tilde{P}(m)\big) = \{a \in A \, | \, \tilde{P}(m)=m(a) \quad \forall m \in V^A\} \ne \emptyset
+\end{equation}
+holds.
 
-\begin{lemma} \label{marginal} (Marginalization $P$-algebra)  Let $\pi_i: P(\mathbf{2})\times P(\mathbf{2}) \rightarrow P(\mathbf{2})$, for $i=1,2$ denote  the two coordinate projection maps of the product space $P(\mathbf{2}) \times P(\mathbf{2})$.  The function $m:P( P{\mathbf{2}} \times P{\mathbf{2}}) \rightarrow P{\mathbf{2}} \times P{\mathbf{2}}$ specified by marginalization, $Q \mapsto \big( (\mu_2\circ  P{\pi_1})Q, (\mu_2 \circ P{\pi_2})Q\big)$, is a $P$-algebra.
+\begin{lemma} Every $V$-generalized element $\tilde{P}$ of $A$ which satisfies the fullness property is a point, i.e, $\tilde{P} =ev_a$ for a unique element $a \in A$. ($ev_a$ is the evaluation map at the point $a$.)
+\end{lemma} 
+\begin{proof} Since the fullness property is satisfied there exist at least one element $a \in A$ such that $\tilde{P}(m)=m(a)$. 
+Since $A$ lies in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ it is coseparated by $V$, and hence there is at most one element $a \in A$ satisfying $\tilde{P}(m)=m(a)$.  
+\end{proof}
+
+Define $\mathbf{Std}_{SCvx}$ to be the full subcategory of $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ consisting of those objects which satisfy the fullness property.  
+
+Note that $V$ is an object in $\mathbf{Std}_{SCvx}$. (This is exercise 8.23 in the text Sets for Mathematics by Lawvere and Rosebrugh.)  
+
+We now proceed to show that for every standard space $X$ that $G(X)$ is an object in $\mathbf{Std}_{SCvx}$.  
+
+\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space.  Then for $Q \in \G^2(X)$ we have
+$$\displaystyle{ \bigcap_{U \in \mathbb{F}}} ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \mu_X(Q)$$
+\end{lemma} 
+\begin{proof}We have
+\begin{equation}
+ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \{R \in G(X) \, | \, R(U)=\mu_X(Q)[U] \}
+\end{equation}
+so taking the intersection over all elements in the generating field (with a basis) yields the result using the well known result if $X$ is a standard space and $P,R \in G(X)$ satisfy $P(U)=R(U)$ for all $U \in \mathbb{F}$ then $P=R$.
+\end{proof}
+
+\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every countably affine measurable function $G(X) \xrightarrow{m} V$ is a countable affine sum of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
 \end{lemma}
-\begin{proof} The function $m$ is continuous because each of the component maps are continuous.  The condition $m \circ \eta_{P{\mathbf{2}} \times P{\mathbf{2}}} = id_{P{\mathbf{2}} \times P{\mathbf{2}}}$ follows because for each element $(Q,R) \in P{\mathbf{2}} \times P{\mathbf{2}}$ we have $\mu_2(G{\pi_1} \delta_{(Q,R)}) = \mu_2(\delta_{\pi_1(Q,R)}) = \mu_2(\delta_P)=Q$ and similarly $\mu_2(P{\pi_2} \delta_{(Q,R)}) =R$.
-
-To prove the required condition $P{m} \circ m= \mu_{P{2} \times P{2}} \circ m$ first note that $m$ is an affine function because each component map $\mu_2 \circ P{\pi_i}$, for $i=1,2$, is a composite of affine maps. Moreover, since $P{\mathbf{2}} \times P{\mathbf{2}}$ is a separable metric space it has a countable dense subset of elements $(u_k, v_k)$ so that the set of elements consisting of affine sums of Dirac measures of the form $\sum_{j=1}^p s_j \delta_{(u_j,v_j)}$ for $p$ a finite number  is a dense subset of $P(P{\mathbf{2}} \times P{\mathbf{2}})$.  In turn it follows that affine sums of elements of the form $\sum_{i=1}^n r_i  \delta_{\sum_{j=1}^p s_j^i \delta_{(u_j^i,v_j^i)}}$ specify a dense subset of $P(P(P(\mathbf{2}) \times P(\mathbf{2})))$.  A direct computation on the dense elements, using the fact that all the maps are affine, then yields $P{m} \circ m= \mu_{P{\mathbf{2}} \times P{\mathbf{2}}} \circ m$ on all the elements of the dense set.  Since the maps are all continuous  it therefore follows that $P{m} \circ m= \mu_{P{\mathbf{2}} \times P{\mathbf{2}}} \circ m$ on all elements of $P(P(P{\mathbf{2}} \times P{\mathbf{2}}))$.  This completes the proof that $m$ is a $P$-algebra.
-
-\end{proof}
 
 
-\begin{theorem}
-The category of $P$-algebras  is not equivalent to the Kleisi category of the $P$-monad for Polish spaces.  In other words, there are non-free $P$-algebras.
-\end{theorem}
+\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then $G(X)$ is an object in $\mathbf{Std}_{SCvx}$.
+\end{lemma}
 \begin{proof}
-By Lemma \ref{marginal} we know that the marginalization map  $m:P( P{\mathbf{2}} \times P{\mathbf{2}}) \rightarrow P{\mathbf{2}} \times P{\mathbf{2}}$ is a $P$-algebra.
-By Lemma \ref{L3} we know that $P{\mathbf{2}} \times P{\mathbf{2}}$ is not $\mathbf{Cvx}$-isomorphic to $P{Y}$ for any space $Y$. Hence by Lemma \ref{thm} it follows that $m$ is not a free $P$-algebra, and hence the category of $P$-algebras  is not equivalent to the Kleisi category for the $P$-monad.
-\end{proof}
-If Lemma \ref{L3} can be generalized to the statement that if the convex space $\prod_{i \in I}P(X_i)$, where $I$ is a countable indexing set, is not $\mathbf{Cvx}$-isomorphic to $P(Z)$ for any Polish space $Z$ then all the marginalization maps $m: P\big(\prod_{i \in I}P(X_i)\big) \rightarrow \prod_{i \in I}P(X_i)$ are non-free $P$-algebras. Those maps are obviously $P$-algebras by the argument used in Lemma \ref{marginal}.  
 
-([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$.
+\end{proof}
+
+This lemma shows there exists a functor $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{SCvx}$ which is the  Giry monad functor with codomain $\mathbf{Std}_{SCvx}$, and coupled with the partial forgetful functor $\mathbf{Std}_{SCvx} \xrightarrow{\mathcal{U}_{SCvx}} \mathbf{Std}$ which forgets the superconvex space structure, we obtain a factorization of the $G$ monad. (This will be an adjoint factorization once we prove some more facts.)
+
+\begin{lemma} If $A$ is an object in $\mathbf{Std}_{SCvx}$ then there exists a unique countably affine measurable function $G(A) \xrightarrow{\epsilon_A} A$.
+Moreover, this function $\epsilon_A$ is a $G$-algebra.
+\end{lemma}
+\begin{proof}
+
+\end{proof}
+
+
+([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. 
 His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
  And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
 
@@ -297,9 +301,12 @@ The article
 
 * [[Kirk Sturtz]], _Categorical Probability Theory_, $[$[arXiv:1406.6030](http://arxiv.org/abs/1406.6030)$]$
 
-views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  (A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, rather than just finite affine maps, as discussed in that article.)
+views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, obtained by double dualizing into $[0,\infty]$, then yields the characterization of $\mathcal{G}$-algebras summarized above, which is from the article
 
-Some corrections from an earlier version of that article, were pointed out in
+* [[Kirk Sturtz]], _A factorization of the Giry monad on standard Borel spaces using $[0,\infty]$-generalized points_, $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
+
+
+Some corrections from an earlier version of the Categorical Probability Theory article, were pointed out in
 
 * {#Avery14} [[Tom Avery]], _Codensity and the Giry monad_, Journal of Pure and Applied Algebra **220** 3 (2016) 1229-1251 &lbrack;[arXiv:1410.4432](https://arxiv.org/abs/1410.4432), [doi:10.1016/j.jpaa.2015.08.017](https://doi.org/10.1016/j.jpaa.2015.08.017)&rbrack;
 
