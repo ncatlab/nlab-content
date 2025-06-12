@@ -64,6 +64,40 @@ Using Segal's covariant description of $\Gamma$, we can define a morphism $\iota
 
 In terms of the category FinSetPart, we can describe $\iota(f)$ as a partial map of finite sets $\iota[n]\to\iota[m]$ that sends $(j-1,j)\in\iota[n]$ to the unique pair $(i-1,i)\in\iota[m]$ such that $f(i-1)\lt j\le f(i)$.  (If no such pair exists, then $\iota(f)$ is undefined on $(j-1,j)$.)
 
+## Alternative description of the comparison functor
+
+Given that the category $\Delta$ can be used to encode homotopy coherent associative monoids in the same manner that the category $\Gamma$ can be used to encode homotopy coherent commutative monoids, it is natural to wonder why the description of the comparison functor $\iota\colon \Delta\to\Gamma$ appears to be so asymmetric.
+The primary reason for this asymmetry is that the traditional description of the category $\Delta$ relies on the fact that elements are composed in a prescribed order, just like morphisms in a category.  This enables us to define $\Delta$ as a full subcategory of the category of [[small categories]].
+There is no analogue of such categorical structure for the category $\Gamma$.
+
+However, it is possible to give an alternative definition of the category $\Delta$ resembling Segal's covariant formulation and the category FinSetPart.
+In these formulations, objects encode sets of spine edges (as defined above) instead of sets of vertices.
+
+In the first formulation, the category $\Delta$ is defined as the category opposite to the following category.
+Objects are finite totally ordered sets.
+Morphisms $A\to B$ are pairs $(I,f)$, where $I$ is an __interval__ in $A$, defined as a triple $(X,Y,Z)$ of disjoint subsets of $A$ whose union equals $A$ and such that $X\lt Y\lt Z$, and $f\colon Y\to B$ is an order-preserving map.
+The set $Y$ uniquely determines $X$ and $Z$ unless $Y=\emptyset$.
+The identity morphism on $A$ is given by the pair $(I,id_A)$, where $I=(\emptyset,A,\emptyset)$.
+Given morphisms
+$$(I_2,f_2)\colon A_1\to A_2,\qquad (I_1,f_1)\colon A_0\to A_1,$$
+we define their composition as
+$$(I_2,f_2)\circ(I_1,f_1)=(I,f_2\circ f_1|_{Y_1\cap f_1^{-1}Y_2}),$$
+where
+$$I=(X_1\cup f_1^{-1} X_2,Y_1\cap f_1^{-1} Y_2,Z_1\cup f_1^{-1} Z_2).$$
+
+Now the forgetful functor $\Delta\to\Gamma=FinSetPart$ can be described as the functor that discards the total order on objects and discards the interval $I$ on morphisms.
+
+There is also an analog of the covariant description of $\Gamma$ for the category $\Delta$.
+In this setting, $\Delta$ is the following category.
+Objects are finite totally ordered sets.
+Morphisms $A\to B$ are maps of sets $f\colon \{-\infty\}\sqcup A\sqcup\{\infty\}\to P(B)$
+such that $a_1\lt a_2$ implies $f(a_1)\lt f(a_2)$
+and we have $\bigcup_{a\in \{-\infty\}\sqcup A\sqcup\{\infty\}}f(a)=B$.
+The sets $f(-\infty)$ and $f(\infty)$ are uniquely determined by $\bigcup_{a\in A}f(a)$ unless the latter is empty.
+Morphisms are composed like in the category $\Gamma$.
+
+Now the forgetful functor $\Delta\to\Gamma$ can be described as the functor that discards the total order on objects and discards the data of $f(-\infty)$ and $f(\infty)$ on morphisms.
+
 ## Monoidal structure
 
 The category $\Gamma$ is a [[symmetric monoidal category]], induced from the [[cartesian monoidal structure]] on the category [[Set]]:
@@ -107,12 +141,7 @@ For instance notation 2.0.0.2 in
 * [[Jacob Lurie]], _[[Higher Algebra]]_
   {#Lurie}
 
-
 [[!redirects Segal's category]]
-[[!redirects Segal's category]]
-[[!redirects Segal's category]]
-[[!redirects Segal's category]]
-[[!redirects Segal\'s category]]
 [[!redirects Gamma category]]
 [[!redirects Gamma-category]]
 [[!redirects Segal Gamma-category]]
