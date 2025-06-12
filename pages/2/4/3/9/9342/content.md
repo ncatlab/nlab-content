@@ -165,6 +165,9 @@ Further collections:
 
 * {#Froehlich92} [[Jürg Fröhlich]], _Non-perturbative quantum field theory -- Mathematical Aspects and Applications_, Advanced Series in Mathematical Physics, World Scientific (1992) &lbrack;[doi:10.1142/1245](https://doi.org/10.1142/1245)&rbrack;
 
+* *[Workshop on Non-perturbative Quantum Field Theory and Confinement](https://events.mcs.cmu.edu/confinement-qcd-strings-workshop-2025)*, Carnegie Mellon University (May 28-31, 2025) &lbrack;[talks](https://events.mcs.cmu.edu/confinement-qcd-strings-workshop-2025/schedule/)&rbrack;
+  > (focus on [[confinement]] in [[quantum chromodynamics]])
+
 
 Outlook from the point of view of [[causal perturbation theory]]/[[locally covariant perturbative quantum field theory]]:
 
