@@ -70,6 +70,7 @@ Given a band $B$, the equivalence relation induced from the natural preorder, wh
 
 By a theorem of [McLean](#McLean54), finitely generated bands are finite; see [Howie 76, Section IV.4](#Howie76).
 
+* A band $S$ satisfying the [[graphic category| graphic identity]] $x y x = x y$ for all $x$ and $y$ is said to be _left-regular_. Left-regular bands can arise from hyperplane arrangements and there has been work studying [[random walk|random walks]] on these hyperplane arrangements by analysing the semigroup algebras of the associated bands: see [Brown 00](#Brown00) and [Margolis-Saliola-Steinberg 15](#MargolisSaliolaSteinberg15). Left-regular band monoids are also called _graphic monoids_ which are examples of 1-object [[graphic category|graphic categories]].
 
 ## Related concepts
 
@@ -82,6 +83,10 @@ By a theorem of [McLean](#McLean54), finitely generated bands are finite; see [H
 * {#McLean54} David McLean, _Idempotent Semigroups_, The American Mathematical Monthly, Vol. 61, No. 2 (February 1954), pp. 110-113. 
 
 * {#Howie76} J. Howie, _An introduction to semigroup theory_, Academic Press 1976.
+
+* {#Brown00} K. S. Brown, _Semigroups, Semirings, and Markov Chains_, J. Theor. Prob. **13** no.3 (2000) pp.871-938. ([arXiv:math/0006145](https://arxiv.org/abs/math/0006145))
+
+* {#MargolisSaliolaSteinberg15}  Stuart Margolis, Franco Saliola, [[Benjamin Steinberg]], _Cell complexes, poset topology and the representation theory of algebras arising in algebraic combinatorics and discrete geometry_ ([arXiv:1508.05446](https://arxiv.org/abs/1508.05446))
 
 See also
 
