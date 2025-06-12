@@ -30,7 +30,7 @@ The [[Lawvere theory]] of 01-bounded semilattices is the [[semilattice cube cate
 
 * Every [[lattice]] is both a 01-bounded meet-semilattice and a 01-bounded join-semilattice
 
-* Every [[commutative rig|commutative]] [[Boolean rig]] is a 01-bounded meet-semilattice
+* Every [[commutative rig|commutative]] [[multiplicatively idempotent rig]] is a 01-bounded meet-semilattice
 
 ## Related concepts
 
@@ -38,7 +38,9 @@ The [[Lawvere theory]] of 01-bounded semilattices is the [[semilattice cube cate
 
 * [[semilattice]]
 
-* [[Boolean rig]], [[Boolean ring]]
+* [[multiplicatively idempotent rig]], 
+
+* [[Boolean ring]]
 
 * [[category of cubes]]
 
