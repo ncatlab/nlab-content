@@ -341,8 +341,8 @@ For a proof see at [[(∞,1)-limit]]  _[here](limit+in+a+quasi-category#InOverca
 
 Section 1.2.9 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_ (2009)
+ 
 
 [[!redirects over-category in quasi-categories]]
 [[!redirects over quasi-categories]]
