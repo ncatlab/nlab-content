@@ -161,9 +161,6 @@ so taking the intersection over all elements in the generating field (with a bas
 
 \begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then $G(X)$ is an object in $\mathbf{Std}_{SCvx}$.
 \end{lemma}
-\begin{proof}
-
-\end{proof}
 
 This lemma shows there exists a functor $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{SCvx}$ which is the  Giry monad functor with codomain $\mathbf{Std}_{SCvx}$, and coupled with the partial forgetful functor $\mathbf{Std}_{SCvx} \xrightarrow{\mathcal{U}_{SCvx}} \mathbf{Std}$ which forgets the superconvex space structure, we obtain a factorization of the $G$ monad. (This will be an adjoint factorization once we prove some more facts.)
 
@@ -183,15 +180,31 @@ In the category $\mathbf{Std}_{SCvx}$ every countably affine measurable function
 Since $A$ lies in $\mathbf{Std}_{SCvx}$, which has $V$ as a coseparator, the faithful property holds.  The fullness property follows from Lemma \ref{ff}.
 \end{proof}
 
-\begin{lemma} If $A$ is an object in $\mathbf{Std}_{SCvx}$ then there exists a unique countably affine measurable function $G(A) \xrightarrow{\epsilon_A} A$.
-Moreover, this function $\epsilon_A$ is a $G$-algebra.
-\end{lemma}
-\begin{proof}
+Let $\delta_a$ denote the Dirac measure at $a$.
 
+\begin{corollary} If $A$ is an object in $\mathbf{Std}_{SCvx}$ then there exists a unique countably affine measurable function $G(A) \xrightarrow{\epsilon_A} A$ such that $\epsilon_A(\delta_a)=a$ for all $a \in A$. 
+\end{corollary}
+\begin{proof}  Let $\mathbf{V} \xrightarrow{\iota} \mathbf{Std}_{SCvx}$ denote the inclusion functor. Let $A\downarrow \iota$ denote the slice category of arrows $A \xrightarrow{m} V$, and let $A \downarrow \iota \xrightarrow{\pi} \mathbf{V}$ denote the projection functor.
+For $\mathcal{D}_A = A \downarrow \iota \xrightarrow{\pi} \mathbf{V} \xrightarrow{\iota} \mathbf{Std}_{SCvx}$ 
+the theorem is equivalent to saying $A = \lim \mathcal{D}_A$ with the projection map at component $m$ being $m$.
+
+Consider the cone over $\mathcal{D}_A$ with vertex $G(A)$ and natural transformation components $\mathbb{E}_{\bullet}(m)$.
+
+Since $A=\lim \mathcal{D}_A$ there exists a unique $\mathcal{Std}_{SCvx}$-morphism   $G(A) \xrightarrow{\epsilon_A} A$.  Since $m \circ \epsilon_A = \mathbb{E}_{\bullet}(m)$ for all countably affine maps $A \xrightarrow{m} V$ it follows that on $\delta_a \in G(A)$ that $m(\epsilon_A(\delta_a)) = m(a)$.  Since $V$ is a coseparator in $\mathbf{Std}_{SCvx}$ it follows $\epsilon_A(\delta_a)=a$.
 \end{proof}
 
+\begin{lemma}
+The function $\epsilon_A$ is a $G$-algebra.
+\end{lemma}
+\begin{proof}The property $\epsilon_A(\delta_a)=a$ follows from the preceding corollary.
+To prove the property $\epsilon_A \circ \mu_A = \epsilon_A \circ G(\epsilon_A)$  compose both sides of that equation by a countably affine measurable map $A \xrightarrow{m} V$.
+If we spell both sides of that equation out, using the property $\int_A m \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(m) dQ$, the equation holds valid.  The result of the lemma follows from the property that $V$ coseparates, i.e, the set of morphisms $A  \xrightarrow{m} V$ are jointly monic on $A$.
+\end{proof}
 
-([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. 
+Note that what we have shown is that $\mathbf{Std}_{SCvx}$ is a subobject of $\mathbf{Alg}_{G}$. Proving the reverse inclusion (or finding a counterexample) is an interesting open problem.  
+
+
+Concerning the $P$ algebras the above method of using $V$ generalize points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. 
 His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
  And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
 
