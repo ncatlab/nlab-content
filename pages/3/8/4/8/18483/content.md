@@ -31,11 +31,6 @@ The nForum is also home to wide-ranging discussion of scientific matters related
 
 The genesis of every article is recorded in a revision history. Thus every contributor gets some credit (the name or alias of each contributor is shown at the bottom of each of their revisions, and the changes introduced by each revision are also faithfully recorded). But the nLab belongs to us all. Speaking optimistically, we could liken the nLab to one of the great cathedrals of Europe, where unnamed architects and artisans worked together to build a monument to a glory far surpassing that of any one individual. Feeling oneself as part of such a collective project can be a great reward. 
 
-+-- {: .num_remark} 
-###### Remark 
-There is a uniform Joker name applied to those who don't perform an edit under their own names: "[[Anonymous]]". (This was originally "Anonymous Coward", a joke.)  An edit attributed to "Anonymous" could be a case of someone who didn't submit under their real name because they forgot, or it could be someone who has good reason not to submit under their real name -- whatever. It's none of our business. We appreciate all the good edits made by the "Anonymous Cowards" out there just as we do those made by everyone else.  However, we do encourage everyone to use their own name, or at least a consistent alias, if possible.
-=-- 
-
 ## Some obvious truisms 
 
 There are some fairly obvious corollaries to be derived from the precept "get your own self out of the way" (with the specific implication "this is really not about you"). 
@@ -68,7 +63,7 @@ To avoid any misunderstanding: we are not suggesting that one should write the m
 
 ## Writing mathematics and physics 
 
-All nLab editors are expected to use the "iTeX" mathematics typesetting language of the instiki software, which displays in web browsers using MathML/MathJax. If you know TeX or LaTeX, this should not be very difficult to adapt to; most mathematical typesetting commands will be the same.  Some of the more important (though still fairly minor) differences are documented in the [[FAQ]].
+All nLab editors are expected to use the "iTeX" mathematics typesetting language of the instiki software, which displays in web browsers using MathML/MathJax. If you know TeX or LaTeX, this should not be very difficult to adapt to; most mathematical typesetting commands will be the same.  Some of the more important (though still fairly minor) differences are documented in [[HowTo]].
 
 In the first place, to get started, writing a "stub" article (even just a sentence of two, just to get an idea down) is perfectly fine. Hopefully that will grow into something more polished, maybe with the input of others, but you shouldn't worry -- just make the stub intelligible enough for someone else to pick up the thread. Some people at this stage start a list of references to come back to, which can also be a good idea. If nothing else, a link to a relevant [Wikipedia](https://en.wikipedia.org/wiki/Portal:Mathematics)/[Encyclopedia of Mathematics](https://www.encyclopediaofmath.org/index.php/Main_Page)/[MathWorld](http://mathworld.wolfram.com/)/[SEP](https://plato.stanford.edu/) page --- which should have some references of its own --- can be the germ of a reference list.
 
@@ -88,7 +83,9 @@ For further words of wisdom about notation and sundry other expositional matters
 
 ### When in doubt, follow existing norms 
 
-The format you will see in a typical nLab article is somewhere between a Wikipedia article you might see on a topic in mathematics or mathematical physics, and an academic article in one of those areas. The organizational outline seen in the table of contents is very Wikipedia-like, but unlike Wikipedia, the development may be like that of an academic article with formal definition environments, theorem environments, etc., and with point of view that is not neutral with regard to where we tend to place emphasis: the [[nPOV]] and [[string theory]]. We also may conduct some original research, quite unlike Wikipedia. 
+The format you will see in a typical nLab article is somewhere between a Wikipedia article you might see on a topic in mathematics or mathematical physics, and an academic article in one of those areas. The organizational outline seen in the table of contents is very Wikipedia-like, but unlike Wikipedia, the development may be like that of an academic article with formal definition environments, theorem environments, etc. 
+
+We also may conduct some original research, quite unlike Wikipedia. Said original research follows common academic practice of substantiation, either by justifying the original research by citing relevant literature or else by providing relevant proofs (for claims) or other sanity checks (e.g. when introducing new definitions or terminology).
 
 But in most respects, there should not be too many surprises for people familiar with both types of articles. For example, under a References section we follow a standard type of bibliographic format (author(s), title in italics, journal with volume and number or publisher, date, page numbers), linking to online material wherever possible (always legally!!). In the text where one wants to refer (and link) to a bibliographic item, there is no official format for this, but the tendency is to use something simple like author-name-date in brackets, rather than putting a number in brackets. The page [[HowTo]] gives detailed instructions on how to do this. 
 
@@ -151,7 +148,6 @@ Unlike the above advice about notation, such variations in spelling and punctuat
 ## References 
 
 * Paul Halmos, *How To Write Mathematics*, Enseign. Math. (2) 16 (1970), 123-152. ([online pdf](http://www2.math.uu.se/~takis/ETC/Halmos_howToWriteMath.pdf)) {#Halmos}
-
 
 [[!redirects writing in the nLab]]
 [[!redirects writing on the nLab]]
