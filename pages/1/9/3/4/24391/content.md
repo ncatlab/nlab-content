@@ -287,9 +287,8 @@ If we restrict to the category of standard measurable spaces then every object h
 \end{example}
 
 \begin{example} 
-The one point compactification of the real line $\mathbb{R}_{\infty}$, with one point adjoined, denoted $\infty$, which satisfies the property that any countably affine sum $\sum_{i \in \mathbb{N}} p_i r_i = \infty$ if either (1) $r_j = \infty$ and $p_j \gt 0$ for any index $j$, or (2) the sequence of partial sums does not converge, is a superconvex space.  The real line $\mathbb{R}$ is not a super convexspace since we could take $p_i = \frac{1}{2^i}$ and $r_i = 2^{i+1}$ and the limit of the sequence does not exist in $\mathbb{R}$.  Thus while $\mathbb{R}$ is a convex space it is not a superconvex space.  
+The one point Alexandroff compactification of the interval $[0,\infty)$, denoted $[0,\infty]$, is a superconvex space.  On the other hand, the one point compactification of the real line $\mathbb{R}=(-\infty,\infty)$ is not a superconvex space since we could take $p_i = \frac{1}{2^i}$  and $r_i=(-1)^i 2^i$ for which the sequence of partial sums alternates between $-1$ and $0$.   Likewise $\mathbb{R}$ itself is not a superconvex space even though it is a  convex space.  
 
- The only nonconstant countably affine map $j: \mathbb{R}_{\infty} \rightarrow \mathbb{2}$ is given by $j(u)=1$ for all $u \in \mathbb{R}$ and $j(\infty)=0$ (for the superconvex space structure on $\mathbf{2}$ determined by $\frac{1}{2} \underline{0} + \frac{1}{2} \underline{1} = \underline{0}$).  
 \end{example}
 
 \begin{example} A pathological space, useful for counterexamples, is given by the closed unit interval with the superconvex space structure defined by the infimum function, $\sum_{i \in \mathbb{N}} p_i u_i := inf_i \{ u_i | p_i \gt 0\}$.
@@ -348,11 +347,8 @@ Proposition 1.2 in
 
 is particularly useful for viewing superconvex spaces as positively convex spaces which are somewhat easier to work with because the condition $\sum_{i \in \mathbb{N}}p_i=1$  is replaced by the inequality $\le 1$.
 
-The fact that  the functor $\mathbf{\Sigma}: \mathbf{\Omega} \rightarrow \mathbf{Std}_2$ is a codense functor can be found  in
-
-* {#Sturtz22} [[Kirk Sturtz]], _Giry algebras for standard measurable spaces_ $[$[arXiv:2202:10819](https://arxiv.org/abs/2202.10819)$]$
-
-although several aspects, such as the construction with the right-Kan is incorrect. 
+Superconvex spaces can be used to obtain a factorization of the [[Giry monad]] yielding $G$-algebras as shown in the article
+* {#Sturtz25} [[Kirk Sturtz]], _A factorization of the Giry monad on standard Borel spaces using $[0,\infty]$-generalized points_ $[$[arXiv:2409:14861](https://arxiv.org/abs/2409.14861)$]$
 
 For purposes of constructing models of complex systems using superconvex spaces the construction given in Example 6.1 of the following article applies equally well to superconvex spaces.
 
