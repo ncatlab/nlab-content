@@ -1,10 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
 
 \tableofcontents
 
 ## Definition 
 
 A *band* is a [[semigroup]] in which every element is [[idempotent]]. 
+
+Finitely generated bands are finite: see [Howie 76, Section IV.4](#Howie76).
 
 ## Order structures on bands 
 
@@ -34,3 +45,17 @@ A [[semilattice]] is the same thing as a [[commutative]] band.
 A [[rectangular band]] is a band (see there). 
 
 A [[skew lattice]] $(L, \wedge, \vee)$ is a band, using either $\wedge$ or $\vee$ as the semigroup operation. 
+
+## Related concepts
+
+* [[semigroup]]
+
+* [[semilattice]]
+
+## References
+
+* {#Howie76} J. Howie, _An introduction to semigroup theory_, Academic Press 1976.
+
+See also
+
+* Wikipedia, *<a href="https://en.wikipedia.org/wiki/Band_(algebra)">Band (algebra)</a>*
