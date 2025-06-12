@@ -124,7 +124,7 @@ $$
   F \in SmthMfd
 $$
 
-is the [[smooth manifold]] of "values" that the the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
+is the [[smooth manifold]] of "values" that the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
 
 $$
   \Phi
