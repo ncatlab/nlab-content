@@ -57,7 +57,7 @@ In a skew lattice, we have $x \preceq_\wedge y$ iff $y \preceq_\vee x$.
 \end{proposition} 
 
 \begin{proof} 
-The two relations mean, by definition, $x = x \wedge y \wedge x$ and $y = y \wedge x \wedge y$. We are to show that these are equivalent. By duality, only the forward implication needs to be proven. 
+The two relations mean, by definition, $x = x \wedge y \wedge x$ and $y = y \vee x \vee y$. We are to show that these are equivalent. By duality, only the forward implication needs to be proven. 
 
 By hypothesis $x = x \wedge (y \wedge x)$ and the lemma, we have $y \wedge x = x \vee (y \wedge x)$. Denote the last equation by $E$. 
 
