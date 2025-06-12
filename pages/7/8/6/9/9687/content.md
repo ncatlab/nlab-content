@@ -234,6 +234,9 @@ See also:
 
 * The STAR Collaboration: *Probing QCD Confinement with Spin Entanglement* &lbrack;[arXiv:2506.05499](https://arxiv.org/abs/2506.05499)&rbrack;
 
+* *[Workshop on Non-perturbative Quantum Field Theory and Confinement](https://events.mcs.cmu.edu/confinement-qcd-strings-workshop-2025)*, Carnegie Mellon University (May 28-31, 2025) &lbrack;[talks](https://events.mcs.cmu.edu/confinement-qcd-strings-workshop-2025/schedule/)&rbrack;
+
+
 A formulation of confinement as an open problem of mathematical physics (see at *[[Yang-Mills mass gap problem]]*), together with many references:
 
 * {#JaffeWitten} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ ([pdf](http://www.claymath.org/millennium/Yang-Mills_Theory/yangmills.pdf))
