@@ -69,7 +69,7 @@ Another variant with strong links with category theory is that of [[inverse semi
 
 We can [[internalization|internalize]] the concept of semigroup in any [[monoidal category]] (or even [[multicategory]]) $V$ to get a __semigroup object__ in $V$.
 
-## Related topics
+## Related concepts
 
 * [[magma]] (nonassociative version)
 
@@ -97,7 +97,7 @@ We can [[internalization|internalize]] the concept of semigroup in any [[monoida
 
 * [[semi-category]], [[semi-simplicial set]], [[semi-Segal space]]
 
-* [[rectangular band]]
+* [[band]], [[rectangular band]]
 
 [[!include oidification - table]]
 
