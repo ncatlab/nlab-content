@@ -22,7 +22,7 @@ In a boolean ring, the multiplication can be interpreted as the conjunction, the
 
 ## Definitions
 
-A [[ring with unit]] $R$ is __boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$. Although the terminology would make sense for rings without unit, the common usage assumes a unit. 
+A [[ring with unit]] $R$ is __boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$, thus making multiplication a [[band]]. Although the terminology would make sense for rings without unit, the common usage assumes a unit. 
 
 Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]] $Bool Ring$.
 
@@ -93,11 +93,11 @@ These two monads are related by a distributive law which expresses the distribut
 
 ## Terminology
 
-Back in the day, the term 'ring' meant (more often than now is the case) a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'boolean ring' (meaning an idempotent semigroup in $Ab$) and 'boolean algebra' (meaning an idempotent monoid in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation.  This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]]. 
+Back in the day, the term 'ring' meant (more often than now is the case) a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'boolean ring' (meaning an [[idempotent semigroup]] in $Ab$) and 'boolean algebra' (meaning an [[idempotent monoid]] in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation. This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]]. 
 
 +-- {: .num_remark} 
 ###### Remark 
-We pause to note that "idempotent monoid" doesn't make sense a priori in a general monoidal category: generally speaking the idempotency axiom would be expressed by an equation 
+We pause to note that "[[idempotent monoid]]" doesn't make sense a priori in a general monoidal category: generally speaking the idempotency axiom would be expressed by an equation 
 
 $$1_M = \left(M \stackrel{\delta_M}{\to} M \otimes M \stackrel{mult}{\to} M \right)$$ 
 
@@ -110,7 +110,7 @@ where $\lambda$ is a lax monoidal constraint.
 
 ## Analogues
 
-Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a boolean ring may be defined as a semilattice in $Ab$. However, with boolean rings, we do not need to hypothesize commutativity; it follows. That is, any idempotent monoid in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative. 
+Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a boolean ring may be defined as a semilattice in $Ab$. However, with boolean rings, we do not need to hypothesize commutativity; it follows. That is, any [[idempotent monoid]] in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative. 
 
 +-- {: .proof} 
 ###### Proof 
@@ -129,8 +129,9 @@ which by cancellation gives $y x + x y = 0$, or $y x = -(x y) = x y$.
 
 * [[Boolean algebra]]
 * [[BoolAlg]] - the category of boolean algebras
-* [[Boolean rig]]
+* [[multiplicatively idempotent rig]]
 * [[01-bounded semilattice]]
+* [[band]]
 
 [[!redirects Boolean ring]]
 [[!redirects boolean ring]]
