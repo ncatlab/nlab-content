@@ -58,7 +58,7 @@ The pages of the nLab have almost always been edited by several people. In almos
 ## Contributing to the $n$Lab
  {#Contributing}
 
-If after looking around for a while you feel like contributing yourself, you are very welcome to do so! See [below](#SoftwareRequirements) for more on how to actually edit, as well as the [[HowTo]].
+If after looking around for a while you feel like contributing yourself, you are very welcome to do so! See [below](#SoftwareRequirements) for more on how to actually edit, as well as the [[HowTo]] and [[writing in the nLab]].
 
 If you make any edits to the nLab, please follow the guidelines for announcing your changes at the [nForum](https://nforum.ncatlab.org) given [above](#Discussion). If you are unsure whether what you would like to contribute is appropriate, please ask at the nForum before making the edit.
 
@@ -77,7 +77,7 @@ The following custom themes are available for the nLab:
 
 Editing the nLab these days can be done more or less as in LaTeX. Macros are not currently available, but mathematics can be entered within dollar signs as usual, [theorem environments](https://ncatlab.org/nlab/show/HowTo#DefinitionTheoremProofEnvironments), sections and tables of contents can be defined as in LaTeX, [commutative diagrams](https://ncatlab.org/nlab/show/HowTo#diagrams) and figures can be created in Tikz or XyMatrix, and so on. For simple formatting, such as italics, and for some other things such as tables, [Markdown](https://en.wikipedia.org/wiki/Markdown) is used. 
 
-See the [[HowTo]] for more on editing the nLab. 
+See the [[HowTo]] and [[writing on the nLab]] for more on editing the nLab. 
 
 ## Making use of material from the $n$Lab
  {#TermsOfUse}
