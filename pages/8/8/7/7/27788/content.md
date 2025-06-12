@@ -97,7 +97,7 @@ The adjunction induces an [[idempotent monad]] on $Meas$ (the [[zero-one measure
 As usual with idempotent adjunctions, we have that the [[fixed point of an adjunction|center]] is equivalently given by 
 
 * The full subcategory of $Meas$ whose objects are those spaces for which the unit $\eta:X\to Sp(\Sigma_X)$ is an isomorphism. These are sometimes called [[sober measurable spaces]]. Analogously to [[sober topological spaces]], these are the spaces whose points are uniquely determined by the σ-algebra.
-* The full subcategory of $\sigma Bool$ whose objects are those σ-algebras for which the counit $\epsilon^{op}\Sigma_{Sp(\Sigma)}\to\Sigma$. These are sometimes called **spatial** or **concrete** σ-algebras.
+* The full subcategory of $\sigma Bool$ whose objects are those σ-algebras for which the counit $\epsilon:\Sigma\to \Sigma_{Sp(\Sigma)}$ is an isomorphism. These are sometimes called **spatial** or **concrete** σ-algebras.
 
 Because of this, sometimes one calls the monad on $Meas$ the *sobrification monad*. 
 
