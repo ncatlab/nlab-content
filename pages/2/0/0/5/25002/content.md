@@ -21,7 +21,7 @@ A **field in the sense of Kock**, or **Kock field** for short, is a [[commutativ
 
 1. $R$ is nontrivial ($0 \neq 1$)
 
-2. For all [[natural numbers]] $n \in \mathrm{N}$ and [[functions]] $x \colon \mathrm{Fin}(n) \to R$, if $x(i) \neq 0$ for all elements $i \in \mathrm{Fin}(n)$, then there exists an element $j \in \mathrm{Fin}(n)$ such that $x(j)$ is invertible. 
+2. For all [[natural numbers]] $n \in \mathrm{N}$ and [[functions]] $x \colon \mathrm{Fin}(n) \to R$, if it is not the case that $\forall i \in \mathrm{Fin}(n), x(i) = 0$, then there exists an element $j \in \mathrm{Fin}(n)$ such that $x(j)$ is invertible. 
 
 > (Here $Fin(n) \simeq \{1, \cdots, n\}$ denotes any [[finite set]] with $n$ elements.)
 
