@@ -1,35 +1,27 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
 #### Algebra
 +-- {: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 =--
 =--
-
-
 
 #Contents#
 * table of contents
 {:toc}
 
-
-## Idea
-
-... [[idempotent]] [[semigroup]] ...
-
 ## Definition 
 
-Recall that a [[band]] is a [[semigroup]] in which every [[element]] is [[idempotent]]. 
+A **rectangular band** or **nowhere commutative semigroup** is a [[semigroup]] which satisfies any of these equivalent conditions
 
-[[commutative magma|Commutative]] bands are usually known as _[[semilattices]]_. This is the semigroup-theoretic definition, but there is also an [[order theory|order theoretic]] definition: given a semilattice $L$ in this semigroup-theoretic sense, it has a canonical [[partial order]] given by $e\precreq f$ when $e f = e$. So semilattices are also [[posets]].
+* it is *nowhere commutative* in the sense that $a b = b a$ implies that $a = b$ for all $a$ and $b$. 
 
-Finitely generated bands are finite: see [Howie 76, Section IV.4](#Howie76).
+* $a b a = a$ for all $a$ and $b$
 
-Now a _rectangular band_ may be described as a [[semigroup]] satisfying the identity $a b a = a$ for all elements $a$ and $b$. 
+* it is a [[band]] and $a b c = a c$ for all $a$, $b$, and $c$
 
 ## Properties
 
@@ -76,6 +68,13 @@ Let $Rect$ be the category of rectangular bands with semigroup homomorphisms as 
 
 * {#MargolisSaliolaSteinberg15}  Stuart Margolis, Franco Saliola, [[Benjamin Steinberg]], _Cell complexes, poset topology and the representation theory of algebras arising in algebraic combinatorics and discrete geometry_ ([arXiv:1508.05446](https://arxiv.org/abs/1508.05446))
 
+See also:
+
+* Wikipedia, *[Nowhere commutative semigroup](https://en.wikipedia.org/wiki/Nowhere_commutative_semigroup)*
 
 
+[[!redirects rectangular band]]
 [[!redirects rectangular bands]]
+
+[[!redirects nowhere commutative semigroup]]
+[[!redirects nowhere commutative semigroups]]
