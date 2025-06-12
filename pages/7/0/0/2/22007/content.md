@@ -23,7 +23,7 @@
 
 ## Definition 
 
-Recall that a _[[band]]_ is a [[semigroup]] in which every [[element]] is [[idempotent]]. 
+Recall that a [[band]] is a [[semigroup]] in which every [[element]] is [[idempotent]]. 
 
 [[commutative magma|Commutative]] bands are usually known as _[[semilattices]]_. This is the semigroup-theoretic definition, but there is also an [[order theory|order theoretic]] definition: given a semilattice $L$ in this semigroup-theoretic sense, it has a canonical [[partial order]] given by $e\precreq f$ when $e f = e$. So semilattices are also [[posets]].
 
@@ -79,6 +79,3 @@ Let $Rect$ be the category of rectangular bands with semigroup homomorphisms as 
 
 
 [[!redirects rectangular bands]]
-
-[[!redirects band]]
-[[!redirects bands]]
