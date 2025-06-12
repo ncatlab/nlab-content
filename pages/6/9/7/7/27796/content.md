@@ -77,3 +77,13 @@ y \vee x & = &
 
 Then, from $y \vee x = (y \vee x) \wedge y$ and the lemma, we have $(y \vee x) \vee y = y$, as was to be shown. 
 \end{proof} 
+
+## Related concepts
+
+* [[lattice]]
+
+* [[band]]
+
+## References
+
+* Wikipedia, *[Skew lattice](https://en.wikipedia.org/wiki/Skew_lattice)*
