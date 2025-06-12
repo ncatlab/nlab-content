@@ -136,7 +136,7 @@ holds.
 \begin{lemma} \label{ff} Every $V$-generalized element $\tilde{P}$ of $A$ which satisfies the fullness property is a point, i.e, $\tilde{P} =ev_a$ for a unique element $a \in A$. ($ev_a$ is the evaluation map at the point $a$.)
 \end{lemma} 
 \begin{proof} Since the fullness property is satisfied there exist at least one element $a \in A$ such that $\tilde{P}(m)=m(a)$. 
-Since $A$ lies in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ it is coseparated by $V$, and hence there is at most one element $a \in A$ satisfying $\tilde{P}(m)=m(a)$.  
+Since $A$ lies in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ it is coseparated by $V$, and hence there is at most one element $a \in A$ satisfying, for all countably affine measurable maps $A \xrightarrow{m} V$, the equation $\tilde{P}(m)=m(a)$.  
 \end{proof}
 
 Define $\mathbf{Std}_{SCvx}$ to be the full subcategory of $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ consisting of those objects which satisfy the fullness property.  
@@ -155,9 +155,16 @@ ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \{R \in G(X) \, | \, R(U)=\mu_X(Q)[U] \}
 so taking the intersection over all elements in the generating field (with a basis) yields the result using the well known result if $X$ is a standard space and $P,R \in G(X)$ satisfy $P(U)=R(U)$ for all $U \in \mathbb{F}$ then $P=R$.
 \end{proof}
 
+ The proof of the next three lemmas, which are all straight forward, can be found in ([Sturtz 25](#Sturtz25))
+
 \begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every countably affine measurable function $G(X) \xrightarrow{m} V$ is a countable affine sum of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
 \end{lemma}
 
+\begin{lemma}Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then
+\begin{equation}
+\displaystyle{ \bigcap_{G(X) \xrightarrow{m} V}}m^{-1}\big(\tilde{Q}(m)\big) =\mu_X(Q)  = \displaystyle{\bigcap_{U \in \mathbb{F}}} ev_U^{-1}\big( \tilde{Q}(ev_U) \big).
+\end{equation}
+\end{lemma}
 
 \begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then $G(X)$ is an object in $\mathbf{Std}_{SCvx}$.
 \end{lemma}
@@ -190,7 +197,7 @@ the theorem is equivalent to saying $A = \lim \mathcal{D}_A$ with the projection
 
 Consider the cone over $\mathcal{D}_A$ with vertex $G(A)$ and natural transformation components $\mathbb{E}_{\bullet}(m)$.
 
-Since $A=\lim \mathcal{D}_A$ there exists a unique $\mathcal{Std}_{SCvx}$-morphism   $G(A) \xrightarrow{\epsilon_A} A$.  Since $m \circ \epsilon_A = \mathbb{E}_{\bullet}(m)$ for all countably affine maps $A \xrightarrow{m} V$ it follows that on $\delta_a \in G(A)$ that $m(\epsilon_A(\delta_a)) = m(a)$.  Since $V$ is a coseparator in $\mathbf{Std}_{SCvx}$ it follows $\epsilon_A(\delta_a)=a$.
+Since $A=\lim \mathcal{D}_A$ there exists a unique $\mathbf{Std}_{SCvx}$-morphism   $G(A) \xrightarrow{\epsilon_A} A$ such that $m \circ \epsilon_A = \mathbb{E}_{\bullet}(m)$ for all countably affine maps $A \xrightarrow{m} V$. It follows that on $\delta_a \in G(A)$ that, for all $A \xrightarrow{m} V$ in $\mathbf{Std}_{SCvx}$ that $m(\epsilon_A(\delta_a)) = m(a)$.  Since $V$ is a coseparator in $\mathbf{Std}_{SCvx}$ it follows $\epsilon_A(\delta_a)=a$.
 \end{proof}
 
 \begin{lemma}
@@ -324,15 +331,15 @@ The article
 
 * {#VanBelle21} [[Ruben Van Belle]], *Probability monads as codensity monads*  (2021) $[$[arXiv:2111.01250](https://arxiv.org/abs/2111.01250)$]$ 
 
-shows, in effect, that the Giry monad restricted to countable measurable spaces (with the discrete $\sigma$-algebra) yields the restricted Giry functor $G|: \mathbf{Meas}_c \rightarrow \mathbf{Meas}$ which has the codensity monad $G$.  This suggest that the natural numbers $\mathbb{N}$ are ''sufficient'' in some sense. Indeed, the full subcategory of Polish spaces consisting of the single object $N$ of all natural numbers with the powerset $\sigma$-algebra is codense in $Pol$ for the reasons delineated in the proof above - every continuous function $P{X} \rightarrow X$ is completely determined by its values on the countable dense subset of $P{X}$. 
+shows, in effect, that the Giry monad restricted to countable measurable spaces (with the discrete $\sigma$-algebra) yields the restricted Giry functor $G|: \mathbf{Meas}_c \rightarrow \mathbf{Meas}$ which has the codensity monad $G$.  This suggest that the natural numbers $\mathbb{N}$ are ''sufficient'' in some sense. Indeed, the full subcategory of Polish spaces consisting of the single object $N$ of all natural numbers with the powerset $\sigma$-algebra is codense in $Pol$  - every continuous function $P{X} \rightarrow X$ is completely determined by its values on the countable dense subset of $P{X}$. 
 
 The article  
 
 * [[Kirk Sturtz]], _Categorical Probability Theory_, $[$[arXiv:1406.6030](http://arxiv.org/abs/1406.6030)$]$
 
-views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, obtained by double dualizing into $[0,\infty]$, then yields the characterization of $\mathcal{G}$-algebras summarized above, which is from the article
+views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, obtained by double dualizing into $[0,\infty]$, which then yields the characterization of $G$-algebras summarized [[Giry monad#algebras_over_the_giry_monad|above]], which is from the article
 
-* [[Kirk Sturtz]], _A factorization of the Giry monad on standard Borel spaces using $[0,\infty]$-generalized points_, $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
+* {#Sturtz25}[[Kirk Sturtz]], _A factorization of the Giry monad on standard Borel spaces using $[0,\infty]$-generalized points_, $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
 
 
 Some corrections from an earlier version of the Categorical Probability Theory article, were pointed out in
