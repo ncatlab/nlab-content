@@ -1,5 +1,12 @@
 
-* [website](http://people.mpim-bonn.mpg.de/gwilliam/)
+* [personal page](https://people.math.umass.edu/~gwilliam/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=183403)
+
+* [inSpire page](https://inspirehep.net/authors/1883882)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Oe8gqGkAAAAJ&hl=en)
+
 
 ## Selected writings
 
