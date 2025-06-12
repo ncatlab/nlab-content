@@ -208,7 +208,7 @@ To prove the property $\epsilon_A \circ \mu_A = \epsilon_A \circ G(\epsilon_A)$ 
 If we spell both sides of that equation out, using the property $\int_A m \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(m) dQ$, the equation holds valid.  The result of the lemma follows from the property that $V$ coseparates, i.e, the set of morphisms $A  \xrightarrow{m} V$ are jointly monic on $A$.
 \end{proof}
 
-Note that what we have shown is that $\mathbf{Std}_{SCvx}$ is a subobject of $\mathbf{Alg}_{G}$. Proving the reverse inclusion (or finding a counterexample) is an interesting open problem.  
+Note that what we have shown is that $\mathbf{Std}_{SCvx}$ is a subcategory of $\mathbf{Alg}_{G}$. Proving the reverse inclusion (or finding a counterexample) is an interesting open problem.  
 
 
 Concerning the $P$ algebras the above method of using $V$ generalize points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. 
