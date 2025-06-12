@@ -42,7 +42,7 @@ $$x = x \wedge (x \vee (x \wedge x)) = x \wedge x$$
 where the first equation is from the first absorption law and the second equation is from the second absorption law. 
 \end{proof} 
 
-It follows that a skew lattice is a [[band]] under either operation $\wedge$, $\vee$. Accordingly (see there), there is a natural preorder structure definable from either operation; call them $\preceq_\wedge$ and $\preceq_\vee$. These two preorder structures are opposite to one another, by the following results: 
+It follows that a skew lattice is a [[band]] under either operation $\wedge$, $\vee$. Accordingly (see there), there is a natural preorder structure definable from either operation; call them $\preceq_\wedge$ and $\preceq_\vee$. These two preorder structures are opposite to one another, by the following results (as adapted from a relevant MathStackExchange [discussion](https://math.stackexchange.com/a/5074766/43208)): 
 
 \begin{lemma} 
 In a skew lattice, $x = x \wedge y$ iff $y = x \vee y$. Similarly, $y = x \wedge y$ iff $x = x \vee y$. 
@@ -87,3 +87,4 @@ Then, from $y \vee x = (y \vee x) \wedge y$ and the lemma, we have $(y \vee x) \
 ## References
 
 * Wikipedia, *[Skew lattice](https://en.wikipedia.org/wiki/Skew_lattice)*
+
