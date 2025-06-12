@@ -26,7 +26,7 @@ The relation $\preceq$ is reflexive and transitive.
 \end{theorem}
 
 \begin{proof} 
-Reflexivity is obvious from $x = x x = x x x$. Transitivity follows from the following argument: let $A$ denote an instance of associativity and $I$ an instance of idempotency. From $x y x = x$ (condition 1) and $y z y = y$ (condition 2), we have 
+(This proof appears in a relevant MathStackExchange [discussion](https://math.stackexchange.com/a/5074668/43208).) Reflexivity is obvious from $x = x x = x x x$. Transitivity follows from the following argument: let $A$ denote an instance of associativity and $I$ an instance of idempotency. From $x y x = x$ (condition 1) and $y z y = y$ (condition 2), we have 
 
 $$x =_1 x y x =_2 x y z y x =_I x y(z y x)(z y x) =_A x(y z y)x z y x =_2 x y x z y x =_1 x z y x\qquad(P).$$
 
