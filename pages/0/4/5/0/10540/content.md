@@ -31,7 +31,7 @@ Actually, all of the [[Cayley–Dickson algebra]]s are formally complex.  (This 
 
 The [[trivial ring]] is formally real.  Every other formally real (or formally complex) ring is [[infinite set|infinite]] (because $1 = 1^2$, $2 = 1^2 + 1^2$, $3 = 1^2 + 1^2 + 1^2$, etc are all distinct).  Even without an identity (and even in the nonassociative case), if the ring is formally real and nontrivial, then it is infinite.  (If $x \ne 0$, consider $x^2$, $x^2 + x^2$, $x^2 + x^2 + x^2$, etc.)
 
-There are finite formally real *rigs*, however, such as the [[boolean rig]] $\{0, 1\}$.  Indeed, any [[distributive lattice]] (with a [[bottom element]]), viewed as a rig, is formally real.
+There are finite formally real *rigs*, however, such as the [[multiplicatively idempotent rig]] $\{0, 1\}$.  Indeed, any [[distributive lattice]] (with a [[bottom element]]), viewed as a rig, is formally real.
 
 Among [[Jordan algebras]], the formally real ones are especially important; it is these that (over the real numbers, in finite dimensions) have a nice [[classification theorem]].
 
