@@ -48,11 +48,15 @@ This is immediate from the definitions: for any $\sim$-equivalent elements $x, y
 
 ## Examples of bands 
 
-A [[semilattice]] (in this article, we mean semilattices without identity) is the same thing as a [[commutative]] band. 
+* A [[semilattice]] (in this article, we mean semilattices without identity) is the same thing as a [[commutative]] band. 
 
-A [[rectangular band]] is a band (see there). 
+* A [[rectangular band]] is a band (see there). 
 
-A [[skew lattice]] $(L, \wedge, \vee)$ is a band, using either $\wedge$ or $\vee$ as the semigroup operation. 
+* A [[skew lattice]] $(L, \wedge, \vee)$ is a band, using either $\wedge$ or $\vee$ as the semigroup operation. 
+
+* A [[Boolean ring]] is a [[ring]] whose multiplication operation is a band. Thus, a [[Boolean ring]] is a unital band object in [[Ab]], or a band object in [[Ab]] if rings are defined [[non-unital ring|without a multiplicative unit]]. 
+
+* A [[multiplicatively idempotent rig]] is similarly a [[rig]] whose multiplication operation is a band; thus a unital band object in [[CMon]]. 
 
 To be added: varieties of bands, and particularly of regular bands. 
 
@@ -86,6 +90,8 @@ A band $S$ satisfying the [[graphic category| graphic identity]] $x y x = x y$ f
 
 * [[semilattice]]
 
+* [[Boolean ring]]
+
 ## References
 
 * {#McLean54} David McLean, _Idempotent Semigroups_, The American Mathematical Monthly, Vol. 61, No. 2 (February 1954), pp. 110-113. 
@@ -99,3 +105,15 @@ A band $S$ satisfying the [[graphic category| graphic identity]] $x y x = x y$ f
 See also
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Band_(algebra)">Band (algebra)</a>*
+
+[[!redirects band]]
+[[!redirects bands]]
+
+[[!redirects idempotent semigroup]]
+[[!redirects idempotent semigroups]]
+
+[[!redirects unital band]]
+[[!redirects unital bands]]
+
+[[!redirects idempotent monoid]]
+[[!redirects idempotent monoids]]
