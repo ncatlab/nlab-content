@@ -24,7 +24,7 @@ As a [[higher inductive type]], the James construction type $J A$ of a [[pointed
 * $\alpha_{J A} : A \to J A \to J A$
 * $\delta_{J A} : \prod_{x : J A} x = \alpha_{J A}(a)(x)$
 
-In [[Coq]] pseudocode this becomes
+In [[Rocq]] pseudocode this becomes
 
     Inductive JamesConstruction (A : PointedType) : Type
       | epsilon : JamesConstruction A
