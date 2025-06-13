@@ -16,13 +16,13 @@
 
 ## Idea
 
-A *Kleene algebra* is a [[rig]] that generalizes the theory of [[regular expressions]]: it consists of a set with union (rig addition), concatenation (rig multiplication), and closure operation (Kleene star). 
+A *Kleene algebra* is a [[semiring]] or [[rig]] that generalizes the theory of [[regular expressions]]: it consists of a set with union (semiring addition), concatenation (semiring multiplication), and closure operation (Kleene star). 
 
 Disambiguation note: This article is titled *Kleene star algebra* solely for disambiguation purposes as *[[Kleene algebra]]* already refers to the [[de Morgan algebra]], and this rig is the only one with a Kleene star. In the existing literature, these objects are simply called *Kleene algebras*. 
 
 ## Definition
 
-A **Kleene algebra** is an [[additively idempotent rig]] $(R, 0, \vee, \epsilon, (-)(-))$ with a function $(-)^*:R \to R$
+A **Kleene algebra** is an [[additively idempotent semiring]] $(R, 0, \vee, \epsilon, (-)(-))$ with a function $(-)^*:R \to R$
 
 * for all $x \in R$, $(\epsilon \vee x x^*) \vee x^* = x^*$
 
@@ -38,11 +38,11 @@ A **Kleene algebra** is an [[additively idempotent rig]] $(R, 0, \vee, \epsilon,
 
 ## Related concepts
 
-* [[rig]]
+* [[semiring]], [[rig]]
 
-* [[additively idempotent rig]]
+* [[additively idempotent semiring]]
 
-* [[quasiregular rig]]
+* [[quasiregular semiring]]
 
 * [[semilattice]]
 
