@@ -23,7 +23,7 @@
 
 A [[dependent type|dependently typed]] [[functional programming language]] with applications to [[certified programming]]. It is also  used as a [[proof assistant]]. 
 
-Besides [[Coq]], Agda is one of the languages in which [[homotopy type theory]] has been implemented ([Brunerie](#Brunerie)).
+Besides [[Rocq]], Agda is one of the languages in which [[homotopy type theory]] has been implemented ([Brunerie](#Brunerie)).
 
 Agda can be compiled to [[Haskell]], Epic or Javascript.
 
