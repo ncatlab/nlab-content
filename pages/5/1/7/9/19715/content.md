@@ -19,19 +19,19 @@
 
 ## Idea
 
-_Propositional resizing_ is an [[axiom]] often assumed in [[homotopy type theory]] that states that all [[mere propositions]] are [[essentially small type|small]]. This is a form of [[impredicativity]]: without it, no [[type universe|universes]] can be shown to be closed under forming [[power sets]].
+_Propositional resizing_ is an [[axiom]] often assumed in [[homotopy type theory]] that states that all [[mere propositions]] are [[essentially small type|small]]. This is a form of [[impredicativity]] since it implies [[propositional impredicativity]] and thus [[power sets]] for successor universes.
 
-Propositional resizing is a relatively weak axiom, for instance it is implied by the [[law of excluded middle]], which states that the [[small type]] $2$ classifies all propositions. However, it is independent of the other basic axioms of homotopy type theory.
+Despite that, propositional resizing is a relatively weak axiom, for instance it is implied by the [[law of excluded middle]], which states that the [[small type]] $2$ classifies all propositions. However, it is independent of the other basic axioms of homotopy type theory. 
 
 ## Definition
 
 Propositional resizing can be defined for individual type universes ([Gylterud, Stenholm, & Veltri 2020](#GSV20)) or for the type theory as a whole ([[HoTT Book]]).
 
-A [[type universe]] $U$ satisfies **propositional resizing** if every proposition $P$ in the [[dependent type theory]] is [[essentially small type|essentially $U$-small]]. 
+In dependent type theory where for every type $A$, there is a [[type universe]] $U$ such that $A$ is essentially $U$-small, one can define propositional resizing for the entire type theory: a [[type universe|universe]] $V$ satisfies $U$-propositional resizing if every proposition in $V$ is [[essentially small type|essentially $U$-small]]. Propositional resizing for the entire dependent type theory then is the axiom that all universes $V$ satisfy $U$-resizing for all universes $U$.
 
-In dependent type theory where for every type $A$, there is a [[type universe]] $U$ such that $A$ is essentially $U$-small, one can define propositional resizing for the entire type theory: a [[type universe|universe]] $\mathcal{V}$ satisfies $\mathcal{U}$-propositional resizing if every $\mathcal{V}$ proposition is essentially $\mathcal{U}$-small. Propositional resizing is then the axiom that all universes $\mathcal{V}$ satisfy $\mathcal{U}$ resizing for all universes $\mathcal{U}$.
+If the universe $V$ additionally contains a type classifying all $U$-small types, then the type $\mathrm{Prop}_U$ is a $V$-small type of all $V$-small propositions, making the universe $V$ satisfy [[propositional impredicativity]]. In particular, for a [[natural numbers]]-indexed [[universe hierarchy]] such as those found in the [[HoTT book]] and [[proof assistants]] like [[Lean]], [[Agda]], and [[Rocq]], if propositional resizing holds, then every successor universe $U_{i + 1}$ is a propositionally impredicative universe, while only the base universe $U_0$ is a predicative universe. 
 
-If $\mathcal{V}$ contains a type classifying all $\mathcal{U}$ types, then the type $Prop_{\mathcal{U}}$ is a $\mathcal{V}$-small type of all $\mathcal{V}$ propositions, making $\mathcal{V}$ an impredicative universe.
+In [[dependent type theory]] with a single type judgment, a [[type universe]] $U$ satisfies propositional resizing if every proposition $P$ in the [[dependent type theory]] is essentially $U$-small. The type $\mathrm{Prop}_U$ is a [[type of all propositions]], making the whole dependent type theory satisfy [[propositional impredicativity]]. 
 
 ## See also
 
