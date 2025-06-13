@@ -95,7 +95,7 @@ Similarly, the free join-semilattice on a poset $P$ is the $Bool$-enriched analo
 
 ## Related concepts
 
-* [[band]]
+* [[band]], [[idempotent monoid]]
 
 * [[enriched poset]]
 
