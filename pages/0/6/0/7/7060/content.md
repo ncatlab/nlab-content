@@ -23,7 +23,7 @@
 
 In [[dependent type theory]] the _type of propositions_ --- typically denoted $Prop$ or $\Omega$ --- corresponds, under [[categorical semantics]], roughly to a *[[subobject classifier]]*.  
 
-> (To be precise, depending on the type theoretic rules and axioms this may not be quite true: one needs [[propositional resizing]], [[propositional extensionality]], and --- in some type theories where "proposition" is not defined as an [[h-proposition]], such as the [[calculus of constructions]] --- the [[principle of unique choice]].)
+> (To be precise, depending on the type theoretic rules and axioms this may not be quite true: one needs [[propositional impredicativity]], [[propositional resizing]], [[propositional extensionality]], and --- in some type theories where "proposition" is not defined as an [[h-proposition]], such as the [[calculus of constructions]] --- the [[principle of unique choice]].)
 
 Its generalization from [[propositions]] to general [[types]] is a *[[type universe]]*.
 
@@ -66,7 +66,7 @@ The **type of (all) propositions** $\mathrm{Prop}$ in a [[dependent type theory]
 
 * as a [[type universe]], with [[inference rules]] that mimic that of the [[negative type|negative]] [[dependent sum type]] $\sum_{P:U} \mathrm{isProp}(P)$ or $\sum_{P:U} \mathrm{isProp}(T(P))$ respectively, but for all types, not just the $U$-small types. 
 
-In addition, in [[dependent type theory]] defined using a [[universe hierarchy]] instead of a separate type judgment, a universe $U_i$ having the type of all propositions as defined above is equivalent to a local [[propositional resizing]] axiom which says that the [[locally small type|locally $U_i$-small type]] $\sum_{P:U_i} \mathrm{isProp}(P)$ is ([[essentially small type|essentially]]) [[small type|$U_i$-small]]. 
+In addition, in [[dependent type theory]] defined using a [[universe hierarchy]] instead of a separate type judgment, a universe $U_i$ having the type of all propositions as defined above is equivalent to [[propositional impredicativity]] axiom which says that the [[locally small type|locally $U_i$-small type]] $\sum_{P:U_i} \mathrm{isProp}(P)$ is ([[essentially small type|essentially]]) [[small type|$U_i$-small]]. 
 
 ### As a homotopy-initial type
 
@@ -290,26 +290,26 @@ Given a universe of all propositions $\mathrm{Prop}$, [[impredicative polymorphi
 
 More generally, a universe of propositions $\Omega$ has [[impredicative polymorphism]] if and only if $\Omega$ is closed under [[dependent product types]] of [[predicates]] valued in $\Omega$. 
 
-## Propositional resizing
+## Propositional impredicativity
 
 \begin{theorem}
-Any universe of propositions satisfying [[propositional resizing]] is a [[contractible type]].
+Any universe of propositions satisfying [[propositional impredicativity]] is a [[contractible type]].
 \end{theorem}
 
 \begin{proof}
-Given a universe of propositions $\Omega$, the type of all propositions in $\Omega$ is $\Omega$ itself. Then [[propositional resizing]] says that $\Omega$ has an element $\Omega':\Omega$ such that its type reflection is $\Omega$ itself. This implies that $\Omega$ itself a [[mere proposition]] by definition of universe of proposiions, which implies that $\Omega$ is a contractible type by the element $\Omega':\Omega$ and the fact that for all other elements $P:\Omega$, $P = \Omega'$. 
+Given a universe of propositions $\Omega$, the type of all propositions in $\Omega$ is $\Omega$ itself. Then [[propositional impredicativity]] says that $\Omega$ has an element $\Omega':\Omega$ such that its type reflection is $\Omega$ itself. This implies that $\Omega$ itself a [[mere proposition]] by definition of universe of proposiions, which implies that $\Omega$ is a contractible type by the element $\Omega':\Omega$ and the fact that for all other elements $P:\Omega$, $P = \Omega'$. 
 \end{proof}
 
 \begin{theorem}
-Any universe of propositions $\Omega$ closed under the [[empty type]] does not satisfy [[propositional resizing]]. 
+Any universe of propositions $\Omega$ closed under the [[empty type]] does not satisfy [[propositional impredicativity]]. 
 \end{theorem}
 
 \begin{proof}
-Suppose that $\Omega$ is closed under the empty type $\emptyset$ represented in $\Omega$ by the element $\bot:\Omega$, and satisfies [[propositional resizing]]. Then one has that $\bot = \Omega'$ since $\Omega$ is a [[mere proposition]], and by transport one has $\emptyset \simeq \Omega$, but since $\Omega$ is contractible by propositional resizing, the empty type is also contractible, which is [[false]]. 
+Suppose that $\Omega$ is closed under the empty type $\emptyset$ represented in $\Omega$ by the element $\bot:\Omega$, and satisfies [[propositional impredicativity]]. Then one has that $\bot = \Omega'$ since $\Omega$ is a [[mere proposition]], and by transport one has $\emptyset \simeq \Omega$, but since $\Omega$ is contractible by propositional impredicativity, the empty type is also contractible, which is [[false]]. 
 \end{proof}
 
 \begin{theorem}
-The [[universe of all propositions]] $\mathrm{Prop}$ does not satisfy [[propositional resizing]]. 
+The [[universe of all propositions]] $\mathrm{Prop}$ does not satisfy [[propositional impredicativity]]. 
 \end{theorem}
 
 ## Directed univalence
@@ -371,6 +371,8 @@ These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] a
 
 * [[impredicative polymorphism]]
 
+* [[propositional impredicativity]]
+
 * [[impredicative dependent type theory]]
 
 * [[sigma-frame of propositions]]
@@ -389,144 +391,80 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 
 [[!redirects type of propositions]]
 [[!redirects types of propositions]]
-[[!redirects weak type of propositions]]
-[[!redirects weak types of propositions]]
-[[!redirects strict type of propositions]]
-[[!redirects strict types of propositions]]
 
 [[!redirects Russell type of propositions]]
 [[!redirects Russell types of propositions]]
-[[!redirects weak Russell type of propositions]]
-[[!redirects weak Russell types of propositions]]
-[[!redirects strict Russell type of propositions]]
-[[!redirects strict Russell types of propositions]]
 
 [[!redirects Tarski type of propositions]]
 [[!redirects Tarski types of propositions]]
-[[!redirects weak Tarski type of propositions]]
-[[!redirects weak Tarski types of propositions]]
-[[!redirects strict Tarski type of propositions]]
-[[!redirects strict Tarski types of propositions]]
 
 [[!redirects universe of propositions]]
 [[!redirects universes of propositions]]
-[[!redirects weak universe of propositions]]
-[[!redirects weak universes of propositions]]
-[[!redirects strict universe of propositions]]
-[[!redirects strict universes of propositions]]
 
 [[!redirects Russell universe of propositions]]
 [[!redirects Russell universes of propositions]]
-[[!redirects weak Russell universe of propositions]]
-[[!redirects weak Russell universes of propositions]]
-[[!redirects strict Russell universe of propositions]]
-[[!redirects strict Russell universes of propositions]]
 
 [[!redirects Tarski universe of propositions]]
 [[!redirects Tarski universes of propositions]]
-[[!redirects weak Tarski universe of propositions]]
-[[!redirects weak Tarski universes of propositions]]
-[[!redirects strict Tarski universe of propositions]]
-[[!redirects strict Tarski universes of propositions]]
 
 [[!redirects impredicative type of propositions]]
 [[!redirects impredicative types of propositions]]
-[[!redirects weak impredicative type of propositions]]
-[[!redirects weak impredicative types of propositions]]
-[[!redirects strict impredicative type of propositions]]
-[[!redirects strict impredicative types of propositions]]
 
 [[!redirects Russell impredicative type of propositions]]
 [[!redirects Russell impredicative types of propositions]]
-[[!redirects weak Russell impredicative type of propositions]]
-[[!redirects weak Russell impredicative types of propositions]]
-[[!redirects strict Russell impredicative type of propositions]]
-[[!redirects strict Russell impredicative types of propositions]]
 
 [[!redirects Tarski impredicative type of propositions]]
 [[!redirects Tarski impredicative types of propositions]]
-[[!redirects weak Tarski impredicative type of propositions]]
-[[!redirects weak Tarski impredicative types of propositions]]
-[[!redirects strict Tarski impredicative type of propositions]]
-[[!redirects strict Tarski impredicative types of propositions]]
 
 [[!redirects impredicative universe of propositions]]
 [[!redirects impredicative universes of propositions]]
-[[!redirects weak impredicative universe of propositions]]
-[[!redirects weak impredicative universes of propositions]]
-[[!redirects strict impredicative universe of propositions]]
-[[!redirects strict impredicative universes of propositions]]
 
 [[!redirects Russell impredicative universe of propositions]]
 [[!redirects Russell impredicative universes of propositions]]
-[[!redirects weak Russell impredicative universe of propositions]]
-[[!redirects weak Russell impredicative universes of propositions]]
-[[!redirects strict Russell impredicative universe of propositions]]
-[[!redirects strict Russell impredicative universes of propositions]]
 
 [[!redirects Tarski impredicative universe of propositions]]
 [[!redirects Tarski impredicative universes of propositions]]
-[[!redirects weak Tarski impredicative universe of propositions]]
-[[!redirects weak Tarski impredicative universes of propositions]]
-[[!redirects strict Tarski impredicative universe of propositions]]
-[[!redirects strict Tarski impredicative universes of propositions]]
 
 [[!redirects type of all propositions]]
 [[!redirects types of all propositions]]
-[[!redirects weak type of all propositions]]
-[[!redirects weak types of all propositions]]
-[[!redirects strict type of all propositions]]
-[[!redirects strict types of all propositions]]
 
 [[!redirects Russell type of all propositions]]
 [[!redirects Russell types of all propositions]]
-[[!redirects weak Russell type of all propositions]]
-[[!redirects weak Russell types of all propositions]]
-[[!redirects strict Russell type of all propositions]]
-[[!redirects strict Russell types of all propositions]]
 
 [[!redirects Tarski type of all propositions]]
 [[!redirects Tarski types of all propositions]]
-[[!redirects weak Tarski type of all propositions]]
-[[!redirects weak Tarski types of all propositions]]
-[[!redirects strict Tarski type of all propositions]]
-[[!redirects strict Tarski types of all propositions]]
 
 [[!redirects Coquand type of all propositions]]
 [[!redirects Coquand types of all propositions]]
-[[!redirects weak Coquand type of all propositions]]
-[[!redirects weak Coquand types of all propositions]]
-[[!redirects strict Coquand type of all propositions]]
-[[!redirects strict Coquand types of all propositions]]
 
 [[!redirects universe of all propositions]]
 [[!redirects universes of all propositions]]
-[[!redirects weak universe of all propositions]]
-[[!redirects weak universes of all propositions]]
-[[!redirects strict universe of all propositions]]
-[[!redirects strict universes of all propositions]]
 
 [[!redirects Russell universe of all propositions]]
 [[!redirects Russell universes of all propositions]]
-[[!redirects weak Russell universe of all propositions]]
-[[!redirects weak Russell universes of all propositions]]
-[[!redirects strict Russell universe of all propositions]]
-[[!redirects strict Russell universes of all propositions]]
 
 [[!redirects Tarski universe of all propositions]]
 [[!redirects Tarski universes of all propositions]]
-[[!redirects weak Tarski universe of all propositions]]
-[[!redirects weak Tarski universes of all propositions]]
-[[!redirects strict Tarski universe of all propositions]]
-[[!redirects strict Tarski universes of all propositions]]
 
 [[!redirects Coquand universe of all propositions]]
 [[!redirects Coquand universes of all propositions]]
-[[!redirects weak Coquand universe of all propositions]]
-[[!redirects weak Coquand universes of all propositions]]
-[[!redirects strict Coquand universe of all propositions]]
-[[!redirects strict Coquand universes of all propositions]]
+
+[[!redirects type of small propositions]]
+[[!redirects types of small propositions]]
+
+[[!redirects Russell type of small propositions]]
+[[!redirects Russell types of small propositions]]
+
+[[!redirects Tarski type of small propositions]]
+[[!redirects Tarski types of small propositions]]
+
+[[!redirects universe of small propositions]]
+[[!redirects universes of small propositions]]
+
+[[!redirects Russell universe of small propositions]]
+[[!redirects Russell universes of small propositions]]
+
+[[!redirects Tarski universe of small propositions]]
+[[!redirects Tarski universes of small propositions]]
 
 [[!redirects Prop]]
-
-[[!redirects local propositional resizing]]
