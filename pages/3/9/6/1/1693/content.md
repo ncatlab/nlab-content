@@ -40,7 +40,7 @@ Similarly, a [[Boolean rig (Guzmán)|Boolean rig]] as defined by Fernando Guzmá
 
 ### Smallest multiplicatively idempotent rigs
 
-Let see what are the smallest multiplicatively idempotent rigs.
+Let’s see what are the smallest multiplicatively idempotent rigs.
 
 - The only multiplicatively idempotent rig of cardinal $1$ is the zero ring $0$.
 
