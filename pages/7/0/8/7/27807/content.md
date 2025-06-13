@@ -19,7 +19,7 @@ Similarly, the term *skeletal* can refer to
 
 * A [[skeletal semiring]] as defined by Ivan Chajda and Miroslav Kotrle. 
 
-category: disambiguation page
+category: disambiguation
 
 [[!redirects skeleta]]
 [[!redirects skeletons]]
