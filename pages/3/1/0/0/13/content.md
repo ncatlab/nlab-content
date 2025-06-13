@@ -9,6 +9,11 @@ The regulars here may be especially interested in my PhD dissertation, [Higher G
 
 I also have [[Toby Bartels:HomePage|my own personal web here]], although not much is on it.
 
+## Selected writings
+
+On [[Boolean semiring (Bartels)|Boolean semirings]]:
+
+* [[Toby Bartels]], *Boolean rig*, 5th revision of the nLab article "[[multiplicatively idempotent rig]]", August 15, 2020. &lbrack;[nLab](https://ncatlab.org/nlab/revision/multiplicatively+idempotent+rig/5)&rbrack;
 
 category: people
 
