@@ -1,3 +1,8 @@
+
+\tableofcontents
+
+## Idea
+
 Coquasitriangularity is dual property to [[quasitriangular bialgebra|quasitriangularity]]. 
 
 A $k$-[[bialgebra]] (or, in particular, [[Hopf algebra]]) $(H, m,\eta,\Delta,\epsilon)$ is __coquasitriangular__ (or dual quasitriangular) if it is equipped with a $k$-linear map $R:H\otimes H\to k$ which is invertible in [[convolution algebra]] $Hom_k(H\otimes H,k)$ (with respect to the convolution-unit $\epsilon\otimes\epsilon$) with a convolution inverse denoted $\bar{R}$ such that the opposite multiplication $m_{H_{op}} := m\circ \tau$ is given by
@@ -17,3 +22,14 @@ R(id\otimes m) = R_{12} R_{23}
 $$
 
 with the subscript notation as explained in the $n$lab entry [[quasitriangular Hopf algebra]]. The main examples come from quantized function algebras (that is, roughly, dual of quantized [[enveloping algebra]]s). 
+
+## Related concepts
+
+* [[Hopf algebra]]
+
+## References
+
+* [[Konrad Schmuedgen]], *On Coquasitriangular Bialgebras* &lbrack;[arXiv:math/9812004](https://arxiv.org/abs/math/9812004)&rbrack;
+
+[[!redirects coquasitriangular bialgebra]]
+[[!redirects coquasitriangular bialgebras]]
