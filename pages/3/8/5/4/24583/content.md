@@ -37,5 +37,9 @@ On [[simplicial type theory]]:
 
 * [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
+On the category of iterative sets in [[homotopy type theory]]:
+
+* [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, &lbrack;[arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
+
 category: people
 
