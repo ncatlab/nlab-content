@@ -22,6 +22,8 @@ The term _dioid_ is sometimes used as an alternative name for idempotent semirin
 ## Properties
  {#Properties}
 
+### Partial order structure
+
 On an idempotent semiring, $S$, there is a partial order given by
 
 $$ x \leq y : \iff x + y = y. $$
@@ -32,7 +34,11 @@ $$ z \stackrel{y \leq z}{=} y + z \stackrel{x \leq y}{=} (x + y) + z = x + (y + 
 $$z = z + z = x + z + y + z = x + y + z$$ 
 The partial order is preserved by multiplication.
 
-Every idempotent semiring is a [[01-bounded join-semilattice]]. 
+If the semiring is a [[rig]], then the partial order gives rise to a [[01-bounded join-semilattice]] due to the absorption and unital laws of addition with respect to $0$ and $1$. 
+
+### Skeletons and split idempotent semirings
+
+According to [Huang, Chen, & Gan 2022](#HCG22), a **skeleton** of an idempotent semiring is a [[skeleton of a band|skeleton]] of the underlying additive [[band]], and an idempotent semiring is **split** if and only if its underlying additive [[band]] is [[split band|split]]. Thus, an idempotent semiring is split [[if and only if]] it has a skeleton. 
 
 ## Examples
 
@@ -66,6 +72,10 @@ The term *(additively) idempotent semiring* appears in:
 
 * {#Rogers24} [[Morgan Rogers]], *From free idempotent monoids to free multiplicatively idempotent rigs* &lbrack;[arXiv:2408.17440](https://arxiv.org/abs/2408.17440)&rbrack;
 
+Split idempotent semirings and the skeleton of an idempotent semiring are defined in:
+
+* {#HCG22} Kaiqing Huang, Yizhi Chen, Aiping Gan, *Structure of split additively orthodox semirings*, AIMS Mathematics, 2022, 7(6): 11345-11361. &lbrack;[doi: 10.3934/math.2022633](https://doi.org/10.3934/math.2022633), [pdf](https://www.aimspress.com/aimspress-data/math/2022/6/PDF/math-07-06-633.pdf)&rbrack;
+
 [[!redirects additively idempotent]]
 
 [[!redirects additively idempotent rig]]
@@ -73,6 +83,12 @@ The term *(additively) idempotent semiring* appears in:
 
 [[!redirects additively idempotent semiring]]
 [[!redirects additively idempotent semirings]]
+
+[[!redirects skeleton of an idempotent semiring]]
+[[!redirects skeleta of an idempotent semiring]]
+
+[[!redirects skeleton of an idempotent rig]]
+[[!redirects skeleta of an idempotent rigs]]
 
 [[!redirects dioid]]
 [[!redirects dioids]]
