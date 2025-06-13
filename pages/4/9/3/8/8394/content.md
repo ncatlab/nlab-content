@@ -63,7 +63,7 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * **[[dependent type theory]]**:
 
-  * [[Coq]], [[Agda]], [[Lean]], [[NuPRL]], ....
+  * [[Rocq]], [[Agda]], [[Lean]], [[NuPRL]], ....
 
 * **[[quantum computation]]**
 
