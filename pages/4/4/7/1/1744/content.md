@@ -9,7 +9,7 @@
 =--
 =--
 
-> This entry is about the notion of (co)skeleta of [[simplicial sets]]. For the notion of skeleton of a [[category]] see at _[[skeleton]]_.
+> This entry is about the notion of (co)skeleta of [[simplicial sets]]. For other notions of skeleton in mathematics see at _[[skeleton]]_.
 
 #Contents#
 * table of contents
