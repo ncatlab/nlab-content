@@ -30,7 +30,7 @@ Neumann–Bernays–Gödel set theory (NBG) is a [[material set theory]]: a [[co
 
 NBG is a [[material set theory]], based on a global binary membership [[predicate]] $\in$. The objects of NBG are called [[classes]]. If a class $x$ is a member of another class $A$, i.e., $x \in A$, then $x$ is called [[set]]. A class which is not a set is called [[proper class]]. NBG can be presented as a two-sorted theory, with lowercase letters denoting sets and uppercase letters denoting classes.
 
-1. [[axiom of extensionality|Extensionality]]: Two classes are equal if and only if the have the same members.
+1. [[axiom of extensionality|Extensionality]]: Two classes are equal if and only if they have the same members.
 
 2. [[axiom of pairing|Pairing]], [[axiom of union|Union]], [[axiom of power sets|Power Sets]] and [[axiom of infinity|Infinity]]: regard sets and are identical to the [[ZFC]] counterparts.
 
