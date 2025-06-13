@@ -66,11 +66,11 @@ The definition originates, via [[bundle gerbes]] and [[bundle gerbe modules]] on
 
 The definition of the K-theory of [[global quotient orbifolds]] as the [[twisted equivariant K-theory]] of the [[universal covering space]] appears in
 
-* {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]], _Twisted Orbifold K-Theory_, Commun. Math. Phys. 237 (2003) 533-556 $[$[arXiv:math/0107168](https://arxiv.org/abs/math/0107168), [doi:10.1007/s00220-003-0849-x](https://doi.org/10.1007/s00220-003-0849-x)$]$
+* {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]]: *Twisted Orbifold K-Theory*, Commun. Math. Phys. **237** (2003) 533-556 &lbrack;[arXiv:math/0107168](https://arxiv.org/abs/math/0107168), [doi:10.1007/s00220-003-0849-x](https://doi.org/10.1007/s00220-003-0849-x)&rbrack;
 
-Review in
+Review:
 
-* {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], Section 3 of: _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+* {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], Section 3 of: _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) &lbrack;[doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf)&rbrack;
 
 The general [[proof]] that this is well-defined (independent of the realization of the orbifold as a [[global quotient orbifold|global quotient]]) is due to
 
