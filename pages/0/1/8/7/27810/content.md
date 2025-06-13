@@ -55,6 +55,8 @@ These two senses turn out to be equivalent for type theories with a hierarchy of
 
 ## Related concepts
 
+* [[resizing axiom]]
+
 * [[type of propositions]]
 
 * [[impredicative polymorphism]]
