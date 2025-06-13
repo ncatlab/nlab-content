@@ -37,6 +37,7 @@ These taboos are unprovable in [[neutral constructive mathematics]].
 * [[dependent choice]]
 * [[countable choice]]
 * [[Brouwer's continuity principle]]
+* [[internal parametricity]]
 
 ### Weakly predicative-constructive taboos
 
@@ -47,6 +48,7 @@ These taboos are unprovable in (constructive) [[weakly predicative mathematics]]
 * [[coinductive types]]
 * [[propositional resizing]]
 * [[type of all propositions]]
+* [[propositional impredicativity]]
 * [[impredicative polymorphism]]
 
 ### Strongly predicative taboos
