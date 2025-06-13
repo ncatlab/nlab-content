@@ -141,12 +141,14 @@ First, we quotient under the relation of "being indistinguishable for the sigma-
 ## Related entries
 
 * [[zero-one measure]], [[zero-one kernel]], [[Markov kernel]], [[Stoch]]
-* [[Loomis-Sikorski duality]]
+* [[point-free measure theory]], [[Loomis-Sikorski duality]], [[measurable Gelfand duality]]
 * [[sober topological space]], [[locale]], [[point of a locale]], [[frame]], [[point-free topology]]
 * [[Markov category]], [[probability monad]]
 
 
 ## References
+
+* {#fritz_lorenzin} [[Tobias Fritz]] and Antonio Lorenzin, _Categories of abstract and noncommutative measurable spaces_, 2025. ([arXiv](https://arxiv.org/abs/2504.13708))
 
 * {#det_submonad} Sean Moss, [[Paolo Perrone]], _Probability monads with submonads of deterministic states_, LICS 2022. ([arXiv:2204.07003](https://arxiv.org/abs/2204.07003))
 
