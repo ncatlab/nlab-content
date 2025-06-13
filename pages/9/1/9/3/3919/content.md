@@ -67,7 +67,7 @@ General accounts of (perturbative, algebraic) quantum field theory on curved spa
 
 See also:
 
-* [[Bernard S. Kay]], *Quantum Field Theory in Curved Spacetime*, Encyclopaedia of Mathematical Physics (2023) &lbrack;[arXiv:2308.14517](https://arxiv.org/abs/2308.14517)&rbrack;
+* [[Bernard S. Kay]], *Quantum Field Theory in Curved Spacetime*, [[Encyclopedia of Mathematical Physics 2nd ed]] (2025) &lbrack;[arXiv:2308.14517](https://arxiv.org/abs/2308.14517)&rbrack;
 
 
 Foundations for [[perturbative quantum field theory]] on curved spacetimes in terms of [[causal perturbation theory]] were laid in 
