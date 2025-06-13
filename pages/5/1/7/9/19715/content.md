@@ -35,6 +35,8 @@ In [[dependent type theory]] with a single type judgment, a [[type universe]] $U
 
 ## See also
 
+* [[resizing axiom]]
+
 * [[essentially small type]]
 
 * [[excluded middle]]
