@@ -39,9 +39,12 @@ On the [[swampland cobordism conjecture]]:
 
 * [[Hirosi Ooguri]], [[Tadashi Takayanagi]], _Cobordism Conjecture in AdS_ ([arXiv:2006.13953](https://arxiv.org/abs/2006.13953))
 
+On the idea of [[spacetime]] emerging from [[quantum entanglement]]:
+
+* [[Tadashi Takayanagi]]: *Emergent Holographic Spacetime from Quantum Information* &lbrack;[arXiv:2506.06595](https://arxiv.org/abs/2506.06595)&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[holographic entanglement entropy]]
 
