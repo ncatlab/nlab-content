@@ -25,10 +25,13 @@ Propositional resizing is a relatively weak axiom, for instance it is implied by
 
 ## Definition
 
-A [[type universe|universe]] $\mathcal{V}$ satisfies $\mathcal{U}$-propositional resizing if every $\mathcal{V}$ proposition is essentially $\mathcal{U}$-small. Propositional resizing is then the axiom that all universes $\mathcal{V}$ satisfy $\mathcal{U}$ resizing for all universes $\mathcal{U}$.
+Propositional resizing can be defined for individual type universes ([Gylterud, Stenholm, & Veltri 2020](#GSV20)) or for the type theory as a whole ([[HoTT Book]]).
+
+A [[type universe]] $U$ satisfies **propositional resizing** if every proposition $P$ in the [[dependent type theory]] is [[essentially small type|essentially $U$-small]]. 
+
+In dependent type theory where for every type $A$, there is a [[type universe]] $U$ such that $A$ is essentially $U$-small, one can define propositional resizing for the entire type theory: a [[type universe|universe]] $\mathcal{V}$ satisfies $\mathcal{U}$-propositional resizing if every $\mathcal{V}$ proposition is essentially $\mathcal{U}$-small. Propositional resizing is then the axiom that all universes $\mathcal{V}$ satisfy $\mathcal{U}$ resizing for all universes $\mathcal{U}$.
 
 If $\mathcal{V}$ contains a type classifying all $\mathcal{U}$ types, then the type $Prop_{\mathcal{U}}$ is a $\mathcal{V}$-small type of all $\mathcal{V}$ propositions, making $\mathcal{V}$ an impredicative universe.
-
 
 ## See also
 
@@ -47,6 +50,8 @@ If $\mathcal{V}$ contains a type classifying all $\mathcal{U}$ types, then the t
 * Section 3.5 of [[The HoTT Book]]
 
 * [[Taichi Uemura]], *Cubical Assemblies and the Independence of the Propositional Resizing Axiom*, HoTT/UF 2018 [abstract](https://hott-uf.github.io/2018/abstracts/HoTTUF18_paper_6.pdf) [slides](https://hott-uf.github.io/2018/slides/UemuraHoTTUF2018.pdf)
+
+* {#GSV20} [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], [[Niccolò Veltri]], *Terminal Coalgebras and Non-wellfounded Sets in Homotopy Type Theory* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696)&rbrack;
 
 * [Formalization](https://unimath.github.io/agda-unimath/foundation.propositional-resizing.html) in [[unimath|Agda Unimath]].
 
