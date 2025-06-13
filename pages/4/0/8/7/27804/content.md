@@ -1,0 +1,2 @@
+
+< [[additively idempotent semiring]]
