@@ -23,11 +23,11 @@ By definition, every idempotent monoid is a [[unital magma|unital]] [[band]].
 
 * A [[semilattice]] (in this article, we mean semilattices with identity) is the same thing as a [[commutative]] idempotent monoid. 
 
+* An [[additively idempotent semiring|idempotent semiring]] is a [[semiring]] whose addition operation is an idempotent monoid. 
+
 * A [[Boolean ring]] is a [[ring]] whose multiplication operation is an idempotent monoid. Thus, a [[Boolean ring]] is an idempotent monoid object in [[Ab]]. 
 
 * A [[multiplicatively idempotent rig]] is a [[rig]] whose multiplication operation is an idempotent monoid; thus an idempotent monoid object in [[CMon]]. 
-
-* An [[additively idempotent rig]] is a [[rig]] whose addition operation is an idempotent monoid. 
 
 ## Related concepts
 
@@ -37,9 +37,9 @@ By definition, every idempotent monoid is a [[unital magma|unital]] [[band]].
 
 * [[semilattice]]
 
-* [[additively idempotent rig]]
+* [[additively idempotent semiring]]
 
-* [[multiplicatively idempotent rig]]
+* [[multiplicatively idempotent semiring]]
 
 * [[Boolean ring]]
 
