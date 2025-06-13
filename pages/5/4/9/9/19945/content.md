@@ -1,14 +1,16 @@
+\tableofcontents
+
 ## Idea
 
-An idempotent semifield is an [[idempotent semiring]] that has a zero and in which every non-zero element is invertible. Or, in other words, a [[skewfield]] in which an element may not have a negative but is always idempotent with respect to addition.
+An idempotent semifield is an [[additively idempotent semiring|(additively) idempotent semiring]] that has a zero and in which every non-zero element is invertible. Or, in other words, a [[skewfield]] in which an element may not have a negative but is always idempotent with respect to addition.
 
 ## Definition
 
-An __idempotent semifield__ $K$ is [[idempotent semiring]] that has a zero $0$ and in which for every non-zero element $x$ there is an element $y$ such that $x \cdot y = 1$. It is said to be __commutative__ if the multiplication is [[commutative magma|commutative]].
+An __idempotent semifield__ $K$ is [[additively idempotent semiring|(additively) idempotent semiring]] that has a zero $0$ and in which for every non-zero element $x$ there is an element $y$ such that $x \cdot y = 1$. It is said to be __commutative__ if the multiplication is [[commutative magma|commutative]].
 
 ## Properties as a lattice
 
-As in the case of an [[idempotent semiring#Properties|idempotent semiring]] there is a partial order given by
+As in the case of an [[additively idempotent semiring#Properties|(additively) idempotent semiring]] there is a partial order given by
 
 $$ x \leq y \;\;{:\!\!\Longleftrightarrow}\;\; x + y = y $$
 
@@ -50,7 +52,7 @@ with $y,p_0, \ldots, p_n \in K$ and $n=1,2,\ldots$ has a solution in $K$ if and 
 
 * [[tropical semiring]]
 
-* [[idempotent semiring]]
+* [[additively idempotent semiring]]
 
 ## References
 
