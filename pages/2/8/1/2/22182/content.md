@@ -453,9 +453,9 @@ The formalization of the [[shape modality|shape]] [[homotopy type]] $&#643; S^1 
 
 Formalization in [[proof assistants]]:
 
-in [[Coq]]:
+in [[Rocq]]:
 
-* The HoTT Coq library: [theories/hit/Circle.v](https://github.com/HoTT/HoTT/blob/master/theories/hit/Circle.v)
+* The HoTT Coq-HoTT library: [theories/Spaces/Circle.v](https://github.com/HoTT/Coq-HoTT/blob/master/theories/Spaces/Circle.v)
 
 in [[Agda]]:
 
