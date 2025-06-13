@@ -22,9 +22,7 @@ Disambiguation note: This article is titled *Kleene star algebra* solely for dis
 
 ## Definition
 
-A **Kleene algebra** is a [[rig]] $(R, 0, \vee, \epsilon, (-)(-))$ with a function $(-)^*:R \to R$
-
-* $\vee$ is [[idempotent]]: for all $x \in R$, $x \vee x = x$, making $(R, 0, \vee)$ into a [[semilattice]]
+A **Kleene algebra** is an [[additively idempotent rig]] $(R, 0, \vee, \epsilon, (-)(-))$ with a function $(-)^*:R \to R$
 
 * for all $x \in R$, $(\epsilon \vee x x^*) \vee x^* = x^*$
 
@@ -41,6 +39,8 @@ A **Kleene algebra** is a [[rig]] $(R, 0, \vee, \epsilon, (-)(-))$ with a functi
 ## Related concepts
 
 * [[rig]]
+
+* [[additively idempotent rig]]
 
 * [[quasiregular rig]]
 
