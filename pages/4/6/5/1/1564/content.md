@@ -131,7 +131,7 @@ which by cancellation gives $y x + x y = 0$, or $y x = -(x y) = x y$.
 * [[BoolAlg]] - the category of boolean algebras
 * [[multiplicatively idempotent rig]]
 * [[01-bounded semilattice]]
-* [[band]]
+* [[band]], [[idempotent monoid]]
 
 [[!redirects Boolean ring]]
 [[!redirects boolean ring]]
