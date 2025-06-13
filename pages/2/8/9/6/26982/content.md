@@ -218,7 +218,7 @@ This way we have natural isomorphisms $\eta_S:id\Rightarrow G\circ F$ and $\epsi
 * [[Markov kernel]], [[Markov category]], [[Stoch]], [[Krn]]
 * [[zero-one law]], [[ergodicity]], [[deterministic random variable]]
 * [[thunk-force category]]
-* [[sober measurable space]], [[Loomis-Sikorski duality]]
+* [[sober measurable space]], [[Loomis-Sikorski duality]], [[measurable Gelfand duality]], [[point-free measure theory]]
 * [[point-free topology]], [[point of a locale]]
 
 
