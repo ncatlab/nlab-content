@@ -87,12 +87,14 @@ Finally, note that most of these definitions have an extra clause that a prime i
 +-- {: .num_defn #unbiased}
 ###### Definition
 
-Let $R$ be a rig or a proset, and let $P$ be an ideal in $R$.  Then $P$ is __prime__ if some ideal in the list is contained in $P$ whenever a product of a [[finite list]] of ideals is contained in $P$:
+Let $R$ be a rig or a proset, and let $P$ be an ideal in $R$.  Then $P$ is __prime__ if some ideal in the list is contained in $P$ whenever the product of a [[finite list]] of ideals is contained in $P$:
 
 $$ \forall\, n \in \mathbb{N},\; \forall\, I \in Idl(R)^n,\; \prod_{k\in[n]} I_k \subseteq P \;\Rightarrow\; \exists\, k \in [n],\; I_k \subseteq P .$$
 =--
 
-As is typical, $n = 1$ is trivial, $n \gt 2$ can be proved from $n = 2$ by [[induction]], and $n = 0$ is the mysterious preliminary clause, in this case that $P$ is proper.  Note that completely prime ideals in a proset arise by generalizing from finite $n$ to arbitrary [[cardinality]].
+As is typical, $n = 1$ is trivial, $n \gt 2$ can be proved from $n = 2$ by [[induction]], and $n = 0$ is the mysterious preliminary clause, in this case that $P$ is proper.  Indeed, the contrapositive of the above implication says that, if none of the $I_k$s is contained in $P$, then neither is their product. In particular, for $n=0$, the statement "none of the $I_k$s are contained in $P$" holds vacuously, and the statement reduces to saying that the empty product (which is $R$) is not a subset of $P$, which means that $P$ is proper.
+
+Note that completely prime ideals in a proset arise by generalizing from finite $n$ to arbitrary [[cardinality]].
 
 Unbiased versions of the other definitions are fairly straightforward.  (For prime ideals in a noncommutative rig, the unbiased definition involves a product of the form $a_0 x_0 a_1 x_1 \cdots x_{n-2} a_{n-1} x_{n-1} a_n$; $a_0$ and $a_n$ can be ignored when $n \gt 0$, which is why only $a_1$ appears in the biased definition.  The definition of completely prime ideals in order theory is already unbiased, since $X$ could always be the [[empty set]].)
 
