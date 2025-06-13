@@ -91,7 +91,7 @@ Work conducted in homotopy type theory:
 
   > (on the [[Nielsen-Schreier theorem]])
 
-* Håkon Robbestad Gylterud, Elisabeth Bonnevier, _Non-wellfounded sets in homotopy type theory_, ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
+* [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], [[Niccolò Veltri]], *Terminal Coalgebras and Non-wellfounded Sets in Homotopy Type Theory* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696)&rbrack;
 
 * [[Martín Hötzel Escardó]], _Injective types in univalent mathematics_, ([arXiv:1903.01211](https://arxiv.org/abs/1903.01211), published online 5th January 2021 in [Mathematical Structures in Computer Science](https://doi.org/10.1017/S0960129520000225))
 
