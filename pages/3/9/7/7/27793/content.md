@@ -52,13 +52,17 @@ The rectangularity condition is immediate by definition: for any $\sim$-equivale
 
 * A [[semilattice]] (in this article, we mean semilattices without identity) is the same thing as a [[commutative]] band. 
 
+* An [[idempotent monoid]] is a [[unital magma|unital]] [[band]]. 
+
 * A [[rectangular band]] is a band (see there). 
 
 * A [[skew lattice]] $(L, \wedge, \vee)$ is a band, using either $\wedge$ or $\vee$ as the semigroup operation. 
 
-* A [[Boolean ring]] is a [[ring]] whose multiplication operation is a band. Thus, a [[Boolean ring]] is a unital band object in [[Ab]], or a band object in [[Ab]] if rings are defined [[non-unital ring|without a multiplicative unit]]. 
+* A [[Boolean ring]] is a [[ring]] whose multiplication operation is a band. Thus, a [[Boolean ring]] is a band [[object]] in [[Ab]] [[if and only if]] rings are defined [[non-unital ring|without a multiplicative unit]]. (Otherwise Boolean rings are [[idempotent monoid]] objects in [[Ab]].)
 
-* A [[multiplicatively idempotent rig]] is similarly a [[rig]] whose multiplication operation is a band; thus a unital band object in [[CMon]]. 
+* Similarly, a [[multiplicatively idempotent semiring]] is a [[semiring]] whose multiplication operation is a band. 
+
+* An [[additively idempotent semiring]] is a [[semiring]] whose addition operation is a band. 
 
 To be added: varieties of bands, and particularly of regular bands. 
 
@@ -92,6 +96,8 @@ A band $S$ satisfying the [[graphic category| graphic identity]] $x y x = x y$ f
 
 * [[semilattice]]
 
+* [[idempotent monoid]]
+
 * [[Boolean ring]]
 
 ## References
@@ -113,9 +119,3 @@ See also
 
 [[!redirects idempotent semigroup]]
 [[!redirects idempotent semigroups]]
-
-[[!redirects unital band]]
-[[!redirects unital bands]]
-
-[[!redirects idempotent monoid]]
-[[!redirects idempotent monoids]]
