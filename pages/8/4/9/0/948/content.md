@@ -335,7 +335,7 @@ in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Contin
 
 *  [[André Joyal]] and [[Ieke Moerdijk]] (1995). _Algebraic set theory_.
 
-*  [[Frank Waaldijk]] (2003). [On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (PDF).
+*  [[Franka Waaldijk]] (2003). [On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (PDF).
 
 *   [[Auke B. Booij]], Analysis in univalent type theory ([pdf](https://etheses.bham.ac.uk/id/eprint/10411/7/Booij2020PhD.pdf))
 
