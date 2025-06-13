@@ -119,7 +119,7 @@ A class of examples of Hopf algebroids have as underyling algebra the smash prod
 
 * M. Stojić, _Scalar extension Hopf algebroids_, Journal of algebra and applications 2023 [doi](https://doi.org/10.1142/S0219498824501147) [arXiv:2208.11696](https://arxiv.org/abs/2208.11696)
 
-An internal version of associative bialgebroids over a noncommutative base monoid in a symmetric monoidal category admiting coqualizers commuting with the monoidal product is studied in
+An internal version of associative bialgebroids over a noncommutative base monoid in a symmetric monoidal category admitting coequalizers commuting with the monoidal product is studied in
 
 * [[G. Böhm]], _Internal bialgebroids, entwining structures and corings_, AMS Contemp. Math. __376__ (2005) 207-226 [arXiv:math/0311244](https://arxiv.org/abs/math/0311244) [doi](https://doi.org/10.48550)
 
