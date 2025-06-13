@@ -179,7 +179,7 @@ Also:
 
 * {#JulianRichman84} [[William H. Julian]], [[Fred Richman]], *A uniformly continuous function on [0,1] that is everywhere different from its infimum*, Pacific Journal of Mathematics, 111(2), 1984, pp. 333–340. ([10.2140/pjm.1984.111.333](https://doi.org/10.2140/pjm.1984.111.333))
 
-* {#Waaldijk05} [[Frank Waaldijk]], *On the foundations of constructive mathematics - especially in relation to the theory of continuous functions*, Foundations of Science, Volume 10, pages 249–324, (2005). ([doi:10.1007/s10699-004-3065-z](https://doi.org/10.1007/s10699-004-3065-z), [pdf](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
+* {#Waaldijk05} [[Franka Waaldijk]], *On the foundations of constructive mathematics - especially in relation to the theory of continuous functions*, Foundations of Science, Volume 10, pages 249–324, (2005). ([doi:10.1007/s10699-004-3065-z](https://doi.org/10.1007/s10699-004-3065-z), [pdf](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
 
 * {#FourmanHyland} [[Mike Fourman]], [[Martin Hyland]], _Sheaf models for analysis_. [PDF](https://www.dpmms.cam.ac.uk/~jmeh1/Research/Oldpapers/analysis79.pdf)
 
