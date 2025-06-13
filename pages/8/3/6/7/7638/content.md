@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -20,6 +21,7 @@ The [[categorical semantics]] of an $M$-type is a [[terminal coalgebra of an end
 
 ## See also
 
+* [[W-topos]]
 * [[M-cotopos]]
 
 ## References
@@ -31,5 +33,9 @@ The [[categorical semantics]] of an $M$-type is a [[terminal coalgebra of an end
 * Andrea Vezzosi, _On Induction, Coinduction and Equality in Martin-Löf and Homotopy Type Theory_ [thesis](https://research.chalmers.se/en/publication/?id=504152)
 
 * R.E. Møgelberg, N. Veltri, _Bisimulation as path type for guarded recursive types_ POPL 2019. [arXiv](https://arxiv.org/abs/1810.13261)
+
+For [[non-wellfounded set theory]] as an [[M-type]]:
+
+* [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], [[Niccolò Veltri]], *Terminal Coalgebras and Non-wellfounded Sets in Homotopy Type Theory* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696)&rbrack;
 
 [[!redirects M-types]]
