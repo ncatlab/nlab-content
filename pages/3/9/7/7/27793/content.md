@@ -43,7 +43,9 @@ Every $\sim$-equivalence class is a [[rectangular band]].
 \end{proposition} 
 
 \begin{proof} 
-This is immediate from the definitions: for any $\sim$-equivalent elements $x, y$, we have $x = x y x$. 
+Let $[x]$ denote the equivalence class of $x$. If $y, z \in [x]$, then $x y x = x$, and also $y z y = y$ (since $y \sim z$), so by equation $P$ above, $x z y x = x$. By the same token, since $x, y, z$ are all equivalent, we can equally well say $z y x z = z$, whence $(z y)x(z y) = z y$. From these two conclusions, it follows that $z y$ is also in $[x]$, so that each equivalence class $[x]$ is closed under multiplication, and therefore is a band. 
+
+The rectangularity condition is immediate by definition: for any $\sim$-equivalent elements $x, y$, we have $x = x y x$. 
 \end{proof} 
 
 ## Examples of bands 
