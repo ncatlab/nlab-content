@@ -1,10 +1,10 @@
 
 ## Disambiguation
 
-In [[mathematics]], an *idempotent rig* or *idempotent semiring* can refer to:
+In [[mathematics]], an *idempotent semiring* or *idempotent rig* can refer to:
 
-* [[additively idempotent rig]]
-* [[multiplicatively idempotent rig]]
+* [[additively idempotent semiring]]
+* [[multiplicatively idempotent semiring]]
 
 category: disambiguation
 
