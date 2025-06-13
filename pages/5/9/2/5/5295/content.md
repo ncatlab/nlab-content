@@ -90,7 +90,7 @@ Intuitionistic mathematics is often regarded as a specialization of [[Bishop's c
 
 ## Feel
 
-In intuitionistic mathematics, already [[set theory]] behaves a lot like [[topology]], a point stressed by [[Frank Waaldijk]] ([web](http://www.fwaaldijk.nl/mathematics.html)). He uses the [[Kleene-Vesley]] system.  Fourman's [[continuous truth]] makes this remark precise using [[topos theory]].
+In intuitionistic mathematics, already [[set theory]] behaves a lot like [[topology]], a point stressed by [[Franka Waaldijk]] ([web](http://www.fwaaldijk.nl/mathematics.html)). She uses the [[Kleene-Vesley]] system.  Fourman's [[continuous truth]] makes this remark precise using [[topos theory]].
 
 Although intuitionistic mathematics does not accept all [[function sets]] (much less [[power sets]]), it seems to allow for both [[induction|inductive]] and [[coinduction|coinductive]] structures; see [a Caf&#233; comment](http://golem.ph.utexas.edu/category/2008/12/the_status_of_coalgebra.html#c020731).
 The reluctance to add function spaces is similar to the problem of function spaces in topology; see [[nice category of spaces]].
@@ -167,13 +167,13 @@ See also texts on [[constructive mathematics]], such as:
 
 Reviews with further developments:
 
-* [[Frank Waaldijk]], _On the foundations of constructive mathematics -- especially in relation to the theory of continuous functions_  ([web](http://www.fwaaldijk.nl/mathematics.html#onthefoundations))
+* [[Franka Waaldijk]], _On the foundations of constructive mathematics -- especially in relation to the theory of continuous functions_  ([web](http://www.fwaaldijk.nl/mathematics.html#onthefoundations))
 
   (with a focus on [[constructive analysis]]).
 
 Discussion of an approach to [[general topology]] in intuitionistic mathematics:
 
-* {#Waaldijk96} [[Frank Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
+* {#Waaldijk96} [[Franka Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
 
 
 
