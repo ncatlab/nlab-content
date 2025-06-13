@@ -34,6 +34,8 @@ The [[Lawvere theory]] of 01-bounded semilattices is the [[semilattice cube cate
 
 * Every [[commutative rig|commutative]] [[multiplicatively idempotent rig]] is a 01-bounded meet-semilattice
 
+* Every [[additively idempotent rig]] is a 01-bounded join-semilattice. 
+
 ## Related concepts
 
 * [[lattice]]
