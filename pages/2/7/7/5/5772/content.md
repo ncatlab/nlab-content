@@ -11,7 +11,7 @@ Similarly, the __min-plus algebra__, or __rig of costs__, is the [[rig]] based o
 
 ## Applications
 
-The max-plus algebra is an [[idempotent semiring]] and [[dioid]] that is used in the modelling of timed systems.  Typically in a simple example, the completion time of a production system will be given by a system of equations that have 'max' occurring in them. (The next process in a system cannot start until all its component parts have been themselves completed.) The use of the max-plus notation completely linearises many systems.
+The max-plus algebra is an [[additively idempotent semiring|idempotent semiring]] and [[dioid]] that is used in the modelling of timed systems.  Typically in a simple example, the completion time of a production system will be given by a system of equations that have 'max' occurring in them. (The next process in a system cannot start until all its component parts have been themselves completed.) The use of the max-plus notation completely linearises many systems.
 
 The min-plus algebra may be used to draw an analogy between the use of [[action form|action]] in [[classical mechanics|classical]] vs [[quantum mechanics|quantum]] systems.  While the latter involves a [[sum of histories|sum of a multiplicative action over classical trajectories]], the former involves a [[least action principle|minimisation of an additive action over classical trajectories]].  There is a similar analogy between [[statics]] and [[statistical mechanics]].
 
