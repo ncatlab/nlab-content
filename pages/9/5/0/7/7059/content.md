@@ -58,7 +58,7 @@ where $&#643;$ and $\sharp$ are [[idempotent monad|idempotent]] [[monads (in com
 [[geometric embedding|left-exact]] [[reflective sub-(∞,1)-category]],
 to be called the [[base (∞,1)-topos]] "of [[codiscrete objects]]"._
 
-Coq code at [Codiscrete.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/Subcategories/Codiscrete.v)
+[[Rocq]] code at [Codiscrete.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/Subcategories/Codiscrete.v)
 
 
 
@@ -79,7 +79,7 @@ The homotopy type theory of the [[codiscrete objects]] we call the _external_ th
 _[[discrete objects]]_ such that with the codiscrete reflection
 it makes the ambient theory that of a [[local (∞,1)-topos]].
 
-[[Coq]] code at [LocalTopos.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/Subcategories/LocalTopos.v).
+[[Rocq]] code at [LocalTopos.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/Subcategories/LocalTopos.v).
 
 The coreflector from discrete objects we write
 
@@ -92,7 +92,7 @@ $$
 
 **Axiom C** The discrete objects are also reflective, the reflector is [[left adjoint]] to the coreflector and preserves [[product types]].
 
-[[Coq]] code at [CohesiveTopos.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/Subcategories/CohesiveTopos.v).
+[[Rocq]] code at [CohesiveTopos.v](https://github.com/mikeshulman/HoTT/blob/master/Coq/Subcategories/CohesiveTopos.v).
 
 We write 
 
@@ -295,7 +295,7 @@ For $X$ and $A$ two [[types]], the externalization $\sharp(X \to A)$ of the [[fu
 
 ### Flat cohomology and local systems
 
-We give the [[Coq]]-formalization of [Flat cohomology and local systems](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#FlatDifferentialCohomology).
+We give the [[Rocq]]-formalization of [Flat cohomology and local systems](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#FlatDifferentialCohomology).
 
 For $A$ a [[type]], we say that [[cohomology]] with coefficients in 
 $\flat A$ is _flat cohomology_. A [[cocycle]] [[term]] $c : \sharp(X \to \flat A)$ is called a [[local system]] of coefficients $A$ on $X$.
@@ -304,7 +304,7 @@ $\flat A$ is _flat cohomology_. A [[cocycle]] [[term]] $c : \sharp(X \to \flat A
 
 ### de Rham cohomology
 
-We give the [[Coq]]-formalization of [intrinsic de Rham cohomology](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#deRhamCohomology).
+We give the [[Rocq]]-formalization of [intrinsic de Rham cohomology](http://ncatlab.org/nlab/show/cohesive+%28infinity,1%29-topos+--+structures#deRhamCohomology).
 
 Let $A = \mathbf{B}G$ be a [[0-connected|connected]] [[type]].
 
@@ -315,7 +315,7 @@ $$
   \,.
 $$
 
-[[Coq]]-code:
+[[Rocq]]-code:
 
     Require Import Homotopy Subtopos Codiscrete LocalTopos CohesiveTopos.
 
@@ -328,7 +328,7 @@ $$
 
 ### Differential cohomology
 
-We give the [[Coq]]-formalization of [Differential cohomology](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#DifferentialCohomology).
+We give the [[Rocq]]-formalization of [Differential cohomology](http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+structures#DifferentialCohomology).
 
 (...)
 
