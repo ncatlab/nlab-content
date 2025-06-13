@@ -68,7 +68,7 @@ Denoting by $Sp(\Sigma)$ the space of points of $\Sigma$ (or **spectrum**), we t
 
 In order to turn this assignment into a functor $\sigma Bool^\mathrm{op}\to Meas$, we need to equip the spaces $Sp(\Sigma)$ with σ-algebras. We do it as follows (see also at [[zero-one measure##the_monad_of_zeroone_measures|zero-one measure - the monad]]): for every $A\in \Sigma$, define 
 $$
-A^* = \{p\in Sp(\Sigma) : p(A)=1 \} .
+A^* \coloneqq \{p\in Sp(\Sigma) : p(A)=1 \} .
 $$
 The sets $A^*$ form a σ-algebra, and the maps $\phi^*:Sp(\Gamma)\to Sp(\Sigma)$ are measurable. This gives the desired functor 
 \begin{tikzcd}[%
@@ -143,3 +143,4 @@ category: probability
 [[!redirects Stone duality for measurable spaces]]
 [[!redirects Stone duality for sigma-algebras]]
 [[!redirects Stone duality for σ-spaces]]
+[[!redirects measurable Stone duality]]
