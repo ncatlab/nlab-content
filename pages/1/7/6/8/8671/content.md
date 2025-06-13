@@ -26,7 +26,7 @@ On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]
 
 On [[quantum gravity]] via [[causal sets]]:
 
-* [[Steven Carlip]], *Causal Sets and an Emerging Continuum* &lbrack;[arXiv:2405.14059](https://arxiv.org/abs/2405.14059)&rbrack;
+* [[Steven Carlip]]: *Causal Sets and an Emerging Continuum*, Gen Relativ Gravit **56** 95 (2024)   &lbrack;[arXiv:2405.14059](https://arxiv.org/abs/2405.14059), [doi:10.1007/s10714-024-03281-1](https://doi.org/10.1007/s10714-024-03281-1)&rbrack;
 
 
 
