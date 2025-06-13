@@ -62,7 +62,7 @@ The rectangularity condition is immediate by definition: for any $\sim$-equivale
 
 * Similarly, a [[multiplicatively idempotent semiring]] is a [[semiring]] whose multiplication operation is a band. 
 
-* An [[additively idempotent semiring]] is a [[semiring]] whose addition operation is a band. 
+* An [[additively idempotent semiring|idempotent semiring]] is a [[semiring]] whose addition operation is a band. 
 
 To be added: varieties of bands, and particularly of regular bands. 
 
