@@ -58,19 +58,33 @@ A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all o
 * [[S-matrix]]
 
 
+
 ## References
  {#References}
 
 Discussion of causal sets in [[relativistic field theory]] and [[quantum gravity]]:
 
+* [[Rafael Sorkin]]: *Geometry from order: causal sets*, Einstein Online **02** (2006) 02-1007 &lbrack;[webpage](https://www.einstein-online.info/en/spotlight/causal_sets/)&rbrack;
+
+* Petros Wallden: *Causal Sets: Quantum gravity from a fundamentally discrete spacetime*, J. Phys.: Conf. Ser. **222** 012053 (2010) &lbrack;[arXiv:1001.4041](https://arxiv.org/abs/1001.4041), [doi:10.1088/1742-6596/222/1/012053](https://doi.org/10.1088/1742-6596/222/1/012053)&rbrack;
+
+* Fay Dowker, Stav Zalel: *Evolution of universes in causal set cosmology*, Comptes Rendus Physique **18** 3–4 (2017) 246-253 &lbrack;[doi:10.1016/j.crhy.2017.03.002](https://doi.org/10.1016/j.crhy.2017.03.002)&rbrack;
+
+* Fay Dowker: *Causal Sets, Discrete Gravity*, talk notes, Heidelberg (2019) &lbrack;[pdf](https://www.physi.uni-heidelberg.de/Veranstaltungen/Talks/Presentation_Dowker.pdf)&rbrack;
+
+* Sumati Surya: *The causal set approach to quantum gravity*, Living Rev Relativ **22** 5 (2019) &lbrack;[arXiv:1903.11544](https://arxiv.org/abs/1903.11544), [doi:10.1007/s41114-019-0023-1](https://doi.org/10.1007/s41114-019-0023-1)&rbrack;
+
 * Nomaan X, *Quantum Field Theory On Causal Sets*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2306.04800](https://arxiv.org/abs/2306.04800)&rbrack;
 
 * Stav Zalel, *Covariant Growth Dynamics*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.10582](https://arxiv.org/abs/2302.10582)&rbrack;
 
-* [[Steven Carlip]], *Causal Sets and an Emerging Continuum* &lbrack;[arXiv:2405.14059](https://arxiv.org/abs/2405.14059)&rbrack;
+* [[Steven Carlip]]: *Causal Sets and an Emerging Continuum*, Gen Relativ Gravit **56** 95 (2024)   &lbrack;[arXiv:2405.14059](https://arxiv.org/abs/2405.14059), [doi:10.1007/s10714-024-03281-1](https://doi.org/10.1007/s10714-024-03281-1)&rbrack;
 
 * Heidar Moradi, Yasaman K. Yazdi, Miguel Zilhão: *Fluctuations and Correlations in Causal Set Theory* &lbrack;[arXiv:2407.03395](https://arxiv.org/abs/2407.03395)&rbrack;
 
+* Fay Dowker, Sumati Surya: *The Causal Set Approach to the Problem of Quantum Gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2024) &lbrack;[doi:10.1007/978-981-19-3079-9_70-1](https://doi.org/10.1007/978-981-19-3079-9_70-1)&rbrack;
+
+* Sumati Surya: *The Causal Set Approach to Quantum Gravity -- An Introduction*, Springer (2025) &lbrack;[ISBN:9783031844195](https://link.springer.com/book/9783031844195)&rbrack;
 
 
 See also:
