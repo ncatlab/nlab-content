@@ -446,15 +446,21 @@ In relation to [[renormalization group flow]]:
 
 
 
-Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]]:
+Musings on possible implications on relations between [[quantum gravity]] and [[quantum information]] (specifically [[quantum entanglement]]):
+
+* [[Brian Swingle]]: *Spacetime from Entanglement*, Annual Reviews **9** (2018) 345-358  &lbrack;[doi:10.1146/annurev-conmatphys-033117-054219](https://doi.org/10.1146/annurev-conmatphys-033117-054219)&rbrack;
+
+* [[Mark Van Raamsdonk]]: *Spacetime from bits*, Science **370** 6513 (9 Oct 2020) 198-202 &lbrack;[doi:10.1126/science.aay9560](https://doi.org/10.1126/science.aay9560)&rbrack;
+    
+* [[Tadashi Takayanagi]]: *Emergent Holographic Spacetime from Quantum Information* &lbrack;[arXiv:2506.06595](https://arxiv.org/abs/2506.06595)&rbrack;
 
 * {#SimonsFoundationItFromQBit} [[Simons Foundation]], *[It from Qubit: Simons Collaboration on Quantum Fields, Gravity and Information](https://www.simonsfoundation.org/mathematics-physical-sciences/it-from-qubit/)*
 
   Final meeting: *[It from QBit 2023](https://events.perimeterinstitute.ca/event/43/)*
 
-* [[Tom Banks]], *Holographic Space-time and Quantum Information* ([arXiv:2001.08205](https://arxiv.org/abs/2001.08205))
+* [[Tom Banks]], *Holographic Space-time and Quantum Information* &lbrack;[arXiv:2001.08205](https://arxiv.org/abs/2001.08205)&rbrack;
 
-* {#Georgescu19} Iulia Georgescu, *Strings and qubits*, Nature Reviews Physics volume 1, page 477 (2019) ([doi:s42254-019-0087-6](https://www.nature.com/articles/s42254-019-0087-6))
+* {#Georgescu19} Iulia Georgescu: *Strings and qubits*, Nature Reviews Physics **1** (2019) 477 &lbrack;[doi:s42254-019-0087-6](https://www.nature.com/articles/s42254-019-0087-6)&rbrack;
 
 * IAS Workshops on Quantum Information and Spacetime:
 
