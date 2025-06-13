@@ -85,7 +85,7 @@ The __antigraph__ of a function $f\colon S \to T$ is
 $$ \{(x,y) \;|\; x\colon S, y\colon T \;|\; f(x) \ne y\} .$$
 Recall that in ordinary topology, a function between [[Hausdorff spaces]] is continuous iff its [[graph of a function|graph]] is closed. Similarly, a function $f\colon S \to T$ is strongly extensional iff its antigraph is open. (Then the [[graph of a function|graph]] of $f$ is the complement of the antigraph.)
 
-One important topological concept that doesn\'t appear classically is locatedness; in an set with a [[tight apartness relation]], a subset $A$ is __[[located subspace|located]]__ if, given any point $x$ and any neighbourhood $U$ of $x$, either $U \cap A$ is [[inhabited set|inhabited]] (that is, it has a point) or some neighbourhood $V$ of $x$ (not necessarily $U$) is apart from $\tilde A$, noted $V\# A$, meaning $\forall z\in V, a\in A\ [z\# a]$. Note that every point is located. (For an example of a set that need not be located, consider $\{x\colon S \;|\; p\}$, where $p$ is an arbitrary [[truth value]]. In an inhabited space, this set is located iff $p$ is true or false.)
+One important topological concept that doesn\'t appear classically is locatedness; in a set with a [[tight apartness relation]], a subset $A$ is __[[located subspace|located]]__ if, given any point $x$ and any neighbourhood $U$ of $x$, either $U \cap A$ is [[inhabited set|inhabited]] (that is, it has a point) or some neighbourhood $V$ of $x$ (not necessarily $U$) is apart from $A$, noted $V\# A$, meaning $\forall z\in V, a\in A\ [z\# a]$. Note that every point is located. (For an example of a set that need not be located, consider $\{x\colon S \;|\; p\}$, where $p$ is an arbitrary [[truth value]]. In an inhabited space, this set is located iff $p$ is true or false.)
 
 
 ### Relation to metric spaces
@@ -180,7 +180,7 @@ According to [Troelstra and van Dalen](#TvD):
 
 * Apartness plays a minimal role in _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg.
 
-* A great reference for point-set topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)_ (1996).
+* A great reference for point-set topology in constructive mathematics is the Ph.D. thesis of [[Franka Waaldijk]], _[Modern intuitionistic topology](https://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)_ (1996).
 
 * {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 ([doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518))
 
