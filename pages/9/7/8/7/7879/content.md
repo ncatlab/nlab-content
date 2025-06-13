@@ -66,9 +66,9 @@ It _is_ consistent to have a cartesian closed category with a recursion operator
 
 Languages similar to Haskell but refining it from plain [[type theory]] to [[dependent type theory]] include
 
-* [[Coq]], [[Agda]] and Idris
+* [[Rocq]], [[Agda]] and Idris
 
-Coq and Agda is consistent with [[Homotopy type theory]], while Idris [is not](http://cstheory.stackexchange.com/questions/27979/formalizing-homotopy-type-theory-in-idris/28013#28013).
+Rocq and Agda is consistent with [[Homotopy type theory]], while Idris [is not](http://cstheory.stackexchange.com/questions/27979/formalizing-homotopy-type-theory-in-idris/28013#28013).
 
 A wiki platform based on Haskell, running texmath
 
