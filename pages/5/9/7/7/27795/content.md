@@ -85,8 +85,10 @@ Because of this, sometimes one calls the monad on $Meas$ the *sobrification mona
 
 In ordinary [[measure theory]], it is well known that the [[measurable subsets]] $A\subseteq X$ are "included" in the [[measurable functions]] via the [[indicator functions]] $1_A$. Those are exactly the measurable functions which take values only in $0$ and $1$. Conversely, from the σ-algebra one can recover exactly the measurable functions on $X$ (for example, by taking suprema of linear combinations of indicators). 
 
-(...)
+We can abstract this idea of "functions with values $0$ and $1$" as the [[projection]] elements of a C\*-algebra, that is, those elements $h\in A$ such that $h=h*$ (self-adjoint, generalizing real-valued) and $hh=h$ (idempotent). 
+As one can show, the projection elements of a commutative σ-C\*algebra indeed form a [[σ-complete Boolean algebra]], the abstract analogue of a σ-algebra via the [[Loomis-Sikorski duality]]. Moreover, every σ-complete Boolean algebra can be shown as arising in this way. 
 
+We therefore have an equivalence of categories between σ-C\*algebras and σ-complete Boolean algebras, commuting with the left and right-adjoints as in the following diagram.
 \begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
 row sep=huge,%
@@ -96,8 +98,10 @@ column sep=tiny,%
 & \mathbf{Meas}^\mathrm{op} \ar[bend left=15]{ul}{\mathcal{L}^\infty}[swap]{\perp} \ar[bend left=15]{ur}{\Sigma}
 \end{tikzcd}
 
+In other words, we have an isomorphism of adjunctions, and so, the two dualities (measurable Gelfand and [[Loomis-Sikorski duality|Loomis-Sikorski]]) can be seen as a [[Gelfand duality|Gelfand-type]] and a [[Stone duality|Stone-type]] description of one and the same duality.
 
 More details in [FL'25, Section 4](#fritz_lorenzin).
+
 
 ### Stochastic version
 
