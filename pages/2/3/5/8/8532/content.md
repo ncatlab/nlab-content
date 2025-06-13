@@ -95,7 +95,7 @@ There are several exciting ways this could evolve. If you want to help out, get 
 
 * A graphical front end would be a powerful addition. Compare to [Quantomatic](https://sites.google.com/site/quantomatic/), a GUI for _ordinary_ linear algebra.
 
-* Can _TwoVect_ be connected in a useful way to [computational methods in higher type theory](Coq)?
+* Can _TwoVect_ be connected in a useful way to [computational methods in higher type theory](Rocq)?
 
 * It should be possible to write code that inserts the structural isomorphisms $\tau$, $\omega$ and $\sigma$ _automatically_ where necessary. This would make the package enormously more powerful for certain applications.
 
