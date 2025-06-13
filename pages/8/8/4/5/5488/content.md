@@ -98,7 +98,7 @@ In the $n$Lab, the term '[[pairing]]' usually refers to *[[ordered pair|ordered]
 
 For the axiom of ordered pairing see:
 
-* [[Håkon Robbestad Gylterud]], [[Elisabeth Bonnevier]], *Non-wellfounded sets in HoTT* ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
+* [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], [[Niccolò Veltri]], *Terminal Coalgebras and Non-wellfounded Sets in Homotopy Type Theory* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696)&rbrack;
 
 [[!redirects axiom of pairing]]
 [[!redirects axiom of pairs]]
