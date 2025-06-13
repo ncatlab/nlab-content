@@ -111,6 +111,7 @@ More details in [FL'25, Section 4](#fritz_lorenzin).
 ## See also
 
 * [[point-free measure theory]], [[Loomis-Sikorski duality]]
+* [[Stochastic Gelfand duality]], [[Markov kernel]], [[Stoch]]
 * [[monotone-complete C\*-algebra]], [[σ-complete Boolean algebra]]
 * [[Gelfand duality]], [[point-free topology]]
 * [[zero-one measure]], [[zero-one kernel]], [[Markov kernel]], [[Stoch]]
@@ -119,10 +120,10 @@ More details in [FL'25, Section 4](#fritz_lorenzin).
 
 ## References
 
-* Kazuyuki Saitô and J. D. Maitland Wright,_Monotone Complete C\*-algebras and Generic Dynamics_, Springer, 2015.
+* Kazuyuki Saitô and J. D. Maitland Wright, _Monotone-Complete C\*-algebras and Generic Dynamics_, Springer, 2015.
 
 * Gert K. Pedersen. _C\*-algebras and their automorphism groups_, Academic Press, 2018.
 
-* {#fritz_lorenzin} [[Tobias Fritz]] and Antonio Lorenzin, Categories of abstract and noncommutative measurable spaces, 2025. ([arXiv](https://arxiv.org/abs/2504.13708))
+* {#fritz_lorenzin} [[Tobias Fritz]] and Antonio Lorenzin, _Categories of abstract and noncommutative measurable spaces_, 2025. ([arXiv](https://arxiv.org/abs/2504.13708))
 
 category: probability
