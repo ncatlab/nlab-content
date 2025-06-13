@@ -242,6 +242,9 @@ In terms of [[causal sets]]:
 
 * Nomaan X, *Quantum Field Theory On Causal Sets*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2306.04800](https://arxiv.org/abs/2306.04800)&rbrack;
 
+* Fay Dowker, Sumati Surya: *The Causal Set Approach to the Problem of Quantum Gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2024) &lbrack;[doi:10.1007/978-981-19-3079-9_70-1](https://doi.org/10.1007/978-981-19-3079-9_70-1)&rbrack;
+
+
 On Covariant Growth Dynamics and causal sets theory:
 
 * Stav Zalel, *Covariant Growth Dynamics*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2302.10582](https://arxiv.org/abs/2302.10582)&rbrack;
