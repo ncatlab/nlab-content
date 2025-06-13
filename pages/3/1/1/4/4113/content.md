@@ -442,7 +442,7 @@ This construction is used a lot in [[Cech cohomology]]. For instance it can be u
 
 Discussion of partitions of unity in [[constructive mathematics]] is in
 
-* {#Waaldijk96} [[Frank Waaldijk]], section 3.1 of _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
+* {#Waaldijk96} [[Franka Waaldijk]], section 3.1 of _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
 
 
 [[!redirects partition of unity]]
