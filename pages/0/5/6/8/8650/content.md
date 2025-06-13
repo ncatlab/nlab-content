@@ -13,7 +13,7 @@ _Mathematica_ is a computer algebra software package.
 
 * [[proof assistants]]:
 
-  * [[Coq]], [[Agda]]
+  * [[Rocq]], [[Agda]]
 
   * [[ELF]]
 
