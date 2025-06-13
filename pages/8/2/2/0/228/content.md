@@ -85,7 +85,7 @@ The __antigraph__ of a function $f\colon S \to T$ is
 $$ \{(x,y) \;|\; x\colon S, y\colon T \;|\; f(x) \ne y\} .$$
 Recall that in ordinary topology, a function between [[Hausdorff spaces]] is continuous iff its [[graph of a function|graph]] is closed. Similarly, a function $f\colon S \to T$ is strongly extensional iff its antigraph is open. (Then the [[graph of a function|graph]] of $f$ is the complement of the antigraph.)
 
-One important topological concept that doesn\'t appear classically is locatedness; in an set with a [[tight apartness relation]], a subset $A$ is __[[located subspace|located]]__ if, given any point $x$ and any neighbourhood $U$ of $x$, either $U \cap A$ is [[inhabited set|inhabited]] (that is, it has a point) or some neighbourhood of $x$ (not necessarily $U$) is contained in $\tilde A$. Note that every point is located. (For an example of a set that need not be located, consider $\{x\colon S \;|\; p\}$, where $p$ is an arbitrary [[truth value]]. In an inhabited space, this set is located iff $p$ is true or false.)
+One important topological concept that doesn\'t appear classically is locatedness; in an set with a [[tight apartness relation]], a subset $A$ is __[[located subspace|located]]__ if, given any point $x$ and any neighbourhood $U$ of $x$, either $U \cap A$ is [[inhabited set|inhabited]] (that is, it has a point) or some neighbourhood $V$ of $x$ (not necessarily $U$) is apart from $\tilde A$, noted $V\# A$, meaning $\forall z\in V, a\in A\ [z\# a]$. Note that every point is located. (For an example of a set that need not be located, consider $\{x\colon S \;|\; p\}$, where $p$ is an arbitrary [[truth value]]. In an inhabited space, this set is located iff $p$ is true or false.)
 
 
 ### Relation to metric spaces
