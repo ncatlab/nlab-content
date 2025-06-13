@@ -129,7 +129,9 @@ Formalization of set theory in [[homotopy type theory]] (via [[h-sets]]) is disc
 
 * J&#233;r&#233;my Ledent, _Modeling set theory in homotopy type theory_ (2014) ([pdf](http://perso.ens-lyon.fr/jeremy.ledent/internship_report.pdf))
 
-* Håkon Robbestad Gylterud, Elisabeth Bonnevier, _Non-wellfounded sets in homotopy type theory_ ([arXiv:2001.06696](https://arxiv.org/abs/2001.06696))
+For [[non-wellfounded set theory]] in [[homotopy type theory]]:
+
+* [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], [[Niccolò Veltri]], *Terminal Coalgebras and Non-wellfounded Sets in Homotopy Type Theory* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696)&rbrack;
 
 See also at [[homotopy type theory FAQ]] _[What is HoTT? -- For set theorists](homotopy+type+theory+FAQ#WhatIsHoTTForSetTheorists)_.
 
