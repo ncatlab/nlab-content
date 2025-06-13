@@ -1052,7 +1052,7 @@ out of the [[product]] of [[spacetime]] with the [[moduli stack]] of fields.
 #### Spin-structures and other $G$-structures
  {#IdeaSpinStructures}
 
-Some fields in physics are (or involve) choices of _[[G-structure]]_ in the sense of [[reduction and lift of structure groups]]. Well-known examples include the choice of _[[orientation]]_ and of _[[Spin structure]]_ in field theories with [[fermion]] fields (discussed in detail in _[Fermions](#Fermions)_ below). Often in the literature the choice of [[orientation]] and [[Spin structure]] is treated as an external parameter, but detailed analysis at least in low-dimensional examples shows that the in the full theory this is really a field configuration. For instance in [[path integral]] [[quantization]] for theories with fermions, part of the integral over all field configurations is a sum over Spin structures.
+Some fields in physics are (or involve) choices of _[[G-structure]]_ in the sense of [[reduction and lift of structure groups]]. Well-known examples include the choice of _[[orientation]]_ and of _[[Spin structure]]_ in field theories with [[fermion]] fields (discussed in detail in _[Fermions](#Fermions)_ below). Often in the literature the choice of [[orientation]] and [[Spin structure]] is treated as an external parameter, but detailed analysis at least in low-dimensional examples shows that in the full theory this is really a field configuration. For instance in [[path integral]] [[quantization]] for theories with fermions, part of the integral over all field configurations is a sum over Spin structures.
 
 Now, a spin structure _is_ equivalently a section of something, but again not of a [[principal bundle]], but of an analog in [[higher geometry]], a [[principal 2-bundle]]. 
 
