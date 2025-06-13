@@ -275,6 +275,12 @@ course is also immediately checked explicitly.
 
 ## References
 
+Textbook accounts:
+
+* [[Francis Borceux]]. Ex. 1.2.7 in: *[[Handbook of Categorical Algebra]]*, Vol **1**: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
+* {#Riehl17} [[Emily Riehl]], Ex. 1.1.3 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[ISBN:9780486809038](https://store.doverpublications.com/products/9780486809038), [pdf](https://math.jhu.edu/~eriehl/context.pdf), [webpage](https://math.jhu.edu/~eriehl/context/)&rbrack;
+
 Formalization in [[cubical Agda]]:
 
 * [[1lab]]: *[Slice categories](https://1lab.dev/Cat.Instances.Slice.html)*
