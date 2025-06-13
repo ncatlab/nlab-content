@@ -7,12 +7,18 @@
 
 * [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], *Univalent material set theory* ([arXiv:2312.13024](https://arxiv.org/abs/2312.13024))
 
-On [[constructive set theory]] in [[homotopy type theory]]:
+On [[non-wellfounded sets]] in [[homotopy type theory]]:
 
-* [[Håkon Robbestad Gylterud]], [[Elisabeth Bonnevier]], *Non-wellfounded sets in HoTT* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696), talk video:[YT](https://www.youtube.com/watch?v=ALj5hOmwXps)&rbrack;
+* [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], [[Niccolò Veltri]], *Terminal Coalgebras and Non-wellfounded Sets in Homotopy Type Theory* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696)&rbrack;
+
+On the category of iterative sets in [[homotopy type theory]]:
+
+* [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, &lbrack;[arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
 
 ## Talks
 
 * [[Håkon Robbestad Gylterud]], *Defining and relating theories*, [[Homotopy Type Theory Electronic Seminar Talks]], 25 March 2021 ([video](https://www.youtube.com/watch?v=8aTDEn2D2pA), [slides](https://www.uwo.ca/math/faculty/kapulkin/seminars/hottestfiles/Gylterud-2021-03-25-HoTTEST.pdf))
+
+[[!redirects Håkon Gylterud]]
 
 category: people
