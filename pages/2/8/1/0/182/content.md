@@ -1,13 +1,17 @@
 #Definition#
 
 
-A _graded-cocommutative codifferential coalgebra_ is a cocommutative [[coalgebra|comonoid]] in the category of chain complexes (of modules over some ring).
+A _graded-cocommutative differential coalgebra_ is a cocommutative [[coalgebra]] in the category of chain complexes (of modules over some ring).
 
-We write $CoDGCA$ for the [[category]] of such codifferential coalgebras.
+We write $GCDC$ for the [[category]] of such codifferential coalgebras.
 
 ##Remarks##
 
-* Codifferential coalgebras whose underlying graded-cocommutative coalgebra is free over a complex of vector spaces in positive degree are [[L-infinity-algebra|Lie infinity-algebra]]s.
+* Differential coalgebras whose underlying graded-cocommutative coalgebra is free over a complex of vector spaces in positive degree are [[L-infinity-algebra|Lie infinity-algebra]]s.
+
+## Related concepts
+
+* [[coalgebra]], [[differential graded coalgebra]]
 
 #References#
 
@@ -20,3 +24,5 @@ We write $CoDGCA$ for the [[category]] of such codifferential coalgebras.
 * Todd Trimble, [_Sketch of proof that CoDGCA is cartesian closed_](http://golem.ph.utexas.edu/category/2007/11/on_bv_quantization_part_viii.html#c013564) 
 
 category: category
+
+[[!redirects CoDGCA]]
