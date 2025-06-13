@@ -117,10 +117,10 @@ Thus, the category of locally decomposable apartness spaces is equivalent to the
 
 Notions of "apartness space" based on a presentation in terms of basic opens, somewhat akin to [[formal topology]], were developed in:
 
-* [[Frank Waaldijk]], *Modern intuitionistic topology*, Ph.D. thesis, 1996, [link](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)
+* [[Franka Waaldijk]], *Modern intuitionistic topology*, Ph.D. thesis, 1996, [link](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)
  {#FW96}
 
-* [[Frank Waaldijk]], *Natural topology*, 2011, 2012, [arxiv](https://arxiv.org/abs/1210.6288)
+* [[Franka Waaldijk]], *Natural topology*, 2011, 2012, [arxiv](https://arxiv.org/abs/1210.6288)
 
 The above definition in terms of an apartness relation between points and subsets is slightly adapted from the version given in:
 
