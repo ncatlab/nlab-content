@@ -127,6 +127,19 @@ For instance, a [[2-category]] must have strict categories as its [[hom-categori
 
 On the other hand, the underlying 1-category of a [[strict 2-category]] (its objects and 1-morphisms) need not be a strict 1-category.  For instance, this is the case for the strict 2-category $Str Cat$ defined in a structural set theory, such as [[SEAR]], in which there is no equality predicate on sets.  For a fully consistent terminology, we could say 'locally strict $2$-category' in place of 'strict $2$-category', but this is unlikely to catch on.  Some system of numbered strictness ($1$-strict, $2$-strict, etc) might also work.
 
+## References
+
+Strict categories and their [[structure identity principle]] are discussed in chapter 10 of:
+
+* [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *The Univalence Principle* ([arXiv:2102.06275](https://arxiv.org/abs/2102.06275))
+
+Strict categories are also discussed in section 9.6 of:
+
+* *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+
+The category of iterative sets is a strict category in:
+
+* [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, &lbrack;[arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
 
 [[!redirects strict category]]
 [[!redirects strict categories]]
