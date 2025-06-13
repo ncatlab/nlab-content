@@ -97,10 +97,6 @@ If $\eta$ and $\eta'$ are coaugmentations of $C$ and $C'$ respectively, then $\e
 
 #### Coderivations of pre-graded coalgebras
 
-+--{: .query}
-[[Tim Porter|Tim]]: These are called derivations by some sources, but I think that they are the coderivations of other workers. (to be checked)
-=--
-
 If $C$ is a pre-gc, a _coderivation_ of degree $p\in \mathbb{Z}$, is a linear map $\theta \in Hom_p(C,C)$ such that 
 
 $$\Delta \circ \theta = (\theta \otimes id_C + \tau \circ(\theta \otimes id_C)\circ \tau)\circ \Delta,  and  \varepsilon\circ \theta = 0.$$
