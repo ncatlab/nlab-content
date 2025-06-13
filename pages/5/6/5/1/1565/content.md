@@ -108,6 +108,12 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * [[Kleene star algebra]]
 
+* [[additively idempotent rig]]
+
+* [[multiplicatively idempotent rig]]
+
+* [[Boolean rig (Guzmán)]]
+
 ## References
 
 The terminology "rig" is due to:
