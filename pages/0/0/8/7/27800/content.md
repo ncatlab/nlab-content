@@ -49,7 +49,7 @@ The main examples are probably [[distributive lattices]].  In this case, the joi
 
 Of course, a [[Boolean ring]] is a Boolean rig, since any ring is a rig.  However, since it\'s also a distributive lattice, a Boolean ring is actually a Boolean rig in two different ways.
 
-Let see what are the smallest Boolean rig.
+Let’s see what are the smallest Boolean rigs.
 
 - The only Boolean rig of cardinal $1$ is the zero ring $0$.
 
