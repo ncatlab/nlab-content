@@ -129,13 +129,14 @@ On the other hand, the underlying 1-category of a [[strict 2-category]] (its obj
 
 ## References
 
-Strict categories and their [[structure identity principle]] are discussed in chapter 10 of:
 
-* [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *The Univalence Principle* ([arXiv:2102.06275](https://arxiv.org/abs/2102.06275))
+In [[homotopy type theory]] (via [[univalent categories]]), strict categories and their [[structure identity principle]] are discussed in chapter 10 of:
+
+* [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]]: *The Univalence Principle*, Memoirs of the AMS **305** (2025) &lbrack;[arXiv:2102.06275](https://arxiv.org/abs/2102.06275), [ams:memo-305-1541](https://bookstore.ams.org/memo-305-1541)&rbrack;
 
 Strict categories are also discussed in section 9.6 of:
 
-* *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+* [[Univalent Foundations Project]]: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, Institute for Advanced Study (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
 The category of iterative sets is a strict category in:
 
