@@ -34,7 +34,9 @@ On computing the [[first stable homotopy group of spheres]] via [[homotopy type 
 
 * [[Anders Mörtberg]]: *Computational Proofs in Synthetic Homotopy Theory*, [talk at](CQTS#MörtbergApr2024) *[Running HoTT 2024](CQTS#RunningHoTT2024)*, [[CQTS]]@NYUAD (April 2024) &lbrack;video:[kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_yquumra8?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_yquumra8)&rbrack;
 
+On the category of iterative sets in [[homotopy type theory]]:
 
+* [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, &lbrack;[arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
 
 ## Related entries
 
