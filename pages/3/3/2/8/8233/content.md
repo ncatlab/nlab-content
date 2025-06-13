@@ -16,7 +16,7 @@
 
 ## Idea
 
-A formal language for specifying [[logic|logical]] [[theories]]. Gallina is used in the [[proof assistant]] system [[Coq]].
+A formal language for specifying [[logic|logical]] [[theories]]. Gallina is used in the [[proof assistant]] system [[Rocq]].
 
 ## References
 
