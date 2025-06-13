@@ -51,6 +51,8 @@ If $\mathcal{V}$ contains a type classifying all $\mathcal{U}$ types, then the t
 
 * [[Taichi Uemura]], *Cubical Assemblies and the Independence of the Propositional Resizing Axiom*, HoTT/UF 2018 [abstract](https://hott-uf.github.io/2018/abstracts/HoTTUF18_paper_6.pdf) [slides](https://hott-uf.github.io/2018/slides/UemuraHoTTUF2018.pdf)
 
+* [[Tom de Jong]], [[Martín Hötzel Escardó]], _Domain Theory in Constructive and Predicative Univalent Foundations_, in: _29th EACSL Annual Conference on Computer Science Logic_, [CSL 2021](https://csl2021.fmf.uni-lj.si/), LIPIcs proceedings 183, 2021 ([doi:10.4230/LIPIcs.CSL.2021.28](https://doi.org/10.4230/LIPIcs.CSL.2021.28), [arXiv:2008.01422](https://arxiv.org/abs/2008.01422))
+
 * {#GSV20} [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], [[Niccolò Veltri]], *Terminal Coalgebras and Non-wellfounded Sets in Homotopy Type Theory* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696)&rbrack;
 
 * [Formalization](https://unimath.github.io/agda-unimath/foundation.propositional-resizing.html) in [[unimath|Agda Unimath]].
