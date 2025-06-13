@@ -10,7 +10,7 @@ Here is a very incomplete list of software available for mathematics, especially
 
 ## Proof assistants
 
-* [[Coq]]
+* [[Rocq]]
 * [[Agda]]
 * [[Lean]]
 * [[Nuprl]]
