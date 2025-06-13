@@ -12,11 +12,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
-## Definition ##
+## Definition 
 
 In [[dependent type theory]], the __axiom of replacement__ states that given a [[type universe]] $U$, for every [[essentially small type|essentially $U$-small]] type $A$, every [[locally small type|locally $U$-small]] type $B$, and every function $f:A \to B$, the [[image]] $\mathrm{im}(f)$ is essentially $U$-small. 
 
@@ -28,7 +26,9 @@ If the dependent type theory has [[type variables]] and [[impredicative polymorp
 
 $$\mathrm{axrepl}_U:\Pi A.\Pi B.\left(\sum_{C:U} T(C) \simeq A\right) \times \left(\sum_{R:B \times B \to U} \prod_{a:B} \prod_{b:B} T(R(a, b)) \simeq (a =_B b)\right) \to \left(\sum_{I:(A \to B) \to U} \prod_{f:A \to B} T(I(f)) \simeq \mathrm{im}(f)\right)$$
 
-## See also ##
+## Related concepts
+
+* [[resizing axiom]]
 
 * [[type universe]]
 
