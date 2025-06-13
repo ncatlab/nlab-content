@@ -62,6 +62,8 @@ The resulting structures are [[generalized the|the]] [[Boolean ring]] and [[gene
 
 ## Related concepts
 
+* [[rig]]
+
 * [[multiplicatively idempotent rig]]
 
 * [[Boolean algebra]]
