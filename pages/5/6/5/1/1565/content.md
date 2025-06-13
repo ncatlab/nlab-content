@@ -142,5 +142,7 @@ Discussion under the name *semirings*:
 
 [[!redirects rigs]]
 [[!redirects Rigs]]
+
 [[!redirects commutative rig]]
+[[!redirects commutative rigs]]
 
