@@ -194,7 +194,7 @@ Textbooks on mathematical logic:
 
 * [[William Lawvere]], _[[Adjointness in Foundations]]_, Dialectica 23 (1969), 281-296
 
-* [[William Lawvere]]  _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
+* [[William Lawvere]], _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
 
 
 [[!include REF MakkaiReyes77]]
