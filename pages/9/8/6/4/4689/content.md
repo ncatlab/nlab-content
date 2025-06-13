@@ -135,6 +135,22 @@ The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quant
 <img src="https://ncatlab.org/nlab/files/GravityVertexCorrectionsForQED.png" width="750">
 
 
+## Approaches
+ {#Approaches}
+
+Some proposed proposals towards a more fundamental theory of quantum gravity:
+
+* [[causal sets]]
+
+* [[causal dynamical triangulation]]
+
+* [[string theory]]
+
+* [[holographic principle]], [[holographic entanglement entropy]] (*[It from QBit](entanglement#ReferencesItFromQBit)*)
+
+* [[asymptotic freedom]]
+
+
 ## Special cases
 
 * [[2d quantum gravity]]
