@@ -1,6 +1,6 @@
 [[!redirects unitary skeletal semiring]]
 
-> This page is about Boolean semirings in the sense of unitary skeletal semirings. For other notions of [[Boolean semirings]], see [[Boolean semiring]]. 
+> This page is about Boolean semirings in the sense of unitary skeletal semirings. For other notions of "Boolean semirings", see [[Boolean semiring]]. 
 
 \tableofcontents
 
