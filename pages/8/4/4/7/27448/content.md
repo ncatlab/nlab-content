@@ -9,6 +9,9 @@
 
 On [[lattice QFT|quantum lattice]] [[Einstein gravity]] via [[causal dynamical triangulation]]:
 
+* [[Jan Ambjørn]], J. Jurkiewicz, [[Renate Loll]]: *Causal Dynamical Triangulations and the Quest for Quantum Gravity*, in: *Foundations of Space and Time*, Cambridge University Press (2012) &lbrack;[arXiv:1004.0352](https://arxiv.org/abs/1004.0352), [doi:10.1017/CBO9780511920998.013](https://doi.org/10.1017/CBO9780511920998.013)&rbrack;
+
+
 * [[Jan Ambjørn]], [[Renate Loll]]: *Non-perturbative Lorentzian Quantum Gravity, Causality and Topology Change*, Nucl. Phys. B **536** (1998) 407-434 &lbrack;[arXiv:hep-th/9805108](https://arxiv.org/abs/hep-th/9805108), <a href="https://doi.org/10.1016/S0550-3213(98)00692-0">doi:10.1016/S0550-3213(98)00692-0</a>&rbrack;
 
 * [[Jan Ambjørn]], J. Jurkiewicz, [[Renate Loll]]: *Dynamically Triangulating Lorentzian Quantum Gravity_, Nucl. Phys. B **610** (2001) 347-382 &lbrack;[arXiv:hep-th/0105267](https://arxiv.org/abs/hep-th/0105267), <a href="https://doi.org/10.1016/S0550-3213(01)00297-8">doi:10.1016/S0550-3213(01)00297-8</a>&rbrack;
