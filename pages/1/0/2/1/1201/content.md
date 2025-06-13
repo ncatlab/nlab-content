@@ -115,6 +115,12 @@ That this statement is the correct structural version of antifoundation may be j
 
 * [[Mostowski's principle]]
 
+## References
+
+On [[non-wellfounded sets]] in [[homotopy type theory]]:
+
+* [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], [[Niccolò Veltri]], *Terminal Coalgebras and Non-wellfounded Sets in Homotopy Type Theory* &lbrack;[arXiv:2001.06696](https://arxiv.org/abs/2001.06696)&rbrack;
+
 category: foundational axiom, logic
 
 [[!redirects axiom of foundation]]
@@ -128,3 +134,33 @@ category: foundational axiom, logic
 
 [[!redirects membership induction]]
 [[!redirects membership-induction]]
+
+[[!redirects wellfounded set]]
+[[!redirects wellfounded sets]]
+
+[[!redirects well-founded set]]
+[[!redirects well-founded sets]]
+
+[[!redirects nonwellfounded set]]
+[[!redirects nonwellfounded sets]]
+
+[[!redirects non-wellfounded set]]
+[[!redirects non-wellfounded sets]]
+
+[[!redirects non-well-founded set]]
+[[!redirects non-well-founded sets]]
+
+[[!redirects wellfounded set theory]]
+[[!redirects wellfounded set theories]]
+
+[[!redirects well-founded set theory]]
+[[!redirects well-founded set theories]]
+
+[[!redirects nonwellfounded set theory]]
+[[!redirects nonwellfounded set theories]]
+
+[[!redirects non-wellfounded set theory]]
+[[!redirects non-wellfounded set theories]]
+
+[[!redirects non-well-founded set theory]]
+[[!redirects non-well-founded set theories]]
