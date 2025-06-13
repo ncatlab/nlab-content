@@ -105,6 +105,10 @@ Most foundations of mathematics are predicative in one sense: no set may belong 
 
 Once one accepts the [[axiom of infinity]], there\'s not much objection to accepting more general [[inductive type]]s such as [[inductive-inductive types]] and [[quotient inductive types]]; these are sets that are defined recursively much like a [[natural numbers object]].  Categorially, we may see these as [[initial algebra]]s of certain functors on $Set$.  [[coinductive type|Coinductive types]], which are the [[terminal coalgebra|final coalgebra]]s of these functors, also exist in impredicative theories, but not predicatively.
 
+### Propositional impredicativity
+
+The [[axiom of propositional impredicativity]] in [[dependent type theory]] says that given a [[universe]] $U$, the set of $U$-small [[subsingletons]] is $U$-small itself. Coupled with the fact that universes $U$ are typically [[cartesian closed]] and [[locally cartesian closed]] in [[dependent type theory]], propositional impredicativity implies having [[power sets]], or at least $U$-small power sets in each [[universe]] $U$, and so is impredicative. The [[category of sets]] in a universe $\mathrm{Set}_U$ is always an [[elementary topos]]. See [[propositional impredicativity]] for more details. 
+
 ### Impredicative polymorphism
 
 A different sort of impredicativity, called [[impredicative polymorphism]] is to be found in some [[type theory|type theories]], in which, roughly speaking, one is allowed to define "functions" whose "domain" is the class of all types in a [[type universe]] or a [[type theory]]. For instance, one might be able to form a type called $\forall \alpha:Type, \alpha\to\alpha$, which has the property that an inhabitant of that type is a "function" which assigns to *every* type $\alpha$, an endomorphism of $\alpha$.  This is clearly impredicative, since the type $\forall \alpha:Type, \alpha\to\alpha$ is also a possible value of $\alpha$.
