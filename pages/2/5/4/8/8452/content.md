@@ -29,7 +29,7 @@ formalization of [[mathematics]] without [[foundations|foundational]] prejudice.
 
 * [[dependent type theory]]
 
-* [[Coq]], [[Agda]]
+* [[Rocq]], [[Agda]]
 
 ## References
 
