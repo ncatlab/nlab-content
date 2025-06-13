@@ -66,6 +66,8 @@ The rectangularity condition is immediate by definition: for any $\sim$-equivale
 
 To be added: varieties of bands, and particularly of regular bands. 
 
+* A *split band* is defined in definition 1.1 of [McAlister & Blyth 1978](#MB78). 
+
 ## Relation to semilattices 
 
 The category of semilattices is a full subcategory of the category of bands; by general categorical considerations, the full inclusion has a left adjoint, called the [[reflector]] from bands to semilattices. 
@@ -90,6 +92,12 @@ By a theorem of [McLean](#McLean54), finitely generated bands are finite; see [H
 
 A band $S$ satisfying the [[graphic category| graphic identity]] $x y x = x y$ for all $x$ and $y$ is said to be _left-regular_. Left-regular bands can arise from hyperplane arrangements and there has been work studying [[random walk|random walks]] on these hyperplane arrangements by analysing the semigroup algebras of the associated bands: see [Brown 00](#Brown00) and [Margolis-Saliola-Steinberg 15](#MargolisSaliolaSteinberg15). Left-regular band monoids are also called _graphic monoids_ which are examples of 1-object [[graphic category|graphic categories]].
 
+### Skeletons and split bands
+
+For the definition of a skeleton of a band, see definition 1.2 of [McAlister & Blyth 1978](#MB78) for the time being...
+
+But according to lemma 1.3 of [McAlister & Blyth 1978](#MB78), a band is split [[if and only if]] it has a skeleton. 
+
 ## Related concepts
 
 * [[semigroup]]
@@ -110,6 +118,12 @@ A band $S$ satisfying the [[graphic category| graphic identity]] $x y x = x y$ f
 
 * {#MargolisSaliolaSteinberg15}  Stuart Margolis, Franco Saliola, [[Benjamin Steinberg]], _Cell complexes, poset topology and the representation theory of algebras arising in algebraic combinatorics and discrete geometry_ ([arXiv:1508.05446](https://arxiv.org/abs/1508.05446))
 
+Split bands and the skeleton of a band are defined in:
+
+* {#MB78} [[Donald McAlister]], [[Tom Blyth]], *Split orthodox semigroups*, Journal of Algebra, Volume 51, Issue 2, April 1978, Pages 491-525, &lbrack;<a href="https://doi.org/10.1016/0021-8693(78)90118-7">doi:10.1016/0021-8693(78)90118-7</a>]&rbrack;
+
+* {#HCG22} Kaiqing Huang, Yizhi Chen, Aiping Gan, *Structure of split additively orthodox semirings*, AIMS Mathematics, 2022, 7(6): 11345-11361. &lbrack;[doi: 10.3934/math.2022633](https://doi.org/10.3934/math.2022633), [pdf](https://www.aimspress.com/aimspress-data/math/2022/6/PDF/math-07-06-633.pdf)&rbrack;
+
 See also
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Band_(algebra)">Band (algebra)</a>*
@@ -119,3 +133,9 @@ See also
 
 [[!redirects idempotent semigroup]]
 [[!redirects idempotent semigroups]]
+
+[[!redirects split band]]
+[[!redirects split bands]]
+
+[[!redirects skeleton of a band]]
+[[!redirects skeleta of a band]]
