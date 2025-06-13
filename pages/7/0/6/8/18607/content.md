@@ -31,6 +31,13 @@ and a limit where aspects of [[little string theory]] become visible:
 * Henry Ling, Ali Reza Mohazab, Hsien-Hang Shieh, Greg van Anders, [[Mark Van Raamsdonk]], *Little String Theory from a Double-Scaled Matrix Model*, JHEP 0610:018 (2006) &lbrack;[arXiv:hep-th/0606014](https://arxiv.org/abs/hep-th/0606014), [doi:10.1088/1126-6708/2006/10/018](https://doi.org/10.1088/1126-6708/2006/10/018)&rbrack;
 
 
+On [[D-branes]]:
+
+> *[The Amazing Matrix in String Theory](http://www.physics.mcgill.ca/seminars/PSC_van-raamsdonk.html)* (2006)
+
+> Most of the dramatic progress in string theory over the past decade has in some way involved the degrees of freedom of D-branes, solitonic objects in string theory whose low energy physics is described by quantum field theories living on the branes. Essential to many of the applications of D-brane physics is the fact that the number of degrees of freedom of a collection of branes scales not as the number of branes, but as the square of the number of branes. In particular, the fields describing the low energy physics of the branes, including even the coordinates describing the transverse fluctuations of D-branes, become matrix valued. At the classical level, this implies that D-brane configurations are described by a new kind of geometry, with such dramatic possibilities as objects that can change their dimension dynamically. Quantum mechanically, these matrix degrees of freedom can give rise to quantum field theories unlike any studied previously, and most dramatically, to new nonperturbative formulations of string theory and quantum gravity. In this talk, I will review some basic aspects of D-branes and their matrix degrees of freedom, some of the fascinating classical and quantum phenomena associated with these matrix degrees of freedom, and some aspects of the truly remarkable new nonperturbative formulations of string theory.
+
+
 On the [[mass-deformed ABJM model]] and the [[Myers effect]] for [[M2 branes]] ([[M2-M5 brane bound states]]):
 
 * [[Jaume Gomis]], Diego Rodriguez-Gomez, [[Mark Van Raamsdonk]], [[Herman Verlinde]], _A Massive Study of M2-brane Proposals_, JHEP 0809:113, 2008 ([arXiv:0807.1074](https://arxiv.org/abs/0807.1074))
@@ -58,17 +65,15 @@ and specifically for [[AdS2/CFT1]] with the [[BFSS matrix model]]:
 
 * Tarek Anous, Joanna L. Karczmarek, Eric Mintun, [[Mark Van Raamsdonk]], Benson Way, _Areas and entropies in BFSS/gravity duality_ ([arXiv:1911.11145](https://arxiv.org/abs/1911.11145))
 
+On the idea of [[spacetime]] emerging from [[quantum entanglement]]:
 
-On [[D-branes]]:
-
-> *[The Amazing Matrix in String Theory](http://www.physics.mcgill.ca/seminars/PSC_van-raamsdonk.html)* (2006)
-
-> Most of the dramatic progress in string theory over the past decade has in some way involved the degrees of freedom of D-branes, solitonic objects in string theory whose low energy physics is described by quantum field theories living on the branes. Essential to many of the applications of D-brane physics is the fact that the number of degrees of freedom of a collection of branes scales not as the number of branes, but as the square of the number of branes. In particular, the fields describing the low energy physics of the branes, including even the coordinates describing the transverse fluctuations of D-branes, become matrix valued. At the classical level, this implies that D-brane configurations are described by a new kind of geometry, with such dramatic possibilities as objects that can change their dimension dynamically. Quantum mechanically, these matrix degrees of freedom can give rise to quantum field theories unlike any studied previously, and most dramatically, to new nonperturbative formulations of string theory and quantum gravity. In this talk, I will review some basic aspects of D-branes and their matrix degrees of freedom, some of the fascinating classical and quantum phenomena associated with these matrix degrees of freedom, and some aspects of the truly remarkable new nonperturbative formulations of string theory.
+* [[Mark Van Raamsdonk]]: *Spacetime from bits*, Science **370** 6513 (9 Oct 2020) 198-202 &lbrack;[doi:10.1126/science.aay9560](https://doi.org/10.1126/science.aay9560)&rbrack;
 
 
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[holographic entanglement entropy]]
 
