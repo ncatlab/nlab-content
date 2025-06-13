@@ -88,7 +88,7 @@ Books about or using Bishop's constructive mathematics include:
 
 Other papers mentioned above:
 
-* {#Waaldijk} [[Frank Waaldijk]], _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_  (2001).  [web site](http://www.fwaaldijk.nl/mathematics.html)
+* {#Waaldijk} [[Franka Waaldijk]], _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_  (2001).  [web site](http://www.fwaaldijk.nl/mathematics.html)
 
 * [[Fred Richman]], *Constructive Mathematics without Choice*,
 in: *Reuniting the Antipodes -- Constructive and Nonstandard Views of the Continuum*, Synthese Library **306**, Springer (2001) 199-206 &lbrack;[doi:10.1007/978-94-015-9757-9_17](https://doi.org/10.1007/978-94-015-9757-9_17)&rbrack;
