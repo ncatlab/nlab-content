@@ -9,7 +9,7 @@ based on plain [[type theory]]/[[set theory]]:
 
 based on [[dependent type theory]]/[[homotopy type theory]]:
 
-* [[Coq]], [[Agda]], [[Lean]], [[Arend]]
+* [[Rocq]], [[Agda]], [[Lean]], [[Arend]]
 
 {#BasedOnCubicalTypeTheory} based on [[cubical type theory]]:
 
@@ -49,11 +49,11 @@ For [[higher category theory]]:
 
 * [[Archive of Formal Proofs]] (using [[Isabelle]])
 
-* [[ForMath project]] (using [[Coq]])
+* [[ForMath project]] (using [[Rocq]])
 
 * [[MathScheme]]
 
-* [[UniMath project]] (using [[Coq]] and [[Agda]])
+* [[UniMath project]] (using [[Rocq]] and [[Agda]])
 
 * [[Xena project]] (using [[Lean]])
 
