@@ -30,7 +30,7 @@ In his survey article, cited below, Pin uses the term for a wide range of simila
 
 ## Properties
 
-* The tropical semiring is an example of an [[idempotent semiring]], since for all elements $x$, we have $x\oplus x=x$.
+* The tropical semiring is an example of an [[additively idempotent semiring|idempotent semiring]], since for all elements $x$, we have $x\oplus x=x$.
 
 
 ## Examples
