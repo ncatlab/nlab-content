@@ -123,6 +123,8 @@ Each of these states yields the structure of a commutative [[Frobenius algebra]]
 
 ## References
 
+### General
+
 Early discussion of [[composite quantum systems]] and their [[quantum entanglement]]:
 
 * [[Erwin Schrödinger]], *Discussion of Probability Relations between Separated Systems*, Mathematical Proceedings of the Cambridge Philosophical Society, **31** 4 (1935) 555-563 &lbrack;[doi:10.1017/S0305004100013554](https://doi.org/10.1017/S0305004100013554)&rbrack;
@@ -188,6 +190,38 @@ The following work included the consideration of identical particles into the st
 Use of [[homological algebra]] for quantifying entanglement:
 
 * {#Mainiero2019} [[Tom Mainiero]], *Homological Tools for the Quantum Mechanic* (2019) &lbrack;[arXiv:1901.02011](https://arxiv.org/abs/1901.02011), [10.10.11.6/handle/1/1339](http://10.10.11.6/handle/1/1339)&rbrack;
+
+### Relating to spacetime
+ {#ReferencesItFromQBit}
+
+Observations and speculations relating quantum entanglement to emergent [[spacetime]] (via something like [[AdS/CFT duality]] and [[holographic entanglement entropy]], "[It from QBit](holographic+entanglement+entropy#SimonsFoundationItFromQBit)"):
+
+Review:
+
+* [[Brian Swingle]]: *Spacetime from Entanglement*, Annual Reviews **9** (2018) 345-358  &lbrack;[doi:10.1146/annurev-conmatphys-033117-054219](https://doi.org/10.1146/annurev-conmatphys-033117-054219)&rbrack;
+
+* [[Mark Van Raamsdonk]]: *Spacetime from bits*, Science **370** 6513 (9 Oct 2020) 198-202 &lbrack;[doi:10.1126/science.aay9560](https://doi.org/10.1126/science.aay9560)&rbrack;
+    
+* [[Tadashi Takayanagi]]: *Emergent Holographic Spacetime from Quantum Information* &lbrack;[arXiv:2506.06595](https://arxiv.org/abs/2506.06595)&rbrack;
+
+See also:
+
+* IAS Workshops on Quantum Information and Spacetime:
+
+  * [Workshop on Quantum Information and Black Holes, December 5-6, 2017](https://www.ias.edu/sns/quantum-information-workshop-2017)
+
+  * [Workshop on Quantum Information and the Structure of Spacetime, December 4-5, 2018](https://www.ias.edu/sns/quantum-information-workshop-2018)
+
+  * [Workshop on Qubits and Spacetime, December 3 - 4, 2019](https://www.ias.edu/sns/quantum-information-workshop-2019)
+
+  * [Online Workshop on Qubits and Black Holes, December 7-9, 2020](https://www.ias.edu/sns/quantum-information-workshop-2020)
+
+  * [IAS Workshop on Quantum Information and Spacetime, December 6-8, 2021](https://www.ias.edu/sns/quantum-information-workshop-2021)
+
+
+* *It from Qubit*, Simons Collaboration on Quantum Fields, Gravity, and Information &lbrack;[webpage](https://www.simonsfoundation.org/2022/03/08/it-from-qubit-and-the-gravity-of-a-quantum-universe/), [pdf](https://web.stanford.edu/~phayden/simons/overview.pdf)&rbrack;
+
+
 
 
 category: physics
