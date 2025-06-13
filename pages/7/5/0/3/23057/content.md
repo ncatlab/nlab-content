@@ -1,6 +1,8 @@
-##Idea
+\tableofcontents
 
-In general, in the [[idempotent semiring]] $(max,+)$, an equation of form $Ax=b$ has no solution, but the inequality $Ax\leq b$ does by taking $x=\mathbb{0}$.  (Here recall that in any idmepotent semiring, there is a natural partial order on the elements.)  It is natural to relax equality in the search for somultions, and study instead the set of its 'subsolutions'.  One way forward in this approach is to use the notion of [[residuated mapping]] from the theory of [[posets]].
+## Idea
+
+In general, in the [[additively idempotent semiring|idempotent semiring]] $(max,+)$, an equation of form $Ax=b$ has no solution, but the inequality $Ax\leq b$ does by taking $x=\mathbb{0}$.  (Here recall that in any idempotent semiring, there is a natural partial order on the elements.)  It is natural to relax equality in the search for somultions, and study instead the set of its 'subsolutions'. One way forward in this approach is to use the notion of [[residuated mapping]] from the theory of [[posets]].
 
 ## Definition
 
@@ -26,7 +28,7 @@ $b / a:= \rho_a^\# (b) = max \{ x \mid xa \leq b\}.$
 
 In the completed $(max,+)$ semiring, $\overline{\mathbb{R}}_{max}$, $a\backslash b$ and $b/a$ are equal and both equal $b-a$, provided that $a\neq \mathbb{0}$, in which case they equal $+\infty$.
 
-##References
+## References
 
 * [[Stéphane Gaubert]], _Methods and Applications of $(max,+)$ Linear Algebra,_ [Report 3088](https://hal.inria.fr/inria-00073603/document), January 1997, INRIA.
 
