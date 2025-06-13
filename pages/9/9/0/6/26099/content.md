@@ -6,7 +6,8 @@
 On [[AQFT on curved spacetimes]]:
 
 
-* [[Bernard S. Kay]], *Quantum Field Theory in Curved Spacetime*, Encyclopaedia of Mathematical Physics (2023) &lbrack;[arXiv:2308.14517](https://arxiv.org/abs/2308.14517)&rbrack;
+* [[Bernard S. Kay]], *Quantum Field Theory in Curved Spacetime*, [[Encyclopedia of Mathematical Physics 2nd ed]] (2025) &lbrack;[arXiv:2308.14517](https://arxiv.org/abs/2308.14517)&rbrack;
+
 
 category: people
 
