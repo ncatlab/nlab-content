@@ -81,6 +81,8 @@ $$\frac{\Gamma, X \; \mathrm{type} \vdash P(X) \; \mathrm{type} \quad \Gamma \vd
 
 ## Related concepts
 
+* [[resizing axiom]]
+
 * [[polymorphism]]
 
 * [[internal parametricity]]
