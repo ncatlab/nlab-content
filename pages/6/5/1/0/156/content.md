@@ -26,7 +26,7 @@
 =--
 
 
-> This entry is about the notion of _skeleton_ in [[category theory]]. For the notion of (co)skeletal [[simplicial sets]] see at _[[simplicial skeleton]]_.
+> This entry is about the notion of _skeleton_ in [[category theory]]. For other notions of *skeleton* in [[mathematics]], see at [[skeleton]]. 
 
 # Contents
 * table of contents
@@ -283,15 +283,15 @@ Presenting a [[pretorsion theory]] on [[Cat]] whose torsion(-free) objects are t
 * [[Francis Borceux]], [[Federico Campanini]], [[Marino Gran]], [[Walter Tholen]], *Groupoids and skeletal categories form a pretorsion theory in $Cat$* &lbrack;[arXiv:2207.08487](https://arxiv.org/abs/2207.08487)&rbrack;
 
 
+[[!redirects skeleton of a category]]
+[[!redirects skeleta of a category]]
 
 [[!redirects skeleton of a fibration]]
 [[!redirects fibered skeleton]]
-[[!redirects skeleta]]
-[[!redirects skeletons]]
-[[!redirects skeletal]]
 
 [[!redirects skeletal category]]
 [[!redirects skeletal categories]]
+
 [[!redirects skeletal precategory]]
 [[!redirects skeletal precategories]]
 
