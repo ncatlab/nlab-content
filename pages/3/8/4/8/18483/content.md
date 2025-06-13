@@ -9,7 +9,7 @@ Writing in the nLab should be a pleasant and rewarding experience. We are always
 
 However, the success of this project also depends in great degree on a certain ethos of cooperation and mutual respect that has evolved here. This page is meant to lay out some of the working principles that have helped to foster this atmosphere. 
 
-Before reading this page, you should have read or at least be aware of companion introductory nLab pages such as [[nPOV]], [[About]], and [[How to get started]] and [[HowTo]] (the last being especially useful for editing techniques). *This page* is meant to help smooth over possible misunderstandings that may arise about the nature of the project, and to help newcomers to nLab writing fit in more readily. 
+Before reading this page, you should have read or at least be aware of companion introductory nLab pages such as [[nPOV]], [[About]], and [[HowTo]] (the last being especially useful for editing techniques). *This page* is meant to help smooth over possible misunderstandings that may arise about the nature of the project, and to help newcomers to nLab writing fit in more readily. 
 
 Perhaps the one overarching piece of advice we can impart to newcomers, which applies generally outside the nLab as well, can be condensed into a single principle (a form of the "prime directive"): 
 
@@ -141,9 +141,7 @@ Unlike the above advice about notation, such variations in spelling and punctuat
 
 * [[About]] 
 
-* [[HowTo]] 
-
-* [[How to get started]] 
+* [[HowTo]]
 
 ## References 
 
