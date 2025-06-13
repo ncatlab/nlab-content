@@ -90,7 +90,7 @@ $$
 0 & x\notin A .
 \end{cases}
 $$
-* The [[counit]] has as components morphisms of $\sigma Bool^{op}$ in the form $\epsilon^{op}\Sigma_{Sp(\Sigma)}\to\Sigma$, or equivalently, morphisms of $\sigma Bool$ of the form $\epsilon:\Sigma\to \Sigma_{Sp(\Sigma)}$ mapping $A\in\Sigma$ to the set $A^*\in\Sigma_{Sp(\Sigma)}$ defined above.
+* The [[counit]] has as components morphisms of $\sigma Bool^{op}$ in the form $\epsilon^{op}:\Sigma_{Sp(\Sigma)}\to\Sigma$, or equivalently, morphisms of $\sigma Bool$ of the form $\epsilon:\Sigma\to \Sigma_{Sp(\Sigma)}$ mapping $A\in\Sigma$ to the set $A^*\in\Sigma_{Sp(\Sigma)}$ defined above.
 
 The adjunction induces an [[idempotent monad]] on $Meas$ (the [[zero-one measure#the_monad_of_zeroone_measures|monad of zero-one measures]]), and an idempotent monad on $\sigma Bool$ as well (or equivalently, an idempotent [[comonad]] on $\sigma Bool^{op}$).
 
@@ -105,6 +105,10 @@ Because of this, sometimes one calls the monad on $Meas$ the *sobrification mona
 ## Particular results
 
 (Work in progress. For now see the references.)
+
+### Equivalence with measurable Gelfand duality
+
+(See at [[measurable Gelfand duality#equivalence_with_loomissikorski_duality|measurable Gelfand duality - Equivalence with Loomis-Sikorski duality]], and in [FL'25, Section 4.1](#fritz_lorenzin).)
 
 
 ## See also
@@ -125,7 +129,7 @@ Because of this, sometimes one calls the monad on $Meas$ the *sobrification mona
 
 * Ruiyuan Chen, _A universal characterization of standard Borel spaces_. The Journal of Symbolic Logic, 88(2), 2023. ([arXiv](https://arxiv.org/abs/1908.10510))
 
-* [[Tobias Fritz]] and Antonio Lorenzin, _Categories of abstract and noncommutative measurable spaces_, 2025. ([arXiv](https://arxiv.org/abs/2504.13708))
+* {#fritz_lorenzin} [[Tobias Fritz]] and Antonio Lorenzin, _Categories of abstract and noncommutative measurable spaces_, 2025. ([arXiv](https://arxiv.org/abs/2504.13708))
 
 
 ### Introductory material
