@@ -104,7 +104,7 @@ The category of [[commutative algebras]] over a [[field]] $F$ is the coslice und
 
 ## Properties
 
-### Limits
+### Limits and Colimits
  {#LimitsAndColimits}
 
 
@@ -202,6 +202,17 @@ One often says "$p$ [[reflected limit|reflects limits]]" to express the conclusi
 =--
 
 
+The analogue is not true for general colimits in an under category, but it is true for all [[connected colimits]]:
+
+\begin{proposition}
+  \label{ForgetfulFunctorCreatedConnectedColimits}
+  The forgetful functor $t/C \longrightarrow C$  [[created limit|creates]] all [[connected colimits]] that $C$ admits.
+\end{proposition}
+
+For this and the previous statement see also for instance [Riehl 2017 Prop. 3.3.8](#Riehl17)
+
+
+
 ## Related concepts
 
 * [[over-category]] 
@@ -219,7 +230,18 @@ One often says "$p$ [[reflected limit|reflects limits]]" to express the conclusi
 
   * [[over-(∞,1)-topos]]
 
+
 ## References
+
+> For more see most of the references at *[[category theory]]*.
+
+Textbook accounts:
+
+* [[Francis Borceux]]. Ex. 1.2.7 in: *[[Handbook of Categorical Algebra]]*, Vol **1**: *Basic Category Theory*, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525858](https://doi.org/10.1017/CBO9780511525858)&rbrack;
+
+
+* {#Riehl17} [[Emily Riehl]], Ex. 1.1.3 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[ISBN:9780486809038](https://store.doverpublications.com/products/9780486809038), [pdf](https://math.jhu.edu/~eriehl/context.pdf), [webpage](https://math.jhu.edu/~eriehl/context/)&rbrack;
+
 
 Discussion in the generality of [[(infinity,1)-categories|$(\infty,1)$-categories]]:
 
