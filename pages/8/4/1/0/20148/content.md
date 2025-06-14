@@ -29,7 +29,7 @@ $$
   SO(2) \simeq S\big( \mathbb{C}\big) \hookrightarrow \mathbb{H}
 $$
 
-with the [[unit circle]] in $\mathbb{C} \hookrightarrow \mathbb{H}$ this way, with group structure now thought of as given by multiplication of [[quaternions]]. Then the [[Pin group]] $Pin_-(2)$ is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[group of units]] $\mathbb{H}^\times$ of the [[quaternions]] which consists of this copy of [[SO(2)]], together with the multiplies of the imaginary quaternion $j$ with this copy:
+with the [[unit circle]] in $\mathbb{C} \hookrightarrow \mathbb{H}$ this way, with group structure now thought of as given by multiplication of [[quaternions]]. Then the [[Pin group]] $Pin_-(2)$ is [[isomorphism|isomorphic]] to the [[subgroup]] of the [[group of units]] $\mathbb{H}^\times$ of the [[quaternions]] which consists of this copy of [[SO(2)]], together with the multiples of the imaginary quaternion $j$ with this copy:
 
 $$
   Pin_-(2)
