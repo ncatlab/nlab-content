@@ -98,7 +98,7 @@ whence $x y + y x = 0 = x y + x y$.
 
 Parallel to the way free commutative rings are polynomial rings, which are free $\mathbb{Z}$-modules generated from free commutative monoids, the free Boolean ring on $n$ generators may be constructed, &#224; la Beck [[distributive law]]s, as the free $\mathbb{Z}_2$-vector space $\mathbb{Z}_2[M_n]$ generated from the [[semilattice]] $M_n$ on $n$ generators. The latter can be identified with the function set from an $n$-element set to the 2-element [[boolean domain]] $\{0, 1\}$ with multiplication defined elementwise from the [[meet]] of $\{0, 1\}$, and $\mathbb{Z}_2[M_n]$ therefore has $2^{2^n}$ elements. 
 
-The theory of Boolean algebras is equivalent to the theory of Boolean rings in the sense that their categories of models are equivalent. Given a Boolean ring, we define the operation $\wedge$ to be multiplication, and the operation $\vee$ by $x \vee y = x + y + x y$, and the operation $\neg$ by $\neg x = 1 + x$. The relation $x \leq y$ may be defined by the condition $x y = x$. In the other direction, given a Boolean algebra, we may define addition by [[symmetric difference]]: $x + y = (x \vee y) \wedge \neg(x \wedge y)$. According to this equivalence, the free Boolean ring on $n$ generators may be identified with the Boolean algebra $P(2^n)$, the power set on a set with $2^n$ elements. 
+The theory of Boolean algebras is equivalent to the theory of Boolean rings in the sense that their categories of models are equivalent. Given a Boolean ring, we define the operation $\wedge$ to be multiplication, and the operation $\vee$ by $x \vee y = x + y + x y$, and the operation $\neg$ by $\neg x = 1 + x$. The relation $x \leq y$ may be defined by the condition $x y = x$. In the other direction, given a Boolean algebra, we may define addition by [[symmetric difference]]: $x + y = (x \vee y) \wedge \neg(x \wedge y)$. According to this equivalence, the free Boolean ring on $n$ generators may be identified with the Boolean algebra $2^{2^n}$, the function set from a set with $2^n$ elements to the [[boolean domain]] $\{0,1\}$. 
 
 ### Elements of Stone duality 
 
@@ -118,57 +118,11 @@ If $p$ is a prime ideal in a Boolean ring, then $B/p$ is an integral domain in w
 
 (To be continued at some point.) 
 
-## Homomorphisms
+## Homomorphisms and the category of Boolean algebras
 
 Any [[lattice]] homomorphism automatically preserves $\neg$ and is therefore a Boolean algebra homomorphism.
 
 Boolean algebras and Boolean algebra homomorphisms form a [[concrete category]] [[BoolAlg]]. 
-
-## Definition via Lawvere theories 
-
-The concrete category $U: BoolAlg \to Set$ is [[monadic functor|monadic]]: the category of Boolean algebras is the [[Eilenberg-Moore category|category of algebras]] for a [[finitary monad]], or equivalently it is the category of algebras for a [[Lawvere theory]]. In this case the Lawvere theory is very easily described. 
-
-The Lawvere theory is equivalent to the category opposite to the category of finitely generated free Boolean algebras, or of finitely generated free Boolean rings. As we observed earlier, the free Boolean algebra on $n$ elements is therefore isomorphic to $P(2^n)$, the [[power set]] of a $2^n$-element set. Applying a "toy" form of [[Stone duality]], the opposite of the category of finitely generated free Boolean algebras is equivalent to the category of finite sets of cardinality $2^n$. 
-
-Hence the Lawvere theory is identified with the category $Fin_{2^n}$ of finite sets of cardinality $2^n$, and the category of Boolean algebras is equivalent to the category of product-preserving functors 
-
-$$Fin_{2^n} \to Set.$$ 
-
-## Unbiased Boolean algebras
-
-Observe that the [[Cauchy complete category|Cauchy completion]] of $Fin_{2^n}$ is $Fin_+$, the category of nonempty finite sets. (Indeed, every nonempty finite set is the retract of some set with $2^n$ elements.) 
-
-+-- {: .un_prop}
-######Proposition 
-Let $C$ be a category with finite products, and let $i: C \hookrightarrow \widebar{C}$ be its Cauchy completion. Then $\widebar{C}$ has finite products, and the category of product-preserving functors $\widebar{C} \to Set$ is equivalent to the category of product-preserving functors $C \to Set$, via restriction along $i$. 
-=--
-
-By this proposition, the category of Boolean algebras is equivalent to the category of product-preserving functors 
-
-$$Fin_+ \to Set$$
-
-We call a product-preserving functor $Fin_+ \to Set$ an **unbiased Boolean algebra**. The idea here is that the usual concrete way of viewing Boolean algebras is inherently biased towards sets of cardinality $2^n$. Passing to the Cauchy completion removes that bias. 
-
-
-## $k$-valued Post algebras 
-{#PostAlg}
-
-Alternatively, we could apply the previous proposition in reverse and view Boolean algebras as a concrete category in an entirely different way. For example, the Lawvere theory given by the category of finite sets of cardinality $3^n$ has the same Cauchy completion $Fin_+$. Therefore, the category of product-preserving functors 
-
-$$X: Fin_{3^n} \to Set$$ 
-
-is also equivalent to the category of Boolean algebras. Only here, the appropriate underlying set functor sends $X$ to $X(3)$, the value at the generator $3$. 
-
-Similarly, for each fixed cardinality $k \gt 1$, there is a Lawvere theory $Fin_{k^n}$, and they all lead to Boolean algebras as the category of algebras for the theory. The difference is in the associated monadic functor, $U_k \colon Prod(Fin_{k^n}, Set) \to Set$. This concrete category is perhaps better known as the category of **$k$-valued Post algebras** (and is better known still when the letter $k$ is replaced by $n$). 
-
-A curious phenomenon that holds for each $k \geq 3$ (but **not** for $k = 2$) is as follows. Let $Un_k$ be the Lawvere subtheory of $Fin_{k^n}$ generated by just the unary operations, so that the algebras of $Un_k$ are identified with sets equipped with actions of the monoid $M_k = \hom(k, k)$ (endofunctions of the $k$-element set under composition), aka $M_k$-sets. By restriction of operations, there is an evident forgetful functor 
-
-$$BoolAlg \simeq PostAlg_k \to M_k\text{-}Set$$
-
-+-- {: .un_prop} 
-######Proposition 
-For each $k \geq 3$, the forgetful functor from $BoolAlg \to$ $M_k$-$Set$ realizes $BoolAlg$ as a _full_ subcategory of $M_k$-Set. 
-=-- 
 
 ## See also
 
