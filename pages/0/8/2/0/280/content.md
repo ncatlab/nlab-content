@@ -231,9 +231,14 @@ An action of a set $X$ in itself is also called a __[[binary operation]]__, and 
 ## Related concepts
  {#RelatedConcepts}
 
-* [[action object]]
 
-* **action**, [[∞-action]],
+* [[Bochner linearization theorem]]
+
+* [[equivariant tubular neighbourhood]]
+
+* [[equivariant triangulation]], [[equivariant triangulation theorem]]
+
+* **action**, [[∞-action]], [[action object]]
 
   * [[conjugation action]], [[adjoint action]]
 
