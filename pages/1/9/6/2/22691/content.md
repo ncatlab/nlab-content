@@ -3,13 +3,9 @@ __monoid theory__ in [[algebra]]:
 
 * [[monoid]], [[infinity-monoid]]
 
-* [[monoid object]], [[monoid object in an (infinity,1)-category]]
-
-  * [[semiring]], [[rig]], [[ring]], [[associative unital algebra]]
+* [[monoid homomorphism]]
 
 * [[Mon]], [[CMon]]
-
-* [[monoid homomorphism]]
 
 * [[trivial monoid]]
 
@@ -39,11 +35,17 @@ __monoid theory__ in [[algebra]]:
 
 * [[group]], [[abelian group]]
 
+* [[idempotent monoid]]
+
+* [[semilattice]]
+
 * [[absorption monoid]]
 
   * [[zero divisor]]
 
   * [[integral monoid]]
+
+* [[01-bounded semilattice]]
 
 * [[free monoid]], [[free commutative monoid]]
 
@@ -58,6 +60,16 @@ __monoid theory__ in [[algebra]]:
 * [[group completion]]
 
 * [[endomorphism monoid]]
+
+* [[monoid object]], [[monoid object in an (infinity,1)-category]]
+
+  * [[commutative monoid object]]
+
+  * [[idempotent monoid object]]
+
+  * [[semilattice object]]
+
+  * [[semiring]], [[rig]], [[ring]], [[associative unital algebra]]
 
 * [[super commutative monoid]]
 
