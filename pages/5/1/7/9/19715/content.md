@@ -59,6 +59,8 @@ In [[dependent type theory]] with a single type judgment, a [[type universe]] $U
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *The Univalence Principle* &lbrack;[abs:2102.06275](https://arxiv.org/abs/2102.06275)&rbrack;
 
+* [[Marc Bezem]], [[Ulrik Buchholtz]], [[Pierre Cagne]], [[Bjørn Ian Dundas]], [[Daniel R. Grayson]], Section 2.18 in: *[[Symmetry]]* (2025) $[$[pdf](https://unimath.github.io/SymmetryBook/book.pdf)$]$ 
+
 * [Formalization](https://unimath.github.io/agda-unimath/foundation.propositional-resizing.html) in [[unimath|Agda Unimath]].
 
 [[!redirects propositional resizing]]
