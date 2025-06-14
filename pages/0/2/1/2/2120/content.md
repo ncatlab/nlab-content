@@ -253,7 +253,7 @@ Various notions of continuous function are used in [[constructive mathematics]].
 
 In [[classical mathematics]], these are all equivalent when the domain is itself a closed and bounded interval, and all of them except for uniform continuity are equivalent in general.  The same equivalences hold in [[intuitionistic mathematics]], thanks to the [[fan theorem]].  But no two of these are equivalent in [[Russian constructivism]].
 
-In fact, assuming that $\mathbb{R}$ is defined as the set of located [[Dedekind cuts]], there is the following negative result by [[Franka Waaldijk]] ([Waaldijk2003](#Waaldijk2003)): Without the [[fan theorem]], there is no notion of continuity for set-theoretic functions in [[constructive mathematics]], spelled "kontinuity" in the following, such that all of the following desiderata are met:
+In fact, assuming that $\mathbb{R}$ is defined as the set of located [[Dedekind cuts]], there is the following negative result by [[Franka Waaldijk]] ([Waaldijk2005](#Waaldijk2005)): Without the [[fan theorem]], there is no notion of continuity for set-theoretic functions in [[constructive mathematics]], spelled "kontinuity" in the following, such that all of the following desiderata are met:
 
 * A function $[0,1] \to \mathbb{R}$ is kontinuous if and only if it is [[uniformly continuous]] in the usual sense.
 * The composition of kontinuous functions is kontinuous.
@@ -296,7 +296,7 @@ Waaldijk's negative result can be circumvented by dropping the insistence on poi
 
 Discussion in [[constructive mathematics]]:
 
-* {#Waaldijk2003} [[Franka Waaldijk]], _On the foundations of constructive mathematics &#8211; especially in relation to the theory of continuous functions_, 2003 ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
+* {#Waaldijk2005} [[Franka Waaldijk]], _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_, Foundations of Science, Volume 10, pages 249–324, (2005). ([doi:10.1007/s10699-004-3065-z](https://doi.org/10.1007/s10699-004-3065-z), [pdf](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf))
 
 [[!redirects continuous map]]
 [[!redirects continuous maps]]
