@@ -53,6 +53,9 @@ Another desirable property is that the diagonal map $\Delta_I\colon I \to I\otim
 
 * [[monoidal category]]
 
+* [[idempotent monoidal object]]
+
+* [[semilattice object]]
 
 ## References
 
