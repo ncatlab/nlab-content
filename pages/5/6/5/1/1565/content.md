@@ -118,6 +118,8 @@ Some rigs which are neither rings nor distributive lattices include:
 
 * [[Boolean rig (Guzmán)]]
 
+* [[characteristic of a rig]]
+
 ## References
 
 The terminology "rig" is due to:
