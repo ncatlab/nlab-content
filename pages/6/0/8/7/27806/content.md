@@ -29,6 +29,10 @@ By definition, every idempotent monoid is a [[unital magma|unital]] [[band]].
 
 * A [[multiplicatively idempotent rig]] is a [[rig]] whose multiplication operation is an idempotent monoid. 
 
+## Internalization
+
+The concept of an idempotent monoid can be [[internalization|internalized]] in any [[monoidal category with diagonals]]; see [[idempotent monoid object]] for more details. 
+
 ## Related concepts
 
 * [[monoid]]
@@ -42,6 +46,8 @@ By definition, every idempotent monoid is a [[unital magma|unital]] [[band]].
 * [[multiplicatively idempotent semiring]]
 
 * [[Boolean ring]]
+
+* [[idempotent monoid object]]
 
 ## References
 
