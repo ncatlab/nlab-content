@@ -79,12 +79,19 @@ Similarly, (strict) idempotent semigroups in $\mathcal{C}$ may be identified wit
 
 * [[monoid]]
 
-* [[commutative monoid in a symmetric monoidal category]]
-
 * [[idempotent monad]]
+
+* [[monoid object]]
+
+* [[semilattice object]]
+
+* [[commutative monoid in a symmetric monoidal category]]
 
 ## References
 
 * Peter Hines, _The categorical theory of self-similarity_, 1999. [[Theory and Applications of Categories]]. ([abstract](http://www.tac.mta.ca/tac/volumes/6/n3/6-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/6/n3/n3.pdf), [dvi](http://www.tac.mta.ca/tac/volumes/6/n3/n3.dvi), [ps](http://www.tac.mta.ca/tac/volumes/6/n3/n3.ps).)
 
 * {#Gutierrez13} [[Javier J. Gutiérrez]], *On solid and rigid monoids in monoidal categories*, Applied Categorical Structures 23, no. 2 (2015), 575-589 ([arXiv:1303.5265](https://arxiv.org/abs/1303.5265))
+
+[[!redirects idempotent monoid object]]
+[[!redirects idempotent monoid objects]]
