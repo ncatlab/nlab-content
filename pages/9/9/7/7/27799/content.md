@@ -3,8 +3,9 @@
 
 In [[mathematics]], the term *Boolean semiring* or *Boolean rig* can refer to:
 
-* [[Boolean semiring (Bartels)]] 
-* [[Boolean semiring (Guzmán)]]
+* [[Boolean semiring (Bartels)]], a rig satisfying $x^2 = x$
+* [[Boolean semiring (Guzmán)]], a rig satisfying $x^2 = x$ and $1 + x + x = 1$
+* One also has rigs satisfying $x^2 = x$ and $x + x = 0$, but those rigs are provably equivalent to [[Boolean rings]]. 
 
 The term *Boolean semiring* can also refer to the following:
 
