@@ -33,10 +33,6 @@ Multiplicatively idempotent semirings are sometimes called *idempotent rigs*, se
 
 Multiplicatively idempotent semirings are called *Boolean rigs* or *Boolean semirings* by [[Toby Bartels]], see e.g. [Bartels 2020](#Bartels20). The name originated from the fact that a [[Boolean ring]] is defined in the literature as a [[ring]] for which multiplication is idempotent ([Bartels 2020](#Bartels20), [Rogers 2024](#Rogers24)). However, the terms "[[Boolean rig]]" and "[[Boolean semiring]]" have multiple meanings in the literature representing some generalization of [[Boolean rings]] from [[rings]] to [[rigs]] and [[semirings]], and now redirects to the disambiguation page [[Boolean semiring]] on the nLab. 
 
-## Properties
-
-Every multiplicatively idempotent semiring is an [[idempotent monoid]] [[object]] in [[CMon]], the category of [[commutative monoids]] and [[monoid homomorphisms]]. 
-
 ## Examples
 
 The main examples are probably [[distributive lattices]].  
