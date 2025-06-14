@@ -102,6 +102,7 @@ The power set construction gives rise to two functors, the contravariant power s
 
 * [[axiom of fullness]]
 
+* [[double power set]]
 
 category: foundational axiom
 
