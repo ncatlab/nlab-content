@@ -31,7 +31,7 @@ Let $X$ and $Y$ be [[closed manifolds]] ([[topological manifold|topological]] or
 $$
   \chi
   \big(
-    X \sharp Y 
+    X \# Y 
   \big)
   \;=\;
   \chi
