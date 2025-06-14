@@ -110,7 +110,7 @@ where $\lambda$ is a lax monoidal constraint.
 
 ## Analogues
 
-Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a boolean ring may be defined as a semilattice in $Ab$. However, with boolean rings, we do not need to hypothesize commutativity; it follows. That is, any [[idempotent monoid]] in $Ab$ is commutative; indeed, any idempotent [[magma]] in $Ab$ is commutative. 
+Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a boolean ring can be defined as a ring whose multiplication is a [[semilattice]]. However, with boolean rings, we do not need to hypothesize commutativity; it follows. That is, any ring whose multiplication is an [[idempotent monoid]] is commutative; indeed, any idempotent bilinear [[magma]] is commutative. 
 
 +-- {: .proof} 
 ###### Proof 
