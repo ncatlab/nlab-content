@@ -53,11 +53,11 @@ For $\Sigma \subset X^G \subset X$ a [[closed manifold|closed]] [[smooth manifol
 
 Let $X$ be a [[smooth  manifold]], $G$ a [[Lie group]] and $\rho \;\colon\; G \times X \to X$ a _[[proper action|proper]]_ [[action]] by [[diffeomorphisms]].
 
-Then linearization of the $G$-action aroujnd the [[fixed locus]] $X^G \subset X$ equips the [[normal bundle]] $N_X\left( X^G\right)$ with [[smooth function|smooth]] and [[fiber]]-wise [[linear map|linear]]  $G$-[[action]].
+Then linearization of the $G$-action around the [[fixed locus]] $X^G \subset X$ equips the [[normal bundle]] $N_X\left( X^G\right)$ with [[smooth function|smooth]] and [[fiber]]-wise [[linear map|linear]]  $G$-[[action]].
 
 =--
 
-(e.g. [Crainic-Struchiner 13, Example 1.7](#CrainicStruchiner13))
+(e.g. [Crainic & Struchiner 2013, Example 1.7](#CrainicStruchiner13))
 
 
 +-- {: .num_prop #ExistenceOfGInvariantTubularNeighbourhoods}
@@ -103,6 +103,13 @@ with respect to a $G$-invariant [[Riemannian metric]] (which exists according to
 =--
 
 The existence of the $G$-equivariant tubular neighbourhoods is for instance in [Bredon 72 VI Theorem 2.2](#Bredon72), [Kankaanrinta 07, theorem 4.4](#Kankaanrinta07). The uniqueness up to equivariant isotopy is in [Kankaanrinta 07, theorem 4.4, theorem 4.6](#Kankaanrinta07). The fact that one may always use the [[normal bundle]] appears at the end of the proof of [Bredon 72 VI Theorem 2.2](#Bredon72), and as a special case of a more general statement about invariant tubular neighbourhoods in [[Lie groupoids]] it follows from [Pflaum-Posthuma-Tang 11, Theorem 4.1](#PflaumPosthumaTang11) by applying the construction there to each point in $\Sigma$ for one and the same choice of background metric. See also for instance [Pflaum-Wilkin 17, Example 2.5](#PflaumWilkin17).
+
+## Related concepts
+
+* [[Bochner linearization theorem]]
+
+* [[equivariant triangulation]], [[equivariant triangulation theorem]]
+
 
 ## References
 
