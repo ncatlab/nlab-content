@@ -9,7 +9,7 @@ An effective [[force]] appearing in a complex system in the [[thermodynamic limi
 
 ## References
 
-* Wikipedia, _[Entropic force](http://en.wikipedia.org/wiki/Entropic_force)_
+* Wikipedia: _[Entropic force](http://en.wikipedia.org/wiki/Entropic_force)_, _[Entropic_gravity](https://en.wikipedia.org/wiki/Entropic_gravity)_
 
 * Daniel Carney, Manthos Karydas, Thilo Scharnhorst, Roshni Singh, Jacob M. Taylor, *On the quantum mechanics of entropic forces* &lbrack;[arXiv:2502.17575](https://arxiv.org/abs/2502.17575)&rbrack;
 
