@@ -156,6 +156,8 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 
 * [[abstract Stone duality]]
 
+* [[synthetic Stone duality]]
+
 * [[Gelfand duality]]
 
 * [[Isbell duality]]
