@@ -2702,6 +2702,8 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 
   * [[vectorial bundle]]
 
+  * [[Adams operations]]
+
   * [[unstable K-theory]]
 
 * [[groupoid K-theory]]
