@@ -58,7 +58,7 @@ The rectangularity condition is immediate by definition: for any $\sim$-equivale
 
 * A [[skew lattice]] $(L, \wedge, \vee)$ is a band, using either $\wedge$ or $\vee$ as the semigroup operation. 
 
-* A [[Boolean ring]] is a [[ring]] whose multiplication operation is a band. Thus, a [[Boolean ring]] is a band [[object]] in [[Ab]] [[if and only if]] rings are defined [[non-unital ring|without a multiplicative unit]]. (Otherwise Boolean rings are [[idempotent monoid]] objects in [[Ab]].)
+* A [[Boolean ring]] is a [[ring]] whose multiplication operation is a band. 
 
 * Similarly, a [[multiplicatively idempotent semiring]] is a [[semiring]] whose multiplication operation is a band. 
 
