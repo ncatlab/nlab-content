@@ -37,7 +37,7 @@ One then distinguishes:
 
   This strong version is often phrased as "the universe is a computer" or as "[digitial physics](https://en.wikipedia.org/wiki/Digital_physics)".
 
-On the strong physical Church-Turing thesis see _[SEP -- Computation in Physical Systems -- Is every Physical system computational?](http://plato.stanford.edu/entries/computation-physicalsystems/#EvePhySysCom)_ for a general account and ([Waaldijk 03](#Waaldijk03)) for a more formal account emphasizing the role of [[intuitionistic mathematics|intuitionistic]]/[[constructive mathematics]].
+On the strong physical Church-Turing thesis see _[SEP -- Computation in Physical Systems -- Is every Physical system computational?](http://plato.stanford.edu/entries/computation-physicalsystems/#EvePhySysCom)_ for a general account and ([Waaldijk 05](#Waaldijk05)) for a more formal account emphasizing the role of [[intuitionistic mathematics|intuitionistic]]/[[constructive mathematics]].
 
 More concretely, the kind of experiment proposed there to test whether non-computable sequences of events may appear in [[experiment]] has been claimed to have been carried out with [[quantum physics|quantum process]] in ([CDDS 10](#CDDS10)).
 
@@ -59,7 +59,7 @@ General reviews include
 A discussion well-informed by theoretical [[computability]], [[realizability]] and [[intuitionistic mathematics|intuitionistic]]/[[constructive mathematics]] is in 
 
 
-* {#Waaldijk03} [[Franka Waaldijk]], section 7 of _On the foundations of constructive mathematics -- especially in relation to the theory of continuous functions_, 2003  ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf), [web discussion](http://fwaaldijk.wordpress.com/2014/01/14/experiment-to-disprove-strong-physical-church-turing-thesis/)).
+* {#Waaldijk05} [[Franka Waaldijk]], section 7 of _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_, Foundations of Science, Volume 10, pages 249–324, (2005). ([doi:10.1007/s10699-004-3065-z](https://doi.org/10.1007/s10699-004-3065-z), [pdf](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf), [web discussion](http://fwaaldijk.wordpress.com/2014/01/14/experiment-to-disprove-strong-physical-church-turing-thesis/)).
 
 
 Discussion of physical processes which are not type-I computable by [[partial recursive functions]] are found in
