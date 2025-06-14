@@ -25,6 +25,10 @@ On [[displayed type theory]]:
 
 * [[Astra Kolomatskaia]], [[Michael Shulman]], *Displayed Type Theory and Semi-Simplicial Types* ([arXiv:2311.18781](https://arxiv.org/abs/2311.18781)) 
 
+On [[univalence]] and the [[structure identity principle]]:
+
+* {#ANST21} [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *The Univalence Principle* &lbrack;[abs:2102.06275](https://arxiv.org/abs/2102.06275)&rbrack;
+
 On [[set theory]]:
 
 * {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
