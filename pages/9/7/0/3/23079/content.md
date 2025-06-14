@@ -1,4 +1,6 @@
 
+> This article is about the category theoretic notion of idempotent monoid in a monoidal category. For internalizing the algebraic notion of [[idempotent monoid]] in general enough categories, see [[idempotent monoid object]]. 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -9,10 +11,6 @@
 #### Monoidal categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
-=--
-#### Monoid theory
-+-- {: .hide}
-[[!include monoid theory - contents]]
 =--
 =--
 =--
@@ -31,7 +29,7 @@ An **idempotent monoid** $(A,\mu,\eta)$ in a [[monoidal category]] $\mathcal{C}$
 
 Similarly, an **idempotent semigroup in $\mathcal{C}$** (also called a _non-unital idempotent monoid in $\mathcal{C}$_) is a semigroup $(A,\mu)$ in $\mathcal{C}$ with $\mu$ an isomorphism.
 
-**Note.** This is different from the usual algebraic notion of an idempotent monoid (namely, one in which $a \cdot a = a$). One can make sense of that notion in any [[monoidal category with diagonals]] $\Delta_A : A \to A \otimes_{\mathcal{C}} A$ by requiring that $\mu \circ \Delta_A = \id_A$.
+**Note.** This is different from the usual algebraic notion of an idempotent monoid (namely, one in which $a \cdot a = a$). For that notion, see [[idempotent monoid object]], which makes sense in any [[monoidal category with diagonals]]. 
 
 We write $\mathsf{IdemMon}(\mathcal{C})$ for the [[full subcategory]] of $\mathsf{Mon}(\mathcal{C})$ spanned by the idempotent monoids in $\mathcal{C}$.
 
@@ -79,19 +77,12 @@ Similarly, (strict) idempotent semigroups in $\mathcal{C}$ may be identified wit
 
 * [[monoid]]
 
-* [[idempotent monad]]
-
-* [[monoid object]]
-
-* [[semilattice object]]
-
 * [[commutative monoid in a symmetric monoidal category]]
+
+* [[idempotent monad]]
 
 ## References
 
 * Peter Hines, _The categorical theory of self-similarity_, 1999. [[Theory and Applications of Categories]]. ([abstract](http://www.tac.mta.ca/tac/volumes/6/n3/6-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/6/n3/n3.pdf), [dvi](http://www.tac.mta.ca/tac/volumes/6/n3/n3.dvi), [ps](http://www.tac.mta.ca/tac/volumes/6/n3/n3.ps).)
 
 * {#Gutierrez13} [[Javier J. Gutiérrez]], *On solid and rigid monoids in monoidal categories*, Applied Categorical Structures 23, no. 2 (2015), 575-589 ([arXiv:1303.5265](https://arxiv.org/abs/1303.5265))
-
-[[!redirects idempotent monoid object]]
-[[!redirects idempotent monoid objects]]
