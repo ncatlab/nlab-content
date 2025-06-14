@@ -150,6 +150,8 @@ In a [[metric space]] $S$, a filter $F$ on $S$ is __Cauchy__ if it has elements 
 
 * [[filter of a ring]]
 
+* [[double power set]]
+
 ## References
 
 * [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Filter_%28mathematics%29).
