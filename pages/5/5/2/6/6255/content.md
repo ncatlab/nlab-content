@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -16,15 +17,13 @@
 
 ### Introduction ###
 
-Let $M$ be a finite dimensional smooth manifold. Its [[smooth
-loop space]], $L M \coloneqq C^{\infty}(S^{1},M)$, is an example
-of a [[mapping space]] and is one of the simplest and most
+Let $M$ be a finite dimensional [[smooth manifold]]. Its [[smooth
+loop space]], $L M \coloneqq C^{\infty}(S^{1},M)$, is an example of a [[mapping space]] and is one of the simplest and most
 commonly encountered mapping spaces. It has many interesting
 submanifolds: some are defined by *coincidences*, such as the
 [[based loop space]], and others are defined by considering fixed
 point sets of the natural circle action. An extremely useful tool
-when studying a submanifold is a tubular neighbourhood. Not all
-submanifolds have tubular neighbourhoods, so it is good to
+when studying a submanifold is a [[tubular neighbourhood]]. Not all submanifolds have tubular neighbourhoods, so it is good to
 establish some results that establish that they exist. The
 situation for coindicence submanifolds is considered in [[tubular
 neighbourhood of a mapping space]]. Here we shall consider
@@ -45,8 +44,7 @@ measure-preserving diffeomorphisms of $E \to B$.
 =--
 
 As a corollary of this, $G \subseteq S^{1}$ is a compact subgroup
-then the fixed point set $L M^{G}$ is a submanifold of $L M$ with
-an equivariant tubular neighbourhood.
+then the fixed point set $L M^{G}$ is a submanifold of $L M$ with an [[equivariant tubular neighbourhood]].
 
 This theorem is itself a corollary of a more specific situation
 where the base consists of a single point. In this case, we
@@ -466,3 +464,5 @@ tubular neighbourhood consists of those maps $E \to M$ with the
 property that when restricted to a fibre (identified with $S$ via
 a measure-preserving diffeomorphism), the map lies in the image
 of $C^{\infty}_{0}(S,M)$.
+
+[[!redirects equivariant tubular neighbourhoods in mapping spaces]]
