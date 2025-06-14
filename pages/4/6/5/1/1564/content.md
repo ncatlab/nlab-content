@@ -112,8 +112,7 @@ where $\lambda$ is a lax monoidal constraint.
 
 Inasmuch as a [[semilattice]] is a commutative idempotent monoid, a boolean ring can be defined as a ring whose multiplication is a [[semilattice]]. However, with boolean rings, we do not need to hypothesize commutativity; it follows. That is, any ring whose multiplication is an [[idempotent monoid]] is commutative; indeed, any idempotent bilinear [[magma]] is commutative. 
 
-+-- {: .proof} 
-###### Proof 
+\begin{proof}
 Write the magma operation as $(x, y) \mapsto x y$. Then for any element $x$, idempotence and bilinearity imply 
 
 $$x + x = (x + x)(x + x) = (x + x)x + (x + x)x = (x x + x x) + (x x + x x) = (x + x) + (x + x)$$ 
@@ -123,7 +122,7 @@ which by cancellation gives $x + x = 0$, or $x = -x$. Similarly, for any element
 $$x + y = (x + y)(x + y) = (x + y)x + (x + y)y = (x x + y x) + (x y + y y) = x + y x + x y + y$$ 
 
 which by cancellation gives $y x + x y = 0$, or $y x = -(x y) = x y$. 
-=--
+\end{proof}
 
 ## Related concepts
 
