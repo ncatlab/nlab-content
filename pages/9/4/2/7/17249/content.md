@@ -22,11 +22,11 @@
 
 ## Idea
 
-In [[categories]] of [[simplicial objects]], like [[SimplicialSets]], the [[sSet]]-value [[hom-object]] between two [[objects]] is often called the _function complex_ ("[[simplicial complex]] of [[functions]] from $X$ to $Y$).
+In [[categories]] of [[simplicial objects]], like [[SimplicialSets]], the [[sSet]]-valued [[hom-object]] between two [[objects]] is often called the _function complex_ (“[[simplicial complex]] of [[functions]] from $X$ to $Y$”).
 
-The *simplicial mapping complex* or *simplicial hom complex* of simplicial *[[function complex]]* of two [[simplicial sets]] is the collection of [[maps]], [[left homotopies]] and [[higher homotopies]] between them, all itself organized into a simplicial set.
+The *[[function complex]]* of two [[simplicial sets]] is the collection of [[maps]], [[left homotopies]] and [[higher homotopies]] between them, all itself organized into a simplicial set.
 
-More formally, [[SimplicialSets]] is a [[Cartesian monoidal category]] and the corresponding [[internal hom]] is what is traditionally known as the simplicial mapping complex.
+More formally, [[SimplicialSets]] is a [[Cartesian monoidal category]] and the corresponding [[internal hom]] is what is traditionally known as the function complex.
 
 
 ## Definition
