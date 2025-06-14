@@ -59,4 +59,3 @@ On [[projective spaces]]:
 * [[Felix Cherubini]], [[Thierry Coquand]], [[Matthias Hutzler]], [[David Wärn]]: *Projective Space in Synthetic Algebraic Geometry*, 2024, &lbrack;[arxiv:2405.13916](https://arxiv.org/abs/2405.13916)&rbrack;
 
 [[!redirects synthetic algebraic geometries]]
-
