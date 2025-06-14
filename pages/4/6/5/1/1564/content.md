@@ -16,15 +16,29 @@
 
 ## Idea
 
-A [[boolean algebra]] is an algebraic structure that models the fragment of the classical propositional calculus that deals with the connectives “and”, “or”, “implies”, and “not”.  In some approaches the definition of boolean algebra is rather lengthy, but boolean algebras are equivalent to **boolean rings**, which are simply rings obeying the identity $x^2 = x$.
+A [[boolean algebra]] is an algebraic structure that models the fragment of the classical propositional calculus that deals with the connectives “and”, “or”, “implies”, and “not”.  In some approaches the definition of boolean algebra is rather lengthy, but boolean algebras are equivalent to **boolean rings**, which are simply rings obeying the identity $x^2 = x$. 
 
 In a boolean ring, the multiplication can be interpreted as the conjunction, the multiplicative unit $1$ as the truth value "true", the additive unit $0$ as the truth value "false". The unary operation $x \mapsto 1 + x$ provides the negation. Compared to [[boolean algebras]], which are also [[semiring| semirings]] but not rings (except the trivial boolean algebra), the addition expresses the exclusive disjunction and not the inclusive disjunction. The fact that the exclusive disjunction of $x$ and $x$ is the truth value "false" makes the commutative additive monoid an abelian group where $-x = x$.
 
 ## Definitions
 
+### As a ring
+
 A [[ring with unit]] $R$ is __boolean__ if the operation of multiplication is [[idempotent]]; that is, $x^2 = x$ for every element $x$, thus making multiplication a [[band]]. Although the terminology would make sense for rings without unit, the common usage assumes a unit. 
 
 Boolean rings and the [[ring]] [[homomorphisms]] between them form a [[category]] $Bool Ring$.
+
+### As a rig
+
+In fact, the additive inverse of a [[ring]] is not needed to define a Boolean ring; one only needs the structure of a [[rig]]. A **Boolean ring** is a [[rig]] which 
+
+* is a [[multiplicatively idempotent rig]] in that $x^2 = x$ for all $x$ 
+
+* has [[characteristic of a rig|characteristic]] $(0, 2)$ in that $1 + 1 = 0$, or equivalently $x + x = 0$ for all $x$.  
+
+The axiom $x + x = 0$ automatically implies that the rig is a [[ring]] with [[characteristic]] $2$, with the additive inverse defined as the [[identity function]] on the rig. 
+
+Boolean rings and the [[rig]] [[homomorphisms]] between them form a [[category]] $Bool Ring$.
 
 ## Properties
 
@@ -77,6 +91,14 @@ The category of Boolean algebras is discussed further in [[BoolAlg]], but some o
 
 Here is a very convenient result: although a boolean ring $R$ is a [[rig]] in two different ways (as a ring or as a distributive lattice), these have the same concept of [[ideal]]!
 
+Finally, let [[Ab]] be the [[concrete category|concrete]] [[monoidal category]] of [[abelian groups]], and let $U: Ab \to Set$ be the [[lax monoidal functor|lax monoidal]] underlying-set functor. Then,
+
+\begin{theorem}
+Every Boolean ring $R$ satisfies the equation
+$$1_{U(R)} = \left(U(R) \stackrel{\delta}{\to} U(R) \times U(R) \stackrel{\lambda}{\to} U(R \otimes R) \stackrel{U(mult)}{\to} U(R) \right)$$
+where $\lambda$ is a lax monoidal constraint. 
+\end{theorem}
+
 ## Examples
 
 The most familiar example is the [[power set]] $\mathcal{P}S$ of any set $S$. This is a boolean ring with [[symmetric difference]] as the addition and the intersection of sets as the multiplication. In [[constructive mathematics]], one would use the set of [[decidable subsets]] $2^S$ instead of the set of all subsets $\mathcal{P}S$ to get the corresponding boolean ring.
@@ -93,20 +115,7 @@ These two monads are related by a distributive law which expresses the distribut
 
 ## Terminology
 
-Back in the day, the term 'ring' meant (more often than now is the case) a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'boolean ring' (meaning an [[idempotent semigroup]] in $Ab$) and 'boolean algebra' (meaning an [[idempotent monoid]] in $Ab$), in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation. This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]]. 
-
-+-- {: .num_remark} 
-###### Remark 
-We pause to note that "[[idempotent monoid]]" doesn't make sense a priori in a general monoidal category: generally speaking the idempotency axiom would be expressed by an equation 
-
-$$1_M = \left(M \stackrel{\delta_M}{\to} M \otimes M \stackrel{mult}{\to} M \right)$$ 
-
-where $\delta_M$ is an appropriate diagonal map, not generally available for monoidal categories. But in a *[[concrete category|concrete]]* monoidal category $\mathbf{M}$ where the underlying-set functor $U: \mathbf{M} \to Set$ is [[lax monoidal functor|lax monoidal]], the meaning is that the evident equation holds: 
-
-$$1_{U(M)} = \left(U(M) \stackrel{\delta}{\to} U(M) \times U(M) \stackrel{\lambda}{\to} U(M \otimes M) \stackrel{U(mult)}{\to} U(M) \right)$$
-where $\lambda$ is a lax monoidal constraint. 
-=--
-
+Back in the day, the term 'ring' meant (more often than now is the case) a possibly *non*unital ring; that is a [[semigroup]], rather than a [[monoid]], in [[Ab]].  This terminology applied also to boolean rings, and it changed even more slowly.  Thus older books will make a distinction between 'boolean ring' (meaning [[multiplicatively idempotent semiring|multiplicatively idempotent]] [[non-unital ring]]) and 'boolean algebra', in addition to (or even instead of) the difference between $+$ and $\vee$ as fundamental operation. This distinction survives most in the terminology of $\sigma$-[[sigma-ring|rings]] and $\sigma$-[[sigma-algebra|algebras]]. 
 
 ## Analogues
 
@@ -131,6 +140,12 @@ which by cancellation gives $y x + x y = 0$, or $y x = -(x y) = x y$.
 * [[multiplicatively idempotent rig]]
 * [[01-bounded semilattice]]
 * [[band]], [[idempotent monoid]]
+
+## References
+
+* Wikipedia, *[Boolean ring](https://en.wikipedia.org/wiki/Boolean_ring)*
+
+* {#Rogers24} [[Morgan Rogers]], *From free idempotent monoids to free multiplicatively idempotent rigs* &lbrack;[arXiv:2408.17440](https://arxiv.org/abs/2408.17440)&rbrack;
 
 [[!redirects Boolean ring]]
 [[!redirects boolean ring]]
