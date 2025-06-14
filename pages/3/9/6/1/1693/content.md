@@ -33,6 +33,16 @@ Multiplicatively idempotent semirings are sometimes called *idempotent rigs*, se
 
 Multiplicatively idempotent semirings are called *Boolean rigs* or *Boolean semirings* by [[Toby Bartels]], see e.g. [Bartels 2020](#Bartels20). The name originated from the fact that a [[Boolean ring]] is defined in the literature as a [[ring]] for which multiplication is idempotent ([Bartels 2020](#Bartels20), [Rogers 2024](#Rogers24)). However, the terms "[[Boolean rig]]" and "[[Boolean semiring]]" have multiple meanings in the literature representing some generalization of [[Boolean rings]] from [[rings]] to [[rigs]] and [[semirings]], and now redirects to the disambiguation page [[Boolean semiring]] on the nLab. 
 
+## Properties
+
+Let [[CMon]] be the [[concrete category|concrete]] [[monoidal category]] of [[abelian groups]], and let $U: CMon \to Set$ be the [[lax monoidal functor|lax monoidal]] underlying-set functor. 
+
+\begin{theorem}
+Every multiplicatively idempotent rig $R$ satisfies the equation
+$$1_{U(R)} = \left(U(R) \stackrel{\delta}{\to} U(R) \times U(R) \stackrel{\lambda}{\to} U(R \otimes R) \stackrel{U(mult)}{\to} U(R) \right)$$
+where $\lambda$ is a lax monoidal constraint. 
+\end{theorem}
+
 ## Examples
 
 The main examples are probably [[distributive lattices]].  
@@ -111,4 +121,3 @@ The term *Boolean rig* was also used in this Category Theory Zulip discussion:
 [[!redirects Boolean rigs (Bartels)]]
 [[!redirects boolean rig (Bartels)]]
 [[!redirects boolean rigs (Bartels)]]
-
