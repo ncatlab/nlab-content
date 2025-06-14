@@ -4,7 +4,15 @@
 ### Context
 #### Algebra
 +-- {: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
+=--
+#### Categorical algebra
++-- {: .hide}
+[[!include categorical algebra -- contents]]
+=--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
 =--
 #### Category theory
 +-- {: .hide}
@@ -24,7 +32,7 @@ The notion of a *semilattice object* is the generalization of that of *[[semilat
 
 ## Definition
 
-In a [[symmetric monoidal category]] [[monoidal category with diagonals|with diagonals]] $(C, \otimes, I, \Delta_{(-)})$, a **semilattice object** is a [[commutative monoid object]] $(M, \mu, \eta)$ such that for every morphism $a:I \to M$, $\mu \circ \Delta_M \circ a = a$, where $\Delta_M$ is the [[diagonal morphism]] of $M$. 
+In a [[symmetric monoidal category]] [[monoidal category with diagonals|with diagonals]] $(C, \otimes, I, \Delta)$, a **semilattice object** is a [[commutative monoid object]] $(M, \mu, \eta)$ such that $\mu \circ \Delta_M = \mathrm{id}_M$, where $\Delta_M$ is the [[diagonal morphism]] of $M$ and $\mathrm{id}_M$ is the [[identity morphism]] of $M$.
 
 ## See also 
 
@@ -36,6 +44,12 @@ In a [[symmetric monoidal category]] [[monoidal category with diagonals|with dia
 
 * [[meet-semilattice object]]
 
+* [[lattice object]]
+
 * [[semilattice]]
 
+[[!redirects semilattice object]]
 [[!redirects semilattice objects]]
+
+[[!redirects semilattice in a symmetric monoidal category with diagonals]]
+[[!redirects semilattices in a symmetric monoidal category with diagonals]]
