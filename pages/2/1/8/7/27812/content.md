@@ -13,7 +13,7 @@
 
 ## Idea
 
-The analogue of the [[characteristic of a ring]], but for [[rigs]]. Unlike the characteristic of a [[ring]], the characteristic of a rig is given by two natural numbers, one characterizing the subrigs of $\mathbb{N}$ and a second characterizing the quotient rigs of $\mathbb{N}$. 
+The analogue of the [[characteristic of a ring]], but for [[rigs]]. Unlike the characteristic of a [[ring]], the characteristic of a rig is given by two natural numbers, one characterizing the subrigs of $\mathbb{N}$ and a second characterizing the quotient rigs of $\mathbb{N}$, due to the possible failure of [[cancellative monoid|cancellativity]] for addition of a [[rig]].  
 
 ## Definition
 
