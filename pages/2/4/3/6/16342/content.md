@@ -1,6 +1,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 #### Monoidal categories
 +--{: .hide}
 [[!include monoidal categories - contents]]
