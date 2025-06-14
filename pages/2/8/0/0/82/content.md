@@ -163,6 +163,7 @@ A historical analysis of Grothendieck's 1973 Buffalo lecture series on toposes a
 
 * _[The peripatetic seminar on sheaves and logic 1976-1999](http://www.wra1th.plus.com/gcw/math/PSSL/index.html)_
 
+
 [[!redirects Sheaf and Topos Theory]]
 [[!redirects sheaf theory]]
 [[!redirects topos theory]]
