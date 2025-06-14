@@ -34,7 +34,7 @@ In fact, the additive inverse of a [[ring]] is not needed to define a Boolean ri
 
 * is [[multiplicatively idempotent rig|multiplicatively idempotent]] in that $x^2 = x$ for all $x$; 
 
-* has [[characteristic of a rig|characteristic]] $(0, 2)$ in that $x + x = 0$ for all $x$.  
+* has [[rig characteristic]] $(0, 2)$ in that $x + x = 0$ for all $x$.  
 
 The axiom $x + x = 0$ automatically implies that the rig is a [[ring]] with [[characteristic]] $2$, with the additive inverse defined as the [[identity function]] on the rig. This also implies that every [[rig]] [[homomorphism]] between rigs with characteristic $(0, 2)$ is a [[ring homomorphism]]. 
 
