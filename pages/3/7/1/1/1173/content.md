@@ -6,6 +6,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
+#### Monoid theory
++-- {: .hide}
+[[!include monoid theory - contents]]
+=--
 #### $(0,1)$-Category theory
 +--{: .hide}
 [[!include (0,1)-category theory - contents]]
