@@ -32,6 +32,8 @@ In [[dependent type theory]], a _resizing rule_ is an [[introduction rule]] whic
 
 * [[type theoretic axiom of replacement]] (resizing [[images]] of [[functions]] from a [[small type]] to a [[locally small type]])
 
+* [[axiom of fullness]] (resizing all types of small [[entire relations]])
+
 ## References
 
 * [[Vladimir Voevodsky]], _Resizing Rules - their use and semantic
