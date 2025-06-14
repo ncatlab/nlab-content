@@ -50,7 +50,7 @@ This matters: there are solutions to the [[wave equation]] with type-I computabl
 
 In the vein of type-II computability the issue specifically of computable [[quantum physics]]/[[quantum logic]] has only been further considered in ([Streicher 12](#Streicher12)), where it is shown that at least a fair bit of the [[Hilbert space]] technology of [[quantum mechanics]]/[[quantum logic]] sits inside the [[function realizability topos]] $RT(\mathcal{K}_2)$.
 
-The question whether the [[observable universe]] or at least all [[experiments]] done within are computable is part of the (strong) [[physical Church-Turing thesis]]. See there for more, and see ([Waaldijk 03](#Waaldijk03)). Experiments showing non-computability in quantum processes have been claimed in ([CDDS 10](#CDDS10)).
+The question whether the [[observable universe]] or at least all [[experiments]] done within are computable is part of the (strong) [[physical Church-Turing thesis]]. See there for more, and see ([Waaldijk 05](#Waaldijk05)). Experiments showing non-computability in quantum processes have been claimed in ([CDDS 10](#CDDS10)).
 
 
 ## Related concepts
@@ -99,7 +99,7 @@ Decent discussion of computability in physics includes the following
 
 * {#WeihrauchZhong02} [[Klaus Weihrauch]],  Ning Zhong, _Is wave propagation computable or can wave computers beat the Turing machine?_, Proc. of the London Math. Soc. (3) 85 (2002) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.95.5994))
 
-* {#Waaldijk03} [[Franka Waaldijk]], section 7 of _On the foundations of constructive mathematics -- especially in relation to the theory of continuous functions_, 2003  ([pdf](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf), [web discussion](http://fwaaldijk.wordpress.com/2014/01/14/experiment-to-disprove-strong-physical-church-turing-thesis/)).
+* {#Waaldijk05} [[Franka Waaldijk]], section 7 of  _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_, Foundations of Science, Volume 10, pages 249–324, (2005). ([doi:10.1007/s10699-004-3065-z](https://doi.org/10.1007/s10699-004-3065-z), [pdf](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf), [web discussion](https://fwaaldijk.wordpress.com/2014/01/14/experiment-to-disprove-strong-physical-church-turing-thesis/)).
 
 * {#WeihrauchZhong06} [[Klaus Weihrauch]], _Computing Schr&#246;dinger propagators on Type-2 Turing machines_, Journal of Complexity
 Volume 22, Issue 6, December 2006, Pages 918&#8211;935
