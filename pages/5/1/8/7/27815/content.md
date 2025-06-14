@@ -17,6 +17,8 @@ The double [[power set]] construction $\mathcal{P}(\mathcal{P}(X))$ on a set $X$
 
 ## Related concepts
 
+* [[power set]]
+
 * [[filter]]
 
 * [[topological space]]
