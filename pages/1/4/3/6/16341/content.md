@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Algebra
++-- {: .hide}
+[[!include algebra - contents]]
+=--
 #### Categorical algebra
 +-- {: .hide}
 [[!include categorical algebra -- contents]]
@@ -16,8 +20,6 @@
 =--
 =--
 =--
-
-
 
 #Contents#
 * table of contents
@@ -182,6 +184,10 @@ A monoid in a bicategory $B$ may also be described as the [[hom-object]] of a $B
 * [[monoid]]
 
 * [[commutative monoid in a symmetric monoidal category]]
+
+* [[idempotent monoid in a monoidal category with diagonals]]
+
+* [[semilattice in a symmetric monoidal category with diagonals]]
 
 * [[idempotent monoid in a monoidal category]]
 
