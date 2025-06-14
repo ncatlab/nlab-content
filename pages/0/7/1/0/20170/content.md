@@ -40,6 +40,8 @@ These results continue to hold when $G$ is not [[compact]], see [Illman00](#Illm
 
 * [[equivariant differential topology]]
 
+* [[equivariant tubular neighbourhood]], [[Bochner linearization theorem]]
+
 ## References
 
 * {#Illman72} [[Sören Illman]], Theorem 3.1 in: *Equivariant algebraic topology*, Princeton University 1972 ([[Illman_EquivariantAlgebraicTopology1972.pdf:file]])
