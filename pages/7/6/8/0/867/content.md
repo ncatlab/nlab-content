@@ -279,7 +279,7 @@ Posets in [[univalent universes]] in [[homotopy type theory]] are discussed in
 
 * {#Tosun} Ayberk Tosun, Formal Topology in Univalent Foundations [pdf](https://odr.chalmers.se/handle/20.500.12380/301098)
 
-* {#ANST} Benedikt Ahrens, Paige Randall North, Michael Shulman, Dimitris Tsementzis, The Univalence Principle ([abs:2102.06275](https://arxiv.org/abs/2102.06275))
+* {#ANST21} [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *The Univalence Principle* &lbrack;[abs:2102.06275](https://arxiv.org/abs/2102.06275)&rbrack;
 
 On posets that are [[cofibrant objects]] in the Thomason model structure:
 
