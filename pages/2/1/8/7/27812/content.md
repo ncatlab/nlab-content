@@ -20,7 +20,7 @@ The analogue of the [[characteristic of a ring]], but for [[rigs]]. Unlike the c
 Every [[rig]] is an $\mathbb{N}$-[[module]], so has a [[action]] $(n, x) \mapsto n x$ for natural number $n$ and element $x$.
 
 \begin{definition}
-A rig $R$ has **characteristic** $(m, n)$ for $m \geq 0$ and $n \geq 1$ if for all elements $x$, $m x = (m + n) x$. A rig $R$ has [[characteristic zero]] or characteristic $(\infty,0)$ if there does not exist any positive natural number $n$ such that $m x = (m + n) x$. 
+A rig $R$ has **characteristic** $(m, n)$ for $m \geq 0$ and $n \geq 1$ if $m$ and $n$ are the smallest natural numbers such that for all elements $x$, $m x = (m + n) x$ . A rig $R$ has [[characteristic zero]] or characteristic $(\infty,0)$ if there does not exist any positive natural number $n$ such that $m x = (m + n) x$. 
 \end{definition}
 
 There is another definition of a characteristic of a rig involving maps out of quotient rigs of $\mathbb{N}$. 
