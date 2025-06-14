@@ -5,6 +5,12 @@
 
 * [[monoid object]]
 
+  * [[commutative monoid object]]
+
+  * [[idempotent monoid object]]
+
+  * [[semilattice object]]
+
 * [[group object]]
 
 * [[ring object]]
