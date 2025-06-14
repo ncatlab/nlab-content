@@ -1,21 +1,36 @@
 
-# Subset collection
-* table of contents
-{: toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+#### Universes
++-- {: .hide}
+[[!include universe - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
-In [[set theory]] and the [[foundations]] of mathematics, the axiom of __fullness__ is an axiom intermediate in strength between the existence of [[power sets]] and [[function sets]].  Of course, these can only be distinguished in [[constructive mathematics]], since classically power sets and function sets are equivalent (at least if you have the set $\mathbf{2} = \{\top, \bot\}$).
-
-The axiom of __subset collection__ combines fullness with the [[axiom of collection]] to apply in the situations where fullness is used.  In the presence (I think) of either collection or [[full separation]], subset collection is equivalent to fullness.
+In [[set theory]] and the [[foundations]] of mathematics, the axiom of __fullness__ is an axiom intermediate in strength between the existence of [[power sets]] and [[function sets]].  Of course, these can only be distinguished in [[constructive mathematics]], since classically power sets and function sets are equivalent (at least if you have the set $\mathbb{2} = \{\top, \bot\}$).
 
 ## Statements
 
-In its guise as _fullness_, the axiom states that, given any [[sets]] $X$ and $Y$, there is a set $F_{X,Y}$ of _enough [[entire relations]]_ from $X$ to $Y$ in this sense:
+### In set theory
+
+The **axiom of fullness** states that, given any [[sets]] $X$ and $Y$, there is a set $F_{X,Y}$ of _enough [[entire relations]]_ from $X$ to $Y$ in this sense:
 
 *  Every element of $F_{X,Y}$ is an entire relation from $X$ to $Y$;
 *  If $R$ is an entire relation from $X$ to $Y$, then for some $S \in F_{X,Y}$, $S \subseteq R$.
-
 
 We have written this in a [[material set theory|material]] fashion; [[structural set theory|structurally]], the axiom says that $F_{X,Y}$ *parametrises* enough entire relations in this sense:
 
@@ -36,11 +51,6 @@ In the context of material set theory, the structural axiom is weaker than the m
 You can also write down an [[internalization|internal]] version of fullness by adding arbitrary additional parameters to the structural version above (analogously to the generalisation from [[power set]] to [[power object]], although more complicated since $F_{X,Y}$ is not given by a [[universal property]]).  
 
 Given [[function sets]], fullness is equivalent to the set theory having sets of [[inhabited]] [[subsets]], since an entire relation between $A$ and $B$ is a [[function]] from $A$ to the set of inhabited subsets of $B$. (Power sets on the other hand are sets of *all* subsets). 
-
-In its guise as _subset collection_, the axiom states ...
-+-- {: .query}
-I need to look this up again, including the conditions for its equivalence with fullness.  In the meantime, see [the Stanford Encyclopedia's list of axioms](http://plato.stanford.edu/entries/set-theory-constructive/axioms-CZF-IZF.html).
-=--
 
 ### In dependent type theory
 
@@ -87,36 +97,38 @@ Fullness also follows from function sets in the presence of [[COSHEP]], a fairly
 
 Note that $F_{X,Y}$ is not categorical (in the logicians\' sense); that is, there may be many sets $F, F', \ldots$ that all satisfy the axiom without being (in an appropriate sense) equal.  This is the downside to adopting the fullness axiom, compared to power sets or function sets; this is also why the internal version is complicated.
 
-As fullness is weaker than power sets in a constructive framework, we may consider it [[predicative mathematics|predicative]] in the sense of the constructive school; this is one reason for adopting it while rejecting power sets.  One reason for adopting it instead of (only) function sets is this: it is strong enough to construct the set $\mathbf{R}$ of (located Dedekind) [[real numbers]] from the set $\mathbf{N}$ of [[natural numbers]] *without* assuming [[excluded middle]] or [[countable choice]]; see below.
+As fullness is weaker than power sets in a constructive framework, we may consider it [[predicative mathematics|predicative]] in the sense of the constructive school; this is one reason for adopting it while rejecting power sets.  
 
+## Definition of the real numbers
 
-## Relation to type theory
+One reason for adopting the axiom of fullness instead of (only) function sets is this: it is strong enough to construct the set $\mathbb{R}$ of (located Dedekind) [[real numbers]] from the set $\mathbb{N}$ of [[natural numbers]] *without* assuming [[excluded middle]] or [[countable choice]]. Using [[function sets]], one can easily construct the set $\mathbb{R}_C$ of [[Cauchy reals]] as a [[subquotient]] of the function set $\mathbb{N}^{\mathbb{N}}$.  Both classical and constructive mathematicians usually adopt axioms in which one can prove that $\mathbb{R}$ is [[isomorphic]] to $\mathbb{R}_C$; this is equivalent to a [[weak countable choice]] principle $\mathrm{AC}_{\mathbb{N},2}$ that follows from either [[excluded middle]] (classically accepted) or [[countable choice]]. But there are (for example) some [[Grothendieck toposes]] in which $\mathbb{R}$ is not [[isomorphic]] to $\mathbb{R}_C$ (as a statement in the [[Mitchell–Bénabou language]]), so any sort of constructive mathematics that wants to apply to such toposes cannot rely on this method to define the [[real numbers object]] $\mathbb{R}$.
 
-Subset collection is justified by predicative versions of constructive [[type theory]] in the sense of Martin--L&#246;f or Thierry Coquand.  To see this, note that these theories justify [[COSHEP]]; their types define (not sets in general but) _[[presets]]_ (following Bishop) or _[[completely presented sets]]_, which (as sets) are projective.  Analogously, an element of $F_{X,Y}$ may be considered an _operation_ or _prefunction_ (following 'preset') from $X$ to $Y$.
+Of course, in a topos, there are other ways to define $\mathbb{R}$, but what if you want your theory to *also* be predicative?  If you adopt the fullness axiom, then you can modify the definition of $\mathbb{R}_C$ to produce a definition of $\mathbb{R}$ *without* assuming any choice principle.  Instead of using $\mathbb{N}^{\mathbb{N}}$, you use $F_{\mathbb{N},\mathbb{N}}$ instead; $\mathbb{R}$ can be constructed as a subquotient of that set.
 
-But note that the type of prefunctions from $X$ to $Y$, like the preset underlying $X$, is a categorical (unique) construction in type theory, while $F_{X,Y}$, like COSHEP, is not.  Thus type theory (or rather preset theory) gives us constructions that are not available in set theory (even with fullness or even COSHEP), such as the predicate that states whether two functions have equal underlying prefunctions.
-
-
-## Definition of $\mathbf{R}$
-
-We consider this application in some detail; see also [[real number object]].
-
-Using [[function sets]], one can easily construct the set $\mathbf{R}_C$ of [[Cauchy reals]] as a [[subquotient]] of the function set $\mathbf{N}^{\mathbf{N}}$.  Both classical and constructive mathematicians usually adopt axioms in which one can prove that $\mathbf{R} = \mathbf{R}_C$; this is equivalent to a [[weak countable choice]] principle (identified by [[Fred Richman]] et al) that follows from either [[excluded middle]] (classically accepted) or [[countable choice]] (usually constructively accepted).  But there are (for example) some [[Grothendieck toposes]] in which $\mathbf{R} = \mathbf{R}_C$ (as a statement in the [[Mitchell–Bénabou language]]) fails, so any sort of constructive mathematics that wants to apply to such toposes cannot rely on this method to define the [[real numbers object]] $\mathbf{R}$.
-
-Of course, in a topos, there are other ways to define $\mathbf{R}$, but what if you want your theory to *also* be predicative?  If you adopt the fullness axiom, then you can modify the definition of $\mathbf{R}_C$ to produce a definition of $\mathbf{R}$ *without* assuming any choice principle.  Instead of using $\mathbf{N}^{\mathbf{N}}$, you use $F_{\mathbf{N},\mathbf{N}}$ instead; $\mathbf{R}$ can be constructed as a subquotient of that set.
-
-Let an element of $F_{\mathbf{N},\mathbf{N}}$ be a _pre[[sequence]]_ of natural numbers, and fix a [[bijection]] $\phi\colon \mathbf{N} \to \mathbf{Q}$ between $\mathbf{N}$ and the set $\mathbf{Q}$ of [[rational numbers]].  We call such a presequence $r$ _regular_ if, whenever $i,j,x,y$ are natural numbers such that $r(i,x)$ and $r(j,y)$, we have
+Let an element of $F_{\mathbb{N},\mathbb{N}}$ be a _[[multivalued function|multivalued]] [[sequence]]_ of natural numbers, and fix a [[bijection]] $\phi\colon \mathbb{N} \to \mathbb{Q}$ between $\mathbb{N}$ and the set $\mathbb{Q}$ of [[rational numbers]].  We call such a multivalued sequence $r$ _regular_ if, whenever $i,j,x,y$ are natural numbers such that $r(i,x)$ and $r(j,y)$, we have
 $$ {|\phi(x) - \phi(y)|} \leq 1/i + 1/j .$$
-(It is common, but not really necessary in the presence of function sets, to use regular sequences instead of the more general Cauchy sequences when defining $\mathbf{R}_C$ in constructive mathematics, and we follow that here.)  We call two regular presequences $r,s$ _equivalent_ if, whenever $i,j,x,y$ are natural numbers such that $r(i,x)$ and $s(j,y)$, we have
+(It is common, but not really necessary in the presence of function sets, to use regular sequences instead of the more general Cauchy sequences when defining $\mathbb{R}_C$ in constructive mathematics, and we follow that here.)  We call two regular multivalued sequences $r,s$ _equivalent_ if, whenever $i,j,x,y$ are natural numbers such that $r(i,x)$ and $s(j,y)$, we have
 $$ {|\phi(x) - \phi(y)|} \leq 1/i + 1/j .$$
-Then this defines an [[equivalence relation]] on the set of regular presequences, and the [[quotient set]] is $\mathbf{R}$.  (That is, it may be given, in the usual way, the structure of a [[linear order|linearly ordered]] [[Heyting field]] which is [[Dedekind-complete]] relative to located pairs of upper and lower sets.)
+Then this defines an [[equivalence relation]] on the set of regular multivalued sequences, and the [[quotient set]] is $\mathbb{R}$. (That is, it may be given, in the usual way, the structure of an [[Archimedean ordered field]] which is [[Dedekind complete]] relative to located pairs of upper and lower sets.)
 
+However, on one hand, if one's goal is to have the real numbers, the axiom of fullness is overkill: one can simply just postulate the real numbers in any number of ways, such as a [[real numbers object]] or a [[terminal object|terminal]] [[Archimedean ordered field]]: they contain all real numbers by definition and are [[Dedekind complete]] relative to located pairs of upper and lower sets. In [[dependent type theory]], there is also a [[resizing axiom]] for [[Dedekind cuts]]. On the other hand, in [[constructive mathematics]], the set of real numbers is less well behaved then the [[locale of real numbers]], and it is currently unknown how to define the locale of real numbers with only the axiom of fullness. 
+
+## Related concepts
+
+* [[resizing axiom]]
+
+* [[axiom of power sets]]
+
+* [[axiom of function sets]]
+
+* [[subset collection]]
+
+## References
+
+* [[Michael Shulman]], _Comparing material and structural set theories_ &lbrack;[arXiv:1808.05204](https://arxiv.org/abs/1808.05204)&rbrack;
 
 category: foundational axiom
 
 [[!redirects fullness]]
 [[!redirects axiom of fullness]]
 [[!redirects fullness axiom]]
-
-[[!redirects axiom of subset collection]]
-[[!redirects subset collection]]
