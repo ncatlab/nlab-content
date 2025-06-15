@@ -175,6 +175,8 @@ $$((\forall x.\neg (x \# x)) \wedge (\forall x, y.(x \# y) \Rightarrow (y \# x))
 
 ## Related concepts
 
+* [[resizing axiom]]
+
 * [[limited principle of omniscience]]
 
 * [[axiom of real cohesion]]
