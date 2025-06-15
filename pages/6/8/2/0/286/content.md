@@ -84,29 +84,37 @@ This definition should be the conclusion of a theorem that using certain languag
 
 ### In category theory
 
-A common misconception in category theory is that [[strict categories]] violate the principle of equivalence. However, this is not true. 
+#### Strict concrete categories
 
-First of all, there are some strict categories in which the equivalence of objects are precisely equality on objects: the [[gaunt categories]]. Important examples of gaunt categories include [[posets]] and the [[walking parallel pair]]. 
+A common misconception in category theory is that [[strict categories]] violate the principle of equivalence. However, this is not true. We have to first make sure that the objects of the categories are "sets" in a suitable sense, yielding the notion of a [[strict category|strict]] [[concrete category]]. 
 
-\begin{example}
-The [[strict category]] consisting of [[Archimedean ordered fields]] and [[ring homomorphisms]] is equivalence-invariant, since there is at most one ring homomorphism between Archimedean ordered fields. 
-\end{example}
+Let $\mathrm{Set}$ be some [[category of sets]]. We shall stay neutral on whether $\mathrm{Set}$ is strict or not; e.g. in [[dependent type theory]], this means $\mathrm{Set}$ is a general [[precategory]]. Note that if $\mathrm{Set}$ is not a strict category, the notion of [[equality]] of [[sets]] in $\mathrm{Set}$, if it exists, is by definition not the [[propositional equality]] of [[first order logic with equality]]; or in [[dependent type theory]], [[propositional equality]] in the sense of the [[identity type]] being valued in [[mere propositions]]. 
 
-More generally in fact, every strict category is equivalent to a [[setoid]]-valued [[presheaf]] on the [[simplex category]] or the full subcategory of the [[arrow category]] of the [[(2,1)-category]] of [[weak categories]], consisting of [[essentially surjective functors]] whose [[domain]] is a [[setoid]]. 
+A category is a [[concrete category]] if it comes with a [[faithful functor]] $F:C \to \mathrm{Set}$. In a [[strict category|strict]] [[concrete category]], the objects of the categories are (codes for) [[sets]], and equality of objects is equality of sets. 
 
-Instead, what does break the principle of equivalence is to say that certain [[concrete categories]] with non-trivial [[automorphisms]] such as [[Set]] or [[Grp]] are strict categories, as the objects of the categories are [[sets]], and equality of objects is equality of sets. In this case, one has to instead say that they are [[isomorphism|isomorphic]] and then (usually) impose some [[coherence relation]] on the relevant family of isomorphisms.  But of course, this is more complicated!
+Another common misconception in category theory is that all strict concrete categories violate the principle of equivalence. However, this is also not true. There are some strict concrete categories in which the equivalence of objects are precisely equality on objects: the [[gaunt category|gaunt]] concrete categories. One example of a guant concrete category is the category of [[Archimedean ordered fields]] and [[ring homomorphisms]], which is equivalence-invariant since there is at most one ring homomorphism between Archimedean ordered fields. 
 
-\begin{example}
-The [[strict category]] consisting of the [[natural numbers]] $\mathbb{N}$ and [[function sets]] between standard finite types $\mathrm{Fin}(n)^{\mathrm{Fin}(m)}$, where the [[family]] of $\mathbb{N}$-indexed sets is $\mathrm{Fin}(n) \coloneqq \{k \in \mathbb{N} \vert k \lt n\}$, breaks equivalence invariance, since [[equality]] of natural numbers does not coincide with [[bijection]] of [[finite sets]]. The equivalence-invariant version is the [[Rezk completion]] $\hat{\mathbb{N}}$ of this category, yielding the [[univalent category]] of [[finite sets]]. 
-\end{example}
+Instead, what does violate the principle of equivalence is any strict concrete category $C$ which is not a [[gaunt category]]. There are many natural examples of such strict categories which are constructible in [[mathematics]]; below, we give one construction from set-indexed [[families of sets]]: 
 
 \begin{example}
-The [[strict category]] consisting of a model of [[ZFC]] $V$ and [[function sets]] between the sets $\mathrm{El}(a)^{\mathrm{El}(b)}$ of $V$, where the [[family]] of $V$-indexed sets is $\mathrm{El}(a) \coloneqq \{x \in V \vert x \in a\}$, breaks equivalence invariance, since [[equality]] of [[pure sets]] does not coincide with [[bijection]] of [[sets]]. The equivalence-invariant version is the [[Rezk completion]] $\hat{V}$ of this category, yielding the [[univalent category]] of $V$-[[small sets]]. 
+Let $V$ be a [[pointed set]] with designated element $A \in V$, and let $\mathrm{El}:V \to \mathrm{Set}$ be a [[family of sets]] indexed by $V$, such that there exist two distinct elements $x, y \in \mathrm{El}(A)$ such that $x \neq y$. 
+
+Then the [[strict category]] $C_{V,\mathrm{El}}$ whose objects are elements of $V$ and whose [[morphisms]] are [[functions]] from sets $\mathrm{El}(a)$ to $\mathrm{El}(b)$ for $a, b \in V$ is a [[fully faithful]] [[concrete category]] that breaks equivalence invariance, since [[equality]] of [[elements]] in $V$ does not coincide with [[bijection]] between [[sets]] of the family $\mathrm{El}$. The element $A \in V$ and the two distinct elements $x, y \in \mathrm{El}(A)$ are required to make the resulting category not a [[gaunt category]]. 
 \end{example}
 
-\begin{example}
-The category of [[Peter Aczel]]'s iterative sets ([Gratzer, Gylterud, Mörtberg and Stenholm 2024](#GGMS24)) is a [[strict category]] which breaks equivalence invariance, because [[equality]] of iterative sets does not coincide with [[bijection]] of the [[h-set]] reflection of iterative sets. 
-\end{example}
+The equivalence-invariant version is the [[Rezk completion]] $\hat{C}_{V,\mathrm{El}}$ of this category, yielding the [[univalent category]] of $(V, \mathrm{El})$-[[small sets]]. 
+
+Specific examples of $(V, \mathrm{El})$ which generate such strict concrete categories of sets include 
+
+* When $V$ is the [[natural numbers]] $\mathbb{N}$ and $\mathrm{El}$ is the family of standard [[finite sets]] $\mathrm{El}(n) \coloneqq \{k \in \mathbb{N} \vert k \lt n\}$
+
+* When $V$ is an [[axiom of extensionality|extensional]] [[material set theory]] with [[membership relation]] $x \in_V y$ and $\mathrm{El}$ is defined as $\mathrm{El}(a) \coloneqq \{x \in V \vert x \in_V a\}$. Examples include the [[pure sets]] in [[ZFC]] and [[Peter Aczel]]'s iterative sets ([Gratzer, Gylterud, Mörtberg and Stenholm 2024](#GGMS24)). 
+
+In [[mathematics]] done in a [[set-level foundations]] such as a [[set theory]] or a [[set theory with classes]] or a [[set-level type theory]], the objects of a [[set]] or a [[class]] or a [[type]] have [[propositional equality]] on them, which means that every [[concrete category]] is strict and every non-gaunt concrete category thus violates the principle of equivalence, including [[Set]] itself. As a result, in order to be equivalence invariant, one has two options:
+
+* one can instead say that they are [[isomorphism|isomorphic]] and then (usually) impose some [[coherence relation]] on the relevant family of isomorphisms. But of course, this is more complicated!
+
+* one can work in [[higher-level foundations]] instead, where the foundational collections do not have propositional valued equality by default, sidestepping this issue entirely. 
 
 #### Identity-on-objects functors
 
@@ -185,6 +193,9 @@ Much as the [[axiom of choice]] tells us that every vector space has a basis, so
 
 Perhaps the extreme case of this is using [[model categories]] to study [[homotopy theory]], which is (from the [[nPOV]]) really about $(\infty,1)$-[[(infinity,1)-category|categories]].  Even if model categories are not taken to be strict categories, they still form a $2$-groupoid and thus are still far more strict than $(\infty,1)$-categories, which only form an $\infty$-[[infinity-groupoid|groupoid]].  Nevertheless, they are quite useful (at least assuming the axiom of choice?).
 
+## Related concepts
+
+* [[higher-level foundations]]
 
 ## References
  {#References}
