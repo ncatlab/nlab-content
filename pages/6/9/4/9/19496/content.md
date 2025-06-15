@@ -4,7 +4,7 @@
 |--------|---------|
 | $\phantom{A}$$\in$ | $\phantom{A}$[[element]] [[relation]] | 
 | $\phantom{A}$$\,:$ | $\phantom{A}$[[type|typing]] [[relation]] | 
-| $\phantom{A}$$=$ |  $\phantom{A}$[[equality]] | 
+| $\phantom{A}$$=$ |  $\phantom{A}$[[propositional equality]] | 
 | $\phantom{A}$$\vdash$$\phantom{A}$ | $\phantom{A}$[[entailment]]  / [[sequent]]$\phantom{A}$ | 
 | $\phantom{A}$$\top$$\phantom{A}$ | $\phantom{A}$[[true]]  / [[top]]$\phantom{A}$ | 
 | $\phantom{A}$$\bot$$\phantom{A}$ | $\phantom{A}$[[false]] / [[bottom]]$\phantom{A}$ | 
@@ -25,7 +25,7 @@
 | $\phantom{A}$$+$ | $\phantom{A}$[[sum type]] ([[disjunction]]) |
 | $\phantom{A}$$0$ | $\phantom{A}$[[empty type]] ([[false]]) |
 | $\phantom{A}$$1$ | $\phantom{A}$[[unit type]] ([[true]]) |
-| $\phantom{A}$$=$ |  $\phantom{A}$[[identity type]] ([[equality]]) |
+| $\phantom{A}$$=$ |  $\phantom{A}$[[identity type]] ([[propositional equality]]) |
 | $\phantom{A}$$\simeq$ | $\phantom{A}$[[equivalence of types]] ([[logical equivalence]]) |
 | $\phantom{A}$$\sum$ | $\phantom{A}$[[dependent sum type]] ([[existential quantifier]]) |
 | $\phantom{A}$$\prod$ | $\phantom{A}$[[dependent product type]] ([[universal quantifier]])|
