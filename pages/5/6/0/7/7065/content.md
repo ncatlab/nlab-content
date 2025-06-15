@@ -254,7 +254,7 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 
 * [[center of contraction]]
 
-* [[contractible identity type]]
+* [[propositional equality]]
 
 ## References
 
