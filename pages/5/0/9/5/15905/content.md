@@ -38,6 +38,8 @@ In [[dependent type theory]], a _resizing rule_ is an [[introduction rule]] whic
 
 * [[axiom of fullness]] (resizing all types of small [[entire relations]])
 
+* One can also consider resizing axioms for [[Dedekind cuts]] and the type of small [[Dedekind real numbers]] to get a [[real numbers object]] in the type universe without having to assume [[fullness]], [[analytic LPO]], or [[countable choice]]. 
+
 ## References
 
 * [[Vladimir Voevodsky]], _Resizing Rules - their use and semantic
