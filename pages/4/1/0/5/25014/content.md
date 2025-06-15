@@ -81,6 +81,8 @@ More generally, any [[irreflexive relation]] $R(x, y)$ can be considered an "ine
 
 * [[equality]], [[equation]]
 
+* [[propositional equality]]
+
 * [[denial inequality]]
 
 ## References
