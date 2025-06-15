@@ -67,7 +67,7 @@ There is an analogue of the "propositions as some types" in [[set theory]], call
 
 * The image of the unique function from the indexed [[disjoint union]] of a family of subsingletons to any singleton is the [[existential quantifier]]
 
-* Equality is given by the [[diagonal subset]]
+* The [[propositional equality]] is given by the [[diagonal subset]]
 
 Compare with [[propositions as sets]], which is the [[BHK interpretation]] of the internal logic of a set theory via set-theoretic operations on sets.
 
