@@ -59,13 +59,15 @@ Instead, two elements $x$ and $y$ of a type $A$ are **propositionally equal** or
 
 $$x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$$
 
-By this definition of equality, propositional equality is always a [[binary relation]], because [[isContr]] is always a [[proposition]] in [[dependent type theory]]. We say that all identifications between $x:A$ and $y:A$ are propositional equalities if $\mathrm{Id}_A(x, y) \to x = y$. A **set** is then precisely a type where all identifications are propositional equalities, and coincide with the usual definition that identity types $\mathrm{Id}_A(x, y)$ are propositions for all $x:A$ and $y:A$. 
+By this definition of equality, propositional equality is always a [[binary relation]], because [[isContr]] is always a [[proposition]] in [[dependent type theory]]. In fact, if all identifications in an [[identity type]] are unique (i.e. $\mathrm{Id}_A(x, y) \to \mathrm{isContr}(\mathrm{Id}_A(x, y))$), then the identity type is an [[h-proposition]], and if the identity type is an [[h-proposition]], then all identifications in the identity type are unique; hence the name *[[propositional equality]]* for unique identifications and the relation $x = y$ for the type $\mathrm{isContr}(\mathrm{Id}_A(x, y))$. 
 
-The [[uniqueness of identity proofs]] can then be represented by a propositional equality analogue of [[equality reflection]] for [[extensional type theory]]:
+A **set** is then precisely a type where all identifications are unique, and the [[uniqueness of identity proofs]] can then be represented by a propositional equality analogue of [[equality reflection]] for [[extensional type theory]]:
 $$\frac{\Gamma \vdash p:\mathrm{Id}_A(x, y)}{\Gamma \vdash \mathrm{UIP}(p):x = y}$$
-making typal equality and propositional equality synonyms of each other again. 
+making typal equality and propositional equality synonyms of each other again, because then all identity types are propositions and all identifications are unique. 
 
-Propositional equality in this manner coincides with the common notion of equality found elsewhere in mathematics, as well as the unique isomorphisms and unique equivalences discussed in [Buzzard 2024](#Buzzard24) if one assumes [[univalence]]. However, most dependent type theorists use the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]]. 
+Propositional equality in this manner coincides with the common notion of equality found elsewhere in mathematics, as well as the unique isomorphisms discussed in [Buzzard 2024](#Buzzard24) if one assumes [[univalence]]. 
+
+Most homotopy type theorists use the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]], even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used the fact that most homotopy type theorists interpret [[propositional equality]] in the [[propositions as types]] manner and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[propositional equality]]" or "[[typal equality]]", instead restricting the use of equality / [[propositional equality]] for only the unique identifications, and using a suitable alternative for "[[typal equality]]", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". 
 
 ## Properties
 
