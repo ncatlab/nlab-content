@@ -1504,3 +1504,5 @@ Currently, the following stylish themes are available:
 A current git repository of the source code for nLab pages is available at <https://github.com/ncatlab/nlab-content> and a current git repository of the compiled HTML code for nLab pages is available at <https://github.com/ncatlab/nlab-content-html>.
  
 category: meta
+
+[[!redirects How to get started]]
