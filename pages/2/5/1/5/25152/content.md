@@ -105,7 +105,10 @@ $$\mathrm{isUnivalent}(U, T) \coloneqq \forall A:U.\exists! B:U.T(A) \simeq T(B)
 
 ## References
 
-* [Uniqueness quantification](https://en.wikipedia.org/wiki/Uniqueness_quantification)
+* Wikipedia, *[Uniqueness quantification](https://en.wikipedia.org/wiki/Uniqueness_quantification)*
+
+[[!redirects unique]]
+[[!redirects uniquely]]
 
 [[!redirects uniquely quantified]]
 
