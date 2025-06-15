@@ -419,6 +419,8 @@ Unlike the other presentation of dependent type theory in terms of universes, in
 
 ## Related concepts
 
+* [[resizing axiom]]
+
 * [[univalent foundations]]
 
 * [[univalent type theory]]
