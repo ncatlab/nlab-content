@@ -28,7 +28,7 @@
 | [[logical equivalence]] | [[bijection set]] | [[object of isomorphisms]] | [[equivalence type]] |
 |  | [[support set]] | [[support object]]/[[(-1)-truncation]] | [[propositional truncation]]/[[bracket type]]
 | | | [[n-image]] of [[morphism]] into [[terminal object]]/[[n-truncation]] | [[n-truncation modality]]
-| [[equality]] | [[diagonal function]]/[[diagonal subset]]/[[diagonal relation]] | [[path space object]] | [[identity type]]/[[path type]] |
+| [[propositional equality]] | [[diagonal function]]/[[diagonal subset]]/[[diagonal relation]] | [[path space object]] | [[identity type]]/[[path type]] |
 | [[completely presented set]] | [[set]] | [[discrete object]]/[[0-truncated object]]  | [[h-level 2]]-[[type]]/[[set]]/[[h-set]] |
 | [[set]] | [[set]] with [[equivalence relation]] | [[groupoid object in an (infinity,1)-category|internal 0-groupoid]] | [[Bishop set]]/[[setoid]] with its [[pseudo-equivalence relation]] an actual [[equivalence relation]] |
 | | [[equivalence class]]/[[quotient set]] | [[quotient]] | [[quotient type]] |
