@@ -47,21 +47,25 @@ Then we have the elimination rules for propositional equality:
 $$\frac{\Gamma, x, y \vdash P(x, y) \; \mathrm{prop}}{\Gamma \vdash \left(\forall x.P(x, x)\right) \implies \left(\forall x.\forall y.x = y \implies P(x, y)\right) \; \mathrm{true}}$$
 
 ### In dependent type theory
+  {#InDependentTypeTheory}
 
-Historically in the [[dependent type theory]] community, the term **propositional equality** was used for the [[identity type]] in the sense of [[typal equality]]. This was because under the principle of [[propositions as types]], one interprets all types in a single-layer type theory as being propositions. 
+In [[dependent type theory]], there are two interpretations of [[propositions]] and [[logic]]:
 
-However, we choose to make a distinction between propositional equality and typal equality in dependent type theory, because in the advent of [[homotopy type theory]] and other [[intensional type theories]], [[typal equality]] is no longer required to be a [[subsingleton]] or [[h-proposition]], and the alternative principle of [[propositions as some types]] has become the primary interpretation of [[dependent type theory]], where only the [[subsingletons]] or [[h-propositions]] are interpreted as [[propositions]]. 
+* The [[propositions as types]] interpretation, which says that all types are propositions. The term "propositional equality" is used as a synonym of typal equality in referring to [[identifications]] or [[identity types]]. 
 
-In the [[propositions as some types]] interpretation of dependent type theory, the notion of "propositional equality" does have an interpretation in terms of identity types: two elements $x$ and $y$ of a type $A$ are **propositionally equal** or perhaps just **equal** if $x$ and $y$ are [[uniquely]] [[identified]]; the identity type $\mathrm{Id}_A(x, y)$ is a [[contractible type]]. 
+* The [[propositions as some types]] interpretation, which says that only the [[subsingletons]] or [[h-propositions]] are propositions. The term "propositional equality" in this interpretation is not a synonym of typal equality in referring to [[identifications]] or [[identity types]]. 
+
+Instead, two elements $x$ and $y$ of a type $A$ are **propositionally equal** or perhaps just **equal** if $x$ and $y$ are [[uniquely]] [[identified]]; the identity type $\mathrm{Id}_A(x, y)$ is a [[contractible type]]. 
 
 $$x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$$
 
-By this definition of equality, equality is always a [[binary relation]], because [[isContr]] is always a [[proposition]] in [[dependent type theory]]. We say that all identifications between $x:A$ and $y:A$ are propositional equalities if $\mathrm{Id}_A(x, y) \to x = y$. A **set** is then precisely a type where all identifications are propositional equalities, and coincide with the usual definition that identity types $\mathrm{Id}_A(x, y)$ are propositions for all $x:A$ and $y:A$. 
+By this definition of equality, propositional equality is always a [[binary relation]], because [[isContr]] is always a [[proposition]] in [[dependent type theory]]. We say that all identifications between $x:A$ and $y:A$ are propositional equalities if $\mathrm{Id}_A(x, y) \to x = y$. A **set** is then precisely a type where all identifications are propositional equalities, and coincide with the usual definition that identity types $\mathrm{Id}_A(x, y)$ are propositions for all $x:A$ and $y:A$. 
 
 The [[uniqueness of identity proofs]] can then be represented by a propositional equality analogue of [[equality reflection]] for [[extensional type theory]]:
 $$\frac{\Gamma \vdash p:\mathrm{Id}_A(x, y)}{\Gamma \vdash \mathrm{UIP}(p):x = y}$$
+making typal equality and propositional equality synonyms of each other again. 
 
-Propositional equality in this manner coincides with the common notion of equality found elsewhere in mathematics, as well as the unique isomorphisms and unique equivalences discussed in [Buzzard24](#Buzzard24) if one assumes [[univalence]]. 
+Propositional equality in this manner coincides with the common notion of equality found elsewhere in mathematics, as well as the unique isomorphisms and unique equivalences discussed in [Buzzard 2024](#Buzzard24) if one assumes [[univalence]]. However, most dependent type theorists use the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]]. 
 
 ## Properties
 
