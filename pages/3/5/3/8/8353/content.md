@@ -25,13 +25,13 @@ In [[type theory]] a _definition_ is the construction of a [[type]] or a [[term]
 
 * by adding to the type theory a rule stating that the type or term [[equality|is equal to]] an existing term or type.
 
-Many types in type theory, such as [[function types]], [[product types]], [[coproduct types]], [[booleans type]], [[natural numbers type]], [[integers]], et cetera, are defined in both ways, by [[universal properties]] and by [[equality]] with another type. 
+Many types in type theory, such as [[function types]], [[product types]], [[coproduct types]], [[booleans type]], [[natural numbers type]], [[integers]], et cetera, are defined in both ways, by [[universal properties]] and by [[equality in type theory|equality]] with another type. 
 
 ## Rules for definitions and single assignment operators
 
-One way that definitions of types and of terms could be formalized inside the type theory is by the use of [[equality]] with another term or type. More specifically, every definition of a symbol $A$ comes with a **formation rule** for the symbol which states that it is a type or an **introduction rule** for the symbol which states that it is a term of a type, and a **definition rule** that the term or type $A$ is equal to some existing term or type $B$. The equality used in the definition rule is called **[[definitional equality]]**. 
+One way that definitions of types and of terms could be formalized inside the type theory is by the use of [[equality in type theory|equality]] with another term or type. More specifically, every definition of a symbol $A$ comes with a **formation rule** for the symbol which states that it is a type or an **introduction rule** for the symbol which states that it is a term of a type, and a **definition rule** that the term or type $A$ is equal to some existing term or type $B$. The equality used in the definition rule is called **[[definitional equality]]**. 
 
-As documented in the article on [[equality]], there are three notions of equality used in type theory: judgmental equality, propositional equality, and typal equality. All three notions of equality could be used in the definition rule. In [[Martin-Löf type theory]] and [[cubical type theory]], symbols and abbreviations are defined using judgmental equality. In [[ZFC]] and [[ETCS]], they are defined using propositional equality, and in [[objective type theories]], they are defined using typal equality. 
+As documented in the article on [[equality in type theory]], there are three notions of equality used in type theory: judgmental equality, propositional equality, and typal equality. All three notions of equality could be used in the definition rule. In [[Martin-Löf type theory]] and [[cubical type theory]], symbols and abbreviations are defined using judgmental equality. In [[ZFC]] and [[ETCS]], they are defined using propositional equality, and in [[objective type theories]], they are defined using typal equality. 
 
 For example, suppose that the type $B$ is already derived in some context $\Gamma$. Then, in order to define the symbol $A$ to be the type $B$ there are the following formation and definition rules for $A$:
 
@@ -66,9 +66,9 @@ However, including separate rules for each new term or type is very cumbersome a
 * $B \coloneqq A \; \mathrm{type}$, where we judge $B$ to be defined as the type $A$, or assigned the type $A$ 
 * $b \coloneqq a:A$, where we judge $b$ to be defined as the term $a:A$, or assigned the term $a:A$ 
 
-in addition to the [[judgments]] for [[types]], [[terms]], and [[judgmental equality]]. $B \coloneqq A \; \mathrm{type}$ is called **type definition**, **type initialization**, **type initialisation** or **type single assignment**, while $b \coloneqq a:A$ is called **term definition**, **term initialization**, **term initialisation**, or **term single assignment**. Judgmental single assignment is different from judgmental equality as judgmental equality is an [[equivalence relation]], while judgmental single assignment is not an equivalence relation, but instead has a reflection rule into [[equality]]. 
+in addition to the [[judgments]] for [[types]], [[terms]], and [[judgmental equality]]. $B \coloneqq A \; \mathrm{type}$ is called **type definition**, **type initialization**, **type initialisation** or **type single assignment**, while $b \coloneqq a:A$ is called **term definition**, **term initialization**, **term initialisation**, or **term single assignment**. Judgmental single assignment is different from judgmental equality as judgmental equality is an [[equivalence relation]], while judgmental single assignment is not an equivalence relation, but instead has a reflection rule into [[equality in type theory|equality]]. 
 
-Depending upon what notion of [[equality]] is used for [[definitional equality]], the single assignment operator has the following formation and equality reflection rules for type definitions
+Depending upon what notion of [[equality in type theory|equality]] is used for [[definitional equality]], the single assignment operator has the following formation and equality reflection rules for type definitions
 
 * Formation and judgmental equality reflection rules for type definition:
 $$\frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \; \mathrm{type}} \qquad \frac{\Gamma \vdash B \coloneqq A \; \mathrm{type}}{\Gamma \vdash B \equiv A\; \mathrm{type}}$$
