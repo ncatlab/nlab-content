@@ -195,10 +195,28 @@ Let $\delta_a$ denote the Dirac measure at $a$.
 For $\mathcal{D}_A = A \downarrow \iota \xrightarrow{\pi} \mathbf{V} \xrightarrow{\iota} \mathbf{Std}_{SCvx}$ 
 the theorem is equivalent to saying $A = \lim \mathcal{D}_A$ with the projection map at component $m$ being $m$.
 
-Consider the cone over $\mathcal{D}_A$ with vertex $G(A)$ and natural transformation components $\mathbb{E}_{\bullet}(m)$.
+Consider the cone over $\mathcal{D}_A$ with vertex $G(A)$ and natural transformation components $\mathbb{E}_{\bullet}(m) = \mathbb{E}_{\bullet}(id_V) \circ \G(m)$.
+\begin{tikzpicture}
+  \node  (GA) at  (3,0)  {$G(A)$};
+  \node  (GV1) at (4.2,1.2) {$G(V)$};
+  \node  (GV2) at (4.2,-1.2) {$G(V)$};
+  \node  (A)  at (6.5,0)  {$A$};
+  \node  (V1)  at (7.7,1.2) {$V$};
+  \node  (V2)  at (7.7,-1.2) {$V$};
+  \draw[->,below] (A) to node {$m$} (V1);
+  \draw[->,above] (A) to node {$k$} (V2);
+  \draw[->,right] (V1) to node {$\phi_{m,k}$} (V2);
+  \draw[->,above,dashed] (GA) to node [xshift=7pt]{$\epsilon_A$} (A);  
+  \draw[->,above] (GA) to node [xshift=-9pt]{$G(m)$} (GV1);
+  \draw[->,below] (GA) to node [xshift=-7pt,yshift=5pt] {$G(k)$} (GV2);
+  \draw[->,above] (GV1) to node {$\mathbb{E}_{\bullet}(id_V)$} (V1);
+  \draw[->,below] (GV2) to node {$\mathbb{E}_{\bullet}(id_V)$} (V2);
+ \end{tikzpicture}
 
 Since $A=\lim \mathcal{D}_A$ there exists a unique $\mathbf{Std}_{SCvx}$-morphism   $G(A) \xrightarrow{\epsilon_A} A$ such that $m \circ \epsilon_A = \mathbb{E}_{\bullet}(m)$ for all countably affine maps $A \xrightarrow{m} V$. It follows that on $\delta_a \in G(A)$ that, for all $A \xrightarrow{m} V$ in $\mathbf{Std}_{SCvx}$ that $m(\epsilon_A(\delta_a)) = m(a)$.  Since $V$ is a coseparator in $\mathbf{Std}_{SCvx}$ it follows $\epsilon_A(\delta_a)=a$.
 \end{proof}
+
+A more appropriate notation for the unique morphism $\epsilon_A$ is $\mathbb{E}_{\bullet}(id_A)$ which, in the special case of $A$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $A$ the function $G(A) \xrightarrow{\mathbb{E}_{\bullet}(id_A)} A$ is the unique morphism such that, for every $P \in G(A)$,   $\mathbb{E}_P(id_A) \in A$ is the unique point such that $m(\mathbb{E}_{P}(id_A)) = \int_A m(a) \, dP$ for all countably affine measurable functions $A \xrightarrow{m} V$.
 
 \begin{lemma}
 The function $\epsilon_A$ is a $G$-algebra.
