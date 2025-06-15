@@ -135,6 +135,9 @@ There are also "internal" versions of these axioms.
 
 * We can also replace the $(-1)$-truncation by the assertion of $k$-connectedness, obtaining the **axiom of countable $k$-connected choice**.
 
+## Related concepts
+
+* [[resizing axiom]]
 
 ## References
 
