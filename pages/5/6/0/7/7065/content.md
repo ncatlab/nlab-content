@@ -254,6 +254,8 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 
 * [[center of contraction]]
 
+* [[contractible identity type]]
+
 ## References
 
 The notion of contractible types (and with it the modern notion of [[equivalence in homotopy type theory]]) originates around:
