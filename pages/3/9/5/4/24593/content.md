@@ -31,5 +31,8 @@ Some higher-level foundations include:
 * [[synthetic (infinity,1)-category theory]], such as [[simplicial type theory]] and bicubical type theory
 * Hypothetical elementary theories of the [[bicategory]] of [[categories]] and the [[(2,1)-category]] of [[groupoids]], expressed in [[first-order logic]] with dependent sorts in the same way that [[ETCS]] is.  One extant theory along these lines is [[ETCC]], although it hasn't been successfully made into a full [[foundation of mathematics]].
 
+## Related concepts
+
+* [[principle of equivalence]]
 
 [[!redirects higher foundations]]
