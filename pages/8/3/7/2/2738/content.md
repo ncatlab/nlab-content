@@ -145,7 +145,7 @@ Let $((T, \leq), L)$ be a tree.
 
   1. $e \leq e'$;
 
-  1. for any $e \in T$ with $e \leq x \leq e'$ either $x = e$ or $x = e'$.
+  1. for any $x \in T$ with $e \leq x \leq e'$ either $x = e$ or $x = e'$.
 
   Write $in(e)$ for the set of incoming edges of $e$.
 
