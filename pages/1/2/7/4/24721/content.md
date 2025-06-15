@@ -465,6 +465,8 @@ The Univalent Foundations Program, Institute for Advanced Study, 2013. ([web](ht
 
 * {#RSS17} [[Egbert Rijke]], [[Mike Shulman]], [[Bas Spitters]], _[[Modalities in homotopy type theory]]_ ([arXiv:1706.07526](https://arxiv.org/abs/1706.07526))
 
+* [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, Mathematical Structures in Computer Science **34** Special Issue 9: *Advances in Homotopy type theory* (2024) 945-970  &lbrack;[doi:10.1017/S0960129524000288](https://doi.org/10.1017/S0960129524000288), [arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
+
 [[!redirects a la Tarski]]
 [[!redirects Tarski universe]]
 [[!redirects Tarski universes]]
