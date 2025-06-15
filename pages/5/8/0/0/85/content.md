@@ -781,7 +781,7 @@ See also at _[[functor with smash products]]_.
 
 The concept, and many of its basic properties, originates in several works of Brian Day, including:
 
-* {#Day70Thesis} [[Brian Day]], _Construction of Biclosed Categories_, PhD thesis. School of Mathematics of the University of New South Wales, September 1970. [Link](http://unsworks.unsw.edu.au/fapi/datastream/unsworks:58748/SOURCE01?view=true).
+* {#Day70Thesis} [[Brian Day]], _Construction of Biclosed Categories_, PhD thesis. School of Mathematics of the University of New South Wales, September 1970.  [DOI](https://doi.org/10.26190/unsworks/8048).
 
 * {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/DayReport.pdf)),
 
