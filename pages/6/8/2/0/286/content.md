@@ -104,6 +104,10 @@ The [[strict category]] consisting of the [[natural numbers]] $\mathbb{N}$ and [
 The [[strict category]] consisting of a model of [[ZFC]] $V$ and [[function sets]] between the sets $\mathrm{El}(a)^{\mathrm{El}(b)}$ of $V$, where the [[family]] of $V$-indexed sets is $\mathrm{El}(a) \coloneqq \{x \in V \vert x \in a\}$, breaks equivalence invariance, since [[equality]] of [[pure sets]] does not coincide with [[bijection]] of [[sets]]. The equivalence-invariant version is the [[Rezk completion]] $\hat{V}$ of this category, yielding the [[univalent category]] of $V$-[[small sets]]. 
 \end{example}
 
+\begin{example}
+The category of [[Peter Aczel]]'s iterative sets ([Gratzer, Gylterud, Mörtberg and Stenholm 2024](#GGMS24)) is a [[strict category]] which breaks equivalence invariance, because [[equality]] of iterative sets does not coincide with [[bijection]] of the [[h-set]] reflection of iterative sets. 
+\end{example}
+
 #### Identity-on-objects functors
 
 The concept of an [[identity-on-objects functor]] appears in category theory as well, particularly when defining [[Freyd categories]] and [[dagger categories]]. The traditional definition goes as follows:
@@ -194,6 +198,10 @@ A discussion of the principle of equivalence in the very [[foundations]] of math
 * {#Awodey14} [[Steve Awodey]], _Structuralism, Invariance, and Univalence_ (2014) ([pdf](https://www.andrew.cmu.edu/user/awodey/preprints/siu.pdf))
 
 * {#AhrensNorth18} [[Benedikt Ahrens]], [[Paige Randall North]], _Univalent foundations and the equivalence principle_, ([pdf](https://paigenorth.github.io/ep.pdf))
+
+The category of [[Peter Aczel]]'s iterative sets as a non-[[univalent]] [[0-truncated]] [[Tarski universe]] of sets (and thus not equivalence invariant): 
+
+* {#GGMS24} [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, Mathematical Structures in Computer Science **34** Special Issue 9: *Advances in Homotopy type theory* (2024) 945-970  &lbrack;[doi:10.1017/S0960129524000288](https://doi.org/10.1017/S0960129524000288), [arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
 
 For the use of the term "evil" to refer to the violation of the [[principle of equivalence]] in [[category theory]] and [[higher category theory]]:
 
