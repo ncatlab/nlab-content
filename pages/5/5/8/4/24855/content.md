@@ -18,13 +18,11 @@
 ## Idea
  {#Idea}
 
-In any [[predicate logic over type theory]], **propositional equality** is the notion of [[equality]] which is defined to be a proposition. Propositional equality is most commonly used in [[set theories]] like [[ZFC]] and [[ETCS]] and [[dependently sorted set theories]], but it could also be used for [[definitional equality]] and [[conversional equality]] in [[logic over dependent type theory]] in place of [[judgmental equality]]. 
+The usual notion of equality in [[mathematics]] as a [[proposition]] or a [[predicate]] in [[predicate logic]]. This notion of equality can be formalized in [[predicate logic over type theory]] and in [[dependent type theory]]. 
 
-Propositional equality can be contrasted with [[judgmental equality]], where equality is a [[judgment]], and [[typal equality]], where equality is a [[type]].
+Propositional equality is most commonly used in [[set theories]] like [[ZFC]] and [[ETCS]] and [[dependently sorted set theories]]. 
 
-### Note on terminology
-
-Historically in the [[dependent type theory]] community, the term *propositional equality* was used for [[typal equality]]. This was because under the principle of [[propositions as types]], one interprets all types in a single-layer type theory as being propositions. However, we choose to make a distinction between propositional equality and typal equality. First, propositional equality as defined in this article is used in the most common [[foundations of mathematics]], such as [[ZFC]] and [[ETCS]], and is clearly not a type. Additionally, in some [[logics over type theory]], one can have three distinct notions of equality: [[judgmental equality]], [[propositional equality]], and [[typal equality]]. Finally, in the advent of [[homotopy type theory]] and other type theoretic [[higher foundations]], [[typal equality]] is no longer required to be a [[subsingleton]] or [[h-proposition]], and the alternative principle of [[propositions as some types]] has become the primary interpretation of [[dependent type theory]], where only the [[subsingletons]] or [[h-propositions]] are interpreted as [[propositions]]. 
+Propositional equality can be contrasted with [[judgmental equality]], where equality is a [[judgment]], and [[typal equality]], where equality is a [[type]]. 
 
 ## Definition
 
@@ -47,6 +45,23 @@ $$\frac{\Gamma \vdash x \quad \Gamma \vdash y}{\Gamma \vdash x = y \; \mathrm{pr
 Then we have the elimination rules for propositional equality:
 
 $$\frac{\Gamma, x, y \vdash P(x, y) \; \mathrm{prop}}{\Gamma \vdash \left(\forall x.P(x, x)\right) \implies \left(\forall x.\forall y.x = y \implies P(x, y)\right) \; \mathrm{true}}$$
+
+### In dependent type theory
+
+Historically in the [[dependent type theory]] community, the term **propositional equality** was used for the [[identity type]] in the sense of [[typal equality]]. This was because under the principle of [[propositions as types]], one interprets all types in a single-layer type theory as being propositions. 
+
+However, we choose to make a distinction between propositional equality and typal equality in dependent type theory, because in the advent of [[homotopy type theory]] and other [[intensional type theories]], [[typal equality]] is no longer required to be a [[subsingleton]] or [[h-proposition]], and the alternative principle of [[propositions as some types]] has become the primary interpretation of [[dependent type theory]], where only the [[subsingletons]] or [[h-propositions]] are interpreted as [[propositions]]. 
+
+In the [[propositions as some types]] interpretation of dependent type theory, the notion of "propositional equality" does have an interpretation in terms of identity types: two elements $x$ and $y$ of a type $A$ are **propositionally equal** or perhaps just **equal** if $x$ and $y$ are [[uniquely]] [[identified]]; the identity type $\mathrm{Id}_A(x, y)$ is a [[contractible type]]. 
+
+$$x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$$
+
+By this definition of equality, equality is always a [[binary relation]], because [[isContr]] is always a [[proposition]] in [[dependent type theory]]. We say that all identifications between $x:A$ and $y:A$ are propositional equalities if $\mathrm{Id}_A(x, y) \to x = y$. A **set** is then precisely a type where all identifications are propositional equalities, and coincide with the usual definition that identity types $\mathrm{Id}_A(x, y)$ are propositions for all $x:A$ and $y:A$. 
+
+The [[uniqueness of identity proofs]] can then be represented by a propositional equality analogue of [[equality reflection]] for [[extensional type theory]]:
+$$\frac{\Gamma \vdash p:\mathrm{Id}_A(x, y)}{\Gamma \vdash \mathrm{UIP}(p):x = y}$$
+
+Propositional equality in this manner coincides with the common notion of equality found elsewhere in mathematics, as well as the unique isomorphisms and unique equivalences discussed in [Buzzard24](#Buzzard24) if one assumes [[univalence]]. 
 
 ## Properties
 
@@ -107,9 +122,17 @@ $$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z =_{\sum_{x:A} B(x)} (\p
 
 $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma \vdash t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x)) \quad \Gamma \vdash c:A}{\Gamma \vdash J(t, c, c, \mathrm{refl}(c)) =_{C(c, c, \mathrm{refl}_A(c))} t(c) \; \mathrm{true}}$$
 
+## Propositional equality internal to a set theory
+
+Relations and propositional equality could be [[internal logic of set theory|internalized in any set theory]]: the internal propositional equality in set theory is the smallest internal [[reflexive relation]] on $S$, and it is in fact an internal [[equivalence relation]]; it is the only internal equivalence relation on $S$ that is also a [[partial order]] (although that fact is somewhat circular).  This relation is often called the __identity relation__ on $S$, either because 'identity' can mean 'equality' or because it is the [[identity]] for [[composition]] of relations. 
+
+In the [[category]] of reflexive relations on $S$, the [[equality relation]] on $S$ is an [[initial object|initial reflexive relation]]; when the equality relation is a [[type family]] instead of a family of propositions, then the equality relation is the initial type generated by reflexivity or the [[first law of thought]].
+
+As a [[subset]] of $S \times S$, the equality relation is often called the __[[diagonal]]__ and written $\Delta_S$ or similarly.  As an abstract set, this subset is [[isomorphism|isomorphic]] to $S$ itself, so one also sees the diagonal as a map, the [[diagonal function]] $S \overset{\Delta_S}\to S \times S$, which maps $x$ to $(x,x)$; note that $x = x$.  This is in [[Set]]; analogous [[diagonal morphisms]] exist in any [[cartesian monoidal category]].
+
 ## See also
 
-* [[equality]]
+* [[equality]], [[equality in type theory]]
 
 * [[judgmental equality]], [[typal equality]]
 
@@ -117,12 +140,29 @@ $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma \vdas
 
 * [[dependently sorted set theory]]
 
+[[!include logic symbols -- table]]
+
 ## References
 
 The usual notion of equality as a proposition is discussed in 
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Equality_(mathematics)">Equality (mathematics)</a>*
 
+* {#Buzzard24} [[Kevin Buzzard]], *Grothendieck's use of equality* ([arXiv:2405.10387](https://arxiv.org/abs/2405.10387))
+
 [[!redirects propositional equality]]
 [[!redirects propositional equalities]]
 [[!redirects propositionally equal]]
+
+[[!redirects equality predicate]]
+[[!redirects equality predicates]]
+
+[[!redirects equality relation]]
+[[!redirects equality relations]]
+[[!redirects identity relation]]
+[[!redirects identity relations]]
+[[!redirects diagonal relation]]
+[[!redirects diagonal relations]]
+
+[[!redirects contractible identity type]]
+[[!redirects contractible identity types]]
