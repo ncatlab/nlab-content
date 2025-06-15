@@ -1,7 +1,7 @@
 
 Elisabeth Stenholm
 
-* [personal page](https://elisabeth.bonnevier.one/)
+* [personal page](https://elisabeth.stenholm.one/)
 
 * [github page](https://github.com/elisabethstenholm/)
 
@@ -12,7 +12,9 @@ Elisabeth Stenholm
 
 * [[Håkon Robbestad Gylterud]], [[Elisabeth Stenholm]], *Univalent material set theory* ([arXiv:2312.13024](https://arxiv.org/abs/2312.13024))
 
-* [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, &lbrack;[arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
+On the category of [[Peter Aczel]]'s iterative sets in [[homotopy type theory]]:
+
+* [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, Mathematical Structures in Computer Science **34** Special Issue 9: *Advances in Homotopy type theory* (2024) 945-970  &lbrack;[doi:10.1017/S0960129524000288](https://doi.org/10.1017/S0960129524000288), [arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
 
 On [[non-wellfounded sets]] in [[homotopy type theory]]:
 
@@ -25,3 +27,4 @@ On [[non-wellfounded sets]] in [[homotopy type theory]]:
 category: people
 
 [[!redirects Elisabeth Bonnevier]]
+
