@@ -24,7 +24,7 @@
 ## Idea
 
 In [[intensional type theory]] and [[homotopy type theory]], there are typically two ways to construct a "type of small types". One way is by [[Russell universes]], where an [[element]] $A:U$ of a [[type universe]] $U$ is literally a [[type]] $A \; \mathrm{type}$. The alternative is by Tarski universes, where elements $A:U$ are not literally types, but rather the universe type $U$ comes with the additional structure of a [[type family]] $T$, such that the [[dependent type]] $T(A)$ represents the actual type. 
-Usually universes are defined in [[intensional type theory]] and [[homotopy type theory]] using [[derivations]] and [[inference rules]], such as the type reflection rule 
+Usually universes are defined in [[intensional type theory]] and [[homotopy type theory]] using [[derivations]] and [[inference rules]], such as the [[formation rule]] for the [[universal type family]] 
 $$\frac{\Gamma \vdash A:U}{\Gamma \vdash T(A) \; \mathrm{type}}$$
 for Tarski universes. Furthermore, universes are usually defined as being closed under all type formers inside the type theory, regardless of the type theory. 
 
@@ -38,7 +38,7 @@ From a global perspective, however, all of these types should be considered Tars
 
 ### With a family of types
 
-A **Tarski universe** or **universe à la Tarski** is simply a type $U$ with a type family $T$ whose dependent types $T(A)$ are indexed by elements $A:U$. The elements $A:U$ are usually called **$U$-small types**, or **small types** for short, and $T(A)$ is the **type of elements of $A$**. 
+A **Tarski universe** or **universe à la Tarski** is simply a type $U$ with a type family $(T(A))_{A:U}$ called the **universal type family** in [Rijke 2022](#Rijke22). The elements $A:U$ are usually called **$U$-small types**, or **small types** for short, and $T(A)$ is the **type of elements of $A$**. 
 
 ### With a type and a function
 
@@ -49,7 +49,7 @@ A **Tarski universe** or **universe à la Tarski** is a type $U$ of all $U$-smal
 From one direction, the individual dependent types $T(A)$ could be defined as the [[fiber type]] of $\mathrm{typeOf}$ at $A$
 $$T(A) \coloneqq \mathrm{fiber}_{T', U}(\mathrm{typeOf},A) \equiv \sum_{t:T'} \mathrm{typeOf}(t) =_U A$$
 
-From the other direction, the entire type of elements $T'$ is just the [[dependent sum type]] of all the type reflections of small types
+From the other direction, the entire type of elements $T'$ is just the [[dependent sum type]] of the universal type family 
 $$T' \coloneqq \sum_{A:U} T(A)$$
 
 We shall be using the first definition throughout this article, but everything could be translated into the second definition of a Tarski universe. 
@@ -472,6 +472,15 @@ The Univalent Foundations Program, Institute for Advanced Study, 2013. ([web](ht
 [[!redirects Tarski universes]]
 [[!redirects universe a la Tarski]]
 [[!redirects universes a la Tarski]]
+
+[[!redirects universal family]]
+[[!redirects universal families]]
+
+[[!redirects universal family of types]]
+[[!redirects universal families of types]]
+
+[[!redirects universal type family]]
+[[!redirects universal type families]]
 
 [[!redirects univalent Tarski universe]]
 [[!redirects univalent Tarski universes]]
