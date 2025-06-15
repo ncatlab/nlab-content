@@ -25,7 +25,11 @@ One paradigm of [[dependent type theory]] is **propositions as some types**, in 
 
 Propositions as some types is the paradigm usually used in the [[internal logic]] of [[categories]] such as [[toposes]]. In this case, the type-theoretic operations on types either restrict to the propositions to give logical operations (for [[conjunction]], [[implication]], and the [[universal quantifier]]), or have to be "reflected" therein (for [[disjunction]] and the [[existential quantifier]]). The reflector operation is called a [[bracket type]]. The [[law of excluded middle]] and the [[law of double negation]] in [[classical mathematics]] similarly has to be restricted to propositions, unlike the case in the [[propositions as types]] paradigm - where the law of excluded middle and the law of double negation are both represented by a [[global choice operator]]. 
 
-Furthermore, most structures traditionally involving [[predicates]] or [[relations]] are defined as proposition-valued type families in this restricted sense, where each type of the type family has at most one term. For instance, [[setoids]] or [[Bishop sets]] are usually defined to have an [[equivalence relation]] in the propositions as some types paradigm, rather than a [[pseudo-equivalence relation]] as typical in the [[propositions as types]] paradigm. 
+Furthermore, most structures traditionally involving [[predicates]] or [[relations]] are defined as proposition-valued type families in this restricted sense, where each type of the type family has at most one term. 
+
+* For instance, [[setoids]] or [[Bishop sets]] are usually defined to have an [[equivalence relation]] in the propositions as some types paradigm, rather than a [[pseudo-equivalence relation]] as typical in the [[propositions as types]] paradigm. 
+
+* Another example is the notion of [[propositional equality]], which is typically used in the sense of two elements of a type being [[uniquely]] [[identified]] $x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$, rather than as a synonym of [[typal equality]] as typical in the [[propositions as types]] paradigm. 
 
 Dependent type theory support various [[foundations of mathematics]] via the [[propositions as some types]] interpretation of [[dependent type theory]]. 
 
