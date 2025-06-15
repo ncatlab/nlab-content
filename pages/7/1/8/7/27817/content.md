@@ -21,7 +21,7 @@
 
 ## Idea
 
-In a formal language such as [[type theory]], one distinguishes various different notions of _equality_ or _equivalence_ of the terms of the language.
+In a formal language such as [[type theory]], one distinguishes various different notions of _[[equality]]_ or _[[equivalence]]_ of the terms of the language.
 
 In [[type theory]], there are broadly three different notions of equality which could be distinguished: **judgmental equality**, **propositional equality**, and **typal equality**. Judgmental equality is defined as a basic judgment in type theory. Propositional equality is defined as a proposition in any [[predicate logic over type theory]]. Typal equality is defined as a type in type theory. 
 
@@ -217,6 +217,8 @@ which might be the first paper to mention intensional equality (and the fact tha
 * [[Nicolaas de Bruijn]], _[[Automath]]_, 
 
 where de Bruijn makes a distinction between definitional equality and "book" equality.
+
+* {#Buzzard24} [[Kevin Buzzard]], *Grothendieck's use of equality* ([arXiv:2405.10387](https://arxiv.org/abs/2405.10387))
 
 [[!redirects equality in type theory]]
 [[!redirects equalities in type theory]]
