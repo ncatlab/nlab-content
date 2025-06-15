@@ -17,7 +17,7 @@
 
 ## Idea
 
-In any [[type theory]], judgmental equality is the notion of [[equality]] which is defined to be a [[judgment]]. Judgmental equality is most commonly used in single-level type theories like [[Martin-Löf type theory]] or [[higher observational type theory]] for making [[inductive definitions]], but it is also used in [[cubical type theory]] and [[simplicial type theory]] to define probe shapes for [[(infinity,1)-category theory|(infinity,1)-categorical]] types which could not be coherently defined in vanilla dependent type theory. 
+Judgmental equality is the notion of [[equality in type theory]] which is defined to be a [[judgment]]. Judgmental equality is most commonly used in single-level type theories like [[Martin-Löf type theory]] or [[higher observational type theory]] for making [[inductive definitions]], but it is also used in [[cubical type theory]] and [[simplicial type theory]] to define probe shapes for [[(infinity,1)-category theory|(infinity,1)-categorical]] types which could not be coherently defined in vanilla dependent type theory. 
 
 There are two different kinds of judgmental equalities
 
@@ -318,7 +318,7 @@ $$\frac{\Gamma \equiv \Delta \; \mathrm{ctx} \quad \Delta \equiv \Xi \; \mathrm{
 
 ## See also
 
-* [[equality]]
+* [[equality]], [[equality in type theory]]
 
 * [[propositional equality]], [[typal equality]]
 
