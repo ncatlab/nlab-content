@@ -27,7 +27,7 @@ There is a lot of interesting stuff to be said about _equality_ in [[logic]], [[
 Here is a list of distinctions between different notions of _equality_, in different contexts, where possibly all the following pairs of notions are, in turn, "the same", just expressed in terms of different terminologies:
 
 * the difference between [[axiom|axiomatic]] and [[definition|defined]] equality;
-* the difference between identity and equality,
+* the difference between [[equality]] and [[identity]],
 * the difference between intensional and extensional equality,
 * the difference between the notions of equality: equality [[judgements]], equality [[propositions]], and equality [[types]]; see [[equality in type theory]] for more details,
 * the difference between equality and [[isomorphism]],
