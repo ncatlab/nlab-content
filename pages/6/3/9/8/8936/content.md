@@ -66,47 +66,31 @@ If the dependent type theory has [[dependent product types]], [[type variables]]
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{UIP}:\Pi A.\prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} \prod_{q:\mathrm{Id}_A(a, b)} \mathrm{Id}_{\mathrm{Id}_A(a, b)}(p, q)}$$
 
-### Uniqueness of identity proofs for indexed heterogeneous identity types
+### As propositional equality reflection
 
-There is also a notion of uniqueness of identity proofs for [[indexed heterogeneous identity types]] over a type $B$, which is given by the following rule:
+The usual formulations of the uniqueness of identity proofs rely on the definition of a proposition as a type where all elements are [[identified]] with each other:
 
-* Judgmental uniqueness of identity proofs for indexed heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \\
-     \Gamma \vdash q:\mathrm{hId}_{B}(a, b, p, y, z) \quad \Gamma \vdash r:\mathrm{hId}_{B}(a, b, p, y, z)
-    \end{array}
-}{\Gamma \vdash q \equiv r:\mathrm{hId}_{B}(a, b, p, y, z)}$$
+$$\mathrm{isProp}(A) \coloneqq \prod_{x:A} \prod_{y:A} \mathrm{Id}_A(x, y)$$
 
-* Typal uniqueness of identity proofs for indexed heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash B \; \mathrm{type} \\
-      \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B \quad \Gamma \vdash z:B \\
-     \Gamma \vdash q:\mathrm{hId}_{B}(a, b, p, y, z) \quad \Gamma \vdash r:\mathrm{hId}_{B}(a, b, p, y, z)
-    \end{array}
-}{\Gamma \vdash \mathrm{UIP}_{B}(a, b, p, y, z, q, r):\mathrm{Id}_{\mathrm{hId}_{B}(a, b, p, y, z)}(q, r)}$$
+There is another definition of a proposition as a type $A$ with a function from $A$ to the type that signifies $A$ is a [[contractible type]]:
 
-and likewise for indexed heterogeneous identity types over a type family $x:A \vdash B(x)$:
+$$\mathrm{isProp}(A) \coloneqq A \to \mathrm{isContr}(A)$$
 
-* Judgmental uniqueness of identity proofs for indexed heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \\
-     \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \quad \Gamma \vdash r:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)
-    \end{array}
-}{\Gamma \vdash q \equiv r:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)}$$
+When applied to identity types in the inference rule for the [[uniqueness of identity proofs]], this leads to a propositional version of the judgmental [[equality reflection]] found in [[extensional type theory]] in the following sense:
 
-* Typal uniqueness of identity proofs for indexed heterogeneous identity types:
-$$\frac{
-    \begin{array}{l}
-      \Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \\
-      \Gamma \vdash  a:A \quad \Gamma \vdash b:A \quad \Gamma \vdash p:\mathrm{Id}_A(a, b) \quad \Gamma \vdash y:B(a) \quad \Gamma \vdash z:B(b) \\
-     \Gamma \vdash q:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z) \quad \Gamma \vdash r:\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)
-    \end{array}
-}{\Gamma \vdash \mathrm{UIP}_{x:A.B(x)}(a, b, p, y, z, q, r):\mathrm{Id}_{\mathrm{hId}_{x:A.B(x)}(a, b, p, y, z)}(q, r)}$$
+In the [[propositions as some types]] interpretation of [[dependent type theory]], given a type $A$ and elements $x:A$ and $y:A$, we say that $x:A$ and $y:A$ are *[[propositionally equal]]* if they are [[uniquely]] [[identified]]; that is, the identity type is a [[contractible type]]
+
+$$x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$$
+
+Since [[isContr]] is always a [[proposition]], the type family $x = y$ as defined is always a [[relation]], and an element of the type $x = y$ for specific $x:A$ and $y:A$ can then be called a *[[propositional equality]]*. 
+
+Then, by definition of $\mathrm{isProp}(\mathrm{Id}_A(x, y))$ as $\mathrm{Id}_A(x, y) \to \mathrm{isContr}(\mathrm{Id}_A(x, y))$, the **uniqueness of identity proofs** says that one can derive a propositional equality from every [[identification]], yielding a propositional version of the equality reflection rule:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:A \quad \Gamma \vdash y:A \quad \Gamma \vdash p:\mathrm{Id}_A(x, y)}{\Gamma \vdash \mathrm{UIP}_A(x, y, p):x = y}$$
+
+This [[inference rule]] can thus be called **propositional equality reflection**. 
+
+The relation between the [[uniqueness of identity proofs]] and the [[K rule]] becomes clearer in this formulation of the uniqueness of identity proofs: by the [[J rule]], it suffices to prove uniqueness of identity proofs for [[reflexivity]], and the [[K rule]] states that reflexivity is the [[center of contraction]] of the [[loop space type]] for all elements of $A$. 
 
 ## Properties
 
@@ -167,6 +151,8 @@ However, unlike the case for uniqueness of identity proofs, the familial uniquen
 
 * [[axiom of circle type localization]]
 
+* [[equality reflection]]
+
 ## References
 
 * "[The groupoid interpretation of type theory](http://www.tcs.ifi.lmu.de/mitarbeiter/martin-hofmann/pdfs/agroupoidinterpretationoftypetheroy.pdf)" [PDF], by Martin Hofmann and Thomas Streicher, 1996.
@@ -200,3 +186,7 @@ For definitional UIP in [[XTT]]
 [[!redirects definitional proof irrelevance]]
 [[!redirects propositional proof irrelevance]]
 [[!redirects typal proof irrelevance]]
+
+[[!redirects propositional equality reflection]]
+[[!redirects propositional equality reflection rule]]
+[[!redirects propositional equality reflection rules]]
