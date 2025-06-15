@@ -36,7 +36,13 @@ Even when the paradigm is not adopted, however, there is still a close relations
 
 Accordingly, [[logic|logical]] operations on propositions have immediate analogs on [[types]]. For instance logical _[[and]]_ corresponds to forming the [[product type]] $A \times B$ (a [[proof]] of $A$ and a proof of $B$), the [[universal quantifier]] corresponds to [[dependent product]], the [[existential quantifier]] to [[dependent sum]]. In [[classical mathematics]], the [[law of double negation]] corresponds to a [[global choice operator]]. 
 
-Furthermore, most structures traditionally involving [[predicates]] or [[relations]] are defined as type-valued type families. For instance, [[setoids]] or [[Bishop sets]] are usually defined to have a [[pseudo-equivalence relation]] in the propositions as types paradigm, rather than a [[equivalence relation]] as typical in the [[propositions as some types]] paradigm. However, in classical mathematics, the [[global choice operator]] representing the [[law of double negation]] in propositions as types implies that the [[type of booleans]] is the [[type of all propositions]], so predicates or relations can simply be defined as functions into the type of booleans. 
+Furthermore, most structures traditionally involving [[predicates]] or [[relations]] are defined as type-valued type families. 
+
+* For instance, [[setoids]] or [[Bishop sets]] are usually defined to have a [[pseudo-equivalence relation]] in the propositions as types paradigm, rather than a [[equivalence relation]] as typical in the [[propositions as some types]] paradigm. 
+
+* Similarly, [[propositional equality]] is usually a synonym of [[typal equality]] in the sense that all [[identifications]] are propositional equalities in the propositions as types paradigm, rather than only the [[unique]] [[identifications]] being propositional equalities as typical in the [[propositions as some types]] paradigm. 
+
+However, in classical mathematics, the [[global choice operator]] representing the [[law of double negation]] in propositions as types implies that the [[type of booleans]] is the [[type of all propositions]], so predicates or relations can simply be defined as functions into the type of booleans. Furthermore, the [[global choice operator]] implies [[uniqueness of identity proofs]], meaning that [[typal equality]] and [[propositional equality]] are always synonyms. 
 
 ### Propositions as some types
  {#PropositionsAsSomeTypes}
