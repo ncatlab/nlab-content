@@ -23,7 +23,9 @@
 
 In a formal language such as [[type theory]], one distinguishes various different notions of _equality_ or _equivalence_ of the terms of the language.
 
-In [[type theory]], there are broadly three different notions of equality which could be distinguished: **judgmental equality**, **propositional equality**, and **typal equality**. Judgmental equality is defined as a basic judgment in type theory. Propositional equality is defined as a proposition in any two-layered type theory with a layer of types and a layer of propositions. Typal equality is defined as a type in type theory. 
+In [[type theory]], there are broadly three different notions of equality which could be distinguished: **judgmental equality**, **propositional equality**, and **typal equality**. Judgmental equality is defined as a basic judgment in type theory. Propositional equality is defined as a proposition in any [[predicate logic over type theory]]. Typal equality is defined as a type in type theory. 
+
+**Note**: In this article, we use the term *propositional equality* in the sense of equality as a proposition and proposition as different from types. In [[dependent type theory]], there is a different notion of propositional equality where equality is a proposition, but in the sense of [[propositions as subsingletons]] or [[propositions as types]]. For that, see [[propositional equality#InDependentTypeTheory|propositional equality § In dependent type theory]]. 
 
 ### Judgmental equality
 
