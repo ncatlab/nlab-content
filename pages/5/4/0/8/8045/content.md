@@ -18,6 +18,12 @@
 __Material set theory__ (also called _membership-based set
 theory_) is a style of [[set theory]] with a primitive global membership relation "$\in$" where sets are characterized only by "$\in$" and [[propositional equality]] of sets. (The terminology 'material', or at least 'materialistic', goes back at least to [Friedman 1997](#Friedman1997).) Material set theory contrasts with *[[structural set theory]]* (cf. *[[material versus structural set theory]]*), as well as with set theories which are neither structural nor material. Material set theories are [[simple type theory|simply sorted]] [[set theory]]. 
 
+## Material higher groupoid theory
+
+In [[dependent type theory]], there has been a recent development generalizing material set theories from sets to [[higher groupoids]] in [Gylterud and Stenholm 2023](#GS23). The key distinction between what can be called *material higher groupoid theory* and the traditional material set theory discussed in the literature is that the membership type family $x \in y$ is not necessarily a [[mere proposition]]. 
+
+What these material higher groupoid theories have in common with material set theory is that assuming the [[axiom of extensionality]] violates the [[principle of equivalence]]: if the membership type family $x \in y$ is an $n$-groupoid for all $x:V$ and $y:V$, then $V$ is an $(n + 1)$-groupoid by the axiom of extensionality, and the [[universal type family]] $\left(\sum_{x:V} x \in y\right)_{y:V}$ is a family of $(n + 1)$-groupoids, meaning that the object type of the $(n + 2, 1)$-category of objects in $V$ is an $(n + 1)$-groupoid and [[Rezk completion|does not coincide]] with the [[core]] $(n + 2)$-groupoid. 
+
 ## Related concepts
 
 * [[cumulative hierarchy]]
@@ -29,6 +35,8 @@ theory_) is a style of [[set theory]] with a primitive global membership relatio
 * [[set-theoretic multiverse]]
 
 * [[material versus structural set theory]]
+
+* [[principle of equivalence]]
 
 ## References
 
@@ -44,3 +52,9 @@ See also
 
 [[!redirects material set theory]]
 [[!redirects material set theories]]
+
+[[!redirects material higher groupoid theory]]
+[[!redirects material higher groupoid theories]]
+
+[[!redirects material infinity-groupoid theory]]
+[[!redirects material infinity-groupoid theories]]
