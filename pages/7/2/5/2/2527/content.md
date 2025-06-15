@@ -138,9 +138,9 @@ Strict categories are also discussed in section 9.6 of:
 
 * [[Univalent Foundations Project]]: *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]*, Institute for Advanced Study (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
-The category of iterative sets is a strict category in:
+The category of [[Peter Aczel]]'s iterative sets is a strict category in:
 
-* [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, &lbrack;[arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
+* [[Daniel Gratzer]], [[Håkon Gylterud]], [[Anders Mörtberg]], [[Elisabeth Stenholm]], *The Category of Iterative Sets in Homotopy Type Theory and Univalent Foundations*, Mathematical Structures in Computer Science **34** Special Issue 9: *Advances in Homotopy type theory* (2024) 945-970  &lbrack;[doi:10.1017/S0960129524000288](https://doi.org/10.1017/S0960129524000288), [arXiv:2402.04893](https://arxiv.org/abs/2402.04893)&rbrack;
 
 [[!redirects strict category]]
 [[!redirects strict categories]]
