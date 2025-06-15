@@ -14,7 +14,7 @@
 
 ## Idea
 
-In the [[foundations of mathematics]], a **class theory** or **class-set theory** is a [[theory]] of [[classes]] and [[sets]]. Class theories are usually formulated in the language of [[logic over type theory]]. Class theories are important because the allow for the formal definition of [[universes]], a [[universal class]] or a class of all sets, allowing for [[size issues]] in [[mathematics]] to be handled where needed, such as in [[category theory]] in defining [[large categories]] and [[locally small categories]]. 
+In the [[foundations of mathematics]], a **class theory** or **class-set theory** or **set theory with classes** is a [[theory]] of [[classes]] and [[sets]]. Class theories are usually formulated in the language of [[logic over type theory]]. Class theories are important because the allow for the formal definition of [[universes]], a [[universal class]] or a class of all sets, allowing for [[size issues]] in [[mathematics]] to be handled where needed, such as in [[category theory]] in defining [[large categories]] and [[locally small categories]]. 
 
 Similar to the case with [[set theory]], there are [[material versus structural|material and structural versions]] of class theory as well: 
 
@@ -47,14 +47,23 @@ Let $U$ be a [[universe]], and let $\mathrm{Set}_U$ be the [[universe]] of [[set
 [[!redirects class-set theory]]
 [[!redirects class-set theories]]
 
+[[!redirects set theory with classes]]
+[[!redirects set theories with classes]]
+
 [[!redirects material class theory]]
 [[!redirects material class theories]]
 
 [[!redirects material class-set theory]]
 [[!redirects material class-set theories]]
 
+[[!redirects material set theory with classes]]
+[[!redirects material set theories with classes]]
+
 [[!redirects structural class theory]]
 [[!redirects structural class theories]]
 
 [[!redirects structural class-set theory]]
 [[!redirects structural class-set theories]]
+
+[[!redirects structural set theory with classes]]
+[[!redirects structural set theories with classes]]
