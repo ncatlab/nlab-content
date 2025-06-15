@@ -11,7 +11,7 @@
 | $\phantom{A}$$\Rightarrow$ | $\phantom{A}$[[implication]] |  
 | $\phantom{A}$$\Leftrightarrow$ | $\phantom{A}$[[logical equivalence]] | 
 | $\phantom{A}$$\not$ | $\phantom{A}$[[negation]] |
-| $\phantom{A}$$\neq$ | $\phantom{A}$[[negation]] of [[equality]] / [[apartness]]$\phantom{A}$ |
+| $\phantom{A}$$\neq$ | $\phantom{A}$[[inequality]] / [[apartness]]$\phantom{A}$ |
 | $\phantom{A}$$\notin$ | $\phantom{A}$[[negation]] of [[element]] [[relation]] $\phantom{A}$ |
 | $\phantom{A}$$\not \not$ | $\phantom{A}$[[double negation|negation of negation]]$\phantom{A}$ |
 | $\phantom{A}$$\exists$ | $\phantom{A}$[[existential quantification]]$\phantom{A}$ |  
