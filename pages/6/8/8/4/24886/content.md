@@ -62,11 +62,17 @@ The article on [[structural set theory]] states the following:
 
 There is an argument following the [[principle of equivalence]] that the structural notion of sameness of elements is [[propositional equality]], while the structural notion of sameness of sets is [[bijection]]. From this perspective, [[propositional equality]] of sets is "superfluous baggage" attendant on theories which has propositional equality of sets, and thus that any set theory with propositional equality of sets is not structural. This includes set theories like [[fully formal ETCS]] where sets and elements are in the same sort and the set theory has a [[homogeneous membership relation]]. 
 
-## See also
+## Related concepts
 
 * [[material set theory]]
 * [[structural set theory]]
 * [[set theory versus dependent type theory]]
+
+## References
+
+Relation between [[material set theory]] and [[structural set theory]] is discussed in
+
+* {#Shulman18} [[Michael Shulman]], _Comparing material and structural set theories_ ([arXiv:1808.05204](https://arxiv.org/abs/1808.05204))
 
 [[!redirects material versus structural]]
 [[!redirects material versus structural set theories]]
