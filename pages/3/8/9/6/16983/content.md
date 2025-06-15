@@ -84,6 +84,12 @@ These taboos are unprovable in constructive homotopy type theory, but they may b
 * [[sets cover]]
 * [[Whitehead's principle]]
 
+### Canonicity taboos
+
+These taboos are unprovable in [[dependent type theory]] satisfying [[canonicity]]:
+
+* [[propositional resizing]]
+
 ### Discrete cohesion taboos
 
 These taboos are unprovable in discrete [[cohesive homotopy type theory]] (i.e. the setting for plain homotopy type theory):
@@ -93,6 +99,8 @@ These taboos are unprovable in discrete [[cohesive homotopy type theory]] (i.e. 
 ## Related entries
 
 * [[constructive set theory]]
+
+* [[dependent type theory]]
 
 ## References
  {#References}
