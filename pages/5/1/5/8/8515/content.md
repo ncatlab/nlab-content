@@ -1,4 +1,8 @@
 
+> This article is about the notion of [[equality]] as a [[judgment]]. For [[equality]] as a [[proposition]] or [[predicate]], see [[propositional equality]]. For [[equality]] as a [[type]], see [[typal equality]]. For other notions of equality, see [[equality]]. 
+
+----
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
