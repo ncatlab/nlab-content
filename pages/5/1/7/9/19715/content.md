@@ -37,6 +37,8 @@ If the universe $V$ additionally contains a type classifying all $U$-small types
 
 In [[dependent type theory]] with a single type judgment, a [[type universe]] $U$ satisfies propositional resizing if every proposition $P$ in the [[dependent type theory]] is essentially $U$-small. The type $\mathrm{Prop}_U$ is a [[type of all propositions]], making the whole dependent type theory satisfy [[propositional impredicativity]]. 
 
+Propositional resizing violates [[canonicity]] and so is usually not assumed in [[dependent type theory]]. 
+
 ## See also
 
 * [[resizing axiom]]
@@ -50,6 +52,8 @@ In [[dependent type theory]] with a single type judgment, a [[type universe]] $U
 * [[impredicative dependent type theory]]
 
 * [[impredicative universe]]
+
+* [[taboo]]
 
 ## References
 
