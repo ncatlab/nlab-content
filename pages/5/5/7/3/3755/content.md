@@ -55,7 +55,7 @@ A diagram $D$ __commutes__ if, given any two vertices $x,y$ in $J$ and any two p
 
 ### Cycles and loops 
 
-Cycles (including loops) are generally avoided in commutative diagrams in [[category theory]] texts. However, they make sense under the definition above. For instance, commutativity of the following diagram implies that $hgf = 1$, $gfh = 1$, and $fhg = 1$.
+Cycles (including loops) are generally avoided in commutative diagrams in [[category theory]] texts. However, they make sense under the definition above. For instance, commutativity of the following diagram implies that $h g f = 1$, $g f h = 1$, and $f h g = 1$.
 \begin{tikzcd}
 	& B \\
 	A && C
@@ -76,7 +76,7 @@ Diagrams like the following are often used to denote [[forks]] in category theor
 \end{tikzcd}
 However, note that for this diagram to commute, we require the stronger condition that $g = h$, not just that $g f = h f$.
 
-If this is undesirable, a weaker notion of commutativity may be asked for, in which we only ask for commutativity of parallel paths where the source is a **source** in the sense that it only has outgoing edges, and the target is a **sink** in that it only has incoming edges. This convention may sometimes implicitly encountered in category theory texts.
+If this is undesirable, a weaker notion of commutativity may be asked for, in which we only ask for commutativity of parallel paths where the source is a **source** in the sense that it only has outgoing edges, and the target is a **sink** in that it only has incoming edges. This convention may sometimes be implicitly encountered in category theory texts.
 
 ## Related entries
 
