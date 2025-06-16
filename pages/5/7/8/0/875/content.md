@@ -34,6 +34,10 @@ A set with a reflexive relation is the same as a [[loop digraph object|loop]] [[
 * for every $a \in V$, $s(refl(a)) =_V a$
 * for every $a \in V$, $t(refl(a)) =_V a$
 
+## Examples
+
+* In [[dependent type theory]], the [[binary relation]] $\mathrm{isContr}(\mathrm{Id}_A(x, y))$ which says whether [[there is a unique]] [[identification]] between $x:A$ and $y:A$ is only a [[reflexive relation]] for [[h-sets]] by [[axiom K]]. 
+
 ## Related concepts
 
 * [[relation]]
