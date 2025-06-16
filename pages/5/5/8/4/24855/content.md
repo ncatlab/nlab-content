@@ -22,9 +22,9 @@
 ## Idea
  {#Idea}
 
-The usual notion of equality in [[mathematics]] as a [[proposition]] or a [[predicate]]. This notion of equality can be formalized in [[predicate logic over type theory]] and in [[dependent type theory]]. 
+The usual notion of equality in [[mathematics]] as a [[proposition]] or a [[predicate]], and the notion of equality of elements in a [[set]]. This notion of equality can be formalized in [[predicate logic over type theory]] and in [[dependent type theory]]. 
 
-Propositional equality is most commonly used in [[set theories]] like [[ZFC]] and [[ETCS]] and [[dependently sorted set theories]]. 
+Propositional equality is most commonly used in [[set theories]] like [[ZFC]] and [[ETCS]] and [[dependently sorted set theories]], as well as in [[set-level type theories]] where all [[identity types]] are [[propositions]]. 
 
 Propositional equality can be contrasted with [[judgmental equality]], where equality is a [[judgment]], and [[typal equality]], where equality is a [[type]]. 
 
@@ -76,39 +76,6 @@ The extensionality principle for [[function types]] ([[function extensionality]]
 
 $$\forall f:A \to B.\forall g:A \to B.f =_{A \to B} g \iff \forall a:A. \forall b:A.a =_A b \implies (f(a) =_{B} g(b))$$
 
-### Transport and heterogeneous propositional equality
-
-Given a set $A$ and elements $x \in A$ and $y \in A$ and a family of sets $(B(x))_{x \in A}$, $a \in B(x)$ and $b \in B(y)$, if $x =_A y$, then we can define [[transport]] functions $\mathrm{tr}_{A, B}(x, y):B(x) \to B(y)$ whose [[inverse function]] is $\mathrm{tr}_{A, B}(y, x)$ by symmetry of propositional equality. 
-
-The heterogeneous propositional equality is given by the [[logically equivalent]] relations 
-$$\mathrm{tr}_{A, B}(x, y, a) =_{B(y)} b \quad \mathrm{or} \quad a =_{B(x)} \mathrm{tr}_{A, B}(y, x, b)$$
-
-Transport and heterogeneous propositional equality are important in some [[set theories]] which do not have equality between sets themselves, and the only way to compare sets for equality is through [[isomorphisms]]. The same is true of [[logic over dependent type theory]] which do not have definitional equality between types, and one has to use [[definitional isomorphisms]] instead. In the presence of equality between sets, transport is simply the [[identity function]] on the equal set. 
-
-### In computation and uniqueness rules
-
-In [[logic over dependent type theory]], propositional equality can be used in the [[computation rules]] and [[uniqueness rules]] of types: 
-
-* Computation rules for dependent product types:
-
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) =_{B(a)} b(a) \; \mathrm{true}}$$
-
-* Uniqueness rules for dependent product types:
-
-$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f =_{\prod_{x:A} B(x)} \lambda(x).f(x) \; \mathrm{true}}$$
-
-* Computation rules for negative dependent sum types:
-
-$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_1(a, b) =_A a \; \mathrm{true}} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_2(a, b) =_{B(\pi_1(a, b))} b \; \mathrm{true}}$$
-
-* Uniqueness rules for negative dependent sum types:
-
-$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z =_{\sum_{x:A} B(x)} (\pi_1(z), \pi_2(z)) \; \mathrm{true}}$$
-
-* Computation rules for identity types:
-
-$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma \vdash t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x)) \quad \Gamma \vdash c:A}{\Gamma \vdash J(t, c, c, \mathrm{refl}(c)) =_{C(c, c, \mathrm{refl}_A(c))} t(c) \; \mathrm{true}}$$
-
 ## In constructive and classical mathematics
 
 Constructive mathematics is mathematics in which the law of excluded middle does not necessarily hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. Classical mathematics is mathematics in which the law of excluded middle does hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. 
@@ -136,15 +103,33 @@ More specifically, there are two interpretations of [[propositions]] and [[logic
 
 * The [[propositions as types]] interpretation, which says that all types are propositions. The term **propositional equality** is used as a synonym of typal equality in referring to [[identifications]] or [[identity types]]. 
 
-* The [[propositions as some types]] interpretation, which says that only the [[subsingletons]] or [[h-propositions]] are propositions. The term *propositional equality* in this interpretation is not a synonym of typal equality in referring to [[identifications]] or [[identity types]]. 
+* The [[propositions as some types]] interpretation, which says that only the [[subsingletons]] or [[h-propositions]] are propositions. The term **propositional equality** in this interpretation is not a synonym of typal equality and only refers to the [[contractible type|unique]] [[identifications]] or the [[h-proposition]] valued [[identity types]]. 
 
-Instead, in [[propositions as some types]], two elements $x$ and $y$ of a type $A$ are **propositionally equal** if $x$ and $y$ are [[uniquely]] [[identified]]; the identity type $\mathrm{Id}_A(x, y)$ is a [[contractible type]]. 
+However, in any [[set-level type theory]], typal equality and propositional equality are the same, since any [[axiom of set truncation]] implies that all identity types are valued in [[h-propositions]]. As a result, this distinction between typal equality and propositional equality only matters in dependent type theories which are not set-level type theories. 
 
-$$x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$$
+Most homotopy type theorists use the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]], even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used this fact and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. 
 
-Expanding out the definition of a [[contractible type]], a witness of propositional equality consists of an [[identification]] and a [[contraction]] showing that the identification is the [[center of contraction]] of the [[identity type]]. 
+By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[propositional equality]]" or "[[typal equality]]", instead restricting the use of equality / [[propositional equality]] for only the [[contractible type|unique]] [[identifications]] and the [[h-proposition]] valued [[identity types]], and using a suitable alternative for "[[typal equality]]", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". 
 
-By this definition of equality, propositional equality is always a [[binary relation]], because [[isContr]] is always a [[proposition]] in [[dependent type theory]]. In fact, if all identifications in an [[identity type]] are unique (i.e. there is a function $\mathrm{Id}_A(x, y) \to x = y$), then the identity type is an [[h-proposition]], and if the identity type is an [[h-proposition]], then all identifications in the identity type are unique; hence the name *[[propositional equality]]* for unique identifications and the relation $x = y$ for the type $\mathrm{isContr}(\mathrm{Id}_A(x, y))$. 
+### Relation to unique identifications
+
+Indeed, since a [[contractible type]] is equivalently a [[pointed proposition]], propositional equality can be defined in terms of unique identifications by the [[equivalence of types]]
+
+$$\mathrm{isContr}(\mathrm{Id}_A(x, y)) \simeq \mathrm{Id}_A(x, y) \times \mathrm{isProp}(\mathrm{Id}_A(x, y))$$
+
+We say that two elements $x$ and $y$ are 
+
+* **propositionally equal** if the identity type $\mathrm{Id}_A(x, y)$ is a [[pointed proposition]]. 
+
+* **[[uniquely]] [[identified]]** if the identity type $\mathrm{Id}_A(x, y)$ is a [[contractible type]] in the usual sense. 
+
+Expanding out the definitions, 
+
+* a witness of propositional equality consists of an [[identification]] and a family of [[contractions]] showing that every identification is a [[center of contraction]] of the [[identity type]]. 
+
+* a witness of unique identification consists of an [[identification]] and a [[contraction]] showing that the identification is the [[center of contraction]] of the [[identity type]]. 
+
+The type family $\mathrm{isContr}(\mathrm{Id}_A(x, y))$ is always a [[binary relation]], because [[isContr]] is always a [[proposition]] in [[dependent type theory]]. In fact, if all identifications in an [[identity type]] are unique (i.e. there is a function $\mathrm{Id}_A(x, y) \to \mathrm{isContr}(\mathrm{Id}_A(x, y))$), then the identity type is an [[h-proposition]], and if the identity type is an [[h-proposition]], then all identifications in the identity type are unique. Thus, unique identifications and propositional equalities are the same, which justifies the use of $x = y$ for $\mathrm{isContr}(\mathrm{Id}_A(x, y))$. 
 
 An [[h-set]] is then precisely a type where all identifications are unique, and the [[uniqueness of identity proofs]] can then be represented by a propositional analogue of [[equality reflection]] for [[extensional type theory]]:
 $$\frac{\Gamma \vdash p:\mathrm{Id}_A(x, y)}{\Gamma \vdash \mathrm{UIP}(p):x = y}$$
@@ -158,15 +143,44 @@ $$\prod_{x:A} \prod_{y:A} \mathrm{isContr}(\mathrm{Id}_A(x, y)) \simeq \prod_{x:
 
 The [[identity of indiscernibles]] doesn't work for arbitrary identity types of a type $A$ because the type $\prod_{x:A \to \mathrm{Prop}} P(x) \simeq P(y)$ on the right hand side of the [[equivalence of types]] is always a [[proposition]], and so if it were true, it would imply that $A$ is an [[h-set]]; hence the necessity to restrict to identity types with a unique identification. 
 
-However, propositional equality defined in this manner is not an [[equivalence relation]] because it is not a [[reflexive relation]]: for any [[loop space type]] which is not a [[contractible type]], the proposition $\mathrm{isContr}(\mathrm{Id}_A(x, x))$ is an [[empty type]]. The only such types with a reflexive propositional equality are thus those that satisfy [[axiom K]]: the [[h-sets]], thus making non-set types [[presets]]. 
+However, propositional equality defined in this manner is not an [[equivalence relation]] because it is not a [[reflexive relation]]: for any [[loop space type]] which is not a [[contractible type]], the proposition $\mathrm{isContr}(\mathrm{Id}_A(x, x))$ is an [[empty type]]. The only such types with a reflexive propositional equality are thus those that satisfy [[axiom K]]: the [[h-sets]], thus making non-set types [[presets]]. However, one can consider the maximal [[subset]] of a type, given by the [[subtype]] $\sum_{x:A} \mathrm{isContr}(\mathrm{Id}_A(x, x))$, where propositional equality is reflexive. 
 
-Furthermore, the type-theoretic functions are [[prefunctions]] with respect to propositional equality. While functions do preserve identifications, they do not preserve propositional equality in the sense of the uniqueness of identifications. *Any* [[identification]] is given by a function out of the [[interval type]] $\mathbb{I}$, and the inductively generated identification $p:\mathrm{Id}_\mathbb{I}(0, 1)$ in the interval type is unique in $\mathrm{Id}_\mathbb{I}(0, 1)$, but not all identifications are unique in the absence of [[uniqueness of identity proofs]]. One can define an [[extensional function]] as one that does preserve the uniqueness of identifications, and prove that functions between [[h-sets]] preserve the uniqueness of identifications, and that h-sets are precisely the types between which all functions preserve uniqueness of identifications. To say that all functions are extensional along the lines of the [[preset]] approach to [[set theory]] is equivalent to the [[uniqueness of identity proofs]] that implies that all types are [[h-sets]].  
+Furthermore, the type-theoretic functions are [[prefunctions]] with respect to propositional equality. While functions do preserve identifications, they do not preserve propositional equality in the sense of the uniqueness of identifications. *Any* [[identification]] is given by a function out of the [[interval type]] $\mathbb{I}$, and the inductively generated identification $p:\mathrm{Id}_\mathbb{I}(0, 1)$ in the interval type is unique in $\mathrm{Id}_\mathbb{I}(0, 1)$, but not all identifications are unique in the absence of [[uniqueness of identity proofs]]. One can define an [[extensional function]] as one that does preserve the uniqueness of identifications, and prove that functions between [[h-sets]] preserve the uniqueness of identifications, and that h-sets are precisely the types between which all functions preserve uniqueness of identifications. To say that all functions are extensional along the lines of the [[preset]] approach to [[set theory]] is equivalent to the [[uniqueness of identity proofs]] that implies that all types are [[h-sets]]. 
 
-Most homotopy type theorists use the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]], even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used this fact and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. 
+### In logic over dependent type theory
 
-By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[propositional equality]]" or "[[typal equality]]", instead restricting the use of equality / [[propositional equality]] for only the unique identifications, and using a suitable alternative for "[[typal equality]]", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". On the other hand, the fact that [[propositional equality]] defined as having a unique identification is not a [[reflexive relation]] for non-set types means that perhaps it is not suitable for the bare term "equality", and perhaps the bare term "equality" and even the term "propositional equality" *should* refer to [[typal equality]] which is always reflexive. 
+In [[logic over dependent type theory]], there are two notions of *propositional equality* 
 
-Either way, in the absence of [[uniqueness of identity proofs]], one has to give up either the notion of propositional equality as unique identification satisfying the [[identity of indiscernibles]] or the notion of propositional equality satisfying the [[first law of thought]]. 
+* the usual internal notion of *propositional equality* of [[dependent type theory]] as an [[identity type]] or a [[h-proposition]] valued [[identity type]]
+
+* the external notion of *propositional equality*, which is the equality judged to be a proposition; i.e. $a =_A b \mathrm{prop}$.
+
+External propositional equality is used as an alternative of [[judgmental equality]] for [[definitional equality]] in [[logic over dependent type theory]], and thus is used in the [[computation rules]] and [[uniqueness rules]] of types: 
+
+* Computation rules for dependent product types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \lambda(x:A).b(x)(a) =_{B(a)} b(a) \; \mathrm{true}}$$
+
+* Uniqueness rules for dependent product types:
+
+$$\frac{\Gamma \vdash f:\prod_{x:A} B(x)}{\Gamma \vdash f =_{\prod_{x:A} B(x)} \lambda(x).f(x) \; \mathrm{true}}$$
+
+* Computation rules for negative dependent sum types:
+
+$$\frac{\Gamma, x:A \vdash b(x):B(x) \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_1(a, b) =_A a \; \mathrm{true}} \qquad \frac{\Gamma, x:A \vdash b:B \quad \Gamma \vdash a:A}{\Gamma \vdash \pi_2(a, b) =_{B(\pi_1(a, b))} b \; \mathrm{true}}$$
+
+* Uniqueness rules for negative dependent sum types:
+
+$$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z =_{\sum_{x:A} B(x)} (\pi_1(z), \pi_2(z)) \; \mathrm{true}}$$
+
+* Computation rules for identity types:
+
+$$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma \vdash t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x)) \quad \Gamma \vdash c:A}{\Gamma \vdash J(t, c, c, \mathrm{refl}(c)) =_{C(c, c, \mathrm{refl}_A(c))} t(c) \; \mathrm{true}}$$
+
+Also, if there is no external propositional equality for types, then the [[principle of substitution]] is given by explicit [[transport]] functions $a:B(x) \vdash \mathrm{tr}_{A, B}(x, y, a):B(y)$ for external propositional equality $x =_A y \; \mathrm{prop}$. One can show that $\mathrm{tr}_{A, B}(x, y)$ and $\mathrm{tr}_{A, B}(x, y)$ are [[definitional isomorphisms]] of each other. 
+
+The heterogeneous external propositional equality is given by the [[logically equivalent]] relations 
+$$\mathrm{tr}_{A, B}(x, y, a) =_{B(y)} b \quad \mathrm{or} \quad a =_{B(x)} \mathrm{tr}_{A, B}(y, x, b)$$
 
 ## Propositional equality internal to a set theory
 
@@ -224,3 +238,11 @@ The usual notion of equality as a proposition is discussed in
 
 [[!redirects uniquely equal]]
 [[!redirects uniquely identified]]
+
+[[!redirects internal propositional equality]]
+[[!redirects internal propositional equalities]]
+[[!redirects internally propositionally equal]]
+
+[[!redirects external propositional equality]]
+[[!redirects external propositional equalities]]
+[[!redirects externally propositionally equal]]
