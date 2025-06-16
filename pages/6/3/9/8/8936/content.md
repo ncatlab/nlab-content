@@ -66,7 +66,7 @@ If the dependent type theory has [[dependent product types]], [[type variables]]
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{UIP}:\Pi A.\prod_{a:A} \prod_{b:A} \prod_{p:\mathrm{Id}_A(a, b)} \prod_{q:\mathrm{Id}_A(a, b)} \mathrm{Id}_{\mathrm{Id}_A(a, b)}(p, q)}$$
 
-### As propositional equality reflection
+### As proposition equality reflection
 
 The usual formulations of the uniqueness of identity proofs rely on the definition of a proposition as a type where all elements are [[identified]] with each other:
 
@@ -78,13 +78,13 @@ $$\mathrm{isProp}(A) \coloneqq A \to \mathrm{isContr}(A)$$
 
 When applied to identity types in the inference rule for the [[uniqueness of identity proofs]], this leads to a propositional version of the judgmental [[equality reflection]] found in [[extensional type theory]] in the following sense:
 
-In the [[propositions as some types]] interpretation of [[dependent type theory]], given a type $A$ and elements $x:A$ and $y:A$, we say that $x:A$ and $y:A$ are *[[propositionally equal]]* if they are [[uniquely]] [[identified]]; that is, the identity type is a [[contractible type]]
+In the [[propositions as some types]] interpretation of [[dependent type theory]], given a type $A$ and elements $x:A$ and $y:A$, the two elements are *[[propositionally equal]]* [[if and only if]] they are [[uniquely]] [[identified]]; that is, the identity type is a [[contractible type]]. 
 
-$$x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$$
+$$(x = y) \simeq \mathrm{isContr}(\mathrm{Id}_A(x, y))$$
 
-Since [[isContr]] is always a [[proposition]], the type family $x = y$ as defined is always a [[relation]], and an element of the type $x = y$ for specific $x:A$ and $y:A$ can then be called a *[[propositional equality]]*. 
+Since [[isContr]] is always a [[proposition]], the type of witnesses of propositional equality $x = y$ is always a [[relation]]. Indeed, this relation is also [[transitive relation|transitive]] and [[symmetric relation|symmetric]] and satisfies the [[principle of substitution]] and the [[identity of indiscernibles]]. However, it is only a [[reflexive relation]] if and only if [[axiom K]] holds for the type; i.e. if and only if the set is an h-set. 
 
-Then, by definition of $\mathrm{isProp}(\mathrm{Id}_A(x, y))$ as $\mathrm{Id}_A(x, y) \to \mathrm{isContr}(\mathrm{Id}_A(x, y))$, the **uniqueness of identity proofs** says that one can derive a propositional equality from every [[identification]], yielding a propositional version of the equality reflection rule:
+By definition of $\mathrm{isProp}(\mathrm{Id}_A(x, y))$ as $\mathrm{Id}_A(x, y) \to \mathrm{isContr}(\mathrm{Id}_A(x, y))$, the **uniqueness of identity proofs** says that one can derive the uniqueness of identifications from every [[identification]], yielding a propositional version of the equality reflection rule:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash x:A \quad \Gamma \vdash y:A \quad \Gamma \vdash p:\mathrm{Id}_A(x, y)}{\Gamma \vdash \mathrm{UIP}_A(x, y, p):x = y}$$
 
