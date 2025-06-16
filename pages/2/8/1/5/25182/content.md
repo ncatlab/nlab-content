@@ -34,13 +34,15 @@ In [[dependent type theory with type variables]] and [[identity type#IdentityTyp
 
 ### In dependent type theory
 
-In [[dependent type theory]] without a separate [[proposition]] [[judgment]], there are two different interpretations of [[propositions]] and thus [[propositional equality]]: 
+In [[dependent type theory]], there are two different interpretations of [[propositions]] and thus [[propositional equality]]: 
 
 * The [[propositions as types]] interpretation, which says that all types are propositions. The term *propositional equality* is used as a synonym of typal equality in referring to [[identifications]] or [[identity types]]. In the presence of [[univalence]], all [[equivalences of types]] are equivalent to propositional equalities. 
 
 * The [[propositions as some types]] interpretation, which says that only the [[subsingletons]] or [[h-propositions]] are propositions. The term *propositional equality* in this interpretation is not a synonym of typal equality and only refers to the [[contractible type|unique]] [[identifications]] or the [[h-proposition]] valued [[identity types]]. 
 
-Most homotopy type theorists work in a dependent type theory without a separate prop judgment and use a mix of both interpretations of propositions, with the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]] being used by the vast majority of homotopy type theorists, even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used this fact and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. 
+However, in any [[set-level type theory]], typal equality and propositional equality are the same, since any [[axiom of set truncation]] implies that all identity types are valued in [[h-propositions]]. As a result, this distinction between typal equality and propositional equality only matters in dependent type theories which are not set-level type theories. 
+
+Most homotopy type theorists use the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]], even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used this fact and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. 
 
 By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[typal equality]]" or "[[propositional equality]]", instead restricting the use of equality / [[propositional equality]] for only the [[contractible type|unique]] [[identifications]] and the [[h-proposition]] valued [[identity types]], and using a suitable alternative for "typal equality", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". 
 
