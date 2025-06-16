@@ -1,4 +1,8 @@
 
+> This article is about the notion of [[equality]] as a [[type]]. For [[equality]] as a [[proposition]] or [[predicate]], see [[propositional equality]]. For [[equality]] as a [[judgment]], see [[judgmental equality]]. For other notions of equality, see [[equality]]. 
+
+---
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -28,7 +32,7 @@ In [[dependent type theory with type variables]] and [[identity type#IdentityTyp
 
 ## Relation to propositional equality
 
-In dependent type theories with a separate [[proposition]] [[judgment]] $\phi \mathrm{prop}$, the term *typal equality* is also used to distinguish identity types from [[propositional equality]], which is the equality judged to be a proposition; i.e. $a =_A b \mathrm{prop}$. 
+### In dependent type theory
 
 In [[dependent type theory]] without a separate [[proposition]] [[judgment]], there are two different interpretations of [[propositions]] and thus [[propositional equality]]: 
 
@@ -40,7 +44,11 @@ In this second sense, if all identifications in an [[identity type]] are unique 
 
 If one assumes [[uniqueness of identity proofs]] or another [[axiom of set truncation]], then typal equality and propositional equality will coincide again regardless of which interpretation one uses, because then all identity types are propositions and all identifications are unique. 
 
-Most homotopy type theorists work in a dependent type theory without a separate prop judgment and use a mix of both interpretations of propositions, with the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]] being used by the vast majority of homotopy type theorists, even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used the fact that most homotopy type theorists interpret [[propositional equality]] in the [[propositions as types]] manner and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[typal equality]]" or "[[propositional equality]]", instead restricting the use of equality / [[propositional equality]] for only the unique identifications, and using a suitable alternative for "typal equality", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". 
+Most homotopy type theorists work in a dependent type theory without a separate prop judgment and use a mix of both interpretations of propositions, with the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]] being used by the vast majority of homotopy type theorists, even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used this fact and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[typal equality]]" or "[[propositional equality]]", instead restricting the use of equality / [[propositional equality]] for only the unique identifications, and using a suitable alternative for "typal equality", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". 
+
+### In logic over dependent type theory
+
+In [[logic over dependent type theory]], the term *typal equality* is used to distinguish identity types from [[propositional equality]], which is the equality judged to be a proposition; i.e. $a =_A b \mathrm{prop}$. 
 
 ## Parallels between judgmental equality and typal equality
 
