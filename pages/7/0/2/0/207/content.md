@@ -57,6 +57,8 @@ Here is a list of distinctions between different notions of _equality_, in diffe
 
 * [[equivalence of (∞,1)-categories]]
 
+* [[identification]], [[unique identification]]
+
 [[!include logic symbols -- table]]
 
 category: disambiguation
