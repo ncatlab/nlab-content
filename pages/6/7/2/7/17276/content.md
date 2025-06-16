@@ -55,6 +55,6 @@ using the above embedding of $\Delta$ into $Strat$.  It is proven in [Ayala-Fran
 
 whilst an earlier paper on exit paths is
 
-* [[David Treumann]], *[Exit paths and constructible stacks](https://www2.bc.edu/david-treumann/epacs.pdf)*, Compositio Math.145 (2009), 1504&#8211;1532 
+* [[David Treumann]], *Exit paths and constructible stacks*, Compositio Math.145 (2009), 1504&#8211;1532. ([arXiv:0708.0659](https://arxiv.org/abs/0708.0659)). ([doi](https://doi.org/10.1112/S0010437X09004229)).
 
 [[!redirects poset-stratified spaces]]
