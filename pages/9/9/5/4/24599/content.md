@@ -22,6 +22,8 @@ A [[type theory]] where types behave like [[sets]], i.e. in which all types are 
 
 Set-level type theory contrasts with higher-level type theory such as [[homotopy type theory]] or plain [[intensional type theory]], where types behave (at least potentially) like [[n-groupoids]] or even [[infinity-groupoids]].  In the [[negative thinking|other direction]], it contrasts with type theories where types behave like [[propositions]] (type theories of this sort are often called [[logics]]).
 
+In set-level type theory, the distinction between [[typal equality]] and [[propositional equality]] goes away, because all [[identity types]] are valued in [[h-propositions]]. 
+
 ## Set-level intensional type theories
 
 In a set-level but intensional type theory, we distinguish [[definitional equality|definitional]] and [[propositional equality]] (unlike in [[extensional type theory]]), but no two terms can be propositionally equal in more than one way (up to propositional equality).  In the language of [[homotopy type theory]], this means that all types are [[h-sets]].  There are a number of equivalent ways to force this to be true by adding [[axioms]] to type theory.
