@@ -1,13 +1,29 @@
-[[!redirects Directed Homotopy Theory]]
-This entry is about the book
 
-* [[Marco Grandis]], _Directed algebraic topology, Models of non-reversible worlds_, New Mathematical Monographs __13__, Cambridge Univ. Press 2009 (x+434 pages)
+This page is to record the reference:
 
-is the first monograph on the subject of [[directed space]]s and [[directed homotopy theory]]. 
+* [[Marco Grandis]]
 
-See CUP [ad](http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=978052176036); [pdf excerpt](http://assets.cambridge.org/97805217/60362/excerpt/9780521760362_excerpt.pdf) of the first 9 (well, 10) pages of intro; and [pdf of the index](http://assets.cambridge.org/97805217/60362/index/9780521760362_index.pdf).
+  \linebreak
 
-A [free online version](https://web.archive.org/web/20201018074610/http://www.dima.unige.it/~grandis/Bk.XXDATXX.pdf) of the book is now also available (as of November 2011) by agreement with CUP.
+  **Directed algebraic topology** 
+
+  *Models of non-reversible worlds*
+
+  \linebreak
+
+  New Mathematical Monographs __13__
+
+  Cambridge Univ. Press 2009 
+
+  (x+434 pages)
+
+  [doi:10.1017/CBO9780511657474](https://doi.org/10.1017/CBO9780511657474)
+
+  [pdf](https://web.archive.org/web/20201018074610/http://www.dima.unige.it/~grandis/Bk.XXDATXX.pdf), [index pdf](http://assets.cambridge.org/97805217/60362/index/9780521760362_index.pdf)
+
+on [[directed spaces]] as objects in [[directed homotopy theory]]. 
+
+\linebreak
 
 _Contents_
 
@@ -39,4 +55,5 @@ A review of this book can be found in the [CMS Notes](https://cms.math.ca/notes/
 
 category: reference
 
+[[!redirects Directed Homotopy Theory]]
 
