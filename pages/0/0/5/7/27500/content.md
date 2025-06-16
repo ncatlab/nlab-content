@@ -44,7 +44,7 @@ Classes of examples of residually finite groups include:
 
 * [[profinite groups]]
 
-* [[free groups]]
+* [[free groups]] (see [here](https://mathoverflow.net/a/20485/2926) for instance)
 
 * [[finitely generated group|finitely generated]]$\;$[[nilpotent groups]]
 
