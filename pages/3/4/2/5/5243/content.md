@@ -49,9 +49,9 @@ $$
   \,.
 $$
 
-This was originally proven for holomorphic [[line bundles]] in [Oka 1939](#Oka39) (in which case it says that [[holomorphic line bundles]] over [[Stein manifolds]] are fully classified by their [[first Chern class]]) and generalized in [Grauert 1958](#Grauert58) to holomorphic [[vector bundles]] and further to holomorphic [[principal bundles]] with [[structure group]] any [[complex Lie group]].
+This was originally proven for holomorphic [[line bundles]] by [Oka 1939](#Oka39) (in which case it says that [[holomorphic line bundles]] over [[Stein manifolds]] are fully classified by their [[first Chern class]]) and generalized by [Grauert 1958](#Grauert58) to [[holomorphic vector bundles]] and further to holomorphic [[principal bundles]] with [[structure group]] any [[complex Lie group]].
 
-As a principle, this *Oka-Grauert principle* is sometimes stated as ([Forstnerič 12](#Forstneric12)):
+As a principle, this *Oka-Grauert principle* is sometimes stated as follows ([Forstnerič 2012](#Forstneric12)):
 
 > Analytic problems on Stein spaces which can be cohomologically formulated have only topological [[obstructions]].
 
