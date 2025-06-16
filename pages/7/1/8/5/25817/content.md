@@ -29,7 +29,7 @@ Furthermore, most structures traditionally involving [[predicates]] or [[relatio
 
 * For instance, [[setoids]] or [[Bishop sets]] are usually defined to have an [[equivalence relation]] in the propositions as some types paradigm, rather than a [[pseudo-equivalence relation]] as typical in the [[propositions as types]] paradigm. 
 
-* Another example is the notion of [[propositional equality]], which is typically used in the sense of two elements of a type being [[uniquely]] [[identified]] $x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$, rather than as a synonym of [[typal equality]] as typical in the [[propositions as types]] paradigm. 
+* Another example is the notion of [[propositional equality]], which is typically used in the sense of a [[h-proposition]] valued [[identity type]], rather than as a synonym of [[typal equality]] as typical in the [[propositions as types]] paradigm. 
 
 Dependent type theory support various [[foundations of mathematics]] via the [[propositions as some types]] interpretation of [[dependent type theory]]. 
 
