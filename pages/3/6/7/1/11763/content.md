@@ -104,6 +104,10 @@ $$\mathrm{idOfInd}_U:\prod_{x:A} \prod_{y:A} (x =_A y) \simeq \left(\prod_{P:A \
 
 The type-theoretic identity of indiscernibles is similar to but not identical to the [[univalence axiom]] for [[Tarski universes]]: univalence for Tarski universe $(U, T)$ quantifies over $U$-small types and fixes the type reflector type family $A:U \vdash T(A)$ for Tarski universes, while the identity of indiscernables for type $A$ quantifies over $U$-small type families and fixes the type $A$. 
 
+Alternatively, if we want the usual identity of indiscernibles to apply to non-set types, then we have to restrict the identity types to precisely the identity types which are [[propositional equalities]] in the sense of having a [[unique]] [[identification]]:
+
+$$\mathrm{idOfInd}:\prod_{x:A} \prod_{y:A} \mathrm{isContr}(\mathrm{Id}_A(x, y)) \simeq \prod_{x:A \to \mathrm{Prop}} P(x) \simeq P(y)$$
+
 ### Other versions
 
 In addition, extensionality principles like [[function extensionality]], [[propositional extensionality]], and [[univalence]] ("typal extensionality") are naturally regarded as a stronger form of identity of indiscernibles.
