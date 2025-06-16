@@ -97,6 +97,8 @@ To make the [[principle of equivalence]] hold automatically, a [[category]] shou
 
 * [[prefunction]]
 
+* [[propositional equality]]
+
 [[!redirects preset]]
 [[!redirects presets]]
 [[!redirects pre-set]]
