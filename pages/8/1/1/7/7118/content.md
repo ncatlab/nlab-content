@@ -1,6 +1,14 @@
-If $W$ is a finite [[Coxeter group]] then the associated __Solomon's descent algebra__ is certain subalgebra $\Sigma[W]$ of the integral [[group algebra]] $\mathbf{Z}[W]$ discovered/introduced in 
 
-* L. Solomon, _A Mackey formula in the group ring of a Coxeter group_, J. Algebra __41__, (1976), 255-268, [MR0444756](http://www.ams.org/mathscinet-getitem?mr=444756), <a href="http://dx.doi.org/10.1016/0021-8693(76)90182-4">doi</a>
+\tableofcontents
+
+
+## Idea
+
+If $W$ is a finite [[Coxeter group]] then the associated __Solomon's descent algebra__ is certain subalgebra $\Sigma[W]$ of the integral [[group algebra]] $\mathbf{Z}[W]$ discovered/introduced by [Solomon 1976](#Solomon76)
+
+## References
+
+* {#Solomon76} L. Solomon, _A Mackey formula in the group ring of a Coxeter group_, J. Algebra __41__, (1976), 255-268, [MR0444756](http://www.ams.org/mathscinet-getitem?mr=444756), <a href="http://dx.doi.org/10.1016/0021-8693(76)90182-4">doi</a>
 
 Other literature
 
