@@ -55,7 +55,7 @@ $$
 (Here of course we have to use a definition of [[isProp]] which doesn't refer to $isContr$).  
 
 \begin{remark}
-This now says that $X$ is contractible iff $X$ is [[inhabited type|inhabited]] and an [[h-proposition]].
+This now says that $X$ is contractible iff $X$ is a **[[pointed type|pointed]] [[h-proposition]]**.
 \end{remark}
 
 There is a third definition of a contractible type, provably equivalent to the others. 
@@ -275,6 +275,15 @@ Textbook account:
 
 [[!redirects singleton induction]]
 
+
+[[!redirects pointed proposition]]
+[[!redirects pointed propositions]]
+
+[[!redirects pointed mere proposition]]
+[[!redirects pointed mere propositions]]
+
+[[!redirects pointed h-proposition]]
+[[!redirects pointed h-propositions]]
 
 [[!redirects contractible type]]
 [[!redirects contractible types]]
