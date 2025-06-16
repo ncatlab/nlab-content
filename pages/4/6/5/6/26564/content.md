@@ -36,7 +36,7 @@ There are two equivalent definitions of the category of couplings, either in ter
 
 The [[category]] **Krn** has 
 
-* As [[objects]], [[standard Borel]] [[probability spaces]], i.e. [[triples]] $(X,\mathcal{A},p)$ where $X$ is a [[set]] $\mathcal{A}$ is a [[sigma-algebra]] on $X$ making $(X,\mathcal{A})$ a [[standard Borel space]], and $p$ is a [[probability measure]] on $(X,\mathcal{A})$;
+* As [[objects]], [[standard Borel]] [[probability spaces]], i.e. [[triples]] $(X,\mathcal{A},p)$ where $X$ is a [[set]], $\mathcal{A}$ is a [[sigma-algebra]] on $X$ making $(X,\mathcal{A})$ a [[standard Borel space]], and $p$ is a [[probability measure]] on $(X,\mathcal{A})$;
 
 * as [[morphisms]], [[coupling (probability)|couplings]] between probability spaces. 
 
