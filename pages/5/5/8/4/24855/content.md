@@ -1,4 +1,8 @@
 
+> This article is about the notion of [[equality]] as a [[proposition]] or [[predicate]]. For [[equality]] as a [[judgment]], see [[judgmental equality]]. For [[equality]] as a [[type]], see [[typal equality]]. For other notions of equality, see [[equality]]. 
+
+---
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -18,7 +22,7 @@
 ## Idea
  {#Idea}
 
-The usual notion of equality in [[mathematics]] as a [[proposition]] or a [[predicate]] in [[predicate logic]]. This notion of equality can be formalized in [[predicate logic over type theory]] and in [[dependent type theory]]. 
+The usual notion of equality in [[mathematics]] as a [[proposition]] or a [[predicate]]. This notion of equality can be formalized in [[predicate logic over type theory]] and in [[dependent type theory]]. 
 
 Propositional equality is most commonly used in [[set theories]] like [[ZFC]] and [[ETCS]] and [[dependently sorted set theories]]. 
 
@@ -45,29 +49,6 @@ $$\frac{\Gamma \vdash x \quad \Gamma \vdash y}{\Gamma \vdash x = y \; \mathrm{pr
 Then we have the elimination rules for propositional equality:
 
 $$\frac{\Gamma, x, y \vdash P(x, y) \; \mathrm{prop}}{\Gamma \vdash \left(\forall x.P(x, x)\right) \implies \left(\forall x.\forall y.x = y \implies P(x, y)\right) \; \mathrm{true}}$$
-
-### In dependent type theory
-  {#InDependentTypeTheory}
-
-In [[dependent type theory]], there are two interpretations of [[propositions]] and [[logic]]:
-
-* The [[propositions as types]] interpretation, which says that all types are propositions. The term "propositional equality" is used as a synonym of typal equality in referring to [[identifications]] or [[identity types]]. 
-
-* The [[propositions as some types]] interpretation, which says that only the [[subsingletons]] or [[h-propositions]] are propositions. The term "propositional equality" in this interpretation is not a synonym of typal equality in referring to [[identifications]] or [[identity types]]. 
-
-Instead, two elements $x$ and $y$ of a type $A$ are **propositionally equal** or perhaps just **equal** if $x$ and $y$ are [[uniquely]] [[identified]]; the identity type $\mathrm{Id}_A(x, y)$ is a [[contractible type]]. 
-
-$$x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$$
-
-By this definition of equality, propositional equality is always a [[binary relation]], because [[isContr]] is always a [[proposition]] in [[dependent type theory]]. In fact, if all identifications in an [[identity type]] are unique (i.e. $\mathrm{Id}_A(x, y) \to \mathrm{isContr}(\mathrm{Id}_A(x, y))$), then the identity type is an [[h-proposition]], and if the identity type is an [[h-proposition]], then all identifications in the identity type are unique; hence the name *[[propositional equality]]* for unique identifications and the relation $x = y$ for the type $\mathrm{isContr}(\mathrm{Id}_A(x, y))$. 
-
-A **set** is then precisely a type where all identifications are unique, and the [[uniqueness of identity proofs]] can then be represented by a propositional equality analogue of [[equality reflection]] for [[extensional type theory]]:
-$$\frac{\Gamma \vdash p:\mathrm{Id}_A(x, y)}{\Gamma \vdash \mathrm{UIP}(p):x = y}$$
-making typal equality and propositional equality synonyms of each other again, because then all identity types are propositions and all identifications are unique. 
-
-Propositional equality in this manner coincides with the common notion of equality found elsewhere in mathematics, as well as the unique isomorphisms discussed in [Buzzard 2024](#Buzzard24) if one assumes [[univalence]]. 
-
-Most homotopy type theorists use the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]], even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used the fact that most homotopy type theorists interpret [[propositional equality]] in the [[propositions as types]] manner and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[propositional equality]]" or "[[typal equality]]", instead restricting the use of equality / [[propositional equality]] for only the unique identifications, and using a suitable alternative for "[[typal equality]]", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". 
 
 ## Properties
 
@@ -106,7 +87,7 @@ Transport and heterogeneous propositional equality are important in some [[set t
 
 ### In computation and uniqueness rules
 
-Propositional equality can be used in the [[computation rules]] and [[uniqueness rules]] of types in [[logic over dependent type theory]]: 
+In [[logic over dependent type theory]], propositional equality can be used in the [[computation rules]] and [[uniqueness rules]] of types: 
 
 * Computation rules for dependent product types:
 
@@ -127,6 +108,53 @@ $$\frac{\Gamma \vdash z:\sum_{x:A} B(x)}{\Gamma \vdash z =_{\sum_{x:A} B(x)} (\p
 * Computation rules for identity types:
 
 $$\frac{\Gamma, a:A, b:A, p:a =_A b \vdash C \; \mathrm{type} \quad \Gamma \vdash t:\prod_{x:A} C(x, x, \mathrm{refl}_A(x)) \quad \Gamma \vdash c:A}{\Gamma \vdash J(t, c, c, \mathrm{refl}(c)) =_{C(c, c, \mathrm{refl}_A(c))} t(c) \; \mathrm{true}}$$
+
+## In constructive and classical mathematics
+
+Constructive mathematics is mathematics in which the law of excluded middle does not necessarily hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. Classical mathematics is mathematics in which the law of excluded middle does hold for [[propositions]], [[subsingletons]], or [[h-propositions]]. 
+
+In classical mathematics, propositional equality of sets is a [[stable relation|stable]] [[equivalence relation]], and [[denial inequality]] of sets is a [[tight apartness relation]]. However, in constructive mathematics, propositional equality cannot be proven to be stable for all sets, and denial inequality cannot be proven to be a tight apartness relation for all sets. Instead, one could distinguish between 4 different notions of propositional equality and [[inequality]]:
+
+* [[tight apartness relations]]. However, not all sets have tight apartness relations. 
+
+* propositional equality, which is an [[equivalence relation]]; set with [[tight apartness relations]] have [[stable equality]]. 
+
+* [[denial inequality]], which can only be proven to be a [[weakly tight]] [[irreflexive symmetric relation]]. However, all statements in classical mathematics involving only denial inequalities hold in constructive mathematics, by the [[double negation translation]] and the property that for any proposition $P$, $\neg \neg \neg P$ if and only if $\neg P$. 
+
+* the [[double negation]] of propositional equality, which can only be proven to be a [[stable relation|stable]] [[reflexive symmetric relation]]. However, all statements in classical mathematics involving only equality hold in constructive mathematics with the equality replaced by its double negation, by the [[double negation translation]]. 
+
+The sets in which propositional equality and inequality behaves as it does in [[classical mathematics]] are the [[classical sets]], the sets with an [[apartness relation]] such that every pair of elements are either equal or apart from each other. 
+
+As a result, in constructive mathematics, sometimes one takes sets with [[tight apartness relations]] instead of general [[sets]] to be the foundational primitive concept. In classical mathematics, this is unnecessary, because every [[set]] has a [[tight apartness relation]]. 
+
+## In dependent type theory
+  {#InDependentTypeTheory}
+
+In [[dependent type theory]], the term *propositional equality* is used to describe a notion of [[equality]] [[type]] different from that of [[judgmental equality]]. 
+
+More specifically, there are two interpretations of [[propositions]] and [[logic]] in [[dependent type theory]]:
+
+* The [[propositions as types]] interpretation, which says that all types are propositions. The term **propositional equality** is used as a synonym of typal equality in referring to [[identifications]] or [[identity types]]. 
+
+* The [[propositions as some types]] interpretation, which says that only the [[subsingletons]] or [[h-propositions]] are propositions. The term *propositional equality* in this interpretation is not a synonym of typal equality in referring to [[identifications]] or [[identity types]]. 
+
+Instead, in [[propositions as some types]], two elements $x$ and $y$ of a type $A$ are **propositionally equal** or perhaps just **equal** if $x$ and $y$ are [[uniquely]] [[identified]]; the identity type $\mathrm{Id}_A(x, y)$ is a [[contractible type]]. 
+
+$$x = y \coloneqq \mathrm{isContr}(\mathrm{Id}_A(x, y))$$
+
+Expanding out the definition of a [[contractible type]], a witness of propositional equality consists of an [[identification]] and a [[contraction]] showing that the identification is the [[center of contraction]] of the [[identity type]]. 
+
+By this definition of equality, propositional equality is always a [[binary relation]], because [[isContr]] is always a [[proposition]] in [[dependent type theory]]. In fact, if all identifications in an [[identity type]] are unique (i.e. there is a function $\mathrm{Id}_A(x, y) \to x = y$), then the identity type is an [[h-proposition]], and if the identity type is an [[h-proposition]], then all identifications in the identity type are unique; hence the name *[[propositional equality]]* for unique identifications and the relation $x = y$ for the type $\mathrm{isContr}(\mathrm{Id}_A(x, y))$. 
+
+An [[h-set]] is then precisely a type where all identifications are unique, and the [[uniqueness of identity proofs]] can then be represented by a propositional analogue of [[equality reflection]] for [[extensional type theory]]:
+$$\frac{\Gamma \vdash p:\mathrm{Id}_A(x, y)}{\Gamma \vdash \mathrm{UIP}(p):x = y}$$
+making typal equality and propositional equality synonyms of each other again, because then all identity types are propositions and all identifications are unique. 
+
+Propositional equality in this manner coincides with the common notion of equality found elsewhere in mathematics, as well as the unique isomorphisms discussed in [Buzzard 2024](#Buzzard24) if one assumes [[univalence]]. 
+
+Propositional equality defined in this manner also is similar with the [[preset]] and [[setoid]] approaches to foundations of mathematics. Propositional equality is an [[equivalence relation]], but while functions do preserve identifications, they do not preserve propositional equality in the sense of the uniqueness of identifications. *Any* [[identification]] is given by a function out of the [[interval type]] $\mathbb{I}$, and the inductively generated identification $p:\mathrm{Id}_\mathbb{I}(0, 1)$ in the interval type is unique in $\mathrm{Id}_\mathbb{I}(0, 1)$, but not all identifications are unique in the absence of [[uniqueness of identity proofs]]. One can define an [[extensional function]] as one that does preserve the uniqueness of identifications, and prove that functions between [[h-sets]] preserve the uniqueness of identifications. To say that all functions are extensional along the lines of the [[preset]] approach to [[set theory]] is equivalent to the [[uniqueness of identity proofs]] that implies that all types are [[h-sets]].  
+
+Most homotopy type theorists use the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]], even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used this fact and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[propositional equality]]" or "[[typal equality]]", instead restricting the use of equality / [[propositional equality]] for only the unique identifications, and using a suitable alternative for "[[typal equality]]", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". 
 
 ## Propositional equality internal to a set theory
 
@@ -172,3 +200,15 @@ The usual notion of equality as a proposition is discussed in
 
 [[!redirects contractible identity type]]
 [[!redirects contractible identity types]]
+
+[[!redirects unique equality]]
+[[!redirects unique equalities]]
+[[!redirects unique identity]]
+[[!redirects unique identities]]
+[[!redirects unique identification]]
+[[!redirects unique identifications]]
+[[!redirects unique path]]
+[[!redirects unique paths]]
+
+[[!redirects uniquely equal]]
+[[!redirects uniquely identified]]
