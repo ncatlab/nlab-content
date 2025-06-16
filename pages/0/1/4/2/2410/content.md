@@ -7,7 +7,7 @@ is the first monograph on the subject of [[directed space]]s and [[directed homo
 
 See CUP [ad](http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=978052176036); [pdf excerpt](http://assets.cambridge.org/97805217/60362/excerpt/9780521760362_excerpt.pdf) of the first 9 (well, 10) pages of intro; and [pdf of the index](http://assets.cambridge.org/97805217/60362/index/9780521760362_index.pdf).
 
-A [free online version](http://www.dima.unige.it/~grandis/BkDAT_page.html) of the book is now also available (as of November 2011) by agreement with CUP.
+A [free online version](https://web.archive.org/web/20201018074610/http://www.dima.unige.it/~grandis/Bk.XXDATXX.pdf) of the book is now also available (as of November 2011) by agreement with CUP.
 
 _Contents_
 
