@@ -150,8 +150,6 @@ An [[h-set]] is then precisely a type where all identifications are unique, and 
 $$\frac{\Gamma \vdash p:\mathrm{Id}_A(x, y)}{\Gamma \vdash \mathrm{UIP}(p):x = y}$$
 making typal equality and propositional equality synonyms of each other again, because then all identity types are propositions and all identifications are unique. 
 
-Propositional equality in this manner coincides with the common notion of equality found elsewhere in mathematics, as well as the unique isomorphisms discussed in [Buzzard 2024](#Buzzard24) if one assumes [[univalence]]. 
-
 Propositional equality defined in this manner is similar to the [[preset]] and [[setoid]] approaches to foundations of mathematics.
 
 Propositional equality satisfies the [[principle of substitution]] by [[transport]] of the unique identification across [[predicates]], and satisifes the [[identity of indiscernibles]] because propositional equality is always a proposition, and so we have:
@@ -166,7 +164,9 @@ Furthermore, the type-theoretic functions are [[prefunctions]] with respect to p
 
 Most homotopy type theorists use the [[propositions as types]] interpretation of [[propositional equality]] as a synonym of [[typal equality]], even by those who use the [[propositions as some types]] interpretation for everything else. [[Kevin Buzzard]] in [Buzzard 2024](#Buzzard24) has used this fact and how that contradicts the interpretation of [[propositional equality]] elsewhere in mathematics as an argument for adopting a [[set-level type theory]] instead of [[homotopy type theory]]. 
 
-By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[propositional equality]]" or "[[typal equality]]", instead restricting the use of equality / [[propositional equality]] for only the unique identifications, and using a suitable alternative for "[[typal equality]]", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". On the other hand, the fact that [[propositional equality]] defined as having a unique identification is not a [[reflexive relation]] for non-set types means that perhaps it is not suitable for the bare term "equality", and perhaps the bare term "equality" and even the term "propositional equality" *should* refer to [[typal equality]] which is always reflexive. Either way, it seems that in the absence of [[uniqueness of identity proofs]], one has to give up either the notion of propositional equality as unique identification or the notion of propositional equality as a reflexive relation. 
+By Buzzard's argument, homotopy type theorists should not be using the term "equality" to refer to arbitrary identifications or identity types, whether in its bare form or as "[[propositional equality]]" or "[[typal equality]]", instead restricting the use of equality / [[propositional equality]] for only the unique identifications, and using a suitable alternative for "[[typal equality]]", such as "[[identification]]" and "[[identified]]" and "[[identity type]]". On the other hand, the fact that [[propositional equality]] defined as having a unique identification is not a [[reflexive relation]] for non-set types means that perhaps it is not suitable for the bare term "equality", and perhaps the bare term "equality" and even the term "propositional equality" *should* refer to [[typal equality]] which is always reflexive. 
+
+Either way, in the absence of [[uniqueness of identity proofs]], one has to give up either the notion of propositional equality as unique identification satisfying the [[identity of indiscernibles]] or the notion of propositional equality satisfying the [[first law of thought]]. 
 
 ## Propositional equality internal to a set theory
 
