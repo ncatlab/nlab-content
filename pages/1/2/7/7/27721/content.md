@@ -27,6 +27,8 @@
 
 The notion of [[logic over type theory]] for [[dependent type theories]]. 
 
+Logic over dependent type theory can be considered as the concept of making explicit the metatheoretic structure of [[first-order logic with equality]], and is needed to finitely axiomatize any theory defined using a [[universe hierarchy]] indexed by external [[natural numbers]], such as [[book HoTT]]. 
+
 The dependent type theory consisting of two levels, one level of [[propositions]] for the logic and a second level of [[types]] for the dependent type theory. 
 
 ## Formal presentation
