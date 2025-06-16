@@ -40,8 +40,8 @@ A more fine-grained classification of higher categories could thus be imagined, 
 
 Given a notion of [[infinity-category|$\infty$-category]] (as weak or strict as you like), then an **$(n,r)$-category** can be defined to be an $\infty$-category such that
 
-* any $j$-morphism is an [[equivalence]], for $j \gt r$;
-* any two [[parallel morphisms|parallel]] $j$-morphisms are equivalent, for $j \gt n$.
+* any two [[parallel morphisms|parallel]] $k$-morphisms are equivalent, for $k \gt n$;
+* any $k$-morphism is an [[equivalence]], for $k \gt r$.
 
 As explained below, we may assume that $n \geq -2$ and $0 \leq r \leq \max(0, n + 1)$.
 
