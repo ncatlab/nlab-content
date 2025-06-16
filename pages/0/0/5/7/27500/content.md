@@ -44,13 +44,22 @@ Classes of examples of residually finite groups include:
 
 * [[profinite groups]]
 
-* [[free groups]] (see [here](https://mathoverflow.net/a/20485/2926) for instance)
-
 * [[finitely generated group|finitely generated]]$\;$[[nilpotent groups]]
 
 * [[finitely generated group|finitely generated]]$\;$[[linear groups]].
 
 \end{example}
+
+
+\begin{example}\label{FreeGroups}
+  [[free groups|Free groups]] are residually finite. 
+\end{example}
+(cf. [Hempel 1972](#Hempel72), [Cohen 1989 pp 7 & 11](#Cohen89), [Ivanov 2010](#Ivanov10))
+
+\begin{example}
+  Surface groups ([[fundamental groups]] of [[surfaces]]) are residually finite.
+\end{example}
+([Hempel 1972](#Hempel72))
 
 \begin{example}\label{BraidGroups}
   The plain [[braid groups]] are residually finite.
@@ -75,6 +84,16 @@ Review:
 See also: 
 
 * Wikipedia, *[Residually finite group](https://en.wikipedia.org/wiki/Residually_finite_group)*
+
+On residual finiteness of [[free groups]]: 
+
+* {#Cohen89} Daniel E. Cohen, pp 7,11: *Combinatorial group theory: a topological approach*, Cambridge University Press (1989) &lbrack;[doi:10.1017/CBO9780511565878](https://doi.org/10.1017/CBO9780511565878)&rbrack;
+
+* {#Ivanov10} [[Sergei Ivanov]], MO comment (2010)  &lbrack;[MO:a/20485](https://mathoverflow.net/a/20485/381)&rbrack;
+
+On residual finiteness of [[fundamental groups]] of [[surfaces]]:
+
+* {#Hempel72} J. Hempel: *Residual finiteness of surface groups*, Proc. Amer. Math. Soc. **32** (1972) 323.
 
 On residual finiteness of [[braid groups]]:
 
