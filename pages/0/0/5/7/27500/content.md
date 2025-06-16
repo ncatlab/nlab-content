@@ -87,13 +87,17 @@ See also:
 
 On residual finiteness of [[free groups]]: 
 
+* F. Levi: *Über die Untergruppen der freien Gruppen [2. Mitteilung]*, Math. Z. **37** (1933) 90-97 &lbrack;[doi:10.1007/BF01474565](https://doi.org/10.1007/BF01474565)&rbrack;
+
+* [Hempel 1972](#Hempel72)
+
 * {#Cohen89} Daniel E. Cohen, pp 7,11: *Combinatorial group theory: a topological approach*, Cambridge University Press (1989) &lbrack;[doi:10.1017/CBO9780511565878](https://doi.org/10.1017/CBO9780511565878)&rbrack;
 
 * {#Ivanov10} [[Sergei Ivanov]], MO comment (2010)  &lbrack;[MO:a/20485](https://mathoverflow.net/a/20485/381)&rbrack;
 
 On residual finiteness of [[fundamental groups]] of [[surfaces]]:
 
-* {#Hempel72} J. Hempel: *Residual finiteness of surface groups*, Proc. Amer. Math. Soc. **32** (1972) 323.
+* {#Hempel72} John Hempel: *Residual finiteness of surface groups*, Proc. Amer. Math. Soc. **32** 1 (1972) 323 &lbrack;[doi:10.1090/S0002-9939-1972-0295352-2](https://doi.org/10.1090/S0002-9939-1972-0295352-2)&rbrack;
 
 On residual finiteness of [[braid groups]]:
 
