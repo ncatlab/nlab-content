@@ -1064,7 +1064,7 @@ $$
   \tau_X \;\colon\; X \to \mathbf{B}GL(n)
 $$ 
 
-be the map that modulates its [[tangent bundle]] (discussed at [_geometry of physics - tangent bundle_](geometry+of+physics#TangentBundle)). Consider then the following diagram, which shows lifts of this map to the  [[classifying spaces]]/[[moduli stacks]] for various other groups (this is the _[[Whitehead tower]]_ of $\mathbf{B}O(n)$):
+be the map that [[modulating morphism|modulates]] its [[tangent bundle]] (discussed at [_geometry of physics - tangent bundle_](geometry+of+physics#TangentBundle)). Consider then the following diagram, which shows lifts of this map to the  [[classifying spaces]]/[[moduli stacks]] for various other groups (this is the _[[Whitehead tower]]_ of $\mathbf{B}O(n)$):
 
 $$
   \array{
@@ -1091,7 +1091,7 @@ $$
 A lift of the tangent bundle map $\tau_X$ to a map $e_X \colon X \to \mathbf{B}O(n)$ as indicated is a choice of [[orthogonal structure]] (a [[vielbein field]], discussed in detail below in _[Ordinary gravity](#OrdinaryGravity)_). For the present discussion assume that this is given.
 
 
-The a further lift to $o_X : X \to \mathbf{B}SO(n)$ is a choice of [[orientation]], and finally a lift to $s_X : X \to \mathbf{B}Spin(n)$ is a choice of [[spin structure]].
+Then a further lift to $o_X : X \to \mathbf{B}SO(n)$ is a choice of [[orientation]], and finally a lift to $s_X : X \to \mathbf{B}Spin(n)$ is a choice of [[spin structure]].
 
 Now, every hook-shaped sub-[[diagram]] in the above of the form
 
