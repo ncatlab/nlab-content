@@ -102,13 +102,13 @@ of vector bundles. Locally on $X$ -- meaning: when everything is pulled back to 
 
 In particular, since every $G$-[[principal bundle]] canonically trivializes when pulled back to its own total space $P$, a connection in this case gives rise to a 1-form $A \in \Omega^1(P)$ satisfying two conditions. This data is called an **[[Ehresmann connection]]**.
 
-If instead $P = E$ is a vector bundle, then the two conditions satisfies by $A$ imply that it defines a linear map
+If instead $P = E$ is a vector bundle, then the two conditions satisfied by $A$ imply that it defines a linear map
 
 $$
   \nabla : \Gamma(E) \to \Omega^1(X,E):=\Gamma(X,T_X^*\otimes E)
 $$
 
-from the space $\Gamma(E)$ of section of $E$ that satisfies the properties of a **covariant derivative**.
+from the space $\Gamma(E)$ of sections of $E$ that satisfies the properties of a **covariant derivative**.
 
 If again the connection is flat, then this is manifestly the datum of a [[Lie infinity-algebroid representation]] of the [[Lie algebroid|tangent Lie algebroid]] $T X$ of $X$ on $E$: it defines the action [[Lie algebroid]] which is the [[Lie theory|Lie version]] of the [[Lie groupoid]] classified by the parallel transport functor.
 
