@@ -367,6 +367,8 @@ Further development:
 
 * [[Josh Cork]], Linden Disney-Hogg: *Locations of JNR skyrmions* &lbrack;[arXiv:2505.00075](https://arxiv.org/abs/2505.00075)&rbrack;
 
+* L. A. Ferreira, L. R. Livramento: *Generalized False Vacuum Skyrme model* &lbrack;[arXiv:2506.12235](https://arxiv.org/abs/2506.12235)&rbrack;
+
 
 
 Large computer search for Skyrmion solutions:
