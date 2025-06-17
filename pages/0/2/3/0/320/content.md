@@ -128,6 +128,8 @@ See also the examples at _[[operad]]_.
 
 * [[generalized multicategory]], [[operad]]
 
+* [[fibration of multicategories]]
+
 
 ## References
 
@@ -141,7 +143,10 @@ and developed further in:
 
 Hermida constructed a monadic 2-adjunction between the 2-category of nonsymmetric colored operads in $(Set, \times)$ (which he calls [[multicategories]]) and the 2-category of strict monoidal categories in Theorem 7.2 of this paper:
 
-* {#Hermida2000} [[Claudio Hermida]], _Representable multicategories_, Advances in Mathematics, Volume 151, Issue 2, 2000, 164-225.  ([pdf](https://www.sciencedirect.com/science/article/pii/S0001870899918777/)) 
+* {#Hermida2000} [[Claudio Hermida]], _Representable multicategories_, Advances in Mathematics, Volume 151, Issue 2, 2000, 164-225.  ([pdf](https://www.sciencedirect.com/science/article/pii/S0001870899918777/))
+
+* [[Claudio Hermida]], _Fibrations for abstract multicategories_, Fields Institute Communications ([pdf](http://sqig.math.ist.utl.pt/pub/HermidaC/fib-mul.pdf))
+ {#Hermida}
 
 See also:
 
