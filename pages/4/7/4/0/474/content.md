@@ -24,11 +24,11 @@
 
 ### For directed spaces
 
-In generalization to how a [[topological space]] $X$ has a [[fundamental groupoid]] whose [[morphism]]s are [[homotopy]]-classes of paths in $X$ and whose composition operation is the concatenation of paths, a [[directed space]] has a **fundamental category** whose morphisms are _directed_ paths in $X$.
+In generalization to how a [[topological space]] $X$ has a [[fundamental groupoid]] whose [[morphism]]s are [[homotopy]]-classes of [[paths]] in $X$ and whose [[composition]] operation is the [[concatenation]] of paths, a [[directed space]] has a **fundamental category** whose morphisms are _directed_ paths in $X$.
 
 ### For stratified spaces
 
-A [[stratified space]] has a 'fundamental [[(infinity,n)-category with duals|n-category with duals]]', which  generalizes the [[fundamental groupoid|fundamental n-groupoid]] of a plain old space.  When a path crosses a codimension-$1$ stratum, "something interesting happens" &#8211; i.e., a [[catastrophe]].   So, we say such a path gives a noninvertible morphism.   The idea is that going along such a path and then going back is not "the same" as having stayed put. So, going back along such a path is not its inverse, just its [[dualizable object|dual]].
+A [[stratified space]] has a 'fundamental [[(infinity,n)-category with duals|$n$-category with duals]]', which  generalizes the [[fundamental groupoid|fundamental $n$-groupoid]] of a plain old space.  When a path crosses a codimension-$1$ stratum, "something interesting happens" &#8211; i.e., a [[catastrophe]].   So, we say such a path gives a noninvertible morphism.   The idea is that going along such a path and then going back is not "the same" as having stayed put. So, going back along such a path is not its inverse, just its [[dualizable object|dual]].
 
 See Caf&#233; [discussion] (http://golem.ph.utexas.edu/category/2006/11/this_weeks_finds_in_mathematic_2.html#c006196) and paper it inspired, [[J. Woolf]] [Transversal homotopy theory](http://arxiv.org/abs/0910.3322).
 
@@ -62,12 +62,14 @@ $$
 
 ## References
 
-* [[Marco Grandis]], _Directed algebraic topology, categories and higher categories_ . ([pdf](https://web.archive.org/web/20150326200922/https://dima.unige.it/~grandis/DAT.Intro.pdf)).
+* [[Marco Grandis]], section 3 of:: *Directed Algebraic Topology*, New Mathematical Monographs __13__, Cambridge Univ. Press (2009) &lbrack;[doi:10.1017/CBO9780511657474](https://doi.org/10.1017/CBO9780511657474), [pdf](https://web.archive.org/web/20201018074610/http://www.dima.unige.it/~grandis/Bk.XXDATXX.pdf)&rbrack;
 
-* [[Andre Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, 2008. ([pdf](https://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf)).
+* [[Marco Grandis]], _Directed algebraic topology, categories and higher categories_ &lbrack;[pdf](https://web.archive.org/web/20150326200922/https://dima.unige.it/~grandis/DAT.Intro.pdf)&rbrack;
 
-* [[J. Woolf]], _Transversal homotopy theory_, Theory and applications of categories, Vol 24, Issue 7, pp 148-178, 2010. ([arXiv:0910.3322](https://arxiv.org/abs/0910.3322)).
 
-* [[J. Woolf]], _The fundamental category of a stratified space_, Journal of Homotopy and Related Structures, Vol 4, Issue 1 pp 359-387, 2009. ([arXiv:0811.2580](https://arxiv.org/abs/0811.2580)).
+
+* [[J. Woolf]], _Transversal homotopy theory_, Theory and applications of categories **24** 7 (2010) 148-178 &lbrack;[arXiv:0910.3322](https://arxiv.org/abs/0910.3322)&rbrack;
+
+* [[J. Woolf]], _The fundamental category of a stratified space_, Journal of Homotopy and Related Structures **4** 1 (2009) 359-387 &lbrack;[arXiv:0811.2580](https://arxiv.org/abs/0811.2580)&rbrack;
 
 [[!redirects fundamental categories]]
