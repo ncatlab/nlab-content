@@ -350,8 +350,7 @@ and is expanded on in:
 
 A comprehensive account of twisted K-theory with twists in $H^3(X, \mathbb{Z})$ is in:
 
-* {#AtiyahSinger69} [[Michael Atiyah]], [[Isadore Singer]], _Index theory for skew-adjoint Fredholm operators_, Publications Math&#233;matiques de l'Institut des Hautes &#201;tudes Scientifiques
-January 1969, Volume 37, Issue 1, pp 5-26 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/askew.pdf))
+* {#AtiyahSinger69} [[Michael Atiyah]], [[Isadore Singer]]: *Index theory for skew-adjoint Fredholm operators*,  Publications Mathématiques de l’Institut des Hautes Scientifiques **37** 1 (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [pdf](http://www.maths.ed.ac.uk/~aar/papers/askew.pdf)&rbrack;
 
 
 and for more general twists in 
