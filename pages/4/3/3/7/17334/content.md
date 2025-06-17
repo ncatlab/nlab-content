@@ -27,7 +27,7 @@
 {: toc}
 
 
-##Idea
+## Idea
 
 The intrinsic and extrinsic views of [[type theory|typing]] correspond to different interpretations of types, also known as the contrast between "types &#224; la Church" and "types &#224; la Curry".
 
@@ -49,22 +49,29 @@ According to Melli&#232;s and Zeilberger ([MZ13](#MZ13)),
 >These two different views of types are often associated respectively with Alonzo Church and Haskell Curry (hence "types &#224; la Church" and "types &#224; la Curry"), while the late John Reynolds referred to these as the intrinsic and the extrinsic interpretations of types ([Rey00](#Rey00)). In the intrinsic view, all expressions carry a type, and there is no need (or even sense) to consider the meaning of "untyped" expressions; while in the extrinsic view, every expression carries an independent meaning, and typing judgments serve to assert some property
 of that meaning.
 
-###Related concepts
+## Related concepts
 
 * [[coercion]]
+
 * [[type refinement]]
 
-###References
+
+## References
 
 * {#Rey98} [[John Reynolds]], _Theories of Programming Languages_. Cambridge University Press, Cambridge, England, 1998.
+
 * {#Lev86} [[Daniel Leivant]], _Typing and computational properties of lambda expressions_, Theoretical Computer Science, 44(1):51&#8211;68, 1986.
-* {#Rey00} [[John Reynolds]], _The Meaning of Types: from Intrinsic to Extrinsic Semantics_, BRICS Report RS-00-32, Aarhus University, December 2000. [pdf](http://www.cs.cmu.edu/afs/cs/user/jcr/ftp/typemeaning.pdf)
+
+* {#Rey00} [[John Reynolds]], _The Meaning of Types: from Intrinsic to Extrinsic Semantics_, [[BRICS]] Report RS-00-32, Aarhus University, December (2000) &lbrack;[pdf](http://www.cs.cmu.edu/afs/cs/user/jcr/ftp/typemeaning.pdf)&rbrack;
+
 * {#MZ13} [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [ arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
 
 Attempts to bring both views together in a theory of [[type refinement]]:
 
 * [[Frank Pfenning]], _Church and Curry: Combining Intrinsic and Extrinsic Typing_, ([pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf))
+
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf))
+
 
 [[!redirects intrinsic type]]
 [[!redirects extrinsic type]]
