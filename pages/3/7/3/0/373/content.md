@@ -345,7 +345,7 @@ Exposition and review:
 
   > (including discussion of ([[strict 2-limits|strict]]) [[2-limits]])
 
-* [[John Power]], _2-Categories_, BRICS Notes Series 1998 ([pdf](http://www.brics.dk/NS/98/7/BRICS-NS-98-7.pdf))
+* [[John Power]], _2-Categories_, [[BRICS]] Notes Series (1998) &lbrack;[pdf](http://www.brics.dk/NS/98/7/BRICS-NS-98-7.pdf)&rbrack;
 
 Comprehensive textbook accounts:
 
