@@ -25,19 +25,8 @@ on [[directed spaces]] as objects in [[directed homotopy theory]].
 
 \linebreak
 
-_Contents_
 
-* Introduction; 
-
-* Part I. First Order Directed Homotopy and Homology: 1. Directed structures and first order homotopy properties; 2. Directed homology and noncommutative geometry; 3. Modelling the fundamental category; 
-
-* Part II. Higher Directed Homotopy Theory: 4. Settings for higher order homotopy; 5. Categories of functors and algebras, relative settings; 6. Elements of weighted algebraic topology; 
-
-* Appendix A. Some points of category theory; 
-
-* References; Index of symbols; General index.
-
-Prof. Grandis has posted few lines from introduction to the book  __'Directed Algebraic Topology' Models of non-reversible worlds__ to the categories list.
+From the introduction:
 
 >Directed Algebraic Topology is a recent subject which arose in the 1990's, on the one hand in abstract settings for homotopy theory, and on the other hand in investigations in the theory of concurrent processes.
 >Its general aim should be stated as modelling non-reversible phenomena. The subject has a deep relationship with category theory.
@@ -48,6 +37,18 @@ Prof. Grandis has posted few lines from introduction to the book  __'Directed Al
 >Similarly, its homological theories will take values in directed algebraic structures, like preordered abelian groups or abelian monoids. Homotopy constructions like mapping cone, cone and suspension, occur here in a directed version; this gives rise to new shapes, like (lower and upper) directed cones and directed spheres, whose elegance is strengthened by the fact that such constructions are determined by universal properties.
 
 >Applications will deal with domains where privileged directions appear, such as concurrent processes, rewrite systems, traffic networks, space-time models, biological systems, etc. At the time of writing, the most developed ones are concerned with concurrency.
+
+**Contents.**
+
+* Introduction; 
+
+* Part I. First Order Directed Homotopy and Homology: 1. Directed structures and first order homotopy properties; 2. Directed homology and noncommutative geometry; 3. Modelling the fundamental category; 
+
+* Part II. Higher Directed Homotopy Theory: 4. Settings for higher order homotopy; 5. Categories of functors and algebras, relative settings; 6. Elements of weighted algebraic topology; 
+
+* Appendix A. Some points of category theory; 
+
+* References; Index of symbols; General index.
 
 **Review**
 
