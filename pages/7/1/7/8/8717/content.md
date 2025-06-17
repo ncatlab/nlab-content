@@ -13,6 +13,8 @@ On [[categorical semantics]] for the [[exponential modality]] in [[linear logic]
 
 * {#BluteCockettSeely96} [[R. F. Blute]] , [[J. R. B. Cockett]], [[R. A. G. Seely]], *! and ? -- Storage as tensorial strength*, Mathematical Structures in Computer Science **6** 4 (1996) 313-351 &lbrack;[doi:10.1017/S0960129500001055](https://doi.org/10.1017/S0960129500001055)&rbrack;
 
+* {#CockettSeely99} [[J. R. B. Cockett]] and [[R. A. G. Seely]], _Linearly distributive functors_, Journal of Pure and Applied Algebra 143 (1999) 155–203, [doi:10.1016/S0022-4049(98)00110-8](https://doi.org/10.1016/S0022-4049%2898%2900110-8)
+
 Introducing [[differential categories]]:
 
 *  {#BluteCocketSeely06} [[R. F. Blute]], [[J. R. B. Cockett]], and [[R. A. G. Seely]]: _Differential categories_. Math. Struct. Comput. Sci. 16(06), 1049–1083 (2006) ([doi:10.1017/S0960129506005676](https://doi.org/10.1017/S0960129506005676))
