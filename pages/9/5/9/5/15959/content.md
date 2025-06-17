@@ -14,11 +14,11 @@
 
 ## Groups
 
-The modern mathematical terminology _group_ is short for _group of [[symmetries]]_ (e.g. [Klein 1872](Klein+geometry#Klein1872)). Mathematicians and physicist tend to marvel at the ubiquity and profoundness that the concept of symmetry groups has turned out to exhibit since its conception in the 19th century. Indeed it is a fundamental concept in a sense whose full depth becomes clear (only) in [[homotopy theory]]: _groups_ are equivalently the [[pointed object|pointed]] [[connected object in an (infinity,1)-topos|connected]] [[homotopy types]].
+The modern mathematical terminology _group_ is short for _group of [[symmetries]]_ (e.g. [Klein 1872](Klein+geometry#Klein1872)). Mathematicians and physicists tend to marvel at the ubiquity and profoundness that the concept of symmetry groups has turned out to exhibit since its conception in the 19th century. Indeed it is a fundamental concept in a sense whose full depth becomes clear (only) in [[homotopy theory]]: _groups_ are equivalently the [[pointed object|pointed]] [[connected object in an (infinity,1)-topos|connected]] [[homotopy types]].
 
 In traditional literature this fact is fully appreciated typically only in rather advanced corners of [[algebraic topology]], and even that mostly just somewhat secretly. But while it is true that this fact has very sophisticated consequences, at its heart it is a simple fundamental fact that is visible and useful already in elementary [[group theory]] and [[representation theory]].
 
-We being in 
+We begin in 
 
 * _[1-Groups](#1Groups)_
 
@@ -309,7 +309,7 @@ $$
   \,.
 $$
 
-This establishes that $\pi_1$ is alspo an equivalence on all [[hom-groupoids]].
+This establishes that $\pi_1$ is also an equivalence on all [[hom-groupoids]].
 
 =--
 
