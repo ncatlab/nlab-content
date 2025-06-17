@@ -124,7 +124,7 @@ The case with unbounded, infinite joins is earlier considered here:
 In [[domain theory]], convex powersets of distributions are explored and axiomatized amongst other approaches by 
 
 * Daniela Varacca: *Probability, Nondeterminism and Concurrency: Two Denotational Models for
-Probabilistic Computation*. PhD thesis, Univ. Aarhus (2003) &lbrack;[brics:DS/03/14](https://www.brics.dk/DS/03/14)&rbrack;
+Probabilistic Computation*. PhD thesis, [[BRICS]], Univ. Aarhus (2003) &lbrack;[brics:DS/03/14](https://www.brics.dk/DS/03/14)&rbrack;
 
 and analyzed as "convex powercones" by 
 
