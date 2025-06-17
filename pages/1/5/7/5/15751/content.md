@@ -22,6 +22,8 @@ A **nuclear object** is a categorical generalization of the concept of a finite-
 
 ## Definition
 
+### In a symmetric monoidal closed category
+
 A _nuclear object_in a [[symmetric monoidal closed category]] $\mathcal{M}$ with unit $k$ is an object $A$ such that the canonical morphism $\phi _A:A\otimes A^*\to [ A, A]$ with $A^*:=[A,k]$ is an isomorphism.
 
 A _morphism_ $f:A\to B$ is called _nuclear_ if there exists a morphism $p:k\to B\otimes A^*$ such that
@@ -31,6 +33,10 @@ $$\array{k & \overset{p}{\to} & B\otimes A^*\\
   & [A,B] & }$$
 
 is commutative, where $n(f)$, the name of $f$, obtains via adjointness from $k\otimes A\simeq A\overset{f}{\to} B$.
+
+### In a linearly distributive category
+
+In [CS'99](#CockettSeely99), Cockett and Seely generalize the above notion to [[linearly distributive categories]].
 
 ## Properties
 
@@ -78,5 +84,9 @@ is commutative, where $n(f)$, the name of $f$, obtains via adjointness from $k\o
 * K. A. Rowe, _Nuclearity_ , Canad.Math.Bull. **31**  no.2 (1988) pp.227-235. ([pdf](http://cms.math.ca/cmb/v31/cmb1988v31.0227-0235.pdf))
 
 * G. N. Raney, _Tight Galois Connections and Complete Distributivity_ , Trans.Amer.Math.Soc **97** (1960) pp.418-426. ([pdf](http://www.ams.org/journals/tran/1960-097-03/S0002-9947-1960-0120171-3/S0002-9947-1960-0120171-3.pdf))
+
+For the generalization to [[linearly distributive categories]]:
+
+* {#CockettSeely99} [[J. R. B. Cockett]] and [[R. A. G. Seely]], _Linearly distributive functors_, Journal of Pure and Applied Algebra 143 (1999) 155–203, [doi:10.1016/S0022-4049(98)00110-8](https://doi.org/10.1016/S0022-4049%2898%2900110-8)
 
 [[!redirects nuclear objects]]
