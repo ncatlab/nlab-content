@@ -29,4 +29,4 @@ One may use vector spaces over any (fixed) field. In fact, Soloviev's result is 
 
 ## References
 
-* Sergei Soloviev.  "Proof of a Conjecture of S. Mac Lane".  [BRICS 1996](http://www.brics.dk/RS/96/61/BRICS-RS-96-61.pdf)
+* Sergei Soloviev.  "Proof of a Conjecture of S. Mac Lane", [[BRICS]] (1996) &lbrack;[pdf](http://www.brics.dk/RS/96/61/BRICS-RS-96-61.pdf)&rbrack;
