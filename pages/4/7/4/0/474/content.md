@@ -62,12 +62,12 @@ $$
 
 ## References
 
-* [[Marco Grandis]], _Directed algebraic topology, categories and higher categories_ ([pdf](http://www.dima.unige.it/~grandis/DAT.Intro.pdf))
+* [[Marco Grandis]], _Directed algebraic topology, categories and higher categories_ . ([pdf](https://web.archive.org/web/20150326200922/https://dima.unige.it/~grandis/DAT.Intro.pdf)).
 
-* [[Andre Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, 2008, [citeseerx](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.187.2533)
+* [[Andre Joyal]], [[Myles Tierney]], _Notes on simplicial homotopy theory_, 2008. ([pdf](https://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf)).
 
-* [[J. Woolf]], _Transversal homotopy theory_, Theory and applications of categories, Vol 24, Issue 7, pp 148-178, 2010. (arXiv:0910.3322)
+* [[J. Woolf]], _Transversal homotopy theory_, Theory and applications of categories, Vol 24, Issue 7, pp 148-178, 2010. ([arXiv:0910.3322](https://arxiv.org/abs/0910.3322)).
 
-* [[J. Woolf]], _The fundamental category of a stratified space_, Journal of Homotopy and Related Structures, Vol 4, Issue 1 pp 359-387, 2009. (arXiv:0811.2580)
+* [[J. Woolf]], _The fundamental category of a stratified space_, Journal of Homotopy and Related Structures, Vol 4, Issue 1 pp 359-387, 2009. ([arXiv:0811.2580](https://arxiv.org/abs/0811.2580)).
 
 [[!redirects fundamental categories]]
