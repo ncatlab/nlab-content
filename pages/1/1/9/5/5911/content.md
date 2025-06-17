@@ -44,20 +44,21 @@ Note, however, that if a geometric category has a small [[generating set]], then
 
 [[!include categories and logic - table]]
 
+
 ## References
 
 Around lemma A1.4.18 in 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 
-* [[Michael Makkai]], [[Gonzalo Reyes]], _First Order Categorical Logic_, Lecture Notes in Math. 611 (Springer-Verlag, 1977).
- {#MakkaiReyes}
+* {#MakkaiReyes} [[Michael Makkai]], [[Gonzalo Reyes]], _First Order Categorical Logic_, Lecture Notes in Math. 611 (Springer-Verlag, 1977).
 
-* Casten Butz, [[Peter Johnstone]], _Classifying toposes for first order theories_, BRICS Report Series RS-97-20
- {#ButzJohnstone}
 
-* [[Mike Shulman]], _Exact completions and small sheaves_, TAC 27(7), 2012 ([link](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)).
-  {#Shulman}
+* {#ButzJohnstone} Casten Butz, [[Peter Johnstone]], _Classifying toposes for first order theories_, [[BRICS]] Report Series RS-97-20
+ 
+
+* {#Shulman} [[Mike Shulman]], _Exact completions and small sheaves_, TAC 27(7), 2012 ([link](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)).
+  
 
 [[!redirects geometric category]]
 [[!redirects geometric categories]]
