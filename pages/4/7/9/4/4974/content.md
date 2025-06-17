@@ -155,7 +155,7 @@ Other papers on event structures:
 
 * [[G. Winskel]] and M. Nielsen, Models for concurrency. vol. 3, Handbook of Logic in Computer Science, pages 100 - 200, Oxford Univ. Press, 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
-* {#Representation} [[G. Winskel]], _Event Structures as Presheaves -- Two Representation Theorems_ [BRICS report](https://www.brics.dk/RS/99/7/BRICS-RS-99-7.pdf)
+* {#Representation} [[G. Winskel]], _Event Structures as Presheaves -- Two Representation Theorems_ [[BRICS]] (1999) &lbrack;[pdf](https://www.brics.dk/RS/99/7/BRICS-RS-99-7.pdf)&rbrack;
 
 * {#Symmetry} [[G. Winskel]], _Event Structures with Symmetry_ [pdf](https://www.cl.cam.ac.uk/~gw104/EvStrswSymm-Corrected.pdf)
 
