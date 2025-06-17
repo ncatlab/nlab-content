@@ -439,6 +439,11 @@ Exposition:
 * [[Grigorios Giotopoulos]]: *Sheaf Topos Theory: A powerful setting for Lagrangian Field Theory* &lbrack;[arXiv:2504.08095](https://arxiv.org/abs/2504.08095)&rbrack;
 
 
+In analogy with smooth sets one may consider "D-topological sets" (among [[D-topological infinity-groupoids]]), forming the sheaf topos over the site $Cart_{top}$ of Cartesian spaces with *continuous* maps between them.
+
+On $Sh(Cart_{top})$ as a [[classifying topos]]:
+
+* [[Jonas Frey]]: *$Sh(Cart)$ as a classifying topos* (2023) &lbrack;[github pdf](https://github.com/jonas-frey/pdfs/blob/master/cartesian-may-2023.pdf)&rbrack;
 
 
 
