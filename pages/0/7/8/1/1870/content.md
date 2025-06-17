@@ -55,7 +55,7 @@ The **twisted K-theory** with twist $\alpha \in H^3(X, \mathbb{Z})$ is the set o
 
 $$
   K_\alpha(X)^0
-  :=
+  \coloneqq
   \Gamma_X(P^\alpha \times_{P U(\mathcal{H})} (K U)_0)
   \,.
 $$
@@ -64,7 +64,7 @@ Similarily the reduced $\alpha$-twisted K-theory is the subset
 
 $$
   \tilde K_\alpha(X)^0
-  :=
+  \coloneqq
   \Gamma_X(P^\alpha \times_{P U(\mathcal{H})} B U)
   \,.
 $$
@@ -203,7 +203,7 @@ Let $\alpha \in H^3(X, \mathbb{Z})$ be a class in degree-3 [[integral cohomology
 Write $TwBund(X, P)$ for the [[groupoid]] of [[twisted bundle]]s on $X$ with twist given by $P$. Then let
 
 $$
-  \tilde K_\alpha(X) := TwBund(X,P)
+  \tilde K_\alpha(X) \coloneqq TwBund(X,P)
 $$
 
 be the set of [[isomorphism]] classes of twisted bundles. Call this the **twisted K-theory** of $X$ with twist $\alpha$.
@@ -357,9 +357,11 @@ January 1969, Volume 37, Issue 1, pp 5-26 ([pdf](http://www.maths.ed.ac.uk/~aar/
 and for more general twists in 
 
 
-* {#FreedHopkinsTeleman11} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]] I_ , J. Topology, 4 (2011), 737-789  ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906))
+* {#FreedHopkinsTeleman11} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]]: *[[Loop Groups and Twisted K-Theory]] I*, J. Topology **4 (2011) 737-789  &lbrack;[arXiv:0711.1906](http://arxiv.org/abs/0711.1906), [doi:10.1112/jtopol/jtr019](https://doi.org/10.1112/jtopol/jtr019)&rbrack;
 
-See also
+
+
+See also:
 
 * [[Max Karoubi]], _Twisted bundles and twisted K-theory_, in:  Guillermo Cortiñas (ed.) _Topics in Noncommutative Geometry_ ([arXiv:1012.2512](https://arxiv.org/abs/1012.2512), [ISBN:978-0-8218-6864-5](https://bookstore.ams.org/cmip-16))
 
