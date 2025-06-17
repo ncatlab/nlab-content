@@ -99,7 +99,7 @@ A different possibility (sometimes called the **coercion interpretation** of jud
 
 * {#Reynolds91} John C. Reynolds, _The Coherence of Languages with Intersection Types_. TACS 1991. ([ps](http://www.cs.cmu.edu/afs/cs/user/jcr/ftp/tempdir/coherence.ps))
 
-* {#Reynolds00} John C. Reynolds, _The Meaning of Types: from Intrinsic to Extrinsic Semantics_. BRICS Report RS-00-32, Aarhus University, December 2000. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2290&context=compsci))
+* {#Reynolds00} John C. Reynolds, _The Meaning of Types: from Intrinsic to Extrinsic Semantics_. [[BRICS]] Report RS-00-32, Aarhus University (2000) &lbrack;[pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2290&context=compsci)&rbrack;
 
 * {#Luo99} [[Zhaohui Luo]], Coercive subtyping. Journal of Logic and Computation, 9(1):105&#8211;130, 1999. [ps file](http://www.cs.rhul.ac.uk/~zhaohui/JLC98.ps).
 
