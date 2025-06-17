@@ -237,7 +237,7 @@ Internal profunctors are considered in
 
 The relation to [[locally presentable categories]] is almost explicit in:
 
-* {#Cattani99} [[Gian Luca Cattani]], *Presheaf Models for Concurrency*, PhD thesis from BRICS, University of Aarhus 1999 ([pdf](http://www.brics.dk/DS/99/1/BRICS-DS-99-1.pdf), [[Cattani_PresheafModels.pdf:file]])
+* {#Cattani99} [[Gian Luca Cattani]], *Presheaf Models for Concurrency*, PhD thesis from [[BRICS]], University of Aarhus (1999) &lbrack;[pdf](http://www.brics.dk/DS/99/1/BRICS-DS-99-1.pdf), [[Cattani_PresheafModels.pdf:file]]&rbrack;
 
 
 Profunctors play an important in categorical [[shape theory]]. The original source is 
@@ -254,7 +254,7 @@ Discussion of simplicial enriched profunctors in the context of strong shape the
 
 Overview and application in [[computer science]]:
 
-* [[Gian Luca Cattani]], G. Winskel, _Profunctors, Open Maps, and Bisimulation_ , BRICS Report **04-22** (2004). ([pdf](http://www.brics.dk/RS/04/22/BRICS-RS-04-22.pdf))
+* [[Gian Luca Cattani]], G. Winskel, _Profunctors, Open Maps, and Bisimulation_ , [[BRICS]] Report **04-22** (2004) &lbrack;[pdf](http://www.brics.dk/RS/04/22/BRICS-RS-04-22.pdf)&rbrack;
 
 
 The common generalization of [[bimodules]] and [[spans]] in terms of profunctors has been discussed on the blog at
