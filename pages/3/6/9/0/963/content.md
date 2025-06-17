@@ -170,7 +170,23 @@ This example generalizes as follows: given any [[monoidal category|monoidal]] [[
 
 Another class of examples: internal homs $\hom_{sLat}(X, X)$ in the closed monoidal category of suplattices. For example, when the suplattice $X$ is a power set $P(S)$, one may identify $\hom_{sLat}(P(S), P(S))$ with the poset of binary relations $P(S \times S)$, ordered by inclusion and where the quantalic multiplication is relational composition.
 
-An example in algebra is given by the lattice of ideals of a commutative ring, with the tensor product given by ideal multiplication, which makes it into a commutative affine quantale. Residuation in this case is *ideal division* $(\mathfrak{a} : \mathfrak{b}) = \{x | x\mathfrak{b} \subseteq \mathfrak{a}\}$.
+* An example in algebra is given by the lattice of ideals of a commutative ring, with the tensor product given by ideal multiplication, which makes it into a commutative affine quantale. Residuation in this case is *ideal division* $(\mathfrak{a} : \mathfrak{b}) = \{x | x\mathfrak{b} \subseteq \mathfrak{a}\}$.
+
+* The lattice of positive natural numbers $\mathbb{N}$, ordered by $m \leq n \iff m\mid n$, is a complete lattice with joins
+$$
+\bigvee_{I} m_i =
+\begin{cases}
+\text{lcm}(m_1,\dots,m_{|I|}),&\text{if }\,I\,\text{ is finite}.\\
+0,&otherwise
+\end{cases}
+$$
+and meets given by $\gcd$.
+This lattice is a quantale under the usual multiplication $\mathbb{N}\times \mathbb{N}\to\mathbb{N}$.
+This is basically because $\text{lcm}(k\cdot m,k\cdot n) = k\cdot \text{lcm}(m,n)$.
+
+* The posets $[0,1]$ and $[0,\infty]$ with the usual order structure $\leq$ of the real numbers are quantales under the usual multiplication of real numbers.
+This basically follows from $\sup_{s\in S}(c\cdot s) = c\cdot \sup_{s\in S}(s)$ for any $c\geq 0$ and subset $S\subseteq \mathbb{R}$ (including unbounded sets).
+
 
 Quantales, as monoids in the symmetric monoidal category $sLat$, can be tensored to produce new quantales. 
 
