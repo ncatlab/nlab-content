@@ -55,7 +55,7 @@ The really clear term for a spatial locale is 'locale with enough points to sepa
 
 ## Criteria for spatiality
 
-1. Hofmann–Lawson duality (1978; see Picado–Pultr, Theorem 6.4.3 and Proposition 6.3.3): assuming the [[axiom of choice]], [[locally compact locales]] are spatial.
+1. Hofmann–Lawson duality (1978; see Picado–Pultr, Theorem VII.6.4.3 and Proposition VII.6.3.3): assuming the [[axiom of choice]], [[locally compact locales]] are spatial.
 In particular, [[compact regular locales]] are locally compact, hence automatically spatial.
 
 2. Every [[coherent locale]] is spatial.
