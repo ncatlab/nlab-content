@@ -266,14 +266,19 @@ Textbook accounts include
 
 * [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], section 8.4 of: _String Theory and M-Theory: A Modern Introduction_, Cambridge University Press 2007 ([doi:10.1017/CBO9780511816086](https://doi.org/10.1017/CBO9780511816086))
 
-Further survey includes
+Further survey:
 
 * [[Timo Weigand]], _F-theory: Progress and Prospects_, 2014 ([pdf](https://www.theorie.physik.uni-muenchen.de/activities/workshops/archive_workshops_conferences/string_pheno_ringberg/slides_frontiers/weigand.pdf))
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 ([pdf](http://wwwth.mpp.mpg.de/conf/f-theory15/talks/Vafa.pdf))
 
+Computational tools:
 
-Related conferences include
+* Martin Bies, Miķelis E. Miķelsons, Andrew P. Turner: *FTheoryTools: Advancing Computational Capabilities for F-Theory Research* &lbrack;[arXiv:2506.13849](https://arxiv.org/abs/2506.13849)&rbrack;
+
+
+
+Related conferences:
 
 * _[Physics and Geometry of F-theory 2014](http://www.match.uni-heidelberg.de/GPF/)_
 
