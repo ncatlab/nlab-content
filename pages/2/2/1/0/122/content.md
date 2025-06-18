@@ -55,8 +55,8 @@ $\alpha_x:F(x) \to G(x)$ in $D$ (called the __component__ of $\alpha$ at $x$) su
 
 \begin{remark}
 **([[composition]] of natural transformations)**
-Natural transformations between functors $C \to D$ and $D \to E$ compose in the obvious way to natural transformations $C \to E$ (this is their [[vertical composition]] in the [[2-category]] [[Cat]])
-and functors $F : C \to D$ with natural transformations between them form the [[functor category]] 
+Given three functors $F, G, H: C \to D$, natural transformations $F \Rightarrow G$ and $G \Rightarrow H$ compose in the obvious way to natural transformations $F \Rightarrow H$ (this is their [[vertical composition]] in the [[2-category]] [[Cat]])
+and the collection of all functors $F : C \to D$ with natural transformations between them form the [[functor category]] 
 
 \[
   \label{FunctorCategory}
