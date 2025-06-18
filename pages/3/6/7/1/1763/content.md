@@ -17,7 +17,7 @@
 
 ## Idea
 
-Stratifolds are a generalization of smooth [[manifolds]] -- a notion of [[generalized smooth space]] --  which were introduced by [[Matthias Kreck|Kreck]]; see his [lecture notes](#Kreck).
+Stratifolds are a generalization of smooth [[manifolds]] -- a notion of [[generalized smooth space]] --  which were introduced by [[Matthias Kreck]], see [Kreck 2010](#Kreck10).
 
 Stratifolds comprise one of the many variants of the concept of a _[[stratified space]]_, and they may include some types of singularities.
 
@@ -53,7 +53,7 @@ A __$k$-dimensional stratifold__ $(S,C)$ is a differential space such that
 
 ## References
 
-* {#Kreck} [[Matthias Kreck]], _Differential Algebraic Topology_. American Mathematical Society &lbrack;ISBN:9780821848982, [ams:GSM/110](https://bookstore.ams.org/view?ProductCode=GSM/110) [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kreckdat.pdf)&rbrack;
+* {#Kreck10} [[Matthias Kreck]], _Differential Algebraic Topology_, Graduate Studies in Mathematics **110**,  American Mathematical Society (2010) &lbrack;ISBN:9780821848982, [ams:GSM/110](https://bookstore.ams.org/view?ProductCode=GSM/110) [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kreckdat.pdf)&rbrack;
  
 * Toshiki Aoki, Katsuhiko Kuribayashi. *On the category of stratifolds* (2016). ([arXiv:1605.04142](https://arxiv.org/abs/1605.04142)).
 
