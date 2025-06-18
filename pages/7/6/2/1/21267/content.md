@@ -80,6 +80,7 @@ These include [[topological manifolds]], [[PL-manifolds]], and [[smooth manifold
 * [[polyhedra]].
 
 ## What are “spaces” in homotopy theory?
+{#spaces}
 
 These are some of the first and most important objects
 introduced in [[homotopy theory]].
@@ -276,7 +277,7 @@ to rather subtle aspects of [[homotopical algebra]].
 If we discard [[cofibrations]] and [[fibrations]]
 from the data of a [[model category]],
 we get a [[relative category]].
-[[Relative categories]] are one of many equivalent [models](#models)
+[[relative category|Relative categories]] are one of many equivalent [models](#models)
 for [[(∞,1)-categories]], so any [[model category]]
 has an underlying [[(∞,1)-category]].
 
