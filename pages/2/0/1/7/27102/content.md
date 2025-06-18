@@ -24,16 +24,16 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 A *harmonic function* is a function which has zero [[Laplacian]].
 
 It can often be interpreted as a function whose value at $x$ is equal to its [[average]] on a "neighborhood" of $x$.
-A similar interpretation is as a function which is *invariant on average* under the transition given by [[diffusion]], by a [[Markov process]], or by the [[edges]] of a [[graph]].
+A similar interpretation is as a function which is *invariant on average* under the transition given by [[diffusion]], by a [[Markov chain]], or by the [[edges]] of a [[graph]].
 
-### Intuition
+In [[physics]], a harmonic function represents a quantity which, in some sense, is spatially at [[equilibrium]]. For example, a body $B$ at a certain temperature $T$ surrounded by bodies of other temperatures, in such a way that the temperature $T$ is the average of the temperatures of the neighbors. This way, no net flow of heat passes into or out of $B$.
 
-(...)
 
 ## For manifolds 
 
@@ -114,6 +114,17 @@ $$
 \int_X f(y) \; k(d y|x) \;=\; f(x) .
 $$
 Given an [[invariant measure]] $p$ on $X$, we call $f$ **almost surely harmonic** if the equation above holds for $p$-almost all $x$.
+
+\begin{proposition}
+Given a [[Markov kernel]] on $X$ with an [[invariant measure]], the following conditions for a function $f:X\to\mathbb{R}$ are equivalent:
+
+- $f$ is almost surely harmonic;
+
+- $f$ is almost surely [[invariant]];
+
+- $f$ is [[measurable function|measurable]] for the almost surely [[invariant set#almost_surely_invariant_sets|invariant sigma-algebra]].
+
+\end{proposition}
 
 
 ## See also
