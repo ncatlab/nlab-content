@@ -44,7 +44,7 @@ of [[quasi-isomorphisms]] of dg-algebras.
 
 ## Examples
 
-In [[rational homotopy theory]] [[rational topological spaces]] are encoded in their dg-algebras of Sullivan forms. A simply connected topological space $X$ whose dg-algebra of Sullivan forms $\Omega^\bullet(X)$ is formal is called a **formal topological space**.  (One can also say a __formal rational space__, to distinguish from the unrelated formal spaces in [[formal topology]].)  Such a space represents a **formal homotopy type**.
+In [[rational homotopy theory]] [[rational topological spaces]] are encoded in their [[Sullivan algebra|Sullivan dg-algebras]] (cf. The [[fundamental theorem of dg-algebraic rational homotopy theory]]). A [[simply connected topological space]] $X$ whose Sullivan dg-algebra $\Omega^\bullet(X)$ is formal is called a **formal topological space**.  (One can also say a __formal rational space__, to distinguish from the unrelated formal spaces in [[formal topology]].)  Such a space represents a **formal homotopy type**.
 
 Examples are
 
@@ -52,15 +52,15 @@ Examples are
 
 * [[Lie groups]],
 
-* [[classifying spaces]] $B G$ of [[Lie groups]] $G$,
+* [[classifying spaces]]$\;B G$ of [[Lie groups]] $G$,
 
 * some [[homogeneous spaces]] $G/H$,
 
 * the unstable [[Thom spaces]] $M U_n$ and $M S O_n$,
 
-* the [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, 
+* the [[Eilenberg-MacLane space]] $K(\mathbb{Z},n)$, 
 
-  whose Sullivan minimal model is the dg-algebra on a single degree-2 generator with trivial differential.,
+  whose Sullivan minimal model is the dg-algebra on a single degree$=n$ generator with trivial differential.,
 
 * [[the little n-disk operad is formal]].
 
