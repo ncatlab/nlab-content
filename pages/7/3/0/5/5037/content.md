@@ -153,7 +153,7 @@ but see also:
 
 For the relationship between linear-time temporal logic and functional reactive programming, see
 
-* {#Jeffrey12} Alan Jeffrey _LTL types FRP: Linear-time temporal logic propositions as types, proofs as functional reactive programs_, in: Proceedings of the Sixth Workshop on Programming Languages Meets Program Verification (PLPV ’12)(2012), pp. 49–60. ([pdf](http://ect.bell-labs.com/who/ajeffrey/papers/plpv12.pdf))
+* {#Jeffrey12} Alan Jeffrey _LTL types FRP: Linear-time temporal logic propositions as types, proofs as functional reactive programs_, in: Proceedings of the Sixth Workshop on Programming Languages Meets Program Verification (PLPV ’12)(2012), pp. 49–60. ([pdf](https://www.researchgate.net/publication/220906549_LTL_types_FRP_Linear-time_Temporal_Logic_propositions_as_types_proofs_as_Functional_Reactive_Programs))
 
 * {#Jeltsch12} Wolfgang Jeltsch, _Towards a Common Categorical Semantics for Linear-Time Temporal Logic and Functional Reactive Programming_, Electronic Notes in Theoretical Computer Science 286, pp. 229-242, ([doi](https://doi.org/10.1016/j.entcs.2012.08.015))
 
