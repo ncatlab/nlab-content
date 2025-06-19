@@ -301,7 +301,7 @@ We sometimes therefore speak of $X(\mathbb{R}^n)$ as the groupoid of _plots_ or 
 
 =--
 
-The [[Yoneda lemma]] will turn this intuition into a theorem. For that we need to speak of [[homomorphisms]] of pre-smooth groupoids, hence of "smooth functors" betwen pre-smooth groupoids.
+The [[Yoneda lemma]] will turn this intuition into a theorem. For that we need to speak of [[homomorphisms]] of pre-smooth groupoids, hence of "smooth functors" between pre-smooth groupoids.
 
 +-- {: .num_defn #HomGroupoidsOfPreSmoothGroupoids}
 ###### Definition
@@ -548,7 +548,7 @@ where on the right we have the [[homotopy 1-type]] whose [[fundamental group]] i
 =--
 
 
-More specifically, the following class of examples plays a special role in the theory, as the encode what it takes for a pre-smooth groupoid to be a genuinely smooth groupoid.
+More specifically, the following class of examples plays a special role in the theory, as they encode what it takes for a pre-smooth groupoid to be a genuinely smooth groupoid.
 
 +-- {: .num_example #GroupoidOfCover}
 ###### Example
@@ -817,7 +817,7 @@ In particular, for $X \in SmoothMfd \hookrightarrow PreSmooth0Type \hookrightarr
 
 There is an alternative formulation of the whole theory where instead of the [[site]] [[CartSp]] one uses the site [[SmoothMfd]] of all [[smooth manifolds]]. Everything discussed so far goes through verbatim for that site, too, but the [[descent]] condition in def. \ref{DescentForPreSmoothGroupoids} is a much stronger condition.
 
-For instance the presheaves of the form $(\mathbf{B}G)_\bullet = (G \stackrel{\longrightarrow}{\longrightarrow} \ast)$ from example \ref{DeloopedGroupAsPreSmoothGroupoid} satisfy descent on $CartSp$, but not all $SmoothMfd$. Still, once we have defined the higher category of smooth groupoids, the definition wil be equivalent for both choices of sites. 
+For instance the presheaves of the form $(\mathbf{B}G)_\bullet = (G \stackrel{\longrightarrow}{\longrightarrow} \ast)$ from example \ref{DeloopedGroupAsPreSmoothGroupoid} satisfy descent on $CartSp$, but not all $SmoothMfd$. Still, once we have defined the higher category of smooth groupoids, the definition will be equivalent for both choices of sites. 
 
 The choice of the smaller site is the one that is easier to work with, and therefore we stick with that. In fact, most every example of a pre-smooth groupoid that one runs into satisfies descent on $CartSp$.
 
