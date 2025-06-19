@@ -54,7 +54,7 @@ Examples are
 
 * [[classifying spaces]]$\;B G$ of [[Lie groups]] $G$,
 
-* some [[homogeneous spaces]] $G/H$,
+* some [[homogeneous spaces]] $G/H$ (see ([Amann 12](#Amann12)) for *non*formal examples),
 
 * the unstable [[Thom spaces]] $M U_n$ and $M S O_n$,
 
@@ -90,6 +90,10 @@ Review with an eye towards the [[dd^c-lemma]] and [[H-cohomology]] is in
 The case of [[Sullivan algebras]] of [[sphere bundles]]:
 
 * Jiawei Zhou, *Formality of Sphere Bundles* &lbrack;[arXiv:2304.09594](https://arxiv.org/abs/2304.09594)&rbrack;
+
+A construction of nonformal homogeneous spaces
+
+* {#Amann12} [[Manuel Amann]]. *Non-formal Homogeneous Spaces* (2012). ([arXiv:1206.0786](https://arxiv.org/abs/1206.0786)).
 
 
 [[!redirects formal dg-algebra]]
