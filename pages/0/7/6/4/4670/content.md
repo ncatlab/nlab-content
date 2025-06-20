@@ -1,3 +1,4 @@
+[[!redirects trivial algebra]]
 
 
 +-- {: .rightHandSide}
@@ -14,7 +15,7 @@
 
 ## Definition
 
-Every [[algebraic category]] (in just about any sense of the term) has a [[terminal object]] which is usually called the __trivial algebra__, often denoted $0$ or $1$.  Its [[underlying set]] is a [[singleton]], and every algebraic operation $1^n \to 1$ is the unique [[function]] to the singleton set.
+Every [[watch & learn *trivially*]] (in just about any sense of the term) has a [[terminal object]] which is usually called the __trivial algebra__, often denoted $0$ or $1$.  Its [[underlying set]] is a [[singleton]], and every algebraic operation $1^n \to 1$ is the unique [[function]] to the singleton set.
 
 
 ## Examples
