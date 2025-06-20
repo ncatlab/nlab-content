@@ -225,6 +225,8 @@ See also:
 * Wikipedia, *[Intuitionistic logic](https://en.wikipedia.org/wiki/Intuitionistic_logic)*
 
 * Stanford Encyclopedia, *[The Development of Intuitionistic Logic](https://plato.stanford.edu/entries/intuitionistic-logic-development/#ProoInte)*
+
+* Internet Encyclopedia of Philosophy, _[Intuitionism in Mathematics](https://iep.utm.edu/intuitionism-in-mathematics/) (especially the appendix)
  
 
 The observation that the [[poset]] of [[open subsets]] of a [[topological space]] (the [[internal logic]] of the [[sheaf topos]]) serves as a model for [[intuitionistic logic]] is apparently originally due to
