@@ -124,7 +124,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The topological space $A[S^n]_\ast$ in definition \ref{ReducedALinearizationOfnSphere} has a canonical continuous [[action]] of the [[orthogonal group]] $O(n)$, by regarding $S^n \simeq (\mathbb{R}^n)^\ast$ as the [[one-point compactification]] of [[Cartesian space]]. Hence, in view of prop. \ref{ReducedALinearizationOfnSphereIsEMSpace}, these models for EM-spaces lend themselves to the defintiion of [[Eilenberg-MacLane spectra]] as [[orthogonal spectra]]. See [there](Eilenberg-Mac+Lane+spectrum#AsSymmetricSpectra).
+The topological space $A[S^n]_\ast$ in definition \ref{ReducedALinearizationOfnSphere} has a canonical continuous [[action]] of the [[orthogonal group]] $O(n)$, by regarding $S^n \simeq (\mathbb{R}^n)^\ast$ as the [[one-point compactification]] of [[Cartesian space]]. Hence, in view of prop. \ref{ReducedALinearizationOfnSphereIsEMSpace}, these models for EM-spaces lend themselves to the definition of [[Eilenberg-MacLane spectra]] as [[orthogonal spectra]]. See [there](Eilenberg-Mac+Lane+spectrum#AsSymmetricSpectra).
 
 =--
 
@@ -273,7 +273,7 @@ Lecture notes:
 
 * {#Kobin16} Andrew Kobin, Section 7.6 of: _Algebraic Topology_, 2016 ([[KobinAT2016.pdf:file]])
 
-* [[Neil Strickland]], section 15 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
+* [[Neil Strickland]], section 15 of: *A bestiary of topological objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
 
 
 The construction via reduced linearization of spheres is considered in
@@ -287,7 +287,7 @@ Quick review includes
 
 Formalization of Eilenberg-MacLane spaces in [[homotopy type theory]] (cf. *[[Eilenberg-MacLane space type]]*):
 
-* {#LicataFinster14} [[Dan Licata]], [[Eric Finster]], _Eilenberg-MacLane spaces in homotopy type theory_, CSL-LICS '14 **66** (2014) 1-9 &lbrack;[pdf text](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), [Agda HoTT code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda), [web discussion](http://homotopytypetheory.org/2014/04/15/eilenberg-maclane-spaces-in-hott/), [doi:10.1145/2603088.2603153](https://doi.org/10.1145/2603088.2603153)&rbrack;
+* {#LicataFinster14} [[Dan Licata]], [[Eric Finster]], _Eilenberg--MacLane spaces in homotopy type theory_, CSL-LICS '14 **66** (2014) 1-9 &lbrack;[pdf text](http://dlicata.web.wesleyan.edu/pubs/lf14em/lf14em.pdf), [Agda HoTT code](https://github.com/dlicata335/hott-agda/blob/master/homotopy/KGn.agda), [web discussion](http://homotopytypetheory.org/2014/04/15/eilenberg-maclane-spaces-in-hott/), [doi:10.1145/2603088.2603153](https://doi.org/10.1145/2603088.2603153)&rbrack;
 
 * {#vanDoorn18} [[Floris van Doorn]], §42 in: *On the Formalization of Higher Inductive Types and Synthetic Homotopy Theory* (2018) &lbrack;[arXiv:1808.10690](https://arxiv.org/abs/1808.10690)&rbrack;
 
