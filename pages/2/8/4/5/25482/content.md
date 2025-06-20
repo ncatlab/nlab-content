@@ -35,7 +35,7 @@ $$
 (p \colon c \to c', q \colon d \to d')
 $$
 
-such that $(R q) \circ f = f' \circ p$ or equivalently $q \circ g = g' \circ (L p)$.
+such that $(R q) \circ g = g' \circ p$ or equivalently $q \circ f = f' \circ (L p)$.
 
 ## Properties
 
