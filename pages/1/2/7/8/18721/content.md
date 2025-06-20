@@ -30,3 +30,5 @@ In [Haine18](#Haine18) the author presents a completely self-contained proof of 
 * {#AFR15} [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
 
 * {#Haine18} [[Peter J. Haine]], _On the homotopy theory of stratified spaces_ ([arXiv:1811.01119](https://arxiv.org/abs/1811.01119))
+
+* Lukas Waas. *Stratified Homotopy Theory and Generalized Simple Homotopy Theory: Foundations, Applications and Intersections* (Dissertation). ([doi](https://doi.org/10.11588/heidok.00036480)).
