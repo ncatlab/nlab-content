@@ -52,7 +52,7 @@ $$
   \lim_{\to^j} Hom_C(X,F(j))
 $$
 
-hence as a [[quotient set]] of the the set of morphism in $C$ from $X$ into one of the objects $F(j)$. Being a quotient set, every element of it is _represented_ by one of the original elements in $\coprod_j Hom_C(X,F(j))$.
+hence as a [[quotient set]] of the set of morphism in $C$ from $X$ into one of the objects $F(j)$. Being a quotient set, every element of it is _represented_ by one of the original elements in $\coprod_j Hom_C(X,F(j))$.
 
 This means that we have
 
