@@ -3,9 +3,7 @@
 
 * [institute page](https://www.polito.it/personale?p=lucrezia.ravera)
 
-* [research group page](https://areeweb.polito.it/ricerca/sugragroup/members.html)
-
-* [inspire page](https://inspirehep.net/authors/1626890)
+* [inSpire page](https://inspirehep.net/authors/1626890)
 
 ## Selected writings
 
