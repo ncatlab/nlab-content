@@ -3,6 +3,11 @@
 
 * [research group page](https://www.strings.to.infn.it/personal/castellani/)
 
+* [inSpire page](https://inspirehep.net/authors/1014310)
+
+* [GoogleScholar page](https://scholar.google.de/citations?user=3HY9WWAAAAAJ&hl=nl)
+
+
 ## Selected writings
 
 On the [[D'Auria-Fré-Regge formulation of supergravity]]:
