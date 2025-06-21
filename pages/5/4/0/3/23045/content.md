@@ -42,9 +42,7 @@ The [[limit of a sequence|limit]] of this sequence is $\underset{k \to \infty}{l
       \atop
       { \vert x \vert \leq 1 }
     }{sup}
-    \big(
-      \vert T_k(x) - T(x)
-    \big)
+      {\big\vert T_k(x) - T(x) \big\vert}
     \;\to\; 0
     \,;
   $$
@@ -85,7 +83,7 @@ The [[limit of a sequence|limit]] of this sequence is $\underset{k \to \infty}{l
 \begin{prop}\label{WithNormTopology}
   The [norm topology](#NormTopology) makes $U(\mathcal{H})$ a [[topological group]], in fact a [[Banach Lie group]]. Further, it is [[metrizable]], hence [[paracompact]].
 \end{prop}
-(That it is a Banach Lie group, see e.g. [Schottenloher 2013 p. 4/Sec. 3](#Schottenloher13). Paracompactness/metrizability is [Nikolaus-Sachse-Wockel, Sec. 3](#NSW))
+(For it being a Banach Lie group cf. [Schottenloher 2013 p. 4/Sec. 3](#Schottenloher13). For paracompactness/metrizability cf. [Nikolaus, Sachse & Wockel 2013 Sec. 3](#NSW))
 
 \begin{prop}\label{WithOperatorTopology}
   On $U(\mathcal{H})$ the [weak operator topology](#WeakOperatorTopology) and [strong operator topology](#StrongOperatorTopology) agree and make it a [[topological group]].
@@ -187,7 +185,7 @@ Early discussion in relation to [[PU(ℋ)]]:
 
 Proof that the the weak- and strong- [[operator topologies]] agree on $U(\mathcal{H})$:
 
-* {#HilgertNeeb93} [[Joachim Hilgert]], [[Karl-Hermann Neeb]], Cor. 9.4 in: *Lie Semigroups and their Applications*. Lecture Notes in Mathematics **1552**, Springer 1993 ([doi:10.1007/BFb0084640](https://link.springer.com/book/10.1007/BFb0084640))
+* {#HilgertNeeb93} [[Joachim Hilgert]], [[Karl-Hermann Neeb]], Cor. 9.4 in: *Lie Semigroups and their Applications*. Lecture Notes in Mathematics **1552**, Springer (1993) &lbrack;[doi:10.1007/BFb0084640](https://link.springer.com/book/10.1007/BFb0084640)&rbrack;
 
 
 Proof that weak-, strong- as well as the [[compact-open topology]] all agree on $U(\mathcal{H})$:
@@ -199,7 +197,6 @@ Proof that weak-, strong- as well as the [[compact-open topology]] all agree on 
 Previous influential but wrong claim that they do not:
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Appendix of: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
-
   > This paper made the mistake of assuming that because various topologies were distinct on $GL(\mathcal{H})$, they remain distinct on $U(\mathcal{H})$.
 
 Further properties:
