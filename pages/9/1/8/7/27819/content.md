@@ -28,7 +28,7 @@ A **parametrix** of a [[bounded operator|bounded]] [[linear operator]] $F \colon
 \begin{theorem}\label{FredholmViaParametrix}
 **([Atkinson 1951](#Atkinson51))**
 \linebreak
-A [[bounded operator|bounded]] [[linear operator]] $ F \colon B_1\to B_2$ between [[Banach spaces]] is Fredholm, def. \ref{FredholmOperator} precisely it is has a parametrix, def. \ref{Parametrix}.
+A [[bounded operator|bounded]] [[linear operator]] $ F \colon B_1\to B_2$ between [[Banach spaces]] is Fredholm, def. \ref{FredholmOperator} precisely if it admits a parametrix, def. \ref{Parametrix}.
 \end{theorem}
 
 ## References
