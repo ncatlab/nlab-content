@@ -15,7 +15,7 @@
 ## Preliminaries
 
 \begin{definition}\label{FredholmOperator}
-A [[continuous function|continuous]] [[linear operator]] $F \colon B_1\to B_2$ between [[Banach spaces]] is **Fredholm** if it has [[finite set|finite]] [[dimension|dimensional]] [[kernel]] and finite dimensional [[cokernel]]. 
+A [[bounded operator|bounded]] [[linear operator]] $F \colon B_1\to B_2$ between [[Banach spaces]] is **Fredholm** if it has [[finite set|finite]] [[dimension|dimensional]] [[kernel]] and finite dimensional [[cokernel]]. 
 \end{definition}
 
 \begin{definition}\label{Parametrix}
