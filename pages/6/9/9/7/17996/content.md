@@ -288,7 +288,7 @@ To this end, consider:
           \phantom{+}0 & \phantom{+}1
         \end{matrix}\right]
       \\   
-      \mathbf{i} &\mapsto& 
+      \mathbf{i}\, &\mapsto& 
        \mathrm{i}
        \left[\begin{matrix}
           \phantom{+}1 & \phantom{+}0 
@@ -296,7 +296,7 @@ To this end, consider:
           \phantom{+}0 & -1
         \end{matrix}\right]
       \\   
-       \mathbf{j} &\mapsto& 
+       \mathbf{j}\, &\mapsto& 
        \mathrm{i}
        \left[\begin{matrix}
           \phantom{+}0 & \phantom{+}1 
@@ -304,7 +304,7 @@ To this end, consider:
           \phantom{+}1 & \phantom{+}0
         \end{matrix}\right]
       \\   
-       \mathbf{k} &\mapsto& 
+       \mathbf{k}\, &\mapsto& 
        \mathrm{i}
        \left[\begin{matrix}
           \phantom{+}0 & \phantom{+}\mathrm{i} 
