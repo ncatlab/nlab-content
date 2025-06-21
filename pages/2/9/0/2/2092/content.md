@@ -65,7 +65,7 @@ Textbook:
 
   * Vol III, *Special Topics, Elementary Theory -- An Exercise Approach*, Springer 1991 ([doi:10.1007/978-1-4612-3212-4](https://link.springer.com/book/10.1007/978-1-4612-3212-4), )
 
-* [[Gerard Murphy]], _$C^\ast$-algebras and Operator Theory_, Academic Press 1990 ([doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6))
+* [[Gerard Murphy]]: *$C^\ast$-algebras and Operator Theory*, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
 
 * [[Masamichi Takesaki]], _Theory of operator algebras I, II and III_ ([pdf I](http://www.math.ucla.edu/~mt/Corrections1.pdf) [pdf II](http://www.math.ucla.edu/~mt/Corrections2.pdf) [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0990.46034&format=complete)).
 
@@ -74,6 +74,8 @@ Textbook:
 * {#Zhu93} [[Kehe Zhu]], *An Introduction to Operator Algebras*, CRC Press (1993) &lbrack;[ISBN:9780849378751](https://www.routledge.com/An-Introduction-to-Operator-Algebras/Zhu/p/book/9780849378751)&rbrack;
 
 * [[Bruce Blackadar]], *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
+
+* Y. A. Abramovich, C. D. Aliprantis: *An Invitation to Operator Theory*, Graduate Studies in Mathematics **50** (2002) &lbrack;ISBN:978-0-8218-2146-6, [doi:10.1090/gsm/050](https://doi.org/10.1090/gsm/050)&rbrack;
 
 Lecture notes with an eye towards application in [[quantum physics]]:
 
