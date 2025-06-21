@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -86,12 +87,33 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 * [[tessarines]]
 
+
 ## References
 
-Monographs:
+Originally due to:
+
+* [[William Rowan Hamilton]]: *On Quaternions, or on a new System of Imaginaries in Algebra*, Copy of a Letter from Sir William R. Hamilton to John T. Graves, Philosophical Magazine **25** (1844) 489-495 &lbrack;[pdf](https://www.emis.de/classics/Hamilton/QLetter.pdf)&rbrack;
+
+* [[William Rowan Hamilton]]: *On a new Species of Imaginary Quantities connected with a theory of Quaternions*, Proceedings of the Royal Irish Academy **2** (1844) 424-434 &lbrack;[pdf](https://www.emis.de/classics/Hamilton/Quatern1.pdf)&rbrack;
+
+* [[William Rowan Hamilton]]: *On Quaternions; or on a new System of Imaginaries in Algebra*, Philosophical Magazine **xxv** (1844) - **xxxvi** (1850) &lbrack;[pdf](https://www.emis.de/classics/Hamilton/OnQuat.pdf)&rbrack;
+
+Early review:
+
+* Arthur S. Hathaway: *A Primer of Quaternions*, Macmillan & Co, London (1896) &lbrack;[gutenberg:9934](https://www.gutenberg.org/ebooks/9934), [pdf](https://www.gutenberg.org/files/9934/9934-pdf.pdf)&rbrack;
+
+
+Dedicated monographs:
+
+* [[Andrew J. Hanson]]: *Visualizing Quaternions*, Series in Interactive 3D Technology, Morgan Kaufman (2006) &lbrack;[ISBN:978-0-12-088400-1](https://shop.elsevier.com/books/visualizing-quaternions/cunningham/978-0-12-088400-1), [pdf](http://www.r-5.org/files/books/computers/algo-list/realtime-3d/Andrew_Hanson-Visualizing_Quaternions-EN.pdf)&rbrack;
+
+* [[Andrew J. Hanson]]: *Visualizing More Quaternions*, Morgan Kaufman (2024) &lbrack;[ISBN:978-0-323-99202-2](https://shop.elsevier.com/books/visualizing-more-quaternions/hanson/978-0-323-99202-2)&rbrack;
+
+* João Pedro Morais, Svetlin Georgiev, Wolfgang Sprößig: *An Introduction to Quaternions*, chapter 1 in: *Real Quaternionic Calculus Handbook*, Birkhäuser (2014) 1-34 &lbrack;[doi:10.1007/978-3-0348-0622-0_1](https://doi.org/10.1007/978-3-0348-0622-0_1)&rbrack;
+
+Further monographs:
 
 * {#KlimovZhuravlev} D. M. Klimov, V. Ph. Zhuravlev, *Group-Theoretic Methods in Mechanics and Applied Mathematics*, Routledge (2004, 2020) &lbrack;[ISBN:9780367446987](https://www.routledge.com/Group-Theoretic-Methods-in-Mechanics-and-Applied-Mathematics/Klimov-Zhuravlev/p/book/9780367446987)&rbrack;
-
 
 * [[Ernst Binz]], Sonja Pods, Ch 1 in: *The geometry of Heisenberg groups --- With Applications in Signal Theory, Optics, Quantization, and Field Quantization*, Mathematical Surveys and Monographs **151**, American Mathematical Society (2008) &lbrack;[ams:surv-151](https://bookstore.ams.org/surv-151)&rbrack; 
 
@@ -99,6 +121,8 @@ Monographs:
 
 
 See also:
+
+* Wikipedia, *[Quaternions](https://en.wikipedia.org/wiki/Quaternion)*
 
 * T. Y. Lam, _Hamilton's Quaternions_ ([ps](http://math.berkeley.edu/~lam/quat.ps))
 
