@@ -634,7 +634,7 @@ $$
 $$
 
 This is such that $ker(F_{\vec x}) = ker(H_{\vec x} - id)$
-and $coker(F_{\vec x}) = 0$, whence we indeed have a parametrized Fredholm operator whose index bundle is $ker(H_{\vec x} - id)$.
+and $coker(F_{\vec x}) = 0$, whence we indeed have a parametrized Fredholm operator whose [[index bundle]] is $ker(H_{\vec x} - id)$.
 \end{remark}
 
 \begin{remark}\label{InEquivariantKTheory}
