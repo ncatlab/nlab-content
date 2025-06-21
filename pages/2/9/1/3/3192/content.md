@@ -13,6 +13,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {:toc}
@@ -20,33 +21,33 @@
 
 ## Definition
 
-
 \begin{definition}\label{FredholmOperator}
-A [[continuous function|continuous]] [[linear operator]] $F \colon B_1\to B_2$ between [[Banach spaces]] is **Fredholm** if it has [[finite set|finite]] [[dimension|dimensional]] [[kernel]] and finite dimensional [[cokernel]]. 
+A [[bounded linear operator|bounded]] [[linear operator]] $F \colon B_1\to B_2$ between [[Banach spaces]] is **Fredholm** if it has [[finite set|finite]] [[dimension|dimensional]] [[kernel]] and finite dimensional [[cokernel]]. 
 \end{definition}
+(e.g. [Murphy 1990 p. 23](#Murphy90))
 
+\begin{remark}
+  Some (older) text may also require that the [[image]] of $F$ be [[closed subspace|closed]], but that is in fact implied by the cokernel of $F$ having finite dimension (cf. Prop. \ref{ImageIsClosed} below).
+Moreover, some (older) texts do not require $F$ to be bounded, but just ask that it be [[closed operator|closed]] with [[dense subset|dense]] [[domain]] of definition (e.g. [Schechter 1967 §1](#Schechter1967)). 
+\end{remark}
 
 \begin{definition}\label{FredholmIndex}
 The difference between the [[dimension of a vector space|dimensions]] of the kernel and the cokernel of a Fredholm operator $F$ is called its *[[index]]* (the *[[Fredholm index]]*) 
 
 $$
-  ind F \coloneqq dim (ker F) - dim (coker F) = dim (ker F) - codim (im F)
-  \,.
+  \begin{array}{ccl}
+  ind F 
+    &\coloneqq&
+  dim (ker F) - dim (coker F) 
+  \\
+    &=&
+  dim (ker F) - codim (im F)
+  \mathrlap{\,.}
+  \end{array}
 $$
 
 \end{definition}
 
-An equivalent characterization of Fredholm operators is the following:
-
-\begin{definition}\label{Parametrix}
-A **parametrix** of a [[bounded operator|bounded]] [[linear operator]] $F \colon \mathcal{H}_1 \to \mathcal{H}_2$ is a reverse operator $P \colon \mathcal{H}_2 \to \mathcal{H}_1$ which is an "[[inverse]] up to [[compact operators]]", i.e. such that $F \circ P - id_{\mathcal{H}_2}$ and $P \circ F - id_{\mathcal{H}_1}$ are both [[compact operators]].
-\end{definition}
-
-\begin{proposition}\label{FredholmViaParametrix}
-**([[Atkinson's theorem]])**
-\linebreak
-A [[bounded operator|bounded]] [[linear operator]] $ F \colon B_1\to B_2$ between [[Banach spaces]] is Fredholm, def. \ref{FredholmOperator} precisely it is has a parametrix, def. \ref{Parametrix}.
-\end{proposition}
 
 
 ## Examples
@@ -62,21 +63,62 @@ A [[bounded operator|bounded]] [[linear operator]] $ F \colon B_1\to B_2$ betwee
 
 ### General 
 
-+-- {: .num_prop }
-###### Proposition
+\begin{proposition}\label{ImageIsClosed}
+The [[image]] (range) of a Fredholm operator is [[closed subspace|closed]]. 
+\end{proposition}
+(cf. [Murphy 1990 Thm. 1.4.7](#Murphy90))
 
-The [[image]] (range) of a Fredholm operator is closed. 
 
-=--
+\begin{proposition}\label{SubspaceOfFredholmInNormTopology}
+The [[topological subspace]] $Fred(B_1,B_2)\subset B(B_1,B_2)$ of Fredholm operators (in the space of [[bounded linear operators]] equipped with the [[norm topology]]) is [[open subset|open]]. 
 
-+-- {: .num_prop }
-###### Proposition
+On this subspace with its [[subspace topology]], the Fredholm index (Def. \ref{FredholmIndex}) is a [[continuous map]].
+\end{proposition}
+([Murphy 1990 Thm. 1.4.17](#Murphy90))
 
-The [[subspace]] $Fred(B_1,B_2)\subset B(B_1,B_2)$ of Fredholm operators in the space of bounded linear operators with the [[norm topology]] is [[open subset|open]]. 
+\begin{remark}
+In other words, Prop. \ref{SubspaceOfFredholmInNormTopology} says that given a Fredholm operator $F$ then there exists a [[real number]] $\epsilon \gt 0$ such that every [[bounded linear operator]] $G$ with [[operator norm]] ${\Vert G - F \Vert} \lt \epsilon$ is itself Fredholm of the same index.
+\end{remark}
 
-=--
 
-  In other words, given a Fredholm operator $F$, there exists $\epsilon\gt 0$ such that every bounded linear operator $G$ satisfying $\| G-F\|\lt \epsilon$ is Fredholm. Fredholm operators on a fixed separable Hilbert space $H = B_1 = B_2$ form a [[semigroup]] with respect to the composition and the index is a [homomorphism]] of semigroups: $ind F G = ind F + ind G$. 
+\begin{proposition}\label{ClosureUnderComposition}
+For [[Banach spaces]] $B_1$, $B_2$, $B_3$ and Fredholm operators $F_1 \colon B_1 \longrightarrow B_2$ and $F_2 \colon B_2 \longrightarrow B_3$ 
+
+1. the [[composition|composite]] $F_2 \,\circ\, F_1 \colon B_1 \longrightarrow B_3$ is Fredholm
+
+1. with index (Def. \ref{FredholmIndex}) the sum of the indices of the factors:
+
+   $$
+     ind(F_2\circ F_1) 
+       \;=\;
+     ind(F_1) + ind(F_2)
+     \,.
+   $$
+
+\end{proposition}
+([Murphy 1990 Thm. 1.4.8](#Murphy90))
+
+\begin{remark}
+In other words, Prop. \ref{ClosureUnderComposition} says that Banach spaces with Fredholm operators between them form a [[semicategory]] on which the Fredholm index is a [[semifunctor]] to the [[delooping groupoid]] of the [[integers]]; hence the [[endomorphism|endomorphic]] Fredholm operators $F \colon B \longrightarrow B$ form a [[semigroup]] with the Fredholm index being a [[homomorphism]] of semigroups.
+\end{remark}
+
+
+### Via parametrices
+
+
+An equivalent characterization of Fredholm operators is the following:
+
+\begin{definition}\label{Parametrix}
+A **parametrix** of a [[bounded operator|bounded]] [[linear operator]] $F \colon \mathcal{H}_1 \to \mathcal{H}_2$ is a reverse bounded operator $P \colon \mathcal{H}_2 \to \mathcal{H}_1$ which is an "[[inverse]] up to [[compact operators]]", i.e. such that $F \circ P - id_{\mathcal{H}_2}$ and $P \circ F - id_{\mathcal{H}_1}$ are both [[compact operators]].
+\end{definition}
+
+\begin{proposition}\label{FredholmViaParametrix}
+**([[Atkinson's theorem]])**
+\linebreak
+A [[bounded operator|bounded]] [[linear operator]] $ F \colon B_1\to B_2$ between [[Banach spaces]] is Fredholm, def. \ref{FredholmOperator}, precisely if it admits a parametrix, def. \ref{Parametrix}.
+\end{proposition}
+(cf. [Murphy 1990 Thm. 1.4.16](#Murphy90))
+
 
 
 ### Relation to topological K-theory
@@ -190,13 +232,21 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 ## References
 
+
 Textbook accounts:
+
+* {#Murphy90} [[Gerard Murphy]]: §1.4 in: *$C^\ast$-algebras and Operator Theory*, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
 
 * [[William Arveson]], §3.3 of: *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) &lbrack;[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)&rbrack;
 
 Review:
 
-* [[Martin Schechter]]: *Basic theory of Fredholm operators*, Annali della Scuola Normale Superiore di Pisa - Scienze Fisiche e Matematiche, Serie 3, **21** 2 (1967) 261-280 &lbrack;[numdam:ASNSP_1967_3_21_2_261_0](https://www.numdam.org/item/ASNSP_1967_3_21_2_261_0)&rbrack;
+* {#Schechter1967} [[Martin Schechter]]: *Basic theory of Fredholm operators*, Annali della Scuola Normale Superiore di Pisa - Scienze Fisiche e Matematiche, Serie 3, **21** 2 (1967) 261-280 &lbrack;[numdam:ASNSP_1967_3_21_2_261_0](https://www.numdam.org/item/ASNSP_1967_3_21_2_261_0)&rbrack;
+
+* {#Jaffe} Ethan Y. Jaffe: *Atkinson’s Theorem* &lbrack;[pdf](https://r-grande.github.io/Expository/Atkinson%27s%20Theorem.pdf)&rbrack;
+  > (focus on [[Atkinson's theorem]])
+
+
 
 Discussion of the space of Fredholm operators as a [[classifying space]] for [[topological K-theory]]:
 
@@ -208,7 +258,7 @@ and variants that serve as classifying spaces also for [[twisted K-theory]] and 
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], §3 in: _Twisted K-theory_, Ukrainian Math. Bull. **1** 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
 
-* {#FreedHopkinsTeleman11} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], §A.5 in: *[[Loop Groups and Twisted K-Theory]] I*, J. Topology **4 (2011) 737-789  &lbrack;[arXiv:0711.1906](http://arxiv.org/abs/0711.1906), [doi:10.1112/jtopol/jtr019](https://doi.org/10.1112/jtopol/jtr019)&rbrack;
+* {#FreedHopkinsTeleman11} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], §A.5 in: *[[Loop Groups and Twisted K-Theory]] I*, J. Topology **4** (2011) 737-789  &lbrack;[arXiv:0711.1906](http://arxiv.org/abs/0711.1906), [doi:10.1112/jtopol/jtr019](https://doi.org/10.1112/jtopol/jtr019)&rbrack;
 
 
 
