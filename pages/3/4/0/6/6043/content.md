@@ -97,7 +97,7 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
      \vert \vec x\vert
        \;\coloneqq\;
      \sqrt{
-     \underoverset{i = 1}{n}{\sum}
+     \textstyle{\underoverset{i = 1}{n}{\sum}}
        (x_i)^2
      }
      \,.
@@ -106,7 +106,9 @@ The collection of (bounded) multiplicative seminorms on a ([[Banach space|Banach
 1. more generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the _[[p-norm]]_
 
    $$ 
-     {\vert \vec x \vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}} 
+     {\vert \vec x \vert}_p  
+       \;\coloneqq\; 
+     \root p {\textstyle{\sum_i} {|x_i|^p}} 
    $$
 
 1. The [[p-norm]] generalizes to [[sequence spaces]] and [[Lebesgue spaces]]. 
@@ -186,14 +188,13 @@ One could define $R$-seminorms, non-archimedean $R$-norms, and $R$-normed vector
 
 
 [[!redirects norms]]
+
 [[!redirects seminorm]]
 [[!redirects seminorms]]
 [[!redirects semi-norm]]
 [[!redirects semi-norms]]
 [[!redirects Minkowski functional]]
 [[!redirects Minkowski functionals]]
-[[!redirects normed vector space]]
-[[!redirects normed vector spaces]]
 
 [[!redirects normed vector space]]
 [[!redirects normed vector spaces]]
