@@ -57,7 +57,9 @@ See [[states]].
 
 Textbook:
 
-* [[Richard V. Kadison]], [[John R. Ringrose]], _Fundamentals of the theory of operator algebras_
+* [[Gert K. Pedersen]]: *Analysis Now*, Graduate Texts in Mathematics **118**, Springer (1989) &lbrack;[doi;10.1007/978-1-4612-1007-8](https://doi.org/10.1007/978-1-4612-1007-8)&rbrack;
+
+* [[Richard V. Kadison]], [[John R. Ringrose]]: _Fundamentals of the theory of operator algebras_
 
   * Vol I *Elementary Theory*, Graduate Studies in Mathematics **15**, AMS 1997 ([ISBN:978-0-8218-0819-1](https://bookstore.ams.org/gsm-15), [ZMATH] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0888.46039&format=complete))
 
