@@ -169,6 +169,8 @@ $$
 
 where $\mathbf{i} \in S\left( \mathbb{H}_{\mathrm{im}}\right)$ is any unit imaginary quaternion.
 
+(cf. [Lyons 2003 (3)](#Lyons03), [Treisman 2009 §4.2](#Treisman09))
+
 See also at *[[basic complex line bundle on the 2-sphere]]*, the section *[As an index bundle](basic+complex+line+bundle+on+the+2-sphere#AsAnIndexBundle)*.
 
 
@@ -321,12 +323,13 @@ The Hopf fibrations over other [[normed division algebras]] also figure in the m
 * [[Hopf construction in homotopy type theory]]
 
 
+
 ## References
   {#References}
 
 Original articles:
 
-* {#Hopf31} [[Heinz Hopf]], *Über die Abbildungen der dreidimensionalen Sphäre auf die Kugelfläche*, Mathematische Annalen **104**  (1931) 637–665 &lbrack;[doi:10.1007/BF01457962](https://doi.org/10.1007/BF01457962)&rbrack;
+* {#Hopf31} [[Heinz Hopf]]: *Über die Abbildungen der dreidimensionalen Sphäre auf die Kugelfläche*, Mathematische Annalen **104**  (1931) 637–665 &lbrack;[doi:10.1007/BF01457962](https://doi.org/10.1007/BF01457962)&rbrack;
 
 * {#Hopf35} [[Heinz Hopf]], *Über die Abbildungen von Sphären auf Sphäre niedrigerer Dimension*, Fundamenta Mathematicae **25** 1 (1935) 427-440 &lbrack;[eudml:212801](https://eudml.org/doc/212801)&rbrack;
 
@@ -341,7 +344,14 @@ Review:
 
 * {#GluckWarnerZiller86} [[Herman Gluck]], [[Frank Warner]], [[Wolfgang Ziller]], _The geometry of the Hopf fibrations_, L'Enseignement Math&eacute;matique, **32** (1986), 173-198 &lbrack;[ResearchGate](https://www.researchgate.net/publication/266548925_The_geometry_of_the_Hopf_fibrations), [[GluckWarnerZiller-HopfFibrations.pdf:file]]&rbrack;
 
-* _[Third homotopy group of the sphere and Hopf fibration](https://chiasme.wordpress.com/2014/01/04/third-homotopy-group-of-the-sphere-and-hopf-fibration/)_
+* {#Lyons03} David W. Lyons: *An Elementary Introduction to the Hopf Fibration*, Mathematics Magazine **76** 2 (2003) 87-98 &lbrack;[doi:10.2307/3219300](https://doi.org/10.2307/3219300), [jstor:3219300](https://www.jstor.org/stable/3219300), [arXiv:2212.01642](https://arxiv.org/abs/2212.01642)&rbrack;
+
+* {#Treisman09} Zachary Treisman: *A young person's guide to the Hopf fibration* &lbrack;[arXiv:0908.1205](https://arxiv.org/abs/0908.1205)&rbrack;
+
+* [[Niles Johnson]]: *A visualization of the Hopf fibration* (2011) &lbrack;[webpage](https://nilesjohnson.net/hopf.html), video: [YT](https://youtu.be/AKotMPGFJYk)&rbrack;
+
+
+* _[Third homotopy group of the sphere and Hopf fibration](https://chiasme.wordpress.com/2014/01/04/third-homotopy-group-of-the-sphere-and-hopf-fibration/)_ (2014)
 
 and via the [[Pontrjagin theorem]]:
 
