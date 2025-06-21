@@ -66,7 +66,7 @@ Proof for the [strong operator topology](UH#StrongOperatorTopology) on [[U(ℋ)]
 
 Direct proof for the [compact-open topology](UH#CompactOpenTopology) on [[U(ℋ)]]:
 
-* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Prop. A2.1 in: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
+* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Prop. A2.1 in: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
 
 Proof that the [compact-open topology](UH#CompactOpenTopology) agrees with the [strong operator topology](UH#StrongOperatorTopolgy) on [[U(ℋ)]], by which contractibility of the former follows from that of the latter:
 
