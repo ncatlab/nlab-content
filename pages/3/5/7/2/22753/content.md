@@ -2,10 +2,6 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Functional analysis
-+-- {: .hide}
-[[!include functional analysis - contents]]
-=--
 #### Operator algebra
 +-- {: .hide}
 [[!include AQFT and operator algebra contents]]
@@ -24,10 +20,29 @@
 
 ## Definition
 
-(...)
+\begin{definition}
+  For [[normed vector spaces]] $\big(V, {\Vert-\Vert_V}\big)$ and $\big(V, {\Vert-\Vert_W}\big)$ the *operator norm* $\Vert A \Vert$ of a [[bounded linear operator]] $A \,\colon\, V \longrightarrow W$ is the [[supremum]] of the norms of $A$-images of unit-norm vectors $v \in V$: 
+$$
+  {\Vert A \Vert}
+  \;\coloneqq\;
+  \underset{v \neq 0}{sup}
+  \frac{
+    {\Vert A(v) \Vert_W}
+  }{
+    {\Vert v \Vert_V}  
+  }
+  \;=\;
+  \underset{ {\Vert v \Vert_V} \leq 1 }{sup}
+  {\Vert A(v) \Vert_W}
+  \,.
+$$
+\end{definition}
+(cf. [Murphy 1990 Ex. 1.1.7](#Murphy90))
 
 
 ## Related concepts
+
+* [[norm topology]]
 
 * [[operator algebra]]
 
@@ -35,7 +50,11 @@
 
 ## References
 
-See also 
+In monographs on [[operator algebra]]:
+
+* {#Murphy90} [[Gerard Murphy]]: *$C^\ast$-algebras and Operator Theory*, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
+
+See also:
 
 * Wikipedia, *[Operator norm](https://en.wikipedia.org/wiki/Operator_norm)*
 
