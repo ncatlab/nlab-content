@@ -135,6 +135,14 @@ Typically one says "module object" to amplify a [[linear algebra|linear algebrai
 
 In some [[foundations of mathematics]], a _[[subset]]_ of a set $S$ is just a _[[predicate]]_, a function with domain $S$ and codomain the class of [[truth values]] $\Omega$.
 
+### Inclusions and monomorphisms
+
+An inclusion $f: A\xhookrightarrow{} B$ is just a [[monomorphism]] with a focus on considering $A$ as a [[subobject]] of $B$. Sometimes, there is also slight restriction on which monomorphisms can be considered to be inclusions, for example [[regular monomorphism]]s (see [[subobject]]); yet it is still a concept with an attitude.
+
+In a concrete category $C$ with associated [[forgetful functor]] $F: C \to Set$, the term "inclusion" is usually only used for a monomorphism $f: A \to B$ in $C$ when the material view of $f$ in $Set$ $F(f): F(A) \to F(B)$ induces a set inclusion $F(A) \subseteq F(B)$. However, since the set membership relation is extra structure (see [[structural set theory]] in contrast to [[material set theory]]), the membership relation $\in$ can always be defined *after* the monomorphism $f$ is chosen, in such a way that the injective set function $F(f)$ is in fact a set inclusion. For example, even though the open interval $(0, 1)$ and the real line $\mathbb{R}$ are isomorphic as topological spaces, some subspaces may be more concise to construct in one than the homeomorphic equivalent in the other; it us up to the author which set-representation of a continuous monomorphism $f: A \to (0, 1)$ or $f: A \to \mathbb{R}$ is considered to be the subspace inclusion. 
+
+Above, we have talked about how considering a monomorphism as an inclusion induces an attitude of viewing an object as a subobject. In reverse, the term "inclusion" for a clear subobject will specify the associated monomorphism.
+
 ### Q-categories 
 
 [[Q-categories]] are just [[coreflective subcategories]] in the setup in which they are used as a data for introducing generalizations of sheaves, monopresheaves (separated presheaves) and epipresheaves.
