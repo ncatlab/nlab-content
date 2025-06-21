@@ -19,16 +19,18 @@
 
 ## Idea
 
-This page is about unbounded [[linear operator]]s on [[Hilbert space]]s. For operators on Hilbert spaces, "bounded" and "continuous" are synonymous, so the first question to be answered is: Why consider unbounded, i.e., discontinuous operators in a category that is a [[subcategory]] of [[Top]]? The reason is simple: It is forced upon us both by applications, such as [[quantum mechanics]], and by the fact that simple and useful operators like differentiation are not bounded. Happily, in most applications the operators considered retain some sort of "limit property", namely the property of being "closed". Although that seems to be negligible compared to continuity, it allows the development of a rich and useful theory, and as a consequence there is a tremendous amount of literature devoted to this subject. 
+This page is about unbounded [[linear operators]] on [[Hilbert spaces]]. For operators on Hilbert spaces, "bounded" and "[[continuous linear map|continuous]]" are synonymous, so the first question to be answered is: Why consider unbounded, i.e., discontinuous operators in a category that is a [[subcategory]] of [[Top]]? The reason is simple: It is forced upon us both by applications, such as [[quantum mechanics]], and by the fact that simple and useful operators like differentiation are not bounded. Happily, in most applications the operators considered retain some sort of "limit property", namely the property of being "closed". Although that seems to be negligible compared to continuity, it allows the development of a rich and useful theory, and as a consequence there is a tremendous amount of literature devoted to this subject. 
 
-One way of dealing with unbounded operators is via [[affiliated operator]]s, see there.
+One way of dealing with unbounded operators is via *[affiliated operators](https://en.wikipedia.org/wiki/Affiliated_operator)*, see there.
 
 
-### Example: differentiation is unbounded
+\begin{example}\label{DifferentiationIsUnbounded}
+**(differentiation is unbounded**)
+\linebreak
+Let $\mathcal{H}$ denote the Hilbert space [[Lebesgue space|$L^2(\mathbb{R})$]] (of [[square integrable functions]]), and let $T$ be the [[differentiation]] operator defined on the dense subspace of [[Schwartz functions]] $f$ by $T f(x) \coloneqq f'(x)$. One might hope $T$ has a continuous extension to all of $L^2$, but consider the [[sequence]] $f_k(x) \coloneqq \exp(-k|x|)$ for $k \in \mathbb{N}$. Then we have $\frac{\|T f_k\|}{\|f_k\|} = k$, so $T$ is unbounded. 
+\end{example}
 
-Let $\mathcal{H}$ be the Hilbert space $L^2(\mathbb{R})$, and let $T$ be the differentiation operator defined on the dense subspace of Schwartz functions $f$ by $Tf(x) \coloneqq f'(x)$. One might hope $T$ has a continuous extension to all of $L^2$, but consider the sequence $f_k(x) := \exp(-k|x|)$ for $k \in \mathbb{N}$. Then we have $\frac{\|Tf_k\|}{\|f_k\|} = k$, so $T$ is unbounded. 
-
-Note that the domain of definition of an unbounded operator will generally be given only on a dense subspace, as in this example. Indeed, the existence of unbounded operators defined everywhere (on a Hilbert space) is non-[[constructive mathematics|constructive]], relying on the [[Hahn–Banach theorem]] and refutable in [[dream mathematics]].
+Note that the domain of definition of an unbounded operator will generally be given only on a [[dense subspace]], as in Ex. \ref{DifferentiationIsUnbounded}. Indeed, the existence of unbounded operators defined everywhere (on a Hilbert space) is non-[[constructive mathematics|constructive]], relying on the [[Hahn–Banach theorem]] and refutable in [[dream mathematics]].
 
 
 ## Summary
@@ -49,7 +51,7 @@ In particular every bounded operator $A: \mathcal{H} \to \mathcal{H}$ is an unbo
 
 Unbounded operators are not defined on the whole Hilbert space, so it is essential that, when talking about a specific unbounded operator, we are actually talking about the pair $(T, D_T)$ of an operator $T$ together with its domain $D_T$. In particular two unbounded operators $T, S$ are equal iff their domains are equal, $D_T = D_S$, and for all $x \in D_S=D_T$ we have $Tx = Sx$. 
 
-If the domain is not specified, the default definition of the domain of a given operator $T$ is simply $D_T := \{x \in \mathcal{H} \vert Tx \in \mathcal{H} \}$.
+If the domain is not specified, the default definition of the domain of a given operator $T$ is simply $D_T \coloneqq \{x \in \mathcal{H} \vert Tx \in \mathcal{H} \}$.
 
 **Warning:** if one composes two unbounded operators $T$ and $S$, it may happen that $D_T \cap D_S = \{0\}$. If we insist that all our unbounded operators are densely defined, we need as an additional assumption that $D_T \cap D_S$ is dense to make sense of the composite $T S$.
 
@@ -71,7 +73,7 @@ This is a corollary to the closed graph theorem III.2 in the book
 
 ### Closedness
 
-Recall that the graph of an operator $T$ (or any function, in general) is the subset $\mathcal{G}_T := \{(x, y) \in \mathcal{H} \times \mathcal{H} \vert Tx = y \}$. The graph of a given operator need not be closed (in the product topology of $\mathcal{H} \times \mathcal{H}$). The notion that will be a surrogate for continuity is "closable", defined as follows:
+Recall that the graph of an operator $T$ (or any function, in general) is the subset $\mathcal{G}_T \coloneqq \{(x, y) \in \mathcal{H} \times \mathcal{H} \vert Tx = y \}$. The graph of a given operator need not be closed (in the product topology of $\mathcal{H} \times \mathcal{H}$). The notion that will be a surrogate for continuity is "closable", defined as follows:
 
 * Definition: Given an operator T with domain $D_T$, any operator $T'$ with larger domain that is equal to $T$ on $D_T$ is called an **extension** of T, we write $T \subset T'$. 
 
@@ -155,7 +157,7 @@ In physics, one-parameter semigroups of this kind often represent the time evolu
 
 These two theorems are essential for the Schr&#246;dinger picture of quantum mechanics, which describes a system by the [[Schrödinger equation]], we have now a one-to-one correspondence of selfadjoint operators which can be seen as [[Hamilton operator]]s (only special operators will be seen as describing actual physical systems, of course), and semigroups which describe the time evolution generated by the [[Hamilton operator]]. 
 
-As a trivial observation we add that Stone's theorem is a (huge) generalization of the Taylor series, let $f: \mathbb{R} \to \mathbb{R}$ that is (real) analytic in a neighborhood of $0$, then we get for $x$ small enough:
+As a trivial observation we add that Stone's theorem is a (huge) generalization of the Taylor series, let $f \colon \mathbb{R} \to \mathbb{R}$ that is (real) analytic in a neighborhood of $0$, then we get for $x$ small enough:
 $$
 f(h) = \sum_{k=0}^{\infty} \frac{f^{n}(0)}{n!} h^n = \exp(i h(-i \frac{d}{dx} ))
 $$
