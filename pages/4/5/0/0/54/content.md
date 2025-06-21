@@ -60,6 +60,12 @@ Projects:
 
 > For the complete list of invited talks I have given, see [there](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
+* **[[schreiber:ItaCa Fest 2025|Geometric Orbifold Cohomology in Singular-Cohesive ∞-Topoi]]**
+
+  talk at *[ItaCa](https://progetto-itaca.github.io/)* *[Fest 2025](https://progetto-itaca.github.io/fests/fest25.html)* ([17 June 2025](https://progetto-itaca.github.io/fests/fest25.html#jun))
+
+  slides: [pdf](/schreiber/files/Schreiber-ItaCa+2025-06-17.pdf)
+
 * **[[schreiber:Rethinking Topological Quantum]]**
 
   lightning talk at *AI & Evolution Gathering* by [Softmax](https://www.softmax.com/) @ [The Royal Institution](https://www.rigb.org/) London (22 May 2025) 
