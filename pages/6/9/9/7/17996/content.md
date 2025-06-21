@@ -474,14 +474,14 @@ $$
 $$
 it follows that the [[basic complex line bundle on the 2-sphere]] is the [[associated bundle|associated]] [[complex line bundle]]
 $$
-  S(\mathbb{H}) \times_{\mathrm{U}(1)} \mathbb{C}
+  S^3 \times_{\mathrm{U}(1)} \mathbb{C}
   \;=\;
   \Big\{
-    (q,z) \in S(\mathbb{H}) \times \mathrm{U}(1)
+    (q,z) \in S(\mathbb{H}) \times \mathbb{C}
   \Big\}_{
     \big/\big( 
-      (q,z) \sim (q \alpha^{-1}, \alpha z)
-      \,\forall_{\alpha \in \mathrm{U}(1)}\,
+      (q,z) \sim (q \alpha^\ast, \alpha z)
+      \;\forall_{\alpha \in S(\mathbb{C})}\,
     \big)
   }
   \,.
@@ -502,7 +502,7 @@ As such, this is a [[subbundle]] of the [[trivial]] [[complex vector bundle]] of
   \right)
   \\
   S(\mathbb{H})
-  \times_{\mathrm{U}(1)}
+  \times_{S(\mathbb{C})}
   \mathbb{C}
   \ar[d]
   \ar[rr, hook]
