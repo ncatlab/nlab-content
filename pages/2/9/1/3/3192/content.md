@@ -99,7 +99,7 @@ For [[Banach spaces]] $B_1$, $B_2$, $B_3$ and Fredholm operators $F_1 \colon B_1
 ([Murphy 1990 Thm. 1.4.8](#Murphy90))
 
 \begin{remark}
-In other words, Prop. \ref{ClosureUnderComposition} says that Banach spaces with Fredholm operators between them form a [[semicategory]] on which the Fredholm index is a [[semifunctor]] to the [[delooping groupoid]] of the [[integers]]; hence the [[endomorphism|endomorphic]] Fredholm operators $F \colon B \longrightarrow B$ form a [[semigroup]] with the Fredholm index being a [[homomorphism]] of semigroups.
+In other words, Prop. \ref{ClosureUnderComposition} says that Banach spaces with Fredholm operators between them form a [[category]] on which the Fredholm index is a [[functor]] to the [[delooping groupoid]] of the [[integers]]; hence the [[endomorphism|endomorphic]] Fredholm operators $F \colon B \longrightarrow B$ form a [[monoid]] with the Fredholm index being a [[homomorphism]] of monoids.
 \end{remark}
 
 
