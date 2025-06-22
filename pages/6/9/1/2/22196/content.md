@@ -4,7 +4,7 @@
 
 \section{Overview}
 
-The physical existence of the [[HomePage|nLab]] is funded by donations (see [below](#Donate)) which are received via a mechanism handled by the [Topos Institute](https://topos.institute/), with the kind administrative help of [[Brendan Fong]].
+The physical existence of the [[HomePage|nLab]] is funded by donations (see [below](#Donate)) which are received via a mechanism handled by the [[Topos Institute]], with the kind administrative help of [[Brendan Fong]].
 
 The nLab's [[nlabmeta:technical board]] decides about how to use these funds for paying server rent and sysadmin services (see [further below](#Expenditures)).
 
@@ -15,7 +15,7 @@ The nLab's [[nlabmeta:technical board]] decides about how to use these funds for
 
 > {#DonationPause} **Update Nov 2024:** For technical reasons and since the $n$Lab is well-funded at the moment, the following **donation mechanism is paused until further notice**.
 
-If you like to support the $n$Lab financially, you are welcome to send a donation (a one-off fixed amount or a running monthly sum) through the following mechanism, kindly provided by the _[Topos Institute](https://topos.institute/)_ (thanks to [[Brendan Fong]]!):
+If you like to support the $n$Lab financially, you are welcome to send a donation (a one-off fixed amount or a running monthly sum) through the following mechanism, kindly provided by the _[[Topos Institute]]_ (thanks to [[Brendan Fong]]!):
 
 <center>
 <a href="https://topos.institute/contact">
