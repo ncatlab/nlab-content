@@ -87,8 +87,8 @@ The Wu manifold:
 
 ## References
 
-* {#Crowley11} Diarmuid Crowley, _5-manifolds: 1-connected_, In: _Bulletin of the Manifold Atlas_. 2011, p. 49–55, [pdf](http://www.boma.mpim-bonn.mpg.de/data/33print.pdf)
-* {#Debray} Arun Debray, _Characteristic classes_, [pdf](https://web.archive.org/web/20210107194324/https://web.ma.utexas.edu/users/a.debray/lecture_notes/u17_characteristic_classes.pdf)
+* {#Crowley11} Diarmuid Crowley, _5-manifolds: 1-connected_, In: _Bulletin of the Manifold Atlas_. 2011, p. 49–55, [pdf](https://web.archive.org/web/20241113202310/www.boma.mpim-bonn.mpg.de/data/33print.pdf)
+* {#Debray} Arun Debray, _Characteristic classes_, [pdf](https://adebray.github.io/lecture_notes/u17_characteristic_classes.pdf)
 
 See also:
 
