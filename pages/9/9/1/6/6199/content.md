@@ -80,7 +80,7 @@ Monograph:
 
 Exposition:
 
-* [[David Jaz Myers]], *[Categorical systems theory](https://topos.site/blog/2021/11/categorical-systems-theory/)*, [Topos Institute Blog](https://topos.site/blog/) (Nov 2021)
+* [[David Jaz Myers]], *[Categorical systems theory](https://topos.institute/blog/2021/11/categorical-systems-theory/)*, [[Topos Institute]] [Blog](https://topos.institute/blog/) (Nov 2021)
 
 * [[David Jaz Myers]], *Double Categories of Dynamical Systems* (2020) &lbrack;[pdf](http://davidjaz.com/Talks/DJM_Dyn2020.pdf)&rbrack;
 
