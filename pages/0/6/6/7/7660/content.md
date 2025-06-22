@@ -28,7 +28,7 @@ String bordism theory, $MString$, is [[bordism homology theory]] for [[manifolds
 
 ## References
 
-* [Manifold Atlas](http://www.map.mpim-bonn.mpg.de/Main_Page), _[String bordism](http://www.map.mpim-bonn.mpg.de/String_bordism)_
+* [Manifold Atlas](https://web.archive.org/web/20241113202449/http://www.map.mpim-bonn.mpg.de/Main_Page), _[String bordism](https://web.archive.org/web/20241113202449/http://www.map.mpim-bonn.mpg.de/String_bordism)_
 
 Discussion of relation to the [[Witten genus]]:
 
