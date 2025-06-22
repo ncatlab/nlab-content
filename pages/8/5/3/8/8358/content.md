@@ -113,6 +113,10 @@ This is due to ([Frey 2014](#Frey14))
 
 * Mat&#237;as Menni, Exact completions and toposes. Ph.D. Thesis, University of Edinburgh (2000). ([web](http://www.lfcs.inf.ed.ac.uk/reports/00/ECS-LFCS-00-424/)) 
 
+On [[domain theory]] in realizability toposes:
+
+* [[Wesley Phoa]], *Domain theory in realizability toposes*, author's thesis (Ph.D.)--Trinity College, Cambridge, November 1990.  
+
 A characterization of realizability toposes analogous to the [[Giraud axioms]] for [[Grothendieck toposes]] is given in 
 
 * {#Frey14} [[Jonas Frey]], _Characterizing partitioned assemblies and realizability toposes_ ([arXiv:1404.6997](http://arxiv.org/abs/1404.6997))
