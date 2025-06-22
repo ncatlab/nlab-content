@@ -43,7 +43,7 @@ On [[geometric logic]] [[internal logic|internal to]] [[Grothendieck toposes]]:
 
 ## Talks
 
-* [[Steve Vickers]], *The Fundamental Theorem of Calculus: point-free*, talk at the Topos Institute Colloquium, 30 May 2024 ([video](https://www.youtube.com/watch?v=L6LPEFteLts), [slides](https://topos.site/events/topos-colloquium/slides/2024-05-30.pdf))
+* [[Steve Vickers]], *The Fundamental Theorem of Calculus: point-free*, talk at the [[Topos Institute Colloquium]], 30 May 2024 ([video](https://www.youtube.com/watch?v=L6LPEFteLts), [slides](https://topos.site/events/topos-colloquium/slides/2024-05-30.pdf))
 
 category:people 
 
