@@ -13,7 +13,7 @@ On [[categorical algebra]], [[enriched categories]], and [[Grothendieck fibratio
 
 * [[Christina Vasilakopoulou]], _Enriched duality in double categories: V-categories and V-cocategories_. J. Pure Appl. Alg. __223__:7 (2019) 2889-2947 ([JPAA](https://www.sciencedirect.com/science/article/pii/S0022404918302433)) ([arXiv:1704.00329](https://arxiv.org/abs/1704.00329))
 
-* Christina Vasilakopoulou, _Dual algebraic structures and enrichment_, 55 min presentation at Topos institute, March 2023 [yt](https://www.youtube.com/watch?v=ymKvCz6W65o)
+* [[Christina Vasilakopoulou]], _Dual algebraic structures and enrichment_, 55 min presentation at the [[Topos Institute Colloquium]], March 2023 &lbrack;[slides](https://topos.institute/events/topos-colloquium/slides/2023-03-23.pdf), [video](https://www.youtube.com/watch?v=ymKvCz6W65o)&rbrack;
 
 * [[Mitchell Buckley]], [[Timmy Fieremans]], [[Christina Vasilakopoulou]], [[Joost Vercruysse]], _A Larson-Sweedler Theorem for Hopf V-Categories_ ([arXiv:1908.02049](https://arxiv.org/abs/1908.02049))
 
