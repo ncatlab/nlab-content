@@ -1,5 +1,3 @@
-[[!redirects fibrations of quasi-categories]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -467,11 +465,6 @@ Discussion in [[homotopy type theory]]:
 
 [[!redirects fibered (∞,1)-category]]
 [[!redirects fibered (∞,1)-categories]]
-
-
-
-[[!redirects fibration of quasi-categories]]
-
 
 [[!redirects fibration of quasi-categories]]
 [[!redirects fibrations of quasi-categories]]
