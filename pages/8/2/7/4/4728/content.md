@@ -335,7 +335,7 @@ See also:
 
 * Wikipedia: *[Genus g surface](https://en.wikipedia.org/wiki/Genus_g_surface)*
 
-* [[Manifold Atlas]], _[2-manifolds](www.map.mpim-bonn.mpg.de/2-manifolds)_
+* [[Manifold Atlas]], _[2-manifolds](https://web.archive.org/web/20250122090336/www.map.mpim-bonn.mpg.de/2-manifolds)_
 
 * [[Peter Andrews]]: *The Classification of Surfaces*, The American Mathematical Monthly **95** 9 (1988) 861-867 &lbrack;[doi:10.2307/2322906](https://doi.org/10.2307/2322906), [jstor:2322906](https://www.jstor.org/stable/2322906)&rbrack;
 
