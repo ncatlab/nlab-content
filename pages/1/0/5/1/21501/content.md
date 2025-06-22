@@ -120,9 +120,9 @@ we apply the above [[natural bijection]] on hom-sets to the case
 
 $$
   \array{
-    Hom( Dtplg(Cdfflg(Z)), Y )
+    Ho\Big( Dtplg\big(Cdfflg(Z)\big), Y\Big)
     &\simeq&
-    Hom(Cdfflg(Z), Cdfflg(Y))
+    Hom\big(Cdfflg(Z), Cdfflg(Y)\big)
     \\
     (\epsilon_Z)_s &\mapsto& (\mathrm{id})_s
   }
@@ -131,19 +131,21 @@ $$
 to find that the [[counit of the adjunction]]
 
 $$
-  Dtplg(Cdfflg(X))
+  Dtplg\big(Cdfflg(X)\big)
   \overset{\epsilon_X}{\longrightarrow}
   X
 $$
 
-is given by the [[identity function]] on the underlying sets $(\epsilon_X)_s = id_{(X_s)}$.
+is given by the [[identity function]] on the [[underlying sets]] $(\epsilon_X)_s = id_{(X_s)}$.
 
-Therefore $\eta_X$ is an [[isomorphism]], namely a [[homeomorphism]], precisely if the open subsets of $X_s$ with respect to the topology on $X$ are precisely those with respect to the topology on $Dtplg(Cdfflg(X))$, which means equivalently that the open subsets of $X$ coincide with those whose pre-images under all continuous functions $\phi \colon \mathbb{R}^n \to X$ are open. This means equivalently that $X$ is a D-topological space.
+Therefore $\eta_X$ is an [[isomorphism]], namely a [[homeomorphism]], precisely if the open subsets of $X_s$ with respect to the topology on $X$ are precisely those with respect to the topology on $Dtplg\big(Cdfflg(X)\big)$, which means equivalently that the open subsets of $X$ coincide with those whose pre-images under all continuous functions $\phi \colon \mathbb{R}^n \to X$ are open. This means equivalently that $X$ is a D-topological space.
 
 Finally, to see that we have an [[idempotent adjunction]], it is sufficient to check (by [this Prop.](idempotent+adjunction#EquivalentConditionsForIdempotency)) that the [[comonad]]
 
 $$
-  Dtplg \circ Cdfflg \;\colon\; TopologicalSpaces \to TopologicalSpaces
+  Dtplg \circ Cdfflg 
+    \;\colon\; 
+  TopologicalSpaces \longrightarrow TopologicalSpaces
 $$
 
 is an [[idempotent comonad]], hence that
