@@ -17,7 +17,7 @@
 
 ## Idea
 
-For a [[linear operator]] between [[Banach spaces]], compactness is a natural strengthening of [[bounded operator|continuity]] (boundedness). 
+For a [[linear operator]] between [[Banach spaces]], compactness is a natural strengthening of [[bounded operator|continuity]] ([[bounded linear operator|boundedness]]). 
 
 
 ## Definition
@@ -25,7 +25,7 @@ For a [[linear operator]] between [[Banach spaces]], compactness is a natural st
 A [[linear operator]] is **compact** if it sends [[bounded subspace|bounded subsets]] to [[relatively compact subset|relatively compact subsets]]. 
 
 \begin{remark}
-For linear operators on [[Hilbert spaces]], instead of *compact operators* one sometimes speaks of *completely continuous operators*. However, in the full generality of [[Banach spaces]], by a **completely continuous operator** one means slightly less: an operator that maps every [[weak convergence|weakly convergent]] sequence to a [[norm convergence|norm convergent]] sequence. For Hilbert spaces and, more generally, for [[reflexive Banach spaces]], the two notions are equivalent.
+For linear operators on [[Hilbert spaces]], instead of *compact operators* one sometimes speaks of *completely continuous operators*. However, in the full generality of [[Banach spaces]], by a **completely continuous operator** one means slightly less: an operator that maps every [[weak operator topology|weakly]] [[convergence of a sequence|convergent]] [[sequence]] to a [[norm topology|norm]] [[convergence of a sequence|convergent]] sequence. For Hilbert spaces and more generally for [[reflexive Banach spaces]], the two notions are equivalent.
 \end{remark}
 
 
