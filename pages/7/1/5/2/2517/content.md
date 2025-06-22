@@ -105,6 +105,10 @@ $$
 
 is an [[isomorphism]] of objects in $T$. Note that because the canonical morphism is also a homomorphism of $R$-algebras, and inverses of algebra homomorphisms are algebra homomorphisms, this gives an isomorphism of internal $R$-algebras.
 
+## Related concepts
+
+* [[synthetic quasi-coherence]]
+
 ## References
 
 The Kock-Lawvere axiom was introduced in
@@ -123,6 +127,3 @@ Textbook accounts are in
 [[!redirects Kock--Lawvere axiom]]
 [[!redirects Kock–Lawvere axiom]]
 [[!redirects Kock Lawvere axiom]]
-
-[[!redirects synthetic quasicoherence]]
-[[!redirects synthetic quasi-coherence]]
