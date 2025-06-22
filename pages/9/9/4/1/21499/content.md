@@ -16,7 +16,7 @@ It is by no means a comprehensive list, in strict alphabetic order.
 
 * [TallCats](https://compose.ioc.ee) -- the Compositional Systems and Methods group at TalTech University, Tallinn, Estonia.
 
-* [Topos institute](https://topos.institute) -- an "independent scientific institute devoted to fundamental inquiry that shapes the technologies of tomorrow".
+* [[Topos Institute]] ([home page](https://topos.institute)) -- an "independent scientific institute devoted to fundamental inquiry that shapes the technologies of tomorrow".
 
 
 * [YaMCATS](https://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/simona-paoli/yorkshire-and-midlands-category-theory-seminar-yamcats) -- the Yorkshire and Midlands Category Theory Seminar,  is a category theory research network between the universities of Birmingham, Leeds, Leicester and Sheffield. The network is partially funded by the London Mathematical Society.
