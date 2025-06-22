@@ -356,7 +356,7 @@ A comprehensive account of twisted K-theory with twists in $H^3(X, \mathbb{Z})$ 
 and for more general twists in 
 
 
-* {#FreedHopkinsTeleman11} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]]: *[[Loop Groups and Twisted K-Theory]] I*, J. Topology **4 (2011) 737-789  &lbrack;[arXiv:0711.1906](http://arxiv.org/abs/0711.1906), [doi:10.1112/jtopol/jtr019](https://doi.org/10.1112/jtopol/jtr019)&rbrack;
+* {#FreedHopkinsTeleman11} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]]: *[[Loop Groups and Twisted K-Theory]] I*, J. Topology **4** (2011) 737-789  &lbrack;[arXiv:0711.1906](http://arxiv.org/abs/0711.1906), [doi:10.1112/jtopol/jtr019](https://doi.org/10.1112/jtopol/jtr019)&rbrack;
 
 
 
