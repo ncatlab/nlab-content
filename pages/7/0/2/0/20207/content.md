@@ -23,7 +23,7 @@ On [[dynamical systems]] and their [[categorical systems theory]]:
 
 * {#Myers} [[David Jaz Myers]], *Categorical systems theory*, book project &lbrack;[github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book), [pdf](http://davidjaz.com/Papers/DynamicalBook.pdf)&rbrack;
 
-* [[David Jaz Myers]], *[Categorical systems theory](https://topos.site/blog/2021/11/categorical-systems-theory/)*, [Topos Institute Blog](https://topos.site/blog/) (Nov 2021)
+* [[David Jaz Myers]], *[Categorical systems theory](https://topos.institute/blog/2021/11/categorical-systems-theory/)*, [[Topos Institute]] [Blog](https://topos.institute/blog/) (Nov 2021)
 
 * [[David Jaz Myers]], *Double Categories of Dynamical Systems* (2020) &lbrack;[pdf](http://davidjaz.com/Talks/DJM_Dyn2020.pdf)&rbrack;
 
