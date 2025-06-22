@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _$B$-bordism_ is a [[cobordism]] $W$ equipped with extra "topological [[structure]]" with respect to _[[(B,f)-structure]]_, i.e.  in the form of a lift of the classifying map $W \to B O$ of its [[tangent bundle]]/[[stable normal bundle]] through some [[fibration]] $B \to B O$ over the [[classifying space]] of the [[orthogonal group]].
+A _$B$-bordism_ is a [[cobordism]] $W$ equipped with extra "topological [[structure]]" with respect to _[[(B,f)-structure]]_, i.e.  in the form of a lift of the classifying map $W \to B O$ of its [[tangent bundle]]/stable [[normal bundle]] through some [[fibration]] $B \to B O$ over the [[classifying space]] of the [[orthogonal group]].
 
 Commonly considered are lifts through the [[Whitehead tower]] of the [[orthogonal group]]), corresponding, in this order, to cobordisms with 
 
