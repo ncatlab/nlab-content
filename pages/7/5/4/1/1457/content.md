@@ -34,7 +34,9 @@ $$ d\colon X \times X \to [0, \infty) $$
 
 Given a metric space $(X, d)$ and a point $x \in X$, the __[[open ball]]__ centered at $x$ of radius $r$ is  
 $$ 
-  B_r(x) \coloneqq \{y \in X : d(x, y) \lt r\}
+  B_r(x) 
+   \;\coloneqq; 
+  \big\{ y \in X \,\big\vert\, d(x, y) \lt r \big\}
 $$ 
 and it may be shown that the open balls form a [[basis for a topology|basis]] for a [[topological structure|topology]] on $X$, the _[[metric topology]]_. In fact, metric spaces are examples of [[uniform spaces]], and much of the general theory of metric spaces, including for example the notion of [[complete space|completion]] of a metric space, can be extrapolated to uniform spaces and even [[Cauchy spaces]].
 
