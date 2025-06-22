@@ -22,7 +22,8 @@
 
 \begin{definition}
   For [[normed vector spaces]] $\big(V, {\Vert-\Vert_V}\big)$ and $\big(V, {\Vert-\Vert_W}\big)$ the *operator norm* $\Vert A \Vert$ of a [[bounded linear operator]] $A \,\colon\, V \longrightarrow W$ is the [[supremum]] of the norms of $A$-images of unit-norm vectors $v \in V$: 
-$$
+\[
+  \label{SupremumFormula}
   {\Vert A \Vert}
   \;\coloneqq\;
   \underset{v \neq 0}{sup}
@@ -35,10 +36,13 @@ $$
   \underset{ {\Vert v \Vert_V} \leq 1 }{sup}
   {\Vert A(v) \Vert_W}
   \,.
-$$
+\]
 \end{definition}
 (cf. [Murphy 1990 Ex. 1.1.7](#Murphy90))
 
+\begin{remark}
+  If $V$ is not the [[zero object|zero]] vector space, then the supremum in (eq:SupremumFormula) may equivalently be taken over the unit sphere ${\Vert v \Vert_V} = 1$, instead of the whole unit ball ${\Vert v \Vert_V} \leq 1$, but the latter makes sense also for the degenerate case that $V = 0$ which has no unit vectors.
+\end{remark}
 
 ## Related concepts
 
