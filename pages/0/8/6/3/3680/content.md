@@ -75,15 +75,15 @@ In more detail:
 
   limit-preserving: (no terminology introduced); 
 
-* [[Lurie]]'s *[[Higher Algebra]]*: 
+* [[Lurie]]'s *[[Higher Algebra]]* (page 13) and *[[Spectral Algebraic Geometry]]* (Section 0.5, page 60): 
 
   colimit-preserving: _left cofinal_; 
 
-  limit-preserving: _right cofinal_ (page 13); 
+  limit-preserving: _right cofinal_; 
 
-* [[Lurie]]'s *[[Kerodon]]*: 
+* [[Lurie]]'s *[[Kerodon]]* ([Tag 02N1](https://kerodon.net/tag/02N1)): 
  
-  colimit-preserving: _right cofinal_ ([Tag 02N1](https://kerodon.net/tag/02N1)); 
+  colimit-preserving: _right cofinal_; 
 
   limit-preserving ([[initial (∞,1)-functors]]): _left cofinal_.
 
