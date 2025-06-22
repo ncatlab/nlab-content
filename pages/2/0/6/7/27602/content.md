@@ -20,6 +20,8 @@ $$f(x) = f(\top) \wedge (x \vee f(\bot))$$
 
 In [[Pos]] the category of [[posets]] and [[monotonic functions]], Phoa's principle holds for the [[boolean domain]] $\mathbb{2}$. In [[synthetic Stone duality]], Phoa's principle holds for the [[type of propositions|type of]] [[open propositions]] $\mathrm{Open}$. In [[synthetic domain theory]], Phoa's principle holds for a [[dominance]] $\Omega$. 
 
+Phoa's principle is named after [[Wesley Phoa]]. 
+
 ## Related concepts
 
 * [[distributive lattice]]
@@ -37,6 +39,8 @@ In [[Pos]] the category of [[posets]] and [[monotonic functions]], Phoa's princi
 * [[synthetic quasi-coherence]]
 
 ## References
+
+* [[Wesley Phoa]], *Domain theory in realizability toposes*, author's thesis (Ph.D.)--Trinity College, Cambridge, November 1990.  
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
