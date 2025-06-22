@@ -327,10 +327,10 @@ The category, $Poly$, of one-variable polynomial functors on $Set$ and its appli
 
 Talks on polynomial functors are available at
 
-* _Workshop on Polynomial Functors_, Topos Institute,
+* _Workshop on Polynomial Functors_, [[Topos Institute]],
 15--19 March 2021. ([website](https://topos.site/p-func-2021-workshop/))
 
-* _Workshop on Polynomial Functors 2_, Topos Institute,
+* _Workshop on Polynomial Functors 2_, [[Topos Institute]],
 March 14–18, 2022. ([website](https://topos.site/events/p-func-workshop/))
 
 Monograph on polynomial functors in view of [[categorical systems theory]]:
