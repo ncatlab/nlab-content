@@ -2,9 +2,21 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
 #### $(0,1)$-Category theory
 +--{: .hide}
 [[!include (0,1)-category theory - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
 =--
 =--
 =--
@@ -34,7 +46,7 @@ Phoa's principle is named after [[Wesley Phoa]].
 
 * [[directed univalence]]
 
-* [[synthetic domain theory]]
+* [[domain theory]], [[synthetic domain theory]]
 
 * [[synthetic quasi-coherence]]
 
