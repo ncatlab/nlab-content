@@ -123,11 +123,11 @@ Lecture notes:
 
 * [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)), Lecture 3: _Thom's theorem_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf)),  Lecture 4 _Transversality_ (notes by I. Bobkova) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/4transversality.pdf))
 
-* {#Malkiewich11} [[Cary Malkiewich]], Section 3 of: _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
+* {#Malkiewich11} [[Cary Malkiewich]], Section 3 of: _Unoriented cobordism and $M O$_, 2011 ([pdf](https://people.math.binghamton.edu/malkiewich/cobordism.pdf))
 
 * Tom Weston, Part I of _An introduction to cobordism theory_ ([pdf](http://people.math.umass.edu/~weston/oldpapers/cobord.pdf)) 
 
 See also:
 
-* [[Manifold Atlas]], _[The Pontrjagin-Thom isomorphism](http://www.map.mpim-bonn.mpg.de/B-Bordism#The_Pontrjagin-Thom_isomorphism)_
+* [[Manifold Atlas]], _[The Pontrjagin-Thom isomorphism](https://web.archive.org/web/20250310110744/http://www.map.mpim-bonn.mpg.de/B-Bordism#The_Pontrjagin-Thom_isomorphism)_
 
