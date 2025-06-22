@@ -222,11 +222,11 @@ Lecture notes:
 
 * [[Gerald Höhn]], _Komplexe elliptische Geschlechter und $S^1$-&#228;quivariante Kobordismustheorie_ (german) ([pdf](http://arxiv.org/PS_cache/math/pdf/0405/0405232v1.pdf))
 
-* [[Sander Kupers]], _Oriented bordism: Calculation and application_ ([pdf](http://web.stanford.edu/~kupers/orientedbordism.pdf))
+* [[Sander Kupers]], _Oriented bordism: Calculation and application_ ([pdf](https://www.utsc.utoronto.ca/people/kupers/wp-content/uploads/sites/50/orientedbordism.pdf))
 
 Details for [[framed cobordism]]:
 
-* {#WangXu10} [[Guozhen Wang]], Zhouli Xu, section 2 of _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf))
+* {#WangXu10} [[Guozhen Wang]], Zhouli Xu, section 2 of _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](https://ncatlab.org/nlab/files/WangXuHomotopyGroupsOfSpheres2010.pdf))
 
 * {#Putnam} [[Andrew Putman]], _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf))
 
@@ -237,7 +237,7 @@ The relation to [[cohomotopy]] is made explicit in
 
 Further discussion of oriented cobordism includes
 
-* {#ManifoldAtlas} Manifold Atlas, _[Oriented bordism](http://www.map.mpim-bonn.mpg.de/Oriented_bordism)_
+* {#ManifoldAtlas} Manifold Atlas, _[Oriented bordism](https://web.archive.org/web/20241113162806/http://www.map.mpim-bonn.mpg.de/Oriented_bordism)_
 
 * {#ConnorFloyd62} P. E. Conner, E. E. Floyd, _Differentiable periodic maps_, Bull. Amer. Math. Soc. Volume 68, Number 2 (1962), 76-86. ([Euclid](http://projecteuclid.org/euclid.bams/1183524501), [pdf](http://www.maths.ed.ac.uk/~aar/papers/cf1.pdf))
 
