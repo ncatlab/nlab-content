@@ -29,6 +29,6 @@ The application of [[synthetic mathematics]] to [[probability theory]], related 
 
 * {#Simpson20} [[Alex Simpson]], _Synthetic probability theory_, talk at *Categorical Probability and Statistics* (2020) &lbrack;[[Simpson-SynthPropTheory.pdf:file]]&rbrack;
 
-* [[Alex Simpson]], *Three toposes for probability and randomness*, talk at the Topos Institute Colloquium, 6 June 2024 ([video](https://www.youtube.com/watch?v=Y1RkPhwJ0Mo), [slides](https://topos.site/events/topos-colloquium/slides/2024-06-06.pdf))
+* [[Alex Simpson]], *Three toposes for probability and randomness*, talk at the [[Topos Institute Colloquium]], 6 June 2024 ([video](https://www.youtube.com/watch?v=Y1RkPhwJ0Mo), [slides](https://topos.site/events/topos-colloquium/slides/2024-06-06.pdf))
 
 
