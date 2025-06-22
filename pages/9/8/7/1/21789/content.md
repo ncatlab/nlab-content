@@ -61,7 +61,9 @@ In terms of [[bundle gerbes]] on [[differentiable stacks]]:
 
 General definition in terms of [[equivariant function|equivariant]] [[sections]] of [[equivariant bundles]] of [equivariant classifying spaces](equivariant+K-theory#ReferencesRepresentingSpectrum) for [[equivariant K-theory]]:
 
-* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Section 6 of: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
+* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Section 6 of: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
+  > (beware of the false claim in [AS04 p 39](#AtiyahSegal04) that [[U(H)|$U(\mathcal{H})$]] in the [[compact open topology]] is not a [[topological group]], corrected by [Schottenloher 2013](UH#Schottenloher13), [Espinoza & Uribe 2014](UH#EspinozaUribe14), going back to [Schottenloher 1995](UH#Schottenloher95))
+
 
 * {#Cantarero09} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, Thesis 2009 ([ubctheses:1.0068026](https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0068026), [[CantareroEquivariantKTheory.pdf:file]])
 
