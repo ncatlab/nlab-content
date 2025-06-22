@@ -425,8 +425,7 @@ The idea of equivariant [[topological K-theory]] and the [[Atiyah-Segal completi
 
 * {#Segal68} [[Graeme Segal]], *Equivariant K-theory*, Inst. Hautes Etudes Sci. Publ. Math.  **34** (1968) 129-151 &lbrack;[numdam:PMIHES_1968__34__129_0](http://www.numdam.org/item/PMIHES_1968__34__129_0)&rbrack;
 
-* {#SegalAtiyah69} [[Michael Atiyah]], [[Graeme Segal]], _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1&#8211;18. 
-([euclid:jdg/1214428815](https://projecteuclid.org/euclid.jdg/1214428815), MR 0259946)
+* {#SegalAtiyah69} [[Michael Atiyah]], [[Graeme Segal]], _Equivariant K-theory and completion_, J. Differential Geometry 3 (1969), 1-18 &lbrack;[euclid:jdg/1214428815](https://projecteuclid.org/euclid.jdg/1214428815), MR 0259946&rbrack;
  
 and for [[algebraic K-theory]] to
 
@@ -540,6 +539,8 @@ That $G$-equivariant [[topological K-theory]] is [[representable functor|represe
 * {#Matumoto71} Takao Matumoto, _Equivariant K-theory and Fredholm operators_, J. Fac. Sci. Tokyo **18** (1971/72) 109-112 &lbrack;[pdf](https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_action_common_download&item_id=39826&item_no=1&attribute_id=19&file_no=1), [[MatumotoEquivariantKTheory.pdf:file]]&rbrack;
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Sec. 6 and Corollary A3.2 in: *Twisted K-theory*, Ukrainian Math. Bull. **1** 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
+  > (beware of the false claim in [AS04 p 39](#AtiyahSegal04) that [[U(H)|$U(\mathcal{H})$]] in the [[compact open topology]] is not a [[topological group]], corrected by [Schottenloher 2013](UH#Schottenloher13), [Espinoza & Uribe 2014](UH#EspinozaUribe14), going back to [Schottenloher 1995](UH#Schottenloher95))
+
 
 * {#LueckOliver01} [[Wolfgang Lück]], [[Bob Oliver]], Section 1 of: _Chern characters for the equivariant K-theory of proper G-CW-complexes_, In: Aguadé J., Broto C., Casacuberta C. (eds.) _Cohomological Methods in Homotopy Theory_, Progress in Mathematics **196**, Birkhäuser (2001) &lbrack;[doi:10.1007/978-3-0348-8312-2_15](https://doi.org/10.1007/978-3-0348-8312-2_15)&rbrack;
 
