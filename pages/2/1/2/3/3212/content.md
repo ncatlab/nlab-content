@@ -2,6 +2,8 @@
 
 * [website](http://www.dspivak.net/)
 
+* [institute website](https://topos.institute/people/david-spivak/)
+
 ## Selected writings
 
 On [[derived smooth manifolds]]:
@@ -54,6 +56,8 @@ and via [[polynomial functors]]:
 * [[derived smooth manifold]]
 
 * [[relation between quasi-categories and simplicial categories]]
+
+* [[Topos Institute]]
 
 category: people
 
