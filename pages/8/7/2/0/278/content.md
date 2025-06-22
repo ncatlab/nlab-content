@@ -199,7 +199,7 @@ Lecture notes:
  
 Introductions with an eye towards applications in ([[mathematical physics|mathematical]])[[physics]], specifically to [[gravity]] and [[gauge theory]]:
 
-* [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377), [website](http://www.math.ucsd.edu/~tfrankel/) with errata and preface for 3rd edition)&rbrack;
+* [[Theodore Frankel]]: _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012) &lbrack;[doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377), [website](http://www.math.ucsd.edu/~tfrankel/) with errata and preface for 3rd edition&rbrack;
 
 * [[Chris Isham]]: *[[Modern Differential Geometry for Physicists]]*, Lecture Notes in Physics **61**, World Scientific  (1999, 2001) &lbrack;[doi:10.1142/0894](https://doi.org/10.1142/0894), [pdf](https://cdn.preterhuman.net/texts/science_and_technology/physics/Mathematical_Physics/Modern%20Differential%20Geometry%20for%20Physicists%202nd%20ed.,%20-%20C.%20Isham.pdf), [pdf](https://homepages.uc.edu/~herronda/Diff_Geometry/DG4physics.pdf)&rbrack;
 
