@@ -21,6 +21,7 @@ In the study of [[computability]], [[descriptive set theory]], etc, by _Baire sp
 
 The [[continuous functions]] from Baire space to itself serve the role of _computable functions_ in [[computable analysis]]. See at _[[computable function (analysis)]]_.
 
+The Baire space is homeomorphic to the space of [[irrational numbers]], considered as a subspace of the [[real numbers]] equipped with its usual [[Euclidean topology]]. See [[continued fraction]] for discussion of this point. 
 
 ## Related concepts
 
