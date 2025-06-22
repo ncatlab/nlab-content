@@ -1,4 +1,4 @@
-> This page is about density of manifolds. For density in category theory, see [[dense functor]].
+> This page is about densities on manifolds. For density in category theory, see [[dense functor]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
