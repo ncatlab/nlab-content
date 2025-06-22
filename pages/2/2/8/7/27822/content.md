@@ -7,7 +7,8 @@
 
 On [[domain theory]] in [[realizability topoi]]:
 
-* [[Wesley Phoa]], *Domain theory in realizability toposes*, author's thesis (Ph.D.)--Trinity College, Cambridge, November 1990.  
+* [[Wesley Phoa]]: *Domain theory in realizability toposes*, PhD thesis, Trinity College, Cambridge (November 1990) &lbrack;[lfcs:91/ECS-LFCS-91-171](https://www.lfcs.inf.ed.ac.uk/reports/91/ECS-LFCS-91-171), [pdf](https://www.lfcs.inf.ed.ac.uk/reports/91/ECS-LFCS-91-171/ECS-LFCS-91-171.pdf)&rbrack;
+
 
 ## Related entries
 
