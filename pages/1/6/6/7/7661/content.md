@@ -20,7 +20,7 @@
 
 ## References
 
-* [Manifold Atlas](http://www.map.mpim-bonn.mpg.de/Main_Page), _[Spin bordism](http://www.map.mpim-bonn.mpg.de/Spin_bordism)_
+* [Manifold Atlas](https://web.archive.org/web/20241113183734/http://www.map.mpim-bonn.mpg.de/Main_Page), _[Spin bordism](https://web.archive.org/web/20241113183732/http://www.map.mpim-bonn.mpg.de/Spin_bordism)_
 
 
 [[!redirects Spin bordism]]
