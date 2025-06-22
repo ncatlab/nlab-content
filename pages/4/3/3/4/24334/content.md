@@ -67,7 +67,7 @@ In addition, simplicial type theory comes with a designated [[bounded total orde
 
 * $\mathbb{I}$ is [[tiny object|tiny]]: the heterogeneous  [[path space]] [[modality]] $\prod_{i:\mathbb{I}} (-)(i)$ has an [[amazing right adjoint]] $(-)^{1/\mathbb{I}}$. 
 
-* a [[Kock-Lawvere axiom|Kock-Lawvere]]-esque synthetic quasi-coherence [[duality]] axiom: let $A$ be a finitely presented $\mathbb{I}$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\mathbb{I}[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I})$ be the type of $\mathbb{I}$-algebra homomorphisms. Then the following function is an [[equivalence of types]]
+* a [[synthetic quasi-coherence]] [[duality]] axiom for $\mathbb{I}$: let $A$ be a finitely presented $\mathbb{I}$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\mathbb{I}[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I})$ be the type of $\mathbb{I}$-algebra homomorphisms. Then the following function is an [[equivalence of types]]
 
 $$\lambda a.\lambda f.f(a):A \to (\mathrm{hom}_{\mathbb{I}\mathrm{Alg}}(A, \mathbb{I}) \to \mathbb{I})$$
 
