@@ -63,7 +63,7 @@ For the moment see at _[[volume conjecture]]_.
 
 See also
 
-* [[Manifold Atlas]], _[Hyperbolic 3-manifolds](http://www.map.mpim-bonn.mpg.de/index.php/Hyperbolic_3-manifolds)_
+* [[Manifold Atlas]], _[Hyperbolic 3-manifolds](https://web.archive.org/web/20241114032727/http://www.map.mpim-bonn.mpg.de/index.php/Hyperbolic_3-manifolds)_
 
 * Wikipedia, _[Hyperbolic 3-manifold](https://en.wikipedia.org/wiki/Hyperbolic_3-manifold)_
 
