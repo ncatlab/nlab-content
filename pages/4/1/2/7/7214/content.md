@@ -307,13 +307,67 @@ such that the canonical [[shape modality]] (the [[shape via cohesive path ∞-gr
 \end{imagefromfile}
 
 
+## Examples
+
+\begin{example}\label{DtopologyOfSmoothManifolds}
+  Given a [[smooth manifold]] $(X,sm_X)$ --- hence a [[topological space]] $X$ equipped with a [[smooth structure]] $sm_X$ ---  canonically regarded as a [[diffeological space]], then its D-topology (eq:DeltaGeneratedSpacesInIdempotentAdjunction) coincides with its ordinary topology:
+$$
+  Dtplg(X,sm_X) \,\simeq\, X
+  \,.
+$$
+\end{example}
+(cf. [CSW 2013 Ex 3.2 (1)](#CSW13))
+
+\begin{remark}
+  Together with the [[adjunction]] of Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces}, Ex. \ref{DtopologyOfSmoothManifolds} implies that for $(X,sm_X)$ a [[smooth manifold]] and $\mathcal{A}$ a general topological space, there is a [[natural bijection]] between
+
+1. morphisms of [[diffeological spaces]]$\;(X,sm_X) \longrightarrow Cdfflg(\mathcal{A})$,
+
+1. [[continuous maps]]$\;X \longrightarrow \mathcal{A}$,
+
+
+because
+
+$$
+  \begin{array}{rcll}
+    Hom\big(
+      (X,sm_X)
+      ,\,
+      Cdfflg(\mathcal{A})
+    \big)
+    &\simeq&
+    Hom\big(
+      Dtplg(X,sm_X)
+      ,\,
+      \mathcal{A}
+    \big)
+    &
+    \text{by adjunction}
+    \\
+    &\simeq&
+    Hom\big(
+      X
+      ,\,
+      \mathcal{A}
+    \big)
+    &
+    \text{by the example.}
+  \end{array}
+$$
+
+\end{remark}
+
+\linebreak
 
 
 ## Related concepts
 
+* [[compactly generated topological space]]
+
+* [[convenient category of topological spaces]]
+
 * [[Euclidean-generated ∞-groupoid]]
 
-* [[compactly generated topological space]]
 
 ## References
 
@@ -356,7 +410,7 @@ Relation to [[diffeological spaces]]:
 
 * {#SYH10} [[Kazuhisa Shimakawa]], K. Yoshida, [[Tadayuki Haraguchi]], _Homology and cohomology via enriched bifunctors_, Kyushu Journal of Mathematics, 2018 Volume 72 Issue 2 Pages 239-252 ([arXiv:1010.3336](https://arxiv.org/abs/1010.3336), [doi:10.2206/kyushujm.72.239]( https://doi.org/10.2206/kyushujm.72.239))
 
-* {#CSW13} [[J. Daniel Christensen]], [[Gord Sinnamon]], [[Enxin Wu]], Sec. 3.2 of: _The $D$-topology for diffeological spaces_, Pacific Journal of Mathematics 272 (1), 87-110, 2014 ([arXiv:1302.2935](http://arxiv.org/abs/1302.2935), [doi:10.2140/pjm.2014.272.87](https://msp.org/pjm/2014/272-1/p04.xhtml))
+* {#CSW13} [[J. Daniel Christensen]], [[Gord Sinnamon]], [[Enxin Wu]], Sec. 3.2 of: _The $D$-topology for diffeological spaces_, Pacific Journal of Mathematics **272**  1 (2014) 87-110 &lbrack;[arXiv:1302.2935](http://arxiv.org/abs/1302.2935), [doi:10.2140/pjm.2014.272.87](https://msp.org/pjm/2014/272-1/p04.xhtml)&rbrack;
 
 
 [[!redirects Delta-generated topological spaces]]
