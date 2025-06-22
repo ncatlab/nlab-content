@@ -34,6 +34,6 @@ etc.
 
 ## References
 
-* [[Manifold Atlas]], _[B-Bordism](http://www.map.mpim-bonn.mpg.de/B-Bordism)_
+* [[Manifold Atlas]], _[B-Bordism](https://web.archive.org/web/20250310110744/http://www.map.mpim-bonn.mpg.de/B-Bordism)_
 
 [[!redirects B-bordisms]]
