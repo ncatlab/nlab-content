@@ -183,21 +183,26 @@ Early discussion in relation to [[PU(ℋ)]]:
 
 * {#Simms70} [[David John Simms]], *Topological aspects of the projective unitary group*, Math. Proc. Camb. Phil. Soc. **68** 1 (1970) 57-60  ([doi:10.1017/S0305004100001043](https://doi.org/10.1017/S0305004100001043))
 
+Proof that $U(\mathcal{H})$ is a topological group in the [[strong operator topology]]:
+
+* {#Schottenloher95} [[Martin Schottenloher]], Thm. 3.2 in: *Geometrie und Symmetrie in der Physik -- Leitmotiv der Mathematischen Physik*, Springer (1995) &lbrack;[doi:10.1007/978-3-322-89928-6](https://doi.org/10.1007/978-3-322-89928-6), [pdf](https://www.mathematik.uni-muenchen.de/~schotten/bas/Geometrie%20und%20Symmetrie.pdf)&rbrack; 
+
+* {#Schottenloher08} [[Martin Schottenloher]], Prop. 3.11 in: *A Mathematical Introduction to Conformal Field Theory*, Lecture Notes in Physics **759**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-68628-6](https://link.springer.com/book/10.1007/978-3-540-68628-6), [web](https://www.mathematik.uni-muenchen.de/~schotten/LNP-cft-pdf/)&rbrack;
+
 Proof that the the weak- and strong- [[operator topologies]] agree on $U(\mathcal{H})$:
 
 * {#HilgertNeeb93} [[Joachim Hilgert]], [[Karl-Hermann Neeb]], Cor. 9.4 in: *Lie Semigroups and their Applications*. Lecture Notes in Mathematics **1552**, Springer (1993) &lbrack;[doi:10.1007/BFb0084640](https://link.springer.com/book/10.1007/BFb0084640)&rbrack;
 
-
 Proof that weak-, strong- as well as the [[compact-open topology]] all agree on $U(\mathcal{H})$:
 
-* {#Schottenloher13} [[Martin Schottenloher]], _The Unitary Group In Its Strong Topology_ ([arXiv:1309.5891](https://arxiv.org/abs/1309.5891)), Advances in Pure Mathematics **08** 05 (2018) ([doi:10.4236/apm.2018.85029](https://www.scirp.org/html/4-5301487_84967.htm))
+* {#Schottenloher13} [[Martin Schottenloher]]: _The Unitary Group In Its Strong Topology_, Advances in Pure Mathematics **08** 05 (2018) &lbrack;[doi:10.4236/apm.2018.85029](https://www.scirp.org/html/4-5301487_84967.htm), [arXiv:1309.5891](https://arxiv.org/abs/1309.5891)&rbrack;
 
-* {#EspinozaUribe14} [[Jesus Espinoza]], [[Bernardo Uribe]], _Topological properties of the unitary group_, JP Journal of Geometry and Topology **16** 1 (2014) 45-55 ([arXiv:1407.1869](https://arxiv.org/abs/1407.1869), [journal](http://www.pphmj.com/abstract/8730.htm))
+* {#EspinozaUribe14} [[Jesus Espinoza]], [[Bernardo Uribe]]: _Topological properties of the unitary group_, JP Journal of Geometry and Topology **16** 1 (2014) 45-55 &lbrack;[arXiv:1407.1869](https://arxiv.org/abs/1407.1869), [journal](http://www.pphmj.com/abstract/8730.htm)&rbrack;
 
-Previous influential but wrong claim that they do not:
+Previous influential but wrong claim that they do not and that the compact open topology does not even make a topological group:
 
-* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], Appendix of: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
-  > This paper made the mistake of assuming that because various topologies were distinct on $GL(\mathcal{H})$, they remain distinct on $U(\mathcal{H})$.
+* {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], p. 39 & appendix of: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
+  > (This paper made the mistake of assuming that because various topologies were distinct on $GL(\mathcal{H})$, they remain distinct on $U(\mathcal{H})$.)
 
 Further properties:
 
