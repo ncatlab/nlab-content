@@ -24,7 +24,7 @@ On [[first-order set theory]] and [[categorical logic]]:
 
 ## Talks
 
-* [[Alex Simpson]], *Three toposes for probability and randomness*, talk at the Topos Institute Colloquium, 6 June 2024 ([video](https://www.youtube.com/watch?v=Y1RkPhwJ0Mo), [slides](https://topos.site/events/topos-colloquium/slides/2024-06-06.pdf))
+* [[Alex Simpson]], *Three toposes for probability and randomness*, talk at the [[Topos Institute Colloquium]], 6 June 2024 ([video](https://www.youtube.com/watch?v=Y1RkPhwJ0Mo), [slides](https://topos.site/events/topos-colloquium/slides/2024-06-06.pdf))
 
 On [[probability theory]] in [[topos theory]]:
 
