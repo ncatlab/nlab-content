@@ -93,7 +93,7 @@ Suppose $x$ is in $[0, 1]$. By assumption, there is $F$ such that $F' = f$. By t
 
 * [[Steve Vickers]], *The Fundamental Theorem of Calculus point-free, with applications to exponentials and logarithms*, ([arXiv:2312.05228](https://arxiv.org/abs/2312.05228))
 
-* [[Steve Vickers]], *The Fundamental Theorem of Calculus: point-free*, talk at the Topos Institute Colloquium, 30 May 2024 ([video](https://www.youtube.com/watch?v=L6LPEFteLts), [slides](https://topos.site/events/topos-colloquium/slides/2024-05-30.pdf))
+* [[Steve Vickers]], *The Fundamental Theorem of Calculus: point-free*, talk at the [[Topos Institute Colloquium]], 30 May 2024 ([video](https://www.youtube.com/watch?v=L6LPEFteLts), [slides](https://topos.site/events/topos-colloquium/slides/2024-05-30.pdf))
 
 [[!redirects fundamental theorem of calculus]]
 [[!redirects fundamental theorems of calculus]]
