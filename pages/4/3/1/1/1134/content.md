@@ -295,7 +295,7 @@ Discussion from the point of view of [[functorial geometry]]:
 
 * [[Claudio Carmeli]], Lauren Caston, [[Rita Fioresi]], _Mathematical Foundations of Supersymmetry_, EMS Series of Lectures in Mathematics Volume: 15; 2011; 263 pp; ( [ISBN:978-3-03719-097-5](https://bookstore.ams.org/emsserlec-15/), [arXiv:0710.5742](https://arxiv.org/abs/0710.5742))
 
-* {#HohnholdSolzTeichner11} [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]]: *Super manifolds: an incomplete survey*, Bulletin of the Manifold Atlas (2011) 1-6 &lbrack;[webpage](http://www.map.mpim-bonn.mpg.de/Super_manifolds:_an_incomplete_survey), [pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Survey-Journal.pdf), [[HST11-SupermanifoldsIncomplete.pdf:file]]&rbrack;
+* {#HohnholdSolzTeichner11} [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]]: *Super manifolds: an incomplete survey*, Bulletin of the Manifold Atlas (2011) 1-6 &lbrack;[webpage](https://web.archive.org/web/20241113101731/http://www.map.mpim-bonn.mpg.de/Super_manifolds:_an_incomplete_survey), [pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Survey-Journal.pdf), [[HST11-SupermanifoldsIncomplete.pdf:file]]&rbrack;
 
 * [[Henning Hohnhold]], [[Matthias Kreck]], [[Stephan Stolz]], [[Peter Teichner]], Sections 2-3 of: _Differential forms and 0-dimensional supersymmetric field theories_, Quantum Topology **2** 1 (2011) 1–41 &lbrack;[doi:10.4171/QT/12](http://dx.doi.org/10.4171/QT/12), [pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/DimZero.pdf)&rbrack;
 
