@@ -13,9 +13,9 @@
 =--
 =--
 
-This page provides a hyperlinked index for the book
+This page is to record the reference:
 
-* [[Theodore Frankel]]:
+* [[Theodore Frankel]]
 
   \linebreak
 
@@ -27,9 +27,9 @@ This page provides a hyperlinked index for the book
 
   [doi:10.1017/CBO9781139061377](https://doi.org/10.1017/CBO9781139061377) 
 
-  [website](http://www.math.ucsd.edu/~tfrankel/) with errata and preface for 3rd edition)
+  [website](http://www.math.ucsd.edu/~tfrankel/) (with errata and preface for 3rd edition)
 
-on methods of [[differential geometry]] and their meaning and use in [[physics]], especially [[gravity]] and [[gauge theory]].
+on methods of [[differential geometry]] and their meaning and use in [[physics]], especially for [[gravity]] and [[gauge theory]].
 
 Among the nice aspects of the book are
 
