@@ -431,7 +431,7 @@ Monographs:
 
 * [[Philippe Di Francesco]], Pierre Mathieu, David Sénéchal: *Conformal field theory*, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-2256-9](https://doi.org/10.1007/978-1-4612-2256-9)&rbrack;
 
-* [[Martin Schottenloher]], *A Mathematical Introduction to Conformal Field Theory*, Lecture Notes in Physics **759**, Springer 2008 ([doi:10.1007/978-3-540-68628-6](https://link.springer.com/book/10.1007/978-3-540-68628-6), [web](https://www.mathematik.uni-muenchen.de/~schotten/LNP-cft-pdf/))
+* [[Martin Schottenloher]]: *A Mathematical Introduction to Conformal Field Theory*, Lecture Notes in Physics **759**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-68628-6](https://link.springer.com/book/10.1007/978-3-540-68628-6), [web](https://www.mathematik.uni-muenchen.de/~schotten/LNP-cft-pdf/)&rbrack;
 
 See also:
 
