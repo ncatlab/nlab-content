@@ -19,10 +19,10 @@ _Twisted K-theory_ is a [[twisted cohomology]] version of ([[topological K-theor
 
 The most famous twist is by a class in degree 3 [[ordinary cohomology]] (geometrically a $U(1)$-[[bundle gerbe]] or [[circle 2-group]]-[[principal 2-bundle]]), but there are various other twists. 
 
+
 ## Definition 
 
 ### By sections of associated $K U$-bundles
-
 
 Write [[KU]] for the [[spectrum]] of complex [[topological K-theory]]. Its degree-0 space is, up to [[weak homotopy equivalence]],  the space 
 
@@ -339,6 +339,7 @@ and is expanded on in:
 * {#FreedHopkinsTeleman02} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], Diagram (2.6) in: _Twisted equivariant K-theory with complex coefficients_, Journal of Topology, Volume 1, Issue 1, 2007 ([arXiv:math/0206257](https://arxiv.org/abs/math/0206257), [doi:10.1112/jtopol/jtm001](https://doi.org/10.1112/jtopol/jtm001))
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], _Twisted K-theory_, Ukrainian Math. Bull. **1** 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
+  > (beware of the false claim in [AS04 p 39](#AtiyahSegal04) that [[U(H)|$U(\mathcal{H})$]] in the [[compact open topology]] is not a [[topological group]], corrected by [Schottenloher 2013](UH#Schottenloher13), [Espinoza & Uribe 2014](UH#EspinozaUribe14), going back to [Schottenloher 1995](UH#Schottenloher95))
 
 * [[Peter May]], [[Johann Sigurdsson]], Section 22.3 of: _[[Parametrized Homotopy Theory]]_,  Mathematical Surveys and Monographs, vol. 132, AMS 2006 ([ISBN:978-0-8218-3922-5](https://bookstore.ams.org/surv-132), [arXiv:math/0411656](https://arxiv.org/abs/math/0411656), [pdf](http://www.math.uchicago.edu/~may/EXTHEORY/MaySig.pdf))
 
