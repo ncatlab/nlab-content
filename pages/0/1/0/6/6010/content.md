@@ -417,7 +417,7 @@ Lecture notes:
 
 * Rodolfo De Sapio, _Embedding $\pi$-manifolds_, Annals of mathematics, Second Series, Vol 82, No 2 ([jstor](http://www.jstor.org/pss/1970642))
 
-* [[Manifold Atlas]], _[Embeddings in Euclidean space: an introduction to their classification](http://www.map.mpim-bonn.mpg.de/Embeddings_in_Euclidean_space:_an_introduction_to_their_classification)_
+* [[Manifold Atlas]], _[Embeddings in Euclidean space: an introduction to their classification](https://web.archive.org/web/20241114020154/http://www.map.mpim-bonn.mpg.de/Embeddings_in_Euclidean_space:_an_introduction_to_their_classification)_
 
 Discussion of embeddings of [[spheres]] into each other (generalizing the concept of [[knots]]):
 
