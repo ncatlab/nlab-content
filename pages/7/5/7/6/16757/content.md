@@ -91,16 +91,15 @@ Original articles include
 
 Textbook accounts include
 
-* {#Durfee79} Alan H. Durfee, _Fifteen characterizations of rational double points and simple critical points_, L'Enseignement Mathématique Volume: 25 (1979) ([doi:10.5169/seals-50375](http://dx.doi.org/10.5169/seals-50375), [pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/durfee15.pdf))
+* {#Durfee79} Alan H. Durfee: *Fifteen characterizations of rational double points and simple critical points*, L'Enseignement Mathématique **25** (1979) &lbrack;[doi:10.5169/seals-50375](http://dx.doi.org/10.5169/seals-50375), [pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/durfee15.pdf)&rbrack;
 
-* {#Slodowy80} [[Peter Slodowy]], _Simple singularities and simple algebraic groups_, in Lecture Notes in Mathematics 815, Springer, Berlin, 1980.
+* {#Slodowy80} [[Peter Slodowy]]: *Simple singularities and simple algebraic groups*, Lecture Notes in Mathematics **815**, Springer (1980) &lbrack;[doi:10.1007/BFb0090294](https://doi.org/10.1007/BFb0090294)&rbrack;
 
-* {#Lamotke86} [[Klaus Lamotke]], chapter IV of _Regular Solids and Isolated Singularities_, Vieweg, Braunschweig, Wiesbaden 1986.
+* {#Lamotke86} [[Klaus Lamotke]], chapter IV of: *Regular Solids and Isolated Singularities*, Advanced Lectures in Mathematics, Vieweg (1986) &lbrack;[doi:10.1007/978-3-322-91767-6](https://doi.org/10.1007/978-3-322-91767-6)&rbrack;
 
 
-* {#Reid87} [[Miles Reid]], _Young persons guide to canonical singularities, in [[Spencer Bloch]] (ed.), _[Algebraic geometry -- Bowdoin 1985, Part 1](https://www.ams.org/books/pspum/046.1/)_, Proc. Sympos. Pure Math. 46 Part 1, Amer. Math. Soc., Providence, RI, 1987, pp. 345-414 ([pdf](http://www.maths.ed.ac.uk/cheltsov/quotient/pdf/reid3.pdf))
-
-  (The last formula on page 409 has a typo: there should be no $r$ in the [[denominator]].)
+* {#Reid87} [[Miles Reid]]: *Young persons guide to canonical singularities*, in [[Spencer Bloch]] (ed.), _[Algebraic geometry -- Bowdoin 1985, Part 1](https://www.ams.org/books/pspum/046.1/)_, Proc. Sympos. Pure Math. **46** Part 1, Amer. Math. Soc. (1987) 345-414 &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/cheltsov/quotient/pdf/reid3.pdf)&rbrack;
+  > (The last formula on page 409 has a typo: there should be no $r$ in the [[denominator]].)
 
 Discussion of [[resolution of singularities|resolution]] of ADE-singularities in terms of [[hyper-Kähler geometry]]:
 
