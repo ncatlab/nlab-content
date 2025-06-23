@@ -96,7 +96,7 @@ $$
        &&
      \downarrow^{\mathrlap{ Fib_{E_2}([\gamma]) }}
      \\
-     p_1^{-1}(y) &\underset{f\vert_{\{y\}}}{\longrightarrow}& p_2^{-1}(\{y\})
+     p_1^{-1}(y) &\underset{f\vert_{\{y\}}}{\longrightarrow}& p_2^{-1}(y)
   }
   \,.
 $$
