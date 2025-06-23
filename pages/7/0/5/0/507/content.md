@@ -22,9 +22,9 @@ This page is to record the reference:
 
   Oxford University Press (2002)
 
-  Volume 1: [ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259)
+  Volume 1: [ISBN:9780198534259](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198534259) 562 pages
                   
-  Volume 2: [ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982)
+  Volume 2: [ISBN:9780198515982](https://global.oup.com/academic/product/sketches-of-an-elephant-9780198515982) 716 pages
 
   Volume 3: (long announced, yet to be published)
 
