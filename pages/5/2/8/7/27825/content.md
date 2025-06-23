@@ -11,6 +11,8 @@ Let $(X,\rightarrow)$ be an [[abstract rewriting system]], i.e., a [[set]] equip
 
 * [[confluent category]]
 
+* [[Church-Rosser theorem]] 
+
 ## References
 
 * Franz Baader, Tobias Nipkow: _Term Rewriting and All That_, Cambridge University Press (1998)  &lbrack;[doi:10.1017/CBO9781139172752](https://doi.org/10.1017/CBO9781139172752)&rbrack;
