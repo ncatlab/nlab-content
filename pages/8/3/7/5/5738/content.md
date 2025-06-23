@@ -38,10 +38,20 @@ $$
 For [[multivector fields]] regarded as “[[antifields]]” in [[BV-BRST formalism]], the Schouten bracket is called the _[[antibracket]]_.
 
 
-## Applications
+## Examples
 
-Suppose $P\in\Gamma(\Lambda^2 TM)$.
-The the bracket $\{f,g\}=\langle d f\wedge d g,P\rangle$ satisfies the [[Jacobi identity]] (and hence is a [[Poisson bracket]]) if and only if $[P,P]=0$.
+
+\begin{example}\label{PoissonStructures}
+**(Poisson structures)**
+\linebreak
+Given a [[smooth manifold]] $X$ and a [[bivector]] $\pi \in\Gamma(\Lambda^2 T X)$, then the [[binary operation]] on [[smooth functions]] $f,g \in C^\inft(X)$ given by [[tensor contraction]] of $\pi$ with the [[wedge product]] of their [[de Rham differentials]]
+$$
+  \{f,g\}
+  \,\coloneqq\,
+  \langle \mathrm{d}f \wedge \mathrm{d}g,\, \pi \rangle
+$$ 
+satisfies the [[Jacobi identity]] and hence is a [[Poisson bracket]] if and only if $\pi$ has vanishing Schouten bracket with itself, $[\pi, \pi] = 0$.
+\end{example}
 
 ## Related concepts
 
