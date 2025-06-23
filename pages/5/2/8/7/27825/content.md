@@ -29,6 +29,8 @@ Of course, for every $x$ there is *some* normal $y$ for which $x \rightarrow^{*}
 Now suppose $x \rightarrow^{*} t$ and $x \rightarrow^{*} t'$ for normal $t, t'$. By confluence, there is some $u$ such that $t \rightarrow^{*} u$ and $t' \rightarrow^{*} u$. By normality of $t, t'$, we have $t = u = t'$, establishing uniqueness. 
 \end{proof} 
 
+With a little extra care, the word "confluent" in the proposition can be replaced by "locally confluent", in the sense of [[locally confluent relation]]. 
+
 ## Related concepts
 
 * [[locally confluent relation]]
