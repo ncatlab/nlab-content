@@ -87,11 +87,12 @@ consisting of a  [[smooth manifold]] $X$ and a symplectic 2-form $\omega$, is a 
 =--
 
 ### $n=1$: Poisson manifold 
+ {#PoissonManifolds}
 
 For a [[Poisson manifold]] $X$ with Poisson bivector $\pi \in \Gamma(T X) \wedge \Gamma(T X)$ the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{a})$ of the corresponding [[Poisson Lie algebroid]] 
 
 $$
-  \mathfrak{a} := \mathfrak{P}(X,\pi)
+  \mathfrak{a} \coloneqq \mathfrak{P}(X,\pi)
 $$
 
 is that of multi-vector fields on $X$, equipped with the differential $d_{CE(\mathfrak{a})} = [\pi, -]_{Sch}$ given by the [[Schouten bracket]].
@@ -103,7 +104,7 @@ $$
   \,.
 $$
 
-The Poisson tensor is $\nu := \pi = \pi^{i j} \partial_i \wedge \partial_j$ and that this is a [[∞-Lie algebra cohomology|Lie algebroid cocycle]] is the fact that
+The Poisson tensor is $\nu \coloneqq \pi = \pi^{i j} \partial_i \wedge \partial_j$ and that this is a [[∞-Lie algebra cohomology|Lie algebroid cocycle]] is the fact that
 
 $$
   d_{CE(\mathfrak{a})} \pi = [\pi,\pi]_{Sch} = 0
