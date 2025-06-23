@@ -135,6 +135,10 @@ The [[Kock-Lawvere axiom]] is the axiom of synthetic quasi-coherence for Artinia
 [[!redirects synthetic quasicoherence axiom]]
 [[!redirects synthetic quasi-coherence axiom]]
 
+[[!redirects SQC]]
+[[!redirects axiom SQC]]
+[[!redirects SQC axiom]]
+
 [[!redirects SQCI]]
 [[!redirects axiom SQCI]]
 [[!redirects SQCI axiom]]
