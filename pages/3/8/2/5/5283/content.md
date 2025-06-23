@@ -36,7 +36,9 @@ In suitable contexts, multivector fields on $X$ can be identified with the [[Hoc
 
 ### Schouten bracket
 
-There is a canonical bilinear pairing on multivector fields called the [[Schouten bracket]].
+There is a canonical bilinear pairing on multivector fields called the [[Schouten bracket]]. This makes mutlivector fields into a [[Gerstenhaber algebra]]. (Cf. [Roger 2009 §2.3.1](#Roger09), [VYL11 appd. A](#VYL11).)
+
+
 
 ### Isomorphisms with de Rham complex
 
@@ -101,7 +103,12 @@ and in section 2 of
 
 and on p. 6 of 
 
-* [[Claude Roger]], _Gerstenhaber and Batalin-Vilkovisky algebras_, Archivum mathematicum, Volume 45 (2009), No. 4 ([pdf](http://www.emis.de/journals/AM/09-4/roger.pdf))
+* {#Roger09} [[Claude Roger]]: _Gerstenhaber and Batalin-Vilkovisky algebras_, Archivum mathematicum, [**45** (2009) 4](https://www.emis.de/journals/AM/09-4/) &lbrack;[abstract](https://www.emis.de/journals/AM/09-4/roger.html), [pdf](http://www.emis.de/journals/AM/09-4/roger.pdf)&rbrack;
+
+See also:
+
+* {#VYL11} Joris Vankerschaver, Hiroaki Yoshimura, Melvin Leok, appendix A of: *On the Geometry of Multi-Dirac Structures and Gerstenhaber Algebras*, J. Geom. Phys. **61** 8 (2011) 1415-1425 &lbrack;[arXiv:1102.2835](https://arxiv.org/abs/1102.2835), [doi:10.1016/j.geomphys.2011.03.005](https://doi.org/10.1016/j.geomphys.2011.03.005)&rbrack;
+
 
 An exposition of multivector fields and their use in Lagrangian and Hamiltonian theories:
 
