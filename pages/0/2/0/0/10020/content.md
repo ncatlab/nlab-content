@@ -60,7 +60,6 @@ The original article on the CS/WZW correspondence is
 More details worked out:
 
 * [[Daniel C. Cabra]], [[Gerardo L. Rossini]], *Explicit connection between conformal field theory and 2+1 Chern-Simons theory*, Mod. Phys. Lett. A **12** (1997) 1687-1697 &lbrack;[arXiv:hep-th/9506054](https://arxiv.org/abs/hep-th/9506054), [doi:10.1142/S0217732397001722](https://doi.org/10.1142/S0217732397001722)&rbrack;
-
   > (with motivation from [[Laughlin wavefunctions]] for [[anyons]] in [[condensed matter theory]])
 
 
@@ -71,7 +70,7 @@ Reviews:
 
 * {#Witten96} [[Edward Witten]], section 2 of _Five-Brane Effective Action In M-Theory_ J. Geom. Phys. 22: 103-133, 1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
 
-The relation of this $CS_3/WZW_2$-duality to the [[AdS-CFT correspondence]] is discussed in
+The relation of this $CS_3/WZW_2$-duality to the [[AdS-CFT correspondence]];
 
 * {#GukovMartinecMooreStrominger04} [[Sergei Gukov]], [[Emil Martinec]], [[Gregory Moore]], [[Andrew Strominger]], _Chern-Simons Gauge Theory and the $AdS_3/CFT_2$ Correspondence_, in: [[Mikhail Shifman]] et al.  (eds.) _From fields to strings_, vol. 2, 1606-1647, 2004 ([arXiv:hep-th/0403225](https://arxiv.org/abs/hep-th/0403225))
  
@@ -151,6 +150,9 @@ See also
 * Soumangsu Chakraborty, [[Amit Giveon]], [[David Kutasov]]: *Effective $AdS_3/CFT_2$* \[<a href="https://arxiv.org/abs/2501.09119">arXiv:2501.09119</a>\]
 
 * [[Lorenz Eberhardt]], [[Matthias R. Gaberdiel]]: *A localising $AdS_3$ sigma model* \[<a href="https://arxiv.org/abs/2505.09226">arXiv:2505.09226</a>\]
+
+* Giorgio Belleri, [[Matthias R. Gaberdiel]]: 
+*D-Branes in $Ads_3 \times S^3 \times S^3 \times S^1$* &lbrack;[arXiv:2506.15776](https://arxiv.org/abs/2506.15776)&rbrack;
 
 
 
