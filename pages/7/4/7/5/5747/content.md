@@ -206,14 +206,22 @@ And so on. Then a $\mathrm{Set}$-small semi-simplicial type (i.e. infinity-semi-
 
 * [[semi-simplicial topological space]]
 
+
+
 ## References
 
-* {#EilenbergZilber50} [[Samuel Eilenberg]], [[Joseph Zilber]], *Semi-Simplicial Complexes and Singular Homology*, *Annals of Mathematics* vol. 51 no. 3 (1950), 499--513 ([jstor:1969364](https://www.jstor.org/stable/1969364))
+### General
 
-* [[Daniel Kan]], *Is an ss complex a css complex?*, Advances in Mathematics
-Volume 4, Issue 2, April 1970, Pages 170-171 (<a href="https://doi.org/10.1016/0001-8708(70)90021-6">doi:10.1016/0001-8708(70)90021-6</a>)
+* {#EilenbergZilber50} [[Samuel Eilenberg]], [[Joseph Zilber]], *Semi-Simplicial Complexes and Singular Homology*, *Annals of Mathematics* vol. 51 no. 3 (1950), 499--513 ([jstor:1969364](https://www.jstor.org/stable/1969364))
+  > (in the context of [[singular homology]])
+
+* [[Klaus Lamotke]]: *Semisimpliziale Algebraische Topologie*, Grundlehren der Mathematischen Wissenschaften **147**, Springer (1968) \[<a href="https://doi.org/10.1007/978-3-662-12988-3">doi:10.1007/978-3-662-12988-3</a>\]
+  > (as a general approach to [[algebraic topology]])
+
+* [[Daniel Kan]], *Is an ss complex a css complex?*, Advances in Mathematics **4** 2 (1970) 170-171 &lbrack;<a href="https://doi.org/10.1016/0001-8708(70)90021-6">doi:10.1016/0001-8708(70)90021-6</a>&rbrack;
 
 *  {#RourkeSanderson71} [[Colin Rourke]],  [[Brian Sanderson]], _&#916;-Sets I: Homotopy Theory_. The Quarterly Journal of Mathematics 22: 321&#8211;338 (1971) ([doi:10.1093/qmath/22.3.321](https://doi.org/10.1093/qmath/22.3.321), [pdf](http://www.maths.ed.ac.uk/~aar/papers/deltars.pdf))
+
 
 * S. Buoncristiano, [[Colin Rourke]], [[Brian Sanderson]], _A geometric approach to Homology Theory_, LMS Lect. Notes 18, (1976)
 
