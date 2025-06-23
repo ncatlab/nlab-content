@@ -1103,6 +1103,10 @@ original articles:
 
 * [[Curtis Callan]], Alberto Guijosa, Konstantin G. Savvidy, Oyvind Tafjord, _Baryons and Flux Tubes in Confining Gauge Theories from Brane Actions_, Nucl. Phys. B555 (1999) 183-200 ([arxiv:hep-th/9902197](https://arxiv.org/abs/hep-th/9902197))
 
+* Francesco Bigazzi, Aldo Lorenzo Cotrone, Andrea Olzi, Jean-Loup Raymond: *Holographic Baryons as Quantum Hall Droplets* &lbrack;[arXiv:2506.16205](https://arxiv.org/abs/2506.16205)&rbrack;
+  > (relation to [[quantum Hall systems]])
+
+
 Review:
 
 * {#Yi09} [[Piljin Yi]], _Holographic Baryons_ ([arXiv:0902.4515](https://arxiv.org/abs/0902.4515), [doi:10.1142/9789814280709_0016](https://www.worldscientific.com/doi/abs/10.1142/9789814280709_0016)), Chapter 16 in: [[Mannque Rho]], [[Ismail Zahed]] (eds.) _[[The Multifaceted Skyrmion]]_, World Scientific 2016 ([doi:10.1142/9710](https://doi.org/10.1142/9710))
