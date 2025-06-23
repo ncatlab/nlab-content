@@ -34,7 +34,7 @@ On [[higher spin gauge theory]]:
 
 * [[Matthias Gaberdiel]], [[Rajesh Gopakumar]], _String Theory as a Higher Spin Theory_, J. High Energ. Phys. (2016) 2016: 85 ([arXiv:1512.07237](https://arxiv.org/abs/1512.07237), <a href="https://doi.org/10.1007/JHEP09(2016)085">doi:10.1007/JHEP09(2016)085</a>)
 
-On [[AdS/CFT]] for $AdS_3/CFT_2$:
+On [[AdS3/CFT2 duality]]:
 
 * Shouvik Datta, [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], _Stringy $\mathcal{N} = (2,2)$ holography for $AdS_3$_ JHEP 1801 (2018) 146 ([arXiv:1709.06393](https://arxiv.org/abs/1709.06393))
 
@@ -45,6 +45,9 @@ On [[AdS/CFT]] for $AdS_3/CFT_2$:
 * {#EberhardtGaberdielGopakumar19} [[Lorenz Eberhardt]], [[Matthias Gaberdiel]], [[Rajesh Gopakumar]], _Deriving the $AdS_3/CFT_2$ Correspondence_ ([arXiv:1911.00378](https://arxiv.org/abs/1911.00378))
 
 * [[Lorenz Eberhardt]], [[Matthias R. Gaberdiel]]: *A localising $AdS_3$ sigma model* \[<a href="https://arxiv.org/abs/2505.09226">arXiv:2505.09226</a>\]
+
+* Giorgio Belleri, [[Matthias R. Gaberdiel]]: 
+*D-Branes in $Ads_3 \times S^3 \times S^3 \times S^1$* &lbrack;[arXiv:2506.15776](https://arxiv.org/abs/2506.15776)&rbrack;
 
 
 
