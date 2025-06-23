@@ -73,7 +73,11 @@ Monographs:
 
 * [[William S. Massey]], *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)) 
 
-* {#Maunder70} [[C. R. F. Maunder]], *Algebraic Topology*, Cambridge University Press, Cambridge (1970, 1980) $[$[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/maunder.pdf)$]$
+* [[Klaus Lamotke]]: *Semisimpliziale Algebraische Topologie*, Grundlehren der Mathematischen Wissenschaften **147**, Springer (1968) \[<a href="https://doi.org/10.1007/978-3-662-12988-3">doi:10.1007/978-3-662-12988-3</a>\]
+  > (via [[semisimplicial sets]])
+
+
+* {#Maunder70} [[C. R. F. Maunder]], *Algebraic Topology*, Cambridge University Press, Cambridge (1970, 1980) $[$[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/maunder.pdf)\]
 
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975 ([doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6))
 
