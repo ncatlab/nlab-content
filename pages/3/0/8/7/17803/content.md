@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _smooth Serre-Swan theorem_ ([Nestruev 03, 11.33](#Nestruev03)) states that over a [[smooth manifold]] $X$, 
+The _smooth Serre-Swan theorem_ ([Nestruev 02, 11.33](#Nestruev02)) states that over a [[smooth manifold]] $X$, 
 
 1. the [[section]] [[functor]]
 
@@ -30,11 +30,11 @@ The _smooth Serre-Swan theorem_ ([Nestruev 03, 11.33](#Nestruev03)) states that 
 
    that sends [[smooth vector bundles]] (with fibers of uniformly bounded dimension) over $X$ of [[finite number|finite]] [[rank]] to their [[spaces of sections|spaces of]] smooth [[sections]], regarded as [[modules]] over the [[algebra of functions|algebra of]] [[smooth functions]] on $X$, is a [[fully faithful functor]]
    
-   ([Nestruev 03, theorem 11.29](#Nestruev03));
+   ([Nestruev 02, theorem 11.29](#Nestruev02));
 
 1. its [[essential image]] consists precisely of the [[finitely generated object|finitely generated]] [[projective modules]] 
 
-   ([Nestruev 03, 11.32](#Nestruev03)).
+   ([Nestruev 02, 11.32](#Nestruev02)).
 
 This is the variant for [[differential geometry]] of what the [[Serre-Swan theorem]] asserts in [[algebraic geometry]] and in [[topology]]. 
 
@@ -74,7 +74,7 @@ A third fact in this vein is that _[[derivations of smooth functions are vector 
 
 ## References
 
-* {#Nestruev03} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (2002, 2020) &lbrack;[doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), ISBN:0-387-95543-7, <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">pdf</a>&rbrack;
+* {#Nestruev02} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (2002, 2020) &lbrack;ISBN:0-387-95543-7, [doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), [book webpage](https://diffiety.mccme.ru/books/nestrspr.htm),  <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">pdf</a>&rbrack;
 
 Variant for [[Hilbert space]]-bundles over [[Riemannian manifolds]]:
 
