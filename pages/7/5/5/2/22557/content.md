@@ -1,5 +1,14 @@
 
+Reymond Laflamme (19602025)
+
+* [personal page](https://laflamme.iqc.uwaterloo.ca/)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Raymond_Laflamme)
+
+* [inSpire page](https://inspirehep.net/authors/1001289)
+
+* [GoogleScholar page](https://scholar.google.de/citations?user=UBusZfYAAAAJ&hl=en)
+
 
 ## Selected writings
 
