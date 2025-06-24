@@ -96,8 +96,9 @@ For the case of Hilbert bundles, see
 
 A general account of Serre-Swan-type theorems over [[ringed spaces]] is in 
 
-* {#Morye} [[Archana Morye]], _Note on the Serre-Swan Theorem_ ([arXiv:0905.0319](http://arxiv.org/abs/0905.0319))
- 
+* [[Archana S. Morye]], _Note on the Serre‐Swan theorem_, Mathematische Nachrichten 286:2-3 (2013), 272-278.  [arXiv:0905.0319](http://arxiv.org/abs/0905.0319), [doi](https://doi.org/10.1002/mana.200810263).
+
+* {#Morye} [[Archana S. Morye]], _The Serre-Swan Theorem for Ringed Spaces_, Analytic and Algebraic Geometry (2017), 207-223, Springer.  [doi](https://doi.org/10.1007/978-981-10-5648-2_13).
 
 A textbook account on the use of the theorem in [[K-theory]] is for instance
 
