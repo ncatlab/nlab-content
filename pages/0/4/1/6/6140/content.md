@@ -23,10 +23,10 @@ An __operator topology__ is an abbreviation of a __[[topology]] on a space of (c
 
 There are many widely used topologies, some with standard names. Let $L(V,W) = Hom_{TVS}(V,W)$ be the set of continuous linear operators. 
 
-* __weak operator topology__ on $L(V,W)$ is given by the basis of open neighborhoods of zero given by sets of the form $U(x,f) = \{A\in L(V,W) : |f(A(x)) \lt 1 \} $ where $x\in V$ and $f\in W^* = Hom_{TVS}(W,k)$. A sequence $(A_n)$ converges to $A$ in weak operator topology iff the sequence $(A_n(x))$ converges to $A(x)$ in the weak topology on $W$. We write $A_n\stackrel{w}\longrightarrow A$ or $w-lim A_n = A$. 
+* __weak operator topology__ on $L(V,W)$ is given by the basis of open neighborhoods of zero given by sets of the form $U(x,f) = \big\{A\in L(V,W)  \,\big|\, f(A(x)) \lt 1 \big\} $ where $x\in V$ and $f\in W^* = Hom_{TVS}(W,k)$. A sequence $(A_n)$ converges to $A$ in weak operator topology iff the sequence $(A_n(x))$ converges to $A(x)$ in the weak topology on $W$. We write $A_n\stackrel{w}\longrightarrow A$ or $w-lim A_n = A$. 
 
 * __strong operator topology__: the basis of neighborhoods of zero is given by sets 
-$N(x,U) = \{A\in L(V,W) \,|\, A v \in U\}$, where $v\in V$ and $U$ is a neighborhood of zero in $W$. For convergence of sequences, we write $A_n\stackrel{s}\longrightarrow A$ or $s-lim A_n= A$.
+$N(x,U) = \big\{A\in L(V,W) \,|\, A v \in U \big\}$, where $v\in V$ and $U$ is a neighborhood of zero in $W$. For convergence of sequences, we write $A_n\stackrel{s}\longrightarrow A$ or $\text{s-lim} A_n= A$.
 
 * __uniform operator topology__: here we assume that $V,W$ are normed spaces with norms $p_V$, $p_W$. Then $L(V,W)$ has a uniform operator topology induced by the norm given by the formula  
 
