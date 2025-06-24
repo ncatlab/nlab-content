@@ -1,4 +1,4 @@
-
+Dean Y.
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -246,7 +246,15 @@ $$
 \begin{proof}
 We show that $\mathbb{R}$ is an [[injective object]] in $G \text{-}Ban$. Take an injection of Banach representations of $G$, $X \rightarrow Y$. Let $f : X \rightarrow \mathbb{R}$ be a map of Banach representations of $G$. By the (usual) Hahn-Banach theorem, there exists a map $g \colon Y \rightarrow \mathbb{R}$ in the category of Banach spaces and short maps extending $f$, though it may lack $G$-invariance.
 
-Consider the subset of all extensions of $f$ to $Y$. Let $S$ be the collection of $G$-invariant compact convex subsets of this set. $S$ contains the convex hull of $G g$, where $g$ is some chosen extension of $f$ to $Y$, so $S$ is nonempty. Using compactness and [[Zorn's Lemma]], we may find a minimal element of $S$ in this collection, where $S$ is ordered where $A \leq B$ when $A \subset B$. Call this element $H$. $H$ must be a singleton. If $H$ contains a point which is not extremal then it contains the [[convex hull]] of the orbit of that point, which would be a proper $G$-invariant compact convex subset of $H$ (see Krein Milman theorem). Therefore $H$ is a [[singleton]], and its unique element is a $G$-invariant functional extending $f$.
+Consider the subset of all extensions of $f$ to $Y$. Let $S$ be the collection of $G$-invariant compact convex subsets of this set. $S$ contains the convex hull of $G g$, where $g$ is some chosen extension of $f$ to $Y$, so $S$ is nonempty. Using compactness and [[Zorn's Lemma]], we may find a minimal element of $S$ in this collection, where $S$ is ordered where $A \leq B$ when $A \subset B$. Call this element $H$. $H$ must be a singleton. If $H$ contains a point which is not extremal then it contains the [[convex hull]] of the orbit of that point, which would be a proper $G$-invariant compact convex subset of $H$.
+
+To see this, consider two theorems from functional analysis:
+
+(1) The Krein-Smulyan theorem is that the convex hull of a compact convex subset of a Banach space $V$ is compact in its weak topology. This applies taking $V$ to be $C^0(G)^*$.
+
+(2) The  Krein-Milman theorem is that a compact convex subset $K$ of a locally convex topological vector space $V$ is the convex hull of its extreme points. This applies taking $V$ to be the Banach space $C^0(G)^*$. 
+
+Therefore $H$ is a [[singleton]], and its unique element is a $G$-invariant functional extending $f$.
 
 In particular, since $\mathbb{R}$ has been shown to be injective, the map $\text{Id}_{\mathbb{R}}  : \mathbb{R} \rightarrow \mathbb{R}$ lifts along the inclusion
 $$
