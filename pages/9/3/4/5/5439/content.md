@@ -22,7 +22,7 @@
 * table of contents
 {: toc}
 
-Hilbert module is an abbreaviation both for a Hilbert C\*-module (this entry)
+> Note the term 'Hilbert module' is an abbreviation both for a Hilbert C\*-module (this entry)
 and the analogous notion of a [[Hilbert Q-module]] (see there), where $Q$ is a [[quantale]] (or a [[locale]], in particular).
 
 ## Idea
