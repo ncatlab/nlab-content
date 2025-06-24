@@ -65,6 +65,11 @@ History and review:
 
 * Christophe Eckes, _Weyl and the mathematisation of Quantum Mechanics individual and collective perspectives_ (2020) &lbrack;[[Eckes-WeylMath.pdf:file]]&rbrack;
 
+Early textbooks on [[quantum mechanics]] with focus on [[Lie groups]]:
+
+* [[David John Simms]]: *Lie Groups and Quantum Mechanics*,  Lecture Notes in Mathematics **52**, Springer (1968) &lbrack;[doi:10.1007/BFb0069914](https://doi.org/10.1007/BFb0069914)&rbrack;
+  > (beware of the false claim on p. 10 that [[U(ℋ)]] is not a [[topological group]] in the [[strong operator topology]], corrected by [Schottenloher 2013](UH#Schottenloher13), [Espinoza & Uribe 2014](UH#EspinozaUribe14), going back to [Schottenloher 1995](UH#Schottenloher95), but repeated by [Atiyah & Segal 2004](UH#AtiyahSegal04))
+
 
 See also:
 
