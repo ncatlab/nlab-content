@@ -1,4 +1,7 @@
 
+> The term *Hilbert module* is an abbreviation both for a Hilbert C\*-module (discussed here) and the analogous notion of *[[Hilbert Q-modules]]* (see there), where $Q$ is a [[quantale]] (or a [[locale]], in particular).
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -22,8 +25,6 @@
 * table of contents
 {: toc}
 
-> Note the term 'Hilbert module' is an abbreviation both for a Hilbert C\*-module (this entry)
-and the analogous notion of a [[Hilbert Q-module]] (see there), where $Q$ is a [[quantale]] (or a [[locale]], in particular).
 
 ## Idea
 
