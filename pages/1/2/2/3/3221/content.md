@@ -38,7 +38,7 @@ But there are also various variations of these theorems, for instance to [[diffe
 3) **[[smooth Serre-Swan theorem]]** ([Nestruev 02, 11.33](#Nestruev02)) For $X$ a [[smooth manifold]] with $\mathbb{R}$-algebra of [[smooth functions]] $C^\infty(X)$ there is an [[equivalence of categories]] between that of finite [[rank]] smooth [[vector bundles]] over $X$ and [[finitely generated objects|finitely generated]] [[projective modules]] over $C^\infty(X)$.
 
 
-A general statement of the Serre-Swan theorems over [[ringed spaces]] is in ([Morye](#Morye)).
+A general statement of the Serre-Swan theorems over [[ringed spaces]] is in [Morye 2017](#Morye17).
 
 If one drops the condition that the [[sheaf of modules]] over the [[structure sheaf]] of a [[ringed space]] is [[covering|locally]] [[free module|free]], and allows it instad to be just _locally [[presentable module|presentable]]_, then one arrives at the notion of [[quasicoherent sheaf of modules]]. Here the Serre-Swan theorem serves to clarify in which sense precisely these are generalizations of [[vector bundles]].
 
@@ -96,9 +96,9 @@ For the case of Hilbert bundles, see
 
 A general account of Serre-Swan-type theorems over [[ringed spaces]] is in 
 
-* [[Archana S. Morye]], _Note on the Serre‐Swan theorem_, Mathematische Nachrichten 286:2-3 (2013), 272-278.  [arXiv:0905.0319](http://arxiv.org/abs/0905.0319), [doi](https://doi.org/10.1002/mana.200810263).
+* [[Archana S. Morye]]: *Note on the Serre‐Swan theorem*, Mathematische Nachrichten **286** 2-3 (2013) 272-278  &lbrack;[arXiv:0905.0319](http://arxiv.org/abs/0905.0319), [doi:10.1002/mana.200810263](https://doi.org/10.1002/mana.200810263)&rbrack;
 
-* {#Morye} [[Archana S. Morye]], _The Serre-Swan Theorem for Ringed Spaces_, Analytic and Algebraic Geometry (2017), 207-223, Springer.  [doi](https://doi.org/10.1007/978-981-10-5648-2_13).
+* {#Morye17} [[Archana S. Morye]]: *The Serre-Swan Theorem for Ringed Spaces*, in: *Analytic and Algebraic Geometry*, Springer (2017) 207-223 &lbrack;[doi:10.1007/978-981-10-5648-2_1](https://doi.org/10.1007/978-981-10-5648-2_13)&rbrack;
 
 A textbook account on the use of the theorem in [[K-theory]] is for instance
 
