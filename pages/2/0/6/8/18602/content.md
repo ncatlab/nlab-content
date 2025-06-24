@@ -139,7 +139,7 @@ Comprehensive discussion for the [[muon]]:
 
 * Alex Keshavarzi, Kim Siang Khaw, Tamaki Yoshioka, *Muon $g-2$: current status* &lbrack;[arXiv:2106.06723](https://arxiv.org/abs/2106.06723)&rbrack;
 
-* *The anomalous magnetic moment of the muon in the Standard Model: an update* &lbrack;[arXiv:2505.21476](https://arxiv.org/abs/2505.21476)&rbrack;
+* {#AlibertiEtAl25} R. Aliberti et al: *The anomalous magnetic moment of the muon in the Standard Model: an update* &lbrack;[arXiv:2505.21476](https://arxiv.org/abs/2505.21476)&rbrack;
 
 
 ### Experiment and deviation
@@ -173,7 +173,7 @@ Further [[lattice QCD]]-simulation increasingly points to there not being an ano
 
 * CernCourier: *[Shifting sands for muon g–2](https://cerncourier.com/a/shifting-sands-for-muon-g-2/)* (20 November 2024)
 
-
+* [Aliberti et al 2025](#AlibertiEtAl25)
 
 
 
