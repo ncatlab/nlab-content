@@ -74,6 +74,11 @@ A third fact in this vein is that _[[derivations of smooth functions are vector 
 
 ## References
 
-* {#Nestruev03} [[Jet Nestruev]], _Smooth manifolds and observables_, Graduate texts in mathematics, 220, Springer-Verlag, ISBN 0-387-95543-7 (2003)
+* {#Nestruev03} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (2002, 2020) &lbrack;[doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), ISBN:0-387-95543-7, <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">pdf</a>&rbrack;
+
+Variant for [[Hilbert space]]-bundles over [[Riemannian manifolds]]:
+
+* Jens Kaad: *A Serre–Swan theorem for bundles of bounded geometry*, Journal of Functional Analysis **265** 10 (2013) 2465-2499 &lbrack;[doi;10.1016/j.jfa.2013.06.005](https://doi.org/10.1016/j.jfa.2013.06.005)&rbrack;
+
 
 [[!redirects smooth Serre–Swan theorem]]
