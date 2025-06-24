@@ -83,7 +83,16 @@ The two original articles:
 A textbook account in the context of [[differential geometry]]:
 
 * {#Nestruev02} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (2002, 2020) &lbrack;ISBN:0-387-95543-7, [doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), [book webpage](https://diffiety.mccme.ru/books/nestrspr.htm),  <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">pdf</a>&rbrack;
- 
+
+See also
+
+* G. Sardanashvily, _Remark on the Serre-Swan theorem for non-compact manifolds_, [arXiv](https://arxiv.org/abs/math-ph/0102016).
+
+For the case of Hilbert bundles, see
+
+* Jens Kaad, _A Serre–Swan theorem for bundles of bounded geometry_, Journal of Functional Analysis 265:10 (2013), 2465-2499.  [arXiv](https://arxiv.org/abs/1302.3310), [doi](https://doi.org/10.1016/j.jfa.2013.06.005).
+
+
 
 A general account of Serre-Swan-type theorems over [[ringed spaces]] is in 
 
