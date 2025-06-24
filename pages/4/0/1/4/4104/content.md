@@ -196,7 +196,7 @@ has degeneracies as well.
 
 Any locally compact Hausdorff topological group $G$ admits a Haar integral (and therefore Haar measure) that is unique up to scalar multiple. This result was first proven by [[André Weil]]. Proofs may be found in [Alfsen 1963](#Alfsen63) ([[constructive mathematics|consructive]]) and [Rubinstein-Salzedo 2004](#Rubinstein-Salzedo04). 
  
-We here give a lesser known proof of the existence of the Haar integral, specifically on compact Hausdorff groups $G$, which uses [[convex sets]] and the Krein Milman theorem instead of [[measure theory]]. Let $G \text{-}Ban$ be the category of Banach representations of $G$ (see above *[Analogy with the Finite Case](AnalogyWithTheFiniteCase)*).
+We here give a lesser known proof of the existence of the Haar integral, specifically on compact Hausdorff groups $G$, which uses [[convex sets]] and the Krein Milman theorem instead of [[measure theory]]. Let $G \text{-}Ban$ be the category of Banach representations of $G$ (see above *[Analogy with the Finite Case](#AnalogyWithTheFiniteCase)*).
 
 $C_c(G) = C(G)$ is such a Banach representation. We may view $\mathbb{R}$ as a Banach representation of $G$ as well, where $g z = z$ for each $z \in \mathbb{R}$ and each $g \in G$. $\mathbb{R}$ embeds into $C(G)$ as constant functions. We may then consider the exact sequence
 $$
