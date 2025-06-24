@@ -88,7 +88,7 @@ This makes manifest how [[diffieties]] are the analog in [[differential geometry
 
 * {#Vinogradov89} [[Alexandre Vinogradov]], _Symmetries and conservation laws of partial differential equations: basic notions and results_, Acta Appl. Math., Vol. 15, 1989, p. 3. [MR91b:58282](http://www.ams.org/mathscinet-getitem?mr=1007340), [doi](http://dx.doi.org/10.1007/BF00131928)
 
-* [[Alexandre Vinogradov]], _Scalar differential invariants, diffieties and characteristic classes_, in: Mechanics, Analysis and Geometry: 200 Years after, 379&#8211;414, [MR92e:58244](http://www.ams.org/mathscinet-getitem?mr=1098525)
+* [[Alexandre M. Vinogradov]]: _Scalar differential invariants, diffieties and characteristic classes_, in: *Mechanics, Analysis and Geometry: 200 Years after* (1991) 379-414 &lbrack;[MR92e:58244](http://www.ams.org/mathscinet-getitem?mr=1098525), [doi:10.1016/B978-0-444-88958-4.50020-3](https://doi.org/10.1016/B978-0-444-88958-4.50020-3)&rbrack;
 
 * G. Cicogna, G. Gaeta, _Lie-point symmetries in bifurcation problems_, Annales de l'institut Henri Poincar&#233; (A) Physique th&#233;orique, 56 no. 4 (1992), p. 375-414 [numdam](http://www.numdam.org/item?id=AIHPA_1992__56_4_375_0)
 
