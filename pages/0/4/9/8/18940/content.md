@@ -22,7 +22,7 @@
 
 ## Idea
 
-For $n \in \mathbb{N}_0$ a [[natural number]] or zero and $(k_i \in \mathbb{N}_0)_{i = 1}^r$ with $\underset{i}{\sum} k_i = k$, the corresponding _multinomial  coefficient_ 
+For $n \in \mathbb{N}_0$ a [[natural number]] or zero and $(k_i \in \mathbb{N}_0)_{i = 1}^r$ with $\underset{i}{\sum} k_i = n$, the corresponding _multinomial  coefficient_ 
 
 $$
   \left(
