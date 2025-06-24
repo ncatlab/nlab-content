@@ -5,7 +5,7 @@
 
 On [[2-limits]] of [[locally presentable categories]]:
 
-* *Limits in 2-categories of locally presentable categories* (1984) &lbrack;[pdf scan](http://science.mq.edu.au/~street/BirdPhD.pdf)&rbrack;
+* *Limits in 2-categories of locally-presented categories* (1984) &lbrack;[pdf scan](http://science.mq.edu.au/~street/BirdPhD.pdf)&rbrack;
 
 On [[flexible limits]]:
 
