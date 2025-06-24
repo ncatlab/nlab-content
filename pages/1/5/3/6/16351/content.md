@@ -309,7 +309,7 @@ The general statement and its proof is discussed in:
 
 Discussion that takes the dual algebraic formulation as the very definition of [[smooth functions]] is in
 
-* {#Nestruev03} [[Jet Nestruev]], section 6 of: _Smooth manifolds and Observables_, Graduate Texts in Mathematics 218, Springer 2003 ([doi:10.1007/b98871](https://link.springer.com/book/10.1007/b98871))
+* {#Nestruev03} [[Jet Nestruev]], section 6 of: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (2002, 2020) &lbrack;[doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), ISBN:0-387-95543-7, <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">pdf</a>&rbrack;
 
 The analog of the statement for real algebras refined to [[smooth algebras]] is Theorem 2.8 in
 
