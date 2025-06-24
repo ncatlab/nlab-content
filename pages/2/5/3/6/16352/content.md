@@ -6,6 +6,8 @@ Form the foreword (dated 2019) of (the second edition of) [Nestruev 2020](#Nestr
 > Unlike the famous French general \[Nicolas Bourbaki\], Jet Nestruev is a civilian, and the names of the members of his team are not veiled in secrecy, as are those of the Bourbaki team. For the first edition, they were: Alexander Astashov, Alexey
 Bocharov, Sergei Duzhin, Alexandre Vinogradov, Mikhail Vinogradov, and Alexey Sossinsky. For the present second edition, they are Alexander Astashov, Alexandre Vinogradov, Mikhail Vinogradov, and Alexey Sossinsky. The figures for both editions were expertly prepared by Alexander Astashov.
 
+The first name, "Jet" is probably an allusion to the *[[jet bundles]]* that play such a central role in the approach to [[differential equations]] and [[differential geometry]] by these authors (cf. at *[[diffiety]]*).
+
 ## Selected writings
 
 Textbook on [[smooth manifolds]] and their [[differential geometry]]:
