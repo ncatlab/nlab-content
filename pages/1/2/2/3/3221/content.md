@@ -35,7 +35,7 @@ There are two different original theorems of the same intuitive spirit which are
 
 But there are also various variations of these theorems, for instance to [[differential geometry]]:
 
-3) **[[smooth Serre-Swan theorem]]** ([Nestruev 03, 11.33](#Nestruev03)) For $X$ a [[smooth manifold]] with $\mathbb{R}$-algebra of [[smooth functions]] $C^\infty(X)$ there is an [[equivalence of categories]] between that of finite [[rank]] smooth [[vector bundles]] over $X$ and [[finitely generated objects|finitely generated]] [[projective modules]] over $C^\infty(X)$.
+3) **[[smooth Serre-Swan theorem]]** ([Nestruev 02, 11.33](#Nestruev02)) For $X$ a [[smooth manifold]] with $\mathbb{R}$-algebra of [[smooth functions]] $C^\infty(X)$ there is an [[equivalence of categories]] between that of finite [[rank]] smooth [[vector bundles]] over $X$ and [[finitely generated objects|finitely generated]] [[projective modules]] over $C^\infty(X)$.
 
 
 A general statement of the Serre-Swan theorems over [[ringed spaces]] is in ([Morye](#Morye)).
@@ -82,7 +82,7 @@ The two original articles:
 
 A textbook account in the context of [[differential geometry]]:
 
-* {#Nestruev03} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (2002, 2020) &lbrack;[doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), ISBN:0-387-95543-7, <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">pdf</a>&rbrack;
+* {#Nestruev02} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (2002, 2020) &lbrack;ISBN:0-387-95543-7, [doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), [book webpage](https://diffiety.mccme.ru/books/nestrspr.htm),  <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">pdf</a>&rbrack;
  
 
 A general account of Serre-Swan-type theorems over [[ringed spaces]] is in 
