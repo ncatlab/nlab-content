@@ -413,7 +413,7 @@ Textbook accounts:
 
 * [[Theodore Frankel]], chapter 1 of: _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
 
-* {#Nestruev03} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (2002, 2020) &lbrack;[doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), ISBN:0-387-95543-7, <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">pdf</a>&rbrack;
+* {#Nestruev02} [[Jet Nestruev]]: *Smooth manifolds and Observables*, Graduate Texts in Mathematics **220** Springer (2002, 2020) &lbrack;ISBN:0-387-95543-7, [doi:10.1007/978-3-030-45650-4](https://doi.org/10.1007/978-3-030-45650-4), [book webpage](https://diffiety.mccme.ru/books/nestrspr.htm),  <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MD/MDdg/Nestruev%20J.%20Smooth%20Manifolds%20and%20Observables%20(ISBN%200387955437)(Springer,%202003)(224s)_MDdg_.pdf">pdf</a>&rbrack;
 
 
 With an eye towards application in [[mathematical physics]]:
