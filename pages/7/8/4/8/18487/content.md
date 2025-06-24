@@ -21,7 +21,7 @@ While the [[symmetric monoidal (∞,1)-category of spectra]] is not a [[cartesia
 
 ## Definition
 
-For $n \in \mathbb{N}$ a [[natural number]], write $C_p \coloneqq \mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of order $n$.
+For $n \in \mathbb{N}$ a [[natural number]], write $C_n \coloneqq \mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of order $n$.
 
 +-- {: .num_defn #TatedSmashProductOfSpectra}
 ###### Definition
