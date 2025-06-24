@@ -1,5 +1,3 @@
-# Semi-left-exact reflections
-
 * table of contents
 {: toc}
 
