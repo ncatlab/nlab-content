@@ -98,6 +98,11 @@ On [[quotient object|quotients]] of tensor categories:
 
 * Zhenbang Zuo, Gongxiang Liu. *Quotient Category of a Multiring Category* (2024). ([arXiv:2403.06244](https://arxiv.org/abs/2403.06244)).
 
+On the full dualizability of certain finite braided tensor categories:
+
+* [[Thibault Decoppet]]. *Relative Invertibility and Full Dualizability of Finite Braided Tensor Categories* (2025). ([arXiv:2506.16241](https://arxiv.org/abs/2506.16241)).
+
+
 
 
 [[!redirects quasitensor category]]
