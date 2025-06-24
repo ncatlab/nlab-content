@@ -68,7 +68,11 @@ Nevertheless, the conclusion still holds, at least for [[domain]] $G$ a [[discre
 
 ## Literature
 
+> Cf. also the [references at $U(\mathscr{H})$](UH#References), especially concerning wrong claims that $U(\mathscr{H})$ were not a topological group in the strong operator topology.
+
 General discussion:
+
+* {#Simms68} [[David John Simms]], pp. 5 in: *Lie Groups and Quantum Mechanics*,  Lecture Notes in Mathematics **52**, Springer (1968) &lbrack;[doi:10.1007/BFb0069914](https://doi.org/10.1007/BFb0069914)&rbrack;
 
 * {#Simms70} [[David John Simms]], *Topological aspects of the projective unitary group*, Math. Proc. Camb. Phil. Soc. **68** 1 (1970) 57-60  ([doi:10.1017/S0305004100001043](https://doi.org/10.1017/S0305004100001043))
 
