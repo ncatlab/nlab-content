@@ -1,4 +1,3 @@
-Dean Y.
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
