@@ -177,6 +177,9 @@ See also:
 
 * Wikipedia, _[Closure operator](http://en.wikipedia.org/wiki/Closure_operator)_
 
+* B. Venkateswarlu, R. Vasu Babu
+, Getnet Alemu, _Morphisms on Closure Spaces and Moore Spaces_ [pdf](https://www.ijpam.eu/contents/2014-91-2/6/6.pdf)
+
 
 [[!redirects Moore closure]]
 [[!redirects Moore closures]]
