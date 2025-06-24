@@ -120,7 +120,7 @@ See also:
 * Naoki Kimura, _A note on normed ring_, Kodai Math. Sem. Rep.
 **1** 3-4 (1949) 23-24 &lbrack;[euclid:kmj/1138833472](http://projecteuclid.org/euclid.kmj/1138833472)&rbrack;
 
-* {#Naimark59} [[Mark Naimark]],  _Normed Rings_, Groningen, Netherlands: P. Noordhoff N. V. (1959)
+* {#Naimark59} [[Mark Naimark]] (translated by Leo Boron):  _Normed Rings_, P. Noordhoff (1959) &lbrack;[ark:/13960/s20rdczxmrt](https://archive.org/details/normedrings0000mana)&rbrack;
 
 * {#Jarden11} M. Jarden, _Normed rings_, chapter 2 of:  _Algebraic patching_, Springer Monographs in Mathematics (2011) &lbrack;[[JardenNormedRings.pdf:file]]&rbrack;
 
