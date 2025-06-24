@@ -14,6 +14,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -177,11 +178,23 @@ $$
 * [[universal equivariant PU(ℋ)-bundle]]
 
 
-## References
 
-Early discussion in relation to [[PU(ℋ)]]:
+## References
+ {#References}
+
+Early discussion of $U(\mathscr{H})$ motivated from [[quantum mechanics]] and in relation to [[PU(ℋ)]]:
+
+* {#Simms68} [[David John Simms]], pp. 5 in: *Lie Groups and Quantum Mechanics*,  Lecture Notes in Mathematics **52**, Springer (1968) &lbrack;[doi:10.1007/BFb0069914](https://doi.org/10.1007/BFb0069914)&rbrack;
 
 * {#Simms70} [[David John Simms]]: *Topological aspects of the projective unitary group*, Math. Proc. Camb. Phil. Soc. **68** 1 (1970) 57-60 &lbrack;[doi:10.1017/S0305004100001043](https://doi.org/10.1017/S0305004100001043)&rbrack;
+
+{#SimmsFalseClaim} Beware of the false claim in [Simms 1968 p. 10](#Simms68)  that [[U(ℋ)]] is not a [[topological group]] in the [[strong operator topology]], corrected by [Schottenloher 2013](#Schottenloher13), [Espinoza & Uribe 2014](#EspinozaUribe14), going back to [Schottenloher 1995](#Schottenloher95), but repeated by [Atiyah & Segal 2004](#AtiyahSegal04).
+
+The mistake arises because multiplication in $B(\mathscr{H})$ ([[bounded linear operators]]) is not generally continuous in the strong operator topology, according to
+
+* {#Naimark59} [[Mark Naimark]] (translated by Leo Boron), §33.2 in:  _Normed Rings_, P. Noordhoff (1959) &lbrack;[ark:/13960/s20rdczxmrt](https://archive.org/details/normedrings0000mana)&rbrack;
+
+whence $GL(\mathscr{H})$ is indeed not a topological group in the strong operator topology, which however does not imply that its [[subgroup]] $U(\mathscr{H}) \subset GL(\mathscr{H})$ cannot have that property (cf. [Schottenloher 2013 p 2-3](#Schottenloher13)).
 
 Proof that $U(\mathcal{H})$ is a topological group in the [[strong operator topology]]:
 
@@ -189,7 +202,7 @@ Proof that $U(\mathcal{H})$ is a topological group in the [[strong operator topo
 
 * {#Schottenloher08} [[Martin Schottenloher]], Prop. 3.11 in: *A Mathematical Introduction to Conformal Field Theory*, Lecture Notes in Physics **759**, Springer (2008) &lbrack;[doi:10.1007/978-3-540-68628-6](https://link.springer.com/book/10.1007/978-3-540-68628-6), [web](https://www.mathematik.uni-muenchen.de/~schotten/LNP-cft-pdf/)&rbrack;
 
-Proof that the the weak- and strong- [[operator topologies]] agree on $U(\mathcal{H})$:
+Proof that the weak- and strong- [[operator topologies]] agree on $U(\mathcal{H})$:
 
 * {#HilgertNeeb93} [[Joachim Hilgert]], [[Karl-Hermann Neeb]], Cor. 9.4 in: *Lie Semigroups and their Applications*. Lecture Notes in Mathematics **1552**, Springer (1993) &lbrack;[doi:10.1007/BFb0084640](https://link.springer.com/book/10.1007/BFb0084640)&rbrack;
 
@@ -199,10 +212,9 @@ Proof that weak-, strong- as well as the [[compact-open topology]] all agree on 
 
 * {#EspinozaUribe14} [[Jesus Espinoza]], [[Bernardo Uribe]]: _Topological properties of the unitary group_, JP Journal of Geometry and Topology **16** 1 (2014) 45-55 &lbrack;[arXiv:1407.1869](https://arxiv.org/abs/1407.1869), [journal](http://www.pphmj.com/abstract/8730.htm)&rbrack;
 
-Previous influential but wrong claim that they do not and that the compact open topology does not even make a topological group:
+Previous influential but wrong claim that they do not and that the compact open topology does not even make a topological group (cf. [above](#SimmsFalseClaim), concerning [Simms 1968 p 10](#Simms68)):
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], p. 39 & appendix of: _Twisted K-theory_, Ukrainian Math. Bull. **1**, 3 (2004) ([arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf))
-  > (This paper made the mistake of assuming that because various topologies were distinct on $GL(\mathcal{H})$, they remain distinct on $U(\mathcal{H})$.)
 
 Further properties:
 
