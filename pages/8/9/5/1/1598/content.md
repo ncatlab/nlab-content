@@ -221,6 +221,9 @@ The [[exceptional Lie groups]] incude
 
 * {#Serre64} [[Jean-Pierre Serre]]: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
 
+* [[David John Simms]]: *Lie Groups and Quantum Mechanics*,  Lecture Notes in Mathematics **52**, Springer (1968) &lbrack;[doi:10.1007/BFb0069914](https://doi.org/10.1007/BFb0069914)&rbrack;
+  > (with an eye towards [[quantum mechanics]], cf. *[[Gruppenpest]]* -- beware of the false claim on p. 10 that [[U(ℋ)]] is not a [[topological group]] in the [[strong operator topology]], corrected by [Schottenloher 2013](UH#Schottenloher13), [Espinoza & Uribe 2014](UH#EspinozaUribe14), going back to [Schottenloher 1995](UH#Schottenloher95), but repeated by [Atiyah & Segal 2004](UH#AtiyahSegal04))
+
 * {#Bredon72} [[Glen Bredon]], Section 0.5 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
   > (in the broader context of [[topological groups]])
 
