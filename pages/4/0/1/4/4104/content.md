@@ -56,6 +56,7 @@ $$
   \,.
 $$ 
 
+
 In this context, a (left) **Haar integral** on $G$ is a nonzero such linear functional $\int_G$ such that
 $$ 
   \int_G f 
