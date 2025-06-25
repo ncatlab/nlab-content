@@ -380,7 +380,7 @@ $$
 \coprod_c C(-,c) \times C(c,-) \,\to\, C(-,-)
 $$
 
-It is also a general fact (see e.g. [Kelly, ch. 3](#Kelly)) that weighted (co)limits are cocontinuous in their weight: that is,
+It is also a general fact (see e.g. [Kelly, ch. 3](#Kelly82)) that weighted (co)limits are cocontinuous in their weight: that is,
 $$ \{W \ast V, F\} \cong \{W, \{V-, F\}\}$$
 and
 $$ (W \ast V) \ast G \cong W \ast (V \ast G)$$
@@ -423,7 +423,7 @@ between the coend, as indicated, and the [[colimit]] over the [[opposite categor
 
 \end{proposition}
 
-This is equation (3.34) in ([Kelly](#Kelly)) in view of (3.70).
+This is equation (3.34) in ([Kelly](#Kelly82)) in view of (3.70).
 
 +-- {: .num_cor #ConPres}
 ###### Corollary
