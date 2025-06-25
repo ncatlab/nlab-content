@@ -24,9 +24,9 @@ Derived analytic methods may also be useful to study intersection theory and vir
 
 * [[Jacob Lurie]], _[[Closed Immersions]]_ (DAG IX).
 
-* [[Mauro Porta]], [[Tony Yue Yu]], _Higher analytic stacks and GAGA theorems_, _Derived non-archimedean analytic spaces_, Selecta Math. New Ser. 24, 609-665 (2018) [arXiv:1601.00859](https://arxiv.org/abs/1601.00859) [doi](https://doi.org/10.1007/s00029-017-0310-1)
+* [[Mauro Porta]], Tony Yue Yu: _Higher analytic stacks and GAGA theorems_, _Derived non-archimedean analytic spaces_, Selecta Math. New Ser. **24** (2018) 609-665 &lbrack;[arXiv:1601.00859](https://arxiv.org/abs/1601.00859), [doi:10.1007/s00029-017-0310-1](https://doi.org/10.1007/s00029-017-0310-1)&rbrack;
 
-* [[Mauro Porta]], [[Tony Yue Yu]], _Derived non-archimedean analytic spaces_, Selecta Math. New Ser. 24, 609-665 (2018) [arXiv:1601.00859](https://arxiv.org/abs/1601.00859) [doi](https://doi.org/10.1007/s00029-017-0310-1)
+* [[Mauro Porta]], Tony Yue Yu: _Derived non-archimedean analytic spaces_, Selecta Math. New Ser. **24** (2018) 609-665 &lbrack;[arXiv:1601.00859](https://arxiv.org/abs/1601.00859) [doi:10.1007/s00029-017-0310-1](https://doi.org/10.1007/s00029-017-0310-1)&rbrack;
 
 * [[Mauro Porta]], _Derived complex analytic geometry I: GAGA theorems_, [arXiv:1506.09042](https://arxiv.org/abs/1506.09042)
 
