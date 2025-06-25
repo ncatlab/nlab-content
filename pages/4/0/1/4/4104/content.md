@@ -80,189 +80,85 @@ $$
 
 for all $g \in G$ and all Borel sets $B$. 
 
-## An Analogy with the Finite Case
- {#AnalogyWithTheFiniteCase}
-
-There is an analogy between Haar measure and the scaled-[[cardinality]] of a [[finite group]]. In fact, the latter is a special case of the former, as we may view a finite group as a [[discrete topological space|discrete]] [[topological group]]. While measures on (discrete) finite groups aresubsumed by the notion of Haar measure, their explicit consideration may still be of interest to build intuition:
-
-Let $G_{fin}$ be a finite group.  Let $G_{fin}\text{-}Rep$ be the [[category of representations|category of]] $G$-[[representations]] on $R$-[[modules]], where $R$ is a [[ring]] in which the [[group order]] ${|G_{fin}|}$ is invertible. This category is equivalent to $R[G]\text{-}Mod$. We can view $R$ as a [[trivial representation|trivial]] $G_{fin}$-representation, where $g a = a$ for each $a \in R$ and each $g \in G$.
-
-Let $G$ be a [[compactum]]. Let $G\text{-}Ban$ be the category of [[Banach space|Banach]] representations of $G$. Objects in $G \text{-Ban}$ are [[Banach spaces]] $X$ over $\mathbb{R}$ with a continuous norm preserving action $G \times X \rightarrow X$, i.e. ${\Vert g x\Vert} = {\Vert x \Vert} \;\;\forall g \in G \forall x \in X$. Maps in $G\text{-}Ban$ are [[short maps]] which are $G$-[[equivariant map|equivariant]]. 
-(Alternatively, $G\text{-}Ban$ may be viewed as a category of certain $\mathbb{R}[G]$-modules.) 
-We can view $\mathbb{R}$ as a trivial $G$-representation, where $g a = a$ for each $a \in \mathbb{R}$ and each $g \in G$.
-
-Let $C(G_{fin})$ be the ring of set-maps from $G_{fin}$ to $R$. $G$ acts on $C(G_{fin})$ where $f^g \colon G_{fin} \rightarrow R$ sends $x$ to $f(gx)$. There is a map of [[abelian groups]] $\int_{G_{fin}} \colon C(G_{fin}) \rightarrow R$ sending $f$ to $\frac{1}{|G|} \sum_{g \in G} f(g)$, analogous to the Haar integral. Indeed,
-$$
-  \int_{G_{fin}} f + g 
-    \;=\; 
-  \int_{G_{fin}} f + \int_{G_{fin}} g 
-  \;\;\;\;
-  \forall f, g \in C(G_{fin}) 
-$$
-$$
-  \int_{G_{fin}} a f 
-    \;=\; 
-   a \int_{G_{fin}} f 
-  \;\;\;\;
-   \forall f \in C(G_{fin}) \forall a \in R
-$$
-$$
-  \int_{G_{fin}} f^g 
-    \;=\; 
-  \int_{G_{fin}} f \forall f \in C(G_{fin}) 
-  \;\;\;\forall g \in G
-$$
-$$
-  \int_{G_{fin}} f \geq 0 
-  \;\;\text{when}\; 
-  f \geq 0 
-  \;\;\;\forall f \in C(G_{fin}) 
-  \,.
-$$
-
-What corresponds to the Haar measure on $G$ is simply [[cardinality]] (though we must appropriately divide by the cardinality of $G$, to get a function $\mu_{fin} \colon P(G) \rightarrow R$ from the [[power set]] of $G$ to $R$ sending $S$ to $\frac{|S|}{|G|}$).
-
-Using the Haar integral, we may define [[convolution product]]: $\ast \colon C(G \times G) \rightarrow C(G)$ sending $f \colon G \times G \rightarrow \mathbb{R}$ to the map $G \rightarrow \mathbb{R}$ sending $\int_{h \in G} f(g h^{-1}, h) = \int_{h k = g} f(h, k)$. This is analogous to the map $\ast_{fin} \colon C(G_{fin} \times G_{fin}) \rightarrow C(G_{fin})$ sending $f$ to the map $C(G_{fin} )$ sending $g$ to $\frac{1}{|G_{fin}|} \sum_{h k = g} f(h, k)$.
-
-In both cases, we get a "[[bar construction]]". For the compact Hausdorff case, we get:
-$$
-    \cdots 
-   \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
-   C(G  \times G)
-    \underoverset
-      {
-         f 
-           \mapsto 
-         \big( g \mapsto \int_{h \in G} f( g, h) \big)      
-      }
-      {\ast}
-      {\rightrightarrows}
-  C(G) 
-    \stackrel{\int_G}{\longrightarrow} 
-  \mathbb{R}
-$$
-and for the finite case, we get:
-$$
-    \cdots
-    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
-   C(G_{fin}  \times G_{fin})
-   \underoverset
-     {
-         f \mapsto 
-         \big( 
-             g 
-               \mapsto  
-             \frac{1}{|G_{fin}|} 
-             \sum_{h \in G} f(g, h) 
-         \big)  
-     }
-     {\ast_{fin}}
-     {\rightrightarrows}
-    C(G_{fin}) 
-      \stackrel{f \mapsto \frac{1}{|G_{fin}|} \sum_{g \in G} f(g)}{\longrightarrow} 
-    \mathbb{R}
-  \,.
-$$
-
-Beware that calling this a *bar resolution* is a slight abuse of terminology; the would-be [[monad]] involved actually has no [[unit of a monad|unit]], as $C(G)$ has no unit for the [[convolution product]]. However, convolution makes $C(G)$ an assocciative nonunitial algebra, so that the resolution is still a _unitless_ monad. Hence there are evident [[face maps]] without [[degeneracy map|degeneracies]].
-
-While $C(G)$ has no unit, there is a canonical way of adjoining units to it: take products with $\mathbb{R}[G]$. Write $\sum_{g \in G} a_g \delta_g$ for the elements of $\mathbb{R}[G]$; since $\delta_1$ is a formal unit for convolution, we may think of it as a [[Dirac delta distribution]]. Now the bar resolution
-$$
-    \cdots
-    \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}}
-   C(G  \times G) \prod \mathbb{R}[G]
-   \underoverset
-     {
-       f 
-         \mapsto 
-       \big( 
-         g 
-           \mapsto 
-         \int_{h \in G} f(g, h) 
-       \big)   
-     }
-     {\ast}
-     {\rightrightarrows}
-    C(G) \prod \mathbb{R}[G] 
-     \stackrel{\int_G}{\longrightarrow} 
-   \mathbb{R}
-$$
-has degeneracies as well.
-
-
 ## Properties
 
 ### Existence and Uniqueness
 
 Any locally compact Hausdorff topological group $G$ admits a Haar integral (and therefore Haar measure) that is unique up to scalar multiple. This result was first proven by [[André Weil]]. Proofs may be found in [Alfsen 1963](#Alfsen63) ([[constructive mathematics|consructive]]) and [Rubinstein-Salzedo 2004](#Rubinstein-Salzedo04). 
+
+A proof for the case of a compact hausdorff topological group was provided by Uri Bader on Mathoverflow in response the question titled "Existence and uniqueness of Haar measure on compacta; a cohomological approach".
  
-We here give a lesser known proof of the existence of the Haar integral, specifically on compact Hausdorff groups $G$, which uses [[convex sets]] and the Krein Milman theorem instead of [[measure theory]]. Let $G \text{-}Ban$ be the category of Banach representations of $G$ (see above *[Analogy with the Finite Case](#AnalogyWithTheFiniteCase)*).
-
-$C_c(G) = C(G)$ is such a Banach representation. We may view $\mathbb{R}$ as a Banach representation of $G$ as well, where $g z = z$ for each $z \in \mathbb{R}$ and each $g \in G$. $\mathbb{R}$ embeds into $C(G)$ as constant functions. We may then consider the exact sequence
-$$
-  0 \rightarrow \mathbb{R} \rightarrow C(G) \rightarrow C(G)/ \mathbb{R} \rightarrow 0
-  \,.
-$$
-
-A Haar integral on the $G$-representation $C(G)$ is equivalently a retract $\int_G : C(G) \rightarrow \mathbb{R}$ for the injection $\mathbb{R} \rightarrow C(G)$. In other words, it is a function $\int_G : C(G) \rightarrow \mathbb{R}$ such that
-
-$$ 
-  \int_G (f_1 + f_2) 
-    \;=\; 
-  \int_G f_1 + \int_G f_2  
-  \;\;\;\;\forall f_1, f_2 \in C(G)
-$$
-$$ 
-  \int_G a f 
-    \;=\; 
-  a \int_G f   
-  \;\;\;\; \forall f \in C(G), a \in \mathbb{R}
-$$
-$$ 
-  \int_G f^g 
-    \;=\; 
-  \int_G f 
-  \;\;\;\;\forall f \in C(G), g \in G
-$$
-$$ 
-  \exists C \in  \mathbb{R}_{\geq 0 } 
-   \;\colon\;  
-   \big\Vert \textstyle{\int_G} f \big\Vert 
-     \leq 
-   C \int_G \Vert f \Vert
-  \;\;\;\forall  
-  [G, \mathbb{C}]_{\text{Top}}
-  \,.
-$$
-The last of these requirements, given the others, is equivalent to continuity of $\int_G$.
-
-In some sense, we might wish to show that $\text{Ext}^1_{G \text{-}Ban}\big(C(G), \mathbb{R}\big)$ vanishes; this would show that the sequence
-$$
-  0 \rightarrow \mathbb{R} \rightarrow C(G) \rightarrow C(G)/ \mathbb{R} \rightarrow 0
-$$
-[[split exact sequence|splits]] by the usual characterization of [[extensions]] via [[Ext|$\text{Ext}^1$]]. On further contemplation, it is sufficient to show that the trivial $G$-representation $\mathbb{R}$ is an [[injective object]] in $G \text{-}Ban$. This could be seen as an equivariant [[Hahn-Banach theorem]].
-
+\begin{theorem}[Bader, 2020]
+Let $G$ be a compact Hausdorff topological group. Write $C^0(G)$ for the Banach space of continuous $\mathbb{R}$-valued functions on $G$. There is a unique $G$-invariant $\mathbb{R}$-linear map of Banach-spaces $\int : C^0(G) \rightarrow \mathbb{R}$ such that $0 \leq \int f^2$ for all $f  \in C^0(G)$.
+\end{theorem}
 
 \begin{proof}
-We show that $\mathbb{R}$ is an [[injective object]] in $G \text{-}Ban$. Take an injection of Banach representations of $G$, $X \rightarrow Y$. Let $f : X \rightarrow \mathbb{R}$ be a map of Banach representations of $G$. By the (usual) Hahn-Banach theorem, there exists a map $g \colon Y \rightarrow \mathbb{R}$ in the category of Banach spaces and short maps extending $f$, though it may lack $G$-invariance.
+Consider the set $S$ of subsets $C$ of $C^0(G)^*$ which satisfy
 
-Consider the subset of all extensions of $f$ to $Y$. Let $S$ be the collection of $G$-invariant compact convex subsets of this set. $S$ contains the convex hull of $G g$, where $g$ is some chosen extension of $f$ to $Y$, so $S$ is nonempty. Using compactness and [[Zorn's Lemma]], we may find a minimal element of $S$ in this collection, where $S$ is ordered where $A \leq B$ when $A \subset B$. Call this element $H$. $H$ must be a singleton. If $H$ contains a point which is not extremal then it contains the [[convex hull]] of the orbit of that point, which would be a proper $G$-invariant compact convex subset of $H$.
+(1) ($G$-invariance) for all functionals $\phi$ in $C$, the continuous functional $\phi^g$ sending $f$ to $\phi(f^{g^{-1}})$ is contained in $C$.
 
-To see this, consider two theorems from functional analysis:
+(2) (compactness) The subtopology on $C$ is compact.
 
-(1) The Krein-Smulyan theorem is that the convex hull of a compact convex subset of a Banach space $V$ is compact in its weak topology. This applies taking $V$ to be $C^0(G)^*$.
+(3) (convexity) for elements $\phi_1, ...., \phi_n$ in $C$ and $a_1, ..., a_n \in [0,\infty)$ such that $\sum_{i = 1}^n a_i = 1$, $\sum_{i = 1}^n a_i \phi_i \in C$.
 
-(2) The  Krein-Milman theorem is that a compact convex subset $K$ of a locally convex topological vector space $V$ is the convex hull of its extreme points. This applies taking $V$ to be the Banach space $C^0(G)^*$. 
+(4) (nonemptiness) there is an element of $C^0(G)^*$ contained in $C$.
 
-Therefore $H$ is a [[singleton]], and its unique element is a $G$-invariant functional extending $f$.
+Claim 1: $S$ is nonempty. 
 
-In particular, since $\mathbb{R}$ has been shown to be injective, the map $\text{Id}_{\mathbb{R}}  : \mathbb{R} \rightarrow \mathbb{R}$ lifts along the inclusion
+Recall that the [[Hahn-Banach theorem]] theorem for a Banach space with squared Minkowski seminorm $\text{sup}_{i \in I} \phi_i \overline{\phi_i}$ for continuous functionals $\{ \phi_i \}_{i \in I}$ provides the existence of a continuous functional $\phi : C^0(G) \rightarrow \mathbb{R}$. $\{ \phi \}$ satisfies (4) and (2) but possibly not (3) or (1).
+
+The $\infty$-norm topology on $C^0(G)$ given by the squared Minkowski seminorm $\text{sup}_{g \in G} ev_g \overline{ev_g}$ is equivalently described as the compact open topology on continuous functions from $G$ to $\mathbb{R}$. 
+
+For any $f \in C^0(G)$, $\{ f \} \subset C^0(G)$ is closed because it is a single point in a Hausdorff space. Write $\mu_{g^{-1}} : G \rightarrow G$ for the continuous function sending $h$ to $hg^{-1}$. For a continuous function $f : G \rightarrow \mathbb{R}$, write $f^g : G \rightarrow \mathbb{R}$ for $f \circ \mu_{g^{-1}}$.
+
+The composition
+
 $$
-  0 \rightarrow \mathbb{R} \rightarrow C(G)
+\text{ev} \circ (1 \times (\mu \circ (1 \times \text{Inv}))) : [G,\mathbb{R}] \times G \times G \rightarrow \mathbb{R}
 $$
-giving a [[retract]] $\int_G \colon C(G) \rightarrow \mathbb{R}$ for $0 \rightarrow \mathbb{R} \rightarrow C(G)$ in $G \text{-Ban}$.
 
-It follows that $\int_G$ has norm $1$, and from this positivity follows immediately.
+
+is continuous, from which we get that
+
+
+$$
+[G,\mathbb{R}] \times G \rightarrow [G,\mathbb{R}]
+$$
+
+
+is continuous using the calculus of mates for exponentiable objects in topological spaces, along with the fact that a compact space is exponentiable. $[G,\mathbb{R}] \times G \rightarrow [G,\mathbb{R}]$ sending $(f,g)$ to the continuous function $f^g$ sending $h$ to $f(hg^{-1}) = f \circ \mu_{g^{-1}} (h)$ is continuous. It follows that image of $\{ f \} \times G$ in $[G,\mathbb{R}]$ is compact. This is the $G$-orbit $\{ f^g : g \in G \}$. $\{ f^g : g \in G \}$ satisfies (1) (2) and (4), but possibly not (3).
+
+The Krein-Smulian theorem for the case of the $\textit{compact subset}$ $G \cdot f$ of the $\textit{Banach-space}$ $C^0(G)^*$ is that the convex hull $\overline{G \cdot f}$ of $G \cdot f$ is compact in the weak topology on $C^0(G)^*$ (not to be confused with the weak${}^*$ topology on $C^0(G)^*$). We can conclude that $\overline{G \cdot f}$ is $G$-invariant, compact, convex, and nonempty. Therefore $\overline{G \cdot f} \in S$.
+
+Claim 2: given a chain $\{ C_n \}_{n \in \mathbb{N}}$ of elements $C_n \in S$ such that $C_{n+1} \subset C_n$, $\cap_{n \in \mathbb{N}} C_n \in S$.
+
+(1) ($G$-invariance) if $\phi \in \cap_{n \in \mathbb{N}} C_n$, then $\phi \in C_n$ for each $n \in \mathbb{N}$, so $\phi^g \in C_n$ for each $n \in \mathbb{N}$, so $\phi^g \in \cap_{n \in \mathbb{N}} C_n$.
+
+(2) (compactness) $\cap_{n \in \mathbb{N}} C_n$ is closed so
+
+(3) (convexity) $\cap_{n \in \mathbb{N}} C_n$ is closed so
+
+(4) (nonemptiness) $C_n$ is a decreasing chain of compact subsets of a Hausdorff topological space, from which we can conclude that it is nonempty.
+
+Claim 3: [[Zorn's Lemma]] for the case of the partial order defined on $S$ by which $C_1 \leq C_2$ if and only if $C_2 \subseteq C_1$ is satisfied because of claim 2 and claim 3. This implies that we may find a minimal element of $S$ in this collection, where $S$ is ordered where $A \leq B$ when $A \subset B$. 
+
+Choose such an element $C$.
+
+Claim 4: $C$ is a singleton.
+
+The Krein-Milman theorem for the case of the $\textit{compact, convex subset}$ $C$ of the ($\textit{locally convex}$) Banach-space $C^0(G)^*$ is that $C$ is the convex hull of its extreme points.
+
+The continuous group action of $G$ on $C$ sends the subspace $\text{Inext}(C)$ of inextremal points to itself, as the average $\sum_{i = 1}^n a_i f_i$ of $f_i$ with $a_i \neq 0$, $a_i \in (0,\infty)$, and $\sum_{i = 1}^n a_i$ remains an average with respect to the same weights $a_i \neq 0$, $a_i \in (0,\infty)$, with $\sum_{i = 1}^n a_i$:
+
+$$
+(a_1 f_1 + a_2 f_2)^g  = a_1 f_1^g + a_2 f_2^g
+$$
+
+Since $G$ acts by homeomorphisms on $C$, $G$ must send the subspace of extremal points $\text{Ext}(C)$ of $C$ to itself. Using again that $G$ acts by homeomorphisms, we can conclude that $\phi$ is extremal if and only if $\phi^g$ is extremal. 
+
+For any $f \in \text{Inext}(C)$, one can construct an object in $S$ using the facts above (the compactness of any $G$-orbit and the resulting compactness of its convex hull $\tilde{C}$ within $C^0(X)^*$), and from that the inclusions $\{ f \} \subset \text{Inext}(C) \subsetneq C$ imply inclusions of the $G$-orbits $G \cdot \{ f \} \subset \text{Inext}(C) \subsetneq C$, which imply inclusions $\overline{G \cdot \{ f \}} \subset \text{Inext}(C) \subseteq C$, from which we can conclude that $C$ is not minimal, a contradiction!
+
+Therefore $0 = \text{card}(\text{Inext}(C))$. This implies $1 = \text{card}(\text{Ext}(C))$, i.e. $C$ is a [[singleton]], and its unique element a $G$-invariant functional extending $f$.
 \end{proof}
 
 
