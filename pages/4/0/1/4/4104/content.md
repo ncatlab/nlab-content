@@ -85,7 +85,7 @@ for all $g \in G$ and all Borel sets $B$.
 
 Any locally compact Hausdorff topological group $G$ admits a Haar integral (and therefore Haar measure) that is unique up to scalar multiple. This result was first proven by [[André Weil]]. Proofs may be found in [Alfsen 1963](#Alfsen63) ([[constructive mathematics|consructive]]) and [Rubinstein-Salzedo 2004](#Rubinstein-Salzedo04). 
 
-An particular argument for the case of a compact Hausdorff topological group was provided by [Bader 2020](#Bader20), which is what we follow now:
+A particular argument for the case of a compact Hausdorff topological group was provided by [Bader 2020](#Bader20), which is what we follow now:
  
 \begin{theorem}
 Let $G$ be a compact Hausdorff topological group. Write $C^0(G)$ for the Banach space of continuous $\mathbb{R}$-valued functions on $G$. There is a unique $G$-invariant $\mathbb{R}$-linear map of Banach-spaces $\int \colon C^0(G) \rightarrow \mathbb{R}$ such that $0 \leq \int f^2$ for all $f  \in C^0(G)$.
@@ -136,7 +136,7 @@ $$
 
 is continuous, using the calculus of [[mates]] for [[exponentiable objects]] in topological spaces, along with the fact that a compact space is exponentiable. $[G,\mathbb{R}] \times G \rightarrow [G,\mathbb{R}]$ sending $(f,g)$ to the continuous function $f^g$ sending $h$ to $f(hg^{-1}) = f \circ \mu_{g^{-1}} (h)$ is continuous. It follows that image of $\{ f \} \times G$ in $[G,\mathbb{R}]$ is compact. This is the $G$-orbit $\{ f^g : g \in G \}$. $\{ f^g : g \in G \}$ satisfies (1) (2) and (4), but possibly not (3).
 
-The Krein-Smulian theorem for the case of the *compact subset* $G \cdot f$ of the *Banach space* $C^0(G)^*$ is that the convex hull $\overline{G \cdot f}$ of $G \cdot f$ is compact in the weak topology on $C^0(G)^*$ (not to be confused with the weak${}^*$ topology on $C^0(G)^*$). We can conclude that $\overline{G \cdot f}$ is $G$-invariant, compact, convex, and nonempty. Therefore $\overline{G \cdot f} \in S$.
+The Krein-Smulian theorem, applied to $G \cdot f$ which is compact in the Banach space $C^0(G)^*$, gives that the convex hull $\overline{G \cdot f}$ of $G \cdot f$ is compact in the weak topology on $C^0(G)^*$ (not to be confused with the weak${}^*$ topology on $C^0(G)^*$). We can conclude that $\overline{G \cdot f}$ is $G$-invariant, compact (relative to the weak topology), convex, and nonempty. Therefore $\overline{G \cdot f} \in S$.
 
 Claim 2: given a chain $\{ C_n \}_{n \in \mathbb{N}}$ of elements $C_n \in S$ such that $C_{n+1} \subset C_n$, $\cap_{n \in \mathbb{N}} C_n \in S$.
 
@@ -154,7 +154,7 @@ Choose such an element $C$.
 
 Claim 4: $C$ is a singleton.
 
-The Krein-Milman theorem for the case of the *compact, convex subset* $C$ of $C^0(G)^*$ (as a locally convex topological vector space under the weak topology) is that $C$ is the convex hull of its extreme points.
+The Krein-Milman theorem, applied to the compact, convex subset $C$ of $C^0(G)^*$ (again as a locally convex topological vector space under the weak topology), gives that $C$ is the convex hull of its extreme points.
 
 The continuous group action of $G$ on $C$ sends the subspace $\text{Inext}(C)$ of inextremal points to itself, as the average $\sum_{i = 1}^n a_i f_i$ of $f_i$ with $a_i \neq 0$, $a_i \in (0,\infty)$, and $\sum_{i = 1}^n a_i$ remains an average with respect to the same weights $a_i \neq 0$, $a_i \in (0,\infty)$, with $\sum_{i = 1}^n a_i$:
 
