@@ -136,7 +136,7 @@ $$
 
 is continuous, using the calculus of [[mates]] for [[exponentiable objects]] in topological spaces, along with the fact that a compact space is exponentiable. $[G,\mathbb{R}] \times G \rightarrow [G,\mathbb{R}]$ sending $(f,g)$ to the continuous function $f^g$ sending $h$ to $f(hg^{-1}) = f \circ \mu_{g^{-1}} (h)$ is continuous. It follows that image of $\{ f \} \times G$ in $[G,\mathbb{R}]$ is compact. This is the $G$-orbit $\{ f^g : g \in G \}$. $\{ f^g : g \in G \}$ satisfies (1) (2) and (4), but possibly not (3).
 
-The Krein-Smulian theorem for the case of the $\textit{compact subset}$ $G \cdot f$ of the $\textit{Banach-space}$ $C^0(G)^*$ is that the convex hull $\overline{G \cdot f}$ of $G \cdot f$ is compact in the weak topology on $C^0(G)^*$ (not to be confused with the weak${}^*$ topology on $C^0(G)^*$). We can conclude that $\overline{G \cdot f}$ is $G$-invariant, compact, convex, and nonempty. Therefore $\overline{G \cdot f} \in S$.
+The Krein-Smulian theorem for the case of the *compact subset* $G \cdot f$ of the *Banach space* $C^0(G)^*$ is that the convex hull $\overline{G \cdot f}$ of $G \cdot f$ is compact in the weak topology on $C^0(G)^*$ (not to be confused with the weak${}^*$ topology on $C^0(G)^*$). We can conclude that $\overline{G \cdot f}$ is $G$-invariant, compact, convex, and nonempty. Therefore $\overline{G \cdot f} \in S$.
 
 Claim 2: given a chain $\{ C_n \}_{n \in \mathbb{N}}$ of elements $C_n \in S$ such that $C_{n+1} \subset C_n$, $\cap_{n \in \mathbb{N}} C_n \in S$.
 
@@ -154,7 +154,7 @@ Choose such an element $C$.
 
 Claim 4: $C$ is a singleton.
 
-The Krein-Milman theorem for the case of the $\textit{compact, convex subset}$ $C$ of the ($\textit{locally convex}$) Banach-space $C^0(G)^*$ is that $C$ is the convex hull of its extreme points.
+The Krein-Milman theorem for the case of the *compact, convex subset* $C$ of $C^0(G)^*$ (as a locally convex topological vector space under the weak topology) is that $C$ is the convex hull of its extreme points.
 
 The continuous group action of $G$ on $C$ sends the subspace $\text{Inext}(C)$ of inextremal points to itself, as the average $\sum_{i = 1}^n a_i f_i$ of $f_i$ with $a_i \neq 0$, $a_i \in (0,\infty)$, and $\sum_{i = 1}^n a_i$ remains an average with respect to the same weights $a_i \neq 0$, $a_i \in (0,\infty)$, with $\sum_{i = 1}^n a_i$:
 
