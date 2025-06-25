@@ -13,7 +13,6 @@
 =--
 
 
-
 \tableofcontents
 
 ## Idea 
@@ -86,10 +85,10 @@ for all $g \in G$ and all Borel sets $B$.
 
 Any locally compact Hausdorff topological group $G$ admits a Haar integral (and therefore Haar measure) that is unique up to scalar multiple. This result was first proven by [[André Weil]]. Proofs may be found in [Alfsen 1963](#Alfsen63) ([[constructive mathematics|consructive]]) and [Rubinstein-Salzedo 2004](#Rubinstein-Salzedo04). 
 
-A proof for the case of a compact hausdorff topological group was provided by Uri Bader on Mathoverflow in response the question titled "Existence and uniqueness of Haar measure on compacta; a cohomological approach".
+An particular argument for the case of a compact Hausdorff topological group was provided by [Bader 2020](#Bader20), which is what we follow now:
  
-\begin{theorem}[Bader, 2020]
-Let $G$ be a compact Hausdorff topological group. Write $C^0(G)$ for the Banach space of continuous $\mathbb{R}$-valued functions on $G$. There is a unique $G$-invariant $\mathbb{R}$-linear map of Banach-spaces $\int : C^0(G) \rightarrow \mathbb{R}$ such that $0 \leq \int f^2$ for all $f  \in C^0(G)$.
+\begin{theorem}
+Let $G$ be a compact Hausdorff topological group. Write $C^0(G)$ for the Banach space of continuous $\mathbb{R}$-valued functions on $G$. There is a unique $G$-invariant $\mathbb{R}$-linear map of Banach-spaces $\int \colon C^0(G) \rightarrow \mathbb{R}$ such that $0 \leq \int f^2$ for all $f  \in C^0(G)$.
 \end{theorem}
 
 \begin{proof}
@@ -99,7 +98,7 @@ Consider the set $S$ of subsets $C$ of $C^0(G)^*$ which satisfy
 
 (2) (compactness) The subtopology on $C$ is compact.
 
-(3) (convexity) for elements $\phi_1, ...., \phi_n$ in $C$ and $a_1, ..., a_n \in [0,\infty)$ such that $\sum_{i = 1}^n a_i = 1$, $\sum_{i = 1}^n a_i \phi_i \in C$.
+(3) (convexity) for elements $\phi_1, \ldots, \phi_n$ in $C$ and $a_1, ..., a_n \in [0,\infty)$ such that $\sum_{i = 1}^n a_i = 1$, $\sum_{i = 1}^n a_i \phi_i \in C$.
 
 (4) (nonemptiness) there is an element of $C^0(G)^*$ contained in $C$.
 
@@ -114,19 +113,28 @@ For any $f \in C^0(G)$, $\{ f \} \subset C^0(G)$ is closed because it is a singl
 The composition
 
 $$
-\text{ev} \circ (1 \times (\mu \circ (1 \times \text{Inv}))) : [G,\mathbb{R}] \times G \times G \rightarrow \mathbb{R}
+  \text{ev} \circ 
+  \Big(1 \times 
+    \big(\mu \circ 
+      (1 \times \text{Inv})
+    \big)
+  \Big) 
+  \;\colon\; 
+  [G,\mathbb{R}] \times G \times G 
+    \longrightarrow 
+  \mathbb{R}
 $$
-
 
 is continuous, from which we get that
 
-
 $$
-[G,\mathbb{R}] \times G \rightarrow [G,\mathbb{R}]
+  [G,\mathbb{R}] \times G 
+    \longrightarrow 
+  [G,\mathbb{R}]
 $$
 
 
-is continuous using the calculus of mates for exponentiable objects in topological spaces, along with the fact that a compact space is exponentiable. $[G,\mathbb{R}] \times G \rightarrow [G,\mathbb{R}]$ sending $(f,g)$ to the continuous function $f^g$ sending $h$ to $f(hg^{-1}) = f \circ \mu_{g^{-1}} (h)$ is continuous. It follows that image of $\{ f \} \times G$ in $[G,\mathbb{R}]$ is compact. This is the $G$-orbit $\{ f^g : g \in G \}$. $\{ f^g : g \in G \}$ satisfies (1) (2) and (4), but possibly not (3).
+is continuous, using the calculus of [[mates]] for [[exponentiable objects]] in topological spaces, along with the fact that a compact space is exponentiable. $[G,\mathbb{R}] \times G \rightarrow [G,\mathbb{R}]$ sending $(f,g)$ to the continuous function $f^g$ sending $h$ to $f(hg^{-1}) = f \circ \mu_{g^{-1}} (h)$ is continuous. It follows that image of $\{ f \} \times G$ in $[G,\mathbb{R}]$ is compact. This is the $G$-orbit $\{ f^g : g \in G \}$. $\{ f^g : g \in G \}$ satisfies (1) (2) and (4), but possibly not (3).
 
 The Krein-Smulian theorem for the case of the $\textit{compact subset}$ $G \cdot f$ of the $\textit{Banach-space}$ $C^0(G)^*$ is that the convex hull $\overline{G \cdot f}$ of $G \cdot f$ is compact in the weak topology on $C^0(G)^*$ (not to be confused with the weak${}^*$ topology on $C^0(G)^*$). We can conclude that $\overline{G \cdot f}$ is $G$-invariant, compact, convex, and nonempty. Therefore $\overline{G \cdot f} \in S$.
 
@@ -206,6 +214,8 @@ Proofs:
 * {#Alfsen63} E. M. Alfsen: *A Simplified Constructive Proof of the Existence and Uniqueness of Haar Measure*, Mathematica Scandinavica **12**  (1963) &lbrack;[doi:10.7146/math.scand.a-10675](https://doi.org/10.7146/math.scand.a-10675)&rbrack;
 
 * {#Rubinstein-Salzedo04} Simon Rubinstein-Salzedo: *On the existence and uniqueness of invariant measures on locally compact groups* (2004) &lbrack;[pdf](http://simonrs.com/HaarMeasure.pdf)&rbrack;
+
+* {#Bader20} Uri Bader, MO comment (2020) &lbrack;[MO:a/351405](https://mathoverflow.net/a/351405/381)&rbrack;
 
 See also:
 
