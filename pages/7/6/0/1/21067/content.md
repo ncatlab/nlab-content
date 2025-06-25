@@ -88,7 +88,7 @@ The diagram (eq:UnitProperty) is also sometimes called the _unit triangle_, and 
 
 ### Homomorphisms
 
-Let $(A,a)$ and $(B,b)$ be $T$-algebra. A **[[homomorphism]] of $T$-algebras** is a [[morphism]] $f \colon A \to B$ of $\mathcal{C}$ which makes the following [[commuting diagram|diagram commute]].
+Let $(A,a)$ and $(B,b)$ be $T$-algebras. A **[[homomorphism]] of $T$-algebras** is a [[morphism]] $f \colon A \to B$ of $\mathcal{C}$ which makes the following [[commuting diagram|diagram commute]].
 
 \begin{tikzcd}
   TA 
