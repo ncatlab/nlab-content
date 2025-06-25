@@ -219,7 +219,7 @@ Thus, for every topological space $X$, the topos $\mathrm{Sh}(X)$ has a Dedekind
 +-- {: .num_theorem #DedekindRealsInToposOverTopologicalSpace}
 ###### Theorem
 
-A Dedekind real numbers object $\mathbb{R}$ in the topos $\mathrm{Sh}(X)$ is isomorphic to the sheaf of real-valued [[continuous functions]] on $X$, assuming $X$ is sober.
+A Dedekind real numbers object $\mathbb{R}$ in the topos $\mathrm{Sh}(X)$ is isomorphic to the sheaf of real-valued [[continuous functions]] on $X$.
 
 =--
 
@@ -268,6 +268,8 @@ Therefore, if $E = Sh(S)$ for some site $S$, then $\mathbb{R}_E$ is the sheaf on
 =--
 
 To deduce the previous theorem from this one, it suffices to observe that if $S\subset Top$ is closed under open subspaces and their pullbacks and equipped with the open-cover coverage, then every subobject of $y X\in Sh(S)$, for any $X\in S$, is uniquely representable by an open subset of $X$.
+
+To deduce Mac Lane's theorem for spaces, observe that $\mathbb{R}$ is sober, so locale maps from (the locale of opens of) any space $X$ into $\mathbb{R}$ correspond to continuous maps from $X$ into $\mathbb{R}$.
 
 +--{: .query}
 There is some dispute about this, see [here](http://nforum.ncatlab.org/discussion/6289/when-is-the-internal-real-line-the-external-real-line/?Focus=50275#Comment_50275).
