@@ -81,7 +81,7 @@ Since $\beta \lt \alpha$ implies $C^\beta \supseteq C^\alpha$, it is clear that 
 
 +-- {: .num_prop #cantor} 
 ###### Proposition 
-For each nonempty perfect set $P$ in a Polish space $X$, there is a continuous injection $i: \mathbf{2}^\mathbb{N} \to P$ from [[Cantor space]]. In particular, the cardinality of $P$ is the [[continuum]] $c$. 
+For each [[inhabited set|nonempty]] [[perfect set]] $P$ in a Polish space $X$, there is a continuous injection $i: \mathbf{2}^\mathbb{N} \to P$ from [[Cantor space]]. In particular, the cardinality of $P$ is the [[continuum]] $c$. 
 =-- 
 
 +-- {: .proof} 
