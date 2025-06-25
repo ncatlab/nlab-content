@@ -56,7 +56,7 @@ Let $\mathbb{T}$ be a [[geometric theory]] and $\sigma$ a geometric sequent that
 =--
 
 
-In other words, if a statement in [[geometric logic]] is deducible from a [[geometric theory]] using classical [[logic]] and the [[axiom of choice]], then it is also deducible from it in [[constructive mathematics]]. Unfortunately, the proof of Barr's theorem itself is highly non-constructive whence is of no direct help in finding such constructive replacements for classical proofs of geometric statements. 
+In other words, if a statement in [[geometric logic]] is deducible from a [[geometric theory]] using classical [[logic]] and the [[axiom of choice]], then it is also deducible from it in [[constructive mathematics]]. While the construction in the proof Barr's theorem is constructive, the proof that it results in a topos where the axiom of choice holds depends on an application of Zorn's Lemma in the base topos (of sets, say); see Theorems 5.39 and 7.57 of Johnstone's _Topos Theory_. Hence the result does not directly help in finding such constructive replacements for classical proofs of geometric statements. 
 
 
 ## Related entries
