@@ -178,7 +178,7 @@ This is theorem 1.3 in ([Badzioch](#Badzioch))
 
 ## Examples
 
-The model structure on homotopy $T$-algebras for $T = $ [[CartSp]] the Lawvere theory of [[smooth algebra]]s is considered in ([Spivak](#Spivak)) in the study of [[derived smooth manifold]]. (There is also a bit of disucssion of the relation to the model structure on simplicial algebras there.)
+The model structure on homotopy $T$-algebras for $T = $ [[CartSp]] the Lawvere theory of [[smooth algebra]]s is considered in ([Spivak](#Spivak)) in the study of [[derived smooth manifold]]s. (There is also a bit of discussion of the relation to the model structure on simplicial algebras there.)
 
 
 ## Related concepts
