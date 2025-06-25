@@ -219,7 +219,7 @@ Thus, for every topological space $X$, the topos $\mathrm{Sh}(X)$ has a Dedekind
 +-- {: .num_theorem #DedekindRealsInToposOverTopologicalSpace}
 ###### Theorem
 
-A Dedekind real numbers object $\mathbb{R}$ in the topos $\mathrm{Sh}(X)$ is isomorphic to the sheaf of real-valued [[continuous functions]] on $X$.
+A Dedekind real numbers object $\mathbb{R}$ in the topos $\mathrm{Sh}(X)$ is isomorphic to the sheaf of real-valued [[continuous functions]] on $X$, assuming $X$ is sober.
 
 =--
 
