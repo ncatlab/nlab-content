@@ -30,3 +30,8 @@ Discussion with tools from [[extended TQFT]] and [[stable homotopy theory]] (aim
 In relation to the [[conformal bootstrap]]:
 
 * Leandro Lanosa, Mauricio Leston, Mario Passaglia, *Interplay between reflection positivity and crossing symmetry in the bootstrap approach to CFT* ([arXiv:2112.00232](https://arxiv.org/abs/2112.00232))
+
+See also:
+
+* Gohin Shaikh Samad, W.N.Polyzou: *Reflection positivity in Euclidean formulations of relativistic quantum mechanics of particles* &lbrack;[arXiv:2506.20526](https://arxiv.org/abs/2506.20526)&rbrack;
+
