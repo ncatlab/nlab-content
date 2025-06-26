@@ -11,9 +11,9 @@ On [[T-duality]] in the [[K-theory classification of topological phases of matte
 * [[Keith C. Hannabuss]], [[Varghese Mathai]], [[Guo Chuan Thiang]], *T-duality trivializes bulk-boundary correspondence: the parametrised case*, Adv. Theor. Math. Phys. **20** (2016) 1193-1226 \[<a href="https://doi.org/10.4310/ATMP.2016.v20.n5.a8">doi:10.4310/ATMP.2016.v20.n5.a8</a>, [arXiv:1510.04785](https://arxiv.org/abs/1510.04785)\]
 
 
-* [[Keith C. Hannabuss]], [[Varghese Mathai]], [[Guo Chuan Thiang]], *T-duality simplifies bulk-boundary correspondence: the noncommutative case*, Lett. Math. Phys. **108** 5 (2018) 1163-1201 \[<a href="https://doi.org/10.1007/s11005-017-1028-x">doi:10.1007/s11005-017-1028-x</a>, [arXiv:1603.00116](https://arxiv.org/abs/1603.00116)\]
+* [[Keith C. Hannabuss]], [[Varghese Mathai]], [[Guo Chuan Thiang]]: *T-duality simplifies bulk-boundary correspondence: the noncommutative case*, Lett. Math. Phys. **108** 5 (2018) 1163-1201 \[<a href="https://doi.org/10.1007/s11005-017-1028-x">doi:10.1007/s11005-017-1028-x</a>, [arXiv:1603.00116](https://arxiv.org/abs/1603.00116)\]
 
-* [[Kiyonori Gomi]], [[Guo Chuan Thiang]], *Crystallographic T-duality*. J. Geom. Phys **139** (2019) 50-77 \[<a href="https://doi.org/10.1016/j.geomphys.2019.01.002">doi:10.1016/j.geomphys.2019.01.002</a>, [arXiv:1806.11385](https://arxiv.org/abs/1806.11385)\]
+* [[Kiyonori Gomi]], [[Guo Chuan Thiang]]: *Crystallographic T-duality*, J. Geom. Phys **139** (2019) 50-77 \[<a href="https://doi.org/10.1016/j.geomphys.2019.01.002">doi:10.1016/j.geomphys.2019.01.002</a>, [arXiv:1806.11385](https://arxiv.org/abs/1806.11385)\]
 
 
 Review: 
