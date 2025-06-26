@@ -40,6 +40,8 @@ Complex [[derived analytic geometry]] is the refinement of the notion of [[compl
 
 * [[Frédéric Paugam]], _[[Overconvergent global analytic geometry]]_
 
+* [[Eita Haibara]], _Derived analytic geometry: Derived Kähler space and Hodge theory_, [arXiv:2506.19629](https://arxiv.org/abs/2506.19629) .
+
 [[!redirects derived complex analytic spaces]]
 
 [[!redirects derived complex analytic spaces]]
