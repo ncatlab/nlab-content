@@ -470,7 +470,12 @@ See also Section 2.3.18 and section 4.7 of
 
 ### Partition functions
 
+On the [[partition functions]] of WZW models:
+
 * [[Terry Gannon]], _Partition Functions for Heterotic WZW Conformal Field Theories_, Nucl.Phys. B402 (1993) 729-753 ([arXiv:hep-th/9209042](http://arxiv.org/abs/hep-th/9209042))
+
+* Sameer Murthy, [[Edward Witten]]: *Localization of strings on group manifolds* &lbrack;[arXiv:2506.20028](https://arxiv.org/abs/2506.20028)&rbrack;
+
 
 ### D-branes for the WZW model
  {#ReferencesDBranes}
