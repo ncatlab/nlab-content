@@ -1,5 +1,10 @@
 
-* [wikiepdia entry](http://de.wikipedia.org/wiki/Luis_%C3%81lvarez-Gaum%C3%A9)
+* [institute page](https://scgp.stonybrook.edu/about/a-word-from-the-director/about-the-director-2)
+
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Luis_%C3%81lvarez-Gaum%C3%A9)
+
+* [inSpire page](https://inspirehep.net/authors/1018555)
+
 
 ## Selected writings
 
@@ -30,7 +35,7 @@ On [[T-duality]]:
 
 On [[duality in physics]] and specifically [[duality in string theory]]:
 
-* {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, Section IV.B of: _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
+* {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora: *Duality in Quantum Field Theory (and String Theory)*, AIP Conference Proceedings **423** (1998) 46–83 &lbrack;[arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
 
 On ([[effective field theory]]) [[quantum field theory]] and the [[standard model of particle physics]]:
 
