@@ -46,4 +46,6 @@ The [[higher geometry]] version of [[complex analytic geometry]], for instance (
 
 * [[Mauro Porta]], [[Tony Yue Yu]], _Higher analytic stacks and GAGA theorems_, [arXiv:1412.5166](http://arxiv.org/abs/1412.5166).
 
+* [[Eita Haibara]], _Derived analytic geometry: Derived Kähler space and Hodge theory_, [arXiv:2506.19629](https://arxiv.org/abs/2506.19629) .
+
 [[!redirects complex analytic higher geometry]]
