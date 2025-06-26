@@ -285,7 +285,7 @@ There is also a duality in the _description_ of physics:
 
 ### General
 
-* {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
+* {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora: *Duality in Quantum Field Theory (and String Theory)*, AIP Conference Proceedings **423** (1998) 46–83 &lbrack;[arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
 
 * {#Corfield17} [[David Corfield]], _Duality as a category-theoretic concept_, Studies in History and Philosophy of Modern Physics Volume 59, August 2017, Pages 55-61 ([doi:10.1016/j.shpsb.2015.07.004](https://doi.org/10.1016/j.shpsb.2015.07.004))
 
@@ -326,7 +326,8 @@ See also more general discussion of [[Morita equivalence]]:
 
 On [[duality in string theory]] (but see there fore more):
 
-* {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
+* {#Polchinski14} [[Joseph Polchinski]]: *Dualities of Fields and Strings*, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics
+**59** (2017) 6-20 &lbrack;[arXiv:1412.5704](http://arxiv.org/abs/1412.5704), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
 
 * [[Cumrun Vafa]], around 3:30, 12:00 of _On Mathematical Aspects of String Theory_ ([video](https://www.youtube.com/watch?v=yreUdrIbt2Q))
 
