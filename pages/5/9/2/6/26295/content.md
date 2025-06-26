@@ -38,7 +38,7 @@ More exhaustive references:
 
 See also:
 
-* [[Luca Mesiti]], *The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits* &lbrack;[arXiv:2302.04566](https://arxiv.org/abs/2302.04566)&rbrack;
+* [[Luca Mesiti]], *Pointwise Kan extensions along 2-fibrations and the 2-category of elements* &lbrack;[arXiv:2302.04566](https://arxiv.org/abs/2302.04566)&rbrack;
 
 
 [[!redirects 2-Grothendieck constructions]]
@@ -48,3 +48,6 @@ See also:
 
 [[!redirects Grothendieck construction for bicategories]]
 [[!redirects Grothendieck constructions for bicategories]]
+
+[[!redirects bicategory of elements]]
+[[!redirects bicategories of elements]]
