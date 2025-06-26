@@ -112,6 +112,10 @@ In constructive mathematics, $\mathcal{P}$ defines an equivalence of $\Set$ with
 
 =--
 
+### Endo-adjunctions
+
+Left adjoint endofunctors on $Set$ are cocontinuous, and so are uniquely defined on the terminal generator $1$. So any left adjoint endofunctor $F:Set \to Set$ such that $F(1) = S$ for a set $S$ is uniquely the functor $F(X) = S \times X$. The corresponding right adjoint endofunctor in this adjoint pair is the functor $F(X) = S \to X$ given by currying. 
+
 ## Related categories
 
 * [[Set in homotopy type theory]]
@@ -133,6 +137,9 @@ On [[Set in homotopy type theory]]:
 
 * {#RijkeSpitters13} [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_, Mathematical Structures in Computer Science, Volume 25, Issue 5 (From type theory and homotopy theory to Univalent Foundations of Mathematics)  ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
 
+On endofunctors and endo-adjunctions in Set:
+
+* [[Marta Bunge]], *Categories of set valued functors*, Reprints in Theory and Applications of Categories, No. 30 (2024) pp. 1-84 &lbrack;[pdf](http://www.tac.mta.ca/tac/reprints/articles/30/tr30.pdf)&rbrack;
 
 category: category
 
@@ -140,3 +147,9 @@ category: category
 [[!redirects SET]]
 [[!redirects category of sets]]
 [[!redirects the category of sets]]
+
+[[!redirects endo-adjunction of Set]]
+[[!redirects endo-adjunctions of Set]]
+
+[[!redirects endo-adjunction in Set]]
+[[!redirects endo-adjunctions in Set]]
