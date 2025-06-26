@@ -16,7 +16,7 @@
 
 ## Definition
 
-The _projective general linear group_ $PGL(n)$ (in some [[dimension]] $n$ and over some [[coefficients]]) is the [[quotient]] of the [[general linear group]] $GL(n)$ by its [[center of a group|center]].
+The _projective general linear group_ $PGL(n)$ (in some [[dimension]] $n$ and over some [[coefficients]]) is the [[quotient]] of the [[general linear group]] $GL(n)$ by its [[center of a group|center]], in other words by the subgroup consisting of scalar multiplies of the identity.
 
 Elements of $PGL(n)$ are identified with the  automorphisms of the projective space of lines in the original vector space where $GL(n)$ is acting, hence they amount to [[projective transformation]]s of the projective space. 
 
