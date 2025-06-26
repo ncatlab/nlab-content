@@ -82,7 +82,7 @@ A $C^*$-subalgebra $A \subseteq C(X, \mathbb{C})$ is dense if and only if it sep
 
 =--
 
-There is also a [[locally compact space|locally compact]] version. Let $X$ be a locally compact Hausdorff space and let $C_0(X)$ be the space of (say real-valued) functions $f$ which "vanish at infinity": for every $\varepsilon \gt 0$ there exists a compact set $K \subseteq X$ such that $|f(x)| \lt \varepsilon$ for all $x$ outside $K$. Under pointwise multiplication, $C_0(X)$ is a commutative algebra _without_ unit. In fact, under the sup norm, it is a Banach algebra and even a $C^\ast$-algebra (see for instance [here](vanishing+at+infinity#FunctionsVanInftyAreCstar)). 
+There is also a [[locally compact space|locally compact]] version. Let $X$ be a locally compact Hausdorff space and let $C_0(X)$ be the space of (say complex-valued) functions $f$ which "vanish at infinity": for every $\varepsilon \gt 0$ there exists a compact set $K \subseteq X$ such that $|f(x)| \lt \varepsilon$ for all $x$ outside $K$. Under pointwise multiplication, $C_0(X)$ is a commutative algebra _without_ unit. In fact, under the sup norm, it is a Banach algebra and even a $C^\ast$-algebra (see for instance [here](vanishing+at+infinity#FunctionsVanInftyAreCstar)). 
 
 As before, we have a notion of subalgebra $A \subseteq C_0(X)$. 
 
