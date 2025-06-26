@@ -79,7 +79,7 @@ A [[class]] $R \subset Mor(\mathcal{E})$ of [[morphism]]s in a [[topos]] $\mathc
 
 The class $R$ is called a class of **&#233;tale maps** if in addition to the axioms 1-5 above it satisfies
 
-1. for $f : X \to Y$ in $R$ also the [[diagonal]] $Y \to Y \times_X Y$ is in $R$.
+1. for $f : X \to Y$ in $R$ also the [[diagonal]] $X \to X \times_Y X$ is in $R$.
 
 1. If in 
 
