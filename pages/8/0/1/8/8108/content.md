@@ -1,7 +1,15 @@
 
-* [webpage](http://www.math.rochester.edu/people/faculty/doug/)
+* [personal page](https://www.sas.rochester.edu/mth/sites/doug-ravenel/)
 
-* [[Michael Hopkins]], _The mathematical work of Douglas C. Ravenel_, Homology Homotopy Appl. Volume 10, Number 3 (2008), 1-13 ([euclid:hha/1251832464](https://projecteuclid.org/euclid.hha/1251832464))
+* [institute page](https://www.sas.rochester.edu/mth/people/faculty/ravenel-doug/index.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Douglas_Ravenel)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=12024)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=dwLzZP4AAAAJ&hl=en)
+
+* [[Michael Hopkins]]: _The mathematical work of Douglas C. Ravenel_, Homology Homotopy Appl. **10** 3 (2008) 1-13 &lbrack;[euclid:hha/1251832464](https://projecteuclid.org/euclid.hha/1251832464)&rbrack;
 
 
 
