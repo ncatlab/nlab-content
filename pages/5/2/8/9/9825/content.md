@@ -204,6 +204,10 @@ Discussion in the refined context of ([[local field theory|local]] [[algebraic q
 
 * [[Christopher J. Fewster]]: *Lectures on measurement in quantum field theory* &lbrack;[arXiv:2504.17437](https://arxiv.org/abs/2504.17437)&rbrack;
 
+See also:
+
+* Samuel Fedida: *Einstein causality of quantum measurements in the Tomonaga-Schwinger picture* &lbrack;[arXiv:2506.14693](https://arxiv.org/abs/2506.14693)&rbrack;
+
 
 
 
