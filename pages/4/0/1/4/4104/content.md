@@ -215,7 +215,7 @@ Proofs:
 
 * {#Rubinstein-Salzedo04} Simon Rubinstein-Salzedo: *On the existence and uniqueness of invariant measures on locally compact groups* (2004) &lbrack;[pdf](http://simonrs.com/HaarMeasure.pdf)&rbrack;
 
-* {#Bader20} Uri Bader, MO comment (2020) &lbrack;[MO:a/351405](https://mathoverflow.net/a/351405/381)&rbrack;
+* {#Bader20} Uri Bader, MO answer (2020) &lbrack;[MO:a/351405](https://mathoverflow.net/a/351405/381)&rbrack;
 
 See also:
 
