@@ -123,6 +123,8 @@ See also
 
 * [[Nikolay Bobev]], Pieter Bomans, Fridrik Freyr Gautason: *Spherical Branes and the BMN Matrix Quantum Mechanics* &lbrack;[arXiv:2410.21376](https://arxiv.org/abs/2410.21376)&rbrack;
 
+* Yoav Zigdon: *A Charge Constraint in BMN* &lbrack;[arXiv:2506.19924](https://arxiv.org/abs/2506.19924)&rbrack;
+
 
 
 
