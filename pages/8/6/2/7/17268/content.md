@@ -1417,11 +1417,9 @@ Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that th
 
 
 [[!redirects Quillen model structure on simplicial sets]]
-[[!redirects Kan-Quillen model structure on simplicial sets]]
-[[!redirects Kan-Quillen model structure]]
 [[!redirects classical model category of simplicial sets]]
 
 [[!redirects Kan-Quillen model structure]]
+[[!redirects Kan-Quillen model structure on simplicial sets]]
 [[!redirects Kan–Quillen model structure]]
-
-
+[[!redirects Kan–Quillen model structure on simplicial sets]]
