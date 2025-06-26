@@ -131,8 +131,7 @@ Proposal for experimental realization of [[Berry phases]] around [[codimension]]
 [[!redirects Berry curvature]]
 [[!redirects Berry curvatures]]
 
-[[!redirects Berry phase]]
-[[!redirects Berry phases]]
+
 
 [[!redirects Zak phase]]
 [[!redirects Zak phases]]
