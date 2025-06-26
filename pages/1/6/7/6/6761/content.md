@@ -16,9 +16,9 @@
 
 The representable and corepresentable functor theorems are simple consequences of the [[general adjoint functor theorem]] and the following observations:
 
-* Suppose $C$ is a [[cocomplete category]].  A functor $F: C^{op}\to Set$ is [[representable]] if and only if it has a [[left adjoint]] $L$.  In this case, $L(\{\ast\})=X$ is the [[representing object]].  More generally, $L(S)=X^S$ is the [[product]] of $S$ copies of $X$, which exists.
+* Suppose $C$ is a [[complete category]].  A functor $F: C^{op}\to Set$ is [[representable]] if and only if it has a [[left adjoint]] $L$.  In this case, $L(\{\ast\})=X$ is the [[representing object]].  More generally, $L(S)=X^S$ is the [[product]] of $S$ copies of $X$, which exists.
 
-* Suppose $C$ is a [[complete category]].  A functor $F:C\to Set$ is [[corepresentable]] if and only if it has a [[left adjoint]] $L$.  In this case, $L(\{\ast\})=X$ is the [[corepresenting object]].  More generally, $L(S)=\coprod_S X$ is the [[coproduct]] of $S$ copies of $X$, which exists. 
+* Suppose $C$ is a [[cocomplete category]].  A functor $F:C\to Set$ is [[corepresentable]] if and only if it has a [[left adjoint]] $L$.  In this case, $L(\{\ast\})=X$ is the [[corepresenting object]].  More generally, $L(S)=\coprod_S X$ is the [[coproduct]] of $S$ copies of $X$, which exists. 
 
 ## Statement
 
