@@ -3531,7 +3531,7 @@ The original article:
 
 An expository, concise and comprehensive writeup of the proof of the model category axioms:
 
-* {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, Expositiones Mathematicae Volume 37, Issue 1, March 2019, Pages 2-24 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942), [doi:10.1016/j.exmath.2017.10.004](https://doi.org/10.1016/j.exmath.2017.10.004))
+* {#Hirschhorn15} [[Philip Hirschhorn]]: *The Quillen model category of topological spaces*, Expositiones Mathematicae **37** 1 (2019) 2-24 &lbrack;[arXiv:1508.01942](http://arxiv.org/abs/1508.01942), [doi:10.1016/j.exmath.2017.10.004](https://doi.org/10.1016/j.exmath.2017.10.004)&rbrack;
 
 
 Useful discussion of the issue of [[compactly generated topological spaces]] in the context of homotopy theory is in 
