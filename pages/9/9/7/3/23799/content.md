@@ -50,9 +50,9 @@ See also:
 
 ### Review
 
-* [[Yoichi Ando]] and [[Liang Fu]], *Topological Crystalline Insulators and Topological Superconductors: From Concepts to Materials*, Annual Review of Condensed Matter Physics **6** (2015) 361-381 &lbrack;[doi:10.1146/annurev-conmatphys-031214-014501](https://doi.org/10.1146/annurev-conmatphys-031214-014501)&rbrack;
+* [[Yoichi Ando]], [[Liang Fu]]: *Topological Crystalline Insulators and Topological Superconductors: From Concepts to Materials*, Annual Review of Condensed Matter Physics **6** (2015) 361-381 &lbrack;[doi:10.1146/annurev-conmatphys-031214-014501](https://doi.org/10.1146/annurev-conmatphys-031214-014501), [arXiv:1501.00531](https://arxiv.org/abs/1501.00531)&rbrack;
 
-* [[Titus Neupert]], [[Frank Schindler]], *Lecture Notes on Topological Crystalline Insulators*, in: *Topological Matter* Springer Series in Solid-State Sciences **190**, Springer (2018) &lbrack;[arXiv:1810.03484](https://arxiv.org/abs/1810.03484), [doi:10.1007/978-3-319-76388-0_2](https://doi.org/10.1007/978-3-319-76388-0_2)&rbrack;
+* [[Titus Neupert]], [[Frank Schindler]]: *Lecture Notes on Topological Crystalline Insulators*, in: *Topological Matter* Springer Series in Solid-State Sciences **190**, Springer (2018) &lbrack;[arXiv:1810.03484](https://arxiv.org/abs/1810.03484), [doi:10.1007/978-3-319-76388-0_2](https://doi.org/10.1007/978-3-319-76388-0_2)&rbrack;
 
   > (emphasis on [[Wilson loops]] of the [[Berry connection]])
 
