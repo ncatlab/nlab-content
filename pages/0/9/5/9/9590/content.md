@@ -30,7 +30,23 @@ In case $Y$ is a pointed [[metric space]] (such as a [[Banach space]], with base
 
 ### Relation to compactifications
 
-One way of considering this definition is that one can adjoin to $X$ a point "at infinity", denoted $\infty$, by declaring that the [[open neighborhoods]] of $\infty$ are sets of the form $\{\infty\} \cup Ext(K)$ for $K \subset X$ compact. This is called the [[one-point compactification]], denoted $X^{cpt}$. Then a [[continuous function]] $f \colon X \to A$ vanishes at infinity equivalently if it [[extension|extends]] $f$ to a map $X^{cpt} \to A$, continuous at $\infty$ (at least) that sends $\infty$ to $0$ -- thus _literally- "vanishing at $\infty$".
+One way of considering this definition is that one can adjoin to $X$ a point "at infinity", denoted $\infty$, by declaring that the [[open neighborhoods]] of $\infty$ are sets of the form $\{\infty\} \cup Ext(K)$ for $K \subset X$ compact. This is called the [[one-point compactification]], denoted $X^{cpt}$. Then a [[continuous function]] $f \colon X \to A$ vanishes at infinity equivalently if it [[extension|extends]] $f$ to a map $X^{cpt} \to A$, continuous at $\infty$ (at least) that sends $\infty$ to $0$ -- thus _literally- "vanishing at $\infty$". 
+
+In view of this equivalence, we may say that for locally compact $X$, the vector space of functions $X \to \mathbb{C}$ that vanish at $\infty$, denoted $C_0(X)$, is isomorphic to the kernel of the evaluation map 
+
+$$ev_\infty: [X^{cpt}, \mathbb{C}] \to \mathbb{C}$$ 
+
+from the [[function space]] on $X^{cpt}$, with pointwise defined $C^\ast$-algebra structure and the sup-norm topology. 
+
++-- {: .num_prop #FunctionsVanInftyAreCstar}
+###### Proposition
+$C_0(X)$ is a $C^\ast$-algebra. 
+=--
+
+\begin{proof} 
+Since the function space is a $C^\ast$-algebra and $C_0(X) \cong \ker(ev_\infty)$ is a closed subspace, and thus a Banach space, and since the $C^\ast$-algebra structure on $[X^{cpt}, \mathbb{C}]$ clearly restricts to a $C^\ast$-algebra structure on the kernel, the result is clear. 
+\end{proof} 
+
 
 For more see 
 
