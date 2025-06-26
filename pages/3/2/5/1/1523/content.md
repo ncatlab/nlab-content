@@ -43,8 +43,8 @@ $$
 Thus, it is a [[coalgebra]] for the endofunctor $H(X) = 1 + X$ on [[Set]], and indeed is the [[terminal coalgebra]] for $H$.  That is, given any set $S$ and map $p\colon S \to 1 + S$, there is a unique map $corec_S p\colon S \to \bar{\mathbb{N}}$ such that
 
 \begin{tikzcd} 
-S \ar[r, "p"] \ar[d, swap, "corec_S p"] & 1 + S \ar[d, "id_1 + corec_S p"] \\ 
-\bar{\mathbb{N}} \ar[r, "pred"] & 1 + \bar{\mathbb{N}}
+S \ar[r, "p"] \ar[d, swap, "\mathrm{corec}_S p"] & 1 + S \ar[d, "id_1 + \mathrm{corec}_S p"] \\ 
+\bar{\mathbb{N}} \ar[r, "\mathrm{pred}"] & 1 + \bar{\mathbb{N}}
 \end{tikzcd}
 
 
