@@ -37,7 +37,7 @@ $$
 \begin{definition}
   \label{StableHomotopyGroupsOfSequentialSpectrum}
 
-Given a  [[sequential spectrum]] $E$, in the form of a sequence of component spaces $E_n$ with structure maps $\Sigma E_n \to E_{n+1}$, then for $k \in \mathbb{Z}$ the $n$th _homotopy group_ of $E$ is the [[colimit]]
+Given a  [[sequential spectrum]] $E$, in the form of a sequence of component spaces $E_n$ with structure maps $\Sigma E_n \to E_{n+1}$, then for $n \in \mathbb{Z}$ the $n$th _homotopy group_ of $E$ is the [[colimit]]
 
 $$
   \begin{aligned}
