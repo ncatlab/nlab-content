@@ -74,7 +74,7 @@ An original article collecting all the weak/strong electric/magnetic dualities:
 
 * [[Bernard de Wit]], [[Jan Louis]], *Supersymmetry and Dualities in various dimensions*, NATO Sci. Ser. C **520** (1999) 33-101 &lbrack;[arXiv:hep-th/9801132](https://arxiv.org/abs/hep-th/9801132), [inspire:453367](https://inspirehep.net/literature/453367)&rbrack;
 
-* {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora, _Duality in Quantum Field Theory (and String Theory)_, AIP Conference Proceedings 423, 46 (1998) ([arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180))
+* {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora: *Duality in Quantum Field Theory (and String Theory)*, AIP Conference Proceedings **423** (1998) 46–83 &lbrack;[arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
 
 * Stefan Forste, [[Jan Louis]]: *Duality in String Theory*, Nucl. Phys. Proc. Suppl. **61**A (1998) 3-22 &lbrack;[arXiv:hep-th/9612192](https://arxiv.org/abs/hep-th/9612192), <a href="https://doi.org/10.1016/S0920-5632(97)00516-1">doi:10.1016/S0920-5632(97)00516-1</a>&rbrack;
 
