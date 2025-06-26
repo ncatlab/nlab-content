@@ -2,11 +2,18 @@
 
 * [personal page](https://bicmr.pku.edu.cn/~guochuanthiang/)
 
+* [personal page](https://sites.google.com/view/guochuanthiang/bio-and-research)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=188740)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=77d59t8AAAAJ&hl=en)
+
+
 ## Selected writings
 
 On the classification by [[topological K-theory]] of [[topological insulators]] ([[K-theory classification of topological phases of matter]]):
 
-* [[Guo Chuan Thiang]], _On the K-theoretic classification of topological phases of matter_, Annales Henri Poincare 17(4) 757-794 (2016) ([arXiv:1406.7366](https://arxiv.org/abs/1406.7366))
+* [[Guo Chuan Thiang]]: _On the K-theoretic classification of topological phases of matter_, Annales Henri Poincaré **17** 4  (2016) 757-794 \[<a href="https://doi.org/10.1007/s00023-015-0418-9">doi:10.1007/s00023-015-0418-9</a>, [arXiv:1406.7366](https://arxiv.org/abs/1406.7366)\]
 
 * [[Guo Chuan Thiang]], _Topological phases: isomorphism, homotopy and K-theory_, Int. J. Geom. Methods Mod. Phys. 12 1550098 (2015) ([arXiv:1412.4191](https://arxiv.org/abs/1412.4191))
 
