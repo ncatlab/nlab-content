@@ -164,7 +164,7 @@ $$
   \simeq [(\pi_* {\textstyle \int} F)[S^{-1}], X]
 $$
 
-Hence the pseudo colimit of $F$ is got by taking its bicategory of elements, applying the 'local $\pi_0$' functor, and then inverting the (images of the) opcartesian morphisms as usual.
+Hence the pseudo colimit of $F$ is got by taking its [[bicategory of elements]], applying the 'local $\pi_0$' functor, and then inverting the (images of the) opcartesian morphisms as usual.
 
 
 ## Related concepts
