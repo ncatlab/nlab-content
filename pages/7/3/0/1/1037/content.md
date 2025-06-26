@@ -15,9 +15,9 @@
 =--
 
 
-This entry collects links related to the book
+This entry is to record the reference:
 
-* [[Jacob Lurie]]:
+* [[Jacob Lurie]]
 
   \linebreak
 
