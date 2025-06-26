@@ -507,14 +507,15 @@ and the modern form of the axioms (replacing requirement of finite (co-)limits b
 
 * {#DwyerHirschhornKan97} [[William G. Dwyer]], [[Philip S. Hirschhorn]], [[Daniel M. Kan]], *[[Model Categories and More General Abstract Homotopy Theory]]* (1997) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/dhk.pdf), [[DwyerHirschhornKan-ModelCategories.pdf:file]]&rbrack;
 
+
 #### Monographs and textbooks
 
-* {#Hovey99} [[Mark Hovey]], *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
+* {#Hovey99} [[Mark Hovey]], *[[Model Categories]]*, Mathematical Surveys and Monographs, **63** AMS (1999) &lbrack;[ISBN:978-0-8218-4361-1](https://bookstore.ams.org/surv-63-s), [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)&rbrack;
 
 * {#Hovey99Err} [[Mark Hovey]], _Errata to Model Categories_ (1999) &lbrack;[pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats-errata.pdf), [[Hovey-ModelCategories-Errata.pdf:file]]&rbrack;
 
 
-* {#Hirschhorn02} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, AMS Math. Survey and Monographs **99** (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/pshmain.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
+* {#Hirschhorn02} [[Philip Hirschhorn]], _[[Model Categories and Their Localizations]]_, Math. Survey and Monographs **99**, AMS (2002) &lbrack;[ISBN:978-0-8218-4917-0](https://bookstore.ams.org/surv-99-s/), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/pshmain.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf)&rbrack;
 
 * {#DwyerHirschhornKanSmith04} [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], [[Jeff Smith]], **[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]**, Mathematical Surveys and Monographs **113**, AMS 2004 ([ISBN: 978-1-4704-1340-8](https://bookstore.ams.org/surv-113-s), [pdf](http://dodo.pdmi.ras.ru/~topology/books/dhks.pdf))
 
