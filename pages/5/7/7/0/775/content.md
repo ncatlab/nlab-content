@@ -1,7 +1,27 @@
 
-# Commutative squares
-* table of contents
-{: toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### $(\infty,1)$-Category theory
++--{: .hide}
+[[!include quasi-category theory contents]]
+=--
+#### Internal $(\infty,1)$-Categories
++--{: .hide}
+[[!include internal infinity-categories contents]]
+=--
+#### Directed homotopy type theory
++-- {: .hide}
+[[!include directed homotopy type theory - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Definition and notation
 
@@ -13,8 +33,13 @@ $$\array{& X & \overset{f}\rightarrow & Z & \\
 
 The square is **[[commutative diagram|commutative]]** if $g' \circ f = f' \circ g$.
 
-The class of commutative squares in $C$ is written $\square C$.
+The category of commutative squares in $C$ is written $\square C$.
 
+### Using the walking commutative square
+
+Alternatively, let $\mathbb{I}$ denote the [[walking morphism]] and let $\mathbb{I}^2 = \mathbb{I} \times \mathbb{I}$ be the [[product category]] of the walking morphism with itself; $\mathbb{I}^2$ is the **walking commutative square** or the **2-cube category**. 
+
+Then a **commutative square** in a category $C$ is a [[functor]] from $\mathbb{I}^2$ to $C$, and the category of commutative squares in $C$ can also be described as the [[functor category]] $C^{\mathbb{I}^2}$.  
 
 ## Structure
 
@@ -38,18 +63,33 @@ _any composition of commutative squares is commutative._
 
 ## Applications
 
-Let $2$ denote the [[walking arrow]]: the category with two objects $0,1$ and one arrow $0 \to 1$. This has the structure of [[cocategory]]. Then the class of commutative squares in $C$  can also be described as $Cat(2 \times 2, C)$.  
-
-If $D$ is a category, then $Cat(D, \square_1 C)$ can be regarded as the class of natural transformations of functors $D \to C$. Then the category structure $\square _2 C$ induces a category structure on $Cat(D,\square _1 C)$ giving the [[functor category]] $CAT(D,C)$: the category of functors and natural transformations. (This account is due to [[Charles Ehresmann]].)
+If $D$ is a category, then $Cat(D, \square_1 C)$ can be regarded as the class of natural transformations of functors $D \to C$. Then the category structure $\square _2 C$ induces a category structure on $Cat(D,\square _1 C)$ giving the [[functor category]] $C^D$: the category of functors and natural transformations. (This account is due to [[Charles Ehresmann]].)
 
 One deduces that if also $E$ is a category then there is a natural bijection  
-$$Cat(E \times D, C) \cong (E, CAT(D,C)),$$
+$$Cat(E \times D, C) \cong (E, C^D),$$
 which thus states that the category of (small if you like!) categories is [[cartesian closed category|cartesian closed]].
 
-The commutative squares serve as the morphisms in the [[arrow category]] of $C$, which is the functor category $CAT(2,C)$.
+The commutative squares serve as the morphisms in the [[arrow category]] of $C$, which is the functor category $C^\mathbb{I}$.
 
+## Related concepts
+
+* [[square]]
+
+* [[commutative triangle]]
+
+## References
+
+Commutative squares are defined in:
+
+* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], page 9 of: *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
 [[!redirects commutative square]]
 [[!redirects commutative squares]]
 [[!redirects commuting square]]
 [[!redirects commuting squares]]
+
+[[!redirects walking commutative square]]
+[[!redirects walking commutative squares]]
+
+[[!redirects 2-cube category]]
+[[!redirects 2-cube categories]]
