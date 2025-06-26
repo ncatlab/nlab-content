@@ -48,7 +48,7 @@ A _finite cell complex_ or _countable cell complex_ is a cell complex with a [[f
 
 The two variants are equivalent assuming the [[axiom of choice]] in the form of the [[well-ordering theorem]]: With that theorem/assumption, the set of [[coproducts]] to be pushed out may be equipped with a [[well-order]] and with that the pushout of the coproduct is equivalently the transfinite composition of pushouts of summands of the coproduct in that order.
 
-(Note that the [[axiom of choice]] is needed already for basic statements in this context, like the very existence of the [[classical model structure on topological spaces]], see there [this Lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes)).
+(Note that the [[axiom of choice]] is used already for basic statements in this context, like the very existence of the [[classical model structure on topological spaces]], see there [this Lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes)).
 
 \end{remark}
 
