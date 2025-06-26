@@ -65,5 +65,6 @@ Review in a context of ([[adiabatic quantum computation|adiabatic]]) [[quantum c
 category: physics
 
 
-[[!redirects Berry phase]] 
+[[!redirects Berry phase]]
+[[!redirects Berry phases]]
 [[!redirects Berry's geometric phase]]
