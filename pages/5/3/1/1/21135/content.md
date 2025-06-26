@@ -38,11 +38,11 @@ More on this [[Clifford algebra]]-argument explicit in view of topological insul
 
 The proper [[equivariant K-theory]] formulation expected to apply also to [[topological crystalline insulators]]:
 
-* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], *Twisted equivariant matter*, Ann. Henri Poincaré **14** (2013)  1927-2023 $[$[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)$]$
+* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], *Twisted equivariant matter*, Ann. Henri Poincaré **14** (2013)  1927-2023 $[$[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)\]
 
 Further discussion:
 
-* [[Guo Chuan Thiang]], _On the K-theoretic classification of topological phases of matter_, Annales Henri Poincare 17(4) 757-794 (2016) ([arXiv:1406.7366](https://arxiv.org/abs/1406.7366))
+* [[Guo Chuan Thiang]]: _On the K-theoretic classification of topological phases of matter_, Annales Henri Poincaré **17** 4  (2016) 757-794 \[<a href="https://doi.org/10.1007/s00023-015-0418-9">doi:10.1007/s00023-015-0418-9</a>, [arXiv:1406.7366](https://arxiv.org/abs/1406.7366)\]
 
 * [[Guo Chuan Thiang]], _Topological phases: isomorphism, homotopy and K-theory_, Int. J. Geom. Methods Mod. Phys. 12 1550098 (2015) ([arXiv:1412.4191](https://arxiv.org/abs/1412.4191))
 
