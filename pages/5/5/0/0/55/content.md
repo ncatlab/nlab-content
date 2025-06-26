@@ -174,7 +174,7 @@ The concept of Lie algebroid was introduced in
 
 * [[Jean Pradines]], _Th&#233;orie de Lie pour les groupo&#239;des diff&#233;rentiables. Calcul diff&#233;renetiel dans la cat&#233;gorie des groupo&#239;des infinit&#233;simaux_, C. R. Acad. Sci. Paris S&#233;r. A-B 264 1967 A245--A248, [MR0216409](http://www.ams.org/mathscinet-getitem?mr=0216409)
 
-In algebra a generalization of Lie algebroid, the Lie pseduoalgebra or Lie-Rinehart algebra/pair has been introduced more than a dozen of times under various names starting in early 1950-s. Atiyah's construction of Atiyah sequence is published in 1957 and Rinehart's paper in 1963. 
+In algebra, a generalization of Lie algebroid, the Lie pseudoalgebra or Lie-Rinehart algebra/pair has been introduced more than a dozen of times under various names starting in early 1950-s. Atiyah's construction of Atiyah sequence is published in 1957 and Rinehart's paper in 1963. 
 
 Historically important is also the reference
 
