@@ -57,6 +57,9 @@ The resulting Brillouin torus $Hom_{Grp}\big(\Lambda, \, \mathbb{R} \big)/Hom_{G
 
 * [[Guo Chuan Thiang]], §2.1 in: *Topological Semimetals*, [[Encyclopedia of Mathematical Physics 2nd ed]] (2024) &lbrack;[arXiv:2407.12692](https://arxiv.org/abs/2407.12692)&rbrack;
 
+* [[Kiyonori Gomi]], [[Guo Chuan Thiang]], p. 9 in: *Crystallographic T-duality*, J. Geom. Phys **139** (2019) 50-77 \[<a href="https://doi.org/10.1016/j.geomphys.2019.01.002">doi:10.1016/j.geomphys.2019.01.002</a>, [arXiv:1806.11385](https://arxiv.org/abs/1806.11385)\]
+
+
 Texts that make explicit the choice of [[spin structure]] on Brillouin tori:
 
 * Ümit Ertem: *Weyl semimetals and $spin^c$ cobordism* &lbrack;[arXiv:2003.04082](https://arxiv.org/abs/2003.04082)&rbrack;
