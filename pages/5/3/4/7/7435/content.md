@@ -46,6 +46,11 @@ Relating the [[bicategorical trace]] to the [[Dennis trace]] on [[algebraic K-th
 
 * {#CLMPZ20} [[Jonathan Campbell]], [[John Lind]], [[Cary Malkiewich]], [[Kate Ponto]], [[Inna Zakharevich]], _K-theory of endomorphisms, the TR-trace, and zeta functions_ &lbrack;[arXiv:2005.04334](https://arxiv.org/abs/2005.04334)&rbrack;
 
+For the concept of a *universal* shadow of a bicategory and an extension of shadows to [[(∞,2)-categories]], see
+
+* [[Kathryn Hess]], [[Nima Rasekh]], _Shadows are Bicategorical Traces_ &lbrack;[arXiv:2109.02144](https://arxiv.org/abs/2109.02144)&rbrack;
+
+
 [[!redirects 2-bicategorical traces]]
 
 [[!redirects 2-categorical trace]]
