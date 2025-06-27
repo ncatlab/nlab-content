@@ -9,9 +9,10 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -23,28 +24,54 @@ Set theorists often adopt the existence of certain large cardinals as [[axioms]]
 ## List of large cardinal conditions
 
 * [[axiom of infinity]] -- a large cardinal axiom relative to finitist theories, but not relative to ZF
+
 * [[regular cardinal]] - a large cardinal in strongly [[predicative mathematics]] where function sets and power sets do not exist. 
+
 * [[beth fixed point]] - a large cardinal in [[ETCS]] but small in ZF.
+
 * [[axiom of replacement]], an axiom schemata that states that certain [[families]] of sets or [[diagrams]] in the [[category of sets]], which usually can be proven (for example, in [[Zermelo set theory]] or in a [[well-pointed topos]]) to be [[large sets|large]] or [[proper classes]], are instead [[small set|small]]. This implies that certain cardinals which previously were large are now small. Implies the existence of beth fixed points. 
+
 * [[inaccessible cardinal]] -- the smallest sort of large cardinal in ZF, equivalent to the existence of a [[Grothendieck universe]].
+
 * [[Mahlo cardinal]]
+
 * [[weakly compact cardinal]]
+
 * [[measurable cardinal]] -- the boundary between "small" large cardinals and "large" large cardinals
+
 * [[real-valued-measurable cardinal]], a “solution” to the Banach–Ulam problem.
+
 * [[strongly compact cardinal]], whose existence controls properties images of [[accessible functors]]
+
 * [[elementary embedding]] -- a tool used in the study of large large cardinals
+
 * [[supercompact cardinal]]
+
 * [[extendible cardinal]]
+
 * [[C(n)-extendible cardinal]]
+
 * [[Vopěnka's principle]] -- a large cardinal axiom with important implications for the behavior of [[locally presentable categories]] and [[accessible categories]].
 
 Here is a diagram showing the relation between these:
 
-<img src="http://websupport1.citytech.cuny.edu/faculty/vgitman/images/diagram.jpg"/>
+\begin{imagefromfile}
+    "file_name": "LargeCardinalsDiagram.jpg",
+    "width": 570,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
 
 In the context of [[ZFC]], certain axioms are inconsistent with large cardinal axioms:
 
 [[ZFC-large-cardinals-consistency-strength.png:pic]]
+
 
 ## References
 
@@ -59,6 +86,7 @@ A general axiomatic framework for large cardinal axioms is proposed in
 Some discussion on large cardinal axioms in the context of a [[polynomial function]] whose [[Lebesgue measure|Lesbegue measurability]] is independent of [[ZFC]] occurs in:
 
 * [[James E. Hanson]], *Any function I can actually write down is measurable, right?* ([arXiv:2501.02693](https://arxiv.org/abs/2501.02693))
+
 
 [[!redirects large cardinal]]
 [[!redirects large cardinals]]
