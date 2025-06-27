@@ -80,6 +80,10 @@ On [[Skyrmions]] in relation to [[chiral perturbation theory|chiral]] [[effectiv
 
 * [[Nicholas S. Manton]], *Robustness of the Hedgehog Skyrmion* &lbrack;[arXiv:2405.05731](https://arxiv.org/abs/2405.05731)&rbrack;
 
+On the [[Higgs field]] of the [[standard model of particle physics]] as being valued in [[complex projective plane|$\mathbb{C}P^2$]] (cf. *[[CP^N sigma-model|$\mathbb{C}P^N$ sigma model]]*):
+
+* [[Nicholas S. Manton]]: *A $\mathbb{C}P^2$ SMEFT* &lbrack;[arXiv:2411.09521](https://arxiv.org/abs/2411.09521)&rbrack;
+
 On [[nucleus|nuclear]] [[scattering amplitudes]] via [[classical field theory|classical]] [[Skyrmions]]:
 
 * [[Nicholas S. Manton]]: *Approach to nuclear cross sections via classical Skyrmion scattering: A proposal* &lbrack;[arXiv:2505.12362](https://arxiv.org/abs/2505.12362)&rbrack;
