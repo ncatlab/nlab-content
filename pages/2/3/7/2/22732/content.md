@@ -84,8 +84,10 @@ Some authors speak of "Chern semi-metals" to amplify this.
 
 * {#Vanderbilt18} [[David Vanderbilt]],  Section 5.1 of: *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205)&rbrack;
 
-
 * Panagiotis Kotetes, Chapter 5 of: *Topological Insulators*, IOP Science (2019) &lbrack;[ISBN:978-1-68174-517-6](https://iopscience.iop.org/book/978-1-68174-517-6)&rbrack;
+
+* [[Alexander S. Sergeev]], section 8 of: *Topological insulators and geometry of vector bundles*, SciPost Physics Lecture Notes **67** (2023) &lbrack;[arXiv:2011.05004](https://arxiv.org/abs/2011.05004), [doi:10.21468/SciPostPhysLectNotes.67](https://doi.org/10.21468/SciPostPhysLectNotes.67)&rbrack;
+
 
 * Jason G. Kattan, J. E. Sipe: *Chern insulators in two and three dimensions: A global perspective* &lbrack;[arXiv:2506.04466](https://arxiv.org/abs/2506.04466)&rbrack;
 
