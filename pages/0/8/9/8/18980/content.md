@@ -44,7 +44,10 @@ In the [[standard model of particle physics]], a _lepton_ is a [[fermion]] that 
 * {#HalzenMartin84} [[Francis Halzen]], [[Alan Martin]], _Quarks and Leptons: An Introductory Course in Modern Particle Physics_, Wiley 1984 ([pdf](http://ajbell.web.cern.ch/ajbell/Documents/eBooks/Quarks%20&%20Leptons.pdf))
 
 
-See also 
+* Ferruccio Feruglio, Saul Ramos-Sanchez: *Quark and lepton masses*, Encyclopedia of Particle Physics &lbrack;[arXiv:2506.20755](https://arxiv.org/abs/2506.20755)&rbrack;
+
+
+See also:
 
 * Wikipedia, _[Lepton](https://en.wikipedia.org/wiki/Lepton)_
 
