@@ -560,8 +560,7 @@ infinity. The motivation explicit pre-symplectic current formula appears from th
 
   Influence: Ashtekar-Magnon
 
-  Result: Explicit formula for the symplectic form of full, nonlinear
-[[general relativity]] as an integral of a conserved form-current over an arbitrary Cauchy surface. Discussion of conversion of symmetries into conserved quantities using this form. Some of the aspects related to the construction of such conserved have apparently been treated in earlier works by Friedman, Sachs and possibly some others.
+  Result: Explicit formula for the symplectic form of full, nonlinear [[general relativity]] as an integral of a conserved form-current over an arbitrary Cauchy surface. Discussion of conversion of symmetries into conserved quantities using this form. Some of the aspects related to the construction of such conserved have apparently been treated in earlier works by Friedman, Sachs and possibly some others.
 
 * {#Zuckerman} [[Gregg Zuckerman]], _Action Principles and Global Geometry_, in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259-284. ([[ZuckermanVariation.pdf:file]])
 
@@ -657,6 +656,11 @@ for the case of [[manifolds with boundary]]:
 * Valle Varo, *The Covariant Phase Space of Gravity with Boundaries* &lbrack;[arXiv:2301.12418](https://arxiv.org/abs/2301.12418)&rbrack;
 
 * [[Alejandro Corichi]], Juan D. Reyes, Tatjana Vukasinac, *On covariant and canonical Hamiltonian formalisms for gauge theories* &lbrack;[arXiv:2312.10229&rbrack;](https://arxiv.org/abs/2312.10229)&rbrack;
+
+See also:
+
+* Vinícius Bernardes, [[Theodore Erler]], Atakan Hilmi Fırat: *Covariant phase space and $L_\infty$ algebras* &lbrack;[arXiv:2506.20706](https://arxiv.org/abs/2506.20706)&rbrack;
+
 
 
 ### Reduced phase space
