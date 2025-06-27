@@ -637,7 +637,7 @@ The question of defining a *pointwise* Kan extension in a general 2-category is 
 
 In some 2-categories such as $Cat$, both definitions agree; but in others they do not, and in general in this case it is the equipment-theoretic version that is "correct".  For instance, in $V Cat$ the equipment-theoretic version gives the right notion of pointwise Kan extension, whereas the comma-object one is too strong.
 
-As a concrete example, let $V=Cat$, so that $V Cat = 2 Cat$; then comma objects are not informative enough because they "don't see the 2-cells".  In even more specificity, let $B$ be the [[walking]] 2-cell and $M$ the walking pair of parallel 1-morphisms, with $f:1\to B$ and $g:1\to M$ the inclusions of the common domain of the parallel 1-morphisms; then the equipment-theoretic-pointwise $Lan_f g$ is constant at the domain object, whereas the comma-object-pointwise $Lan_f g$ does not exist.  See [(Roald, Example 2.24)](#Roald13) for details.
+As a concrete example, let $V=Cat$, so that $V Cat = 2 Cat$; then comma objects are not informative enough because they "don't see the 2-cells".  In even more specificity, let $B$ be the [[walking]] 2-cell and $M$ the walking pair of parallel 1-morphisms, with $f:1\to B$ and $g:1\to M$ the inclusions of the common domain of the parallel 1-morphisms; then the equipment-theoretic-pointwise $Lan_f g$ is constant at the domain object, whereas the comma-object-pointwise $Lan_f g$ does not exist.  See [(Koudenburg, Example 2.24)](#Roald13) for details.
 
 
 ## Existence
