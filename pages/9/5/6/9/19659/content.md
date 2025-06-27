@@ -33,6 +33,11 @@ On the [[twisted arrow construction]] in [[(infinity,1)-category theory]]:
 
 * {#MR22} [[Chirantan Mukherjee]], [[Nima Rasekh]], *Twisted Arrow Construction for Segal Spaces* ([arXiv:2203.01788](https://arxiv.org/abs/2203.01788))
 
+For the concept of a *universal* [[bicategorical trace|shadow of a bicategory]] and an extension of shadows to [[(∞,2)-categories]], see
+
+* [[Kathryn Hess]], [[Nima Rasekh]], _Shadows are Bicategorical Traces_ &lbrack;[arXiv:2109.02144](https://arxiv.org/abs/2109.02144)&rbrack;
+
+
 ## Related entries
 
 * [[elementary (infinity,1)-topos]]
