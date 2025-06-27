@@ -67,6 +67,11 @@ See also:
 
 * G. Sumbatian, E. Ievlev, A. Yung, *Large-N Solution and Effective Action of "Twisted-Mass" Deformed $\mathbb{C}P(N-1)$ Model* &lbrack;[arXiv:2312.12569](https://arxiv.org/abs/2312.12569)&rbrack;
 
+On the [[Higgs field]] of the [[standard model of particle physics]] as being valued in [[complex projective plane|$\mathbb{C}P^2$]]:
+
+* [[Nicholas S. Manton]]: *A $\mathbb{C}P^2$ SMEFT* &lbrack;[arXiv:2411.09521](https://arxiv.org/abs/2411.09521)&rbrack;
+
+
 
 
 ### The $\mathbb{C}P^1$-model
