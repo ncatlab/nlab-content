@@ -3,10 +3,13 @@
 
 ***
 
-* [personal page](http://web.math.rochester.edu/people/faculty/cohf/)
+Frederick Ronald Cohen (1945-2022)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Frederick_R._Cohen)
 
 * [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=6654)
 
+* [GoogleScholar page](https://scholar.google.com/citations?user=Rf_c8ZYAAAAJ&hl=en)
 
 ## Selected writings
 
