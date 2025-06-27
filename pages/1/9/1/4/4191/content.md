@@ -12,11 +12,11 @@ If $A$ is a [[C-star-algebra]] it may happen that for every other [[C-star-algeb
 
 
 ## Definition ##
-Let $\mathcal{A}_1, ..., \mathcal{A}_k$ be unital $C^*$-algebras faithfully represented on the [[Hilbert spaces]] $H_1, ..., H_k$. Let $H$ be the tensor product of these Hilbert spaces,
+Let $\mathcal{A}_1, \dots, \mathcal{A}_k$ be unital $C^*$-algebras faithfully represented on the [[Hilbert spaces]] $H_1, ..., H_k$. Let $H$ be the tensor product of these Hilbert spaces,
 $$
-H := \otimes_{i=1}^k H_k 
+H \coloneqq \otimes_{i=1}^k H_k 
 $$
-The set of operators of finite sums of $A_1 \otimes ... \otimes_k A_k$ form a $*$-subalgebra of $\mathcal{B}(H)$. The norm closure of this set is the **spatial tensor product** of the given $C^*$-algbras, and is sometimes denoted by $A_1\otimes_{min} \dots \otimes_{min} A_k$.
+The set of operators of finite sums of $A_1 \otimes \cdots \otimes A_k$ form a $*$-subalgebra of $\mathcal{B}(H)$. The norm closure of this set is the **spatial tensor product** of the given $C^*$-algbras, and is sometimes denoted by $A_1\otimes_{min} \cdots \otimes_{min} A_k$.
 
 Remark: The spatial tensor product does not depend on the chosen faithful representations, see references.
 
@@ -26,9 +26,9 @@ Remark: The spatial tensor product does not depend on the chosen faithful repres
 
 **states extend to the spatial tensor product**
 
-Let $\rho_1, ..., \rho_k$ be states on the unitary $C^*$-algebras. Then there is a unique state $\rho$ on the spatial tensor product such that
+Let $\rho_1, \dots, \rho_k$ be states on the unitary $C^*$-algebras. Then there is a unique state $\rho$ on the spatial tensor product such that
 $$
-\rho(A_1 \otimes ... \otimes_k A_k) = \rho_1(A_1) \cdots \rho_k(A_k)
+\rho(A_1 \otimes \cdots \otimes A_k) = \rho_1(A_1) \cdots \rho_k(A_k)
 $$
 =--
 
