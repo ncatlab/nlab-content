@@ -85,6 +85,9 @@ Reviews:
 
   Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) &lbrack;[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)&rbrack;
 
+* [[Alexander S. Sergeev]]: *Topological insulators and geometry of vector bundles*, SciPost Physics Lecture Notes **67** (2023) &lbrack;[arXiv:2011.05004](https://arxiv.org/abs/2011.05004), [doi:10.21468/SciPostPhysLectNotes.67](https://doi.org/10.21468/SciPostPhysLectNotes.67)&rbrack;
+
+
 * Ben Webster et al. *2024 roadmap on 2D topological insulators*,  Journal of Physics: Materials **7** 2 (2024) 022501 &lbrack;[doi:10.1088/2515-7639/ad2083](https://iopscience.iop.org/article/10.1088/2515-7639/ad2083)&rbrack;
 
 Monographs:
