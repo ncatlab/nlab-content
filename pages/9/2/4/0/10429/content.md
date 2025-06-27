@@ -179,6 +179,7 @@ Indeed, the [[dynamics]] of the [[electrons]] in graphene is "$T I$"-symmetric, 
 * [[entanglement]]
 
 
+
 ## References
 
 ### Reviews
@@ -193,7 +194,6 @@ Textbook accounts:
 
   *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
-
 * [[Tudor D. Stanescu]], Part II of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
 
 Review and survey:
@@ -203,23 +203,23 @@ Review and survey:
 
 * [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]] [[Shinsei Ryu]], *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** 035005 (2016) $[$[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)$]$
 
-* Vishal Bhardwaj, Ratnamala Chatterjee, *Topological Materials -- New Quantum Phases of Matter*, Resonance **25** (2020) 431–441  ([doi:10.1007/s12045-020-0955-5](https://doi.org/10.1007/s12045-020-0955-5), [pdf](https://www.ias.ac.in/article/fulltext/reso/025/03/0431-0441))
+* Vishal Bhardwaj, Ratnamala Chatterjee, *Topological Materials -- New Quantum Phases of Matter*, Resonance **25** (2020) 431–441  &lbrack;[doi:10.1007/s12045-020-0955-5](https://doi.org/10.1007/s12045-020-0955-5), [pdf](https://www.ias.ac.in/article/fulltext/reso/025/03/0431-0441)&rbrack;
 
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
 
-* Delft Topology Course, *Online course on topology in condensed matter* (2015-) $[$[topocondmat.org](https://topocondmat.org)$]$
+* Delft Topology Course, *Online course on topology in condensed matter* (2015-) &lbrack;[topocondmat.org](https://topocondmat.org)&rbrack;
 
 
-* [[Tanmoy Das]], *A pedagogic review on designing model topological insulators*, Journal of the Indian Institute of Science **96** 77-106 (2016) $[$[arXiv:1604.07546](https://arxiv.org/abs/1604.07546), [ISSN:0970-4140](http://journal.library.iisc.ernet.in/index.php/iisc/article/view/4606)$]$
-
+* [[Tanmoy Das]], *A pedagogic review on designing model topological insulators*, Journal of the Indian Institute of Science **96** 77-106 (2016) &lbrack;[arXiv:1604.07546](https://arxiv.org/abs/1604.07546), [ISSN:0970-4140](http://journal.library.iisc.ernet.in/index.php/iisc/article/view/4606)&rbrack;
 
 * {#WangZhang17} Jing Wang, [[Shou-Cheng Zhang]], *Topological states of condensed matter*, Nature Materials **16** (2017) 1062–1067 &lbrack;[doi:10.1038/nmat5012](https://doi.org/10.1038/nmat5012)&rbrack;
    
-
-
 * [[Charles Zhaoxi Xiong]], *Classification and Construction of Topological Phases of Quantum Matter* &lbrack;[arXiv:1906.02892](https://arxiv.org/abs/1906.02892)&rbrack;
 
 * [[Muhammad Ilyas]], *Quantum Field Theories, Topological Materials, and Topological Quantum Computing* &lbrack;[arXiv:2208.09707](https://arxiv.org/abs/2208.09707)&rbrack;
+
+* [[Alexander S. Sergeev]]: *Topological insulators and geometry of vector bundles*, SciPost Physics Lecture Notes **67** (2023) &lbrack;[arXiv:2011.05004](https://arxiv.org/abs/2011.05004), [doi:10.21468/SciPostPhysLectNotes.67](https://doi.org/10.21468/SciPostPhysLectNotes.67)&rbrack;
+
 
 In view of (fabrication of) [[quantum materials]]:
 
