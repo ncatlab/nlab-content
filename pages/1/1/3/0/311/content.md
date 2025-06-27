@@ -227,6 +227,8 @@ These general considerations are quite commonplace in algebraic topology, where 
 
 * [[representable functor theorem]]
 
+* [[weak representation of a functor]]
+
 * [[Yoneda lemma]], [[Yoneda embedding]]
 
 * [[classifying space]], [[classifying stack]], [[moduli space]], [[moduli stack]], [[derived moduli space]]
