@@ -40,6 +40,10 @@ On [[simply connected homotopy type|simply connected]] [[homotopy types]] as the
 
 * {#HessKedziorek17} [[Kathryn Hess]], [[Magdalena Kedziorek]], Thm. 3.11 in: *The homotopy theory of coalgebras over simplicial comonads*, Homology, Homotopy and Applications **21** 1 (2019) &lbrack;[arXiv:1707.07104](https://arxiv.org/abs/1707.07104), [doi:10.4310/HHA.2019.v21.n1.a11](https://dx.doi.org/10.4310/HHA.2019.v21.n1.a11)&rbrack;
 
+For the concept of a *universal* [[bicategorical trace|shadow of a bicategory]] and an extension of shadows to [[(∞,2)-categories]], see
+
+* [[Kathryn Hess]], [[Nima Rasekh]], _Shadows are Bicategorical Traces_ &lbrack;[arXiv:2109.02144](https://arxiv.org/abs/2109.02144)&rbrack;
+
 ## Related entries
 
 * [[rational homotopy theory]]
