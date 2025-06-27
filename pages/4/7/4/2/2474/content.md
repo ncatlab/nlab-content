@@ -346,9 +346,10 @@ Monographs:
 * {#Blackadar06} [[Bruce Blackadar]], *Operator Algebras -- Theory of $C^\ast$-Algebras and von Neumann Algebras*, Encyclopaedia of Mathematical Sciences **122**, Springer (2006) &lbrack;[doi:10.1007/3-540-28517-2](https://doi.org/10.1007/3-540-28517-2)&rbrack;
 
  
-An exposition that explicitly gives [[Gelfand duality]] as an [[equivalence of categories]] and introduces all the notions of [[category theory]] necessary for this statement is in
+An exposition that explicitly gives [[Gelfand duality]] as an [[equivalence of categories]] and introduces all the notions of [[category theory]] necessary for this statement:
 
-* Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](http://www.math.ethz.ch/u/ambrogio/exercise_C_-algebras.pdf))
+* [[Ivo Dell'Ambrogio]]: *Categories of $C^\ast$-algebras* &lbrack;[pdf](http://www.math.ethz.ch/u/ambrogio/exercise_C_-algebras.pdf)&rbrack;
+
 
 See also:
 
