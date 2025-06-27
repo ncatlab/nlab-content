@@ -89,6 +89,7 @@ After the synthesis of graphene, which is an effectively 2-dimensional material 
 
 
 
+
 ## References
 
 ### General
@@ -98,6 +99,9 @@ Review:
 * [[Anton A. Burkov]], *Topological semimetals*, Nature Materials **15** (2016) 1145–1148 &lbrack;[doi:10.1038/nmat4788](https://doi.org/10.1038/nmat4788), [arXiv:1610.07866](https://arxiv.org/abs/1610.07866)&rbrack;
 
 * Jinyu Zou, Zhuoran He, Gang Xu: *The study of magnetic topological semimetals by first principles calculations*, npj Computational Materials **5** 96 (2019) &lbrack;[doi:10.1038/s41524-019-0237-5](https://doi.org/10.1038/s41524-019-0237-5)&rbrack;
+
+* [[Alexander S. Sergeev]], section 10 of: *Topological insulators and geometry of vector bundles*, SciPost Physics Lecture Notes **67** (2023) &lbrack;[arXiv:2011.05004](https://arxiv.org/abs/2011.05004), [doi:10.21468/SciPostPhysLectNotes.67](https://doi.org/10.21468/SciPostPhysLectNotes.67)&rbrack;
+
 
 * [[Guo Chuan Thiang]]: *Topological Semimetals*, [[Encyclopedia of Mathematical Physics 2nd ed]] (2024) &lbrack;[arXiv:2407.12692](https://arxiv.org/abs/2407.12692)&rbrack;
 
