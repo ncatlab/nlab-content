@@ -1,5 +1,3 @@
-# Weak representation of a functor
-
 * table of contents
 {: toc}
 
@@ -34,4 +32,3 @@ In type theoretic terms, the idempotent performs [[eta expansion|$\eta$ expansio
 * [[weak limit]]
 * [[semifunctor]]
 * [[lax idempotent 2-adjunction]]
-* [[weak 2-representation of a functor]]
