@@ -37,23 +37,24 @@ Virtually all trigonometric identities can be seen as arising from suitable [[ex
 
 * $\widebar{\exp(z)} = \exp(\widebar{z})$. 
 
-These imply relations between the [[sine function]] and the [[cosine function]] as follows:
+These imply the *sum of angles* formulas for the [[sine function]] and the [[cosine function]] as follows:
 
-$$
-  \sin\left( \alpha + \beta \right)
-  \;=\;
-  \sin(\alpha) \cos(\beta) + \cos(\alpha) \sin(\beta)
-$$
-
-$$
-  \cos(\alpha + \beta)
-  \;=\;
-  \cos(\alpha) \cos(\beta) - \sin(\alpha) \sin(\beta)
-$$
+\[
+  \label{SumOfAnglesFormulas}
+  \begin{array}{rcl}
+    \sin\left( \alpha + \beta \right)
+    &=&
+    \sin(\alpha) \cos(\beta) + \cos(\alpha) \sin(\beta)
+    \\
+    \cos(\alpha + \beta)
+    &=&
+    \cos(\alpha) \cos(\beta) - \sin(\alpha) \sin(\beta)
+  \end{array}
+\]
 
 which in turn implies
 
-$$
+\[
   \label{ProductOfSinWithCos}
   \sin(\alpha) \cos(\beta) 
   \;=\; 
@@ -61,9 +62,10 @@ $$
   \left(
     \sin(\alpha + \beta) + \sin(\alpha - \beta)
   \right)
-$$
+\]
 
 etc.
+
 
 ## Related entries
 
@@ -77,5 +79,4 @@ See also
 
 * Wikipedia, _[List of trigonometric identities](https://en.wikipedia.org/wiki/List_of_trigonometric_identities)_
 
-[[!redirects trigonometric identity]]
 [[!redirects trigonometric identities]]
