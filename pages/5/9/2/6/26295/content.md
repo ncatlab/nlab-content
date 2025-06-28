@@ -49,5 +49,7 @@ See also:
 [[!redirects Grothendieck construction for bicategories]]
 [[!redirects Grothendieck constructions for bicategories]]
 
+[[!redirects 2-category of elements]]
+[[!redirects 2-categories of elements]]
 [[!redirects bicategory of elements]]
 [[!redirects bicategories of elements]]
