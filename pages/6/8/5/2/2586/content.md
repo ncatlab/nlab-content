@@ -49,7 +49,7 @@ We write $q\colon v \mapsto \langle v ,v \rangle$ for the corresponding [[quadra
 +-- {: .num_defn }
 ###### Definition
 
-The _[[Clifford algebra]]_ $CL(V,q)$ of a quadratic vector space, def. \ref{QuadraticVectorSpace}, is the [[associative algebra]] over $k$ which is the [[quotient]]
+The _[[Clifford algebra]]_ $Cl(V,q)$ of a quadratic vector space, def. \ref{QuadraticVectorSpace}, is the [[associative algebra]] over $k$ which is the [[quotient]]
 
 $$
   Cl(V,q)
