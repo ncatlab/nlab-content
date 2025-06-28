@@ -71,6 +71,8 @@ There are various axioms which imply resizing axioms:
 
 * {#Rijke17} [[Egbert Rijke]], *The join construction*, 26 Jan 2017, ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
 
+[[!redirects resizing]]
+
 [[!redirects resizing axiom]]
 [[!redirects resizing axioms]]
 
