@@ -267,6 +267,16 @@ Let $C$ be a category with binary [[cartesian products]]. Then for each object $
 Let $C$ be any category and let $Fam(C)$ be the category of set-indexed [[families]] of objects of $C$ (the [[free coproduct completion]] of $C$, which is a [[Grothendieck construction]] by the discussion [there](free+coproduct+completion#AsAGrothendieckConstruction)).  The forgetful functor $Fam(C)\to Set$ taking a family to its indexing set is a fibration; the functors $f^*$ are given by reindexing.  They have left adjoints iff $C$ has small coproducts, and right adjoints iff $C$ has small products.
 \end{example}
 
+\begin{example} 
+A [[group extension]] of a group $H$ by a group $K$, 
+$$1 \to K \overset{i}{\to} G \overset{p}{\to} H \to 1,$$ 
+can be viewed as a fibration $p: G \to H$ between one-object categories, with $K$ playing the role of fiber. In selecting a cleavage, effectively a [[section]] $s: H \to G$ between the underlying sets, one is led to a pseudofunctor 
+$$H \to Cat$$ 
+that takes the single object of $H$ to the category $K$, and morphisms $h$ of $H$ to inner automorphisms $h^\ast$ (qua functors) on $K$ by conjugation $k \mapsto s(h)^{-1}k s(h)$, hence a map $\psi: H \to Aut(K)$. Moreover, taking into account pseudofunctoriality, the isomorphisms $h_2^\ast h_1^\ast \cong (h_1 h_2)^\ast$ are tracked by (nonabelian) group 2-cocycle data 
+$$\chi: H \times H \to K: (h_1, h_2) \mapsto s(h_1 h_2)^{-1} s(h_1)s(h_2),$$
+as described [here](group+extension#SchreierTheoryTraditional). The reconstruction of the group structure of $G$ from the data  $\psi: H \to Aut(K)$ and $\chi: H \times H \to K$, as described in traditional Schreier theory, is then revealed as a special case of the Grothendieck construction. See [here](https://nforum.ncatlab.org/discussion/778/grothendieck-fibration/?Focus=123242#Comment_123242) for further related discussion. 
+\end{example} 
+
 
 ## Properties
 
