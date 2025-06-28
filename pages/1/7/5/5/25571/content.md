@@ -84,7 +84,7 @@ Despite its ill behaviour, it is possible to describe the cocompletion of a loca
 
 * {#Walker2019} [[Charles Walker]]. "Distributive laws via admissibility." Applied Categorical Structures 27.6 (2019): 567-617.
 
-* {#LackTendas2023} [[Stephen Lack]] and [[Giacomo Tendas]]. _Virtual concepts in the theory of accessible categories_. Journal of Pure and Applied Algebra 227.2 (2023): 107196.
+* {#LackTendas2023} [[Stephen Lack]] and [[Giacomo Tendas]]. _Virtual concepts in the theory of accessible categories_. [Journal of Pure and Applied Algebra 227.2 (2023): 107196.](https://doi.org/10.1016/j.jpaa.2022.107196)
 
 * {#Brandenburg2021} [[Martin Brandenburg]]. _Large limit sketches and topological space objects_. [arXiv preprint 2106.11115](https://arxiv.org/abs/2106.11115) (2021).
 
