@@ -48,7 +48,7 @@ Let $G$ be a [[group]]. In the following:
 
    It follows that the [[endomorphism ring]] of an [[irreducible representation]] is a [[division ring]].
 
-2. {#SecondItem} In the case that the [[ground field]] is an [[algebraically closed field]], [[endomorphisms]] $\phi \;\colon\; V \to V$ of a [[finite-dimensional vector space|finite dimensional]] [[irreducible representations]] $V$ are a multiples $c \cdot id$ of the [[identity morphism|identity operator]]. 
+2. {#SecondItem} In the case that the [[ground field]] is an [[algebraically closed field]], [[endomorphisms]] $\phi \;\colon\; V \to V$ of a [[finite-dimensional vector space|finite dimensional]] [[irreducible representations]] $V$ are multiples $c \cdot id$ of the [[identity morphism|identity operator]]. 
 
    In other words, nontrivial automorphisms of irreducible representations, _a priori_ possible by [(1)](#FirstItem), are ruled out over algebraically closed fields.  
 
