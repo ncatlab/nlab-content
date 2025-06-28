@@ -178,7 +178,7 @@ For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]],
 
 * [[graph of a profunctor]]
 
-* [[2-Grothendieck construction]]
+* [[2-Grothendieck construction]], [[2-category of elements]]
 
 * [[(∞,1)-Grothendieck construction]]
 
@@ -189,6 +189,5 @@ For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]],
 A very nice introduction emphasizing the connections to [[monoid|monoid theory]] is ch. 12 of
 
 * [[Michael Barr]], [[Charles Wells]], _Category Theory for Computing Science_ , Prentice Hall 1995&#179;. ([TAC reprints no.22 (2012)](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html))
-
 
 [[!redirects Exploding a Category]]
