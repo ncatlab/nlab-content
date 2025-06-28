@@ -996,7 +996,7 @@ and using bijection of $G$ with $B\times K$ this can be expressed in terms of el
 (b_1,k_1)(b_2,k_2) = (b_1b_2,\chi(b_1,b_2)[\psi(b_2)^{-1}(k_1)] k_2).
 \end{equation}
 
-According to this formula, *all the information about the multiplication is encoded in functions $\chi : B \times B \rightarrow Aut(K)$
+According to this formula, *all the information about the multiplication is encoded in functions $\chi : B \times B \rightarrow K$
 and $\psi : B \rightarrow Aut(K)$, and we may forget about $\sigma$* at this point. However, _not every pair $(\chi,\psi)$ will
 give some multiplication rule on $B \times K$_.
 Let $a,b,c \in B$,
