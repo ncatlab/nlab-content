@@ -1,5 +1,3 @@
-# Weak adjoints
-
 * table of contents
 {: toc}
 
@@ -26,6 +24,8 @@ Of course, if the factorizations $g$ are always unique, this is precisely an ord
 * [[weak representation of a functor]]
 
 * [[weakly initial object]]
+
+* [[semi-adjunction]]
 
 ## References
  {#References}
