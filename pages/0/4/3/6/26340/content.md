@@ -18,7 +18,7 @@
 
 ## Definition
 
-A [[functor]] is **multirepresentable** if it is a [[coproduct]] of [[representable functors]].
+A [[functor]] $F : C \to Set$ is **multirepresentable** if it is a [[coproduct]] of [[representable functors]].
 
 ## Properties
 
