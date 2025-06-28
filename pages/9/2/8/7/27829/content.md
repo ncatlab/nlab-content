@@ -3,7 +3,7 @@
 
 ## Idea
 
-A **semi-adjunction** a notion of [[adjunction]] for [[semicategories]], though it is often interesting to consider semi-adjunctions between categories.
+**Semi-adjunction** are a notion of [[adjunctions]] between [[semicategories]], though it is often interesting to consider semi-adjunctions between ordinary [[categories]].
 
 ## Related Concepts
 
