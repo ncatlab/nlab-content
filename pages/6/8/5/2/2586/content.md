@@ -38,7 +38,7 @@ For special cases in low dimensions see at:  [[Spin(2)]], [[Spin(3)]], [[Spin(4)
 ###### Definition
 
 
-A _quadratic vector space_ $(V, \langle -,-\rangle)$ is a [[vector space]] $V$ over finite [[dimension]] over a [[field]] $k$ of [[characteristic]] 0, and equipped with a symmetric [[bilinear form]] $\langle -,-\rangle \colon V \otimes V \to k$.
+A _quadratic vector space_ $(V, \langle -,-\rangle)$ is a [[vector space]] $V$ of finite [[dimension]] over a [[field]] $k$ of [[characteristic]] 0, and equipped with a symmetric [[bilinear form]] $\langle -,-\rangle \colon V \otimes V \to k$.
 
 =--
 
