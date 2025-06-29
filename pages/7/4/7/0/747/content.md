@@ -1181,7 +1181,8 @@ Introductions:
 
 * {#Dugger98} [[Dan Dugger]], _Sheaves and homotopy theory_, (1998) &lbrack;[web](http://www.uoregon.edu/~ddugger/cech.html), [dvi](http://www.uoregon.edu/~ddugger/cech.dvi), [pdf](http://ncatlab.org/nlab/files/cech.pdf), [[DuggerSheavesAndHomotopyTheory.pdf:file]]&rbrack;
 
-* {#Jardine07} [[John F. Jardine]], *Simplicial Presheaves*, lecture notes, Fields Institute (2007) &lbrack;[pdf](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields-01.pdf), [webpage](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields_lectures.html)&rbrack;
+* {#Jardine07} [[J. F. Jardine]]: *Fields Lectures: Simplicial presheaves*, notes (2007) &lbrack;[pdf](https://www.math.uwo.ca/faculty/jardine/courses/fields/fields-01.pdf), [[Jardine-SimplicialPresheaves.pdf:file]], [webpage](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields_lectures.html)&rbrack;
+
 
 Detailed discussion of the injective model structures on simplicial presheaves:
 
