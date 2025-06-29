@@ -2,13 +2,13 @@
 
 ## Idea
 
-A variant of a [[Morse function]] that yields a contractible space of such functions.
+A variant of a [[Morse function]] that yields a [[contractible space]] of such functions.
 
 ## Definition
 
-A __generalized Morse function__ $f$ on a [[smooth manifold]] is a smooth real-valued function $f$ whose [[critical points]] either have a nondegenerate [[Hessian]] or a [[Hessian]] with a 1-dimensional kernel $K$ such that the third derivative of $f$ along $K$ is nonzero.
+A __generalized Morse function__ $f$ on a [[smooth manifold]] is a [[smooth function|smooth]] [[real numbers|real]]-valued [[function]] $f$ whose [[critical points]] either have a nondegenerate [[Hessian]] or a [[Hessian]] with a 1-[[dimension of a vector space|dimensional]] [[kernel]] $K$ such that the third [[derivative]] of $f$ along $K$ is nonzero.
 
-The [[Morse lemma]] shows that in a neighborhood of such a critical point we can pick a coordinate system in which $f$ has the form
+The [[Morse lemma]] shows that in a [[neighborhood]] of such a [[critical point]] we can pick a [[coordinate system]] in which $f$ has the form
 $$f(x_1,\ldots,x_n)=x_1^2+\cdots+x_k^2-x_{k+1}^2-\cdots-x_n^2$$
 or
 $$f(x_1,\ldots,x_n)=x_1^2+\cdots+x_{k-1}^2+x_k^3-x_{k+1}^2-\cdots-x_n^2,$$
