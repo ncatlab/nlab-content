@@ -10,9 +10,9 @@ Let $(X,\rightarrow)$ be an [[abstract rewriting system]], i.e., a [[set]] equip
 Given an abstract rewriting system, notated as above, let $\prec$ denote the relation whereby $t \prec x$ if $x \rightarrow^{*} t$ and $x \neq t$. This relation is transitive if $\rightarrow^{*}$ is [[antisymmetric relation|antisymmetric]]. 
 
 Recall that a subset $A \subseteq X$ is $\prec$-[[well-founded relation|inductive]] if 
-$$ \forall (x\colon X),\; (\forall (t\colon X),\; t \prec x \;\Rightarrow\; t \in A) \;\Rightarrow\; x \in A.$$
+$$ \forall x\colon X\; (\forall t\colon X\; t \prec x \;\Rightarrow\; t \in A) \;\Rightarrow\; x \in A.$$
 
-Define an element $x$ to be *normal* if $x \rightarrow^{*} y$ implies $x = y$. Write $Norm(x)$ for the predicate "$x$ is normal". 
+Define an element $x$ to be *normal* if $x \rightarrow^{*} y$ implies $x = y$. Equivalently, $x$ is normal if there is no $y$ for which $y \prec x$. Write $Norm(x)$ for the predicate "$x$ is normal". 
 
 +-- {: .num_prop #NormInductive} 
 ###### Proposition 
@@ -26,13 +26,13 @@ For given $x \in X$, suppose the inductive hypothesis is true: that for every $t
 
 $$y \prec \ldots \prec b \prec x, \qquad z \prec \ldots \prec c \prec x.$$ 
 
-Note that $b = c$ implies $y = z$ by inductive hypothesis, so assume instead $b \neq c$. Then by local confluence, there is $d$ with $d \prec b$ and $d \prec c$. We have $d \prec x$ by transitivity, hence $\exists ! w\; d \rightarrow^{*} w \wedge Norm(w)$ by inductive hypothesis. Since also $b \rightarrow^{*} w$, we have $y = w$ by the uniqueness clause for $y$. Similarly $y = z$. Hence $x \rightarrow{*} y$ for a unique normal $y$, and the induction goes through. 
+Note that $b = c$ implies $y = z$ by inductive hypothesis, so assume instead $b \neq c$. Then by local confluence, there is $d$ with $b \rightarrow^{*} d$ and $c \rightarrow^{*} d$. We have $d \prec x$ by transitivity and antisymmetry of $\rightarrow^{*}$, hence $\exists ! w\; d \rightarrow^{*} w \wedge Norm(w)$ by inductive hypothesis. Since also $b \rightarrow^{*} w$, we have $y = w$ by the uniqueness clause for $y$. Similarly $z = w$, so $y = z$. Hence $x \rightarrow{*} y$ for a unique normal $y$, and the induction goes through. 
 \end{proof} 
 
 Call an abstract rewriting system $(X, \rightarrow)$ *strongly normalizing* if $\rightarrow^{*}$ satisfies the [[ascending chain condition]], i.e., if any countably infinite chain 
 
 $$x_0 \rightarrow^{*} x_1 \rightarrow^{*} x_2 \rightarrow^{*} \ldots$$ 
-eventually stabilizes (for some $N$, $x_i = x_{i+1}$ for all $i \geq N$). For such $N$, clearly $x_N$ is normal, so all such chains terminate in a normal element. It is also clear that strong normalization implies antisymmetry. Again writing $y \prec x$ if $x \rightarrow^{*} y$ and $x \neq y$, strong normalization implies there are no infinite descending chains (no infinite descent) 
+eventually stabilizes (for some $N$, $x_i = x_{i+1}$ for all $i \geq N$). It is clear that strong normalization implies antisymmetry. Again writing $y \prec x$ if $x \rightarrow^{*} y$ and $x \neq y$, strong normalization implies there are no infinite descending chains (no infinite descent) 
 $$\ldots \prec x_2 \prec x_1 \prec x_0.$$
 In other words, $\prec$ is a [[well-founded relation]] (assuming [[classical logic]]). 
 
