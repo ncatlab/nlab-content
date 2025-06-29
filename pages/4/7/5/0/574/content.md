@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -49,17 +50,26 @@ A pair $(E,M)$ such that $E^\perp = M$ and $E = {}^\perp M$ is sometimes called 
 A [[morphism]] $e:A\to B$ is said to be (left) **orthogonal** to an object $C$, written $e\perp C$ (equivalently : $C$ is right orthgonal to $e$), if for any morphism $A \to C$
 
 $$
-\array{ A & \overset{e}{\to} & B\\
-  \downarrow && ~ \\
-  C & \underset{m}{\to} & ~}
+  \array{ 
+    A & \overset{e}{\to} & B
+    \\
+    \downarrow && 
+    \\
+    C 
+  }
 $$
 
 there exists a unique morphism $B \to C$ making the following diagram commute:
 
 $$
-\array{ A & \overset{e}{\to} & B\\
-  \downarrow & \swarrow & ~ \\
-  C & \underset{m}{\to} & ~}
+\array{ 
+  A & \overset{e}{\to} & B
+  \\
+  \downarrow & \swarrow & 
+  \\
+  C 
+  \mathrlap{\,.}  
+  }
 $$
 
 If the category we are working with has a terminal object $1$, this is equivalent to saying that $e \perp !$ where $! : C \to 1$ is the unique morphism to the terminal object. Abusing notation, we often write $E^\perp$ for the collection of objects $C$ which are right orthogonal to each morphism in $E$. We sometimes refer to $E^\perp$ as the (right) **orthogonal complement** of $E$.
