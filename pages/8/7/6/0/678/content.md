@@ -164,13 +164,11 @@ The local [[projective model structure]] (as opposed to the injective model stru
 * [[Benjamin A. Blander]], _Local Projective Model Structures on Simplicial Presheaves_, K-Theory 24:3, 283-301.  [doi](http://dx.doi.org/10.1023/a:1013302313123).
 
 
-
 Further articles:
 
 * [[J. F. Jardine]], _Stacks and the homotopy theory of simplicial sheaves_.  Homology, Homotopy and Applications 3:2 (2001), 361-384.  [doi](http://dx.doi.org/10.4310/hha.2001.v3.n2.a5).
 
-* [[J. F. Jardine]], _Fields Lectures: Simplicial presheaves_.
-[PDF](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields-01.pdf).
+* {#Jardine07} [[J. F. Jardine]]: *Fields Lectures: Simplicial presheaves*, notes (2007) &lbrack;[pdf](https://www.math.uwo.ca/faculty/jardine/courses/fields/fields-01.pdf), [[Jardine-SimplicialPresheaves.pdf:file]], [webpage](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields_lectures.html)&rbrack;
 
 For their interpretation in the more general context of [[(infinity,1)-category of (infinity,1)-sheaves|(infinity,1)-sheaves]] see Section 6.5.2 of
 
