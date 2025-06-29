@@ -14,7 +14,7 @@ or
 $$f(x_1,\ldots,x_n)=x_1^2+\cdots+x_{k-1}^2+x_k^3-x_{k+1}^2-\cdots-x_n^2,$$
 respectively.
 
-A __framed generalized Morse function__ $f$ is a generalized Morse function equipped with additional data of orthonormal bases of negative eigenspaces of all critical points of $f$.
+A __framed generalized Morse function__ $f$ is a generalized Morse function equipped with additional data of [[orthonormal bases]] of [[negative number|negative]] [[eigenspaces]] of all [[critical points]] of $f$.
 
 ## Properties
 
