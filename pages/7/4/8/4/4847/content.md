@@ -62,4 +62,7 @@ This cycle description can actually be used to give an independent definition of
 * [[Levi-Civita symbol]]
 
 [[!redirects signatures of permutations]]
+[[!redirects sign of a permutation]]
+[[!redirects sign of the permutation]]
+
 
