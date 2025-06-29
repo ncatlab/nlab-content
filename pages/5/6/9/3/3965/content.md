@@ -330,7 +330,7 @@ If $p+q$ is odd, $k=2^{(p+q-1)/2}$, and $\Sigma$ is irreducible. If $p+q$ is eve
 
 We also need some facts about [[spin structure]]s. 
 
-* Let $M$ be a [[spacetime]] with [[pseudo-Riemannian metric]] of [[signature]] $(p,q)$. We denote by $FM$ be the principal $SO(p,q)$-bundle over $M$ of orthonormal frames, the _[[frame bundle]]_. 
+* Let $M$ be a [[spacetime]] with [[pseudo-Riemannian metric]] of [[signature]] $(p,q)$. We denote by $FM$ the principal $SO(p,q)$-bundle over $M$ of orthonormal frames, the _[[frame bundle]]_. 
 
 * A _[[spin structure]]_ on $M$ is a principal $Spin(p,q)$-bundle $SM$ over $M$ together with a bundle morphism $\lambda: SM \to FM$ such that $\lambda(X\cdot\varphi) = \lambda(X)\cdot\Lambda(\varphi)$ for all $X\in SM$ and all $\varphi\in Spin(p,q)$. 
 
