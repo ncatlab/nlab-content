@@ -18,6 +18,8 @@ On [[model structures on simplicial presheaves]] with an eye to application in [
 
 * [[John F. Jardine]], _Simplical presheaves_, Journal of Pure and Applied Algebra **47** 1 (1987) 35-87 &lbrack;<a href="http://dx.doi.org/10.1016/0022-4049(87)90100-9">doi:10.1016/0022-4049(87)90100-9</a>&rbrack;
 
+* {#Jardine07} [[J. F. Jardine]]: *Fields Lectures: Simplicial presheaves*, notes (2007) &lbrack;[pdf](https://www.math.uwo.ca/faculty/jardine/courses/fields/fields-01.pdf), [[Jardine-SimplicialPresheaves.pdf:file]], [webpage](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields_lectures.html)&rbrack;
+
 * [[John F. Jardine]], *[[Local homotopy theory]]*, Springer Monographs in Mathematics (2015) &lbrack;[doi:10.1007/978-1-4939-2300-7](https://doi.org/10.1007/978-1-4939-2300-7)&rbrack;
 
 with brief exposition in:
