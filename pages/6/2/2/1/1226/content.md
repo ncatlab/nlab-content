@@ -37,11 +37,7 @@ $C$ is called **$\kappa$-filtered** if for all $\kappa$-small $K\in\sSet$ and ev
 ###### Proposition
 
 An [[(∞,1)-category]] $K$ is filtered precisely if [[(∞,1)-colimits]] of shape $K$ in [[∞Grpd]] commute with all [[finite (∞,1)-limits]], hence if
-
-$$
-  {\lim_\to} : Func(K, \infty Grpd) \to \infty Grpd
-$$
-
+$${\lim_\to} : Func(K, \infty Grpd) \to \infty Grpd$$
 is a left [[exact (∞,1)-functor]].
 
 =--
@@ -73,11 +69,20 @@ A filtered $(\infty,1)$-category is weakly [[contractible]], i.e. when incarnate
 This is ([Lurie, Lemma 5.3.1.18](#Lurie)).
 =--
 
+
+\begin{proposition}
+An [[(∞,1)-category]] is filtered if and only if it is [[confluent (∞,1)-category|confluent]] and weakly contractible.
+\end{proposition}
+
+See the article [[confluent (∞,1)-category]] for more information.
+
 ## Related concepts
 
 * [[sifted category]], [[sifted colimit]], [[sifted (∞,1)-category]], [[sifted (∞,1)-colimit]]
 
 * [[directed set]], [[filtered category]], **filtered (∞,1)-category**
+
+* [[confluent (∞,1)-category]]
 
 * [[filtered homotopy colimit]]
 
