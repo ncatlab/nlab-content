@@ -109,9 +109,9 @@ Observe that the functor $F \colon C \to Set$ is the [[representable functor|rep
 $$
   End(F)
   =
-  Set^C(F, F) 
+  Set^G(F, F) 
     \cong 
-  Set^C(C(G, -), C(G, -)) 
+  Set^G(C(G, -), C(G, -)) 
     \cong 
   C(G, G) 
    \cong 
