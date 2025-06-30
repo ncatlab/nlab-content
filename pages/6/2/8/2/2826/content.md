@@ -53,10 +53,7 @@ Not all Serre fibrations are Dold fibrations.
 
 =--
 
-
-+--{: .query}
-[[David Roberts]]:  Can we come up with a counterexample of a Serre fibration that isn't a Dold fibration? I'll ask on MathOverflow.
-=--
+See for now the examples given in answer to the MathOverflow question _[Request: A Serre fibration that is not a Dold fibration](https://mathoverflow.net/q/20442/)_.
 
 +-- {: .un_prop}
 ###### Proposition
@@ -77,9 +74,6 @@ in $\mathbf{R}^2$, and the map projecting on to the first coordinate, $pr_1:E \t
 
 =--
 
-+--{: .query}
-[[Chris Schommer-Pries]]: I believe this is an example of a quasi-fibration which is not a Serre fibration, but it is not a Dold fibration either. 
-=--
 
 One could consider maps that have the WCHP for just cubes -- these are a sort of hybrid Dold--Serre fibration (warning! nonstandard terminology. I just made it up, suggestions appreciated). For these maps there exists a [[long exact sequence]] in homotopy once basepoints are chosen. For classes of maps determined by (homotopy) lifting properties, this is about the minimum one needs to define such a long exact sequence. On the other hand, [[quasifibration|quasifibrations]] give rise to a long exact sequence in homotopy, but are defined by homotopy properties of the fibres.
 
