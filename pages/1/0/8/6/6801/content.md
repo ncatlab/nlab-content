@@ -82,6 +82,11 @@ Discussion with emphasis on terminology from [[higher gauge theory]]:
 * [[Michele Del Zotto]], [[Kantaro Ohmori]], *2-Group Symmetries of 6D Little String Theories and T-Duality*, Ann. Henri Poincaré 22, 2451–2474 (2021) ([arXiv:2009.03489](https://arxiv.org/abs/2009.03489),
 [doi:10.1007/s00023-021-01018-3](https://doi.org/10.1007/s00023-021-01018-3))
 
+See also:
+
+* Andrea Dei, [[Emil J. Martinec]]: *On the string theory of a single NS5-brane* &lbrack;[arXiv:2506.22300](https://arxiv.org/abs/2506.22300)&rbrack;
+
+
 ### Open D$p$-brane theories
 
 For light [[D-branes]] ending on NS5-branes (see [there](NS5-brane#DBranesEndingOnNS5Branes))
