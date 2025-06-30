@@ -33,6 +33,10 @@ In relation to the [[Wheeler-DeWitt equation]]:
 
 * [[Marc Henneaux]]: *Wheeler-DeWitt equation and Bondi-Metzner-Sachs (BMS) symmetry* &lbrack;[arXiv:2506.02240](https://arxiv.org/abs/2506.02240)&rbrack;
 
+Similar symmetries of [[near horizon geometries]] of [[black hole spacetimes]] (with [[higher curvature corrections]]):
+
+* Mariano Chernicoff, Gaston Giribet, Julio Oliva: *Higher-curvature corrections and near horizon symmetries* &lbrack;[arXiv:2506.21747](https://arxiv.org/abs/2506.21747)&rbrack;
+
 
 
 
