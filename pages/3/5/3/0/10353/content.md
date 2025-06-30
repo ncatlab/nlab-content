@@ -51,7 +51,7 @@ Textbook accounts include
 
 Enhancement to a linear splitting of [[restriction]] maps on Fréchet [[spaces of sections]] with compact support of [[vector bundles]]:
 
-* {#RobertsSchmeding18} [[David Roberts]], [[Alexander Schmeding]], _Extending Whitney's extension theorem: nonlinear function spaces_ ([arXiv:1801.04126](https://arxiv.org/abs/1801.04126))
+* {#RobertsSchmeding18} [[David Michael Roberts]], [[Alexander Schmeding]], _Extending Whitney's extension theorem: nonlinear function spaces_ ([arXiv:1801.04126](https://arxiv.org/abs/1801.04126))
 
 This is then used to show the restriction map to (suitable) regular closed subsets is a submersion of mapping spaces (with maps valued in an arbitrary manifold).
 
