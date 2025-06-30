@@ -28,6 +28,7 @@ The most natural [[morphisms]] between cocomplete categories are the [[cocontinu
 
 ## Remarks
 
+* A category is cocomplete if and only if it has small [[coproducts]] and [[reflexive coequalisers]].
 * Dually, a category with all small limits is a [[complete category]].
 * A category $D$ is cocomplete if and only if $D^{op}$ is complete, so the abstract properties of cocompleteness mimic those of completeness.
 * If a category has not all small colimits but all _finite_ colimits, then it is a [[finitely cocomplete category]].
@@ -55,6 +56,8 @@ For a small category $C$, the presheaf category $[C^{op},Set]$ is cocomplete, an
 
 ## References
 
+* [[J.-M. Maranda]], *Some remarks on limits in categories*. Canadian Mathematical Bulletin **5** 2 (1962) 133-146 &lbrack;[doi:10.4153/CMB-1962-015-0](https://doi.org/10.4153/CMB-1962-015-0)&rbrack;
+* [[Ernest Manes]], *A triple miscellany: Some aspects of the theory of algebra over a triple*, PhD thesis, Wesleyan University, 1967. &lbrack;[pdf](https://github.com/CategoryTheoryArchive/archive/blob/main/resources/1967_manes_triple-miscellany.pdf)&rbrack;
 * {#Pitts} [[Andrew M. Pitts]], _On product and change of base for toposes_ , Cah. Top. Géom. Diff. Cat. **XXVI** no.1 (1985) pp.43-61.
 
 [[!redirects cocomplete categories]]
