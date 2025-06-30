@@ -1,12 +1,16 @@
-#Idea#
+# Contents 
+* table of contents 
+{: toc}
+
+## Idea
 
 A _null system_ in a [[triangulated category]] is a triangulated [[subcategory]] whose objects may consistently be regarded as being equivalent to the [[zero object]]. Null systems give a convenient means for encoding and computing [[localization]] of [[triangulated category|triangulated categories]].
 
-#Definition#
+## Definition
 
 A **null system** of a [[triangulated category]] $C$ is a full [[subcategory]] $N \subset C$ such that
 
-* $N$ is _saturated_: every object $X$ in $C$ which is [[isomorphism|isomorphic]] in $C$ to an object in $N$ is in $N$;
+* $N$ is _saturated_ (or [[replete subcategory|replete]]): every object $X$ in $C$ which is [[isomorphism|isomorphic]] in $C$ to an object in $N$ is in $N$;
 
 * the [[zero object]] is in $N$;
 
@@ -14,7 +18,7 @@ A **null system** of a [[triangulated category]] $C$ is a full [[subcategory]] $
 
 * if $X \to Y \to Z \to T X$ is a distinguished triangle in $C$ with $X, Z \in N$, then also $Y \in N$.
 
-#Properties#
+## Properties
 
 The point about null systems is the following:
 
@@ -28,14 +32,14 @@ $$
 Then
 $N Q$ admits a left and right [[calculus of fractions]] in $C$.
 
-#Examples#
+## Examples
 
 * For $K(C)$ the [[category of chain complexes]] modulo [[chain homotopy]] of an [[abelian category]], the full [[subcategory]] of $K(C)$ of chain complexes $V$ whose [[homology]] vanishes, $H(V) \simeq 0$ is a null system.
 Then$D(C) := K(C)/N$ is the [[derived category]] of $C$.
 
 
 
-#References#
+## References
 
 For instance section 10.2 of
 
