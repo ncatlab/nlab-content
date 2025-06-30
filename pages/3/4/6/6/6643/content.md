@@ -43,6 +43,7 @@ The [[split idempotent|splitting of idempotents]] is flexible, but not PIE.  Mor
 * PIE-limits together with splitting of idempotent equivalences
 * strict pseudo-limits together with splitting of idempotents
 * strict pseudo-limits together with splitting of idempotent equivalences
+* [[products]], [[iso-inserters]], [[powers]], splitting of idempotents
 * [[products]], [[powers]], splitting of idempotents, [[pullbacks]] of [[normal isofibrations]]
 * [[products]], [[powers]], splitting of idempotents, [[pullbacks]] of [[amnestic isofibrations]]
 
