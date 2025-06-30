@@ -26,12 +26,15 @@ A [[category]] $C$ is **cocomplete** if it has all [[small diagram|small]] [[col
 
 The most natural [[morphisms]] between cocomplete categories are the [[cocontinuous functor|cocontinuous functors]].
 
-## Remarks
+## Properties
 
 * A category is cocomplete if and only if it has small [[coproducts]] and [[reflexive coequalisers]].
-* Dually, a category with all small limits is a [[complete category]].
+
+* [[formal duality|Dually]], a category with all small limits is a [[complete category]].
+
 * A category $D$ is cocomplete if and only if $D^{op}$ is complete, so the abstract properties of cocompleteness mimic those of completeness.
-* If a category has not all small colimits but all _finite_ colimits, then it is a [[finitely cocomplete category]].
+
+* If a category has not all small colimits but all _[[finite colimit|finite]]_ colimits, then it is a [[finitely cocomplete category]].
 
 ## Examples
 
