@@ -180,7 +180,7 @@ $$
 
 This may be modeled by the pullback of the [[universal principal infinity-bundle|universal principal 2-bundle]] as described in
 
-* [[Urs Schreiber]], [[David Roberts]], _The inner automorphism 3-group of a strict 2-group_ ([arXiv](http://arxiv.org/abs/0708.1741))
+* [[Urs Schreiber]], [[David Michael Roberts]], _The inner automorphism 3-group of a strict 2-group_ ([arXiv](http://arxiv.org/abs/0708.1741))
 {#RS}
 
 As ordinary [[principal bundles]], the gadgets obtained this way may be described from various points of view, using [[anafunctor]] cocycles $g : X \stackrel{\simeq}{\to}\leftarrow Y \to \mathbf{B}H$ in [[nonabelian cohomology]], or the corresponding total spaces being 2-[[torsors]] equipped with 2-group [[action]], or certain variants of this. 
@@ -233,7 +233,7 @@ Classification results of principal 2-bundles are in
 Abel Symposia, 2009, Volume 4, 1-31 ([arXiv:0801.3843](http://arxiv.org/abs/0801.3843))
  {#BaezStevenson}
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#StevensonRoberts">web</a>)
+* [[David Michael Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_ (<a href="http://nlab.mathforge.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#StevensonRoberts">web</a>)
  {#RobertsStevenson}
 
 
