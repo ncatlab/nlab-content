@@ -93,5 +93,10 @@ $$
  
 * [[Groupprops]], _[Profinite completion of the integers](http://groupprops.subwiki.org/wiki/Profinite_completion_of_the_integers)_
 
+In the context of [[gauge theory]]:
+
+* [[Pavel Putrov]]: *$\mathbb{Q}/\mathbb{Z}$ symmetry* &lbrack;[arXiv:2208.12071](https://arxiv.org/abs/2208.12071)&rbrack;
+
+
 
 [[!redirects profinite integers]]
