@@ -13,7 +13,7 @@ A [[quasicategory]] $C$ is confluent if and only if for every morphism $f\colon 
 If $\pi\colon T\to B$ is a [[left fibration]] and $B$ is confluent, then so is $T$.
 
 \begin{theorem}
-(Sattler–Wärn.)
+(**[Sattler & Wärn 2025](#SattlerWärn2025)**)
 A quasicategory $C$ is confluent if and only if $C$-indexed [[colimits]] commute with [[pullbacks]] in the quasicategory of [[∞-groupoids]].
 \end{theorem}
 
@@ -25,10 +25,11 @@ A quasicategory is [[filtered (∞,1)-category|filtered]] if and only if it is c
 
 * [[filtered colimit]], [[commutativity of limits and colimits]]
 
+
 ## References
 
-* [[Christian Sattler]], David Wärn, [A better synthetic argument that confluent colimits commute with pullbacks](https://www.cse.chalmers.se/~sattler/docs/confluent/new-2025.txt), February 2025.
+* {#SattlerWärn2025} [[Christian Sattler]], [[David Wärn]]: *[A better synthetic argument that confluent colimits commute with pullbacks](https://www.cse.chalmers.se/~sattler/docs/confluent/new-2025.txt)* (February 2025)
 
 Expository account:
 
-* [[Rune Haugseng]], Yet another introduction to ∞-categories, 2025.  [PDF](https://runegha.folk.ntnu.no/naivecat_web.pdf).
+* [[Rune Haugseng]]: *Yet another introduction to ∞-categories* (2025)  &lbrack;[pdf](https://runegha.folk.ntnu.no/naivecat_web.pdf)&rbrack;
