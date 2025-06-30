@@ -33,9 +33,7 @@ $N Q$ admits a left and right [[calculus of fractions]] in $C$.
 * For $K(C)$ the [[category of chain complexes]] modulo [[chain homotopy]] of an [[abelian category]], the full [[subcategory]] of $K(C)$ of chain complexes $V$ whose [[homology]] vanishes, $H(V) \simeq 0$ is a null system.
 Then$D(C) := K(C)/N$ is the [[derived category]] of $C$.
 
-+-- {: .query}
-[[David Roberts]]: Would [[Serre class]]es fit in here? Perhaps that's one step back.
-=--
+
 
 #References#
 
