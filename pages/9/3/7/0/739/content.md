@@ -171,7 +171,8 @@ A standard starting point for the study of the homological properties of the com
 
 In the context of [[gauge theory]]:
 
-* [[Pavel Putrov]]. *$\mathbb{Q}/\mathbb{Z}$ symmetry*. (2022). ([arXiv:2208.12071](https://arxiv.org/abs/2208.12071)).
+* [[Pavel Putrov]]: *$\mathbb{Q}/\mathbb{Z}$ symmetry* &lbrack;[arXiv:2208.12071](https://arxiv.org/abs/2208.12071)&rbrack;
+
 
 [[!redirects profinite group]]
 [[!redirects profinite groups]]
