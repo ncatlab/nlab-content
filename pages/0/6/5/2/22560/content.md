@@ -52,7 +52,7 @@ An [[Ackermann groupoid]] is a particular sort of [[poset]] that is magmoidal (w
 
 ## References
 
-* [[David Roberts]], *Substructural fixed-point theorems and the diagonal argument: theme and variations*, Compositionality **5** issue 8 (2023) doi:[10.32408/compositionality-5-8](https://doi.org/10.32408/compositionality-5-8),
+* [[David Michael Roberts]], *Substructural fixed-point theorems and the diagonal argument: theme and variations*, Compositionality **5** issue 8 (2023) doi:[10.32408/compositionality-5-8](https://doi.org/10.32408/compositionality-5-8),
 ([arXiv:2110.00239](https://arxiv.org/abs/2110.00239)).
 
 The concept seems to first be named in:
