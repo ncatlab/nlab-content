@@ -1,6 +1,11 @@
 
-* [webpage](https://www.ictp.it/phonebook/person?id=3052)
+* [institute page](https://www.ictp.it/member/pavel-putrov#biography)
 
+* [MathGenealogy page](https://mathgenealogy.org/id.php?id=329372)
+
+* [inSpire page](https://inspirehep.net/authors/1034320)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=P2ll0PUAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -13,6 +18,11 @@ On [[KK-compactification]] of [[D=6 N=(2,0) SCFT]] on [[4-manifolds]] to [[2d CF
 and in relation to the [[M5-brane elliptic genus]]:
 
 * {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], *4-manifolds and topological modular forms*,  J. High Energ. Phys. **2021** 84 (2021) &lbrack;[arXiv:1811.07884](https://arxiv.org/abs/1811.07884), <a href="https://doi.org/10.1007/JHEP05(2021)084">doi:10.1007/JHEP05(2021)084</a>, [spire:1704312](https://inspirehep.net/literature/1704312)&rbrack;
+
+On [[profinite integers]] in [[gauge theory]]:
+
+* [[Pavel Putrov]]: *$\mathbb{Q}/\mathbb{Z}$ symmetry* &lbrack;[arXiv:2208.12071](https://arxiv.org/abs/2208.12071)&rbrack;
+
 
 On [[generalized global symmetries]] hypothesized to play a role in the [[standard model of particle physics]]:
 
