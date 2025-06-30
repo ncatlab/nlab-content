@@ -53,7 +53,7 @@ For $X$ a [[smooth manifold]] of [[dimension]] $7$ a **$G_2$-structure** on $X$ 
 +-- {: .num_remark #CanonicalRiemannianMetric}
 ###### Remark
 
-Since the inclusion of $G_2$ into $GL(7)$ factors through [[special orthogonal group|$SO(6)$]] (see [here](G2#Orientation)), a $G_2$-structure induces an [[orthogonal structure]], hence a [[Riemannian metric]].
+Since the inclusion of $G_2$ into $GL(7)$ factors through [[special orthogonal group|$SO(7)$]] (see [here](G2#Orientation)), a $G_2$-structure induces an [[orthogonal structure]], hence a [[Riemannian metric]].
 
 =--
 
