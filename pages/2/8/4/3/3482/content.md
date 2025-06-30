@@ -120,7 +120,7 @@ The following two papers give models of set theory (without large cardinals) in 
 * {#Karagila14} Asaf Karagila, *Embedding Orders Into Cardinals With $DC_\kappa$*, Fund. Math. 226 (2014), 143-156, doi:[10.4064/fm226-2-4](http://dx.doi.org/10.4064/fm226-2-4), [arXiv:1212.4396](http://arxiv.org/abs/1212.4396).
 {#Karagila}
 
-* {#Roberts15} [[David Roberts]], _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103 (2015) Issue 5, pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074)
+* {#Roberts15} [[David Michael Roberts]], _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103 (2015) Issue 5, pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074)
 
 
 The Stacks Project shows how to construct a counterexample to WISC from any set of fpqc covers of an affine scheme.
