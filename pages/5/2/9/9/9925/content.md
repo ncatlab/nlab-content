@@ -42,7 +42,9 @@ On [[black hole entropy]] via [[D1-D5 brane bound states]] as [[black holes in s
 
 * [[Emil Martinec]], *The branes behind black holes*, talk at *[Strings 2022](https://indico.cern.ch/event/1085701/)* &lbrack;[indico:4940814](https://indico.cern.ch/event/1085701/contributions/4940814/)&rbrack;
 
+On [[little string theory]]:
 
+* Andrea Dei, [[Emil J. Martinec]]: *On the string theory of a single NS5-brane* &lbrack;[arXiv:2506.22300](https://arxiv.org/abs/2506.22300)&rbrack;
 
 
 ## Related pages
