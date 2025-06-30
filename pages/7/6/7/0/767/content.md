@@ -33,11 +33,15 @@ In some cases, sheaves on a large site can be identified with sheaves on some sm
 
 For example, if $C$ is a [[Grothendieck topos]] with its [[subcanonical coverage|canonical coverage]], then every sheaf on $C$ is representable, so $C\simeq Sh(C)$; thus $Sh(C)$ is equivalent to the category of sheaves on some small site (a defining site for $C$ itself).
 
-## Sheaves on a large site
+## Small subsites of large sites
 
-On the other hand, one sometimes wants to consider sheaves on [[large category|large categories]] such as [[Top]] or [[Diff]], which are certainly not Grothendieck toposes.  One idea for dealing with this is to consider [[full subcategory|full subcategories]] of these large categories on objects whose size is bounded by some large (in the non-technical sense) [[cardinal number]] $\kappa$.  In an extreme case, $\kappa$ could be an [[inaccessible cardinal]]. The proposal is that for sheaves and in particular for any [[homotopy theory]] of sheaves the choice of these cardinality bounds is "inessential."
+On the other hand, one sometimes wants to consider sheaves on [[large category|large categories]] such as [[Top]] or [[Diff]], which are certainly not Grothendieck toposes.  One idea for dealing with this is to consider [[full subcategory|full subcategories]] of these large categories on objects whose size is bounded by some large (in the non-technical sense) [[cardinal number]] $\kappa$.  In an extreme case, $\kappa$ could be an [[inaccessible cardinal]].
 
-See for instance [Jardine 2007 p. 2](#Jardine07), where this issue arises in the study of [[simplicial presheaf|simplicial presheaves]] and the [[model structure on simplicial presheaves]]. 
+Although the resulting subsite is often not a dense subsite, for sufficiently large $\kappa$ the difference may be imperceptible when using constructions typically employed in practice, such as limits and colimits of diagrams of size less than $\kappa$, subobjects and quotient objects, etc.
+
+For an example, see the definition of the [[small site]] of schemes in the [Stacks Project](https://stacks.math.columbia.edu/tag/000H).
+
+Further discussion can be found in [Jardine 2007 p. 2](#Jardine07), where this issue arises in the study of [[simplicial presheaf|simplicial presheaves]] and the [[model structure on simplicial presheaves]]. 
 
 Brief discussion of this idea may be found [here](https://nforum.ncatlab.org/discussion/19060/large-site/?Focus=121453#Comment_121453). 
 
