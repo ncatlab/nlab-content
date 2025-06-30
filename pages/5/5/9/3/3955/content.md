@@ -298,7 +298,7 @@ Generalising the Lie group structure on the diffeomorphisms of a manifold, the c
 
 The generalization to [[mapping stacks]] of [[differentiable stacks]] is discussed in
 
-* {#RobertsVozzo16} [[David Roberts]], [[Raymond Vozzo]], _The smooth Hom-stack of an orbifold_ ([arXiv:1610.05904](https://arxiv.org/abs/1610.05904))
+* {#RobertsVozzo16} [[David Michael Roberts]], [[Raymond Vozzo]], _The smooth Hom-stack of an orbifold_, In: Wood D., de Gier J., Praeger C., Tao T. (eds) 2016 MATRIX Annals. MATRIX Book Series, vol 1 (2018) doi:[10.1007/978-3-319-72299-3_3](https://doi.org/10.1007/978-3-319-72299-3_3), [arXiv:1610.05904](https://arxiv.org/abs/1610.05904), [MATRIX hosted version](https://www.matrix-inst.org.au/2016-matrix-annals/).
 
 
 [[!redirects mapping spaces that are manifolds]]
