@@ -45,6 +45,10 @@ Further discussion can be found in [Jardine 2007 p. 2](#Jardine07), where this i
 
 Brief discussion of this idea may be found [here](https://nforum.ncatlab.org/discussion/19060/large-site/?Focus=121453#Comment_121453). 
 
+## Related concepts
+
+* [[WISC]]
+
 ## References
 
 * {#Jardine07} [[J. F. Jardine]]: *Fields Lectures: Simplicial presheaves*, notes (2007) &lbrack;[pdf](https://www.math.uwo.ca/faculty/jardine/courses/fields/fields-01.pdf),[[Jardine-SimplicialPresheaves.pdf:file]], [webpage](https://www.uwo.ca/math/faculty/jardine/courses/fields/fields_lectures.html)&rbrack;
