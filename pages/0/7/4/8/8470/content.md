@@ -98,7 +98,7 @@ Discussion of the [[category of sets]] as a $\Pi$-W-topos when formalized via [[
 
 A non-example constructed via the internal logic of an unbounded $Set$-topos is given in
 
-* {#Roberts15} [[David Roberts]], _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103 (2015) Issue 5, pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074)
+* {#Roberts15} [[David Michael Roberts]], _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103 (2015) Issue 5, pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074)
 
 
 
