@@ -58,7 +58,7 @@ We then define an internal functor to be a **$J$-equivalence** if it is fully fa
 
 * [[Tomas Everaert]], [[R.W.Kieboom]] and [[Tim Van der Linden]], _Model structures for homotopy of internal categories_, Theory and Applications of Categories 15 (2005), no. 3, 66-94. ([journal](http://www.tac.mta.ca/tac/volumes/15/3/15-03abs.html))
 
-* [[David Roberts]], _Internal categories, anafunctors and localisation_, Theory and Applications of Categories, 26 (2012) No. 29, pp 788-829. ([journal](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html))
+* [[David Michael Roberts]], _Internal categories, anafunctors and localisation_, Theory and Applications of Categories, 26 (2012) No. 29, pp 788-829. ([journal](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html))
  
 
 [[!redirects weak equivalences of internal categories]]
