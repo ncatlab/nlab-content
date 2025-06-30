@@ -60,7 +60,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 | Homology operations in the spectral sequence of a cosimplicial space|Philip Hackney|2010|[pdf](http://phck.net/thesis.pdf)| |
 | On constructions of left determined model structures | Marc Olschok | 2010 | [pdf](https://is.muni.cz/th/xhch5/diss.pdf) | |
 | On categories of algebras | Jan Pavlík | 2010 | [pdf](https://is.muni.cz/th/os4lf/d90.pdf) | |
-| Fundamental bigroupoids and 2-covering spaces|[[David Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
+| Fundamental bigroupoids and 2-covering spaces|[[David Michael Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
 |Algebraic Model Structures|[[Emily Riehl]]|2011|[pdf](https://emilyriehl.github.io/files/phdthesis.pdf)| |
 |Grothendieck categories of enriched functors|Hassan Al Hwaeer| 2014 |[core](https://core.ac.uk/outputs/161880844)| |
 | Analysis and construction of logical systems: a category-theoretic approach | Michał R. Przybyłek | 2014 | [pdf](https://www.mimuw.edu.pl/~mrp/phd_mrp.pdf) | |
