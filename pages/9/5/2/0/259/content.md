@@ -225,7 +225,9 @@ Further survey:
 
 * [[Moritz Groth]], _A short course on ∞-categories_ ([arXiv:1007.2925](https://arxiv.org/abs/1007.2925))
 
-An in-depth study of adjunctions between quasi-categories and the monadicity theorem is given in
+* [[Rune Haugseng]]: *Yet another introduction to ∞-categories* (2025)  &lbrack;[pdf](https://runegha.folk.ntnu.no/naivecat_web.pdf)&rbrack;
+
+On [[(infinity,1)-adjunctions|adjunctions]] between quasi-categories and the [[monadicity theorem]]:
 
 * [[Emily Riehl]], [[Dominic Verity]] _The 2-category theory of quasi-categories_ ([arXiv](http://arxiv.org/abs/1306.5144)), _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv](http://arxiv.org/abs/1310.8279))
 
