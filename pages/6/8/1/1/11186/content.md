@@ -2,7 +2,14 @@
 
 * [webpage](http://sites.google.com/site/runehaugseng/)
 
-## Related $n$Lab entries
+## Selected writings
+
+On [[(infinity,1)-category|$(\infty,1)$-category]] [[(infinity,1)-category theory|theory]]:
+
+* [[Rune Haugseng]]: *Yet another introduction to $\infty$-categories* (2025)  &lbrack;[pdf](https://runegha.folk.ntnu.no/naivecat_web.pdf)&rbrack;
+
+
+## Related entries
 
 * [[(infinity,n)-category of correspondences]]
 
