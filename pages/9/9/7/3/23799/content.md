@@ -39,7 +39,6 @@ This means that a topological crystalline insulator phase observed in the [[bulk
 
 * [[Jorrit Kruthoff]], [[Jan de Boer]], Jasper van Wezel, [[Charles L. Kane]], [[Robert-Jan Slager]], *Topological Classification of Crystalline Insulators through Band Structure Combinatorics*, Phys. Rev. X **7** (2017) 041069 &lbrack;[arXiv:1612.02007](https://arxiv.org/abs/1612.02007), 
 [doi:10.1103/PhysRevX.7.041069](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.7.041069)&rbrack;
-
   > (explicit relation to [[equivariant K-theory]] in appendix B)
 
 See also:
@@ -47,17 +46,19 @@ See also:
 * Jian-Hao Zhang, Shang-Qiang Ning, Yang Qi, Zheng-Cheng Gu, *Construction and classification of crystalline topological superconductor and insulators in three-dimensional interacting fermion systems* &lbrack;[arXiv:2204.13558](https://arxiv.org/abs/2204.13558)&rbrack;
 
 
-
 ### Review
+
 
 * [[Yoichi Ando]], [[Liang Fu]]: *Topological Crystalline Insulators and Topological Superconductors: From Concepts to Materials*, Annual Review of Condensed Matter Physics **6** (2015) 361-381 &lbrack;[doi:10.1146/annurev-conmatphys-031214-014501](https://doi.org/10.1146/annurev-conmatphys-031214-014501), [arXiv:1501.00531](https://arxiv.org/abs/1501.00531)&rbrack;
 
 * [[Titus Neupert]], [[Frank Schindler]]: *Lecture Notes on Topological Crystalline Insulators*, in: *Topological Matter* Springer Series in Solid-State Sciences **190**, Springer (2018) &lbrack;[arXiv:1810.03484](https://arxiv.org/abs/1810.03484), [doi:10.1007/978-3-319-76388-0_2](https://doi.org/10.1007/978-3-319-76388-0_2)&rbrack;
-
   > (emphasis on [[Wilson loops]] of the [[Berry connection]])
 
 
-* Chieh-Wen Liu, Zhenhua Wang, Richard L J Qiu, Xuan P A Gao, *Development of topological insulator and topological crystalline insulator nanostructures*,  Nanotechnology **31** (2020) 192001 &lbrack;[doi:10.1088/1361-6528/ab6dfc](https://iopscience.iop.org/article/10.1088/1361-6528/ab6dfc)&rbrack;
+* [[Tudor D. Stanescu]]: *Topological Crystalline Insulators and Superconductors*, section 4.1 in: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press (2020) &lbrack;[ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)&rbrack;
+
+
+* Chieh-Wen Liu, Zhenhua Wang, Richard L J Qiu, Xuan P A Gao: *Development of topological insulator and topological crystalline insulator nanostructures*,  Nanotechnology **31** (2020) 192001 &lbrack;[doi:10.1088/1361-6528/ab6dfc](https://iopscience.iop.org/article/10.1088/1361-6528/ab6dfc)&rbrack;
 
 * [[M. Zahid Hasan]], *[Topological Crystalline Insulators](https://physics.princeton.edu/zahidhasangroup/index_TCI.html)* (research group page)
 
