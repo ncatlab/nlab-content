@@ -19,30 +19,39 @@ The notion of context-free grammar, now used in [[linguistics]], [[computer scie
 
 ## Traditional definition
 
-We write $X + Y$ for the [[disjoint union]] of two sets and use vector notation and the Kleene star $\vec{v} \in X^\star$ to denote sequences in the [[free monoid]].
+We write $X + Y$ for the [[disjoint union]] of two sets, and use vector notation and the Kleene star, $\overrightarrow{v} \in V^\star$, to denote sequences in the [[free monoid]] on $V$.
 
-A context-free grammar is a tuple $(\Sigma, X, R, s)$ where $\Sigma$ and $X$ are finite sets called the _vocabulary_ (also called the _terminals_) and the _non-terminals_ respectively, $R \subseteq X \times (X + \Sigma)^\star$ is a finite set of _production rules_ and $s \in X$ is called the _start symbol_.
+A context-free grammar is a tuple $(V, X, R, s)$ where $V$ and $X$ are finite sets called the _vocabulary_ (also called the _terminals_) and the _non-terminals_ respectively, $R \subseteq X \times (X + V)^\star$ is a finite set of _production rules_ and $s \in X$ is called the _start symbol_.
 
-The _language_ of a context-free grammar is given by $L(G) = \{ \vec{u} \in V^\star \vert s \to_R \vec{u} \}$ where the rewriting relation $(\to_R) \subseteq (V + X)^\star \times (V + X)^\star$ is traditionally defined as the transitive closure of the following directed graph:
+The _language_ of a context-free grammar is given by $L(G) = \{ \overrightarrow{u} \in V^\star \vert s \to_R \vec{u} \}$ where the rewriting relation $(\to_R) \subseteq (V + X)^\star \times (V + X)^\star$ is traditionally defined as the transitive closure of the following directed graph:
 
 $$
-\big\{ (\vec{u} x \vec{w}, \vec{u v w}) \quad \vert \quad \vec{u}, \vec{w} \in (V + X)^\star, (x, \vec{v}) \in R \big\}
+\big\{ (\overrightarrow{u} x \overrightarrow{w}, \overrightarrow{u v w}) \quad \vert \quad \overrightarrow{u}, \overrightarrow{w} \in (V + X)^\star, (x, \vec{v}) \in R \big\}
 $$
 
 ## With string diagrams
 
-One may redefine $L(G) = \big\{ \vec{u} \in \Sigma^\star \vert \C_G(s, \vec{u}) \neq \emptyset \big\}$ where $C_G$ is the free [[monoidal category]] with:
+One may redefine $L(G) = \big\{ \vec{u} \in V^\star \vert \C_G(s, \vec{u}) \neq \emptyset \big\}$ where $C_G$ is the free [[monoidal category]] with:
 
-* generating objects the [[disjoint union]] $\Sigma + X$,
+* generating objects the [[disjoint union]] $V + X$,
 * generating arrows the production rules $(x, \vec{v}) \in R$ with $dom(x, \vec{v}) = x$ and $cod(x, \vec{v}) = \vec{v}$.
 
-That is, a string $\vec{u} \in \Sigma^\star$ is _grammatical_ whenever there exists an arrow from the start symbol $s$ to $\vec{u}$ in $C_G$. Arrows in $C_G$ may be encoded as a _syntax tree_, seen as a special case of a [[string diagram]], e.g.:
+That is, a string $\vec{u} \in V^\star$ is _grammatical_ whenever there exists an arrow from the start symbol $s$ to $\vec{u}$ in $C_G$. Arrows in $C_G$ may be encoded as a _syntax tree_, seen as a special case of a [[string diagram]], e.g.:
 
 ![syntax tree for "Colorless green ideas sleep furiously"](https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Syntax_tree.svg/280px-Syntax_tree.svg.png)
 
 Note that context-free grammar is weakly equivalent to [[Lambek|Lambek's]] [[pregroup grammar]] i.e. they generate the same class of languages, see:
 
-*  {#BuszkowskiMoroz08} Wojciech Buszkowski, Katarzyna Moroz, _Pregroup Grammars and Context-free Grammars_, Computational Algebraic Approaches to Natural Language, Polimetrica (2008) ([pdf](https://pdfs.semanticscholar.org/1924/30f2252b6e0a7f982a3ae69a3ccf9c2981c0.pdf))
+*  {#BuszkowskiMoroz08} Wojciech Buszkowski, Katarzyna Moroz, _Pregroup Grammars and Context-free Grammars_, Computational Algebraic Approaches to Natural Language, Polimetrica (2008) ([pdf](https://pdfs.semanticscholar.org/1924/30f2252b6e0a7f982a3ae69a3ccf9c2981c0.pdf)) 
+
+## Related entries
+
+* [[formal grammar]]
+* [[context-sensitive grammar]]
+* [[mildly context-sensitive grammar]]
+* [[pregroup grammar]]
+* [[dependency grammar]]
+* [[regular language]] 
 
 
 ## Early sources
@@ -86,14 +95,6 @@ context-free languages_, in: Computer programming and formal systems, 118&#8211;
 Some chapters in "Handbook of formal language theory" (3 vols.), G. Rozenberg, A. Salomaa (eds.), Springer 1997:
 
 * Jean-Michel Autebert, Jean Berstel, Luc Boasson, _Context-free languages and push-down automata_, vol. 1, ch. 3 
-
-## Related entries
-
-* [[formal grammar]]
-* [[context-sensitive grammar]]
-* [[mildly context-sensitive grammar]]
-* [[pregroup grammar]]
-* [[dependency grammar]]
 
 
 [[!redirects context-free grammar]]
