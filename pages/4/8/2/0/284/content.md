@@ -394,13 +394,15 @@ Elementary exposition with an eye towards [[homotopy type theory]]:
 
 * {#Riehl23} [[Emily Riehl]], *[Could $\infty$-category theory be taught to undergraduates?](https://www.ams.org/journals/notices/202305/noti2692/noti2692.html?adat=May%202023&trk=2692&galt=feature&cat=feature&pdfissue=202305&pdffile=rnoti-p727.pdf)*, Notices of the AMS (May 2023) &lbrack;[published pdf](https://www.ams.org/journals/notices/202305/rnoti-p727.pdf), [arxiv:2302.07855](https://arxiv.org/abs/2302.07855)&rbrack;
 
-A foundational set of lecture notes:
+Introductions and lecture notes
 
-* [[Denis-Charles Cisinski]], _[[Higher Categories and Homotopical Algebra]]_,  Cambridge University Press 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
+* [[Denis-Charles Cisinski]], _[[Higher Categories and Homotopical Algebra]]_,  Cambridge University Press (2019) ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](http://www.mathematik.uni-regensburg.de/cisinski/CatLR.pdf))
 
-A survey with an eye towards [[higher algebra]] is in 
+* [[Moritz Groth]]: _A short course on $\infty$-categories_ &lbrack;[arXiv:1007.2925](https://arxiv.org/abs/1007.2925)&rbrack;
 
-* [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](https://arxiv.org/pdf/1007.2925))
+* [[Rune Haugseng]]: *Yet another introduction to $\infty$-categories* (2025)  &lbrack;[pdf](https://runegha.folk.ntnu.no/naivecat_web.pdf)&rbrack;
+
+
 
 A survey on various notions of [[homotopical categories]]:
 
