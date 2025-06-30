@@ -289,7 +289,7 @@ Then the [[homotopy fiber]] $X^{(1)}$ of the constant path inclusion $X \to \mat
 
 The analog of this statement for the higher items $X^{(n)}$ with $n \gt 1$ in the Whitehead tower of a topological spaces regarded in the $(\infty,1)$-topos of topological groupoids  has been studied in
 
-* [[David Roberts]], _[[Fundamental Bigroupoids and 2-Covering Spaces]]_ 
+* [[David Michael Roberts]], _[[Fundamental Bigroupoids and 2-Covering Spaces]]_ 
 
 The following reviews some central ideas of this.
 
@@ -324,7 +324,7 @@ The object space of $\Pi_n(X)$ is just $X$, and so there is an inclusion $X \hoo
 Given a basepoint $x\in X$, we can form the tangent $n$-groupoid $T_x \Pi_n(X)$, which is equivalent to the trivial $n$-groupoid $*$ (even as a _topological_ $n$-groupoid), and gives us what should be in any sensible definition a fibration $T_x\Pi_n(X) \to \Pi_n(X)$. 
 Pull back this fibration to $X$, and call the resulting thing $X^{(n)}$. It is fairly easy to see that $X^{(n)}$ is a topological $(n-1)$-groupoid over $X$. This then should be the $n$-connected cover of $X$. For $n=1$ this is precisely the classical construction of the universal covering space of a pointed space. For $n=2$ this is treated in
 
-*  D.M. Roberts, Fundamental bigroupoids and 2-covering spaces, PhD thesis, available [[davidroberts:HomePage|here]]
+*  [[David Michael Roberts]], Fundamental bigroupoids and 2-covering spaces, PhD thesis, available [[davidroberts:HomePage|here]]
 
 and the two-dimensional homotopical tools developed there can be used to show that $X^{(2)}$ is 2-connected.
 
