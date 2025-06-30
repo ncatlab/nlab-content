@@ -21,11 +21,11 @@ On [[Reedy model structures]] via [[weighted colimits]]:
 
 An introductory [[category theory]] textbook for beginning graduate students or advanced undergraduates with an emphasis on applications of categorical concepts to a variety of areas of mathematics.
 
-* {#RiehlCTInContext} [[Emily Riehl]], _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[ISBN:9780486809038](https://store.doverpublications.com/products/9780486809038), [pdf](https://math.jhu.edu/~eriehl/context.pdf), [webpage](https://math.jhu.edu/~eriehl/context/)&rbrack;
+* {#RiehlCTInContext} [[Emily Riehl]], _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[ISBN:9780486809038](https://store.doverpublications.com/products/9780486809038), [pdf](https://emilyriehl.github.io/files/context.pdf), [webpage](https://math.jhu.edu/~eriehl/context/)&rbrack;
 
 Textbooks on ([[simplicial homotopy theory|simplicial]]) [[homotopy theory]] and [[(∞,1)-category theory]] with emphasis on tools from [[category theory]] and [[2-category]] theory (via [[∞-cosmoi]] and the [[homotopy 2-category of (∞,1)-categories]]):
 
-* [[Emily Riehl]], *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+* [[Emily Riehl]], *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](https://emilyriehl.github.io/files/cathtpy.pdf)&rbrack;
 
 * {#RiehlVerity22} [[Emily Riehl]], [[Dominic Verity]], _[[Elements of ∞-Category Theory]]_, Cambridge studies in advanced mathematics **194**, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108936880](https://doi.org/10.1017/9781108936880), ISBN:978-1-108-83798-9, [pdf](https://emilyriehl.github.io/files/elements.pdf)&rbrack;
 
