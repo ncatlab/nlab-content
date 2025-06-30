@@ -14,7 +14,7 @@ On [[décalage]] and the [[simplicial loop group]] construction:
 
 On [[non-abelian cohomology]] and [[principal ∞-bundles]]:
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](https://arxiv.org/abs/1203.2460))
+* [[David Michael Roberts]], [[Danny Stevenson]], _Simplicial principal bundles in parametrized spaces_, New York Journal of Mathematics Volume 22 (2016) 405-440 ([arXiv:1203.2460](https://arxiv.org/abs/1203.2460))
 
 * [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](https://arxiv.org/abs/1203.2461))
 
