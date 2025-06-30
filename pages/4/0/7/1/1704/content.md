@@ -767,7 +767,7 @@ A comparison of smooth principal ∞-bundles and diffeological principal bundles
 
 The [[classifying spaces]] for a large class of principal $\infty$-bundles are discussed in
 
-* {#RobertsStevenson} [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ &lbrack;[arXiv:1203.2460](http://arxiv.org/abs/1203.2460)&rbrack; 
+* {#RobertsStevenson} [[David Michael Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ &lbrack;[arXiv:1203.2460](http://arxiv.org/abs/1203.2460)&rbrack; 
 
 * {#Stevenson} [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ &lbrack;[arXiv:1203.2461](http://arxiv.org/abs/1203.2461)&rbrack;
  
