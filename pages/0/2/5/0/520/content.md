@@ -128,7 +128,7 @@ $j_i : \pt \to I$ of the point to the left and the right end of the interval, re
 
 The way in which $\Set_{\ast} \to \Set$ is the "universal Set-bundle" is discussed pretty explicitly in
 
-* Kathryn Hess, _[[HessLackBundCat.pdf:file]]_ .
+* [[Kathryn Hess]], _[[HessLackBundCat.pdf:file]]_ .
 
 (The discussion there becomes more manifestly one of bundles if one regards all morphisms $C \to \Set$ appearing there as being the right legs of [[anafunctor|anafunctors]]. )
 
@@ -142,15 +142,15 @@ indeed, it is the subobject classifier in the [[2-topos]] [[Cat]].
 
 For discussion of this point see
 
-* David Corfield: _101 things to do with a 2-classifier_ ([blog](http://golem.ph.utexas.edu/category/2008/01/101_things_to_do_with_a_2class.html))
+* [[David Corfield]]: _101 things to do with a 2-classifier_ ([blog](http://golem.ph.utexas.edu/category/2008/01/101_things_to_do_with_a_2class.html))
 
 It was David Roberts who pointed out in
 
-* David Roberts, [comment to: 101 things to do with a 2-classifier](http://golem.ph.utexas.edu/category/2008/01/101_things_to_do_with_a_2class.html#c014559)
+* [[David Roberts]], [comment to: 101 things to do with a 2-classifier](http://golem.ph.utexas.edu/category/2008/01/101_things_to_do_with_a_2class.html#c014559)
 
 the relation between these higher classifiers and higher [[generalized universal bundle|generalized universal bundles]], motivated by the observations on principal universal 1- and 2-bundles in 
 
-* David Roberts, Urs Schreiber, _The inner automorphism 3-group of a strict 2-group_, Journal of Homotopy and Related Structures, Vol. 3(2008), No. 1, pp. 193-244, ([arXiv](http://arxiv.org/abs/0708.1741v2)).
+* [[David Michael Roberts]], [[Urs Schreiber]], _The inner automorphism 3-group of a strict 2-group_, Journal of Homotopy and Related Structures, Vol. 3(2008), No. 1, pp. 193-244, ([arXiv](http://arxiv.org/abs/0708.1741v2)).
 
 ## Related concepts
 
