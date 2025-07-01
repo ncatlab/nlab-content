@@ -1,6 +1,6 @@
 
 
-* [webpage](http://sites.google.com/site/runehaugseng/)
+* [webpage](https://runegha.folk.ntnu.no/)
 
 ## Selected writings
 
