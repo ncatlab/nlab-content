@@ -13,8 +13,10 @@
 
 **A Bibliography for [[functional analysis|Functional Analysis]] Entries**
 
-* Walter Rudin, _Functional analysis_
+* [[Walter Rudin]]: *Functional analysis*, McGrawHill (1991) &lbrack;[urn:oclc:record:1149261256](https://archive.org/details/functionalanalys00rudi), [pdf](https://59clc.wordpress.com/wp-content/uploads/2012/08/functional-analysis-_-rudin-2th.pdf), [pdf](https://www.math.uniri.hr/~ajurasic/Rudin.pdf)&rbrack;
+
 * A. A. Kirillov, A. D. Gvi&#353;iani, &#1058;&#1077;&#1086;&#1088;&#1077;&#1084;&#1099; &#1080; &#1079;&#1072;&#1076;&#1072;&#1095;&#1080; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1100;&#1085;&#1086;&#1075;&#1086; &#1072;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072; (theorems and exercises in functional analysis), Moskva, Nauka 1979, 1988
+
 * A. Ya. Helemskii, _Lectures and exercises on functional analysis_ (pretty categorical point of view!) Translations of Math. Monographs __233__ (AMS 2006)
 
 * [[Sergiu Klainerman]], _Lecture notes in analysis_, 2011 ([pdf](https://web.math.princeton.edu/~seri/homepage/courses/Analysis2011.pdf))
