@@ -83,6 +83,24 @@ $$
   }
 $$
 
+### Extension of $U(1)$
+
+There exists an [[extension]] of $U(1)$ by the profinite integers $\widehat{\mathbb{Z}}$
+
+$$
+1 \to \widehat{\mathbb{Z}} \to S^1_{\mathbb{Q}} \to U(1) \to 1,
+$$
+
+called the *universal one–dimensional solenoid* or *adelic solenoid* $S^1_{\mathbb{Q}}$, which can be thought of as the limit of the $p$-fold covers of $U(1)=S^1$.
+
+This extension is equivalently the quotient of the [[ring of adeles|adèle group]] of the [[rational numbers]] $A_{\mathbb{Q}}$ by $\mathbb{Q}$
+$$
+S^1_{\mathbb{Q}} = A_{\mathbb{Q}} / \mathbb{Q}.
+$$
+
+See ([Ramakrishnan and Valenza '99](#RV99)), and ([Burgos and Verjovsky '16](#BV16)) for more.
+
+
 ## Related concepts
 
 * the [[modular group]]/[[general linear group]] with profinite integer coefficients $GL_2(\widehat{\mathbb{Z}})$ appears as the symmetry group in [[modular equivariant elliptic cohomology]].
@@ -93,9 +111,14 @@ $$
  
 * [[Groupprops]], _[Profinite completion of the integers](http://groupprops.subwiki.org/wiki/Profinite_completion_of_the_integers)_
 
+* {#RV99} Dinakar Ramakrishnan, Robert Valenza, *Fourier Analysis on Number Fields*. Graduate Texts in Mathematics 186, Springer-Verlag, New York, (1999). ([doi](https://doi.org/10.1007/978-1-4757-3085-2)).
+
+* {#BV16} Juan Manuel Burgos, Alberto Verjovsky. *Adelic solenoid I: Structure and topology* (2016). ([arXiv:1603.05676](https://arxiv.org/abs/1603.05676)).
+
 In the context of [[gauge theory]]:
 
 * [[Pavel Putrov]]: *$\mathbb{Q}/\mathbb{Z}$ symmetry* &lbrack;[arXiv:2208.12071](https://arxiv.org/abs/2208.12071)&rbrack;
+
 
 
 
