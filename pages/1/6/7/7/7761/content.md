@@ -23,6 +23,10 @@ Ultracategories were introduced in [Makkai 87](#Makkai87) in order to prove [[co
 
 In ([Clementino-Tholen 03](#ClemTholen)), a different concept of ultracategory is introduced as an instance of a [[generalized multicategory]]. 
 
+### Related concepts
+
+* [[conceptual completeness]]
+
 ### References
 
 * {#Makkai87} [[Mihaly Makkai]], _Stone duality for first-order logic_, Adv. Math. __65__ (1987) no. 2, 97--170, [doi](http://dx.doi.org/10.1016/0001-8708%2887%2990020-X),  [MR89h:03067](http://www.ams.org/mathscinet-getitem?mr=900266)
@@ -51,6 +55,11 @@ As [[colax algebra for a 2-monad|colax algebras]] for a [[pseudomonad]]:
 In terms of [[Kan extensions]] of [[relative monads]]:
 
 * Umberto Tarantino, Joshua Wrigley, *Ultracategories via Kan extensions of relative monads* &lbrack;[arXiv:2506.09788](https://arxiv.org/abs/2506.09788)&rbrack;
+
+For a generalization to *virtual* ultracategories, a [[categorification]] of [[relational beta-modules]], designed to allow reconstruction of any [[topos with enough points]], see
+
+* Gabriel Saadia, _Extending conceptual completeness via virtual ultracategories_ &lbrack;[arXiv:2506.23935](https://arxiv.org/abs/2506.23935)&rbrack;
+
 
 [[!redirects ultracategories]]
 
