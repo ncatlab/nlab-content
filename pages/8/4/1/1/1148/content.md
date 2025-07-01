@@ -32,12 +32,7 @@ $$
 
 from the space $X$ regarded a ("nonabelian"!) sheaf, to the [[Eilenberg-MacLane object]] in degree $n$, defined by $F$. 
 
-The relation of this more conceptual and more general point of view on abelian sheaf cohomology to the original definition was originally clarified in 
-
-* [[Kenneth Brown]], [[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]
-
-
-(whose proof is reproduced below). 
+The relation of this more conceptual and more general point of view on abelian sheaf cohomology to the original definition was originally clarified by [Brown 1973](#Brown1973) (whose proof is reproduced below). 
 
 Brown constructed effectively the [[homotopy category of an (∞,1)-category|homotopy category]] of $\mathbf{H}$ using a model of a [[category of fibrant objects]] paralleling the  [[model structure on simplicial presheaves]] as a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-sheaves]]. This says that ordinary abelian sheaf cohomology in fact computes the equivalence classes of the [[∞-stackification]] of a sheaf with values in [[chain complexes]] of [[abelian groups]].
 
@@ -90,7 +85,7 @@ Write $X$ for the terminal sheaf of $X$, i.e. for the [[sheaf]] that corresponds
 Then
 
 $$
-  H^n(X,A) := \pi_0 H(X,\mathbf{B}^n F)
+  H^n(X,A) \coloneqq \pi_0 H(X,\mathbf{B}^n F)
 $$
 
 is the degree $n$ [[cohomology]] class of $X$ with values in $F$, regarded as computed in [[nonabelian cohomology]].
@@ -118,22 +113,25 @@ $$
 
 Historically the development of abelian sheaf cohomology was precisely in reverse order to this derivation from the general $(\infty,1)$-[[(infinity,1)-category|categorical]] [[cohomology]].
 
-+-- {: .num_theorem}
-###### Theorem (K. Brown, 1973)
-
+\begin{theorem}
+**([Brown 1973](#Brown1973))**
+\linebreak
 Let $X$ be a [[topological space]], $F$ a [[sheaf]] on (the [[category of open subsets]] of) $X$ with values in abelian groups, and $\mathbf{B}^n F = K(F,n)$ the image of the complex of abelian sheaves $F[n]$ ($F$ in degree $n$, trivial elsewhere) under the [[Dold-Kan correspondence]] in sheaves with values in [[Kan complex]]es
 $$
-  \Gamma \circ (-) : Sh(X,Ch_+(Ab)) \to Sh(X, AbSimpGrp)
+  \Gamma \circ (-) 
+    \colon 
+   Sh(X,Ch_+(Ab)) \to Sh(X, AbSimpGrp)
 $$
 $$
-  F[n] \mapsto K(F,n) =: \mathbf{B}^n F
+  F[n] \mapsto K(F,n) \eqqcolon \mathbf{B}^n F
   \,.
 $$
 
-Then we have the following natural isomorphism of cohomologies:
+Then we have the following [[natural isomorphism]] of cohomologies:
 
 $$
   H^n(X,F) \simeq H(X, \mathbf{B}^n F)
+  \,,
 $$
 
 where
@@ -150,12 +148,9 @@ where
    \,.
   $$
 
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is the first four steps in the proof of theorem 2 in [[BrownAHT]].
+\end{theorem}
+\begin{proof}
+This is the first four steps in the proof of theorem 2 in [Brown 1973](#Brown1973).
 
 The proof proceeds along the following four steps, which we describe in more detail below:
 
@@ -224,7 +219,7 @@ $$
 
 1. The fourth step finally uses that the [[stuff, structure, property|forgetful functor]] $Sh(X, SimpAbGrp) \to Sh(X, \infty Grpd)$ that only remembers the [[Kan complex]] underlying a [[simplicial group]] has a [[left adjoint]], the free abelian group functor $\mathbb{Z} : Sh(X,\infty Grpd) \to Sh(X, AbSimpGrp)$ (see [[Dold-Kan correspondence]] for details), and that preserves weak equivalences (see the discussion at [[simplicial group]] for more on that). 
 
-=--
+\end{proof}
 
 ### Relation to derived direct images
 
@@ -312,32 +307,32 @@ $$
   * [[Verdier duality]]
 
 
+
 ## References 
-
-Textbook account:
-
-* [[Jean Gallier]], [[Jocelyn Quaintance]], *Homology, Cohomology, and Sheaf Cohomology for Algebraic Topology, Algebraic Geometry, and Differential Geometry*, World Scientific (2022) &lbrack;[doi:10.1142/12495](https://doi.org/10.1142/12495), [webpage](https://www.cis.upenn.edu/~jean/gbooks/sheaf-coho.html)&rbrack;
-
 
 Original texts:
 
 * {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+
+Monographs:
+
+* [[Ugo Bruzzo]]: _Derived Functors and Sheaf Cohomology_, Contemporary Mathematics and Its Applications: Monographs, Expositions and Lecture Notes: **2**, World Scientific (2020) &lbrack;[doi:10.1142/11473](https://doi.org/10.1142/11473)&rbrack;
+
+* [[Jean Gallier]], [[Jocelyn Quaintance]]: *Homology, Cohomology, and Sheaf Cohomology for Algebraic Topology, Algebraic Geometry, and Differential Geometry*, World Scientific (2022) &lbrack;[doi:10.1142/12495](https://doi.org/10.1142/12495), [webpage](https://www.cis.upenn.edu/~jean/gbooks/sheaf-coho.html)&rbrack;
+
+
+Lecture notes:
+
+* Gabriel Ch&#234;nevert, Payman Kassaei: _Sheaf Cohomology_ (2003) &lbrack;[pdf](http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf)&rbrack;
+
+* Daniel Cibotaru: _Sheaf cohomology_ (2005) &lbrack;[pdf](http://www.nd.edu/~lnicolae/sheaves_coh.pdf)&rbrack;
+
+* [[Ieke Moerdijk]]: *Sheaf Cohomology for Locally Compact Spaces*, Lecture notes, Sheffield (2025) &lbrack;[[Moerdijk-SheafCohomology.pdf:file]]&rbrack;
  
 
-The traditional definition of sheaf cohomology in terms of the right [[derived functor]] of the [[global sections]] functor:
+Discussion in the more general context of [[nonabelian cohomology]] and [[infinity-stacks]] is due to:
 
-* [[Ugo Bruzzo]], _Derived Functors and Sheaf Cohomology_, Contemporary Mathematics and Its Applications: Monographs, Expositions and Lecture Notes: Volume 2 ([doi:10.1142/11473](https://doi.org/10.1142/11473))
-
-
-* Ch&#234;nevert, Kassaei, _Sheaf Cohomology_ ([pdf](http://www.math.mcgill.ca/goren/SeminarOnCohomology/Sheaf_Cohomology.pdf))
-
-* Cibotaru, _Sheaf cohomology_ ([pdf](http://www.nd.edu/~lnicolae/sheaves_coh.pdf))
-
-* [[Patrick Morandi]], _Sheaf cohomology_ ([pdf](http://sierra.nmsu.edu/morandi/notes/SheafCohomology.pdf))
-
-Its discussion in the more general [[nonabelian cohomology]] and [[infinity-stack]] context emphasized above is due to
-
-* [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_
+* {#Brown1973} [[Kenneth Brown]]: _[[BrownAHT|Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_,  Transactions of the American Mathematical Society **186** (1973) 419-458 &lbrack;[jstor:1996573](http://www.jstor.org/stable/1996573)&rbrack;
 
 This uses homotopical structures of a [[category of fibrant objects]] on complexes of abelian sheaves. Discussion of actual [[model structure on chain complexes]] of abelian sheaves is in 
 
