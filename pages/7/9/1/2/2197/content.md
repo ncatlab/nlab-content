@@ -168,6 +168,9 @@ In one respect, a locally convex TVS is a [[nice topological space]] in that the
 
 [[!include diagram of LCTVS properties]]
 
+### Further properties
+
+* [[Krein-Milman theorem]]
 
 ## Examples
 
