@@ -560,7 +560,8 @@ The classical articles are
 
 * Nobuhiko Tatsuuma, _Duality theorem for locally compact groups and some related topics_, Algèbres d'opérateurs et leurs applications en physique mathématique (Proc. Colloq., Marseille, 1977), 387–408.  Colloq. Internat. CNRS, 274, Éditions du Centre National de la Recherche Scientifique (CNRS), Paris, 1979.  ISBN: 2-222-02441-2.
 
-* M.G. Krein, _A principle of duality for bicompact groups and quadratic block algebras_, Doklady AN SSSR __69__ (1949), 725&#8211;728. 
+* [[Mark G. Krein]], _A principle of duality for bicompact groups and quadratic block algebras_, Doklady AN SSSR __69__ (1949), 725&#8211;728.
+ 
 * Eiichi Abe, _Dualit&#233; de Tannaka des groupes alg&#233;briques_, Tohoku Mathematical Journal. Volume 12, Number 2  (1960), 327-332. 
 
 The Tannaka-type reconstruction in quantum field theory see [[Doplicher-Roberts reconstruction theorem]].
