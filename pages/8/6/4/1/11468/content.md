@@ -154,6 +154,9 @@ See also:
 
 * Christian B. Jepsen, *Adelic Amplitudes and Intricacies of Infinite Products* &lbrack;[arXiv:2211.01611](https://arxiv.org/abs/2211.01611)&rbrack;
 
+On the zeta string, a proposal for a unifying framework for all $p$:
+
+* Branko Dragovich. *From $p$-Adic to Zeta Strings*. (2020). ([arXiv:2007.13628](https://arxiv.org/abs/2007.13628)).
 
 
 [[!redirects p-adic string theories]]
