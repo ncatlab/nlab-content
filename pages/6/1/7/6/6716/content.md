@@ -54,7 +54,7 @@ of the [[product]] of the [[spin group]] with the [[circle group]] by the common
 
 =--
 
-Usually the only the case $n \geq 3$ is considered.
+Usually only the case $n \geq 3$ is considered.
 
 Some authors (e.g. [Gompf 97, p. 2](#Gompf97)) denote this as 
 
@@ -79,7 +79,7 @@ following the notation [[Sp(n).Sp(1)]] (see [there](SpnSp1#SpinnSpin2IsSpinc)).
     \;\simeq\; 
     U(2)
   $$
-over the exceptional isomorphism [[SO(3)|$SO(3) \simeq PU(2)$]], as both of these [[quotient groups]] are quotients by the respective [[centers]], both identifiable with the [[circle group]] $U(1)$) ([Ozbagci–Stipsicz 2004](#OzbagciStipsicz) Section 6.2). This isomorphism follows from considering the surjective homomorphism [[SU(2)|$SU(2) \times U(1) \to U(2)$]] given by $(A,z) \mapsto z A$, and noticing its [[kernel]] is precisely $\{\pm(I,1)\}$, hence $U(2)$ satisfies the [[universal property]] defining $Spin^c(3)$ as a quotient.
+over the exceptional isomorphism [[SO(3)|$SO(3) \simeq PU(2)$]], as both of these [[quotient groups]] are quotients by the respective [[centers]], both identifiable with the [[circle group]] $U(1)$ ([Ozbagci–Stipsicz 2004](#OzbagciStipsicz) Section 6.2). This isomorphism follows from considering the surjective homomorphism [[SU(2)|$SU(2) \times U(1) \to U(2)$]] given by $(A,z) \mapsto z A$, and noticing its [[kernel]] is precisely $\{\pm(I,1)\}$, hence $U(2)$ satisfies the [[universal property]] defining $Spin^c(3)$ as a quotient.
 
 * For $n=4$, we have 
 $$
