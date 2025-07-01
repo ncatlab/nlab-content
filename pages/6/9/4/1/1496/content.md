@@ -244,6 +244,7 @@ If the uniformly bounded sequence $\{f_n\}$ of complex Borel functions converges
 See Dunford, Schwartz II, chapter X, corollary 8.
 =--
 
+
 ## Properties
 
 ### Relation to bornological spaces
@@ -252,9 +253,16 @@ Every [[inductive limit]] of [[Banach spaces]] is a [[bornological vector space]
 
 Conversely, every [[bornological vector space]] is an inductive limit of [[normed spaces]], and of [[Banach spaces]] if it is quasi-complete ([Schaefer-Wolff 99](#SchaeferWolff99))
 
+### Further properties
+
+* [[Krein-Smulian theorem]]
+
+
+
 ## Related concepts
 
 * [[reflexive Banach space]]
+
 * [[projective Banach space]]
 
 * [[Banach analytic space]]
