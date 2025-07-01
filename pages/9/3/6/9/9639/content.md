@@ -847,6 +847,11 @@ Realization via [[AdS/CFT in condensed matter physics]]:
 
 * Mitsutoshi Fujita, Wei Li, [[Shinsei Ryu]], [[Tadashi Takayanagi]], *Fractional Quantum Hall Effect via Holography: Chern-Simons, Edge States, and Hierarchy*, JHEP 0906:066 (2009) &lbrack;[arXiv:0901.0924](https://arxiv.org/abs/0901.0924)&rbrack;
 
+See also:
+
+* Semyon Klevtsov, Dimitri Zvonkine: *The Chern character of the Laughlin vector bundle in the Fractional Quantum Hall Effect* &lbrack;[arXiv:2506.20363](https://arxiv.org/abs/2506.20363)&rbrack;
+
+
 
 #### Specific filling fractions
 
