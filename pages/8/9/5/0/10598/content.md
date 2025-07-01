@@ -100,13 +100,36 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
 
 =--
 
+### $G$-Surfaces
+ {#ExamplesGSurfaces}
+
+Simple examples of [[G-manifolds]] ([above](#GManifolds)) are [[surfaces]] with $G$-action.
+
+\begin{example}
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] one of the two [[coordinate]] axes:
+
+\begin{imagefromfile}
+    "file_name": "ReflectionTorusCellStructure.png",
+    "width": 470,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
+
 
 ## Properties
 
 ### Closure properties
 
 \begin{proposition}\label{ClosureUnderProductsForFiniteGroups}
-  For $G$ a [[finite group]] (at least), the [[product]] of two $G$-CW-complexes in [[compactly generated weak Hausdorff spaces]] is itself a $G$-CW-complex.
+  For $G$ (at least) a [[finite group]] , the [[product]] of two $G$-CW-complexes in [[compactly generated weak Hausdorff spaces]] is itself a $G$-CW-complex.
 \end{proposition}
 \begin{proof}
   Since for finite $G$, a $G$-CW complex is the same as a plain [[CW-complex]] equipped with a [[cell complex|cellular]] [[group action|action]] by $G$ (Rem. \ref{FiniteGroupCWComplexesAreCWComplexesWithCellularGAction}) it is clear that for this structure to be preserved by the product operation it is sufficient that the products of underlying cells constitute a CW-complex, hence that products preserve CW-complexes in compactly generated Hausdorff spaces. That is this the case is [this Proposition](CW+complex#ClosureOfCWComplexesUnderCartesianProduct).
@@ -164,7 +187,7 @@ Proof that $G$-[[absolute neighbourhood retract|ANRs]] have the [[equivariant ho
 
 Textbook accounts:
 
-* {#tomDieck87} [[Tammo tom Dieck]], Sections I.1, I.2 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+* {#tomDieck87} [[Tammo tom Dieck]], Sections I.1 and I.2 of: _[[Transformation Groups]]_, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
 
 * {#Lueck89} [[Wolfgang Lück]], Sections I.1, I.2 of: _Transformation Groups and Algebraic K-Theory_, Lecture Notes in Mathematics **1408** (Springer 1989) ([doi:10.1007/BFb0083681](https://doi.org/10.1007/BFb0083681))
 
