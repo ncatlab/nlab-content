@@ -78,6 +78,8 @@ current version generated using Graphviz from [[lctvs dot source]]):
 
 ## Related concepts
 
+* [[weak topology of a topological vector space]]
+
 * [[topology of uniform convergence]]
 
 * [[topological vector bundle]]
