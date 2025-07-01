@@ -63,18 +63,33 @@ We can perform the first construction in any [[topological concrete category]], 
 
 We can also perform the second construction in any [[topological concrete category]], where it is a special case of an [[final structure]] for a [[sink]].
 
+## Examples
 
-## In functional analysis
+### In functional analysis
 
-In [[functional analysis]], the term 'weak topology' is used in a special way.  If $V$ is a [[topological vector space]] over the [[ground field]] $K$, then we may consider the [[continuous linear functional]]s on $V$, that is the [[continuous map|continuous]] [[linear maps]] from $V$ to $K$.  Taking $V$ to be the set $X$ in the general definition above, taking each $T_i$ to be $K$, and taking the continuous linear functionals on $V$ to comprise the family of functions, then we get the __weak topology__ on $V$.
+In [[functional analysis]], the term 'weak topology' is used by default for the [[weak topologies of topological vector spaces]] (see there) with respect to their [[linear functionals]]: 
 
-The _weak-star topology_ on the dual space $V^*$ of continuous linear functionals on $V$ is precisely the weak topology induced by the dual (evaluation) functionals on $V^*$
+For $V$ is a [[topological vector space]] over the [[ground field]] $K$, then we may consider the [[continuous linear functional]]s on $V$, that is the [[continuous map|continuous]] [[linear maps]] from $V$ to $K$.  Taking $V$ to be the set $X$ in the general definition above, taking each $T_i$ to be $K$, and taking the continuous linear functionals on $V$ to comprise the family of functions, then we get the __weak topology__ on $V$.
+
+The _weak-star topology_ on the dual space $V^*$ of continuous linear functionals on $V$ is precisely the weak topology induced by the dual ([[evaluation]]) functionals on $V^*$
 
 $$
-\left\{V^* \overset{\operatorname{ev}_v}{\to} K, \text{ by } f \mapsto f(v)\right\}_{v \in V}.
+  \left\{
+    \array{
+      V^* 
+        &\overset{\operatorname{ev}_v}{\longrightarrow} & 
+      K
+      \\
+      f 
+        &\mapsto& 
+      f(v)
+    }
+  \right\}_{v \in V}
+  \mathrlap{\,.}
 $$
 
-For the strong topology in functional analysis, see the [[strong operator topology]].
+For the strong topology in functional analysis, see at *[[strong operator topology]]*.
+
 
 ## Related entries
 
