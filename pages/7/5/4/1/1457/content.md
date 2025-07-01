@@ -151,7 +151,7 @@ Alternatively, taking the monoidal product to be [[supremum]] instead, enriched 
 
 Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of [[enriched category theory]].  This includes for example the notion of [[Cauchy complete category|Cauchy completion]], which in general enriched category theory is related to [[Karoubi envelope|Karoubi envelopes]] and [[Morita equivalence]].
 
-The symmetry axiom is naturally interpreted as giving an enriched $\dagger$-[[dagger category|category]] [[structure]], if we treat the [[poset]] $[0, \infty]$ as a $\dagger$-[[monoid]] where the involution $\dagger$ is taken to be the identity. Note that when one is enriching over a [[cartesian monoidal category|cartesian monoidal]] poset, there is no difference between a $\dagger$-category and a [[groupoid]], so in that sense, ultrametric spaces could be regarded as [[enriched groupoid|enriched groupoids]], a perhaps more familiar concept. However, note that the requisite axioms for enriched groupoids do not make sense when the base of enrichment is not cartesian, so we cannot regard an ordinary metric space as an enriched groupoid.
+The symmetry axiom is naturally interpreted as giving an enriched $\dagger$-[[dagger category|category]] [[structure]], if we treat the [[poset]] $[0, \infty]$ as a $\dagger$-[[monoid]] where the involution $\dagger$ is the identity. Note that when one is enriching over a [[cartesian monoidal category|cartesian monoidal]] poset, there is no difference between a $\dagger$-category and a [[groupoid]], so in that sense, ultrametric spaces could be regarded as [[enriched groupoid|enriched groupoids]], a perhaps more familiar concept. However, note that the requisite axioms for enriched groupoids do not make sense when the base of enrichment is not cartesian, so we cannot regard an ordinary metric space as an enriched groupoid, just as an enriched $\dagger$-category.
 
 In the presence of the symmetry axiom, the "separation" axiom "$x=y$ if $d(x,y)=0$" is equivalent to [[skeletal category|skeletality]] of an enriched category.  That is, a pseudo-metric space is a metric space precisely when it is skeletal.  But in the non-symmetric case, this separation axiom is stronger than skeletality; the latter would say only "$x=y$ if $d(x,y)=d(y,x)=0$".  That is, a quasi-pseudo-metric space can be skeletal without being a quasi-metric space, at least the way the latter term is usually used.
 
@@ -168,7 +168,7 @@ for all $n \gt 0$; the point inequality extends this to $n = 0$.
 
 Besides extended metric spaces (where distances may be infinite), one might consider spaces where distances may be negative.  But in fact this gives us nothing new, at least if we have symmetry.  First,
 $$ d(x,x) + d(x,x) \geq d(x,x) $$
-forces $d(x,x) \geq 0$, so $d(x,x) = 0$; then
+forces $d(x,x) \geq 0$, and this with $0 \geq d(x, x)$ forces $d(x, x) = 0$. Then
 $$ 2 d(x,y) = d(x,y) + d(y,x) \geq d(x,x) $$
 forces $d(x,y) \geq 0$.  A generalisation to negative distances is possible for quasimetric spaces, however; the simplest example has $2$ elements, with $d(x,y) = -d(y,x)$ (but necessarily $d(x,x) = 0$ still).
 
