@@ -172,6 +172,9 @@ In one respect, a locally convex TVS is a [[nice topological space]] in that the
 
 * [[Krein-Milman theorem]]
 
+* [[Hahn-Banach theorem]]
+
+
 ## Examples
 
 * [[Fréchet spaces]] are locally convex topological vector spaces
