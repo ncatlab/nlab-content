@@ -393,6 +393,14 @@ Discussion in the context of the [[function field analogy]] and the [[geometric 
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
+For a geometric application
+
+* Juan M. Burgos, Alberto Verjovsky. *Adelic toric varieties and adelic loop groups* (2020). ([arXiv:2001.07997](https://arxiv.org/abs/2001.07997)).
+
+conceptually based on work by [[Dennis Sullivan]] on solenoidal manifolds e.g.
+
+* [[Dennis Sullivan]], *Solenoidal manifolds*, J. Singul. 9 (2014), 203–205. ([doi](http://dx.doi.org/10.5427/jsing.2014.9o)).
+
 [[!redirects rings of adeles]]
 
 [[!redirects adele]]
