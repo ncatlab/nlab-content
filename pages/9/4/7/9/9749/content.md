@@ -81,7 +81,7 @@ The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategori
 It is one of the most important examples of a [[Markov category]].
 
 ### Algebras over the Giry monad
-We can't say anything about the $G$-algebras on the category of measurable spaces due to lack of structure and set-theoretical issues.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to understand how $G$ algebras arise via expectation maps.
+We can't say much about the $G$-algebras on the category of measurable spaces due to lack of structure and set-theoretical issues.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to understand how $G$ algebras arise via expectation maps.
    
 If $X$ is any standard space then the space of probability measures $G{X}$ is a [[superconvex space]] with the structure defined pointwise, i.e., if $\{P_i\}_{i=1}^{\infty}$ is a finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{\infty}$ with each $p_i \in [0,1]$  the countable affine sum  $\sum_{i=1}^{\infty} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
 \begin{equation}
@@ -125,7 +125,12 @@ Given any standard space $A$ and any $P \in G(A)$ let $\mathbf{Std}(A, V) \xrigh
 \begin{equation}
 \phi \big( \tilde{P}(m) \big) = \tilde{P}(\phi \circ m).
 \end{equation}
-The reader can verify than any such $V$-generalized element $\tilde{P}$ is $V$-linear, weakly averaging, and additive.
+The reader can verify than any such $V$-generalized element $\tilde{P}$ is $V$-linear, weakly averaging, and additive.  Since $\tilde{P}$ is defined in terms of the Lebesque integral we have, more generally, 
+\begin{lemma} Every $V$-generalized element $V^A \xrightarrow{\tilde{P}} V$ of $A$ is countably additive.
+\end{lemma}
+\begin{proof} Given a countable sequence $\{A \xrightarrow{f_i} V\}_i$ of measurable functions let $g_n=\sum_{i=1}^n f_i$.  Since $f_i\ge 0$ we have, by the monotone convergence theorem
+$\tilde{P}(\sum_{i} f_i) = \tilde{P}(\lim_n g_n) = \lim_n \{\tilde{P}(g_n)\} = \lim_n \sum_{i=1}^n \tilde{P}(f_i) = \sum_i \tilde{P}(f_i)$.
+\end{proof}
 
 We say an object $A$ in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ satisfies the fullness property if and only if for every $P \in G(A)$ the property
 \begin{equation}
@@ -141,7 +146,7 @@ Since $A$ lies in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ it is coseparated by
 
 Define $\mathbf{Std}_{SCvx}$ to be the full subcategory of $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ consisting of those objects which satisfy the fullness property.  
 
-Note that $V$ is an object in $\mathbf{Std}_{SCvx}$. (This is exercise 8.23 in the text Sets for Mathematics by Lawvere and Rosebrugh.)  
+Note that $V$ is an object in $\mathbf{Std}_{SCvx}$. (This is exercise 8.23 in the text Sets for Mathematics by Lawvere and Rosebrugh. Moreover, the expectation mapping $G(V) \xrightarrow{\mathbb{E}_{\bullet}(id_V)} V$ is easily verified to be a $G$-algebra.)
 
 We now proceed to show that for every standard space $X$ that $G(X)$ is an object in $\mathbf{Std}_{SCvx}$.  
 
@@ -155,20 +160,33 @@ ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \{R \in G(X) \, | \, R(U)=\mu_X(Q)[U] \}
 so taking the intersection over all elements in the generating field (with a basis) yields the result using the well known result if $X$ is a standard space and $P,R \in G(X)$ satisfy $P(U)=R(U)$ for all $U \in \mathbb{F}$ then $P=R$.
 \end{proof}
 
- The proof of the next three lemmas, which are all straight forward, can be found in ([Sturtz 25](#Sturtz25))
-
 \begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every countably affine measurable function $G(X) \xrightarrow{m} V$ is a countable affine sum of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
 \end{lemma}
+\begin{proof} The superconvex space structure of $G(X)$ is defined by the countable family of equations
+$ ev_U( \sum_{i=1}^{\infty} p_i P_i) = \sum_{i=1}^{\infty}p_i P_i(U)$ 
+for all $U \in \mathbb{F}$. Any countable linear sum of the elements $\{ev_U\}_{U \in \mathbb{F}}$ therefore defines a countable affine map $G(X) \xrightarrow{ \lambda_j ev_{U_j}} V$. (Any constant transformation by $c$ can be represented by a term $c ev_X$ since $c ev_X(P) = c$. Hence we can refer to countable linear sums instead of countable affine sums.)
+
+Conversely, for a set function $G(X) \xrightarrow{m} V$ to  preserve the superconvex space structure of $G(X)$ which is defined in terms of the elements $ev_U$ it must be a countable linear transformation of those elements.  Indeed, for any measurable function $X \xrightarrow{f} V$ the function $G(X) \xrightarrow{\int_X f \, d{\bullet}} V$ is, by the definition of the Lebesque integral, given by
+$\int_X f \, dP = \big(\sum_{i \in \mathbb{Nat}} \lambda_i ev_{U_i}\big)P$
+where $\psi_n = \sum_{i=1}^{N_n} \lambda_{n,i} \chi_{U_{n,i}}$ is a simple function satisfying $\psi_n \le f$ and for which $\{\psi_n\}_{n=1}^{\infty}$ converges pointwise to $f$.
+\end{proof}
 
 \begin{lemma}Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then
 \begin{equation}
 \displaystyle{ \bigcap_{G(X) \xrightarrow{m} V}}m^{-1}\big(\tilde{Q}(m)\big) =\mu_X(Q)  = \displaystyle{\bigcap_{U \in \mathbb{F}}} ev_U^{-1}\big( \tilde{Q}(ev_U) \big).
 \end{equation}
 \end{lemma}
+\begin{proof} Since every $V$-generalized point $\tilde{Q}$ of $G(X)$ is $V$-linear and countably additive it follows that $\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \sum_i \lambda_i \tilde{Q}(ev_{U_i})$. Thus 
+$(\sum_i \lambda_i ev_{U_i})^{-1}(\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \{ P \in G(X) \, | \, \sum_i \lambda_i P(U_i) = \lambda_i \mu_X(Q)[U_i]\}$.
+Now take the intersection over all such countably affine measurable functions $m$, which includes the basic functions $m=ev_U$,
+$\bigcap_m (\sum_i \lambda_i ev_{U_i})^{-1}(\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \{ P \in G(X) \, | \, \sum_i \lambda_i R(U_i) = \sum_i \lambda_i \mu_X(Q)[U_i] \forall m\}$.
+The only $P \in G(X)$ satisfying the right hand side term for all countably affine maps $m$ is clearly $P= \mu_X(Q)$.
+\end{proof}
 
 \begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then $G(X)$ is an object in $\mathbf{Std}_{SCvx}$.
 \end{lemma}
-
+\begin{proof} By the preceding lemma the space $G(X)$ satisfies the fullness property. By the well-known result that if $P,R \in G(X)$ with $P(U)=R(U)$ for all $U \in \mathbb{F}$ it follows that $P=R$, it follows that the evaluations maps $G(X) \xrightarrow{ev_U} V$ coseparate the points of $G(X)$. Hence the result follows by definition of $\mathbf{Std}_{SCvx}$.
+\end{proof}
 This lemma shows there exists a functor $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{SCvx}$ which is the  Giry monad functor with codomain $\mathbf{Std}_{SCvx}$, and coupled with the partial forgetful functor $\mathbf{Std}_{SCvx} \xrightarrow{\mathcal{U}_{SCvx}} \mathbf{Std}$ which forgets the superconvex space structure, we obtain a factorization of the $G$ monad. (This will be an adjoint factorization once we prove some more facts.)
 
 \begin{theorem} Let $\mathbf{V}$ denote the full subcategory of $\mathbf{Std}_{SCvx}$ consisting of the single object $V$.
@@ -226,7 +244,8 @@ To prove the property $\epsilon_A \circ \mu_A = \epsilon_A \circ G(\epsilon_A)$ 
 If we spell both sides of that equation out, using the property $\int_A m \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(m) dQ$, the equation holds valid.  The result of the lemma follows from the property that $V$ coseparates, i.e, the set of morphisms $A  \xrightarrow{m} V$ are jointly monic on $A$.
 \end{proof}
 
-Note that what we have shown is that $\mathbf{Std}_{SCvx}$ is a subcategory of $\mathbf{Alg}_{G}$. Proving the reverse inclusion (or finding a counterexample) is an interesting open problem.  
+Note that what we have shown is that $\mathbf{Std}_{SCvx}$ is a subcategory of $\mathbf{Alg}_{G}$. Proving the reverse inclusion (or finding a counterexample) is an open problem, and is discussed in ([Sturtz 25](#Sturtz25)).
+ 
 
 
 Concerning the $P$ algebras the above method of using $V$ generalize points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. 
