@@ -1,5 +1,5 @@
 
-> This entry is about the concept in [[geometry]]/[[physics]]/[[linear algebra]]. For other notions of reflection in mathematics, see [[reflection]]. 
+> This entry is about the concept in [[geometry]]/[[physics]]/[[linear algebra]]. For other notions of *[[reflection]]* see there.
 
 ---
 
@@ -16,3 +16,5 @@ Given a [[hyperplane]] in a [[Euclidean space]], then _reflection_ at that hyper
 * [[rotation]], [[translation]], [[boost]]
 
 * [[space group]], [[crystallographic group]]
+
+[[!redirects reflections at a hyperplane]]
