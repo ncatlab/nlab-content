@@ -35,6 +35,8 @@ Textbooks:
 
 * [[Walter Rudin]]: *Functional analysis*, McGrawHill (1991) &lbrack;[urn:oclc:record:1149261256](https://archive.org/details/functionalanalys00rudi), [pdf](https://59clc.wordpress.com/wp-content/uploads/2012/08/functional-analysis-_-rudin-2th.pdf), [pdf](https://www.math.uniri.hr/~ajurasic/Rudin.pdf)&rbrack;
 
+* [[John B. Conway]]: *A Course in Functional Analysis*, Graduate Texts in Mathematics **96**,  Springer (2007) &lbrack;[doi:10.1007/978-1-4757-4383-8](https://doi.org/10.1007/978-1-4757-4383-8)&rbrack;
+
 
 For more see:
 
