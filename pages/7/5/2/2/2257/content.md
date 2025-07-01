@@ -10,7 +10,6 @@
 
 
 
-
 ## Selected writings
 
 On the [[Heine-Borel theorem]] not implying the [[fan theorem]]:
@@ -49,6 +48,9 @@ On [[generalized Reedy categories]]:
 
 * {#BergerMoerdijk} [[Clemens Berger]], [[Ieke Moerdijk]], *On an extension of the notion of Reedy category*, Mathematische Zeitschrift **269** (2011) 977–1004 &lbrack;[arXiv:0809.3341](http://arxiv.org/abs/0809.3341), [doi:10.1007/s00209-010-0770-x](https://doi.org/10.1007/s00209-010-0770-x)&rbrack;
 
+On [[abelian sheaf cohomology]] and [[Verdier duality]] of [[locally compact topological spaces]]:
+
+* {#Moerdijk2025} [[Ieke Moerdijk]]: *Sheaf Cohomology for Locally Compact Spaces*, Lecture notes, Sheffield (2025) &lbrack;[[Moerdijk-SheafCohomology.pdf:file]]&rbrack;
 
 
 
