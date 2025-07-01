@@ -1,5 +1,5 @@
 
-Mark Grigorievich Krein (1907-1989)
+Mark Grigorievich Krein (Марк Григорьевич Крейн) (1907-1989)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Mark_Krein)
 
@@ -8,7 +8,7 @@ Mark Grigorievich Krein (1907-1989)
 
 Proving what came to be called the *[[Krein-Milman theorem]]*:
 
-* [[Mark Krein]], D. Milman: *On extreme points of regular convex sets*: Studia Mathematica **9** 1 (1940) 133-138 &lbrack;[eudml:219061](https://eudml.org/doc/219061)&rbrack;
+* [[Mark Krein]], David Milman: *On extreme points of regular convex sets*: Studia Mathematica **9** 1 (1940) 133-138 &lbrack;[eudml:219061](https://eudml.org/doc/219061)&rbrack;
 
 Proving what came to be called the *[[Krein-Smulian theorem]]*:
 
