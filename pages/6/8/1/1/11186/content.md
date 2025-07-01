@@ -1,6 +1,13 @@
 
+Rune Gjøringbø Haugseng 
 
-* [webpage](https://runegha.folk.ntnu.no/)
+* [personal page](https://sites.google.com/site/runehaugseng/research)
+
+* [personal page](https://runegha.folk.ntnu.no/) at ntnu
+
+* [institute page](https://www.ntnu.edu/employees/rune.haugseng)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=182756)
 
 ## Selected writings
 
