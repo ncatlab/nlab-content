@@ -1,5 +1,5 @@
 
-> For the strong topology in functional analysis, see at [[strong operator topology]].
+> For the *strong topology* in functional analysis, see at [[strong operator topology]].
 
 
 ***
