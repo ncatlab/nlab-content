@@ -1,5 +1,5 @@
 
-> Not to be confused with [[John Bligh Conway]], the [[analysis|analyst]].
+> Beware that there is also [[John Bligh Conway]], the [[functional analysis|functional analyst]].
 
 ***
 
@@ -7,7 +7,7 @@
 
 \section{Introduction}
 
-John Horton Conway  (born 26 December 1937, died 11 April 2020) was an English mathematician. He developed new ideas in many branches of mathematics, notable, here, for the [[Conway polynomial]] of a knot, and for study of the [[Conway groups]], $Co_{1}, Co_{2}, Co_{3}$,  three of the [[sporadic finite simple groups]].
+John Horton Conway  (1937-2020) was an English mathematician. He developed new ideas in many branches of mathematics, notable, here, for the [[Conway polynomial]] of a knot, and for study of the [[Conway groups]], $Co_{1}, Co_{2}, Co_{3}$,  three of the [[sporadic finite simple groups]].
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/John_Horton_Conway)
 
