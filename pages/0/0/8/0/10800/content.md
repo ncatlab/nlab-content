@@ -239,7 +239,7 @@ Basics are recalled in
 
 * {#Weston} Tom Weston, _The idelic approach to number theory_ ([pdf](http://www.math.umass.edu/~weston/oldpapers/idele.pdf))
  
-* {#GoldfeldHundley11} {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
+* {#GoldfeldHundley11} {#GoldfeldHundley11} [[Dorian Goldfeld]], [[Joseph Hundley]], chapter 2 of _Automorphic representations and L-functions for the general linear group_, Cambridge Studies in Advanced Mathematics 129, 2011 ([pdf](https://web.archive.org/web/20150326125549/https://www.maths.nottingham.ac.uk/personal/ibf/text/gl2.pdf))
 
 * {#Garrett11} [[Paul Garrett]], _Iwasawa-Tate on &#950;-functions and L-functions_, 2011 ([pdf](http://www-users.math.umn.edu/~garrett/m/mfms/notes_c/Iwasawa-Tate.pdf)
 [[!redirects Poisson formula]]
