@@ -55,6 +55,9 @@ In the context of "[[generalized global symmetries]]":
 
 * Wenjie Xi, Tian Lan, Longye Wang, Chenjie Wang, Wei-Qiang Chen, *On a class of fusion 2-category symmetry: condensation completion of braided fusion category* &lbrack;[arXiv:2312.15947](https://arxiv.org/abs/2312.15947)&rbrack;
 
+See also:
+
+* Devon Stockall: *Large condensation in enriched $\infty$-categories* &lbrack;[arXiv:2506.23632](https://arxiv.org/abs/2506.23632)&rbrack;
 
 
 
