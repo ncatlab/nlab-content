@@ -27,7 +27,41 @@ These are [[cofibrant objects]] in the $G$-[[fine model structure on topological
 
 ## Definition
 
-(...)
+Let the [[equivariance group]] $G$ be [[topological group]] (typically required to be a [[compact Lie group]], see [there](compact+Lie+group#InEquivariantHomotopyTheory)).
+
+As $H \underset{clsd}{\subset} G$ ranges over its [[closed subgroups]], consider the [[coset spaces]] $G/H$ as [[G-spaces]] with respect to the residual left multiplication action by $G$, and regard its [[product spaces]] $S^n \times G/H$ and $D^n \times G/H$ with the [[n-sphere]] and the [[n-disk]], respectively, for the latter equipped with the [[trivial action]].
+
+This way, the canonical [[boundary of a manifold|boundary]] inclusions 
+$$
+  \iota_n 
+    \,\colon\, 
+  S^{n-1} \xhookrightarrow{\phantom{--}} D^n
+$$ 
+considered for ordinary [[CW-complexes]] induces $G$-[[equivariant maps]]
+
+\[
+  \label{GeneratingEquivariantCofibrations}
+  S^{n-1}
+  \times G/H
+  \xhookrightarrow{
+    \phantom{-}
+    \iota_n \times id_{G/H}
+    \phantom{-}
+  }
+  D^n \times G/H
+  \,,\;\;\;\;\;\;
+  n \in \mathbb{N}
+  ,\,
+  H \underset{clsd}{\subset} G
+  \,.
+\]
+
+\begin{definition} 
+  A *$G$-CW-complex* $X$ is a [[G-space]] [[isomorphism|isomorphic]] to the result of a [[sequence]], [[monotone function|monotone]] in cell dimension $n$, of [[cell attachments]] via the $G$-equivariant attaching maps (eq:GeneratingEquivariantCofibrations).
+\end{definition}
+
+
+
 
 \begin{remark}\label{FiniteGroupCWComplexesAreCWComplexesWithCellularGAction}
   For [[finite group|finite]] [[equivariance groups]] $G$, a $G$-CW-complex structure may be identified with 
@@ -75,7 +109,7 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
   For $G$ a [[finite group]] (at least), the [[product]] of two $G$-CW-complexes in [[compactly generated weak Hausdorff spaces]] is itself a $G$-CW-complex.
 \end{proposition}
 \begin{proof}
-  Since for finite $G$, a $G$-CW complex is the same as a plain [[CW-complex]] equipped with a [[cell complex|cellular]] [[group action|action]] by $G$ (Rem. \ref{FiniteGroupCWComplexesAreCWComplexesWithCellularGAction}) it is clear that for this structure to be preserved by the product operation it is sufficient that the products of underlying cells constitute a CW-complex, hence that products preserve CW-complexes in compactly generated Hausdorff spaces. This is this case by [this Prop.](CW+complex#ClosureOfCWComplexesUnderCartesianProduct).
+  Since for finite $G$, a $G$-CW complex is the same as a plain [[CW-complex]] equipped with a [[cell complex|cellular]] [[group action|action]] by $G$ (Rem. \ref{FiniteGroupCWComplexesAreCWComplexesWithCellularGAction}) it is clear that for this structure to be preserved by the product operation it is sufficient that the products of underlying cells constitute a CW-complex, hence that products preserve CW-complexes in compactly generated Hausdorff spaces. That is this the case is [this Proposition](CW+complex#ClosureOfCWComplexesUnderCartesianProduct).
 \end{proof}
 
 ### Equivariant cellular approximation
