@@ -39,7 +39,7 @@ These can be given a semantics in the [[poset]] of languages $P(V^\star)$ by [[u
 3. $L(\epsilon)$ consists of only the empty string, $L(R_1\cdot R_2) = \{\alpha \in V^\star \vert \exists \beta \in L(R_1), \gamma \in L(R_2) \; (\alpha = \beta \gamma) \}$. The right side is an application of a $\mathbf{2}$-enriched version of the [[Day convolution]] monoidal structure, with monoidal product 
 $$\otimes: P(V^\star) \times P(V^\star) \to P(V^\star)$$ 
 induced from the concatenation product $V^\star \times V^\star \to V^\star$ that makes $V^\star$ a discrete monoidal poset. 
-4. $L(R^\star) = \{ \alpha \in V^\star \vert \exists n \in \mathbb{N}\; \exists\beta_0,\ldots,\beta_{n-1} \in L(R)\; (\alpha = \beta_0\cdots\beta_{n-1}) \}$. In [[category theory|category theoretic]] terms this is the least solution to the recurrence equation $L(R^\star) = L(\epsilon| (R\cdot R^\star))$, and can be constructed by [[Kleene's fixed point theorem]] as an $\omega$-[[colimit]].
+4. $L(R^\star) = \{ \alpha \in V^\star \vert \exists n \in \mathbb{N}\; \exists\beta_0,\ldots,\beta_{n-1} \in L(R)\; (\alpha = \beta_0\cdots\beta_{n-1}) \}$ is the smallest submonoid of $V^\star$ that contains $L(R)$. In [[category theory|category theoretic]] terms this is the least solution to the recurrence equation $L(R^\star) = L(\epsilon| (R\cdot R^\star))$, and can be constructed by [[Kleene's fixed point theorem]] as an $\omega$-[[colimit]].
 
 Every regular language is denoted by some regular expression in this way.
 
