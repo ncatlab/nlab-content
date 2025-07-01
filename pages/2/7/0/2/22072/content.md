@@ -22,7 +22,7 @@ There is the textbook
 
   [doi:10.1090/surv/063](https://doi.org/http://dx.doi.org/10.1090/surv/063)
 
-  [pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), (errata: [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/hovey-model-cats-errata.pdf))
+  [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/hovey-model-cats.pdf), (errata: [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/hovey-model-cats-errata.pdf))
 
   [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover)
 
