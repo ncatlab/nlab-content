@@ -30,6 +30,8 @@ Every convex set is [[star-shaped]] about each of its points, and hence [[contra
 
 * The **convex hull** of a subset is the smallest convex subset containing it.
 
+* The *[[extreme point|extreme points]]* of a convex sets are those not "in between" any pair of points.
+
 
 [[!redirects convex hull]]
 [[!redirects convex hulls]]
