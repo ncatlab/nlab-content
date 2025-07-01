@@ -59,23 +59,27 @@ With assumption ([Joshua, 4.3](#Joshua)) this derives that dualization intertwin
 
 The duality is named after [[Jean-Louis Verdier]].
 
-Accounts of the traditional notion include
+Accounts of the traditional notion:
 
-* [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, Jour. Amer. Math. Soc. 9 (1996), 205&#8211;236. ([JSTOR](http://www.jstor.org/stable/2152846))
- {#Neeman96}
-
-* Wikipedia, _[Verdier duality](http://en.wikipedia.org/wiki/Verdier_duality)_
-
-* Liviu Niculaescu, _The derived category of sheaves and the Poincar&#233;-Verdier duality_ ([pdf](http://www3.nd.edu/~lnicolae/Verdier-ams.pdf))
+* {#Neeman96} [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, Jour. Amer. Math. Soc. **9** (1996) 205-236 &lbrack;[jstor:2152846](http://www.jstor.org/stable/2152846)&rbrack;
+ 
+* Liviu Niculaescu: _The derived category of sheaves and the Poincar&#233;-Verdier duality_ &lbrack;[pdf](http://www3.nd.edu/~lnicolae/Verdier-ams.pdf)&rbrack;
 
 * [[Jacob Lurie]], lecture notes on _Verdier duality_ ([2011 pdf](http://www.math.harvard.edu/~lurie/287xnotes/Lecture19.pdf), [2013 pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.348.5739&rep=rep1&type=pdf), [2014 pdf](http://people.math.harvard.edu/~lurie/282ynotes/LectureXXI-Verdier.pdf))
 
-A general abstract formalization is in 
+* [[Ieke Moerdijk]]: *Sheaf Cohomology for Locally Compact Spaces*, Lecture notes, Sheffield (2025) &lbrack;[[Moerdijk-SheafCohomology.pdf:file]]&rbrack;
 
-* [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
- {#Joshua}
+See also: 
 
-Discussion in the context of [[higher algebra]]/[[higher geometry]] is in 
+* Wikipedia, _[Verdier duality](http://en.wikipedia.org/wiki/Verdier_duality)_
+
+
+A general abstract formalization:
+
+* {#Joshua} [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
+ 
+
+Discussion in the context of [[higher algebra]]/[[higher geometry]]:
 
 * [[Roy Joshua]], _Generalised Verdier duality for presheaves of spectra&#8212;I_, Journal of Pure and Applied Algebra Volume 70, Issue 3, 29 March 1991, Pages 273&#8211;289
 
