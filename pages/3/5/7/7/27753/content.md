@@ -170,6 +170,11 @@ The case of [[crystalline topological insulators]] and [[symmetry protected topo
 * Naren Manjunath: *Crystalline invariants of integer
 and fractional Chern insulators*, talk at *[Recent Developments and Challenges in Topological Phases](https://www2.yukawa.kyoto-u.ac.jp/~yitpmolecule-topology-2024/)*, Kyoto University (2024) &lbrack;[pdf](https://www2.yukawa.kyoto-u.ac.jp/~yitpmolecule-topology-2024/slide/Naren.pdf), [[Manjunath-CrystallineInvariantsofFCI.pdf:file]]&rbrack;
 
+See also:
+
+* Kryštof Kolář, Kang Yang, [[Felix von Oppen]], Christophe Mora: *Robustness of real-space topology in moiré systems* &lbrack;[arXiv:2507.00130](https://arxiv.org/abs/2507.00130)&rbrack;
+
+
 
 [[!redirects quantum anomalous Hall effects]]
 
