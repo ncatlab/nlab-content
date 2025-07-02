@@ -53,12 +53,6 @@ where $\lambda t.x:I \to A$ is the [[constant function]] which always returns $x
 
 For $I \equiv \mathrm{bool}$ the [[type of booleans]], this yields the usual notion of reflexivity for binary bridge types $\mathrm{Br}_A(x, y)$, since by the [[induction principle]] of the [[type of booleans]], $\mathrm{Br}_{A, \mathrm{bool}}(\mathrm{rec}_{\mathrm{bool}, A}(x, y))$ is [[equivalence of types|equivalent]] to $\mathrm{Br}_A(x, y)$ and $\mathrm{rec}_{\mathrm{bool}, A}(x, x) \equiv \lambda t.x$. 
 
-Since bridge types are reflexive, we can define the [[diagonal]] as the [[function]]
-
-$$\lambda x.(\lambda t.x, \mathrm{refl}_A(x)):\sum_{\overline{x}:I \to A} \mathrm{Br}_{A, I}(\overline{x})$$
-
-A type $A$ is **[[discrete]]** [[if and only if]] the diagonal is an [[equivalence of types]]. For binary bridge types where $I \equiv \mathrm{bool}$, discreteness is equivalent to saying that the canonical inductively defined family of functions $\mathrm{Id}_A(x, y) \to \mathrm{Br}_A(x, y)$ is an [[equivalence of types]] for all $x:A$ and $y:A$. 
-
 ### Function application
 
 In the same way that functions preserve [[identifications]] via [[function application to identifications]], functions preserve bridges via **function application to bridges** or the **action on bridges**. For all functions $\overline{x}:I \to A$ and $f:A \to B$, and bridges $p:\mathrm{Br}_{A, I}(\overline{x})$, there is a bridge $\mathrm{ap}(f, \overline{x}, p):\mathrm{Br}_{A, I}(f \circ \overline{x})$:
@@ -75,7 +69,100 @@ $$\mathrm{ap}(\lambda t.x, \overline{x}, p) \equiv \mathrm{refl}_A(x):\mathrm{Br
 
 $$\mathrm{ap}(g \circ f, \overline{x}, p) \equiv \mathrm{ap}(g, f \circ \overline{x}, \mathrm{ap}(f, \overline{x}, p)):\mathrm{Br}_{C, I}(g \circ f \circ \overline{x})$$
 
-$$\mathrm{ap}(f, \lambda t.x, \mathrm{refl}_A(x)) \equiv \mathrm{refl}_B(f(x)):Br_{B, I}(\lambda t.f(x))$$
+$$\mathrm{ap}(f, \lambda t.x, \mathrm{refl}_A(x)) \equiv \mathrm{refl}_B(f(x)):\mathrm{Br}_{B, I}(\lambda t.f(x))$$
+
+## Heterogeneous bridge types
+
+Similarly to [[heterogeneous identity types]], there are heterogeneous versions of bridge types as well. Given a type $A$ and a type family $(B(x))_{x:A}$ and an index type $I$ for the bridge types, the heterogeneous bridge type is a type family 
+
+$$\overline{x}:I \to A, p:\mathrm{Br}_{A, I}(\overline{x}), \overline{y}:\prod_{i:I} B(\overline{x}(i)) \vdash \mathrm{hBr}_{A, B, I}(\overline{x}, p, \overline{y})$$
+
+The usual version of a bridge type can be called **homogeneous** to contrast with heterogeneous bridge types. 
+
+For $I \equiv \mathrm{bool}$ the [[type of booleans]], $\overline{x} \equiv \mathrm{rec}_{\mathrm{bool}, A}(x_0, x_1)$, and $\overline{y} \equiv \mathrm{ind}_{\mathrm{bool}, \lambda t.B(\overline{x}(t))}(y_0, y_1)$, this yields the usual notion of a heterogeneous bridge types $\mathrm{hBr}_{A, B}(x_0, x_1, p, y_0, y_1)$, since by the [[induction principle]] of the [[type of booleans]], we have an [[equivalence of types]] 
+
+$$\mathrm{hBr}_{A, B, \mathrm{bool}}(\mathrm{rec}_{\mathrm{bool}, A}(x_0, x_1), p, \mathrm{ind}_{\mathrm{bool}, B}(y_0, y_1)) \simeq \mathrm{hBr}_{A, B}(x_0, x_1, p, y_0, y_1)$$
+
+### Relation to homogeneous bridge types
+
+Let $C$ be a type. Then heterogeneous bridge types over the constant type family at $C$ are the same as homogeneous bridge types of $C$. 
+
+$$\mathrm{hBr}_{A, \lambda t.C, I}(\overline{x}, p, \overline{y}) \equiv \mathrm{Br}_{C, I}(\overline{y})$$
+
+Similarly, given an element $x:A$, heterogeneous bridge types over the constant function $\lambda t.x:I \to A$ and reflexivity $\mathrm{refl}_A(x)$ are the same as homogeneous bridge types of $B(x)$:
+
+$$\mathrm{hBr}_{A, B, I}(\lambda t.x, \mathrm{refl}_A(x), \overline{y}) \equiv \mathrm{Br}_{B(x), I}(\overline{y})$$
+
+### Heterogeneous reflexivity
+
+Given an element $x:A$ and $y:B(x)$, there is an element of the heterogeneous bridge type 
+
+$$\mathrm{hrefl}_{A, B}(x, y):\mathrm{hBr}_{A, B, I}(\lambda t.x, \mathrm{refl}_A(x), \lambda t.y)$$
+
+Since the heterogeneous bridge type $\mathrm{hBr}_{A, B, I}(\lambda t.x, \mathrm{refl}_A(x), \lambda t.y)$ is the same as the homogeneous bridge type $\mathrm{Br}_{B(x), I}(\lambda t.y)$, heterogeneous reflexivity is the same as the homogeneous reflexivity term 
+$$\mathrm{hrefl}_{A, B}(x, y) \equiv \mathrm{refl}_{B(x)}(y):\mathrm{Br}_{B(x), I}(\lambda t.y)$$
+
+### Dependent function application
+
+In the same way that dependent functions preserve [[heterogeneous identifications]] via dependent function application to identifications, dependent functions preserve bridges via **dependent function application to bridges** or the **dependent action on bridges**. For all functions $\overline{x}:I \to A$ and dependent functions $f:\prod_{x:A} B(x)$, and bridges $p:\mathrm{Br}_{A, I}(\overline{x})$, there is a heterogeneous bridge $\mathrm{apd}(f, \overline{x}, p):\mathrm{hBr}_{A, B, I}(\overline{x}, p, \lambda t.f(\overline{x}(t)))$:
+
+$$f:\prod_{x:A} B(x), \overline{x}:I \to A, p:\mathrm{Br}_{A, I}(\overline{x}) \vdash \mathrm{apd}(f, \overline{x}, p):\mathrm{hBr}_{A, B, I}(\overline{x}, p, \lambda t.f(\overline{x}(t)))$$
+
+Dependent function application of bridges satisfies some of the same judgmental equalities as that of identifications. These include, for $f:\prod_{x:A} B(x)$ and $x:A$,
+
+$$\mathrm{apd}(f, \lambda t.x, \mathrm{refl}_A(x)) \equiv \mathrm{refl}_{B(x)}(f(x)):\mathrm{hBr}_{A, B, I}(\lambda t.x, \mathrm{refl}_A(x), \lambda t.f(x))$$
+
+## The walking bridge
+
+Given a bridge type $\mathrm{Br}_{A, I}(\overline{x})$ indexed by functions $\overline{x}:I \to A$, the *walking bridge type* is a [[higher inductive type]] $\mathbb{I}_I$ generated by a function $\mathrm{pts}:I \to \mathbb{I}_I$ and a bridge $\mathrm{br}:\mathrm{Br}_{\mathbb{I}_I, I}(\mathrm{pts})$. 
+
+The idea of the walking bridge is that every bridge in a bridge type $\mathrm{Br}_{A, I}(\overline{x})$ is given by a function $I \to A$ that factors through $\mathbb{I}_I$: 
+
+$$I \to \mathbb{I}_I \to A$$
+
+in the same way that [[identifications]] are given by a function $\mathrm{bool} \to A$ that factors through the [[interval type]] (the [[walking identification]]). 
+
+The [[inference rules]] of the walking bridge are as follows:
+
+Formation rules for the walking bridge:
+$$\frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathbb{I}_I \; \mathrm{type}}$$
+
+Introduction rules for the walking bridge:
+$$\frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{pts}:I \to \mathbb{I}_I} \qquad \frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{br}_I:\mathrm{Br}_{\mathbb{I}_I, I}(\mathrm{pts})}$$
+
+Elimination rules for the walking bridge:
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{br}:\mathrm{hBr}_{\mathbb{I}_I, C, I}(\mathrm{pts}, \mathrm{br}_I, c_\mathrm{pts})}{\Gamma, x:\mathbb{I}_I \vdash \mathrm{ind}_{\mathbb{I}_I}^C(c_\mathrm{pts}, c_\mathrm{br}, x):C(x)}$$
+
+Computation rules for the walking bridge:
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{br}:\mathrm{hBr}_{\mathbb{I}_I, C, I}(\mathrm{pts}, \mathrm{br}_I, c_\mathrm{pts})}{\Gamma, i:I \vdash \mathrm{ind}_\mathbb{I}^{C}(c_\mathrm{pts}, c_\mathrm{br}, i) \equiv c(i):C(\mathrm{pts}(i))}$$
+
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{br}:\mathrm{hBr}_{\mathbb{I}_I, C, I}(\mathrm{pts}, \mathrm{br}_I, c_\mathrm{pts})}{\Gamma \vdash \mathrm{apd}(\mathrm{ind}_\mathbb{I}^{C}(c_\mathrm{pts}, c_\mathrm{br}), \mathrm{pts}, \mathrm{br}_I) \equiv c_\mathrm{br}:\mathrm{Br}_{\mathbb{I}_I, I}(\mathrm{pts})}$$
+
+## Discrete types
+
+Since bridge types are reflexive, we can define the [[diagonal]] as the [[function]]
+
+$$\Delta_{A, I} \coloneqq \lambda x.(\lambda t.x, \mathrm{refl}_A(x)):A \to \sum_{\overline{x}:I \to A} \mathrm{Br}_{A, I}(\overline{x})$$
+
+Let $\mathrm{Id}_{A, I}(\overline{x})$ denote the [[inductive family]] parameterized by $\overline{x}:I \to A$ and generated by a family of elements $\mathrm{refl}_{A, I}(x):\mathrm{Id}_{A, I}(\lambda t.x)$. For binary reflexive type families where $I \equiv \mathrm{bool}$, the inductive family of types 
+
+$$\mathrm{Id}_{A, \mathrm{bool}}(\mathrm{rec}_{\mathrm{bool}, A}(x, y))$$ 
+
+is the same as the [[identity type]] $\mathrm{Id}_A(x, y)$. 
+
+A type $A$ is **[[discrete]]** [[if and only if]] one of the following equivalent conditions holds:
+
+* the diagonal $\Delta_{A, I}$ is an [[equivalence of types]].
+
+* the canonical function $\mathrm{const}_{A, \mathbb{I}} \coloneqq \lambda a.\lambda i.a$ which takes elements in $A$ to constant functions $\mathbb{I} \to A$ out of the walking bridge is an [[equivalence of types]]. 
+
+* the canonical inductively defined family of functions $\mathrm{Id}_{A, I}(\overline{x}) \to \mathrm{Br}_{A, I}(\overline{x})$ is an [[equivalence of types]] for all $\overline{x}:I \to A$. 
+
+The second condition is essentially saying that the [[localization of a type|localization]] $L_{\mathbb{I}_I}(A)$ at the walking bridge $\mathbb{I}_I$ is equivalent to $A$ itself.
+
+In a [[spatial type theory]] with a [[flat modality]] and [[sharp modality]], one can create a [[cohesive type theory]] by adding an [[axiom of cohesion]] for the walking bridge, that says that a type is discrete in the spatial sense $A \simeq \flat A$ if and only if a type is discrete in the bridge sense. The [[shape modality]] of the cohesive type theory $\esh \coloneqq L_{\mathbb{I}_I}$ is then given by localization at the walking bridge. 
+
+The semantics of such a [[cohesive type theory]] for a finite type $I$ with $n$-elements is the [[cohesive (infinity,1)-topos]] of $n$-ary [[cubical objects]] in a base [[(infinity,1)-topos]] of cubically discrete objects. 
 
 ## Relativity
 
@@ -169,6 +256,18 @@ Some discussion of bridge types occurs in
 
 [[!redirects heterogeneous bridge type]]
 [[!redirects heterogeneous bridge types]]
+
+[[!redirects homogeneous bridge]]
+[[!redirects homogeneous bridges]]
+
+[[!redirects homogeneous bridge type]]
+[[!redirects homogeneous bridge types]]
+
+[[!redirects walking bridge]]
+[[!redirects walking bridges]]
+
+[[!redirects walking bridge type]]
+[[!redirects walking bridge types]]
 
 [[!redirects relativity axiom]]
 [[!redirects axiom of relativity]]
