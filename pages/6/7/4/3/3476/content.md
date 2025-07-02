@@ -118,21 +118,21 @@ $$
       root \,\colon\, C
       \,,
       \; 
-      subt
+      subtr
         \,\colon\, 
       A(root) \to \underset{c \colon C}{\mathcal{W}}\, A(c)
       \,, 
       \;
-      subt_D 
+      subtr_D 
         \,\colon\, 
       \underset{a \colon A(root)}{\prod} 
-        D\big(subt(a)\big)
+        D\big(subtr(a)\big)
       \\
       \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
       \;\;\vdash\;\;
-      tree_D\big(root,\,subt ,\, subt_D\big) 
+      tree_D\big(root,\,subtr ,\, subtr_D\big) 
         \,\colon\, 
-      D\big(tree(root,\, subt)\big)
+      D\big(tree(root,\, subtr)\big)
       \mathclap{\phantom{\vert_{\vert}}}
     \end{array}  
   }{
@@ -159,20 +159,20 @@ $$
       \\
       root \,\colon\, C
       \,,\; 
-      subt
+      subtr
         \,\colon\, 
       A(root) \to \underset{c \colon C}{\mathcal{W}}\, A(c)
       \,,
       \; 
-      subt_D
+      subtr_D
         \,\colon\, 
-      \underset{a\colon A(c)}{\Pi} D\big(subt(a)\big)
+      \underset{a\colon A(c)}{\Pi} D\big(subtr(a)\big)
       \\
       \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
       \;\;\vdash\;\;
-      tree_D\big(root,\,subt,\,subt_D\big) 
+      tree_D\big(root,\,subtr,\,subtr_D\big) 
         \,\colon\, 
-      D\big(tree(root,\, subt)\big)
+      D\big(tree(root,\, subtr)\big)
       \mathclap{\phantom{\vert_{\vert}}}
     \end{array}
   }{
