@@ -9,7 +9,7 @@ in [[physics]]:
 
 in [[mathematics]]:
 
-* a [[mathematical universe]] being a
+* a [[universe (mathematics)]] being a
 
   * [[von Neumann universe]] of [[sets]]
 
