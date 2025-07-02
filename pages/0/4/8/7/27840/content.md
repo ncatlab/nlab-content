@@ -1,5 +1,5 @@
 
-## Disambiguation
+## Idea
 
 The term *universe* may refer to 
 
@@ -7,23 +7,22 @@ in [[physics]]:
 
 * the [[observable universe]],
 
-in mathematics:
+in [[mathematics]]:
 
-* a [[mathematical universe]]
+* a [[mathematical universe]] being a
 
-  * being a [[von Neumann universe]] of [[sets]]
+  * [[von Neumann universe]] of [[sets]]
 
     * such as a [[Grothendieck universe]]
 
-  * or a [[type universe]] 
-
+  * or a [[type universe]].
 
 
 
 
 ## Related concepts
 
-* [[relativity]], [[relativistic universe]] (also disambiguation)
+* [[relativity]], [[relativistic universe]]
 
 * [[multiverse]]
 
