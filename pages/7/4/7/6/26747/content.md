@@ -95,7 +95,7 @@ Examples of such modal parametric type theories include the [[displayed type the
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
 
-* {#NaryaDocs} *Parametric Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametric-observational-type-theory.html)) 
+* {#NaryaDocs} *Parametricity*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametricity.html))
 
 A proof assistant implementing an observational [[parametric type theory]] with both internal and external parametricity of variable [[arity]]:
 
