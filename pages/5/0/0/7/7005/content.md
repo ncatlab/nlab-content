@@ -435,6 +435,8 @@ Unlike the other presentation of dependent type theory in terms of universes, in
 
 * [[directed univalence axiom]]
 
+* [[axiom of relativity]]
+
 * [[identity type#IdentityTypesBetweenTypes|identity type between types]]
 
 ## References
