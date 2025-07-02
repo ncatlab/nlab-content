@@ -1,24 +1,39 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Mathematics
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
+=--
+=--
+
+\tableofcontents
+
 ## Idea
 
-The term *universe* may refer to 
+In [[philosophy]], the *universe* is a realm within which (some conceived part, naively and virtually all, of) reality takes place. 
 
-in [[physics]]:
+In [[physics]], a *universe* is a realm within which [[physics]] may be thought of as taking place. Such universes include: 
 
 * all of [[spacetime]] and its contents,
 
-* the [[observable universe]], the part of universe that is observable by humans
+* the [[observable universe]], the part of the universe that is physically observable by humans
 
-in [[mathematics]]:
+In [[mathematics]], a *universe* is a realm within which [[mathematics]] may be thought of as taking place. Such universes include: 
 
-* a [[universe (mathematics)]] referring to
+* In [[set theory]], a [[universe of sets]] such as a [[von Neumann universe]] or a [[Grothendieck universe]];
 
-  * a [[universe of sets]] such as a [[von Neumann universe]] or a [[Grothendieck universe]];
-
-  * a [[type universe]].
-
-
-
+* In [[type theory]], a [[type universe]].
 
 ## Related concepts
 
@@ -30,3 +45,11 @@ category: disambiguation
 
 [[!redirects universe]]
 [[!redirects universes]]
+
+[[!redirects universe (mathematics)]]
+[[!redirects universes (mathematics)]]
+
+[[!redirects universe (physics)]]
+[[!redirects universes (physics)]]
+
+  
