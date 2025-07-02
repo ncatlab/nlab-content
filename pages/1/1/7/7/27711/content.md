@@ -1,4 +1,6 @@
 
+> This article contains a section on the notion of [[type universes]] being relativistic. For the notion of the [[observable universe]] being relativistic, see [[special relativity]]. 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -25,13 +27,15 @@ Bridge types come in $n$-ary forms, for any natural number $n$. Examples include
 
 Binary bridge types behave like [[identity types]] in that they have [[function application on identifications]], but unlike identity types, binary bridge types do not have [[transport]]. 
 
-## Univalence axiom
+## Relativity
 
-* The [[univalence axiom]] of a [[type universe]] $U$ for nullary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U$ and the type of types $U$. 
+There is an analogue of the [[univalence axiom]] for [[type universes]] called **relativity** (see [Cavallo & Harper 2021](#CH21)), which uses bridge types instead of [[identity types]] and types of $n$-ary [[type families]] instead of [[types of equivalences]]. A universe is called **relativistic** if it satisfies the axiom of relativity. 
 
-* The [[univalence axiom]] of a [[type universe]] $U$ for unary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A)$ and the type of type families $A \to U$. 
+* Relativity of a [[type universe]] $U$ for nullary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U$ and the type of types $U$. 
 
-* The [[univalence axiom]] of a [[type universe]] $U$ for binary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A, B)$ and the type of correspondences $A \to B \to U$. 
+* Relativity of a [[type universe]] $U$ for unary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A)$ and the type of type families $A \to U$. 
+
+* Relativity of a [[type universe]] $U$ for binary bridge types says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U(A, B)$ and the type of correspondences $A \to B \to U$. 
 
 ## Related concepts
 
@@ -67,7 +71,7 @@ An equivalent of univalence for unary bridge types appears (with inverse conditi
 
 * {#BCM15} [[Jean-Philippe Bernardy]], [[Thierry Coquand]], and [[Guilhem Moulin]]. 2015. *A Presheaf Model of Parametric Type Theory.* In The 31st Conference on the Mathematical Foundations of Programming Semantics, MFPS 2015, Nijmegen, The Netherlands, June 22-25, 2015 (Electronic Notes in Theoretical Computer Science, Vol. 319), Dan R. Ghica (Ed.). Elsevier, 67–82. &lbrack;[doi:10.1016/j.entcs.2015.12.006](https://doi.org/10.1016/j.entcs.2015.12.006)&rbrack;
 
-The equivalent of univalence for (binary) bridge types is called "relativity" in
+The equivalent of univalence for (binary) bridge types is called "relativity" in:
 
 * {#CH21} [[Evan Cavallo]] and [[Robert Harper]]. 2021. *Internal Parametricity for Cubical Type Theory.* Log. Methods Comput. Sci. 17, 4 (2021). &lbrack;<a href="https://doi.org/10.46298/lmcs-17(4:5)2021">doi:10.46298/lmcs-17(4:5)2021</a>, [arXiv:2005.11290](https://arxiv.org/abs/2005.11290)&rbrack;
 
@@ -81,7 +85,9 @@ A fibered version of bridge types is defined in:
 
 Bridge types in [[Narya]]:
 
-* *Parametric Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametric-observational-type-theory.html)) 
+* *Observational higher dimensions*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/observational.html)) 
+
+* *Parametricity*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametricity.html))
 
 [[!redirects bridge]]
 [[!redirects bridges]]
@@ -103,3 +109,6 @@ Bridge types in [[Narya]]:
 
 [[!redirects heterogeneous bridge type]]
 [[!redirects heterogeneous bridge types]]
+
+[[!redirects relativity axiom]]
+[[!redirects axiom of relativity]]
