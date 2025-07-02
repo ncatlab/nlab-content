@@ -23,3 +23,4 @@ An object is then a family of sets $X_i$ for each $i \in \omega$ with restrictio
 
 * [[synthetic guarded domain theory]]
 * [[guarded recursion]]
+* [[bridge type]]
