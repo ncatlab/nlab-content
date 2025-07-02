@@ -1,5 +1,5 @@
 
-> This entry is about the notion of universe in [[mathematics]]/[[logic]]/[[type theory]]. For the notion of universe in [[physics]] see at _[[observable universe]]_.
+> This entry is about the notion of universe in [[mathematics]]/[[logic]]/[[type theory]]. For the notion of universe in [[physics]] see at _[[observable universe]]_. For other notions of universe, see [[universe]]. 
 
 ***
 
@@ -129,5 +129,10 @@ For Grothendieck's early use of the term
 [[!redirects von Neumann universe]]
 [[!redirects von Neumann universes]]
 
+[[!redirects universe of sets]]
+[[!redirects universes of sets]]
+
 [[!redirects set of all sets]]
 
+[[!redirects universe (mathematics)]]
+[[!redirects universes (mathematics)]]
