@@ -11,6 +11,10 @@ On achieving [[anyon|anyonic]] [[braiding]] of [[Majorana zero modes]] localized
 
 * [[Jason Alicea]], Yuval Oreg, Gil Refael, [[Felix von Oppen]], Matthew P. A. Fisher: *Non-Abelian statistics and topological quantum information processing in 1D wire networks*, Nature Physics **7** (2011) 412-417 &lbrack;[arXiv:1006.4395](https://arxiv.org/abs/1006.4395), [doi:10.1038/nphys1915](https://doi.org/10.1038/nphys1915)&rbrack;
 
+On [[fractional Chern insulators]]:
+
+* Kryštof Kolář, Kang Yang, [[Felix von Oppen]], Christophe Mora: *Robustness of real-space topology in moiré systems* &lbrack;[arXiv:2507.00130](https://arxiv.org/abs/2507.00130)&rbrack;
+
 
 category: people
 
