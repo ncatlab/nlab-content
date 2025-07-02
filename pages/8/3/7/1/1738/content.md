@@ -81,7 +81,7 @@ In [[simplicial type theory]], the **directed interval type** ([Riehl & Shulman 
 
 ### In binary parametric type theory
 
-In [[parametric type theory]] with binary [[internal parametricity]] or [[modal parametricity]], [[bridge types]] behave as [[hom types]] and [[heterogeneous bridge types]] behave as [[heterogeneous hom types]], and one can define the directed interval type as a [[higher inductive type]]. The [[inference rules]] are the same as that of the homotopical [[interval type]], except one uses the [[bridge types]] $\mathrm{Br}_A(x, y)$ instead of the [[identity types]] $\mathrm{Id}_A(x, y)$ for path constructors and the induction principle. 
+In [[parametric type theory]] with binary [[internal parametricity]] or [[modal parametricity]], [[binary bridge types]] behave as [[hom types]] and [[heterogeneous bridge types]] behave as [[heterogeneous hom types]], and one can define the directed interval type as a [[higher inductive type]]. The [[inference rules]] are the same as that of the homotopical [[interval type]], except one uses the [[bridge types]] $\mathrm{Br}_A(x, y)$ instead of the [[identity types]] $\mathrm{Id}_A(x, y)$ for path constructors and the induction principle. 
 
 \begin{definition}
 The **directed interval type** is a type $\mathbb{I}$ with elements $0:\mathbb{I}$ and $1:\mathbb{I}$ and bridge $h:\mathrm{Br}_\mathbb{I}(0, 1)$ such that for any type family $(P(x))_{x:\mathbb{I}}$ with elements $p_0:P(0)$ and $p_1:P(1)$ and heterogeneous bridge $p_h:\mathrm{hBr}_P^h(p_0, p_1)$, one can construct a dependent function $p:\prod_{x:\mathbb{I}} P(x)$ such that 
