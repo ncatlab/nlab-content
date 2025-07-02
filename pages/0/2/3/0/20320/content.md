@@ -1,4 +1,8 @@
 
+> This article is about the notion of multiverse in [[set theory]]. For other notions of multiverse, see [[multiverse]]. 
+
+----
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
