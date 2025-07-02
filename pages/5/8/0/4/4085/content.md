@@ -1,4 +1,8 @@
 
+> This article is about the notion of the [[observable universe]] being relativistic. For the notion of [[type universes]] being relativistic, see [[axiom of relativity]]. 
+
+---
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
