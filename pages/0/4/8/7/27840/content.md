@@ -5,17 +5,17 @@ The term *universe* may refer to
 
 in [[physics]]:
 
-* the [[observable universe]],
+* all of [[spacetime]] and its contents,
+
+* the [[observable universe]], the part of universe that is observable by humans
 
 in [[mathematics]]:
 
-* a [[universe (mathematics)]] being a
+* a [[universe (mathematics)]] referring to
 
-  * [[von Neumann universe]] of [[sets]]
+  * a [[universe of sets]] such as a [[von Neumann universe]] or a [[Grothendieck universe]];
 
-    * such as a [[Grothendieck universe]]
-
-  * or a [[type universe]].
+  * a [[type universe]].
 
 
 
