@@ -67,6 +67,10 @@ On [[gauged linear sigma-models]]:
 
 * [[Eric Sharpe]], *A survey of recent developments in GLSMs* &lbrack;[arxiv:2401.11637](https://arxiv.org/abs/2401.11637)&rbrack;
 
+On [[quantum K-theory rings]]:
+
+* I. Huq-Kuruvilla, [[Leonardo Mihalcea]], [[Eric Sharpe]], H. Zhang: *Quantum K-theory levels in physics and math* &lbrack;[arXiv:2507.00116](https://arxiv.org/abs/2507.00116)&rbrack;
+
 
 ## Selected talks
 
