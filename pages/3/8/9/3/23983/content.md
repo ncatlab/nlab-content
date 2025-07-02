@@ -595,7 +595,7 @@ For indexed heterogeneous identity types in the context of [[higher observationa
 
 For indexed heterogeneous identity types in [[Narya]], see
 
-* *Parametric Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametric-observational-type-theory.html#heterogeneous-identity-bridge-types)) 
+* *Observational higher dimensions*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/observational.html)) 
 
 [[!redirects indexed dependent identity type]]
 [[!redirects indexed dependent identity types]]
