@@ -1,15 +1,25 @@
 
 ## Disambiguation
 
-A universe can refer to 
+The term *universe* may refer to 
 
-* [[mathematical universe]]
+in [[physics]]:
 
-  * [[type universe]]
+* the [[observable universe]],
 
-  * [[von Neumann universe]]
+in [[mathematics]]:
 
-* [[observable universe]]
+* a [[mathematical universe]], being
+
+  * a [[von Neumann universe]] of [[sets]]
+
+    * such as a [[Grothendieck universe]]
+
+  * or a [[type universe]] 
+
+
+
+
 
 ## Related concepts
 
