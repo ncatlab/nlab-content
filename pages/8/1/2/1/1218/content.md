@@ -425,6 +425,8 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 
 * [[Diff]]
 
+* [[diffeological vector space]]
+
 * [[diffeological groupoid]], [[diffeological ∞-groupoid]]
 
 * [[connectology]]
