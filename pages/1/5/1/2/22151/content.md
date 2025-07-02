@@ -31,6 +31,10 @@ On higher order [[topological insulators]] (with protected corner-modes beyond t
 
 * [[Frank Schindler]], Ashley M. Cook, Maia G. Vergniory, Zhijun Wang, Stuart S. P. Parkin, [[B. Andrei Bernevig]], [[Titus Neupert]], *Higher-Order Topological Insulators*, Science Advances 01  **4** 6 (2018) eaat0346 &lbrack;[arXiv:1708.03636](https://arxiv.org/abs/1708.03636), [doi:10.1126/sciadv.aat0346](https://doi.org/10.1126/sciadv.aat0346)&rbrack;
 
+On [fragile](topological+phase+of+matter#ReferencesUnstableClassificationOfTopologicalPhases) [[topological phases of matter]]:
+
+* Barry Bradlyn, Zhijun Wang, Jennifer Cano, [[B. Andrei Bernevig]]:
+*Disconnected Elementary Band Representations, Fragile Topology, and Wilson Loops as Topological Indices: An Example on the Triangular Lattice*, Phys. Rev. B **99** (2019) 045140 \[<a href="https://doi.org/10.1103/PhysRevB.99.045140">doi:10.1103/PhysRevB.99.045140</a>, [arXiv:1807.09729](https://arxiv.org/abs/1807.09729)\]
 
 
 category: people
