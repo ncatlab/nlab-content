@@ -7,7 +7,7 @@ In [[mathematics]] and [[logic]], for *relativity* in the sense of a relativisti
 
 * [[axiom of relativity]]
 
-In [[physics]], for *relativity* in the sense of a relativistic [[observable universe]]:
+In [[physics]], for *relativity* in the sense of a [[universe]] whose [[spacetime]] is relativistic [[spacetime]]:
 
 * [[special relativity]]
 
