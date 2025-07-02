@@ -112,7 +112,9 @@ Philosophical motivation for HOTT as an autonomous foundation is given in:
 
 Parametric and higher observational type theory in [[Narya]]:
 
-* *Parametric Observational Type Theory*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametric-observational-type-theory.html)) 
+* *Observational higher dimensions*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/observational.html)) 
+
+* *Parametricity*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametricity.html))
 
 * *Higher datatypes and codatatypes*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/higher-types.html))
 
