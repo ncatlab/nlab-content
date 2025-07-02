@@ -259,9 +259,12 @@ In relation to the [[quantum Yang-Baxter equation|quantum]] [[Yang-Baxter equati
 
 See also:
 
-* Wei Gu, Jirui Guo, Leonardo Mihalcea, Yaoxiong Wen, Xiaohan Yan, *A correspondence between the quantum K theory and quantum cohomology of Grassmannians* &lbrack;[arXiv:2406.13739](https://arxiv.org/abs/2406.13739)&rbrack;
+* Wei Gu, Jirui Guo, [[Leonardo Mihalcea]], Yaoxiong Wen, Xiaohan Yan, *A correspondence between the quantum K theory and quantum cohomology of Grassmannians* &lbrack;[arXiv:2406.13739](https://arxiv.org/abs/2406.13739)&rbrack;
 
 * Peter Koroteev, Andrey Smirnov: *On the Quantum K-theory of Quiver Varieties at Roots of Unity* &lbrack;[arXiv:2412.19383](https://arxiv.org/abs/2412.19383)&rbrack;
+
+* I. Huq-Kuruvilla, [[Leonardo Mihalcea]], [[Eric Sharpe]], H. Zhang: *Quantum K-theory levels in physics and math* &lbrack;[arXiv:2507.00116](https://arxiv.org/abs/2507.00116)&rbrack;
+
  
 
 
