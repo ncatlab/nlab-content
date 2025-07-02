@@ -173,7 +173,7 @@ See also the commented list of problems at:
 ## Other lists of open problems
 
 * Coquand's five open problems:
-Coquand listed five open problems [here](https://eutypes.cs.ru.nl/eutypes_pmwiki/uploads/Meetings/Coquand.pdf)
+Coquand listed five open problems [here](https://eutypes.cs.ru.nl/pmwiki/uploads/Meetings/Coquand.pdf)
 
 * Open problems stated at the HoTT2019 Summer School [[HoTT2019 Summer School open problems list]]
 
