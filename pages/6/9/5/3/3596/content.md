@@ -1188,6 +1188,82 @@ Some of the first work noticing the homotopical / higher-categorical interpretat
 
 In retrospect, this is roughly an algebraic version of the standard fact that every object of a model category (or more generally a [[category of fibrant objects]] or a category with a weak factorization system) admits a [[simplicial resolution]] which is an [[internalization|internal]] [[Kan complex]], i.e. a nonalgebraic $\infty$-groupoid.  Note, however, that the first technical condition above (stability of $L$-maps under pullback along $R$-maps) seems to be necessary for the algebraic version of the result to go through.
 
+## Identity types for a family of elements
+  {#ForAFamilyOfElements}
+
+The usual notion of identity types, binary identity types, represents the notion of when two elements of a type $A$ are equal or identified with each other. One can generalize this to the notion of when a family of elements of a type $A$ are equal or identified, that is, $I$-ary identity types for an index type $I$. Given a type $A$ and an index type $I$, a family of elements in $A$ is represented by a function $\overline{x}:I \to A$. 
+
+A reflexive $I$-ary graph is a type family $R(\overline{x})$ indexed by $\overline{x}:I \to A$ such that for all $x:A$, there is an element $\mathrm{refl}(x):R(\lambda t.x)$, where $\lambda t.x$ is the [[constant function]] whose output is always $x:A$. 
+
+The $\mathbb{I}$-ary identity type $\mathrm{Id}_{I, A}(\overline{x})$ is the homotopy-initial such reflexive $I$-ary graph structure on $A$, and thus is an [[inductive family]] of types. The [[inference rules]] for such identity types are given as follows:
+
+First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
+
+**[[type formation]]**
+
+$$\frac{\Gamma \vdash I:Type \quad \Gamma \vdash A:Type}{\Gamma, f:I \to A \vdash Id_{I, A}(f):Type}$$
+
+Now the basic "introduction" rule, which says that the elements of $A$ encoded in the [[constant function]] $\lambda i:I.x$ which sends every element $i:I$ to $x:A$ are equal in a canonical way.
+
+**[[term introduction]]**
+
+$$\frac{\Gamma \vdash I:Type \quad \Gamma \vdash A:Type}{\Gamma, x:A \vdash r(x) : Id_{I, A}(\lambda i:I.x)}$$
+
+Then we have the “elimination” rule:
+
+$$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash t(x):C(\lambda i:I.x,r(x))}
+{\Gamma, f:I \to A, p:Id_{I, A}(f) \vdash J^{\underline{ }.t}(f,p) : C(f,p)}$$
+
+The elimination rule then says that if:
+
+1. for any $f:I \to A$ and any reason $p:Id_A(f)$ why the family of elements of $A$ encoded in the functions are the same, we have a type $C(f,p)$
+1. for any $x:A$ we have a $t(x):C(\lambda i:I.x,r(x))$,
+
+we can construct a canonically defined term $J^{\underline{ }.t}(f,p):C(f,p)$ for *any* $f$ and $p:Id_{I, A}(f)$, by "[[transport|transporting]]" the family of terms $t(x)$ dependent upon the element $x:A$ along the proof of equality $p$. The elimination rule alternatively says that in order to prove a statement is true about all $f,p$, it suffices to prove it in the special case for $\lambda i:I.x,r(x)$.
+
+Finally, we have the "computation" or [[beta-reduction]] rule. There are two possible computation rules, which result in strict and weak identity types respectively. The computation rule for strict identity types says that if we substitute along a [[reflexive relation|reflexivity]] proof, nothing happens. 
+
+**[[computation rule]] for strict identity types**
+
+$$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash t(x):C(\lambda b:\mathbb{2}.x,r(x))}
+{\Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash J^{\underline{ }.t}(\lambda i:I.x,r(x)) = t(x)}$$
+
+Note that the equality $=$ in the conclusion of this computation rule is [[judgmental equality]], not an instance of the identity/equality type itself.
+
+The computation rule for weak identity types says that there is a witness that the substitution along a [[reflexive relation|reflexivity]] proof is equal to the original $t(x)$. 
+
+**[[computation rule]] for weak identity types**
+
+$$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash t(x):C(\lambda i:I.x,r(x))}
+{\Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash \beta^{\underline{ }.t}(x):Id_{C(\lambda i:I.x,r(x))}(J^{\underline{ }.t}(\lambda i:I.x,r(x)),t(x))}$$
+
+Note that in this rule, the type $Id_{C(\lambda i:I.x,r(x))}(J^{\underline{ }.t}(\lambda i:I.x,r(x)),t(x))$ is the usual binary identity type. 
+
+When the index type $I$ is the [[booleans type]] $\mathbb{2}$ and the function $\overline{x} \equiv \mathrm{rec}_{\mathbb{2}, A}(x, y)$ is given by the recursion principle of the [[booleans type]], then the binary type family 
+
+$$\mathrm{Id}_A(x, y) \equiv \mathrm{Id}_{\mathbb{2}, A}(\mathrm{rec}_{\mathbb{2}, A}(x, y))$$ 
+
+is precisely the usual identity types as defined above, which indicates the equality / identification of a family of two elements. 
+
+If we have [[dependent product types]], we can directly use the [[dependent function]] $\Gamma \vdash t:\prod_{x:A} C(\lambda i:I.x,r(x))$ instead of the family of terms $t(x)$ dependent upon $x:A$ in the hypothesis. Then the canonically defined term is given by $J(t,f,p):C(f,p)$ and is dependent upon dependent function $t:\prod_{x:A} C(\lambda i:I.x,r(x))$ rather than annotated with the family $t(x)$. 
+
+$$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma \vdash t:\prod_{x:A} C(\lambda i:I.x,r(x))}
+{\Gamma, f:I \to A, p:Id_A(f) \vdash J(t,f,p) : C(f,p)}$$
+
+$$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \qquad
+\Gamma \vdash t:\prod_{x:A} C(\lambda i:I.x,r(x))}
+{\Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash J(t,\lambda i:I.x,r(x)) = t(x)}$$
+
+The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $J(\lambda x:A.t(x),f,p):C(f,p)$ and $J(\lambda x:A.t(x),\lambda i:I.x,r(x)) \equiv t(x):C(\lambda i:I.x,r(x))$. . 
+
+Similarly, the canonically defined term in the propositional computation rule is given by the identification $\beta(t,x):Id_{C(\lambda i:I.x,r(x))}(J(t,\lambda i:I.x,r(x)),t(x))$ and is dependent upon dependent function $t:\prod_{x:A} C(\lambda i:I.x,r(x))$ rather than annotated with the family $t(x)$.
+
+$$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \qquad
+\Gamma \vdash t:\prod_{x:A} C(\lambda i:I.x,r(x))}
+{\Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash \beta(t,x):Id_{C(\lambda i:I.x,r(x))}(J(t,\lambda i:I.x,r(x)),t(x))}$$
+
+The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(\lambda i:I.x,r(x))}(J(\lambda x:A.t(x),\lambda i:I.x,r(x)),t(x))$.  
+
 ## Related concepts
 
 * [[identity of indiscernibles]]
