@@ -681,15 +681,17 @@ for $n=2$ ([[connections on 2-bundles]]) in
 * {#KimSaemann20} [[Hyungrok Kim]], [[Christian Saemann]], *Adjusted Parallel Transport for Higher Gauge Theories*, J. Phys. A **52** (2020) 445206 &lbrack;[arXiv:1911.06390](https://arxiv.org/abs/1911.06390), [doi:10.1088/1751-8121/ab8ef2](https://doi.org/10.1088/1751-8121/ab8ef2)&rbrack;
   > (via [[adjusted Weil algebras]])
 
-
 * {#LeeOberhauser23} [[Darrick Lee]], Harald Oberhauser, *Random Surfaces and Higher Algebra* &lbrack;[arXiv:2311.08366](https://arxiv.org/abs/2311.08366)&rbrack;
 
 * Francis Bischoff, [[Darrick Lee]]: *Thin homotopy and the signature of piecewise linear surfaces* &lbrack;[arXiv:2506.16657](https://arxiv.org/abs/2506.16657)&rbrack;
 
 
-for $n = 3$ in
+and for $n = 3$ in
 
 * {#MartinsPickenII} [[João Faria Martins]], [[Roger Picken]], *The fundamental Gray 3-groupoid of a smooth manifold and local 3-dimensional holonomy based on a 2-crossed module*, Differential Geometry and its Applications **29** 2 (2011) 179-206 &lbrack;[arXiv:0907.2566](http://arxiv.org/abs/0907.2566), [doi:10.1016/j.difgeo.2010.10.002](https://doi.org/10.1016/j.difgeo.2010.10.002)&rbrack;
+
+* Matthew Cellot: *Higher path groupoids and the holonomy of formal power series connections* &lbrack;[arXiv:2506.23880](https://arxiv.org/abs/2506.23880)&rbrack;
+
 
 
 Further discussion and illustration and relation to [[tensor networks]]:
@@ -748,14 +750,14 @@ in turn based on constructions in
 * [[Kiyoshi Igusa]], _Iterated integrals of superconnections_ ([arXiv](http://arxiv.org/abs/0912.0249))
 {#Igusa}
 
-Remarks on $\infty$-parallel transport in [[Top]] are in
+Remarks on what one might call $\infty$-parallel transport in [[Top]]:
 
-* {#Stasheff}[[Jim Stasheff]], _[[StasheffParallelTransportv02.pdf:file]]_
+* {#Stasheff}[[Jim Stasheff]]: _[[StasheffParallelTransportv02.pdf:file]]_
 
 
 Understanding [[higher parallel transport]] of [[circle n-bundles with connection]] as an [[extended functorial field theory|extended]] [[homotopy field theory]]:
 
-* [[Lukas Müller]], [[Lukas Woike]], *Parallel Transport of Higher Flat Gerbes as an Extended Homotopy Quantum Field Theory*,  J. Homotopy Relat. Struct. **15** (2020) 113–142  &lbrack;[arXiv:1802.10455](https://arxiv.org/abs/1802.10455), [doi:10.1007/s40062-019-00242-3](https://doi.org/10.1007/s40062-019-00242-3)&rbrack;
+* [[Lukas Müller]], [[Lukas Woike]]: *Parallel Transport of Higher Flat Gerbes as an Extended Homotopy Quantum Field Theory*,  J. Homotopy Relat. Struct. **15** (2020) 113–142  &lbrack;[arXiv:1802.10455](https://arxiv.org/abs/1802.10455), [doi:10.1007/s40062-019-00242-3](https://doi.org/10.1007/s40062-019-00242-3)&rbrack;
 
 
 
