@@ -21,7 +21,7 @@
 
 ## Idea
 
-Given a [[smooth manifold]] $M$ and a vector field $X \in \Gamma(T M)$ on it, one defines a series of operators $\mathcal{L}_X$ on spaces of differential forms, of functions, of vector fields and multivector fields. 
+Given a [[smooth manifold]] $M$ and a vector field $X \in \Gamma(T M)$ on it, one defines a series of operators $\mathcal{L}_X$ on spaces of [[differential forms]], of [[functions]], of [[vector fields]] and [[multivector fields]]. 
 For functions $\mathcal{L}_X(f) = X(f)$ (derivative of $f$ along an integral curve of $X$); as multivector fields and forms can not be compared in different points, one pullbacks or pushforwards them to be able to take a derivative. 
 
 
@@ -62,4 +62,9 @@ A gentle elementary introduction for mathematical physicists
 
 * Bernard F. Schutz, *Geometrical methods of mathematical physics* (elementary intro) [amazon](http://www.amazon.com/Geometrical-Methods-Mathematical-Physics-Bernard/dp/0521298873), [google](http://books.google.hr/books?id=HAPMB2e643kC&lpg=PP1&dq=schutz%20geometrical%20methods&pg=PP1#v=onepage&q&f=false)
 
-[[!redirects Lie derivatives]].
+On [[covariant derivative|covariant]] Lie derivatives of [[fiber bundle|bundle]]-valued [[differential forms]]:
+
+* [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity* &lbrack;[arXiv:2507.00140](https://arxiv.org/abs/2507.00140)&rbrack;
+
+
+[[!redirects Lie derivatives]]
