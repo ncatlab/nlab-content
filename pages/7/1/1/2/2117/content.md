@@ -1,5 +1,5 @@
 
-> This entry is about the notion in [[mathematics]]/[[logic]]/[[type theory]]. For the notion of the same name in [[physics]] see at _[[observable universe]]_.
+> This entry is about the notion of universe in [[mathematics]]/[[logic]]/[[type theory]]. For the notion of universe in [[physics]] see at _[[observable universe]]_.
 
 ***
 
@@ -124,8 +124,6 @@ For Grothendieck's early use of the term
 
 * [[Martin Hofmann]], section 2.1.6 of _Syntax and semantics of dependent types_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985))
 
-[[!redirects universe]]
-[[!redirects universes]]
 [[!redirects universe > history]]
 
 [[!redirects von Neumann universe]]
