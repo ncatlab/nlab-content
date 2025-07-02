@@ -79,9 +79,9 @@ $$\left(\mathbb{I} \to A\right) \simeq \left(\sum_{x:A} \sum_{y:A} \mathrm{hom}_
 
 In [[simplicial type theory]], the **directed interval type** ([Riehl & Shulman 2017](#RS17)) is a [[bounded total order]] $\mathbb{I}$. In [Gratzer, Weinberger & Buchholtz 2024](#GWB24) and [Gratzer, Weinberger & Buchholtz 2025](#GWB25), the directed interval type additionally satisfies [[synthetic quasi-coherence]] for finitely generated $\mathbb{I}$-algebras, which is sufficient to prove that $\mathbb{I}$ is a synthetic category in the sense of being a [[simplicial type|simplicial]] [[Rezk complete type|Rezk complete]] [[Segal type]], and the [[axiom]] that $\flat \mathbb{I} \simeq \mathrm{bool}$ which says that the [[core]] of the directed interval is the [[type of booleans]]. 
 
-### In binary parametric observational type theory
+### In binary parametric type theory
 
-In parametric observational type theory with binary [[internal parametricity]] or [[modal parametricity]], [[bridge types]] behave as [[hom types]] and [[heterogeneous bridge types]] behave as [[heterogeneous hom types]], and one can define the directed interval type as a [[higher inductive type]]. The [[inference rules]] are the same as that of the homotopical [[interval type]], except one uses the [[bridge types]] $\mathrm{Br}_A(x, y)$ instead of the [[identity types]] $\mathrm{Id}_A(x, y)$ for path constructors and the induction principle. 
+In [[parametric type theory]] with binary [[internal parametricity]] or [[modal parametricity]], [[bridge types]] behave as [[hom types]] and [[heterogeneous bridge types]] behave as [[heterogeneous hom types]], and one can define the directed interval type as a [[higher inductive type]]. The [[inference rules]] are the same as that of the homotopical [[interval type]], except one uses the [[bridge types]] $\mathrm{Br}_A(x, y)$ instead of the [[identity types]] $\mathrm{Id}_A(x, y)$ for path constructors and the induction principle. 
 
 \begin{definition}
 The **directed interval type** is a type $\mathbb{I}$ with elements $0:\mathbb{I}$ and $1:\mathbb{I}$ and bridge $h:\mathrm{Br}_\mathbb{I}(0, 1)$ such that for any type family $(P(x))_{x:\mathbb{I}}$ with elements $p_0:P(0)$ and $p_1:P(1)$ and heterogeneous bridge $p_h:\mathrm{hBr}_P^h(p_0, p_1)$, one can construct a dependent function $p:\prod_{x:\mathbb{I}} P(x)$ such that 
