@@ -11,6 +11,11 @@ On [[quantum K-theory rings]]:
 
 * W. Gu, [[Leonardo C. Mihalcea]], [[Eric Sharpe]], H. Zou, *Quantum K theory of symplectic Grassmannians* &lbrack;[arXiv:2008.04909](https://arxiv.org/abs/2008.04909)
 
+* Wei Gu, Jirui Guo, [[Leonardo Mihalcea]], Yaoxiong Wen, Xiaohan Yan, *A correspondence between the quantum K theory and quantum cohomology of Grassmannians* &lbrack;[arXiv:2406.13739](https://arxiv.org/abs/2406.13739)&rbrack;
+
+
+* I. Huq-Kuruvilla, [[Leonardo Mihalcea]], [[Eric Sharpe]], H. Zhang: *Quantum K-theory levels in physics and math* &lbrack;[arXiv:2507.00116](https://arxiv.org/abs/2507.00116)&rbrack;
+
 
 On [[Pontryagin products]] not in [[ordinary homology]] but in [[topological K-theory|topological]] [[K-homology]]:
 
