@@ -7,11 +7,11 @@ in [[physics]]:
 
 * the [[observable universe]],
 
-in [[mathematics]]:
+in mathematics:
 
-* a [[mathematical universe]], being
+* a [[mathematical universe]]
 
-  * a [[von Neumann universe]] of [[sets]]
+  * being a [[von Neumann universe]] of [[sets]]
 
     * such as a [[Grothendieck universe]]
 
@@ -24,6 +24,8 @@ in [[mathematics]]:
 ## Related concepts
 
 * [[relativity]], [[relativistic universe]] (also disambiguation)
+
+* [[multiverse]]
 
 category: disambiguation
 
