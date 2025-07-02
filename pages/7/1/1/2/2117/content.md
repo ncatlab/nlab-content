@@ -1,5 +1,5 @@
 
-> This entry is about the notion of universe in [[mathematics]]/[[logic]]/[[type theory]]. For the notion of universe in [[physics]] see at _[[observable universe]]_. For other notions of universe, see [[universe]]. 
+> This entry is about the notion of universe of [[sets]] in [[mathematics]]. For other notions of universe, see at [[universe]]. 
 
 ***
 
@@ -23,7 +23,7 @@
 
 ## Idea
 
-A universe is a realm within which (some conceived part, naively and virtually all, of) [[mathematics]] may be thought of as taking place.  Universes can be purely metamathematical, but we can also reflect upon them and bring them into mathematics.  There are several different kinds of 'universes'. For a physical notion of universe see [[observable universe]].
+A **universe of [[sets]]** is a realm within which (some conceived part, naively and virtually all, of) the [[mathematics]] of [[sets]] may be thought of as taking place. Universes can be purely metamathematical, but we can also reflect upon them and bring them into mathematics. 
 
 ## Categories as universes
 
@@ -86,11 +86,13 @@ This follows the following outline:
 
 5.  Now we are using a new, stronger set theory; repeat.
 
+## Universe of sets in type theory
 
-## Universes in type theory
+Set theory is not the only [[foundation of mathematics]].  For example, there are also various foundational [[type theories]], closely related to [[structural set theory]].  Then we have a meta-universe of all types, and we can isolate the types which are [[sets]] to get a meta-universe of sets. 
 
-Set theory is not the only [[foundation of mathematics]].  For example, there are also various foundational [[type theories]], closely related to [[structural set theory]].  Then we have a meta-universe of all types, and we can also add axioms for the existence of internal [[type universes]].
+We can also add axioms for the existence of internal [[type universes]] $U$, and in [[dependent type theory]] similarly isolate the types which are [[h-sets]] $\mathrm{Set}_U \coloneqq \sum_{A:U} \mathrm{isSet}(A)$, resulting in the notion of an internal **universe of sets**. 
 
+See [[type universe]] for the more general concept of a universe of types. 
 
 ## Related concepts
 
@@ -124,6 +126,8 @@ For Grothendieck's early use of the term
 
 * [[Martin Hofmann]], section 2.1.6 of _Syntax and semantics of dependent types_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985))
 
+* [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
+
 [[!redirects universe > history]]
 
 [[!redirects von Neumann universe]]
@@ -132,7 +136,7 @@ For Grothendieck's early use of the term
 [[!redirects universe of sets]]
 [[!redirects universes of sets]]
 
-[[!redirects set of all sets]]
+[[!redirects set universe]]
+[[!redirects set universes]]
 
-[[!redirects universe (mathematics)]]
-[[!redirects universes (mathematics)]]
+[[!redirects set of all sets]]
