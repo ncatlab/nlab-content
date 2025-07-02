@@ -193,7 +193,7 @@ $$
     \Big(
       root
       ,\, 
-      subt
+      subtr
       ,\,
       \lambda a . wrec_{(D,tree_D)}\big(subtr(a)\big)
     \Big)
