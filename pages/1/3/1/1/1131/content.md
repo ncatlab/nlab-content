@@ -479,6 +479,11 @@ A discussion of how formal neighbourhoods of points in [[infinity-stack]]s are g
 
 * [[Jacob Lurie]], _[[Moduli Problems and DG-Lie Algebras]]_
 
+Classification in the case of vanishing differential:
+
+* Mark D. Gould, Phillip S. Isaac, Ian Marquette, Jorgen Rasmussen: *Finite-dimensional $\mathbb{Z}$-graded Lie algebras* &lbrack;[arXiv:2507.00384](https://arxiv.org/abs/2507.00384)&rbrack;
+
+
 [[!redirects differential graded Lie algebras]]
 [[!redirects dg-Lie algebra]]
 [[!redirects Lie dg-algebra]]
