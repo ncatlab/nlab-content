@@ -177,12 +177,16 @@ Introductory lecture notes:
 * [[Jonathan Sorce]]: *Bootstrap 2024: Lectures on "The algebraic approach: when, how, and why?"* &lbrack;[arXiv:2408.07994](https://arxiv.org/abs/2408.07994)&rbrack;
  > (aimed at non-mathematically inclined field theorists)
 
+* [[Rainer Verch]]: *Lecture Notes on Operator Algebras and Quantum Field Theory* &lbrack;[arXiv:2507.00900](https://arxiv.org/abs/2507.00900)&rbrack;
+
+
 
 and for just [[quantum mechanics]] in the algebraic perspective:
 
 * {#Gleason09} [[Jonathan Gleason]], *The $C^*$-algebraic formalism of quantum mechanics* (2009) &lbrack;[[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]]&rbrack;
 
 * {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
+
 
 Textbook accounts:
 
