@@ -46,7 +46,9 @@ On [[superspace|super]]-[[exceptional tangent spaces]]:
 
 * [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *The M-algebra completes the hierarchy of Super-Exceptional Tangent Spaces*, Physics Letters B &lbrack;[arXiv:2411.03661](https://arxiv.org/abs/2411.03661)&rbrack;
 
+On [[covariant derivative|covariant]] [[Lie derivatives]] of [[fiber bundle|bundle]]-valued [[differential forms]]:
 
+* [[Grigorios Giotopoulos]]: *Covariant Lie Derivatives and (Super-)Gravity* &lbrack;[arXiv:2507.00140](https://arxiv.org/abs/2507.00140)&rbrack;
 
 
 category: people
