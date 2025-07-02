@@ -1,7 +1,7 @@
 
 > under construction
 
-> This entry is about the notion of universe in [[physics]]. For the notion of universe in [[mathematics]], see at _[[mathematical universe]]_. For other notions of universe, see at _[[universe]]_.
+> This entry is about the notion of universe in [[physics]]. For the notion of universe in [[mathematics]], see at _[[universe (mathematics)]]_. For other notions of universe, see at _[[universe]]_.
 
 
 
