@@ -40,18 +40,35 @@ The abelian [[cohomology]] of a $k$-[[Lie algebra]] $\mathfrak{g}$ with coeffici
 
 Before this approach was advanced in Cartan-Eilenberg's _Homological algebra_, Lie algebra cohomology and homology were defined by Chevalley-Eilenberg with a help of concrete Koszul-type resolution which is in this case a cochain complex 
 
-$$Hom_{\mathfrak{g}}(U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M)\cong Hom_k(\Lambda^* \mathfrak{g},M),$$ 
+$$
+  Hom_{\mathfrak{g}}\big(
+    U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M
+  \big)
+   \cong 
+  Hom_k(\Lambda^* \mathfrak{g},M)
+  \,,
+$$ 
 
-where the first argument $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is naturally equipped with a differential to start with (see below).
+where $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is the [[Chevalley-Eilenberg chain complex]], whereas the [[Chevalley-Eilenberg cochain complex]] is 
 
-WHERE  BELOW?
+$$
+  CE(\mathfrak{g},M) 
+    \;\coloneqq\; 
+  Hom_{\mathfrak{g}}\big(
+    U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M)
+  \;\cong\; 
+  Hom_k(\Lambda^* \mathfrak{g},M).
+$$
 
- The first argument in the Hom, i.e. $U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g}$ is sometimes called the Chevalley-Eilenberg chain complex (cf. Weibel); the [[Chevalley-Eilenberg cochain complex]] is the whole thing, i.e. 
+If $M$ is the [[trivial action|trivial module]] $k$ then 
+$$
+  CE(\mathfrak{g}) \coloneqq Hom_k(\Lambda^* \mathfrak{g},k)
+$$ 
 
-$$CE(\mathfrak{g},M) := Hom_{\mathfrak{g}}(U\mathfrak{g}\otimes_k \Lambda^* \mathfrak{g},M)\cong Hom_k(\Lambda^* \mathfrak{g},M).$$
+is the *[[Chevalley-Eilenberg algebra]]*, and if $\mathfrak{g}$ is finite-dimensional this equals $\Lambda^* \mathfrak{g}^*$.
 
-If $M$ is a trivial module $k$ then $CE(\mathfrak{g}) := Hom_k(\Lambda^* \mathfrak{g},k)$ and if $\mathfrak{g}$ is finite-dimensional this equals $\Lambda^* \mathfrak{g}^*$ with an appropriate differential and the exterior multiplication gives it a dg-algebra structure.
-
+The [[cochain cohomology]] of these ([[underlying]]) [[cochain complexes]] is the Lie algebra cohomology of $\mathrak{g}$ with [[coefficients]] in $M$.
+ 
 ### Via $\infty$-Lie algebras
 
 As discussed at [[Chevalley-Eilenberg algebra]], we may identify [[Lie algebra]]s $\mathfrak{g}$ as the duals $CE(\mathfrak{g})$ of [[dg-algebra]]s whose underlying graded algebra is the [[Grassmann algebra]] on the vector space $\mathfrak{g}^*$.
