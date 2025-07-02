@@ -27,19 +27,17 @@ A _graded algebra_ is an [[associative algebra]] which is with a labelling on it
 
 ## Definition
 
-Let $G$ be a [[group]].  (Often $G$ will be abelian, and, in fact, one usually takes by default $G = \mathbb{Z}$ the additive group of [[integers]], in which case the actual group being used is omitted from the terminology and notation.)
+Let $M$ be a [[monoid]].  (Often $M$ will be an abelian group, and often by default $M = \mathbb{Z}$, the additive group of [[integers]].  However, another common choice is $M = \mathbb{N}$, the additive monoid of [[natural numbers]].)
 
-A **graded ring** is a [[ring]] $R$ equipped with a decomposition of the underlying [[abelian group]] as a [[direct sum]] $R = \oplus_{g \in G} R_g$ such that the product takes $R_{g} \times R_{g'} \to R_{g g'}$.
+An **$M$-graded ring** or simply a **graded ring** is a [[ring]] $R$ equipped with a decomposition of the underlying [[abelian group]] as a [[direct sum]] $R = \oplus_{m \in M} R_m$ such that the product maps $R_{m} \times R_{m'}$ to $R_{m m'}$.
 
-Analogously there is the notion of graded $k$-[[associative algebra]] over any commutative ring $k$.
+Analogously there is the notion of graded [[associative algebra]] over any field $k$.  We can express it as follows: an **$M$-graded algebra** or simply **graded algebra** is a [[monoid in a monoidal category]] of $M$-[[graded vector spaces]] over $k$. 
 
-Specifically for $k$ a [[field]] a **graded algebra** is a [[monoid in a monoidal category|monoid in]] [[graded vector spaces]] over $k$.
+Both graded rings and graded algebras over a field are, in turn, special cases of graded algebras over a commutative ring.
 
-An $\mathbb{N}$-graded algebra is called _connected_ if in degree-0 it is just the ground ring.
+An $\mathbb{N}$-graded ring is often called a **nonnegatively graded ring**.   An $\mathbb{N}$-graded ring is called _connected_ if in degree zero it is just the ground ring.
 
 A *[[differential graded algebra]]* is a graded algebra $A$ equipped with a [[derivation]] $d : A\to A$ of degree +1 (or -1, depending on conventions) and such that $d \circ d = 0$. This is the same as a [[monoid]] in the category of [[chain complexes]].
-
-\linebreak
 
 {#StronglyGraded} A $\mathbb{N}$-graded algebra is called **strongly $\mathbb{N}$-graded** (in [Ardizzoni & Menini (2007), Def. 3.2](#ArdizzoniMenini07)) if for every $n,p \ge 0$, the [[multiplication]] $A_{n} \otimes A_{p} \rightarrow A_{n+p}$ is an [[epimorphism]].
 
