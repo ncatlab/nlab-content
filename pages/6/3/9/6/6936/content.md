@@ -24,12 +24,13 @@
 
 ## Idea
 
-*Higher inductive types* (HITs) are a generalization of [[inductive types]] which allow the constructors to produce, not just points of the type being defined, but also elements of its iterated [[identity types]].
+*Higher inductive types* (HITs) are a generalization of [[inductive types]] which allow the constructors to produce, not just points of the type being defined, but also elements of its iterated [[identity types]] or [[bridge types]]. See the [[Narya]] [documentation](#NaryaDocs) for the use of [[bridge]] constructors in higher inductive types. 
 
-While HITs are already useful in [[extensional type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of [[cell complexes]], [[homotopy colimits]], [[n-truncated|truncations]], [[Bousfield localization of model categories|localizations]], and many other objects from classical [[homotopy theory]].
+Either way, the iterated type families used (identity types or bridge types) need to have some notion of [[function application to identifications|function application]] $\mathrm{ap}$ for the [[recursion principle]] of the HIT and [[dependent function application to identifications|dependent function application]] $\mathrm{apd}$ for the [[induction principle]] of the HIT. 
+
+While HITs are already useful in [[set-level type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of [[cell complexes]], [[homotopy colimits]], [[n-truncated|truncations]], [[Bousfield localization of model categories|localizations]], and many other objects from classical [[homotopy theory]].
 
 Defining what a HIT is "in general" is an open research problem.  One mostly precise proposal may be found in &lbrack;[Shulman & Lumsdaine (2016)](#ShulmanLumsdaine16)&rbrack;.  A more syntactic description of a class of HITs may be found in &lbrack;[Brunerie (2016)](#Brunerie16), [Vezzosi, Mörtberg & Abel (2019)](#VezzosiMörtbergAbel19)&rbrack;. A solution to this problem should determine how to define the concept of an [[elementary (∞,1)-topos]].
-
 
 ## Examples
 
@@ -308,6 +309,10 @@ in [[Coq]]:
 Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm-2013.pdf)
 
 in [[Lean]]: [van Doorn (2018)](#vanDoorn18)
+
+in [[Narya]]:
+
+* {#NaryaDocs} *Higher datatypes and codatatypes*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/higher-types.html))
 
 Discussion of [[coinduction]] via HITs: 
 
