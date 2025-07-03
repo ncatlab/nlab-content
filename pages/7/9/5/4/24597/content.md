@@ -53,7 +53,7 @@ $$p: \prod_{y:D} \sum_{x:C} (F(x) \cong y).$$
 This differs from the definition of an [[essentially surjective functor]] by the lack of [[propositional truncations]] in the definition: 
 
 \begin{definition}
-A [[functor]] $F : C \to D$ is **essentially surjective** if the there is a dependent term  
+A [[functor]] $F : C \to D$ is **essentially surjective** if there is a dependent term  
 $$p(y) \colon \left\Vert \sum_{x:C} (F(x) \cong y)\right\Vert$$
 for all objects $y:D$. 
 \end{definition}
