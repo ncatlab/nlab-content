@@ -97,7 +97,9 @@ $$\mathrm{ap}_{I, A, B}(f, \overline{x}, \mathrm{refl}_{I, A}(x) \equiv \mathrm{
 
 ## Related concepts
 
-* [[dependent function application to identifications]]
+* [[function application]]
+
+* [[dependent function application]]
 
 * [[identification]]
 
