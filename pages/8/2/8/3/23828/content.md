@@ -29,9 +29,12 @@ and related to [[modular transformations]]:
 * [[Maissam Barkeshli]], [[Michael Freedman]]: *Modular transformations through sequences of topological charge projections*, Phys. Rev. B **94** (2016) 165108 \[<a href="https://doi.org/10.1103/PhysRevB.94.165108">doi:10.1103/PhysRevB.94.165108</a>, [arXiv:1602.01093](https://arxiv.org/abs/1602.01093)\]
 
 
-
 On [[symmetry protected topological phases]] and their [[topological orders]]:
 
 * {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) &lbrack;[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147)&rbrack;
+
+On [[crystalline topological insulator|crystalline]] [[fractional Chern insulators]]:
+
+* Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators*, Phys. Rev. B (2025) &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431), [doi:10.1103/8bpm-qbzp](https://doi.org/10.1103/8bpm-qbzp)&rbrack;
 
 category: people
