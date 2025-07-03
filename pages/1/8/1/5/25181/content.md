@@ -177,6 +177,7 @@ $$\frac{
 * [[unit type]]
 * [[dependent sum type]]
 * [[sum type]]
+* [[identity type]], [[n-ary identity type]]
 * [[definition]]
 
 ## References
@@ -332,6 +333,42 @@ The above notion of "copy of a type" is considered in §2.12.8 of:
 
 [[!redirects weak unary product type]]
 [[!redirects weak unary product types]] 
+
+[[!redirects nullary identity type]]
+[[!redirects nullary identity types]] 
+
+[[!redirects strict nullary identity type]]
+[[!redirects strict nullary identity types]] 
+
+[[!redirects weak nullary identity type]]
+[[!redirects weak nullary identity types]] 
+
+[[!redirects nullary identification type]]
+[[!redirects nullary identification types]] 
+
+[[!redirects strict nullary identification type]]
+[[!redirects strict nullary identification types]] 
+
+[[!redirects weak nullary identification type]]
+[[!redirects weak nullary identification types]] 
+
+[[!redirects nullary equality type]]
+[[!redirects nullary equality types]] 
+
+[[!redirects strict nullary equality type]]
+[[!redirects strict nullary equality types]] 
+
+[[!redirects weak nullary equality type]]
+[[!redirects weak nullary equality types]] 
+
+[[!redirects nullary path type]]
+[[!redirects nullary path types]] 
+
+[[!redirects strict nullary path type]]
+[[!redirects strict nullary path types]] 
+
+[[!redirects weak nullary path type]]
+[[!redirects weak nullary path types]] 
 
 [[!redirects universal property of a copy]]
 [[!redirects dependent universal property of a copy]]
