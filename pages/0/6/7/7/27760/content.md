@@ -26,3 +26,25 @@
   * the [[walking 2-isomorphism with trivial boundary]]
 
   * the [[syntactic category]] of a [[theory]] $T$; i.e. the walking $T$-[[model]]
+
+* In [[dependent type theory]], many [[higher inductive types]] can be considered to be walking structures:
+
+  * the [[unit type]] is the walking [[element]]
+
+  * the [[boolean type]] is the walking [[pair]] of [[elements]]
+
+  * the [[interval type]] is the walking [[identification]]
+
+  * one definition of the [[circle type]] is the walking [[self-identification]]
+
+  * another definition of the [[circle type]] is the walking parallel pair of identifications. 
+
+  * the [[suspension type]] of a type $I$ is the walking parallel $I$-indexed family of identifications. 
+
+  * the [[natural numbers type]] is the walking [[sequence]]
+
+  * the [[integers type]] is the walking [[bi-infinite sequence]]
+
+  * the [[walking bridge]]
+
+  * the [[directed interval type]] is the walking morphism in the sense of element of a [[hom type]]
