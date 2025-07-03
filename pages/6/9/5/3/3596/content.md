@@ -1188,14 +1188,14 @@ Some of the first work noticing the homotopical / higher-categorical interpretat
 
 In retrospect, this is roughly an algebraic version of the standard fact that every object of a model category (or more generally a [[category of fibrant objects]] or a category with a weak factorization system) admits a [[simplicial resolution]] which is an [[internalization|internal]] [[Kan complex]], i.e. a nonalgebraic $\infty$-groupoid.  Note, however, that the first technical condition above (stability of $L$-maps under pullback along $R$-maps) seems to be necessary for the algebraic version of the result to go through.
 
-## Identity types for a family of elements
-  {#ForAFamilyOfElements}
+## Identity types of arbitrary arity
+  {#OfArbitraryArity}
 
-The usual notion of identity types, binary identity types, represents the notion of when two elements of a type $A$ are equal or identified with each other. One can generalize this to the notion of when a family of elements of a type $A$ are equal or identified, that is, $I$-ary identity types for an index type $I$. Given a type $A$ and an index type $I$, a family of elements in $A$ is represented by a function $\overline{x}:I \to A$. 
+The usual notion of identity types, binary identity types, represents the notion of when two elements of a type $A$ are equal or identified with each other. One can generalize this to the notion of when a family of elements of a type $A$ are equal or identified, that is, **identity types of [[arbitrary arity]]**. Given a type $A$ and an index type $I$, a family of elements in $A$ of [[arity]] $I$ is represented by a function $\overline{x}:I \to A$. 
 
-A reflexive $I$-ary graph is a type family $R(\overline{x})$ indexed by $\overline{x}:I \to A$ such that for all $x:A$, there is an element $\mathrm{refl}(x):R(\lambda t.x)$, where $\lambda t.x$ is the [[constant function]] whose output is always $x:A$. 
+A reflexive graph structure of [[arity]] $I$ on $A$ is a type family $R(\overline{x})$ indexed by $\overline{x}:I \to A$ such that for all $x:A$, there is an element $\mathrm{refl}(x):R(\lambda t.x)$, where $\lambda t.x$ is the [[constant function]] whose output is always $x:A$. 
 
-The $\mathbb{I}$-ary identity type $\mathrm{Id}_{I, A}(\overline{x})$ is the homotopy-initial such reflexive $I$-ary graph structure on $A$, and thus is an [[inductive family]] of types. 
+The identity type of [[arity]] $I$ $\mathrm{Id}_{I, A}(\overline{x})$ is the homotopy-initial such reflexive graph structure of arity $I$ on $A$, and thus is an [[inductive family]] of types. 
 
 When the index type $I$ is the [[booleans type]] $\mathbb{2}$ and the function $\overline{x} \equiv \mathrm{rec}_{\mathbb{2}, A}(x, y)$ is given by the recursion principle of the [[booleans type]], then the binary type family 
 
@@ -1620,3 +1620,15 @@ See also
 
 [[!redirects n-ary path type]]
 [[!redirects n-ary path types]]
+
+[[!redirects identity type of arbitrary arity]]
+[[!redirects identity types of arbitrary arity]]
+
+[[!redirects identitification type of arbitrary arity]]
+[[!redirects identitification types of arbitrary arity]]
+
+[[!redirects equality type of arbitrary arity]]
+[[!redirects equality types of arbitrary arity]]
+
+[[!redirects path type of arbitrary arity]]
+[[!redirects path types of arbitrary arity]]
