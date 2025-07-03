@@ -67,8 +67,14 @@ Topologies $j$ satisfying the latter condition are called **quasi-closed** and s
 $$\Omega\simeq\Omega\times 1\overset{1\times(\chi_U,\chi_U)}{\to}\Omega\times\Omega\times\Omega\overset{\Rightarrow\times 1}{\to}\Omega\times \Omega\overset{\Rightarrow}{\to}\Omega\quad .$$
 The corresponding quasi-closed subtoposes $Sh_{q(U)}(\mathcal{E})$ are the double negation subtoposes $Sh_{\neg\neg}(Sh_{c(U)}(\mathcal{E}))$ of the [[closed subtopos|closed subtoposes]] $Sh_{c(U)}(\mathcal{E})$ corresponding to the [[subterminal object]] $U$.
 
-For a proof of the proposition and the other assertions see [(Johnstone 2002, p.220)](#Johnstone).
+For a proof of the proposition and the other assertions see [(Johnstone 2002, p.220)](#Johnstone). We can deduce from this a description of the ordering on Boolean subtoposes.
 
++--{: .num_prop}
+###### Proposition
+$\mathcal{E}_{q(U)} \subseteq \mathcal{E}_{q(U')}$ as subtoposes of $\mathcal{E}$ if and only if $U \supseteq U'$ and $U = (U \Rightarrow U') \Rightarrow U'$.
+=--
+
+**Proof**. The closure of $\mathcal{E}_{q(U)}$ (meaning the smallest closed subtopos containing it) is $\mathcal{E}_{c(U)}$, so the ordering on the $q(U)$ must be a sub-ordering of that on the closed subtoposes, which is the opposite of that on the subterminals of $\mathcal{E}$ indexing them. Conversely, given $U \supseteq U'$, the inclusion $\mathcal{E}_{c(U)} \subseteq \mathcal{E}_{c(U')}$ restricts to the double-negation subtoposes if and only if it is [[skeletal geometric morphism|skeletal]], which by [Johnstone, Lemma D4.6.10](#Johnstone) requires that the exterior of the corresponing Lawvere-Tierney topology in $\mathcal{E}_{c(U')}$ is a $\neg\neg$-closed subterminal object. The exterior is simply $U$; asking that $U = \neg\neg U$ in $\mathcal{E}_{c(U')}$ translates to asking that $U = (U \Rightarrow U') \Rightarrow U'$ in the Heyting algebra of subterminal objects of $\mathcal{E}$.
 
 +--{: .num_prop}
 ###### Proposition
