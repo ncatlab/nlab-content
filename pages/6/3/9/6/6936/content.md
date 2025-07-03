@@ -24,9 +24,13 @@
 
 ## Idea
 
-*Higher inductive types* (HITs) are a generalization of [[inductive types]] which allow the constructors to produce, not just points of the type being defined, but also elements of its iterated [[identity types]] or [[bridge types]]. See the [[Narya]] [documentation](#NaryaDocs) for the use of [[bridge]] constructors in higher inductive types. 
+*Higher inductive types* (HITs) are a generalization of [[inductive types]] which allow the constructors to produce, not just points of the type being defined, but also elements of its iterated [[identity types]] or [[bridge types]]. See the [[Narya]] [documentation](#NaryaDocs) for the use of [[bridge]] constructors in HITs. 
 
-Either way, the iterated type families used (identity types or bridge types) need to have some notion of [[function application to identifications|function application]] $\mathrm{ap}$ for the [[recursion principle]] of the HIT and [[dependent function application to identifications|dependent function application]] $\mathrm{apd}$ for the [[induction principle]] of the HIT. 
+HITs can use [[identity type#OfArbitraryArity|identity types]] $\mathrm{Id}_{I, A}(\overline{x})$ or [[bridge type#OfArbitraryArity|bridge types]] $\mathrm{Br}_{I, A}(\overline{x})$ of any [[arity]] $I$. The arity most commonly used in HITs is binary, where [[identity types]] and [[bridge types]] are denoted respectively as 
+$$\mathrm{Id}_A(x, y) \coloneqq \mathrm{Id}_{\mathbb{2}, A}(\mathrm{rec}_{\mathbb{2}, A}(x, y)) \qquad \mathrm{Br}_A(x, y) \coloneqq \mathrm{Br}_{\mathbb{2}, A}(\mathrm{rec}_{\mathbb{2}, A}(x, y))$$ 
+and where $\mathbb{2}$ is the [[boolean type]] and $\mathrm{rec}_{\mathbb{2}, A}:A \times A \to (\mathbb{2} \to A)$ is the function defined in the [[recursion principle]] of the boolean type. Two examples of a HIT which uses identity types with an arity $I$ that is not necessarily binary are the [[walking identification#OfArbitraryArity|walking identification]] and the [[walking bridge]] of arity $I$. 
+
+Either way, the iterated type families used (identity types or bridge types) need to have some notion of [[function application to identifications|function application]] $\mathrm{ap}$ to [[identifications]] or [[bridges]] for the [[recursion principle]] of the HIT and [[dependent function application to identifications|dependent function application]] $\mathrm{apd}$ to [[identifications]] or [[bridges]] for the [[induction principle]] of the HIT. 
 
 While HITs are already useful in [[set-level type theory]], they are most useful and powerful in [[homotopy type theory]], where they allow the construction of [[cell complexes]], [[homotopy colimits]], [[n-truncated|truncations]], [[Bousfield localization of model categories|localizations]], and many other objects from classical [[homotopy theory]].
 
