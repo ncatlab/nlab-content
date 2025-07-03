@@ -46,13 +46,42 @@ $$a:A, b:A, p:a =_A b \vdash \mathrm{apdr}_f(a, b, p):\mathrm{tr}_B(a, b, p)(f(a
 
 Having one of the three notions of dependent function application to identifications means that one could define all three of them, because the types $f(a) =_B^p f(b)$, $f(a) =_{B(a)} \mathrm{tr}_B(a, b, p)^{-1}(f(b))$, and $\mathrm{tr}_B(a, b, p)(f(a)) =_{B(b)} f(b)$ are all [[equivalence of types|equivalent]] to each other. 
 
-## See also
+## For identifications of arbitrary arity
 
+One can also consider dependent function application to [[identification#OfArbitraryArity|identifications of arity]] $I$, $p:\mathrm{Id}_{I, A}(\overline{x})$, given a family of elements $\overline{x}:I \to A$ indexed by type $I$. We have, for a dependent function $f:\prod_{x:A} B(x)$, a reflexive family 
+
+$$x:A \vdash \mathrm{hrefl}_{I, A, B}(x, f(x)):\mathrm{hId}_{I, A, B}(\lambda t.x, \mathrm{refl}_{I, A}(x), \lambda t.f(x))$$
+
+and thus by [[identification induction]] of the [[indexed heterogeneous identity type#OfArbitraryArity|indexed heterogeneous identity type of arity]] $I$, we have a function 
+
+$$\mathrm{apd}_{I, A, B}(f, \overline{x}):\prod_{p:\mathrm{Id}_{I, A}(\overline{x})} \mathrm{Id}_{I, B}(\overline{x}, p, \lambda t.f(\overline{x}(t)))$$
+
+called the **application** of the dependent function $f$ to identifications of arity $I$ or the **action** of dependent function $f$ on identifications of arity $I$, such that for all $x:A$, 
+
+$$\mathrm{apd}_{I, A, B}(f, \overline{x}, \mathrm{refl}_{I, A}(x)) \equiv \mathrm{hrefl}_{I, A, B}(x, f(x)):\mathrm{hId}_{I, A, B}(\lambda t.x, \mathrm{refl}_{I, A}(x), \lambda t.f(x))$$
+
+## Related concepts
+
+* [[dependent function]]
+* [[dependent function application]]
+* [[function application to identifications]]
+* [[identity type]]
+* [[indexed heterogeneous identity type]]
+* [[bridge type]]
+* [[indexed heterogeneous bridge type]]
+* [[higher inductive type]]
 * [[equivalence type]]
 * [[transport]]
-* [[dependent function]]
 
-[[!redirects dependent function application]]
+## References
+
+* {#UFP13} [[Univalent Foundations Project]], §2.3 in: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+* {#Rijke22} [[Egbert Rijke]], §5.4 in: *[[Introduction to Homotopy Type Theory]]*, Cambridge Studies in Advanced Mathematics, Cambridge University Press ([arXiv:2212.11082](https://arxiv.org/abs/2212.11082))
+
+For dependent function application to [[bridges]] in [[Narya]], see
+
+* *Observational higher dimensions*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/observational.html)) 
 
 [[!redirects dependent function application to identities]]
 [[!redirects dependent function application to identifications]]
