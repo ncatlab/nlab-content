@@ -1197,6 +1197,8 @@ Closely related to identity types of arbitrary arity are the [[bridge types]], w
 
 * they are reflexive type families that come with a notion of [[function application to identifications]] (or [[bridges]] for bridge types);
 
+* they are used in the path constructors of [[higher inductive types]], as well as the [[induction principle]] and [[recursion principle]] of said HITs; 
+
 * they are used to satisfy various notions of [[extensionality]] such as [[product extensionality]] and [[function extensionality]]; 
 
 There are many different ways to define identity types of arity $I$. The simplest definition states that given a [[type family]] $x:A \vdash B(x)$, identity types of arity $I$ are an [[inductive family]] of [[types]] 
