@@ -1195,7 +1195,25 @@ The usual notion of identity types, binary identity types, represents the notion
 
 A reflexive $I$-ary graph is a type family $R(\overline{x})$ indexed by $\overline{x}:I \to A$ such that for all $x:A$, there is an element $\mathrm{refl}(x):R(\lambda t.x)$, where $\lambda t.x$ is the [[constant function]] whose output is always $x:A$. 
 
-The $\mathbb{I}$-ary identity type $\mathrm{Id}_{I, A}(\overline{x})$ is the homotopy-initial such reflexive $I$-ary graph structure on $A$, and thus is an [[inductive family]] of types. The [[inference rules]] for such identity types are given as follows:
+The $\mathbb{I}$-ary identity type $\mathrm{Id}_{I, A}(\overline{x})$ is the homotopy-initial such reflexive $I$-ary graph structure on $A$, and thus is an [[inductive family]] of types. 
+
+When the index type $I$ is the [[booleans type]] $\mathbb{2}$ and the function $\overline{x} \equiv \mathrm{rec}_{\mathbb{2}, A}(x, y)$ is given by the recursion principle of the [[booleans type]], then the binary type family 
+
+$$\mathrm{Id}_A(x, y) \equiv \mathrm{Id}_{\mathbb{2}, A}(\mathrm{rec}_{\mathbb{2}, A}(x, y))$$ 
+
+is precisely the usual identity types as defined above, which indicates the equality / identification of a family of two elements. 
+
+When the index type $I$ is the standard [[finite type]] with $n$ elements $\mathrm{Fin}(n) \coloneqq \sum_{m:\mathbb{N}} m \lt n$, then the identity types can be called **$n$-ary identity types** and its elements can be called **$n$-ary identifications**. For specific natural numbers $n$, we have:
+
+* The nullary identity type ($n = 0$) of type $A$ is the [[positive copy type]] of $A$. 
+
+* The unary identity types ($n = 1$) of type $A$ are the $A$-indexed family of [[positive unit types]]. 
+
+* The binary identity types ($n = 2$) of type $A$ are the usual identity types defined above. 
+
+### Inference rules
+
+The [[inference rules]] for such identity types are given as follows:
 
 First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
 
@@ -1238,12 +1256,6 @@ $$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \quad 
 {\Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash \beta^{\underline{ }.t}(x):Id_{C(\lambda i:I.x,r(x))}(J^{\underline{ }.t}(\lambda i:I.x,r(x)),t(x))}$$
 
 Note that in this rule, the type $Id_{C(\lambda i:I.x,r(x))}(J^{\underline{ }.t}(\lambda i:I.x,r(x)),t(x))$ is the usual binary identity type. 
-
-When the index type $I$ is the [[booleans type]] $\mathbb{2}$ and the function $\overline{x} \equiv \mathrm{rec}_{\mathbb{2}, A}(x, y)$ is given by the recursion principle of the [[booleans type]], then the binary type family 
-
-$$\mathrm{Id}_A(x, y) \equiv \mathrm{Id}_{\mathbb{2}, A}(\mathrm{rec}_{\mathbb{2}, A}(x, y))$$ 
-
-is precisely the usual identity types as defined above, which indicates the equality / identification of a family of two elements. 
 
 If we have [[dependent product types]], we can directly use the [[dependent function]] $\Gamma \vdash t:\prod_{x:A} C(\lambda i:I.x,r(x))$ instead of the family of terms $t(x)$ dependent upon $x:A$ in the hypothesis. Then the canonically defined term is given by $J(t,f,p):C(f,p)$ and is dependent upon dependent function $t:\prod_{x:A} C(\lambda i:I.x,r(x))$ rather than annotated with the family $t(x)$. 
 
@@ -1584,3 +1596,27 @@ See also
 
 [[!redirects equality between types]]
 [[!redirects equalities between types]]
+
+[[!redirects binary identity type]]
+[[!redirects binary identity types]]
+
+[[!redirects binary identitification type]]
+[[!redirects binary identitification types]]
+
+[[!redirects binary equality type]]
+[[!redirects binary equality types]]
+
+[[!redirects binary path type]]
+[[!redirects binary path types]]
+
+[[!redirects n-ary identity type]]
+[[!redirects n-ary identity types]]
+
+[[!redirects n-ary identification type]]
+[[!redirects n-ary identification types]]
+
+[[!redirects n-ary equality type]]
+[[!redirects n-ary equality types]]
+
+[[!redirects n-ary path type]]
+[[!redirects n-ary path types]]
