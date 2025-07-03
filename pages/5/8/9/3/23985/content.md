@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -5,12 +6,14 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -19,6 +22,7 @@ In [[dependent type theory]], and particularly [[homotopy type theory]], an **id
 Thus an identification $p:\mathrm{Id}(a, b)$ provides a "reason", a "witness", or a "proof" that $a$ and $b$ "are equal", or more precisely a *way in which to identify them*. one can say that $a$ and $b$ are **identified**. The distinguishing feature of homotopy type theory is that in general, there may be more than one way to identify two things, i.e. more than one identification between two given elements.
 
 ## Identifications of arbitrary arity
+  {#OfArbitraryArity}
 
 One also has [[identity type#OfArbitraryArity|identity types of arbitrary arity]] $\mathrm{Id}_{I, A}(\overline{x})$ indexed by $\overline{x}:I \to A$ given index type $I$, instead of the usual identity types for two elements $\mathrm{Id}_A(x, y)$. The elements of these identity types are also called **identifications**, or **identifications of [[arbitrary arity]]**. 
 
@@ -26,10 +30,11 @@ If the index type $I$ is the standard [[finite type]] with $n$ elements $\mathrm
 
 ## See also
 
-* [[function application to identities]]
-* [[transport]]
 * [[unique identification]]
+* [[heterogeneous identification]]
 * [[bridge]]
+* [[function application to identifications]]
+* [[transport]]
 
 ## References ##
 
