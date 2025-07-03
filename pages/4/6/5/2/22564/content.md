@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -8,10 +9,7 @@
 =--
 =--
 
-
-# N-ary operations
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Definitions
 
@@ -40,6 +38,22 @@ More generally, a finitary operation in a [[multicategory]] is just a [[multimor
 ### Arbitrary arity
 
 More generally, one could use an arbitrary [[set]] instead of a [[finite set]]. However, the generalizations are only definable in [[closed monoidal category|closed]] [[multicategories]], rather than any [[multicategory]]. 
+
+In [[dependent type theory]], one can also use an arbitrary [[type]] $I$ instead of a [[finite type]] to define functions of **arbitrary arity**:
+
+$$\overline{x}:\prod_{x:I} A(x) \vdash f(\overline{x}):B$$
+
+An operation of **arbitrary arity** is a function where the sources and target are the same:
+
+$$\overline{x}:I \to A \vdash f(\overline{x}):A$$
+
+These are important for defining [[impredicative]] structures such as [[suplattices]], [[frames]], [[complete Heyting algebras]], and [[Grothendieck topoi]]. 
+
+Moreover, in addition to functions and operations of arbitrary arity, one also has [[type families]] and [[dependent functions]] of arbitrary arity. These are, in essence, families indexed by [[dependent product types]]:
+
+$$\overline{x}:\prod_{x:I} A(x) \vdash B(\overline{x}) \; \mathrm{type} \qquad \overline{x}:\prod_{x:I} A(x) \vdash f(\overline{x}):B(\overline{x})$$
+
+These are important for defining [[identity types#OfArbitraryArity|identity types]] $\mathrm{Id}_{I, A}(\overline{x})$ and [[bridge types#OfArbitraryArity|bridge types]] $\mathrm{Br}_{I, A}(\overline{x})$ of arbitrary arity, as well as expressing [[function application to identifications]] for functions of arbitrary arity. 
 
 ## Properties
 
