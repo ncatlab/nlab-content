@@ -504,18 +504,23 @@ For $X$ an even-[[dimension]]al [[smooth manifold]], its Euler characteristic ma
 
 ## References
 
-Review includes
+On [[Leonard Euler]]'s original formula for [[polyhedra]]:
 
-* {#Libgober} Jonathan Libgober, _The Euler characteristic, Poincaré–Hopf theorem, and applications_ &lbrack;[pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Libgober.pdf), [[Libgober_EulerCharacteristic.pdf:file]]&rbrack;
+* {#CBG08} [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *Euler's Map Theorem*, chapter 7 of: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
+
+
+General review:
+
+* {#Libgober} Jonathan Libgober: _The Euler characteristic, Poincaré–Hopf theorem, and applications_ &lbrack;[pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Libgober.pdf), [[Libgober_EulerCharacteristic.pdf:file]]&rbrack;
 
 
 Textbook account:
 
 * [[Edwin Spanier]],  p. 156 onwards in: _Algebraic topology_, McGraw-Hill  (1966)  
 
-Efremovich and Rudyak shown that the Euler characteristic is (up to the overall multiplicative factor) the only additive homotopy invariant of a finite CW complexes:
+Proof that the Euler characteristic is (up to the overall multiplicative factor) the only additive homotopy invariant of a [[finite CW complexes]]:
 
-* V. A. Efremovich, Yu. B. Rudyak, _On the concept of the Euler characteristic_, Uspehi Mat. Nauk __31__:5(191) (1976), 239&#8211;240 [MR458412](http://www.ams.org/mathscinet-getitem?mr=458412), [Russian pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=3975&volume=31&year=1976&issue=5&fpage=239&what=fullt)
+* V. A. Efremovich, Yuli B. Rudyak, _On the concept of the Euler characteristic_, Uspehi Mat. Nauk __31__:5(191) (1976), 239&#8211;240 [MR458412](http://www.ams.org/mathscinet-getitem?mr=458412), [Russian pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=rm&paperid=3975&volume=31&year=1976&issue=5&fpage=239&what=fullt)
 
 The description of Euler characteristics are categorical [[trace|traces]] in [[symmetric monoidal categories]] is discussed in section 4 of
 
