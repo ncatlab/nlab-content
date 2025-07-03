@@ -30,6 +30,37 @@ A key aspect is that the orbifold [[singularities]] behave like carrying singula
 
 Key examples of flat orbifolds are global [[homotopy quotients]] $\mathbb{T}^n \sslash G$ of the [[n-torus]] $\mathbb{T}^n$ equipped with its canonical flat [[Riemannian metric]]. These flat orbifolds are called _toroidal orbifolds_.
 
+{#ArtisticIllustrations} Artistic illustrations of 2-dimensional [[flat orbifolds]] (arising as [[quotient orbifold|quotients]] of the [[plane]] by [[wallpaper groups]]) are presented by [Conway, Burgiel & Goodman-Strauss 2008](#CBG08):
+
+\begin{imagefromfile}
+  "file_name": "CBG-3star3-orbifold.png",
+  "width": 570,
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "(from [CBG 2008 p. 114](#CBG08))" 
+\end{imagefromfile}
+
+\linebreak
+
+\begin{imagefromfile}
+  "file_name": "CBG-2222-orbifold.png",
+  "width": 670,
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "(from [CBG 2008 p. 116](#CBG08))" 
+\end{imagefromfile}
+
+
 ## Properties
 
 > under construction
@@ -245,10 +276,14 @@ see _[[G₂-orbifold]]_
 
 ### General
 
+On 2- and 3-dimensional flat orbifolds ([[orbifold quotients]] of [[Euclidean space]] by [[crystallographic groups]]):
+
+* [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
+
+
 On [[Riemannian orbifolds]]:
 
 * Joseph Ernest Borzellino, _Riemannian Geometry of Orbifolds_, Dissertation, University of California - Los Angeles, January 1, 1992, pages 1-57.  1992 ([calpoly.edu/math_fac/111](https://digitalcommons.calpoly.edu/math_fac/111))
-
 
 * {#Ratcliffe06} [[John Ratcliffe]], _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Graduate Texts in Mathematics 149, Springer 2006 ([doi:10.1007/978-0-387-47322-2](https://doi.org/10.1007/978-0-387-47322-2), <a href="http://entsphere.com/pub/pdf/Ratcliffe%20-%20Foundations%20of%20hyperbolic%20manifolds%20(2e)%20-%20GTM%20149.pdf">pdf</a>)
 
