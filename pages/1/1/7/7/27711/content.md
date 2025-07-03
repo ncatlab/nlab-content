@@ -37,7 +37,7 @@ There are also bridge types which are not finitary. One such example of "infinit
 
 More generally, one can consider, for an index type $I$, bridge types that are parameterized by an $I$-indexed family of elements of $A$; that is, 
 
-$$\overline{x}:I \to A \vdash \mathrm{Br}_{A, I}(\overline{x}) \; \mathrm{type}$$
+$$\overline{x}:I \to A \vdash \mathrm{Br}_{I, A}(\overline{x}) \; \mathrm{type}$$
 
 The $n$-ary bridge types are simply the case where the index type $I$ is the standard [[finite type]] with $n$ elements $\mathrm{Fin}(n) \coloneqq \sum_{m:\mathbb{N}} m \lt n$, due to the [[induction principle]] of the [[natural numbers type]]. 
 
@@ -47,7 +47,7 @@ The $n$-ary bridge types are simply the case where the index type $I$ is the sta
 
 Bridge types are *reflexive* in that for all elements $x:A$, there is an element 
 
-$$\mathrm{refl}_A(x):\mathrm{Br}_{A, I}(\lambda t.x)$$
+$$\mathrm{refl}_{I, A}(x):\mathrm{Br}_{I, A}(\lambda t.x)$$
 
 where $\lambda t.x:I \to A$ is the [[constant function]] which always returns $x$. 
 
@@ -55,27 +55,27 @@ For $I \equiv \mathrm{bool}$ the [[type of booleans]], this yields the usual not
 
 ### Function application
 
-In the same way that functions preserve [[identifications]] via [[function application to identifications]], functions preserve bridges via **function application to bridges** or the **action on bridges**. For all functions $\overline{x}:I \to A$ and $f:A \to B$, and bridges $p:\mathrm{Br}_{A, I}(\overline{x})$, there is a bridge $\mathrm{ap}(f, \overline{x}, p):\mathrm{Br}_{A, I}(f \circ \overline{x})$:
+In the same way that functions preserve [[identifications]] via [[function application to identifications]], functions preserve bridges via **function application to bridges** or the **action on bridges**. For all functions $\overline{x}:I \to A$ and $f:A \to B$, and bridges $p:\mathrm{Br}_{I, A}(\overline{x})$, there is a bridge $\mathrm{ap}(f, \overline{x}, p):\mathrm{Br}_{I, A}(f \circ \overline{x})$:
 
-$$f:A \to B, \overline{x}:I \to A, p:\mathrm{Br}_{A, I}(\overline{x}) \vdash \mathrm{ap}(f, \overline{x}, p):\mathrm{Br}_{A, I}(f \circ \overline{x})$$
+$$f:A \to B, \overline{x}:I \to A, p:\mathrm{Br}_{I, A}(\overline{x}) \vdash \mathrm{ap}(f, \overline{x}, p):\mathrm{Br}_{I, A}(f \circ \overline{x})$$
 
 For $I \equiv \mathrm{bool}$ the [[type of booleans]] and $\overline{x} \equiv \mathrm{rec}_{\mathrm{bool}, A}(x, y)$, this yields the usual notion of the action on bridges on binary bridge types $\mathrm{Br}_A(x, y)$, since by the [[induction principle]] of the [[type of booleans]], $\mathrm{Br}_{A, \mathrm{bool}}(\mathrm{rec}_{\mathrm{bool}, A}(x, y))$ is [[equivalence of types|equivalent]] to $\mathrm{Br}_A(x, y)$. 
 
-Function application to bridges satisfy many of the same [[judgmental equalities]] as function application to identifications. These include, for $f:A \to B$, $g:B \to C$, $\overline{x}:I \to A$, and $p:\mathrm{Br}_{A, I}(\overline{x})$,
+Function application to bridges satisfy many of the same [[judgmental equalities]] as function application to identifications. These include, for $f:A \to B$, $g:B \to C$, $\overline{x}:I \to A$, and $p:\mathrm{Br}_{I, A}(\overline{x})$,
 
-$$\mathrm{ap}(\lambda x.x, \overline{x}, p) \equiv p:\mathrm{Br}_{A, I}(\overline{x})$$
+$$\mathrm{ap}(\lambda x.x, \overline{x}, p) \equiv p:\mathrm{Br}_{I, A}(\overline{x})$$
 
-$$\mathrm{ap}(\lambda t.x, \overline{x}, p) \equiv \mathrm{refl}_A(x):\mathrm{Br}_{A, I}(\overline{x})$$
+$$\mathrm{ap}(\lambda t.x, \overline{x}, p) \equiv \mathrm{refl}_{I, A}(x):\mathrm{Br}_{I, A}(\overline{x})$$
 
-$$\mathrm{ap}(g \circ f, \overline{x}, p) \equiv \mathrm{ap}(g, f \circ \overline{x}, \mathrm{ap}(f, \overline{x}, p)):\mathrm{Br}_{C, I}(g \circ f \circ \overline{x})$$
+$$\mathrm{ap}(g \circ f, \overline{x}, p) \equiv \mathrm{ap}(g, f \circ \overline{x}, \mathrm{ap}(f, \overline{x}, p)):\mathrm{Br}_{I, C}(g \circ f \circ \overline{x})$$
 
-$$\mathrm{ap}(f, \lambda t.x, \mathrm{refl}_A(x)) \equiv \mathrm{refl}_B(f(x)):\mathrm{Br}_{B, I}(\lambda t.f(x))$$
+$$\mathrm{ap}(f, \lambda t.x, \mathrm{refl}_{I, A}(x)) \equiv \mathrm{refl}_{I, B}(f(x)):\mathrm{Br}_{I, B}(\lambda t.f(x))$$
 
 ## Heterogeneous bridge types
 
 Similarly to [[heterogeneous identity types]], there are heterogeneous versions of bridge types as well. Given a type $A$ and a type family $(B(x))_{x:A}$ and an index type $I$ for the bridge types, the heterogeneous bridge type is a type family 
 
-$$\overline{x}:I \to A, p:\mathrm{Br}_{A, I}(\overline{x}), \overline{y}:\prod_{i:I} B(\overline{x}(i)) \vdash \mathrm{hBr}_{A, B, I}(\overline{x}, p, \overline{y})$$
+$$\overline{x}:I \to A, p:\mathrm{Br}_{I, A}(\overline{x}), \overline{y}:\prod_{i:I} B(\overline{x}(i)) \vdash \mathrm{hBr}_{I, A, B}(\overline{x}, p, \overline{y})$$
 
 The usual version of a bridge type can be called **homogeneous** to contrast with heterogeneous bridge types. 
 
@@ -87,36 +87,36 @@ $$\mathrm{hBr}_{A, B, \mathrm{bool}}(\mathrm{rec}_{\mathrm{bool}, A}(x_0, x_1), 
 
 Let $C$ be a type. Then heterogeneous bridge types over the constant type family at $C$ are the same as homogeneous bridge types of $C$. 
 
-$$\mathrm{hBr}_{A, \lambda t.C, I}(\overline{x}, p, \overline{y}) \equiv \mathrm{Br}_{C, I}(\overline{y})$$
+$$\mathrm{hBr}_{A, \lambda t.C, I}(\overline{x}, p, \overline{y}) \equiv \mathrm{Br}_{I, C}(\overline{y})$$
 
-Similarly, given an element $x:A$, heterogeneous bridge types over the constant function $\lambda t.x:I \to A$ and reflexivity $\mathrm{refl}_A(x)$ are the same as homogeneous bridge types of $B(x)$:
+Similarly, given an element $x:A$, heterogeneous bridge types over the constant function $\lambda t.x:I \to A$ and reflexivity $\mathrm{refl}_{I, A}(x)$ are the same as homogeneous bridge types of $B(x)$:
 
-$$\mathrm{hBr}_{A, B, I}(\lambda t.x, \mathrm{refl}_A(x), \overline{y}) \equiv \mathrm{Br}_{B(x), I}(\overline{y})$$
+$$\mathrm{hBr}_{I, A, B}(\lambda t.x, \mathrm{refl}_{I, A}(x), \overline{y}) \equiv \mathrm{Br}_{I, B(x)}(\overline{y})$$
 
 ### Heterogeneous reflexivity
 
 Given an element $x:A$ and $y:B(x)$, there is an element of the heterogeneous bridge type 
 
-$$\mathrm{hrefl}_{A, B}(x, y):\mathrm{hBr}_{A, B, I}(\lambda t.x, \mathrm{refl}_A(x), \lambda t.y)$$
+$$\mathrm{hrefl}_{I, A, B}(x, y):\mathrm{hBr}_{I, A, B}(\lambda t.x, \mathrm{refl}_{I, A}(x), \lambda t.y)$$
 
-Since the heterogeneous bridge type $\mathrm{hBr}_{A, B, I}(\lambda t.x, \mathrm{refl}_A(x), \lambda t.y)$ is the same as the homogeneous bridge type $\mathrm{Br}_{B(x), I}(\lambda t.y)$, heterogeneous reflexivity is the same as the homogeneous reflexivity term 
-$$\mathrm{hrefl}_{A, B}(x, y) \equiv \mathrm{refl}_{B(x)}(y):\mathrm{Br}_{B(x), I}(\lambda t.y)$$
+Since the heterogeneous bridge type $\mathrm{hBr}_{I, A, B}(\lambda t.x, \mathrm{refl}_{I, A}(x), \lambda t.y)$ is the same as the homogeneous bridge type $\mathrm{Br}_{I, B(x)}(\lambda t.y)$, heterogeneous reflexivity is the same as the homogeneous reflexivity term 
+$$\mathrm{hrefl}_{I, A, B}(x, y) \equiv \mathrm{refl}_{I, B(x)}(y):\mathrm{Br}_{I, B(x)}(\lambda t.y)$$
 
 ### Dependent function application
 
-In the same way that dependent functions preserve [[heterogeneous identifications]] via dependent function application to identifications, dependent functions preserve bridges via **dependent function application to bridges** or the **dependent action on bridges**. For all functions $\overline{x}:I \to A$ and dependent functions $f:\prod_{x:A} B(x)$, and bridges $p:\mathrm{Br}_{A, I}(\overline{x})$, there is a heterogeneous bridge $\mathrm{apd}(f, \overline{x}, p):\mathrm{hBr}_{A, B, I}(\overline{x}, p, \lambda t.f(\overline{x}(t)))$:
+In the same way that dependent functions preserve [[heterogeneous identifications]] via dependent function application to identifications, dependent functions preserve bridges via **dependent function application to bridges** or the **dependent action on bridges**. For all functions $\overline{x}:I \to A$ and dependent functions $f:\prod_{x:A} B(x)$, and bridges $p:\mathrm{Br}_{I, A}(\overline{x})$, there is a heterogeneous bridge $\mathrm{apd}(f, \overline{x}, p):\mathrm{hBr}_{I, A, B}(\overline{x}, p, \lambda t.f(\overline{x}(t)))$:
 
-$$f:\prod_{x:A} B(x), \overline{x}:I \to A, p:\mathrm{Br}_{A, I}(\overline{x}) \vdash \mathrm{apd}(f, \overline{x}, p):\mathrm{hBr}_{A, B, I}(\overline{x}, p, \lambda t.f(\overline{x}(t)))$$
+$$f:\prod_{x:A} B(x), \overline{x}:I \to A, p:\mathrm{Br}_{I, A}(\overline{x}) \vdash \mathrm{apd}(f, \overline{x}, p):\mathrm{hBr}_{I, A, B}(\overline{x}, p, \lambda t.f(\overline{x}(t)))$$
 
 Dependent function application of bridges satisfies some of the same judgmental equalities as that of identifications. These include, for $f:\prod_{x:A} B(x)$ and $x:A$,
 
-$$\mathrm{apd}(f, \lambda t.x, \mathrm{refl}_A(x)) \equiv \mathrm{refl}_{B(x)}(f(x)):\mathrm{hBr}_{A, B, I}(\lambda t.x, \mathrm{refl}_A(x), \lambda t.f(x))$$
+$$\mathrm{apd}(f, \lambda t.x, \mathrm{refl}_{I, A}(x)) \equiv \mathrm{refl}_{I, B(x)}(f(x)):\mathrm{hBr}_{I, A, B}(\lambda t.x, \mathrm{refl}_{I, A}(x), \lambda t.f(x))$$
 
 ## The walking bridge
 
-Given a bridge type $\mathrm{Br}_{A, I}(\overline{x})$ indexed by functions $\overline{x}:I \to A$, the *walking bridge type* is a [[higher inductive type]] $\mathbb{I}_I$ generated by a function $\mathrm{pts}:I \to \mathbb{I}_I$ and a bridge $\mathrm{br}:\mathrm{Br}_{\mathbb{I}_I, I}(\mathrm{pts})$. 
+Given a bridge type $\mathrm{Br}_{I, A}(\overline{x})$ indexed by functions $\overline{x}:I \to A$, the *walking bridge type* is a [[higher inductive type]] $\mathbb{I}_I$ generated by a function $\mathrm{pts}:I \to \mathbb{I}_I$ and a bridge $\mathrm{br}:\mathrm{Br}_{I, \mathbb{I}_I}(\mathrm{pts})$. 
 
-The idea of the walking bridge is that every bridge in a bridge type $\mathrm{Br}_{A, I}(\overline{x})$ is given by a function $I \to A$ that factors through $\mathbb{I}_I$: 
+The idea of the walking bridge is that every bridge in a bridge type $\mathrm{Br}_{I, A}(\overline{x})$ is given by a function $I \to A$ that factors through $\mathbb{I}_I$: 
 
 $$I \to \mathbb{I}_I \to A$$
 
@@ -128,23 +128,23 @@ Formation rules for the walking bridge:
 $$\frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathbb{I}_I \; \mathrm{type}}$$
 
 Introduction rules for the walking bridge:
-$$\frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{pts}:I \to \mathbb{I}_I} \qquad \frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{br}_I:\mathrm{Br}_{\mathbb{I}_I, I}(\mathrm{pts})}$$
+$$\frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{pts}:I \to \mathbb{I}_I} \qquad \frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{br}_I:\mathrm{Br}_{I, \mathbb{I}_I}(\mathrm{pts})}$$
 
 Elimination rules for the walking bridge:
-$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{br}:\mathrm{hBr}_{\mathbb{I}_I, C, I}(\mathrm{pts}, \mathrm{br}_I, c_\mathrm{pts})}{\Gamma, x:\mathbb{I}_I \vdash \mathrm{ind}_{\mathbb{I}_I}^C(c_\mathrm{pts}, c_\mathrm{br}, x):C(x)}$$
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{br}:\mathrm{hBr}_{I, \mathbb{I}_I, C}(\mathrm{pts}, \mathrm{br}_I, c_\mathrm{pts})}{\Gamma, x:\mathbb{I}_I \vdash \mathrm{ind}_{\mathbb{I}_I}^C(c_\mathrm{pts}, c_\mathrm{br}, x):C(x)}$$
 
 Computation rules for the walking bridge:
-$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{br}:\mathrm{hBr}_{\mathbb{I}_I, C, I}(\mathrm{pts}, \mathrm{br}_I, c_\mathrm{pts})}{\Gamma, i:I \vdash \mathrm{ind}_\mathbb{I}^{C}(c_\mathrm{pts}, c_\mathrm{br}, i) \equiv c(i):C(\mathrm{pts}(i))}$$
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{br}:\mathrm{hBr}_{I, \mathbb{I}_I, C}(\mathrm{pts}, \mathrm{br}_I, c_\mathrm{pts})}{\Gamma, i:I \vdash \mathrm{ind}_\mathbb{I}^{C}(c_\mathrm{pts}, c_\mathrm{br}, i) \equiv c(i):C(\mathrm{pts}(i))}$$
 
-$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{br}:\mathrm{hBr}_{\mathbb{I}_I, C, I}(\mathrm{pts}, \mathrm{br}_I, c_\mathrm{pts})}{\Gamma \vdash \mathrm{apd}(\mathrm{ind}_\mathbb{I}^{C}(c_\mathrm{pts}, c_\mathrm{br}), \mathrm{pts}, \mathrm{br}_I) \equiv c_\mathrm{br}:\mathrm{Br}_{\mathbb{I}_I, I}(\mathrm{pts})}$$
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{br}:\mathrm{hBr}_{I, \mathbb{I}_I, C}(\mathrm{pts}, \mathrm{br}_I, c_\mathrm{pts})}{\Gamma \vdash \mathrm{apd}(\mathrm{ind}_\mathbb{I}^{C}(c_\mathrm{pts}, c_\mathrm{br}), \mathrm{pts}, \mathrm{br}_I) \equiv c_\mathrm{br}:\mathrm{Br}_{I, \mathbb{I}_I}(\mathrm{pts})}$$
 
 ## Discrete types
 
 Since bridge types are reflexive, we can define the [[diagonal]] as the [[function]]
 
-$$\Delta_{A, I} \coloneqq \lambda x.(\lambda t.x, \mathrm{refl}_A(x)):A \to \sum_{\overline{x}:I \to A} \mathrm{Br}_{A, I}(\overline{x})$$
+$$\Delta_{I, A} \coloneqq \lambda x.(\lambda t.x, \mathrm{refl}_{I, A}(x)):A \to \sum_{\overline{x}:I \to A} \mathrm{Br}_{I, A}(\overline{x})$$
 
-Let $\mathrm{Id}_{A, I}(\overline{x})$ denote the [[inductive family]] parameterized by $\overline{x}:I \to A$ and generated by a family of elements $\mathrm{refl}_{A, I}(x):\mathrm{Id}_{A, I}(\lambda t.x)$ (see [[identity type#ForAFamilyOfElements|identity types for a family of elements]]). For binary reflexive type families where $I \equiv \mathrm{bool}$, the inductive family of types 
+Let $\mathrm{Id}_{I, A}(\overline{x})$ denote the [[inductive family]] parameterized by $\overline{x}:I \to A$ and generated by a family of elements $\mathrm{refl}_{I, A}(x):\mathrm{Id}_{I, A}(\lambda t.x)$ (see [[identity type#ForAFamilyOfElements|identity types for a family of elements]]). For binary reflexive type families where $I \equiv \mathrm{bool}$, the inductive family of types 
 
 $$\mathrm{Id}_{A, \mathrm{bool}}(\mathrm{rec}_{\mathrm{bool}, A}(x, y))$$ 
 
@@ -152,11 +152,11 @@ is the same as the usual binary [[identity type]] $\mathrm{Id}_A(x, y)$.
 
 A type $A$ is **[[discrete]]** [[if and only if]] one of the following equivalent conditions holds:
 
-* the diagonal $\Delta_{A, I}$ is an [[equivalence of types]].
+* the diagonal $\Delta_{I, A}$ is an [[equivalence of types]].
 
 * the canonical function $\mathrm{const}_{A, \mathbb{I}_I} \coloneqq \lambda a.\lambda i.a$ which takes elements in $A$ to constant functions $\mathbb{I}_I \to A$ out of the walking bridge is an [[equivalence of types]]. 
 
-* the canonical inductively defined family of functions $\mathrm{Id}_{A, I}(\overline{x}) \to \mathrm{Br}_{A, I}(\overline{x})$ is an [[equivalence of types]] for all $\overline{x}:I \to A$. 
+* the canonical inductively defined family of functions $\mathrm{Id}_{I, A}(\overline{x}) \to \mathrm{Br}_{I, A}(\overline{x})$ defined via [[identification elimination]] is an [[equivalence of types]] for all $\overline{x}:I \to A$. 
 
 The second condition is essentially saying that the [[localization of a type|localization]] $L_{\mathbb{I}_I}(A)$ at the walking bridge $\mathbb{I}_I$ is equivalent to $A$ itself.
 
@@ -169,10 +169,10 @@ The semantics of such a [[cohesive type theory]] for a finite type $I$ with $n$-
 There is an analogue of the [[univalence axiom]] for [[type universes]] called **relativity** (see [Cavallo & Harper 2021](#CH21)), which uses bridge types instead of [[identity types]] and types of $n$-ary [[type families]] instead of [[types of equivalences]]. A universe is called **relativistic** if it satisfies the **axiom of relativity**:
 
 \begin{definition}
-Given an index type $I$ and bridge types $\mathrm{Br}_{A, I}(\overline{x})$, **relativity** for a [[type universe]] $U$ states that for all $I$-indexed type families $\overline{X}:I \to U$, there is an equivalence of types between the bridge type $\mathrm{Br}_{U, I}(\overline{X})$ and the type $\left(\prod_{i:I} \overline{X}(i)\right) \to U$ of $U$-small $I$-ary type families. 
+Given an index type $I$ and bridge types $\mathrm{Br}_{I, A}(\overline{x})$, **relativity** for a [[type universe]] $U$ states that for all $I$-indexed type families $\overline{X}:I \to U$, there is an equivalence of types between the bridge type $\mathrm{Br}_{I, U}(\overline{X})$ and the type $\left(\prod_{i:I} \overline{X}(i)\right) \to U$ of $U$-small $I$-ary type families. 
 \end{definition}
 
-Special cases of relativity for when the index type $I$ is the [[empty type]], the [[unit type]], and the [[type of booleans]] respectively:
+Special cases of relativity for when the index type $I \equiv \mathrm{Fin}(n)$ is the finite type with $n = 0$, $n = 1$, and $n = 2$ elements respectively:
 
 * Nullary relativity of a [[type universe]] $U$, where $I \equiv \emptyset$ the [[empty type]], says that there is an [[equivalence of types]] between the bridge type $\mathrm{Br}_U$ and the type of types $(\mathrm{unit} \to U) \simeq U$, since the nullary product type is the [[unit type]]. 
 
