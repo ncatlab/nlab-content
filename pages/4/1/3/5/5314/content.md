@@ -11,6 +11,8 @@ John Horton Conway  (1937-2020) was an English mathematician. He developed new i
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/John_Horton_Conway)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=18849)
+
 \section{Reminiscences}
 
 By [[Gavin Wraith]], at the nForum [in this post](https://nforum.ncatlab.org/discussion/11136/john-conway/?Focus=83846#Comment_83846).
@@ -25,13 +27,20 @@ By [[Gavin Wraith]], at the nForum [in this post](https://nforum.ncatlab.org/dis
 
 ## Selected writings
 
+On platycosms (including the [[Hantzsche-Wendt manifold]]):
+
+* {#ConwayRossetti03} [[John Conway]], Jean-Paul Rossetti, _Describing the platycosms_ (2003) &lbrack;[arXiv:math/0311476](https://arxiv.org/abs/math/0311476)&rbrack;
+
+More generally on [[crystallographic groups]] (specifically [[wallpaper groups]]) and their ([[flat orbifold|flat]]) [[quotient orbifold|quotient]] [[orbifolds]]:
+
+* [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
+
+See also:
+
 * [[John Horton Conway]], *Regular Algebra and Finite Machines*. Mineola, N.Y., Dover; Newton Abbot, 2012. ISBN:978-0486485836
 
 * [[Elwyn R. Berlekamp]], [[John H. Conway]], [[Richard K. Guy]], *Winning Ways for Your Mathematical Plays*, Volume 1, 2nd ed., A K Peters, 2001, chapter 14, p. 110. &lbrack;ISBN:978-1568811307&rbrack;
 
-On platycosms (including the [[Hantzsche-Wendt manifold]]):
-
-* {#ConwayRossetti03} [[John Conway]] and Jean-Paul Rossetti, _Describing the platycosms_ (2003), [arXiv:math/0311476](https://arxiv.org/abs/math/0311476)
 
 ## Related entries
 
@@ -39,6 +48,7 @@ On platycosms (including the [[Hantzsche-Wendt manifold]]):
 
 * [[regular expression]]
 
+* [[Euler characteristic]]
 
 
 category: people
