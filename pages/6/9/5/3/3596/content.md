@@ -1211,9 +1211,15 @@ When the index type $I$ is the standard [[finite type]] with $n$ elements $\math
 
 * The binary identity types ($n = 2$) of type $A$ are the usual identity types defined above. 
 
+Closely related to identity types of arbitrary arity are the [[bridge types]], which can also come with arbitrary arity. Identity types and bridge types share some commonalities with each other: 
+
+* they are reflexive type families that come with a notion of [[function application to identifications]] (or [[bridges]] for bridge types);
+
+* they are used to satisfy various notions of [[extensionality]] such as [[product extensionality]] and [[function extensionality]]; 
+
 ### Inference rules
 
-The [[inference rules]] for such identity types are given as follows:
+The [[inference rules]] for such identity types of arbitrary arity are given as follows:
 
 First the rule that defines the identity type itself, as a [[dependent type]], in some [[context]] $\Gamma$.
 
