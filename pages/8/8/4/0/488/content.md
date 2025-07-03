@@ -24,6 +24,7 @@ There are several conditions on a topos that are necessary and sufficient to be 
 * Every [[subobject poset|subobject lattice]] is a [[Boolean algebra]].
 * The [[subobject classifier]] $\Omega$ is an [[internalization|internal]] Boolean algebra.
 * The maps $\top, \bot: 1 \to \Omega$ are a [[coproduct]] cone (so in particular, $\Omega \cong 1 + 1$, and in fact this is enough, because the map $[\top, \bot]: 1 + 1 \to \Omega$ is always a monomorphism, and any monic endomorphism of $\Omega$ is an automorphism).
+* Every [[pointed object]] is a [[free object|free]] pointed object. This was proven [here](https://golem.ph.utexas.edu/category/2023/01/freedom.html#c062002) by [[Morgan Rogers]]. 
 
 ### Warning
 
@@ -130,9 +131,11 @@ Boolean toposes are closely related to [[measurable spaces]] (e.g [Jackson 06](#
 
 * [[Boolean domain]]
 
-* [[axiom of choice]]
+* [[excluded middle]]
 
 * [[double negation]]
+
+* [[axiom of choice]]
 
 * [[de Morgan topos]]
 
