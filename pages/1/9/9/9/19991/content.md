@@ -164,6 +164,7 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 
 * [[topological crystalline insulator]]
 
+
 ## References
 
 Review:
@@ -182,6 +183,8 @@ Review:
 * {#ChuprunovKuntsevich88} E. V. Chuprunov, T. S. Kuntsevich, _$n$-Dimensional space groups and regular point systems_, Comput. Math. Applic. Vol. 16, No. 5-8, pp. 537-543, 1988 (<a href="https://doi.org/10.1016/0898-1221(88)90243-X">doi:10.1016/0898-1221(88)90243-X</a>)
 
 * D. Weigel, T. Phan and R. Veysseyre, _Crystallography, geometry and physics in higher dimensions. III. Geometrical symbols for the 227 crystallographic point groups in four-dimensional space_, Acta Cryst. (1987). A43, 294-304 ([doi:10.1107/S0108767387099367](https://doi.org/10.1107/S0108767387099367))
+
+* [[John H. Conway]], Heidi Burgiel, Chaim Goodman-Strauss: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
 
 * {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
 
