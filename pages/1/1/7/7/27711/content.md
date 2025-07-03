@@ -129,6 +129,8 @@ $$I \to \mathbb{I}_I \to A$$
 
 in the same way that [[identifications]] are given by a function $\mathrm{bool} \to A$ that factors through the [[interval type]] (the [[walking identification]]). 
 
+### Inference rules
+
 The [[inference rules]] of the walking bridge are as follows:
 
 Formation rules for the walking bridge:
