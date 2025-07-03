@@ -38,4 +38,5 @@ However, [[morphisms]] of frames needn't preserve [[exponential objects]] or inf
 
 See at *[[Heyting algebra]]*.
 
-
+[[!redirects complete Heyting algebra]]
+[[!redirects complete Heyting algebras]]
