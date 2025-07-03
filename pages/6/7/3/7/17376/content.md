@@ -80,7 +80,7 @@ $$
 where the [[equivalence relation]] quotiented out is
 
 $$
-  (x_n, n) \sim (f(x_n), n+1)
+  (x_n, n+1) \sim (f(x_n), n+1)
 $$
 
 for all $n\in \mathbb{N}$ and $x_n \in X_n$.
