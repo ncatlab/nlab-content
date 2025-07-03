@@ -1292,6 +1292,44 @@ The original inference rules using the family of terms $t(x)$ dependent upon $x:
 
 A reflexive graph structure of [[arity]] $I$ on $A$ is a type family $R(\overline{x})$ indexed by $\overline{x}:I \to A$ such that for all $x:A$, there is an element $\mathrm{refl}(x):R(\lambda t.x)$, where $\lambda t.x$ is the [[constant function]] whose output is always $x:A$. The identity type of [[arity]] $I$ $\mathrm{Id}_{I, A}(\overline{x})$ is the homotopy-initial such reflexive graph structure of arity $I$ on $A$. 
 
+### As a negative type
+
+Similarly to binary identity types, if one has [[dependent sum types]], there is a way of defining the identity type of arity $I$ as a [[negative type]]. The idea is that using the inference rules for dependent sum types, the standard J-rule for identity types of arity $I$ states that the dependent sum type $\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$ is a [[positive copy]] of $A$ with respect to the [[diagonal function]] 
+$$\Delta_{I, A}(x) \coloneqq (\lambda t.x, \mathrm{refl}_{I, A}(x)):\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$$
+However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[definitional isomorphism]]: 
+
+* Elimination rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x}) \vdash \Delta_{I, A}^{-1}(z):A}$$
+
+* Computation rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Delta_{I, A}^{-1}(\Delta_{I, A}(x)) \equiv x:A}$$
+
+* Uniqueness rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x}) \vdash \Delta_{I, A}(\Delta_{I, A}^{-1}(z)) \equiv z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}$$
+
+\begin{theorem}
+The standard J-rule for identity types of arity $I$ holds: given any type $A$, and any type family $C(z)$ indexed by elements $z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$, and given any dependent function $t:\prod_{x:A} C(\Delta_{I, A}(x))$ which says that for all elements $x:A$, there is an element of the type defined by substituting the diagonal at $x:A$ into $C$, $C(\Delta_{I, A}(x))$, one can construct a dependent function 
+$$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t):\prod_{z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})} C(z)$$ 
+such that for all $x:A$, $\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(\Delta_{I, A}(x)) \equiv t(x):C(\Delta_{I, A}(x))$. 
+\end{theorem}
+
+\begin{proof}
+$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t)$ is defined to be
+
+$$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t) \equiv \lambda z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x}).t(\Delta_{I, A}^{-1}(z))$$
+
+and by the computation rules of path types as negative copies, one has that for all $x:A$, 
+
+$$\Delta_{I, A}^{-1}(\Delta_{I, A}(x)) \equiv x$$
+
+and so by definition of $\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t)$ and the judgmental congruence rules for substitution, one has
+
+$$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t, \Delta_{I, A}(x)) \equiv t(\Delta_{I, A}^{-1}(\Delta_{I, A}(x))) \equiv t(x)$$
+\end{proof}
+
 ## Related concepts
 
 * [[identity of indiscernibles]]
