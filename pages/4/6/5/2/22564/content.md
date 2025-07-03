@@ -53,7 +53,7 @@ Moreover, in addition to functions and operations of arbitrary arity, one also h
 
 $$\overline{x}:\prod_{x:I} A(x) \vdash B(\overline{x}) \; \mathrm{type} \qquad \overline{x}:\prod_{x:I} A(x) \vdash f(\overline{x}):B(\overline{x})$$
 
-These are important for defining [[identity types#OfArbitraryArity|identity types]] $\mathrm{Id}_{I, A}(\overline{x})$ and [[bridge types#OfArbitraryArity|bridge types]] $\mathrm{Br}_{I, A}(\overline{x})$ of arbitrary arity, as well as expressing [[function application to identifications]] for functions of arbitrary arity. 
+These are important for defining [[identity types#OfArbitraryArity|identity types]] $\mathrm{Id}_{I, A}(\overline{x})$, [[indexed heterogeneous identity types#OfArbitraryArity|indexed heterogeneous identity types]] $\mathrm{hId}_{I, A, B}(\overline{x}, p, \overline{y})$, and [[bridge types#OfArbitraryArity|bridge types]] $\mathrm{Br}_{I, A}(\overline{x})$ of arbitrary arity, as well as expressing [[function application to identifications]] for functions of arbitrary arity. 
 
 ## Properties
 
