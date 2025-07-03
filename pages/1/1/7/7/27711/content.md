@@ -82,7 +82,13 @@ The usual version of a bridge type can be called **homogeneous** to contrast wit
 
 For $I \equiv \mathrm{bool}$ the [[type of booleans]], $\overline{x} \equiv \mathrm{rec}_{\mathrm{bool}, A}(x_0, x_1)$, and $\overline{y} \equiv \mathrm{ind}_{\mathrm{bool}, \lambda t.B(\overline{x}(t))}(y_0, y_1)$, this yields the usual notion of a heterogeneous bridge types $\mathrm{hBr}_{A, B}(x_0, x_1, p, y_0, y_1)$, since by the [[induction principle]] of the [[type of booleans]], we have an [[equivalence of types]] 
 
-$$\mathrm{hBr}_{A, B, \mathrm{bool}}(\mathrm{rec}_{\mathrm{bool}, A}(x_0, x_1), p, \mathrm{ind}_{\mathrm{bool}, B}(y_0, y_1)) \simeq \mathrm{hBr}_{A, B}(x_0, x_1, p, y_0, y_1)$$
+$$\mathrm{hBr}_{\mathrm{bool}, A, B}(\mathrm{rec}_{\mathrm{bool}, A}(x_0, x_1), p, \mathrm{ind}_{\mathrm{bool}, B}(y_0, y_1)) \simeq \mathrm{hBr}_{A, B}(x_0, x_1, p, y_0, y_1)$$
+
+Like [[heterogeneous identity types]], there is also a version of the heterogeneous bridge type which can be defined as a [[dependent sum type]]
+
+$$\overline{x}:I \to A, \overline{y}:\prod_{i:I} B(\overline{x}(i)) \vdash \mathrm{hBr}_{I, A, B}(\overline{x}, \overline{y}) \coloneqq \sum_{p:\mathrm{Br}_{I, A}(\overline{x})} \mathrm{hBr}_{I, A, B}(\overline{x}, p, \overline{y})$$
+
+These heterogeneous bridge types can be called **fibered heterogeneous bridge types**, and the other kind can be called **indexed heterogeneous bridge types**, in parallel to [[heterogeneous identity types]]. 
 
 ### Relation to homogeneous bridge types
 
