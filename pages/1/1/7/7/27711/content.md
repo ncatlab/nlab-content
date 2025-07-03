@@ -257,6 +257,24 @@ Some discussion of bridge types occurs in
 [[!redirects heterogeneous bridge type]]
 [[!redirects heterogeneous bridge types]]
 
+[[!redirects indexed heterogeneous bridge]]
+[[!redirects indexed heterogeneous bridges]]
+
+[[!redirects indexed heterogeneous bridge type]]
+[[!redirects indexed heterogeneous bridge types]]
+
+[[!redirects fibered heterogeneous bridge]]
+[[!redirects fibered heterogeneous bridges]]
+
+[[!redirects fibered heterogeneous bridge type]]
+[[!redirects fibered heterogeneous bridge types]]
+
+[[!redirects fibred heterogeneous bridge]]
+[[!redirects fibred heterogeneous bridges]]
+
+[[!redirects fibred heterogeneous bridge type]]
+[[!redirects fibred heterogeneous bridge types]]
+
 [[!redirects homogeneous bridge]]
 [[!redirects homogeneous bridges]]
 
