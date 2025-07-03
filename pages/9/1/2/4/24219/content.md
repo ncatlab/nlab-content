@@ -15,7 +15,7 @@
 ## Idea ##
 
 In [[homotopy type theory]],
-the [[loop space]] of a [[pointed type]] is simply the [[type]] of [[identifications]] from a [[term]] to itself i.e. [[loops]].
+the [[loop space]] of a [[pointed type]] is simply the [[type]] of [[identifications]] from a [[term]] to itself i.e. [[loops]] or **self-identifications**.
 
 ## Definition ##
 
@@ -67,3 +67,9 @@ Given a pointed connected groupoid $(A, a)$, the loop space type $\Omega(A, a)$ 
 * [[Univalent Foundations Project]], *[[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013)
 
 [[!redirects loop space types]]
+
+[[!redirects self-identification]]
+[[!redirects self-identifications]]
+
+[[!redirects auto-identification]]
+[[!redirects auto-identifications]]
