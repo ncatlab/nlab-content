@@ -51,7 +51,7 @@ and called the **application** or **action** of $f$ to/on [[identities]]/[[ident
 <img src="/nlab/files/FuncApOnIds-230119b.jpg" width="700">
 
 
-### As the non-dependent version of the dependent function application to identifications
+### Relation to dependent function application to identifications
 
 The function application to identifications is a special case of the [[dependent function application to identifications]] for which the type family $x:A \vdash B$ is a constant type family, and thus the [[dependent identity type]] $f(a) =_B^p f(b)$ doesn't depend on the path $p:a =_A b$ and is thus a normal identity type $f(a) =_B f(b)$. 
 
@@ -60,6 +60,8 @@ The function application to identifications is a special case of the [[dependent
 If the function application to identifications is inductively defined, then it comes with rules saying that the following judgment can be formed 
 $$a:A \vdash \mathrm{ap}_{f}(a, a)(\mathrm{refl}_{A}(a)) \equiv \mathrm{refl}_{B}(f(a)):\Omega(B, f(a))$$
 where $\Omega(A, a)$ is the [[loop space type]] $a =_A a$ of $A$ at $a:A$. 
+
+## For functions of arbitrary arity
 
 ### Binary function applications to identifications
 
