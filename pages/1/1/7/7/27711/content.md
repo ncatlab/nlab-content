@@ -33,9 +33,10 @@ Unlike identity types, binary bridge types do not have [[transport]].
 
 There are also bridge types which are not finitary. One such example of "infinitary" bridge types is the bridge types in the [[internal logic|internal]] [[dependent type theory]] of the [[topos of trees]]. 
 
-### General case
+### Bridge types of arbitrary arity
+  {#OfArbitraryArity}
 
-More generally, one can consider, for an index type $I$, bridge types that are parameterized by an $I$-indexed family of elements of $A$; that is, 
+More generally, one can consider **bridge types of [[arbitrary arity]]**. For an index type $I$, bridge types of [[arity]] $I$ are parameterized by an $I$-indexed family of elements of $A$; that is, 
 
 $$\overline{x}:I \to A \vdash \mathrm{Br}_{I, A}(\overline{x}) \; \mathrm{type}$$
 
@@ -246,6 +247,9 @@ Some discussion of bridge types occurs in
 
 [[!redirects n-ary bridge type]]
 [[!redirects n-ary bridge types]]
+
+[[!redirects bridge type of arbitrary ariry]]
+[[!redirects bridge types of arbitrary ariry]]
 
 [[!redirects heterogeneous bridge]]
 [[!redirects heterogeneous bridges]]
