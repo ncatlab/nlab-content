@@ -27,8 +27,18 @@ Under a [[denotational semantics|denotational]] [[semantics]], each of these ter
 
 Under an [[operational semantics|operational]] [[semantics]], by contrast, the "meaning" of the term $f(x)$ lies in how it is "evaluated".  Usually this proceeds by [[beta-reduction]] and related rules.  For instance, if $f$ is the [[lambda-calculus|term]] $\lambda x. x*x$ and $x$ is the term $s(s(0))$ (the [[numeral]] [[two]]), then $f(x)$ is $(\lambda x.x*x)(s(s(0)))$ which beta-reduces to $s(s(0))*s(s(0))$.  The definition of $*$ can then be invoked to cause futher beta-reductions resulting in $s(s(s(s(0))))$ (the numeral four).
 
+## Dependent function application
+
+In [[dependent type theory]], there is a notion of a [[dependent function]], which is essentially a function $f:(x:A) \to B(x)$ whose [[target]] is a [[type family]] rather than a single [[type]]. The application of a dependent function at a [[term]] $x:A$ is called **dependent function application**. 
+
 ## Related concepts
 
 * [[evaluation map]]
 
+* [[function application to identifications]]
+
+* [[dependent function application to identifications]]
+
 [[!redirects application]]
+
+[[!redirects dependent function application]]
