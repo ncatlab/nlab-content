@@ -117,10 +117,14 @@ A [[Grothendieck topology|topology]] $j$ satisfies $j\le\neg\neg$, i.e. $j$ is [
 \end{proposition}
 
 \begin{proposition}
-$\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the largest [[Boolean topos|Boolean subtopos]].
+$\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is a maximal [[Boolean topos|Boolean subtopos]], meaning any Boolean subtopos of $\mathcal{E}$ containing $\mathcal{E}_{\not \not}$ is equal to it. $\mathcal{E}_{\not \not}$ is *the* largest Boolean subtopos, meaning every Boolean subtopos of $\mathcal{E}$ is a subtopos of $\mathcal{E}_{\neg\neg}$, if and only if all subterminal objects are [[regular element|regular]].
 \end{proposition}
 
-This follows from [Johnstone 2002, Lemma A4.5.21](#Johnstone).
+\begin{proof}
+From [Johnstone 2002, Lemma A4.5.21](#Johnstone), the Boolean subtoposes of $\mathcal{E}$ are exactly the "quasi-closed" subtoposes of the form $\mathcal{E}_{q(U)} := (\mathcal{E}_{c(U)})_{\neg\neg}$, where $\mathcal{E}_{c(U)}$ is the closed subtopos corresponding to a subterminal $U$. If $\mathcal{E}_{q(U)} \subseteq \mathcal{E}_{q(U')}$ then the same must be true of their closures; in particular, $\mathcal{E}_{\neg\neg} = \mathcal{E}_{q(\bot)}$ is maximal.
+
+For $\mathcal{E}_{\neg\neg}$ to be *the* largest Boolean subtopos, each inclusion $\mathcal{E}_{c(U)} \to \mathcal{E}$ must restrict to the respect double-negation subtoposes; that is, these inclusions must be [[skeletal geometric morphism|skeletal]]. By [Johnstone 2002, Lemma D4.6.10](#Johnstone), this occurs if and only if the exterior of the Lawvere-Tierney topology $c(U)$ is a $\neg\neg$-closed subterminal object (i.e. is regular) for each $U$. But the exterior of $c(U)$ is precisely $U$, so this occurs if and only all subterminals are regular.
+\end{proof}
 
 From these two results, we can deduce the following characterization of the double negation topology.
 
