@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -54,15 +55,52 @@ An [[orbifold]] is much like a [[smooth manifold]] but possibly with [[singulari
 
 
 One way to make precise the nature of these quotients is as [[quotient stack|stacky]] [[homotopy quotients]], hence as
-[[Lie groupoid|smooth]] [[action groupoids]] $\mathbb{R}^n\sslash G$.  This turns out to be broadly captured ([Moerdijk-Pronk 97](#MoerdijkPronk97), [Moerdijk 02](#Moerdijk02)) by saying that an orbifold is a [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoid]]. ([[Morita equivalence|Morita equivalent]] Lie groupoids correspond to the same orbifolds.)
+[[Lie groupoid|smooth]] [[action groupoids]] $\mathbb{R}^n\sslash G$.  The global structure of an orbifold is then captured ([Moerdijk & Pronk 1997](#MoerdijkPronk97), [Moerdijk 2002](#Moerdijk02)) by saying that orbifolds are [[proper groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoids]], and with [[Morita equivalence|Morita equivalent]] Lie groupoids understood to give the same orbifold this means that orbifolds are ([[étale groupoid|étale]]) [[smooth stacks]].
 
-The word _orbifold_ was introduced in ([Thurston 1992](#Thurston92)), while the original name was _$V$-manifold_ ([Satake](#Satake)), and was taken in a more restrictive sense, assuming that the [[actions]] of [[finite groups]] on the charts are always [[effective group action|effective]]. Nowadays these are called _effective orbifolds_ and those which are global quotients by a finite group are _[[global quotient orbifolds]]_.  
+The word _orbifold_ was introduced by [Thurston 1992](#Thurston92), while the concept goes back to [Satake 1956](#Satake1956), who originally spoke of  *$V$-manifolds* and took them in a more restrictive sense, assuming that the [[actions]] of [[finite groups]] on the charts are always [[effective group action|effective]]. Nowadays these are called _effective orbifolds_. 
 
-There is also a notion of finite stabilizers in [[algebraic geometry]]. A singular variety is called an (algebraic) _orbifold_ if it has only so-called _orbifold singularities_.
+> There is also a notion of finite stabilizers in [[algebraic geometry]]. A singular variety is called an (algebraic) _orbifold_ if it has only so-called _orbifold singularities_.
+
+
+\linebreak
+
+{#ArtisticIllustrations} Artistic illustrations of 2-dimensional [[flat orbifolds]] (arising as [[quotient orbifold|quotients]] of the [[plane]] by [[wallpaper groups]]) are presented by [Conway, Burgiel & Goodman-Strauss 2008](#CBG08):
+
+\begin{imagefromfile}
+  "file_name": "CBG-3star3-orbifold.png",
+  "width": 570,
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "(from [CBG 2008 p. 114](#CBG08))" 
+\end{imagefromfile}
+
+\linebreak
+
+\begin{imagefromfile}
+  "file_name": "CBG-2222-orbifold.png",
+  "width": 670,
+  "margin": {
+    "top": -30,
+    "right": 0,
+    "bottom": 10,
+    "left": 20,
+    "unit": "px"
+  },
+  "caption": "(from [CBG 2008 p. 116](#CBG08))" 
+\end{imagefromfile}
+
+\linebreak
 
 ## Definition
 
-An orbifold is a stack presented by an [[orbifold groupoid]].
+
+An orbifold is a [[smooth stack]] presented by an [[orbifold groupoid]].
+
 
 ## Properties
 
@@ -195,9 +233,9 @@ Orbifolds in [[string theory]]:
 
 The original articles:
 
-* {#Satake} [[Ichiro Satake]], _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. 42 (1956), 359&#8211;363 ([doi:10.1073/pnas.42.6.359]( https://doi.org/10.1073/pnas.42.6.359))
+* {#Satake1956} [[Ichiro Satake]]: _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. **42** (1956), 359-363 &lbrack;[doi:10.1073/pnas.42.6.359](https://doi.org/10.1073/pnas.42.6.359)&rbrack;
 
-* [[Ichiro Satake]], _The Gauss&#8211;Bonnet theorem for $V$-manifolds_, J. Math. Soc. Japan 9 (1957), 464&#8211;492 ([euclid:1261153826](https://projecteuclid.org/euclid.jmsj/1261153826))
+* [[Ichiro Satake]]: _The Gauss&#8211;Bonnet theorem for $V$-manifolds_, J. Math. Soc. Japan **9** (1957), 464-492 &lbrack;[euclid:1261153826](https://projecteuclid.org/euclid.jmsj/1261153826)&rbrack;
 
 * {#Thurston92} [[William Thurston]]: *Three-dimensional geometry and topology*, preliminary draft, University of Minnesota (1992) &lbrack;1979: [ark:/13960/t3714t34v](https://archive.org/details/ThurstonTheGeometryAndTopologyOfThreeManifolds/mode/2up), 1991:  [[Thurston-3dGeometry-1991.pdf:file]], 2002: [pdf](https://www.math.unl.edu/~jkettinger2/thurston.pdf), [[Thurston-3dGeometry-2002.pdf:file]]&rbrack;
    
@@ -223,16 +261,17 @@ Survey of basic orbifold theory:
 
 * Daryl Cooper, Craig Hodgson, Steve Kerckhoff, _Three-dimensional Orbifolds and Cone-Manifolds_,  MSJ Memoirs Volume 5, 2000 ([pdf](https://web.math.ucsb.edu/~cooper/37.pdf), [euclid:1389985812](https://projecteuclid.org/euclid.msjm/1389985812))
 
-* [[Ieke Moerdijk]], [[Janez Mrčun]], Section 2.4 of: _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics  __91__, 2003. x+173 pp. ISBN: 0-521-83197-0 ([doi:10.1017/CBO9780511615450](https://doi.org/10.1017/CBO9780511615450))
-
+* [[Ieke Moerdijk]], [[Janez Mrčun]], Section 2.4 of: _[[Introduction to foliations and Lie groupoids]]_, Cambridge Studies in Advanced Mathematics  __91__ (2003) &lbrack;ISBN: 0-521-83197-0, [doi:10.1017/CBO9780511615450](https://doi.org/10.1017/CBO9780511615450)&rbrack;
 
 * {#BoyerGalicki07} [[Charles Boyer]], [[Krzysztof Galicki]], Chapter 4 of: _Sasakian Geometry_, Oxford Mathematical Monographs, Oxford University Press, 2007 ([doi:10.1093/acprof:oso/9780198564959.001.0001](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780198564959.001.0001/acprof-9780198564959))
 
-* {#Kaye07} Adam Kaye, _Two-Dimensional Orbifolds_, 2007 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2007/REUPapers/FINALFULL/Kaye.pdf))
+* {#Kaye07} Adam Kaye, _Two-Dimensional Orbifolds_ (2007) &lbrack;[pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2007/REUPapers/FINALFULL/Kaye.pdf)&rbrack;
 
-* Michael Davis, _Lectures on orbifolds and reflection groups_, 2008 ([pdf](https://math.osu.edu/sites/math.osu.edu/files/08-05-MRI-preprint.pdf))
+* {#CBG08} [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *Orbifolds*, chapter 9 of: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
 
-* {#Porti09} Joan Porti, _An introduction to orbifolds_, 2009 ([pdf](http://mat.uab.es/~porti/orbifoldLeiden.pdf))
+* Michael Davis, _Lectures on orbifolds and reflection groups_, (2008) &lbrack;[pdf](https://math.osu.edu/sites/math.osu.edu/files/08-05-MRI-preprint.pdf)&rbrack;
+
+* {#Porti09} Joan Porti, _An introduction to orbifolds_ (2009) &lbrack;[pdf](http://mat.uab.es/~porti/orbifoldLeiden.pdf)&rbrack;
 
 * {#Snowden11} Andrew Snowden: _Introduction to orbifolds_ (2011) &lbrack;[webpage](https://ocw.mit.edu/courses/18-904-seminar-in-topology-spring-2011/resources/mit18_904s11_finlorbifolds/), [[Snowden-Orbifolds.pdf:file]]&rbrack;
 
