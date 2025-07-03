@@ -18,6 +18,8 @@
 
 * [[identity type]], [[indexed heterogeneous identity type]], [[fibered heterogeneous identity type]]
 
+* [[bridge type]], [[indexed heterogeneous bridge type]], [[fibered heterogeneous bridge type]]
+
 * [[homotopy n-type]], [[connected type]]
 
 * [[higher inductive type]]
