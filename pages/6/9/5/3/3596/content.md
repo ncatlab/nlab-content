@@ -1247,7 +1247,7 @@ The elimination rule then says that if:
 1. for any $f:I \to A$ and any reason $p:Id_A(f)$ why the family of elements of $A$ encoded in the functions are the same, we have a type $C(f,p)$
 1. for any $x:A$ we have a $t(x):C(\lambda i:I.x,r(x))$,
 
-we can construct a canonically defined term $J^{\underline{ }.t}(f,p):C(f,p)$ for *any* $f$ and $p:Id_{I, A}(f)$, by "[[transport|transporting]]" the family of terms $t(x)$ dependent upon the element $x:A$ along the proof of equality $p$. The elimination rule alternatively says that in order to prove a statement is true about all $f,p$, it suffices to prove it in the special case for $\lambda i:I.x,r(x)$.
+we can construct a canonically defined term $J^{\underline{ }.t}(f,p):C(f,p)$ for *any* $f$ and $p:Id_{I, A}(f)$, by sending the family of terms $t(x)$ dependent upon the element $x:A$ along the proof of equality $p$. The elimination rule alternatively says that in order to prove a statement is true about all $f,p$, it suffices to prove it in the special case for $\lambda i:I.x,r(x)$.
 
 Finally, we have the "computation" or [[beta-reduction]] rule. There are two possible computation rules, which result in strict and weak identity types respectively. The computation rule for strict identity types says that if we substitute along a [[reflexive relation|reflexivity]] proof, nothing happens. 
 
@@ -1256,7 +1256,7 @@ Finally, we have the "computation" or [[beta-reduction]] rule. There are two pos
 $$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash t(x):C(\lambda b:\mathbb{2}.x,r(x))}
 {\Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash J^{\underline{ }.t}(\lambda i:I.x,r(x)) = t(x)}$$
 
-Note that the equality $=$ in the conclusion of this computation rule is [[judgmental equality]], not an instance of the identity/equality type itself.
+Note that the equality $=$ in the conclusion of this computation rule is [[judgmental equality]]. 
 
 The computation rule for weak identity types says that there is a witness that the substitution along a [[reflexive relation|reflexivity]] proof is equal to the original $t(x)$. 
 
