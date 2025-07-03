@@ -154,7 +154,7 @@ A type $A$ is **[[discrete]]** [[if and only if]] one of the following equivalen
 
 * the diagonal $\Delta_{A, I}$ is an [[equivalence of types]].
 
-* the canonical function $\mathrm{const}_{A, \mathbb{I}} \coloneqq \lambda a.\lambda i.a$ which takes elements in $A$ to constant functions $\mathbb{I} \to A$ out of the walking bridge is an [[equivalence of types]]. 
+* the canonical function $\mathrm{const}_{A, \mathbb{I}_I} \coloneqq \lambda a.\lambda i.a$ which takes elements in $A$ to constant functions $\mathbb{I}_I \to A$ out of the walking bridge is an [[equivalence of types]]. 
 
 * the canonical inductively defined family of functions $\mathrm{Id}_{A, I}(\overline{x}) \to \mathrm{Br}_{A, I}(\overline{x})$ is an [[equivalence of types]] for all $\overline{x}:I \to A$. 
 
