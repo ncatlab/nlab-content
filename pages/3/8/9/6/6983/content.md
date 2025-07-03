@@ -263,5 +263,30 @@ On the unit type as an [[inductive type]] satisfying [[singleton induction]]:
 
 [[!redirects unit type]]
 [[!redirects unit types]]
+
+[[!redirects strict unit type]]
+[[!redirects strict unit types]]
+
+[[!redirects weak unit type]]
+[[!redirects weak unit types]]
+
+[[!redirects positive unit type]]
+[[!redirects positive unit types]]
+
+[[!redirects positive strict unit type]]
+[[!redirects positive strict unit types]]
+
+[[!redirects positive weak unit type]]
+[[!redirects positive weak unit types]]
+
+[[!redirects negative unit type]]
+[[!redirects negative unit types]]
+
+[[!redirects negative strict unit type]]
+[[!redirects negative strict unit types]]
+
+[[!redirects negative weak unit type]]
+[[!redirects negative weak unit types]]
+
 [[!redirects trivial type]]
 [[!redirects trivial types]]
