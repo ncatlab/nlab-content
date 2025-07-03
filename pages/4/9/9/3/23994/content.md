@@ -6,19 +6,20 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
 =--
 =--
+=--
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
-
-## Idea ##
+## Idea 
 
 The [[type theory|type-theoretic]] version of the fact that in [[set theory]] [[functions]] preserve [[equality]] between [[elements]] in [[sets]]. 
 
-## Definition ##
+## Definition 
 
 ### Basic definition
 
@@ -80,7 +81,21 @@ $$n:\mathbb{N}, x:\left(\prod_{i:\mathrm{Fin}(n)} A(i)\right) \vdash f(x):B$$
 there is a dependent function 
 $$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(i) \vdash \mathrm{ap}_f(n)(a, b):\left(\prod_{i:\mathrm{Fin}(n)} a(i) =_{A(i)} b(i)\right) \to f(a) =_{B} f(b)$$
 
-## See also ##
+## For identifications of arbitrary arity
+
+One can also consider function application to [[identification#OfArbitraryArity|identifications of arity]] $I$, $p:\mathrm{Id}_{I, A}(\overline{x})$, given a family of elements $\overline{x}:I \to A$ indexed by type $I$. We have, for a function $f:A \to B$, a reflexive family 
+
+$$x:A \vdash \mathrm{refl}_{I, B}(f(x)):\mathrm{Id}_{I, B}(\lambda t.f(x))$$
+
+and thus by [[identification induction]] of the [[identity type#OfArbitraryArity|identity type of arity]] $I$, we have a function 
+
+$$\mathrm{ap}_{I, A, B}(f, \overline{x}):\mathrm{Id}_{I, A}(\overline{x}) \to \mathrm{Id}_{I, B}(\lambda t.f(\overline{x}(t)))$$
+
+called the **application** of function $f$ to identifications of arity $I$ or the **action** of function $f$ on identifications of arity $I$, such that for all $x:A$, 
+
+$$\mathrm{ap}_{I, A, B}(f, \overline{x}, \mathrm{refl}_{I, A}(x) \equiv \mathrm{refl}_{I, B}(f(x)):\mathrm{Id}_{I, B}(\lambda t.f(x))$$
+
+## Related concepts
 
 * [[dependent function application to identifications]]
 
@@ -88,7 +103,7 @@ $$n:\mathbb{N}, a:\prod_{i:\mathrm{Fin}(n)} A(i), b:\prod_{i:\mathrm{Fin}(n)} A(
 
 * [[identification type]]
 
-## References ##
+## References 
 
 * {#UFP13} [[Univalent Foundations Project]], §2.2 in: *[[Homotopy Type Theory – Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
 
