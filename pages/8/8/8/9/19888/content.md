@@ -1,9 +1,11 @@
 
-* [webpage Lille](http://math.univ-lille1.fr/~kallel/)
-
-* [webpage Sharjah](https://www.aus.edu/faculty/dr-sadok-kallel)
+* [institute page](https://www.aus.edu/faculty/dr-sadok-kallel) (Sharjah)
 
 * [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=18622)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=bKALKs8AAAAJ&hl=en)
+
+* [inSpire page](https://inspirehep.net/authors/2808379)
 
 
 ## Selected writings
