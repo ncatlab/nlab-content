@@ -23,7 +23,7 @@ Informally, a Kan lift is a best approximate solution to the problem of finding 
 	& B \\
 	A & C
 	\arrow["p", from=1-2, to=2-2]
-	\arrow["{Rift_p f}", dashed, from=2-1, to=1-2]
+	\arrow["{\mathrm{Rift}_p f}", dashed, from=2-1, to=1-2]
 	\arrow["f"', from=2-1, to=2-2]
 \end{tikzcd}
 
