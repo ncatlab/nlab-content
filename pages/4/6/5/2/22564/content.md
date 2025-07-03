@@ -103,3 +103,6 @@ where $ S \overset{diag_n}{\longrightarrow} S^n$ is the [[diagonal morphism]].
 
 [[!redirects finitary magma]]
 [[!redirects finitary magmas]]
+
+[[!redirects arbitrary arity]]
+[[!redirects arbitrary arities]]
