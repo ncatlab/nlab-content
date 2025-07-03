@@ -406,6 +406,41 @@ Thus, one could simply take $j(0)$ and $j(1)$ as the term constructors and $f(0)
 
 If both propositional truncations and the type of booleans have [[judgmental equality|judgmental]] [[computation rules]], the the interval type also has judgmental computation rules. See ([this file](https://www.cs.bham.ac.uk/~mhe/truncation-and-extensionality/hsetfunext.html))
 
+## Walking identification of arbitrary arity
+  {#OfArbitraryArity}
+
+The usual notion of identity types, binary identity types, represents the notion of when two elements of a type $A$ are equal or identified with each other. The elements of binary identity types are [[identifications]], and the interval type is a **walking identification** in that it is the generic binary identification between two elements, every identification between two elements of a type $A$ is given by a function from the interval type. 
+
+One can generalize this to the notion of when a family of elements of a type $A$ are equal or identified, that is, [[identity types of arbitrary arity]]. Given a type $A$ and an index type $I$, a family of elements in $A$ of [[arity]] $I$ is represented by a function $\overline{x}:I \to A$. Generalizing the notion of the interval type from binary to arbitrary arity, this yields the notion of a **walking identification of arbitrary arity**. 
+
+Closely related to the walking identifications of arbitrary arity are the [[walking bridges]], which can also come with arbitrary arity. 
+
+The idea of the walking identification of arity $I$ is that every identification of arity $I$ in an identity type $\mathrm{Id}_{I, A}(\overline{x})$ is given by a function $I \to A$ that factors through $\mathbb{I}_I$: 
+
+$$I \to \mathbb{I}_I \to A$$
+
+in the same way that the usual binary [[identifications]] are given by a function $\mathrm{bool} \to A$ that factors through the [[interval type]]. 
+
+The walking identification of arity $I$, for $I$ not equivalent to the [[boolean type]], is an example of a [[higher inductive type]] which uses an identity type that is *not* the binary [[identity types]] indexed by two elements. 
+
+### Inference rules
+
+The [[inference rules]] of the walking identification of arity $I$ are as follows:
+
+Formation rules for the walking identification of arity $I$:
+$$\frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathbb{I}_I \; \mathrm{type}}$$
+
+Introduction rules for the walking identification of arity $I$:
+$$\frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{pts}:I \to \mathbb{I}_I} \qquad \frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{path}_I:\mathrm{Id}_{I, \mathbb{I}_I}(\mathrm{pts})}$$
+
+Elimination rules for the walking identification of arity $I$:
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{path}:\mathrm{hId}_{I, \mathbb{I}_I, C}(\mathrm{pts}, \mathrm{path}_I, c_\mathrm{pts})}{\Gamma, x:\mathbb{I}_I \vdash \mathrm{ind}_{\mathbb{I}_I}^C(c_\mathrm{pts}, c_\mathrm{path}, x):C(x)}$$
+
+Computation rules for the walking identification of arity $I$:
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{path}:\mathrm{hId}_{I, \mathbb{I}_I, C}(\mathrm{pts}, \mathrm{path}_I, c_\mathrm{pts})}{\Gamma, i:I \vdash \mathrm{ind}_\mathbb{I}^{C}(c_\mathrm{pts}, c_\mathrm{path}, i) \equiv c(i):C(\mathrm{pts}(i))}$$
+
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma, x:\mathbb{I}_I \vdash C(x) \; \mathrm{type} \quad \Gamma\vdash c_\mathrm{pts}:\prod_{i:I} C(\mathrm{pts}(i)) \quad \Gamma \vdash c_\mathrm{path}:\mathrm{hId}_{I, \mathbb{I}_I, C}(\mathrm{pts}, \mathrm{path}_I, c_\mathrm{pts})}{\Gamma \vdash \mathrm{apd}(\mathrm{ind}_\mathbb{I}^{C}(c_\mathrm{pts}, c_\mathrm{path}), \mathrm{pts}, \mathrm{br}_I) \equiv c_\mathrm{path}:\mathrm{Id}_{I, \mathbb{I}_I}(\mathrm{pts})}$$
+
 ## Related concepts
 
 * [[interval]], [[interval object]]
