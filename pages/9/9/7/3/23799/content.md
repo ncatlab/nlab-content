@@ -45,6 +45,11 @@ See also:
 
 * Jian-Hao Zhang, Shang-Qiang Ning, Yang Qi, Zheng-Cheng Gu, *Construction and classification of crystalline topological superconductor and insulators in three-dimensional interacting fermion systems* &lbrack;[arXiv:2204.13558](https://arxiv.org/abs/2204.13558)&rbrack;
 
+For [[fractional Chern insulators]]:
+
+* Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators*, Phys. Rev. B (2025) &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431), [doi:10.1103/8bpm-qbzp](https://doi.org/10.1103/8bpm-qbzp)&rbrack;
+
+
 
 ### Review
 
