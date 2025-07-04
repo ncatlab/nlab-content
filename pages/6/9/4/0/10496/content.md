@@ -228,6 +228,10 @@ Suggestion that [[topological order]] goes along with [[long-range entanglement]
 
 * {#ChenGuWen2010} [[Xie Chen]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], Section V of: _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B **82** 155138 (2010) $[$[arXiv:1004.3835](http://arxiv.org/abs/1004.3835), [doi:10.1103/PhysRevB.82.155138](https://doi.org/10.1103/PhysRevB.82.155138)$]$ 
 
+In relation to [[modular tensor categories]]:
+
+* Siu-Hung Ng, [[Eric C. Rowell]], [[Xiao-Gang Wen]]: *Classification of modular data up to rank 12* &lbrack;[arXiv:2308.09670](https://arxiv.org/abs/2308.09670)&rbrack;
+
 
 ### Review
 
