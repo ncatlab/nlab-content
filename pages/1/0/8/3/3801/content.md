@@ -299,7 +299,7 @@ Further: developments:
 
 Specifically on string topology of [[n-spheres]] (in particular on the [[ordinary homology]] of [[free loop spaces]] of [[n-spheres]]):
 
-* [[Ralph L. Cohen]], [[John D. S. Jones]], Jun Yan: *The loop homology algebra of spheres and projective spaces*, in: *Categorical Decomposition Techniques in Algebraic Topology*, Progress in Mathematics **215** Birkhäuser (2004) &lbrack;[arXiv:math/0210353](https://arxiv.org/abs/math/0210353), [doi:10.1007/978-3-0348-7863-0_5](https://doi.org/10.1007/978-3-0348-7863-0_5)&rbrack;
+* {#CohenJonesYan04} [[Ralph L. Cohen]], [[John D. S. Jones]], Jun Yan: *The loop homology algebra of spheres and projective spaces*, in: *Categorical Decomposition Techniques in Algebraic Topology*, Progress in Mathematics **215** Birkhäuser (2004) &lbrack;[arXiv:math/0210353](https://arxiv.org/abs/math/0210353), [doi:10.1007/978-3-0348-7863-0_5](https://doi.org/10.1007/978-3-0348-7863-0_5)&rbrack;
 
 * [[Luc Menichi]], Gerald Gaudens: *String topology for spheres*, Comment. Math. Helv. **84** (2009) 135–157  &lbrack;[arXiv:math/0609304](https://arxiv.org/abs/math/0609304), [ems:43186](https://ems.press/content/serial-article-files/43186)&rbrack;
 
