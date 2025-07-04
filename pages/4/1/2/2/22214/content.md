@@ -82,6 +82,7 @@ Proposal for applications of [[category theory]] to machine learning:
 
 * Dan Shiebler, [[Bruno Gavranović]], Paul Wilson, _Category Theory in Machine Learning_ ([arXiv:2106.07032](https://arxiv.org/abs/2106.07032))
 * [[Yiannis Vlassopoulos]], _Modelling language semantics and probability densities of text continuations_, QNLP 2022 [youtube](https://www.youtube.com/watch?v=c3IOe3JPfq8)
+* Moto Kamiura, _The Gauss-Markov adjunction: categorical semantics of residuals in supervised learning_, [arXiv:2507.02442](https://arxiv.org/abs/2507.02442)
 
 The following framework claims to relate to [[homotopy type theory]] 
 
