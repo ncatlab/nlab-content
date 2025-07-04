@@ -47,15 +47,17 @@ Further discussion (mostly review and mostly without attribution):
 
 * {#Simon23} [[Steven H. Simon]], *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
 
-
+* Siu-Hung Ng, [[Eric C. Rowell]], [[Xiao-Gang Wen]]: *Classification of modular data up to rank 12* \[<a href="https://arxiv.org/abs/2308.09670">arXiv:2308.09670</a>\]
 
 {#ReferencesFusionCategoryFolklore} Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
 
 * {#Valera21} [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) \[<a href="https://doi.org/10.1016/j.aop.2021.168471">doi:10.1016/j.aop.2021.168471</a>, [arXiv:2004.06282](https://arxiv.org/abs/2004.06282)\]
 
+
+
 An argument that the statement at least for [[SU(2)-anyons]] does follow from an enhancement of the [[K-theory classification of topological phases of matter]] to interacting [[topological order]]:
 
-* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>,[arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\] 
+* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Anyonic topological order in TED K-theory]]*, Rev. Math. Phys. **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\] 
 
 #### In string/M-theory
   {#AnyonicOrderInMTheoryReferences}
