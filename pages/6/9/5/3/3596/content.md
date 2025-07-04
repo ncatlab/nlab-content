@@ -392,6 +392,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Delta_A^{-1}(\Delt
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_{A}(\Delta_A^{-1}(z)) \equiv z:\sum_{x:A} \sum_{y:A} x =_A y}$$
 
+Thus, these identity types can be called **negative identity types**, in contrast to the Martin-Löf identity types, which can be called **positive identity types**.
+
 \begin{theorem}
 The standard J-rule holds: given any type $A$, and any type family $C(z)$ indexed by elements $z:\sum_{x:A} \sum_{y:A} x =_A y$, and given any dependent function $t:\prod_{x:A} C(\Delta_A(x))$ which says that for all elements $x:A$,  there is an element of the type defined by substituting the diagonal at $x:A$ into $C$, $C(\Delta_A(x))$, one can construct a dependent function $\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t):\prod_{z:\sum_{x:A} \sum_{y:A} x =_A y} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(\Delta_A(x)) \equiv t(x):C(\Delta_A(x))$. 
 \end{theorem}
@@ -694,7 +696,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{I} \; \mathrm{type}}$$
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{I}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{I}}$$
 
-Usually, the [[recursion principle]] of the [[interval type]] is interpreted as a way to construct, from elements $x:A$ and $y:A$ and identification $p:x =_A y$, paths $p:\mathbb{I} \to A$, aka functions from the interval type to $A$. Interpreted another way, the recursion principle of the interval type are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. Thus, these identity types can be called **negative identity types**, in contrast to the Martin-Löf identity types, which can be called **positive identity types**.
+Usually, the [[recursion principle]] of the [[interval type]] is interpreted as a way to construct, from elements $x:A$ and $y:A$ and identification $p:x =_A y$, paths $p:\mathbb{I} \to A$, aka functions from the interval type to $A$. Interpreted another way, the recursion principle of the interval type are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. 
 
 ### Inference rules
 
@@ -702,9 +704,9 @@ Usually, the [[recursion principle]] of the [[interval type]] is interpreted as 
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, y:A \vdash x =_A y \; \mathrm{type}}$$
 
-* The introduction rule of identity types state that given a type $A$ and a path $p:\mathbb{I} \to A$, one can construct an [[identification]] $\mathrm{toId}_A(f):f(0) =_A f(1)$. Syntactically, this is given by the following [[inference rules]]:
+* The introduction rule of identity types state that given a type $A$ and a path $p:\mathbb{I} \to A$, one can construct an [[identification]] $\mathrm{toId}_A(p):p(0) =_A p(1)$. Syntactically, this is given by the following [[inference rules]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:\mathbb{I} \to A}{\Gamma \vdash \mathrm{toId}_A(f):f(0) =_A f(1)}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{I} \to A}{\Gamma \vdash \mathrm{toId}_A(p):p(0) =_A p(1)}$$
 
 Normally, this would be [[function application to identifications|function application]] to the canonical identification $\mathcal{p}:0 =_\mathbb{I} 1$, but here we haven't defined $\mathcal{p}$ yet since we haven't defined the identity type yet, and with this rule one can define said identification to be the identification of the identity function on the interval type
 $$\mathcal{p} \equiv \mathrm{toId}_\mathbb{I}(\mathrm{id}_\mathbb{I}):0 =_\mathbb{I} 1$$
@@ -733,7 +735,7 @@ $$\mathrm{topath}_\mathbb{I}^A(p(0), p(1), \mathrm{toId}_A(p)) \equiv p$$
 
 Syntactically, this is given by the following [[inference rules]]:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:\mathbb{I} \to A}{\Gamma \vdash \mathrm{topath}_\mathbb{I}^A(f(0), f(1), \mathrm{toId}_A(f)) \equiv f:\mathbb{I} \to A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{I} \to A}{\Gamma \vdash \mathrm{topath}_\mathbb{I}^A(p(0), p(1), \mathrm{toId}_A(p)) \equiv p:\mathbb{I} \to A}$$
 
 ### Path induction
 
@@ -1298,17 +1300,19 @@ Similarly to binary identity types, if one has [[dependent sum types]], there is
 $$\Delta_{I, A}(x) \coloneqq (\lambda t.x, \mathrm{refl}_{I, A}(x)):\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$$
 However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[definitional isomorphism]]: 
 
-* Elimination rules for negative identity types:
+* Elimination rules for negative identity types of arity $I$:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x}) \vdash \Delta_{I, A}^{-1}(z):A}$$
 
-* Computation rules for negative identity types:
+* Computation rules for negative identity types of arity $I$:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Delta_{I, A}^{-1}(\Delta_{I, A}(x)) \equiv x:A}$$
 
-* Uniqueness rules for negative identity types:
+* Uniqueness rules for negative identity types of arity $I$:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x}) \vdash \Delta_{I, A}(\Delta_{I, A}^{-1}(z)) \equiv z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}$$
+
+Thus, these identity types can be called **negative identity types** of arity $I$, in contrast to the Martin-Löf identity types of arity $I$, which can be called **positive identity types** of arity $I$.
 
 \begin{theorem}
 The standard J-rule for identity types of arity $I$ holds: given any type $A$, and any type family $C(z)$ indexed by elements $z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$, and given any dependent function $t:\prod_{x:A} C(\Delta_{I, A}(x))$ which says that for all elements $x:A$, there is an element of the type defined by substituting the diagonal at $x:A$ into $C$, $C(\Delta_{I, A}(x))$, one can construct a dependent function 
