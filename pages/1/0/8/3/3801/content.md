@@ -293,6 +293,18 @@ The relation between string topology and [[Hochschild cohomology]] in dimenion $
 
 * [[Dmitry Vaintrob]], _The String topology BV algebra, Hochschild cohomology and the Goldman bracket on surfaces_ ([arXiv:0702859](http://arxiv.org/abs/math/0702859))
 
-More developments are in
+Further: developments: 
 
 * Eric Malm, _String topology and the based loop space_, 2009 ([arXiv:1103.6198](http://arxiv.org/abs/1103.6198), [slides](http://math.ucr.edu/~jbergner/ucr-st-present.pdf))
+
+Specifically on string topology of [[n-spheres]] (in particular on the [[ordinary homology]] of [[free loop spaces]] of [[n-spheres]]):
+
+* [[Ralph L. Cohen]], [[John D. S. Jones]], Jun Yan: *The loop homology algebra of spheres and projective spaces*, in: *Categorical Decomposition Techniques in Algebraic Topology*, Progress in Mathematics **215** Birkhäuser (2004) &lbrack;[arXiv:math/0210353](https://arxiv.org/abs/math/0210353), [doi:10.1007/978-3-0348-7863-0_5](https://doi.org/10.1007/978-3-0348-7863-0_5)&rbrack;
+
+* [[Luc Menichi]], Gerald Gaudens: *String topology for spheres*, Comment. Math. Helv. **84** (2009) 135–157  &lbrack;[arXiv:math/0609304](https://arxiv.org/abs/math/0609304), [ems:43186](https://ems.press/content/serial-article-files/43186)&rbrack;
+
+* Ricardo Cabral, Basto Rodriguez, *A Geometric Approach to the String Topology of Spheres*, extended abstract &lbrack;[[CabralRodriguez-STofSpheres.pdf:file]]&rbrack;
+
+
+
+
