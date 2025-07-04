@@ -117,7 +117,7 @@ A [[Grothendieck topology|topology]] $j$ satisfies $j\le\neg\neg$, i.e. $j$ is [
 \end{proposition}
 
 \begin{proposition}
-$\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is a maximal [[Boolean topos|Boolean subtopos]], meaning any Boolean subtopos of $\mathcal{E}$ containing $\mathcal{E}_{\not \not}$ is equal to it. $\mathcal{E}_{\not \not}$ is *the* largest Boolean subtopos, meaning every Boolean subtopos of $\mathcal{E}$ is a subtopos of $\mathcal{E}_{\neg\neg}$, if and only if all subterminal objects are [[regular element|regular]].
+$\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is a maximal [[Boolean topos|Boolean subtopos]], meaning any Boolean subtopos of $\mathcal{E}$ containing $\mathcal{E}_{\not \not}$ is equal to it. $\mathcal{E}_{\not \not}$ is **the** largest Boolean subtopos, meaning every Boolean subtopos of $\mathcal{E}$ is a subtopos of $\mathcal{E}_{\neg\neg}$, if and only if all subterminal objects are [[regular element|regular]], which is to say that the Heyting algebra of subterminal objects is a Boolean algebra.
 \end{proposition}
 
 \begin{proof}
@@ -223,7 +223,7 @@ This has
 
   1. the degenerate subtopos consisting of just the [[identity morphism]] on the [[terminal object]]. 
 
-Observe that the two non-degenerate Boolean toposes, which complement each other in the [[lattice of subtoposes]], are both [[equivalence of categories|equivalent]] to the [[Set|topos of sets]], which incidentally shows that merely requiring the equivalence $(\mathcal{E}_j)_{\neg\neg}\simeq \mathcal{E}_{\neg\neg}$ in Prop. xy is not sufficient.
+Observe that the two non-degenerate Boolean toposes, which complement each other in the [[lattice of subtoposes]], are both [[equivalence of categories|equivalent]] to the [[Set|topos of sets]], which incidentally shows that merely requiring the equivalence $(\mathcal{E}_j)_{\neg\neg}\simeq \mathcal{E}_{\neg\neg}$ in Prop. \ref{smallest_j-dense} is not sufficient.
 \end{example}
 
 
