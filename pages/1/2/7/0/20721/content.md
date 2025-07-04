@@ -226,7 +226,7 @@ and slightly beyond
 
 * [[Jonathan A. Scott]], _Algebraic Structure in the Loop Space Homology Bockstein Spectral Sequence_,  Transactions of the American Mathematical Society **354** 8 (2002) 3075-3084 &lbrack;[jstor:3073034](https://www.jstor.org/stable/3073034)&rbrack;
 
-and for higher Whitehead brackets:
+and for higher [[Whitehead brackets]]:
 
 * {#Arkowitz71} [[Martin Arkowitz]], *Whitehead Products as Images of Pontrjagin Products*, Transactions of the American Mathematical Society, **158** 2 (1971) 453-463 &lbrack;[doi:10.2307/1995917](https://doi.org/10.2307/1995917)&rbrack;
 
@@ -254,9 +254,7 @@ reviewed in:
 Further early discussion:
 
 * [[Raoul Bott]], *The space of loops on a Lie group*, Michigan Math. J. **5** 1 (1958) 35-61 &lbrack;[doi:10.1307/mmj/1028998010](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-5/issue-1/The-space-of-loops-on-a-Lie-group/10.1307/mmj/1028998010.full)&rbrack;
-
   > (for loop spaces of [[Lie groups]])
-
 
 * [[William Browder]], *Homology and Homotopy of H-Spaces*, Proceedings of the National Academy of Sciences of the United States of America **46** 4 (1960) 543-545 &lbrack;[jstor:70867](https://www.jstor.org/stable/70867)&rbrack;
 
@@ -269,7 +267,6 @@ On the effect on Pontrjagin rings of [[group completion]] of [[topological monoi
 * [[Michael Barratt]], [[Stewart Priddy]], *On the homology of non-connected monoids and their associated groups*, Commentarii Mathematici Helvetici, **47** 1 (1972) 1–14 &lbrack;[doi:10.1007/BF02566785](https://link.springer.com/article/10.1007/BF02566785), [eudml:139496](https://eudml.org/doc/139496)&rbrack;
 
 * [[Dusa McDuff]], [[Graeme Segal]]: *Homology fibrations and the “group-completion” theorem*, Inventiones mathematicae **31** (1976) 279-284 &lbrack;[doi:10.1007/BF01403148](https://doi.org/10.1007/BF01403148)&rbrack;
-
 
 
 
