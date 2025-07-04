@@ -1334,6 +1334,128 @@ and so by definition of $\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{
 $$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t, \Delta_{I, A}(x)) \equiv t(\Delta_{I, A}^{-1}(\Delta_{I, A}(x))) \equiv t(x)$$
 \end{proof}
 
+### Definition using an auxiliary type
+
+Similar to how the usual binary identity types can be defined using an [[interval type]] $\mathbb{I}$, one can define identity types of arity $I$ using an auxiliary type $\mathbb{I}_I$ representing the [[walking identification#OfArbitraryArity|walking identification of arity]] $I$. 
+
+$$\frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathbb{I}_I \; \mathrm{type}} \quad \frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{pts}_{I}:I \to \mathbb{I}}$$
+
+Usually, the [[recursion principle]] of the walking identification of arity $I$ is interpreted as a way to construct, from a function $\overline{x}:I \to A$ and identification $p:\mathrm{Id}_{I, A}(\overline{x})$, functions $\mathbb{I} \to A$ from the walking identification to $A$. Interpreted another way, the recursion principle of the walking identification are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. 
+
+#### Inference rules
+
+* The formation rule of identity types of arity $I$ state that given a type $A$ and function $\overline{x}:I \to A$, one can form the identity type $\mathrm{Id}_{I, A}(\overline{x})$. Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma \vdash A \; \mathrm{type}}{\Gamma, \overline{x}:I \to A \vdash \mathrm{Id}_{I, A}(\overline{x}) \; \mathrm{type}}$$
+
+* The introduction rule of identity types of arity $I$ state that given a type $A$ and a path $p:\mathbb{I} \to A$, one can construct an [[identification]] $\mathrm{toId}_A(p):\mathrm{Id}_{I, A}(\lambda t.p(\mathrm{pts}_I(t)))$. Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{I} \to A}{\Gamma \vdash \mathrm{toId}_{I, A}(p):\mathrm{Id}_{I, A}(\lambda t.p(\mathrm{pts}_I(t)))}$$
+
+Normally, this would be [[function application to identifications|function application]] to the canonical identification $\mathrm{path}_I:\mathrm{Id}_{I, \mathbb{I}_I}(\mathrm{pts}_I)$, but here we haven't defined $\mathrm{path}_I$ yet since we haven't defined the identity type yet, and with this rule one can define said identification to be the identification of the identity function on the interval type
+$$\mathrm{path}_I \equiv \mathrm{toId}_{I, \mathbb{I}_I}(\lambda i:\mathbb{I}_I.i):\mathrm{Id}_{I, \mathbb{I}_I}(\mathrm{pts}_I)$$
+In addition, reflexivity of an element $x:A$ is given by sending the constant path of $x:A$ to its equality
+
+$$\mathrm{refl}_{I, A}(x) \equiv \mathrm{toId}_{I, A}(\lambda i:\mathbb{I}_I.x):\mathrm{Id}_{I, A}(\lambda i:I.x)$$
+
+* The elimination rule of identity types of arity $I$ state that given a type $A$, functions $\overline{x}:I \to A$, and identification $p:\mathrm{Id}_{I, A}(\overline{x})$, one can construct a path $\mathrm{topath}_{I, A}(\overline{x}, p):\mathbb{I}_I \to A$. Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \overline{x}:I \to A \quad \Gamma \vdash p:\mathrm{Id}_{I, A}(\overline{x})}{\Gamma \vdash \mathrm{topath}_{I, A}(\overline{x}, p):\mathbb{I}_I \to A}$$
+
+This is just another name for the recursor of the walking identification of arity $I$, $\mathrm{rec}_{\mathbb{I}_I, A}(\overline{x}, p):\mathbb{I}_I \to A$.
+
+* The computation rules of identity types of arity $I$ state that given a type $A$, function $\overline{x}:I \to A$, and identification $p:\mathrm{Id}_{I, A}(\overline{x})$, 
+$$i:I \vdash \mathrm{topath}_{I, A}(\overline{x}, p)(i) \equiv \overline{x}(i) \quad \mathrm{toId}_{I, A}(\mathrm{topath}_{I, A}(\overline{x}, p)) \equiv p$$
+Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \overline{x}:I \to A \quad \Gamma \vdash p:\mathrm{Id}_{I, A}(\overline{x})}{\Gamma, i:I \vdash \mathrm{topath}_{I, A}(\overline{x}, p)(i) \equiv \overline{x}(i):A}$$
+
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash \overline{x}:I \to A \quad \Gamma \vdash p:\mathrm{Id}_{I, A}(\overline{x})}{\Gamma \vdash \mathrm{toId}_{I, A}(\mathrm{topath}_{I, A}(\overline{x}, p)) \equiv p:x =_A y}$$
+
+* The uniqueness rule of identity types of arity $I$ state that given a type $A$ and a path $p:\mathbb{I}_I \to A$,
+$$\mathrm{topath}_{I, A}(\lambda i.p(\mathrm{pts}_I(i)), \mathrm{toId}_A(p)) \equiv p$$
+
+Syntactically, this is given by the following [[inference rules]]:
+
+$$\frac{\Gamma \vdash I \; \mathrm{type} \quad \Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash p:\mathbb{I}_I \to A}{\Gamma \vdash \mathrm{topath}_{I, A}(\lambda i.p(\mathrm{pts}_I(i)), \mathrm{toId}_A(p)) \equiv p:\mathbb{I}_I \to A}$$
+
+#### Path induction
+
+The associated path induction rule then says that the function type $\mathbb{I}_I \to A$ is a [[positive copy]] of $A$:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, z:\mathbb{I}_I \to A \vdash C(z) \; \mathrm{type} \quad t:\prod_{x:A} C(\lambda i:\mathbb{I}_I.x)}{\Gamma \vdash \mathrm{ind}_{\mathbb{I}_I \to A}(t):\prod_{z:\mathbb{I}_I \to A} C(z)}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, z:\mathbb{I}_I \to A \vdash C(z) \; \mathrm{type} \quad t:\prod_{x:A} C(\lambda i:\mathbb{I}_I.x)}{\Gamma, x:A \vdash \mathrm{ind}_{\mathbb{I}_I \to A}(t, \lambda i:\mathbb{I}_I.x) \equiv t(x):C(\lambda i:\mathbb{I}_I.x)}$$
+
+\begin{theorem}
+Suppose that path induction for function types out of the walking identification of arity $I$ is true. Then the standard J-rule is true: given a type $A$ and given a type family $C(\overline{x}, p)$ indexed by $\overline{x}:I \to A$, and $p:\mathrm{Id}_{I, A}(\overline{x})$, and a dependent function $t:\prod_{x:A} C(\lambda i.x, \mathrm{refl}_{I, A}(x))$, one can construct a dependent function
+
+$$\mathrm{ind}_{=, A}(t):\prod_{\overline{x}:I \to A} \prod_{p:\mathrm{Id}_{I, A}(\overline{x})} C(\overline{x}, p)$$
+
+such that for all $x:A$, 
+
+$$J(t, \lambda i.x, \mathrm{refl}_{I, A}(x)) \equiv t(x)$$
+\end{theorem}
+
+\begin{proof}
+By path induction on the type family $C(\lambda i.f(\mathrm{pts}_I(i)), \mathrm{toId}_A(f))$ indexed by $f:\mathbb{I} \to A$, we can construct a dependent function
+
+$$\mathrm{ind}_{\mathbb{I}_I \to A}(t):\prod_{f:\mathbb{I}_I \to A} C(\lambda i.f(\mathrm{pts}_I(i)), \mathrm{toId}_A(f))$$
+
+such that for all $x:A$,
+
+$$\mathrm{ind}_{\mathbb{I}_I \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(x):C(\lambda i:\mathbb{I}_I.x)$$ 
+
+since by definition of constant function and reflexivity, one has
+
+$$i:I \vdash (\lambda i:\mathbb{I}_I.x)(i) \equiv x \quad \mathrm{ap}_{\lambda i:\mathbb{I}_I.x}(\mathcal{p}) \equiv \mathrm{refl}_A(x)$$
+
+We define 
+
+$$J(t, \overline{x}, p) \equiv \mathrm{ind}_{\mathbb{I}_I \to A}(t, \mathrm{rec}_{\mathbb{I}_I, A}(\overline{x}, p))$$
+
+since by recursion of the walking identification of arity $I$, one has a path $\mathrm{rec}_{\mathbb{I}_I, A}(\overline{x}, p):\mathbb{I} \to A$ such that
+
+$$i:I \vdash \mathrm{rec}_{\mathbb{I}_I, A}(\overline{x}, p)(i) \equiv \overline{x}(i) \quad \mathrm{ap}_{\mathrm{rec}_{\mathbb{I}_I, A}(\overline{x}, p)}(\mathrm{pts}_I, \mathrm{path}_I) \equiv p$$
+\end{proof}
+
+Alternatively, one can say that $\mathbb{I}_I \to A$ is a [[negative copy]] of $A$ with respect to constant functions, or equivalently that every type $A$ is definitionally $\mathrm{I}_I$-[[localization of a type|local]], or that 
+$$\mathrm{const}_{A, \mathbb{I}_I} \equiv \lambda x:A.\lambda i:\mathbb{I}_I.x:A \to (\mathbb{I}_I \to A)$$
+is a definitional [[isomorphism]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I}_I \to A \vdash \mathrm{const}_{A, \mathrm{I}_I}^{-1}(p):A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, \mathrm{I}_I}^{-1}(\lambda i:\mathbb{I}_I.x) \equiv x:A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I}_I \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathrm{I}_I}^{-1}(p) \equiv p:\mathbb{I}_I \to A}$$
+
+This is called *definitional localization at the walking identification $\mathbb{I}_I$ of arity $I$*. 
+
+Then, one can prove path induction (positive copy induction rules):
+
+\begin{theorem}
+Suppose that every type $A$ is definitionally $\mathbb{I}_I$-local.
+
+Then path induction holds: given any type $A$, and any type family $C(p)$ indexed by paths $p:\mathbb{I}_I \to A$ in $A$, and given any dependent function $t:\prod_{x:A} C(\lambda i:\mathbb{I}_I.x)$ which says that for all elements $x:A$,  there is an element of the type defined by substituting the constant path of $x:A$ into $C$, $C(\lambda i:\mathbb{I}_I.x)$, one can construct a dependent function $\mathrm{ind}_{\mathbb{I}_I \to A}(t):\prod_{z:\mathbb{I}_I \to A} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\mathbb{I}_I \to A}(t, \lambda i:\mathbb{I}_I.x) \equiv t(x):C(\lambda i:\mathbb{I}_I.x)$. 
+\end{theorem}
+
+\begin{proof}
+$\mathrm{ind}_{\mathbb{I}_I \to A}(t)$ is defined to be
+
+$$\mathrm{ind}_{\mathbb{I}_I \to A}(t) \equiv \lambda p:\mathbb{I}_I \to A.t(\mathrm{const}_{A, \mathrm{I}_I}^{-1}(p))$$
+
+and by the computation rules of path types as negative copies, one has that for all $x:A$, 
+
+$$\mathrm{const}_{A, \mathrm{I}_I}^{-1}(\lambda i:\mathbb{I}_I.x) \equiv x$$
+
+and so by definition of $\mathrm{ind}_{\mathbb{I}_I \to A}(t)$ and the judgmental congruence rules for substitution, one has
+
+$$\mathrm{ind}_{\mathbb{I}_I \to A}(t, \lambda i:\mathbb{I}_I.x) \equiv t(\mathrm{const}_{A, \mathrm{I}_I}^{-1}(\lambda i:\mathbb{I}_I.x)) \equiv t(x)$$
+\end{proof}
+
+Thus, everything about identity types of arity $I$ in Martin-Löf type theory could be proven in this theory. 
+
+
 ## Related concepts
 
 * [[identity of indiscernibles]]
