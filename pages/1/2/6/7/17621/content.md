@@ -15,11 +15,14 @@ On [[Sullivan models]] in [[rational homotopy theory]]:
 
 and specifically regarding the [[Sullivan models of loop spaces]]:
 
-* [[Luc Menichi]], _Sullivan models and free loop space_, A short introduction to Sullivan models, with the Sullivan model of a free loop space and the detailed proof of Vigu&#233;-Sullivan theorem on the Betti numbers of free loop space. Workshop on free loop space &#224; Strasbourg, November 2008 (scanned notes [pdf](http://math.univ-angers.fr/perso/lmenichi/Sullivan_models_free_loop_space.pdf))
+* [[Luc Menichi]]: _Sullivan models and free loop space_, A short introduction to Sullivan models, with the Sullivan model of a free loop space and the detailed proof of Vigu&#233;-Sullivan theorem on the Betti numbers of free loop space. Workshop on free loop space &#224; Strasbourg, November 2008 (scanned notes [pdf](http://math.univ-angers.fr/perso/lmenichi/Sullivan_models_free_loop_space.pdf))
+
+On the [[string topology]] of [[n-spheres|$n$-spheres]]:
+
+* [[Luc Menichi]], Gerald Gaudens: *String topology for spheres*, Comment. Math. Helv. **84** (2009) 135–157  &lbrack;[arXiv:math/0609304](https://arxiv.org/abs/math/0609304), [ems:43186](https://ems.press/content/serial-article-files/43186)&rbrack;
 
 
-
-## Related $n$Lab entries
+## Related entries
 
 * [[Hochschild cohomology]]
 
