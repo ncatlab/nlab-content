@@ -28,6 +28,10 @@ On [[super-modular tensor categories]]:
 
 * [[Parsa Bonderson]], [[Eric C. Rowell]], [[Qing Zhang]], [[Zhenghan Wang]]: *Congruence Subgroups and Super-Modular Categories*, Pacific J. Math. **296** (2018) 257-270 &lbrack;[arXiv:1704.02041](https://arxiv.org/abs/1704.02041), [doi:10.2140/pjm.2018.296.257](https://doi.org/10.2140/pjm.2018.296.257)&rbrack;
 
+On classification of [[modular tensor categories]] motivated from [[anyon|anyonuc]] [[topological order]]:
+
+* Siu-Hung Ng, [[Eric C. Rowell]], [[Xiao-Gang Wen]]: *Classification of modular data up to rank 12* \[<a href="https://arxiv.org/abs/2308.09670">arXiv:2308.09670</a>\]
+
 
 ## Related entries
 
