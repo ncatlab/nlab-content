@@ -14,7 +14,7 @@ Dually, we define the injective dimension of $M$.
 
 Id $R$ is a ring then both the category of all right $R$-modules and the category of all left $R$-modules have enough projectives. The left (right) __global dimension__ of $R$ is the supremum of projective dimensions of all left (right) $R$-modules. More generally, a __global dimension of an abelian category__ $C$ may be defined as
 $$
-gl.dim(C) := sup\{ i\geq 0\,|\, \exists M,N\in C,\, Ext^i(M,N) = 0\}
+gl.dim(C) := sup\{ i\geq 0\,|\, \exists M,N\in C,\, Ext^i(M,N) \neq 0\}
 $$
 Thus the left (right) global dimension of a ring $R$ is the global dimension of the category of left (right) $R$-modules. 
 
