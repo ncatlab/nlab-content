@@ -18,8 +18,12 @@ On [[type II supergravity]]:
 
 * {#BNS04} [[Igor Bandos]], [[Alexei Nurmagambetov]], [[Dmitri Sorokin]], _Various Faces of Type IIA Supergravity_, Nucl. Phys. B676 (2004) 189-228 ([arXiv:hep-th/0307153](https://arxiv.org/abs/hep-th/0307153))
 
+On [[supersymmetric quantum mechanics]]:
 
-## Related $n$Lab entries
+* V. P. Berezovoj, [[Alexei J. Nurmagambetov]]: *Applied Supersymmetry* &lbrack;[arXiv:2507.02081](https://arxiv.org/abs/2507.02081)&rbrack;
+
+
+## Related entries
 
 * [[M5-brane]]
 
