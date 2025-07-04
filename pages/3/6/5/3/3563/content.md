@@ -217,6 +217,7 @@ Furthermore, in the case of a projection map $f \colon Z \times Y \to Y$, there 
 * [[combinatory logic]]
 * [[realizability]]
 * [[Turing category]]
+* [[assembly]]
 
 [[!include computable mathematics -- table]]
 
