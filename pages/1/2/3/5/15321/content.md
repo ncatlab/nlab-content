@@ -59,7 +59,6 @@ and further discussion of this relating to the [[geometric Langlands corresponde
 * {#KapustinWitten06} [[Anton Kapustin]], [[Edward Witten]], _Electric-Magnetic Duality And The Geometric Langlands Program_, Communications in Number Theory and Physics Volume 1 (2007) Number 1 ([arXiv:hep-th/0604151](http://arxiv.org/abs/hep-th/0604151))
 
 
-[[!redirects 't Hooft operators]]
 
 [[!redirects 't Hooft operator]]
 [[!redirects 't Hooft operators]]
