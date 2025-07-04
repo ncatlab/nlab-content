@@ -118,6 +118,9 @@ Cast in "[[generalized symmetry]]" language:
 
 * [[Michele Del Zotto]], Shani Nadir Meynet, Robert Moscrop: *Remarks on Geometric Engineering, Symmetry TFTs and Anomalies* &lbrack;[arXiv:2503.19022](https://arxiv.org/abs/2503.19022)&rbrack;
 
+* Mario De Marco, Shani Nadir Meynet: *Symmetries Beyond Branes: Geometric Engineering and Isometries* &lbrack;[arXiv:2503.19022](https://arxiv.org/abs/2503.19022)&rbrack;
+
+
 
     
 
