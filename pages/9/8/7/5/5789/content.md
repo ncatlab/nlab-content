@@ -105,9 +105,12 @@ and with more emphasis on the relation to the [[superstring]] ([[2-spectral trip
 
 * {#FGR97} [[Jürg Fröhlich]], Oliver Grandjean, [[Andreas Recknagel]], section 7 of: _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
 
-Another survey is
+Further survey;
 
 * Fred Cooper, Avinash Khare, Uday Sukhatme, _Supersymmetry and Quantum Mechanics_, Physics Reports **251** (1995) 267-385 &lbrack;[arXiv:hep-th/9405029](http://arxiv.org/abs/hep-th/9405029)&rbrack;
+
+* V. P. Berezovoj, [[Alexei J. Nurmagambetov]]: *Applied Supersymmetry* &lbrack;[arXiv:2507.02081](https://arxiv.org/abs/2507.02081)&rbrack;
+
 
 
 On [[supersymmetric quantum mechanics]] in the perspective of [[supergeometry]] ([[integration over supermanifolds]], [[picture changing operators]]):
