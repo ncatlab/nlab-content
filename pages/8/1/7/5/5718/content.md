@@ -388,6 +388,8 @@ On jet bundles in [[noncommutative geometry]]:
 
 * [[Shahn Majid]], Francisco Simão, *Quantum jet bundles*, Lett. Math. Phys. **113** 120 (2023) &lbrack;[arXiv:2202.03067](https://arxiv.org/abs/2202.03067), [doi:10.1007/s11005-023-01738-z](https://doi.org/10.1007/s11005-023-01738-z)&rbrack;
 
+* Xiao Han, [[Shahn Majid]]. *Quantum jet Hopf algebroids by cotwist* (2025). ([arXiv:2507.02848](https://arxiv.org/abs/2507.02848)).
+
 [[!redirects jet bundles]]
 
 [[!redirects jet]]
