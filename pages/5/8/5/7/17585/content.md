@@ -548,6 +548,7 @@ $$
 
 =--
 
+
 ### Free loop space of the 2-sphere
 
 +-- {: .num_example}
@@ -556,7 +557,7 @@ $$
 Let $X = S^2$ be the [[2-sphere]]. The corresponding [[rational n-sphere]] has minimal Sullivan model
 
 $$
-  (\wedge^\bullet \langle g_3, g_2 \rangle, d)
+  \big(\wedge^\bullet \langle g_3, g_2 \rangle, d\big)
 $$
 
 with 
@@ -568,13 +569,21 @@ $$
 
 Hence prop. \ref{SullivanModelForTheFreeLoopSpace} gives for the rationalization of $\mathcal{L}S^2$ the model
 
-$$
-  ( \wedge^\bullet \langle \omega^A_2, \omega^B_2, h_1, h_3 \rangle  , d_{\mathcal{L}S^2} ) 
-$$
+\[
+  \label{SullivanModelForLS2}
+  \big( 
+    \wedge^\bullet 
+    \langle 
+       \omega^A_2, \omega^B_2, h_1, h_3 
+    \rangle, 
+     d_{\mathcal{L}S^2} 
+  \big) 
+\]
 
 with
 
-$$
+\[
+  \label{DifferentialInSullivanModelForLS2}
   \begin{aligned}
     d_{\mathcal{L}S^2} h_1 & = 0
     \\
@@ -584,7 +593,7 @@ $$
     \\
     d_{\mathcal{L}S^2} h_3 & = -\tfrac{1}{2} \omega^A_2 \wedge \omega^A_2
   \end{aligned}
-$$
+\]
 
 and prop. \ref{ModelForS1quotient} gives for the rationalization of $\mathcal{L}S^2 \sslash S^1$ the model
 
@@ -610,6 +619,96 @@ $$
 $$
 
 =--
+
+It follows in particular that:
+\begin{corollary}\label{FundamentalGroupAnd1HomologyOfLS2}
+  The [[fundamental group]] of the [[free loop space]] of the [[2-sphere]] is the [[integers]]:
+  \[
+    \label{FundamentalGroupOfLS2}
+    \pi_1\big( \mathcal{L} S^2 \big)
+    \;\simeq\;
+    \mathbb{Z}
+  \]
+  as is its first [[ordinary homology]] [[homology group|group]] with [[integer]] [[coefficients]]:
+  \[
+    \label{Integral1HomologyOfLS2}
+    H_1\big( \mathcal{L} S^2 ;\, \mathbb{Z} \big)
+    \;\simeq\;
+    \mathbb{Z}
+    \,.
+  \]
+\end{corollary}
+(The second statement (eq:Integral1HomologyOfLS2) is also part of [Cohen, Jones & Yan 2004 Thm. 2](string+topology#CohenJonesYan04).)
+\begin{proof}
+  A general fact about [[minimal Sullivan models]] is that the $\mathbb{Q}$-[[linear span]] of their algebra generators is [[linear isomorphism|linearly isomorphic]] to the [[rationalization]] of the [[homotopy groups]] of the corresponding space. Since the Sullivan model for $\mathcal{L} S^2$ has a single generator in degree 1, according to (eq:SullivanModelForLS2), this implies that 
+\[
+  \label{RationalFundamentalGroupsOfLS2}
+  \pi_1\big(
+    \mathcal{L}S^2
+  \big) \otimes_{{}_{\mathbb{Z}}}
+  \mathbb{Q}
+  \;\simeq\;
+  \mathbb{Q}
+  \,.
+\]
+
+At the same time, the [[evaluation]] [[homotopy fiber sequence]] which characterizes the based [[loop space]]
+
+$$
+  \Omega S^2 
+    \longrightarrow 
+  \mathcal{L}S^2
+    \xrightarrow{\; ev \;}
+  S^2
+$$
+
+induces the [[long exact sequence of homotopy groups]] which reads in parts:
+
+$$
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_2(S^2)
+  }}
+  \longrightarrow
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_1 \Omega S^2
+  }}
+  \longrightarrow
+    \pi_1 \mathcal{L} S^2
+  \longrightarrow
+  \underset{1}{\underbrace{
+    \pi_1 S^2
+  }}
+  \mathrlap{\,.}
+$$
+Here, [[group homomorphism|homomorphy]] implies that the left map is given by multiplication with some $n \in \mathbb{N}$,
+and then [[exact sequence|exactness]] implies that
+$$
+  \pi_1 \mathcal{L} S^2 
+  \;\simeq\;
+  \mathbb{Z}/n
+$$
+is a [[cyclic group]].
+But since the [[rationalization]] of [[cyclic groups]] is
+$$
+  (\mathbb{Z}/n)
+  \otimes_{{}_{\mathbb{Z}}}
+  \mathbb{Q}
+  \;\simeq\;
+  \left\{
+  \begin{array}{ccl}
+    \mathbb{Q} &\vert& n = 0
+    \\
+    0 &\vert& \text{otherwise,}
+  \end{array}
+  \right.
+$$
+comparison with (eq:RationalFundamentalGroupsOfLS2) implies the first claim (eq:FundamentalGroupOfLS2). From this, the second claim (eq:Integral1HomologyOfLS2) follows by the [[Hurewicz theorem]] ([this Prop.](Hurewicz+theorem#HurewiczTheoremInDegreeOne)). 
+\end{proof}
+\begin{remark}
+Incidentally, note that the second statement of Cor. \ref{FundamentalGroupAnd1HomologyOfLS2} is compatible with that single generator of degree 1 in (eq:SullivanModelForLS2) being closed, according to (eq:DifferentialInSullivanModelForLS2), implying as such already that $H_1(\mathcal{L}S^2; \mathbb{Q}) \simeq \mathbb{Q}$.
+\end{remark}
+
+
 
 \linebreak
 
