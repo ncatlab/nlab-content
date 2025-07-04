@@ -19,6 +19,7 @@ In [[rational homotopy theory]], given a [[rational topological space]] modeled 
 
 This is a special case of [[Sullivan models of mapping spaces]].
 
+
 ## Construction
 
 ### For the free loop space
@@ -44,7 +45,6 @@ where
 * $s V$ is the [[graded vector space]] obtained from $V$ by shifting degrees down by one: $deg(s v) = deg(v)-1$;
 
 * $d_{\mathcal{L}X}$ is defined on elements $v$ of $V$ by 
-
 
   $$
     d_{\mathcal{L}X} v \coloneqq d v
@@ -115,8 +115,8 @@ is the dgc-algebra obtained from $(\wedge^\bullet V, d_X)$ by shifting down all 
   While Prop. \ref{SullivanModelForBasedLoopSpace} says that the rational [[Whitehead brackets]] of a loop space all vanish (as generally for any [[H-space]], see [there](H-space#RationalHomotopy)), the [[ordinary homology]] of a loop space inherits another product, namely the [[Pontrjagin product]], and this makes (see [there](Pontrjagin+ring#RelationToWhiteheadProduct)) the homology form the [[universal enveloping algebra]] of the binary [[Whitehead bracket]] [[super Lie algebra]] of the original space.
 \end{remark}
 
-## Properties
 
+## Properties
 
 ### Homotopy quotient by $S^1$
 
@@ -833,6 +833,7 @@ In even dimensions:
 [[!include Sullivan models -- examples]]
 
 
+
 ## References
 
 The original result is due to 
@@ -852,7 +853,6 @@ Review:
 
 * {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]]: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000) &lbrack;[doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9)&rbrack;
 
-
 * {#Hess06} [[Kathryn Hess]], example 2.5 of _Rational homotopy theory: a brief introduction_ ([math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, [[Daniel Tanre]], _Algebraic models in geometry_, Oxford graduate texts in mathematics 17 (2008)
@@ -863,6 +863,7 @@ Review:
 
 * {#Menichi13} [[Luc Menichi]], *Rational homotopy -- Sullivan models*, in: *Free Loop Spaces in Geometry and Topology*, IRMA Lect. Math. Theor. Phys., EMS (2015) &lbrack;[arXiv:1308.6685](https://arxiv.org/abs/1308.6685), [doi:10.4171/153](https://doi.org/10.4171/153)&rbrack;
 
+* Somnath Basu, section 3.1 of: *Of Sullivan models, Massey products, and twisted Pontrjagin products*, Journal of Homotopy and Related Structures **10** 2 (2015) 239-273 &lbrack;[arXiv:1209.3226](https://arxiv.org/abs/1209.3226), [doi:10.1007/s40062-013-0057-0](https://doi.org/10.1007/s40062-013-0057-0)&rbrack;
 
 * {#FiorenzaSatiSchreiber16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Rational sphere valued supercocycles in M-theory|Rational sphere valued supercocycles in M-theory and type IIA string theory]]_, Journal of Geometry and Physics, Volume 114, Pages 91-108 (2017) ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206))
 
