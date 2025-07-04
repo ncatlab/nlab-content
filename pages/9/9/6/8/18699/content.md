@@ -31,6 +31,12 @@ A **local colimit** in a [[bicategory]] is a [[colimit]] in a [[hom-category]] t
 * If $B$ has local coequalizers, then we can construct its bicategory $Mod(B)$, whose objects are [[monads]] in $B$ and whose morphisms are [[bimodules]], which also has local coequalizers.
 * Thus, if $B$ is locally cocomplete, we can construct its bicategory $Prof(B) = Mod(Mat(B))$, whose objects are [[category enriched in a bicategory|categories enriched in]] $B$ and whose morphisms are profunctors, which is also locally cocomplete.  In particular, [[Prof]] = $Prof(\mathbf{B} Set)$ is locally cocomplete.
 
+## References
+
+* {#Street81} [[Ross Street]], *Cauchy characterization of enriched categories*, Rend. Sem. Mat. Fis. Milano 51 (1981): 217-233, Reprints in Theory and Applications of Categories, **4** (2004) 1-16 &lbrack;[tac:tr4](http://www.tac.mta.ca/tac/reprints/articles/4/tr4abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/4/tr4.pdf)&rbrack;
+
+* [[Richard Garner]] and [[Mike Shulman]], *Enriched categories as a free cocompletion*, [arXiv](http://arxiv.org/abs/1301.3191)
+
 [[!redirects local colimits]]
 [[!redirects bicategory with local colimits]]
 [[!redirects bicategories with local colimits]]
