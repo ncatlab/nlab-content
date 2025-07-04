@@ -187,9 +187,11 @@ On [[quantum information theory]] ([[entanglement entropy]]) applied to [[topolo
 
 * [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
 
-  *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+  *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)\]
 
+On classification of [[modular tensor categories]] motivated from [[anyon|anyonuc]] [[topological order]]:
 
+* Siu-Hung Ng, [[Eric C. Rowell]], [[Xiao-Gang Wen]]: *Classification of modular data up to rank 12* \[<a href="https://arxiv.org/abs/2308.09670">arXiv:2308.09670</a>\]
 
 ## Related entries
 
