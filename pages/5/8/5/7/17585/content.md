@@ -61,7 +61,7 @@ where
 
 =--
 
-This is due to ([Vigu&#233;-Sullivan 76](#VigueSullivan76)). Review includes ([Felix-Halperin-Thomas 00, p. 206](#FelixHalperinThomas00), [Hess 06, example 2.5](#Hess06), [F&#233;lix-Oprea-Tanre 08, theorem 5.11](#FelixOpreaTanre08)).
+This is due to [Vigu&#233; & Sullivan 1976](#VigueSullivan76). Review includes [Felix, Halperin & Thomas 2000, p. 206](#FelixHalperinThomas00), [Hess 2006, ex. 2.5](#Hess06), [F&#233;lix, Oprea & Tanre 2008, thm. 5.11](#FelixOpreaTanre08).
 
 +-- {: .num_remark}
 ###### Remark
@@ -850,7 +850,7 @@ Examples:
 
 Review:
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]]: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000) &lbrack;[doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9)rbrack;
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Stephen Halperin]], [[Jean-Claude Thomas]]: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000) &lbrack;[doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9)&rbrack;
 
 
 * {#Hess06} [[Kathryn Hess]], example 2.5 of _Rational homotopy theory: a brief introduction_ ([math.AT/0604626](http://arxiv.org/abs/math.AT/0604626))
