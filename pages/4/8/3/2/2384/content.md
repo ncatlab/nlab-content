@@ -5,7 +5,7 @@
 
 ## Idea
 
-This page is used as a hub to gather references about [[category theory|category-theoretic]] work with explicit applications to biology. 
+This page is used as a hub to gather references about [[category theory|category-theoretic]] work (and more widely, other mathematical foundational work) with explicit applications to biology. 
 
 
 _Biology_ can be seen as an umbrella term for a spectrum of scientific domains all interested in studying life, at various [scales](https://en.wikipedia.org/wiki/Biological_organisation). A range of category-theoretic formalisms have now been proposed to model these scales, from [DNA mechanisms](https://www.cdc.gov/genomics/about/basics.htm) to [complex systems](https://en.wikipedia.org/wiki/Complex_system) through [protein interactions](https://en.wikipedia.org/wiki/Protein%E2%80%93protein_interaction). This page gathers works expressing their results in the language of biology by using category theory concepts. More works with potential applications to topics somewhat related to biological questions are referred at the end of the page.
@@ -325,11 +325,16 @@ Neuroscience:
 * [[Andree Ehresmann|AC Ehresmann]] and P S Wlimes, _Towards a theoretical framework for wandering logic intelligence memory evolutive systems_. In P. L. Simeonov, L. S. Smith, and A. C. Ehresmann, editors, Integral. Biomathics: Tracing the Road to Reality. Springer-Verlag, 2012.
 
 
-* [[Andree Ehresmann|AC Ehresmann]] and J-P Vanbremeersch, _The memory evolutive systems as a model of Rosen's organisms_. Axiomathes, 16:165–214, 2006.
+* [[Andree Ehresmann|AC Ehresmann]], J-P Vanbremeersch, _The memory evolutive systems as a model of Rosen's organisms_. Axiomathes, 16:165–214, 2006.
 
-* [[Andree Ehresmann|AC Ehresmann]] and J-P Vanbremeersch. _Memory Evolutive Systems: Hierarchy, Emergence, Cognition_, volume 4 of Studies in Multidisciplinarity. Elsevier, 2007.
+* [[Andree Ehresmann|AC Ehresmann]], J-P Vanbremeersch. _Memory Evolutive Systems: Hierarchy, Emergence, Cognition_, volume 4 of Studies in Multidisciplinarity. Elsevier, 2007.
 
 * [[Andree Ehresmann|AC Ehresmann]], [[Nils Baas|N Baas]], and J-P Vanbremeersch. _Hyperstructures and memory evolutive systems_.
 Intern. J. Gen. Sys., 33(5):553–568, 2004.
 
 * D Pastor, E Beurier, [[Andree Ehresmann|AC Ehresmann]], R Waldeck, _Interfacing biology, category theory and mathematical statistics_, [pdf](https://arxiv.org/pdf/2009.06832.pdf)
+
+The following article views biological systems as
+information-processing agents, supporting recursion $\gt$ function hypothesis
+
+* Sara Imari Walker, Paul C. W. Davies, _The algorithmic origins of life_, Journal of the Royal Society Interface, 10(79) 2013 [doi](https://doi.org/10.1098/rsif.2012.0869)
