@@ -1241,6 +1241,8 @@ Now the basic "introduction" rule, which says that the elements of $A$ encoded i
 
 $$\frac{\Gamma \vdash I:Type \quad \Gamma \vdash A:Type}{\Gamma, x:A \vdash r(x) : Id_{I, A}(\lambda i:I.x)}$$
 
+#### Standard J-rule
+
 Then we have the “elimination” rule:
 
 $$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \quad \Gamma, x:A, \Delta(\lambda i:I.x,r(x)) \vdash t(x):C(\lambda i:I.x,r(x))}
@@ -1290,11 +1292,7 @@ $$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \qquad
 
 The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(\lambda i:I.x,r(x))}(J(\lambda x:A.t(x),\lambda i:I.x,r(x)),t(x))$. 
 
-### As a homotopy-initial type
-
-A reflexive graph structure of [[arity]] $I$ on $A$ is a type family $R(\overline{x})$ indexed by $\overline{x}:I \to A$ such that for all $x:A$, there is an element $\mathrm{refl}(x):R(\lambda t.x)$, where $\lambda t.x$ is the [[constant function]] whose output is always $x:A$. The identity type of [[arity]] $I$ $\mathrm{Id}_{I, A}(\overline{x})$ is the homotopy-initial such reflexive graph structure of arity $I$ on $A$. 
-
-### As a negative type
+#### As a negative type
 
 Similarly to binary identity types, if one has [[dependent sum types]], there is a way of defining the identity type of arity $I$ as a [[negative type]]. The idea is that using the inference rules for dependent sum types, the standard J-rule for identity types of arity $I$ states that the dependent sum type $\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$ is a [[positive copy]] of $A$ with respect to the [[diagonal function]] 
 $$\Delta_{I, A}(x) \coloneqq (\lambda t.x, \mathrm{refl}_{I, A}(x)):\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$$
@@ -1333,6 +1331,10 @@ and so by definition of $\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{
 
 $$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t, \Delta_{I, A}(x)) \equiv t(\Delta_{I, A}^{-1}(\Delta_{I, A}(x))) \equiv t(x)$$
 \end{proof}
+
+### As a homotopy-initial type
+
+A reflexive graph structure of [[arity]] $I$ on $A$ is a type family $R(\overline{x})$ indexed by $\overline{x}:I \to A$ such that for all $x:A$, there is an element $\mathrm{refl}(x):R(\lambda t.x)$, where $\lambda t.x$ is the [[constant function]] whose output is always $x:A$. The identity type of [[arity]] $I$ $\mathrm{Id}_{I, A}(\overline{x})$ is the homotopy-initial such reflexive graph structure of arity $I$ on $A$. 
 
 ### Definition using an auxiliary type
 
