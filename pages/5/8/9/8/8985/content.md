@@ -156,7 +156,10 @@ The category $T Alg$ of $T$-algebras is a reflective full subcategory of $T/\mat
 =--
 +-- {: .proof}
 ###### Proof
-It is easy to show that it is a full subcategory.  Moreover, $(A,B,a)$ lies in $T Alg$ just when $\tau^*(A,B,a)$ is an isomorphism.  The isomorphisms are a reflective subcategory of $\mathcal{A}^{\mathbf{2}}$, hence the algebras for a well-pointed endofunctor $R$.  Now by Lemma \ref{WellPointedTransfer}, there is a well-pointed endofunctor $S$ of $T/\mathcal{A}$ whose algebras are precisely the $T$-algebras.  Now apply Theorem \ref{WellPointedFreeAlgebras}.
+To see that $T Alg$ is a full subcategory assume that $(A,a)$ and $(B,b)$ are two algebras, and that $(f,g)$ is a morphism between the associated objects of $T/\mathcal{A}$; i.e. that $g\circ a = b\circ T f$.
+Then we have $f = b\circ \tau_B\circ f = b\circ T f\circ \tau_A = g\circ a \circ \tau_A = g$, and the arrow $f=g$ is an algebra morphism.
+
+Moreover, $(A,B,a)$ lies in $T Alg$ just when $\tau^*(A,B,a)$ is an isomorphism.  The isomorphisms are a reflective subcategory of $\mathcal{A}^{\mathbf{2}}$, hence the algebras for a well-pointed endofunctor $R$.  Now by Lemma \ref{WellPointedTransfer}, there is a well-pointed endofunctor $S$ of $T/\mathcal{A}$ whose algebras are precisely the $T$-algebras.  Now apply Theorem \ref{WellPointedFreeAlgebras}.
 =--
 
 +-- {: .num_theorem #PointedAlgebras}
