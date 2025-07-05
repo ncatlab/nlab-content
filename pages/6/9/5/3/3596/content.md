@@ -460,56 +460,6 @@ $$ Id_{C(x,y,p)}(J(t[x/y, r(x)/p];x,y,p), t). $$
 
 This has none of the bad consequences of judgmental $\eta$-conversion, and in particular does not imply that the type theory is extensional.  The argument that $p\colon Id_A(x,y)$ implies $x=y$ becomes the tautologous statement that if $p\colon Id_A(x,y)$ then $p\colon Id_A(x,y)$, while the subsequent argument that $p= r(x)$ fails because $x$ and $y$ are no longer *judgmentally* equal, so $r(x)$ does not have type $Id_A(x,y)$.  We can *[[transport]]* it along $p$ to obtain a term of this type, but then we obtain only that $p$ is equal to the transport of $r(x)$ along $p$, which is a perfectly intensional/homotopical statement.
 
-### Identity types as a negative type
-
-If one has [[dependent sum types]], there are ways of defining the identity type as a [[negative type]]. These all result in equality reflection if one uses [[judgmental equality]]. 
-
-The idea is that using the inference rules for dependent sum types, the standard J-rule states that the dependent sum type $\sum_{x:A} \sum_{y:A} x =_A y$ is a [[positive copy]] of $A$ with respect to the [[diagonal function]] 
-$$\Delta_{A}(x) \coloneqq (x, (x, \mathrm{refl}_A(x))):\sum_{x:A} \sum_{y:A} x =_A y$$
-However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[quasi-invertible function]] or [[definitional isomorphism]]: 
-
-* Elimination rules:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_A^{-1}(z):A}$$
-
-* Computation rules:
-
-Judgmental computation rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Delta_A^{-1}(\Delta_{A}(x)) \equiv x:A}$$
-
-Typal computation rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \beta(x):\Delta_A^{-1}(\Delta_{A}(x)) =_A x}$$
-
-* Uniqueness rules for negative identity types:
-
-Judgmental uniqueness rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_{A}(\Delta_A^{-1}(z)) \equiv z:\sum_{x:A} \sum_{y:A} x =_A y}$$
-
-Typal uniqueness rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \eta(z):\Delta_{A}(\Delta_A^{-1}(z)) =_{\sum_{x:A} \sum_{y:A} x =_A y} z}$$
-
-The judgmental uniqueness rules yield [[equality reflection]], by the properties of [[judgmental equality]] and [[dependent sum types]], from 
-$$(\Delta_A^{-1}(x, y, p), \Delta_A^{-1}(x, y, p), \mathrm{refl}_A(\Delta_A^{-1}(x, y, p))) \equiv (x, y, p)$$
-one can derive $x \equiv \Delta_A^{-1}(x, y, p)$ and $y \equiv \Delta_A^{-1}(x, y, p)$ and thus $x \equiv y$. 
-
-Similarly, the Paulin-Mohring J-rule states that given $x:A$, the dependent sum type $\sum_{y:A} x =_A y$ is a [[positive unit type]] of $A$ with specified element 
-$$(x, \mathrm{refl}_A(x)):\sum_{y:A} x =_A y$$
-However, there are also [[negative unit types]], which states that $\sum_{y:A} x =_A y$ is a definitional singleton or a [[contractible type]] with [[center of contraction]] $(x, \mathrm{refl}_A(x))$, depending on which version of the [[unit type]] one uses in the definition:
-
-* Uniqueness rules for negative identity types:
-
-Judgmental uniqueness rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, z:\sum_{y:A} x =_A y \vdash (x, \mathrm{refl}_A(x)) \equiv z:\sum_{y:A} x =_A y}$$
-
-Typal uniqueness rules:
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, z:\sum_{y:A} x =_A y \vdash \mathrm{contr}_A(x, y):(x, \mathrm{refl}_A(x)) =_{\sum_{y:A} x =_A y} z}$$
-
-Similarly to the case for the standard Martin-Lof identity types, using a [[judgmental equality]] instead of an identification in the uniqueness rule yields [[equality reflection]], because by the properties of [[judgmental equality]] and [[dependent sum types]], one can derive $x \equiv y$ from $(x, \mathrm{refl}_A(x)) \equiv (y, p)$. 
-
-As a result, if one wants to have a homotopically well-behaved notion of identity type with no [[uniqueness of identity proofs]] or [[equality reflection]], one has to use the typal uniqueness rules with [[identity types]] instead of [[judgmental equality]], from which one can prove the typal J-rules of identity types. 
-
-These identity types can be called **negative identity types**, in contrast to the usual identity types in Martin-Löf type theory, which can be called **positive identity types**.
-
 ### Dependent universal property
 
 The identity types in Martin-Löf type theory satisfy the typal $\beta$-conversion and typal $\eta$-conversion rules, regardless if the original $\beta$-conversion and $\eta$-conversion rules used [[typal equality]] or [[judgmental equality]]. The elimination rule in conjunction with the typal $\beta$-conversion and typal $\eta$-conversion rules state that identity types satisfy the **dependent universal property of identity types**. If the dependent type theory also has [[dependent sum types]] [[product types]], [[dependent product types]], and [[dependent function types]], allowing one to define the [[uniqueness quantifier]], the dependent universal property of the natural numbers can be simplified to the following rule: 
@@ -708,7 +658,7 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathbb{I} \; \mathrm{type}}$$
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0:\mathbb{I}} \quad \frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 1:\mathbb{I}}$$
 
-Usually, the [[recursion principle]] of the [[interval type]] is interpreted as a way to construct, from elements $x:A$ and $y:A$ and identification $p:x =_A y$, paths $p:\mathbb{I} \to A$, aka functions from the interval type to $A$. Interpreted another way, the recursion principle of the interval type are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. 
+Usually, the [[recursion principle]] of the [[interval type]] is interpreted as a way to construct, from elements $x:A$ and $y:A$ and identification $p:x =_A y$, paths $p:\mathbb{I} \to A$, aka functions from the interval type to $A$. Interpreted another way, the recursion principle of the interval type are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. Thus, these identity types can be called **negative identity types**, in contrast to the Martin-Löf identity types, which can be called **positive identity types**. This is similar to the situaiton in [[cubical type theory]] where [[cubical path types]] are similarly defined as [[negative types]]. 
 
 ### Inference rules
 
@@ -789,53 +739,14 @@ since by interval recursion one has a path $\mathrm{rec}_\mathbb{I}^A(x, y, p):\
 $$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x \quad \mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(1) \equiv y \quad \mathrm{ap}_{\mathrm{rec}_\mathbb{I}^{A}(x, y, p)}(0, 1, \mathcal{p}) \equiv p$$
 \end{proof}
 
-Alternatively, one can say that $\mathbb{I} \to A$ is a [[negative copy]] of $A$ with respect to constant functions, or equivalently that every type $A$ is definitionally $\mathrm{I}$-[[localization of a type|local]], or that 
-$$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:\mathbb{I}.x:A \to (\mathbb{I} \to A)$$
-is a definitional [[isomorphism]]:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{A, \mathrm{I}}^{-1}(p):A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x:A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathrm{I}}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
-
-This is called *definitional [[interval type localization]]*. 
-
-Then, one can prove path induction (positive copy induction rules):
-
-\begin{theorem}
-Suppose that every type $A$ is definitionally $\mathbb{I}$-local.
-
-Then path induction holds: given any type $A$, and any type family $C(p)$ indexed by paths $p:\mathbb{I} \to A$ in $A$, and given any dependent function $t:\prod_{x:A} C(\lambda i:\mathbb{I}.x)$ which says that for all elements $x:A$,  there is an element of the type defined by substituting the constant path of $x:A$ into $C$, $C(\lambda i:\mathbb{I}.x)$, one can construct a dependent function $\mathrm{ind}_{\mathbb{I} \to A}(t):\prod_{z:\mathbb{I} \to A} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(x):C(\lambda i:\mathbb{I}.x)$. 
-\end{theorem}
-
-\begin{proof}
-$\mathrm{ind}_{\mathbb{I} \to A}(t)$ is defined to be
-
-$$\mathrm{ind}_{\mathbb{I} \to A}(t) \equiv \lambda p:\mathbb{I} \to A.t(\mathrm{const}_{A, \mathrm{I}}^{-1}(p))$$
-
-and by the computation rules of path types as negative copies, one has that for all $x:A$, 
-
-$$\mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x$$
-
-and so by definition of $\mathrm{ind}_{\mathbb{I} \to A}(t)$ and the judgmental congruence rules for substitution, one has
-
-$$\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(\mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x)) \equiv t(x)$$
-\end{proof}
-
 Thus, everything about identity types in Martin-Löf type theory could be proven in this theory. 
-
-On the other hand, **propositional interval type localization**, which says that 
-$$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:\mathbb{I}.x:A \to (\mathbb{I} \to A)$$
-is a weak equivalence of types, only implies the propositional J-rule. 
 
 One has the following analogies between localization at a specific type and the type theoretic letter rule that it proves:
 
 | localization rule | type theoretic letter rule |
 |-------------------|----------------------------|
-| [[I-localization|$\mathbb{I}$-localization]] | [[J-rule]] |
+| [[I-localization|$\mathbb{I}$-localization]] | **J-rule** |
 | [[S1-localization|$S^1$-localization]] | [[K-rule]] |
-
 
 ### Kan operations
 
@@ -1304,46 +1215,6 @@ $$\frac{\Gamma, f:I \to A, p:Id_{I, A}(f), \Delta(f,p) \vdash C(f,p):Type \qquad
 
 The original inference rules using the family of terms $t(x)$ dependent upon $x:A$ is then given by $\beta(\lambda x:A.t(x),x):\mathrm{Id}_{C(\lambda i:I.x,r(x))}(J(\lambda x:A.t(x),\lambda i:I.x,r(x)),t(x))$. 
 
-#### As a negative type
-
-Similarly to binary identity types, if one has [[dependent sum types]], there is a way of defining the identity type of arity $I$ as a [[negative type]]. The idea is that using the inference rules for dependent sum types, the standard J-rule for identity types of arity $I$ states that the dependent sum type $\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$ is a [[positive copy]] of $A$ with respect to the [[diagonal function]] 
-$$\Delta_{I, A}(x) \coloneqq (\lambda t.x, \mathrm{refl}_{I, A}(x)):\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$$
-However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[definitional isomorphism]]: 
-
-* Elimination rules for negative identity types of arity $I$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x}) \vdash \Delta_{I, A}^{-1}(z):A}$$
-
-* Computation rules for negative identity types of arity $I$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Delta_{I, A}^{-1}(\Delta_{I, A}(x)) \equiv x:A}$$
-
-* Uniqueness rules for negative identity types of arity $I$:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x}) \vdash \Delta_{I, A}(\Delta_{I, A}^{-1}(z)) \equiv z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}$$
-
-Thus, these identity types can be called **negative identity types** of arity $I$, in contrast to the Martin-Löf identity types of arity $I$, which can be called **positive identity types** of arity $I$.
-
-\begin{theorem}
-The standard J-rule for identity types of arity $I$ holds: given any type $A$, and any type family $C(z)$ indexed by elements $z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})$, and given any dependent function $t:\prod_{x:A} C(\Delta_{I, A}(x))$ which says that for all elements $x:A$, there is an element of the type defined by substituting the diagonal at $x:A$ into $C$, $C(\Delta_{I, A}(x))$, one can construct a dependent function 
-$$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t):\prod_{z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})} C(z)$$ 
-such that for all $x:A$, $\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(\Delta_{I, A}(x)) \equiv t(x):C(\Delta_{I, A}(x))$. 
-\end{theorem}
-
-\begin{proof}
-$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t)$ is defined to be
-
-$$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t) \equiv \lambda z:\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x}).t(\Delta_{I, A}^{-1}(z))$$
-
-and by the computation rules of path types as negative copies, one has that for all $x:A$, 
-
-$$\Delta_{I, A}^{-1}(\Delta_{I, A}(x)) \equiv x$$
-
-and so by definition of $\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t)$ and the judgmental congruence rules for substitution, one has
-
-$$\mathrm{ind}_{\sum_{\overline{x}:I \to A} \mathrm{Id}_{I, A}(\overline{x})}(t, \Delta_{I, A}(x)) \equiv t(\Delta_{I, A}^{-1}(\Delta_{I, A}(x))) \equiv t(x)$$
-\end{proof}
-
 ### As a homotopy-initial type
 
 A reflexive graph structure of [[arity]] $I$ on $A$ is a type family $R(\overline{x})$ indexed by $\overline{x}:I \to A$ such that for all $x:A$, there is an element $\mathrm{refl}(x):R(\lambda t.x)$, where $\lambda t.x$ is the [[constant function]] whose output is always $x:A$. The identity type of [[arity]] $I$ $\mathrm{Id}_{I, A}(\overline{x})$ is the homotopy-initial such reflexive graph structure of arity $I$ on $A$. 
@@ -1354,7 +1225,7 @@ Similar to how the usual binary identity types can be defined using an [[interva
 
 $$\frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathbb{I}_I \; \mathrm{type}} \quad \frac{\Gamma \vdash I \; \mathrm{type}}{\Gamma \vdash \mathrm{pts}_{I}:I \to \mathbb{I}}$$
 
-Usually, the [[recursion principle]] of the walking identification of arity $I$ is interpreted as a way to construct, from a function $\overline{x}:I \to A$ and identification $p:\mathrm{Id}_{I, A}(\overline{x})$, functions $\mathbb{I} \to A$ from the walking identification to $A$. Interpreted another way, the recursion principle of the walking identification are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. 
+Usually, the [[recursion principle]] of the walking identification of arity $I$ is interpreted as a way to construct, from a function $\overline{x}:I \to A$ and identification $p:\mathrm{Id}_{I, A}(\overline{x})$, functions $\mathbb{I} \to A$ from the walking identification to $A$. Interpreted another way, the recursion principle of the walking identification are the negative elimination and computation rules for [[identity types]], allowing one to define identity types as [[negative types]]. Thus, these identity types can be called **negative identity types**, in contrast to the Martin-Löf identity types, which can be called **positive identity types**. This is similar to the situaiton in [[cubical type theory]] where [[cubical path types]] are similarly defined as [[negative types]]. 
 
 #### Inference rules
 
@@ -1433,42 +1304,7 @@ since by recursion of the walking identification of arity $I$, one has a path $\
 $$i:I \vdash \mathrm{rec}_{\mathbb{I}_I, A}(\overline{x}, p)(i) \equiv \overline{x}(i) \quad \mathrm{ap}_{\mathrm{rec}_{\mathbb{I}_I, A}(\overline{x}, p)}(\mathrm{pts}_I, \mathrm{path}_I) \equiv p$$
 \end{proof}
 
-Alternatively, one can say that $\mathbb{I}_I \to A$ is a [[negative copy]] of $A$ with respect to constant functions, or equivalently that every type $A$ is definitionally $\mathrm{I}_I$-[[localization of a type|local]], or that 
-$$\mathrm{const}_{A, \mathbb{I}_I} \equiv \lambda x:A.\lambda i:\mathbb{I}_I.x:A \to (\mathbb{I}_I \to A)$$
-is a definitional [[isomorphism]]:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I}_I \to A \vdash \mathrm{const}_{A, \mathrm{I}_I}^{-1}(p):A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, \mathrm{I}_I}^{-1}(\lambda i:\mathbb{I}_I.x) \equiv x:A}$$
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I}_I \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathrm{I}_I}^{-1}(p) \equiv p:\mathbb{I}_I \to A}$$
-
-This is called *definitional localization at the walking identification $\mathbb{I}_I$ of arity $I$*. 
-
-Then, one can prove path induction (positive copy induction rules):
-
-\begin{theorem}
-Suppose that every type $A$ is definitionally $\mathbb{I}_I$-local.
-
-Then path induction holds: given any type $A$, and any type family $C(p)$ indexed by paths $p:\mathbb{I}_I \to A$ in $A$, and given any dependent function $t:\prod_{x:A} C(\lambda i:\mathbb{I}_I.x)$ which says that for all elements $x:A$,  there is an element of the type defined by substituting the constant path of $x:A$ into $C$, $C(\lambda i:\mathbb{I}_I.x)$, one can construct a dependent function $\mathrm{ind}_{\mathbb{I}_I \to A}(t):\prod_{z:\mathbb{I}_I \to A} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\mathbb{I}_I \to A}(t, \lambda i:\mathbb{I}_I.x) \equiv t(x):C(\lambda i:\mathbb{I}_I.x)$. 
-\end{theorem}
-
-\begin{proof}
-$\mathrm{ind}_{\mathbb{I}_I \to A}(t)$ is defined to be
-
-$$\mathrm{ind}_{\mathbb{I}_I \to A}(t) \equiv \lambda p:\mathbb{I}_I \to A.t(\mathrm{const}_{A, \mathrm{I}_I}^{-1}(p))$$
-
-and by the computation rules of path types as negative copies, one has that for all $x:A$, 
-
-$$\mathrm{const}_{A, \mathrm{I}_I}^{-1}(\lambda i:\mathbb{I}_I.x) \equiv x$$
-
-and so by definition of $\mathrm{ind}_{\mathbb{I}_I \to A}(t)$ and the judgmental congruence rules for substitution, one has
-
-$$\mathrm{ind}_{\mathbb{I}_I \to A}(t, \lambda i:\mathbb{I}_I.x) \equiv t(\mathrm{const}_{A, \mathrm{I}_I}^{-1}(\lambda i:\mathbb{I}_I.x)) \equiv t(x)$$
-\end{proof}
-
 Thus, everything about identity types of arity $I$ in Martin-Löf type theory could be proven in this theory. 
-
 
 ## Related concepts
 
