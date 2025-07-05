@@ -41,5 +41,43 @@ d̸
 
 \linebreak
 
+***
+
+$$
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_3(S^2)
+  }}
+  \longrightarrow
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_2 \Omega S^2
+  }}
+  \longrightarrow
+    \pi_2 \mathcal{L} S^2
+  \longrightarrow
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_2 S^2
+  }}
+  \longrightarrow
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_1 \Omega S^2
+  }}
+  \xrightarrow{\phantom{-} \sim \phantom{-}}
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_1 \mathcal{L} S^2
+  }}
+$$
+
+$$
+  0 
+    \longrightarrow
+  \mathbb{Z}/n
+    \longrightarrow
+  \pi_2 \mathcal{L} S^2
+    \longrightarrow
+  \mathbb{Z}
+    \longrightarrow
+  0
+$$
+
 
 
