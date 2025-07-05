@@ -59,6 +59,8 @@ There are various axioms which imply resizing axioms:
 
 ## Related concepts
 
+* [[size issues]]
+
 * [[type universe]]
 
 * [[universe hierarchy]]
@@ -71,6 +73,9 @@ There are various axioms which imply resizing axioms:
 
 * {#Rijke17} [[Egbert Rijke]], *The join construction*, 26 Jan 2017, ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
 
+[[!redirects resize]]
+[[!redirects resizes]]
+[[!redirects resized]]
 [[!redirects resizing]]
 
 [[!redirects resizing axiom]]
