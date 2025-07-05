@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include type theory - contents]]
 =--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
 =--
 =--
 
@@ -57,6 +61,10 @@ Thus, by induction on identity, we have a term in the above type, witnessing a [
 On the other hand, if in addition to the equality reflection rule we postulate that all equality proofs are definitionally equal to reflexivity, then we can derive the induction rule for identity types.  Extensional type theory is often presented in this form.
 =--
 
+A different, also equivalent, way of presenting extensional type theory is with a definitional [[eta-conversion]] rule for the identity types; see _[here](identity+type#EtaConversion)_.
+
+### Using the interval type
+
 If the [[dependent type theory]] has an [[interval type]] $\mathbb{I}$ with judgmental computation rules for the point constructors, it suffices for the two point constructors $0:\mathbb{I}$ and $1:\mathbb{I}$ to be definitionally equal:
 
 $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash 0 \equiv 1:\mathbb{I}}$$ 
@@ -67,7 +75,62 @@ $$x \equiv \mathrm{rec}_\mathbb{I}^A(x, y, p, 0) \equiv \mathrm{rec}_\mathbb{I}^
 which is precisely equality reflection. 
 \end{proof}
 
-A different, also equivalent, way of presenting extensional type theory is with a definitional [[eta-conversion]] rule for the identity types; see _[here](identity+type#EtaConversion)_.
+Alternatively, one can add inference rules for [[definitional interval type localization|definitional $\mathbb{I}$-localization]]:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{A, \mathbb{I}}^{-1}(p):A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, \mathbb{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x:A}$$
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathbb{I}}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
+
+The usual notion of [[interval type localization|$\mathbb{I}$-localization]], provable in any [[dependent type theory]] with an [[interval type]], implies definitional $\mathbb{I}$-localization in extensional type theory by [[equality reflection]]. On the other hand, one can prove equality reflection from definitional $\mathbb{I}$-localization. 
+
+\begin{theorem}
+Definitional $\mathbb{I}$-localization implies [[equality reflection]]. 
+\end{theorem}
+
+\begin{proof}
+Given $x:A$, $y:A$, and $p:x =_A y$, by the [[recursion principle]] of the [[interval type]], we have a function $\mathrm{rec}_{\mathbb{I}, A}(x, y, p):\mathbb{I} \to A$. By definitional $\mathbb{I}$-localization and the recursion principle of the [[interval type]], we have an element 
+$$\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)):A$$
+such that 
+$$\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)) \equiv \mathrm{const}_{A, \mathbb{I}}(\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)), 0) \equiv \mathrm{rec}_{\mathbb{I}, A}(x, y, p, 0) \equiv x$$
+$$\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)) \equiv \mathrm{const}_{A, \mathbb{I}}(\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)), 1) \equiv \mathrm{rec}_{\mathbb{I}, A}(x, y, p, 1) \equiv y$$
+hence, we can derive by the [[inference rules]] for [[judgmental equality]] that $x \equiv y$, which is precisely equality reflection.
+\end{proof}
+
+### Using dependent sum types of identity types
+
+In [[extensional type theory]], there are ways of defining certain [[dependent sum types]] of [[identity type]] as a [[negative type]], which all result in equality reflection. 
+
+The idea is that using the inference rules for dependent sum types, the standard J-rule states that the dependent sum type $\sum_{x:A} \sum_{y:A} x =_A y$ is a [[positive copy]] of $A$ with respect to the [[diagonal function]] 
+$$\Delta_{A}(x) \coloneqq (x, (x, \mathrm{refl}_A(x))):\sum_{x:A} \sum_{y:A} x =_A y$$
+However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[definitional isomorphism]]: 
+
+* Elimination rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_A^{-1}(z):A}$$
+
+* Computation rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Delta_A^{-1}(\Delta_{A}(x)) \equiv x:A}$$
+
+* Uniqueness rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_{A}(\Delta_A^{-1}(z)) \equiv z:\sum_{x:A} \sum_{y:A} x =_A y}$$
+
+The uniqueness rules yield [[equality reflection]]. By the properties of [[judgmental equality]] and [[dependent sum types]], from 
+$$(\Delta_A^{-1}(x, y, p), \Delta_A^{-1}(x, y, p), \mathrm{refl}_A(\Delta_A^{-1}(x, y, p))) \equiv (x, y, p)$$
+one can derive $x \equiv \Delta_A^{-1}(x, y, p)$ and $y \equiv \Delta_A^{-1}(x, y, p)$ and thus $x \equiv y$. 
+
+Similarly, the Paulin-Mohring J-rule states that given $x:A$, the dependent sum type $\sum_{y:A} x =_A y$ is a [[positive unit type]] of $A$ with specified element 
+$$(x, \mathrm{refl}_A(x)):\sum_{y:A} x =_A y$$
+However, there are also [[negative unit types]], which states that $\sum_{y:A} x =_A y$ is a definitional singleton with [[judgmental equality|judgmental]] [[center of contraction]] $(x, \mathrm{refl}_A(x))$
+
+* Uniqueness rules for negative identity types:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, z:\sum_{y:A} x =_A y \vdash (x, \mathrm{refl}_A(x)) \equiv z:\sum_{y:A} x =_A y}$$
+
+Similarly to the case for the standard Martin-Lof identity types, the uniqueness rule yields [[equality reflection]], because by the properties of [[judgmental equality]] and [[dependent sum types]], one can derive $x \equiv y$ from $(x, \mathrm{refl}_A(x)) \equiv (y, p)$. 
 
 ## Properties
 
