@@ -58,10 +58,29 @@ In the presence of definitional isomorphism types and the [[inductively defined]
 
 $$x:A, y:A, p:x =_A y \vdash \mathrm{ind}_{\mathrm{Id}}^{A, B(x) \cong B(y)}(p):B(x) \cong B(y)$$ 
 
-
 $$x:A \vdash \mathrm{ind}_{\mathrm{Id}}^{A, B(x) \cong B(x)}(\mathrm{refl}_A(x)) \equiv \mathrm{toDefIso}(\chi:A.\chi, \chi:A.\chi):B(x) \cong B(x)$$ 
 
 However, the dependent type theory will no longer have [[decidable equality]] if it has definitional isomorphism types, as definitional isomorphism types allow one to include arbitrary definitional isomorphisms in [[contexts]]. In turn, this allows one to define [[fixed point]] operators, which are incompatible with decidable equality for dependent type theories. 
+
+\begin{theorem}
+If the dependent type theory has an [[interval type]] with its large recursion principle, then the dependent type theory is an [[extensional type theory]]. 
+\end{theorem}
+
+\begin{proof}
+In the presence of definitional isomorphism types and the [[inductively defined]] [[identity types]], [[transport]] can be defined as definitional isomorphism via the [[J-rule]], since the [[identity function]] or [[identity equivalence]] is a definitional isomorphism and thus one can apply the J-rule to reflexivity to get the identity as a definitional isomorphism:
+
+$$x:A, y:A, p:x =_A y \vdash \mathrm{ind}_{\mathrm{Id}}^{A, B(x) \cong B(y)}(p):B(x) \cong B(y)$$ 
+
+$$x:A \vdash \mathrm{ind}_{\mathrm{Id}}^{A, B(x) \cong B(x)}(\mathrm{refl}_A(x)) \equiv \mathrm{toDefIso}(\chi:A.\chi, \chi:A.\chi):B(x) \cong B(x)$$ 
+
+By large recursion of the interval, given two types $A$ and $B$ and an [[equivalence of types]] $e:A \simeq B$, one can construct an interval-indexed type family $(\mathrm{rec}_{\mathbb{I}}^{A, B, e}(x))_{x:\mathbb{I}}$ such that $\mathrm{rec}_{\mathbb{I}}^{A, B, e}(0) \equiv A$, $\mathrm{rec}_{\mathbb{I}}^{A, B, e}(1) \equiv B$, and $q:\mathrm{tr}_{\mathrm{rec}_{\mathbb{I}}^{A, B, e}}(p) =_{A \simeq B} e$. With definitional isomorphism types, the equivalences can be strictified to definitional isomorphisms by 
+$$\mathrm{ind}_{\mathrm{Id}}^{\mathbb{I}, \mathrm{rec}_{\mathbb{I}}^{A, B, e}(0) \cong \mathrm{rec}_{\mathbb{I}}^{A, B, e}(1)}(p):A \cong B$$
+This implies that for all types $A$, the equivalence 
+$$\mathrm{const}_{\mathbb{I}, A} \coloneqq \lambda x:A.\lambda i:\mathbb{I}.x:A \simeq (\mathbb{I} \to A)$$
+in [[interval type localization|$\mathbb{I}$-localization]] can be turned into the definitional isomorphism
+$$\mathrm{ind}_{\mathrm{Id}}^{\mathbb{I}, \mathrm{rec}_{\mathbb{I}}^{A, \mathbb{I} \to A, \mathrm{const}_{\mathbb{I}, A}}(0) \cong \mathrm{rec}_{\mathbb{I}}^{A, \mathbb{I} \to A, \mathrm{const}_{\mathbb{I}, A}}(1)}(p):A \cong (\mathbb{I} \to A)$$
+which is [[definitional interval type localization|definitional $\mathbb{I}$-localization]], and definitional $\mathbb{I}$-localization implies [[equality reflection]] as proven in the [[definitional interval type localization|definitional $\mathbb{I}$-localization]] and [[extensional type theory]] articles. 
+\end{proof}
 
 ## Related concepts
 
@@ -69,13 +88,14 @@ However, the dependent type theory will no longer have [[decidable equality]] if
 * [[function]], [[function type]]
 * [[equivalence of types]], [[equivalence type]]
 * [[isomorphism]]
+* [[definitional univalence]]
+* [[extensional type theory]]
 
 ## References
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
 
-The proof assistant [[Narya]] makes use of definitional isomorphisms to characterize identity/bridge types.
-
+The proof assistant [[Narya]] makes use of definitional isomorphisms to characterize [[identity types]] and [[bridge types]].
 
 [[!redirects definitionally isomorphic]]
 [[!redirects judgmentally isomorphic]]
