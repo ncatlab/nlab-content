@@ -374,44 +374,6 @@ The computation rule for weak identity types says that there is a witness that t
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(y,p) \vdash C(x,y,p):Type \quad \Gamma \vdash x:A \quad \Gamma \vdash t:C(x,x,r(x))}
 {\Gamma \vdash \beta(x,t):Id_{C(x,x,r(x))}(J(x,t,x,r(x)) ,t)}$$
 
-#### Identity types as a negative type
-
-If one has [[dependent sum types]], there is a way of defining the identity type as a [[negative type]]. The idea is that using the inference rules for dependent sum types, the standard J-rule states that the dependent sum type $\sum_{x:A} \sum_{y:A} x =_A y$ is a [[positive copy]] of $A$ with respect to the [[diagonal function]] 
-$$\Delta_{A}(x) \coloneqq (x, (x, \mathrm{refl}_A(x))):\sum_{x:A} \sum_{y:A} x =_A y$$
-However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[definitional isomorphism]]: 
-
-* Elimination rules for negative identity types:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_A^{-1}(z):A}$$
-
-* Computation rules for negative identity types:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Delta_A^{-1}(\Delta_{A}(x)) \equiv x:A}$$
-
-* Uniqueness rules for negative identity types:
-
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_{A}(\Delta_A^{-1}(z)) \equiv z:\sum_{x:A} \sum_{y:A} x =_A y}$$
-
-Thus, these identity types can be called **negative identity types**, in contrast to the Martin-Löf identity types, which can be called **positive identity types**.
-
-\begin{theorem}
-The standard J-rule holds: given any type $A$, and any type family $C(z)$ indexed by elements $z:\sum_{x:A} \sum_{y:A} x =_A y$, and given any dependent function $t:\prod_{x:A} C(\Delta_A(x))$ which says that for all elements $x:A$,  there is an element of the type defined by substituting the diagonal at $x:A$ into $C$, $C(\Delta_A(x))$, one can construct a dependent function $\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t):\prod_{z:\sum_{x:A} \sum_{y:A} x =_A y} C(z)$ such that for all $x:A$, $\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(\Delta_A(x)) \equiv t(x):C(\Delta_A(x))$. 
-\end{theorem}
-
-\begin{proof}
-$\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t)$ is defined to be
-
-$$\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t) \equiv \lambda z:\sum_{x:A} \sum_{y:A} x =_A y.t(\Delta_A^{-1}(z))$$
-
-and by the computation rules of path types as negative copies, one has that for all $x:A$, 
-
-$$\Delta_A^{-1}(\Delta_A(x)) \equiv x$$
-
-and so by definition of $\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t)$ and the judgmental congruence rules for substitution, one has
-
-$$\mathrm{ind}_{\sum_{x:A} \sum_{y:A} x =_A y}(t, \Delta_A(x)) \equiv t(\Delta_A^{-1}(\Delta_A(x))) \equiv t(x)$$
-\end{proof}
-
 ### Induction using functions instead of type families
 
 There is a version of the induction principle which uses a type $C$ and a function $f:C \to \sum_{x:A} \sum_{y:A} x =_A y$ into the type of all identity types in $A$, instead of a type family $C(x, y, p)$ indexed by $x:A$, $y:A$, and $p:x =_A y$. 
@@ -497,6 +459,56 @@ On the other hand, it is possible to prove a *typal* version of $\eta$-conversio
 $$ Id_{C(x,y,p)}(J(t[x/y, r(x)/p];x,y,p), t). $$
 
 This has none of the bad consequences of judgmental $\eta$-conversion, and in particular does not imply that the type theory is extensional.  The argument that $p\colon Id_A(x,y)$ implies $x=y$ becomes the tautologous statement that if $p\colon Id_A(x,y)$ then $p\colon Id_A(x,y)$, while the subsequent argument that $p= r(x)$ fails because $x$ and $y$ are no longer *judgmentally* equal, so $r(x)$ does not have type $Id_A(x,y)$.  We can *[[transport]]* it along $p$ to obtain a term of this type, but then we obtain only that $p$ is equal to the transport of $r(x)$ along $p$, which is a perfectly intensional/homotopical statement.
+
+### Identity types as a negative type
+
+If one has [[dependent sum types]], there are ways of defining the identity type as a [[negative type]]. These all result in equality reflection if one uses [[judgmental equality]]. 
+
+The idea is that using the inference rules for dependent sum types, the standard J-rule states that the dependent sum type $\sum_{x:A} \sum_{y:A} x =_A y$ is a [[positive copy]] of $A$ with respect to the [[diagonal function]] 
+$$\Delta_{A}(x) \coloneqq (x, (x, \mathrm{refl}_A(x))):\sum_{x:A} \sum_{y:A} x =_A y$$
+However, there is also a negative version of [[copy types]], whose elimination, computation, and uniqueness rules state that the [[diagonal function]] is a [[quasi-invertible function]] or [[definitional isomorphism]]: 
+
+* Elimination rules:
+
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_A^{-1}(z):A}$$
+
+* Computation rules:
+
+Judgmental computation rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \Delta_A^{-1}(\Delta_{A}(x)) \equiv x:A}$$
+
+Typal computation rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \beta(x):\Delta_A^{-1}(\Delta_{A}(x)) =_A x}$$
+
+* Uniqueness rules for negative identity types:
+
+Judgmental uniqueness rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \Delta_{A}(\Delta_A^{-1}(z)) \equiv z:\sum_{x:A} \sum_{y:A} x =_A y}$$
+
+Typal uniqueness rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, z:\sum_{x:A} \sum_{y:A} x =_A y \vdash \eta(z):\Delta_{A}(\Delta_A^{-1}(z)) =_{\sum_{x:A} \sum_{y:A} x =_A y} z}$$
+
+The judgmental uniqueness rules yield [[equality reflection]], by the properties of [[judgmental equality]] and [[dependent sum types]], from 
+$$(\Delta_A^{-1}(x, y, p), \Delta_A^{-1}(x, y, p), \mathrm{refl}_A(\Delta_A^{-1}(x, y, p))) \equiv (x, y, p)$$
+one can derive $x \equiv \Delta_A^{-1}(x, y, p)$ and $y \equiv \Delta_A^{-1}(x, y, p)$ and thus $x \equiv y$. 
+
+Similarly, the Paulin-Mohring J-rule states that given $x:A$, the dependent sum type $\sum_{y:A} x =_A y$ is a [[positive unit type]] of $A$ with specified element 
+$$(x, \mathrm{refl}_A(x)):\sum_{y:A} x =_A y$$
+However, there are also [[negative unit types]], which states that $\sum_{y:A} x =_A y$ is a definitional singleton or a [[contractible type]] with [[center of contraction]] $(x, \mathrm{refl}_A(x))$, depending on which version of the [[unit type]] one uses in the definition:
+
+* Uniqueness rules for negative identity types:
+
+Judgmental uniqueness rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, z:\sum_{y:A} x =_A y \vdash (x, \mathrm{refl}_A(x)) \equiv z:\sum_{y:A} x =_A y}$$
+
+Typal uniqueness rules:
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A, z:\sum_{y:A} x =_A y \vdash \mathrm{contr}_A(x, y):(x, \mathrm{refl}_A(x)) =_{\sum_{y:A} x =_A y} z}$$
+
+Similarly to the case for the standard Martin-Lof identity types, using a [[judgmental equality]] instead of an identification in the uniqueness rule yields [[equality reflection]], because by the properties of [[judgmental equality]] and [[dependent sum types]], one can derive $x \equiv y$ from $(x, \mathrm{refl}_A(x)) \equiv (y, p)$. 
+
+As a result, if one wants to have a homotopically well-behaved notion of identity type with no [[uniqueness of identity proofs]] or [[equality reflection]], one has to use the typal uniqueness rules with [[identity types]] instead of [[judgmental equality]], from which one can prove the typal J-rules of identity types. 
+
+These identity types can be called **negative identity types**, in contrast to the usual identity types in Martin-Löf type theory, which can be called **positive identity types**.
 
 ### Dependent universal property
 
