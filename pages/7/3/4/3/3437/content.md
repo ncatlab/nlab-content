@@ -29,6 +29,7 @@ In any case, given a universe $U$, we say that a [[collection]] is **$U$-small**
 *  [[small category]], [[essentially small category]], [[large category]]
 *  [[Set]], [[Cat]], [[michaelshulman:category of all sets]]
 *  [[small presheaf]], [[accessible category]], [[presentable category]]
+*  [[resizing axiom]]
 
 [[!redirects size]]
 
