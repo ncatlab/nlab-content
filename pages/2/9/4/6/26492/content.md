@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Equality and Equivalence
++--{: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
@@ -7,9 +21,9 @@ The **principle of [[interval type]] localization** states that for all types $A
 $$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:\mathbb{I}.x:A \to (\mathbb{I} \to A)$$
 is an [[equivalence of types]].
 
-There is also a **definitional interval type localization** which says that the function
+In [[extensional type theory]], there is also a **definitional interval type localization** which says that the function
 $$\mathrm{const}_{A, \mathbb{I}} \equiv \lambda x:A.\lambda i:\mathbb{I}.x:A \to (\mathbb{I} \to A)$$
-is a [[definitional isomorphism]]. The usual notion of interval type localization can be called **propositional interval type localization**. 
+is a [[definitional isomorphism]]. The usual notion of interval type localization can be called **propositional interval type localization** or **typal interval type localization**. 
 
 One has the following analogies between localization at a specific type and the type theoretic letter rule that it proves:
 
@@ -67,35 +81,50 @@ Syntactically, this is given by the following [[inference rules]]:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash f:\mathbb{I} \to A}{\Gamma \vdash \mathrm{topath}_\mathbb{I}^A(f(0), f(1), \mathrm{toId}_A(f)) \equiv f:\mathbb{I} \to A}$$
 
-Then **$\mathrm{I}$-localization** is given by the following axiom:
+Then **$\mathbb{I}$-localization** is given by the following axiom:
 
 $$\prod_{A:\mathrm{type}} \sum_{g:(\mathbb{I} \to A) \to A} \left(\prod_{x:A} g(\lambda i:\mathbb{I}.x) =_A x\right) \times \left(\prod_{p:\mathbb{I} \to A} \lambda i:\mathbb{I}.g(p) =_{\mathbb{I} \to A} p\right)$$
 
 While this states that $\mathrm{const}_{A, \mathbb{I}}$ is only a [[quasi-invertible function]], it is well known that every quasi-invertible function can be made into a [[coherently invertible function]] by constructing a new [[section]] or [[retraction]] which satisfies a suitable family of [[naturality squares]]. 
 
-If the dependent type theory does not have [[type universes]], then the axiom of $\mathrm{I}$-localization needs to be expressed as an inference rule:
+If the dependent type theory does not have [[type universes]], then the axiom of $\mathbb{I}$-localization needs to be expressed as an inference rule:
 
 $$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma \vdash \sum_{g:(\mathbb{I} \to A) \to A} \left(\prod_{x:A} g(\lambda i:\mathbb{I}.x) =_A x\right) \times \left(\prod_{p:\mathbb{I} \to A} \lambda i:\mathbb{I}.g(p) =_{\mathbb{I} \to A} p\right)}$$
 
 and if the dependent type theory does not have [[dependent sum types]], then this would have to be expressed as three separate rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{A, \mathrm{I}}^{-1}(p):A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{A, \mathbb{I}}^{-1}(p):A}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \beta_{\mathbb{I} \to A}(x):\mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x) =_{A} x}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \beta_{\mathbb{I} \to A}(x):\mathrm{const}_{A, \mathbb{I}}^{-1}(\lambda i:\mathbb{I}.x) =_{A} x}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \eta_{\mathbb{I} \to A}(p):\lambda i:\mathbb{I}.\mathrm{const}_{A, \mathrm{I}}^{-1}(p) =_{\mathbb{I} \to A} p}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \eta_{\mathbb{I} \to A}(p):\lambda i:\mathbb{I}.\mathrm{const}_{A, \mathbb{I}}^{-1}(p) =_{\mathbb{I} \to A} p}$$
 
-**Definitional $\mathrm{I}$-localization** is given by the following rules:
+## Definitional interval localization
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{A, \mathrm{I}}^{-1}(p):A}$$
+In [[extensional type theory]], there is a version of $\mathbb{I}$-localization called **definitional $\mathbb{I}$-localization** or **judgmental $\mathbb{I}$-localization**, which says that $\mathrm{const}_{A, \mathbb{I}}$ is a [[definitional isomorphism]]. Definitional $\mathbb{I}$-localization is given by the following rules:
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x:A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \mathrm{const}_{A, \mathbb{I}}^{-1}(p):A}$$
 
-$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathrm{I}}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, x:A \vdash \mathrm{const}_{A, \mathbb{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x:A}$$
 
-This makes $\mathrm{const}_{A, \mathbb{I}}$ into a [[definitional isomorphism]], which is always a coherently invertible function.
+$$\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, p:\mathbb{I} \to A \vdash \lambda i:\mathbb{I}.\mathrm{const}_{A, \mathbb{I}}^{-1}(p) \equiv p:\mathbb{I} \to A}$$
 
-### Interval type localization implies the J-rule
+The usual notion of $\mathbb{I}$-localization implies definitional $\mathbb{I}$-localization in extensional type theory by [[equality reflection]]. On the other hand, one can prove equality reflection from definitional $\mathbb{I}$-localization. 
+
+\begin{theorem}
+Definitional $\mathbb{I}$-localization implies [[equality reflection]]. 
+\end{theorem}
+
+\begin{proof}
+Given $x:A$, $y:A$, and $p:x =_A y$, by the [[recursion principle]] of the [[interval type]], we have a function $\mathrm{rec}_{\mathbb{I}, A}(x, y, p):\mathbb{I} \to A$. By definitional $\mathbb{I}$-localization and the recursion principle of the [[interval type]], we have an element 
+$$f(x, y, p) \coloneqq \mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)):A$$
+such that 
+$$f(x, y, p) \equiv \mathrm{const}_{A, \mathbb{I}}(f(x, y, p), 0) \equiv \mathrm{rec}_{\mathbb{I}, A}(x, y, p, 0) \equiv x$$
+$$f(x, y, p) \equiv \mathrm{const}_{A, \mathbb{I}}(f(x, y, p), 1) \equiv \mathrm{rec}_{\mathbb{I}, A}(x, y, p, 1) \equiv y$$
+hence, we can derive by the [[inference rules]] for [[judgmental equality]] that $x \equiv y$, which is precisely equality reflection.
+\end{proof}
+
+As a result, definitional $\mathbb{I}$-localization is a principle that distinguishes [[extensional type theory]] from [[intensional type theories]]. 
 
 The [[function application to identifications]] can be defined without the use of path induction:
 
@@ -116,15 +145,15 @@ Then path induction for function types out of the interval type holds: given any
 \begin{proof}
 $\mathrm{ind}_{\mathbb{I} \to A}(t)$ is defined to be
 
-$$\mathrm{ind}_{\mathbb{I} \to A}(t) \equiv \lambda p:\mathbb{I} \to A.t(\mathrm{const}_{A, \mathrm{I}}^{-1}(p))$$
+$$\mathrm{ind}_{\mathbb{I} \to A}(t) \equiv \lambda p:\mathbb{I} \to A.t(\mathrm{const}_{A, \mathbb{I}}^{-1}(p))$$
 
 and by the computation rules of path types as negative copies, one has that for all $x:A$, 
 
-$$\mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x$$
+$$\mathrm{const}_{A, \mathbb{I}}^{-1}(\lambda i:\mathbb{I}.x) \equiv x$$
 
 and so by definition of $\mathrm{ind}_{\mathbb{I} \to A}(t)$ and the judgmental congruence rules for substitution, one has
 
-$$\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(\mathrm{const}_{A, \mathrm{I}}^{-1}(\lambda i:\mathbb{I}.x)) \equiv t(x)$$
+$$\mathrm{ind}_{\mathbb{I} \to A}(t, \lambda i:\mathbb{I}.x) \equiv t(\mathrm{const}_{A, \mathbb{I}}^{-1}(\lambda i:\mathbb{I}.x)) \equiv t(x)$$
 \end{proof}
 
 \begin{theorem}
@@ -163,6 +192,8 @@ $$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x \quad \mathrm{rec}_{\mathbb
 
 ## Related concepts
 
+* [[extensional type theory]]
+
 * [[identity type]], [[J-rule]]
 
 * [[loop space type]], [[K-rule]], [[circle type localization]]
@@ -174,3 +205,11 @@ $$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x \quad \mathrm{rec}_{\mathbb
 [[!redirects axiom of interval type localization]]
 [[!redirects axiom of I localization]]
 [[!redirects axiom of I-localization]]
+
+[[!redirects definitional interval type localization]]
+[[!redirects definitional I localization]]
+[[!redirects definitional I-localization]]
+
+[[!redirects judgmental interval type localization]]
+[[!redirects judgmental I localization]]
+[[!redirects judgmental I-localization]]
