@@ -46,7 +46,6 @@ We work in a [[dependent type theory]] with [[identity types]], [[function types
 
 There are multiple notions of [[equivalence types]] in [[dependent type theory]], which can be used for a definition of univalence for a [[type universe]] $U$; these include
 
-* [[definitional isomorphism types]]
 * various notions of (weak) [[equivalence types]]
   * the type of [[functions]] with [[contractible type|contractible]] [[fiber type|fibers]]
   * the type of [[spans]] with contractible fibers
@@ -91,36 +90,6 @@ $$x:A, y:A, r:R(x, y) \vdash G(x, y):\mathrm{idtofam}(x, y, \mathrm{ua}(x, y, r)
 
 See [[fundamental theorem of identity types]] for proofs that these definitions are the same. 
 
-Traditional [[homotopy type theory]] uses the type of functions with contractible fibers for both $\simeq$ and $R$, while [[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $R$ and the type of [[definitional isomorphisms]] for $\simeq$. 
-
-### Stricter versions of univalence
-
-There are stricter versions of univalence, where we replace the [[equivalence of types]] between the identity type $A =_U B$ and the type of equivalences of the universe $A \simeq B$ in the univalence axioms with some notion of [[equality]], such as [[judgmental equality]], [[propositional equality]], and [[typal equality]]. 
-
-1. In any [[dependent type theory]] with [[judgmental equality]], given a [[type universe]] $U$, one could replace the equivalence of types in the definition of univalence with a [[judgmental equality]] of types. This results in **judgmental univalence**, which states that for all small types $A:U$ and $B:U$, one could judge that $(A =_U B) \equiv (A \simeq B) \; \mathrm{type}$.
-
-2. Similarly, in the context of any [[logic over type theory]] with [[propositional equality]], given a [[type universe]] $U$, one could replace the equivalence of types in the definition of univalence with a [[propositional equality]] of types. This results in **propositional univalence**, which states that for all small types $A:U$ and $B:U$, $(A =_U B) \equiv (A \simeq B) \; \mathrm{true}$.
-
-3. Finally, if we are working inside a [[Tarski universe]] $(\mathcal{V}, \mathcal{T})$, then given an internal [[Tarski universe]] $U:\mathcal{V}$ with $T:\mathcal{T}(U) \to \mathcal{V}$, one could replace the equivalence of types in the definition of univalence with a [[typal equality]] of types. This results in **typal univalence**, which states that for all small types $A:\mathcal{T}(U)$ and $B:\mathcal{T}(U)$, there is an [[identification]] $\mathrm{ua}(A, B):(T(A) =_U T(B)) =_{\mathcal{V}} (T(A) \simeq_{\mathcal{V}} T(B))$.
-
-Each of these imply the usual versions of univalence either through the structural rules for [[judgmental equality]] and [[propositional equality]], or through [[identification elimination]], [[transport]], and [[action on identifications]] for [[typal equality]]. 
-
-### Rules for judgmentally univalent universes
-
-With judgmentally univalent Tarski universes $(U, T)$, identities $p:A =_U B$ are [[equivalences of types]] $A$ and $B$. Namely, given [[function types]] and the [[isEquiv]] type family, one could add rules to the type theory which says that $A =_U B$ behaves as an [[equivalence type]]:
-
-Introduction rules:
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma \vdash y:\mathrm{isEquiv}(f)}{\Gamma \vdash \mathrm{equiv}(f, y):A =_U B}$$
-
-Elimination rules:
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z]}{\Gamma, z:A =_U B \vdash \mathrm{ind}_{A =_U B}^C(c):C}$$
-
-Computation rules:
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z]}{\Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash \beta_{A =_U B}^C(c):\mathrm{ind}_{A =_U B}^C(c)[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{equiv}(f, y)/z]} c}$$
-
-Uniqueness rules:
-$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z] \quad \Gamma, z:A =_U B \vdash u:C \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash i_\mathrm{in}(u):u[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:A =_U B \vdash \eta_{A =_U B}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{A =_U B}^C(c)[e/z]}$$
-
 ### Weaker versions of univalence
 
 In the context of [[function extensionality]], Ian Orton and Andrew Pitts showed [here](http://types2017.elte.hu/proc.pdf#page=93) that the univalence axiom can be simplified to the following special cases:
@@ -138,6 +107,15 @@ In the context of [[function extensionality]], Ian Orton and Andrew Pitts showed
 This is weaker than univalence because in the absense of [[function extensionality]], it is no longer possible to prove univalence from this set of axioms. 
 
 In addition, unlike the definitions above, this definition of univalence cannot be generalized to [[reflexive graphs]]. 
+
+### Resizing the identity types
+
+Due to the usual [[univalence axiom]], we know that it is consistent to [[resize]] the [[identity types]] of a universe $U$ to be $U$-[[small type|small]]. 
+
+Resizing the identity types allows for one more version of univalence, where we replace the [[equivalence of types]] between the identity type $A =_U B$ and the type of equivalences of the universe $A \simeq B$ in the univalence axioms with the [[identity type]] of the universe $U$, resulting in the statement that for all small types $A:U$ and $B:U$, there is an [[identification]] 
+$$\mathrm{ua}(A, B):(T(A) =_U T(B)) =_{U} (T(A) \simeq T(B))$$
+
+This implies the usual version of internal univalence either through [[identification elimination]], [[transport]], and [[action on identifications]] for the [[identity type]]. On the other hand, the usual version of univalence implies this version of univalence by repeated applications of univalence. 
 
 ### Internal univalence
 
@@ -166,6 +144,36 @@ This is not definable for [[strongly predicative]] [[type universes]], since [[s
 In addition, the internal and external versions of univalence imply each other. In order to show that the two axioms imply each other, we need to show that there is an [[identification]] 
 $$i(p):\mathrm{canonical}_\simeq(A, B)(\mathrm{idtoequiv}(A, B)(p)) =_{T(A) \simeq T(B)}  \mathrm{trans}^{T}(A, B)(p)$$
 for all identifications $p:A =_U B$. By the [[J rule]] it is enough to show that $\mathrm{canonical}_\simeq(A, A)$ maps the identity equivalence of $T(A \simeq_U^\mathrm{in} A)$ to the identity equivalence in $T(A) \simeq T(A)$. Since the identity equivalence in $T(A \simeq_U^\mathrm{in} A)$ is just the [[identity function]] $\mathrm{canonical}_\simeq^{-1}(A, A)(\lambda x.x)$ the above statement is always true. Thus, if the universe is closed under [[identity types]], [[dependent product types]], and [[dependent sum types]] the two univalence axioms imply each other and both define the same notion of univalent universe. 
+
+## Stricter variants of univalence
+
+There are a few variants of univalence that are stricter than the usual axiom of univalence in that they use [[judgmental equalities]] and thus have to be expressed as (possibly multiple) [[inference rules]] instead of an [[axiom]]. 
+
+### Using definitional isomorphism
+
+There is a variant of univalence called **definitional univalence** or **judgmental univalence**, which says that for $x:A$ and $y:A$, the function $\mathrm{idtofam}(x, y)$  inductively defined in the previous section is a [[definitional isomorphism]] instead of an [[equivalence of types]]. 
+
+Unlike the case for the usual typal variant of univalence, where one can use an element of an [[equivalence type]], we cannot use definitional isomorphisms as elements of [[definitional isomorphism types]] to express definitional univalence, because the large recursion principle of the [[interval type]] together with [[definitional isomorphism types]] implies [[equality reflection]], which contradicts univalence. 
+
+[[Mike Shulman]]'s model of [[higher observational type theory]] uses the type of $U$-small one-to-one correspondences for $R$ in definitional univalence. 
+
+### Using judgmental equality of types
+
+There is another variant of univalence where we replace the [[equivalence of types]] between the identity type $A =_U B$ and the type of equivalences of the universe $A \simeq B$ in the univalence axioms with [[judgmental equality of types]], resulting in the statement that for all small types $A:U$ and $B:U$, one could judge that $(A =_U B) \equiv (A \simeq B) \; \mathrm{type}$. This implies the usual version of univalence through the structural rules for [[judgmental equality]]. The interpretation of such a univalent universe is that [[identifications]] of universes *are* [[equivalences of types]]. 
+
+Such univalent Tarski universes $(U, T)$ can be defined directly using inference rules instead of a judgmental equality, which say that identities $p:A =_U B$ are [[equivalences of types]] $A$ and $B$. Namely, given [[function types]] and the [[isEquiv]] type family, one could add rules to the type theory which says that $A =_U B$ behaves as an [[equivalence type]]:
+
+Introduction rules:
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma \vdash y:\mathrm{isEquiv}(f)}{\Gamma \vdash \mathrm{equiv}(f, y):A =_U B}$$
+
+Elimination rules:
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z]}{\Gamma, z:A =_U B \vdash \mathrm{ind}_{A =_U B}^C(c):C}$$
+
+Computation rules:
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z]}{\Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash \beta_{A =_U B}^C(c):\mathrm{ind}_{A =_U B}^C(c)[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{equiv}(f, y)/z]} c}$$
+
+Uniqueness rules:
+$$\frac{\Gamma \vdash A:U \quad \Gamma \vdash B:U \quad \Gamma, x:T[A/X] \vdash f:T[B/X] \quad \Gamma, z:A =_U B \vdash C \; \mathrm{type} \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash c:C[\mathrm{equiv}(f, y)/z] \quad \Gamma, z:A =_U B \vdash u:C \quad \Gamma, x:T[A/X], f:T[B/X], y:\mathrm{isEquiv}(f) \vdash i_\mathrm{in}(u):u[\mathrm{equiv}(f, y)/z] =_{C[\mathrm{in}(x, y)/z]} c}{\Gamma, e:A =_U B \vdash \eta_{A =_U B}^C(c):u[e/z] =_{C[e/z]} \mathrm{ind}_{A =_U B}^C(c)[e/z]}$$
 
 ## In categorical semantics
  {#InCategoricalSemantics}
@@ -417,6 +425,10 @@ $$\frac{\Gamma \; \mathrm{ctx}}{\Gamma \vdash \mathrm{ua}:\Pi A.\Pi B.\mathrm{is
 
 Unlike the other presentation of dependent type theory in terms of universes, in this presentation of dependent type theory with a type judgment and type variables, it *is consistent* to assume both the [[univalence axiom]] and an [[axiom of set truncation]] like [[UIP]] or [[axiom K]], since here there is no universe, provided one doesn’t have any higher types, such as the circle type. 
 
+There is one other version of univalence, where we replace the [[equivalence of types]] between the identity type $A = B$ and the type of equivalences of the universe $A \simeq B$ in the univalence axioms with the [[identity type]], resulting in the statement that for all small types $A$ and $B$, there is an [[identification]] $\mathrm{ua}(A, B):(A = B) = (A \simeq B)$.
+
+This implies the usual version of univalence either through [[identification elimination]], [[transport]], and [[action on identifications]] for the [[identity type]]. 
+
 ## Related concepts
 
 * [[resizing axiom]]
@@ -641,5 +653,8 @@ Some discussion about the univalence axiom in [[dependent type theory with type 
 [[!redirects typal universe extensionality]]
 
 [[!redirects definitional univalence]]
-
+[[!redirects definitionally univalent]]
+[[!redirects definitionally univalent universe]]
+[[!redirects definitionally univalent universes]]
+[[!redirects definitional universe extensionality]]
 
