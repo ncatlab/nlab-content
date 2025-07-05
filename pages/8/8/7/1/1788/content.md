@@ -7,6 +7,10 @@
 
 \linebreak
 
-"`\slash{D}`" renders as "$\slash{D}$"
+The following seems to come out as intended with Firefox but not with Chrome:
+
+* "`$\slash{D}$`" renders as "$\slash{D}$"
+
+* "`$D\!\!\!\!\!/$`" renders as "$D\!\!\!\!\!/$"
 
 \linebreak
