@@ -276,7 +276,11 @@ Finally, we present the typal congruence rule for the formation rule of function
 
 \begin{theorem}
 Given types $A$ and $A'$ and type families $x:A \vdash B(x)$, $x:A' \vdash B'(x)$ and [[definitional isomorphisms]] $e_A:A \cong A'$ and dependent function $e_B:\prod_{x:A} B(x) \cong B'(e_A(x))$ consisting of a family of definitional isomorphisms, there is a definitional isomorphism 
-$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \cong \left(\prod_{x:A'} B'(x)\right)$$
+$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \to \left(\prod_{x:A'} B'(x)\right)$$
+
+with definitional inverse function
+
+$$\mathrm{congform}(e_A, e_B)^{-1}:\left(\prod_{x:A'} B'(x)\right) \to \left(\prod_{x:A} B(x)\right)$$
 \end{theorem}
 
 \begin{proof}
@@ -363,7 +367,7 @@ $$\mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(f)) \equiv f$$
 
 for all $f:\prod_{x:A'} B'(x)$. 
 
-Since we have functions
+Thus, we have a [[definitional isomorphism]] consisting of functions
 
 $$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \to \left(\prod_{x:A'} B'(x)\right)$$ 
 
@@ -374,16 +378,9 @@ and families of judgmental equalities
 $$f:\prod_{x:A} B(x) \vdash \mathrm{congform}(e_A, e_B)^{-1}(\mathrm{congform}(e_A, e_B)(f)) \equiv f:\prod_{x:A} B(x)$$
 
 $$g:\prod_{x:A'} B'(x) \vdash \mathrm{congform}(e_A, e_B)(\mathrm{congform}(e_A, e_B)^{-1}(g)) \equiv g:\prod_{x:A'} B'(x)$$
-
-we could form the definitional isomorphism 
-
-$$\mathrm{toEquiv}(\mathrm{congform}(e_A, e_B), \mathrm{congform}(e_A, e_B)^{-1}):\left(\prod_{x:A'} B'(x)\right) \cong \left(\prod_{x:A} B(x)\right)$$
-
-By a common abuse of notation we denote the definitional isomorphism by the same name as the underlying function $\mathrm{congform}(e_A, e_B)$; thus we have 
-$$\mathrm{congform}(e_A, e_B):\left(\prod_{x:A} B(x)\right) \cong \left(\prod_{x:A'} B'(x)\right)$$
 \end{proof}
 
-##### Using weak equivalences of types
+##### Using equivalences of types
 
 \begin{theorem}
 Given types $A$ and $A'$ and type families $x:A \vdash B(x)$, $x:A' \vdash B'(x)$ and equivalence $e_A:A \simeq A'$ and dependent function $e_B:\prod_{x:A} B(x) \simeq B'(e_A(x))$, there is an equivalence 
