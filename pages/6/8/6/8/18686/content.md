@@ -25,33 +25,36 @@ $$
 
 such that $f(v)\cdot f(v) = \langle v,v\rangle \cdot 1 \in  Cl_{(V,\langle -,-\rangle)}$.
 
-Now let $\left( x^\mu\right)_{\mu = 1}^{dim(V)}$ be a [[linear basis]] for $V$, so that every vector $A \in V$ may be expanded, using the [[Einstein summation convention]], as
+Now let $\left( x^\mu\right)_{\mu = 1}^{dim(V)}$ be a [[linear basis]] for $V$, so that every vector $D \in V$ may be expanded, using the [[Einstein summation convention]], as
 
 $$
-  A = A_\mu x^\mu
+  D \,=\, D_\mu x^\mu
   \,,
 $$
 
-and let $\left( \gamma^\mu \coloneqq f(x^\mu)\right)$ be the corresponding generators of the [[Clifford algebra]], then this map is given by
+and let $\left( \gamma^\mu \coloneqq f(x^\mu)\right)$ be the corresponding generators of the [[Clifford algebra]]. Then this map is given by
 
 $$  
-  A \mapsto A_\mu \gamma^\mu
+  D \,\mapsto\, D_\mu \gamma^\mu
   \,.
 $$
 
 This particular class of instances of the [[Einstein summation convention]] on the right is further abbreviated with a slash as
 
 $$
-  \slash{A} \coloneqq A_\mu \gamma^\mu
+  \slash{D} \,\coloneqq\, D_\mu \gamma^\mu
   \,.
 $$
 
 This is the __Feynman slash notation__.
 
-Similarly in [[quantum field theory]], the [[Dirac operator]] on [[Minkowski spacetime]] may be expanded as $i \gamma^\mu \frac{\partial}{\partial x^\mu}$ and this is then similarly abbreviated as
+Concretely, in [[quantum field theory]], the [[Dirac operator]] on [[Minkowski spacetime]] may be expanded as $\mathrm{i} \gamma^\mu \frac{\partial}{\partial x^\mu}$ and this is then similarly abbreviated as
 
 $$
-  i \slash{\partial} \coloneqq i \gamma^\mu \frac{\partial}{\partial x^\mu}
+  \mathrm{i} \slash{\partial} 
+    \;\coloneqq\; 
+  \mathrm{i} \gamma^\mu \frac{\partial}{\partial x^\mu}
+  \,.
 $$
 
 
