@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -47,6 +48,8 @@ $$
 $$
 
 This is the __Feynman slash notation__.
+
+> (Chrome users beware that the `\slash{...}` command used in the previous line may not be currently rendering in that browser.)
 
 Concretely, in [[quantum field theory]], the [[Dirac operator]] on [[Minkowski spacetime]] may be expanded as $\mathrm{i} \gamma^\mu \frac{\partial}{\partial x^\mu}$ and this is then similarly abbreviated as
 
