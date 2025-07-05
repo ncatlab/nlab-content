@@ -654,13 +654,14 @@ It follows in particular that:
 
 At the same time, the [[evaluation]] [[homotopy fiber sequence]] which characterizes the based [[loop space]]
 
-$$
+\[
+  \label{EvaluationFibrationForLS2}
   \Omega S^2 
     \longrightarrow 
   \mathcal{L}S^2
     \xrightarrow{\; ev \;}
   S^2
-$$
+\]
 
 induces the [[long exact sequence of homotopy groups]] which reads in parts:
 
@@ -708,6 +709,63 @@ comparison with (eq:RationalFundamentalGroupsOfLS2) implies the first claim (eq:
 Incidentally, note that the second statement of Cor. \ref{FundamentalGroupAnd1HomologyOfLS2} is compatible with that single generator of degree 1 in (eq:SullivanModelForLS2) being closed, according to (eq:DifferentialInSullivanModelForLS2), implying as such already that $H_1(\mathcal{L}S^2; \mathbb{Q}) \simeq \mathbb{Q}$.
 \end{remark}
 
+Continuing in this manner:
+\begin{corollary}\label{SecondHomotopyGroupOfLS2}
+$$
+  \pi_2 \mathcal{L}S^2
+  \;\simeq\;
+  \mathbb{Z}^2
+$$
+\end{corollary}
+\begin{proof}
+The argument is analogous to the previous one, so we will be more brief:
+
+The relevant part of the [[long exact sequence of homotopy groups]] induced by the evaluation fiber sequence (eq:EvaluationFibrationForLS2) now is
+$$
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_3(S^2)
+  }}
+  \longrightarrow
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_2 \Omega S^2
+  }}
+  \longrightarrow
+    \pi_2 \mathcal{L} S^2
+  \longrightarrow
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_2 S^2
+  }}
+  \longrightarrow
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_1 \Omega S^2
+  }}
+  \xrightarrow{\phantom{-} \sim \phantom{-}}
+  \underset{\mathbb{Z}}{\underbrace{
+    \pi_1 \mathcal{L} S^2
+  }}
+  \,,
+$$
+where on the right we are using the isomorphism established in the previous corollary. This truncates to a [[short exact sequence]]
+$$
+  0 
+    \longrightarrow
+  \mathbb{Z}/n
+    \longrightarrow
+  \pi_2 \mathcal{L} S^2
+    \longrightarrow
+  \mathbb{Z}
+    \longrightarrow
+  0
+$$
+for some $n \in \mathbb{Z}$. It follows that 
+$$
+  \pi_2 \mathcal{L}S^2
+  \;\simeq\;
+  (\mathbb{Z}/n) \times \mathbb{Z}
+  \,.
+$$
+This is compatible with the Sullivan model (eq:SullivanModelForLS2) for $\mathcal{L}S^2$ having two generators in degree 2, only if $n = 0$, and hence the claim follows.
+\end{proof}
 
 
 \linebreak
