@@ -98,6 +98,26 @@ $$\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)) \eq
 hence, we can derive by the [[inference rules]] for [[judgmental equality]] that $x \equiv y$, which is precisely equality reflection.
 \end{proof}
 
+\begin{theorem}
+In the presence of the large recursion principle of the [[interval type]], [[definitional isomorphism types]] imply [[equality reflection]]. 
+\end{theorem}
+
+\begin{proof}
+In the presence of definitional isomorphism types and the [[inductively defined]] [[identity types]], [[transport]] can be defined as definitional isomorphism via the [[J-rule]], since the [[identity function]] or [[identity equivalence]] is a definitional isomorphism and thus one can apply the J-rule to reflexivity to get the identity as a definitional isomorphism:
+
+$$x:A, y:A, p:x =_A y \vdash \mathrm{ind}_{\mathrm{Id}}^{A, B(x) \cong B(y)}(p):B(x) \cong B(y)$$ 
+
+$$x:A \vdash \mathrm{ind}_{\mathrm{Id}}^{A, B(x) \cong B(x)}(\mathrm{refl}_A(x)) \equiv \mathrm{toDefIso}(\chi:A.\chi, \chi:A.\chi):B(x) \cong B(x)$$ 
+
+By large recursion of the interval, given two types $A$ and $B$ and an [[equivalence of types]] $e:A \simeq B$, one can construct an interval-indexed type family $(\mathrm{rec}_{\mathbb{I}}^{A, B, e}(x))_{x:\mathbb{I}}$ such that $\mathrm{rec}_{\mathbb{I}}^{A, B, e}(0) \equiv A$, $\mathrm{rec}_{\mathbb{I}}^{A, B, e}(1) \equiv B$, and $q:\mathrm{tr}_{\mathrm{rec}_{\mathbb{I}}^{A, B, e}}(p) =_{A \simeq B} e$. With definitional isomorphism types, the equivalences can be strictified to definitional isomorphisms by 
+$$\mathrm{ind}_{\mathrm{Id}}^{\mathbb{I}, \mathrm{rec}_{\mathbb{I}}^{A, B, e}(0) \cong \mathrm{rec}_{\mathbb{I}}^{A, B, e}(1)}(p):A \cong B$$
+This implies that for all types $A$, the equivalence 
+$$\mathrm{const}_{\mathbb{I}, A} \coloneqq \lambda x:A.\lambda i:\mathbb{I}.x:A \simeq (\mathbb{I} \to A)$$
+in [[interval type localization|$\mathbb{I}$-localization]] can be turned into the definitional isomorphism
+$$\mathrm{ind}_{\mathrm{Id}}^{\mathbb{I}, \mathrm{rec}_{\mathbb{I}}^{A, \mathbb{I} \to A, \mathrm{const}_{\mathbb{I}, A}}(0) \cong \mathrm{rec}_{\mathbb{I}}^{A, \mathbb{I} \to A, \mathrm{const}_{\mathbb{I}, A}}(1)}(p):A \cong (\mathbb{I} \to A)$$
+which is [[definitional interval type localization|definitional $\mathbb{I}$-localization]], and definitional $\mathbb{I}$-localization implies [[equality reflection]] as proven in the [[definitional interval type localization|definitional $\mathbb{I}$-localization]] and [[extensional type theory]] articles. 
+\end{proof}
+
 ### Using dependent sum types of identity types
 
 In [[extensional type theory]], there are ways of defining certain [[dependent sum types]] of [[identity type]] as a [[negative type]], which all result in equality reflection. 
