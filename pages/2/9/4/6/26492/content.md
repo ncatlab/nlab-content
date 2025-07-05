@@ -117,10 +117,10 @@ Definitional $\mathbb{I}$-localization implies [[equality reflection]].
 
 \begin{proof}
 Given $x:A$, $y:A$, and $p:x =_A y$, by the [[recursion principle]] of the [[interval type]], we have a function $\mathrm{rec}_{\mathbb{I}, A}(x, y, p):\mathbb{I} \to A$. By definitional $\mathbb{I}$-localization and the recursion principle of the [[interval type]], we have an element 
-$$f(x, y, p) \coloneqq \mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)):A$$
+$$\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)):A$$
 such that 
-$$f(x, y, p) \equiv \mathrm{const}_{A, \mathbb{I}}(f(x, y, p), 0) \equiv \mathrm{rec}_{\mathbb{I}, A}(x, y, p, 0) \equiv x$$
-$$f(x, y, p) \equiv \mathrm{const}_{A, \mathbb{I}}(f(x, y, p), 1) \equiv \mathrm{rec}_{\mathbb{I}, A}(x, y, p, 1) \equiv y$$
+$$\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)) \equiv \mathrm{const}_{A, \mathbb{I}}(\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)), 0) \equiv \mathrm{rec}_{\mathbb{I}, A}(x, y, p, 0) \equiv x$$
+$$\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)) \equiv \mathrm{const}_{A, \mathbb{I}}(\mathrm{const}_{A, \mathbb{I}}^{-1}(\mathrm{rec}_{\mathbb{I}, A}(x, y, p)), 1) \equiv \mathrm{rec}_{\mathbb{I}, A}(x, y, p, 1) \equiv y$$
 hence, we can derive by the [[inference rules]] for [[judgmental equality]] that $x \equiv y$, which is precisely equality reflection.
 \end{proof}
 
@@ -192,7 +192,7 @@ $$\mathrm{rec}_{\mathbb{I}}^{A}(x, y, p)(0) \equiv x \quad \mathrm{rec}_{\mathbb
 
 ## Related concepts
 
-* [[extensional type theory]]
+* [[intensional type theory]], [[extensional type theory]]
 
 * [[identity type]], [[J-rule]]
 
