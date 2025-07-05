@@ -56,7 +56,7 @@ At the [[special values of L-functions|special value]] $s = 1$ the series in def
 +-- {: .num_remark}
 ###### Remark
 
-The eta function of $D$ is related to the [[zeta function of an elliptic differential operator]] $H = D^2$ (regarding $D$ as a [[Dirac operator]]/[[supersymmetric quantum mechanics]]-like square root of $H$) see [below](RelationToTheZetaFunction).
+The eta function of $D$ is related to the [[zeta function of an elliptic differential operator]] $H = D^2$ (regarding $D$ as a [[Dirac operator]]/[[supersymmetric quantum mechanics]]-like square root of $H$) see [below](#RelationToTheZetaFunction).
 
 =--
 
@@ -103,8 +103,7 @@ $$
 e.g. ([M&#252;ller 94 (0.2)](#M&#252;ller94)).
 
 
-### Relation to the zeta function
- {#RelationToTheZetaFunction}
+### Relation to the zeta function {#RelationToTheZetaFunction}
 
 #### Generally
 
