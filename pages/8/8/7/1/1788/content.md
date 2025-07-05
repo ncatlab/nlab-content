@@ -7,11 +7,16 @@
 
 \linebreak
 
-The following seems to come out as intended with Firefox but not with Chrome:
+To test with with different browsers:
 
-* "`$\slash{D}$`" renders as "$\slash{D}$"
+| code | rendering |
+|------|-----------|
+| `$\slash{D}$` | $\slash{D}$ |
+| `$D\!\!\!\!\!/$` | $D\!\!\!\!\!/$ |
+| `$&#119863;&#824;$` | $&#119863;&#824;$ |
+| `$\text{&#119863;&#824;}$` | $\text{&#119863;&#824;}$ |
+| `$\text{&#8706;&#824;}$` | $\text{&#8706;&#824;}$ |
 
-* "`$D\!\!\!\!\!/$`" renders as "$D\!\!\!\!\!/$"
 
 Testing MathML code directly:
 
@@ -35,3 +40,6 @@ D̸
 d̸
 
 \linebreak
+
+
+
