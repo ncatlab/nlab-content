@@ -37,7 +37,7 @@ Observation in [[gallium arsenide]] ($GaAs$) [[semiconductor]] [heterostructures
 
 * {#VeillonEtAl24} A. Veillon et al.: *Observation of the scaling dimension of fractional quantum Hall anyons*, Nature **632** (2024) 517–521 \[<a href="https://doi.org/10.1038/s41586-024-07727-z">doi:10.1038/s41586-024-07727-z</a>\]
 
-* Bikash Ghosh, Maria Labendik, Liliia Musina, Vladimir Umansky, Moty Heiblum, David F. Mross: *Anyonic Braiding in a Chiral Mach-Zehnder Interferometer*, Nature Physics (2025) \[<a href="https://doi.org/10.1038/s41567-025-02960-3">doi:10.1038/s41567-025-02960-3</a>, [arXiv:2410.16488](https://arxiv.org/abs/2410.16488)\]
+* {#GhoshEtAl25} Bikash Ghosh, Maria Labendik, Liliia Musina, Vladimir Umansky, Moty Heiblum, David F. Mross: *Anyonic Braiding in a Chiral Mach-Zehnder Interferometer*, Nature Physics (2025) \[<a href="https://doi.org/10.1038/s41567-025-02960-3">doi:10.1038/s41567-025-02960-3</a>, [arXiv:2410.16488](https://arxiv.org/abs/2410.16488)\]
 
 
 and in [[graphene]] [heterostructures](semiconductor#ReferencesHeterostructures):
