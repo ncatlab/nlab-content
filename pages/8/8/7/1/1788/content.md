@@ -7,6 +7,35 @@
 
 \linebreak
 
+
+<div style='position: absolute; z-index:100;'>&thinsp;&thinsp;/</div>$D$
+
+<div style='position: absolute; z-index:100;'>&thinsp;/</div>$\partial$
+
+
+New MathML code:
+
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <semantics>
+    <mrow>
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow>
+          <mi>D</mi>
+          <mspace width="negativethinmathspace"></mspace>
+          <mspace width="negativethinmathspace"></mspace>
+          <mspace width="negativethinmathspace"></mspace>
+          <mspace width="negativethinmathspace"></mspace>
+          <mspace width="negativethinmathspace"></mspace>
+          <mrow>
+            <mo>/</mo>
+          </mrow>
+        </mrow>
+      </mstyle>
+    </mrow>
+  </semantics>
+</math>
+
+
 To test with with different browsers:
 
 | code | rendering |
