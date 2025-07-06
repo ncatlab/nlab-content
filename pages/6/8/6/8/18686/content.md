@@ -1,4 +1,7 @@
 
+> Beware that the notation discussed on this page -- a symbol like "$D$" or "$\partial$" with a slash "/" drawn across it -- is not properly rendered by some browsers, notably Chrome currently fails to draw the slash at all, making some formulas below appear meaningless. 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -48,8 +51,6 @@ $$
 $$
 
 This is the __Feynman slash notation__.
-
-> (Chrome users beware that the `\slash{...}` command used in the previous line may not be currently rendering in that browser.)
 
 Concretely, in [[quantum field theory]], the [[Dirac operator]] on [[Minkowski spacetime]] may be expanded as $\mathrm{i} \gamma^\mu \frac{\partial}{\partial x^\mu}$ and this is then similarly abbreviated as
 
