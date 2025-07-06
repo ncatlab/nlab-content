@@ -1,5 +1,14 @@
 
-* [webpage](http://olaf-lechtenfeld.de)
+* [personal page](http://olaf-lechtenfeld.de)
+
+* [research group page](https://www.itp.uni-hannover.de/de/ag/lechtenf/)
+
+* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Olaf_Lechtenfeld)
+
+* [inspire page](https://inspirehep.net/authors/1000839)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=fwrBs0wAAAAJ&hl=en)
+
 
 ## Selected writings
 
