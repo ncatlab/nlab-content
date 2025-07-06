@@ -114,7 +114,7 @@ Suppose that the [[law of excluded middle]] holds in the [[intuitionistic logic]
 
 Philosophically the antithesis translation positions itself at the crossroad of several approaches to "logicist metaphysics" that usually are thought to be incompatible:
 
-On the one hand, the British philosopher [[Michael Dummett]] has argued for [[intuitionistic logic]] as the _constructivist_ "logical basis of metaphysics". But if the suggestions in the concluding section of [Shulman (2022)](#Shulman2022}) are borne out and affine logic turns out as a/the viable approach to constructivist _mathematics_ this might call for a revision of constructivist _metaphysics_ as well which in the aftermath could find itself in rapprochement to _classical_ metaphysics since affine logic has an involutive negation.
+On the one hand, the British philosopher [[Michael Dummett]] has argued for [[intuitionistic logic]] as the _constructivist_ "logical basis of metaphysics". But if the suggestions in the concluding section of [Shulman (2022)](#Shulman2022}) are borne out and affine logic turns out as a/the viable approach to constructivist _mathematics_, this might call for a revision of constructivist _metaphysics_ as well—which, in the aftermath, could find itself in rapprochement to _classical_ metaphysics, since affine logic has an involutive negation.
 
 On the other hand, the construction of the antithesis model by forming pairs $(P^+,P^-)$ such that $P^+\wedge P^-\simeq 0$ looks a like a neat illustration of "speculative thinking" as suggested by [[Georg Hegel|Hegel]] who writes in the lectures on the philosophy of religion (A II):
 
