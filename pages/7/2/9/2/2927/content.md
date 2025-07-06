@@ -42,7 +42,7 @@ For any other choice of rights adjoints for the cartesian object $X$, there are 
 
 * [[Jacques Penon]], _Sous-categorie classifiee d’une 2-categorie_ (1974), [[CRAS]]
 
-* [[Carboni]], [[Kelly]], [[Wood]], _A 2-categorical approach to change of base and geometric morphisms I_ (1991) ([Numdam](http://www.numdam.org/item/?id=CTGDC_1991__32_1_47_0)), Section 5: Cartesian objects in $F$ and various morphisms between them
+* [[Aurelio Carboni]], [[Max Kelly]], [[Richard Wood]], _A 2-categorical approach to change of base and geometric morphisms I_ (1991) ([Numdam](http://www.numdam.org/item/?id=CTGDC_1991__32_1_47_0)), Section 5: Cartesian objects in $F$ and various morphisms between them
 
 [[!redirects cartesian objects]]
 
