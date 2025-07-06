@@ -8,7 +8,7 @@
 \linebreak
 
 
-<div style='position: absolute; z-index:100;'>&thinsp;&thinsp;/</div>$D$
+<div style='position: absolute; z-index:100;'>&thinsp;/</div>$D$
 
 <div style='position: absolute; z-index:100;'>&thinsp;/</div>$\partial$
 
