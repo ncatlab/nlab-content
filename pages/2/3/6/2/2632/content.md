@@ -463,7 +463,7 @@ Classical textbook accounts:
 * {#Kraus} [[Karl Kraus]], *States, Effects, and Operations -- Fundamental Notions of Quantum Theory*, Lecture Notes in Physics **190** Springer (1983) &lbrack;[doi:10.1007/3-540-12732-1](https://doi.org/10.1007/3-540-12732-1)&rbrack;
   > (emphasis on [[effect algebras]] and [[quantum operations]])
 
-* [[Jun John Sakurai]], Jim Napolitano, *Modern Quantum Mechanics*, Cambridge University Press (1985, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics)&rbrack;
+* [[Jun John Sakurai]], Jim Napolitano: *Modern Quantum Mechanics*, Cambridge University Press (1985, 2020) &lbrack;[doi:10.1017/9781108587280](https://doi.org/10.1017/9781108587280), [Wikipedia page](https://en.wikipedia.org/wiki/Modern_Quantum_Mechanics), [pdf](https://icourse.club/uploads/files/65fb4c16648d2b93f82fe3271c3381c211f2f532.pdf)&rbrack;
 
 
 More recent textbook accounts:
