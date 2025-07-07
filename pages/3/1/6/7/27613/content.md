@@ -35,6 +35,8 @@ Triangulated type theory has semantics in the [[cohesive (infinity,1)-topos|cohe
 
 * [[simplicial type]]
 
+* [[synthetic Stone duality]]
+
 ## References
 
 * {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
