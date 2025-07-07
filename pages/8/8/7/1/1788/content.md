@@ -5,6 +5,63 @@
 
 ***
 
+The *quantum of magnetic flux* is 
+
+$$
+  \phi_0 
+  \;=\;
+  \frac{h}{e}
+$$
+
+where 
+
+* $h$ is [[Planck's constant]]
+
+* $e$ is the [[charge]] of the [[electron]].
+
+In SI units this is approximately
+
+$$
+  \phi_0 
+  \;\equiv\;
+  \frac{h}{e}
+  \;\sim\;
+  \frac
+    {6.626 \times 10^{-34} \, J s}
+    {1.602 \times 10^{-19} \, C}
+  \;\sim\;
+  4.136 \times 10^{-15} \, \frac{J s}{C}
+  \;=\;
+  4.136 \times 10^{-15} \, T m^2
+  \,,
+$$
+
+where in the last step we used that 
+
+one Joule is one *Newton meter*
+
+$$
+  J 
+    \;=\;
+  N m
+$$
+
+and one Tesla is one Newton second per Coulomb meter
+
+$$
+  T 
+  \;\coloneqq\;
+  \frac
+    { N s }
+    { C m  }
+  \,.
+$$
+
+
+
+
+***
+
 * Aharonov–Bohm interference and fractional statistics in a quantum 
 Hall interferometer
 
