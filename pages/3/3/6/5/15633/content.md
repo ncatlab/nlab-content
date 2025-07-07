@@ -106,10 +106,17 @@ Further discussion:
 
 * K. Kanakoglou, C. Daskaloyannis: *Paraboson quotients. A braided look at Green ansatz and a generalization*, J. Math. Phys. **48** (2007) 113516 &lbrack;[arXiv:0901.4320](https://arxiv.org/abs/0901.4320), [doi:10.1063/1.2816258](https://doi.org/10.1063/1.2816258)&rbrack;
 
+* [[Ilya G. Kaplan]]: *Parastatistics, Fractional Statistics, and Statistics of Quasiparticles of Different Kind*, chapter 5 of: *The Pauli Exclusion Principle: Origin, Verifications, and Applications*, Wiley (2016) &lbrack;[doi:10.1002/9781118795309.ch5](http://dx.doi.org/10.1002/9781118795309.ch5), [ISBN:978-1-118-79532-3](https://www.wiley.com/en-ie/The+Pauli+Exclusion+Principle%3A+Origin%2C+Verifications%2C+and+Applications-p-9781118795323)&rbrack;
+
 * N.I. Stoilova, J. Van der Jeugt: *Partition functions and thermodynamic properties of paraboson and parafermion systems*, Physics Letters A **384** 21 (2020) 126421 &lbrack;[doi:10.1016/j.physleta.2020.126421](https://doi.org/10.1016/j.physleta.2020.126421)&rbrack;
 
 
 * Zhiyuan Wang: *Parastatistics and a secret communication challenge* &lbrack;[arXiv:2412.13360](https://arxiv.org/abs/2412.13360)&rbrack;
+
+Observation that parastatics is ruled out if statistics of [[mixed states]] is independent of coupling to any bath:
+
+* [[Manuel Mekonnen]], [[Thomas D. Galley]], [[Markus P. Mueller]]: *Invariance under quantum permutations rules out parastatistics* &lbrack;[arXiv:2502.17576](https://arxiv.org/abs/2502.17576)&rbrack;
+
 
 
 ### In quantum information theory
@@ -148,8 +155,8 @@ Claim of parastatistical [[quasiparticles]] (not to be confused with [[parafermi
 [[!redirects paraparticle]]
 [[!redirects paraparticles]]
 
-Claim that invariance under quantum permutations rules out parastatistics:
 
-* [[Manuel Mekonnen]], [[Thomas D. Galley]], [[Markus P. Mueller]], *Invariance under quantum permutations rules out parastatistics* ([arXiv:2502.17576](https://arxiv.org/abs/2502.17576))
+
+
  
 category: physics
