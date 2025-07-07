@@ -148,8 +148,7 @@ is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(\mathbb{R}^k)
 
 ## References
 
-* {#Stiefel35} [[Eduard Stiefel]], _Richtungsfelder und Fernparallelismus in
-$n$-dimensionalen Mannigfaltigkeiten_, Comment. Math. Helv. , 8(1935/6),
+* {#Stiefel35} [[Eduard Stiefel]], _Richtungsfelder und Fernparallelismus in $n$-dimensionalen Mannigfaltigkeiten_, Comment. Math. Helv. , 8(1935/6),
 3-51.
 
 * {#Yokota56} I. Yokota, _On the cells of symplectic groups_, Proc. Japan Acad. 32 (1956), 399-400.
