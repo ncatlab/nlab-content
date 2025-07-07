@@ -67,7 +67,7 @@ See at _[supergravity C-field -- shifted flux quantization condition](supergravi
 
 ## Related entries
 
-* [[flux]], [[flux tube]], [[flux compactification]], [[uncertainty of fluxes]]
+* [[flux]], [[flux tube]], [[flux quantum]], [[uncertainty of fluxes]], [[flux compactification]]
 
 * [[geometry of physics -- flux quantization]]
 
