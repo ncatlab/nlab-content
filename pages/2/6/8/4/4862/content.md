@@ -133,7 +133,7 @@ The proof is formalized therein using the [[Agda]] [[proof assistant]].  See als
 
 * The [[HoTT Book]], section 8.1
 
-* The HoTT Coq library: [theories/Spaces/Circle.v](https://github.com/HoTT/Coq-HoTT/blob/V8.18/theories/Spaces/Circle.v), [theories/Homotopy/Pi1S1.v](https://github.com/HoTT/Coq-HoTT/blob/V8.18/theories/Homotopy/Pi1S1.v)
+* The HoTT Coq-HoTT library: [theories/Spaces/Circle.v](https://github.com/HoTT/Coq-HoTT/blob/V8.18/theories/Spaces/Circle.v), [theories/Homotopy/Pi1S1.v](https://github.com/HoTT/Coq-HoTT/blob/V8.18/theories/Homotopy/Pi1S1.v)
 
 * The HoTT Agda library: [homotopy/LoopSpaceCircle.agda](https://github.com/HoTT/HoTT-Agda/blob/2.0/homotopy/LoopSpaceCircle.agda)
 
