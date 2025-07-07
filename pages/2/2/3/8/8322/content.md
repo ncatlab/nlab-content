@@ -25,7 +25,7 @@ This rule is commonly discarded in [[linguistics|natural language parsers]], suc
 
 Exactly how this looks depends on the [[logic]] used.
 
-...
+One possible formulation allows us to derive $\Gamma, B, A, \Gamma' \vdash C$ from $\Gamma, A, B, \Gamma' \vdash C$.
 
 ## Related entries
 
