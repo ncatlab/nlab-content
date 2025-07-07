@@ -88,7 +88,7 @@ where $F_\nabla$ is the [[curvature]] $(n+1)$-form.
  
   * [[flux tube]]
 
-  * [[flux quantization]]
+  * [[flux quantization]], [[flux quantum]]
 
   * [[flux compactification]]
 
