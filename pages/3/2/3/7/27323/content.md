@@ -24,6 +24,8 @@
 
 * [[synthetic algebraic geometry]]
 
+* [[triangulated type theory]]
+
 ## References
 
 * {#CCGM24} [[Felix Cherubini]], [[Thierry Coquand]], [[Freek Geerligs]], [[Hugo Moeneclaey]], *A Foundation for Synthetic Stone Duality* ([arXiv:2412.03203](https://arxiv.org/abs/2412.03203))
