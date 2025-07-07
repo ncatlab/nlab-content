@@ -38,7 +38,7 @@ Defining what a HIT is "in general" is an open research problem.  One mostly pre
 
 ## Examples
 
-All higher inductive types described below are given together with some pseudo-[[Coq]] code, which would implement that HIT if Coq supported HITs natively.
+All higher inductive types described below are given together with some pseudo-[[Rocq]] code, which would implement that HIT if Rocq supported HITs natively.
 
 ### The circle
  {#ExamplesTheCircle}
@@ -135,7 +135,7 @@ The [[quotient]] of a pure or Type-valued [[equivalence relation]]:
     | proj : A -> quotient A R
     | relate : forall (x y : A), R x y -> proj x == proj y
 
-This definition is translated into Coq from the Cubical Agda library. 
+This definition is translated into Rocq from the Cubical Agda library. 
 
 ### Disjunctions
 
@@ -307,7 +307,7 @@ in [[Cubical Agda]]:
 
 * [cubical Agda documentation](https://agda.readthedocs.io/en/v2.6.2.2.20221128/language/cubical.html): *[Higher Inductive Types](https://agda.readthedocs.io/en/v2.6.1/language/cubical.html#higher-inductive-types)*
 
-in [[Coq]]:
+in [[Rocq]]:
 
 * Bruno Barras, _Native implementation of Higher Inductive
 Types (HITs) in Coq_ [PDF](http://www.crm.cat/en/activities/documents/barras-crm-2013.pdf)
