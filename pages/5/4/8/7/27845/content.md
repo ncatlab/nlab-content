@@ -14,24 +14,23 @@
 
 ## Idea
 
-In [[electromagnetism]], the standard [[geometry of physics -- flux quantization|flux quantization]] condition ("[[Dirac charge quantization]]") implies that the [[magnetic flux]] $\Phi_\Sigma$ through a [[closed manifold|closed]] [[surface]] $\Sigma$ (which may be the [[one-point compactification]] of an [[open manifold|open]] surface if flux is constrained to [[vanishing at infinity|vanish at infinity]]) is an [[integer]] multiple $N$ of an indecomposable *quantum* of magnetic flux $\Phi_0$:
+In [[electromagnetism]], the standard [[geometry of physics -- flux quantization|flux quantization]] condition ("[[Dirac charge quantization]]") implies that the [[magnetic flux]] $\Phi_\Sigma$ through a [[closed manifold|closed]] [[surface]] $\Sigma$ (which may be the [[one-point compactification]] of an [[open manifold|open]] surface if flux is constrained to [[vanishing at infinity|vanish at infinity]]) is an [[integer]] multiple $N \in \mathbb{N}$ of an indecomposable *quantum* of magnetic flux $\Phi_0$:
 
 $$
-  \Phi_\Sigma \;=\; N \cdot \Phi_0
-  \,\;\;\;\;\;\;\;
-  N \in \mathbb{N}
+  \Phi_\Sigma 
+    \;=\; 
+  N \cdot \Phi_0
   \,.
 $$
 
 Individual magnetic flux quanta are directly observable in [[experiment]]:
 
 * in the guise of [[Abrikosov vortices]] for magnetic flux through effectively 2-dimensional type II [[superconductors]]
-
   > (since the elementary charge carries in this case are [[Cooper pairs]] of [[electrons]] what is called the flux quantum for [[superconductors]] is in fact $\tfrac{1}{2}\Phi_0$)
 
 * in the guise of [[soliton|solitonic]] [[anyon]] [[quasi-particles]] for magnetic flux through effectively 2-dimensional [[fractional quantum Hall systems]] 
 
-and, hypothetically (conditioned on the existence of [[magnetic monopoles]])
+and, hypothetically (conditioned on the existence of [[magnetic monopoles]]):
 
 * in the guise of flux through any [[2-sphere]] surrounding a  [[magnetic monopole]].
 
@@ -48,7 +47,7 @@ $$
   \,,
 $$
 
-where 
+where:
 
 * $h$ is [[Planck's constant]]
 
@@ -57,18 +56,23 @@ where
 In [SI units](physical+unit#SIUnits) this is approximately
 
 $$
+  \begin{aligned}
   \phi_0 
-  \;\equiv\;
+  &\equiv\;
   \frac{h}{e}
-  \;\sim\;
+  \\
+  &\sim\;
   \frac
     {6.626 \times 10^{-34} \, J s}
     {1.602 \times 10^{-19} \, C}
-  \;\sim\;
+  \\
+  &\sim\;
   4.136 \times 10^{-15} \, \frac{J s}{C}
-  \;=\;
+  \\
+  &=\;
   4.136 \times 10^{-15} \, T m^2
   \,,
+  \end{aligned}
 $$
 
 where in the last step we used that 
