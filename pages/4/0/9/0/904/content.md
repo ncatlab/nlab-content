@@ -379,9 +379,9 @@ Proof in [[homotopy type theory]] that the [[fundamental group of the circle is 
 
 * [[UF-IAS-2012|Univalent Foundations Project]], section 8.1 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
-the HoTT-[[Coq]]-code is at
+the HoTT-[[Rocq]]-code is at
 
-* {#Shulman} [[Mike Shulman]], _[P1S1.v](https://github.com/HoTT/HoTT/blob/master/Coq/HIT/Pi1S1.v)_
+* The HoTT Coq-HoTT library: _[Pi1S1.v](https://github.com/HoTT/Coq-HoTT/blob/master/theories/Homotopy/Pi1S1.v)_
 
 
 
