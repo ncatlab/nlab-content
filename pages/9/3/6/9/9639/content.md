@@ -52,7 +52,7 @@ $
   \,,
 $
 
-where each level comprises one state per magnetic flux quantum:
+where each level comprises one state per magnetic [[flux quantum]]:
 $
   n_{\mathrm{deg}}
   \,=\,
@@ -303,7 +303,7 @@ The density of available states (number per surface area) available in a Landau 
 
 * where $h = 2\pi \hbar$ is [[Planck's constant]],
 
-* $\Phi_0 = \frac{h}{e}$ is the *unit magnetic flux quantum*,
+* $\Phi_0 = \frac{h}{e}$ is the *unit magnetic [[flux quantum]]*,
 
 hence there us room for one electron per magnetic flux quanta.
 
@@ -463,7 +463,7 @@ Further exposition of this perspective by [Störmer 1999](#Störmer99) is quoted
 
 But [Jain 1989](#Jain89), [1992](#Jain92), [2007](#Jain07) has argued that the following alternative perspective of composite *fermions* is more compelling and in any case more general and more expressive, as it neatly captures also the correct hierarchy of filling fractions $\nu = p/q$ with $p \gt 1$:
 
-First assume that the electrons each bind to $2m$ flux quanta ($m \in \mathbb{N}$) to make composite fermions, and *then* assume that these composite fermions *themselves* show an integer quantum Hall effect at filling number $p$, hence that there are $p$ such composite fermions for each *remaining* (unbound) flux quantum.
+First assume that the electrons each bind to $2m$ flux quanta ($m \in \mathbb{N}$) to make composite fermions, and *then* assume that these composite fermions *themselves* show an integer quantum Hall effect at filling number $p$, hence that there are $p$ such composite fermions for each *remaining* (surplus, unbound) [[flux quantum]].
 
 In total then the ratio of flux quanta over electrons is 
 $$
@@ -534,16 +534,16 @@ charge—one for each [[flux quantization|flux quantum]] $\phi_0 = h/e$ of the m
     }
 \end{imagefromfile}
 
-> At magnetic fields higher than the $i = 1$ IQHE, the stronger magnetic field provides more flux quanta and hence there are more vortices than there are electrons. The Pauli principle is readily satisfied by placing one vortex onto each electron \[Fig. 14(a)\]—but there are more vortices available. The electron system can considerably reduce its electrostatic Coulomb energy by placing more vortices onto each electron \[Fig. 14(b)\]. More vortices on an electron generate a bigger surrounding whirlpool, pushing further away all fellow electrons, thereby reducing the repulsive energy. \[...\]
+> At magnetic fields higher than the $i = 1$ IQHE, the stronger magnetic field provides more [[flux quanta]] and hence there are more vortices than there are electrons. The Pauli principle is readily satisfied by placing one vortex onto each electron \[Fig. 14(a)\]—but there are more vortices available. The electron system can considerably reduce its electrostatic Coulomb energy by placing more vortices onto each electron \[Fig. 14(b)\]. More vortices on an electron generate a bigger surrounding whirlpool, pushing further away all fellow electrons, thereby reducing the repulsive energy. \[...\]
 
-> Vortices are the expression of flux quanta in the 2D electron system, and each vortex can be thought of as
-having been created by a flux quantum. Conceptually, it
+> Vortices are the expression of [[flux quanta]] in the 2D electron system, and each vortex can be thought of as
+having been created by a [[flux quantum]]. Conceptually, it
 is advantageous to represent the vortices simply by their
-"generators", the flux quanta themselves. Then the placement of vortices onto electrons becomes equivalent to the attachment of magnetic flux quanta to the carriers. Electrons plus flux quanta can be viewed as new entities, which have come to be called composite particles, CPs. 
+"generators", the [[flux quanta]] themselves. Then the placement of vortices onto electrons becomes equivalent to the attachment of [[magnetic flux quanta]] to the carriers. Electrons plus [[flux quanta]] can be viewed as new entities, which have come to be called composite particles, CPs. 
 
-> As these objects move through the liquid, the flux quanta act as an invisible shield against other electrons. Replacing the system of highly interacting electrons by a system of electrons with such a "guard ring" -- compliments of the magnetic field -- removes most of the electron-electron interaction from the problem and leads to composite particles which are almost void of mutual interactions. It is a minor miracle that such a transformation from a very complex many-particle problem of well-known objects (electrons in a magnetic field) to a much simpler single-particle problem of rather complex objects (electrons plus flux quanta) exists and that it was discovered.
+> As these objects move through the liquid, the [[flux quanta]] act as an invisible shield against other electrons. Replacing the system of highly interacting electrons by a system of electrons with such a "guard ring" -- compliments of the magnetic field -- removes most of the electron-electron interaction from the problem and leads to composite particles which are almost void of mutual interactions. It is a minor miracle that such a transformation from a very complex many-particle problem of well-known objects (electrons in a magnetic field) to a much simpler single-particle problem of rather complex objects (electrons plus [[flux quanta]]) exists and that it was discovered.
 
-> CPs act differently from bare electrons. All of the external magnetic field has been incorporated into the particles via flux quantum attachment to the electrons. Therefore, from the perspective of CPs, the magnetic field has disappeared and they no longer are subject to it. They inhabit an apparently field-free 2D plane. Yet more importantly, the attached flux quanta change the character of the particles from fermions to bosons and back to fermions. \[...\]
+> CPs act differently from bare electrons. All of the external magnetic field has been incorporated into the particles via [[flux quantum]] attachment to the electrons. Therefore, from the perspective of CPs, the magnetic field has disappeared and they no longer are subject to it. They inhabit an apparently field-free 2D plane. Yet more importantly, the attached [[flux quanta]] change the character of the particles from fermions to bosons and back to fermions. \[...\]
 
 \begin{imagefromfile}
     "file_name": "Stormer99-Fig16.jpg",
@@ -574,7 +574,7 @@ is advantageous to represent the vortices simply by their
 ### Braiding phase
  {#BraidingPhase}
 
-In an FQH system, when one quasi-hole (unpaired flux quantum) is [[quantum adiabatic theorem|adiabatically]] moved past another, hence one quasi-hole moved along *[[hemisphere|half]]* a [[circle]] centered at the other, then their joint [[quantum state]] picks up a [[Berry phase]] 
+In an FQH system, when one quasi-hole (unpaired [[flux quantum]]) is [[quantum adiabatic theorem|adiabatically]] moved past another, hence one quasi-hole moved along *[[hemisphere|half]]* a [[circle]] centered at the other, then their joint [[quantum state]] picks up a [[Berry phase]] 
 $$
   e^{ \mathrm{i}  \theta} 
 $$ 
@@ -969,8 +969,7 @@ Discussion highlighting the lack of microscopic explanation of these phenomenolo
 
 > "The so-called HH (Halperin–Haldane) model of consecutive generations of Laughlin states of anyonic quasiparticle excitations from the preceding Laughlin state has been abandoned early because of the rapid growth of the daughter quasiparticle size, which quickly exceeded the sample size."
 
->  "the Halperin multicomponent theory and of the CF model advanced the understanding of correlations in FQHE, however, on a phenomenological level only. CFs were assumed to be hypothetical quasi-particles consisting of electrons and flux quanta of an auxiliary fictitious magnetic field pinned to
-them. The origin of this field and the manner of attachment of its flux quanta to electrons have been neither explained nor discussed."
+>  "the Halperin multicomponent theory and of the CF model advanced the understanding of correlations in FQHE, however, on a phenomenological level only. CFs were assumed to be hypothetical quasi-particles consisting of [[electrons]] and [[flux quanta]] of an auxiliary fictitious magnetic field pinned to them. The origin of this field and the manner of attachment of its [[flux quanta]] to electrons have been neither explained nor discussed."
 
 Introducing **[[abelian Chern-Simons theory]]** to the picture:
 
