@@ -164,7 +164,7 @@ For situations where subobjects of $1$ generate see e.g. [Johnstone (1977, sec.5
 Let $\mathcal{T}$ be a coherent theory. Then $\mathcal{T}$ admits a [[model companion]] and $Mod(\mathcal{T})$ has the [[amalgamation property]] iff for each $B\in\mathcal{T}$ , the lattice of subobjects of $B$ admits a negation satisfying $\neg A\vee\neg\neg A = B$.
 =--
 
-This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is attributed to a preprint of [[André Joyal]] and [[Gonzalo E. Reyes]].
+This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is attributed to a preprint of [[André Joyal]] and [[Gonzalo E. Reyes]]. A proof and further discussion of the connection between the De Morgan properties and the model-theoretical [[amalgamation property]] can be found in [Caramello-Chamoun (2025)](CC25).
 
 
 ## Related entries
@@ -191,6 +191,8 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 * {#Caramello09}[[Olivia Caramello]], _De Morgan classifying toposes_ , Adv. in Math. **222** (2009) pp.2117-2144. ([arXiv:0808.1519](http://arxiv.org/abs/0808.1519))
 
 * {#Caramello12}[[Olivia Caramello]], _Topologies for intermediate logics_ , arXiv:1205.2547 (2012). ([arXiv:1205.2547](http://arxiv.org/abs/1205.2547))
+
+* {#CC25}[[Olivia Caramello]], Yorgo Chamoun, _De Morgan's law in toposes I_, arXiv:2507.01869 (2025). ([abstract](https://arxiv.org/abs/2507.01869))
 
 * {#CJ09}[[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the Theory of Fields_ , Adv. in Math. **222** (2009) pp.2145-2152. ([arXiv:0808.1572](http://arxiv.org/abs/0808.1572))
 
