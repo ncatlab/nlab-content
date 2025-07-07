@@ -25,7 +25,7 @@ __$Grp$__ is the [[category]] with [[group|groups]] as [[objects]] and [[group h
 
 Similarly there is the [[full subcategory]] $FinGrp \hookrightarrow Grp$ of [[finite groups]].
 
-More generally, if $\mathcal{C}$ is any [[category]] with [[finite products]], there is a [[category]] $Grp(\mathcal{C})$ of [[group objects]] in $\mathcal{C}$. This category if [[equivalence of categories|equivalent]] to the category $Prod(T_{Grp}, \mathcal{C})$ of product-preserving functors from the [[Lawvere theory]] for groups to $\mathcal{C}$.  For instance for $\mathcal{C} = $ [[SmthMfd]] this yields the category of [[Lie groups]]; while for $\mathcal{C} = $ [[Set]] it reduces again to the default case.
+More generally, if $\mathcal{C}$ is any [[category]] with [[finite products]], there is a [[category]] $Grp(\mathcal{C})$ of [[group objects]] in $\mathcal{C}$. This category is [[equivalence of categories|equivalent]] to the category $Prod(T_{Grp}, \mathcal{C})$ of product-preserving functors from the [[Lawvere theory]] for groups to $\mathcal{C}$.  For instance for $\mathcal{C} = $ [[SmthMfd]] this yields the category of [[Lie groups]]; while for $\mathcal{C} = $ [[Set]] it reduces again to the default case.
 
 
 ##Remarks##
