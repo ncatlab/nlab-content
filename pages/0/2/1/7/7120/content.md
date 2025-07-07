@@ -79,6 +79,16 @@ Again in good situations, less data is needed to provide the recollement.
 
 ## Examples
 
+* The prototypical example of recollement is provided by a closed-open decomposition. In this setup (which works equally well for locally compact Hausdorff spaces and schemes) there is the following diagram of inclusions.
+
+$$
+\begin{array}{ccccc}
+Z & \xhookrightarrow{i} & X & \xhookleftarrow{j} & U \\
+\end{array}
+$$
+
+Here $i$ is a _closed_ inclusion and $j$ is an _open_ inclusion. Then the categories of sheaves on $X,Z$ and $U$ fit into the recollement structure described above. The recollement structure on the category of sheaves on $X$ enables one to argue inductively about sheaves on $X.$ This idea is usually referred to as [[Noetherian induction]]. This technique allows to deduce results about higher dimensional schemes from information about lower dimensional schemes and analysis of locally standard schemes (e.g. smooth schemes for étale topology). See [Achar Exercise 1.3.4, Lemma 2.2.1](#Achar2021).
+
 * The [[forgetful functor]] from [[global equivariant stable homotopy theory]] to plain [[stable homotopy theory]] exhibits a recollement,
 
 See at _[global equivariant stable homotopy theory -- Relation to plain stable homotopy theory](global+equivariant+stable+homotopy+theory#RelationToPlainStableHomotopyTheory)_.
@@ -92,6 +102,8 @@ See at _[global equivariant stable homotopy theory -- Relation to plain stable h
 * {#FranjouPirashvili04} V. Franjou, [[T. Pirashvili]], _Comparison of abelian categories recollements_, Doc. Math. 9 (2004), 41&#8211;56, [MR2005c:18008](http://www.ams.org/mathscinet-getitem?mr=2054979), [pdf](http://www.math.uni-bielefeld.de/documenta/vol-09/03.pdf)
 
 * {#BeilinsonBernsteinDeligne82} A.A. Beilinson, J. Bernstein, [[Pierre Deligne]], _Faisceaux pervers. Analysis and topology on singular spaces_, I (Luminy, 1981), 5&#8211;171, Aste'risque 100, Soc. Math. France, Paris 1982.
+
+* {#Achar2021} P. Achar. _Perverse Sheaves and Applications to Representation Theory._ Vol. 258. Mathematical Surveys and Monographs. Providence, Rhode Island: American Mathematical Society, 2021. [doi:10.1090/surv/258](https://doi.org/10.1090/surv/258).
 
 
 In references
