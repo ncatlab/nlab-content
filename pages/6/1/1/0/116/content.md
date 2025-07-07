@@ -329,7 +329,7 @@ See also:
 
 {#TTFormalizations} Formalization of group structure in [[dependent type theory]]:
 
-in [[Coq]]:
+in [[Rocq]]:
 
 * Farida Kachapova, *Formalizing groups in type theory* &lbrack;[arXiv:2102.09125](https://arxiv.org/abs/2102.09125)&rbrack;
 
