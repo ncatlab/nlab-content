@@ -285,8 +285,7 @@ With an eye towards application in [[mathematical physics]]:
 
 Homotopy groups and their properties can naturally be formalized in [[homotopy type theory]]. In this context a proof that $\pi_1(S^1)\simeq \mathbb{Z}$ is in
 
-* {#ShulmanPi1S1} [[Mike Shulman]], _[P1S1.v](https://github.com/HoTT/HoTT/blob/master/Coq/HIT/Pi1S1.v)_
-
+* The HoTT Coq-HoTT library: _[Pi1S1.v](https://github.com/HoTT/Coq-HoTT/blob/master/theories/Homotopy/Pi1S1.v)_
 
 * [[Dan Licata]], [[Mike Shulman]], _Calculating the fundamental group of the circle in homotopy type theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/ls13pi1s1/ls13pi1s1.pdf))
 
