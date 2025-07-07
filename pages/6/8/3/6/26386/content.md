@@ -63,7 +63,7 @@ Types of a universe $U_\kappa$ in an hierarchy of universes are also types of th
 
 Some examples of type theories with a hierarchy of universes are as follows:
 
-* [[Coq]] uses a hierarchy of Russell universes. For practical purposes, it also has cumulativity, although there is some question (perhaps mainly semantic) of whether this is true internally or whether it uses casts that are simply hidden from the user.
+* [[Rocq]] uses a hierarchy of Russell universes. For practical purposes, it also has cumulativity, although there is some question (perhaps mainly semantic) of whether this is true internally or whether it uses casts that are simply hidden from the user.
 
 * [[Agda]] uses a hierarchy of non-cumulative Russell universes.
 
