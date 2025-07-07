@@ -105,7 +105,7 @@ a [[morphism]] $f \colon x \to y$ in its [[domain]] [[category]] $\mathcal{E}$ i
 A [[functor]] $p \colon \mathcal{E} \to \mathcal{B}$ is a *fibration* if for all [[objects]] $y \in \mathcal{E}$ and [[morphisms]] $f_0 \colon x_0 \to P(y)$, there is a cartesian morphism $f \colon x \to y$ (Def. \ref{CartesianMorphism}) such that $P(f) = f_0$.  
 \end{definition}
 
-Such $f$ is also called a "cartesian lifting" of $Pf$ to $y$, and a choice of cartesian lifting for every $y$ and $Pf$ is called a *[[cleavage]]*.  Thus, assuming the [[axiom of choice]], a functor is a fibration iff it admits some cleavage.
+Such $f$ is also called a "cartesian lifting" of $P(f)$ to $y$, and a choice of cartesian lifting for every $y$ and $P(f)$ is called a *[[cleavage]]*.  Thus, assuming the [[axiom of choice]], a functor is a fibration iff it admits some cleavage.
 
 \begin{remark}
 **(weakly cartesian morphisms)**
