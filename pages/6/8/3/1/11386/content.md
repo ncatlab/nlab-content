@@ -64,7 +64,7 @@ MR1000381 (90d:55014)
 
 See also 
 
-* [[Nat Stapleton]], _Power operations and the Bousfield-Kuhn functro_, in _Report of $E$-theory conjectures seminar_ (2013) ([pdf](http://math.berkeley.edu/~ericp/latex/misc/mit-ethy.pdf))
+* [[Nat Stapleton]], _Power operations and the Bousfield-Kuhn functor_, in _Report of $E$-theory conjectures seminar_ (2013) ([pdf](https://chromotopy.org/latex/misc/mit-ethy.pdf))
 
 The relation to [[topological André-Quillen cohomology]] is discussed in
 
