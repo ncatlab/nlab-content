@@ -19,7 +19,7 @@
 
 ## Idea
 
-The notion of *quantum relations* of [Weaver 2010](#Weaver10), [Weaver & Kuperberg 2011](#WeaverKuperberg11) is a "[[quantum physics|quantum]]" or [[noncommutative geometry]]/[[noncommutative measure theory]]-version of the basic notion of [[relations]] on sets.
+The notion of *quantum relations* of [Weaver 2010](#Weaver10), [Weaver & Kuperberg 2011](#WeaverKuperberg11) is a "[[quantum physics|quantum]]" or [[noncommutative geometry]]/[[noncommutative measure theory]]-version of the basic notion of [[relations]] on [[sets]].
 
 Concretely, they define a quantum relation on a [[von Neumann algebra]] $\mathcal{A}$ equipped with an embedding $\mathcal{A} \subset \mathcal{B}\mathscr{H}$ (into the [[bounded operators]] on some [[Hilbert space]]) as an operator [[bimodule]] over the [[commutant]] of $\mathcal{A}$ which is $\ast$-closed in the [[weak operator topology]], and explain why this (non-obvious) definition is sensible; for instance it has good application to [[quantum error correction]].
 
