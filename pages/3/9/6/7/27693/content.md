@@ -37,6 +37,9 @@ Similar symmetries of [[near horizon geometries]] of [[black hole spacetimes]] (
 
 * Mariano Chernicoff, Gaston Giribet, Julio Oliva: *Higher-curvature corrections and near horizon symmetries* &lbrack;[arXiv:2506.21747](https://arxiv.org/abs/2506.21747)&rbrack;
 
+See also:
+
+* Ratindranath Akhoury, Arielle Schutz, David Garfinkle: *Superrotations are Linkages* &lbrack;[arXiv:2507.04245](https://arxiv.org/abs/2507.04245)&rbrack;
 
 
 
