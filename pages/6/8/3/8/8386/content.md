@@ -79,7 +79,7 @@ $$ \mathrm{first} : \prod_{A:Type} A\times A \to A \qquad \mathrm{or} \qquad \ma
 
 Examples of parametric polymorphism in dependent type theory include [[axioms]] and [[axiom schemata]], such as [[UIP]] and [[axiom K]], [[excluded middle]], [[axiom of choice]], and the [[type theoretic axiom of replacement|axiom of replacement]] for a [[Tarski universe]]. Other examples include the [[typal equality|typal]] [[recursion|recursion principle]] of ([[higher inductive types|higher]]) [[inductive types]] that shows it to be a homotopy-[[initial object]] and the [[typal equality|typal]] [[corecursion|corecursion principle]] of ([[higher coinductive type|higher]]) [[coinductive types]] that shows it to be a homotopy-[[terminal object]]. 
 
-While all dependent type theories can be meta-theoretically proven to have parametric polymorphism, some dependent type theories have an explicit version of parametric polymorphism inside the type theory itself. These are the [[parametric dependent type theories]]. 
+Many [[dependent type theories]] satisfy a meta-theoretic version of parametric polymorphism. However, there are some dependent type theories which do not have parametric polymorphism in the meta-theoretic sense, such as dependent type theories with [[typecase]], see [here](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/Continuations.2C.20parametricity.2C.20and.20polymorphism/near/527636418). In addition some dependent type theories have an explicit version of parametric polymorphism inside the type theory itself. These are the [[parametric dependent type theories]]. 
 
 ## Related concepts
 
@@ -99,6 +99,8 @@ While all dependent type theories can be meta-theoretically proven to have param
 
 * [[parametric dependent type theory]]
 
+* [[typecase]]
+
 ## References
 
 The distinction between ad hoc and parametric polymorphism is originally due to [[Christopher Strachey]]:
@@ -116,6 +118,10 @@ Other classic papers include:
 Theorems for free were explained in:
 
 * {#Wadler89} [[Philip Wadler]], _Theorems for free!_, in Proceedings of the fourth international conference on Functional programming languages and computer architecture (FPCA 1989). 1989. ([pdf](https://www2.cs.sfu.ca/CourseCentral/831/burton/Notes/July14/free.pdf), [doi:10.1145/99370.99404](https://doi.org/10.1145/99370.99404))
+
+Some discussion on parametricity and polymorphism appears in:
+
+* {#CTZulip} *Continuations, parametricity, and polymorphism*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/Continuations.2C.20parametricity.2C.20and.20polymorphism/with/527734153))
 
 See also the references at *[[parametric dependent type theory]]* for the various notions of parametricity in various kinds of [[dependent type theories]]. 
 
