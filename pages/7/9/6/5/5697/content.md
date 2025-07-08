@@ -18,7 +18,7 @@ Review:
 
 On [[braid cobordism]] and [[triangulated categories]]:
 
-* {#KhovanovThomas07} [[Mikhail Khovanov]], [[Richard Thomas]], *Braid cobordisms, triangulated categories, and flag varieties*, Homology, Homotopy and Applications **9**(2007) 19-94 &lbrack;[arXiv:math/0609335](https://arxiv.org/abs/math/0609335), [euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-9/issue-2/Braid-cobordisms-triangulated-categories-and-flag-varieties/hha/1201127331.full)&rbrack;
+* {#KhovanovThomas07} [[Mikhail Khovanov]], [[Richard Thomas]], *Braid cobordisms, triangulated categories, and flag varieties*, Homology, Homotopy and Applications **9** (2007) 19-94 &lbrack;[arXiv:math/0609335](https://arxiv.org/abs/math/0609335), [euclid](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-9/issue-2/Braid-cobordisms-triangulated-categories-and-flag-varieties/hha/1201127331.full)&rbrack;
 
 Introducing and discussing a [[cobordism category]] of "foams" for studying [[link homology]]:
 
@@ -33,9 +33,11 @@ Introducing and discussing a [[cobordism category]] of "foams" for studying [[li
 
 Discussion of [[non-deterministic automata]] as 1-dimensional [[defect QFT|defect]] [[TQFTs]]:
 
-* Paul Gustafson, [[Mee Seong Im]], Remy Kaldawy, [[Mikhail Khovanov]], Zachary Lihn, *Automata and one-dimensional TQFTs with defects* &lbrack;[arXiv:2301.00700](https://arxiv.org/abs/2301.00700)&rbrack;
+* Paul Gustafson, [[Mee Seong Im]], Remy Kaldawy, [[Mikhail Khovanov]], Zachary Lihn, *Automata and one-dimensional TQFTs with defects*, Letters in Mathematical Physics **113** (2023), no. 5, Paper No. 93, 38 pp. &lbrack;[arXiv:2301.00700](https://arxiv.org/abs/2301.00700)&rbrack;
 
+* Paul Gustafson, [[Mee Seong Im]], [[Mikhail Khovanov]], *Boolean TQFTs with accumulating defects, sofic systems, and automata for infinite words*, Letters in Mathematical Physics **114** (2024), no. 6, Paper No. 135, 35 pp. &lbrack;[arXiv:2312.17033](https://arxiv.org/abs/2312.17033)&rbrack;
 
+* [[Mee Seong Im]], [[Mikhail Khovanov]], *From finite state automata to tangle cobordisms: a TQFT journey from one to four dimensions*, Contemporary Mathematics **817** (2025) 179-220 &lbrack;[arXiv:2309.00708](https://arxiv.org/abs/2309.00708)&rbrack;
 
 
 ## Related entries
