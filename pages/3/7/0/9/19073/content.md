@@ -23,6 +23,10 @@ On [[orbifold cohomology]] (such as [[orbifold K-theory]]):
 
 * {#PronkScull07} [[Dorette Pronk]], [[Laura Scull]], _Translation Groupoids and Orbifold Bredon Cohomology_, Canad. J. Math. 62 (2010), 614-645 ([arXiv:0705.3249](https://arxiv.org/abs/0705.3249), [doi:10.4153/CJM-2010-024-1](https://doi.org/10.4153/CJM-2010-024-1))
 
+On [[twisted Bredon cohomology]]:
+
+* Carla Farsi, [[Laura Scull]], [[Jordan Watts]]: _Twisted Bredon-Illman cohomology is a Morita invariant_ &lbrack;[arXiv:2507.03091](https://arxiv.org/abs/2507.03091)&rbrack;
+
 
 
 ## Related entries
