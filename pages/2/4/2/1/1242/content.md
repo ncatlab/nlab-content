@@ -239,7 +239,7 @@ The following are some basic lemmas that show how given a long exact sequence on
 \end{lemma}
 where by suggestive slight abuse of notation, $f_i$ denotes the evident (co-)[[extensions]].
 \begin{proof}
-  The first line immediate on ([[generalized element|generalized]]) [[elements]]: $f_{-1}$ becomes [[injective function|injective]] when [[restriction|restricted]] to $coker(f_{-2}) \equiv A_{-1}/im(f_{-2})$ and $f_{1}$ is [[surjective map|surjective]] onto its image. The second line is clearly equal to the first line by exactness.
+  The first line is immediate on ([[generalized element|generalized]]) [[elements]]: $f_{-1}$ becomes [[injective function|injective]] when [[restriction|restricted]] to $coker(f_{-2}) \equiv A_{-1}/im(f_{-2})$ and $f_{1}$ is [[surjective map|surjective]] onto its image. The second line is clearly equal to the first line by exactness.
 \end{proof}
 
 In the following, for $X \overset{f}{\longrightarrow} A$ any morphism, we abbreviate its [[cokernel]] by
