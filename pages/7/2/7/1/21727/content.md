@@ -37,4 +37,6 @@ Twisted Bredon cohomology, or _equivariant ordinary cohomology with local coeffi
 
 * [[Goutam Mukherjee]], Debasis Sen, _Equivariant simplicial cohomology with local coefficients and its classification_, Topology and its Applications, Volume 157, Issue 6, 15 April 2010, Pages 1015-1032 ([doi:10.1016/j.topol.2010.01.004](https://doi.org/10.1016/j.topol.2010.01.004))
 
+* Carla Farsi, Laura Scull, Jordan Watts, _Twisted Bredon-Illman cohomology is a Morita invariant_, [arXiv:2507.03091](https://arxiv.org/abs/2507.03091)
+
 [[!redirects twisted ordinary equivariant cohomology]]
