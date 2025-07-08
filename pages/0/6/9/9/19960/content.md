@@ -1425,6 +1425,7 @@ See also
 
 * Jesús Cruz Rojas, Tuna Demircik, Christian Ecker, Matti Järvinen: *Towards holographic color superconductivity in QCD* &lbrack;[arXiv:2505.06338](https://arxiv.org/abs/2505.06338)&rbrack;
 
+* Octavio C. Junqueira, Roldao da Rocha: *Confinement/deconfinement at low temperatures and rotation in the exact soft wall model* &lbrack;[arXiv:2507.03835](https://arxiv.org/abs/2507.03835)&rbrack;
 
 
 
