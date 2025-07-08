@@ -1,6 +1,12 @@
 
 * [personal page](https://sites.google.com/site/meeseongim/)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=182242)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=CB0XHMkAAAAJ&hl=en)
+
+
+
 ## Selected writings
 
 
