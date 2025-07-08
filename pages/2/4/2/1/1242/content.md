@@ -184,9 +184,72 @@ is a [[quasi-isomorphism]].
 ### Short exact sequences and quotients
  {#SESAndQuotients}
 
-The following are some basic lemmas that show how given a short exact sequence one obtains new short exact sequences from forming [[quotients]]/[[cokernels]] (see [Wise](#Wise)). 
+The following are some basic lemmas that show how given a long exact sequence one obtains short exact sequences from forming [[quotients]]/[[cokernels]]. 
 
-Let $\mathcal{A}$ be an [[abelian category]]. 
+
+\begin{lemma}\label{TruncatingExactSequences}
+  For an exact sequence
+  $$
+    A_{-2}
+     \overset{f_{-2}}{\longrightarrow}
+    A_{-1}
+      \overset{f_{-1}}{\longrightarrow}
+    A_0
+     \overset{f_1}{\longrightarrow}
+    A_1
+     \overset{f_2}{\longrightarrow}
+    A_2
+  $$
+  there is a [[short exact sequence]]
+
+  \begin{tikzcd}
+    0 
+      \ar[r]
+    &
+    \mathrm{coker}(f_{-2})
+      \ar[rr, "f_{-1}"]
+      \ar[d, equals]
+    &&
+    A_0
+      \ar[rr, "f_1"]
+      \ar[d, equals]
+    &&
+    \mathrm{im}(f_1)
+      \ar[r]
+      \ar[d, equals]
+    &
+    0
+    \\
+    0 
+      \ar[r]
+    &
+    \mathrm{coim}(f_{-1})
+      \ar[rr, "f_{-1}"]
+    &&
+    A_0
+      \ar[rr, "f_1"]
+    &&
+    \mathrm{ker}(f_2)
+      \ar[r]
+    &
+    0
+    \mathrlap{\,,}
+  \end{tikzcd}
+
+\end{lemma}
+where by suggestive slight abuse of notation, $f_i$ denotes the evident (co-)[[extensions]].
+\begin{proof}
+  The first line immediate on ([[generalized element|generalized]]) [[elements]]: $f_{-1}$ becomes [[injective function|injective]] when [[restriction|restricted]] to $coker(f_{-2}) \equiv A_{-1}/im(f_{-2})$ and $f_{1}$ is [[surjective map|surjective]] onto its image. The second line is clearly equal to the first line by exactness.
+\end{proof}
+
+In the following, for $X \overset{f}{\longrightarrow} A$ any morphism, we abbreviate its [[cokernel]] by
+
+$$
+  A/X \;\coloneqq\; coker(f)
+  \,.
+$$
+
+
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -227,6 +290,8 @@ and the exact sequence to be demonstrated is degreewise the [[cokernel]] of this
 
 =--
 
+(cf. [Wise 2011](#Wise11))
+
 +-- {: .num_lemma}
 ###### Lemma
 
@@ -245,6 +310,8 @@ $$
 is exact.
 
 =--
+
+(cf. [Wise 2011](#Wise11))
 
 
 ## Examples
@@ -319,8 +386,7 @@ A standard introduction is for instance in section 1.1 of
 
 The quotient lemmas from [above](#SESAndQuotients) are discussed in
 
-* [[Jonathan Wise]], _The Snake Lemma_ ([pdf](http://math.stanford.edu/~jonathan/papers/snake.pdf))
- {#Wise}
+* {#Wise11} [[Jonathan Wise]], *A non-elementary proof of the snake lemma* (2011, 2023) &lbrack;[pdf](https://math.colorado.edu/%7Ejonathan.wise/papers/snake.pdf), [[Wise-SnakeLemma.pdf:file]], [MO:a/7531](https://mathoverflow.net/a/7531/381)&rbrack; 
 
 in the context of the [[salamander lemma]] and the [[snake lemma]].
 
