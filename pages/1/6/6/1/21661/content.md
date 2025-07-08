@@ -98,6 +98,9 @@ See also:
 
 * Steve Abel, Andrei Constantin, Thomas R. Harvey, Andre Lukas, Luca A. Nutricati, *Decoding Nature with Nature's Tools: Heterotic Line Bundle Models of Particle Physics with Genetic Algorithms and Quantum Annealing* &lbrack;[arXiv:2306.03147](https://arxiv.org/abs/2306.03147)&rbrack;
 
+* [[Andrei Constantin]], Lucas T.-Y. Leung, [[Andre Lukas]], Luca A. Nutricati: *Reproducing Standard Model Fermion Masses and Mixing in String Theory: A Heterotic Line Bundle Study* &lbrack;[arXiv:2507.03076](https://arxiv.org/abs/2507.03076)&rbrack;
+
+
 
 
 Similar discussion in [[SemiSpin(32)]]-[[heterotic string theory]]:
