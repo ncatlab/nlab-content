@@ -13,7 +13,7 @@
 
 ## Idea
 
-All [[dependent type theories]] satisfy a meta-theoretic version of [[parametricity]] traditionally called *external parametricity*. 
+Many [[dependent type theories]] satisfy a meta-theoretic version of [[parametricity]] traditionally called *external parametricity*. However, there are some dependent type theories which do not have external parametricity in the meta-theoretic sense, such as dependent type theories with [[typecase]] (see [here](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/Continuations.2C.20parametricity.2C.20and.20polymorphism/near/527636418)).
 
 **Parametric dependent type theory** is [[dependent type theory]] with an explicit notion of [[parametricity]] inside of the theory itself called **explicit parametricity**, in the same way that some dependent type theories have [[explicit substitution]]. A dependent type theory without explicit parametricity is called **non-parametric**. 
 
@@ -100,6 +100,10 @@ Examples of such modal parametric type theories include the [[displayed type the
 A proof assistant implementing an observational [[parametric type theory]] with both internal and external parametricity of variable [[arity]]:
 
 * [Narya](https://github.com/mikeshulman/narya)
+
+Some discussion on parametricity in dependent type theory appears in:
+
+* {#CTZulip} *Continuations, parametricity, and polymorphism*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/Continuations.2C.20parametricity.2C.20and.20polymorphism/with/527734153))
 
 [[!redirects parametric type theory]]
 [[!redirects parametric type theories]]
