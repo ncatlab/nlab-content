@@ -145,6 +145,8 @@ By Freyd-Scedrov ([1990](#FreydScedrov90), p.181) a Grothendieck topos $\mathcal
 
 * [[Kimmo I. Rosenthal]], _Covering &#201;tendues and Freyd's Theorem_ , Proc. AMS **99** 2 (1987) pp.221-222. ([pdf](http://www.ams.org/journals/proc/1987-099-02/S0002-9939-1987-0870775-X/S0002-9939-1987-0870775-X.pdf))
 
+* Joshua Wrigley, _On the theories classified by an étendue_ , arXiv.2507.04526 (2025). ([abstract](https://arxiv.org/abs/2507.04526))
+
 [[!redirects etendue]]
 [[!redirects etendues]]
 [[!redirects étendues]]
