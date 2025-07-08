@@ -117,7 +117,7 @@ More generally there is $RO(G)$-graded [[equivariant cohomology]] with [[coeffic
 
 The original text:
 
-* {#Bredon67b} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics Vol. 34. 1967 ([doi:10.1007/BFb0082690](https://link.springer.com/book/10.1007/BFb0082690))
+* {#Bredon67b} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics __34__, 1967 ([doi:10.1007/BFb0082690](https://link.springer.com/book/10.1007/BFb0082690))
 
 announced in
 
