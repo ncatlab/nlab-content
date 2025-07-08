@@ -155,9 +155,14 @@ See also:
 
 Further discussion:
 
+* Boran Zhou, Hui Yang, and Ya-Hui Zhang: *Fractional Quantum Anomalous Hall Effect in Rhombohedral Multilayer Graphene in the Moiréless Limit*, Phys. Rev. Lett. **133** (2024) 206504 &lbrack;[doi:10.1103/PhysRevLett.133.206504](https://doi.org/10.1103/PhysRevLett.133.206504)&rbrack;
+
 * [[Nicolas Regnault]] et al.: *Fractional topological states in rhombohedral multilayer graphene modulated by kagome superlattice* &lbrack;[arXiv:2502.17320](https://arxiv.org/abs/2502.17320)&rbrack;
 
 * Sen Niu, [[Jason Alicea]], D. N. Sheng, Yang Peng: *Quantum anomalous Hall effects and Hall crystals at fractional filling of helical trilayer graphene* &lbrack;[arXiv:2505.24146](https://arxiv.org/abs/2505.24146)&rbrack;
+
+* Hongyu Lu, Han-Qing Wu, Bin-Bin Chen, Wang Yao, Zi Yang Meng: *Generic (fractional) quantum anomalous Hall crystals from interaction-driven band folding* &lbrack;[arXiv:2505.04138](https://arxiv.org/abs/2505.04138)&rbrack;
+
 
 
 The case of [[crystalline topological insulators]] and [[symmetry protected topological order]]:
