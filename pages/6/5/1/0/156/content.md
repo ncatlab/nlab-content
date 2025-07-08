@@ -268,6 +268,8 @@ For more details (and more precise statements, see at *[[relation between preord
 
 ## References
 
+* [[J. R. Isbell]], and F. B. Wright. _Another equivalent form of the axiom of choice_. Proceedings of the American Mathematical Society 17.1 (1966): 174-174.
+
 * {#MacLane71} [[Saunders MacLane]], p. 91 of: _[[Categories for the Working Mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
 * {#RiehlCTInContext} [[Emily Riehl]], p. 34 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf)&rbrack;
