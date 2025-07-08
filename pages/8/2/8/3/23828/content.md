@@ -35,6 +35,9 @@ On [[symmetry protected topological phases]] and their [[topological orders]]:
 
 On [[crystalline topological insulator|crystalline]] [[fractional Chern insulators]]:
 
+* Yuxuan Zhang, [[Maissam Barkeshli]]: *Fractionally Quantized Electric Polarization and Discrete Shift of Crystalline Fractional Chern Insulators*, Phys. Rev. B
+&lbrack;[arXiv:2411.04171](https://arxiv.org/abs/2411.04171), [doi:10.1103/qslx-ybf6](https://doi.org/10.1103/qslx-ybf6)&rbrack;
+
 * Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators*, Phys. Rev. B (2025) &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431), [doi:10.1103/8bpm-qbzp](https://doi.org/10.1103/8bpm-qbzp)&rbrack;
 
 category: people
