@@ -405,6 +405,10 @@ Discussion for [[(infinity,1)-monads]]:
 and realized in the context of [[quasi-categories]]:
 
 * {#RiehlVerity13} [[Emily Riehl]], [[Dominic Verity]], section 7.2 of _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
+
+Generalisation to "semads" (which are monads without units):
+
+* K. A. Hardie, _Instances and ramifications of the semi-adjoint situation. II: The comparison functor_, Quaestiones Mathematicae 2.1-3 (1977): 159-175.
  
 
 [[!redirects monadicity theorems]]
