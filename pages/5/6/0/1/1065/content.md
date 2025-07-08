@@ -88,17 +88,18 @@ Classical accounts:
 
 * {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
 
-
 * [[Saunders MacLane]], *Homology*, Grundlehren der Mathematischen Wissenschaften **114**, Springer (1963, 1974), reprinted as: Classics in Mathematics, Springer (1995)  &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/maclane_homology.pdf), [doi:10.1007/978-3-642-62029-4](https://doi.org/10.1007/978-3-642-62029-4)&rbrack;
 
-* {#HiltonStammbach71} [[Peter Hilton]],  [[Urs Stammbach]], _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics, Vol. 4 ([doi:10.1007/978-1-4419-8566-8](https://link.springer.com/book/10.1007/978-1-4419-8566-8), [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/hilton-stammbach.pdf))
+* {#HiltonStammbach71} [[Peter Hilton]],  [[Urs Stammbach]], _A course in homological algebra_, Springer-Verlag, New York, 1971, Graduate Texts in Mathematics **4** &lbrack;[doi:10.1007/978-1-4419-8566-8](https://link.springer.com/book/10.1007/978-1-4419-8566-8), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/hilton-stammbach.pdf)&rbrack;
 
+* [[Saunders Mac Lane]]: _Homology_ (1975) reprinted as Classics in Mathematics. Springer (1995) &lbrack;[doi:10.1007/978-3-642-62029-4](https://link.springer.com/book/10.1007/978-3-642-62029-4), ISBN:3-540-58662-8&rbrack;
 
-* [[Saunders Mac Lane]], _Homology_ (1975) reprinted as Classics in Mathematics. Springer-Verlag, Berlin, 1995. x+422 pp. ISBN 3-540-58662-8 ([doi:10.1007/978-3-642-62029-4](https://link.springer.com/book/10.1007/978-3-642-62029-4))
+* [[Sergei Gelfand]], [[Yuri Manin]]: *[[Methods of homological algebra]]*,  transl. from the 1988 Russian (Nauka Publ.) original, Springer (1996, 2002) &lbrack;[doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5)&rbrack;
+
 
 A standard modern textbook introduction is
 
-* {#Weibel94} [[Charles Weibel]], *[[An introduction to homological algebra]]*,  Cambridge Studies in Adv. Math. **38**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136), [pdf](https://web.math.rochester.edu/people/faculty/doug//otherpapers/weibel-hom.pdf)&rbrack;
+* {#Weibel94} [[Charles Weibel]], *[[An introduction to homological algebra]]*,  Cambridge Studies in Adv. Math. **38**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139644136](https://doi.org/10.1017/CBO9781139644136), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/weibel-homv2.pdf)&rbrack;
 
 and a more systematic modern development of the theory is in sections 8 and 12-18 of
 
@@ -117,9 +118,8 @@ Other textbooks include
 
 * I. Bucur, A. Deleanu, _Introduction to the theory of categories and functors_, 1968
 
-* [[Sergei Gelfand]], [[Yuri Manin]], *[[Methods of homological algebra]]*,  transl. from the 1988 Russian (Nauka Publ.) original, Springer (1996, 2002) &lbrack;[doi:10.1007/978-3-662-12492-5](https://doi.org/10.1007/978-3-662-12492-5)&rbrack;
 
-See also
+See also:
 
 * Wikipedia, _[Homological algebra](http://en.wikipedia.org/wiki/Homological_algebra)_
 
