@@ -389,6 +389,8 @@ Let us denote the category of models and homomorphisms (in $Set$) of an algebrai
 
 * B. Badzioch, "Algebraic Theories in Homotopy Theory", Annals of Mathematics, 155, 895--913 (2002).
 
+* Calvin C. Elgot, _Matricial theories_, Journal of Algebra 42.2 (1976): 391-421.
+
 * {#keml-diagrams} [[Andreas Nuyts]], _Understanding Universal Algebra Using Kleisli-Eilenberg-Moore-Lawvere Diagrams_, [note](https://anuyts.github.io/files/keml-diagrams.pdf)
 
 For a framework to compare different notions of algebraic theory see
