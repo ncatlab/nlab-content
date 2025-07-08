@@ -172,6 +172,10 @@ The case of [[crystalline topological insulators]] and [[symmetry protected topo
 
 * Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators*, Phys. Rev. B (2025) &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431), [doi:10.1103/8bpm-qbzp](https://doi.org/10.1103/8bpm-qbzp)&rbrack;
 
+* Yuxuan Zhang, [[Maissam Barkeshli]]: *Fractionally Quantized Electric Polarization and Discrete Shift of Crystalline Fractional Chern Insulators*, Phys. Rev. B
+&lbrack;[arXiv:2411.04171](https://arxiv.org/abs/2411.04171), [doi:10.1103/qslx-ybf6](https://doi.org/10.1103/qslx-ybf6)&rbrack;
+
+
 * Naren Manjunath: *Crystalline invariants of integer
 and fractional Chern insulators*, talk at *[Recent Developments and Challenges in Topological Phases](https://www2.yukawa.kyoto-u.ac.jp/~yitpmolecule-topology-2024/)*, Kyoto University (2024) &lbrack;[pdf](https://www2.yukawa.kyoto-u.ac.jp/~yitpmolecule-topology-2024/slide/Naren.pdf), [[Manjunath-CrystallineInvariantsofFCI.pdf:file]]&rbrack;
 
