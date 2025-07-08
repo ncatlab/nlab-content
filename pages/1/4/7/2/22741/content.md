@@ -27,12 +27,21 @@ A pointed endofunctor $(S, \sigma)$ (Def. \ref{PointedEndofunctor}) is called **
 The dual notion is known as a **well-copointed** endofunctor.
 
 
-
 ## Properties
 
 Well-pointed endofunctors have a particularly well-behaved free algebra sequence; see *[[transfinite construction of free algebras]]*.
 
+## Related concepts
+
+* A [[monad]] is [[idempotent monad|idempotent]] iff its underlying [[pointed endofunctor]] is well-pointed.
+
 ## References
+
+Well-pointed endofunctors are studied as "symmetric unads" in:
+
+* K. A. Hardie, _Instances and ramifications of the semi-adjoint situation I. Prestable reflection and symmetric unads_, Quaestiones Mathematicae 2.1-3 (1977): 147-158.
+
+The terminology is due to:
 
 * {#Kelly} [[Max Kelly]], _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on._  Bull. Austral. Math. Soc. 22 (1980), 1--83. doi:[10.1017/S0004972700006353](http://dx.doi.org/10.1017/S0004972700006353)
  
