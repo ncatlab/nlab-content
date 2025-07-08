@@ -37,13 +37,13 @@ Well-pointed endofunctors have a particularly well-behaved free algebra sequence
 
 ## References
 
-Well-pointed endofunctors are studied as "symmetric unads" in:
+Well-pointed endofunctors were studied already under the name "symmetric unads" in:
 
-* K. A. Hardie, _Instances and ramifications of the semi-adjoint situation I. Prestable reflection and symmetric unads_, Quaestiones Mathematicae 2.1-3 (1977): 147-158.
+* K. A. Hardie: *Instances and ramifications of the semi-adjoint situation I. Prestable reflection and symmetric unads*, Quaestiones Mathematicae **2** 1-3 (1977) 147-158 &lbrack;[doi:10.1080/16073606.1977.9632539](https://doi.org/10.1080/16073606.1977.9632539)&rbrack;
 
-The terminology is due to:
+The modern terminology is due to:
 
-* {#Kelly} [[Max Kelly]], _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on._  Bull. Austral. Math. Soc. 22 (1980), 1--83. doi:[10.1017/S0004972700006353](http://dx.doi.org/10.1017/S0004972700006353)
+* {#Kelly} [[Max Kelly]]: _A unified treatment of transfinite constructions for free algebras, free monoids, colimits, associated sheaves, and so on._  Bull. Austral. Math. Soc. **22** (1980) 1--83 &lbrack;[doi:10.1017/S0004972700006353](http://dx.doi.org/10.1017/S0004972700006353)&rbrack;
  
 
 [[!redirects well-pointed endofunctors]]
