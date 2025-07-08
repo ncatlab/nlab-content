@@ -25,39 +25,41 @@
 For $n \in \mathbb{N}$, write $O(n)$ for the [[orthogonal group]] regarded as a [[topological group]] and  [[group action|acting]] canonically on $\mathbb{R}^n$. 
 
 \begin{definition}\label{StiefelManifold}
-For $n \leq N \in \mathbb{N}$, the $n$th **real Stiefel manifold** of $\mathbb{R}^N$ is the [[coset]] [[topological space]].
+For $k \leq N \in \mathbb{N}$, the $k$th **real Stiefel manifold** of $\mathbb{R}^N$ is the [[coset]] [[topological space]].
 
 \[
   \label{CosetRealization}
-  V_n\big(\mathbb{R}^N\big) 
+  V_k\big(\mathbb{R}^N\big) 
     \;\coloneqq\; 
-  O(N)/O(N-n)
+  O(N)/O(N-k)
   \,,
 \]
 
-where the [[action]] of $O(N-n)$ is via its evident [[subgroup]] inclusion $O(N-n)\hookrightarrow O(N)$.
+where the [[action]] of $O(N-k)$ is via the standard [[subgroup]] inclusion $O(N-k)\hookrightarrow O(N)$ as an upper right block.
 \end{definition}
 
+
 \begin{remark}
-The canonical [[group action]] $O(N) \curvearrowright \mathbb{R}^n$ induces a [[transitive action]] on the set of $n$-dimensional [[linear subspaces]] $\mathbb{R}^n \subset \mathbb{R}^N$ equipped with an [[orthonormal basis]], and given any such, then its [[stabilizer subgroup]] inside $O(N)$ is isomorphic to $O(N-n)$. In this way the underlying set of $V_n(\mathbb{R}^N)$ is in [[natural bijection]] to the set of $n$-dimensional linear subspaces in $\mathbb{R}^N$ equipped with [[orthonormal bases]]. The realization of this set as a [[coset]] (eq:CosetRealization) serves to equip it naturally with the [[structure]] of a [[topological space]].
+The canonical [[group action]] $O(N) \curvearrowright \mathbb{R}^N$ induces a [[transitive action]] on the set of $k$-dimensional [[linear subspaces]] $\mathbb{R}^k \subset \mathbb{R}^N$ equipped with an [[orthonormal basis]], and given any such subspace $W$, then its [[stabilizer subgroup]] in $O(N)$ is isomorphic to $O(N-k)$, the symmetries of the orthogonal subspace $W^\perp$. In this way the underlying set of $V_k(\mathbb{R}^N)$ is in [[natural bijection]] to the set of $k$-dimensional linear subspaces in $\mathbb{R}^N$ equipped with [[orthonormal bases]]. The realization of this set as a [[coset]] (eq:CosetRealization) serves to equip it naturally with the [[structure]] of a [[topological space]].
 \end{remark}
 
+More generally, given any finite-dimensional [[inner product space]] $(V,\langle\ ,\ \rangle)$, there is a corresponding orthogonal group $O(V)$, and one can repeat the above definition more or less verbatim.
 
 \begin{definition}\label{EOn}
 
-By def. \ref{StiefelManifold} there are canonical inclusions $V_n(\mathbb{R}^N) \hookrightarrow V_n(\mathbb{R}^{N+1})$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions)) over these inclusions is denoted
+By def. \ref{StiefelManifold} there are canonical inclusions $V_k(\mathbb{R}^N) \hookrightarrow V_k(\mathbb{R}^{N+1})$ that are compatible with the [[action]]s of the respective orthogonal groups. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions)) over these inclusions is denoted
 
 $$
-  E O(n) 
+  E O(k) 
    \;\coloneqq\; 
   \underset{\longrightarrow}{\lim}_N 
-    V_n(\mathbb{R}^N)
+    V_k(\mathbb{R}^N)
   \,.
 $$
 
 \end{definition}
 
-This is a model for the total space of the $O(n)$-[[universal principal bundle]].
+This is a model for the total space of the $O(k)$-[[universal principal bundle]].
 
 
 ## Properties
@@ -65,72 +67,72 @@ This is a model for the total space of the $O(n)$-[[universal principal bundle]]
 ### Homotopy groups
 
 \begin{proposition}\label{Connectedness}
-The Stiefel manifold $V_n(\mathbb{R}^N)$ (Def. \ref{StiefelManifold}) is [[n-connected topological space|$(N-n-1)$-connected]].
+The Stiefel manifold $V_k(\mathbb{R}^N)$ (Def. \ref{StiefelManifold}) is [[n-connected topological space|$(N-k-1)$-connected]].
 \end{proposition}
 \begin{proof}
 Observe that 
 
-1. the coset coprojection $O(N) \to O(N)/O(N-n)$ is a [[Serre fibration]] 
+1. the coset coprojection $O(N) \to O(N)/O(N-k)$ is a [[Serre fibration]] 
 
    (by [this prop.](orthogonal+group#OrthogonalGroupIsCompact) and [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal))
 
-1. its [[fiber]] (hence: [[homotopy fiber]]) is $O(N-n)$
+1. its [[fiber]] (hence: [[homotopy fiber]]) is $O(N-k)$
 
 so that we have a [[homotopy fiber sequence]] of this form:
 
 $$
-  O(N-n)
+  O(N-k)
     \longrightarrow
   O(N)
     \longrightarrow
-  O(N)/O(N-n) 
+  O(N)/O(N-k) 
     \;\equiv\; 
-  V_n(\mathbb{R}^N)
+  V_k(\mathbb{R}^N)
 $$
 
-The corresponding [[long exact sequence of homotopy groups]] has, has the following structure in degrees bounded by $n$, 
-by [this prop.](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence):
+The corresponding [[long exact sequence of homotopy groups]] has, has the following structure in degrees strictly bounded above by $N-k$, 
+by [this prop](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence) (taking $n=N-k$ in the notation there):
 
 $$
   \cdots
     \to
-  \pi_{\bullet \leq n-1} O(N-n)
+  \pi_{\bullet \lt N-k} O(N-k)
     \overset{epi}{\longrightarrow}
-  \pi_{\bullet \leq n-1} O(N) 
+  \pi_{\bullet \lt N-k} O(N) 
     \overset{0}{\longrightarrow}
-  \pi_{\bullet \leq n-1} V_n(N)
+  \pi_{\bullet \lt N-k} V_k(N)
     \overset{0}{\longrightarrow}
-  \pi_{\bullet-1 \lt n-1} O(N-n)
+  \pi_{\bullet-1 \lt N-k-1} O(N-k)
     \overset{\sim}{\longrightarrow}
-  \pi_{\bullet-1 \lt n-1} O(N)
+  \pi_{\bullet-1 \lt N-k-1} O(N)
     \to
   \cdots
   \,.
 $$
 
-This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1} V_n(\mathbb{R}^N) $ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
+This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \lt N-k} V_k(\mathbb{R}^N) $ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
 \end{proof}
 
 \begin{corollary}
-The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_N V_n(\mathbb{R}^N)$ from Def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+The colimiting space $E O(k) = \underset{\longleftarrow}{\lim}_N V_k(\mathbb{R}^N)$ from Def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
 \end{corollary}
 
 \begin{proof}
-This follows from Prop. \ref{Connectedness}, together with the fact that the sequence of maps $V_n(\mathbb{R}^N) \to V_n(\mathbb{R}^{N+1})$ are closed $T_1$-inclusions. See [[compact object#CompactObjectsInTop|this Prop.]] together with the accompanying commentary there.  
+This follows from Prop. \ref{Connectedness}, together with the fact that the sequence of maps $V_k(\mathbb{R}^N) \to V_k(\mathbb{R}^{N+1})$ are closed $T_1$-inclusions. See [[compact object#CompactObjectsInTop|this Prop.]] together with the accompanying commentary there.  
 \end{proof}
 
 
 ### CW-complex structure
 
 \begin{proposition}
-The Stiefel manifold $V_n(\mathbb{R}^N)$ admits the [[structure]]] of a [[CW-complex]].
+The Stiefel manifold $V_k(\mathbb{R}^N)$ admits the [[structure]]] of a [[CW-complex]].
 \end{proposition}
 
 (e.g. [James 1959  p. 3](#James59), [James 1976  p. 5 with p. 21](#James76), [Hatcher 2002 p. 302](#Hatcher02), [Blaszczyk 2007](#Blaszczyk07))
 
-{#CellularInclusionOfStiefelManifolds} And it should be true that with that cell structure the inclusions $V_n(\mathbb{R}^N) \hookrightarrow V_n(\mathbb{R}^{N+1})$ are subcomplex inclusions:
+{#CellularInclusionOfStiefelManifolds} And it should be true that with that cell structure the inclusions $V_k(\mathbb{R}^N) \hookrightarrow V_k(\mathbb{R}^{N+1})$ are subcomplex inclusions:
 
-According to [Yokota 1956](#Yokota56), the inclusions $SU(n)\hookrightarrow SU(N)$ are cellular such that this is compatible with the group action (reviewed [here](http://web.stanford.edu/~kupers/liegroups.pdf) in 3.3 and 3.3.1). This implies that also the projection $SU(N) \to SU(N)/SU(N-n)$ is cellular (e.g. [Hatcher 2002 p. 302](#Hatcher02)).
+According to [Yokota 1956](#Yokota56), the inclusions $SU(k)\hookrightarrow SU(N)$ are cellular such that this is compatible with the group action (reviewed [here](http://web.stanford.edu/~kupers/liegroups.pdf) in 3.3 and 3.3.1). This implies that also the projection $SU(N) \to SU(N)/SU(N-k)$ is cellular (e.g. [Hatcher 2002 p. 302](#Hatcher02)).
 
 
 
@@ -139,21 +141,21 @@ According to [Yokota 1956](#Yokota56), the inclusions $SU(n)\hookrightarrow SU(N
 Similarly, the _[[Grassmannian manifold]]_ is the [[coset]]
 
 $$
-  Gr_n(\mathbb{R}^N) 
+  Gr_k(\mathbb{R}^N) 
     \;\coloneqq\; 
-  O(N)/(O(n)\times O(N-n))
+  O(N)/(O(k)\times O(N-k))
   \,.
 $$
 
 The [[quotient]] [[coprojection]]
 
 $$
-  V_{n}(\mathbb{R}^N)
+  V_k(\mathbb{R}^N)
     \longrightarrow 
-  Gr_n(\mathbb{R}^N)
+  Gr_k(\mathbb{R}^N)
 $$
 
-is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(\mathbb{R}^N) \times_{O(n)} \mathbb{R}^N$ a [[vector bundle]] of [[rank of a vector bundle|rank]] $n$. In the limit ([[colimit]]) that $N \to \infty$ this gives a presentation of the $O(n)$-[[universal principal bundle]] and of the [[universal vector bundle]] of rank $n$, respectively. The base space $Gr_n(\infty)\simeq_{whe} B O(n)$ is the [[classifying space]] for $O(n)$-[[principal bundles]] and for rank $n$ vector bundles.
+is an $O(k)$-[[principal bundle]], with [[associated bundle]] $V_k(\mathbb{R}^N) \times_{O(k)} \mathbb{R}^k$ a [[vector bundle]] of [[rank of a vector bundle|rank]] $k$. In the limit ([[colimit]]) that $N \to \infty$ this gives a presentation of the $O(k)$-[[universal principal bundle]] and of the [[universal vector bundle]] of rank $k$, respectively. The base space $Gr_k(\infty)\simeq_{whe} B O(k)$ is the [[classifying space]] for $O(k)$-[[principal bundles]] and for rank $k$ vector bundles.
 
 
 
