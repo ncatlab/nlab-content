@@ -33,6 +33,8 @@ On [[heterotic string theory|heterotic]] [[string phenomenology]] with [[heterot
 
 * [[Evgeny Buchbinder]], [[Andrei Constantin]], [[Andre Lukas]], _The Moduli Space of Heterotic Line Bundle Models: a Case Study for the Tetra-Quadric_, 	JHEP03 (2014) 025 ([arXiv:1311.1941](https://arxiv.org/abs/1311.1941))
 
+* [[Andrei Constantin]], Lucas T.-Y. Leung, [[Andre Lukas]], Luca A. Nutricati: *Reproducing Standard Model Fermion Masses and Mixing in String Theory: A Heterotic Line Bundle Study* &lbrack;[arXiv:2507.03076](https://arxiv.org/abs/2507.03076)&rbrack;
+
 
 Scan of [[SU(5)]] [[GUT]] [[perturbative string theory vacuum|vacua]] among [[heterotic line bundle models]]:
 
