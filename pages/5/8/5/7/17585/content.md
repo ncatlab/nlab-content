@@ -735,7 +735,7 @@ $$
   \underset{\mathbb{Z}}{\underbrace{
     \pi_2 S^2
   }}
-  \longrightarrow
+  \xrightarrow{\phantom{-} 0 \phantom{-}}
   \underset{\mathbb{Z}}{\underbrace{
     \pi_1 \Omega S^2
   }}
