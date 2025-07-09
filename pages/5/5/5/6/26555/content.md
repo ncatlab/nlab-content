@@ -68,15 +68,15 @@ $$
 Very little changes if we allow zero-dimensional Hilbert spaces in this definition, which is mathematically more natural but less intuitive.
 
 \begin{definition}
+\label{BasicOperations}
 Consider quantum sets $X$ and $Y$ according to Def. \ref{QuantumSet}. Then:
 
 * The *disjoint union* $X + Y$ is defined by $\mathrm{At}(X + Y) \coloneqq \mathrm{At}(X) + \mathrm{At}(Y)$ and
 $$
 (X + Y)_\alpha \coloneqq \begin{cases} 
-  X_\alpha & \alpha \in \mathrm{At}(X), 
+  X_\alpha & \text{if }\;\alpha \in \mathrm{At}(X), 
   \\ 
-  Y_\alpha & \alpha \in \mathrm{At}(Y)
-  \,.
+  Y_\alpha & \text{if }\;\alpha \in \mathrm{At}(Y).
 \end{cases}
 $$
 
@@ -93,6 +93,62 @@ where $\mathcal{H}^*$ is the dual Hilbert space.
 
 \end{definition}
 
+The Cartesian product of quantum sets is so named because it generalizes the Cartesian product of sets. The former is not the [[cartesian product|categorical product]] in $qRel$, just as the latter is not the categorical product in [[Rel|$Rel$]]. The former is also not the categorical product in $qSet$.
+
+In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is the [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
+
+## The category $Rel$
+
+The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2012](#Weaver12); see the article on [[quantum relation|quantum relations]].
+
+\begin{definition}
+We define the [[dagger-compact category]] $qRel$.
+
+1. An object $X$ is a quantum set (see Def. \ref{QuantumSet}).
+
+1. A morphism $R \colon X \to Y$ is a choice of subspaces
+$$
+R_{\alpha,\beta} \subseteq L(X_\alpha, Y_\beta),
+$$
+where $L(\mathcal{H},\mathcal{K})$ is the space of all linear maps from $\mathcal{H}$ to $\mathcal{K}$.
+
+1. The composition $S \circ R \colon X \to Z$ of morphisms $R \colon X \to Y$ and $S \colon Y \to Z$ is given by
+$$
+(S \circ R)_{\alpha,\gamma} \coloneqq \mathrm{span}\{sr \mid r \in R_{\alpha, \beta},\; s \in S_{\beta, \gamma}\;\text{for some}\; \beta \in \At(Y)\}.
+$$
+
+1. The identity morphism $\mathrm{id}_X\colon X \to X$ is defined by
+$$
+(\id_X)_{\alpha, \beta} \coloneqq \begin{cases} \mathrm{span}\{1\} & \text{if}\;\alpha = \beta,\\
+\{0\} & \text{if}\; \alpha \neq \beta.\end{cases}
+$$
+
+1. The [[dagger category|dagger]] of a morphism $R\colon X \to Y$ is defined by
+$$
+(R^\dagger)_{\beta, \alpha} \coloneqq \{r^\dagger \mid r \in R_{\alpha, \beta}\},
+$$
+where $r^\dagger$ is the [[hermitian matrix|Hermitian adjoint]].
+
+1. The [[monoidal category|monoidal product]] of objects $X$ and $X'$ is the Cartesian product $X \times X'$ (see Def. \ref{BasicOperations}).
+
+1. The monoidal product of morphisms $R\colon X \to Y$ and $R'\colon X' \to Y'$ is defined by
+$$
+(R \times R')_{(\alpha, \alpha'),(\beta, \beta')} \coloneqq \mathrm{span}\{r \otimes r' \mid r \in R_{\alpha, \beta},\; r' \in R'_{\alpha', \beta'}\}.
+$$
+
+1. The monoidal unit $1$ is defined by $\mathrm{At}(X) \coloneqq \{\ast\}$ and $1_\ast \coloneqq \mathbb{C}$.
+
+1. The [[symmetric monoidal category|braiding]] $\sigma_{X,Y}\: X \times Y \to Y \times X$ is defined by
+$$
+(\sigma_{X,Y})_{(\alpha,\beta),(\beta', \alpha')} \coloneqq \begin{cases} \mathrm{span}\{\sigma_{X_\alpha, Y_\beta}\} & \text{if}\; (\alpha, \beta) = (\alpha', \beta'),\\
+\{0\} & \text{if}\;(\alpha, \beta) \neq (\alpha', \beta'),
+\end{cases}
+$$
+where $\sigma_{X_\alpha, Y_\beta}$ denotes the braiding in [[Hilb|$Hilb$]].
+
+1. The dagger dual of an object $X$ is the dual $X^*$ (see Def. \ref{BasicOperations}).
+
+\end{definition}
 
 ## Quantum sets as bundles
 
@@ -124,7 +180,9 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
 
 ## References
 
-* {#Weaver12} Nik Weaver, *Quantum relations*, Mem. Amer. Math. Soc. **215** (2012)
+* {#KuperbergWeaver12} [[Greg Kuperberg]], [[Nik Weaver]], *A von Neumann Algebra approach to quantum metrics*,  Mem. Amer. Math. Soc. **215** (2012).
+
+* {#Weaver12} [[Nik Weaver]], *Quantum relations*, Mem. Amer. Math. Soc. **215** (2012).
 
 * {#DeCommerKasprzakSkalskiSoltan18} Kenney De Commer, Paweł Kasprzak, Adam Skalski, Piotr M. Sołtan: *Quantum actions on discrete quantum spaces and a generalization of Clifford's theory of representations*, Israel J. Math. **226** (2018).
 
