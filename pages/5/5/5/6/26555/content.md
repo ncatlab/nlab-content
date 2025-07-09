@@ -97,7 +97,7 @@ The Cartesian product of quantum sets is so named because it generalizes the Car
 
 In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is the [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
 
-## The category $Rel$
+## The category $qRel$
 
 The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2010](#Weaver10); see the article on [[quantum relations]].
 
@@ -146,7 +146,7 @@ $$
 $$
 where $\sigma_{X_\alpha, Y_\beta}$ denotes the braiding in [[Hilb|$Hilb$]].
 
-1. The dagger dual of an object $X$ is the dual $X^*$ (see Def. \ref{BasicOperations}).
+1. The dagger dual of an object $X$ is the dual quantum set $X^*$ (see Def. \ref{BasicOperations}).
 
 \end{definition}
 
