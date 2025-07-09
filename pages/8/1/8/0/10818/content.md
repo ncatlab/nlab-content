@@ -179,3 +179,4 @@ However, note in this paper that the authors use "lax idempotent 2-comonad" for 
 [[!redirects KZ 2-adjunctions]]
 [[!redirects Kock-Zoberlein 2-adjunction]]
 [[!redirects Kock-Zoberlein 2-adjunctions]]
+
