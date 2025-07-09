@@ -20,7 +20,7 @@
 
 ## Idea
 
-*Kenzo* is a [[computer program|software]] for computations in [[constructive mathematics|constructive]] [[algebraic topology]] ([[computational topology]]).
+*Kenzo* is a piece of [[computer program|software]] for computations in [[constructive mathematics|constructive]] [[algebraic topology]] ([[computational topology]]).
 
 ## Related entries
 
