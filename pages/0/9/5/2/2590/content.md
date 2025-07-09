@@ -13,8 +13,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -73,6 +71,9 @@ It was [conjectured](http://en.wikipedia.org/wiki/Elementary_function_arithmetic
 
 [McLarty 2010](#McLarty10) comments extensively on the possibility of proving Fermat's last theorem, and more generally the Modularity theorem, in PA.
 
+### Busy Beaver function
+
+The value of the Busy Beaver function at $n = 745$ is independent of the [[ZFC]] axioms (see [Aaronson 2023](#Aaronson23)).
 
 ## See also
 
@@ -89,6 +90,7 @@ It was [conjectured](http://en.wikipedia.org/wiki/Elementary_function_arithmetic
 
 * {#Quinn12} [[Frank Quinn]], *A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today*, Notices of the AMS (2012) $[$[pdf](http://www.ams.org/notices/201201/rtx120100031p.pdf)$]$
 
+* {#Aaronson23} [[Scott Aaronson]], *Life, blogging, and the Busy Beaver function go on*, Shtetl-Optimized, 5 July 2023 &lbrack;[web](https://scottaaronson.blog/?p=7388)&rbrack;
 
 [[!redirects effects of foundations on "real" mathematics]]
 
