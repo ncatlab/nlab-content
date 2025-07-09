@@ -82,15 +82,15 @@ The value of the Busy Beaver function at $n = 745$ is independent of the [[ZFC]]
 
 ## References
 
-* {#McLarty10} [[Colin McLarty]], _What does it take to prove Fermat's last theorem? Grothendieck and the logic of number theory_, Bulletin of Symbolic Logic, **16** 3 (2010) 359 - 377 $[$[doi:10.2178/bsl/1286284558](https://projecteuclid.org/journals/bulletin-of-symbolic-logic/volume-16/issue-3/What-does-it-take-to-prove-Fermats-Last-Theorem-Grothendieck/10.2178/bsl/1286284558.short)$]$, [pdf](http://www.cwru.edu/artsci/phil/Proving_FLT.pdf)$]$
+* {#McLarty10} [[Colin McLarty]], _What does it take to prove Fermat's last theorem? Grothendieck and the logic of number theory_, Bulletin of Symbolic Logic, **16** 3 (2010) 359 - 377 &lbrack;[doi:10.2178/bsl/1286284558](https://projecteuclid.org/journals/bulletin-of-symbolic-logic/volume-16/issue-3/What-does-it-take-to-prove-Fermats-Last-Theorem-Grothendieck/10.2178/bsl/1286284558.short), [pdf](http://www.cwru.edu/artsci/phil/Proving_FLT.pdf)&rbrack;
 
-* {#McLarty20} [[Colin McLarty]], _The large structures of Grothendieck founded on finite-order arithmetic_, The Review of Symbolic Logic **13**  2 (2020) 296 - 325  $[$[arXiv:1102.1773v4](https://arxiv.org/abs/1102.1773v4), [doi:10.1017/S1755020319000340](https://doi.org/10.1017/S1755020319000340)$]$
+* {#McLarty20} [[Colin McLarty]], _The large structures of Grothendieck founded on finite-order arithmetic_, The Review of Symbolic Logic **13**  2 (2020) 296 - 325 &lbrack;[arXiv:1102.1773v4](https://arxiv.org/abs/1102.1773v4), [doi:10.1017/S1755020319000340](https://doi.org/10.1017/S1755020319000340)&rbrack;
 
 
 
-* {#Quinn12} [[Frank Quinn]], *A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today*, Notices of the AMS (2012) $[$[pdf](http://www.ams.org/notices/201201/rtx120100031p.pdf)$]$
+* {#Quinn12} [[Frank Quinn]]: *A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today*, Notices of the AMS (2012) &lbrack;[pdf](http://www.ams.org/notices/201201/rtx120100031p.pdf)&rbrack;
 
-* {#Aaronson23} [[Scott Aaronson]], *Life, blogging, and the Busy Beaver function go on*, Shtetl-Optimized, 5 July 2023 &lbrack;[web](https://scottaaronson.blog/?p=7388)&rbrack;
+* {#Aaronson23} [[Scott Aaronson]], *Life, blogging, and the Busy Beaver function go on*, blog entry (5 July 2023) &lbrack;[web](https://scottaaronson.blog/?p=7388)&rbrack;
 
 [[!redirects effects of foundations on "real" mathematics]]
 
