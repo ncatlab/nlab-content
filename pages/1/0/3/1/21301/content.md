@@ -30,7 +30,7 @@ In terms of [[geometric engineering of QFT]] via [[intersecting D-brane models]]
 
 ## Theory
 
-From the [[constituent quark model]] of [[hadrons]] in [[quantum chromodynamics]], the phenomenon of [[hadron supersymmetry]] follows ([Catto-Gürsey 85](#CattoGuersey85), [Catto-Gürsey 88](#CattoGuersey88)) from the fact that 
+From the [[constituent quark model]] of [[hadrons]] in [[quantum chromodynamics]], the phenomenon of [[hadron supersymmetry]] follows ([Catto & Gürsey 1985](#CattoGuersey85), [1988](#CattoGuersey88)) from the fact that 
 
 1. both single [[antiparticle|anti]][[quarks]] $\bar q$ as well as [[diquarks]] $q\!q$ carry the same [[color charge]] $\overline{\mathbf{3}} \in Rep_\mathbb{C}(SU(3)_c)$,
 
@@ -60,11 +60,10 @@ These transformations organize into a [[supersymmetry]] operation, successively 
     "file_name": "HadronSupersymmetry.jpg",
     "width": 600,
     "unit": "px",
-    "caption": "from [Nielsen-Brodsky 18](#NielsenBrodsky18)"
+    "caption": "from [Nielsen & Brodsky 2018](#NielsenBrodsky18)"
 \end{imagefromfile}
 
-In the formulation of [[confinement|confined]] [[QCD]] as [[holographic light front QCD]], this [[hadron supersymmetry]] is brought out explicitly by the fact that the [[light cone gauge|light cone quantum mechanics]] of the system refines to [[supersymmetric quantum mechanics]] ([dTDB 14](#dTDB14), see e.g.
-[Nielsen-Brodsky 18](#NielsenBrodsky18)).
+In the formulation of [[confinement|confined]] [[QCD]] as [[holographic light front QCD]], this [[hadron supersymmetry]] is brought out explicitly by the fact that the [[light cone gauge|light cone quantum mechanics]] of the system refines to [[supersymmetric quantum mechanics]] ([dTDB 14](#dTDB14), see e.g. [Nielsen & Brodsky 2018](#NielsenBrodsky18)).
 
 
 This [[supersymmetry]] would be an exact [[symmetry]] of [[quantum hadrodynamics]] if [[anti-particle|anti]][[quarks]] and [[diquarks]] had not only the same [[color charge]] but also the same [[mass]] (and other properties), for instance if the quarks involved all had vanishing mass, as assumed, to lowest order, in [[chiral perturbation theory]]. Any discrepancy causes [[symmetry breaking|breaking of the symmetry]], hence here: [[supersymmetry breaking]].
@@ -138,7 +137,7 @@ Formulation via [[octonions]]:
 
 See also:
 
-* Čestmir Burdik, [[Sultan Catto]], Yasemin Giircan, Amish Khalfan, V. Kato La and Enxi Yu, _Generalized Four-Dimensional Effective Hadronic Supersymmetry based on QCD: New Results_, Journal of Physics: Conference Series, Volume 1416, XXVI International Conference on Integrable Systems and Quantum symmetries 8–12 July 2019, Prague, Czech Republic ([doi:10.1088/1742-6596/1416/1/012008](https://iopscience.iop.org/article/10.1088/1742-6596/1416/1/012008))
+* [[Čestmír Burdík]], [[Sultan Catto]], Yasemin Giircan, Amish Khalfan, V. Kato La, Enxi Yu: *Generalized Four-Dimensional Effective Hadronic Supersymmetry based on QCD: New Results*, Journal of Physics: Conference Series **1416** (2019) &lbrack;[doi:10.1088/1742-6596/1416/1/012008](https://iopscience.iop.org/article/10.1088/1742-6596/1416/1/012008)&rbrack;
 
 
 
@@ -180,7 +179,6 @@ Specifically regarding [[tetraquarks]]:
   > (via [[holographic light front QCD]])
 
 * M. A. Bedolla, J. Ferretti, C. D. Roberts, E. Santopinto, *Spectrum of fully-heavy tetraquarks from a diquark+antidiquark perspective* ([arXiv:1911.00960](https://arxiv.org/abs/1911.00960), [doi:10.1140/epjc/s10052-020-08579-3](https://doi.org/10.1140/epjc/s10052-020-08579-3))
-
   > (in view of [experimental results in 2021](tetraquark#ExperimentalDetection))
 
 
