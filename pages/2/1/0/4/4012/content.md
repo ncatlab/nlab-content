@@ -107,6 +107,27 @@ This latter is actually a special case of a general situation.  If $T$ is a (2-)
 
 * For ordinary 1-monads there exists a presentation due to Manes as "Kleisli triples" with primary data a family of unit morphisms and lifts avoiding the iteration of the endofunctor. A similar presentation exists for lax-idempotent 2-monads as shown in Marmolejo-Wood ([2012](#MW12)). It is shown then in Walker [(2017)](#WalkerYS) that provided the units of this presentation are fully faithful (a reflection of the fully-faithfulness of the Yoneda embedding) (almost) all the axioms of a [[Yoneda structure]] are satisfied. In cases where size plays no role like e.g. the ideal completion of posets the two concepts coincide. For further details see at [[Yoneda structure]] or Walker [(2017)](#WalkerYS).
 
+## Lax-idempotent 2-comonads
+
+The dualisation of the notion of lax-idempotent 2-monad is a little subtle. By definition, a **lax-idempotent 2-comonad** $W$ should be one for which every 1-cell between $W$-coalgebras has a unique lax morphism structure. Here, by [[lax morphism]], we mean the convention specified on that page, i.e.
+$$\array{ C & \overset{f}{\to} & D\\
+^{c} \downarrow & \swArrow & \downarrow^{d}\\
+W C & \underset{W f}{\to} & W D}$$
+
+The following are then equivalent.
+
+1. The 2-comonad $(W, \delta, \varepsilon)$ is lax-idempotent.
+2. There is an adjoint triple $\varepsilon W \dashv \delta \dashv W\varepsilon$.
+3. An object $A$ is a $D$-coalgebra if and only if $\varepsilon_A : A \to DA$ admits a right adjoint with invertible unit.
+
+Consequently:
+
+* a lax-idempotent 2-monad on $K^{op}$ is a lax-idempotent 2-comonad on $K$
+* a lax-idempotent 2-monad on $K^{co}$ is a colax-idempotent 2-monad on $K$
+* a lax-idempotent 2-monad on $K^{coop}$ is a colax-idempotent 2-comonad on $K$
+
+However, be warned that the conventions for what "colax-idempotent 2-comonad" means in the literature are inconsistent.
+
 ## Related concepts
 
 * [[idempotent monad]]
@@ -197,6 +218,15 @@ On connections to [[generalized multicategories]] and [[representable multicateg
 [[!redirects colax-idempotent 2-monads]]
 [[!redirects colax-idempotent monad]]
 [[!redirects colax-idempotent monads]]
+
+[[!redirects lax-idempotent 2-comonad]]
+[[!redirects lax-idempotent 2-comonads]]
+[[!redirects colax-idempotent 2-comonad]]
+[[!redirects colax-idempotent 2-comonads]]
+[[!redirects lax-idempotent pseudocomonad]]
+[[!redirects lax-idempotent pseudocomonad]]
+[[!redirects colax-idempotent pseudocomonad]]
+[[!redirects colax-idempotent pseudocomonad]]
 
 [[!redirects lax-idempotent]]
 [[!redirects lax-idempotence]]
