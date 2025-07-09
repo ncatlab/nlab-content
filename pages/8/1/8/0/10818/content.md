@@ -169,6 +169,8 @@ As "lax idempotent 2-adjunctions":
 
 * [[Maria Manuel Clementino]] and [[Fernando Lucatelli Nunes]], §3 of: _Lax comma 2-categories and admissible 2-functors_. [arXiv:2002.03132](https://arxiv.org/abs/2002.03132) (2020).
 
+However, note in this paper that the authors use "lax idempotent 2-comonad" for what, according to the convention for lax morphisms for coalgebras on [[lax morphism]], should be called a [[colax idempotent 2-comonad]].
+
 [[!redirects lax-idempotent 2-adjunction]]
 [[!redirects lax-idempotent 2-adjunctions]]
 [[!redirects lax idempotent 2-adjunction]]
