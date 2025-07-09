@@ -308,7 +308,7 @@ See also:
 
 * [[Joyal|André Joyal]], _[[joyalscatlab:Cartesian squares]]_
 
-In view of more general [[finite limits]] and [[L-finite limits]]:
+In view of more general [[finite limits]] and [[L-finite limits]], including the [[completion]] of a category under pullbacks:
 
 * [[Robert Paré]], *Simply connected limits*.  Can. J. Math., Vol. XLH, No. 4, 1990, pp. 731-746, [CMS](http://math.ca/10.4153/CJM-1990-038-6)
 
