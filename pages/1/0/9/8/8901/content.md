@@ -17,7 +17,7 @@
 
 GAP is a software system for computational discrete [[algebra]], with particular emphasis on computational [[finite group|finite]] [[group theory]]. The acronym stands for _Groups, Algorithms, Programming_.
 
-It is the basis on which the [[HAP]] homological algebra library are built.
+It is the basis on which the [[HAP]] homological algebra library is built.
 
 
 ## References
