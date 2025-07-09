@@ -48,6 +48,10 @@ On ([[enriched category|enriched]]) [[accessible categories]]:
  
 * [[Stephen Lack]], [[Giacomo Tendas]], *Virtual concepts in the theory of accessible categories*, Journal of Pure and Applied Algebra **227** 2 (2023) 107196 &lbrack;[arXiv:10.1016/j.jpaa.2022.107196](https://doi.org/10.1016/j.jpaa.2022.107196), [arXiv:2205.11056](https://arxiv.org/abs/2205.11056)&rbrack;
 
+On [[enriched category|enrichment]] in [[virtual double categories]]:
+
+* [[Soichiro Fujii]], [[Stephen Lack]], _The familial nature of enrichment over virtual double categories_ &lbrack;[arXiv:2507.05529](https://arxiv.org/abs/2507.05529)&rbrack;
+
 
 
 See also:
