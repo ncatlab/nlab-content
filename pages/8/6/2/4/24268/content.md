@@ -154,8 +154,9 @@ Realization of non-abelian holonomy on degenerate ground states in [[photonic wa
 
 
 ### In topological quantum computation
+  {#ReferencesInTQC}
 
-References which make explicit that [[topological quantum computation]] by [[braiding]] of [[anyon]] [[worldlines]] is a form of adiabatic quantum computation:
+References which make explicit that [[topological quantum computation]] by [[braiding]] of [[anyon]] [[worldlines]] is a form of adiabatic quantum computation, hence that the anyon braiding phase is a [[Berry connection|Berry phase]] according to the [[quantum adiabatic theorem]]:
 
 * [[Daniel P. Arovas]], [[Robert Schrieffer]], [[Frank Wilczek]]: *Fractional Statistics and the Quantum Hall Effect*, Phys. Rev. Lett. **53** (1984) 722 &lbrack;[doi:10.1103/PhysRevLett.53.722](https://doi.org/10.1103/PhysRevLett.53.722)&rbrack;
   > "The statistics of quasiparticles entering the quantum Hall effect are deduced from the adiabatic theorem."
