@@ -214,6 +214,8 @@ A special case of this situation is Prop. \ref{FullyFaithful} above.
 
 ## References
 
+* [[Samuel Eilenberg]], [[John Moore]], _Adjoint functors and triples_, Illinois J. Math. **9** 3 (1965) 381-398 &lbrack;[doi:10.1215/ijm/1256068141](https://doi.org/10.1215/ijm/1256068141)&rbrack;
+
 Some remarks on adjoint triples are in
 
 * {#Johnstone} [[Peter Johnstone]], _Remarks on punctual local connectedness_, [tac/25-03](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html).
