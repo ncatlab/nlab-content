@@ -102,6 +102,10 @@ However, the 2-categories $T Alg_l$ and $T Alg_c$ are not so well-behaved; they 
 
 * R. Blackwell, [[Max Kelly]], [[John Power]], _Two-dimensional monad theory_, ([doi](https://doi.org/10.1016/0022-4049%2889%2990160-6))
 
+The convention about lax morphisms for coalgebras is discussed in §2.3 of:
+
+* {#LS} [[Stephen Lack]] and [[Mike Shulman]], "Enhanced 2-categories and limits for lax morphisms", [arXiv](http://arxiv.org/abs/1104.2111).
+
 [[!redirects lax morphisms]]
 [[!redirects colax morphism]]
 [[!redirects colax morphisms]]
