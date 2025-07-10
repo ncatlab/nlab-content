@@ -99,7 +99,7 @@ In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \
 
 ## The category $qRel$
 
-The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2010](#Weaver10); see the article on [[quantum relations]].
+The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2012](#Weaver10); see the article on [[quantum relations]].
 
 \begin{definition}
 We define the [[dagger-compact category]] $qRel$.
@@ -138,7 +138,7 @@ $$
 
 1. The monoidal unit $1$ is defined by $\mathrm{At}(X) \coloneqq \{\ast\}$ and $1_\ast \coloneqq \mathbb{C}$.
 
-1. The [[symmetric monoidal category|braiding]] $\sigma_{X,Y}\: X \times Y \to Y \times X$ is defined by
+1. The [[symmetric monoidal category|braiding]] $\sigma_{X,Y}\colon X \times Y \to Y \times X$ is defined by
 $$
 (\sigma_{X,Y})_{(\alpha,\beta),(\beta', \alpha')} \coloneqq \begin{cases} \mathrm{span}\{\sigma_{X_\alpha, Y_\beta}\} & \text{if}\; (\alpha, \beta) = (\alpha', \beta'),\\
 \{0\} & \text{if}\;(\alpha, \beta) \neq (\alpha', \beta'),
@@ -146,7 +146,7 @@ $$
 $$
 where $\sigma_{X_\alpha, Y_\beta}$ denotes the braiding in [[Hilb|$Hilb$]].
 
-1. The dagger dual of an object $X$ is the dual quantum set $X^*$ (see Def. \ref{BasicOperations}).
+1. The [[dualizable object|dual]] of an object $X$ is the dual quantum set $X^*$ (see Def. \ref{BasicOperations}).
 
 \end{definition}
 
