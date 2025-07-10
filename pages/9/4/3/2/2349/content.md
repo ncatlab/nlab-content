@@ -96,5 +96,3 @@ In [[Cat]] the diagonal morphisms are [[diagonal functors]].
 [[!redirects diagonal subobject]]
 [[!redirects diagonal morphisms]]
 
-[[!redirects diagonal map]]
-[[!redirects diagonal maps]]
