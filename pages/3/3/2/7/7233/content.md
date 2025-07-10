@@ -559,10 +559,14 @@ Discussion of [[G₂-orbifolds]] includes
 
 Discussion of the [[moduli space]] of $G_2$-structures:
 
-
 * {#GrigorianYau08} [[Sergey Grigorian]], [[Shing-Tung Yau]], _Local geometry of the $G_2$ moduli space_, Commun.Math.Phys.287:459-488,2009 ([arXiv:0802.0723](http://arxiv.org/abs/0802.0723))
 
 * [[Spiro Karigiannis]], [[Naichung Conan Leung]], _Hodge Theory for $G_2$-manifolds: Intermediate Jacobians and Abel-Jacobi maps_, Proceedings of the London Mathematical Society (3) 99, 297-325 (2009) &lbrack;[arXiv:0709.2987](http://arxiv.org/abs/0709.2987), [talk slides pdf](http://www.math.uwaterloo.ca/~karigian/talks/g2modulispace.pdf)&rbrack;
+
+* Thibault Langlais: *Geometry and periods of $G_2$-moduli spaces* &lbrack;[arXiv:2410.09987](https://arxiv.org/abs/2410.09987)&rbrack;
+
+
+
 
 Relating to moduli of [[flat connections]] on [[tori]]:
 
