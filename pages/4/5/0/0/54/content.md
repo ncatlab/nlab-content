@@ -18,6 +18,7 @@ $\,$
 </a>
 </div>
 
+
 ## position
 
 I work in <br>
@@ -60,6 +61,15 @@ Projects:
 
 > For the complete list of invited talks I have given, see [there](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
+\linebreak
+
+* **[[schreiber:ISQS29|Non-Lagrangian onstruction of abelian CS/FQH-Theory via Flux Quantization in 2-Cohomotopy]]**
+
+  talk at: *[ISQS29](https://www.isqs.online)*, Prague (7-11 July 2025)
+
+  slides: [pdf](https://ncatlab.org/schreiber/files/ISQS29-Schreiber-20250706.pdf), draft recording: [YT](https://youtu.be/lfF7SNHB3Rc)
+
+
 * **[[schreiber:ItaCa Fest 2025|Geometric Orbifold Cohomology in Singular-Cohesive ∞-Topoi]]**
 
   talk at *[ItaCa](https://progetto-itaca.github.io/)* *[Fest 2025](https://progetto-itaca.github.io/fests/fest25.html)* ([17 June 2025](https://progetto-itaca.github.io/fests/fest25.html#jun))
@@ -70,7 +80,7 @@ Projects:
 
   lightning talk at *AI & Evolution Gathering* by [Softmax](https://www.softmax.com/) @ [The Royal Institution](https://www.rigb.org/) London (22 May 2025) 
 
-  video: [yt](https://youtu.be/eLJIQmpnH3Q)
+  video: [YT](https://youtu.be/eLJIQmpnH3Q)
 
 * **[[schreiber:Rethinking FQH Anyons -- talk|Rethinking FQH Anyons]]** 
  
