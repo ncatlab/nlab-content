@@ -20,7 +20,7 @@ A **semiadditive dagger category** is a [[cocartesian monoidal dagger category]]
 * for all objects $A \in Ob(C)$, $i_A^\dagger \circ i_A = id_A$ and $i_A^\dagger \circ i_A = id_A$
 * for all objects $A \in Ob(C)$ and $B \in Ob(C)$, $i_B^\dagger \circ i_A = 0_B \circ 0_A^\dagger$
 
-In a semiadditive dagger category, the coproduct is called a **biproduct** and the initial object is called a **zero object**. 
+In a semiadditive dagger category, the coproduct is called a **dagger biproduct** and the initial object is called a **zero object**. 
 
 ## Examples ##
 
