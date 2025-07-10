@@ -162,7 +162,7 @@ and equipped with the $G_2$-action given by left multiplication on the $G_2$-fac
 \begin{example}\label{QuotientsAsInducedActions}
 **(Quotients as induced actions)** \linebreak
 
-If $\phi \coloneqq G \longrightarrow 1$ is the [[terminal object|terminal]] morphims to the [[trivial group]], then its induced action (Def. \ref{InducedAction}) is the operation of forming $G$-[[quotient spaces]] (the $G$-[[orbit]]-space):
+If $\phi \coloneqq G \longrightarrow 1$ is the [[terminal object|terminal]] morphism to the [[trivial group]], then its induced action (Def. \ref{InducedAction}) is the operation of forming $G$-[[quotient spaces]] (the $G$-[[orbit]]-space):
 
 $$
   \array{
