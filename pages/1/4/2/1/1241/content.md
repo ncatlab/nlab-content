@@ -283,9 +283,13 @@ and a detailed one is in
 
 * A. Hebecker, J. Hisano, _Grand Unified Theories_, chapter 114. in Particle Data Group's _[The Review of Particle Physics](http://pdg.lbl.gov/2018/)_ 2018 ([pdf](http://pdg.lbl.gov/2018/reviews/rpp2018-rev-guts.pdf))
 
-See also 
+See also:
 
-* {#diLucio11} Luca di Lucio, _Aspects of Symmetry Breaking inGrand Unified Theories_, 2011 ([pdf](https://www.sissa.it/tpp/phdsection/AlumniThesis/Luca%20Di%20Luzio.pdf))
+* {#diLucio11} Luca di Lucio: *Aspects of Symmetry Breaking inGrand Unified Theories* (2011) &lbrack;[pdf](https://www.sissa.it/tpp/phdsection/AlumniThesis/Luca%20Di%20Luzio.pdf)&rbrack;
+
+* Giacomo Cacciapaglia, Aldo Deandrea, Konstantinos Kollias, Francesco Sannino
+l: *Grand-unification Theory Atlas: Standard Model and Beyond* &lbrack;[arXiv:2507.06368](https://arxiv.org/abs/2507.06368)&rbrack;
+
 
 Survey of arguments for the hypothesis of grand unification includes
 
