@@ -24,8 +24,14 @@ A kind of [[module]]/[[representation]] over a pair consisting of a [[semisimple
 
 ## References
 
-* wikipedia: [(g,K)-module](http://en.wikipedia.org/wiki/%28g,K%29-module), [Harish-Chandra module](http://en.wikipedia.org/wiki/Harish-Chandra_module)
+Named after [[Harish-Chandra]].
+
+* Wikipedia: *[(g,K)-module](http://en.wikipedia.org/wiki/%28g,K%29-module)*
+
+* Wikipedia: *[Harish-Chandra module](http://en.wikipedia.org/wiki/Harish-Chandra_module)*
+
 * David Vogan, Jr., Unitary Representations of Reductive Lie Groups, Annals of Mathematics Studies __118__, Princeton Univ. Press 1987
+
 * A. W. Knapp, D. A. Vogan, _Cohomological induction and unitary
 representations_, Princeton Univ. Press, 1995.
 
