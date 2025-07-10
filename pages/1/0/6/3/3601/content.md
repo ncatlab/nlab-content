@@ -224,6 +224,10 @@ Textbook accounts:
 
 * [[Garth Warner]]: *Positivity*, University of Washington &lbrack;[pdf](https://sites.math.washington.edu//~warner/Positivity_Warner.pdf), [[Warner-Positivity.pdf:file]]&rbrack;
 
+* [[John Preskill]]: *Quantum Information*, Cambridge University Press (2025, in press)
+
+  chapter 10: *Quantum Shannon Theory* &lbrack;[arXiv:1604.07450](https://arxiv.org/abs/1604.07450)&rbrack;
+
 
 
 Book collection:
@@ -264,7 +268,7 @@ In a context of [[quantum optics]]:
 Status update:
 
 * [[John Preskill]], *The Physics of Quantum Information*, talk at
-*The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) ([arXiv:2208.08064](https://arxiv.org/abs/2208.08064))
+*The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&rbrack;
 
 See also:
 
