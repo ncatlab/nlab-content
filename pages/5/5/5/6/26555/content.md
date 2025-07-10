@@ -65,7 +65,7 @@ X = \{X_\alpha\}_{\alpha \in \mathrm{At}(X)}
 $$
 \end{definition}
 
-Very little changes if we allow zero-dimensional Hilbert spaces in this definition, which is mathematically more natural but less intuitive.
+Very little changes if we allow zero-dimensional Hilbert spaces in this definition; doing so is mathematically more natural but less intuitive. The elements of $\mathrm{At}(X)$ are called the atoms of $X$.
 
 \begin{definition}
 \label{BasicOperations}
@@ -93,13 +93,13 @@ where $\mathcal{H}^*$ is the dual Hilbert space.
 
 \end{definition}
 
-The Cartesian product of quantum sets is so named because it generalizes the Cartesian product of sets. The former is not the [[cartesian product|categorical product]] in $qRel$, just as the latter is not the categorical product in [[Rel|$Rel$]]. The former is also not the categorical product in $qSet$.
+The Cartesian product of quantum sets is so named because it generalizes the Cartesian product of sets. The former is not the [[cartesian product|categorical product]] in $qRel$, just as the latter is not the categorical product in [[Rel|$Rel$]]. It is also not the categorical product in $qSet$.
 
-In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is the [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
+In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is their [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
 
 ## The category $qRel$
 
-The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2012](#Weaver10); see the article on [[quantum relations]].
+The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2010](#Weaver10); see the article on [[quantum relations]].
 
 \begin{definition}
 We define the [[dagger-compact category]] $qRel$.
@@ -119,7 +119,7 @@ $$
 
 1. The identity morphism $\mathrm{id}_X\colon X \to X$ is defined by
 $$
-(\id_X)_{\alpha, \beta} \coloneqq \begin{cases} \mathrm{span}\{1\} & \text{if}\;\alpha = \beta,\\
+(\mathrm{id}_{X})_{\alpha, \beta} \coloneqq \begin{cases} \mathrm{span}\{1\} & \text{if}\;\alpha = \beta,\\
 \{0\} & \text{if}\; \alpha \neq \beta.\end{cases}
 $$
 
@@ -138,17 +138,19 @@ $$
 
 1. The monoidal unit $1$ is defined by $\mathrm{At}(X) \coloneqq \{\ast\}$ and $1_\ast \coloneqq \mathbb{C}$.
 
-1. The [[symmetric monoidal category|braiding]] $\sigma_{X,Y}\colon X \times Y \to Y \times X$ is defined by
+1. The [[symmetric monoidal category|braidings]] $\sigma_{X,Y}\colon X \times Y \to Y \times X$ is defined by
 $$
 (\sigma_{X,Y})_{(\alpha,\beta),(\beta', \alpha')} \coloneqq \begin{cases} \mathrm{span}\{\sigma_{X_\alpha, Y_\beta}\} & \text{if}\; (\alpha, \beta) = (\alpha', \beta'),\\
 \{0\} & \text{if}\;(\alpha, \beta) \neq (\alpha', \beta'),
 \end{cases}
 $$
-where $\sigma_{X_\alpha, Y_\beta}$ denotes the braiding in [[Hilb|$Hilb$]].
+where $\sigma_{X_\alpha, Y_\beta}$ denotes the braiding in [[Hilb|$Hilb$]]. The associators and unitors are defined similarly.
 
 1. The [[dualizable object|dual]] of an object $X$ is the dual quantum set $X^*$ (see Def. \ref{BasicOperations}).
 
 \end{definition}
+
+Furthermore, $qRel$ has all [[coproduct|coproducts]]. It is a [[semiadditive dagger category]] with infinitary dagger biproducts and an infinitary [[distributive monoidal category]] with [[unitary]] distributors. The dagger biproduct of $X$ and $Y$ is their disjoint union $X + Y$ (see Def. \ref{BasicOperations}). The zero object $0$ is defined by $\mathrm{At}(0) = \emptyset$.
 
 ## Quantum sets as bundles
 
