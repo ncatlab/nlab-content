@@ -27,7 +27,6 @@ A **cartesian closed 2-category** is a [[2-category]], $\mathcal{B}$, with [[2-l
 The concept was introduced in ([Makkai 96](#Makkai96)). There is no connection to the concept of [[cartesian bicategory]].
 
 ## Examples
- {Examples}
 
 The following 2-categories are cartesian closed:
 
