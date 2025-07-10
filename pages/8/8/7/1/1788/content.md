@@ -5,6 +5,17 @@
 
 ***
 
+The original article:
+
+* [[Harish-Chandra]]: *On some applications of the universal enveloping algebra of a semisimple Lie algebra*, Trans. Amer. Math. Soc. **70** (1951) 28-96 &lbrack;[doi:10.1090/S0002-9947-1951-0044515-0](https://doi.org/10.1090/S0002-9947-1951-0044515-0)&rbrack;
+
+Review:
+
+* Eric Opdam, Valerio Toledano Laredo: *On Harish-Chandra's Isomorphism* &lbrack;[arXiv:2412.17525](https://arxiv.org/abs/2412.17525)&rbrack;
+
+
+***
+
 The *quantum of magnetic flux* is 
 
 $$
