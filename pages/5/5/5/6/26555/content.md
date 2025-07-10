@@ -114,7 +114,8 @@ where $L(\mathcal{H},\mathcal{K})$ is the space of all linear maps from $\mathca
 
 1. The composition $S \circ R \colon X \to Z$ of morphisms $R \colon X \to Y$ and $S \colon Y \to Z$ is given by
 $$
-(S \circ R)_{\alpha,\gamma} \coloneqq \mathrm{span}\{sr \mid r \in R_{\alpha, \beta},\; s \in S_{\beta, \gamma}\;\text{for some}\; \beta \in \At(Y)\}.
+(S \circ R)_{\alpha,\gamma} \coloneqq \mathrm{span}
+\{sr \mid r \in R_{\alpha, \beta},\; s \in S_{\beta, \gamma}\;\text{for some}\; \beta \in \At(Y)\}.
 $$
 
 1. The identity morphism $\mathrm{id}_X\colon X \to X$ is defined by
@@ -136,21 +137,21 @@ $$
 (R \times R')_{(\alpha, \alpha'),(\beta, \beta')} \coloneqq \mathrm{span}\{r \otimes r' \mid r \in R_{\alpha, \beta},\; r' \in R'_{\alpha', \beta'}\}.
 $$
 
-1. The monoidal unit $1$ is defined by $\mathrm{At}(X) \coloneqq \{\ast\}$ and $1_\ast \coloneqq \mathbb{C}$.
+1. The monoidal unit $1$ is defined by $\mathrm{At}(1) \coloneqq \{\bullet\}$ and $1_\bullet \coloneqq \mathbb{C}$.
 
-1. The [[symmetric monoidal category|braidings]] $\sigma_{X,Y}\colon X \times Y \to Y \times X$ is defined by
+1. The [[symmetric monoidal category|braiding]] $\sigma_{X,Y}\colon X \times Y \to Y \times X$ is defined by
 $$
 (\sigma_{X,Y})_{(\alpha,\beta),(\beta', \alpha')} \coloneqq \begin{cases} \mathrm{span}\{\sigma_{X_\alpha, Y_\beta}\} & \text{if}\; (\alpha, \beta) = (\alpha', \beta'),\\
 \{0\} & \text{if}\;(\alpha, \beta) \neq (\alpha', \beta'),
 \end{cases}
 $$
-where $\sigma_{X_\alpha, Y_\beta}$ denotes the braiding in [[Hilb|$Hilb$]]. The associators and unitors are defined similarly.
+where $\sigma_{X_\alpha, Y_\beta}$ denotes the braiding in [[Hilb|$Hilb$]]. The associator and unitors are defined similarly.
 
 1. The [[dualizable object|dual]] of an object $X$ is the dual quantum set $X^*$ (see Def. \ref{BasicOperations}).
 
 \end{definition}
 
-Furthermore, $qRel$ has all [[coproduct|coproducts]]. It is a [[semiadditive dagger category]] with infinitary dagger biproducts and an infinitary [[distributive monoidal category]] with [[unitary]] distributors. The dagger biproduct of $X$ and $Y$ is their disjoint union $X + Y$ (see Def. \ref{BasicOperations}). The zero object $0$ is defined by $\mathrm{At}(0) = \emptyset$.
+Furthermore, $qRel$ has all [[coproduct|coproducts]]. It is a [[semiadditive dagger category]] with infinitary dagger biproducts and an infinitary [[distributive monoidal category]] with a [[unitary]] distributor. The dagger biproduct of $X$ and $Y$ is their disjoint union $X + Y$ (see Def. \ref{BasicOperations}). The zero object $0$ is defined by $\mathrm{At}(0) = \emptyset$.
 
 ## Quantum sets as bundles
 
