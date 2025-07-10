@@ -116,11 +116,14 @@ and reviewed in
 
 * {#Carlip07} [[Steve Carlip]], _Symmetries, Horizons, and Black Hole Entropy_, Gen.Rel.Grav.39:1519-1523,2007; Int.J.Mod.Phys.D17:659-664,2008 ([arXiv:0705.3024](http://arxiv.org/abs/0705.3024))
 
-Further developments on black hole entropy are in
+Further developments:
 
 * [[Ashoke Sen]], _Logarithmic Corrections to Schwarzschild and Other Non-extremal Black Hole Entropy in Different Dimensions_, JHEP04(2013)156 ([arXiv:arXiv:1205.0971](http://arxiv.org/abs/arXiv:1205.0971))
 
 * Aitor Lewkowycz, [[Juan Maldacena]], _Generalized gravitational entropy_ ([arXiv:1304.4926](http://arxiv.org/abs/1304.4926))
+
+* Aidan M. McSharry, Harvey S. Reall: *On the third law of black hole mechanics for supersymmetric black holes* &lbrack;[arXiv:2507.06870](https://arxiv.org/abs/2507.06870)&rbrack;
+
 
 
 A discussion of the "black hole firewall problem":
