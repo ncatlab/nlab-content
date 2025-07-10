@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
