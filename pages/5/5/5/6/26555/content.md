@@ -67,6 +67,16 @@ $$
 
 Very little changes if we allow zero-dimensional Hilbert spaces in this definition; doing so is mathematically more natural but less intuitive. The elements of $\mathrm{At}(X)$ are called the atoms of $X$.
 
+Quantum sets are a generalization via the identification of each set $A$ with the quantum set $\mathrm{Inc}(A)$.
+
+\begin{definition}
+\label{Identification}
+For each set A, we define the quantum set $\mathrm{Inc}(A)$ by
+$\mathrm{At}(\mathrm{Inc}(A)) = A$ and $\mathrm{Inc}(A)_\alpha = \mathbb{C}$ for all $\alpha \in A$.
+\end{definition}
+
+The following basic operations generalize the familiar basic operations on sets.
+
 \begin{definition}
 \label{BasicOperations}
 Consider quantum sets $X$ and $Y$ according to Def. \ref{QuantumSet}. Then:
@@ -84,12 +94,6 @@ $$
 $$
 (X \times Y)_{(\alpha, \beta)} \coloneqq X_\alpha \otimes Y_\beta.
 $$
-
-* The *dual* $X^*$ is defined by $\mathrm{At}(X^*) \coloneqq \mathrm{At}(X)$ and
-$$
-(X^*)_\alpha \coloneqq X_\alpha^*,
-$$
-where $\mathcal{H}^*$ is the dual Hilbert space.
 
 \end{definition}
 
@@ -147,11 +151,53 @@ $$
 $$
 where $\sigma_{X_\alpha, Y_\beta}$ denotes the braiding in [[Hilb|$Hilb$]]. The associator and unitors are defined similarly.
 
-1. The [[dualizable object|dual]] of an object $X$ is the dual quantum set $X^*$ (see Def. \ref{BasicOperations}).
+1. The [[dualizable object|dual]] of an object $X$ is the dual quantum set $X^*$, which is defined by $\mathrm{At}(X^*) \coloneqq \mathrm{At}(X)$ and
+$$
+(X^*)_\alpha \coloneqq X_\alpha^*,
+$$
+where $\mathcal{H}^*$ is the dual Hilbert space.
 
 \end{definition}
 
 Furthermore, $qRel$ has all [[coproduct|coproducts]]. It is a [[semiadditive dagger category]] with infinitary dagger biproducts and an infinitary [[distributive monoidal category]] with a [[unitary]] distributor. The dagger biproduct of $X$ and $Y$ is their disjoint union $X + Y$ (see Def. \ref{BasicOperations}). The zero object $0$ is defined by $\mathrm{At}(0) = \emptyset$.
+
+\begin{proposition}
+The dagger-compact category $qRel$ is [[enriched category|enriched]] over [[suplattice|suplattices]] with 
+$$
+R \leq S \qquad \Longleftrightarrow \qquad R_{\alpha, \beta} \subseteq S_{\alpha, \beta}
+$$
+for all $\alpha \in \mathrm{At}(X)$ and $\beta \in \mathrm{At}(Y)$, where $R, S \colon X \to Y$.
+\end{proposition}
+
+The dagger-compact category [[Rel|$Rel$]] is enriched over suplattices too. It is an [[allegory]], while $qRel$ fails to be an allegory only because the relevant modular law fails. Nevertheless, $qRel(X,Y)$ is always a [[modular lattice]].
+
+In effect, $Rel$ is an enriched dagger-compact subcategory of $qRel$.
+
+\begin{definition}
+We define the "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$:
+
+* For each set $A$, we define $\mathrm{Inc}(A)$ as in Def. \ref{Identification}.
+
+* For each relation $R\colon A \to B$, we define
+$$
+\mathrm{Inc}(R) =
+\begin{cases}
+\mathbb{C}  & \text{if}\;(\alpha, \beta) \in R, \\
+0 & \text{if}\;(\alpha, \beta) \notin R,
+\end{cases}
+$$
+where we identify $L(\mathbb{C}, \mathbb{C})$ with $\mathbb{C}$ in the obvious way.
+
+\end{definition}
+
+\begin{proposition}
+The "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$ is an [[enriched functor|enriched]] [[monoidal functor|strong monoidal]] [[dagger functor]] that is [[full and faithful functor|full and faithful]], that satisfies $\mathrm{Inc}(A^*) \cong \mathrm{Inc}(A)^*$, and that has a [[right adjoint]] $\mathrm{Cl}\colon qRel \to Rel$:
+
+* For each quantum set $X$, we define $\mathrm{Cl}(X) = \{\alpha \in \mathrm{At}(X) \mid \mathrm{dim} (X_\alpha) = 1 \}.$
+
+* For each morphism $R \colon X \to Y$, we define $\mathrm{Cl}(R) = \{(\alpha, \beta) \in \mathrm{Cl}(X) \times \mathrm{Cl}(Y) \mid \mathrm{dim} (R_{\alpha, \beta}) = 1\}.$
+
+\end{proposition}
 
 ## Quantum sets as bundles
 
@@ -185,8 +231,7 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
 
 * {#KuperbergWeaver12} [[Greg Kuperberg]], [[Nik Weaver]]: *A von Neumann Algebra approach to quantum metrics*,  Mem. Amer. Math. Soc. **215** (2012) &lbrack;[arXiv:1005.0353](https://arxiv.org/abs/1005.0353), [ams:memo-215-1010](https://bookstore.ams.org/memo-215-1010)&rbrack;
 
-* {#Weaver10} [[Nik Weaver]], *Quantum relations* &lbrack;[arXiv:1005.0354](https://arxiv.org/abs/1005.0354)&rbrack;
-
+* {#Weaver10} [[Nik Weaver]], *Quantum relations*, Mem. Amer. Math. Soc. **215** (2012) &lbrack;[arXiv:1005.0354](https://arxiv.org/abs/1005.0354), [ams:memo-215-1010](https://bookstore.ams.org/memo-215-1010)&rbrack;
 
 * {#DeCommerKasprzakSkalskiSoltan18} Kenney De Commer, Paweł Kasprzak, Adam Skalski, Piotr M. Sołtan: *Quantum actions on discrete quantum spaces and a generalization of Clifford's theory of representations*, Israel J. Math. **226** (2018).
 
