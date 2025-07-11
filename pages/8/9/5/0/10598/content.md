@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -105,7 +106,7 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
 
 Simple examples of [[G-manifolds]] ([above](#GManifolds)) are [[surfaces]] with $G$-action.
 
-\begin{example}
+\begin{example}\label{TorusWithReflectionAction}
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] one of the two [[coordinate]] axes:
 
 \begin{imagefromfile}
@@ -122,6 +123,23 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 \end{example}
 
+
+\begin{example}\label{TorusWithC4RotationAction}
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 4|$\mathbb{Z}_{/4}$]]-[[group action|action]] which rotates by multiples of $\pi/2$ around the origin:
+
+\begin{imagefromfile}
+    "file_name": "C4TorusCellStructure.png",
+    "width": 470,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
 
 
 ## Properties
