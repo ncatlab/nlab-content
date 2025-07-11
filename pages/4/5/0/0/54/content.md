@@ -63,7 +63,7 @@ Projects:
 
 \linebreak
 
-* **[[schreiber:ISQS29|Non-Lagrangian onstruction of abelian CS/FQH-Theory via Flux Quantization in 2-Cohomotopy]]**
+* **[[schreiber:ISQS29|Non-Lagrangian construction of abelian CS/FQH-Theory via Flux Quantization in 2-Cohomotopy]]**
 
   talk at: *[ISQS29](https://www.isqs.online)*, Prague (7-11 July 2025)
 
