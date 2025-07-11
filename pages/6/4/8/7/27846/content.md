@@ -15,7 +15,7 @@
 
 Typecase is a version of [[ad hoc polymorphism]] that appears in some [[type theories]]. 
 
-Typecase in a [[dependent type theory]] implies that the type theory does not satisfy [[parametric polymorphism]] in the meta-theory (see [Boulier, Pédrot & Tabareau 2017](#BPT17), [Category Theory Zulip](#CTZulip)). As a result, typecase is inconsistent with [[explicit parametricity]]. 
+Typecase in a [[dependent type theory]] implies that the type theory does not satisfy [[parametric polymorphism]] in the meta-theory (see [Boulier, Pédrot & Tabareau 2017](#BPT17)). As a result, typecase is inconsistent with [[explicit parametricity]]. 
 
 ## Related concepts
 
