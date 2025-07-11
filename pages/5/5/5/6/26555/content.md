@@ -103,7 +103,7 @@ In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \
 
 ## The category $qRel$
 
-The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2010](#Weaver10); see the article on [[quantum relations]].
+The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2012](#Weaver12); see the article on [[quantum relations]].
 
 \begin{definition}
 We define the [[dagger-compact category]] $qRel$.
@@ -226,7 +226,7 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
 
 * {#KuperbergWeaver12} [[Greg Kuperberg]], [[Nik Weaver]]: *A von Neumann Algebra approach to quantum metrics*,  Mem. Amer. Math. Soc. **215** (2012) &lbrack;[arXiv:1005.0353](https://arxiv.org/abs/1005.0353), [ams:memo-215-1010](https://bookstore.ams.org/memo-215-1010)&rbrack;
 
-* {#Weaver10} [[Nik Weaver]], *Quantum relations*, Mem. Amer. Math. Soc. **215** (2012) &lbrack;[arXiv:1005.0354](https://arxiv.org/abs/1005.0354), [ams:memo-215-1010](https://bookstore.ams.org/memo-215-1010)&rbrack;
+* {#Weaver12} [[Nik Weaver]], *Quantum relations*, Mem. Amer. Math. Soc. **215** (2012) &lbrack;[arXiv:1005.0354](https://arxiv.org/abs/1005.0354), [ams:memo-215-1010](https://bookstore.ams.org/memo-215-1010)&rbrack;
 
 * {#DeCommerKasprzakSkalskiSoltan18} Kenney De Commer, Paweł Kasprzak, Adam Skalski, Piotr M. Sołtan: *Quantum actions on discrete quantum spaces and a generalization of Clifford's theory of representations*, Israel J. Math. **226** (2018).
 
