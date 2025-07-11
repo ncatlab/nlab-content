@@ -172,7 +172,7 @@ Furthermore, this bicategory is actually the horizontal bicategory of a [[double
 
 Let $\mathcal{E}$ be a category with (chosen) pullbacks and let $\mathcal{D}$ be a class of morphisms in $\mathcal{E}$ called *display maps*.
 
-There is a [[multicategory]] $\mathbf{Poly}(\mathcal{E})$, first introduced by [Garner, 2019](#Garner2019) and attributed to [Weber, 2015](Weber2015), whose: 
+There is a [[multicategory]] $\mathbf{Poly}(\mathcal{E})$, first introduced by [Garner, 2019](#Garner2019) and attributed to [Weber, 2015](#Weber2015), whose: 
 
 * objects are $\mathcal{D}$-maps $p \colon E \rightarrow B$ (that is, a polynomial $* \leftarrow E \rightarrow B \rightarrow *$)
 
