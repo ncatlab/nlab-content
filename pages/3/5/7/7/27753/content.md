@@ -170,6 +170,8 @@ The case of [[crystalline topological insulators]] and [[symmetry protected topo
 * Yuan-Ming Lu, Ying Ran: *Symmetry protected fractional Chern insulators and fractional topological insulators*, Phys. Rev. B **85** (2012)  165134 &lbrack;[arXiv:1109.0226](https://arxiv.org/abs/1109.0226), [doi:10.1103/PhysRevB.85.165134](https://doi.org/10.1103/PhysRevB.85.165134)&rbrack;
   > "In fact, the recently discovered FCI states preserve all the lattice point group symmetry as well as translational symmetry. Here in this paper, we point out that as a consequence of the lattice symmetry, there exist many different quantum FCI phases, all respecting the full lattice symmetry, even at the same filling fraction with the same quantum Hall conductance \[...\] These distinct FCI phases cannot be adiabatically connected with each other without a phase transition while the lattice symmetry is respected"
 
+* Chao-Ming Jian, Xiao-Liang Qi: *Crystal-symmetry preserving Wannier states for fractional chern insulators*, Phys. Rev. B **88** (2013) 165134 &lbrack;[arXiv:1303.1787](https://arxiv.org/abs/1303.1787), [doi:10.1103/PhysRevB.88.165134](https://doi.org/10.1103/PhysRevB.88.165134)&rbrack;
+
 * Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators*, Phys. Rev. B (2025) &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431), [doi:10.1103/8bpm-qbzp](https://doi.org/10.1103/8bpm-qbzp)&rbrack;
 
 * Yuxuan Zhang, [[Maissam Barkeshli]]: *Fractionally Quantized Electric Polarization and Discrete Shift of Crystalline Fractional Chern Insulators*, Phys. Rev. B
