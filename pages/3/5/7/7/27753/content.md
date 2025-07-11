@@ -183,6 +183,11 @@ See also:
 
 * Kryštof Kolář, Kang Yang, [[Felix von Oppen]], Christophe Mora: *Robustness of real-space topology in moiré systems* &lbrack;[arXiv:2507.00130](https://arxiv.org/abs/2507.00130)&rbrack;
 
+Relation to [[superconductors]]:
+
+* Taige Wang, Michael P. Zaletel: *Chiral superconductivity near a fractional Chern insulator* &lbrack;[arXiv:2507.07921](https://arxiv.org/abs/2507.07921)&rbrack;
+
+
 
 
 [[!redirects quantum anomalous Hall effects]]
