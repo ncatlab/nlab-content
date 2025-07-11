@@ -13,7 +13,7 @@
 
 ## Idea
 
-Many [[dependent type theories]] satisfy a meta-theoretic version of [[parametricity]] traditionally called *external parametricity*. However, there are some dependent type theories which do not have external parametricity in the meta-theoretic sense, such as dependent type theories with [[typecase]] (see [Boulier, Pédrot & Tabareau 2017](#BPT17), [Category Theory Zulip](#CTZulip)).
+Many [[dependent type theories]] satisfy a meta-theoretic version of [[parametricity]] traditionally called *external parametricity*. However, there are some dependent type theories which do not have external parametricity in the meta-theoretic sense, such as dependent type theories with [[typecase]] (see [Boulier, Pédrot & Tabareau 2017](#BPT17)).
 
 **Parametric dependent type theory** is [[dependent type theory]] with an explicit notion of [[parametricity]] inside of the theory itself called **explicit parametricity**, in the same way that some dependent type theories have [[explicit substitution]]. A dependent type theory without explicit parametricity is called **non-parametric**. 
 
