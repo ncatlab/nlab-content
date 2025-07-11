@@ -91,7 +91,10 @@ Classes of examples include
 
 ##References
 
-* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_
+* [[Jacob Lurie]], _(∞,2)-Categories and the Goodwillie Calculus I_  &lbrack;[arXiv:0905.0462](https://arxiv.org/abs/0905.0462)&rbrack;
+
+* Félix Loubaton, [[Jaco Ruit]], _On the squares functor and the Gaitsgory-Rozenblyum conjectures_ &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
+
 
 [[!redirects (infinity,2)-categories]]
 [[!redirects (∞,2)-category]]
