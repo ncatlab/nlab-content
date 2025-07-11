@@ -60,6 +60,10 @@ For a generalization to *virtual* ultracategories, a [[categorification]] of [[r
 
 * Gabriel Saadia, _Extending conceptual completeness via virtual ultracategories_ &lbrack;[arXiv:2506.23935](https://arxiv.org/abs/2506.23935)&rbrack;
 
+and a similar construction:
+
+* Ali Hamad, *Generalised ultracategories and conceptual completeness of geometric logic* &lbrack;[arXiv:2507.07922](https://arxiv.org/abs/2507.07922)&rbrack;
+
 
 [[!redirects ultracategories]]
 
