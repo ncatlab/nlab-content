@@ -34,25 +34,25 @@ Let $E$ be the class of [[final functors]] and $M$ be the class of [[discrete fi
 +-- {: .proof}
 ###### Proof
 
-Let $F:C\to D$ be a functor.  Define $K:D\to Set$ as the left Kan extension of the constant presheaf $C\to Set$ at the singleton along $F$.  Explicitly, $K(d)$ is the set of connected components of $F/d$. Let $E=\int K$, so an object of $E$ is an ordered pair $(d, [\alpha:Fc\to d])$ where $[\alpha]$ denotes the connected component of $(c,\alpha)$.  Then it is not hard to verify that $e:C\to E$ mapping $c\mapsto (Fc,[id_{fc}])$ is final, the canonical $m:E\to D$ is a discrete fibration, and $F=me$.
+Let $F:C\to D$ be a functor.  Define $K:D\to Set$ as the left Kan extension of the constant presheaf $C\to Set$ at the singleton along $F$.  Explicitly, $K(d)$ is the set of connected components of $F/d$. Let $E=\int K$, so an object of $E$ is an ordered pair $(d, [\alpha:F c\to d])$ where $[\alpha]$ denotes the connected component of $(c,\alpha)$.  Then it is not hard to verify that $e:C\to E$ mapping $c\mapsto (F c,[id_{F c}])$ is final, the canonical $m:E\to D$ is a discrete fibration, and $F = m e$.
 
 Now we show that $E$ and $M$ are replete subcategories of $Cat$.  Clearly they include all isomorphisms.
 
-If functors $F:C\to D$ and $G: D\to E$ are final, then we show that $G\circ F$ is final.  For $e\in E$, there is an element $(d,\alpha:e\to Gd)$ of $e/G$, and thence an element $(c,\beta:d\to Fc)$ of $d/F$, so we obtain an element $(c, e \stackrel{\alpha}{\to} Gd \stackrel{G\beta}{\to} GFc)$ of $e/GF$.  Now we must show that any two elements $(c,\gamma:e\to GFc),(c',\gamma':e\to GFc')$ are connected.  Since $G$ is final, elements $(Fc,\gamma)$ and $(Fc',\gamma')$ of $e/G$ are connected.  It suffices to consider the case of a zig-zag of length one: a morphism $f:Fc\to Fc'$ such that 
+If functors $F:C\to D$ and $G: D\to E$ are final, then we show that $G\circ F$ is final.  For $e\in E$, there is an element $(d,\alpha:e\to G d)$ of $e/G$, and thence an element $(c,\beta:d\to F c)$ of $d/F$, so we obtain an element $(c, e \stackrel{\alpha}{\to} Gd \stackrel{G\beta}{\to} G F c)$ of $e/GF$.  Now we must show that any two elements $(c,\gamma:e\to G F c),(c',\gamma':e\to G F c')$ are connected.  Since $G$ is final, elements $(F c,\gamma)$ and $(F c',\gamma')$ of $e/G$ are connected.  It suffices to consider the case of a zig-zag of length one: a morphism $f:F c\to F c'$ such that 
 
 \begin{xymatrix}
   e 
     \ar[r]^\gamma 
     \ar[dr]_{\gamma'} 
   & 
-  GFc 
-    \ar[d]^{Gf} 
+  G F c 
+    \ar[d]^{G f} 
   \\ 
   & 
-  GFc'
+  G F c'
 \end{xymatrix}
 
-By finality of $F$, the elements $(c,id:Fc\to Fc)$ and $(c', f:Fc\to Fc')$ of $Fc/F$ are connected.  A zig-zag path between them, by precomposition with $\gamma$, becomes a zig-zag path between $(c,\gamma)$ and $(c',\gamma')$.  So $G\circ F$ is final.
+By finality of $F$, the elements $(c,id:F c\to F c)$ and $(c', f:F c\to F c')$ of $Fc/F$ are connected.  A zig-zag path between them, by precomposition with $\gamma$, becomes a zig-zag path between $(c,\gamma)$ and $(c',\gamma')$.  So $G\circ F$ is final.
 
 The proof that discrete fibrations form a subcategory is omitted.
 
