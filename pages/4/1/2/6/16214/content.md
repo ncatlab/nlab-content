@@ -1,6 +1,7 @@
+
 This entry is to record the reference:
 
-* [[D. Gaitsgory]], [[N. Rozenblyum]]: 
+* [[Dennis Gaitsgory]], [[Nick Rozenblyum]]: 
 
   \linebreak
 
