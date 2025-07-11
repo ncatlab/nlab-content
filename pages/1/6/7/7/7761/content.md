@@ -18,9 +18,6 @@
 
 Ultracategories were introduced in [Makkai 87](#Makkai87) in order to prove [[conceptual completeness]], but note that Lurie's definition slightly differs from Makkai's ([Lurie, Warning 1.0.4](#Lurie)).
 
-(For a conjecture that ultracategories are a kind of generalized multicategory, see [Shulman](#Shulman).)
-
-
 In ([Clementino-Tholen 03](#ClemTholen)), a different concept of ultracategory is introduced as an instance of a [[generalized multicategory]]. 
 
 ### Related concepts
@@ -34,10 +31,6 @@ In ([Clementino-Tholen 03](#ClemTholen)), a different concept of ultracategory i
 * Marek W. Zawadowski, _Descent and duality_, Annals of Pure and Applied Logic __71__, n.2 (1995), 131&#8211;188
 
 * {#Lurie} [[Jacob Lurie]], _Ultracategories_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
-
-For a conjecture that ultracategories are a kind of generalized multicategory see
-
-* {#Shulman} [[Mike Shulman]], [blog comment](https://golem.ph.utexas.edu/category/2010/01/generalized_multicategories.html#c058061)
 
 For a different notion of ultracategory see
 
