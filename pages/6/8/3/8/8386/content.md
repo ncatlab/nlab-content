@@ -39,6 +39,7 @@ $$ \array {
 } $$
 But things don\'t always work out this way.
 
+In [[type theory]], one example of ad hoc polymorphism is [[typecase]]. 
 
 ## Parametric polymorphism
 
@@ -79,7 +80,7 @@ $$ \mathrm{first} : \prod_{A:Type} A\times A \to A \qquad \mathrm{or} \qquad \ma
 
 Examples of parametric polymorphism in dependent type theory include [[axioms]] and [[axiom schemata]], such as [[UIP]] and [[axiom K]], [[excluded middle]], [[axiom of choice]], and the [[type theoretic axiom of replacement|axiom of replacement]] for a [[Tarski universe]]. Other examples include the [[typal equality|typal]] [[recursion|recursion principle]] of ([[higher inductive types|higher]]) [[inductive types]] that shows it to be a homotopy-[[initial object]] and the [[typal equality|typal]] [[corecursion|corecursion principle]] of ([[higher coinductive type|higher]]) [[coinductive types]] that shows it to be a homotopy-[[terminal object]]. 
 
-Many [[dependent type theories]] satisfy a meta-theoretic version of parametric polymorphism. However, there are some dependent type theories which do not have parametric polymorphism in the meta-theoretic sense, such as dependent type theories with [[typecase]], see [here](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/Continuations.2C.20parametricity.2C.20and.20polymorphism/near/527636418). In addition some dependent type theories have an explicit version of parametric polymorphism inside the type theory itself. These are the [[parametric dependent type theories]]. 
+Many [[dependent type theories]] satisfy a meta-theoretic version of parametric polymorphism. However, there are some dependent type theories which do not have parametric polymorphism in the meta-theoretic sense, such as dependent type theories with [[typecase]] (see [Boulier, Pédrot & Tabareau 2017](#BPT17), [Category Theory Zulip](#CTZulip)). In addition some dependent type theories have an explicit version of parametric polymorphism inside the type theory itself. These are the [[parametric dependent type theories]]. 
 
 ## Related concepts
 
@@ -122,6 +123,8 @@ Theorems for free were explained in:
 Some discussion on parametricity and polymorphism appears in:
 
 * {#CTZulip} *Continuations, parametricity, and polymorphism*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/Continuations.2C.20parametricity.2C.20and.20polymorphism/with/527734153))
+
+* {#BPT17} Simon Boulier, Pierre-Marie Pédrot, Nicolas Tabareau, *The next 700 syntactical models of type theory*, CPP 2017: Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, Pages 182 - 194, 16 January 2017 &lbrack;[doi:10.1145/3018610.3018620](https://doi.org/10.1145/3018610.3018620)&rbrack;
 
 See also the references at *[[parametric dependent type theory]]* for the various notions of parametricity in various kinds of [[dependent type theories]]. 
 
