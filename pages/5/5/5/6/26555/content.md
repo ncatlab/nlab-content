@@ -191,12 +191,7 @@ where we identify $L(\mathbb{C}, \mathbb{C})$ with $\mathbb{C}$ in the obvious w
 \end{definition}
 
 \begin{proposition}
-The "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$ is an [[enriched functor|enriched]] [[monoidal functor|strong monoidal]] [[dagger functor]] that is [[full and faithful functor|full and faithful]], that satisfies $\mathrm{Inc}(A^*) \cong \mathrm{Inc}(A)^*$, and that has a [[right adjoint]] $\mathrm{Cl}\colon qRel \to Rel$:
-
-* For each quantum set $X$, we define $\mathrm{Cl}(X) = \{\alpha \in \mathrm{At}(X) \mid \mathrm{dim} (X_\alpha) = 1 \}.$
-
-* For each morphism $R \colon X \to Y$, we define $\mathrm{Cl}(R) = \{(\alpha, \beta) \in \mathrm{Cl}(X) \times \mathrm{Cl}(Y) \mid \mathrm{dim} (R_{\alpha, \beta}) = 1\}.$
-
+The "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$ is an [[enriched functor|enriched]] [[monoidal functor|strong monoidal]] [[dagger functor]] that satisfies $\mathrm{Inc}(A^*) \cong \mathrm{Inc}(A)^*$ and that is [[full and faithful functor|full and faithful]].
 \end{proposition}
 
 ## Quantum sets as bundles
