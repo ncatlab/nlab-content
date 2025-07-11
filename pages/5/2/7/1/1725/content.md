@@ -89,11 +89,19 @@ Classes of examples include
 
 
 
-##References
+## References
 
-* [[Jacob Lurie]], _(∞,2)-Categories and the Goodwillie Calculus I_  &lbrack;[arXiv:0905.0462](https://arxiv.org/abs/0905.0462)&rbrack;
+The original article
 
-* Félix Loubaton, [[Jaco Ruit]], _On the squares functor and the Gaitsgory-Rozenblyum conjectures_ &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
+* [[Jacob Lurie]]: _(∞,2)-Categories and the Goodwillie Calculus I_  &lbrack;[arXiv:0905.0462](https://arxiv.org/abs/0905.0462)&rbrack;
+
+Further discussion:
+
+* {#GaitsgoryRozenblyum17} [[Dennis Gaitsgory]], [[Nick Rozenblyum]]: *$(\infty,2)$-Categories*, Appendix of (Vol 1 of): *[[A study in derived algebraic geometry]]*, Mathematical Surveys and Monographs **221**, Americal Mathematical Society (2017) &lbrack;[ams:SURV/221](https://bookstore.ams.org/view?ProductCode=SURV/221), [book webpage](https://people.mpim-bonn.mpg.de/gaitsgde/Book/)&rbrack;
+
+Specifically on the [[Gray tensor product]] in the context of $(\infty,2)$-categories, following [Gaitsgory & Rozenblyum 2017](#GaitsgoryRozenblyum17):
+
+* Félix Loubaton, [[Jaco Ruit]]: *On the squares functor and the Gaitsgory-Rozenblyum conjectures* &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
 
 
 [[!redirects (infinity,2)-categories]]
