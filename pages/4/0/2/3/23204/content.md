@@ -13,7 +13,7 @@ On [[formal category theory]] in the setting of higher categories:
 
 * [[Jaco Ruit]], _Formal category theory in ∞-equipments II: Lax functors, monoidality and fibrations_ &lbrack;[arXiv:2408.15190](https://arxiv.org/abs/2408.15190)&rbrack;
 
-On result concerning [[(∞,2)-categories]]
+On the [[Gray tensor product]] in the context of [[(∞,2)-categories]]:
 
 * Félix Loubaton, [[Jaco Ruit]], _On the squares functor and the Gaitsgory-Rozenblyum conjectures_ &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
 
