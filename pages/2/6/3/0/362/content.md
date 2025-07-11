@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+
+\tableofcontents
+
 
 ## Idea 
 
@@ -51,13 +51,15 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 ## References
 
-Theorem 1,4.14 of:
+### In 2-category theory
 
-* John W. Gray, _Formal category theory: adjointness for 2-categories_, Lecture Notes in Mathematics, Vol. 391. Springer-Verlag, Berlin-New York, 1974. xii+282 pp doi:[10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280) (see also [[Adjointness for 2-Categories]])
+Original discussion of the Gray tensor product in [[2-category theory]]:
 
-* John W. Gray, _Coherence for the Tensor Product of 2-Categories, and Braid Groups_ , pp.62-76 in Heller, [[Myles Tierney|Tierney]] (eds.), _Algebra, Topology, and Category Theory_ , Academic Press New York 1976.
+* [[John W. Gray]], Theorem 1,4.14 of: _Formal category theory: adjointness for 2-categories_, Lecture Notes in Mathematics, Vol. 391. Springer-Verlag, Berlin-New York, 1974. xii+282 pp doi:[10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280) (see also [[Adjointness for 2-Categories]])
 
-* Robert Gordon, [[John Power]], [[Ross Street]].  _Coherence for tricategories_, Mem. Amer. Math. Soc. 117 (1995), no. 558, vi+81 pp. doi:[10.1090/memo/0558](http://dx.doi.org/10.1090/memo/0558) ([AMS bookstore](https://bookstore.ams.org/memo-117-558/) incl. free sample chapter)
+* [[John W. Gray]], _Coherence for the Tensor Product of 2-Categories, and Braid Groups_ , pp.62-76 in Heller, [[Myles Tierney|Tierney]] (eds.), _Algebra, Topology, and Category Theory_ , Academic Press New York 1976.
+
+* [[Robert Gordon]], [[John Power]], [[Ross Street]]:  _Coherence for tricategories_, Mem. Amer. Math. Soc. **117** 558 (1995) &lbrack;[doi:10.1090/memo/0558](http://dx.doi.org/10.1090/memo/0558), [ams:memo-117-558](https://bookstore.ams.org/memo-117-558/)&rbrack;
 
 * [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory, 26(2) (2002) pp171-205, ([gzipped .ps](http://maths.mq.edu.au/~slack/papers/qmc2cat.ps.gz)) (doi:[10.1023/A:1020305604826](https://doi.org/10.1023/A:1020305604826) - requires Portico subscription)
 
@@ -78,5 +80,15 @@ A general theory of lax tensor products, unifying Gray tensor products with the 
 A proof that the Gray tensor product does form a monoidal structure, based only on its universal property, is in
 
 * [[John Bourke]], [[Nick Gurski]], _The Gray tensor product via factorisation_, Appl Categor Struct **25** (2017) p603-624, doi:[10.1007/s10485-016-9467-6](https://doi.org/10.1007/s10485-016-9467-6), arXiv:[1508.07789](http://arxiv.org/abs/1508.07789)
+
+### In $(\infty,2)$-category theory
+
+Discussion of the Gray tensor product in [[(infinity,2)-category|$(\infty,2)$-category]] theory:
+
+* {#GaitsgoryRozenblyum17} [[Dennis Gaitsgory]], [[Nick Rozenblyum]]: *Lax functors and the Gray product*, Chapter 10.3 in the Appendix of: *[[A study in derived algebraic geometry]]*, Mathematical Surveys and Monographs **221**, Americal Mathematical Society (2017) &lbrack;[ams:SURV/221](https://bookstore.ams.org/view?ProductCode=SURV/221), [book webpage](https://people.mpim-bonn.mpg.de/gaitsgde/Book/)&rbrack;
+
+* Félix Loubaton, [[Jaco Ruit]]: *On the squares functor and the Gaitsgory-Rozenblyum conjectures* &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
+
+
 
 [[!redirects Gray]]
