@@ -67,7 +67,7 @@ $$
 
 Very little changes if we allow zero-dimensional Hilbert spaces in this definition; doing so is mathematically more natural but less intuitive. The elements of $\mathrm{At}(X)$ are called the atoms of $X$.
 
-Quantum sets are a generalization via the identification of each set $A$ with the quantum set $\mathrm{Inc}(A)$.
+Quantum sets are a generalization of sets via the identification of each set $A$ with the quantum set $\mathrm{Inc}(A)$.
 
 \begin{definition}
 \label{Identification}
