@@ -13,7 +13,7 @@
 
 ## Idea
 
-Many [[dependent type theories]] satisfy a meta-theoretic version of [[parametricity]] traditionally called *external parametricity*. However, there are some dependent type theories which do not have external parametricity in the meta-theoretic sense, such as dependent type theories with [[typecase]] (see [here](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/Continuations.2C.20parametricity.2C.20and.20polymorphism/near/527636418)).
+Many [[dependent type theories]] satisfy a meta-theoretic version of [[parametricity]] traditionally called *external parametricity*. However, there are some dependent type theories which do not have external parametricity in the meta-theoretic sense, such as dependent type theories with [[typecase]] (see [Boulier, Pédrot & Tabareau 2017](#BPT17), [Category Theory Zulip](#CTZulip)).
 
 **Parametric dependent type theory** is [[dependent type theory]] with an explicit notion of [[parametricity]] inside of the theory itself called **explicit parametricity**, in the same way that some dependent type theories have [[explicit substitution]]. A dependent type theory without explicit parametricity is called **non-parametric**. 
 
@@ -44,6 +44,8 @@ There are also versions of explicit parametricity called **modal parametricity**
 These modal type theories attempt to formalize, in addition to the [[internal logic]] of a $(\infty,1)$-topos of cubical or semi-cubical objects, also the internal logic of the base $(\infty,1)$-topos and its [[adjoint functors]] with the [[(infinity,1)-sheaf (infinity,1)-topos|$(\infty,1)$-sheaf $(\infty,1)$-topos]]. 
 
 Examples of such modal parametric type theories include the [[displayed type theory]] by [Kolomatskaia & Shulman 2023](#KS23) with external modal parametricity and the [[cohesive type theory]] by [Aberlé 2024](#Aberle24) with internal modal parametricity. 
+
+Having [[typecase]] is inconsistent with explicit polymorphism, since explicit polymorphism proves meta-theoretic external parametricity while typecase violates meta-theoretic external parametricity. 
 
 ## Related concepts
 
@@ -104,6 +106,8 @@ A proof assistant implementing an observational [[parametric type theory]] with 
 Some discussion on parametricity in dependent type theory appears in:
 
 * {#CTZulip} *Continuations, parametricity, and polymorphism*, Category Theory Zulip ([web](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/Continuations.2C.20parametricity.2C.20and.20polymorphism/with/527734153))
+
+* {#BPT17} Simon Boulier, Pierre-Marie Pédrot, Nicolas Tabareau, *The next 700 syntactical models of type theory*, CPP 2017: Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, Pages 182 - 194, 16 January 2017 &lbrack;[doi:10.1145/3018610.3018620](https://doi.org/10.1145/3018610.3018620)&rbrack;
 
 [[!redirects parametric type theory]]
 [[!redirects parametric type theories]]
