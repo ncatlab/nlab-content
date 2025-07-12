@@ -22,6 +22,11 @@ Early theoretical discussion of [[fractional Chern insulators]] exhibiting the [
 * [[Nicolas Regnault]], [[B. Andrei Bernevig]]: *Fractional Chern Insulator*, Phys. Rev. X **1** (2011) 021014  &lbrack;[arXiv:1105.4867](https://arxiv.org/abs/1105.4867), [doi:10.1103/PhysRevX.1.021014](https://doi.org/10.1103/PhysRevX.1.021014)&rbrack;
 
 
+On [[topological crystalline insulators]]:
+
+* Chen Fang, Matthew J. Gilbert, [[B. Andrei Bernevig]]: *Bulk Topological Invariants in Noninteracting Point Group Symmetric Insulators*, Phys. Rev. B **86** 115112 (2012) &lbrack;[arXiv:1207.5767](https://arxiv.org/abs/1207.5767), [doi:10.1103/PhysRevB.86.115112](https://doi.org/10.1103/PhysRevB.86.115112)&rbrack;
+
+
 On [[topological insulators]] and [[topological superconductors]]:
 
 * [[B. Andrei Bernevig]] with [[Taylor L. Hughes]]: *Topological Insulators and Topological Superconductors*, Princeton University Press (2013) &lbrack;[ISBN:9780691151755](https://press.princeton.edu/books/hardcover/9780691151755/topological-insulators-and-topological-superconductors), [jstor:j.ctt19cc2gc](https://www.jstor.org/stable/j.ctt19cc2gc)&rbrack;
