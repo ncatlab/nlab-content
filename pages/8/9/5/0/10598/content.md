@@ -142,6 +142,26 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 \end{example}
 
 
+
+\begin{example}\label{TorusWithC3RotationAction}
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 3|$\mathbb{Z}_{/3}$]]-[[group action|action]] which rotates by multiples of $2\pi/3$ around the origin:
+
+\begin{imagefromfile}
+    "file_name": "C3TorusCellStructure.png",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
+
+
 ## Properties
 
 ### Closure properties
