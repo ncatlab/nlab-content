@@ -157,7 +157,7 @@ where $\sigma_{X_\alpha, Y_\beta}$ denotes the braiding in [[Hilb|$Hilb$]]. The 
 $$
 (X^*)_\alpha \coloneqq X_\alpha^*,
 $$
-where $\mathcal{H}^*$ is the dual Hilbert space.
+where $\mathcal{H}^*$ is the [[dual vector space|dual Hilbert space]].
 
 \end{definition}
 
