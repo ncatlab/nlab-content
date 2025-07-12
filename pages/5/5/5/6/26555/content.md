@@ -51,7 +51,7 @@ $$
   \,.
 $$
 
-These definitions do not define equal classes of objects, but they can be extended to define [[equivalence of categories|equivalent categories]] in two natural ways. Using the second definition of quantum sets, we can take the [[morphisms]] to be [[quantum relations]] or, inequivalently, to be unital normal $*$-homomorphisms. In the former case, we obtain the category $qRel$, and in the latter case, we obtain the [[opposite category|opposite]] of the category $qSet$. Note that $qRel$ is equivalent to its own opposite. Quantum sets can be further generalized to "nontracial" quantum sets. This article will use the third definition of quantum sets because this definition avoids operator topologies, making it more accessible to a wider audience.
+These definitions do not define equal classes of objects, but they can be extended to define [[equivalence of categories|equivalent categories]] in two natural ways. Using the second definition of quantum sets, we can take the [[morphisms]] to be [[quantum relations]] or, inequivalently, to be unital normal $*$-homomorphisms. In the former case, we obtain the [[category]] $qRel$, and in the latter case, we obtain the [[opposite category|opposite]] of the category $qSet$. Note that $qRel$ is equivalent to its own opposite. Quantum sets can be further generalized to "nontracial" quantum sets. This article will use the third definition of quantum sets because this definition avoids operator topologies, making it more accessible to a wider audience.
 
 
 ## Basic definitions
@@ -97,6 +97,8 @@ $$
 
 \end{definition}
 
+We have that $\mathrm{Inc}(A + B) = \mathrm{Inc}(A) + \mathrm{Inc}(B)$ and that $\mathrm{Inc}(A \times B) = \mathrm{Inc}(A) \times \mathrm{Inc}(B)$.
+
 The Cartesian product of quantum sets is so named because it generalizes the Cartesian product of sets. The former is not the [[cartesian product|categorical product]] in $qRel$, just as the latter is not the categorical product in [[Rel|$Rel$]]. It is also not the categorical product in $qSet$.
 
 In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is their [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
@@ -119,7 +121,7 @@ where $L(\mathcal{H},\mathcal{K})$ is the space of all linear maps from $\mathca
 1. The composition $S \circ R \colon X \to Z$ of morphisms $R \colon X \to Y$ and $S \colon Y \to Z$ is given by
 $$
 (S \circ R)_{\alpha,\gamma} \coloneqq \mathrm{span}
-\{sr \mid r \in R_{\alpha, \beta},\; s \in S_{\beta, \gamma}\;\text{for some}\; \beta \in \At(Y)\}.
+\{s r \mid r \in R_{\alpha, \beta},\; s \in S_{\beta, \gamma}\;\text{for some}\; \beta \in \At(Y)\}.
 $$
 
 1. The identity morphism $\mathrm{id}_X\colon X \to X$ is defined by
@@ -166,7 +168,7 @@ The dagger-compact category $qRel$ is [[enriched category|enriched]] over [[supl
 $$
 R \leq S \qquad \Longleftrightarrow \qquad R_{\alpha, \beta} \subseteq S_{\alpha, \beta}
 $$
-for all $\alpha \in \mathrm{At}(X)$ and $\beta \in \mathrm{At}(Y)$, where $R, S \colon X \to Y$.
+for all $\alpha \in \mathrm{At}(X)$ and $\beta \in \mathrm{At}(Y)$, where $R, S \colon X \to Y$. In other words, $qRel$ is a [[quantaloid]].
 \end{proposition}
 
 The dagger-compact category [[Rel|$Rel$]] is enriched over suplattices too. It is an [[allegory]], while $qRel$ fails to be an allegory only because the relevant modular law fails. Nevertheless, $qRel(X,Y)$ is always a [[modular lattice]].
@@ -174,7 +176,7 @@ The dagger-compact category [[Rel|$Rel$]] is enriched over suplattices too. It i
 In effect, $Rel$ is an enriched dagger-compact subcategory of $qRel$.
 
 \begin{definition}
-We define the "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$:
+We define the "inclusion" [[functor]] $\mathrm{Inc}\colon Rel \to qRel$:
 
 * For each set $A$, we define $\mathrm{Inc}(A)$ as in Def. \ref{Identification}.
 
@@ -193,6 +195,38 @@ where we identify $L(\mathbb{C}, \mathbb{C})$ with $\mathbb{C}$ in the obvious w
 \begin{proposition}
 The "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$ is an [[enriched functor|enriched]] [[monoidal functor|strong monoidal]] [[dagger functor]] that satisfies $\mathrm{Inc}(A^*) \cong \mathrm{Inc}(A)^*$ and that is [[full and faithful functor|full and faithful]].
 \end{proposition}
+
+## The category $qSet$
+
+The material in this section is mostly from [Kornell 2020](#Kornell20), [Kornell, Lindenhovius & Mislove 2022] (#KornellLindenhoviusMislove22), and [Jenča & Lindenhovius 2025](#JencaLindenhovius25).
+
+\begin{definition}
+We define the [[symmetric monoidal category]] $qSet$ to be the [[wide subcategory]] of $qRel$ whose morphisms are maps. A [[allegory|map]] is a morphism $f\colon X \to Y$ such that $f^\dagger \circ f \geq \mathrm{id}_X$ and $f \circ f^\dagger \leq \mathrm{id}_Y$.
+\end{definition}
+
+In the terminology of [[allegory|allegories]], $\qSet \coloneqq Map(qRel)$.
+The maps in $qRel$, i.e., the morphisms in $qSet$, are sometimes called functions.
+
+\begin{theorem}
+The symmetric monoidal category $qSet$ is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[closed monoidal category|closed]]. In other words, it is a [[Bénabou cosmos]].
+\end{theorem}
+
+The closure of $qSet$ can be deduced from general principles (see Theorem 6.16 of [Jenča & Lindenhovius 2025](#JencaLindenhovius25)).
+
+\begin{proposition}
+The "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$ restricts to a functor $\mathrm{Inc}\colon Set \to qSet$, which has a [[right adjoint]] $\mathrm{Elm}\colon qSet \to Set$.
+\end{proposition}
+
+\begin{definition}
+We define the "elements" functor $\mathrm{Elm}\colon qSet \to Set$:
+
+* For each quantum set $X$, we define $\mathrm{Elm}(X) = \{\alpha \in \mathrm{At}(X) \mid \mathrm{dim} (X_\alpha) = 1\}$.
+
+* For each morphism $f \colon X \to Y$, we define $\mathrm{Elm}(f) = \{(\alpha, \beta) \in \mathrm{Elm}(X) \times \mathrm{Elm}(Y) \mid \mathrm{dim} (f_{\alpha, \beta}) = 1\}$.
+
+\end{definition}
+
+We have that $\mathrm{Elm}(X + Y) = \mathrm{Elm}(X) + \mathrm{Elm}(Y)$, that $\mathrm{Elm}(X \times Y) = \mathrm{Elm}(X) \times \mathrm{Elm}(Y)$, and that $\mathrm{Elm}(\mathrm{Inc}(A)) = A$. We also have a [[natural isomorphism]] $\mathrm{Elm}(X) \cong qSet(1,X)$. The monoidal unit $1$ is [[terminal object|terminal]] in $qSet$, so $\mathrm{Elm}(X)$ is essentially the set of [[global element|global elements]] of $X$.
 
 ## Quantum sets as bundles
 
@@ -234,6 +268,12 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
 
 * {#KornellLindenhoviusMislove21} [[Andre Kornell]], [[Bert Lindenhovius]], [[Michael Mislove]], §2 in: *Quantum CPOs*, EPTCS **340** (2021) 174-187 &lbrack;[arXiv:2109.02196](https://arxiv.org/abs/2109.02196), [doi:10.4204/EPTCS.340.9](https://doi.org/10.4204/EPTCS.340.9)&rbrack;
   > (in the context of [[quantum CPOs]])
+
+* {#KornellLindenhoviusMislove22} [[Andre Kornell]], [[Bert Lindenhovius]], [[Michael Mislove]], *A category of quantum posets*, Indag. Math. **33** (2022).
+
+* {#JencaLindenhovius25} [[Bert Lindenhovius]], Gejza Jenča, *Monoidal quantaloids* (2025), [arXiv:2504.18266](https://arxiv.org/abs/2504.18266).
+
+
 
 [[!redirects quantum sets]]
 
