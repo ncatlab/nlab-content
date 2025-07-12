@@ -1,6 +1,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=20640)
+
 * [collection of articles on github](https://github.com/michaelt/martin-lof)
 
 ## Selected writings
@@ -31,9 +33,13 @@ On the notion of [[judgement]]:
 
 * [[Per Martin-Löf]], *Truth of a proposition, evidence of a judgement, validity of a proof*, Synthese **73** (1987) 407–420 &lbrack;[doi:10.1007/BF00484985](https://doi.org/10.1007/BF00484985), [pdf](https://archive-pml.github.io/martin-lof/pdfs/Truth-of-a-Proposition-Evidence-of-a-Judgment-1987.pdf)&rbrack; 
 
+On [[analytic versus synthetic]] [[judgements]] in [[type theory]]:
+
+* {#ML94} [[Per Martin-Löf]]: _Analytic and Synthetic Judgements in Type Theory_, in: *Kant and Contemporary Epistemology*, The Western Ontario Series in Philosophy of Science **54**, Springer (1994) 87-99 &lbrack;[doi:10.1007/978-94-011-0834-8](https://doi.org/10.1007/978-94-011-0834-8), [pdf](http://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf)&rbrack;
 
 
-A list of publication is kept here:
+
+A list of publications:
 
 * [github.com/michaelt/martin-lof](https://github.com/michaelt/martin-lof)
 
