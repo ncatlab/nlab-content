@@ -33,6 +33,11 @@ This means that a topological crystalline insulator phase observed in the [[bulk
 * [[Liang Fu]], *Topological Crystalline Insulators*, Phys. Rev. Lett. **106** (2011) 106802 &lbrack;[arXiv:1010.1802](https://arxiv.org/abs/1010.1802), 
 [doi:10.1103/PhysRevLett.106.106802](https://doi.org/10.1103/PhysRevLett.106.106802)&rbrack;
 
+* Chen Fang, Matthew J. Gilbert, [[B. Andrei Bernevig]]: *Bulk Topological Invariants in Noninteracting Point Group Symmetric Insulators*, Phys. Rev. B **86** 115112 (2012) &lbrack;[arXiv:1207.5767](https://arxiv.org/abs/1207.5767), [doi:10.1103/PhysRevB.86.115112](https://doi.org/10.1103/PhysRevB.86.115112)&rbrack;
+
+
+* Priyamvada Jadaun, Di Xiao, Qian Niu, Sanjay K. Banerjee: *Topological Classification of Crystalline Insulators with Point Group Symmetry*, Phys. Rev. B **88** (2013) 085110 &lbrack;[arXiv:/1208.1472](https://arxiv.org/abs/1208.1472), [doi:10.1103/PhysRevB.88.085110](https://doi.org/10.1103/PhysRevB.88.085110)&rbrack;
+
 * [[Robert-Jan Slager]], Andrej Mesaros, Vladimir Juricic, [[Jan Zaanen]], *The space group classification of topological band insulators*, Nature Physics **9** 98 (2013) $[$[doi:10.1038/nphys2513](https://doi.org/10.1038/nphys2513), [arXiv:1209.2610](https://arxiv.org/abs/1209.2610)$]$
 
 * Jie Shen, Judy J. Cha,  *Topological Crystalline Insulator Nanostructures*, Nanoscale **6** 23 (2014) 14133-14140 &lbrack;[doi:10.1039/c4nr05124f](https://doi.org/10.1039/c4nr05124f)&rbrack;
@@ -44,6 +49,7 @@ This means that a topological crystalline insulator phase observed in the [[bulk
 See also:
 
 * Jian-Hao Zhang, Shang-Qiang Ning, Yang Qi, Zheng-Cheng Gu, *Construction and classification of crystalline topological superconductor and insulators in three-dimensional interacting fermion systems* &lbrack;[arXiv:2204.13558](https://arxiv.org/abs/2204.13558)&rbrack;
+
 
 For [[fractional Chern insulators]]:
 
@@ -70,22 +76,24 @@ For [[fractional Chern insulators]]:
 ### Experimental realization
  {#ReferencesExperimentalRealization}
  
+* Y. Tanaka, Zhi Ren, T. Sato, K. Nakayama, S. Souma, T. Takahashi, Kouji Segawa, [[Yoichi Ando]], *Experimental realization of a topological crystalline insulator in SnTe*, Nature Physics **8** (2012) 800–803 &lbrack;[doi:10.1038/nphys2442](https://doi.org/10.1038/nphys2442)&rbrack;
 
-* Y. Tanaka, Zhi Ren, T. Sato, K. Nakayama, S. Souma, T. Takahashi, Kouji Segawa, [[Yoichi Ando]], *Experimental realization of a topological crystalline insulator in SnTe*, Nature Physics **8** (2012) 800–803 $[$[doi:10.1038/nphys2442](https://doi.org/10.1038/nphys2442)$]$ 
-
-* [[M. Zahid Hasan]] et al., *Observation of a topological crystalline insulator phase and topological phase transition in Pb1−xSnxTe*, Nature Communications **3** 1192 (2012) $[$[doi:10.1038/ncomms2191](https://doi.org/10.1038/ncomms2191)$]$
+* [[M. Zahid Hasan]] et al., *Observation of a topological crystalline insulator phase and topological phase transition in Pb1−xSnxTe*, Nature Communications **3** 1192 (2012) &lbrack;[doi:10.1038/ncomms2191](https://doi.org/10.1038/ncomms2191)&rbrack;
 
 * Timothy H Hsieh, Hsin Lin, Junwei Liu, Wenhui Duan, Arun Bansil, [[Liang Fu]], *Topological crystalline insulators in the SnTe material class*, 
-Nature Communications **3** (2012) 982 $[$[doi:10.1038/ncomms1969](https://doi.org/10.1038/ncomms1969)$]$
+Nature Communications **3** (2012) 982 &lbrack;[doi:10.1038/ncomms1969](https://doi.org/10.1038/ncomms1969)&rbrack;
 
-* [[M. Zahid Hasan]] et al., *Observation of Dirac Node Formation and Mass Acquisition in a Topological Crystalline Insulator*, Science **341** 1496 (2013) $[$[doi:10.1126/science.1239451](https://www.science.org/doi/10.1126/science.1239451)$]$
+* [[M. Zahid Hasan]] et al., *Observation of Dirac Node Formation and Mass Acquisition in a Topological Crystalline Insulator*, Science **341** 1496 (2013) &lbrack;[doi:10.1126/science.1239451](https://www.science.org/doi/10.1126/science.1239451)&rbrack;
 
-* [[M. Zahid Hasan]] et al., *Mapping the unconventional orbital texture in topological crystalline insulators*, Nature Physics **10** (2014) 572–577 $[$[doi:10.1038/nphys3012](https://doi.org/10.1038/nphys3012)$]$
+* [[M. Zahid Hasan]] et al., *Mapping the unconventional orbital texture in topological crystalline insulators*, Nature Physics **10** (2014) 572–577 &lbrack;[doi:10.1038/nphys3012](https://doi.org/10.1038/nphys3012)&rbrack;
 
 
 * Wenhui Fan, Simin Nie, Cuixiang Wang, Binbin Fu, Changjiang Yi, Shunye Gao, Zhicheng Rao, Dayu Yan, Junzhang Ma, Ming Shi, Yaobo Huang, Youguo Shi, Zhijun Wang, Tian Qian, Hong Ding,
 
-  *Discovery of Ĉ2 rotation anomaly in topological crystalline insulator SrPb*, Nature Communications **12** 2052 (2021) $[$[doi:10.1038/s41467-021-22350-6](https://doi.org/10.1038/s41467-021-22350-6)$]$
+  *Discovery of Ĉ2 rotation anomaly in topological crystalline insulator SrPb*, Nature Communications **12** 2052 (2021) &lbrack;[doi:10.1038/s41467-021-22350-6](https://doi.org/10.1038/s41467-021-22350-6)&rbrack;
+
+* Joachim Sødequist, Urko Petralanda, Thomas Olsen: *Abundance of second order topology in $C_3$ symmetric two-dimensional insulators*, 2D Mater. **10** 015009 (2023) &lbrack;[arXiv:2204.03960](https://arxiv.org/abs/2204.03960), [doi:10.1088/2053-1583/ac9fe2](https://doi.org/10.1088/2053-1583/ac9fe2)&rbrack;
+
   
 
 [[!redirects topological crystalline insulators]]
