@@ -41,7 +41,9 @@ With the introduction of his new logic, [[Frege]] defines analyticity in terms o
 
 for Frege, such a statement may be established purely by logical means. 
 
-In the context of his [[Martin-Löf dependent type theory|dependent type theory]],  [[Per Martin-Löf]] ([ML94](#ML94)) draws on Kant to relate the analytic-synthetic distinction to the distinction between judgmental and propositional [[equality]]. Wherever you must construct an element to establish a proposition, that proposition is synthetic. 
+In the context of his [[Martin-Löf dependent type theory|dependent type theory]],  [[Per Martin-Löf]] ([ML94](#ML94)) draws on Kant to apply the analytic-synthetic distinction to different forms of judgment. 
+
+Basically, he claims that $a : A$ and $a = b : A$ are judgments of the analytic forms, noting that there is an algorithm to check that judgments of these forms are derivable. For him, the form of judgment $A \text{ true}$ is the synthetic form of judgment, for conceptual analysis alone does not suffice to derive it. Wherever you must construct an element to establish a proposition, that proposition is synthetic. More recently, Bentzen ([B24](#B24)) discusses a number of problems with Martin-Löf's analytic-synthetic distinction in dependent type theory and proposes a revision of his views.
 
 ## Analytic and synthetic geometry
 
@@ -65,3 +67,5 @@ He continues
 * {#ML94} [[Per Martin-Löf]], _Analytic and Synthetic Judgements in Type Theory_, ([article](http://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf))
 
 * {#Anderson15} R. Lanier Anderson, _The Poverty of Conceptual Truth: Kant's Analytic/Synthetic Distinction and the Limits of Metaphysics_, Oxford University Press, 2015.
+
+* {#B24} [[Bruno Bentzen]], _Analyticity and syntheticity in type theory revisited_, Review of Symbolic Logic, 17(4), pp. 1119–1145, 2024 ([article](https://philarchive.org/archive/BENAAS-9))
