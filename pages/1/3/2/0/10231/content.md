@@ -5,7 +5,7 @@
 
 ## Idea
 
-Given a [[space]] of sorts, its _[[shape]]_ is a [[discrete ∞-groupoid|geometrically discrete]] [[homotopy type]] which approximates the spaces as good as possible "from the left".
+Given a [[space]] of sorts, its _[[shape]]_ is a [[discrete ∞-groupoid|geometrically discrete]] [[homotopy type]] which approximates the spaces as well as possible "from the left".
 
 For instance
 
