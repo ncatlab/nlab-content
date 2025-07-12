@@ -1,5 +1,7 @@
 
-* [webpage](https://www.brunobentzen.com/)
+* [personal page](https://www.brunobentzen.com/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=AB4-Np0AAAAJ&hl=en)
 
 ## Selected writings
 
@@ -11,12 +13,17 @@ On the justification of [[homotopy type theory]]:
 
 * {#Bentzen19b} [[Bruno Bentzen]], _What types should not be_, 2019 ([link](https://doi.org/10.1093/philmat/nkz014))
 
-General review of intuitionistic mathematics:
+General review of [[intuitionistic mathematics]]:
 
-* [[Bruno Bentzen]]. Internet Encyclopedia of Philosophy, _[Intuitionism in Mathematics](https://iep.utm.edu/intuitionism-in-mathematics/)
+* [[Bruno Bentzen]]: *[Intuitionism in Mathematics](https://iep.utm.edu/intuitionism-in-mathematics/)*, Internet Encyclopedia of Philosophy
+
+On [[analytic versus synthetic]] in [[type theory]]:
+
+* {#B24} [[Bruno Bentzen]]: *Analyticity and syntheticity in type theory revisited*, Review of Symbolic Logic **17** 4 (2024) 1119–1145 &lbrack;[doi:10.1017/s1755020323000199](https://doi.org/10.1017/s1755020323000199), [philarchive:BENAAS-9](https://philarchive.org/rec/BENAAS-9)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[cubical type theory]]
 * [[intuitionistic mathematics]]
