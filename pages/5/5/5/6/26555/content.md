@@ -108,6 +108,7 @@ In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \
 The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2012](#Weaver12); see the article on [[quantum relations]].
 
 \begin{definition}
+\label{qRel}
 We define the [[dagger-compact category]] $qRel$.
 
 1. An object $X$ is a quantum set (see Def. \ref{QuantumSet}).
@@ -193,7 +194,7 @@ where we identify $L(\mathbb{C}, \mathbb{C})$ with $\mathbb{C}$ in the obvious w
 \end{definition}
 
 \begin{proposition}
-The "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$ is an [[enriched functor|enriched]] [[monoidal functor|strong monoidal]] [[dagger functor]] that satisfies $\mathrm{Inc}(A^*) \cong \mathrm{Inc}(A)^*$ and that is [[full and faithful functor|full and faithful]].
+The "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$ is an [[enriched functor|enriched]] [[monoidal functor|strong monoidal]] [[dagger functor]] that is [[full and faithful functor|full and faithful]].
 \end{proposition}
 
 ## The category $qSet$
@@ -208,6 +209,7 @@ In the terminology of [[allegory|allegories]], $\qSet \coloneqq Map(qRel)$.
 The maps in $qRel$, i.e., the morphisms in $qSet$, are sometimes called functions.
 
 \begin{theorem}
+\label{Cosmos}
 The symmetric monoidal category $qSet$ is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[closed monoidal category|closed]]. In other words, it is a [[Bénabou cosmos]].
 \end{theorem}
 
@@ -227,6 +229,14 @@ We define the "elements" functor $\mathrm{Elm}\colon qSet \to Set$:
 \end{definition}
 
 We have that $\mathrm{Elm}(X + Y) = \mathrm{Elm}(X) + \mathrm{Elm}(Y)$, that $\mathrm{Elm}(X \times Y) = \mathrm{Elm}(X) \times \mathrm{Elm}(Y)$, and that $\mathrm{Elm}(\mathrm{Inc}(A)) = A$. We also have a [[natural isomorphism]] $\mathrm{Elm}(X) \cong qSet(1,X)$. The monoidal unit $1$ is [[terminal object|terminal]] in $qSet$, so $\mathrm{Elm}(X)$ is essentially the set of [[global element|global elements]] of $X$.
+
+\begin{theorem}
+\label{qPow}
+The inclusion functor $qSet \hookrightarrow qRel$ has a [[right adjoint]] $\mathrm{qPow}\colon qRel \to q Set$ with $\mathrm{qPow}(X) = [X^*, 1 + 1]$ for each quantum set $X$.
+\end{theorem}
+
+The notation $X^*$ refers to the dual of $X$, as in Def. \ref{qRel}. The notation $[X,Y]$ refers to the [[internal hom]] of $X$ and $Y$, as in Thm. \ref{Cosmos}.
+In general, $\mathrm{qPow}(\mathrm{Inc}(A)) \ncong \mathrm{Inc}(\mathrm{Pow}(A))$, where $\mathrm{Pow}(A)$ is the [[power set]] of $A$. However, we do have that $\mathrm{Elm}(\mathrm{qPow}(\mathrm{Inc}(A)) \cong \mathrm{Pow}(A)$. Thm. \ref{qPow} expresses that $qRel$ behaves somewhat like a [[allegory|power allegory]].
 
 ## Quantum sets as bundles
 
