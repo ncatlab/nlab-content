@@ -62,10 +62,11 @@ He continues
 
 ## References
 
-* {#Domski} Mary Domski, _Descartes’ Mathematics_, ([SEP](https://plato.stanford.edu/entries/descartes-mathematics))
+* {#Domski} Mary Domski: _Descartes’ Mathematics_ (2025) &lbrack;[SEP](https://plato.stanford.edu/entries/descartes-mathematics)&rbrack;
 
-* {#ML94} [[Per Martin-Löf]], _Analytic and Synthetic Judgements in Type Theory_, ([article](http://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf))
+* {#ML94} [[Per Martin-Löf]]: _Analytic and Synthetic Judgements in Type Theory_, in: *Kant and Contemporary Epistemology*, The Western Ontario Series in Philosophy of Science **54**, Springer (1994) 87-99 &lbrack;[doi:10.1007/978-94-011-0834-8](https://doi.org/10.1007/978-94-011-0834-8), [pdf](http://archive-pml.github.io/martin-lof/pdfs/Martin-Lof-Analytic-and-Synthetic-Judgements-in-Type-Theory.pdf)&rbrack;
 
-* {#Anderson15} R. Lanier Anderson, _The Poverty of Conceptual Truth: Kant's Analytic/Synthetic Distinction and the Limits of Metaphysics_, Oxford University Press, 2015.
+* {#Anderson15} R. Lanier Anderson: _The Poverty of Conceptual Truth: Kant's Analytic/Synthetic Distinction and the Limits of Metaphysics_, Oxford University Press (2015) &lbrack;[oup:6331](https://academic.oup.com/book/6331)&rbrack;
 
-* {#B24} [[Bruno Bentzen]], _Analyticity and syntheticity in type theory revisited_, Review of Symbolic Logic, 17(4), pp. 1119–1145, 2024 &lbrack;[doi:10.1017/s1755020323000199](https://doi.org/10.1017/s1755020323000199), [philarchive:BENAAS-9](https://philarchive.org/rec/BENAAS-9)&rbrack;
+* {#B24} [[Bruno Bentzen]]: *Analyticity and syntheticity in type theory revisited*, Review of Symbolic Logic **17** 4 (2024) 1119–1145 &lbrack;[doi:10.1017/s1755020323000199](https://doi.org/10.1017/s1755020323000199), [philarchive:BENAAS-9](https://philarchive.org/rec/BENAAS-9)&rbrack;
+
