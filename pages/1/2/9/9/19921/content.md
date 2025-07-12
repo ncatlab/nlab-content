@@ -27,6 +27,10 @@ The original Dialectica construction in proof theory is due to:
 
 * [[Kurt Gödel]], _Über eine bisher noch nicht benützte Erweiterung des finiten Standpunktes_. Dialectica (1958), pp. 280–287.
 
+* [[Kurt Gödel]], _On a hitherto unutilized extension of the finitary standpoint_ Translation of the above in  Collected Works. II: Publications 1938–1974. S. Feferman, J. Dawson, S. Kleene, G. Moore, R. Solovay, and J. van Heijenoort (eds.), Oxford: Oxford University Press. 1990.
+
+* See also Troelstra, _Introductory note to 1958 and 1972_ in the Collected Works of K. Gödel, 1990 above.
+
 Other work in proof theory:
 
 * Avigad and Feferman, _Gödel’s Functional (“Dialectica”) Interpretation_. Available from https://www.andrew.cmu.edu/user/avigad/Papers/dialect.pdf.
