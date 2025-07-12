@@ -68,4 +68,4 @@ He continues
 
 * {#Anderson15} R. Lanier Anderson, _The Poverty of Conceptual Truth: Kant's Analytic/Synthetic Distinction and the Limits of Metaphysics_, Oxford University Press, 2015.
 
-* {#B24} [[Bruno Bentzen]], _Analyticity and syntheticity in type theory revisited_, Review of Symbolic Logic, 17(4), pp. 1119–1145, 2024 ([article](https://philarchive.org/archive/BENAAS-9))
+* {#B24} [[Bruno Bentzen]], _Analyticity and syntheticity in type theory revisited_, Review of Symbolic Logic, 17(4), pp. 1119–1145, 2024 &lbrack;[doi:10.1017/s1755020323000199](https://doi.org/10.1017/s1755020323000199), [philarchive:BENAAS-9](https://philarchive.org/rec/BENAAS-9)&rbrack;
