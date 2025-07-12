@@ -44,7 +44,7 @@ Further textbook accounts:
 
 * {#Bredon93} [[Glen Bredon]], *Topology and Geometry*, Graduate Texts in Mathematics **139**, Springer (1993) \[<a href="https://link.springer.com/book/10.1007/978-1-4757-6848-0">doi:10.1007/978-1-4757-6848-0</a>,  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)\]
 
-* {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+* {#Lawson03} Terry Lawson: _Topology: A Geometric Approach_, Oxford University Press (2003) \[<a href="https://global.oup.com/academic/product/topology-a-geometric-approach-9780198515975">ISBN:9780198515975</a>, [pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf)\]
 
 * Anatole Katok, Alexey Sossinsky, *Introduction to Modern Topology and Geometry* (2010) \[<a href="http://akatok.s3-website-us-east-1.amazonaws.com/TOPOLOGY/Contents.pdf">toc pdf</a>, [[KatokSossinsky-Topology-Ch1.pdf:file]]\]
 
@@ -52,7 +52,6 @@ and leading over to [[homotopy theory]]:
 
 * [[Ioan Mackenzie James]], *General Topology and Homotopy Theory*, Springer 1984 
 ([doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6))
-
 
 On [[counterexamples]] in topology:
 
@@ -64,12 +63,13 @@ With emphasis on [[category theory|category theoretic]] aspects of [[general top
 * {#HerrlichStrecker71} [[Horst Herrlich]], [[George Strecker]], *Categorical topology -- Its origins as exemplified by the unfolding of the theory of topological reflections and coreflections before 1971* ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-94-017-0468-7_15.pdf)), pages 255-341 in: C. E. Aull, R Lowen (eds.), *Handbook of the History  of General Topology. Vol. 1*, Kluwer 1997 ([doi:10.1007/978-94-017-0468-7](https://link.springer.com/book/10.1007/978-94-017-0468-7))
 
 
-* {#BradleyBrysonTerilla20} [[Tai-Danae Bradley]], [[Tyler Bryson]], [[John Terilla]], _Topology -- A categorical approach_, MIT Press 2020 ([ISBN:9780262539357](https://mitpress.mit.edu/books/topology), [web version](https://topology.pubpub.org/))
-
+* {#BradleyBrysonTerilla20} [[Tai-Danae Bradley]], [[Tyler Bryson]], [[John Terilla]]: _Topology -- A categorical approach_, MIT Press (2020) \[<a href="https://mitpress.mit.edu/9780262539357/topology/">ISBN:9780262539357</a> [web version](https://topology.pubpub.org/)]
 
 See also:
 
-* [[Alan Hatcher]], _[Algebraic Topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
+* {#Hatcher02} [[Allen Hatcher]]: *Algebraic Topology*, Cambridge University Press (2002) \[<a href="https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401">ISBN:9780521795401</a>, [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)\]
+
+
 
 * [[Neil Strickland]], *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
 
