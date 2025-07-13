@@ -83,7 +83,7 @@ The definitions given above are all "up to isomorphism", i.e. they satisfy the [
 * [[Jiří Adámek]], [[Horst Herrlich]], [[George E. Strecker]], Definition 13.17(2) in: _[[Abstract and Concrete Categories]]_.
 
 
-* [[Emily Riehl]], §3.3 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](https://math.jhu.edu/~eriehl/context.pdf), [book website](https://math.jhu.edu/~eriehl/context/)&rbrack;
+* [[Emily Riehl]], §3.3 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](https://emilyriehl.github.io/files/context.pdf), [book website](https://math.jhu.edu/~eriehl/context/)&rbrack;
   
 
 
