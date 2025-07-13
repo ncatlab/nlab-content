@@ -82,7 +82,7 @@ Let $J \colon A \to E$ be a functor for which $\mathrm{Lan}_J \colon [A, E] \to 
 Then $[A, E]$ admtis a skew-monoidal structure, with unit $J$ and tensor $F \circ^J G = (\mathrm{Lan}_J F) \circ G$, and a relative monad is precisely a monoid in $([A, E], J, \circ^J)$.
 \end{theorem}
 
-When $J \colon A \to E$ is a free completion of $A$ under a class $\mathcal{F}$ of small colimits, then this skew-monoidal structure on $[A, E]$ is properly monoidal, since it is equivalent to the $\mathcal{F}$-colimit preserving functors $E \to E$, and the monoidal structure is just functor composition.
+When $J \colon A \to E$ is a free completion of $A$ under a class $\mathcal{F}$ of small colimits, then this skew-monoidal structure on $[A, E]$ is properly monoidal, since it is equivalent to the $\mathcal{F}$-colimit preserving functors $E \to E$, and the monoidal structure is just functor composition. Then moreover a relative monad is the same thing as a $\mathcal{F}$-colimit preserving monad on $E$. 
 
 More generally, if $\mathrm{Lan}_J$ does not exist, we may still define a [[skew-multicategory]] structure on $[A, E]$. Thus, relative monads are always monoids.
 
@@ -248,6 +248,10 @@ A concrete instance of Exp. \ref{RelativeMonadsFromActualMonads} is spelled out 
 
 \begin{example}
 A relative monad on the embedding $J \colon \mathbf{FinSet} \to \mathbf {Set}$ is equivalent to an [[abstract clone]]. These are equivalent to [[finitary monads]] and single-sorted [[algebraic theories]]. 
+\end{example}
+
+\begin{example}
+For a small category $\mathbb{C}$, a relative monad on the [[Yoneda embedding]] $\mathbb{C}\to [\mathbb{C}^{\mathrm{op}},\mathbf{Set}]$ is the same thing as a [[promonad]] structure on $\mathbb{C}$. 
 \end{example}
 
 \begin{example}
