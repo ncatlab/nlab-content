@@ -23,7 +23,7 @@ This page is to record the reference:
 
   [ISBN:9780486809038](https://store.doverpublications.com/products/9780486809038)
 
-  [pdf](https://math.jhu.edu/~eriehl/context.pdf)
+  [pdf](https://emilyriehl.github.io/files/context.pdf)
  
   [webpage](https://math.jhu.edu/~eriehl/context/)
 
