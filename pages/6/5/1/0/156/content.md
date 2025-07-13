@@ -272,7 +272,7 @@ For more details (and more precise statements, see at *[[relation between preord
 
 * {#MacLane71} [[Saunders MacLane]], p. 91 of: _[[Categories for the Working Mathematician]]_, Graduate texts in mathematics, Springer (1971) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-* {#RiehlCTInContext} [[Emily Riehl]], p. 34 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf)&rbrack;
+* {#RiehlCTInContext} [[Emily Riehl]], p. 34 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](https://emilyriehl.github.io/files/context.pdf)&rbrack;
 
 * {#Richter19} [[Birgit Richter]], §2.6 in: *From categories to homotopy theory*, Cambridge Studies in Advanced Mathematics **188**, Cambridge University Press (2020) &lbrack;[doi:10.1017/9781108855891](https://doi.org/10.1017/9781108855891), [book webpage](https://www.math.uni-hamburg.de/home/richter/catbook.html), [pdf](https://www.math.uni-hamburg.de/home/richter/bookdraft.pdf)&rbrack;
 
