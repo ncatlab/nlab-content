@@ -27,7 +27,7 @@
 
 ## Idea
 
-The notion of _2-sheaf_ is the generalization of the notion of [[sheaf]] to the [[higher category theory]] of [[2-categories]]/[[bicategories]]. 
+The notion of a _2-sheaf_ is the generalization of the notion of a [[sheaf]] to the [[higher category theory]] of [[2-categories]]/[[bicategories]]. 
 A 2-category of 2-sheaves forms a [[2-topos]].
 
 +-- {: .num_remark }
