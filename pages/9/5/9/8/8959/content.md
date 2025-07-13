@@ -163,9 +163,13 @@ This validates the conversion rules. It's extensional in a manner similar to [[m
 
 #### Hypothetical judgements
 
-TODO!
+Hypothetical judgments are explained by induction on the length of the context. The base case is exhausted by the explanations of categorical judgment, so it is enough to focus our attention on the inductive step.
 
-Intuitively, open terms are multi-argument dependent functions. The hypothetical judgements are defined in terms of the basic judgements on closed terms by substituting a lot of appropriate closed terms. Respect for equality is enforced in a manner to agree with the function type constructor.
+Suppose that we already know what a hypothetical judgment $\Gamma \vdash J$ means for
+any judgment $J$. We say that means that $\Gamma, x : A \vdash J$ that $\Gamma \vdash J [M/x]$ for any $\Gamma \vdash M : A$ plus an additional conditions demanding that definitional equality be preserved: for example, if $J$ is $b : B$, then for all, $\Gamma \vdash M = M' : A$, we must have $\Gamma \vdash b [M/x] = b [M'/x] : B [M/x]$.
+
+
+[Intuitively, open terms are multi-argument dependent functions. The hypothetical judgements are defined in terms of the basic judgements on closed terms by substituting a lot of appropriate closed terms. Respect for equality is enforced in a manner to agree with the function type constructor.]: #
 
 ### The rules of type theory
 
@@ -185,6 +189,10 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 * [[Per Martin-Löf]], _Constructive mathematics and computer programming_ ([pdf](http://www.cs.tufts.edu/~nr/cs257/archive/per-martin-lof/constructive-math.pdf))
 
 * [[Per Martin-Löf]]. _On the Meanings of the Logical Constants and the Justifications of the Logical Laws_, Nordic Journal of Philosophical Logic, 1(1): 11–60, 1996 ([pdf](http://docenti.lett.unisi.it/files/4/1/1/6/martinlof4.pdf))
+
+* [[Per Martin-Löf]]. _Philosophical Aspects of Intuitionistic Type Theory_, Transcript 
+of a lecture course given at Leiden University in the autumn semester of 1993. 
+([pdf](https://pml.flu.cas.cz/uploads/PML-LeidenLectures93.pdf))
 
 * [[UF-IAS-2012]], _[Meaning Explanations](https://ncatlab.org/ufias2012/published/Meaning%20Explanations)_
 
