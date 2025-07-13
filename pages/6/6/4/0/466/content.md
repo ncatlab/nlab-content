@@ -357,7 +357,7 @@ Review and exposition:
 
 * [[Tom Leinster]], _[[LeinsterYoneda.ps:file]]_ 
 
-* [[Emily Riehl]], _Category Theory in Context. Chapter 2. Universal Properties, Representability, and the Yoneda Lemma_ [pdf](http://www.math.jhu.edu/~eriehl/context.pdf)
+* [[Emily Riehl]], _Category Theory in Context. Chapter 2. Universal Properties, Representability, and the Yoneda Lemma_ [pdf](https://emilyriehl.github.io/files/context.pdf)
 
 * {#RRZ2004} Marie La Palme Reyes, Gonzalo E. Reyes, and Houman Zolfaghari, _Generic figures and their glueings: A constructive approach to functor categories_, Polimetrica sas, 2004 ([author page](https://reyes-reyes.com/2004/06/01/generic-figures-and-their-glueings-a-constructive-approach-to-functor-categories/),[pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf)).
 
