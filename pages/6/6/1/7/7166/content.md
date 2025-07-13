@@ -82,13 +82,13 @@ that provide the desired lift. The uniqueness of the lift is evident from the un
 
 Now let $V$ be an infinite-dimensional vector space. We may view $V$ as the union or filtered colimit over the system $\{V_\alpha\}$ of its finite-dimensional subspaces. Applying the cofree coalgebra construction to these finite-dimensional subspaces, we get a system of coalgebras. 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #FreeCoalg}
 ###### Theorem 
 The coalgebra colimit 
 
-$$K = colim_{V_\alpha \subset V} C(V_\alpha)$$ 
+$$K = colim_{V_\alpha \subset V} C(V_\alpha),$$ 
 
-is the cofree coalgebra over $V$. 
+is the cofree coalgebra over $V$, equipped with the map $K \to V$ that arises by applying the colimit functor to the system of maps $C(V_\alpha) \to V_\alpha$, is the cofree coalgebra on $V$. 
 =--
 
 +-- {: .num_remark}
@@ -98,11 +98,15 @@ Happily, this colimit is computed as in $Vect$, and more happily still -- since 
 
 =--
 
-Indeed, suppose given a coalgebra $C$ and a linear function $f \colon C \to V$. To construct a coalgebra map $C \to K$ which lifts $f$, we may argue just as we did in the proof of the lemma, and suppose without loss of generality that $C$ is finite-dimensional. Then of course the map $f \colon C \to V$ factors through a map $f_\alpha \colon C \to V_\alpha$ where $V_\alpha$ is a finite-dimensional subspace of $V$. This lifts uniquely to a coalgebra map $\widehat{f_\alpha} \colon C(V_\alpha)$, and the desired lift $\widehat{f}$ is the composite 
+\begin{proof} 
+Indeed, suppose given a coalgebra $C$ and a linear function $f \colon C \to V$. To construct a coalgebra map $C \to K$ which lifts $f$, we may argue just as we did in the proof of the lemma: since $C$ is the colimit of its finite-dimensional subcoalgebras $C_\alpha$, it suffices to construct a system of coalgebra maps $C_\alpha \to K$ indexed over these coalgebras $C_\alpha$, and then pass to their colimit to get the coalgebra map $C \to K$. 
 
-$$C \stackrel{\widehat{f_\alpha}}{\to} C(V_\alpha) \hookrightarrow K$$
+The restriction of $f \colon C \to V$ to $C_\alpha$ factors through a map $f_\alpha \colon C_\alpha \to V_\alpha$, where $V_\alpha$ is a finite-dimensional subspace of $V$. This map $f_\alpha$ lifts uniquely to a coalgebra map $\widehat{f_\alpha} \colon C_\alpha \to C(V_\alpha)$, and the extension 
 
-Any such lift is obtained in just this way. 
+$$C_\alpha \stackrel{\widehat{f_\alpha}}{\to} C(V_\alpha) \hookrightarrow K$$
+
+is the desired coalgebra map $C_\alpha \to K$. The compatibility of these coalgebra maps is straightforward to check. 
+\end{proof} 
 
 It is easy to see that this description is equivalent to that described in a MathOverflow discussion [here](http://mathoverflow.net/questions/31109/is-there-an-explicit-construction-of-a-free-coalgebra/31126#31126). See also the nForum discussion [here](https://nforum.ncatlab.org/discussion/3467). 
 
