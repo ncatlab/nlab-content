@@ -385,7 +385,7 @@ Further references:
 * John Bourke, _Two dimensional monadicity_, [arxiv/1212.5123](http://arxiv.org/abs/1212.5123)
 
 
-* {#Riehl17} [[Emily Riehl]], §5.5 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf), [book website](http://www.math.jhu.edu/~eriehl/context/)&rbrack;
+* {#Riehl17} [[Emily Riehl]], §5.5 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](https://emilyriehl.github.io/files/context.pdf), [book website](http://www.math.jhu.edu/~eriehl/context/)&rbrack;
   
 
 There is a version for [[Morita contexts]] instead of monads:
