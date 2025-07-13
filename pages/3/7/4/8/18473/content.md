@@ -80,7 +80,7 @@ Probably the most common embedding of categories encountered is the [[Yoneda emb
 
 * {#AHS} [[Jiří Adámek]], [[Horst Herrlich]], and [[George Strecker]], *Abstract and Concrete Categories: The Joy of Cats*, John Wiley and Sons 1990. ([Online edition](http://katmat.math.uni-bremen.de/acc/)) 
 
-* {#Riehl} [[Emily Riehl]], *Category Theory in Context*, Dover Publications, Inc. 2016. ([pdf](http://www.math.jhu.edu/~eriehl/context.pdf)) 
+* {#Riehl} [[Emily Riehl]], *Category Theory in Context*, Dover Publications, Inc. 2016. ([pdf](https://emilyriehl.github.io/files/context.pdf)) 
 
 [[!redirects embedding of categories]]
 [[!redirects embeddings of categories]]
