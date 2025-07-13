@@ -92,7 +92,7 @@ If $J$ in def. \ref{ReflectedLimit} has some limit $\theta$ which is preserved b
 
 ## References
 
-* [[Emily Riehl]], §3.3 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf), [book website](http://www.math.jhu.edu/~eriehl/context/)&rbrack;
+* [[Emily Riehl]], §3.3 in: *[[Category Theory in Context]]*, Dover Publications (2017) &lbrack;[pdf](https://emilyriehl.github.io/files/context.pdf), [book website](http://www.math.jhu.edu/~eriehl/context/)&rbrack;
   
 
 
