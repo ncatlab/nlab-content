@@ -143,7 +143,7 @@ Here
 
 * "$=$" denotes the [[identification type]], 
 
-* $[-]_0$ denotes the [[bracket type]] (which is constructible in homotopy type theory either as a [[higher inductive type]] as described at *[[n-truncation modality]]*m or using the [[univalence axiom]] and a resizing rule to obtain a [[subobject classifier]]).
+* $[-]_0$ denotes the [[bracket type]] (which is constructible in homotopy type theory either as a [[higher inductive type]] as described at *[[n-truncation modality]]* or using the [[univalence axiom]] and a resizing rule to obtain a [[subobject classifier]]).
 
 
 +-- {: .proof}
