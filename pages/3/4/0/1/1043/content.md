@@ -124,7 +124,7 @@ Some or all of these have analogs in [[higher category theory]], notably in [[2-
 
 An introductory but thorough treatment of universal properties and their relationship with the [[Yoneda lemma]] is given in 
 
-* [[Emily Riehl]], _Category Theory in context_, Chapter 2. ([pdf](http://www.math.jhu.edu/~eriehl/context.pdf))
+* [[Emily Riehl]], _Category Theory in context_, Chapter 2. ([pdf](https://emilyriehl.github.io/files/context.pdf))
 
 A more informal and intuitive account is given in
 
