@@ -186,7 +186,7 @@ A proof is spelled out for instance in [Borceux 1994, vol 2, cor. 4.2.4](reflect
 
 * [[Francis Borceux]], Def. 4.4.1 in: *[[Handbook of Categorical Algebra]]*,   Vol. 2: *Categories and Structures*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865)&rbrack;
 
-* [[Emily Riehl]], §5.3 in: _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf)&rbrack;
+* [[Emily Riehl]], §5.3 in: _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[pdf](https://emilyriehl.github.io/files/context.pdf)&rbrack;
 
 * {#Bourn} [[Dominique Bourn]]. _Low dimensional geometry of the notion of choice_. Category Theory 1991, CMS Conf. Proc. Vol. 13. 1992.
 
