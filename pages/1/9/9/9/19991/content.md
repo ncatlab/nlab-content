@@ -165,30 +165,33 @@ The further [[homotopy quotient]] $(E/N)\sslash G$ of the [[torus]] $E/N$ by thi
 * [[topological crystalline insulator]]
 
 
+
 ## References
 
 Review:
 
 * {#Hilton03} [[Harold Hilton]], *Mathematical crystallography and the theory of groups of movements*, Oxford Clarendon Press (1903) $[$[web](https://archive.org/details/mathematicalcry03hiltgoog/page/n6/mode/2up)$]$
 
-* {#Engel86} [[Peter Engel]], *Geometric Crystallography -- An Axiomatic Introduction to Crystallography*, D. Reidel Publishing (1986) $[$[doi:10.1007/978-94-009-4760-3](https://doi.org/10.1007/978-94-009-4760-3)$]$
+* {#Engel86} [[Peter Engel]], *Geometric Crystallography -- An Axiomatic Introduction to Crystallography*, D. Reidel Publishing (1986) &lbrack;[doi:10.1007/978-94-009-4760-3](https://doi.org/10.1007/978-94-009-4760-3)&rbrack;
 
 
-* [[Willard Miller]], Chapter 2 "The Crystallographic Groups" in : *Symmetry Groups and Their Applications*, Pure and Applied Mathematics **50** (1972) 16-60 $[$<a href="https://doi.org/10.1016/S0079-8169(08)60959-9">doi:10.1016/S0079-8169(08)60959-9</a>$]$
+* [[Willard Miller]], Chapter 2 "The Crystallographic Groups" in : *Symmetry Groups and Their Applications*, Pure and Applied Mathematics **50** (1972) 16-60 \[<a href="https://doi.org/10.1016/S0079-8169(08)60959-9">doi:10.1016/S0079-8169(08)60959-9</a>\]
 
-* {#BrownBulowNeubuserWondratschekZassenhaus78} H. Brown, R. Bülow, J. Neubüser, H. Wondratschek, H. Zassenhaus, _Crystallographic Groups of Four-Dimensional Space_, John Wiley, New York, 1978. 
+* {#BrownBulowNeubuserWondratschekZassenhaus78} H. Brown, R. Bülow, J. Neubüser, [[Hans Wondratschek]], H. Zassenhaus: *Crystallographic Groups of Four-Dimensional Space*, John Wiley, New York (1978) &lbrack;[doi:10.1107/S056773948000068X](https://doi.org/10.1107/S056773948000068X)&rbrack;
 
-* {#Farkas81} Daniel R. Farkas, _Crystallographic groups and their mathematics_, Rocky Mountain J. Math. Volume 11, Number 4 (1981), 511-552 ([doi:10.1216/RMJ-1981-11-4-511](https://projecteuclid.org/euclid.rmjm/1250128489))
+* {#Farkas81} Daniel R. Farkas, _Crystallographic groups and their mathematics_, Rocky Mountain J. Math. **11** 4 (1981) 511-552 &lbrack;[doi:10.1216/RMJ-1981-11-4-511](https://projecteuclid.org/euclid.rmjm/1250128489)&rbrack;
 
-* {#ChuprunovKuntsevich88} E. V. Chuprunov, T. S. Kuntsevich, _$n$-Dimensional space groups and regular point systems_, Comput. Math. Applic. Vol. 16, No. 5-8, pp. 537-543, 1988 (<a href="https://doi.org/10.1016/0898-1221(88)90243-X">doi:10.1016/0898-1221(88)90243-X</a>)
+* {#ChuprunovKuntsevich88} E. V. Chuprunov, T. S. Kuntsevich, _$n$-Dimensional space groups and regular point systems_, Comput. Math. Applic. **16** 5-8 (1988) 537-543 \[<a href="https://doi.org/10.1016/0898-1221(88)90243-X">doi:10.1016/0898-1221(88)90243-X</a>\]
 
-* D. Weigel, T. Phan and R. Veysseyre, _Crystallography, geometry and physics in higher dimensions. III. Geometrical symbols for the 227 crystallographic point groups in four-dimensional space_, Acta Cryst. (1987). A43, 294-304 ([doi:10.1107/S0108767387099367](https://doi.org/10.1107/S0108767387099367))
+* D. Weigel, T. Phan and R. Veysseyre: _Crystallography, geometry and physics in higher dimensions. III. Geometrical symbols for the 227 crystallographic point groups in four-dimensional space_, Acta Cryst. A **43** (1987) 294-304 &lbrack;[doi:10.1107/S0108767387099367](https://doi.org/10.1107/S0108767387099367)&rbrack;
+
+* [[Hans Wondratschek]]: *Matrices, Mappings and Crystallographic Symmetry*, International Union of Crystallography (2002) &lbrack;[pdf](https://www.iucr.org/__data/assets/pdf_file/0019/15823/22.pdf), [[Wondratschek-CrystallographicSymmetry.pdf:file]] [webpage](https://www.iucr.org/education/pamphlets/22/full-text)&rbrack;
 
 * [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
 
 * {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
 
-* {#Tolcachier19} Alejandro Tolcachier, *Holonomy groups of compact flat solvmanifolds*, Geometriae Dedicata **209** (2020) 95–117  $[$[arXiv:1907.02021](https://arxiv.org/abs/1907.02021), [doi:10.1007/s10711-020-00524-8](https://doi.org/10.1007/s10711-020-00524-8)$]$
+* {#Tolcachier19} Alejandro Tolcachier, *Holonomy groups of compact flat solvmanifolds*, Geometriae Dedicata **209** (2020) 95–117  &lbrack;[arXiv:1907.02021](https://arxiv.org/abs/1907.02021), [doi:10.1007/s10711-020-00524-8](https://doi.org/10.1007/s10711-020-00524-8)&rbrack;
 
 * [[GAP]] package, _The Crystallographic Groups Catalog_ ([web](http://www.math.rwth-aachen.de/~Greg.Gamble/gap4r3/pkg/crystcat/htm/CHAP001.htm))
 
