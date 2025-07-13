@@ -2026,8 +2026,10 @@ $$ C(X,Y) \cong \hat C_\mathrm{det}(\mathbf{y}(X)\to P(\mathbf{y}(Y))) $$
 and so $C$ full and faithfully monoidally embeds in the Kleisli category of $P$. 
 
 To see this another way, note that the identity-on-objects functor 
-$C_\mathrm{def}\to C$ amounts to a [[promonad]] on $C_\mathrm{def}$. 
-\end{proof}
+$C_\mathrm{def}\to C$ amounts to a [[promonad]] on $C_\mathrm{def}$, hence a [[relative monad]], relative to the Yoneda embedding $C_\mathrm{det}\to \hat C_\mathrm{det}$, and hence a monad on $\hat C_\mathrm{det}$ by left Kan extension. 
+
+Yet another way to see this is that a Markov category $C$ gives rise to a [[Freyd category]] $C_\mathrm{det}\to C$, which is also monoidal and preserves the terminal object. And a Freyd category over $C_\mathrm{det}$ is the same thing as a $\hat C_\mathrm{det}$-enriched Lawvere theory, where $\hat C_\mathrm{det}$ is regarded as locally $\emptyset$-presentable, where $\emptyset$ is the trivial [[sound doctrine of limits]] (see e.g. [Staton'13](#staton13)). Then an [[enriched Lawvere theory]] is the same thing as a [[strong monad]] that preserves the appropriate colimits, by the monad/theory correspondence.  \end{proof}
+
 The theorem shows that we could have equivalently defined "Markov category" as "monoidal full subcategory of the Kleisli category of an affine and commutative monad on a cartesian category". 
 
 One important point is that probability-related properties of $C$ such as Kolmogorov products and positivity do not necessarily extend to the full Kleisli category of the monad $P$ on the supercategory. 
@@ -2422,6 +2424,8 @@ Slides from talks:
 
 
 ### Further references
+
+* [[Sam Staton]]. _Freyd categories are enriched Lawvere theories_. Proc. WACT 2013. [doi:10.1016/j.entcs.2014.02.010](https://doi.org/10.1016/j.entcs.2014.02.010)
 
 * [[Tobias Fritz]], Tomáš Gonda, [[Paolo Perrone]], _De Finetti's theorem in categorical probability_. Journal of Stochastic Analysis, 2021. ([arXiv:2105.02639](https://arxiv.org/abs/2105.02639))
 
