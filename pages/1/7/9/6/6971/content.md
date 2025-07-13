@@ -168,6 +168,10 @@ $$\frac{\Gamma \vdash p:\mathrm{Id}_\mathbb{N}(x,y)}{\Gamma \vdash x \equiv y}$$
 In order to show that, in an arbitrary [[context]] $\Gamma$, $0 \equiv 1$ in $\mathbb{N}$, we need to determine whether the empty type is a [[pointed type]] in $\Gamma$, which is undecidable in general. 
 \end{proof}
 
+## Justification
+
+Extensional type theory is justified by the [[ meaning explanation | meaning explanations ]] of type theory. To see this, it suffices to notice that the equality reflection rule is validated by the meaning explanations. For more on this, see [Dybjer 2012](#Dybjer12), \S11.2.7 and [Bentzen 2024](#Bentzen24), \S3.2.
+
 ## Related concepts
 
 * [[axiom K]], [[axiom UIP]]
@@ -184,6 +188,9 @@ In order to show that, in an arbitrary [[context]] $\Gamma$, $0 \equiv 1$ in $\m
 
 ## References
 
+* {#Dybjer12} [[Peter Dybjer]], Program testing and the meaning explanations of intuitionistic type theory. In Dybjer, P., Lindström, S., Palmgren, E., and Sundholm,
+G., editors. _Epistemology Versus Ontology_. Dordrecht: Springer, pp. 215–241. [doi:10.1007/978-94-007-4435-6_11](https://doi.org/10.1007/978-94-007-4435-6_11)
+
 * {#Hofmann95} [[Martin Hofmann]], _Extensional concepts in intensional type theory_, Ph.D. thesis, University of Edinburgh, (1995) ([ECS-LFCS-95-327](http://www.lfcs.inf.ed.ac.uk/reports/95/ECS-LFCS-95-327/), [[HofmannExtensionalIntensionalTypeTheory.pdf:file]])
   
 
@@ -198,6 +205,15 @@ In order to show that, in an arbitrary [[context]] $\Gamma$, $0 \equiv 1$ in $\m
 Extensional type theory is discussed in chapter 2 of:
 
 * {#AngiuliGratzer} [[Carlo Angiuli]], [[Daniel Gratzer]], *Principles of Dependent Type Theory* ([pdf](https://www.danielgratzer.com/papers/type-theory-book.pdf))
+
+For a philosophical defense of extensional equality in constructive semantics see:
+
+* {#B22} [[Bruno Bentzen]]: *On different ways of being equal*, Erkenntnis **87** 4 (2022) 1809–1830 &lbrack;[doi:10.1007/s10670-020-00275-8](https://doi.org/10.1007/s10670-020-00275-8), [philarchive:BENODW](https://philarchive.org/rec/BENODW)&rbrack;
+
+
+* {#B24} [[Bruno Bentzen]]: *Analyticity and syntheticity in type theory revisited*, Review of Symbolic Logic **17** 4 (2024) 1119–1145 &lbrack;[doi:10.1017/s1755020323000199](https://doi.org/10.1017/s1755020323000199), [philarchive:BENAAS-9](https://philarchive.org/rec/BENAAS-9)&rbrack;
+
+
 
 [[!redirects extensional type theories]]
 [[!redirects equality reflection]]
