@@ -35,7 +35,7 @@ The [[field]] of [[rational numbers]] $\mathbb{Q}$ is the [[initial object]] of 
 
 ## References
 
-* {#RiehlCTInContext} [[Emily Riehl]], _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[pdf](http://www.math.jhu.edu/~eriehl/context.pdf)&rbrack;
+* {#RiehlCTInContext} [[Emily Riehl]], _[[Category Theory in Context]]_, Dover Publications (2017) &lbrack;[pdf](https://emilyriehl.github.io/files/context.pdf)&rbrack;
 
 [[!redirects category of fields]]
 [[!redirects categories of fields]]
