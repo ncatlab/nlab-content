@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Adams conjecture_ is a statement about triviality of [[spherical fibrations]] associated to certain formal differences of [[vector bundles]] ([[K-theory]] classes) via the [[J-homomorphism]]. The conjecture was stated in ([Adams 63, conjecture 1.2](#Adams63)), for vector bundles of rank up to two over a [[finite CW-complex]], which was proven in ([Adams 63, theorem 1.4](#Adams63)).  A general proof was then given in ([Quillen 71](Quillen71)). 
+The _Adams conjecture_ is a statement about triviality of [[spherical fibrations]] associated to certain formal differences of [[vector bundles]] ([[K-theory]] classes) via the [[J-homomorphism]]. The conjecture was stated in ([Adams 63, conjecture 1.2](#Adams63)), for vector bundles of rank up to two over a [[finite CW-complex]], which was proven in ([Adams 63, theorem 1.4](#Adams63)).  A general proof was then given in ([Quillen 71](#Quillen71)). 
 
 The Adams conjecture/Adams-Quillen theorem serves a central role in the identification of the [[image of the J-homomorphism]]. 
 
