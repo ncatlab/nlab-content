@@ -105,8 +105,14 @@ The restriction of $f \colon C \to V$ to $C_\alpha$ factors through the image ma
 
 $$C_\alpha \stackrel{\widehat{f_\alpha}}{\to} C(V_\alpha) \hookrightarrow K$$
 
-is the desired coalgebra map $C_\alpha \to K$. The compatibility of these coalgebra maps is straightforward to check, so there exists a coalgebra map $C \to K$ that is compatible with the maps $f \colon C \to V$ and $\varepsilon \colon K \to V$. 
+is the desired coalgebra map $C_\alpha \to K$. The compatibility of these coalgebra maps is straightforward to check, so there exists a coalgebra map $C \to K$ that is compatible with the maps $f \colon C \to V$ and $\varepsilon \colon K \to V$. In other language: the pair $(K, \varepsilon \colon K \to V)$ is weakly terminal in the comma category $U \downarrow V$, where $U \colon CoAlg \to Vect$ is the forgetful functor. 
 
+It remains to see that $(K, \varepsilon \colon K \to V)$ is actually the terminal object $(Cofree(V), U Cofree(V) \to V)$ (as observed above, this terminal a priori exists by an application of the special adjoint functor theorem). Since a weakly terminal subterminal object is terminal, it suffices to establish subterminality, i.e., 
+that the unique coalgebra map $i: K \to Cofree(V)$ that lifts $\varepsilon \colon K \to V$ is injective. But because $K$ is a union of subcoalgebras of the form $Cofree(V_\alpha)$ where $V_\alpha$ ranges over finite-dimensional subspaces of $V$, it is enough to see that the restriction of $i$ to every such $Cofree(V_\alpha)$ is injective. But (exploiting terminality of $Cofree(V)$ in the comma category) this restriction can only be the coalgebra map
+
+$$Cofree(j): Cofree(V_\alpha) \to Cofree(V)$$ 
+
+where $j: V_\alpha \hookrightarrow V$ is the subspace inclusion. Note that $Cofree(j)$ is injective because the right adjoint $Cofree \colon Vect \to CoAlg$ preserves the monomorphism $j$. Thus the proof is complete. 
 \end{proof} 
 
 It is easy to see that this description is equivalent to that described in a MathOverflow discussion [here](http://mathoverflow.net/questions/31109/is-there-an-explicit-construction-of-a-free-coalgebra/31126#31126). See also the nForum discussion [here](https://nforum.ncatlab.org/discussion/3467). 
