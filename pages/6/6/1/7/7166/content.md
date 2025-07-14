@@ -88,7 +88,7 @@ The coalgebra colimit
 
 $$K = colim_{V_\alpha \subset V} C(V_\alpha),$$ 
 
-is the cofree coalgebra over $V$, equipped with the map $K \to V$ that arises by applying the colimit functor to the system of maps $C(V_\alpha) \to V_\alpha$, is the cofree coalgebra on $V$. 
+equipped with the map $\varepsilon \colon K \to V$ that arises by applying the colimit functor to the system of universal maps $C(V_\alpha) \to V_\alpha$, is the cofree coalgebra on $V$. 
 =--
 
 +-- {: .num_remark}
@@ -99,13 +99,14 @@ Happily, this colimit is computed as in $Vect$, and more happily still -- since 
 =--
 
 \begin{proof} 
-Indeed, suppose given a coalgebra $C$ and a linear function $f \colon C \to V$. To construct a coalgebra map $C \to K$ which lifts $f$, we may argue just as we did in the proof of the lemma: since $C$ is the colimit of its finite-dimensional subcoalgebras $C_\alpha$, it suffices to construct a system of coalgebra maps $C_\alpha \to K$ indexed over these coalgebras $C_\alpha$, and then pass to their colimit to get the coalgebra map $C \to K$. 
+Indeed, suppose given a coalgebra $C$ and a linear function $f \colon C \to V$. To construct a coalgebra map $C \to K$ which lifts $f$, we argue as we did in the proof of the lemma: since $C$ is the colimit of its finite-dimensional subcoalgebras $C_\alpha$, it suffices to construct a system of coalgebra maps $C_\alpha \to K$ indexed over these coalgebras $C_\alpha$, and then pass to their colimit to get the coalgebra map $C \to K$. 
 
-The restriction of $f \colon C \to V$ to $C_\alpha$ factors through a map $f_\alpha \colon C_\alpha \to V_\alpha$, where $V_\alpha$ is a finite-dimensional subspace of $V$. This map $f_\alpha$ lifts uniquely to a coalgebra map $\widehat{f_\alpha} \colon C_\alpha \to C(V_\alpha)$, and the extension 
+The restriction of $f \colon C \to V$ to $C_\alpha$ factors through the image map $f_\alpha \colon C_\alpha \to V_\alpha$, where $V_\alpha = f(C_\alpha)$ is a finite-dimensional subspace of $V$. This map $f_\alpha$ lifts uniquely to a coalgebra map $\widehat{f_\alpha} \colon C_\alpha \to C(V_\alpha)$, and the extension 
 
 $$C_\alpha \stackrel{\widehat{f_\alpha}}{\to} C(V_\alpha) \hookrightarrow K$$
 
-is the desired coalgebra map $C_\alpha \to K$. The compatibility of these coalgebra maps is straightforward to check. 
+is the desired coalgebra map $C_\alpha \to K$. The compatibility of these coalgebra maps is straightforward to check, so there exists a coalgebra map $C \to K$ that is compatible with the maps $f \colon C \to V$ and $\varepsilon \colon K \to V$. 
+
 \end{proof} 
 
 It is easy to see that this description is equivalent to that described in a MathOverflow discussion [here](http://mathoverflow.net/questions/31109/is-there-an-explicit-construction-of-a-free-coalgebra/31126#31126). See also the nForum discussion [here](https://nforum.ncatlab.org/discussion/3467). 
