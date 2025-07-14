@@ -246,6 +246,16 @@ Second, $qSet$ does not have a [[subobject classifier]]. However, every subobjec
 Let $X$ be a quantum set. There is a [[one-to-one correspondence]] between the subsets of $At(X)$ and the [[subobjects]] of $X$ in $qSet$. Each subset $A \subseteq X$ corresponds to a subobject $j \colon W \to X$ with $At(W) = A$ and $W_\alpha = X_\alpha$.
 \end{proposition}
 
+## Internalization
+
+Many classes of discrete quantum structures can be defined via [[internalization]] in the [[dagger-compact category|dagger-compact]] [[quantaloid]] $qRel$. In this context, the term "quantum" refers to [[noncommutative geometry]], and the term "discrete" refers to $C^*$-algebras that are $c_0$-direct sums of full matrix algebras, as in section 1.
+
+We highlight two aspects of this internalization. First, for many classes of discrete quantum structures, the original definition in noncommutative geometry is motivated by sophisticated considerations that are specific to that class. In contrast, the definition via internalization in $qRel$ is simply a reinterpretation of a straightforward definition in $Rel$.
+
+Second, in many cases, a comparable definition via internalization in $qSet$ is not available because the [[monoidal category|monoidal product]] in $qSet$ is not its [[cartesian product|categorical product]]. Thus, this section refers to "allegorical internalization" rather than "categorical internalization." In other words, the given definitions are meant to be interpreted in $qRel$, as well as [[Rel|$Rel$]] and other [[allegory|allegories]].
+
+*to be continued...*
+
 ## Quantum sets as bundles
 
 In mild paraphrase (following the discussion at *[[dependent linear type]]* and *[[quantum circuits via dependent linear types]]*):
