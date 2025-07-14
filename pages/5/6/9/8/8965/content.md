@@ -255,7 +255,7 @@ $$\mathrm{ind}_\mathbb{N}^C(f, c_0, c_s, s(n)) \equiv c_s(n, \mathrm{ind}(f, c_0
 
 However, by the rules of dependent pair types, one could instead postulate separate elements and identifications instead of an element of a [[fiber type]] throughout the generalized principle. 
 
-Instead of the dependent pair $c_0:\sum_{z:C} f(z) =_\mathbb{N} 0$ we have the element $c_0:C$ and identificaiton $p_0:f(c_0) =_\mathbb{N} 0$, where the original element is given by $(c_0, p_0)$. In addition, given the dependent type 
+Instead of the dependent pair $c_0:\sum_{z:C} f(z) =_\mathbb{N} 0$ we have the element $c_0:C$ and identification $p_0:f(c_0) =_\mathbb{N} 0$, where the original element is given by $(c_0, p_0)$. In addition, given the dependent type 
 
 $$c_s:\prod_{n:\mathbb{N}} \left(\sum_{z:C} f(z) =_\mathbb{N} n\right) \to \left(\sum_{z:C} f(z) =_\mathbb{N} s(n)\right)$$
 
