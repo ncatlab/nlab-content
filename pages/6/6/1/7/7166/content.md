@@ -94,7 +94,7 @@ equipped with the map $\varepsilon \colon K \to V$ that arises by applying the c
 +-- {: .num_remark}
 ###### Remark
 
-Happily, this colimit is computed as in $Vect$, and more happily still -- since the underlying functor $Vect \to Set$ also preserves and creates filtered colimits -- this colimit is just a set-theoretic union of the $C(V_\alpha)$ along the canonical inclusions between them. 
+Happily, this colimit is computed as in $Vect$, and more happily still -- since the underlying functor $Vect \to Set$ also preserves and creates filtered colimits -- this colimit is just a set-theoretic union of the $Cofree(V_\alpha)$ along the canonical inclusions between them. 
 
 =--
 
