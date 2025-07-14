@@ -233,6 +233,12 @@ Something similar appears in def. 1.1, 1.2 of
 For more on this see at _[[synthetic differential supergeometry]]_.
 
 
+Discussion of relationship to [[Cartesian differential categories]] is here:
+
+* [[Jean-Simon Lemay]], _Cartesian Fermat Categories, a new class of Cartesian Differential Categories_, Topos Institute Seminar, June 2025 (work with Carlos Pascual Miralles). [Slides](https://topos.institute/events/topos-colloquium/slides/2025-06-12.pdf), [Video](https://www.youtube.com/watch?v=G_EmgaM9i64).
+
+
+
 [[!redirects Fermat theory]]
 [[!redirects Fermat theories]]
 [[!redirects fermat theory]]
