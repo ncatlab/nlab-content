@@ -77,7 +77,7 @@ where $Q$ is a finite-dimensional algebra. The dual $Q^\ast$ carries a coalgebra
 
 $$C \to Q^\ast \to T(V^\ast)^\circ$$ 
 
-that provide the desired lift. The uniqueness of the lift is evident from the uniqueness of the extension $T(V^\ast) \to C$ (or equivalently, of $T(V^\ast)_{prof} \to C$, passing to the profinite completion) on the dual algebra side. 
+that provide the desired lift. The uniqueness of the lift is evident from the uniqueness of the extension $T(V^\ast) \to C^\ast$ (or equivalently, of $T(V^\ast)_{prof} \to C^\ast$, passing to the profinite completion) on the dual algebra side. 
 =-- 
 
 Now let $V$ be an infinite-dimensional vector space. We may view $V$ as the union or filtered colimit over the system $\{V_\alpha\}$ of its finite-dimensional subspaces. Applying the cofree coalgebra construction to these finite-dimensional subspaces, we get a system of coalgebras. 
@@ -86,9 +86,9 @@ Now let $V$ be an infinite-dimensional vector space. We may view $V$ as the unio
 ###### Theorem 
 The coalgebra colimit 
 
-$$K = colim_{V_\alpha \subset V} C(V_\alpha),$$ 
+$$K = colim_{V_\alpha \subset V} Cofree(V_\alpha),$$ 
 
-equipped with the map $\varepsilon \colon K \to V$ that arises by applying the colimit functor to the system of universal maps $C(V_\alpha) \to V_\alpha$, is the cofree coalgebra on $V$. 
+equipped with the map $\varepsilon \colon K \to V$ that arises by applying the colimit functor to the system of universal maps $Cofree(V_\alpha) \to V_\alpha$, is the cofree coalgebra on $V$. 
 =--
 
 +-- {: .num_remark}
@@ -101,14 +101,14 @@ Happily, this colimit is computed as in $Vect$, and more happily still -- since 
 \begin{proof} 
 Indeed, suppose given a coalgebra $C$ and a linear function $f \colon C \to V$. To construct a coalgebra map $C \to K$ which lifts $f$, we argue as we did in the proof of the lemma: since $C$ is the colimit of its finite-dimensional subcoalgebras $C_\alpha$, it suffices to construct a system of coalgebra maps $C_\alpha \to K$ indexed over these coalgebras $C_\alpha$, and then pass to their colimit to get the coalgebra map $C \to K$. 
 
-The restriction of $f \colon C \to V$ to $C_\alpha$ factors through the image map $f_\alpha \colon C_\alpha \to V_\alpha$, where $V_\alpha = f(C_\alpha)$ is a finite-dimensional subspace of $V$. This map $f_\alpha$ lifts uniquely to a coalgebra map $\widehat{f_\alpha} \colon C_\alpha \to C(V_\alpha)$, and the extension 
+The restriction of $f \colon C \to V$ to $C_\alpha$ factors through the image map $f_\alpha \colon C_\alpha \to V_\alpha$, where $V_\alpha = f(C_\alpha)$ is a finite-dimensional subspace of $V$. This map $f_\alpha$ lifts uniquely to a coalgebra map $\widehat{f_\alpha} \colon C_\alpha \to Cofree(V_\alpha)$, and the extension 
 
-$$C_\alpha \stackrel{\widehat{f_\alpha}}{\to} C(V_\alpha) \hookrightarrow K$$
+$$C_\alpha \stackrel{\widehat{f_\alpha}}{\to} Cofree(V_\alpha) \hookrightarrow K$$
 
 is the desired coalgebra map $C_\alpha \to K$. The compatibility of these coalgebra maps is straightforward to check, so there exists a coalgebra map $C \to K$ that is compatible with the maps $f \colon C \to V$ and $\varepsilon \colon K \to V$. In other language: the pair $(K, \varepsilon \colon K \to V)$ is weakly terminal in the comma category $U \downarrow V$, where $U \colon CoAlg \to Vect$ is the forgetful functor. 
 
 It remains to see that $(K, \varepsilon \colon K \to V)$ is actually the terminal object $(Cofree(V), U Cofree(V) \to V)$ (as observed above, this terminal a priori exists by an application of the special adjoint functor theorem). Since a weakly terminal subterminal object is terminal, it suffices to establish subterminality, i.e., 
-that the unique coalgebra map $i: K \to Cofree(V)$ that lifts $\varepsilon \colon K \to V$ is injective. But because $K$ is a union of subcoalgebras of the form $Cofree(V_\alpha)$ where $V_\alpha$ ranges over finite-dimensional subspaces of $V$, it is enough to see that the restriction of $i$ to every such $Cofree(V_\alpha)$ is injective. But (exploiting terminality of $Cofree(V)$ in the comma category) this restriction can only be the coalgebra map
+that the unique coalgebra map $i: K \to Cofree(V)$ that lifts $\varepsilon \colon K \to V$ is injective. But because $K$ is a union (a filtered colimit) of coalgebras of the form $Cofree(V_\alpha)$ where $V_\alpha$ ranges over finite-dimensional subspaces of $V$, it is enough to see that the restriction of $i$ to every such $Cofree(V_\alpha)$ is injective. But (exploiting terminality of $Cofree(V)$ in the comma category) this restriction can only be the coalgebra map
 
 $$Cofree(j): Cofree(V_\alpha) \to Cofree(V)$$ 
 
