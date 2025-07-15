@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -162,12 +161,34 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 
+\begin{example}\label{TorusWithC6RotationAction}
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group|$\mathbb{Z}_{/6}$]]-[[group action|action]] which rotates by multiples of $\pi/3$ around the origin:
+
+\begin{imagefromfile}
+    "file_name": "C6TorusCellStructure.png",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
+
+
+
+
+
 ## Properties
 
 ### Closure properties
 
 \begin{proposition}\label{ClosureUnderProductsForFiniteGroups}
-  For $G$ (at least) a [[finite group]] , the [[product]] of two $G$-CW-complexes in [[compactly generated weak Hausdorff spaces]] is itself a $G$-CW-complex.
+  At least for $G$ a [[finite group]], the [[product]] of two $G$-CW-complexes in [[compactly generated weak Hausdorff spaces]] is itself a $G$-CW-complex.
 \end{proposition}
 \begin{proof}
   Since for finite $G$, a $G$-CW complex is the same as a plain [[CW-complex]] equipped with a [[cell complex|cellular]] [[group action|action]] by $G$ (Rem. \ref{FiniteGroupCWComplexesAreCWComplexesWithCellularGAction}) it is clear that for this structure to be preserved by the product operation it is sufficient that the products of underlying cells constitute a CW-complex, hence that products preserve CW-complexes in compactly generated Hausdorff spaces. That is this the case is [this Proposition](CW+complex#ClosureOfCWComplexesUnderCartesianProduct).
