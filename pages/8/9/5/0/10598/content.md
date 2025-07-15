@@ -181,6 +181,27 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 
+\begin{example}\label{TorusWithD6DihedralAction}
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{6}$]]-[[group action|action]]:
+
+\begin{imagefromfile}
+    "file_name": "D6TorusCellStructure.png",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
+
+
+
+
 
 
 ## Properties
