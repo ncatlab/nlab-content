@@ -132,7 +132,9 @@ Experimental realization of FQAH systems:
 
 * Heonjoon Park et al.: *Observation of fractionally quantized anomalous Hall effect*, Nature **622** (2023) 74–79 &lbrack;[doi:10.1038/s41586-023-06536-0](https://doi.org/10.1038/s41586-023-06536-0)&rbrack;
 
-* Zhengguang Lu et al.: *Fractional quantum anomalous Hall effect in multilayer graphene*, Nature **626** (2024) 759–764 &lbrack;[doi:10.1038/s41586-023-07010-7](https://doi.org/10.1038/s41586-023-07010-7)&rbrack;
+* Boran Zhou, Hui Yang, and Ya-Hui Zhang: *Fractional Quantum Anomalous Hall Effect in Rhombohedral Multilayer Graphene in the Moiréless Limit*, Phys. Rev. Lett. **133** (2024) 206504 &lbrack;[doi:10.1103/PhysRevLett.133.206504](https://doi.org/10.1103/PhysRevLett.133.206504), [arXiv:2311.04217](https://arxiv.org/abs/2311.04217)&rbrack;
+
+* Zhengguang Lu et al.: *Fractional quantum anomalous Hall effect in multilayer graphene*, Nature **626** (2024) 759–764 &lbrack;[doi:10.1038/s41586-023-07010-7](https://doi.org/10.1038/s41586-023-07010-7), [arXiv:2309.17436](https://arxiv.org/abs/2309.17436)&rbrack;
 
 * *Observation of Integer and Fractional Chern insulators in high Chern number flatbands* &lbrack;[arXiv:2507.09908](https://arxiv.org/abs/2507.09908)&rbrack;
      
@@ -157,13 +159,18 @@ See also:
 
 Further discussion:
 
-* Boran Zhou, Hui Yang, and Ya-Hui Zhang: *Fractional Quantum Anomalous Hall Effect in Rhombohedral Multilayer Graphene in the Moiréless Limit*, Phys. Rev. Lett. **133** (2024) 206504 &lbrack;[doi:10.1103/PhysRevLett.133.206504](https://doi.org/10.1103/PhysRevLett.133.206504)&rbrack;
+* Valentin Crépel, Liang Fu: *Anomalous Hall metal and fractional Chern insulator in twisted transition metal dichalcogenides*, Phys. Rev. B **107** (2023) L201109 &lbrack;[arXiv:2207.08895](https://arxiv.org/abs/2207.08895), [doi:10.1103/PhysRevB.107.L201109](https://doi.org/10.1103/PhysRevB.107.L201109)&rbrack;
+
+* Gal Shavit, Yuval Oreg: *Quantum Geometry and Stabilization of Fractional Chern Insulators Far from the Ideal Limit*, Phys. Rev. Lett. **133** (2024) 156504 &lbrack;[doi:10.1103/PhysRevLett.133.156504](https://doi.org/10.1103/PhysRevLett.133.156504), [arXiv:2405.09627](https://arxiv.org/abs/2405.09627)&rbrack;
 
 * [[Nicolas Regnault]] et al.: *Fractional topological states in rhombohedral multilayer graphene modulated by kagome superlattice* &lbrack;[arXiv:2502.17320](https://arxiv.org/abs/2502.17320)&rbrack;
 
 * Sen Niu, [[Jason Alicea]], D. N. Sheng, Yang Peng: *Quantum anomalous Hall effects and Hall crystals at fractional filling of helical trilayer graphene* &lbrack;[arXiv:2505.24146](https://arxiv.org/abs/2505.24146)&rbrack;
 
 * Hongyu Lu, Han-Qing Wu, Bin-Bin Chen, Wang Yao, Zi Yang Meng: *Generic (fractional) quantum anomalous Hall crystals from interaction-driven band folding* &lbrack;[arXiv:2505.04138](https://arxiv.org/abs/2505.04138)&rbrack;
+
+
+
 
 
 
