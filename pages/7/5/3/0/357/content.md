@@ -259,7 +259,7 @@ On a [[string diagram]]-calculus for ([[virtual double category|virtual]]) [[dou
 
 Some more recent work
 
-* [[Nathanael Arkor]], *Virtual double categories: Past, present, and future* [slides](https://arkor.co/files/Virtual%20double%20categories%20(SIC%202025).pdf)
+* [[Nathanael Arkor]], *Virtual double categories: Past, present, and future* [slides](https://arkor.co/files/Virtual%20double%20categories%20%28SIC%202025%29.pdf)
 
 See also references at [[virtual equipment]].
 
