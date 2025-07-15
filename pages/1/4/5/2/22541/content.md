@@ -49,7 +49,10 @@
 
 Textbook accounts:
 
-* Yoshio Kuramoto, *Quantum Many-Body Physics -- A Perspective on Strong Correlations* ([doi:10.1007/978-4-431-55393-9](https://link.springer.com/book/10.1007/978-4-431-55393-9))
+* Yoshio Kuramoto, *Quantum Many-Body Physics -- A Perspective on Strong Correlations*, Springer (2020) &lbrack;[doi:10.1007/978-4-431-55393-9](https://link.springer.com/book/10.1007/978-4-431-55393-9)&rbrack;
+
+* Fabrizio Tafuri, Carmine Antonio Perroni, Giulio De Filippis: *Lecture Notes on Quantum Many-Body Theory: A Pedagogical Introduction* &lbrack;[arXiv:2507.09229](https://arxiv.org/abs/2507.09229)&rbrack;
+
 
 In a context of [[quantum optics]]:
 
