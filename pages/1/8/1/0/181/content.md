@@ -35,13 +35,13 @@ satisfying the [[associativity]] law and left/right [[unit laws]], which can be 
 [[formal duality|Dually]], a **coalgebra** $C$ is a vector space equipped with a **[[comultiplication]]** 
 
 $$
-  \Delta \colon A \to A \otimes A 
+  \Delta \colon C \to C \otimes C 
 $$
 
 and a **counit**
 
 $$ 
-  e \colon A \to k
+  e \colon C \to k
 $$
 
 satisfying *[[co-associativity]]* and left/right *[[co-unitality]]* laws.  
