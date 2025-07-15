@@ -1,4 +1,4 @@
-__Ivan T. Todorov__ is a Bulgarian theoretical and mathematical physicist, a specialist in quantum field theory, especially conformal field theory as well as representation theoretic methods in quantum field theory.
+__Ivan T. Todorov__ was a Bulgarian theoretical and mathematical physicist, a specialist in quantum field theory, especially conformal field theory as well as representation theoretic methods in quantum field theory.
 
 Disambiguation: not a mathematician [[Ivan G. Todorov]].
 
