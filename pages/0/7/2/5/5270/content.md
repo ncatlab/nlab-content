@@ -1,6 +1,13 @@
 
+* [institute page](https://ethz.ch/de/die-eth-zuerich/organisation/who-is-who/emeritierte-professorinnen-und-professoren/details.NzczMzA=.TGlzdC80MDEsMTk1NzY4MzcwOQ==.html)
+
 * [Wikipedia entry](http://de.wikipedia.org/wiki/J%C3%BCrg_Fr%C3%B6hlich)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=54885)
+
+* [inSpire page](https://inspirehep.net/authors/1009376)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=y_wpkH8AAAAJ&hl=vi)
 
 ## Selected writings
 
@@ -59,9 +66,21 @@ On [[quantum measurement]]:
 
 * [[Jürg Fröhlich]], Zhou Gang, *On the Evolution of States in a Quantum-Mechanical Model of Experiments* &lbrack;[arXiv:2212.02599](https://arxiv.org/abs/2212.02599)&rbrack;
 
+On the [[interpretation of quantum mechanics]]:
+
+* [[Jürg Fröhlich]], *A Brief Review of the "ETH-Approach to Quantum Mechanics"*, Frontiers in Analysis and Probability. Springer (2020) Cham. &lbrack;[arXiv:1905.06603](https://arxiv.org/abs/1905.06603), [doi:10.1007/978-3-030-56409-4_2](https://doi.org/10.1007/978-3-030-56409-4_2)&rbrack;
+
+
 On [[topological phases of matter]] in [[condensed matter physics]] with focus on the role of [[quantum anomalies]]:
 
 * [[Jürg Fröhlich]], *Gauge Invariance and Anomalies in Condensed Matter Physics*, Journal of Mathematical Physics &lbrack;[arXiv:2303.14741](https://arxiv.org/abs/2303.14741)&rbrack;
+
+
+On [[Ivan T. Todorov]]:
+
+* [[Jürg Fröhlich]], Junchen Rong: *[Tribute to Ivan T. Todorov](https://www.ihes.fr/en/todorov-en/)*, IHES News (3 Mar 2025)
+
+
 
 
 ## Quotes
@@ -70,10 +89,6 @@ On [[topological phases of matter]] in [[condensed matter physics]] with focus o
 From [Fröhlich 92, p. 11](#Froehlich92), on laying foundations for [[perturbative string theory]] via rigorous formulation of [[2d SCFT]] in terms of [[conformal nets]]/[[2-spectral triples]] or similar:
 
 > I still have hopes, perhaps romantic ones, that [[string theory]], or something inspired by it, will come back to life again. I believe it is interesting to attempt to formulate string theory in an "invariant" way, quite like it is useful to formulate geometry in a coordinate-independent way. One might, for example, start with a family $\mathcal{F}$, of [[von Neumann algebra factor|hyperfinite type $III_1$ von Neumann algebras]] -- to be a little technical -- [[conformal net|indexed by]] intervals of the circle with non-empty complement (or of the super-circle). It may pay to formulate the starting point using the language of [[sheaves]]. $[...]$ This structure determines a [[braided monoidal category|braided monoidal]] [[C*-category]] with unit, ...; briefly, a quantum theory. From a combination of such [[tensor categories]] (left and right movers) one would attempt to reconstruct (symmetries of) _physical space-time_. String amplitudes would correspond to [[morphisms|arrows]] ([[intertwiners]]) of the [[tensor category]]. $[...]$ it would provide a general way of thinking about string theory that does not presuppose knowing the target space-time of the theory.
-
-On the [[interpretation of quantum mechanics]]:
-
-* [[Jürg Fröhlich]], *A Brief Review of the "ETH-Approach to Quantum Mechanics"*, Frontiers in Analysis and Probability. Springer (2020) Cham. &lbrack;[arXiv:1905.06603](https://arxiv.org/abs/1905.06603), [doi:10.1007/978-3-030-56409-4_2](https://doi.org/10.1007/978-3-030-56409-4_2)&rbrack;
 
 
 ## Related entries
