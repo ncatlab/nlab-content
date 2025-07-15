@@ -172,53 +172,106 @@ the homotopy pullback of this diagram is presented by the ordinary [[pullback]]
 
 $$
   \array{
-     A\times_C^h B & \to & C^I \times_C B
+     A\times_C^h B & \longrightarrow & C^I \times_C B
     \\
-    \downarrow && \downarrow 
+    \big\downarrow && \big\downarrow 
     \\
-     A & \stackrel{f}{\to} & C
+     A & \underset{f}{\longrightarrow} & C
   }
   \,.
 $$
 
 or, equivalently up to [[isomorphism]], as the ordinary [[pullback]]
 
-$$
+\[
+  \label{HomotopyPullbackAsFiberProductWithPaths}
   \array{
-     A\times_C^h B & \to & C^I
+    A\times_C^h B 
+      & \longrightarrow & 
+    C^I
     \\
-    \downarrow && \downarrow 
+    \big\downarrow && \big\downarrow 
     \\
-     A\times B & \stackrel{(f,g)}{\to} & C\times C
+    A\times B 
+    & 
+    \underset{(f,g)}{\longrightarrow} 
+    & 
+    C\times C
   }
   \,.
-$$
+\]
 
 =--
 
 See also at _[[Mayer-Vietoris sequence]]_ ([this proposition](Mayer-Vietoris+sequence#SequenceFromDiagonal)) and at *[[homotopy equalizer]]* ([this section](homotopy+equalizer#RelationToHomotopyPullbacks)).
 
-+-- {: .proof}
-###### Proof
+\begin{proof}
 Since the objects are already fibrant, prop. \ref{HomotopyPullbackByOrdinaryPullback} implies that it is sufficient to replace one of the morphisms by a fibrant resolution.
 Such a resolution is provided by the [[factorization lemma]]: by [Lemma 3](factorization+lemma#FibrantResolution), $B \to C$ admits a canonical fibrant resolution
   $$ C^I \times_C B \twoheadrightarrow C $$
 where $C \stackrel{\simeq}{\to} C^I \to C \times C$ is a [[path space object]] for $C$ (for instance, when $C$ is a [[closed monoidal homotopical category]] then this can be taken to be the [[internal hom]] with an [[interval object]] $I$).
-=--
+\end{proof}
 
-The homotopy pullback constructed in this way is an example of a _strict homotopy limit_, as mentioned at [[homotopy limit]].  In such a case, one can say that an arbitrary homotopy-commutative square
++-- {: .num_remark #HomotopyFiberSequenceOfHomotopyPullback}
+###### Remark
+
+Incidentally, when $A,B,C$ are [[pointed topological spaces]] and $A \longrightarrow C$ and $B \longrightarrow C$ are pointed maps, then
+(eq:HomotopyPullbackAsFiberProductWithPaths) implies that the homotopy fiber product $A \times_C^h B$ sits in a [[homotopy fiber sequence]] of the form
+$$
+  \Omega C 
+  \longrightarrow
+  A \times^h_C B
+  \longrightarrow
+  A \times B
+  \,.
+$$
+
+This is because the following outer rectangle is a (homotopy) pullback exhibiting the [[based loop space]] of $C$:
 
 $$
   \array{
-   W & \to& Y
+    \Omega C
+    &\longrightarrow&
+    A\times_C^h B 
+      & \longrightarrow & 
+    C^I
+    \\
+    \big\downarrow 
+    &&
+    \big\downarrow 
+    && 
+    \big\downarrow 
+    \\
+    \ast
+    &\longrightarrow&
+    A\times B 
+    & 
+    \underset{(f,g)}{\longrightarrow} 
+    & 
+    C\times C
+    \mathrlap{\,,}
+  }
+$$
+
+which implies the claim by the [[pasting law]] for (homotopy) pullbacks.
+
+=--
+
+\begin{remark}
+The homotopy pullback constructed in the way of Corollary \ref{HomotopyPullbackByFactorizationLemma} is an example of a _strict homotopy limit_, as mentioned at *[[homotopy limit]].*  In such a case, one can say that an arbitrary homotopy-commutative square
+
+$$
+  \array{
+   W &\longrightarrow& Y
    \\
-    \downarrow && \downarrow
+   \big\downarrow && \big\downarrow
    \\
-   X &\to& Z
+   X &\longrightarrow& Z
   }
 $$
 
 is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
+\end{remark}
 
 
 A useful class of examples of this is implied by the following:
@@ -226,8 +279,7 @@ A useful class of examples of this is implied by the following:
 +-- {: .num_prop }
 ###### Proposition
 
-Let $\mathcal{C}$ be a category of [[simplicial presheaves]] over some [[site]]
-equipped with a _local_ injective [[model structure on simplicial presheaves]] with respect to that site.
+Let $\mathcal{C}$ be a category of [[simplicial presheaves]] over some [[site]] equipped with a _local_ injective [[model structure on simplicial presheaves]] with respect to that site.
 
 Then an ordinary pullback of $A \to C \leftarrow B$ in $\mathcal{C}$ is a homotopy pullback already when one of the two morphisms is an objectwise [[Kan fibration]].
 
@@ -442,6 +494,7 @@ Of particular interest are consecutive homotopy pullbacks of point inclusions. T
 [[!include notions of pullback -- contents]]
 
 
+
 ## References
 
 ### General
@@ -458,9 +511,16 @@ Dedicated textbook introductions:
 
 * [[Peter May]], [[Kate Ponto]], *Some basic homotopy limits*: §2.2 in: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) &lbrack;[ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf)&rbrack;
 
+Lecture notes:
+
+* [[Cary Malkiewich]]: *Fibration Sequences and Pullback Squares* (2021) &lbrack;[pdf](https://people.math.binghamton.edu/malkiewich//fibration_sequences.pdf), [[Malkiewich-FibrationSequences.pdf:file]]&rbrack;
+
+
 Exposition in [[model category]]-theory:
 
 * [[Urs Schreiber]], *[Homotopy Pullbacks](Introduction+to+Homotopy+Theory#HomotopyPullbacks)*, section in: *[[Introduction to Homotopy Theory]]*
+
+
 
 Fairly comprehensive general resources:
 
