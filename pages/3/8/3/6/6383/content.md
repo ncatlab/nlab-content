@@ -40,7 +40,7 @@ $$
 +-- {: .num_defn }
 ###### Definition
 
-A [[group]] $G$ is called **divisible** if for every [[natural number]] $n$ (hence for every [[integer]]) we have that for every element $g \in G$ there is an element $h \in G$ such that 
+A [[group]] $G$ is called **divisible** if for every nonzero [[natural number]] $n$ (hence for every nonzero [[integer]]) we have that for every element $g \in G$ there is an element $h \in G$ such that 
 
 $$
   g = n \cdot h
@@ -49,7 +49,7 @@ $$
 
 =--
 
-In other words, if for every $n$ the 'multiply by $n$' map $G \stackrel{n}{\to} G$ is a [[surjection]].
+In other words, if for every nonzero $n$ the 'multiply by $n$' map $G \stackrel{n}{\to} G$ is a [[surjection]].
 
 +-- {: .num_defn }
 ###### Definition
