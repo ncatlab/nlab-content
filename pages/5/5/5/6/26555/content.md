@@ -34,11 +34,11 @@ $$
   \,.
 $$
 
-* A quantum set is a [[von Neumann algebra]] $\mathcal{M}$ that is an $\ell^\infty$-[[direct sum]] of full [[matrix algebras]].
+* A quantum set is a [[von Neumann algebra]] $\mathcal{M}$ that is an $l^\infty$-[[direct sum]] of full [[matrix algebras]].
 $$
   \mathcal{M} 
   \cong 
-  \bigoplus_{i \in I}^{\ell^\infty} 
+  \bigoplus_{i \in I}^{l^\infty} 
   M_{n_i}(\mathbb{C})
   \,.
 $$
@@ -313,6 +313,33 @@ where $\top_X$ is the [[top|maximum]] relation $1 \to X$. Note that a discrete q
 
 These examples are all discrete in the sense that the underlying quantum space is discrete and not in the sense that the structure on that quantum space is discrete. This qualification is necessary because the underlying space of a quantum structure is often assumed to be from a larger class. For example, the underlying quantum space of a quantum graph may be a quantum [[localizable measurable space|measurable space]], and the underlying space of a quantum group may be a quantum [[locally compact topological space|topological space]].
 
+## Duality
+
+The material in this section is mostly from [Kornell 2020](#Kornell20).
+
+Quantum sets first appeared implicitly as a class of [[C-star-algebra|$C^\ast$-algebras]] in [Podleś & Woronowicz 1990](#PodlesWoronowicz90). However, these $C^\ast$-algebras are not [[identity element|unital]], and this makes the relevant category complicated to define. It is easier to work with an equivalent category of [[von Neumann algebra|von Neumann algebras]]. This category is [[duality|dual]] to $qSet$.
+
+\begin{definition}
+For each quantum set $X$, define the von Neumann algebra
+$$
+l^\infty(X) \coloneqq \bigoplus_{i \in I}^{l^\infty} L(X_\alpha),
+$$
+where the notation refers to the $l^\infty$-[[direct sum]] of von Neumann algebras.
+\end{definition}
+
+This definition generalizes $l^\infty$ [[sequence space|sequence spaces]] in the sense that $l^\infty(\mathrm{Inc}(A)) = l^\infty(A, \mathbb{C})$ for every set $A$.
+
+\begin{proposition}
+For each quantum set $X$, there is a [[one-to-one correspondence]] between projection operators $p \in l^\infty(X)$ and relations $1 \to X$. Each projection operator $p$ corresponds to the relation $Supp(p)$, which is defined by
+$$
+Supp(p)_{\bullet, \alpha} \coloneqq \{r \in L(\mathbb{C}, X_\alpha) \mid p_\alpha r = r\}.
+$$
+\end{proposition}
+
+In this context, a [[projector|projection operator]] $p \in l^\infty(X)$ is an element that satisfies $p^2 = p$ and $p^\dagger = p$, where $\dagger$ denotes the canonical [[star-algebra|anti-involution]] of the von Neumann algebra.
+
+*to be continued...*
+
 ## Quantum sets as bundles
 
 In mild paraphrase (following the discussion at *[[dependent linear type]]* and *[[quantum circuits via dependent linear types]]*):
@@ -342,6 +369,8 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
 * [[quantum CPO]]
 
 ## References
+
+* {#PodlesWoronowicz90} [[Piotr Podleś]], [[S. L. Woronowicz|Stanisław Lech Woronowicz]], *Quantum deformation of Lorentz group*, Comm. Math. Phys. **130** (1990).
 
 * {#KuperbergWeaver12} [[Greg Kuperberg]], [[Nik Weaver]]: *A von Neumann Algebra approach to quantum metrics*,  Mem. Amer. Math. Soc. **215** (2012) &lbrack;[arXiv:1005.0353](https://arxiv.org/abs/1005.0353), [ams:memo-215-1010](https://bookstore.ams.org/memo-215-1010)&rbrack;
 
