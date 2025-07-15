@@ -99,7 +99,7 @@ $$
 
 We have that $\mathrm{Inc}(A + B) = \mathrm{Inc}(A) + \mathrm{Inc}(B)$ and that $\mathrm{Inc}(A \times B) = \mathrm{Inc}(A) \times \mathrm{Inc}(B)$.
 
-The Cartesian product of quantum sets is so named because it generalizes the Cartesian product of sets. The former is not the [[cartesian product|categorical product]] in $qRel$, just as the latter is not the categorical product in [[Rel|$Rel$]]. It is also not the categorical product in $qSet$.
+The Cartesian product of quantum sets is so named because it generalizes the Cartesian product of sets. It is not the [[cartesian product|categorical product]] in either $qSet$ or $qRel$. In contrast, the Cartesian product of sets is the categorical product in [[Set|$Set$]] but not in [[Rel|$Rel$]].
 
 In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is their [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
 
@@ -117,7 +117,7 @@ We define the [[dagger-compact category]] $qRel$.
 $$
 R_{\alpha,\beta} \subseteq L(X_\alpha, Y_\beta),
 $$
-where $L(\mathcal{H},\mathcal{K})$ is the space of all linear maps from $\mathcal{H}$ to $\mathcal{K}$.
+where $L(\mathcal{H},\mathcal{K})$ is the space of all linear maps from $\mathcal{H}$ to $\mathcal{K}$. These morphisms are called relations.
 
 1. The composition $S \circ R \colon X \to Z$ of morphisms $R \colon X \to Y$ and $S \colon Y \to Z$ is given by
 $$
@@ -235,8 +235,8 @@ We have that $\mathrm{Elm}(X + Y) = \mathrm{Elm}(X) + \mathrm{Elm}(Y)$, that $\m
 The inclusion functor $qSet \hookrightarrow qRel$ has a [[right adjoint]] $\mathrm{qPow}\colon qRel \to qSet$ with $\mathrm{qPow}(X) = [X^*, 1 + 1]$ for each quantum set $X$.
 \end{theorem}
 
-The notation $X^*$ refers to the dual of $X$, as in Def. \ref{qRel}. The notation $[X,Y]$ refers to the [[internal hom]] of $X$ and $Y$, as in Thm. \ref{Cosmos}.
-In general, $\mathrm{qPow}(\mathrm{Inc}(A)) \ncong \mathrm{Inc}(\mathrm{Pow}(A))$, where $\mathrm{Pow}(A)$ is the [[power set]] of $A$. However, we do have that $\mathrm{Elm}(\mathrm{qPow}(\mathrm{Inc}(A)) \cong \mathrm{Pow}(A)$. Thm. \ref{qPow} expresses that $qRel$ behaves somewhat like a [[allegory|power allegory]].
+The notation $X^*$ refers to the dual of $X$, as in Def. \ref{qRel}. The notation $[X,Y]$ refers to the [[internal hom]] of $X$ and $Y$, as in Thm. \ref{Cosmos}. Thm. \ref{qPow} expresses that $qRel$ behaves somewhat like a [[allegory|power allegory]]. The quantum power set $qPow(X)$ is canonically a quantum poset in the sense of Example \ref{QuantumPoset}.
+In general, $\mathrm{qPow}(\mathrm{Inc}(A)) \ncong \mathrm{Inc}(\mathrm{Pow}(A))$, where $\mathrm{Pow}(A)$ is the [[power set]] of $A$. However, we do have that $\mathrm{Elm}(\mathrm{qPow}(\mathrm{Inc}(A)) \cong \mathrm{Pow}(A)$. 
 
 Overall, $qSet$ is unlike an [[topos|elementary topos]] in only two respects. First, its monoidal product is not its categorical product, so it is not a [[cartesian monoidal category]]. However, its monoidal unit $1$ is terminal, so it is a [[semicartesian monoidal category]]. Furthermore, its monoidal product $X \times Y$ satisfies the uniqueness condition in the definition of the [[cartesian product|categorical product]].
 
@@ -248,13 +248,69 @@ Let $X$ be a quantum set. There is a [[one-to-one correspondence]] between the s
 
 ## Internalization
 
+The material in this section is mostly from [Weaver 2012](#Weaver12) and [Kornell 2024](#Kornell24).
+
 Many classes of discrete quantum structures can be defined via [[internalization]] in the [[dagger-compact category|dagger-compact]] [[quantaloid]] $qRel$. In this context, the term "quantum" refers to [[noncommutative geometry]], and the term "discrete" refers to $C^*$-algebras that are $c_0$-direct sums of full matrix algebras, as in section 1.
 
 We highlight two aspects of this internalization. First, for many classes of discrete quantum structures, the original definition in noncommutative geometry is motivated by sophisticated considerations that are specific to that class. In contrast, the definition via internalization in $qRel$ is simply a reinterpretation of a straightforward definition in $Rel$.
 
 Second, in many cases, a comparable definition via internalization in $qSet$ is not available because the [[monoidal category|monoidal product]] in $qSet$ is not its [[cartesian product|categorical product]]. Thus, this section refers to "allegorical internalization" rather than "categorical internalization." In other words, the given definitions are meant to be interpreted in $qRel$, as well as [[Rel|$Rel$]] and other [[allegory|allegories]].
 
-*to be continued...*
+\begin{example}
+\label{QuantumPoset}
+A discrete quantum [[partial order|poset]] is a quantum set $X$ together with a relation $R\colon X \to X$ such that
+
+1. $R^\dagger =R$,
+
+1. $R \circ R \leq R$,
+
+1. $R^\dagger \wedge R = id_X$,
+
+where $R \wedge S$ is the [[meet]] of $R$ and $S$.
+\end{example}
+
+\begin{example}
+A discrete quantum [[graph]] is a quantum set $X$ together with a relation $R\colon X \to X$ such that
+
+1. $R^\dagger = R$,
+
+1. $\id_X \leq R$.
+
+\end{example}
+
+
+\begin{example}
+A discrete quantum [[metric space]] is a quantum set $X$ together with a map $d\colon X \times X^* \to \mathrm{Inc}([0, \infty))$ such that
+
+1. $\mathrm{Inc}(0)^\dagger \circ d = \varepsilon_X$,
+
+1. $\mathrm{Inc}(+) \circ (d \times d) \circ (\id_X \times \varepsilon_X \times \id_X) \leq \mathrm{Inc}(\leq) \circ d$,
+
+1. $d \circ \sigma_{X^*,X} = (d^*)^\dagger$,
+
+where $\varepsilon_X$ is the [[dualizable object|counit]] and $\sigma_{X,Y}$ is the [[symmetric monoidal category|braiding]]. In axiom 1, the map $0: \{\bullet\} \to [0, \infty)$ has the value $0 \in [0, \infty)$.
+\end{example}
+
+\begin{example}
+A discrete quantum [[monoid]] is a quantum set $X$ together with maps $m\colon X \times X \to X$ and $e\colon 1 \to X$ such that
+
+1. $m \circ (m \times \id_X)= m \circ (\id_X \circ m)$,
+
+1. $m \circ (e \times \id_X) = \id_X = m \circ (\id_X \times e)$.
+
+\end{example}
+
+\begin{example}
+A discrete quantum [[group]] is a quantum monoid $(X,m,e)$ such that
+
+1. $e^\dagger \circ m \circ (\!\top_X\! \times \id_X) = \!\top_X^\dagger$,
+
+1. $e^\dagger \circ m \circ (\id_X \times \!\top_X\!) = \!\top_X^\dagger$,
+
+where $\top_X$ is the [[top|maximum]] relation $1 \to X$. Note that a discrete quantum group is not a [[group object]] in $qSet$.
+\end{example}
+
+
 
 ## Quantum sets as bundles
 
@@ -298,6 +354,8 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
   > (in the context of [[quantum CPOs]])
 
 * {#KornellLindenhoviusMislove22} [[Andre Kornell]], [[Bert Lindenhovius]], [[Michael Mislove]], *A category of quantum posets*, Indag. Math. **33** (2022).
+
+* {#Kornell24} [[Andre Kornell]], *Discrete quantum structures II: Examples*, J. Noncommut. Geom. **18** (2024).
 
 * {#JencaLindenhovius25} [[Bert Lindenhovius]], Gejza Jenča, *Monoidal quantaloids* (2025), [arXiv:2504.18266](https://arxiv.org/abs/2504.18266).
 
