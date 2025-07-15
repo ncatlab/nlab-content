@@ -18,11 +18,11 @@
 ### Dihedral groups
  {#DihedralGroups}
 
-The dihedral group, $D_{2n}$, is a [[finite group]] of [[order of a group|order]] $2n$. It may be defined as the [[symmetry group]] of a regular $n$-gon. 
+The dihedral group, $D_{2n}$, is a [[finite group]] of [[order of a group|order]] $2n$. It may be defined as the [[symmetry group]] of a regular $n$-gon in the [[plane]]. 
 
-For instance $D_6$ is the symmetry group of the equilateral triangle and is [[isomorphism|isomorphic]] to the [[symmetric group]], $S_3$.
+For instance $D_6$ is the [[symmetry group]] of the equilateral [[triangle]]  and is [[isomorphism|isomorphic]] to the [[symmetric group]], $S_3$.
 
-For $n \in \mathbb{N}$, $n \geq 1$, the dihedral group $D_{2n}$ is thus the [[subgroup]] of the [[orthogonal group]] [[O(2)|$O(2)$]] which is [[generators and relations|generated]] from the [[finite group|finite]] [[cyclic group|cyclic]] [[subgroup]] $C_n \,\coloneqq\, \mathbb{Z}/n$ of [[SO(2)|$SO(2)$]] and the [[reflection]] at the $x$-axis (say).  It is a [[semidirect product group|semi-direct product]] of $C_n$ and a [[finite group of order 2|$C_2 \,\coloneqq\, \mathbb{Z}/2$]] corresponding to that reflection, hence fitting into a {#ShortExactSequence} [[short exact sequence]] as follows:
+For $n \in \mathbb{N}$, $n \geq 1$, the dihedral group $D_{2n}$ is thus the [[subgroup]] of the [[orthogonal group]] [[O(2)|$O(2)$]] which is [[generators and relations|generated]] from the [[finite group|finite]] [[cyclic group|cyclic]] [[subgroup]] $C_n \,\coloneqq\, \mathbb{Z}/n$ of [[SO(2)|$SO(2)$]] and the [[reflection]] at the $x$-axis (say).  It is a [[semidirect product group|semi-direct product]] of $C_n$ and [[finite group of order 2|$C_2 \,\coloneqq\, \mathbb{Z}/2$]] corresponding to that reflection, hence fitting into a {#ShortExactSequence} [[short exact sequence]] as follows:
 
 \begin{tikzcd}
   \mathbb{Z}/n
@@ -59,7 +59,7 @@ There are two different conventions for numbering the dihedral groups.
 
 1. In the _geometric convention_ one writes "$D_n$" instead of "$D_{2n}$", recording rather the geometric nature of the object of which it is the symmetry group.  
 
-   Also beware that there is yet another group denoted $D_n$ mentioned at _[[Coxeter group]]_.
+   Furthermore beware that there is yet another group commonly denoted "$D_n$", cf. at _[[Coxeter group]]_.
 
 =--
 
