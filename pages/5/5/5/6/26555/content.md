@@ -240,7 +240,7 @@ In general, $\mathrm{qPow}(\mathrm{Inc}(A)) \ncong \mathrm{Inc}(\mathrm{Pow}(A))
 
 Overall, $qSet$ is unlike an [[topos|elementary topos]] in only two respects. First, its monoidal product is not its categorical product, so it is not a [[cartesian monoidal category]]. However, its monoidal unit $1$ is terminal, so it is a [[semicartesian monoidal category]]. Furthermore, its monoidal product $X \times Y$ satisfies the uniqueness condition of the universal property that defines the [[cartesian product|categorical product]].
 
-Second, $qSet$ does not have a [[subobject classifier]]. However, every subobject of a quantum set $X$ has a unique [[characteristic function|characteristic morphism]] $\chi\colon X \to 1 + 1$ such that $\chi = (! + !) \circ f$ for some $f \colon X \to X + X$ with $\nabla \circ f = \mathrm{id}_X$. Here, $!\colon X \to 1$ is the [[terminal object|unique]] morphism from $X$ to $1$ and $\nabla \colon X \to X \times X $ is the [[codiagonal morphism|codiagonal]].
+Second, $qSet$ does not have a [[subobject classifier]]. However, every subobject of a quantum set $X$ has a unique [[characteristic function|characteristic morphism]] $\chi\colon X \to 1 + 1$ such that $\chi = (! + !) \circ f$ for some $f \colon X \to X + X$ with $\nabla \circ f = \mathrm{id}_X$. Here, $!\colon X \to 1$ is the [[terminal object|unique]] morphism from $X$ to $1$ and $\nabla \colon X \to X + X $ is the [[codiagonal morphism|codiagonal]].
 
 \begin{proposition}
 Let $X$ be a quantum set. There is a [[one-to-one correspondence]] between the subsets of $At(X)$ and the [[subobjects]] of $X$ in $qSet$. Each subset $A \subseteq X$ corresponds to a subobject $j \colon W \to X$ with $At(W) = A$ and $W_\alpha = X_\alpha$.
@@ -317,9 +317,10 @@ These examples are all discrete in the sense that the underlying quantum space i
 
 The material in this section is mostly from [Kornell 2020](#Kornell20).
 
-Quantum sets first appeared implicitly as a class of [[C-star-algebra|$C^\ast$-algebras]] in [Podleś & Woronowicz 1990](#PodlesWoronowicz90). However, these $C^\ast$-algebras are not [[identity element|unital]], and this makes the relevant category complicated to define. It is easier to work with an equivalent category of [[von Neumann algebra|von Neumann algebras]]. This category is [[duality|dual]] to $qSet$.
+Quantum sets first appeared implicitly as a class of [[C-star-algebra|$C^\ast$-algebras]] in [Podleś & Woronowicz 1990](#PodlesWoronowicz90). However, these $C^\ast$-algebras are not [[identity element|unital]], and this makes the relevant category complicated to define. It is easier to work with an equivalent category of [[von Neumann algebra|von Neumann algebras]]. This category is [[duality|dual]] to $qSet$, and this section describes this duality.
 
 \begin{definition}
+\label{l-infinity}
 For each quantum set $X$, define the von Neumann algebra
 $$
 l^\infty(X) \coloneqq \bigoplus_{i \in I}^{l^\infty} L(X_\alpha),
@@ -330,13 +331,32 @@ where the notation refers to the $l^\infty$-[[direct sum]] of von Neumann algebr
 This definition generalizes $l^\infty$ [[sequence space|sequence spaces]] in the sense that $l^\infty(\mathrm{Inc}(A)) = l^\infty(A, \mathbb{C})$ for every set $A$.
 
 \begin{proposition}
-For each quantum set $X$, there is a [[one-to-one correspondence]] between projection operators $p \in l^\infty(X)$ and relations $1 \to X$. Each projection operator $p$ corresponds to the relation $Supp(p)$, which is defined by
+For each quantum set $X$, there is a [[one-to-one correspondence]] between projection operators in $l^\infty(X)$ and relations $1 \to X$. Each projection operator $p$ corresponds to the relation $Supp(p)$, which is defined by
 $$
 Supp(p)_{\bullet, \alpha} \coloneqq \{r \in L(\mathbb{C}, X_\alpha) \mid p_\alpha r = r\}.
 $$
 \end{proposition}
 
-In this context, a [[projector|projection operator]] $p \in l^\infty(X)$ is an element that satisfies $p^2 = p$ and $p^\dagger = p$, where $\dagger$ denotes the canonical [[star-algebra|anti-involution]] of the von Neumann algebra.
+In this context, a [[projector|projection operator]] $p \in l^\infty(X)$ is an element that satisfies $p^2 = p$ and $p^\dagger = p$, where $a^\dagger$ denotes the canonical [[star-algebra|anti-involution]] of the von Neumann algebra. For $a \in l^\infty(X)$, we define $(a^\dagger)_\alpha = a_\alpha^\dagger$.
+
+\begin{definition}
+We define $\mathrm{W}^\ast$ to be the [[symmetric monoidal category]] of [[von Neumann algebra|von Neumann algebras]] and unital ultraweakly continuous $\dagger$-homomorphisms with the spatial tensor product.
+\end{definition}
+
+\begin{theorem}
+There is a [[full and faithful]] [[monoidal functor|strong monoidal]] [[contravariant functor]] $l^\infty \colon qSet \to \mathrm{W}^\ast :$
+
+* For each quantum set $X$, we define $l^\infty(X)$ as in Def. \ref{l-infinity}.
+
+* For each morphism $f\colon X \to Y$, we define $l^\infty(f)\colon l^\infty(Y) \to l^\infty(X)$ by $Supp(l^\infty(f)(p)) = f^\dagger \circ Supp(p) $.
+
+\end{theorem}
+(Any ultraweakly continuous $\dagger$-homomorphism is completely determined by its values on projection operators.)
+
+This functor also maps coproducts in $qSet$ to products in $\mathrm{W}^*$. Thus, we have that
+$$
+l^\infty(X + Y) \cong l^\infty(X) \oplus l^\infty(Y), \qquad \qquad l^\infty(X \times Y) \cong l^\infty(X) \otimes l^\infty(Y).
+$$
 
 *to be continued...*
 
