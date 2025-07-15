@@ -310,7 +310,7 @@ A discrete quantum [[group]] is a quantum monoid $(X,m,e)$ such that
 where $\top_X$ is the [[top|maximum]] relation $1 \to X$. Note that a discrete quantum group is not a [[group object]] in $qSet$.
 \end{example}
 
-
+These examples are all discrete in the sense that the underlying quantum space is discrete and not in the sense that the structure on that quantum space is discrete. This qualification is necessary because the underlying space of a quantum structure is often assumed to be from a larger class. For example, the underlying quantum space of a quantum graph may be a quantum [[localizable measurable space|measurable space]], and the underlying space of a quantum group may be a quantum [[locally compact topological space|topological space]].
 
 ## Quantum sets as bundles
 
