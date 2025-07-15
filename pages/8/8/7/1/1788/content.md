@@ -9,6 +9,7 @@
 
 [[C6TorusCellStructure.png:file]]
 
+[[D6TorusCellStructure.png:file]]
 
 The original article:
 
