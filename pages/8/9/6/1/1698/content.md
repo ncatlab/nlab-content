@@ -1043,7 +1043,9 @@ Classical textbook accounts include
 
 Lecture notes:
 
-* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 1 of: _Spectra and stable homotopy theory_, 2012 ([pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]])
+* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), Lecture 1 of: _Spectra and stable homotopy theory_ (2012) &lbrack;[pdf](http://math.uchicago.edu/~amathew/256y.pdf), [[HopkinsMathewStableHomotopyTheory.pdf:file]]&rbrack;
+
+* [[Cary Malkiewich]]: *Fibration Sequences and Pullback Squares* (2021) &lbrack;[pdf](https://people.math.binghamton.edu/malkiewich//fibration_sequences.pdf), [[Malkiewich-FibrationSequences.pdf:file]]&rbrack;
 
 
 The construction in the axiomatic homotopy theory of [[model categories]] is due to 
