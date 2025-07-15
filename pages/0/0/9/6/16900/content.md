@@ -23,9 +23,9 @@ Define an [[equivalence relation]] $\sim$ on the set of almost linear functions 
 A **Eudoxus real number** is an [[equivalence class]] of $AL(\mathbb{Z})$ under $\sim$. 
 =-- 
 
-The set of Eudoxus reals $\mathbb{E} \coloneqq AL(\mathbb{Z})/{\sim}$ becomes a [[commutative ring]] whose addition and multiplication are descended from $+$ and $\circ$ on $AL(\mathbb{Z})$. Already one distributive law $(f + f') \circ g = f \circ g + f' \circ g$ holds in $AL(\mathbb{Z})$, so as soon as one proves multiplication on $\mathbb{E}$ is commutative, one gets distributivity on the other side. 
+The set of Eudoxus reals $\mathbb{E} \coloneqq AL(\mathbb{Z})/{\sim}$ becomes a [[commutative ring]] whose addition and multiplication are descended from $+$ and $\circ$ on $AL(\mathbb{Z})$. Already one distributive law $(f + f') \circ g = f \circ g + f' \circ g$ holds in $AL(\mathbb{Z})$, so as soon as one proves multiplication on $\mathbb{E}$ is commutative, one gets distributivity in the other argument. 
 
-A Eudoxus real $[f]$ is deemed *positive* if it is represented by an $f$ such that for any $C$ there are infinitely many $m \in \mathbb{N}$ such that $f(m) \gt C$. It is easy to see this condition would then be satisfied by any representative function. As usual, define $[f] \lt [g]$ to mean $[g-f]$ is positive. 
+A Eudoxus real $[f]$ is deemed *positive* if it is represented by an $f$ such that for any $C$ there exists an $m \in \mathbb{N}$ such that $f(m) \gt C$ (this implies that there are infinitely many such $m$ for any $C$). It is easy to see this condition would then be satisfied by any representative function. As usual, define $[f] \lt [g]$ to mean $[g-f]$ is positive. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
