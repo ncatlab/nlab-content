@@ -238,7 +238,7 @@ The inclusion functor $qSet \hookrightarrow qRel$ has a [[right adjoint]] $\math
 The notation $X^*$ refers to the dual of $X$, as in Def. \ref{qRel}. The notation $[X,Y]$ refers to the [[internal hom]] of $X$ and $Y$, as in Thm. \ref{Cosmos}. Thm. \ref{qPow} expresses that $qRel$ behaves somewhat like a [[allegory|power allegory]]. The quantum power set $qPow(X)$ is canonically a quantum poset in the sense of Example \ref{QuantumPoset}.
 In general, $\mathrm{qPow}(\mathrm{Inc}(A)) \ncong \mathrm{Inc}(\mathrm{Pow}(A))$, where $\mathrm{Pow}(A)$ is the [[power set]] of $A$. However, we do have that $\mathrm{Elm}(\mathrm{qPow}(\mathrm{Inc}(A)) \cong \mathrm{Pow}(A)$. 
 
-Overall, $qSet$ is unlike an [[topos|elementary topos]] in only two respects. First, its monoidal product is not its categorical product, so it is not a [[cartesian monoidal category]]. However, its monoidal unit $1$ is terminal, so it is a [[semicartesian monoidal category]]. Furthermore, its monoidal product $X \times Y$ satisfies the uniqueness condition in the definition of the [[cartesian product|categorical product]].
+Overall, $qSet$ is unlike an [[topos|elementary topos]] in only two respects. First, its monoidal product is not its categorical product, so it is not a [[cartesian monoidal category]]. However, its monoidal unit $1$ is terminal, so it is a [[semicartesian monoidal category]]. Furthermore, its monoidal product $X \times Y$ satisfies the uniqueness condition of the universal property that defines the [[cartesian product|categorical product]].
 
 Second, $qSet$ does not have a [[subobject classifier]]. However, every subobject of a quantum set $X$ has a unique [[characteristic function|characteristic morphism]] $\chi\colon X \to 1 + 1$ such that $\chi = (! + !) \circ f$ for some $f \colon X \to X + X$ with $\nabla \circ f = \mathrm{id}_X$. Here, $!\colon X \to 1$ is the [[terminal object|unique]] morphism from $X$ to $1$ and $\nabla \colon X \to X \times X $ is the [[codiagonal morphism|codiagonal]].
 
@@ -260,7 +260,7 @@ Second, in many cases, a comparable definition via internalization in $qSet$ is 
 \label{QuantumPoset}
 A discrete quantum [[partial order|poset]] is a quantum set $X$ together with a relation $R\colon X \to X$ such that
 
-1. $R^\dagger =R$,
+1. $\id_X \leq R$,
 
 1. $R \circ R \leq R$,
 
@@ -276,6 +276,7 @@ A discrete quantum [[graph]] is a quantum set $X$ together with a relation $R\co
 
 1. $\id_X \leq R$.
 
+These axioms internalize simple graphs with the convention that every vertex is adjacent to itself. This convention is standard in [[quantum information|quantum information theory]].
 \end{example}
 
 
