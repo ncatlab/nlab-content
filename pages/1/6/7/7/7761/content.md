@@ -34,12 +34,12 @@ Let $P$ be a small pretopos and let $\mathcal{E} = Sh(P)$ be its coherent topos 
 where $\mathbf{Ult}^L$ is the $2$-category of ultracategories, left ultrafunctors, and transformations thereof. In particular, $ev$ is an equivalence $P \simeq \mathbf{Ult} (\operatorname{Mod}(P) , Set )$, where $\mathbf{Ult}$ is the [[locally full sub-2-category]] of $\mathbf{Ult}^L$ determined by ultrafunctors.
 \end{theorem}
 
-Lurie's axiomatization was proved by [Hamad](#Hamad) to coincide with that of [[colax algebra | normal colax algebras]] for a [[pseudomonad]] on the 2-category of locally small categories. [Tarantino and Wrigley](#TarWrig) weakened Lurie's definition to obtain an axiomatization of ultracategories sharing the same properties, but emerging universally from the [[ultrafilter monad]] by means of a kind of [[ Kan extension ]]. Instead, [Saadia](#Saadia) and [Hamad](#HamadGen) independently introduced _virtual ultracategories_ as a [[generalized multicategory | multicategorical]] generalization of ultracategories which allows to extend Lurie's result to [[point of a topos | toposes with enough points]]; the former, in particular, introduces yet another axiomatization of ultracategories, satisfying the same reconstruction theorem above, as a particular case of virtual ultracategories. If ultracategories categorify compact Hausdorff spaces, _virtual_ ultracategories categorify all topological spaces, allowing for maps into an abstract ultraproduct which may not exist in the underlying category.
+Lurie's axiomatization was proved by [Hamad](#Hamad) to coincide with that of [[colax algebra | normal colax algebras]] for a [[pseudomonad]] on the 2-category of locally small categories. [Tarantino and Wrigley](#TarWrig) weakened Lurie's definition to obtain an axiomatization of ultracategories sharing the same properties, but emerging universally from the [[ultrafilter monad]]. Instead, [Saadia](#Saadia) and [Hamad](#HamadGen) independently introduced _virtual ultracategories_ as a [[generalized multicategory | multicategorical]] generalization of ultracategories which allows to extend Lurie's result to [[point of a topos | toposes with enough points]]; the former, in particular, introduces yet another axiomatization of ultracategories, satisfying the same reconstruction theorem above, as a particular case of virtual ultracategories. If ultracategories categorify compact Hausdorff spaces, _virtual_ ultracategories categorify all topological spaces, allowing for maps into an abstract ultraproduct which may not exist in the underlying category.
 
 
 ### Related concepts
 
-* In ([Clementino-Tholen 03](#ClemTholen)), a different concept of ultracategory is introduced as an instance of a [[generalized multicategory]]. 
+* [Clementino and Tholen](#ClemTholen) introduced a different concept of ultracategory as an instance of a [[generalized multicategory]]. 
 
 * [[conceptual completeness]]
 
