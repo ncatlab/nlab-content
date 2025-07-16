@@ -767,6 +767,9 @@ $$
 This is compatible with the Sullivan model (eq:SullivanModelForLS2) for $\mathcal{L}S^2$ having two generators in degree 2, only if $n = 0$, and hence the claim follows.
 \end{proof}
 
+\begin{remark}
+  Of course, the homotopy groups of any free loop space generally follow from the [[long exact sequence of homotopy groups]] induced by the evaluation fibration $\mathcal{L} X \xrightarrow{ev} X$ using that it has a section $X \xrightarrow{ const } \mathcal{L}X$.
+\end{remark}
 
 \linebreak
 
