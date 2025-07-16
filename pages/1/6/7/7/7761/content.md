@@ -66,7 +66,7 @@ As [[colax algebra for a 2-monad|colax algebras]] for a [[pseudomonad]]:
 
 In terms of [[Kan extensions]] of [[relative monads]]:
 
-* {#TarWrig} Umberto Tarantino, Joshua Wrigley, *Ultracategories via Kan extensions of relative monads* &lbrack;[arXiv:2506.09788](https://arxiv.org/abs/2506.09788)&rbrack;
+* {#TarWrig} [[Umberto Tarantino]], Joshua Wrigley, *Ultracategories via Kan extensions of relative monads* &lbrack;[arXiv:2506.09788](https://arxiv.org/abs/2506.09788)&rbrack;
 
 For a generalization to *virtual* ultracategories, a [[categorification]] of [[relational beta-modules]], designed to allow reconstruction of any [[topos with enough points]], see
 
