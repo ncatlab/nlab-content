@@ -358,6 +358,24 @@ $$
 l^\infty(X + Y) \cong l^\infty(X) \oplus l^\infty(Y), \qquad \qquad l^\infty(X \times Y) \cong l^\infty(X) \otimes l^\infty(Y).
 $$
 
+\begin{theorem}
+Let $\mathcal{M} \subseteq \mathcal{B}(\mathcal{H})$ be a von Neumann algebra. The following are equivalent:
+
+1. $\mathcal{M}$ is in the [[essential image]] of the contravariant functor $l^\infty\colon qSet \to \mathrm{W}^*$,
+
+1. $\mathcal{M} \cong \bigoplus^{l^\infty}_{i \in I} M_{n_i}(\mathbb{C})$ for some [[indexed family]] of positive integers $\{n_i\}_{i \in I}$,
+
+1. every von Neumann subalgebra of $\mathcal{M}$ is atomic,
+
+1. every [[self-adjoint operator]] in $\mathcal{M}$ has an [[Hilbert space|orthonormal basis]] of [[eigenvector|eigenvectors]] in $\mathcal{H}$.
+
+\end{theorem}
+
+Von Neumann algebras of this kind are sometimes called hereditarily atomic, referring to condition 3.
+
+Overall, we have an [[equivalence of categories|equivalence]] of [[symmetric monoidal category|symmetric monoidal categories]] between the [[opposite category]] $qSet^{op}$ and the [[full subcategory]] of hereditarily atomic von Neumann algebras. In effect, this generalizes the familiar equivalence between $Set^{op}$ and the category of [[complete Boolean algebra|complete atomic Boolean algebras]]. The projection operators in a von Neumann algebra form a [[complete lattice|complete]] [[orthomodular lattice]], which is a Boolean algebra iff the von Neumann algebra is commutative.
+
+
 *to be continued...*
 
 ## Quantum sets as bundles
