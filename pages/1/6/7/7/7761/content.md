@@ -12,7 +12,7 @@
 * table of contents
 {: toc}
 
-### Idea
+## Idea
 
 **Ultracategories** are [[categories]] endowed with [[extra structure]] meant to abstract the possibility of forming [[ultraproducts]]. They were introduced by [Makkai (1987)](#Makkai87) in order to prove [[conceptual completeness | strong conceptual completeness]] for [[coherent logic]], thus allowing to reconstruct a coherent theory from its category of [[models]]. 
 
@@ -30,9 +30,9 @@ To provide intuition on ultracategories, let's start by recalling that a [[compa
 \[ K^I \times \beta I \to K\]
 for each set $I$: in the same spirit, an _ultrastructure_ (called _pre-ultracategory_ by [Makkai '87](#Makkai87)) on a category $\mathcal{M}$ is given at its core by a family of [[functors]]
 \[ 
-  \mathcal{M}^I \times \beta I \to \mathcal{M} 
+\int_I - d - :  \mathcal{M}^I \times \beta I \to \mathcal{M} 
 \]
-satisfying some axioms. Different, inequivalent, choices are possible for the precise axiomatization: most notably, [Lurie](#Lurie)'s definition of ultracategories (together with the introduction of new morphisms between them) allowed to extend Makkai's result to a reconstruction theorem for [[coherent toposes]], and it formalizes the idea that ultracategories categorify compact Hausdorff spaces (see [Lurie, Thm 3.1.5](#Lurie)).
+for each set $I$. Intuitively, for an $I$-indexed family $(m_i)_{i\in I}$ of objects in $\mathcal{M}$ and an ultrafilter $\mu$ on $I$, the object $\int_I m_i d \mu$ is the "abstract ultraproduct" of the family $(m_i)_{i\in I}$ with respect to $\mu$. Different, inequivalent, axiomatizations for the concept of ultracategory exist in the literature: most notably, [Lurie](#Lurie)'s definition of ultracategories (together with the introduction of new morphisms between them) allowed to extend Makkai's result to a reconstruction theorem for [[coherent toposes]], and it formalizes the idea that ultracategories [[vertical categorification|categorify]] compact Hausdorff spaces (see [Lurie, Thm 3.1.5](#Lurie)).
 
 \begin{theorem}[Lurie]\label{thm:lurie}
 Let $P$ be a small pretopos and let $\mathcal{E} = Sh(P)$ be its coherent topos of sheaves. Then, the evaluation functor $ev : P \to \mathbf{Ult}^L (\operatorname{Mod}(P) , Set )$ induces an equivalence 
@@ -49,18 +49,13 @@ Lurie's axiomatization was proved by [Hamad](#Hamad) to coincide with that of [[
 
 * [[conceptual completeness]]
 
-### References
+## References
 
 * {#Makkai87} [[Mihaly Makkai]], _Stone duality for first-order logic_, Adv. Math. __65__ 2 (1987) 97--170 &lbrack;<a href="https://doi.org/10.1016/0001-8708(87)90020-X">doi:10.1016/0001-8708(87)90020-X</a>,  [MR89h:03067](http://www.ams.org/mathscinet-getitem?mr=900266)&rbrack;
 
 * Marek W. Zawadowski, _Descent and duality_, Annals of Pure and Applied Logic __71__, n.2 (1995), 131&#8211;188
 
 * {#Lurie} [[Jacob Lurie]], _Ultracategories_ &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf)&rbrack;
-
-For a different notion of ultracategory see
-
-* {#ClemTholen} [[Maria Manuel Clementino]], [[Walter Tholen]], _Metric, topology and multicategory--a common approach_, J. Pure Appl. Algebra 179 (2003) 13-47, ([doi:10.1016/S0022-4049(02)00246-3](https://doi.org/10.1016/S0022-4049%2802%2900246-3)).
-
 
 On a [[2-monad|2-monadic]] treatment of ultracategories:
 
@@ -74,11 +69,16 @@ In terms of [[Kan extensions]] of [[relative monads]]:
 
 * {#TarWrig} [[Umberto Tarantino]], Joshua Wrigley, *Ultracategories via Kan extensions of relative monads* &lbrack;[arXiv:2506.09788](https://arxiv.org/abs/2506.09788)&rbrack;
 
-For a generalization to *virtual* ultracategories, a [[categorification]] of [[relational beta-modules]], designed to allow reconstruction of any [[topos with enough points]], see
+For a generalization to _virtual_ ultracategories, a categorification of [[ relational beta-module |relational $\beta$-modules]] designed to allow reconstruction of any topos with enough points:
 
 * {#Saadia} Gabriel Saadia, _Extending conceptual completeness via virtual ultracategories_ &lbrack;[arXiv:2506.23935](https://arxiv.org/abs/2506.23935)&rbrack;
 
 * {#HamadGen} Ali Hamad, *Generalised ultracategories and conceptual completeness of geometric logic* &lbrack;[arXiv:2507.07922](https://arxiv.org/abs/2507.07922)&rbrack;
+
+
+For a different notion of ultracategory:
+
+* {#ClemTholen} [[Maria Manuel Clementino]], [[Walter Tholen]], _Metric, topology and multicategory--a common approach_, J. Pure Appl. Algebra 179 (2003) 13-47, ([doi:10.1016/S0022-4049(02)00246-3](https://doi.org/10.1016/S0022-4049%2802%2900246-3)).
 
 
 [[!redirects ultracategories]]
