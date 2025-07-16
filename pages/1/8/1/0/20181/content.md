@@ -43,7 +43,7 @@ For $X$ a [[G-space]], we write
   Isotr_X(G) \subset Sub(G)
 \]
 
-for the [[subset]] of the [[subgroup lattice]] on the [[isotropy groups]] of $X$, hence those [[subgroups]] which appear as [[stabilizer subgroups]] $Stab_G(x)$ of some point $x \in X$. This means  that if $H_1, H_2 \in Iso_X(G)$ and $H_1 \lt H_2$ is a strict inclusion, then the [[fixed loci]] differ $X^{H_1} \gt X^{H_2}$.
+for the [[subset]] of the [[subgroup lattice]] on the [[isotropy groups]] of $X$, hence those [[subgroups]] which appear as [[stabilizer subgroups]] $Stab_G(x)$ of some point $x \in X$. This means  that if $H_1, H_2 \in Iso_X(G)$ and $H_1 \lt H_2$ is a strict inclusion, then the [[fixed loci]] differ, $X^{H_1} \gt X^{H_2}$.
 
 
 
@@ -75,7 +75,7 @@ For $G$ a [[finite group]], we say that a [[pair]] $X,Y \in G Spaces$ of [[topol
 
 and
 
-1. $Y^H$ is $(dim(X^H)-1)$-[[n-connected topological space|connected]]
+1. $Y^H$ is $\big(dim(X^H)-1\big)$-[[n-connected topological space|connected]]
 
    $$
      \pi_{ \lt \mathrm{dim}\big( X^H \big) }
@@ -119,7 +119,7 @@ Given a matching pair of $G$-spaces, we say that a choice of generators in the [
   \end{aligned}
 \] 
 
-is a _choice of singularity-wise [[orientations]]_.  Given such a choice and an equivariant continuous function $f \colon X \to Y$, we have for each [[isotropy group]] $H \in Isotr_X(G)$ that the continuous function $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[integer]] [[degree of a continuous function|degree]] 
+is a _choice of singularity-wise [[orientations]]_.  Given such a choice and an [[equivariant function|equivariant]] [[continuous function]] $f \colon X \to Y$, we have for each [[isotropy group]] $H \in Isotr_X(G)$ that the continuous function $f^H \;\colon\; X^H \to Y^H$ has a well-defined [[integer]] [[degree of a continuous function|degree]] 
 
 \[
   \label{IntegerDegreeOfEquivariantFunctionOnFixedStrata}
@@ -203,7 +203,7 @@ Moreover, the orientability and connectivity assumptions in Def. \ref{MatchingGS
 
 ## Equivariant Hopf degree theorem
 
-We first state the equivariant Hopf degree theorem for full (i.e. unstable/[[non-abelian cohomology|non-abelian]])[[equivariant Cohomotopy]], and then its [[stabilization]] to [[stable equivariant Cohomotopy]].
+We first state the equivariant Hopf degree theorem for full (i.e. unstable/[[non-abelian cohomology|non-abelian]]) [[equivariant Cohomotopy]], and then its [[stabilization]] to [[stable equivariant Cohomotopy]].
 
 ### In unstable equivariant Cohomotopy
 
