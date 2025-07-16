@@ -17,11 +17,15 @@ In any context it is interesting to ask when a contravariant hom-functor $\opera
 
 ## Definition
 
-_Conceptual completeness_ refers to the result of Makkai and Reyes that in the $2$-category $\mathbf{Pretop}$ of [[pretopos]]es, homming into the pretopos [[Set]] $\operatorname{Hom}_{\mathbf{Pretop}}(-,\mathbf{Set}) : \mathbf{Pretop} \to \mathbf{Cat}$ reflects equivalences.
+*Conceptual completeness* refers to the result of Makkai and Reyes that in the $2$-category $\mathbf{Pretop}$ of [[pretopos|pretoposes]], the [[enriched hom-functor|hom-2-functor]] $\operatorname{Hom}_{\mathbf{Pretop}}(-,\mathbf{Set}) : \mathbf{Pretop}^{op} \to \mathbf{CAT}$ reflects equivalences. More explicitly:
 
-That is, if $f : T_1 \to T_2$ is a pretopos morphism and $- \circ f : \operatorname{Hom}_{\mathbf{Pretop}}(T_2, \mathbf{Set}) \to \operatorname{Hom}_{\mathbf{Pretop}}(T_1,\mathbf{Set})$ is an equivalence, then $f$ was also. Pretopos morphisms are just [[interpretation|interpretations]] of theories; a pretopos morphism into [[Set]] is an interpretion of the source theory into the [[internal logic]] of [[Set]], and is therefore a [[model]].
+\begin{theorem}[Conceptual completeness]
+Let $F : P_1 \to P_2$ be a pretopos morphism. If the functor
+\[ - \circ F : \operatorname{Hom}_{\mathbf{Pretop}}(P_2, \mathbf{Set}) \to \operatorname{Hom}_{\mathbf{Pretop}}(P_1,\mathbf{Set}) \]
+is an [[equivalence of categories]], then so is $F$. 
+\end{theorem}
 
-Since pretoposes are just [[exact completion|effectivizations]] of [[syntactic categories]] of [[first-order theories]], this means: if a functor between the categories of models of $T_1$ and $T_2$ is an equivalence and is induced by an interpretation $T_1 \to T_2$, then that interpretation must be part of a bi-interpretation, i.e. $T_1$ and $T_2$ are equivalent as syntactic categories via pretopos morphisms.
+From a logical point of view, recall that pretoposes can be conceived as  [[syntactic categories]] of [[coherent logic|coherent theories]] (up to [[elimination of imaginaries]]), so that a pretopos morphism $P_1 \to P_2$ corresponds to an [[interpretation|interpretations]] of the theory $P_1$ into the theory $P_2$, or equivalently to a model of the theory $P_1$ inside the category $P_2$; in particular, a pretopos morphism into $Set$ is therefore a [[model]] of the source theory. In these terms, conceptual completeness states that if an interpretation $T_1 \to T_2$ between two coherent theories induces an equivalence between the categories of models $\operatorname{Mod}(T_2) \to \operatorname{Mod}(T_1)$, then $T_1$ and $T_2$ are bi-interpretable up to elimination of imaginaries, i.e. $T_1^{eq}$ and $T_2^{eq}$ are bi-interpretable.
 
 [[Makkai duality]] states that $\operatorname{Hom}_{\mathbf{Pretop}}(-,X)$ factors through the $2$-category of [[ultracategories]] (categories equipped with [[ultraproduct functors]]) (which also contains $\mathbf{Set}$) and that $\operatorname{Hom}_{\mathbf{Pretop}}(-,\mathbf{Set})$ is left-adjoint to $\mathbf{Hom}_{\mathbf{Ult}}(-,\mathbf{Set})$.
 
