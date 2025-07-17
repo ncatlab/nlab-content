@@ -98,9 +98,13 @@ $$
 
 We have that $\mathrm{Inc}(A + B) = \mathrm{Inc}(A) + \mathrm{Inc}(B)$ and that $\mathrm{Inc}(A \times B) = \mathrm{Inc}(A) \times \mathrm{Inc}(B)$.
 
-The Cartesian product of quantum sets is so named because it generalizes the Cartesian product of sets. It is not the [[cartesian product|categorical product]] in either $qSet$ or $qRel$. In contrast, the Cartesian product of sets is the categorical product in [[Set|$Set$]] but not in [[Rel|$Rel$]].
+The Cartesian product of quantum sets is so named because it generalizes the Cartesian product of sets. However, in contrast to how the Cartesian product of ordinary sets is their [[cartesian product|categorical product]] in [[Set|$Set$]] in the usual sense of [[universal properties]], be warned that the Cartesian product of quantum sets is not their categorical product in either of the categories $qSet$ or $qRel$ defined below. 
 
-In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is their [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
+\begin{remark} 
+A similar nomenclatural clash occurs for the bicategory [[Rel|$Rel$]] of sets and relations: there the cartesian product of sets as familiarly understood yields a monoidal product but not a categorical product. 
+\end{remark}
+
+In both categories $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ carries a structure of [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
 
 ## The category $qRel$
 
@@ -169,7 +173,7 @@ $$
 for all $\alpha \in \mathrm{At}(X)$ and $\beta \in \mathrm{At}(Y)$, where $R, S \colon X \to Y$. In other words, $qRel$ is a [[quantaloid]].
 \end{proposition}
 
-The dagger-compact category [[Rel|$Rel$]] is enriched over suplattices too. It is an [[allegory]], while $qRel$ fails to be an allegory only because the relevant modular law fails. Nevertheless, $qRel(X,Y)$ is always a [[modular lattice]].
+The dagger-compact category [[Rel|$Rel$]] is enriched over suplattices too. It is an [[allegory]], while $qRel$ fails to be an allegory because the relevant modular law fails. Nevertheless, $qRel(X,Y)$ is always a [[modular lattice]].
 
 In effect, $Rel$ is an enriched dagger-compact subcategory of $qRel$.
 
