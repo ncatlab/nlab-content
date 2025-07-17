@@ -305,6 +305,8 @@ Quillen also introduced a highly structured notion of equivalence between model 
 
 * [[persistent homotopy theory]]
 
+* [[discrete homotopy theory]]
+
 
 
 ### Basic concepts in homotopy theory
