@@ -34,6 +34,7 @@ This means that a topological crystalline insulator phase observed in the [[bulk
 [doi:10.1103/PhysRevLett.106.106802](https://doi.org/10.1103/PhysRevLett.106.106802)&rbrack;
 
 * Chen Fang, Matthew J. Gilbert, [[B. Andrei Bernevig]]: *Bulk Topological Invariants in Noninteracting Point Group Symmetric Insulators*, Phys. Rev. B **86** 115112 (2012) &lbrack;[arXiv:1207.5767](https://arxiv.org/abs/1207.5767), [doi:10.1103/PhysRevB.86.115112](https://doi.org/10.1103/PhysRevB.86.115112)&rbrack;
+  > (formulas for Chern number)
 
 
 * Priyamvada Jadaun, Di Xiao, Qian Niu, Sanjay K. Banerjee: *Topological Classification of Crystalline Insulators with Point Group Symmetry*, Phys. Rev. B **88** (2013) 085110 &lbrack;[arXiv:/1208.1472](https://arxiv.org/abs/1208.1472), [doi:10.1103/PhysRevB.88.085110](https://doi.org/10.1103/PhysRevB.88.085110)&rbrack;
