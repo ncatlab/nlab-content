@@ -137,6 +137,8 @@ Experimental realization of FQAH systems:
 * Zhengguang Lu et al.: *Fractional quantum anomalous Hall effect in multilayer graphene*, Nature **626** (2024) 759–764 &lbrack;[doi:10.1038/s41586-023-07010-7](https://doi.org/10.1038/s41586-023-07010-7), [arXiv:2309.17436](https://arxiv.org/abs/2309.17436)&rbrack;
 
 * *Observation of Integer and Fractional Chern insulators in high Chern number flatbands* &lbrack;[arXiv:2507.09908](https://arxiv.org/abs/2507.09908)&rbrack;
+
+* *Diverse high-Chern-number quantum anomalous Hall insulators in twisted rhombohedral graphene* &lbrack;[arXiv:2507.11347](https://arxiv.org/abs/2507.11347)&rbrack;
      
 
 
