@@ -91,8 +91,9 @@ $$
 
 * The *Cartesian product* $X \times Y$ is defined by $\mathrm{At}(X \times Y) \coloneqq \mathrm{At}(X) \times \mathrm{At}(Y)$ and
 $$
-(X \times Y)_{(\alpha, \beta)} \coloneqq X_\alpha \otimes Y_\beta.
+(X \times Y)_{(\alpha, \beta)} \coloneqq X_\alpha \otimes Y_\beta,
 $$
+where $\mathcal{H} \otimes \mathcal{K}$ denotes the Hilbert-space [[tensor product]].
 
 \end{definition}
 
@@ -104,7 +105,7 @@ The Cartesian product of quantum sets is so named because it generalizes the Car
 A similar nomenclatural clash occurs for the bicategory [[Rel|$Rel$]] of sets and relations: there the cartesian product of sets as familiarly understood yields a monoidal product but not a categorical product. 
 \end{remark}
 
-In both categories $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ carries a structure of [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
+In both of the [[symmetric monoidal category|symmetric monoidal categories]] $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is the [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
 
 ## The category $qRel$
 
@@ -239,7 +240,7 @@ The inclusion functor $qSet \hookrightarrow qRel$ has a [[right adjoint]] $\math
 The notation $X^*$ refers to the dual of $X$, as in Def. \ref{qRel}. The notation $[X,Y]$ refers to the [[internal hom]] of $X$ and $Y$, as in Thm. \ref{Cosmos}. Thm. \ref{qPow} expresses that $qRel$ behaves somewhat like a [[allegory|power allegory]]. The quantum power set $qPow(X)$ is canonically a quantum poset in the sense of Example \ref{QuantumPoset}.
 In general, $\mathrm{qPow}(\mathrm{Inc}(A)) \ncong \mathrm{Inc}(\mathrm{Pow}(A))$, where $\mathrm{Pow}(A)$ is the [[power set]] of $A$. However, we do have that $\mathrm{Elm}(\mathrm{qPow}(\mathrm{Inc}(A)) \cong \mathrm{Pow}(A)$. 
 
-Overall, $qSet$ is unlike an [[topos|elementary topos]] in only two respects. First, its monoidal product is not its categorical product, so it is not a [[cartesian monoidal category]]. However, its monoidal unit $1$ is terminal, so it is a [[semicartesian monoidal category]]. Furthermore, its monoidal product $X \times Y$ satisfies the uniqueness condition of the universal property that defines the [[cartesian product|categorical product]].
+Overall, $qSet$ is unlike an [[topos|elementary topos]] in two respects. First, its monoidal product is not its categorical product, so it is not a [[cartesian monoidal category]]. However, its monoidal unit $1$ is terminal, so it is a [[semicartesian monoidal category]]. Furthermore, its monoidal product $X \times Y$ satisfies the uniqueness condition of the universal property that defines the [[cartesian product|categorical product]].
 
 Second, $qSet$ does not have a [[subobject classifier]]. However, every subobject of a quantum set $X$ has a unique [[characteristic function|characteristic morphism]] $\chi\colon X \to 1 + 1$ such that $\chi = (! + !) \circ f$ for some $f \colon X \to X + X$ with $\nabla \circ f = \mathrm{id}_X$. Here, $!\colon X \to 1$ is the [[terminal object|unique]] morphism from $X$ to $1$ and $\nabla \colon X \to X + X $ is the [[codiagonal morphism|codiagonal]].
 
@@ -427,7 +428,7 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
 
 * {#Kornell24} [[Andre Kornell]], *Discrete quantum structures II: Examples*, J. Noncommut. Geom. **18** (2024).
 
-* {#JencaLindenhovius25} [[Bert Lindenhovius]], Gejza Jenča, *Monoidal quantaloids* (2025), [arXiv:2504.18266](https://arxiv.org/abs/2504.18266).
+* {#JencaLindenhovius25} Gejza Jenča, [[Bert Lindenhovius]],  *Monoidal quantaloids* (2025), [arXiv:2504.18266](https://arxiv.org/abs/2504.18266).
 
 
 
