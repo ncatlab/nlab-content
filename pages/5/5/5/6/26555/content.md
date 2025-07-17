@@ -53,7 +53,6 @@ $$
 
 These definitions do not define equal classes of objects, but they can be extended to define [[equivalence of categories|equivalent categories]] in two natural ways. Using the second definition of quantum sets, we can take the [[morphisms]] to be [[quantum relations]] or, inequivalently, to be unital normal $*$-homomorphisms. In the former case, we obtain the [[category]] $qRel$, and in the latter case, we obtain the [[opposite category|opposite]] of the category $qSet$. Note that $qRel$ is equivalent to its own opposite. Quantum sets can be further generalized to "nontracial" quantum sets. This article will use the third definition of quantum sets because this definition avoids operator topologies, making it more accessible to a wider audience.
 
-
 ## Basic definitions
 
 \begin{definition}
@@ -104,8 +103,6 @@ The Cartesian product of quantum sets is so named because it generalizes the Car
 In both $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is their [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
 
 ## The category $qRel$
-
-The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2012](#Weaver12); see the article on [[quantum relations]].
 
 \begin{definition}
 \label{qRel}
@@ -197,9 +194,9 @@ where we identify $L(\mathbb{C}, \mathbb{C})$ with $\mathbb{C}$ in the obvious w
 The "inclusion" functor $\mathrm{Inc}\colon Rel \to qRel$ is an [[enriched functor|enriched]] [[monoidal functor|strong monoidal]] [[dagger functor]] that is [[full and faithful functor|full and faithful]].
 \end{proposition}
 
-## The category $qSet$
+The material in this section is mostly from [Kornell 2020](#Kornell20). The morphisms were first defined in [Kuperberg & Weaver 2012](#KuperbergWeaver12) and investigated in [Weaver 2012](#Weaver12); see the article on [[quantum relations]].
 
-The material in this section is mostly from [Kornell 2020](#Kornell20), [Kornell, Lindenhovius & Mislove 2022] (#KornellLindenhoviusMislove22), and [Jenča & Lindenhovius 2025](#JencaLindenhovius25).
+## The category $qSet$
 
 \begin{definition}
 We define the [[symmetric monoidal category]] $qSet$ to be the [[wide subcategory]] of $qRel$ whose morphisms are maps. A [[allegory|map]] is a morphism $f\colon X \to Y$ such that $f^\dagger \circ f \geq \mathrm{id}_X$ and $f \circ f^\dagger \leq \mathrm{id}_Y$.
@@ -246,9 +243,9 @@ Second, $qSet$ does not have a [[subobject classifier]]. However, every subobjec
 Let $X$ be a quantum set. There is a [[one-to-one correspondence]] between the subsets of $At(X)$ and the [[subobjects]] of $X$ in $qSet$. Each subset $A \subseteq X$ corresponds to a subobject $j \colon W \to X$ with $At(W) = A$ and $W_\alpha = X_\alpha$.
 \end{proposition}
 
-## Internalization
+The material in this section is mostly from [Kornell 2020](#Kornell20), [Kornell, Lindenhovius & Mislove 2022] (#KornellLindenhoviusMislove22), and [Jenča & Lindenhovius 2025](#JencaLindenhovius25).
 
-The material in this section is mostly from [Weaver 2012](#Weaver12) and [Kornell 2024](#Kornell24).
+## Internalization
 
 Many classes of discrete quantum structures can be defined via [[internalization]] in the [[dagger-compact category|dagger-compact]] [[quantaloid]] $qRel$. In this context, the term "quantum" refers to [[noncommutative geometry]], and the term "discrete" refers to $C^*$-algebras that are $c_0$-direct sums of full matrix algebras, as in section 1.
 
@@ -313,9 +310,9 @@ where $\top_X$ is the [[top|maximum]] relation $1 \to X$. Note that a discrete q
 
 These examples are all discrete in the sense that the underlying quantum space is discrete and not in the sense that the structure on that quantum space is discrete. This qualification is necessary because the underlying space of a quantum structure is often assumed to be from a larger class. For example, the underlying quantum space of a quantum graph may be a quantum [[localizable measurable space|measurable space]], and the underlying space of a quantum group may be a quantum [[locally compact topological space|topological space]].
 
-## Duality
+The material in this section is mostly from [Weaver 2012](#Weaver12) and [Kornell 2024](#Kornell24).
 
-The material in this section is mostly from [Kornell 2020](#Kornell20).
+## Duality
 
 Quantum sets first appeared implicitly as a class of [[C-star-algebra|$C^\ast$-algebras]] in [Podleś & Woronowicz 1990](#PodlesWoronowicz90). However, these $C^\ast$-algebras are not [[identity element|unital]], and this makes the relevant category complicated to define. It is easier to work with an equivalent category of [[von Neumann algebra|von Neumann algebras]]. This category is [[duality|dual]] to $qSet$, and this section describes this duality.
 
@@ -358,6 +355,8 @@ $$
 l^\infty(X + Y) \cong l^\infty(X) \oplus l^\infty(Y), \qquad \qquad l^\infty(X \times Y) \cong l^\infty(X) \otimes l^\infty(Y).
 $$
 
+We also have a one-to-one correspondence between maps $X \to \mathrm{Inc}(\mathbb{R})$ and [[self-adjoint operator|self-adjoint operators]] [[affiliated operator|affiliated]] with $l^\infty(X)$.
+
 \begin{theorem}
 Let $\mathcal{M} \subseteq \mathcal{B}(\mathcal{H})$ be a von Neumann algebra. The following are equivalent:
 
@@ -375,8 +374,7 @@ Von Neumann algebras of this kind are sometimes called hereditarily atomic, refe
 
 Overall, we have an [[equivalence of categories|equivalence]] of [[symmetric monoidal category|symmetric monoidal categories]] between the [[opposite category]] $qSet^{op}$ and the [[full subcategory]] of hereditarily atomic von Neumann algebras. In effect, this generalizes the familiar equivalence between $Set^{op}$ and the category of [[complete Boolean algebra|complete atomic Boolean algebras]]. The projection operators in a von Neumann algebra form a [[complete lattice|complete]] [[orthomodular lattice]], which is a Boolean algebra iff the von Neumann algebra is commutative.
 
-
-*to be continued...*
+The material in this section is mostly from [Kornell 2020](#Kornell20).
 
 ## Quantum sets as bundles
 
