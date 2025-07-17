@@ -56,7 +56,7 @@ For a [[large category]], this description does not suffice in general, nor does
 
 See also Theorem 11.5 of:
 
-- [[Marcelo Fiore]]. _Enrichment and representation theorems for categories of domains and continuous functions_. University of Edinburgh.
+- [[Marcelo Fiore]]. _Enrichment and representation theorems for categories of domains and continuous functions_. University of Edinburgh. [PS.GZ file](http://www.cl.cam.ac.uk/~mpf23/papers/ADT/rep.ps.gz)
 
 See section 6.4 (and Theorem 6.4.3 in particular) of:
 
