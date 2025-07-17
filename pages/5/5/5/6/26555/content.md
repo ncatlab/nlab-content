@@ -212,7 +212,7 @@ The maps in $qRel$, i.e., the morphisms in $qSet$, are sometimes called function
 
 \begin{theorem}
 \label{Cosmos}
-The symmetric monoidal category $qSet$ is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[closed monoidal category|closed]]. In other words, it is a [[Bénabou cosmos]].
+The symmetric monoidal category $qSet$ is [[complete category|complete]], [[cocomplete category|cocomplete]], and [[closed monoidal category|closed]]. In other words, it is a [[Bénabou cosmos]]. It also has an [[(epi, mono) factorization system|epi-mono factorization system]].
 \end{theorem}
 
 The closure of $qSet$ can be deduced from general principles (see Theorem 6.16 of [Jenča & Lindenhovius 2025](#JencaLindenhovius25)).
