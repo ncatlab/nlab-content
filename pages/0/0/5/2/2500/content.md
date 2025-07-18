@@ -465,6 +465,13 @@ On [[higher curvature corrections]]:
 
 * Mehmet Ozkan, Yi Pang, [[Ergin Sezgin]], *Higher Derivative Supergravities in Diverse Dimensions* &lbrack;[arXiv:2401.08945](https://arxiv.org/abs/2401.08945)&rbrack;
 
+An [[S-matrix]] perspective:
+
+* Brando Bellazzini, Alex Pomarol, Marcello Romano, Francesco Sciotti: *(Super) Gravity from Positivity* &lbrack;[arXiv:2507.12535](https://arxiv.org/abs/2507.12535)&rbrack;
+
+* Tony Gherghetta, Wenqi Ke: *Supergravity from the Bottom Up* &lbrack;[arXiv:2507.12538](https://arxiv.org/abs/2507.12538)&rbrack;
+
+
 
 
 ### Renormalization
