@@ -71,6 +71,10 @@ On the [[Higgs field]] of the [[standard model of particle physics]] as being va
 
 * [[Nicholas S. Manton]]: *A $\mathbb{C}P^2$ SMEFT* &lbrack;[arXiv:2411.09521](https://arxiv.org/abs/2411.09521)&rbrack;
 
+See also:
+
+* Yui Hayashi, Tatsuhiro Misumi, Muneto Nitta, Keisuke Ohashi, Yuya Tanizaki: *Fractional instantons in 2d $\mathbb{C}P^{N-1}$ model and 4d Yang-Mills theory with 't Hooft twists* &lbrack;[arXiv:2507.12802](https://arxiv.org/abs/2507.12802)&rbrack;
+
 
 
 
