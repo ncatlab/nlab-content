@@ -275,7 +275,10 @@ See also:
 
   Sec. 10 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
 
-* [[Tudor D. Stanescu]], Section 4.1 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press 2020 ([ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)) 
+* [[Tudor D. Stanescu]], Section 4.1 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press (2020) &lbrack;[ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)&rbrack;
+
+* [[Alexander S. Sergeev]]: Section 9 of: *Topological insulators and geometry of vector bundles*, SciPost Physics Lecture Notes **67** (2023) &lbrack;[arXiv:2011.05004](https://arxiv.org/abs/2011.05004), [doi:10.21468/SciPostPhysLectNotes.67](https://doi.org/10.21468/SciPostPhysLectNotes.67)&rbrack;
+
 
 
 See also:
