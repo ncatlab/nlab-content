@@ -95,7 +95,7 @@ $\mathcal{V}$-category (see [[enriched category]]). With that in mind, the paral
   (co)[[products]] are [[biproducts]]
 
 is remarkable. This was probably first noticed by [[Dana May Latch]], in
-the 20th century, for the category of $\mathcal{V}$ of complete
+the 20th century, for the category $\mathcal{V}$ of complete
 [[suplattices]]. 
 
 The [[matrix algebra]] for maps to products, from coproducts, and most
