@@ -102,10 +102,10 @@ We have that $\mathrm{Inc}(A + B) = \mathrm{Inc}(A) + \mathrm{Inc}(B)$ and that 
 The Cartesian product of quantum sets is so named because it generalizes the Cartesian product of sets. However, in contrast to how the Cartesian product of ordinary sets is their [[cartesian product|categorical product]] in [[Set|$Set$]] in the usual sense of [[universal properties]], be warned that the Cartesian product of quantum sets is not their categorical product in either of the categories $qSet$ or $qRel$ defined below. 
 
 \begin{remark} 
-A similar nomenclatural clash occurs for the bicategory [[Rel|$Rel$]] of sets and relations: there the cartesian product of sets as familiarly understood yields a monoidal product but not a categorical product. 
+A similar nomenclatural clash occurs for [[Rel|$Rel$]], consisting of sets and relations: there the cartesian product of sets as familiarly understood yields a monoidal product but not a categorical product. 
 \end{remark}
 
-In both of the [[symmetric monoidal category|symmetric monoidal categories]] $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is the [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
+In both of the [[symmetric monoidal category|symmetric monoidal categories]] $qRel$ and $qSet$, $X + Y$ is the [[coproduct]] of $X$ and $Y$, and $X \times Y$ is the designated [[monoidal category|monoidal product]]. In $qRel$, $X+Y$ is also the [[cartesian product|product]] of $X$ and $Y$. In $qSet$, the [[cartesian product|product]] of $X$ and $Y$ is not easily definable and may be notated $X \ast Y$.
 
 ## The category $qRel$
 
