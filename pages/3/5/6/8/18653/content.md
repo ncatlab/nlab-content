@@ -43,6 +43,19 @@ This marks also the contrast to "[[Euclidean field theory]]", where the underlyi
 
 * [[Unruh effect]], [[Schwinger effect]], [[Hawking radiation]]
 
+## References
+
+### General
+
+See most of the references at *[[quantum field theory]]*
+
+### Non-relativistic limit
+
+(...)
+
+* Alberto Guijosa: *On the Underlying Nonrelativistic Nature of Relativistic Holography* &lbrack;[arXiv:2502.03031](https://arxiv.org/abs/2502.03031)&rbrack;
+
+
 
 [[!redirects relativistic quantum field theories]]
 
