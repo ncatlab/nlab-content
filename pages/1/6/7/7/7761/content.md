@@ -16,7 +16,7 @@
 
 **Ultracategories** are [[categories]] endowed with [[extra structure]] meant to abstract the possibility of forming [[ultraproducts]]. They were introduced by [Makkai (1987)](#Makkai87) in order to prove [[conceptual completeness | strong conceptual completeness]] for [[coherent logic]]: while the category of [[models]] of a coherent theory, on its own, is not sufficient to determine the theory up to any useful notion of equivalence, it becomes sufficient to reconstruct the theory up to [[Morita equivalence]] once it is endowed with the structure of an ultracategory.
 
-\begin{theorem}[Makkai]\label{thm:makkai}
+\begin{theorem}**(Makkai)**\label{thm:makkai}
 Let $P$ be a [[small category|small]] [[pretopos]] and let $\operatorname{Mod}(P) = \mathbf{Pretop}(P, Set)$ be its category of models. Then, the evaluation functor
 \[ 
   ev 
@@ -38,7 +38,7 @@ for each set $I$: in the same spirit, an _ultrastructure_ (called _pre-ultracate
 \]
 for each set $I$. Intuitively, for an $I$-indexed family $(m_i)_{i\in I}$ of objects in $\mathcal{M}$ and an ultrafilter $\mu$ on $I$, the object $\int_I m_i d \mu$ is the "abstract ultraproduct" of the family $(m_i)_{i\in I}$ with respect to $\mu$. Different, inequivalent, axiomatizations for the concept of ultracategory exist in the literature: most notably, [Lurie](#Lurie)'s definition of ultracategories (together with the introduction of _left ultrafunctors_) allowed to extend Makkai's result to a reconstruction theorem for [[coherent toposes]], and it formalizes the idea that ultracategories [[vertical categorification|categorify]] compact Hausdorff spaces (see [Lurie, Thm 3.1.5](#Lurie)).
 
-\begin{theorem}[Lurie]\label{thm:lurie}
+\begin{theorem}**(Lurie)**\label{thm:lurie}
 Let $P$ be a small pretopos and let $\mathcal{E} = Sh(P)$ be its coherent topos of sheaves. Then, the evaluation functor $ev : P \to \mathbf{Ult}^L (\operatorname{Mod}(P) , Set )$ induces an equivalence 
 \[ \mathcal{E} \simeq \mathbf{Ult}^L ( \operatorname{Mod}(P) , Set ) \]
 where $\mathbf{Ult}^L$ is the $2$-category of ultracategories, left ultrafunctors, and transformations thereof. In particular, $ev$ is an equivalence $P \simeq \mathbf{Ult} (\operatorname{Mod}(P) , Set )$, where $\mathbf{Ult}$ is the [[locally full sub-2-category]] of $\mathbf{Ult}^L$ determined by ultrafunctors.
