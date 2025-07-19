@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -113,14 +114,35 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
     "width": 470,
     "unit": "px",
     "margin": {
-        "top": -20,
-        "bottom": 20,
+        "top": -30,
+        "bottom": 30,
         "right": 0, 
         "left": 30
     }
 \end{imagefromfile}
 
 \end{example}
+
+
+
+\begin{example}\label{TorusWithC2RotationAction}
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which rotates by multiples of $\pi$ around the origin:
+
+\begin{imagefromfile}
+    "file_name": "C2TorusCellStructure.png",
+    "width": 470,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 30,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
+
 
 
 \begin{example}\label{TorusWithC4RotationAction}
@@ -131,8 +153,8 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
     "width": 470,
     "unit": "px",
     "margin": {
-        "top": -20,
-        "bottom": 20,
+        "top": -30,
+        "bottom": 30,
         "right": 0, 
         "left": 30
     }
@@ -150,8 +172,8 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
     "width": 500,
     "unit": "px",
     "margin": {
-        "top": -20,
-        "bottom": 20,
+        "top": -30,
+        "bottom": 30,
         "right": 0, 
         "left": 30
     }
@@ -169,8 +191,8 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
     "width": 500,
     "unit": "px",
     "margin": {
-        "top": -20,
-        "bottom": 20,
+        "top": -30,
+        "bottom": 30,
         "right": 0, 
         "left": 30
     }
@@ -189,8 +211,8 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
     "width": 500,
     "unit": "px",
     "margin": {
-        "top": -20,
-        "bottom": 20,
+        "top": -30,
+        "bottom": 30,
         "right": 0, 
         "left": 30
     }
