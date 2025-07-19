@@ -45,7 +45,7 @@ $$
   \,,
 $$
 
-where $\mu$ is the [[coalgebra|coproduct]], $\mu$ the product and $\tau$ the [[braided monoidal category|braiding]] (e.g. [Lauda-Pfeiffer 05 (2.14)](#LaudaPfeiffer05)).
+where $\Delta$ is the [[coalgebra|coproduct]], $\mu$ the product and $\tau$ the [[braided monoidal category|braiding]] (e.g. [Lauda-Pfeiffer 05 (2.14)](#LaudaPfeiffer05)).
 
 ## Related concepts
 
