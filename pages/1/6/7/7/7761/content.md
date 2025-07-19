@@ -86,5 +86,6 @@ For a different notion of ultracategory:
 
 
 [[!redirects ultracategories]]
+[[!redirects Ultracategories]]
 
 
