@@ -42,5 +42,11 @@ Textbook accounts:
 
 [[!redirects null homotopies]]
 
+[[!redirects nullhomotopy]]
+[[!redirects nullhomotopies]]
+
+[[!redirects null homotopic]]
+[[!redirects nullhomotopic]]
+
 [[!redirects contracting homotopy]]
 [[!redirects contracting homotopies]]
