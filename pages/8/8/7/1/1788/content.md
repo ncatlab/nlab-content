@@ -7,11 +7,19 @@
 
 [[C2TorusCellStructure.png:file]]
 
-[[C3TorusCellStructure.png:file]]
+[[C3TorusCellStructure-20250719.png:file]]
+
+[[D3TorusCellStructure-20250719.png:file]]
+
+
+[[C4TorusCellStructure-20250719.png:file]]
 
 [[C6TorusCellStructure.png:file]]
 
 [[D6TorusCellStructure.png:file]]
+
+[[D6TorusCellStructure-20250719.png:file]]
+
 
 The original article:
 
