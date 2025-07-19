@@ -5,6 +5,8 @@
 
 ***
 
+[[C2TorusCellStructure.png:file]]
+
 [[C3TorusCellStructure.png:file]]
 
 [[C6TorusCellStructure.png:file]]
