@@ -63,7 +63,6 @@ considered for ordinary [[CW-complexes]] induces $G$-[[equivariant maps]]
 
 
 
-
 \begin{remark}\label{FiniteGroupCWComplexesAreCWComplexesWithCellularGAction}
   For [[finite group|finite]] [[equivariance groups]] $G$, a $G$-CW-complex structure may be identified with 
 
@@ -106,8 +105,10 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
 
 Simple examples of [[G-manifolds]] ([above](#GManifolds)) are [[surfaces]] with $G$-action.
 
+There are 10 symmorphic [[wallpaper groups]] inducing [[point group]] actions on the [[2-torus]] $T^2$ by the [[cyclic groups]] $1$, $\mathbb{Z}_{/2}$, $\mathbb{Z}_{/3}$, $\mathbb{Z}_{/4}$, $\mathbb{Z}_{/6}$ and the [[dihedral groups]] $Dih_1$, $Dih_2$, $Dih_3$, $Dih_4$, and $Dih_6$. The following spells out (minimal) $G$-CW complex structures for (most) of these cases.
+
 \begin{example}\label{TorusWithReflectionAction}
-Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] one of the two [[coordinate]] axes:
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[dihedral group|$Dih_1$]] $\simeq$ [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] one of the two [[coordinate]] axes:
 
 \begin{imagefromfile}
     "file_name": "ReflectionTorusCellStructure.png",
@@ -149,7 +150,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 4|$\mathbb{Z}_{/4}$]]-[[group action|action]] which rotates by multiples of $\pi/2$ around the origin:
 
 \begin{imagefromfile}
-    "file_name": "C4TorusCellStructure.png",
+    "file_name": "C4TorusCellStructure-20250719.png",
     "width": 470,
     "unit": "px",
     "margin": {
@@ -168,7 +169,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 3|$\mathbb{Z}_{/3}$]]-[[group action|action]] which rotates by multiples of $2\pi/3$ around the origin:
 
 \begin{imagefromfile}
-    "file_name": "C3TorusCellStructure.png",
+    "file_name": "C3TorusCellStructure-20250719.png",
     "width": 500,
     "unit": "px",
     "margin": {
@@ -180,6 +181,27 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 \end{imagefromfile}
 
 \end{example}
+
+
+
+\begin{example}\label{TorusWithD3DihedralAction}
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{3}$]]-[[group action|action]]: 
+
+\begin{imagefromfile}
+    "file_name": "D3TorusCellStructure-20250719.png",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 30,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
+
 
 
 
@@ -207,7 +229,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{6}$]]-[[group action|action]]:
 
 \begin{imagefromfile}
-    "file_name": "D6TorusCellStructure.png",
+    "file_name": "D6TorusCellStructure-20250719.png",
     "width": 500,
     "unit": "px",
     "margin": {
