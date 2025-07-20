@@ -7,6 +7,8 @@
 
 [[C2TorusCellStructure.png:file]]
 
+[[D2TorusCellStructure-20250720.png:file]]
+
 [[C3TorusCellStructure-20250719.png:file]]
 
 [[D3TorusCellStructure-20250719.png:file]]
