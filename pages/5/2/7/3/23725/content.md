@@ -55,9 +55,14 @@ The resulting Brillouin torus $Hom_{Grp}\big(\Lambda, \, \mathbb{R} \big)/Hom_{G
 
 * {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], [p. 52](https://arxiv.org/pdf/1208.5055.pdf#page=52) of: _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 &lbrack;[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)&rbrack;
 
-* [[Guo Chuan Thiang]], §2.1 in: *Topological Semimetals*, [[Encyclopedia of Mathematical Physics 2nd ed]] (2024) &lbrack;[arXiv:2407.12692](https://arxiv.org/abs/2407.12692)&rbrack;
+* [[Guo Chuan Thiang]], §2.1 in: *Topological Semimetals*, [[Encyclopedia of Mathematical Physics 2nd ed]] **1** (2025) 66-77 &lbrack;[doi:10.1016/B978-0-323-95703-8.00046-X](https://doi.org/10.1016/B978-0-323-95703-8.00046-X), [arXiv:2407.12692](https://arxiv.org/abs/2407.12692)&rbrack;
 
 * [[Kiyonori Gomi]], [[Guo Chuan Thiang]], p. 9 in: *Crystallographic T-duality*, J. Geom. Phys **139** (2019) 50-77 \[<a href="https://doi.org/10.1016/j.geomphys.2019.01.002">doi:10.1016/j.geomphys.2019.01.002</a>, [arXiv:1806.11385](https://arxiv.org/abs/1806.11385)\]
+
+The [[crystallographic group|crystallographic symmetry]] of Brillouin tori:
+
+* Chen Zhang, Z. Y. Chen, Zheng Zhang, Y. X. Zhao: *General Theory of Momentum-Space Nonsymmorphic Symmetry*, Phys. Rev. Lett. **130** (2023) 256601 &lbrack;[doi:10.1103/PhysRevLett.130.256601](https://doi.org/10.1103/PhysRevLett.130.256601), [arXiv:2306.14410](https://arxiv.org/abs/2306.14410)&rbrack;
+
 
 
 Texts that make explicit the choice of [[spin structure]] on Brillouin tori:
