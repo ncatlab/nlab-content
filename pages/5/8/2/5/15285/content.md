@@ -7,12 +7,12 @@
 |   | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_q(z)$ ([[rational fractions]]/[[rational function on an affine variety|rational function on affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$)  | [[meromorphic functions]] on [[complex plane]] |
 |   | $p$ ([[prime number]]/non-archimedean [[place]])  |  $x \in \mathbb{F}_q$, where $z - x \in \mathbb{F}_q[z]$ is the [[irreducible element|irreducible]] [[monic polynomial]] of [[degree of a polynomial|degree]] one | $x \in \mathbb{C}$, where $z - x \in \mathcal{O}_{\mathbb{C}}$ is the [[function]] which [[subtracts]] the [[complex number]] $x$ from the [[variable]] $z$ |
 |   | $\infty$ ([[place at infinity]])  |   |  $\infty$  |
-|   | $Spec(\mathbb{Z})$ ([[Spec(Z)]])  |  $\mathbb{A}^1_{\mathbb{F}_q}$ ([[affine line]]) |  [[complex plane]]  |
+|   | [[Spec(Z)|$Spec(\mathbb{Z})$]]  |  $\mathbb{A}^1_{\mathbb{F}_q}$ ([[affine line]]) |  [[complex plane]]  |
 |   | $Spec(\mathbb{Z}) \cup place_{\infty}$   | $\mathbb{P}_{\mathbb{F}_q}$ ([[projective line]])  |  [[Riemann sphere]]  |
 |  | $\partial_p \coloneqq \frac{(-)^p - (-)}{p}$ ([[Fermat quotient]]) | $\frac{\partial}{\partial z}$ ([[coordinate]] [[derivation]])  |  " |
 |   | [[genus of a number field|genus of the rational numbers]] = 0 |  |  [[genus of a surface|genus of the Riemann sphere]] = 0 |
 | **[[formal neighbourhoods]]**  |   |   |   |
-|   | $\mathbb{Z}/(p^n \mathbb{Z})$ ([[prime power local ring]]) |  $\mathbb{F}_q [z]/((z-x)^n \mathbb{F}_q [z])$ ($n$-th order univariate [[local Artinian ring|local Artinian $\mathbb{F}_q$-algebra]])  |  $\mathbb{C}[z]/((z-x)^n \mathbb{C}[z])$ ($n$-th order univariate [[Weil algebra|Weil $\mathbb{C}$-algebra]])  |
+|   | $\mathbb{Z}/(p^n \mathbb{Z})$ ([[prime power local ring]]) |  $\mathbb{F}_q [z]/\big((z-x)^n \mathbb{F}_q [z]\big)$ ($n$-th order univariate [[local Artinian ring|local Artinian $\mathbb{F}_q$-algebra]])  |  $\mathbb{C}[z]/\big((z-x)^n \mathbb{C}[z]\big)$ ($n$-th order univariate [[Weil algebra|Weil $\mathbb{C}$-algebra]])  |
 |   | $\mathbb{Z}_p$ ([[p-adic integers]]) |  $\mathbb{F}_q[ [ z -x ] ]$ ([[power series]] around $x$)  |  $\mathbb{C}[ [z-x] ]$ ([[holomorphic functions]] on [[formal disk]] around $x$)  |
 |   |  $Spf(\mathbb{Z}_p)\underset{Spec(\mathbb{Z})}{\times} X$ ("$p$-[[arithmetic jet space]]" of $X$ at $p$) |  |  [[formal disks]] in $X$  |
 |   | $\mathbb{Q}_p$ ([[p-adic numbers]]) | $\mathbb{F}_q((z-x))$ ([[Laurent series]] around $x$) |  $\mathbb{C}((z-x))$ ([[holomorphic functions]] on punctured [[formal disk]] around $x$) |
