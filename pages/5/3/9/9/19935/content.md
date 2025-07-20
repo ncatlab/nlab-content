@@ -12,6 +12,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -41,6 +42,8 @@ A _wallpaper group_ is a [[crystallographic group]] ([[space group]]) in [[dimen
 * [[tesselation]]
 
 ## References
+
+* Doris Schattschneider: *The plane symmetry groups and their recognition*, American Mathematical Monthly **85** (1978) 439-450 &lbrack;[pdf](https://www.york.ac.uk/depts/maths/histstat/symmetry/schattschneider.pdf), [[Schattschneider-PlaneSymmetry.pdf:file]]&rbrack; 
 
 * [[Patrick Morandi]]: *The Classification of Wallpaper Patterns: From Group Cohomology to Escherís Tessellations* (2003) &lbrack;[pdf](https://web.math.pmf.unizg.hr/~mkazal/reprints/Odabrane/Morandi.pdf), [[Morandi-WallpaperPatterns.pdf:file]]&rbrack;
 
