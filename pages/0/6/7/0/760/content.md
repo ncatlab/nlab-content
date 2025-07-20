@@ -44,7 +44,7 @@ Evident but important and in contrast to general [[monomorphisms]]:
 \end{proposition}
 
 \begin{proposition}
-  A morphism is an [[isomorphism]] if and only if it is an [[epimorphism]] and a split monomorphism.
+  A morphism is an [[isomorphism]] if and only if it is an [[epimorphism]] and a split monomorphism. In particular, the section–retraction pair is an isomorphism.
 \end{proposition}
 
 For a proof, see [Yuan 2012](#Yuan12).
