@@ -5,7 +5,7 @@
 | **[[affine line|affine]] and [[projective line]]**  |  |  |  |
 |   | $\mathbb{Z}$ ([[integers]]) | $\mathbb{F}_q[z]$ ([[polynomials]], [[polynomial algebra]] on [[affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$) |  $\mathcal{O}_{\mathbb{C}}$ ([[holomorphic functions]] on [[complex plane]]) |
 |   | $\mathbb{Q}$ ([[rational numbers]]) | $\mathbb{F}_q(z)$ ([[rational fractions]]/[[rational function on an affine variety|rational function on affine line]] $\mathbb{A}^1_{\mathbb{F}_q}$)  | [[meromorphic functions]] on [[complex plane]] |
-|   | $p$ ([[prime number]]/non-archimedean [[place]])  |  $x \in \mathbb{F}_p$, where $z - x \in \mathbb{F}_q[z]$ is the [[irreducible element|irreducible]] [[monic polynomial]] of [[degree of a polynomial|degree]] one | $x \in \mathbb{C}$, where $z - x \in \mathcal{O}_{\mathbb{C}}$ is the [[function]] which [[subtracts]] the [[complex number]] $x$ from the [[variable]] $z$ |
+|   | $p$ ([[prime number]]/non-archimedean [[place]])  |  $x \in \mathbb{F}_q$, where $z - x \in \mathbb{F}_q[z]$ is the [[irreducible element|irreducible]] [[monic polynomial]] of [[degree of a polynomial|degree]] one | $x \in \mathbb{C}$, where $z - x \in \mathcal{O}_{\mathbb{C}}$ is the [[function]] which [[subtracts]] the [[complex number]] $x$ from the [[variable]] $z$ |
 |   | $\infty$ ([[place at infinity]])  |   |  $\infty$  |
 |   | $Spec(\mathbb{Z})$ ([[Spec(Z)]])  |  $\mathbb{A}^1_{\mathbb{F}_q}$ ([[affine line]]) |  [[complex plane]]  |
 |   | $Spec(\mathbb{Z}) \cup place_{\infty}$   | $\mathbb{P}_{\mathbb{F}_q}$ ([[projective line]])  |  [[Riemann sphere]]  |
@@ -24,7 +24,7 @@
 |   |  [[Riemann zeta function]] | [[Goss zeta function]] | |
 |    |  |  |  |
 | **[[branched covering]] curves**  |  |  |  |
-|   | $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a possibly [[ramified]] [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $\Sigma$ over $\mathbb{F}_p$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
+|   | $K$ a [[number field]] ($\mathbb{Q} \hookrightarrow K$ a possibly [[ramified]] [[finite set|finite]] [[dimension|dimensional]] [[field extension]]) |  $K$ a [[function field]] of an [[algebraic curve]] $\Sigma$ over $\mathbb{F}_q$ |  $K_\Sigma$  ([[sheaf of rational functions]] on [[complex curve]] $\Sigma$)  |
 |   | $\mathcal{O}_K$ ([[ring of integers]]) |   | $\mathcal{O}_{\Sigma}$ ([[structure sheaf]])  |
 |   | $Spec_{an}(\mathcal{O}_K) \to Spec(\mathbb{Z})$ ([[spectrum of a commutative ring|spectrum]] with archimedean [[places]])   | $\Sigma$ ([[arithmetic curve]]) |   $\Sigma \to \mathbb{C}P^1$ ([[complex curve]] being [[branched cover of Riemann sphere]])  |
 |   | $\frac{(-)^p - \Phi(-)}{p}$ (lift of [[Frobenius morphism]]/[[Lambda-ring]] structure) | $\frac{\partial}{\partial z}$ | "  |
