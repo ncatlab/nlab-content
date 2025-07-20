@@ -43,7 +43,7 @@
 
   * {#James1978} [[Ioan James|I.M. James]], _On category, in the sense of Lusternik–Schnirelmann_, Topology **17** 4 (1978) 331–348 &lbrack;[doi:10.1016/0040-9383(78)90002-2](https://doi.org/10.1016/0040-9383(78%2990002-2)&rbrack;
 
-  * {#Fox1941} [[Ralph Fox|Ralph H. Fox]], _On the Lusternik-Schnirelmann category_, Annals of Mathematics **42** 2 (1941) 333–370 &lbrack;[doi:10.2307/1968905](http://doi.org/10.2307/1968905)&rbrack;
+  * {#Fox1941} [[Ralph Fox|Ralph H. Fox]], _On the Lusternik–Schnirelmann category_, Annals of Mathematics **42** 2 (1941) 333–370 &lbrack;[doi:10.2307/1968905](http://doi.org/10.2307/1968905)&rbrack;
 
 [[!redirects Lusternik–Schnirelmann category]]
 [[!redirects Lusternik–Schnirelmann categories]]
