@@ -42,14 +42,15 @@ A _wallpaper group_ is a [[crystallographic group]] ([[space group]]) in [[dimen
 
 ## References
 
+* [[Patrick Morandi]]: *The Classification of Wallpaper Patterns: From Group Cohomology to Escherís Tessellations* (2003) &lbrack;[pdf](https://web.math.pmf.unizg.hr/~mkazal/reprints/Odabrane/Morandi.pdf), [[Morandi-WallpaperPatterns.pdf:file]]&rbrack;
 
 * [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
 
 * {#Tilley2020} Richard Tilley, Sec. 3.5 in: *Crystals and Crystal Structure*, Wiley (2020) &lbrack;[ISBN:978-1-119-54838-6](https://www.wiley.com/en-us/Crystals+and+Crystal+Structures,+2nd+Edition-p-9781119548386)&rbrack;
 
-* [[Patrick Morandi]], _The Classification of Wallpaper Patterns: From Group Cohomology to Escherís Tessellations_ &lbrack;[pdf](http://sierra.nmsu.edu/morandi/notes/Wallpaper.pdf)&rbrack;
+* Angela Zhao: *A Brief Survey on Wallpaper Groups*, MIT Mathematics (2023) &lbrack;[pdf](https://math.mit.edu/research/highschool/primes/circle/documents/2023/Angela_Zhao.pdf)&rbrack;
 
-See also
+See also:
 
 * Wikipedia, _[Wallpaper group](https://en.wikipedia.org/wiki/Wallpaper_group)_
 
