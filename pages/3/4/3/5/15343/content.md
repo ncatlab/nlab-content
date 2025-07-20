@@ -17,6 +17,7 @@
 **Conceptual completeness** refers to the result of [Makkai and Reyes '77](#MakRey) that the [[enriched hom-functor|hom-2-functor]] ${\mathbf{Pretop}}(-,{Set}) : \mathbf{Pretop}^{op} \to \mathbf{CAT}$, for the [[2-category]] $\mathbf{Pretop}$ of ([[small category|small]]) [[pretopos|pretoposes]], reflects [[equivalences]]. More explicitly:
 
 \begin{theorem}\label{thm:conc-compl-pretoposes}**(Conceptual completeness for pretoposes)**
+
 Let $F : P_1 \to P_2$ be a pretopos morphism between small pretoposes. If the precomposition functor
 \[  F^* : {\mathbf{Pretop}}(P_2, {Set}) \to {\mathbf{Pretop}}(P_1,{Set}) \]
 is an equivalence of categories, then so is $F$. 
@@ -27,23 +28,38 @@ From a logical point of view, recall that pretoposes can be identified with  ([[
 \begin{remark}
 The above theorem can also be interpreted as a "semantic" characterization of pretoposes among coherent categories, instead of their "syntactic" characterization as (syntactic categories of) coherent theories admitting elimination of imaginaries.   First note that, as stated in [Theorem 7.1.8, Makkai and Reyes '77](#MakRey), the theorem above holds also if the target category is merely a coherent category: that is, if $F \colon P \to C$ is a coherent functor from a pretopos $P$ to a coherent category $C$ such that $-\circ F \colon \operatorname{Mod}(C) \to \operatorname{Mod}(P)$ is an equivalence of categories, then $F$ is an equivalence itself. Call now a coherent functor $C \to C'$ an _extension_ of $C$. An extension $I \colon C \to C'$ of a coherent category $C$ is:
 
-1. _tight_ if $I^* \colon \operatorname{Mod}(C') \to \operatorname{Mod}(C)$ is an equivalence of categories;
+1. _tight_ (or _strongly conservative_ in [Makkai and Reyes](#MakRey)) if $I^* \colon \operatorname{Mod}(C') \to \operatorname{Mod}(C)$ is an equivalence of categories;
 
 2. _significant_ if $I \colon C \to C'$ is _not_ an equivalence of categories.
 
 We then say that a coherent category $C$ is _conceptually complete_ if every tight extension of $C$ is not significant. As the embedding of a coherent category into its [[pretopos completion]] is a tight extension, conceptually complete categories are pretoposes; conversely, the conceptual completeness theorem can be rephrased by saying that pretoposes are conceptually complete, thus characterizing pretoposes as the conceptually complete (coherent) categories. Intuitively, this corresponds to the fact that pretoposes admit all the coherently-definable structure that coherent categories may lack but which coherent functors automatically preserve: that is, finite (disjunct) coproducts and quotients of definable equivalence relations. 
 \end{remark}
 
-\begin{remark}
-The proof of Theorem \ref{thm:conc-compl-pretoposes} appearing in [Makkai and Reyes '77](#MakRey) is essentially model-theoretical and "syntactical" in nature. In [Pitts '86](#Pitts86), Pitts provided a new, constructive, proof rephrasing the theorem in terms of an interpolation
-property for [[comma object|cocomma squares]] in $\mathbf{Pretop}$, which he used in [Pitts '89](#Pitts89) to prove a conceptual completeness theorem for [[intuitionistic logic|intuitionistic first-order logic]] by considering _Heyting pretoposes_.
-\end{remark}
+
+The conceptual completeness theorem is proved in [Makkai and Reyes '77](#MakRey) via model-theoretical techniques, such as the compactness theorem, and "syntactical" arguments, exploiting the identification between coherent categories and coherent theories. In [Pitts '86](#Pitts86), Pitts provided a new, constructive, and purely categorical proof rephrasing the theorem in terms of an interpolation property for [[comma object|cocomma squares]] in $\mathbf{Pretop}$, which he employed in [Pitts '89](#Pitts89) to prove a conceptual completeness theorem for [[intuitionistic logic|intuitionistic first-order logic]] by considering _Heyting pretoposes_.
+
+\begin{theorem}**(Pitts' interpolation theorem for pretoposes)**
+
+Consider a cocomma square in $\mathbf{Pretop}$ 
+\begin{tikzcd}
+	R & T \\
+	S & P
+	\arrow["J", from=1-1, to=1-2]
+	\arrow["I"', from=1-1, to=2-1]
+	\arrow["N", from=1-2, to=2-2]
+	\arrow["h", Rightarrow, from=2-1, to=1-2]
+	\arrow["M"', from=2-1, to=2-2]
+\end{tikzcd}
+and let $r \in R$. Consider subobjects $s \rightarrowtail I(r)$ in $S$ and $t \rightarrowtail J(r)$ in $T$ such that $\exists_{h_r} ( M(s) ) \leq N(t)$ as subobjects of $NJ(r)$. Then, there exists a subobject $r' \rightarrowtail r$ in $R$ such that $s \leq I(r')$ as subobjects of $I(r)$ and $J(r') \leq t$ as subobjects of $J(r)$.
+\end{theorem}
+
 
 ##Strong conceptual completeness
 
-[[ultracategory|Ultracategories]], introduced by [Makkai '87](#Makkai87), allow for a stronger form of the previous theorem, known as **strong conceptual completeness**. Intuitively, the category of models $\operatorname{Mod}(P)= \mathbf{Pretop}(P, Set)$ of a (small) pretopos $P$ can be endowed with the structure of an ultracategory by considering the usual notion of ultraproducts of models; this way, the pretopos $P$ can be reconstructed up to equivalence by considering _ultrafunctors_ $\operatorname{Mod}(P) \to Set$, that is, functors which preserve ultraproducts in a suitable sense.
+[[ultracategory|Ultracategories]], introduced by [Makkai '87](#Makkai87), allow for a stronger form of theorem \ref{thm:conc-compl-pretoposes}, known as **strong conceptual completeness**. Intuitively, the category of models $\operatorname{Mod}(P)= \mathbf{Pretop}(P, Set)$ of a (small) pretopos $P$ can be endowed with the structure of an ultracategory by considering the usual notion of ultraproducts of models; this way, the pretopos $P$ can be reconstructed up to equivalence by considering _ultrafunctors_ $\operatorname{Mod}(P) \to Set$, that is, functors which preserve ultraproducts in a suitable sense.
 
 \begin{theorem}\label{thm:strong-conc-compl}**(Strong conceptual completeness for pretoposes)**
+
 For every small pretopos $P$, the evaluation functor
 \[ 
   ev 
