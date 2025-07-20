@@ -229,6 +229,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 \begin{example}\label{TorusWithD3DihedralAction}
+**(p31m)**
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{3}$]]-[[group action|action]]: 
 
 \begin{imagefromfile}
