@@ -108,6 +108,7 @@ Simple examples of [[G-manifolds]] ([above](#GManifolds)) are [[surfaces]] with 
 There are 13 symmorphic 2D [[crystallographic groups]] ([[wallpaper groups]]) inducing [[point group]] actions on the [[2-torus]] $T^2$ by the [[cyclic groups]] $1$, $\mathbb{Z}_{/2}$, $\mathbb{Z}_{/3}$, $\mathbb{Z}_{/4}$, $\mathbb{Z}_{/6}$ and the [[dihedral groups]] $Dih_1$, $Dih_2$, $Dih_3$, $Dih_4$, and $Dih_6$. The following spells out (minimal) $G$-CW complex structures for (most) of these cases.
 
 \begin{example}\label{TorusWithReflectionAction}
+**(pm)**
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[dihedral group|$Dih_1$]] $\simeq$ [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] one of the two [[coordinate]] axes:
 
 \begin{imagefromfile}
@@ -127,6 +128,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 \begin{example}\label{TorusWithC2RotationAction}
+**(p2)**
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which rotates by multiples of $\pi$ around the origin:
 
 \begin{imagefromfile}
@@ -145,6 +147,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 \begin{example}\label{TorusWithD2DihedralAction}
+**(pmm)**
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{2}$]]-[[group action|action]]: 
 
 \begin{imagefromfile}
@@ -166,6 +169,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 \begin{example}\label{TorusWithC4RotationAction}
+**(p4)**
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 4|$\mathbb{Z}_{/4}$]]-[[group action|action]] which rotates by multiples of $\pi/2$ around the origin:
 
 \begin{imagefromfile}
@@ -184,6 +188,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 \begin{example}\label{TorusWithD4DihedralAction}
+**(p4m)**
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{4}$]]-[[group action|action]]: 
 
 \begin{imagefromfile}
@@ -204,6 +209,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 \begin{example}\label{TorusWithC3RotationAction}
+**(p3)**
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 3|$\mathbb{Z}_{/3}$]]-[[group action|action]] which rotates by multiples of $2\pi/3$ around the origin:
 
 \begin{imagefromfile}
@@ -244,6 +250,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 \begin{example}\label{TorusWithC6RotationAction}
+**(p6)**
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group|$\mathbb{Z}_{/6}$]]-[[group action|action]] which rotates by multiples of $\pi/3$ around the origin:
 
 \begin{imagefromfile}
@@ -264,6 +271,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 
 \begin{example}\label{TorusWithD6DihedralAction}
+**(p6m)**
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{6}$]]-[[group action|action]]:
 
 \begin{imagefromfile}
