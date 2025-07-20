@@ -12,21 +12,37 @@
 * table of contents
 {:toc}
 
-## Conceptual completeness
+## Idea
 
-**Conceptual completeness** refers to the result of [Makkai and Reyes '77](#MakRey) that the [[enriched hom-functor|hom-2-functor]] ${\mathbf{Pretop}}(-,{Set}) : \mathbf{Pretop}^{op} \to \mathbf{CAT}$, for the [[2-category]] $\mathbf{Pretop}$ of ([[small category|small]]) [[pretopos|pretoposes]], reflects [[equivalences]]. More explicitly:
+Broadly speaking, **conceptual completeness** for a logical [[doctrine]] refers to the following statement: if an [[interpretation]] $T_1 \to T_2$ between two [[theories]] of the doctrine induces an [[equivalence]] $\operatorname{Mod}(T_2) \to \operatorname{Mod}(T_1)$ between the categories of [[models]], then the two theories are bi-interpretable. **Strong conceptual completeness**, instead, refers to the possibility of reconstructing a theory of the doctrine from an appropriate structure formed by the models of the theory, which clearly entails the weaker form above.
 
-\begin{theorem}\label{thm:conc-compl-pretoposes}**(Conceptual completeness for pretoposes)**
+To make this idea more formal, consider [[Stone duality]] for [[Boolean algebras]], that is, the [[dual equivalence]] between Boolean algebras and [[Stone spaces]] realized by ${2}$ as a [[dualizing object]]
+\begin{tikzcd}
+	{\mathbf{BoolAlg}^{op}} && {\mathbf{StoneSp}}
+	\arrow[""{name=0, anchor=center, inner sep=0}, "{\mathbf{BoolAlg}(-, {2})}"', bend right=25, from=1-1, to=1-3]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "{\mathbf{StoneSp}(-, {2})}"', bend right=25, from=1-3, to=1-1]
+	\arrow["\simeq"{anchor=center}, draw=none, from=1, to=0]
+\end{tikzcd} 
+and recall that we can identify Boolean algebras with [[Lindenbaum-Tarski algebras]] of [[classical logic|classical]] [[propositional theories]]. Denote by $X_B$ the dual space of a Boolean algebra $B$, whose points are then models of $B$, i.e. homomorphisms of Boolean algebra $B \to {2}$. In this context:
 
+1. _conceptual completeness_ amounts to the fact that, for a homomorphism of Boolean algebras $f \colon B \to B'$, if its dual map $f^* \colon X_{B'} \to X_{B}$ is a [[homeomorphism]], then $f$ is an isomorphism itself; 
+
+2. _strong conceptual completeness_, instead, corresponds to the isomorphism $B \cong \mathbf{StoneSp}(X_B, 2)$ for each Boolean algebra $B$, expressing how the Stone topology on the set $X_B$ of models of $B$ allows to reconstruct $B$ up to isomorphism, or in other words to the fully-faithfulness of the functor $\mathbf{BoolAlg}(-,2) \colon \mathbf{BoolAlg}^{op} \to \mathbf{StoneSp}$.
+
+## Conceptual completeness for coherent logic
+
+In the case of [[coherent logic]], _conceptual completeness_ refers to the result of [Makkai and Reyes '77](#MakRey) that the [[enriched hom-functor|hom-2-functor]] ${\mathbf{Pretop}}(-,{Set}) : \mathbf{Pretop}^{op} \to \mathbf{CAT}$, for the [[2-category]] $\mathbf{Pretop}$ of ([[small category|small]]) [[pretoposes]], reflects equivalences. 
+
+\begin{theorem}**(Conceptual completeness for pretoposes)** \label{thm:conc-compl-pretoposes}
 Let $F : P_1 \to P_2$ be a pretopos morphism between small pretoposes. If the precomposition functor
 \[  F^* : {\mathbf{Pretop}}(P_2, {Set}) \to {\mathbf{Pretop}}(P_1,{Set}) \]
 is an equivalence of categories, then so is $F$. 
 \end{theorem}
 
-From a logical point of view, recall that pretoposes can be identified with  ([[syntactic categories]] of) [[coherent logic|coherent theories]] up to [[elimination of imaginaries]], so that a pretopos morphism $P_1 \to P_2$ corresponds to an [[interpretation]] of the theory $P_1$ into the theory $P_2$, or equivalently to a model of the theory $P_1$ inside the category $P_2$; in particular, a pretopos morphism into [[Set]] is therefore a [[model]] of the source theory. In these terms, conceptual completeness states that if an interpretation $T_1 \to T_2$ between two coherent theories induces an equivalence $\operatorname{Mod}(T_2) \to \operatorname{Mod}(T_1)$ between the categories of models, then $T_1$ and $T_2$ are bi-interpretable up to elimination of imaginaries, that is, $T_1^{eq}$ and $T_2^{eq}$ are bi-interpretable.
+Recall indeed that pretoposes can be identified with ([[syntactic categories]] of) coherent theories up to [[elimination of imaginaries]], so that a pretopos morphism $P_1 \to P_2$ corresponds to an interpretation of the theory $P_1$ into the theory $P_2$, or equivalently to a model of the theory $P_1$ inside the category $P_2$; in particular, a pretopos morphism into [[Set]] is therefore a model of the source theory. In these terms, conceptual completeness states that if an interpretation $T_1 \to T_2$ between two coherent theories induces an equivalence $\operatorname{Mod}(T_2) \to \operatorname{Mod}(T_1)$ between the categories of models, then $T_1$ and $T_2$ are bi-interpretable up to elimination of imaginaries, that is, $T_1^{eq}$ and $T_2^{eq}$ are bi-interpretable. 
 
 \begin{remark}
-The above theorem can also be interpreted as a "semantic" characterization of pretoposes among coherent categories, instead of their "syntactic" characterization as (syntactic categories of) coherent theories admitting elimination of imaginaries.   First note that, as stated in [Theorem 7.1.8, Makkai and Reyes '77](#MakRey), the theorem above holds also if the target category is merely a coherent category: that is, if $F \colon P \to C$ is a coherent functor from a pretopos $P$ to a coherent category $C$ such that $-\circ F \colon \operatorname{Mod}(C) \to \operatorname{Mod}(P)$ is an equivalence of categories, then $F$ is an equivalence itself. Call now a coherent functor $C \to C'$ an _extension_ of $C$. An extension $I \colon C \to C'$ of a coherent category $C$ is:
+The above theorem can also be interpreted as a "semantic" characterization of pretoposes among [[coherent categories]], instead of their "syntactic" characterization as (syntactic categories of) coherent theories admitting elimination of imaginaries.   First note that, as stated in [Theorem 7.1.8, Makkai and Reyes '77](#MakRey), the theorem above holds also if the target category is merely a coherent category: that is, if $F \colon P \to C$ is a [[coherent functor]] from a pretopos $P$ to a coherent category $C$ such that $-\circ F \colon \operatorname{Mod}(C) \to \operatorname{Mod}(P)$ is an equivalence of categories, then $F$ is an equivalence itself. Call now a coherent functor $C \to C'$ an _extension_ of $C$. An extension $I \colon C \to C'$ of a coherent category $C$ is:
 
 1. _tight_ (or _strongly conservative_ in [Makkai and Reyes](#MakRey)) if $I^* \colon \operatorname{Mod}(C') \to \operatorname{Mod}(C)$ is an equivalence of categories;
 
@@ -54,9 +70,9 @@ and let $r \in R$. Consider subobjects $s \rightarrowtail I(r)$ in $S$ and $t \r
 \end{theorem}
 
 
-##Strong conceptual completeness
+##Strong conceptual completeness for coherent logic
 
-[[ultracategory|Ultracategories]], introduced by [Makkai '87](#Makkai87), allow for a stronger form of theorem \ref{thm:conc-compl-pretoposes}, known as **strong conceptual completeness**. Intuitively, the category of models $\operatorname{Mod}(P)= \mathbf{Pretop}(P, Set)$ of a (small) pretopos $P$ can be endowed with the structure of an ultracategory by considering the usual notion of ultraproducts of models; this way, the pretopos $P$ can be reconstructed up to equivalence by considering _ultrafunctors_ $\operatorname{Mod}(P) \to Set$, that is, functors which preserve ultraproducts in a suitable sense.
+[[ultracategory|Ultracategories]], introduced by [Makkai '87](#Makkai87), allow to improve Theorem \ref{thm:conc-compl-pretoposes} to a _strong conceptual completeness_ theorem for coherent logic. Intuitively, the category of models $\operatorname{Mod}(P)= \mathbf{Pretop}(P, Set)$ of a (small) pretopos $P$ can be endowed with the structure of an ultracategory by considering the usual notion of [[ultraproducts]] of models; this way, the pretopos $P$ can be reconstructed up to equivalence by considering _ultrafunctors_ $\operatorname{Mod}(P) \to Set$, that is, functors which preserve ultraproducts in a suitable sense.
 
 \begin{theorem}\label{thm:strong-conc-compl}**(Strong conceptual completeness for pretoposes)**
 
@@ -76,7 +92,7 @@ In other words, $Set$ is a [[dualizing object]] for a [[dual adjunction|dual 2-a
 	\arrow[""{name=1, anchor=center, inner sep=0}, "{\mathbf{Ult}(-, Set)}"', bend right=25, from=1-3, to=1-1]
 	\arrow["\dashv"{anchor=center, rotate=-90}, draw=none, from=1, to=0]
 \end{tikzcd} 
-The counit of this [[2-adjunction]], at a pretopos $P$, is given by the evaluation functor $ev \colon P \to  \mathbf{Ult}\big( \operatorname{Mod}(P) , Set \big) $: as it is an equivalence, the hom-2-functor ${\mathbf{Pretop}}(-,{Set}) : \mathbf{Pretop}^{op} \to \mathbf{Ult}$ is a [[fully faithful 2-functor|2-fully-faithful]] embedding. 
+The counit of this [[2-adjunction]], at a pretopos $P$, is given by the equivalence $ev \colon P \to  \mathbf{Ult}\big( \operatorname{Mod}(P) , Set \big) $, thus making the hom-2-functor ${\mathbf{Pretop}}(-,{Set}) : \mathbf{Pretop}^{op} \to \mathbf{Ult}$ a [[fully faithful 2-functor|2-fully-faithful]] embedding. 
 
 \begin{remark}
 More precisely, as $Set$ is not a small pretopos, the previous 2-adjunction should be considered between $\mathbf{Ult}$ and $\mathbf{PRETOP}$, the 2-category of (potentially not small) pretoposes. As expressed in [Theorem 8.2, Makkai](#Makkai87), this 2-adjunction is then a _reflection in the small_, meaning that the counit $ev : P \to \mathbf{Ult} ( \operatorname{Mod}(P), Set )$ is an equivalence for each _small_ pretopos $P$.
