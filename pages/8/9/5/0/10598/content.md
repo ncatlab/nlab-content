@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -104,7 +105,7 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
 
 Simple examples of [[G-manifolds]] ([above](#GManifolds)) are [[surfaces]] with $G$-action.
 
-There are 10 symmorphic [[wallpaper groups]] inducing [[point group]] actions on the [[2-torus]] $T^2$ by the [[cyclic groups]] $1$, $\mathbb{Z}_{/2}$, $\mathbb{Z}_{/3}$, $\mathbb{Z}_{/4}$, $\mathbb{Z}_{/6}$ and the [[dihedral groups]] $Dih_1$, $Dih_2$, $Dih_3$, $Dih_4$, and $Dih_6$. The following spells out (minimal) $G$-CW complex structures for (most) of these cases.
+There are 13 symmorphic 2D [[crystallographic groups]] ([[wallpaper groups]]) inducing [[point group]] actions on the [[2-torus]] $T^2$ by the [[cyclic groups]] $1$, $\mathbb{Z}_{/2}$, $\mathbb{Z}_{/3}$, $\mathbb{Z}_{/4}$, $\mathbb{Z}_{/6}$ and the [[dihedral groups]] $Dih_1$, $Dih_2$, $Dih_3$, $Dih_4$, and $Dih_6$. The following spells out (minimal) $G$-CW complex structures for (most) of these cases.
 
 \begin{example}\label{TorusWithReflectionAction}
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[dihedral group|$Dih_1$]] $\simeq$ [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] one of the two [[coordinate]] axes:
@@ -180,6 +181,25 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 \end{imagefromfile}
 
 \end{example}
+
+
+\begin{example}\label{TorusWithD4DihedralAction}
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{4}$]]-[[group action|action]]: 
+
+\begin{imagefromfile}
+    "file_name": "D4TorusCellStructure-20250720.png",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 30,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
 
 
 
