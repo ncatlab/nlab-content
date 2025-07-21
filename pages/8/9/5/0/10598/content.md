@@ -16,6 +16,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -110,10 +111,29 @@ There are 13 symmorphic 2D [[crystallographic groups]] ([[wallpaper groups]]) in
 
 \begin{example}\label{TorusWithReflectionAction}
 **(pm)**
-Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[dihedral group|$Dih_1$]] $\simeq$ [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] one of the two [[coordinate]] axes:
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[dihedral group|$Dih_1$]] $\simeq$ [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] one of the two [[coordinate]] axes, corresponding to the $p m$ [[wallpaper group]]:
 
 \begin{imagefromfile}
     "file_name": "ReflectionTorusCellStructure.png",
+    "width": 470,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 30,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
+
+\begin{example}\label{cmTorusAction}
+**(cm)**
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[dihedral group|$Dih_1$]] $\simeq$ [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] along the coordinate diagonal, corresponding to the $c m$ [[wallpaper group]]:
+
+\begin{imagefromfile}
+    "file_name": "cmTorusCellStructure-20250721.png",
     "width": 470,
     "unit": "px",
     "margin": {
