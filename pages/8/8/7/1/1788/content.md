@@ -11,6 +11,7 @@
 
 [[D2TorusCellStructure-20250720.png:file]]
 
+[[cmmTorusCellStructure-20250721.png:file]]
 
 [[C3TorusCellStructure-20250719.png:file]]
 
