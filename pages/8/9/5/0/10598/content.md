@@ -15,6 +15,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -173,7 +174,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 \begin{example}\label{TorusWithD2DihedralAction}
 **(pmm)**
-Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{2}$]]-[[group action|action]]: 
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{2}$]]-[[group action|action]] according to the [[wallpaper group]] pmm: 
 
 \begin{imagefromfile}
     "file_name": "D2TorusCellStructure-20250720.png",
@@ -188,6 +189,29 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 \end{imagefromfile}
 
 \end{example}
+
+
+
+
+
+\begin{example}\label{cmmTorusAction}
+**(cmm)**
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{2}$]]-[[group action|action]] according to the [[wallpaper group]] cmm: 
+
+\begin{imagefromfile}
+    "file_name": "cmmTorusCellStructure-20250721.png",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 30,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
 
 
 
