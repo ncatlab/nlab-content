@@ -241,6 +241,8 @@ On holographic descriptions of [[topological semimetals]] via the [[AdS-CMT corr
 
 * Vladimir Juričić, Olivera Miskovic, Francisca Ramírez Carrasco: *Holographic Weyl semimetals with dislocations* &lbrack;[arXiv:2410.18853](https://arxiv.org/abs/2410.18853)&rbrack;
 
+* Sebastián Bahamondes, Ignacio Salazar Landea, Rodrigo Soto-Garrido: *Out-of-bounds hydrodynamics in holographic anisotropic Dirac semimetals* &lbrack;[arXiv:2507.13497](https://arxiv.org/abs/2507.13497)&rbrack;
+
 
 Review:
 
