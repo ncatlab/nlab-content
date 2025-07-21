@@ -106,13 +106,13 @@ For $G$ a [[compact Lie group]] (e.g. a [[finite group]]) and $V \in RO(G)$ a [[
 
 Simple examples of [[G-manifolds]] ([above](#GManifolds)) are [[surfaces]] with $G$-action.
 
-The following shows for (almost, so far) all 13 symmorphic [[crystallographic groups|2D crystallographic groups]] ([[wallpaper groups]]) 
+The following shows for the symmorphic [[crystallographic groups|2D crystallographic groups]] ([[wallpaper groups]]) 
 $$
   \mathbb{Z}^2 \rtimes G \subset Iso(2)
 $$ 
 the $G$-CW complex structure on the resulting [[tori]] $T^2 \coloneqq \mathbb{R}^2/\mathbb{Z}^2$.
 
-The [[point groups]] $G$ arising are the [[cyclic groups]] [[trivial group|$1$]], [[cyclic group of order 2|$\mathbb{Z}_{/2}$]], [[cyclic group of order 3|$\mathbb{Z}_{/3}$]], [[cyclic group of order 4|$\mathbb{Z}_{/4}$]], $\mathbb{Z}_{/6}$ and the [[dihedral groups]] $Dih_1$, $Dih_2$, $Dih_3$, $Dih_4$, and $Dih_6$ (making 10 distinct point groups $G$, but three of the latter come with two inequivalent actions each).
+The [[point groups]] $G$ arising are the [[cyclic groups]] ([[trivial group|$1$]], which we omit), [[cyclic group of order 2|$\mathbb{Z}_{/2}$]], [[cyclic group of order 3|$\mathbb{Z}_{/3}$]], [[cyclic group of order 4|$\mathbb{Z}_{/4}$]], $\mathbb{Z}_{/6}$ and the [[dihedral groups]] $Dih_1$, $Dih_2$, $Dih_3$, $Dih_4$, and $Dih_6$ (making 10 distinct point groups $G$, but three of the latter come with two inequivalent actions each).
 
 \begin{example}\label{TorusWithReflectionAction}
 **(pm)**
