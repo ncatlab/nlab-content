@@ -16,7 +16,7 @@
 
 ## Idea
 
-In *[[quantum physics]]* and in particular in the context of [[hidden variable theories]] (cf. [[interpretation of quantum mechanics]]) the term (quantum) *contextuality* refers to the (assumed) dependence of the value of [[quantum observables]] not *just* on (hypothetical) [[hidden variable theory|hidden variables]] but also on a specified "context" of other compatible (commuting) observables.
+In *[[quantum physics]]* and in particular in the context of [[hidden variable theories]] (cf. [[interpretation of quantum mechanics]]) the term (quantum) *contextuality* refers to the (assumed) dependence of the value of [[quantum observables]] not *just* on (hypothetical) [[hidden variable theory|hidden variables]] but also on a specified "context" of other compatible (commuting) observables which are measured together with the considered one. Notice that within the standard Copenhagen interpretation no contextuality takes place: the value of one observable in a given state does not depend on the context as defined above. When instead adopting a realism viewpoint, where one suppose that all observables are always defined (as it happens in some hidden variable theories), contextuality becomes relevant. 
 
 The notion originates in the discussion of the [[Bell-Kochen-Specker theorem]] which *rules out* the assumption that [[quantum observables]] all at once jointly dependent (only) on "hidden variables". However, for any chosen *commutative* subalgebra of observables the assumption is valid (cf. *[[Bohr topos]]*), whence one may consider the idea that observables are defined by hidden variables *and* the specification of such "contexts", hence that quantum observables are "contextual".
 
@@ -28,7 +28,7 @@ The notion originates in the discussion of the [[Bell-Kochen-Specker theorem]] w
 
 Textbook accoutn:
 
-* {#Moretti16} [[Valter Moretti]], Chapter 5 of: *Mathematical Foundations of Quantum Mechanics: An Advanced Short Course*, Int. J. Geom. Methods Mod. Phys. **13** Supp. 1 (2016) 1630011 &lbrack;[arXiv:1508.06951](http://arxiv.org/abs/1508.06951), [doi:10.1142/S0219887816300117](https://doi.org/10.1142/S0219887816300117)&rbrack;
+* {#Moretti19} [[Valter Moretti]], Chapter 5 of: *Fundamental mathematical structures of quantum theory*, Springer International Publishing (2019), [doi:10.1007/978-3-030-18346-2](https://doi.org/10.1007/978-3-030-18346-2)&rbrack;
 
 See also:
 
