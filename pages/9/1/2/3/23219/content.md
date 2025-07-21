@@ -28,7 +28,7 @@ The notion originates in the discussion of the [[Bell-Kochen-Specker theorem]] w
 
 Textbook accoutn:
 
-* {#Moretti19} [[Valter Moretti]], Chapter 5 of: *Fundamental mathematical structures of quantum theory*, Springer International Publishing (2019), [doi:10.1007/978-3-030-18346-2](https://doi.org/10.1007/978-3-030-18346-2)&rbrack;
+* {#Moretti19} [[Valter Moretti]], Chapter 5 of: *Fundamental mathematical structures of quantum theory*, Springer International Publishing (2019) &lbrack;[doi:10.1007/978-3-030-18346-2](https://doi.org/10.1007/978-3-030-18346-2)&rbrack;
 
 See also:
 
