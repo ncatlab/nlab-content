@@ -21,14 +21,14 @@ Let $R$ be a [[commutative ring]]. A _polynomial_ with coefficients in $R$ is an
 
 +-- {: .num_remark} 
 ###### Remark 
-Much like "[[vector]]", the term "polynomial" in this sense may seem slightly deprecated from the viewpoint of modern mathematics. We no longer think of a [[vector space]] as consisting of things called "vectors" (i.e. we don't assign an objective meaning to "vectors"); it's the other way around, where we introduce a type of structure called a vector space and then, relative to a given vector space context, declare that "vector" just means an element therein. Similarly, the term "polynomial" in the sense above has seemingly been subordinated to the structural concept of polynomial ring. (In Linderholm's *Mathematics Made Difficult*, page 152, there is an amusing passage where someone points at the expression $a_0 + a_1 X + a_2 X^2 + \ldots + a_n X^n$ and asks "Well, how about it? Is it a polynomial, or isn't it?" and the respondent says, "Yeah, sure, I guess. Looks like one. Yeah, sure, that's a polynomial all right" -- an answer which is not wrong exactly, but not quite right either, since it fails to recognize that there is something questionable about the question.) 
+Much like "[[vector]]", the term "polynomial" in this sense may seem slightly deprecated from the viewpoint of modern mathematics. We no longer think of a [[vector space]] as consisting of things called "vectors" (i.e. we don't assign an objective meaning to "vectors"); it's the other way around, where we introduce a type of structure called a vector space and then, relative to a given vector space context, declare that "vector" just means an element therein. Similarly, the term "polynomial" in the sense above has seemingly been subordinated to the structural concept of a polynomial ring. (In Linderholm's *Mathematics Made Difficult*, page 152, there is an amusing passage where someone points at the expression $a_0 + a_1 X + a_2 X^2 + \ldots + a_n X^n$ and asks "Well, how about it? Is it a polynomial, or isn't it?" and the respondent says, "Yeah, sure, I guess. Looks like one. Yeah, sure, that's a polynomial all right" -- an answer which is not wrong exactly, but not quite right either, since it fails to recognize that there is something questionable about the question.) 
 =-- 
 
 +-- {: .num_remark} 
 ###### Remark 
-On further reflection, however, we might more objectively identify the concept of "polynomial" (let us say a polynomial in $n$ variables) with a definable $n$-[[signature (in logic)|ary]] [[signature (in logic)|operation]] in the [[theory]] of commutative $R$-algebras. From a categorical perspective, if $U: CommAlg_R \to Set$ is the forgetful functor, a definable $n$-ary operation means a [[natural transformation]] $U^n \to U$. The connection is that the functor $U^n$ is [[representable functor|representable]], being represented by the [[free object]] $F[n] = R[x_1, \ldots, x_n]$, so that a natural transformation $U^n \to U$ is canonically identified with a transformation $\hom(R[x_1, \ldots, x_n], -) \to U$ or to an element of $U R[x_1, \ldots, x_n]$, by the [[Yoneda lemma]]. In pursuit of this objective meaning (which is essentially due to [[Lawvere]]), we find that the "variable" $x_i$ stands for the $i^{th}$ projection map $U^n \to U$, and that the meaning of (let's say) $x_1 x_2 \in R[x_1, x_2, x_3]$ is that it is the definable operation whose instantiation at any commutative $R$-algebra $A$ is the function $A^3 \to A$ taking $(a, b, c)$ to $a b$. 
+On further reflection, we might more objectively identify the concept of a "polynomial" (let us say a polynomial in $n$ variables) with a definable $n$-[[signature (in logic)|ary]] [[signature (in logic)|operation]] in the [[theory]] of commutative $R$-algebras. From a categorical perspective, if $U: CommAlg_R \to Set$ is the forgetful functor, a definable $n$-ary operation means a [[natural transformation]] $U^n \to U$. The connection is that the functor $U^n$ is [[representable functor|representable]], being represented by the [[free object]] $F[n] = R[x_1, \ldots, x_n]$, so that a natural transformation $U^n \to U$ is canonically identified with a transformation $\hom(R[x_1, \ldots, x_n], -) \to U$ or to an element of $U R[x_1, \ldots, x_n]$, by the [[Yoneda lemma]]. In pursuit of this objective meaning (which is essentially due to [[Lawvere]]), we find that the "variable" $x_i$ stands for the $i^{th}$ projection map $U^n \to U$, and that the meaning of (let's say) $x_1 x_2 \in R[x_1, x_2, x_3]$ is that it is the definable operation whose instantiation at any commutative $R$-algebra $A$ is the function $A^3 \to A$ taking $(a, b, c)$ to $a b$. 
 
-Of course there are traditional standard expressions that people usually have in mind when they speak of "a polynomial" as such. But leaving it at that, where polynomials are merely identified with certain types of expressions (as by the characters in Linderholm's book), ignores the deeper objective meaning of definable operations which of course is the actual point of it all. 
+Of course, there are traditional standard expressions that people usually have in mind when they speak of a "polynomial" as such. But leaving it at that, where polynomials are merely identified with certain types of expressions (as by the characters in Linderholm's book), ignores the deeper objective meaning of definable operations which of course is the actual point of it all. 
 =-- 
 
 +-- {: .num_remark} 
@@ -37,7 +37,7 @@ Finally, sometimes "polynomial" is construed to mean a *[[polynomial function]]*
 $$U R[x] \cong \hom(U, U) \stackrel{ev_R}{\to} \hom(U R, U R)$$ 
 where the second map sends a natural transformation to its component at $R$ as an $R$-algebra. Put differently, the set $\hom(U R, U R)$ carries a commutative $R$-algebra structure under the pointwise operations, and there is a unique $R$-algebra map $R[x] \to \hom(U R, U R)$ that sends '$x$' to the [[identity map]]. The [[value]] of a polynomial $p \in R[x]$ under this map is then the corresponding polynomial function $U R \to U R$. 
 
-This conflation of polynomials with polynomial functions is often forgivable, particularly in those cases where the map $R[x] \to \hom(U R, U R)$ is [[injective function|injective]] (so that 'polynomials' are identified with certain types of functions). Of course the map *won't* be injective if $R$ is [[finite set|finite]], to give one example. But in analysis, where we consider functions on $\mathbb{R}$ or $\mathbb{C}$, the conflation is familiar and rarely cause for concern. The conflation may also be responsible for certain notational artifacts, such as the common (and useful!) practice of writing $p(x)$ for polynomials $p$. 
+This conflation of polynomials with polynomial functions is often forgivable, particularly in those cases where the map $R[x] \to \hom(U R, U R)$ is [[injective function|injective]] (so that 'polynomials' are identified with certain types of functions). Of course the map *won't* be injective if $R$ is [[finite set|finite]], to give one example. But in analysis, where we consider functions on $\mathbb{R}$ or $\mathbb{C}$, the conflation is familiar and rarely cause for concern. The conflation may also be responsible for certain notational artifacts, such as the common (and useful!) practice of writing $p(x)$ for a polynomial $p$. 
 =-- 
 
 With these preliminary remarks out of the way, we recall some of the more syntactic considerations with an example. 
@@ -76,7 +76,7 @@ $$
 
 =-- 
 
-Thus, one way to construct a polynomial ring is first to construct the free commutative monoid generated by a set $X$ (the monoid of monomials), and then to construct the free $R$-module generated by the underlying set of that monoid, extending the monoid multiplication to a ring multiplication by bilinearity. 
+Thus, one way to construct a polynomial ring is to first construct the free commutative monoid generated by a set $X$ (the monoid of monomials), and then to construct the free $R$-module generated by the underlying set of that monoid, extending the monoid multiplication to a ring multiplication by bilinearity. 
 
 In addition to the ring structure, there is a further operation $R[z] \times R[z] \to R[z]$ which may be described as "substitution" or "composition"; see Remark \ref{substitution} below for a general description (which applies in fact to any [[Lawvere theory]]). 
 
@@ -85,9 +85,9 @@ In addition to the ring structure, there is a further operation $R[z] \times R[z
 In the case of univariate polynomials, since the function type $R[z] \to R[z]$ is a [[function algebra|function $R$-algebra]] with the [[commutative algebra|commutative $R$-algebra]] [[homomorphism]] to constant functions $C:R \to (R[z] \to R[z])$, there exists a commutative $R[z]$-algebra homomorphism $i:R[z] \to (R[z] \to R[z])$ inductively defined by $i(s(r)) \coloneqq C(r)$ for $r \in R$ and $i(z) \coloneqq id_{R[z]}$. The __substitution__ or __composition__ of univariate polynomials $(-) \circ (-):R[z] \times R[z] \to R[z]$ is the [[uncurrying]] of $i$, $p \circ q \coloneqq i(p)(q)$ for $p \in R[z]$ and $q \in R[z]$. 
 =--
 
-Moreover, there is a noncommutative analogue of polynomial ring on a set $X$, efficiently described as the free $R$-[[module]] generated by the (underlying set of the) free [[monoid]] on $X$. This carries also a ring structure, with ring multiplication induced from the monoid multiplication. A far-reaching generalization of this construction is given at [[distributive law]]. 
+Moreover, there is a noncommutative analogue of a polynomial ring on a set $X$, efficiently described as the free $R$-[[module]] generated by the (underlying set of the) free [[monoid]] on $X$. This also carries a ring structure, with ring multiplication induced from the monoid multiplication. A far-reaching generalization of this construction is given at [[distributive law]]. 
 
-Finally: polynomial algebras may be regarded as [[graded algebras]] (graded over $\mathbb{N}$). Specifically: let us regard $R[X]$ as the free $R$-module generated by (the underlying set of) the free [[commutative monoid]] $F(X)$. The monoid homomorphism $F(!): F(X) \to F(1) \cong \mathbb{N}$ induced by the unique function $!: X \to 1$ gives an $\mathbb{N}$-fibering of $F(X)$ over $\mathbb{N}$, with typical fiber $F(X)_n$ whose elements are called *monomials of degree $n$*. Then the _homogeneous component_ of degree $n$ in $R[X]$ is the $R$-submodule generated by the subset $F(X)_n \subset F(X)$. The elements of this component are called *homogeneous polynomials of degree $n$*. 
+Finally: polynomial algebras may be regarded as [[graded algebras]] (graded over $\mathbb{N}$). Specifically, let us regard $R[X]$ as the free $R$-module generated by (the underlying set of) the free [[commutative monoid]] $F(X)$. The monoid homomorphism $F(!): F(X) \to F(1) \cong \mathbb{N}$ induced by the unique function $!: X \to 1$ gives an $\mathbb{N}$-fibering of $F(X)$ over $\mathbb{N}$, with typical fiber $F(X)_n$ whose elements are called *monomials of degree $n$*. Then the _homogeneous component_ of degree $n$ in $R[X]$ is the $R$-submodule generated by the subset $F(X)_n \subset F(X)$. The elements of this component are called *homogeneous polynomials of degree $n$*. 
 
 ## Properties
 
@@ -101,7 +101,7 @@ The polynomial ring $R[z]$ is the [[free construction|free]] $R$-[[commutative a
 +-- {: .proof}
 ###### Proof
 
-By the definition of [[free objects]] one needs to check that algebra [[homomorphisms]]
+By the definition of [[free objects]], one needs to check that algebra [[homomorphisms]]
 
 $$
   f : R[z] \to K
@@ -113,7 +113,7 @@ $$
   \bar f : * \to K
 $$
 
-from the [[singleton]] to the set underlying $K$. Take $\bar f \coloneqq f(z)$. Using $R$-linearity, this is directly seen to yield the desired bijection.
+from the [[singleton]] to the set underlying $K$. Take (the single value of) $\bar f$ to be $f(z)$. Using $R$-linearity, this is directly seen to yield the desired bijection.
 
 =--
 
@@ -175,13 +175,13 @@ for each $1 \leq i \leq n$ called a **[[partial derivative]]**.
 ###### Proposition
 Since $R$ is power-associative, for every positive integer $n \in \mathbb{Z}_+$, 
 $$\frac{\partial}{\partial z}z^{n+1} = j(n) \circ z^{n}$$
-where $j:\mathbb{Z}_+ \to \mathbb{Z} \to R[z]$ is the canonical function from the positive [[integers]] to $R[x]$.
+where $j:\mathbb{Z}_+ \to \mathbb{Z} \to R[z]$ is the canonical function from the positive [[integers]] to $R[z]$.
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 If $R$ is an [[integral domain]], then for all constant polynomials $a \in R[z]$,  
-$$\frac{\partial}{\partial x}a = 0$$
+$$\frac{\partial}{\partial z}a = 0$$
 =--
 
 +-- {: .num_defn}
@@ -201,7 +201,7 @@ Let $R$ be a commutative ring. Given $f, g \in R[x]$ where the leading coefficie
 
 +-- {: .proof} 
 ###### Proof 
-If $\deg(f) \lt \deg(g)$, then $q = 0$ and $r = f$ will serve. Otherwise we may argue by [[induction]] on $\deg(f)$, where if $a_m x^m$ is the leading term of $f$ and $b_n x^n$ the leading term of $g$, then $h(x) = f(x) - a_m b_n^{-1} x^{m-n}g(x)$ has lower degree than $f(x)$. This proves existence. Uniqueness is clear, since if $q \cdot g + r = q' \cdot g + r'$ and $q \neq q'$, we have $\deg((q - q')g) = \deg(r' - r) \lt \deg(g)$ which is impossible; then $r = r'$ quickly follows from $q = q'$. 
+If $\deg(f) \lt \deg(g)$, then $q = 0$ and $r = f$ will suffice. Otherwise, we may argue by [[induction]] on $\deg(f)$, where if $a_m x^m$ is the leading term of $f$ and $b_n x^n$ the leading term of $g$, then $h(x) = f(x) - a_m b_n^{-1} x^{m-n}g(x)$ has lower degree than $f(x)$. This proves existence. Uniqueness is clear, since if $q \cdot g + r = q' \cdot g + r'$ and $q \neq q'$, we have $\deg((q - q')g) = \deg(r' - r) \lt \deg(g)$ which is impossible; then $r = r'$ quickly follows from $q = q'$. 
 =-- 
 
 +-- {: .num_cor} 
@@ -213,7 +213,7 @@ See [[Euclidean domain]] for a proof.
 
 +-- {: .num_cor} 
 ###### Corollary 
-For any commutative ring $R$, if $a \in R$ is a [[root]] of $p(x) \in R[x]$, i.e., if the value of the polynomial function $p(a)$ is $0$, then $p(x)$ is of the form $(x - a)q(x)$. 
+For any commutative ring $R$, if $a \in R$ is a [[root]] of $p(x) \in R[x]$, i.e., if the value of the polynomial function $p(a)$ is $0$, then $p(x)$ is of the form $(x - a)q(x)$ for some polynomial $q$. 
 =-- 
 
 +-- {: .proof} 
