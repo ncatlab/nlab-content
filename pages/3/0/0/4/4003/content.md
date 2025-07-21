@@ -17,7 +17,7 @@
 
 ## Idea
 
-The concept of _polynomial functor_ is a [[categorification]] of that of _[[polynomial]]_. 
+The concept of a _polynomial functor_ is a [[categorification]] of that of a _[[polynomial]]_. 
 
 Polynomial endo-functors are used to encode a class of [[inductive types]] called _[[W-types]]_, and also as the underlying data of [[polynomial monads]].
 
@@ -77,9 +77,9 @@ $$
   \sum_{y \in Y} {\vert S\vert}^{\vert X_y\vert}
 $$
 
-and it is in this sense that the concept of polynomial functor is a kind of [[categorification]] of that of [[polynomial]].
+and it is in this sense that the concept of a polynomial functor is a kind of [[categorification]] of that of a [[polynomial]].
 
-On the other hand the dependent polynomial functor associated to
+On the other hand, the dependent polynomial functor associated to
 
 $$
   A \stackrel{p_1}{\leftarrow} X \stackrel{id}{\longrightarrow} X
@@ -95,12 +95,12 @@ $$
   \,.
 $$
 
-Under [[cardinality]] this becomes [[matrix multiplication]] acting on [[vectors]] (with entries in the [[natural numbers]]). So in this case the dependent polynomial functor is a linear functor of several variables, an [[integral transform]].
+Under [[cardinality]], this becomes [[matrix multiplication]] acting on [[vectors]] (with entries in the [[natural numbers]]). So in this case the dependent polynomial functor is a linear functor of several variables—an [[integral transform]].
 
 ### In a general lextensive category
  {#ExamplesOnLextensiveCats}
 
-Taking the fibres in the previous example to be finite, uniformly bounded (in the sense that all the fibres have size at most $N$), we can partition the set $Y$ as $\coprod_{n \leq N} \{y\in Y\mid |g^{-1}(y)| = n \} = \coprod_{n \leq N} Y_n$. Then, after choosing isomorphisms $g^{-1}(y) \simeq \{1,\ldots,|g^{-1}(y)|\}$ for each $y\in Y$, the polynomial endofunctor $P_g$ is naturally isomorphic to the functor
+Taking the fibres in the previous example to be finite and uniformly bounded (in the sense that all the fibres have size at most $N$), we can partition the set $Y$ as $\coprod_{n \leq N} \{y\in Y\mid |g^{-1}(y)| = n \} = \coprod_{n \leq N} Y_n$. Then, after choosing isomorphisms $g^{-1}(y) \simeq \{1,\ldots,|g^{-1}(y)|\}$ for each $y\in Y$, the polynomial endofunctor $P_g$ is naturally isomorphic to the functor
 $$
   S \mapsto  \coprod_{n=0}^N Y_n\times S^n\,,
 $$
@@ -114,28 +114,28 @@ Literal polynomial endofunctors on an [[lextensive category]] are polynomial end
 
 +-- {: .proof}
 ###### Proof
-Note that in an arbitrary lextensive category there is little guarantee that any dependent products exist. However, the right adjoint to pullback functor associated to an iterated [[codiagonal]] $\coprod_{k=1}^n A\to A$ does exist, for any lextensive category. And this is all that is needed.
+Note that in an arbitrary lextensive category there is little guarantee that any dependent products exist. However, the right adjoint to the pullback functor associated to an iterated [[codiagonal]] $\coprod_{k=1}^n A\to A$ does exist for any lextensive category. And this is all that is needed.
 
-Consider, then, the map $g$ defined as
+Consider the map $g$ defined as
 $$
   \coprod_{n=1}^N \left(\coprod_{k=1}^n Y_n \right) \stackrel{\coprod_{n=1}^N \nabla_{Y_n}}{\longrightarrow} \coprod_{n=0}^N Y_n
 $$
-The pullback along $\nabla_{Y_n}$ of an arbitrary map $f\colon T\to Y_n$ is $\coprod_{k=1}^n T \stackrel{\coprod_{k=1}^n f}{\longrightarrow} \coprod_{k=1}^n Y_n$. The dependent product along $\nabla_{Y_n}$ of an arbitrary map can be written as a composite of dependent product functors, which are themselves coproducts of dependent product along the ordinary codiagonal $Y_n \sqcup Y_n \to Y_n$, and along identity maps. The dependent product of $S\sqcup T \stackrel{f\sqcup g}{\longrightarrow} Y_n \sqcup Y_n$ along the codiagonal can be easily checked to be $S\times_{Y_n} T \to Y_n$. So we know that the functor $\Pi_{\nabla_{Y_n}}$ exists, and it remains to calculate what the polynomial functor associated to $g$ is.
+The pullback along $\nabla_{Y_n}$ of an arbitrary map $f\colon T\to Y_n$ is $\coprod_{k=1}^n T \stackrel{\coprod_{k=1}^n f}{\longrightarrow} \coprod_{k=1}^n Y_n$. The dependent product along $\nabla_{Y_n}$ of an arbitrary map can be written as the composite of dependent product functors, which are themselves coproducts of dependent product along the ordinary codiagonal $Y_n \sqcup Y_n \to Y_n$, and along identity maps. The dependent product of $S\sqcup T \stackrel{f\sqcup g}{\longrightarrow} Y_n \sqcup Y_n$ along the codiagonal can be easily checked to be $S\times_{Y_n} T \to Y_n$. So we know that the functor $\Pi_{\nabla_{Y_n}}$ exists, and it remains to calculate what the polynomial functor associated to $g$ is.
 
-This can be done summand by summand, i.e. for each $n=1,\ldots, N$, since the final dependent sum merely takes the coproduct of each dependent product. So the only thing to double check is that, for each $n$, 
+This can be done summand-by-summand, i.e., for each $n\in \{1,\ldots, N\}$, since the final dependent sum merely takes the coproduct of each dependent product. So the only thing to double-check is that, for each $n$, 
 $$
   \Pi_{\nabla_{Y_n}} (\coprod_{k=1}^n Y_n \times S \to \coprod_{k=1}^n Y_n) = (Y_n\times S^n \to Y_n)\,,
 $$
 which follows from the description of the pullback along $\nabla_{Y_n}$ and the defining properties of products, coproducts, and their interactions in a lextensive category.
-There is a boundary case, namely that corresponding to $n=0$, which amounts to dependent product along $0 \to Y_0$. But in an extensive category, initial objects are strict, and so we need to take the dependent product of $0\times S = 0 \to 0$, which is then just the identity map on $Y_0$.
+There is a boundary case, namely that corresponding to $n=0$, which amounts to the dependent product along the morphism $0 \to Y_0$. But in an extensive category, initial objects are strict, so we need to take the dependent product of $0\times S = 0 \to 0$, which is just the identity map on $Y_0$.
 
-The final dependent product then gives the output of the polynomial functor, which is then the literal polynomial we started with, namely $\coprod_{n=0}^N Y_n\times S^n$.
+The final dependent product gives the output of the polynomial functor, which is the literal polynomial we started with, namely $\coprod_{n=0}^N Y_n\times S^n$.
 
 =--
 
-In the above proof, the only place that the existence of arbitrary pullbacks in a lextensive category was used is in constructing the general dependent product along the codiagonal. Obviously one still needs finite products, just to get off the ground. For the purposes of expressing the literal polynomial as a polynomial functor, this dependent product only need be applied to the projection map $(Y\sqcup Y) \times S \to (Y\sqcup Y)$. Thus while $\Pi_{\nabla_{Y_n}}$ may not exist in a general _extensive_ category with binary products, the composite $\Pi_{\nabla_{Y_n}}\circ (Y\sqcup Y)^*$ does. The extent to which such an endofunctor deserves to be called a polynomial endofunctor is up for debate.
+In the above proof, the only place that the existence of arbitrary pullbacks in a lextensive category was used is in constructing the general dependent product along the codiagonal. Obviously one still needs finite products, just to get off the ground. For the purposes of expressing the literal polynomial as a polynomial functor, this dependent product only needs to be applied to the projection map $(Y\sqcup Y) \times S \to (Y\sqcup Y)$. Thus, while $\Pi_{\nabla_{Y_n}}$ may not exist in a general _extensive_ category with binary products, the composite $\Pi_{\nabla_{Y_n}}\circ (Y\sqcup Y)^*$ does. The extent to which such an endofunctor deserves to be called a polynomial endofunctor is up for debate.
 
-In a lextensive category with _countable_ coproducts (and the corresponding compatibility with pullbacks), for instance an [[infinitary pretopos]] one can extend the above example to endofunctors of the form
+In a lextensive category with _countable_ coproducts (and the corresponding compatibility with pullbacks), for instance an [[infinitary pretopos]], one can extend the above example to endofunctors of the form
 $$
   S \mapsto  \coprod_{n=0}^\infty Y_n\times S^n\,,
 $$
@@ -143,7 +143,7 @@ with practically identical proof and no additional assumptions.
 
 ## The 2-category of polynomial functors
 
-Any polynomial functor, as defined above, is automatically equipped with a [[tensorial strength]], when the slice categories of $C$ are regarded as tensored over $C$ in the canonical way.  The following theorem is proven in [Gambino--Kock](#GK):
+Any polynomial functor, as defined above, is automatically equipped with a [[tensorial strength]], when the slice categories of $C$ are regarded as tensored over $C$ in the canonical way. The following theorem is proven in [Gambino--Kock](#GK):
 
 +--{: .num_theorem}
 ###### Theorem
@@ -160,13 +160,13 @@ $$
 This bicategory is equivalent to the 2-category whose objects are slice categories of $C$, whose morphisms are polynomial functors regarded as strong functors, and whose 2-morphisms are strength-respecting natural transformations.
 =--
 
-In particular, "being polynomial" is a mere [[stuff, structure, property|property]] of a strong functor between slice categories.  That is, the data $f,g,h$ are uniquely determined, up to isomorphism, by the strong functor they generate.  (Note, though, that the property of "being polynomial" depends on a prior identification of the domain and codomain as being slice categories of some specified ambient category $C$.  In particular, a functor $C/Z \to C/Z$ might be polynomial when its domain and codomain are regarded as slice categories of $C$, but not when they are regarded as slices of $C/Z$ over $1$ --- this happens when $W=Z$ but $h g \neq f$.)
+In particular, "being polynomial" is a mere [[stuff, structure, property|property]] of a strong functor between slice categories. That is, the data $f$, $g$, and $h$ are uniquely determined, up to isomorphism, by the strong functor they generate. (Note that the property of "being polynomial" depends on a prior identification of the domain and codomain as being slice categories of some specified ambient category $C$. In particular, a functor $C/Z \to C/Z$ might be polynomial when its domain and codomain are regarded as slice categories of $C$, but not when they are regarded as slices of $C/Z$ over $1$ --- this happens when $W=Z$ but $h g \neq f$.)
 
-Note that the above bicategory contains, as a locally full sub-bicategory, the usual bicategory of [[spans]].  Thus, as a special case, the bicategory of spans is equivalent to the 2-category of "linear" polynomial functors.  Both of these are instances of [[Lack's coherence theorem]].
+Note that the above bicategory contains, as a locally full sub-bicategory, the usual bicategory of [[spans]]. Thus, as a special case, the bicategory of spans is equivalent to the 2-category of "linear" polynomial functors.  Both of these are instances of [[Lack's coherence theorem]].
 
-There is a particular subclass of the 2-morphism in this bicategory that is also interesting: a 2-morphism corresponds to a [[cartesian natural transformation]] if and only if the map $X' \times_{Y'} Y \to X$ is an isomorphism.  Since anything isomorphic to a pullback is a pullback, in this case the diagram can be drawn more simply by omitting the upper square and merely asking that the lower square *be* a pullback.
+There is a particular subclass of the 2-morphisms in this bicategory that is also interesting: a 2-morphism corresponds to a [[cartesian natural transformation]] if and only if the map $X' \times_{Y'} Y \to X$ is an isomorphism. Since anything isomorphic to a pullback is a pullback, in this case the diagram can be drawn more simply by omitting the upper square and merely asking that the lower square *be* a pullback.
 
-Furthermore, this bicategory is actually the horizontal bicategory of a [[double category]], indeed a [[framed bicategory]], in which the vertical arrows are the arrows of $C$, and the cells are diagrams as above but allowing also morphisms $W\to W'$ and $Z\to Z'$ on the left and right.
+Furthermore, this bicategory is actually the horizontal bicategory of a [[double category]], and indeed a [[framed bicategory]], in which the vertical arrows are the arrows of $C$, and the cells are diagrams as above but also allowing morphisms $W\to W'$ and $Z\to Z'$ on the left and right.
 
 ## The multicategory of single-variable polynomials
 
@@ -174,7 +174,7 @@ Let $\mathcal{E}$ be a category with (chosen) pullbacks and let $\mathcal{D}$ be
 
 There is a [[multicategory]] $\mathbf{Poly}(\mathcal{E})$, first introduced by [Garner, 2019](#Garner2019) and attributed to [Weber, 2015](#Weber2015), whose: 
 
-* objects are $\mathcal{D}$-maps $p \colon E \rightarrow B$ (that is, a polynomial $* \leftarrow E \rightarrow B \rightarrow *$)
+* objects are $\mathcal{D}$-maps $p \colon E \rightarrow B$ (that is, polynomials $* \leftarrow E \rightarrow B \rightarrow *$)
 
 * nullary morphisms $\sigma \colon () \rightarrow p$ are sections of $p$
 \begin{tikzcd}[row sep=scriptsize]
@@ -291,7 +291,7 @@ If the $\mathcal{D}$-maps are [[exponential object|exponentiable]], then the mul
 
 * Polynomial functors can be defined using [[exponentiable morphisms]] in a category that may not be locally cartesian closed.  See also [[distributivity pullback]].
 
-* Kripke frames $(R,S)$ (with a transition relation $R$ of arity $2$) as studied in [[modal logic]] are [[coalgebra]]s for the power-set functor $P$. Kripke frames for a more general *modal similarity type* $t$ are a coalgebras of a functor of the form $X\mapsto \product_{d\in t} P(S^{arity(d)})$. Kripke models are coalgebras of functor $K:X\mapsto P(Prop)\times P(X)$ where $Prop$ is the set of propositional variables of the logic in consideration. In particular all the functors appearing here are polynomial functors. So, at least in some aspects, the study of modal logics reduces to the study of (certain) polynomial functors.
+* Kripke frames $(R,S)$ (with a transition relation $R$ of arity $2$) as studied in [[modal logic]] are [[coalgebra]]s for the power-set functor $P$. Kripke frames for a more general *modal similarity type* $t$ are coalgebras of a functor of the form $X\mapsto \product_{d\in t} P(S^{arity(d)})$. Kripke models are coalgebras of the functor $K:X\mapsto P(Prop)\times P(X)$ where $Prop$ is the set of propositional variables of the logic in consideration. In particular, all the functors appearing here are polynomial functors. So, at least in some aspects, the study of modal logics reduces to the study of (certain) polynomial functors.
 
 ## Examples
 
