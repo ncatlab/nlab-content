@@ -49,11 +49,14 @@ Their construction and the [[proof]] that there is exactly five of them appears 
 
 * [[Euclid]], [Book XIII](http://aleph0.clarku.edu/~djoyce/elements/bookXIII/bookXIII.html) of the _[[Elements]]_, $\sim$300 BC
 
-Modern textbook accounts include
+Modern textbook accounts:
 
-* {#Lamotke86} [[Klaus Lamotke]], section 1 of _Regular Solids and Isolated Singularities_, Vieweg 1986
+* {#Lamotke86} [[Klaus Lamotke]], section 1 of: _Regular Solids and Isolated Singularities_, Vieweg (1986)
 
-* {#Rees05} [[Elmer Rees]], from p. 23 (32 of 124) on in _Notes on Geometry_, Springer 2005
+* [[Mark A. Armstrong]], chapter 8 in: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
+
+* {#Rees05} [[Elmer Rees]], from p. 23 (32 of 124) on in: _Notes on Geometry_, Springer (2005)
 
 
 See also
