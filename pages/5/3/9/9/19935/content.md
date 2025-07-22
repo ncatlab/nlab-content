@@ -26,11 +26,22 @@ A _wallpaper group_ is a [[crystallographic group]] ([[space group]]) in [[dimen
 1. the [[point group]] is [[finite group|finite]].
 
 
+## Tabulation
+
+### Crystallographic diagrams
+
 {#Tilley2020Fig310} [Fig. 3.10 in Tilley 2020](#Tilley2020):
 
 <center>
 <img src="https://ncatlab.org/nlab/files/SymmetryElementsOfWallpaperGroups.jpg"  width="600">
 </center>
+
+
+
+[[!include equivariant cell structure on 2-tori -- section]]
+
+
+
 
 
 ## Related concepts
