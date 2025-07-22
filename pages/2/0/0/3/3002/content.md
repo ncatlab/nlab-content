@@ -96,6 +96,17 @@ Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[mor
 
 * [[crossed homomorphism]]
 
+
+## References
+
+Textbook account on [[group]] homomorphisms:
+
+* [[Mark A. Armstrong]], chapter 16 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
+
+
+
+
 [[!redirects homomorphism]]
 [[!redirects homomorphisms]]
 
