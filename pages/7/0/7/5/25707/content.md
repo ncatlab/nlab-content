@@ -31,12 +31,15 @@ Further textbook accounts:
 
 * {#Dugundji66} [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
 
-
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000) \[ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)\]
 
 * [[Richard E. Hodel]] (ed.), *Set-Theoretic Topology*, Academic Press (1977) \[<a href="https://doi.org/10.1016/C2013-0-11355-4">doi:10.1016/C2013-0-11355-4</a>\]
 
+* [[Mark A. Armstrong]]: *Basic Topology*, McGraw-Hill (1979), Undergraduate Texts in Mathematics, Spinger (1983) \[<a href="https://doi.org/10.1007/978-1-4757-1793-8">doi:10.1007/978-1-4757-1793-8</a>, <a href="https://math.mit.edu/~hrm/palestine/armstrong-basic-topology.pdf">pdf</a>\]
+
 * [[Klaus Jänich]], *Topology*, Undergraduate Texts in Mathematics, Springer (1984, 1999) \[<a href="https://link.springer.com/book/9780387908922">ISBN:9780387908922</a>, [doi:10.1007/978-3-662-10574-0](https://doi.org/10.1007/978-3-662-10574-0), Chapters 1-2: [pdf](http://topologicalmedialab.net/xinwei/classes/readings/Janich/Janich_Topology_ch1-2.pdf)\]
+
+* [[Mark A. Armstrong]]: *Basic Topology*, McGraw-Hill (1979), Undergraduate Texts in Mathematics, Spinger (1983) \[<a href="https://doi.org/10.1007/978-1-4757-1793-8">doi:10.1007/978-1-4757-1793-8</a>, <a href="https://math.mit.edu/~hrm/palestine/armstrong-basic-topology.pdf">pdf</a>\]
 
 * {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
 
