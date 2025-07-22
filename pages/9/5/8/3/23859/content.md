@@ -56,12 +56,16 @@ Historical articles identifying the point-[[lattice (discrete subgroup)|lattice]
 
 Textbook accounts:
 
+* [[Sheng San Li]], Chapter 1 of: *Semiconductor Physical Electronics*, Springer (2006)  &lbrack;[doi:10.1007/0-387-37766-2](https://link.springer.com/book/10.1007/0-387-37766-2)&rbrack;
+  > (in [[semiconductor]]-theory)
+
+* Walter Borchardt-Ott: *Crystallography*, Springer (2012) &lbrack;[doi:10.1007/978-3-642-16452-1](https://doi.org/10.1007/978-3-642-16452-1)&rbrack;
+
+* Christopher Hammond: *The Basics of Crystallography and Diffraction*, Oxford University Press (2015) &lbrack;[ISBN:9780198738688](https://global.oup.com/academic/product/the-basics-of-crystallography-and-diffraction-9780198738688)&rbrack;
+
 * {#Tilley2020} Richard Tilley, *Crystals and Crystal Structure*, Wiley (2020) &lbrack;[ISBN:978-1-119-54838-6](https://www.wiley.com/en-us/Crystals+and+Crystal+Structures,+2nd+Edition-p-9781119548386)&rbrack;
 
 
-* [[Sheng San Li]], Chapter 1 of: *Semiconductor Physical Electronics*, Springer (2006)   $[$[doi:10.1007/0-387-37766-2](https://link.springer.com/book/10.1007/0-387-37766-2)$]$
-
-  > (in [[semiconductor]]-theory)
 
 With focus on the [[mathematics]] of [[crystallographic groups]]:
 
