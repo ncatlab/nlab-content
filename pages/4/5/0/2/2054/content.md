@@ -65,9 +65,15 @@ Early discussion of ([[subgroups]] of) [[free groups]] (proof of the [[Nielsen-S
 
 * [[Otto Schreier]], *Die Untergruppen der freien Gruppen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 161–183 &lbrack;[doi:10.1007/BF02952517](https://doi.org/10.1007/BF02952517)&rbrack;
 
+Textbook account:
+
+* [[Mark A. Armstrong]], chapter 27 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
+
 Expository review:
 
 * Abhay Chandel, *Free groups and amalgamated product*, BSc thesis (2013) &lbrack;[pdf](http://home.iiserb.ac.in/~kashyap/Group/thesis_abhay.pdf), [[Chandel-AmalgamatedProducts.pdf:file]]&rbrack;
+
 
 
 
