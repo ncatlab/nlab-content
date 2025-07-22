@@ -272,6 +272,9 @@ An action of a set $X$ in itself is also called a __[[binary operation]]__, and 
 
 ## References
 
+### General
+
+(...)
 
 ### Group actions
 
@@ -296,9 +299,12 @@ Textbook accounts:
 * {#Bredon72} [[Glen Bredon]], *[[Introduction to compact transformation groups]]*, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1)
 , [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
+
 * {#tomDieck79} [[Tammo tom Dieck]], *[[Transformation Groups and Representation Theory]]*, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
 
 * {#tomDieck87} [[Tammo tom Dieck]], *[[Transformation Groups]]*, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+
+* [[Mark A. Armstrong]], chapter 17 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
 
 
 Lecture notes:
@@ -306,6 +312,7 @@ Lecture notes:
 * {#Koszul65} [[Jean-Louis Koszul]], _Lectures on Groups of Transformations_, Tata Institute 1965 ([pdf](http://www.math.tifr.res.in/~publ/ln/tifr32.pdf), [[KoszulGroupsOfTransformations.pdf:file]])
 
 * [[Patrick Morandi]], _Group actions_ ([[MorandiGroupActions.pdf:file]])
+
 
 [[!redirects action]]
 [[!redirects actions]]
