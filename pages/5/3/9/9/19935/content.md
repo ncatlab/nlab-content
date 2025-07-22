@@ -45,9 +45,14 @@ A _wallpaper group_ is a [[crystallographic group]] ([[space group]]) in [[dimen
 
 * Doris Schattschneider: *The plane symmetry groups and their recognition*, American Mathematical Monthly **85** (1978) 439-450 &lbrack;[pdf](https://www.york.ac.uk/depts/maths/histstat/symmetry/schattschneider.pdf), [[Schattschneider-PlaneSymmetry.pdf:file]]&rbrack; 
 
+* [[Mark A. Armstrong]], chapters 25-26 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
 * [[Patrick Morandi]]: *The Classification of Wallpaper Patterns: From Group Cohomology to Escherís Tessellations* (2003) &lbrack;[pdf](https://web.math.pmf.unizg.hr/~mkazal/reprints/Odabrane/Morandi.pdf), [[Morandi-WallpaperPatterns.pdf:file]]&rbrack;
 
 * [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
+
+* Christopher Hammond, chapter 2 of: *The Basics of Crystallography and Diffraction*, Oxford University Press (2015) &lbrack;[ISBN:9780198738688](https://global.oup.com/academic/product/the-basics-of-crystallography-and-diffraction-9780198738688)&rbrack;
+
 
 * {#Tilley2020} Richard Tilley, Sec. 3.5 in: *Crystals and Crystal Structure*, Wiley (2020) &lbrack;[ISBN:978-1-119-54838-6](https://www.wiley.com/en-us/Crystals+and+Crystal+Structures,+2nd+Edition-p-9781119548386)&rbrack;
 
