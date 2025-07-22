@@ -85,7 +85,7 @@ Binary composition is subtler.  The obvious way to compose codiscrete cofibratio
 In any 2-category with finite 2-colimits, if $B$ and $D$ are cofibrations, then so is $B +_C D$.
 =--
 
-However, $B +_C D$ will not be codiscrete even if $B$ and $D$ are.  In $V Cat$, if $B$ and $D$ are collages of profunctors $m$ and $n$, then $B +_C D$ represents the gamut consisting of $m$, $n$, and the composite profunctor $n m$, with the middle category being $C$.  Thus, in order to obtain the correct composite, we need to forget about $C$ somehow.  The best way to do this seems to be using a [[factorization system in a 2-category]], akin the way in which we construct the [[bicategory of relations]] from any [[regular category]].
+However, $B +_C D$ will not be codiscrete even if $B$ and $D$ are.  In $V Cat$, if $B$ and $D$ are collages of profunctors $m$ and $n$, then $B +_C D$ represents the gamut consisting of $m$, $n$, and the composite profunctor $n m$, with the middle category being $C$.  Thus, in order to obtain the correct composite, we need to forget about $C$ somehow.  The best way to do this seems to be using a [[factorization system on a 2-category]], akin the way in which we construct the [[bicategory of relations]] from any [[regular category]].
 
 
 ### Equippable 2-categories
