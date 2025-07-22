@@ -91,6 +91,9 @@ See also
 
 * [[Mohammad Garousi]], _Minimal gauge invariant couplings at order $\ell^6_p$ in M-theory_ ([arXiv:2102.00639](https://arxiv.org/abs/2102.00639))
 
+* Yoshifumi Hyakutake: *Effective Action in M-Theory: $(D F)^4$ Superinvariants* \[<a href="https://arxiv.org/abs/2507.14984">arXiv:2507.14984</a>\]
+
+
 
 Discussion in view of the [[Starobinsky model of cosmic inflation]] is in
 
