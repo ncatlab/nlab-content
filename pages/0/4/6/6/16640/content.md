@@ -190,9 +190,16 @@ We have $n_p|q$ by Corollary \ref{numbertwoSylow}, but $n_p \neq q$ (using Theor
 
 ## References ##
 
+Textbook account:
+
+* [[Mark A. Armstrong]], chapter 20 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
+
 For more see 
 
 * _Burnside's lemma_, [Wikipedia](https://en.wikipedia.org/wiki/Burnside%27s_lemma).
+
+
 
 [[!redirects class equations]]
 
