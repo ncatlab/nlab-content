@@ -38,9 +38,16 @@ The [[equivalence classes]] under this [[relation]] are hence called the _[[conj
 
 ## References
 
+Textbook account:
+
+* [[Mark A. Armstrong]], chapter 14 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
+
 See also
 
 * Wikipedia, _[Conjugacy of subgroups and general subsets](https://en.wikipedia.org/wiki/Conjugacy_class#Conjugacy_of_subgroups_and_general_subsets)_
+
+
 
 [[!redirects conjugate subgroups]]
 
