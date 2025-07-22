@@ -33,6 +33,13 @@ A 10 dimensional Lie group, the relativistic counterpart of which is the 10 dime
 
 ## References
 
+Textbook account:
+
+* [[Mark A. Armstrong]], chapter 24 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
+
+See also:
+
 * Wikipedia, _[Galilean group](http://en.wikipedia.org/wiki/Galilean_transformation#Galilean_group)_
 
 * Wikipedia, _[Euclidean group](http://en.wikipedia.org/wiki/Euclidean_group)_
