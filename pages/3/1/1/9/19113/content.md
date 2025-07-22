@@ -415,6 +415,9 @@ Textbook accounts:
 
 * {#Lamotke86} [[Klaus Lamotke]], _Regular Solids and Isolated Singularities_, Vieweg 1986 ([doi:10.1007/978-3-322-91767-6](https://link.springer.com/book/10.1007/978-3-322-91767-6))
 
+* [[Mark A. Armstrong]], chapter 19 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
+
 * {#Rees05} [[Elmer Rees]], _Notes on Geometry_, Springer 2005
 
 see also 
