@@ -10,7 +10,14 @@ A *pushout complement* is a "completion of a pair of [[arrows]] to a [[pushout]]
 ## Definition
 
 Given [[morphisms]] $m:C\to A$ and $g:A\to D$ in a [[category]], a **pushout complement** is a pair of arrows $f:C\to B$ and $n:B\to D$ such that the square
-$$ \array{ C & \to & A \\ \downarrow & & \downarrow \\ B & \to & D }$$
+\begin{tikzcd}
+	C & A \\
+	B & D
+	\arrow["m", from=1-1, to=1-2]
+	\arrow["f"', dashed, from=1-1, to=2-1]
+	\arrow["g", from=1-2, to=2-2]
+	\arrow["n"', dashed, from=2-1, to=2-2]
+\end{tikzcd}
 [[commutative square|commutes]] and is a [[pushout]].
 
 In general, even in good categories, pushout complements may not exist.  However, if they do exist, then as long as the category is [[adhesive category|adhesive]] (such as a [[topos]]) and $m$ is a [[monomorphism]], they are unique up to unique isomorphism.  In the language of [[homotopy type theory]], the [[type]] of such pushout complements is an [[h-proposition]].
