@@ -29,18 +29,30 @@ For a [[small category]] $C$ with $\Phi$-colimits, there is a simple description
 
 For a [[large category]], this description does not suffice in general, nor does it suffices to consider categories of [[small presheaves]]: in fact, there are [[locally small categories]] that do not admit locally small conservative cocompletions (see [AV02](#AV02)) (however, they do admit conservative cocompletions that are large and not locally small).
 
+## Definition
+
+If $\Phi$ is a class of colimits in a category $C$, 
+then we say that a $\Phi$-colimit-preserving functor $j:C\to D$ exhibits a cocomplete category $D$ as a **$\Phi$-conservative cocompletion** if, for any  cocomplete category $E$, composition with $j$ induces an equivalence between the category of $\Phi$-colimit-preserving functors $C\to E$ and the category of small-colimit-preserving functors $D\to E$, and this equivalence is natural in $E$. 
+
+Then the **conservative cocompletion** (with $\Phi$ unspecified) is the $\Phi$-conservative cocompletion for $\Phi$ the class of all colimits that exist in $C$. 
+
+
 ## Properties
 
 - For a small category $C$, the conservative cocompletion $Cont(C^op, Set)$ is [[complete]] and [[cocomplete]], and the embedding $C \to Cont(C^op, Set)$ creates limits and colimits. Consequently, every small category may be continuously and cocontinuously fully embedded into a complete and cocomplete locally small category. (Note that $Cont(C^op, Set)$ will rarely be [[closed category|closed]] unless $C$ is ([counterexample](https://mathoverflow.net/a/185024)).) However, not every locally small category admits such an embedding: see Example III.1 of [Trnková 1966](#T66).
 
 - If $C$ is small and [[symmetric monoidal category|symmetric monoidal]] and $(c\otimes -)$ preserves $\Phi$-colimits, then one can define a symmetric [[closed monoidal category|monoidal closed]] structure on $Cont_\Phi(C^op, Set)$ such that the Yoneda embedding $C\to Cont_\Phi(C^op, Set)$ is [[strong monoidal functor|strong monoidal]]. In particular if $C$ is already [[cartesian closed category|cartesian closed]] or symmetric monoidal closed, so too is  $Cont_\Phi(C^op, Set)$, since if $(c\otimes -)$ is a left adjoint then it necessarily [[adjoints preserve (co-)limits|preserves _all_ colimits]]. Moreover, the Yoneda embedding preserves this structure. Note that this is not the [[Day convolution]], but a reflection of it into $Cont_\Phi(C^op, Set)$. 
 
-- Conversely, if $C$ is symmetric monoidal but $(c\otimes -)$ does not preserve $\Phi$-colimits then $Cont_\Phi(C^op,Set)$ will not have the structure of a closed monoidal category extending $C$, because $\Phi$-colimits are preserved by the Yoneda embedding and if $(c\otimes -)$ had a left adjoint under the embedding then it would preserve all colimits there. For example, if $C$ is the dual of a Lawvere theory, and $\Phi$ comprises finite coproducts, then $Cont_\Phi(C^op,Set)$ is the category of models of the Lawvere theory, which is typically not cartesian closed (e.g.~[[monoids]], [[groups]], [[convex sets]], [[rings]], [[vector spaces]]).
-
 ## Examples
 
 - The category of finite [[semilattices]] is the conservative cocompletion of the category of [[finite sets]] and [[relations]] under finite colimits (and also its [[free cocompletion]] under [[reflexive coequalisers]]) ([AMMU14](#AMMU14)).
 - The category [[Pos]] of [[partial orders]] is the free conservative cocompletion of the category of [[total orders]] ([Tataru24](#Tataru24)).
+- Let $L$ be a [[Lawvere theory]], and let $\Phi$ be the class of finite [[coproducts]] in $L^{op}$ (equivalently, finite copowers). Then the $\Phi$-conservative cocompletion of $L^{op}$ is the category of $L$-algebras. For example, the $\Phi$-conservative cocompletion of [[FinStoch]] is the category of [[convex space|abstract convex sets]], and the $\Phi$-conservative cocompletion of [[FinRel]] is the category of join [[semilattices]]. In both convex sets and semilattices, the cartesian product gives a symmetric monoidal structure, since they are [[commutative algebraic theories]], and this gives rise by the Yoneda embedding to the symmetric monoidal closed structure on the categories of $L$-algebras. 
+
+* Since categories of algebras are typically not cartesian closed, the previous point illustrates that $Cont_\Phi(C^op,Set)$ is not cartesian closed in general (e.g. [[monoids]], [[groups]], [[convex sets]], [[rings]], [[vector spaces]]).
+
+* Let $C$ be a small [[extensive category]]. Let $\Phi$ be the class of finite coproducts. The category of [[sheaves]] for the [[extensive coverage]] is the $\Phi$-conservative cocompletion of $C$. 
+
 
 ## Related concepts
 
