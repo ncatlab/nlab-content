@@ -211,6 +211,11 @@ On [[coset]]-realizations:
 
 * {#Baez} [[John Baez]], _Rotations in the 7th Dimension_, ([blog post](https://golem.ph.utexas.edu/category/2007/09/rotations_in_the_7th_dimension.html)), and _TWF 195_, ([webpage](http://math.ucr.edu/home/baez/week195.html))
 
+On [[contact manifold]] structure and [[quantization]]:
+
+* Subhobrata Chatterjee, Can Görmez, Andrew Waldron: *Seven Sphere Quantization* &lbrack;[arXiv:2507.14363](https://arxiv.org/abs/2507.14363)&rbrack;
+
+
 
 [[!redirects 7-spheres]]
 
