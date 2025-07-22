@@ -102,23 +102,26 @@ Versions of the topological proof are given in many places. One is
 
 Another can be found reviewed towards the end of 
 
-* [[N. D. Gilbert]], [[T. Porter]], _Knots and Surfaces_, Oxford U.P., 1994.
- {#GilbertPorter}
+* {#GilbertPorter}[[N. D. Gilbert]], [[T. Porter]], _Knots and Surfaces_, Oxford U.P., 1994.
+ 
+Textbook account:
 
-Other related texts include
+* [[Mark A. Armstrong]], chapter 28 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
 
-* H. Zieschang, _&#220;ber die Nielsensche K&#252;rzungsmethode in freien Produkten mit Amalgam_, Invent. Math. __10__, 4--37, 1970.
 
-* W. Magnus, A. Karras, D. Solitar, _Combinatorial group theory_
+Further related texts::
+
+* H. Zieschang, _&#220;ber die Nielsensche K&#252;rzungsmethode in freien Produkten mit Amalgam_, Invent. Math. __10__, 4--37, (1970)
+
+* [[Wilhelm Magnus]], A. Karras, D. Solitar, *Combinatorial group theory: Presentation of groups in terms of generators and relations*, Courier Corporation (1966, 2004) &lbrack;[ISBN:0-486-43830-9](https://www.maa.org/press/maa-reviews/combinatorial-group-theory-presentations-of-groups-in-terms-of-generators-and-relations), [GoogleBooks](https://books.google.com/books?hl=en&lr=&id=1LW4s1RDRHQC&oi=fnd&pg=PP1&ots=WszNa-0hEz&sig=Hn_MTbyLcEreBBNZ8jJtQUVKlZk)&rbrack;
 
 * R. Lyndon, P. Schupp, _Combinatorial group theory_, Springer 1977 (Russian transl. Mir, Moskva 1980)
 
-A groupoid-based proof of the Nielsen-Schreier theorem appears as theorem 9 in chapter 14 in
+A [[groupoid]]-based proof of the Nielsen-Schreier theorem appears as theorem 9 in chapter 14 in
 
-* [[Philip Higgins|P. J. Higgins]], _Categories and groupoids_, [Repr. Theory Appl. Categ., 1 &#8211; 178](http://www.emis.de/journals/TAC/reprints/articles/7/tr7abs.html) , ISSN 
-1201-561X, reprint of the 1971 original _Notes on categories and groupoids_, (Van Nostrand 
+* {#Higgins} [[Philip Higgins|P. J. Higgins]], _Categories and groupoids_, [Repr. Theory Appl. Categ., 1 &#8211; 178](http://www.emis.de/journals/TAC/reprints/articles/7/tr7abs.html) , ISSN:1201-561X, reprint of the 1971 original _Notes on categories and groupoids_, (Van Nostrand 
 Reinhold, London; MR0327946) with a new preface by the author. 
- {#Higgins}
+ 
 
 
 Similar material can also be found in 
