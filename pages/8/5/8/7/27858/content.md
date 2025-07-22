@@ -4,7 +4,7 @@
 
 The following shows, for the symmorphic [[crystallographic groups|2D crystallographic groups]] ([[wallpaper groups]]) 
 $
-  \mathbb{Z}^2 \rtimes G \subset Iso(2)
+  G \ltimes \mathbb{Z}^2  \subset Iso(2)
 $,
 the [[G-CW complex|$G$-CW complex]] [[structure]] on the resulting [[tori]] $T^2 \coloneqq \mathbb{R}^2/\mathbb{Z}^2$ (graphics from [[schreiber:Crystalline Chern Phases|SS25]]).
 
