@@ -29,4 +29,12 @@ For instance: [[orthogonal group]], [[unitary group]].
 
 * [[matrix Lie algebra]]
 
+## References
+
+Textbook account:
+
+* [[Mark A. Armstrong]], chapter 9 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
+
+
 [[!redirects matrix groups]]
