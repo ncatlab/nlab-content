@@ -47,6 +47,10 @@ More on the history:
 
 * Richard L. Roth, *A History of Lagrange's Theorem on Groups*, Mathematics Magazine **74** 2 (2001) 99-108 ([doi:10.2307/2690624](https://doi.org/10.2307/2690624), [jstor:2690624](https://www.jstor.org/stable/2690624))
 
+Textbook account:
+
+* [[Mark A. Armstrong]], chapter 11 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
 See also:
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Lagrange%27s_theorem_(group_theory)">Lagrange's theorem (group theory)</a>*
