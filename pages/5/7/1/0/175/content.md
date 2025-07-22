@@ -46,6 +46,7 @@ The study of [[groups]].
 
 There are many generalizations and related structures; for example the vertical categorifications of groups like [[2-group]]s, horizontal categorifications as [[groupoids]], groups with structure, like [[topological group]]s, [[Lie group]]s, thus also [[Lie groupoids]], [[Lie infinity-groupoids]]; and noncommutative generalizations like [[quantum groups]]. Lie and algebraic group(oid)s have their infinitesimal precursors like formal groups, local Lie groups, tangent [[Lie algebras]], tangent [[Lie algebroids]] etc. In the smooth context the relation between Lie groupoids and Lie algebroids is the subject of [[Lie theory]]. 
 
+
 ## Literature
 
 Lecture notes:
@@ -56,15 +57,17 @@ Monographs:
 
 in general:
 
-* John S. Rose: *A Course on Group Theory*, Cambridge University Press (1978) &lbrack;[ISBN:9780521291422](https://www.cambridge.org/ae/universitypress/subjects/mathematics/algebra/course-group-theory?format=PB&isbn=9780521291422), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH784/Rose%20a-course-on-group-theory.pdf)&rbrack;
-
 * [[Marshall Hall]], *The Theory of Groups*, Macmillan (1959), AMS Chelsea (1976), Dover (2018) &lbrack;[ISBN:978-0-8218-1967-8](https://bookstore.ams.org/view?ProductCode=CHEL/288), [ISBN:9780486816906](https://store.doverpublications.com/products/9780486816906)&rbrack;
 
 * Israel Grossman, [[Wilhelm Magnus]]: *[[Groups and Their Graphs]]*, Random House (1964), reprinted by: Anneli Lax New Mathematical Library **14** MMA (1992) &lbrack;[jstor:10.4169/j.ctt19b9mc7](https://www.jstor.org/stable/10.4169/j.ctt19b9mc7)&rbrack;
 
+* John S. Rose: *A Course on Group Theory*, Cambridge University Press (1978) &lbrack;[ISBN:9780521291422](https://www.cambridge.org/ae/universitypress/subjects/mathematics/algebra/course-group-theory?format=PB&isbn=9780521291422), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH784/Rose%20a-course-on-group-theory.pdf)&rbrack;
+
+* [[Mark A. Armstrong]]: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
 * [[Joseph J. Rotman]], *An Introduction to the Theory of Groups*, Springer (1995) &lbrack;[doi:10.1007/978-1-4612-4176-8](https://doi.org/10.1007/978-1-4612-4176-8), [pdf](https://eclass.uoa.gr/modules/document/file.php/MATH676/Rotman%20An%20introduction%20to%20the%20theory%20of%20groups.pdf)&rbrack;
 
-in a more general context of [[algebra]]:
+in the context of [[algebra]]:
 
 * [[Anthony Knapp]], *Basic Algebra*, Springer (2006) &lbrack;[doi:10.1007/978-0-8176-4529-8](https://doi.org/10.1007/978-0-8176-4529-8), [pdf](https://www.math.mcgill.ca/darmon/courses/19-20/algebra2/knapp.pdf)&rbrack;
 
