@@ -1,8 +1,8 @@
 
-This entry compiles material related to the textbook
+This entry is to record the reference:
 
 
-* [[Tammo tom Dieck]], 
+* [[Tammo tom Dieck]]:
 
   \linebreak
 
@@ -10,20 +10,20 @@ This entry compiles material related to the textbook
 
   \linebreak
 
-  de Gruyter 1987 
+  de Gruyter (1987)
 
   [doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372)
 
 on [[transformation groups]]/[[topological G-spaces]], [[equivariant homotopy theory]] and [[equivariant cohomology]].
 
-Beware the existence of a book of similar title, by the same author and largely on the same subjects:
+Beware of the existence of a book of similar title, by the same author and largely on the same subjects:
 
-* [[Tammo tom Dieck]], _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
+* [[Tammo tom Dieck]]: _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics **766** Springer (1979) &lbrack;[doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965)&rbrack;
 
 See also:
 
-* {#Bredon72} [[Glen Bredon]], *[[Introduction to compact transformation groups]]*, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1)
-, [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+* {#Bredon72} [[Glen Bredon]]: *[[Introduction to compact transformation groups]]*, Academic Press  (1972) &lbrack;[ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1)
+, [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf)&rbrack;
 
 
 #Contents#
