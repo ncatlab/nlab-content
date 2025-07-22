@@ -46,8 +46,12 @@ Name after [[Augustin Cauchy]].
 
 * {#McKay}  James McKay, _Another proof of Cauchy's group theorem_, American Math. Monthly, 66 (1959), p. 119. 
  
-
 * {#Meo} M. Meo, _The mathematical life of Cauchy's group theorem_, Historia Mathematica Volume 31, Issue 2 (May 2004), 196&#8211;221. ([web](http://www.sciencedirect.com/science/article/pii/S031508600300003X)) 
+
+Textbook account:
+
+* [[Mark A. Armstrong]], chapter 13 of: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
   
 
 
