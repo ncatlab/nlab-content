@@ -299,7 +299,12 @@ For more see *[[counterexamples in algebra]]*.
 
 ## Literature
 
-For more see also the references at *[[group theory]]*.
+For more see the references at *[[group theory]]*.
+
+Textbook accounts:
+
+* [[Mark A. Armstrong]]: *Groups and Symmetry*, Undergraduate Texts in Mathematics, Springer (1988) &lbrack;[doi:10.1007/978-1-4757-4034-9](https://doi.org/10.1007/978-1-4757-4034-9), [pdf](https://superoles.wordpress.com/wp-content/uploads/2014/10/lluvia.pdf)&rbrack;
+
 
 The terminology "group" was introduced (for what today would more specifically be called *[[permutation groups]]*) in 
 
