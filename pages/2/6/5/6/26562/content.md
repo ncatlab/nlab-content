@@ -425,8 +425,12 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#KP24} Peter Kristel, Benedikt Peterseim, _A topologically enriched probability monad on the cartesian closed category of CGWH spaces_. ([arXiv](https://arxiv.org/abs/2404.08430))
 
-* {#Lawvere62} [[Bill Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
-([[lawvereprobability1962.pdf:file]])
+
+* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
+([[lawvereprobability1962.pdf:file]]).
+
+* {#Lawvere62b} The work above was posthumously reformatted as _The Category of Probabilistic Mappings
+With Applications to Stochastic Processes, Statistics, and Pattern Recognition_, by [[Tobias Fritz]] for the [[Lawvere Archives]], in 2025. It features Lawvere's abstract and commentary from 2020. ([pdf here](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf))
 
 * {#entropy_short} Tom Leinster, _A short characterization of relative entropy_, Journal of Mathematical Physics 60, 2019. ([arXiv](https://arxiv.org/abs/1712.04903))
 
