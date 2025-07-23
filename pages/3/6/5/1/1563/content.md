@@ -155,9 +155,11 @@ The following is a list of texts by Lawvere, equipped with brief comments and hy
 
 ### General
 
-* [[William Lawvere]]: *The category of probabilistic mappings* (1962) &lbrack;[[lawvereprobability1962.pdf:file]]&rbrack;
+* {#Lawvere62} [[William Lawvere]]: *The category of probabilistic mappings*, seminar handout with notes by [[Gian-Carlo Rota]] (1962) &lbrack;[[Lawvere-ProbMappings.pdf:file]]&rbrack;
 
-  posthumously reformatted as _The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition_, by [[Tobias Fritz]] for the [[Lawvere Archives]], in 2025. It features Lawvere's abstract and commentary from 2020. ([pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf))
+  posthumously retyped as: 
+
+  {#Lawvere62b} [[Tobias Fritz]] (ed.): *The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition*, including abstract and commentary added by Lawvere in 2020, [Lawvere Archive](https://lawverearchives.com) (2025) &lbrack;[pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf)&rbrack;
 
 * _[[Functorial Semantics of Algebraic Theories]]_ Originally published as: Ph.D. thesis, Columbia University (1963) and
 in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
