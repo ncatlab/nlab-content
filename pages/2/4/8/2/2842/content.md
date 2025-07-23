@@ -42,7 +42,7 @@ In fact, the notion of [[homotopy extension property]] makes sense in any [[cate
 \begin{definition}\label{HurewiczCofibration}
 **(Hurewicz cofibration)**
 \linebreak
-A map ([[continuous function]]) $i \colon A \xrightarrow{\;} X$ betwee [[topological spaces]] is a *Hurewicz cofibration* if it satisfies the [[homotopy extension property]] for all spaces, hence if
+A map ([[continuous function]]) $i \colon A \xrightarrow{\;} X$ between [[topological spaces]] is a *Hurewicz cofibration* if it satisfies the [[homotopy extension property]] for all spaces, hence if
 
 * for any map $f \colon X \longrightarrow Y$ and any [[left homotopy]] $\eta \,\colon\,  A \times [0,1] \longrightarrow Y$ such that $\eta(-,0) = f \circ i$, there exists a [[left homotopy]] $\widehat{\eta} \,\colon\,  X \times [0,1] \longrightarrow Y$ such that $\widehat{\eta} \circ (i \times id) = \eta$;
 
