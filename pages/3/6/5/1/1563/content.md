@@ -155,7 +155,11 @@ The following is a list of texts by Lawvere, equipped with brief comments and hy
 
 ### General
 
-* _[[Functorial Semantics of Algebraic Theories]]_ Originally published as: Ph.D. thesis, Columbia University, 1963 and
+* [[William Lawvere]]: *The category of probabilistic mappings* (1962) &lbrack;[[lawvereprobability1962.pdf:file]]&rbrack;
+
+  posthumously reformatted as _The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition_, by [[Tobias Fritz]] for the [[Lawvere Archives]], in 2025. It features Lawvere's abstract and commentary from 2020. ([pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf))
+
+* _[[Functorial Semantics of Algebraic Theories]]_ Originally published as: Ph.D. thesis, Columbia University (1963) and
 in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
 Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
