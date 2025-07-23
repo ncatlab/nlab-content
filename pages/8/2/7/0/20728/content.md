@@ -175,12 +175,11 @@ More on this at [[joint and marginal probability]].
 
 ## References
 
+* {#Lawvere62} [[William Lawvere]]: *The category of probabilistic mappings*, seminar handout with notes by [[Gian-Carlo Rota]] (1962) &lbrack;[[Lawvere-ProbMappings.pdf:file]]&rbrack;
 
-* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
-([[lawvereprobability1962.pdf:file]]).
+  posthumously retyped as: 
 
-* {#Lawvere62b} [Lawvere 1962](#Lawvere62) was posthumously reformatted as _The Category of Probabilistic Mappings
-With Applications to Stochastic Processes, Statistics, and Pattern Recognition_, by [[Tobias Fritz]] for the [[Lawvere Archives]], in 2025. It features Lawvere's abstract and commentary from 2020. ([pdf here](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf))
+  {#Lawvere62b} [[Tobias Fritz]] (ed.): *The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition*, including abstract and commentary added by Lawvere in 2020, [Lawvere Archive](https://lawverearchives.com) (2025) &lbrack;[pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf)&rbrack;
 
 * {#Giry80} Mich&#232;le Giry, _A categorical approach to probability theory_, Categorical aspects of topology and analysis (Ottawa, Ont., 1980), pp. 68&#8211;85, Lecture Notes in Math. **915** Springer 1982.
 
