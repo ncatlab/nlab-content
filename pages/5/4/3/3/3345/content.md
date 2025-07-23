@@ -128,7 +128,7 @@ A case of particular interest is the ordered cube category with a connection.
 Unlike the minimal cube category, this cube category is a [[strict test category]] ([Maltsiniotis 2009](#Maltsiniotis2009)), meaning its weak equivalences are closed under product.
 This is one motivation for using cubes with connections as opposed to the minimal cube category; see _[[connection on a cubical set]]_ for more details.
 
-[Buchholtz and Morehouse (2017)](#BuchholtzMorehouse) outline a class of cube categories and investigate which are test and/or strict test categories.
+[Buchholtz and Morehouse (2017)](#BuchholtzMorehouse2017) outline a class of cube categories and investigate which are test and/or strict test categories.
 
 ## Joyal-type model structures
 
