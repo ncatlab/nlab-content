@@ -2,7 +2,6 @@
 
 \linebreak
 
-
 ***
 
 [[equivariant cell structure on 2-tori -- section]]
