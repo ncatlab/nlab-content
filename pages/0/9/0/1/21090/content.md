@@ -2382,10 +2382,9 @@ Slides from talks:
 
 > (see *[History](#History)*)
 
-* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
-([[lawvereprobability1962.pdf:file]]).
+* {#Lawvere62} [[W. Lawvere]]: *The category of probabilistic mappings*, ms. 12 pages (1962) &lbrack;[[lawvereprobability1962.pdf:file]]&rbrack;
 
-* {#Lawvere62b} The work above was posthumously reformatted as _The Category of Probabilistic Mappings
+* {#Lawvere62b} [Lawvere 1962](#Lawvere62) was posthumously reformatted as _The Category of Probabilistic Mappings
 With Applications to Stochastic Processes, Statistics, and Pattern Recognition_, by [[Tobias Fritz]] for the [[Lawvere Archives]], in 2025. It features Lawvere's abstract and commentary from 2020. ([pdf here](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf))
 
 * {#Chentsov65} N. N. Chentsov, _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
