@@ -425,12 +425,11 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#KP24} Peter Kristel, Benedikt Peterseim, _A topologically enriched probability monad on the cartesian closed category of CGWH spaces_. ([arXiv](https://arxiv.org/abs/2404.08430))
 
+* {#Lawvere62} [[William Lawvere]]: *The category of probabilistic mappings*, seminar handout with notes by [[Gian-Carlo Rota]] (1962) &lbrack;[[Lawvere-ProbMappings.pdf:file]]&rbrack;
 
-* {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
-([[lawvereprobability1962.pdf:file]]).
+  posthumously retyped as: 
 
-* {#Lawvere62b} The work above was posthumously reformatted as _The Category of Probabilistic Mappings
-With Applications to Stochastic Processes, Statistics, and Pattern Recognition_, by [[Tobias Fritz]] for the [[Lawvere Archives]], in 2025. It features Lawvere's abstract and commentary from 2020. ([pdf here](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf))
+  {#Lawvere62b} [[Tobias Fritz]] (ed.): *The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition*, including abstract and commentary added by Lawvere in 2020, [Lawvere Archive](https://lawverearchives.com) (2025) &lbrack;[pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf)&rbrack;
 
 * {#entropy_short} Tom Leinster, _A short characterization of relative entropy_, Journal of Mathematical Physics 60, 2019. ([arXiv](https://arxiv.org/abs/1712.04903))
 
@@ -513,7 +512,6 @@ With Applications to Stochastic Processes, Statistics, and Pattern Recognition_,
 * {#filters_virgo} Nathaniel Virgo, _Unifilar Machines and the Adjoint Structure of Bayesian Filtering_, Proceedings of ACT, 2023. ([arXiv](https://arxiv.org/abs/2305.02826))
 
 * {#markov_causal} Yimu Yin, Jiji Zhang, _Markov categories, causal theories, and the do-calculus_, 2022. ([arXiv](https://arxiv.org/abs/2204.04821))
-
 
 
 
