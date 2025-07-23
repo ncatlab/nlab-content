@@ -349,7 +349,7 @@ $$
 
 in $Ho(Top)$.
 
-Since the [[formal group law]] for K-theory says that $\mu^\ast ( \mathcal{O}(1) ) \simeq pr_1^\ast (\mathcal{O}(1)) \otimes pr_2^\ast(\mathcal{O}(2))$ $\Phi$ is  a homomoprhism of ring spectra.
+Since the [[formal group law]] for K-theory says that $\mu^\ast ( \mathcal{O}(1) ) \simeq pr_1^\ast (\mathcal{O}(1)) \otimes pr_2^\ast(\mathcal{O}(2))$ $\Phi$ is  a homomorphism of ring spectra.
 
 Under the above splitting, the morphism $\Phi$ decomposes as
 
