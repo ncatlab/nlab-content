@@ -160,21 +160,18 @@ The following is a list of texts by Lawvere, equipped with brief comments and hy
   posthumously retyped as: 
 
   {#Lawvere62b} [[Tobias Fritz]] (ed.): *The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition*, including abstract and commentary added by Lawvere in 2020, [Lawvere Archive](https://lawverearchives.com) (2025) &lbrack;[pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf)&rbrack;
+  > (on [[category-theoretic approaches to probability theory]])
 
 * _[[Functorial Semantics of Algebraic Theories]]_ Originally published as: Ph.D. thesis, Columbia University (1963) and
 in Reports of the Midwest Category Seminar II, 1968, 41-61, Republished in:
 Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
-
-  (on [[algebraic theories]], now also called [[Lawvere theories]])
+  > (on [[algebraic theories]], now also called [[Lawvere theories]])
 
 * _An elementary theory of the category of sets_, 1964, Proceedings of the National Academy of Science of the U.S.A 52, 1506-1511. Expanded version with commentary by [[Colin McLarty]] and the author in:
 Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac](http://www.tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
-
   > (axiomatizing the category [[Set]] of sets; see at *[[ETCS]]*)
 
 *  _The Category of Categories as a Foundation for Mathematics_, pp. 1-20 in: [[Samuel Eilenberg|S. Eilenberg]], [[D. K. Harrison]], [[S. MacLane]], [[H. Röhrl]] (eds.): *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
-
-
    > (axiomatizing the [[2-category]] [[Cat]] of categories; see at *[[ETCC]]*)
 
 * _[[Categorical dynamics]]_, 1967 Chicago lectures ([pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
@@ -185,31 +182,25 @@ Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac]
 
 
 * {#AdjointnessInFoundations} _[[Adjointness in Foundations]]_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
-
-  (on the interpretation of [[quantifiers]] in [[categorical logic]] as [[base change]] [[adjoints]])
+  > (on the interpretation of [[quantifiers]] in [[categorical logic]] as [[base change]] [[adjoints]])
 
 * {#Lawvere69} [[William Lawvere]], _Diagonal Arguments and Cartesian Closed Categories_, Lecture Notes in Mathematics, **92** (1969) 134-145 &lbrack;[tac:15](http://tac.mta.ca/tac/reprints/articles/15/tr15abs.html)&rbrack;
-
-   (On deriving [[Gödel's incompleteness theorem]] etc. from [[Lawvere's fixed point theorem]])
+  > (On deriving [[Gödel's incompleteness theorem]] etc. from [[Lawvere's fixed point theorem]])
 
 * [[H. Applegate]], [[M. Barr]], [[J. Beck]], [[F. W. Lawvere]], [[F. E. J. Linton]], [[E. Manes]], [[M. Tierney]], [[F. Ulmer]]: _[[Seminar on Triples and Categorical Homology Theory]]_, ETH 1966/67, edited by [[Beno Eckmann]] and [[Myles Tierney]], **[[LNM 80]]**, Springer (1969), reprinted as: Reprints in Theory and Applications of Categories **18** (2008) 1-303 &lbrack;[TAC:18](http://www.tac.mta.ca/tac/reprints/articles/18/tr18abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)&rbrack;
-
-  (on [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
+  > (on [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
 )
 
 
 * *Quantifiers and sheaves*, Actes Congrès intern. Math. **1** (1970) 329-334 &lbrack;[pdf](https://raw.githubusercontent.com/mattearnshaw/lawvere/master/pdfs/1970-quantifiers-and-sheaves.pdf), [[Lawvere-QuantifiersAndSheaves.pdf:file]]&rbrack;
-
-    on [[geometric modalities]]/[[Lawvere-Tierney topology]] and [[universal quantifier|universal]]/[[existential quantifier|existential]] [[quantifiers]] related to [[dependent product]]/[[dependent sum]] further developed in:
+  > on [[geometric modalities]]/[[Lawvere-Tierney topology]] and [[universal quantifier|universal]]/[[existential quantifier|existential]] [[quantifiers]] related to [[dependent product]]/[[dependent sum]] further developed in:
 
 * _Equality in hyperdoctrines and comprehension schema as an adjoint functor_.  In A. Heller, ed., _Proc. New York Symp. on Applications of Categorical Algebra_, pp. 1--14.  AMS, 1970. ([[LawvereComprehension.pdf:file]])
-
-    (on [[comprehension]] in [[hyperdoctrines]])
+  > (on [[comprehension]] in [[hyperdoctrines]])
 
 
 * {#PerugiaNotes} _Teoria delle categorie sopra un topos di base_, lecture notes from Perugia (1972--73) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/1972-perugia-lecture-notes.pdf), [[LawverePerugia1972.pdf:file]]&rbrack;
-
-    (on basic category theory, the [[category of sets]] and [[elementary toposes]], and an approach to [[indexed categories]])
+  > (on basic category theory, the [[category of sets]] and [[elementary toposes]], and an approach to [[indexed categories]])
 
 * _Metric spaces, generalized logic and closed categories_ Reprints in Theory and Applications of Categories, No. 1 (2002) pp 1-37 ([tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html))
 
@@ -217,137 +208,107 @@ Reprints in Theory and Applications of Categories, No. 11 (2005) pp. 1-35 ([tac]
 
 * _Variable sets etendu and variable structure in topoi_ ,
 Lecture notes University of Chicago 1975.
-
-    (a review of topos theory: on structural sets, role of [[forcing]] and non-standard analysis and [[étendue]] toposes)
+  > (a review of topos theory: on structural sets, role of [[forcing]] and non-standard analysis and [[étendue]] toposes)
 
 * *Variable quantities and variable structures in topoi*, in [[Alex Heller]], [[Myles Tierney]] (eds.), *Algebra, Topology and Category Theory -- A Collection of Papers in Honor of [[Samuel Eilenberg]]*, Academic Press New York (1976) 101-131 &lbrack;[doi:10.1016/C2013-0-10841-0](https://doi.org/10.1016/C2013-0-10841-0)&rbrack;
-
-    (reviews toposes in [[algebraic geometry]], first attention to [[gros topos]])
+  > (reviews toposes in [[algebraic geometry]], first attention to [[gros topos]])
 
 * _Topos-theoretic methods in geometry_, Aarhus 1997
 
 * _Extensive and intensive quantities_ Workshop on Categorical Methods in Geometry, Aarhus 1983
-
-  (a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "[[extensive]] quantities" and [[cohomology]]-like "[[intensive]] quantities")
+  > (a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "[[extensive]] quantities" and [[cohomology]]-like "[[intensive]] quantities")
 
 * _State Categories, Closed Categories, and the Existence Semi-Continuous Entropy Functions_ , IMA reprint 86, 1984 ([pdf](https://conservancy.umn.edu/bitstream/handle/11299/4672/86s.pdf?sequence=1&isAllowed=y))
 
 * _Functional Remarks on the General Concept of Chaos_ , IMA reprint 87, 1984 ([pdf](http://www.ima.umn.edu/sites/default/files/87s.pdf))
-
-  (on a formalization of the concept of [[chaos]])
+  > (on a formalization of the concept of [[chaos]])
 
 * _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, Cah.top.g&#233;o.diff.cat, 21 nr.4, 1980, pp.377-392 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0))
-
-   (contains a section with some remarks on Lagrangian mechanics)
+  > (contains a section with some remarks on Lagrangian mechanics)
 
 * with [[Stephen Schanuel]], _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 1986
-
-  (on [[continuum mechanics]], [[variational calculus]] and [[laws of motion]] in [[synthetic differential geometry]] and in [[diffeological spaces]] and [[Frölicher spaces]], and on [[intensive and extensive]] properties in terms of [[ring objects]] and [[modules]] in a [[topos]].)
+  > (on [[continuum mechanics]], [[variational calculus]] and [[laws of motion]] in [[synthetic differential geometry]] and in [[diffeological spaces]] and [[Frölicher spaces]], and on [[intensive and extensive]] properties in terms of [[ring objects]] and [[modules]] in a [[topos]].)
 
 * {#TakingCategoriesSeriously} _Taking categories seriously_, Revista Colombiana de Matemáticas **XX** (1986) 147-178, Reprints in Theory and Applications of Categories, **8** (2005) 1-24. &lbrack;[tac:tr8](http://www.tac.mta.ca/tac/reprints/articles/8/tr8abs.html), [pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)&rbrack;
-
-  (on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
+  > (on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
 
 * *Categories of spaces may not be generalized spaces, as exemplified by directed graphs*, Revista Colombiana de Matemáticas **XX** (1986) 179-186, reprinted as: Reprints in Theory and Applications of Categories, **9** (2005) 1-7 &lbrack;[tac:tr9](http://www.tac.mta.ca/tac/reprints/articles/9/tr9abs.html)&rbrack;
-
-  (on the notion of [[gros topos|gros toposes]], details of his claims are worked out at [[sufficiently cohesive topos]])
+  > (on the notion of [[gros topos|gros toposes]], details of his claims are worked out at [[sufficiently cohesive topos]])
 
 * *Qualitative Distinctions between some Toposes of Generalized Graphs*, in *Categories in Computer Science and Logic*, Cont. Math. **92** (1989) 261-299 &lbrack;[doi:10.1090/conm/092](http://dx.doi.org/10.1090/conm/092), [pdf](https://github.com/mattearnshaw/lawvere/raw/master/pdfs/1989-qualitative-distinctions-between-some-toposes-of-generalized-graphs.pdf)&rbrack;
-
-     (Uses toposes of graphs to introduce his ideas on petit/gros toposes)
+  > (uses toposes of graphs to introduce his ideas on petit/gros toposes)
 
 * _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_, Proceedings of the first international Conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City pp. 51-74 
-
-  (on [[Aufhebung]], [[graphic category|graphic categories]], the [[Hegelian taco]]; the most explicit text with Lawvere's ideas on [[Hegel]])
+  > (on [[Aufhebung]], [[graphic category|graphic categories]], the [[Hegelian taco]]; the most explicit text with Lawvere's ideas on [[Hegel]])
 
 * _More on graphic toposes_, Cah. Top. G&#233;om. Diff. Cat. **XXXII** no. 1 (1991) pp.5-10. ([Numdam](http://www.numdam.org/item?id=CTGDC_1991__32_1_5_0))
-
-  (on [[graphic category|graphic categories]] and their presheaf categories)
+  > (on [[graphic category|graphic categories]] and their presheaf categories)
 
 * (with [[Max Kelly]]) *On the complete lattice of essential localizations*, Bull. Soc. Math. Belgique **41** (1989) 289–319 &lbrack;[[Kelly-Lawvere_EssentialLocalizations.pdf:file]]&rbrack;
-
   > (on [[essential localizations]])
 
 
 * _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini (eds.), _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], LNM **1488** Springer Heidelberg 1991.
-
-  (on -- implicitly -- [[cohesive topos|cohesive toposes]]);
+  > (on -- implicitly -- [[cohesive topos|cohesive toposes]]);
 
 * with [[Stephen Schanuel]], _Conceptual Mathematics - A first  introduction to categories_ , Cambridge UP 1997.
-
-  (first steps into category theory; the Spanish translation is available [here](http://www.acsu.buffalo.edu/~wlawvere/concep-3.pdf))
+  > (first steps into category theory; the Spanish translation is available [here](http://www.acsu.buffalo.edu/~wlawvere/concep-3.pdf))
 
 * {#Lawvere92} _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
-
-  (on [[space and quantity]] and on formalizing concepts from [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]])
+  > (on [[space and quantity]] and on formalizing concepts from [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]])
 
 * {#IntroductionToLinearCategories} [[William Lawvere]], *Introduction to Linear Categories and Applications*, course lecture notes (1992) &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/192dac273e8bf352f307f87b9ec4fe8ef7dc85b9/pdfs/1992-introduction-to-linear-categories-and-applications.pdf), [[Lawvere-LinearCategories.pdf:file]]&rbrack;
-
-  (on [[additive categories]])
-
+  > (on [[additive categories]])
  
 * _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_ Philosophia Mathematica (3) Vol. 2 (1994), pp. 5-15. ([[LawvereCohesiveToposes.pdf:file]])
-  
-  (an early version of the notion of [[cohesive topos|cohesive toposes]])
+  > (an early version of the notion of [[cohesive topos|cohesive toposes]])
 
 * {#Lawvere94b} _[[Tools for the advancement of objective logic]]: closed categories and toposes_, in J. Macnamara and [[Gonzalo Reyes]] (Eds.), _The Logical Foundations of Cognition_, Oxford University Press 1993 (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"),
 pages 43-56, 1994.
-
-  (on formalizing [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]].) 
+  > (on formalizing [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]].) 
 
 * {#Lawvere95} _A new branch of mathematics, "The Ausdehnungslehre of 1844," and other works. Open Court (1995), Translated by Lloyd C. Kannenberg, with foreword by Albert C. Lewis_, _Historia Mathematica Volume 32, Issue 1, February 2005, Pages 99&#8211;106_ ([publisher](http://www.sciencedirect.com/science/article/pii/S031508600400059X))
-
-  (on [[Hermann Grassmann]]'s _[[Ausdehnungslehre]]_ and hence also on _[[extensive and intensive quantity]]_)
+  > (on [[Hermann Grassmann]]'s _[[Ausdehnungslehre]]_ and hence also on _[[extensive and intensive quantity]]_)
 
 * _Grassmann's Dialectics and Category Theory_, in _Hermann G&#252;nther Gra&#223;mann (1809&#8211;1877): Visionary Mathematician, Scientist and Neohumanist Scholar_, Boston Studies in the Philosophy of Science Volume 187, 1996, pp 255-264 ([publisher](http://link.springer.com/chapter/10.1007%2F978-94-015-8753-2_21))
 
 * _Volterra's functionals and covariant cohesion of space_ Perugia Studies in Mathematics (Proceedings of the May 1997 Meeting in Perugia) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/Volterra.pdf))
-
-  (with first remarks on [[cohesive topos|cohesion]])
+  > (with first remarks on [[cohesive topos|cohesion]])
 
 * _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([pdf](http://www.acsu.buffalo.edu/~wlawvere/ToposMotion.pdf))
-
-  (on the description of [[differential equations]] in terms of [[synthetic differential geometry]] and the notion of _[[toposes of laws of motion]]_)
+  > (on the description of [[differential equations]] in terms of [[synthetic differential geometry]] and the notion of _[[toposes of laws of motion]]_)
 
 * _Outline of synthetic differential geometry_ , seminar notes (1998) ([pdf](http://www.acsu.buffalo.edu/~wlawvere/SDG_Outline.pdf))
-
-  (the origin of the concept of [[synthetic differential geometry]])
+  > (the origin of the concept of [[synthetic differential geometry]])
 
 * _Kinship and Mathematical Categories_ , pp.411-425 in Jackendoff, Bloom, Wynn (eds.), _Language, Logic, and Concepts_ , MIT Press Cambridge 1999.
-
-   (Lawvere's venture into anthropology; a summary is at [[kinship]]) 
+  > (Lawvere's venture into anthropology; a summary is at [[kinship]]) 
 
 * _[[Comments on the development of topos theory]]_ , pp.715-734 in Jean-Paul Pier (ed.), _Development of mathematics 1950-2000_, Birkh&#228;user Basel 2000.
-
-     (review of the history of topos theory)
+  > (review of the history of topos theory)
 
 * _Linearization of graphic toposes via Coxeter groups_,  JPAA **168** (2002) pp. 425-436. ([pdf](http://www.sciencedirect.com/science/article/pii/S0022404901001074/pdfft?md5=a4ca9bc67df6ae63ddf53c559bd71315&pid=1-s2.0-S0022404901001074-main.pdf))
 
 * _Categorical algebra for continuum micro physics_,  JPAA **175** (2002) pp. 267-287.  ([pdf](http://www.sciencedirect.com/science/article/pii/S002240490200138X/pdfft?md5=ebd435105778d597f25141bf065978e3&pid=1-s2.0-S002240490200138X-main.pdf))
 
 *  _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224. ([ps-preprint](https://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
-
-   (a review of (not only set-theoretic) foundations in mathematics)
+  > (review of (not only set-theoretic) foundations in mathematics)
 
 * {#LawvereRosebrugh} with [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
-
-  (on [[set theory]] from a practical [[category theory|theoretic]] point of view (informal [[ETCS]]))
+  > (on [[set theory]] from a practical [[category theory|theoretic]] point of view (informal [[ETCS]]))
 
 * _Axiomatic cohesion_, Theory and Applications of Categories **19** 3 (2007) 41-49 &lbrack;[tac:19-03](http://www.tac.mta.ca/tac/volumes/19/3/19-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf)&rbrack;
-
-  (a more formal definition of [[cohesive topos|cohesive toposes]], [[sufficiently cohesive topos]] works out details of his claims concerning 'sufficient cohesion')  
+  > (a more formal definition of [[cohesive topos|cohesive toposes]], [[sufficiently cohesive topos]] works out details of his claims concerning 'sufficient cohesion')  
 
 * _[[Cohesive Toposes -- Combinatorial and Infinitesimal Cases]]_ , lecture in Como (2008)  
-
-  (on [[cohesive topos|cohesive toposes]])
+  > (on [[cohesive topos|cohesive toposes]])
 
 * _The Dialectic of the Continuous and the Discrete in the history of the struggle for a usable guide to mathematical thought_, talk at _Sets Within Geometry_, Nancy, France 26-29 July 2011 ([recording](https://www.youtube.com/watch?v=OE-R3565jrs))
 
 * _What are Foundations of Geometry and Algebra_, Keynote lecture at the _[Fifty Years of Functorial Semantics](http://www.math.union.edu/~niefiels/13conference/Web/)_ conference, Union College, October 2013 ([recording](https://www.youtube.com/watch?v=ZYGyEPXu8as))
 
 *  _Alexander Grothendieck and the Concept of Space_, address CT15 Aveiro 2016. ([link](http://www.acsu.buffalo.edu/~wlawvere/GrothendiekAveiro15.htm))
-
-   (a talk given at CT15 reviewing 50 years of developments since the 1965 La Jolla conference)
+  > (a talk given at CT15 reviewing 50 years of developments since the 1965 La Jolla conference)
 
 * {#Lawvere21} _Toposes generated by codiscrete objects in combinatorial topology and functional analysis_, Reprints in Theory and Applications of Categories, No. 27 (2021) pp. 1-11, [pdf](http://tac.mta.ca/tac/reprints/articles/27/tr27abs.html). 
 
