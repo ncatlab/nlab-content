@@ -2,6 +2,7 @@
 ### Equivariant cell structure on 2-tori
  {#EquivariantCellStructureOf2Tori}
 
+
 The following shows, for the symmorphic [[crystallographic groups|2D crystallographic groups]] ([[wallpaper groups]]) 
 $
   G \ltimes \mathbb{Z}^2  \subset Iso(2)
@@ -53,7 +54,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[dihedral group|$Dih_1$]] $\simeq$ [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which [[reflection at a hyperplane|reflects]] along the coordinate diagonal, corresponding to the $c m$ [[wallpaper group]]:
 
 \begin{imagefromfile}
-    "file_name": "pmTorusCellStructure-20250722.png",
+    "file_name": "cmTorusCellStructure-20250722.png",
     "width": 470,
     "unit": "px",
     "margin": {
