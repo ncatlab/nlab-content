@@ -47,6 +47,11 @@ Then the **conservative cocompletion** (with $\Phi$ unspecified) is the $\Phi$-c
 
 - The category of finite [[semilattices]] is the conservative cocompletion of the category of [[finite sets]] and [[relations]] under finite colimits (and also its [[free cocompletion]] under [[reflexive coequalisers]]) ([AMMU14](#AMMU14)).
 - The category [[Pos]] of [[partial orders]] is the free conservative cocompletion of the category of [[total orders]] ([Tataru24](#Tataru24)).
+
+* A small category $C$ with a class of limit cones $\Phi$ is also called a 'realized limit [[sketch]]'. Then the category of models of the sketch is the $\Phi^op$-conservative cocompletion of $C^op$. 
+
+* A [[locally finitely presentable category]] is the $\Phi$-conservative cocompletion of its full subcategory of compact objects, where $\Phi$ is the class of finite colimits. More generally a [[locally presentable category|locally $\kappa$-presentable category]] is the $\Phi$-conservative cocompletion of its full subcategory of $\kappa$-compact objects, where $\Phi$ is the class of $\kappa$-small colimits.
+
 - Let $L$ be a [[Lawvere theory]], and let $\Phi$ be the class of finite [[coproducts]] in $L^{op}$ (equivalently, finite copowers). Then the $\Phi$-conservative cocompletion of $L^{op}$ is the category of $L$-algebras. For example, the $\Phi$-conservative cocompletion of [[FinStoch]] is the category of [[convex space|abstract convex sets]], and the $\Phi$-conservative cocompletion of [[FinRel]] is the category of join [[semilattices]]. In both convex sets and semilattices, the cartesian product gives a symmetric monoidal structure, since they are [[commutative algebraic theories]], and this gives rise by the Yoneda embedding to the symmetric monoidal closed structure on the categories of $L$-algebras. 
 
 * Since categories of algebras are typically not cartesian closed, the previous point illustrates that $Cont_\Phi(C^op,Set)$ is not cartesian closed in general (e.g. [[monoids]], [[groups]], [[convex sets]], [[rings]], [[vector spaces]]).
