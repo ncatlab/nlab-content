@@ -2274,7 +2274,8 @@ For example, [[BorelStoch]] has all conditionals, and $ProbStoch(BorelStoch)$ is
 
 In the history of Markov categories, and of [[categorical probability]] in general, it happened very often that a number of independent researchers developed similar ideas unaware of each other's work.
 
-The first study of a category of [[Markov kernels]] (here called [[Stoch]]) seems to be due to [[Lawvere]], and recorded in unpublished notes ([Lawvere'62](#Lawvere62), see also the explanation by Lawvere himself in [this video](https://www.youtube.com/watch?v=BhKaHAY8Ec8&t=3621s), time 1:00:21.)
+The first study of a category of [[Markov kernels]] (here called [[Stoch]]) seems to be due to [[Lawvere]], and recorded in unpublished notes ([Lawvere'62](#Lawvere62), see also the explanation by Lawvere himself in [this video](https://www.youtube.com/watch?v=BhKaHAY8Ec8&t=3621s), time 1:00:21.), as well as the version on the [[Lawvere Archives]], also commented by the author himself ([Lawvere'62b](#Lawvere62b)).
+
 The same category was studied independently by Chentsov ([Chentsov'65](#Chentsov65)), who wrote in Russian. It is likely that Lawvere and Chentsov remained unaware of each other's work for several decades. 
 
 
@@ -2382,7 +2383,10 @@ Slides from talks:
 > (see *[History](#History)*)
 
 * {#Lawvere62} [[W. Lawvere]], _The category of probabilistic mappings_, ms. 12 pages, 1962 
-([[lawvereprobability1962.pdf:file]])
+([[lawvereprobability1962.pdf:file]]).
+
+* {#Lawvere62b} The work above was posthumously reformatted as _The Category of Probabilistic Mappings
+With Applications to Stochastic Processes, Statistics, and Pattern Recognition_, by [[Tobias Fritz]] for the [[Lawvere Archives]], in 2025. It features Lawvere's abstract and commentary from 2020. ([pdf here](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf))
 
 * {#Chentsov65} N. N. Chentsov, _The categories of mathematical statistics_, Dokl. Akad. SSSR 164, 1965.
 
