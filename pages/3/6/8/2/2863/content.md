@@ -54,8 +54,12 @@ See also:
 
 * *SHIFTED: Stratified Homotopy Invariants, Field Theories, Exodromy, and Duality* ([github](https://shifted-project.github.io/))
 
+On [[factorization algebras]]:
 
-## Related $n$Lab entries 
+* [[Clark Barwick]], _Factorization algebras in quite a lot of generality_ (2025) &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/facts.pdf)&rbrack;
+
+
+## Related entries 
 
 * [[Bousfield localization]]
 
