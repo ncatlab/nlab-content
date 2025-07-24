@@ -15,7 +15,13 @@ On [[super anti de Sitter spacetime]]:
 
 * {#KTM22} [[Sergei Kuzenko]], Gabriele Tartaglino-Mazzucchelli: *Supertwistor realisations of AdS superspaces*, The European Physical Journal C **82** 2 (2022) 146 &lbrack;[doi:10.1140/epjc/s10052-022-10072-y](https://doi.org/10.1140/epjc/s10052-022-10072-y), [arXiv:2108.03907](https://arxiv.org/abs/2108.03907)&rbrack;
 
-* Nowar E. Koning, [[Sergei M. Kuzenko]], Emmanouil S. N. Raptakis: *The anti-de Sitter supergeometry revisited* &lbrack;[arXiv:2412.03172](https://arxiv.org/abs/2412.03172)&rbrack;
+Specifically on $AdS^{5 \vert 8 \mathcal{N}}$:
+
+* Nowar E. Koning, [[Sergei M. Kuzenko]]: *Embedding formalism for AdS superspaces in five dimensions*,  J. High Energ. Phys. **2025** 16 (2025) &lbrack;[arXiv:2406.10875](https://arxiv.org/abs/2406.10875), <a href="https://doi.org/10.1007/JHEP06(2025)016">doi:10.1007/JHEP06(2025)016</a>&rbrack;
+
+Specifically on $AdS^{4 \vert 4 \mathcal{N}}$:
+
+* Nowar E. Koning, [[Sergei M. Kuzenko]], Emmanouil S. N. Raptakis: *The anti-de Sitter supergeometry revisited*,  J. High Energ. Phys. **2025** 175 (2025).  &lbrack;[arXiv:2412.03172](https://arxiv.org/abs/2412.03172), <a href="https://doi.org/10.1007/JHEP02(2025)175">doi:10.1007/JHEP02(2025)175</a>&rbrack;
 
 
 
