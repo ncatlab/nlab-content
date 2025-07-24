@@ -9,7 +9,12 @@
 
 ## Selected writings
 
-Explicit computation of [[quantum adiabatic theorem|adiabatic]] [[braiding]] of pinned [[anyons]] in the [[Moore-Read state]]:
+Quantization of higher Chern numbers in the presence of strong disorder; K-Theoretic formulation of bulk-boundary correspondence; Proof of absence of Anderson localization of edge modes:
+
+[[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators*, Springer 2016 
+&lbrack;[doi.org/10.1007/978-3-319-29351-6](https://doi.org/10.1007/978-3-319-29351-6)&rbrack;
+
+Explicit computation of [[quantum adiabatic theorem|adiabatic]] [[braiding]] of pinned [[anyons]] in the [[Moore-Read state]]
 
 * {#ProdanHaldan09} [[Emil Prodan]], [[F. Duncan Haldane]]: *Mapping the braiding properties of the Moore-Read state*, Phys. Rev. B **80** (2009) 115121 &lbrack;[doi:10.1103/PhysRevB.80.115121](https://doi.org/10.1103/PhysRevB.80.115121)&rbrack;
 
