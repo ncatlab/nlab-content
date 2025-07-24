@@ -3,15 +3,17 @@
 
 ## Selected writings
 
-On [Lawvere's first problem in topos theory](William+Lawvere#FirstProblemInToposTheory), the existence of a [[proper class]] of quotient toposes of a [[Grothendieck topos]] (with 'quotient maps' defined to be '[[connected topos#connected_geometric_morphism|connected]] [[geometric morphism#surjections_and_embeddings|surjective geometric morphisms]]'):
+On the first of [[William Lawvere]]'s *[[Open problems in topos theory]]*, the existence of a [[proper class]] of quotient toposes of a [[Grothendieck topos]] (with 'quotient maps' defined to be '[[connected topos#connected_geometric_morphism|connected]] [[geometric morphism#surjections_and_embeddings|surjective geometric morphisms]]'):
 
 Solution for the case of [[Boolean toposes]]:
 
-* [[Ryuya Hora]]: *Internal Parameterization of Hyperconnected Quotients* &lbrack;[arXiv:2302.06851](https://arxiv.org/abs/2302.06851)&rbrack;
+* {#Hora23} [[Ryuya Hora]]: *Internal Parameterization of Hyperconnected Quotients* &lbrack;[arXiv:2302.06851](https://arxiv.org/abs/2302.06851)&rbrack;
+
+  talk at *[[Category Theory conference]]* (July 2023) &lbrack;[pdf](https://sites.uclouvain.be/ct2023/supports/4_THURSDAY/Hora.pdf), [video](https://www.youtube.com/watch?v=lVvTIe-lHXw)&rbrack;
 
 A special example in the non-Boolean case:
 
-* [[Ryuya Hora]], Yuhi Kamio: _Quotient toposes of discrete dynamical systems_ &lbrack;[arXiv:2310.02647](https://arxiv.org/abs/2310.02647)&rbrack;
+* {#HoraKamio23} [[Ryuya Hora]], Yuhi Kamio: *Quotient toposes of discrete dynamical systems*, Journal of Pure and Applied Algebra **228** 8 (2024) 107657 &lbrack;[doi;10.1016/j.jpaa.2024.107657](https://doi.org/10.1016/j.jpaa.2024.107657), [arXiv:2310.02647](https://arxiv.org/abs/2310.02647)&rbrack;
 
 Full solution:
 
