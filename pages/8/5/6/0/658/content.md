@@ -41,6 +41,20 @@ A profunctor is also sometimes called a **[[bimodule|(bi)module]]** or a **distr
 
 Note that the convention that a profunctor is a functor $D^{op}\times C \to Set$ is not universal; some authors reverse $C$ and $D$ and/or put the "op" on the other one.  See the discussion below.
 
+### Profunctors and product categories
+
+Consider a profunctor $F \colon C \times D $&#8696;$ E$. By definition, this is encoded in an ordinary functor $H_F \colon E^{op} \times (C \times D) \to Set$. But since the categorical product is commutative and associative (up to isomorphism), we may equivalently view this as a functor $(E \times D^{op})^{op} \times C \to Set$; here we use the self-adjointness of the [[opposite category]] construction to replace $E^{op} \times D$ with $(E \times D^{op})^{op}$.
+
+In other words, there is a natural correspondence between profunctors $C \times D $&#8696;$ E$ and profunctors $C $&#8696;$ D^{op} \times E$ - compare the analogous result for finite-dimensional vector spaces, where there is a natural correspondence between linear maps $V \otimes W \to Z$ and linear maps $V \to W^* \otimes Z$.
+
+In particular, using the isomorphism $X \cong X \times 1$, where $1$ is the terminal category and $X$ is any category, any profunctor $F \colon C $&#8696;$ D$ naturally induces 3 others:
+
+* $F_! \colon C \times D^{op} $&#8696;$ 1$.
+
+* $F^! \colon 1 $&#8696;$ C^{op} \times D$.
+
+* $F^{op} \colon D^{op} $&#8696;$ C^{op}$.
+
 
 ## The bicategory of profunctors
 
