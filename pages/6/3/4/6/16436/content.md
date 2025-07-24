@@ -101,9 +101,13 @@ Specifically for the [[superstring]] on super-$AdS_5 \times S^5$:
 
 * [[Igor A. Bandos]]: *Superembedding approach to superstring in $AdS_5 \times S^5$ superspace*, in: *Fundamental Interactions* (2009) 303-334 &lbrack;[arXiv:0812.0257](https://arxiv.org/abs/0812.0257), [doi:10.1142/9789814277839_0018](https://doi.org/10.1142/9789814277839_0018)&rbrack;
 
-Specifically for $AdS^{4\vert 4 \mathcal{N}}$:
+Specifically for $AdS^{5 \vert 8 \mathcal{N}}$:
 
-* Nowar E. Koning, [[Sergei M. Kuzenko]], Emmanouil S. N. Raptakis: *The anti-de Sitter supergeometry revisited* &lbrack;[arXiv:2412.03172](https://arxiv.org/abs/2412.03172)&rbrack;
+* Nowar E. Koning, [[Sergei M. Kuzenko]]: *Embedding formalism for AdS superspaces in five dimensions*,  J. High Energ. Phys. **2025** 16 (2025) &lbrack;[arXiv:2406.10875](https://arxiv.org/abs/2406.10875), <a href="https://doi.org/10.1007/JHEP06(2025)016">doi:10.1007/JHEP06(2025)016</a>&rbrack;
+
+Specifically for $AdS^{4 \vert 4 \mathcal{N}}$:
+
+* Nowar E. Koning, [[Sergei M. Kuzenko]], Emmanouil S. N. Raptakis: *The anti-de Sitter supergeometry revisited*,  J. High Energ. Phys. **2025** 175 (2025).  &lbrack;[arXiv:2412.03172](https://arxiv.org/abs/2412.03172), <a href="https://doi.org/10.1007/JHEP02(2025)175">doi:10.1007/JHEP02(2025)175</a>&rbrack;
 
 
 
