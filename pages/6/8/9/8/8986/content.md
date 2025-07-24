@@ -18,7 +18,6 @@
 ## Idea
 
 An [[endofunctor]] on a [[category]] $\mathcal{A}$ is _pointed_ if it is equipped with a [[natural transformation]] from the [[identity functor]].
-from
 
 
 ## Definition
