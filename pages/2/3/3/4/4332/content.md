@@ -86,7 +86,7 @@ A famous example of this in [[string theory]] comes from the case where $\hat G 
 
 We list examples of local gauge groups and [[∞-groups]] for various higher [[gauge theories]].
 
-* the gauge group of $G$-[[Yang-Mills theory]] is the given [[Lie group]] $G$; for the Yang-Mills theory appearing in the [[standard model of particle physics]] this is the [[unitary group]] $U(3) \times SU(2) \times U(1)$;
+* the gauge group of $G$-[[Yang-Mills theory]] is the given [[Lie group]] $G$; for the Yang-Mills theory appearing in the [[standard model of particle physics]] this is the [[unitary group]] $SU(3) \times SU(2) \times U(1)$;
 
 * the local gauge group of [[gravity]] on a [[manifold]] $X$ is the [[Poincare group]];
 
