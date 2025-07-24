@@ -54,11 +54,11 @@ The syntactic effects of the [[co-Heyting boundary|boundary operator]] $\partial
 To calculate the [[Aufhebung]] of the [[adjoint triple|opposition]] between [[simplicial skeleton|skeleta]] and [[simplicial coskeleton|coskeleta]] in the category of [[symmetric simplicial sets]] (the [[category of presheaves]] on the category of [[inhabited set|non-empty]] [[finite sets]]).
 
 
-The solution by [Hora 2025](#Hora25) as well as the remarks concerning [[cyclic sets]] by [Kennett, Riehl, Roy & Zaks 2011](#KRRZ11) suggests the following revised problem 4':
+The solution by [Hora & Maehara 2025](#Hora25) as well as the remarks concerning [[cyclic sets]] by [Kennett, Riehl, Roy & Zaks 2011](#KRRZ11) suggests the following revised problem 4':
 
 Is the [[Aufhebung|Aufhebungs]] relation of [[skew-simplicial set|skew-simplicial sets]] more generally identical to the relation for [[SSet]]?
 
-Or even to consider this question for [[crossed group|crossed groups]] relative to [[Eilenberg-Zilber category|Eilenberg-Zilber categories]] or [[generalized Reedy category|generalied Reedy categories]].
+Or even to consider this question for [[crossed group|crossed groups]] relative to [[Eilenberg-Zilber category|Eilenberg-Zilber categories]] or [[generalized Reedy category|generalized Reedy categories]].
 
 #### Seventh problem
  {#SeventhProblemInToposTheory}
