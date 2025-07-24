@@ -24,17 +24,17 @@
 ## Idea
  {#Idea}
 
-In [[category theory]], the notion of *[[monad]]* (earlier: "*standard construction*" or "*triple*") is a kind of [[categorification]] of that of *[[monoid]]*: In their default incarnation monads are [[endofunctors]] on some [[category]] which are equipped with a [[unitality|unital]] [[associativity|associative]] [[binary operation]] under [[composition]]. More generally this notion makes sense for [[endomorphism|endo-]] [[1-morphisms]] on any [[object]] in any [[2-category]] beyond [[Cat]]: Monads are [[monoid objects]] [[internalization|internal to]] [[endofunctor|endo]]-[[hom-categories]].
+In [[category theory]], the notion of a *[[monad]]* (earlier: "*standard construction*" or "*triple*") is a kind of [[categorification]] of that of a *[[monoid]]*: In their default incarnation, monads are [[endofunctors]] on some [[category]] which are equipped with a [[unitality|unital]] [[associativity|associative]] [[binary operation]] under [[composition]]. More generally, this notion makes sense for [[endomorphism|endo-]] [[1-morphisms]] on any [[object]] in any [[2-category]] beyond [[Cat]]: Monads are [[monoid objects]] [[internalization|internal to]] [[endofunctor|endo]]-[[hom-categories]].
 
-Together with the [[adjunctions]] ([[adjoint functors]]) that they correspond to (see [below](#RelationBetweenAdjunctionsAndMonads)) monads are among the most pervasive structures in [[category theory]] (where they form the basis of [[categorical algebra|categorical]] and [[universal algebra]], whence one speaks of *[[algebras over a monad]]*) and in [[mathematics]] more generally (certainly in fields like [[algebraic topology]], [[sheaf and topos theory]] and [[homological algebra]], where the notion originates in the guise of "[[canonical resolutions]]").
+Together with the [[adjunctions]] ([[adjoint functors]]) that they correspond to (see [below](#RelationBetweenAdjunctionsAndMonads)), monads are among the most pervasive structures in [[category theory]] (where they form the basis of [[categorical algebra|categorical]] and [[universal algebra]], whence one speaks of *[[algebras over a monad]]*) and in [[mathematics]] more generally (certainly in fields like [[algebraic topology]], [[sheaf and topos theory]] and [[homological algebra]], where the notion originates in the guise of "[[canonical resolutions]]").
 
-Last not least, monads play a central role in [[formal logic]] (cf. [[modal logic]] and [[modal type theory]]) and in [[computer science]], where they are understood (cf. the "[[computational trilogy]]") as encoding "notions of computation" with "computational effects" in the framework of [[functional programming]]: see at *[[monad (computer science)|monads in computer science]]*.
+Last but not least, monads play a central role in [[formal logic]] (cf. [[modal logic]] and [[modal type theory]]) and in [[computer science]], where they are understood (cf. the "[[computational trilogy]]") as encoding "notions of computation" with "computational effects" in the framework of [[functional programming]]: see at *[[monad (computer science)|monads in computer science]]*.
 
 
 ## Etymology
  {#Etymology}
 
-The terminology "monad" was introduced in [Bénabou 1967, Def. 5.4.1](#Bénabou67), where, after observing (Exp. 5.4.1) that monads in 1-object 2-categories ([deloopings of](delooping#DeloopingOfHigherCategoricalStructures) [[monoidal categories]]) are *[[monoids]]*:
+The term "monad" was introduced in [Bénabou 1967, Def. 5.4.1](#Bénabou67), where, after observing (Exp. 5.4.1) that monads in 1-object 2-categories ([deloopings of](delooping#DeloopingOfHigherCategoricalStructures) [[monoidal categories]]) are *[[monoids]]*:
 
 \begin{imagefromfile}
     "file_name": "Benabou-MonoidsAsMonads.jpg",
@@ -103,7 +103,7 @@ $$
   \Big\}
   \,.
 $$
-In this sense, monads are *[[global element|point-like elements]]* in a [[2-category theory|2-category theoretic]] sense (say in the [[2-topos]] [[Cat]]), which squares well with [Euclid's ancient notion of monads](monad+terminology#HistoricalOrigins) as indivisible building blocks. In fact, as discussed there,  "monad" (both in ancient and still in modern Greek) just means "unit" in the sense of the unit [[natural number]] $1$, and [Bénabou 1967, Def. 5.4.1](#Bénabou67) literally identifies monads with the (lax) units $1 \to \underline{S}$ in the ambient 2-category.
+In this sense, monads are *[[global element|point-like elements]]* in a [[2-category theory|2-category theoretic]] sense (say in the [[2-topos]] [[Cat]]), which squares well with [Euclid's ancient notion of monads](monad+terminology#HistoricalOrigins) as indivisible building blocks. In fact, as discussed there, "monad" (both in ancient and still in modern Greek) just means "unit" in the sense of the unit [[natural number]] $1$, and [Bénabou 1967, Def. 5.4.1](#Bénabou67) literally identifies monads with the (lax) units $1 \to \underline{S}$ in the ambient 2-category.
 
 In generalization of this situation, one may consider lax functors out of [[codiscrete groupoids]] $CoDisc(1^{\sqcup_n})$ on $n$ objects, which [Bénabou 1967, Def. 5.5](#Bénabou67) calls *polyads*:
 $$
@@ -120,9 +120,9 @@ $$
 $$
 
 
-On the other hand (as maybe alluded to in the first line of [Barr 2009](#Barr09)), just a few years earlier the ancient [[monad terminology]] had already been adopted in [[nonstandard analysis]] as the term for *[[infinitesimal neighbourhoods]]* ([Robinson 1966, p. 57](infinitesimal+neighborhood#Robinson66) and [Luxembourg 1966](#infinitesimal+neighborhood#Luxemburg66), compare also [Keisler 1976, Def. 1.2](infinitesimal+neighborhood#Keisler76), [Kutateladze 2011](infinitesimal+neighborhood#Kutateladze11) and, speaking [[synthetic differential geometry|synthetically]]: [Kock 1980](infinitesimal+neighborhood#Kock80)).
+On the other hand (as maybe alluded to in the first line of [Barr 2009](#Barr09)), just a few years earlier, the ancient [[monad terminology]] had already been adopted in [[nonstandard analysis]] as the term for *[[infinitesimal neighbourhoods]]* ([Robinson 1966, p. 57](infinitesimal+neighborhood#Robinson66) and [Luxembourg 1966](#infinitesimal+neighborhood#Luxemburg66), compare also [Keisler 1976, Def. 1.2](infinitesimal+neighborhood#Keisler76), [Kutateladze 2011](infinitesimal+neighborhood#Kutateladze11) and, speaking [[synthetic differential geometry|synthetically]]: [Kock 1980](infinitesimal+neighborhood#Kock80)).
 
-Now it so happens --- in the [[topos theory|topos theoretic]] formulation of [[infinitesimals]] via [[differential cohesion]] --- that the construction of [[infinitesimal neighbourhoods]] *is* (see [here](infinitesimal+disk+bundle#MonadicityAdjointToJetBundles)) a monad in the sense of [[category theory]]! -- namely the [[left adjoint|left]] [[adjoint monad]] to the [[jet comonad]] ([Khavkine & Schreiber 2017, p. 23](infinitesimal+disk+bundle#KhavkineSchreiber17)).
+It so happens that --- in the [[topos theory|topos theoretic]] formulation of [[infinitesimals]] via [[differential cohesion]] --- the construction of [[infinitesimal neighbourhoods]] *is* (see [here](infinitesimal+disk+bundle#MonadicityAdjointToJetBundles)) a monad in the sense of [[category theory]]! -- namely the [[left adjoint|left]] [[adjoint monad]] to the [[jet comonad]] ([Khavkine & Schreiber 2017, p. 23](infinitesimal+disk+bundle#KhavkineSchreiber17)).
 
 
 
@@ -132,13 +132,13 @@ Now it so happens --- in the [[topos theory|topos theoretic]] formulation of [[i
 
 A **monad** in a [[bicategory]] $K$ is given by
 
-1. an [[object]] $a$ in $K$
+1. an [[object]] $a$ in $K$,
 
-1. an [[endomorphism]] $t \colon a \to a$ in $K$
+1. an [[endomorphism]] $t \colon a \to a$ in $K$,
 
 1. a [[2-morphism]] $\;\eta \colon 1_a \to t$ in $K$
 
-   (the *[[unit of a monad|unit]]* or *return* operation) 
+   (the *[[unit of a monad|unit]]* or *return* operation), and
 
 1. a [[2-morphism]] $\mu \colon t \circ t \to t$ 
 
@@ -164,15 +164,15 @@ such that the diagrams
 \end{tikzcd}](https://q.uiver.app/#q=WzAsNCxbMCwwLCJ0dHQiXSxbMSwwLCJ0dCJdLFswLDEsInR0Il0sWzEsMSwidCJdLFsxLDMsIlxcbXUiXSxbMiwzLCJcXG11IiwyXSxbMCwyLCJcXG11IHQiLDJdLFswLDEsInRcXG11Il1d)
 commute (where certain [[coherence]] [[isomorphism]]s have been omitted).
 
-The name "monad" and the terms "unit", "multiplication" and "associativity" bear a clear analogy with [[monoids]] (but see also at _[[monad (disambiguation)]]_).  Indeed, one can define a monad on an object $a$ of a [[bicategory]] $K$ as just a [[monoid object]] in the endomorphism category $K(a,a)$.  Alternatively, monads can be taken as more fundamental, and a [[monoid in a monoidal category]] $C$ can be defined as a monad in $\mathbf{B} C$, the one-object bicategory corresponding to $C$.
+The name "monad" and the terms "unit", "multiplication" and "associativity" bear a clear analogy with [[monoids]] (but see also at _[[monad (disambiguation)]]_).  Indeed, one can define a monad on an object $a$ of a [[bicategory]] $K$ as just a [[monoid object]] in the endomorphism category $K(a,a)$. Alternatively, monads can be taken as more fundamental, and a [[monoid in a monoidal category]] $C$ can be defined as a monad in $\mathbf{B} C$, the one-object bicategory corresponding to $C$.
 
-A third and somewhat less obvious definition says that a monad in $K$ is a **[[lax 2-functor]]** from the terminal bicategory $1$ to $K$: the unique object $\ast$ of $1$ is sent to the object $a$, the morphism $1_a$ becomes $t$, and $\eta$ and $\mu$ arise from the coherent 2-cells expressing lax functoriality. This in turn is equivalent to saying that a monad is a [[category enriched in a bicategory]] with a single object and single morphism. Among higher-category theorists, it's tempting to suggest that this is the most fundamental definition, and the most basic reason for the ubiquity and importance of monads.  Regardless of this, however, the earlier more elementary definitions are both practically and pedagogically essential.
+A third and somewhat less obvious definition says that a monad in $K$ is a **[[lax 2-functor]]** from the terminal bicategory $1$ to $K$: the unique object $\ast$ of $1$ is sent to the object $a$, the morphism $1_a$ becomes $t$, and $\eta$ and $\mu$ arise from the coherent 2-cells expressing lax functoriality. This, in turn, is equivalent to saying that a monad is a [[category enriched in a bicategory]] with a single object and single morphism. Among higher-category theorists, it is tempting to suggest that this is the most fundamental definition, and the most basic reason for the ubiquity and importance of monads.  Regardless of this, the earlier more elementary definitions are both practically and pedagogically essential.
 
 Finally, a monad can be defined in terms of the "Kleisli operation" taking any map $a \to T b$ to a map $T a \to T b$; see [[extension system]].
 
 We can picture a monad in $K$ as an image of the [[oriental|third oriental]] in $K$. See the remarks at [[monoidal category]].
 
-The data of and axioms for a monad can be expressed graphically as [[string diagrams]].  Writing $T \colon C \to C, \eta, \mu$ for the monad in question (this notation being the standard one when $K = Cat$), these data can be represented as
+The data of and axioms for a monad can be expressed graphically with [[string diagrams]]. Writing $T \colon C \to C, \eta, \mu$ for the monad in question (this notation being the standard one when $K = Cat$), these data can be represented as
 
 [[monad-data-labeled.png:pic]]
 
@@ -204,7 +204,7 @@ Let $K$ be a [[2-category]].
 
    is given by 
 
-   1. a [[1-morphism]] $x \colon a \to b$ in $K$ 
+   1. a [[1-morphism]] $x \colon a \to b$ in $K$, and 
 
    1. a [[2-morphism]] $\lambda \colon s x \to x t$  in $K$
  
