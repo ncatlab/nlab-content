@@ -27,9 +27,9 @@ A weak inverse or quasi-inverse is like an inverse, but weakened to work in situ
 Given a [[functor]] $F: C \to D$, a __weak inverse__ of $F$ is a functor $G: D \to C$ with [[natural isomorphism]]s
 $$ \iota: id_C \to G \circ F,\; \epsilon: F \circ G \to id_D .$$
 
-If it exists, a weak inverse is unique up to natural isomorphism, and furthermore can be improved to form an [[adjoint equivalence]], where $\iota$ and $\epsilon$ sastisfy the [[triangle identities]].
+If it exists, a weak inverse is unique up to natural isomorphism, and furthermore can be improved to form an [[adjoint equivalence]], where $\iota$ and $\epsilon$ satisfy the [[triangle identities]].
 
-More generally, given a $2$-[[2-category|category]] $\mathcal{B}$ and a morphisms $F: C \to D$ in $\mathcal{B}$, a __weak inverse__ of $F$ is a morphism $G: D \to C$ with $2$-isomorphisms
+More generally, given a $2$-[[2-category|category]] $\mathcal{B}$ and a morphism $F: C \to D$ in $\mathcal{B}$, a __weak inverse__ of $F$ is a morphism $G: D \to C$ with $2$-isomorphisms
 $$ \iota: id_C \to G \circ F,\; \epsilon: F \circ G \to id_D .$$
 
 Weak inverses give the proper notion of [[equivalence of categories]] and [[equivalence]] in a $2$-category.  Note that you must use [[anafunctor]]s to get the weak notion of equivalence of categories here without using the [[axiom of choice]].
