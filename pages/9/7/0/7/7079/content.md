@@ -42,7 +42,7 @@ $$
   ( X \overset{\in Fib}{\longrightarrow} 1)
 $$
 
-Hence the axiom that every morphism in a model category factors as an [[acyclic cofibration]] followed by a [[fibration]] implies the existance of [[fibrant resolution]].
+Hence the axiom that every morphism in a model category factors as an [[acyclic cofibration]] followed by a [[fibration]] implies the existence of [[fibrant resolution]].
 
 Namely, for $X$ any object, the factorization of the terminal morphism as an acyclic cofibration followed by a fibration yields a fibrant object $X_{fib}$ weakly equivalent to $X$
 
