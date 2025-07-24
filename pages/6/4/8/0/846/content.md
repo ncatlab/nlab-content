@@ -18,11 +18,11 @@
 
 The **join** $S \star T$ of two [[simplicial set]]s $S$ and $T$ is a new simplicial set that may geometrically be thought of as a [[cone]] over $T$ with tip of shape $S$. Topologically, it can also be thought of as the union of line segments connecting $S$ to $T$ if both are placed in general position. 
 
-If the simplicial sets in question are [[quasi-categories]] the notion of join on them produces the notion of [[join of quasi-categories]] that underlies many constructions in [[higher category theory]] such as the definition of [[limit in a quasi-category]].
+If the simplicial sets in question are [[quasi-categories]], then their join produces the notion of the [[join of quasi-categories]] that underlies many constructions in [[higher category theory]] such as the definition of a [[limit in a quasi-category]].
 
 The join of [[simplicial set]]s extends that historically given for [[simplicial complex|simplicial complexes]], cf. for instance the description and discussion in [[Spanier|Spanier's classical text]] (page 109 and then pages 114 -116). 
 
-The adaptation of this to simplicial sets reveals a neat link with some categorical structure in the category, $\Delta_a$, of finite ordinals (including the empty one).  
+The adaptation of this to simplicial sets reveals a neat link with some categorical structure in the category $\Delta_a$ of finite ordinals (including the empty one).  
 
 
 ## Motivating examples
@@ -174,7 +174,7 @@ $$
 \end{matrix}
 $$
 
-If you take two non-coplanar line segments in $\mathbb{R}^3$ (such as $A B$ and $C D$ in the picture below), then join every point in one to every point in the other, you get a 3-simplex (the tetrahedron in the picture). You can think of this as being the union of all the cones on the first segment, with cone points on the second one. We have that the join $\Delta[1]\star \Delta[1]$ is $\Delta[3]$.
+If you take two non-coplanar line segments in $\mathbb{R}^3$ (such as $A B$ and $C D$ in the picture below), then join every point in one to every point in the other, you get a 3-simplex (the tetrahedron in the picture). You can think of this as being the union of all the cones on the first segment with cone points on the second one. We have that the join $\Delta[1]\star \Delta[1]$ is $\Delta[3]$.
 
 $$
 \begin{gathered}
@@ -363,17 +363,17 @@ $$
 
 We first define the **join of simplicial sets** as the restriction to simplicial sets of the extension of the [[ordinal sum]] operation on the augmented [[simplex category]] $\Delta_a$ to augmented simplicial sets.
 
-Then we give the more explicit definition in terms of concrete formulas. We first refer to the description of [[ordinal sum]], and then how it induces structure on the category of augmented simplicial sets.
+Then we give the more explicit definition in terms of concrete formulas. We first refer to the description of the [[ordinal sum]], and then how it induces structure on the category of augmented simplicial sets.
 
 
 ### By Day convolution {#DayConvolution}
 
-Via the general process of [[Day convolution]], the [[ordinal sum]] [[monoidal structure]] on $\Delta_a$ is lifted to a [[monoidal structure]] on [[presheaf|presheaves]] on $\Delta_a$, i.e. to the the category [[asSet]] or $sSet_+$ of [[augmented simplicial set]]s. This is given by a [[end|coend]] formula:
+Via the general process of [[Day convolution]], the [[ordinal sum]] [[monoidal structure]] on $\Delta_a$ is lifted to a [[monoidal structure]] on [[presheaf|presheaves]] on $\Delta_a$, i.e., to the the category [[asSet]] or $sSet_+$ of [[augmented simplicial set]]s. This is given by a [[end|coend]] formula:
 
 +-- {: .un_prop}
 ###### Definition/Proposition
 
-The join of simplicial set is equivalently expressed as
+The join of simplicial sets is equivalently expressed as
 
 $$
   \star : sSet_+ \times sSet_+ \to sSet_+
@@ -391,11 +391,11 @@ $$
 +-- {: .un_remark}
 ###### Remark
 
-This is an abuse of notation because $Hom_{\Delta_a}(-,[i] \boxplus [j])$ is a functor, while $(S_i \times S'_j)$ is a set.  To be precise, the second $\times$ should be replaced with $\cdot$, which denotes the [[copower|indexed copower]].
+This is an abuse of notation because $Hom_{\Delta_a}(-,[i] \boxplus [j])$ is a functor, while $(S_i \times S'_j)$ is a set. To be precise, the second $\times$ should be replaced with $\cdot$, which denotes the [[copower|indexed copower]].
 
 =--
 
-Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|cocontinuous]] in each of its separate arguments $S$, $T$ (this is true generally of Day convolution products). 
+Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|cocontinuous]] in each of its separate arguments $S$ and $T$ (this is true generally of Day convolution products). 
 
 +-- {: .un_prop}
 ###### Proposition
@@ -428,7 +428,7 @@ $$
 
 +-- {: .un_remark}
 ###### Remark
-Note that the join operation is not commutative.  This comes from the fact that the [[monoidal structure]] given by [[ordinal sum]] on the [[augmented simplex category]] is not [[symmetric monoidal category|symmetric monoidal]].  See the discussion at [[augmented simplex category]] for more details.
+Note that the join operation is not commutative. This comes from the fact that the [[monoidal structure]] given by [[ordinal sum]] on the [[augmented simplex category]] is not [[symmetric monoidal category|symmetric monoidal]]. See the discussion at [[augmented simplex category]] for more details.
 
 =--
 
@@ -463,14 +463,14 @@ $$
   \right.
 $$
 
-If $j = 0$ then 
+If $j = 0$, then 
 
 $$
   d_0(\sigma, \tau) = \tau \in T_{n-1} \subset (S \star T)_{n-1}
   \,.
 $$
 
-If $k = 0$ then
+If $k = 0$, then
 
 $$
   d_n(\sigma, \tau) = \sigma \in S_{n-1} \subset (S \star T)_{n-1} 
@@ -482,7 +482,7 @@ $$
 
 If the simplicial sets in question are [[quasi-categories]], their join computes the corresponding [[join of quasi-categories]], effectively an [[over quasi-category]] construction.
 
-In this sense the join can then also be computed -- up to equivalence of quasi-categories -- as the [[homotopy colimit|homotopy pushout]] of the two projections out of $S \times S'$.
+In this sense, the join can also be computed -- up to equivalence of quasi-categories -- as the [[homotopy colimit|homotopy pushout]] of the two projections out of $S \times S'$.
 
 In this form, the join is used
 in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of [[Higher Topos Theory|HTT]]
@@ -491,7 +491,7 @@ in [definition 1.2.8.1, p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4
 
 ## Examples {#Examples}
 
-Recall that the join of augmented simplicial sets $S \star T$ is a [[cocontinuous functor]] in each of its separate arguments $S$, $T$ (this is true generally of [[Day convolution]] products).
+Recall that the join of augmented simplicial sets $S \star T$ is a [[cocontinuous functor]] in each of its separate arguments $S$ and $T$ (this is true generally of [[Day convolution]] products).
 
 This observation can help simplify calculations. For example, simplicial joins preserve unions in the first argument $S$, and inasmuch as [[horn]]s are unions of face simplices, this allows one to compute joins of horns with simplices.
 
@@ -508,7 +508,7 @@ For $\{v\} = \Delta[0]$ the [[point]], a join with the point is called a **cone*
 Universal images of cones and cocones over a fixed base $S$ in a [[quasi-category]] $C$ are [[limit in a quasi-category|limits and colimits in that quasi-category]].
 
 
-For instance the cone over the interval $\Delta[1]$ is the 2-simplex
+For instance, the cone over the interval $\Delta[1]$ is the 2-simplex
 
 $$
   \{v\} \star \Delta[1]
@@ -576,14 +576,14 @@ $$
 
 ### Joins of simplices
 
-Effectively by the definition from ordinal sum, we have that the join of two [[simplex|simplices]] is another simplex:
+Effectively by the definition from the ordinal sum, we have that the join of two [[simplex|simplices]] is another simplex:
 
 $$
   \Delta[k] \star \Delta[l] = \Delta[k + l + 1]
   \,.
 $$
 
-In particular the cone over the $n$-simplex is the $(n+1)$-simplex
+In particular, the cone over the $n$-simplex is the $(n+1)$-simplex
 
 $$
   \Delta[0] \star \Delta[n] = \Delta[n+1]
@@ -596,7 +596,7 @@ $$
   \,.
 $$
 
-Notice that while thus $\Delta[n+1] \simeq  \Delta[0]\star\Delta[n] \simeq \Delta[n] \star \Delta[0]$ the identifications of the cone point of course differ in both cases. The asymmetry is seen for instance by restricting attention to the cone over the boundary of the $n$-simplex, where we have
+Notice that while $\Delta[n+1] \simeq  \Delta[0]\star\Delta[n] \simeq \Delta[n] \star \Delta[0]$, the identifications of the cone point of course differ in both cases. The asymmetry is seen, for instance, by restricting attention to the cone over the boundary of the $n$-simplex, where we have
 
 $$
   \partial \Delta[n] \star \Delta[0] = \Lambda_{n+1}[n+1]
@@ -634,7 +634,7 @@ This is due to [[Andre Joyal]]. A proof appears as [[Higher Topos Theory|HTT, pr
 
 ### Compatibility with homotopy coherent nerve
 
-There is also a join operations on [[categories]] and [[sSet-categories]]:
+There is also a join operation on [[categories]] and [[sSet-categories]]:
 
 
 +-- {: .un_def}
@@ -676,11 +676,11 @@ for the [[left adjoint]] of the [[homotopy coherent nerve]] functor (denoted $\m
 +-- {: .un_prop}
 ###### Proposition
 
-For $S, S'$ two [[simplicial set]]s we have that 
+For $S, S'$ two [[simplicial set]]s, we have that 
 
-* the two inclusions $\tau_{hc}(S), \tau_{hc}(S') \to \tau_{hc}(S\star S')$ are [[full and faithful functor|full and faithful]].
+* the two inclusions $\tau_{hc}(S), \tau_{hc}(S') \to \tau_{hc}(S\star S')$ are [[full and faithful functor|full and faithful]];
 
-* $\tau_{hc}(S \star S')$ is in general not [[isomorphic]] to $\tau_{hc}(S) \star \tau_{hc}(S')$;
+* $\tau_{hc}(S \star S')$ is in general not [[isomorphic]] to $\tau_{hc}(S) \star \tau_{hc}(S')$; and
 
 * the canonical morphism
 
