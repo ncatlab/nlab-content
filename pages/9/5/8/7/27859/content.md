@@ -36,6 +36,9 @@ Full solution:
 #### Third problem
   {#ThirdProblemInToposTheory}
 
+The syntactic effects of the [[co-Heyting boundary|boundary operator]] $\partial$ on general [[geometric theory|geometric theories]] $\mathbb{T}$ as well as its semantic effects on [[model|models]] of [[theory of presheaf type|theories $\mathbb{T}$ of presheaf type]] are described in section 10.2 of [[Olivia Caramello|Olivia Caramello's]] book "Theories, Sites, Toposes" (CUP 2018, p.326f). This leaves open the "semantics" for more general theories.
+
+
 #### Fourth problem
   {#FourthProblemInToposTheory}
 
