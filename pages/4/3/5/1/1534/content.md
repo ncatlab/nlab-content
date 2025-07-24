@@ -297,7 +297,7 @@ Relation with [[vertex algebras]]
 
 A very general treatment of factorization algebras is given in 
 
-* [[Clark Barwick]], _Factorization algebras in quite a lot of generality_ &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/facts.pdf)&rbrack;
+* [[Clark Barwick]], _Factorization algebras in quite a lot of generality_ (2025) &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/facts.pdf)&rbrack;
 
 
 
