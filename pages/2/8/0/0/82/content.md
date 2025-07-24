@@ -61,6 +61,10 @@ Discussion in [[algebraic geometry]]:
 
 * [[Monique Hakim]], _Topos annel&#233;s et sch&#233;mas relatifs_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 64, Springer, Berlin, New York (1972) ([doi:10.1007/978-3-662-59155-0](https://www.springer.com/gp/book/9783540055730))
 
+See also
+
+* [[William Lawvere]]: *[[Open problems in topos theory]]* (April 2009)  &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/2009-open-problems-in-topos-theory.pdf), [[Lawvere-OpenProblems.pdf:file]]&rbrack;
+
 
 ### Introductions
  {#Introductions}
