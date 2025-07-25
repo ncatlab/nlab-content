@@ -408,11 +408,11 @@ $$
 * If $S$ is the class of all [[regular monomorphisms]] in $C$, then $\Omega$ is a **regular subobject classifier**. 
 * If $S$ is the class of all [[effective monomorphisms]] in $C$, then $\Omega$ is an **effective subobject classifier**. 
 * If $S$ is the class of all [[strict monomorphisms]] in $C$, then $\Omega$ is a **strict subobject classifier**. 
-* If $S$ is the class of all $\kappa$-compact monomorphisms, for some [[regular cardinal]] $\kappa$, then $\Omega$ is a **$\kappa$-compact subobject classifer**. 
+* If $S$ is the class of all $\kappa$-compact monomorphisms, for some [[regular cardinal]] $\kappa$, then $\Omega$ is a **$\kappa$-compact subobject classifier**. 
 
 Strong subobject classifiers in particular are important in the definition of a [[quasitopos]]. 
 
-Let $\kappa$ be an [[inaccessible cardinal]]. Then $\kappa$-compact subobject classifers are used in the syntactic category of [[Martin-Löf type theories]] like [[book HoTT]]. 
+Let $\kappa$ be an [[inaccessible cardinal]]. Then $\kappa$-compact subobject classifiers are used in the syntactic category of [[Martin-Löf type theories]] like [[book HoTT]]. 
 
 ### Object classifier
 
