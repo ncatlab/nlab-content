@@ -17,7 +17,7 @@
 
 On the one hand, a map into a [[classifying space]] _classifies_ some kind of [[object]], it is a _[[classifying morphism]]_, meaning that it characterizes the object (only) up to [[equivalence]]. 
 
-On the other hand, the more refined concept of a [[moduli stack]] is such that [[morphisms]] into it characterize the object itself. Hence it makes sense to say that such maps into moduli stacks not just classify, but **modulate** the given object.
+On the other hand, the more refined concept of a [[moduli stack]] is such that [[morphisms]] into it characterize the object itself. Hence it makes sense to say that such maps into moduli stacks do not just classify, but **modulate** the given object.
 
 Indeed, that is the idea that originally gave rise to the name _[[moduli]]_.  
 Because, more specifically, a [[moduli stack]] $\mathbf{F}$ of a certain kind of objects is such that morphisms $X \stackrel{\chi}{\longrightarrow} \mathbf{F}$ into it determine a [[bundle]] 
