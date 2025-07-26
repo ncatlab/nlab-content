@@ -18,7 +18,7 @@
 
 
 _A [[filter]] $\mathfrak{F}$ on a set $X$_ is
- a set of of subsets of X which has the following properties: 
+ a set of subsets of X which has the following properties: 
 
 ($F_I$) Every subset of X which contains a set of  $\mathfrak{F}$  belongs to  $\mathfrak{F}$. 
 
