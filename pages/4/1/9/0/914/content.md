@@ -279,7 +279,7 @@ The filter $\mathcal{F}$ is called _proper_ if each set in it is [[inhabited sub
 
 Let $X$ be a [[set]] and let $\nu \colon D \to X$ be a net in $X$ (def. \ref{Net}).
 
-The _[[eventuality filter]]_ $\mathcal{F}_\nu$ of the net $\nu$ is the [[filter]] (def. \ref{Filter}) onsisting of the subsets that $\nu$ is _eventually in_, according to def. \ref{EventuallyAndFrequently}.
+The _[[eventuality filter]]_ $\mathcal{F}_\nu$ of the net $\nu$ is the [[filter]] (def. \ref{Filter}) consisting of the subsets that $\nu$ is _eventually in_, according to def. \ref{EventuallyAndFrequently}.
 
 $$
   \left(
