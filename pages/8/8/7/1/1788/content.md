@@ -22,7 +22,7 @@ The [[point groups]] $G$ arising are the [[cyclic groups]] $\mathbb{Z}_{/1}=$[[t
 
 [[p2TorusCellStructure-20250722.png:file]]
 
-[[pmmTorusCellStructure-20250722.png:file]]
+[[pmmTorusCellStructure-20250726.png:file]]
 
 [[cmmTorusCellStructure-20250722.png:file]]
 
