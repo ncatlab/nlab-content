@@ -95,7 +95,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{2}$]]-[[group action|action]] according to the [[wallpaper group]] pmm: 
 
 \begin{imagefromfile}
-    "file_name": "pmmTorusCellStructure-20250722.png",
+    "file_name": "pmmTorusCellStructure-20250726.png",
     "width": 500,
     "unit": "px",
     "margin": {
