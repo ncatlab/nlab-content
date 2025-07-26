@@ -25,7 +25,7 @@ Truth values form a [[partial order|poset]] (the __poset of truth values__) by d
 
 The poset of truth values is a [[Heyting algebra]]. Classically (or internal to a Boolean topos), this poset is even a [[Boolean algebra]]. It is also a [[complete lattice]]; in fact, it can be characterised as the [[initial object|initial]] complete lattice. As a complete Heyting algebra, it is a [[frame]], corresponding to the one-point [[locale]].
 
-When the set of truth values is equipped with the [[specialization topology]], the result is [[Sierpinski space]].
+When the set of truth values is equipped with the [[Scott topology]] (equivalently the [[specialization topology]] classically), the result is [[Sierpinski space]].
 
 A truth value may be interpreted as a $0$-[[0-poset|poset]] or as a $(-1)$-[[(-1)-groupoid|groupoid]]. It is also the best interpretation of the term '$(-1)$-[[(-1)-category|category]]', although this doesn\'t fit all the patterns of the [[periodic table]].
 
