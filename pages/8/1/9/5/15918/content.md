@@ -70,14 +70,14 @@ Thus, the signature of first-order Peano arithmetic consists of a constant $0$, 
 1. $\forall_{x, y} x \cdot s(y) = x \cdot y + x$; 
 
 1. (Induction scheme) For all formulas $\phi(x, y_1, \ldots, y_k) = \phi(x; \vec{y})$ with $k+1$ free variables, 
-$$\forall_{y_1, \ldots, y_k} [\phi(0, \vec{y}) \wedge \forall_x (\phi(x; \vec{y}) \Rightarrow \phi(s(x); \vec{y})] \Rightarrow \forall_z \phi(z, \vec{y}).$$
+$$\forall_{y_1, \ldots, y_k} [\phi(0, \vec{y}) \wedge \forall_x (\phi(x; \vec{y}) \Rightarrow \phi(s(x); \vec{y}))] \Rightarrow \forall_z \phi(z, \vec{y}).$$
 
 The third axiom is actually redundant, being an instance of the induction scheme (take $\phi(x) = [x = 0 \vee \exists_y x = s(y)]$). We include it because it is needed for weaker systems of arithmetic in which the induction schema is curtailed or dropped, notably [[Robinson arithmetic]]. 
 
 In addition, the additional parameters $\vec{y}$ are not needed in the induction scheme; adding the induction scheme for first-order formulae $\phi(x)$ where the only parameter is $x$:
 
 * (Induction scheme) For all formulas $\phi(x)$,
-$$[\phi(0) \wedge \forall_x (\phi(x) \Rightarrow \phi(s(x))] \Rightarrow \forall_z \phi(z).$$
+$$[\phi(0) \wedge \forall_x (\phi(x) \Rightarrow \phi(s(x)))] \Rightarrow \forall_z \phi(z).$$
 
 results in an equivalent theory to Peano arithmetic. See [Parameters in arithmetic induction axiom schemas](https://mathoverflow.net/questions/79174/parameters-in-arithmetic-induction-axiom-schemas). 
 
