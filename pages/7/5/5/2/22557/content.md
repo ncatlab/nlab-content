@@ -1,5 +1,5 @@
 
-Reymond Laflamme (19602025)
+Reymond Laflamme (1960-2025)
 
 * [personal page](https://laflamme.iqc.uwaterloo.ca/)
 
