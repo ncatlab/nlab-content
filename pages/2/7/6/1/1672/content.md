@@ -38,12 +38,12 @@ and vice versa.  In [[constructive mathematics]], however, they are not equivale
 *  The power set of $X$ is both a $\sigma$-ideal and a $\delta$-filter on $X$; it is the _improper $\sigma$-ideal_ on $X$.  (Compare [[proper ideal]].)
 *  The [[null sets]] in a [[measure space]] $X$ form a $\sigma$-ideal on $X$, while the [[full sets]] form the corresponding $\delta$-filter.
 *  The [[meager subspace|meagre sets]] in a [[topological space]] $X$ form a $\sigma$-ideal on $X$, while the comeagre sets form the corresponding $\delta$-filter.
-*  The [[pure sets]] form a $\sigma$-ideal on (or, equivalently in this case, in) the class of all pure sets; actually, this collection is closed under arbitrary unions rather than merely countablary unions, so we may call it a _complete ideal_.
+*  The [[pure sets]] form a $\sigma$-ideal on (or, equivalently in this case, in) the class of all pure sets; actually, this collection is closed under arbitrary unions rather than merely countable unions, so we may call it a _complete ideal_.
 
 
 ## Properties
 
-Of course, any $\sigma$-ideal in an [[ideal]].  A $\sigma$-ideal is a $\sigma$-[[sigma-ring|ring]] in its own right.  In fact, a $\sigma$-ideal on $X$ is precisely simultaneously an ideal in and a sub-$\sigma$-ring of $\mathcal{P}X$.  Dual results hold for $\delta$-filters.
+Of course, any $\sigma$-ideal is an [[ideal]].  A $\sigma$-ideal is a $\sigma$-[[sigma-ring|ring]] in its own right.  In fact, a $\sigma$-ideal on $X$ is precisely simultaneously an ideal in and a sub-$\sigma$-ring of $\mathcal{P}X$.  Dual results hold for $\delta$-filters.
 
 
 [[!redirects sigma-ideal]]
