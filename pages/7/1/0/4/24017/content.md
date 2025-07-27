@@ -3,6 +3,10 @@
 
 * [institute page](https://www.physik.uzh.ch/en/groups/neupert/team/bzdusek.html)
 
+* [inSpire page](https://inspirehep.net/authors/1971299)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=cRgGh1oAAAAJ&hl=sk)
+
 ## Selected writings
 
 On [[topological semimetals]]:
