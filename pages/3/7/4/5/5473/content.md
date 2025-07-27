@@ -278,7 +278,9 @@ T S c & (nat) & c & \stackrel{f}{\to} & d & \stackrel{1_d}{\to} & d \\
 where the commutativity of the unlabeled polygonal region is just the commutativity of (eq:alg). This completes the proof of the claim. 
 =-- 
 
-## References 
+## References
+
+* [[Fred Linton]], _Coequalizers in categories of algebras_, Seminar on Triples and Categorical Homology Theory: ETH 1966/67. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006.
 
 * [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples, and Theories_, Reprints in Theory and Applications of Categories (2005), 1-289. ([online pdf](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf)) 
 {#BarrWells}
