@@ -248,7 +248,7 @@ The actual terminology "amalgamated free product" seems to be due to:
 
 Textbook accounts of free products of groups:
 
-* [[Anthony Knapp]], Section VII.3 of: *Basic Algebra*, Springer (2006) &lbrack;[doi:10.1007/978-0-8176-4529-8](https://doi.org/10.1007/978-0-8176-4529-8), [pdf](https://www.math.mcgill.ca/darmon/courses/19-20/algebra2/knapp.pdf)&rbrack;
+* [[Anthony Knapp]], Section VII.3 of: *Basic Algebra*, Springer (2006) &lbrack;[doi:10.1007/978-0-8176-4529-8](https://doi.org/10.1007/978-0-8176-4529-8), [pdf](https://www.math.stonybrook.edu/~aknapp/download/b2-alg-clickable.pdf)&rbrack;
 
 Expository review in the generality of amalgamated free products and making explicit their nature as [[pushouts]] in [[Grp]]:
 
