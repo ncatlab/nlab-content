@@ -208,7 +208,7 @@ Indeed, this is _essentially_ the case -- up to size issues, that the following 
 +-- {: .num_defn #RelativelyKappaCompact}
 ###### Definition
 
-For $\kappa$ some [[cardinal]], say a morphism $f : x \to y$ in $C$ is **[[relatively k-compact morphism in an (infinity,1)-category|relatively k-compact]]** if for all [[(∞,1)-pullbacks]] along $h : y' \to y$ to $\kappa$-[[compact object in an (∞,1)-category|compact object]]s, $y'$, the pulled back object $h^* x'$ is itself a $\kappa$-compact object.
+For $\kappa$ some [[cardinal]], say a morphism $f : x \to y$ in $C$ is **[[relatively k-compact morphism in an (infinity,1)-category|relatively $\kappa$-compact]]** if for all [[(∞,1)-pullbacks]] along $h : y' \to y$ to $\kappa$-[[compact object in an (∞,1)-category|compact object]]s, $y'$, the pulled back object $h^* x'$ is itself a $\kappa$-compact object.
 
 =--
 
