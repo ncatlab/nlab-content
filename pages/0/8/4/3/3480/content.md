@@ -267,7 +267,7 @@ $$
     A,
   \end{aligned}
 $$
-where $Y$ denotes the [[enriched Yoneda lemma]]. 
+where $Y$ denotes the [[enriched Yoneda lemma]]. Here, the first use of Yoneda is not as obvious as it seems. It is applied to the $V$-enriched category $Cat_{\mathbf{B}A \to V}$ whose objects are functors and morphisms are natural transformations; the embedding image of the object $h_{\bullet} \in Cat_{\mathbf{B}A \to V}$ is $\mathbf{Nat}_V(h_{\bullet},-)$.
 
 Notice that the [[endomorphism]] object here is taken in the sense of enriched category theory, as described at [[enriched functor category]]. 
 
@@ -336,6 +336,14 @@ $$
 in [[Vect]].
 
 =--
+
+A less abstract proof (without using many yonedas) for the reconstruction makes use of the regular module $A$ and its special element $1 \in A$: A natural transform $\phi \in Nat(F,F)$ assigns a linear map $\phi_X: F(X) \to F(X)$ to each $A$-module $X$, compatible with all $A$-intertwiners. Hence there is an obvious $A$-algebra homomorphism $\Phi: A \to Nat(F,F)$ sending $a \in A$ to $Act_{a;-}$. It suffices to show that $\Phi$ is bijective to conclude $A \cong Nat(F,F)$. 
+
+* $\Phi$ is injective because $a \neq a' \in A$ give different actions $Act_{a;A} \neq Act_{a';A}$ on the regular module $A$. 
+
+* $\Phi$ is surjective because any $\phi \in Nat(F,F)$ must be $Act(a;-)$ for some $a \in A$, a fact seen by considering all of the $A$-intertwiners (running through $y \in Y$) $f_{y}: A \to Y$ sending $1$ to $y \in Y$.
+
+
 
 Additional structure on the algebra $A$ corresponds to addition structure on its [[category of modules]] as indicated in the following table:
 
