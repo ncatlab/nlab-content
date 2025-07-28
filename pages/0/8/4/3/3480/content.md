@@ -27,7 +27,7 @@ $$
   F : Rep_D(A) \to D
 $$
 
-from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on [[object]]s of $D$ that remembers these underlying objects. In a generalization, called mixed Tannakian formalism, not a single [[fiber functor]], but a family of [[fiber functors]] over different bases is needed for a reconstruction.
+from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on [[object]]s of $D$ that remembers these underlying objects. In a generalization, called mixed Tannakian formalism, not a single [[fiber functor]], but a family of [[fiber functors]] over different bases is needed for a reconstruction. The fiber functor is necessary; for example, in the context of reconstruction of associative algebras, not remembering the underlying vector spaces results in reconstructing two different algebras with equivalent module categories (cf. [[Morita equivalence]]).
 
 There is a general-abstract and a concrete aspect to this. The general abstract one says that an algebra $A$ is reconstructible from the [[fiber functor]] on the category of _all_ its modules. The concrete one says that in nice cases it is reconstructible from the category of _dualizable_ (finite dimensional) modules, even if it is itself not finite dimensional.
 
@@ -93,18 +93,15 @@ $$
   \,.
 $$
 
-identifying the [[automorphism group]] of $F$ (the group of [[natural isomorphisms]] from $F$ to itself) with $G$.
+identifying the [[automorphism group]] of $F$ (the group of invertible [[natural isomorphisms]] from $F$ to itself) with $G$.
 
 =--
 
 +-- {: .proof}
 ###### Quick Proof
 
-
-With a bit of evident abuse of notation, the proof is a one-line sequence of applications of the [[Yoneda lemma]]: we show $End(F) \cong G$, i.e., each endomorphism on $F$ is invertible, so $End(F) = Aut(F) \cong G$.  
-
 Write $C \coloneqq Set^G = G Set$.
-Observe that the functor $F \colon C \to Set$ is the [[representable functor|representable]] $F = C(G, -)$. Then the argument is 
+The functor $F \colon C \to Set$ is the [[representable functor|representable]] $F = C(G, -)$ by the regular $G$-module $G$. Then the proof is a one-line sequence of applications of the [[Yoneda lemma]]:
 
 $$
   End(F)
@@ -118,7 +115,7 @@ $$
   G.
 $$
 
-The "$G$" here is used in multiple senses, but each sense is deducible from context.
+The "$G$"'s may denote the group $G$ or its regular module. In particular, every endomorphism of $F$ is invertible. Hence, $End(F) = Aut(F) \cong G$.
 
 =--
 
@@ -232,16 +229,19 @@ $$
 
 We can repeat the argument given above for permutation representations, this time employing the [[enriched Yoneda lemma]].
 
-Indeed, we may identify $F$ with the $V$-functor
+First, recall that $\mathbf{B}A$ has a unique object. Identify the forgetful functor $F$ as the unique $V$-functor
 $$[\bullet]^*\colon\mathbf{Fun}_V(\mathbf{B}A,V)\to\underbrace{\mathbf{Fun}_V(\mathbf{pt}_V,V)}_{\cong V}$$
-given by precomposition along the $V$-functor $[\bullet]\colon\mathbf{pt}_V\to\mathbf{B}A$ picking the unique object $\bullet$ of $\mathbf{B}A$.
+given by precomposition along the $V$-functor $[\bullet]\colon\mathbf{pt}_V\to\mathbf{B}A$ . Namely, it sends an $A$-module $M\colon\mathbf{B}A\to V$ to its evaluation $M(\bullet) \in V$.
 
-Now we note that the functor $[\bullet]^*$ (given by sending an $A$-module $M\colon\mathbf{B}A\to V$) to its evaluation $M(\bullet)$ at the unique object $\bullet$ of $\mathbf{B}A$) is $V$-naturally isomorphic to the $V$-functor $\mathbf{Nat}_V(h_\bullet,-)$, since
-$$\mathbf{Nat}_V(h_\bullet,M)\cong M(\bullet)$$
-by the enriched Yoneda lemma. So in summary we have $F\cong[\bullet]^*\cong\mathbf{Nat}_V(h_\bullet,-)$.
-
-We can then compute $End(F)$ as follows:
-
+Then by the enriched Yoneda lemma, 
+$$
+\mathbf{Nat}_V(Hom_{\mathbf{B}A}(-,\bullet),M) 
+\cong
+\mathbf{Nat}_V(h_\bullet,M) 
+\cong
+M(\bullet)
+$$
+hence the functor $[\bullet]^*$ is $V$-naturally isomorphic to the $V$-functor $\mathbf{Nat}_V(h_\bullet,-)$. Then
 $$
   \begin{aligned}
     End(F)
@@ -249,33 +249,49 @@ $$
     \mathbf{Nat}_V(F,F)
     \\
     &\cong
+    \mathbf{Nat}_V([\bullet]^*,[\bullet]^*)
+    \\
+    &\cong
     \mathbf{Nat}_V(\mathbf{Nat}_V(h_{\bullet},-),\mathbf{Nat}_V(h_{\bullet},-))
     \\
-    &\cong
+    &\overset{Y}{\cong}
     \mathbf{Nat}_V(h_{\bullet},h_{\bullet})
     \\
-    &\cong
+    &\overset{Y}{\cong}
+    h_{\bullet}(\bullet)
+    \\
+    &\overset{\mathrm{def}}{=}
     \mathbf{Hom}_{\mathbf{B}A}(\bullet,\bullet)
     \\
     &\overset{\mathrm{def}}{=}
     A,
   \end{aligned}
 $$
+where $Y$ denotes the [[enriched Yoneda lemma]]. 
 
-where we have applied the [[enriched Yoneda lemma]] twice.
+Notice that the [[endomorphism]] object here is taken in the sense of enriched category theory, as described at [[enriched functor category]]. 
 
 =--
 
-Notice that the [[endomorphism]] object here is taken in the sense of enriched category theory, as described at [[enriched functor category]]. It is given by the [[end]] expression 
 
++-- {: .num_remark}
+###### Remark
+**(Categorical [[end]] reconstruction of $A$)**
+
+The monoid $A$ can also be reconstructed as a categorical [[end]], since the set of natural transformations between any two functors has a description in terms of [[end]]; roughly:
 $$
-  End(F) = \int_{N \in A Mod} V(F(N), F(N))
+  [C,D](F,G) = \int_{c \in C} D(F(c), G(c))
+  \,.
+$$
+To spell it out in our case,
+$$
+  A \cong End(F) = \int_{N \in A Mod} V(F(N), F(N))
   \,.
 $$
 
-The case of permutation representations is re-obtained by setting $V = $ [[Set]].
+=--
 
-As before, the same proof actually shows the following more general statement
+As before, the same proof shows the more general statement:
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -292,6 +308,11 @@ $$
 
 From this statement of Tannaka duality in $V$-enriched category theory
 now various special cases of interest follow, by simply choosing suitable enrichment categories $V$.
+
+#### For permutation representations 
+  {#ForPermuatationRepresentations}
+
+The case of permutation representations is re-obtained by setting $V = $ [[Set]].
 
 #### For algebra modules 
   {#ForAlgebraModules}
@@ -344,6 +365,8 @@ $$
 $$
 
 =--
+
+This should work for group rings as well, say $A = \mathbf{Z}[G].$ However, note that the group ring does not recover the group in general (cf [discussion 1](https://math.stackexchange.com/questions/1203202/recovering-a-group-from-its-group-algebra-over-mathbbz), [discussion 2](https://mathoverflow.net/questions/324391/is-it-possible-to-reconstruct-a-finitely-generated-group-from-its-category-of-re) and papers referred therein).
 
 
 #### For coalgebra comodules {#Coalgebras}
