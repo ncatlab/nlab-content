@@ -24,7 +24,7 @@ A **valuation ring** is an [[integral domain]] $O$ which satisfies any of the fo
 
 1. the principal ideals of $O$ are totally ordered by inclusion. 
 
-These equivalences are not difficult to establish. For example, if 1. holds and $I, J$ are distinct ideals, then some element $x$ belongs to one but not the other, say $x \in J$, $x \notin I$. Then for each $y \in I$, the condition $x/y \in O$ leads to $x = y(x/y) \in I$ which is false; therefore $y/x \in O$, whence $y = x(y/x) \in J$, and we conclude $I \subset J$. That 2. implies 3. is trivial, and if 3. holds and $x \in K$, write $x = a/b$ where $a, b \in O$, and conclude either $(a) \subseteq (b)$ or $(b) \subseteq (a)$, where $x \in O$ in the former case and $x^{-1} \in O$ in the latter. 
+These equivalences are not difficult to establish. For example, if 1. holds and $I, J$ are distinct ideals, then some element $x$ belongs to one but not the other, say $x \in J$, $x \notin I$. Then, for each $y \in I$, the condition $x/y \in O$ leads to $x = y(x/y) \in I$, which is false; therefore, $y/x \in O$, whence $y = x(y/x) \in J$, and we conclude $I \subset J$. That 2. implies 3. is trivial, and if 3. holds and $x \in K$, write $x = a/b$ where $a, b \in O$, and conclude either $(a) \subseteq (b)$ or $(b) \subseteq (a)$, where $x \in O$ in the former case and $x^{-1} \in O$ in the latter. 
 
 +-- {: .num_prop}
 ###### Proposition 
@@ -33,7 +33,7 @@ A valuation ring $O$ is a [[local ring]]. Its maximal ideal is said to be the [[
 
 +-- {: .proof} 
 ###### Proof 
-Suppose $x$, $y$ are nonzero non-invertible elements of $O$. Either $x/y$ or $y/x$ belongs to $O$, say $x/y$. Then $(x+y)/y$ belongs to $O$ as well. If $x+y$ were a unit of $O$, it would follow that $1/y$ belongs to $O$, i.e., both $y$ and $1/y$ belong to $O$, so that $y$ is a unit of $O$, contradiction. It follows that non-unit elements of $O$ are closed under addition. It is also clear that if $x$ is a non-unit element of $O$ and $y$ is any element of $O$, then $x y$ is a non-unit element of $O$. Therefore the non-units form an ideal of $O$, clearly the unique maximal ideal of $O$. 
+Suppose $x$ and $y$ are nonzero non-invertible elements of $O$. Either $x/y$ or $y/x$ belongs to $O$, say $x/y$. Then $(x+y)/y$ belongs to $O$ as well. If $x+y$ were a unit of $O$, it would follow that $1/y$ belongs to $O$, i.e., both $y$ and $1/y$ belong to $O$, so that $y$ is a unit of $O$—a contradiction. It follows that the non-unit elements of $O$ are closed under addition. It is also clear that if $x$ is a non-unit element of $O$ and $y$ is any element of $O$, then $x y$ is a non-unit element of $O$. Therefore, the non-units form an ideal of $O$, clearly the unique maximal ideal of $O$. 
 =--
 
 +-- {: .num_prop}
@@ -43,8 +43,8 @@ A valuation ring $O$ is integrally closed in its field of fractions $F$.
 
 +-- {: .proof} 
 ###### Proof 
-Suppose $x \in F$ satisfies an equation $x^n + a_{n-1}x^{n-1} + \ldots + a_0 = 0$ where the $a_i$ belong to $O$. Either $x$ or $1/x$ belongs to $O$, and if $1/x$ belongs to $O$, then so does $x$ because 
-$$-x = a_{n-1} + a_{n-1}x^{-1} + \ldots + a_0 x^{-n+1}$$ 
+Suppose $x \in F$ satisfies an equation $x^n + a_{n-1}x^{n-1} + \ldots + a_0 = 0$ where the $a_i$'s belong to $O$. Either $x$ or $1/x$ belongs to $O$, and if $1/x$ belongs to $O$, then so does $x$ because 
+$$-x = a_{n-1} + a_{n-1}x^{-1} + \ldots + a_0 x^{-n+1},$$ 
 and this completes the proof. 
 =-- 
 
@@ -71,14 +71,14 @@ and many, many more. Of interest are _rates of growth_ (cf. [[O notation]]) of t
 
 +-- {: .un_thm} 
 ######Theorem 
-Any such definable function $f(x)$ is either positive for all sufficiently large $x$, $0$ for all sufficiently large $x$, or negative for all sufficiently large $x$. 
+Any such definable function is either positive for all sufficiently large $x$, $0$ for all sufficiently large $x$, or negative for all sufficiently large $x$. 
 =-- 
 
-This theorem implies that the germs at infinity of such functions ($\sim$-equivalence classes of functions where $f \sim g$ if $f(x) = g(x)$ for all sufficiently large $x$) form a totally [[ordered field]], in fact a [[real closed field]]. The real numbers are embedded in this field as germs of constant functions, but lying between ordinary real numbers are other "numbers" infinitesimally close to reals, such as $2 - [1/x]$, $1 + [1/\log \log(x)]$, as well as infinite numbers such as $[e^x]$. 
+This theorem implies that the germs at infinity of such functions ($\sim$-equivalence classes of functions where $f \sim g$ if $f(x) = g(x)$ for all sufficiently large $x$) form a totally [[ordered field]], and in fact a [[real closed field]]. The real numbers are embedded in this field as the germs of constant functions, but lying between ordinary real numbers are other "numbers" infinitesimally close to reals, such as $2 - [1/x]$, $1 + [1/\log \log(x)]$, as well as infinite numbers such as $[e^x]$. 
 
-Sitting inside this field $Germ(\mathbb{R}_{exp})$ is the valuation ring of germs of bounded definable functions, in other words the ring of finite "numbers", which contains infinitesimals of incredibly rich variety.  
+Sitting inside this field $Germ(\mathbb{R}_{exp})$ is the valuation ring of germs of bounded definable functions—in other words, the ring of finite "numbers", which contains infinitesimals of incredibly rich variety.  
 
-Such examples are close in spirit to [[hyperreal number]]s, which form a considerably larger real closed field. In this case, the procedure is similar, except that one takes germs of _all_ functions $\mathbb{N} \to \mathbb{R}$ in the neighborhood of a non-principal ultrafilter on $\mathbb{N}$, which can be considered an ideal point at "infinity". This is called an [[ultrapower]] of the standard real numbers. Again the finite hyperreals form a valuation ring sitting inside. 
+Such examples are close in spirit to [[hyperreal number]]s, which form a considerably larger real closed field. In this case, the procedure is similar, except that one takes the germs of _all_ functions $\mathbb{N} \to \mathbb{R}$ in the neighborhood of a non-principal ultrafilter on $\mathbb{N}$, which can be considered an ideal point at "infinity". This is called an [[ultrapower]] of the standard real numbers. Again, the finite hyperreals form a valuation ring sitting inside. 
 
 ## The valuation function 
 
@@ -124,7 +124,7 @@ Quite generally, we may define a **valuation** on a field $K$ to be a function
 
 $$v: K \to G \cup \{0\}$$ 
 
-(where $G$ is a totally ordered group, extended to a totally ordered monoid $G \cup \{0\}$ as above), satisfying conditions 1 - 4 listed above. Two valuations $v$, $v'$ are **equivalent** if there is an isomorphism 
+(where $G$ is a totally ordered group, extended to a totally ordered monoid $G \cup \{0\}$ as above), satisfying conditions 1 - 4 listed above. Two valuations $v$ and $v'$ are **equivalent** if there is an isomorphism 
 
 $$\phi: G \cup \{0\} \to G' \cup \{0\}$$ 
 
@@ -151,16 +151,16 @@ from fields to posets. Here $V$ assigns to a field $K$ the poset of equivalence 
 
 ### Examples
 
-1. The algebraic notion of Riemann surface from 19th century is constructed in a way in which valuations are used to construct points of Riemann surfaces over various fields. See [[Riemann surface via valuations]]. 
+1. The algebraic notion of a Riemann surface from the 19th century is constructed in a way in which valuations are used to construct points of Riemann surfaces over various fields. See [[Riemann surface via valuations]]. 
 
-2. There is a very general construction which takes as input an arbitrary field $k$ and a totally ordered abelian group $G$, and produces as output a valuation ring whose value group is naturally identified with $G$. This is the ring of [[Hahn series]], see there. 
+2. There is a very general construction which takes as input an arbitrary field $k$ and a totally ordered abelian group $G$, and produces as output a valuation ring whose value group is naturally identified with $G$. This is the ring of [[Hahn series]]. 
 
 ## Equivalent characterisations
 
 \begin{proposition}(Homological characterisation)
-For a commutative [[local ring]] $V$, the following are equivalent :
+For a commutative [[local ring]] $V$, the following are equivalent:
 
-1. $V$ is a valuation ring ;
+1. $V$ is a valuation ring;
 1. all [[torsion-free]] $V$-modules are flat ;
 1. the [[weak global dimension]] of $V$ satisfies $wgldim(V) \leq 1$ ;
 1. $V$ is [[semi-hereditary]].
@@ -177,9 +177,9 @@ By assumption, since all ideals $I \subset V$ are torsion-free, they are flat, t
 
 $3 \Rightarrow 4$. Let $I \subset V$ be a finitely generated ideal. By assumption $Tor_2^V(V/I, M) = 0$ for every $V$-module $M$. So $Tor_1^V(I, M) = 0$ for every $M$ ; $I$ is flat. Finitely generated flat modules over a local ring are free.
 
-$4 \Rightarrow 1$. Let $I \subset V$ be a finitely generated ideal. Since $V$ is semi-hereditary, $I$ is projective. Because $V$ is local this means that $I$ is free ; this is possible only if $I$ is principal and generated by a regular element of $V$ or the ideal $(0)$. It follows that $V$ must be an [[integral domain]] and that every finitely generated ideal is principal.
-Let $x, y \in V$ be distinct, since $(x, y)$ is finitely generated, there is a regular $z \in V$ such that $(x) + (y) = (z)$. Then there exists $\alpha, \beta, \lambda, \mu$ such that $x = \alpha z$, $y = \beta z$ and $z = \lambda x + \mu y$. Then $z (1 - \alpha \lambda - \beta \mu) = 0$ and since $z$ is regular $\alpha \lambda + \beta \mu = 1$. Now because $V$ is a local ring, one of these two terms must be invertible. If $\alpha \lambda$ is invertible, then again since $V$ is local, $\alpha$ must be invertible and $(y) \subset (x)$. In the other case one has $(x) \subset (y)$.
-We have thus proved that principal ideals in $V$ are totally ordered by inclusion and thus $V$ is a valuation ring.
+$4 \Rightarrow 1$. Let $I \subset V$ be a finitely generated ideal. Since $V$ is semi-hereditary, $I$ is projective. Because $V$ is local, this means that $I$ is free ; this is possible only if $I$ is principal and generated by a regular element of $V$ or the ideal $(0)$. It follows that $V$ must be an [[integral domain]] and that every finitely generated ideal is principal.
+Let $x, y \in V$ be distinct. Since $(x, y)$ is finitely generated, there is a regular $z \in V$ such that $(x) + (y) = (z)$. Then there exist $\alpha, \beta, \lambda$, and $\mu$ such that $x = \alpha z$, $y = \beta z$, and $z = \lambda x + \mu y$. Then $z (1 - \alpha \lambda - \beta \mu) = 0$, and since $z$ is regular, $\alpha \lambda + \beta \mu = 1$. Because $V$ is a local ring, one of these two terms must be invertible. If $\alpha \lambda$ is invertible, then, again since $V$ is local, $\alpha$ must be invertible and $(y) \subset (x)$. In the other case, one has $(x) \subset (y)$.
+We have thus proven that principal ideals in $V$ are totally ordered by inclusion and thus $V$ is a valuation ring.
 
 \end{proof}
 
