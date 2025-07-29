@@ -42,7 +42,7 @@ for every $x$ in both $D$ and $U$.  (That $f$ is continuous follows automaticall
 
 ## Generalisation
 
-The vector spaces $V$ and $W$ may be generalised to [[analytic manifold]]s and (more generally) [[analytic space]]s.  However, these are [[manifolds]] and [[varieties]] modelled on vector spaces using analytic [[transition functions]], so the notion of analytic function between vector spaces is most fundamental.
+The vector spaces $V$ and $W$ may be generalised to [[analytic manifold]]s and (more generally) [[analytic space]]s. However, these are [[manifolds]] and [[varieties]] modelled on vector spaces using analytic [[transition functions]], so the notion of an analytic function between vector spaces is the most fundamental.
 
 
 ## Complex-analytic functions of one variable
