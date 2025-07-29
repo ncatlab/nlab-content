@@ -3,6 +3,7 @@
 
 * [MathGeneralogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=30591)
 
+* [Collection honouring Robert Paré for his 80th birthday](https://link.springer.com/collections/dijeibfdbh)
 
 ## Selected writings
 
