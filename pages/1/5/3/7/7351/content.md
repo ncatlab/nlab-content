@@ -177,6 +177,11 @@ On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
 
 * [[Robert Paré]], _Retrocells_, Theory and Applications of Categories, Vol. 40, 2024, No. 5, pp 130-179. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/40/5/40-05abs.html), [arXiv:2306.06436](https://arxiv.org/abs/2306.06436)&rbrack;
 
+Unpublished works:
+
+* [[Robert Dawson]], [[Robert Paré]] and [[Dorette Pronk]], _Undecidability and Free Adjoints_, ([pdf](https://www.mscs.dal.ca/~pare/ISC2001.pdf))
+* [[Marco Grandis]] and [[Robert Paré]], _Persistent double limits and flexible weighted limits_, ([pdf](https://www.mscs.dal.ca/~pare/DblPrs2.pdf))
+
 category: people
 
 [[!redirects Robert Pare]]
