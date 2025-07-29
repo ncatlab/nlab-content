@@ -575,6 +575,10 @@ Group algebras play a role in the relation between [[ordered abelian groups]] an
 
 * {#Gilmer92}[[Robert Gilmer]]: *Multiplicative Ideal Theory*, Queen's Papers in Pure and Applied Mathematics (1992)
 
+On the group algebra of [[symmetric group]]:
+
+* Darij Grinberg. *An introduction to the symmetric group algebra* (2025). ([arXiv:2507.20706](https://arxiv.org/abs/2507.20706)).
+
 [[!redirects group algebras]]
 
 [[!redirects group ring]]
