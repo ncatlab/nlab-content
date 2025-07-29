@@ -399,6 +399,10 @@ That in the context of the [[axiom of choice]], the [[symmetric group]] of an [[
 
 * John Dawson; Paul Howard, *Factorials of infinite cardinals*, Fundamenta Mathematicae (1976), Volume: 93, Issue: 3, page 185-195, ISSN: 0016-2736 ([EuDML](https://eudml.org/doc/214975))
 
+On the [[group algebra]] of symmetric groups
+
+* Darij Grinberg. *An introduction to the symmetric group algebra* (2025). ([arXiv:2507.20706](https://arxiv.org/abs/2507.20706)).
+
 [[!redirects symmetric groups]]
 
 [[!redirects Sym(n)]]
