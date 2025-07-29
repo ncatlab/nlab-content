@@ -330,6 +330,8 @@ Lecture notes:
 
 * [[Francis Borceux]], *Some glances at topos theory*, lecture notes, Como (2018) &lbrack;[pdf](https://tcsc.lakecomoschool.org/files/2018/01/Borceux.pdf), [[Borceux-ToposTheory.pdf:file]], [video playlist](https://www.youtube.com/watch?v=s_fN9euuVAY&list=PLh_3Q6ZRqWs0LBptMGClJ8OArR0fBT6Pp&index=11)&rbrack;
 
+* [[Anders Kock]], [[Gavin Wraith]], _Elementary Toposes_, Aarhus Math. Lecture Notes Series No. 30 (1971) &lbrack;[pdf](https://tildeweb.au.dk/au76680/KW.pdf), [[KockWraith-ElementaryToposes.pdf:file]]&rbrack;
+
 A monograph that aims to be more expository, focusing on [[presheaf toposes]]:
 
 * [[Marie La Palme Reyes]], [[Gonzalo E. Reyes]], [[Houman Zolfaghari]], _Generic figures and their glueings.  A constructive approach to functor categories_, Polimetrica (2008) &lbrack;[pdf](https://marieetgonzalo.files.wordpress.com/2004/06/generic-figures.pdf), ISBN:8876990046&rbrack;
