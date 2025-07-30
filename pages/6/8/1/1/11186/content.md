@@ -24,4 +24,6 @@ On [[(infinity,1)-category|$(\infty,1)$-category]] [[(infinity,1)-category theor
 
 * [[(infinity,1)-module]], [[Brauer group]]
 
+* [[double infinity-category]]
+
 category: people
