@@ -26,6 +26,12 @@ The website for the old categories mailing list (categories@mta.ca):
 
 * [www.mta.ca/~cat-dist](https://www.mta.ca/~cat-dist)
 
+The link for the current categories mailing list is available on [[Jean-Simon Lemay]]'s (current moderator) website:
+
+* [https://sites.google.com/view/jspl-personal-webpage/](https://sites.google.com/view/jspl-personal-webpage/)
+
+> To subscribe, please email js.lemay@mq.edu.au or categories-admin@mq.edu.au with the word ‘subscribe’. To unsubscribe, please email js.lemay@mq.edu.au or categories-admin@mq.edu.au with the word ‘unsubscribe’. Mailing list emails are also directly posted on the zulip forum.
+
 ## See also
 
 * [[Theory and Applications of Categories]]
