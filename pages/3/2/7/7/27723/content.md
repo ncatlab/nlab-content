@@ -22,6 +22,11 @@ Early theoretical discussion of [[fractional Chern insulators]] exhibiting the [
 
 * [[Nicolas Regnault]], [[B. Andrei Bernevig]]: *Fractional Chern Insulator*, Phys. Rev. X **1** (2011) 021014  &lbrack;[arXiv:1105.4867](https://arxiv.org/abs/1105.4867), [doi:10.1103/PhysRevX.1.021014](https://doi.org/10.1103/PhysRevX.1.021014)&rbrack;
 
+On [fragile](topological+phase+of+matter#ReferencesUnstableClassificationOfTopologicalPhases) [[topological phases of matter]]:
+
+
+* Zhida Song, L. Elcoro, [[Nicolas Regnault]], [[B. Andrei Bernevig]]: *Fragile Phases As Affine Monoids: Classification and Material Examples*, Phys. Rev. X **10** 031001 (2020) \[<a href="https://doi.org/10.1103/PhysRevX.10.031001">doi:10.1103/PhysRevX.10.031001</a>, [arXiv:1905.03262](https://arxiv.org/abs/1905.03262)\]
+
 
 
 On the [[fractional quantum anomalous Hall effect]]:
