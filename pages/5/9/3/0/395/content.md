@@ -560,7 +560,7 @@ $$
 ###### Lemma
 
 For every object $B \in \mathbf{C}$ and
-everey [[path object]] $B^I$ of $B$,
+every [[path object]] $B^I$ of $B$,
 the two morphisms
 $$
   d_i : B^I \stackrel{\in W \cap F}{\to} B
@@ -630,7 +630,7 @@ with
 * $\sigma_f$ a weak equivalence that is a 
   [[section]] ( a [[inverse|right inverse]]) of an acyclic fibration:
   $$
-    Id_{\mathbf{E}_f B}
+    Id_{C}
     =
     (
      C
