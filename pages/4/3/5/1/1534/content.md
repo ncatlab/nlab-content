@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -54,16 +55,16 @@ This specifies composition uniquely.
 ###### Definition
 
 
-For $(C, \otimes)$ a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] let $End(C)$ be its [[endomorphism operad]]. A **prefactorization algebra** on $X$ with values in $C$ is an [[algebra over an operad]] over $Fact_X$ in $C$, hence a morphism of operads
+For $(C, \otimes)$ a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] and $A \in C$ an [[object]], let $End(A)$ be its [[endomorphism operad]]. A **prefactorization algebra** on $X$ with values in $A$ is an [[algebra over an operad]] over $Fact_X$ in $C$, hence a morphism of operads
 
 $$
-  \mathcal{F} : Fact_X \to End(C)
+  \mathcal{F} \colon Fact_X \to End(A)
   \,.
 $$
 
 =--
 
-These definitions appear in "[Factorization algebras in quantum field theory](https://web.archive.org/web/20150909210342/http://math.northwestern.edu/~costello/factorization.pdf)" by Costello and Gwilliam.
+These definitions appear in [Costello & Gwilliam](#CostelloGwilliam).
 
 
 ### Factorization algebras
@@ -194,9 +195,11 @@ Factorization algebras have some similarity with
 
 ## References
 
+* {#CostelloGwilliam} [[Kevin Costello]], [[Owen Gwilliam]]: *Factorization algebras in quantum field theory* &lbrack;[[CostelloGwilliam-FactorizationAlgebras.pdf:file]]&rbrack;
+
 The notion of factorization algebra may be regarded as a slight variation on the concept _[[chiral algebra]]_ originally introduced in
 
-* [[Alexander Beilinson]], [[Vladimir Drinfeld]],  _[[Chiral Algebras]]_.
+* [[Alexander Beilinson]], [[Vladimir Drinfeld]]:  _[[Chiral Algebras]]_.
 
 A definition formulated genuinely in  [[Higher Algebra]] appears in section 4.1 _Topological Chiral Homology_ of
 
