@@ -200,7 +200,7 @@ $$
    \delta \colon A \otimes (B \oplus C) \longrightarrow (A \otimes B) \oplus C
 $$
 
-which exhibit linear [[distributivity]].  The importance of this map had previously  been overlooked in the [[linear logic]] community due to the (continuing) tendency to write [[sequents]]  in a one-sided manner.  However, the importance of the map was eventually realized by a number of people, albeit usually in the case of [[posets]]. [Cockett-Seely 1997](#CockettSeely97) referred to [Lambek 1993](#Lambek93) for a survey of some of those developments.
+which exhibit linear [[distributivity]]. The importance of the map was eventually realized by a number of people, albeit usually in the case of [[posets]]. [Cockett-Seely 1997](#CockettSeely97) referred to [Lambek 1993](#Lambek93) for a survey of some of those developments.
 
 This concept was called a _weakly distributive category_  when it was presented by [[Robin Cockett]] and [[Robert Seely]] at the 1991 Durham LMS symposium on applications of categories in computer science ([Cockett-Seely 1992](#CockettSeely92) and [Cockett-Seely 1997](#CockettSeely97)). Independently, [[Valeria de Paiva]], a student of [[Martin Hyland]], also presented this concept in her PhD thesis as the category $\mathbf{GC}$, and credited conversations with [[Jean-Yves Girard]] at a 1987 Boulder conference for inspiring the construction. ([de Paiva 1991](#dePaiva91))
 
