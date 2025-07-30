@@ -34,6 +34,13 @@ Further discussion:
 * Barry Bradlyn, Zhijun Wang, Jennifer Cano, [[B. Andrei Bernevig]]:
 *Disconnected Elementary Band Representations, Fragile Topology, and Wilson Loops as Topological Indices: An Example on the Triangular Lattice*, Phys. Rev. B **99** (2019) 045140 \[<a href="https://doi.org/10.1103/PhysRevB.99.045140">doi:10.1103/PhysRevB.99.045140</a>, [arXiv:1807.09729](https://arxiv.org/abs/1807.09729)\]
 
+* Zhi-Da Song, Luis Elcoro, [[B. Andrei Bernevig]]: *Real Space Invariants: Twisted Bulk-Boundary Correspondence of Fragile Topology*, Science **367** 6479
+(2020) 794-797 \[<a href="https://doi.org/10.1126/science.aaz7650">doi:10.1126/science.aaz7650</a>, [arXiv:1910.06869](https://arxiv.org/abs/1910.06869)\]
+
+* Zhida Song, L. Elcoro, [[Nicolas Regnault]], [[B. Andrei Bernevig]]: *Fragile Phases As Affine Monoids: Classification and Material Examples*, Phys. Rev. X **10** 031001 (2020) \[<a href="https://doi.org/10.1103/PhysRevX.10.031001">doi:10.1103/PhysRevX.10.031001</a>, [arXiv:1905.03262](https://arxiv.org/abs/1905.03262)\]
+
+
+
 * Simon Becker, Zhongkai Tao, Mengxuan Yang: *Fragile topology on solid grounds: a mathematical perspective* \[<a href="https://arxiv.org/abs/2502.03442">arXiv:2502.03442\]
 
 
