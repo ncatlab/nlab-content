@@ -371,7 +371,9 @@ Let $\mathcal{M} \subseteq \mathcal{B}(\mathcal{H})$ be a von Neumann algebra. T
 
 1. every von Neumann subalgebra of $\mathcal{M}$ is atomic,
 
-1. every [[self-adjoint operator]] in $\mathcal{M}$ has an [[Hilbert space|orthonormal basis]] of [[eigenvector|eigenvectors]] in $\mathcal{H}$.
+1. every [[self-adjoint operator]] in $\mathcal{M}$ has an [[Hilbert space|orthonormal basis]] of [[eigenvector|eigenvectors]] in $\mathcal{H}$,
+
+1. the group of [[unitary operator|unitaries]] in $\mathcal{M}$ is compact in the [[von Neumann algebra|ultraweak topology]].
 
 \end{theorem}
 
@@ -379,7 +381,7 @@ Von Neumann algebras of this kind are sometimes called hereditarily atomic, refe
 
 Overall, we have an [[equivalence of categories|equivalence]] of [[symmetric monoidal category|symmetric monoidal categories]] between the [[opposite category]] $qSet^{op}$ and the [[full subcategory]] of hereditarily atomic von Neumann algebras. In effect, this generalizes the familiar equivalence between $Set^{op}$ and the category of [[complete Boolean algebra|complete atomic Boolean algebras]]. The projection operators in a von Neumann algebra form a [[complete lattice|complete]] [[orthomodular lattice]], which is a Boolean algebra iff the von Neumann algebra is commutative.
 
-The material in this section is mostly from [Kornell 2020](#Kornell20).
+The material in this section is mostly from [Kornell 2020](#Kornell20) and [Chirvasitu 2025](#Chirvasitu25).
 
 ## Quantum sets as bundles
 
@@ -427,6 +429,8 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
 * {#KornellLindenhoviusMislove22} [[Andre Kornell]], [[Bert Lindenhovius]], [[Michael Mislove]], *A category of quantum posets*, Indag. Math. **33** (2022).
 
 * {#Kornell24} [[Andre Kornell]], *Discrete quantum structures II: Examples*, J. Noncommut. Geom. **18** (2024).
+
+* {#Chirvasitu25} [[Alexandru Chirvasitu]], *Spans of quantum-inequality projections* (2025), [arxiv:2504.01746](https://arxiv.org/abs/2504.01746).
 
 * {#JencaLindenhovius25} Gejza Jenča, [[Bert Lindenhovius]],  *Monoidal quantaloids* (2025), [arXiv:2504.18266](https://arxiv.org/abs/2504.18266).
 
