@@ -42,5 +42,7 @@ The [[point groups]] $G$ arising are the [[cyclic groups]] $\mathbb{Z}_{/1}=$[[t
 
 [[pgTorusCellStructure-20250726b.png:file]]
 
+[[pmgTorusCellStructure-20250730.png:file]]
+
 
 
