@@ -93,7 +93,7 @@ Just as adjunctions give rise to [[monad|monads]] and [[comonad|comonads]],
 
 (with the units and counits respectively induced as described above).
 
-Conversely, there are anlogues of the [[Kleisli category]] and [[Eilenberg–Moore category]] for relative monads and relative comonads, which induce the relative monads and relative comonads.
+Conversely, there are analogues of the [[Kleisli category]] and [[Eilenberg–Moore category]] for relative monads and relative comonads, which induce the relative monads and relative comonads.
 
 ## Examples ##
 
