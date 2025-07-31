@@ -269,7 +269,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 \end{example}
 
 
-This completes the list of the symmorphic cases. Two of the remaining 4 non-symmorphic cases follows:
+This completes the list of the symmorphic cases. Three of the remaining 4 non-symmorphic cases follows:
 
 
 \begin{example}\label{TorusWithpgGlideReflectionAction}
@@ -297,6 +297,25 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 
 \begin{imagefromfile}
     "file_name": "pmgTorusCellStructure-20250730.png",
+    "width": 550,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 30,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+\end{example}
+
+
+\begin{example}\label{TorusWithPGGAction}
+**(pgg)**
+Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with rotation and glide reflection action corresponding to the [[wallpaper group]] $p g g$:
+
+\begin{imagefromfile}
+    "file_name": "pggTorusCellStructure-20250731.png",
     "width": 550,
     "unit": "px",
     "margin": {
