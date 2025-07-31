@@ -14,7 +14,7 @@
 
 ## Idea
 
-Broadly speaking, **conceptual completeness** for a logical [[doctrine]] refers to the following statement: if an [[interpretation]] $T_1 \to T_2$ between two [[theories]] of the doctrine induces an [[equivalence]] $\operatorname{Mod}(T_2) \to \operatorname{Mod}(T_1)$ between the categories of [[models]], then the two theories are bi-interpretable. **Strong conceptual completeness**, instead, refers to the possibility of reconstructing a theory of the doctrine from an appropriate structure formed by the models of the theory, which clearly entails the weaker form above.
+Broadly speaking, **conceptual completeness** for a logical [[doctrine]] refers to the following statement: if an [[interpretation]] $T_1 \to T_2$ between two [[theories]] of the doctrine induces an [[equivalence]] $\operatorname{Mod}(T_2) \to \operatorname{Mod}(T_1)$ between the categories of [[models]], then the two theories are bi-interpretable. **Strong conceptual completeness**, instead, refers to the possibility of reconstructing a theory of the doctrine from an appropriate structure formed by the models of the theory. 
 
 To make this idea more formal, consider [[Stone duality]] for [[Boolean algebras]], that is, the [[dual equivalence]] between Boolean algebras and [[Stone spaces]] realized by ${2}$ as a [[dualizing object]]
 \begin{tikzcd}
@@ -29,6 +29,10 @@ and recall that we can identify Boolean algebras with [[Lindenbaum-Tarski algebr
 
 2. _strong conceptual completeness_, instead, corresponds to the isomorphism $B \cong \mathbf{StoneSp}(X_B, 2)$ for each Boolean algebra $B$, expressing how the Stone topology on the set $X_B$ of models of $B$ allows to reconstruct $B$ up to isomorphism, or in other words to the fully-faithfulness of the functor $\mathbf{BoolAlg}(-,2) \colon \mathbf{BoolAlg}^{op} \to \mathbf{StoneSp}$.
 
+\begin{remark}
+In these terms, it's not always true that strong conceptual completeness, for a logical doctrine, entails conceptual completeness: for example, [[ultracategories|virtual ultracategories]] allow for a strong conceptual completeness theorem for [[geometric logic]], but the latter does not enjoy conceptual completeness. More precisely, it's not true that a geometric morphism $\mathcal{E} \to \mathcal{F}$ between toposes (even [[points of a topos|with enough points]]) inducing an [[equivalence]] of categories $\operatorname{Mod}(\mathcal{E}) \to \operatorname{Mod}(\mathcal{F})$ is an equivalence itself.
+\end{remark}
+
 ## Conceptual completeness for coherent logic
 
 In the case of [[coherent logic]], _conceptual completeness_ refers to the result of [Makkai and Reyes '77](#MakRey) that the [[enriched hom-functor|hom-2-functor]] ${\mathbf{Pretop}}(-,{Set}) : \mathbf{Pretop}^{op} \to \mathbf{CAT}$, for the [[2-category]] $\mathbf{Pretop}$ of ([[small category|small]]) [[pretoposes]], reflects equivalences. 
@@ -42,7 +46,7 @@ is an equivalence of categories, then so is $F$.
 Recall indeed that pretoposes can be identified with ([[syntactic categories]] of) coherent theories up to [[elimination of imaginaries]], so that a pretopos morphism $P_1 \to P_2$ corresponds to an interpretation of the theory $P_1$ into the theory $P_2$, or equivalently to a model of the theory $P_1$ inside the category $P_2$; in particular, a pretopos morphism into [[Set]] is therefore a model of the source theory. In these terms, conceptual completeness states that if an interpretation $T_1 \to T_2$ between two coherent theories induces an equivalence $\operatorname{Mod}(T_2) \to \operatorname{Mod}(T_1)$ between the categories of models, then $T_1$ and $T_2$ are bi-interpretable up to elimination of imaginaries, that is, $T_1^{eq}$ and $T_2^{eq}$ are bi-interpretable. 
 
 \begin{remark}
-The above theorem can also be interpreted as a "semantic" characterization of pretoposes among [[coherent categories]], instead of their "syntactic" characterization as (syntactic categories of) coherent theories admitting elimination of imaginaries.   First note that, as stated in [Theorem 7.1.8, Makkai and Reyes '77](#MakRey), the theorem above holds also if the target category is merely a coherent category: that is, if $F \colon P \to C$ is a [[coherent functor]] from a pretopos $P$ to a coherent category $C$ such that $-\circ F \colon \operatorname{Mod}(C) \to \operatorname{Mod}(P)$ is an equivalence of categories, then $F$ is an equivalence itself. Call now a coherent functor $C \to C'$ an _extension_ of $C$. An extension $I \colon C \to C'$ of a coherent category $C$ is:
+The above theorem can also be interpreted as a "semantic" characterization of pretoposes among [[coherent categories]], instead of their "syntactic" characterization as (syntactic categories of) coherent theories admitting elimination of imaginaries.   First note that, as stated in [Theorem 7.1.8, Makkai and Reyes '77](#MakRey), the theorem above holds also if the target category is merely a coherent category: that is, if $F \colon P \to C$ is a [[coherent functor]] from a pretopos $P$ to a coherent category $C$ such that $F^* \colon \operatorname{Mod}(C) \to \operatorname{Mod}(P)$ is an equivalence of categories, then $F$ is an equivalence itself. Call now a coherent functor $C \to C'$ an _extension_ of $C$. An extension $I \colon C \to C'$ of a coherent category $C$ is:
 
 1. _tight_ (or _strongly conservative_ in [Makkai and Reyes](#MakRey)) if $I^* \colon \operatorname{Mod}(C') \to \operatorname{Mod}(C)$ is an equivalence of categories;
 
@@ -110,26 +114,43 @@ In his AMS monograph on duality and definability in first-order logic, Makkai re
 
 ##References
 
-* {#MakRey} [[Michael Makkai]] and [[Gonzalo Reyes]], _First order categorical logic: Model-theoretical methods in the theory of topoi and related categories_, Springer-Verlag, 1977.
+For coherent logic:
+
+* {#MakRey} [[Michael Makkai]] and [[Gonzalo Reyes]], _First order categorical logic: Model-theoretical methods in the theory of topoi and related categories_, Springer-Verlag, 1977 ;
 
 * {#Makkai87} [[Mihaly Makkai]], _Stone duality for first-order logic_, Adv. Math. __65__ 2 (1987) 97--170 &lbrack;<a href="https://doi.org/10.1016/0001-8708(87)90020-X">doi:10.1016/0001-8708(87)90020-X</a>,  [MR89h:03067](http://www.ams.org/mathscinet-getitem?mr=900266)&rbrack;
 
-* {#Pitts86} [[Andrew Pitts]], _Interpolation and Conceptual Completeness for Pretoposes via Category Theory_, Mathematical Logic and Theoretical Computer Science, **106** (1987), pp. 301-327.
+* {#Pitts86} [[Andrew Pitts]], _Interpolation and Conceptual Completeness for Pretoposes via Category Theory_, Mathematical Logic and Theoretical Computer Science, **106** (1987), pp. 301-327 ;
 
-* [[Michael Makkai]], _Strong Conceptual Completeness for First-Order Logic_ , APAL **40** (1988) pp.167-215.  (freely available online)
+* [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. II_ , Oxford UP 2002 (sec. D3.5, pp.931-939) ;
+
+* Victor Harnik, _Model theory vs. categorical logic: two approaches to pretopos completion (a.k.a. $T^{eq}$)_, in: Models, logics, and higher-dimensional categories, 79&#8211;106 (Makkai volume), CRM Proc. Lecture Notes __53__, Amer. Math. Soc. 2011; [gBooks](http://books.google.fr/books?id=-PZpEXuvvm4C&lpg=PA79&ots=uB-pruKFx8&dq=Victor%20Harnik%20pretopos%20completion&pg=PA79#v=onepage&q=Victor%20Harnik%20pretopos%20completion&f=false) ;
+
+* {#Lurie} [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf)) .
+
+For [[first-order logic]]:
+
+* [[Michael Makkai]], _Strong Conceptual Completeness for First-Order Logic_ , APAL **40** (1988) pp.167-215 (freely available online) ;
 
 * {#Pitts89} [[Andrew Pitts]], _Conceptual completeness for first-order Intuitionistic logic: an application of categorical logic_, APAL, **41** (1987), pp. 38-81.
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. II_ , Oxford UP 2002. (sec. D3.5, pp.931-939)
+For geometric logic:
 
-* Victor Harnik, _Model theory vs. categorical logic: two approaches to pretopos completion (a.k.a. $T^{eq}$)_, in: Models, logics, and higher-dimensional categories, 79&#8211;106 (Makkai volume), CRM Proc. Lecture Notes __53__, Amer. Math. Soc. 2011; [gBooks](http://books.google.fr/books?id=-PZpEXuvvm4C&lpg=PA79&ots=uB-pruKFx8&dq=Victor%20Harnik%20pretopos%20completion&pg=PA79#v=onepage&q=Victor%20Harnik%20pretopos%20completion&f=false) 
+* {#Saadia} Gabriel Saadia, _Extending conceptual completeness via virtual ultracategories_ &lbrack;[arXiv:2506.23935](https://arxiv.org/abs/2506.23935)&rbrack; ;
 
-* {#Lurie} [[Jacob Lurie]], _Ultracategories_, ([pdf](http://www.math.harvard.edu/~lurie/papers/Conceptual.pdf))
+* {#HamadGen} Ali Hamad, *Generalised ultracategories and conceptual completeness of geometric logic* &lbrack;[arXiv:2507.07922](https://arxiv.org/abs/2507.07922)&rbrack; .
 
+For continuous logic:
+
+* {#AlbertHart} Jean-Martin Albert, Bradd Hart. _Metric logical categories and conceptual completeness for first order continuous logic_, &lbrack;[arXiv:1607.03068](https://arxiv.org/abs/1607.03068)&rbrack; .
+
+For $\mathcal{L}_{\omega_1,\omega}$:
+
+* Ruiyuan Chen, _Borel functors, interpretations, and strong conceptual completeness for $\mathcal{L}_{\omega_1,\omega}$_, Trans. Am. Math. Soc., **372** (2019) pp. 8955-8983 .
 
 An approach which reframes conceptual completeness in terms of [[logical schemes]] is adopted in section 4.4 of
 
-* [[Spencer Breiner]], _Scheme representation for first-order logic_, ([arXiv:1402.2600](http://arxiv.org/abs/1402.2600))
+* [[Spencer Breiner]], _Scheme representation for first-order logic_, &lbrack;[arXiv:1402.2600](http://arxiv.org/abs/1402.2600)&rbrack; .
 
 For the $(\infty, 1)$-analog of conceptual completeness, see section A.9 of 
 
