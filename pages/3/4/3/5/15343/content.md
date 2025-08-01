@@ -138,7 +138,10 @@ For geometric logic:
 
 * {#Saadia} Gabriel Saadia, _Extending conceptual completeness via virtual ultracategories_ &lbrack;[arXiv:2506.23935](https://arxiv.org/abs/2506.23935)&rbrack; ;
 
-* {#HamadGen} Ali Hamad, *Generalised ultracategories and conceptual completeness of geometric logic* &lbrack;[arXiv:2507.07922](https://arxiv.org/abs/2507.07922)&rbrack; .
+* {#HamadGen} Ali Hamad, *Generalised ultracategories and conceptual completeness of geometric logic* &lbrack;[arXiv:2507.07922](https://arxiv.org/abs/2507.07922)&rbrack;
+
+
+* Ivan Di Liberti, _Towards Higher Topology_ &lbrack;[arXiv:2009.14145](https://arxiv.org/abs/2009.14145)&rbrack;.
 
 For continuous logic:
 
