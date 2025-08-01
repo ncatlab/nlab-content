@@ -63,7 +63,7 @@ $$ T^2 A \;\underoverset{T a}{\mu_A}{\rightrightarrows}\; T A \overset{a}{\right
 
 called the [[canonical presentation]] of the algebra $(A,a)$, is a split coequalizer in $C$ (and a [[reflexive coequalizer]] in the [[Eilenberg-Moore category|category of]] $T$-algebras).  The splittings are given by $s = \eta_A \colon A \to T A$ and $t = \eta_{T A} \colon T A \to T^2 A$.  (Here $\mu$ and $\eta$ are the multiplication and unit of the monad $T$.)
 
-This split coequalizer figures prominently in Beck's [[monadicity theorem]], whence also called the _[[Beck coequalizer]]_.
+This split coequalizer figures prominently in Beck's [[monadicity theorem]], whence also called the _Beck coequalizer_.
 
 See also at _[Eilenberg-Moore category -- As a colimit completion of the Kleisli category](Eilenberg-Moore+category#AsColimitCompletionOfKleisliCategory)_.
 
@@ -82,3 +82,14 @@ See also [[split equalizer]].
 [[!redirects split coequalisers]]
 [[!redirects contractible pair]]
 [[!redirects contractible pairs]]
+
+
+[[!redirects Beck coequalizer]]
+[[!redirects Beck coequalizers]]
+[[!redirects Beck coequaliser]]
+[[!redirects Beck coequalisers]]
+
+[[!redirects Beck equalizer]]
+[[!redirects Beck equalizers]]
+[[!redirects Beck equaliser]]
+[[!redirects Beck equalisers]]
