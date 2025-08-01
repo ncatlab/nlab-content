@@ -155,7 +155,7 @@ See also:
 
 * {#Pisani14} [[Claudio Pisani]], _Sequential multicategories_, Theory and Applications of Categories 29.19 (2014), [arXiv:1402.0253](https://arxiv.org/abs/1402.0253)
 
-In this paper Elmendorf and Mandell use "multicategory" to mean what others call a *symmetric* multicategory, or symmetric colored operad:
+In the following paper Elmendorf and Mandell use "multicategory" to mean what others call a *symmetric* multicategory, or symmetric colored operad. Comonadicity is proven in section 4.3.
 
 * {#ElmendorfMandell2007} A. D. Elmendorf and M. A. Mandell, _Permutative categories, multicategories, and algebraic K-theory_ Algebraic & Geometric Topology 9.4 (2009): 2391-2441. ([arXiv:0710.0082](https://arxiv.org/abs/0710.0082))
 
