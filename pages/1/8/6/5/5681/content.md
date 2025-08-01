@@ -125,9 +125,7 @@ $$
 
 ## Examples
 
-* In an [[(∞,1)-topos]] the classe of [[n-connected]] and that of [[n-truncated]] morphisms form an orthogonal factorization system, for all $(-2) \leq n \leq \infty $. 
-
-  See [[(n-connected, n-truncated) factorization system]].
+* In an [[(∞,1)-topos]] the class of [[n-connected]] morphisms and the class of [[n-truncated]] morphisms form an orthogonal factorization system, for all $(-2) \leq n \leq \infty $. See [[(n-connected, n-truncated) factorization system]].
 
 
 ## Related concepts
