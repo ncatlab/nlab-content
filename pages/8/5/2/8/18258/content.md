@@ -17,7 +17,7 @@
 
 ## Definition
 
-Given a [[topological space]] $X$, then a set of [[subset]] $\{S_i \subset X\}_{i \in I}$ is _locally finite_ if every point $x \in X$ has an open neighbourhood that[[intersection|intersects]] only a [[finite number]] of the $S_i$.
+Given a [[topological space]] $X$, then a set of [[subset]] $\{S_i \subset X\}_{i \in I}$ is _locally finite_ if every point $x \in X$ has an open neighbourhood that [[intersection|intersects]] only a [[finite number]] of the $S_i$.
 
 Often this property is considered for [[open covers]], see at _[[locally finite open cover]]_. But the condition also plays a role for collections of subsets which are not open or not covering, for instance in [[Michael's theorem]] ([Michael 53, theorem 1](#Michael53)).
 
