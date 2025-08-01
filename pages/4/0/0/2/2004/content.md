@@ -323,15 +323,5 @@ An analogue of the pullback theorem for [[lax algebras]] (there confusingly call
 [[!redirects T Alg]]
 [[!redirects T alg]]
 
-[[!redirects Beck coequalizer]]
-[[!redirects Beck coequalizers]]
-[[!redirects Beck coequaliser]]
-[[!redirects Beck coequalisers]]
-
-[[!redirects Beck equalizer]]
-[[!redirects Beck equalizers]]
-[[!redirects Beck equaliser]]
-[[!redirects Beck equalisers]]
-
 [[!redirects category of algebras over a monad]]
 [[!redirects category of algebras for a monad]]
