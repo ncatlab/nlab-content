@@ -192,6 +192,8 @@ This produces [[baryon]] [[mass]] spectra with moderate quantitative agreement w
 
 * Eef van Beveren, George Rupp, _Scalar and axial-vector mesons_, Eur. Phys. J. A31:468-473, 2007 ([arXiv:hep-ph/0610199](https://arxiv.org/abs/hep-ph/0610199))
 
+* Horst Lenske, Igor Strakovsky: *Hadron Production Processes* &lbrack;[arXiv:2507.21144](https://arxiv.org/abs/2507.21144)&rbrack;
+
 
 
 Origin of [[effective field theory]] of [[mesons]] in [[nuclear physics]], via [[hidden local gauge symmetry]]:
