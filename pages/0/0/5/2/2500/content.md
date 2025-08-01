@@ -597,10 +597,11 @@ S. Duplij, J. Bagger, W. Siegel (Eds.), Springer, 2004](http://www.springer.com/
 
 * [[Stanley Deser]], _A brief history of Supergravity: the first three weeks_ ([arXiv:1704.05886](https://arxiv.org/abs/1704.05886))
 
-See also:
-
 * [[Bernard L. Julia]]: *An exceptional story: Symmetries and dualities between Maximal supergravity and General relativity*, in: *Half a Century of Supergravity* &lbrack;[arXiv:2504.07576](https://arxiv.org/abs/2504.07576)&rbrack;
 
+* [[Peter West]]: *The discovery of supergravity and its early development* &lbrack;[arXiv:2507.23634](https://arxiv.org/abs/2507.23634)&rbrack;
+
+See also:
 
 * _[supersymmetry -- History](supersymmetry#ReferencesHistory)_.
 
