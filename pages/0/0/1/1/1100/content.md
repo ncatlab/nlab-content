@@ -368,7 +368,7 @@ The term *$\infty$-topos* is due to
 
 The term *[[model topos]]* was later coined in:
 
-* {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
+* {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](https://rezk.web.illinois.edu/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
 
 
 A comprehensive conceptualization and discussion of [[(∞,1)-toposes]] is then due to 
