@@ -15,10 +15,10 @@
 
 ## Idea
 
-$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. Its underlying topological space has the [[prime ideal]]s of $\mathbb{Z}$ as points, carrying the [[Zariski topology]]. The [[closed points]] are the [[maximal ideals]] $(p)$, for each [[prime number]] $p$ in $\mathbb{Z}$; the non-maximal [[prime ideal]] $(0)$ is a [[generic point]] and has as closure the whole of $Spec(\mathbb{Z})$. 
-A subset of $Spec(\mathbb{Z})$ is closed if and only if it is all of $Spec(\mathbb{Z})$ or consists of finitely many points of the form $(p)$ with $p$ prime.
+$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. Its [[underlying]] [[topological space]] has the [[prime ideals]] of $\mathbb{Z}$ as points, carrying the [[Zariski topology]]. The [[closed points]] are the [[maximal ideals]] $(p)$, for each [[prime number]] $p$ in $\mathbb{Z}$; the non-maximal [[prime ideal]] $(0)$ is a [[generic point]] and has as [[topological closure|closure]] the whole of $Spec(\mathbb{Z})$. 
+A [[subset]] of $Spec(\mathbb{Z})$ is [[closed subset|closed]] if and only if it is all of $Spec(\mathbb{Z})$ or consists of finitely many points of the form $(p)$ with $p$ prime.
 
-As a [[ringed space]], $Spec(\mathbb{Z})$ carries a [[structure sheaf]] $\mathcal{O}$ which is a sheaf of commutative rings on the space $Spec(\mathbb{Z})$. Given a typical open set
+As a [[ringed space]], $Spec(\mathbb{Z})$ carries a [[structure sheaf]] $\mathcal{O}$ which is a [[sheaf]] of [[commutative rings]] on the space $Spec(\mathbb{Z})$. Given a typical [[open set]]
 $$ 
   U = Spec(\mathbb{Z})\setminus \{(p_1),\ldots,(p_n)\}
 $$
@@ -32,14 +32,15 @@ The restriction morphisms are the natural inclusions.
 
 The [[stalk]] at the point $(p)$ is the local ring $\mathbb{Z}_{(p)}=\left\{\frac{a}{b}\in\mathbb{Q}\mid a\in\mathbb{Z},\  b\in\mathbb{Z}\setminus (p)\right\}$ with [[residue field]] $\mathbb{F}_p$. The stalk at $(0)$ is $\mathbb{Q}$.
 
-Since $\mathbb{Z}$ is the [[initial object]] in the [[category]] [[CRing]] of [[commutative rings]], $Spec(\mathbb{Z})$ is the [[terminal object]] in the [[category]] of [[affine schemes]].
+Since $\mathbb{Z}$ is the [[initial object]] in the [[category]] [[CRing]] of [[commutative rings]], $Spec(\mathbb{Z})$ is the [[terminal object]] in the [[category]] of [[affine schemes]], hence also among all [[schemes]]).
 
-The ''functor of points'' corresponding to $Spec(\mathbb{Z})$ is the constant functor that assigns a singleton to every commutative ring. (See [[functorial geometry]])
+The [[functor of points]] corresponding to $Spec(\mathbb{Z})$ is the [[constant functor]] that assigns a [[singleton]] to every [[commutative ring]]. (see *[[functorial geometry]]*).
 
-The [[gros topos|gros]] [[etale topos]] over $Spec(\mathbb{Z})$ is the context for [[arithmetic geometry]]. By the discussion at _[[Borger's absolute geometry]]_ it sits via an [[essential geometric morphism]] over the [[F1]]-[[topos]]:
+The [[gros topos|gros]] [[etale topos]] over $Spec(\mathbb{Z})$ is the context for [[arithmetic geometry]]. By the discussion at _[[Borger's absolute geometry]]_ it sits via an [[essential geometric morphism]] over the [[F1|$\mathbb{F}_1$]]-[[topos]]:
 
 $$
-  Et(Spec(\mathbb{Z}))\longrightarrow Et(Spec(\mathbb{F}_1))
+  Et\big(Spec(\mathbb{Z})\big)\longrightarrow Et\big(Spec(\mathbb{F}_1)\big)
+  \mathrlap{\,.}
 $$
 
 ## Properties
