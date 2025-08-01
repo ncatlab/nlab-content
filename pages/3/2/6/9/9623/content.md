@@ -1,4 +1,13 @@
 
+
+
+
+
+
+
+Jack Johnson Morava (1944-2025)
+
+
 * [institute page](https://mathematics.jhu.edu/directory/jack-morava)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Jack_Morava)
