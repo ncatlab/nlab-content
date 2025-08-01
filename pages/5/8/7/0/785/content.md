@@ -458,7 +458,7 @@ the following are equivalent
 
 1. the square is a homotopy pullback square;
 
-1. the square is a [[homotopy pushout]] squre;
+1. the square is a [[homotopy pushout]] square;
 
 1. the induced morphism on the homotopy fiber over the [[zero object]] 0 is a weak equivalence
 
