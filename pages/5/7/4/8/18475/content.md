@@ -220,6 +220,9 @@ More on application to ([[strange metal|strange]]) [[metals]]:
 
 * Benoit Doucot, Ayan Mukhopadhyay, [[Giuseppe Policastro]], Sutapa Samanta, Hareram Swain: *An effective framework for strange metallic transport* &lbrack;[arXiv:2409.02993](https://arxiv.org/abs/2409.02993)&rbrack;
 
+* Enrico Cinti, [[Sebastian De Haro]], Mark Golden, Umut Gürsoy, Henk T. C. Stoof: *Holographic Strange Metals for Philosophers and Physicists* &lbrack;[arXiv:2507.23527](https://arxiv.org/abs/2507.23527)&rbrack;
+
+
 
 
 ### Application to topological phases of matter
