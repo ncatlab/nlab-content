@@ -55,9 +55,15 @@ World Scientific, Singapore, 2009.
 
 * Magnen, Rivasseau, Seneor, _Construction of YM4 with an infrared cutoff_ ([CMP] (https://projecteuclid.org/euclid.cmp/1104253284)) 
 
-Discussion of the problem of [[quantization of Yang-Mills theory]] from the point of view of constructive field theory is in 
+Discussion of the problem of [[quantization of Yang-Mills theory]] from the point of view of constructive field theory:
 
 * Sourav Chatterjee, _Yang-Mills for probabilists_ ([arXiv:1803.01950](https://arxiv.org/abs/1803.01950))
+
+See also:
+
+* Jiasheng Lin: *Constructive Quantum Field Theory on Curved Surfaces and Related Topics* &lbrack;[arXiv:2507.21655](https://arxiv.org/abs/2507.21655)&rbrack;
+
+
 
 [[!redirects constructive QFT]]
 [[!redirects constructive field theory]]
