@@ -126,7 +126,7 @@ The statement for isomorphisms follows from the identification of sheaves with [
 Let $X$ be a smooth manifold and let $\Omega^n(X)$ and $Z^{n+1}(X)$ be the sheaves of differential $n$-forms and that of _closed_ differential $(n+1)$-forms on $X$, respectively, for some $n \in \mathbb{N}$. Let
 
 $$
-  d : \Omega^n(X) \to Z^{n+1}
+  d : \Omega^n(X) \to Z^{n+1}(X)
 $$
 
 be the morphism of sheaves that is given on each open subset by the deRham differential.
