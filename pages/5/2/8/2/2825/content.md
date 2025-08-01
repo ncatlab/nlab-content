@@ -25,7 +25,7 @@ On the [[homotopy theory of homotopy theories]] (the [[(infinity,1)-category of 
 
 Introducing [[model toposes]]/[[(∞,1)-toposes]]:
 
-* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
+* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](https://rezk.web.illinois.edu/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
 
 Introducing [[quasi-elliptic cohomology]]:
 
