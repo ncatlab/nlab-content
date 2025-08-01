@@ -125,6 +125,9 @@ On [[bosonic M-theory]] via [[Kac-Moody algebra]] [[U-duality]] symmetry:
 
 * [[Keith Glennon]], [[Peter West]]: *$K_{27}$ as a symmetry of closed bosonic strings and branes* &lbrack;[arXiv:2409.08649](https://arxiv.org/abs/2409.08649)&rbrack;
 
+On the History of [[supergravity]]:
+
+* [[Peter West]]: *The discovery of supergravity and its early development* &lbrack;[arXiv:2507.23634](https://arxiv.org/abs/2507.23634)&rbrack;
 
 
 ## Related entries
