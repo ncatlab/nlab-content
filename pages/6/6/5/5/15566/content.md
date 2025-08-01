@@ -15,10 +15,10 @@
 
 ## Idea
 
-$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. Its [[underlying]] [[topological space]] has the [[prime ideals]] of $\mathbb{Z}$ as points, carrying the [[Zariski topology]]. The [[closed points]] are the [[maximal ideals]] $(p)$, for each [[prime number]] $p$ in $\mathbb{Z}$; the non-maximal [[prime ideal]] $(0)$ is a [[generic point]] and has as [[topological closure|closure]] the whole of $Spec(\mathbb{Z})$. 
+$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. Its [[underlying]] [[topological space]] (also known as the "prime spectrum" or "Zariski spectrum" of \mathbb{Z}) has the [[prime ideals]] of $\mathbb{Z}$ as points and carries the [[Zariski topology]]. The [[closed points]] are the [[maximal ideals]] $(p)$, for each [[prime number]] $p$ in $\mathbb{Z}$; the non-maximal [[prime ideal]] $(0)$ is a [[generic point]] as it has as [[topological closure|closure]] the whole of $Spec(\mathbb{Z})$. 
 A [[subset]] of $Spec(\mathbb{Z})$ is [[closed subset|closed]] if and only if it is all of $Spec(\mathbb{Z})$ or consists of finitely many points of the form $(p)$ with $p$ prime.
 
-As a [[ringed space]], $Spec(\mathbb{Z})$ carries a [[structure sheaf]] $\mathcal{O}$ which is a [[sheaf]] of [[commutative rings]] on the space $Spec(\mathbb{Z})$. Given a typical [[open set]]
+As a [[ringed space]], $Spec(\mathbb{Z})$ carries a [[structure sheaf]] $\mathcal{O}$ which is a [[sheaf]] of [[commutative rings]] on the Zariski spectrum of $\mathbb{Z}$. Given a typical [[open set]]
 $$ 
   U = Spec(\mathbb{Z})\setminus \{(p_1),\ldots,(p_n)\}
 $$
@@ -31,6 +31,8 @@ $$
 The restriction morphisms are the natural inclusions. 
 
 The [[stalk]] at the point $(p)$ is the local ring $\mathbb{Z}_{(p)}=\left\{\frac{a}{b}\in\mathbb{Q}\mid a\in\mathbb{Z},\  b\in\mathbb{Z}\setminus (p)\right\}$ with [[residue field]] $\mathbb{F}_p$. The stalk at $(0)$ is $\mathbb{Q}$.
+
+The idea here is that a rational number $a/b$ with coprime integers $a,b$ acts like a [[rational function]] on the prime spectrum $Spec(\mathbb{Z})$ (which we think of as analogous to a complex variety, say), having a pole at $(p)$ whenever the prime $p$ divides $b$, and assigning the value $(a+(p))/(b+(p))\in\mathbb{F}_p$ to $(p)$ when $p$ does not divide $b$. In this view, the structure sheaf $\mathcal{O}$ is the sheaf of regular functions, i.e. $\mathcal{O}(U)$ consists of those "functions" that have no poles in $U$.
 
 Since $\mathbb{Z}$ is the [[initial object]] in the [[category]] [[CRing]] of [[commutative rings]], $Spec(\mathbb{Z})$ is the [[terminal object]] in the [[category]] of [[affine schemes]], hence also among all [[schemes]]).
 
