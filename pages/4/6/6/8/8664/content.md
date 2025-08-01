@@ -52,7 +52,7 @@ This appears as [Rezk, 6.1](#Rezk).
 
 The terminology "model topos" is due to:
 
-* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
+* {#Rezk} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](https://rezk.web.illinois.edu/homotopy-topos-sketch.pdf), [[Rezk_HomotopyToposes.pdf:file]])
 
 Essentially this idea appears earlier in:
 
