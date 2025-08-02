@@ -124,7 +124,7 @@ Define two [[functions]] between their [[power sets]] $P(X), P(Y)$, as follows.
 
 The construction in def. \ref{GaloisConnectionFromRelation} has the following properties:
 
-1. $V_E$ and $I_E$ are [[contravariant functor|contravariant]] order-preserving in that
+1. $V_E$ and $I_E$ are order-reversing ([[contravariant functor]]s) in that
 
    1. if $S \subset S'$, then $V_E(S') \subset V_E(S)$;
 
@@ -161,7 +161,7 @@ Regarding the first point: the larger $S$ is, the more conditions that are place
 
 Regarding the second point:  This is because both these conditions are equivalent to the condition $S \times T \subset E$.
 
-Regarding the third point: Observe that in a poset such as $P(Y)$, we have that $A = B$ iff for all $C$, $C \leq A$ iff $C \leq B$ (this is the [[Yoneda lemma]] applied to posets). It follows that
+Regarding the third point: Observe that in a poset such as $P(Y)$, we have that $A = B$ iff for all $C$, $C \leq A$ iff $C \leq B$ (this is the [[Yoneda lemma]] applied to posets). We compute
 
 $$
   \array{
@@ -282,7 +282,7 @@ $$
   im(V_E)^{op}
 $$
 
-now called a _[[Galois correspondence]]_.
+now called a _Galois correspondence_.
 
 =--
 
