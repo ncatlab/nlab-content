@@ -36,6 +36,9 @@ The [[point groups]] $G$ arising are the [[cyclic groups]] $\mathbb{Z}_{/1}=$[[t
 
 [[p4mTorusCellStructure-20250722.png:file]]
 
+[[p4gTorusCellStructure-20250802.png:file]]
+
+
 [[p6TorusCellStructure-20250722.png:file]]
 
 [[p6mTorusCellStructure-20250722.png:file]]
