@@ -46,9 +46,9 @@ A __convex space__ is a [[set]] $X$ equipped with:
 such that the following identities always hold:
 
 *  $c_0(x,y) = x$,
-*  $c_p(x,x) = x$ for all $p \in P$,
-*  $c_p(x,y) = c_{1-p}(y,x)$ for all $p \in P$ (in semiring case replace $1-p$ by $q$ and require that $p+q = 1$),
-* $c_p(x, c_q(y,z)) = c_{p q}(c_r(x,y),z)$ for all $p,q,r \in P$ satisfying $p(1 - q) = (1 - p q)r$.
+*  $c_p(x,x) = x$ for all $p \in Q$,
+*  $c_p(x,y) = c_{1-p}(y,x)$ for all $p \in Q$ (in semiring case replace $1-p$ by any choice of $q \in Q$ that satisfies $p+q = 1$),
+* $c_p(x, c_q(y,z)) = c_{p q}(c_r(x,y),z)$ for all $p,q,r \in Q$ satisfying $p(1 - q) = (1 - p q)r$.
 
 As a consequence of the first and third axioms, $c_1(x,y) = c_0(y,x) = y$.
 
