@@ -27,9 +27,9 @@ The example that gives the concept its name is the relation between [[subgroups]
  {#Definition}
 
 
-Given [[posets]] $A$ and $B$, a __Galois connection__ between $A$ and $B$ is a pair of order-reversing [[functions]] $f \colon A\to B$ and $g \colon B\to A$ such that $a\le g(f(a))$ and $b\le f(g(b))$ for all $a\in A$, $b\in B$.
+Given [[posets]] $(A,\le)$ and $(B,\le)$, a __Galois connection__ between $A$ and $B$ is a pair of order-reversing [[functions]] $f \colon A\to B$ and $g \colon B\to A$ such that $a\le g(f(a))$ and $b\le f(g(b))$ for all $a\in A$, $b\in B$.
 
-A **Galois correspondence** is a Galois connection which is an [[adjoint equivalence]] (so $a = g(f(a))$ and $b = f(g(b))$ for all $a \in A$, $b \in B$). 
+A **Galois correspondence** is a Galois connection which is an [[adjoint equivalence]], i.e. $a = g(f(a))$ and $b = f(g(b))$ for all $a \in A$, $b \in B$. 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -38,7 +38,7 @@ Any Galois connection $f: A \to B$, $g: B \to A$ induces a Galois correspondence
 
 +-- {: .proof} 
 ###### Proof 
-For any $a \in A$ of the form $a = g(b)$, we have $a \leq (g \circ f)(a)$ and also $(g \circ f)(a) = g(f(g(b))) \leq g(b) = a$ where the inequality follows from $b \leq f(g(b))$ and antitonicity of $g$. Hence $(g \circ f)(a) = a$ for all $a \in g(B)$. Similarly $(f \circ g)(b) = b$ for all $b \in f(A)$. 
+For any $a \in A$ of the form $a = g(b)$, we have $a \leq (g \circ f)(a)$ and also $(g \circ f)(a) = g(f(g(b))) \leq g(b) = a$ where the last inequality follows from $b \leq f(g(b))$ by applying the order-reversing function $g$. Hence $(g \circ f)(a) = a$ for all $a \in g(B)$. Similarly $(f \circ g)(b) = b$ for all $b \in f(A)$. 
 =-- 
 
 
