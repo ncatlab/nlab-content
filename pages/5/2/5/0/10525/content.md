@@ -18,7 +18,7 @@ Just as a [[Jordan algebra]] that happens to be associative is the same thing as
 
 One can also consider Jordan $*$-algebras and the like, but the interesting thing is that important results about $C^*$-[[C-star-algebra|algebras]] have analogues already for $JB$-algebras. Instead of an involution, we can add a compatible [[Lie algebra]] structure to a Jordan algebra; then even *without* assuming associativity or commutativity, a [[Jordan–Lie algebra]] over the [[real numbers]] is the same thing as an associative $*$-algebra over the [[complex numbers]], up to [[equivalence of categories]], and this extends to lower rows.
 
-The right column is discussed at [[Jordan–Lie–Banach algebra]]; here we discuss the middle column (assuming the top row and left column as known).
+The right column is discussed at [[Jordan–Lie–Banach algebra]]; here we discuss the middle column (assuming the top item and left column as known).
 
 
 ## Definitions
