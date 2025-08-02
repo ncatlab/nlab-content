@@ -81,8 +81,8 @@ which yields a contradiction if $\epsilon\lt1$.
 \end{example}
 
 \begin{example}
-The [[measure space]] in the last example is quite pathological: it is not [[localizable]].
-A [[localizable]] example can be constructed if and only if [[real-valued-measurable cardinals]] exist.
+The [[measure space]] in the last example is quite pathological: it is not [[localizable measure | localizable]].
+A [[localizable measure | localizable]] example can be constructed if and only if [[real-valued-measurable cardinals]] exist.
 In this case, take $X$ to be a [[real-valued-measurable cardinal]],
 $\mu\colon 2^X\to[0,\infty]$ to be the counting measure,
 and $\nu\colon 2^X\to[0,1]$ a probability measure that vanishes on all countable subsets of $X$.
