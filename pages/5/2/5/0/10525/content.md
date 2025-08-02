@@ -93,7 +93,7 @@ Recall that a Jordan algebra is __[[special Jordan algebra|special]]__ if it has
 +-- {: .num_defn}
 ###### Definition
 
-A __$JC$-algebra__ is $JB$-algebra that has a faithful representation on a Hilbert space.  A __$JW$-algebra__ is a $JBW$-algebra that\'s also a $JC$-algebra.
+A __$JC$-algebra__ is a $JB$-algebra that has a faithful representation on a Hilbert space.  A __$JW$-algebra__ is a $JBW$-algebra that\'s also a $JC$-algebra.
 =--
 
 This follows if the $JB$-algebra has any injective homomorphism to the algebra of [[Hermitian operators]] in any $C^*$-algebra, by the theorem that every abstract $C^*$-algebra may be made concrete.  But this theorem does *not* itself have an analogue for $JB$-algebras; the [[Albert algebra]] $\mathfrak{h}_3(\mathbb{O})$ is a $JB$-algebra (even a $JBW$-algebra) that is not a $JC$-algebra.
