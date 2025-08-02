@@ -83,21 +83,20 @@ It is one of the most important examples of a [[Markov category]].
 ### Algebras over the Giry monad
 We can't say much about the $G$-algebras on the category of measurable spaces due to lack of structure and set-theoretical issues.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to understand how $G$ algebras arise via expectation maps.
    
-If $X$ is any standard space then the space of probability measures $G{X}$ is a [[superconvex space]] with the structure defined pointwise, i.e., if $\{P_i\}_{i=1}^{\infty}$ is a countable collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{\infty}$ with each $p_i \in [0,1]$  the countable affine sum  $\sum_{i=1}^{\infty} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
+If $X$ is any standard space then the space of probability measures $G{X}$ is a [[superconvex space]] with the structure defined pointwise: if $\{P_i\}_{i=1}^{\infty}$ is a countable collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{\infty}$ with each $p_i \in [0,1]$ such that $\sum_{i=1}^{\infty} p_i = 1$, the countable affine sum  $\sum_{i=1}^{\infty} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
 \begin{equation}
 \big(\sum_{i=1}^{\infty} p_i P_i\big)(U) = \sum_{i=1}^{\infty} p_i P_i(U).
 \end{equation}
 
 
-\begin{lemma} \label{FunThm} Given any $G$-algebra $h: G{X} \rightarrow X$ the space $X$ has the structure of a superconvex space which makes the measurable function $h$ a countably affine (measurable) map.  
-Moreover, for any measurable space $Y$ and $G$-algebra $k:G{Y} \rightarrow Y$ on it,  if $f: (X, h) \rightarrow (Y, k)$ is a map of $G$-algebras then the measurable function $f$ is also countably affine.
+\begin{lemma} \label{FunThm} Given any $G$-algebra $h: G{X} \to X$ the base space $X$ has the structure of a superconvex space which makes the measurable function $h$ a countably affine (measurable) map. Moreover, morphisms of $G$-algebras are also countably affine maps.
 \end{lemma}
 \begin{proof} Given $h$ define the superconvex space structure on $X$ by
 \begin{equation}
  \sum_{i=1}^{\infty} p_i x_i := h(\sum_{i=1}^{\infty} p_i \delta_{x_i}).
 \end{equation}
 
- Because a $G$-algebra $h$ must satisfy $h \circ \mu_X = h \circ G{h}$ we have
+Because a $G$-algebra $h$ must satisfy $h \circ \mu_X = h \circ G{h}$ we have, for any countable sequence $Q_i \in GX$, 
 \begin{equation}
 \begin{array}{lcl}
 (h \circ \mu_X)( \sum_{i=1}^{\infty} p_i \delta_{Q_i}) &=& (h \circ G{h})( \sum_{i=1}^{\infty} p_i \delta_{Q_i}) \\
@@ -105,9 +104,9 @@ h( \sum_{i=1}^{\infty} p_i Q_i) &=& h(\sum_{i=1}^{\infty} p_i \, \delta_{h(Q_i)}
  &=& \sum_{i=1}^{\infty} p_i h(Q_i)
 \end{array}
 \end{equation}
-where the last line makes use of the definition of the convex structure on $X$.  Thus every $G$-algebra is countably affine.
+where the last line makes use of the definition of the convex structure on $X$. Thus, every $G$-algebra is countably affine.
 
-To prove the map of $G$-algebras is a countably affine map we compute
+To prove that any map of $G$-algebras $f: (X, h) \to (Y, k)$ is a countably affine map, we compute
 \begin{equation}
 \begin{array}{lcll}
 f(\sum_{i=1}^{\infty} p_i x_i) &=& f(h(\sum_{i=1}^{\infty} p_i \delta_{x_i})) &  \\
