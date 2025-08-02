@@ -78,7 +78,7 @@ The [[point groups]] $G$ arising are the [[cyclic groups]] $\mathbb{Z}_{/1} =$[[
 | p6 | $\mathbb{Z}_{/6}$ | Ex. \ref{TorusWithC6RotationAction} |
 | p6m | $Dih_6$ | Ex. \ref{TorusWithD6DihedralAction} |
  
-
+\linebreak
 
 \begin{example}\label{TorusWithoutAction}
 **(p1)**
