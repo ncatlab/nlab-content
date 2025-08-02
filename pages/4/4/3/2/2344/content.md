@@ -392,7 +392,7 @@ Special limits and structures in derivators:
 The term _derivator_ is originally due to [[Grothendieck]], introduced in _[[Pursuing Stacks]]_ . 
 The first fifteen chapters of a 2000 page manuscript of Grothendieck (in French) about derivators can be found at:
 
-* [[Alexander Grothendieck]],  _[Les D&#233;rivateurs](http://people.math.jussieu.fr/~maltsin/groth/Derivateurs.html)_
+* [[Alexander Grothendieck]],  _[Les D&#233;rivateurs](https://webusers.imj-prg.fr/~georges.maltsiniotis/groth/Derivateurs.html)_
 
 Independently, there is a version due to [[Alex Heller]] (who called them "homotopy theories"):
 
