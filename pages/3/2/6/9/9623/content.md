@@ -16,6 +16,7 @@ Jack Johnson Morava (1944-2025)
 
 * [[Michael Hopkins]]: _Talk on Jack Morava's work at Jack's 60th birthday conference_ (2004) &lbrack;[webpage (archived)](http://web.archive.org/web/20150326150229/http://www.mathematics.jhu.edu/new/moravavideo.htm)&rbrack;
 
+* reminiscences on the AlgTop mailing list (starting July 2025): [thread](https://lists.illinois.edu/lists/arc/algtop-l/2025-08/msg00000.html)
 
 ## Selected writings
 
