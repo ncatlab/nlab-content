@@ -27,7 +27,7 @@ There is an analogue of this theorem for relative [[noncommutative scheme]]s in 
 
 +-- {: .num_remark}
 ###### Remark
-There is no similar equation the other way round, that is "$Ring(\Gamma_Y\mathcal{O}_Y, R) \cong Scheme(Spec R, Y)$". As a mnemonic, note that with ordinary Galois connections between power sets, one is always [[Galois connection#properties|homming into (not out of)]] the functorial construction. More geometrically, consider the example $Y = \mathbb{P}^n$ and $R = \mathbb{Z}$. Then the left hand side consists of all the $\mathbb{Z}$-valued points of $\mathbb{P}^n$ (of which there are many). On the other hand, the right hand side only contains the unique ring homomorphism $\mathbb{Z} \to \mathbb{Z}$, since $\mathcal{O}_{\mathbb{P}^n}(\mathbb{P}^n) \cong \mathbb{Z}$.
+There is no similar equation the other way round, that is "$CRing(\Gamma_Y\mathcal{O}_Y, R) \cong Scheme(Spec R, Y)$" is not true in general. As a mnemonic, note that with ordinary [[Galois connection]]s between power sets, one is always [[Galois connection#properties|homming into (not out of)]] the functorial construction. More geometrically, consider the example $Y = \mathbb{P}^n$ and $R = \mathbb{C}$. Then the left hand side $CRing(\Gamma_Y\mathcal{O}_Y, R)$ only contains the unique ring homomorphism $\mathbb{Z} \to \mathbb{C}$, since $\mathcal{O}_{\mathbb{P}^n}(\mathbb{P}^n) \cong \mathbb{Z}$. On the other hand, the right hand side $Scheme(Spec R, Y)$ consists of all the $\mathbb{C}$-valued points of $\mathbb{P}^n$ (of which there are many).
 
 =--
 
