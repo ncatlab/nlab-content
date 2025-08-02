@@ -83,7 +83,7 @@ It is one of the most important examples of a [[Markov category]].
 ### Algebras over the Giry monad
 We can't say much about the $G$-algebras on the category of measurable spaces due to lack of structure and set-theoretical issues.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to understand how $G$ algebras arise via expectation maps.
    
-If $X$ is any standard space then the space of probability measures $G{X}$ is a [[superconvex space]] with the structure defined pointwise, i.e., if $\{P_i\}_{i=1}^{\infty}$ is a finite collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{\infty}$ with each $p_i \in [0,1]$  the countable affine sum  $\sum_{i=1}^{\infty} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
+If $X$ is any standard space then the space of probability measures $G{X}$ is a [[superconvex space]] with the structure defined pointwise, i.e., if $\{P_i\}_{i=1}^{\infty}$ is a countable collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{\infty}$ with each $p_i \in [0,1]$  the countable affine sum  $\sum_{i=1}^{\infty} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
 \begin{equation}
 \big(\sum_{i=1}^{\infty} p_i P_i\big)(U) = \sum_{i=1}^{\infty} p_i P_i(U).
 \end{equation}
