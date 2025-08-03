@@ -27,6 +27,10 @@ By [[Gavin Wraith]], at the nForum [in this post](https://nforum.ncatlab.org/dis
 
 ## Selected writings
 
+On 3D [[space groups]] in relation to the 2D [[wallpaper groups]]:
+
+* [[John Conway]], Olaf Delgado Friedrichs, Daniel H. Huson, [[William P. Thurston]]: *On Three-Dimensional Space Groups*, Beiträge zur Algebra und Geometrie **42** 2 (2001) 475-507 &lbrack;[arXiv:math/9911185](https://arxiv.org/abs/math/9911185), [eudml:233409](http://eudml.org/doc/233409)&rbrack;
+
 On platycosms (including the [[Hantzsche-Wendt manifold]]):
 
 * {#ConwayRossetti03} [[John Conway]], Jean-Paul Rossetti, _Describing the platycosms_ (2003) &lbrack;[arXiv:math/0311476](https://arxiv.org/abs/math/0311476)&rbrack;
