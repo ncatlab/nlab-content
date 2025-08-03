@@ -119,7 +119,7 @@ $$
 and we discuss how, even if one is initially interested only in ordinary [[nLab:smooth manifolds]] or only in [[nLab:diffeological spaces]], it is useful to work with more general [[nLab:super differential homotopy types]].
 
 <center>
-<img src="https://www.ncatlab.org/schreiber/files/GeometriesWithDiffeological.jpg" width="760">
+<img src="https://ncatlab.org/schreiber/files/GeometriesWithDiffeological.jpg" width="760">
 </center>
 
 > graphics taken from _[Higher Prequantum Geometry](https://ncatlab.org/schreiber/show/Higher+Prequantum+Geometry)_
