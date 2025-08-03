@@ -184,6 +184,10 @@ Review:
 
 * D. Weigel, T. Phan and R. Veysseyre: _Crystallography, geometry and physics in higher dimensions. III. Geometrical symbols for the 227 crystallographic point groups in four-dimensional space_, Acta Cryst. A **43** (1987) 294-304 &lbrack;[doi:10.1107/S0108767387099367](https://doi.org/10.1107/S0108767387099367)&rbrack;
 
+* [[John Conway]], Olaf Delgado Friedrichs, Daniel H. Huson, [[William P. Thurston]]: *On Three-Dimensional Space Groups*, Beiträge zur Algebra und Geometrie **42** 2 (2001) 475-507 &lbrack;[arXiv:math/9911185](https://arxiv.org/abs/math/9911185), [eudml:233409](http://eudml.org/doc/233409)&rbrack;
+  > (the 3D space groups in relation to the 2D [[wallpaper groups]])
+ 
+
 * [[Hans Wondratschek]]: *Matrices, Mappings and Crystallographic Symmetry*, International Union of Crystallography (2002) &lbrack;[pdf](https://www.iucr.org/__data/assets/pdf_file/0019/15823/22.pdf), [[Wondratschek-CrystallographicSymmetry.pdf:file]] [webpage](https://www.iucr.org/education/pamphlets/22/full-text)&rbrack;
 
 * [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
