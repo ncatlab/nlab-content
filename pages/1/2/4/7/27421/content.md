@@ -3,11 +3,11 @@
 
 ## Idea
 
-A [[set]] with two elements. Equivalently, a [[bi-pointed object]] in the [[category of sets]]. Equivalently, a [[pointed set]] $A$ with a point-preserving function $\mathbb{2} \to A$ from the [[boolean domain]]. 
+A *bipointed set* is a  [[set]] $S$ equipped with the choice of a [[pair]] $s_1, s_2 \in S$ of its [[elements]], hence with a [[function]] $(s_1, s_2) \colon \mathbb{2} \to S$ from the [[boolean domain]].
 
-A bi-pointed set $S$ is **trivial** if the two elements $0, 1 \in S$ are [[equal]] to each other $(0 = 1)$, and it is **non-trivial** if they are not equal to each other $(0 \neq 1)$.  
+Equivalently, this is a  [[bi-pointed object]] [[internalization|in]] the [[category of sets]].  
 
-Examples of bi-pointed sets include [[rigs]], [[rings]], [[lattices]], [[frames]], [[pointed abelian groups]], [[absorption monoids]], [[bounded total orders]], [[closed midpoint algebras]], [[scales]], and [[interval coalgebras]]. 
+Naturally occuring examples of bi-pointed sets include (the [[underlying sets]] of [[rigs]], [[rings]], [[lattices]], [[frames]], [[pointed abelian groups]], [[absorption monoids]], [[bounded total orders]], [[closed midpoint algebras]], [[scales]], and [[interval coalgebras]], which are all bipointed by the elements usually denoted "0" and "1"  
 
 ## Properties
 
