@@ -44,6 +44,10 @@ On [[proof]] in [[mathematics]]
 
 * On proof and progress in mathematics, Bull. AMS 30 (1994), 161-177. ([web](http://www.ams.org/journals/bull/1994-30-02/S0273-0979-1994-00502-6/home.html))
 
+On 3D [[space groups]] in relation to the 2D [[wallpaper groups]]:
+
+* [[John Conway]], Olaf Delgado Friedrichs, Daniel H. Huson, [[William P. Thurston]]: *On Three-Dimensional Space Groups*, Beiträge zur Algebra und Geometrie **42** 2 (2001) 475-507 &lbrack;[arXiv:math/9911185](https://arxiv.org/abs/math/9911185), [eudml:233409](http://eudml.org/doc/233409)&rbrack;
+
 
 category: people
 
