@@ -21,7 +21,7 @@ The [[boolean domain]] is the [[initial object|initial]] bi-pointed set, and the
 
 * [[bi-pointed object]]
 
-* [[bi-pointed set]]
+* [[bi-pointed type]]
 
 [[!redirects bipointed set]]
 [[!redirects bipointed sets]]
