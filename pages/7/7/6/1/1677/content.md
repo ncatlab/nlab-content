@@ -52,6 +52,10 @@ This fits with the fact that $M$ is an extension of $A$ by unary operations, so 
 
 * [[Gavin Wraith]], _Algebras over Theories_ , Colloquium Mathematicum **XXIII** no.2 (1971) pp.181-190. ([link](https://eudml.org/doc/264519))
 
+* [[Christian Lair]], _Conditions syntaxiques d'existence de co-adjoints aux foncteurs algébriques_, Diagrammes 1 (1979): L1-L18.
+
 * [[Francis Borceux]] and [[Enrico M. Vitale]], _On the notion of bimodel for functorial semantics_, Applied Categorical Structures 2.3 (1994): 283-295.
 
 * [[Jiří Adámek]] and [[Francis Borceux]], _Morita equivalence of sketches_, Applied Categorical Structures 8 (2000): 503-517.
+
+* Gabriel C. Drummond-Cole and Philip Hackney, _Coextension of scalars in operad theory_, Mathematische Zeitschrift 301.1 (2022): 275-314.
