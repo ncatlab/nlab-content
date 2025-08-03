@@ -109,7 +109,7 @@ $$
   (S//G)_\bullet =
   \left\{
     \array{
-      && \rho(s)(g)
+      && \rho(s)(g_1)
       \\
       & {}^{\mathllap{g_1}}\nearrow && \searrow^{\mathrlap{g_2}}
       \\
@@ -318,7 +318,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The functor $i \colon S \to E$ is clerly [[essentially surjective functor|essentially surjective]] (every connected component of $E$ has a homotopy fiber under its map to $\mathbf{B}G$). This implies that $E$ is presented by 
+The functor $i \colon S \to E$ is clearly [[essentially surjective functor|essentially surjective]] (every connected component of $E$ has a homotopy fiber under its map to $\mathbf{B}G$). This implies that $E$ is presented by 
 
 $$
   E_\bullet \coloneqq (S \underset{E}{\times}S \stackrel{\overset{p_1}{\longrightarrow}}{\underset{p_2}{\longrightarrow}} S)
@@ -333,7 +333,7 @@ $$
 
 =--
 
-But this already exhibits $E$ as an [[action groupoid]], in particular it mans that $\rho$ is really an [[action]]:
+But this already exhibits $E$ as an [[action groupoid]], in particular it means that $\rho$ is really an [[action]]:
 
 
 +-- {: .num_prop #ActionGroupoidFromFiberSequence}
@@ -382,7 +382,7 @@ By prop. \ref{IntertwinersOfPermutationActionAsSliceHoms} it is [[fully faithful
 
 ##### Examples of actions
 
-One remarkable consequence of prop. \ref{EquivalenceOfPermutationRepresentationsWithActionGroupodsInSlice} is that it says that categories of actions are [[slice (infinity,1)-category|slices]] of [[(2,1)-toposes]], hence are [[slice (infinity,1)-topos|slice (2,1)-toposes]] hence in particular are themselves [[(2,1)-topos]]. In particular there is an [[internal hom]] of actions. This is the [[conjugation action]] construction.
+One remarkable consequence of prop. \ref{EquivalenceOfPermutationRepresentationsWithActionGroupodsInSlice} is that it says that categories of actions are [[slice (infinity,1)-category|slices]] of [[(2,1)-toposes]], hence are [[slice (infinity,1)-topos|slice (2,1)-toposes]] hence in particular are themselves [[(2,1)-toposes]]. In particular there is an [[internal hom]] of actions. This is the [[conjugation action]] construction.
 
 +-- {: .num_defn #ConjugationActionForDiscrete1Groups}
 ###### Definition
