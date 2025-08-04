@@ -180,6 +180,7 @@ Review:
 
 * {#Farkas81} Daniel R. Farkas, _Crystallographic groups and their mathematics_, Rocky Mountain J. Math. **11** 4 (1981) 511-552 &lbrack;[doi:10.1216/RMJ-1981-11-4-511](https://projecteuclid.org/euclid.rmjm/1250128489)&rbrack;
 
+
 * {#ChuprunovKuntsevich88} E. V. Chuprunov, T. S. Kuntsevich, _$n$-Dimensional space groups and regular point systems_, Comput. Math. Applic. **16** 5-8 (1988) 537-543 \[<a href="https://doi.org/10.1016/0898-1221(88)90243-X">doi:10.1016/0898-1221(88)90243-X</a>\]
 
 * D. Weigel, T. Phan and R. Veysseyre: _Crystallography, geometry and physics in higher dimensions. III. Geometrical symbols for the 227 crystallographic point groups in four-dimensional space_, Acta Cryst. A **43** (1987) 294-304 &lbrack;[doi:10.1107/S0108767387099367](https://doi.org/10.1107/S0108767387099367)&rbrack;
@@ -197,6 +198,9 @@ Review:
 * {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], _Twisted equivariant matter_, Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
 
 * Christopher Hammond, chapter 4 of: *The Basics of Crystallography and Diffraction*, Oxford University Press (2015) &lbrack;[ISBN:9780198738688](https://global.oup.com/academic/product/the-basics-of-crystallography-and-diffraction-9780198738688)&rbrack;
+
+* M. I. Aroyo (ed.): *[International Tables for Crystallography](https://onlinelibrary.wiley.com/doi/book/10.1107/97809553602060000001)
+Volume A: Space-group symmetry* Second online edition, Wiley Online Library (2016) &lbrack;[doi:10.1107/97809553602060000114](https://doi.org/10.1107/97809553602060000114), [ISBN: 978-0-470-97423-0](https://onlinelibrary.wiley.com/book/10.1107/97809553602060000001/homepage/Order.html)&rbrack;
 
 
 * {#Tolcachier19} Alejandro Tolcachier, *Holonomy groups of compact flat solvmanifolds*, Geometriae Dedicata **209** (2020) 95–117  &lbrack;[arXiv:1907.02021](https://arxiv.org/abs/1907.02021), [doi:10.1007/s10711-020-00524-8](https://doi.org/10.1007/s10711-020-00524-8)&rbrack;
