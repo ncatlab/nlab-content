@@ -50,7 +50,7 @@ If we consider, not just $S_W$ as a compact metric space, but as a subspace of t
 
 $$N_{\frac{1}{n}}(S_W) = \{ \underline{x}\in \mathbb{R}^2 | d(\underline{x},S_W) \lt \frac{1}{n}\}.$$  
 
-This looks like an [[annulus]] with a thickenning at one small section. It has the [[homotopy type]] of a [[circle]]. If $N \gt n$, $N_{\frac{1}{N}}(S_W)\subset N_{\frac{1}{n}}(S_W)$, of course, (we will write $i^N_n$ for this map, and this is a homotopy equivalence. The Warsaw circle, $S_W$, is clearly the intersection of all these almost annular neighbourhoods. (Note, also clearly, that the complements  of these neighbourhoods are gradually occupying more and more of the two components of $\mathbb{R}^2- S_W$.)
+This looks like an [[annulus]] with a thickenning at one small section. It has the [[homotopy type]] of a [[circle]]. If $N \gt n$, $N_{\frac{1}{N}}(S_W)\subset N_{\frac{1}{n}}(S_W)$, of course: we will write $i^N_n$ for this map, and this is a homotopy equivalence. The Warsaw circle, $S_W$, is clearly the intersection of all these almost annular neighbourhoods. (Note, also clearly, that the complements  of these neighbourhoods are gradually occupying more and more of the two components of $\mathbb{R}^2- S_W$.)
 
 We have a inverse system ([[pro-object]]) of topological spaces all of which have the [[homotopy type]] of a [[polyhedron]], ... in fact always the same polyhedron, $S^1$.  Note that by our use of a specific [[cofinal diagrams|cofinal]] family of neighbourhoods of $S_W$, indexed by the [[natural number|natural numbers]], we have an _inverse sequence_. That was a choice and we could have chosen differently or not at all. The ability to pick a sequence of neighbourhoods is related to the fact that we are considering a **compact metric space**. 
 
