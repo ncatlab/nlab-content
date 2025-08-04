@@ -1,4 +1,4 @@
-The graph on [[topological vector spaces]] was created using [Graphviz](http://www.graphviz.org/).  The source is laid out below, the command to generate the diagram is:
+The graph ([here](topological+vector+space#ImportantSubclasses)) of [[topological vector spaces]] was created using [Graphviz](http://www.graphviz.org/). The source is laid out below, the command to generate the diagram is:
 
 ~~~
 dot -Tsvg lctvs.dot -o lctvs.svg
