@@ -52,7 +52,7 @@ Because of potential confusion, in cases when topology or cohesion is present it
 
 ## Adjoints
 
-The discrete category construction extends to a [[fully faithful functor]] $Set \to Cat$. It has a [[left adjoint]] given by taking connected components and a [[right adjoint]] given by the underlying set of objects functor (which itself has a right adjoint given by the [[indiscrete category]] construction).
+The discrete category construction extends to a [[fully faithful functor]] $Set \to Cat$. It has a [[left adjoint]] given by taking [[connected components]] and a [[right adjoint]] given by the underlying set of objects functor (which itself has a right adjoint given by the [[indiscrete category]] construction).
 
 
 ## Related concepts
