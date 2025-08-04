@@ -15,10 +15,10 @@
 
 ## Idea
 
-The **Warsaw circle** is a [[topological space]] that serves to illustrate some of the ideas of [[shape theory]].
+The **Warsaw circle** is a [[topological space]] that often serves as a [[counterexample]] in [[general topology]] and as such to illustrate concepts of [[shape theory]].
 
 
-A topological space  may have very little separating it from '[[manifold|manifoldness]]', yet a 'singularity' can cause havoc! The simple example, here, is known as the __Warsaw Circle__ as it was studied extensively by K. Borsuk and his Polish collaborators, see the book ([Borsuk 75](#Borsuk75)).
+A [[topological space]] may have very little separating it from '[[manifold|manifoldness]]', yet a 'singularity' can cause havoc! The simple example, here, is known as the __Warsaw Circle__ as it was studied extensively by K. Borsuk and his Polish collaborators, see the book ([Borsuk 1975](#Borsuk75)).
 
 ## Definition
 
