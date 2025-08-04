@@ -569,7 +569,8 @@ Explicit discussion of such *crystallographic orbifolds* for the purpose of [[cr
 
   * [Orbifold atlas](https://ornl-ndav.github.io/ortep/topology/atlas/atlas.html)
 
-* Olaf Delgado Friedrichs, Daniel H. Huson: *Orbifold Triangulations and Crystallographic Groups*, Periodica Mathematica Hungarica **34** (1997) 29–55 &lbrack;[arXiv:10.1023/A:1004220406857](https://doi.org/10.1023/A:1004220406857)&rbrack;
+* [[Olaf Delgado Friedrichs]], [[Daniel H. Huson]]: *Orbifold Triangulations and Crystallographic Groups*, Periodica Mathematica Hungarica **34** (1997) 29–55 &lbrack;[doi:10.1023/A:1004220406857](https://doi.org/10.1023/A:1004220406857)&rbrack;
+  > (relation to [[equivariant triangulations]])
 
 In the [[physics]] literature this orbifold nature of the [[Brillouin torus]] is not often made explicit, but see articles in the context of crystalline [[topological phases of matter]]:
 
