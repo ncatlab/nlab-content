@@ -83,6 +83,7 @@ Cn -> LC;
 Cp -> LC;
 Cp -> QC;
 Br -> Bl;
+No -> Me;
 Me -> Bo;
 Me -> Pc;
 SR -> QC;
