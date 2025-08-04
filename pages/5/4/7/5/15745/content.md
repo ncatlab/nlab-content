@@ -9,13 +9,20 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A 10 dimensional Lie group, the relativistic counterpart of which is the 10 dimensional [[Poincare group]]. Both include the [[isometry group]] of [[Euclidean space]]. Moreover, both have important linear representations including actions on tangents of trajectories (i.e. velocities), which - in case of the Galilean group - shift all but one (i.e. the spatial) components like a translation.
+The *Euclidean group* $Iso(D)$ is the [[isometry group]] of [[Euclidean space]] $\mathbb{R}^D$, generated from rigid [[translations]] [[rotations]] and [[reflections]].
+
+For $D=3$ this is part of the canonical [[symmetry group]] of ordinary [[relativistic field theory|nonrelativistic]] [[classical mechanics]]/[[classical field theory]], thus known as the *Galilean group*, which in addition contains [[time]]-translations and "Galilean [[boosts]]":
+
+This is a 10 [[dimension of a manifold|dimensional]] [[Lie group]] which may be understood as the [[Inönü-Wigner contraction]] of the [[Poincaré group]] given by the [[limit of a sequence|limit]] in whuch the [[speed of light]] goes to [[infinity]].
+
+
 
 ## Related concepts
 
@@ -46,7 +53,9 @@ See also:
 
 * [[David R. Hilbert]], [[Nick Huggett]], _Groups in Mind_, Philosophy of Science 73 (5):765-777 (2006) ([doi:10.1086/518635](https://philpapers.org/rec/HILGIM-2), [[HilbertHiggettGroups.pdf:file]])
 
+
 [[!redirects Euclidean group]]
+[[!redirects Euclidean groups]]
 
 [[!redirects Galileo group]]
 
