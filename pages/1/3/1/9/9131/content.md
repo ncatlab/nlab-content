@@ -68,7 +68,7 @@ Many physical fields are related to tensor fields, but few are genuinely tensor 
 
 The traditional idea of field bundle is discussed for instance around section 7.3.3 of 
 
-* Laurent Claessens, _Field theory from a bundle point of view_ (2011) ([pdf](http://student.ulb.ac.be/~lclaesse/lectures.pdf)).
+* Laurent Claessens, _Field theory from a bundle point of view_ (2011) ([pdf](https://laurent.claessens-donadello.eu/pdf/lectures.pdf)).
 
 Detailed discussion of field bundles in [[gauge theory]] with a fixed [[instanton sector]]/[[principal bundle]]-class is around section 2.5 of 
 
