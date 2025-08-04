@@ -62,7 +62,7 @@ Review:
 
 * [[Patrick Morandi]]: *The Classification of Wallpaper Patterns: From Group Cohomology to Escherís Tessellations* (2003) &lbrack;[pdf](https://web.math.pmf.unizg.hr/~mkazal/reprints/Odabrane/Morandi.pdf), [[Morandi-WallpaperPatterns.pdf:file]]&rbrack;
 
-* [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
+* {#CBGS08} [[John H. Conway]], [[Heidi Burgiel]], [[Chaim Goodman-Strauss]]: *The Symmetries of Things*, CRC Press (2008) &lbrack;[ISBN:9781568812205](https://www.routledge.com/The-Symmetries-of-Things/Conway-Burgiel-Goodman-Strauss/p/book/9781568812205)&rbrack;
 
 * Julija Zavadlav: *Wallpaper Groups* (2012) &lbrack;[pdf](http://www-f1.ijs.si/~ziherl/Zavadlav12.pdf), [[Zavadlav-WallpaperGroups.pdf:file]]&rbrack;
 
@@ -75,6 +75,16 @@ Review:
 See also:
 
 * Wikipedia, _[Wallpaper group](https://en.wikipedia.org/wiki/Wallpaper_group)_
+
+Original discussion of the "orbifold notation" for (2D) space groups:
+
+* [[John H. Conway]]: *The Orbifold Notation for Surface Groups*, chapter 36 in: *Groups, Combinatorics and Geometry*, Cambridge University Press (1992) 438-447 &lbrack;[doi:10.1017/CBO9780511629259.038](https://doi.org/10.1017/CBO9780511629259.038),
+[pdf](https://sites.uwm.edu/ancel/files/2017/04/Conway.Orbifold-Notation-for-Surface-Groups.1990-2d6oy2f.pdf)&rbrack;
+
+* [[John H. Conway]], [[Daniel H. Huson]]: *The Orbifold Notation for Two-Dimensional Groups*, Structural Chemistry **13** 3-4 (2002) 247–257 &lbrack;[doi:10.1023/A:1015851621002](https://doi.org/10.1023/A:1015851621002), [pdf](https://scispace.com/pdf/the-orbifold-notation-for-two-dimensional-groups-1-whbjbd1a5g.pdf)&rbrack;
+
+* [CBGS08](#CBGS08)
+
 
 Discussion of [[meromorphic functions]] on the [[complex plane]] invariant under wallpaper groups:
 
