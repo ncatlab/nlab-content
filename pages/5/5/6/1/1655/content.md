@@ -36,8 +36,12 @@ Thus many uniform notions (uniform continuity, completeness, etc.) carry over to
 If the TVS $V$ is not Hausdorff, then the subset $V_0$ defined as the intersection of all neighborhoods of zero is a vector subspace of $V$ and the [[quotient space|quotient vector space]] $V/V_0$ is Hausdorff, hence Tihonov (= completely regular Hausdorff). 
 
 The condition that scalar multiplication is continuous puts significant constraints on the topology of $X$. For example, if we assume $k$ has a base of compact absorbing neighborhoods of $0$ and $V$ is Hausdorff, then for any non-zero $v \in X$ the function
-$$- \cdot v: k \to V$$ 
-maps $k$ [[homeomorphism|homeomorphically]] onto its image. It can then be shown that $X$ cannot (for instance) be [[compact space|compact]] (unless it is the zero space and so has no non-zero $v$); a classical theorem along these lines is that $V$ (over a [[local field]]) can be locally compact Hausdorff if and only if $V$ is finite-dimensional. (In the non-Hausdorff case, the theorems are that $X$ is compact if and only if its topology is indiscrete and that $X$ is locally compact if and only if it is a finitary [[direct sum]] of indiscrete spaces.) On the other hand, a nice property of even infinite-dimensional TVSes is that they are [[path-connected space|path-connected]], or at least so in the classical cases where the ground field is $\mathbb{R}$ or $\mathbb{C}$. 
+$$
+  - \cdot v 
+    \;\colon\; 
+  k \longrightarrow V
+$$ 
+maps $k$ [[homeomorphism|homeomorphically]] onto its [[image]]. It can then be shown that $X$ cannot (for instance) be [[compact space|compact]] (unless it is the zero space and so has no non-zero $v$); a classical theorem along these lines is that $V$ (over a [[local field]]) can be locally compact Hausdorff if and only if $V$ is finite-dimensional. (In the non-Hausdorff case, the theorems are that $X$ is compact if and only if its topology is indiscrete and that $X$ is locally compact if and only if it is a finitary [[direct sum]] of indiscrete spaces.) On the other hand, a nice property of even infinite-dimensional TVSes is that they are [[path-connected space|path-connected]], or at least so in the classical cases where the ground field is $\mathbb{R}$ or $\mathbb{C}$. 
 
 More classical material should be added, particularly on [[locally convex spaces]].
 
