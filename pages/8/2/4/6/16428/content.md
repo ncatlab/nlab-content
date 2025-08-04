@@ -17,6 +17,10 @@
 
 Given a Lie algebra $\mathfrak{g}$ over the [[real numbers]] or [[complex numbers]], and gives a choice $\{t_0, t_a\}_{a \in I}$ of [[linear basis]] of $\mathfrak{g}$, the corresponding _In&#246;n&#252;-Wigner contraction_ is the Lie algebra obtained by "sending $t_0$ to zero", i.e. the Lie algebra obtained from the previous one by passing to basis elements $\{\epsilon t_0, t_a\}_{a \in I}$ with $\epsilon$ in the ground field, in the [[limit of a sequence|limit]] that $\epsilon \to 0$.
 
+## Examples
+
+* The [[Galilean group]] is the contraction of the [[Poincaré group]] in the [[limit of a sequence|limit]] that the [[speed of light]] is taken to [[infinity]].
+
 ## Related concepts
 
 * [[Penrose limit]]
