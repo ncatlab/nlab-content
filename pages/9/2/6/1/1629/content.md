@@ -32,7 +32,7 @@ The term 'homeomorphism' is also applied to isomorphisms in categories that gene
 
 Beware that a continous [[bijection]] is not necessarily a homeomorphism; that is, $Top$ is not a [[balanced category]].
 
-For example $\exp(2\pi i(-)) [0,1) \to S^1$ is continuous and the underlying function of sets is a [[bijection]], but the inverse function at the level of sets is not continuous.
+For example $\exp(2\pi i(-)) : [0,1) \to S^1$ is continuous and the underlying function of sets is a [[bijection]], but the inverse function at the level of sets is not continuous.
 
 But see prop. \ref{HomeoContinuousOpenBijection}.
 
