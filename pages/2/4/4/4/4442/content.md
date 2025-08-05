@@ -507,6 +507,9 @@ Via [[exceptional field theory]]:
 
 * {#Taylor23} Marika Taylor, *Introduction to AdS/CFT and Holography -- The holographic dictionary*, lecture at *pre-SUSY school 2023* &lbrack;[cern:1214657](https://indico.cern.ch/event/1214657), slides: [pdf](https://indico.cern.ch/event/1214657/sessions/480000/attachments/2690349/4676064/susy1.pdf), video: [session 1](https://southampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=0f0a6c21-0bc9-42ae-9274-b03e00a8fde3), [sessions 2, 3](https://southampton.cloud.panopto.eu/Panopto/Pages/Viewer.aspx?id=c7e64fe5-675c-4f94-96f2-b03f0083f0d3)&rbrack;
 
+* [[Sebastian De Haro]], [[Jeremy Butterfield]], section 9.3 of: 
+*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
+
 
 Review of [[Yangian]] symmetry:
 
