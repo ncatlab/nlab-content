@@ -223,7 +223,7 @@ of $X$ the [[topological interval]] (def. \ref{TopologicalInterval})
 such that this makes the following  [[diagram]] in [[Top]] [[commuting diagram|commute]]:
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
+<img src="http://ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
 </div>
 
 
