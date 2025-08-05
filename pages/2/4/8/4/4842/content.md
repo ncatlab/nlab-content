@@ -311,7 +311,13 @@ Concrete computations:
 
 * [[Pierre Vogel]], _Algebraic structures on modules of diagrams_, Journal of Pure and Applied Algebra Volume 215, Issue 6, June 2011, Pages 1292-1339 ([pdf](https://webusers.imj-prg.fr/~pierre.vogel/diagrams.pdf))
 
-### Relation to Jones polynomial:
+See also:
+
+* E. Lanina, A. Sleptsov: *Algebraic structures of Vassiliev invariants for knot families* &lbrack;[arXiv:2508.02385](https://arxiv.org/abs/2508.02385)&rbrack;
+
+
+
+### Relation to the Jones polynomial:
 
 Relation to the [[Jones polynomial]]:
 
