@@ -37,9 +37,14 @@ On [[black holes in string theory]] and [[black hole entropy]]:
 
 * Jeroen van Dongen, Sebastian De Haro, Manus Visser, [[Jeremy Butterfield]], _Emergence and Correspondence for String Theory Black Holes_ ([arXiv:1904.03234](https://arxiv.org/abs/1904.03234))
 
-On the "[[multiverse]]" (in the sense of [[physics]]):
+On the "[[multiverse (physics)|multiverse]]" (in the sense of [[physics]]):
 
 * [[Jeremy Butterfield]]: *The Multiverse: a Philosophical Introduction*, University of Calgary Press &lbrack;[arXiv:2505.23639](https://arxiv.org/abs/2505.23639)&rbrack;
+
+On [[duality in physics]] and [[duality in string theory|in string theory]]:
+
+* [[Sebastian De Haro]], [[Jeremy Butterfield]]: 
+*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
 
 
 ## Related entries
@@ -51,5 +56,7 @@ On the "[[multiverse]]" (in the sense of [[physics]]):
 * [[Timeline of category theory and related mathematics]]
 
 * [[reconstruction theorem]]
+
+* [[philosophy of physics]]
 
 category: people
