@@ -176,6 +176,10 @@ Relations may be considered in any category with a stable [[proper factorisation
 
 * [[Gregory Maxwell Kelly]]. *A note on relations relative to a factorization system*. Category Theory. Springer, Berlin, Heidelberg, 1991.
 
+On functoriality of the [[Rel]] construction:
+
+* [[Aurelio Carboni]], [[Max Kelly]], and [[Richard Wood]], _A 2-categorical approach to change of base and geometric morphisms I_, Cahiers de topologie et géométrie différentielle catégoriques 32.1 (1991): 47-95.
+
 An [[axiomatization]] of the category of sets and relations:
 
 * [[Andre Kornell]]: *Axioms for the category of sets and relations*, Theory and Applications of Categories **44** 10 (2025) 305-325  &lbrack;[arXiv:2302.14153](https://arxiv.org/abs/2302.14153), [tac:44-10](http://www.tac.mta.ca/tac/volumes/44/10/44-10abs.html)&rbrack;
