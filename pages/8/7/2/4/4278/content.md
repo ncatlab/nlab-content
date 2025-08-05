@@ -1,5 +1,17 @@
 
-* [website](http://www.math.ksu.edu/~gerald/)
+Gerald Helmut Höhn
+
+* [personal page](http://www.math.ksu.edu/~gerald/)
+
+* [institute page](https://people.math.ksu.edu/personnel_detail.php?person_id=1451)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=29023)
+
+* [inSpire page](https://inspirehep.net/authors/1005823)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=_uceen8AAAAJ&hl=de)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Gerald-Hoehn-2)
 
 ## Selected writings
 
