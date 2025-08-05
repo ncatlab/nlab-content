@@ -63,7 +63,7 @@ The original article suggesting the relation of [[D=11 supergravity]] to [[strin
 
 An original article collecting all the weak/strong electric/magnetic dualities:
 
-* [[Mike Duff]], _M-theory (the theory formerly known as string)_, Int. J. Mod. Phys. A **11** (1996) 5623-5642 &lbrack;[arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117)&rbrack;
+* [[Mike Duff]], _M-theory (the theory formerly known as strings)_, Int. J. Mod. Phys. A **11** (1996) 5623-5642 &lbrack;[arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117)&rbrack;
 
 ### Surveys and lecture notes
 
@@ -84,8 +84,10 @@ An original article collecting all the weak/strong electric/magnetic dualities:
 
 * {#West12} [[Peter West]]: *Symmetries of String Theory*, Ch 7 of: *[[Introduction to Strings and Branes]]*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9781139045926](https://doi.org/10.1017/CBO9781139045926)&rbrack;
 
-
 * {#Polchinski14} [[Joseph Polchinski]]: *Dualities of Fields and Strings*, Studies in History and Philosophy of Modern Physics **59** (C) (2017) 6-20 &lbrack;[arXiv:1412.5704](http://arxiv.org/abs/1412.5704), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
+
+* [[Sebastian De Haro]], [[Jeremy Butterfield]], chapter II.8 of: 
+*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
 
 
 
