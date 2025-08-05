@@ -101,7 +101,10 @@ in Combinatorics, Paul Erd&#337;s is Eighty, Bolyai Society Mathematical Studies
 
 * {#GriessLam11} [[Robert Griess]] Jr., Ching Hung Lam, _A new existence proof of the Monster by VOA theory_ ([arXiv:1103.1414](https://arxiv.org/abs/1103.1414))
   
-* [[Andre Henriques]], _[$H^4$ of the monster](http://mathoverflow.net/questions/69222/h4-of-the-monster)_
+* [[Andre Henriques]]: *$H^4$ of the monster* (2011) &lbrack;[MI:q/69222](https://mathoverflow.net/q/69222/381)&rbrack;
+
+* [[Gerald Höhn]], Martin Seysen: *The Order of the Monster Finite Simple Group* &lbrack;[arXiv:2508.01037](https://arxiv.org/abs/2508.01037)&rbrack;
+
 
 
 Possible relation to [[bosonic M-theory]]:
