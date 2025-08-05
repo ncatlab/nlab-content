@@ -713,7 +713,7 @@ out of the [[product topological space]] (example \ref{ProductTopologicalSpace})
 of the open ball with the standard interval, such that this fits into a [[commuting diagram]] of the form
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
+<img src="http://ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
 </div>
 
 
