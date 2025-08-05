@@ -126,7 +126,7 @@ The Computation tree logic $CTL^{\ast}$ is then deployed to reason about the beh
 
 Now beyond the $F$ and $G$ operators above, we can express new operators such as 'necessarily in the future' to convey that along every path emanating from the current state that some property will hold at some point, and 'possibly henceforth' to convey that there is at least one path along which some property holds at every point.
 
-There is a [[Curry-Howard correspondence]] between linear-time temporal logic (LTL) and functional reactive programming (FRP) ([Jeffrey 12](#Jeffrey12), [Jeltsch 12](#Jeltsch12)).
+There is a [[Curry-Howard correspondence]] between linear-time temporal logic (LTL) and functional reactive programming (FRP) ([Jeffrey 12](#Jeffrey12), [Jeltsch 12](#Jeltsch12), [dePaiva and Eades 16](#dePaiva16)).
 
 
 
@@ -156,6 +156,8 @@ For the relationship between linear-time temporal logic and functional reactive 
 * {#Jeffrey12} Alan Jeffrey _LTL types FRP: Linear-time temporal logic propositions as types, proofs as functional reactive programs_, in: Proceedings of the Sixth Workshop on Programming Languages Meets Program Verification (PLPV ’12)(2012), pp. 49–60. ([pdf](https://www.researchgate.net/publication/220906549_LTL_types_FRP_Linear-time_Temporal_Logic_propositions_as_types_proofs_as_Functional_Reactive_Programs))
 
 * {#Jeltsch12} Wolfgang Jeltsch, _Towards a Common Categorical Semantics for Linear-Time Temporal Logic and Functional Reactive Programming_, Electronic Notes in Theoretical Computer Science 286, pp. 229-242, ([doi](https://doi.org/10.1016/j.entcs.2012.08.015))
+
+* {#dePaiva16} Valeria de Paiva and Harley Eades III _Constructive Temporal Logic, Categorically_, IfCoLog Journal of Logics and their Applications, (2017). ([pdf](https://vcvpaiva.github.io/includes/pubs/2017-grisha.pdf))
 
 * {#Venema17} Yde Venema, _Temporal logic_. 2017. ([pdf](https://staff.science.uva.nl/y.venema/papers/TempLog.pdf))
 
