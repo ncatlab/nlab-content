@@ -66,6 +66,11 @@ The [[philosophy]] of [[physics]].
 
 * [[Gabriel Catren]] et al. (org.) _Philosophy of Mechanics: Mathematical Foundations_, Workshop Feb 12-14, 2014 ([website](http://phil.physico-math.gie.im), [poster](http://phil.physico-math.gie.im/static/PhilosophyofMechanics25size.jpg))
 
+In the context of [[duality in physics]] and [[duality in string theory|in string theory]]:
+
+* [[Sebastian De Haro]], [[Jeremy Butterfield]]: 
+*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
+
 
 
 ### Interpretation of quantum mechanics
