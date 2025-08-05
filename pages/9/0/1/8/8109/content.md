@@ -148,6 +148,11 @@ it follows that in principle one may study a spectrum $X$ by understanding all i
 
 ### Stable case
 
+Early origin of the main ideas:
+
+* [[Jack Morava]] (scan by [[Haynes Miller]]): *"Bording School" notes*, Princeton (~1973) &lbrack;[pdf](https://math.mit.edu/~hrm/manuscripts/bording-school.pdf), [[Morava-BordingSchool.pdf:file]]&rbrack;
+
+
 Original articles:
 
 * {#Ravenel84} [[Douglas Ravenel]], _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
