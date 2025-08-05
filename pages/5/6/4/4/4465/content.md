@@ -72,9 +72,14 @@ Review:
 * Dmitri V. Fursaev, *Black Hole Thermodynamics and Perturbative Quantum Gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.06081](https://arxiv.org/abs/2210.06081)&rbrack;
 
 
-Review form the point of view of [[thermal field theory]]:
+Review from the point of view of [[thermal field theory]]:
 
 * {#FullingRuijsenaars87} S.A. Fulling, S.N.M. Ruijsenaars, _Temperature, periodicity and horizons_, Physics Reports Volume 152, Issue 3, August 1987, Pages 135-176 ([pdf](https://www1.maths.leeds.ac.uk/~siru/papers/p26.pdf), <a href="https://doi.org/10.1016/0370-1573(87)90136-0">doi:10.1016/0370-1573(87)90136-0</a>)
+
+Review in the context of presence of a [[cosmological constant]]:
+
+* Robert B. Mann: *Black Hole Chemistry: the first 15 years* &lbrack;[arXiv:2508.01830](https://arxiv.org/abs/2508.01830)&rbrack;
+
 
 
 Basic introductory accounts:
