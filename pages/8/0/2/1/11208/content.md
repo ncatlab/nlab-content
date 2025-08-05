@@ -75,29 +75,29 @@ A modern textbook account is
 
 * {#vanOosten08} [[Jaap van Oosten]], _Realizability: an introduction to its categorical side_, Studies in Logic and the Foundations of Mathematics, vol. 152, Elsevier, 2008 ([preface pdf](http://www.staff.science.uu.nl/~ooste110/boekbegin.pdf))
 
-Lecture notes include
-
-* {#Streicher07} [[Thomas Streicher]], _Realizability_ (2007/08) ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf))
-
-* [[Andrej Bauer]], _Notes on Realizability_ (MGS 2022) ([pdf](https://github.com/andrejbauer/notes-on-realizability/releases/download/release/notes-on-realizability.pdf), [Github Repo](https://github.com/andrejbauer/notes-on-realizability))
-
-and
-
-* {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
-
-based on
+Further discussion:
 
 * {#Bauer00} [[Andrej Bauer]], _The Realizability Approach to
 Computable Analysis and Topology_, PhD thesis CMU (2000) ([pdf](http://andrej.com/thesis/thesis.pdf))
 
-* Peter Lietz, _From Constructive Mathematics to Computable Analysis via the Realizability Interpretation_ ([pdf.gz](http://www.mathematik.tu-darmstadt.de/~streicher/THESES/lietz.pdf.gz))
+* Peter Lietz, _From Constructive Mathematics to Computable Analysis via the Realizability Interpretation_, PhD thesis (2004) &lbrack;[d-nb:974032735/34](https://d-nb.info/974032735/34)&rbrack;
 
-For realizability of univalent universes:
+* {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_ (based on [Bauer 2000](#Bauer00)) in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.): _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&-379 &lbrack;[pdf](http://math.andrej.com/data/c2c.pdf)&rbrack;
+
+
+Lecture notes:
+
+* {#Streicher07} [[Thomas Streicher]], _Realizability_ (2007/08) &lbrack;[pdf](http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf)&rbrack;
+
+* [[Andrej Bauer]]: _Notes on Realizability_, Midlands Graduate School notes (2022, 2025) &lbrack;[pdf](https://github.com/andrejbauer/notes-on-realizability/releases/download/release/notes-on-realizability.pdf), [Github Repo](https://github.com/andrejbauer/notes-on-realizability)&rbrack;
+
+
+On realizability of [[univalent universes]]:
 
 * Wouter Stekelenburg, _Realizability of Univalence: Modest Kan complexes_, [arXiv](http://arxiv.org/abs/1406.6579)
 
 
-See also
+See also:
 
 
 * [[Steven Awodey]], [[Andrej Bauer]], _Sheaf toposes for realizability_ ([pdf](http://www.andrew.cmu.edu/user/awodey/preprints/stfr.pdf))
