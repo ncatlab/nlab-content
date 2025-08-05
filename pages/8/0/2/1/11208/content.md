@@ -79,6 +79,8 @@ Lecture notes include
 
 * {#Streicher07} [[Thomas Streicher]], _Realizability_ (2007/08) ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/REAL/REAL.pdf))
 
+* [[Andrej Bauer]], _Notes on Realizability_ (MGS 2022) ([pdf](https://github.com/andrejbauer/notes-on-realizability/releases/download/release/notes-on-realizability.pdf), [Github Repo](https://github.com/andrejbauer/notes-on-realizability))
+
 and
 
 * {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
