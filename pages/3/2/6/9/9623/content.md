@@ -1,10 +1,5 @@
 
 
-
-
-
-
-
 Jack Johnson Morava (1944-2025)
 
 
@@ -19,6 +14,10 @@ Jack Johnson Morava (1944-2025)
 * reminiscences on the AlgTop mailing list (starting July 2025): [thread](https://lists.illinois.edu/lists/arc/algtop-l/2025-08/msg00000.html)
 
 ## Selected writings
+
+Early seminar notes on what was to become [[chromatic homotopy theory]]:
+
+* [[Jack Morava]] (scan by [[Haynes Miller]]): *"Bording School" notes*, Princeton (~1973) &lbrack;[pdf](https://math.mit.edu/~hrm/manuscripts/bording-school.pdf), [[Morava-BordingSchool.pdf:file]]&rbrack;
 
 On [[prequantum line bundle|prequantized]] (and [[polarization|polarized]]) [[symplectic manifolds]] in the context of [[cobordism rings]] and [[Thom spectra]]:
 
