@@ -356,6 +356,10 @@ The description in terms of [[dense monomorphism|dense monomorphisms]] using [[L
 
 * [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
 
+Sheafification is shown to be instance of [[category enriched in a bicategory|bicategory-enriched]] [[Cauchy completion]] in:
+
+* [[Renato Betti]] and [[Robert FC Walters]], _The symmetry of the Cauchy-completion of a category_, Category Theory: Applications to Algebra, Logic and Topology Proceedings of the International Conference Held at Gummersbach, July 6–10, 1981. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006.
+
 Extension of sheafification of presheaves with values in other categories has been advanced in
 
 * [[Alex Heller]], K. A. Rowe, _On the category of sheaves_, Amer. J. Math. 84, 1962, 205-216
