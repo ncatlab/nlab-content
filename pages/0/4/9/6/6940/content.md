@@ -3,6 +3,10 @@
 
 * [blog](http://math.andrej.com/)
 
+* [MathGenealogy page](https://mathgenealogy.org/id.php?id=50365)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=gty0SkUAAAAJ&hl=en)
+
 ## Selected writings
 
 On [[propositional truncation]] in [[dependent type theory]]:
@@ -41,5 +45,10 @@ On [[separable metric spaces]] in [[function realizability]]:
 On a non-commutative Priestley duality between distributive skew lattices and sheaves over local Priestley spaces:
 
 * [[Andrej Bauer]], [[Karin Cvetko-Vah]], [[Mai Gehrke]], [[Sam van Gool]], [[Ganna Kudryavtseva]], *A non-commutative Priestley duality*, Topology and its Applications, Volume 160, Issue 12, 1 August 2013, Pages 1423-1438 ([doi:10.1016/j.topol.2013.05.012](https://doi.org/10.1016/j.topol.2013.05.012), [arXiv:1206.5848](https://arxiv.org/abs/1206.5848))
+
+On [[realizability]]:
+
+* [[Andrej Bauer]]: _Notes on Realizability_, Midlands Graduate School notes (2022, 2025) &lbrack;[pdf](https://github.com/andrejbauer/notes-on-realizability/releases/download/release/notes-on-realizability.pdf), [Github Repo](https://github.com/andrejbauer/notes-on-realizability)&rbrack;
+
 
 category: people
