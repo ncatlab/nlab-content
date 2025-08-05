@@ -120,8 +120,8 @@ A careful non-technical exposition is in
 
 * Lorenzo Pieri, _Black Holes in String Theory_ ([arXiv:1911.11670](https://arxiv.org/abs/1911.11670))
 
-Lectures on AdS Black Holes, Holography and Localization
-Alberto Zaffaroniee also 
+* [[Sebastian De Haro]], [[Jeremy Butterfield]], section 10.2 in: 
+*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
 
 * [String Theory Wiki](http://www.stringwiki.org), _[Black hole entropy](http://www.stringwiki.org/w/index.php?title=Black_Hole_Entropy)_
 
