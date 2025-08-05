@@ -287,7 +287,10 @@ There is also a duality in the _description_ of physics:
 
 * {#AlvarezGaume98} [[Luis Alvarez-Gaumé]], Frederic Zamora: *Duality in Quantum Field Theory (and String Theory)*, AIP Conference Proceedings **423** (1998) 46–83 &lbrack;[arXiv:hep-th/9709180](https://arxiv.org/abs/hep-th/9709180), [doi:10.1016/j.shpsb.2015.08.011](https://doi.org/10.1016/j.shpsb.2015.08.011)&rbrack;
 
-* {#Corfield17} [[David Corfield]], _Duality as a category-theoretic concept_, Studies in History and Philosophy of Modern Physics Volume 59, August 2017, Pages 55-61 ([doi:10.1016/j.shpsb.2015.07.004](https://doi.org/10.1016/j.shpsb.2015.07.004))
+* {#Corfield17} [[David Corfield]], _Duality as a category-theoretic concept_, Studies in History and Philosophy of Modern Physics **59** (2017) 55-61 &lbrack;[doi:10.1016/j.shpsb.2015.07.004](https://doi.org/10.1016/j.shpsb.2015.07.004)&rbrack;
+
+* [[Sebastian De Haro]], [[Jeremy Butterfield]]: 
+*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
 
 
 ### As Morita equivalence
@@ -298,7 +301,7 @@ On the idea that duality in physics may be captured by the notion of [[Morita eq
 
 * {#Pioline99} B. Pioline, [[Albert Schwarz]], _Morita equivalence and T-duality (or $B$ versus $\Theta$)_ ([arXiv:hep-th/9908019](http://arxiv.org/abs/hep-th/9908019))
 
-See also
+See also:
 
 * {#Schwarz04} [[Albert Schwarz]], _My Life In Science_, 2004 ([pdf](https://www.math.ucdavis.edu/~schwarz/bion.pdf), [[AlbertSchwarzLifeInScience.pdf:file]])
 
@@ -319,7 +322,7 @@ See also more general discussion of [[Morita equivalence]]:
 
 * {#MW10} [[Scott Morrison]], [[Kevin Walker]], _The blob complex_, ([arXiv:1009.5025](http://arxiv.org/abs/1009.5025))
 
-* {#Scheimbauer} Claudia Scheimbauer, _Factorization Homology as a Fully Extended Topological Field Theory_, ([pdf](http://math.unice.fr/~cazanave/Gdt/FH/ScheimbauerThesisJuly4FINAL.pdf))
+* {#Scheimbauer} [[Claudia Scheimbauer]]: _Factorization Homology as a Fully Extended Topological Field Theory_, ([pdf](http://math.unice.fr/~cazanave/Gdt/FH/ScheimbauerThesisJuly4FINAL.pdf))
 
 
 ### Duality in string theory
