@@ -5,14 +5,15 @@
 
 * _Memoirs_ ([arXiv:1708.09093](https://arxiv.org/abs/1708.09093))
 
-* [[Raphael Bousso]], [[Fernando Quevedo]], [[Steven Weinberg]]:
+* [[Raphael Bousso]], [[Fernando Quevedo]], [[Steven Weinberg]]: _Joseph Polchinski: A Biographical Memoir_ &lbrack;[arXiv:2002.02371](https://arxiv.org/abs/2002.02371)&rbrack;
 
-  _Joseph Polchinski: A Biographical Memoir_ 
 
-  ([arXiv:2002.02371](https://arxiv.org/abs/2002.02371))
+* UC Santa Barbara, Special Research Collections: *[Joseph Polchinski papers, 1973-2017](https://oac.cdlib.org/findaid/ark:%2F13030%2Fc8gt5vw1)* 
 
 
 ## Selected writings
+
+
 
 Introducing [[Polchinski's flow equation]] in [[renormalization]]:
 
