@@ -102,9 +102,12 @@ as imposed by the equations of motion for 11d [[supergravity]] (see [here](https
 
 ## References
 
-Detailed review is in 
+Review: 
 
 * [[José Figueroa-O'Farrill]], _Electromagnetic Duality for Children_ (1998) ([[FigueroaElectromagneticDuality.pdf:file]])
+
+* [[Sebastian De Haro]], [[Jeremy Butterfield]], chaper 7 of: 
+*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
 
 It was originally noticed in
 
