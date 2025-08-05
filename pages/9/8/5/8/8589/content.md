@@ -64,13 +64,22 @@ On the other hand, the conclusion that one draws from the [[nPOV]] is a simpler 
 
 ## References
 
-* [[Albert Einstein]], M. Grossmann, _Entwurf einer verallgemeinerten Relativit&#228;tstheorie und einer Theorie der Gravitation_ Zeitschrift f&#252;r Math. Phys. 62, 225&#8211;259 (1914)
- {#EinsteinGrossmann}
+The original discussion:
 
-For a treatment in terms of [[HoTT]], see
+* {#EinsteinGrossmann} [[Albert Einstein]], M. Grossmann: _Entwurf einer verallgemeinerten Relativit&#228;tstheorie und einer Theorie der Gravitation_ Zeitschrift f&#252;r Math. Phys. 62, 225&#8211;259 (1914)
+ 
+Review:
+
+* [[Sebastian De Haro]], [[Jeremy Butterfield]], section 10.1 in: 
+*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
+  > (with an eye towards relating to [[AdS/CFT duality]])
+
+* Wikipedia: _[Hole argument] (http://en.wikipedia.org/wiki/Hole_argument)_
+
+A treatment in terms of [[HoTT]]:
 
 * [[John Dougherty]], _The Hole Argument, take n_, Foundations of Physics (2019), ([doi](https://doi.org/10.1007/s10701-019-00291-x)).
 
-* Wikipedia, _[hole argument] (http://en.wikipedia.org/wiki/Hole_argument)_
+
 
 [[!redirects hole paradox]]
