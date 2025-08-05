@@ -86,7 +86,7 @@ Dually for [[generalized (Eilenberg-Steenrod) cohomology]].
 
 Consider the following braid diagram
 
-<img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
+<img src="http://ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
 
 (graphics from [this Maths.SE comment](http://math.stackexchange.com/a/1180681/58526))
 
