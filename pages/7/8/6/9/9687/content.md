@@ -323,6 +323,8 @@ See also:
 
 
 
+
+
 ### In super-insulators
  {#ReferencesInSuperInsulators}
 
@@ -338,6 +340,9 @@ Review:
 
 
 * [[Carlo A. Trugenberger]]: *Superinsulation: Magnetic Monopoles and Electric Confinement in Condensed Matter*, [talk at](CQTS##TrugenbergerFeb2025) [[CQTS]] (Feb 2025) &lbrack;slides:[[Trugenberger-CQTSFeb2025.pdf:file]]&rbrack;
+
+* [[Sebastian De Haro]], [[Jeremy Butterfield]], chaper 6 in: 
+*The Philosophy and Physics of Duality*, Cambridge University Press (2025) &lbrack;[arXiv:2508.01616](https://arxiv.org/abs/2508.01616), [ISBN:9780198846338](https://global.oup.com/academic/product/the-philosophy-and-physics-of-duality-9780198846338)&rbrack;
 
 
 
