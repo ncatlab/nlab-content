@@ -69,13 +69,14 @@ A relation with the theory of [[motive]]s is in
 
 Surveys:
 
+* Benjamin Collas, Takahiro Murotani, Naganori Yamaguchi, _Symmetries of spaces and numbers -- anabelian geometry_, [arXiv:2508.01588](https://arxiv.org/abs/2508.01588), Aug. 2025
+
 * {#Tschinkel14} [[Yuri Tschinkel]], _Introduction to anabelian geometry_, talk at _[Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html)_, Oxford 2014 ([slides pdf](http://www.cims.nyu.edu/~tschinke/.talks/oxford14/oxford14.pdf))
 
 
 * [[Leila Schneps]], page 60 (2) of _Grothendieck's "Long march through Galois theory"_ ([pdf](http://www.math.jussieu.fr/~leila/SchnepsLM.pdf))
 
 A comprehensive introduction is in 
-
 
 * [[Fedor Bogomolov]], [[Yuri Tschinkel]], *Introduction to birational anabelian geometry* &lbrack;[pdf](http://www.math.nyu.edu/~tschinke/papers/yuri/10msri/msri7.pdf), [arXiv:1011.0883](https://arxiv.org/abs/1011.0883)&rbrack;
 
