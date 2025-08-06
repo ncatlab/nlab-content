@@ -58,7 +58,7 @@ For Rocq-projects in [[homotopy type theory]] see the section [Code](homotopy+ty
 
 * and it uses a version of the *[[calculus of constructions]]* to implement [[natural deduction]].
 
-* *[[CoqQ]]* is a [[quantum programming language]] [[domain specific embedded programming language|embedded]] in Coq.
+* *[[CoqQ]]* is a [[quantum programming language]] [[domain specific embedded programming language|embedded]] in Rocq.
 
 \linebreak
 
@@ -73,7 +73,7 @@ For Rocq-projects in [[homotopy type theory]] see the section [Code](homotopy+ty
 
 * [Rocq home page](https://rocq-prover.org/)
 
-* {#jsCoq} [JsCoq](https://x80.org/rhino-coq/), a ready-to-use online Coq environment
+* {#jsCoq} [JsCoq](https://x80.org/rhino-coq/), a ready-to-use online Rocq environment
 
 * {#jsHoTTCoq} [JsHoTTCoq](https://x80.org/rhino-hott/), a ready-to-use online [[HoTT]] Coq environment
 
@@ -87,17 +87,17 @@ For Rocq-projects in [[homotopy type theory]] see the section [Code](homotopy+ty
 
   (On whether the consistency of Coq is believable, given that [[ordinal analysis]] techniques are nowhere near able to handle such strong systems.)
 
-### Learning Coq
+### Learning Rocq
 
-To get an idea how to use Coq from Emacs, there are [[Andrej Bauer]]'s _Video tutorials for the Coq proof assistant_ ([web](http://math.andrej.com/2011/02/22/video-tutorials-for-the-coq-proof-assistant/)).
+To get an idea how to use Rocq from Emacs, there are [[Andrej Bauer]]'s _Video tutorials for the Rocq proof assistant_ ([web](http://math.andrej.com/2011/02/22/video-tutorials-for-the-coq-proof-assistant/)).
 
-Yet properly learning Coq can be quite daunting, luckily the right material can help a lot:
+Yet properly learning Rocq can be quite daunting, luckily the right material can help a lot:
 
-1. [[Benjamin Pierce]]'s [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf/) is probably the most elementary introduction to Coq and functional progamming. The book is written in Coq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
+1. [[Benjamin Pierce]]'s [Software Foundations](http://www.cis.upenn.edu/~bcpierce/sf/) is probably the most elementary introduction to Rocq and functional progamming. The book is written in Rocq so you can directly open the source files in CoqIDE and step through them to see what is going on and solve the exercises.
 
 1. In a similar style, [[Andrej Bauer]] and [[Peter LeFanu Lumsdaine]] wrote a nice [Coq tutorial](https://github.com/andrejbauer/Homotopy/tree/master/OberwolfachTutorial) ([pdf](https://github.com/andrejbauer/Homotopy/blob/master/OberwolfachTutorial/univalence.pdf)) on [homotopy type theory](#HomotopyTypeTheory). See also _[[Oberwolfach HoTT-Coq tutorial]]_.
 
-1. [[Adam Chlipala]]'s trimmed down version of [Certified Programming with Dependent Types](http://adam.chlipala.net/papers/CpdtJFR/) explains more advanced Coq techniques.
+1. [[Adam Chlipala]]'s trimmed down version of [Certified Programming with Dependent Types](http://adam.chlipala.net/papers/CpdtJFR/) explains more advanced Rocq techniques.
 
  
 ### Applications to formal mathematics
