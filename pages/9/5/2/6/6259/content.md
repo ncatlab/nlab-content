@@ -409,6 +409,9 @@ Further discussion:
 * {#ACDGMNRT22}  [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], [[Riccardo Matrecano]], [[Ruggero Noris]], [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
   > (lifted to [[superspace]] in the [[D'Auria-Fré-Regge formulation of supergravity]])
 
+* [[Chris Hull]], [[Neil Lambert]]: *Quantising Chiral Bosons On Riemann Surfaces* &lbrack;[arXiv:2508.02865](https://arxiv.org/abs/2508.02865)&rbrack;
+
+
 
 
 ### For RR-fields / differential K-theory
