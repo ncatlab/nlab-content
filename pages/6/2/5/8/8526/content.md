@@ -89,6 +89,8 @@ Surveys include
 
 * [[Shinichi Mochizuki]], _Panoramic overview of inter-universal Teichmuller theory_, [pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Panoramic%20Overview%20of%20Inter-universal%20Teichmuller%20Theory.pdf)
 
+* Benjamin Collas, _Anabelian Arithmetic Geometry—a New Geometry of Forms and Numbers: Inter-universal Teichmüller Theory or Beyond Grothendieck's Vision"_, Lobachevskii Journal of Mathematics February 2025, Volume 45, pp. 4954–4979 [Springer Nature](https://rdcu.be/ebi17)
+
 
 * {#Yamashita13} Go Yamashita, _FAQ on 'Inter-Universality'_ ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/FAQ%20on%20Inter-Universality.pdf))
  
