@@ -1,12 +1,17 @@
 
-* [webpage (old)](http://www.cs.bham.ac.uk/~vdp/)
+* [personal page](http://vcvpaiva.github.io/)
 
-* [webpage (new)](http://vcvpaiva.github.io/)
+* [Topos institute page](https://topos.institute/people/valeria-de-paiva/)
+
+* [PUC-RIO page](https://www.inf.puc-rio.br/en/teacher/@valeria-de-paiva)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Valeria_de_Paiva)
 
-## Selected writings
+* [GoogleScholar page](https://scholar.google.com/citations?user=AYdo1hMAAAAJ&hl=en)
 
+
+
+## Selected writings
 
 On [[categorical semantics]] for (the [[exponential modality]] in) [[linear logic]]:
 
@@ -38,6 +43,10 @@ A [[natural deduction]]-formulation of [[modal logic]] ([[S4 modal logic|S4]]/[[
 See also:
 
 * {#BentonBiermanPaiva98} [[Nick Benton]], [[Gavin Bierman]], [[Valeria de Paiva]], *Computational Types from a Logical Perspective*, Journal of Functional Programming **8** 2  (1998) 177-193 &lbrack;[doi:10.1017/S0956796898002998](https://doi.org/10.1017/S0956796898002998), [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778)&rbrack;
+
+On [[temporal logic]]:
+
+* [[Valeria de Paiva]], [[Harley Eades III]]: _Constructive Temporal Logic, Categorically_, IfCoLog Journal of Logics and their Applications **4** 4 (2017) 1287 &lbrack;[pdf](https://vcvpaiva.github.io/includes/pubs/2017-grisha.pdf), [pdf](https://www.collegepublications.co.uk/downloads/ifcolog00013.pdf)&rbrack;
 
 
 On Natural Language Inference:
