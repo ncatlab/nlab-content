@@ -1,5 +1,11 @@
 * [website](https://www.ioc.ee/~amar/)
 
+Students:
+
+- (former) [[Diana Kessler]] ([website](https://sites.google.com/view/dianakessler/home))
+- (current) [[Clémence Chanavat]] ([website](https://chanavat.site/))
+- ...
+
 ## Selected writings
 
 On [[string diagrams]] and [[quantum entanglement]]:
