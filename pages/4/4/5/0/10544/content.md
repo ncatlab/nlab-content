@@ -1,4 +1,4 @@
-I am an Italian postdoc.
+I am an Italian category theorist. Currently, I am in Tallinn in the "[compositionality](https://compose.ioc.ee)" group of [Pawel Sobocinski](https://www.ioc.ee/~pawel/).
 
 I'm a former student of [[Domenico Fiorenza]]. I owe him my mathematical everything.
 
@@ -9,14 +9,13 @@ I've been a postdoc in all these places:
 * Max Planck Institute for Mathematics (D)
 * Center of Mathematics, University of Coimbra (PT)
 
-Currently, I am in Tallinn in the [compositionality](https://compose.ioc.ee) group of [Pawel Sobocinski](https://www.ioc.ee/~pawel/).
+of which I have good memories.
 
 Here's a list of the papers I've written: [link](https://arxiv.org/search/math?searchtype=author&query=Loregian%2C+F)
 
-[This](http://tetrapharmakon.github.io) is my personal website. It's way more up to date than this page here... 
+[This](http://tetrapharmakon.github.io) is my personal website. It's way more up to date than this page here...
 
 Write me an email any time!
-
 
 ## Selected writings
 
@@ -55,7 +54,7 @@ On [[t-structures]] and [[reflective factorization systems]]:
 
 * [[Domenico Fiorenza]], [[Fosco Loregian]], [[Giovanni Marchetti]], *Hearts and towers in stable $\infty$-categories*,  J. Homotopy Relat. Struct. **14**  (2019) 993–1042 &lbrack;[arXiv:1501.04658](https://arxiv.org/abs/1501.04658), [doi:10.1007/s40062-019-00237-0](https://doi.org/10.1007/s40062-019-00237-0)&rbrack;
 
-* [[Fosco Loregian]], [[Simone Vrili]] *Triangulated factorization systems and t-structures*, Journal of Algebra **550** (2020) 219-241 &lbrack;[doi:10.1016/j.jalgebra.2019.12.021](https://doi.org/10.1016/j.jalgebra.2019.12.021)&rbrack;
+* [[Fosco Loregian]], [[Simone Virili]] *Triangulated factorization systems and t-structures*, Journal of Algebra **550** (2020) 219-241 &lbrack;[doi:10.1016/j.jalgebra.2019.12.021](https://doi.org/10.1016/j.jalgebra.2019.12.021)&rbrack;
 
 Generalizing [[Lawvere theories]] to partial algebraic theories:
 
