@@ -358,7 +358,9 @@ The description in terms of [[dense monomorphism|dense monomorphisms]] using [[L
 
 Sheafification is shown to be instance of [[category enriched in a bicategory|bicategory-enriched]] [[Cauchy completion]] in:
 
-* [[Renato Betti]] and [[Robert FC Walters]], _The symmetry of the Cauchy-completion of a category_, Category Theory: Applications to Algebra, Logic and Topology Proceedings of the International Conference Held at Gummersbach, July 6–10, 1981. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006.
+* [[Renato Betti]] and [[Aurelio Carboni]], _Cauchy-completion and the associated sheaf_, Cahiers de topologie et géométrie différentielle 23.3 (1982): 243-256. ([pdf](https://www.numdam.org/item/CTGDC_1982__23_3_243_0.pdf))
+
+* [[Renato Betti]] and [[Robert Walters]], _The symmetry of the Cauchy-completion of a category_, Category Theory: Applications to Algebra, Logic and Topology Proceedings of the International Conference Held at Gummersbach, July 6–10, 1981. Berlin, Heidelberg: Springer Berlin Heidelberg, 2006.
 
 Extension of sheafification of presheaves with values in other categories has been advanced in
 
