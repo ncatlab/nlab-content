@@ -88,7 +88,7 @@ and one can ask this to be an equivalence, hence a Wirthm&#252;ller isomorphism 
 ## Definition
 
 +-- {: .num_defn #WirthmullerContext}
-###### Defininition
+###### Definition
 
 Let $(\mathcal{X}, \otimes_X, 1_{X})$, $(\mathcal{Y}, \otimes_Y, 1_Y)$ be two [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] and let 
 
