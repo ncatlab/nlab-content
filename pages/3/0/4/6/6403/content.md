@@ -133,6 +133,7 @@ Generalization to "differential spinors":
 
 * [[Carlos S. Shahbazi]], *Differential spinors and Kundt three-manifolds with skew-torsion* &lbrack;[arXiv:2405.03756](https://arxiv.org/abs/2405.03756)&rbrack;
 
+* [[Carlos S. Shahbazi]]: *Torsion parallel spinors on Lorentzian four-manifolds and supersymmetric evolution flows on bundle gerbes*, PhD thesis, Hamburg (2025) &lbrack;[arXiv:2507.06228](https://arxiv.org/abs/2507.06228)&rbrack;
 
 
 
