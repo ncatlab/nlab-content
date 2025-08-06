@@ -275,6 +275,11 @@ On the impact of exotic smooth structures on the spectrum of [[Dirac operators]]
 
 * Ulrich Chiapi-Ngamako, M. B. Paranjape: *Physics on manifolds with exotic differential structures* &lbrack;[arXiv:2501.13328](https://arxiv.org/abs/2501.13328)&rbrack;
 
+See also:
+
+* Ulrich Chiapi-Ngamako, M. B. Paranjape: *Physics on manifolds with exotic differential structures* &lbrack;[arXiv:2501.13328](https://arxiv.org/abs/2501.13328)&rbrack;
+
+
 
 
 #### String theory
