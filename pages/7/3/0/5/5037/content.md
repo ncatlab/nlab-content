@@ -3,6 +3,7 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 **Temporal logics**, as their name suggests, are [[formal logics]] that are meant to refer to the passage of [[time]].  They form a very large and important class of [[modal logics]], but here we will, to start with, only look at some simple cases. An important early example of a temporal logic is given by [[Arthur Prior]]'s **tense** logic.
@@ -157,7 +158,7 @@ For the relationship between linear-time temporal logic and functional reactive 
 
 * {#Jeltsch12} Wolfgang Jeltsch, _Towards a Common Categorical Semantics for Linear-Time Temporal Logic and Functional Reactive Programming_, Electronic Notes in Theoretical Computer Science 286, pp. 229-242, ([doi](https://doi.org/10.1016/j.entcs.2012.08.015))
 
-* {#dePaiva16} Valeria de Paiva and Harley Eades III _Constructive Temporal Logic, Categorically_, IfCoLog Journal of Logics and their Applications, (2017). ([pdf](https://vcvpaiva.github.io/includes/pubs/2017-grisha.pdf))
+* {#dePaiva16} [[Valeria de Paiva]], [[Harley Eades III]]: _Constructive Temporal Logic, Categorically_, IfCoLog Journal of Logics and their Applications **4** 4 (2017) 1287 &lbrack;[pdf](https://vcvpaiva.github.io/includes/pubs/2017-grisha.pdf), [pdf](https://www.collegepublications.co.uk/downloads/ifcolog00013.pdf)&rbrack;
 
 * {#Venema17} Yde Venema, _Temporal logic_. 2017. ([pdf](https://staff.science.uva.nl/y.venema/papers/TempLog.pdf))
 
