@@ -22,7 +22,7 @@
 The **Calculus of Constructions** (CoC) is a [[type theory]] [[formal system]] for [[constructive mathematics|constructive]] [[proof]] in [[natural deduction]] style.
 This calculus goes back to [[Thierry Coquand]] and [[Gérard Huet]]
 
-When supplemented by [[inductive types]], it become the __Calculus of Inductive Constructions__ (CIC).  Sometimes [[coinductive types]] are included as well and one speaks of the __Calculus of (co)inductive Constructions__. This is what the [[Coq]] software implements.
+When supplemented by [[inductive types]], it become the __Calculus of Inductive Constructions__ (CIC).  Sometimes [[coinductive types]] are included as well and one speaks of the __Calculus of (co)inductive Constructions__. This is what the [[Rocq]] software implements.
 
 More in detail, the _Calculus of (co)Inductive Constructions_ is
 
@@ -32,9 +32,9 @@ More in detail, the _Calculus of (co)Inductive Constructions_ is
 
    1. with the natural-deduction rule for [[dependent product types]] specified;
 
-1. with a rule for how to introduce new natural-deduction rules for arbitrary ([[coinductive type|co]])[[inductive types]].
+1. with a rule for how to introduce new [[natural deduction]] [[inference rules]] for arbitrary ([[coinductive type|co]])[[inductive types]].
 
-1. and with [[universes]]:
+1. and with [[type universes]]:
 
    a cumulative hierarchy of [[predicative mathematics|predicative]] [[types of types]]
 
@@ -48,7 +48,7 @@ All of the other standard [[type formation|type formations]] are subsumed by the
 
 * [[initiality conjecture]]
 
-* [[Coq]]
+* [[Rocq]]
 
 * [[computational type theory]]
 
