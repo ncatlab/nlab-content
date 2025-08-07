@@ -2,7 +2,6 @@
 
 Jack Johnson Morava (1944-2025)
 
-
 * [institute page](https://mathematics.jhu.edu/directory/jack-morava)
 
 * [Johns Hopkins obituary](https://mathematics.jhu.edu/2025/08/06/jack-morava-1944-1925/)
@@ -13,7 +12,7 @@ Jack Johnson Morava (1944-2025)
 
 * [[Michael Hopkins]]: _Talk on Jack Morava's work at Jack's 60th birthday conference_ (2004) &lbrack;[webpage (archived)](http://web.archive.org/web/20150326150229/http://www.mathematics.jhu.edu/new/moravavideo.htm)&rbrack;
 
-* reminiscences on the AlgTop mailing list (starting July 2025): [thread](https://lists.illinois.edu/lists/arc/algtop-l/2025-08/msg00000.html)
+* reminiscences on the AlgTop mailing list (starting 1st Aug 2025): [thread](https://lists.illinois.edu/lists/arc/algtop-l/2025-08/msg00000.html)
 
 ## Selected writings
 
@@ -26,7 +25,7 @@ On [[prequantum line bundle|prequantized]] (and [[polarization|polarized]]) [[sy
 * {#Morava99} [[Jack Morava]], _Cobordism of symplectic manifolds and asymptotic expansions_, talk at the conference in honor of S.P. Novikov's 60th birthday &lbrack;[arXiv:9908070](http://arxiv.org/abs/math/9908070)&rbrack;
 
 
-On [[prime spectrum of a symmetric monoidal stable (∞,1)-category]]:
+On [[prime spectra of symmetric monoidal stable (∞,1)-categories]]:
 
 * [[Jack Morava]], _Toward a fundamental groupoid for the stable homotopy category_ &lbrack;[arXiv:math/0509001](http://arxiv.org/abs/math/0509001)&rbrack;
 
@@ -60,12 +59,12 @@ On the [[cosmic Galois group]]:
 
 On [[orbifolds]] in [[mathematical physics]] and in particular [[string theory]]:
 
-* [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]]: *[[Orbifolds in Mathematics and Physics]]*, Contemporary Mathematics **310**, American Mathematical Society (2002)
+* [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]]: *[[Orbifolds in Mathematics and Physics]]*, Contemporary Mathematics **310**, American Mathematical Society (2002) &lbrack;[ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310)&rbrack;
 
 
 On the "[[canonical formula of myth]]":
 
-* {#Morava03}[[Jack Morava]], _On the Canonical Formula of C. L&#233;vi-Strauss_ , arXiv.0306174v2 (2003) &lbrack;[arXiv:math/0306174](http://arxiv.org/abs/math/0306174)&rbrack;
+* {#Morava03}[[Jack Morava]], _On the Canonical Formula of C. L&#233;vi-Strauss_ &lbrack;[arXiv:math/0306174](http://arxiv.org/abs/math/0306174)&rbrack;
 
 * {#Morava04}[[Jack Morava]], _Une interpr&#233;tation math&#233;matique de la formule canonique de Claude L&#233;vi-Strauss_ , Cahiers de L'Herne **88** (2004)  216-218.
 
