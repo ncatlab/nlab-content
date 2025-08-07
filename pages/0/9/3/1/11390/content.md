@@ -68,7 +68,7 @@ See also
 
 * [[Jack Morava]], _Toward a fundamental groupoid for the stable homotopy category_ ([arXiv:math/0509001](http://arxiv.org/abs/math/0509001))
 
-
+[[!redirects prime spectra of symmetric monoidal stable (∞,1)-categories]]
 
 [[!redirects prime spectrum of a monoidal stable (∞,1)-category]]
 
