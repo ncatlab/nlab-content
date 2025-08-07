@@ -175,11 +175,11 @@ $$
 
 ## References
 
-The model structure for for simplicial %T%Palgebras is originally due to
+The model structure for  simplicial Lie algebras is originally due to Quillen in
 
 * {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, Lectures Notes in Mathematics 43, Springer Verlag, Berlin, (1967)
 
-and specifically for [[reduced simplicial set|reduced]] simplicial Lie algebras due to
+and specifically for [[reduced simplicial set|reduced]] simplicial Lie algebras in
 
 * {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
 
