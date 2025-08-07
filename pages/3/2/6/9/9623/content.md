@@ -5,6 +5,8 @@ Jack Johnson Morava (1944-2025)
 
 * [institute page](https://mathematics.jhu.edu/directory/jack-morava)
 
+* [Johns Hopkins obituary](https://mathematics.jhu.edu/2025/08/06/jack-morava-1944-1925/)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Jack_Morava)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=8zFRipkAAAAJ&hl=en)
