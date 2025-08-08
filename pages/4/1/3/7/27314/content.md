@@ -167,9 +167,9 @@ See also:
 * Wikipedia, [Yang-Mills-Higgs equations](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills%E2%80%93Higgs_equations)
 
 [[!redirects Yang-Mills-Higgs equation]]
-[[!redirects Yang-Mills-Higgs connection]]
-[[!redirects Yang-Mills-Higgs connections]]
+[[!redirects Yang-Mills-Higgs pair]]
+[[!redirects Yang-Mills-Higgs pairs]]
 [[!redirects YMH equation]]
 [[!redirects YMH equations]]
-[[!redirects YMH connection]]
-[[!redirects YMH connections]]
+[[!redirects YMH pair]]
+[[!redirects YMH pairs]]
