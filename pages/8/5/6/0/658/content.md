@@ -18,7 +18,7 @@
 
 ## Idea
 
-The concept of _profunctor_ is a generalization of the concept of [[functor]] in much the same way that the concept of [[bimodule]] generalizes that of [[associative algebra|algebra]] [[homomorphism]] (in fact, this may be understood as a special case of enriched profunctors).
+The concept of a _profunctor_ is a generalization of the concept of a [[functor]] in much the same way that the concept of a [[bimodule]] generalizes that of an [[associative algebra|algebra]] [[homomorphism]] (in fact, this may be understood as a special case of enriched profunctors).
 
 ## Definition ##
 
@@ -35,11 +35,11 @@ Every [[functor]] $f\colon C\to D$ induces two profunctors $D(1,f)\colon C $&#86
 
 In particular the identity profunctor $Id \colon  C $&#8696;$ C$ is represented by the identity functor and hence is given by the [[hom-functor]] $C(-,-) : C^{op} \times C \to Set$ itself.
 
-The notion generalizes to many other kinds of categories.  For instance, if $C$ and $D$ are [[enriched category|enriched]] over some symmetric [[closed monoidal category]] $V$, then a profunctor from $C$ to $D$ is a $V$-functor $D^{op} \otimes C\to V$.  If they are [[internal categories]], then a profunctor $C $&#8696;$ D$ is an [[internal diagram]] on $D^{op}\times C$, and so on.  There are also other equivalent definitions in each case; see below.
+The notion generalizes to many other kinds of categories. For instance, if $C$ and $D$ are [[enriched category|enriched]] over some symmetric [[closed monoidal category]] $V$, then a profunctor from $C$ to $D$ is a $V$-functor $D^{op} \otimes C\to V$. If they are [[internal categories]], then a profunctor $C $&#8696;$ D$ is an [[internal diagram]] on $D^{op}\times C$, and so on. There are also other equivalent definitions in each case; see below.
 
-A profunctor is also sometimes called a **[[bimodule|(bi)module]]** or a **distributor** or a **relator** or a **correspondence**, though the latter word is also used for a [[span]].  The term "module" tends to be common in Australia, especially in the enriched case; here the intuition is that for one-object $V$-categories, i.e. monoids in $V$, profunctors really are the same as [[bimodules]] between such monoids in the usual sense.  "Profunctor" is perhaps more common in the Set-based and internal cases (but is also used in the enriched case); here the intuition is that a profunctor is a generalization of a functor, via the construction of "representable" profunctors.  Jean B&#233;nabou, who invented the term and originally used "profunctor," later preferred "distributor". One reason for this is that lax functors from a given category to the bicategory of distributors give a notion of "distribution on a category", formally resembling [[distributions]] qua generalized [[functions]] - see [Bénabou 95](#Benabou95).
+A profunctor is also sometimes called a **[[bimodule|(bi)module]]** or a **distributor** or a **relator** or a **correspondence**, though the latter word is also used for a [[span]]. The term "module" tends to be common in Australia, especially in the enriched case; here the intuition is that for one-object $V$-categories, i.e. monoids in $V$, profunctors really are the same as [[bimodules]] between such monoids in the usual sense. "Profunctor" is perhaps more common in the Set-based and internal cases (but is also used in the enriched case); here the intuition is that a profunctor is a generalization of a functor, via the construction of "representable" profunctors. Jean B&#233;nabou, who invented the term and originally used "profunctor," later preferred "distributor". One reason for this is that lax functors from a given category to the bicategory of distributors give a notion of "distribution on a category", formally resembling [[distributions]] qua generalized [[functions]] - see [Bénabou 95](#Benabou95).
 
-Note that the convention that a profunctor is a functor $D^{op}\times C \to Set$ is not universal; some authors reverse $C$ and $D$ and/or put the "op" on the other one.  See the discussion below.
+Note that the convention that a profunctor is a functor $D^{op}\times C \to Set$ is not universal; some authors reverse $C$ and $D$ and/or put the "op" on the other one. See the discussion below.
 
 ### Profunctors and product categories
 
