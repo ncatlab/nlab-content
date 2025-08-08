@@ -12,6 +12,10 @@
 
   (on [[differential geometry]] of [[smooth manifolds]])
 
+* {#Nicolaescu00} [[Liviu Nicolaescu]], *Notes on Seiberg-Witten theory*, American Mathematical Society (2000) &lbrack;[ISBN:978-0-8218-2145-9](https://bookstore.ams.org/GSM/28), [pdf](https://www3.nd.edu/~lnicolae/new1.pdf)&rbrack;
+
+  (on [[Seiberg-Witten theory]])
+
 ## Related $n$Lab entries
 
 * [[differential geometry]]
@@ -21,3 +25,9 @@
 * [[Gauss-Bonnet theorem]]
 
 * [[Euler form]]
+
+* [[Seiberg-Witten theory]]
+
+* [[Seiberg-Witten equations]]
+
+* [[Seiberg-Witten invariant]]
