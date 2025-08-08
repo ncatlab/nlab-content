@@ -143,15 +143,8 @@ On relation between [[Rozansky-Witten invariants]] and [[Seiberg-Witten invarian
 [[!redirects Seiberg-Witten duality]]
 [[!redirects Seiberg-Witten dualities]]
 
-[[!redirects Seiberg-Witten invariant]]
-[[!redirects Seiberg-Witten invariants]]
-
 [[!redirects Seiberg-Witten curve]]
 [[!redirects Seiberg-Witten curves]]
 
 [[!redirects quantum Seiberg-Witten curve]]
 [[!redirects quantum Seiberg-Witten curves]]
-
-[[!redirects Seiberg-Witten equation]]
-[[!redirects Seiberg-Witten equations]]
-
