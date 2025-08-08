@@ -4,6 +4,8 @@
 
 ## Selected writings
 
+(See also the [archive of Fred Richman's Documents](https://web.archive.org/web/20230811063327/https://math.fau.edu/richman/html/docs.htm).)
+
 On the [[fundamental theorem of algebra]] in [[constructive mathematics]]:
 
 * [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*. Pacific Journal of Mathematics **196** 1 (2000) 213–230 &lbrack;[doi:10.2140/pjm.2000.196.213](http://dx.doi.org/10.2140/pjm.2000.196.213), [pdf](https://msp.org/pjm/2000/196-1/pjm-v196-n1-p10-p.pdf)&rbrack;
@@ -44,5 +46,6 @@ On [[polynomials]] and [[linear transformations]]:
 On [[uniform continuity]] and the [[fan theorem]]:
 
 * [[William H. Julian]], [[Fred Richman]], *A uniformly continuous function on [0,1] that is everywhere different from its infimum*, Pacific Journal of Mathematics, 111(2), 1984, pp. 333–340. ([10.2140/pjm.1984.111.333](https://doi.org/10.2140/pjm.1984.111.333))
+
 
 category: people
