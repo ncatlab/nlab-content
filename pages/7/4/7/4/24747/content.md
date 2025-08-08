@@ -39,6 +39,7 @@ Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 * [PSSL 110](https://www.ioc.ee/~amar/pssl110/) (2025, Tallinn)
 
+* [PSSL 111](https://progetto-itaca.github.io/pssl111/) (2025, Bologna)
 
 ## Related pages
 
