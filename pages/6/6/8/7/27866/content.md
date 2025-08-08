@@ -48,10 +48,10 @@ The group $\mathcal{G}=C^\infty(M,U(1))$ and its subgroup $\mathcal{G}_0=\{u\in\
 If $b_2^+(M)-b_1(M)$ is odd, then $dim\mathcal{M}=2d$ is even and the Seiberg-Witten invariant can be defined as:
 $$
 SW(M,\mathfrak{s},g,\eta)
-=\int_{\mathcal{M}}e^d
+\coloneqq\int_{\mathcal{M}}e^d
 \in\mathbb{Z}.
 $$
-If $b_2^+(M)\geq 2$, then $SW(M,\mathfrak{s}):=SW(M,\mathfrak{s},g,\eta)$ is independent of the metric $g$ and the disturbation $\eta$. With the space $Spin^\mathrm{c}(M)\cong H^2(M,\mathbb{Z})$ of [[spinᶜ structures]], for which the isomorphism is given by the first Chern class, one can express the Seiberg-Witten invariant as a map:
+If $b_2^+(M)\geq 2$, then $SW(M,\mathfrak{s})\coloneqq SW(M,\mathfrak{s},g,\eta)$ is independent of the metric $g$ and the disturbation $\eta$. With the space $Spin^\mathrm{c}(M)\cong H^2(M,\mathbb{Z})$ of [[spinᶜ structures]], for which the isomorphism is given by the first Chern class, one can express the Seiberg-Witten invariant as a map:
 $$
 SW\colon
 Spin^\mathrm{c}(M)\cong H^2(M,\mathbb{Z})\rightarrow\mathbb{Z}.
@@ -64,5 +64,19 @@ c^2
 \geq 2\chi(M)
 +3\sigma(M).
 $$
+
+## References
+
+* {#Nicolaescu00} [[Liviu Nicolaescu]], *Notes on Seiberg-Witten theory*, American Mathematical Society (2000) &lbrack;[ISBN:978-0-8218-2145-9](https://bookstore.ams.org/GSM/28), [pdf](https://www3.nd.edu/~lnicolae/new1.pdf)&rbrack;
+
+* Jürgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
+
+* [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
+
+* [[Matilde Marcolli]], _Seiberg-Witten gauge theory_, [pdf](http://www.its.caltech.edu/~matilde/swcosi.pdf)
+
+See also:
+
+* Wikipedia, _[Seiberg-Witten invariants](https://en.wikipedia.org/wiki/Seiberg%E2%80%93Witten_invariants)_
 
 [[!redirects Seiberg-Witten invariants]]
