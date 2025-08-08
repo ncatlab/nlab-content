@@ -231,7 +231,7 @@ which is non-degenerate and whose symmetry is given by the following table:
 
 =--
 
-This appears for instance as ([Varadarajan 04, theorem 6.5.7](#Varadrajan04)).
+This appears for instance as ([Varadarajan 04, theorem 6.5.7](#Varadarajan04)).
 
 +-- {: .num_remark #ChargeConjugationMatrix}
 ###### Remark
@@ -287,7 +287,7 @@ on a real [[irreducible representation]] $S$ of $Spin(V)$, and its symmetry is g
 
 =--
 
-This appears for instance as ([Freed 99, around (3.4)](#Freed99), [Varadarajan 04, theorem 6.5.10](#Varadrajan04)).
+This appears for instance as ([Freed 99, around (3.4)](#Freed99), [Varadarajan 04, theorem 6.5.10](#Varadarajan04)).
 
 
 #### $p = 1$ -- super Poincar&#233; bracket (supersymmetry)
@@ -318,7 +318,7 @@ for even $d$ and $S^\pm$ the two inequivalent [[irreducible representations]].
 
 =--
 
-This is ([Varadarajan 04, theorem 6.6.3](#Varadrajan04)).
+This is ([Varadarajan 04, theorem 6.6.3](#Varadarajan04)).
 
 
 ##### Over the real numbers (for Majorana spinors)
@@ -343,9 +343,9 @@ Then there exists unique $Spin(V)$-representation morphisms
 
 =--
 
-This is ([Varadarajan 04, theorem 6.5.10](#Varadrajan04)).
+This is ([Varadarajan 04, theorem 6.5.10](#Varadarajan04)).
 
-For more see ([Varadarajan 04, section 6.7](#Varadrajan04)).
+For more see ([Varadarajan 04, section 6.7](#Varadarajan04)).
 
 
 ##### Pairing to a vector in terms of the charge conjugation matrix
