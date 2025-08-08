@@ -66,6 +66,20 @@ F_A^+
 $$
 Considering the undisturbed Seiberg-Witten equations with a vanishing spinor field $\phi=0$ yields the anti self-dual [[Yang-Mills equations]] (ASDYM equations) $F_A^+=0$.
 
+## References
+
+* {#Nicolaescu00} [[Liviu Nicolaescu]], *Notes on Seiberg-Witten theory*, American Mathematical Society (2000) &lbrack;[ISBN:978-0-8218-2145-9](https://bookstore.ams.org/GSM/28), [pdf](https://www3.nd.edu/~lnicolae/new1.pdf)&rbrack;
+
+* Jürgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
+
+* [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
+
+* [[Matilde Marcolli]], _Seiberg-Witten gauge theory_, [pdf](http://www.its.caltech.edu/~matilde/swcosi.pdf)
+
+See also:
+
+* Wikipedia, _[Seiberg-Witten equations](https://en.wikipedia.org/wiki/Seiberg%E2%80%93Witten_equations)_
+
 [[!redirects Seiberg-Witten equation]]
 [[!redirects Undisturbed Seiberg-Witten equation]]
 [[!redirects Undisturbed Seiberg-Witten equations]]
