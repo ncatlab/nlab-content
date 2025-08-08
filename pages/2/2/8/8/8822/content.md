@@ -36,8 +36,7 @@ An [[object]] $S \in \mathcal{C}$ of a [[category]] $\mathcal{C}$ is called a __
 
 =--
 
-Equivalently, we have that $S$ is a separator if, for every object $X$ in $\mathcal{C}$, morphisms $f:S\rightarrow X$ are [[jointly epimorphic family|jointly epic]]. Assuming that $\mathcal{C}$ is [[locally small|locally small category]], we have equivalently that $S$ is a separator if the [[hom functor]] $Hom(S,-) \colon \mathcal{C} \to $ [[Set]] is [[faithful functor|faithful]].
-
+Equivalently, we have that $S$ is a separator if, for every object $X$ in $\mathcal{C}$, morphisms $f:S\rightarrow X$ are [[jointly epimorphic family|jointly epic]]. Assuming that $\mathcal{C}$ is [[locally small|locally small category]], we have equivalently that $S$ is a separator if the [[hom functor]] $Hom(S,-) \colon \mathcal{C} \to $ [[Set]] is [[faithful functor|faithful]]. 
 
 More generally:
 
@@ -50,6 +49,8 @@ A [[family]] $\mathcal{S} = (S_a)_{(a \in A)}$ of [[objects]] of a [[category]] 
 =--
 
 Assuming again that $\mathcal{C}$ is [[locally small category|locally small]], we have equivalently that $\mathcal{S}$ is a separating family if the family of [[hom functors]] $Hom(S_a,-) \colon \mathcal{C} \to $ [[Set]] (for $a \in A$) is [[jointly faithful family of functors|jointly faithful]].
+
+If the seperating family is given by a functor $G \colon \mathcal{A} \to \mathcal{C}$, then $G$ is a seperator if the [[nerve | nerve and realization]] $Hom(G-,-) \colon \mathcal{C} \to Psh(\mathcal{A})$ is faithful [Lambek (Section 2.)](#JoachimLambek).
 
 Since repetition is irrelevant in a separating family, we may also speak of a _separating [[class]]_ instead of a separating family.
 
@@ -206,6 +207,7 @@ To see that the pullback-stability condition is necessary, consider the category
 
 * {#AdamekRosicky} [[Jiří Adámek]] and [[Jiří Rosicky]], Locally presentable and accessible categories, Cambridge University Press
 
+* {#JoachimLambek} [[Joachim Lambek]] Completions of Categories. Lecture Notes in Mathematics
 
 [[!redirects separator]]
 [[!redirects separators]]
