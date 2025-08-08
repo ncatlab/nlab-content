@@ -141,8 +141,8 @@ Some of the material used here has been taken from
 
 Another model featuring Yang-Mills fields has been proposed by Curci and Ferrari, see [[Curci-Ferrari model]].
 
-
-
 [[!redirects Yang-Mills equations]]
+[[!redirects Yang-Mills connection]]
+[[!redirects Yang-Mills connections]]
 
 
