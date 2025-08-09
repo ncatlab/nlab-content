@@ -62,6 +62,18 @@ It is also possible to define [[algebras over a monad]] using this presentation.
 
 * For every $h:X\to B$ and $y:Y\to T X$ we have $h^B \circ y^T = (h^B \circ y)^B$.
 
+### As endofunctors with a particular isomorphism
+
+The data of a monad on a category $C$ can be equivalently presented by specifying:
+
+* An endofunctor $T : C \to C$, and
+
+* A natural isomorphism $\phi : \Hom_C(-,T-) \cong \Hom_C(T-,T-)$. That is, for all objects $X$ and $Y$ of $C$, a bijection $\phi_{X,Y} : \Hom_C(X,TY) \cong \Hom_C(TX, TY)$ which is natural in $X$ and $Y$.
+
+The monad structure can be obtained as follows. For each object $X$ of $C$, we have a function $\phi_{TX,X} : \Hom_C(TX,TX) \to \Hom_C(TTX, TX)$ and a function $\phi_{X,X}^{-1} : \Hom_C(TX, TX) \to \Hom_C(X,TX)$. Let $\mu_X$ and $\eta_X$ be the image of $\mathrm{Id}_{TX}$ under $\phi_{TX,X}$ and $\phi_{X,X}^{-1}$ respectively. The resulting natural transformations $\eta$ and $\mu$ make $(T,\eta,\mu)$ a monad.
+
+Conversely, given a monad $(T,\eta,\mu)$, define the map $\phi$ as follows. For all objects $X$ and $Y$ of $C$, define $\phi_{X,Y} : \Hom_C(X,TY) \to \Hom_C(TX,TY)$ by setting $\phi_{X,Y}(f) = \mu_Y \circ Tf$ for all $f : X \to TY$, and define $\phi_{X,Y}^{-1}$ by setting $\phi_{X,Y}^{-1}(g) = g \circ \eta_X$ for all $g: TX \to TY$. The axioms of a monad make $\phi$ a natural isomorphism with inverse $\phi^{-1}$.
+
 ### Strong monads
 
 When $C$ is a [[cartesian closed category]], to make $T$ a [[strong monad]] we simply have to enhance the extension operation $(-)^T$ to an internal morphism $(T A)^B \to (T A)^{T B}$, or equivalently $T B \times (T A)^B \to T A$.  This morphism is known as "bind" in use of [[monads in computer science]].
