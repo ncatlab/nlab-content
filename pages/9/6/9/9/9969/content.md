@@ -104,7 +104,7 @@ Yang expanded on this passage in an interview recorded as
 
 ## Related entries
 
-* [[Yang-Mills theory]]
+* [[Yang-Mills theory]], [[Yang-Mills equations]], [[Yang-Mills-Higgs equations]], [[stable Yang-Mills connection]], [[stable Yang-Mills-Higgs pair]], [[Yang-Mills flow]], [[Yang-Mills-Higgs flow]]
 
 * [[Yang monopole]]
 
