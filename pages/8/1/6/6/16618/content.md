@@ -1,4 +1,4 @@
-> This page is about an alternative presentation of [[monads]] as popular for [[monads in computer science]].  For a different notion of "extension system" (that is to a [[bicategory]] what a [[closed category]] is to a [[monoidal category]]) see instead at *[[closed category]]*.
+> This page is about an alternative presentation of [[monads]] as popular for [[monads in computer science]].  For a different notion of an "extension system" (that is to a [[bicategory]] what a [[closed category]] is to a [[monoidal category]]) see instead *[[closed category]]*.
 
 
 +-- {: .rightHandSide}
@@ -20,7 +20,7 @@
 ## Idea
  {#Idea}
 
-The notion of "*extension system*" ([Marmolejo & Wood (2010)](#MarmolejoWood10)), originally called "*[[algebraic theory]] in extension form*" ([Manes (1976), p. 32](#Manes76)) and previously also referred to as "*[[Kleisli triple]]*" ([Moggi (1991), Def. 1.2](#Moggi91)) is an equivalent way of presenting the [[mathematical structure|structure]] of a *[[monad]]* (on a [[category]]) that does not explicitly refer to [[composition]] ("iteration") of its [[underlying]] [[endofunctor]]. This is simpler for certain purposes, and in any case more natural for others, notably in the use of [[monads in computer science]]. Abstractly, the notion may be understood as specialising the definition of $J$-[[relative monads]] to the case where $J$ is the [[identity functor]]
+The notion of an "*extension system*" ([Marmolejo & Wood (2010)](#MarmolejoWood10)), originally called "*[[algebraic theory]] in extension form*" ([Manes (1976), p. 32](#Manes76)) and previously also referred to as a "*[[Kleisli triple]]*" ([Moggi (1991), Def. 1.2](#Moggi91)) is an equivalent way of presenting the [[mathematical structure|structure]] of a *[[monad]]* (on a [[category]]) that does not explicitly refer to [[composition]] ("iteration") of its [[underlying]] [[endofunctor]]. This is simpler for certain purposes, and in any case more natural for others, notably in the use of [[monads in computer science]]. Abstractly, the notion may be understood as specialising the definition of $J$-[[relative monads]] to the case where $J$ is the [[identity functor]].
 
 Specifically, noticing that the [[endofunctor]] [[underlying]] a [[monad]] may be understood as constructing its [free algebras](algebra+over+a+monad#FreeAlgebras), which (lacking [[relations]]) tend to be "large" (say as concerns the [[cardinality]] of their [[underlying sets]]), the iterated application of this endofunctor produces ever larger objects, and some authors have pointed to avoiding this phenomenon as motivation for considering extension systems:
 
@@ -70,7 +70,7 @@ The data of a monad on a category $C$ can be equivalently presented by specifyin
 
 * A natural isomorphism $\phi : \Hom_C(-,T-) \cong \Hom_C(T-,T-)$. That is, for all objects $X$ and $Y$ of $C$, a bijection $\phi_{X,Y} : \Hom_C(X,TY) \cong \Hom_C(TX, TY)$ which is natural in $X$ and $Y$.
 
-The monad structure can be obtained as follows. For each object $X$ of $C$, we have a function $\phi_{TX,X} : \Hom_C(TX,TX) \to \Hom_C(TTX, TX)$ and a function $\phi_{X,X}^{-1} : \Hom_C(TX, TX) \to \Hom_C(X,TX)$. Let $\mu_X$ and $\eta_X$ be the image of $\mathrm{Id}_{TX}$ under $\phi_{TX,X}$ and $\phi_{X,X}^{-1}$ respectively. The resulting natural transformations $\eta$ and $\mu$ make $(T,\eta,\mu)$ a monad.
+The monad structure can be obtained as follows. For each object $X$ of $C$, we have a function $\phi_{TX,X} : \Hom_C(TX,TX) \to \Hom_C(TTX, TX)$ and a function $\phi_{X,X}^{-1} : \Hom_C(TX, TX) \to \Hom_C(X,TX)$. Let $\mu_X$ and $\eta_X$ be the image of $\mathrm{Id}_{TX}$ under $\phi_{TX,X}$ and $\phi_{X,X}^{-1}$ respectively. In words, $\eta_X$ is the restriction of $\mathrm{Id}_{TX}:TX \to TX$ to $X$, and $\mu_X$ is its extension to $TTX$. The resulting natural transformations $\eta$ and $\mu$ make $(T,\eta,\mu)$ a monad.
 
 Conversely, given a monad $(T,\eta,\mu)$, define the map $\phi$ as follows. For all objects $X$ and $Y$ of $C$, define $\phi_{X,Y} : \Hom_C(X,TY) \to \Hom_C(TX,TY)$ by setting $\phi_{X,Y}(f) = \mu_Y \circ Tf$ for all $f : X \to TY$, and define $\phi_{X,Y}^{-1}$ by setting $\phi_{X,Y}^{-1}(g) = g \circ \eta_X$ for all $g: TX \to TY$. The axioms of a monad make $\phi$ a natural isomorphism with inverse $\phi^{-1}$.
 
