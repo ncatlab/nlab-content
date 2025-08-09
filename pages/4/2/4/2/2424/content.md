@@ -113,7 +113,7 @@ In an interview with Graham Farmelo, ["The Universe Speaks in Numbers", intervie
 
 In 
 
-* [[Michael Atiyah]], _On the work of Edward Witten_, Proceedings of the International Congress of Mathematics, Kyoto 1990 ([pdf](http://www.mathunion.org/ICM/ICM1990.1/Main/icm1990.1.0031.0036.ocr.pdf))
+* [[Michael Atiyah]], _On the work of Edward Witten_, Proceedings of the International Congress of Mathematics, Kyoto 1990 ([pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1990.1/ICM1990.1.ocr.pdf), [archive](https://web.archive.org/web/20250520085051/https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1990.1/ICM1990.1.ocr.pdf))
 
 the following "influential papers" are listed as relevant for Edward Witten receiving the [Fields Medal in 1990](http://159.226.47.99:8080/general/prize/medal/1990.htm).
 
