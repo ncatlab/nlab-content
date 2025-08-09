@@ -50,7 +50,7 @@ On the [[theta angle]] in [[QCD]]:
 
 ## Related entries
 
-* [[Seiberg-Witten theory]]
+* [[Seiberg-Witten theory]], [[Seiberg-Witten equations]], [[Seiberg-Witten invariant]], [[Seiberg-Witten flow]]
 
 * [[BFSS matrix model]]
 
