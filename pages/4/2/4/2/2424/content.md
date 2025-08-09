@@ -161,7 +161,7 @@ and
 
 * [[Gromov-Witten invariants]], [[Rozansky-Witten invariant]]
 
-* [[Seiberg-Witten theory]]
+* [[Seiberg-Witten theory]], [[Seiberg-Witten equations]], [[Seiberg-Witten invariant]], [[Seiberg-Witten flow]]
 
 * [[supersymmetric quantum mechanics]]
 
