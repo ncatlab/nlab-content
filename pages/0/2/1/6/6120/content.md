@@ -85,9 +85,9 @@ Discussion is for instance in
 
 * Denis Bell, _The Gauss-Bonnet theorem for vector bundles_ ([pdf](http://www.unf.edu/~dbell/GBT.pdf))
 
-Expositions include
+Expositions:
 
-* [[Liviu Nicolaescu]], _The many faces of the Gauss-Bonnet theorem_ ([pdf](http://www.nd.edu/~lnicolae/GradStudSemFall2003.pdf))
+* [[Liviu Nicolaescu]], _The many faces of the Gauss-Bonnet theorem_, talk notes (2003) &lbrack;[pdf](http://www.nd.edu/~lnicolae/GradStudSemFall2003.pdf)&rbrack;
 
 * Denis Bell, _The Gauss-Bonnet theorem_ ([pdf](http://www.unf.edu/~dbell/GBVB.pdf))
 
