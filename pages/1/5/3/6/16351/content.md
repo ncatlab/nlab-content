@@ -319,3 +319,4 @@ The analog of the statement for real algebras refined to [[smooth algebras]] is 
 
 [[!redirects smooth manifolds embed into formal duals of R-algebras]]
 [[!redirects Milnor duality]]
+[[!redirects Pursell duality]]
