@@ -96,7 +96,7 @@ $$
 
 * {#Uhlenbeck12} [[Karen Uhlenbeck]], notes by [[Laura Fredrickson]], _Equations of Gauge Theory_, lecture at Temple University, 2012 ([pdf](https://web.stanford.edu/~ljfred4/Attachments/TempleLectures.pdf), [[UhlenbeckGaugeTheory.pdf:file]])
 
-* DispersiveWiki, _[Yang-Mills equations](http://wiki.math.toronto.edu/DispersiveWiki/index.php/Yang-Mills_equations)_
+* DispersiveWiki, _[Yang-Mills equations](https://dispersivewiki.org/DispersiveWiki/index.php?title=Yang-Mills_equations)_
 
 * [TP.SE](http://theoreticalphysics.stackexchange.com/), _[Which exact solutions of the classical Yang-Mills equations are known?](http://theoreticalphysics.stackexchange.com/questions/317/which-exact-solutions-of-the-classical-yang-mills-equations-are-known)_ 
 
