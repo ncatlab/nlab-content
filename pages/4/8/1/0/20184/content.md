@@ -67,19 +67,19 @@ The [[group homomorphism]] (eq:Spin3SquareToO4) is a [[double cover]] and hence 
    Spin(4)
 \]
 
-Since the [[action]] of [[Spin(3)]] on the [[imaginary part|imaginary]] [[quaternions]] $\mathbb{H}_{im} \simeq_{\mathbb{R}} \mathbb{R}^3$ is the [[conjugation action]] by unit quaternions, it follows in particular, that the canonical inclusion of [[Spin(3)]] into [[Spin(4)]] is given by the [[diagonal]] morphsm with respect to the identification (eq:Spin3TimesSpin3IsSpin4):
+Since the [[action]] of [[Spin(3)]] on the [[imaginary part|imaginary]] [[quaternions]] $\mathbb{H}_{im} \simeq_{\mathbb{R}} \mathbb{R}^3$ is the [[conjugation action]] by unit quaternions, it follows in particular, that the canonical inclusion of [[Spin(3)]] into [[Spin(4)]] is given by the [[diagonal]] morphism with respect to the identification (eq:Spin3TimesSpin3IsSpin4):
 
 \[
   \label{Spin3Diagonally}
   \array{
     Spin(3)
-    &\hookrightarrow&
+    &\xhookrightarrow{\phantom{--}}&
     Spin(4)
     \\
     &
     {}_{\mathllap{\Delta}}\searrow
     &
-    \Big\downarrow^{ \mathrlap{\simeq} }
+    \Big\downarrow{ \mathrlap{^\simeq} }
     \\
     && Spin(3) \times Spin(3)
 
@@ -114,7 +114,7 @@ $$
     \big\downarrow
     \\
     Sp(1)\cdot Sp(1)
-    &\overset{\simeq}{\longrightarrow}&
+    &\underset{\simeq}{\longrightarrow}&
     SO(4)
   }
 $$
