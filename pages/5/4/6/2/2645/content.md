@@ -209,7 +209,7 @@ Henri Cartan in
 
   section 7, titled _Classes caracteristiques (reelles) d'un espace fibre principal_
 
-at the end (1951) of an era of deRham cohomology dominence (prior to Serre's thesis) abstracted the [[differential geometry|differential geometric]] approach of Chern-Weil and the [[Weil algebra]] $W(\mathfrak{g})$ to the [[dg-algebra]] context with his notion of _$\mathfrak{g}$-algebras $A$_ . This involves what is known sometimes as the [[Cartan calculus]].  In addition to the differential $d$ of [[differential form]]s on a [[principal bundle]], Cartan abstracts the inner product aka contraction of differential forms with [[vector field]]s $X$ and the [[Lie derivative]] $\mathcal{L}_X$ with respect to vector fields.  that is, he posits 3 operators on a differential-graded-commutative alggebra (dgca):
+at the end (1951) of an era of deRham cohomology dominance (prior to Serre's thesis) abstracted the [[differential geometry|differential geometric]] approach of Chern-Weil and the [[Weil algebra]] $W(\mathfrak{g})$ to the [[dg-algebra]] context with his notion of _$\mathfrak{g}$-algebras $A$_ . This involves what is known sometimes as the [[Cartan calculus]].  In addition to the differential $d$ of [[differential form]]s on a [[principal bundle]], Cartan abstracts the inner product aka contraction of differential forms with [[vector field]]s $X$ and the [[Lie derivative]] $\mathcal{L}_X$ with respect to vector fields.  that is, he posits 3 operators on a differential-graded-commutative alggebra (dgca):
 
 $d$ of degree 1, $i_X$ of degree -1 and $L_X$ of degree 0 for X in $\mathfrak{g}$ subject to the relations:
 
