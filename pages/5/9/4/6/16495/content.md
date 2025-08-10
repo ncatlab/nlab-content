@@ -53,7 +53,7 @@ A [[motivic homotopy theory|motivic]] reinterpretation is discussed in
 
 The ideas of Atiyah-Hirzebruch and Totaro are shown to extend to [[positive characteristic]], using [[etale cohomology]] and [[etale homotopy theory]], to give counterexamples to the integral [[Tate conjecture]], in
 
-* [[Jean-Louis Colliot-Thélène]], [[Tamás Szamuely]], _Autour de la conjecture de Tate `a coefficients Z_l pour les vari'et'es  sur les corps finis_, [arXiv:0902.1666](http://arxiv.org/abs/0902.1666), [pdf](http://www.math.u-psud.fr/~colliot/CTSz21dec2009.pdf).
+* [[Jean-Louis Colliot-Thélène]], [[Tamás Szamuely]], _Autour de la conjecture de Tate à coefficients $\mathbb{Z}_\ell$ pour les variétés sur les corps finis_, [arXiv:0902.1666](http://arxiv.org/abs/0902.1666), [pdf](http://www.math.u-psud.fr/~colliot/CTSz21dec2009.pdf).
 
 and
 
