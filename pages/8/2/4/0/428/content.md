@@ -469,6 +469,8 @@ Textbook accounts::
 
 * [[Charles Weibel]], section 8.6 of _[[An Introduction to Homological Algebra]]_ (1994)
 
+* Birgit Richter, section 10.4 of _From Categories to Homotopy Theory_ (2020, Cambridge Studies in Advanced Mathematics 188, [pdf](https://www.math.uni-hamburg.de/home/richter/bookdraft.pdf), [errata](https://www.math.uni-hamburg.de/home/richter/catbook.html))
+
 The bar complex of a bimodule is reviewed for instance in 
 
 * {#Ginzburg} [[Victor Ginzburg]], around page 16 of: _Lectures on noncommutative geometry_ &lbrack;[arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603)&rbrack;
