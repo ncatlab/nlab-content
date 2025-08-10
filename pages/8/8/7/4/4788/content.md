@@ -30,7 +30,7 @@ The original definition is indicated in words in sections 1-13 of
 
 This has been extracted and formalized in 
 
-* [[Georges Maltsiniotis]], _Infini groupo&#239;des d'apr&#232;s Grothendieck_ ([web](http://www.math.jussieu.fr/~maltsin/textes.html))
+* [[Georges Maltsiniotis]], _Infini groupo&#239;des d'apr&#232;s Grothendieck_ ([web](https://webusers.imj-prg.fr/~georges.maltsiniotis/textes.html))
 
 A comprehensive account of a simplified version of the definition and its generalization from $\infty$-groupoids to $\infty$-categories is given in
 
