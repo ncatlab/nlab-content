@@ -62,6 +62,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 | On categories of algebras | Jan Pavlík | 2010 | [pdf](https://is.muni.cz/th/os4lf/d90.pdf) | |
 | Fundamental bigroupoids and 2-covering spaces|[[David Michael Roberts]]|2010|[Adelaide repository](https://hdl.handle.net/2440/62680)| |
 |Algebraic Model Structures|[[Emily Riehl]]|2011|[pdf](https://emilyriehl.github.io/files/phdthesis.pdf)| |
+|Algebraic weighted colimits|[[Seerp Roald Koudenburg]]|2014|[arXiv](https://arxiv.org/abs/1304.4079)| On [[Kan extension|left extensions]] and [[weighted colimits]] for algebras for [[monads]] on [[double categories]]|
 |Grothendieck categories of enriched functors|Hassan Al Hwaeer| 2014 |[core](https://core.ac.uk/outputs/161880844)| |
 | Analysis and construction of logical systems: a category-theoretic approach | Michał R. Przybyłek | 2014 | [pdf](https://www.mimuw.edu.pl/~mrp/phd_mrp.pdf) | |
 |Generalization of Algebraic Operations via Enrichment|[[Christina Vasilakopoulou]]|2014|[arXiv](https://arxiv.org/abs/1411.3038)| |
