@@ -95,4 +95,4 @@ The definition appears as example C.3.6.3 (d) in
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_
 {#Johnstone}
 
-[!redirects local sites]
+[[!redirects local sites]]
