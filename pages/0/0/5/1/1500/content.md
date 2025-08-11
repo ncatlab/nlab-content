@@ -119,7 +119,7 @@ Every fusion category $\mathcal{C}$ has a [[tube algebra]], which encodes an act
 ### Relation to extended 3d TQFT 
  {#RelationtoTQFT}
 
-Given the data of a [[fusion category]] one can build a 3d [[extended TQFT]] by various means. This is explained by the fact, see below, that fusion categories are (probably precisely) the [[fully dualizable object]]s in the [[3-category]] $MonCat$ of [[monoidal categories]]. By the [[homotopy hypothesis]] this explains how they induce [[3d TQFT]]s.
+Given the data of a [[fusion category]] one can build a 3d [[extended TQFT]] by various means. This is explained by the fact, see below, that fusion categories are (probably precisely) the [[fully dualizable object]]s in the [[3-category]] $MonCat$ of [[monoidal categories]]. By the [[cobordism hypothesis]] this explains how they induce [[3d TQFT]]s.
 
 
 
