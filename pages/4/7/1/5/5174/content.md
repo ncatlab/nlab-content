@@ -20,7 +20,7 @@
 ## Idea
 
 A _Lawvere distribution_ is a [[cosheaf]] valued in some [[topos]], such as the [[category of sets]] [[Set]].
-The concept of _Lawvere distribution_ is a kind of _[[categorification]]_ of the concept of _[[distribution]]_ in [[functional analysis]].
+The concept of a _Lawvere distribution_ is a kind of _[[categorification]]_ of the concept of a _[[distribution]]_ in [[functional analysis]].
 
 To some extent one may think of a [[sheaf]] $F$ on a [[topological space]] as being a [[Set]]-valued [[function]] on that space: to each point $x \in X$ it assigns the [[stalk]] $x^* F \in Set$. In this analogy a _Lawvere distribution_ is the analog of a [[distribution]] in the sense of [[functional analysis]]: where the latter is a [[continuous linear functional]], the former is a [[colimit]]-preserving [[functor]].
 (Here we think of a [[coproduct]] of sets as the [[categorification]] (under set [[cardinality]]) of the [[sum]] of [[numbers]] and hence read preservation of colimits as _linearity_ .)
