@@ -9,7 +9,6 @@
 =--
 =--
 
-# Ternary factorisation systems
 * table of contents
 {: toc}
 
