@@ -479,6 +479,11 @@ On differential cohomology in [[mathematical physics]]:
 
 * [[Arun Debray]], *Differential Cohomology*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.14338](https://arxiv.org/abs/2312.14338)&rbrack;
 
+On differential cohomology in terms of [[diffeological spaces]]:
+
+* Nino Scalbi, _Differential Cohomology as Diffeological Homotopy Theory_ &lbrack;[arXiv:2408.02593](https://arxiv.org/abs/2408.02593)&rbrack;
+
+
 
 ### Lectures and talks 
 
