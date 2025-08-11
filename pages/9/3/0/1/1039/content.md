@@ -48,6 +48,17 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 [[cohesive infinity-groupoid|Cohesive $\infty$-groupoids]] could be contractible in two different ways: topologically contractible in the first sense, or homotopically contractible in the second sense. A cohesive $\infty$-groupoid $S$ is **homotopically contractible** if its underlying $\infty$-groupoid $\Gamma(S)$ is contractible. A cohesive $\infty$-groupoid is **topologically contractible** if its [[fundamental infinity-groupoid]] $\Pi(S)$ is contractible. These two notions of contractibility are not equivalent to each other: in [[Euclidean-topological infinity-groupoids]] the [[unit interval]] is topologically contractible, but homotopically the unit interval is only [[0-truncated]]. 
 
+## Examples
+
+* A(n inhabited) convex subset of a [[topological vector space]] over $\mathbb{R}$ (or $\mathbb{C}$) is contractible.
+
+* The unit sphere in a separable infinite-dimensional [[Hilbert space]] is contractible, unlike the case of finite-dimensional spheres
+
+* By [[Kuiper's theorem]] the unitary group of such a Hilbert space is contractible, where the topology can be either of the two main topologies (norm topology, or strong operator topology).
+
+* The total space of any [[universal principal bundle]] is contractible.
+
+
 ## Related concepts
 
 * [[locally contractible space]]
