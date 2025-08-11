@@ -9,7 +9,6 @@
 =--
 =--
 
-# Separators
 * table of contents
 {: toc}
 
@@ -50,7 +49,7 @@ A [[family]] $\mathcal{S} = (S_a)_{(a \in A)}$ of [[objects]] of a [[category]] 
 
 Assuming again that $\mathcal{C}$ is [[locally small category|locally small]], we have equivalently that $\mathcal{S}$ is a separating family if the family of [[hom functors]] $Hom(S_a,-) \colon \mathcal{C} \to $ [[Set]] (for $a \in A$) is [[jointly faithful family of functors|jointly faithful]].
 
-If the separating family is given by a functor $G \colon \mathcal{A} \to \mathcal{C}$, then $G$ is a separator if the [[nerve | nerve and realization]] $Hom(G-,-) \colon \mathcal{C} \to Psh(\mathcal{A})$ is faithful [Lambek (Section 2.)](#JoachimLambek).
+If the separating family is given by a functor $G \colon \mathcal{A} \to \mathcal{C}$, then $G$ is a separator if the [[nerve and realization|nerve]] $Hom(G-,-) \colon \mathcal{C} \to Psh(\mathcal{A})$ is faithful [Lambek (Section 2.)](#JoachimLambek).
 
 Since repetition is irrelevant in a separating family, we may also speak of a _separating [[class]]_ instead of a separating family.
 
