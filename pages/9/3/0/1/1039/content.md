@@ -14,6 +14,7 @@
 =--
 
 
+
 # Contents
 * table of contents
 {: toc}
@@ -50,11 +51,11 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 ## Examples
 
-* A(n inhabited) convex subset of a [[topological vector space]] over $\mathbb{R}$ (or $\mathbb{C}$) is contractible.
+* An [[inhabited set|inhabited]] [[convex subset]] of a [[topological vector space]] over [[real numbers|$\mathbb{R}$]] or [[complex numbers|$\mathbb{C}$]] is contractible.
 
-* The unit sphere in a separable infinite-dimensional [[Hilbert space]] is contractible, unlike the case of finite-dimensional spheres
+* The [[infinite-dimensional sphere|infinite-dimensional unit sphere]] in a [[separable Hilbert space|separable infinite-dimensional]] [[Hilbert space]] is contractible, unlike the case of [[n-sphere|finite-dimensional spheres]].
 
-* By [[Kuiper's theorem]] the unitary group of such a Hilbert space is contractible, where the topology can be either of the two main topologies (norm topology, or strong operator topology).
+* By [[Kuiper's theorem]] the [[unitary group]] [[U(ℋ)]] of such a Hilbert space is contractible, where the [[topological space|topology]] can be either of the two main topologies ([[norm topology]], or [[strong operator topology]]).
 
 * The total space of any [[universal principal bundle]] is contractible.
 
