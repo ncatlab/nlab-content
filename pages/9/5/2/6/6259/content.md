@@ -396,7 +396,7 @@ Further discussion:
 
 * [[Neil Lambert]], _$(2,0)$ Lagrangian Structures_, Physics Letters B **798** (2019) 134948 &lbrack;[arXiv:1908.10752](https://arxiv.org/abs/1908.10752), [doi;10.1016/j.physletb.2019.134948](https://doi.org/10.1016/j.physletb.2019.134948)&rbrack;
 
-* Pichet Vanichchapongjaroen: *Covariant M5-brane action with self-dual 3-form*, J. High Energ. Phys. **2021** 39 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP05(2021)039">doi:10.1007/JHEP05(2021)039</a>, [arXiv:2011.14384](https://arxiv.org/abs/2011.14384)&rbrack;
+* [[Pichet Vanichchapongjaroen]]: *Covariant M5-brane action with self-dual 3-form*, J. High Energ. Phys. **2021** 39 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP05(2021)039">doi:10.1007/JHEP05(2021)039</a>, [arXiv:2011.14384](https://arxiv.org/abs/2011.14384)&rbrack;
   > (attention to the non-linearity of the self-duality on M5)
 
 * {#Hull23} [[Chris Hull]], *Covariant Action for Self-Dual $p$-Form Gauge Fields in General Spacetimes*, J. High Energ. Phys. **2024** 11 (2024) &lbrack;[arXiv:2307.04748](https://arxiv.org/abs/2307.04748), <a href="https://doi.org/10.1007/JHEP04(2024)011">doi:10.1007/JHEP04(2024)011</a>&rbrack;
