@@ -292,9 +292,8 @@ Introductions to and surveys of string diagram calculus:
 * Joseph M. Landsberg, §2.11 in: *Tensors: Geometry and Applications*, Graduate Studies in Mathematics **128**, American Mathematical Society (2011) &lbrack;ISBN:978-0-8218-6907-9, [ams:gsm-128](https://bookstore.ams.org/gsm-128)&rbrack;
 
 * [[Aleks Kissinger]], _Pictures of Processes: Automated Graph Rewriting for Monoidal Categories and Applications to Quantum Computing_ ([arXiv:1203.0202](https://arxiv.org/abs/1203.0202))
- 
-* [[Robin Piedeleu]], [[Fabio Zanasi]]: _An Introduction to String Diagrams for Computer Scientists_ &lbrack;[arXiv:2305.08768](https://arxiv.org/abs/2305.08768)&rbrack;
 
+* [[Robin Piedeleu]], [[Fabio Zanasi]]: *An Introduction to String Diagrams for Computer Scientists*, Cambridge University Press (2025) &lbrack;[arXiv:2305.08768](https://arxiv.org/abs/2305.08768), [doi:10.1017/9781009625715](https://doi.org/10.1017/9781009625715)&rbrack;
   > (in [[computer science]])
 
 
@@ -395,7 +394,6 @@ See also these:
 * [[David Yetter]], _Framed tangles and a theorem of Deligne on braided deformations of tannakian categories_ In M. Gerstenhaber and [[Jim Stasheff]] (eds.) _Deformation Theory and Quantum Groups with Applications to Mathematical Physics_, Contemporary Mathematics 134, pages 325&#8211;349. Americal Mathematical Society, 1992.
 
 * {#Mellies06} [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Procceding of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([hal:00154243](https://dumas.ccsd.cnrs.fr/PPS/hal-00154243), [pdf](https://hal.archives-ouvertes.fr/hal-00154243/document), [[MelliesFunctorialBoxesInStringDiagrams.pdf:file]])
-
   > (see also *[[computational trilogy]]*)
 
 For more on the history of the notion see the bibliography in ([Selinger 09](#Selinger09)).
@@ -434,20 +432,19 @@ For [[traced monoidal categories]] in
 
 For [[closed monoidal categories]] in
 
-* [[John Baez]], Quantum Gravity Seminar - Fall 2006.  &lt;http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation>
- {#BaezQG06}
+* {#BaezQG06} [[John Baez]]: <a href="http://math.ucr.edu/home/baez/qg-fall2006/index.html#computation">Quantum Gravity Seminar - Fall 2006</a>
+ 
 
-*  {#Rosetta} [[John Baez]] and [[Mike Stay]], *Physics, Topology, Logic and Computation: A Rosetta Stone*, [arxiv](https://arxiv.org/abs/0903.0340)
+* {#Rosetta} [[John Baez]] and [[Mike Stay]], *Physics, Topology, Logic and Computation: A Rosetta Stone*, [arxiv](https://arxiv.org/abs/0903.0340)
 
 
-* Francois Lamarche, *Proof Nets for Intuitionistic Linear Logic: Essential nets*, 2008 [pdf](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf)
- {#Lamarche08}
+* {#Lamarche08} Francois Lamarche, *Proof Nets for Intuitionistic Linear Logic: Essential nets*, 2008 [pdf](http://hal.inria.fr/docs/00/34/73/36/PDF/prfnet1.pdf)
+ 
 
 * Ralf Hinze, *Kan Extensions for Program Optimisation, Or:
 Art and Dan Explain an Old Trick*, [pdf](http://www.cs.ox.ac.uk/ralf.hinze/Kan.pdf)
 
-* [[Dan Ghica]], [[Fabio Zanasi]], _Hierarchical string diagrams and applications_ ([arXiv:2305.18945](https://arxiv.org/abs/2305.18945))
-
+* [[Dan Ghica]], [[Fabio Zanasi]], _String Diagrams for λ-calculi and Functional Computation_ &lbrack;[arXiv:2305.18945](https://arxiv.org/abs/2305.18945)&rbrack;
 
 For [[biclosed monoidal categories]] in
 
