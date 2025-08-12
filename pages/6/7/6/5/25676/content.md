@@ -1,11 +1,11 @@
 
-* [website](http://www.zanasi.com/fabio/#/main.html)
+* [website](https://fzanasi.github.io/personal/)
 
 ### Selected writings
 
 On [[string diagrams]] in [[computer science]]:
 
-* [[Robin Piedeleu]], [[Fabio Zanasi]], _An Introduction to String Diagrams for Computer Scientists_ ([arXiv:2305.08768](https://arxiv.org/abs/2305.08768))
+* [[Robin Piedeleu]], [[Fabio Zanasi]], _An Introduction to String Diagrams for Computer Scientists_, Cambridge University Press (2025), [arXiv:2305.08768](https://arxiv.org/abs/2305.08768))
 
 On [[string diagrams]] for discussion of [[coherence and strictification for symmetric monoidal categories]]:
 
