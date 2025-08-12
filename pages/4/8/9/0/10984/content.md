@@ -112,6 +112,8 @@ A [[Wirthmüller context]] in the presence of an un-twisted [[Wirthmüller isomo
 
 * [[infinitesimal cohesion]]
 
+* [[Frobenius functor]]
+
 
 ## References
 
