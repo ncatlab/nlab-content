@@ -325,14 +325,16 @@ The [[double dimensional reduction]] of the [[M5-brane]] to the [[D4-brane]]:
 
 * [[Paul Townsend]], _D-branes from M-branes_, Phys. Lett. B373 (1996) 68-75 ([arXiv:hep-th/9512062](https://arxiv.org/abs/hep-th/9512062))
 
-* {#APPS97a} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of _World-Volume Action of the M Theory Five-Brane_, Nucl.Phys. B496 (1997) 191-214 ([arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166))
+* {#APPS97a} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of: *World-Volume Action of the M Theory Five-Brane*, Nucl. Phys. B **496** (1997) 191-214 &lbrack;[arXiv:hep-th/9701166](http://arxiv.org/abs/hep-th/9701166), <a href="https://doi.org/10.1016/S0550-3213(97)00227-7">doi:10.1016/S0550-3213(97)00227-7</a>&rbrack;
 
-* {#APPS97b} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
+* {#APPS97b} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of: _Dual D-Brane Actions_, Nucl. Phys. B **496** (1997) 215-230 &lbrack;[arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133), <a href="https://doi.org/10.1016/S0550-3213(97)00257-5">doi:10.1016/S0550-3213(97)00257-5</a>&rbrack;
 
 * [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083 (2011) ([arXiv:1012.2882](http://arxiv.org/abs/1012.2882))
 
 * {#Witten11} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
- 
+
+* Anajak Phonchantuek, [[Pichet Vanichchapongjaroen]]: *Double dimensional reduction of M5-brane action in Sen formalism*, Eur. Phys. J. C **83** (2023) 721 &lbrack;[arXiv:2305.04861](https://arxiv.org/abs/2305.04861), [doi:10.1140/epjc/s10052-023-11892-2](https://doi.org/10.1140/epjc/s10052-023-11892-2)&rbrack;
+
 ### Reduction of black M2s and black M5s
 
 The [[differential geometry]] of the double dimensional reduction of the [[M2-brane]]- and [[M5-brane]]-charges was maybe first clearly written out in:
