@@ -1,8 +1,8 @@
 
 Robert (Bob) Wayne Thomason (5 Nov 1952-Nov 1995) was an American mathematician. Towards the end of his short life, he worked in [[Max Karoubi]]'s lab. at Paris VII.  His main contributions were in [[homotopy theory]], [[algebraic geometry]] and [[algebraic K-theory]], where he carefully used advanced [[category theory|category theoretic]] methods.
 
-* [biography](http://www-groups.dcs.st-and.ac.uk/history/Biographies/Thomason.html)
-
+* [biography](https://mathshistory.st-andrews.ac.uk/Biographies/Thomason/)
+              
 * [Digitization of Robert Wayne Thomason's notebooks](http://www.math-info-paris.cnrs.fr/bibli/digitization-of-robert-wayne-thomasons-notebooks/)
 
 * [CatLab entry ](http://ncatlab.org/joyalscatlab/published/Thomason%2C+Robert)
