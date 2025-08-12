@@ -22,7 +22,7 @@
 
 What is called _[[chiral perturbation theory]]_ in [[quantum field theory]] of [[nuclear physics]] is the [[effective field theory]] of [[quantum chromodynamics]] in the [[confinement|confined]] sector, where the [[effective field theory|effective]] [[field (physics)|fields]] are [[hadrons]]: 
 
-* [[light meson|light]]$\;$[[scalar mesons]] appear as the [[Goldstone bosons]] of the [[spontaneous symmetry breaking|spontaneously broken]] [[chiral symmetry]] (see below),  
+* [[light meson|light]] [[scalar mesons]] appear as the [[Goldstone bosons]] of the [[spontaneous symmetry breaking|spontaneously broken]] [[chiral symmetry]] (see below),  
 
 * [[vector mesons]] appear as [[gauge fields]] of a [[hidden local symmetry]],
 
