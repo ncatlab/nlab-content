@@ -18,7 +18,7 @@
 
 ## Idea
 
-The _Seiberg-Witten equations_ are [[partial differential equations]] for connections of principal U(1)-bundles and smooth sections of their spinor bundles. Their [[moduli space]] is used to define the [[Seiberg-Witten invariants]] capable to study smooth structures on [[4-manifolds]]. Since the [[gauge group]] of the Seiberg-Witten equations is abelian, many calculations could be simplified with new methods provided by them.
+The _Seiberg-Witten equations_ are [[partial differential equations]] for connections of [[principal U(1)-bundles]] and smooth sections of their spinor bundles. Their [[moduli space]] is used to define the [[Seiberg-Witten invariants]] capable to study smooth structures on [[4-manifolds]]. Since the [[gauge group]] of the Seiberg-Witten equations is abelian, many calculations could be simplified with new methods provided by them.
 
 ## Basics
 
@@ -32,7 +32,7 @@ the [[spinᶜ structure]] $\mathfrak{s}$ consists of two complex plane bundles $
 
 ## Seiberg-Witten equations
 
-[[covariant derivative|Covariant derivatives]] $\nabla\colon\Gamma^\infty(L)\rightarrow\Gamma^\infty(T^*M\otimes L)$ on the [[determinant line bundle]] $L$, which are [[linear map|linear]] and fulfill the [[Leibniz rule]], induce [[principal connections]] on the [[frame bundle]] $Fr_U(L)$, which is a principal U(1)-bundle, using the following [[isomorphisms]]:
+[[covariant derivative|Covariant derivatives]] $\nabla\colon\Gamma^\infty(L)\rightarrow\Gamma^\infty(T^*M\otimes L)$ on the [[determinant line bundle]] $L$, which are [[linear map|linear]] and fulfill the [[Leibniz rule]], induce [[principal connections]] on the [[frame bundle]] $Fr_U(L)$, which is a [[principal U(1)-bundle]], using the following [[isomorphisms]]:
 $$
 \Hom(\Gamma^\infty(L),\Gamma^\infty(T^*M\otimes L))
 \cong\Gamma^\infty\underline{Hom}(L,T^*M\otimes L)
