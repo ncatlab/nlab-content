@@ -81,7 +81,9 @@ $$
 
 See also:
 
-* Wikipedia, _[Principal U(1)-bundle](https://w.wiki/_o2V4)_
+* Wikipedia, _[Principal U(1)-bundle][pb]_
+
+[pb]: https://en.wikipedia.org/wiki/Principal_U(1)-bundle
 
 [[!redirects principal SO(2)-bundle]] 
 [[!redirects principal SO(2)-bundles]] 
