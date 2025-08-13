@@ -108,5 +108,9 @@ In particular, there is a functor $[C^{op} \times C, B] \to [Tw(C), B]$ sending 
 
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Isbell Duality for Refinement Types_, [arXiv:1501.05115](http://arxiv.org/abs/1501.05115) (2015). {#MZ15}
 
+See also:
+
+* Wikipedia, _[Twisted diagonal (category theory)](https://w.wiki/_o2Tq)_
+
 [[!redirects twisted arrow category]]
 [[!redirects twisted arrow categories]]
