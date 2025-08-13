@@ -110,7 +110,9 @@ In particular, there is a functor $[C^{op} \times C, B] \to [Tw(C), B]$ sending 
 
 See also:
 
-* Wikipedia, _[Twisted diagonal (category theory)](https://w.wiki/_o2Tq)_
+* Wikipedia, _[Twisted diagonal (category theory)][td]_
+
+[td]: https://en.wikipedia.org/wiki/Twisted_diagonal_(category_theory)
 
 [[!redirects twisted arrow category]]
 [[!redirects twisted arrow categories]]
