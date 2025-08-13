@@ -43,6 +43,7 @@ B SU(2)
 \cong B Sp(1)
 \cong\mathbb{H}P^\infty.
 $$
+This result is important for the classification of [[principal SU(2)-bundles]].
 
 ## Cohomology
 
@@ -79,4 +80,5 @@ and indeed the classifying space for $S U\coloneqq\underset{\longrightarrow}{\li
 
 [[!redirects classifying space of SU(n)]]
 [[!redirects classifying space of special unitary group]]
+[[!redirects BSU(2)]]
 [[!redirects BSU]]
