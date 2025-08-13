@@ -1,10 +1,12 @@
-Philip J. Higgins (born 1926, died March 25, 2015) was a British  mathematician, who  worked in areas of algebra and algebraic topology.  He is well known for his book on categories and groupoids, and for his collaboration with [[Ronnie Brown]].
+
+Philip J. Higgins (1926-2015) was a British  mathematician, who  worked in areas of [[algebra]] and [[algebraic topology]].  He is author of a book on [[categories]] and [[groupoids]] &lbrack;[Higgins 1971](#Higgins71)&rbrack;. In later years Higgins worked with [[Ronnie Brown]].
+
 
 ## Selected writings
 
 On [[categories]] and [[groupoids]]:
 
-* [[Philip J. Higgins]], *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
+* {#Higgins71} [[Philip J. Higgins]], *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
 
 On [[algebraic topology]] using [[strict ∞-groupoids]] (often in the equivalent guise of [[crossed complexes]], slightly "nonabelian" [[chain complexes]]):
 
