@@ -127,6 +127,10 @@ Suppose $i$ is a trivial cofibration, and let $f : C \to D$ be a categorical fib
 
 * {#MR22} [[Chirantan Mukherjee]], [[Nima Rasekh]], *Twisted Arrow Construction for Segal Spaces* ([arXiv:2203.01788](https://arxiv.org/abs/2203.01788))
 
+See also:
+
+* Wikipedia, _[Twisted diagonal (simplicial set)](https://w.wiki/_o2Tr)_
+
 [[!redirects twisted arrow (∞,1)-categories]]
 
 [[!redirects twisted arrow (infinity,1)-category]]
