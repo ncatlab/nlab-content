@@ -11,7 +11,7 @@ Such a subset is a [[contractible space]], using the contraction that travels ea
 
 ## Definition
 
-For $X$ a [[real number|real]] [[affine space]], a **star domain** about a point $x\in X$ is an inhabited subset $U \subset X$ such that with $y \in X$, the straight line segment connecting $x$ with $y$ in $X$ is also contained in $U$. 
+For $X$ a [[real number|real]] [[affine space]], a **star domain** (or **star-convex** set) about a point $x\in X$ is an inhabited subset $U \subset X$ such that with $y \in X$, the straight line segment connecting $x$ with $y$ in $X$ is also contained in $U$. 
 
 For $V$ a [[vector space]], a star domain about the origin is an inhabited subset $U \subset V$ that is [[radial]].
 
@@ -40,9 +40,31 @@ A [[convex set]] is the same as a set that is a star domain about each of its po
 [[!redirects star-shaped neighbourhood]]
 [[!redirects star shaped neighbourhood]]
 
+
+[[!redirects star-shaped set]]
+[[!redirects star shaped set]]
+[[!redirects star-shaped sets]]
+[[!redirects star shaped sets]]
+
 [[!redirects star-shaped subset]]
+[[!redirects star shaped subset]]
 [[!redirects star-shaped subsets]]
+[[!redirects star shaped subsets]]
 
 [[!redirects star domains]] 
 [[!redirects star-shaped domain]] 
 [[!redirects star-shaped domains]] 
+
+
+[[!redirects star-convex]]
+[[!redirects star convex]]
+
+[[!redirects star-convex set]]
+[[!redirects star convex set]]
+[[!redirects star-convex sets]]
+[[!redirects star convex sets]]
+
+[[!redirects star-convex subset]]
+[[!redirects star convex subset]]
+[[!redirects star-convex subsets]]
+[[!redirects star convex subsets]]
