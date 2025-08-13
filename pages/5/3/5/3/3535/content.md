@@ -1,4 +1,4 @@
-Philip J. Higgins (born 1926, died March 25, 2015) was a British  mathematician, who  worked in areas of algebra and algebraic topology.  He is well known for his book 
+Philip J. Higgins (born 1926, died March 25, 2015) was a British  mathematician, who  worked in areas of algebra and algebraic topology.  He is well known for his book on categories and groupoids, and for his collaboration with [[Ronnie Brown]].
 
 ## Selected writings
 
