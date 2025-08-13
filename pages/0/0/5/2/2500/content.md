@@ -411,9 +411,6 @@ Survey:
 * [[Ergin Sezgin]], *Survey of supergravities*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2312.06754](https://arxiv.org/abs/2312.06754), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
 
-* [[Antoine Van Proeyen]]: *Matter Couplings in Supergravity. The first 10 years* &lbrack;[arXiv:2503.12510](https://arxiv.org/abs/2503.12510)&rbrack;
-
-
 
 Lecture notes:
 
@@ -574,7 +571,7 @@ Supergravity, in the guise of [[4d supergravity]], was first found (constructed)
 * {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
 
 
-Accounts of the early history include the following:
+Accounts of the early history of supergravity::
 
 * [[Sergio Ferrara]], _Supergravity and the quest for a unified theory_ ([arxiv:hep-th/9405065](https://arxiv.org/abs/hep-th/9405065))
 
@@ -600,6 +597,9 @@ S. Duplij, J. Bagger, W. Siegel (Eds.), Springer, 2004](http://www.springer.com/
 * [[Bernard L. Julia]]: *An exceptional story: Symmetries and dualities between Maximal supergravity and General relativity*, in: *Half a Century of Supergravity* &lbrack;[arXiv:2504.07576](https://arxiv.org/abs/2504.07576)&rbrack;
 
 * [[Peter West]]: *The discovery of supergravity and its early development* &lbrack;[arXiv:2507.23634](https://arxiv.org/abs/2507.23634)&rbrack;
+
+* [[Antoine Van Proeyen]]: *Matter Couplings in Supergravity. The first 10 years* &lbrack;[arXiv:2503.12510](https://arxiv.org/abs/2503.12510)&rbrack;
+
 
 See also:
 
