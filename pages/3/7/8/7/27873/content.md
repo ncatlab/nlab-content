@@ -93,7 +93,9 @@ $$
 
 See also:
 
-* Wikipedia, _[Principal SU(2)-bundle](https://w.wiki/_o2V9)_ 
+* Wikipedia, _[Principal SU(2)-bundle][pb]_
+
+[pb]: https://en.wikipedia.org/wiki/Principal_SU(2)-bundle 
 
 [[!redirects principal Sp(1)-bundle]]
 [[!redirects principal Sp(1)-bundles]]
