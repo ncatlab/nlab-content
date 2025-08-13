@@ -40,7 +40,7 @@ the group structure carries over to $B U(n)$.
 
 ## Smallest classifying space
 
-The smallest classifying space $B U(1)$ is the [[infinite complex projective space]] $\mathbb{C}P^\infty$. It is also a [[Eilenberg--MacLane space]] $K(\mathbb{Z},2)$, hence $U(1)$ [[principal bundles]] over a space are classified by its second [[cohomology]] in the [[ring]] $\mathbb{Z}$ of [[integers]]:
+The smallest classifying space $B U(1)$ is the [[infinite complex projective space]] $\mathbb{C}P^\infty$. It is also a [[Eilenberg--MacLane space]] $K(\mathbb{Z},2)$, hence [[principal U(1)-bundles]] over a space are classified by its second [[cohomology]] in the [[ring]] $\mathbb{Z}$ of [[integers]]:
 $$
 Prin_{U(1)}(X)
 \cong [X,B U(1)]
@@ -98,4 +98,5 @@ See also
 
 [[!redirects classifying space of U(n)]]
 [[!redirects classifying space of unitary group]]
+[[!redirects BU(1)]]
 [[!redirects BU]]
