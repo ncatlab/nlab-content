@@ -129,7 +129,9 @@ Suppose $i$ is a trivial cofibration, and let $f : C \to D$ be a categorical fib
 
 See also:
 
-* Wikipedia, _[Twisted diagonal (simplicial set)](https://w.wiki/_o2Tr)_
+* Wikipedia, _[Twisted diagonal (simplicial set)][td]_  
+
+[td]: https://en.wikipedia.org/wiki/Twisted_diagonal_(simplicial_sets)
 
 [[!redirects twisted arrow (∞,1)-categories]]
 
