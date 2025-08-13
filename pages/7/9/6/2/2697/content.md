@@ -133,7 +133,7 @@ Contrary to that one can consider local models by [[Bousfield localization of mo
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ [[site]], write $[C^{op}, sSet]_{inj,loc}$ for the Joyal-Jardine [[local model structure on simplicial presheaves]] (whose weak equivalence are morphisms that induce isomorphisms on homotopy-sheaves).
+For $C$ a [[site]], write $[C^{op}, sSet]_{inj,loc}$ for the Joyal-Jardine [[local model structure on simplicial presheaves]] (whose weak equivalence are morphisms that induce isomorphisms on homotopy-sheaves).
 
 The $(\infty,1)$-topos that this presents is the [[hypercompletion]] of the [[(∞,1)-category of (∞,1)-sheaves]] on $C$:
 
