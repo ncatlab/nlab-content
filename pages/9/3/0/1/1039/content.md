@@ -51,7 +51,7 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 ## Examples
 
-* An [[inhabited set|inhabited]] [[convex subset]] of a [[topological vector space]] over [[real numbers|$\mathbb{R}$]] or [[complex numbers|$\mathbb{C}$]] is contractible.
+* An [[inhabited set|inhabited]] [[convex set|convex]] (or even just [[star-convex set|star-convex]]) subset of a [[topological vector space]] over [[real numbers|$\mathbb{R}$]] or [[complex numbers|$\mathbb{C}$]] is contractible.
 
 * The [[infinite-dimensional sphere|infinite-dimensional unit sphere]] in a [[separable Hilbert space|separable infinite-dimensional]] [[Hilbert space]] is contractible, unlike the case of [[n-sphere|finite-dimensional spheres]].
 
