@@ -24,7 +24,7 @@ Central consequences of Donaldson's theorem are the existence of [[exotic smooth
 
 ## Sketch of proof
 
-Let $X$ be a [[compact]] [[orientable]] [[4-manifold]] and $P\twoheadrightarrow X$ be a principal $SU(2)$-bundle. According to the [[Atiyah-Singer index theorem]], the dimension of the moduli space $\mathcal{M}^-$ of anti-self-dual Yang-Mills connections (ASDYM connections) is given by:
+Let $X$ be a [[compact]] [[orientable]] [[4-manifold]] and $P\twoheadrightarrow X$ be a [[principal SU(2)-bundle]]. According to the [[Atiyah-Singer index theorem]], the dimension of the moduli space $\mathcal{M}^-$ of anti-self-dual Yang-Mills connections (ASDYM connections) is given by:
 $$
 \dim\mathcal{M}^-
 =8\langle c_2(P),[X]\rangle
@@ -32,7 +32,7 @@ $$
 $$
 with the second [[Chern class]] $c_2(P)\in H^4(X;\mathbb{Z})$, the [[fundamental class]] $[X]\in H_4(X;\mathbb{Z})$ given by the orientation of $X$, the Kronecker pairing $\langle-,-\rangle\colon H^4(X;\mathbb{Z})\times H_4(X;\mathbb{Z})\rightarrow\mathbb{Z}$ (which is often obmitted), the first [[Betti number]] $b_1(X)=\dim H_1(X;\mathbb{R})$ and the dimension $b_+(X)$ of the positive definite subspace of $H^2(X;\mathbb{R})$ with respect to the [[intersection form]].
 
-If considering a [[simply connected]] $X$ as in the original version, then $H_1(X;\mathbb{Z})\cong\pi_1(X)^\mathrm{ab}$ and hence $b_1(X)=0$, which simplifies the formula. Consider a principal $SU(2)$-bundle $P$ with $\langle c_2(P),[X]\rangle=1$, hence $\dim\mathcal{M}^-=5$. Reducible connections modulo gauge, which are the singularities of $\mathcal{M}^-$, correspond to decompositions $P\times_{SU(2)}\mathbb{C}^2\cong L\oplus L^{-1}$ with a complex line bundle $L\twoheadrightarrow X$, which implies:
+If considering a [[simply connected]] $X$ as in the original version, then $H_1(X;\mathbb{Z})\cong\pi_1(X)^\mathrm{ab}$ and hence $b_1(X)=0$, which simplifies the formula. Consider a [[principal SU(2)-bundle]] $P$ with $\langle c_2(P),[X]\rangle=1$, hence $\dim\mathcal{M}^-=5$. Reducible connections modulo gauge, which are the singularities of $\mathcal{M}^-$, correspond to decompositions $P\times_{SU(2)}\mathbb{C}^2\cong L\oplus L^{-1}$ with a complex line bundle $L\twoheadrightarrow X$, which implies:
 $$
 c_2(P)
 =c_2(P\times_{SU(2)}\mathbb{C}^2)
@@ -58,7 +58,7 @@ $$
 
 ## Application to the 4-sphere
 
-The [[4-sphere]] $S^4$ is a [[compact]] [[orientable]] [[4-manifold]]. Although its intersection form is trivial, it gives insight into the concepts used in the proof and their relation to each other. The principal $SU(2)$-bundle over $S^4$ with [[Chern class]] $1$ is the [[quaternionic]] [[Hopf fibration]] $S^7\twoheadrightarrow S^4$. It can abstractly be defined as the [[Hopf construction]] of the group structure on $S^3\cong SU(2)$ or more directly by the unit quaternions $Sp(1)\cong SU(2)$ acting on both components of $S^7\subset\mathbb{H}^2$ and the projection on the [[orbit space]], which is the [[quaternionic projective space]] $\mathbb{H}P^1\cong S^4$. The adjoint [[vector bundle]] $Ad(P)=P\times_{\mathfrak{su}(2)}SU(2)$ is the [[quaternionic]] [[tautological line bundle]] (considered as complex plane bundle) $\gamma_{\mathbb{H}}^{1,1}$ again defined using the identification $S^4\cong\mathbb{H}P^1$, in which points in $S^4$ correspond to one-dimensional linear subspaces of $\mathbb{H}^2$. One has $H_1(S^4;\mathbb{Z})=1$ and $H^2(S^4;\mathbb{Z})=1$, hence $b_1(S^4)=0$ and $b_+(S^4)=0$.According to the above formula, this yields $\dim\mathcal{M}^-=5$, which for [[instantons]] corresponds to the four freedoms regarding position and the one freedom regarding size.
+The [[4-sphere]] $S^4$ is a [[compact]] [[orientable]] [[4-manifold]]. Although its intersection form is trivial, it gives insight into the concepts used in the proof and their relation to each other. The [[principal SU(2)-bundle]] over $S^4$ with [[Chern class]] $1$ is the [[quaternionic]] [[Hopf fibration]] $S^7\twoheadrightarrow S^4$. It can abstractly be defined as the [[Hopf construction]] of the group structure on $S^3\cong SU(2)$ or more directly by the unit quaternions $Sp(1)\cong SU(2)$ acting on both components of $S^7\subset\mathbb{H}^2$ and the projection on the [[orbit space]], which is the [[quaternionic projective space]] $\mathbb{H}P^1\cong S^4$. The adjoint [[vector bundle]] $Ad(P)=P\times_{\mathfrak{su}(2)}SU(2)$ is the [[quaternionic]] [[tautological line bundle]] (considered as complex plane bundle) $\gamma_{\mathbb{H}}^{1,1}$ again defined using the identification $S^4\cong\mathbb{H}P^1$, in which points in $S^4$ correspond to one-dimensional linear subspaces of $\mathbb{H}^2$. One has $H_1(S^4;\mathbb{Z})=1$ and $H^2(S^4;\mathbb{Z})=1$, hence $b_1(S^4)=0$ and $b_+(S^4)=0$.According to the above formula, this yields $\dim\mathcal{M}^-=5$, which for [[instantons]] corresponds to the four freedoms regarding position and the one freedom regarding size.
 
 See also:
 
