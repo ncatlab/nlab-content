@@ -8,7 +8,7 @@
 
 Classic [[modalities]] are defined in absolute terms, so that, for instance, [[necessity and possibility]] are understood in terms of a state of affairs obtaining in all or some world. Some [philosophers](#philosophy) in the early 1970s looked to generalize these to graded versions so that a proposition may be said to be, say, quite likely, highly likely, and so on. Since then, linguists and computer scientists have developed these ideas, the latter expanding the topic to include those modalities relating to resources and [[side effects]].
 
-A **graded modality** is an indexed family of [[modalities]] with some additional [[structure]] on the indices which mirrors the structure of the axioms/proof rules. A graded modality is a [[graded monad]] with idempotent components.
+A **graded modality** is an indexed family of [[modalities]] with some additional [[structure]] on the indices which mirrors the structure of the axioms/proof rules. A graded modality is a [[graded monad]] (or comonad) with idempotent components.
 
 For example, the [[exponential modality]] of [[linear logic]] $!$ has a graded counterpart in [[bounded linear logic]], where $!$ is replaced with a family of modalities $!_n$ indexed by the natural numbers (the reuse bound).
 
