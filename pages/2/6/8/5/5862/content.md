@@ -21,7 +21,7 @@
 
 ### General
 
-In the [[first order formulation of gravity]] ([[Cartan connection]]) the [[Einstein-Hilbert action]] in [[dimension]] 3 happens to be equivalent to the [[action functional]] of [[Chern-Simons theory]] for [[connection on a bundle|connections]] with values in the [[Poincare Lie algebra]] ([[spin connection]] and [[vielbein]], for a suitable quadratic [[invariant polynomial]]. Similarly for 3-dimensional [[supergravity]]. See [[3d quantum gravity]].
+In the [[first order formulation of gravity]] ([[Cartan connection]]) the [[Einstein-Hilbert action]] in [[dimension]] 3 happens to be equivalent to the [[action functional]] of [[Chern-Simons theory]] for [[connection on a bundle|connections]] with values in the [[Poincare Lie algebra]] ([[spin connection]] and [[vielbein]], for a suitable quadratic [[invariant polynomial]]). Similarly for 3-dimensional [[supergravity]]. See [[3d quantum gravity]].
 
 Generally, for every higher degree ($n$-ary) [[invariant polynomial]] on the Poincar&#233; Lie algebra there is the corresponding [[higher dimensional Chern-Simons theory]] in dimension $2n-1$. These Chern-Simons type [[action functional]]s all include the [[Einstein-Hilbert action]] linear in the [[curvature]] as a summand, but generally contain higher degree curvature invariants. A theory of _Chern-Simons gravity_ is a field theory governed by such an [[action functional]].
 
