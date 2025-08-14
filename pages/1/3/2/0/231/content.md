@@ -20,7 +20,7 @@
 
 ## Idea
 
-A **monoidal category** or monoidal [[horizontal categorification|monoidoid]] is a [[category]] equipped with some notion of 'tensor product' of its [[objects]].  A good example is the category [[Vect]] of [[vector spaces]], where we can take the [[tensor product of vector spaces|traditional tensor product]], not only of vector spaces, but also of [[linear maps]]: given linear maps $f \colon V \to W$ and $f^\prime \colon V^\prime \to W^\prime$, we get a linear map
+A **monoidal category** is a [[category]] equipped with some notion of 'tensor product' of its [[objects]].  A good example is the category [[Vect]] of [[vector spaces]], where we can take the [[tensor product of vector spaces|traditional tensor product]], not only of vector spaces, but also of [[linear maps]]: given linear maps $f \colon V \to W$ and $f^\prime \colon V^\prime \to W^\prime$, we get a linear map
 
 $$ f \otimes f^\prime \colon V \otimes V^\prime \to W \otimes W^\prime \,.$$
 
