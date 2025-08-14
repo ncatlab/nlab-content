@@ -21,7 +21,7 @@
 
 ## Idea
 
-What is known as _Born-Infeld theory_ ([Born-Infeld 34](#BornInfeld34), often also attributed to [Dirac 62](#Dirac62) and abbreviated "DBI theory") is a [[deformation]] of  the [[theory (physics)|theory]] of [[electromagnetism]] which coincides with ordinary [[electromagnetism]] for small excitations of the [[electromagnetic field]] but is such that there is a maximal value for the [[field strength]] which can never be reached in a physical process.
+What is known as _Born-Infeld theory_ ([Born &Infeld 1934](#BornInfeld34), often also attributed to [Dirac 1962](#Dirac62) and abbreviated "DBI theory") is a [[deformation]] of  the [[theory (physics)|theory]] of [[electromagnetism]] which coincides with ordinary [[electromagnetism]] for small excitations of the [[electromagnetic field]] but is such that there is a maximal value for the [[field strength]] which can never be reached in a physical process.
 
 Just this theory happens to describe the [[Chan-Paton gauge field]] on single [[D-branes]] at low [[energy]], as deduced from [[open string|open]] [[string scattering amplitudes]] ([Fradkin-Tseytlin 85](#FradkinTseytlin85), [Abouelsaood-Callan-Nappi-Yost 87](#AbouelsaoodCallanNappiYost87), [Leigh 89](#Leigh89)).
 
@@ -30,7 +30,7 @@ In this context the [[action functional]] corresponding to Born-Infeld theory ar
 On [[intersecting brane|coincident]] [[D-branes]], where one expects [[gauge enhancement]] of the [[Chan-Paton gauge field]] to a [[non-abelian group|non-abelian]] [[gauge group]], a further generalization of the DBI-action to non-abelian [[gauge fields]] is expected to be an analogous [[deformation]] of that of non-abelian [[Yang-Mills theory]].
 A widely used proposal is due to [Tseytlin 97](#Tseytlin97), [Myers 99](#Myers99), but a derivation from [[string theory]] of this non-abelian DBI action is lacking; and it is in fact known to be in conflict, beyond the first few orders of correction terms, with effects argued elsewhere in the string theory literature ([Hashimoto-Taylor 97](#HashimotoTaylor97), [Bain 99](#Bain99), [Bergshoeff-Bilal-Roo-Sevrin 01](#BergshoeffBilalRooSevrin01)). The issue remains open.
 
-When the [[D-branes]] in question are interpreted as [[flavor branes]], then the maximal/critical value of the [[electric field]] which arises from the [[DBI-action]] has been argued ([Semenoff-Zarembo 11](#SemenoffZarembo11)) to reflect, via [[holographic QCD]], the [[Schwinger limit]] beyond which the [[vacuum polarization]] caused by the [[electromagnetic field]] leads to [[deconfinement]] of [[quarks]].
+When the [[D-branes]] in question are interpreted as [[flavor branes]], then the maximal/critical value of the [[electric field]] which arises from the [[DBI-action]] has been argued ([Semenoff & Zarembo 2011](#SemenoffZarembo11)) to reflect, via [[holographic QCD]], the [[Schwinger limit]] beyond which the [[vacuum polarization]] caused by the [[electromagnetic field]] leads to [[deconfinement]] of [[quarks]].
 
 
 ## Definition
@@ -382,7 +382,7 @@ $$
   \end{aligned}
 $$
 
-Then the general expression (eq:TheDeterminant) for the [[DBI-Lagrangian]] reduces to ([Born-Infeld 34, p. 437](#BornInfeld34), review in [Gibbons 97, (56)](#Gibbons97), [Savvidy 99, (22)](#Savvidy99), [Nastase 15, 9.4](#Nastase15)):
+Then the general expression (eq:TheDeterminant) for the [[DBI-Lagrangian]] reduces to ([Born & Infeld 1934, p. 437](#BornInfeld34), review in [Gibbons 1897, (56)](#Gibbons97), [Savvidy 1899, (22)](#Savvidy99), [Nastase 2015, 9.4](#Nastase15)):
 
 \[
   \label{InTermsOfElectricAndMagneticField}
@@ -502,7 +502,7 @@ $$
   }
 $$
 
-turns out to be the [[Schwinger limit]] (see [there](Schwinger+effect#CriticalFieldStrength)) beyond which the electric field would cause [[deconfinement|deconfining]] [[quark]]-pair creation ([Hashimoto-Oka-Sonoda 14b, (2.17)](#HashimotoOkaSonoda14b)). 
+turns out to be the *[[Schwinger limit]]* (see [there](Schwinger+effect#CriticalFieldStrength)) beyond which the electric field would cause [[deconfinement|deconfining]] [[quark]]-pair creation (cf. [Hashimoto, Oka & Sonoda 2014b, (2.17)](#HashimotoOkaSonoda14b)). 
 
 
 
