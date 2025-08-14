@@ -87,7 +87,7 @@ The equivalence of the [[phase space]] of Palatini-Cartan-Holst [[Lagrangian  fi
 
 * {#CattaneoSchiavina17a} [[Alberto Cattaneo]], [[Michele Schiavina]], _The reduced phase space of Palatini-Cartan-Holst theory_, Ann. Henri Poincaré (2019) 20: 445 ([arXiv:1707.05351](https://arxiv.org/abs/1707.05351), [doi:10.1007/s00023-018-0733-z](https://doi.org/10.1007/s00023-018-0733-z))
 
-Subtleties in extending to this to a [[local field theory]] (gluing pieces of spacetimes along their boundaries) are discussed in
+Subtleties in extending this to a [[local field theory]] (gluing pieces of spacetimes along their boundaries) are discussed in
 
 * {#CattaneoSchiavina17b} [[Alberto Cattaneo]], [[Michele Schiavina]], _BV-BFV approach to General Relativity: Palatini-Cartan-Holst action_ ([arXiv:1707.06328](https://arxiv.org/abs/1707.06328))
 
