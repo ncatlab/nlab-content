@@ -29,9 +29,9 @@ A **classifying space** for some sort of data is (the [[homotopy type]] of) a [[
 > (Moduli stacks, in turn -- with [[stacks]] understood in the [[directed homotopy theory|directed]] generality of [[2-sheaves]] etc. --- subsume yet more general kinds of "universes". For instance the [[Grothendieck construction]] in [[category theory]] may be understood as exhibiting [[Cat]] as the moduli object for [[categories]]. Again, the point of classifying *spaces* over moduli stacks is to be more coarse, and hence more informative concerning equivalence classes.)
 
 
-The classical examples of classifying spaces (both historically and by prevalence of their applications) are traditionally denoted $B G$ for $G$ a [[topological group]]. Under mild conditions these have the property that they classify $G$-[[principal bundles]] (hence the "data" above being: $G$-[[torsors]]), in that there is a [[bijection]] between [[homotopy classes]] of maps $X\to BG$ and [[isomorphism classes]] of $G$-[[principal bundles]] over suitable base spaces $X$.  $B G$ can be constructed as a [[bar construction]] or as a [[topological realization]] of the [[nerve]] of $G$.
+The classical examples of classifying spaces (both historically and by prevalence of their applications) are traditionally denoted $B G$ and constructed as [[bar constructions]] or [[topological realization of simplicial topological spaces|topological realizations]] of [[nerves]] of suitable [[topological groups]] $G$. Under mild conditions these have the property that they classify $G$-[[principal bundles]] (hence the "data" above being: $G$-[[torsors]]), in that there is [[bijection]] between [[homotopy classes]] of maps $X\to BG$ and [[isomorphism classes]] of $G$-[[principal bundles]] over suitable base spaces $X$. 
 
-Often this case is understood by default when referring to "classifying spaces".
+This case is often understood by default when referring to "classifying spaces".
 
 But every [[connected homotopy type]] is [[weak homotopy equivalence|weak equivalently]] $B G$ for *some* topological group and other objects than just ordinary [[principal bundles]] may be classified by these spaces.
 
@@ -72,7 +72,7 @@ $$
 
 whose face maps are induced by the product operation on $G$ and whose degeneracy maps are induced from the unit map.
 
-If $G$ is [[well-pointed simplicial topological group|well-pointed]], then the [[geometric realization of simplicial topological spaces|geometric realization]] of $\mathbf{B}G$ is a model for the [[homotopy type]] of the classifying space
+If $G$ is [[well-pointed simplicial topological group|well-pointed]], then the [[geometric realization of simplicial topological spaces]] of $G$ is a model for the [[homotopy type]] of the classifying space
 
 $$
   B G \simeq \vert \mathbf{B}G\vert
@@ -1040,7 +1040,6 @@ Discussion of classifying [[G-spaces]] for $G$-[[equivariant principal bundles]]
 * {#UribeLueck14} [[Bernardo Uribe]], [[Wolfgang Lück]], _Equivariant principal bundles and their classifying spaces_, Algebr. Geom. Topol. 14 (2014) 1925-1995 ([arXiv:1304.4862](https://arxiv.org/abs/1304.4862), [doi:10.2140/agt.2014.14.1925](http://dx.doi.org/10.2140/agt.2014.14.1925))
 
 * {#GuillouMayMerling17} [[Bertrand Guillou]], [[Peter May]], [[Mona Merling]] _Categorical models for equivariant classifying spaces_, Algebr. Geom. Topol. 17 (2017) 2565-2602 ([arXiv:1201.5178](https://arxiv.org/abs/1201.5178), [doi:10.2140/agt.2017.17.2565](https://doi.org/10.2140/agt.2017.17.2565)) 
-
 
 
 [[!redirects classifying spaces]]
