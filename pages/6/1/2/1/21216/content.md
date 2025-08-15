@@ -32,6 +32,10 @@ On [[S-duality]] in [[heterotic supergravity]] with [[higher curvature correctio
 
 * [[Mohammad R. Garousi]]: *S-duality in higher-derivative corrections of heterotic supergravity* &lbrack;[arXiv:2502.00357](https://arxiv.org/abs/2502.00357)&rbrack;
 
+On [[higher curvature corrections]] in [[type IIA supergravity]] from [[D=11 supergravity]]:
+
+* [[Mohammad R. Garousi]]: *Type IIA supergravity at one loop: $\alpha'^3$ terms in the metric-dilaton-RR one-form sector* \[<a href="https://arxiv.org/abs/2508.10529">arXiv:2508.10529</a>\]
+
 
 category: people
 
