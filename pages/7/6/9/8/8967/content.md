@@ -21,12 +21,18 @@ A **distributivity pullback** is the data which encodes a particular [[exponenti
 
 +-- {: .un_defn}
 ###### Definition
-For morphisms $g:Z\to A$ and $f:A\to B$ in a category, a **pullback around $(f,g)$** is a diagram
-$$\array{ X & \xrightarrow{p} & Z & \xrightarrow{g} & A\\
-  ^q\downarrow &&&& \downarrow^f\\
-  Y && \xrightarrow{r} && B}
-$$
-in which the outer rectangle is a [[pullback]].
+For morphisms $g:Z\to A$ and $f:A\to B$ in a category, a **pullback around $(f,g)$** is a pullback diagram of the following form.
+\begin{tikzcd}
+	X & Y \\
+	Z \\
+	A & B
+	\arrow["q", dashed, from=1-1, to=1-2]
+	\arrow["p"', dashed, from=1-1, to=2-1]
+	\arrow["\lrcorner"{anchor=center, pos=0.125}, draw=none, from=1-1, to=3-2]
+	\arrow["r", dashed, from=1-2, to=3-2]
+	\arrow["g"', from=2-1, to=3-1]
+	\arrow["f"', from=3-1, to=3-2]
+\end{tikzcd}
 =--
 
 A morphism of pullbacks around $(f,g)$ consists of $s:X\to X'$ and $t:Y\to Y'$ such that $p's=p$, $q s=t q'$, and $r = r's$.
@@ -48,7 +54,7 @@ A morphism $f:A\to B$ is [[exponentiable morphism|exponentiable]] if and only if
 =--
 +-- {: .proof}
 ###### Proof
-The universal property of a distributivity pullback says exactly that $Y\xrightarrow{r} B$ is the exponential of $g$ along $f$.
+The universal property of a distributivity pullback says exactly that $Y\xrightarrow{r} B$ is the exponential $\Pi_f g$ of $g$ along $f$.
 =--
 
 ### Connection to distributivity
