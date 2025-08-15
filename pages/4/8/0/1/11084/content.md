@@ -147,7 +147,7 @@ $$
 
 =--
 
-This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose. All this inherits a smooth structure from the fact that the $U_i$ are smooth manifolds and the inclusions $U_i \to X$ are [[smooth function]]s. 
+This indicates that the objects of this groupoid are pairs $(x,i)$ consisting of a point $x \in X$ and a patch $U_i \subset X$ that contains $x$, and a morphism is a triple $(x,i,j)$ consisting of a point and _two_ patches, that both contain the point, in that $x \in U_i \cap U_j$. The triangle in the above cartoon symbolizes the evident way in which these morphisms compose. All this inherits a smooth structure from the fact that the $U_i$ are smooth manifolds and the inclusions $U_i \to X$ are [[smooth function]]s, 
 hence also $C(U)$ becomes a [[Lie groupoid]].
 
 +-- {: .num_remark}
@@ -332,7 +332,7 @@ $$
 with face maps of the form
 
 $$
-  N((\mathbf{B}G)_\bullet)_\bullet
+  N((\mathbf{E}G)_\bullet)_\bullet
  =
  \left(
    \cdots
@@ -346,7 +346,7 @@ $$
  \,.
 $$
 
-If here $(\mathbf{E}G)_\bullet$ is though of isomorphically as $(G//G)_\bullet$, then  
+If here $(\mathbf{E}G)_\bullet$ is thought of isomorphically as $(G//G)_\bullet$, then  
 these face maps are such that all except one outermost (say the topmost) in each degree are given by group multiplication in two consecutive copies of $G$, with the remaining outermost one given by projection.
 
 If on the other hand $(\mathbf{E}G)_\bullet$ is thought of isomorphically as the [[pair groupoid]] of $G$, via remark \ref{bfEGAsPairGroupoid}, then the $k$th face map in each degree is given simply by projecting out the $k$th factor (starting counting at 0).
@@ -390,7 +390,7 @@ The smooth groupoid $(\mathbf{E}G)_\bullet$ of def. \ref{EGAsASmoothGroupoid} ha
 
 1. $(\mathbf{E}G)_\bullet \simeq (G//G)_\bullet$ is the [[action groupoid]] of $G$ acting on itself by right multiplication;
 
-1. $(\mathbf{E}G)_\bullet \simeq ((\mathbf{B}G)^{I})_\bullet \underset{(\mathbf{B}G)_\bullet}{\times} \ast$ is the [[pullback]] of the point inclusion $\ast \to (\mathbf{B}G)_\bullet$ along one of the projection map $d_1 \colon ((\mathbf{B}G)^I)_\bullet \longrightarrow (\mathbf{B}G)_\bullet$ out of the [[path space object]] of $(\mathbf{B}G)_\bullet$.
+1. $(\mathbf{E}G)_\bullet \simeq ((\mathbf{B}G)^{I})_\bullet \underset{(\mathbf{B}G)_\bullet}{\times} \ast$ is the [[pullback]] of the point inclusion $\ast \to (\mathbf{B}G)_\bullet$ along one of the projection maps $d_1 \colon ((\mathbf{B}G)^I)_\bullet \longrightarrow (\mathbf{B}G)_\bullet$ out of the [[path space object]] of $(\mathbf{B}G)_\bullet$.
 
 =--
 
@@ -414,7 +414,7 @@ $$
   \,.
 $$
 
-The morphism $d_1$ projects out the top horizontal morophisms:
+The morphism $d_1$ projects out the top horizontal morphisms:
 
 $$
   d_1
