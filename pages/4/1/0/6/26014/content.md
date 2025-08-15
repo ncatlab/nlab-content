@@ -120,13 +120,13 @@ See also:
 
 In the context of [[fusion 2-categories]]:
 
-* {#DY23} [[Thibault Decoppet]], [[Matthew Yu]], *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories* (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
+* {#DY23} [[Thibault Decoppet]], [[Matthew Yu]], *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*, Commun. Math. Phys. **406**, 64 (2025) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117), [doi.org/10.1007/s00220-025-05249-x](https://doi.org/10.1007/s00220-025-05249-x)&rbrack;
 
 * Wenjie Xi, Tian Lan, Longye Wang, Chenjie Wang, Wei-Qiang Chen, *On a class of fusion 2-category symmetry: condensation completion of braided fusion category* &lbrack;[arXiv:2312.15947](https://arxiv.org/abs/2312.15947)&rbrack;
 
 and for $3$-fusion categories
 
-* {#BDSY24} Lakshya Bhardwaj, Thibault Décoppet, Sakura Schäfer-Nameki, Matthew Yu. *Fusion 3-Categories for Duality Defects* (2024). ([arXiv:2408.13302](https://arxiv.org/abs/2408.13302)).
+* {#BDSY24} [[Lakshya Bhardwaj]], [[Thibault Decoppet]], Sakura Schäfer-Nameki, [[Matthew Yu]]. *Fusion 3-Categories for Duality Defects*, Commun. Math. Phys. **406**, 208 (2025). ([arXiv:2408.13302](https://arxiv.org/abs/2408.13302), [doi.org/10.1007/s00220-025-05388-1](https://link.springer.com/article/10.1007/s00220-025-05388-1)).
 
 based on the definition of fusion $n$-categories in
 
