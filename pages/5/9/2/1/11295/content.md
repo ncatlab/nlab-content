@@ -1,5 +1,3 @@
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -332,6 +330,11 @@ For example, if $V$ is the [[syntactic category]] of a [[programming language]],
  
 * {#McDermottUustalu22} [[Dylan McDermott]], [[Tarmo Uustalu]], Def. 5.6 in: *What Makes a Strong Monad?*, EPTCS **360** (2022) 113-133 &lbrack;[arXiv:2207.00851](https://arxiv.org/abs/2207.00851), [doi:10.4204/EPTCS.360.6](https://doi.org/10.4204/EPTCS.360.6)&rbrack;
 
+The theory of enriched ([[relative monad|relative]]) monads is developed extensively in:
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack.
+
+* {#AM23b} [[Nathanael Arkor]], [[Dylan McDermott]], _Relative monadicity_, Journal of Algebra 663 (2025), [DOI](https://doi.org/10.1016/j.jalgebra.2024.08.040) &lbrack;[arXiv:2305.10405](https://arxiv.org/abs/2305.10405)&rbrack;
 
 See also:
 
