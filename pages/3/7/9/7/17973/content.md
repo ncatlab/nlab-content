@@ -120,7 +120,7 @@ This is a key consistency condition in intersecting D-brane model building (e.g.
  {#IntersectionOfD6WithO8}
 
 
-A [[black brane|black]] [[D6-brane]] may end on a [[black brane|black]] [[NS5-brane]], and in fact each [[black brane|brane]] [[NS5-brane]] at a non-trivial [[ADE singularity]] has to be the junction of two [[black brane|black]] [[D6-branes]]. For details see at _[D6-branes ending on NS5-branes](NS5-brane#D6BranesEndingOnNS5Branes)_.
+A [[black brane|black]] [[D6-brane]] may end on a [[black brane|black]] [[NS5-brane]], and in fact each [[black brane|black]] [[NS5-brane]] at a non-trivial [[ADE singularity]] has to be the junction of two [[black brane|black]] [[D6-branes]]. For details see at _[D6-branes ending on NS5-branes](NS5-brane#D6BranesEndingOnNS5Branes)_.
 
 <img src="https://ncatlab.org/nlab/files/HalfNS5.jpg" width="650"/>
 
