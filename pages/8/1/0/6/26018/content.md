@@ -41,15 +41,15 @@ with fiber functor $F$ from the Hopf category $End(F)$.
 
 * [[Christopher L. Douglas]], [[David J. Reutter]], *Fusion 2-categories and a state-sum invariant for 4-manifolds* &lbrack;[arXiv:1812.11933](https://arxiv.org/abs/1812.11933)&rbrack;
 
-* {#DY23} [[Thibault Decoppet]], [[Matthew Yu]]. *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*. (2023) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117)&rbrack;
+* {#DY23} [[Thibault Decoppet]], [[Matthew Yu]], *Fiber 2-Functors and Tambara-Yamagami Fusion 2-Categories*, Commun. Math. Phys. **406**, 64 (2025) &lbrack;[arXiv:2306.08117](https://arxiv.org/abs/2306.08117), [doi.org/10.1007/s00220-025-05249-x](https://doi.org/10.1007/s00220-025-05249-x)&rbrack;
 
 * {#Green23} David Green, *Tannaka-Krein reconstruction for fusion 2-categories* (2023) &lbrack;[arXiv:2309.05591](https://arxiv.org/abs/2309.05591)&rbrack;
 
 * [[Thibault Decoppet]], Peter Huston, [[Theo Johnson-Freyd]], [[Dmitri Nikshych]], [[David Penneys]], Julia Plavnik, [[David Reutter]], [[Matthew Yu]]. *The Classification of Fusion 2-Categories* (2024). ([arXiv:2411.05907](https://arxiv.org/abs/2411.05907)).
 
-On the classification of fermionic (i.e. super-) fusion 2-categories:
+On the classification of fermionic strongly fusion 2-categories:
 
-* [[Thibault Decoppet]]. *Extension Theory and Fermionic Strongly Fusion 2-Categories* (2024). ([arXiv:2403.03211](https://arxiv.org/abs/2403.03211)).
+* [[Thibault Decoppet]] with an appendix joint with [[Theo Johnson-Freyd]]. *Extension Theory and Fermionic Strongly Fusion 2-Categories*, SIGMA **20**, 092 (2024). &lbrack;[arXiv:2403.03211](https://arxiv.org/abs/2403.03211), [doi.org/10.3842/SIGMA.2024.092](https://doi.org/10.3842/SIGMA.2024.092)&rbrack;
 
 In the context of "[[generalized global symmetries]]":
 
