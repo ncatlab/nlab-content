@@ -24,7 +24,7 @@ One may consider the analogous condition for [[convergence spaces]], or for [[lo
 
 ## Terminology
 
-Occasionally, the term “compactum” is used as a synonym of “compact Hausdorff space”.  A much more common use of “compactum”, however, makes it synonymous with “compact metrizable space”. 
+In the literature, the term “compactum” is sometimes used as a synonym for “compact Hausdorff space”, and one finds this shortening appearing in various nLab articles. Be warned however that “compactum” is also frequently used to mean “compact metrizable space”.  
 
 
 ## Definitions
