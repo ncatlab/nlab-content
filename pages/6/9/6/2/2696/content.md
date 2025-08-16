@@ -150,17 +150,19 @@ The version in [[simplicial homotopy theory]] is due to:
 
 Review:
 
-* {#Bredon93} [[Glen Bredon]], Cor. 11.14 in: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+* {#Bredon93} [[Glen Bredon]], Cor. 11.14 in: _Topology and Geometry_, Graduate Texts in Mathematics **139**, Springer (1993) &lbrack;[doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)&rbrack;
 
 
-* {#ElmendorfKrizMay95} [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 1 of _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.),  _[[Handbook of Algebraic Topology]]_,  1995 Amsterdam: North-Holland, pp. 213&#8211;253,   ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* {#ElmendorfKrizMay95} [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 1 of: _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.),  _[[Handbook of Algebraic Topology]]_ (1995) 213-253  &lbrack;[pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf)&rbrack;
 
-* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Thm. 6.3.31 in: *Algebraic topology from a homotopical viewpoint*, Springer (2008) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
+* {#Hatcher02} [[Allen Hatcher]], pp. 346 in: *Algebraic Topology*, Cambridge University Press (2002) \[<a href="https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401">ISBN:9780521795401</a>, [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)\]
+
+* [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Thm. 6.3.31 in: *Algebraic topology from a homotopical viewpoint*, Springer (2008) &lbrack;[doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586)&rbrack;
 
 
 Discussion of the [[equivariant Whitehead theorem]]:
 
-* {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+* {#GreenleesMay95} [[John Greenlees]], [[Peter May]]: _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ (1995) 279-325 &lbrack;[pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf)&rbrack;
 
 The [[(infinity,1)-topos|$(\infty,1)$-topos]] theoretic version: 
 
