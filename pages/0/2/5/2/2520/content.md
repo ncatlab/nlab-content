@@ -88,7 +88,7 @@ In traditional theory this is interpreted as follows: an action functional $S : 
 
   where $j_\infty(\phi) = (\phi, \partial_i \phi, \cdots)$ is the jet-prolongation of $\phi$ (the collection of all its higher partial derivatives).
 
-Consider action functional for on a configuration space of 
+Consider action functional on a configuration space of 
 [[smooth function]]s from the line to a [[smooth manifold]] $X$.
 
 We can consider
@@ -104,7 +104,7 @@ The formulation of (3) above is still not manifestly coordinate independent.  Ho
 
 For [[gauge theories]] and [[higher gauge theories]] the configuration spaces of the physical system are in general not plain [[manifolds]] or similar, but are [[orbifolds]] or more generally [[smooth groupoids]], [[smooth ∞-groupoids]]. (An exposition of and introduction to much of the following is at _[[geometry of physics]]_.)
 
-For instance for $G$ a [[Lie group]] and $\mathbf{B}G_{conn}$ the smooth [[moduli stack]] of $G$-[[principal connections]] (see at [[connection on a bundle]]), then the [[smooth groupoid]] of $G$-[[gauge field]] configurations is the [[internal hom]]/[[mapping stack]] $[\Sigma, \mathbf{B}G_{conn}] \in $[[Smooth∞Grpd]] (or some concretification thereof, see at _[geometric of physics -- differential moduli](geometry%20of%20physics#DifferentialModuli)_: this is the [[smooth groupoid]] whose [[objects]] are $G$-[[gauge field]]-configurations on $\Sigma$ ([[connection on a bundle|connections]] on $G$-[[principal bundles]] over $\Sigma$), and whose [[morphisms]] are [[gauge transformations]] between these. The [[infinitesimal space|infinitesimal]] approximation to this [[smooth ∞-groupoid]], its _[[∞-Lie algebroid]]_ is the (off-shell) [[BRST complex]] of the theory. The tangent to the $n$-fold [[higher gauge transformations]] becomes the $n$-fold _ghosts_ in the BRST complex.
+For instance for $G$ a [[Lie group]] and $\mathbf{B}G_{conn}$ the smooth [[moduli stack]] of $G$-[[principal connections]] (see at [[connection on a bundle]]), then the [[smooth groupoid]] of $G$-[[gauge field]] configurations is the [[internal hom]]/[[mapping stack]] $[\Sigma, \mathbf{B}G_{conn}] \in $[[Smooth∞Grpd]] (or some concretification thereof, see at _[geometric of physics -- differential moduli](geometry%20of%20physics#DifferentialModuli)_): this is the [[smooth groupoid]] whose [[objects]] are $G$-[[gauge field]]-configurations on $\Sigma$ ([[connection on a bundle|connections]] on $G$-[[principal bundles]] over $\Sigma$), and whose [[morphisms]] are [[gauge transformations]] between these. The [[infinitesimal space|infinitesimal]] approximation to this [[smooth ∞-groupoid]], its _[[∞-Lie algebroid]]_ is the (off-shell) [[BRST complex]] of the theory. The tangent to the $n$-fold [[higher gauge transformations]] becomes the $n$-fold _ghosts_ in the BRST complex.
 
 More generally $G$ here can by any [[smooth ∞-group]], such as the [[circle n-group]] $\mathbf{B}^{n-1}U(1)$ or the [[String 2-group]] or the [[Fivebrane 6-group]], and so on, in which case $[\Sigma, \mathbf{B}G_{conn}]$ is the [[smooth ∞-groupoid]] of [[higher gauge theory|higher gauge field]], [[gauge transformations]] between these, [[higher gauge transformations]] between those, and so on.
 
