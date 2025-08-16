@@ -66,11 +66,7 @@ Thus, a polynomial equipped with a cartesian transformation to $1 \leftarrow X' 
 
 Polynomial monads have a natural interpretation in terms of [[object classifiers]].  Specifically, given any polynomial $1 \leftarrow B \xrightarrow{g} A \to 1$, generating a polynomial functor $P_{1,g,1}$, we can consider the class $S_g$ of all pullbacks of $g$.  A cartesian unit $Id \to P_{1,g,1}$ says that $id_1 : 1\to 1$ is a pullback of $g$, and therefore so are all identities.  Similarly, the composite $P_{1,g,1} \circ P_{1,g,1}$ involves the classifying object for a pair of composable $S_g$-morphisms, and so a cartesian multiplication $P_{1,g,1} \circ P_{1,g,1} \to P_{1,g,1}$ tells us that $S_g$ is closed under composition.
 
-Thus, a polynomial monad (on $C \cong C/1$) can be regarded as a morphism $g$ together with a coherent way to make $S_g$ into a category.  More precisely, consider the slice category $Cart(C)/g$, where $Cart(C)$ is the category whose objects are morphisms of $C$ and whose morphisms are pullback squares.  This comes with source and target functors $Cart(C)/g \rightrightarrows C$.  To make $P_{1,g,1}$ into a polynomial monad is then equivalent to giving unit and composition functors enhancing $Cart(C)/g \rightrightarrows C$ to a [[double category]] such that the forgetful map $Cart(C)/g \to Cart(C)$ is a double functor.
-
-+--{: .standout}
-This claim could stand some independent verification.
-=--
+Thus, a polynomial monad (on $C \cong C/1$) can be regarded as a morphism $g$ together with a coherent way to make $S_g$ into a category.  More precisely, consider the slice category $Cart(C)/g$, where $Cart(C)$ is the category whose objects are morphisms of $C$ and whose morphisms are pullback squares.  This comes with source and target functors $Cart(C)/g \rightrightarrows C$.  To make $P_{1,g,1}$ into a polynomial monad is then equivalent to giving unit and composition functors enhancing $Cart(C)/g \rightrightarrows C$ to a [[double category]] such that the forgetful map $Cart(C)/g \to Cart(C)$ is a double functor (Theorem 5.3.3 of [Weber 2015](#Weber15)).
 
 For example, consider the free monoid monad above determined by $g:\mathbb{N}\prime \to \mathbb{N}$.  To exhibit a function as a pullback of this $g$ is to say that its fibers are finite and have been equipped with bijections to canonical finite sets, which we may as well think of as giving them linear orders.  To give the monad structure on this functor is equivalent to noting that every identity map has ordered finite fibers, and the composite of functions with ordered finite fibers again has ordered finite fibers, in a way that is associative, unital, and stable under pullback.
 
@@ -120,5 +116,14 @@ The relation between polynomial monads, object classifiers, and models of (homot
 
 * [[Steve Awodey]], _Algebraic type theory_, [slides from HoTT 2023](https://hott.github.io/HoTT-2023/slides/awodey.pdf)
 
+The presentation of polynomial monads on a category $\mathcal{E}$ with pullbacks in terms of [[strict double categories]] is in Theorem 5.3.3 of:
+
+* {#Weber2015} [[Mark Weber]], *Polynomials in categories with pullbacks*, Theory and Applications of Categories, __30__:16 (2015) 533--598. ([journal](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html))
+
+This data was called **bagdomain data** in:
+
+* [[Peter T. Johnstone]], _Variations on the bagdomain theme_, Theoretical Computer Science 136.1 (1994): 3
+
 
 [[!redirects polynomial monads]]
+[[!redirects bagdomain data]]
