@@ -42,7 +42,7 @@ A central class of examples for nontransveral [[nLab:pullback]]s in derived geom
 
 Examples of derived spaces have appeared long ago as the configuration spaces in [[nLab:gauge theory]]. What is called the [[nLab:BV-BRST complex]] of a gauge theory is the function algebra on the [[nLab:infinitesimal object|infinitesimal]] approximation to a derived orbifold whose internal symmetries are the [[nLab:gauge transformation]]s and whose function complex provides a [[nLab:resolution]] of the locus of solutions to the physical equations of motion.
 
-More recently, much of the motivation for derived geometry came from the observation that the [Goerss-Hopkins-Miller theorem](http://arxiv.org/abs/0910.5130) suggests that there is a [[nLab:A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli space of derived elliptic currves]], that it carries a [[nLab:structured (∞,1)-topos|structure ∞-sheaf]] of [[nLab:E-∞-rings]], and the the [[nLab:global section]]s of that yield the [[nLab:ring spectrum]] of the [[nLab:generalized cohomology theory]] called [[nLab:tmf]].
+More recently, much of the motivation for derived geometry came from the observation that the [Goerss-Hopkins-Miller theorem](http://arxiv.org/abs/0910.5130) suggests that there is a [[nLab:A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves|derived moduli space of derived elliptic curves]], that it carries a [[nLab:structured (∞,1)-topos|structure ∞-sheaf]] of [[nLab:E-∞-rings]], and the the [[nLab:global section]]s of that yield the [[nLab:ring spectrum]] of the [[nLab:generalized cohomology theory]] called [[nLab:tmf]].
 
 
 ## Plan
