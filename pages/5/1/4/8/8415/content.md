@@ -76,7 +76,7 @@ For $X$ a [[Tychonoff space]] the following are equivalent:
 
 1. $X$ is already [[compact topological space|compact]] or its [[Stone-Cech compactification]] $\beta X$ adds a single point $\vert \beta X \backslash X\vert = 1$.
 
-1. If two [[closed subsets]] of $X$ are completeley separated, then one of them is a [[compactum]].
+1. If two [[closed subsets]] of $X$ are completely separated, then one of them is a [[compactum]].
 
 =--
 
