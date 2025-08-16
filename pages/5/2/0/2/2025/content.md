@@ -1,3 +1,4 @@
+[[!redirects compactum]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,37 +17,41 @@
 ## Idea
  {#Idea}
 
-A _compact Hausdorff space_ or _compactum_, for short, is a [[topological space]] which is both a [[Hausdorff space]] as well as a [[compact space]].
+A _compact Hausdorff space_ is a [[topological space]] which is both a [[Hausdorff space]] as well as a [[compact space]].
 This is precisely the kind of topological space in which every [[limit of a sequence|limit]] of a [[sequence]] or more generally of a [[net]] that should exist does exist ([this prop.](net#CompactSpacesEquivalentlyHaveConvergetSubnets)) and does so uniquely ([this prop](#NetsDetectHausdorff)). 
 
-One may consider the analogous condition for [[convergence spaces]], or for [[locales]] (see also at _[Hausdorff locale](Hausdorff+space#HausdorffLocale)_ and _[[compact locale]]_). Even though these are all different contexts, the resulting notion of compactum is (at least assuming the [[axiom of choice]]) always the same.  Interestingly, there is even an algebraic definition, not one that uses only finitary operations, but one which uses a [[monad]]. 
+One may consider the analogous condition for [[convergence spaces]], or for [[locales]] (see also at _[Hausdorff locale](Hausdorff+space#HausdorffLocale)_ and _[[compact locale]]_). Even though these are all different contexts, the resulting notions are (at least assuming the [[axiom of choice]]) always the same.  Interestingly, there is even an algebraic definition, not one that uses only finitary operations, but one which uses a [[monad]]. 
+
+## Terminology
+
+Occasionally, the term “compactum” is used as a synonym of “compact Hausdorff space”.  A much more common use of “compactum”, however, makes it synonymous with “compact metrizable space”. 
 
 
 ## Definitions
 
-If you know what a [[compact space]] is and what a [[Hausdorff space]] is, then you know what a compact Hausdorff space is, so let\'s be fancy. (Full justifications will be provided in section on [compacta as algebras](compactum#algebras).) 
+If you know what a [[compact space]] is and what a [[Hausdorff space]] is, then you know what a compact Hausdorff space is, so let\'s be fancy. (Full justifications will be provided in section on [compact Hausdorff spaces as algebras](#algebras).) 
 
 Given a [[set]] $S$, let $\beta S$ be the set of [[ultrafilters]] on $S$.  Note that $\beta$ is an [[endofunctor]] on [[Set]]; every [[function]] $f: S \to T$ induces a function $\beta f: \beta S \to \beta T$ using the usual application of functions to [[filters]].  In fact, $\beta$ is a [[monad]]; it comes with a [[natural transformation|natural]] (in $S$) unit $\eta_S: S \to \beta S$, which maps a point $x$ to the [[principal ultrafilter]] that $x$ generates, and multiplication $\mu_S: \beta \beta S \to \beta S$, which maps an ultrafilter $U$ on ultrafilters to the ultrafilter of sets whose principal ultrafilters of ultrafilters belong to $U$.  That is,
 
 *  $ A \in \eta x \;\Leftrightarrow\; x \in A $, so $ \eta x = \{ A \subseteq S \;|\; x \in A \} $;
 *  $ A \in \mu U \;\Leftrightarrow\; \{ F \in \beta S \;|\; A \in F \} \in U $.
 
-Then a __compactum__ is simply an [[algebra for a monad|algebra]] for this monad; that is, a set $X$ together with a function $\lim: \beta X \to X$, such that
+Then a __compact Hausdorff space__ is simply an [[algebra for a monad|algebra]] for this monad; that is, a set $X$ together with a function $\lim: \beta X \to X$, such that
 
 *  each point $x$ is the limit ($\lim$) of the principal ultrafilter $\eta x$, and
 *  given an ultrafilter $U$ on ultrafilters, the limit of $\mu U$ is the limit of $(\beta \lim) U$.
 
 It is then a theorem that this $\lim$ generates a [[convergence space|convergence]] on $S$ that is [[compact space|compact]], [[Hausdorff space|Hausdorff]], and [[topological space|topological]].  The converse, that every compact Hausdorff topological convergence is of this form, is equivalent to the [[ultrafilter principle]].
 
-Every compact Hausdorff space is [[regular space|regular]] and [[sober space|sober]] and so defines a compact regular locale.  Again, the [[axiom of choice]] gives us a converse: every compact regular locale is spatial and so comes from a compactum.
+Every compact Hausdorff space is [[regular space|regular]] and [[sober space|sober]] and so defines a compact regular locale.  Again, the [[axiom of choice]] gives us a converse: every compact regular locale is spatial and so comes from a compact Hausdorff space.
 >Probably this is also equivalent to the ultrafilter principle, but I need to check.
 
 Note that every compact Hausdorff space (topological or localic) is not only regular but also [[normal space|normal]]. See _[[compact Hausdorff spaces are normal]]_.
 
 
-## Compacta as algebras {#algebras} 
+## Compact Hausdorff spaces as algebras {#algebras} 
 
-Throughout this section, $CH$ will be used to denote the category of compact Hausdorff spaces (compacta). 
+Throughout this section, $CH$ will be used to denote the category of compact Hausdorff spaces. 
 
 ### The space of ultrafilters 
 
@@ -99,7 +104,7 @@ If $\hat{A}$ is a basic open neighborhood containing an ultrafilter $F$, then $A
 =-- 
 
 
-### Ultrafilters form a compactum 
+### Ultrafilters form a compact Hausdorff space 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -259,11 +264,11 @@ In other words, to complete the proof, it suffices to verify the claim. Letting 
 
 ## Weak versions
 
-Every [[Hausdorff space]], hence every compactum, satisfies the [[separation axiom]] $T_0$.  As is usual with separation axioms, we can also look for a non-$T_0$ version.  A priori, this is a compact [[preregular space]]; however, since every such space is [[regular space|regular]], we can speak instead of a __compact regular space__.
+Every [[Hausdorff space]], hence every compact Hausdorff space, satisfies the [[separation axiom]] $T_0$.  As is usual with separation axioms, we can also look for a non-$T_0$ version.  A priori, this is a compact [[preregular space]]; however, since every such space is [[regular space|regular]], we can speak instead of a __compact regular space__.
 
-In the absence of the axiom of choice, and especially in [[constructive mathematics]], the best definition of compactum seems to be a compact regular locale.  That is, it is the category of compact regular locales that has all of the nice properties, forming a [[nice category of spaces]], and that has the desired examples, such as the [[unit interval]].  (See the discussion at [[Tychonoff theorem]] for an example of how the category of compact Hausdorff topological spaces might fail to be nice; see [Franka Waaldijk's PhD thesis](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (pdf) for a thorough discussion of what is needed to make the unit interval a compact Hausdorff topological space.)
+In the absence of the axiom of choice, and especially in [[constructive mathematics]], the best definition of a compact Hausdorff space seems to be a compact regular locale.  That is, it is the category of compact regular locales that has all of the nice properties, forming a [[nice category of spaces]], and that has the desired examples, such as the [[unit interval]].  (See the discussion at [[Tychonoff theorem]] for an example of how the category of compact Hausdorff topological spaces might fail to be nice; see [Franka Waaldijk's PhD thesis](https://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (pdf) for a thorough discussion of what is needed to make the unit interval a compact Hausdorff topological space.)
 
-The monadic definition, in particular, falls quite flat without some form of the axiom of choice; even [[excluded middle]] and [[COSHEP]] are powerless here.  In fact, it is quite consistent to assume that every ultrafilter is principal (a strong denial of the ultrafilter principle), in which case $\beta$ is the [[identity monad]].  Then a compactum would be just a set if that were the definition used.
+The monadic definition, in particular, falls quite flat without some form of the axiom of choice; even [[excluded middle]] and [[COSHEP]] are powerless here.  In fact, it is quite consistent to assume that every ultrafilter is principal (a strong denial of the ultrafilter principle), in which case $\beta$ is the [[identity monad]].  Then a compact Hausdorff space would be just a set if that were the definition used.
 
 On the other hand, it is the monadic definition that gives an [[algebraic category]] with a nice relationship to [[Set]].  Without the ultrafilter principle, there is no reason to think that the set-of-points functor from compact regular locales to sets is even [[continuous functor|continuous]].
 
@@ -282,7 +287,7 @@ On the other hand, it is the monadic definition that gives an [[algebraic catego
 ### Stone--&#268;ech compactification
  {#StoneCechCompactification}
 
-By general nonsense, every $\beta S$, regarded as a free $\beta$-algebra, is a compactum, and the functor 
+By general nonsense, every $\beta S$, regarded as a free $\beta$-algebra, is a compact Hausdorff space, and the functor 
 
 $$\beta: Set \to Comp$$ 
 
@@ -330,7 +335,7 @@ and since $\pi \circ h = f$, we conclude that $f$ factors through $i_X$. And mor
 
 We have a similar Stone--&#268;ech compactification functor $Loc \to Comp$; we do not need the ultrafilter principle here if $Comp$ is defined in terms of locales.
 
-### Category of compacta 
+### Category of compact Hausdorff spaces
 
 The category $Comp$ of compact Hausdorff spaces and continuous maps is 
 
@@ -393,8 +398,6 @@ Relation to [[compactly generated topological spaces]]:
 
 
 
-[[!redirects compactum]]
-[[!redirects compacta]]
 [[!redirects compact Hausdorff space]]
 [[!redirects compact Hausdorff spaces]]
 [[!redirects compact Hausdorff topological space]]
