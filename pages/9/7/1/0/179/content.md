@@ -48,7 +48,7 @@ $$
  {#PresentationByCE}
 
 We consider _presentations_ of the 
-general abstract definition \ref{TheGeneralAbstractDefinition} of $\infty$-Lie algebroids by constructing in the standard [[model structure]]-[[presentable (∞,1)-category|presentation]] of $SynthDiff\infty Grpd$ by [[simplicial presheaves]] on [[CartSp]]${}_{synthdiff}$ certain classes of simplicial presheaves in the image of [[semifree dga|semi-free]] [[differential graded algebra]]s under the [[monoidal Dold-Kan correspondence]]. This amounts to identifying the traditional description of of [[Lie algebra]]s, [[Lie algebroid]]s and [[L-∞ algebra]]s by their [[Chevalley-Eilenberg algebra]]s as a convenient characterization of the corresponding [[cosimplicial algebra]]s whose formal dual simplicial presheaves are manifest presentations of infinitesimal [[smooth ∞-groupoid]]s.
+general abstract definition \ref{TheGeneralAbstractDefinition} of $\infty$-Lie algebroids by constructing in the standard [[model structure]]-[[presentable (∞,1)-category|presentation]] of $SynthDiff\infty Grpd$ by [[simplicial presheaves]] on [[CartSp]]${}_{synthdiff}$ certain classes of simplicial presheaves in the image of [[semifree dga|semi-free]] [[differential graded algebra]]s under the [[monoidal Dold-Kan correspondence]]. This amounts to identifying the traditional description of [[Lie algebra]]s, [[Lie algebroid]]s and [[L-∞ algebra]]s by their [[Chevalley-Eilenberg algebra]]s as a convenient characterization of the corresponding [[cosimplicial algebra]]s whose formal dual simplicial presheaves are manifest presentations of infinitesimal [[smooth ∞-groupoid]]s.
 
 
 
