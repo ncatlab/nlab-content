@@ -536,7 +536,7 @@ The category of topological spaces is equivalent (even isomorphic to) the catego
 
 As above, a [[subset]] $A$ of $S$ is __[[open subset|open]]__ if $A \in \mathcal{U}$ whenever $\mathcal{U} \to x \in A$.  On the other hand, by lemma \ref{closed}, $A$ is __[[closed subset|closed]]__ if $x \in A$ whenever $A \in \mathcal{U} \to x$.
 
-A relational $\beta$-module is __[[compact space|compact]]__ if every ultrafilter converges to at least one point.  It is __[[Hausdorff space|Hausdorff]]__ if every ultrafilter converges to at most one point.  Thus, a __[[compactum]]__ is (assuming $UF$) precisely a relational $\beta$-module in which every ultrafilter converges to exactly one point, that is in which the action of the monad $\beta$ lives in $Set$ rather than in $Rel$. Full proofs may be found at [[compactum]]; see also [[ultrafilter monad]]. 
+A relational $\beta$-module is __[[compact space|compact]]__ if every ultrafilter converges to at least one point.  It is __[[Hausdorff space|Hausdorff]]__ if every ultrafilter converges to at most one point.  Thus, a [[compact Hausdorff space]] ("[[compactum]]") is (assuming $UF$) precisely a relational $\beta$-module in which every [[ultrafilter]] converges to exactly one point, that is in which the action of the monad $\beta$ lives in $Set$ rather than in $Rel$. Full proofs may be found at [[compactum]]; see also [[ultrafilter monad]]. 
 
 A continuous map $f$ from $(X, \xi: \beta X \to X)$ to $(Y, \theta: \beta Y \to Y)$ is [[proper map|proper]] if the square 
 
