@@ -42,7 +42,9 @@ Furthermore there are the notions of
 
 and
 
-* **[[dyadic compacta]]**.
+* **[[dyadic compacta]]**
+
+for which see there.
 
 
 [[!redirects compacta]]
