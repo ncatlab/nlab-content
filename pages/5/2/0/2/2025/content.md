@@ -22,9 +22,10 @@ This is precisely the kind of topological space in which every [[limit of a sequ
 
 One may consider the analogous condition for [[convergence spaces]], or for [[locales]] (see also at _[Hausdorff locale](Hausdorff+space#HausdorffLocale)_ and _[[compact locale]]_). Even though these are all different contexts, the resulting notions are (at least assuming the [[axiom of choice]]) always the same.  Interestingly, there is even an algebraic definition, not one that uses only finitary operations, but one which uses a [[monad]]. 
 
-## Terminology
-
-In the literature, the term “compactum” is sometimes used as a synonym for “compact Hausdorff space”, and one finds this shortening appearing in various nLab articles. Be warned however that “compactum” is also frequently used to mean “compact metrizable space”.  
+\begin{remark}\label{Terminology}
+**(Terminology)** \linebreak
+In the literature, the term “[[compactum]]” is sometimes used as a synonym for “compact Hausdorff space”, and one finds this shortening appearing in various nLab articles. Be warned however that “compactum” is also frequently used to refer to “[[compact metrizable spaces]]”.  
+\end{remark}
 
 
 ## Definitions
