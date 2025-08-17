@@ -151,7 +151,7 @@ The content of this section is at
 
   For $\Sigma$ or $X$ a [[supermanifold]] this is the [[superparticle]].
 
-* Generalizing in the above example the line bundle $E$ by an abelian [[bundle gerbe]] with a connection yields a background for a 2-dimensional $\sigma$-model which mayb be thought of as describing the propgation of a [[string theory|string]].  The best-studied version of this is the case where $X = G$ is a [[Lie group]], in which case this $\sigma$-model is known as the _[[WZW model|Wess--Zumino--Witten model]]_.
+* Generalizing in the above example the line bundle $E$ by an abelian [[bundle gerbe]] with a connection yields a background for a 2-dimensional $\sigma$-model which may be thought of as describing the propgation of a [[string theory|string]].  The best-studied version of this is the case where $X = G$ is a [[Lie group]], in which case this $\sigma$-model is known as the _[[WZW model|Wess--Zumino--Witten model]]_.
 
 
 
