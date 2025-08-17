@@ -49,7 +49,7 @@ I need to check whether these are equivalent on any $C^*$-algebra.  &#8212;Toby
 
 ## Special cases
 
-If $A$ is the algebra of continuous complex-valued functions on some [[compactum]] $X$, then the __pure states__ on $A$ correspond precisely to the [[points]] in $X$; so pure states here are the states of [[classical mechanics]] (at least for a compact [[phase space]]).  The mixed states, however, correspond more generally to [[Radon measure|Radon]] [[probability measures]] on $X$, with the pure states as the [[Dirac delta measure]]s.
+If $A$ is the algebra of continuous complex-valued functions on some [[compact Hausdorff space]] ("[[compactum]]") $X$, then the __pure states__ on $A$ correspond precisely to the [[points]] in $X$; so pure states here are the states of [[classical mechanics]] (at least for a compact [[phase space]]).  The mixed states, however, correspond more generally to [[Radon measure|Radon]] [[probability measures]] on $X$, with the pure states as the [[Dirac delta measure]]s.
 
 On the other hand, if $A$ is the algebra of all [[bounded operators]] on some [[Hilbert space]] $H$, then the pure states on $A$ correspond precisely to the rays in $H$, as is usual in [[quantum mechanics]].  The mixed states, however, correspond more generally to [[density matrices]] on $H$, with the pure states those matrices of the form ${|\psi\rangle}{\langle\psi|}$ for some unit vector ${|\psi\rangle}$.
 
