@@ -22,7 +22,7 @@ The _Stone--Weierstrass theorem_ says given a [[compact Hausdorff space]] $X$, o
 
 Let $X$ be a [[compact Hausdorff space|compact Hausdorff topological space]]. 
 
-(For a [[constructive mathematics|constructive]] version take $X$ to be a compact regular [[locale]], see at *[[compactum]]*.)
+(For a [[constructive mathematics|constructive]] version take $X$ to be a compact regular [[locale]], see at *[[compact Hausdorff space]]*.)
 
 Recall that $C(X)$, the [[algebra of functions|algebra of]] [[real numbers|real]]-valued [[continuous functions]]  $f \colon X \to \mathbb{R}$, is a [[commutative algebra|commutative]] (real) [[Banach algebra]] with [[unit]], under pointwise-defined addition and multiplication, and where the [[norm]] is the sup-norm 
 
