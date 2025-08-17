@@ -66,6 +66,7 @@ We can also perform the second construction in any [[topological concrete catego
 ## Examples
 
 ### In functional analysis
+ {#InFunctionalAnalysis}
 
 In [[functional analysis]], the term 'weak topology' is used by default for the [[weak topologies of topological vector spaces]] (see there) with respect to their [[linear functionals]]: 
 
