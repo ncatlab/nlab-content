@@ -37,7 +37,7 @@ A **compact ordered space** or **compact pospace** is a [[compact topological sp
 
 ## Properties
 
-* A compact ordered space is always [[Hausdorff]], i.e. it is a [[compactum]]. To see this, note that since the [[relation]] is a closed subset of $X\times X$, so is the [[opposite relation]], and hence their intersection too, which is the [[diagonal]] of $X\times X$. 
+* A compact ordered space is always [[Hausdorff topological space|Hausdorff]], i.e. it is a [[compact Hausdorff space]] ("[[compactum]]"). To see this, note that since the [[relation]] is a closed subset of $X\times X$, so is the [[opposite relation]], and hence their intersection too, which is the [[diagonal]] of $X\times X$. 
 
 * Conversely, a [[compact Hausdorff space]] can be seen as a compact ordered space with the [[discrete order]].
 
