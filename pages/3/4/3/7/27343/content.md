@@ -36,3 +36,8 @@ On abstract characterization of the [[Veneziano amplitude]] ([[string scattering
 * [[Clifford Cheung]], [[Grant N. Remmen]]: *Veneziano Variations: How Unique are String Amplitudes?*, J. High Energ. Phys. **2023** (2023) 122 &lbrack;[arXiv:2210.12163](https://arxiv.org/abs/2210.12163), <a href="https://doi.org/10.1007/JHEP01(2023)122">doi:10.1007/JHEP01(2023)122</a>&rbrack;
 
 * [[Clifford Cheung]], Aaron Hillman, [[Grant N. Remmen]]: *A Bootstrap Principle for the Spectrum and Scattering of Strings*, Phys. Rev. Lett. **133** (2024) 251601 &lbrack;[arXiv:2406.02665](https://arxiv.org/abs/2406.02665), [doi:10.1103/PhysRevLett.133.251601](https://doi.org/10.1103/PhysRevLett.133.251601)&rbrack;
+
+Further on [[string scattering amplitudes]]:
+
+* [[Clifford Cheung]], Grant N. Remmen, Francesco Sciotti, Michele Tarquini: *Strings from Almost Nothing* &lbrack;[arXiv:2508.09246](https://arxiv.org/abs/2508.09246)&rbrack;
+
