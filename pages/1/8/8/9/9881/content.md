@@ -127,6 +127,11 @@ On string scattering amplitudes in view of the [[S-matrix bootstrap]]:
 
 * Andrea Guerrieri, Joao Penedones, Pedro Vieira, _Where is String Theory?_ ([arXiv:2102.02847](https://arxiv.org/abs/2102.02847))
 
+See also: 
+
+* [[Clifford Cheung]], Grant N. Remmen, Francesco Sciotti, Michele Tarquini: *Strings from Almost Nothing* &lbrack;[arXiv:2508.09246](https://arxiv.org/abs/2508.09246)&rbrack;
+
+
 For more references see also at *[[string theory results applied elsewhere]]*.
 
 
