@@ -93,12 +93,12 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-Let $Ind(\mathcal{C}) \subset PSh(\mathcal{C})$ be the [[full subcategory]] of the [[presheaf category]] $PSh(\mathcal{C}) = [\mathcal{C}^{op},Set]$ on those [[functors]]/[[presheaves]] which are [[filtered colimits]] of [[representable functor|representables]], i.e. those for which 
+Let $Ind(\mathcal{C}) \subset PSh(\mathcal{C})$ be the [[full subcategory]] of the [[presheaf category]] $PSh(\mathcal{C}) = [\mathcal{C}^{op},Set]$ on those [[functors]]/[[presheaves]] which are [[small colimit|small]] [[filtered colimits]] of [[representable functor|representables]], i.e. those for which 
 $$
   X \simeq colim_{d \in D} Y(\alpha(d))
 $$
 
-for $D$ some [[filtered category]].
+for $D$ some [[small category|small]] [[filtered category]].
 
 Those for which $D$ may be chosen to be $\mathbb{N}^{\leq}$, i.e. those that arise as [[sequential colimits]], are also called _[[strict ind-objects]]_.
 
@@ -107,7 +107,7 @@ Those for which $D$ may be chosen to be $\mathbb{N}^{\leq}$, i.e. those that ari
 +-- {: .num_remark}
 ###### Remark
 
-The functors $\mathcal{C}^{op}\to Set$ belonging to $Ind(\mathcal{C})$ under this definition --- those which are filtered colimits of representables --- have an equivalent characterization as the [[flat functors]]: those which "would preserve all finite colimits if $\mathcal{C}$ had them".  In particular, if $\mathcal{C}$ has finite colimits, then $Ind(\mathcal{C})$ consists exactly of the finitely cocontinuous presheaves.
+The functors $\mathcal{C}^{op}\to Set$ belonging to $Ind(\mathcal{C})$ under this definition --- those which are small filtered colimits of representables --- have an equivalent characterization as the [[flat functor|flat]] [[small presheaf|small]] functors $\mathcal{C}^{op}\to Set$: those which "would preserve all finite limits if $\mathcal{C}^{op}$ had them".  In particular, if $\mathcal{C}$ has finite colimits, then $Ind(\mathcal{C})$ consists exactly of the [[left exact functor|left exact]] small functors $\mathcal{C}^{op}\to Set$ (see proposition&nbsp;\ref{IndRepresentableIffFlat}).
 
 For more equivalent characterizations see at _[accessible category -- Definition](accessible+category#definition)_.
 
@@ -318,10 +318,10 @@ If $\mathcal{C}$ has all [[finite colimits]], then $Ind(\mathcal{C})$ has all sm
 
 ### Recognition of Ind-objects
 
-+-- {: .num_prop}
++-- {: .num_prop #IndRepresentableIffFlat}
 ###### Proposition
 
-A [[functor]] $F \colon \mathcal{C}^{op} \to Set$ is in $Ind(\mathcal{C})$ (i.e. is a [[filtered colimit]] of [[representable functor|representables]]) precisely if the [[comma category]] $(Y,const_F)$ (with $Y$ the [[Yoneda embedding]]) is [[filtered category|filtered]] and [[cofinally small category|cofinally small]].
+A [[functor]] $F \colon \mathcal{C}^{op} \to Set$ is in $Ind(\mathcal{C})$ (i.e. is a [[small colimit|small]] [[filtered colimit]] of [[representable functor|representables]]) precisely if the [[comma category]] $(Y,const_F)$ (with $Y$ the [[Yoneda embedding]]) is [[filtered category|filtered]] and [[cofinally small category|cofinally small]].
 
 =--
 
@@ -564,13 +564,11 @@ Ind-objects are discussed in
 
 * {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_ , Grundlehren der mathematischen Wissenschaften 332 (2006).
 
+* {#Johnstone1982} [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_, Studies in Advanced Mathematics **3** (1982).
+
 The relation between the Ind-completion and the ideal completion in order theory is discussed in section 1 of
 
 * [[Peter Johnstone]], [[André Joyal]], _Continuous categories and exponentiable toposes_ ,  JPAA **25** (1982) pp.255-296.
-
-See also
-
-* [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_
 
 They are discussed in relation to generalisations in
 
