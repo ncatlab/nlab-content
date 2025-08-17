@@ -417,7 +417,7 @@ is an [[equivalence of categories]].
 
 =--
 
-([Henry 23](#Henry23))
+(e.g. [Henry 2023: 2–3, theorem&nbsp;1.2](#Henry2023))
 
 
 ### The case that $\mathcal{C}$ already admits filtered colimits
@@ -582,7 +582,10 @@ See also the remarks at the beginning of section 5.3 of
 
 Some relevant results are contained in:
 
-* {#Henry23} [[Simon Henry]] [MathOverflow answer](https://mathoverflow.net/a/442827)
+* {#Henry2023_MO} [[Simon Henry]], answer &lbrack;[https://mathoverflow.net/a/442827](https://mathoverflow.net/a/442827)&rbrack;
+to _$\operatorname{Ind}(C^I)=\operatorname{Ind}(C)^I$?_ &lbrack;[https://mathoverflow.net/q/442827](https://mathoverflow.net/q/442827)&rbrack;
+
+* {#Henry2023} [[Simon Henry]], _When does $\operatorname{Ind}(C^I)\simeq\operatorname{Ind}(C)^I$?_, &lbrack;[arXiv:2307.06664](https://arxiv.org/abs/2307.06664)&rbrack;
 
 [[!redirects ind-objects]]
 [[!redirects ind object]]
