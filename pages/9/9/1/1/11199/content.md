@@ -7,7 +7,11 @@ run by [[Michael Wright]] claims to have a considerable collection of recordings
 
 But few or none of these are publically available.
 
-Michael Wright actively keeps traveling around to attend conferences and other meetings on topos theory and category theory, video recording talks. He says he is looking for funding that would eventually allow to make his archived recordings publically available.
+Michael Wright actively keeps travelling around to attend conferences and other meetings on topos theory and category theory, video recording talks. He says he is looking for funding that would eventually allow to make his archived recordings publically available.
+
+For a funding effort, see
+
+* *[Appeal for A Unique Science Archive](https://www.crowdfunder.co.uk/p/roger-penrose-asks-support-for-the-archive-trust)*
 
 category: reference
 
