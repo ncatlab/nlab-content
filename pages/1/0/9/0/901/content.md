@@ -582,10 +582,10 @@ See also the remarks at the beginning of section 5.3 of
 
 Some relevant results are contained in:
 
-* {#Henry2023_MO} [[Simon Henry]], answer &lbrack;[https://mathoverflow.net/a/442827](https://mathoverflow.net/a/442827)&rbrack;
-to _$\operatorname{Ind}(C^I)=\operatorname{Ind}(C)^I$?_ &lbrack;[https://mathoverflow.net/q/442827](https://mathoverflow.net/q/442827)&rbrack;
+* {#Henry2023_MO} [[Simon Henry]], answer &lbrack;[MO:a/442827](https://mathoverflow.net/a/442827)&rbrack;
+to _$\operatorname{Ind}(C^I)=\operatorname{Ind}(C)^I$?_ &lbrack;[MO:q/442827](https://mathoverflow.net/q/442827)&rbrack;
 
-* {#Henry2023} [[Simon Henry]], _When does $\operatorname{Ind}(C^I)\simeq\operatorname{Ind}(C)^I$?_, &lbrack;[arXiv:2307.06664](https://arxiv.org/abs/2307.06664)&rbrack;
+* {#Henry2023} [[Simon Henry]]: _When does $\operatorname{Ind}(C^I)\simeq\operatorname{Ind}(C)^I$?_, &lbrack;[arXiv:2307.06664](https://arxiv.org/abs/2307.06664)&rbrack;
 
 [[!redirects ind-objects]]
 [[!redirects ind object]]
