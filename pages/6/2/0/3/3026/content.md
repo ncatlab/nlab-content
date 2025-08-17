@@ -293,7 +293,7 @@ This property characterizes $X^\ast$ in an [[essentially unique]] manner.
 
 $X$ is [[dense subspace|dense]] in $X^*$ precisely if $X$ is not already compact.  Note that $X^*$ is technically a [[compactification]] of $X$ only in this case.
 
-$X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compactum]]) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]] (see prop. \ref{HausdorffOnePointCompactification}).
+$X^*$ is [[Hausdorff space|Hausdorff]] (hence a [[compact Hausdorff space]] or *[[compactum]]*) if and only if $X$ is already both Hausdorff and [[locally compact space|locally compact]] (see prop. \ref{HausdorffOnePointCompactification}).
 
 
 ### Functoriality
