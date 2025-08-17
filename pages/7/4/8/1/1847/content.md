@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents#
 {: toc}
@@ -53,7 +54,7 @@ A [[topological space]] $(X,\tau)$ is called **paracompact** if every [[open cov
 ###### Remark
 **(differing terminology)**
 
-As with the concept of [[compact topological spaces]] ([this remark](compact#space#DifferingTerminology)), some authors demand a paracompact space to also be a [[Hausdorff topological space]]. See at *[[paracompact Hausdorff space]]*.
+As with the concept of [[compact topological spaces]] ([this remark](compact#space#DifferingTerminology)), some authors demand a paracompact space to also be a [[Hausdorff topological space]]. See at *[[paracompact Hausdorff space]]* and at *[[paracompactum]]*.
 
 
 =--
@@ -320,12 +321,11 @@ This appears as ([[Higher Topos Theory|HTT, lemma 7.2.3.5]]).
 
 The notion of paracompact space was introduced in
 
-* [[Jean Dieudonné]], _Une g&#233;n&#233;ralisation des espaces compacts_, Journal de Math&#233;matiques Pures et Appliqu&#233;es, Neuvi&#232;me S&#233;rie, 23: 65&#8211;76 (1944)
+* [[Jean Dieudonné]], _Une g&#233;n&#233;ralisation des espaces compacts_, Journal de Math&#233;matiques Pures et Appliqu&#233;es, Neuvi&#232;me S&#233;rie, 23: 65-76 (1944)
 
 That [[fully normal spaces are equivalently paracompact]] is due to
 
 * {#Stone48} A. H. Stone, _Paracompactness and product spaces_, Bull. Amer. Math. Soc. Volume 54, Number 10 (1948), 977-982. ([Euclid](http://projecteuclid.org/euclid.bams/1183512390))
-
 
 General accounts include
 
@@ -341,7 +341,9 @@ General accounts include
 
 *  English Wikipedia: [paracompact space](http://en.wikipedia.org/wiki/Paracompact_space)
 
-* Springer eom: [paracompact space](http://eom.springer.de/p/p071300.htm), [paracompactness criteria](http://eom.springer.de/p/p071310.htm)
+* [[Encyclopedia of Mathematics]]: *[Paracompact space](http://eom.springer.de/p/p071300.htm)*, 
+
+* [[Encyclopedia of Mathematics]]: *[Paracompactness criteria](http://eom.springer.de/p/p071310.htm)*
 
 
 
@@ -368,9 +370,7 @@ Discussion of paracompactness of [[CW-complexes]] includes
 [[!redirects paracompact topological spaces]]
 [[!redirects Paracompact topological space]]
 [[!redirects Paracompact topological spaces]]
-[[!redirects paracompactum]]
-[[!redirects paracompactums]]
-[[!redirects paracompacta]]
+
 
 [[!redirects Dieudonne's theorem]]
 [[!redirects Dieudonne\'s theorem]]
