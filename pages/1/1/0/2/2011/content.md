@@ -99,10 +99,9 @@ Introductions and monographs:
 
 * [[C. T. C. Wall]]: *Differential topology*, Cambridge Studies in Advanced Mathematics **154**, Cambridge University Press (2016) &lbrack;[doi:10.1017/CBO9781316597835](https://doi.org/10.1017/CBO9781316597835), [pdf](https://www.maths.ed.ac.uk/~v1ranick/surgery/wall.pdf)&rbrack;
 
+* [[Joel W. Robbin]], [[Dietmar Salamon]]: _Introduction to differential topology_, webdraft (2018) &lbrack;[pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf)&rbrack;
 
-* [[Joel W. Robbin]], [[Dietmar Salamon]], _Introduction to differential topology_, webdraft (2018) 294 pp &lbrack;[pdf](https://people.math.ethz.ch/~salamon/PREPRINTS/difftop.pdf)&rbrack;
-
-* {#Benedetti19} [[Riccardo Benedetti]], _Lectures on Differential Topology_, Graduate Studies in Mathematics **218**, AMS 2021  ([arXiv:1907.10297](https://arxiv.org/abs/1907.10297), [ISBN: 978-1-4704-6674-9](https://bookstore.ams.org/cdn-1631100821985/gsm-218/))
+* {#Benedetti19} [[Riccardo Benedetti]]: _Lectures on Differential Topology_, Graduate Studies in Mathematics **218**, AMS (2021)  &lbrack;[arXiv:1907.10297](https://arxiv.org/abs/1907.10297), [ISBN: 978-1-4704-6674-9](https://bookstore.ams.org/cdn-1631100821985/gsm-218/)&rbrack;
 
 Survey with connections to [[algebraic topology]]:
 
