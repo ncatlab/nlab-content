@@ -170,9 +170,9 @@ The [[Riesz representation theorems]] give many nice results for the [[dual vect
 
 The sequence spaces $l^p$ generalise to the [[Lebesgue spaces]] $L^p$ on arbitrary [[measure spaces]].  In fact, $l^p(N)$ is simply $L^p(N,\mu)$, where $\mu$ is [[counting measure]].
 
-The sequence spaces $c_c$, $c_0$, $c_\infty$, $c_b$, and $K^N$ generalise to the spaces $C_c$, $C_0$, $C_\infty$, $C_b$, and $C$ of [[continuous maps]] on a [[local compactum]].  In fact, $c_*(N)$ is simply $C_*(N,\tau)$, where $\tau$ is the [[discrete topology]].  (Note that one never uses the symbol '$C$' for '$C_\infty$' with capital letters.)
+The sequence spaces $c_c$, $c_0$, $c_\infty$, $c_b$, and $K^N$ generalise to the spaces $C_c$, $C_0$, $C_\infty$, $C_b$, and $C$ of [[continuous maps]] on a [[locally compact topological space|locally compact]] [[Hausdorff space]] ("[[local compactum]]").  In fact, $c_*(N)$ is simply $C_*(N,\tau)$, where $\tau$ is the [[discrete topology]].  (Note that one never uses the symbol '$C$' for '$C_\infty$' with capital letters.)
 
-A common setting for both of these generalisations is a (locally compact Hausdorff) [[topological group]].  While $l^\infty$ and $c_b$ are the same, $L^\infty$ and $C_b$ are the same *only* if the group is discrete.  (Otherwise $C_b \subset L^\infty$ properly.)
+A common setting for both of these generalisations is a ([[locally compact topological space|locally compact]] [[Hausdorff space|Hausdorff]]) [[topological group]].  While $l^\infty$ and $c_b$ are the same, $L^\infty$ and $C_b$ are the same *only* if the group is discrete.  (Otherwise $C_b \subset L^\infty$ properly.)
 
 
 ## In constructive mathematics
