@@ -21,7 +21,7 @@ Or rather, if one does not at the same time assume that the space is [[Hausdorff
 
 There are various definitions in use, which all coincide if the space is also [[Hausdorff topological space|Hausdorff]] (prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree} below).
 
-A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _local compactum_; compare at *[[compact Hausdorff space]]* and at *[[compactum]]*.
+A locally compact [[Hausdorff space]] may also be called a _[[local compactum]]_.
 
 
 Local compactness is one of the conditions that are often required by default for working with topological spaces: locally compact spaces are a class of  "[[nice topological spaces]]". 
