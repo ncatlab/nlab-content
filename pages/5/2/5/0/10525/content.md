@@ -107,12 +107,11 @@ The main example of a $JB$-algebra is the algebra of [[self-adjoint operators]] 
 
 Every $JB$-algebra is [[formally real algebra|formally real]]; conversely, all of the formally real Jordan algebras in [[finite-dimensional space|finite dimensions]] are $JBW$-algebras, and all of the special ones are $JW$-algebras.  This leaves the [[Albert algebra]] $\mathfrak{h}_3(O)$ as the basic example of a $JBW$-algebra that is not a $JW$-algebra.  (See [Jordan algebra#frc](Jordan+algebra#frc) for the classification of the finite-dimensional formally real Jordan algebras.)
 
-
 ## Properties
 
 $JB$-algebras have nice properties like those of $C^*$-algebras, and $JBW$-algebras have nicer properties like those of von Neumann algebras.  They are generally proved in the analogous ways.  Some properties are different, however.
 
-An associative $JB$-algebra is the same thing as a commutative $C^*$-algebra with trivial involution, which (over the [[real numbers]]) is in turn the same thing as the algebra of (real-valued) [[continuous maps]] vanishing at infinity on a [[local compactum]] (which is a [[compactum]] iff the algebra is unital, and then every continuous map vanishes at infinity).
+An associative $JB$-algebra is the same thing as a commutative $C^*$-algebra with trivial involution, which (over the [[real numbers]]) is in turn the same thing as the algebra of (real-valued) [[continuous maps]] vanishing at infinity on a [[locally compact topological space|locally compact]] [[Hausdorff space]] ("[[local compactum]]"), which is a [[compact Hausdorff space]] ("[[compactum]]") iff the algebra is unital, and then every continuous map vanishes at infinity.
 
 Like any Jordan algebra, a $JB$-algebra $A$ is [[power-associative algebra|power-associative]], so each element $x$ generates an associative (and of course commutative) [[subalgebra]] and hence a local compactum.  In a unital $JB$-algebra, each element generates an associative unital subalgebra and hence a compactum $Spec(x)$.  Any [[continuous map]] $f\colon Spec(x) \to \mathbb{R}$ therefore defines an element $f(x)$ of $A$.  More generally, any associative unital subalgebra $X$ generates a compactum $Spec(X)$, its [[spectrum]], and any continuous map on $Spec(X)$ defines an element of $A$ (in fact belonging to $X$).  Thus we have a [[functional calculus]] on $JB$-algebras.  In a $JBW$-algebra, we may instead interpret the spectrum as a [[localizable measure space]], with $X$ identified as the algebra of [[essentially bounded function|essentially bounded]] [[measurable functions]] (modulo [[almost equality]]) on the spectrum, so that the functional calculus extends to measurable functions.
 
