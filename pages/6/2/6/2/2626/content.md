@@ -45,7 +45,7 @@ It is often useful to consider the domain circle of a knot as being oriented.  T
 A knot $K$ is [[amphicheiral]] if there exists an orientation-reversing [[homeomorphism]] of $R^3$ mapping $K$ to itself. 
 
 
-## Relevant nLab Pages
+## Relevant pages
 
 ### Knots, Links, and other Variants
 
@@ -184,6 +184,8 @@ In [[string theory]] ([[NS5-branes]]/[[M5-branes]]):
 
 * [[Edward Witten]], _Fivebranes and Knots_, Quantum Topology, Volume 3, Issue 1, 2012, pp. 1-137 ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216), [doi:10.4171/QT/26](https://www.ems-ph.org/journals/show_abstract.php?issn=1663-487X&vol=3&iss=1&rank=1))
 
+
+For more see at *[[knot invariants via topological strings and 5-branes -- references]]*.
 
 
 ### Higher dimensional knots
