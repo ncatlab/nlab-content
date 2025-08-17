@@ -67,9 +67,9 @@ $$ C_0(X)^* \cong RM(X) .$$
 
 ## References
 
-A proof of Theorem \ref{Cc} in [[constructive mathematics]] (in the case where $X$ is a [[compactum]]) is given in
+A proof of Theorem \ref{Cc} in [[constructive mathematics]] (in the case where $X$ is a [[compact Hausdorff space]]) is given in:
 
-* [[Thierry Coquand]], [[Bas Spitters]], _Integrals and Valuations_ ([arXiv:0808.1522](http://arxiv.org/abs/0808.1522))
+* [[Thierry Coquand]], [[Bas Spitters]]: _Integrals and Valuations_ ([arXiv:0808.1522](http://arxiv.org/abs/0808.1522))
 
 
 [[!redirects Riesz representation theorem]]
