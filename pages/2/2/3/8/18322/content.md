@@ -27,7 +27,8 @@ In this article we collect some results on [[colimits]] of [[paracompact Hausdor
 
 The account is designed to be parallel to that given in [[colimits of normal spaces]], centering particularly on how paracompactness may be reformulated in terms of an extension or selection property. The relevant result, due to Ernest Michael, is particularly well-adapted to the study of colimits. 
 
-In the sequel, a *paracompactum* (pl. *paracompacta*) is a paracompact Hausdorff space, just as [[compactum]] is a compact Hausdorff space. 
+In the sequel we say "paracompacta" (singular: "paracompactum") for *[[paracompact Hausdorff spaces]]* (following the usage of "[[compact]]" for [[compact Hausdorff spaces]]). 
+
 
 ## Basic results 
 
