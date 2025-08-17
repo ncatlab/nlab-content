@@ -12,7 +12,7 @@
 =--
 =--
 
-In [[topology]] and [[analysis]], the term **compacta** (singular *compactum*) is used to refer to
+In [[topology]] and [[analysis]], the term **compacta** (singular: *compactum*) is used to refer to
 
 * [[compact metrizable spaces]]
 
