@@ -20,7 +20,7 @@
 +-- {: .num_prop }
 ###### Proposition
 
-Every [[CW-complex]] is a *paracompactum*, i.e., a [[paracompact Hausdorff space]].
+Every [[CW-complex]] is a [[paracompact Hausdorff space]] (a "[[paracompactum]]").
 
 =--
 
