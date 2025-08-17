@@ -1,5 +1,5 @@
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/John_W._Barrett)
+[Wikipedia entry](https://tinyurl.com/3ewz9pzt)
 
 ## Selected writings
  {#SelectedWritings}
