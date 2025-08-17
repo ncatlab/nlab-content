@@ -32,7 +32,7 @@ which sends a general [[topological space]] to a [[compact topological spaces|co
 
 The Stone-Čech compactification is in general "very large", even for "ordinary" non-compact spaces such as the [[real line]].
 
-For more details see at _[compactum -- Stone-&#268;ech compactification](compactum#StoneCechCompactification)_
+For more details see at _[compact Hausdorff space -- Stone-&#268;ech compactification](compact+Hausdorff+space#StoneCechCompactification)_
 
 ## Properties
 
