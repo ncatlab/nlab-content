@@ -115,16 +115,16 @@ The notion originates with
 
 An early textbook account:
 
-* {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+* {#Stong68} [[Robert Stong]]: *Notes on Cobordism theory*, (1968) &lbrack;[toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html)&rbrack;
 
 Further review:
 
-* [[Peter Landweber]], _A survey of bordism and cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society **100** 2 (1986) 207-223 &lbrack;[doi:10.1017/S0305004100066032](https://doi.org/10.1017/S0305004100066032)&rbrack;
+* [[Peter Landweber]]: _A survey of bordism and cobordism_, Mathematical Proceedings of the Cambridge Philosophical Society **100** 2 (1986) 207-223 &lbrack;[doi:10.1017/S0305004100066032](https://doi.org/10.1017/S0305004100066032)&rbrack;
 
 * {#HirzebruchGergerJung92} [[Friedrich Hirzebruch]], Thomas Berger, Rainer Jung, Section 1.1 of: *Manifolds and Modular Forms*, Aspects of Mathematics **20**, Viehweg (1992), Springer (1994) &lbrack;[doi:10.1007/978-3-663-10726-2](https://doi.org/10.1007/978-3-663-10726-2), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hirzjung.pdf)&rbrack;
 
 
-* {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS (1996)
 
 * [[John Francis]] (notes by [[Owen Gwilliam]]), _[Topology of manifolds](http://math.northwestern.edu/~jnkf/classes/mflds/)_, _Lecture 2: Cobordism_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
 
