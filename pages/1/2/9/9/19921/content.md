@@ -6,7 +6,7 @@
 
 ## Idea
 
-In [[proof theory]], the Gödel's **Dialectica interpretation** is a proof interpretation of intuitionistic arithmetic ([[Heyting arithmetic]]) into a finite type extension of [[primitive recursive arithmetic]].  It was reinterpreted by [de Paiva](#DePaiva) as a construction (actually, multiple related constructions) on [[categories]], related to (but distinct from) the [[Chu construction]].
+In [[proof theory]],  Gödel's **Dialectica interpretation** is a proof interpretation of intuitionistic arithmetic ([[Heyting arithmetic]]) into a finite type extension of [[primitive recursive arithmetic]].  It was reinterpreted by [de Paiva](#DePaiva) as a construction (actually, multiple related constructions) on [[categories]], related to (but distinct from) the [[Chu construction]].
 
 ## Examples
 
