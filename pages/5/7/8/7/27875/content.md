@@ -12,6 +12,7 @@
 =--
 =--
 
+
 In [[topology]] and [[analysis]], the term **compacta** (singular: *compactum*) is used to refer to
 
 * [[compact metrizable spaces]]
@@ -21,6 +22,10 @@ or more generally to
 * [[compact Hausdorff spaces]]. 
 
 The first usage is more common in the literature, but the second is currently more common on the nLab.
+
+A special case of compact Hausdorff spaces are
+
+* *[[dyadic compacta]]*.
 
 Analogously, the term **local compacta** (singular: *local compactum*) refers to 
 
@@ -36,15 +41,9 @@ and the term **paracompacta** (singular: paracompactum) refers to
 
 (noting here that [[metric spaces are paracompact|metric spaces are already paracompact]]).
 
-Furthermore there are the notions of
+Slightly different from but closely related to either notion of compacta is that of:
 
-* **[[Eberlein compacta]]**
-
-and
-
-* **[[dyadic compacta]]**
-
-for which see there.
+* **[[Eberlein compacta]]**.
 
 
 [[!redirects compacta]]
