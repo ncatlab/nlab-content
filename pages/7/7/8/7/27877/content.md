@@ -18,7 +18,7 @@ An *Eberlein compactum* is a [[compact topological space]] [[homeomorphism|homeo
 
 ## Examples
 
-Every [[compact metric space]] ("[[compactum]]") is an Eberlein compactum, as is the [[one-point compactification]] of any [[locally compact topological space|locally compact]] [[metric space]], while the converse does not generally hold.
+Every [[compact metrizable space]] is an Eberlein compactum, as is the [[one-point compactification]] of any [[locally compact topological space|locally compact]] [[metric space]], while the converse does not generally hold.
 
 
 ## Related entries
