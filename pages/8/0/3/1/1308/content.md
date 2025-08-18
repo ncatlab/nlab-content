@@ -9,7 +9,6 @@
 =--
 =--
 
-# The Eckmann--Hilton argument
 * table of contents
 {: toc}
 
