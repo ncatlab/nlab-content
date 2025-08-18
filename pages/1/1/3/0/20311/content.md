@@ -13,7 +13,8 @@ On the notion of [[dimension]] for (in particular) [[separable metric spaces]]:
 
 On ([[general topology|general]]) [[topology]]:
 
-* _General Topology_, PWN, Warszawa 1977
+* _General Topology_, PWN, Warszawa (1977)
+
 * {#Engelking89} [[Ryszard Engelking]], *General Topology*, Revised edition, Sigma Series in Pure Mathematics **6**, Heldermann (1989) &lbrack;[ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm)&rbrack;
 
 
@@ -22,6 +23,6 @@ On ([[general topology|general]]) [[topology]]:
 
 * [[metrization theorem]]
 
-* [[topology]]
+* [[dyadic space]]
 
 category: people
