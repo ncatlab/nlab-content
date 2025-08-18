@@ -17,7 +17,7 @@ The _[[Pontryagin theorem]]_, i.e. the unstable and [[normally framed submanifol
 
 as presented more comprehensively in:
 
-* {#Pontryagin55} [[Lev Pontrjagin]], _[[Smooth manifolds and their applications in Homotopy theory]]_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
+* {#Pontryagin55} [[Lev Pontrjagin]]: _[[Smooth manifolds and their applications in Homotopy theory]]_, Trudy Mat. Inst. im Steklov **45** Izdat. Akad. Nauk. USSR, Moscow (1955), AMS Translation Series **2** 11 (1959) $[$[doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf)\]
 
 The [[Pontrjagin theorem]] must have been known to Pontrjagin at least by 1936, when he announced the computation of the [[second stable homotopy group of spheres|second stem of homotopy groups of spheres]]:
 
