@@ -1263,6 +1263,9 @@ Original articles:
 
 * [[Jan Jaworowski]], _Generalized cohomotopy groups as limit groups_, Fundamenta Mathematicae 50 (1962), 393-402 ([doi:10.4064/fm-50-4-333-340](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/50/4), [pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm50/fm50133.pdf))
 
+* A. Ch. Chigogidze: *$n$-Shapes and $n$-Cohomotopy of Groups of Compacta*, Math. USSR Sb. **66** 2 (1990) 329-342 &lbrack;[doi:10.1070/SM1990v066n02ABEH001316](https://doi.org/10.1070/SM1990v066n02ABEH001316)&rbrack;
+  > (in the context of [[shape theory]])
+
 Textbook account:
 
 * {#SzeTsen59} [[Sze-Tsen Hu]]: *Cohomotopy Groups*, chapter VII in: *Homotopy Theory*, Academic Press (1959) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hu2.pdf)&rbrack;
@@ -1276,7 +1279,7 @@ See also:
 
 Further discussion:
 
-* [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr., 18, Coventry, 2012 ([arXiv:0910.1781](https://arxiv.org/abs/0910.1781), [doi:10.2140/gtm.2012.18.235](http://dx.doi.org/10.2140/gtm.2012.18.235))
+* [[Laurence Taylor]], _The principal fibration sequence and the second cohomotopy set_, Proceedings of the Freedman Fest, 235251, Geom. Topol. Monogr. **18**, Coventry (2012) &lbrack;[arXiv:0910.1781](https://arxiv.org/abs/0910.1781), [doi:10.2140/gtm.2012.18.235](http://dx.doi.org/10.2140/gtm.2012.18.235)&rbrack;
 
 On ([[stable cohomotopy|stable]]) [[motivic cohomology|motivic]] [[Cohomotopy]] of [[schemes]] (as  [[motivic homotopy theory|motivic homotopy classes]] of maps into [[motivic sphere|motivic]] [[Tate spheres]]):
 
