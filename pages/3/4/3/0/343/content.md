@@ -31,6 +31,7 @@ Any category with finite products can be considered as a cartesian monoidal cate
 The term __cartesian category__ usually means a category with finite products but can also mean a [[finitely complete category]], so we avoid that term.
 
 
+
 ## Properties
 
 Among general [[monoidal categories]], the cartesian monoidal categories have a number of special and important properties, such as the existence of [[diagonal maps]] $\Delta_x : x \to x\otimes x$ and augmentations $e_x: x \to I$ for any object $x$, cf. the *[[structural rules]]* in the corresponding [[internal type theory]]: In applications to [[computer science]] we can think of $\Delta$ as 'duplicating data' and $e$ as 'deleting' data.  These maps make any object into a [[comonoid]]: (see also at *[comonoid -- In a cartesian monoidal category](comonoid#InACartesianMonoidalCategory)*):
@@ -41,7 +42,7 @@ Among general [[monoidal categories]], the cartesian monoidal categories have a 
 In fact, any object in a cartesian monoidal category becomes a comonoid in a *unique* way, and this is automatically a [[cocommutative comonoid]] [[structure]].  Furthermore, this comonoid structure is 'natural', meaning that the all morphisms between objects preserve their comonoid structure.  In other words, any morphism $f: x \to y$ is a comonoid homomorphism:
 \[       (f \otimes f) \circ \Delta_x = \Delta_y \circ f, \quad i_x = i_y \circ f .\]
 
-Moreover, one can show (e.g. [Fox 1976](#Fox76) or [Heunen-Vicary 2012, p. 79 (p. 85 of the pdf)](#HeunenVicary12)) that any [[symmetric monoidal category]] equipped with suitably well-behaved diagonal and augmentation maps _must_ in fact be cartesian monoidal.   More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
+Moreover, one can show ([[Fox's theorem]], due to [Fox 1976](#Fox76), cf. [Heunen & Vicary 2012, p. 79 (p. 85 of the pdf)](#HeunenVicary12)) that any [[symmetric monoidal category]] equipped with suitably well-behaved diagonal and augmentation maps _must_ in fact be cartesian monoidal.  More precisely: suppose $C$ is a symmetric monoidal category equipped with monoidal natural transformations
 $$           \Delta_x : x \to x \otimes x $$
 and
 $$             e_x : x \to I   $$
@@ -98,19 +99,19 @@ Thomas Fox showed in ([Fox 1976](#Fox76)) that $\mathbf{Cart}$ is also comonadic
 
 ## References
 
-The characterization of cartesian monoidal categories as [[symmetric monoidal categories]] with [[extra structure]]:
+The characterization of cartesian monoidal categories as [[symmetric monoidal categories]] with [[extra structure]] ([[Fox's theorem]]):
 
 * {#Fox76} [[Thomas Fox]], *Coalgebras and cartesian categories*, Communications in Algebra **4** 7 (1976) 665-667 ([doi:10.1080/00927877608822127](https://doi.org/10.1080/00927877608822127), [pdf](https://www.tandfonline.com/doi/pdf/10.1080/00927877608822127))
 
-A significantly more general characterization in the manner above appears in:
+A significantly more general characterization along these lines:
 
-* [[Nathanael Arkor]], *Magmal characterisations of cocartesian categories*, [arXiv:2508.11615](https://arxiv.org/abs/2508.11615)
+* [[Nathanael Arkor]], *Magmal characterisations of cocartesian categories* &lbrack;[arXiv:2508.11615](https://arxiv.org/abs/2508.11615)&rbrack;
 
-Discussion with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] is in
+Discussion with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]]:
 
 * {#HeunenVicary12} [[Chris Heunen]], [[Jamie Vicary]], _Lectures on categorical quantum mechanics_, 2012 ([pdf](https://www.cs.ox.ac.uk/files/4551/cqm-notes.pdf))
 
-* Kosta Došen and Zoran Petrić. _The maximality of cartesian categories_. Mathematical Logic Quarterly: Mathematical Logic Quarterly 47.1 (2001): 137-144.
+* [[Kosta Došen]], Zoran Petrić: _The maximality of cartesian categories_, Mathematical Logic Quarterly: Mathematical Logic Quarterly **47** 1 (2001) 137-144 &lbrack;[arXiv:math/9911059](https://arxiv.org/abs/math/9911059), <a href="https://doi.org/10.1002/1521-3870(200101)47:1%3C137::AID-MALQ137%3E3.0.CO;2-F">doi:10.1002/1521-3870(200101)47:1%3C137::AID-MALQ137%3E3.0.CO;2-F</a>&rbrack;
 
 
 [[!redirects cartesian monoidal category]]
