@@ -63,5 +63,9 @@ An article aiming at the categorification of perverse sheaves is
 
 * [[Mikhail Kapranov]], Vadim Schechtman, _Perverse Schobers_, [arxiv/1411.2772](http://arxiv.org/abs/1411.2772)
 
+with a proposed application to physics
+
+* [[Mikhail Kapranov]], [[Yan Soibelman]], Lev Soukhanov. *Perverse schobers and the Algebra of the Infrared* (2020). ([arXiv:2011.00845](https://arxiv.org/abs/2011.00845)).
+
 category: sheaf theory, algebraic geometry
 [[!redirects perverse sheaves]]
