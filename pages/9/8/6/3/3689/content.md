@@ -9,8 +9,6 @@
 =--
 =--
 
-
-# The category $Mod$ of modules #
 * table of contents
 {:toc}
 
