@@ -87,9 +87,9 @@ which must be an equality. In that case $(a_1, \ldots, a_n)$ is the desired poin
 
 Since $k$ is algebraically closed, it suffices to prove that the extension field $F = k[X_1, \ldots, X_n]/M$ over $k$ is algebraic over $k$. Clearly $F$ as a [[vector space]] over $k$ has countable [[dimension]]. Supposing to the contrary there is an element $t \in F$ that is transcendental over $k$, we have a [[subquotient]] vector space of $F$, 
 
-$$\frac{k(t)}{k[t]} \cong \bigoplus_{a \in k} \frac{k[\frac1{t - a}]}{k},$$ 
+$$\frac{k(t)}{k[t]} \cong \bigoplus_{a \in k} \frac{k\left[\frac1{t - a}\right]}{k},$$ 
 
-where the isomorphism is by partial fraction decomposition (ultimately by the [[Chinese remainder theorem]]), but the vector space on the right clearly has uncountable dimension because there are uncountably many $a \in k$, and this leads to a contradiction. 
+where the isomorphism is by partial fraction decomposition (ultimately by the [[Chinese remainder theorem]]). But the vector space on the right clearly has uncountable dimension because there are uncountably many $a \in k$, and this leads to a contradiction. 
 =-- 
 
 Now we reduce to the case where $k$ is uncountable by employing a [[model theory|model-theoretic]] argument: 
