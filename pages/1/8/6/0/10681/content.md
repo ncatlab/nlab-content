@@ -24,7 +24,7 @@ Let $i: CHGrp \to TopGrp$ denote the full embedding of the category of compact H
 
 +-- {: .num_defn} 
 ###### Definition 
-The *Bohr compactification* $Bohr(G)$ is a representing object for the functor $TopGrp(G, i-): CHGrp \to Set$. 
+The *Bohr compactification* of $G$, denoted $Bohr(G)$, is a representing object for the functor $TopGrp(G, i-): CHGrp \to Set$. 
 =-- 
 
 +-- {: .num_theorem} 
@@ -66,7 +66,9 @@ The Bohr compactification admits a more elegant construction if $G$ is a topolog
 
 A MathOverflow question from 2011 asks whether, for $G$ a compact Hausdorff group, can $\mathbb{Z}$ appear as a quotient of $G$ *considered as an abstract group*? 
 
-A truly simple answer was [given](http://mathoverflow.net/questions/80966/morphism-from-a-compact-group-to-z#) by Sean Eberhard using the Bohr compactification, as follows. A quotient $p: G \to \mathbb{Z}$ admits a section $i: \mathbb{Z} \to G$ which extends to the Bohr compactification $\widehat{i}: Bohr(\mathbb{Z}) \to G$. The composite $p \widehat{i}: Bohr(\mathbb{Z}) \to \mathbb{Z}$ is still surjective as its restriction along the unit $\mathbb{Z} \to Bohr(\mathbb{Z})$ is the identity. According to the remark above, $Bohr(\mathbb{Z})$ is the Pontryagin dual of the discrete group $S^1 \cong \mathbb{R}_{disc} \oplus \mathbb{Q}/\mathbb{Z}$, so $Bohr(\mathbb{Z}) \cong \mathbb{R}_{disc}' \oplus (\mathbb{Q}/\mathbb{Z})'$. Now the Pontryagin dual of a discrete torsionfree group such as $\mathbb{R}_{disc}$ is divisible (more generally, if $Q$ is an injective module over a commutative ring and $F$ is flat, then $\hom(F, Q)$ is also injective), so the restriction of $p \widehat{i}: Bohr(\mathbb{Z}) \to \mathbb{Z}$ to the summand $\mathbb{R}_{disc}'$ is zero. But the restriction to the other summand $(\mathbb{Q}/\mathbb{Z})' \cong \widehat{\mathbb{Z}} = \prod_p \mathbb{Z}_p^\wedge$ is also zero, as the further restriction to $\mathbb{Z}_2^\wedge$ is zero by 3-divisibility, and the restriction to $\prod_{p \neq 2} \mathbb{Z}_p^\wedge$ is zero by 2-divisibility. 
+A truly simple answer was [given](http://mathoverflow.net/questions/80966/morphism-from-a-compact-group-to-z#) by Sean Eberhard using the Bohr compactification, as follows. Supposing there is a quotient $p: G \to \mathbb{Z}$, it admits a section $i: \mathbb{Z} \to G$ which extends to the Bohr compactification $\widehat{i}: Bohr(\mathbb{Z}) \to G$. The composite $p \widehat{i}: Bohr(\mathbb{Z}) \to \mathbb{Z}$ is still surjective as its restriction along the unit $\mathbb{Z} \to Bohr(\mathbb{Z})$ is the identity. We will show this cannot occur: the only map $Bohr(\mathbb{Z}) \to \mathbb{Z}$ is the zero map. 
+
+According to the remark above, $Bohr(\mathbb{Z})$ is the Pontryagin dual of the discrete group $S^1 \cong \mathbb{R}_{disc} \oplus \mathbb{Q}/\mathbb{Z}$, so $Bohr(\mathbb{Z}) \cong \mathbb{R}_{disc}' \oplus (\mathbb{Q}/\mathbb{Z})'$. Now the Pontryagin dual of a discrete torsionfree group such as $\mathbb{R}_{disc}$ is divisible (more generally, if $Q$ is an injective module over a commutative ring and $F$ is flat, then $\hom(F, Q)$ is also injective), so the restriction of $p \widehat{i}: Bohr(\mathbb{Z}) \to \mathbb{Z}$ to the summand $\mathbb{R}_{disc}'$ is zero. But the restriction to the other summand $(\mathbb{Q}/\mathbb{Z})' \cong \widehat{\mathbb{Z}} = \prod_p \mathbb{Z}_p^\wedge$ is also zero, as the further restriction to $\mathbb{Z}_2^\wedge$ is zero by 3-divisibility, and the restriction to $\prod_{p \neq 2} \mathbb{Z}_p^\wedge$ is zero by 2-divisibility. 
 
 ## Related concepts
 
