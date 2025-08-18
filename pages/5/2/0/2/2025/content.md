@@ -379,6 +379,8 @@ Such colimits of compact Hausdorff spaces are also equivalently [[quotient topol
 
 * [[paracompact Hausdorff space]]
 
+* [[dyadic compactum]]
+
 * [[pyknotic set]]
 
 ## References
