@@ -1,5 +1,11 @@
 
-* [webpage](http://ericfinster.github.io/)
+* [personal page](http://ericfinster.github.io/)
+
+* [institute page](https://www.birmingham.ac.uk/staff/profiles/computer-science/academic-staff/finster-eric)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=151847)
+
+* [GoogleScholar page](https://scholar.google.fr/citations?user=E0AD2Q8AAAAJ&hl=en)
 
 
 ## Selected writings
