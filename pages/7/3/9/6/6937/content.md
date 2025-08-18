@@ -1,6 +1,13 @@
 
-* Webpage: [http://peterlefanulumsdaine.com](http://peterlefanulumsdaine.com)
+* [personal page](http://peterlefanulumsdaine.com)
 
+* [Institute page](https://www.su.se/english/profiles/plums-1.218636)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=152109)
+
+* [inSpire page](https://inspirehep.net/authors/2950514)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=o-4C7WkAAAAJ&hl=en)
 
 
 ## Selected writings
