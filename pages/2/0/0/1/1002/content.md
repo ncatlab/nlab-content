@@ -232,5 +232,3 @@ If $X$ is an [[infinite set]] of cardinality $\kappa$, then the number of ultraf
 [[!redirects compact Hausdorff space objects]]
 [[!redirects compact hausdorff space object]]
 [[!redirects compact hausdorff space objects]]
-[[!redirects compactum object]]
-[[!redirects compactum objects]]
