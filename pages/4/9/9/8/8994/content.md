@@ -83,6 +83,7 @@ Yet stronger is the notion of *strong* Frobenius linear functor, in which the la
 
 ### Mix, isomix and compact linearly distributive categories
 
+This is the subject of ([CS'97](#CS97)).
 There are a series of structural steps by which linearly distributive categories collapses to a monoidal categories as shown in the picture below. 
 
 \begin{center}
@@ -93,7 +94,7 @@ There are a series of structural steps by which linearly distributive categories
 \end{imagefromfile}
 \end{center}
  
-A **mix category** is an LDC with a **mix map** ${ m}:\bot\to\top$, and a  such that:
+A **[[mix category]]** is an LDC with a **mix map** ${ m}:\bot\to\top$, and a  such that:
 
 1) The following diagram commutes
 
