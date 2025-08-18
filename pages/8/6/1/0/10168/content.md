@@ -1,5 +1,10 @@
 
-* [webpage](https://ulrikbuchholtz.dk/)
+* [personal page](https://ulrikbuchholtz.dk/)
+
+* [Institute page](https://www.nottingham.ac.uk/computerscience/people/ulrik.buchholtz)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=21mdbgMAAAAJ&hl=en)
+
 
 ## Selected writings
 
