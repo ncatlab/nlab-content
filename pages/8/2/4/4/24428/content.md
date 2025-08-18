@@ -23,3 +23,7 @@ A [[symmetric monoidal category]] is cartesian if and only if it is [[isomorphic
 ## Reference
 
 * {#Fox76} [[Thomas Fox]], *Coalgebras and cartesian categories*, Communications in Algebra **4** 7 (1976) 665-667 ([doi:10.1080/00927877608822127](https://doi.org/10.1080/00927877608822127), [pdf](https://www.tandfonline.com/doi/pdf/10.1080/00927877608822127))
+
+A survey of theorems extending Fox's original theorem appears in:
+
+* [[Nathanael Arkor]], *Magmal characterisations of cocartesian categories*, [arXiv:2508.11615](https://arxiv.org/abs/2508.11615)
