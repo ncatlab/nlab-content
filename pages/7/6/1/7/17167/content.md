@@ -4,7 +4,7 @@
 
 ## Introduction 
 
-The goal of this article is to prove that a [[compactum|compact Hausdorff]] [[ring]] $R$ is a [[profinite space|profinite]] ring, i.e., is canonically isomorphic as a [[topological ring]] to its [[profinite completion]] $\widehat{R}$, topologized as an inverse limit of [[finite set|finite]] rings with their [[discrete topology|discrete topologies]]. 
+The goal of this article is to prove that a [[compact Hausdorff space|compact Hausdorff]] [[ring]] $R$ is a [[profinite space|profinite]] ring, i.e., is canonically isomorphic as a [[topological ring]] to its [[profinite completion]] $\widehat{R}$, topologized as an inverse limit of [[finite set|finite]] rings with their [[discrete topology|discrete topologies]]. 
 
 Further commentary on this result can be found in a Caf&#233; [blog post](#Lein) of Tom Leinster, in connection with some work by his student Barry Devlin. 
 
