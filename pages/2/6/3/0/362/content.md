@@ -15,7 +15,7 @@
 
 ## Idea 
 
-The **Gray tensor product** is a "better" replacement for the cartesian product of [[strict 2-category|strict 2-categories]].  To get the idea it suffices to consider the 2-category $\mathbf{2}$ which has two objects, 0 and 1, one non-identity morphism $0\to 1$, and no nonidentity 2-cells. Then the cartesian product $\mathbf{2}\times\mathbf{2}$ is a commuting square, while the Gray tensor product $\mathbf{2}\otimes\mathbf{2}$ is a square which commutes up to isomorphism.
+The **Gray tensor product** is a "better" replacement for the cartesian product of [[strict 2-category|strict 2-categories]] with respect to pseudonatural transformations.  To get the idea it suffices to consider the 2-category $\mathbf{2}$ which has two objects, 0 and 1, one non-identity morphism $0\to 1$, and no nonidentity 2-cells. Then the cartesian product $\mathbf{2}\times\mathbf{2}$ is a commuting square, while the Gray tensor product $\mathbf{2}\otimes\mathbf{2}$ is a square which commutes up to isomorphism.
 
 More generally, for any 2-categories $C$ and $D$, a 2-functor $C\times\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a strict 2-natural transformation between them, while a 2-functor $C\otimes\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a _pseudonatural_ transformation between them.
 
