@@ -430,7 +430,7 @@ By the [[Heine-Borel theorem]] the closed and bounded subsets of $\mathbb{R}^n$ 
 
 +-- {: .num_remark #RelevanceForMonopolesAndInstantons}
 ###### Remark
-**(relevance for [[solitongs]] and [[instantons]] in [[non-perturbative quantum field theory|non-perturbative]] [[gauge theory]])**
+**(relevance for [[solitons]] and [[instantons]] in [[non-perturbative quantum field theory|non-perturbative]] [[gauge theory]])**
 
 In [[physics]], Example \ref{nSphereIsOnePointCompactificationOfRn} governs the phenomenon of [[solitons]] and [[instantons]] for [[gauge theory]] on [[Minkowski spacetime]] or [[Euclidean space]]: While such spaces themselves are not [[compact topological space|compact]], the consistency condition that any [[field history|field configuration]] carries a [[finite number|finite]] [[energy]] requires that [[gauge fields]] _[[vanishing at infinity|vanish at infinity]]_. 
 
@@ -532,7 +532,7 @@ $$
 ### Thom spaces
 
 For $X$ a [[compact topological space]] and $V \to X$
-a [[vector bundle]], then the ([[homotopy type]] of the) one-point compactification of 
+a [[vector bundle]], the ([[homotopy type]] of the) one-point compactification of 
 the total space $V$ is the [[Thom space]] of $V$, equivalent to $D(V)/S(V)$. 
 
 For a simple example: the real [[projective plane]] $\mathbb{RP}^2$ is the one-point compactification of the 'open' [[Moebius strip|Möbius strip]], as line bundle over $S^1$. This is a special case of the more general observation that $\mathbb{RP}^{n+1}$ is the Thom space of the [[tautological line bundle]] over $\mathbb{RP}^n$. 
