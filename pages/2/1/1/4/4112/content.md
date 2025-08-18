@@ -69,7 +69,7 @@ in itself.
 ### As an abstract space
  {#AsAbstractTopologicalSpace}
 
-In brief, Cantor space may be abstractly described as the [[topological space|topological]] [[product]] of countable many copies of the [[discrete space]] $\{0, 1\}$. In more concrete detail: 
+In brief, Cantor space may be abstractly described as the [[topological product space]] of countable many copies of the [[discrete space]] $\{0, 1\}$. In more concrete detail: 
 
 Recall that a __[[binary digit]]__ is either $0$ or $1$; the [[set]] (or [[discrete space]]) of binary digits is the [[Boolean domain]] $\mathbb{B}$.
 
@@ -224,6 +224,8 @@ In fact, every closed subspace $K \hookrightarrow C$ admits a retraction. There 
 
 ## Related concepts
 
+* [[Cantor cube]], [[dyadic space]]
+
 * [[Peano curve]]
 
 * [[Sierpinski space]]
@@ -234,13 +236,24 @@ In fact, every closed subspace $K \hookrightarrow C$ admits a retraction. There 
 
 * [[Baire space of sequences]]
 
+
+
 ## References
 
 Named after [[Georg Cantor]].
 
+Lecture notes:
 
 * [[Friedhelm Waldhausen]], p. 3-4 in _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
+In the generality of [[dyadic spaces]]:
+
+* {#Engelking89} [[Ryszard Engelking]], pp. 231, 232, 291 in: *General Topology*, Sigma Series in Pure Mathematics **6**, Heldermann (1989) \[<a href="https://www.heldermann.de/SSPM/SSPM06/sspm06.htm">ISBN:388538-006-4</a>, [[Engelking-DyadicSpaces.pdf:file]]\]
+
+* {#Shapiro03} Leonid B. Shapiro: *Dyadic Compacta*, Encyclopedia of General Topology (2003) 192-194 \[<a href="https://doi.org/10.1016/B978-044450355-8/50052-0">doi:10.1016/B978-044450355-8/50052-0</a>\]
+
+
+See also:
 
 * Proof Wiki, _[Cantor Space as Countably Infinite Product](https://proofwiki.org/wiki/Cantor_Space_as_Countably_Infinite_Product)_
 
