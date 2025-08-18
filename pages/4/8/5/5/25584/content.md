@@ -1,6 +1,7 @@
 
 * [personal page](https://thomas-lamiaux.github.io/)
 
+* [GitHub page](https://github.com/thomas-lamiaux)
 
 ## Selected writings
 
