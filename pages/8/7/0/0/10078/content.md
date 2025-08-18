@@ -86,7 +86,7 @@ Then it was related to actual worldline quantum field theory in
  
 Review:
 
-* {#SchmidtSchubert94} M. G. Schmidt, [[Christian Schubert]], _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
+* {#SchmidtSchubert94} M. G. Schmidt, [[Christian Schubert]]: *The Worldline Path Integral Approach to Feynman Graphs*, 28th International Symposium on Particle Theory, Wendisch-Rietz (1994) &lbrack;[arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358), [inSpire:381745](https://inspirehep.net/literature/381745)&rbrack;
 
 * {#Schubert96} [[Christian Schubert]], _An Introduction to the Worldline Technique for Quantum Field Theory Calculations_, Acta Phys. Polon.B27:3965-4001, 1996 ([arXiv:hep-th/9610108](https://arxiv.org/abs/hep-th/9610108))
 
