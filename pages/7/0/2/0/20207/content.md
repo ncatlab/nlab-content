@@ -1,8 +1,8 @@
-[[!redirects David Myers]]
-
 
 
 * [personal webpage](http://davidjaz.com/)
+
+* [institute page](https://topos.institute/people/david-jaz-myers/) at Topos Institute
 
 * [old institute page](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/david-myers.html) at NYU Abu Dhabi
 
@@ -94,6 +94,7 @@ Exposition of [[homotopy type theory]]:
 
 category: people
 
+[[!redirects David Myers]]
 [[!redirects David J. Myers]]
 
 
