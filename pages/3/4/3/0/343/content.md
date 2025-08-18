@@ -102,6 +102,9 @@ The characterization of cartesian monoidal categories as [[symmetric monoidal ca
 
 * {#Fox76} [[Thomas Fox]], *Coalgebras and cartesian categories*, Communications in Algebra **4** 7 (1976) 665-667 ([doi:10.1080/00927877608822127](https://doi.org/10.1080/00927877608822127), [pdf](https://www.tandfonline.com/doi/pdf/10.1080/00927877608822127))
 
+A significantly more general characterization in the manner above appears in:
+
+* [[Nathanael Arkor]], *Magmal characterisations of cocartesian categories*, [arXiv:2508.11615](https://arxiv.org/abs/2508.11615)
 
 Discussion with an eye towards [[finite quantum mechanics in terms of dagger-compact categories]] is in
 
