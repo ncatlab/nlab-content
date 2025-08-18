@@ -90,9 +90,13 @@ In [[Cat]] the diagonal morphisms are [[diagonal functors]].
 * [[diagonal of a bisimplicial set]]
 
 
+[[!redirects diagonal morphisms]]
+
+[[!redirects diagonal map]]
+[[!redirects diagonal maps]]
+
 [[!redirects diagonal]]
 [[!redirects diagonals]]
 
 [[!redirects diagonal subobject]]
-[[!redirects diagonal morphisms]]
-
+[[!redirects diagonal subobjects]]
