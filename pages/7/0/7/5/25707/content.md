@@ -41,7 +41,8 @@ Further textbook accounts:
 
 * [[Mark A. Armstrong]]: *Basic Topology*, McGraw-Hill (1979), Undergraduate Texts in Mathematics, Spinger (1983) \[<a href="https://doi.org/10.1007/978-1-4757-1793-8">doi:10.1007/978-1-4757-1793-8</a>, <a href="https://math.mit.edu/~hrm/palestine/armstrong-basic-topology.pdf">pdf</a>\]
 
-* {#Engelking89} [[Ryszard Engelking]], *General Topology*, Sigma series in pure mathematics **6**, Heldermann 1989 ([ ISBN 388538-006-4](https://www.heldermann.de/SSPM/SSPM06/sspm06.htm))
+* {#Engelking89} [[Ryszard Engelking]]: *General Topology*, Sigma Series in Pure Mathematics **6**, Heldermann (1989) \[<a href="https://www.heldermann.de/SSPM/SSPM06/sspm06.htm">ISBN:388538-006-4</a>\]
+
 
 * {#Vickers89} [[Steven Vickers]], _Topology via Logic_, Cambridge University Press (1989) ([toc pdf](http://www.gbv.de/dms/ilmenau/toc/21309293X.PDF))
 
