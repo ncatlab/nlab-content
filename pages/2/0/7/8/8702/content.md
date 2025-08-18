@@ -259,9 +259,9 @@ This image is the _[[Cantor space]]_ as a subspace of the closed interval.
 
 =--
 
-###### Example
-
-A Cartesian product of countably many copies of the real closed interval $[0,1]$ (as a topological space) is the [[Hilbert cube]]. 
+\begin{example}
+A Cartesian product of countably many copies of the real [[closed interval]] $[0,1]$ (as a topological space) is the [[Hilbert cube]].
+\end{example} 
 
 ## Properties
 
