@@ -200,7 +200,7 @@ $$
 $$
 and so G is not unimodular.
 
-[[Abelian groups]] are obviously unimodular; so are [[compactum|compact]] groups and [[discrete topology|discrete]] groups.
+[[Abelian groups]] are obviously unimodular; so are [[compact Hausdorff space|compact]] groups and [[discrete topology|discrete]] groups.
 
 
 ## References
