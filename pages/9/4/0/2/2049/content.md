@@ -128,7 +128,7 @@ Besides the usual prefaces, bibliography, and indexes, there is a historical int
         7.  [[totally order-separated space]], [[ordered Stone space]]
         8.  \* $Ord Sto Top \cong Coh Top$
         9.  (none)
-3.  [[compactum|Compact Hausdorff spaces]]
+3.  [[compact Hausdorff space|Compact Hausdorff spaces]]
 
     1.  Compact regular locales
         1.  [[compact locale]], [[regular locale]], [[well inside containment]], [[zero-dimensional locale]]
