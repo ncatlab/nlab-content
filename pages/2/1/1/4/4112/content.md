@@ -209,12 +209,16 @@ First, every compact metric space $X$ is [[separable space|separable]]: has a [[
 
 $$y(x) = (d(x, x_n))_{n \in \mathbb{N}}$$ 
 
-(a type of restricted "[[Yoneda embedding]]", regarding [[metric spaces]] as [[enriched categories]]), is continuous and maps $X$ onto a [[closed subspace]] of $I^\mathbb{N}$. As mentioned at [Peano curve](https://ncatlab.org/nlab/show/Peano+curve#construction), there is a continuous surjection $C \to I^\mathbb{N}$. Taking the [[pullback]] in [[Top]] 
+(a type of restricted "[[Yoneda embedding]]", regarding [[metric spaces]] as [[enriched categories]]), is continuous and maps $X$ onto a [[closed subspace]] of $I^\mathbb{N}$. From [Peano curve](https://ncatlab.org/nlab/show/Peano+curve#construction), there is a continuous surjection $C \to I$ from Cantor space $C = 2^\mathbb{N}$, and there is a homeomorphism 
+
+$$C = 2^\mathbb{N} \cong 2^{\mathbb{N} \times \mathbb{N}} \cong (2^\mathbb{N})^\mathbb{N} \cong C^\mathbb{N};$$
+
+therefore there is a continuous surjection $C \to I^\mathbb{N}$. Taking the [[pullback]] in [[Top]] 
 
 $$\array{
 K & \hookrightarrow & C \\ 
 \mathllap{surj} \downarrow & & \downarrow \mathrlap{surj} \\ 
-X & \stackrel{y}{\hookrightarrow} & I^\mathbb{N}
+X & \stackrel{y}{\hookrightarrow} & I^\mathbb{N},
 }$$ 
 
 we see that to produce a continuous surjection $C \to X$, it suffices to exhibit a continuous surjection $C \to K$. 
