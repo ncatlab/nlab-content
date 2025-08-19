@@ -216,11 +216,11 @@ Referring to the pullback diagram in Remark \ref{oplax}, let $Q = R \times_Y S$ 
 
 $$\beta(R \times_Y S) \to \beta(R) \times_{\beta(Y)} \beta(S)$$ 
 
-is epic. Viewing this as a continuous map between compact Hausdorff spaces (see [this section](http://ncatlab.org/nlab/show/compactum#ultrafilters_form_a_compactum_23) of the article on [[compacta]]), it suffices to show that the canonical map 
+is epic. Viewing this as a continuous map between [compact Hausdorff spaces](compact Haudorff space#ultrafilters_form_a_compactum_23), it suffices to show that the canonical map 
 
 $$R \times_Y S \to \beta(R) \times_{\beta(Y)} \beta(S)$$ 
 
-has a dense image. Let $(G, H) \in \beta(R) \times_{\beta(Y)} \beta(S)$, so that $\beta(g)(G) = \beta(h)(H)$ are the same ultrafilter $J \in \beta(Y)$. Let $\hat{A}$ and $\hat{B}$ be [basic open neighborhoods](http://ncatlab.org/nlab/show/compactum#the_space_of_ultrafilters_19) of $G$ and $H$ in $\beta(R)$ and $\beta(S)$ respectively; we must show that there is $(r, s) \in R \times_Y S$ such that 
+has a dense image. Let $(G, H) \in \beta(R) \times_{\beta(Y)} \beta(S)$, so that $\beta(g)(G) = \beta(h)(H)$ are the same ultrafilter $J \in \beta(Y)$. Let $\hat{A}$ and $\hat{B}$ be [basic open neighborhoods](compact Hausdorff space#the_space_of_ultrafilters_19) of $G$ and $H$ in $\beta(R)$ and $\beta(S)$ respectively; we must show that there is $(r, s) \in R \times_Y S$ such that 
 
 $$(prin(r), prin(s)) \in \hat{A} \times \hat{B}$$ 
 
@@ -536,7 +536,7 @@ The category of topological spaces is equivalent (even isomorphic to) the catego
 
 As above, a [[subset]] $A$ of $S$ is __[[open subset|open]]__ if $A \in \mathcal{U}$ whenever $\mathcal{U} \to x \in A$.  On the other hand, by lemma \ref{closed}, $A$ is __[[closed subset|closed]]__ if $x \in A$ whenever $A \in \mathcal{U} \to x$.
 
-A relational $\beta$-module is __[[compact space|compact]]__ if every ultrafilter converges to at least one point.  It is __[[Hausdorff space|Hausdorff]]__ if every ultrafilter converges to at most one point.  Thus, a [[compact Hausdorff space]] ("[[compactum]]") is (assuming $UF$) precisely a relational $\beta$-module in which every [[ultrafilter]] converges to exactly one point, that is in which the action of the monad $\beta$ lives in $Set$ rather than in $Rel$. Full proofs may be found at [[compactum]]; see also [[ultrafilter monad]]. 
+A relational $\beta$-module is __[[compact space|compact]]__ if every ultrafilter converges to at least one point.  It is __[[Hausdorff space|Hausdorff]]__ if every ultrafilter converges to at most one point.  Thus, a [[compact Hausdorff space]] is (assuming $UF$) precisely a relational $\beta$-module in which every [[ultrafilter]] converges to exactly one point, that is in which the action of the monad $\beta$ lives in $Set$ rather than in $Rel$. Full proofs may be found at [[compact Hausdorff space]]; see also [[ultrafilter monad]]. 
 
 A continuous map $f$ from $(X, \xi: \beta X \to X)$ to $(Y, \theta: \beta Y \to Y)$ is [[proper map|proper]] if the square 
 
@@ -587,7 +587,7 @@ So ultrafilters behave very much like hyperpoints.  This is not to say that ultr
 
 ## Relation to other topological concepts
 
-If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras are the [[compacta]] (the compact Hausdorff spaces), again assuming $UP$; see [[ultrafilter monad]], and more especially [[compactum]]. 
+If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras are the compact Hausdorff spaces, again assuming $UP$; see [[ultrafilter monad]], and more especially [[compact Hausdorff space]]. 
 
 One might hope that there would be an analogous treatment of [[uniform spaces]] based on an [[equivalence relation]] between ultrafilters.  (In nonstandard analysis, this becomes a relation $\approx$ of infinite closeness between arbitrary hyperpoints, instead of only a relation between hyperpoints and standard points.)  The description in terms of generalized multicategories is known to generalize to a description of uniform spaces, but rather than using relations between ultrafilters, this description uses pro-relations between points. 
 
