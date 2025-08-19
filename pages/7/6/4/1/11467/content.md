@@ -33,6 +33,10 @@ Historically, this amplitude first arose in [[dual resonanace models]] and the r
 
 ## References
 
+History:
+
+* {#Veneziano12} [[Gabriele Veneziano]]: *Rise and fall of the hadronic string*, Section 2 in: [[Paolo Di Vecchia]] et al. (eds.), *The Birth of String Theory*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725.004](https://doi.org/10.1017/CBO9780511977725.004), lecture video:[15073](https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/15073)&rbrack;
+
 See also:
 
 * Wikipedia, *[Veneziano amplitude](https://en.m.wikipedia.org/wiki/Veneziano_amplitude)*
