@@ -41,7 +41,7 @@
  </tr>
  <tr>
   <th markdown="1">[[Radon monad]]</th>
-  <td markdown="1">[[compactum#category_of_compacta|Comp]]</td>
+  <td markdown="1">[[compact Hausdorff space#category_of_compacta|Comp]]</td>
   <td markdown="1">[[Radon measure|Radon probability measures]] (or [[continuous valuations]])</td>
   <td markdown="1"></td>
   <td markdown="1">[[compact]] [[convex subsets]] of [[locally convex topological vector spaces]]</td>
