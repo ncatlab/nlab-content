@@ -112,10 +112,12 @@ The terminology "cowriter comonad" is used for instance in:
 
   {#Uustalu21Lecture3} p. 21 of: *Monads and Interaction Lecture 3* &lbrack;[pdf](https://cs.ioc.ee/~tarmo/mgs21/mgs3.pdf), [[Uustalu-Monads3.pdf:file]]&rbrack;
 
+In [[Haskell]], the comonad $[A, -]$ for a monoid $A$ is called [Traced](https://hackage.haskell.org/package/comonad-5.0.9/docs/Control-Comonad-Traced.html), although there is also [an instance](https://hackage.haskell.org/package/comonad-5.0.9/docs/Control-Comonad.html) for the function type.
+
 [[!redirects cowriter comonads]]
 
 
-
+[[!redirects traced comonad]]
 
 
 
