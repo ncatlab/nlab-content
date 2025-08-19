@@ -1455,7 +1455,7 @@ The following is an (incomplete) list of available $n$Lab entries related to top
 * [[metric space]], [[filtered space]], [[connected filtered space]], [[complete space]], [[net]], [[Polish space]]
 * [[separation axioms]], [[Hausdorff space]], [[regular space]], [[normal space]]
 * [[noetherian topological space]], [[irreducible topological space]]
-* [[compact space]], [[locally compact space]], [[compactum]], [[paracompact space]]
+* [[compact space]], [[locally compact space]], [[compact Hausdorff space]], [[paracompact space]]
 * [[Frechet-Uryson space]], [[sequential space]], [[uniform space]]
 * [[convenient category of topological spaces]], [[compactly generated space]]
 * [[nice topological space]], [[nice category of spaces]]
