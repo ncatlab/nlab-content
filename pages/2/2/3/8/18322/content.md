@@ -27,21 +27,18 @@ In this article we collect some results on [[colimits]] of [[paracompact Hausdor
 
 The account is designed to be parallel to that given in [[colimits of normal spaces]], centering particularly on how paracompactness may be reformulated in terms of an extension or selection property. The relevant result, due to Ernest Michael, is particularly well-adapted to the study of colimits. 
 
-In the sequel we say "paracompacta" (singular: "paracompactum") for *[[paracompact Hausdorff spaces]]* (following the usage of "[[compacta]]" for [[compact Hausdorff spaces]]). 
-
-
 ## Basic results 
 
 +-- {: .num_prop #coproduct} 
 ###### Proposition 
-The [[coproduct]] in $Top$ of a small family of paracompacta is a paracompactum. 
+The [[coproduct]] in $Top$ of a small family of paracompact Hausdorff spaces is a paracompact Hausdorff space. 
 =-- 
 
 The proof is very easy. See [here](https://ncatlab.org/nlab/show/paracompact+topological+space#ParacompactnessPreservedByDisjointUnion). 
 
 +-- {: .num_prop} 
 ###### Proposition 
-A [[closed subspace]] $A$ of a paracompactum $X$ is also a paracompactum. 
+A [[closed subspace]] $A$ of a paracompact Hausdorff space $X$ is also a paracompact Hausdorff space. 
 =-- 
 
 +-- {: .proof} 
@@ -77,7 +74,7 @@ If moreover $i$ is an open inclusion, then for any open $U \subseteq C$ we have 
 
 (See also [[Michael's theorems]].)
 
-It is well-known (see [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity|here]]) that a $T_1$ space $X$ is a paracompactum iff every open cover of $X$ [admits a subordinate partition of unity](/nlab/show/paracompact+Hausdorff+spaces+equivalently+admit+subordinate+partitions+of+unity). Michael's innovation was in working out how the partition of unity characterization may be recast in terms of existence of continuous sections of suitable projection maps. 
+It is well-known (see [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity|here]]) that a $T_1$ space $X$ is a paracompact Hausdorff space if and only if every open cover of $X$ [admits a subordinate partition of unity](/nlab/show/paracompact+Hausdorff+spaces+equivalently+admit+subordinate+partitions+of+unity). Michael's innovation was in working out how the partition of unity characterization may be recast in terms of existence of continuous sections of suitable projection maps. 
 
 From here on out, all spaces will be assumed to be $T_1$ ([[singletons]] are [[closed subset|closed]]); see [[separation property]]. 
 
@@ -103,7 +100,7 @@ Let $B$ be a [[Banach space]] (for an example relevant to paracompactness concer
 +-- {: .num_theorem #Michael} 
 ###### Theorem 
 **(E. Michael's selection theorem)** 
-A $T_1$ space $X$ is a paracompactum iff the condition 
+A $T_1$ space $X$ is a paracompact Hausdorff space if and only if the condition 
 
 * for every [[Banach space]] $B$, every entire, lsc, closed and convex relation $(R, p, q)$ from $X$ to $B$ admits a selection 
 
@@ -158,13 +155,13 @@ so that the left side is an open neighborhood of $x$ contained within the right 
 Since hypothesis $\bullet$ holds for $X$, we conclude that $S$ admits a selection $\tau$; by construction of $S$ we must have that $\tau |_A = \sigma$, and this completes the proof. 
 =-- 
 
-## Applications to colimits of paracompacta 
+## Applications to colimits of paracompact Hausdorff spaces
 
-Now we put Michael's selection theorem to use in developing colimits of paracompacta. 
+Now we put Michael's selection theorem to use in developing colimits of paracompact Hausdorff spaces. 
 
 +-- {: .num_theorem #ClosedEmbeddingsOfParacompactaClosedUnderPushout} 
 ###### Theorem 
-If $X, Y, Z$ are paracompacta and $h: X \to Z$ is a closed embedding and $f: X \to Y$ is a continuous map, then in the pushout diagram in $Top$ 
+If $X, Y, Z$ are paracompact Hausdorff spaces and $h: X \to Z$ is a closed embedding and $f: X \to Y$ is a continuous map, then in the pushout diagram in $Top$ 
 
 $$\array{
 X & \stackrel{h}{\to} & Z \\ 
@@ -172,7 +169,7 @@ X & \stackrel{h}{\to} & Z \\
 Y & \underset{k}{\to} & W,
 }$$
 
-the space $W$ is a paracompactum (and $k: Y \to W$ is a closed embedding, by Lemma \ref{poclosed}). 
+the space $W$ is a paracompact Hausdorff space (and $k: Y \to W$ is a closed embedding, by Lemma \ref{poclosed}). 
 =-- 
 
 (Compare a similar result for normal spaces, [here](https://ncatlab.org/nlab/show/colimits+of+normal+spaces#attach).) 
@@ -200,7 +197,7 @@ may be pasted together (i.e., their respective composites with $f$ and $h$ agree
 
 +-- {: .num_prop #ColimitsOfSequencesOfParacompacta} 
 ###### Proposition 
-If $(i_n: X_n \to X_{n+1})_{n \in \mathbb{N}}$ is a countable sequence of closed embeddings between paracompacta, then the colimit $X = colim_n X_n$ is also a paracompactum. 
+If $(i_n: X_n \to X_{n+1})_{n \in \mathbb{N}}$ is a countable sequence of closed embeddings between paracompact Hausdorff spaces, then the colimit $X = colim_n X_n$ is also a paracompact Hausdorff space. 
 =-- 
 
 +-- {: .proof} 
