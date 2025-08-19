@@ -1,9 +1,9 @@
 
 Strong homology theory is a homology theory of topological spaces which in addition to satisfying Eilenberg-Steenrod axioms is an invariant of [[strong shape]]. It has been developed in a series of papers by Lisica and Marde&#353;i&#263;.
 
-Unlike [[Čech cohomology]], [[Čech homology]] is not a homology theory in the sense of Eilenberg-Steenrod: the exactness axiom (long exact sequence in homology) does not hold. A correction to the basic &#268;ech definition was given by [[Sibe Mardešić]]. The resulting "strong homology theory" agrees with [[singular homology]] on the spaces having homotopy type of [[CW complexes]], and does give long exact sequence of pairs $(X,A)$ where $X$ is paracompact and $A$ closed in $X$; moreover for metric compacta it satisfies not only all the axioms of Eilenberg-Steenrod, but also the relative homeomorphism axiom and the [[wedge axiom]] ("additivity"). However this axiom is not satisfied for general spaces; the counterexamples have been found by Prasolov and Marde&#353;i&#263;. 
+Unlike [[Čech cohomology]], [[Čech homology]] is not a homology theory in the sense of Eilenberg-Steenrod: the exactness axiom (long exact sequence in homology) does not hold. A correction to the basic &#268;ech definition was given by [[Sibe Mardešić]]. The resulting "strong homology theory" agrees with [[singular homology]] on the spaces having homotopy type of [[CW complexes]], and does give long exact sequence of pairs $(X,A)$ where $X$ is paracompact and $A$ closed in $X$; moreover for [[compact metrizable spaces]] it satisfies not only all the axioms of Eilenberg-Steenrod, but also the relative homeomorphism axiom and the [[wedge axiom]] ("additivity"). However this axiom is not satisfied for general spaces; the counterexamples have been found by Prasolov and Marde&#353;i&#263;. 
 
-The only homology theory on the metric compacta satisfying not only the Eilenberg-Steenrod but also the wedge axiom is the [[Steenrod-Sitnikov homology]] theory, hence the strong homology agrees with it. 
+The only homology theory on the [[compact metrizable spaces]] satisfying not only the Eilenberg-Steenrod but also the wedge axiom is the [[Steenrod-Sitnikov homology]] theory, hence the strong homology agrees with it. 
 
 ###References###
 
