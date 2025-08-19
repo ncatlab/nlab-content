@@ -24,15 +24,15 @@ Two fundamental sequences,  $\underline{f},\underline{f}^\prime : X\to Y$, are s
 
 The morphisms of $Shape_B$  and taken to be the homotopy classes of fundamental sequences between the corresponding spaces.
 
-Two compacta contained in $s$ are said to have the _same shape_ if they are isomorphic in $Shape_B$.  As an example, the [[Warsaw circle]] has the same shape as the circle.
+Two compact subsets of $s$ are said to have the _same shape_ if they are isomorphic in $Shape_B$.  As an example, the [[Warsaw circle]] has the same shape as the circle.
 
 ##Chapman complement theorem##
 +--{.un_theorem}
 ######Theorem (Chapman, 1972)
-If $X$ and $Y$ are compacta in $s$, then $X$ and $Y$ have the same shape if and only if their complements $Q\setminus X$ and $Q\setminus Y$ are homeomorphic.
+If $X$ and $Y$ are compact subsets of $s$, then $X$ and $Y$ have the same shape if and only if their complements $Q\setminus X$ and $Q\setminus Y$ are homeomorphic.
 =--
 
-Chapman extended the association $X$ 'goes to' $Q\setminus X$ to a functor from the Borsuk shape category to the weak [[proper homotopy theory|proper homotopy]] category of complements in $Q$ of compacta.  This was the basis for Edwards-Hastings formulation of [[strong shape theory]], on replacing the weak form of proper homotopy by a strong form. 
+Chapman extended the association $X$ 'goes to' $Q\setminus X$ to a functor from the Borsuk shape category to the weak [[proper homotopy theory|proper homotopy]] category of complements in $Q$ of compact subsets.  This was the basis for Edwards-Hastings formulation of [[strong shape theory]], on replacing the weak form of proper homotopy by a strong form. 
 
 ## Related concepts
 
