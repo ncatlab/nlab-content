@@ -108,8 +108,8 @@ See also [[correspondence between measure and valuation theory]].
 
 If one restricts the measure monad above to the $\tau$-smooth _probability_ measures (i.e. normalized), one obtains again a submonad, which seems to be the most general [[probability monad]] on [[Top]]. 
 
-If a topological space is [[Tychonoff space|Tychonoff]] (for example a [[metric space]] or a [[compactum|compact Hausdorff space]]), the A-topology for probability measures coincides with the usual [[weak topology]] of measures with respect to continuous functions. 
-In particular, on the [[subcategory]] of [[compactum|compact Hausdorff spaces]], this monad restricts to the [[Radon monad]]. 
+If a topological space is [[Tychonoff space|Tychonoff]] (for example a [[metric space]] or a [[compact Hausdorff space]]), the A-topology for probability measures coincides with the usual [[weak topology]] of measures with respect to continuous functions. 
+In particular, on the [[subcategory]] of [[compact Hausdorff spaces]], this monad restricts to the [[Radon monad]]. 
 
 ### The monad of topological cones
 
