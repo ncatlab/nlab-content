@@ -15,7 +15,7 @@
 
 ## Idea
 
-A _Tychonoff space_ is a [[subspace]] of a [[compact Hausdorff space]] ("[[compactum]]").  By default, one usually means a Tychonoff [[topological space]], although there exist (even [[classical mathematics|classically]]) additional Tychonoff [[locales]].
+A _Tychonoff space_ is a [[subspace]] of a [[compact Hausdorff space]].  By default, one usually means a Tychonoff [[topological space]], although there exist (even [[classical mathematics|classically]]) additional Tychonoff [[locales]].
 
 
 ## Definitions
