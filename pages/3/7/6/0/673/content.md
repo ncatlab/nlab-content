@@ -24,11 +24,11 @@ If you need it, here is my email:  droberts.(fifth and largest-known [[Fermat pr
 
 * _Classifying bi-invariant 2-forms on infinite-dimensional Lie groups_ (2023) arXiv:[2311.03913](https://arxiv.org/abs/2311.03913). (submitted for publication)
 
-* _Rigid models for 2-gerbes I: Chern-Simons geometry_ (2022) arXiv:[2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. (submitted for publication)
-
-
 
 ### Papers
+
+* _Rigid models for 2-gerbes I: Chern-Simons geometry_ (2022) arXiv:[2209.05521](https://arxiv.org/abs/2209.05521). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. (accepted for publication in [Journal of Homotopy and Related Structures](https://link.springer.com/journal/40062))
+
 
 * _Homotopy types of topological stacks of categories_, [New York Journal of Mathematics](https://nyjm.albany.edu/), Volume 30 (2024), 940-955, [journal version](https://nyjm.albany.edu/j/2024/30-41.html), arXiv:[2204.02778](https://arxiv.org/abs/2204.02778) (this paper was written when I was a PhD student, in 2008/09, but only polished and released on the arXiv in 2022). 
 
