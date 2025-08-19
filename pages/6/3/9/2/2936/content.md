@@ -194,7 +194,7 @@ For another proof, see theorem 3.1.1 of [Berberian](#Ber).
 
 * For a metric space $X$, let $K(X)$ be the set of nonempty [[compact space|compact]] subsets of $X$, equipped with the [[Hausdorff metric]]. If $X$ is a separable complete metric space, then so is $K(X)$. 
 
-* A [[local compactum|locally compact Hausdorff space]] is Polish iff it is second-countable. 
+* A [[locally compact Hausdorff space]] is Polish iff it is second-countable. 
  
 * If $X$ is Polish, then the space $P(X)$ of Borel probability measures $\mu$ equipped with the Prokhorov metric is also Polish. Definitions: for $x \in X$ and $A \subset X$ nonempty, put $d(x, A) = \inf \{d(x, a): a \in A\}$, and for $\alpha \gt 0$ define $A_\alpha = \{x \in X: d(x, A) \lt \alpha\}$ and $\emptyset_\alpha = \emptyset$. Define the *Prokhorov metric* $d_P$ by 
 $$d_P(\mu, \nu) = \inf \{\alpha \gt 0: \forall_{Borel\; A} \mu(A) \lt \nu(A_\alpha) + \alpha \; and \; \nu(A) \lt \mu(A_\alpha) + \alpha\}.$$ 
