@@ -449,7 +449,7 @@ After writing this up we learned of the following set of slides, where very simi
 
 Precursor discussion of the theorem published as [Okuyama 2005](#Okuyama05):
 
-* [[Shingo Okuyama]]: *The Space of Intervals and an Approximation to $\Omega^n \Sigma^n X$* (2003) &lbrack;[pdf](https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/43499/1/1343_07.pdf), [[Okuyama-Outline.pdf:file]]&rbrack;
+* [[Shingo Okuyama]]: *The Space of Intervals and an Approximation to $\Omega^n \Sigma^n X$* (2003) &lbrack;[pdf](https://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/1343-7.pdf), [[Okuyama-Outline.pdf:file]]&rbrack;
 
 * {#Okuyama04} [[Shingo Okuyama]]: *A simple solution for a group completion problem*, Trends in Mathematics **7** 1 (2004) 69-74 &lbrack;[pdf](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9cdd95b10437b020b32e911934215eb398fbc411), [[Okuyama-GroupCompletion.pdf:file]]&rbrack;
 
