@@ -369,7 +369,7 @@ In the category of $T_0$ spaces (see [[separation axiom]]), the injective object
 
 In the above two cases, this refers to injectivity with respect to monomorphisms.
 
-In the category of $T_0$ spaces, the injective objects with respect to homeomorphic embeddings are precisely those given by [[Scott topologies]] on [[continuous lattices]]; as [[locales]] these are [[local compactum|locally compact]] and [[spatial locale|spatial]]. (Such spaces are usually called, perhaps confusingly, *injective spaces*.) 
+In the category of $T_0$ spaces, the injective objects with respect to homeomorphic embeddings are precisely those given by [[Scott topologies]] on [[continuous lattices]]; as [[locales]] these are [[locally compact space|locally compact]] and [[spatial locale|spatial]]. (Such spaces are usually called, perhaps confusingly, *injective spaces*.) 
 
 In the category of all spaces, the injectives with respect to homeomorphic embeddings (i.e., [[regular monomorphisms]]) are the spaces whose $T_0$ reflections are continuous lattices under the Scott topology.
 
