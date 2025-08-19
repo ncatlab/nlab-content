@@ -3942,7 +3942,7 @@ We see below that both the [[Wess-Zumino-Witten theory]] as well as [[Wilson lin
 
 ## References
 
-For intorduction and survey see
+For introduction and survey see
 
 * [[Urs Schreiber]], _[[schreiber:Higher Prequantum Geometry]]_
 
