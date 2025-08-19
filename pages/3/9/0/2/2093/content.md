@@ -27,7 +27,7 @@ The _Gelfand spectrum_ (originally &#1043;&#1077;&#1083;&#1100;&#1092;&#1072;&#1
 +-- {: .num_defn}
 ###### Definition
 
-Given a unital, not necessarily [[commutative C*-algebra|commutative]], complex [[C*-algebra]] $A$, the set of its _[[characters]]_, that is: continuous nonzero linear [[homomorphisms]] into the [[field]] of [[complex numbers]], is canonically equipped with what is called the __spectral topology__ which is [[compactum|compact Hausdorff]]. (If applied to a nonunital $C^*$-algebra, then it is only [[locally compact space|locally compact]].) This correspondence extends to a [[functor]], called the __Gel'fand spectrum__  from the [[category]] [[C*Alg]] of unital $C^*$-algebras to the category of [[Hausdorff topological spaces]].
+Given a unital, not necessarily [[commutative C*-algebra|commutative]], complex [[C*-algebra]] $A$, the set of its _[[characters]]_, that is: continuous nonzero linear [[homomorphisms]] into the [[field]] of [[complex numbers]], is canonically equipped with what is called the __spectral topology__ which is [[compact Hausdorff space|compact Hausdorff]]. (If applied to a nonunital $C^*$-algebra, then it is only [[locally compact space|locally compact]].) This correspondence extends to a [[functor]], called the __Gel'fand spectrum__  from the [[category]] [[C*Alg]] of unital $C^*$-algebras to the category of [[Hausdorff topological spaces]].
 
 =--
 
