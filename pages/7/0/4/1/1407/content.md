@@ -585,11 +585,9 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
 * {#Schwarz07} [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ &lbrack;[arXiv:0708.1917](http://arxiv.org/abs/0708.1917)&rbrack;, 
 
   published as *Gravity, unification, and the superstring*, Section 3 in: [[Paolo Di Vecchia]] et al. (eds.) *The birth of string theory*, Cambridge University Press (2012) 37- &lbrack;[doi:10.1017/CBO9780511977725.005](https://doi.org/10.1017/CBO9780511977725.005)&rbrack;
-
   > (on the early history of [[string theory]] up to the "first superstring revolution", the construction of the [[Green-Schwarz anomaly cancellation|Green-Schwarz-anomaly]]-free $SO(32)$ [[type I string theory]] and [[heterotic string]])
 
-* {#Veneziano12} [[Gabriele Veneziano]], *Rise and fall of the hadronic string*, Section 2 in: [[Paolo Di Vecchia]] et al. (eds.), *The Birth of String Theory* (2012) &lbrack;[doi:10.1017/CBO9780511977725.004](https://doi.org/10.1017/CBO9780511977725.004), lecture video:[15073](https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/15073)&rbrack;
-
+* {#Veneziano12} [[Gabriele Veneziano]], *Rise and fall of the hadronic string*, Section 2 in: [[Paolo Di Vecchia]] et al. (eds.), *The Birth of String Theory*, Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725.004](https://doi.org/10.1017/CBO9780511977725.004), lecture video:[15073](https://lecture2go.uni-hamburg.de/en/l2go/-/get/v/15073)&rbrack;
 
 * [[Paolo Di Vecchia]], *The birth of string theory* &lbrack;[arXiv:0704.0101](https://arxiv.org/abs/0704.0101)&rbrack;
   
