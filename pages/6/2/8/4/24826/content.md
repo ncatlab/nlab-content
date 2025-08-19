@@ -41,16 +41,16 @@ On [[category theory]] (and [[higher category theory]]) for the conceptualizatio
 
 * {#CGHR22} [[Matteo Capucci]], [[Bruno Gavranović]], [[Jules Hedges]], [[Eigil F. Rischel]], *Towards Foundations of Categorical Cybernetics*, EPTCS **372** (2022) 235-248 &lbrack;[arXiv:2105.06332](https://arxiv.org/abs/2105.06332), [doi:10.4204/EPTCS.372.17](https://doi.org/10.4204/EPTCS.372.17)&rbrack;
 
+* [[Sophie Libkind]], [[David Jaz Myers]]: *Towards a double operadic theory of systems* &lbrack;[arXiv:2505.18329](https://arxiv.org/abs/2505.18329)&rbrack;
+
 
 Monographs:
 
 * {#SpivakNiu} [[David Spivak]], [[Nelson Niu]], _Polynomial Functors: A General Theory of Interaction_ &lbrack;[webpage](https://topos.site/poly-course/), [pdf](https://topos.site/poly-book.pdf)&rbrack;
-
   > (via [[polynomial functors]])
 
 
 * {#MyersBook} [[David Jaz Myers]], *Categorical systems theory*, book project &lbrack;[github](https://github.com/DavidJaz/DynamicalSystemsBook/tree/master/book), [pdf](http://davidjaz.com/Papers/DynamicalBook.pdf)&rbrack;
-
   > (via [[virtual double categories]])
 
 Exposition:
