@@ -78,7 +78,7 @@ A [[semi-ring]] **homomorphism** is a function between semi-rings that is a homo
 
 More generally, a **homomorphism** between sets equipped with any algebraic structure is a map preserving this structure.  This can be made precise using [[Lawvere theories]], [[monads]], etc.  
 
-Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[morphism]]' in any [[category]], although there is a strong tendency to use 'homomorphism' in the case of 'algebraic' categories: for example, nobody seems to speak of a homomorphism between [[topological space]]s ([[continuous map]]s), or between [[manifold]]s.  Here we put 'algebraic' in scare quotes to indicate the *field* of [[algebra]]; even morphisms in [[algebraic categories]] from other fields (such as the category of [[compacta]]) are not usually called homomorphisms.
+Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[morphism]]' in any [[category]], although there is a strong tendency to use 'homomorphism' in the case of 'algebraic' categories: for example, nobody seems to speak of a homomorphism between [[topological space]]s ([[continuous map]]s), or between [[manifold]]s.  Here we put 'algebraic' in scare quotes to indicate the *field* of [[algebra]]; even morphisms in [[algebraic categories]] from other fields (such as the category of [[compact Hausdorff spaces]]) are not usually called homomorphisms.
 
 ## Examples
 
