@@ -47,7 +47,7 @@ More generally, let $S$ and $T$ be sets and let $R(a, b, t)$ be a ternary relati
 $$ \forall t,\; \exists N,\; \forall i, j \geq N,\; R(x_i, x_j, t) .$$
 
 In a [[Cauchy space]], a sequence $(x_i)_i$ is __Cauchy__ if it generates a [[Cauchy filter]].  Explicitly:
-$$ \{ A \;|\; \exists N,\; \forall i, j \geq N,\; x_i \in A \} \in \mathcal{C} ,$$
+$$ \{ A \;|\; \exists N,\; \forall i \geq N,\; x_i \in A \} \in \mathcal{C} ,$$
 where $\mathcal{C}$ is the collection of [[Cauchy filters]] that defines the structure of the Cauchy space.
 
 All of the above are in fact special cases of this.
