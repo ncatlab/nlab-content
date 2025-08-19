@@ -31,7 +31,7 @@ A direct and short proof was later given in [Rudin 1968](#Rudin68).
 
 ## Related statements
 
-* [[paracompactum]]
+* [[paracompact topological space]]
 
 * [[paracompact Hausdorff spaces are normal]]
 
