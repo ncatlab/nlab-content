@@ -26,7 +26,7 @@ A __compact metrizable space__ is a [[metrizable topological space]] that is als
 \linebreak
 Compact metrizable spaces are also called *[[compacta]]* (singular: *compactum*).
 
-But be warned that this is ambiguous, as “compacta” is also used to refer to [[compact Hausdorff spaces]]. This latter usage is not as wide-spread but has been adopted in many nLab articles.
+But be warned that this is ambiguous, as “compacta” is also used to refer to [[compact Hausdorff spaces]]. This latter usage is not as wide-spread.
 \end{remark}
 
 
