@@ -21,7 +21,7 @@ or more generally to
 
 * [[compact Hausdorff spaces]]. 
 
-The first usage is more common in the literature, but the second is currently more common on the nLab.
+The first usage is more common in the literature.
 
 A special case of compact Hausdorff spaces are
 
