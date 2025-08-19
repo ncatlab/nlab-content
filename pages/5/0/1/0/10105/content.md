@@ -21,7 +21,7 @@
 
 ## Idea
 
-A compact closed 2-category (also called an *autonomous* symmetric monoidal 2-category) is the (weak) [[2-category]]-analog of the notion of _[[compact closed category]]_.  That is, it is a [[symmetric monoidal 2-category]] in which all objects have [[dual object|duals]].
+A compact closed 2-category (also called an *autonomous* symmetric monoidal 2-category) is the (weak) [[2-category]]-analog of the notion of a _[[compact closed category]]_.  That is, it is a [[symmetric monoidal 2-category]] in which all objects have [[dual object|duals]].
 
 ## Examples
 
@@ -31,7 +31,7 @@ A compact closed 2-category (also called an *autonomous* symmetric monoidal 2-ca
 
 ## Internalization
 
-In line with the [[microcosm principle]], internal to a compact closed 2-category one can define a notion of *compact closed [[bicategory of maps|map]] [[pseudomonoid]]*, which specializes in $V Prof$ (at least in the [[Cauchy complete category|Cauchy complete]] case) to the usual notion of [[compact closed category|compact closed]] $V$-category.  ([Day-Street](#DayStreet))  To deal with non-Cauchy complete categories, one can instead talk about compact closed [[proarrow equipments]].
+In line with the [[microcosm principle]], internal to a compact closed 2-category one can define a notion of a *compact closed [[bicategory of maps|map]] [[pseudomonoid]]*, which specializes in $V Prof$ (at least in the [[Cauchy complete category|Cauchy complete]] case) to the usual notion of [[compact closed category|compact closed]] $V$-category.  ([Day-Street](#DayStreet))  To deal with non-Cauchy complete categories, one can instead talk about compact closed [[proarrow equipments]].
 
 ## Related concepts
 
