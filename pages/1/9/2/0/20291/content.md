@@ -36,6 +36,3 @@ A [[topological space]] is metacompact if every [[countable set|countable]] [[op
 [[!redirects metacompact topological spaces]]
 [[!redirects Metacompact topological space]]
 [[!redirects Metacompact topological spaces]]
-[[!redirects metacompactum]]
-[[!redirects metacompactums]]
-[[!redirects metacompacta]]
