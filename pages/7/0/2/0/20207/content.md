@@ -27,6 +27,8 @@ On [[dynamical systems]] and their [[categorical systems theory]]:
 
 * [[David Jaz Myers]], *Double Categories of Dynamical Systems* (2020) &lbrack;[pdf](http://davidjaz.com/Talks/DJM_Dyn2020.pdf)&rbrack;
 
+* [[Sophie Libkind]], [[David Jaz Myers]], *Towards a double operadic theory of systems* ([arXiv:2505.18329](https://arxiv.org/abs/2505.18329))
+
 * [[David Jaz Myers]], *A general definition of open dynamical systems*, talk at *MIT Category Theory Seminar* (2020) &lbrack;video:[YT](https://youtu.be/8T-Km3taNko)&rbrack;
 
 
@@ -36,7 +38,7 @@ On [[logical topology]] in the context of [[cohesive toposes]], [[modal type the
 
 On [[modal type theory]] and [[cohesive homotopy type theory]]
 
-* [[David Jaz Myers]], _Good Fibrations through the Modal Prism_ ([arXiv:1908.08034v2](https://arxiv.org/abs/1908.08034v2))
+* [[David Jaz Myers]], _Good Fibrations through the Modal Prism_ ([arXiv:1908.08034](https://arxiv.org/abs/1908.08034))
 
 Formalization of the [[shape modality|shape]]/[[flat modality|flat]]-[[fracture square]] ([[differential cohomology hexagon]]) in [[cohesive homotopy type theory|cohesive]] [[modal homotopy type theory|modal homotopy type theory]] [[homotopy type theory]]: 
 
