@@ -32,7 +32,7 @@ $$
   }
 $$
 
-there exists a [[lift]], hence a morphism $N \overset{\phi}{\to} A$ making a [[commuting diagram]] of the form
+where the vertical morphism is an [[epimorphism]], there exists a [[lift]], hence a morphism $N \overset{\phi}{\to} A$ making a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -66,7 +66,7 @@ $$
 
 The hom-functor in question is a [[left exact functor]] for all $N$, hence we need to show that it is a [[right exact functor]] precisely if $N$ is projective.
 
-That $Hom_R(N,-)$ is right exact means equivalently that for
+That $Hom_R(N,-)$ is right exact means equivalently that if
 
 $$
   0 
@@ -78,11 +78,11 @@ $$
   C 
     \to 
   0
-  \,,
+  \,
 $$
 
-any [[short exact sequence]],
-hence for $p$ any [[epimorphism]] and $i$ its [[kernel]] inclusion,  then $Hom_R(N,p)$ is an epimorphism, hence that for any element $f \in Hom_R(N,C)$, 
+is any [[short exact sequence]],
+hence if $p$ is any [[epimorphism]] and $i$ its [[kernel]] inclusion, then $Hom_R(N,p)$ is an epimorphism, hence that for any element $f \in Hom_R(N,C)$, 
 
 $$
   \array{
@@ -94,7 +94,7 @@ $$
   }
 $$
 
-there exists $\phi \colon N \to B$ such that $f =  Hom_R(N,p)(\phi) \coloneqq p \circ \phi$, hence that 
+there exists a $\phi \colon N \to B$ such that $f =  Hom_R(N,p)(\phi) \coloneqq p \circ \phi$, hence that 
 
 
 $$
@@ -131,7 +131,7 @@ a [[free module]] $N \simeq R^{(S)}$ is projective.
 
 Explicitly: if $S \in Set$ and $F(S) = R^{(S)}$ is the [[free module]] on $S$, then a module homomorphism $F(S) \to N$ is specified equivalently by a [[function]] $f : S \to U(N)$ from $S$ to the underlying set of $N$, which can be thought of as specifying the images of the unit elements in $R^{(S)} \simeq \oplus_{s \in S} R$ of the ${\vert S\vert}$ copies of $R$.
 
-Accordingly then for $\tilde N \to N$ an epimorphism, the underlying function $U(\tilde N) \to U(N)$ is an epimorphism, and the [[axiom of choice]] in [[Set]] says that we have all lifts $\tilde f$ in
+Accordingly, for $\tilde N \to N$ an epimorphism, the underlying function $U(\tilde N) \to U(N)$ is an epimorphism, and the [[axiom of choice]] in [[Set]] says that we have all lifts $\tilde f$ in
 
 $$
   \array{
@@ -194,7 +194,7 @@ as [[direct sum|direct summands]] of [[free modules]].
 +-- {: .num_lemma #DirectSummandOfFreeIsProjective}
 ###### Lemma
 
-If $N \in R Mod$ is a [[direct sum|direct summand]] of a [[free module]], hence if there is $N' \in R Mod$ and $S \in Set$ such that 
+If $N \in R Mod$ is a [[direct sum|direct summand]] of a [[free module]], hence if there is an $N' \in R Mod$ and $S \in Set$ such that 
 
 $$
   R^{(S)} \simeq N \oplus N'
@@ -208,7 +208,7 @@ then $N$ is a projective module.
 +-- {: .proof}
 ###### Proof 
 
-Let $\tilde K \to K$ be a surjective homomorphism of modules and 
+Let $\tilde K \to K$ be a surjective homomorphism of modules (which is equivalently an epimorphism in the category of modules) and 
 $f : N \to K$ a homomorphism. We need to show that there is a lift $\tilde f$ in
 
 $$
@@ -222,7 +222,7 @@ $$
   \,.
 $$
 
-By definition of [[direct sum]] we can factor the [[identity]] on $N$ as
+By the definition of the [[direct sum]], we can factor the [[identity]] on $N$ as
 
 $$
   id_N : N \to N \oplus N' \to N
@@ -249,14 +249,14 @@ Hence $\tilde f : N \to N \oplus N' \stackrel{\hat f}{\to} \tilde K$ is a lift o
 +-- {: .num_prop #ProjectiveIsPreciselyDirectSummandOfFreeModule}
 ###### Proposition
 
-An $R$-module $N$ is projective precisely if it is the [[direct summand]] of a [[free module]]. 
+An $R$-module $N$ is projective precisely if it is a [[direct summand]] of a [[free module]]. 
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{DirectSummandOfFreeIsProjective} if $N$ is a direct summand then it is projective. So we need to show the converse.
+By lemma \ref{DirectSummandOfFreeIsProjective}, if $N$ is a direct summand, then it is projective. So we need to show the converse.
 
 Let $F(U(N))$ be the [[free module]] on the [[set]] $U(N)$ underlying $N$ as in the proof of prop. \ref{FreeForgetfulCounitEpimorphism}. The [[counit of an adjunction|counit]] 
 
@@ -264,13 +264,13 @@ $$
   \epsilon : F(U(N)) \to N
 $$
 
-of the [[free functor|free]]/[[forgetful functor|forgetful]]-[[adjunction]] $(F \dashv U)$ is an [[epimorphism]]. Thefore if $N$ is projective, there is a [[section]] $s$ of $\epsilon$. This exhibits $N$ as a direct summand of $F(U(N))$.
+of the [[free functor|free]]/[[forgetful functor|forgetful]]-[[adjunction]] $(F \dashv U)$ is an [[epimorphism]]. Therefore, if $N$ is projective, there is a [[section]] $s$ of $\epsilon$. This exhibits $N$ as a direct summand of $F(U(N))$.
 
 =--
 
 This proposition is often stated more explicitly as the existence of a [[dual basis]], see there. 
 
-In some cases this can be further strengthened:
+In some cases, this can be further strengthened:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -286,11 +286,11 @@ The details are discussed at _[pid - Structure theory of modules](http://ncatlab
 
 For an $R$-module $P$, the following statements are equivalent:
 
-1. $P$ is finite locally free in that there exists a partition $1 = \sum_i f_i \in R$ such that the localized modules $P[f_i^{-1}]$ are finite free modules over $R[f_i^{-1}]$.
+1. $P$ is finite locally free, in that there exists a partition $1 = \sum_i f_i \in R$ such that the localized modules $P[f_i^{-1}]$ are finitely generated free modules over $R[f_i^{-1}]$.
 
 1. $P$ is finitely generated and projective.
 
-1. $P$ is a [[dualizable object]] in the category of $R$-[[modules]] (equipped with the tensor product as monoidal structure).
+1. $P$ is a [[dualizable object]] in the category of $R$-[[modules]] (equipped with the tensor product as its monoidal structure).
 
 1. There exist elements $x_1,\ldots,x_n \in P$ and linear forms $\vartheta_1,\ldots,\vartheta_n \in Hom(P,R)$ such that $x = \sum_i \vartheta_i(x) x_i$ for all $x \in P$.
 
@@ -309,7 +309,7 @@ The equivalence of 2., 3., and 4. is mostly formal. For the equivalence with 1.,
 +-- {: .num_defn}
 ###### Definition
 
-For $N \in R Mod$ a **[[projective resolution]]** of $N$ is a [[chain complex]] $(Q N)_\bullet \in Ch_\bullet(R Mod)$ equipped with a [[chain map]]
+For $N \in R Mod$, a **[[projective resolution]]** of $N$ is a [[chain complex]] $(Q N)_\bullet \in Ch_\bullet(R Mod)$ equipped with a [[chain map]]
 
 $$
   Q N \to N
@@ -331,7 +331,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This means precisely that $Q N \to N$ is an [[cofibrant resolution]] with respect to the standard [[model structure on chain complexes]] (see [here](model%20structure%20on%20chain%20complexes#StandardQuillenOnBounded)) for which the fibrations are the positive-degreewise epimorphisms. Notice that in this model structure every object is fibrant, so that cofibrant resolutions are the only resolutions that need to be considered.
+This means precisely that $Q N \to N$ is a [[cofibrant resolution]] with respect to the standard [[model structure on chain complexes]] (see [here](model%20structure%20on%20chain%20complexes#StandardQuillenOnBounded)) for which the fibrations are the positive-degreewise epimorphisms. Notice that, in this model structure, every object is fibrant, so cofibrant resolutions are the only resolutions that need to be considered.
 
 =--
 
@@ -342,7 +342,7 @@ Every $R$-module has a projective resolution.
 
 =--
 
-See at _[[projective resolution]]_.
+See _[[projective resolution]]_.
 
 
 ## Examples
@@ -350,7 +350,7 @@ See at _[[projective resolution]]_.
 +-- {: .num_prop #ModuleOverAFieldIsProjective}
 ###### Proposition
 
-Assuming the [[axiom of choice]], then by the [[basis theorem]] every module over a [[field]] is a [[free module]] and hence in particular every module over a field is a projective module (by prop. \ref{DirectSummandOfFreeIsProjective}).
+Assuming the [[axiom of choice]], by the [[basis theorem]] every module over a [[field]] is a [[free module]], and hence, in particular, every module over a field is a projective module (by prop. \ref{DirectSummandOfFreeIsProjective}).
 
 =--
 
@@ -359,7 +359,7 @@ Assuming the [[axiom of choice]], then by the [[basis theorem]] every module ove
 ###### Proposition
 
 
-If $R$ is the [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division ring]], then every projective $R$-module is already a free $R$-module.
+If $R$ is the ring of [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division ring]], then every projective $R$-module is a free $R$-module.
 
 =--
 
