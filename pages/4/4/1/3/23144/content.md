@@ -1,4 +1,4 @@
-Thomas Fox is a [[category theory|category theorist]] who pioneered [[category theory|category theoretic]] methods in [[deformation theory]].
+Thomas Fox (1947-2021) was a [[category theory|category theorist]] who pioneered [[category theory|category theoretic]] methods in [[deformation theory]].
 
 * [personal page](https://www.math.mcgill.ca/fox/index.html)
 
