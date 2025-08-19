@@ -1,5 +1,3 @@
-[[!redirects compactum]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -24,7 +22,7 @@ One may consider the analogous condition for [[convergence spaces]], or for [[lo
 
 \begin{remark}\label{Terminology}
 **(Terminology)** \linebreak
-In the literature, the term “[[compactum]]” is sometimes used as a synonym for “compact Hausdorff space”, and one finds this shortening appearing in various nLab articles. Be warned however that “compactum” is also frequently used to refer to “[[compact metrizable spaces]]”.  
+In the literature, the term “[[compactum]]” is sometimes used as a synonym for “compact Hausdorff space”. Be warned however that “compactum” is also frequently used to refer to “[[compact metrizable spaces]]”.  
 \end{remark}
 
 
