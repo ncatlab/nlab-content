@@ -16,7 +16,7 @@ Furthermore, the category $C$ is said to be **filtral** if each of its objects i
 
 ## Examples
 
-* The category of [[compacta]] 
+* The category of [[compact Hausdorff spaces]] 
 
 (Presumably because free compact Hausdorff spaces $\beta X$ are filtral.) 
 
