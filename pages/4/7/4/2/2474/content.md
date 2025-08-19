@@ -181,7 +181,7 @@ The [[Gelfand-Naimark-Segal construction]] ([[GNS construction]]) establishes a 
 
 ### Gelfand duality
 
-[[Gelfand duality]] says that every ([[unital algebra|unital]]) _[[commutative C-star-algebra|commutative]]_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compactum|compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* CAlg \simeq $ [[Top]]${}_{cpt}$.
+[[Gelfand duality]] says that every ([[unital algebra|unital]]) _[[commutative C-star-algebra|commutative]]_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* CAlg \simeq $ [[Top]]${}_{cpt}$.
 
 Accordingly one may think of the study of non-commutative $C^\ast$-algebras as _[[non-commutative topology]]_.
 
