@@ -182,7 +182,7 @@ This result is sometimes called **[[Brouwer]]'s theorem**. It can be seen from t
 +-- {: .num_cor #CorA} 
 ###### Corollary 
 
-The  [[one-point compactification]] $\widebar{X}$ of a space $X$ that is [[second-countable space|second-countable]] [[local compactum|locally compact]] [[Hausdorff topological space|Hausdorff]], [[totally disconnected space|totally disconnected]] and perfect, is homeomorphic to Cantor space (provided $X$ is not itself compact). 
+The  [[one-point compactification]] $\widebar{X}$ of a space $X$ that is [[second-countable space|second-countable]] [[local compact space|locally compact]] [[Hausdorff topological space|Hausdorff]], [[totally disconnected space|totally disconnected]] and perfect, is homeomorphic to Cantor space (provided $X$ is not itself compact). 
 
 =-- 
 
