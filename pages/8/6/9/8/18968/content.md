@@ -1,4 +1,4 @@
-In  order  to  establish  an  Alexander  duality  theorem  for  compact  subsets  of $S^n$, [[Steenrod]]  introduced  in  1940  a  new  type  of  homology  of metric compacta; a summary of the construction is given in the entry, [[Steenrod homology]]. The same problem led K. A. Sitnikov in  1951 to an equivalent  theory and in  1960 [[J. Milnor]] gave an axiomatic  characterization  of  the resulting  'Steenrod-Sitnikov  homology'.  
+In  order  to  establish  an  Alexander  duality  theorem  for  compact  subsets  of $S^n$, [[Steenrod]]  introduced  in  1940  a  new  type  of  homology  of [[compact metric spaces]]; a summary of the construction is given in the entry, [[Steenrod homology]]. The same problem led K. A. Sitnikov in  1951 to an equivalent  theory and in  1960 [[J. Milnor]] gave an axiomatic  characterization  of  the resulting  'Steenrod-Sitnikov  homology'.  
 
 Several authors extended this to compact Hausdorff spaces and then Lisica and  [[Mardešić]] gave a definition for arbitrary spaces.
 
