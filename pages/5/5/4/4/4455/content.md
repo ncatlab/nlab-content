@@ -137,7 +137,7 @@ In [[constructive mathematics]], one-sided cuts are more general; see [[one-side
 
 Even in classical mathematics, one-sided cuts do give us something new for strict preorders.  Here, we have first more general one-sided notions of duisps: a __lower duisp__ need only satisfy the condition of a duisp for $G$ a [[singleton]], and an __upper duisp__ need only satisfy the condition for $F$ a singleton.  Then the __lower Dedekind completion__ of a lower duisp is its set of lower cuts, and the __upper Dedekind completion__ of an upper duisp is its set of upper cuts.
 
-For example, let $X$ be a [[compact Hausdorff space]] ("[[compactum]]") and let $S$ be the strictly preordered set of [[continuous map|continuous]] real-valued functions on $X$.  Then $S$ is a duisp, hence both a lower and upper duisp.  Its lower Dedekind completion is the set of lower [[semicontinuous map|semicontinuous]] functions on $X$ taking values in the [[lower reals]] (which classically are all either real or $\infty$); and dually on the upper side.  Even working classically and ignoring the technicality of $\infty$, semicontinuous functions are much more general than continuous ones.
+For example, let $X$ be a [[compact Hausdorff space]] and let $S$ be the strictly preordered set of [[continuous map|continuous]] real-valued functions on $X$.  Then $S$ is a duisp, hence both a lower and upper duisp.  Its lower Dedekind completion is the set of lower [[semicontinuous map|semicontinuous]] functions on $X$ taking values in the [[lower reals]] (which classically are all either real or $\infty$); and dually on the upper side.  Even working classically and ignoring the technicality of $\infty$, semicontinuous functions are much more general than continuous ones.
 
 
 ## References
