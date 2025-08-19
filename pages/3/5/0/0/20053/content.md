@@ -67,7 +67,7 @@ This definition can be extended to [[valuation (measure theory)#null_sets_and_su
 ### Relationship with other measure-theoretical notions 
 
 * Every [[Radon measure]] on a [[Hausdorff space]] is $\tau$-additive.
-* Every $\tau$-additive measure on a [[compactum|compact Hausdorff space]] is [[Radon measure|Radon]].
+* Every $\tau$-additive measure on a [[compact Hausdorff space]] is [[Radon measure|Radon]].
 * Every $\tau$-additive measure can be restricted to a [[continuous valuation]].
 * Every [[continuous valuation]] on a [[regular space|regular]] [[Hausdorff space]] or on a [[locally compact space|locally compact]] [[sober space]] can be extended to a $\tau$-additive measure. 
 
