@@ -54,7 +54,7 @@ A [[topological space]] $(X,\tau)$ is called **paracompact** if every [[open cov
 ###### Remark
 **(differing terminology)**
 
-As with the concept of [[compact topological spaces]] ([this remark](compact#space#DifferingTerminology)), some authors demand a paracompact space to also be a [[Hausdorff topological space]]. See at *[[paracompact Hausdorff space]]* and at *[[paracompactum]]*.
+As with the concept of [[compact topological spaces]] ([this remark](compact#space#DifferingTerminology)), some authors demand a paracompact space to also be a [[Hausdorff topological space]]. See at *[[paracompact Hausdorff space]]*.
 
 
 =--
