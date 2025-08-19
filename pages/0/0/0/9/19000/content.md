@@ -6,7 +6,7 @@ A Schwartz-Bruhat function is a certain type of complex-valued function on a gen
 
 The notion of Schwartz-Bruhat function is constructed in stages that parallel developments in the general structure theory of locally compact (Hausdorff) abelian groups. 
 
-Recall the notion of *compactly generated topological group* $G$: it means there is a compact neighborhood of the identity which generates $G$ as a group. The structure of a compactly generated abelian Lie group is well-known: it is a product of type $K \times \mathbb{R}^m \times \mathbb{Z}^n$ where $K$ is a [[compactum|compact]] [[abelian group|abelian]] [[Lie group]] (thus of the form $T^p \times F$ where $F$ is a finite abelian group and $T = \mathbb{R}/\mathbb{Z}$ is a circle group). These are often called *elementary Lie groups*. 
+Recall the notion of *compactly generated topological group* $G$: it means there is a compact neighborhood of the identity which generates $G$ as a group. The structure of a compactly generated abelian Lie group is well-known: it is a product of type $K \times \mathbb{R}^m \times \mathbb{Z}^n$ where $K$ is a [[compact space|compact]] [[abelian group|abelian]] [[Lie group]] (thus of the form $T^p \times F$ where $F$ is a finite abelian group and $T = \mathbb{R}/\mathbb{Z}$ is a circle group). These are often called *elementary Lie groups*. 
 
 +-- {: .num_defn #def1} 
 ###### Definition 
