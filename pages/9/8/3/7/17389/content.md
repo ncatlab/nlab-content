@@ -20,7 +20,7 @@
 +-- {: .num_prop }
 ###### Proposition
 
-Every [[CW-complex]] is a [[paracompact Hausdorff space]] (a "[[paracompactum]]").
+Every [[CW-complex]] is a [[paracompact Hausdorff space]].
 
 =--
 
@@ -28,7 +28,7 @@ For one textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#Fr
 
 +-- {: .proof} 
 ###### Proof 
-Let $X_n$ denote the $n^{th}$ [[skeleton]] of $X$. We argue by [[induction]] that each skeleton is a paracompactum. Vacuously $X_{-1} = \emptyset$ is a paracompactum. Now suppose $X_{n-1}$ is a paracompactum, and suppose $X_n$ is formed as an [[attachment space]] with attaching map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, so that 
+Let $X_n$ denote the $n^{th}$ [[skeleton]] of $X$. We argue by [[induction]] that each skeleton is a paracompact Hausdorff space. Vacuously $X_{-1} = \emptyset$ is a paracompact Hausdorff space. Now suppose $X_{n-1}$ is a paracompact Hausdorff space, and suppose $X_n$ is formed as an [[attachment space]] with attaching map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, so that 
 
 $$\array{
 \sum_{i \in I} S_i^{n-1} & \stackrel{\;h\;}{\hookrightarrow} & \sum_{i \in I} D_i^{n} \\ 
@@ -36,13 +36,13 @@ $$\array{
 X_{n-1} & \underset{\;k\;}{\hookrightarrow} & X_n
 }$$ 
 
-is a pushout square. The embedding $h$ is a closed embedding, and so its pushout along $f$ [is a closed embedding](/nlab/show/subspace+topology#pushout) $k$. Furthermore, the spheres $S_i^{n-1}$ and disks $D_i^n$ are paracompacta since they are compact Hausdorff, and [coproducts of paracompacta are again paracompacta](https://ncatlab.org/nlab/show/paracompact+topological+space#ParacompactnessPreservedByDisjointUnion), making $h$ a closed embedding of paracompact Hausdorff spaces. By the result on [pushouts of closed embeddings of paracompacta](/nlab/show/colimits+of+paracompact+Hausdorff+spaces#ClosedEmbeddingsOfParacompactaClosedUnderPushout), it now follows that $X_n$ is a paracompactum. 
+is a pushout square. The embedding $h$ is a closed embedding, and so its pushout along $f$ [is a closed embedding](/nlab/show/subspace+topology#pushout) $k$. Furthermore, the spheres $S_i^{n-1}$ and disks $D_i^n$ are paracompact Hausdorff spaes since they are compact Hausdorff, and [paracompact Hausdorff spaces are closed under coproducts](https://ncatlab.org/nlab/show/paracompact+topological+space#ParacompactnessPreservedByDisjointUnion), making $h$ a closed embedding of paracompact Hausdorff spaces. By the result on [pushouts of closed embeddings of paracompact Hausdorff spaces](/nlab/show/colimits+of+paracompact+Hausdorff+spaces#ClosedEmbeddingsOfParacompactaClosedUnderPushout), it now follows that $X_n$ is a paracompact Hausdorff space. 
 
 Thus the CW-complex $X$ is a colimit of a sequence of closed embeddings 
 
 $$X_{-1} \hookrightarrow X_0 \hookrightarrow X_1 \hookrightarrow \ldots$$ 
 
-between paracompacta. [It follows that this colimit is a paracompactum](/nlab/show/colimits+of+paracompact+Hausdorff+spaces#ColimitsOfSequencesOfParacompacta). 
+between paracompact Hausdorff spaces. [It follows that this colimit is a paracompact Hausdorff space](/nlab/show/colimits+of+paracompact+Hausdorff+spaces#ColimitsOfSequencesOfParacompacta). 
 =-- 
 
 
