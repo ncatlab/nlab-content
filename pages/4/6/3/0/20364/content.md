@@ -41,7 +41,7 @@ The concept of pyknotic structure can be compared to that of [[motivation for co
 
 > one of the main peculiarities of the theory of pyknotic structures ... is also one of its advantages: the forgetful functor is not faithful. ([BarHai 19, 0.2.4](#BarHai19))
 
-The global sections functor is given by evaluation at the one-point compactum. This has a left adjoint sending a set, $X$, to the discrete pyknotic set attached to $X$, and a right adjoint to the *indiscrete* pyknotic set attached to $X$. The left adjoint, the discrete functor, does not preserve limits and so does not possess a further left adjoint. The topos of pyknotic sets is thus not [[cohesive]] ([BarHai 19, 2.2.14](#BarHai19)).
+The global sections functor is given by evaluation at the one-point space. This has a left adjoint sending a set, $X$, to the discrete pyknotic set attached to $X$, and a right adjoint to the *indiscrete* pyknotic set attached to $X$. The left adjoint, the discrete functor, does not preserve limits and so does not possess a further left adjoint. The topos of pyknotic sets is thus not [[cohesive]] ([BarHai 19, 2.2.14](#BarHai19)).
 
  
 ## Examples
@@ -54,7 +54,7 @@ Pyknotic sets can be described as sheaves on several different sites.
 
 1. Take $\mathcal{C}$ to be the Kleisli category for the ultrafilter monad: objects are sets and morphisms are functions between the sets of ultrafilters borne by those sets. Pyknotic sets are functors $\mathcal{C}^{op}\to Set$ that carry finite coproducts in $\mathcal{C}$ to products in $Set$. So they can be understood as models for a large [[Lawvere theory]].
 
-1. Take $\mathcal{C}$  to be the category of [[compact Hausdorff spaces]] ("[[compacta]]") but where the sheaf condition is somewhat more elaborate, requiring in addition that $F$ carries the coequalizer displaying an epimorphism $K \to L$ as the cokernel of its kernel pair to monomorphism.
+1. Take $\mathcal{C}$  to be the category of [[compact Hausdorff spaces]], but where the sheaf condition is somewhat more elaborate, requiring in addition that $F$ carries the coequalizer displaying an epimorphism $K \to L$ as the cokernel of its kernel pair to monomorphism.
 
 1. Take $\mathcal{C} \subset Top$ to be the subcategory of tiny compact hausdorff spaces that are extremally disconnected, called [[Stonean spaces]]. A pyknotic set carries finite coproducts to products in $Set$.
 
