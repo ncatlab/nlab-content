@@ -115,6 +115,8 @@ In [[Haskell]]:
 
 * *[Control.Comonad.Reader](https://hackage.haskell.org/package/category-extras-0.53.0/docs/Control-Comonad-Reader.html)*
 
+* *[Control.Comonad.Trans.Env](https://hackage.haskell.org/package/comonad-5.0.9/docs/Control-Comonad-Trans-Env.html)*
+
 See also:
 
 * {#Wadler92} [[Philip Wadler]], _[The essence of functional programming](https://page.mi.fu-berlin.de/scravy/realworldhaskell/materialien/the-essence-of-functional-programming.pdf)_, 1992.
