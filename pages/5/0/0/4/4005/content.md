@@ -58,7 +58,7 @@ Another topological characterisation is as the [[reduced suspension]] of the [[o
 Every [[neighborhood]] of $(0, 0)$ in the Hawaiian earring space has non-contractible [[loops]] inside it (this would not be the case under the CW topology, i.e., the evident [[quotient space]] of countably many circles with the [[coproduct]] or [[disjoint union topological space|disjoint sum topology]], making the result a countable bouquet of circles). This means that the space is not
 [[semi-locally simply connected space|semi-locally simply connected]].
 
-Viewed in terms of [[general topology]], it would be hard to sell the earring space as a genuinely "pathological space": as it is a [[compactum|compact, Hausdorff]], [[connected space|connected and locally path-connected]] [[metric space]], etc. It's really through the lens of [[algebraic topology]] and particularly the classical theory of [[covering spaces]] that it seems strange: it is not a [[CW complex]], it is not 
+Viewed in terms of [[general topology]], it would be hard to sell the earring space as a genuinely "pathological space": as it is a [[compact Hausdorff space|compact, Hausdorff]], [[connected space|connected and locally path-connected]] [[metric space]], etc. It's really through the lens of [[algebraic topology]] and particularly the classical theory of [[covering spaces]] that it seems strange: it is not a [[CW complex]], it is not 
 [[semi-locally simply connected space|semi-locally simply connected]] and its [[fundamental group]] is hard to compute. 
 
 ## Related concepts
