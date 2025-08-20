@@ -569,6 +569,11 @@ A weaker version of the [[Awodey conjecture]], that the models of HoTT with func
 
 * {#Joyal11} [[André Joyal]], _Remarks on homotopical logic_ Oberwolfach (2011) ([pdf](http://hottheory.files.wordpress.com/2011/06/report-11_2011.pdf#page=19))
 
+An application of the [[filter quotient]] construction as a new method to construct further models of homotopy type theory is in
+
+* [[Nima Rasekh]], _Non-Standard Models of Homotopy Type Theory_ &lbrack;[2508.07736](http://arxiv.org/abs/2508.07736)&rbrack;
+
+
 See also the references at _[[relation between type theory and category theory]]_.
 
 ### Syntax
