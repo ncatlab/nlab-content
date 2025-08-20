@@ -216,6 +216,9 @@ see also:
 
 * {#ConnesConsani16} [[Alain Connes]], [[Caterina Consani]], _Absolute algebra and Segal's Gamma sets_, Journal of Number Theory 162 (2016): 518-551 ([arXiv:1502.05585](https://arxiv.org/abs/1502.05585))
 
+* [[Jonathan Beardsley]]: *The Eilenberg-MacLane Spectrum of $\mathbb{F}_1$* &lbrack;[arXiv:2508.01524](https://arxiv.org/abs/2508.01524)&rbrack;
+
+
 ### In quantum field theory
 
 Speculation on [[quantum field theory]] over $\mathbb{F}_1$ (via [[wonderful compactifications]] of [[configuration spaces of points]])
