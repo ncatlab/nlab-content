@@ -27,8 +27,7 @@
 
 Let $X$ be a [[topological space]]. Define an [[equivalence relation]] $\sim_{stable}$ on [[topological vector bundles]]
 over $X$ by declaring two vector bundles $E_1 E_2 \in Vect(X)$ to be equivalent if there exists a
-[[trivial vector bundle]] $X \times k^n$ of some [[rank]] $n$ such that after [[tensor product of vector bundles]]
-with this trivial bundle, both bundles become [[isomorphism|isomorphic]]
+[[trivial vector bundle]] $X \times k^n$ of some [[rank]] $n$ such that after taking [[direct sum of vector bundles]] with this trivial bundle, both bundles become [[isomorphism|isomorphic]]:
 
 $$
   \left(
@@ -39,9 +38,9 @@ $$
     \;\Leftrightarrow\;
   \underset{n \in \mathbb{N}}{\exists}
   \left(
-     E_1 \otimes_X (X \times k^n)
+     E_1 \oplus (X \times k^n)
        \;\simeq\;
-     E_2 \otimes_X (X \times k^n)
+     E_2 \oplus (X \times k^n)
   \right)
   \,.
 $$
