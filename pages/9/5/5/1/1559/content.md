@@ -33,3 +33,7 @@ As a $2$-category is [[enriched category|enriched]] over [[Cat]], a hom-category
 
 
 [[!redirects hom-categories]]
+
+[[!redirects hom category]]
+[[!redirects hom categories]]
+
