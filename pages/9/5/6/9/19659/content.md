@@ -41,6 +41,10 @@ For the concept of a *universal* [[bicategorical trace|shadow of a bicategory]] 
 
 * [[Kathryn Hess]], [[Nima Rasekh]], _Shadows are Bicategorical Traces_ &lbrack;[arXiv:2109.02144](https://arxiv.org/abs/2109.02144)&rbrack;
 
+On [[filter quotients]] of [[model categories]]:
+
+* [[Nima Rasekh]], *Filter Quotient Model Structures* &lbrack;[arXiv:2508.07735](https://arxiv.org/abs/2508.07735)&rbrack;
+
 
 ## Related entries
 
