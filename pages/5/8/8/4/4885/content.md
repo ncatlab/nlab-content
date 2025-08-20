@@ -80,8 +80,11 @@ The original article:
 
 * {#Reidemeister} [[Kurt Reidemeister]], _Knotentheorie,_ Ergebnisse der Mathematik (1932)
 
+Careful discussion for oriented [[framed links]]:
 
-Simple examples of invariants under the Reidemeister Moves are given in, for instance, the following.
+* Michael Polyak: *Minimal generating sets of Reidemeister moves*, Quantum Topology **1** 4 (2010) 399–411 &lbrack;[arXiv:0908.3127](https://arxiv.org/abs/0908.3127), [doi:10.4171/QT/10](https://doi.org/10.4171/QT/10)&rbrack;
+
+Simple examples of invariants under the Reidemeister moves are given in, for instance, the following.
 
 * [[Nick Gilbert]], [[Tim Porter]], *Knots and surfaces*, Oxford University Press (1994) &lbrack;[ISBN:9780198514909](https://global.oup.com/academic/product/knots-and-surfaces-9780198514909?cc=de&lang=en&)&rbrack;
 
