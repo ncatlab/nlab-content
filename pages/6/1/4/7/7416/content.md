@@ -1,6 +1,12 @@
 Assistant Professor of mathematics at the University of Nevada, Reno.
 
-* [Website](https://www.jonathanbeardsley.com/)
+* [personal page](https://www.jonathanbeardsley.com/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=201996)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=BWmMhLMAAAAJ&hl=en)
+
+
 
 ## Selected writings
 
@@ -30,6 +36,10 @@ On [[G-structure]] for $G = Br_\infty$ the infinite [[braid group]]:
 On [[projective geometry]] viewed in terms of [[modules]] over the "[[field with one element]]":
 
 * {#BeardsleySo24} [[Jonathan Beardsley]], [[So Nakamura]], *Projective geometries and simple pointed  matroids as $\mathbb{F}_1$-modules* &lbrack;[arXiv:2404.04730](https://arxiv.org/abs/2404.04730)&rbrack;
+
+On a notion of [[Eilenberg-MacLane spectrum]] for the [[field with one element]]:
+
+* [[Jonathan Beardsley]]: *The Eilenberg-MacLane Spectrum of $\mathbb{F}_1$* &lbrack;[arXiv:2508.01524](https://arxiv.org/abs/2508.01524)&rbrack;
 
 
 
