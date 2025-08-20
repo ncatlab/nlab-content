@@ -103,6 +103,8 @@ The notion of [[semicartesian operad]] is a type of [[generalized multicategory]
 
 * [Characterizing finite measure spaces](http://golem.ph.utexas.edu/category/2011/05/an_operadic_introduction_to_en.html#c038131) (blog comment)
 
+See also [[category of operators]].
+
 ## Related pages
 
 * [[cartesian monoidal category]]
