@@ -41,9 +41,7 @@ With the introduction of his new logic, [[Frege]] defines analyticity in terms o
 
 for Frege, such a statement may be established purely by logical means. 
 
-In the context of his [[Martin-Löf dependent type theory|dependent type theory]],  [[Per Martin-Löf]] ([ML94](#ML94)) draws on Kant to apply the analytic-synthetic distinction to different forms of judgment. 
-
-Basically, he claims that $a : A$ and $a = b : A$ are judgments of the analytic forms, noting that there is an algorithm to check that judgments of these forms are derivable. For him, the form of judgment $A \text{ true}$ is the synthetic form of judgment, for conceptual analysis alone does not suffice to derive it. Wherever you must construct an element to establish a proposition, that proposition is synthetic. More recently, Bentzen ([B24](#B24)) discusses a number of problems with Martin-Löf's analytic-synthetic distinction in dependent type theory and proposes a revision of his views.
+In the context of his [[Martin-Löf dependent type theory|dependent type theory]],  [[Per Martin-Löf]] ([ML94](#ML94)) draws on Kant to apply the analytic-synthetic distinction to different forms of judgment. Basically, he claims that $a : A$ and $a = b : A$ are judgments of the analytic forms, noting that there is an algorithm to check that judgments of these forms are derivable. For him, the form of judgment '$A$ true' is the synthetic form of judgment, for conceptual analysis alone does not suffice to derive it. Wherever you must construct an element to establish a proposition, that proposition is synthetic. More recently, Bentzen ([B24](#B24)) discusses a number of problems with Martin-Löf's analytic-synthetic distinction in dependent type theory and proposes a revision of his views.
 
 ## Analytic and synthetic geometry
 
@@ -55,7 +53,9 @@ He continues
 
 > In mathematics, however, as everywhere else, men are inclined to form parties, so that there arose _schools of pure synthesists_ and _schools of pure analysts_, who placed chief emphasis upon absolute "purity of method," and who were thus more one-sided than the nature of the subject demanded. Thus the analytic geometricians often lost themselves in blind calculations, devoid of any geometric representation, The synthesists, on the other hand, saw salvation in an artificial avoidance of all formulas, and thus they accomplished nothing more, finally, than to develop their own peculiar language formulas, different from ordinary formulas. (pp. 55-56)
 
-#Related entries#
+From this sense of the analytic-synthetic distinction derives current uses of the expression [[synthetic mathematics]].
+
+##Related entries
 
 * [[synthetic mathematics]]
 * [[synthetic differential geometry]]
