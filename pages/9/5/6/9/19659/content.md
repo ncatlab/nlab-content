@@ -17,6 +17,10 @@ Specifically on [[natural number objects]]:
 
 * [[Nima Rasekh]], _Every Elementary Higher Topos has a Natural Number Object_, Theory and Applications of Categories **37** 13 (2021) 337-377.  ([arXiv:1809.01734](https://arxiv.org/abs/1809.01734), [tac:37-13](http://www.tac.mta.ca/tac/volumes/37/13/37-13abs.html))
 
+On  models of [[homotopy type theory]] which are not [[Grothendieck topos|Grothendieck]] $(\infty, 1)$-toposes:
+
+* [[Nima Rasekh]], _Non-Standard Models of Homotopy Type Theory_ &lbrack;[2508.07736](http://arxiv.org/abs/2508.07736)&rbrack;
+
 Specifically on [[n-truncated objects in an (infinity,1)-category|n-truncation]]:
 
 * [[Nima Rasekh]], _An Elementary Approach to Truncations_ ([arXiv:1812.10527](https://arxiv.org/abs/1812.10527))
