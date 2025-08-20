@@ -13,9 +13,6 @@
 =--
 =--
 
-
-# Local colimits
-
 * table of contents
 {: toc}
 
@@ -30,6 +27,10 @@ A **local colimit** in a [[bicategory]] is a [[colimit]] in a [[hom-category]] t
 * If $B$ has local coproducts, then we can construct its bicategory $Mat(B)$, whose objects are families of objects of $B$ and whose morphisms are  [[matrices]], which also has local coproducts.
 * If $B$ has local coequalizers, then we can construct its bicategory $Mod(B)$, whose objects are [[monads]] in $B$ and whose morphisms are [[bimodules]], which also has local coequalizers.
 * Thus, if $B$ is locally cocomplete, we can construct its bicategory $Prof(B) = Mod(Mat(B))$, whose objects are [[category enriched in a bicategory|categories enriched in]] $B$ and whose morphisms are profunctors, which is also locally cocomplete.  In particular, [[Prof]] = $Prof(\mathbf{B} Set)$ is locally cocomplete.
+
+## Related pages
+
+- [[local cocompletion]]
 
 ## References
 
