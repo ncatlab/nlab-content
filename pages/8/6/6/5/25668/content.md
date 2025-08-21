@@ -20,7 +20,7 @@
 
 ## Idea
 
-The notion of *[[center]] of a [[monoid]]* has a [[horizontal categorification]] to a notion of *center of a category*.
+The notion of the *[[center]] of a [[monoid]]* has a [[horizontal categorification]] to a notion of the *center of a category*.
 
 ## Definition
  
@@ -36,23 +36,23 @@ $$
   \big)
 $$ 
 
-of [[endomorphism|endo]]-[[natural transformation]] of the [[identity functor]] $Id_C \,\colon\, C \to C$, i.e. the [[endomorphism monoid]] of $Id_C$ in the [[functor category]] $[C,C]$.  
+of [[endomorphism|endo]]-[[natural transformations]] of the [[identity functor]] $Id_C \,\colon\, C \to C$, i.e. the [[endomorphism monoid]] of $Id_C$ in the [[functor category]] $[C,C]$.  
 
-If $\mathcal{C}$ carries extra [[structure]] this may be inherited by its center. Notably the center of an [[additive category]] is not just a [[commutative monoid]] but a [[commutative ring]]: the [[endomorphism ring]] of the [[identity functor]]. For more on this see at *[[center of an additive category]]*.
+If $\mathcal{C}$ carries extra [[structure]], then this may be inherited by its center. Notably, the center of an [[additive category]] is not just a [[commutative monoid]] but a [[commutative ring]]: the [[endomorphism ring]] of the [[identity functor]]. For more on this, see *[[center of an additive category]]*.
 
 ## Examples
 
 \begin{example}
-  For $A$ an ordinary monoid and $\mathbf{B}A$ it [[delooping]]-category, the ordinary [[center]] of $A$ is naturally identified with the category theoretic center of $\mathbf{B}A$.
+  For $A$ an ordinary monoid and $\mathbf{B}A$ its [[delooping]] category, the ordinary [[center]] of $A$ is naturally identified with the category-theoretic center of $\mathbf{B}A$.
 \end{example}
 
 \begin{proposition}
-For a [[generator]] $G$ of a [[category]] $\mathcal{C}$ there is an embedding of $Z(\mathcal{C})$ into the monoid $Hom(G,G)$ given by $\eta\mapsto\eta _G$. In particular, if $Hom(G,G)$ or $Z(Hom(G,G))$ is trivial, as happens e.g. for $Set$ with $G=\ast$, then so is $Z(\mathcal{C})$. 
+For a [[generator]] $G$ of a [[category]] $\mathcal{C}$, there is an embedding of $Z(\mathcal{C})$ into the monoid $Hom(G,G)$ given by $\eta\mapsto\eta _G$. In particular, if $Hom(G,G)$ or $Z(Hom(G,G))$ is trivial, as happens, e.g., for $Set$ with $G=\ast$, then so is $Z(\mathcal{C})$. 
 \end{proposition}
 &lbrack;[Hoffmann (1975)](#Hoffmann75)&rbrack;
 
 \begin{proposition}
-For [[Cauchy completion|Cauchy complete]] $\mathcal{C}$ the [[idempotent]] elements of $Z(\mathcal{C})$ correspond precisely to the _quintessential localizations_ of $\mathcal{C}$.
+For [[Cauchy completion|Cauchy complete]] $\mathcal{C}$, the [[idempotent]] elements of $Z(\mathcal{C})$ correspond precisely to the _quintessential localizations_ of $\mathcal{C}$.
 \end{proposition} 
 &lbrack;[Johnstone (1996)](#Johnstone96)&rbrack;
 
