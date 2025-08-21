@@ -26,8 +26,8 @@ Formulating [[Dirac charge quantization]] via [[Čech cohomology]]:
 
 * {#Alvarez85a} [[Orlando Alvarez]], *Cohomology and Field Theory*, talk at: *Symposium on Anomalies, Geometry, Topology*, Argonne IL (28-30 March 1985) &lbrack;[inspire:965785](https://inspirehep.net/conferences/965785), [pdf](https://lib-extopc.kek.jp/preprints/PDF/1985/8507/8507262.pdf), [[Alvarez-CohomologyAndFieldTheory.pdf:file]]&rbrack;
 
+* {#Alvarez85} [[Orlando Alvarez]], _Topological quantization and cohomology_, Comm. Math. Phys. **100** 2 (1985) 279-309 &lbrack;[doi:10.1007/BF01212452](https://doi.org/10.1007/BF01212452), [euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448)&rbrack;
 
-* [[Orlando Alvarez]], _Topological quantization and cohomology_, Comm. Math. Phys. **100** 2 (1985) 279-309 &lbrack;[euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448)&rbrack;
 
 
 
