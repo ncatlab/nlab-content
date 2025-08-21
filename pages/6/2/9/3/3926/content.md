@@ -17,13 +17,13 @@ For more details, see the entry [[†-category]].
 
 ## Examples
 
-* The unitary morphisms in $C = $ [[Hilb]] are the ordinary [[unitary operator]]s between [[Hilbert space]]s 
+* The unitary morphisms in $C = $ [[Hilb]] are the ordinary [[unitary operator]]s between [[Hilbert space]]s.
 
-  In particular the unitary [[automorphism]]s of an object in $Hilb$ form the [[unitary group]]. 
+  In particular, the unitary [[automorphism]]s of an object in $Hilb$ form its [[unitary group]]. 
 
-* The unitary morphisms in $C = $ [[Rel]] are the ordinary [[bijections]]s between [[set]]s 
+* The unitary morphisms in $C = $ [[Rel]] are the ordinary [[bijections]] between [[set]]s.
 
-  In particular the unitary [[automorphism]]s of an object in $Rel$ form the [[permutation group]]. 
+  In particular, the unitary [[automorphism]]s of an object in $Rel$ form a [[permutation group]]. 
 
 ## Related concepts
 
