@@ -23,7 +23,11 @@ or more generally to
 
 The first usage is more common in the literature.
 
-A special case of compact Hausdorff spaces are
+Slightly different from but closely related to either notion of compacta is that of:
+
+* **[[Eberlein compacta]]**.
+
+A special case of compact Hausdorff spaces are known as
 
 * *[[dyadic compacta]]*.
 
@@ -41,9 +45,6 @@ and the term **paracompacta** (singular: paracompactum) refers to
 
 (noting here that [[metric spaces are paracompact|metric spaces are already paracompact]]).
 
-Slightly different from but closely related to either notion of compacta is that of:
-
-* **[[Eberlein compacta]]**.
 
 
 [[!redirects compacta]]
