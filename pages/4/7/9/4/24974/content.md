@@ -36,9 +36,15 @@ See also:
 
 * Wikipedia, *[Reductive dual pair](https://en.wikipedia.org/wiki/Reductive_dual_pair)*
 
+* M.J. Carvalho, J. Repka, D.J. Rowe, _Simple unified proofs of four duality theorems_, J. Math. Phys. __52__ (2011) 013507 &lbrack;[DOI:10.1063/1.3525978](https://doi.org/10.1063/1.3525978)&rbrack;
+
+* M.J. Carvalho, J. Repka, D.J. Rowe, _Dual pairing of symmetry groups and dynamical groups in physics_, Rev. Mod. Phys. __84__ (2012) 711-757 &lbrack;[arXiv:1207.0148](https://arxiv.org/abs/1207.0148), [DOI:10.1103/RevModPhys.84.711](https://doi.org/10.1103/RevModPhys.84.711)&rbrack;
+
 Generalization to [[super Lie algebras]]:
 
 * [[Allan Merino]], Hadi Salmasian, *Classification and double commutant property for dual pairs in an orthosymplectic Lie supergroup* &lbrack;[arXiv:2208.09746](https://arxiv.org/abs/2208.09746)&rbrack;
+
+* Shun-Jen Cheng, Weiqiang Wang, _Dualities and representations of Lie superalgebras_, Graduate Studies in Mathematics __144__ American Mathematical Society 2012, &lbrack;[doi:10.1090/gsm/144](https://doi.org/10.1090/gsm/144)&rbrack;
 
 Analogues of Howe dual pairs in [[vertex operator algebra]] theory
 
