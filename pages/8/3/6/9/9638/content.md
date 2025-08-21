@@ -326,6 +326,8 @@ Textbook accounts on quantum computation:
 
 * Thomas Wong: *Intoduction to Classical and Quantum Computing* (2024) &lbrack;[pdf](https://thomaswong.net/introduction-to-classical-and-quantum-computing-1e4p.pdf), [webpage](https://thomaswong.net/)&rbrack;
 
+* Rajkumar Buyya, Sukhpal Singh Gill: *Quantum Computing -- Principles and Paradigms*, Elsevier (2025) &lbrack;[ISBN:9780443290961](https://www.sciencedirect.com/book/9780443290961/quantum-computing)&rbrack;
+
 Introducing the notion of [[quantum supremacy]] and highlighting its relation to [[quantum entanglement]]:
 
 * [[John Preskill]]: *Quantum computing and the entanglement frontier*: pp. 63-80 in: *The Theory of the Quantum World -- Proceedings of the 25th Solvay Conference on Physics*, World Scientific (2013) &lbrack;[arXiv:1203.5813](https://arxiv.org/abs/1203.5813), [doi:10.1142/8674](https://doi.org/10.1142/8674), slides: [pdf](https://simons.berkeley.edu/sites/default/files/docs/394/preskilljohn.pdf)&rbrack;
