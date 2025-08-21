@@ -16,30 +16,77 @@
 * table of contents
 {:toc}
 
+
 ## Idea
 
 The _Yang-Mills-Higgs equations_ (or _YMH equations_) arise from a generalization of the Yang-Mills action functional with a section, which in physics represents the [[Higgs field]].
 
+
 ## Yang-Mills-Higgs action functional
+ {#ActionFunctional}
 
-Let $G$ be a [[compact]] [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $E\twoheadrightarrow B$ be a [[principal bundle|principal $G$-bundle]] with a compact [[orientable]] [[Riemannian manifold]] $B$. Let $\operatorname{Ad}(E)\coloneqq E\times_G\mathfrak{g}$ be its [[adjoint bundle]]. The _Yang-Mills-Higgs action functional_ (or _YMH action functional_) is given by:
+Consider 
+
+* $G$ be a [[compact Lie group]] 
+
+* with [[Lie algebra]] $\mathfrak{g}$,
+
+* $P \twoheadrightarrow B$ a [[principal bundle|principal $G$-bundle]] over 
+
+* a compact [[orientable]] [[Riemannian manifold]] $(B,g)$, 
+
+and write
+
+*  $Ad_P \,\coloneqq\, P \times_{(G,Ad)}\mathfrak{g}$ for its [[adjoint bundle]],
+
+* $\Gamma(Ad_P)$ for the [[space of smooth sections]],
+
+* $\Omega^1_{conn}(P;\mathfrak{g}) \subset \Omega^1(P;\mathfrak{g})$ for the [[Lie algebra valued differential 1-forms]] which are ([[Ehresmann connection|Ehresmann]]) [[connection on a principal bundle|connection forms]]
+
+  (and [[invariant polynomial|recall]] that the [[gauge invariance|gauge-invariants]] of the [[curvature 2-form]] $F_A$ of $A \in \Omega^1_{conn}(P;\mathfrak{g})$ descend to, hence are [[pullback of differential forms|pulled back from]] plain [[differential forms]] on $B$).
+
+The _Yang-Mills-Higgs [[action functional]]_ (or _YMH action functional_) is given by:
 
 $$
-\operatorname{YMH}\colon
-\Omega^1(B,\operatorname{Ad}(E))\times\Gamma^\infty(B,\operatorname{Ad}(E))\rightarrow\mathbb{R},
-\operatorname{YMH}(A,\Phi)
-\coloneqq\int_B\|F_A\|^2+\|\mathrm{d}_A\Phi\|^2\mathrm{d}\vol_g.
+  \begin{array}{ccc}
+  \mathllap{
+    S_{YMH}
+    \,\colon\,
+  }
+  \Omega^1_{conn}(P;\mathfrak{g})
+  \times
+  \Gamma(Ad_P)
+  &\longrightarrow&
+  \mathbb{R}
+  \\
+  \big(A, \Phi\big)
+  &\mapsto&
+  S_{YMH}(A,\Phi)
+  \mathrlap{
+    \coloneqq
+  \textstyle{\int_B}
+    \big(
+      \|F_A\|^2 
+        + 
+      \|\mathrm{d}_A\Phi\|^2
+    \big)
+  \mathrm{d}\vol_g
+  \,.
+  }
+  \end{array}
 $$
 
-([Taubes 82a, Equation (2.1)](#Taubes82a))
+(cf. [Taubes 1982a, Equation (2.1)](#Taubes82a))
 
 ## Yang-Mills-Higgs equations and pairs
 
 A connection $A\in\Omega^1(B,\operatorname{Ad}(E))$ and a section $\Phi\in\Gamma^\infty(B,\operatorname{Ad}(E))$ are called _Yang-Mills-Higgs pair_ (or _YMH pair_) if they are a critical point of the Yang-Mills-Higgs action functional, hence if:
 
 $$
-\frac{\mathrm{d}}{\mathrm{d}t}\operatorname{YMH}(\alpha(t),\varphi(t))\vert_{t=0}
-=0
+  \frac{\mathrm{d}}{\mathrm{d}t}
+  S_{YMH}(\alpha(t),\varphi(t))\vert_{t=0}
+  \;=\;
+  0
 $$
 
 for all smooth families $\alpha\colon(-\varepsilon,\varepsilon)\rightarrow\Omega^1(B,\operatorname{Ad}(E))$ with $\alpha(0)=A$ and $\varphi\colon(-\varepsilon,\varepsilon)\rightarrow\Gamma^\infty(B,\operatorname{Ad}(E))$ with $\varphi(0)=\Phi$.
