@@ -82,3 +82,8 @@ Given an $m\in\mathbb{Z}$, the corresponding [[principal bundle]] is given by [[
 
 [[!redirects Four-dimensional Yang--Mills theory]]
 [[!redirects Yang--Mills theory in four dimesions]]
+
+[[!redirects anti self-dual Yang-Mills equation]]
+[[!redirects anti self-dual Yang-Mills equations]]
+[[!redirects ASDYM equation]]
+[[!redirects ASDYM equations]]
