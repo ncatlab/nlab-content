@@ -1,9 +1,13 @@
 
+* [personal page](https://www.frankawilczek.com/)
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Frank_Wilczek)
+* [institute page](https://physics.mit.edu/faculty/frank-wilczek/)
 
 * [research group page](https://www.su.se/english/research/research-groups/quantum-frontiers?open-collapse-boxes=research-group-members)
 
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Frank_Wilczek)
+
+* [inSpire page](https://inspirehep.net/authors/983566)
 
 ## Selected writings
 
@@ -49,7 +53,7 @@ Review of [[anyons]]:
 
 * {#Wilczek90} [[Frank Wilczek]], *Fractional Statistics and Anyon Superconductivity*, World Scientific (1990) &lbrack;[doi:10.1142/0961](https://doi.org/10.1142/0961)&rbrack;
 
-* [[Martin Greiter]], [[Frank Wilczek]], *Fractional Statistics* &lbrack;[arXiv:2210.02530](https://arxiv.org/abs/2210.02530)&rbrack;
+* [[Martin Greiter]], [[Frank Wilczek]]: *Fractional Statistics*, Annual Review of Condensed Matter Physics **15**  (2024) 131–57 &lbrack;[doi:10.1146/annurev-conmatphys-040423-014045](https://doi.org/10.1146/annurev-conmatphys-040423-014045), [arXiv:2210.02530](https://arxiv.org/abs/2210.02530)&rbrack;
 
 
 
