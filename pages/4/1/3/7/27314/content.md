@@ -37,13 +37,13 @@ Consider
 
 and write
 
-*  $Ad_P \,\coloneqq\, P \times_{(G,Ad)}\mathfrak{g}$ for its [[adjoint bundle]],
+*  $Ad_P \,\coloneqq\, P \times_G \mathfrak{g}$ for its [[adjoint bundle]],
 
 * $\Gamma(Ad_P)$ for the [[space of smooth sections]],
 
 * $\Omega^1_{conn}(P;\mathfrak{g}) \subset \Omega^1(P;\mathfrak{g})$ for the [[Lie algebra valued differential 1-forms]] which are ([[Ehresmann connection|Ehresmann]]) [[connection on a principal bundle|connection forms]]
 
-  (and [[invariant polynomial|recall]] that the [[gauge invariance|gauge-invariants]] of the [[curvature 2-form]] $F_A$ of $A \in \Omega^1_{conn}(P;\mathfrak{g})$ descend to, hence are [[pullback of differential forms|pulled back from]] plain [[differential forms]] on $B$).
+  (and [[invariant polynomial|recall]] that the [[gauge invariance|gauge-invariants]] of the [[curvature 2-form]] $F_A$ of $A \in \Omega^1_{conn}(P;\mathfrak{g})$ descend to, hence are [[pullback of differential forms|pulled back from]], plain [[differential forms]] on $B$).
 
 The _Yang-Mills-Higgs [[action functional]]_ (or _YMH action functional_) is given by:
 
