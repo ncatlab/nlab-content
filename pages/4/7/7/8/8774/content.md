@@ -198,3 +198,6 @@ The description via [[BV-complexes]] is amplified in the context of [[factorizat
 
 
 [[!redirects self-dual Yang-Mills equation]]
+[[!redirects self-dual Yang-Mills equations]]
+[[!redirects SDYM equation]]
+[[!redirects SDYM equations]]
