@@ -22,10 +22,10 @@
 The _Yang-Mills-Higgs equations_ (or _YMH equations_) arise from a generalization of the Yang-Mills action functional with a section, which in physics represents the [[Higgs field]].
 
 
-## Yang-Mills-Higgs action functional
- {#ActionFunctional}
+## Definition
 
-Consider 
+
+In the following, consider 
 
 * $G$ be a [[compact Lie group]] 
 
@@ -39,15 +39,21 @@ and write
 
 *  $Ad_P \,\coloneqq\, P \times_G \mathfrak{g}$ for its [[adjoint bundle]],
 
-* $\Gamma(Ad_P)$ for the [[space of smooth sections]],
+* $\Gamma^\infty(Ad_P)$ for the [[space of smooth sections]],
 
 * $\Omega^1_{conn}(P;\mathfrak{g}) \subset \Omega^1(P;\mathfrak{g})$ for the [[Lie algebra valued differential 1-forms]] which are ([[Ehresmann connection|Ehresmann]]) [[connection on a principal bundle|connection forms]]
 
   (and [[invariant polynomial|recall]] that the [[gauge invariance|gauge-invariants]] of the [[curvature 2-form]] $F_A$ of $A \in \Omega^1_{conn}(P;\mathfrak{g})$ descend to, hence are [[pullback of differential forms|pulled back from]], plain [[differential forms]] on $B$).
 
+If the base space is not [[compact topological space|compact]], then in the following the [[gauge field]] $A \in \Omega^1_{conn}(P)$ and the [[Higgs field]] $\Phi \in \Gamma^\infty(Ad_P)$ are required to [[vanishing at infinity|vanish at infinity]] (cf. [Taubes 1982a, Equation (2.3)](#Taubes82a)).
+
+### Action functional
+ {#ActionFunctional}
+
 The _Yang-Mills-Higgs [[action functional]]_ (or _YMH action functional_) is given by:
 
-$$
+\[
+  \label{TheActionFunctional}
   \begin{array}{ccc}
   \mathllap{
     S_{YMH}
@@ -55,7 +61,7 @@ $$
   }
   \Omega^1_{conn}(P;\mathfrak{g})
   \times
-  \Gamma(Ad_P)
+  \Gamma^\infty(Ad_P)
   &\longrightarrow&
   \mathbb{R}
   \\
@@ -74,107 +80,153 @@ $$
   \,.
   }
   \end{array}
-$$
+\]
 
 (cf. [Taubes 1982a, Equation (2.1)](#Taubes82a))
 
-## Yang-Mills-Higgs equations and pairs
+### Yang-Mills-Higgs equations and pairs
 
-A connection $A\in\Omega^1(B,\operatorname{Ad}(E))$ and a section $\Phi\in\Gamma^\infty(B,\operatorname{Ad}(E))$ are called _Yang-Mills-Higgs pair_ (or _YMH pair_) if they are a critical point of the Yang-Mills-Higgs action functional, hence if:
+A [[pair]] consisting of a [[connection on a principal bundle|connection]] $A\in\Omega^1_{conn}(P)$ and a [[section]] $\Phi\in\Gamma^\infty(B,Ad_P)$ is called a _Yang-Mills-Higgs pair_ (or _YMH pair_) if it is a [[critical point]] of the Yang-Mills-Higgs action functional (eq:TheActionFunctional), hence if:
 
 $$
   \frac{\mathrm{d}}{\mathrm{d}t}
-  S_{YMH}(\alpha(t),\varphi(t))\vert_{t=0}
+  S_{YMH}\big(
+    \alpha(t),
+    \varphi(t)
+  \big)\vert_{t=0}
   \;=\;
   0
 $$
 
-for all smooth families $\alpha\colon(-\varepsilon,\varepsilon)\rightarrow\Omega^1(B,\operatorname{Ad}(E))$ with $\alpha(0)=A$ and $\varphi\colon(-\varepsilon,\varepsilon)\rightarrow\Gamma^\infty(B,\operatorname{Ad}(E))$ with $\varphi(0)=\Phi$.
-
-This is the case iff the _Yang-Mills-Higgs equations_ (or _YMH equations_) are fulfilled:
+for all pairs of smooth families 
 
 $$
-\mathrm{d}_A\star F_A
-+\star[\Phi,\mathrm{d}_A\Phi]
-=0;
-$$
-$$
-\mathrm{d}_A\star\mathrm{d}_A\Phi
-=0.
-$$
+  \begin{array}{ccc}
+  \mathllap{
+    \alpha\colon
+  }
+  (-\varepsilon \varepsilon)
+    &
+    \longrightarrow 
+    &
+  \Omega^1_{conn}(P)
+  \\
+  \mathllap{
+    \varphi\colon
+  }
+  (-\varepsilon,\varepsilon)
+    &
+    \longrightarrow
+    &
+  \Gamma^\infty(Ad_P)
+  \mathrlap{\,,}
+  \end{array}
+$$ 
 
-([Taubes 82a, Equations (2.2a) and (2.2b)](#Taubes82a), [Taubes 84, Equation (1)](#Taubes84), [Taubes 85, Equations (A.1.1a) and (A.1.1b)](#Taubes85))
+with $\alpha(0)=A and \varphi(0)=\Phi$.
 
-([Taubes 84, Equation (1)](#Taubes84) is missing the second [[Hodge star operator]] in the first [[Yang-Mills-Higgs equation]].)
+This is the case iff the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] are satisfies, here called the *Yang-Mills-Higgs equations* (or _YMH equations_):
 
-Furthermore the following [[Bianchi identities]] hold:
+\[
+  \label{YMHEquations}
+  \begin{array}{ccc}
+    \mathrm{d}_A \star F_A
+    +  
+    \star[\Phi,\mathrm{d}_A\Phi]
+    &=&
+    0
+    \\
+    \mathrm{d}_A\star\mathrm{d}_A\Phi
+    &=&
+    0
+    \mathrlap{\,.}
+  \end{array}
+\]
 
-$$
-\mathrm{d}_A F_A
-=0;
-$$
-$$
-\mathrm{d}_A\mathrm{d}_A\Phi
-+[\Phi,F_A]
-=0.
-$$
+(cf. [Taubes 1982a, Equations (2.2a) and (2.2b)](#Taubes82a), [Taubes 1984, Equation (1)](#Taubes84), [Taubes 1985, Equations (A.1.1a) and (A.1.1b)](#Taubes85), but beware that [Taubes 1984, Equation (1)](#Taubes84) is missing the second [[Hodge star operator]] in the first [[Yang-Mills-Higgs equation]].)
 
-([Taubes 82a, Equations (2.2c) and (2.2d)](#Taubes82a))
-
-Furthermore the Higgs field is required to vanish at infinity:
-
-$$
-\lim_{|x|\rightarrow\infty}|\Phi|(x)
-=0.
-$$
-
-([Taubes 82a, Equation (2.3)](#Taubes82a))
-
-A solution $(A,\Phi)$ of the [[Yang-Mills-Higgs equations]] is called _Yang-Mills-Higgs pair_.
-
-Using $\star^2=(-1)^{k(n-k)}$ and $\delta_A=(-1)^{n(k+1)+1}\star\mathrm{d}_A\star$ when applied to $k$-forms, the first [[Yang-Mills-Higgs equation]] can also be rewritten as:
-
-$$
-\delta_A F_A
-+[\Phi,\mathrm{d}_A\Phi]
-=0.
-$$
-
-The second [[Yang-Mills-Higgs equation]] can also be rewritten as:
+Furthermore, the following [[Bianchi identities]] hold:
 
 $$
-\delta_A\mathrm{d}_A\Phi
-=0.
+  \begin{array}{ccc}
+  \mathrm{d}_A F_A
+  &=&
+  0
+  \\
+  \mathrm{d}_A\mathrm{d}_A\Phi
+  +[\Phi,F_A]
+  &=&
+  0
+  \end{array}
 $$
+
+(cf. [Taubes 1982a, Equations (2.2c) and (2.2d)](#Taubes82a))
+
+
+Using $\star^2=(-1)^{k(n-k)}$ (see [there](Hodge+star+operator#BasicProperties)) and $\delta_A=(-1)^{n(k+1)+1}\star\mathrm{d}_A\star$ when applied to $k$-forms, the first Yang-Mills-Higgs equation (eq:YMHEquations) is equivalent to:
+
+$$
+  \delta_A F_A
+  +
+  [\Phi,\mathrm{d}_A\Phi]
+  \;=\;
+  0
+  \mathrlap{\,.}
+$$
+
+and the second one to:
+
+$$
+  \delta_A\mathrm{d}_A\Phi
+  \;=\;
+  0  
+  \mathrlap{,.}
+$$
+
+\begin{remark}
+For an [[abelian group|abelian]] [[Lie group]] as [[structure group]], its [[Lie algebra]] is also abelian and hence all [[Lie brackets]] vanish and the YMH equations (eq:YMHEquations) reduce to:
+
+$$
+  \begin{array}{ccc}
+  \mathrm{d}\star\mathrm{d}A
+  &=&
+  0
+  \\
+  \mathrm{d}\star\mathrm{d}\Phi
+  &=&
+  0
+  \mathrlap{\,.}
+  \end{array}
+$$
+
+\end{remark}
+
 
 ## Properties
 
+### General
+
+Essentially by definition:
+
 \begin{lem}
-$A\in\Omega^1(B,\operatorname{Ad}(E))$ is a Yang-Mills connection iff $(A,0)\in\Omega^1(B,\operatorname{Ad}(E))\times\Gamma^\infty(B,\operatorname{Ad}(E))$ is a Yang-Mills-Higgs pair.
+$A\in\Omega^1_{conn}(P)$ is a Yang-Mills connection iff $(A,0)\in\Omega^1_{conn}(P)\times\Gamma^\infty(Ad_P)$ is a Yang-Mills-Higgs pair.
 \end{lem}
 
-## Abelian Yang-Mills-Higgs equation
 
-For an abelian [[Lie group]] as [[structure group]], its [[Lie algebra]] is also abelian and hence all [[Lie brackets]] vanish and makes the [[Yang-Mills-Higgs equations]] into:
-
-$$
-\mathrm{d}\star\mathrm{d}A
-=0;
-$$
-$$
-\mathrm{d}\star\mathrm{d}\Phi
-=0.
-$$
-
-## Connection with generalized Laplace equation
+### Relation to generalized Laplace equation
 
 Let:
 
 $$
-\Delta_A
-\coloneqq\delta_A\mathrm{d}_A
-+\mathrm{d}_A\delta_A\colon
-\Omega^k(B,\operatorname{Ad}(E))\rightarrow\Omega^k(B,\operatorname{Ad}(E))
+  \Delta_A
+  \;\coloneqq\;
+  \delta_A\mathrm{d}_A
+    +
+  \mathrm{d}_A\delta_A
+  \;\colon\;
+  \Omega^k(B,\operatorname{Ad}(E))
+    \longrightarrow
+  \Omega^k(B,\operatorname{Ad}(E))
 $$
 
 be a [[generalized Laplace operator]].
@@ -182,16 +234,20 @@ be a [[generalized Laplace operator]].
 The [[Bianchi identity]] $\mathrm{d}_A F_A=0$ and the first [[Yang-Mills-Higgs equation]] $\delta_A F_A=-[\Phi,\mathrm{d}_A\Phi]$ combine to:
 
 $$
-\Delta_A F_A
-=-\mathrm{d}_A[\Phi,\mathrm{d}_A\Phi].
+  \Delta_A F_A
+  \;=\;
+  -\mathrm{d}_A[\Phi,\mathrm{d}_A\Phi].
 $$
 
 The trivial identity $\delta_A\Phi=0$ (since $\Phi$ is a $0$-form whose degree cannot be lowered any further) and the second [[Yang-Mills-Higgs equation]] $\delta_A\mathrm{d}_A\Phi=0$ combine to:
 
 $$
-\Delta_A\Phi
-=0.
+  \Delta_A\Phi
+  \;=\;
+  0
+  \mathrlap{\,.}
 $$
+
 
 ## Related entries
 
