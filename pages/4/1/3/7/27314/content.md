@@ -45,7 +45,7 @@ and write
 
   (and [[invariant polynomial|recall]] that the [[gauge invariance|gauge-invariants]] of the [[curvature 2-form]] $F_A$ of $A \in \Omega^1_{conn}(P;\mathfrak{g})$ descend to, hence are [[pullback of differential forms|pulled back from]], plain [[differential forms]] on $B$).
 
-If the base space is not [[compact topological space|compact]], then in the following the [[gauge field]] $A \in \Omega^1_{conn}(P)$ and the [[Higgs field]] $\Phi \in \Gamma^\infty(Ad_P)$ are required to [[vanishing at infinity|vanish at infinity]] (cf. [Taubes 1982a, Equation (2.3)](#Taubes82a)).
+If the base space is not [[compact topological space|compact]], then in the following the [[gauge field]] $A \in \Omega^1_{conn}(P;\mathfrak{g})$ and the [[Higgs field]] $\Phi \in \Gamma^\infty(Ad_P)$ are required to [[vanishing at infinity|vanish at infinity]] (cf. [Taubes 1982a, Equation (2.3)](#Taubes82a)).
 
 ### Action functional
  {#ActionFunctional}
@@ -86,7 +86,7 @@ The _Yang-Mills-Higgs [[action functional]]_ (or _YMH action functional_) is giv
 
 ### Yang-Mills-Higgs equations and pairs
 
-A [[pair]] consisting of a [[connection on a principal bundle|connection]] $A\in\Omega^1_{conn}(P)$ and a [[section]] $\Phi\in\Gamma^\infty(B,Ad_P)$ is called a _Yang-Mills-Higgs pair_ (or _YMH pair_) if it is a [[critical point]] of the Yang-Mills-Higgs action functional (eq:TheActionFunctional), hence if:
+A [[pair]] consisting of a [[connection on a principal bundle|connection]] $A\in\Omega^1_{conn}(P;\mathfrak{g})$ and a [[section]] $\Phi\in\Gamma^\infty(B,Ad_P)$ is called a _Yang-Mills-Higgs pair_ (or _YMH pair_) if it is a [[critical point]] of the Yang-Mills-Higgs action functional (eq:TheActionFunctional), hence if:
 
 $$
   \frac{\mathrm{d}}{\mathrm{d}t}
@@ -105,11 +105,11 @@ $$
   \mathllap{
     \alpha\colon
   }
-  (-\varepsilon \varepsilon)
+  (-\varepsilon, \varepsilon)
     &
     \longrightarrow 
     &
-  \Omega^1_{conn}(P)
+  \Omega^1_{conn}(P;\mathfrak{g})
   \\
   \mathllap{
     \varphi\colon
@@ -123,7 +123,10 @@ $$
   \end{array}
 $$ 
 
-with $\alpha(0)=A and \varphi(0)=\Phi$.
+with $\alpha(0)=A and \varphi(0)=\Phi$,
+
+(where $(-\epsilon, \epsilon) \subset \mathbb{R}$ denotes an [[open ball]] around the origin of the [[real line]]).
+
 
 This is the case iff the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] are satisfies, here called the *Yang-Mills-Higgs equations* (or _YMH equations_):
 
@@ -209,7 +212,7 @@ $$
 Essentially by definition:
 
 \begin{lem}
-$A\in\Omega^1_{conn}(P)$ is a Yang-Mills connection iff $(A,0)\in\Omega^1_{conn}(P)\times\Gamma^\infty(Ad_P)$ is a Yang-Mills-Higgs pair.
+$A\in\Omega^1_{conn}(P; \mathfrak{g})$ is a Yang-Mills connection (a solution of the plain [[Yang-Mills equations]]) iff $(A,0)\in\Omega^1_{conn}(P)\times\Gamma^\infty(Ad_P)$ is a Yang-Mills-Higgs pair.
 \end{lem}
 
 
