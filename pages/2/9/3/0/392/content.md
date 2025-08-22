@@ -35,6 +35,8 @@ Thus, "red herring" as used here is to be interpreted neutrally: it refers to a 
 
 * A [[multivalued function]] is not a [[function]], but a function is a special case of a multivalued function.
 
+* A [[nondeterministic automaton]] may be deterministic; it merely happens to lack nondeterministic transitions. In terms of the previous example, a nondeterministic automaton has a multivalued transition function, while a deterministic automaton has a transition function.
+
 * A [[planar ternary ring]] is not a [[ring]].  A general ring is not a planar ternary ring either; their "intersection" is the class of [[division rings]].
 
 Some adjectives are almost universally used as "red herring adjectives," i.e. placing that adjective in front of something makes it *more* general in some way.  Some red herring adjectives almost always have the same meaning, such as "pseudo" and "lax," but others, such as "weak," have different meanings in different contexts.
