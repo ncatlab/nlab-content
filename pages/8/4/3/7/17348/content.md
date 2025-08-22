@@ -1,6 +1,6 @@
 
 
-* [webpage](http://guests.mpim-bonn.mpg.de/tbarthel/)
+* [personal page](https://sites.google.com/view/tobiasbarthel/home)
 
 ## Selected writings
 
@@ -13,6 +13,10 @@ A new proof of the [[Strøm model structure]] using [[algebraic weak factorizati
 On [[chromatic homotopy theory]]:
 
 * [[Tobias Barthel]], [[Agnès Beaudry]], *Chromatic structures in stable homotopy theory*, in [[Handbook of Homotopy Theory]], Chapman and Hall/CRC Press (2019) &lbrack;[arXiv:1901.09004](https://arxiv.org/abs/1901.09004), [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)&rbrack;
+
+On [[model category]] [[structures]] on the [[category]] [[Set]] of [[sets]]:
+
+* [[Omar Antolín-Camarena]], [[Tobias Barthel]]: *The nine model category structures on the category of sets* &lbrack;[arXiv:2508.15731](https://arxiv.org/abs/2508.15731)&rbrack;
 
 
 category: people
