@@ -46,6 +46,10 @@ The [[free cocompletion]] of a locally small category $A$ under small colimits a
 
 Theorem 1 of [Kelly & Koubek 1981](#KellyKoubek1981) states that every [[functor]] $F \colon K \to A$, where $A$ has such colimits, admits a colimit if $F$ has a [[weakly terminal set]].
 
+## Other examples
+
+- A **local state classifier** in a category $A$ is a colimit of the [[wide subcategory]] $A_{mono} \to A$ of [[monomorphisms]] in $A$ ([Hora 2024](#Hora2024)). Proposition 3.17 ibid. states that every [[Grothendieck topos]] admits a local state classifier.
+
 ## Adjointness
 
 ### Total category
@@ -88,7 +92,10 @@ Despite its ill behaviour, it is possible to describe the cocompletion of a loca
 
 * {#Brandenburg2021} [[Martin Brandenburg]]. _Large limit sketches and topological space objects_. [arXiv preprint 2106.11115](https://arxiv.org/abs/2106.11115) (2021).
 
+* {#Hora2024} [[Ryuya Hora]], _Internal parameterization of hyperconnected quotients_, Theory and Applications of Categories 42.11 (2024): 263-313.
+
 [[!redirects compact category]]
 [[!redirects compact categories]]
 
-
+[[!redirects local state classifier]]
+[[!redirects local state classifiers]]
