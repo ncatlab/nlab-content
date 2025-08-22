@@ -6,8 +6,14 @@
 +--{: .hide}
 [[!include category theory - contents]]
 =--
+#### Limits and colimits
++-- {: .hide}
+[[!include infinity-limits - contents]]
 =--
 =--
+=--
+
+
 
 
 #Contents#
@@ -86,7 +92,7 @@ Despite its ill behaviour, it is possible to describe the cocompletion of a loca
 
 * {#BKR15} [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On reflective and coreflective hulls*, [[Cahiers|Cahiers Topologie Géométrie Différentielle Catégorique]] **56** (2015) 162–208 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/biref.pdf), [[BarrKennisonRaphael-Reflective.pdf:file]]&rbrack;
 
-* {#Walker2019} [[Charles Walker]]. "Distributive laws via admissibility." Applied Categorical Structures 27.6 (2019): 567-617.
+* {#Walker2019} Charles Walker: *Distributive laws via admissibility&, Applied Categorical Structures **27** 6 (2019) 567-617
 
 * {#LackTendas2023} [[Stephen Lack]] and [[Giacomo Tendas]]. _Virtual concepts in the theory of accessible categories_. [Journal of Pure and Applied Algebra 227.2 (2023): 107196.](https://doi.org/10.1016/j.jpaa.2022.107196)
 
