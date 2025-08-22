@@ -35,7 +35,7 @@ Alternatively, it is also possible to define a split monomorphism as an __absolu
 ## Properties
 
 \begin{proposition}
-Any split monomorphism is a [[monomorphism]], in fact a [[regular monomorphism]] (it is the [[equalizer]] of $m\circ r$ and $1_B$), and therefore also a [[strong monomorphism]], an [[extremal monomorphism]], and (of course) a [[monomorphism]].
+Any split monomorphism is a [[regular monomorphism]] (it is the [[equalizer]] of $m\circ r$ and $1_B$), and therefore also a [[strong monomorphism]], an [[extremal monomorphism]], and (of course) a [[monomorphism]].
 \end{proposition}
 
 Evident but important and in contrast to general [[monomorphisms]]:
