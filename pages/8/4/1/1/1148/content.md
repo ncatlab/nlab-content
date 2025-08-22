@@ -85,7 +85,7 @@ Write $X$ for the terminal sheaf of $X$, i.e. for the [[sheaf]] that corresponds
 Then
 
 $$
-  H^n(X,A) \coloneqq \pi_0 H(X,\mathbf{B}^n F)
+  H^n(X,F) \coloneqq \pi_0 H(X,\mathbf{B}^n F)
 $$
 
 is the degree $n$ [[cohomology]] class of $X$ with values in $F$, regarded as computed in [[nonabelian cohomology]].
