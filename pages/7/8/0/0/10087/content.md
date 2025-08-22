@@ -107,7 +107,7 @@ Treatment of the classifying space for spherical fibrations is in
 * {#Stasheff63} [[James Stasheff]], _A classification theorem for fibre spaces_, Topology Volume 2, Issue 3, October 1963, Pages 239-246.
 
 
-Reviews include
+Review:
 
 * {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 11 of  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
 
@@ -119,6 +119,11 @@ Reviews include
 * Oliver Straser, Nena R&#246;ttgens, _Spivak normal fibrations_ ([pdf](http://www.map.mpim-bonn.mpg.de/images/b/be/Regensburg2012Talk5.pdf))
 
 * S. Husseini, _Spherical fibrations_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/husseini2.pdf))
+
+See also:
+
+* Zhongjian Zhu, Jianzhong Pan: *Homotopy types of $S^{2k-1}$-bundles over $S^{2k}$* &lbrack;[arXiv:2508.13800](https://arxiv.org/abs/2508.13800)&rbrack;
+
 
 ### In rational homotopy theory
 
