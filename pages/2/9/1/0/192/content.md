@@ -141,6 +141,13 @@ On endofunctors and endo-adjunctions in Set:
 
 * [[Marta Bunge]], *Categories of set valued functors*, Reprints in Theory and Applications of Categories, No. 30 (2024) pp. 1-84 &lbrack;[pdf](http://www.tac.mta.ca/tac/reprints/articles/30/tr30.pdf)&rbrack;
 
+On [[model category]] [[structures]] on the category $Set$ of sets:
+
+* [[Tom Goodwillie]], MathOverflow comment (2010) &lbrack;[MO:a/29653](https://mathoverflow.net/a/29653/381)&rbrack;
+
+* [[Omar Antolín-Camarena]], [[Tobias Barthel]]: *The nine model category structures on the category of sets* &lbrack;[arXiv:2508.15731](https://arxiv.org/abs/2508.15731)&rbrack;
+
+
 category: category
 
 [[!redirects Sets]]
