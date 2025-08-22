@@ -86,7 +86,9 @@ On [[algebraic topology]] using [[strict ∞-groupoids]] (often in the equivalen
 
 * [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]]: *[[Nonabelian Algebraic Topology]]: filtered spaces, crossed complexes, cubical homotopy groupoids*, Tracts in Mathematics **15**, European Mathematical Society (2011) &lbrack;ISBN 978-3-03719-083-8, [doi:10.4171/083](https://doi.org/10.4171/083), [webpage](http://groupoids.org.uk/nonab-a-t.html)&rbrack;
 
+See also:
 
+* [[Omar Antolín-Camarena]], [[Ronnie Brown]]: *Corrigendum to "Groupoids, the Phragmen-Brouwer Property, and the Jordan Curve Theorem", J. Homotopy and Related Structures 1 (2006) 175-183* &lbrack;[arXiv:1404.0556](https://arxiv.org/abs/1404.0556), [pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/brouwer-cor-fin.pdf)&rbrack;
 
 
 
