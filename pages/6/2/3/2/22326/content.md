@@ -31,15 +31,18 @@ Via 11d [[superspace]]-cohomology (or mostly):
 
 * {#CGNT04} [[Martin Cederwall]], [[Ulf Gran]], [[Bengt Nilsson]], [[Dimitrios Tsimpis]], *Supersymmetric Corrections to Eleven-Dimensional Supergravity*, JHEP 0505:052 (2005) \[<a href="https://doi.org/10.1088/1126-6708/2005/05/052">doi;10.1088/1126-6708/2005/05/052</a>, [arXiv:hep-th/0409107](https://arxiv.org/abs/hep-th/0409107)\]
 
-* Yoshifumi Hyakutake, Sachiko Ogushi, _$R^4$ Corrections to Eleven Dimensional Supergravity via Supersymmetry_, Phys.Rev. D74 (2006) 025022 ([arXiv:hep-th/0508204](https://arxiv.org/abs/hep-th/0508204))
+* [[Yoshifumi Hyakutake]], Sachiko Ogushi: *$R^4$ Corrections to Eleven Dimensional Supergravity via Supersymmetry*, Phys. Rev. D **74** (2006) 025022 \[<a href="https://doi.org/10.1103/PhysRevD.74.025022">doi:10.1103/PhysRevD.74.025022</a>, [arXiv:hep-th/0508204](https://arxiv.org/abs/hep-th/0508204)\]
 
-* Yoshifumi Hyakutake, Sachiko Ogushi, _Higher Derivative Corrections to Eleven Dimensional Supergravity via Local Supersymmetry_, JHEP0602:068, 2006 ([arXiv:hep-th/0601092](https://arxiv.org/abs/hep-th/0601092))
+* [[Yoshifumi Hyakutake]], Sachiko Ogushi: _Higher Derivative Corrections to Eleven Dimensional Supergravity via Local Supersymmetry_, JHEP0602:068 (2006) \[<a href="https://doi.org/10.1088/1126-6708/2006/02/068">doi:10.1088/1126-6708/2006/02/068</a>, [arXiv:hep-th/0601092](https://arxiv.org/abs/hep-th/0601092)\]
 
 * [[Anirban Basu]], _Constraining gravitational interactions in the M theory effective action_, Classical and Quantum Gravity, Volume 31, Number 16, 2014 ([arXiv:1308.2564](https://arxiv.org/abs/1308.2564))
 
 * {#SoueresTsimpis17} [[Bertrand Souères]], [[Dimitrios Tsimpis]], *The action principle and the supersymmetrisation of Chern-Simons terms in eleven-dimensional supergravity*, Phys. Rev. D **95** 026013 (2017) \[<a href="https://doi.org/10.1103/PhysRevD.95.026013">doi:10.1103/PhysRevD.95.026013</a>, [arXiv:1612.02021](https://arxiv.org/abs/1612.02021)\]
 
 * [[Bertrand Souères]], _Supergravities in Superspace_, Lyon 2018 ([tel:01998725](https://tel.archives-ouvertes.fr/tel-01998725), [pdf](https://tel.archives-ouvertes.fr/tel-01998725/document))
+
+* [[Yoshifumi Hyakutake]]: *Effective Action in M-Theory: $(D F)^4$ Superinvariants* \[<a href="https://arxiv.org/abs/2507.14984">arXiv:2507.14984</a>\]
+
 
 #### Via superparticle scattering in 11d
 
@@ -96,17 +99,14 @@ See also
 
 * [[Mohammad Garousi]], _Minimal gauge invariant couplings at order $\ell^6_p$ in M-theory_ ([arXiv:2102.00639](https://arxiv.org/abs/2102.00639))
 
-* Yoshifumi Hyakutake: *Effective Action in M-Theory: $(D F)^4$ Superinvariants* \[<a href="https://arxiv.org/abs/2507.14984">arXiv:2507.14984</a>\]
-
-
 
 Discussion in view of the [[Starobinsky model of cosmic inflation]] is in
 
 * [[Katrin Becker]], [[Melanie Becker]], _Supersymmetry Breaking, M-Theory and Fluxes_, JHEP 0107:038,2001 ([arXiv:hep-th/0107044](https://arxiv.org/abs/hep-th/0107044))
 
-* Kazuho Hiraga, Yoshifumi Hyakutake, _Inflationary Cosmology via Quantum Corrections in M-theory_ ([arXiv:1809.04724](https://arxiv.org/abs/1809.04724))
+* Kazuho Hiraga, [[Yoshifumi Hyakutake]]: *Inflationary Cosmology via Quantum Corrections in M-theory*, Progress of Theoretical and Experimental Physics **2018** 11 (2018) 113B03 \[<a href="https://doi.org/10.1093/ptep/pty126">doi:10.1093/ptep/pty126</a>, [arXiv:1809.04724](https://arxiv.org/abs/1809.04724)\]
 
-* Kazuho Hiraga, Yoshifumi Hyakutake, _Scalar Cosmological Perturbations in M-theory with Higher Derivative Corrections_ ([arxiv:1910.12483](https://arxiv.org/abs/1910.12483))
+* Kazuho Hiraga, [[Yoshifumi Hyakutake]]: *Scalar Cosmological Perturbations in M-theory with Higher Derivative Corrections*, Progress of Theoretical and Experimental Physics **2020** 11 (2020) 113B03 \[<a href="https://doi.org/10.1093/ptep/ptaa142">doi:10.1093/ptep/ptaa142</a>, [arxiv:1910.12483](https://arxiv.org/abs/1910.12483)\]
 
 
 and in view of [[de Sitter spacetime]] vacua:
