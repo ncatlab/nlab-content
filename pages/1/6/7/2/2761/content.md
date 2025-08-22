@@ -187,6 +187,10 @@ Discussion in [[simplicial type theory]]:
 
 * {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
+Discussion of [[(infinity,2)-category|$(\infty,2)$]]-naturality:
+
+* [[Tobias Lenz]]: *Revisiting  $(\infty,2)$-naturality of the Yoneda embedding* &lbrack;[arXiv:2508.11526](https://arxiv.org/abs/2508.11526)&rbrack;
+
 Formalization of the $(\infty,1)$-Yoneda lemma via [[simplicial homotopy type theory]] (in [[Rzk]]):
 
 * [[Nikolai Kudasov]], [[Emily Riehl]], [[Jonathan Weinberger]]. *Formalizing the $\infty$-categorical Yoneda lemma* (2023) &lbrack;[arXiv:2309.08340](https://arxiv.org/abs/2309.08340)&rbrack;
