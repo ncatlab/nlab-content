@@ -29,7 +29,7 @@ Some [[mathematics]] that has been formalized in Lean (in particular in the [[Xe
 
 * basic [[synthetic mathematics]] [[homotopy theory]] ([[HoTT]])
 
-  * [github.com/forked-from-1kasper/ground_zero](https://github.com/forked-from-1kasper/ground_zero)
+  * [github.com/rzrn/ground_zero](https://github.com/rzrn/ground_zero)
 
   * [github.com/gebner/hott3](https://github.com/gebner/hott3)
 
