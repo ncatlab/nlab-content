@@ -1,6 +1,11 @@
 
 * [personal page](https://sites.ualberta.ca/~creutzig/)
 
+* [institute page](https://www.fau.de/2024/07/news/neu-an-der-uni-prof-dr-thomas-creutzig/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=318391)
+
+
 ## Selected writings
 
 On [[logarithmic CFT]]:
