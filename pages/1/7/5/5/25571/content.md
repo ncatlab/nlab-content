@@ -54,6 +54,8 @@ Theorem 1 of [Kelly & Koubek 1981](#KellyKoubek1981) states that every [[functor
 
 ## Other examples
 
+- The [[terminal object]] in a category $A$ is a colimit of the [[identity functor]] on $A$.
+
 - A **local state classifier** in a category $A$ is a colimit of the [[wide subcategory]] $A_{mono} \to A$ of [[monomorphisms]] in $A$ ([Hora 2024](#Hora2024)). Proposition 3.17 ibid. states that every [[Grothendieck topos]] admits a local state classifier.
 
 ## Adjointness
@@ -66,7 +68,7 @@ A [[total category]] is a category whose [[Yoneda embedding]] admits a [[left ad
 
 A category $A$ is **[[compact category|compact]]** in the sense of [Isbell (1968)](#Isbell68) if every (large-)[[cocontinuous functor]] from $A$ has a [[right adjoint]].
 
-> Beware that this is *un-related* to the notion of [[compact closed category]].
+> Beware that this is *unrelated* to the notion of [[compact closed category]].
 
 Every compact category has small [[limits]] and [[intersections]] of [[monomorphisms]], but not necessarily small colimits. A [[counterexample]] is mentioned in §3.15 of [Börger et al.](#Borger1981).
 
