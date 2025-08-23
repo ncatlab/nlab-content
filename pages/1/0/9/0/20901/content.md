@@ -1,7 +1,7 @@
 [[!redirects Pre-net]]
 ## Idea
 
-A pre-net is a [[Petri net]] equipped with an ordering on the input and output of each event. These freely generate strict [[symmetric monoidal categories]] whereas [[Petri nets]] freely generate [[commutative monoidal categories]]. Pre-nets are the same as the [[tensor schemes]] defined by [Joyal and Street](#schemes).
+A pre-net is a [[Petri net]] equipped with an ordering on the input and output of each event. These give appropriate data from which to freely generate a [[strict monoidal category]] or a [[symmetric monoidal categories|symmetric strict monoidal category]], whereas a [[Petri net]] is appropriate data from which to freely generate a [[commutative monoidal category]]. Pre-nets are the same as the [[tensor schemes]] defined by [Joyal and Street](#schemes).
 
 ## Definition 
 
