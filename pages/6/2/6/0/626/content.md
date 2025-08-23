@@ -372,7 +372,7 @@ following
 
 and in
 
-* [[André Joyal]], [[Ross Street]], _The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011 ([pdf](https://core.ac.uk/download/pdf/82659437.pdf), <a href="https://doi.org/10.1016/0001-8708(91)90003-P">doi:10.1016/0001-8708(91)90003-P</a>)
+* {#JoyalStreet91} [[André Joyal]], [[Ross Street]]: *The geometry of tensor calculus I_, Advances in Math. 88 (1991) 55-112; MR92d:18011 &lbrack;[pdf](https://core.ac.uk/download/pdf/82659437.pdf), <a href="https://doi.org/10.1016/0001-8708(91)90003-P">doi:10.1016/0001-8708(91)90003-P</a>&rbrack;
 
 * [[André Joyal]] and [[Ross Street]], _The geometry of tensor calculus II_  ([pdf](http://www.math.mq.edu.au/~street/GTCII.pdf))
 
@@ -467,6 +467,15 @@ For [[indexed monoidal categories]] in
 For [[symmetric monoidal category|symmetric]] [[traced monoidal categories]] in 
 
 * George Kaye, _The Graphical Language of Symmetric Traced Monoidal Categories_, ([arXiv:2010.06319](https://arxiv.org/abs/2010.06319))
+
+Further elaboration on the method of [Joyal & Street 1991](#JoyalStreet91):
+
+* {#HuLuYe19} Sen Hu, Xuexing Lu, Yu Ye: *A graphical calculus for semi-groupal categories*, Appl Categor Struct **27** (2019) 163–197 &lbrack;[arXiv:1604.07276](https://arxiv.org/abs/1604.07276), [doi:10.1007/s10485-018-9549-8](https://doi.org/10.1007/s10485-018-9549-8)&rbrack;
+
+* Xuexing Lu, Yu Ye: *Combinatorial characterization of upward planarity*, Commun. Math. Stat. **7** (2019) 207–223  &lbrack;[arXiv:1608.07255](https://arxiv.org/abs/1608.07255), [doi:10.1007/s40304-018-0169-2](https://doi.org/10.1007/s40304-018-0169-2)&rbrack;
+
+
+
 
 The generalization of string diagrams to one dimension higher is discussed in
 
