@@ -71,11 +71,13 @@ It was [conjectured](http://en.wikipedia.org/wiki/Elementary_function_arithmetic
 
 [McLarty 2010](#McLarty10) comments extensively on the possibility of proving Fermat's last theorem, and more generally the Modularity theorem, in PA.
 
+
 ### Busy Beaver function
 
-The value of the Busy Beaver function at $n = 745$ is independent of the [[ZFC]] axioms (see [Aaronson 2023](#Aaronson23)). This was later claimed to be reduced down to $n = 549$, as of 16 July 2025 (see [the Busy Beaver Challenge wiki](#BBCWiki)); however, none of this work has been written down in a paper yet. 
+The value of the [[Busy Beaver function]] at $n = 748$ (in fact already at $n = 745$) is independent of the [[ZFC]] axioms ([Riebel 2023](busy+beaver+function#Riebel23), recalled by [Aaronson 2023](busy+beaver+function#Aaronson23)). This was later claimed to be reduced down to $n = 549$, as of 16 July 2025 (see [the Busy Beaver Challenge wiki](busy+beaver+function#BBCWiki)); however, none of this work has been formally published yet. 
 
-[Aaronson 2020](#Aaronson20) has conjectured that the value of the Busy Beaver function is independent of the [[ZFC]] axioms at $n \leq 20$. 
+[Aaronson 2020](busy+beaver+function#Aaronson20) has conjectured that the value of the Busy Beaver function is independent of the [[ZFC]] axioms at $n \leq 20$. 
+
 
 ## See also
 
@@ -89,14 +91,9 @@ The value of the Busy Beaver function at $n = 745$ is independent of the [[ZFC]]
 * {#McLarty20} [[Colin McLarty]], _The large structures of Grothendieck founded on finite-order arithmetic_, The Review of Symbolic Logic **13**  2 (2020) 296 - 325 &lbrack;[arXiv:1102.1773v4](https://arxiv.org/abs/1102.1773v4), [doi:10.1017/S1755020319000340](https://doi.org/10.1017/S1755020319000340)&rbrack;
 
 
-
 * {#Quinn12} [[Frank Quinn]]: *A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today*, Notices of the AMS (2012) &lbrack;[pdf](http://www.ams.org/notices/201201/rtx120100031p.pdf)&rbrack;
 
-* {#Aaronson20} [[Scott Aaronson]], *The Busy Beaver Frontier*, ACM SIGACT News, Volume 51, Issue 3, Pages 32 - 54, 29 September 2020 &lbrack;[doi:10.1145/3427361.3427369](https://doi.org/10.1145/3427361.3427369)&rbrack;
 
-* {#Aaronson23} [[Scott Aaronson]], *Life, blogging, and the Busy Beaver function go on*, blog entry (5 July 2023) &lbrack;[web](https://scottaaronson.blog/?p=7388)&rbrack;
-
-* {#BBCWiki} *Independence from ZFC*, the Busy Beaver Challenge Wiki. &lbrack;[web](https://wiki.bbchallenge.org/wiki/Independence_from_ZFC)&rbrack;
 
 [[!redirects effects of foundations on "real" mathematics]]
 
