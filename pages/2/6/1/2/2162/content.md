@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Group Theory
-+-- {: .hide}
-[[!include group theory - contents]]
-=--
 #### Algebra
 +--{: .hide}
 [[!include higher algebra - contents]]
+=--
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
 =--
 =--
 =--
@@ -195,4 +195,12 @@ For a pro-$l$-version of Fox calculus see
 
 * _Pro-$l$ Fox free differential calculus_, section 8.3 of [[Masanori Morishita]], _Knots and primes: an introduction to arithmetic topology_, Springer 2012
 
+
 [[!redirects Fox derivatives]]
+
+[[!redirects left Fox derivative]]
+[[!redirects left Fox derivatives]]
+
+[[!redirects right Fox derivative]]
+[[!redirects right Fox derivatives]]
+
