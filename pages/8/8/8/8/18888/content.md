@@ -15,11 +15,13 @@ A **Turing machine** is a [[model of computation]]. It can be thought of as a ma
 
 It then repeats this sequence until its state is a _halting_ state, if ever, where a halting state is one special state specified in advance.
 
-## See also
+## Related concept
 
 * [[lambda-calculus]]
 
 * [[halting problem]]
+
+* [[busy beaver function]]
 
 ## References
 
