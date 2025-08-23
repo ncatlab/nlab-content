@@ -43,6 +43,11 @@ If $\mathcal{P}$ is closed under pullback, then a morphism $h_X\to h_Y$ between 
 
 * [[representable morphism of stacks]] (extends this notion from presheaves to stacks)
 
+
+## Reference
+
+* The Stacks Projects, [tag 0023](https://stacks.math.columbia.edu/tag/0023)
+
 [[!redirects representable morphisms]]
 [[!redirects representable morphism of presheaves]]
 [[!redirects representable morphisms of presheaves]]
