@@ -158,7 +158,7 @@ Given an Archimedean ordered field extension $R$ of the [[Cauchy real numbers]],
 
 * That the [[floor]] and [[ceiling]] [[partial functions]] are [[total functions]] on $R$ is equivalent to the analytic LPO for $R$. 
 
-* That $R$ coincides with the [[prealgebra real numbers]] is equivalent to the analytic LPO for $R$. 
+* That $R$ coincides with the union of [[rational numbers]] and strictly [[irrational numbers]] (defined as non-repeating infinite [[radix notation|sequence of digits]]) is equivalent to the analytic LPO for $R$. 
 
 * The analytic $\mathrm{LPO}$ for $R$ implies the [[fundamental theorem of algebra]] for $R$. 
 
