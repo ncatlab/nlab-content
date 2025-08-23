@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -338,11 +339,18 @@ There is also a 2-categorical approach using quasicategories in
 
 ## References
 
-The original reference for the (crude and precise) monadicity theorems is an untitled manuscript of [[Jon Beck]] that was distributed around 1966 -- 1968. The following is a scan of a copy distributed at the *Conference Held at the Seattle Research Center of the Battelle Memorial Institute* in June -- July 1968, provided by John Kennison:
+The original reference for the (crude and precise) monadicity theorems is an untitled manuscript of [[Jon Beck]] that was distributed around 1966 -- 1968. 
 
-* {#Beck68} [[Jon Beck]], untitled manuscript, 1968 ([[Beck_MonadicityTheorem.pdf:file]])
+A scan of a copy distributed at the *Conference Held at the Seattle Research Center of the Battelle Memorial Institute* in June -- July 1968, provided by John Kennison:
 
-see also:
+* {#Beck68} [[Jon Beck]], untitled manuscript (1968) &lbrack;[[Beck_MonadicityTheorem.pdf:file]]&rbrack;
+
+A retyped reprint:
+
+* [[Jonathan Mock Beck]]: *The tripleableness theorem*, Reprints in Theory and Applications of Categories **31** (2024) 1-11 &lbrack;[tac:tr31](http://www.tac.mta.ca/tac/reprints/articles/31/tr31abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/31/tr31.pdf)&rbrack;
+
+
+See also:
 
 * [[Michael Barr]], *Coalgebras in a category of algebras*, in: *Category Theory, Homology Theory and their Applications I*, Lecture Notes in Mathematics **86**, Springer (1969) 1-12 &lbrack;[doi:10.1007/BFb0079381](https://doi.org/10.1007/BFb0079381)&rbrack;
 
