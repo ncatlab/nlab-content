@@ -16,9 +16,10 @@ On [[mapping class groups]] and [[braid groups]]:
 
 * {#Massuyeau21} [[Gwénaël Massuyeau]]: *Lectures on Mapping Class Groups, Braid Groups and Formality* (2021) &lbrack;[pdf](https://massuyea.perso.math.cnrs.fr/notes/formality.pdf), [[Massuyeau-MCGFormality.pdf:file]]&rbrack;
 
-On [[Fox pairings]], 
+On [[Fox derivatives]], [[Fox pairings]], and [[Dehn twists]]:
 
-* Gwénaël Massuyeau, [[Vladimir Turaev]], _Fox pairings and generalized Dehn twists_, Annales de l'Institut Fourier __63__:5 (2013) 2403--2456 [doi](https://doi.org/10.5802/wbln.38) [arXiv:1109.5248](https://arxiv.org/abs/1109.5248)
+* {#MassuyeauTuraev13} [[Gwénaël Massuyeau]], [[Vladimir Turaev]]: *Fox pairings and generalized Dehn twists*, Annales de l'Institut Fourier **63** 5 (2013) 2403-2456 &lbrack;[doi:10.5802/wbln.38](https://doi.org/10.5802/wbln.38), [arXiv:1109.5248](https://arxiv.org/abs/1109.5248)&rbrack;
+
 
 category: people
 
