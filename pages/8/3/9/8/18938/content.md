@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
 # Radix notation
 * table of contents
 {: toc}
@@ -32,6 +42,27 @@ In [[classical mathematics]], every nonnegative real number may be represented i
 
 Given $n$ unique symbols for the $n$ digits, the real number represented by a sequence of digits may be written by, beginning at the smallest place whose digit is nonzero, writing the symbols in order, with a dot (or comma), called the __radix point__, between place $0$ and place $1$ (and padding zeroes after the radix point if the first nonzero digit has not yet been reached).  Of course, the sequence is still infinite and cannot be written down, but we may write any finite portion.  The $n$-adic rationals can be represented exactly by leaving out the infinitely repeating digit $0$; arbitrary [[rational numbers]] may be represented exactly by a bar over a list of digits that repeats infinitely.  (It is a theorem that every non-$n$-adic rational number can be uniquely represented in this way; in fact, only rational numbers can be so represented.)  A subscript may be used to indicate the base $n$ (with a default base $10$ in practice).  Finally, a negative real number is written by writing its [[absolute value]] after a minus sign.
 
+## Decimal radix notation and real numbers
+
+Mathematician and Usenet legend [[Alexander Abian]], before branching into speculative physics, advocated polemically that the real numbers should be defined as finite or infinite sequences of decimal digits; see [Abian 1981](#Abian1981). While not favoured by most mathematicians due to the inelegance of the definitions and proofs, this is the form in which the real numbers are often presented to elementary students. 
+
+There is a similar definition that is also commonly used in presentations of the [[real numbers]] to elementary students: first of the [[irrational numbers]] as the non-repeating infinite sequence of decimal digits, and then the real numbers as consisting of the [[rational numbers]] and the irrational numbers (e.g. [Nichols 1992](#Nicholas92), [Marecek 2020](#Marecek20)). 
+
+More formally, let $\mathbb{Q}$ be the set of [[rational numbers]] and let $[0, 9]$ denote the [[interval]] in the [[natural numbers]] of all natural numbers between $0$ and $9$ inclusive. Infinite decimals representations are elements of $\mathbb{Z} \times [0, 9]^\mathbb{N}$, with the idea that each pair $(i, d)$ consists of an integer $i$ and a sequence of digits $d(n)$ in the infinite decimal representation. The [[series]] 
+$$\sum_{n = 0}^\infty i + \frac{d(n)}{10^{n + 1}}$$
+can be shown to be a [[Cauchy sequence]]. 
+
+The set of repeating infinite decimal representations is the subset of $\mathbb{Z} \times [0, 9]^\mathbb{N}$ such that for pairs $(i, d)$ in the subset, there exist natural number $k$ and positive natural number $n$ such that the sequence $\lambda m.d(m + k)$ factors through the [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$. 
+
+$$\lambda m.d(m + k):\mathbb{N} \to \mathbb{Z}/n\mathbb{Z} \to [0, 9]$$
+
+Two infinite decimal representations $(i, d)$ and $(j, e)$ are said to be [[apartness relation|apart from]] each other if $i \neq j$ or there exists a natural number $n$ such that $d(n) \neq e(n)$. An infinite decimal representation $x$ is said to be strictly non-repeating if it is apart from every repeating base $b$ infinite radix expansion. Let $\mathbb{J}$ be the set of strictly non-repeating infinite decimal representations. These are referred to as the [[irrational numbers]] in the prealgebra and high school algebra literature. Then the set of real numbers is the ([[disjoint union|disjoint]]) [[union]] of $\mathbb{Q}$ and $\mathbb{J}$. 
+
+In [[constructive mathematics]], this definition only results in a subset of the real numbers, since not every real number can be shown to be either a rational number or an irrational number - this statement is equivalent to the [[analytic LPO]] when irrational is defined strictly in the sense of being [[tight apartness relation|apart from]] the rational numbers, and equivalent to the [[analytic WLPO]] when irrational is defined weakly in the sense of the negation of equality with any rational number. 
+
+In addition, not every strictly irrational number is the limit of the series
+$$\sum_{n = 0}^\infty i + \frac{d(n)}{10^{n + 1}}$$
+given by a strictly non-repeating infinite decimal representation. However, it is still the case that strictly irrational numbers which are also a [[Cauchy real number]] are interdefinable with strictly non-repeating infinite decimal representation. 
 
 ## Generalizations
 
@@ -74,12 +105,20 @@ In [[constructive mathematics]], it is not generally true that every [[real numb
 
 In [[nonstandard analysis]], every [[hyperreal number]] has a radix expansion (by the [[transfer principle]]), but these now have digits with nonstandard natural places.  The expansion of a nonstandard hyperreal will have digits at nonstandard places that cannot be predicted by the digits at standard places.  A well-known example is that (in base $10$) $0.\overline{9} \lt 1$ if it is understood that the bar applies a hyperfinite but nonstandard number of places (although $0.\overline{9} = 1$, as usual, if the bar applies to all places).  One wants to write $1 - 0.\overline{9} = 0.\overline{0}1$, but this is misleading, because the bar on the left-hand side includes one more digit than the bar on the right-hand side; $1 - 0.\overline{9}9 = 0.\overline{0}1$ would be more accurate.  Of course, one could write this same equation in standard mathematics if the bar is understood to apply to a large but finite number of places.  (Note that it's not possible to have the bar apply to *exactly* the standard places, since the set of standard natural numbers is not definable.  Indeed, in that case the $1$ would have to be at the least nonstandard place, and there is no such number.)
 
-Mathematician and Usenet legend [[Alexander Abian]], before branching into speculative physics, advocated polemically that the real numbers should be defined as finite or infinite sequences of decimal digits; see [Abian 1981](#Abian1981). While not favoured by most mathematicians due to the inelegance of the definitions and proofs, this is the form in which the real numbers are often presented to elementary students (e.g. [Nichols 1992](#Nicholas92), [Marecek 2020](#Marecek20)).
+## Related concepts
+
+* [[real numbers]], [[rational numbers]], [[irrational numbers]]
+* [[analytic LPO]], [[analytic WLPO]]
+* [[infinite decimal representation of a unit interval]]
 
 ## References
 
 * [[Alexander Abian]]. 1981. Calculus must consist of the study of real numbers in their decimal representation and not of the study of an abstract complete ordered field or nonstandard real numbers. International Journal of Mathematical Education in Science and Technology 12(4). [Doi:10.1080/0020739810120417](https://doi.org/10.1080/0020739810120417).
   {#Abian1981}
+
+* {#Nicholas92} Nichols, Eugene D, et al. Holt Algebra with Trigonometry. Holt, Rinehart and Winston : Harcourt Brace Jovanovich, 1992. 
+
+* {#Marecek20} Marecek, Lynn, et al. Prealgebra 2e. OpenStax, Rice University, 2020. 
 
 * [[Fred Richman]], *Is 0.999… = 1?*. Mathematics Magazine, Volume 72, Issue 5, 1999, Pages 396-400, &lbrack;[doi:10.1080/0025570X.1999.11996777](https://doi.org/10.1080/0025570X.1999.11996777)&rbrack;
   {#Richman1999}
@@ -87,10 +126,6 @@ Mathematician and Usenet legend [[Alexander Abian]], before branching into specu
 * {#Mehkeri} David Feldman (2010) on Math.Overflow, [Radix notation and toposes](http://mathoverflow.net/questions/49775/radix-notation-and-toposes/)
 
 * {#Swan} Madeleine Birchfield (2024) on Category Theory Zulip, [Radix expansions in constructive mathematics](https://categorytheory.zulipchat.com/#narrow/stream/229199-learning.3A-questions/topic/Radix.20expansions.20in.20constructive.20mathematics)
-
-* {#Nicholas92} Nichols, Eugene D, et al. Holt Algebra with Trigonometry. Holt, Rinehart and Winston : Harcourt Brace Jovanovich, 1992. 
-
-* {#Marecek20} Marecek, Lynn, et al. Prealgebra 2e. OpenStax, Rice University, 2020. 
 
 [[!redirects radix notation]]
 [[!redirects positional notation]]
@@ -111,3 +146,11 @@ Mathematician and Usenet legend [[Alexander Abian]], before branching into specu
 [[!redirects decimal expansions]]
 [[!redirects decimal representation]]
 [[!redirects decimal representations]]
+
+[[!redirects prealgebra real number]]
+[[!redirects prealgebra real numbers]]
+[[!redirects pre-algebra real number]]
+[[!redirects pre-algebra real numbers]]
+
+[[!redirects high school algebra real number]]
+[[!redirects high school algebra real numbers]]
