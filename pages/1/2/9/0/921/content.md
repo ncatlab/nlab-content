@@ -267,7 +267,7 @@ The **smooth real numbers** (say in a [[smooth topos]]) are only an [[ordered lo
 ### Other definitions
 
 * [[Eudoxus real number]]
-* [[prealgebra real number]]
+* real numbers defined in terms of [[radix notation]]
 
 ## Topologies
 {#Topologies}
