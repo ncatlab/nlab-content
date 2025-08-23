@@ -108,7 +108,7 @@ Then
 \begin{example}
 The category $Top$ of [[topological spaces]] does not have any small full subcategory which is dense. Indeed, $Top$ is not generated under colimits by any small subcategory.
 
-The category $Set^{op}$ has a small full subcategory which is dense if and only if there is not a proper class of [[measurable cardinals]], a result due to Isbell.
+The category $Set^{op}$ has a small full subcategory which is dense if and only if there is not a proper class of [[measurable cardinals]], a result due to [Isbell](#Isbell), Section 2.5.
 \end{example}
 
 \begin{example}
@@ -149,7 +149,7 @@ More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)
 
 * {#GabrielUlmer71} [[Pierre Gabriel|Peter Gabriel]], [[Friedrich Ulmer]], _Lokal pr&#228;sentierbare Kategorien_, LNM **221** Springer Heidelberg 1971. (&#167; 3, pp.38-44)
 
-* {: #MR0175954 } [[John Isbell]], _Adequate subcategories_, Illinois J. Math. **4** (1960) pp.541-552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954). ([euclid](https://projecteuclid.org/euclid.ijm/1255456274))
+* {: #MR0175954 } {#Isbell} [[John Isbell]], _Adequate subcategories_, Illinois J. Math. **4** (1960) pp.541-552. [MR0175954](http://www.ams.org/mathscinet-getitem?mr=0175954). ([euclid](https://projecteuclid.org/euclid.ijm/1255456274))
  
 * [[John Isbell]], _Subobjects, adequacy, completeness and categories of algebras_, Rozprawy Mat. **36** (1964) pp.1-32. ([toc](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e), [pdf](http://pldml.icm.edu.pl/pldml/element/bwmeta1.element.desklight-0dbcb276-0b92-49eb-b504-a9963119ea3e/c/rm36_01.pdf))
 
