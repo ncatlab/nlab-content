@@ -18,7 +18,7 @@ What is now called the *busy beaver function* $BB \colon \mathbb{N} \longrightar
 
 ## Properties
 
-The beasy beaver function is [[computability|non-computable]].
+The busy beaver function is [[computability|non-computable]].
 
 Some of its values are known or have been argued to be independent of the [[ZFC]]-[[axioms]] of [[set theory]] &lbrack;[Riebel 2023](#Riebel23)&rbrack;.
 
@@ -62,7 +62,9 @@ Review:
 
 See also:
 
-* Wipipedia: *[Busy beaver](https://en.wikipedia.org/wiki/Busy_beaver)*
+* Wikipedia: *[Busy beaver](https://en.wikipedia.org/wiki/Busy_beaver)*
+
+* The Busy Beaver Challenge Wiki, [web](https://wiki.bbchallenge.org/wiki/Main_Page)
 
 
 On undecidability of values of the busy beaver function:
@@ -72,6 +74,12 @@ On undecidability of values of the busy beaver function:
 * {#Aaronson23} [[Scott Aaronson]], *Life, blogging, and the Busy Beaver function go on*, blog entry (5 July 2023) &lbrack;[web](https://scottaaronson.blog/?p=7388)&rbrack;
 
 * {#BBCWiki} *Independence from ZFC*, the Busy Beaver Challenge Wiki &lbrack;[web](https://wiki.bbchallenge.org/wiki/Independence_from_ZFC)&rbrack;
+
+
+For an argument that BB(6) will be hard to find in a technical sense (it requires solving a [Collatz](https://en.wikipedia.org/wiki/Collatz_conjecture)-like problem for a candidate TM), see 
+
+* Shawn Ligocki, _BB(6) is Hard (Antihydra)_, [blog post](https://www.sligocki.com/2024/07/06/bb-6-2-is-hard.html)
+
 
 
 [[!redirects busy beaver]]
