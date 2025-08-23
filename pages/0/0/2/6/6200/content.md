@@ -40,7 +40,7 @@ We may give $\mathbb{J}$ a [[topological structure|topology]] as a [[subspace]] 
 
 ### As non-repeating radix expansions
 
-There is another definition of irrational number, common in the prealgebra and high school algebra literature, which directly defines the irrational numbers in terms of base 10 infinite radix expansions. (see [[prealgebra real number]]). This can be done in every base greater than 1:
+There is another definition of irrational number, common in the prealgebra and high school algebra literature, which directly defines the irrational numbers in terms of base 10 infinite radix expansions. (see [[radix notation]]). This can be done in every base greater than 1:
 
 Let the natural number $b \gt 1$ denote the base of the radix expansion, $[0, b)$ denote the half-open [[interval]] in the [[natural numbers]] of all natural numbers less than $b$. Base $b$ infinite radix expansions are elements of $\mathbb{Z} \times [0, b)^\mathbb{N}$, with the idea that each pair $(i, d)$ consists of an integer $i$ and a sequence of digits $d(n)$ in the base $b$ infinite radix expansion. The [[series]] 
 $$\sum_{n = 0}^\infty i + \frac{d(n)}{b^{n + 1}}$$
