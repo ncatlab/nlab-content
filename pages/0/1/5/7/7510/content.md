@@ -149,7 +149,38 @@ Given a [[dependent type theory]] with [[function types]], [[dependent sum types
 
 $$\prod_{x:A} B(x) \coloneqq \sum_{f:A \to \sum_{x:A} B(x)} \lambda x:A.\pi_1(f(x)) =_{A \to A} \mathrm{id}_A$$
 
-Assuming the usual inference rules for the three types using [[judgmental equality]], the resulting type satisfies the formation rule, introduction rule, elimination rule, judgmental $\beta$-conversion rule, and propositional $\eta$-conversion rule of a [[dependent product type]], as well as an additional computation rule which states that evaluating $\eta$ at a [[constant function]] $\lambda x.b$ computes to [[reflexivity]]. See [Otten, Birchfield & Shulman 2025](#OBS25) on the Category Theory Zulip for more details. 
+Assuming the usual inference rules for the three types using [[judgmental equality]], in addition to the formation rule of a dependent product type given above, the resulting type also satisfies the
+
+* introduction rule of a dependent product type: for every type family $x:A \vdash B(x)$ and family of elements $x:A \vdash b(x):B(x)$, there is an element 
+
+$$(\lambda x:A.(x, b(x)), \mathrm{refl}_{A \to A}(\mathrm{id}_A)):\prod_{x:A} B(x)$$
+
+* elimination rule of a dependent product type: for every dependent function $g$ there is a family of elements 
+
+$$x:A \vdash \mathrm{tr}_{\mathrm{happly}(\pi_2(g), x)}(\pi_2(\pi_1(g)(x)):B(x)$$
+
+In this section, $\pi_1$ and $\pi_2$ are from the [[elimination rules]] of [[dependent product types]]. 
+
+* judgmental $\beta$-conversion rule of a dependent product type: for every type family $x:A \vdash B(x)$ and family of elements $x:A \vdash b(x):B(x)$, one can show that 
+
+$$
+\begin{array}{c}
+\mathrm{tr}_{\mathrm{happly}(\pi_2((\lambda x.(x, b(x)), \mathrm{refl}_{A \to A}(\mathrm{id}_A))), x)}(\pi_2(\pi_1((\lambda x.(x, b(x)), \mathrm{refl}_{A \to A}(\mathrm{id}_A)))(x)) \equiv \mathrm{tr}_{\mathrm{happly}(\mathrm{refl}_{A \to A}(\mathrm{id}_A), x)}(\pi_2(\lambda x.(x, b(x))(x)) \\
+\equiv \mathrm{tr}_{\mathrm{happly}(\mathrm{refl}_{A \to A}(\mathrm{id}_A), x)}(\pi_2((x, b(x)) \equiv \mathrm{tr}_{\mathrm{happly}(\mathrm{refl}_{A \to A}(\mathrm{id}_A), x)}(b(x)) \equiv b(x)
+\end{array}
+$$
+
+* propositional $\eta$-conversion rule of a dependent product type: for every dependent function $g$, one has an element 
+
+$$(\lambda x:A.(x, \mathrm{tr}_{\mathrm{happly}(\pi_2(g), x)}(\pi_2(\pi_1(g)(x))), \mathrm{refl}_{A \to A}(\mathrm{id}_A))$$
+
+which is propositionally equal to the original function 
+
+$$g \equiv (\lambda x:A.(\pi_1(\pi_1(g)(x)), \pi_2(\pi_1(g)(x)), \pi_2(g)), \mathrm{refl}_{A \to A}(\mathrm{id}_A))$$
+
+by function application across $\pi_2(g):\lambda x.\pi_1(\pi_1(g)(x)) = \mathrm{id}_A$. 
+
+There is also an additional computation rule provable for this type which states that evaluating the $\eta$ above at a [[constant function]] $\lambda x.b$ computes to [[reflexivity]]. See [Otten, Birchfield & Shulman 2025](#OBS25) on the Category Theory Zulip for more details. 
 
 ### As types of dependent anafunctions
 
