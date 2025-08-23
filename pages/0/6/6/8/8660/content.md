@@ -82,6 +82,9 @@ If $X$ is a variety over an algebraically closed field $k$ and $x\in X(k)$ is a 
 
 * [[augmented A-∞ algebra]]
 
+* [[Fox derivative]]
+
+
 ## References
 
 * [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_
