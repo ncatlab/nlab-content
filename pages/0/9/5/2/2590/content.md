@@ -73,7 +73,9 @@ It was [conjectured](http://en.wikipedia.org/wiki/Elementary_function_arithmetic
 
 ### Busy Beaver function
 
-The value of the Busy Beaver function at $n = 745$ is independent of the [[ZFC]] axioms (see [Aaronson 2023](#Aaronson23)).
+The value of the Busy Beaver function at $n = 745$ is independent of the [[ZFC]] axioms (see [Aaronson 2023](#Aaronson23)). This was later claimed to be reduced down to $n = 549$, as of 16 July 2025 (see [the Busy Beaver Challenge wiki](#BBCWiki)); however, none of this work has been written down in a paper yet. 
+
+[[Scott Aaronson]] has conjectured that the value of the Busy Beaver function is independent of the [[ZFC]] axioms at $n \leq 20$ (see [Aaronson 2020](#Aaronson20)). 
 
 ## See also
 
@@ -90,7 +92,11 @@ The value of the Busy Beaver function at $n = 745$ is independent of the [[ZFC]]
 
 * {#Quinn12} [[Frank Quinn]]: *A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today*, Notices of the AMS (2012) &lbrack;[pdf](http://www.ams.org/notices/201201/rtx120100031p.pdf)&rbrack;
 
+* {#Aaronson20} [[Scott Aaronson]], *The Busy Beaver Frontier*, ACM SIGACT News, Volume 51, Issue 3, Pages 32 - 54, 29 September 2020 &lbrack;[doi:10.1145/3427361.3427369](https://doi.org/10.1145/3427361.3427369)&rbrack;
+
 * {#Aaronson23} [[Scott Aaronson]], *Life, blogging, and the Busy Beaver function go on*, blog entry (5 July 2023) &lbrack;[web](https://scottaaronson.blog/?p=7388)&rbrack;
+
+* {#BBCWiki} *Independence from ZFC*, the Busy Beaver Challenge Wiki. &lbrack;[web](https://wiki.bbchallenge.org/wiki/Independence_from_ZFC)&rbrack;
 
 [[!redirects effects of foundations on "real" mathematics]]
 
