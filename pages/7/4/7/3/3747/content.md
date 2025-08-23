@@ -247,7 +247,7 @@ Even for Dedekind reals in [[neutral constructive mathematics]], we can always a
 
 * [[Eudoxus real number]]
 
-* [[prealgebra real number]]
+* [[radix notation]]
 
 * [[locator]]
 
