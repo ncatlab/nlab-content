@@ -27,7 +27,7 @@ The sequence $\delta$ is the infinite decimal representation of the rational num
 
 * [[real numbers]]
 
-* [[pre-algebra real numbers]]
+* [[decimal representation]]
 
 * [[sequence]] 
 
