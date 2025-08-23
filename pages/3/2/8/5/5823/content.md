@@ -1,7 +1,20 @@
 [[!redirects Turaev]]
 Vladimir Turaev is a mathematician of Russian origin, who has made fundamental contributions to [[quantum field theory|Quantum Field Theory]], low dimensional [[topology]], [[knot theory]], and their interactions with [[mathematical physics]] and [[algebra]].
 
-He is currently based at Indiana University ([Home page](https://math.indiana.edu/about/faculty/touraev-vladimir.html) which is not very informative!)
+
+
+* [institute page](https://math.indiana.edu/about/faculty/touraev-vladimir.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Vladimir_Turaev)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Wladimir_Georgijewitsch_Turajew) (de)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=56929)
+
+* [inSpire page](https://inspirehep.net/authors/985446)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=SvhyNdMAAAAJ&hl=en)
+
 
 
 ## Selected writings
@@ -34,6 +47,11 @@ J. Geom. Phys.  57(11)  (2007), 2419-2430.
 On [[braid groups]]:
 
 * [[Christian Kassel]], [[Vladimir Turaev]], _Braid Groups_, GTM **247** Springer Heidelberg 2008 ([doi:10.1007/978-0-387-68548-9](https://link.springer.com/book/10.1007/978-0-387-68548-9), [webpage](http://irma.math.unistra.fr/~kassel/Braids-bk.html))
+
+
+On [[Fox derivatives]], [[Fox pairings]], and [[Dehn twists]]:
+
+* {#MassuyeauTuraev13} [[Gwénaël Massuyeau]], [[Vladimir Turaev]]: *Fox pairings and generalized Dehn twists*, Annales de l'Institut Fourier **63** 5 (2013) 2403-2456 &lbrack;[doi:10.5802/wbln.38](https://doi.org/10.5802/wbln.38), [arXiv:1109.5248](https://arxiv.org/abs/1109.5248)&rbrack;
 
 
 ## Related entries
