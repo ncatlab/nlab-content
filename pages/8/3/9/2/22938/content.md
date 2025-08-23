@@ -17,8 +17,7 @@ and for general [[topological manifolds]] in
 
 Proof that every [[surface]] admits a combinatorial triangulation:
 
-* {#Rado25} [[Tibor Radó]], *Über den Begriff der Riemannschen Fläche*, Acta Litt. Sci. Szeged, 2 (101-121), 10 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/rado.pdf), [pdf](http://acta.bibl.u-szeged.hu/13312/1/math_002_101-121.pdf))
-Proof that every [[smooth manifold]] admits a combinatorial triangulation:
+* {#Rado25} [[Tibor Radó]], *Über den Begriff der Riemannschen Fläche*, Acta Litt. Sci. Szeged **2** 10 (2025) 101-121 \[<a href="https://www.maths.ed.ac.uk/~v1ranick/papers/rado.pdf">pdf</a>, [pdf](http://acta.bibl.u-szeged.hu/13312/1/math_002_101-121.pdf)\]
 
 Proof that every [[smooth manifold]] admits a combinatorial triangulation is due to
 
