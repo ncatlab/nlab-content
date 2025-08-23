@@ -145,30 +145,11 @@ For strict dependent product types, the judgmental computation and uniqueness ru
 
 ### In terms of function types
 
-Given a [[dependent type theory]] with [[function types]], [[dependent sum types]], and [[identity types]], the dependent product type of a type family $B(x)$ indexed by $x:A$ can be defined as the type of functions $f:A \to \sum_{x:A} B(x)$ from $A$ to the dependent sum type $\sum_{x:A} B(x)$ such that the composite of $f$ with the first projection function $\pi_1:\left(\sum_{x:A} B(x)\right) \to A$ is the [[identity function]] on $A$
+Given a [[dependent type theory]] with [[function types]], [[dependent sum types]], and [[identity types]], the dependent product type of a type family $B(x)$ indexed by $x:A$ can be defined as the type of functions $f:A \to \sum_{x:A} B(x)$ from $A$ to the dependent sum type $\sum_{x:A} B(x)$ such that the composite of $f$ with the first projection function $\pi_1:\left(\sum_{x:A} B(x)\right) \to A$ is identified the [[identity function]] on $A$
 
 $$\prod_{x:A} B(x) \coloneqq \sum_{f:A \to \sum_{x:A} B(x)} \lambda x:A.\pi_1(f(x)) =_{A \to A} \mathrm{id}_A$$
 
-The underlying family of elements is then given by the composite of $f:A \to \sum_{x:A} B(x)$ with the second projection function of the dependent sum type:
-
-$$x:A \vdash \pi_2(f(x)):B(x)$$
-
-Similarly, given a family of elements $x:A \vdash b(x):B(x)$, one could construct the function 
-
-$$\lambda x:A.(x, b(x)):A \to \sum_{x:A} B(x)$$
-
-such that given $x:A$, $\pi_1(\lambda x:A.(x, b(x))(x)) \equiv x$. By lambda abstraction, one has 
-
-$$\lambda x:A.\pi_1(\lambda x:A.(x, b(x))(x)) \equiv \mathrm{id}_A$$
-
-and so the dependent function is given by 
-
-$$(\lambda x:A.(x, b(x)), \mathrm{refl}_{A \to A}(\mathrm{id}_A)):\sum_{f:A \to \sum_{x:A} B(x)} \lambda x:A.\pi_1(f(x)) =_{A \to A} \mathrm{id}_A$$
-
-One also has $\pi_2(\lambda x:A.(x, b(x))(x)) \equiv b(x)$ which is the associated computation rule for dependent function types. Meanwhile, from the judgmental $\eta$-conversion rules for negative dependent sum types and function types, one could prove the judgmental $\eta$-conversion rule for dependent function types. Given 
-$$f:\sum_{f:A \to \sum_{x:A} B(x)} \lambda x:A.\pi_1(f(x)) =_{A \to A} \mathrm{id}_A$$
-one has
-$$f \equiv (\lambda x:A.(x, \pi_2(f(x))), \pi_2(f))$$
+Assuming the usual inference rules for the three types using [[judgmental equality]], the resulting type satisfies the formation rule, introduction rule, elimination rule, judgmental $\beta$-conversion rule, and propositional $\eta$-conversion rule of a [[dependent product type]], as well as an additional computation rule which states that evaluating $\eta$ at a [[constant function]] $\lambda x.b$ computes to [[reflexivity]]. See [Otten, Birchfield & Shulman 2025](#OBS25) on the Category Theory Zulip for more details. 
 
 ### As types of dependent anafunctions
 
@@ -292,6 +273,9 @@ On the [[categorical semantics]] of [[dependent product types]] as *[[relative a
 
 * [[Michael Lindgren]], *Dependent products as relative adjoints*, Stockholm (2021) &lbrack;[[Lindgren-DependentProductsAsRelativeAdjoints.pdf:file]]&rbrack;
 
+On dependent product types from function types, dependent sum types, and identity types:
+
+* {#OBS25} [[Daniël Otten]], [[Madeleine Birchfield]], [[Mike Shulman]], *Dependent function extensionality from nondependent?*, Category Theory Zulip &lbrack;[web](https://categorytheory.zulipchat.com/#narrow/channel/229952-theory.3A-type-theory-.26-logic/topic/Dependent.20function.20extensionality.20from.20nondependent.3F/near/529012693)&rbrack;
 
 [[!redirects dependent product type]]
 [[!redirects dependent product types]]
