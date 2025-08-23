@@ -15,7 +15,9 @@ On [[monads]] ("triples"), [[algebras over monads]] and [[monadic cohomology]]:
 
 Introducing the [[monadicity theorem]]:
 
-* {#Beck68} [[Jon Beck]], untitled manuscript, 1968 ([[Beck_MonadicityTheorem.pdf:file]])
+* {#Beck68} [[Jon Beck]], untitled manuscript (1968) &lbrack;[[Beck_MonadicityTheorem.pdf:file]]&rbrack;
+
+* [[Jonathan Mock Beck]]: *The tripleableness theorem*, Reprints in Theory and Applications of Categories **31** (2024) 1-11 &lbrack;[tac:tr31](http://www.tac.mta.ca/tac/reprints/articles/31/tr31abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/31/tr31.pdf)&rbrack;
 
 
 On [[monads]] in [[universal algebra]] and ([[cohomology|co-]])[[homology]]-theory:
