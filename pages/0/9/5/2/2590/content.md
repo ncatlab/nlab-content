@@ -75,7 +75,7 @@ It was [conjectured](http://en.wikipedia.org/wiki/Elementary_function_arithmetic
 
 The value of the Busy Beaver function at $n = 745$ is independent of the [[ZFC]] axioms (see [Aaronson 2023](#Aaronson23)). This was later claimed to be reduced down to $n = 549$, as of 16 July 2025 (see [the Busy Beaver Challenge wiki](#BBCWiki)); however, none of this work has been written down in a paper yet. 
 
-[[Scott Aaronson]] has conjectured that the value of the Busy Beaver function is independent of the [[ZFC]] axioms at $n \leq 20$ (see [Aaronson 2020](#Aaronson20)). 
+[Aaronson 2020](#Aaronson20) has conjectured that the value of the Busy Beaver function is independent of the [[ZFC]] axioms at $n \leq 20$. 
 
 ## See also
 
