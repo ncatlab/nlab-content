@@ -46,9 +46,9 @@ to flatness. The [[Weyl tensor]] is the specific instance of $\kappa_H$ in confo
 
 General discussion:
 
-* [[Andreas Čap]], H. Schichl: _Parabolic Geometries and Canonical Cartan Connections_, Hokkaido Math. J. **29** 3 (2000) 453-505 &lbrack;[pdf](https://www.mat.univie.ac.at/~herman/papers/esi450.pdf)&rbrack;
+* [[Andreas Čap]], H. Schichl: _Parabolic Geometries and Canonical Cartan Connections_, Hokkaido Math. J. **29** 3 (2000) 453-505 &lbrack;[DOI:10.14492/hokmj/1350912986](https://doi.org/10.14492/hokmj/1350912986), [pdf](https://www.mat.univie.ac.at/~herman/papers/esi450.pdf)&rbrack;
 
-* {#Cap05} [[Andreas Čap]]: *Two constructions with parabolic geometries* &lbrack;[arXiv:0504389](http://arxiv.org/abs/math/0504389)*rbrack;
+* {#Cap05} [[Andreas Čap]]: *Two constructions with parabolic geometries* &lbrack;[arXiv:0504389](http://arxiv.org/abs/math/0504389)&rbrack;
 
 * [[Felipe Leitner]], part 1, section 5 of _Applications of Cartan and Tractor Calculus to Conformal and CR-Geometry_ (2007)  &lbrack;[pdf](http://elib.uni-stuttgart.de/opus/volltexte/2009/3922/pdf/HabilKopf.pdf)&rbrack;
 
