@@ -6,14 +6,18 @@
 +--{: .hide}
 [[!include infinity-limits - contents]]
 =--
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
 =--
 =--
+=--
 
-The term _2-limit_ is used in a few different senses, depending on the context.
+The [[bicategory]]/[[2-category]] theory term _2-limit_ is used in a few different senses, depending on the context.
 
-- In the literature on [[two-dimensional category theory]], **2-limit** usually refers to [[strict 2-limit]].
+- In the literature on [[two-dimensional category theory]], **2-limit** usually refers to [[strict 2-limits]].
 
-- On the nLab, where the term "[[2-category]]" frequently refers to the concept known in the literature as a [[bicategory]], **2-limit** often refers to [[bicategorical limit]].
+- On the nLab, where the term "[[2-category]]" frequently refers to the concept known in the literature as a [[bicategory]], **2-limit** often refers to [[bicategorical limits]].
 
 
 category: disambiguation
