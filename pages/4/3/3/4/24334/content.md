@@ -251,6 +251,8 @@ These theories could hypothetically be called *cubical type theories* or *cubica
 
 * {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
+* [[Nima Rasekh]], *Simplicial Homotopy Type Theory is not just Simplicial: What are $\infty$-Categories?* &lbrack;[arXiv:2508.07737](https://arxiv.org/abs/2508.07737)&rbrack;
+
 For [[synthetic domain theory]] in simplicial type theory:
 
 * [[Jonathan Sterling]], *Baby steps in higher domain theory*, talk at [Homotopy Type Theory and Computing – Classical and Quantum](https://nyuad.nyu.edu/en/events/2024/april/homotopy-type-theory-and-computing.html), [[Center for Quantum and Topological Systems]] ([video](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_b57uwin3?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_b57uwin3))
