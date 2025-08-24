@@ -23,7 +23,7 @@
 **Two-dimensional category theory** is the study of two-dimensional categorical structures. These include:
 
 - [[strict 2-categories]]
-- [[weak 2-categories]] (a.k.a. bicategories)
+- [[weak 2-categories]] (a.k.a. [[bicategories]])
 - [[double categories]]
 
 ## Related concepts
