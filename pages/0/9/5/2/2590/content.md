@@ -52,10 +52,6 @@ See also Wikipedia\'s [list of statements undecidable in ZFC](http://en.wikipedi
 
 In [[set theory]], [[Whitehead's theorem]] is a theorem valid for all [[infinity-groupoids]], modeled as [[Kan complexes]] or [[CW-complexes]]. However, in [[homotopy type theory]], Whitehead's theorem is not provable when regarded as a statement about types in homotopy type theory, since it admits models in non-[[hypercomplete (∞,1)-toposes]]. As a result, the truth of Whitehead's theorem is a [[foundational axiom]] that may be regarded as a "classicality" property, akin to [[excluded middle]] or the [[axiom of choice]], and is usually called *Whitehead's principle* by homotopy type theorists. 
 
-### Univalence
-
-* Given the [[univalence axiom]] in [[homotopy type theory]], one could prove that every [[proset]] is a [[poset]]. 
-
 ### Whitehead problem
 
 The following question is called the **Whitehead problem**
