@@ -41,7 +41,7 @@ We start by describing
 
 * [Smooth principal n-bundles](#PrincipalNBundles)
 
-for low $n$ in detail, connecting them to standard theory, but presenting everything in such as way as to allow straightforward generalization to the full discussion of [[principal ∞-bundle]]s.
+for low $n$ in detail, connecting them to standard theory, but presenting everything in such a way as to allow straightforward generalization to the full discussion of [[principal ∞-bundle]]s.
 
 Then in the same spirit we discuss
 
