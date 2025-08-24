@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -20,11 +19,11 @@
 
 ## Idea 
 
-A **2-limit** is the type of [[limit]] that is appropriate in a (weak) [[2-category]]. (Since general 2-categories are often called _[[bicategories]]_, 2-limits are often called _[[bilimits]]_.)
+A **bilimit** is the type of [[limit]] that is appropriate in a [[bicategory]].
 
-There are three notable changes when passing from ordinary 1-limits to 2-limits:
+There are three notable changes when passing from ordinary 1-limits to bilimits:
 
-1. In order to satisfy the [[principle of equivalence]], the "cones" in a 2-limit are required to commute only up to [[2-morphism|2-isomorphism]].
+1. In order to satisfy the [[principle of equivalence]], the "cones" in a bilimit are required to commute only up to [[2-morphism|2-isomorphism]].
 
 2. The [[universal property]] of the limit is expressed by an [[equivalence of categories]] rather than a [[bijection]] of [[sets]].  This means that 
 
@@ -34,37 +33,35 @@ There are three notable changes when passing from ordinary 1-limits to 2-limits:
 
 3. Since 2-categories are [[enriched category|enriched]] over [[Cat]] (this is precise in the [[strict 2-category|strict]] case, and [[bicategory|weakly]] true otherwise), $Cat$-[[weighted limit]]s become important.  This means that both the diagrams we take limits of and the shape of "cones" that limits represent can involve $2$-cells as well as $1$-cells.
 
+In [[2-category theory]], it is common to work instead with the stricter notion of [[strict 2-limit]] (bilimits in 2-categories can be expressed as [[strict 2-limits]] for appropriate weights).
 
 ## Definition
 
-Let $K$ and $D$ be [[2-categories]], and $J\colon D\to Cat$ and $F\colon D\to K$ be [[2-functors]].  A **$J$-weighted (2-)limit of $F$** is an object $L\in K$ equipped with a [[pseudonatural equivalence]]
-$$ K(X,L) \simeq [D,Cat](J,K(X,F-)). $$
-where $[D,Cat]$ denotes the 2-category of [[2-functors]] $D\to Cat$, [[pseudonatural transformations]] between them, and [[modifications]] between those.
+Let $K$ and $D$ be [[bicategories]], and $J\colon D\to Cat$ and $F\colon D\to K$ be [[pseudofunctors]].  A **$J$-weighted bilimit of $F$** is an object $L\in K$ equipped with a [[pseudonatural equivalence]]
+$$ K(X,L) \simeq Bicat(D,Cat)(J,K(X,F-)). $$
+where $Bicat(D,Cat)$ denotes the 2-category of [[pseudofunctors]] $D\to Cat$, [[pseudonatural transformations]] between them, and [[modifications]] between those.
 
-A 2-limit in the [[opposite 2-category]] $K^{op}$ is called a **2-colimit** in $K$.  Everything below applies dually to 2-colimits, the higher analogues of [[colimits]].  (But somebody might want to make a separate page that gives appropriate examples of these.)
+A bilimit in the [[opposite 2-category]] $K^{op}$ is called a **bicolimit** in $K$.  Everything below applies dually to bicolimits, the higher analogues of [[colimits]].
 
-It is also possible to require the weight $J$ to go from $D^{op}$ to $Cat$ and the $2$-functor $F$ to go from $D$ to $K$ when defining $2$-colimits, in this case a $J$-weighted $2$-colimit of $F$ is an object $C$ equipped with a pseudo-natural equivalence:
+It is also possible to require the weight $J$ to go from $D^{op}$ to $Cat$ and the pseudofunctor $F$ to go from $D$ to $K$ when defining bicolimits, in this case a $J$-weighted bicolimit of $F$ is an object $C$ equipped with a pseudonatural equivalence:
 
-$$ K(C,X) \simeq [D^{op},Cat](J,K(F-,X)). $$
+$$ K(C,X) \simeq Bicat(D^{op},Cat)(J,K(F-,X)). $$
 
 
 ### Strictness and terminology 
  {#Terminology}
 
-If $K$ and $D$ are [[strict 2-categories]], $J$ and $F$ are [[strict 2-functors]], and if we replace this pseudonatural equivalence by a (strictly 2-natural) isomorphism *and* the 2-category $[D,Cat]$ by the 2-category $[D,Cat]_{strict}$ of strict 2-functors and strict 2-natural transformations, then we obtain the definition of a **[[strict 2-limit]]**.  This is precisely a Cat-weighted limit in the sense of ordinary [[enriched category]] theory.  See [[strict 2-limit]] for details.
+If $K$ and $D$ are [[strict 2-categories]], $J$ and $F$ are [[strict 2-functors]], and if we replace this pseudonatural equivalence by a (strictly 2-natural) isomorphism *and* the 2-category $Bicat(D,Cat)$ by the 2-category $[D,Cat]$ of strict 2-functors and strict 2-natural transformations, then we obtain the definition of a **[[strict 2-limit]]**.  This is precisely a Cat-weighted limit in the sense of ordinary [[enriched category]] theory. See [[strict 2-limit]] for details, and for other variants.
 
-On the other hand, if $K$, $D$, $J$, and $F$ are strict as above, and we replace the equivalence by an isomorphism but keep the weak meaning of $[D,Cat]$, then we obtain the notion of a **strict pseudolimit**.  Strict pseudolimits are, in particular, 2-limits, whereas strict 2-limits are not always (although some, such as [[PIE-limits]] and [[flexible limits]], are).  In a strict 2-category, these types of strict limits are often technically useful in constructing the "up-to-isomorphism" 2-limits we consider here.
-
-When we know we are working in a (weak) 2-category, the only type of limit that makes sense is a (non-strict) 2-limit.  Therefore, we usually call these simply "limits."  To emphasize the distinction with the strict 2-limits in a strict 2-category, the "up-to-isomorphism" 2-limits were historically often called _bilimits_ (by analogy with [[bicategory]] for "weak 2-category").  However, this terminology is somewhat unfortunate, not only because it doesn't generalize well to $n$, but because it leads to words like "biproduct," which also has the [[biproduct|completely unrelated meaning]] of an object that is both a product and a coproduct (which is common in [[additive category|additive categories]]).
+When we know we are working in a bicategory, the only type of limit that makes sense is a bilimit. Therefore, we usually call these simply "limits". However, in a [[strict 2-category]], "limit" usually refers to a [[strict 2-limit]]. The terminology "bilimit" is somewhat unfortunate, not only because it doesn't generalize well to $n$, but because it leads to words like "biproduct", which also has the [[biproduct|completely unrelated meaning]] of an object that is both a product and a coproduct (which is common in [[additive category|additive categories]]). However, this terminology is prevalent in the literature, and so we use it here.
 
 Unfortunately, we probably shouldn't use "weak limit" to emphasize the "up-to-isomorphism" nature of these limits, because that also has the [[weak limit|completely unrelated meaning]] of an object in a 1-category satisfying the existence, but not the uniqueness property of an ordinary limit.
 
-
 ## Examples
 
-### 2-limits over diagrams of special shape
+### Bilimits over diagrams of special shape
 
-Any ordinary type of limit can be "2-ified" by boosting its ordinary universal property up to a 2-categorical one.  In the following examples we work in a 2-category $K$.
+Any ordinary type of limit can be "bicategorified" by boosting its ordinary universal property up to a bicategorical one. In the following examples we work in a bicategory $K$.
 
 * A **[[terminal object]]** in $K$ is an object 1 such that $K(X,1)$ is equivalent to the [[terminal category]] for any object $X$.  This means that for any $X$ there is a morphism $X\to 1$ and for any two morphisms $f,g:X\to 1$ there is a unique morphism $f\to g$, and this morphism is an isomorphism.
 
@@ -74,7 +71,7 @@ Any ordinary type of limit can be "2-ified" by boosting its ordinary universal p
 
 * An **[[equalizer]]** of $f,g:A\to B$ consists of an object $E$ and a morphism $e:E\to A$ together with an isomorphism $f e \cong g e$, which is universal in a sense the reader should now be able to write down.  This is sometimes called the _pseudo-equalizer_ but that term more properly refers to a particular [[strict 2-limit]].  Note that frequently, such as in the construction of all limits from basic ones, equalizers need to be replaced by [[descent object]]s.
 
-There are also various important types of 2-limits that involve 2-cells in the diagram shape or in the weight, and hence are not just "boosted-up" versions of 1-limits.
+There are also various important types of bilimits that involve 2-cells in the diagram shape or in the weight, and hence are not just "boosted-up" versions of 1-limits.
 
 * The **[[comma object]]** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $(f/g)$ and projections $p:(f/g)\to A$ and $q:(f/g)\to B$ together with a transformation (not an isomorphism) $f p \to g q$.  In [[Cat]], [[comma objects]] are [[comma category|comma categories]].  Comma objects are sometimes called _lax pullbacks_ but that term more properly refers to the lax version of a pullback; see "lax limits" below.
 
@@ -87,58 +84,58 @@ There are also various important types of 2-limits that involve 2-cells in the d
 * The **[[power]]** of an object $A$ by a category $C$ is a universal object $A^C$ equipped with a functor $C\to K(A^C,A)$.  Of particular importance is the case when $C$ is the [[walking arrow]] $\mathbf{2}$.
 
 
-### Finite 2-Limits 
+### Finite biLimits 
 
-A 2-limit is called **finite** if its diagram shape and its weight are both "finitely presentable" in a suitable sense (defined in terms of [[computads]]; see [Street's article](#StreetLimitsIndexed) _Limits indexed by category-valued 2-functors_ ).  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with $\mathbf{2}$.
+A bilimit is called **finite** if its diagram shape and its weight are both "finitely presentable" in a suitable sense (defined in terms of [[computads]]; see [Street's article](#StreetLimitsIndexed) _Limits indexed by category-valued 2-functors_ ).  Pullbacks, comma objects, inserters, equifiers, and so on are all finite limits, as are powers by any finitely presented category.  All finite limits can be constructed from pullbacks, a terminal object, and powers with $\mathbf{2}$.
 
 
 ### $(2,1)$-limits
   {#(2,1)limit}
 
-If the ambient [[2-category]] is in fact a [[(2,1)-category]] in that all [[2-morphism]]s are invertible then there is a rich set of tools available for handling the 2-limits in this context. We may say **$(2,1)$-limits** and **$(2,1)$-colimits** in this case.
+If the ambient [[bicategory]] is in fact a [[(2,1)-category]] in that all [[2-morphism]]s are invertible then there is a rich set of tools available for handling the bilimits in this context. We may say **$(2,1)$-limits** and **$(2,1)$-colimits** in this case.
 
 These are then a special case of the more general [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s in a [[(∞,1)-category]]. A [[(2,1)-category]] is a special case of an [[(∞,1)-category]].
 
 Traditionally, [[(∞,1)-limit]]s are best known in terms of the presentation of $(\infty,1)$-categories by [[categories with weak equivalences]] in general and [[model categories]] in particular.  (2,1)-limits can often also be viewed in this way.  The corresponding presentation of the $(\infty,1)$-limits / $(2,1)$-limits is called **[[homotopy limit]]s** and **[[homotopy colimit]]s**.
 
-For instance 2-limits in the [[(2,1)-category]] [[Grpd]] of [[groupoid]]s, [[functor]]s and (necessarily) [[natural isomorphism]]s. Are equivalently computed as [[homotopy limit]]s in the [[model structure on simplicial sets]] $sSet_{Quillen}$ of diagrams of [[1-truncated]] [[Kan complex]]es. (The equivalence of homotopy limits with $(\infty,1)$-limits is discussed at [[(∞,1)-limit]]).
+For instance bilimits in the [[(2,1)-category]] [[Grpd]] of [[groupoid]]s, [[functor]]s and (necessarily) [[natural isomorphism]]s. Are equivalently computed as [[homotopy limit]]s in the [[model structure on simplicial sets]] $sSet_{Quillen}$ of diagrams of [[1-truncated]] [[Kan complex]]es. (The equivalence of homotopy limits with $(\infty,1)$-limits is discussed at [[(∞,1)-limit]]).
 
-Or for instance, more generally, the 2-limits in any [[(2,1)-sheaf]](=[[stack]]) [[(2,1)-topos]] may be computed as [[homotopy limit]]s in a [[model structure on simplicial presheaves]] over the given [[(2,1)-site]] of diagrams of [[1-truncated]] [[simplicial presheaves]]. This includes as examples [[big topos|big (2,1)-toposes]] such as those over the large sites [[Top]] or [[SmoothMfd]] where computations with [[topological groupoid]]s/[[topological stack]]s, [[Lie groupoid]]s/[[differentiable stack]]s etc. take place.
+Or for instance, more generally, the bilimits in any [[(2,1)-sheaf]](=[[stack]]) [[(2,1)-topos]] may be computed as [[homotopy limit]]s in a [[model structure on simplicial presheaves]] over the given [[(2,1)-site]] of diagrams of [[1-truncated]] [[simplicial presheaves]]. This includes as examples [[big topos|big (2,1)-toposes]] such as those over the large sites [[Top]] or [[SmoothMfd]] where computations with [[topological groupoid]]s/[[topological stack]]s, [[Lie groupoid]]s/[[differentiable stack]]s etc. take place.
 
 
 ### Lax limits
 {#lax}
 
-A **lax limit** can be defined like a 2-limit, except that the triangles in the definition of a cone are required only to commute up to a specified _transformation_, not necessarily an isomorphism.  In other words, in place of the 2-category $[D,Cat]$ we use the 2-category $[D,Cat]_l$ whose morphisms are [[lax natural transformations]]; thus the lax limit $L$ of a diagram $F$ weighted by $J$ is equipped with a universal lax natural transformation $J\to K(L,F-)$.
+A **lax limit** can be defined like a bilimit, except that the triangles in the definition of a cone are required only to commute up to a specified _transformation_, not necessarily an isomorphism.  In other words, in place of the 2-category $Bicat(D,Cat)$ we use the 2-category $Bicat_l(D,Cat)$ whose morphisms are [[lax natural transformations]]; thus the lax bilimit $L$ of a diagram $F$ weighted by $J$ is equipped with a universal [[lax natural transformation]] $J\to K(L,F-)$.
 
-This may look like a different concept, but in fact, for any weight $J$ there is another weight $Q_l(J)$ such that lax $J$-weighted limits are the same as $Q_l(J)$-weighted 2-limits.  Here $Q_l$ is the [[lax morphism classifier]] for 2-functors.  Therefore, lax limits are really a special case of 2-limits.  Similarly, **oplax limits**, in which we use oplax natural transformations, are also a special case of 2-limits.
+This may look like a different concept, but in fact, for any weight $J$ there is another weight $Q_l(J)$ such that $J$-weighted lax limits are the same as $Q_l(J)$-weighted bilimits.  Here $Q_l$ is the [[lax morphism classifier]] for pseudofunctors.  Therefore, lax limits are really a special case of bilimits.  Similarly, **oplax limits**, in which we use oplax natural transformations, are also a special case of bilimits.
 
-There is a further simplification of lax limits in the case of "conical" lax limits where the weight $J=\Delta 1$ is constant at the [[terminal category]].  In this case, it is easy to check that a lax natural transformation $\Delta 1 \to K(X,F-)$ is the same as a lax natural transformation $\Delta X \to F$.  Thus, a conical lax limit of $F$ is a representing object for such lax transformations.
+There is a further simplification of lax limits in the case of "conical" lax limits where the weight $J=\Delta 1$ is constant at the [[terminal category]].  In this case, it is easy to check that a lax natural transformation $\Delta 1 \to K(X,F-)$ is the same as a lax natural transformation $\Delta X \to F$.  Thus, a conical lax bilimit of $F$ is a representing object for such lax transformations.
 
 Here are some examples.
 
 * Lax terminal objects and lax products are the same as ordinary ones, since there are no commutativity conditions on the cones.
 
-* The **lax limit of an arrow** $f:A\to B$ is a universal object $L$ equipped with projections $p:L\to A$ and $q:L\to B$ and a 2-cell $f p \to q$.  Note that this is equivalent to a comma object $(f/1_B)$.
+* The **lax bilimit of an arrow** $f:A\to B$ is a universal object $L$ equipped with projections $p:L\to A$ and $q:L\to B$ and a 2-cell $f p \to q$.  Note that this is equivalent to a comma object $(f/1_B)$.
 
 * The **lax pullback** of a cospan $A \overset{f}{\to} C \overset{g}{\leftarrow} B$ is a universal object $P$ equipped with projections $p:P\to A$, $q:P\to B$, $r:P\to C$, and 2-cells $f p \to r$ and $g q \to r$.
 
 Note that lax pullbacks are _not_ the same as [[comma objects]].  In general comma objects are much more useful, but there are 2-categories that admit all lax limits but do not admit comma objects, so using "lax pullback" to mean "comma object" can be misleading.
 
-A **lax colimit** in $K$ is, of course, a lax limit in $K^{op}$.  Thus, it is a representing object for lax natural transformations $J \to K(F-,L)$.  There is a subtlety here, however, because in the case $J=\Delta 1$, a lax natural transformation $\Delta 1 \to K(F-,L)$ is the same as an *oplax* natural transformation $F \to \Delta L$.  Thus, it is easy to mistakenly say "lax colimit" when one really means "oplax colimit" and vice versa.
+A **lax bicolimit** in $K$ is, of course, a lax bilimit in $K^{op}$.  Thus, it is a representing object for [[lax natural transformations]] $J \to K(F-,L)$.  There is a subtlety here, however, because in the case $J=\Delta 1$, a lax natural transformation $\Delta 1 \to K(F-,L)$ is the same as an *oplax* natural transformation $F \to \Delta L$.  Thus, it is easy to mistakenly say "lax bicolimit" when one really means "oplax bicolimit" and vice versa.
 
 +-- {: .un_remark}
 ###### Remark
-With this in mind, one might be tempted to switch the meanings of "lax colimit" and "oplax colimit", but there is a good reason not to.  Recall that a lax $J$-weighted limit is the same as an ordinary $Q_l(J)$-weighted limit.  Standard terminology in enriched category theory is that a $W$-weighted colimit in an enriched category $K$ is the same as a $W$-weighted limit in $K^{op}$, and indeed in that generality there is no other option.  Thus, a lax $J$-weighted colimit in $K$ should be an ordinary $Q_l(J)$-weighted colimit in $K$, hence a $Q_l(J)$-weighted limit in $K^{op}$, and thus a lax $J$-weighted limit in $K^{op}$.
+With this in mind, one might be tempted to switch the meanings of "lax bicolimit" and "oplax bicolimit", but there is a good reason not to.  Recall that a lax $J$-weighted bilimit is the same as an ordinary $Q_l(J)$-weighted bilimit.  Standard terminology in enriched category theory is that a $W$-weighted bicolimit in an enriched category $K$ is the same as a $W$-weighted bilimit in $K^{op}$, and indeed in that generality there is no other option.  Thus, a lax $J$-weighted bicolimit in $K$ should be an ordinary $Q_l(J)$-weighted colimit in $K$, hence a $Q_l(J)$-weighted bilimit in $K^{op}$, and thus a lax $J$-weighted bilimit in $K^{op}$.
 =--
 
-Here are some examples of lax and oplax colimits:
+Here are some examples of lax and oplax bicolimits:
 
-* A [[Kleisli object]] is a lax colimit of a [[monad]], regarded as a diagram in a 2-category.
+* A [[Kleisli object]] is a lax bicolimit of a [[monad]], regarded as a diagram in a 2-category.
 
-* The [[collage]] of a [[profunctor]] is its lax colimit, regarded as a diagram in the 2-category [[Prof]].
+* The [[collage]] of a [[profunctor]] is its lax bicolimit, regarded as a diagram in the 2-category [[Prof]].
 
-* When $C$ is a category, the [[Grothendieck construction]] of a functor $C\to Cat$ is the same as its *oplax* colimit; see [here](http://ncatlab.org/nlab/show/Grothendieck+construction#AsALaxColimit).
+* When $C$ is a category, the [[Grothendieck construction]] of a functor $C\to Cat$ is the same as its *oplax* bicolimit; see [here](http://ncatlab.org/nlab/show/Grothendieck+construction#AsALaxColimit).
 
 
 ### 2-Colimits in $Cat$
@@ -217,19 +214,7 @@ Another example of a 2-limit is the [[category of monoids]]:
 
 * Łukasz Sienkiewicz and [[Marek Zawadowski]], _Weights for Monoids and Actions of Monoids_ [arXiv:1306.3215](https://arxiv.org/abs/1306.3215) (2013).
 
-[[!redirects 2-limits]]
-[[!redirects 2-colimit]]
-[[!redirects 2-colimits]]
-[[!redirects 2-categorical limit]]
-[[!redirects 2-categorical limits]]
-[[!redirects 2-categorial limit]]
-[[!redirects 2-categorial limits]]
-[[!redirects 2-categorical colimit]]
-[[!redirects 2-categorical colimits]]
-[[!redirects 2-categorial colimit]]
-[[!redirects 2-categorial colimits]]
-[[!redirects weighted 2-limit]]
-[[!redirects weighted 2-limits]]
+[[!redirects bicategorical limits]]
 
 [[!redirects bicolimit]]
 [[!redirects bicolimits]]
