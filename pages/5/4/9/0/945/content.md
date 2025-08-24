@@ -107,8 +107,11 @@ Then
 
 \begin{example}
 The category $Top$ of [[topological spaces]] does not have any small full subcategory which is dense. Indeed, $Top$ is not generated under colimits by any small subcategory.
+\end{example}
 
-The category $Set^{op}$ has a small full subcategory which is dense if and only if there is not a proper class of [[measurable cardinals]], a result due to [Isbell](#Isbell), Section 2.5.
+\begin{example}
+The full subcategory of $Set^{op}$ on a countable set is dense if and only if there is not a proper class of [[measurable cardinals]].  ([Isbell](#Isbell), Section 2.5.)
+In fact, $Set^{op}$ admits a small dense subcategory if and only if there is not a proper class of [[measurable cardinals]].  ([Adámek–Rosický](#LPAC), Theorem A.5.)
 \end{example}
 
 \begin{example}
@@ -144,6 +147,8 @@ More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)
 
 
 ## References
+
+* {#LPAC} Jiří Adámek, Jiří Rosický, _[[Locally Presentable and Accessible Categories]]_.
 
 * Tom Avery, [[Tom Leinster]], _Isbell conjugacy and the reflexive completion_, arXiv:2102.08290 (2021). ([abstract](https://arxiv.org/abs/2102.08290))
 
