@@ -45,6 +45,11 @@ On [[filter quotients]] of [[model categories]]:
 
 * [[Nima Rasekh]], *Filter Quotient Model Structures* &lbrack;[arXiv:2508.07735](https://arxiv.org/abs/2508.07735)&rbrack;
 
+On [[simplicial homotopy type theory]]:
+
+* [[Nima Rasekh]], *Simplicial Homotopy Type Theory is not just Simplicial: What are $\infty$-Categories?* &lbrack;[arXiv:2508.07737](https://arxiv.org/abs/2508.07737)&rbrack;
+
+
 
 ## Related entries
 
