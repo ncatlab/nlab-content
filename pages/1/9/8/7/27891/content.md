@@ -39,13 +39,11 @@ The values of the busy beaver function grow excessively fast with $n$. The first
     \\
     BB(5) & = 47,176,870
     \\
-    BB(6) & \geq {}^15 10
-    \coloneqq
-10^{10^{10^{10^{10^{10^{10^{10^{10^{10^{10^{10^{10^{10^{10}}}}}}}}}}}}}}
+    BB(6) & \geq 2\uparrow\uparrow2\uparrow\uparrow2\uparrow\uparrow 10 \gg  2 \uparrow\uparrow\uparrow 5
   \end{array}
 \]
-
-(from  [Aaronson 2020 p. 9](#Aaronson20), [2022](https://scottaaronson.blog/?p=6673))
+(from  [Aaronson 2020 p. 9](#Aaronson20), [bbchallenge 2025](#BBFive),
+ [BusyBeaverChallenge wiki](https://wiki.bbchallenge.org/wiki/1RB1RA_1RC1RZ_1LD0RF_1RA0LE_0LD1RC_1RA0RE)), using [Knuth's up-arrow notation](https://en.wikipedia.org/wiki/Knuth%27s_up-arrow_notation).
 
 
 ## References
@@ -60,7 +58,7 @@ Early discussion:
 
 Computation of BB(5):
 
-* The bbchallenge Collaboration. Determination of the fifth Busy Beaver value. 2025. [PDF](https://github.com/bbchallenge/bbchallenge-paper/raw/refs/heads/build-paper-pdf/bbchallenge-paper.pdf), [Coq code](https://github.com/ccz181078/Coq-BB5).
+* {#BBFive} The bbchallenge Collaboration. Determination of the fifth Busy Beaver value. 2025. [PDF](https://github.com/bbchallenge/bbchallenge-paper/raw/refs/heads/build-paper-pdf/bbchallenge-paper.pdf), [Coq code](https://github.com/ccz181078/Coq-BB5).
 
 Review:
 
@@ -72,7 +70,7 @@ See also:
 
 * Wikipedia: *[Busy beaver](https://en.wikipedia.org/wiki/Busy_beaver)*
 
-* The Busy Beaver Challenge Wiki &lbrack;[web](https://wiki.bbchallenge.org/wiki/Main_Page)&rbrack;
+* {#BBCWiki} The Busy Beaver Challenge Wiki &lbrack;[web](https://wiki.bbchallenge.org/wiki/Main_Page)&rbrack;
 
 
 On undecidability of values of the busy beaver function:
@@ -81,7 +79,7 @@ On undecidability of values of the busy beaver function:
 
 * {#Aaronson23} [[Scott Aaronson]], *Life, blogging, and the Busy Beaver function go on*, blog entry (5 July 2023) &lbrack;[web](https://scottaaronson.blog/?p=7388)&rbrack;
 
-* {#BBCWiki} *Independence from ZFC*, the Busy Beaver Challenge Wiki &lbrack;[web](https://wiki.bbchallenge.org/wiki/Independence_from_ZFC)&rbrack;
+* {#BBCWikiZFCIndep} *Independence from ZFC*, the Busy Beaver Challenge Wiki &lbrack;[web](https://wiki.bbchallenge.org/wiki/Independence_from_ZFC)&rbrack;
 
 
 For an argument that BB(6) will be hard to find in a technical sense (it requires solving a [Collatz](https://en.wikipedia.org/wiki/Collatz_conjecture)-like problem for a candidate TM), see 
