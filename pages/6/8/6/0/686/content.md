@@ -157,6 +157,12 @@ This is Proposition 5.2 in *ibid.*:
 If $\mathcal{K}$ admits products, inserters, and equifiers, it admits all pseudo *and* lax limits.
 \end{proposition}
 
+The following is Lemma A.2 in [Tendas 2024](#Tendas2024).
+
+\begin{proposition}
+If $\mathcal{K}$ admits (finite) [[coproducts]], [[reflexive coequalisers]], and reflexive codescent objects, it admits all (finite) colimits.
+\end{proposition}
+
 ## References 
 
 Original articles on Cat-enriched weighted limits:
@@ -177,6 +183,8 @@ See also:
 * [[Steve Lack]], _Homotopy theoretic aspects of 2-monads_ ([arXiv:math.CT/0607646](http://www.arxiv.org/abs/math.CT/0607646)).
 
 * [[Nicola Gambino]], _Homotopy limits for 2-categories_ ([pdf](http://www1.maths.leeds.ac.uk/~pmtng/Publications/homotopy.pdf))
+
+* {#Tendas2024} [[Giacomo Tendas]], _More on soundness in the enriched context_, [arXiv:2409.00389](https://arxiv.org/abs/2409.00389) (2024).
 
 [[!redirects strict 2-limits]]
 [[!redirects strict 2-colimit]]
