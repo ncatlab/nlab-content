@@ -37,7 +37,7 @@ The values of the busy beaver function grow excessively fast with $n$. The first
     \\
     BB(4) & = 107
     \\
-    BB(5) & \geq 47,176,870
+    BB(5) & = 47,176,870
     \\
     BB(6) & \geq {}^15 10
     \coloneqq
@@ -57,6 +57,10 @@ The original article:
 Early discussion:
 
 * Allen H. Brady: *The Determination of the Value of Rado's Noncomputable Function $\Sigma(k)$ for Four-State Turing Machines*, Mathematics of Computation **40** 162 (1983) 647-665 &lbrack;[doi:10.1090/S0025-5718-1983-0689479-6](https://doi.org/10.1090/S0025-5718-1983-0689479-6), [pdf](https://www.ams.org/journals/mcom/1983-40-162/S0025-5718-1983-0689479-6/S0025-5718-1983-0689479-6.pdf)&rbrack;
+
+Computation of BB(5):
+
+* The bbchallenge Collaboration. Determination of the fifth Busy Beaver value. 2025. [PDF](https://github.com/bbchallenge/bbchallenge-paper/raw/refs/heads/build-paper-pdf/bbchallenge-paper.pdf), [Coq code](https://github.com/ccz181078/Coq-BB5).
 
 Review:
 
