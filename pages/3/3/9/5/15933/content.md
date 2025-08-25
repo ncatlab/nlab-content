@@ -33,7 +33,11 @@ One example that is easily visualized is the mapping class group $MCG(\Sigma)$ o
 
 ## References
 
-* Wikipedia, _[Dehn twist](http://en.wikipedia.org/wiki/Dehn_twist)_ 
- {#WP} 
+Named after [[Max Dehn]].
+
+See also:
+
+* {#WP}  Wikipedia, _[Dehn twist](http://en.wikipedia.org/wiki/Dehn_twist)_ 
+ 
 
 [[!redirects Dehn twists]]
