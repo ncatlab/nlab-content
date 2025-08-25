@@ -22,9 +22,7 @@ In parts of the literature the fundamental groupoid, and more generally the [[fu
 
 ## Definition
 
-The **fundamental groupoid** $\Pi_1(X)$ of a topological space $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphisms from $x$ to $y$ are the equivalence classes of homotopy of homotopy relative to $\partial I$ $[\gamma]$ of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$ (which the homotopies are required to fix). Composition is by concatenation (and reparametrization) of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associative and unital composition with respect to which every morphism has an inverse; hence $\Pi_1(X)$ is a groupoid.
-
-The use of the fundamental groupoid of a manifold for describing the monodromy principle on the extension of local morphisms is discussed in the paper by Brown/Mucuk listed below. 
+The **fundamental groupoid** $\Pi_1(X)$ of a topological space $X$ is the [[groupoid]] whose set of objects is $X$ and whose morphisms from $x$ to $y$ are the equivalence classes of continuous maps $\gamma : [0,1] \to X$ whose endpoints map to $x$ and $y$; two such paths are considered equivalent if there exists a homotopy between them which keeps the endpoints fixed. Composition is by concatenation (and reparametrization) of representative maps. Under the [[homotopy]]-[[equivalence relation]] this becomes an associative and unital composition with respect to which every morphism has an inverse; hence $\Pi_1(X)$ is a groupoid.
 
 
 ## Remarks
@@ -56,14 +54,17 @@ An improvement on the fundamental group and the total fundamental groupoid  rele
 
  The notion of $\Pi_1(X,A)$ was introduced in 1967 by [[Ronnie Brown]]  to give a version of the Seifert-van Kampen Theorem which allowed the determination  of the fundamental group of a connected space which is the union of connected subspaces with nonconnected intersection, such as the  circle, a space  which is, after all, THE basic example in topology.
 
-Grothendieck writes in his 1984 [[Esquisse d'un Programme]] (English translation):
+Grothendieck writes in his 1984 [[Esquisse d'un programme]] (English translation):
 
-" ..,people still obstinately persist,  when calculating with fundamental groups, in fixing a single base point, instead of cleverly choosing a whole packet of points which is invariant under  the symmetries of the situation, which thus get lost on the way.  In certain situations (such as descent theorems for fundamental groups \`a la van  Kampen) it is much more elegant,  even indispensable for understanding  something, to work with fundamental groupoids with respect to a suitable    packet of base points,..". 
+"..., people still obstinately persist,  when calculating with fundamental groups, in fixing a single base point, instead of cleverly choosing a whole packet of points which is invariant under  the symmetries of the situation, which thus get lost on the way.  In certain situations (such as descent theorems for fundamental groups à la van  Kampen) it is much more elegant,  even indispensable for understanding  something, to work with fundamental groupoids with respect to a suitable packet of base points, ..." 
 
 Notice that $\Pi_1(X,X)$ recovers the full fundamental groupoid, while $\Pi_1(X,\{x\})$ is simply  the [[fundamental group]] $\pi_1(X,x)$. 
 
  Basically, $\Pi_1(X,A)$  allows for the _computation of homotopy 1-types_; the theory was developed in  _Elements of Modern Topology_ (1968), now available as _Topology and Groupoids_ (2006). These accounts show  the use of the algebra of  groupoids in 1-dimensional  [[homotopy theory]], for example for [[covering space]]s,  and, in the later edition,  for [[orbit spaces]]. spring
 
+### Fundamental groupoid and monodromy principle
+
+The use of the fundamental groupoid of a manifold for describing the monodromy principle on the extension of local morphisms is discussed in the paper by Brown/Mucuk listed below. 
 
 
 ### In higher category theory
