@@ -257,6 +257,9 @@ A model in terms of [[super vector bundles]] is given in
 
 * Jae Min Lee, Byungdo Park, _A Superbundle Description of Differential K-Theory_, Axioms 2023, 12(1), 82, ([doi:10.3390/axioms12010082](https://doi.org/10.3390/axioms12010082)).
 
+Computation for the [[moduli stack]] of [[connection on a bundle|principal bundles with connection]]:
+
+* [[Daniel Grady]]. *On the differential $K$-theory of moduli stacks* (2025). ([arXiv:2501.03108](https://arxiv.org/abs/2501.03108)).
 
 
 ### Relation to index theory
