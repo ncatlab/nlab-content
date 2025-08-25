@@ -112,8 +112,7 @@ Review:
   the first three chapters of which are published in expanded form as:
 
 * [[William Thurston]]: _The Geometry and Topology of Three-Manifolds_, Princeton University Press (1997) &lbrack;[ISBN:9780691083049](https://press.princeton.edu/books/hardcover/9780691083049/three-dimensional-geometry-and-topology-volume-1), [Wikipedia page](https://en.wikipedia.org/wiki/The_geometry_and_topology_of_three-manifolds)&rbrack;
-
-  in particular orbifolds are discussed in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf)
+  > ([[orbifolds]] are discussed in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf))
 
 * [[Vladimir Turaev]]: *Quantum invariants of knots and 3-manifolds*, de Gruyter Studies in Mathematics **18**, de Gruyter & Co. (1994) &lbrack;[doi:10.1515/9783110435221](https://doi.org/10.1515/9783110435221), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/turaev5.pdf)&rbrack;
 
