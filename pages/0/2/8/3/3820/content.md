@@ -190,7 +190,7 @@ given a [[presymplectic form]] on the locus of solutions of a system of [[partia
 
 (This section follows [Bridges, Hydon & Lawson](#BridgesHydonLawson).)
 
-We use same notation as above. Namely, dependence on $\phi$ in local forms really means dependence on finitely many components of the infinite jet $j^\infty(\phi)$. Also, $\iota$ denotes the embedding of the space of solutions in the space of field configurations. Moreover, we presume to work on a sufficiently small neighborhoods in the space of solutions and field configurations that the Poincar\'e lemma applies.
+We use same notation as above. Namely, dependence on $\phi$ in local forms really means dependence on finitely many components of the infinite jet $j^\infty(\phi)$. Also, $\iota$ denotes the embedding of the space of solutions in the space of field configurations. Moreover, we presume to work on a sufficiently small neighborhoods in the space of solutions and field configurations that the Poincaré lemma applies.
 
 Consider a system of partial differential equations $P(\phi)=0$, together with a local presymplectic form $\Omega = \int_{X|_{in}} \omega(\phi)$, where $\omega(\phi)$ is a degree-$(2,dim X-1)$ element of the [[variational bicomplex]], that is $\delta \omega = 0$. Suppose further that [[presymplectic current]] density $\omega(\phi)$ is horizontally conserved on solutions:
 
