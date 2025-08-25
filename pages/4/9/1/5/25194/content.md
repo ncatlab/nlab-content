@@ -23,7 +23,7 @@
 
 ## Idea
 
-Given a well-bahaved [[topological space]] $X$, its *fundamental 2-groupoid* is the [[2-groupoid]] whose
+Given a well-behaved [[topological space]] $X$, its *fundamental 2-groupoid* is the [[2-groupoid]] whose
 
 * [[objects]] are the [[points]] ([[elements]]) of $X$;
 
