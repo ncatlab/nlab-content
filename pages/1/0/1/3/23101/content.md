@@ -1,7 +1,18 @@
 
+* [institute page](https://www.usfca.edu/faculty/john-stillwell)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/John_Stillwell)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=44223)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=1l4MhSgUiBEC&hl=en)
+
 ## Selected writings
+
+On the [[Dehn-Nielsen-Baer theorem]]:
+
+* {#Stillwell87} [[John Stillwell]]: *The Dehn-Nielsen Theorem*, Appendix in: *Max Dehn: Papers on Group Theory and Topology* Springer (1987)363-395 &lbrack;[doi:10.1007/978-1-4612-4668-8_17](https://doi.org/10.1007/978-1-4612-4668-8_17), [[Stillwell-DehnNielsenTheorem.pdf:file]]&rbrack;
+
 
 English translation of
 
