@@ -79,7 +79,9 @@ Every [[connected space|connected]] [[orientation|oriented]] [[closed manifold|c
 
 ### General
 
-See also
+Named after [[Max Dehn]].
+
+See also:
 
 * Wikipedia, _[Dehn surgery](https://en.wikipedia.org/wiki/Dehn_surgery)_
 
