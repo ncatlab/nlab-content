@@ -60,7 +60,18 @@ If $X$ is a manifold with boundary $\partial X$, then it is usual to consider au
 
 The mapping class group for 2-dimensional manifolds controls the [[moduli stack of complex curves]]. 
 
-The [[classifying spaces]] of mapping class groups for 2-[[dimension]]al [[manifolds]] may also be encoded combinatorially in the [[geometric realization]] of a [[category]] of [[ribbon graphs]]. See there for details. 
+The [[Dehn-Nielsen-Baer theorem]] identifies the extended mapping class group $MCG^{\pm}$ (including orientation-reversing diffeos) of any [[closed manifold|closed]] [[orientation|orientable]] [[surface]] of [[positive number|positive]] [[genus of a surface|genuse]] with the group of [[outer automorphisms]] of its [[fundamental group]]:
+
+$$
+  MCG^\pm(\Sigma^2_g)
+  \;\simeq\;
+  Out\big(
+    \pi_1(\Sigma^2_g)
+  \big)
+  \,.
+$$
+
+The [[classifying spaces]] of mapping class groups for 2-[[dimension of a manifold|dimensional]] [[manifolds]] may also be encoded [[combinatorics|combinatorially]] in the [[geometric realization]] of a [[category]] of [[ribbon graphs]]. See there for details. 
 
 One of the classical results is that the (oriented) mapping class group of the [[torus]] $\mathbb{R}^2/\mathbb{Z}^2 \cong (S^1)^2$ is isomorphic to the [[special linear group]] [[SL(2,Z)|$SL_2(\mathbb{Z})$]], and generally $MCG(\mathbb{R}^n/\mathbb{Z}^n) \cong SL_n(\mathbb{Z})$). 
 
@@ -282,11 +293,12 @@ Bulletin of the American Mathematical Society 73(4) 557--559, 1967
 
 * {#Hatcher12} [[Allen Hatcher]], _A 50-Year View of Diffeomorphism Groups_, talk at the 50th Cornell Topology Festival in May 2012 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf))
 
-* [[Max Dehn]], Papers on group theory and topology. Springer-Verlag, New York, 1987. Transl. from German with intro. and appendix by John Stillwell, and appendix by [[Otto Schreier]].
+* [[Max Dehn]] (transl. from German with intro. and appendix by [[John Stillwell]], and appendix by [[Otto Schreier]]): *Papers on group theory and topology*, Springer (1987) &lbrack;[doi:10.1007/978-1-4612-4668-8](https://doi.org/10.1007/978-1-4612-4668-8)&rbrack;
 
-* [[Jakob Nielsen]], _Untersuchungen zur Topologie der geschlossenen zweiseitigen Fl&#228;chen. I-III_, Acta Math. 50 (1927), no. 1, 189--358, MR1555256, [doi](http://dx.doi.org/10.1007/BF02547775); Acta Math. 53 (1929), no. 1, 1--76, MR1555290, [doi](http://dx.doi.org/10.1007/BF02547566);  Acta Math. 58 (1932), no. 1, 87--167, MR1555345, [doi](http://dx.doi.org/10.1007/BF02547775)
+* [[Jakob Nielsen]]: _Untersuchungen zur Topologie der geschlossenen zweiseitigen Flächen. I-III_, Acta Math. **50** 1 (1927) 189-358 &lbrack;MR1555256, [doi:10.1007/BF02547775](http://dx.doi.org/10.1007/BF02547775)&rbrack;, Acta Math. **53** 1 (1929) 1-76 &lbrack;MR1555290, [doi:10.1007/BF02547566](http://dx.doi.org/10.1007/BF02547566)&rbrack;,  Acta Math. **58** 1 (1932) 87-167 &lbrack;MR1555345, [doi:10.1007/BF02547775](http://dx.doi.org/10.1007/BF02547775)&rbrack;
 
 * [[David Mumford]], _Abelian quotients of the Teichm&#252;ller modular group_, J. Analyse Math., 18:227&#8211;244, 1967.
+
 * [[David Mumford]], _Towards an enumerative geometry of the moduli space of curves_, Arithmetic and geometry, Vol. II, Birkh&#228;user Boston, Boston, MA, 1983, pp. 271&#8211;328, [MR85j:14046](http://www.ams.org/mathscinet-getitem?mr=85j:14046)
 
 * [[Ulrike Tillmann]], _On the homotopy of the stable mapping class group_,  Invent. Math. __130__ (1997), no. 2, 257--275, [MR99k:57036](http://www.ams.org/mathscinet-getitem?mr=99k:57036), [doi](http://dx.doi.org/10.1007/BF02421324)
