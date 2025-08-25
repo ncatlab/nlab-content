@@ -6,19 +6,19 @@ Artan Sheshmani is a professor of mathematics at Beijing Institute of Mathematic
 
 #### Algebraic geometry and mathematical physics
 
-* Dennis Borisov, Ludmil Katzarkov, [[Artan Sheshmani]], Shifted Symplectic Structures on Derived Quot-Stacks II- Derived Quot-Schemes as DG manifolds (with Dennis Borisov and Ludmil Katzarkov), Advances in Mathematics, Vol 462, 10092  (2025), [arXiv:2312.02815]
+* Dennis Borisov, Ludmil Katzarkov, [[Artan Sheshmani]], Shifted Symplectic Structures on Derived Quot-Stacks II- Derived Quot-Schemes as DG manifolds, Advances in Mathematics, Vol 462, 10092  (2025), [arXiv:2312.02815]
 
-* Dennis Borisov, Ludmil Katzarkov, [[Artan Sheshmani]] and Shing-Tung Yau, Global shifted potentials for moduli stacks of sheaves on Calabi-Yau four-folds, (with Dennis Borisov, Ludmil Katzarkov and Shing-Tung Yau), American Journal of Mathematics, Accepted (2025), [arXiv:2007.13194].
+* Dennis Borisov, Ludmil Katzarkov, [[Artan Sheshmani]] and Shing-Tung Yau, Global shifted potentials for moduli stacks of sheaves on Calabi-Yau four-folds, American Journal of Mathematics, Accepted (2025), [arXiv:2007.13194].
 
 * Michael Mcbreen,[[Artan Sheshmani]]  and Shing-Tung Yau, Twisted Quasimaps and Symplectic Duality for Hypertoric Spaces, 46 pages, Published version., Annales de L'Institut Fourier (2025) 
 
-* [[Artan Sheshmani]]  and Shing-Tung Yau, Higher rank flag shaves on surfaces and Vafa-Witten invariants, (with Shing-Tung Yau), 55 pages, European Journal of Mathematics, Vol 10, 44, (2024). [arXiv:1911.00124]. 
+* [[Artan Sheshmani]]  and Shing-Tung Yau, Higher rank flag shaves on surfaces and Vafa-Witten invariants, 55 pages, European Journal of Mathematics, Vol 10, 44, (2024). [arXiv:1911.00124]. 
 
-* Dennis Borisov, Ludmil Katzarkov, [[Artan Sheshmani]], Strictification and gluing of Lagrangian distributions on derived schemes with shifted symplectic forms, (with Dennis Borisov, Ludmil Katzarkov and Shing-Tung Yau), 33 pages, [arXiv:1908.00651], Advances in Mathematics, Vol 438, 109477, (2024). 
+* Dennis Borisov, Ludmil Katzarkov, [[Artan Sheshmani]], Strictification and gluing of Lagrangian distributions on derived schemes with shifted symplectic forms, 33 pages, [arXiv:1908.00651], Advances in Mathematics, Vol 438, 109477, (2024). 
 
 * Michael Mcbreen, [[Artan Sheshmani]] and Shing-Tung Yau, Elliptic stable envelopes and hypertoric loop spaces, 21 pages, [arXiv:2010.00670], Selecta Mathematica, 29, 73, (2023).
 
-* Cody Long, [[Artan Sheshmani]], Cumrun Vafa and Shing-Tung Yau, Non-Holomorphic Cycles and Non-BPS Black Branes, (with Cody Long and Cumrun Vafa and Shing-Tung Yau), 57 pages, [arXiv:2104.06420], Communications in Mathematical Physics, (2023).
+* Cody Long, [[Artan Sheshmani]], Cumrun Vafa and Shing-Tung Yau, Non-Holomorphic Cycles and Non-BPS Black Branes, 57 pages, [arXiv:2104.06420], Communications in Mathematical Physics, (2023).
 
 * Sergei Gukov, [[Artan Sheshmani]] and Shing-Tung Yau, 3-manifolds and Vafa-Witten theory, 27 pages, [arXiv:2207.05775], Adv. Theor. Math. Phys, Volume 27, Issue 2, 2023).
 
@@ -34,13 +34,13 @@ Artan Sheshmani is a professor of mathematics at Beijing Institute of Mathematic
 
 * Amin Gholampour, [[Artan Sheshmani]]  and Shing-Tung Yau, Localized Donaldson-Thomas theory of surfaces, 28 pages, American Journal of Mathematics, Vol 142, 2, April 2020, [arXiv:1701.08902]
 
-* Melissa Liu and [[Artan Sheshmani]] , Stacky GKM Graphs and Orbifold Gromov-Witten Theory, (with Melissa Liu), 38 pages, Asian Journal of Mathematics 24 (5) , pp. 48. [arXiv:1807.05697]
+* Melissa Liu and [[Artan Sheshmani]] , Stacky GKM Graphs and Orbifold Gromov-Witten Theory, 38 pages, Asian Journal of Mathematics 24 (5) , pp. 48. [arXiv:1807.05697]
 
 * Amin Gholampour and [[Artan Sheshmani]], Donaldson-Thomas Invariants of 2-Dimensional sheaves inside threefolds and modular forms, 22 pages, Advances in Mathematics, Vol. 326, No. 21, p. 79-107, [arXiv:1309.0050]
 
 * Sergei Gukov, Melissa Liu, [[Artan Sheshmani]] and Shing-Tung Yau, On topological approach to local theory of surfaces in Calabi-Yau threefolds, 39 pages, Advances in Theoretical and Mathematical Physics, Vol 21, no 7, p. 1679-1728, [arXiv:609.04363]
 
-* Melissa Liu and [[Artan Sheshmani]], Equivariant Gromov-Witten Invariants of Algebraic GKM Manifolds, (with Melissa Liu), 22 pages (2017), SIGMA, 13, 048, pp 1-21, [arXiv:1407.1370]
+* Melissa Liu and [[Artan Sheshmani]], Equivariant Gromov-Witten Invariants of Algebraic GKM Manifolds, 22 pages (2017), SIGMA, 13, 048, pp 1-21, [arXiv:1407.1370]
 
 * Amin Gholampour, [[Artan Sheshmani]] and Yukinobu Toda, Stable pairs on nodal K3 brations, 38 pages, International Mathematical Research Notices, Vol. 2017, No. 00, pp. 1-50, [arXiv:1308.4722]
 
@@ -48,7 +48,7 @@ Artan Sheshmani is a professor of mathematics at Beijing Institute of Mathematic
 
 * [[Artan Sheshmani]], Weighted Euler characteristic of the moduli space of higher rank Joyce-Song pairs, 48 pages, European Journal of Mathematics (EJM), Vol 2, issue 2 (2016), [arXiv:1107.0295]
 
-* Amin Gholampour and [[Artan Sheshmani]], Intersection numbers on the relative Hilbert schemes of points on surfaces, (with Amin Gholampour), 11 pages, Asian Journal of Mathematics, Vol 21, 3, Pp. 531-542 (2016), [arXiv:1504.01107]
+* Amin Gholampour and [[Artan Sheshmani]], Intersection numbers on the relative Hilbert schemes of points on surfaces, 11 pages, Asian Journal of Mathematics, Vol 21, 3, Pp. 531-542 (2016), [arXiv:1504.01107]
 
 * [[Artan Sheshmani]], Wall-crossing and invariants of higher rank stable pairs, 31 pages, Illinois Journal of Mathematics, Vol 59, 1, 55-83 (2016), [arXiv:1101.2252]
 
@@ -65,6 +65,26 @@ Artan Sheshmani is a professor of mathematics at Beijing Institute of Mathematic
 
 * [[Artan Sheshmani]], _Hilbert Schemes, Donaldson-Thomas theory, Vafa-Witten and Seiberg-Witten theories_, Notices of the International Congress  of Chines Mathematics (2019) ([j.mp:2U7qd01](http://j.mp/2U7qd01), [pdf](https://scholar.harvard.edu/files/artan/files/iccm_07_02_a03.pdf))
 
+* [[Artan Sheshmani]], Xiaopeng Xia and Beihui Yuan, On the normality of commuting scheme for general linear Lie algebra, 30 pages, [arXiv:2505.13013]
+
+* Yuxiang Liu, [[Artan Sheshmani]] and Shing-Tung Yau, Multi-rigidity of Schubert classes in partial flag varieties, 39 pages, [arXiv:2410.21726]
+
+* Yuxiang Liu, [[Artan Sheshmani]] and Shing-Tung Yau, Rigid Schubert classes in partial flag varieties, 36 pges,  [arXiv:2401.11375].
+
+* Enno Kessler, [[Artan Sheshmani]] and Shing-Tung Yau, Super Gromov-Witten invariants via torus localizations, 69 pages, [arXiv:2311.09074]
+
+* Enno Kessler, [[Artan Sheshmani]] and Shing-Tung Yau, Torus actions on moduli spaces of super stable maps of genus zero, 41 pages, arXiv:2306.09730.
+
+#### Birational geometry
+
+* Caucher Birkar and Jia Jia and [[Artan Sheshmani]], Sheaf stable pairs, Quot schemes and Birational geometry, 44 pages, [arXiv:2406.00230]
+
+* Yang He and [[Artan Sheshmani]], Geography of Landau-Ginzburg models and threefold syzygies, 57 pages, [arXiv:2506.15427]
+
+
+* Angel Toledo and [[Artan Sheshmani]], Relative Monoidal Bondal-Orlov, 36 pages, [arXiv:2410.20942]
+
+
 #### Derived geometry of PDEs
 
 * Jacob Kryczka, [[Artan Sheshmani]], [[Shing-Tung Yau]],  _Derived moduli spaces of non-linear PDEs I: singular propagations_, [arXiv:2312.05226](https://arxiv.org/abs/2312.05226)
@@ -78,7 +98,10 @@ _Derived moduli spaces of non-linear PDEs II: variational tricomplex and BV form
 #### Machine learning
 
 * [[Artan Sheshmani]], [[Yi-zhuang You]], _Categorical representation learning: morphism is all you need_, Machine Learning: Science and Technology __3__:1 (2021) 16 pages [arXiv:2103.14770](https://arxiv.org/abs/2103.14770) [doi](https://doi.org/10.1088/2632-2153/ac2c5d)
+
 * [[Artan Sheshmani]], [[Yi-zhuang You]], Wenbo Fu, Ahmadreza Azizi, _Categorical representation learning and RG flow operators for algorithmic classifiers_, 31 pages, Machine Learning: Science and Technology __4__, 015012 (2023) 31 pages [arXiv:2203.07975](https://arxiv.org/abs/2203.07975) [doi](https://doi.org/10.1088/2632-2153/acb488)
+
 * [[Artan Sheshmani]], [[Yizhuang You]], Baturalp Buyukates, Amir Ziashahabi, Salman Avestimehr,  _Renormalization group flow, optimal transport and diffusion-based generative model_,Physica Review E, (2024),  [arXiv:2402.17090](https://arxiv.org/abs/2402.17090)
+
 * Amir Ziashahabi, Baturalp Buyukates,  [[Artan Sheshmani]], Yi-Zhuang You and Salman Avestimehr, Frequency-Domain Diffusion Model with Scale-Dependent Noise Schedule, Frequency-Domain Diffusion Model with Scale-Dependent Noise Schedule, IEEE International Symposium on Information Theory, (2024). 
 category: people
