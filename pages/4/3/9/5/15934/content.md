@@ -77,6 +77,7 @@ Beware that there is also the *un-related* concept of
 
 * [[Seifert surfaces]]
 
+
 ## References
 
 ### Seifert 3-manifolds
@@ -85,9 +86,11 @@ The original article:
 
 * [[Herbert Seifert]]: *Topology of 3-dimensional fibered spaces*, in: *A textbook of topology*, Pure Appl. Math. **89**, Academic Press (1980) 139–152 &lbrack;[pdf](https://www.math.csi.cuny.edu/abhijit/k3m/Seifert-FiberedSpaces-english.pdf)&rbrack;
 
-Lecture notes:
+Review:
 
 * Mark Jankins, Walter Neumann: *Lectures on Seifert Manifolds*, Brandeis University (1981) &lbrack;[pdf](https://www.math.columbia.edu/department/neumann/preprints/neumann_lectures%20on%20seifert%20manifolds.pdf), [[JankinsNeumann-SeifertManifolds.pdf:file]]&rbrack;
+
+* [[Peter Scott]], section  3 in: *The Geometries of 3-Manifolds*, Bulletin of the LMS **15** 5 (1983) 401-487 &lbrack;[doi:10.1112/blms/15.5.401](https://doi.org/10.1112/blms/15.5.401), [hdl:2027.42/135276](https://hdl.handle.net/2027.42/135276)&rbrack;
 
 
 Monographs:
@@ -146,7 +149,7 @@ See also:
 * Nathan Paul Moore: *String Theory, Chern-Simons Theory and the Fractional Quantum Hall Effect*, PhD thesis (2014) &lbrack;[spire:1783390](https://inspirehep.net/literature/1783390)&rbrack;
 
 
-[[!redirects Seifert fibrations]
+[[!redirects Seifert fibrations]]
 
 [[!redirects Seifert fiber space]]
 [[!redirects Seifert fiber spaces]]
