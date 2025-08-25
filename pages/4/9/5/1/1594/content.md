@@ -247,6 +247,9 @@ The original articles:
 
 * [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116 (1984), p. 70-97 ([numdam:AST_1984__116__70_0/](http://www.numdam.org/item/AST_1984__116__70_0/))
 
+* [[Peter Scott]], section 2 of : *The Geometries of 3-Manifolds*, Bulletin of the LMS **15** 5 (1983) 401-487 &lbrack;[doi:10.1112/blms/15.5.401](https://doi.org/10.1112/blms/15.5.401), [hdl:2027.42/135276](https://hdl.handle.net/2027.42/135276)&rbrack;
+
+
 and specifically for orbifolds in [[complex geometry]]:
 
 * [[Walter Lewis Baily]], _On the quotient of an analytic manifold by a group of analytic homeomorphisms_, PNAS 40 (9) 804-808 (1954) ([doi:10.1073/pnas.40.9.804](https://doi.org/10.1073/pnas.40.9.804))
