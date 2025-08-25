@@ -290,7 +290,7 @@ Cf. [Atiyah 1971](#Atiyah71), [Lawson & Michelson 1989 Ex. 2.6](spin+structure#L
 
 * [[differential geometry of curves and surfaces]]
 
-* analog for dimension 1: [[curve]], [[algebraic curve]]
+* [[Dehn-Nielsen-Baer theorem]]
 
 * [[genus of a surface]]
 
@@ -305,6 +305,9 @@ Cf. [Atiyah 1971](#Atiyah71), [Lawson & Michelson 1989 Ex. 2.6](spin+structure#L
 * [[hypersurface]]
 
 * [[minimal surface]]
+
+* analog for dimension 1: [[curve]], [[algebraic curve]]
+
 
 [[!include low dimensional manifolds -- table]]
 
