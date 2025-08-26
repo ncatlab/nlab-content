@@ -35,7 +35,7 @@ $$
 
 between the 2-category of fibrations, cartesian functors, and vertical natural transformations over $B$, and the 2-category $[B^{op},Cat]$ of contravariant [[pseudofunctor]]s from $B$ to [[Cat]], also called $B$-[[indexed categories]].
 
-The "[[Grothendieck construction]]" $\int \colon [B^{op}, Cat] \to Fib(B) \colon F \mapsto \int F$ of a fibration from a pseudofunctor.  
+The "[[Grothendieck construction]]" $\int \colon [B^{op}, Cat] \to Fib(B) \colon F \mapsto \int F$ constructs the fibration corresponding to a pseudofunctor.  
 
 Those fibrations corresponding to pseudofunctors that factor through [[Grpd]] are called **[[categories fibered in groupoids]]**.
 
