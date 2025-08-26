@@ -54,7 +54,7 @@ Textbook accounts:
 ### For 2D orbifolds
  {#ReferencesFor2DOrbifolds}
 
-In the generality of 2-dimensional [[orbifolds]]:
+On a generalization of Dehn-Nielsen-Baer to 2-dimensional [[orbifolds]]:
 
 * {#Zieschang73} H. Zieschang: *On the homeotopy groups of surfaces*, Math. Ann. **206** (1973) 1–21 &lbrack;[doi:10.1007/BF01431525](https://doi.org/10.1007/BF01431525)&rbrack;
 
