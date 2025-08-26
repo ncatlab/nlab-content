@@ -41,6 +41,9 @@ See also:
 
 * Ratindranath Akhoury, Arielle Schutz, David Garfinkle: *Superrotations are Linkages* &lbrack;[arXiv:2507.04245](https://arxiv.org/abs/2507.04245)&rbrack;
 
+* Yu-fan Zheng: *Supersymmetric $BMS_4$ Algebras Revisited: Electric/Magnetic Superalgebras and Free Field Realization* &lbrack;[arXiv:2508.17925](https://arxiv.org/abs/2508.17925)&rbrack;
+
+
 
 
 
