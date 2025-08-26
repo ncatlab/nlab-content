@@ -815,9 +815,9 @@ Textbook accounts:
 * {#Bredon72} [[Glen Bredon]], _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
 
 
-* [[Tammo tom Dieck]], Chapter 8 in: _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766, Springer 1979 ([doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965))
+* [[Tammo tom Dieck]], Chapter 8 in: _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics **766**, Springer (1979) &lbrack;[doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965)&rbrack;
 
-* {#tomDieck87} [[Tammo tom Dieck]], *[[Transformation Groups]]*, de Gruyter 1987  ([doi:10.1515/9783110858372]( https://doi.org/10.1515/9783110858372))
+* {#tomDieck87} [[Tammo tom Dieck]], *[[Transformation Groups]]*, de Gruyter (1987)  &lbrack;[doi:10.1515/9783110858372](https://doi.org/10.1515/9783110858372)&rbrack;
 
 * {#May96} [[Peter May]] et al., Section I.1 of: _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996 ([ISBN: 978-0-8218-0319-6](https://bookstore.ams.org/cbms-91/?startBookmarkIdx=200)  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
 
