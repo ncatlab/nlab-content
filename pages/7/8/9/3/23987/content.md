@@ -4616,8 +4616,19 @@ The following is a (very) inclomplete list of selected invited presentations by 
 
   mini-course at *[IX International Workshop on Information Geometry, Quantum Mechanics and Applications 2025](http://www.q-math.es/conferences/IGQMA2025)*, [ICMAT Madrid](https://www.icmat.es/),  
 
-\linebreak  
+\linebreak
 
+### Jul 2025
+
+Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
+
+<div style="margin:-30px 0px 00px 20px;">
+<a href="https://quantumzeitgeist.com/topological-quantum-hardware-emerges-from-fractional-anomalous-hall-effect-physics/">
+<img src="/schreiber/files/QuantumZeitgeist-3July2025.png" width="860">
+</a>
+</div>
+
+\linebreak  
 
 
 
