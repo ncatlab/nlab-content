@@ -65,7 +65,7 @@ Some authors call this concept a "full Hopf algebroid".
 Let $A$ be a unital associative algebra. Then $A\otimes A^{op}$ has a structure of a Hopf algebroid, a __minimal Hopf algebroid__ over $A$, with source map $\alpha(a) = a\otimes 1$, target map $\beta(b) = 1\otimes b$, comultiplication $\Delta(a\otimes b) = (a\otimes 1)\otimes_A(1\otimes b)$, counit $\epsilon(a\otimes b) = a b$ and
 antipode $\tau(a\otimes b) = b\otimes a$.
 
-Lu (1996) considers this example an analogue of a [[Poisson groupoid]] structure on $P\times\overline{P}$ where $P$ is a [[Poisson manifold]], which is itself considered an analogue of a set theoretic course groupoid on $X\times X$ where $X$ is a set. Thus she calls this example a coarse Hopf algebroid.
+Lu (1996) considers this example an analogue of a [[Poisson groupoid]] structure on $P\times\overline{P}$ where $P$ is a [[Poisson manifold]], which is itself considered an analogue of a set theoretic coarse groupoid on $X\times X$ where $X$ is a set. Thus she calls this example a coarse Hopf algebroid.
 
 ### Scalar extension Hopf algebroids
 
