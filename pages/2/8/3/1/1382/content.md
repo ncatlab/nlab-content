@@ -80,7 +80,7 @@ The theory is laid out in
 
 For survey see also
 
-* [[Moritz Groth]], _A short course on infinity-categories_, [pdf](http://www.math.ru.nl/~mgroth/preprints/groth_scinfinity.pdf).
+* [[Moritz Groth]], _A short course on infinity-categories_, [pdf](https://arxiv.org/abs/1007.2925).
 
 Discussion of a  [[Blakers-Massey theorem]] for $E_\infty$-rings is in 
 
