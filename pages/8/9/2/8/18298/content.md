@@ -69,7 +69,7 @@ A _topological vector bundle_ over $X \in Top$ is
 
    1. a [[morphism]] $ (-)+(-) \;\colon\; E \times_X E \to E$
 
-   1. a morphism $(-)\cdot(-) \;\colon\;  k \times E \to E$
+   1. a morphism $(-)\cdot(-) \;\colon\;  k \times_X E \to E$
 
    which satisfy the [[vector space]] [[axioms]]
 
@@ -436,8 +436,7 @@ constituted by their [[transition functions]].
 For $n \in \mathbb{N}$, regard the [[general linear group]] $GL(n,k)$
 as a [[topological group]] with its standard [[topological space|topology]],
 given as the [[Euclidean space|Euclidean]] [[subspace topology]]
-via $GL(n,k) \subset Mat_{n \times n}(k) \simeq k^{(n^2)}$ or as the
-or as the subspace topology $GL(n,k) \subset Maps(k^n, k^n)$ of the [[compact-open topology]] on the [[mapping space]].
+via $GL(n,k) \subset Mat_{n \times n}(k) \simeq k^{(n^2)}$ or as the subspace topology $GL(n,k) \subset Maps(k^n, k^n)$ of the [[compact-open topology]] on the [[mapping space]].
 (That these topologies coincide is the statement of [this prop.](general+linear+group#AsSubspaceOfTheMappingSpace).
 
 For $X$ a [[topological space]], we write
