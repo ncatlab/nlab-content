@@ -171,10 +171,8 @@ Further discussion:
 
 * Hongyu Lu, Han-Qing Wu, Bin-Bin Chen, Wang Yao, Zi Yang Meng: *Generic (fractional) quantum anomalous Hall crystals from interaction-driven band folding* &lbrack;[arXiv:2505.04138](https://arxiv.org/abs/2505.04138)&rbrack;
 
-
-
-
-
+* Raul Perea-Causin, Hui Liu, Emil J. Bergholtz: *Quantum anomalous Hall crystals in moiré bands with higher Chern number*, Nature Communications **16** 6875 (2025) &lbrack;[doi:10.1038/s41467-025-62224-9](https://doi.org/10.1038/s41467-025-62224-9)&rbrack;
+    
 
 The case of [[crystalline topological insulators]] and [[symmetry protected topological order]]:
 
