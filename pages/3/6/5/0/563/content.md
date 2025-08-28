@@ -13,7 +13,6 @@
 =--
 =--
 
-# Pseudofunctors
 * table of contents
 {: toc}
 
@@ -180,9 +179,11 @@ Review:
 * [[Angelo Vistoli]], Def. 3.10 in: *Grothendieck topologies, fibered categories and descent theory*, in: *[[Fundamental algebraic geometry -- Grothendieck's FGA explained]]*, Mathematical Surveys and Monographs **123**, Amer. Math. Soc. (2005) 1-104 &lbrack;[ISBN:978-0-8218-4245-4](https://bookstore.ams.org/surv-123-s), [math.AG/0412512](http://arxiv.org/abs/math/0412512)&rbrack;
 
 
-The general notion of pseudo-functors as [[2-functors]] between [[2-categories]]
+The general notion of pseudo-functors between [[bicategories]] is introduced as **homomorphisms of bicategories** in:
 
 * {#Ben} [[Jean Bénabou]], *Introduction to Bicategories*, Lecture Notes in Mathematics **47** Springer (1967), pp.1-77 &lbrack;[doi:10.1007/BFb0074299](http://dx.doi.org/10.1007/BFb0074299)&rbrack;
+
+In the above, [[strict pseudofunctors]] are called **strict homomorphisms of bicategories** and [[lax functors]] are called **morphisms of bicategories**.
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], *2-Dimensional Categories*, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
