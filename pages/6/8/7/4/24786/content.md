@@ -42,9 +42,9 @@ Every simultaneously reflective and coreflective subcategory of a presheaf categ
 
 - [[Brian Day]]. _Density presentations of functors_. Bulletin of the Australian Mathematical Society 16.3 (1977): 427-448.
 
-- [[Jiri Adamek]], [[Robert El Bashir]], [[Manuela Sobral]], [[Jiri Velebil]]. _On functors which are lax epimorphisms_. TAC. (2001)
+- [[Jiri Adamek]], [[Robert El Bashir]], [[Manuela Sobral]], [[Jiří Velebil]]. _On functors which are lax epimorphisms_. TAC. (2001)
 
-- Robert El Bashir and [[Jiri Velebil]]. _Simultaneously reflective and coreflective subcategories of presheaves_. Theory and Applications of Categories 10.16 (2002): 410-423.
+- Robert El Bashir and [[Jiří Velebil]]. _Simultaneously reflective and coreflective subcategories of presheaves_. Theory and Applications of Categories 10.16 (2002): 410-423.
 
 - [[Fernando Lucatelli Nunes]] and [[Sousa Lurdes]]. _On lax epimorphisms and the associated factorization_. Journal of Pure and Applied Algebra 226.12 (2022)
 
