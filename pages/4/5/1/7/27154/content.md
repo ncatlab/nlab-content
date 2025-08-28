@@ -30,6 +30,8 @@ If this admits a left 2-adjoint $(-)' : T-Alg_w \to T-Alg_s$, we call this the *
 
 Weak morphism classifiers exist if and only if certain [[codescent objects]] exist in $T-Alg_s$.
 
+Under minimal assumptions, the $w$-weak morphism classifier 2-adjunction is [[lax-idempotent 2-adjunction|$w$-idempotent]] ([Blackwell 1976](#Blackwell)).
+
 ## Related pages
 
 * [[2-monad]]
@@ -39,7 +41,8 @@ Weak morphism classifiers exist if and only if certain [[codescent objects]] exi
 
 ## References
 
-* R. Blackwell, [[Max Kelly]], [[John Power]], _Two-dimensional monad theory_, ([doi](https://doi.org/10.1016/0022-4049%2889%2990160-6))
+* {#Blackwell} [[Robert Blackwell]], _Some existence theorems in the theory of doctrines_, PhD thesis (1976), ([pdf](https://unsworks.unsw.edu.au/server/api/core/bitstreams/820c3175-88e9-4201-8f4a-2fecd46f2b24/content))
+* [[Robert Blackwell]], [[Max Kelly]], [[John Power]], _Two-dimensional monad theory_, ([doi](https://doi.org/10.1016/0022-4049%2889%2990160-6))
 * [[Stephen Lack]], _Codescent objects and coherence_, Stephen Lack, J. Pure and Appl. Algebra __175__ (2002) 223-241 <a href="https://doi.org/10.1016/S0022-4049(02)00136-6">doi</a>
 * [[Stephen Lack]] and [[Michael Shulman]], _Enhanced 2-categories and limits for lax morphisms_, Advances in Mathematics 229.1 (2012): 294-356.
 * [[Stephen Lack]], _Morita contexts as lax functors_, Applied Categorical Structures 22.2 (2014): 311-330.
