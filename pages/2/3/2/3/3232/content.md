@@ -182,7 +182,9 @@ More generally, $Mod(Span(C))$, for $C$ any category with coequalizers and pullb
 
 ## References
 
-* [[John Isbell]], _Generic algebras_ Transactions of the AMS, vol 275, number 2 ([pdf](http://www.ams.org/journals/tran/1983-275-02/S0002-9947-1983-0682715-8/S0002-9947-1983-0682715-8.pdf))
+* Élisabeth Vaugelade, _Application des bicatégories à l'étude des catégories internes_, PhD thesis (1974)
+
+* [[John Isbell]], _Generic algebras_ (1983), Transactions of the AMS, vol 275, number 2 ([pdf](http://www.ams.org/journals/tran/1983-275-02/S0002-9947-1983-0682715-8/S0002-9947-1983-0682715-8.pdf))
 
 * H. Lindner, _Commutative monads_ in _Deuxi&#233;me colloque sur l'alg&#233;bre des cat&#233;gories_. Amiens-1975. R&#233;sum&#233;s des conf&#233;rences, pages 283-288. Cahiers de topologie et g&#233;om&#233;trie diff&#233;rentielle cat&#233;goriques, tome 16, nr. 3, 1975.
 
