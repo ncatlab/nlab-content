@@ -28,6 +28,8 @@ An **absolutely dense functor** $F \colon A \to B$ is a [[functor]] which is equ
 $$ \int_{b \in B} G(b, b) \cong \int_{a \in A} G(F a, F a) $$
 (This is a notion of [[final functor|initiality]] for [[ends]].)
 
+1. For every morphism $f : b \to b'$ in $B$, the category of $F$-factorisations of $f$ (which has objects triples $(a \in A, f_1 : b \to f a, f_2 : f a \to b')$ such that $f_2 f_1 = f$) is [[connected]]. ([MathOverflow answer](https://mathoverflow.net/a/354097))
+
 More generally, an **absolutely dense morphism** in a [[proarrow equipment]] $K \to M$ is a 1-cell $f : a \to b$ in $K$ for which the counit $f_* \circ f^* \cong 1_b$.
 
 ## Properties
@@ -45,6 +47,8 @@ Every simultaneously reflective and coreflective subcategory of a presheaf categ
 - Robert El Bashir and [[Jiri Velebil]]. _Simultaneously reflective and coreflective subcategories of presheaves_. Theory and Applications of Categories 10.16 (2002): 410-423.
 
 - [[Fernando Lucatelli Nunes]] and [[Sousa Lurdes]]. _On lax epimorphisms and the associated factorization_. Journal of Pure and Applied Algebra 226.12 (2022)
+
+- Adrián Doña Mateo, _Cauchy density_, [arXiv:2507.07869](https://arxiv.org/abs/2507.07869) (2025).
 
 
 [[!redirects absolutely dense]]
