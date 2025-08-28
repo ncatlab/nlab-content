@@ -257,8 +257,7 @@ See also
 
 * [[Edward Frenkel]], _Langlands duality for representations of quantum groups_, [arxiv/0809.4453](http://arxiv.org/abs/0809.4453)
 
-
-
+* Tudor Pădurariu, Yukinobu Toda, *The Dolbeault geometric Langlands conjecture via limit categories* &lbrack;[arXiv:2508.19624](https://arxiv.org/abs/2508.19624)&rbrack;
 
 
 ### Interpretation in string theory
