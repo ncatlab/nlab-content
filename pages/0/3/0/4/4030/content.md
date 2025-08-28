@@ -327,7 +327,7 @@ See at _[[locally connected site]]_.
 +-- {: .num_defn}
 ###### Definition
 
-For $C$ and $C$ [[cartesian closed categories]], a [[functor]] $F : C \to D$ that preserves [[product]]s is called a **[[cartesian closed functor]]** if the canonical [[natural transformation]]
+For $C$ and $D$ [[cartesian closed categories]], a [[functor]] $F : C \to D$ that preserves [[product]]s is called a **[[cartesian closed functor]]** if the canonical [[natural transformation]]
 
 $$
   F(B^A) \to (F(B))^{F(A)}
