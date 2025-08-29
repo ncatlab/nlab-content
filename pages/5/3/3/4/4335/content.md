@@ -137,15 +137,19 @@ A pseudonatural transformation is called a **pseudonatural equivalence** if each
 
 ## References
 
-A generalization to [[extranatural transformations]] can be found in
+See most references at *[[2-category]]*, such as
 
-* Alexander S. Corner, _A universal characterisation of codescent objects_, [TAC](http://tac.mta.ca/tac/volumes/34/24/34-24abs.html) 2019.
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], §4.2 in: *2-Dimensional Categories*, Oxford University Press (2021) &lbrack;[arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378)&rbrack;
 
-Discussion of the globular approach can be found in
+A generalization to [[extranatural transformations]]:
 
-* [[Camell Kachour]]: Kamel Kachour, D&#233;finition alg&#233;brique des cellules non-strictes, Cahiers de Topologie et de G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;gorique (2008), volume 1, pages 1&#8211;68.
+* Alexander S. Corner: _A universal characterisation of codescent objects_, Theory and Applications of Categories **34** 24 (2019) 684-713 &lbrack;[tac:34-24](http://tac.mta.ca/tac/volumes/34/24/34-24abs.html)&rbrack;
 
-* [[Camell Kachour]]: Steps toward the Weak &#969;-category of the Weak &#969;-categories in the globular setting, Published in : Categories and General Algebraic Structures with Applications (2015).
+See also:
+
+* [[Camell Kachour]]: *Définition algébrique des cellules non-strictes*, [[Cahiers]] de Topologie et de Géométrie Différentielle Catégorique **1** (2008) 1-68.
+
+* [[Camell Kachour]]: *Steps toward the Weak $\omega$-category of the Weak $\omega$-categories in the globular setting*, Categories and General Algebraic Structures with Applications (2015)
 
 [[!redirects pseudonatural transformation]]
 [[!redirects pseudonatural transformations]]
