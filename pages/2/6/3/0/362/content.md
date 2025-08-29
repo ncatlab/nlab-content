@@ -82,12 +82,15 @@ A proof that the Gray tensor product does form a monoidal structure, based only 
 * [[John Bourke]], [[Nick Gurski]], _The Gray tensor product via factorisation_, Appl Categor Struct **25** (2017) p603-624, doi:[10.1007/s10485-016-9467-6](https://doi.org/10.1007/s10485-016-9467-6), arXiv:[1508.07789](http://arxiv.org/abs/1508.07789)
 
 ### In $(\infty,2)$-category theory
+ {#ReferencesInInfinity2CategoryTheory}
 
 Discussion of the Gray tensor product in [[(infinity,2)-category|$(\infty,2)$-category]] theory:
 
 * {#GaitsgoryRozenblyum17} [[Dennis Gaitsgory]], [[Nick Rozenblyum]]: *Lax functors and the Gray product*, Chapter 10.3 in the Appendix of: *[[A study in derived algebraic geometry]]*, Mathematical Surveys and Monographs **221**, Americal Mathematical Society (2017) &lbrack;[ams:SURV/221](https://bookstore.ams.org/view?ProductCode=SURV/221), [book webpage](https://people.mpim-bonn.mpg.de/gaitsgde/Book/)&rbrack;
 
-* Félix Loubaton, [[Jaco Ruit]]: *On the squares functor and the Gaitsgory-Rozenblyum conjectures* &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
+* [[Félix Loubaton]], [[Jaco Ruit]]: *On the squares functor and the Gaitsgory-Rozenblyum conjectures* &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
+
+* {#Loubaton25} [[Félix Loubaton]], answer to: *The missing proofs in Gaitsgory–Rozenblyum's derived algebraic geometry book* (Jul 2025) &lbrack;[MO:a/497541](https://mathoverflow.net/a/497541/)&rbrack;
 
 
 
