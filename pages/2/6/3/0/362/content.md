@@ -69,9 +69,12 @@ Original discussion of the Gray tensor product in [[2-category theory]]:
 
 * F.A. Al-Agl, R. Brown and   R. Steiner, _Multiple categories: the equivalence between a globular and cubical approach_, Advances in Mathematics, 170 (2002) 71-118. doi:[10.1006/aima.2001.2069](https://doi.org/10.1006/aima.2001.2069), arXiv:[math/0007009](https://arxiv.org/abs/math/0007009)
 
-The Gray tensor product as the left Kan extension of a tensor product on the full subcategory $Cu$ of $2Cat$ is on page 16 of
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], section 12.2 of: *2-Dimensional Categories*, Oxford University Press (2021) &lbrack;[arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378)&rbrack;
 
-* [[Ross Street]], _Gray's tensor product of 2-categories_, 22-page handwritten note, (1988) ([PDF at Macquarie](http://maths.mq.edu.au/~street/GrayTensor.pdf))
+
+On the Gray tensor product as the [[left Kan extension]] of a tensor product on the full subcategory $Cu$ of $2Cat$:
+
+* [[Ross Street]], p. 16 of: _Gray's tensor product of 2-categories_, 22-page handwritten note, (1988) &lbrack;[pdf](http://maths.mq.edu.au/~street/GrayTensor.pdf)&rbrack;
 
 A general theory of lax tensor products, unifying Gray tensor products with the [[Crans-Gray tensor product]] is in 
 
