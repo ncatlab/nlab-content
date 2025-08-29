@@ -15,7 +15,7 @@ On [[formal category theory]] in the setting of higher categories:
 
 On the [[Gray tensor product]] in the context of [[(∞,2)-categories]]:
 
-* Félix Loubaton, [[Jaco Ruit]], _On the squares functor and the Gaitsgory-Rozenblyum conjectures_ &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
+* [[Félix Loubaton]], [[Jaco Ruit]], _On the squares functor and the Gaitsgory-Rozenblyum conjectures_ &lbrack;[arXiv:2507.07807](https://arxiv.org/abs/2507.07807)&rbrack;
 
 ## See also
 
