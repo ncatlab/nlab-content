@@ -189,17 +189,17 @@ $$
 ###### Proof
 
 We discuss the first statement, the second is [[formal dual|formally dual]].
-Let $\eta \colon \hat X \longrightarrow Y$ be the given left homotopy with respect to a given cylinder object $\hat X$ of $X$. Factor it as 
+Let $\eta \colon \hat X \longrightarrow Y$ be the given left homotopy with respect to a given cylinder object $\hat X$ of $X$. Factor $\hat X \to X$ as 
 
 $$
-  \eta 
-    \;\colon\; 
   \hat X \overset{\in Cof}{\longrightarrow} Z \overset{\in W \cap Fib}{\longrightarrow} 
-  Y
+  X
   \,.
 $$
 
-Then find liftings $\ell$ and $k$ in the following two [[commuting diagrams]]
+Notice that $\hat X \to Z$ is also a weak equivalence by [[two-out-of-three]].
+
+Therefore, find liftings $\ell$ and $k$ in the following two [[commuting diagrams]]
 
 $$
   \array{
@@ -207,7 +207,7 @@ $$
     \\
     \downarrow && & {}^{\mathllap{\ell}}\nearrow & \downarrow
     \\
-    Cyl(X) &\longrightarrow& &\longrightarrow& Y 
+    Cyl(X) &\longrightarrow& &\longrightarrow& X 
   }
   \;\;\;\;\;
   \,,
