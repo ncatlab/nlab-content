@@ -13,7 +13,6 @@
 =--
 =--
 
-# Equivalence of categories
 * table of contentshttps://ncatlab.org/nlab/edit/equivalence+of+categories
 {: toc}
 
