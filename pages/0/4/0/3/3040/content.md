@@ -8,6 +8,7 @@ He is on the Steering Board of the Journal '[[Compositionality]]'.
 
 * [Mathematics Genealogy Project page](https://mathgenealogy.org/id.php?id=70001).
 
+
 ## Selected writings
 
 On [[extensive categories]] and [[distributive categories]]:
@@ -18,6 +19,12 @@ On [[extensive categories]] and [[distributive categories]]:
 On [[accessible categories]] via [[doctrines of limits]]:
 
 * {#AdámekBorceuxLackRosicky2002} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky]], *A classification of accessible categories*, Journal of Pure and Applied Algebra **175** 1–3 (2002)  7-30 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00126-3">doi:10.1016/S0022-4049(02)00126-3</a>&rbrack;
+
+Introducing the [[canonical model structure on 2-categories]]:
+
+* {#Lack2002} [[Stephen Lack]]: *A Quillen model structure for 2-categories*, K-Theory **26** 2 (2002) 171-205 &lbrack;[doi:10.1023/A:1020305604826](http://dx.doi.org/10.1023/A:1020305604826), [[Lack-ModelOn2Cat.pdf:file]], [zbmath](https://zbmath.org/?q=an%3A1017.18005)&rbrack;
+
+* {#Lack2004} [[Stephen Lack]]: *A Quillen model structure for bicategories*, K-Theory **33 **3** (2004) 185-197 &lbrack;[doi:10.1007/s10977-004-6757-9](http://dx.doi.org/10.1007/s10977-004-6757-9), [[Lack-ModelOnBiCat.pdf:file]], [zbmath](https://zbmath.org/?q=an%3A1069.18008)&rbrack;
 
 
 On [[toposes]] as [[adhesive categories]]:
