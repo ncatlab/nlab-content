@@ -15,7 +15,7 @@ On the justification of [[homotopy type theory]]:
 
 General review of [[intuitionistic mathematics]]:
 
-* [[Bruno Bentzen]]: *[Intuitionism in Mathematics](https://iep.utm.edu/intuitionism-in-mathematics/)*, Internet Encyclopedia of Philosophy
+* [[Bruno Bentzen]]: *[Intuitionism in Mathematics](https://iep.utm.edu/intuitionism-math/)*, Internet Encyclopedia of Philosophy
 
 On [[analytic versus synthetic]] in [[type theory]]:
 
