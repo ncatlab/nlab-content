@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+
 \tableofcontents
 
 \section{Idea}
@@ -71,11 +87,11 @@ in [[2Cat]], there is a functor $k: \mathcal{B} \times \mathcal{E}_{semi} \right
 
 \section{References}
 
-* {#Lack2002} [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory 26, No. 2, 171-205 (2002). [Zentralblatt review](https://zbmath.org/?q=an%3A1017.18005) [author's webpage](http://maths.mq.edu.au/~slack/papers/qmc2cat.html) 
+* {#Lack2002} [[Stephen Lack]]: *A Quillen model structure for 2-categories*, K-Theory **26** 2 (2002) 171-205 &lbrack;[doi:10.1023/A:1020305604826](http://dx.doi.org/10.1023/A:1020305604826), [[Lack-ModelOn2Cat.pdf:file]], [zbmath](https://zbmath.org/?q=an%3A1017.18005)&rbrack;
 
-* {#Lack2004} [[Stephen Lack]], _A Quillen model structure for bicategories_, K-Theory 33, No. 3, 185-197 (2004). [Zentralblatt review](https://zbmath.org/?q=an%3A1069.18008) [author's webpage](http://maths.mq.edu.au/~slack/papers/qmcbicat.html)
+* {#Lack2004} [[Stephen Lack]]: *A Quillen model structure for bicategories*, K-Theory **33 **3** (2004) 185-197 &lbrack;[doi:10.1007/s10977-004-6757-9](http://dx.doi.org/10.1007/s10977-004-6757-9), [[Lack-ModelOnBiCat.pdf:file]], [zbmath](https://zbmath.org/?q=an%3A1069.18008)&rbrack;
 
-* {#Williamson2011} [[Richard Williamson]], _Cylindrical model structures_, DPhil thesis, University of Oxford, 2011. [author's webpage](http://rwilliamson-mathematics.info/cylindrical_model_structures/cylindrical_model_structures.html) [arXiv:1304.0867](https://arxiv.org/abs/1304.0867)
+* {#Williamson2011} [[Richard Williamson]]: *Cylindrical model structures*, PhD thesis, University of Oxford (2011) &lbrack;[author's webpage](http://rwilliamson-mathematics.info/cylindrical_model_structures/cylindrical_model_structures.html), [arXiv:1304.0867](https://arxiv.org/abs/1304.0867)&rbrack;
 
 [[!redirects canonical model structures on 2-categories]]
 
