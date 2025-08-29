@@ -9,117 +9,450 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A __pseudonatural transformation__ is a [[lax natural transformation]] whose $2$-cell components are all [[equivalence|invertible]].  
+A __pseudonatural transformation__ is a kind of [[homomorphism]] between [[parallel morphisms|parallel]] [[2-functors]]: a a [[lax natural transformation]] whose [[2-morphism]] components are all [[equivalence|invertible]].  
+
 
 ## Definition
 
-+-- {: .num_defn} 
-######Definition 
+\begin{definition}
+Given 
 
-Given two [[2-functors]] $U, V: S \stackrel{\to}{\to} C$ between [[2-categories]], a **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each [[object]] $s$ of $S$ a [[morphism]] $\phi(s): U(s) \to V(s)$ of $C$, and to each [[morphism]] $f: r \to s$ of $S$ an [[equivalence|invertible]] [[2-morphism]] $\phi(f)$ of $C$:  
+* a [[pair]] $\mathcal{X}, \mathcal{Y}$ of [[2-categories]]  
+
+* a [[pair]] $F,G \colon \mathcal{X} \longrightarrow \mathcal{Y}$ of [[2-functors]],
+
+a *pseudonatural transformation* 
+
 $$
-\array{
-U(r) & \stackrel{U(f)}{\to} & U(s) \\
-\phi(r) \downarrow & \phi(f) \swArrow & \downarrow \phi(s) \\
-V(r) & \underset{V(f)}{\to} & V(s)
-}
+ \eta \colon F \Rightarrow G
 $$ 
-such that the following [[coherence law]]s are satisfied in  $C$ (throughout we leave the [[associator]]s and [[unitor]]s in $C$ implicit):
+is a [[function]] from [[1-morphisms]] of $\mathcal{X}$ to [[vertical composition|vertically]] [[invertible morphism|invertible]] [[2-morphisms]] of $\mathcal{Y}$, of the form
 
-1. respect for composition: for all composable morphisms $r \stackrel{f}{\to} s \stackrel{g}{\to} t$ in $S$ we have an equality
+\begin{tikzcd}
+    X_1
+    \ar[
+      dd,
+      "{ f }"{description}
+    ]
+    &
+    F(x_1)
+    \ar[
+      dd,
+      "F(f)"{description}
+    ]
+    \ar[
+      rr,
+      "{ \eta(x_1) }"{description}
+    ]
+    &&
+    G(x_1)
+    \ar[
+      dd,
+      "{ G(f) }"{description}
+    ]
+    \ar[
+      ddll,
+      shorten=15pt,
+      Rightarrow,
+      "{ \eta(f) }"{description}
+    ]
+    \\
+    {}
+    \ar[
+      r,
+      |->,
+      shorten=15pt
+    ]
+    & {}
+    \\
+    x_2
+    &
+    F(x_2)
+    \ar[
+      rr,
+      "{ \eta(x_2) }"{description}
+    ]
+    &&
+    G(x_2)
+\end{tikzcd}  
 
-   $$
-   \array{
-      && U(s)
-      \\
-      & {}^{\mathllap{U(f)}}\nearrow &\downarrow^{\phi(s)}& \searrow^{\mathrlap{U(g)}}
-      \\
-     U(r) &\swArrow_{\phi(f)}&V(s) &\swArrow_{\phi(g)}& U(t)
-     \\
-     {}^{\mathllap{\phi(r)}}\downarrow &{}^{V(f)}\nearrow& 
-      \Downarrow^{V(f,g)}
-     &\searrow^{V(g)}& \downarrow^{\mathrlap{\phi(t)}} 
-     \\
-     V(r) &&\underset{V( g\circ f)}{\to}&& V(t)
-   }
-    \;\;\;
-    =
-    \;\;\;
-   \array{
-     && U(s)
-     \\
-     & {}^{\mathllap{U(f)}}\nearrow &\Downarrow^{U(f,g)}& \searrow^{\mathrlap{U(g)}}
-     \\
-     U(r) &&\stackrel{U(g \circ f)}{\to}&& U(t)
-     \\
-     {}^{\mathllap{\phi(r)}}\downarrow && 
-       \swArrow_{\phi(g \circ f )}
-     && \downarrow^{\mathrlap{\phi(t)}}
-     \\
-     V(r) &&\underset{V(g \circ f)}{\to}&& V(t)
-   }
-     \,,
-   $$
+such that all the following [[equations]] hold among [[2-morphisms]] in $\mathcal{Y}$:
 
-   of [[pasting]] [[2-morphisms]] as indicated, where $U(f,g)$ and $V(f,g)$ denote the compositors of the [[2-functor]]s $U$ and $V$,
+**(pseudo-naturality)**
 
-1. respect for units, (...)
+for all [[2-morphisms]] in $\mathcal{X}$ 
 
-1. naturality
+\begin{tikzcd}
+    x_1
+    \ar[
+      dd,
+      bend left=50,
+      "{ f }"{description, pos=.4, name=s}
+    ]
+    \ar[
+      dd,
+      bend right=50,
+      "{ g }"{description, pos=.6, name=t}
+    ]
+    \ar[
+      from=s, to=t,
+      Rightarrow,
+      "{ \alpha }"{description}
+    ]
+    \\
+    \\
+    x_2
+\end{tikzcd}
 
-   for every [[2-morphism]] 
-   $$
-     \array{
-        && \stackrel{f}{\to}
-        \\
-        & \nearrow && \searrow
-        \\
-        r &&\Downarrow^{F}&& s
-        \\
-        & \searrow && \nearrow
-        \\
-        && \underset{g}{\to}
-     }
-   $$
-   in $S$ an equality
-   $$
-     \array{
-        && \stackrel{U(f)}{\to}
-        \\
-        & \nearrow &\Downarrow^{U(F)}& \searrow
-        \\
-        U(r) &&\stackrel{U(g)}{\to}&& U(s)
-        \\
-        {}^{\mathllap{\phi(r)}}\downarrow &&\swArrow_{\phi(g)}&& \downarrow^{\mathrlap{\phi(s)}}
-        \\
-        V(r) &&\underset{V(g)}{\to}&& V(s)
-     }
-     \;\;\;
-       =
-     \;\;\;
-     \array{
-       U(r) &&\stackrel{U(f)}{\to}&& U(s)
-       \\
-       {}^{\mathllap{\phi(r)}}\downarrow &&\swArrow_{\phi(f)}&& \downarrow^{\mathrlap{\phi(s)}}
-       \\
-       V(r) &&\stackrel{V(f)}{\to}&& V(s)
-       \\
-       & \searrow &\Downarrow^{V(F)}& \nearrow
-       \\
-       && \underset{V(g)}{\to}
-     }
-   $$
-   in $C$.
+we have
 
-=-- 
+\begin{tikzcd}
+    F(x_1)
+    \ar[
+      dd,
+      bend left=50,
+      "{ F(f) }"{description, pos=.4, name=s}
+    ]
+    \ar[
+      dd,
+      bend right=50,
+      "{ F(g) }"{description, pos=.6, name=t}
+    ]
+    \ar[
+      from=s, to=t,
+      Rightarrow,
+      "{ F(\alpha) }"{pos=1}
+    ]
+    \ar[
+      rr,
+      "{ \eta(x_1) }"{description}
+    ]
+    &&
+    G(x_1)
+    \ar[
+      dd,
+      bend left=50,
+      "{ G(f) }"{description}
+    ]
+    \ar[
+      ddll,
+      Rightarrow,
+      shorten=15pt,
+      shift right=5pt,
+      bend left=20,
+      "{ \eta(f) }"{description}
+    ]
+    \\
+    \\
+    F(x_2)
+    \ar[
+      rr,
+      "{ \eta(x_2) }"{description}
+    ]
+    &&
+    G(x_2)
+\end{tikzcd}
+$$=$$
+\begin{tikzcd}
+    F(x_1)
+    \ar[
+      dd,
+      bend right=50,
+      "{ F(g) }"{description, pos=.6, name=t}
+    ]
+    \ar[
+      rr,
+      "{ \eta(x_1) }"{description}
+    ]
+    &&
+    G(x_1)
+    \ar[
+      dd,
+      bend left=50,
+      "{ G(f) }"{description, pos=.4, name=s}
+    ]
+    \ar[
+      dd,
+      bend right=50,
+      "{ G(g) }"{description, pos=.6, name=t}
+    ]
+    \ar[
+      from=s, to=t,
+      Rightarrow,
+      "{ G(\alpha) }"{pos=1}
+    ]
+    \ar[
+      ddll,
+      Rightarrow,
+      shorten=15pt,
+      shift left=5pt,
+      bend right=20,
+      "{ \eta(g) }"{description}
+    ]
+    \\
+    \\
+    F(x_2)
+    \ar[
+      rr,
+      "{ \eta(x_2) }"{description}
+    ]
+    &&
+    G(x_2)
+\end{tikzcd}
 
-A pseudonatural transformation is called a **pseudonatural equivalence** if each component $\phi(s)$ is an [[equivalence]] in the 2-category $C$.  This is equivalent to $\phi$ itself being an equivalence in the 2-category $[S,C]$ of 2-functors, pseudonatural transformations, and [[modifications]].
+
+**(unitality)**
+
+for all [[objects]] $x \in \mathcal{X}$ we have
+
+  \begin{tikzcd}
+    F(x)
+    \ar[
+      dd,
+      bend left=50,
+      "{ \mathrm{id}_{F(x)} }"{description, pos=.4, name=s}
+    ]
+    \ar[
+      dd,
+      bend right=50,
+      "{ F(\mathrm{id}_x) }"{description, pos=.6, name=t}
+    ]
+    \ar[
+      from=s, to=t,
+      Rightarrow,
+      "{ F_{\!\mathrm{e}}\!(x) }"{pos=.8}
+    ]
+    \ar[
+      rr,
+      "{ \eta(x) }"{description}
+    ]
+    \ar[
+      ddrr,
+      bend left=20,
+      "{ \eta(x) }"{description, name=mid}
+    ]
+    &&
+    G(x)
+    \ar[
+      dd,
+      bend left=50,
+      "{ \mathrm{id}_{G(x)} }"{description}
+    ]
+    \ar[
+      from=mid,
+      to=3-1,
+      shorten=10pt,
+      Rightarrow,
+      bend left=20,
+      shift right=3pt,
+      "{
+        \ell^{-1}
+      }"
+    ]
+    \ar[
+      from=1-3,
+      to=mid,
+      shorten=0pt,
+      Rightarrow,
+      bend left=20,
+      shift right=-3pt,
+      "{
+        r
+      }"
+    ]
+    \\
+    & 
+    \\
+    F(x)
+    \ar[
+      rr,
+      "{ \eta(x) }"{description}
+    ]
+    &&
+    G(x)
+  \end{tikzcd}
+$$=$$
+  \begin{tikzcd}
+    F(x)
+    \ar[
+      dd,
+      bend right=50,
+      "{ F(\mathrm{id}_x) }"{description, pos=.6, name=t}
+    ]
+    \ar[
+      rr,
+      "{ \eta(x_1) }"{description}
+    ]
+    &&
+    G(x)
+    \ar[
+      dd,
+      bend left=50,
+      "{ \mathrm{id}_{G(x)} }"{description, pos=.4, name=s}
+    ]
+    \ar[
+      dd,
+      bend right=50,
+      "{ G(\mathrm{id}_x) }"{description, pos=.6, name=t}
+    ]
+    \ar[
+      from=s, to=t,
+      Rightarrow,
+      "{ G_{\!\mathrm{e}}\!(x) }"{pos=.8}
+    ]
+    \ar[
+      ddll,
+      Rightarrow,
+      shorten=15pt,
+      shift left=5pt,
+      bend right=20,
+      "{ \eta(\mathrm{id}_x) }"{description}
+    ]
+    \\
+    \\
+    F(x)
+    \ar[
+      rr,
+      "{ \eta(x_2) }"{description}
+    ]
+    &&
+    G(x)
+  \end{tikzcd}
+
+**(associativity)**
+
+for all pairs of composable [[1-morphisms]] $x_1 \xrightarrow{f} x_2 \xrightarrow{g} x_3$ in $\mathcal{X}$, we have
+
+  \begin{tikzcd}[
+    column sep=30pt
+  ]
+    F(x_1)
+    \ar[
+      dr,
+      "{ F(f) }"{description}
+    ]
+    \ar[
+      dd,
+      "{ F(g \circ f) }"{sloped, swap}
+    ]
+    \ar[
+      rr,
+      "{ \eta(x_1) }"{description}
+    ]
+    &&[-23pt]
+    G(x_1)
+    \ar[
+      dl,
+      Rightarrow,
+      shorten=8,
+      "{ \eta(f) }"
+    ]
+    \ar[
+      dr,
+      "{ G(f) }"{description}
+    ]
+    \\
+    {}
+    & 
+    F(x_2)
+    \ar[
+      dl,
+      "{ F(g) }"{description}
+    ]
+    \ar[
+      l,
+      Rightarrow,
+      "{ F(f,g) }"{description, pos=.45}
+    ]
+    \ar[
+      rr,
+      "{ \eta(x_2) }"{description}
+    ]
+    &&
+    G(x_2)
+    \ar[
+      dlll,
+      Rightarrow,
+      shorten=65,
+      "{ \eta(g) }"{pos=.52}
+    ]
+    \ar[
+      dl,
+      "{ G(g) }"{description}
+    ]
+    \\
+    F(x_3)
+    \ar[
+      rr,
+      "{ \eta(x_3) }"{description}
+    ]
+    &&
+    G(X_3)
+  \end{tikzcd}
+$$=$$
+  \begin{tikzcd}[
+    column sep=30pt
+  ]
+    F(x_1)
+    \ar[
+      dd,
+      "{ F(g \circ f) }"{sloped, swap}
+    ]
+    \ar[
+      rr,
+      "{ \eta(x_1) }"{description}
+    ]
+    &[+10pt]&
+    G(x_1)
+    \ar[
+      ddll,
+      Rightarrow,
+      shorten=34pt,
+      "{ \eta(g \circ f) }"
+    ]
+    \ar[
+      dr,
+      "{ G(f) }"{description}
+    ]
+    \ar[
+      dd,
+      "{ G(g \circ f) }"{description,sloped}
+    ]
+    \\
+    & 
+    &
+    {}
+    &
+    G(x_2)
+    \ar[
+      dl,
+      "{ G(g) }"{description}
+    ]
+    \ar[
+      l,
+      Rightarrow,
+      "{ G(f,g) }"{description}
+    ]
+    \\
+    F(x_3)
+    \ar[
+      rr,
+      "{ \eta(x_3) }"{description}
+    ]
+    &&
+    G(X_3)
+  \end{tikzcd}
+
+\end{definition}
+
+Such a pseudonatural transformation is called a **pseudonatural equivalence** if each component $\eta(x)$ is an [[equivalence]] in the 2-category $C$.  This is equivalent to $\phi$ itself being an equivalence in the [[2-functor 2-category]] $[\mathcal{X},\mathcal{Y}]$ of [[2-functors]], pseudonatural transformations between these, and [[modifications]] between those.
 
 ## Related concepts
 
