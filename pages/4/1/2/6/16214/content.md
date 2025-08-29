@@ -25,6 +25,11 @@ on [[derived algebraic geometry]] with an eye towards the [[categorical geometri
 
 * [[Dennis Gaitsgory]] et. al.: _Geometric representation theory_, graduate seminar (2009-10) &lbrack;[web](https://people.mpim-bonn.mpg.de/gaitsgde/grad_2009/)&rbrack;
 
+
+The book states a number of claims on (its definition of) the [[Gray tensor product]] of [[(∞,2)-categories]] without proof. These have all since been proved across a number of papers by other authors, and a summary can be found at:
+
+* [Felix Loubaton](https://mathoverflow.net/users/568197/felix-loubaton), answer to _The missing proofs in Gaitsgory–Rozenblyum's derived algebraic geometry book_, [MathOverflow](https://mathoverflow.net/a/497541/) (version: 2025-07-11)
+
 ## Contents
 
 * Preface
