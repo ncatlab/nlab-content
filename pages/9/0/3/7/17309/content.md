@@ -38,7 +38,7 @@ $$
   \,.
 $$
 
-where $X\to Path(X)$ is a weak equivalence. This is called a **good path object** if in addition $Path(X) \to X \times X$ is a fibration.
+where $X\to Path(X)$ is a weak equivalence. This is called a **good path object** if in addition $Path(X) \to X \times X$ is a [[fibration]].
 
 * A **[[cylinder object]]** $Cyl(X)$ for $X$ is a factorization of the [[codiagonal]] (or "fold map") $\Delta_X \colon X \sqcup X \to X$ as
 
@@ -111,14 +111,14 @@ If
 $
   X \sqcup X \overset{(i_0,i_1)}{\longrightarrow} Cyl(X) \underoverset{p}{\in W}{\longrightarrow} X
 $
-is a good [[cylinder object]] for a cofibrant object $X$ def. \ref{PathAndCylinderObjectsInAModelCategory}, then both components $i_0, i_1 \colon X \to Cyl(X)$ are acyclic cofibrations.
+is a good [[cylinder object]] for a [[cofibrant object]] $X$ def. \ref{PathAndCylinderObjectsInAModelCategory}, then both components $i_0, i_1 \colon X \to Cyl(X)$ are acyclic cofibrations.
 
 Dually, if 
 $
    X \underoverset{\in W}{i}{\longrightarrow} Path(X) \overset{(p_0,p_1)}{\longrightarrow} X \times X
 $
 
-is a good path object for a fibrant object $X$, then both component $p_0,p_1 \colon Path(X)\to X$ are acyclic fibrations.
+is a good path object for a [[fibrant object]] $X$, then both component $p_0,p_1 \colon Path(X)\to X$ are [[acyclic fibrations]].
 
 =--
 
@@ -155,7 +155,7 @@ The following says that the choice of cylinder/path objects in def. \ref{LeftAnd
 +-- {: .num_lemma #GoodCylinderObjectsSupportEveryLeftHomotopyAndDually}
 ###### Lemma
 
-For $\eta \colon f \Rightarrow_L g \colon X \to Y$ a [[left homotopy]] in some [[model category]], def. \ref{LeftAndRightHomotopyInAModelCategory}, such that $Y$ is a fibrant object, then for $Cyl(X)$ any choice of _good_ [[cylinder object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a [[commuting diagram]] of the form
+For $\eta \colon f \Rightarrow_L g \colon X \to Y$ a [[left homotopy]] in some [[model category]], def. \ref{LeftAndRightHomotopyInAModelCategory}, such that $Y$ is a [[fibrant object]], then for $Cyl(X)$ any choice of _good_ [[cylinder object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -291,7 +291,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-For $X$ a cofibrant object in a [[model category]] and $Y$ a [[fibrant object]], then the [[relations]] of [[left homotopy]] $f \Rightarrow_L g$ and of [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) on the [[hom set]] $Hom(X,Y)$ coincide and are both [[equivalence relations]].
+For $X$ a [[cofibrant object]] in a [[model category]] and $Y$ a [[fibrant object]], then the [[relations]] of [[left homotopy]] $f \Rightarrow_L g$ and of [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) on the [[hom set]] $Hom(X,Y)$ coincide and are both [[equivalence relations]].
 
 =--
 
