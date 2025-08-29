@@ -161,7 +161,7 @@ General review:
 
 * Stanford Encyclopedia of Philosophy, _[Intuitionism in the Philosophy of Mathematics](http://plato.stanford.edu/entries/intuitionism/)
 
-* Internet Encyclopedia of Philosophy, _[Intuitionism in Mathematics](https://iep.utm.edu/intuitionism-in-mathematics/)
+* Internet Encyclopedia of Philosophy, _[Intuitionism in Mathematics](https://iep.utm.edu/intuitionism-math/)
 
 
 See also texts on [[constructive mathematics]], such as:
