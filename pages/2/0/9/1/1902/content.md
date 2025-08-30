@@ -1,12 +1,17 @@
-Dominic Verity is a British category theorist, based in Australia. He is an Emeritus Professor at Macquarie University.
+Dominic Verity is a British [[higher category theory|higher]] [[category theory|category theorist]], based in Australia. He is an Emeritus Professor at Macquarie University.
 
-He has worked on the theory of [[complicial sets]] and their [[weak complicial sets|weak analogues]], which followed up on ideas of [[John Roberts]] on cohomology and, effectively, [[omega-category]] theory.
+Verity has worked on the theory of [[complicial sets]] and their [[weak complicial sets|weak analogues]], which followed up on ideas of [[John Roberts]] on cohomology and, effectively, [[omega-category]] theory.
 
 More recently he has worked with [[Emily Riehl]] on foundations of [[(infinity,1)-category theory|$(\infty, 1)$-category theory]] seen through their [[homotopy 2-category]], and using the concept of [[∞-cosmoi]] to capture common structure of different presentations of $(\infty, 1)$-categories.
 
-* [Departmental webpage](https://researchers.mq.edu.au/en/persons/dominic-verity)
 
-* [Mathematics Genealogy page](https://www.mathgenealogy.org/id.php?id=61019)
+* [personal page](https://dom-verity.github.io/)
+
+* [institute page](https://researchers.mq.edu.au/en/persons/dominic-verity)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=61019)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=OA4oBRkAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -23,11 +28,13 @@ On ([[weak complicial sets|weak]]) [[complicial sets]]:
 
 * [[Dominic Verity]], *Complicial Sets Characterising the Simplicial Nerves of Strict $\omega$-Categories*, Memoirs of the AMS, **193** 905 (2008) &lbrack;[arXiv:math/0410412](http://arxiv.org/abs/math/0410412), [ams:memo-193-905](https://bookstore.ams.org/memo-193-905/)&rbrack;
 
-*   D. Verity, 2006, Weak complicial sets I: basic homotopy theory , available from : [arXiv:math/0604414](http://arxiv.org/abs/math/0604414). 
+* [[Dominic Verity]]: *Weak complicial sets I: Basic homotopy theory*, Advances in Mathematics **219** 4 (2008) 1081-1149 &lbrack;[arXiv:math/0604414](http://arxiv.org/abs/math/0604414), [doi:10.1016/j.aim.2008.06.003](https://doi.org/10.1016/j.aim.2008.06.003)&rbrack;
 
-*    D. R. Verity, 2006, Weak complicial sets. III. Enriched and internal quasi-category theory , (in preparation). 
+* [[Dominic Verity]]: *Weak complicial sets. II. Nerves of complicial Gray-categories*, in: Categories in Algebra, Geometry and Mathematical Physics, Contemporary Mathematics **431**, Amer. Math. Soc. (2007) 441-467 &lbrack;[doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
 
-*    D. R. Verity, 2007, Weak complicial sets. II. Nerves of complicial Gray-categories , in Categories in algebra, geometry and mathematical physics , volume 431 of Contemp. Math., 441--467, Amer. Math. Soc., Providence, RI. 
+
+* [[Dominic Verity]]: _Weak complicial sets and internal quasi-categories_, talk at *[[Category Theory conference|Category Theory 2007]]* &lbrack;[pdf](http://www.mat.uc.pt/~categ/ct2007/slides/verity.pdf), [[Verity-WeakComplicialAndQuasi.pdf:file]]&rbrack;
+
 
 On [[comprehensive factorization systems]] and [[torsors]]:
 
