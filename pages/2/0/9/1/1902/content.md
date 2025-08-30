@@ -21,7 +21,7 @@ Introducing the notion of [[traced monoidal categories]]:
 
 On ([[weak complicial sets|weak]]) [[complicial sets]]:
 
-* [[Dominic Verity]], *Complicial Sets Characterising the Simplicial Nerves of Strict $\omega$-Categories*, Memoirs of the AMS, **193** 905 (2008) &lbrack;[arXiv:math/0410412](http://arxiv.org/abs/math/0410412), [ams:memo-193-905/](https://bookstore.ams.org/memo-193-905/)&rbrack;
+* [[Dominic Verity]], *Complicial Sets Characterising the Simplicial Nerves of Strict $\omega$-Categories*, Memoirs of the AMS, **193** 905 (2008) &lbrack;[arXiv:math/0410412](http://arxiv.org/abs/math/0410412), [ams:memo-193-905](https://bookstore.ams.org/memo-193-905/)&rbrack;
 
 *   D. Verity, 2006, Weak complicial sets I: basic homotopy theory , available from : [arXiv:math/0604414](http://arxiv.org/abs/math/0604414). 
 
@@ -66,6 +66,8 @@ On the [[Yoneda lemma for (∞,1)-categories]]:
 * [[stratified simplicial set]]
 
 * [[complicial set]]
+
+* [[Verity-Gray tensor product]]
 
 * [[Verity on descent for strict omega-groupoid valued presheave|Verity on descent for strict omega-groupoid valued presheaves]]
 
