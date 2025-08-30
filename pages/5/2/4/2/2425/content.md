@@ -1,19 +1,38 @@
-# Idea #
 
-For any $n$, the category $Str n Cat$ of [[strict n-categories]] is [[cartesian closed category|cartesian closed]].  If $C$ and $D$ are strict $n$-categories, the objects of the [[exponential object]] $D^C$ are strict $n$-functors $C\to D$, its morphisms are *strict* $n$-natural transformations, and likewise its higher cells are *strict* higher [[transfors]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+## Idea 
+
+For any $n$, the [[category]] $Str n Cat$ of [[strict n-categories]] is [[cartesian closed category|cartesian closed]].  If $C$ and $D$ are strict $n$-categories, the objects of the [[exponential object]] $D^C$ are strict $n$-functors $C\to D$, its morphisms are *strict* $n$-natural transformations, and likewise its higher cells are *strict* higher [[transfors]].
 
 On the other hand, one expects the weak $(n+1)$-category $n Cat$ of [[weak n-categories]] to be cartesian closed in the $(n+1)$-categorical sense, so that one has equivalences of hom-$n$-categories
-\[n Cat(C\times D, E) \simeq n Cat(C, Hom(D,E)).\]
+\[
+  n Cat(C\times D, E) 
+   \;\simeq\; 
+  n Cat\big(C, Hom(D,E)\big)
+  \mathrlap{\,.}
+\]
 In this case, $Hom(D,E)$ should consist of weak functors, pseudo transformations (which are natural up to coherent [[equivalence]]), and pseudo higher transfors.  Note that although $C\times D$ (probably) means the same thing in the strict and weak worlds, $D^C$ and $Hom(D,E)$ are not the same, and in general not even [[equivalence of categories|equivalent]].
 
-Gray tensor products are part of the general philosophy of trying to understand weak higher structures without getting bogged down in the theory of weaker higher-er structures.  One instance of this philosophy is the use of [[model categories]] (or more general types of [[homotopy theory]]) to use strict functors to model weak ones. Although not every weak functor is equivalent to a strict one (already when $n=2$), one expects this to become true if the domain is suitably [[cofibrant object|cofibrant]].  This is a theorem for small values of $n$ and can be regarded as a definition of "weak functor" for large values of $n$; see the [[folk model structure]] for 2-categories and [this paper](http://www.dpmms.cam.ac.uk/~rhgg2/Womaps/Womaps.html).
+[[Gray tensor products]] are part of the general philosophy of trying to understand weak higher structures without getting bogged down in the theory of weaker higher-er structures.  One instance of this philosophy is the use of [[model categories]] (or more general types of [[homotopy theory]]) to use strict functors to model weak ones. Although not every weak functor is equivalent to a strict one (already when $n=2$), one expects this to become true if the domain is suitably [[cofibrant object|cofibrant]].  This is a theorem for small values of $n$ and can be regarded as a definition of "weak functor" for large values of $n$; see the [[folk model structure]] for 2-categories and [this paper](http://www.dpmms.cam.ac.uk/~rhgg2/Womaps/Womaps.html).
 
 Gray tensor products attempt to extend this to deal with weak $k$-transfors for $k\gt 0$, starting with pseudo (or lax or oplax) natural transformations, by equipping higher categories of some sort with a non-cartesian [[monoidal category|monoidal]] and/or [[closed category|closed]] structure.  This began with John Gray, who showed that the category $Str2Cat$ is a non-symmetric [[closed monoidal category]] in which one internal-hom $Lax(C,D)$ consists of [[strict 2-functors]], [[lax natural transformations]], and [[modifications]] (the other contains oplax transformations instead).  A straightforward modification produces a closed symmetric monoidal structure based on *pseudo* natural transformations; the monoidal product is now called the [[Gray tensor product]].
 
 Later various authors constructed analogous tensor products for [[strict ∞-categories]] and strict &#969;-groupoids, here called the [[Crans-Gray tensor product]].  Here the internal-homs consists of strict $\omega$-functors and lax/oplax $k$-transfors for $k\gt 0$.  (It appears to be unknown whether there is a pseudo version.)
 
 
-# The Problem #
+## The Problem 
 
 The (pseudo version of the) Gray tensor product of 2-categories is used to define [[Gray-categories]], which are a version of [[semistrict n-category|semistrict]] 3-categories.  This is very convenient because Gray-categories are just [[enriched category|categories enriched]] over $(Str2Cat,\otimes_{Gray})$, so that all of enriched category theory applies to them (as it does to 2-categories, being categories enriched over $Cat$).  Thus, it is natural to hope that one might be able to iterate this process, defining a "Gray tensor product" of semistrict $n$-categories and then defining semistrict $(n+1)$-categories to be categories enriched over semistrict $n$-categories.
 
@@ -26,8 +45,11 @@ Now there are lots of adjectives in this statement; for now just notice that the
 To see why this no-go statement holds, imagine some hypothetical algebraic notion of semistrict $n$-category with weak interchange, and consider what sort of transformation (that is, 1-transfor) we want to model.  Let $C$ and $D$ be semistrict $n$-categories and $F,G:C\to D$ (strict) functors; then a transformation $\alpha:F\to G$ should probably consist of
 
 * components $\alpha_x: F(x) \to G(x)$,
+
 * equivalences $\alpha_f: G(f) \circ \alpha_x \simeq \alpha_y F(f)$ for $f:x\to y$,
+
 * and higher data,
+
 * satisfying axioms.
 
 Now the question is, how is $\alpha_{g f}$ related to the composite of $\alpha_g$ and $\alpha_f$?  For pseudonatural transformations between 2-categories, they are equal (both being 2-cells, there is no room for anything weaker).  For a "fully weak" notion of transformation in higher dimensions, one might expect them to be only equivalent---but for the sorts of transfors used in the internal-hom for the Crans-Gray tensor product of $\omega$-categories, it turns out that they are also *equal*.  In fact, if the transformations are to give us a biclosed category of $n$-categories and strict functors, it turns out that they *must* be equal.
@@ -42,12 +64,21 @@ Another way to escape would be to allow weak functors.  This is not much good al
 
 Finally, a third escape that suggests itself would be to look for a notion of algebraic semistrict $n$-categories which nevertheless has strict interchange.  As far as I know, the only work on strictly interchanging semistrict categories is one nonalgebraic notion which depends on weak units.  The prospects for algebraic notions don't seem that appealing, however, since the whole idea of the Gray-approach was to build in the semistrictness via the iterated enrichment, but while it is easy to imagine weakening interchange this way, it is hard to see how this could produce strict interchange but weak units.
 
-# References
+## Related entries
 
-* [[Sjoerd Crans]], _A tensor product for $Gray$-categories_ ([TAC](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html))
+* [[Gray tensor product]]
+
+* [[Crans-Gray tensor product]]
+
+* [[Verity-Gray tensor product]]
+
+
+## References
+
+* [[Sjoerd Crans]]: *A tensor product for $Gray$-categories*, Theory and Applications of Categories **5** 2 (1999) 12-69 &lbrack;[tac:5-02](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/1999/n2/n2.pdf)&rbrack;
 
 * [[Joachim Kock]], _Weak identity arrows in higher categories_ (semistrict categories with weak units): [math/0507116](http://arxiv.org/abs/math/0507116)
 
 
-* [[Michael Batanin]], Denis-Charles Cisinski, Mark Weber, _Algebras of higher operads as enriched categories II_
+* [[Michael Batanin]], [[Denis-Charles Cisinski]], [[Mark Weber]]: _Algebras of higher operads as enriched categories II_
 ([arXiv](http://arxiv.org/abs/0909.4715))
