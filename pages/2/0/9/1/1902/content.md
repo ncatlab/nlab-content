@@ -19,9 +19,9 @@ Introducing the notion of [[traced monoidal categories]]:
 * {#JoyalStreetVerity96} [[André Joyal]], [[Ross Street]], [[Dominic Verity]], _Traced monoidal categories_, Math. Proc. Camb. Phil. Soc. **119** (1996) 447-468 &lbrack;[pdf](http://sci-prew.inf.ua/v119/3/S0305004100074338.pdf), [doi:10.1017/S0305004100074338](https://doi.org/10.1017/S0305004100074338)&rbrack;
 
 
-On [[weak complicial sets]]:
+On ([[weak complicial sets|weak]]) [[complicial sets]]:
 
-*   D. R. Verity, 2005, Complicial Sets , available from : [arXiv:math.CT/0410412](http://arxiv.org/abs/math.CT/0410412). 
+* [[Dominic Verity]], *Complicial Sets Characterising the Simplicial Nerves of Strict $\omega$-Categories*, Memoirs of the AMS, **193** 905 (2008) &lbrack;[arXiv:math/0410412](http://arxiv.org/abs/math/0410412), [ams:memo-193-905/](https://bookstore.ams.org/memo-193-905/)&rbrack;
 
 *   D. Verity, 2006, Weak complicial sets I: basic homotopy theory , available from : [arXiv:math/0604414](http://arxiv.org/abs/math/0604414). 
 
