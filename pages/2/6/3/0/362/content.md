@@ -50,7 +50,9 @@ where $Ps(C,D)$ is the 2-category of [[2-functors]], [[pseudonatural transformat
 
 ## Related entries
 
-* see also [[generalized Gray tensor product]]
+* [[generalized Gray tensor product]]
+
+* [[Verity-Gray tensor product]]
 
 ## References
 
