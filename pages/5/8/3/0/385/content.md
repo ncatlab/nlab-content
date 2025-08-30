@@ -85,7 +85,8 @@ A detailed discussion is in
 
 Some helpful remarks and diagrams are in 
 
-* [[Sjoerd Crans]], _A tensor product for $Gray$-categories_ ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html))
+* [[Sjoerd Crans]]. "A tensor product for $Gray$-categories". *Theory and applications of categories*, 5(2), 12-69. ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html)) ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n2/n2.pdf))
+
 
 which is however mainly concerned with a slightly different topic. 
 
