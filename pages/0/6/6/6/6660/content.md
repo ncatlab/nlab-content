@@ -170,7 +170,10 @@ The [[1-category]]-theoretic version:
 $\mathcal{F}$-categories were introduced in the following, where they were called **enhanced 2-categories**:
 
 * {#LS} [[Stephen Lack]] and [[Mike Shulman]], "Enhanced 2-categories and limits for lax morphisms", [arXiv](http://arxiv.org/abs/1104.2111).
- 
+
+Structures inside, and limit sketches for, enhanced 2-categories are studied in:
+
+* [[Nathanael Arkor]], [[John Bourke]], and [[Joanna Ko]], _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_, [arXiv:2412.07475](https://arxiv.org/abs/2412.07475) (2024).
 
 [[!redirects F-category]]
 [[!redirects F-categories]]
