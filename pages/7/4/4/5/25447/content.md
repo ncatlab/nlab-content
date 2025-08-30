@@ -42,6 +42,18 @@ On [[bicategories]] of [[pseudoalgebras]] for [[relative pseudomonads]]:
 
 * [[Nathanael Arkor]], [[Philip Saville]], Andrew Slattery, *Bicategories of algebras for relative pseudomonads*, [arXiv:2501.12510](https://arxiv.org/abs/2501.12510)
 
+On [[enhanced 2-category|two-dimensional]] [[limit sketches]] and [[double categories]]:
+
+* [[Nathanael Arkor]], [[John Bourke]], and [[Joanna Ko]], _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_, [arXiv:2412.07475](https://arxiv.org/abs/2412.07475) (2024).
+
+On [[exponentiable object|exponentiable]] [[virtual double categories]] and [[representable functor|representability]] for [[double categories]]:
+
+* [[Nathanael Arkor]], _Exponentiable virtual double categories and presheaves for double categories_, [arXiv:2508.11611](https://arxiv.org/abs/2508.11611) (2025).
+
+On a generalisation of [[Fox's theorem]]:
+
+* [[Nathanael Arkor]], *Magmal characterisations of cocartesian categories* &lbrack;[arXiv:2508.11615](https://arxiv.org/abs/2508.11615)&rbrack;
+
 ## Related entries
 
 * [[formal category theory]]
