@@ -29,6 +29,12 @@ $$
 where $X \times Y$ is the [[cartesian product]] of [[simplicial sets]] (hence the standard monoidal structure on [[SSet]], cf. at *[[product of simplices]]*), while $q(t X, t Y)$, the set of thin cells, is $t X \times t Y$ for the [[Gray tensor product]], and for the lax-Gray product  is enlarged as described in the paper.
 
 
+## Related entries
+
+* [[Crans-Gray tensor product]]
+
+* [[generalized Gray tensor product]]
+
 
 ## References
 
