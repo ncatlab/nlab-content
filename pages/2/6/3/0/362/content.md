@@ -17,15 +17,18 @@
 
 The **Gray tensor product** is a "better" replacement for the cartesian product of [[strict 2-category|strict 2-categories]] with respect to pseudonatural transformations.  To get the idea it suffices to consider the 2-category $\mathbf{2}$ which has two objects, 0 and 1, one non-identity morphism $0\to 1$, and no nonidentity 2-cells. Then the cartesian product $\mathbf{2}\times\mathbf{2}$ is a commuting square, while the Gray tensor product $\mathbf{2}\otimes\mathbf{2}$ is a square which commutes up to isomorphism.
 
-More generally, for any 2-categories $C$ and $D$, a 2-functor $C\times\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a strict 2-natural transformation between them, while a 2-functor $C\otimes\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a _pseudonatural_ transformation between them.
+More generally, given [[2-categories]] $C$ and $D$, a [[2-functor]] $C\times\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a strict 2-natural transformation between them, while a 2-functor $C\otimes\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a *[[pseudonatural transformation]]* between them.
 
 ## Definition 
 
 Following up on the last comment, $B\otimes C$ can be defined by
 $$ 
-  2Cat(B\otimes C, D) \cong 2Cat(B, Ps(C,D)) 
+  2Cat(B\otimes C, D)   
+   \cong 
+  2Cat\big(B, Ps(C,D)\big) 
+  \,,
 $$
-where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, and modifications $C\to D$.  In other words, the category $2Cat$ of strict 2-categories  and strict 2-functors is a [[closed monoidal category|closed]] [[symmetric monoidal category]], whose tensor product is $\otimes$ and whose internal hom is $Ps(-,-)$.
+where $Ps(C,D)$ is the 2-category of [[2-functors]], [[pseudonatural transformations]], and [[modifications]] between $C$ and $D$. In other words, the category $2Cat$ of strict 2-categories  and strict 2-functors becomes a [[closed monoidal category|closed]] [[symmetric monoidal category]] with tensor product guven by the Gray tensor $\otimes$ and [[internal hom]] given by $Ps(-,-)$.
 
 ## Remarks 
 
