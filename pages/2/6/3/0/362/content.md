@@ -89,6 +89,11 @@ A proof that the Gray tensor product does form a monoidal structure, based only 
 
 * [[John Bourke]], [[Nick Gurski]], _The Gray tensor product via factorisation_, Appl Categor Struct **25** (2017) p603-624, doi:[10.1007/s10485-016-9467-6](https://doi.org/10.1007/s10485-016-9467-6), arXiv:[1508.07789](http://arxiv.org/abs/1508.07789)
 
+On its generalization to [[Gray-category|Gray-categories]]
+
+* [[Sjoerd Crans]]. "A tensor product for $Gray$-categories". *Theory and applications of categories*, 5(2), 12-69. ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html)) ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n2/n2.pdf))
+
+
 ### In $(\infty,2)$-category theory
  {#ReferencesInInfinity2CategoryTheory}
 
