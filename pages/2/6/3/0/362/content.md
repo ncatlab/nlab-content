@@ -95,6 +95,9 @@ On its generalization to [[Gray-category|Gray-categories]]
 
 * [[Sjoerd Crans]]. "A tensor product for $Gray$-categories". *Theory and applications of categories*, 5(2), 12-69. ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html)) ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n2/n2.pdf))
 
+### In [[enhanced 2-category]] theory
+
+* [[Nathanael Arkor]], [[John Bourke]], and [[Joanna Ko]], _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_, [arXiv:2412.07475](https://arxiv.org/abs/2412.07475) (2024).
 
 ### In $(\infty,2)$-category theory
  {#ReferencesInInfinity2CategoryTheory}
