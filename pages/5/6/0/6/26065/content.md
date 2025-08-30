@@ -65,6 +65,8 @@ A symmetric monoidal double category is a braided monoidal double category whose
 
 * Linde Wester Hansen and [[Mike Shulman]]. _Constructing symmetric monoidal bicategories functorially_ (2019) &lbrack;[arxiv:1910.09240](https://arxiv.org/abs/1910.09240)&rbrack;
 
+* [[Nathanael Arkor]], [[John Bourke]], and [[Joanna Ko]], _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_, [arXiv:2412.07475](https://arxiv.org/abs/2412.07475) (2024).
+
 [[!redirects monoidal double categories]]
 [[!redirects symmetric monoidal double category]]
 [[!redirects symmetric monoidal double categories]]
