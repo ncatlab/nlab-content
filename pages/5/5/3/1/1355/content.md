@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
 \tableofcontents
 
 ## Idea
@@ -22,19 +32,11 @@ where $X \times Y$ is the [[cartesian product]] of [[simplicial sets]] (hence th
 
 ## References
 
-Definition 128 of:
+* {#Verity08} [[Dominic Verity]], §7.2 & §11.4 in: *Complicial Sets Characterising the Simplicial Nerves of Strict $\omega$-Categories*, Memoirs of the AMS, **193** 905 (2008) &lbrack;[arXiv:math/0410412](http://arxiv.org/abs/math/0410412), [ams:memo-193-905](https://bookstore.ams.org/memo-193-905/)&rbrack;
 
-* [[Dominic Verity]], *Complicial Sets Characterising the Simplicial Nerves of Strict $\omega$-Categories*, Memoirs of the AMS, **193** 905 (2008) &lbrack;[arXiv:math/0410412](http://arxiv.org/abs/math/0410412), [ams:memo-193-905](https://bookstore.ams.org/memo-193-905/)&rbrack;
+* {#Verity08b} [[Dominic Verity]], def 59 (p. 32) of: *Weak complicial sets I: Basic homotopy theory*, Advances in Mathematics **219** 4 (2008) 1081-1149 &lbrack;[arXiv:math/0604414](http://arxiv.org/abs/math/0604414), [doi:10.1016/j.aim.2008.06.003](https://doi.org/10.1016/j.aim.2008.06.003)&rbrack;
 
-
-Definition 59 (p. 32) of:
-
-* [[Dominic Verity]], *Weak complicial sets, a simplicial weak omega-category theory. Part I: basic homotopy theory*
-&lbrack;[arXiv:math/0604414](http://arxiv.org/abs/math/0604414)&rbrack;
-
-Slide 60 of:
-
-* [[Dominic Verity]]: _Weak complicial sets and internal quasi-categories_, talk at *[[Category Theory conference|Category Theory 2007]]* &lbrack;[pdf](http://www.mat.uc.pt/~categ/ct2007/slides/verity.pdf)&rbrack;
+* [[Dominic Verity]], around slide 60 of:: _Weak complicial sets and internal quasi-categories_, talk at *[[Category Theory conference|Category Theory 2007]]* &lbrack;[pdf](http://www.mat.uc.pt/~categ/ct2007/slides/verity.pdf), [[Verity-WeakComplicialAndQuasi.pdf:file]]&rbrack;
 
 
 
