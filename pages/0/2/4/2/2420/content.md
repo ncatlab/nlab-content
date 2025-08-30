@@ -49,7 +49,7 @@ then is interpreted as
 
 This involves, conversely, counting for each fixed energy $E_\Psi$ the number of states of that energy. This will typically be a sum over certain partitions of various particles of an ensemble into various "bins" of partial energies. Therefore the term _partition_ function.
 
-In fact, the common letter $Z$ uses to denote QFTs (or at least [[TQFT]]s) also derives from this: in German the partition function is called _Zustandssumme_ --- from German _Zustand_ for "state" .
+In fact, the common letter $Z$ used to denote QFTs (or at least [[TQFT]]s) also derives from this: in German the partition function is called _Zustandssumme_ --- from German _Zustand_ for "state" .
 
 The [[Mellin transform]] of the partition function is known in [[quantum field theory]] as the [[Schwinger parameter]]-formulation which takes the [[worldline theory]] to its [[zeta function regularization|zeta regulated]] [[Feynman propagator]].
 
