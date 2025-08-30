@@ -50,6 +50,8 @@ where $Ps(C,D)$ is the 2-category of [[2-functors]], [[pseudonatural transformat
 
 ## Related entries
 
+* [[Crans-Gray tensor product]]
+
 * [[generalized Gray tensor product]]
 
 * [[Verity-Gray tensor product]]
@@ -106,5 +108,10 @@ Discussion of the Gray tensor product in [[(infinity,2)-category|$(\infty,2)$-ca
 * {#Loubaton25} [[Félix Loubaton]], answer to: *The missing proofs in Gaitsgory–Rozenblyum's derived algebraic geometry book* (Jul 2025) &lbrack;[MO:a/497541](https://mathoverflow.net/a/497541/)&rbrack;
 
 
+[[!redirects Gray tensor products]]
 
 [[!redirects Gray]]
+
+
+
+
