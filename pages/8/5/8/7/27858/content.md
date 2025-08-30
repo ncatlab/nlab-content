@@ -167,7 +167,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group of order 2|$\mathbb{Z}_{/2}$]]-[[group action|action]] which rotates by multiples of $\pi$ around the origin, corresponding to the [[wallpaper group]] $p2$:
 
 \begin{imagefromfile}
-    "file_name": "p2TorusCellStructure-20250722.png",
+    "file_name": "p2TorusCellStructure-20250830.png",
     "width": 470,
     "unit": "px",
     "margin": {
