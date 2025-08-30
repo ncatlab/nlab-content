@@ -75,6 +75,12 @@ This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad
 
 ## Properties
 
+### Giry Monad on Standard spaces
+
+Every probability measure on a [[Standard Borel space]]  is a [[Radon measure]]. So, on compact Polish spaces, the Giry monad coincides with the measurable sets of the [[Radon monad]]. Do note that not every measurable map is continuous with regard to the topology of the Radon monad. This applies to algebras also — for example, the Giry algebra on $[0, \infty]$ is not continuous.
+
+The Giry monad on Polish spaces uses the weak topology, which is weaker than the weak* topology of the [[Radon monad]].
+
 ### Kleisli category
 
 The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategories) are [[Markov kernels]]. Therefore its [[Kleisli category]] is the category [[Stoch]]. 
@@ -245,13 +251,7 @@ If we spell both sides of that equation out, using the property $\int_A m \, d(\
 
 Note that what we have shown is that $\mathbf{Std}_{SCvx}$ is a subcategory of $\mathbf{Alg}_{G}$. Proving the reverse inclusion (or finding a counterexample) is an open problem, and is discussed in ([Sturtz 25](#Sturtz25)).
  
-
-
-Concerning the $P$ algebras the above method of using $V$ generalize points can be used to obtain similar results. Perhaps the easiest way to see this is to use the fact that every probability measure on a standard space is a [[Radon measure]] and leads us to consider the [[Radon monad]]. (This would imply the $P$ algebras are compact Hausdorff spaces.) 
-
-Note that the methodology we have used above for the $G$-monad avoids the use of any topological arguments and uses only measure theoretic arguments along with category-theoretic arguments (such as generalized points). The use of the [[compact Hausdorff space]] $V=[0,\infty]$ can be motivated as follows. The space $[0,\infty)$ has probability measures, such as the half-Cauchy distribution $P$, for which the expected value is $\infty$, hence no such $G$-algebra (=barycenter map) exists for $[0,\infty)$.  By a change of variables the argument can be used to show that, for example,  the standard space $[0,1)$ also does not have a barycenter map.  But unlike $[0,\infty)$ which is not a [[superconvex space]] the space $[0,1)$ has a natural superconvex space structure, and the fullness condition can be used to show that their exists probability measures on $[0,1)$ which do not satisfy the fullness property. Hence the space $[0,1)$ is not an object in $\mathbf{Std}_{SCvx}$.
-
-([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. (This is evident in the fact that he does not theoretically relate the algebras to the expectation mapping which characterizes the $P$-algebras.)
+Concerning $P$ algebras, the above method of using $V$-generalized points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. (This is evident in the fact that he does not theoretically relate the algebras to the expectation mapping which characterizes the $P$-algebras.)
 His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
  And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
 
