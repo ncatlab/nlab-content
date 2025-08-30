@@ -463,10 +463,13 @@ Discussion in the generality of [[internalization]] into [[2-categories]]:
 
 * [[Ross Street]], *Pointwise extensions and sketches in bicategories* &lbrack;[arXiv:1409.6427](https://arxiv.org/abs/1409.6427)&rbrack;
 
-
 Generalising the approach of [Kinoshita, Power & Takeyama 1999](#KinoshitaPowerTakeyama99), a notion of sketch relative to an [[algebraic weak factorisation system]] is defined in:
 
 * [[John Bourke]], [[Richard Garner]], _Algebraic weak factorisation systems II: Categories of weak maps_, Journal of Pure and Applied Algebra **220** (2016) &lbrack;[arXiv:1412.6560](http://arxiv.org/abs/1412.6560), [doi:10.1016/j.jpaa.2015.06.003](https://doi.org/10.1016/j.jpaa.2015.06.003)&rbrack;
+
+On [[enhanced 2-category|enhanced 2-categorical]] limit sketches:
+
+* [[Nathanael Arkor]], [[John Bourke]], and [[Joanna Ko]], _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_, [arXiv:2412.07475](https://arxiv.org/abs/2412.07475) (2024).
 
 
 [[!redirects sketches]]
