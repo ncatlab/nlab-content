@@ -47,11 +47,12 @@ Equivalently, a **complicial set** is a stratified simplicial set that is (right
 
 ## References
 
-The original idea is developed in 
+The original text:
 
-* [[Dominic Verity]], _Complicial Sets_ ([arXiv](http://arxiv.org/abs/math/0410412))
+* [[Dominic Verity]], *Complicial Sets Characterising the Simplicial Nerves of Strict $\omega$-Categories*, Memoirs of the AMS, **193** 905 (2008) &lbrack;[arXiv:math/0410412](http://arxiv.org/abs/math/0410412), [ams:memo-193-905](https://bookstore.ams.org/memo-193-905/)&rbrack;
 
-There are also Lecture notes written by Emily Riehl to accompany a three-hour mini course entitled "Weak Complicial Sets" delivered at the Higher Structures in Geometry and Physics workshop at the MATRIX Institute from June 6-7, 2016.  They are to be found at:
+Introduction:
 
-* [[Emily Riehl]], _Complicial sets, an overture_, ([arXiv](https://arxiv.org/abs/1610.06801))
+* [[Emily Riehl]]: _Complicial sets, an overture_, in *2016 MATRIX Annals*, MATRIX Book Series **1** Springer (2018) &lbrack;[doi:10.1007/978-3-319-72299-3_4](https://doi.org/10.1007/978-3-319-72299-3_4), [arXiv:1610.06801](https://arxiv.org/abs/1610.06801)&rbrack;
+
 [[!redirects complicial sets]]
