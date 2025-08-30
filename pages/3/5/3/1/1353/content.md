@@ -95,13 +95,12 @@ There is a [[model category]] structure that presents the [[(infinity,1)-categor
 
 ## References
 
-The definition of weak complicial sets is definition 14, page 9 of 
+The original articles:
 
-* [[Dominic Verity]], _Weak complicial sets Part I: Basic homotopy theory_ ([arXiv](http://arxiv.org/abs/math/0604414))
+* [[Dominic Verity]]: *Weak complicial sets I: Basic homotopy theory*, Advances in Mathematics **219** 4 (2008) 1081-1149 &lbrack;[arXiv:math/0604414](http://arxiv.org/abs/math/0604414), [doi:10.1016/j.aim.2008.06.003](https://doi.org/10.1016/j.aim.2008.06.003)&rbrack;
 
-Further developments are in 
+* [[Dominic Verity]]: *Weak complicial sets. II. Nerves of complicial Gray-categories*, in: Categories in Algebra, Geometry and Mathematical Physics, Contemporary Mathematics **431**, Amer. Math. Soc. (2007) 441-467 &lbrack;[doi:10.1090/conm/431](https://doi.org/10.1090/conm/431)&rbrack;
 
-* Dominic Verity, _Weak complicial sets Part II: Nerves of complicial Gray-categories_ ([arXiv](http://arxiv.org/abs/math/0604416))
 
 A [[model category]] structure on [[stratified simplicial sets]] modelling [[(infinity,n)-categories|$(\infty,n)$-categories]] in the guise of [[n-complicial sets|$n$-complicial sets]]:
 
