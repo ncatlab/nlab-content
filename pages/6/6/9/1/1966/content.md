@@ -6,6 +6,11 @@ Crans also made an influential contribution to the theory of [[models for ∞-st
 
 ## Selected writings
 
+On what came to be called the *[[Crans-Gray tensor product]]*:
+
+* [[Sjoerd Crans]]: *A tensor product for $Gray$-categories*, Theory and Applications of Categories **5** 2 (1999) 12-69 &lbrack;[tac:5-02](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/1999/n2/n2.pdf)&rbrack;
+
+
 On [[braided monoidal 2-categories]] and [[sylleptic monoidal 2-categories]]:
 
 * [[Sjoerd E. Crans]], *Generalized Centers of Braided and Sylleptic Monoidal 2-Categories*, Advances in Mathematics, Volume 136, Issue 2, 25 June 1998, Pages 183-223 ([doi:10.1006/aima.1998.1720](https://doi.org/10.1006/aima.1998.1720))
@@ -16,7 +21,7 @@ A collection of articles by Sjoerd Crans is here:
 * [Articles by Sjoerd Crans](http://home.tiscali.nl/secrans/papers/) (the site seems to be down, see the [cached version of the site](https://web.archive.org/web/20130514042310/http://home.tiscali.nl/secrans/papers/))
 
 
-# Related $n$Lab entries #
+# Related entries #
 
 * [[strict ∞-category]]
 
