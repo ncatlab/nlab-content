@@ -1,6 +1,14 @@
-I am an Assistant Professor in the Department of Mathematics at [Johns Hopkins University](http://www.math.jhu.edu).
+Emily Riehl is Professor in the Department of Mathematics at [Johns Hopkins University](http://www.math.jhu.edu).
 
-My webpages can be found [here](http://www.math.jhu.edu/~eriehl/) and [here](https://emilyriehl.github.io/).
+* [personal page](https://emilyriehl.github.io/)
+
+* [Institute page](https://mathematics.jhu.edu/directory/emily-riehl/)
+
+* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Emily_Riehl)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=153426)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=n9Uqm4wAAAAJ&hl=en)
 
 
 ## Selected writings
@@ -74,6 +82,10 @@ On [[(∞,1)-functors]] and [[(∞,1)-monads]]:
 On the [[Yoneda lemma for (∞,1)-categories]]:
 
 * [[Emily Riehl]], [[Dominic Verity]], _Fibrations and Yoneda's lemma in an $\infty$-cosmos_, Journal of Pure and Applied Algebra Volume 221, Issue 3, March 2017, Pages 499-564 ([arXiv:1506.05500](https://arxiv.org/abs/1506.05500), [doi:10.1016/j.jpaa.2016.07.003](https://doi.org/10.1016/j.jpaa.2016.07.003))
+
+On [[complicial sets]]:
+
+* [[Emily Riehl]]: _Complicial sets, an overture_, in *2016 MATRIX Annals*, MATRIX Book Series **1** Springer (2018) &lbrack;[doi:10.1007/978-3-319-72299-3_4](https://doi.org/10.1007/978-3-319-72299-3_4), [arXiv:1610.06801](https://arxiv.org/abs/1610.06801)&rbrack;
 
 On ([[discrete fibration|discrete]]) [[Grothendieck fibrations]] and [[profunctors]]:
 
