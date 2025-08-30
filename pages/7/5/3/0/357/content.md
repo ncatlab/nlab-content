@@ -261,6 +261,8 @@ Some more recent work
 
 * [[Nathanael Arkor]], *Virtual double categories: Past, present, and future* [slides](https://arkor.co/files/Virtual%20double%20categories%20%28SIC%202025%29.pdf)
 
+* [[Nathanael Arkor]], _Exponentiable virtual double categories and presheaves for double categories_, [arXiv:2508.11611](https://arxiv.org/abs/2508.11611) (2025).
+
 See also references at [[virtual equipment]].
 
 
