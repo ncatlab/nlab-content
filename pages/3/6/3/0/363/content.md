@@ -78,6 +78,12 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 * {#DiVittorio2023} [[Nicola Di Vittorio]], _A Gray-categorical pasting theorem_, Theory and Applications of Categories **39** 5 (2023) 150-171 &lbrack;[tac:39-05](http://www.tac.mta.ca/tac/volumes/39/5/39-05abs.html)&rbrack;
 
+On the [[Gray tensor product]]
+
+* [[Sjoerd Crans]]. "A tensor product for $Gray$-categories". *Theory and applications of categories*, 5(2), 12-69. ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html)) ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n2/n2.pdf))
+
+
+
 
 [[!redirects Gray category]]
 [[!redirects Gray-categories]]
