@@ -92,6 +92,11 @@ for all $a,b\in A$ and $0\le\lambda,\mu\le 1$ (with $\lambda+\mu=1$ for the norm
 
 For more information, see [Swirszcz '74](#swirszcz) and the later [Keimel '08](#radonkeimel).
 
+The expectation map on $[0, \infty]$ is *not* a Radon monad algebra, although it is a [[Giry monad]] algebra. This is because $[0, \infty]$ is not a convex subset of any topological vector space, which causes the expectation map to not be continuous. To see this, consider the sequence of Radon measures $$r_n := (1 -\frac{1}{n})\delta_0 + \frac{1}{n} \delta_{n^2}$$. Note that the expectation of the limit, and limit of the expectations are not equal.
+$$\mathbb{E}(\lim_{n \to \infty} r_n) = \mathbb{E}(\delta_0) = 0$$
+$$\lim_{n \to \infty}\mathbb{E}(r_n) = \lim_{n \to \infty} n = \infty $$
+Therefore the map $\mathbb{E}$ is not continuous, although it is measurable.
+
 
 ## The ordered case
 
