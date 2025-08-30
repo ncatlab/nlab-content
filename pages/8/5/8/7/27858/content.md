@@ -286,7 +286,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with  [[dihedral group|$Dih_{3}$]]-[[group action|action]] corresponding to the $p31m$ [[wallpaper group]]:
 
 \begin{imagefromfile}
-    "file_name": "p31mTorusCellStructure-20250722.png",
+    "file_name": "p31mTorusCellStructure-20250830.png",
     "width": 500,
     "unit": "px",
     "margin": {
@@ -387,7 +387,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^2/\mathbb{Z}^2$ equipped with the [[cyclic group|$\mathbb{Z}_{/6}$]]-[[group action|action]] which rotates by multiples of $\pi/3$ around the origin:
 
 \begin{imagefromfile}
-    "file_name": "p6TorusCellStructure-20250722.png",
+    "file_name": "p6TorusCellStructure-20250830.png",
     "width": 500,
     "unit": "px",
     "margin": {
@@ -399,6 +399,7 @@ Here is a $G$-CW complex structure for the [[torus]] $T^2 \,\equiv\, \mathbb{R}^
 \end{imagefromfile}
 
 \end{example}
+
 
 
 \begin{example}\label{TorusWithD6DihedralAction}
