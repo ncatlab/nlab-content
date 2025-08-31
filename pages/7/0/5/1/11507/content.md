@@ -45,7 +45,7 @@ More generally, an _equivariant morphism_ is a [[homomorphism]] of $G$-[[actions
 
 ## References
 
-* {#Bredon72} [[Glen Bredon]], Section I.2 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+* {#Bredon72} [[Glen Bredon]], Section I.2 of: _[[Introduction to compact transformation groups]]_, Pure and Applied Mathematics **46**, Academic Press (1972) &lbrack;[ISBN:978-0-12-128850-1](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/46), [ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1)&rbrack;
 
 
 [[!redirects equivariant function]]
