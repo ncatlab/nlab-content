@@ -16,7 +16,13 @@ On [[quantum measurement]] formulated in [[quantum information theory via dagger
 
 On [[quantum computation]] via [[quantum information theory in terms of dagger-compact categories]]:
 
-* [[Jamie Vicary]], *The Topology of Quantum Algorithms*, (LICS 2013) Proceedings of 28th Annual ACM/IEEE Symposium on Logic in Computer Science (2013) 93-102 $[$[arXiv:1209.3917](https://arxiv.org/abs/1209.3917), [doi:10.1109/LICS.2013.14](https://doi.org/10.1109/LICS.2013.14)$]$
+* [[Jamie Vicary]], *The Topology of Quantum Algorithms*, (LICS 2013) Proceedings of 28th Annual ACM/IEEE Symposium on Logic in Computer Science (2013) 93-102 $[$[arXiv:1209.3917](https://arxiv.org/abs/1209.3917), [doi:10.1109/LICS.2013.14](https://doi.org/10.1109/LICS.2013.14)\]
+
+On [[Frobenius pseudomonoids]]:
+
+*  {#DunnVicary19} Lawrence Dunn, [[Jamie Vicary]]: *Coherence for Frobenius pseudomonoids and the geometry of linear proofs*, Logical Methods in Computer Science **15** 3 (2019) &lbrack;<a href = "https://doi.org/10.23638/LMCS-15(3:5)2019">doi:10.23638/LMCS-15(3:5)2019</a>, [arXiv:1601.05372](https://arxiv.org/abs/1601.05372)&rbrack;
+
+
 
 On the online proof assistant *[[Globular]]* for higher dimensional [[rewriting]] via [[semistrict]] [[globular set|globular]] [[higher categories]] ([[associative n-categories]]):
 
