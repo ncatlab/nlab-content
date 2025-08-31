@@ -75,6 +75,8 @@ As such, it has been proposed &lbrack;[Coecke & Pavlović 2008](quantum+measurem
 
 * [[infinitesimal cohesion]]
 
+* [[Frobenius pseudomonoid]]
+
 ## References
 
 The notion of Frobenius monads appears briefly in
