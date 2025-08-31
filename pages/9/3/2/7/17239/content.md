@@ -1,4 +1,13 @@
-* [website](https://raymondvozzo.github.io/)
+
+* [personal page](https://raymondvozzo.github.io/)
+
+* [institute page](https://researchers.adelaide.edu.au/profile/raymond.vozzo)
+
+* [inSpire page](https://inspirehep.net/authors/1062253)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=C976mu8AAAAJ&hl=en)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=137183)
 
 ## Selected writings
 
@@ -13,9 +22,13 @@ Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] i
 ## Related entries
 
 * [[bundle gerbes]]
+
 * [[caloron correspondence]]
+
 * [[KR cohomology theory]]
+
 * [[bundle 2-gerbe]]
 
 
 category:people
+
