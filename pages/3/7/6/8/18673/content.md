@@ -62,23 +62,26 @@ This characterisation of $\ast$-autonomous algebras in terms of pseudo-Frobenius
 
 ## References
 
-* [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, 2006; [TAC](http://tac.mta.ca/tac/volumes/16/4/16-04abs.html)
- {#Lauda06}
-
-* [[Aaron Lauda]], *Frobenius algebras and planar open string topological field theories*, 2005; [arxiv](https://arxiv.org/abs/math/0508349)
- {#Lauda05}
-
 * [[Brian Day]] and [[Ross Street]], *Quantum categories, star autonomy, and quantum groupoids*, 2003, [arxiv](https://arxiv.org/abs/math/0301209)
  {#DayStreet03}
-
-* [[Bruce Bartlett]] and [[Jamie Vicary]], *Compact categories as dagger-Frobenius pseudoalgebras*, 2010, [QPL2010](https://www.youtube.com/watch?v=rZp1dPJxG3I)
- {#BartlettVicary10}
 
 * [[Ross Street]], *Frobenius monads and pseudomonoids*, 2004, [DOI](http://dx.doi.org/10.1063/1.1788852), [pdf](http://maths.mq.edu.au/~street/Frob.pdf)
  {#Street04}
 
+* [[Aaron Lauda]], *Frobenius algebras and planar open string topological field theories*, 2005; [arxiv](https://arxiv.org/abs/math/0508349)
+ {#Lauda05}
+
+* [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, 2006; [TAC](http://tac.mta.ca/tac/volumes/16/4/16-04abs.html)
+ {#Lauda06}
+
+* [[Bruce Bartlett]] and [[Jamie Vicary]], *Compact categories as dagger-Frobenius pseudoalgebras*, 2010, [QPL2010](https://www.youtube.com/watch?v=rZp1dPJxG3I)
+ {#BartlettVicary10}
+
 * [[Jeff Egger]], *The Frobenius relations meet linear distributivity*, 2010 [TAC](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html)
  {#Egger10}
+
+* [[Lawrence Dunn]] and [[Jamie Vicary]], *Coherence for Frobenius pseudomonoids and the geometry of linear proofs*, 2019, Logical Methods in Computer Science, July 26, 2019, Volume 15, Issue 3, <a href = "https://doi.org/10.23638/LMCS-15(3:5)2019">LCMS</a>
+ {#DunnVicary19}
 
 [[!redirects Frobenius pseudomonoids]]
 [[!redirects star-autonomous pseudomonoid]]
