@@ -63,12 +63,13 @@ Textbook accounts:
 
 * {#Switzer75} [[Robert Switzer]], around 2.59 in: _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen **212** Springer (1975) &lbrack;[doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6)&rbrack;
 
+* [[George W. Whitehead]], section IV.2 in: *Elements of Homotopy Theory*, Springer (1978) \[<a href="https://link.springer.com/book/10.1007/978-1-4612-6318-0">doi:10.1007/978-1-4612-6318-0</a>\] 
+
 * {#Kochmann96} [[Stanley Kochmann]], Corollary 3.2.7 in: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, Fields Institute Monographs **7** American Mathematical Society (1996) &lbrack;[ams:fim-7](https://bookstore.ams.org/fim-7), [cds:2264210](https://cdsweb.cern.ch/record/2264210)&rbrack;
 
 * {#Hatcher02} [[Allen Hatcher]], p. 344 of: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 * {#tomDieck2008} [[Tammo tom Dieck]],  Thm. 6.1.2 in: _Algebraic topology_, European Mathematical Society (2008) &lbrack;[doi:10.4171/048](https://www.ems-ph.org/books/book.php?proj_nr=86), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/diecktop.pdf)&rbrack;
-
 
 * [[Anatoly Fomenko]], [[Dmitry Fuchs]], section 9.8 of: *Homotopical Topology*, Graduate Texts in Mathematics **273**, Springer (2016) \[<a href="https://doi.org/10.1007/978-3-319-23488-5">doi:10.1007/978-3-319-23488-5</a>, <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/[Fomenko,Fuchs]Homotopical_Topology(2016).pdf">pdf</a>\]
 
