@@ -31,11 +31,11 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Brayton Gray]], *Homotopy Theory: An Introduction to Algebraic Topology*, Academic Press (1975) $[$[978-0-12-296050-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/64/suppl/C), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/gray.pdf)$]$
 
-* [[George W. Whitehead]], *Elements of Homotopy Theory*, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
+* [[George W. Whitehead]]: *Elements of Homotopy Theory*, Springer (1978) \[<a href="https://link.springer.com/book/10.1007/978-1-4612-6318-0">doi:10.1007/978-1-4612-6318-0</a>\] 
 
-* [[Ioan Mackenzie James]], *General Topology and Homotopy Theory*, Springer 1984 ([doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6))
+* [[Ioan Mackenzie James]], *General Topology and Homotopy Theory*, Springer (1984) \[<a href="https://doi.org/10.1007/978-1-4613-8283-6">doi:10.1007/978-1-4613-8283-6</a>\]
 
-* [[Renzo A. Piccinini]], *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland 1992 ([ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)) 
+* [[Renzo A. Piccinini]], *Lectures on Homotopy Theory*, Mathematics Studies **171**, North Holland (1992) $[$[ISBN:978-0-444-89238-6](https://www.sciencedirect.com/bookseries/north-holland-mathematics-studies/vol/171/suppl/C)\]
 
 * {#Bredon93} [[Glen Bredon]], Chapter VII of: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
@@ -129,9 +129,9 @@ Lecture notes:
 
 * [[Friedhelm Waldhausen]], _Algebraische Topologie_ I ([pdf](https://www.math.uni-bielefeld.de/~fw/at.pdf)) , II ([pdf](https://www.math.uni-bielefeld.de/~fw/at_II.pdf)), III ([pdf](https://www.math.uni-bielefeld.de/~fw/at_III.pdf)) ([web](https://www.math.uni-bielefeld.de/~fw/))
 
-* [[James F. Davis]] and [[Paul Kirk]], _Lecture notes in algebraic topology_ ([pdf](http://www.indiana.edu/~jfdavis/teaching/m623/book.pdf))
+* [[James F. Davis]], [[Paul Kirk]]: *Lecture notes in algebraic topology*, Graduate Studies in Mathematics **35**, AMS (2001) \[<a href="https://doi.org/10.1090/gsm/035">doi:10.1090/gsm/035</a>, [ams:gsm/035](https://www.ams.org/books/gsm/035), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/davkir.pdf)\]
 
-* [[Gereon Quick]], _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_, 2014
+* [[Gereon Quick]]: _[Advanced algebraic topology](https://folk.ntnu.no/gereonq/Math231br.html)_ (2014)
  
  
 Survey of various subjects in algebraic topology:
