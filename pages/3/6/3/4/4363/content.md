@@ -1,9 +1,22 @@
 
-> this entry is about the concept in [[topology]], especially in [[point-free topology]]. For the concept in [[physics]]/[[chemistry]] see [[nucleus (physics)]], or see [[nucleus (disambiguation)]].
+> this entry is about the concept in [[topology]], especially in [[point-free topology]]. For the concept in [[physics]]/[[chemistry]] see *[[nucleus (physics)]]*, or see *[[nucleus (disambiguation)]]*.
 
-# Nuclei
-* table of contents
-{: toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Order theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
 
 ## Idea
 
