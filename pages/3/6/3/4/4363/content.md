@@ -17,7 +17,7 @@ Let $L$ be a [[frame]], that is a [[suplattice]] satisfying the infinite distrib
 
 A __nucleus__ on $L$ is a [[function]] $j\colon L \to L$ which is
 
-1.  monotone, i.e. $j(a \wedge b) = j(a) \wedge j(b)$ for all $a,b\in L$, 
+1.  meet-preserving, i.e. $j(a \wedge b) = j(a) \wedge j(b)$ for all $a,b\in L$, 
 2.  inflationary, $a \leq j(a)$ for all $a\in L$,
 3.  satisfies $j(j(a)) \leq j(a)$ for all $a\in L$.
 
@@ -26,7 +26,7 @@ In other words, a nucleus on $L$ is a [[meet]]-preserving [[monad]] on $L$. If o
 Note that the following properties of a nucleus might be included in the definition, but they follow from the above:
 
 1.  $j(\top) = \top$,
-2.  $j(a) \leq j(b)$ if $a \leq b$,
+2.  (monotonicity) $j(a) \leq j(b)$ if $a \leq b$,
 3.  (idempotency) $j(j(a)) = j(a)$.
 
 Thus one sometimes defines a nucleus as a monotone, inflationary and idempotent (endo)function on $L$
