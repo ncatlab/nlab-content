@@ -641,6 +641,7 @@ In polycategorical language we can give another [[unbiased]] definition of a  co
 
 * [[Frobenius pseudomonoid]]
 
+* [[Frobenius monad]]
 
 [[!include reader-writer (co)monads -- table]]
 
@@ -668,8 +669,7 @@ On the role of Frobenius algebras in [[2d TQFT]]:
 
 * {#Kock2006} [[Joachim Kock]], Remarks on the history of the Frobenius equation (2006) &lbrack;[web](http://mat.uab.es/~kock/TQFT.html#history)&rbrack;
 
-* {#Lauda2006} [[Aaron Lauda]], Frobenius algebras and ambidextrous adjunctions, *Theory and Applications of Categories* **16** (2006) 84-122 &lbrack;[tac:16-04](http://tac.mta.ca/tac/volumes/16/4/16-04abs.html), [arXiv:math/0502550](http://arxiv.org/abs/math/0502550)&rbrack; 
-
+* {#Lauda2006} [[Aaron Lauda]]: *Frobenius algebras and ambidextrous adjunctions*, Theory and Applications of Categories **16** 4 (2006) 84-122 &lbrack;[tac:16-04](http://tac.mta.ca/tac/volumes/16/4/16-04abs.html), [arXiv:math/0502550](http://arxiv.org/abs/math/0502550)&rbrack; 
   > (relating to [[ambidextrous adjunctions]] and [[Frobenius monads]])
 
 * {#Lauda2008} [[Aaron Lauda]], [[Hendryk Pfeiffer]], Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras, _Topology Appl._ **155** (2005) 623-666 &lbrack;[arXiv:0510664](http://arxiv.org/abs/math/0510664), [doi:10.1016/j.topol.2007.11.005](https://doi.org/10.1016/j.topol.2007.11.005)&rbrack;
@@ -683,14 +683,14 @@ For applications in proof theory of classical and [[linear logic]] or linguistic
 
 * D. Kartsaklis, M. Sadrzadeh, S. Pulman,  [[Bob Coecke]], _Reasoning about meaning in natural language with compact closed categories and Frobenius algebras_ (2014). ([arXiv:1401.5980](https://arxiv.org/abs/1401.5980))
 
-Frobenius algebras in linearly distributive categories are discussed in
+Frobenius algebras in [[linearly distributive categories]]:
 
-* [[Jeff Egger]], *The Frobenius relations meet linear distributivity*, 2010 [TAC](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html)
- {#Egger2010}
+* {#Egger10} [[Jeff Egger]]: *The Frobenius relations meet linear distributivity*, Theory and Applications of Categories **24**2 (2010) &lbrack;[tac:24-2](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html)&rbrack;
+  
 
 See also
 
-* Aurelio Carboni (1991), Matrices, relations, and group representations, _Journal of Algebra_ **136** 2, 497--529.  ([pdf](https://www.sciencedirect.com/science/article/pii/002186939190057F))
+* [[Aurelio Carboni]]: *Matrices, relations, and group representations*, Journal of Algebra **136** 2 (1991) 497--529 &lbrack;<a href="https://doi.org/10.1016/0021-8693(91)90057-F">doi:10.1016/0021-8693(91)90057-F</a>&rbrack;
 
 * [[Bertfried Fauser]], _Some Graphical Aspects of Frobenius Structures_,  preprint (2012).  [arXiv:1202.6380](http://arxiv.org/pdf/1202.6380v1) 
 
