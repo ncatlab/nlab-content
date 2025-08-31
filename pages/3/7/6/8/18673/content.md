@@ -15,10 +15,7 @@
 =--
 
 
-# Frobenius pseudomonoids
-
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Idea
 
@@ -26,7 +23,7 @@ The concept of **Frobenius pseudomonoid** is the [[categorification]] of that of
 
 ## Definitions
 
-Like a Frobenius algebra, a Frobenius pseudomonoid can be defined in many essentially equivalent ways.  Let $(K,\otimes,I)$ be a [[monoidal bicategory]], and let $(A,\mu,\eta)$ be a [[pseudomonoid]] in $K$.
+Like Frobenius algebras, Frobenius pseudomonoids can be defined in many essentially equivalent ways.  Let $(K,\otimes,I)$ be a [[monoidal bicategory]], and let $(A,\mu,\eta)$ be a [[pseudomonoid]] in $K$.
 
 1. $A$ is Frobenius if it is equipped with a morphism $\epsilon : A \to I$ such that the composite $A\otimes A \xrightarrow{\mu} A \xrightarrow{\epsilon} I$ is the counit of a specified [[2-adjunction]] $A\dashv A$.  ([Lauda06](#Lauda06)), ([Street04](#Street04))
 
@@ -36,7 +33,9 @@ There should also be a definition in terms of an interacting pseudomonoid and ps
 
 Note that if $K$ is a [[compact closed bicategory]], then the 2-adjunction $A\dashv A$ can equivalently be expressed as an equivalence $A\simeq A^\circ$ from $A$ to its specified dual object.
 
-## Relation to $\ast$-autonomy
+## Properties
+
+### Relation to $\ast$-autonomy
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -60,28 +59,26 @@ This characterisation of $\ast$-autonomous algebras in terms of pseudo-Frobenius
 =--
 
 
+## Related concepts
+
+* [[Frobenius monad]]
+
 ## References
 
-* [[Brian Day]] and [[Ross Street]], *Quantum categories, star autonomy, and quantum groupoids*, 2003, [arxiv](https://arxiv.org/abs/math/0301209)
- {#DayStreet03}
+* {#DayStreet03} [[Brian Day]], [[Ross Street]], *Quantum categories, star autonomy, and quantum groupoids*, in: *Galois Theory, Hopf Algebras, and Semiabelian Categories*, Fields Institure Communications **43**, AMS (2004) 187-225 &lbrack;[arxiv:math/0301209](https://arxiv.org/abs/math/0301209), [ISBN:978-0-8218-3290-5](https://bookstore.ams.org/view?ProductCode=FIC/43)&rbrack;
+ 
+* {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
 
-* [[Ross Street]], *Frobenius monads and pseudomonoids*, 2004, [DOI](http://dx.doi.org/10.1063/1.1788852), [pdf](http://maths.mq.edu.au/~street/Frob.pdf)
- {#Street04}
+* {#Lauda05} [[Aaron Lauda]], *Frobenius algebras and planar open string topological field theories*, 2005; [arxiv](https://arxiv.org/abs/math/0508349)
+ 
+* {#Lauda06} [[Aaron Lauda]]: *Frobenius algebras and ambidextrous adjunctions*, Theory and Applications of Categories **16** 4 (2006) 84-122 &lbrack;[tac:16-04](http://tac.mta.ca/tac/volumes/16/4/16-04abs.html), [arXiv:math/0502550](http://arxiv.org/abs/math/0502550)&rbrack; 
+ 
+* {#BartlettVicary10} [[Bruce Bartlett]], [[Jamie Vicary]], *Compact categories as dagger-Frobenius pseudoalgebras*, talk at QPL 2010 &lbrack;[pdf](https://www.cs.ox.ac.uk/people/bob.coecke/Vicary.pdf), video:[YT](https://www.youtube.com/watch?v=rZp1dPJxG3I)&rbrack;
+ 
+* {#Egger10} [[Jeff Egger]]: *The Frobenius relations meet linear distributivity*, Theory and Applications of Categories **24**2 (2010) &lbrack;[tac:24-2](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html)&rbrack;
+ 
+*  {#DunnVicary19} Lawrence Dunn, [[Jamie Vicary]]: *Coherence for Frobenius pseudomonoids and the geometry of linear proofs*, Logical Methods in Computer Science **15** 3 (2019) &lbrack;<a href = "https://doi.org/10.23638/LMCS-15(3:5)2019">doi:10.23638/LMCS-15(3:5)2019</a>, [arXiv:1601.05372](https://arxiv.org/abs/1601.05372)&rbrack;
 
-* [[Aaron Lauda]], *Frobenius algebras and planar open string topological field theories*, 2005; [arxiv](https://arxiv.org/abs/math/0508349)
- {#Lauda05}
-
-* [[Aaron Lauda]], *Frobenius algebras and ambidextrous adjunctions*, 2006; [TAC](http://tac.mta.ca/tac/volumes/16/4/16-04abs.html)
- {#Lauda06}
-
-* [[Bruce Bartlett]] and [[Jamie Vicary]], *Compact categories as dagger-Frobenius pseudoalgebras*, 2010, [QPL2010](https://www.youtube.com/watch?v=rZp1dPJxG3I)
- {#BartlettVicary10}
-
-* [[Jeff Egger]], *The Frobenius relations meet linear distributivity*, 2010 [TAC](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html)
- {#Egger10}
-
-* [[Lawrence Dunn]] and [[Jamie Vicary]], *Coherence for Frobenius pseudomonoids and the geometry of linear proofs*, 2019, Logical Methods in Computer Science, July 26, 2019, Volume 15, Issue 3, <a href = "https://doi.org/10.23638/LMCS-15(3:5)2019">LCMS</a>
- {#DunnVicary19}
 
 [[!redirects Frobenius pseudomonoids]]
 [[!redirects star-autonomous pseudomonoid]]
