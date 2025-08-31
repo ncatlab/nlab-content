@@ -48,7 +48,7 @@ $$
   coker(f) \coloneqq Y \coprod_X {*}
 $$
 
-hence the object [[universal construction]] sitting universally in a [[diagram]] of the form
+hence the object [[universal construction|universally]] sitting in a [[diagram]] of the form
 
 $$
   \array{
