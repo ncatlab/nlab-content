@@ -212,5 +212,3 @@ Textbook accounts:
 [^1]: Although there are certain contexts in which it does.  For instance, there is a [[model structure]] on the category of [[bicategories]] and strict 2-functors between them, which models the homotopy theory of bicategories and weak 2-functors.
 
 [[!redirects 2-functors]]
-[[!redirects strict 2-functor]]
-[[!redirects strict 2-functors]]
