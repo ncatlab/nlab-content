@@ -112,7 +112,7 @@ $$st( v) = \{ \alpha \in |K| \mid \alpha(v)\neq 0\}.$$
 
 The set, $st(v)$, is open in $|K|$. We have 
 
-$$st(v) = \bigcup \{\langle s \rangle\mid v is a vertex of s\},$$
+$$st(v) = \bigcup \{\langle s \rangle\mid\  v \text{ is a vertex of }s\},$$
 
 the union of the interiors of those simplices that have $s$ as a vertex.  These vertex stars give an [[open cover]], $\mathcal{U}$, of $|K|$ and the following classical result tells us that the nerve $N(\mathcal{U})$ of this covering is $K$ itself (up to isomorphism):
 
