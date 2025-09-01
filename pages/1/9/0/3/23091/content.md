@@ -31,7 +31,7 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Brayton Gray]], *Homotopy Theory: An Introduction to Algebraic Topology*, Academic Press (1975) $[$[978-0-12-296050-5](https://www.sciencedirect.com/bookseries/pure-and-applied-mathematics/vol/64/suppl/C), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/gray.pdf)$]$
 
-* [[George W. Whitehead]]: *Elements of Homotopy Theory*, Springer (1978) \[<a href="https://link.springer.com/book/10.1007/978-1-4612-6318-0">doi:10.1007/978-1-4612-6318-0</a>\] 
+* {#Whitehead78} [[George W. Whitehead]]: *Elements of Homotopy Theory*, Springer (1978) \[<a href="https://link.springer.com/book/10.1007/978-1-4612-6318-0">doi:10.1007/978-1-4612-6318-0</a>\] 
 
 * [[Ioan Mackenzie James]], *General Topology and Homotopy Theory*, Springer (1984) \[<a href="https://doi.org/10.1007/978-1-4613-8283-6">doi:10.1007/978-1-4613-8283-6</a>\]
 
@@ -99,7 +99,7 @@ Monographs:
 
 * [[Peter May]], _[[A concise course in algebraic topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
-* [[Tammo tom Dieck]], _Topologie_, De Gruyter 2000 ([doi:10.1515/9783110802542](https://doi.org/10.1515/9783110802542))
+* [[Tammo tom Dieck]], _Topologie_, De Gruyter (2000) \[<a href="https://doi.org/10.1515/9783110802542">doi:10.1515/9783110802542</a>\] 
 
 * {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press (2002) \[<a href="https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401">ISBN:9780521795401</a>, [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)\]
 
