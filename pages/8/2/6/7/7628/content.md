@@ -1,4 +1,16 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,6 +37,12 @@ and reviewed for instance in
 On [[perturbative quantum gravity]] via string-localized quantum fields:
 
 * Christian Gaß, [[José M. Gracia-Bondía]], Karl-Henning Rehren, *Quantum general covariance* &lbrack;[arXiv:2304.09843](https://arxiv.org/abs/2304.09843)&rbrack;
+
+Discussion of [[anyons]] in this context:
+
+
+* [[Pieter Naaijkens]]: *Anyons in Infinite Quantum Systems -- QFT in $d=2+1$ and the Toric Code*, PhD thesis, Nijmegen (2012) \[<a href="https://repository.ubn.ru.nl/handle/2066/92737">hdl:2066/92737</a>, [pdf](https://repository.ubn.ru.nl/bitstream/handle/2066/92737/92737.pdf?sequence=1&isAllowed=y)\]
+
 
 
 [[!redirects string-localized quantum fields]]
