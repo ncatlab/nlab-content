@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include 2-category theory - contents]]
 =--
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
 =--
 =--
 
@@ -15,24 +19,136 @@
 
 ## Idea 
 
-The **Gray tensor product** is a "better" replacement for the cartesian product of [[strict 2-category|strict 2-categories]] with respect to pseudonatural transformations.  To get the idea it suffices to consider the 2-category $\mathbf{2}$ which has two objects, 0 and 1, one non-identity morphism $0\to 1$, and no nonidentity 2-cells. Then the cartesian product $\mathbf{2}\times\mathbf{2}$ is a commuting square, while the Gray tensor product $\mathbf{2}\otimes\mathbf{2}$ is a square which commutes up to isomorphism.
+The **Gray tensor product** is a "better" replacement for the cartesian product of [[strict 2-categories]] with respect to [[pseudonatural transformations]].  To get the idea it suffices to consider the 2-category $\mathbf{2}$ which has two objects, 0 and 1, one non-identity morphism $0\to 1$, and no nonidentity 2-cells. Then the cartesian product $\mathbf{2}\times\mathbf{2}$ is a commuting square, while the Gray tensor product $\mathbf{2}\otimes\mathbf{2}$ is a square which commutes up to isomorphism.
 
 More generally, given [[2-categories]] $C$ and $D$, a [[2-functor]] $C\times\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a strict 2-natural transformation between them, while a 2-functor $C\otimes\mathbf{2} \to D$ consists of two 2-functors $C\to D$ and a *[[pseudonatural transformation]]* between them.
 
-## Definition 
+## Preliminaries
+ {#Preliminaries}
 
-Following up on the last comment, $B\otimes C$ can be defined by
-$$ 
-  2Cat(B\otimes C, D)   
-   \cong 
-  2Cat\big(B, Ps(C,D)\big) 
+Throughout, write
+
+\[
+  \label{2Cat}
+  2Cat \in CAT
+\]
+
+for the [[very large category|very large]] [[category]] whose 
+
+* [[objects]] are [[strict 2-categories]]
+
+* [[morphisms]] are [[strict 2-functors]].
+
+For $X, Y \in 2Cat$, we write
+
+$$
+  Hom_{2Cat}(X,Y) \in Set
+$$
+
+for the [[hom set]] of this 2-category, hence for the [[set]] of [[strict 2-functors]] $X \to Y$.
+
+Of course, there is not just a set but a [[strict 2-category]] of such functors. Specifically, we write
+
+\[
+  \label{Ps}
+  Ps(Y,Z)
+  \in
+  2Cat
+\] 
+
+for the [[strict 2-category|strict]] [[2-functor 2-category]] whose
+
+* [[objects]] are [[strict 2-functors]] $Y \to Z$,
+
+* [[1-morphisms]] are [[pseudonatural transformations]] between these, 
+
+* [[2-morphisms]] are [[modifications]] between those,
+
+with [[composition]] operations the canonical [[horizontal composition]] and [[vertical composition]] of this data.
+
+(cf. [Johnson & Yau 2020, Ntn. 12.2.24](#JohnsonYau20))
+
+The point of the Gray tensor product may be regarded as bringing out the [[enriched category|enrichment]] of $2Cat$ by these hom 2-categories $Ps(-,-)$ (eq:Ps):
+
+
+## Definition
+ {#Definition}
+
+\begin{definition}
+The *Gray tensor product* is the [[functor]]
+
+\[
+  \label{GrayTensorAsFunctor}
+  \otimes_{Gray} 
+    \;\colon\; 
+  2Cat \times 2Cat \longrightarrow 2Cat
+\]
+
+given by (...).
+
+\end{definition}
+
+(cf. [Johnson & Yau 2020, Def. 12.2.5](#JohnsonYau20))
+
+
+## Properties
+ {#Properties}
+
+First of all: 
+
+\begin{proposition}
+The Gray tensor product (eq:GrayTensorAsFunctor) makes $2Cat$ (eq:2Cat) into a [[symmetric monoidal category|symmetric]] [[monoidal category]]
+
+\[
+  \label{2CatAsAMonoidalCategory}
+  \big(
+    2Cat, \otimes_{Gray}, \ast
+  \big)
+  \in MonCAT
+  \,.
+\]
+
+\end{proposition}
+
+(cf. [Johnson & Yau 2020, Thm. 12.2.23](#JohnsonYau20))
+
+As such, the characteristic property of the Gray tensor product is that: 
+
+\begin{proposition}
+\label{HomIsomorphism}
+There are [[natural bijections]] 
+
+\[
+  \label{TheHomIsomorphism}
+  Hom_{2Cat}(X \otimes_{Gray} Y, Z)   
+   \simeq 
+  Hom_{2Cat}\big(X, Ps(Y,Z)\big) 
+  \,,
+\]
+
+natural in $X, Y, Z \in 2 Cat$.
+
+\end{proposition}
+
+(cf. [Johnson & Yau 2020, Prop. 12.2.27 with Thm. 12.2.20](#JohnsonYau20))
+
+Since (eq:TheHomIsomorphism) are the [hom isomorphism](adjoint+functor#InTermsOfHomIsomorphism) for an [[internal hom]]-[[adjoint functor|adjunction]]
+
+$$
+  \big(
+  (-) \otimes_{Gray} Y
+  \big)
+  \;\dashv\;
+  Ps(Y,-)
   \,,
 $$
-where $Ps(C,D)$ is the 2-category of [[2-functors]], [[pseudonatural transformations]], and [[modifications]] between $C$ and $D$. In other words, the category $2Cat$ of strict 2-categories  and strict 2-functors becomes a [[closed monoidal category|closed]] [[symmetric monoidal category]] with tensor product guven by the Gray tensor $\otimes$ and [[internal hom]] given by $Ps(-,-)$.
+
+Prop. \ref{HomIsomorphism} says that the [[symmetric monoidal category]] $(2Cat, \otimes_{Gray}, \ast)$ (eq:2CatAsAMonoidalCategory) is in a fact [[closed monoidal category|closed]], hence is a [[symmetric closed monoidal category]] (with tensor product being the Gray tensor and) with [[internal hom]] given by $Ps(-,-)$ (eq:Ps).
+
 
 ## Remarks 
 
-* When considered with this monoidal structure, $2Cat$ is often called $Gray$.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over $Gray$, are a model for [[semi-strict infinity-category|semi-strict]] 3-categories.  Categories enriched over $2Cat$ with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
+* When considered with this monoidal structure, $2Cat$ is often called $Gray$.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over $Gray$, are a model for [[semi-strict infinity-category|semi-strict]] [[3-categories]].  Categories enriched over $2Cat$ with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
 
 * $Gray$ is an example of a [[semicartesian monoidal category]], i.e. a non-[[cartesian monoidal category|cartesian]] monoidal category whose unit object is nevertheless the terminal object.
 
@@ -56,25 +172,26 @@ where $Ps(C,D)$ is the 2-category of [[2-functors]], [[pseudonatural transformat
 
 * [[Verity-Gray tensor product]]
 
+
 ## References
 
 ### In 2-category theory
 
 Original discussion of the Gray tensor product in [[2-category theory]]:
 
-* [[John W. Gray]], Theorem 1,4.14 of: _Formal category theory: adjointness for 2-categories_, Lecture Notes in Mathematics, Vol. 391. Springer-Verlag, Berlin-New York, 1974. xii+282 pp doi:[10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280) (see also [[Adjointness for 2-Categories]])
+* [[John W. Gray]], Theorem 1, 4.14 of: _[[Adjointness for 2-Categories|Formal category theory: Adjointness for 2-categories]]_, Lecture Notes in Mathematics **391**, Springer (1974) &lbrack;[doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280)&rbrack; 
 
-* [[John W. Gray]], _Coherence for the Tensor Product of 2-Categories, and Braid Groups_ , pp.62-76 in Heller, [[Myles Tierney|Tierney]] (eds.), _Algebra, Topology, and Category Theory_ , Academic Press New York 1976.
+* [[John W. Gray]], _Coherence for the Tensor Product of 2-Categories, and Braid Groups_, in: _Algebra, Topology, and Category Theory_, Academic Press (1976) 62-76
+
+Further discussion:
+
+* [[Ronnie Brown]], [[Philip Higgins]]: *Tensor products and homotopies for $\omega$-groupoids and crossed complexes*,J. Pure Appl. Alg. **47** (1987) 1-33 *lbrack;doi:[10.1016/0022-4049(87)90099-5](https://doi.org/10.1016/0022-4049(87%2990099-5), ([pdf](https://pdfs.semanticscholar.org/3323/d82ed1effb1953a6af573aab2e3fb0b02394.pdf)&rbrack;
 
 * [[Robert Gordon]], [[John Power]], [[Ross Street]]:  _Coherence for tricategories_, Mem. Amer. Math. Soc. **117** 558 (1995) &lbrack;[doi:10.1090/memo/0558](http://dx.doi.org/10.1090/memo/0558), [ams:memo-117-558](https://bookstore.ams.org/memo-117-558/)&rbrack;
 
-* [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory, 26(2) (2002) pp171-205, ([gzipped .ps](http://maths.mq.edu.au/~slack/papers/qmc2cat.ps.gz)) (doi:[10.1023/A:1020305604826](https://doi.org/10.1023/A:1020305604826) - requires Portico subscription)
-
-* [[Stephen Lack]], _A Quillen model structure for bicategories_, K-theory, 33(3) (2004) pp185-197, ([gzipped .ps](http://maths.mq.edu.au/~slack/papers/qmcbicat.ps.gz)) (doi:[10.1007/s10977-004-6757-9](https://doi.org/10.1007/s10977-004-6757-9) - requires Portico subscription)
-
-* [[Ronnie Brown]] and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1-33. doi:[10.1016/0022-4049(87)90099-5](https://doi.org/10.1016/0022-4049(87%2990099-5), ([pdf](https://pdfs.semanticscholar.org/3323/d82ed1effb1953a6af573aab2e3fb0b02394.pdf))
-
 * F.A. Al-Agl, R. Brown and   R. Steiner, _Multiple categories: the equivalence between a globular and cubical approach_, Advances in Mathematics, 170 (2002) 71-118. doi:[10.1006/aima.2001.2069](https://doi.org/10.1006/aima.2001.2069), arXiv:[math/0007009](https://arxiv.org/abs/math/0007009)
+
+Comprehensive review:
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], section 12.2 of: *2-Dimensional Categories*, Oxford University Press (2021) &lbrack;[arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378)&rbrack;
 
@@ -95,9 +212,11 @@ On its generalization to [[Gray-category|Gray-categories]]
 
 * [[Sjoerd Crans]]. "A tensor product for $Gray$-categories". *Theory and applications of categories*, 5(2), 12-69. ([tac](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html)) ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n2/n2.pdf))
 
-### In [[enhanced 2-category]] theory
+### In enhanced 2-category theory
 
-* [[Nathanael Arkor]], [[John Bourke]], and [[Joanna Ko]], _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_, [arXiv:2412.07475](https://arxiv.org/abs/2412.07475) (2024).
+For [[enhanced 2-categories]]:
+
+* [[Nathanael Arkor]], [[John Bourke]], Joanna Ko: _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_ &lbrack;[arXiv:2412.07475](https://arxiv.org/abs/2412.07475)&rbrack;
 
 ### In $(\infty,2)$-category theory
  {#ReferencesInInfinity2CategoryTheory}
