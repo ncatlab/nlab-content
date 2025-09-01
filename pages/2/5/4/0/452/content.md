@@ -14,7 +14,6 @@
 =--
 
 
-
 #Content#
 * table of contents
 {:toc}
@@ -38,6 +37,7 @@ From other points of view it is:
 *  a [[Moore complex]] of certain [[simplicial groups]].
 
 Historically, crossed modules were among the first examples of [[higher dimensional algebra]] to be studied.
+
 
 ## Definition
 
@@ -208,11 +208,50 @@ The Peiffer rule can thus be seen as a "twisted commutativity law" for $G_2$.
 For $G$ and $H$ two [[strict 2-group | strict 2-groups]] coming from crossed modules $[G]$ and $[H]$, a morphism of strict 2-groups $f : G \to H$, and hence a morphism of crossed modules $[f] : [G] \to [H]$ is a [[2-functor]]
 
 $$
-  \mathbf{B}f : \mathbf{B}G \to \mathbf{B}H
+  \mathbf{B}f \colon \mathbf{B}G \to \mathbf{B}H
 $$
 
 between the corresponding [[delooping|delooped]] [[2-groupoid | 2-groupoids]]. Expressing this in terms of a diagram of the ordinary groups appearing in $[G]$ and $[H]$ yields a diagram called a [[butterfly]]. See there for more details.
 
+
+## Properties
+
+\begin{lemma}
+  \label{KernelOfDeltaIsCentral}
+  Given a crossed module $H \xrightarrow{\delta} G$ Def. \ref{DiagrammaticDefinition}, the [[kernel]] of $\delta$ is inside the [center](center#OfGroupsAndMonoids) of $H$:
+$$
+  ker(\delta) \subset Z(H)
+  \,.
+$$
+\end{lemma}
+\begin{proof}
+  For $h \in ker(\delta) \subset H$ and $h' \in H$ we have
+$$
+  \begin{array}{rll}
+    h h' h^{-1} 
+    & \equiv Ad_h(h')
+    \\
+    & = \alpha\big( \delta(h) \big)(h') & \text{by first axiom}
+    \\
+    & = \alpha( \mathrm{e} )(h') & \text{by assumption}
+    \\
+    & = h' & \text{by action property}
+    \,.
+  \end{array}
+$$
+But this shows the claim:
+$$
+  h h' h^{-1}
+  \,=\,
+  h'
+  \;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;
+  h h' = h' h
+  \,.
+$$
+
+\end{proof}
 
 
 ## Examples
