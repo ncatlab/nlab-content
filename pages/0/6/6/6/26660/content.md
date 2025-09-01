@@ -9,7 +9,7 @@
 
 On [[Levin-Wen models]]:
 
-* Liang Chang, [[Meng Cheng]], [[Shawn X. Cui]], Yuting Hu, Wei Jin, Ramis Movassagh, Pieter Naaijkens, [[Zhenghan Wang]], Amanda Young: *On Enriching the Levin-Wen model with Symmetry*, J. Phys. A: Math. Theor. **48** (2016) 12FT01  &lbrack;[arXiv:1412.6589](https://arxiv.org/abs/1412.6589)&rbrack;
+* Liang Chang, [[Meng Cheng]], [[Shawn X. Cui]], Yuting Hu, Wei Jin, Ramis Movassagh, [[Pieter Naaijkens]], [[Zhenghan Wang]], [[Amanda Young]]: *On Enriching the Levin-Wen model with Symmetry*, J. Phys. A: Math. Theor. **48** (2016) 12FT01  &lbrack;[arXiv:1412.6589](https://arxiv.org/abs/1412.6589)&rbrack;
 
 
 On [[extended TQFT]]:
