@@ -28,6 +28,64 @@ for $Y \to Z$ a [[fibration]] in the [[classical model structure on topological 
 
 For background and details see [[fibration sequence]].
 
+
+## Properties
+ {#Properties}
+
+\begin{proposition}
+  **(fundamental crossed module of a fibration)**
+  \label{FundamentalCrossedModuleOfAFibration}
+\linebreak
+  Given a [[Serre fibration]] $p \,\colon\, T \longrightarrow B$ of [[pointed topological spaces]], with [[fiber]] $\iota \,\colon\,F \longrightarrow T$, the induced [[homomorphism]] of [[fundamental groups]]
+$$
+  \pi_1(F)
+  \xrightarrow{\phantom{--}
+    \iota_\ast
+  \phantom{--}}
+  \pi_1(T)
+$$
+constitutes a [[crossed module]] with respect to the canonical [[group action]] $\alpha \,\colon\, \pi_1(T) \times \pi_1(F) \longrightarrow \pi_1(F)$.
+\end{proposition}
+This is discussed in [Brown, Higgins & Sivera 2011, §2.6](#BHS11), there attributed to [[Daniel Quillen]].
+
+
+\begin{proposition}
+\label{FirstConnectingHomomorphismFactorsThroughCenter}
+Given a [[Serre fibration]] $p \,\colon\, T \longrightarrow B$ of [[pointed topological spaces]], with [[fiber]] $\iota \,\colon\,F \longrightarrow T$, the [[image]] of the first [[connecting homomorphism]] of the corresponding [[long exact sequence of homotopy groups]]
+$$
+  \pi_2(B) \longrightarrow \pi_1(F)
+$$
+is in the [[center]] $Z\big(\pi_1(F)\big) \hookrightarrow \pi_1(F)$.
+\end{proposition}
+\begin{proof}
+  By [[exact sequence|exactness]], the image in question is the [[kernel]] of $\pi_1(F) \to \pi_1(T)$, which is the homomorphism of a [[crossed module]] by Prop. \ref{FundamentalCrossedModuleOfAFibration}, and the kernels of such homomorphisms are central (by [this Prop.](crossed+module#KernelOfDeltaIsCentral)).
+
+Instead, textbooks usually state an analogous property for the LES of relative homotopy groups: For $(X,A)$ a "[[CW-pair|pair]]" --- hence a [[subspace]] inclusion $A \hookrightarrow X$ (here: of [[pointed topological spaces]]) --- there is a [[long exact sequence]] of the form
+
+$$
+  \cdots
+  \to
+  \pi_{n+1}(X,A)
+  \longrightarrow
+  \pi_n(A)
+  \longrightarrow
+  \pi_n(X)
+  \longrightarrow
+  \pi_n(X,A)
+$$
+
+such that 
+
+$$
+  \pi_2(A) \longrightarrow \pi_2(X,A)
+$$
+
+factors through the center (cf. [Whitehead 1978 Cor 3.5 on p. 166](#Whitehead78), [tom Dieck 2008 Cor 6.2.7](#tomDieck08)).
+
+With a little care, this translates to the statement here by specializing $A \coloneqq T$ and taking $X \coloneqq Cyl(T \to B)$ to be the [[mapping cylinder]] of the fibration.
+\end{proof}
+
+
 ## Related concepts
 
 * [[long exact sequence in homology]]
@@ -63,7 +121,7 @@ Textbook accounts:
 
 * {#Switzer75} [[Robert Switzer]], around 2.59 in: _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen **212** Springer (1975) &lbrack;[doi:10.1007/978-3-642-61923-6](https://link.springer.com/book/10.1007/978-3-642-61923-6)&rbrack;
 
-* [[George W. Whitehead]], section IV.2 in: *Elements of Homotopy Theory*, Springer (1978) \[<a href="https://link.springer.com/book/10.1007/978-1-4612-6318-0">doi:10.1007/978-1-4612-6318-0</a>\] 
+* {#Whitehead78} [[George W. Whitehead]], section IV.2 in: *Elements of Homotopy Theory*, Springer (1978) \[<a href="https://link.springer.com/book/10.1007/978-1-4612-6318-0">doi:10.1007/978-1-4612-6318-0</a>\] 
 
 * {#Kochmann96} [[Stanley Kochmann]], Corollary 3.2.7 in: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, Fields Institute Monographs **7** American Mathematical Society (1996) &lbrack;[ams:fim-7](https://bookstore.ams.org/fim-7), [cds:2264210](https://cdsweb.cern.ch/record/2264210)&rbrack;
 
@@ -77,6 +135,9 @@ Textbook accounts:
 See also:
 
 * Wikipedia, _[Long exact sequence of a fibration](http://en.wikipedia.org/wiki/Homotopy_group#Long_exact_sequence_of_a_fibration)_
+
+* {#BHS11} [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]]: *[[Nonabelian Algebraic Topology]]*, Tracts in Mathematics **15**, European Mathematical Society (2011) &lbrack;ISBN 978-3-03719-083-8, [doi:10.4171/083](https://doi.org/10.4171/083), [pdf](https://groupoids.org.uk/pdffiles/NAT-book.pdf), [webpage](http://groupoids.org.uk/nonab-a-t.html)&rbrack;
+
 
 In the generality of [[categorical homotopy groups in an (infinity,1)-topos|categorical homotopy groups in an $(\infty,1)$-topos]]:
 
