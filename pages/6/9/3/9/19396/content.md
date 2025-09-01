@@ -1,6 +1,8 @@
-Alexander Campbell is an Australian category theorist.
+Alexander Campbell is an Australian [[higher category theory|higher]] [[category theory|category theorist]].
 
-* [webpage](https://acmbl.github.io/)
+* [personal page](https://acmbl.github.io/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=208231)
 
 ## Selected writings
 
