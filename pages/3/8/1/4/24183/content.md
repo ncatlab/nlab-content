@@ -49,10 +49,9 @@ Further discussion (mostly review and mostly without attribution):
 
 * Siu-Hung Ng, [[Eric C. Rowell]], [[Xiao-Gang Wen]]: *Classification of modular data up to rank 12* \[<a href="https://arxiv.org/abs/2308.09670">arXiv:2308.09670</a>\]
 
-{#ReferencesFusionCategoryFolklore} Emphasis that the expected description of [[anyons]] by [[braided fusion categories]] had remained [[folklore]], together with a list of minimal assumptions that would need to be shown:
+Discussion via [[string-localized quantum field|string-localized]] [[algebraic quantum field theory]]:
 
-* {#Valera21} [[Sachin J. Valera]], *Fusion Structure from Exchange Symmetry in (2+1)-Dimensions*, Annals of Physics **429** (2021) \[<a href="https://doi.org/10.1016/j.aop.2021.168471">doi:10.1016/j.aop.2021.168471</a>, [arXiv:2004.06282](https://arxiv.org/abs/2004.06282)\]
-
+* [[Pieter Naaijkens]]: *Anyons in Infinite Quantum Systems -- QFT in $d=2+1$ and the Toric Code*, PhD thesis, Nijmegen (2012) \[<a href="https://repository.ubn.ru.nl/handle/2066/92737">hdl:2066/92737</a>, [pdf](https://repository.ubn.ru.nl/bitstream/handle/2066/92737/92737.pdf?sequence=1&isAllowed=y)\]
 
 
 An argument that the statement at least for [[SU(2)-anyons]] does follow from an enhancement of the [[K-theory classification of topological phases of matter]] to interacting [[topological order]]:
