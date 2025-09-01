@@ -199,14 +199,13 @@ Following ([Johnson–Yau, Section 5.4](#JohnsonYau20)), one may picture the Dus
 
 ## References
 
-* [[Ross Street]], _The algebra of oriented simplexes_, Journal of Pure and Applied Algebra, Volume 49, Issue 3, December 1987, Pages 283&#8211;335
+* [[Ross Street]]: _The algebra of oriented simplexes_, Journal of Pure and Applied Algebra **49** 3 (1987) 283-335
 
-* {#Duskin02} [[John Duskin]], _Simplicial matrices and the nerves of weak n-categories I: nerves of bicategories_, Theory and Applications of Categories **9** 10 (2002) 198&#8211;308 &lbrack;[tac:9-10](http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html)&rbrack;
+* {#Duskin02} [[John Duskin]]: _Simplicial matrices and the nerves of weak n-categories I: nerves of bicategories_, Theory and Applications of Categories **9** 10 (2002) 198-308 &lbrack;[tac:9-10](http://www.tac.mta.ca/tac/volumes/9/n10/9-10abs.html)&rbrack;
 
-* V. Blanco, M. Bullejos, E. Faro, _A Full and faithful Nerve for 2-categories_, Applied 
-Categorical Structures, Vol 13-3, 223-233, 2005. (See also [arxiv](http://arxiv.org/abs/math/0406615)).
+* V. Blanco, M. Bullejos, E. Faro, _A Full and faithful Nerve for 2-categories_, Applied Categorical Structures **13** 3 (2005) 223-233 &lbrack;[arxiv:math/0406615](http://arxiv.org/abs/math/0406615)&rbrack;
 
-* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], _2-Dimensional Categories_ ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055)).
+* {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], *2-Dimensional Categories*, Oxford University Press (2021) &lbrack;[arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378)&rbrack;
 
 [[!redirects bicategory nerve]]
 [[!redirects nerve of bicategories]]
