@@ -54,6 +54,7 @@ Review:
 
 * [[Ingmar Saberi]], _An introduction to spin systems for mathematicians_ &lbrack;[arXiv:1801.07270](https://arxiv.org/abs/1801.07270)&rbrack;
 
+* [[Amanda Young]]: *Quantum Spin Systems* &lbrack;[arXiv:2308.07848](https://arxiv.org/abs/2308.07848), [spire:2688309](https://inspirehep.net/literature/2688309)&rbrack;
 
 Relation to [[tensor networks]]:
 
