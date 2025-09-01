@@ -1,7 +1,11 @@
 
 * [webpage](https://www-thphys.physics.ox.ac.uk/people/SteveSimon/)
 
-* [GoogleScholar](https://scholar.google.com/citations?user=Snr-5TcAAAAJ&hl=en)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Steven_H._Simon)
+
+* [inSpire page](https://inspirehep.net/authors/1909677)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Snr-5TcAAAAJ&hl=en)
 
 
 ## Selected writings
@@ -46,6 +50,10 @@ On [[Laughlin wavefunctions]] and its cousins, approximating ground states of [[
 On [[topological phases of matter]] via [[higher gauge theory|higher]] lattice gauge theory:
 
 * [[Joe Huxford]], [[Steven H. Simon]], *Excitations in the Higher Lattice Gauge Theory Model for Topological Phases I: Overview* &lbrack;[arXiv:2202.08294](https://arxiv.org/abs/2202.08294)&rbrack;
+
+On [[topology|topological]] [[quantum systems]] ([[topological phases of matter]], [[anyons]], [[topological quantum computing]]):
+
+* {#Simon23} [[Steven H. Simon]], *Topological Quantum*, Oxford University Press (2023) \[<a href="https://global.oup.com/academic/product/topological-quantum-9780198886723">ISBN:9780198886723</a>, [pdf](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/TopoBook-Sep28-2021.pdf), [webpage](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/topological2021/topocourse2021.html)\]
 
 
 category: people
