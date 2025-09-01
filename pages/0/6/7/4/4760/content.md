@@ -182,6 +182,7 @@ Following ([Johnson–Yau, Section 5.4](#JohnsonYau20)), one may picture the Dus
        "file_name": "face-maps-deg-4-duskin-new2.svg"
    \end{imagefromfile}
 
+
 ## Related concepts
 
 * [[nerve]]
@@ -193,7 +194,6 @@ Following ([Johnson–Yau, Section 5.4](#JohnsonYau20)), one may picture the Dus
 * [[∞-nerve]]
 
 * [[homotopy coherent nerve]]
-
 
 
 
@@ -212,4 +212,9 @@ Following ([Johnson–Yau, Section 5.4](#JohnsonYau20)), one may picture the Dus
 [[!redirects nerves of bicategories]]
 
 [[!redirects nerve of a bicategory]]
+
+[[!redirects simplicial nerve of a 2-category]]
+[[!redirects simplicial nerve of 2-categories]]
+
+
 
