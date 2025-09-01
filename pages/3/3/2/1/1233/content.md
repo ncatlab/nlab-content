@@ -13,15 +13,19 @@
 =--
 =--
 
-This entry is about the book
+This page is to record the reference:
 
-* [[John Gray]], 
+* [[John Gray]]:
 
-  _Formal category theory: adjointness for $2$-categories_
+  \linebreak
 
-  Lecture Notes in Mathematics, Vol. 391. 
+  **Formal category theory: adjointness for $2$-categories**
 
-  Springer-Verlag, Berlin-New York, 1974. xii+282 pp. 
+  \linebreak
+
+  Lecture Notes in Mathematics **391** 
+
+  Springer (1974)
 
   [doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280)
 
