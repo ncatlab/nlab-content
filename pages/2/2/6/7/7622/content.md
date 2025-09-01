@@ -23,7 +23,7 @@ In [[statistical physics]] the _thermodynamic limit_ denotes the limiting behavi
 
 * the density ratio $\rho \coloneqq N/V$ approaches a constant value.
 
-Many characteristic properties of macroscopic physical systems only appear in this limit, notably [[phase transitions]], [[universality classes]] and other [[critical phenomena]].
+Many characteristic properties of macroscopic physical systems only appear in this limit, notably [[phase transitions]], [[universality classes]] and other critical phenomena.
 
 ## Related concepts
 
