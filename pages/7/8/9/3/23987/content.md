@@ -3129,6 +3129,21 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### Sep 2025
+
+* 1 Sep 2025
+
+  Bekkar Merwan & Marouane Benbetka (Ecole Superieure d’Informatique, Algiers, Algeria):
+
+
+  **Dependence-Driven, Scalable Quantum Circuit Mapping with Affine Abstractions**
+
+
+
+\linebreak
+
+
+
 ***
 
 \linebreak
