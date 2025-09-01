@@ -1,6 +1,7 @@
 
 Philip J. Higgins (1926-2015) was a British  mathematician, who  worked in areas of [[algebra]] and [[algebraic topology]].  He is author of a book on [[categories]] and [[groupoids]] &lbrack;[Higgins 1971](#Higgins71)&rbrack;. In later years Higgins worked with [[Ronnie Brown]].
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=42136)
 
 ## Selected writings
 
