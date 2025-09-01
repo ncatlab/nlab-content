@@ -204,7 +204,9 @@ $$=$$
 
 ## References
 
-See most texts on [[2-categories]], such as:
+* [[John W. Gray]], section I.4 of: _[[Adjointness for 2-Categories|Formal category theory: Adjointness for 2-categories]]_, Lecture Notes in Mathematics **391**, Springer (1974) &lbrack;[doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280)&rbrack; 
+
+For review see most texts on [[2-categories]], such as:
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 4.4 of: *2-Dimensional Categories*, Oxford University Press 2021 &lbrack;[arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378)&rbrack;
 
