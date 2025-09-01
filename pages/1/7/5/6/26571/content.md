@@ -13,4 +13,8 @@ On [[asymptotic symmetries]]:
 
 * Antoine Rignon-Bret, [[Simone Speziale]]: *General covariance and boundary symmetry algebras* &lbrack;[arXiv:2403.00730](https://arxiv.org/abs/2403.00730)&rbrack;
 
+On [[gravitational waves]]:
+
+* [[Simone Speziale]], Danièle A. Steer: *An Introduction to Gravitational Wave Theory* &lbrack;[arXiv:2508.21817](https://arxiv.org/abs/2508.21817)&rbrack;
+
 category: people
