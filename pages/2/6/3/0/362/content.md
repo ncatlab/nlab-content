@@ -94,6 +94,8 @@ given by (...).
 ## Properties
  {#Properties}
 
+### Hom-adjunction and closure
+
 First of all: 
 
 \begin{proposition}
@@ -145,6 +147,59 @@ $$
 
 Prop. \ref{HomIsomorphism} says that the [[symmetric monoidal category]] $(2Cat, \otimes_{Gray}, \ast)$ (eq:2CatAsAMonoidalCategory) is in a fact [[closed monoidal category|closed]], hence is a [[symmetric closed monoidal category]] (with tensor product being the Gray tensor and) with [[internal hom]] given by $Ps(-,-)$ (eq:Ps).
 
+### Further properties
+
+\begin{proposition}
+  \label{BiequivalenceToCartesianProduct}
+  For $X, Y \in 2Cat$, the canonical comparison 2-functor from their Gray tensor product to their [[Cartesian product]] is an [[equivalence of 2-categories]]:
+\[
+  \label{ComparisonMapGrayToCartesian}
+  X \otimes_Gray Y 
+    \xrightarrow{\phantom{--} 
+      \sim 
+    \phantom{--}} 
+  X \times Y
+  \,.
+\]
+\end{proposition}
+(cf. [Lack 2002, top of p. 7](#Lack2002))
+
+\begin{proposition}
+  \label{UnderSimplicialNerve}
+  Under passage to [[simplicial set|simplicial]] [[geometric nerve of a bicategory|nerves]] of [[strict 2-groupoids]]
+\[
+  \label{SimplicialNerveOf2Groupoids}
+  N 
+    \;\colon\;
+  2Grpd \longrightarrow sSet
+  \mathrlap{\,,}
+\]
+
+
+1. the nerve of a Gray tensor product of 2-groupoids,
+
+1. the [[Cartesian product]] (cf. *[[product of simplices]]*) of the nerves of the separate 2groupoids 
+
+are related by a [[simplicial weak equivalence]], in fact by an [[acyclic Kan fibration]]:
+
+$$
+  \mathllap{
+  X, Y \in 2Grpd
+  \;\;\;\;\;\;\;
+  \vdash
+  \;\;\;\;\;\;\;
+  }
+  N\big(
+   X \otimes_{Gray} Y
+  \big)
+  \xrightarrow{ \in Fib \cap W }
+  N(X) \times N(Y)
+  \mathrlap{\,.}
+$$
+\end{proposition}
+\begin{proof}
+  The comparison map (eq:ComparisonMapGrayToCartesian) is indeed an [[acyclic fibration]] ([Lack 2002, top of p. 7](#Lack2002)) in the [[canonical model structure on 2-categories|canonical model structure on 2-groupoids]], and on that the nerve (eq:SimplicialNerveOf2Groupoids) is a [[right Quillen functor]] to the [[classical model structure on simplicial sets]] ([Lack 2002, end of p. 29](#Lack2002), following [Moerdijk & Svensson 1993](canonical+model+structure+on+2-categories#MoerdijkSvensson93)).
+\end{proof}
 
 ## Remarks 
 
@@ -182,6 +237,11 @@ Original discussion of the Gray tensor product in [[2-category theory]]:
 * [[John W. Gray]], Theorem 1, 4.14 of: _[[Adjointness for 2-Categories|Formal category theory: Adjointness for 2-categories]]_, Lecture Notes in Mathematics **391**, Springer (1974) &lbrack;[doi:10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280)&rbrack; 
 
 * [[John W. Gray]], _Coherence for the Tensor Product of 2-Categories, and Braid Groups_, in: _Algebra, Topology, and Category Theory_, Academic Press (1976) 62-76
+
+In the context of the [[canonical model structure on 2-categories]]:
+
+* {#Lack2002} [[Stephen Lack]]: *A Quillen model structure for 2-categories*, K-Theory **26** 2 (2002) 171-205 &lbrack;[doi:10.1023/A:1020305604826](http://dx.doi.org/10.1023/A:1020305604826), [[Lack-ModelOn2Cat.pdf:file]], [zbmath](https://zbmath.org/?q=an%3A1017.18005)&rbrack;
+
 
 Further discussion:
 
