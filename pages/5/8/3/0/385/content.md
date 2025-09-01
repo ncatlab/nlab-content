@@ -70,6 +70,12 @@ Or maybe lax and oplax should be switched here?  Can someone verify?
 * There is the [[Verity-Gray tensor product]] on [[stratified simplicial set]]s (as described there). Via the [[oriental|omega-nerve]] [[strict omega-category|strict omega-categories]] form the [[complicial set]]s within all [[stratified simplicial set]]s. According to observation 60 of [Verity06](http://arxiv.org/abs/math/0604414) section 11.4 of [Verity04](http://arxiv.org/abs/math/0410412) proves that the Crans-Gray tensor product is the reflection of the Verity-Gray tensor product under this inclusion.
  
 
+## Related entries
+
+* [[Gray tensor product]]
+
+* [[Verity-Gray tensor product]]
+
 
 ## References
 
@@ -95,8 +101,8 @@ A collection of Crans's papers, including those on teisi, can be found here:
 
 The modern version, incorporating many new primitives is given in 
 
-* [[Richard Steiner]], _Omega-categories and chain complexes_, Homology, Homotopy and Applications 6(1) (2004), 175-200 ([journal](http://www.intlpress.com/hha/v6/n1/a12/), [pdf](http://www.intlpress.com/hha/v6/n1/a12/pdf))
- {#Steiner}
+* {#Steiner} [[Richard Steiner]], _Omega-categories and chain complexes_, Homology, Homotopy and Applications 6(1) (2004), 175-200 ([journal](http://www.intlpress.com/hha/v6/n1/a12/), [pdf](http://www.intlpress.com/hha/v6/n1/a12/pdf))
+ 
 
 A general theory of lax tensor products is in 
 
