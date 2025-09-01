@@ -178,7 +178,7 @@ Prop. \ref{HomIsomorphism} says that the [[symmetric monoidal category]] $(2Cat,
 
 1. the nerve of a Gray tensor product of 2-groupoids,
 
-1. the [[Cartesian product]] (cf. *[[product of simplices]]*) of the nerves of the separate 2groupoids 
+1. the [[Cartesian product]] (cf. *[[product of simplices]]*) of the nerves of the separate 2-groupoids 
 
 are related by a [[simplicial weak equivalence]], in fact by an [[acyclic Kan fibration]]:
 
@@ -198,7 +198,7 @@ $$
 $$
 \end{proposition}
 \begin{proof}
-  The comparison map (eq:ComparisonMapGrayToCartesian) is indeed an [[acyclic fibration]] ([Lack 2002, top of p. 7](#Lack2002)) in the [[canonical model structure on 2-categories|canonical model structure on 2-groupoids]], and on that the nerve (eq:SimplicialNerveOf2Groupoids) is a [[right Quillen functor]] to the [[classical model structure on simplicial sets]] ([Lack 2002, end of p. 29](#Lack2002), following [Moerdijk & Svensson 1993](canonical+model+structure+on+2-categories#MoerdijkSvensson93)).
+  The comparison map (eq:ComparisonMapGrayToCartesian) is indeed an [[acyclic fibration]] ([Lack 2002, top of p. 7](#Lack2002)) in the [[canonical model structure on 2-categories|canonical model structure on 2-groupoids]], and on that the [[simplicial nerve of 2-categories|nerve]] (eq:SimplicialNerveOf2Groupoids) is a [[right Quillen functor]] to the [[classical model structure on simplicial sets]] ([Lack 2002, end of p. 29](#Lack2002), following [Moerdijk & Svensson 1993](canonical+model+structure+on+2-categories#MoerdijkSvensson93)).
 \end{proof}
 
 ## Remarks 
