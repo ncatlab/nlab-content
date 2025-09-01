@@ -658,7 +658,7 @@ The development of that to [[homotopy type theory]] followed insights by ([Hofma
 
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_, 2013
 
-Survey of the history of type theoryL
+Survey of the history of type theory
 
 * Stanford Encyclopedia of Philosophy, _[Type theory](http://plato.stanford.edu/entries/type-theory/)_
 
