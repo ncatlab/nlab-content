@@ -4,6 +4,25 @@
 
 ***
 
+\begin{proposition}
+  **(fundamental crossed module of a fibration)**
+\linebreak
+  Given a [[Serre fibration]] $p \,\colon\, T \longrightarrow B$ of [[pointed topological spaces]], with [[fiber]] $\iota \,\colon\,F \longrightarrow T$, the induced [[homomorphism]] of [[fundamental groups]]
+$$
+  \pi_1(F)
+  \xrightarrow{\phantom{--}
+    \iota_\ast
+  \phantom{--}}
+  \pi_1(T)
+$$
+constitutes a [[crossed module]] with respect to the canonical [[group action]] of $\alpha \,\colon\, \pi_1(T) \times \pi_1(F) \longrightarrow \pi_1(F)$.
+\end{proposition}
+This is discussed in [Brown, Higgins & Sivera 2011, §2.6](#BHS11), there attributed to [[Daniel Quillen]].
+
+
+* {#BHS11} [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]]: *[[Nonabelian Algebraic Topology]]*, Tracts in Mathematics **15**, European Mathematical Society (2011) &lbrack;ISBN 978-3-03719-083-8, [doi:10.4171/083](https://doi.org/10.4171/083), [pdf](https://groupoids.org.uk/pdffiles/NAT-book.pdf), [webpage](http://groupoids.org.uk/nonab-a-t.html)&rbrack;
+
+
 
 \begin{lemma}
 
