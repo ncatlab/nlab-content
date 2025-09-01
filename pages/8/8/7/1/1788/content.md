@@ -6,6 +6,7 @@
 
 \begin{proposition}
   **(fundamental crossed module of a fibration)**
+  \label{FundamentalCrossedModuleOfAFibration}
 \linebreak
   Given a [[Serre fibration]] $p \,\colon\, T \longrightarrow B$ of [[pointed topological spaces]], with [[fiber]] $\iota \,\colon\,F \longrightarrow T$, the induced [[homomorphism]] of [[fundamental groups]]
 $$
@@ -20,24 +21,17 @@ constitutes a [[crossed module]] with respect to the canonical [[group action]] 
 This is discussed in [Brown, Higgins & Sivera 2011, §2.6](#BHS11), there attributed to [[Daniel Quillen]].
 
 
-* {#BHS11} [[Ronnie Brown]], [[Philip Higgins]], [[Rafael Sivera]]: *[[Nonabelian Algebraic Topology]]*, Tracts in Mathematics **15**, European Mathematical Society (2011) &lbrack;ISBN 978-3-03719-083-8, [doi:10.4171/083](https://doi.org/10.4171/083), [pdf](https://groupoids.org.uk/pdffiles/NAT-book.pdf), [webpage](http://groupoids.org.uk/nonab-a-t.html)&rbrack;
-
-
-
-\begin{lemma}
-
-For $T \longrightarrow B$ a [[Serre fibration]] of [[pointed topological spaces]], with ([[homotopy fiber|homotopy]]) [[fiber]] $F \to T$, the [[connecting homomorphism]] in the LES
-
+\begin{proposition}
+Given a [[Serre fibration]] $p \,\colon\, T \longrightarrow B$ of [[pointed topological spaces]], with [[fiber]] $\iota \,\colon\,F \longrightarrow T$, the [[image]] of the first [[connecting homomorphism]] of the corresponding [[long exact sequence of homotopy groups]]
 $$
   \pi_2(B) \longrightarrow \pi_1(F)
 $$
-
-factors through the [center](center#OfGroupsAndMonoids) of $\pi_1(F)$.
-
-\end{lemma}
+is in the [[center]] $Z\big(\pi_1(F)\big) \hookrightarrow \pi_1(F)$.
+\end{proposition}
 \begin{proof}
+  By [[exact sequence|exactness]], the image in question is the [[kernel]] of $\pi_1(F) \to \pi_1(T)$, and that is central by Prop. \ref{FundamentalCrossedModuleOfAFibration}.
 
-Textbooks usually state the analogous statement for the LES of relative homotopy groups, where it says that for $(X,A)$ a "[[CW-pair|pair]]", hence a [[subspace]] inclusion $A \hookrightarrow X$ (here: of [[pointed topological spaces]]), there is a [[long exact sequence]] of the form
+Usual textbooks usually state instead an analogous statement for the LES of relative homotopy groups: For $(X,A)$ a "[[CW-pair|pair]]", hence a [[subspace]] inclusion $A \hookrightarrow X$ (here: of [[pointed topological spaces]]), there is a [[long exact sequence]] of the form
 
 $$
   \cdots
@@ -57,17 +51,10 @@ $$
   \pi_2(A) \longrightarrow \pi_2(X,A)
 $$
 
-factors through the center.
+factors through the center ([Whitehead 1978 Cor 3.5 on p. 166](#Whitehead78), [tom Dieck 2008 Cor 6.2.7](#tomDieck08)).
 
-So we just need to translate: We set
-
-* $A \coloneqq T$
-
-and
-
-* $X \coloneqq Cyl(T \to B)$
-
-the [[mapping cylinder]] of our fibration, which has a canonical comparison map
+With a little care, this translates to the statement here by specializing $A \coloneqq T$ and taking $X \coloneqq Cyl(T \to B)$ to be the [[mapping cylinder]] of the fibration.
+\end{proof}
 
 $$
   Cyl(T \to B) \longrightarrow B
