@@ -87,9 +87,17 @@ in [[2Cat]], there is a functor $k: \mathcal{B} \times \mathcal{E}_{semi} \right
 
 \section{References}
 
+Precursor discussion establishing a model structure on the category of ([[equivariant homotopy theory|equivariant]]) [[2-groupoids]]:
+
+* {#MoerdijkSvensson93} [[Ieke Moerdijk]], Jan-Alve Svensson: *Algebraic classification of equivariant homotopy 2-types, I*, Journal of Pure and Applied Algebra **89** 1–2 (1993)  187-216 \[<a href="https://doi.org/10.1016/0022-4049(93)90094-A">doi:10.1016/0022-4049(93)90094-A</a>\]
+
+The original result on the model structure on 2-categories:
+
 * {#Lack2002} [[Stephen Lack]]: *A Quillen model structure for 2-categories*, K-Theory **26** 2 (2002) 171-205 &lbrack;[doi:10.1023/A:1020305604826](http://dx.doi.org/10.1023/A:1020305604826), [[Lack-ModelOn2Cat.pdf:file]], [zbmath](https://zbmath.org/?q=an%3A1017.18005)&rbrack;
 
 * {#Lack2004} [[Stephen Lack]]: *A Quillen model structure for bicategories*, K-Theory **33 **3** (2004) 185-197 &lbrack;[doi:10.1007/s10977-004-6757-9](http://dx.doi.org/10.1007/s10977-004-6757-9), [[Lack-ModelOnBiCat.pdf:file]], [zbmath](https://zbmath.org/?q=an%3A1069.18008)&rbrack;
+
+Further discussion:
 
 * {#Williamson2011} [[Richard Williamson]]: *Cylindrical model structures*, PhD thesis, University of Oxford (2011) &lbrack;[author's webpage](http://rwilliamson-mathematics.info/cylindrical_model_structures/cylindrical_model_structures.html), [arXiv:1304.0867](https://arxiv.org/abs/1304.0867)&rbrack;
 
