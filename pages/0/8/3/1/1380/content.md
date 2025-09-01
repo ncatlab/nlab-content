@@ -41,7 +41,7 @@ Notice that [[strict 2-categories]] may be identified with [[Cat]]-[[enriched ca
 
 * [[2-functor]], [[double functor]]
 
-
 * [[n-functor]]
+
 
 [[!redirects strict 2-functors]]
