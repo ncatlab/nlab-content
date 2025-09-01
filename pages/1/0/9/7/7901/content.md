@@ -30,6 +30,10 @@ Relation to [[Chern-Simons theory with complex gauge group]]:
 
 * [[Daniel S. Freed]], [[Andrew Neitzke]], *3d spectral networks and classical Chern-Simons theory* &lbrack;[arXiv:2208.07420](https://arxiv.org/abs/2208.07420)&rbrack;
 
+See also:
+
+* Clarence Kineider, Georgios Kydonakis, Eugen Rogozinnikov, Valdo Tatitscheff, Alexander Thomas: *Spectral Networks: Bridging higher-rank Teichmüller theory and BPS states* &lbrack;[arXiv:2412.03588](https://arxiv.org/abs/2412.03588)&rbrack;
+
 
 
 [[!redirects spectral networks]]
