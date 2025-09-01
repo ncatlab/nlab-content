@@ -76,6 +76,9 @@ Review in view of modern gravitational wave detection (see [below](#ReferencesEx
 
 * Frans Pretorius, *A Survey of Gravitational Waves* &lbrack;[arXiv:2306.03797](https://arxiv.org/abs/2306.03797)&rbrack;
 
+* [[Simone Speziale]], Danièle A. Steer: *An Introduction to Gravitational Wave Theory* &lbrack;[arXiv:2508.21817](https://arxiv.org/abs/2508.21817)&rbrack;
+
+
 
 Discussion in view of [[quantum gravity]]:
 
