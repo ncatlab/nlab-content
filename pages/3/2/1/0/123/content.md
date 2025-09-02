@@ -50,9 +50,9 @@ such that:
 
 * it respects [[composition]]: the image of the composite of two morphisms under $F$ is the composite of their images.
 
-These last two properties are the decisive ones of a functor; they are called the **functoriality conditions**.  These are a direct generalization of the notion of [[homomorphism]] (of [[monoids]], [[groups]], [[algebras]], etc.) to the case that there are more objects. As a slogan:
+These last two properties are the decisive ones of a functor; they are called the **functoriality conditions**.  These are a direct generalization of the notion of a [[homomorphism]] (of [[monoids]], [[groups]], [[algebras]], etc.) to the case that there are more objects. As a slogan:
 
-The notion of functor is a [[horizontal categorification]] of that of [[homomorphism]].
+The notion of a functor is a [[horizontal categorification]] of that of a [[homomorphism]].
 
 ## Definition
 
@@ -176,18 +176,18 @@ In many cases, this notion is too restrictive, and we should use internal [[anaf
 
 ### Enriched definition
 
-In [[enriched category theory]] a functor maps not [[hom-sets]] but the given [[hom-objects]] to each other, in a way that respects their composition. This is described at
+In [[enriched category theory]], a functor maps not [[hom-sets]] but the given [[hom-objects]] to each other, in a way that respects their composition. This is described at
 
 * [[enriched functor]].
 
 
 ### Profunctors
 
-A generalization of the notion of [[enriched functor]] is the notion of [[profunctor]].
+A generalization of the notion of an [[enriched functor]] is the notion of a [[profunctor]].
 
 ### Higher categorical functors
 
-In [[higher category theory]] there are corresponding higher notions of functor, such as
+In [[higher category theory]] there are corresponding higher notions of a functor, such as
 
 * [[2-functor]]
 
@@ -206,7 +206,7 @@ In [[higher category theory]] there are corresponding higher notions of functor,
 
 Note: the [[HoTT book]] calls a [[category]] a "precategory" and a [[univalent category]] a "category", but here we shall refer to the standard terminology of "category" and "univalent category" respectively. 
 
-The definition of functor in homotopy type theory is a straightforward translation of the ordinary one.  However, the notion of [[univalent category]] allows us to construct some such functors that in classical mathematics would require either the [[axiom of choice]] or the use of [[anafunctors]].
+The definition of a functor in homotopy type theory is a straightforward translation of the ordinary one.  However, the notion of a [[univalent category]] allows us to construct some such functors that in classical mathematics would require either the [[axiom of choice]] or the use of [[anafunctors]].
 
  {#Definition}
 
@@ -283,7 +283,7 @@ Specific types of functors are important in applications. See for instance
 
 * [[full and faithful functor]]
 
-And for more background on this see [[stuff, structure, property]].
+For more background on this, see [[stuff, structure, property]].
 
 ##Examples 
 
@@ -295,7 +295,7 @@ $$
   \mathbf{B}A \to \mathbf{B}B
 $$
 
-are canonically in bijection with monoid homomorphisms $A \to B$ and accordingly functors
+are canonically in bijection with monoid homomorphisms $A \to B$, and accordingly functors
 
 $$
   \mathbf{B}G \to \mathbf{B}H
@@ -322,7 +322,7 @@ Let $\mathbf{B} End(U)$ and $\mathbf{B} End(V)$ be one-object categories whose o
 
 #### Left Inverses
 
-If the linear map $F:U\to V$ has a left inverse, i.e.
+If the linear map $F:U\to V$ has a left inverse, i.e.,
 
 $$F^*\circ F = 1_U,$$
 
@@ -338,28 +338,28 @@ where $F_*$ on the right-hand side is the [[image]] and its action on endomorphi
 
 $$F_*(f) = F f F^*.$$
 
-Composition follows immediately
+Composition follows immediately:
 
 $$F_*(f g) = F f g F^* = F f F^* F g F^* = F_*(f) F_*(g).$$
 
-Identity morphisms are preserved since for any vector $y$ in $F_*U\subset V$, then 
+Identity morphisms are preserved since, for any vector $y$ in $F_*U\subset V$, 
 
 $$y = F x$$
 
-for some vector $x$ in $U$ and we have
+for some vector $x$ in $U$, and we have
 
 $$F_*(1_U)y = F\circ F^* y = F\circ F^*\circ F x = F x = y$$
 
 so that
 
-$$F_*(1_U) = 1_{F_*(U)}$$
+$$F_*(1_U) = 1_{F_*(U)},$$
 
 as required. Hence, $F_*$ is a functor.
 
 
 #### Right Inverses
 
-If the linear map $F:U\to V$ has a right inverse, i.e.
+If the linear map $F:U\to V$ has a right inverse, i.e.,
 
 $$F\circ F^* = 1_V,$$
 
@@ -375,15 +375,15 @@ where $F^*$ on the right-hand side is preimage, and its action on endomorphisms 
 
 $$F^*(f) = F^* f F.$$
 
-Composition follows immediately
+Composition follows immediately:
 
 $$F^*(f g) = F^* f g F = F^* f F F^* g F = F^*(f) F^*(g).$$
 
-Identity morphisms are preserved since for any vector $x$ in $F^*V\subset U$, then 
+Identity morphisms are preserved since, for any vector $x$ in $F^*V\subset U$, 
 
 $$x = F^*y$$
 
-for some vector $y$ in $V$ and we have
+for some vector $y$ in $V$, and we have
 
 $$F^*(1_V)x = F^*\circ F x = F^*\circ F \circ F^* y = F^* y = x$$
 
@@ -396,16 +396,16 @@ as required. Hence, $F^*$ is a functor.
 
 ### Presheaves 
 
-Functors $F : C \to Set$ with values in [[Set]] are also called [[presheaf|presheaves]]. As such one calls them presheaves on the [[opposite category]] $C^{op}$ of $C$. See [[presheaf]] for more on this.
+Functors $F : C \to Set$ with values in [[Set]] are also called [[presheaf|presheaves]]. As such, one calls them presheaves on the [[opposite category]] $C^{op}$ of $C$. See [[presheaf]] for more on this.
 
 
 ### Functors and generalized elements {#OnGeneralizedElements}
 
-For $C$ a [[category]], and $X \in C$ an [[object]], and $U$ any other object, a [[morphism]] $x : U \to X$ may be regarded as a [[generalized element]] of $X$, written $x \in X$ (For this language applied to the category [[Set]] of sets see [[ETCS]]. For the general case see [[type theory]]).
+For $C$ a [[category]], $X \in C$ an [[object]], and $U$ any other object, a [[morphism]] $x : U \to X$ may be regarded as a [[generalized element]] of $X$, written $x \in X$ (For this language applied to the category [[Set]] of sets, see [[ETCS]]. For the general case, see [[type theory]]).
 
-The _[[set]]_ of generalized elements of an object $X \in C$ is thus the union of [[hom-sets]] $\coprod_{U \in C} Hom_C(U,X)$.
+The _[[set]]_ of generalized elements of an object $X \in C$ is thus the union of the [[hom-sets]] $\coprod_{U \in C} Hom_C(U,X)$.
 
-While a [[morphism]] $f : X \to Y$ in an  arbitrary category $C$ need not at all come to us as a function of sets, it always induces a function of sets of _generalized elements_ : it sends the generalized element $x : U \to X$ of $X$ to the generalized element 
+While a [[morphism]] $f : X \to Y$ in an arbitrary category $C$ need not at all come to us as a function of sets, it always induces a function of sets of _generalized elements_ : it sends the generalized element $x : U \to X$ of $X$ to the generalized element 
 
 $$
   f(x) : U \stackrel{x}{\to} X \stackrel{f}{\to} Y
@@ -418,7 +418,7 @@ In terms of this notation, the functoriality condition on a functor $F : C \to D
 $$
   F(U \stackrel{x}{\to} X \stackrel{f}{\to} Y)
   =
-  F(U) \stackrel{F(x)}{\to} F(X) \stackrel{F(f)}{\to} F(Y)
+  F(U) \stackrel{F(x)}{\to} F(X) \stackrel{F(f)}{\to} F(Y),
 $$
 
 appears as
@@ -428,7 +428,7 @@ $$
   \,.
 $$
 
-This can be illustrated in the following diagram
+This can be illustrated in the following diagram:
 
 <img src="http://ncatlab.org/nlab/files/altfunctor.jpg" width = "300"/>
 
