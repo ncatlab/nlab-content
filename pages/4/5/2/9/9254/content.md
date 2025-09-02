@@ -137,7 +137,7 @@ General introduction and survey:
 
 * [[Herbert Edelsbrunner]], [[John Harer]], *Persistent homology -- a survey*, in: *Surveys on Discrete and Computational Geometry: Twenty Years Later*, Contemporary Mathematics *453* (2008) $[$[doi:10.1090/conm/453](http://dx.doi.org/10.1090/conm/453)$]$
 
-* [[Gunnar Carlsson]], *Topology and data*, Bull. Amer. Math. Soc. 46 (2009), no. 2, 255-308 $[$[doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X)$]$
+* [[Gunnar Carlsson]], *Topology and data*, Bull. Amer. Math. Soc. **46** 2 (2009) 255-308 \[<a href="https://doi.org/10.1090/S0273-0979-09-01249-X">doi:10.1090/S0273-0979-09-01249-X</a>, slides:[pdf](https://www.stat.uchicago.edu/~lekheng/meetings/mmds/slides2008/carlsson.pdf), [[Carlsson-TopologyAndData.pdf:file]]\]
 
 * [[Herbert Edelsbrunner]], [[Dmitriy Morozov]], *Persistent homology: theory and practice*, in: *European Congress of Mathematics Kraków, 2–7 July, 2012* EMS $[$[doi:10.4171/120-1/3](https://www.ems-ph.org/books/show_abstract.php?proj_nr=170&vol=1&rank=3), [pdf](http://mrzv.org/publications/persistent-homology-theory-practice/ecm)$]$
 
@@ -197,7 +197,6 @@ recognition of [[instantons]] and [[confinement]] in [[lattice gauge theory]]:
 analysis of the [[cosmic microwave background]] in search for hints of [[inhomogeneous cosmology]]:
 
 * Pratyush Pranav, [[Thomas Buchert]], *Homology reveals significant anisotropy in the cosmic microwave background* &lbrack;[arXiv:2308.10738](https://arxiv.org/abs/2308.10738)&rbrack;
-
 
 Persistent homology has strong computational limits for large data sets and major problems with multifitrations. An alternative propoposal in TDA to persistent homology which is worse in 1 dimension but does not suffer above problems is
 
