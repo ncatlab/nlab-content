@@ -201,6 +201,20 @@ $$
   The comparison map (eq:ComparisonMapGrayToCartesian) is indeed an [[acyclic fibration]] ([Lack 2002, top of p. 7](#Lack2002)) in the [[canonical model structure on 2-categories|canonical model structure on 2-groupoids]], and on that the [[simplicial nerve of 2-categories|nerve]] (eq:SimplicialNerveOf2Groupoids) is a [[right Quillen functor]] to the [[classical model structure on simplicial sets]] ([Lack 2002, end of p. 29](#Lack2002), following [Moerdijk & Svensson 1993](canonical+model+structure+on+2-categories#MoerdijkSvensson93)).
 \end{proof}
 
+\begin{remark}\label{InternalHomUnderSimplicialNerve}  
+  Related to Prop. \ref{UnderSimplicialNerve}: There is a natural comparison map
+  $$
+    N\big(
+      Ps(X,Y)
+    \big)
+    \longrightarrow
+    N(Y)^{N(X)}
+  $$
+  (from the [[geometric nerve of a bicategory|simplicial nerve]] of \eqref{Ps} to the [simplicial function complex](function+complex#InSimplicialSets) between the separate nerves of the arguments) and this is a [[simplicial weak equivalence]]  when $X$ is [[cofibrant object|cofibrant]] in the [[canonical model structure on 2Grpd|canonical model structure on 2-groupoids]].  
+\end{remark}
+
+This is due to [[Alexander Campbell]], see discussion [here](https://nforum.ncatlab.org/discussion/11750/gray-tensor-product/#Item_21).
+
 ## Remarks 
 
 * When considered with this monoidal structure, $2Cat$ is often called $Gray$.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over $Gray$, are a model for [[semi-strict infinity-category|semi-strict]] [[3-categories]].  Categories enriched over $2Cat$ with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
