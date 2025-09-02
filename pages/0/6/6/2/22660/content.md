@@ -96,6 +96,8 @@ With emphasis on strong-correlation (cf. [[non-perturbative QFT]]):
 
 with focus on [[topological phases of matter]]:
 
+* [[Sanju Gupta]], [[Avadh Saxena]] (eds.): *The Role of Topology in Materials*, Springer Series in Solid-State Sciences **189**, Springer (2018) &lbrack;[doi:10.1007/978-3-319-76596-9](https://link.springer.com/book/10.1007/978-3-319-76596-9)&rbrack;
+
 * Kang L. Wang, Yingying Wu, Christopher Eckberg, Gen Yin, Quanjun Pan: *Topological quantum materials*, MRS Bulletin **45** (2020) 373–379 &lbrack;[doi:10.1557/mrs.2020.122](https://doi.org/10.1557/mrs.2020.122)&rbrack;
 
 * Nitesh Kumar, Satya N. Guin, Kaustuv, Manna, Chandra Shekhar, Claudia Felser: *Topological Quantum Materials from the Viewpoint of Chemistry*, Chemical Reviews **121** 5 (2020) &lbrack;[doi:10.1021/acs.chemrev.0c00732](https://pubs.acs.org/doi/full/10.1021/acs.chemrev.0c00732)&rbrack;
