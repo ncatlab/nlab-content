@@ -36,27 +36,35 @@
 
 The original article:
 
-* [[Felix Bloch]], *Über die Quantenmechanik der Elektronen in Kristallgittern*, Zeitschrift für Physik **52** 7-8 (1929) 555-600 $[$[doi:10.1007/BF01339455](https://www.scopus.com/record/display.uri?eid=2-s2.0-34250940025&origin=inward&featureToggles=FEATURE_NEW_DOC_DETAILS_EXPORT:1)$]$
+* [[Felix Bloch]], *Über die Quantenmechanik der Elektronen in Kristallgittern*, Zeitschrift für Physik **52** 7-8 (1929) 555-600 &lbrack;[doi:10.1007/BF01339455](https://www.scopus.com/record/display.uri?eid=2-s2.0-34250940025&origin=inward&featureToggles=FEATURE_NEW_DOC_DETAILS_EXPORT:1)&rbrack;
 
-Textbook account:
+Early developments:
 
-* [[Michael Reed]] and [[Barry Simon]], Sec. XIII.16 *Schr&ouml;dinger operators with periodic potentials*, of:  *[[Methods of Modern Mathematical Physics]] -- IV: Analysis of Operators*, Academic Press (1978) 
-([ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7))
+* Walter Kohn: *Theory of Bloch Electrons in a Magnetic Field: The Effective Hamiltonian*, Phys. Rev. **115** (1959) 1460 &lbrack;[doi:10.1103/PhysRev.115.1460](https://doi.org/10.1103/PhysRev.115.1460)&rbrack;
+
+* [[Gregory H. Wannier]]: *Wave Functions and Effective Hamiltonian for Bloch Electrons in an Electric Field*, Phys. Rev. **117** (1960) 432 &lbrack;[doi:10.1103/PhysRev.117.432](https://doi.org/10.1103/PhysRev.117.432)&rbrack;
+
+Textbook account in [[mathematical physics]]:
+
+* [[Michael Reed]], [[Barry Simon]], Sec. XIII.16 *Schrödinger operators with periodic potentials*, of:  *[[Methods of Modern Mathematical Physics]] -- IV: Analysis of Operators*, Academic Press (1978) &lbrack;[ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7), §XIII.16: [[ReedSimon-XIII16.pdf:file]]&rbrack;
 
 Textbook account in [[semiconductor]]-theory:
 
-* [[Sheng San Li]], Section 4.3 of: *Semiconductor Physical Electronics*, Springer (2006)   $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
-
+* [[Sheng San Li]], Section 4.3 of: *Semiconductor Physical Electronics*, Springer (2006) &lbrack;[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)&rbrack;
 
 In the context of [[topological phases of matter]]:
 
-* [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], Section IV.B of: *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
+* [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], Section IV.B of: *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 &lbrack;[arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5)&rbrack;
 
 See also:
 
 * Wikipedia: *[Bloch's theorem](https://en.wikipedia.org/wiki/Bloch%27s_theorem)*
 
 * Wikipedia: *[Crystal momentum](https://en.wikipedia.org/wiki/Crystal_momentum)* 
+
+Further discussion:
+
+* E. Dobardžić, M. Dimitrijević, M. V. Milovanović: *Generalized Bloch theorem and topological characterization*, Phys. Rev. B **91** (2015) 125424 &lbrack;[arXiv:1411.4920](https://arxiv.org/abs/1411.4920), [doi:10.1103/PhysRevB.91.125424](https://doi.org/10.1103/PhysRevB.91.125424)&rbrack;
 
 
 Variant for [[hyperbolic spaces]]:
