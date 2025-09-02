@@ -239,7 +239,7 @@ $$
     \,.
   \end{array}
 $$
-But this shows the claim:
+But this proves the claim, since:
 $$
   h h' h^{-1}
   \,=\,
