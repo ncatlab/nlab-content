@@ -77,6 +77,7 @@ $$
 $$
 
 ### In simplicial sets
+ {#InSimplicialSets}
 
 Specializing the general definition above to $\mathcal{C} = $ [[sSet]] itself, the required tensoring is just the [[product of simplicial sets]] and so
 
