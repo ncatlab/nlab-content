@@ -38,7 +38,7 @@ Every object in this model category is fibrant, but not every object is cofibran
 
 This is also a [[monoidal model category]] with respect to the [[Gray tensor product]].
 
-\section{Canonical model structure in which every object is both fibrant and cofibrant}
+\section{Model structure with every object bifibrant}
 
 Throughout this section, let $\mathcal{E}_{semi}$ denote the [[free-standing semi-strict equivalence]]. 
 
@@ -108,4 +108,8 @@ Further discussion:
 
 [[!redirects Lack model structure]]
 [[!redirects Lack model structures]]
+
+[[!redirects canonical model structure on 2Grpd]]
+[[!redirects canonical model structures on 2Grpd]]
+
 
