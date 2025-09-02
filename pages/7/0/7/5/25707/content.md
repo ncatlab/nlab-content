@@ -92,12 +92,23 @@ frankfurt.de/64271720/TopNotes_Spring10.pdf))
 
 * {#Mueger18} [[Michael Müger]], _Topology for the working mathematician_, Nijmegen 2018 ([pdf](https://www.math.ru.nl/~mueger/topology.pdf))
 
-Basic topology set up in [[intuitionistic mathematics]] is discussed in
+On basic topology set up in [[intuitionistic mathematics]]:
 
-* {#Waaldijk96} [[Franka Waaldijk]], _modern intuitionistic topology_, 1996 ([pdf](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf))
+* {#Waaldijk96} [[Franka Waaldijk]], _Modern intuitionistic topology_, PhD thesis, Amsterdam (1996) \[<a href="http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf">pdf</a>, [[Waaldijk-IntuitTopology.pdf:file]]\]
 
 See also:
 
 * [[Topospaces]], a Wiki with basic material on topology.
+
+### Applications
+ {#Applications}
+
+On [[topological data analysis]]:
+
+* [[Gunnar Carlsson]], *Topology and data*, Bull. Amer. Math. Soc. **46** 2 (2009) 255-308 \[<a href="https://doi.org/10.1090/S0273-0979-09-01249-X">doi:10.1090/S0273-0979-09-01249-X</a>, slides:[pdf](https://www.stat.uchicago.edu/~lekheng/meetings/mmds/slides2008/carlsson.pdf), [[Carlsson-TopologyAndData.pdf:file]]\]
+
+On topology in [[solid state physics]] ([[topological phases of matter]]/[[quantum materials]]) and also in [[biology]]:
+
+* [[Sanju Gupta]], [[Avadh Saxena]] (eds.): *The Role of Topology in Materials*, Springer Series in Solid-State Sciences **189**, Springer (2018) &lbrack;[doi:10.1007/978-3-319-76596-9](https://link.springer.com/book/10.1007/978-3-319-76596-9)&rbrack;
 
 
