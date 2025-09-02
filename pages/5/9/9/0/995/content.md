@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _filter_ is [[duality|dual]] to an [[ideal]].
+_Filters_ (on a [[partial order|poset]]) are [[duality|dual]] to [[ideal|ideals]] (in that poset).
 
 A [[proper filter]] is equivalently the [[eventuality filter]] of a [[net]].
 
@@ -28,7 +28,7 @@ In [[predicative mathematics]], filters of subsets are [[large category|large]],
 
 ## Definitions
 
-A subset $F$ of a [[partial order|poset]] $L$ is called a __filter__ if it is upward-closed and downward-[[direction|directed]]; that is:
+A subset $F$ of a [[partial order|poset]] $L$ is called a __filter__  on $L$ if it is upward-closed, inhabited and downward-[[direction|directed]]; that is:
 
 1. If $A \leq B$ in $L$ and $A \in F$, then $B \in F$;
 2. for some $A$ in $L$, $A \in F$;
@@ -60,7 +60,7 @@ You can also interpret these axioms to say that, if you think of $F$ as a functi
 
 ### Filter of subsets
 
-A __filter of subsets__ of a given set $S$ is a filter in the [[power set]] of $S$.  One also sees filters of open subsets, filters of compact subsets, etc, especially in topology.
+A __filter of subsets__ of a given set $S$ is a filter on the [[power set]] of $S$, ordered by inclusion.  One also sees filters of open subsets, filters of compact subsets, filters of ring ideals etc.
 
 ### As pro-objects
 Under the correspondence between [[upper sets]] and duals of (0,1)-copresheaves, filters correspond to duals of precisely those copresheaves that are cofiltered limits of [[corepresentable|corepresentables]]. Filters can therefore be viewed as the [[pro-objects]] of posets, dual to how ideals can be viewed as [[ind-objects]].
@@ -88,7 +88,7 @@ $$r:\sum_{x:P} \sum_{y:P} (x \in F) \times (y \in F) \to \sum_{z:P} (z \in F) \t
 
 ## Kinds of filters
 
-A filter $F$ is __proper__ if there exists an element $A$ of $L$ such that $A \notin F$.  A filter in a lattice is proper iff $\bot \notin F$; in particular, a filter of subsets of $S$ is proper iff $\empty \notin F$.  In [[constructive mathematics]], however, one usually wants a stronger (but classically equivalent) notion: a filter $F$ of subsets of $S$ is __proper__ if every element of $F$ is [[inhabited set|inhabited]].  If $A \in F$ for every $A$ (in particular if $\empty \in F$), then we have the __[[improper filter]]__.  Compare [[proper subset]] and [[improper subset]].
+A filter $F$ on $L$ is __proper__ if there exists an element $A$ of $L$ such that $A \notin F$.  A filter on a lattice is proper iff $\bot \notin F$; in particular, a filter of subsets of $S$ is proper iff $\empty \notin F$.  In [[constructive mathematics]], however, one usually wants a stronger (but classically equivalent) notion: a filter $F$ of subsets of $S$ is __proper__ if every element of $F$ is [[inhabited set|inhabited]].  If $A \in F$ for every $A$ (in particular if $\empty \in F$), then we have the __[[improper filter]]__.  Compare [[proper subset]] and [[improper subset]].
 
 Filters are often assumed to be proper by default in analysis and topology, where proper filters correspond to [[nets]].  However, we will try to remember to include the adjective 'proper'.
 
