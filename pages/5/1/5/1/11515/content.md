@@ -15,7 +15,7 @@ On an [[algorithm]] for [[topological data analysis]] by a variant of [[Reeb gra
 
 On [[topological data analysis]]:
 
-* [[Gunnar Carlsson]], _Topology and data_, Bull. Amer. Math. Soc. 46 (2009), 255-308 ([doi:10.1090/S0273-0979-09-01249-X](https://doi.org/10.1090/S0273-0979-09-01249-X))
+* [[Gunnar Carlsson]], *Topology and data*, Bull. Amer. Math. Soc. **46** 2 (2009) 255-308 \[<a href="https://doi.org/10.1090/S0273-0979-09-01249-X">doi:10.1090/S0273-0979-09-01249-X</a>, slides:[pdf](https://www.stat.uchicago.edu/~lekheng/meetings/mmds/slides2008/carlsson.pdf), [[Carlsson-TopologyAndData.pdf:file]]\]
 
 and a flashy exposition for commercial use:
 
