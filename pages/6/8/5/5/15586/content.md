@@ -59,27 +59,39 @@ Nevertheless, the axiomatic treatment of 1963/66 also contained the seminal idea
 
 For Lawvere, ETCS and ETCC had a different status. The former provides abstract constant sets as convenient carriers for structured objects, whereas the latter provides the overall ontology of concepts, the intellectual working space.
 
-However, from an **n-categorical perspective**, the categories they axiomatize differ in level only, so it is tempting to think of the latter as a sort of [[categorification]] of the former: this suggests to posit an abstract concept of 'foundation' that, at the level of ETCS, shows up as set theory, gets refined to 'category theory' one step higher, then as 2-category theory, and so on.
+However, from an **n-categorical perspective**, the categories they axiomatize differ in level only, so it is tempting to think of the latter as a sort of [[categorification]] of the former.  This suggests to posit an abstract concept of 'foundation' that, at the level of ETCS, shows up as set theory, gets refined to 'category theory' one step higher, then as 2-category theory, and so on.  In addition, from this perspective it is more natural to axiomatize not the *category* of categories, but the *2-category* of categories.
 
-What comes closest to such a vision at the moment is probably [[homotopy type theory]] but truncating such a tower of 'foundations' might be still relevant for applications where concepts of [[2-topos|2-toposes]] are considered. It would also provide an axiomatisation for the 'familiar' meta 2-category CAT suggestive for the generalization to n-CAT.
+[Hughes and Miranda](#HM25) have axiomatized an *elementary theory of the 2-category of small categories* (ET2CSC), and proven that a 2-category $K$ satisfies these axioms if and only if it is of the form $Cat(E)$, the 2-category of [[internal categories]] in some category $E$ that satisfies [[ETCS]].  The axioms are:
 
-At this time, no such axiomatisation has been fully worked out, but in 2009 [[Mike Shulman|M. Shulman]] gave a rough sketch of what such an **elementary theory of the 2-category of categories** (ET2CC) should look like (see at at *[[formal category theory]]*):
+1. Exactness and projectivity conditions due to [Bourke](#Bourke) that ensure $K$ is of the form $Cat(E)$ for a category $E$ with pullbacks:
 
-> Firstly, some exactness axioms amounting to its being a "2-pretopos" in the sense I described here:[[michaelshulman:2-categorical logic]]. This gives you an "internal logic" like that of an ordinary (pre)topos.
-  
-> Secondly, the existence of certain exponentials (this is optional).
+   1. $K$ has [[pullbacks]] and [[powers]] by the [[interval category]].
+   2. $K$ has quotients of [[2-congruences]].
+   3. Codescent morphisms are effective.
+   4. [[discrete objects]] are [[projective object|projective]].
+   5. Every object admits a codescent morphism from a projective object.
 
-> Thirdly, the existence of a "classifying discrete opfibration" el&#8594;set in the sense introduced by [[Mark Weber]] ("Yoneda structures from 2-toposes") which serves as "the category of sets," and internally satisfies some suitable axioms.
+2. $K$ has a [[terminal object]].
 
-> Finally, a "well-pointedness" axiom saying that the terminal object is a generator, as is the case one level down within ETCS. This is what says you have a 2-category of categories, rather than (for instance) a 2-category of stacks.
+3. $K$ is [[cartesian closed]], as a 2-category.
 
-> Once you have all this, you can use finite 2-categorical limits and the "internal logic" to construct all the usual concrete categories out of the object "set".      ([Shulman 2009](#MO-CC))
+4. $K$ is [[well-pointed]], in an appropriate 2-categorical sense.
 
-We can see here how, at the end, Lawvere's idea of internal set-theoretic 'foundations' resurfaces. Such a level of _discreteness_ seems to be pervasive in this context. For instance, the approach of Przybylek (2014) to the concept of internal 2-cartesian closure takes discreteness as a starting point.
+5. $K$ has a [[natural numbers object]], in an appropriate 2-categorical sense.
 
-### Remark
+6. $K$ has a [[subobject classifier|classifier]] for [[fully faithful morphism|fully faithful]] [[monomorphisms]]
 
-Note that R. F. C. Walters and R. Street had already conceived of their work on [[Yoneda structure|Yoneda structures]] in the early 1970s as a 2-dimensional version of ETCC (cf. Walters [1971](#W71)).
+7. $K$ satisfies a suitable 2-categorical form of the [[axiom of choice]].
+
+These axioms are called an elementary theory of the 2-category of *small* categories because they do not include an *object* of $K$ playing the role of [[Set]].  A formal theory incorporating such an object has not been completely written down; one expects it to be the base of a [[michaelshulman:classifying discrete opfibration]], as introduced by [Weber](#Weber07), probably satisfying categorified forms of the axioms of [[algebraic set theory]].
+
+Given this, one may hope to use finite 2-categorical limits and the "internal logic" to construct all the usual concrete categories out of this object $Set$.  We can see here how, at the end, Lawvere's idea of internal set-theoretic 'foundations' resurfaces.
+
+Such a level of _discreteness_ seems to be pervasive in this context. For instance, the approach of [Przybylek](#Przybylek14) to the concept of internal 2-cartesian closure takes discreteness as a starting point.
+
+## Remarks
+
+R. F. C. Walters and R. Street had already conceived of their work on [[Yoneda structure|Yoneda structures]] in the early 1970s as a 2-dimensional version of ETCC (cf. Walters [1971](#W71)).
 
 ## Related entries
 
@@ -157,23 +169,25 @@ The unattainability of all the formal desiderata proposed by Feferman is discuss
 
 * M. Ernst, *The Prospects of Unlimited Category Theory: Doing What Remains to be Done*, Review Symbolic Logic **8** no.2 (2015) pp.306-327.
 
-The above remarks from [[Mike Shulman|M. Shulman]] come from the following MO discussion that also offers additional perspectives on the ETCC and the ET2CC:
+In the following MO discussion, [[Mike Shulman]] also offers additional perspectives on ETCC and ET2CC:
 
 * {#MO-CC}mathoverflow, *Category of categories as a foundation for mathematics*, December 2009 . ([link](http://mathoverflow.net/questions/9269/category-of-categories-as-a-foundation-of-mathematics))
 
-A worked-out ET2CSC (where the "S" stands for "small") can be found in
+The above worked-out ET2CSC (where the "S" stands for "small") can be found in
 
-* C. Hughes, A. Miranda, _The elementary theory of the 2-category of small categories_, arXiv:2403.03647 (2024). ([abstract](https://arxiv.org/abs/2403.03647)) 
+* {#HM25} C. Hughes, A. Miranda, _The elementary theory of the 2-category of small categories_, Theory and Applications of Categories, 2025, [link](http://tac.mta.ca/tac/volumes/43/8/43-08abs.html)
 
 See also
 
 * {#Blass84}[[Andreas Blass]], _The interaction of category theory and set theory_ , Cont. Math. **30** (1984) pp.5-29. ([draft](http://www.math.lsa.umich.edu/~ablass/interact.pdf))
 
+* {#Weber07} [[Mark Weber]], _Yoneda structures from 2-toposes_, Appl. Categ. Structures, 2007
+
 * [[Jim Lambek]], [[Phil Scott]], *Reflections on Categorical Foundations of Mathematics*, pp.171-185 in  Sommaruga (ed.), _Foundational Theories of Classical and Constructive Mathematics_,  Springer New York 2011. ([draft](https://www.site.uottawa.ca/~phil/papers/LS11.final.pdf)) {#LS11}
 
 * [[Colin McLarty|C. McLarty]], [[Andrei Rodin|A. Rodin]], _A Discussion between Colin McLarty and Andrei Rodin about Structuralism and Categorical Foundations of Mathematics_, n.d. ([pdf](http://canoe.ens.fr/~rodin/spip/IMG/pdf/colin.pdf))
 
-* M. R. Pryzbylek, _Logical systems I: Lambda calculi through discreteness_, arxiv:1306.3703v3 (2014). ([pdf](http://arxiv.org/pdf/1306.3703v3))
+* {#Pryzbylek14} M. R. Pryzbylek, _Logical systems I: Lambda calculi through discreteness_, arxiv:1306.3703v3 (2014). ([pdf](http://arxiv.org/pdf/1306.3703v3))
 
 * {#W71}[[Bob Walters]], _Yoneda 2Categories_ , talk at the University of New South Wales December 1971. ([manuscript](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/yoneda.pdf))
 
