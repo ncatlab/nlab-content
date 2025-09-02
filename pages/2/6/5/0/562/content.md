@@ -114,7 +114,7 @@ We say that a morphism $f$ is [[prefibered category|weakly cartesian]] if it has
 
 One can prove that $P$ is a fibration (Def. \ref{GrothendieckFibration}) if and only if firstly, it has the above property with "Cartesian" replaced by "weakly cartesian," and secondly, the composite of weakly cartesian arrows is weakly cartesian.  
 
-In a fibration, every weakly cartesian lifting $f$ of $Pf$ to $y$ is in fact cartesian (as one can show by combining the [[universal properties]] of $f$ and of a given cartesian lifting to $e$), but this is not true in general.  
+In a fibration, every weakly cartesian lifting $f$ of $P f$ to $y$ is in fact cartesian (as one can show by combining the [[universal properties]] of $f$ and of a given cartesian lifting to $e$), but this is not true in general.  
 
 Some sources say "cartesian" and "strongly cartesian" instead of "weakly cartesian" and "cartesian," respectively.  If weakly cartesian liftings exist but weakly cartesian arrows are *not* necessarily closed under composition, one sometimes speaks of a [[prefibered category]].
 \end{remark}
