@@ -69,5 +69,7 @@ on [[mathematical physics]].
 
       on [[Bloch-Floquet theory]] and [[electron band theory]]
 
+      &lbrack;[[ReedSimon-XIII16.pdf:file]]&rbrack;
+
 
 category: reference
