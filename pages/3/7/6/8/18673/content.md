@@ -67,7 +67,7 @@ This characterisation of $\ast$-autonomous algebras in terms of pseudo-Frobenius
 
 * {#DayStreet03} [[Brian Day]], [[Ross Street]], *Quantum categories, star autonomy, and quantum groupoids*, in: *Galois Theory, Hopf Algebras, and Semiabelian Categories*, Fields Institure Communications **43**, AMS (2004) 187-225 &lbrack;[arxiv:math/0301209](https://arxiv.org/abs/math/0301209), [ISBN:978-0-8218-3290-5](https://bookstore.ams.org/view?ProductCode=FIC/43)&rbrack;
  
-* {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;
+* {#Street04} [[Ross Street]], *Frobenius monads and pseudomonoids*, J. Math. Phys. **45** 3930 (2004) &lbrack;[doi:10.1063/1.1788852](https://doi.org/10.1063/1.1788852)&rbrack;  [pdf](http://www.maths.mq.edu.au/~street/Frob.pdf)
 
 * {#Lauda05} [[Aaron Lauda]], *Frobenius algebras and planar open string topological field theories*, 2005; [arxiv](https://arxiv.org/abs/math/0508349)
  
