@@ -52,9 +52,12 @@ Textbook account in [[semiconductor]]-theory:
 
 * [[Sheng San Li]], Section 4.3 of: *Semiconductor Physical Electronics*, Springer (2006) &lbrack;[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)&rbrack;
 
-In the context of [[topological phases of matter]]:
+Review in the context of [[topological phases of matter]]:
 
 * [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], Section IV.B of: *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 &lbrack;[arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5)&rbrack;
+
+* [[Alexander S. Sergeev]], Section 5.1.3 in: *Topological insulators and geometry of vector bundles*, SciPost Physics Lecture Notes **67** (2023) &lbrack;[arXiv:2011.05004](https://arxiv.org/abs/2011.05004), [doi:10.21468/SciPostPhysLectNotes.67](https://doi.org/10.21468/SciPostPhysLectNotes.67)&rbrack;
+
 
 See also:
 
