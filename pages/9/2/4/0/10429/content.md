@@ -186,7 +186,7 @@ Indeed, the [[dynamics]] of the [[electrons]] in graphene is "$T I$"-symmetric, 
 
 Textbook accounts:
 
-* Sanju Gupta, Avadh Saxena, *The Role of Topology in Materials*,  Springer Series in Solid-State Sciences **189**, 2018 ([doi:10.1007/978-3-319-76596-9](https://link.springer.com/book/10.1007/978-3-319-76596-9))
+* [[Sanju Gupta]], [[Avadh Saxena]] (eds.): *The Role of Topology in Materials*, Springer Series in Solid-State Sciences **189**, Springer (2018) &lbrack;[doi:10.1007/978-3-319-76596-9](https://link.springer.com/book/10.1007/978-3-319-76596-9)&rbrack;
 
 * {#Vanderbilt18} [[David Vanderbilt]],  *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
 
