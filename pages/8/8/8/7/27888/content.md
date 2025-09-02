@@ -23,56 +23,77 @@ The _Yang-Mills moduli space_ (short _YM moduli space_, also _instanton moduli s
 In four dimensions, important subspaces of the Yang-Mills moduli space are the _self-dual Yang-Mills moduli space_ (short _SDYM moduli space_, also _self-dual instanton moduli space_) of solutions of the [[self-dual Yang-Mills equations]] up to gauge and the _anti self-dual Yang-Mills moduli space_ (short _ASDYM moduli space_, also _anti self-dual instanton moduli space_) of solutions of the [[anti self-dual Yang-Mills equations]] up to gauge. See also [[D=4 Yang-Mills theory]] and [[self-dual Yang-Mills theory]].
 
 ## Definition
+ {#Definition}
 
-Let $G$ be a [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $\pi\colon P\twoheadrightarrow X$ be a [[principal bundle|principal $G$-bundle]] over a [[smooth manifold]] $X$, which automatically makes $P$ a [[smooth manifold]] as well. Let $Ad(P)\coloneqq P\times_G\mathfrak{g}$ be the [[adjoint bundle]], then the [[Yang-Mills equations]] as well as the (anti) self-dual Yang-Mills equations are formulated on the _configuration space_:
+Consider 
+
+* $G$ a [[Lie group]] 
+
+* with [[Lie algebra]] $\mathfrak{g}$,
+
+* $\pi\colon P\twoheadrightarrow X$ a smooth [[principal bundle|principal $G$-bundle]] 
+
+* over a [[smooth manifold]] $X$. 
+
+Write
+
 $$
-\mathcal{A}
-=\Omega^1(X,Ad(P))
-\cong\Omega_{Ad}^1(P,\mathfrak{g})
+  \mathcal{A}
+  \;\coloneqq\;
+  \Omega^1_{conn}(P;\mathfrak{g})
+  \;\subset\;
+  \Omega^1(P;\mathfrak{g})
+  \,,
 $$
-where the isomorphism requires a choice of local sections $s_i\colon U_i\hookrightarrow P$ for an open cover $(U_i)_{i\in I}\subset X$ (or alternatively a connection since the latter space is an affine vector space, which makes the isomorphism non-canonical) and is then given by:
+
+for the set of [[Lie algebra valued 1-forms|Lie algebra valued]] [[Ehresmann connection|Ehresmann]] [[connection on a principal bundle|connection]] [[differential 1-form|1-forms]] on $P$.
+
+This is an [[infinite-dimensional manifold|infinite-dimensional]] affine space, [[group action|acted on]] by the group of [[gauge transformations]]
+
 $$
-\Omega_{Ad}^1(P,\mathfrak{g})\xrightarrow\cong\Omega^1(X,Ad(P)),
-A\mapsto(s_i^*A)_{i\in I}.
+  \mathcal{G}
+  \;\coloneqq\; 
+  Aut(P)
+  \simeq
+  \Gamma\big(Ad(P)\big) 
 $$
-Since the configuration space is an infinite-dimensional [[vector space]], it is more difficult to handle. But also due to the group action on the [[principal bundle]], it is plausible to consider a [[group action]] on the configuration space with the following _gauge group_:
+
+with quotient 
+
 $$
-\mathcal{G}
-\coloneqq C^\infty(P,G)^G
-\cong C^\infty(X,G)
-\cong Aut(P)
+  \begin{array}{rcl}
+    \mathcal{A} 
+      &\xrightarrow{\phantom{--}[-]\phantom{--}}& 
+    \mathcal{A}/\mathcal{G}
+  \end{array}
 $$
-where the isomorphisms are given using the free and transitive action of $G$ on the fibers of $P$ (with $G$ as a superscript meaning the $G$-equivariant maps and which are canonical):
+
+The [[Yang-Mills equations]] $d_A \star F_A=0$, being [[gauge invariance|gauge invariant]], carve out a subspace of this quotient
+
 $$
-C^\infty(X,G)\xrightarrow\cong Aut(P),
-f\mapsto(p\mapsto p\cdot f(\pi(p)));
+  \mathcal{M}_P
+  \;\coloneqq\;
+  \big\{
+    [A] \in \mathcal{A}/\mathcal{G}
+    \,\big|\,
+   d_A\star F_A=0
+  \big\}.
 $$
-$$
-C^\infty(P,G)^G\xrightarrow\cong Aut(P),
-f\mapsto(p\mapsto p\cdot f(p)).
-$$
-A principal bundle automorphism $P\rightarrow P$ induces a vector bundle automorphism $Ad(P)\rightarrow Ad(P)$, causing the gauge group $\mathcal{G}$ to act free on the configuration space $\mathcal{A}$ and resulting in the [[orbit space]]:
-$$
-\mathcal{B}
-\coloneqq\mathcal{A}/\mathcal{G}.
-$$
-It can be shown that the [[Yang-Mills equations]] are gauge invariant and hence are formulated over just this orbit space. Its solution form the _Yang-Mills moduli space_:
-$$
-\mathcal{M}_P\colon
-\coloneqq\{[A]\in\mathcal{A}|d_A\star F_A=0\}.
-$$
+
 If $X$ is a [[4-manifold]], then [[D=4 Yang-Mills theory]] furthermore allows the definition of the _(anti) self-dual Yang-Mills moduli space_:
 $$
-\mathcal{M}_P^-
-=\mathcal{M}_P^\mathrm{ASD}\colon
-\coloneqq\{[A]\in\mathcal{A}|d_AF_A=-F_A\};
+  \mathcal{M}_P^{\pm}
+  \;=\;
+  \;\coloneqq\;
+  \big\{
+    [A] \in \mathcal{M}_P 
+    \;\big|\; 
+    \star F_A = \pm F_A
+  \big\}
+  \mathrlap{\,.}
 $$
-$$
-\mathcal{M}_P^+
-=\mathcal{M}_P^\mathrm{SD}\colon
-\coloneqq\{[A]\in\mathcal{A}|\star F_A=+F_A\}.
-$$
-There are canonical inclusions $\mathcal{M}_P^-,\mathcal{M}_P^+\hookrightarrow\mathcal{M}_P^+$. The intersection $\mathcal{M}_P^-\cap\mathcal{M}_P^+$ includes exactly the flat connections, the critical points of the [[Chern-Simons action functional]], and could therefore be refered to as _Chern-Simons moduli space_.
+
+
 
 ## Properties
 
