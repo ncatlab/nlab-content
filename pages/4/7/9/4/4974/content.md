@@ -40,11 +40,7 @@ Event structures with binary conflict can be characterised as follows:
 If $(E, \leq, \#)$ is an event structure with binary conflict, then defining $\mathrm{Con} = \{ X \subseteq E \mid \forall e, e' \in X. \neg (e \# e') \} $
 makes $(E, \leq, \Con)$ an event structure. 
 
-Conversely, given an event structure $(E, \leq, \mathrm{Con})$, define $\# = \{ (e, e') \mid \{ e, e'\} \notin \mathrm{Con} \}$, then, if $E$ satisfies
-\[ 
-\forall X \subseteq E. (\forall e, e' \in X. \neg (e \# e')) \implies X \in \mathrm{Con}
-\]
-then $(E, \leq, \#)$ an event structure with binary conflict. 
+Conversely, given an event structure $(E, \leq, \mathrm{Con})$, defining $\# = \{ (e, e') \mid \{ e, e'\} \notin \mathrm{Con} \}$ makes $(E, \leq, \#)$ an event structure with binary conflict. 
 \end{proposition}
 
 That is, event structures with binary conflict correspond to event structures in which pairwise consistency implies mutual consistency.  
