@@ -25,7 +25,7 @@ Specifically on [[n-truncated objects in an (infinity,1)-category|n-truncation]]
 
 * [[Nima Rasekh]], _An Elementary Approach to Truncations_ ([arXiv:1812.10527](https://arxiv.org/abs/1812.10527))
 
-Discussion of straightening and unstraightening for [[(∞,n)-categories]]:
+Discussion of [[straightening functor|straightening]] and unstraightening for [[(∞,n)-categories]]:
 
 * [[Lyne Moser]], [[Nima Rasekh]], [[Martina Rovelli]], _An (∞,n)-categorical straightening-unstraightening construction_ ([arXiv:2307.07259](https://arxiv.org/abs/2307.07259)).
 
