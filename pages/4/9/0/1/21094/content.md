@@ -78,6 +78,11 @@ Analogous discussion for [[phonons]]:
 
 * [[Clifford Cheung]], Maria Derda, Andreas Helset, Julio Parra-Martinez: *Soft Phonon Theorems*, J. High Energ. Phys. **2023** 103 (2023) &lbrack;[arXiv:2301.11363](https://arxiv.org/abs/2301.11363), <a href="https://doi.org/10.1007/JHEP08(2023)103">doi:10.1007/JHEP08(2023)103</a>&rbrack;
 
+See also:
+
+* Avi Wadhwa: *Soft Theorems in Chern-Simons Matter Theories* &lbrack;[arXiv:2509.02542](https://arxiv.org/abs/2509.02542)&rbrack;
+
+
 
 [[!redirects soft graviton theorems]]
 
