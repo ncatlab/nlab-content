@@ -84,9 +84,9 @@ Via [[KK-compactification]] on [[closed manifold|closed]] [[3-manifolds]] ([[Sei
 
 * [[Federico Bonetti]], [[Sakura Schäfer-Nameki]], Jingxiang Wu, *$MTC[M_3,G]$: 3d Topological Order Labeled by Seifert Manifolds* \[<a href="https://arxiv.org/abs/2403.03973">arXiv:2403.03973</a>\]
 
-* {#SS24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyons on M5-Probes of Seifert 3-Orbifolds]]* \[<a href="https://arxiv.org/abs/2411.16852">arXiv:2411.16852</a>\]
+* {#SS24} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Anyons on M5-Probes of Seifert 3-Orbifolds]]*, Letters in Mathematical Physics **115** 36 (2025) \[<a href="https://doi.org/10.1007/s11005-025-01918-z">doi:10.1007/s11005-025-01918-z</a>, <a href="https://arxiv.org/abs/2411.16852">arXiv:2411.16852</a>\]
 
-* {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]* &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
+* {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]*, SciPost Physics Lecture Notes (2025) \[<a href="https://arxiv.org/abs/2501.17927">arXiv:2501.17927</a>\]
 
 
 Via [[3-brane in 6d|3-brane]] [[defect branes|defects]]:
