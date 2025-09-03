@@ -65,6 +65,8 @@ The band geometry around the electron [[chemical potential]] of a material contr
 
 Textbook accounts:
 
+* [[Michael Reed]], [[Barry Simon]], around Fig. XIII.13 in: *Schrödinger operators with periodic potentials*, section XIII.16 of: *[[Methods of Modern Mathematical Physics]] -- IV: Analysis of Operators*, Academic Press (1978) &lbrack;[ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7), §XIII.16: [[ReedSimon-XIII16.pdf:file]]&rbrack;
+
 * [[Karlheinz Seeger]], Section 2 of: *Semiconductor Physics*, Advanced texts in physics, Springer (2004) $[$[doi:10.1007/978-3-662-09855-4](https://doi.org/10.1007/978-3-662-09855-4)$]$ 
 
 * [[Sheng San Li]], *Energy Band Theory*, in S. S. Li, (ed.): *Semiconductor Physical Electronics*, Springer (2006)  61-104 $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
