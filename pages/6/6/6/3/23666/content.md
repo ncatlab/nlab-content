@@ -67,20 +67,20 @@ Textbook accounts:
 
 * [[Michael Reed]], [[Barry Simon]], around Fig. XIII.13 in: *Schrödinger operators with periodic potentials*, section XIII.16 of: *[[Methods of Modern Mathematical Physics]] -- IV: Analysis of Operators*, Academic Press (1978) &lbrack;[ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7), §XIII.16: [[ReedSimon-XIII16.pdf:file]]&rbrack;
 
-* [[Karlheinz Seeger]], Section 2 of: *Semiconductor Physics*, Advanced texts in physics, Springer (2004) $[$[doi:10.1007/978-3-662-09855-4](https://doi.org/10.1007/978-3-662-09855-4)$]$ 
+* [[Karlheinz Seeger]], Section 2 of: *Semiconductor Physics*, Advanced texts in physics, Springer (2004) &lbrack;[doi:10.1007/978-3-662-09855-4](https://doi.org/10.1007/978-3-662-09855-4)&rbrack;
 
-* [[Sheng San Li]], *Energy Band Theory*, in S. S. Li, (ed.): *Semiconductor Physical Electronics*, Springer (2006)  61-104 $[$[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)$]$
+* [[Sheng San Li]], *Energy Band Theory*, in S. S. Li, (ed.): *Semiconductor Physical Electronics*, Springer (2006)  61-104 &lbrack;[doi:10.1007/0-387-37766-2_4](https://doi.org/10.1007/0-387-37766-2_4)&rbrack;
 
 Lecture notes:
 
-* [[David Tong]], Chapter 2 of: *Lectures on solid state physics* (2017) $[$[pdf](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf), [webpage](http://www.damtp.cam.ac.uk/user/tong/solidstate.html)$]$
+* [[David Tong]], Chapter 2 of: *Lectures on solid state physics* (2017) &lbrack;[pdf](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf), [webpage](http://www.damtp.cam.ac.uk/user/tong/solidstate.html)&rbrack;
 
 
 Account with focus on [[topological phases of matter]] ([[topological insulators]], [[semimetals]] etc.):
 
-* {#Vanderbilt18} [[David Vanderbilt]],  *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) ([doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205))
+* {#Vanderbilt18} [[David Vanderbilt]],  *Berry Phases in Electronic Structure Theory -- Electric Polarization, Orbital Magnetization and Topological Insulators*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781316662205](https://doi.org/10.1017/9781316662205)^rbrack;
 
-* [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 ([arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5))
+* [[Jérôme Cayssol]], [[Jean-Noël Fuchs]], *Topological and geometrical aspects of band theory*, J. Phys. Mater. **4** (2021) 034007 &lbrack;[arXiv:2012.11941](https://arxiv.org/abs/2012.11941), [doi:10.1088/2515-7639/abf0b5](https://doi.org/10.1088/2515-7639/abf0b5)&rbrack;
 
 See also:
 
@@ -98,10 +98,9 @@ Discussion of bands of [[metamaterials]] over [[hyperbolic spaces]] by a hyperbo
 
 The electronic band structure of [[graphene]] was predicted in
 
-* [[Philip Russel Wallace]], *The Band Theory of Graphite*, Phys. Rev. **71** (1947) 622 ([doi:10.1103/PhysRev.71.622](https://doi.org/10.1103/PhysRev.71.622))
+* [[Philip Russel Wallace]], *The Band Theory of Graphite*, Phys. Rev. **71** (1947) 622 &lbrack;[doi:10.1103/PhysRev.71.622](https://doi.org/10.1103/PhysRev.71.622)&rbrack;
 
-* Selberg trace formula in hyperbolic band theory
-Adil Attar, Igor Boettcher
+
 
 
 ### For interacting electrons
