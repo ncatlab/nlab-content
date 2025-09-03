@@ -45,8 +45,7 @@ The concept is named after:
 
 Textbooks on [[solid state physics]] traditionally speak of the "reciprocal lattice" (e.g. [Kittel 1953](solid+state+physics#Kittel53), [p. 27](http://metal.elte.hu/~groma/Anyagtudomany/kittel.pdf#page=47)) which is the dual lattice $Hom_{Grp}\big(\Lambda, \, \mathbb{Z} \big)$, e.g.:
 
-* [[Michael Reed]], [[Barry Simon]], p. 311 of: Sec. XIII.16 *Schrödinger operators with periodic potentials*, of:  *[[Methods of Modern Mathematical Physics]] -- IV: Analysis of Operators*, Academic Press (1978) 
-([ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7))
+* [[Michael Reed]], [[Barry Simon]], p. 311 of Sec. XIII.16: *Schrödinger operators with periodic potentials*, of:  *[[Methods of Modern Mathematical Physics]] -- IV: Analysis of Operators*, Academic Press (1978) &lbrack;[ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7), §XIII.16: [[ReedSimon-XIII16.pdf:file]]&rbrack;
 
 
 * {#Tong2017} [[David Tong]], [§2.2.2](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf#page=57) in: *Lectures on solid state physics* (2017) $[$[pdf](http://www.damtp.cam.ac.uk/user/tong/aqm/solidstate.pdf), [webpage](http://www.damtp.cam.ac.uk/user/tong/solidstate.html)$]$
