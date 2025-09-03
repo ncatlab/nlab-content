@@ -52,7 +52,7 @@ For this reason, in [[condensed matter theory]] "[[gapped Hamiltonians]]" are th
 
 See also: 
 
-* Wikipedia: <a href="https://en.wikipedia.org/wiki/Spectral_gap_(physics)">Spectral gap (physics)</a>
+* Wikipedia: *<a href="https://en.wikipedia.org/wiki/Spectral_gap_(physics)">Spectral gap (physics)</a>*
 
 On rigorous results about [[lattice field theory|lattice]]-models which remain gapped in the [[continuum limit]]:
 
@@ -63,6 +63,10 @@ On rigorous results about [[lattice field theory|lattice]]-models which remain g
 * [[Amanda Young]]: *On a bulk gap strategy for quantum lattice models*, Reviews in Mathematical Physics **36** 09 (2024) 2460007 &lbrack;[arXiv:2308.01405](https://arxiv.org/abs/2308.01405), [doi:10.1142/S0129055X24600079](https://doi.org/10.1142/S0129055X24600079)&rbrack;
 
 * [[Amanda Young]]: *Quantum Spin Systems* &lbrack;[arXiv:2308.07848](https://arxiv.org/abs/2308.07848), [spire:2688309](https://inspirehep.net/literature/2688309)&rbrack;
+
+Review:
+
+* [[Amanda Young]]: *Gap stability and the AKLT model on the hexagonal lattice*, talk at [QMATH16](https://sites.google.com/view/qmath16/home), Munich (2025) &lbrack;[[Young-GapStability.pdf:file]]&rbrack;
 
 
 [[!redirects spectral gaps]]
