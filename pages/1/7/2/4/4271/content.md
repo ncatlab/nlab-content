@@ -1,3 +1,5 @@
+> This entry is about the notion of state in [[physics]] For use in [[computer science]], see at _[[state monad]]_. 
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
