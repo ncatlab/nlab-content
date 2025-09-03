@@ -261,19 +261,18 @@ See also:
 * [[Juven Wang]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, Phys. Rev. Lett. **114** (2015) 031601 &lbrack;[arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [doi:10.1103/PhysRevLett.114.031601](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)&rbrack;
 
 
-* {#YangLiu18} Jian Yang, [[Zheng-Xin Liu]], *Irreducible Projective Representations and Their Physical Applications*, J. Phys. A: Math. Theor. **51** 025207 (2018) $[$[doi:10.1088/1751-8121/aa971a](https://doi.org/10.1088/1751-8121/aa971a), [arXiv:1605.05805](https://arxiv.org/abs/1605.05805)$]$
+* {#YangLiu18} Jian Yang, [[Zheng-Xin Liu]], *Irreducible Projective Representations and Their Physical Applications*, J. Phys. A: Math. Theor. **51** 025207 (2018) &lbrack;[doi:10.1088/1751-8121/aa971a](https://doi.org/10.1088/1751-8121/aa971a), [arXiv:1605.05805](https://arxiv.org/abs/1605.05805)&rbrack;
 
-* Yoshiko Ogata, *An invariant of symmetry protected topological phases with on-site finite group symmetry for two-dimensional Fermion systems* $[$[arXiv:2110.04672](https://arxiv.org/abs/2110.04672)$]$
-
+* [[Yoshiko Ogata]]: *An invariant of symmetry protected topological phases with on-site finite group symmetry for two-dimensional Fermion systems*,  Commun. Math. Phys. **395** (2022) 405–457 &lbrack;[doi:10.1007/s00220-022-04438-2](https://doi.org/10.1007/s00220-022-04438-2), [arXiv:2110.04672](https://arxiv.org/abs/2110.04672)&rbrack;
 
 
 #### Reviews
 
-* [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]] [[Shinsei Ryu]], *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** 035005 (2016) $[$[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)$]$
+* [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]] [[Shinsei Ryu]], *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** 035005 (2016) &lbrack;[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)&rbrack;
 
 * [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
 
-  Sec. 10 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) $[$[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)$]$
+  Sec. 10 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) &lbrack;[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)&rbrack;
 
 * [[Tudor D. Stanescu]], Section 4.1 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press (2020) &lbrack;[ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9780367574116)&rbrack;
 
