@@ -51,6 +51,10 @@ On [[Steven Weinberg]]:
 
 * [[Cliff P. Burgess]]: *Reminiscences about Steven Weinberg (This Time it's Personal)* &lbrack;[arXiv:2504.01118](https://arxiv.org/abs/2504.01118)&rbrack;
 
+On [[dark energy]] in [[cosmology]]) and its interplay with [[high energy physics]]:
+
+* [[Cliff P. Burgess]]: *Dark Energy and the Symbiosis Between Micro-physics and Cosmology (Naturally)* &lbrack;[arXiv:2509.00688](https://arxiv.org/abs/2509.00688)^rbrack;
+
 
 category: people
 
