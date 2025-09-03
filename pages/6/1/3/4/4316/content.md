@@ -186,6 +186,8 @@ The DHR superselection theory has a reformulation in terms of [[cohomology of lo
 
 ## Related entries
 
+* [[DHR category]]
+
 * [[Doplicher-Roberts reconstruction theorem]]
 
 
@@ -218,6 +220,7 @@ Discussion in the context of [[holographic entanglement entropy]]:
 
 
 [[!redirects DHR analysis]]
+[[!redirects DHR theory]]
 [[!redirects Doplicher-Haag-Roberts superselection theory]]
 [[!redirects Doplicher-Haag-Roberts superselection sector]]
 [[!redirects Doplicher-Haag-Roberts superselection sectors]]
