@@ -1,5 +1,5 @@
 
-Moritz Rahn (ne&eacute; Groth)
+Moritz Rahn (n&eacute; Groth)
 
 * [personal page](https://personen.uni-mainz.de/public/person/8032)
 
