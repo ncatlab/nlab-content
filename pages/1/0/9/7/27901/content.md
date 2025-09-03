@@ -10,9 +10,13 @@
 
 ## Selected writings
 
-Discussion of [[anyons]] via [[string-localized quantum field|string-localized]] [[algebraic quantum field theory]]:
+Discussion of [[anyon]] [[fusion categories]] via [[string-localized quantum field|string-localized]] [[DHR theory]]/[[algebraic quantum field theory]]:
+
+* [[Pieter Naaijkens]]: *Localized endomorphisms in Kitaev's toric code on the plane*, Rev. Math. Phys. **23** (2011) 347-373 \[<a href="https://doi.org/10.1142/S0129055X1100431X">doi:10.1142/S0129055X1100431X</a>, [arXiv:1012.3857](https://arxiv.org/abs/1012.3857)\]
 
 * [[Pieter Naaijkens]]: *Anyons in Infinite Quantum Systems -- QFT in $d=2+1$ and the Toric Code*, PhD thesis, Nijmegen (2012) \[<a href="https://repository.ubn.ru.nl/handle/2066/92737">hdl:2066/92737</a>, [pdf](https://repository.ubn.ru.nl/bitstream/handle/2066/92737/92737.pdf?sequence=1&isAllowed=y)\]
+
+* Matthew Cha, [[Pieter Naaijkens]], [[Bruno Nachtergaele]]: *On the stability of charges in infinite quantum spin systems*, Commun. Math. Phys. **373** (2020) 219–264 \[<a href="https://doi.org/10.1007/s00220-019-03630-1">doi:10.1007/s00220-019-03630-1</a>, [arXiv:1804.03203](https://arxiv.org/abs/1804.03203)\]
 
 
 On the [[Levin-Wen model]]:
