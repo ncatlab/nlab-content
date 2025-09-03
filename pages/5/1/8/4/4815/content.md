@@ -148,6 +148,9 @@ Introduction and review:
 
 * Federico Scali: *The cosmological constant problem: from Newtonian cosmology to the greatest puzzle of modern theoretical cosmology* &lbrack;[arXiv:2504.15358](https://arxiv.org/abs/2504.15358)&rbrack;
 
+* [[Cliff P. Burgess]]: *Dark Energy and the Symbiosis Between Micro-physics and Cosmology (Naturally)* &lbrack;[arXiv:2509.00688](https://arxiv.org/abs/2509.00688)^rbrack;
+
+
 
 Careful discussion in [[perturbative quantum gravity]]:
 
