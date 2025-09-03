@@ -44,7 +44,9 @@ For this reason, in [[condensed matter theory]] "[[gapped Hamiltonians]]" are th
 
 * [[Yang-Mills mass gap]]
 
+
 ## References
+ {#References}
 
 * Toby Cubitt, David Perez-Garcia, Michael M. Wolf: *Undecidability of the Spectral Gap*, Forum of Mathematics, Pi **10** (2022) e14 &lbrack;[doi:10.1017/fmp.2021.15](https://doi.org/10.1017/fmp.2021.15)&rbrack;
 
@@ -52,7 +54,7 @@ See also:
 
 * Wikipedia: <a href="https://en.wikipedia.org/wiki/Spectral_gap_(physics)">Spectral gap (physics)</a>
 
-On [[lattice field theory]]-models which remain gapped in the [[continuum limit]]:
+On rigorous results about [[lattice field theory|lattice]]-models which remain gapped in the [[continuum limit]]:
 
 * [[Simone Warzel]], [[Amanda Young]]: *A Bulk Spectral Gap in the Presence of Edge States for a Truncated Pseudopotential*,  Ann. Henri Poincaré **24** (2023) 133–178 &lbrack;[arXiv:2108.10794](https://arxiv.org/abs/2108.10794), [doi:10.1007/s00023-022-01210-z](https://doi.org/10.1007/s00023-022-01210-z)&rbrack;
 
