@@ -1,9 +1,9 @@
 
-* [personal page](https://sites.google.com/math.arizona.edu/amyoung)
+* [personal page](https://sites.google.com/math.arizona.edu/amyoung) (old)
 
-* [institute page](https://www.mcqst.de/about/members/amanda-young.html)
+* [institute page](https://math.illinois.edu/directory/profile/ayoung86) (Illinois)
 
-* [institute page](https://math.illinois.edu/directory/profile/ayoung86)
+* [institute page](https://www.mcqst.de/about/members/amanda-young.html) (Munich, old)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=xdLIYbAAAAAJ&hl=en)
 
@@ -24,6 +24,10 @@ On [[lattice field theory]]-models which remain [[spectral gap|gapped]] in the [
 and specifically for spin systems (as in: "[[spin chains]]"):
 
 * [[Amanda Young]]: *Quantum Spin Systems* &lbrack;[arXiv:2308.07848](https://arxiv.org/abs/2308.07848), [spire:2688309](https://inspirehep.net/literature/2688309)&rbrack;
+
+Review:
+
+* [[Amanda Young]]: *Gap stability and the AKLT model on the hexagonal lattice*, talk at [QMATH16](https://sites.google.com/view/qmath16/home), Munich (2025) &lbrack;[[Young-GapStability.pdf:file]]&rbrack;
 
 
 
