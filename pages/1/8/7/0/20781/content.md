@@ -21,7 +21,7 @@ These were used by Laures and McClure in their work on [[Quinn spectra]].
 The category of $n$-fold prisms is the $n$-fold [[product]]
 of the [[category of simplices]] $\Delta$.
 
-[[Presheaves]] on this category are known as $n$-fold multisimplicial sets.
+[[Presheaves]] on this category are known as $n$-fold multisimplicial sets. Special cases for low $n$ include [[sets]], [[simplicial sets]] and [[bisimplicial sets]].
 
 Restricting to injective maps of simplices,
 we get $n$-fold multisemisimplicial sets.
