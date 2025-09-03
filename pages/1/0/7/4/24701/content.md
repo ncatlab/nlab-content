@@ -35,7 +35,7 @@ The dependent type theory has many different names in the existing literature
 
 * *propositional type theory* (e.g. [Spadetto 2023](#Spadetto23))
 
-* *objective type theory* (e.g. [van der Berg & den Besten 2021](#BB21))
+* *objective type theory* (e.g. [van den Berg & den Besten 2021](#BB21))
 
 * *weak type theory* (e.g. [Winterhalter 2020](#Winterhalter20))
 
@@ -47,7 +47,7 @@ Propositional type theories come into two general versions, depending on how the
 
 * Dependent type theories which have a judgmental [[definitional equality]] (e.g. [Spadetto 2023](#Spadetto23)). 
 
-* Dependent type theories which do not have judgmental [[definitional equality]] (e.g. [van der Berg & den Besten 2021](#BB21)). 
+* Dependent type theories which do not have judgmental [[definitional equality]] (e.g. [van den Berg & den Besten 2021](#BB21)). 
 
 These two approaches differ in whether aliases of terms and types reduce to the original term or type, or are identified or equivalent to the original term or type. They each have their own advantages:
 
@@ -91,7 +91,7 @@ $$\mathrm{defisProp}_A:\mathrm{isProp}(A) \simeq \prod_{x:A} \prod_{y:A} \mathrm
 
 ## Formalizations and syntax
 
-In section 9 of [Winterhalter 2020](#Winterhalter20), [[Theo Winterhalter]] indicates that there are many ways to formalize [[dependent type theory]]. One important aspect is whether to use [[Russell universes]] or a separate [[type]] [[judgment]] to denote types. [van der Berg & den Besten 2021](#BB21) and [Spadetto 2023](#Spadetto23) for example both use [[Russell universes]] in their formal presentation of dependent type theory. 
+In section 9 of [Winterhalter 2020](#Winterhalter20), [[Theo Winterhalter]] indicates that there are many ways to formalize [[dependent type theory]]. One important aspect is whether to use [[Russell universes]] or a separate [[type]] [[judgment]] to denote types. [van den Berg & den Besten 2021](#BB21) and [Spadetto 2023](#Spadetto23) for example both use [[Russell universes]] in their formal presentation of dependent type theory. 
 
 In this section, we present two separate formalizations, the first using a [[universe hierarchy]] of [[Russell universes]] in the style of [UFP 13](#UFP13), and the second using a separate type judgment in the style of [Rijke 2022](#Rijke22), along with type variables to define identity types between types for explicit conversion. 
 
@@ -527,7 +527,7 @@ The fragment of propositional type theory consisting of only [[identity types]] 
 
 ## Open problems
 
-There are plenty of questions which are currently unresolved in propositional type theory. Van der Berg and Besten listed the following problems:
+There are plenty of questions which are currently unresolved in propositional type theory. [Van den Berg and den Besten](#BB21) listed the following problems:
 
 * Does [[univalence]] imply [[function extensionality]] for types in the universe in [[propositional type theory]]?
 
