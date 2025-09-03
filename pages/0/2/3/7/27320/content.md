@@ -54,7 +54,9 @@ See also:
 
 * Wikipedia: *<a href="https://en.wikipedia.org/wiki/Spectral_gap_(physics)">Spectral gap (physics)</a>*
 
-On rigorous results about [[lattice field theory|lattice]]-models which remain gapped in the [[continuum limit]]:
+On rigorous results about [[lattice field theory|lattice]] ([[spin chain|spin]]) models which remain gapped in the [[continuum limit]]:
+
+* [[Houssam Abdul-Rahman]], Marius Lemm, Angelo Lucia, [[Bruno Nachtergaele]], [[Amanda Young]],  *A class of two-dimensional AKLT models with a gap*, in: *Analytic Trends in Mathematical Physics*,  Contemporary Mathematics **741**,  AMS (2020) &lbrack;[arXiv:1901.09297](https://arxiv.org/abs/1901.09297), [doi:10.1090/conm/741/14917](https://doi.org/10.1090/conm/741/14917)&rbrack;
 
 * [[Simone Warzel]], [[Amanda Young]]: *A Bulk Spectral Gap in the Presence of Edge States for a Truncated Pseudopotential*,  Ann. Henri Poincaré **24** (2023) 133–178 &lbrack;[arXiv:2108.10794](https://arxiv.org/abs/2108.10794), [doi:10.1007/s00023-022-01210-z](https://doi.org/10.1007/s00023-022-01210-z)&rbrack;
 
