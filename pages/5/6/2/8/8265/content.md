@@ -10,6 +10,10 @@ On [[cosmic inflation]]:
 
 * [[Renata Kallosh]], [[Andrei Linde]]: *On the Present Status of Inflationary Cosmology* &lbrack;[arXiv:2505.13646](https://arxiv.org/abs/2505.13646)&rbrack;
 
+On the [[Starobinsky model of cosmic inflation]]:
+
+* [[Andrei Linde]]: *Alexei Starobinsky and Modern Cosmology* &lbrack;[arXiv:2509.01675](https://arxiv.org/abs/2509.01675)&rbrack;
+
 
 
 category: people
