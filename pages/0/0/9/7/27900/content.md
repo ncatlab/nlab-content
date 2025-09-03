@@ -15,6 +15,8 @@ On the [[Levin-Wen model]]:
 
 On [[lattice field theory]]-models which remain [[spectral gap|gapped]] in the [[continuum limit]]:
 
+* [[Houssam Abdul-Rahman]], Marius Lemm, Angelo Lucia, [[Bruno Nachtergaele]], [[Amanda Young]],  *A class of two-dimensional AKLT models with a gap*, in: *Analytic Trends in Mathematical Physics*,  Contemporary Mathematics **741**,  AMS (2020) &lbrack;[arXiv:1901.09297](https://arxiv.org/abs/1901.09297), [doi:10.1090/conm/741/14917](https://doi.org/10.1090/conm/741/14917)&rbrack;
+
 * [[Simone Warzel]], [[Amanda Young]]: *A Bulk Spectral Gap in the Presence of Edge States for a Truncated Pseudopotential*,  Ann. Henri Poincaré **24** (2023) 133–178 &lbrack;[arXiv:2108.10794](https://arxiv.org/abs/2108.10794), [doi:10.1007/s00023-022-01210-z](https://doi.org/10.1007/s00023-022-01210-z)&rbrack;
 
 * Angelo Lucia, [[Amanda Young]]: *A Nonvanishing Spectral Gap for AKLT Models on Generalized Decorated Graphs*, J. Math. Phys. **64** (2023) 041902 &lbrack;[arXiv:2212.11872](https://arxiv.org/abs/2212.11872), [doi:10.1063/5.0139706](https://doi.org/10.1063/5.0139706)&rbrack;
