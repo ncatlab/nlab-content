@@ -253,8 +253,9 @@ The discussion is analogous to that at [[differential string structure]]. To be 
 
 The local data for the [[∞-Lie algebra valued differential forms]] for the description of twisted differential fivebrane structures as above was given in 
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential string and fivebrane structures_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(?%2C1)-topos+--+references#SSSIII">web</a>)
-{#SSSIII}
+* {#SSSIII} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential string and fivebrane structures_. (2009). ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001)) ([doi](https://doi.org/10.1007/s00220-012-1510-3)).
+
+
 
 The full Cech-Deligne cocycles induced by this and their homotopy fibers were discussed in
 
