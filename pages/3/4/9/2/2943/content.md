@@ -58,8 +58,7 @@ Mathematically rigorous treatments:
 
 * Constantin Carathéodory, _Untersuchung über die Grundlagen der Thermodynamik_, Math. Annalen 67, 355-386
 
-
-* Elliott H. Lieb, Jakob Yngvason, _The Physics and Mathematics of the Second Law of Thermodynamics_, Phys.Rept. 310 (1999) 1-96 ([arXiv:cond-mat/9708200](https://arxiv.org/abs/cond-mat/9708200))
+* [[Elliott H. Lieb]], [[Jakob Yngvason]]: *The Physics and Mathematics of the Second Law of Thermodynamics*, Phys. Rept. **310** (1999) 1-96 &lbrack;[arXiv:cond-mat/9708200](https://arxiv.org/abs/cond-mat/9708200), <a href="https://doi.org/10.1016/S0370-1573(98)00082-9">doi:10.1016/S0370-1573(98)00082-9</a>&rbrack;
 
 * Elliott H. Lieb, Jakob Yngvason, _A Guide to Entropy and the Second Law of Thermodynamics_, Notices Amer. Math. Soc., 45, (1998) 571-581 ([arXiv:math-ph/9805005](https://arxiv.org/abs/math-ph/9805005))
 
