@@ -20,6 +20,11 @@ On [[foliations]]:
 
 * [[William Thurston]]: *Existence of codimension-one foliations*, Annals of Math. **104** (1976) 249-268 &lbrack;[jstor:1971047](https://www.jstor.org/stable/1971047), [doi:10.2307/1971047](https://doi.org/10.2307/1971047)&rbrack;
 
+and in relation to [[diffeomorphism groups]]:
+
+* [[William Thurston]]: *Foliations and Groups of Diffeomorphisms*, Bulletin of the AMS **80** 2 (1974) &lbrack;[pdf](https://scispace.com/pdf/foliations-and-groups-of-diffeomorphisms-8ti01j3mau.pdf), [[Thurston-FoliationsAndDiffeos.pdf:file]]&rbrack;
+
+
 
 On [[3-manifolds]] and their [[orbifolds]] (and introducing that terminology):
 
