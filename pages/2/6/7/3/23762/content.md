@@ -15,9 +15,13 @@ A model for the [[fractional quantum Hall effect]]:
 * [[F. Duncan M. Haldane]]: *Fractional Quantization of the Hall Effect: A Hierarchy of Incompressible Quantum Fluid States*, Phys. Rev. Lett. **51** (1983) 605 \[<a href="https://doi.org/10.1103/PhysRevLett.51.605">doi:10.1103/PhysRevLett.51.605</a>\]
 
 
-Introducing the "Haldane phase of the 1d spin chain", the first example of a [[symmetry protected topological phase]]:
+Observing what cane to be called the "[[Haldane gap phase]] of the antiferromagnetic integer [[Heisenberg spin chain|Heisenberg]] [[spin chain]] model,  the first example of a [[symmetry protected topological phase]]:
 
-* {#Haldane83} [[Duncan Haldane]], *Continuum dynamics of the 1-D Heisenberg antiferromagnet: Identification with the $O(3)$ nonlinear sigma model*, Physics Letters A **93** 9 (1983) 464-468 &lbrack;<a href="https://doi.org/10.1016/0375-9601(83)90631-X">doi:10.1016/0375-9601(83)90631-X</a>&rbrack;
+* [[F. Duncan M. Haldane]]: *Nonlinear Field Theory of Large-Spin Heisenberg Antiferromagnets: Semiclassically Quantized Solitons of the One-Dimensional Easy-Axis Néel State*, Phys. Rev. Lett. **50** (1983) 1153 &lbrack;[doi:10.1103/PhysRevLett.50.1153](https://doi.org/10.1103/PhysRevLett.50.1153)&rbrack;
+
+* {#Haldane83} [[Duncan Haldane]], *Continuum dynamics of the 1-D Heisenberg antiferromagnet: Identification with the $O(3)$ nonlinear sigma model*, Physics Letters A **93** 9 (1983) 464-468 \[<a href="https://doi.org/10.1016/0375-9601(83)90631-X">doi:10.1016/0375-9601(83)90631-X</a>\]
+
+* [[Duncan Haldane]]: *Ground State Properties of Antiferromagnetic Chains with Unrestricted Spin: Integer Spin Chains as Realisations of the $O(3)$ Non-Linear Sigma Model* &lbrack;[arXiv:1612.00076](https://arxiv.org/abs/1612.00076)&rbrack;
 
 Introducing the [[Haldane model]] and thereby predicting the [[quantum anomalous Hall effect]]:
 
