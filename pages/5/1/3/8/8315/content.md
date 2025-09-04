@@ -318,11 +318,13 @@ There are convenient software implementations for large-scale computations of ce
 
 ### General
 
-A standard textbook account is from p. 139 on in 
+Textbook accounts:
 
-*  [[Allen Hatcher]], _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, Cambridge Univ. Press 2002, 
+* {#Bredon93} [[Glen Bredon]], Section IV.10 of: *Topology and Geometry*, Graduate Texts in Mathematics **139**, Springer (1993) &lbrack;[doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)&rbrack;
 
-Lecture notes include
+*  [[Allen Hatcher]], pp. 139 _[Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, Cambridge Univ. Press (2002)
+
+Lecture notes:
 
 * Lisa Jeffrey, _Homology of CW-complexes and Cellular homology_ ([pdf](http://www.math.toronto.edu/~mat1300/oldnotes/cellular-homology.pdf))
 
