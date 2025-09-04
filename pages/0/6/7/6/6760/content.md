@@ -1,7 +1,13 @@
 
-Gray Gibbons is professor for theoretical [[physics]] at Cambridge.
+Gray Gibbons is professor for [[theoretical physics]] at Cambridge.
 
-* [webpage](http://www.damtp.cam.ac.uk/people/g.w.gibbons/)
+* [institute page](http://www.damtp.cam.ac.uk/people/g.w.gibbons/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Gary_Gibbons)
+
+* [inSpire page](https://inspirehep.net/authors/1008431)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=UcWVOwcAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -16,6 +22,12 @@ On [[Yang-Mills monopoles]]:
 On [[G₂-conifolds]]:
 
 * [[Gary Gibbons]], [[Don Page]], [[Christopher Pope]], _Einstein metrics on $S^3$, $\mathbb{R}^3$ and $\mathbb{R}^4$ bundles_, Comm. Math. Phys. Volume 127, Number 3 (1990), 529-553 ([euclid:cmp/1104180218](https://projecteuclid.org/euclid.cmp/1104180218))
+
+On [[electro-magnetic duality]]/[[S-duality]] in 4D [[DBI theory]], and variants:
+
+* [[Gary Gibbons]], D. A. Rasheed: *Electric-Magnetic Duality Rotations in Non-Linear Electrodynamics*, Nucl. Phys. B **454** 1-2 (1995) 185-206 &lbrack;[arXiv:hep-th/9506035](https://arxiv.org/abs/hep-th/9506035), <a href="https://doi.org/10.1016/0550-3213(95)00409-L">doi:10.1016/0550-3213(95)00409-L</a>&rbrack;
+
+* [[Gary Gibbons]], D. A. Rasheed: *$SL(2,\mathbb{R})$ Invariance of Non-Linear Electrodynamics Coupled to An Axion and a Dilaton*, Phys. Lett. B **365** 1-4 (1996) 46-50 &lbrack;[arXiv:hep-th/9509141](https://arxiv.org/abs/hep-th/9509141), <a href="https://doi.org/10.1016/0370-2693(95)01272-9">doi:10.1016/0370-2693(95)01272-9</a>&rbrack;
 
 
 On open [[M5-branes]] [[intersecting brane|intersecting]] [[M9-branes]] in a [[Yang monopole]]:
