@@ -615,6 +615,8 @@ Basic textbook accounts:
 
 * [[George Whitehead]], chapter II of _Elements of homotopy theory_, 1978
 
+* {#Bredon93} [[Glen Bredon]], Section IV.8-9 of: *Topology and Geometry*, Graduate Texts in Mathematics **139**, Springer (1993) &lbrack;[doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)&rbrack;
+
 * {#May} [[Peter May]], _[[A Concise Course in Algebraic Topology]]_, U. Chicago Press (1999) 
 
 * {#Hatcher02} [[Allen Hatcher]], *Algebraic Topology*, Cambridge University Press 2002 ([ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html))
