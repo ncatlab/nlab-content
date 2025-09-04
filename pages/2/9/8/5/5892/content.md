@@ -8,6 +8,9 @@ Yvonne Choquet-Bruhat (1923-2025)
 
 * Mihalis Dafermos: *Yvonne Choquet-Bruhat obituary*, Nature **642** 298 (2025) &lbrack;[doi:10.1038/d41586-025-01763-z](https://doi.org/10.1038/d41586-025-01763-z)&rbrack;
 
+* [[Thibault Damour]]: *Remembering Yvonne Choquet-Bruhat* &lbrack;[arXiv:2509.00597](https://arxiv.org/abs/2509.00597)&rbrack;
+
+
 ## Selected writings
 
 On [[analysis]] and [[differential geometry]] on [[smooth manifolds]] with application to [[mathematical physics]]:
