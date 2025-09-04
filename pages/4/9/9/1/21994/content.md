@@ -23,6 +23,11 @@ Application of [[conformal bootstrap]] to [[experiment|experimental]] [[superflu
 
   [[Slava Rychkov]], _Conformal bootstrap and the $\lambda$-point specific heat experimental anomaly_, Journal Club for Condensed Matter Physics recommendation 2020 ([pdf](https://www.condmatjclub.org/uploads/2020/01/JCCM_January_2020_02.pdf), [doi:10.36471/JCCM_January_2020_02](https://doi.org/10.36471/JCCM_January_2020_02))
 
+On the early history of the [[conformal bootstrap]]:
+
+* [[Slava Rychkov]]: *Conformal bootstrap: from Polyakov to our times* &lbrack;[arXiv:2509.02779](https://arxiv.org/abs/2509.02779)&rbrack;
+
+
 
 category: people
 
