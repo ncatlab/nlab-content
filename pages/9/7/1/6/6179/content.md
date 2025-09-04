@@ -206,13 +206,20 @@ According to ([Kapustin-Witten 06, pages 3-4](#KapustinWitten06)) the observaton
 
 * {#Atiyah77} [[Michael Atiyah]], private communication to [[Edward Witten]], 1977
 
-Discussion of the duality for abelian gauge theory ([[electromagnetism]]) is is
+Discussion of the duality for abelian gauge theory ([[electromagnetism]]):
 
 * [[Edward Witten]], _On S-duality in abelian gauge theory_ Selecta Mathematica, (2):383-410, 1995 ([arXiv:hep-th/9505186](http://arxiv.org/abs/hep-th/9505186))
 
 * Jose Barbon, _Generalized abelian S-duality and coset constructions_, Nuclear Physics B, 452(1):313-330, 1995 ([arXiv:hep-th/9506137](http://arxiv.org/abs/hep-th/9506137))
 
 * Gerald Kelnhofer, _Functional integration and gauge ambiguities in generalized abelian gauge theories_ J. Geom. Physics, 59:1017-1035, 200
+
+and for its non-linear [[DBI theory]]:
+
+* [[Gary Gibbons]], D. A. Rasheed: *Electric-Magnetic Duality Rotations in Non-Linear Electrodynamics*, Nucl. Phys. B **454** 1-2 (1995) 185-206 &lbrack;[arXiv:hep-th/9506035](https://arxiv.org/abs/hep-th/9506035), <a href="https://doi.org/10.1016/0550-3213(95)00409-L">doi:10.1016/0550-3213(95)00409-L</a>&rbrack;
+
+* [[Gary Gibbons]], D. A. Rasheed: *$SL(2,\mathbb{R})$ Invariance of Non-Linear Electrodynamics Coupled to An Axion and a Dilaton*, Phys. Lett. B **365** 1-4 (1996) 46-50 &lbrack;[arXiv:hep-th/9509141](https://arxiv.org/abs/hep-th/9509141), <a href="https://doi.org/10.1016/0370-2693(95)01272-9">doi:10.1016/0370-2693(95)01272-9</a>&rbrack;
+
 
 See also the references at _[[electro-magnetic duality]]_.
 
