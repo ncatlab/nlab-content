@@ -6,6 +6,11 @@
 
 ## Selected writings
 
+On the [[Nullstellensatz]]:
+
+* [[David Hilbert]]: *Über die vollen Invariantensysteme*, Mathematische Annalen **42** (1893) 313–373 &lbrack;[doi:10.1007/BF01444162](https://doi.org/10.1007/BF01444162), [doi:10.1007/978-3-642-52012-9_19](https://doi.org/10.1007/978-3-642-52012-9_19)&rbrack;
+
+
 On the mathematical foundations of [[quantum mechanics]]:
 
 * {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
