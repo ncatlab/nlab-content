@@ -395,13 +395,14 @@ Early account with an eye towards [[cobordism theory]] and the [[Pontrjagin-Thom
 
 Textbook accounts:
 
-* [[Georges de Rham]], Chapter I of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
-
 * {#MilnorStasheff74} [[John Milnor]], [[James Stasheff]], Section 1 of: _Characteristic Classes_, Annals of Mathematics Studies, Princeton University Press (1974) &lbrack;[ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76)&rbrack;
+
+* [[Georges de Rham]], Chapter I of: *Differentiable Manifolds -- Forms, Currents, Harmonic Forms*, Grundlehren **266**, Springer (1984) &lbrack;[doi:10.1007/978-3-642-61752-2](https://doi.org/10.1007/978-3-642-61752-2)&rbrack;
 
 * [[Yvonne Choquet-Bruhat]], [[Cécile DeWitt-Morette]], *Analysis, manifolds and physics*, North Holland (1982, 2001) &lbrack;[ISBN:9780444860170](https://www.elsevier.com/books/analysis-manifolds-and-physics-revised-edition/choquet-bruhat/978-0-444-86017-0)&rbrack;
   > (with an eye towards [[mathematical physics]])
 
+* {#Bredon93} [[Glen Bredon]], Chapter II of: *Topology and Geometry*, Graduate Texts in Mathematics **139**, Springer (1993) &lbrack;[doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)&rbrack;
 
 * {#KolarSlovakMichor93} [[Ivan Kolar]], [[Jan Slovak]], [[Peter Michor]]: _Natural operations in differential geometry_ (1993, 1999) &lbrack;[web](http://www.emis.de/monographs/KSM/)&rbrack;
 
