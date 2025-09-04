@@ -251,6 +251,8 @@ In terms of [[current (distribution theory)|currents]]:
 
 Textbook accounts:
 
+* {#Bredon93} [[Glen Bredon]], Chapter IV of: *Topology and Geometry*, Graduate Texts in Mathematics **139**, Springer (1993) &lbrack;[doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)&rbrack;
+
 * {#Hatcher02} [[Allen Hatcher]], §2 in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 
