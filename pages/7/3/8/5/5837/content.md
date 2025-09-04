@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,6 +24,13 @@ The _diffeomorphism group_ $Diff(X)$ of a [[smooth manifold]] $X$ is the [[group
 
 Beware that when $X$ is assumed [[orientable]] then sometimes, but not always, $Diff(X)$ is implicitly taken to be the group of orientation-preserving diffeomorphisms. 
 
+In this vein if $X$ carries further [[extra structure]] then one considers groups of diffeomorphisms which are [[automorphism]] preserving that extra structure. For instance 
+
+*  if $X$ is a [[G-manifold]] then one considers its *equivariant diffeomorphism group*, 
+
+* if $X$ carries the structure of a [[Riemannian manifold]] then one considers its *[[isometry group]]*, 
+
+etc.
 
 
 ## Properties
@@ -248,14 +256,38 @@ $$
 If $X$ is Seifert via an $S^1$-action, then the component of $Diff(X)$ are typically $\Pi(S^1)$-s.
 
 
+## Related entries
+
+* [[diffeomorphism]]
+
+* [[general covariance]]
+
+* [[isometry group]]
+
 
 ## References
 
-### Smooth structure
+### General
 
-The observation that infinite-dimensional  [[smooth groups]] such as diffeomorphism groups (and [[quantomorphism groups]] etc.) are naturally regarded as [[internal groups]] in [[diffeological spaces]] -- [[diffeological groups]] -- is due to
+Textbook accounts:
 
-* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
+* [[Augustin Banyaga]]: *The Structure of Classical Diffeomorphism Groups*,  Mathematics and Its Applications **400**, Springer (1997) &lbrack;[doi:10.1007/978-1-4757-6800-8](https://doi.org/10.1007/978-1-4757-6800-8)&rbrack;
+
+Further survey:
+
+* {#Hatcher12} [[Alan Hatcher]], _A 50-Year View of Diffeomorphism Groups_, talk at the 50th Cornell Topology Festival (May 2012) &lbrack;[pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf), [[HatcherDiffeomorphismReview.pdf:file]]&rbrack;
+
+Discussion in the context of [[foliations]] (and proof that the [[connected component]] of the diffeomorphism group of a [[closed manifold|closed]] [[smooth manifold]] is [[simple group|simple]]):
+
+* [[William Thurston]]: *Foliations and Groups of Diffeomorphisms*, Bulletin of the AMS **80** 2 (1974) &lbrack;[pdf](https://scispace.com/pdf/foliations-and-groups-of-diffeomorphisms-8ti01j3mau.pdf), [[Thurston-FoliationsAndDiffeos.pdf:file]]&rbrack;
+
+* [[Sam Nariman]]: *Foliations and diffeomorphism groups*, Notices of the AMS **71** 11 (2024) &lbrack;[arXiv:2401.04047](https://arxiv.org/abs/2401.04047), [doi:10.1090/noti3080](https://doi.org/10.1090/noti3080),  [pdf](https://www.ams.org/notices/202411/rnoti-p1471.pdf)&rbrack;
+
+
+
+The original observation that infinite-dimensional  [[smooth groups]] such as diffeomorphism groups (and [[quantomorphism groups]] etc.) are naturally regarded as [[internal groups]] in [[diffeological spaces]] -- [[diffeological groups]]:
+
+* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. **836**, Springer (1980) 91-128. &lbrack;[MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688)&rbrack;
 
 
 ### For 2-manifolds (surfaces)
@@ -294,8 +326,6 @@ See also:
 * J. S. Dowker, *Note on the structure constants for the diffeomorphisms of the two-sphere* &lbrack;[arXiv:2301.09487](https://arxiv.org/abs/2301.09487)&rbrack;
 
 
-
-
 ### For 3-manifolds
 
 * {#Cerf} J. Cerf, _Sur les diff&#233;omorphismes de la sph&#232;re de dimension trois ($\Gamma_4 = 0$)_, Lecture Notes in Math., vol. 53, Springer-Verlag, Berlin and New York, 1968_
@@ -320,13 +350,18 @@ For 4-manifolds the analogue of the Smale conjecture fails:
 * {#Watanabe18} [[Tadayuki Watanabe]], *Some exotic nontrivial elements of the rational homotopy groups of $Diff(S^4)$* ([arXiv:1812.02448](https://arxiv.org/abs/1812.02448))
 
 * {#Watanabe21} [[Tadayuki Watanabe]], *Addendum to: Some exotic nontrivial elements of the rational homotopy groups of $Diff(S^4)$ (homological interpretation)* ([arXiv:2109.01609](https://arxiv.org/abs/2109.01609))
-
   > (via  [[graph complexes]])
 
+### Equivariant diffeomorphisms
+ {#EquivariantDiffeomorphisms}
 
-### General
+On the further generality of [[equivariant map|equivariant]] diffeomorphisms between [[G-manifolds]]:
 
-* {#Hatcher12} [[Alan Hatcher]], _A 50-Year View of Diffeomorphism Groups_, talk at the 50th Cornell Topology Festival in May 2012 ([pdf](http://www.math.cornell.edu/~hatcher/Papers/Diff%28M%292012.pdf), [[HatcherDiffeomorphismReview.pdf:file]])
+* [[Augustin Banyaga]]: *On the structure of the group of equivariant diffeomorphisms*, Topology **16** 3 (1977) 279-283 \[<a href="https://doi.org/10.1016/0040-9383(77)90009-X">doi:10.1016/0040-9383(77)90009-X</a>\]
+
+* Kōjun Abe, Kazuhiko Fukui: *On the structure of the group of equivariant diffeomorphisms of G-manifolds with codimension one orbit*, Topology **40** 6 (2001) 1325-1337 &lbrack;<a href="https://doi.org/10.1016/S0040-9383(00)00014-8">doi:10.1016/S0040-9383(00)00014-8</a>&rbrack;
+
+* Kojun Abe, Kazuhiko Fukui: *The first homology of the group of equivariant diffeomorphisms and its application*, Journal of Topology **1**2 (2008) &lbrack;[arXiv:math/0703320](https://arxiv.org/abs/math/0703320), [doi:10.1112/jtopol/jtn008](https://doi.org/10.1112/jtopol/jtn008)&rbrack;
 
 
 
