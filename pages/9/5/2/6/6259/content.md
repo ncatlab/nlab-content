@@ -405,12 +405,13 @@ Further discussion:
 
 * [[Dominik Rist]], [[Christian Saemann]], Miro van der Worp: *Towards an M5-Brane Model III: Self-Duality from Additional Trivial Fields*,  J. High Energ. Phys. **2021** 36 (2021) &lbrack;<a href=" https://doi.org/10.1007/JHEP06(2021)036">doi:10.1007/JHEP06(2021)036</a>, [arXiv:2012.09253](https://arxiv.org/abs/2012.09253)&rbrack;
 
-
 * {#ACDGMNRT22}  [[Laura Andrianopoli]], [[C. A. Cremonini]], [[Riccardo D'Auria]], [[Pietro A. Grassi]], [[Riccardo Matrecano]], [[Ruggero Noris]], [[Lucrezia Ravera]], [[Mario Trigiante]], *M5-brane in the superspace approach*, Phys. Rev. D **106** 2 (2022) 026010 &lbrack;[arXiv:2206.06388](https://arxiv.org/abs/2206.06388), [doi:10.1103/PhysRevD.106.026010](https://doi.org/10.1103/PhysRevD.106.026010)&rbrack;
   > (lifted to [[superspace]] in the [[D'Auria-Fré-Regge formulation of supergravity]])
 
 * [[Chris Hull]], [[Neil Lambert]]: *Quantising Chiral Bosons On Riemann Surfaces* &lbrack;[arXiv:2508.02865](https://arxiv.org/abs/2508.02865)&rbrack;
 
+* Aviral Aggarwal, Subhroneel Chakrabarti, Madhusudhan Raman: *Monopoles, Clarified* &lbrack;[arXiv:2504.16673](https://arxiv.org/abs/2504.16673)&rbrack;
+  > (in relation to [[magnetic monopoles]])
 
 
 
@@ -439,7 +440,12 @@ Further discussion:
 [[!redirects higher self-dual gauge field]]
 [[!redirects higher self-dual gauge field]]
 
+[[!redirects self-dual gauge theory]]
+[[!redirects self-dual gauge theories]]
+
 [[!redirects self-dual field theory]]
+
+
 
 [[!redirects chiral boson]]
 [[!redirects chiral bosons]]
