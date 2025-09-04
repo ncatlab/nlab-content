@@ -26,7 +26,7 @@ On the [[spin-statistics theorem]] via [[hermitian functorial field theory]]:
 
 * [[Lukas Müller]], [[Luuk Stehouwer]], _Reflection Structures and Spin Statistics in Low Dimensions_ &lbrack;[arXiv:2301.06664](https://arxiv.org/abs/2301.06664)&rbrack;
 
-* [[Cameron Krulewski]], [[Lukas Müller]], [[Luuk Stehouwer]]: *A Higher Spin Statistics Theorem for Invertible Quantum Field Theories* &lbrack;[arXiv:2408.03981](https://arxiv.org/abs/2408.03981)&rbrack;
+* [[Cameron Krulewski]], [[Lukas Müller]], [[Luuk Stehouwer]]: *A Higher Spin Statistics Theorem for Invertible Quantum Field Theories*, Commun. Math. Phys. **406** (2025) 230 &lbrack;[arXiv:2408.03981](https://arxiv.org/abs/2408.03981), [doi:10.1007/s00220-025-05405-3](https://doi.org/10.1007/s00220-025-05405-3)&rbrack;
 
 Introducing a notion of [[dagger n-categories|dagger $n$-categories]]:
 
