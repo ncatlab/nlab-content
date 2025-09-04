@@ -43,9 +43,30 @@
 
 ### General
 
-The original articles:
+The original articles on the [[Heisenberg spin chain]] model:
 
-* [[Hans Bethe]], _Zur Theorie der Metalle_, Z. Phys.71, 205 (1931) ([doi:10.1007/BF01341708](https://doi.org/10.1007/BF01341708))
+* [[Werner Heisenberg]]: *Zur Theorie des Ferromagnetismus*, Zeitschrift für Physik **49** (1928) 619–636 (1928) &lbrack;[doi:10.1007/BF01328601](https://doi.org/10.1007/BF01328601)&rbrack;
+
+* [[Hans Bethe]]: _Zur Theorie der Metalle_, Zeitschrift für Physik **71** (1931) 205 &lbrack;[doi:10.1007/BF01341708](https://doi.org/10.1007/BF01341708)&rbrack;
+
+Extension to the AKLT model:
+
+* [[Ian Affleck]], Tom Kennedy, [[Elliott H. Lieb]], Hal Tasaki: *Rigorous results on valence-bond ground states in antiferromagnets*, Phys. Rev. Lett. **59** (1987) 799 &lbrack;[doi:10.1103/PhysRevLett.59.799](https://doi.org/10.1103/PhysRevLett.59.799)&rbrack;
+
+Observation of the "Haldan gap phase" in antiferromagnetic integer Heisenberg spin chains (and relation to the [[SO(3) sigma-model]]):
+
+* [[F. Duncan M. Haldane]]: *Nonlinear Field Theory of Large-Spin Heisenberg Antiferromagnets: Semiclassically Quantized Solitons of the One-Dimensional Easy-Axis Néel State*, Phys. Rev. Lett. **50** (1983) 1153 &lbrack;[doi:10.1103/PhysRevLett.50.1153](https://doi.org/10.1103/PhysRevLett.50.1153)&rbrack;
+
+* {#Haldane83} [[Duncan Haldane]], *Continuum dynamics of the 1-D Heisenberg antiferromagnet: Identification with the $O(3)$ nonlinear sigma model*, Physics Letters A **93** 9 (1983) 464-468 \[<a href="https://doi.org/10.1016/0375-9601(83)90631-X">doi:10.1016/0375-9601(83)90631-X</a>\]
+
+* [[Duncan Haldane]]: *Ground State Properties of Antiferromagnetic Chains with Unrestricted Spin: Integer Spin Chains as Realisations of the $O(3)$ Non-Linear Sigma Model* &lbrack;[arXiv:1612.00076](https://arxiv.org/abs/1612.00076)&rbrack;
+
+* T. Jolicoeur, Olivier Golinelli: *Physics of integer-spin antiferromagnetic chains: Haldane gaps and edge states*, Comptes Rendus Chimie **22** (2019) 445-451 &lbrack;[doi:10.1016/j.crci.2019.05.005](https://doi.org/10.1016/j.crci.2019.05.005), [arXiv:1906.12207](https://arxiv.org/abs/1906.12207)&rbrack;
+
+
+Discussion of [[symmetry protected topological phases]]:
+
+* Pierre Fromholz, Philippe Lecheminant, *Symmetry-protected topological phases in the $SU(N)$ Heisenberg spin chain: a Majorana-fermion approach*, Phys. Rev. B **102** 094410 (2020) &lbrack;[arXiv:2006.13553](https://arxiv.org/abs/2006.13553), [doi:10.1103/PhysRevB.102.094410](https://doi.org/10.1103/PhysRevB.102.094410)&rbrack;
 
 
 Review:
@@ -56,10 +77,15 @@ Review:
 
 * [[Amanda Young]]: *Quantum Spin Systems* &lbrack;[arXiv:2308.07848](https://arxiv.org/abs/2308.07848), [spire:2688309](https://inspirehep.net/literature/2688309)&rbrack;
 
+See also:
+
+* Wikipedia: *[Quantum Heisenberg model](https://en.wikipedia.org/wiki/Quantum_Heisenberg_model)*
+
+* Wikipedia: *[AKLT model](https://en.wikipedia.org/wiki/AKLT_model)*
+
 Relation to [[tensor networks]]:
 
 * Mari Carmen Banuls, Michal P. Heller, Karl Jansen, Johannes Knaute, Viktor Svensson, _From spin chains to real-time thermal field theory using tensor networks_ ([arXiv:1912.08836](https://arxiv.org/abs/1912.08836))
-
 
 
 Claim of [[supersymmetry|supersymmetric]] [[spin chains]] carrying [[braid group representations]] ("[[anyons]]"):
@@ -117,3 +143,6 @@ Analogous spin chain aspects claimed to appear in [[D=6 N=(2,0) SCFT]]:
 
 
 [[!redirects spin chains]]
+
+[[!redirects AKLT model]]
+[[!redirects AKLT models]]
