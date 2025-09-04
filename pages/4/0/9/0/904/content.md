@@ -346,6 +346,9 @@ Historical origins:
 
 Textbook accounts: 
 
+* {#Bredon93} [[Glen Bredon]], Section III of: *Topology and Geometry*, Graduate Texts in Mathematics **139**, Springer (1993) &lbrack;[doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)&rbrack;
+
+
 * {#AGP02} [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], Section 2.5 of: _Algebraic topology from a homotopical viewpoint_, Springer (2002) &lbrack;[doi:10.1007/b97586](https://doi.org/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)&rbrack;
 
 
