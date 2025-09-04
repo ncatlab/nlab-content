@@ -154,6 +154,10 @@ Discussion of monopole [[correlators]]:
 
 * {#Iqbal14} [[Nabil Iqbal]], _Monopole correlations in holographically flavored liquids_, Phys. Rev. D 91, 106001 (2015) ([arXiv:1409.5467](https://arxiv.org/abs/1409.5467))
 
+On electro-magnetodynamics with monopoles as a [[self-dual gauge theory]]:
+
+* Aviral Aggarwal, Subhroneel Chakrabarti, Madhusudhan Raman: *Monopoles, Clarified* &lbrack;[arXiv:2504.16673](https://arxiv.org/abs/2504.16673)&rbrack;
+
 
 [[!redirects monopoles]]
 
