@@ -4,12 +4,17 @@ Juli Lasarevitsch Rabinowitsch (Юлий Лазаревич Рабинович) 
 
 [MathOverflow discussion](https://mathoverflow.net/questions/416577/identity-of-j-l-rabinowitsch-of-rabinowitsch-trick).
 
+
 ## Related concepts
 
 * [[Rabinowitsch trick]]
 
 ## Selected papers
 
-On the [[Rabinowitsch trick]] in [[Nullstellensatz]]:
+On the [[Rabinowitsch trick]] in the context of the [[Nullstellensatz]]:
 
-* [[J. L. Rabinowitsch]], _Zum Hilbertschen Nullstellensatz_, Mathematische Annalen 102:1 (1930), 520-520.  [DOI](https://doi.org/10.1007/bf01782361).
+* [[Juli L. Rabinowitsch]]: *Zum Hilbertschen Nullstellensatz*, Mathematische Annalen **102** 1 (1930) 520-520 &lbrack;[doi:10.1007/bf01782361](https://doi.org/10.1007/bf01782361)&rbrack;
+
+[[!redirects Juli Lasarevitsch Rabinowitsch]]
+[[!redirects Juli L. Rabinowitsch]]
+[[!redirects Juli Rabinowitsch]]
