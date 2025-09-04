@@ -607,7 +607,7 @@ The notion of foliated manifolds was introduced in the 1950s, motivated from [[p
 
 * Reeb, ...
 
-* [[Eli Cartan]], _Sur l'int&#233;gration des &#233;quations diff&#233;rentiels completement int&#233;grable_, Oeuvres Compl&#232;tes, Pt. II, Vol. I, 555-561.
+* [[Élie Cartan]], _Sur l'int&#233;gration des &#233;quations diff&#233;rentiels completement int&#233;grable_, Oeuvres Compl&#232;tes, Pt. II, Vol. I, 555-561.
 
 Early discussion:
 
@@ -616,6 +616,12 @@ Early discussion:
 * [[William Thurston]]: *The theory of foliations of codimension greater than one*, Comm. Math. Helv. **49** (1974) 214-231 &lbrack;[eudml:139581](https://eudml.org/doc/139581), [doi:10.1007/BF02566730](https://doi.org/10.1007/BF02566730)&rbrack;
 
 * [[William Thurston]]: *Existence of codimension-one foliations*, Annals of Math. **104** (1976) 249-268 &lbrack;[jstor:1971047](https://www.jstor.org/stable/1971047), [doi:10.2307/1971047](https://doi.org/10.2307/1971047)&rbrack;
+
+and in relation to [[diffeomorphism groups]]:
+
+* [[William Thurston]]: *Foliations and Groups of Diffeomorphisms*, Bulletin of the AMS **80** 2 (1974) &lbrack;[pdf](https://scispace.com/pdf/foliations-and-groups-of-diffeomorphisms-8ti01j3mau.pdf), [[Thurston-FoliationsAndDiffeos.pdf:file]]&rbrack;
+
+* [[Sam Nariman]]: *Foliations and diffeomorphism groups*, Notices of the AMS **71** 11 (2024) &lbrack;[arXiv:2401.04047](https://arxiv.org/abs/2401.04047), [doi:10.1090/noti3080](https://doi.org/10.1090/noti3080),  [pdf](https://www.ams.org/notices/202411/rnoti-p1471.pdf)&rbrack;
 
 
 
