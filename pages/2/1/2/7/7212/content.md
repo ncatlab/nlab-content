@@ -48,6 +48,10 @@ On prediction of [[gravitational wave]] profiles emitted by [[black hole]] [[rel
 
 * {#Damour19} [[Thibault Damour]], _On the gravitational interaction of spinning bodies_, talk at _[Souriau2019](http://souriau2019.fr/?page_id=2)_  ([video recording](https://www.youtube.com/watch?v=8HO3DLKircs))
 
+On [[Yvonne Choquet-Bruhat]]:
+
+* [[Thibault Damour]]: *Remembering Yvonne Choquet-Bruhat* &lbrack;[arXiv:2509.00597](https://arxiv.org/abs/2509.00597)&rbrack;
+
 
 
 
