@@ -48,6 +48,10 @@ provide, via [[AdS/CFT]], a precise and detailed construction of [[large-N limit
 
 * Pedro Liendo, Zhengwen Liu, Junchen Rong, *The old conformal bootstrap revisited* ([arXiv:2108.07295](https://arxiv.org/abs/2108.07295))
 
+On the early history:
+
+* [[Slava Rychkov]]: *Conformal bootstrap: from Polyakov to our times* &lbrack;[arXiv:2509.02779](https://arxiv.org/abs/2509.02779)&rbrack;
+
 See also:
 
 * Wikipedia, _[Conformal bootstrap](https://en.wikipedia.org/wiki/Conformal_bootstrap)_
