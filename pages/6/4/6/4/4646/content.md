@@ -9,9 +9,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -337,11 +336,11 @@ Barrett originally had something very similar but slightly different. With Caeta
 
 Discussion in terms of local functorial data that lends itself to generalization to [[higher parallel transport]] is given in
 
-* [[Urs Schreiber]], [[Konrad Waldorf]], _Parallel Transport and Functors_, J. Homotopy Relat. Struct. **4** (2009) 187-244 &lbrack;[arXiv:0705.0452](https://arxiv.org/abs/0705.0452)&rbrack;
+* [[Urs Schreiber]], [[Konrad Waldorf]]: _Parallel Transport and Functors_, J. Homotopy Relat. Struct. **4** (2009) 187-244 &lbrack;[arXiv:0705.0452](https://arxiv.org/abs/0705.0452), [JHRS:n1a10](https://www.emis.de/journals/JHRS/volumes/2009/n1a10/abstract.htm), [pdf](https://tcms.org.ge/Journals/JHRS/xvolumes/2009/n1a10/v4n1a10hl.pdf)&rbrack;
 
 A quick proof that bundles with connections are encoded in their parallel transport along paths was noted in 
 
-* [[Florin Dumitrescu]], _Connections and Parallel Transport_, Journal of Homotopy and Related Structures **5** 1 (2010) 171–175 &lbrack;[arXiv:0903.0121](http://arxiv.org/abs/0903.0121)&rbrack;
+* [[Florin Dumitrescu]]: _Connections and Parallel Transport_, Journal of Homotopy and Related Structures **5** 1 (2010) 171–175 &lbrack;[arXiv:0903.0121](http://arxiv.org/abs/0903.0121), [pdf](https://tcms.org.ge/Journals/JHRS/xvolumes/2010/n1a10/v5n1a10.pdf)&rbrack;
 
 For more see the references at *[[connection on a bundle]]*.
 
