@@ -501,7 +501,7 @@ in higher dimensions with at its 'bottom end', the crossed module,
 with $\partial$ induced from the boundary in the Moore complex.
 
 The category of [[crossed complexes]] form a variety in the category of all [[hypercrossed complexes]]. Alternatively, groupoid T-complexes (the groupoid version of [[group T-complex]]) form
-a variety in the category of all simplicial groups.
+a variety in the category of all simplicial groupoids.
 
 
 ## Related concepts
