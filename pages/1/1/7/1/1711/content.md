@@ -229,11 +229,15 @@ _Toby_:  That works too.  (Well, I don\'t like 'categorical', but that\'s a sepa
 
   * [[modification]]
 
-## References for the globular approach
+## References
 
 * [[Camell Kachour]], D&#233;finition alg&#233;brique des cellules non-strictes, Cahiers de Topologie et de G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;gorique (2008), volume 1, pages 1&#8211;68. ([pdf](https://www.numdam.org/article/CTGDC_2008__49_1_1_0.pdf))
 
 * [[Camell Kachour]]: Steps toward the Weak &#969;-category of the Weak &#969;-categories in the globular setting, Published Categories and General Algebraic Structures with Applications (2015). ([pdf](https://cgasa.sbu.ac.ir/article_11180_b13cacfd9afe5780932141c269d0add6.pdf))
+
+* [[Sjoerd Crans]]. "Localizations of Transfors". *K-Theory* v. 28, n. 1 (January, 2003): 39-105. ([doi](http://dx.doi.org/10.1023/A:1024186923002)).
+
+* [[Sjoerd Crans]]. *A Tensor Product for Gray-Categories*. Theory and Applications of Categories, Vol. 5, No. 2, , pp. 12–69. ([web](http://www.tac.mta.ca/tac/volumes/1999/n2/5-02abs.html)). ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n2/n2.pdf)).
 
 
 
