@@ -482,9 +482,9 @@ A generalization to [[extranatural transformations]]:
 
 See also:
 
-* [[Camell Kachour]]: *Définition algébrique des cellules non-strictes*, [[Cahiers]] de Topologie et de Géométrie Différentielle Catégorique **1** (2008) 1-68.
+* [[Camell Kachour]]: *Définition algébrique des cellules non-strictes*, [[Cahiers]] de Topologie et de Géométrie Différentielle Catégorique **1** (2008) 1-68 &lbrack;[numdam:CTGDC_2008__49_1_1_0](https://www.numdam.org/item/?id=CTGDC_2008__49_1_1_0), [pdf](https://www.numdam.org/article/CTGDC_2008__49_1_1_0.pdf)&rbrack;
 
-* [[Camell Kachour]]: *Steps toward the Weak $\omega$-category of the Weak $\omega$-categories in the globular setting*, Categories and General Algebraic Structures with Applications (2015)
+* [[Camell Kachour]]: *Steps toward the weak higher category of the weak higher categories in the globular setting*, Categories and General Algebraic Structures with Applications **4** 1 (2016) 9-42 &lbrack;[cgasa:11180](https://cgasa.sbu.ac.ir/article_11180.html), [pdf](https://cgasa.sbu.ac.ir/article_11180_b13cacfd9afe5780932141c269d0add6.pdf)&rbrack;
 
 [[!redirects pseudonatural transformation]]
 [[!redirects pseudonatural transformations]]
