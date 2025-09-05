@@ -16,7 +16,7 @@
 
 ## Idea
 
-A __pseudonatural transformation__ is a kind of [[homomorphism]] between [[parallel morphisms|parallel]] [[2-functors]]: a a [[lax natural transformation]] whose [[2-morphism]] components are all [[equivalence|invertible]].  
+A __pseudonatural transformation__ is a kind of [[homomorphism]] between [[parallel morphisms|parallel]] [[2-functors]]: a [[lax natural transformation]] whose [[2-morphism]] components are all [[equivalence|invertible]].  
 
 
 ## Definition
@@ -33,10 +33,10 @@ a *pseudonatural transformation*
 $$
  \eta \colon F \Rightarrow G
 $$ 
-is a [[function]] from [[1-morphisms]] of $\mathcal{X}$ to [[vertical composition|vertically]] [[invertible morphism|invertible]] [[2-morphisms]] of $\mathcal{Y}$, of the form
+consists of a function from objects of $\mathcal{X}$ to [[1-morphisms]] of $\mathcal{Y}$, and a function from [[1-morphisms]] of $\mathcal{X}$ to [[vertical composition|vertically]] [[invertible morphism|invertible]] [[2-morphisms]] of $\mathcal{Y}$, of the form
 
 \begin{tikzcd}
-    X_1
+    x_1
     \ar[
       dd,
       "{ f }"{description}
@@ -288,7 +288,7 @@ $$=$$
     ]
     \ar[
       rr,
-      "{ \eta(x_1) }"{description}
+      "{ \eta(x) }"{description}
     ]
     &&
     G(x)
@@ -320,7 +320,7 @@ $$=$$
     F(x)
     \ar[
       rr,
-      "{ \eta(x_2) }"{description}
+      "{ \eta(x) }"{description}
     ]
     &&
     G(x)
@@ -394,7 +394,7 @@ for all pairs of composable [[1-morphisms]] $x_1 \xrightarrow{f} x_2 \xrightarro
       "{ \eta(x_3) }"{description}
     ]
     &&
-    G(X_3)
+    G(x_3)
   \end{tikzcd}
 $$=$$
   \begin{tikzcd}[
@@ -447,12 +447,12 @@ $$=$$
       "{ \eta(x_3) }"{description}
     ]
     &&
-    G(X_3)
+    G(x_3)
   \end{tikzcd}
 
 \end{definition}
 
-Such a pseudonatural transformation is called a **pseudonatural equivalence** if each component $\eta(x)$ is an [[equivalence]] in the 2-category $C$.  This is equivalent to $\phi$ itself being an equivalence in the [[2-functor 2-category]] $[\mathcal{X},\mathcal{Y}]$ of [[2-functors]], pseudonatural transformations between these, and [[modifications]] between those.
+Such a pseudonatural transformation is called a **pseudonatural equivalence** if each component $\eta(x)$ is an [[equivalence]] in the 2-category $\mathcal{Y}$.  This is equivalent to $\eta$ itself being an equivalence in the [[2-functor 2-category]] $[\mathcal{X},\mathcal{Y}]$ of [[2-functors]], pseudonatural transformations between these, and [[modifications]] between those.
 
 ## Related concepts
 
