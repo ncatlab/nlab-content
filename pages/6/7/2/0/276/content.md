@@ -14,29 +14,25 @@
 =--
 
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
 
 
 ## Idea
 
-A _crossed complex_ (of [[groupoid|groupoids]]) is a nonabelian and [[horizontal categorification|many object]] generalization of a [[chain complex]] of [[abelian group|abelian groups]].
+_Crossed complexes_ (of [[groupoids]]) are a nonabelian and [[horizontal categorification|many object]] generalization of [[chain complexes]] of [[abelian groups]].
 
-Crossed complexes are an equivalent way to encode the information contained in [[strict ∞-groupoids]]: the groups appearing in the crossed complex in degree $n \geq 2$ are the source-fibers of the collection of $n$-morphisms of the $\omega$-groupoid.
+Crossed complexes are also an equivalent encoding of [[strict ∞-groupoids]]: the groups appearing in the crossed complex in degree $n \geq 2$ are the [[source]]-[[fibers]] of the collection of [[n-morphism|$n$-morphisms]] of the strict $\infty$-groupoid, which are [[groupoid action|acted on]] by the [[fundamental groupoid]] in degrees $\leq 1$.
 
-See also [[homotopy n-type]]. 
 
-One way to think of a crossed complex is as a chain complex in which the bottom part is a crossed module and the rest is a chain complex of modules over the fundamental group of the crossed complex (that is its cokernel).  This is easy to think of in the case where there is a single object (*crossed complex of groups*), and it is a simple step to extend to the many object case.
 
-Later on we will look in a bit more detail at the fundamental crossed complex of a filtered space, and that is a good example to keep in mind.  For simplicity assume we have a CW-complex, or similar space, together with a filtration by some nice subspaces.  We have the fundamental groupoid, $\Pi_1(X_1,X_0)$, of the '1-skeleton' based at the vertices. For any vertex $x$, we then have $\pi_2(X_2,X_1,x)$, the relative homotopy group of the 2-dimensional stuff relative to the 1-dimensional stuff, based at $x$.  Varying $x$ we get a family of groups which we think of as a groupoid having just vertex groups without any arrows joining distinct vertices. In the next dimension we have $\pi_3(X_3,X_2,x)$, which is the relative homotopy group taking account of the 3-cells modulo the 2-cells, (which is abelian), and so on. Change of base point gives an action of  $\Pi_1(X_1,X_0)$ on all of these. It was studying these groups , actions etc. that gave the abstract definition that follows.
+
+Later on we will look in a bit more detail at the fundamental crossed complex of a filtered space, and that is a good example to keep in mind.  For simplicity assume we have a [[CW-complex]], or similar space, together with a filtration by some nice subspaces.  We have the [[fundamental groupoid]], $\Pi_1(X_1,X_0)$, of the '1-skeleton' based at the vertices. For any vertex $x$, we then have $\pi_2(X_2,X_1,x)$, the relative homotopy group of the 2-dimensional stuff relative to the 1-dimensional stuff, based at $x$.  Varying $x$ we get a family of groups which we think of as a groupoid having just vertex groups without any arrows joining distinct vertices. In the next dimension we have $\pi_3(X_3,X_2,x)$, which is the relative homotopy group taking account of the 3-cells modulo the 2-cells, (which is abelian), and so on. Change of base point gives an action of  $\Pi_1(X_1,X_0)$ on all of these. It was studying these groups , actions etc. that gave the abstract definition that follows.
 
 ## Definition
 
 ### As sequences of groups and groupoids {#SequencesOfGroups}
 
-+-- {: .un_defn}
-###### Definition
+\begin{definition}
 
 A **crossed complex** ("of groupoids") $C$ is 
 
@@ -67,27 +63,27 @@ $$
  \end{array}
 $$
 
-* together with an [[action]] of $C_1$ on $C_k$ for $k \geq 0$
+* together with a [[groupoid action]] of $C_1$ on all $C_k$,
 
 such that
 
-* the morphisms $\delta_k$ for $k \geq 2$ are morphisms of groupoids over $C_0$, compatible with the action by $C_1$
+* the morphisms $\delta_k$ for $k \geq 2$ are [[homomorphisms]] of [[groupoids]] ([[functors]]) over $C_0$, compatible with the action by $C_1$,
 
-* $im(\delta_2) \subset C_1$ acts by conjugation on $C_2$ and trivially on $C_k$ for $k \geq 3$
+* $im(\delta_2) \subset C_1$ acts by [[conjugation action|conjugation]] on $C_2$ and [[trivial action|trivially]] on $C_k$ for $k \geq 3$,
 
 * $\delta_{k-1} \circ \delta_k = 0$ for $k \geq 3$.
 
-There is an obvious notion of [[morphism|morphisms]] $f : C \to D$ of crossed complexes, being sequences of maps $(f_k : C_k \to D_k)$ preserving all the above structure. The resulting [[category]] is often denoted $Crs$ or $CrsCpx$. 
+There is an obvious notion of [[morphisms]] $f \colon C \to D$ of crossed complexes, being sequences of maps $(f_k \colon C_k \to D_k)$ preserving all the above structure. The resulting [[category]] is often denoted $Crs$ or $CrsCpx$. 
 
-=--
+\end{definition}
 
 
 ### From strict $\infty$-groupoids
 
-While the above definition of a crossed complex may seem slightly 'baroque', it can naturally be understood as being precisely the data obtained from a [[globular set|globular]] [[strict ∞-groupoid]] by retaining for $k \geq 2$ precisely only those [[k-morphism|k-morphisms]] whose source is a an identity $k-1$-morphisms on an object.
+While the above definition of a crossed complex may seem slightly "baroque", it can naturally be understood as being precisely the data obtained from a [[globular set|globular]] [[strict ∞-groupoid]] by retaining for $k \geq 2$ precisely only those [[k-morphisms]] whose [[source]] is a an [[identity morphism|identity]] $k-1$-morphisms on an [[object]].
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(crossed complex associated to a strict $\infty$-groupoid)**
 
@@ -129,7 +125,7 @@ the corresponding crossed complex $[\mathcal{G}]$ is defined as follows:
 
 * The [[action]] of $[\mathcal{G}]_1$ on $[\mathcal{G}]_k$ is given by [[whiskering]]/[[conjugation]] of [[k-morphism|k-morphisms]] by 1-morphisms in $\mathcal{G}$. 
 
-* The boundary maps $\delta := t : [\mathcal{G}]_{k} \to [\mathcal{G}]_{k-1}$ are the restrictions of the target maps $t : \mathcal{G}_k \to \mathcal{G}_{k-1}$, sending a $k$-morphisms with source an identity on an object to its target $k-1$-morphism.
+* The boundary maps $\delta \coloneqq t \colon [\mathcal{G}]_{k} \to [\mathcal{G}]_{k-1}$ are the restrictions of the target maps $t \colon \mathcal{G}_k \to \mathcal{G}_{k-1}$, sending a $k$-morphisms with source an identity on an object to its target $k-1$-morphism.
 
 
 =--
@@ -212,14 +208,14 @@ Recall the definition of the [semidirect product groupoid](#AdjointModule)  $\ma
 For $A$ a [[chain complex]] of [[modules over a groupoid]] $\mathcal{H}$, let $\Theta A \in Crs$ be the [[crossed complex]]
 
 $$
-  \Theta A := \kappa^* \Theta' A
+  \Theta A \coloneqq \kappa^* \Theta' A
   \,,
 $$
 
 where
 
 $$
-  \Theta' A :=
+  \Theta' A \coloneqq
   \left[
     A_n 
       \stackrel{\partial_n}{\to}
@@ -238,7 +234,7 @@ $$
 and where 
 
 $$
-  \kappa : P(A_0, \mathcal{H}) \to \mathcal{H} \ltimes A_0
+  \kappa \colon P(A_0, \mathcal{H}) \to \mathcal{H} \ltimes A_0
 $$
 
 is the [canonical covering morphism](#AdjointModule) from above.
@@ -271,7 +267,7 @@ $$
 Here $\mathcal{H} \ltimes A_1$ acts on $A_n$ for $n \geq 2$ via the projection $\mathcal{H} \ltimes A_1 \to \mathcal{H}$, i.e. $A_1$ acts trivially.
 (...)
 
-Finally set $\Theta(A)_0 := A_0$.
+Finally set $\Theta(A)_0 \coloneqq A_0$.
 
 =--
 
@@ -339,7 +335,7 @@ These form a pair of [[adjoint functor|adjoint functors]]
 
 $$
   (\nabla \dashv \Theta)
-  : 
+  \colon 
   Chn
   \stackrel{\overset{\nabla}{\leftarrow}}{\underset{\Theta}{\to}}
   Crs
@@ -386,7 +382,7 @@ $$
 and take the action of this groupoid on all $C_k$ to be trivial. This yields a functor
 
 $$
-  \theta : ChainCplx(Ab) \to CrsCpl
+  \theta \colon ChainCplx(Ab) \to CrsCpl
 $$
 
 that embeds chain complexes of abelian groups into crossed complexes. 
@@ -396,16 +392,16 @@ that embeds chain complexes of abelian groups into crossed complexes.
 The embedding of chain complexes of abelian groups into crossed complexes generalizes to an embedding of chain complexs of [[modules over a groupoid]]
 
 $$
-  \theta : ChainCplx(GrpdMod) \to CrsCplx
+  \theta \colon ChainCplx(GrpdMod) \to CrsCplx
   \,.
 $$
 
-For details see _[[Nonabelian Algebraic Topology]]_, [section 7.4.v](#http://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology#CrsFromCh).
+For details see _[[Nonabelian Algebraic Topology]]_, [section 7.4.v](Nonabelian+Algebraic+Topology#CrsFromCh).
 
 
 ### Fundamental crossed complex
 
-If $X_*$ is a [[filtered space]], there is a crossed complex $\Pi X_*$ -- the [fundamental crossed complex](http://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology#FundamentalCrossedComplex) which corresponds to a (filtered and) [[strict ∞-groupoid]] version of the [[fundamental ∞-groupoid]] of $X$. In degree 1 it is the subgroupoid $\Pi_1(X_1,X_0)$ of the [[fundamental groupoid]] $\Pi_1(X_1)$ of $X_1$ on objects in $X_0$. 
+If $X_*$ is a [[filtered space]], there is a crossed complex $\Pi X_*$ -- the [fundamental crossed complex](Nonabelian+Algebraic+Topology#FundamentalCrossedComplex) which corresponds to a (filtered and) [[strict ∞-groupoid]] version of the [[fundamental ∞-groupoid]] of $X$. In degree 1 it is the subgroupoid $\Pi_1(X_1,X_0)$ of the [[fundamental groupoid]] $\Pi_1(X_1)$ of $X_1$ on objects in $X_0$. 
 In degree $n \gt 1$ it is the family of [[relative homotopy group|relative homotopy groups]] $\{\pi_n(X_n,X_{n-1},p) : p\in X_0\}$.  
 
 This gives a functor $\Pi$ from filtered spaces to crossed complexes, which may be used to construct the generalisation of the [[Dold-Kan correspondence]], which in this case goes between crossed complexes and [[simplicial T-complex|simplicial T-complexes]].  
@@ -483,7 +479,7 @@ $D = (D_n)_{n\geq 1}$ is the graded subgroup of $G$ generated by the degenerate 
 Conversely, for any crossed complex, $C$, there is a simplicial group, $K(C)$, constructed using an analogue of the inverse in the [[Dold-Kan correspondence]], which is a group $T$-complex and whose Moore complex is isomorphic to $C$.
 
 The generalisation to general crossed complexes (of groupoids) and simplicially enriched groupoids
-is quite easy to do. We will usually state results below for the group case, leaving the general case to the 'reader'.
+is quite easy to do. We will usually state results below for the group case, leaving the general case to the reader.
 
 
 ## From simplicial group(oid)s to crossed complexes
