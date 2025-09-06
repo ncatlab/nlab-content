@@ -15,7 +15,7 @@
 
 ## Idea
 
-A no-go theorem is generally understood to be any theorem, usually in theoretical physics, that shows that an idea is not possible even though it may appear as if it should be. Many no-go theorems include hidden, implicit assumptions.
+By a *no-go theorem* one generally means (commonly so in [[theoretical physics]]) a [[theorem]] which shows that some approach is not possible even though it may appear as if it should be. In practice, since no-go theorems typically depend on assumptions, they often serve to bring out key loopholes in common arguments.
 
 Examples of no-go theorems in [[theoretical physics]] include
 
@@ -39,4 +39,10 @@ in [[supergravity]]:
 
 * [no ekpyrotic cosmology (?)](ekpyrotic+cosmology#ReferencesEmbeddingIntoStringTheory)
 
+## Related concepts
+
+[[!include mathematical statements --- contents]]
+
+
 [[!redirects no-go theorems]]
+
