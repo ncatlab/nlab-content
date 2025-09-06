@@ -14,10 +14,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -25,7 +23,7 @@ By *adiabatic quantum computation* one means models of [[quantum computation]] o
 
 Often the term *adiabatic quantum computation* is used by default for [[optimization theory|optimization]] problems ("[[quantum annealing]]", see the references [below](#QuantumAnnealingReferences)).
 
-On the other hand, the possibly most prominent example of adiabatic quantum computation is often not advertized as such (but see [CLBFN 2015](#CLBFN15)), namely [[topological quantum computation]] by adiabatic [[braid group|braiding]] of [defect anyons](braid+group+statistics#AsBraidingOfDefects) (whose positions is the external parameter, varying in a [[configuration space of points]]). This is made explicit in [Freedman, Kitaev, Larsen & Wang 2003, pp. 6](#FreedmanKitaevLarsenWang03); [Nayak, Simon, Stern & Freedman 2008, §II.A.2 (p. 6)](#NayakSimonSternFreedman08); and [Cheng, Galitski & Das Sarma 2011, p. 1](#ChengGalitskiDasSarma11); see also [Arovas, Schrieffer, Wilczek & Zee 1985, p. 1](#ArovasSchriefferWilczekZee85) and [Stanescu 2020, p. 321](#Stanescu20); [Barlas & Prodan 2020](#BarlasProdan20).
+On the other hand, the possibly most prominent example of adiabatic quantum computation is often not advertized as such (but see [CLBFN 2015](#CLBFN15)), namely [[topological quantum computation]] by adiabatic [[braid group|braiding]] of [defect anyons](braid+group+statistics#AsBraidingOfDefects) (whose positions is the external parameter, varying in a [[configuration space of points]]). This is made explicit in [Freedman, Kitaev, Larsen & Wang 2003, pp. 7](#FreedmanKitaevLarsenWang03); [Nayak, Simon, Stern & Freedman 2008, §II.A.2 (p. 6)](#NayakSimonSternFreedman08); and [Cheng, Galitski & Das Sarma 2011, p. 1](#ChengGalitskiDasSarma11); see also [Arovas, Schrieffer, Wilczek & Zee 1985, p. 1](#ArovasSchriefferWilczekZee85) and [Stanescu 2020, p. 321](#Stanescu20); [Barlas & Prodan 2020](#BarlasProdan20).
 
 
 \begin{imagefromfile}
@@ -166,7 +164,7 @@ References which make explicit that [[topological quantum computation]] by [[bra
 
 * [Childs, Farhi & Preskill (2002), p. 2](#ChildsFarhiPreskill02)
 
-* {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], pp. 6 of *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003) 31-38 &lbrack;[arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf)&rbrack;
+* {#FreedmanKitaevLarsenWang03} [[Michael Freedman]], [[Alexei Kitaev]], [[Michael Larsen]], [[Zhenghan Wang]], pp. 7 of *Topological quantum computation*,  Bull. Amer. Math. Soc. __40__ (2003) 31-38 &lbrack;[arXiv:quant-ph/0101025](https://arxiv.org/abs/quant-ph/0101025), [doi:10.1090/S0273-0979-02-00964-3](https://doi.org/10.1090/S0273-0979-02-00964-3), [pdf](http://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00964-3/S0273-0979-02-00964-3.pdf)&rbrack;
 
 * {#BonesteelHormoziZikosSimon05} [[Nicholas E. Bonesteel]], [[Layla Hormozi]], [[Georgios Zikos]], [[Steven H. Simon]], p. 1 of: *Braid Topologies for Quantum Computation*, Phys. Rev. Lett. **95** 140503 (2005) &lbrack;[arXiv:quant-ph/0505065](https://arxiv.org/abs/quant-ph/0505065), [doi:10.1103/PhysRevLett.95.140503](https://doi.org/10.1103/PhysRevLett.95.140503)&rbrack;
 
