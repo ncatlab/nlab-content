@@ -17,6 +17,7 @@
 \tableofcontents
 
 
+
 ## Idea 
 
 The **Gray tensor product** is a "better" replacement for the cartesian product of [[strict 2-categories]] with respect to [[pseudonatural transformations]].  To get the idea it suffices to consider the 2-category $\mathbf{2}$ which has two objects, 0 and 1, one non-identity morphism $0\to 1$, and no nonidentity 2-cells. Then the cartesian product $\mathbf{2}\times\mathbf{2}$ is a commuting square, while the Gray tensor product $\mathbf{2}\otimes\mathbf{2}$ is a square which commutes up to isomorphism.
@@ -99,7 +100,7 @@ given by (...).
 First of all: 
 
 \begin{proposition}
-The Gray tensor product (eq:GrayTensorAsFunctor) makes $2Cat$ (eq:2Cat) into a [[symmetric monoidal category|symmetric]] [[monoidal category]]
+The Gray tensor product (eq:GrayTensorAsFunctor) makes $2Cat$ (eq:2Cat) into a [[symmetric monoidal category|symmetric]] [[monoidal category]] with [[tensor unit]] the [[terminal category|terminal]] [[2-category]] $\ast$ (hence a *[[semicartesian monoidal category]]*):
 
 \[
   \label{2CatAsAMonoidalCategory}
@@ -113,6 +114,7 @@ The Gray tensor product (eq:GrayTensorAsFunctor) makes $2Cat$ (eq:2Cat) into a [
 \end{proposition}
 
 (cf. [Johnson & Yau 2020, Thm. 12.2.23](#JohnsonYau20))
+
 
 As such, the characteristic property of the Gray tensor product is that: 
 
@@ -147,22 +149,50 @@ $$
 
 Prop. \ref{HomIsomorphism} says that the [[symmetric monoidal category]] $(2Cat, \otimes_{Gray}, \ast)$ (eq:2CatAsAMonoidalCategory) is in a fact [[closed monoidal category|closed]], hence is a [[symmetric closed monoidal category]] (with tensor product being the Gray tensor and) with [[internal hom]] given by $Ps(-,-)$ (eq:Ps).
 
+
 ### Further properties
 
 \begin{proposition}
   \label{BiequivalenceToCartesianProduct}
-  For $X, Y \in 2Cat$, the canonical comparison 2-functor from their Gray tensor product to their [[Cartesian product]] is an [[equivalence of 2-categories]]:
+  For $X, Y \in 2Cat$, the canonical comparison 2-functor from their Gray tensor product to their [[Cartesian product]] (discarding the interchangers) is an [[equivalence of 2-categories]] (in fact an [[acyclic fibration]]  in the [[canonical model structure on 2-categories|canonical model structure on 2-groupoids]]):
 \[
   \label{ComparisonMapGrayToCartesian}
   X \otimes_Gray Y 
     \xrightarrow{\phantom{--} 
-      \sim 
+      \in W \cap Fib
     \phantom{--}} 
   X \times Y
   \,.
 \]
 \end{proposition}
 (cf. [Lack 2002, top of p. 7](#Lack2002))
+
+\begin{remark}\label{GrayDiagonalsForCofibant2Groupoids}
+  While the Gray monoidal structure (eq:2CatAsAMonoidalCategory) is ([[semicartesian monoidal category|semicartesian]] but) not a [[monoidal category with diagonals]], the acyclic fibrancy of (eq:ComparisonMapGrayToCartesian) implies immediately that good "Gray-diagonals" do exist for 2-groupoids which are [[cofibrant object|cofibrant]] in the [[canonical model structure on strict 2-groupoids|canonical model structure]], because for these we have the [[lifting]]
+
+$$
+  X \in 2Grpd^{cof}
+  \;\;\;\;\;\;\;\;\;
+    \vdash
+  \;\;\;\;\;\;\;\;\;
+  \begin{array}{ccc}
+    &&
+    X \otimes_{Gray} X
+    \\
+    &
+    {\mathllap{^{\exists}}}\nearrow
+    & 
+    \big\downarrow
+    \\
+    X 
+      &\underset{diag}{\longrightarrow}&
+    X \times X
+    \mathrlap{\,,}
+  \end{array}
+$$
+
+of, at the bottom, the ordinary [[diagonal map]] into the [[Cartesian product]].
+\end{remark}
 
 \begin{proposition}
   \label{UnderSimplicialNerve}
@@ -198,7 +228,7 @@ $$
 $$
 \end{proposition}
 \begin{proof}
-  The comparison map (eq:ComparisonMapGrayToCartesian) is indeed an [[acyclic fibration]] ([Lack 2002, top of p. 7](#Lack2002)) in the [[canonical model structure on 2-categories|canonical model structure on 2-groupoids]], and on that the [[simplicial nerve of 2-categories|nerve]] (eq:SimplicialNerveOf2Groupoids) is a [[right Quillen functor]] to the [[classical model structure on simplicial sets]] ([Lack 2002, end of p. 29](#Lack2002), following [Moerdijk & Svensson 1993](canonical+model+structure+on+2-categories#MoerdijkSvensson93)).
+  The [[simplicial nerve of 2-categories|nerve]] (eq:SimplicialNerveOf2Groupoids) is a [[right Quillen functor]] from the [[canonical model structure on 2-categories|canonical model structure on 2-groupoids]] to the [[classical model structure on simplicial sets]] ([Lack 2002, end of p. 29](#Lack2002), following [Moerdijk & Svensson 1993](canonical+model+structure+on+2-categories#MoerdijkSvensson93)). Therefore it preserves [[acyclic fibrations]] and hence sends the comparison map (eq:ComparisonMapGrayToCartesian) to an acyclic Kan fibration.
 \end{proof}
 
 \begin{remark}\label{InternalHomUnderSimplicialNerve}  
@@ -215,11 +245,11 @@ $$
 
 This is due to [[Alexander Campbell]], see discussion [here](https://nforum.ncatlab.org/discussion/11750/gray-tensor-product/#Item_21).
 
-## Remarks 
+
+## Further remarks 
 
 * When considered with this monoidal structure, $2Cat$ is often called $Gray$.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over $Gray$, are a model for [[semi-strict infinity-category|semi-strict]] [[3-categories]].  Categories enriched over $2Cat$ with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
 
-* $Gray$ is an example of a [[semicartesian monoidal category]], i.e. a non-[[cartesian monoidal category|cartesian]] monoidal category whose unit object is nevertheless the terminal object.
 
 * There are also versions of the Gray tensor product in which pseudonatural transformations are replaced by lax or oplax ones.  (In fact, these were the ones originally defined by Gray.)
 
