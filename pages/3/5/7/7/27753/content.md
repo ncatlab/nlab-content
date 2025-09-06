@@ -117,6 +117,8 @@ Theoretical prediction:
 * [[Titus Neupert]], [[Luiz Santos]], [[Claudio Chamon]], [[Christopher Mudry]]: *Fractional quantum Hall states at zero magnetic field*, Phys. Rev. Lett. **106** (2011) 236804  &lbrack;[arXiv:1012.4723](https://arxiv.org/abs/1012.4723), [doi:10.1103/PhysRevLett.106.236804](https://doi.org/10.1103/PhysRevLett.106.236804)&rbrack;
 
 * S. A. Parameswaran, [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Quantum Hall Physics in Topological Flat Bands*, Comptes Rendus. Physique, Topological insulators / Isolants topologiques, **14** 9-10 (2013) 816-839 &lbrack;[arXiv:1302.6606](https://arxiv.org/abs/1302.6606), [doi:10.1016/j.crhy.2013.04.003](https://doi.org/10.1016/j.crhy.2013.04.003)&rbrack;
+  > "The possibility of stabilizing exotic topological phases outside of a dilution fridge and without a superconducting magnet, and the avenues it opens for further experimental
+probes of these phases, is among the primary motivations of the activity in this field"
 
 * [[Rahul Roy]]: *Band geometry of fractional topological insulators*, Phys. Rev. B **90** (2014) 165139 &lbrack;[arXiv:1208.2055](https://arxiv.org/abs/1208.2055), [doi:10.1103/PhysRevB.90.165139](https://doi.org/10.1103/PhysRevB.90.165139)&rbrack;
 
