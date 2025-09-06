@@ -11,7 +11,7 @@
 
 
 
-By am *algebraic structure* one may mean either 
+By an *algebraic structure* one may mean either 
 
 * the same as [[algebra]] in the sense of [[universal algebra]]; 
 
