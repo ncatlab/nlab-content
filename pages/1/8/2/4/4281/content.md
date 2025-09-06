@@ -21,11 +21,13 @@ Examples of no-go theorems in [[theoretical physics]] include
 
 in foundations of [[quantum physics]]:
 
-* [[Bell's theorem]],
+* [[Bell's theorem]]
 
 * [[Kochen-Specker theorem]]
 
-* [[Gleason's theorem]].
+* [[Gleason's theorem]]
+
+* [[Pusey-Barrett-Rudolph theorem]]
 
 in [[quantum field theory]]:
 
