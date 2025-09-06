@@ -90,8 +90,10 @@ For [[Bruhat-Tits tree]] [[tensor network states]] one finds that the [[holograp
 
 
 ## References
+ {#References}
 
 ### General
+ {#General}
 
 The original article (according to [ZLSS15, p. ix](#ZaanenLiuSunSchalm15)), regarding [[AdS4/CFT3-duality]] (hence with the [[bulk]] theory being [[11d supergravity]], whence "[[M-theory]]") as a tool for understanding [[non-perturbative effect|strongly coupled]] [[condensed matter physics]] (specifically [[superconductivity]]):
 
