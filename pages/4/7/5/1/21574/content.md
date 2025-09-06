@@ -112,4 +112,4 @@ Further discussion:
 [[!redirects canonical model structure on 2Grpd]]
 [[!redirects canonical model structures on 2Grpd]]
 
-
+[[!redirects canonical model structure on strict 2-groupoids]]
