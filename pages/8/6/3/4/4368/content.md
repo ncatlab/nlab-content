@@ -106,7 +106,7 @@ Some other general treatments of Gabriel-Ulmer duality (and generalizations to o
 
 * C. Centazzo, [[Enrico M. Vitale]], *A duality relative to a limit doctrine*, Theory and Appl. of Categories __10__ 20 (2002) 486-497 lbrack;[tac:10-20](http://www.tac.mta.ca/tac/volumes/10/20/10-20abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/10/20/10-20.pdf)&rbrack;
 
-* [[Stephen Lack]], [[John Power]], _Gabriel-Ulmer duality and Lawvere Theories enriched over a general base_, Journal of Functional Programming **19** 3-4 (2009) 265-286 &lbrack;[doi:10.1017/S0956796809007254]( https://doi.org/10.1017/S0956796809007254), [pdf](http://maths.mq.edu.au/~slack/papers/jfp.pdf)&rbrack;
+* [[Stephen Lack]], [[John Power]], _Gabriel-Ulmer duality and Lawvere Theories enriched over a general base_, Journal of Functional Programming **19** 3-4 (2009) 265-286 &lbrack;[doi:10.1017/S0956796809007254]( https://doi.org/10.1017/S0956796809007254), [pdf](https://web.archive.org/web/20210506214016/http://maths.mq.edu.au/~slack/papers/jfp.pdf)&rbrack;
 
 * [[Michael Makkai]], [[Andrew Pitts]], *Some results on locally finitely presentable categories*, Trans. Amer. Math. Soc. **299** (1987) 473-496 &lbrack;[doi:10.2307/2000508](http://dx.doi.org/10.2307/2000508), [pdf](http://www.ams.org/journals/tran/1987-299-02/S0002-9947-1987-0869216-2/S0002-9947-1987-0869216-2.pdf), [MR88a:03162](http://www.ams.org/mathscinet-getitem?mr=869216)&rbrack;
 
