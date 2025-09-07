@@ -4,6 +4,7 @@
 
 ***
 
+[[FQH-QuantumPhotonics-Poster.png:file]]
 
 ## Definition
 
