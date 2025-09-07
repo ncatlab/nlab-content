@@ -4643,6 +4643,23 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
 </a>
 </div>
 
+\linebreak
+
+### Sep 2025
+
+\begin{imagefromfile}
+    "file_name": "FQH-QuantumPhotonics-Poster.png",
+    "width": 460,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 10
+    }
+\end{imagefromfile}
+
+
 \linebreak  
 
 
