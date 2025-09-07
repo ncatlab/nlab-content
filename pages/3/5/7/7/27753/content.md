@@ -129,6 +129,7 @@ probes of these phases, is among the primary motivations of the activity in this
 Experimental realization of FQAH systems:
 
 * Jiaqi Cai et al.: *Signatures of Fractional Quantum Anomalous Hall States in Twisted $MoTe_2$ Bilayer*, Nature **622** (2023) 63–68 &lbrack;[arXiv:2304.08470](https://arxiv.org/abs/2304.08470), [doi:10.1038/s41586-023-06289-w](https://doi.org/10.1038/s41586-023-06289-w)&rbrack;
+  > (in twisted bilayer [molybdenum ditelluride](https://en.wikipedia.org/wiki/Molybdenum_ditelluride), $Mo Te_2$)
 
 * Yihang Zeng et al.: *Thermodynamic evidence of fractional Chern insulator in moiré $MoTe_2$*, Nature **622** (2023) 69–73 &lbrack;[doi:10.1038/s41586-023-06452-3](https://doi.org/10.1038/s41586-023-06452-3)&rbrack;
 
