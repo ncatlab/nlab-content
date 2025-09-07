@@ -1,5 +1,5 @@
 
-* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Reid_W._Barton)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Reid_W._Barton)
 
 
 ## Selected writings
