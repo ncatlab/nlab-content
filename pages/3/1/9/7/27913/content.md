@@ -27,6 +27,10 @@ The theorem was originally introduced in:
 
 * {#PBR12} [[Matthew F. Pusey]], [[Jonathan Barrett]], [[Terry Rudolph]], _On the reality of the quantum state_, Nature Physics **8**, (2012) 475–478 &lbrack;[doi:10.1038/nphys2309](http://dx.doi.org/10.1038/nphys2309), [arxiv:1111.3328](https://arxiv.org/abs/1111.3328)&rbrack;
 
+See also:
+
+* Wikipedia: *[Pusey-Barrett-Rudolph theorem](https://en.wikipedia.org/wiki/Pusey%E2%80%93Barrett%E2%80%93Rudolph_theorem)*
+
 A wider discussion of ψ-ontology:
 
 * {#Leifer14} [[Matthew Saul Leifer]], _Is the quantum state real? An extended review of ψ-ontology theorems_, Quanta **3**, (2014) 67–155 &lbrack;[doi:10.12743/quanta.v3i1.22](https://doi.org/10.12743/quanta.v3i1.22), [arxiv:1409.1570](https://arxiv.org/abs/1409.1570)&rbrack;
