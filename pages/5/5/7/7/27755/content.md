@@ -75,6 +75,12 @@ See also:
 
 * Wikipedia: *[Hall effect -- Anomalous Hall effect](https://en.wikipedia.org/wiki/Hall_effect#Anomalous_Hall_effect)*
 
+Experimental detection in non-magnetic [cadmium arsenide](https://en.wikipedia.org/wiki/Cadmium_arsenide) $Cd_3 As_2$:
+
+* Shinichi Nishihaya et al.: *Anomalous Hall effect in Dirac semimetal probed by in-plane magnetic field*, Phys. Rev. Lett. **135** (2025) 106603 &lbrack;[arXiv:2503.04195](https://arxiv.org/abs/2503.04195), [doi:10.1103/5d7l-mr7k](https://doi.org/10.1103/5d7l-mr7k)&rbrack;
+
+
+
 [[!redirects anomalous Hall effects]]
 
 [[!redirects anomalous Hall system]]
