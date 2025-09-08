@@ -3135,9 +3135,21 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   Bekkar Merwan & Marouane Benbetka (Ecole Superieure d’Informatique, Algiers, Algeria):
 
-
   **Dependence-Driven, Scalable Quantum Circuit Mapping with Affine Abstractions**
 
+\linebreak
+
+* {#KoroteevSep2025} 8 Sep 2025
+
+  [Grigory Koroteev](https://inspirehep.net/authors/2013585) (MBZUAI, Abu Dhabi):
+
+  **Quasi-van Hove singularities to inform GNN for improving density-of-states predictions**  
+
+  cf.: [arXiv:2509.02818](https://arxiv.org/abs/2509.02818)
+
+  > We introduce an extension of the concept of [Van Hove singularities](https://en.wikipedia.org/wiki/Van_Hove_singularity) in order to explicitly use them in [[machine learning]] (ML) methods of models as a priori information. The claimed method becomes possible when, instead of directly calculating the density of [[quantum states]], we operate with estimates obtained by ML methods.  
+
+  > Then, determining additional information allows us to organize post-processing, which significantly improves the  quality of model prediction. Analytically, the effect is similar to Van Hove singularities of high order due to the additional degree of degeneracy of the system. As a mechanism for redistributing information about the system, we propose regularization, which is close in meaning to taking into account [[Fisher information]].
 
 
 \linebreak
@@ -4646,6 +4658,8 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
 \linebreak
 
 ### Sep 2025
+
+{#QuantumPhotonicsSep2025} Guest appeareance on *[Quantum Photonics Clubhouse](https://www.clubhouse.com/house/quantum-photonics)*
 
 \begin{imagefromfile}
     "file_name": "FQH-QuantumPhotonics-Poster.png",
