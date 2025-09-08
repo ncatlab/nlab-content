@@ -290,7 +290,7 @@ The theoretical identification of [FQH anyons](quantum+Hall+effect#BraidingPhase
 Incidentally, [[flat bundles]] of [[finite-dimensional Hilbert spaces]] over the parameter space \eqref{ConfigurationSpaceOfPoints} famously (but not exclusively) arise as [[Knizhnik-Zamolodchikov connections]] on [[vector bundle|bundles]] of [[conformal blocks]], the resulting [[braid representations]] are often known (somewhat undescriptively) as *monodromy representations*.
 \end{example}
 
-The phenomenology of the following example reproduces traditional lore about topological order often interpreted in terms of anyons, but it does not involve any anyon position parameters. We suggest that the way we obtain this now as another special case of Def. \ref{TopologicalOrder} speaks to the untility of this definition.
+The phenomenology of the following example reproduces traditional lore about topological order often interpreted in terms of anyons, but it does not involve anyon position parameters. We suggest that the way we obtain this now as another special case of Def. \ref{TopologicalOrder} speaks to the untility of this definition.
 
 
 
@@ -311,13 +311,13 @@ Namely, it is commonly expected (cf. [Tong 2016](quantum+Hall+effect#Tong16) [(5
 \end{equation}
 where $\zeta \in \mathbb{C}$ is a [[root of unity]] identified with the FQH anyon [braiding phase](quantum+Hall+effect#BraidingPhase).
 
-This topological observable algebra (eq:TopologicalTorusObservables) is traditionally argued by appeal to an [[effective field theory|effective]] [[abelian Chern-Simons theory|abelian Chern-Simons field theory]] thought to describe the large-scale ("infrared") dynamics of the [[FQH system]]. (Experimental verification of this expectation has been out of reach: While it might barely be possible to constrain a 2D electron gas to a torus, it seems nigh impossible to then have it penetrated by an everywhere transverse magentic field. Which makes it all the more remarkable that, as we pass to FQAH systems, the torus topology becomes not only experimentally viable but the default --- now for a \emph{momentum space} torus.)
+This topological observable algebra (eq:TopologicalTorusObservables) is traditionally argued by appeal to an [[effective field theory|effective]] [[abelian Chern-Simons theory|abelian Chern-Simons field theory]] thought to describe the large-scale ("infrared") dynamics of the [[FQH system]]. (Experimental verification of this expectation has been out of reach: While it might barely be possible to constrain a 2D electron gas to a torus, it seems nigh impossible to then have it penetrated by an everywhere transverse magentic field. This makes it all the more remarkable that, as we pass to [[FQAH systems]], the torus topology becomes not only experimentally viable but the default --- now for a *momentum space* [[Brillouin torus]].)
 
 So we are to ask:
 
 > *Does the relation (eq:TopologicalTorusObservables) represent the fundamental group of some parameter space $P$ associated with FQH systems?*
 
-Remarkably --- the answer is, yes, of the parameter space of exotic topological magnetic flux quanta on the torus.
+Remarkably --- the answer is [[schreiber:FQH Anyons|SS25 §3.3-4]]: Yes, of the parameter space of exotic topological magnetic flux quanta on the torus.
 
 Namely, the parameter space of ordinary topological magnetic flux through a surface $\Sigma^2$, as predicted by the time-honored *[[Dirac charge quantization|Dirac flux quantization condition]]*, is the [[mapping space|space of maps]] to the [[classifying space]] 
 \begin{equation}
@@ -356,7 +356,7 @@ whose representations are given by the algebras of Maxwell Wilson loop observabl
   B A
   \,.
 \end{equation}
-On the other hand, \eqref{ConfigurationsOfMaxwellFields} describes, of course,  the free magnetic field and ignores its interaction with a 2D electron gas that we are concerned with here. Instead, the surplus magnetic flux quanta on a backdrop of a fractional filling fraction making an FQH system are associated with vortices in a strongly-coupled electron system and as such of exotic nature. To reflect this in their configuration topology we may ask for a deformation of the classical classifying space \eqref{MaxwellClassifyingSpace}. Since $\mathbb{C}P^\infty \defneq \bigcup_{n \in \mathbb{N}} \mathbb{C}P^n$, a suggestive choice of deformation is the first stage in this sequence,
+On the other hand, \eqref{ConfigurationsOfMaxwellFields} describes, of course, only the free magnetic field and ignores its interaction with a 2D electron gas that we are concerned with here. Instead, the surplus magnetic flux quanta on a backdrop of a fractional filling fraction making an [[FQH system]] are associated with [[vortices]] in a strongly-coupled electron system and as such of exotic nature. To reflect this in their configuration topology we may ask for a deformation of the classical classifying space \eqref{MaxwellClassifyingSpace}. Since $\mathbb{C}P^\infty \defneq \bigcup_{n \in \mathbb{N}} \mathbb{C}P^n$, a suggestive choice of deformation is the first stage in this sequence,
 \begin{equation}
   \mathbb{C}P^1 \simeq S^2
   \,,
