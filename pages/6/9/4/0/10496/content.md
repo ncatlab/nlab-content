@@ -18,10 +18,8 @@
 =--
 
 
+\tableofcontent
 
-# Topological order
-* table of contents
-{: toc}
 
 
 ## Idea
@@ -169,12 +167,12 @@ If the [[electromagnetic field|Coulomb]] interaction between the electrons -- wh
 
 
 
-## Definition and Examples
+## A Definition and its Examples
  {#DefinitionAndExamples}
 
 A satisfactory definition of "topological order" is not readily manifest from traditional literature. For example, the presence of "[[anyons]]" understood as [[solitons]] or [[defects]] (and that distinction itself is typically not properly made in the literature) localized in 2D space (as for [[fractional quantum Hall systems]]) should be an *example* of topological order, but the actual definition should not presuppose this specific incarnation of the general phenomenon. Instead, the [[quantum adiabatic theorem]], being the tacit general principle behind topological order, ought to explicitly appear in the definition.
 
-We consider here the following more formal and more general Definition \ref{ADefinition}, and show in the following Examples how this faithfully captures expected phenomena and extends to novel situations outside the traditional conceptualization.
+We consider here the following more formal and more general Definition \ref{ADefinition} (following [[schreiber:Topological Quantum Gates in Homotopy Type Theory|MySS24 §3]], [[schreiber:Crystalline Chern Order|SS25]]), and show in the following Examples how this faithfully captures expected phenomena and extends to novel situations outside the traditional conceptualization.
 
 
 \begin{definition}\label{ADefinition}
@@ -211,7 +209,6 @@ By the [[quantum adiabatic theorem]], it follows thereby that adiabatic tuning (
         "left": 30
     }
 \end{imagefromfile}
-
 
 **(3. -- monodromy)** The [[fundamental group]] $\pi_1$ (of any [[connected component]]) of $P$ is non-[[trivial group|trivial]] (properly: [[non-abelian group|non-abelian]]), in that some such [[pairs]] of parameter paths with the same endpoints do *not admit* (\#) continuous deformations into each other:
 
