@@ -15,10 +15,7 @@
 
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
  
 
 ## Idea
@@ -184,6 +181,8 @@ The mapping class groups of the $n$-[[punctured]] [[2-spheres]] $\Sigma_{0,0,n}$
 
 
 ## Related concepts
+
+* [[Birman-Hilden theory]]
 
 * [[diffeomorphism group]]
 
