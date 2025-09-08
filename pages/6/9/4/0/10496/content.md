@@ -18,31 +18,20 @@
 =--
 
 
-\tableofcontent
+\tableofcontents
 
 
 
 ## Idea
  {#Idea}
 
-In [[solid state physics]], by *topological order* ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95), [Gu & Wen 09, p. 2](#GuWen09), [Chen, Gu & Wen 10](#ChenGuWen2010)) one refers to a phenomenon that may (but need not) be exhibited by [[quantum materials]] that are in a [[topological phase of matter]]. Hence there is an implication
-
-$$
-  \text{topological order}
-  \;\;\;\;\;\;\;\;\;
-  \Rightarrow
-  \;\;\;\;\;\;\;\;\;
-  \text{topological phase}
-  \,,
-$$
-
-but not the other way around.
+In [[solid state physics]], by *topological order* ([Wen 89](#Wen89),  [Wen & Niu 90](#WenNiu90), [Wen 91](#Wen91), [93](#Wen93), [95](#Wen95), [Gu & Wen 09, p. 2](#GuWen09), [Chen, Gu & Wen 10](#ChenGuWen2010)) is used to refer to phases of [[quantum materials]] where [[spectral gap|gapped]] [[quantum state|quantum]] [[ground states]] exhibit a "topological" (really: *homotopical*) dependence on system parameters.
 
 > ("While ostensibly coined in 1989 by Xiao-Gang Wen, the term 'topological order' has been in use since 1972 to describe the behavior of the classical xy model. &lbrack;[arXiv:2308.01765](https://arxiv.org/abs/2308.01765)&rbrack;)
 
-Specifically, the [[ground state]] of a topologically ordered material is rich in structure (besides being topologically stable), which need not be the case for a general topological phase. In particular a topologically ordered ground state is "degenerate" (a standard but somewhat unfortunate jargon in this context: it really refers to the *[[energy]]* [[eigenvalues]] being degenerate) in that there is a $\geq 2$-dimensional Hilbert space of [[quantum states]] that all have the same lowest energy (within experimentally relevant approximation). 
+For such dependency to be rich (non-abelian), the [[dimension of a vector space|dimension]] of the [[finite-dimensional Hilbert space|Hilbert space]] of gapped ground states should be $\geq 2$ (jargon: "degenerate ground states").
 
-Moreover, for this to qualify as topologically ordered, one typically demands that in its degenerate ground state the system may exhibit "[[anyon|anyonic]] [[defects]]". A popular more succinct way of making this somewhat more precise is to say that the [[dynamics]] of (the [[electrons]] in) a topologically ordered material, when restricted to the energy=0 ground states, is a [[topological field theory]] equal or akin to a [[Chern-Simons theory]] with [[Wilson line]]-insertions: these Wilson lines being the [[worldlines]] of the [[anyon]]-[[defects]]. 
+Moreover, for this to qualify as topologically ordered, one typically demands that these degenerate ground states are those of "[[anyons]]". A popular more succinct way of making this somewhat more precise is to say that the [[dynamics]] of (the [[electrons]] in) a topologically ordered material, when restricted to the energy=0 ground states, is a [[topological field theory]] equal or akin to a [[Chern-Simons theory]] with [[Wilson line]]-insertions: these Wilson lines being the [[worldlines]] of the [[anyon]]-[[defects]]. 
 
 In short then, topological order is meant to be that aspect of [[topological phases of matter]] which is related to the existence of [[anyons]] in the material, in one way or other. Via this relation, topological order is closely related to considerations in [[topological quantum computation]].
 
@@ -74,11 +63,12 @@ Since (by [[Bloch-Floquet theory]]) the quantum states of these electrons form t
 
 But since the [[Berry connection]] is a [[connection on a vector bundle|connection]] on the [[valence bundle]], it can have non-abelian [[holonomy]] (namely in [[unitary group|U(n)]] for $n \geq 2$) only if the bundle's rank is $\geq 2$.
 
-Similarly, the presence of [[anyons]] broadly means that there are families of [[quantum adiabatic theorem|adiabatic defomrations]] of the material which have the effect of transforming the [[ground state]] by [[linear operators]] forming a [[braid group representation]]. This is most interesting when the representation is non-abelian, which again requires that the Hilbert space of ground states that it is represented on has dimension $\geq 2$. 
+Similarly, the presence of [[anyons]] broadly means that there are families of [[quantum adiabatic theorem|adiabatic deformations]] of the material which have the effect of transforming the [[ground state]] by [[linear operators]] forming a [[braid group representation]]. This is most interesting when the representation is non-abelian, which again requires that the Hilbert space of ground states that it is represented on has dimension $\geq 2$. 
 
 However, there are also non-trivial "abelian anyons", namely braid group representations which are just complex 1-dimensional, and -- even if not as interesting as their non-abelian cousins -- these are counted as perfectly valid instances of the concept of anyons (in fact it was first a struggle and then a breakthrough to detect abelian anyons in [[experiment]]). Some authors, especially those using the language of [[fusion categories]] to speak about anyons, require of a "topological order" only that it contains anyons and possibly just abelian anyons, in which case it is maybe not so clear whether the ground state needs to be degenerate and/or the Berry connection be non-abelian.
   
 \end{remark}
+
 
 ### Via topological entanglement entropy
  {#ViaTopologicalEntanglementEntropy}
@@ -255,10 +245,10 @@ Now first to see how this general definition reduces to the traditional case:
 
 \begin{example}\label{TraditionalAnyonicTopologicalOrder}
 **(traditional anyon braiding)**
-For cases like plain [[FQH systems]] on a surface $\Sigma^2$, the parameter space is that of configurations of (quasi-hole/vortex) positions, known as the surface's *[[configuration space of points]]*:
+For cases like plain [[FQH systems]] on a surface $\Sigma^2$, the parameter space is that of configurations $S \subset \Sigma^2$ of (quasi-hole/vortex) positions, known as the surface's *[[configuration space of points]]*:
 \[
   \label{ConfigurationSpaceOfPoints}
-  P_{{}_{\mathrm{FQH}}}
+  P
   \,\equiv\,
   \mathrm{Conf}\big(\Sigma^2\big)
   \,\coloneqq\,
@@ -270,9 +260,7 @@ For cases like plain [[FQH systems]] on a surface $\Sigma^2$, the parameter spac
   \mathrlap{\,.}
 \]
 
-The theoretical identification of [FQH anyons](quantum+Hall+effect#BraidingPhase) via the [[quantum adiabatic theorem]] applied to this situation goes back to [Arovas, Schrieffer & Wilczek 1984](quantum+Hall+effect#ArovasSchriefferWilczek84), [Su 1986](quantum+Hall+effect#Su86). 
-
-The fundamental groups of the configuration space (eq:ConfigurationSpaceOfPoints), in the connected component of $n$ vortices, are the *[[surface braid groups]]*
+The [[fundamental groups]] of the configuration space (eq:ConfigurationSpaceOfPoints), in the connected component of $n$ vortices, are the *[[surface braid groups]]*
 \[
   \mathrm{Br}_n(\Sigma^2)
   \,\equiv\,
@@ -297,7 +285,9 @@ and their linear representations are the *[[braid representations]]*, exhibiting
     }
 \end{imagefromfile}
 
-Incidentally, [[flat bundles]] of [[finite-dimensional Hilbert spaces]] over the parameter space \eqref{ConfigurationSpaceOfPoints} famously (but not exclusively) arise as [[Knizhnik-Zamolodchikov connections]] on spaces of [[conformal blocks]], the resulting [[braid representations]] are often known (somewhat undescriptively) as *monodromy representations*.
+The theoretical identification of [FQH anyons](quantum+Hall+effect#BraidingPhase) via the [[quantum adiabatic theorem]] applied to this situation goes back to [Arovas, Schrieffer & Wilczek 1984](quantum+Hall+effect#ArovasSchriefferWilczek84), [Su 1986](quantum+Hall+effect#Su86) and this is how (FQH) anyons have been conceptualized ever since, in particular in the literature on [[topological quantum computing]] (see [there](quantum+adiabatic+theorem#ReferencesForTopologicalQuantumComputing)).
+
+Incidentally, [[flat bundles]] of [[finite-dimensional Hilbert spaces]] over the parameter space \eqref{ConfigurationSpaceOfPoints} famously (but not exclusively) arise as [[Knizhnik-Zamolodchikov connections]] on [[vector bundle|bundles]] of [[conformal blocks]], the resulting [[braid representations]] are often known (somewhat undescriptively) as *monodromy representations*.
 \end{example}
 
 The phenomenology of the following example reproduces traditional lore about topological order often interpreted in terms of anyons, but it does not involve any anyon position parameters. We suggest that the way we obtain this now as another special case of Def. \ref{TopologicalOrder} speaks to the untility of this definition.
