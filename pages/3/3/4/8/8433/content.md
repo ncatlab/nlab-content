@@ -1,4 +1,5 @@
 
+Alexei Yurievich Kitaev
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Alexei_Kitaev)
 
