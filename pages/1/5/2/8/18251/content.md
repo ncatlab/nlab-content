@@ -26,7 +26,7 @@ Let $(X,\tau)$ be a [[topological space]], and let $C \subset X$ be a [[closed s
 +-- {: .proof}
 ###### Proof
 
-If $S \subset C$ is closed in $(C,\tau_{sub})$ this means equivalently that there is an open open subset $V \subset C$ in $(C, \tau_{sub})$ such that 
+If $S \subset C$ is closed in $(C,\tau_{sub})$ this means equivalently that there is an open subset $V \subset C$ in $(C, \tau_{sub})$ such that 
 
 $$
   S = C \backslash V
