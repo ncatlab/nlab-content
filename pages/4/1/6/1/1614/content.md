@@ -15,34 +15,27 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
+ {#Idea}
 
-A **topological quantum field theory** is a [[quantum field theory]] which 
--- as a [[FQFT|functorial quantum field theory]] -- is a functor on a flavor of the  [[(∞,n)-category of cobordisms]] $Bord_n^S$, where the [[n-morphism]]s are [[cobordism]]s without any non-topological further structure $S$ -- for instance no [[Riemannian metric]] structure -- but possibly some "topological structure", such as  [[Spin structure]] or similar.
+A *topological quantum field theory* (TQFT) is a [[quantum field theory]] without dependence on the [[geometry]] (notably not on [[pseudo-Riemannian manifold|pseudo]] [[Riemannian geometry]] or fixed [[embedding of smooth manifolds|embeddings]]) of its [[spacetime]]/[[worldvolume]] [[domains]].
 
-For more on the general idea and its development, see [[FQFT]] and [[extended topological quantum field theory]]. 
+More precisely, in the ([[extended field theory|extended]]) [[FQFT|functorial description of QFTs]], where a [[quantum field theory]] is a ([[(infinity,n)-functor|higher]]) [[functor]] on a ([[(infinity,n)-category of cobordisms|higher]]) [[cobordism category]], a TQFT is such a functor on [[manifolds]] and [[cobordisms]] that carry no geometric structure (but possibly [[tangential structure]], such as [[orientation]] or [[spin structure]], or [[continuous maps]] to some [[classifying space]], cf. *[[HQFT]]*).
+
+(In contrast, a [[conformal field theory]] depends on [[conformal structure]], a [[Euclidean field theory]] depends on [[Riemannian geometry|Riemannian structure]], a [[relativistic field theory]] depends on [[pseudo-Riemannian manifold|pseudo-Riemannian structure]], etc.).
+
+In particular, topological quantum field theories are "[[general covariance|generally covariant]]" in a strong sense ([Witten 1988](#Witten88)), in that they coherently assign [[isomorphism|isomorphic]] ([[equivalence|equivalent]]) [[spaces of states]] to [[diffeomorphism|diffeomorphic]] [[domains]].
+
+Historically, TQFTs first arose as [[theoretical physics|theoretical]] [[model (in theoretical physics)|models]] in the context of [[high energy physics]] and [[string theory]] ([Witten 1988](#Witten88)), prominent original examples being [[2D TQFTs]] of [[topological strings]] and [[3D TQFTs]] of [[Chern-Simons theory]], the latter remaining a pivotal example (also in guises such as the [[Reshetikhin-Turaev construction|Reshetikhin-Turaev]] and the [[Turaev-Viro model]]). 
+
+With the mathematical [[axiom|axiomatization]] of TQFTs both established and tractable ([Atiyah 1989](#Atiyah89), following [Segal 1988](conformal+field+theory#Segal88)'s axiomatization of [[2D CFT]]) --- this in notorious contrast to the situation for general non-topological QFTs --- the topic saw dramatic developments in pure [[mathematics]], where TQFTs (with or without relation to actual [[physics]]) have come to serve as standard mathematical tools in fields of [[low-dimensional topology]] such as [[knot theory]], [[knot homology]], [[quantum topology]] and [[string topology]], also in [[geometric representation theory]], and as a field of study in [[higher category theory]] (cf. the *[[cobordism hypothesis]]*).
+
+More recently, TQFTs find relevance in [[solid state physics]] as models for the behaviour of [[spectral gap|gapped]] [[ground states]] of [[topological order|topologically ordered]] [[quantum materials]]. The [experimental observation](quantum+Hall+effect#ObservationOfAnyonsInFQH) of [[anyon]] [braiding phases](quantum+Hall+effect#BraidingPhase) in [[fractional quantum Hall systems]] may be the first manifestation of TQFT in observational [[physics]] (in this case in the guise of [[abelian Chern-Simons theory]]), and the widely anticipated application of such [[anyon]] [[braiding]] to [[topological quantum computation]] would be the first technological application.
 
 
-+-- {: .num_remark }
-###### Remark
-
-Often topological _quantum_ field theories are just called _topological field theories_ and accordingly the abbreviation TQFT is reduced to TFT. Strictly speaking this is a misnomer, which is however convenient and very common. It should be noted, however, that TQFTs may have classical counterparts which would better deserve to be called TFTs. But they are not usually.
-
-=--
-
-## Non-topological QFTs
-
-In contrast to topological QFTs, non-topological quantum field theories in the [[FQFT]] description are $n$-functors on $n$-categories $Bord^S_n$ whose morphisms are manifolds with extra $S$-structure, for instance
-
-* $S =$ conformal structure $\to$ [[conformal field theory]]
-
-* $S =$ [[Riemannian manifold|Riemannian structure]] $\to$ "euclidean QFT"
-
-* $S =$ [[pseudo-Riemannian metric|pseudo-Riemannian structure]] $\to$ "relativistic QFT"
 
 ## Examples
  {#Examples}
@@ -73,10 +66,7 @@ In contrast to topological QFTs, non-topological quantum field theories in the [
 
   * [[Yetter model]]  
 
-## Homotopy QFTs
 
-These somehow lie between the previous two types. There is some simple extra structure in the form of a 'characteristic map' from the manifolds and bordisms to a 'background space' $X$. 
-In many of the simplest examples, this is taken to be the [[classifying space]] of a group, but this is not the only case that can be considered.  The topic is explored more fully in [[HQFT]]. 
 
 ## Related concepts
 
@@ -111,7 +101,7 @@ Discussion of [[action functionals]] for [[topological field theories]] via [[eq
 
 The concept originates in the guise of [[cohomological quantum field theory]] motivated from TQFTs appearing in [[string theory]] in
 
-* {#Witten88} [[Edward Witten]], _Topological quantum field theory_, Comm. Math. Phys. Volume 117, Number 3 (1988), 353-386. ([euclid:1104161738](http://projecteuclid.org/euclid.cmp/1104161738))
+* {#Witten88} [[Edward Witten]]: *Topological quantum field theory*, Comm. Math. Phys. **117** 3 (1988) 353-386 &lbrack;[euclid:1104161738](http://projecteuclid.org/euclid.cmp/1104161738)&rbrack;
 
 * {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, International Journal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
 
@@ -119,7 +109,7 @@ The concept originates in the guise of [[cohomological quantum field theory]] mo
 
 and in the discussion of [[Chern-Simons theory]] ("Schwarz-type TQFT") in
 
-* [[Edward Witten]], _Quantum Field Theory and the Jones Polynomial_, Commun. Math. Phys. **121(( (3) (1989) 351-399.  &lbrack;[euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), MR0990772&rbrack;
+* [[Edward Witten]]: *Quantum Field Theory and the Jones Polynomial*, Commun. Math. Phys. **121** 3 (1989) 351-399.  &lbrack;[euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), MR0990772&rbrack;
 
 Review:
 
@@ -150,7 +140,6 @@ More technical lecture notes:
 * {#Walker06} [[Kevin Walker]], _TQFTs_, 2006 ([pdf](http://canyon23.net/math/tc.pdf))
 
 * [[Mikhail Khovanov]] (notes by [[You Qi]]), §2 in: *Introduction to categorification*, lecture notes, Columbia University (2010, 2020) &lbrack;[web](https://www.math.columbia.edu/~khovanov/cat2020/), [web](https://you-qi2121.github.io/mypage/categorificationnotes.html), full:[pdf](https://www.dropbox.com/scl/fi/wdesax1c8il6tgwbi20t4/KhovanovYouQi-Categorification.pdf?rlkey=l5cm3khnzu604ijdnl06o89od&dl=0)&rbrack;
-
   > (with an eye towards [[link homology]])
 
 
