@@ -116,7 +116,7 @@ such that
 
 1. $H$ is [[complete space|complete]] with respect to the [[norm]]:
 
-   ${\Vert x \Vert_H} \coloneqq {\Vert \langle x,x\rangle\Vert_B}$.
+   ${\Vert x \Vert_H} \coloneqq {\Vert \langle x,x\rangle\Vert_B}^{1/2}$.
 
 =--
 
