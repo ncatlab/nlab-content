@@ -1,6 +1,19 @@
-Fisher metric is a metric appearing in [[information geometry]], see there for more information and references. There are also several quantum versions. One is the Bures metric and another is quantum Fisher information matrix.
 
-* wikipedia [quantum information](https://en.wikipedia.org/wiki/Quantum_information), [Bures metric](https://en.wikipedia.org/wiki/Bures_metric)
+\tableofcontents
+
+## Idea
+
+The *Fisher metric* is a [[Riemannian metric]] appearing in [[information geometry]]. 
+
+Quantum variants include the *Bures metric* and the *quantum Fisher information matrix*.
+
+## References
+
+See also:
+
+* Wikipedia: *[Quantum information](https://en.wikipedia.org/wiki/Quantum_information), 
+
+* Wikipedia: *[Bures metric](https://en.wikipedia.org/wiki/Bures_metric)*
 
 Most references about Fisher metric are at [[information geometry]], here we add few on quantum and $C^*$-algebraic analogues.
 
@@ -25,3 +38,4 @@ For singular statistical models (including those arising in [[machine learning]]
 category: probability
 
 [[!redirects Fisher information]]
+
