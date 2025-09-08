@@ -1,5 +1,13 @@
 
-* [webpage](http://mlarsen.math.indiana.edu/~larsen/)
+Michael Jeffrey Larsen
+
+* [institute page](https://math.indiana.edu/about/faculty/larsen-michael.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Michael_J._Larsen)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Michael_J._Larsen) (de)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=15019)
 
 ## Selected writings
 
