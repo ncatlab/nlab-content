@@ -53,4 +53,14 @@ The definition of [[path groupoid]]s and [[path n-groupoid]]s as strict or [[sem
 
 The [[parallel transport]] of a [[connection on a bundle]] is an assignment of fiber-homomorphisms to paths in a manifold that is invariant under thin homotopy. 
 
+## References
+
+(...)
+
+On think homotopy of 2-dimensional paths:
+
+* Francis Bischoff, [[Darrick Lee]]: *Thin homotopy and the signature of piecewise linear surfaces* &lbrack;[arXiv:2506.16657](https://arxiv.org/abs/2506.16657)&rbrack;
+
+
+
 [[!redirects thin homotopies]]
