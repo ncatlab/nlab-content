@@ -21,6 +21,8 @@
 
 * [[K-theory]]
 
+  * [[KK-theory]]
+
 * [[L-theory]]
 
 * [[M-theory]]
