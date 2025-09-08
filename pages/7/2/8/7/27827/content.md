@@ -5,7 +5,7 @@
 
 ## Selected writings
 
-On [[surface holonomy]]:
+On [[surface holonomy]] and [[thin homotopy]] of 2-dimensional paths:
 
 * {#LeeOberhauser23} [[Darrick Lee]], Harald Oberhauser, *Random Surfaces and Higher Algebra* &lbrack;[arXiv:2311.08366](https://arxiv.org/abs/2311.08366)&rbrack;
 
