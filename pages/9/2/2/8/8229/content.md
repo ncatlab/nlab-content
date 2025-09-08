@@ -30,7 +30,7 @@ The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of 
 
 * [[van Kampen theorem]]
 
-* [[quantum topology]]
+* [[knot theory]], [[quantum topology]], [[string topology]]
 
 * [[SnapPy]]
 
