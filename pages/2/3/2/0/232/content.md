@@ -20,21 +20,21 @@
 
 ## Idea
 
-The notion of _enriched category_ is a generalization of the notion of [[category]].
+The notion of an _enriched category_ is a generalization of the notion of a [[category]].
 
-Very often instead of merely having a _[[set]]_ of [[morphism]]s from one [[object]] to another, a category will have a _[[vector space]]_ of morphisms, or a _[[topological space]]_ of morphisms, or some other such thing.  This suggests that we should take the definition of ([[locally small category|locally small]]) category and generalize it by replacing the [[hom-set]]s by _hom-objects_, which are objects in a suitable category $K$.
-This gives the concept of 'enriched category'.
+Very often, instead of merely having a _[[set]]_ of [[morphism]]s from one [[object]] to another, a category will have a _[[vector space]]_ of morphisms, or a _[[topological space]]_ of morphisms, or some other such thing.  This suggests that we should take the definition of a ([[locally small category|locally small]]) category and generalize it by replacing the [[hom-set]]s by _hom-objects_, which are objects in a suitable category $K$.
+This gives the concept of an 'enriched category'.
 
 The category $K$ must be [[monoidal category|monoidal]], so that we can define composition as a morphism
 $$ \circ : hom(y,z) \otimes hom(x,y) \to hom(x,z)  $$
-So, a __category enriched over $K$__ (also called a __category enriched in $K$__, or simply a __$K$-category__), say $C$, has a collection $ob(C)$ of objects and for each pair $x,y \in ob(C)$, a '[[hom-object]]' 
+So, a __category enriched over $K$__ (also called a __category enriched in $K$__, or simply a __$K$-category__), say $C$, has a collection $ob(C)$ of objects and, for each pair $x,y \in ob(C)$, a '[[hom-object]]' 
 $$ hom(x,y) \in K .$$
-We then mimic the usual definition of category.  
+We then mimic the usual definition of a category.  
 
 We may similarly define a _functor enriched over $K$_
-and a _natural transformation enriched over $K$_, obtaining a [[strict 2-category]] of $K$-enriched categories, [[category of V-enriched categories|$K$-Cat]].  By general 2-category theory, we thereby obtain notions of _$K$-enriched adjunction_, _$K$-enriched equivalence_, and so on.
+and a _natural transformation enriched over $K$_, obtaining a [[strict 2-category]] of $K$-enriched categories, [[category of V-enriched categories|$K$-Cat]].  By general 2-category theory, we thereby obtain notions of _$K$-enriched adjunctions_, _$K$-enriched equivalences_, and so on.
 
-There is also an enriched notion of [[limit]] called a [[weighted limit]], but it is somewhat more subtle (and in particular, it is difficult to construct purely on the basis of the 2-category $K$-Cat).
+There is also an enriched notion of a [[limit]] called a [[weighted limit]], but it is somewhat more subtle (and in particular, it is difficult to construct purely on the basis of the 2-category $K$-Cat).
 
 More generally, we may allow $K$ to be a [[multicategory]], a [[bicategory]], a [[double category]], or a [[virtual double category]].
 
@@ -42,7 +42,7 @@ See also [[enriched category theory]].
 
 ## Definition
 
-Ordinarily enriched categories have been considered as _enriched over_ or _enriched in_ a [[monoidal category]]. This is discussed in the section
+Ordinarily, enriched categories are considered as _enriched over_ or _enriched in_ a [[monoidal category]]. This is discussed in the section
 
 * [Enrichment in a monoidal category](#InMonoidCat)
 
