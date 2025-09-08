@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -61,6 +60,8 @@ But the [[n-torus]] for $n \geq 3$ is _not a [[cyclic group|cyclic]]_ branched o
 * [[covering space]]
 
 * [[Riemannian orbifold]]
+
+* [[Riemann-Hilden theory]]
 
 
 ## References
