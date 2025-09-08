@@ -1,4 +1,7 @@
 
+
+Michael Hartley Freedman
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Michael_Freedman)
 
 * [inSpire page](https://inspirehep.net/authors/1045424)
