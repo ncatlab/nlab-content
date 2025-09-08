@@ -18,10 +18,10 @@ Founders of the systematical theory are N. N. Chentsov and [[Shun-ichi Amari]].
 
 For $X$ a [[measurable space]] let $S$ be (a subspace of) the space of probability [[measure]]s on $X$, equipped with the structure of a [[smooth manifold]].
 
-The **Fisher metric** on $S$ is the [[Riemannian metric]] given on two [[vector field]]s $v,w \in T S$ by
+The **[[Fisher metric]]** on $S$ is the [[Riemannian metric]] given on two [[vector field]]s $v,w \in T S$ by
 
 $$
-  g(v,w)_s := E_s( v(log s) w(log s))
+  g(v,w)_s \coloneqq E_s\big( v(log s) w(log s)\big)
   \,,
 $$
 
@@ -32,13 +32,16 @@ For instance ([Amari, Section 2.1](#AmariTextbook)).
 ## Related concepts
 
 * [[entropy]]
+
 * [[Fisher metric]]
+
 * [[quantum information]]
+
 * [[relative entropy]], also known as the Kullback-Leibler divergence
 
 ## References
 
-See also [[Fisher metric]], where Fisher metric in other contexts and quantum generalizations are treated. See also [[quantum information]].
+See also references at *[[Fisher metric]]* and at *[[quantum information]]*.
 
 Textbooks providing the big picture
 
