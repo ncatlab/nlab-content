@@ -63,6 +63,23 @@ Projects:
 
 \linebreak
 
+\begin{imagefromfile}
+    "file_name": "FQH-QuantumPhotonics-Poster.png",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -110,
+        "bottom": 0,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+* {#QuantumPhotonicsSep2025} **[[schreiber:QMATH16|Fractional Quantum Anomalous Hall States & Anyonic Order]]**
+
+  guest appeareance on *[Quantum Photonics Clubhouse](https://www.clubhouse.com/house/quantum-photonics)* (8 Sep 2025)
+
 * **[[schreiber:QMATH16|Identifying Anyonic Topological Order in Fractional Quantum Anomalous Hall Systems]]**
 
   talk at *[QMATH16](https://sites.google.com/view/qmath16/)*, Munich (1-5 Sep 2025)
@@ -181,6 +198,42 @@ For comprehensive lists see:
 * [at GoogleScholar](https://scholar.google.com/citations?hl=en&user=bDfHFDcAAAAJ)
 
 * [at arXiv.org](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1)
+
+
+\begin{imagefromfile}
+    "file_name": "PSPM83-cover.png",
+    "float": "right",
+    "width": 300,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 0,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+
+Book collection:
+
+* **[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]**
+
+  (with [[Hisham Sati|H. Sati]])
+
+  Proceedings of Symposia in Pure Mathematics **83**
+
+  American Mathematical Society (2011)
+
+  &lbrack;[ams:pspum-83](https://bookstore.ams.org/pspum-83)&rbrack;
+
+> **Cover blurb:** Conceptual progress in fundamental [[theoretical physics]] is linked with the search for the suitable [[mathematical structures]] that model the physical systems. [[quantum field theory|Quantum field theory]] (QFT) has proven to be a rich source of ideas for mathematics for a long time. However, fundamental questions such as “What is a QFT?” did not have satisfactory mathematical answers, especially on spaces with arbitrary topology, fundamental for the formulation of [[perturbative string theory]].
+
+> This book contains a collection of papers highlighting the mathematical foundations of QFT and its relevance to perturbative string theory as well as the deep techniques that have been emerging in the last few years.
+
+> The papers are organized under three main chapters: Foundations for Quantum Field Theory, Quantization of Field Theories, and Two-Dimensional Quantum Field Theories. An introduction, written by the editors, provides an overview of the main underlying themes that bind together the papers in the volume.
+
+\linebreak
+
 
 Monographs:
 
