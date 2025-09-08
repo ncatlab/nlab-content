@@ -27,6 +27,14 @@ In [[mathematics]], the term *quantum topology* is used for the [[low-dimensiona
 
 In practice, the subject overlaps with the subject of [[quantum algebra]] (including in classifications at arXiv).
 
+## Related concepts
+
+* [[topological quantum field theory]]
+
+* [[low-dimensional topology]]
+
+* [[string topology]]
+
 ## References
 
 * [[David Yetter]] (ed.), *Quantum Topology*, World Scientific (1994) &lbrack;[doi:10.1142/2322](https://doi.org/10.1142/2322)&rbrack;
