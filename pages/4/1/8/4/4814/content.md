@@ -75,6 +75,11 @@ BF theory was maybe first considered in
 
 * [[Gary Horowitz]], _Exactly soluable diffeomorphism invariant theories_ Commun. Math. Phys. 125, 417-437 (1989)
 
+Review:
+
+
+* Danny Birmingham, [[Matthias Blau]], Mark Rakowski, [[George Thompson]], section 6.2 of: *Topological field theory*, Physics Reports **209** 4–5 (1991) 129-340 \[<a href="https://doi.org/10.1016/0370-1573(91)90117-5">doi:10.1016/0370-1573(91)90117-5</a>\]
+
 The observation that the BF-theory action functional looks like it should be read as a functional on a space of  [[∞-Lie algebra valued forms]] with values in a [[strict Lie 2-algebra]] possibly appears in print first in <a href="http://arxiv.org/PS_cache/hep-th/pdf/0309/0309173v2.pdf#page=22">section 3.9</a> of 
 
 * [[Florian Girelli]], Hendryk Pfeiffer, _Higher gauge theory -- differential versus integral formulation_, [arXiv:hep-th/0309173](http://arxiv.org/abs/hep-th/0309173)
