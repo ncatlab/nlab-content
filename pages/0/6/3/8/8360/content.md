@@ -25,7 +25,7 @@ Introducing [[conformal field theory]]:
 
 * [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
 
-Early discussion of [[Wilson loop]] [[quantum observables]] in [[circle group|$U(1)$]]-[[Chern-Simons theory]]:
+Early discussion of [[renormalization]] of [[Wilson loop]] [[quantum observables]] in [[abelian Chern-Simons theory]]:
 
 * [[Alexander M. Polyakov]]: *Fermi-Bose transmutation induced by gauge fields*, Modern Physics Letters A **03** 03 (1988) 325-328 &lbrack;[doi:10.1142/S0217732388000398](https://doi.org/10.1142/S0217732388000398)&rbrack;
 
