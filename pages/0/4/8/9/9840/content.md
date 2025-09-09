@@ -1,9 +1,12 @@
 
-__Aiyalam Parameswaran Balachandran__ is an Indian-American theoretical physicist, retired from the Syracuse University. 
+Aiyalam Parameswaran Balachandran (1938-2025)  was an Indian-American theoretical physicist, retired from the Syracuse University. 
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/A._P._Balachandran)
 
 * [inSpire page](https://inspirehep.net/authors/1017586)
+
+* [[V. P. Nair]]: *A.P. Balachandran: Living in Physics* &lbrack;[arXiv:2509.06139](https://arxiv.org/abs/2509.06139)&rbrack;
+
 
 
 ## Selected writings
