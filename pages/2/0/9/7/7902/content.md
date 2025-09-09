@@ -64,6 +64,7 @@ Wilson loop insertions may be thought of or at least related to _defects_ in the
 
 [[!include geometric Langlands QFT -- table]]
 
+
 ## Examples
 
 ### In Chern-Simons theory
@@ -126,14 +127,18 @@ For more see
 
 * {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of: _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ &lbrack;[arXiv:1007.2010](http://arxiv.org/abs/1007.2010)&rbrack;
 
-On the [[renormalization]] of Wilson loop observables in [[abelian Chern-Simons theory]]:
+On the [[renormalization]] of Wilson loop observables in [[abelian Chern-Simons theory]] (via [[framed link|framing]]):
 
 * [[Alexander Polyakov]]: *Fermi-Bose Transmutations induced by Gauge Fields*, Modern Physics Letters A **3** 3 (1988) 325-328 &lbrack;[doi:10.1142/S0217732388000398](https://doi.org/10.1142/S0217732388000398)&rbrack;
 
-* Chia-Hsiung Tze, *Linking the Gauss-Bonnet-Chern Theorem, Essential Hopf Maps and Membrane Solitons with Exotic Spin and Statistics*, in: *Differential Geometric Methods in Theoretical Physics*, NATO ASI Series **245**, Springer (1990) &lbrack;[doi:10.1007/978-1-4684-9148-7_57](https://doi.org/10.1007/978-1-4684-9148-7_57)&rbrack;
-
+* {#Witten89} [[Edward Witten]], §2.1 in: *Quantum Field Theory and the Jones Polynomial*, Commun. Math. Phys. **121** 3 (1989) 351-399 &lbrack;[doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), [euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), MR0990772 &rbrack;
 
 * G. Giavarini, C. P. Martin, [[Fernando Ruiz Ruiz]]: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nuclear Physics B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>&rbrack;
+
+Review:
+
+* [[Romesh K. Kaul]], section 3 of: *Topological Quantum Field Theories -- A Meeting Ground for Physicists and Mathematicians* &lbrack;[arXiv:hep-th/9907119](https://arxiv.org/abs/hep-th/9907119)&rbrack;
+
 
 Relation between [[Dehn surgery]] and [[Wilson loop observables]] in [[Chern-Simons theory]]:
 
