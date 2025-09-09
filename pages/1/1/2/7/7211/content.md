@@ -78,7 +78,7 @@ The ([[U-duality]]-)[[global gauge group]] of maximally [[supersymmetry|supersym
 
 Lecture notes:
 
-* F. Ruiz Ruiz, [[Peter van Nieuwenhuizen]], _Lectures on Supersymmetry and Supergravity in $2+1$ Dimensions and regularization of supersymmetric gauge theories_ ([[Nieuwenhuizen3d.pdf:file]])
+* [[Fernando Ruiz Ruiz]], [[Peter van Nieuwenhuizen]]: _Lectures on Supersymmetry and Supergravity in $2+1$ Dimensions and regularization of supersymmetric gauge theories_, in: *Recent developments in gravitation and mathematical physics. Proceedings, 2nd Mexican School, Tlaxcala, Mexico, December 1-7, 1996* &lbrack;[pdf](/nlab/files/Nieuwenhuizen3d.pdf), [inSpire:434126](https://inspirehep.net/literature/434126)&rbrack;
 
 
 A complete list of un-gauged supergravities in 3 dimensions:
