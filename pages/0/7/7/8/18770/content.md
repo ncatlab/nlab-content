@@ -29,6 +29,31 @@ SDT uses the representability of germs by an object defined intrinsically as the
 
 * [[logical topology]]
 
+* [[topology]]
+
+  * [[general topology]]
+
+  * [[applied topology]]
+
+  * [[computational topology]]
+
+  * [[low dimensional topology]]
+
+  * [[geometric topology]]
+
+  * [[differential topology]]
+
+    * synthetic differential topology
+
+    * [[equivariant differential topology]]
+
+  * [[algebraic topology]]
+
+    * [[nonabelian algebraic topology]]
+
+* [[homotopy theory]]
+
+
 ## References
 
 * [[Marta Bunge]] and [[Eduardo Dubuc]], _Local Concepts in Synthetic Differential Geometry and Germ Representability_, [article](https://www.researchgate.net/publication/230774975_Local_Concepts_in_Synthetic_Differential_Geometry_and_Germ_Representability)
