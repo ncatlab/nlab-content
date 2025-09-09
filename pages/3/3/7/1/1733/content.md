@@ -17,9 +17,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -78,18 +77,35 @@ The central tool for breaking down all this [[higher algebra|higher algebraic]] 
 
 ## Related entries
 
-* [[topology]], [[differential topology]]
+* [[topology]]
+
+  * [[general topology]]
+
+  * [[applied topology]]
+
+  * [[computational topology]]
+
+  * [[low dimensional topology]]
+
+  * [[geometric topology]]
+
+  * [[differential topology]]
+
+    * [[synthetic differential topology]]
+
+    * [[equivariant differential topology]]
+
+  * algebraic topology
+
+    * [[nonabelian algebraic topology]]
 
 * [[homology]]/[[cohomology]]
 
 * [[homotopy theory]], [[shape theory]]
 
-* [[rational homotopy theory]]
-
-* [[nonabelian algebraic topology]]
+  * [[rational homotopy theory]]
 
 * [[topological data analysis]]
-
 
 *  [[homotopy lifting property]], [[Hurewicz fibration]], [[Hurewicz connection]], [[Serre fibration]]
 
