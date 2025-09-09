@@ -175,6 +175,9 @@ See also:
 
 * [[Franz Ciceri]], [[Henning Samtleben]]: *Holography for the IKKT matrix model* &lbrack;[arXiv:2503.08771](https://arxiv.org/abs/2503.08771)&rbrack;
 
+* Pei-Ming Ho, [[Hikaru Kawai]], [[Harold C. Steinacker]]: *General Relativity in IIB Matrix Model* &lbrack;[arXiv:2509.06646](https://arxiv.org/abs/2509.06646)&rbrack;
+
+
 
 
 
