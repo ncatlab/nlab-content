@@ -14,9 +14,7 @@
 =--
 
 
-# Computational topology
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Overview
 
@@ -25,7 +23,6 @@
 
 ## Subareas
 
-* [[applied topology]]
 
 * [[computational homology]]
 
@@ -37,7 +34,7 @@
 
 * [[discrete Morse theory]]
 
-Related areas include
+Related areas:
 
 * [[computational homological algebra]]
 
@@ -47,6 +44,29 @@ See also:
 
 * [[constructive analysis]]
 
+* [[topology]]
+
+  * [[general topology]]
+
+  * [[applied topology]]
+
+  * [[low dimensional topology]]
+
+  * [[geometric topology]]
+
+  * [[differential topology]]
+
+    * [[synthetic differential topology]]
+
+    * [[equivariant differential topology]]
+
+  * algebraic topology
+
+    * [[nonabelian algebraic topology]]
+
+* [[homology]]/[[cohomology]]
+
+* [[homotopy theory]], [[shape theory]]
 
 ## References
 
