@@ -20,9 +20,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -184,6 +182,31 @@ The existence of the $G$-equivariant tubular neighbourhoods is for instance in [
 * [[equivariant cohomology]]
 
 * [[equivariant cobordism theory]]
+
+* [[topology]]
+
+  * [[general topology]]
+
+  * [[applied topology]]
+
+  * [[computational topology]]
+
+  * [[low dimensional topology]]
+
+  * [[geometric topology]]
+
+  * [[differential topology]]
+
+    * [[synthetic differential topology]]
+
+    * equivariant differential topology
+
+  * [[algebraic topology]]
+
+    * [[nonabelian algebraic topology]]
+
+* [[homotopy theory]]
+
 
 ## References
 
