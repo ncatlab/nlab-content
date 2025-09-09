@@ -178,6 +178,17 @@ such that three composite morphisms $(a,y,v) \to ()$ are equal.  With a suitable
 
 It is then a straightforward exercise to check that if $C$ is closed, representable, has pullbacks, and a "counit" in the sense that $C(\Gamma;) \cong C(\Gamma;d)$, then $Chu(C)$ is representable on both sides and hence a $\ast$-autonomous category, where all the structure coincides with the previous definition.
 
+### As the graph of a profunctor
+
+The category $Chu(C,d)$ can be obtained as the [[graph of a profunctor]], also called its category of elements. Indeed we consider the profunctor $H$ from $C$ to $C^op$, defined as the functor $C^{op} \times C^{op} \to Set$ given by the formula
+$$
+H(a, b)
+\quad:=\quad
+C(a \otimes b, d)
+$$
+A Chu space is thus exactly a triple $(a, b, r)$ where $r \in H(a, b)$ and a morphism of Chu spaces $(a, b, r) \to (x, y, s)$ is exactly a pair of morphisms $f : a \to x$ and $g : y \to b$ such that $H(f, 1_y)(s) = H(1_a, g)(r)$.
+
+
 
 ## Chu spaces (General case)##
 
