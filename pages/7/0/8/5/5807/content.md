@@ -43,7 +43,7 @@ The **writhe** of an oriented [[link diagram]] is defined to be the sum of the o
 
 ## References
 
-* Colin C. Adams p. 152 of: *The Knot Book -- An elementary Introduction to the Mathematical Theory of Knots*,  W. H. Freedman and Co. (1994) &lbrack;[ISBN:978-0-8218-3678-1](https://bookstore.ams.org/KNOT)&rbrack;
+* Colin C. Adams  p. 152 & pp. 185 of: *The Knot Book -- An elementary Introduction to the Mathematical Theory of Knots*,  W. H. Freedman and Co. (1994) &lbrack;[ISBN:978-0-8218-3678-1](https://bookstore.ams.org/KNOT)&rbrack;
 
 * {#Ohtsuki01} [[Tomotada Ohtsuki]], p. 523 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
 
@@ -52,4 +52,6 @@ The **writhe** of an oriented [[link diagram]] is defined to be the sum of the o
 See also:
 
 * Wikipedia: *[Writhe](https://en.wikipedia.org/wiki/Writhe)*
+
+* Wolfram MathWorld: *[Writhe](https://mathworld.wolfram.com/Writhe.html)*
 
