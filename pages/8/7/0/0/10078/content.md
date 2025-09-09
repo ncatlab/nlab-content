@@ -163,6 +163,9 @@ Further development:
 
 * [[Christian Schubert]] et al.: *Worldline integration of photon amplitudes*, talk at *[Loops and Legs in Quantum Field Theory (LL2024)](https://inspirehep.net/conferences/2693400)* &lbrack;[arXiv:2407.07383](https://arxiv.org/abs/2407.07383)&rbrack;
 
+* Joon-Hwi Kim: *Worldline formalism in phase space* &lbrack;[arXiv:2509.06058](https://arxiv.org/abs/2509.06058)&rbrack;
+
+
 
 
 
