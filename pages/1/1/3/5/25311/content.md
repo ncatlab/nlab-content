@@ -19,10 +19,33 @@ The application of [[topology]] ([[general topology]] or [[algebraic topology]])
 
 ## Related concepts
 
-* [[computational topology]]
+* [[topology]]
 
-* [[topological data analysis]]
+  * [[general topology]]
 
+  * [[applied topology]]
+
+    * [[topological data analysis]]
+
+  * [[computational topology]]
+
+  * [[low dimensional topology]]
+
+  * [[geometric topology]]
+
+  * [[differential topology]]
+
+    * [[synthetic differential topology]]
+
+    * [[equivariant differential topology]]
+
+  * algebraic topology
+
+    * [[nonabelian algebraic topology]]
+
+* [[homology]]/[[cohomology]]
+
+* [[homotopy theory]], [[shape theory]]
 ## References
 
 Textbook account:
