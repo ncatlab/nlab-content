@@ -58,13 +58,33 @@ This yields the relatively young subjects of symplectic and contact topologies, 
 
 ## Related entries
 
-* [[low dimensional topology]]
-
-* [[synthetic differential topology]]
-
-* [[equivariant differential topology]]
+* [[differential geometry]]
 
 * [[surgery]]
+
+* [[topology]]
+
+  * [[general topology]]
+
+  * [[applied topology]]
+
+  * [[computational topology]]
+
+  * low dimensional topology
+
+  * [[geometric topology]]
+
+  * differential topology
+
+    * [[synthetic differential topology]]
+
+    * [[equivariant differential topology]]
+
+  * [[algebraic topology]]
+
+    * [[nonabelian algebraic topology]]
+
+* [[homotopy theory]]
 
 
 ## References
