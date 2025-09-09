@@ -23,6 +23,9 @@ https://doi.org/10.1007/JHEP02%282018%29163">doi:10.1007/JHEP02(2018)163</a>&rbr
 
 On the [[knots-quivers correspondence]]:
 
+* Sachin Chauhan, Piotr Kucharski, Dmitry Noshchenko, Ramadevi Pichai, [[Vivek Kumar Singh]], M.Stosic, *Full twists and stability of knots and quivers
+*, &lbrack;[arXiv:2508.18417](https://arxiv.org/abs/2508.18417)&rbrack;
+
 * [[Vivek Kumar Singh]], S. Chauhan, A. Dwivedi, P. Ramadevi, B.P. Mandal, S. Dwivedi, *Knot-Quiver correspondence for double twist knots*, Phys. Rev. D 108 (2023) 10, **106023** &lbrack;[arXiv:2303.07036](https://arxiv.org/abs/2303.07036),<a href="https://doi.org/10.1103/PhysRevD.108.106023"> doi:10.1103/PhysRevD.108.106023</a>&rbrack;
 
 On [[knot theory]]:
