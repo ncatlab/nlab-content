@@ -40,7 +40,7 @@ The most natural [[morphisms]] between cocomplete categories are the [[cocontinu
 
 Many familiar categories of mathematical structures are cocomplete: to name just a few examples, [[Set]], [[Grp]], [[Ab]], [[Vect]] and [[Top]] are cocomplete.
 
-For a small category $C$, the presheaf category $[C^{op},Set]$ is cocomplete, and the [[Yoneda embedding]] exhibits it as the [[free cocompletion]] of $C$.
+For a small category $C$, the [[category of presheaves|presheaf category]] $[C^{op},Set]$ is cocomplete, and the [[Yoneda embedding]] exhibits it as the [[free cocompletion]] of $C$.
 
 ## The 2-category of cocomplete categories
 
