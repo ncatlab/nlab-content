@@ -14,13 +14,13 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
 The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of [[2-manifolds]] ([[surfaces]]), [[3-manifolds]] and [[4-manifolds]], but also [[8-manifolds]]
+
 
 ## Related entries
 
@@ -33,6 +33,31 @@ The study of the [[topology]] of [[manifolds]] of low [[dimension]], notably of 
 * [[knot theory]], [[quantum topology]], [[string topology]]
 
 * [[SnapPy]]
+
+* [[topology]]
+
+  * [[general topology]]
+
+  * [[applied topology]]
+
+  * [[computational topology]]
+
+  * low dimensional topology
+
+  * [[geometric topology]]
+
+  * [[differential topology]]
+
+    * [[synthetic differential topology]]
+
+    * [[equivariant differential topology]]
+
+  * [[algebraic topology]]
+
+    * [[nonabelian algebraic topology]]
+
+* [[homotopy theory]]
+
 
 [[!include low dimensional manifolds -- table]]
 
