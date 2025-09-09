@@ -25,6 +25,10 @@ On [[higher dimensional Chern-Simons theory|higher dimensional]] [[abelian Chern
 
 * Abhishek Agarwal, Dimitra Karabali, [[V. Parameswaran Nair]]: *Fractional quantum Hall effect in higher dimensions*, Phys. Rev. D **111** (2025) 025002 \[<a href="https://doi.org/10.1103/PhysRevD.111.025002">doi:10.1103/PhysRevD.111.025002</a>, <a href="https://arxiv.org/abs/2410.14036">arXiv:2410.14036</a>\]
 
+On [[A. P. Balachandran]]:
+
+* [[V. P. Nair]]: *A.P. Balachandran: Living in Physics* &lbrack;[arXiv:2509.06139](https://arxiv.org/abs/2509.06139)&rbrack;
+
 
 
 category: people
