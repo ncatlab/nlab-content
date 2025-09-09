@@ -68,6 +68,9 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 Survey:
 
+
+* Danny Birmingham, [[Matthias Blau]], Mark Rakowski, [[George Thompson]], section 6.1.6 in: *Topological field theory*, Physics Reports **209** 4–5 (1991) 129-340 \[<a href="https://doi.org/10.1016/0370-1573(91)90117-5">doi:10.1016/0370-1573(91)90117-5</a>\]
+
 * [[Steve Carlip]], *Quantum Gravity in 2+1 Dimensions*, in:  *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.12596](https://arxiv.org/abs/2312.12596)&rbrack;
 
 Towards relating [[ADM mass|ADM parameterization]] and rhe [[Wheeler-DeWitt equation]] of 3d gravity with [[negative number|negative]] [[cosmological constant]] to [[AdS/CFT duality]]:
