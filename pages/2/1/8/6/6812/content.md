@@ -1,8 +1,7 @@
 
+Peter van Nieuwenhuizen is one of the co-discoveres of [[supergravity]] ([[D=4 supergravity]]).
 
 * [webpage](http://insti.physics.sunysb.edu/physics/forms/profilesearch.cgi?lastname=van%20nieuwenhuizen)
-
-One of the co-discoveres of [[supergravity]] ([[4d supergravity]]).
 
 ## Selected writings
 
@@ -36,15 +35,19 @@ On [[D=7 supergravity]] (as [[gauged supergravity]]):
 
 * [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_, Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
 
+On [[D=3 supergravity]]:
+
+* [[Fernando Ruiz Ruiz]], [[Peter van Nieuwenhuizen]]: _Lectures on Supersymmetry and Supergravity in $2+1$ Dimensions and regularization of supersymmetric gauge theories_, in: *Recent developments in gravitation and mathematical physics. Proceedings, 2nd Mexican School, Tlaxcala, Mexico, December 1-7, 1996* &lbrack;[pdf](/nlab/files/Nieuwenhuizen3d.pdf), [inSpire:434126](https://inspirehep.net/literature/434126)&rbrack;
+
 
 
 On the early history of [[supergravity]]:
 
-* {#vanNieuwenhuizen1993} van Nieuwenhuizen, _Some personal recollections about the discovery of supergravity_, 1993 ([pdf](http://www.iaea.org/inis/collection/NCLCollectionStore/_Public/30/028/30028372.pdf), [[vanNieuwenhuizen1993.pdf:file]])
+* {#vanNieuwenhuizen1993} van Nieuwenhuizen, _Some personal recollections about the discovery of supergravity_ (1993) &lbrack;[pdf](http://www.iaea.org/inis/collection/NCLCollectionStore/_Public/30/028/30028372.pdf), [[vanNieuwenhuizen1993.pdf:file]]&rbrack;
 
-Part of this story also appears as
+Part of this story also appears as:
 
-* David Appell, _When supergravity was born_, 2012 ([pdf](http://www.davidappell.com/articles/PWSep12appell-supergravity.pdf))
+* David Appell, _When supergravity was born_, (2012) &lbrack;[pdf](http://www.davidappell.com/articles/PWSep12appell-supergravity.pdf)&rbrack;
 
 
 ## Related entries
