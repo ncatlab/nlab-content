@@ -181,11 +181,13 @@ In one respect, a locally convex TVS is a [[nice topological space]] in that the
 
 ## References
 
-* J. L. Taylor, _Notes on locally convex topological vector spaces_ (1995) ([Wayback Machine](https://web.archive.org/web/20150326124308/https://www.math.utah.edu/~taylor/LCS.pdf))
+* {#Taylor95} J. L. Taylor: _Notes on locally convex topological vector spaces_ (1995) &lbrack;[[Taylor-LCTVS.pdf:file]]&rbrack;
 
-* {#Tao09} [[Terence Tao]], _[Duality and the Hahn-Banach theorem](http://terrytao.wordpress.com/2009/01/26/245b-notes-6-duality-and-the-hahn-banach-theorem/)_, 2009
+* Wikipedia: *[Locally convex topological vector space](https://en.wikipedia.org/wiki/Locally_convex_topological_vector_space)*
 
-* {#Infusino17} Maria Infusino, _[Topological vector spaces](http://www.math.uni-konstanz.de/~infusino/TVS-SS17/teachingSS2017.html)_ 2017
+* {#Tao09} [[Terence Tao]]: _[Duality and the Hahn-Banach theorem](http://terrytao.wordpress.com/2009/01/26/245b-notes-6-duality-and-the-hahn-banach-theorem/)_ (2009)
+
+* {#Infusino17} Maria Infusino: _[Topological vector spaces](http://www.math.uni-konstanz.de/~infusino/TVS-SS17/teachingSS2017.html)_ (2017)
 
 Generalizing the [[Tietze extension theorem]] to [[codomains]] which are [[locally convex topological vector spaces]]:
 
