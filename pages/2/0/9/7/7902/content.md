@@ -115,6 +115,7 @@ On super-[[Wilson lines]] via [[integration over supermanifolds]]:
 * C.A. Cremonini, [[Pietro Grassi]], S. Penati, _Supersymmetric Wilson Loops via Integral Forms_ ([arXiv:2003.01729](https://arxiv.org/abs/2003.01729))
 
 ### In Chern-Simons theory
+ {#ReferencesInChernSimonsTheory}
 
 > See also at *[[perturbative quantization of 3d Chern-Simons theory]]* and at *[[Vassiliev knot invariants]]*.
 
