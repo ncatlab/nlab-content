@@ -16,9 +16,9 @@
 =--
 =--
 
-# locally
-* table of contents
-{: toc}
+\tableofcontents
+
+
 
 ## Meanings
 
@@ -31,11 +31,11 @@ A [[category]] $C$ may be called "locally $P$" (for some property $P$) if each [
 
 Examples include the notion of *[[locally cartesian closed categories]]*, i.e. those categories all whose [[slice categories]] are [[cartesian closed categories]].
 
-In some cases (as in &lbrack;[Maietti 2010](arithmetic+pretopos#Maietti10)&rbrack;), it may additionally mean that the property $P$ is preserved by the pullback functor $f^* : C/Y \rightarrow C/X$ for each arrow $f : X \rightarrow Y$ in C.
+In some cases (as in &lbrack;[Maietti 2010](arithmetic+pretopos#Maietti10)&rbrack;), it may additionally mean that the property $P$ is preserved by the [[pullback]] ([[base change]]) [[functor]] $f^* \colon C/Y \rightarrow C/X$ for each [[morphism]] $f \colon X \rightarrow Y$ in $C$.
 
 ### Hom-wise
 
-A [[2-category]] $K$ (or more generally an [[enriched category]]) may be called "locally $P$" (for some property $P$) if each [[hom-category]] (or more generally [[hom-object]]) $K[X, Y]$ is $P$. Examples include [[locally-small categories]], [[locally discrete 2-categories]], and [[locally graded category|locally graded and locally indexed categories]]. Corresponding, we have terminology like [[local colimits]].
+A [[2-category]] $K$ (or more generally an [[enriched category]]) may be called "locally $P$" (for some property $P$) if each [[hom-category]] (or more generally [[hom-object]]) $K[X, Y]$ is $P$. Examples include [[locally small categories]], [[locally discrete 2-categories]], and [[locally graded category|locally graded and locally indexed categories]]. Corresponding, we have terminology like *[[local colimits]]*.
 
 ### Stalk-wise
 
