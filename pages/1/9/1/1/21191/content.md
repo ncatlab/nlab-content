@@ -26,6 +26,10 @@ and to [[closed string field theory]]:
 
 * M. Fukuma, [[Hikaru Kawai]], Y. Kitazawa, A. Tsuchiya, _String Field Theory from IIB Matrix Model_, Nucl.Phys.B510:158-174,1998 ([arXiv:hep-th/9705128](http://arxiv.org/abs/hep-th/9705128))
 
+and to [[general relativity]]:
+
+* Pei-Ming Ho, [[Hikaru Kawai]], [[Harold C. Steinacker]]: *General Relativity in IIB Matrix Model* &lbrack;[arXiv:2509.06646](https://arxiv.org/abs/2509.06646)&rbrack;
+
 
 
 category: people
