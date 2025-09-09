@@ -263,7 +263,7 @@ course is also immediately checked explicitly.
 
   * [[under category]]
 
-  * [[over topos]]
+  * [[coslice category]] / [[over topos]]
 
 * [[slice 2-category]]
 
