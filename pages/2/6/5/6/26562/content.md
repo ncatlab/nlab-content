@@ -100,6 +100,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[idempotent completion|Idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structural consequences, proven in [FGLPS'23](#markov_supports).
 
+* [[stochastic independence|Stochastic independence]] and [[conditional independence]] in terms of [[dagger categories]]: [Stein'25](#stein_RV), [dMHLPS'25](#dagger_relations).
+
 * [[imprecise probability|Imprecise probability]] in terms of graded monads and string diagrams: [LC-Staton'25](#imprecise_graded) and [Sarkis-Zanasi'25](#string_graded).
 
 * [[Kantorovich duality]] in terms of [[probability monads]]: [Perrone'18](#Perrone_thesis), [Fritz-Perrone'19](#FPKant), [Fritz-Perrone'20](#orderedkantorovich).
@@ -212,13 +214,13 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Constructions of free Markov and CD categories: [Fritz-Liang'23](#free_gs).
 
-* Notions of [[conditional independence]] as [[universal properties]]: [Simpson'18](#independence), [Simpson'24](#atomic_sheaf), [Stein'25](#stein_RV).
+* Notions of [[conditional independence]] as [[universal properties]]: [Simpson'18](#independence), [Simpson'24](#atomic_sheaf), [Stein'25](#stein_RV), [dMHLPS'25](#dagger_relations).
 
 * Study of joint and marginal distributions for [[probability monads]]: [Fritz-Perrone'18](#bimonoidal_monads).
 
-* Markov categories for [[partial maps]]: [Di Lavore-Román'23](#partial_markov) and [DLRS'25](#partial_markov_ext).
+* Markov categories for [[partial maps]]: [Di Lavore-Román'23](#partial_markov), [DLRS'25](#partial_markov_ext), and [SM'25](#areeb_partial).
 
-* Connections between [[Markov categories]] and [[categories of couplings]]: [Fritz'20](#fritzmarkov), [Ensarguet-Perrone'23](#ergodic_dagger), [Stein'25](#stein_RV).
+* Connections between [[Markov categories]] and [[categories of couplings]]: [Fritz'20](#fritzmarkov), [Ensarguet-Perrone'23](#ergodic_dagger), [Stein'25](#stein_RV), [dMHLPS'25](#dagger_relations).
 
 * Connections between [[Markov categories]] and [[probability monads]]: [Golubtsov'02](#golubtsov02), [FGPR'23](#fritz_representable), [Moss-Perrone'22](#det_submonad), [FGGPS'23](#dilations), [BP'25](#bohinen).
 
@@ -302,6 +304,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#partial_markov} Elena Di Lavore and Mario Román, _Evidential Decision Theory via Partial Markov Categories_, Proceedings of LICS, 2023. ([arXiv](https://arxiv.org/abs/2301.12989))
 
 * {#partial_markov_ext} Elena Di Lavore, Mario Román and Paweł Sobociński, _Partial Markov Categories_, 2025. ([arXiv](https://arxiv.org/abs/2502.03477))
+
+* {#dagger_relations} Matthew Di Meglio, Chris Heunen, Jean-Simon Pacaud Lemay, Paolo Perrone and Dario Stein, _Dagger categories of relations: the equivalence of dilatory dagger categories and epi-regular independence categories_, 2025. ([arXiv](https://arxiv.org/abs/2508.01146))
 
 * {#ergodic_dagger} Noé Ensarguet, [[Paolo Perrone]], Categorical probability spaces, ergodic decompositions, and transitions to equilibrium, [arXiv:2310.04267](https://arxiv.org/abs/2310.04267)
 
@@ -482,6 +486,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#Perrone_thesis} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, 2018 ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
 
 * {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, Proceedings of POPL, 2021. ([arXiv](https://arxiv.org/abs/2007.08638))
+
+* {#areeb_partial} Areeb Shah-Mohammed, _Partializations of Markov categories_, 2025. ([arXiv](https://arxiv.org/abs/2509.05094))
 
 * {#probability_sheaves} [[Alex Simpson]], _Probability Sheaves and the Giry Monad_, 2017 ([pdf](https://drops.dagstuhl.de/storage/00lipics/lipics-vol072-calco2017/LIPIcs.CALCO.2017.1/LIPIcs.CALCO.2017.1.pdf))
 
