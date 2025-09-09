@@ -115,31 +115,39 @@ On super-[[Wilson lines]] via [[integration over supermanifolds]]:
 
 ### In Chern-Simons theory
 
-See at [[perturbative quantization of 3d Chern-Simons theory]]/[[Vassiliev knot invariants]].
-
-Relation between [[Dehn surgery]] and [[Wilson loop observables]] in [[Chern-Simons theory]]:
-
-* E. Guadagnini, _Surgery rules in quantum Chern-Simons field theory_, Nuclear Physics B
-Volume 375, Issue 2, 18 May 1992, Pages 381-398 (<a href="https://doi.org/10.1016/0550-3213(92)90037-C">doi:10.1016/0550-3213(92)90037-C</a>)
-
-* Boguslaw Broda, _Chern-Simons theory on an arbitrary manifold via surgery_ ([arXiv:hep-th/9305051](https://arxiv.org/abs/hep-th/9305051))
+> See also at *[[perturbative quantization of 3d Chern-Simons theory]]* and at *[[Vassiliev knot invariants]]*.
 
 
-The [[Poisson bracket]] of Wilson line observables in [[3d Chern-Simons theory]] was obtained in 
+The [[Poisson bracket]] of Wilson line observables in [[3d Chern-Simons theory]] was obtained in:
 
-* W. Goldman, _Invariant functions on Lie groups and Hamiltonian flow of surface
-group representations_, Inventiones Math., 85 (1986), 263&#8211;302.
+* W. M. Goldman: _Invariant functions on Lie groups and Hamiltonian flow of surface group representations_, Inventiones Math. **85** (1986) 263-302 &lbrack;[doi:10.1007/BF01389091](https://doi.org/10.1007/BF01389091)&rbrack;
 
 For more see 
 
-* {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
+* {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of: _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ &lbrack;[arXiv:1007.2010](http://arxiv.org/abs/1007.2010)&rbrack;
+
+On the [[renormalization]] of Wilson loop observables in [[abelian Chern-Simons theory]]:
+
+* [[Alexander Polyakov]]: *Fermi-Bose Transmutations induced by Gauge Fields*, Modern Physics Letters A **3** 3 (1988) 325-328 &lbrack;[doi:10.1142/S0217732388000398](https://doi.org/10.1142/S0217732388000398)&rbrack;
+
+* Chia-Hsiung Tze, *Linking the Gauss-Bonnet-Chern Theorem, Essential Hopf Maps and Membrane Solitons with Exotic Spin and Statistics*, in: *Differential Geometric Methods in Theoretical Physics*, NATO ASI Series **245**, Springer (1990) &lbrack;[doi:10.1007/978-1-4684-9148-7_57](https://doi.org/10.1007/978-1-4684-9148-7_57)&rbrack;
 
 
-In [[Chern-Simons theory as a topological string theory]]:
+* G. Giavarini, C. P. Martin, [[Fernando Ruiz Ruiz]]: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nuclear Physics B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>&rbrack;
+
+Relation between [[Dehn surgery]] and [[Wilson loop observables]] in [[Chern-Simons theory]]:
+
+* E. Guadagnini, _Surgery rules in quantum Chern-Simons field theory_, Nuclear Physics B **375** 2, 18 (1992) 381-398 &lbrack;<a href="https://doi.org/10.1016/0550-3213(92)90037-C">doi:10.1016/0550-3213(92)90037-C</a>&rbrack;
+
+* Boguslaw Broda, _Chern-Simons theory on an arbitrary manifold via surgery_ ([arXiv:hep-th/9305051](https://arxiv.org/abs/hep-th/9305051))
+
+In the context of [[Chern-Simons theory as a topological string theory]]:
 
 * [[Hirosi Ooguri]], [[Cumrun Vafa]], _Knot Invariants and Topological Strings_, Nucl. Phys. B 577:419-438, 2000 ([arXiv:hep-th/9912123](https://arxiv.org/abs/hep-th/9912123))
 
+
 [[!include Jones polynomial as Wilson loop observable -- references]]
+
 
 [[!include Chern-Simons Wilson lines in AdS3-CFT2 -- references]]
 
