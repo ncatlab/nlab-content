@@ -63,8 +63,8 @@ Section A1.4 and example C2.1.12 in
 
 [[!redirects geometric coverage]]
 [[!redirects geometric coverages]]
-[[!redirects geometric topology]]
-[[!redirects geometric topologies]]
+
+
 [[!redirects geometric Grothendieck topology]]
 [[!redirects geometric Grothendieck topologies]]
 [[!redirects geometric site]]
