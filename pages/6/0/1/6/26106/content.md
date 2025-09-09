@@ -58,11 +58,15 @@ On its [[non-perturbative effects|non-perturbative nature]]:
 
 Review:
 
+* Danny Birmingham, [[Matthias Blau]], Mark Rakowski, [[George Thompson]], section 3.2 of: *Topological field theory*, Physics Reports **209** 4–5 (1991) 129-340 \[<a href="https://doi.org/10.1016/0370-1573(91)90117-5">doi:10.1016/0370-1573(91)90117-5</a>\]
+
 * [[Olaf Lechtenfeld]], *The Nicolai-map approach to supersymmetry* &lbrack;[arXiv:2309.00481](https://arxiv.org/abs/2309.00481)&rbrack;
 
 On the Nicolai map for the [[CP^N sigma-model|$\mathbb{C}P^n$ sigma-model]]:
 
 * [[Lorenzo Casarin]], [[Olaf Lechtenfeld]], [[Maximilian Rupprecht]], *Nicolai maps with four-fermion interactions* &lbrack;[arXiv:2310.19946](https://arxiv.org/abs/2310.19946)&rbrack;
+
+* [[Olaf Lechtenfeld]]: *Nicolai maps for supersymmetric sigma models* &lbrack;[arXiv:2409.18855](https://arxiv.org/abs/2409.18855)&rbrack;
 
 For [[D=4 SYM]] and [[D=10 SYM]] in [[light cone gauge]]:
 
@@ -72,9 +76,8 @@ For [[super Yang-Mills theory]] in [[light cone gauge]]:
 
 * Nipun Bhave, Saurabh Pant, *Nicolai maps and uniqueness in the light-cone gauge* &lbrack;[arXiv:2406.18238](https://arxiv.org/abs/2406.18238)&rbrack;
 
-See also:
 
-* [[Olaf Lechtenfeld]]: *Nicolai maps for supersymmetric sigma models* &lbrack;[arXiv:2409.18855](https://arxiv.org/abs/2409.18855)&rbrack;
+
 
 
 
