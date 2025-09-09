@@ -13,10 +13,7 @@
 =--
 =--
 
-
-# Linking numbers
-* table of contents
-{: toc}
+\tableofcontents
 
 
 ## Definitions
@@ -181,6 +178,21 @@ An immediate consequence of the fact that the sum of the signs of the crossings 
 * [[crossing number]]
 
 ## References
+
+Early discussion of the Gauss [[integral]] expression for the (self-)linking number:
+
+* G. Călugăreanu: *L'intégral de Gauss et l'analyse des noeuds tridimensionnels*, Rev.
+Math. Pures Appl. **4** (1959) 5-20
+
+* William F. Pohl: *The Self-Linking Number of a Closed Space Curve*, Journal of Mathematics and Mechanics **17** 10 (1968) 975-985 &lbrack;[jstor:24902091](https://www.jstor.org/stable/24902091)&rbrack;
+
+* James Harris White: *Self-linking and the Gauss integral in higher dimensions*, PhD thesis,  University of Minnesota (1968) &lbrack;[proquest:302348230](https://www.proquest.com/docview/302348230/fulltextPDF/E0280293F89A4788PQ/1?accountid=12768&sourcetype=Dissertations%20&%20Theses)&rbrack;
+
+See also:
+
+* MathWorld: *[Călugăreanu Theorem](https://mathworld.wolfram.com/CalugareanuTheorem.html)*
+
+Review:
 
 * {#Ohtsuki01} [[Tomotada Ohtsuki]], pp 7 in: *Quantum Invariants -- A Study of Knots, 3-Manifolds, and Their Sets*, World Scientific (2001) &lbrack;[doi:10.1142/4746](https://doi.org/10.1142/4746)&rbrack;
 
