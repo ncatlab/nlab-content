@@ -1428,13 +1428,32 @@ $\,$
  {#RelatedEntries}
 
 
-* [[algebraic topology]]
+* topology
 
-* [[computational topology]]
+  * [[general topology]]
 
-* [[applied topology]]
+  * [[applied topology]]
 
-  [[topological data analysis]]
+    * [[topological data analysis]]
+
+  * [[computational topology]]
+
+  * [[low dimensional topology]]
+
+  * [[geometric topology]]
+
+  * [[differential topology]]
+
+    * [[synthetic differential topology]]
+
+    * [[equivariant differential topology]]
+
+  * [[algebraic topology]]
+
+    * [[nonabelian algebraic topology]]
+
+* [[homotopy theory]]
+
 
 
 
