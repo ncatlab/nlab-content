@@ -123,7 +123,7 @@ The following notes deal with the theory modelled on coconnective [[commutative 
 
 The following notes deal with the theory modelled on [[E-infinity ring spectra]] ([[E-infinity geometry]]):
 
-* [[Clark Barwick]], _Applications of derived algebraic geometry to homotopy theory_, lecture notes, mini-course in Salamanca, 2009, [pdf](https://dl.dropboxusercontent.com/u/1741495/papers/salamanca.pdf).
+* [[Clark Barwick]], _Applications of derived algebraic geometry to homotopy theory_, lecture notes, mini-course in Salamanca, 2009, [pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/salamanca.pdf).
 
 See also the surveys
 
