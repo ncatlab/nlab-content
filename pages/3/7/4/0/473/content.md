@@ -61,9 +61,11 @@ While the tangle hypothesis and its generalizations may be seen as refinements o
 
 * [[cobordism hypothesis]]
 
+* [[open problems in category theory]]
+
 ## References
 
-* {#BaezDolan95} [[John Baez]] and [[James Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002)) 
+* {#BaezDolan95} [[John Baez]], [[James Dolan]]: _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002)) 
 
 * {#LurieCTFT}[[Jacob Lurie]], [[On the Classification of Topological Field Theories]]  ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
