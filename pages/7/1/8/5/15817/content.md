@@ -1,6 +1,14 @@
 
 
-* [webpage](http://www.damtp.cam.ac.uk/user/tong/)
+* [personal page](http://www.damtp.cam.ac.uk/user/tong/)
+
+* <a href="https://en.wikipedia.org/wiki/David_Tong_(physicist)">Wikipedia entry</a>
+
+* [inSpire page](https://inspirehep.net/authors/985896)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=felFiY4AAAAJ&hl=en)
+
+
 
 ## Selected writings
 
@@ -63,6 +71,11 @@ On [[triality]] and its application on [[string theory]]:
 
 * {#TongTurner19} [[David Tong]], Carl Turner, _Notes on 8 Majorana Fermions_ ([arXiv:1906.07199](https://arxiv.org/abs/1906.07199))
 
+On [[gauge theory]]:
+
+* [[David Tong]]: *Lectures on Gauge Theory* &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html)&rbrack;
+
+
 On the [[quantum Hall effect]] and [[Laughlin wavefunctions]]:
 
 * {#Tong16} [[David Tong]]: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
@@ -71,8 +84,7 @@ On the [[quantum Hall effect]] and [[Laughlin wavefunctions]]:
 Discussion of [[anomaly cancellation]] on the [[standard model of particle physics]]:
 
 * Nakarin Lohitsiri, [[David Tong]], _Hypercharge Quantisation and Fermat's Last Theorem_ ([arXiv:1907.00514](https://arxiv.org/abs/1907.00514))
-
-  (relating to [[Fermat's last theorem]])
+  > (relating to [[Fermat's last theorem]])
 
 On [[supersymmetric quantum mechanics]]:
 
@@ -85,7 +97,8 @@ On [[The Unreasonable Effectiveness of Physics in the Mathematical Sciences]]:
 
 * {#Tong17} [[David Tong]], _The Unreasonable Effectiveness of Physics in Mathematics_, [LMS Popular Lecture](https://www.lms.ac.uk/events/popular-lectures) 2017 ([webpage](https://www.maths.cam.ac.uk/features/lms-popular-lecture-unreasonable-effectiveness-physics-mathematics-david-tong), [talk recording](https://youtu.be/UVuKyZ4pBzg))
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[string theory]]
 
