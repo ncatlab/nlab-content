@@ -31,7 +31,7 @@ A [[category]] $C$ may be called "locally $P$" (for some property $P$) if each [
 
 Examples include the notion of *[[locally cartesian closed categories]]*, i.e. those categories all whose [[slice categories]] are [[cartesian closed categories]].
 
-In some cases (as in &lbrack;[Maietti 2010](arithmetic+pretopos#Maietti10)&rbrack;), it may additionally mean that the property $P$ is preserved by the [[pullback]] ([[base change]]) [[functor]] $f^* \colon C/Y \rightarrow C/X$ for each [[morphism]] $f \colon X \rightarrow Y$ in $C$.
+In some cases (as in &lbrack;[Maietti 2010](#Maietti10)&rbrack;), it may additionally mean that the property $P$ is preserved by the [[pullback]] ([[base change]]) [[functor]] $f^* \colon C/Y \rightarrow C/X$ for each [[morphism]] $f \colon X \rightarrow Y$ in $C$.
 
 ### Hom-wise
 
@@ -66,5 +66,11 @@ For this reason, it is often worth considering whether a different term than "lo
 ## Related pages
 
 - [[bi-]]
+
+## References
+
+
+* {#Maietti10} [[Maria E. Maietti]], _Joyal's arithmetic universe as list-arithmetic pretopos_, TAC **24** 3 (2010) 39-83 &lbrack;[tac:24-03](http://www.tac.mta.ca/tac/volumes/24/3/24-03abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/24/3/24-03.pdf)&rbrack;
+
 
 category: disambiguation
