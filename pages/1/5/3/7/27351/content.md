@@ -436,9 +436,14 @@ On the other hand, the K-matrix formalism may be the natural description of *mul
 * G. Giavarini, C. P. Martin, [[Fernando Ruiz Ruiz]]: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nucl. Phys. B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>, [pdf](https://inis.iaea.org/collection/NCLCollectionStore/_Public/25/053/25053343.pdf)&rbrack;
   > (on the [[renormalization]] of [[Wilson loop]] [[quantum observables|observables]])
 
+* [[Gerald V. Dunne]]: *Aspects of Chern-Simons Theory*, in: *Topological aspects of low dimensional systems*, Les Houches -- École d'Été de Physique Théorique **69**, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1_3](https://doi.org/10.1007/3-540-46637-1_3), [arXiv:hep-th/9902115](https://arxiv.org/abs/hep-th/9902115)&rbrack;
+
 * {#Manoliu98a} Mihaela Manoliu: *Abelian Chern-Simons theory*, J. Math. Phys. **39** (1998) 170-206 &lbrack;[arXiv:dg-ga/9610001](https://arxiv.org/abs/dg-ga/9610001), [doi:10.1063/1.532333](https://doi.org/10.1063/1.532333)&rbrack;
 
 * {#Manoliu98b} Mihaela Manoliu: *Abelian Chern-Simons theory. II: A functional integral approach*, J. Math.Phys. **39** (1998) 207-217 &lbrack;[doi:10.1063/1.532312](https://doi.org/10.1063/1.532312)&rbrack;
+
+* V. S. Alves, [[Ashok Das]], Silvana Perez: *Screening Length in $2+1$-dimensional Abelian Chern-Simons Theories*, Phys. Lett. B **531** (2002) 289-300 &lbrack;[arXiv:hep-th/0201207](https://arxiv.org/abs/hep-th/0201207), <a href="https://doi.org/10.1016/S0370-2693(02)01486-7">doi:10.1016/S0370-2693(02)01486-7</a>&rbrack;
+
 
 * {#BelovMoore05} Dmitriy Belov, [[Gregory W. Moore]]: *Classification of abelian spin Chern-Simons theories* &lbrack;[arXiv:hep-th/0505235](https://arxiv.org/abs/hep-th/0505235)&rbrack;
   > (with focus on refinement to [[Spin Chern-Simons theory]])
@@ -447,10 +452,15 @@ On the other hand, the K-matrix formalism may be the natural description of *mul
 
 * [[Lisa Jeffrey]], Brendan McLellan: *Eta-Invariants and Anomalies in $U(1)$ Chern-Simons Theory* &lbrack;[arXiv:1004.2913](https://arxiv.org/abs/1004.2913)&rbrack;
 
+* [[Enore Guadagnini]], [[Frank Thuillier]]: *Deligne-Beilinson cohomology and abelian links invariants*, SIGMA **4** (2008) 078 &lbrack;[arXiv:0801.1445](https://arxiv.org/abs/0801.1445), [doi:10.3842/SIGMA.2008.078](https://doi.org/10.3842/SIGMA.2008.078)&rbrack;
+
+* [[Enore Guadagnini]], [[Frank Thuillier]]: *Three-manifold invariant from functional integration*, J. Math. Phys. **54** (2013) 082302 &lbrack;[arXiv:1301.6407](https://arxiv.org/abs/1301.6407), [doi:10.1063/1.4818738](https://doi.org/10.1063/1.4818738)&rbrack;
+
+* [[Enore Guadagnini]], [[Frank Thuillier]]: *Path-integral invariants in abelian Chern–Simons theory*, Nuclear Physics B **882** (2014) 450-484 &lbrack;[doi:10.1016/j.nuclphysb.2014.03.009](https://doi.org/10.1016/j.nuclphysb.2014.03.009), [arXiv:1402.3140](https://arxiv.org/abs/1402.3140)&rbrack;
 
 * Diego Delmastro, [[Jaume Gomis]]: *Symmetries of Abelian Chern-Simons Theories and Arithmetic*, J. High Energ. Phys. **2021** 6 (2021) &lbrack;<a href="https://doi.org/10.1007/JHEP03(2021)006">doi:10.1007/JHEP03(2021)006</a>, [arXiv:1904.12884](https://arxiv.org/abs/1904.12884)&rbrack;
 
-* Han-Miru Kim, Philippe Mathieu, Michail Tagaris, Frank Thuillier: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality* &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734)&rbrack;
+* Han-Miru Kim, Philippe Mathieu, Michail Tagaris, [[Frank Thuillier]]: *$U(1)^n$ Chern-Simons theory: partition function, reciprocity formula and CS-duality* &lbrack;[arXiv:2409.10734](https://arxiv.org/abs/2409.10734)&rbrack;
 
 
 Many general reviews of [[Chern-Simons theory]] have a section focused on the abelian case, for instance:
@@ -468,9 +478,9 @@ On the [[light-cone quantization]] of abelian Chern-Simons theory:
 
 Via the [[Reshetikhin-Turaev construction]]:
 
-* Enore Guadagnini, Francesco Mancarella: *Abelian link invariants and homology*, J. Math. Phys. **51** (2010) 062301 &lbrack;[arXiv:1004.5211](https://arxiv.org/abs/1004.5211)&rbrack;
+* [[Enore Guadagnini]], Francesco Mancarella: *Abelian link invariants and homology*, J. Math. Phys. **51** (2010) 062301 &lbrack;[arXiv:1004.5211](https://arxiv.org/abs/1004.5211)&rbrack;
 
-* Philippe Mathieu, Frank Thuillier: *Abelian Turaev-Virelizier theorem and $U(1)$ BF surgery formulas* &lbrack;[arXiv:1706.01845](https://arxiv.org/abs/1706.01845)&rbrack;
+* Philippe Mathieu, [[Frank Thuillier]]: *Abelian Turaev-Virelizier theorem and $U(1)$ BF surgery formulas* &lbrack;[arXiv:1706.01845](https://arxiv.org/abs/1706.01845)&rbrack;
 
 
 On abelian Chern-Simons theory via [[theta functions]] and the [[representation theory]] of the [[integer Heisenberg group]]:
@@ -560,8 +570,6 @@ On [[baryons]] in [[flavor (particle physics)|$N_f = 1$]] [[QCD]] as [[quantum H
 * Yong-Liang Ma, [[Maciej A. Nowak]], [[Mannque Rho]], [[Ismail Zahed]], *Baryon as a Quantum Hall Droplet and the Quark-Hadron Duality*, Phys. Rev. Lett. **123** (2019) 172301 &lbrack;[doi:10.1103/PhysRevLett.123.172301](https://doi.org/10.1103/PhysRevLett.123.172301)&rbrack;
 
 * Kentaro Nishimura, Naoki Yamamoto, Ryo Yokokura: *Quantum Hall liquids in high-density QCD* &lbrack;[arXiv:2410.07665](https://arxiv.org/abs/2410.07665)&rbrack;
-
-
 
 
 
