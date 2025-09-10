@@ -800,13 +800,13 @@ Notice that there is an important subtlety of Lurie's theorem in the case of man
 
 ### Topological cobordisms
 
-The original hypothesis:
+The original hypothesis (there called the "Extended TQFT Hypothesis"):
 
-*  {#BaezDolan95} [[John Baez]], [[James Dolan]], _Higher dimensional algebra and Topological Quantum Field Theory_ J. Math. Phys. **36** (1995) 6073-6105 &lbrack;[arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002)&rbrack;
+* {#BaezDolan95} [[John Baez]], [[James Dolan]], p. 28 of: *Higher dimensional algebra and Topological Quantum Field Theory*, J. Math. Phys. **36** (1995) 6073-6105 &lbrack;[doi:10.1063/1.531236](https://doi.org/10.1063/1.531236), [arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002)&rbrack;
 
 An extensive sketch of an approach to the formalization and proof of the cobordism hypothesis:
 
-* {#Lurie09} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics **2008** (2009) 129-280 &lbrack;[arXiv:0905.0465](http://arxiv.org/abs/0905.0465)&rbrack;
+* {#Lurie09} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics **2008** (2009) 129-280 &lbrack;[doi:10.4310/CDM.2008.v2008.n1.a3](https://dx.doi.org/10.4310/CDM.2008.v2008.n1.a3), [arXiv:0905.0465](http://arxiv.org/abs/0905.0465)&rbrack;
 
 Review:
 
