@@ -116,6 +116,8 @@ with precursors in
 
 Traditional review includes:
 
+* [[Tom Banks]]: _Modern quantum field theory, A concise introduction_, Cambridge University Press (2008) &lbrack;[doi:10.1017/CBO9780511811500](https://doi.org/10.1017/CBO9780511811500), [pdf](http://web.phys.ntnu.no/~mika/banks.pdf)&rbrack;
+
 * [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), front matter:[pdf](https://assets.cambridge.org/97811070/34730/frontmatter/9781107034730_frontmatter.pdf)&rbrack;
 
 * [[Michel Talagrand]], *What is a Quantum Field Theory? -- A first Introduction for Mathematicians*, Cambridge University Press (2022) &lbrack;[doi:10.1017/9781108225144](https://doi.org/10.1017/9781108225144)&rbrack; 
