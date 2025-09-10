@@ -43,9 +43,9 @@ On [[D=4 N=8 supergravity]]:
  * [[Tom Banks]], _Why I don't Believe N=8 SUGRA is Finite_, talk at _[Workshop "Supergravity versus Superstring Theory in the Ultraviolet"](http://www.gravity.psu.edu/events/supergravity/program.shtml)_, PennState Univ, PA USA, August 27-30 2009.
 
 
-On [[quantum field theory]]:
+On [[perturbative quantum field theory|perturbative]] [[quantum field theory]]:
 
-* [[Tom Banks]], _Modern quantum field theory, A concise introduction_ ([pdf](http://web.phys.ntnu.no/~mika/banks.pdf))
+* [[Tom Banks]]: _Modern quantum field theory, A concise introduction_, Cambridge University Press (2008) &lbrack;[doi:10.1017/CBO9780511811500](https://doi.org/10.1017/CBO9780511811500), [pdf](http://web.phys.ntnu.no/~mika/banks.pdf)&rbrack;
 
 On the [[landscape of string theory vacua]] (or not):
 
