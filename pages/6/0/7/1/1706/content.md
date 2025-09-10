@@ -16,9 +16,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea 
@@ -801,22 +800,28 @@ Notice that there is an important subtlety of Lurie's theorem in the case of man
 
 ### Topological cobordisms
 
-The original hypothesis is formulated in 
+The original hypothesis:
 
 *  {#BaezDolan95} [[John Baez]], [[James Dolan]], _Higher dimensional algebra and Topological Quantum Field Theory_ J. Math. Phys. **36** (1995) 6073-6105 &lbrack;[arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002)&rbrack;
 
-A sketch of an approach to the formalization and proof of the cobordism hypothesis is described in:
+An extensive sketch of an approach to the formalization and proof of the cobordism hypothesis:
 
 * {#Lurie09} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics **2008** (2009) 129-280 &lbrack;[arXiv:0905.0465](http://arxiv.org/abs/0905.0465)&rbrack;
 
+Review:
 
-The comparatively simple case of $n = 1$ is spelled out in detail in 
+* [[Ishan Levy]]: *Proof of the Cobordism Hypothesis* (2020) &lbrack;[webpage](https://ishanina.github.io/Talks/Proof%20of%20Cobordism%20Hypothesis/index.html), [github](https://github.com/ishanina/PublicWritings/blob/master/Talks/Proof%20of%20Cobordism%20Hypothesis.pdf), [[Levy-CobordismHypothesis.pdf:file]]&rbrack;
 
-* [[Yonatan Harpaz]], _The Cobordism Hypothesis in Dimension 1_ ([arXiv:1210.0229](http://arxiv.org/abs/1210.0229))
+The comparatively simple case of $n = 1$:
 
-and aspects of the case $n = 2$ (see also at _[[2d TQFT]]_) are further discussed in 
+* [[Yonatan Harpaz]], _The Cobordism Hypothesis in Dimension 1_ &lbrack;[arXiv:1210.0229](http://arxiv.org/abs/1210.0229)&rbrack;
 
-* {#SchommerPries11} [[Chris Schommer-Pries]], _The Classification of Two-Dimensional Extended Topological Field Theories_ ([arXiv:1112.1000](http://arxiv.org/abs/1112.1000))
+and aspects the case $n = 2$ (see also at _[[2d TQFT]]_):
+
+* {#SchommerPries11} [[Chris Schommer-Pries]]: *The Classification of Two-Dimensional Extended Topological Field Theories* &lbrack;[arXiv:1112.1000](http://arxiv.org/abs/1112.1000)&rbrack;
+
+* [[Piotr Pstrągowski]]: *On dualizable objects in monoidal bicategories, framed surfaces and the Cobordism Hypothesis*, Theory and Applications of Categories **38** 9 (2022)  257-310.  &lbrack;[tac:38-09](http://www.tac.mta.ca/tac/volumes/38/9/38-09abs.html), [arXiv:1411.6691](https://arxiv.org/abs/1411.6691)&rbrack;
+
 
 Lecture notes and reviews on the topic of the cobordisms hypothesis:
 
