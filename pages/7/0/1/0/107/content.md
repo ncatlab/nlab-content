@@ -15,7 +15,7 @@
 
 ## Idea
 
-[[Carlos Simpson]] conjectured, in the context of [[semi-strict infinity-categories]] that every [[weak omega-category]] is [[equivalence|equivalent]] to one that is a [[strict omega-category]] except for the units.
+[Simpson 1998](#Simpson98) conjectured, in the context of [[semi-strict infinity-categories]] that every [[weak omega-category]] is [[equivalence|equivalent]] to one that is a [[strict omega-category]] except for the units.
 
 ## Statement
 
@@ -29,11 +29,11 @@ it was conjectured ([page 27](http://arxiv.org/PS_cache/math/pdf/9810/9810059v1.
 
 For weak unit laws in $\infty$-categories see
 
-* Joachim Kock,  _Weak identity arrows in higher categories_ ([arXiv](http://arxiv.org/abs/math.CT/0507116))
+* [[Joachim Kock]],  _Weak identity arrows in higher categories_ ([arXiv:math.CT/0507116](http://arxiv.org/abs/math.CT/0507116))
 
 In 
 
-* {#JoyalKock06} [[Andre Joyal]], Kock, _Weak units and homotopy 3-types_ ([arXiv](http://arxiv.org/abs/math.CT/0602084))
+* {#JoyalKock06} [[Andre Joyal]], [[Joachim Kock]]: _Weak units and homotopy 3-types_ ([arXiv:math.CT/0602084](http://arxiv.org/abs/math.CT/0602084))
 
 Simpson's conjecture is proven up to the case of 3-categories with a single object.
 
@@ -72,15 +72,19 @@ The conjecture was initially triggered by the claim in
 
 that "[[semi-strict infinity-category|semi-strict infinity-groupoids]]", in which only the [[inverses]] could be weak and everything else strict, model all [[homotopy types]] (hence solve the [[homotopy hypothesis]])
 
-In ([Simpson 98](#Simpson98)) it was pointed out that this seems to be wrong for the [[homotopy type]] of the [[sphere|2-sphere]].
+[Simpson 1998](#Simpson98) pointed out that this seems to be wrong for the [[homotopy type]] of the [[2-sphere]].
 
-The issue, however, is quite subtle, as highlighted by Voevodsky [here](http://ncatlab.org/nlab/show/homotopy+type+theory#VoevodskyIASTalk2014))
+The issue, however, is quite subtle, as highlighted by Voevodsky [here](homotopy+type+theory#VoevodskyIASTalk2014).
 
-(For instance  Corollary 5.2 in ([Simpson 98](#Simpson98)) leaves open the possibility that the [[geometric realization]] in  ([Kapranov-Voevodsky 91](#KapranovVoevodsky91)) is essentially surjective, only that the homotopy groups of the resulting space could not be read off from the groupoid in the obvious way. 
+(For instance  Corollary 5.2 of [Simpson 1998](#Simpson98) leaves open the possibility that the [[geometric realization]] in  [Kapranov & Voevodsky 1991](#KapranovVoevodsky91) is [[essentially surjective functor|essentially surjective]], only that the [[homotopy groups]] of the resulting space could not be read off from the groupoid in the obvious way. 
 
 Examining [KV 91](#KapranovVoevodsky91)'s motivation, Simpson noticed a singularity at the origin of [[Moore paths]], which led him to conjecture that weakening invertibility and units (while keeping strict associativity and interchange) would be enough to get at all homotopy types. Specifically, he writes on p. 27
 
-> I think that the argument of (K. and V.) (which is unclear on the question of identity elements) actually serves to prove the above statement. I have called the above statement a "conjecture" because I haven't checked this.
+> "I think that the argument of (K. and V.) (which is unclear on the question of identity elements) actually serves to prove the above statement. I have called the above statement a "conjecture" because I haven't checked this."
+
+## Related pages
+
+* [[open problems in category theory]]
 
 
 [[!redirects Simpson conjecture]]
