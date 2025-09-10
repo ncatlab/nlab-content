@@ -784,9 +784,11 @@ Notice that there is an important subtlety of Lurie's theorem in the case of man
 
  One can see this in the 1 dimensional case: there is no property of vector spaces which automatically endows them with an inner product, but it is [[stuff, structure, property|extra structure]].
 
-## Related concepts
+## Related pages
 
 * [[generalized tangle hypothesis]]
+
+* [[open problems in category theory]]
 
 * [[conformal cobordism category]]
 
