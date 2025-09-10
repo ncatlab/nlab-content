@@ -244,10 +244,11 @@ An introduction to concepts in the [[quantization]] of gauge theories is in
 
 * [[Nicolai Reshitikhin]], _Lectures on quantization of gauge systems_ ([pdf](http://staff.science.uva.nl/~nresheti/Holb-Quant-Gauge.pdf))
 
-
 See also:
 
 * [[Garth Warner]]: *Quantum Gauge Theory*, seminar notes, University of Washington  &lbrack;[pdf](https://sites.math.washington.edu//~warner/QGTSeminar_Warner.pdf), [[Warner-QuantumGaugeTheory.pdf:file]]&rbrack;
+
+* [[David Tong]]: *Lectures on Gauge Theory* &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html)&rbrack;
 
 A standard textbook on the [[BV-BRST formalism]] for the quantization of gauge systems is in
 
@@ -258,7 +259,7 @@ Lecture notes on this:
 * [[Urs Schreiber]]: _[[geometry of physics -- perturbative quantum field theory]]_ (2017)
 
 
-Discussion of abelian higher gauge theory in terms of [[differential cohomology]] is in
+Discussion of abelian higher gauge theory in terms of [[differential cohomology]]:
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
 
