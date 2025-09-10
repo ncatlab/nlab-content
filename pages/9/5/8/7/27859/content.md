@@ -1,5 +1,7 @@
-[[!redirects Open problems in topos theory]]
 
+> This entry is recording a text by [[William Lawvere|Lawvere]] of the same title. For general discussion of [[open problems in topos theory]] see there.
+
+***
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -12,10 +14,6 @@
 =--
 
 
-The history of mathematics, especially through the lenses of its popularisation, has idolised the relevance of several important lists of open problems, which have guided the developments of large fields of mathematics. This has happened, just to make an example, in the case of Hilbert's list of problems, to several open problems in number theory, and to the Langlands conjectures in algebraic geometry.
-
-Currently in topos theory there is no consensus among researchers around such a list of open problems that should be supposed to guide the research in the field.
-
 This page is to record the reference
 
 * [[William Lawvere]]: 
@@ -26,13 +24,13 @@ This page is to record the reference
 
   \linebreak
 
-which is a list of open problems that Lawvere presented  "For [[Martin Hyland]] and [[Peter Johnstone]] in honor of their sixtieth birthdays"
+  "For [[Martin Hyland]] and [[Peter Johnstone]] in honor of their sixtieth birthdays"
 
   (April 2009) 
 
   &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/2009-open-problems-in-topos-theory.pdf), [[Lawvere-OpenProblems.pdf:file]]&rbrack;
 
-The document states seven problems in [[topos theory]], unsolved at time of writing.
+stating seven then open problems [[topos theory]], unsolved at time of writing.
 
 
 \tableofcontents
@@ -76,6 +74,8 @@ Problem 7, "The algebra of time", concerns the characterization of _[[Toposes of
 
 ## Related pages
 
+* [[open problems in topos theory]]
+
 * [[open problems in category theory]]
 
 * [[open problems in homotopy type theory]]
@@ -97,3 +97,4 @@ Problem 7, "The algebra of time", concerns the characterization of _[[Toposes of
 * {#Hora25} [[Ryuya Hora]], Yuki Maehara: *Lawvere's fourth open problem: Levels in the topos of symmetric simplicial sets* &lbrack;[arXiv:2503.03439](https://arxiv.org/abs/2503.03439)&rbrack;
 
 
+category: reference
