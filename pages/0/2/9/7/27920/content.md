@@ -43,6 +43,8 @@ Open problems in [[higher category theory]]:
 
 ## Related pages
 
+* [[open problems in topos theory]]
+
 * [[open problems in homotopy type theory]]
 
 
@@ -70,3 +72,4 @@ On the [[cobordism hypothesis]]/[[tangle hypothesis]]:
 * {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
   > (claim of new proof)
 
+[[!redirects open problems in higher category theory]]
