@@ -27,8 +27,12 @@ This page is to record the reference
 
   &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/2009-open-problems-in-topos-theory.pdf), [[Lawvere-OpenProblems.pdf:file]]&rbrack;
 
-stating seven problems in [[topos theory]], unsolved at time of writing:
+stating seven problems in [[topos theory]], unsolved at time of writing.
 
+
+\tableofcontents
+
+## Statement
 
 #### First problem
  {#FirstProblemInToposTheory}
@@ -64,6 +68,12 @@ Or even to consider this question for [[crossed group|crossed groups]] relative 
  {#SeventhProblemInToposTheory}
 
 Problem 7, "The algebra of time", concerns the characterization of _[[Toposes of laws of motion]]_
+
+## Related pages
+
+* [[open problems in category theory]]
+
+* [[open problems in homotopy type theory]]
 
 ## References
 
