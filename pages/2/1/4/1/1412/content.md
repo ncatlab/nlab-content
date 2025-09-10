@@ -457,8 +457,6 @@ Notice that all these objects $A$ do indeed behave, and can be treated like, gen
 
 * [[L-infinity algebras in physics]]
 
-* [[motivation for sheaves, cohomology and higher stacks]]
-
 * [[applications of (higher) category theory]]
 
 * [[motivation for higher differential geometry]]
