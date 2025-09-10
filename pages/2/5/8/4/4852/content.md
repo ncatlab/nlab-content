@@ -1,4 +1,5 @@
-> This page is about the generalisation of an [[adjunction]] to [[bicategories]]. For a functor $L$ which is both a left and a right adjoint to a functor $R$, see [[ambidextrous adjunction]].
+> This page is about the generalisation of an [[adjunction]] to [[bicategories]]. Instead, for functors $L$ which are both left and right adjoints see *[[ambidextrous adjunction]]*.
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -11,14 +12,11 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
-A _biadjunction_ is the "maximally weak" kind of [[2-adjunction]]: a [[categorification|higher generalization]] of the notion of [[adjunction]] from [[category theory]] to [[2-category theory]], and specifically to [[bicategories]] (or more generally internally in a [[tricategory]].  See [[2-adjunction]] for other kinds of 2-adjunction.
+_Biadjunctions_ are the "maximally weak" kind of [[2-adjunctions]]: a [[categorification|higher generalization]] of the notion of [[adjunction]] from [[category theory]] to [[2-category theory]], and specifically to [[bicategories]] (or more generally internally in a [[tricategory]].  See [[2-adjunction]] for other kinds of 2-adjunction.
 
 ## Definition
 
@@ -56,17 +54,16 @@ Both the "equivalence of hom-categories" definition and the "unit and counit" de
 
 * [[Thomas M. Fiore]], _Pseudo limits, biadjoints, and pseudo algebras: categorical foundations of conformal field theory_, Memoirs of the American Mathematical Society __182__ (2006), no. 860. 171 pages, [MR2007f:18006](http://www.ams.org/mathscinet-getitem?mr=2007f:18006),  [math.CT/0408298](http://arxiv.org/abs/math.CT/0408298)
 
-* [[Nick Gurski]], _Biequivalences in tricategories_, Theory and applications of categories 2012, [journal web site](http://www.tac.mta.ca/tac/volumes/26/14/26-14abs.html), [arxiv](https://arxiv.org/abs/1102.0979)
-{#Gurski12}
+* {#Gurski12} [[Nick Gurski]], _Biequivalences in tricategories_, Theory and applications of categories 2012, [journal web site](http://www.tac.mta.ca/tac/volumes/26/14/26-14abs.html), [arxiv](https://arxiv.org/abs/1102.0979)
 
-* [[Emily Riehl]] and [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, 2015, [arxiv](https://arxiv.org/abs/1310.8279)
-{#RV15}
 
-* Piotr Pstr&#261;gowski, _On dualizable objects in monoidal bicategories, framed surfaces and the Cobordism Hypothesis_, 2014 [arxiv](https://arxiv.org/abs/1411.6691)
-{#Pstr&#261;gowski14}
+* {#RV15} [[Emily Riehl]] and [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_, 2015, [arxiv](https://arxiv.org/abs/1310.8279)
 
-* [[Emily Riehl]] and [[Mike Shulman]], _A type theory for synthetic ∞-categories_, 2017, [arxiv](https://arxiv.org/abs/1705.07442)
-{#RS17}
+* 
+{#Pstr&#261;gowski14} [[Piotr Pstrągowski]]: *On dualizable objects in monoidal bicategories, framed surfaces and the Cobordism Hypothesis*, Theory and Applications of Categories **38** 9 (2022)  257-310.  &lbrack;[tac:38-09](http://www.tac.mta.ca/tac/volumes/38/9/38-09abs.html) ,[arXiv:1411.6691](https://arxiv.org/abs/1411.6691)&rbrack;
+
+* {#RS17} [[Emily Riehl]] and [[Mike Shulman]], _A type theory for synthetic ∞-categories_, 2017, [arxiv](https://arxiv.org/abs/1705.07442)
+
 
 
 [[!redirects biadjunctions]]
