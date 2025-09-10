@@ -213,3 +213,7 @@ Guillaume Brunerie did this in 2017, written up in [this paper](https://arxiv.or
 * What is the [[loop space of a wedge of circles]] indexed by a set without decidable equality? It is a set, and can be shown to be using the [zigzag construction](https://arxiv.org/abs/2402.12339).
 
 * Treat [[coinductive types]] in HoTT. Part of the problem is that general co-inductive types are not fully understood in ordinary type theory. Using extensionality, we obtain [[M-types]] from W-types. Resolved by Ahrens, Capriotti & Spadotti by defining coinductive types using [[indexed inductive types]]. In addition, coinductive types with typal computation rules can be postulated directly as a homotopy-terminal coalgebra via its [[universal property]] [[axiom schema]] using the [[uniqueness quantifier]]. See also the coinductive types in dependently typed [[programming languages]] such as [[cubical Agda]] and [[Narya]].
+
+## Related pages
+
+- [[open problems in category theory]]
