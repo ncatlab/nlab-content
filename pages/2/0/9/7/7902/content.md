@@ -13,9 +13,10 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+
+\tableofcontents
+
 
 ## Idea
 
@@ -124,13 +125,13 @@ The [[Poisson bracket]] of Wilson line observables in [[3d Chern-Simons theory]]
 
 * W. M. Goldman: _Invariant functions on Lie groups and Hamiltonian flow of surface group representations_, Inventiones Math. **85** (1986) 263-302 &lbrack;[doi:10.1007/BF01389091](https://doi.org/10.1007/BF01389091)&rbrack;
 
-For more see 
+For more see:
 
-* {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of: _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ &lbrack;[arXiv:1007.2010](http://arxiv.org/abs/1007.2010)&rbrack;
+* {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of: _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_, Fundamenta Mathematicae **228** (2015) 97-137  &lbrack;[arXiv:1007.2010](http://arxiv.org/abs/1007.2010), [doi:10.4064/fm228-2-1](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/228/2/88942/quantum-mechanics-and-nonabelian-theta-functions-for-the-gauge-group-rm-su-2)&rbrack;
 
 On the [[renormalization]] of Wilson loop observables in [[abelian Chern-Simons theory]] (via [[framed link|framing]]):
 
-* [[Alexander Polyakov]]: *Fermi-Bose Transmutations induced by Gauge Fields*, Modern Physics Letters A **3** 3 (1988) 325-328 &lbrack;[doi:10.1142/S0217732388000398](https://doi.org/10.1142/S0217732388000398)&rbrack;
+* [[Alexander Polyakov]]: *Fermi-Bose Transmutations induced by Gauge Fields*, Modern Physics Letters A **3** 3 (1988) 325-328 &lbrack;[doi:10.1142/S0217732388000398](https://doi.org/10.1142/S0217732388000398), [[Polyakov-MPA-1988.pdf:file]]&rbrack;
 
 * {#Witten89} [[Edward Witten]], §2.1 in: *Quantum Field Theory and the Jones Polynomial*, Commun. Math. Phys. **121** 3 (1989) 351-399 &lbrack;[doi:10.1007/BF01217730](https://doi.org/10.1007/BF01217730), [euclid:cmp/1104178138](http://projecteuclid.org/euclid.cmp/1104178138), MR0990772 &rbrack;
 
