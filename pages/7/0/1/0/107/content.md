@@ -21,7 +21,7 @@
 
 In 
 
-* {#Simpson98} [[Carlos Simpson]], _Homotopy types of strict 3-groupoids_ ([arXiv:9810059](http://arxiv.org/abs/math/9810059))
+* {#Simpson98} [[Carlos Simpson]]: _Homotopy types of strict 3-groupoids_ &lbrack;[arXiv:9810059](http://arxiv.org/abs/math/9810059))&rbrack;
 
 it was conjectured ([page 27](http://arxiv.org/PS_cache/math/pdf/9810/9810059v1.pdf#page=27)) that
 
