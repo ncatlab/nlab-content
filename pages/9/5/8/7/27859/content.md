@@ -1,3 +1,4 @@
+[[!redirects Open problems in topos theory]]
 
 
 +-- {: .rightHandSide}
@@ -11,6 +12,10 @@
 =--
 
 
+The history of mathematics, especially through the lenses of its popularisation, has idolised the relevance of several important lists of open problems, which have guided the developments of large fields of mathematics. This has happened, just to make an example, in the case of Hilbert's list of problems, to several open problems in number theory, and to the Langlands conjectures in algebraic geometry.
+
+Currently in topos theory there is no consensus among researchers around such a list of open problems that should be supposed to guide the research in the field.
+
 This page is to record the reference
 
 * [[William Lawvere]]: 
@@ -21,13 +26,13 @@ This page is to record the reference
 
   \linebreak
 
-  "For [[Martin Hyland]] and [[Peter Johnstone]] in honor of their sixtieth birthdays"
+which is a list of open problems that Lawvere presented  "For [[Martin Hyland]] and [[Peter Johnstone]] in honor of their sixtieth birthdays"
 
   (April 2009) 
 
   &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/2009-open-problems-in-topos-theory.pdf), [[Lawvere-OpenProblems.pdf:file]]&rbrack;
 
-stating seven problems in [[topos theory]], unsolved at time of writing.
+The document states seven problems in [[topos theory]], unsolved at time of writing.
 
 
 \tableofcontents
