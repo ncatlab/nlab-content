@@ -273,26 +273,27 @@ A discussion of aspects of QFT with an eye towards applications in [[string theo
 
 Aspects of [[topology]] and [[differential geometry]]  (e.g. connections to [[index theorems]] and [[moduli spaces]]) are emphasized in
 
-* Charles Nash, _Differential topology and quantum field theory_, Acad. Press 1991. 
+* Charles Nash, _Differential topology and quantum field theory_, Acad. Press (1991) 
 
 An indication of the modern foundational picture of quantum mechanics is attempted in
 
-* {#SatiSchreiber} [[Hisham Sati]], [[Urs Schreiber]], _Mathematical foundations of quantum field and perturbative string theory_ Proceedings of Symposia in Pure Mathematics, AMS (<a href="http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory">web</a>).
+* {#SatiSchreiber11} [[Hisham Sati]], [[Urs Schreiber]]: *[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Proceedings of Symposia in Pure Mathematics **83**, AMS (2011) &lbrack;[ams:pspum-83](https://bookstore.ams.org/pspum-83)&rbrack;
  
 
-See also
+See also:
 
-* [[Albert Schwarz]], _Quantum field theory and topology_, Grundlehren der Math. Wissen. __307__, Springer 1993.  
+* [[James Glimm]]: *The foundations of Quantum Field Theory*, Advances in Mathematics **3** 1 (1969) 101-125 \[<a href="https://doi.org/10.1016/0001-8708(69)90004-8">doi:10.1016/0001-8708(69)90004-8</a>\]
 
+* [[Albert Schwarz]]: _Quantum Field Theory and Topology_, Grundlehren der Math. Wissen. __307__, Springer (1993) &lbrack;[doi:10.1007/978-3-662-02943-5](https://doi.org/10.1007/978-3-662-02943-5)&rbrack; 
+
+*  Tian Yu Cao (ed.): *Conceptual Foundations of Quantum Field Theory*, Cambridge University Press (2009) &lbrack;[doi:10.1017/CBO9780511470813](https://doi.org/10.1017/CBO9780511470813)&rbrack;
 
 * [[Graeme Segal]], _[[Three Roles of Quantum Field Theory]]_ , Felix Klein lectures, Bonn (2011)
 
-For further references see _[[FQFT]]_ and _[[AQFT]]_.
+
+For further references see also at _[[FQFT]]_ and _[[AQFT]]_.
 
 
-See also
-
-* [[Tom Banks]], _Modern quantum field theory, A concise introduction_ ([pdf](http://web.phys.ntnu.no/~mika/banks.pdf))
 
 [[!redirects quantum field theories]]
 
