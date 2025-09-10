@@ -1,7 +1,21 @@
 
-* [webpage](https://www.phys.uconn.edu/~dunne/)
+Gerald V. Dunne
+
+* [personal page](https://dunne.physics.uconn.edu/)
+
+* [personal page][https://physics.uconn.edu/person/gerald-v-dunne/)
+
+* [inSpire](https://inspirehep.net/authors/1011213)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=B-YB5owAAAAJ&hl=en)
+
 
 ## Selected writings
+
+On [[abelian Chern-Simons theory]]:
+
+* [[Gerald V. Dunne]]: *Aspects of Chern-Simons Theory*, in: *Topological aspects of low dimensional systems*, Les Houches -- École d'Été de Physique Théorique **69**, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1_3](https://doi.org/10.1007/3-540-46637-1_3), [arXiv:hep-th/9902115](https://arxiv.org/abs/hep-th/9902115)&rbrack;
+
 
 On the [[Schwinger effect]]:
 
@@ -40,7 +54,7 @@ On [[effective action functionals]]:
 * [[Gerald Dunne]], _Heisenberg-Euler Effective Lagrangians : Basics and Extensions_, From Fields to Strings: Circumnavigating Theoretical Physics: pp. 445-522. ([arXiv:hep-th/0406216](https://arxiv.org/abs/hep-th/0406216), [doi:10.1142/9789812775344_0014](https://doi.org/10.1142/9789812775344_0014))
 
 
-
+[[!redirects Gerald V. Dunne]]
 
 
 category: people
