@@ -147,6 +147,10 @@ If $K : A \to C$ is a functor, then a colimit in $A$ is **$K$-absolute** if it i
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982)
 * [[Mike Shulman]]'s answer to [*What are _all_ of the exactness properties enjoyed by stable ∞-categories?*](https://mathoverflow.net/a/267324)
 
+A generalisation of Street's results about left adjoints and absolute weights is proven in Proposition 6.2 of:
+
+* [[Richard Garner]] and [[John Power]], _An enriched view on the extended finitary monad--Lawvere theory correspondence_, Logical Methods in Computer Science 14 (2018).
+
 [[!redirects absolute colimits]]
 [[!redirects absolute limit]]
 [[!redirects absolute limits]]
