@@ -61,9 +61,12 @@ Rigorous discussion using [[homotopy theory]] (see at [[homotopical AQFT]]):
 
 * [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ ([arXiv:2008.01829](https://arxiv.org/abs/2008.01829))
 
-Lecture notes:
+Review:
 
-* Sylvain Lacroix, *4-dimensional Chern-Simons theory and integrable field theories* ([arXiv:2109.14278](https://arxiv.org/abs/2109.14278))
+* Sylvain Lacroix, *4-dimensional Chern-Simons theory and integrable field theories* &lbrack;[arXiv:2109.14278](https://arxiv.org/abs/2109.14278)&rbrack;
+
+* [[Masahito Yamazaki]]: *Gauge Theory and Integrability: An Overview*, Proceedings of the International Conference of Basic Science 2025 &lbrack;[arXiv:2509.07628](https://arxiv.org/abs/2509.07628)&rbrack;
+
 
 
 Discussion of realizations of semi-holomorphic 4d Chern-Simons theory as the [[worldvolume]] theory of [[intersecting brane|intersecting]] [[D-brane]]/[[NS5-brane]] models:
