@@ -59,6 +59,9 @@ See also:
 
 * Wikipedia, *[Quantum vortex](https://en.wikipedia.org/wiki/Quantum_vortex)*
 
+* [[Albert Schwarz]], section II.10 in: _Quantum Field Theory and Topology_, Grundlehren der Math. Wissensch. __307__, Springer (1993) &lbrack;[doi:10.1007/978-3-662-02943-5](https://doi.org/10.1007/978-3-662-02943-5)&rbrack; 
+
+
 ### In Yang-Mills theory
 
 A more general picture of vortex strings in [[Yang-Mills theory]] with [[non-abelian group|nonabelian]] [[gauge group]] (in fact in [[D=4 N=2 super Yang-Mills theory]]):
