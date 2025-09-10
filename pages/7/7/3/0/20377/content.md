@@ -1,5 +1,9 @@
 
-* [webpage](http://member.ipmu.jp/masahito.yamazaki/index.shtml)
+* [personal page](http://member.ipmu.jp/masahito.yamazaki/index.shtml)
+
+* [inSpire page](https://inspirehep.net/authors/1039163)
+
+* [GoogleScholar entry](https://scholar.google.com/citations?user=sEBSFQEAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -17,6 +21,8 @@ On [[semi-holomorphic 4d Chern-Simons theory]] and relation to [[integrable syst
 * {#CostelloWittenYamazaki17} [[Kevin Costello]], [[Edward Witten]], [[Masahito Yamazaki]], _Gauge Theory and Integrability, II_, ICCM Not. 6, 120-146 (2018) ([arXiv:1802.01579](https://arxiv.org/abs/1802.01579))
 
 * [[Meer Ashwinkumar]], Jun-ichi Sakamoto, [[Masahito Yamazaki]], *Dualities and Discretizations of Integrable Quantum Field Theories from 4d Chern-Simons Theory* &lbrack;[arXiv:2309.14412](https://arxiv.org/abs/2309.14412)&rbrack;
+
+* [[Masahito Yamazaki]]: *Gauge Theory and Integrability: An Overview*, Proceedings of the International Conference of Basic Science 2025 &lbrack;[arXiv:2509.07628](https://arxiv.org/abs/2509.07628)&rbrack;
 
 
 
