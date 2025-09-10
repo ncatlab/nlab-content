@@ -65,7 +65,7 @@ While the tangle hypothesis and its generalizations may be seen as refinements o
 
 ## References
 
-* {#BaezDolan95} [[John Baez]], [[James Dolan]]: _Higher-dimensional Algebra and Topological Quantum Field Theory_ 1995 ([arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002)) 
+* {#BaezDolan95} [[John Baez]], [[James Dolan]], p. 28 of: *Higher dimensional algebra and Topological Quantum Field Theory*, J. Math. Phys. **36** (1995) 6073-6105 &lbrack;[doi:10.1063/1.531236](https://doi.org/10.1063/1.531236)[arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002)&rbrack;
 
 * {#LurieCTFT}[[Jacob Lurie]], [[On the Classification of Topological Field Theories]]  ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
 
