@@ -75,7 +75,9 @@ On the [[semiclassical approximation]] in [[BV-formalism]]:
 
 On [[quantum field theory]] and [[topology]]:
 
-* monograph: *Quantum field theory and topology*, Grundlehren der Math. Wissen. __307__, Springer 1993. (translated from Russian original Kvantovaja teorija polja i topologija, *Nauka*, Moscow, 1989. 400 pp.)
+* [[Albert Schwarz]]: _Quantum Field Theory and Topology_, Grundlehren der Math. Wissen. __307__, Springer (1993) &lbrack;[doi:10.1007/978-3-662-02943-5](https://doi.org/10.1007/978-3-662-02943-5)&rbrack; 
+
+See also:
 
 * scientific reminiscences, [pdf](http://www.math.ucdavis.edu/~schwarz/bion.pdf)
 
