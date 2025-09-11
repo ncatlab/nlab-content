@@ -30,12 +30,12 @@ This page is to record the reference
 
   &lbrack;[pdf](https://github.com/mattearnshaw/lawvere/blob/master/pdfs/2009-open-problems-in-topos-theory.pdf), [[Lawvere-OpenProblems.pdf:file]]&rbrack;
 
-stating seven then open problems [[topos theory]], unsolved at time of writing.
+stating seven then-open problems [[topos theory]], unsolved at time of writing.
 
 
 \tableofcontents
 
-## Statement
+## Statements
 
 #### First problem
  {#FirstProblemInToposTheory}
