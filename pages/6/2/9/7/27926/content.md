@@ -30,4 +30,4 @@ On [[Chern-Simons theory|Chern-Simons]] [[TQFT]]:
 (...)
 
 
-category: people
+category: reference
