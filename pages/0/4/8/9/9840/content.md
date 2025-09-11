@@ -11,6 +11,11 @@ Aiyalam Parameswaran Balachandran (1938-2025)  was an Indian-American theoretica
 
 ## Selected writings
 
+On classical coupling of [[particles]] to a [[Yang-Mills field]]:
+
+* [[A. P. Balachandran]], S. Borchardt, A. Stern: _Lagrangian And Hamiltonian Descriptions of Yang-Mills Particles_, Phys. Rev. D **17** (1978) 3247-3256 &lbrack;[doi:10.1103/PhysRevD.17.3247](https://doi.org/10.1103/PhysRevD.17.3247)&rbrack;
+
+
 Early discussion of [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fractional quantum Hall effect]]:
 
 * [[A. P. Balachandran]], A. M. Srivastava: *Chern-Simons Dynamics and the Quantum Hall Effect* \[<a href="https://arxiv.org/abs/hep-th/9111006">arXiv:hep-th/9111006</a>, [spire:319826](https://inspirehep.net/literature/319826)\]
