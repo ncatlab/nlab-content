@@ -15,7 +15,7 @@
 
 ## Idea
 
-A **distributivity pullback** is the data which encodes a particular [[exponentiable morphism|exponentiation]] along a [[morphism]] in a [[category]].  In other words, it is a [[cofree object]] with respect to a [[pullback]] functor.
+A **distributivity pullback** is the data which encodes a particular [[exponentiable morphism|exponentiation]] along a [[morphism]] in a [[category]].  In other words, it is a [[cofree object]] with respect to a [[base change]] functor.
 
 ## Definition
 
@@ -113,7 +113,6 @@ If $p$ is an isomorphism, then a distributivity pullback is also a [[final pullb
 
 Just as distributivity pullbacks encode the right adjoint to a [[base change]] functor, _partial products_ (as for example in [Dyckhoff and Tholen, Section 2](#Tholen)) encode the right adjoint to the related _pullback functor_ -- existence of such an adjoint is an equivalent condition for exponentiability of a morphism.
 
-More precisely, for a morphism $f$ as above, the pullback functor $- \times f$ sends distributivity pullbacks to partial products, and when this has a right adjoint, the adjoint sends partial products to distributivity pullbacks.
 
 ## Related pages
 
