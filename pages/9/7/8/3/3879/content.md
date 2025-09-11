@@ -154,7 +154,11 @@ On [[monoidal category]]-theory with an eye towards [[finite quantum mechanics i
 
 * {#HeunenVicary19} [[Chris Heunen]], [[Jamie Vicary]], *Categories for Quantum Theory*, Oxford University Press 2019 ([ISBN:9780198739616](https://global.oup.com/academic/product/categories-for-quantum-theory-9780198739616))
 
-A historically inclined article is in 
+See also:
+
+* Jean-Pierre Françoise, Gregory Naber & Tsou Sheung Tsun (eds.): *[[Encyclopedia of Mathematical Physics]]*, Elsevier (2006) &lbrack;[ISBN:978-0-12-512666-3](https://www.sciencedirect.com/referencework/9780125126663/encyclopedia-of-mathematical-physics#book-info), <a href="https://nzdr.ru/data/media/biblio/kolxoz/M/MRef/Francoise%20J.-P.,%20Naber%20G.,%20Tsun%20T.S.%20(eds.)%20Encyclopedia%20of%20mathematical%20physics%20(AP,%202006)(ISBN%200125126603)(O)(3324s)_MRef_.pdf">pdf</a>&rbrack;
+
+* [[Richard Szabo]], [[Martin Bojowald]] (eds.): *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[ISBN:9780323957038](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)&rbrack;
 
 * Wikipedia,  _[Mathematical physics](http://en.wikipedia.org/wiki/Mathematical_physics)_ 
 
