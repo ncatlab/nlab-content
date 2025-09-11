@@ -30,6 +30,26 @@ $$
 
 where $\mathcal{P}$ is the "path-ordering operator" and $A_\mu$ are the components of the connection. 
 
+
+## Examples
+
+### In Chern-Simons theory
+
+In $SU(2)$-[[Chern-Simons theory]] the Wilson line observables compute the [[Jones polynomial]] of the given curve. See there for more details.
+
+### In Rozansky-Witten theory
+
++-- {: .num_prop #RozanskyWittenWilsonLoopOfUnknotIsSquareRootOfAHat}
+###### Proposition
+**([[Rozansky-Witten Wilson loop of unknot is A-hat genus|Rozansky-Witten Wilson loop of unknot is square root of A-hat genus]])**
+
+For $\mathcal{M}^{4n}$ a [[hyperkähler manifold]] (or just a [[holomorphic symplectic manifold]]) the [[Rozansky-Witten invariant]] [[Wilson loop observable]] associated with the [[unknot]] in the [[3-sphere]] is the [[square root]] $\sqrt{{\widehat A}(\mathcal{M}^{4n})}$ of the [[A-hat genus]] of $\mathcal{M}^{4n}$.
+
+=--
+
+This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+is+A-hat+genus#RobertsWillerton10), using the [[Wheels theorem]] and the [[Hitchin-Sawon theorem]].
+
+
 ## Properties
 
 ### Relation to 1d Chern-Simons theory
@@ -66,23 +86,7 @@ Wilson loop insertions may be thought of or at least related to _defects_ in the
 [[!include geometric Langlands QFT -- table]]
 
 
-## Examples
 
-### In Chern-Simons theory
-
-In $SU(2)$-[[Chern-Simons theory]] the Wilson line observables compute the [[Jones polynomial]] of the given curve. See there for more details.
-
-### In Rozansky-Witten theory
-
-+-- {: .num_prop #RozanskyWittenWilsonLoopOfUnknotIsSquareRootOfAHat}
-###### Proposition
-**([[Rozansky-Witten Wilson loop of unknot is A-hat genus|Rozansky-Witten Wilson loop of unknot is square root of A-hat genus]])**
-
-For $\mathcal{M}^{4n}$ a [[hyperkähler manifold]] (or just a [[holomorphic symplectic manifold]]) the [[Rozansky-Witten invariant]] [[Wilson loop observable]] associated with the [[unknot]] in the [[3-sphere]] is the [[square root]] $\sqrt{{\widehat A}(\mathcal{M}^{4n})}$ of the [[A-hat genus]] of $\mathcal{M}^{4n}$.
-
-=--
-
-This is [Roberts-Willerton 10, Lemma 8.6](Rozansky-Witten+Wilson+loop+of+unknot+is+A-hat+genus#RobertsWillerton10), using the [[Wheels theorem]] and the [[Hitchin-Sawon theorem]].
 
 
 ## Related entries
@@ -120,7 +124,6 @@ On super-[[Wilson lines]] via [[integration over supermanifolds]]:
 
 > See also at *[[perturbative quantization of 3d Chern-Simons theory]]* and at *[[Vassiliev knot invariants]]*.
 
-
 The [[Poisson bracket]] of Wilson line observables in [[3d Chern-Simons theory]] was obtained in:
 
 * W. M. Goldman: _Invariant functions on Lie groups and Hamiltonian flow of surface group representations_, Inventiones Math. **85** (1986) 263-302 &lbrack;[doi:10.1007/BF01389091](https://doi.org/10.1007/BF01389091)&rbrack;
@@ -129,7 +132,7 @@ For more see:
 
 * {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of: _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_, Fundamenta Mathematicae **228** (2015) 97-137  &lbrack;[arXiv:1007.2010](http://arxiv.org/abs/1007.2010), [doi:10.4064/fm228-2-1](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/228/2/88942/quantum-mechanics-and-nonabelian-theta-functions-for-the-gauge-group-rm-su-2)&rbrack;
 
-On the [[renormalization]] of Wilson loop observables in [[abelian Chern-Simons theory]] (via [[framed link|framing]]):
+Discussion of Wilson loop observables in [[abelian Chern-Simons theory]] via [[path integral]] arguments followed by [[renormalization]] via [[framed link|framing]]:
 
 * {#Polyakov88} [[Alexander Polyakov]]: *Fermi-Bose Transmutations induced by Gauge Fields*, Modern Physics Letters A **3** 3 (1988) 325-328 &lbrack;[doi:10.1142/S0217732388000398](https://doi.org/10.1142/S0217732388000398), [[Polyakov-MPA-1988.pdf:file]]&rbrack;
 
