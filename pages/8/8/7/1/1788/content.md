@@ -86,8 +86,31 @@ $$
   }{^{\text{"}}}
 $$
 
+
+Since the [[Lagrangian density]] $A \wedge \mathrm{d}A$ is a [[quadratic form]] in $A$, one envisions that this expression follows the transformation rules of [[Gaussian integrals]] over elements $\phi \in \mathbb{R}^n$ of finite-dimensional [[Cartesian spaces]], for which 
 $$
-  \multiscripts{^3}{\prod}{_2}
+  Z(J)
+  \;\coloneqq\;
+  \int \mathrm{d}^n \phi\;
+  \exp\Big(
+    - \tfrac{1}{2}
+    \phi \cdot M \cdot \phi 
+    +
+    J \cdot \phi
+  \Big)
+$$
+evaluates to 
+$$
+  Z(J)
+  \;=\;
+  Z(0)
+  \,
+  \exp\Big(
+    \tfrac{1}{2}
+    \, 
+    J \cdot M^{-1} \cdot J
+  \Big)
+  \,.
 $$
 
-Since the [[Lagrangian density]] $A \wedge \mathrm{d}A$ is a [[quadratic form]] in $A$, one envisions that this expression follows the transformation rules of [[Gaussian integrals]]
+
