@@ -1,5 +1,5 @@
 
-> This entry is about the concept in [[category theory]]. For (co)exponential functions see at _[[exponential map]]_ and _[[coexponential map]]_. 
+> This entry is about the concept in [[category theory]]. For (co)exponential functions in analysis see at _[[exponential map]]_ and _[[coexponential map]]_. 
 
 ***
 
@@ -60,7 +60,7 @@ As before, let $C$ be a category and $X,Y\in C$.
 
 * If $Y$ is such that $X^Y$ exists for all $X$, we say that $Y$ is __exponentiable__ (or *powerful*, cf. Street-Verity [pdf](http://www.emis.de/journals/TAC/volumes/23/3/23-03.pdf)).  Then $C$ is __[[cartesian closed category|cartesian closed]]__ if it has a [[terminal object]] and every object is exponentiable (which requires that all binary products exist too).
 
-* More generally, a morphism $f\colon Y \to A$ is __exponentiable__ (or *powerful*) when it is exponentiable in the [[over category]] $C/A$.  This is equivalent to saying that all pullbacks along $f$ exist and that the resulting [[base change]] functor $f^* : C/A \to C/Y$ has a [[right adjoint]], usually denoted $\Pi_f$ and called a [[dependent product]].  In particular, $C$ is __[[locally cartesian closed category|locally cartesian closed]]__ iff every morphism is exponentiable, iff all pullback functors have right adjoints.  (Sometimes locally cartesian closed categories are also required to have a terminal object, and hence to also be cartesian closed.)
+* More generally, a morphism $f\colon Y \to A$ is [[exponentiable morphism|exponentiable]] when it is exponentiable in the [[over category]] $C/A$. See [[exponentiable morphism]] for more details.
 
 * Conversely, if $X$ is such that $X^Y$ exists for all $Y$, we say that $X$ is __exponentiating__.  (This requires that $C$ have all binary products.)  Again, $C$ is __cartesian closed__ if it has a terminal object and every object is exponentiating.  (The reader should beware that some authors say "exponentiable" for what is here called "exponentiating.")
 
@@ -118,16 +118,6 @@ However, exponentiating objects do matter sometimes.
 
 * A [[dialogue category]] is a [[symmetric monoidal category]] equipped with the non-cartesian monoidal analogue of an exponentiating object.
 
-### Relative Examples
-
-Let $\mathcal{C}$ be a category with finite limits and $f: C \to D$ a morphism in $\mathcal{C}$. Then $f$ is exponentiable as an object of the slice category $\mathcal{C}\downarrow D$ if and only if the [[base change]] functor $f^\ast: \mathcal{C} \downarrow D \to \mathcal{C} \downarrow C$ has a right adjoint. In this case, we say that $f$ is an [[exponentiable morphism]] in $\mathcal{C}$.
-
-* The exponentiable morphisms in $Top$ were characterized by [Niefield](#Niefield82). In particular, a subspace inclusion $C \to D$ is exponentiable if and only if it is [[locally closed]].
-
-* The exponentiable morphisms in $Locale$ and $Topos$ which are embeddings were also characterized by [Niefield](#Niefield81). It seems(?) that no complete characterization of exponentiable morphisms in $Locale$ or $Topos$ appears in the literature.
-
-* The exponentiable morphisms in $Cat$ are the [[Conduché functors]].
-
 ## Properties 
 
 As with other internal homs, the __[[currying]]__ isomorphism
@@ -152,9 +142,6 @@ Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object
 
 Note that any cartesian closed category with finite coproducts must be distributive, so all of the isomorphisms above hold in any closed [[2-rig]] (such as [[Set]], of course).
 
-If $C$ has equalizers of coreflexive pairs, then any pullback of an exponentiable morphism is exponentiable.  This follows from the [[adjoint triangle theorem]], since the left adjoint $\Sigma_f$ of pullback is [[comonadic functor|comonadic]].
-
-
 ## Related concepts
 
 * [[exponential ideal]]
@@ -168,12 +155,6 @@ If $C$ has equalizers of coreflexive pairs, then any pullback of an exponentiabl
 Discussion with focus on application to [[topological spaces]] and [[compactly generated topological spaces]]:
 
 * {#DayKelly} [[Brian Day]], [[G. Max Kelly]], *On topological quotients preserved by pullback or products*, Mathematical Proceedings of the Cambridge Philosophical Society **67** 3 (1970) 553 - 558  ([doi:10.1017/S0305004100045850](https://doi.org/10.1017/S0305004100045850))
-
-* [[Susan Niefield]], *Cartesianness*, PhD thesis, Rutgers 1978 ([proquest:302920643](https://www.proquest.com/docview/302920643))
-
-* {#Niefield82} [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces, and affine schemes._, Journal of Pure and Applied Algebra, 23.2, 1982, pp. 147-167.(<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi:10.1016/0022-4049(82)90004-4</a>, [pdf](https://core.ac.uk/download/pdf/81936509.pdf))
-
-* {#Niefield81} [[Susan Niefield]], _Cartesian inclusion: locales and toposes._, Communications in Algebra, 9.16, 1981, pp. 1639-1671  ([doi:10.1080/00927878108822672](https://doi.org/10.1080/00927878108822672))
 
 * [[Francis Borceux]], Section 7.1 of: *Categories and Structures*, Vol. 2 of: *[[Handbook of Categorical Algebra]]*, Encyclopedia of Mathematics and its Applications **50** Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
@@ -194,10 +175,6 @@ Exponentiable [[relational structures]] are considered in
 [[!redirects exponential objects]]
 [[!redirects exponentiable object]]
 [[!redirects exponentiable objects]]
-[[!redirects exponentiable morphism]]
-[[!redirects exponentiable morphisms]]
-[[!redirects powerful morphism]]
-[[!redirects powerful morphisms]]
 [[!redirects powerful object]]
 [[!redirects powerful objects]]
 
