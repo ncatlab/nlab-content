@@ -13,17 +13,21 @@
 =--
 =--
 
-This page collects some links related to the book
+This page is to record the reference:
 
-* [[William Lawvere]], [[Stephen Schanuel]] (eds.),
+* [[William Lawvere]], [[Stephen Schanuel]] (eds.):
 
-  _Categories in Continuum Physics_
+  \linebreak
+
+  **Categories in Continuum Physics**
+
+  \linebreak
 
   Lectures given at a Workshop held at SUNY, Buffalo 1982
 
-  Lecture Notes in Mathematics 1174
+  Lecture Notes in Mathematics **1174**
 
-  1986  
+  Springer (1986)  
 
   [doi:10.1007/BFb0076928](https://link.springer.com/book/10.1007/BFb0076928)
 
