@@ -37,6 +37,6 @@ Note that the *[[1-morphisms]]* of $Adj(K)$ are the *[[objects]]* of $[Adj,K]$.
 
 ## References
 
-* [[Claude Auderset]], _Adjonctions et monades au niveau des $2 $-catégories_, Cahiers de topologie et géométrie différentielle 15.1 (1974): 3-20.
+* [[Claude Auderset]], _Adjonctions et monades au niveau des $2 $-catégories_, Cahiers de topologie et géométrie différentielle 15.1 (1974): 3-20. [Link](https://www.numdam.org/item/CTGDC_1974__15_1_3_0/)
 
-* [[Stephen Schanuel]] and [[Ross Street]], *The free adjunction*, Cahiers de topologie et géométrie différentielle catégoriques, tome 27, no 1 (1986), p. 81-83
+* [[Stephen Schanuel]] and [[Ross Street]], *The free adjunction*, Cahiers de topologie et géométrie différentielle catégoriques, tome 27, no 1 (1986), p. 81-83 [Link](https://www.numdam.org/item/CTGDC_1986__27_1_81_0/)
