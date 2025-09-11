@@ -1,5 +1,4 @@
-
-> For the concept in [[category theory]] see at _[[exponential object]]_.
+> For the concept in [[category theory]] see _[[exponential morphism]]_.
 
 ***
 
