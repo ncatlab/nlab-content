@@ -18,4 +18,4 @@ The notion of [[o-minimal structure]] has been proposed as a reasonable candidat
 
 * Yuliy Baryshnikov, [[Robert Ghrist]], _Euler integration over definable functions_ ([pdf](http://www.math.upenn.edu/~ghrist/preprints/definable.pdf)) 
 
-* Jean Philippe Rolin, 
+* Jean Philippe Rolin, _A survey on o-minimal structures_ ([pdf](https://core.ac.uk/download/pdf/47290035.pdf#page=106))
