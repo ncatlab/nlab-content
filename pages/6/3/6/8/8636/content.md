@@ -93,23 +93,19 @@ For every pasting scheme $(Q, i)$, the free 2-category on the 2-computad $Comp(Q
 
 The notion of pasting in a [[2-category]] was introduced in
 
-* [[Jean Bénabou]], _Introduction to bicategories_, in _Lecture Notes in Mathematics_ Vol. 47, pp. l-77, Springer-Verlag, New York/Berlin, (1967)
+* [[Jean Bénabou]], _Introduction to bicategories_, in _Lecture Notes in Mathematics_ **47**, Springer (1967) 1-77
 
 
 
-* [[Michael Johnson]]: _Pasting Diagrams in $n$-Categories with Applications to Coherence Theorems and Categories of Paths_, Doctoral Thesis, University of Sydney, 1987
-{#Johnson1987}
+* {#Johnson1987} [[Michael Johnson]]: _Pasting Diagrams in $n$-Categories with Applications to Coherence Theorems and Categories of Paths_, PhD Thesis, University of Sydney (1987)
+
+
+* {#Johnson1989} [[Michael Johnson]]: _The Combinatorics of $n$-Categorical Pasting_, Journal of Pure and Applied Algebra 62 (1989) 
 
 
 
-* [[Michael Johnson]]: _The Combinatorics of $n$-Categorical Pasting_, Journal of Pure and Applied Algebra 62 (1989) 
-{#Johnson1989}
-
-
-* [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra 129 (1990) 
-{#Power1990} 
-
-
+* {#Power1990} [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra **129** 2 (1990) 439-445 &lbrack;<a href="https://doi.org/10.1016/0021-8693(90)90229-H">doi:10.1016/0021-8693(90)90229-H</a>&rbrack;
+ 
 
 
 Other notions of pasting presentations have been given by Street ([[parity complexes]]) and by Steiner, 
