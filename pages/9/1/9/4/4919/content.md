@@ -1,7 +1,11 @@
 
 A. John Power is a Theoretical Computer Scientist working at the University of Bath, England.
 
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=35740)
+
 * [Google Scholar page](https://scholar.google.com/citations?user=aOCekqQAAAAJ&hl=en)
+
+
 
 ## Selected writings
 
@@ -12,6 +16,10 @@ On [[coherence theorems]] in [[category theory]] and [[bicategory]] theory:
 On [[flexible limits]]:
 
 * {#BirdKellyPowerStreet89} [[Greg J. Bird]], [[Max Kelly]], [[John Power]], [[Ross Street]], _Flexible limits for 2-categories_, Journal of Pure and Applied Algebra **61** 1 (1989) 1-27 \[<a href="https://doi.org/10.1016/0022-4049(89)90065-0">doi:10.1016/0022-4049(89)90065-0</a>\]
+
+On [[pasting]] in [[2-categories]]:
+
+* {#Power1990} [[John Power]]: _A 2-Categorical Pasting Theorem_, Journal of Algebra **129** 2 (1990) 439-445 &lbrack;<a href="https://doi.org/10.1016/0021-8693(90)90229-H">doi:10.1016/0021-8693(90)90229-H</a>&rbrack;
 
 
 On [[PIE-limits]]:
