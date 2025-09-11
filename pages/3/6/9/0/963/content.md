@@ -59,7 +59,7 @@ Along similar lines, the following construction provides passage from commutativ
 
 +-- {: .num_lemma}
 ###### Lemma 
-Let $(Q, \cdot, 1)$ be a commutative affine quantale, and let $Idem(Q)$ be the subposet of elements $x \cdot x = x$. Then $Idem(Q)$ is a frame, where the meet operation is given by multiplication in $Q$. The functor $Idem$ is right adjoint to the forgetful functor from commutative affine quantales to frames. 
+Let $(Q, \cdot, 1)$ be a commutative affine quantale, and let $Idem(Q)$ be the subposet of elements $x \cdot x = x$. Then $Idem(Q)$ is a frame, where the meet operation is given by multiplication in $Q$. The functor $Idem$ is right adjoint to the forgetful functor from frames to commutative affine quantales. 
 =-- 
 
 +-- {: .proof}
