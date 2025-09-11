@@ -14,13 +14,13 @@
 
 ## Idea
 
-An **exponentiable morphism** (sometimes called a **powerful morphism**) $f : A \to B$ in a [[category]] $\mathcal{C}$ is a morphism that is [[exponentiable object|exponentiable]] as an object of the [[slice category]] $\mathcal{C}/B$. When [[pullbacks]] along $f$ exist, giving rise to a [[base change]] functor $f^* : \mathcal{C}/B \to \mathcal{C}/A$, this is equivalent to asking for $f^*$ to have a right adjoint $\Pi_f : \mathcal{C}/A \to \mathcal{C}/B$ (called the [[dependent product]]), whose universal property is explicitly described by that of a [[distributivity pullback]]. However, one can consider exponentiability even in the absence of pullbacks.
+An **exponentiable morphism** (sometimes called a **powerful morphism**) $f \colon A \to B$ in a [[category]] $\mathcal{C}$ is a [[morphism]] that is [[exponentiable object|exponentiable]] as an [[object]] of the [[slice category]] $\mathcal{C}/B$. When [[pullbacks]] along $f$ exist, giving rise to a [[base change]] functor $f^* : \mathcal{C}/B \to \mathcal{C}/A$, this is equivalent to asking for $f^*$ to have a [[right adjoint]] $\Pi_f : \mathcal{C}/A \to \mathcal{C}/B$ (called the *[[dependent product]]*), whose [[universal property]] is explicitly described by that of a [[distributivity pullback]]. However, one can consider exponentiability even in the absence of pullbacks.
 
 ## Relation to exponentiable objects
 
-If $\mathcal{C}$ has a terminal object and $X$ is an object in $\mathcal{C}$, then if the unique morphism $!_X : X \to 1$ is exponentiable, then, for every object $Y$ for which the [[product]] $X \times Y$ exists, the [[exponentiable object]] $Y^X$ exists and is given by $\Pi_{!_X} (\pi_1 \colon X \times Y \to X)$.
+If $\mathcal{C}$ has a [[terminal object]] and $X$ is an object in $\mathcal{C}$, then if the unique morphism $!_X : X \to 1$ is exponentiable, then, for every object $Y$ for which the [[product]] $X \times Y$ exists, the [[exponentiable object]] $Y^X$ exists and is given by $\Pi_{!_X} (\pi_1 \colon X \times Y \to X)$.
 
-Conversely, suppose $\mathcal{C}$ has a terminal object and $X$ is an [[exponentiable object]] in $\mathcal{C}$. Let $f : Z \to X$ be a morphism. If the following pullback exists, it exhibits the exponential morphism $\Pi_{!_X} f$.
+Conversely, suppose $\mathcal{C}$ has a terminal object and $X$ is an [[exponentiable object]] in $\mathcal{C}$. Let $f \colon Z \to X$ be a morphism. If the following pullback exists, it exhibits the exponential morphism $\Pi_{!_X} f$.
 \begin{tikzcd}
 	{\Pi_{!_X} A} & {Z^X} \\
 	1 & {X^X}
@@ -48,8 +48,11 @@ Consequently, in a category with [[finite limits]], an object $X$ is an [[expone
 ## Related concepts
 
 - A category is [[locally cartesian closed]] precisely when it has all [[pullbacks]] and in which every morphism is exponentiable.
-- The universal property of $\Pi_f$ is described by a [[distributivity pullback]], at least when pullbacks along $f$ exist.
+
+- The [[universal property]] of $\Pi_f$ is described by a [[distributivity pullback]], at least when pullbacks along $f$ exist.
+
 - The [[type theory|type theoretic]] interpretation of exponential morphisms is the [[dependent product]].
+
 - [[exponentiable object]]
 
 ## References
@@ -60,8 +63,8 @@ Consequently, in a category with [[finite limits]], an object $X$ is an [[expone
 
 * {#Niefield82} [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces, and affine schemes._, Journal of Pure and Applied Algebra, 23.2, 1982, pp. 147-167.(<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi:10.1016/0022-4049(82)90004-4</a>, [pdf](https://core.ac.uk/download/pdf/81936509.pdf))
 
-* [[Mark Weber]], _Polynomials in categories with pullbacks_, [arXiv](http://arxiv.org/abs/1106.1983), [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
- {#Weber}
+* {#Weber} [[Mark Weber]], _Polynomials in categories with pullbacks_, [arXiv](http://arxiv.org/abs/1106.1983), [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
+ 
 
 [[!redirects exponentiable morphisms]]
 [[!redirects exponential morphism]]
