@@ -839,9 +839,14 @@ Introduction and review:
 
   > (emphasis on the [[classical field theory|classical theory]])
 
+* [[Romesh K. Kaul]], T. R. Govindarajan, P. Ramadevi: _Schwarz Type Topological Quantum Field Theories_, [[Encyclopedia of Mathematical Physics]], Elsevier (2006) 494-503 &lbrack;[arXiv:hep-th/0504100](http://arxiv.org/abs/hep-th/0504100)&rbrack;
+
 * [[Daniel Freed]]: _Remarks on Chern-Simons theory_ Bulletin of the AMS **46** 2 (2009) 221-254S &lbrack;[arXiv:0808.2507](http://arxiv.org/abs/0808.2507)&rbrack;
 
 * [[Jorge Zanelli]], Luis Huerta: *Introduction to Chern-Simons theories*, PoS ICFI2010 (2010) 004 &lbrack;[doi:10.22323/1.124.0004](https://doi.org/10.22323/1.124.0004)&rbrack;
+
+* [[Romesh K. Kaul]]: *Topological Quantum Field Theories: Knots and Links in Three-dimensions and Black Holes in 3 + 1 Dimensions*, talk at *[IMSC@50: Topology and Differential Geometry in Quantum Physics](https://www.imsc.res.in/~trg/imsc50.html)*, The Institute of Mathematical Sciences, Chennai, (March 2012) &lbrack;[pdf](https://www.imsc.res.in/~trg/imsc50phy/12Marchtalk.pdf), [[Kaul-TQFT.pdf:file]]&rbrack;
+
 
 * [[Gregory Moore]]: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
 
@@ -855,14 +860,10 @@ See also:
 
 
 
-Discussion with emphasis on the [[symplectic structure]] on [[phase space]] and the expression of the [[Wilson lines]] by the [[orbit method]] is in
+Discussion with emphasis on the [[symplectic structure]] on [[phase space]] and the expression of the [[Wilson lines]] by the [[orbit method]]:
 
-* {#AlekseevMalkin} [[Anton Alekseev]], A. Z. Malkin, _Symplectic Geometry of the Chern-Simons theory_ ESI preprint 80 (1994) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.9821))
- 
+* {#AlekseevMalkin} [[Anton Alekseev]], A. Z. Malkin: *Symplectic Geometry of the Chern-Simons theory*, in: *Integrable Models and Strings*, Lecture Notes in Physics **436**, Springer (1994) &lbrack;[doi:10.1007/3-540-58453-6_5](https://doi.org/10.1007/3-540-58453-6_5), [inSpire:398944](https://inspirehep.net/literature/398944), [pdf](https://inspirehep.net/files/f61b4dfd4442520fa61fa585e6f91d54)&rbrack; 
 
-A decent survey of the constructions within Chern-Simons theory:
-
-* R. K. Kaul, T. R. Govindarajan, P. Ramadevi, _Schwarz Type Topological Quantum Field Theories_, Encyclopedia of Mathematical Physics (2005) ([arXiv:hep-th/0504100](http://arxiv.org/abs/hep-th/0504100))
 
 The [[covariant phase space]] of Chern-Simons theory with its [[presymplectic structure]] is originally discussed in section 5 of 
 
