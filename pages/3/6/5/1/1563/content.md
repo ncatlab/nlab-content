@@ -226,7 +226,7 @@ Lecture notes University of Chicago 1975.
 * _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_, Cah.top.g&#233;o.diff.cat, 21 nr.4, 1980, pp.377-392 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_4_377_0))
   > (contains a section with some remarks on Lagrangian mechanics)
 
-* with [[Stephen Schanuel]], _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 1986
+* with [[Stephen Schanuel]], _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics **1174**, Springer (1986) &lbrack;[doi:10.1007/BFb0076928](https://link.springer.com/book/10.1007/BFb0076928)&rbrack;
   > (on [[continuum mechanics]], [[variational calculus]] and [[laws of motion]] in [[synthetic differential geometry]] and in [[diffeological spaces]] and [[Frölicher spaces]], and on [[intensive and extensive]] properties in terms of [[ring objects]] and [[modules]] in a [[topos]].)
 
 * {#TakingCategoriesSeriously} _Taking categories seriously_, Revista Colombiana de Matemáticas **XX** (1986) 147-178, Reprints in Theory and Applications of Categories, **8** (2005) 1-24. &lbrack;[tac:tr8](http://www.tac.mta.ca/tac/reprints/articles/8/tr8abs.html), [pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)&rbrack;
@@ -251,8 +251,8 @@ Lecture notes University of Chicago 1975.
 * _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini (eds.), _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], LNM **1488** Springer Heidelberg 1991.
   > (on -- implicitly -- [[cohesive topos|cohesive toposes]]);
 
-* with [[Stephen Schanuel]], _Conceptual Mathematics - A first  introduction to categories_ , Cambridge UP 1997.
-  > (first steps into category theory; the Spanish translation is available [here](http://www.acsu.buffalo.edu/~wlawvere/concep-3.pdf))
+* with [[Stephen Schanuel]]: _Conceptual Mathematics - A first  introduction to categories_, Cambridge Univerisity Press (1997) &lbrack;[doi:10.1017/CBO9780511804199](https://doi.org/10.1017/CBO9780511804199), [pdf](https://img.4plebs.org/boards/tg/image/1460/05/1460059215690.pdf)&rbrack;
+  > (introduction to [[category theory]]; the Spanish translation is available [here](http://www.acsu.buffalo.edu/~wlawvere/concep-3.pdf))
 
 * {#Lawvere92} _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
   > (on [[space and quantity]] and on formalizing concepts from [[philosophy]] as in the _[[Science of Logic]]_ in terms of [[category theory]] and [[categorical logic]])
