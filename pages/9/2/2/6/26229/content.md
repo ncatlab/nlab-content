@@ -1,5 +1,5 @@
 
-This page compiles pointers to material contained in the (upcoming) book:
+This page is to record the reference:
 
 \linebreak
 
@@ -7,20 +7,18 @@ This page compiles pointers to material contained in the (upcoming) book:
 
   \linebreak
 
-  **[Encyclopedia of Mathematical Physics](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)**, 2nd edition
+  **Encyclopedia of Mathematical Physics 2nd edition**
 
   \linebreak
 
-  Elsevier (expected Oct 2024)
+  Elsevier (2024)
 
-  ISBN:9780323957038
+  [ISBN:9780323957038](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)
 
-
-  \linebreak
-
-  [webpage](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)
 
 on [[mathematical physics]].
+
+For the first edition see *[[Encyclopedia of Mathematical Physics]]*.
 
 \linebreak
 
