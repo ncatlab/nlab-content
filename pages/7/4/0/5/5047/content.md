@@ -38,6 +38,10 @@ On the [[type II geometry]] ([[doubled geometry]]) of [[para-Hermitian manifolds
 
 * Vincenzo Emilio Marotta, [[Richard J. Szabo]], *Born Sigma-Models for Para-Hermitian Manifolds and Generalized T-Duality*,  Reviews in Mathematical Physics **33** 09 (2021)  2150031 &lbrack;[arXiv:1910.09997](https://arxiv.org/abs/1910.09997), [doi:10.1142/S0129055X21500318](https://doi.org/10.1142/S0129055X21500318)&rbrack;
 
+On [[mathematical physics]]:
+
+* [[Richard Szabo]], [[Martin Bojowald]] (eds.): *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[ISBN:9780323957038](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)&rbrack;
+
 
 
 [[!redirects Richard J. Szabo]]
