@@ -3,11 +3,91 @@
 \linebreak
 
 
-test
 
 ***
 
-**Renormalization of Wilson Loop Observables via Hypothesis h**
 
-While it remains widely embraced tradition in physics to pretend that quantum field theories are specified by a Lagrangian density or action functional, it is a time-honored open secret that, even locally, the quantum observables depend on further *renormalization* choices. A basic but fundamental example are the Wilson loop observables in abelian Chern-Simons theory (equivalently: the braiding phase observables of FQH anyons), whose now standard renormalization by link framings is not derivable from the Chern-Simons form as such. Here we recall a recent non-Lagrangian construction of Chern-Simons quantum observables (via topological flux quantization in 2-Cohomotopy instead of 2-Cohomology: "Hypothesis h"), and highlight how this is a ("UV"-)complete quantum theory where the expected framing renormalization choice emerges intrinsically (and interestingly: as a manifestation of the Pontrjagin theorem in geometric topology).
+The traditional argument for the computation of [[Wilson loop]]-[[quantum observables]] in [[abelian Chern-Simons theory]] on [[3-sphere|$S^3$]].
 
+Any $\mathrm{U}(1)$-[[principal connection|connection]] on [[3-sphere|$S^3$]] (or $\mathbb{R}^3$) has [[underlying]] [[trivial bundle]] (since the [[homotopy classes]] of [[maps]] from $S^3$ to the [[classifying space]] $B \mathrm{U}(1)$, being an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, are all trivial: $\pi_0 Map\big(S^3, B \mathrm{U}(1)\big) \simeq \pi_3 B \mathrm{U}(1) \simeq 1$) and hence is represented by a globally defined [[differential 1-form]] 
+\[
+  \label{1Forms}
+  A \in \Omega^1_{dR}\big(S^3\big)
+  \mathrlap{\,.}
+\]
+
+Given an [[oriented link]] 
+\[
+  \label{ALink}
+  L \colon (S^1)^{n} \longrightarrow \mathbb{R}^3 \to S^3
+\] 
+(with $n$ [[connected components]] $L_a \colon S^1 \longrightarrow \mathbb{R}^n$, for $a \in [n]$), its  *[[Wilson loop]]*/*[[holonomy]]* with respect to such a connection (eq:1Forms) is:
+
+\[
+  \label{Holonomy}
+  \exp\left(
+    \mathrm{i}
+    \textstyle{\underset{{(S^1)^n}}{\int}} 
+    L^\ast A
+  \right)
+  \;\in\;
+  \mathrm{U}(1)
+  \,.
+\]
+
+
+The *[[expectation value]] of the $L$-[[Wilson loop]] [[quantum observable]]*, 
+$$
+  \left\langle
+  \exp\left(
+    \mathrm{i}
+    \textstyle{\underset{{(S^1)^n}}{\int}} 
+    L^\ast A
+  \right)
+  \right\rangle
+  \;\in\;
+  \mathbb{C}
+  \mathrlap{\,,}
+$$
+is then meant to be the normalized [[path integral]] "$\int D A$" over the space of [[gauge orbits]] of $A$ (eq:1Forms) of the expression (eq:Holonomy) times the exponentiated [[action functional]] of [[abelian Chern-Simons theory]], suggestively written as
+$$
+  \left\langle
+  \exp\left(
+    \mathrm{i}
+    \textstyle{\underset{{(S^1)^n}}{\int}} 
+    L^\ast A
+  \right)
+  \right\rangle
+  \;\;
+  =
+  \;\;
+  \multiscripts{^{\text{"}}}{
+  \frac{
+    \displaystyle{\int D A}
+    \;
+    \exp\left(
+      \tfrac{\mathrm{i}}{k}
+      \textstyle{\underset{S^3}{\int}}
+      A \wedge \mathrm{d}A
+      \;+\;
+      \mathrm{i}
+      \textstyle{\underset{{(S^1)^n}}{\int}} 
+      L^\ast A
+    \right)     
+  }{
+    \displaystyle{\int D A}
+    \;
+    \exp\left(
+      \tfrac{\mathrm{i}}{k}
+      \textstyle{\underset{S^3}{\int}}
+      A \wedge \mathrm{d}A
+    \right)     
+  }
+  }{^{\text{"}}}
+$$
+
+$$
+  \multiscripts{^3}{\prod}{_2}
+$$
+
+Since the [[Lagrangian density]] $A \wedge \mathrm{d}A$ is a [[quadratic form]] in $A$, one envisions that this expression follows the transformation rules of [[Gaussian integrals]]
