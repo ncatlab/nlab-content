@@ -109,6 +109,12 @@ This isomorphism (or more specifically the left-to-right map) has traditionally 
 
 If $p$ is an isomorphism, then a distributivity pullback is also a [[final pullback complement]].
 
+### Connection to partial products
+
+Just as distributivity pullbacks encode the right adjoint to a [[base change]] functor, _partial products_ (as for example in [Dyckhoff and Tholen, Section 2](#Tholen)) encode the right adjoint to the related _pullback functor_ -- existence of such an adjoint is an equivalent condition for exponentiability of a morphism.
+
+More precisely, for a morphism $f$ as above, the pullback functor $- \times f$ sends distributivity pullbacks to partial products, and when this has a right adjoint, the adjoint sends partial products to distributivity pullbacks.
+
 ## Related pages
 
 - [[exponentiable morphism]]
@@ -117,6 +123,9 @@ If $p$ is an isomorphism, then a distributivity pullback is also a [[final pullb
 
 * [[Mark Weber]], _Polynomials in categories with pullbacks_, [arXiv](http://arxiv.org/abs/1106.1983), [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
  {#Weber}
+
+* {#Tholen} [[Roy Dyckhoff]], [[Walter Tholen]], _Exponentiable morphisms, partial products and pullback complements_, [doi:10.1016/0022-4049(87)90124-1](https://doi.org/10.1016/0022-4049%2887%2990124-1)
+
 
 Distributivity pullbacks are exhibited as [[bipullbacks]] in [[Span]] in §7 of:
 
