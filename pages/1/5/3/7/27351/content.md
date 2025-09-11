@@ -429,6 +429,8 @@ On the other hand, the K-matrix formalism may be the natural description of *mul
 
 * [[Alexios P. Polychronakos]]: *Abelian Chern-Simons theories in $2+1$ dimensions*, Annals of Physics **203** 2 (1990) 231-254 \[<a href="https://doi.org/10.1016/0003-4916(90)90171-J">doi:10.1016/0003-4916(90)90171-J</a>\] 
 
+* Antoine Coste, Michel Makowka: *Abelian Chern-Simons theories on $S^3$*, Nuclear Physics B **342** 3 (1990) 721-736 \[<a href="https://doi.org/10.1016/0550-3213(90)90334-A">doi:10.1016/0550-3213(90)90334-A</a>\]
+
 * [[Sergio Albeverio]], J. Schäfer: *Rigorous Approach to Abelian Chern-Simons Theory*, in *Groups and Related Topics*, Mathematical Physics Studies **13**,  Springer (1992) 143-152 &lbrack;[doi:10.1007/978-94-011-2801-8_12](https://doi.org/10.1007/978-94-011-2801-8_12)&rbrack;
 
 * {#WesolowskiHosotaniHo94} D. Wesolowski, Y. Hosotani, C.-L. Ho: *Multiple Chern-Simons Fields on a Torus*,  	Int. J. Mod. Phys. A **9** (1994) 969-989 &lbrack;[arXiv:hep-th/9302121](https://arxiv.org/abs/hep-th/9302121), [doi:10.1142/S0217751X94000443](https://doi.org/10.1142/S0217751X94000443)&rbrack;
