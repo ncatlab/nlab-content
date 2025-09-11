@@ -411,6 +411,8 @@ More generally, every [[quasitopos]] is locally cartesian closed.
 
 ## Related concepts
 
+* [[exponentiable morphism]]
+
 * [[cartesian closed category]]
 
 * [[cartesian closed functor]], [[locally cartesian closed functor]]
