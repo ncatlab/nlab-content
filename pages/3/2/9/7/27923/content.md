@@ -6,6 +6,11 @@
 
 ## Selected writings
 
+On [[Dehn surgery]] and [[Wilson loop observables]] in [[SU(2)|$SU(2)$]] [[Chern-Simons theory]]:
+
+* [[Enore Guadagnini]]: _Surgery rules in quantum Chern-Simons field theory_, Nuclear Physics B **375** 2 (1992) 381-398 &lbrack;<a href="https://doi.org/10.1016/0550-3213(92)90037-C">doi:10.1016/0550-3213(92)90037-C</a>&rbrack;
+
+
 On [[abelian Chern-Simons theory]] via [[path integrals]] over [[ordinary differential cohomology|ordinary differential cocycles]]:
 
 * [[Enore Guadagnini]], [[Frank Thuillier]]: *Deligne-Beilinson cohomology and abelian links invariants*, SIGMA **4** (2008) 078 &lbrack;[arXiv:0801.1445](https://arxiv.org/abs/0801.1445), [doi:10.3842/SIGMA.2008.078](https://doi.org/10.3842/SIGMA.2008.078)&rbrack;
