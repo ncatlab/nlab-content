@@ -109,6 +109,10 @@ This isomorphism (or more specifically the left-to-right map) has traditionally 
 
 If $p$ is an isomorphism, then a distributivity pullback is also a [[final pullback complement]].
 
+## Related pages
+
+- [[exponentiable morphism]]
+
 ## References
 
 * [[Mark Weber]], _Polynomials in categories with pullbacks_, [arXiv](http://arxiv.org/abs/1106.1983), [TAC](http://tac.mta.ca/tac/volumes/30/16/30-16abs.html)
