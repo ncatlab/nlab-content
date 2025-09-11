@@ -43,6 +43,9 @@ Introducing the notion of [[braided monoidal categories]]:
 
 * [[André Joyal]], [[Ross Street]], _Braided tensor categories_, Adv. Math. **102** (1993) 20-78 &lbrack;[doi:10.1006/aima.1993.1055](https://doi.org/10.1006/aima.1993.1055)&rbrack;
 
+On the [[2-category of adjunctions]]:
+
+* [[Stephen Schanuel]], [[Ross Street]], *The free adjunction*, [[Cahiers]] de topologie et géométrie différentielle catégoriques, **27** 1 (1986) 81-83 &lbrack;[numdam:CTGDC_1986__27_1_81_0](https://www.numdam.org/item/CTGDC_1986__27_1_81_0)&rbrack;
 
 
 On [[flexible limits]]:
