@@ -1,9 +1,8 @@
-
 \tableofcontents
 
 ## Idea
 
-Opfibratins of multicategories are the generalization of _[[Grothendieck opfibrations]]_ from [[categories]] to [[multicategories]].
+Opfibrations of multicategories are the generalization of _[[Grothendieck opfibrations]]_ from [[categories]] to [[multicategories]].
 
 
 ## Properties
@@ -39,7 +38,8 @@ Opfibrations over the [[terminal object|terminal]] multicategory are equivalentl
 
 ## Related concepts
 
-The generalization to the context of [[(∞,1)-operads]] is given by the notion of [[Cartesian fibration of dendroidal sets]].
+- [[fibration of multicategories]]
+- The generalization to the context of [[(∞,1)-operads]] is given by the notion of [[Cartesian fibration of dendroidal sets]].
 
 ## References
 
@@ -53,7 +53,3 @@ For [[symmetric multicategories]] a discussion of (op)fibrations and of the oper
   
 
 [[!redirects opfibrations of multicategories]]
-
-[[!redirects fibration of multicategories]]
-[[!redirects fibrations of multicategories]]
-
