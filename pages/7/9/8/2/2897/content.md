@@ -20,6 +20,7 @@
 The word 'period' has many meanings in [[mathematics]], most of them coming from [[physics]]: the period of an oscillation, periods in celestial mechanics, even the period of a [[periodic function]] comes from the intuition that the periodicity is in the time dimension. Functions on [[tori]] are periodic in two directions, say the [[Weierstrass elliptic functions]] on [[elliptic curves]], so it is not a surprise that more involved kinds of periods came from the study of elliptic curves and then more general [[Riemann surfaces]]. 
 
 ## In differential geometry
+ {#InDifferentialGeometry}
 
 The _period_ of a [[closed differential form|closed]] [[differential form]] $\omega \in \Omega^n_{cl}(X)$ over an $n$-[[cycle]] $S$ is the [[integration of differential forms|integral]] $\int_S \omega$. 
 
