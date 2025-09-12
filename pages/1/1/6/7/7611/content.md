@@ -27,6 +27,29 @@ which satisfy certain evident axioms.
 
 A cartesian multicategory can equivalently be defined as a [[generalized multicategory]] relative to the monad on [[Cat]] (or more precisely [[Prof]]) whose algebras are categories with (strict) [[finite products]].
 
+### In terms of the action of a faithful cartesian club
+
+An explicit elementary definition is perhaps most conveniently stated in terms of an action of the "[[club]] of functions".
+
+A _cartesian multicategory_ is a multicategory $M$ equipped with operations,
+  $$\left(- \cdot \sigma\right)_{A_1, ..., A_n;B} : M(A_{\sigma 1}, ..., A_{\sigma m};B) \to M(A_{1}, ..., A_{n} ; B)$$
+  for every function $\sigma : \{1,...,m\} \to \{1, ..., n\}$ and objects $A_1,...,A_n,B$ in $M$. We suppress the objects in the notation below, implicitly considering those equations which are well-typed.
+  These must satisfy the equations,
+
+* $f \cdot \mathrm{id} = f,$
+
+* $f \cdot (\sigma \circ \tau) = (f \cdot \sigma) \cdot \tau,$
+
+* $g \circ (f_1 \cdot \sigma_1, ..., f_n \cdot \sigma_n) = (g \circ (f_1, ..., f_n)) \cdot (\sigma_1 + ... + \sigma_n),$
+
+* $(g \cdot \sigma) \circ (f_1 , ..., f_n) = (g \circ (f_{\sigma 1} , ... , f_{\sigma m})) \cdot (\sigma \wr (k_1, ..., k_n)),$
+where $k_i$ is the arity of $f_i,$
+
+where for $\sigma : \{1,...,m\} \to \{1, ...,n\},$
+$$\sigma \wr (k_1, ..., k_n) : \{ 1, ... , k_{\sigma 1} + ... + k_{\sigma m} \} \to \{1, ..., k_{1} + ... + k_{n}\}$$
+denotes the "block function"
+$$\{ 1, ... , k_{\sigma 1} + ... + k_{\sigma m} \} \cong \{1, ..., k_{\sigma 1}\} + ... + \{1, ..., k_{\sigma m}\} \xrightarrow{\hat{\sigma}} \{1, ..., k_{1}\} + ... + \{1, ..., k_{n}\} \cong \{1, ..., k_{1} + ... + k_{n}\}$$
+where $\hat{\sigma}$ maps $i$ in the $j^{\text{th}}$ component to $i$ in the $\sigma j^{\text{th}}$ component.
 
 ### As a free category with finite products
 
