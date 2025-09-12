@@ -130,10 +130,6 @@ $$
   \,.
 $$
 
-+--{.query}
-[[Urs Schreiber|Urs]]: This may require a bit more care
-with the topology involved. I still need to check the reference below for more details.
-=--
 
 See also
 
