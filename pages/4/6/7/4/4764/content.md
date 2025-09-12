@@ -1,5 +1,3 @@
-
-# Cyclic operads
 * table of contents
 {: toc}
 
