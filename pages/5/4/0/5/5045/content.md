@@ -5,7 +5,7 @@
 
 [[infinity-Wess-Zumino-Witten theory - contents|∞-Wess-Zumino-Witten theory]]
 
-## Ingredients
+**Ingredients**
 
 * [[FQFT|quantum field theory]]
 
@@ -17,11 +17,11 @@
 
   * [[Chern-Simons element]]
 
-## Definition
+**Definition**
 
 * [[level (Chern-Simons theory)]]
 
-## Examples
+**Examples**
 
 * **For [[semisimple Lie algebra]] targets**
 
@@ -125,4 +125,3 @@
 
 
 
-<div markdown="1">[Edit this sidebar](/nlab/edit/infinity-Chern-Simons+theory+-+contents)</div>
