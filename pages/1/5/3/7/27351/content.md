@@ -85,30 +85,39 @@ Given an [[oriented link]]
   \label{ALink}
   \gamma \colon (S^1)^{n} \longrightarrow \mathbb{R}^3 \to S^3
 \] 
-(with $n$ [[connected components]] $L_a \colon S^1 \longrightarrow \mathbb{R}^n$, for $a \in [n]$), its  *[[Wilson loop]]*/*[[holonomy]]* with respect to such a connection (eq:1Forms) is:
+with $n$ [[connected components]] 
+\[
+  \label{ConnectedComponentsOfALink}
+  \Big\{
+    \gamma_i \colon S^1 \longrightarrow \mathbb{R}^n
+  \Big\}_{i \in [n]}
+  \,,
+\]
+
+its  *[[Wilson loop]]*/*[[holonomy]]* with respect to such a connection (eq:1Forms) is:
 
 \[
   \label{Holonomy}
-  \exp\left(
+  \exp\bigg(
     \mathrm{i}
     \textstyle{\underset{{(S^1)^n}}{\int}} 
     \gamma^\ast A
-  \right)
+  \bigg)
   \;\in\;
   \mathrm{U}(1)
   \,.
 \]
 
 
-The *[[expectation value]] of the $L$-[[Wilson loop]] [[quantum observable]]*, 
+The *[[expectation value]] of the $\gamma$-[[Wilson loop]] [[quantum observable]]*, 
 $$
-  \left\langle
-  \exp\left(
+  \Bigg\langle
+  \exp\bigg(
     \mathrm{i}
     \textstyle{\underset{{(S^1)^n}}{\int}} 
     \gamma^\ast A
-  \right)
-  \right\rangle
+  \bigg)
+  \Bigg\rangle
   \;\in\;
   \mathbb{C}
   \mathrlap{\,,}
@@ -116,13 +125,13 @@ $$
 is then meant to be the normalized [[path integral]] "$\int D A$" over the space of [[gauge orbits]] of $A$ (eq:1Forms) of the expression (eq:Holonomy) times the exponentiated [[action functional]] of [[abelian Chern-Simons theory]], suggestively written as
 \[
   \label{PathIntegralForAbelianChernSimonsWilsonLoops}
-  \left\langle
-  \exp\left(
+  \Bigg\langle
+  \exp\bigg(
     \mathrm{i}
     \textstyle{\underset{{(S^1)^n}}{\int}} 
     \gamma^\ast A
-  \right)
-  \right\rangle
+  \bigg)
+  \Bigg\rangle
   \;\;
   =
   \;\;
@@ -131,7 +140,8 @@ is then meant to be the normalized [[path integral]] "$\int D A$" over the space
     \displaystyle{\int D A}
     \;
     \exp\left(
-      -\mathrm{i}k
+      \mathrm{i}
+      \tfrac{k}{4\pi}
       \textstyle{\underset{S^3}{\int}}
       A \wedge \mathrm{d}A
       \;+\;
@@ -143,7 +153,8 @@ is then meant to be the normalized [[path integral]] "$\int D A$" over the space
     \displaystyle{\int D A}
     \;
     \exp\left(
-      -\mathrm{i}k
+      \mathrm{i} 
+      \tfrac{k}{4\pi}
       \textstyle{\underset{S^3}{\int}}
       A \wedge \mathrm{d}A
     \right)     
@@ -192,13 +203,13 @@ evaluates to
 
 Systematically following through this analogy (using [[Fourier transform]] to turn the [[derivative]] in $A \mathrm{d} A$ into a [[multiplication]] operation) with some care (such as with attention to [[gauge fixing]]) suggests the expression
 $$
-  \left\langle
-  \exp\left(
+  \Bigg\langle
+  \exp\bigg(
     \mathrm{i}
     \textstyle{\underset{{(S^1)^n}}{\int}} 
     \gamma^\ast A
-  \right)
-  \right\rangle
+  \bigg)
+  \Bigg\rangle
   \;=\;
   \multiscripts{^{\text{"}}}{
   \exp\bigg(
@@ -227,7 +238,7 @@ where the *[[Chern-Simons propagator]]* -- namely the analog of $M^{-1}$ in (eq:
   \big\rangle
   \;=\;
   \multiscripts{^{\text{"}}}{
-  \tfrac{1}{k}
+  \frac{\mathrm{i}}{2k}
   \epsilon_{\mu \nu \rho}
   \frac{
     x^\rho - y^\rho
@@ -241,17 +252,17 @@ where the *[[Chern-Simons propagator]]* -- namely the analog of $M^{-1}$ in (eq:
 In summary, this suggests
 \[
   \label{AbelianCSWilsonLoopObservableByNaivePathIntegral}
-  \left\langle
-  \exp\left(
+  \Bigg\langle
+  \exp\bigg(
     \mathrm{i}
     \textstyle{\underset{{(S^1)^n}}{\int}} 
     \gamma^\ast A
-  \right)
-  \right\rangle
+  \bigg)
+  \Bigg\rangle
   \;=\;
   \multiscripts{^{\text{"}}}{
   \exp\bigg(
-    -\tfrac{\mathrm{i}}{2k}
+    -\tfrac{\mathrm{i}}{4k}
     \textstyle{\underset{\gamma}{\int}}
     \textstyle{\underset{\gamma}{\int}}
     \, 
@@ -269,7 +280,7 @@ In summary, this suggests
 \]
 
 This is the proposed expression due to [Polyakov 1988 (3)](#Polyakov88), popularized by [Witten 1989 (2.29)](#Witten89).
-It is *almost* the time-honored [[integral]] expression for the [[Gauss linking number]] of the link $\gamma$, except for those contributions where $x$ and $y$ run over the same [[connected component]], compare the final expression (eq:AbelianCSWilsonLoopsInTermsOfFramingAndLinkingNumbers) below.
+It is *almost* the time-honored [[integral]] expression for the [[Gauss linking number]] of the link $\gamma$, except for those contributions where $x$ and $y$ run over the same [[connected component]] (eq:ConnectedComponentsOfALink), compare the final expression (eq:AbelianCSWilsonLoopsInTermsOfFramingAndLinkingNumbers) below.
 
 Namely, (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) is of course *still* not well-defined, since the propagator (eq:AbelianCSPropagatorForComputationOfWilsonLoops) is ill-defined whenever $x = y$.
 
@@ -285,19 +296,19 @@ With that, finally define (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) 
 
 \[
   \label{AbelianCSWilsonLoopObservableRenormalized}
-  \left\langle
-  \exp\left(
+  \Bigg\langle
+  \exp\bigg(
     \mathrm{i}
     \textstyle{\underset{{(S^1)^n}}{\int}} 
     \gamma^\ast A
-  \right)
-  \right\rangle
+  \bigg)
+  \Bigg\rangle
   \;\coloneqq\;
   \underset{
-    \left\vert n \right\vert n \to 0
+    \left\vert n \right\vert \to 0
   }{\lim}
   \exp\bigg(
-    \tfrac{\mathrm{i}}{2k}
+    -\tfrac{\mathrm{i}}{4k}
     \textstyle{\underset{(S^1)^n}{\int}}
     \textstyle{\underset{(S^1)^n}{\int}}
     \, 
@@ -327,28 +338,28 @@ With that, finally define (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) 
   \bigg)
   \,,
 \]
-where the [[limit of a sequence|limit]] $\left\vert n \right\vert n \to 0$ is over normal vector fields that keep the [[direction of a vector|direction]] but shrink in [[length]] (cf. [GMR 1994 (1.5)](#GMR94)).
+where the [[limit of a sequence|limit]] $\left\vert n \right\vert \to 0$ is over normal vector fields that keep the [[direction of a vector|direction]] but shrink in [[length]] (cf. [GMR 1994 (1.5)](#GMR94)).
 
 This expression is finally well-defined. 
 
 
 #### The knot-theoretic expression
 
-The shift along the framing vector in (eq:AbelianCSWilsonLoopObservableRenormalized) does not change that part of the integral, with respect to the naive (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral), where $\sigma$ and $\sigma'$ run over distinct [[connected components]] of the link, hence that part now does give the sum of the [[linking numbers]] among the connected components of the the [[oriented link]]. At the same time, the shift makes the contributions where $\sigma$ and $\sigma'$ do run over the same connected component become the [[linking number]] of that component with its shift by the framing, which is its [[framing number]].
+The shift along the framing vector in (eq:AbelianCSWilsonLoopObservableRenormalized) does not change that part of the integral, with respect to the naive (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral), where $\sigma$ and $\sigma'$ run over distinct [[connected components]] (eq:ConnectedComponentsOfALink) of the link, hence that part now does give the sum of the [[linking numbers]] among the connected components of the the [[oriented link]]. At the same time, the shift makes the contributions where $\sigma$ and $\sigma'$ do run over the same connected component become the [[linking number]] of that component with its shift by the framing, which is its [[framing number]].
 
 The end result is hence in the exponent the sum of the [[framing numbers]] $frm(\gamma_i) \in \mathbb{Z}$ of each link component $\gamma_i$ with the [[linking numbers]] $lnk(\gamma_i, \gamma_j) \in \mathbb{Z}$ all pairs of distinct link componets, which is its *[[writhe]]* $wrth(\gamma) \in \mathbb{Z}$ of the link:
 \[
   \label{AbelianCSWilsonLoopsInTermsOfFramingAndLinkingNumbers}
-  \left\langle
-  \exp\left(
+  \Bigg\langle
+  \exp\bigg(
     \mathrm{i}
     \textstyle{\underset{{(S^1)^n}}{\int}} 
     \gamma^\ast A
-  \right)
-  \right\rangle
+  \bigg)
+  \Bigg\rangle
   \;=\;
   \exp\bigg(
-    \tfrac{2\pi \mathrm{i}}{k}
+    -\tfrac{\pi \mathrm{i}}{k}
     \Big(
       \underset{
         wrth(\gamma)
@@ -366,8 +377,9 @@ The end result is hence in the exponent the sum of the [[framing numbers]] $frm(
   \mathrlap{\,.}
 \]
 
-(cf. [Kaul 1999 (9)](#Kaul99))
+([Witten 1989 (2.31) ff](#Witten89), cf. [Kaul 1999 (9)](#Kaul99), [Mezei, Pufu & Wang 2017 (5.1)](#MezeiPufuWang17))
 
+> (Beware that abelian Chern-Simons theory may be regarded as a [[spin Chern-Simons theory]] in which case the [[Chern-Simons level]] $k = K/2$ may be half-integral, for $K \in \mathbb{Z}$.)
 
 
 \linebreak
@@ -878,6 +890,7 @@ Review:
 
 * {#Kaul99} [[Romesh K. Kaul]], section 3 of: *Topological Quantum Field Theories -- A Meeting Ground for Physicists and Mathematicians* &lbrack;[arXiv:hep-th/9907119](https://arxiv.org/abs/hep-th/9907119)&rbrack;
 
+* {#MezeiPufuWang17} [[Márk Mezei]], [[Silviu S. Pufu]], Yifan Wang: *Chern-Simons theory from M5-branes and calibrated M2-branes*,  J. High Energ. Phys. **2019** 165 (2019) \[<a href="https://doi.org/10.1007/JHEP08(2019)165">doi:10.1007/JHEP08(2019)165</a>, [arXiv:1812.07572](https://arxiv.org/abs/1812.07572)\]
 
 
 
