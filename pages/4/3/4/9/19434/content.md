@@ -10,9 +10,8 @@
 =--
 =--
 
-# Contents
-* automatic table of contents goes here
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -389,7 +388,7 @@ The following is a quote from [[Ross Street|Ross Street's]] "Australian conspect
 
 ## References
 
-The original sources are
+The original articles:
 
 * {#W71}[[Bob Walters]], _Yoneda 2Categories_ , talk at the University of New South Wales December 1971. ([manuscript](https://web.archive.org/web/20170211062709/https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/yoneda.pdf))
 
@@ -397,48 +396,51 @@ The original sources are
 
 * {#SW78} [[Ross Street]], [[Bob Walters]], _Yoneda structures on 2-categories_,  JPAA **50** (1978) 350-379 &lbrack;<a href="https://doi.org/10.1016/0021-8693(78)90160-6">doi:10.1016/0021-8693(78)90160-6</a>&rbrack;
 
-Early variations on the theme are in
+Early variations on the theme:
 
 * {#Street74}[[Ross Street]], _Elementary cosmoi I_ , pp.104-133 in Springer LNM **420** 1974.
 
 * {#Street80}[[Ross Street]], _Cosmoi of internal categories_ , Transactions AMS **258** (1980) pp.271-318.
 
-The Street quote stems from
+The quote abve stems from:
 
-* {#Street10}[[Ross Street]], _An Australian conspectus of higher categories_ , pp.237-264 in Baez, May (eds.), _Towards Higher Categories_ , Springer Heidelberg 2010. ([draft](http://maths.mq.edu.au/~street/Minneapolis.pdf))
+* {#Street10} [[Ross Street]], _An Australian conspectus of higher categories_ , pp.237-264 in Baez, May (eds.), _Towards Higher Categories_ , Springer Heidelberg 2010. ([draft](http://maths.mq.edu.au/~street/Minneapolis.pdf))
 
-The result on locally small categories suggesting the definition of a small object is reported in
+The result on locally small categories suggesting the definition of a small object:
 
 * {#FS95}[[Peter Freyd]], [[Ross Street]], _On the size of categories_ , TAC **1** (1995) pp.174-185. ([abstract](http://www.tac.mta.ca/tac/volumes/1995/n9/1-09abs.html))
 
-Exact squares in Yoneda structures are studied in
+On exact squares in Yoneda structures:
 
 * [[René Guitart]], _Relations et carrés exacts_ , Ann. Sc. Math. Québec **IV** no.2 (1980) pp.103-125. ([draft](http://rene.guitart.pagesperso-orange.fr/textespublications/rg42.pdf))
 
 * L. Van den Bril, _Exactitude dans les Yoneda-structures_ , Cah. Top. Géo. Diff. Cat. **XXIII** no.2 (1982) pp.215-224.
 
-The following explores Yoneda structures arising from 2-categories with a discrete-opfibration classifier (such as [[2-toposes]]):
+
+In the generality of [[multicategories]]:
+
+* {#Hermida04} [[Claudio Hermida]]: *Fibrations and Yoneda structure for multicategories*, in: *Galois Theory, Hopf Algebras, and Semiabelian Categories*, Fields Institute Communications **43** (2004) 281-294 &lbrack;[doi:10.1090/fic/043](https://doi.org/10.1090/fic/043), [pdf](https://www.researchgate.net/profile/Claudio-Hermida/publication/246180896_Fibrations_for_abstract_multicategories/links/573907ae08ae9f741b2be202/Fibrations-for-abstract-multicategories.pdf)&rbrack;
+
+
+On Yoneda structures arising from 2-categories with a discrete-opfibration classifier (such as [[2-toposes]]):
 
 * {#Weber07} [[Mark Weber]], *Yoneda structures from 2-toposes*, Appl Categor Struct **15** (2007) 259–323 &lbrack;[doi:10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2), [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
 
 
-The following two investigate the connections with KZ doctrines:
+On relations with KZ doctrines:
 
-* {#Walker17} C. Walker, _Yoneda Structures and KZ Doctrines_ , arXiv:1703.08693 (2017). ([abstract](http://arxiv.org/pdf/1703.08693v3))
-
-* {#Walker18} C. Walker, _Distributive Laws via Admissibility_ , arXiv:1706.09575 (2018). ([abstract](https://arxiv.org/abs/1706.09575))
-
-The interplay of Yoneda structures and KZ doctrines is employed to some effect in
-
-* {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
-
-The pertaining technical ingredients on KZ doctrines are due to the following two papers
-
-* {#BF99} [[Marta Bunge]], [[Jonathon Funk]], _On a bicomma object condition for KZ-doctrines_ , JPAA **143** (1999) pp.69-105.
+* {#BF99} [[Marta Bunge]], [[Jonathon Funk]], _On a bicomma object condition for KZ-doctrines_ , JPAA **143** (1999) 69-105.
 
 * {#MW12} [[Francisco Marmolejo]], [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [[TAC]] **26** 1 (2012) 1-29 &lbrack;[26-01](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html)&rbrack;
 
-The relation to pro-arrow equipments, the presheaf construction and Isbell duality is discused in
+
+* {#Walker17} C. Walker, _Yoneda Structures and KZ Doctrines_, arXiv:1703.08693 (2017). ([abstract](http://arxiv.org/pdf/1703.08693v3))
+
+* {#Walker18} C. Walker, _Distributive Laws via Admissibility_, arXiv:1706.09575 (2018). ([abstract](https://arxiv.org/abs/1706.09575))
+
+* {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
+
+The relation to pro-arrow equipments, the presheaf construction and Isbell duality:
 
 * {#DL19} [[Ivan Di Liberti]], [[Fosco Loregian]], _On the Unicity of Formal Category Theories_ , arXiv:1901.01594 (2019). ([abstract](https://arxiv.org/abs/1901.01594))
 
