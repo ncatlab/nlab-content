@@ -75,7 +75,7 @@ $$
   \,.
 $$
 
-A transparent way to understand this condition is to consider (in the style of the definition of [[Cheeger-Simons differential characters]]) a [[compact topological space|compact]] [[4-manifold]] $\Sigma^4$ [[manifold with boundary|with boundary]] $\Sigma^3 = \partial \Sigma^4$ and an extension of the $\mathrm{U}(1)$-connection to $\Sigma^4$, where we will denote its [[curvature]]/[[field strength]]/[[flux density]] still by $F$. 
+A transparent way to understand this condition is to consider (in the style of the definition of [[Cheeger-Simons differential characters]], popularized by [[Edward Witten|Witten]]) a [[compact topological space|compact]] [[4-manifold]] $\Sigma^4$ [[manifold with boundary|with boundary]] $\Sigma^3 = \partial \Sigma^4$ and an extension of the $\mathrm{U}(1)$-connection to $\Sigma^4$, where we will denote its [[curvature]]/[[field strength]]/[[flux density]] still by $F$. 
 
 Then the [[Stokes theorem]] gives
 $$
@@ -302,7 +302,6 @@ is then meant to be the normalized [[path integral]] "$\int D A$" over the space
 As usual for [[path integrals]], the expression on the right of (eq:PathIntegralForAbelianChernSimonsWilsonLoops) remains undefined, since a suitable [[measure]] "$D A$" is not known and may not exist. As also usual for path integrals, one proceeds instead by postulating that the expression on the left of (eq:PathIntegralForAbelianChernSimonsWilsonLoops) satisfies enough structural properties that are *suggested* by the symbols on the right as to be uniquely fixed by these conditions --- and then take that to be the definition.
 
 We proceed [below](#AbelianCSWilsonLoopsViaGaussianIntegrals) to discuss the usual such postulates, which proceed by applying expected properties of [[Gaussian integrals]]. 
-
 A slightly different set of postulates, but more explicit than usual, is considered by [Guadagnini & Thuillier 2008 §4.3](#GuadagniniThuillier08).
 
 
