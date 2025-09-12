@@ -114,6 +114,8 @@ See also the examples at _[[operad]]_.
 
 * [[multiactegory]], the appropriate notion of *action* of a multicategory
 
+* [[fibration of multicategories]], [[opfibration of multicategories]]
+
 * [[polycategory]]
 
 * [[properad]]
