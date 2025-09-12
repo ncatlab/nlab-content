@@ -66,22 +66,22 @@ Let $X$ be a [[smooth manifold]] and $n \in \mathbb{N}$ with $n \geq 1$ Write
 
 * $\Omega^{n-1}(X)$ for the collection of [[differential form]]s of degree $n-1$;
 
-* $\Omega^{n-1}_{int}(X)$ for the collection of [[differential form]]s $\omega$ of degree $n-1$ that are closed and whose [[period]]s are integral: for every $\gamma : S^{n-1} \to X$ we have the [[integral]] $\int_{S^{n-1}} \gamma^* \omega \in \mathbb{Z} \hookrightarrow \mathbb{R}$. Similarly for $\Omega^n_{int}(X)$.
+* $\Omega^{n-1}_{int}(X)$ for the collection of [[differential form]]s $\omega$ of degree $n-1$ that are closed and whose [[periods]] are integral: for every $\gamma \colon S^{n-1} \to X$ we have the [[integral]] $\int_{S^{n-1}} \gamma^* \omega \in \mathbb{Z} \hookrightarrow \mathbb{R}$. Similarly for $\Omega^n_{int}(X)$.
 
-* $H^n(X, \mathbb{Z})$ and $H^n(X, U(1))$ for the ordinary cohomology (for instance modeled as [[singular cohomology]]) of $X$ with coefficients in the [[integer]]s or the [[circle group]] (regarded as a [[discrete group]]), respectively.
+* $H^n(X, \mathbb{Z})$ and $H^n\big(X, U(1)\big)$ for the ordinary cohomology (for instance modeled as [[singular cohomology]]) of $X$ with coefficients in the [[integer]]s or the [[circle group]] (regarded as a [[discrete group]]), respectively.
 
-All of these sets are [[abelian group]]s: the forms under addition of forms, and the differential cohomology classes are defined or proven (depending on the approach, see above) to have abelian group structure such that  the maps to curvatures and characteristic classes, from [above](#CurvatureAndCharClass) are [[homomorphism]]s of [[abelian group]]s.
+All of these sets are [[abelian groups]]: the forms under addition of forms, and the differential cohomology classes are defined or proven (depending on the approach, see above) to have abelian group structure such that  the maps to curvatures and characteristic classes, from [above](#CurvatureAndCharClass) are [[homomorphism]]s of [[abelian group]]s.
 
 +-- {: .num_prop #ExactSequencesForOrdDiffCohomology}
 ###### Proposition
 
-The differential cohomology $H_{diff}^n(X)$ of $X$ fits into [[short exact sequence]]s of abelian groups
+The differential cohomology $H_{diff}^n(X)$ of $X$ fits into [[short exact sequences]] of abelian groups
 
 1. **curvature exact sequence**
 
    \[
      \label{CurvatureSequence}
-     0 \to H^{n-1}(X, U(1)) \to H^n_{diff}(X) \stackrel{F}{\to} \Omega_{int}^n(X) \to 0
+     0 \to H^{n-1}\big(X, U(1)\big) \to H^n_{diff}(X) \stackrel{F}{\to} \Omega_{int, clsd}^n(X) \to 0
    \]
 
 1. **characteristic class exact sequence**
