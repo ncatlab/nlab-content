@@ -1,17 +1,16 @@
-[[!redirects fibration of multicategories]]
-# Contents
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
-The analogue of the notion of _[[Grothendieck opfibration]]_ generalized from [[categories]] to [[multicategories]].
+Opfibratins of multicategories are the generalization of _[[Grothendieck opfibrations]]_ from [[categories]] to [[multicategories]].
+
 
 ## Properties
 
 ### Relation to algebras over an operad
 
-For a multicategory regarded as a ([[planar operad|non-symmetric]]) [[operad]], discrete opfibrations over it are equivalent to [[algebra over an operad|algebras over that operad]] ([Hermida, proposition 5.1](#Hermida)).
+For a [[multicategory]] regarded as a ([[planar operad|non-symmetric]]) [[operad]], discrete opfibrations over it are equivalent to [[algebra over an operad|algebras over that operad]] ([Hermida, proposition 5.1](#Hermida)).
 
 For [[symmetric multicategories]] we have the following. 
 Let $P$ be a [[symmetric operad]] over [[Set]]
@@ -44,14 +43,17 @@ The generalization to the context of [[(∞,1)-operads]] is given by the notion 
 
 ## References
 
-Opfibrations of planar [[multicategories]] are discussed in
+On opfibrations of planar [[multicategories]]:
 
-* [[Claudio Hermida]], _Fibrations for abstract multicategories_, Fields Institute Communications ([pdf](http://sqig.math.ist.utl.pt/pub/HermidaC/fib-mul.pdf))
- {#Hermida}
+* {#Hermida} [[Claudio Hermida]], _Fibrations for abstract multicategories_, Fields Institute Communications &lbrack;[[Hermida-FibsForMulticats.pdf:file]]&rbrack;
+ 
+For [[symmetric multicategories]] a discussion of (op)fibrations and of the operadic [[Grothendieck construction]] is in:
 
-For [[symmetric multicategories]] a discussion of (op)fibrations and of the operadic [[Grothendieck construction]] is in section 1 of 
-
-* [[Gijs Heuts]], _Algebras over infinity-operads_ ([arXiv:1110.1776](http://arxiv.org/abs/1110.1776))
-  {#Heuts}
+* {#Heuts} [[Gijs Heuts]], section 1 of: _Algebras over infinity-operads_ &lbrack;[arXiv:1110.1776](http://arxiv.org/abs/1110.1776)&rbrack;
+  
 
 [[!redirects opfibrations of multicategories]]
+
+[[!redirects fibration of multicategories]]
+[[!redirects fibrations of multicategories]]
+
