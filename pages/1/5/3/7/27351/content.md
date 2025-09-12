@@ -19,7 +19,6 @@
 =--
 
 
-
 \tableofcontents
 
 ## Idea
@@ -29,12 +28,147 @@ By *abelian Chern-Simons theory* one means [[Chern-Simons theory]] with [[abelia
 One major application of abelian Chern-Simons theory is as an [[effective field theory]] of the [[fractional quantum Hall effect]].
 
 
+## Definition
+
+### The Lagrangian density and the Level
+ {#LagrangianDensityAndLevel}
+
+Let's normalize [[connection]] [[differential forms|forms]] according to the common convention in theoretical physics, where the [[field strength]]/[[flux density]]  $F_A \coloneqq \mathrm{d}A$ it such that
+\[
+  \label{NormalizationPfFluxDensity}
+  \tfrac{1}{2\pi} F_A
+  \;\in\;
+  \Omega^2_{int, cls}
+\]
+is an [[integral form]], in that it has [[integer]] [periods](period#InDifferentialGeometry) (cf. *[[Dirac charge quantization]]* and *[[ordinary differential cohomology]]*).
+
+
+The [[Lagrangian density]] of abelian Chern-Simons theory is a multiple of the [[Chern-Simons form]]
+$$
+  L(A)
+  \;\coloneqq\;
+  \tfrac{K}{4\pi} A \wedge \mathrm{d} A
+  \,
+$$ 
+for a numerical parameter $K$ to be fixed, so that the [[action functional]]
+$$
+  S(\Sigma^3, A)
+  \;\coloneqq\;
+  \tfrac{K}{4\pi}
+  \textstyle{\int_{\Sigma^3}} 
+  A \wedge \mathrm{d}A
+$$
+has [[gauge invariance|gauge-invariant]] [[exponential]]
+$$
+  \exp\Big(
+    \mathrm{i} S(A)
+  \Big)
+  \;=\;
+  \exp\Big( 
+    \mathrm{i}
+    \tfrac{K}{4\pi}
+    \textstyle{\int_{\Sigma^3}} 
+    A \wedge \mathrm{d}A
+  \Big)
+  \;\in\;
+  \mathrm{U}(1)
+  \,.
+$$
+
+A transparent way to understand this condition is to consider (in the style of the definition of [[Cheeger-Simons differential characters]]) a [[compact topological space|compact]] [[4-manifold]] $\Sigma^4$ [[manifold with boundary|with boundary]] $\Sigma^3 = \partial \Sigma^4$ and an extension of the $\mathrm{U}(1)$-connection to $\Sigma^4$, where we will denote its [[curvature]]/[[field strength]]/[[flux density]] still by $F$. 
+
+Then the [[Stokes theorem]] gives
+$$
+  \exp\Big(
+    \mathrm{i} S(A)
+  \Big)
+  \;=\;
+  \exp\Big(
+    \mathrm{i}
+    \tfrac{K}{4\pi}
+    \textstyle{\int_{\Sigma^4}}
+    F \wedge F
+  \Big)
+  \;=\;
+  \exp\Big(
+    K \pi \mathrm{i}
+    \textstyle{\int_{\Sigma^4}}
+    \frac{F}{2\pi} \wedge \frac{F}{2\pi}
+  \Big)
+  \,.
+$$
+For this to be well-defined --- in that it takes the same value for any other choice of $\Sigma^4$, we need that for *[[closed manifold|closed]]* $\widehat{\Sigma}^4$ we have
+$$
+  \tfrac{1}{2\pi \mathrm{i}}
+  K \pi \mathrm{i}
+  \underset{
+    c_1^2(\Sigma^4)
+  }{
+    \underbrace{
+      \textstyle{\int_{\widehat{\Sigma}^4}}
+      \frac{F}{2\pi} \wedge \frac{F}{2\pi}
+    }
+  }
+  \;\in\;
+  \mathbb{Z}
+  \,.
+$$
+
+If there is no further condition on $\Sigma^3$ and hence on $\widehat{\Sigma}^4$, then by (eq:NormalizationPfFluxDensity), $c_1^2(\Sigma^4) \in \mathbb{Z}$ and the condition is that 
+$$
+  k 
+    \;\coloneqq\; 
+  \tfrac{K}{2}
+    \;\in\;
+  \mathbb{Z}
+$$ 
+must be an [[integer]]. This is the *[[Chern-Simons level]]*.
+
+However, if we restrict evaluation to [[spin manifolds]] then ([Dijkgraaf & Witten 1990 §5](#DijkgraafWitten90)):
+
+from the observation that the [[cobordism ring]] for spin 3-manifolds with complex line bundles is trivial, and that 
+$$
+  \widehat{\Sigma}^4 
+  \;
+  \text{spin manifold}
+  \;\;
+  \Rightarrow
+  \;\;
+  \int_{\widehat{\Sigma}^4}
+  \frac{F}{2\pi} \wedge \frac{F}{2\pi}
+  \;\in\;
+  2\mathbb{Z}
+  \,,
+$$
+it follows that for *[[spin Chern-Simons theory]]* one may allow half-integral level
+$$ 
+  k 
+    \;\in\;
+  \tfrac{1}{2}\mathbb{Z} 
+  \;\;\;\;\;\;
+  \text{equivalently}
+  \;\;\;\;\;\;
+  K \coloneqq 2k 
+  \;\in\;
+  \mathbb{Z}
+  \,.
+$$
+
+Finally just to note the resulting expression for the exponentiated action functional changes and how it changes if one adopts the normalization condition for $F$ that is more common in mathematics, where it is $F$ itself that is integral:
+
+| physics normalization | math normalization |
+|-----------------------|--------------------|
+| $e^{\mathrm{i}S(A)} = \exp\Big( \mathrm{i} \tfrac{K}{4\pi} \textstyle{\int_{\Sigma^3}} A \wedge \mathrm{d}A \Big)$ | $e^{\mathrm{i}S(A)} = \exp\Big( 2\pi\mathrm{i}  \textstyle{\int_{\Sigma^3}} \tfrac{K}{2}\, A \wedge \mathrm{d}A \Big)$ |
+
+Some of the following sections stick to one or the other of these conventions.
+
+
 ## Properties
 
 ### Space of quantum states
  {#SpaceOfQuantumStates}
 
-For abelian Chern-Simons theory with $N$ [[gauge fields]] $(a^{(i)})_{i = 1}^N$ and [[Lagrangian density]] of the form (using [[Einstein summation convention]]) $K_{i j} a^{(i)} \wedge \mathrm{d} a^{(j)}$ (eq:SecondaryEffectiveLagrangianInKMatrixForm) , for $K$ an $N \times N$ *even* [[integer]] [[symmetric matrix]] (the diagonal entries are [[even numbers]]), the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ (obtained by [[geometric quantization]], cf. *[[quantization of D=3 Chern-Simons theory]]*) over an [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g$ is the [[absolute value]] of the [[determinant]] of $K$ raised to the $g$th [[exponent|power]]:
+For abelian Chern-Simons theory with $N$ [[gauge fields]] $(a^{(i)})_{i = 1}^N$ and [[Lagrangian density]] of the form (using [[Einstein summation convention]]) $K_{i j} \tfrac{1}{2} a^{(i)} \wedge \mathrm{d} a^{(j)}$ (eq:SecondaryEffectiveLagrangianInKMatrixForm) , for $K$ an $N \times N$ *even* [[integer]] [[symmetric matrix]] (the diagonal entries are [[even numbers]]), the [[dimension of a vector space|dimension]] of the [[Hilbert space|Hilbert]] [[space of quantum states]] $\mathscr{H}_g$ (obtained by [[geometric quantization]], cf. *[[quantization of D=3 Chern-Simons theory]]*) over an [[orientation|orientable]] [[surface]] of [[genus of a surface|genus]] $g$ is the [[absolute value]] of the [[determinant]] of $K$ raised to the $g$th [[exponent|power]]:
 
 $$ 
   dim(\mathscr{H}_g)
@@ -83,7 +217,9 @@ Any $\mathrm{U}(1)$-[[principal connection|connection]] on [[3-sphere|$S^3$]] (o
 Given an [[oriented link]] 
 \[
   \label{ALink}
-  \gamma \colon (S^1)^{n} \longrightarrow \mathbb{R}^3 \to S^3
+  \gamma 
+    \colon 
+  (S^1)^{n} \longrightarrow \mathbb{R}^3 \to S^3
 \] 
 with $n$ [[connected components]] 
 \[
@@ -141,7 +277,7 @@ is then meant to be the normalized [[path integral]] "$\int D A$" over the space
     \;
     \exp\left(
       \mathrm{i}
-      \tfrac{k}{4\pi}
+      \tfrac{K}{4\pi}
       \textstyle{\underset{S^3}{\int}}
       A \wedge \mathrm{d}A
       \;+\;
@@ -154,7 +290,7 @@ is then meant to be the normalized [[path integral]] "$\int D A$" over the space
     \;
     \exp\left(
       \mathrm{i} 
-      \tfrac{k}{4\pi}
+      \tfrac{K}{4\pi}
       \textstyle{\underset{S^3}{\int}}
       A \wedge \mathrm{d}A
     \right)     
@@ -262,7 +398,7 @@ In summary, this suggests
   \;=\;
   \multiscripts{^{\text{"}}}{
   \exp\bigg(
-    -\tfrac{\mathrm{i}}{4k}
+    -\tfrac{\mathrm{i}}{4K}
     \textstyle{\underset{\gamma}{\int}}
     \textstyle{\underset{\gamma}{\int}}
     \, 
@@ -308,7 +444,7 @@ With that, finally define (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) 
     \left\vert n \right\vert \to 0
   }{\lim}
   \exp\bigg(
-    -\tfrac{\mathrm{i}}{4k}
+    -\tfrac{\mathrm{i}}{4K}
     \textstyle{\underset{(S^1)^n}{\int}}
     \textstyle{\underset{(S^1)^n}{\int}}
     \, 
@@ -359,7 +495,14 @@ The end result is hence in the exponent the sum of the [[framing numbers]] $frm(
   \Bigg\rangle
   \;=\;
   \exp\bigg(
-    -\tfrac{\pi \mathrm{i}}{k}
+    -
+    \underset{
+      \pi\mathrm{i}/k
+    }{
+      \underbrace{
+        \tfrac{2\pi \mathrm{i}}{K}
+      }
+    }
     \Big(
       \underset{
         wrth(\gamma)
@@ -378,8 +521,6 @@ The end result is hence in the exponent the sum of the [[framing numbers]] $frm(
 \]
 
 ([Witten 1989 (2.31) ff](#Witten89), cf. [Kaul 1999 (9)](#Kaul99), [Mezei, Pufu & Wang 2017 (5.1)](#MezeiPufuWang17))
-
-> (Beware that abelian Chern-Simons theory may be regarded as a [[spin Chern-Simons theory]] in which case the [[Chern-Simons level]] $k = K/2$ may be half-integral, for $K \in \mathbb{Z}$.)
 
 
 \linebreak
@@ -766,6 +907,9 @@ General discussion of abelian Chern-Simons theory:
 * {#Manoliu98a} Mihaela Manoliu: *Abelian Chern-Simons theory*, J. Math. Phys. **39** (1998) 170-206 &lbrack;[arXiv:dg-ga/9610001](https://arxiv.org/abs/dg-ga/9610001), [doi:10.1063/1.532333](https://doi.org/10.1063/1.532333)&rbrack;
 
 * {#Manoliu98b} Mihaela Manoliu: *Abelian Chern-Simons theory. II: A functional integral approach*, J. Math.Phys. **39** (1998) 207-217 &lbrack;[doi:10.1063/1.532312](https://doi.org/10.1063/1.532312)&rbrack;
+
+* {#DijkgraafWitten90} [[Robbert Dijkgraaf]], [[Edward Witten]]: *Topological Spin Theories*, section 5 in: *Topological Gauge Theories and Group Cohomology*, Commun. Math. Phys. **129** (1990) 393 &lbrack;[doi:10.1007/BF02096988](https://doi.org/10.1007/BF02096988), [euclid:cmp/1104180750](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-129/issue-2/Topological-gauge-theories-and-group-cohomology/cmp/1104180750.full), [pdf](/nlab/files/DW.pdf)&rbrack;
+  > (the notion of abelian [[spin Chern-Simons theory]])
 
 * V. S. Alves, [[Ashok Das]], Silvana Perez: *Screening Length in $2+1$-dimensional Abelian Chern-Simons Theories*, Phys. Lett. B **531** (2002) 289-300 &lbrack;[arXiv:hep-th/0201207](https://arxiv.org/abs/hep-th/0201207), <a href="https://doi.org/10.1016/S0370-2693(02)01486-7">doi:10.1016/S0370-2693(02)01486-7</a>&rbrack;
 
