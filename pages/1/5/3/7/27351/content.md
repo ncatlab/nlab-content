@@ -33,7 +33,7 @@ One major application of abelian Chern-Simons theory is as an [[effective field 
 ### The Lagrangian density and the Level
  {#LagrangianDensityAndLevel}
 
-Let's normalize [[connection]] [[differential forms|forms]] according to the common convention in theoretical physics, where the [[field strength]]/[[flux density]]  $F_A \coloneqq \mathrm{d}A$ it such that
+For the time beign we normalize [[connection]] [[differential forms|forms]] according to the common convention in [[theoretical physics]], where the gauge [[curvature]]/[[field strength]]/[[flux density]] $F_A \coloneqq \mathrm{d}A$ it such that
 \[
   \label{NormalizationPfFluxDensity}
   \tfrac{1}{2\pi} F_A
@@ -43,13 +43,14 @@ Let's normalize [[connection]] [[differential forms|forms]] according to the com
 is an [[integral form]], in that it has [[integer]] [periods](period#InDifferentialGeometry) (cf. *[[Dirac charge quantization]]* and *[[ordinary differential cohomology]]*).
 
 
-The [[Lagrangian density]] of abelian Chern-Simons theory is a multiple of the [[Chern-Simons form]]
-$$
+The (local) [[Lagrangian density]] of abelian Chern-Simons theory is a multiple of the [[Chern-Simons form]] of the gauge field
+\[
+  \label{TheLagrangianDensity}
   L(A)
   \;\coloneqq\;
   \tfrac{K}{4\pi} A \wedge \mathrm{d} A
   \,
-$$ 
+\] 
 for a numerical parameter $K$ to be fixed, so that the [[action functional]]
 $$
   S(\Sigma^3, A)
@@ -78,7 +79,7 @@ has [[gauge invariance|gauge-invariant]] [[exponential]]
 
 A transparent way to understand this condition is to consider (in the style of the definition of [[Cheeger-Simons differential characters]], popularized by [[Edward Witten|Witten]]) a [[compact topological space|compact]] [[4-manifold]] $\Sigma^4$ [[manifold with boundary|with boundary]] $\Sigma^3 = \partial \Sigma^4$ and an extension of the $\mathrm{U}(1)$-connection to $\Sigma^4$, where we will denote its [[curvature]]/[[field strength]]/[[flux density]] still by $F$. 
 
-Then the [[Stokes theorem]] gives
+Then [[Stokes' theorem]] gives
 $$
   \exp\Big(
     \mathrm{i} S(A)
@@ -96,9 +97,9 @@ $$
     \textstyle{\int_{\Sigma^4}}
     \frac{F}{2\pi} \wedge \frac{F}{2\pi}
   \Big)
-  \,.
+  \,,
 $$
-For this to be well-defined --- in that it takes the same value for any other choice of $\Sigma^4$, we need that for *[[closed manifold|closed]]* $\widehat{\Sigma}^4$ we have
+which reveals that the expression is well-defined --- in that it takes the same value for any other choice of $\Sigma^4$ --- if for *[[closed manifold|closed]]* $\widehat{\Sigma}^4$ (arising as the gluing of one choice of $\Sigma^4$ with the orientation reversal of any other along their common boundary $\Sigma^3$) we have
 $$
   \tfrac{1}{2\pi \mathrm{i}}
   K \pi \mathrm{i}
@@ -116,18 +117,21 @@ $$
 $$
 
 If there is no further condition on $\Sigma^3$ and hence on $\widehat{\Sigma}^4$, then by (eq:NormalizationPfFluxDensity), $c_1^2(\Sigma^4) \in \mathbb{Z}$ and the condition is that 
-$$
+\[
+  \label{TheLevel}
   k 
     \;\coloneqq\; 
   \tfrac{K}{2}
     \;\in\;
   \mathbb{Z}
-$$ 
-must be an [[integer]]. This is the *[[Chern-Simons level]]*.
+\] 
+must be an [[integer]]. 
 
-However, if we restrict evaluation to [[spin manifolds]] then ([Dijkgraaf & Witten 1990 §5](#DijkgraafWitten90)):
+This $k$ is the *[[Chern-Simons level]]*. On the other hand, $K = 2k$ is the (even, for now) integer that gets promoted to the eponymous [[matrix]] $(K_{i j})$ in "K-matrix Chern-Simons theory" ,where several gauge fields couple to each other (see [below](#HierarchicalKMatrixFormalism)). 
 
-from the observation that the [[cobordism ring]] for spin 3-manifolds with complex line bundles is trivial, and that 
+It is also $K$ that is more fundamental as one restricts attention to [[spin manifolds]] $\Sigma^3$, hence to *[[spin Chern-Simons theory]]* ([Dijkgraaf & Witten 1990 §5](#DijkgraafWitten90)):
+
+from the observation that the [[cobordism ring]] for spin  anifolds equipped with complex line bundles is trivial in degree 3, and that 
 $$
   \widehat{\Sigma}^4 
   \;
@@ -141,7 +145,7 @@ $$
   2\mathbb{Z}
   \,,
 $$
-it follows that for *[[spin Chern-Simons theory]]* one may allow half-integral level
+it follows that for [[spin Chern-Simons theory]] one may allow also half-integral level $k$ (eq:TheLevel) and hence odd integral $K$:
 $$ 
   k 
     \;\in\;
@@ -198,24 +202,27 @@ $$
 \linebreak
 
 
-### Wilson loop observables
+### Wilson loop quantum observables
  {#WilsonLoopsInAbelianChernSimonsTheory}
+
 
 It is physics [[folklore]] that the [[Wilson loop]] [[quantum observables]] of [[abelian Chern-Simons theory]] on the [[3-sphere]] evaluate to the exponentiated [[linking number]] plus [[framing number]] of the given ([[oriented link|oriented]], [[framed link|framed]]) [[link]].
 
 The traditional reasoning via "[[path integral]]" arguments, followed by a point-splitting [[renormalization]] choice via [[framed link|link framing]], is as follows (going back to [Polyakov 1988](#Polyakov88), enshrined since [Witten 1989 §2.1](#Witten89),  reviewed in [GMR 1994 §1](#GMR94)).
 
 
-#### Ingredients
+#### Wilson loops
 
-Any $\mathrm{U}(1)$-[[principal connection|connection]] on [[3-sphere|$S^3$]] (or $\mathbb{R}^3$) has [[underlying]] [[trivial bundle]] (since the [[homotopy classes]] of [[maps]] from $S^3$ to the [[classifying space]] $B \mathrm{U}(1)$, being an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, are all trivial: $\pi_0 Map\big(S^3, B \mathrm{U}(1)\big) \simeq \pi_3 B \mathrm{U}(1) \simeq 1$) and hence is represented by a globally defined [[differential 1-form]] 
+The [[gauge field|gauge]] [[field (physics)|field]] of abelian [[circle group|$\mathrm{U}(1)$]] Chern-Simons theory is a [[circle group|$\mathrm{U}(1)$]]-[[principal bundle]] with [[principal connection]] $\nabla$.
+
+However, on $\Sigma^3 = S^3$ the [[3-sphere]], any such $\mathrm{U}(1)$-[[principal connection|connection]] has [[underlying]] [[trivial bundle]] (since the [[homotopy classes]] of [[maps]] from $S^3$ to the [[classifying space]] $B \mathrm{U}(1)$, being an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, are all trivial: $\pi_0 Map\big(S^3, B \mathrm{U}(1)\big) \simeq \pi_3 B \mathrm{U}(1) \simeq 1$) and hence is represented by a globally defined [[differential 1-form]] 
 \[
   \label{1Forms}
   A \in \Omega^1_{dR}\big(S^3\big)
   \mathrlap{\,.}
 \]
 
-Given an [[oriented link]] 
+Given an [[oriented link|oriented]] [[link]] 
 \[
   \label{ALink}
   \gamma 
@@ -231,7 +238,7 @@ with $n$ [[connected components]]
   \,,
 \]
 
-its  *[[Wilson loop]]*/*[[holonomy]]* with respect to such a connection (eq:1Forms) is:
+its  *[[Wilson loop]]*/*[[holonomy]]* with respect to such a connection (eq:1Forms) is the exponentiated [[integration of differential forms|integral]] of $A$ along the link:
 
 \[
   \label{Holonomy}
@@ -246,7 +253,7 @@ its  *[[Wilson loop]]*/*[[holonomy]]* with respect to such a connection (eq:1For
 \]
 
 
-The *[[expectation value]] of the $\gamma$-[[Wilson loop]] [[quantum observable]]*, 
+The *[[expectation value]] $\langle-\rangle$ of the $\gamma$-[[Wilson loop]] (eq:Holonomy), regarded as a [[quantum observable]]* in abelian Chern-Simons theory, 
 $$
   \Bigg\langle
   \exp\bigg(
@@ -259,7 +266,7 @@ $$
   \mathbb{C}
   \mathrlap{\,,}
 $$
-is then meant to be the normalized [[path integral]] "$\int D A$" over the space of [[gauge orbits]] of $A$ (eq:1Forms) of the expression (eq:Holonomy) times the exponentiated [[action functional]] (eq:ExponentiatedActionFunctional) of [[abelian Chern-Simons theory]], suggestively written as:
+is traditionally meant to be the normalized "[[path integral]] $\int D A$" over the space of [[gauge orbits]] of $A$ (eq:1Forms) of the expression (eq:Holonomy) weighted by the exponentiated [[action functional]] (eq:ExponentiatedActionFunctional) of [[abelian Chern-Simons theory]], suggestively written as:
 \[
   \label{PathIntegralForAbelianChernSimonsWilsonLoops}
   \Bigg\langle
@@ -306,11 +313,10 @@ We proceed [below](#AbelianCSWilsonLoopsViaGaussianIntegrals) to discuss the usu
 A slightly different set of postulates, but more explicit than usual, is considered by [Guadagnini & Thuillier 2008 §4.3](#GuadagniniThuillier08).
 
 
-
 #### The Gaussian path integral
  {#AbelianCSWilsonLoopsViaGaussianIntegrals}
 
-Since the [[abelian Chern-Simons theory|abelian Chern-Simons]] [[Lagrangian density]] $A \wedge \mathrm{d}A$ is a [[quadratic form]] in $A$, one envisions that this expression (eq:PathIntegralForAbelianChernSimonsWilsonLoops) follows the transformation rules of [[Gaussian integrals]] over elements $\phi \in \mathbb{R}^n$ of finite-dimensional [[Cartesian spaces]], for which 
+Since the [[abelian Chern-Simons theory|abelian Chern-Simons]] [[Lagrangian density]] $\tfrac{K}{4\pi} A \wedge \mathrm{d}A$ (eq:TheLagrangianDensity) is a [[quadratic form]] in $A$, one envisions that this expression (eq:PathIntegralForAbelianChernSimonsWilsonLoops) follows the transformation rules of [[Gaussian integrals]] over elements $\phi \in \mathbb{R}^n$ of finite-dimensional [[Cartesian spaces]], for which 
 $$
   Z(J)
   \;\coloneqq\;
@@ -364,7 +370,7 @@ $$
   }{^{\text{"}}}
   \,,
 $$
-where the *[[Chern-Simons propagator]]* -- namely the analog of $M^{-1}$ in (eq:EvaluationOfOrdinaryGaussianIntegral) -- is suggested to be
+whereby the *[[Chern-Simons propagator]]* -- namely the analog of $M^{-1}$ in (eq:EvaluationOfOrdinaryGaussianIntegral) -- is suggested to be
 \[
   \label{AbelianCSPropagatorForComputationOfWilsonLoops}
   \big\langle
@@ -426,8 +432,8 @@ In a final step of the traditional argument one applies a [[renormalization]] ar
 
 [Polyakov 1988 (5)](#Polyakov88) considered one regularization of (eq:AbelianCSPropagatorForComputationOfWilsonLoops), but [Witten 1989 p. 363](#Witten89) asserted that it is "clear" that the following "point-splitting regularization" should be used, and this has become the commonly accepted choice since:
 
-Choose a [[framed link|framing]] of the link $\gamma$ (eq:ALink), hence a [[vector field]] $n$ in $\mathbb{R}^3$ defined on $\gamma$ which is normal to $\dot \gamma$. 
-With that, finally define (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) by replacing all occurences of $y$ with a shifted version $y + n$, for arbitrarily small lengths of the normal vector $n$:
+Choose a [[framed link|framing]] of the link $\gamma$ (eq:ALink), hence a unit [[vector field]] $n$ in $\mathbb{R}^3$ defined on $\gamma$, which is normal to $\dot \gamma$. 
+With that, finally define (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) by replacing all occurences of $y$ with a shifted version $y + s n$, for arbitrarily small lengths $s \in \mathbb{R}_+$ of the normal/framing vector $s n$:
 
 \[
   \label{AbelianCSWilsonLoopObservableRenormalized}
@@ -440,7 +446,7 @@ With that, finally define (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) 
   \Bigg\rangle
   \;\coloneqq\;
   \underset{
-    \left\vert n \right\vert \to 0
+    s \to 0
   }{\lim}
   \exp\bigg(
     -\tfrac{\mathrm{i}}{4K}
@@ -454,26 +460,26 @@ With that, finally define (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) 
       {\partial \gamma^\mu(\sigma)}
       {\partial \sigma}
     \frac
-      {\partial (\gamma^\nu + n^\nu)(\sigma')}
+      {\partial (\gamma^\nu + s n^\nu)(\sigma')}
       {\partial \sigma'}    
     \epsilon_{\mu \nu \rho}  
     \frac{
       \gamma^\rho(\sigma) 
         - 
-      \big(\gamma^\rho(\sigma') + n^\rho(\sigma')\big)
+      \big(\gamma^\rho(\sigma') + s n^\rho(\sigma')\big)
     }{
       \left\vert 
         \gamma(\sigma) 
         - 
         \big(
-          \gamma(\sigma') + n(\sigma')
+          \gamma(\sigma') + s n(\sigma')
         \big) 
       \right\vert^3
     } 
   \bigg)
   \,,
 \]
-where the [[limit of a sequence|limit]] ${\vert n \vert} \to 0$ is over normal vector fields that keep the [[direction of a vector|direction]] but shrink in [[length]] (cf. [GMR 1994 (1.5)](#GMR94)).
+where the [[limit of a sequence|limit]] $s \to 0$ is over normal vector fields that keep the given [[direction of a vector|direction]] but shrink in [[length]] (cf. [GMR 1994 (1.5)](#GMR94)).
 
 This expression (eq:AbelianCSWilsonLoopObservableRenormalized) is finally well-defined. 
 
@@ -482,7 +488,7 @@ This expression (eq:AbelianCSWilsonLoopObservableRenormalized) is finally well-d
 
 The shift along the framing vector in (eq:AbelianCSWilsonLoopObservableRenormalized) does not change that part of the integral, with respect to the naive (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral), where $\sigma$ and $\sigma'$ run over distinct [[connected components]] (eq:ConnectedComponentsOfALink) of the link, hence that part now does give the sum of the [[linking numbers]] among the connected components of the the [[oriented link]]. At the same time, the shift makes the contributions where $\sigma$ and $\sigma'$ do run over the same connected component become the [[linking number]] of that component with its shift by the framing, which is its *self-linking* or *[[framing number]]*.
 
-The end result is hence, in the exponent, the sum of the [[framing numbers]] $frm(\gamma_i) \in \mathbb{Z}$ of each link component $\gamma_i$ with the [[linking numbers]] $lnk(\gamma_i, \gamma_j) \in \mathbb{Z}$ all pairs of distinct link componets, which is its *[[writhe]]* $wrth(\gamma) \in \mathbb{Z}$ of the link:
+The end result of this argument is hence, in the exponent, the sum of the [[framing numbers]] $frm(\gamma_i) \in \mathbb{Z}$ of each link component $\gamma_i$ (eq:ConnectedComponentsOfALink) with the [[linking numbers]] $lnk(\gamma_i, \gamma_j) \in \mathbb{Z}$ all pairs of distinct link componets, which is its *[[writhe]]* $wrth(\gamma) \in \mathbb{Z}$ of the link:
 \[
   \label{AbelianCSWilsonLoopsInTermsOfFramingAndLinkingNumbers}
   \Bigg\langle
@@ -522,6 +528,7 @@ The end result is hence, in the exponent, the sum of the [[framing numbers]] $fr
 ([Witten 1989 (2.31) ff](#Witten89), cf. [Kaul 1999 (9)](#Kaul99), [Mezei, Pufu & Wang 2017 (5.1)](#MezeiPufuWang17))
 
 Note though that none of the intermediate steps towards (eq:AbelianCSWilsonLoopObservableRenormalized) was well-defined, so that this traditional argument --- impactful as it historically was and "correct" as it may be in its conclusion (eq:AbelianCSWilsonLoopsInTermsOfFramingAndLinkingNumbers) --- is somewhat unsatisfactory as a derivation of quantum observables from input data.
+
 
 
 \linebreak
