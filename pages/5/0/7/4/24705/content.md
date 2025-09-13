@@ -482,7 +482,7 @@ $$
   \,.
 $$
 
-This implies that whenever $D \;\colon\; LType$,  we may describe morphisms of the form $\mathrm{Q}B \to LType$ by [[Kleisli morphisms]] for $\mathrm{Q}$.
+This implies that whenever $D \;\colon\; LType$,  we may describe morphisms of the form $\mathrm{Q}B \to D$ by [[Kleisli morphisms]] for $\mathrm{Q}$.
 
 For example for $B = Bit$ the type of classical [[bits]], we have that
  
