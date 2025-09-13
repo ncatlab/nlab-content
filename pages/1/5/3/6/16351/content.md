@@ -238,7 +238,7 @@ The statement of theorem \ref{Embedding} serves as the stepping-stone for genera
 +-- {: .num_remark}
 ###### Remark
 
-If one drops standard regularity assumptions on manifolds then theorem \ref{Embedding} may break. For instance allowing [[countable set|uncountably]] many connected components, then there are counterexamples ([MO discussion](http://mathoverflow.net/a/91445)).
+If one drops the second countability assumption on manifolds then theorem \ref{Embedding} may break. For instance allowing [[countable set|uncountably]] many connected components, then there are counterexamples ([MO discussion](http://mathoverflow.net/a/91445)).
 
 =--
 
