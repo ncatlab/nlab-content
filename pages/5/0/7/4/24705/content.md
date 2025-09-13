@@ -418,10 +418,10 @@ agree, to make a [[self-adjoint functor]]
 
 $$
   (p_B)^\ast
-  \bigotimes_B 
+  \bigoplus_B 
   \;\;\vdash\;\; 
   (p_B)^\ast
-  \bigotimes_B
+  \bigoplus_B
   \;\;\;\colon\;\;\;
   k Vec
   \longrightarrow 
