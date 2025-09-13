@@ -210,8 +210,7 @@ surveyed in
 General discussion:
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.5 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
-
-  (in [[D'Auria-Fre formulation of supergravity]])
+  > (in [[D'Auria-Fre formulation of supergravity]])
 
 * [[William Linch III]], Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys.Rev.D68:025008,2003 ([arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060))
 
