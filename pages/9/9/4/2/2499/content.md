@@ -27,6 +27,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -1139,7 +1140,7 @@ Early review with an eye towards more mathematical language:
 
 Monographs:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.2: [[CastellaniDAuriaFre-ChI2.pdf:file]], ch I.3: [[CastellaniDAuriaFre-ChI3.pdf:file]], ch I.4: [[CastellaniDAuriaFre-ChI4.pdf:file]], ch I.6: [[CastellaniDAuriaFre-ChI6.pdf:file]], ch II.2: [[CastellaniDAuriaFre-ChII2.pdf:file]], ch II.3: [[CastellaniDAuriaFre-ChII3.pdf:file]], ch II.5: [[CastellaniDAuriaFre-ChII5.pdf:file]], ch II.7: [[CastellaniDAuriaFre-ChII7.pdf:file]], ch II.8: [[CastellaniDAuriaFre-ChII8.pdf:file]], ch III.3: [[CastellaniDAuriaFre-ChIII3.pdf:file]], ch III.6: [[CastellaniDAuriaFre-ChIII6.pdf:file]], ch III.7: [[CastellaniDAuriaFre-ChIII7.pdf:file]], ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], *[[Supergravity and Superstrings - A Geometric Perspective]]*, World Scientific (1991) &lbrack;[doi:10.1142/0224](https://doi.org/10.1142/0224), toc: [[CDF91-TOC.pdf:file]], ch I.2: [[CastellaniDAuriaFre-ChI2.pdf:file]], ch I.3: [[CastellaniDAuriaFre-ChI3.pdf:file]], ch I.4: [[CastellaniDAuriaFre-ChI4.pdf:file]], ch I.6: [[CastellaniDAuriaFre-ChI6.pdf:file]], ch II.2: [[CastellaniDAuriaFre-ChII2.pdf:file]], ch II.3: [[CastellaniDAuriaFre-ChII3.pdf:file]], ch II.5: [[CastellaniDAuriaFre-ChII5.pdf:file]], ch II.7: [[CastellaniDAuriaFre-ChII7.pdf:file]], ch II.8: [[CastellaniDAuriaFre-ChII8.pdf:file]], ch III.3: [[CastellaniDAuriaFre-ChIII3.pdf:file]], ch III.5: [[CastellaniDAuriaFre-ChIII5.pdf:file]], ch III.6: [[CastellaniDAuriaFre-ChIII6.pdf:file]], ch III.7: [[CastellaniDAuriaFre-ChIII7.pdf:file]], ch III.8: [[CastellaniDAuriaFre-ChIII8.pdf:file]], ch V.4: [[CastellaniDAuriaFre-ChV4.pdf:file]]&rbrack;
 
 * [[Pietro Fré]], §6 in: *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
 
