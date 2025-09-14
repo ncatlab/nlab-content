@@ -80,7 +80,7 @@ A __heap__ $(H,t)$ is a [[inhabited set]] $H$ equipped with a ternary operation 
 
 \end{definition}
 
-More generally, a ternary operation in some [[variety of algebras]] satisfying the first pair of equations is called a [[Mal'cev operation]].  A Mal'cev operation is  called _associative_ if it also satisfies the latter equation (i.e. it makes its domain into a heap).
+More generally, a ternary operation in some [[variety of algebras]] satisfying the first pair of equations is called a [[Malcev operation]].  A Malcev operation is  called _associative_ if it also satisfies the latter equation (i.e. it makes its domain into a heap).
 
 A heap is **abelian** if it additionally satisfies the relation
 $$
@@ -379,7 +379,7 @@ See Vokřínek {#Vokrinek} for more information.
 
 * [[affine space]]
 
-* [[Mal'cev variety]]
+* [[Malcev variety]]
 
 * [[truss]]
 
