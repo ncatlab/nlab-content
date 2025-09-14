@@ -10,7 +10,7 @@
 =--
 
 This is about Birkhoff's variety or HSP theorem in [[universal algebra]], related to [[equational logic]].
-While it is sometimes referred to simply as Birkhoff's theorem beware of other well know [[Birkhoff's theorems]]. 
+While it is sometimes referred to simply as Birkhoff's theorem beware of other well known [[Birkhoff's theorems]]. 
 
 #Contents#
 * table of contents
