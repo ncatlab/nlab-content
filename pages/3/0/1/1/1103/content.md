@@ -272,13 +272,7 @@ A dga $A$ is __[[homologically smooth dga|homologically smooth]]__ if as a dg-bi
 
 ### Formal dg-algebra
 
-A dg-algebra $A$ is a [[formal dg-algebra]] if there exists a morphism
-
-$$
-  A \to H^\bullet(A)
-$$
-
-to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-algebra with trivial differential) that is a [[quasi-isomorphism]].
+A dg-algebra $A$ is a [[formal dg-algebra]] if $A$ and its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-algebra with trivial differential) $H(A)$ are quasi-isomorphic, that is, that there exists a chain of dg-algebras $A=:A_0,A_1,\ldots,A_k=H(A)$ such that there is a [[quasi-isomorphism]] between $A_{i-1}$ and $A_i$ in some direction for $1\leq i\leq k$. Note that this does not necessarily imply that there is a quasi-isomorphism directly between the two in either direction.
 
 ### Curved dg-algebra
 
