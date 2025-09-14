@@ -1,5 +1,5 @@
 
-* [Personal website](http://www.rzuser.uni-heidelberg.de/~t91/)
+* [Personal website](https://www.mathi.uni-heidelberg.de/~freitag/)
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Eberhard_Freitag)
 
 
