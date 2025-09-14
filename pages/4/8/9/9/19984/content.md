@@ -26,9 +26,11 @@
 
 This page describes _homotopy.io_, a web-based [[proof assistant]] for finitely-presented [[globular set|globular]] [[n-category|_n_-categories]], for arbitrary $n$. It is available at the following address:
 
-* [homotopy.io](https://homotopy.io)
+* [homotopy.io](https://homotopy.io), original tool
 
-* [github.com/homotopy-io](https://github.com/homotopy-io)
+* [beta.homotopy.io](https://beta.homotopy.io), updated tool
+
+* [github.com/homotopy-io](https://github.com/homotopy-io), codebase
 
 It is based on the theory of [[associative n-categories|associative _n_-categories (ANCs)]], which provides a strictly associative and unital model of [[composition]]. This reduces proof bureaucracy, with all the remaining weak structure in [[homotopies]] of composites, which have a direct geometrical interpretation. The proof assistant allows the user to define [[generators and relations|generators]] for a [[higher category]], [[composition|compose]] them, apply [[homotopies]], and visualize the resulting composites as [[string diagrams]] in 2 dimensions or [[surface diagrams]] in 3 dimensions. Interaction with the proof assistant is entirely by direct manipulation using the mouse.
 
