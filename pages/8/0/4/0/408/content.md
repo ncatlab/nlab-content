@@ -123,6 +123,9 @@ Generalization to $n$-variable adjunctions:
 [[!redirects adjunctions of two variables]]
 [[!redirects adjunction of 2 variables]]
 [[!redirects adjunctions of 2 variables]]
+[[!redirects adjunction in two variables]]
+[[!redirects adjunctions in two variables]]
+
 [[!redirects n-variable adjunction]]
 [[!redirects n-variable adjunctions]]
 [[!redirects adjunction of n variables]]
