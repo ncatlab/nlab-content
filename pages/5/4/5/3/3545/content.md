@@ -22,22 +22,24 @@
 
 A [[dg-algebra]] $A$ is a **formal dg-algebra** if it is [[quasiisomorphism|quasi-isomorphic]] (i.e.: [[isomorphism|isomorphic]] in the [[homotopy category]] of the [[model structure on dg-algebras]])
 
-$$
+\[
   A 
   \xrightarrow{\;\;\; \simeq \;\;\;}
   H^\bullet(A)
-$$
+\]
 
 to its [[chain homology and cohomology|chain (co)homology]] regarded as a dg-algebra with trivial differential. 
 
 Since all dg-algebras are fibrant in the standard model, this is equivalent to the existence of a [[span]]
 
-$$
-  A \overset{\;\; \simeq_w \;\;}{\leftarrow} 
+\[
+  \label{TheSpan}
+  A 
+    \overset{\;\; \simeq_w \;\;}{\leftarrow} 
   Q A 
-  \overset{\;\; \simeq \;\;}{\rightarrow}
+    \overset{\;\; \simeq \;\;}{\rightarrow}
   H^\bullet(A)
-$$
+\]
 
 of [[quasi-isomorphisms]] of dg-algebras.
 
@@ -46,7 +48,7 @@ of [[quasi-isomorphisms]] of dg-algebras.
 
 In [[rational homotopy theory]] [[rational topological spaces]] are encoded in their [[Sullivan algebra|Sullivan dg-algebras]] (cf. The [[fundamental theorem of dg-algebraic rational homotopy theory]]). A [[simply connected topological space]] $X$ whose Sullivan dg-algebra $\Omega^\bullet(X)$ is formal is called a **formal topological space**.  (One can also say a __formal rational space__, to distinguish from the unrelated formal spaces in [[formal topology]].)  Such a space represents a **formal homotopy type**.
 
-Examples are
+Examples:
 
 * compact [[Kähler manifolds]] (e.g. smooth projective varieties),
 
@@ -71,17 +73,17 @@ Examples are
 
 ## References
 
-For an early discussion of formal dg-algebras in the context of [[rational homotopy theory]] see section 12 of 
+Early discussion of formal [[Sullivan model]] dg-algebras in the context of [[rational homotopy theory]]:
 
-* [[Dennis Sullivan]], _Infinitesimal computations in topology_ , Publications Math&#233;matiques de l'IH&#201;S, 47 (1977), p. 269-331 (numdam: [djvu](http://archive.numdam.org/article/PMIHES_1977__47__269_0.djvu), [pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
+* {#Sullivan77} [[Dennis Sullivan]], section 12 of: _Infinitesimal computations in topology_, Publications mathématiques de l’ I.H.É.S **47** (1977) 269-331 &lbrack;[numdam:PMIHES_1977__47__269_0](http://www.numdam.org/item?id=PMIHES_1977__47__269_0), [pdf](http://archive.numdam.org/article/PMIHES_1977__47__269_0.pdf)&rbrack;
 
-* [[Pierre Deligne]], Phillip Griffiths, John Morgan, [[Dennis Sullivan]], _Real homotopy theory of K&#228;hler manifolds_, Invent. Math. 29 (1975), no. 3, 245--274, [doi](http://dx.doi.org/10.1007/BF01389853)
-[[!redirects formal differential graded algebra]]
-[[!redirects formal homotopy type]]
+* [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]]: _Real homotopy theory of Kähler manifolds_, Invent Math  **29** (1975) 245-274 &lbrack;[doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853)&rbrack;
 
-A survey is around definition 2.1 of
+Since [[Sullivan models]] are also [[cofibrant object|cofibrant]], the above authors get away with considering a direct comparison map instead of a span as in (eq:TheSpan). The general definition is reviewed in:
 
-* [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+* {#Hess06} [[Kathryn Hess]], Def. 2.1 in: _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago &lbrack;[arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)&rbrack;, chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics **436**, AMS (2007) &lbrack;[doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436)&rbrack;
+
+* {#Aambø21} Torgeir Aambø, Def. 1.15 & Theorem A (p.2): *On formal DG-algebras*, MSc thesis, NTNU (2021) &lbrack;[hndl:11250/2778399](https://hdl.handle.net/11250/2778399)&rbrack;
 
 Review with an eye towards the [[dd^c-lemma]] and [[H-cohomology]] is in
 
@@ -91,7 +93,7 @@ The case of [[Sullivan algebras]] of [[sphere bundles]]:
 
 * Jiawei Zhou, *Formality of Sphere Bundles* &lbrack;[arXiv:2304.09594](https://arxiv.org/abs/2304.09594)&rbrack;
 
-A construction of nonformal homogeneous spaces
+A construction of nonformal homogeneous spaces:
 
 * {#Amann12} [[Manuel Amann]]. *Non-formal Homogeneous Spaces* (2012). ([arXiv:1206.0786](https://arxiv.org/abs/1206.0786)).
 
@@ -99,10 +101,15 @@ A construction of nonformal homogeneous spaces
 [[!redirects formal dg-algebra]]
 [[!redirects formal dg-algebras]]
 
+[[!redirects formal differential graded algebra]]
+[[!redirects formal differential graded algebras]]
+
 [[!redirects formal rational space]]
 [[!redirects formal rational spaces]]
 
 [[!redirects formal homotopy type]]
 [[!redirects formal homotopy types]]
+
 [[!redirects formal rational homotopy type]]
 [[!redirects formal rational homotopy types]]
+
