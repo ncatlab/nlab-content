@@ -986,10 +986,14 @@ The [[quantum bit flip code]] for 3-qbit encoding:
 ## References
  {#References}
 
+This entry is a set of notes towards:
 
-* {#CQTS22} [[CQTS]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)*, talk at *[Workshop on Quantum Software](https://quasar.unina.it/qtml2022/workshop.php)* @ *[QTML 2022](https://quasar.unina.it/qtml2022.html)* (Nov 2022) &lbrack;[pdf](/schreiber/files/QuantumDataInLHoTT-221117.pdf)&rbrack;
+* {#SS23QM} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Quantum Monadology]]*, Quantum Studies: Mathematics and Foundations **12** 25 (2025) &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735), [doi:10.1007/s40509-025-00368-5](https://doi.org/10.1007/s40509-025-00368-5)&rbrack;
 
-* {#SS23QM} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Quantum Monadology]]* &lbrack;[arXiv:2310.15735](https://arxiv.org/abs/2310.15735)&rbrack;
+Other exposition:
+
+* {#CQTS22} [[Urs Schreiber]], *[Quantum Data Types via Linear HoTT](https://ncatlab.org/schreiber/show/QDataInLHoTT#QTML2022)*, talk at *[Workshop on Quantum Software](https://quasar.unina.it/qtml2022/workshop.php)* @ *[QTML 2022](https://quasar.unina.it/qtml2022.html)* (Nov 2022) &lbrack;[pdf](/schreiber/files/QuantumDataInLHoTT-221117.pdf)&rbrack;
+
 
 
 The above figure of an SQRAM scheme is taken from:
