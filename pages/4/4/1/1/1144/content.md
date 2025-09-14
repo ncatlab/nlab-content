@@ -1217,7 +1217,7 @@ The original articles:
 
 * {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series **90** 2 (1969) 205-295 &lbrack;[jstor:1970725](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)&rbrack;
 
-* {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_, Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([numdam:PMIHES_1977__47__269_0](http://www.numdam.org/item?id=PMIHES_1977__47__269_0), [pdf](http://archive.numdam.org/article/PMIHES_1977__47__269_0.pdf))
+* {#Sullivan77} [[Dennis Sullivan]]: _Infinitesimal computations in topology_, Publications mathématiques de l’ I.H.É.S **47** (1977) 269-331 &lbrack;[numdam:PMIHES_1977__47__269_0](http://www.numdam.org/item?id=PMIHES_1977__47__269_0), [pdf](http://archive.numdam.org/article/PMIHES_1977__47__269_0.pdf)&rbrack;
 
 * {#BousfieldGugenheim76} [[Aldridge Bousfield]], [[Victor Gugenheim]], _[[On PL deRham theory and rational homotopy type]]_, Memoirs of the AMS **179** (1976) &lbrack;[ams:memo-8-179](https://bookstore.ams.org/memo-8-179)&rbrack;
 
@@ -1260,9 +1260,9 @@ Survey and review:
 
 * {#Majewski00} Martin Majewski, *Rational homotopy models and uniqueness*, Memoir of the AMS **143** 682 (2000) &lbrack;[doi:10.1090/memo/0682](https://doi.org/10.1090/memo/0682)&rbrack;
 
-* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago ([arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)), chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics 436, AMS 2007 ([doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436))
+* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_, contribution to _[Summer School on Interactions between Homotopy Theory and Algebra](https://jdc.math.uwo.ca/summerschool/)_, University of Chicago, July 26-August 6, 2004, Chicago &lbrack;[arXiv:math.AT/0604626](http://arxiv.org/abs/math.AT/0604626)&rbrack;, chapter in Luchezar Lavramov, [[Dan Christensen]], [[William Dwyer]], [[Michael Mandell]], [[Brooke Shipley]] (eds.), _Interactions between Homotopy Theory and Algebra_, Contemporary Mathematics **436**, AMS (2007) &lbrack;[doi:10.1090/conm/436](http://dx.doi.org/10.1090/conm/436)&rbrack;
 
-* [[Yves Félix]], [[John Oprea]], [[Daniel Tanré]], _Algebraic models in geometry_, Oxford University Press 2008 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tanre.pdf), [ISBN:9780199206520](https://global.oup.com/academic/product/algebraic-models-in-geometry-9780199206520))
+* [[Yves Félix]], [[John Oprea]], [[Daniel Tanré]], _Algebraic models in geometry_, Oxford University Press (2008) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/tanre.pdf), [ISBN:9780199206520](https://global.oup.com/academic/product/algebraic-models-in-geometry-9780199206520)&rbrack;
 
 * {#Moerman15} [[Joshua Moerman]], _Rational Homotopy Theory_ (2015) &lbrack;[pdf](https://www.ru.nl/publish/pages/813282/rational_homotopy_theory.pdf), [[MoermanRationalHomotopyTheory.pdf:file]]&rbrack;
 
@@ -1315,7 +1315,7 @@ Relation to [[Whitehead products]]:
 
 * Christopher Allday, _Rational Whitehead product and a spectral sequence of Quillen, II_, Houston Journal of Mathematics, Volume 3, No. 3, 1977 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.434.8821&rep=rep1&type=pdf))
 
-* [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]], _Real homotopy theory of Kähler manifolds_, Invent Math (1975) 29: 245 ([doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853))
+* [[Pierre Deligne]], [[Phillip Griffiths]], [[John Morgan]], [[Dennis Sullivan]]: _Real homotopy theory of Kähler manifolds_, Invent Math  **29** (1975) 245-274 &lbrack;[doi:10.1007/BF01389853](https://doi.org/10.1007/BF01389853)&rbrack;
 
 * Peter Andrews, Martin Arkowitz, _Sullivan's Minimal Models and Higher Order Whitehead Products_, Canadian Journal of Mathematics, 30(5), 961-982, 1978 ([doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6))
 
