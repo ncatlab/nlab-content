@@ -34,7 +34,7 @@ One major application of abelian Chern-Simons theory is as an [[effective field 
 ### The Lagrangian density and the Level
  {#LagrangianDensityAndLevel}
 
-For the time beign we normalize [[connection]] [[differential forms|forms]] according to the common convention in [[theoretical physics]], where the gauge [[curvature]]/[[field strength]]/[[flux density]] $F_A \coloneqq \mathrm{d}A$ it such that
+For the time being we normalize [[connection]] [[differential forms|forms]] according to the common convention in [[theoretical physics]], where the gauge [[curvature]]/[[field strength]]/[[flux density]] $F_A \coloneqq \mathrm{d}A$ is such that
 \[
   \label{NormalizationPfFluxDensity}
   \tfrac{1}{2\pi} F_A
@@ -52,7 +52,7 @@ The (local) [[Lagrangian density]] of abelian Chern-Simons theory is a multiple 
   \tfrac{K}{4\pi} A \wedge \mathrm{d} A
   \,
 \] 
-for a numerical parameter $K$ to be fixed, so that the [[action functional]]
+for a numerical parameter $K$, whose admissible values are to be characterized so that for each choice of domain $\Sigma^3$ (a [[closed manifold|closed]] [[smooth manifold|smooth]] [[3-manifold]]) the [[action functional]]
 $$
   S(\Sigma^3, A)
   \;\coloneqq\;
@@ -128,11 +128,11 @@ If there is no further condition on $\Sigma^3$ and hence on $\widehat{\Sigma}^4$
 \] 
 must be an [[integer]]. 
 
-This $k$ is the *[[Chern-Simons level]]*. On the other hand, $K = 2k$ is the (even, for now) integer that gets promoted to the eponymous [[matrix]] $(K_{i j})$ in "K-matrix Chern-Simons theory" ,where several gauge fields couple to each other (see [below](#HierarchicalKMatrixFormalism)). 
+This $k$ is the *[[Chern-Simons level]]*. On the other hand, $K = 2k$ is the (even, for now) integer that gets promoted to the eponymous [[matrix]] $(K_{i j})$ in "K-matrix Chern-Simons theory" ,where several gauge fields couple to each other (see [below](#HierarchicalKMatrixFormalism)). But beware that conventions differ and that our "$K$" is often denoted "$k$" in the literature.
 
 It is also $K$ that is more fundamental as one restricts attention to [[spin manifolds]] $\Sigma^3$, hence to *[[spin Chern-Simons theory]]* ([Dijkgraaf & Witten 1990 §5](#DijkgraafWitten90)):
 
-from the observation that the [[cobordism ring]] for spin  anifolds equipped with complex line bundles is trivial in degree 3, and that 
+from the observation that the [[cobordism ring]] for [[spin  manifolds]] equipped with [[complex line bundles]] is trivial in degree 3, and that 
 $$
   \widehat{\Sigma}^4 
   \;
