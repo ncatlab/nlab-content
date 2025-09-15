@@ -1,5 +1,4 @@
 
-# Cartesian multicategories
 * table of contents
 {: toc}
 
@@ -117,6 +116,7 @@ They are called **finite product multicategories** in the following reference. T
 
 * [[Claudio Pisani]], _Sequential multicategories_, ([arXiv:1402.0253](https://arxiv.org/abs/1402.0253))
 * [[Nathanael Arkor]] and [[Dylan McDermott]], _Abstract Clones for Abstract Syntax_, 6th International Conference on Formal Structures for Computation and Deduction (FSCD 2021). Schloss Dagstuhl-Leibniz-Zentrum für Informatik, 2021. ([arXiv](https://arxiv.org/abs/2105.00969))
+* {#Pisani25} [[Claudio Pisani]], "Unbiased multicategory theory", Theory and Applications of Categories, Vol. 44, 2025, No. 28, pp 826-868. [web](http://tac.mta.ca/tac/volumes/44/28/44-28abs.html)
 
 
 [[!redirects cartesian multicategory]]
