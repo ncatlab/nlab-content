@@ -26,15 +26,17 @@ The 2-category [[Cat|$Cat$]] of [[categories]] embeds [[fully faithfully]] into 
 C_\blacktriangleright(X_1, \ldots, X_n; Y) := C(X_1, Y) \times \cdots \times C(X_n, Y)
 \end{equation}
 
-A multicategory isomorphic to one induced by the discrete cocones construction is called a **sequential multicategory** (since its multimorphisms are sequences of unary morphisms).
+A multicategory isomorphic to one induced by the discrete cocones construction is called a **cocartesian multicategory** (since it abstracts the universal property of cocartesian monoidal category) or a **sequential multicategory** (since its multimorphisms are sequences of unary morphisms).
 
 ## Properties
 
-- Every sequential multicategory is [[symmetric multicategory|symmetric]].
+- Being cocartesian is a *property* of a multicategory, in contrast to being a [[cartesian multicategory]], which is *structure*.
 
-- A sequential multicategory $C_\blacktriangleright$ is [[representable multicategory|representable]] if and only if $C$ has coproducts (Example 8.8(2) of [Hermida 2000](#Hermida)).
+- Every cocartesian multicategory has the structure of a [[symmetric multicategory]].
 
-- A category $C$ is [[preadditive category|preadditive]] if and only if its corresponding sequential multicategory $C_\blacktriangleright$ is [[cartesian multicategory|cartesian]] (see [Pisani 2013](#Pisani13) and [Pisani 2014](#Pisani14)); and is hence [[additive category|additive]] if and only if its corresponding multicategory is cartesian and representable.
+- A cocartesian multicategory $C_\blacktriangleright$ is [[representable multicategory|representable]] if and only if $C$ has coproducts (Example 8.8(2) of [Hermida 2000](#Hermida)). This is another motivation for the terminology.
+
+- A category $C$ is [[preadditive category|preadditive]] if and only if its corresponding cocartesian multicategory $C_\blacktriangleright$ is [[cartesian multicategory|cartesian]] (see [Pisani 2013](#Pisani13) and [Pisani 2014](#Pisani14)); and is hence [[additive category|additive]] if and only if its corresponding multicategory is cartesian and representable.
 
 - The discrete cocones construction $(-)_\blacktriangleright : Cat \to Multicat$ is left adjoint to the [[category of monoids]] construction $Mon : Multicat \to Cat$, and this restricts to [[cartesian multicategories]]. In fact, this is a consequence of the more general fact that $Multicat$ is [[copowered]] over $Cat$: see [Pisani 2013](#Pisani13) and [Pisani 2014](#Pisani14).
 
@@ -44,11 +46,15 @@ The discrete cocones construction was introduced in Example 2.2(2) of:
 
 * {#Hermida} [[Claudio Hermida]], _Representable multicategories_, Adv. Math. 151 (2000), no. 2, 164-225 ([pdf](http://wslc.math.ist.utl.pt/s84.www/cs/claudio/articles/rep-mult.pdf))
 
-and studied extensively in:
+and studied extensively in the following papers, where the terminology **sequential multicategory** is introduced:
 
 * {#Pisani13} [[Claudio Pisani]], _Some remarks on multicategories and additive categories,_ [arXiv:1304.3033](https://arxiv.org/abs/1304.3033) (2013).
 
 * {#Pisani14} [[Claudio Pisani]], _Sequential multicategories_, Theory and Applications of Categories 29.19 (2014), [arXiv:1402.0253](https://arxiv.org/abs/1402.0253)
+
+It is further studied, under the name **cocartesian multicategory** in:
+
+* {#Pisani25} [[Claudio Pisani]], _Unbiased multicategory theory_, Theory and Applications of Categories, Vol. 44, 2025, No. 28, pp 826-868. [web](http://tac.mta.ca/tac/volumes/44/28/44-28abs.html)
 
 The discrete cocones construction is also discussed in Example 2.1.6 of [[Higher Operads, Higher Categories]].
 
@@ -62,4 +68,7 @@ A generalisation of the concept to [[generalised multicategories]] is given in:
 
 * Alex Cebrian, _Plethysms and operads_, Collectanea Mathematica 75.1 (2024): 247-303.
 
+[[!redirects sequential multicategory]]
 [[!redirects sequential multicategories]]
+[[!redirects cocartesian multicategories]]
+[[!redirects discrete cocones construction]]
