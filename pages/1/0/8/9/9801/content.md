@@ -120,21 +120,17 @@ The [[partition function]] of the gauged WZW model as an [[elliptic genus]] is c
 
 * [[gauged linear sigma model]]
 
+
 ## References
-
-
-[[!include WZW term of QCD chiral perturbation theory -- references]]
 
 
 ### General gauged WZW models
 
-The original articles are
-
+The original articles:
 
 * [[Edward Witten]], _Nonabelian bosonization in two dimensions_, Commun. Math. Phys. 92 (1984) 455 ([euclid:cmp/1103940923](https://projecteuclid.org/euclid.cmp/1103940923))
 
-* [[Krzysztof Gawedzki]], A. Kupiainen, _G/H conformal field theory from gauged WZW model_ Phys. Lett. 215B, 119 (1988); 
-
+* [[Krzysztof Gawedzki]], A. Kupiainen: _G/H conformal field theory from gauged WZW model_ Phys. Lett. **215** B, 119 (1988); 
 
 * [[Krzysztof Gawedzki]], A. Kupiainen, _Coset construction from functional integrals_, Nucl. Phys. B 320 (FS), 649 (1989)
 
@@ -151,7 +147,6 @@ This is expanded on in
 
 * [[José de Azcárraga]],  J. C. Perez Bueno, _On the general structure of gauged Wess-Zumino-Witten terms_ ([arXiv:hep-th/9802192](http://arxiv.org/abs/hep-th/9802192))
   
-
 A quick review of this class of 3-cocycles in equivariant de Rham cohomology is also in section 4.1 of 
 
 * Hugo Garcia-Compean, Pablo Paniagua, [[Bernardo Uribe]], _Equivariant extensions of differential forms for non-compact Lie groups_ ([arXiv:1304.3226](http://arxiv.org/abs/1304.3226))
@@ -164,13 +159,16 @@ On [[boundary conditions]] ([[BCFT]]/[[D-branes]]) for the [[gauged WZW model]] 
 
 See also:
 
-* [[Edward Witten]], _The $N$ matrix model and gauged WZW models_, Nuclear Physics B Volume 371, Issues 1&#8211;2, 2 March 1992, Pages 191&#8211;245
+* [[Edward Witten]], _The $N$ matrix model and gauged WZW models_, Nuclear Physics B **371** 1-2 (1992) 191-245
 
-* Stephen-wei Chung, S.-H. Henry Tye, _Chiral Gauged WZW Theories and Coset Models in Conformal Field Theory_, Phys. Rev. D47:4546-4566,1993 ([arXiv:hep-th/9202002](http://arxiv.org/abs/hep-th/9202002))
+* Stephen-wei Chung, S.-H. Henry Tye, _Chiral Gauged WZW Theories and Coset Models in Conformal Field Theory_, Phys. Rev. D47:4546-4566 (1993) ([arXiv:hep-th/9202002](http://arxiv.org/abs/hep-th/9202002))
 
-* Konstadinos Sfetsos, _Gauged WZW models and Non-abelian duality_,  	Phys.Rev. D50 (1994) 2784-2798 ([arXiv:hep-th/9402031](http://arxiv.org/abs/hep-th/9402031))
+* Konstadinos Sfetsos, _Gauged WZW models and Non-abelian duality_, Phys.Rev. D50 (1994) 2784-2798 ([arXiv:hep-th/9402031](http://arxiv.org/abs/hep-th/9402031))
 
 * [[Elias Kiritsis]], _Duality in gauged WZW models_ ([pdf](http://hep.physics.uoc.gr/~kiritsis/papers2/dual.pdf))
+
+* Omar Valdivia: *Transgression forms as source for topological gravity and Chern-Simons-Higgs theories* &lbrack;[arXiv:1411.1780](https://arxiv.org/abs/1411.1780)&rbrack;
+
 
 * [[José Figueroa-O'Farrill]], Girish S Vishwa: *Non-relativistic quantum strings from gauged WZW models* &lbrack;[arXiv:2505.03462](https://arxiv.org/abs/2505.03462)&rbrack;
 
@@ -182,6 +180,11 @@ The [[partition function]]/[[elliptic genus]] of the SU(2)/U(1) gauged WZW model
 Emphasis of the special case of abelian gauging in Section 2 of
 
 * {#Forste04} [[Stefan Förste]],  _Deformations of WZW models_, Class. Quant. Grav. 21 (2004) S1517-1522 ([arXiv:hep-th/0312202](https://arxiv.org/abs/hep-th/0312202))
+
+
+[[!include WZW term of QCD chiral perturbation theory -- references]]
+
+
 
 [[!redirects gauged WZW models]]
 
