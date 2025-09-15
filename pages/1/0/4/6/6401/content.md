@@ -12,6 +12,7 @@
 =--
 
 
+
 #Contents##
 * table of contents
 {:toc}
@@ -60,6 +61,8 @@ The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]:
 * [[Warren Siegel]], [[S. James Gates Jr.]], *Superfield supergravity*, Nuclear Physics B **147** 1–2 (1979) 77-104 &lbrack;<a href="https://doi.org/10.1016/0550-3213(79)90416-4">doi:10.1016/0550-3213(79)90416-4</a>&rbrack;
 
 * [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]] *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90037-1">doi:10.1016/0550-3213(80)90037-1</a>&rbrack;
+
+* [[Stephen Hawking]], [[Martin Roček]] (eds.): *Superspace and Supergravity*, Proceedings of Nuffield Workshop 1980, Cambridge University Press (1981) &lbrack;[ISBN:9780521239080](https://www.cambridge.org/de/universitypress/subjects/physics/cosmology-relativity-and-gravitation/superspace-and-supergravity-proceedings-nuffield-workshop-cambridge?format=HB&isbn=9780521239080), [inSpire:172773](https://inspirehep.net/literature/172773), [cds:100081](https://cds.cern.ch/record/100081)&rbrack;
 
 * [[Paul Howe]], *Supergravity in superspace*, Nuclear Physics B **199** 2 (1982) 309-364 \[<a href="https://doi.org/10.1016/0550-3213(82)90349-2">doi:10.1016/0550-3213(82)90349-2</a>\]
 
