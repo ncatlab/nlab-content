@@ -143,6 +143,9 @@ Conversely, there are analogues of the [[Kleisli category]] and [[Eilenberg–Mo
 
 	In fact, one of the axioms of a [[Yoneda structure]] on a 2-category axiomatises this situation, by requiring the existence of absolute left lifting with respect to Yoneda embeddings, as above: see [Street--Walters](#StreetWalters1978).
 
+**[[analytification]]**
+:	Analytification is a functor $(-)^{an}:sch^{lft}_\mathbb{C}\to cas$ from the category $sch^{lft}_\mathbb{C}$ of [[scheme|schemes locally of finite type over $\mathbb{C}$]] to the category $cas$ of [[complex analytic space|complex analytic spaces]], that is right $J$-relative coadjoint to $L$, where $J$ (resp., $L$) is the inclusion of $cas$ of (resp., $sch^{lft}_\mathbb{C}$) into $lrs/\mathbb{C}$, where $lrs$ is the category of [[locally ringed topological space|locally ringed spaces]].
+
 ## Related concepts
 
 * [[relative monad]]
