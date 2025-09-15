@@ -17,9 +17,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -195,41 +195,45 @@ $$
 
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
 
+
 ## References
-
-Construction of 5d [[gauged supergravity]] via [[D'Auria-Fré formulation of supergravity]] is in 
-
-* {#ACFG01} [[Laura Andrianopoli]], Francesco Cordaro, [[Pietro Fré]], Leonardo Gualtieri, _Non-Semisimple Gaugings of D=5 N=8 Supergravity and FDA.s_, Class. Quant. Grav. 18 (2001) 395-414 &lbrack;[arXiv:hep-th/0009048](http://arxiv.org/abs/hep-th/0009048)&rbrack;
-
-surveyed in
-
-* [[Laura Andrianopoli]], Francesco Cordaro, [[Pietro Fré]], _Non-Semisimple Gaugings of D=5 N=8 Supergravity_, Fortsch.Phys.49:511-518,2001 ([arXiv:hep-th/0012203](http://arxiv.org/abs/hep-th/0012203))
 
 ### General
 
 General discussion:
 
-* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.5 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
-  > (in [[D'Auria-Fre formulation of supergravity]])
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.5 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;ch III.5: [[CastellaniDAuriaFre-ChIII5.pdf:file]]&rbrack;
+  > (via [[D'Auria-Fré formulation of supergravity]])
 
-* [[William Linch III]], Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys.Rev.D68:025008,2003 ([arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060))
+* [[William Linch III]], Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys. Rev. D **68** (2003) 025008 &lbrack;[arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060)&rbrack;
 
-* {#GGHPR02} [[Jerome Gauntlett]], [[Jan Gutowski]], [[Christopher Hull]], Stathis Pakis, [[Harvey Reall]], _All supersymmetric solutions of minimal supergravity in five dimensions_, Class. Quant. Grav. 20 (2003) 4587-4634 &lbrack;[arXiv:hep-th/0209114](http://arxiv.org/abs/hep-th/0209114), [doi:10.1088/0264-9381/20/21/005](https://doi.org/10.1088/0264-9381/20/21/005)&rbrack;
+* {#GGHPR02} [[Jerome Gauntlett]], [[Jan Gutowski]], [[Christopher Hull]], Stathis Pakis, [[Harvey Reall]], _All supersymmetric solutions of minimal supergravity in five dimensions_, Class. Quant. Grav. **20** (2003) 4587-4634 &lbrack;[arXiv:hep-th/0209114](http://arxiv.org/abs/hep-th/0209114), [doi:10.1088/0264-9381/20/21/005](https://doi.org/10.1088/0264-9381/20/21/005)&rbrack;
 
+* Sorin Cucu, _From M-theory to $D=5$ supergravity and duality-symmetric theories_ &lbrack;[arXiv:hep-th/0310105](http://arxiv.org/abs/hep-th/0310105)&rbrack;
 
-* Sorin Cucu, _From M-theory to $D=5$ supergravity and duality-symmetric theories_ ([arXiv:hep-th/0310105](http://arxiv.org/abs/hep-th/0310105))
+* [[Eric Bergshoeff]], Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, [[Antoine Van Proeyen]], _$N=2$ supergravity in five dimensions revisited_ &lbrack;[arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045)&rbrack;
 
-* [[Eric Bergshoeff]], Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, [[Antoine Van Proeyen]], _$N=2$ supergravity in five dimensions revisited_ ([arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045))
+* Gerard Clement: *The symmetries of five-dimensional minimal supergravity reduced to three dimensions*, J. Math. Phys. **49** (2008) 042503 &lbrack;[arXiv:0710.1192](https://arxiv.org/abs/0710.1192), [doi:10.1063/1.2907863](https://doi.org/10.1063/1.2907863)&rbrack; Erratum-ibid. **49** (2008) 079901 &lbrack;[doi:10.1063/1.2963308](https://doi.org/10.1063/1.2963308)&rbrack;
+
 
 * [[Katrin Becker]], [[Melanie Becker]], [[Daniel Butter]], [[William Linch III]], Stephen Randall: *Five-dimensional Supergravity in $N = 1/2$ Superspace*, J. High Energ. Phys. **2020** 98 (2020) &lbrack;[arXiv:1909.09208](https://arxiv.org/abs/1909.09208), <a href="https://doi.org/10.1007/JHEP03(2020)098">doi:10.1007/JHEP03(2020)098</a>&rbrack;
 
-* Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ ([arXiv:2004.11433](https://arxiv.org/abs/2004.11433))
+* Edoardo Lauria, [[Antoine Van Proeyen]], _$\mathcal{N}=2$ Supergravity in $D=4,5,6$ Dimensions_ &lbrack;[arXiv:2004.11433](https://arxiv.org/abs/2004.11433)&rbrack;
+
+Construction of 5d [[gauged supergravity]] via [[D'Auria-Fré formulation of supergravity]]:
+
+* {#ACFG01} [[Laura Andrianopoli]], Francesco Cordaro, [[Pietro Fré]], Leonardo Gualtieri, _Non-Semisimple Gaugings of $D=5$ $\mathcal{N}=8$ Supergravity and FDA.s_, Class. Quant. Grav. **18** (2001) 395-414 &lbrack;[arXiv:hep-th/0009048](http://arxiv.org/abs/hep-th/0009048), [doi:10.1088/0264-9381/18/3/303](https://doi.org/10.1088/0264-9381/18/3/303)&rbrack;
+
+* [[Laura Andrianopoli]], Francesco Cordaro, [[Pietro Fré]], _Non-Semisimple Gaugings of $D=5$ $\mathcal{N}=8$ Supergravity_, Fortsch.Phys. **49** (2001) 511-518 &lbrack;[arXiv:hep-th/0012203](http://arxiv.org/abs/hep-th/0012203)&rbrack;
+
 
 See also:
 
-* Andrew Beckett, [[José Figueroa-O'Farrill]], *Killing superalgebras for lorentzian five-manifolds* ([arxiv:2105.05775](https://arxiv.org/abs/2105.05775))
+* [[Sheldon Katz]], Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]]: *Swampland Constraints on $5d$ $\mathcal{N}=1$ Supergravity &lbrack;[arXiv:2004.14401](https://arxiv.org/abs/2004.14401)&rbrack;
 
-* Soumya Adhikari, Bindusar Sahoo, $\mathcal{N}=2$ conformal supergravity in five dimensions* &lbrack;[arXiv:2312.01879](https://arxiv.org/abs/2312.01879)&rbrack;
+* Andrew Beckett, [[José Figueroa-O'Farrill]], *Killing superalgebras for lorentzian five-manifolds* &lbrack;[arxiv:2105.05775](https://arxiv.org/abs/2105.05775)&rbrack;
+
+* Soumya Adhikari, Bindusar Sahoo: *$\mathcal{N}=2$ conformal supergravity in five dimensions* &lbrack;[arXiv:2312.01879](https://arxiv.org/abs/2312.01879)&rbrack;
 
 
 ### Via M-theory on Calabi-Yau 3-folds
@@ -253,9 +257,16 @@ Further discussion of the [[5d Chern-Simons theory|5d Chern-Simons term]] includ
 
 (one-loop corrections).
 
-### Via type IIB theory
 
-* Arnaud Baguet, [[Olaf Hohm]], [[Henning Samtleben]], _Consistent Type IIB Reductions to Maximal 5D Supergravity_ ([arXiv:1506.01385](https://arxiv.org/abs/1506.01385))
+
+### Via type II theory
+
+Embedding into [[type II supergravity]]:
+
+* Arnaud Baguet, [[Olaf Hohm]], [[Henning Samtleben]], _Consistent Type IIB Reductions to Maximal 5D Supergravity_ &lbrack;[arXiv:1506.01385](https://arxiv.org/abs/1506.01385)&rbrack;
+
+* Christopher Couzens, Niall T. Macpherson, Achilleas Passias: *A plethora of Type IIA embeddings for   minimal supergravity*,  J. High Energ. Phys. **2023** 47 (2023) &lbrack;[arXiv:2209.15540](https://arxiv.org/abs/2209.15540), <a href="https://doi.org/10.1007/JHEP01(2023)047">doi:10.1007/JHEP01(2023)047</a>&rbrack;
+
 
 ### Gauged sugra
  {#ReferencesGauged}
