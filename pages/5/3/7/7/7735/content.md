@@ -65,10 +65,14 @@ On [[U-duality]] and [[8-dimensional supergravity]]:
 
 * {#LiuMinasian97} [[James Liu]], [[Ruben Minasian]], _U-branes and $T^3$ fibrations_, Nucl.Phys. B510 (1998) 538-554 ([arXiv:hep-th/9707125](http://arxiv.org/abs/hep-th/9707125))
 
-On [[M-theory on Calabi-Yau manifolds]]:
 
 
-* [[Sergio Ferrara]], [[Ramzi Khuri]],  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys. Lett.B 375:81-88, 1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
+On [[dimensional reduction]] of [[D=11 supergravity]]/[[M-theory on Calabi-Yau manifolds]] to [[D=5 supergravity]]:
+
+* {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], [[Ramzi R. Khuri]], [[Ruben Minasian]]: _M-theory on a Calabi-Yau manifold_, Phys. Lett. B **375** (1996) 81-88 &lbrack;[arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102), <a href="https://doi.org/10.1016/0370-2693(96)00270-5">doi:10.1016/0370-2693(96)00270-5</a>&rbrack;
+
+
+
 
 On [[generalized Calabi-Yau manifolds]]:
 
