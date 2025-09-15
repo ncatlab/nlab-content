@@ -124,6 +124,8 @@ LNCS 664, 1993, p. 195-208 ([doi:10.1007/BFb0037107](https://doi.org/10.1007/BFb
 
 * [[Noam Zeilberger]], *Linear lambda terms as invariants of rooted trivalent maps*, Journal of Functional Programming, 26, e21  2016 ([doi:10.1017/S095679681600023X](https://doi.org/10.1017/S095679681600023X), [arXiv:1512.06751](http://arxiv.org/abs/1512.06751))
 
+* [[Hugo Paquet]], _Probabilistic concurrent game semantics_, PhD thesis, ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-950.pdf))
+
 * Axel Kerinec, Giulio Manzonetto, and Federico Olimpieri. 2023. Why Are Proofs Relevant in Proof-Relevant Models? Proc. ACM Program. Lang. 7, POPL, Article 8 (January 2023), 31 pages. ([doi:10.1145/3571201](https://doi.org/10.1145/3571201))
 
 ## Related concepts
