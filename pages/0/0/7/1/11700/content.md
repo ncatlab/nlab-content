@@ -26,13 +26,19 @@ Analytification is the process of universally turning an [[algebraic space]] int
 
 ## Definition
 
-Let $X \to Spec(\mathbb{C})$ be a [[scheme]] of [[locally finite type]] over the [[complex numbers]]. Its set $X(\mathbb{C})$ of "complex points" is the set of [[maximal ideals]], since $\mathbb{C}$ is an [[algebraically closed field]], e.g. [Neeman 07, prop. 4.2.4](#Neeman07)). 
+Let $X \to Spec(\mathbb{C})$ be a [[scheme]] of [[locally finite type]] over the [[complex numbers]]. Its set $X(\mathbb{C})$ of "complex points" is the set of [[maximal ideals]], since $\mathbb{C}$ is an [[algebraically closed field]] (e.g. [Neeman 07, prop. 4.2.4](#Neeman07)). 
 
-This set $X(\mathbb{C})$ canonically carries the [[complex analytic topology]]. As such it is a [[topological space]] written $X^{an}$. Equipped with the canonical [[structure sheaf]] $\mathcal{O}_{X^{an}}$ this is a [[complex analytic space]]. This $(X^{an}, \mathcal{O}_{X^{an}})$ is called the _analytification_ of $X$. 
+This set $X(\mathbb{C})$ canonically carries the [[complex analytic topology]]. As such it is a [[topological space]] written $X^{an}$. Equipped with the canonical [[structure sheaf]] $\mathcal{O}_{X^{an}}$ this is a [[complex analytic space]]. This $(X^{an}, \mathcal{O}_{X^{an}})$ is called the _analytification_ of $X$.
 
-This construction extends to a [[functor]] from the [[category]] of [[schemes]] over $\mathbb{C}$ to that of [[complex analytic spaces]].
+This construction extends to a [[functor]] $X\mapsto X^{an}$ from the [[category]] of [[schemes]] over $\mathbb{C}$ to that of [[complex analytic spaces]]. See e.g. ([Neeman 07, section 4, p.71](#Neeman07), [Danilov 91, chapter 3, paragraph 1, section 1.1 (p.61)](#Danilov91)).
 
-See e.g. ([Neeman 07, section 4, p.71](#Neeman07), [Danilov 91, chapter 3, paragraph 1, section 1.1 (p.61)](#Danilov91)
+For any [[complex analytic space]] $Z$, the morphism of locally ringed spaces $X^{an}\to X$ induces a bijection
+$$
+Hom_{lrs/\mathbb{C}}(Z,X^{an})\to Hom_{lrs/\mathbb{C}}(Z,X),
+$$
+where $lrs$ is the category of [[locally ringed topological space|locally ringed spaces]] ([Anschütz 22, Theorem 3.25](#Anschutz22), [Grothendieck 71, Théorème et Définition 1.1](#Grothendieck71)).
+
+This universal property says that analytification is [[relative adjoint functor|right $J$-relative coadjoint to $L$]], where $J$ (resp., $L$) is the inclusion of the full subcategory of complex analytic spaces (resp., schemes locally of finite type over $\mathbb{C}$) into $lrs/\mathbb{C}$.
 
 Generalization to [[structured (infinity,1)-toposes]] is in ([Lurie 08, remark 4.4.13](#Lurie08)).
 
@@ -93,11 +99,13 @@ Original articles include
 
 * {#Artin70} [[Michael Artin]], _Algebraization of formal moduli: II. Existence of modifications_, Annals of Math., 91 no. 1 (1970), pp. 88&#8211;135.
 
-* [[Alexander Grothendieck]], [[SGA]] I, Expos&#233; XII
+* {#Grothendieck71} [[Alexander Grothendieck]], [[SGA]] I, Expos&#233; XII
 
 A review of that is in 
 
 * Yan Zhao, _G&#233;om&#233;trie alg&#233;brique et g&#233;om&#233;trie analytique_, 2013 ([pdf](http://pub.math.leidenuniv.nl/~jinj/2013/efg/gaga.pdf))
+
+* {#Anschutz22} Johannes Anschütz, _Lecture Notes on Étale Cohomology_, ([pdf](https://janschuetz.perso.math.cnrs.fr/skripte/lecture_notes_etale_cohomology.pdf))
 
 Textbook accounts include
 
