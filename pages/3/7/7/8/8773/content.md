@@ -114,3 +114,6 @@ A 5d [[higher gauge theory|higher gauge]] CS-Theory analogous to [[semi-topologi
 
 
 [[!redirects 5-dimensional Chern-Simons theory]]
+
+[[!redirects 5D Chern-Simons theory]]
+[[!redirects 5d Chern-Simons theory]]
