@@ -3154,6 +3154,21 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+* {#AljasmiSep2025} 15 Sep 2025
+
+  Rashed Aljasmi (NYUAD):
+
+  **Two dimensional Coulomb gas in a non-conservative trap**
+
+  cf. [arXiv:2506.18551](https://arxiv.org/abs/2506.18551)
+
+  > We study the nonequilibrium steady state of a two‑dimensional Coulomb gas confined by an anisotropic harmonic trap and driven by a non‑conservative rotational force. The model serves as a tractable, strongly interacting log‑gas with broad relevance across physics and beyond: it provides a simple framework for complex interactions and has a one‑to‑one correspondence with eigenvalues in [[random matrix theory]]. At zero temperature the density remains uniform on a tilted ellipse that supports concentric currents, becoming circular under sufficiently strong drive. A hydrodynamic analysis predicts these features and agrees with numerical simulations.
+
+
+
+
+\linebreak
+
 
 
 ***
