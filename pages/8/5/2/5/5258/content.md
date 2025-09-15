@@ -11,6 +11,13 @@ Ali Hani Chamseddine
 
 ## Selected writings
 
+Early (first?) discussion of [[D=5 supergravity]] and its [[dimensional reduction]] to $SO(2)$ [[D=4 supergravity]]:
+
+* [[Ali Chamseddine]], [[Hermann Nicolai]]: *Coupling the $SO(2)$ Supergravity Through Dimensional Reduction*, Physics Letters B **96** 1–2 (1980) 89-93 \[<a href="https://doi.org/10.1016/0370-2693(80)90218-X">doi:10.1016/0370-2693(80)90218-X</a>, [[ChamseddineNicolai-SU2SuGra.pdf:file]]\]
+
+  *Corrigendum to "Coupling the $SO(2)$ supergravity through dimensional reduction" [Phys. Lett. B 96 (1-2) (1980) 89-93]*, Phys. Lett. B **785** (2018) 631-632 &lbrack;[arXiv:1808.08955](https://arxiv.org/abs/1808.08955), [doi:10.1016/j.physletb.2018.05.029](https://doi.org/10.1016/j.physletb.2018.05.029)&rbrack;
+
+
 On [[noncritical string|noncritical]] [[string theory]]:
 
 * [[Ali H. Chamseddine]]: *A Study of noncritical strings in arbitrary dimensions*, Nucl. Phys. B **368** 98 (1992) \[<a href="https://doi.org/10.1016/0550-3213(92)90199-L">doi:10.1016/0550-3213(92)90199-L</a>\]
