@@ -15,6 +15,10 @@ On the global structure of [[spacetime]] in the theory of [[gravity]]/[[general 
 
 * [[Stephen Hawking]], [[Roger Penrose]], _The Nature of Space and Time_,  Princeton University Press (1996) &lbrack;[ISBN 0-691-03791-4](https://press.princeton.edu/books/paperback/9780691168449/the-nature-of-space-and-time), [arXiv:hep-th/9409195](https://arxiv.org/abs/hep-th/9409195),  [Wikipedia entry](https://en.wikipedia.org/wiki/The_Nature_of_Space_and_Time)&rbrack;
 
+On [[supersymmetry]] and [[supergravity]] via [[superspace]]:
+
+* [[Stephen Hawking]], [[Martin Roček]] (eds.): *Superspace and Supergravity*, Proceedings of Nuffield Workshop 1980, Cambridge University Press (1981) &lbrack;[ISBN:9780521239080](https://www.cambridge.org/de/universitypress/subjects/physics/cosmology-relativity-and-gravitation/superspace-and-supergravity-proceedings-nuffield-workshop-cambridge?format=HB&isbn=9780521239080), [inSpire:172773](https://inspirehep.net/literature/172773), [cds:100081](https://cds.cern.ch/record/100081)&rbrack;
+
 
 
 category: people
