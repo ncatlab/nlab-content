@@ -23,6 +23,14 @@ Introducing what came to be called the *[[Nicolai map]]*:
 
 
 
+Early (first?) discussion of [[D=5 supergravity]] and its [[dimensional reduction]] to $SO(2)$ [[D=4 supergravity]]:
+
+* [[Ali Chamseddine]], [[Hermann Nicolai]]: *Coupling the $SO(2)$ Supergravity Through Dimensional Reduction*, Physics Letters B **96** 1–2 (1980) 89-93 \[<a href="https://doi.org/10.1016/0370-2693(80)90218-X">doi:10.1016/0370-2693(80)90218-X</a>, [[ChamseddineNicolai-SU2SuGra.pdf:file]]\]
+
+  *Corrigendum to "Coupling the $SO(2)$ supergravity through dimensional reduction" [Phys. Lett. B 96 (1-2) (1980) 89-93]*, Phys. Lett. B **785** (2018) 631-632 &lbrack;[arXiv:1808.08955](https://arxiv.org/abs/1808.08955), [doi:10.1016/j.physletb.2018.05.029](https://doi.org/10.1016/j.physletb.2018.05.029)&rbrack;
+
+
+
 On the [[singleton representation|singleton representations]] of the [[orthosymplectic super Lie algebra]]:
 
 * {#NicolaiSezgin84} [[Hermann Nicolai]], [[Ergin Sezgin]], _Singleton representations of $Osp(N,4)$_,  Physics Letters B, **143** 4-6 (1984) 389-395
