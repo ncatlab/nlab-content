@@ -34,9 +34,7 @@ The original articles on the [[D'Auria-Fre formulation of supergravity]]:
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Pietro A. Grassi]], [[Mario Trigiante]]: *Pure Spinor Superstrings on Generic type IIA Supergravity Backgrounds*, J. High Energy Physics **2008**  07 (2008) &lbrack;[arXiv:0803.1703](https://arxiv.org/abs/0803.1703), [doi:10.1088/1126-6708/2008/07/059](https://doi.org/10.1088/1126-6708/2008/07/059)&rbrack;
   > ([[type IIA supergravity]])
 
-
-
-* [[Riccardo D'Auria]], _Geometric supergravity_ ([arXiv:2005.13593](https://arxiv.org/abs/2005.13593)) in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific 2019 ([doi:10.1142/11643](https://doi.org/10.1142/11643)) 
+* [[Riccardo D'Auria]], _Geometric supergravity_ ([arXiv:2005.13593](https://arxiv.org/abs/2005.13593)) in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific (2019) &lbrack;[doi:10.1142/11643](https://doi.org/10.1142/11643)&rbrack;
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra*, Expositiones Mathematicae, &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987) [10.1016/j.exmath.2024.125631](https://doi.org/10.1016/j.exmath.2024.125631)&rbrack;
 
@@ -50,6 +48,12 @@ On [[Freund-Rubin compactifications]] of [[11d supergravity]] and identifying [[
 * {#DAuriaFré83} [[Riccardo D'Auria]], [[Pietro Fré]]: *Spontaneous generation of symmetry in the spontaneous compactification of $D=11$ supergravity*, Physics Letters B **121** 2–3 (1983) 141-146 &lbrack;<a href="https://doi.org/10.1016/0370-2693(83)90903-6">doi:10.1016/0370-2693(83)90903-6</a>&rbrack;
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Peter van Nieuwenhuizen]], _Symmetry Breaking in $d=11$ Supergravity on the Parallelized Seven Sphere_, Phys. Lett. B 122 (1983) 225 ([spire:181634](https://inspirehep.net/literature/181634), <a href="https://doi.org/10.1016/0370-2693(83)90689-5">doi:10.1016/0370-2693(83)90689-5</a>)
+
+On [[dimensional reduction]] of [[D=11 supergravity]]/[[M-theory on Calabi-Yau manifolds]] to [[D=5 supergravity]]:
+
+* {#CadavidCeresoleDAuriaFerrara95} A. C. Cadavid, [[Anna Ceresole]], [[Riccardo D'Auria]], [[Sergio Ferrara]]: *11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds*, Phys. Lett. B **357** (1995) 76-80 &lbrack;[arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144), <a href="https://doi.org/10.1016/0370-2693(95)00891-N">doi:10.1016/0370-2693(95)00891-N</a>&rbrack;
+
+
 
 More on the [[supergravity Lie 3-algebra]] (see also at *[[M-theory supersymmetry algebra]]*):
 
