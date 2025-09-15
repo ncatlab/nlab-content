@@ -30,7 +30,7 @@ A [[dg-algebra]] $A$ is a **formal dg-algebra** if it is [[quasiisomorphism|quas
 
 to its [[chain homology and cohomology|chain (co)homology]] regarded as a dg-algebra with trivial differential. 
 
-Since all dg-algebras are fibrant in the standard model, this is equivalent to the existence of a [[span]]
+Since all dg-algebras are [[fibrant object|fibrant]] in the [[model structure on dg-algebras|standard model structure]], this is equivalent to the existence of a [[span]]
 
 \[
   \label{TheSpan}
