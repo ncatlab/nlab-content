@@ -27,10 +27,11 @@
 
 [[higher dimensional Chern-Simons theory]] in [[dimension]] 5.
 
+appears in the [[bosonic field|bosonic sector]] of [[D=5 supergravity]].
+
 ## Properties
 
 ### Moduli of fields (abelian case)
-
 
 [[!include moduli of higher lines -- table]]
 
@@ -70,25 +71,25 @@
 
 ## References
 
-A general account of the structure is in 
+A general account of the structure:
 
-* Olivera Miskovic, Ricardo Troncoso, [[Jorge Zanelli]], _Canonical sectors of five-dimensional Chern-Simons theories_ ([arXiv:hep-th/0504055](http://arxiv.org/abs/hep-th/0504055)) 
+* Olivera Miskovic, Ricardo Troncoso, [[Jorge Zanelli]], *Canonical sectors of five-dimensional Chern-Simons theories*, Phys. Lett. B **615** (2005) 277-284 &lbrack[arXiv:hep-th/0504055](http://arxiv.org/abs/hep-th/0504055), [doi:10.1016/j.physletb.2005.04.043](https://doi.org/10.1016/j.physletb.2005.04.043)&rbrack;
 
-Remarks on applications in [[phenomenology|phenomemenological]] [[model (in theoretical physics)|models]] are in
+In the context of [[D=5 Yang-Mills theory|$D=5$]] [[quantum electrodynamics]]:
 
-* C. Hill, _Physics of $D = 5$ Chern-Simons term_ ([pdf](http://theory.fnal.gov/seminars/slides/2006/CHill.pdf))
+* Christopher T. Hill: _Physics of $D = 5$ Chern-Simons term_ (2006) &lbrack;[pdf](https://particle.physics.ucdavis.edu/seminars/lib/exe/fetch.php?media=2006:oct:hill.pdf), [[Hill-5dCS.pdf:file]]&rbrack;
 
-The relation to [[5-dimensional supergravity]] is discussed in
+In relation to [[D=5 supergravity]]:
 
-* A. Ceresole, A. Lerda, and P. van Nieuwenhuizen , _Five-dimensional gravitational super Chern-Simons terms_, Phys. Rev. D 34, 1744&#8211;1748 (1986) 
+* [[Anna Ceresole]], A. Lerda, [[Peter van Nieuwenhuizen]]: *Five-dimensional gravitational super Chern-Simons terms*, Phys. Rev. D **34** (1986) 1744-1748 &lbrack;[doi:10.1103/PhysRevD.34.1744](https://doi.org/10.1103/PhysRevD.34.1744)&rbrack;
 
-* Yuji Tachikawa, _Five-dimensional Chern-Simons terms and Nekrasov's instanton counting_ ([arXiv:hep-th/0401184](http://arxiv.org/abs/hep-th/0401184))
+and obtained from [[dimensional reduction]] of [[D=11 supergravity]] ("[[M-theory]]"):
 
-and via [[KK-compactification]] of the [[supergravity C-field]] of [[11-dimensional supergravity]] in 
+* [[Yuji Tachikawa]]: *Five-dimensional Chern-Simons terms and Nekrasov's instanton counting*, Journal of High Energy Physics, JHEP02 (2004) &lbrack;[arXiv:hep-th/0401184](http://arxiv.org/abs/hep-th/0401184), [doi:10.1088/1126-6708/2004/02/050](https://doi.org/10.1088/1126-6708/2004/02/050)&rbrack;
 
-* Federico Bonetti, [[Thomas Grimm]], [[Stefan Hohenegger]], _One-loop Chern-Simons terms in five dimensions_ ([arXiv:1302.2918](http://arxiv.org/abs/1302.2918)) 
+* [[Federico Bonetti]], [[Thomas Grimm]], [[Stefan Hohenegger]]: *One-loop Chern-Simons terms in five dimensions* &lbrack;[arXiv:1302.2918](http://arxiv.org/abs/1302.2918)&rbrack;
 
-More on supersymmetric 5d CS theory is in
+More on supersymmetric 5d CS:
 
 * Sergei M. Kuzenko, Joseph Novak, _On supersymmetric Chern-Simons-type theories in five dimensions_, JHEP 1402 (2014) 096 ([arXiv:1309.6803](http://arxiv.org/abs/1309.6803))
 
