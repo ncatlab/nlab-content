@@ -46,3 +46,5 @@ For any other choice of rights adjoints for the cartesian object $X$, there are 
 
 [[!redirects cartesian objects]]
 
+[[!redirects cocartesian object]]
+[[!redirects cocartesian objects]]
