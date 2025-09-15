@@ -17,13 +17,13 @@ On [[string-string duality]]:
 * {#DuffKhuri93} [[Michael Duff]], [[Ramzi Khuri]], _Four-Dimensional String/String Duality_, Nucl.Phys. B411 (1994) 473-486 ([arXiv:hep-th/9305142](https://arxiv.org/abs/hep-th/9305142))
 
 
-On [[M-theory on Calabi-Yau manifolds]]:
+On [[dimensional reduction]] of [[D=11 supergravity]]/[[M-theory on Calabi-Yau manifolds]] to [[D=5 supergravity]]:
 
-* [[Sergio Ferrara]], [[Ramzi Khuri]],  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys. Lett.B 375:81-88, 1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
+* {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], [[Ramzi R. Khuri]], [[Ruben Minasian]]: _M-theory on a Calabi-Yau manifold_, Phys. Lett. B **375** (1996) 81-88 &lbrack;[arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102), <a href="https://doi.org/10.1016/0370-2693(96)00270-5">doi:10.1016/0370-2693(96)00270-5</a>&rbrack;
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[string-string duality]]
 
