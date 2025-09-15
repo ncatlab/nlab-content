@@ -23,7 +23,9 @@
 
 ## Idea
 
-[[supergravity]] in [[dimension]] 5. For $N = 1$ this arises from [[11-dimensional supergravity]] by [[KK-compactification]] on a [[Calabi-Yau manifold]] of complex dimension 3 (see at _[[M-theory on Calabi-Yau manifolds]]_), hence serves as the low-energy [[effective field theory]] of the strong-coupling version of Calabi-Yau compactifications of [[type IIA string theory]] (see [[supersymmetry and Calabi-Yau manifolds]])
+[[supergravity]] in [[dimension]] 5. 
+
+For $N = 1$ this arises from [[11-dimensional supergravity]] by [[KK-compactification]] on a [[Calabi-Yau manifold]] of complex dimension 3 (see at _[[M-theory on Calabi-Yau manifolds]]_), hence serves as the low-energy [[effective field theory]] of the strong-coupling version of Calabi-Yau compactifications of [[type IIA string theory]] (see [[supersymmetry and Calabi-Yau manifolds]])
 
 $$
   \array{
@@ -44,13 +46,18 @@ $$
 ### 5d Chern-Simons term
  {#5dChernSimonsTerm}
 
-This theory has a 2-form field strength $F_2$, locally $F_2 = d A$, with a [[5d Chern-Simons theory]] [[action functional]] locally of the form $\propto \int_X F_2 \wedge F_2 \wedge A$ (e.g. [Castellani-D'Auria-Fre (III.5.70)](#CastellaniDAuriaFre), [Gauntlet-Myers-Townsend  98, p. 3](#GauntlettMyersTownsend98), [GGHPR 02 (2.1)](#GGHPR02), [Bonetti-Grimm-Hohenegger 13](#BonettiGrimmHohenegger13)). Hence its [[equation of motion]] is of the non-linear form
+The theory has a 2-form [[flux density]] $F_2$, locally $F_2 = d A$, with a [[5d Chern-Simons theory]] [[action functional]] locally of the form $\propto \int_X F_2 \wedge F_2 \wedge A$ ([Cremmer 1981, p. 276](#Cremmer81), [Chamseddine & Nicolai 1980 (4)](#ChamseddineNicolai80),  cf. [Castellani-D'Auria-Fre (III.5.70)](#CastellaniDAuriaFre), [Gauntlet, Myers & Townsend  1998, p. 3](#GauntlettMyersTownsend98), [GGHPR 02 (2.1)](#GGHPR02), [Bonetti-Grimm-Hohenegger 13](#BonettiGrimmHohenegger13)). 
+
+Hence the [[bosonic field]] sector of $D=5$ supergravity is [[Einstein-Maxwell theory|Einstein-Maxwell]] [[D=5 Chern-Simons theory|Chern-Simons theory]] in 5D, where the [[equation of motion]] for the [[flux density]] is of the non-linear form
 
 $$
-  d F_3 = F_2 \wedge F_2
+  \mathrm{d} F_3 
+    \;=\; 
+  F_2 \wedge F_2
+  \mathrlap{\,,}
 $$
 
-with $F_3 \coloneqq \star F_2$ the [[Hodge dual]] of $F_2$ ([GGHPR 02 (2.2)](#GGHPR02)).
+with $F_3 \coloneqq \star F_2$ the [[Hodge dual]] of $F_2$ (cf. [GGHPR 02 (2.2)](#GGHPR02)).
 
 This is reflected in the corresponding cochains on [[super Minkowski spacetime]]
 
@@ -203,11 +210,12 @@ $$
 
 Original discussion:
 
-* [[Eugène Cremmer]]: *Supergravities in 5 Dimensions*, in [[Stephen Hawking]], [[Martin Roček]] (eds.): *Superspace and Supergravity*, Proceedings of Nuffield Workshop 1980, Cambridge University Press (1981) 267-282 &lbrack;[[Cremmer-SuGraIn5D.pdf:file]], [ISBN:9780521239080](https://www.cambridge.org/de/universitypress/subjects/physics/cosmology-relativity-and-gravitation/superspace-and-supergravity-proceedings-nuffield-workshop-cambridge?format=HB&isbn=9780521239080), [inSpire:172773](https://inspirehep.net/literature/172773), [cds:100081](https://cds.cern.ch/record/100081)&rbrack;
-
-* [[Ali Chamseddine]], [[Hermann Nicolai]]: *Coupling the $SO(2)$ Supergravity Through Dimensional Reduction*, Physics Letters B **96** 1–2 (1980) 89-93 \[<a href="https://doi.org/10.1016/0370-2693(80)90218-X">doi:10.1016/0370-2693(80)90218-X</a>, [[ChamseddineNicolai-SU2SuGra.pdf:file]]\]
+* {#ChamseddineNicolai80} [[Ali Chamseddine]], [[Hermann Nicolai]]: *Coupling the $SO(2)$ Supergravity Through Dimensional Reduction*, Physics Letters B **96** 1–2 (1980) 89-93 \[<a href="https://doi.org/10.1016/0370-2693(80)90218-X">doi:10.1016/0370-2693(80)90218-X</a>, [[ChamseddineNicolai-SU2SuGra.pdf:file]]\]
 
   Corrigendum: Phys. Lett. B **785** (2018) 631-632 &lbrack;[arXiv:1808.08955](https://arxiv.org/abs/1808.08955), [doi:10.1016/j.physletb.2018.05.029](https://doi.org/10.1016/j.physletb.2018.05.029)&rbrack;
+
+
+* {#Cremmer81} [[Eugène Cremmer]]: *Supergravities in 5 Dimensions*, in [[Stephen Hawking]], [[Martin Roček]] (eds.): *Superspace and Supergravity*, Proceedings of Nuffield Workshop 1980, Cambridge University Press (1981) 267-282 &lbrack;[[Cremmer-SuGraIn5D.pdf:file]], [ISBN:9780521239080](https://www.cambridge.org/de/universitypress/subjects/physics/cosmology-relativity-and-gravitation/superspace-and-supergravity-proceedings-nuffield-workshop-cambridge?format=HB&isbn=9780521239080), [inSpire:172773](https://inspirehep.net/literature/172773), [cds:100081](https://cds.cern.ch/record/100081)&rbrack;
 
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.5 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;ch III.5: [[CastellaniDAuriaFre-ChIII5.pdf:file]]&rbrack;
@@ -238,6 +246,8 @@ Construction of 5d [[gauged supergravity]] via [[D'Auria-Fré formulation of sup
 * [[Laura Andrianopoli]], Francesco Cordaro, [[Pietro Fré]], _Non-Semisimple Gaugings of $D=5$ $\mathcal{N}=8$ Supergravity_, Fortsch.Phys. **49** (2001) 511-518 &lbrack;[arXiv:hep-th/0012203](http://arxiv.org/abs/hep-th/0012203)&rbrack;
 
 
+
+
 See also:
 
 * [[Sheldon Katz]], Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]]: *Swampland Constraints on $5d$ $\mathcal{N}=1$ Supergravity &lbrack;[arXiv:2004.14401](https://arxiv.org/abs/2004.14401)&rbrack;
@@ -249,24 +259,22 @@ See also:
 
 ### Via M-theory on Calabi-Yau 3-folds
 
-Discussion via [[KK-compactification]] as [[M-theory on Calabi-Yau manifolds]] includes
+Discussion via [[KK-compactification]] from [[D=11 supergravity]]/[[M-theory on Calabi-Yau manifolds]]:
 
-* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], pages 30 and 31 of _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167))
+* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], p 30-31 of: _Unity of Superstring Dualities_, Nucl. Phys. B **438** (1995) 109-137 &lbrack;[arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167)&rbrack;
 
-* {CadavidCeresoleDAuriaFerrara95} A.C. Cadavid, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], _11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds_ ([arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144))
+* {#CadavidCeresoleDAuriaFerrara95} A. C. Cadavid, [[Anna Ceresole]], [[Riccardo D'Auria]], [[Sergio Ferrara]]: *11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds*, Phys. Lett. B **357** (1995) 76-80 &lbrack;[arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144), <a href="https://doi.org/10.1016/0370-2693(95)00891-N">doi:10.1016/0370-2693(95)00891-N</a>&rbrack;
 
-* {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], Ramzi R. Khuria,  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys.Lett.B375:81-88,1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
+* {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], [[Ramzi R. Khuri]],  [[Ruben Minasian]]: _M-theory on a Calabi-Yau manifold_, Phys. Lett. B **375** (1996) 81-88 &lbrack;[arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102), <a href="https://doi.org/10.1016/0370-2693(96)00270-5">doi:10.1016/0370-2693(96)00270-5</a>&rbrack;
 
-* {#FerraraMinasianSagnotti96} [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]], _Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds_, Nucl.Phys. B474 (1996) 323-342 ([arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097))
+* {#FerraraMinasianSagnotti96} [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]], _Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds_, Nucl. Phys. B **474** (1996) 323-342 &lbrack;[arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097)&rbrack;
 
-* {#MizoguchiOhta98} S. Mizoguchi, N. Ohta, _More on the Similarity between $D=5$ Simple Supergravity and M Theory_, Phys.Lett. B441 (1998) 123-132 ([arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111))
+* {#MizoguchiOhta98} S. Mizoguchi, N. Ohta: *More on the Similarity between $D=5$ Simple Supergravity and M Theory*, Phys. Lett. B **441** (1998) 123-132 &lbrack;[arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111)&rbrack;
 
 
-Further discussion of the [[5d Chern-Simons theory|5d Chern-Simons term]] includes
+See also: 
 
-* {#BonettiGrimmHohenegger13} Federico Bonetti, [[Thomas Grimm]], [[Stefan Hohenegger]], _One-loop Chern-Simons terms in five dimensions_ ([arXiv:1302.2918](http://arxiv.org/abs/1302.2918)) 
-
-(one-loop corrections).
+* S. Mizoguchi, N. Ohta: *More on the Similarity between $D=5$ Simple Supergravity and M Theory* &lbrack;[arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111), <a href="https://doi.org/10.1016/S0370-2693(98)01122-8">doi:10.1016/S0370-2693(98)01122-8</a>&rbrack;
 
 
 
@@ -310,35 +318,38 @@ Discussion of [[KK-compactification]] on $S^1/(\mathbb{Z}/2)$-orbifolds (the ver
 
 ### Black hole solutions
 
-Discussion of lifts of 4d black holes to 5d black holes and [[black rings]] and embedding as [[black holes in string theory]] includes
+
+Discussion of lifts of 4d [[black holes]] to 5d black holes and [[black rings]], and embedding as [[black holes in string theory]]:
 
 * {#GauntlettMyersTownsend98} [[Jerome Gauntlett]], [[Robert C. Myers]], [[Paul Townsend]], *Black Holes of $D=5$ Supergravity*, Class.Quant.Grav. **16** (1999) 1-21 &lbrack;[arXiv:hep-th/9810204](http://arxiv.org/abs/hep-th/9810204), [doi:10.1088/0264-9381/16/1/001](https://doi.org/10.1088/0264-9381/16/1/001)&rbrack;
 
-* {#ElvangEmparanMateosReall04} [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _A supersymmetric black ring_, Phys. Rev. Lett. 93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
+* {#ElvangEmparanMateosReall04} [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _A supersymmetric black ring_, Phys. Rev. Lett. **93** 211302 (2004) ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
 
-* {#ElvangEmparanMateosReall05} [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
-
+* {#ElvangEmparanMateosReall05} [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042 (2005) &lbrack;[arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125)&rbrack;
 
 * [[Iosif Bena]], [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
 
 * [[Iosif Bena]], [[Per Kraus]], _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
 
+* Jutta Kunz, Francisco Navarro-Lerida: *$D=5$ Einstein-Maxwell-Chern-Simons Black Holes*, Phys. Rev. Lett. **96** (2006) 081101 &lbrack;[arXiv;hep-th/0510250](https://arxiv.org/abs/hep-th/0510250), [doi:10.1103/PhysRevLett.96.081101](https://doi.org/10.1103/PhysRevLett.96.081101)&rbrack;
+
 * [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _5D black rings and 4D black holes_ JHEP 02 (2006) 023 ([hep-th/0504126](http://arxiv.org/abs/hep-th/0504126))
 
 * [[Davide Gaiotto]], [[Andrew Strominger]], [[Xi Yin]], _New connections between 4D and 5D black holes_, JHEP 02 (2006) 024 ([hep-th/0503217](https://arxiv.org/abs/hep-th/0503217))
 
-* Alejandra Castro, Joshua L. Davis, [[Per Kraus]], Finn Larsen, _String Theory Effects on Five-Dimensional Black Hole Physics_ ([arXiv:0801.1863](http://arxiv.org/abs/0801.1863))
+* Alejandra Castro, Joshua L. Davis, [[Per Kraus]], Finn Larsen, _String Theory Effects on Five-Dimensional Black Hole Physics_, International Journal of Modern Physics A **23** 05, (2008) 613-691 &lbrack;[arXiv:0801.1863](http://arxiv.org/abs/0801.1863), [doi:10.1142/S0217751X08039724](https://doi.org/10.1142/S0217751X08039724)&rbrack;
+
 
 Review:
 
-* [[Per Kraus]], _Lectures on black holes and the $AdS_3$/$CFT_2$ correspondence_ ([arXiv:hep-th/0609074](http://arxiv.org/abs/hep-th/0609074))
+* [[Per Kraus]]: _Stringy black holes in five dimensions_ (2007) &lbrack;[[Kraus-Stringy5dBH.pdf:file]]&rbrack;
 
-  _Stringy black holes in five dimensions_, 2007 ([pdf slides](http://hep.ps.uci.edu/~arajaram/Irvine.07.pdf))
+* Hari K. Kunduri, James Lucietti: *[Five dimensional Einstein–Maxwell–Chern–Simons theory](https://www.emis.de/journals/LRG/Articles/lrr-2013-8/articlese6.html#x9-360006.3)*, section 6.3 in: *[Classification of Near-Horizon Geometries of Extremal Black Holes](https://www.emis.de/journals/LRG/Articles/lrr-2013-8/title.html)*, Living Rev. Relativity, **16** 8 (2013) &lbrack;[doi:10.12942/lrr-2013-8](https://doi.org/10.12942/lrr-2013-8)&rbrack;
+
 
 Further [[defect branes]]:
 
 * Eun Kyung Park, Pyung Seong Kwon, *NS-branes in 5d brane world models*, Phys. Rev. D82:046001, 2010 ([arXiv:1007.1290](https://arxiv.org/abs/1007.1290), [doi:10.1103/PhysRevD.82.046001](https://doi.org/10.1103/PhysRevD.82.046001))
-
 
 * Minkyu Park, [[Masaki Shigemori]], _Codimension-2 Solutions in Five-Dimensional Supergravity_, JHEP 1510 (2015) 011 ([arXiv:1505.05169](http://arxiv.org/abs/1505.05169))
 
