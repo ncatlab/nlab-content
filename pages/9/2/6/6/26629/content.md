@@ -1,11 +1,12 @@
+
 * toc
 {: toc}
 
 ## Idea
 
-A **fibration of double categories** is the appropriate analogue of [[Grothendieck fibration]] for [[double categories]]. There are several equivalent definitions; see the references.
+A **double fibration**, or **fibration of double categories** is the appropriate analogue of [[Grothendieck fibration]] for [[double categories]]. There are several equivalent definitions; see the references.
 
-In some of the literature, fibrations of double categories are referred to as **double fibrations**. However, this terminology is awkward for several reasons: it is typically redundant to specify "double" when we are talking of functors between double categories, and **double _X_** has an existing meaning in the theory of [[sketches]] (i.e. an _X_ in the category of _X_s).
+When the source and target are known as double categories, the adjunct "double" can be omitted, as with a [[double functor]].  Also note that unlike a double category, but like a double functor, a double fibration is not a "fibration in the category of fibrations".
 
 ## References
 
@@ -21,3 +22,5 @@ In some of the literature, fibrations of double categories are referred to as **
 
 [[!redirects double fibration]]
 [[!redirects double fibrations]]
+[[!redirects fibration of double categories]]
+[[!redirects fibrations of double categories]]
