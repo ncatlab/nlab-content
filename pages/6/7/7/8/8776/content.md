@@ -196,14 +196,25 @@ $$
 * 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
 
 
+
 ## References
 
 ### General
 
-General discussion:
+Original discussion:
+
+* [[Eugène Cremmer]]: *Supergravities in 5 Dimensions*, in [[Stephen Hawking]], [[Martin Roček]] (eds.): *Superspace and Supergravity*, Proceedings of Nuffield Workshop 1980, Cambridge University Press (1981) 267-282 &lbrack;[[Cremmer-SuGraIn5D.pdf:file]], [ISBN:9780521239080](https://www.cambridge.org/de/universitypress/subjects/physics/cosmology-relativity-and-gravitation/superspace-and-supergravity-proceedings-nuffield-workshop-cambridge?format=HB&isbn=9780521239080), [inSpire:172773](https://inspirehep.net/literature/172773), [cds:100081](https://cds.cern.ch/record/100081)&rbrack;
+
+* [[Ali Chamseddine]], [[Hermann Nicolai]]: *Coupling the $SO(2)$ Supergravity Through Dimensional Reduction*, Physics Letters B **96** 1–2 (1980) 89-93 \[<a href="https://doi.org/10.1016/0370-2693(80)90218-X">doi:10.1016/0370-2693(80)90218-X</a>, [[ChamseddineNicolai-SU2SuGra.pdf:file]]\]
+
+  Corrigendum: Phys. Lett. B **785** (2018) 631-632 &lbrack;[arXiv:1808.08955](https://arxiv.org/abs/1808.08955), [doi:10.1016/j.physletb.2018.05.029](https://doi.org/10.1016/j.physletb.2018.05.029)&rbrack;
+
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.5 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991) &lbrack;ch III.5: [[CastellaniDAuriaFre-ChIII5.pdf:file]]&rbrack;
   > (via [[D'Auria-Fré formulation of supergravity]])
+
+
+Further discussion:
 
 * [[William Linch III]], Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys. Rev. D **68** (2003) 025008 &lbrack;[arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060)&rbrack;
 
