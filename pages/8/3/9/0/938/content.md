@@ -189,7 +189,7 @@ $$
   \big)
   }
 $$
-in which the two horizontal morphisms are [[isomorphisms]], because $g f$ and $f g$ are [[homotopy|homotopic]] to [[identity morphism|identities]].  Hence, by the [[two-out-of-six property]] for isomorphisms, the diagonal morphhisms are also all isomorphisms.
+in which the two horizontal morphisms are [[isomorphisms]], because $g f$ and $f g$ are [[homotopy|homotopic]] to [[identity morphism|identities]].  Hence, by the [[two-out-of-six property]] for isomorphisms, the diagonal morphisms are also all isomorphisms.
 
 =--
 
