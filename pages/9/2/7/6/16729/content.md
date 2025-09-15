@@ -30,7 +30,12 @@ Formulation of [[D=11 supergravity]] in [[superspace]] (via [[supergeometry]]):
 
 More on [[U-duality]]-covariant [[D=11 supergravity]], including also discussion of [[E8]]:
 
-* [[Eugene Cremmer]]: *Supergravities in 5 dimensions*, in: *[Superspace and Supergravity](https://inspirehep.net/literature/172773)*, Cambridge University Press (1981) &lbrack;[spire:155020](https://inspirehep.net/literature/155020), [[Cremmer-SuGraIn5d.pdf:file]]&rbrack;
+* [[Eugène Cremmer]]: *Supergravities in 5 dimensions*, in: *[Superspace and Supergravity](https://inspirehep.net/literature/172773)*, Cambridge University Press (1981) &lbrack;[spire:155020](https://inspirehep.net/literature/155020), [[Cremmer-SuGraIn5d.pdf:file]]&rbrack;
+
+Early (first?) discussion of [[D=5 supergravity]]:
+
+* [[Eugène Cremmer]]: *Supergravities in 5 Dimensions*, in [[Stephen Hawking]], [[Martin Roček]] (eds.): *Superspace and Supergravity*, Proceedings of Nuffield Workshop 1980, Cambridge University Press (1981) 267-282 &lbrack;[[Cremmer-SuGraIn5D.pdf:file]], [ISBN:9780521239080](https://www.cambridge.org/de/universitypress/subjects/physics/cosmology-relativity-and-gravitation/superspace-and-supergravity-proceedings-nuffield-workshop-cambridge?format=HB&isbn=9780521239080), [inSpire:172773](https://inspirehep.net/literature/172773), [cds:100081](https://cds.cern.ch/record/100081)&rbrack;
+
 
 On hidden [[duality in string theory|duality]]-[[symmetries]] ("[[U-duality]]") in [[torus|toroidal]] [[Kaluza-Klein compactifications]] of [[11D supergravity]]:
 
