@@ -13,9 +13,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -258,8 +258,14 @@ The result that gravity is not [[renormalizable interaction|renormalizable]] is 
 Review:
 
 * [[Zvi Bern]], _Perturbative quantum gravity and its relation to gauge theory_, Living reviews in relativity, [www.livingreviews.org/Articles/Volume5/2002-5bern](www.livingreviews.org/Articles/Volume5/2002-5bern)
-.
+
 * Assaf Shomer, _A pedagogical explanation for the non-renormalizability of gravity_ ([arXiv:0709.3555](https://arxiv.org/abs/0709.3555))
+
+
+### Induced gravity
+
+* Matt Visser: *Sakharov's induced gravity: a modern perspective*, Mod. Phys. Lett. A **17** (2002) 977-992 &lbrack;[arXiv:gr-qc/0204062](https://arxiv.org/abs/gr-qc/0204062), [doi:10.1142/S0217732302006886](https://doi.org/10.1142/S0217732302006886)&rbrack;
+
 
 
 [[!redirects Einstein gravity]]
