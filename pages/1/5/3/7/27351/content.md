@@ -24,9 +24,9 @@
 
 ## Idea
 
-By *abelian Chern-Simons theory* one means [[Chern-Simons theory]] with [[abelian group|abelian]] [[gauge group]] (typically the [[circle group]] or a [[torus]]-[[product group|product]] of copies of these).
+By *abelian Chern-Simons theory* one means [[Chern-Simons theory]] with [[abelian group|abelian]] [[gauge group]] (typically the [[circle group]] or a [[torus]]-[[product group|product]] of copies of that).
 
-One major application of abelian Chern-Simons theory is as an [[effective field theory]] of the [[fractional quantum Hall effect]].
+One major application of abelian Chern-Simons theory is as an [[effective field theory]] of the [[fractional quantum Hall effect]], see [below](#AbelianCSTheoryAsEffectiveQFTForFRactionalQuantumHall).
 
 
 ## Definition
@@ -39,7 +39,7 @@ For the time being we normalize [[connection]] [[differential forms|forms]] acco
   \label{NormalizationPfFluxDensity}
   \tfrac{1}{2\pi} F_A
   \;\in\;
-  \Omega^2_{int, cls}
+  \Omega^2_{int}
 \]
 is an [[integral form]], in that it has [[integer]] [periods](period#InDifferentialGeometry) (cf. *[[Dirac charge quantization]]* and *[[ordinary differential cohomology]]*).
 
@@ -160,13 +160,24 @@ $$
   \,.
 $$
 
-Finally just to note the resulting expression for the exponentiated action functional (eq:ExponentiatedActionFunctional) changes and how it changes if one adopts the normalization condition for $F$ that is more common in mathematics, where it is $F$ itself that is integral:
+Finally, just to note how the resulting expression for the exponentiated action functional (eq:ExponentiatedActionFunctional) changes when one adopts instead of (eq:NormalizationPfFluxDensity) the normalization condition for $F$ that is more common in mathematics, where it is $F$ itself that is [[integral differential form|integral]]:
 
-| physics normalization | math normalization |
-|-----------------------|--------------------|
-| $e^{\mathrm{i}S(A)} = \exp\Big( \mathrm{i} \tfrac{K}{4\pi} \textstyle{\int_{\Sigma^3}} A \wedge \mathrm{d}A \Big)$ | $e^{\mathrm{i}S(A)} = \exp\Big( 2\pi\mathrm{i}  \textstyle{\int_{\Sigma^3}} \tfrac{K}{2}\, A \wedge \mathrm{d}A \Big)$ |
+|  | physics normalization | math normalization |
+|--|-----------------------|--------------------|
+| integral flux density | $\tfrac{1}{2\pi} F$  | $F$ |
+| exponentiated action | $e^{\mathrm{i}S(A)} = \exp\Big( \mathrm{i} \tfrac{K}{4\pi} \textstyle{\int_{\Sigma^3}} A \wedge \mathrm{d}A \Big)$ | $e^{\mathrm{i}S(A)} = \exp\Big( 2\pi\mathrm{i}  \textstyle{\int_{\Sigma^3}} \tfrac{K}{2}\, A \wedge \mathrm{d}A \Big)$ |
 
 Some of the following sections stick to one or the other of these conventions.
+
+### The equation of motion
+
+The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] associated with the abelian Chern-Simons Lagrangian (eq:TheLagrangianDensity) is immediately found to be
+$$
+  F = 0
+  \,,
+$$
+saying that the [[on-shell]] gauge fields are precisely the [[flat connections]] with vanishing [[flux density]] $F = \mathrm{d}A$.
+
 
 
 ## Properties
