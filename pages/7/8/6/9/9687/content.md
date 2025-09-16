@@ -278,6 +278,9 @@ See also:
 
 * J.L. Alonso, C. Bouthelier-Madre, J. Clemente-Gallardo, D. Martínez-Crespo: *An axion-like mechanism for confinement in QCD* &lbrack;[arXiv:2211.01047](https://arxiv.org/abs/2211.01047)&rbrack;
 
+* Gerrit Schierholz: *Renormalization Group Approach to Confinement* &lbrack;[arXiv:2509.10658](https://arxiv.org/abs/2509.10658)&rbrack;
+
+
 
 
 
