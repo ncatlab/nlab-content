@@ -23,17 +23,18 @@ A core ingredient of the [[standard model of particle physics]] is _electroweak 
 
 * [[composite Higgs boson]]
 
+* [[technicolor]]
+
 ## References
 
-Surveys include
+Surveys:
 
 * S. Dawson, _Introduction to Electroweak Symmetry Breaking_, Lectures given at the 1998 Summer School in High Energy Physics and Cosmology, Trieste, Italy, June 29-uly 17, 1998 ([arXiv:hepph/9901280](http://arxiv.org/abs/hepph/9901280))
 
 * Gautam Bhattacharyya,  _A Pedagogical Review of Electroweak Symmetry Breaking Scenarios_, Rept. Prog. Phys. 74:026201, 2011 ([arXiv:0910.5095](https://arxiv.org/abs/0910.5095))
 
 * {#Brambilla14} Brambilla et al., Section 9.2. of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
-
-  (in the context of [[holographic QCD]])
+  > (in the context of [[holographic QCD]])
 
 
 * [[Antonio Pich]], _Electroweak Symmetry Breaking and the Higgs Boson_, [Acta Phys. Pol. B 47, 151](https://www.actaphys.uj.edu.pl/index_n.php?I=R&V=47&N=1#151) (2016) ([arXiv:1512.08749](https://arxiv.org/abs/1512.08749))
@@ -51,6 +52,10 @@ Discussion of [[electroweak symmetry breaking]] by [[effective field theory]] an
 Discussion of possible [[experiment|experimental]] signatures via [[gravitational waves]] of primordial [[cosmology|cosmic]] electroweak symmetry breaking:
 
 * Martín Arteaga, Anish Ghoshal, [[Alessandro Strumia]]: *Gravitational waves and black holes from the phase transition in models of dynamical symmetry breaking* &lbrack;[arXiv:2409.04545](https://arxiv.org/abs/2409.04545)&rbrack;
+
+On [[technicolor]] models for electroweak symmetry breaking
+
+* [[Christopher T. Hill]], Elizabeth H. Simmons: _Strong Dynamics and Electroweak Symmetry Breaking_, Phys. Rept. **381** (2003) 235-402, Erratum-ibid. **390** (2004) 553-554 &lbrack;[arXiv:hep-ph/0203079](http://arxiv.org/abs/hep-ph/0203079), <a href="https://doi.org/10.1016/S0370-1573(03)00140-6">doi:10.1016/S0370-1573(03)00140-6</a>, <a href="https://doi.org/10.1016/j.physrep.2003.10.002">doi:10.1016/j.physrep.2003.10.002</a>&rbrack;
 
 
 
