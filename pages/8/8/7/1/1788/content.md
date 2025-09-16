@@ -27,14 +27,18 @@ the [[equations of motion]] of [[5D Chern-Simons theory|5D Chern-Simons]]-[[Maxw
 \[
   \label{EoMof5dMCSforDimReduction}
   \begin{aligned}
-    \mathrm{d}\, F_2 & = 0
+    \mathrm{d}\, F_2 & = 0 
+    \mathrlap{\,,}
     \\
-    \mathrm{d}\, \star_{{}_X} F_2 
-     & = F_2 \wedge F_2
+    \mathrm{d}\, \star_{{}_Y} F_2 
+     & =
+     \tfrac{1}{2} 
+     F_2 \wedge F_2
+    \mathrlap{\,.}
   \end{aligned}
 \]
 
-Consider then the [[dimensional reduction]] of this situation to 3D, specifically: The case that $Y^{1,4}$ is a [[product manifold]] (with product [[Riemannian metric|metric]])
+Consider the [[dimensional reduction]] of this situation to 3D, specifically: The case that $Y^{1,4}$ is a [[product manifold]] (with product [[Riemannian metric|metric]])
 \[
   \label{DimRedSpacetime}
   Y^{1,4}
@@ -44,7 +48,7 @@ Consider then the [[dimensional reduction]] of this situation to 3D, specificall
 \]
 of
 
-* a [[Lorentzian manifold]] $X^{1,2}$, $dim\big(Y^{1,2}\big) = 3$,
+* a [[Lorentzian manifold]] $X^{1,2}$, $dim\big(X^{1,2}\big) = 3$,
 
 * 1-dimensional [[Riemannian manifolds]] $L^1$ and $V^1$
 
@@ -58,7 +62,7 @@ of
   $ 
   for [[positive number|positive]] [[real numbers]] $l,v \in \mathbb{R}_+$, respectively.
 
-and that the [[flux density]] has decomposition
+and that the [[flux density]] is constant along the fibers, in that
 
 \[
   \label{DimRedDecompositionOfFluxDensity}
@@ -123,25 +127,28 @@ and such that
 
 \begin{proposition}
   In this situation and in the [[limit of a sequence|limit]]
-  $\ell_v \to 0$, the equations of motion (eq:EoMof5dMCSforDimReduction) become equivalent to 
-  $$
-    \begin{aligned}
-      F_2^{(X X)} & = 0
-      \\
-      F_1^{(X l)} F_1^{(X v)}  & = 0
-      \,,
-      \;\;\;
-      \mathrm{d} F_1^{(X l)} = 0
-      \,,
-      \mathrm{d} F_1^{(X v)} = 0 
-      \mathrlap{\,,}
-    \end{aligned}
-  $$
-  hence are those of 3D [[abelian Chern-Simons theory]] for $F_2^{(X X)}$.
+  $\ell_v \to 0$, the equations of motion (eq:EoMof5dMCSforDimReduction) are equivalent to the following system of equation:
+$$
+  \begin{aligned}
+    &
+    F_2^{(X X)}
+    =
+    - 
+    \tfrac{1}{F_0^{(l v)}}
+    F_1^{(X l)} \wedge F_1^{(X v)}
+    \\
+    &
+    \mathrm{d}_X F_1^{(X v)} = 0,
+    \;
+    \mathrm{d}_X \star_X F_1^{(X v)} = 0,
+    \\
+    &
+    \mathrm{d}_X F_1^{(X l)} = 0
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+In particular, when either of the $F_1^{(X -)}$ vanishes, then $F_2^{(X X)}$ satisfies the equations of motion of 3D [[abelian Chern-Simons theory]], in the limit $\ell_v \to 0$.
 \end{proposition}
-
---- wrong ---
-
 \begin{proof}
 Due to the product spacetime structure (eq:DimRedSpacetime), the Hodge dual of $F_2$ (eq:DimRedDecompositionOfFluxDensity) with respect to $Y^{1,4}$ is expressed in terms of the Hodge star operator $\star_{X}$ associated with $X^{1,2}$ as follows:
 $$
@@ -151,7 +158,7 @@ $$
   &
   \ell_l \ell_v
   \big(
-    \star_X F_2^{(s s)} 
+    \star_X F_2^{(X X)} 
   \big)
   \wedge
   \mathrm{d}l
@@ -161,7 +168,7 @@ $$
   & +
   \tfrac{\ell_v}{\ell_l}
   \big(
-    \star_X F_1^{(s l)}
+    \star_X F_1^{(X l)}
   \big)
   \wedge
   \mathrm{d} v
@@ -169,7 +176,7 @@ $$
   & -
   \tfrac{\ell_l}{\ell_v}
   \big(
-    \star_X F_1^{(s v)}
+    \star_X F_1^{(X v)}
   \big)
   \wedge
   \mathrm{d} l
@@ -177,45 +184,74 @@ $$
   & + 
   \tfrac{1}{\ell_l \ell_v}
   \star_X F_0^{(l v)}
+  \,,
   \end{aligned}
 $$
-Here the first two summands vanish as $\ell_v \to 0$, and the last summand vanishes under the 5D differential $\mathrm{d} = \mathrm{d}_X + \mathrm{d}_l + \mathrm{d}_v$ ($\mathrm{d}_X$ vanishes by degree reasons and $\mathrm{d}_l, \mathrm{d}_v$ by (eq:DimRedDecompositionOfFluxDensity)). Therefore, the whole left hand side of the second EoM (eq:EoMof5dMCSforDimReduction) vanishes in the limit, whence the EoM becomes:
+whence the second equation of motion (eq:EoMof5dMCSforDimReduction) is seen to be equivalent to
+\[
+  \label{SecondEoMInKKComponents}
+  \begin{aligned}
+    \ell_l \ell_v
+    \mathrm{d}_X
+    \big(
+      \star_X F_2^{(X X)} 
+    \big)
+    & =
+    F_2^{(X X)} \wedge F_0^{(l v)}
+    +
+    F_1^{(X l)} \wedge F_1^{(X v)}
+    \\
+    \tfrac{\ell_v}{\ell_l}
+    \mathrm{d}_X
+    \big(
+      \star_X F_1^{(X l)}
+    \big)
+    & =
+    F_2^{(X X)} \wedge F_1^{(X v)}
+    \\
+    \tfrac{\ell_l}{\ell_v}
+    \mathrm{d}_X
+    \big(
+      \star_X F_1^{(X v)}
+    \big)
+    & =
+    - F_2^{(X X)} \wedge F_1^{(X l)}
+    \\
+    \tfrac{1}{\ell_l \ell_v}
+    \underset{ = 0 }{
+      \underbrace{
+        \mathrm{d}_X
+        \big(
+          \star_X F_0^{(l v)}
+        \big)
+    }}
+    & =
+    \tfrac{1}{2}
+    \underset{ =0 }{
+    \underbrace{
+      F_2^{(X X)} \wedge F_2^{(X X)}
+    }}
+    \mathrlap{\,,}
+  \end{aligned}
+\]
+where the terms over the brace vanish by degree reasons.
+
+In the limit $\ell_v \to 0$ the first equation in (eq:SecondEoMInKKComponents) goes to
 $$
   \begin{aligned}
-    0
-    & =
-    F_2^{(X X)} F_1^{(X l)}
-    \\
-    0
-    & =
-    F_2^{(X X)} F_1^{(X v)}
-    \\
-    0 & =
-    F_2^{(X X)} F_0^{(l v)}
-    +
-    F_1^{(X l)} F_1^{(X v)}
-    \mathrlap{\,.}
+    F_2^{(X X)} 
+    \to
+    -
+    \tfrac{1}{F_0^{(l v)}}
+    F_1^{(X l)} \wedge F_1^{(X v)}
   \end{aligned}
 $$
-
-Here the first two equations are jointly equivalent to 
+and thus implies the vanishing of the right hand sides of the second and third in (eq:SecondEoMInKKComponents), whence the only remaining condition expressed by (eq:SecondEoMInKKComponents) is
 $$
-  \underset{x \in X}{\forall}
-  \bigg(
-    F_2^{(X X)}(x) = 0
-    \;\;
-    or
-    \;\;
-    \Big(
-      F_1^{(X l)}(x) = 0
-      \;\;
-      and
-      \;\;
-      F_1^{(X v)}(x) = 0
-    \Big)
-  \bigg)
+  \mathrm{d}_X \big( \star_X F_1^{(X v)} \big)
+  \to 0
   \,.
 $$
-Finally, this together with the third equation, subject to (eq:DimRedFluxCompactification), is equivalent to the claim.
+Finally, the first equation of motion (eq:EoMof5dMCSforDimReduction) says that the component forms (eq:DimRedDecompositionOfFluxDensity) are closed. The closure of the 0-form component $F_0^{(l v)}$ means that it is locally constant, and the closure of $F_1^{(X -)}$ implies that of their wedge product $F_2^{(X X)}$. This completes the proof of the claim.
 \end{proof}
 
