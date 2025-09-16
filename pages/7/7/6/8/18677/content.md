@@ -24,6 +24,17 @@ On [[Minkowski spacetime]] in standard [[coordinates]] this is the condition $\p
 
 In [[BV-BRST formalism]] this gauge (and its variants) is implement by introducing the auxiliary "[[Nakanishi-Lautrup field]]" together with its "[[antighost field]]", see at _[[quantization of Yang-Mills theory]]_.
 
+## Related entries
+
+* [[gauge group]], [[gauge transformation]]
+
+* [[gauge fixing]]
+
+  * [[temporal gauge]]
+
+  * [[Coulomb gauge]]
+
+
 ## References
 
 Named after [[Ludvik Lorenz]] (not to be confused with [[Hendrik Lorentz]] whose name is attached to the [[Lorentz group]]).
