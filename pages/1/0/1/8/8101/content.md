@@ -1,6 +1,9 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Stanley_Deser)
 
+* [[Marc Henneaux]], Rafael I. Nepomechie, Domenico Seminara: *Preface to Fields, Gravity, Strings and Beyond: In Memory of Stanley Deser* &lbrack;[arXiv:2509.10618](https://arxiv.org/abs/2509.10618)&rbrack;
+
+
 ## Selected writings
 
 Making manifest the local [[worldsheet]] [[supersymmetry]] of the [[spinning string]] (via the supersymmetric [[Polyakov action]]):
