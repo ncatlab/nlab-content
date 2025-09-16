@@ -560,7 +560,7 @@ and that the conservation law for $\vec J$, hence the vanishing of its [[diverge
   \,.
 \]
 
-We write $A$ for the [[vector potential]] 1-form on $\Sigma$ which encodes the [[background field|background]] [[electromagnetic field]], and $F \,=\, \mathrm{d}A$ for its [[field strength]], the [[Faraday tensor]]. Since we regard this as a fixed [[background field]], we do not (need to) consider the Maxwell [[Lagrangian density]] $L_{YM} \,\coloneqq\, F \wedge \star F$.
+We write $A$ for the [[vector potential]] 1-form on $\Sigma$ which encodes the [[background field|background]] [[electromagnetic field]], and $F \,=\, \mathrm{d}A$ for its [[field strength]], the [[Faraday tensor]]. Since we regard this as a fixed [[background field]], we do not (need to) consider the [[Maxwell-Chern-Simons theory|Maxwell]] [[Lagrangian density]] $L_{YM} \,\coloneqq\, F \wedge \star F$.
 
 But we do (need to) consider the interaction term between the electromagnetic field and the electric current density, which is 
 
@@ -1048,7 +1048,7 @@ Review:
 
 ### Abelian Maxwell-Chern-Simons theory for superconductivity
 
-Coupling the Chern-Simons term to 1+2D [[Maxwell theory]] for an effective description of [[superconductivity]]:
+On 1+2D [[Maxwell-Chern-Simons theory]] as an [[effective field theory|effective]] description of [[superconductivity]]:
 
 * [[M. Cristina Diamantini]], P. Sodano, [[Carlo A. Trugenberger]]: *Gauge Theories of Josephson Junction Arrays*, Nucl. Phys. B **474** (1996) 641-677 \[<a href="https://doi.org/10.1016/0550-3213(96)00309-4">doi:10.1016/0550-3213(96)00309-4</a>, [arXiv:hep-th/9511168](https://arxiv.org/abs/hep-th/9511168)\]
 
