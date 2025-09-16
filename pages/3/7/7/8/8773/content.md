@@ -36,7 +36,8 @@ The standard abelian form of [[higher dimensional Chern-Simons theory]] in [[dim
 One way this appears is as a "topological mass" term to [[Maxwell theory]] in 5D: 
 
 For [[spacetime]] domain $Y^{1,4}$ a [[Lorentzian manifold]], [[dimension of a manifold|$\mathrm{dim}\big(Y^{1,4}\big) = 5$]], with associated [[Hodge star operator]]
-$$
+\[
+  \label{HodgeStarOnSpacetimeDomain}
   \star_{{}_Y} 
   \;\colon\;
   \Omega^\bullet_{dR}\big(
@@ -47,7 +48,7 @@ $$
     Y^{1,4}
   \big)
   \,,
-$$
+\]
 
 the Lagrangian density of *5D Maxwell-Chern-Simons theory* is proportional to
 
@@ -81,6 +82,9 @@ The [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] of 5D Ch
   \end{aligned}
 \]
 
+These are like [[Maxwell's equations]] where an [[electric current]] is sourced by the gauge field itself.
+
+The structure of the these equations of motion is, up to dimension and form degree, the same as that of the [[supergravity C-field|C-field]] in [[D=11 supergravity]]. The two are closely related under [[double dimensional reduction]] (cf. references [here](D%3D5+supergravity#ReferencesViaMTheoryOnCY3Folds)). 
 
 
 ## Properties
@@ -92,7 +96,7 @@ The [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] of 5D Ch
 
 Consider the [[dimensional reduction]] of the 5D Maxwell-Chern-Simons equations of motion (eq:EoMof5dMCSforDimReduction) to 3D, specifically: 
 
-The case that $Y^{1,4}$ is a [[product manifold]] (with product [[Riemannian metric|metric]])
+Consider the case that the [[spacetime]] $Y^{1,4}$ is a [[product manifold]] (with product [[Riemannian metric|metric]])
 \[
   \label{DimRedSpacetime}
   Y^{1,4}
@@ -100,7 +104,8 @@ The case that $Y^{1,4}$ is a [[product manifold]] (with product [[Riemannian met
   X^{1,2} \times L^1 \times V^1
   \,,
 \]
-of
+
+of:
 
 * a [[Lorentzian manifold]] $X^{1,2}$, $dim\big(X^{1,2}\big) = 3$,
 
@@ -297,16 +302,17 @@ In the limit $\ell_v \to 0$ the first equation in (eq:SecondEoMInKKComponents) g
 $$
   \begin{aligned}
     F_2^{(X X)} 
-    \to
+    \;\to\;
     -
     \tfrac{1}{F_0^{(l v)}}
     F_1^{(X l)} \wedge F_1^{(X v)}
   \end{aligned}
 $$
-and thus implies the vanishing of the right hand sides of the second and third in (eq:SecondEoMInKKComponents), whence the only remaining condition expressed by (eq:SecondEoMInKKComponents) is
+and thus implies the vanishing of the right hand sides of the second and third equations in (eq:SecondEoMInKKComponents), whence the only remaining condition expressed by (eq:SecondEoMInKKComponents) is
 $$
   \mathrm{d}_X \big( \star_X F_1^{(X v)} \big)
-  \to 0
+  \;\to\; 
+  0
   \,.
 $$
 Finally, the first equation of motion (eq:EoMof5dMCSforDimReduction) says that the component forms (eq:DimRedDecompositionOfFluxDensity) are closed. The closure of the 0-form component $F_0^{(l v)}$ means that it is locally constant, and the closure of $F_1^{(X -)}$ implies that of their wedge product $F_2^{(X X)}$. This completes the proof of the claim (eq:5DMCSEoMdimReducedTo3D).
