@@ -68,6 +68,11 @@ As part of the [[schreiber:brane bouquet]]:
 
 * {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], in section 4.2 of _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
+See also:
+
+* [[Igor Bandos]], Unai D. M. Sarraga, Mirian Tsulaia: *Quantum state spectrum and field theory of D0-brane* &lbrack;[arXiv:2509.11324](https://arxiv.org/abs/2509.11324)&rbrack;
+
+
 ### Coincident (non-abelian) D0-branes
 
 For several and (nearly) [[coincident brane|coincident]] D0-branes:
