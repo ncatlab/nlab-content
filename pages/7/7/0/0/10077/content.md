@@ -190,6 +190,10 @@ A duoidal category is the same as an [[intercategory]] with one object and only 
 
 * {#FrancoVasilakopoulou} [[Ignacio López Franco]], [[Christina Vasilakopoulou]], _Duoidal categories, measuring comonoids and enrichment_, [arXiv:2005.01340](https://arxiv.org/abs/2005.01340) (2020).
 
+The relationship between duoidal categories and symmetric monoidal categories is essentially a consequence of:
+
+* [[Alexei Davydov]], [[Ingo Runkel]]: _An alternative description of braided monoidal categories_, Applied Categorical Structures **23** (2015) 279-309 &lbrack;[doi:10.1007/s10485-013-9338-3]( https://doi.org/10.1007/s10485-013-9338-3), [pdf](https://www.math.uni-hamburg.de/home/runkel/PDF/bcat.pdf)&rbrack;
+
 On bimonoids in duoidal categories
 
 * [[Gabriella Böhm]], _(Hopf) bimonoids in duoidal categories_, Chapter in _Hopf algebras and their generalizations from a category theoretical point of view_, Springer Lecture Notes in Mathematics __2226__ (2018) (chapter [doi](https://doi.org/10.1007/978-3-319-98137-6_7))
