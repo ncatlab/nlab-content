@@ -69,7 +69,7 @@ This appears notably in the [[bosonic field|bosonic sector]] of minimal [[D=5 su
 
 The [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] of 5D Chern-Simons-Maxwell theory (eq:LagrangianDensityFor5dMaxwellChernSimons) are (setting $c=1$, for definiteness):
 \[
-  \label{EoMof5dMCSforDimReduction}
+  \label{EoMof5dMCS}
   \begin{aligned}
     \mathrm{d}\, F_2 & = 0 
     \mathrlap{\,,}
@@ -90,11 +90,13 @@ The structure of the these equations of motion is, up to dimension and form degr
 ## Properties
 
 
+
+
 ### Dimensional reduction of 5D Maxwell-Chern-Simons to 3D
  {#DimReductionOf5dMaxwellCSTo3D}
 
 
-Consider the [[dimensional reduction]] of the 5D Maxwell-Chern-Simons equations of motion (eq:EoMof5dMCSforDimReduction) to 3D, specifically: 
+Consider the [[dimensional reduction]] of the 5D Maxwell-Chern-Simons equations of motion (eq:EoMof5dMCS) to 3D, specifically: 
 
 Consider the case that the [[spacetime]] $Y^{1,4}$ is a [[product manifold]] (with product [[Riemannian metric|metric]])
 \[
@@ -186,7 +188,7 @@ and such that
 
 \begin{proposition}
   In this situation and in the [[limit of a sequence|limit]]
-  $\ell_v \to 0$, the equations of motion (eq:EoMof5dMCSforDimReduction) are equivalent to the following system of equations:
+  $\ell_v \to 0$, the equations of motion (eq:EoMof5dMCS) are equivalent to the following system of equations:
 \[
   \label{5DMCSEoMdimReducedTo3D}
   \begin{aligned}
@@ -249,7 +251,7 @@ $$
   \,,
   \end{aligned}
 $$
-whence the second equation of motion (eq:EoMof5dMCSforDimReduction) is seen to be equivalent to
+whence the second equation of motion (eq:EoMof5dMCS) is seen to be equivalent to
 \[
   \label{SecondEoMInKKComponents}
   \begin{aligned}
@@ -315,8 +317,9 @@ $$
   0
   \,.
 $$
-Finally, the first equation of motion (eq:EoMof5dMCSforDimReduction) says that the component forms (eq:DimRedDecompositionOfFluxDensity) are closed. The closure of the 0-form component $F_0^{(l v)}$ means that it is locally constant, and the closure of $F_1^{(X -)}$ implies that of their wedge product $F_2^{(X X)}$. This completes the proof of the claim (eq:5DMCSEoMdimReducedTo3D).
+Finally, the first equation of motion (eq:EoMof5dMCS) says that the component forms (eq:DimRedDecompositionOfFluxDensity) are closed. The closure of the 0-form component $F_0^{(l v)}$ means that it is locally constant, and the closure of $F_1^{(X -)}$ implies that of their wedge product $F_2^{(X X)}$. This completes the proof of the claim (eq:5DMCSEoMdimReducedTo3D).
 \end{proof}
+
 
 
 \linebreak
