@@ -77,6 +77,9 @@ Proposal for a non-abelian and [[supersymmetry|supersymmetric]] [[DBI-action]] f
 
 * [[Igor A. Bandos]], [[Dmitri P. Sorokin]], *Superembedding approach to superstrings and super-$p$-branes*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.10668](https://arxiv.org/abs/2301.10668)&rbrack;
 
+On [[D0-branes]]:
+
+* [[Igor Bandos]], Unai D. M. Sarraga, Mirian Tsulaia: *Quantum state spectrum and field theory of D0-brane* &lbrack;[arXiv:2509.11324](https://arxiv.org/abs/2509.11324)&rbrack;
 
 
 ## Related entries
