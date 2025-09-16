@@ -6,8 +6,7 @@
 
 ***
 
-**Renormalization and UV-complete quantum field theories**
-
-In the practice of physics model building, renormalization, resummation and anomaly cancellation are steps to incrementally repair initially ill-defined Lagrangian quantum field theories. Impressive as this process is, one would rather have concisely defined complete theories to begin with and understand the effective renormalization choices as implied from first principles. As an instructive example, I will first recall renormalization choices for Wilson loop observables in abelian 3D Chern-Simons theory, one due to Polyakov, the other due to Witten. Then I explain how Witten's choice is a derivable consequence of a non-Lagrangian completion of 5D Chern-Simons QFT by means of proper flux-quantization in 2-Cohomotopy.
-
-
+|  | physics normalization | math normalization |
+|--|-----------------------|--------------------|
+| integral flux density | $\tfrac{1}{2\pi} F  | F |
+| exponentiated action | $e^{\mathrm{i}S(A)} = \exp\Big( \mathrm{i} \tfrac{K}{4\pi} \textstyle{\int_{\Sigma^3}} A \wedge \mathrm{d}A \Big)$ | $e^{\mathrm{i}S(A)} = \exp\Big( 2\pi\mathrm{i}  \textstyle{\int_{\Sigma^3}} \tfrac{K}{2}\, A \wedge \mathrm{d}A \Big)$ |
