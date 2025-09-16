@@ -873,6 +873,8 @@ On the other hand, the K-matrix formalism may be the natural description of *mul
 
 ## Related concepts
 
+* [[Maxwell-Chern-Simons theory]]
+
 * [[Chern-Simons theory]]
 
 * [[quantization of D=3 Chern-Simons theory]]
