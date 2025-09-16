@@ -48,7 +48,7 @@ $$
 
 The theory has a 2-form [[flux density]] $F_2$, locally $F_2 = d A$, with a [[5d Chern-Simons theory]] [[action functional]] locally of the form $\propto \int_X F_2 \wedge F_2 \wedge A$ ([Cremmer 1981, p. 276](#Cremmer81), [Chamseddine & Nicolai 1980 (4)](#ChamseddineNicolai80),  cf. [Castellani-D'Auria-Fre (III.5.70)](#CastellaniDAuriaFre), [Gauntlet, Myers & Townsend  1998, p. 3](#GauntlettMyersTownsend98), [GGHPR 02 (2.1)](#GGHPR02), [Bonetti-Grimm-Hohenegger 13](#BonettiGrimmHohenegger13)). 
 
-Hence the [[bosonic field]] sector of $D=5$ supergravity is [[Einstein-Maxwell theory|Einstein-Maxwell]] [[D=5 Chern-Simons theory|Chern-Simons theory]] in 5D, where the [[equation of motion]] for the [[flux density]] is of the non-linear form
+Hence the [[bosonic field]] sector of $D=5$ supergravity is [[Einstein-Maxwell theory|Einstein]]-[[Maxwell-Chern-Simons theory|Maxwell]]-[[D=5 Chern-Simons theory|Chern-Simons theory]] in 5D, where the [[equation of motion]] for the [[flux density]] is of the non-linear form
 
 $$
   \mathrm{d} F_3 
@@ -179,6 +179,10 @@ $$
   * [[D=4 supergravity]]
 
   * **D=5 supergravity**
+
+    * [[D=5 Chern-Simons theory]]
+
+    * [[Maxwell-Chern-Simons theory]]
 
     * [[super 2-brane in 5d]]
 
