@@ -67,7 +67,9 @@ On the [[Wheeler-DeWitt equation]] in relation to the [[Bondi-Metzner-Sachs grou
 
 * [[Marc Henneaux]]: *Wheeler-DeWitt equation and Bondi-Metzner-Sachs (BMS) symmetry* &lbrack;[arXiv:2506.02240](https://arxiv.org/abs/2506.02240)&rbrack;
 
+On [[Stanley Deser]]:
 
+* [[Marc Henneaux]], Rafael I. Nepomechie, Domenico Seminara: *Preface to Fields, Gravity, Strings and Beyond: In Memory of Stanley Deser* &lbrack;[arXiv:2509.10618](https://arxiv.org/abs/2509.10618)&rbrack;
 
 
 ## Related entries
