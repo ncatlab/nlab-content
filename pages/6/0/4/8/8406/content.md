@@ -10,9 +10,9 @@
 +--{: .hide}
 [[!include differential cohomology - contents]]
 =--
-#### Physics
+#### QFT
 +--{: .hide}
-[[!include physicscontents]]
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
