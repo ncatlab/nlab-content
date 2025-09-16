@@ -50,7 +50,7 @@ For [[spacetime]] domain $Y^{1,4}$ a [[Lorentzian manifold]], [[dimension of a m
   \,,
 \]
 
-the Lagrangian density of *5D Maxwell-Chern-Simons theory* is proportional to
+the Lagrangian density of *5D [[Maxwell-Chern-Simons theory]]* is proportional to
 
 \[
   \label{LagrangianDensityFor5dMaxwellChernSimons}
@@ -359,15 +359,16 @@ Finally, the first equation of motion (eq:EoMof5dMCSforDimReduction) says that t
 
 * [[D=5 supergravity]]
 
+
+
+
 ## References
 
+In the context of [[D=5 Yang-Mills theory|$D=5$]] [[quantum electrodynamics]] (5d [[Maxwell-Chern-Simons theory]]):
 
-In the context of [[D=5 Yang-Mills theory|$D=5$]] [[quantum electrodynamics]]:
+* [[Christopher T. Hill]]: *Anomalies, Chern-Simons Terms and Chiral Delocalization in Extra Dimensions*, Phys. Rev. D **73** (2006) 085001 &lbrack;[arXiv:hep-th/0601154](https://arxiv.org/abs/hep-th/0601154), [doi:10.1103/PhysRevD.73.085001](https://doi.org/10.1103/PhysRevD.73.085001)&rbrack;
 
-* Christopher T. Hill: *Anomalies, Chern-Simons Terms and Chiral Delocalization in Extra Dimensions*, Phys. Rev. D **73** (2006) 085001 &lbrack;[arXiv:hep-th/0601154](https://arxiv.org/abs/hep-th/0601154), [doi:10.1103/PhysRevD.73.085001](https://doi.org/10.1103/PhysRevD.73.085001)&rbrack;
-
-
-* Christopher T. Hill: _Physics of $D = 5$ Chern-Simons term_ (2006) &lbrack;[pdf](https://particle.physics.ucdavis.edu/seminars/lib/exe/fetch.php?media=2006:oct:hill.pdf), [[Hill-5dCS.pdf:file]]&rbrack;
+* [[Christopher T. Hill]]: _Physics of $D = 5$ Chern-Simons term_ (2006) &lbrack;[pdf](https://particle.physics.ucdavis.edu/seminars/lib/exe/fetch.php?media=2006:oct:hill.pdf), [[Hill-5dCS.pdf:file]]&rbrack;
 
 Canonical [[phase space]] analysis:
 
