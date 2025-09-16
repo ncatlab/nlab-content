@@ -21,7 +21,7 @@
 
 Under *Maxwell-Chern-Simons theories* one understands [[Lagrangian field theories]] whose [[field (physics)|field]] content is a single [[circle group|$\mathrm{U}(1)$]] [[gauge field]] (locally on [[spacetime]] given by a [[differential 1-form]] $A$ with [[flux density]] $F = \mathrm{d}A$) and whose [[Lagrangian density]] is a [[sum]] of that of (vacuum) [[Maxwell theory]] with that of an [[abelian Chern-Simons theory]].
 
-This means, Over a [[spacetime]] of [[dimension of a manifold|dimension]] $D = 3$, that the Lagrangian density is proportional to
+This means, over a [[spacetime]] of [[dimension of a manifold|dimension]] $D = 3$, that the Lagrangian density is proportional to
 
 $$
   L_{MCS}^{3D}(A)
@@ -44,7 +44,7 @@ $$
   \end{aligned}
 $$
 
-Similarly, there are higher dimensional versions. For instance over a [[spacetime]] of [[dimension of a manifold|dimension]] $D =5$ and using the Lagrangian density of abelian [[D=5 Chern-Simons theory]] one has
+Similarly, there are higher dimensional versions. For instance over a [[spacetime]] of [[dimension of a manifold|dimension]] $D =5$ and using the Lagrangian density of abelian [[D=5 Chern-Simons theory]], one has
  
 $$
   L_{MCS}^{5D}(A)
