@@ -258,6 +258,7 @@ See also:
 
 
 ### Via M-theory on Calabi-Yau 3-folds
+ {#ReferencesViaMTheoryOnCY3Folds}
 
 Discussion via [[KK-compactification]] from [[D=11 supergravity]]/[[M-theory on Calabi-Yau manifolds]]:
 
