@@ -380,6 +380,9 @@ and with both:
 
 * Rongge Xu, Zhi-Hao Zhang, *Categorical descriptions of 1-dimensional gapped phases with abelian onsite symmetries* &lbrack;[arXiv:2205.09656](https://arxiv.org/abs/2205.09656)&rbrack;
 
+* Thibault D. Décoppet, Matthew Yu: *The Classification of $3+1d$ Symmetry Enriched Topological Order* &lbrack;[arXiv:2509.10603](https://arxiv.org/abs/2509.10603)&rbrack;
+
+
 Observation in [[experiment]]:
 
 * Zhihuang Luo, Wenzhao Zhang, Xinfang Nie, Dawei Lu, *Observation of a symmetry-protected topological phase in external magnetic fields* &lbrack;[arXiv2208.05357](https://arxiv.org/abs/2208.05357)&rbrack;
