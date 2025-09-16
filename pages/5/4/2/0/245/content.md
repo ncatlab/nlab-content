@@ -242,7 +242,7 @@ that depends on both a group action and a grading:
 
 * Mizuki Oikawa. *Center construction for group-crossed tensor categories* (2024). ([arXiv:2404.09972](https://arxiv.org/abs/2404.09972)).
 
-On a reformulation of braided monoidal categories in a manner closer to symmetric [[closed categories]] and braided [[skew-monoidal categories]]:
+On a reformulation of braided monoidal categories in a manner closer to symmetric [[closed categories]], braided [[skew-monoidal categories]], and [[duoidal categories]]:
 
 * [[Alexei Davydov]], [[Ingo Runkel]]: _An alternative description of braided monoidal categories_, Applied Categorical Structures **23** (2015) 279-309 &lbrack;[doi:10.1007/s10485-013-9338-3]( https://doi.org/10.1007/s10485-013-9338-3), [pdf](https://www.math.uni-hamburg.de/home/runkel/PDF/bcat.pdf)&rbrack;
 
