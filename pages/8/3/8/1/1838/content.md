@@ -54,7 +54,11 @@ The corresponding [[quantum field theory]] is [[quantum electrodynamics]].
 
 * [[vector meson dominance]]
 
+* [[Maxwell-Chern-Simons theory]]
+
 * [higher Maxwell-type gauge theory](higher+gauge+field#HigherGaugeTheoryOfMaxwellType)
+
+
 
 * [[quantum field theory]]
 
