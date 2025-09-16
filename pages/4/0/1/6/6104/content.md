@@ -1,5 +1,5 @@
 
-Dale Harper Husemöller
+Dale Harper Husemöller (1933-2025)
 
 * [institute page](https://www.haverford.edu/users/dhusemolle)
 
