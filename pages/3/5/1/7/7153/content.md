@@ -33,9 +33,10 @@ $$
 
 * [[gauge fixing]]
 
+  * [[Lorenz gauge]]
+
   * [[temporal gauge]]
 
-  * **Coulomb gauge**
 
 
   
