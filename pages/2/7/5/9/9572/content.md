@@ -201,7 +201,7 @@ Under [[Tannaka duality]], forming the Drinfeld center of a [[category of module
 
 ### $Vec_G$
 
-For $G$ a [[group]], let $Vec_G$ denote the monoidal category of $G$-[[graded vector space|graded vector spaces]]. Then the objects in $\mathcal{Z}(Vec_G )$ consist of pairs $(C,V)$ for $C$ a finite conjugacy class of $G$, along with $V$ a finite [[finite-dimensional vector space|finite]] [[irreducible representation]] of the [[centralizer]] of $g\in C$. This is Example 8.5.4. in [EGNO 2010](#EGNO10).
+For $G$ a [[group]], let $Vec_G$ denote the monoidal category of $G$-[[graded vector space|graded vector spaces]]. Then the objects in $\mathcal{Z}(Vec_G )$ consist of pairs $(C,V)$ for $C$ a finite conjugacy class of $G$, along with $V$ a [[finite-dimensional vector space|finite]] [[irreducible representation]] of the [[centralizer]] of $g\in C$. This is Example 8.5.4. in [EGNO 2010](#EGNO10).
 
 
 
