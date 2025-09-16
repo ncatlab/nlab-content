@@ -1,6 +1,11 @@
-__Alastair Hamilton__ is a mathematician at the University of Connecticut.
 
-* [personal page](http://www.math.uconn.edu/~hamilton)
+__Alastair Hamilton__ is a mathematician at Texas Tech.
+
+
+* [personal page](https://www.math.ttu.edu/~alhamilt/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=169292)
+
 
 ## Selected writings
 
@@ -14,6 +19,15 @@ On the [[integer Heisenberg group]] describing the [[phase space]] of [[abelian 
 On a kind of [[BV-quantization]] of the [[Loday-Quillen-Tsygan theorem]] and relating to the [[large N limit|large $N$-limit]] of [[Chern-Simons theory]]:
 
 * [[Grégory Ginot]], [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _Large $N$ phenomena and quantization of the Loday-Quillen-Tsygan theorem_, Adv. Math. __409A__ (2022) 108631 &lbrack;[arXiv:2108.12109](https://arxiv.org/abs/2108.12109), [doi:10.1016/j.aim.2022.108631](https://doi.org/10.1016/j.aim.2022.108631)&rbrack;
+
+* [[Owen Gwilliam]], [[Alastair Hamilton]], [[Mahmoud Zeinalian]], _A homological approach to the Gaussian Unitary Ensemble_ &lbrack;[arXiv:2206.04256](https://arxiv.org/abs/2206.04256)&rbrack;
+
+On [[effective field theory|effective]] [[noncommutative field theory]] and the [[large N limit]]:
+
+* [[Alastair Hamilton]]: _Noncommutative effective field theories and the large $N$ correspondence_ &lbrack;[arxiv:2505.13678](https://arxiv.org/abs/2505.13678)&rbrack;
+
+
+
 
 See also:
 
