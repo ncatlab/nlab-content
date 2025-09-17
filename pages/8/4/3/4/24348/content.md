@@ -29,7 +29,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Théorie formelle des bicatégories|[[Syméon Bozapalides]]|1976| <a href="/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">Scan</a> | on 2-dimensional [[coends]], [[enriched bicategories]], etc. |
 |Universal coalgebras|[[Thomas Fox]]|1976|[McGill repository](https://escholarship.mcgill.ca/concern/theses/xs55mc798)| |
 |Indicial methods for relative categories|[[Richard Wood]]|1976|[Dalhousie repository](https://dalspace.library.dal.ca//handle/10222/55465)| |
-|Some existence theorems in the theory of doctrines|Robert Blackwell|1976|[UNSW repository](https://unsworks.unsw.edu.au/server/api/core/bitstreams/820c3175-88e9-4201-8f4a-2fecd46f2b24/content)| |
+|Some existence theorems in the theory of doctrines|Robert Blackwell|1976|[UNSW repository](https://unsworks.unsw.edu.au/entities/publication/f72a620d-809d-4434-9a14-4cbaba9db619)| |
 |Abstract Families of Algebras|[[Robert Rosebrugh]]|1977| | |
 |Catégories localisables & Aspects geometriques de la propriete de Radon-Nikodym dans les espaces de Banach|[[Yves Diers]]|1977|[Category Theory Archive](https://github.com/CategoryTheoryArchive/archive/blob/main/resources/1977_diers_cat%C3%A9gories-localisables.pdf)| on [[locally multipresentable categories]], among other things |
 |Cartesianess|[[Susan Niefield]]|1978|[proquest](https://www.proquest.com/docview/302920643)| on [[exponentiable objects]] (there called "cartesian objects") |
