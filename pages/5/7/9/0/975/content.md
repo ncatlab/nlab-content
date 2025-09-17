@@ -18,11 +18,15 @@
 =--
 
 
-This entry provides links related to the book
+This entry is to record the reference:
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], 
+* [[Masaki Kashiwara]], [[Pierre Schapira]]:
+
+  \linebreak
  
   **Categories and Sheaves** 
+
+  \linebreak
   
   Grundlehren der Mathematischen Wissenschaften __332__ 
 
