@@ -16,6 +16,4 @@ Do not include recent references that are likely still to appear. If the author 
 
 ## Related pages
 
-* [[list of category theory papers that never appeared]]
-
-* [[list of theses in category theory]]
+[[!include list of lists]]
