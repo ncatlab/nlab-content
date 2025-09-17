@@ -514,6 +514,9 @@ The observation that the poset of open subsets of a topological space serve as a
 
 * {#Tarski} [[Alfred Tarski]], _Der Aussagenkalk&#252;l und die Topologie_, Fundamenta Mathemeticae 31 (1938), pp. 103&#8211;134.
  
+On the [[internal language]] of [[locally cartesian closed (infinity,1)-categories|locally cartesian closed $(\infty,1)$-categories]] being [[Martin-Löf dependent type theory]] with [[dependent sum types]], [[identity types]], [[dependent product types]], and [[function extensionality]]:
+
+* [[El Mehdi Cherradi]], _Internal languages of locally cartesian closed $(\infty,1)$-categories_ &lbrack;[arXiv:2509.03371](https://arxiv.org/abs/2509.03371)&rbrack;
 
 ### Applications
  {#Applications}
