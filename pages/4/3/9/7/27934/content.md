@@ -1,5 +1,5 @@
 
-* [website](https://www.irif.fr/users/elmehdi/index)
+* [personal page](https://www.irif.fr/users/elmehdi/index)
 
 ## Selected writings
 
