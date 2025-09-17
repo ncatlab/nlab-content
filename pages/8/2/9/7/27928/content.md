@@ -319,6 +319,10 @@ Finally, the first equation of motion (eq:EoMof5dMCS) says that the component fo
 
 ### In 3D 
 
+Original articles:
+
+* [[A. P. Balachandran]], L. Chandar, E. Ercolessi, T. R. Govindarajan, [[Ramamurti Shankar]]: *Maxwell-Chern-Simons electrodynamics on a disk*, International Journal of Modern Physics A **09** 19 (1994) 3417-3441 &lbrack;[doi:10.1142/S0217751X94001357](https://doi.org/10.1142/S0217751X94001357)&rbrack;
+
 Review:
 
 * [[Gerald V. Dunne]]: section 2.2 in: *Aspects of Chern-Simons Theory*, in: *Topological aspects of low dimensional systems*, Les Houches -- École d'Été de Physique Théorique **69**, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1_3](https://doi.org/10.1007/3-540-46637-1_3), [arXiv:hep-th/9902115](https://arxiv.org/abs/hep-th/9902115)&rbrack;
@@ -329,6 +333,9 @@ As an [[effective field theory|effective]] description of [[superconductivity]]:
 
 * [[M. Cristina Diamantini]], P. Sodano, [[Carlo A. Trugenberger]]: *Gauge Theories of Josephson Junction Arrays*, Nucl. Phys. B **474** (1996) 641-677 \[<a href="https://doi.org/10.1016/0550-3213(96)00309-4">doi:10.1016/0550-3213(96)00309-4</a>, [arXiv:hep-th/9511168](https://arxiv.org/abs/hep-th/9511168)\]
 
+With [[boundary field theory|boundaries]]:
+
+* A. Blasi, N. Maggiore, N. Magnoli, S. Storace: *Maxwell-Chern-Simons Theory With Boundary*, Class. Quant. Grav. **27** (2010) 165018 &lbrack;[arXiv:1002.3227](https://arxiv.org/abs/1002.3227), [doi:10.1088/0264-9381/27/16/165018](https://doi.org/10.1088/0264-9381/27/16/165018)&rbrack;
 
 
 ### In 5d
@@ -338,6 +345,12 @@ In the context of [[quantum electrodynamics]] in 5d:
 * [[Christopher T. Hill]]: *Anomalies, Chern-Simons Terms and Chiral Delocalization in Extra Dimensions*, Phys. Rev. D **73** (2006) 085001 &lbrack;[arXiv:hep-th/0601154](https://arxiv.org/abs/hep-th/0601154), [doi:10.1103/PhysRevD.73.085001](https://doi.org/10.1103/PhysRevD.73.085001)&rbrack;
 
 * [[Christopher T. Hill]]: _Physics of $D = 5$ Chern-Simons term_ (2006) &lbrack;[pdf](https://particle.physics.ucdavis.edu/seminars/lib/exe/fetch.php?media=2006:oct:hill.pdf), [[Hill-5dCS.pdf:file]]&rbrack;
+
+With [[QFT with defects|defects]]:
+
+* Jeremias Aguilera Damia, Riccardo Argurio, Eduardo Garcia-Valdecasas: *Non-Invertible Defects in 5d, Boundaries and Holography*, SciPost Phys. **14** 067 (2023) &lbrack;[arXiv:2207.02831](https://arxiv.org/abs/2207.02831), [doi:10.21468/SciPostPhys.14.4.067](https://doi.org/10.21468/SciPostPhys.14.4.067)&rbrack;
+
+
 
 
 [[!redirects Maxwell-Chern-Simons theories]]
