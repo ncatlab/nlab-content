@@ -20,4 +20,4 @@ This page contains a list of textbooks on [[category theory]], sorted in chronol
 
 ## Related pages
 
-[[!include list of lists]]
+[[!include list of lists in category theory]]
