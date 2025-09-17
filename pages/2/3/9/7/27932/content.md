@@ -1,0 +1,5 @@
+* [[list of journals publishing category theory]]
+* [[list of theses in category theory]]
+* [[list of lost manuscripts in category theory]]
+* [[list of category theory papers that never appeared]]
+* [[list of textbooks on category theory]]
