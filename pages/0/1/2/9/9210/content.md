@@ -52,7 +52,7 @@ $$
 and hence the [[symplectic form]] is 
 
 $$
-  \omega = d p_i \wedge d q^i
+  \omega = d p_i \wedge d x^i
   \,.
 $$
 
