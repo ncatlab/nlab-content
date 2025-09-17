@@ -74,7 +74,7 @@ The following list is meant to be roughly in decreasing order of the number of a
 
 ## Related pages
 
-[[!include list of lists]]
+[[!include list of lists in category theory]]
 
 [[!redirects list of journals publishing category theory]]
 [[!redirects list of journals publishing homotopy theory]]
