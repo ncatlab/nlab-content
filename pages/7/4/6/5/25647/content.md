@@ -39,6 +39,6 @@ Do not include recent references that are likely still to appear. If the author 
 
 ## Related pages
 
-[[!include list of lists]]
+[[!include list of lists in category theory]]
 
 [[!redirects to appear]]
