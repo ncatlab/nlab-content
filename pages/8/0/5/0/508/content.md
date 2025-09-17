@@ -105,5 +105,6 @@ The 2nd edition was published in 1997 with two additional chapters:
 category: reference
 
 [[!redirects Categories for Working Mathematician]]
+[[!redirects Categories for the working mathematician]]
 [[!redirects CWM]]
 [[!redirects Categories Work]]
