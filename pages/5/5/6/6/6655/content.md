@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -470,9 +471,11 @@ Discussion of the logical [[axiom of choice]] in dependent type theory is in
 
 * {#Bell} John Bell, _The Axiom of choice in type theory_, Stanford Encyclopedia of philosophy, 2008 ([web](http://plato.stanford.edu/entries/axiom-choice/choice-and-type-theory.html)) 
  
-
 * {#Tait} Tait (1994)
 
+On the [[internal language]] of [[locally cartesian closed (infinity,1)-categories|locally cartesian closed $(\infty,1)$-categories]] being [[Martin-Löf dependent type theory]] with [[dependent sum types]], [[identity types]], [[dependent product types]], and [[function extensionality]]:
+
+* [[El Mehdi Cherradi]], _Internal languages of locally cartesian closed $(\infty,1)$-categories_ &lbrack;[arXiv:2509.03371](https://arxiv.org/abs/2509.03371)&rbrack;
 
 [[!redirects Martin-Löf type theory]]
 [[!redirects Martin-Löf type theories]]
