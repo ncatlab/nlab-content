@@ -700,9 +700,15 @@ Emphasis of the AdS-QCD correspondence at annual String-conferences:
 
 * [[Umut Gürsoy]], *Recent developments in gauge-gravity duality applied to quantum many-body systems*, talk at *[[Strings 2022]]* &lbrack;[indico:4940863](https://indico.cern.ch/event/1085701/contributions/4940863), [pdf](https://indico.cern.ch/event/1085701/contributions/4940863/attachments/2483542/4263813/Slides_Gursoy.pdf), [video](https://ustream.univie.ac.at/media/core.html?id=69bc5a22-b77a-4830-97b8-49c7d6aa1c29) &rbrack;
 
+See also:
+
 * [[Edward Witten]], *Some Milestones in the Study of Confinement*, talk at *[[Prospects in Theoretical Physics 2023 -- Understanding Confinement]]*, IAS (2023) &lbrack;[web](https://www.ias.edu/video/some-milestones-study-confinement), [YT](https://youtu.be/TvIz-6YOdKs)&rbrack;
 
 > [40:13](https://youtu.be/TvIz-6YOdKs?t=2413): "Personally, I think [[AdS/QCD|this setup]] really implies that pure [[Yang-Mills theory|$SU(N)$ gauge theory]] is [[gauge-string duality|dual]] to a [[string theory]]. The 'only' problem is that to get the pure gauge theory we need to make a relevant deformation and then take the limit that the deformation parameter is large..."
+
+* {#Klebanov25} [[Igor Klebanov]], first part of: *Strong Interactions, Confinement, and Strings*, APCTP Colloquium talk (Sep 2025) &lbrack;video:[YT](https://youtu.be/598kvRnhQqg)&rbrack;
+
+
 
 
 #### Top-down models 
