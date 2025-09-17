@@ -1,3 +1,4 @@
+[[!redirects list of lists]]
 * [[list of journals publishing category theory]]
 * [[list of theses in category theory]]
 * [[list of lost manuscripts in category theory]]
