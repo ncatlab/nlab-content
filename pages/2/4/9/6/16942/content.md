@@ -12,6 +12,11 @@
 
 ## Selected writings
 
+On 3D [[Maxwell-Chern-Simons theory]]:
+
+* [[A. P. Balachandran]], L. Chandar, E. Ercolessi, T. R. Govindarajan, [[Ramamurti Shankar]]: *Maxwell-Chern-Simons electrodynamics on a disk*, International Journal of Modern Physics A **09** 19 (1994) 3417-3441 &lbrack;[doi:10.1142/S0217751X94001357](https://doi.org/10.1142/S0217751X94001357)&rbrack;
+
+
 On [[effective field theory]] in [[condensed matter theory]]:
 
 * {#Shankar99} [[Ramamurti Shankar]], _Effective Field Theory in Condensed Matter Physics_, in: _Conceptual Foundations of Quantum Field Theory_, Cambirdge University Press (1999) 47-55 &lbrack;[arXiv:cond-mat/9703210](http://arxiv.org/abs/cond-mat/9703210), [doi:10.1017/CBO9780511470813.007](https://doi.org/10.1017/CBO9780511470813.007)&rbrack;
