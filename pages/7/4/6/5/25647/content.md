@@ -39,8 +39,6 @@ Do not include recent references that are likely still to appear. If the author 
 
 ## Related pages
 
-* [[list of lost manuscripts in category theory]]
-
-* [[list of theses in category theory]]
+[[!include list of lists]]
 
 [[!redirects to appear]]
