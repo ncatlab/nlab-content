@@ -123,7 +123,6 @@ Discussion properly via [[(2,1)-dimensional Euclidean field theory]]:
 
 * [[Daniel Berwick-Evans]], *How do field theories detect the torsion in topological modular forms?*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) $[$[web](Center+for+Quantum+and+Topological+Systems#BerwickEvansMar23), video:[YT](https://www.youtube.com/watch?v=fw7yxFsDmjs)$]$
 
-
 See also:
 
 * [[Ying-Hsuan Lin]], [[Du Pei]], *Holomorphic CFTs and topological modular forms*,  Commun. Math. Phys. **401**  (2023) 325–332 \[<a href="https://arxiv.org/abs/2112.10724">arXiv:2112.10724</a>, <a href="https://doi.org/10.1007/s00220-023-04639-3">doi:10.1007/s00220-023-04639-3</a>\]
@@ -183,8 +182,9 @@ Further discussion in:
 
 * Murad Alim, [[Babak Haghighat]], Michael Hecht, [[Albrecht Klemm]], Marco Rauch, Thomas Wotschke, *Wall-crossing holomorphic anomaly and mock modularity of multiple M5-branes*, Comm. Math. Phys. **339** (2015) 773–814 $[$[arXiv:1012.1608](https://arxiv.org/abs/1012.1608), [doi:10.1007/s00220-015-2436-3](https://doi.org/10.1007/s00220-015-2436-3)$]$
 
-* {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], *4-manifolds and topological modular forms*,  J. High Energ. Phys. **2021** 84 (2021) $[$[arXiv:1811.07884](https://arxiv.org/abs/1811.07884), <a href="https://doi.org/10.1007/JHEP05(2021)084">doi:10.1007/JHEP05(2021)084</a>, [spire:1704312](https://inspirehep.net/literature/1704312)$]$
+* {#GukovPeiPutrovVafa18} [[Sergei Gukov]], [[Du Pei]], [[Pavel Putrov]], [[Cumrun Vafa]], *4-manifolds and topological modular forms*,  J. High Energ. Phys. **2021** 84 (2021) \[<a href="https://doi.org/10.1007/JHEP05(2021)084">doi:10.1007/JHEP05(2021)084</a>, [arXiv:1811.07884](https://arxiv.org/abs/1811.07884), [spire:1704312](https://inspirehep.net/literature/1704312)\]
 
+* [[Sergei Gukov]], Vyacheslav Krushkal, [[Lennart Meier]], [[Du Pei]]: *A new approach to $(3+1)$-dimensional TQFTs via topological modular forms* \[<a href="https://arxiv.org/abs/2509.12402">arXiv:2509.12402</a>\]
 
 
 
