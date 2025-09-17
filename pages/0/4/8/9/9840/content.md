@@ -27,6 +27,11 @@ On the [[spin-statistics theorem]] for [[non-relativistic particles]] via the [[
 
 * [[Aiyalam P. Balachandran]], A. Daughton, Z. C. Gu, [[Giuseppe Marmo]], [[Rafael D. Sorkin]] *Spin statistics theorems without relativity or field theory*, Int. J. Mod. Phys. A **8** (1993) 2993-3044 &lbrack;[doi:10.1142/S0217751X93001223](https://doi.org/10.1142/S0217751X93001223)&rbrack;
 
+On 3D [[Maxwell-Chern-Simons theory]]:
+
+* [[A. P. Balachandran]], L. Chandar, E. Ercolessi, T. R. Govindarajan, [[Ramamurti Shankar]]: *Maxwell-Chern-Simons electrodynamics on a disk*, International Journal of Modern Physics A **09** 19 (1994) 3417-3441 &lbrack;[doi:10.1142/S0217751X94001357](https://doi.org/10.1142/S0217751X94001357)&rbrack;
+
+
 On [[group theory]], [[Lie theory]], [[representation theory]],  and [[Hopf algebras]] for [[physics]]:
 
 * [[A. P. Balachandran]], S. G. Jo, [[Giuseppe Marmo]]: *Group Theory and Hopf Algebras -- Lectures for Physicists*, World Scientific (2010) &lbrack;[doi:10.1142/7872](https://doi.org/10.1142/7872)&rbrack;
