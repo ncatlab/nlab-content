@@ -87,10 +87,14 @@ From [[fully dualizable object|fully dualizable]] [[braided monoidal category|br
 As descriptions of [[topological insulators]]/[[topological phases of matter]]:
 
 * [[Kevin Walker]], [[Zhenghan Wang]], _(3+1)-TQFTs and Topological Insulators_, Frontiers of Physics volume 7, pages 150–159 (2012) ([arXiv:1104.2632](http://arxiv.org/abs/1104.2632), [doi:10.1007/s11467-011-0194-z](https://doi.org/10.1007/s11467-011-0194-z))
-
-  > (see [[Walker-Wang model]])
+  > (cf. *[[Walker-Wang model]]*)
 
 * [[Clement Delcamp]], *Excitation basis for (3+1)d topological phases*, Journal of High Energy Physics **2017** (2017) 128 ([arXiv:1709.04924](https://arxiv.org/abs/1709.04924) <a href="https://doi.org/10.1007/JHEP12(2017)128">doi:10.1007/JHEP12(2017)128</a>)
+
+On 4d TQFT over the [[E-infinity ring]] of [[topological modular forms]]:
+
+* [[Sergei Gukov]], Vyacheslav Krushkal, [[Lennart Meier]], [[Du Pei]]: *A new approach to $(3+1)$-dimensional TQFTs via topological modular forms* &lbrack;[arXiv:2509.12402](https://arxiv.org/abs/2509.12402)&rbrack;
+
 
 \linebreak
 
@@ -100,3 +104,5 @@ Many more references should eventually go here...
 [[!redirects 4-dimensional TQFT]]
 
 [[!redirects 4d TQFTs]]
+[[!redirects 4D TQFT]]
+
