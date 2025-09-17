@@ -164,6 +164,9 @@ A discussion of object classifiers, univalent families, and model category prese
 
 * {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], "Univalence in locally cartesian closed ∞-categories", [arXiv](http://arxiv.org/abs/1208.1749)
 
+On the [[internal language]] of [[locally cartesian closed (infinity,1)-categories|locally cartesian closed $(\infty,1)$-categories]] being [[Martin-Löf dependent type theory]] with [[dependent sum types]], [[identity types]], [[dependent product types]], and [[function extensionality]]:
+
+* [[El Mehdi Cherradi]], _Internal languages of locally cartesian closed $(\infty,1)$-categories_ &lbrack;[arXiv:2509.03371](https://arxiv.org/abs/2509.03371)&rbrack;
 
 [[!redirects locally cartesian closed (∞,1)-category]]
 [[!redirects locally cartesian closed (infinity,1)-categories]]
