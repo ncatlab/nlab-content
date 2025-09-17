@@ -53,6 +53,8 @@ On the [[confinement]]/[[mass gap]]-problem in [[holographic QCD]]:
 
 * {#Klebanov21} [[Igor Klebanov]], *Remarks on Color Confinement*, talk at [Strings 2021](https://www.ictp-saifr.org/strings2021/) ([pdf](https://www.ictp-saifr.org/wp-content/uploads/2021/06/DiscussionConfinementKlebanov.pdf), [video](https://youtu.be/B9NI2LE7d68?t=262))
 
+* {#Klebanov25} [[Igor Klebanov]], first part of *Strong Interactions, Confinement, and Strings*, APCTP Colloquium talk (Sep 2025) &lbrack;video:[YT](https://youtu.be/598kvRnhQqg)&rbrack;
+
 
 category: people
 
