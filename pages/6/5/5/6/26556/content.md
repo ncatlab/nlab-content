@@ -49,6 +49,6 @@ We shall use the conventional terminology of "2-" for strict concepts and "pseud
 * {#Lack05} [[Stephen Lack]], _Limits for lax morphisms_, *Appl. Categ. Structures*,
 13(3):189--203, 2005
 
-* {#LS11} [[Stephen Lack]] and [[Mike Shulman]], _Enhanced 2-categories and limits for lax morphisms_, [arXiv](http://arxiv.org/abs/1104.2111).
+* {#LS11} [[Stephen Lack]] and [[Mike Shulman]], _Enhanced 2-categories and limits for lax morphisms_, 2011, [(arXiv:1104.2111)](http://arxiv.org/abs/1104.2111).
 
 * {#Osmond21} Axel Osmond, _A categorical study of spectral dualities_, PhD thesis, Université Paris Cité, 2021.
