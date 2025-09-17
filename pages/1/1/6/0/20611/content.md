@@ -71,10 +71,10 @@ The following list is meant to be roughly in decreasing order of the number of a
 |Journal|Publisher|
 |-------|---------|
 |[[Comptes rendus hebdomadaires des séances de l'Académie des sciences]]|French Academy of Sciences|
+
 ## Related pages
 
-* [[list of theses in category theory]]
-* [[list of lost manuscripts in category theory]]
+[[!include list of lists]]
 
 [[!redirects list of journals publishing category theory]]
 [[!redirects list of journals publishing homotopy theory]]
