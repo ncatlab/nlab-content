@@ -24,9 +24,17 @@ The contraction rule is not used in all [[logical frameworks]]: In [[substructur
 
 ## Statements
 
-Exactly how this looks depends on the [[logic]] used.
+The exact form this rule takes depends on the [[logic]] used.
+However, a common version of it is given below:
 
-...
+$$
+  \frac{
+    \Gamma, A, A, \Delta \vdash B
+  }{
+    \Gamma, A, \Delta \vdash B
+  }
+  (C)
+$$
 
 ## Semantics
 
