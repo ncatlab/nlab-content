@@ -160,6 +160,9 @@ Each of the above contexts for generalized multicategories requires a monad of a
 * [[relative pseudomonads]] give a way to construct pseudomonads on bicategories like $Prof$.
 * [[double clubs]] and [[double polynomials]] give ways to construct monads on double categories.
 
+## Related pages
+
+- [[operadic category]]
 
 ## References
 
