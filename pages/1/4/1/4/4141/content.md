@@ -8,6 +8,7 @@ Jeremy Butterfield is a Senior Research Fellow at Trinity College, Cambridge and
 
 * [GoogleScholar page](https://scholar.google.co.uk/citations?user=_1XT6RoAAAAJ&hl=en)
 
+
 ## Selected writings
 
 Proposal that the [[Kochen-Specker theorem]] suggests to understand [[quantum physics]] via the [[internal logic]] of 
@@ -24,6 +25,10 @@ Proposal that the [[Kochen-Specker theorem]] suggests to understand [[quantum ph
 with some review and outlook in
 
 * [[Chris Isham]], [[Jeremy Butterfield]], *Some Possible Roles for Topos Theory in Quantum Theory and Quantum Gravity*, Found. Phys. **30** (2000) 1707-1735 &lbrack;[arXiv:gr-qc/9910005](https://arxiv.org/abs/gr-qc/9910005), [doi:10.1023/A:1026406502316](https://doi.org/10.1023/A:1026406502316)&rbrack;
+
+On [[renormalization]] (in [[perturbative quantum field theory]]) for [[philosophy of physics|philosophers of physics]]:
+
+* [[Jeremy Butterfield]], Nazim Bouatta: *Renormalization for Philosophers*, in: *Metaphysics in Contemporary Physics*, Brill (2016) 437–485 &lbrack;[arXiv:1406.4532](https://arxiv.org/abs/1406.4532), [doi:10.1163/9789004310827_018](https://doi.org/10.1163/9789004310827_018)&rbrack;
 
 
 
