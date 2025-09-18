@@ -20,7 +20,9 @@ This entry is to record the reference:
 
   \linebreak
 
-  The Annals of Mathematics, Second Series **99** 1 (1974) 
+  The Annals of Mathematics **99** 1 (1974) 48-69
+
+  [doi:10.2307/1971013](ttps://doi.org/10.2307/1971013)
 
   [jstor:1971013](http://www.jstor.org/stable/1971013)
 
