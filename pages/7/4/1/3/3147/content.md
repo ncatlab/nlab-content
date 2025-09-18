@@ -11,7 +11,7 @@
 =--
 
 
-This entry is about the article
+This entry is to record the reference:
 
 * [[Michael Hopkins]], [[Isadore Singer]]:
 
