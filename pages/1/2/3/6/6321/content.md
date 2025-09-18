@@ -6,7 +6,7 @@
 +--{: .hide}
 [[!include fields and quanta - table]]
 =--
-#### Qunantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
