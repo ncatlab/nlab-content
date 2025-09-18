@@ -62,6 +62,10 @@ and its [[model structure on algebras over an operad]] (with respect to the [[mo
 
 * {#BeniniSchenkelWoike18} [[Marco Benini]], [[Alexander Schenkel]], [[Lukas Woike]], _Homotopy theory of algebraic quantum field theories_, Lett. Math. Phys. 109, 1487-1532 (2019) ([arXiv:1805.08795](https://arxiv.org/abs/1805.08795), [doi:10.1007/s11005-018-01151-x](https://doi.org/10.1007/s11005-018-01151-x))
 
+On [[Pontryagin duality]] for [[Cheeger-Simons differential characters]]:
+
+* [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard J. Szabo]]: *Cheeger-Simons differential characters with compact support and Pontryagin duality*, Communications in Analysis and Geometry **27** 7 (2019) 1473-1522 &lbrack;[arXiv:1511.00324](https://arxiv.org/abs/1511.00324), [doi:10.4310/CAG.2019.v27.n7.a2](https://doi.org/10.4310/CAG.2019.v27.n7.a2)&rbrack;
+
 
 On relating [[homotopy AQFT|homotopy]] [[algebraic quantum field theory]] via [[local nets of observables]] to [[factorization algebras]]:
 
