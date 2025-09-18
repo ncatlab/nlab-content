@@ -405,6 +405,7 @@ In the other direction, smooth sets generalize [[diffeological spaces]] and [[D-
 \end{imagefromfile}
 
 
+
 $\,$
 
 ## Related concepts
@@ -415,20 +416,18 @@ $\,$
 
 ## References
 
-The category of sheaves of the site of smooth manifolds appears as a model for [[homotopy types]] in
+The category of sheaves of the site of smooth manifolds is considered as a model for [[homotopy types]] inL
 
 * [[Denis-Charles Cisinski]], Ch. 6 in: *Faisceaux localement asph&eacute;riques* (2003) &lbrack;[pdf](https://cisinski.app.uni-regensburg.de/mtest2.pdf), [[Cisinski-FaisceauxLocAsph.pdf:file]]&rbrack;
 
 and in the context of [[simplicial homotopy theory]] in:
 
 * [[Daniel Dugger]], section 3.4, from page 29 on in:  _Sheaves and Homotopy Theory_ &lbrack;[web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)&rbrack;
-
   > (the [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36, mentioned before on p. 31)
 
-The equivalent incarnation over the smaller site [[CartSp]] and discussion as a [[cohesive topos]] appears in
+The equivalent incarnation over the [[dense subsite]] [[CartSp]] and the understanding as a [[cohesive topos]] is due to:
 
 * {#Schreiber13} [[Urs Schreiber]], Def. 1.2.16, Def. 1.3.58 of: _[[schreiber:differential cohomology in a cohesive topos]]_ &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
-
 
 {#TerminologyOrigin} The terminology "smooth set" is due to
 
@@ -443,6 +442,8 @@ The equivalent incarnation over the smaller site [[CartSp]] and discussion as a 
 * [[Igor Khavkine]], [[Urs Schreiber]], Def. 2.1 in: _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
 
 further discussed in the context of ([[cohesive (infinity,1)-toposes|higher]], [[singular cohesion|singular]]) [[cohesive toposes]] in:
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], Ex. 1.26 in: *[[schreiber:The Character Map in Non-Abelian Cohomology]]*, World Scientific (2023) &lbrack;[doi:10.1142/13422](https://doi.org/10.1142/13422)&rbrack;
 
 * {#SatiSchreiber25} [[Hisham Sati]], [[Urs Schreiber]], Ntn. 4.3.15 in: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-Bundles]]*, Cambridge University Press (2025) &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
