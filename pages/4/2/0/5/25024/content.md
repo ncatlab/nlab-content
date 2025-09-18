@@ -15,5 +15,10 @@ On [[self-dual higher gauge theory]] on [[Lorentzian spacetimes]] via [[ordinary
 
 * [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
 
+On [[Pontryagin duality]] for [[Cheeger-Simons differential characters]]:
+
+* [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard J. Szabo]]: *Cheeger-Simons differential characters with compact support and Pontryagin duality*, Communications in Analysis and Geometry **27** 7 (2019) 1473-1522 &lbrack;[arXiv:1511.00324](https://arxiv.org/abs/1511.00324), [doi:10.4310/CAG.2019.v27.n7.a2](https://doi.org/10.4310/CAG.2019.v27.n7.a2)&rbrack;
+
+
 
 category: people
