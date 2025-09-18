@@ -7,7 +7,7 @@ Silvan Samuel Schweber (1928-2017)
 
 * [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=21576)
 
-* [inSpire:989575](https://inspirehep.net/authors/989575)
+* [inSpire page](https://inspirehep.net/authors/989575)
 
 
 ## Selected writings
