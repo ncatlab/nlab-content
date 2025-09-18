@@ -118,7 +118,7 @@ where the alternative terminology "dagger-compact" was proposed, and used for th
 
 The examples induced from [[self-duality]]-structure are discussed abstractly in 
 
-* {#Selinger} [[Peter Selinger]], _Autonomous categories in which $A \simeq A^\ast$_, talk at QPL 2010 ([[SelingerSelfDual.pdf:file]])
+* {#Selinger} [[Peter Selinger]], _Autonomous categories in which $A \cong A^\ast$_, talk at QPL 2010 ([[SelingerSelfDual.pdf:file]])
 
 That finite-dimensional Hilbert spaces are "complete for dagger-compactness" is shown in
 
