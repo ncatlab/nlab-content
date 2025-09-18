@@ -4,9 +4,7 @@
 
 
 
+
 ***
 
-|  | physics normalization | math normalization |
-|--|-----------------------|--------------------|
-| integral flux density | $\tfrac{1}{2\pi} F  | F |
-| exponentiated action | $e^{\mathrm{i}S(A)} = \exp\Big( \mathrm{i} \tfrac{K}{4\pi} \textstyle{\int_{\Sigma^3}} A \wedge \mathrm{d}A \Big)$ | $e^{\mathrm{i}S(A)} = \exp\Big( 2\pi\mathrm{i}  \textstyle{\int_{\Sigma^3}} \tfrac{K}{2}\, A \wedge \mathrm{d}A \Big)$ |
+[[ConvenientCategoriesOfSpaces.png:file]]
