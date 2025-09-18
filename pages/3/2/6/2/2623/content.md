@@ -4655,7 +4655,9 @@ Further review:
 
 *  V. Mastropietro, *Renormalization: general theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.11400](https://arxiv.org/abs/2312.11400)&rbrack;
 
-More informal review by and for [[philosophy of physics|philosophers of physics]]:
+More informal (and historical) review by and for [[philosophy of physics|philosophers of physics]]:
+
+* Tian Yu Cao, [[Silvan S. Schweber]]: *The conceptual foundations and the philosophical aspects of renormalization theory*, Synthese **97** (1993) 33–108 &lbrack;[doi:10.1007/BF01255832](https://doi.org/10.1007/BF01255832)&rbrack;
 
 * [[Jeremy Butterfield]], Nazim Bouatta: *Renormalization for Philosophers*, in: *Metaphysics in Contemporary Physics*, Brill (2016) 437–485 &lbrack;[arXiv:1406.4532](https://arxiv.org/abs/1406.4532), [doi:10.1163/9789004310827_018](https://doi.org/10.1163/9789004310827_018)&rbrack;
 
