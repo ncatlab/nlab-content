@@ -304,30 +304,26 @@ The concepts of _[[category]]_, _[[functor]]_ and _[[natural transformation]]_ w
 
 apparently (see [there](Hans+Freudenthal#AsAForerunnerOfCategoryTheory)) taking inspiration from:
 
-* {#Freudenthal37} [[Hans Freudenthal]], *Entwicklungen von Räumen und ihren Gruppen*, Comp. Math. **4** (1937) 145-234. &lbrack;[numdam](http://www.numdam.org/item/CM_1937__4__145_0/)&rbrack;  
+* {#Freudenthal37} [[Hans Freudenthal]], *Entwicklungen von Räumen und ihren Gruppen*, Comp. Math. **4** (1937) 145-234 &lbrack;[numdam:CM_1937__4__145_0](http://www.numdam.org/item/CM_1937__4__145_0)&rbrack;  
 
-The rational for introducing the concept of [[categories]] was to introduce the concept of [[functors]], and the reason for introducing functors was to introduce the concept of [[natural transformations]] (more specifically [[natural equivalences]]) in order to make precise the meaning of "natural" means in [[mathematics]] and specifically in [[algebraic topology]]:
+The rational for introducing the concept of [[categories]] was to introduce the concept of [[functors]], and the reason for introducing functors was to introduce the concept of [[natural transformations]] (more specifically [[natural equivalences]]) in order to make precise the meaning of "natural" in [[mathematics]] and specifically in [[algebraic topology]], concretely for the example case of [[dual objects]]:
 
-> If [[topology]] were publicly defined as the study of families of sets closed under finite intersection and infinite unions a serious disservice would be perpetrated on embryonic students of topology. The mathematical correctness of such a definition reveals nothing about topology except that its basic axioms can be made quite simple. And with category theory we are confronted with the same pedagogical problem. The basic axioms, which we will shortly be forced to give, are much too simple.
+> $[$[Freyd 64, page 1](#Freyd64):\] If [[topology]] were publicly defined as the study of families of sets closed under finite intersection and infinite unions a serious disservice would be perpetrated on embryonic students of topology. The mathematical correctness of such a definition reveals nothing about topology except that its basic axioms can be made quite simple. And with category theory we are confronted with the same pedagogical problem. The basic axioms, which we will shortly be forced to give, are much too simple.
 
 > A better (albeit not perfect) description of topology is that it is the study of continuous maps; and category theory is likewise better described as the theory of functors. Both descriptions are logically inadmissible as initial definitions, but they more accurately reflect both the present and the historical motivations of the subjects. 
 
 > {#CategoriesForNaturalTransformations} It is not too misleading, at least historically, to say that categories are what one must define in order to define natural transformations. 
 
-> (from [Freyd 64, page 1](#Freyd64))
-
 and
 
-> {#CategoriesForNaturalTransformationsII} Category theory is an embodiment of Klein's dictum that it is the maps that count in mathematics. If the dictum is true, then it is the functors between categories that are important, not the categories. And such is the case. Indeed, the notion of category is best excused as that which is necessary in order to have the notion of functor. But the progression does not stop here. There are maps between functors, and they are called natural transformations. And it was in order to define these that Eilenberg and MacLane first defined functors. 
-
-> (from [Freyd 65, beginning of Part Two](#Freyd65))
+> {#CategoriesForNaturalTransformationsII} $[$[Freyd 65, beginning of Part Two](#Freyd65)\]: Category theory is an embodiment of Klein's dictum that it is the maps that count in mathematics. If the dictum is true, then it is the functors between categories that are important, not the categories. And such is the case. Indeed, the notion of category is best excused as that which is necessary in order to have the notion of functor. But the progression does not stop here. There are maps between functors, and they are called natural transformations. And it was in order to define these that Eilenberg and MacLane first defined functors. 
 
 
-The paper [Eilenberg-Maclane 45](#EilenbergMacLane45) was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Since then category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
+The article by [Eilenberg & Maclane 1945](#EilenbergMacLane45) was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content. Since then category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
 
-This and much more history is recalled in
+This and much more history is recalled in:
 
-* {#MacLaneHistory} [[Saunders MacLane]], _Concepts and Categories in Perspective_, AMS ([pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf))
+* {#MacLaneHistory} [[Saunders MacLane]]: *Concepts and Categories in Perspective*, in: *A Century of Mathematics in America, Part I*, Am. Math. Soc. (1988) 323–366. \[<a href="https://www.ams.org/publicoutreach/math-history/hmath1-index">ISBN 0-8218-0124-4</a>, <a href="https://www.ams.org/publicoutreach/math-history/hmath1-maclane25.pdf">pdf<a>\]
 
 * {#Krömer07} [[Ralf Krömer]]: *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32** (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
 
@@ -341,7 +337,12 @@ See also:
 
 * [[Jean-Pierre Marquis]], _From a Geometrical Point of View: A Study of the History and Philosophy of Category Theory_, Springer (2009) &lbrack;[doi:10.1007/978-1-4020-9384-5](https://doi.org/10.1007/978-1-4020-9384-5)&rbrack;
 
+
+
 [[!include category theory -- references]]
+
+
+
 
 [[!redirects abstract nonsense]]
 [[!redirects general abstract nonsense]]
