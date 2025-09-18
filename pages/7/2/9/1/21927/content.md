@@ -5,6 +5,8 @@
 
 * [[wide pullback]]
 
+* [[weak pullback]], [[quasi-pullback]]
+
 * [[lax pullback]], [[comma object]] ([[lax limit]] over a cospan)
 
 * [[(∞,1)-pullback]], [[homotopy pullback]], ([[(∞,1)-limit]] over a cospan)
