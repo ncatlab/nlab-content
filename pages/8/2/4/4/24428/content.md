@@ -21,9 +21,19 @@ A [[theorem]] due to [Fox 1976](#Fox76) characterizes the [[cartesian products]]
 
 ## Statement
 
+Fox's original theorem is as follows.
+
 \begin{theorem}
-A [[symmetric monoidal category]] is [[cartesian monoidal category|cartesian]] if and only if it is [[isomorphic]] to its own category of [[cocommutative comonoid|cocommutative]] [[comonoids]]. Thus every object is equipped with a unique cocommutative comonoid structure, and these structures are respected by all maps.
+  The forgetful functor from the category of [[cartesian monoidal categories]] and [[strict monoidal functors]] into the category of [[symmetric monoidal categories]] and strict monoidal functors admits a [[right adjoint]], given by the construction of the category of [[cocommutative comonoids]].
 \end{theorem}
+
+(Note that the forgetful functor also has a [[left adjoint]], by [[2-monad|two-dimensional monad theory]].)
+
+However, the following corollary (and variants) are often also referred to simply as "Fox's theorem":
+
+\begin{corollary}
+A [[symmetric monoidal category]] is [[cartesian monoidal category|cartesian]] if and only if it is [[isomorphic]] to its own category of [[cocommutative comonoid|cocommutative]] [[comonoids]]. Thus every object is equipped with a unique cocommutative comonoid structure, and these structures are respected by all maps.
+\end{corollary}
 
 ## Related concepts
 
