@@ -17,8 +17,6 @@
 =--
 =--
 
-
-# $Rel$
 * table of contents
 {: toc}
 
