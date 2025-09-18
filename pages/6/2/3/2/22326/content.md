@@ -75,6 +75,9 @@ See also:
 
 * [[Mohammad R. Garousi]]: *Type IIA supergravity at one loop: $\alpha'^3$ terms in the metric-dilaton-RR one-form sector* \[<a href="https://arxiv.org/abs/2508.10529">arXiv:2508.10529</a>\]
 
+* [[Mohammad R. Garousi]]: *Dimensional reduction of the M-theory Chern-Simons term at order $\ell_p^6$* \[<a href="https://arxiv.org/abs/2509.13726">arXiv:2509.13726</a>\]
+
+
 
 
 
