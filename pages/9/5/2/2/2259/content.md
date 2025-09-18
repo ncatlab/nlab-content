@@ -86,9 +86,9 @@ On [[philosophy of mathematics]]:
 
 * _Mathematics form and function_, Springer 1986
 
-On some history of mathematics:
+On some history of [[mathematics]] and [[category theory]]:
 
-* {#MacLane88} [[Saunders Mac Lane]]: *Concepts and Categories in Perspective*, in: P. Duren, *A century of mathematics in America* Part 1, AMS (1988) 323-365. &lbrack;[pdf](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), [ISBN:0-8218-0124-4](https://www.ams.org/publicoutreach/math-history/hmath1-index)&rbrack; 
+* {#MacLaneHistory} [[Saunders MacLane]]: *Concepts and Categories in Perspective*, in: *A Century of Mathematics in America, Part I* , Am. Math. Soc. (1988) 323–366. \[<a href="https://www.ams.org/publicoutreach/math-history/hmath1-index">ISBN 0-8218-0124-4</a>, <a href="https://www.ams.org/publicoutreach/math-history/hmath1-maclane25.pdf">pdf<a>\]
 
 On [[sheaf and topos theory]]:
 
