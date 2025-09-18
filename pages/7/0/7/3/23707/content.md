@@ -37,7 +37,7 @@ such that
 
 ## See also ##
 
-* [[dagger category]]
+* [[dagger compact category]]
 
 * [[monoidal dagger category]]
 
