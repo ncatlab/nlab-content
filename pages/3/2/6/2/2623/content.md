@@ -4655,6 +4655,13 @@ Further review:
 
 *  V. Mastropietro, *Renormalization: general theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.11400](https://arxiv.org/abs/2312.11400)&rbrack;
 
+More informal review by and for [[philosophy of physics|philosophers of physics]]:
+
+* [[Jeremy Butterfield]], Nazim Bouatta: *Renormalization for Philosophers*, in: *Metaphysics in Contemporary Physics*, Brill (2016) 437–485 &lbrack;[arXiv:1406.4532](https://arxiv.org/abs/1406.4532), [doi:10.1163/9789004310827_018](https://doi.org/10.1163/9789004310827_018)&rbrack;
+
+* Karen Crowther, Niels Linnemann: *Renormalizability, fundamentality and a final theory: The role of UV-completion in the search for quantum gravity*, Brit. J. Phil. Sci. **70** 2 (2019) 377-406 &lbrack;[doi:10.1093/bjps/axx052](https://doi.org/10.1093/bjps/axx052), [arXiv:1705.06777](https://arxiv.org/abs/1705.06777)&rbrack;
+
+
 
 ### In causal perturbation theory
 
