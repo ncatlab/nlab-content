@@ -9,6 +9,11 @@
 
 ## Selected writings
 
+On [[Donaldson-Thomas theory]] and [[Hilbert schemes]]:
+
+* Michele Cirafici, Annamaria Sinkovics, [[Richard Szabo]], _Cohomological gauge theory, quiver matrix models and Donaldson-Thomas theory_, Nucl. Phys. B809: 452-518, 2009 ([arXiv:0803.4188](https://arxiv.org/abs/0803.4188))
+
+
 On abelian [[higher gauge theory]] via [[Whitehead-generalized cohomology|Whitehead-generalized]] [[differential cohomology]]:
 
 * [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
@@ -26,9 +31,13 @@ Discussion of [[twisted cohomology|twists]] of [[KR-theory]] by [[HZR-theory]] i
 * [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Sign choices for orientifolds_ ([arXiv:1905.06041](https://arxiv.org/abs/1905.06041)) 
 
 
-On [[Donaldson-Thomas theory]] and [[Hilbert schemes]]:
 
-* Michele Cirafici, Annamaria Sinkovics, [[Richard Szabo]], _Cohomological gauge theory, quiver matrix models and Donaldson-Thomas theory_, Nucl. Phys. B809: 452-518, 2009 ([arXiv:0803.4188](https://arxiv.org/abs/0803.4188))
+
+On [[Pontryagin duality]] for [[Cheeger-Simons differential characters]]:
+
+* [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard J. Szabo]]: *Cheeger-Simons differential characters with compact support and Pontryagin duality*, Communications in Analysis and Geometry **27** 7 (2019) 1473-1522 &lbrack;[arXiv:1511.00324](https://arxiv.org/abs/1511.00324), [doi:10.4310/CAG.2019.v27.n7.a2](https://doi.org/10.4310/CAG.2019.v27.n7.a2)&rbrack;
+
+
 
 On the [[first-order formulation of gravity]] via [[L-infinity algebras|$L_\infty$-algebras]]:
 
