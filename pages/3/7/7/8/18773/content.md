@@ -45,11 +45,11 @@ The [[renormalization]] process was first suggested in
 
 * {#Feynman66} [[Richard Feynman]], Nobel lecture, reproduced in Science *153* 699 (1966)
 
-* {#Feynman85} [[Richard Feynman]], _[QED: The Strange Theory of Light and Matter](https://en.wikipedia.org/wiki/QED:_The_Strange_Theory_of_Light_and_Matter)_, 1985 
+* {#Feynman85} [[Richard Feynman]], _[QED: The Strange Theory of Light and Matter](https://en.wikipedia.org/wiki/QED:_The_Strange_Theory_of_Light_and_Matter)_ (1985) 
 
-* Silvan Schweber, _QED and the men who made it: Dyson, Feynman Schwinger and Tomonaga_, Princeton Series in Physics, 1994
+* [[Silvan S. Schweber]]: *QED and the men who made it: Dyson, Feynman Schwinger and Tomonaga*, Princeton University Press (1994) &lbrack;[ISBN:9780691033273](https://press.princeton.edu/books/paperback/9780691033273/qed-and-the-men-who-made-it), [jstor:j.ctv10crg18](https://www.jstor.org/stable/j.ctv10crg18), [pdf](https://api.pageplace.de/preview/DT0400.9780691213286_A39602877/preview-9780691213286_A39602877.pdf)&rbrack;
 
-* {#Scharf95} [[Günter Scharf]], section 0.0 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
+* {#Scharf95} [[Günter Scharf]], section 0.0 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Springer (1995)
 
 
 
