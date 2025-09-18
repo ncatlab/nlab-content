@@ -46,5 +46,11 @@ On [[groupoids]] and their [[representation theory]] ([[groupoid representations
 
 * [[Alberto Ibort]], [[Miguel A. Rodriguez]]: *An Introduction to Groups, Groupoids and Their Representations*, CRC Press (2021) &lbrack;[ISBN:9781032086767](https://www.routledge.com/An-Introduction-to-Groups-Groupoids-and-Their-Representations/Ibort-Rodriguez/p/book/9781032086767?srsltid=AfmBOoqc0EH7Qjc1_0C-TYQtUbhTWpdb3Juy61vwE9TfRC5oaJwjlYfN), [doi:10.1201/b22019](https://doi.org/10.1201/b22019)&rbrack;
 
+On [[smooth sets]] as a foundation for [[classical field theory]]/[[variational calculus]]:
+
+* [[Alberto Ibort]], Arnau Mas: *Smooth sets of fields: A pedagogical introduction*, Geometric Mechanics (2025) &lbrack;[doi:10.1142/S2972458925400052](https://doi.org/10.1142/S2972458925400052), [ResearchGate:394210704](https://www.researchgate.net/publication/394210704)&rbrack;
+
+
+
 
 category: people
