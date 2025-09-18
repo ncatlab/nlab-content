@@ -438,6 +438,10 @@ Exposition:
 
 * [[Grigorios Giotopoulos]]: *Sheaf Topos Theory: A powerful setting for Lagrangian Field Theory* &lbrack;[arXiv:2504.08095](https://arxiv.org/abs/2504.08095)&rbrack;
 
+* [[Alberto Ibort]], Arnau Mas: *Smooth sets of fields: A pedagogical introduction*, Geometric Mechanics (2025) &lbrack;[doi:10.1142/S2972458925400052](https://doi.org/10.1142/S2972458925400052), [ResearchGate:394210704](https://www.researchgate.net/publication/394210704)&rbrack;
+
+
+
 
 In analogy with smooth sets one may consider "D-topological sets" (among [[D-topological infinity-groupoids]]), forming the sheaf topos over the site $Cart_{top}$ of Cartesian spaces with *continuous* maps between them.
 
