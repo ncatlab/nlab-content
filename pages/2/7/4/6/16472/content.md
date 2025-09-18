@@ -15,6 +15,10 @@ On [[self-dual higher gauge theory]] on [[Lorentzian spacetimes]] via [[ordinary
 
 * [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Abelian duality on globally hyperbolic spacetimes_, Commun. Math. Phys. **349** (2017) 361-392 &lbrack;[arXiv:1511.00316](https://arxiv.org/abs/1511.00316), [doi:10.1007/s00220-016-2669-9](https://doi.org/10.1007/s00220-016-2669-9)&rbrack;
 
+On [[Pontryagin duality]] for [[Cheeger-Simons differential characters]]:
+
+* [[Christian Becker]], [[Marco Benini]], [[Alexander Schenkel]], [[Richard J. Szabo]]: *Cheeger-Simons differential characters with compact support and Pontryagin duality*, Communications in Analysis and Geometry **27** 7 (2019) 1473-1522 &lbrack;[arXiv:1511.00324](https://arxiv.org/abs/1511.00324), [doi:10.4310/CAG.2019.v27.n7.a2](https://doi.org/10.4310/CAG.2019.v27.n7.a2)&rbrack;
+
 
 On relating [[homotopy AQFT|homotopy]] [[algebraic quantum field theory]] via [[local nets of observables]] to [[factorization algebras]]:
 
@@ -26,6 +30,7 @@ On relating [[homotopy AQFT|homotopy]] [[algebraic quantum field theory]] via [[
 
 * [[Marco Benini]], [[Victor Carmona]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]]: *On the equivalence of AQFTs and prefactorization algebras* &lbrack;[arXiv:2412.07318](https://arxiv.org/abs/2412.07318)&rbrack;
 
+
 Discussion of [[orbifold|orbifolding]] via [[categorification]], in [[homotopical algebraic quantum field theory]]:
 
 * [[Marco Benini]], [[Marco Perin]], [[Alexander Schenkel]], [[Lukas Woike]], _Categorification of algebraic quantum field theories_, Lett. Math. Phys. 2021 ([arXiv:2003.13713](https://arxiv.org/abs/2003.13713))
@@ -35,6 +40,7 @@ Discussion of [[orbifold|orbifolding]] via [[categorification]], in [[homotopica
 On rigorous [[semi-topological 4d Chern-Simons theory]] via [[homotopical AQFT]]:
 
 * [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ ([arXiv:2008.01829](https://arxiv.org/abs/2008.01829))
+
 
 On 1d [[AQFT]] and [[smooth stacks]]:
 
@@ -46,9 +52,11 @@ On [[non-perturbative quantum field theory|non-perturbative]] aspects of the [[B
 
 * [[Marco Benini]], [[Pavel Safronov]], [[Alexander Schenkel]], *Classical BV formalism for group actions* ([arXiv:2104.14886](https://arxiv.org/abs/2104.14886))
 
+
 On [[2d CFT]] in terms of [[AQFT on curved spacetimes]]:
 
 * [[Marco Benini]], [[Luca Giorgetti]], [[Alexander Schenkel]], *A skeletal model for 2d conformal AQFTs* ([arXiv:2111.01837](https://arxiv.org/abs/2111.01837))
+
 
 On the [[time slice axiom]] in [[homotopical AQFT]]:
 
@@ -58,13 +66,16 @@ On [[model structure on modules in a monoidal model category|model structure on 
 
 * Angelos Anastopoulos, [[Marco Benini]], *Homotopy theory of net representations*, Rev. Math. Phys. &lbrack;[arXiv:2201.06464](https://arxiv.org/abs/2201.06464), [doi:10.1142/S0129055X23500083](https://doi.org/10.1142/S0129055X23500083)&rbrack;
 
+
 Formulation of the [[CS/WZW correspondence]] in [[homotopical AQFT]]:
 
 * [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *The linear CS/WZW bulk/boundary system in AQFT*, Annales Henri Poincaré (2023) &lbrack;[arXiv:2302.06990](https://arxiv.org/abs/2302.06990)&rbrack;
 
+
 On [[AQFT on curved spacetimes]] in terms of [[stacks]] of [[categories]] ([[2-sheaves]]) of field theories :
 
 * [[Marco Benini]], [[Alastair Grant-Stuart]], [[Alexander Schenkel]], *Haag-Kastler stacks* &lbrack;[arXiv:2404.14510](https://arxiv.org/abs/2404.14510)&rbrack;
+
 
 Discussion of [[lattice gauge theory|lattice]] [[2d Yang-Mills theory]] via [[derived algebraic geometry]] and [[factorization algebra|prefactorization algebras]]:
 
