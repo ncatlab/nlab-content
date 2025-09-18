@@ -87,11 +87,14 @@ A comprehensive, albeit informal, theory of QED and of [[perturbative quantum fi
 
 * [[Schwinger-Tomonaga-Feynman-Dyson]], 1940s
 
-For more on the history see
+More on the history:
 
-* [[Rudolf Haag]], _Early papers on quantum field theory (1992-1930)_ ([pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-70078-1%2F1%2F1.pdf))
+* [[Rudolf Haag]], _Early papers on quantum field theory (1992-1930)_ &lbrack;[pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-70078-1%2F1%2F1.pdf)&rbrack;
 
-and ([Scharf 95, section 0.0](#Scharf95)).
+* [Scharf 95, section 0.0](#Scharf95)
+
+* [[Silvan S. Schweber]]: *QED and the men who made it: Dyson, Feynman Schwinger and Tomonaga*, Princeton University Press (1994) &lbrack;[ISBN:9780691033273](https://press.princeton.edu/books/paperback/9780691033273/qed-and-the-men-who-made-it), [jstor:j.ctv10crg18](https://www.jstor.org/stable/j.ctv10crg18), [pdf](https://api.pageplace.de/preview/DT0400.9780691213286_A39602877/preview-9780691213286_A39602877.pdf)&rbrack;
+  > (cf. *[[Schwinger-Tomonaga-Feynman-Dyson]]*)
 
 On [[quantum electrodynamics]] via [[discretized light-cone quantization]]:
 
