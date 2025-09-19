@@ -1,6 +1,12 @@
 
 
-* [webpage](http://www.math.ucla.edu/~liu/)
+* [personal page](http://www.math.ucla.edu/~liu/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Kefeng_Liu)
+
+* [inSpire page](https://inspirehep.net/authors/1272485)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=2V-_ZuoAAAAJ&hl=zh-CN)
 
 ## Selected writings
 
