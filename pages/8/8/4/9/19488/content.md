@@ -25,6 +25,12 @@ For the moment, for more see at _[[geometry of physics]]_ the chapters _[[geomet
 
 [[!include geometries of physics -- table]]
 
+
+## References
+
+* {#KhavkineSchreiber17} [[Igor Khavkine]], [[Urs Schreiber]]: _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
+
+
 [[!redirects formal smooth sets]]
 
 [[!redirects FormalSmoothSet]]
