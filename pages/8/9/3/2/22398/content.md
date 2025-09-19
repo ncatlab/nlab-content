@@ -12,9 +12,9 @@ is a [[closed monoidal category]],
 the [[dual object]] to $M$
 is necessarily $Hom_R(M,R)$.
 
-Furthermore, the abstract [[evaluation map]]
+Furthermore, the [[dualizable object|counit map]]
 $$Hom_R(M,R)\otimes_R M\to R$$
-must coincide with the map induced by the [[bilinear map]]
+must coincide with the counit map of the [[closed category]] structure, given by the map induced by the [[bilinear map]]
 $$Hom_R(M,R)\times_R M\to R$$
 that sends $(f,m)$ to $f(m)$.
 
@@ -31,7 +31,7 @@ and finite [[direct sums]].
 Any [[finitely generated]] [[projective module]]
 is a [[retract]] of $R^n$ for some $n\ge0$,
 so to show that
-[[finitely generated]] [[projective modules]] are [[dualizable]],
+[[finitely generated]] [[projective modules]] are [[dualizable objects]],
 it suffices to observe that $R$ is dualizable as an $R$-[[module]].
 
 Conversely, we show that [[dualizable objects]] are [[finitely generated]]
@@ -54,11 +54,11 @@ $$\sum_{i\in I} r(m_i) f_i = r, \qquad r\in Hom_R(M,R).$$
 The first identity implies that $m_i$ ($i\in I$) generate $M$ as an $R$-module,
 i.e., $M$ is [[finitely generated]].
 
-Consider the map $a: R^I\to M$ that sends $(r_i)_{i\in I}$
-to $\sum_{i\in I} m_i r_i$.
+Consider the map $a: R^I\to M$ that sends $(s_i)_{i\in I}$
+to $\sum_{i\in I} m_i s_i$.
 Consider also the map $b: M\to R^I$ that sends $p\in M$
 to $(f_i(p))_{i\in I}\in R^I$.
-The first triangle identity now reads $b a = id_M$.
+The first triangle identity now reads $a b = id_M$.
 Thus, $M$ is a retract of $R^I$, i.e., $M$ is a [[projective module]].
 \end{proof}
 
