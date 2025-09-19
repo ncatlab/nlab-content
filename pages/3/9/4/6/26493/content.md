@@ -26,7 +26,28 @@ The 2-category [[Cat|$Cat$]] of [[categories]] embeds [[fully faithfully]] into 
 C_\blacktriangleright(X_1, \ldots, X_n; Y) := C(X_1, Y) \times \cdots \times C(X_n, Y)
 \end{equation}
 
-A multicategory isomorphic to one induced by the discrete cocones construction is called a **cocartesian multicategory** (since it abstracts the universal property of cocartesian monoidal category) or a **sequential multicategory** (since its multimorphisms are sequences of unary morphisms).
+A multicategory is isomorphic to one induced by the discrete cocones construction exactly when it is a [[generalized multicategory]] relative to the [[monad]] on [[Prof]] whose algebras are categories with (strict) finite coproducts, i.e. a "virtual cocartesian category".  Thus, such a multicategory is called a a *cocartesian multicategory**.
+
+An older name for a cocartesian multicategory is a **sequential multicategory**, since its multimorphisms are sequences of unary morphisms.
+
+## Equivalence of definitions
+
+\begin{theorem}
+For a [[symmetric multicategory]] $E$ the following are equivalent.
+
+1. $E \cong C_\blacktriangleright$ for some category $C$ (which then must be the category of unary morphisms in $E$).
+2. Every object of $E$ is a [[monoid object]], in a way that commutes with all the multimorphisms of $E$.
+3. $E$ is equipped with
+
+   * "coduplication" or "codiagonal" or "cocontraction" operations
+     $$E(\dots, X, \dots) \to E(\dots, X,X,\dots)$$
+   * "insertion" or "strengthening" operations
+     $$E(\dots, X,\dots) \to E(\dots, \dots)$$
+
+   satisfying certain evident axioms.
+4. $E$ has the structure of a virtual $T$-algebra, where $T$ is the monad on [[Prof]] whose algebras are cocartesian strict monoidal categories.
+
+\end{theorem}
 
 ## Properties
 
