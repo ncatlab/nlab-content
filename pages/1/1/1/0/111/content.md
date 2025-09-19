@@ -340,60 +340,8 @@ Other standard operations on categories include
 
 ## References
 
-(For more extensive references see at _[[category theory]]_.)
+[[!include category theory -- references]]
 
-The concept originates in
-
-* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _[[General Theory of Natural Equivalences]]_,  Transactions of the American Mathematical Society **58** 2 (1945) 231-294 &lbrack;[doi:10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6), [jstor:1990284](http://www.jstor.org/stable/1990284)&rbrack;
-
-The definition "with a single set of morphisms" (i.e. as [[internal categories]] in [[Set]]) appears in:
-
-* {#Grothendieck61} [[Alexander Grothendieck]], Section 4 of: _Techniques de construction et théorèmes d'existence en géométrie algébrique III: préschémas quotients_, Séminaire Bourbaki: années 1960/61, exposés 205-222, Séminaire Bourbaki, no. 6 (1961), Exposé no. 212,   ([numdam:SB_1960-1961__6__99_0](http://www.numdam.org/item/?id=SB_1960-1961__6__99_0), [pdf](http://www.numdam.org/item/SB_1960-1961__6__99_0.pdf))
-
-
-Textbook accounts:
-
-* {#MacLane97} [[Saunders MacLane]], *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**, Springer (1971, second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
-
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994)
-
-* [[Roy L. Crole]], *Categories for types*, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9781139172707](https://doi.org/10.1017/CBO9781139172707)&rbrack;
-
-  > ([[categorical semantics]] of [[type theory]])
-
-
-
-
-Expositions:
-
-* A. Martini, H. Ehrig, and D. Nunes, [Elements of basic category theory](http://citeseer.ist.psu.edu/martini96element.html), Technical Report 96-5, Technical University Berlin.
-
-* Jaap van Oosten, [Basic category theory] (http://www.math.uu.nl/people/jvoosten/syllabi/catsmoeder.pdf).
-
-* [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_. ([arXiv](http://arxiv.org/abs/1912.10642))
-
-* Andrea Schalk and H. Simmons, [An introduction to category theory in four easy movements](http://www.cs.man.ac.uk/~hsimmons/BOOKS/CatTheory.pdf), notes for a course offered as part of the MSc. in Mathematical Logic, Manchester University.
-
-* Daniele Turim, [Category theory lecture notes](http://www.dcs.ed.ac.uk/home/dt/CT/categories.pdf), 1996-2001.  Based on Mac Lane's book (1998).
-
-
-A textbook that introduces categories by examples arising in [[mathematical physics]] is 
-
-* {#Geroch85} [[Robert Geroch]], *Mathematical Physics*, University of Chicago Press (1985) &lbrack;[ISBN:9780226223063](https://press.uchicago.edu/ucp/books/book/chicago/M/bo4158035.html)&rbrack;
-
-A textbook with an eye towards the theory of [[categories of sheaves]] and their application in [[homological algebra]] is
-
-* Kashiwara, Shapira, _[[Categories and Sheaves]]_
-
-The definition of categories in the [[foundations]] of [[homotopy type theory]] (see at _[[internal category in homotopy type theory]]_) is discussed in 
-
-* {#AhrensKapulkinShulman13} [[Benedikt Ahrens]], [[Chris Kapulkin]], [[Michael Shulman]], _Univalent categories and the Rezk completion_,  Mathematical Structures in Computer Science 25.5 (2015): 1010-1039 ([arXiv:1303.0584](http://arxiv.org/abs/1303.0584))
-
-* {#CapriottiKraus17} [[Paolo Capriotti]], [[Nicolai Kraus]], _Univalent Higher Categories via Complete Semi-Segal Types_ ([arXiv:1707.03693](https://arxiv.org/abs/1707.03693))
-
-* [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], _Experience Implementing a Performant Category-Theory Library in Coq_ ([arXiv:1401.7694](http://arxiv.org/abs/1401.7694))
-
-For more references see [[category theory]].
 
 [[!redirects category]]
 [[!redirects categories]]
