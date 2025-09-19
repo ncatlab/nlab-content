@@ -4,7 +4,7 @@ Bob Walters (1943-2015), often called R F C Walters (Robert Frank Carslaw Walter
 
 * [blog](http://rfcwalters.blogspot.de/)
 
-* [list of publications](http://comocategoryarchive.com/People/Walters-papers/pdffiles.html) (not working) 
+* [archive of publications](https://github.com/mroman42/walters)
 
 * [list of publications at University of Sydney](https://www.maths.usyd.edu.au/ut/pub-seek.py?sau=Walters+RFC&pp=3)
 
