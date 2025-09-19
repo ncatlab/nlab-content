@@ -1,6 +1,8 @@
-Bob Walters (1943-2015), often called R F C Walters (Robert Frank Carslaw Walters), taught at the University of Sydney and from 1999 at the University of Insubria.
+Robert Frank Carslaw Walters (1943-2015) taught at the University of Sydney and from 1999 at the University of Insubria.
 
-* [Web biography](http://dscpi.uninsubria.it/staff/Walters/Biography) (not working) [InternetArchive](https://web.archive.org/web/20130207023208/dscpi.uninsubria.it/staff/Walters/Biography)
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/R-F-C-Walters-35255405)
+
+* [DSCPI page](https://web.archive.org/web/20130207023208/dscpi.uninsubria.it/staff/Walters/Biography) (archive)
 
 * [blog](http://rfcwalters.blogspot.de/)
 
@@ -9,6 +11,7 @@ Bob Walters (1943-2015), often called R F C Walters (Robert Frank Carslaw Walter
 * [list of publications at University of Sydney](https://www.maths.usyd.edu.au/ut/pub-seek.py?sau=Walters+RFC&pp=3)
 
 * [Como Category Theory Archive](http://comocategoryarchive.com/) (not working) 
+
 
 ## Selected writings
 
