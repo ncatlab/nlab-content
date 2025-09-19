@@ -634,7 +634,7 @@ For more examples see e.g. [Loregian (2021)](#Loregian21).
 
 The notion of (co)ends as introduced in
 
-* [[Nobuo Yoneda]], §4 of: *On ext and exact sequences* (PhD thesis), Journal of the Faculty of Science, Section I. **8** University of Tokyo (1960) 507–576 &lbrack;[pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773)&rbrack;
+* [[Nobuo Yoneda]], §4 of: *On ext and exact sequences* (PhD thesis), Journal of the Faculty of Science, Section I. **8** University of Tokyo (1960) 507–576 &lbrack;[pdf](http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf), [CiNii:naid/500000325773](https://ci.nii.ac.jp/naid/500000325773) [archived](https://web.archive.org/web/20250228145236/http://alpha.math.uga.edu/~lorenz/YonedaExtExactSequences.pdf)&rbrack; 
 
 
 An early account with an eye towards application in [[geometric realization of simplicial topological spaces]]:
