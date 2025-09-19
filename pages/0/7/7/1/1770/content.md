@@ -16,41 +16,59 @@
 \tableofcontents
 
 ## Idea
+ {#Idea}
 
-The concept of a _smooth set_ or _smooth space_, in the sense discussed here, is a generalization of that of [[smooth manifolds]] beyond that of [[diffeological spaces]]: A smooth set is a [[generalized smooth space]] that may be _probed_ by smooth [[Cartesian spaces]].
+The concept of a _smooth sets_ (or _smooth spaces_) &lbrack;[Schreiber 2013](#Schreiber13), [2014](#Schreiber14)&rbrack;, is a generalization of that of [[smooth manifolds]] beyond that of [[diffeological spaces]]: A smooth set is a [[generalized smooth space]] that is characterized by how it may be _probed_ by smooth [[Cartesian spaces]].
 
-For expository details see at _[[geometry of physics -- smooth sets]]_.
 
-Alternatively, the smooth test spaces may be taken to be more generally all [[smooth manifolds]]. But since [[manifolds]] themselves are built from gluing together smooth [[open balls]] $D^n_{int} \subset \mathbb{R}^n$ or equivalently [[Cartesian spaces]] $\mathbb{R}^n$, one may just as well consider Cartesian spaces test spaces. Finally, since $D^n$ is diffeomorphic to $\mathbb{R}^n$, one can just as well take just the cartesian smooth spaces $\mathbb{R}^n$ as test objects.
+For example, [[moduli spaces]] of [[differential forms]] exist as smooth sets but not as [[diffeological spaces]] (much less as [[smooth manifolds]]). Thereby, smooth sets constitute a natural foundation for the [[geometry of physics]], specifically of [[variational calculus]] and [[Lagrangian field theory]] &lbrack;[Schreiber 2013b](#Schreiber13b), [2017](#Schreiber17), [Giotopoulos & Sati 2023](#GiotopoulosSati23)&rbrack;.
+
+Hence the category of smooth sets is a *[[nice category of spaces|convenient categories of spaces]]* for [[differential topology]], in a precise technical sense: It is a [[topos]] and in fact a [[cohesive topos]] &lbrack;[Schreiber 2013 §4.4](#Schreiber13)&rbrack;.
+
+From a broader perspective, smooth sets are equivalently the [[set truncation|0-truncated]] [[smooth ∞-groupoids]], the latter generalizing smooth sets from [[geometry]] to [[higher geometry]], specifically from [[differential geometry]] to [[higher differential geometry]], forming a [[cohesive (infinity,1)-topos|cohesive $\infty$-topos]] (exposition in [Schreiber 2025](#Schreiber25)). Thereby, smooth sets are part of a hierarchy of ever more *[[nice category of spaces|convenient categories of spaces]]* for [[differential topology]]:
+
+\begin{imagefromfile}
+    "file_name": "ConvenientCategoriesOfSpaces.png",
+    "width": 860,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 20
+    },
+    "caption": "From [Sati-Schreiber 2025](#SatiSchreiber25)"
+\end{imagefromfile}
+
 
 
 ## Definition
 
-The category of **smooth spaces** is the [[sheaf topos]]
+One way to define category of **smooth sets** is as the [[sheaf topos]]
 
 $$
-  SmoothSp
+  SmthSet
   \coloneqq 
-  Sh(Diff)
+  Sh(SmthMfd)
 $$
 
-of [[sheaves]] on the [[site]] [[Diff]] of smooth manifolds equipped with its standard [[coverage]] ([[Grothendieck topology]]) given by open covers of manifolds.
+of [[sheaves]] on the [[site]] [[SmthMfd]] of [[smooth manifolds]] equipped with its standard [[coverage]] ([[Grothendieck topology]]) given by [[open covers]].
 
-Since $Diff$ is [[equivalence of categories|equivalent]] to the category of [[manifolds]] _embedded_ into $\mathbb{R}^\infty$, $Diff$ is an [[essentially small category]], so there are no size issues involved in this definition.
+Since $SmthMfd$ is [[equivalence of categories|equivalent]] to the category of [[manifolds]] _embedded_ into $\mathbb{R}^\infty$, $SmthMfd$ is an [[essentially small category]], so there are no size issues involved in this definition.
 
-But since manifolds themselves are defined in terms of gluing conditons, the [[Grothendieck topos]] $SmoothSp$ depends on much less than all of $Diff$.
+But since manifolds themselves are defined in terms of gluing conditons, the [[Grothendieck topos]] $SmthSet$ depends on much less than all of $SmthMfd$.
 
 Let
 
 $$
   Ball 
-    \coneqq
+    \coloneqq
   \big\{ 
      (D^n_{int} 
      \to 
      D^m_{int}) 
-     \in Diff 
-     | 
+     \in SmthMfd 
+     \vert 
      n,m \in \mathbb{N}
   \big\}
 $$
@@ -64,17 +82,17 @@ $$
     (\mathbb{R}^n 
       \to 
     \mathbb{R}^m) 
-      \in Diff  
+      \in SmthMfd  
     \vert| 
       n,m \in \mathbb{N}
   \big\}
 $$
 
-be the [[full subcategories]] $Ball$ and [[CartSp]] of $Diff$ on open balls and on cartesian spaces, respectively. Then the corresponding [[sheaf]] [[toposes]] are still those of smooth spaces:
+be the [[full subcategories]] $Ball$ and [[CartSp]] of $SmthMfd$ on open balls and on cartesian spaces, respectively. Then the corresponding [[sheaf]] [[toposes]] are still those of smooth spaces:
 
 $$
   \begin{aligned}
-    SmoothSp 
+    SmthSet
       &\simeq Sh(Ball)
     \\
      & \simeq Sh(CartSp)
@@ -87,14 +105,14 @@ $$
 
 * The category of ordinary [[manifolds]] is a [[full subcategory]] of smooth spaces:
   $$
-    Diff \hookrightarrow SmoothSp 
+    SmthMfd \hookrightarrow SmoothSet
     \,.
   $$
-  When one regards smooth spaces concretely as sheaves on $Diff$, then this inclusion is of course just the [[Yoneda embedding]].
+  When one regards smooth spaces concretely as sheaves on $SmthMfd$, then this inclusion is of course just the [[Yoneda embedding]].
 
 * The full [[subcategory]] 
   $$
-    DiffSp \subset SmoothSp
+    DiffSp \subset SmoothSet
   $$
   on [[concrete sheaf|concrete sheaves]] is called the category of *[[diffeological spaces]]*.
 
@@ -103,11 +121,11 @@ $$
     $$
       [\Sigma,X] 
        \colon 
-      U \mapsto SmoothSp(\Sigma \times U, X)
+      U \mapsto SmthSet(\Sigma \times U, X)
      \,.
     $$
 
-    If $X$ and $\Sigma$ are ordinary manifolds, then the [[hom-set]] on the right sits inside that of the underlying sets $SmoothSp(\Sigma \times U , X) \subset Set({|\Sigma|} \times {|U|}, {|X|} )$ so that $[\Sigma,X]$ is a [[diffeological space]].
+    If $X$ and $\Sigma$ are ordinary manifolds, then the [[hom-set]] on the right sits inside that of the underlying sets $SmthSet(\Sigma \times U , X) \subset Set({|\Sigma|} \times {|U|}, {|X|} )$ so that $[\Sigma,X]$ is a [[diffeological space]].
 
     The above formula says that a $U$-parameterized family of maps $\Sigma \to X$ is smooth as a map into the smooth space $[\Sigma,X ]$ precisely if the corresponding map of sets $U \times \Sigma \to X$ is an ordinary morphism of smooth manifolds.
 
@@ -119,13 +137,13 @@ $$
 
 * The category 
   $$
-    SimpSmoothSp 
+    SimpSmthSet 
       \coloneqq
-  SmoothSp^{\Delta^{op}}
+  SmthSet^{\Delta^{op}}
   $$
-  equivalently that of sheaves on $Diff$ with values in [[simplicial sets]]
+  equivalently that of sheaves on $SmthMfd$ with values in [[simplicial sets]]
   $$
-    \cdots \simeq Sh(Diff, SSet)
+    \cdots \simeq Sh(SmthMfd, sSet)
   $$
   of [[simplicial objects]] in smooth spaces naturally carries the structure of a  [[homotopical category]] (for instance the [[model structure on simplicial sheaves]] or that of a Brown [[category of fibrant objects]] (if one restricts to locally Kan simplicial sheaves)) and as such is a [[presentable (∞,1)-category|presentation]] for the [[(∞,1)-topos]] of[[smooth ∞-stacks]].
 
@@ -343,11 +361,11 @@ For every $n \in N$ there is a
 $$
   D^n : Set \stackrel{\stackrel{(D^n)^*}{\leftarrow}}
     {\stackrel{D^n_*}{\to}}
-    SmoothSp
+    SmthSet
 $$
 
 where the [[inverse image]] morphism -- the [[stalk]] --
-is given on $A \in SmoothSp$ by
+is given on $A \in SmthSet$ by
 
 $$
   (D^n)^* A :=
@@ -363,9 +381,7 @@ origin in $\mathbb{R}^n$.
 +-- {: .num_lemma }
 ###### Lemma
 
-SmoothSp has [[point of a topos|enough points]]:
-they are given by the
-$D^n$ for $n \in \mathbb{N}$.
+$SmthSet$ has [[point of a topos|enough points]]: they are given by the $D^n$ for $n \in \mathbb{N}$.
 
 =--
 
@@ -384,35 +400,16 @@ The [[site]] [[CartSp]]${}_{smooth}$ may be replaced by the site [[CartSp]]${}_{
 The two toposes are related by an [[adjoint quadruple]] of functors that witness the fact that the objects of $Sh(CartSp_{th})$ are possiby infinitesimal extensions of objects in $Sh(CartSp)$. 
 For more discussion of this see [[synthetic differential ∞-groupoid]].
 
-### Higher smooth geometry
- {#HigherSmoothGeometry}
 
-The topos of smooth sets has an evident generalization from [[geometry]] to [[higher geometry]], hence from [[differential geometry]] to [[higher differential geometry]]: to an [[(∞,1)-topos]] of _[[smooth ∞-groupoids]]_. See there for more. 
+\linebreak
 
-In the other direction, smooth sets generalize [[diffeological spaces]] and [[D-topological space]], thereby being one stage in a hierarchy of *[[nice category of spaces|convenient categories of spaces]]*:
-
-\begin{imagefromfile}
-    "file_name": "ConvenientCategoriesOfSpaces.png",
-    "width": 860,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 20
-    },
-    "caption": "From [Sati-Schreiber 2025](#SatiSchreiber25)"
-\end{imagefromfile}
-
-
-
-$\,$
 
 ## Related concepts
 
 [[!include geometries of physics -- table]]
 
 $\,$
+
 
 ## References
 
@@ -433,13 +430,13 @@ The equivalent incarnation over the [[dense subsite]] [[CartSp]] and the underst
 
 * nLab: *[[smooth set]]* --- from [revision 10](https://ncatlab.org/nlab/revision/diff/smooth+set/10) on (Feb 2013)
 
-* [Schreiber 2013](#dcct), [§1.2.2, p. 48](https://arxiv.org/pdf/1310.7930v1#page=48)
+* [Schreiber 2013](#Schreiber13), [§1.2.2, p. 48](https://arxiv.org/pdf/1310.7930v1#page=48)
+  > (which otherwise speaks of "smooth [[0-types]]")
 
-  (which otherwise speaks of "smooth [[0-types]]")
+* {#Schreiber14} [[Urs Schreiber]]: *[[geometry of physics -- smooth sets]]* --- from [revision 3](https://ncatlab.org/nlab/revision/diff/geometry+of+physics+--+smooth+sets/3) on (Nov 2014)
 
-* [[Urs Schreiber]]: *[[geometry of physics -- smooth sets]]* --- from [revision 3](https://ncatlab.org/nlab/revision/diff/geometry+of+physics+--+smooth+sets/3) on (Nov 2014)
-
-* [[Igor Khavkine]], [[Urs Schreiber]], Def. 2.1 in: _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
+* {#KhavkineSchreiber17} [[Igor Khavkine]], [[Urs Schreiber]], Def. 2.1 in: _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
+  > (generalization to [[formal smooth sets]])
 
 further discussed in the context of ([[cohesive (infinity,1)-toposes|higher]], [[singular cohesion|singular]]) [[cohesive toposes]] in:
 
@@ -450,7 +447,9 @@ further discussed in the context of ([[cohesive (infinity,1)-toposes|higher]], [
 
 Discussion of smooth sets as a [[convenient category of spaces|convenient category]] for [[variational calculus]] of [[Lagrangian quantum field theory|Lagrangian]] [[classical field theory]]:
 
-* [[Urs Schreiber]]: *[[geometry of physics -- perturbative quantum field theory|Geometry of Physics -- Perturbative Quantum Field Theory]]*, lecture notes for a course *<a href="https://ncatlab.org/schreiber/show/65-409%3A+Mathematical+Quantum+Field+Theory">Mathematical Quantum Field Theory</a>*, Hamburg University (2017)  &lbrack;[[Schreiber_pQFT20211103.pdf:file]], [PhysicsForums version](https://www.physicsforums.com/insights/a-first-idea-of-quantum-field-theory/)&rbrack;
+* {#Schreiber13b} [[Urs Schreiber]]: *[[schreiber:Classical field theory via Cohesive homotopy types]]* &lbrack;[arXiv:1311.1172](https://arxiv.org/abs/1311.1172), [pdf](/schreiber/files/classicalinhigher.pdf)&rbrack;
+
+* {#Schreiber17} [[Urs Schreiber]]: *[[geometry of physics -- perturbative quantum field theory|Geometry of Physics -- Perturbative Quantum Field Theory]]*, lecture notes for a course *<a href="https://ncatlab.org/schreiber/show/65-409%3A+Mathematical+Quantum+Field+Theory">Mathematical Quantum Field Theory</a>*, Hamburg University (2017)  &lbrack;[[Schreiber_pQFT20211103.pdf:file]], [PhysicsForums version](https://www.physicsforums.com/insights/a-first-idea-of-quantum-field-theory/)&rbrack;
 
 * {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]*, Journal of Geometry and Physics **213** (2025) 105462 &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301), [doi:10.1016/j.geomphys.2025.105462](https://doi.org/10.1016/j.geomphys.2025.105462)&rbrack;
 
@@ -458,7 +457,7 @@ Exposition:
 
 * [[Grigorios Giotopoulos]]:  *Classical field theory in the topos of smooth sets*, [talk at](Center+for+Quantum+and+Topological+Systems#GiotopoulosOct2023) [[CQTS]] (Oct 2023) &lbrack;[[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]], video:[YT](https://youtu.be/7Bw9CJct8QY)&rbrack;
 
-* [[Urs Schreiber]]: *[[schreiber:Higher Topos Theory in Physics]]*, [[nLab:Encyclopedia of Mathematical Physics 2nd ed]]$\;$**4** (2025) 62-76 &lbrack;[doi:10.1016/B978-0-323-95703-8.00210-X](https://doi.org/10.1016/B978-0-323-95703-8.00210-X), [ISBN:9780323957038](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8), [arXiv:2311.11026](https://arxiv.org/abs/2311.11026)&rbrack;
+* {#Schreiber25} [[Urs Schreiber]]: *[[schreiber:Higher Topos Theory in Physics]]*, [[nLab:Encyclopedia of Mathematical Physics 2nd ed]]$\;$**4** (2025) 62-76 &lbrack;[doi:10.1016/B978-0-323-95703-8.00210-X](https://doi.org/10.1016/B978-0-323-95703-8.00210-X), [ISBN:9780323957038](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8), [arXiv:2311.11026](https://arxiv.org/abs/2311.11026)&rbrack;
 
 * [[Grigorios Giotopoulos]]: *Towards Non-Perturbative Lagrangian Field Theory via the Topos of Smooth Sets*, [talk at](CQTS##Giotopoulos2024) *[M-Theory and Mathematics 2024](M-Theory+and+Mathematics#2024)* (Jan 2024) &lbrack;video: [kt](https://cdnapisec.kaltura.com/html5/html5lib/v2.73.2/mwEmbedFrame.php/p/1674401/uiconf_id/23435151/entry_id/1_z8xmdmu5?wid=_1674401&iframeembed=true&playerId=kaltura_player&entry_id=1_z8xmdmu5)&rbrack;
 
