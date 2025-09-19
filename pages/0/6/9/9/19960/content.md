@@ -1150,6 +1150,11 @@ holographic dual model of QCD_, talk at _[From Strings to Things 2008](http://ww
 
 * [[Paul Sutcliffe]], _Holographic Skyrmions_, Mod. Phys. Lett. B29 (2015) no. 16, 1540051 ([spire:1383608](http://inspirehep.net/record/1383608))
 
+* Suat Dengiz, İzzet Sakall: *Domain Wall Skyrmions in Holographic Quantum Chromodynamics: Topological Phases and Phase Transitions* &lbrack;[arXiv:2509.15034](https://arxiv.org/abs/2509.15034)&rbrack;
+
+
+
+
 #### Nucleons
 
 
