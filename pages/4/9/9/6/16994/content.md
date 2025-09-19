@@ -1,10 +1,13 @@
-James Hartle (1939-2023) was a [[theoretical physics|theoretical physicist]] at the University of California, Santa Barbara.
+James Burkett Hartle (1939-2023) was a [[theoretical physics|theoretical physicist]] at the University of California, Santa Barbara.
 
 * [personal page](http://web.physics.ucsb.edu/~hartle/)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/James_Hartle)
 
 * [inSpire page](https://inspirehep.net/authors/1006613)
+
+* [[Gary T. Horowitz]], [[Kip S. Thorne]]: *James Burkett Hartle: a Biographical Memoir* &lbrack;[arXiv:2509.14288](https://arxiv.org/abs/2509.14288)&rbrack;
+
 
 ## Selected writings
 
