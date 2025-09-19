@@ -83,6 +83,10 @@ Relation to [[semi-topological 4d Chern-Simons theory]]:
 
 * [[Nathan Berkovits]], Rodrigo S. Pitombo, *4D Chern-Simons and the pure spinor $AdS_5 \times S^5$ superstring* &lbrack;[arXiv:2401.03976](https://arxiv.org/abs/2401.03976)&rbrack;
 
+Computational issues:
+
+* Thales Azevedo, Alessandro Georgoudis, Renann Lipinski Jusinskas, Sitender Pratap Kashyap: *Tension between string amplitude prescriptions with presumed spacetime supersymmetry* &lbrack;[arXiv:2509.15111](https://arxiv.org/abs/2509.15111)&rbrack;
+
 
 
 
@@ -114,7 +118,7 @@ Here is some blog discussion about this topic:
 
     _[Sheaves of CDOs](http://golem.ph.utexas.edu/string/archives/000668.html)_
 
-Nekrasov work referred to above is partly from
+Nekrasov's work referred to above is partly from
 
 * [[Nathan Berkovits]], [[Nikita Nekrasov]], _The character of pure spinors_, Letters in Mathematical Physics (2005) 74:75--109 [doi](https://doi.org/10.1007/s11005-005-0009-7)
 
