@@ -76,7 +76,7 @@ such that the following [[commuting diagram|diagrams commute]]:
   }
   \big\downarrow && \big\downarrow m 
   \\
-  G\times G & \stackrel{m}{\longrightarrow} & G
+  G\times G & \underset{m}{\longrightarrow} & G
 }
 \]
 
@@ -85,13 +85,13 @@ such that the following [[commuting diagram|diagrams commute]]:
 \label{Unitality}
 \array{
   G 
-  & \stackrel{(\mathrm{e},id)}{\longrightarrow} 
+  & \stackrel{(\mathrm{e} p,id)}{\longrightarrow} 
   & G\times G
   \\
-  {}^{\mathllap{(\id,\mathrm{e})}}
+  {}^{\mathllap{(\id,\mathrm{e}p)}}
   \big\downarrow 
   &\underset{\id}{\searrow}& 
-  \big\downarrow m 
+  \big\downarrow\mathrlap{^m} 
   \\
   G\times G & \underset{m}{\longrightarrow} &G
 }
@@ -119,11 +119,11 @@ G
    & 
    \underset{\mathrm{e} \circ p}{\searrow}
    & 
-   \big\downarrow m 
+   \big\downarrow\mathrlap{^m} 
    \\
    G\times G 
    & 
-   \stackrel{m}{\longrightarrow} 
+   \underset{m}{\longrightarrow} 
    &
    G
 }
@@ -137,13 +137,12 @@ More pedantically, the [[associativity law]] (eq:Associativity) actually factors
 
 \begin{remark}
 \label{UseOfDiagonalMorphism}
-The [[pairing]] $(f,g)$ denotes $(f\times g)\circ\Delta$ where $\Delta$ is a [[diagonal morphism]].
+The notation "$(f,g)$" is (as usual) for the unique map into a [[Cartesian product]] whose components are $f$ and $g$. Equivalently this means here that $(f,g) = (f \times g)\circ\Delta_G$, where $\Delta \colon G \longrightarrow G \times G$ denotes the [[diagonal morphism]] of $G$.
 \end{remark}
 
 \begin{remark}
 Even if $C$ does not have *all* binary products, as long as products with $G$ (and the terminal object $*$) exist, then one can clearly still speak of a group object $G$ in $\mathcal{C}$, as above.
 \end{remark}
-
 
 \begin{remark}
   The first two structures in Def. \ref{GroupObjectInCartesianCategory} ([[binary operation]] and [[neutral element]]) together with the first two properties ([[associativity]] and [[unitality]]) make a internal *[[monoid object]]*. The remaining structure ([[inverses]]) is what specializes this monoid object to a group object.
