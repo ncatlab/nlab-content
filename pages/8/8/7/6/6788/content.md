@@ -1,5 +1,18 @@
 
-* [webpage](http://web.physics.ucsb.edu/~gary/)
+
+Gary T. Horowitz
+
+
+* [personal page](http://web.physics.ucsb.edu/~gary/)
+
+* [institute page](https://www.physics.ucsb.edu/people/gary-horowitz)
+
+* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Gary_Horowitz)
+
+* [inSpire page](https://inspirehep.net/authors/1005567)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=kJKvT4kAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -29,6 +42,10 @@ On the [[cosmic censorship hypothesis]] and the [[weak gravity conjecture]]:
 
 * {#HorowitzSantos19} [[Gary Horowitz]], [[Jorge Santos]], _Further evidence for the weak gravity - cosmic censorship connection_ ([arXiv:1901.11096](https://arxiv.org/abs/1901.11096))
 
+On [[James Hartle]]:
+
+* [[Gary T. Horowitz]], [[Kip S. Thorne]]: *James Burkett Hartle: a Biographical Memoir* &lbrack;[arXiv:2509.14288](https://arxiv.org/abs/2509.14288)&rbrack;
+
 
 ## Related entries
 
@@ -49,3 +66,5 @@ On the [[cosmic censorship hypothesis]] and the [[weak gravity conjecture]]:
 * [[weak gravity conjecture]]
 
 category: people
+
+[[!redirects Gary T. Horowitz]]
