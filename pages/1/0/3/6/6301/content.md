@@ -92,23 +92,23 @@ A [[local net of quantum observables]] is **strongly causally local** if it is c
 
 =--
 
-This is ([Nuiten 11, def. 14](#Nuiten11)).
+This is [Nuiten 2011, def. 14](#Nuiten11).
 
 
 There have been various proposals to understand these conditions from other principles: 
 
-1. In ([Schreiber 09](#Schreiber09)) the condition \ref{CausalLocalityOfAlgebrasOfObservables} is related to [[n-functor|n-functoriality]] of a corresponding ([[Schrödinger picture]]) [[functorial quantum field theory]].
+1. In [Schreiber 2009](#Schreiber09) the condition \ref{CausalLocalityOfAlgebrasOfObservables} is related to [[n-functor|n-functoriality]] of a corresponding ([[Schrödinger picture]]) [[functorial quantum field theory]].
 
-1. In ([Nuiten 11, theorem 4.2](#Nuiten11)) the condition \ref{StrongLocality} us shown to be implied by the associated pre-sheaf of [[Bohr toposes]] satisfying spatial [[descent]] by [[local geometric morphisms]].
+1. In [Nuiten 2011, theorem 4.2](#Nuiten11) the condition \ref{StrongLocality} us shown to be implied by the associated pre-sheaf of [[Bohr toposes]] satisfying spatial [[descent]] by [[local geometric morphisms]].
 
-1. In ([Brunetti-Fredenhagen-Imani-Rejzner 12](#BrunettiFredenhagenImaniRejzner12)) condition def. \ref{CausalLocalityOfAlgebrasOfObservables} is shown to be equivalent to the [[co-presheaf]] of observables being a [[monoidal functor]] is a suitable way.
+1. In [Brunetti, Fredenhagen, Imani & Rejzner 2012](#BrunettiFredenhagenImaniRejzner12) condition def. \ref{CausalLocalityOfAlgebrasOfObservables} is shown to be equivalent to the [[co-presheaf]] of observables being a [[monoidal functor]] is a suitable way.
 
 
 ## In S-matrix theories and string theory
 
 In [[S-matrix]] theories [[causal additivity]] is meant to also be incarnated in terms of [[analytic function|analyticity]] properties of the [[scattering amplitudes]] (for this reason one often speaks of "the analytic S-matrix").
 
-One S-matrix theory is [[perturbative string theory]]. Discussion of causality in string theory includes [Martinec 95](#Martinec95) and ([Erler-Gross 04](#ErlerGross04)). The latter write in their introduction:
+One S-matrix theory is [[perturbative string theory]]. Discussion of causality in string theory includes [Martinec 1995](#Martinec95) and [Erler & Gross 2004](#ErlerGross04). The latter write in their introduction:
 
 > Perhaps then it comes as a surprise that critical string theory produces an analytic [[S-matrix]] consistent with macroscopic causality. In absence of any other known theoretical mechanism which might explain this, despite appearances one is lead to believe that string interactions must be, in some sense, local.
 
@@ -187,7 +187,7 @@ Discussion of causality in [[string theory]] includes the following:
 
 A brief look at the causality property of the string 2-point function is in
 
-* {#Martinec95} [[Emil Martinec]], _Strings and Causality_ ([pdf](http://cds.cern.ch/record/569030/files/9311129.pdf)) in L. Baulieu, V.  Dotsenko, V. Kazakov, P. Windey (eds.) Quantum Field Theory and String Theory , NATO ASI Series B: Physics Vol. 328 (1995)
+* {#Martinec95} [[Emil Martinec]], _Strings and Causality_ &lbrack;[arXiv:hep-th/9311129](https://arxiv.org/abs/hep-th/9311129)&rbrack; in: L. Baulieu, V.  Dotsenko, V. Kazakov, P. Windey (eds.): *Quantum Field Theory and String Theory*, NATO ASI Series B: Physics **328** (1995)
 
 An in-depth discussion of causality of the [[string scattering amplitude|string scattering]] [[S-matrix]] via [[open string field theory]] is in
 
