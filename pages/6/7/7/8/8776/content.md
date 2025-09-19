@@ -276,6 +276,8 @@ Discussion via [[KK-compactification]] from [[D=11 supergravity]]/[[M-theory on 
 
 * {#MizoguchiOhta98} S. Mizoguchi, N. Ohta: *More on the Similarity between $D=5$ Simple Supergravity and M Theory*, Phys. Lett. B **441** (1998) 123-132 &lbrack;[arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111)&rbrack;
 
+* {#Falkowski99} [[Adam Falkowski]], *Five dimensional locally supersymmetric theories with branes*, Master Thesis, Warsaw (1999?) &lbrack;[[FalkowskiLecture.pdf:file]]&rbrack;
+
 
 See also: 
 
