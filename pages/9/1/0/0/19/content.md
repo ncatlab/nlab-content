@@ -293,51 +293,6 @@ See [[category theory vs order theory]] for more discussion.
 \section{References}
  {#References}
 
-For more see the references at *[[category]]*.
-
-\subsection{History}
- {#History}
-
-The concepts of _[[category]]_, _[[functor]]_ and _[[natural transformation]]_ were introduced in
-
-* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], *[[General Theory of Natural Equivalences]]*,  Transactions of the American Mathematical Society **58** 2 (1945) 231-294 &lbrack;[doi:10.1090/S0002-9947-1945-0013131-6](https://doi.org/10.1090/S0002-9947-1945-0013131-6), [jstor:1990284](http://www.jstor.org/stable/1990284)&rbrack;
-
-apparently (see [there](Hans+Freudenthal#AsAForerunnerOfCategoryTheory)) taking inspiration from:
-
-* {#Freudenthal37} [[Hans Freudenthal]], *Entwicklungen von Räumen und ihren Gruppen*, Comp. Math. **4** (1937) 145-234 &lbrack;[numdam:CM_1937__4__145_0](http://www.numdam.org/item/CM_1937__4__145_0)&rbrack;  
-
-The rational for introducing the concept of [[categories]] was to introduce the concept of [[functors]], and the reason for introducing functors was to introduce the concept of [[natural transformations]] (more specifically [[natural equivalences]]) in order to make precise the meaning of "natural" in [[mathematics]] and specifically in [[algebraic topology]], concretely for the example case of [[dual objects]]:
-
-> $[$[Freyd 64, page 1](#Freyd64):\] If [[topology]] were publicly defined as the study of families of sets closed under finite intersection and infinite unions a serious disservice would be perpetrated on embryonic students of topology. The mathematical correctness of such a definition reveals nothing about topology except that its basic axioms can be made quite simple. And with category theory we are confronted with the same pedagogical problem. The basic axioms, which we will shortly be forced to give, are much too simple.
-
-> A better (albeit not perfect) description of topology is that it is the study of continuous maps; and category theory is likewise better described as the theory of functors. Both descriptions are logically inadmissible as initial definitions, but they more accurately reflect both the present and the historical motivations of the subjects. 
-
-> {#CategoriesForNaturalTransformations} It is not too misleading, at least historically, to say that categories are what one must define in order to define natural transformations. 
-
-and
-
-> {#CategoriesForNaturalTransformationsII} $[$[Freyd 65, beginning of Part Two](#Freyd65)\]: Category theory is an embodiment of Klein's dictum that it is the maps that count in mathematics. If the dictum is true, then it is the functors between categories that are important, not the categories. And such is the case. Indeed, the notion of category is best excused as that which is necessary in order to have the notion of functor. But the progression does not stop here. There are maps between functors, and they are called natural transformations. And it was in order to define these that Eilenberg and MacLane first defined functors. 
-
-
-The article by [Eilenberg & Maclane 1945](#EilenbergMacLane45) was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content. Since then category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
-
-This and much more history is recalled in:
-
-* {#MacLaneHistory} [[Saunders MacLane]]: *Concepts and Categories in Perspective*, in: *A Century of Mathematics in America, Part I*, Am. Math. Soc. (1988) 323–366. \[<a href="https://www.ams.org/publicoutreach/math-history/hmath1-index">ISBN 0-8218-0124-4</a>, <a href="https://www.ams.org/publicoutreach/math-history/hmath1-maclane25.pdf">pdf<a>\]
-
-* {#Krömer07} [[Ralf Krömer]]: *Tool and object: A history and philosophy of category theory*, Science Networks. Historical Studies **32** (2007) &lbrack;[doi:10.1007/978-3-7643-7524-9](https://doi.org/10.1007/978-3-7643-7524-9)&rbrack;
-
-see specifically 
-
-* [[Ralf Krömer]]: *Category theory in Algebraic Topology*, chapter 3 of: [Krömer 2007](#Krömer07) &lbrack;[doi:10.1007/978-3-7643-7524-9_2](https://doi.org/10.1007/978-3-7643-7524-9_2)&rbrack;
-
-See also:
-
-* [[Jean-Pierre Marquis]], *What is Category Theory?*, in G. Sica (ed.) *What is Category Theory?*, Polimetrica (2006) 221-256 &lbrack;[[Marquis-CategoryTheory.pdf:file]], [semanticscholar](https://www.semanticscholar.org/paper/What-is-category-theory-Sica/7737401202b220f89ae9c11cf9af65995a4dcf50)&rbrack;
-
-* [[Jean-Pierre Marquis]], _From a Geometrical Point of View: A Study of the History and Philosophy of Category Theory_, Springer (2009) &lbrack;[doi:10.1007/978-1-4020-9384-5](https://doi.org/10.1007/978-1-4020-9384-5)&rbrack;
-
-
 
 [[!include category theory -- references]]
 
