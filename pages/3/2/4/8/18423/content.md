@@ -664,21 +664,22 @@ Here:
 
 * [[higher parallel transport]]
 
+
 ## References
 
 The identification in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} is due to
  
-* {#Pavlov14} [[Dmitri Pavlov]], _Structured Brown representability via concordance_, 2014 ([pdf](https://dmitripavlov.org/concordance.pdf), [[Pavlov_Concordance.pdf:file]])
+* {#Pavlov14} [[Dmitri Pavlov]]: _Structured Brown representability via concordance_ (2014) &lbrack;[pdf](https://dmitripavlov.org/concordance.pdf), [[Pavlov_Concordance.pdf:file]]&rbrack;
 
-* {#BEBP19} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]], _Classifying spaces of infinity-sheaves_ ([arXiv:1912.10544](https://arxiv.org/abs/1912.10544))
+* {#BEBP19} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]]: *Classifying spaces of infinity-sheaves*, Algebr. Geom. Topol. **24** (2024) 4891-4937 &lbrack;[doi:10.2140/agt.2024.24.4891](https://doi.org/10.2140/agt.2024.24.4891), [arXiv:1912.10544](https://arxiv.org/abs/1912.10544)&rbrack;
 
 with a precursor observation in:
 
-* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Lem. 7.5 of: _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures **11** 1 (2016) ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188), [doi:10.1007/s40062-014-0092-5](https://doi.org/10.1007/s40062-014-0092-5))
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Lem. 7.5 of: _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures **11** 1 (2016) &lbrack;[arXiv:1311.3188](http://arxiv.org/abs/1311.3188), [doi:10.1007/s40062-014-0092-5](https://doi.org/10.1007/s40062-014-0092-5)&rbrack;
 
 The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is also claimed in:
 
-* {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces*,  	J. Homotopy Relat. Struct. (2022) &lbrack;[arXiv:2007.06039](https://arxiv.org/abs/2007.06039), [doi:10.1007/s40062-022-00318-7](https://doi.org/10.1007/s40062-022-00318-7)&rbrack;
+* {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces*, J. Homotopy Relat. Struct. (2022) &lbrack;[arXiv:2007.06039](https://arxiv.org/abs/2007.06039), [doi:10.1007/s40062-022-00318-7](https://doi.org/10.1007/s40062-022-00318-7)&rbrack;
 
 The "smooth Oka principle" is also proven (Theorem B) in:
 
