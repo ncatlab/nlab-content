@@ -355,7 +355,7 @@ which is an equivalent way of describing a heap homomorphism $H \to Prin(G)$.
 
 If we wish $Heap$ to be an [[algebraic category]], then we must remove the clause that the underlying set of a heap must be nonempty (see also at *[[pseudo-torsor]]*).  Then the [[empty set]] becomes a heap in a unique way. 
 
-However, in this case, the various theorems relating heaps to groups above all break down.  For this reason, one usually requires a heap to be inhabited.
+However, in this case, some of the above theorems relating heaps to groups break down.  It is of course still true that $Grp \simeq (1\downarrow Heap)$, since any pointed heap must be inhabited; but the empty heap does not have a structure group.  For this reason, one usually requires a heap to be inhabited.
 
 On the other hand, we could generalize the notion of [[group]] to allow for an empty group.  This even remains a purely algebraic notion: we can define a group as an [[inhabited]] [[invertible semigroup]] $(S,\cdot,(-)^{-1})$ or an inhabited [[associative quasigroup]]. Then any [[invertible semigroup]] or [[associative quasigroup]] is a possibly-empty-heap, and every possibly-empty-heap arises in this way from its automorphism invertible semigroup or automorphism associative quasigroup (defined by either method (2) or (3)); the category of possibly-empty-heaps is equivalent to the category of invertible semigroups equipped with torsors over the point, and the category of associative quasigroups equipped with torsors over the point; etc.
 
