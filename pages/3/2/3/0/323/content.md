@@ -271,7 +271,7 @@ Then the left square and  the outer rectangle are pullbacks but the right square
 +-- {: .num_remark }
 ###### Remark
 
-On the other hand, in the [[(∞,1)-category]] of [[∞-groupoids]], there is a sort of "partial converse"; see [[homotopy pullback#HomotopyFiberCharacterization]].
+On the other hand, in the [[(∞,1)-category]] of [[∞-groupoids]], there is a sort of "partial converse"; see at *[homotopy pullback -- homotopy fiber characterization](homotopy pullback#HomotopyFiberCharacterization)*.
 
 =--
 
