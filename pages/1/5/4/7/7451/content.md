@@ -1,4 +1,4 @@
-[[!redirects epi-pullback]]
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -44,6 +44,8 @@ Spcifically, the object $q$ is then called a **quasi-pullback** of the span $b\t
 
 =--
 
+A more descriptive terminology would be something like **epi-pullback**, but "quasi-pullback" is standard in the literature.
+
 ## Examples
 
 \begin{proposition}
@@ -65,3 +67,7 @@ Recall that, for every [[regular category]] $A$, there is a [[double category]] 
 - [[André Joyal]] and [[Ieke Moerdijk]], _A completeness theorem for open maps_, Annals of Pure and Applied Logic 70.1 (1994): 51-86.
 
 - [[Robert Paré]], _Some things about double categories_, Talk at _Virtual Double Categories Workshop_ 2022, [pdf](https://bryceclarke.github.io/virtual-double-categories-workshop/slides/robert-pare.pdf)
+
+[[!redirects quasi-pullbacks]]
+[[!redirects epi-pullback]]
+[[!redirects epi-pullbacks]]
