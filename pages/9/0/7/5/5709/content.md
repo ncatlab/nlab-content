@@ -1334,6 +1334,7 @@ See also at _[string theory FAQ -- What is string theory?](string+theory+FAQ#Wha
 * [string theory FAQ -- What is the relationship between quantum field theory and string theory?](string+theory+FAQ#RelationshipBetweenQuantumFieldTheoryAndStringTheory)
 
 
+
 ## References
 
 ### General
@@ -1367,13 +1368,15 @@ Review:
 
 * {#Pich} A. Pich, _Effective Field Theory_ ([arXiv:hep-ph/9806303](http://arxiv.org/abs/hep-ph/9806303))
  
-* {#Abdesselam13} [[Abdelmalek Abdesselam]], _QFT, RG, and all that, for mathematicians, in eleven pages_ ([arXiv:1311.4897](https://arxiv.org/abs/1311.4897))
+* [[Daniel Freed]], Lecture 5 of: *[[Five lectures on supersymmetry]]* (1999)
 
-* [[Daniel Freed]], _Lecture 5 of [[Five lectures on supersymmetry]]_
+* {#Abdesselam13} [[Abdelmalek Abdesselam]], _QFT, RG, and all that, for mathematicians, in eleven pages_ ([arXiv:1311.4897](https://arxiv.org/abs/1311.4897))
 
 * Andrey Grozin, _Effective field theories_ ([arXiv:2001.00434](https://arxiv.org/abs/2001.00434))
 
 * Riccardo Penco, _An Introduction to Effective Field Theories_ ([arXiv:2006.16285](https://arxiv.org/abs/2006.16285))
+
+* [[Adam Falkowski]], Christoph Bobeth: *Lectures on Effective Field Theories*, [GDR-Intensity Frontier lectures](https://indico.in2p3.fr/event/22195/) (2020) &lbrack;[webpage](https://indico.in2p3.fr/event/22195/#21-lecture-4-introduction-to-s), script:[pdf](https://indico.in2p3.fr/event/22195/contributions/86017/attachments/59873/81148/eftlectures.pdf)&rbrack;
 
 * [[Cliff P. Burgess]]: *Introduction to effective field theory*, Ann. Rev. Nucl. Part. Sci. **57** (2007) 329-362 &lbrack;[arXiv:hep-th/0701053](https://arxiv.org/abs/hep-th/0701053), [doi:10.1146/annurev.nucl.56.080805.140508](https://doi.org/10.1146/annurev.nucl.56.080805.140508)&rbrack;
 
@@ -1398,7 +1401,7 @@ On effective field theory for [[spontaneously broken symmetries]]:
 * [[Tomáš Brauner]]: *Effective Field Theory for Spontaneously Broken Symmetry*, Lecture Notes in Physics **1023**, Springer (2024) &lbrack;[arXiv:2404.14518](https://arxiv.org/abs/2404.14518), [doi:10.1007/978-3-031-48378-3](https://doi.org/10.1007/978-3-031-48378-3)&rbrack;
 
 
-#### Via causal perturbation theory
+### Via causal perturbation theory
  {#ReferencesInCausalPerturbationTheory}
 
 Discussion of [[perturbative QFT|perturbative]] effective QFT in the rigorous context of [[causal perturbation theory]]/[[perturbative AQFT]] and its relation to the [[Stückelberg-Petermann renormalization group]] is due to
