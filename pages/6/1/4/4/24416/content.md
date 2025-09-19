@@ -199,7 +199,7 @@ From [SS 19c](#SS19c):
 
 * {#MSa03} V. Mathai, H. Sati, _Some Relations between Twisted K-theory and E8 Gauge Theory_, JHEP 0403:016, 2004 ([arXiv:hep-th/0312033](https://arxiv.org/abs/hep-th/0312033), [doi:10.1088/1126-6708/2004/03/016](https://iopscience.iop.org/article/10.1088/1126-6708/2004/03/016))
 
-* {#Sa13} H. Sati, _Framed M-branes, corners, and topological invariants_, J. Math. Phys. 59 (2018), 062304 ([arXiv:1310.1060](http://arxiv.org/abs/1310.1060))
+* {#Sa13} H. Sati: *Framed M-branes, corners, and topological invariants*, J. Math. Phys. **59** (2018) 062304 &lbrack;[doi:10.1063/1.5007185](https://doi.org/10.1063/1.5007185), [arXiv:1310.1060](http://arxiv.org/abs/1310.1060)&rbrack;
 
 * {#FSS15} D. Fiorenza, H. Sati, U. Schreiber,  _The WZW term of the M5-brane and differential cohomotopy_, J. Math. Phys. 56, 102301 (2015) ([arXiv:1506.07557](http://arxiv.org/abs/1506.07557), [doi:10.1063/1.4932618](http://scitation.aip.org/content/aip/journal/jmp/56/10/10.1063/1.4932618))
  
