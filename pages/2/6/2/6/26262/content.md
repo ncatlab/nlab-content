@@ -1,4 +1,4 @@
-> This entry is about the [[commutative diagram]] editor. For the mathematical notion of the same now, see instead at *[[quiver]]*.
+> This entry is about the [[commutative diagram]] editor. For the mathematical notion of the same name, see instead at *[[quiver]]*.
 
 \tableofcontents
 
