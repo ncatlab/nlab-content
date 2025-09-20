@@ -99,6 +99,8 @@ Wilson loop insertions may be thought of or at least related to _defects_ in the
 
 * [[Wilson surface]]
 
+
+
 ## References
 
 ### General
@@ -132,7 +134,7 @@ For more see:
 
 * {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], section 4 of: _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_, Fundamenta Mathematicae **228** (2015) 97-137  &lbrack;[arXiv:1007.2010](http://arxiv.org/abs/1007.2010), [doi:10.4064/fm228-2-1](https://www.impan.pl/en/publishing-house/journals-and-series/fundamenta-mathematicae/all/228/2/88942/quantum-mechanics-and-nonabelian-theta-functions-for-the-gauge-group-rm-su-2)&rbrack;
 
-Discussion of Wilson loop observables in [[abelian Chern-Simons theory]] via [[path integral]] arguments followed by [[renormalization]] via [[framed link|framing]]:
+Discussion of Wilson loop observables in [[abelian Chern-Simons theory]] via [[path integral]] arguments followed by [[renormalization]] (such as via [[framed link|framing]]):
 
 * {#Polyakov88} [[Alexander Polyakov]]: *Fermi-Bose Transmutations induced by Gauge Fields*, Modern Physics Letters A **3** 3 (1988) 325-328 &lbrack;[doi:10.1142/S0217732388000398](https://doi.org/10.1142/S0217732388000398), [[Polyakov-MPA-1988.pdf:file]]&rbrack;
 
@@ -141,6 +143,9 @@ Discussion of Wilson loop observables in [[abelian Chern-Simons theory]] via [[p
 * {#CosteMakowka90} Antoine Coste, Michel Makowka: *Abelian Chern-Simons theories on $S^3$*, Nuclear Physics B **342** 3 (1990) 721-736 \[<a href="https://doi.org/10.1016/0550-3213(90)90334-A">doi:10.1016/0550-3213(90)90334-A</a>\]
 
 * {#GMR94} G. Giavarini, C. P. Martin, [[Fernando Ruiz Ruiz]]: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nuclear Physics B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>&rbrack;
+
+* {#LeukertSchäfer96} Peter Leukert, Jörg Schäfer, §7 in: *A rigorous construction of abelian Chern-Simons path integrals using white noise analysis*,  Reviews in Mathematical Physics **08** 03  (1996) 445-456 &lbrack;[doi:10.1142/S0129055X96000147](https://doi.org/10.1142/S0129055X96000147)&rbrack;
+
 
 * {#GuadagniniThuillier08} [[Enore Guadagnini]], [[Frank Thuillier]]: *Deligne-Beilinson cohomology and abelian links invariants*, SIGMA **4** (2008) 078 &lbrack;[arXiv:0801.1445](https://arxiv.org/abs/0801.1445), [doi:10.3842/SIGMA.2008.078](https://doi.org/10.3842/SIGMA.2008.078)&rbrack;
 
