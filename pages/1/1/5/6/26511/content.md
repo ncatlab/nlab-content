@@ -5,9 +5,7 @@
 
 ## Selected writings
 
-On [[motivic homotopy theory]] 
-
-and [[h-cobordism]]:
+On [[motivic homotopy theory]] and [[h-cobordism]]:
 
 * {#AsokMorel} [[Aravind Asok]], [[Fabien Morel]], _Smooth varieties up to $\mathbb{A}^1$-homotopy and algebraic h-cobordisms_, Adv. Math. **227** (5) (2011) 1990-2058 &lbrack;[arXiv:0810.0324](http://arxiv.org/abs/0810.0324), [doi:10.1016/j.aim.2011.04.009](https://doi.org/10.1016/j.aim.2011.04.009)&rbrack;
 
@@ -22,5 +20,8 @@ On ([[stable cohomotopy|stable]]) [[motivic cohomology|motivic]] [[Cohomotopy]] 
 
 * [[Aravind Asok]], [[Jean Fasel]], [[Mrinal Kanti Das]], *Euler class groups and motivic stable cohomotopy*, Journal of the EMS **24** 8 (2022) 2775–2822 &lbrack;[arXiv:1601.05723](https://arxiv.org/abs/1601.05723), [doi:10.4171/jems/1156](https://doi.org/10.4171/jems/1156)&rbrack;
 
+On [[Yang-Mills theory]] and [[Tamagawa numbers]]:
+
+* [[Aravind Asok]], [[Brent Doran]], [[Frances Kirwan]], _Yang-Mills theory and Tamagawa numbers: the fascination of unexpected links in mathematics_, Bulletin of the London Mathematical Society (2008), ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733), [doi:10.48550/arXiv.0801.4733](https://doi.org/10.48550/arXiv.0801.4733), [doi:10.1112/blms/bdn036](https://doi.org/10.1112/blms/bdn036))
 
 category: people
