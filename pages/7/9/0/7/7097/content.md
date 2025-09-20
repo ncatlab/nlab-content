@@ -1,5 +1,8 @@
 
-* [webpage](http://www.mathematik.ur.de/hoyois/index.html)
+* [personal page](https://hoyois.app.uni-regensburg.de/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php%3Fid%3D186423)
+
 
 ## Selected writings
 
