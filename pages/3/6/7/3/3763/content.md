@@ -239,9 +239,9 @@ $$ ((H;K);L) \neq (H;(K;L)). $$
 
 ## References
 
-- Pécsi Bertalan, _Hidak és profunktorok_, Master's dissertation (2012).  [pdf](http://teo.elte.hu/minosites/ertekezes2012/pecsi_b.pdf), [English summary](https://teo.elte.hu/minosites/tezis2012_angol/b_pecsi.pdf)
+* Pécsi Bertalan: *Hidak és profunktorok*, Master's dissertation (2012) &lbrack;[pdf](http://teo.elte.hu/minosites/ertekezes2012/pecsi_b.pdf), [English summary](https://teo.elte.hu/minosites/tezis2012_angol/b_pecsi.pdf)&rbrack;
 
-- [[Robert Paré]]. _Yoneda theory for double categories_. Theory and Applications of Categories 25.17 (2011): 436-489.  [web](http://www.tac.mta.ca/tac/volumes/25/17/25-17abs.html)
+* [[Robert Paré]]: _Yoneda theory for double categories_, Theory and Applications of Categories **25** 17 (2011) 436-489 &lbrack;[tac:25-17](http://www.tac.mta.ca/tac/volumes/25/17/25-17abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/25/17/25-17.pdf)&rbrack;
 
 
 [[!redirects double profunctors]]
