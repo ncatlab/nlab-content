@@ -207,7 +207,7 @@ Relation to [[instanton Floer homology]]:
 
 Relation to [[Tamagawa numbers]]:
 
-* Aravind Asok, Brent Doran, Frances Kirwan, _Yang-Mills theory and Tamagawa numbers_ ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733))
+* [[Aravind Asok]], [[Brent Doran]], [[Frances Kirwan]], _Yang-Mills theory and Tamagawa numbers: the fascination of unexpected links in mathematics._, Bulletin of the London Mathematical Society (2008), ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733))
 
 On [[combinatorics]] of YM [[scattering amplitudes]]:
 
