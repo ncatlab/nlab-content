@@ -36,7 +36,7 @@ Over non-regular schemes, the motivic spectrum $KGL$ is also defined and it repr
 
 * {#NSO11} [[Niko Naumann]], [[Markus Spitzweck]], [[Paul Arne Østvær]], _Existence and uniqueness of E-infinity structures on motivic K-theory spectra_, ([arXiv](http://arxiv.org/abs/1010.3944))
 
-* [[Ivan Panin]], K. Pimenov, [[Oliver Röndigs]], _On the relation of Voevodsky's algebraic cobordism to Quillen's K-theory_, Inventiones mathematicae, 2009, 175(2), 435-451, [DOI](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.244.7301), [arXiv](http://arxiv.org/abs/0709.4124).
+* [[Ivan Panin]], [[Konstantin Pimenov]], [[Oliver Röndigs]], _On the relation of Voevodsky's algebraic cobordism to Quillen's K-theory_, Inventiones mathematicae, 2009, 175(2), 435-451, [DOI](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.244.7301), [arXiv](http://arxiv.org/abs/0709.4124).
 
 * {#GepnerSnaith08} [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Documenta Math.  2008 ([arXiv:0712.2817](http://arxiv.org/abs/0712.2817)).
 
