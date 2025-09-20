@@ -442,7 +442,9 @@ In a final step of the traditional argument one applies a [[renormalization]] ar
 
 #### The renormalization choice
 
-[Polyakov 1988 (5)](#Polyakov88) considered one regularization of (eq:AbelianCSPropagatorForComputationOfWilsonLoops), but [Witten 1989 p. 363](#Witten89) asserted that it is "clear" that the following "point-splitting regularization" should be used, and this has become the commonly accepted choice since:
+[Polyakov 1988 (5)](#Polyakov88) considered one regularization of (eq:AbelianCSPropagatorForComputationOfWilsonLoops). Another one was by [Leukert & Schäfer 1996 §7](#LeukertSchäfer96) (there on a backdrop of a rigorous construction of the [[path integral]] [[measure]], which however still leaves the Wilson loop observable ill-defined). 
+
+But [Witten 1989 p. 363](#Witten89) asserted that it is "clear" that the following "point-splitting regularization" should be used instead, and this has become the commonly accepted choice since (cf. [Kaul 1999 (9)](#Kaul99), [Guadagnini & Thuillier 2008 §3](#GuadagniniThuillier08), [Mezei, Pufu & Wang 2017 (5.1)](#MezeiPufuWang17)):
 
 Choose a [[framed link|framing]] of the link $\gamma$ (eq:ALink), hence a unit [[vector field]] $n$ in $\mathbb{R}^3$ defined on $\gamma$, which is normal to the [[tangent vectors]] $\dot \gamma$ to $\gamma$. 
 With that, finally define (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) by replacing all occurences of $y$ with a shifted version $y + s n$, for arbitrarily small lengths $s \in \mathbb{R}_+$ of the normal/framing vector $s n$:
@@ -524,7 +526,7 @@ The end result of this argument is hence, in the exponent, the sum of the [[fram
   \mathrlap{\,.}
 \]
 
-([Witten 1989 (2.31) ff](#Witten89), cf. [Kaul 1999 (9)](#Kaul99), [Mezei, Pufu & Wang 2017 (5.1)](#MezeiPufuWang17) [^LevelNormalizationInAbelianWilsonLoopComputation])
+([Witten 1989 (2.31) ff](#Witten89), cf. [Kaul 1999 (9)](#Kaul99), [Guadagnini & Thuillier 2008 (5.2)](#GuadagniniThuillier08), [Mezei, Pufu & Wang 2017 (5.1)](#MezeiPufuWang17) [^LevelNormalizationInAbelianWilsonLoopComputation])
 
 [^LevelNormalizationInAbelianWilsonLoopComputation]: Beware that [Witten 1989](#Witten89) drops a factor of 2 in passing from (1.3) to (2.27) there. This amounts to shifting the Chern-Simons level "$k$" --- our $K$ (eq:TheLagrangianDensity) --- by a factor of 2. His end result for the Wilson loop, equation (2.31) there, is expressed with respect to this shifted level. Transforming back to the original and usual normalization in (1.3) there cancels the factor of 2 in (2.31) there, which thereby agrees with our (eq:AbelianCSWilsonLoopsInTermsOfFramingAndLinkingNumbers) (under $k_{there} = K_{here}$). Note also that [Kaul 1999](#Kaul99) follows along with a lost factor of 2 in (1) there and hence gives in (9) there Witten's formula, while [Mezei, Pufu & Wang 2017 (5.1)](#MezeiPufuWang17) appear to have noticed the glitch. Unfortunately, this is all the more confusing as there is generally an ambiguity of a factor of 2 in what one may want to mean by the abelian Chern-Simons level in the first place, as discussed [above](#LagrangianDensityAndLevel).
 
@@ -915,6 +917,8 @@ General discussion of abelian Chern-Simons theory:
 * G. Giavarini, C. P. Martin, [[Fernando Ruiz Ruiz]]: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nucl. Phys. B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>, [pdf](https://inis.iaea.org/collection/NCLCollectionStore/_Public/25/053/25053343.pdf)&rbrack;
   > (on the [[renormalization]] of [[Wilson loop]] [[quantum observables|observables]])
 
+* {#LeukertSchäfer96} Peter Leukert, Jörg Schäfer: *A rigorous construction of abelian Chern-Simons path integrals using white noise analysis*,  Reviews in Mathematical Physics **08** 03  (1996) 445-456 &lbrack;[doi:10.1142/S0129055X96000147](https://doi.org/10.1142/S0129055X96000147)&rbrack;
+
 * [[Gerald V. Dunne]]: *Aspects of Chern-Simons Theory*, in: *Topological aspects of low dimensional systems*, Les Houches -- École d'Été de Physique Théorique **69**, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1_3](https://doi.org/10.1007/3-540-46637-1_3), [arXiv:hep-th/9902115](https://arxiv.org/abs/hep-th/9902115)&rbrack;
 
 * {#Manoliu98a} Mihaela Manoliu: *Abelian Chern-Simons theory*, J. Math. Phys. **39** (1998) 170-206 &lbrack;[arXiv:dg-ga/9610001](https://arxiv.org/abs/dg-ga/9610001), [doi:10.1063/1.532333](https://doi.org/10.1063/1.532333)&rbrack;
@@ -934,7 +938,7 @@ General discussion of abelian Chern-Simons theory:
 
 * [[Lisa Jeffrey]], Brendan McLellan: *Eta-Invariants and Anomalies in $U(1)$ Chern-Simons Theory* &lbrack;[arXiv:1004.2913](https://arxiv.org/abs/1004.2913)&rbrack;
 
-* [[Enore Guadagnini]], [[Frank Thuillier]]: *Deligne-Beilinson cohomology and abelian links invariants*, SIGMA **4** (2008) 078 &lbrack;[arXiv:0801.1445](https://arxiv.org/abs/0801.1445), [doi:10.3842/SIGMA.2008.078](https://doi.org/10.3842/SIGMA.2008.078)&rbrack;
+* {#GuadagniniThuillier08} [[Enore Guadagnini]], [[Frank Thuillier]]: *Deligne-Beilinson cohomology and abelian links invariants*, SIGMA **4** (2008) 078 &lbrack;[arXiv:0801.1445](https://arxiv.org/abs/0801.1445), [doi:10.3842/SIGMA.2008.078](https://doi.org/10.3842/SIGMA.2008.078)&rbrack;
 
 * [[Enore Guadagnini]], [[Frank Thuillier]]: *Three-manifold invariant from functional integration*, J. Math. Phys. **54** (2013) 082302 &lbrack;[arXiv:1301.6407](https://arxiv.org/abs/1301.6407), [doi:10.1063/1.4818738](https://doi.org/10.1063/1.4818738)&rbrack;
 
@@ -1041,7 +1045,9 @@ Discussion of [[Wilson loop]] [[quantum observables]] in abelian Chern-Simons th
 
 * {#GMR94} G. Giavarini, C. P. Martin, [[Fernando Ruiz Ruiz]]: *Abelian Chern-Simons theory as the strong large-mass limit of topologically massive abelian gauge theory: the Wilson loop*, Nuclear Physics B **412** (1994) 731-750 &lbrack;[arXiv:hep-th/9309049](https://arxiv.org/abs/hep-th/9309049), <a href="https://doi.org/10.1016/0550-3213(94)90397-2">doi:10.1016/0550-3213(94)90397-2</a>&rbrack;
 
-* {#GuadagniniThuillier08} [[Enore Guadagnini]], [[Frank Thuillier]]: *Deligne-Beilinson cohomology and abelian links invariants*, SIGMA **4** (2008) 078 &lbrack;[arXiv:0801.1445](https://arxiv.org/abs/0801.1445), [doi:10.3842/SIGMA.2008.078](https://doi.org/10.3842/SIGMA.2008.078)&rbrack;
+* [Leukert & Schäfer 1996 §7](#LeukertSchäfer96)
+
+* [Guadagnini & Thuillier 2008](#GuadagniniThuillier08)
 
 Review:
 
