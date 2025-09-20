@@ -141,7 +141,7 @@ A horizontal categorification of [[C-star algebras|$C^*$-algebras]] hence ought 
 \end{example}
 
 \begin{example}
-**(groups to groupoids)**
+**(spaces to spaceoids)**
 \linebreak
 Since, by the [[Gelfand-Naimark theorem]], [[C-star algebra|$C^\ast$-algebras]] are [[duality|dual]] to [[topological spaces]], [[Paolo Bertozzini]] et. al proposed to define *[[spaceoids]]* to be the entities [[formal duality|formally dual]] to $C^*$-categories (cf. [blog](http://golem.ph.utexas.edu/category/2008/01/spaceoids.html)).
 \end{example}
