@@ -28,7 +28,7 @@ On the [[Quillen plus construction]] in [[(∞,1)-category theory]]:
 
 On a construction of [[algebraic cobordism]] as a non-[[A1-homotopy theory|$\mathbb{A}^1$-invariant]] [[cohomology theory]] on [[derived schemes]], and the resulting [[Conner-Floyd isomorphism]]:
 
-* Toni Annala, [[Marc Hoyois]], Ryomei Iwasa, _Algebraic cobordism and a Conner-Floyd isomorphism for algebraic K-theory_ &lbrack;[arXiv:2303.02051](https://arxiv.org/abs/2303.02051)&rbrack;
+* [[Toni Annala]], [[Marc Hoyois]], [[Ryomei Iwasa]], _Algebraic cobordism and a Conner-Floyd isomorphism for algebraic K-theory_ &lbrack;[arXiv:2303.02051](https://arxiv.org/abs/2303.02051)&rbrack;
 
 
 ## Related entries
