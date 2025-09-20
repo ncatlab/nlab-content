@@ -28,7 +28,7 @@ In [[predicative mathematics]], filters of subsets are [[large category|large]],
 
 ## Definitions
 
-A subset $F$ of a [[partial order|poset]] $L$ is called a __filter__  on $L$ if it is upward-closed, inhabited and downward-[[direction|directed]]; that is:
+A subset $F$ of a [[partial order|poset]] $L$ is called a __filter__  on $L$ if it is upward-closed and downward-[[direction|directed]]; that is:
 
 1. If $A \leq B$ in $L$ and $A \in F$, then $B \in F$;
 2. for some $A$ in $L$, $A \in F$;
