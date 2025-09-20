@@ -11,6 +11,7 @@ On [[indexed categories]]:
 
 * [[P. T. Johnstone]], [[R. Paré]], [[R. D. Rosebrugh]], [[D. Schumacher]], [[R. J. Wood]], [[G. C. Wraith]], _Indexed Categories and Their Applications_, Lecture Notes in Mathematics **661** (1978) &lbrack;[doi:10.1007/bfb0061362](https://doi.org/10.1007/bfb0061362)&rbrack;
 
+
 On the [[indexed adjoint functor theorem]]:
 
 * [[Robert Paré]], Dietmar Schumacher, *Abstract families and the adjoint functor theorems*, in _Indexed categories and their applications_, Lecture Notes in Math. **661** Springer (1978) &lbrack;[doi:10.1007/BFb0061361](https://doi.org/10.1007/BFb0061361)&rbrack;
@@ -25,8 +26,6 @@ On [[saturated classes of colimits]]:
 * {#KP} [[Max Kelly]] and [[Robert Paré]]: *A note on the Albert-Kelly paper 'The closure of a class of colimits'*, JPAA 51 (1988) 19-25 \[<a href="https://doi.org/10.1016/0022-4049(88)90074-6">doi;10.1016/0022-4049(88)90074-6</a>\]
  
 
-
-
 On [[accessible categories]] and [[categorical semantics|categorical]] [[model theory]] via [[sketches]]:
 
 * {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics 104. American Mathematical Society, Rhode Island, 1989 ([ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104))
@@ -38,6 +37,10 @@ On [[reflective factorization systems]]:
 On [[strong dinatural transformations]]:
 
 * [[Robert Paré]], Leopoldo Román: *Dinatural numbers*.  Journal of Pure and Applied Algebra **128** 1 (1998) 33–92 \[<a href="https://doi.org/10.1016/S0022-4049(97)00036-4">doi:10.1016/S0022-4049(97)00036-4</a>\]
+
+On the [[Yoneda embedding]] for [[double categories]]:
+
+* [[Robert Paré]]: _Yoneda theory for double categories_, Theory and Applications of Categories **25** 17 (2011) 436-489 &lbrack;[tac:25-17](http://www.tac.mta.ca/tac/volumes/25/17/25-17abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/25/17/25-17.pdf)&rbrack;
 
 
 On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
@@ -142,8 +145,6 @@ On [[2-colimits]] of [[accessible categories]] (i.e. in [[AccCat]]):
 * [[Robert Paré]], _Mealy Morphisms of Enriched Categories_, Applied Categorical Structures, Vol. 20, 2012, pp. 251–273. &lbrack;[doi:10.1007/s10485-010-9238-8](https://doi.org/10.1007/s10485-010-9238-8)&rbrack;
 
 * [[Toby Kenny]] and [[Robert Paré]], _Categories as monoids in Span, Rel and Sup_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 52, No. 3, 2011, pp. 209-240. &lbrack;[cahiers](http://www.numdam.org/item/CTGDC_2011__52_3_209_0/)&rbrack;
-
-* [[Robert Paré]], _Yoneda theory for double categories_, Theory and Applications of Categories, Vol. 25, No. 17, 2011, pp. 436-489. &lbrack;[TAC](http://www.tac.mta.ca/tac/volumes/25/17/25-17abs.html)&rbrack;
 
 * [[Marco Grandis]] and [[Robert Paré]], _From cubical to globular higher categories_, Diagrammes, Vol. S67-68, 2012, pp. 117-148. &lbrack;[journal](http://www.numdam.org/item/DIA_2012__S67-68__117_0/)&rbrack;
 
