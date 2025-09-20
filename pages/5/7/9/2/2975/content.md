@@ -117,11 +117,9 @@ Later, [Gepner-Snaith 08](#GepnerSnaith08) returned to the question of algebraic
 
 * [[Marc Levine]], [[Fabien Morel]], [[Oberwolfach]] Arbeitsgemeinschaft mit aktuellem Thema, April 2005 [report](http://www.ems-ph.org/journals/show_abstract.php?issn=1660-8933&vol=2&iss=2&rank=2), [notes](http://www.ems-ph.org/journals/show_pdf.php?issn=1660-8933&vol=2&iss=2&rank=2)
 
+* [[Ivan Panin]], [[Konstantin Pimenov]], [[Oliver Röndigs]], _A universality theorem for Voevodsky's algebraic cobordism spectrum_, Homology, Homotopy and Applications, 2008, 10(2), 211-226 ([arXiv:0709.4116](http://arxiv.org/abs/0709.4116))
 
-
-* [[Ivan Panin]], K. Pimenov, [[Oliver Röndigs]], _A universality theorem for Voevodsky's algebraic cobordism spectrum_, Homology, Homotopy and Applications, 2008, 10(2), 211-226 ([arXiv:0709.4116](http://arxiv.org/abs/0709.4116))
-
-* [[Ivan Panin]], K. Pimenov, [[Oliver Röndigs]], _On the relation of Voevodsky's algebraic cobordism to Quillen's K-theory_, Inventiones mathematicae, 2009, 175(2), 435-451, [doi:10.1.1.244.7301](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.244.7301), [arXiv:0709.4124](http://arxiv.org/abs/0709.4124).
+* [[Ivan Panin]], [[Konstantin Pimenov]], [[Oliver Röndigs]], _On the relation of Voevodsky's algebraic cobordism to Quillen's K-theory_, Inventiones mathematicae, 2009, 175(2), 435-451, [doi:10.1.1.244.7301](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.244.7301), [arXiv:0709.4124](http://arxiv.org/abs/0709.4124).
 
 * [[Marc Hoyois]], _From algebraic cobordism to motivic cohomology_, [pdf](http://math.mit.edu/~hoyois/papers/hopkinsmorel.pdf), [arXiv](http://arxiv.org/abs/1210.7182).
 
@@ -139,7 +137,7 @@ More chat about the relation to [[motivic homotopy theory]]:
 
 A simpler construction was given in
 
-* M. Levine, R. Pandharipande, _Algebraic cobordism revisited_ ([math.AG/0605196](http://arxiv.org/abs/math/0605196))
+* [[Marc Levine]], [[Rahul Pandharipande]], _Algebraic cobordism revisited_ ([math.AG/0605196](http://arxiv.org/abs/math/0605196))
 
 A [[Borel-Moore homology]] version of $MGL^{*,*}$ is considered in
 
@@ -159,11 +157,11 @@ The close connection of algebraic cobordism with [[K-theory]] is discussed in
 
 An algebraic analogue of h-cobordism:
 
-* Aravind Asok, Fabien Morel, _Smooth varieties up to $\mathbb{A}^1$-homotopy and algebraic h-cobordisms_ ([arXiv:0810.0324](http://arxiv.org/abs/0810.0324)).
+* [[Aravind Asok]], [[Fabien Morel]], _Smooth varieties up to $\mathbb{A}^1$-homotopy and algebraic h-cobordisms_ ([arXiv:0810.0324](http://arxiv.org/abs/0810.0324)).
 
 A construction of algebraic cobordism as a non-[[A1-homotopy theory|$\mathbb{A}^1$-invariant]] [[cohomology theory]] on [[derived schemes]] and the resulting [[Conner-Floyd isomorphism]]:
 
-* Toni Annala, [[Marc Hoyois]], Ryomei Iwasa, _Algebraic cobordism and a Conner-Floyd isomorphism for algebraic K-theory_ ([arXiv:2303.02051](https://arxiv.org/abs/2303.02051)).
+* [[Toni Annala]], [[Marc Hoyois]], [[Ryomei Iwasa]], _Algebraic cobordism and a Conner-Floyd isomorphism for algebraic K-theory_ ([arXiv:2303.02051](https://arxiv.org/abs/2303.02051)).
 
 
 [[!redirects algebraic cobordism spectrum]]
