@@ -27,22 +27,22 @@ Consider
 
 * $G$ a [[Lie group]] and $\mathfrak{g}$ its [[Lie algebra]],
 
-* $B$ an [[orientable]] [[Riemannian manifold]] with Riemannian metric $g$ and volume form $\operatorname{vol}_g$,
+* $X$ an [[orientable]] [[Riemannian manifold]] with Riemannian metric $g$ and volume form $vol_g$,
 
-* $E\twoheadrightarrow B$ a [[principal bundle|principal $G$-bundle]] and $\operatorname{Ad}(E)\coloneqq E\times_G\mathfrak{g}\twoheadrightarrow B$ its [[adjoint bundle]],
+* $P\twoheadrightarrow X$ a [[principal bundle|principal $G$-bundle]] and $Ad(P)\coloneqq P\times_G\mathfrak{g}\twoheadrightarrow X$ its [[adjoint bundle]],
 
-* $A\in\Omega_{\operatorname{Ad}}^1(E,\mathfrak{g})\cong\Omega^1(B,\operatorname{Ad}(E))$ a [[principal connection]],
+* $A\in\Omega_{Ad}^1(P,\mathfrak{g})\cong\Omega^1(X,Ad(P))$ a [[principal connection]],
 
-* $F_A\coloneqq\mathrm{d}A+\frac{1}{2}[A\wedge A]\in\Omega_{\operatorname{Ad}}^2(E,\mathfrak{g})\cong\Omega^2(B,\operatorname{Ad}(E))$ its [[curvature]]. If $A$ is a Yang-Mills connection, $F_A$ is also called [[Yang-Mills field]].
+* $F_A\coloneqq\mathrm{d}A+\frac{1}{2}[A\wedge A]\in\Omega_{Ad}^2(P,\mathfrak{g})\cong\Omega^2(X,Ad(P))$ its [[curvature]]. If $A$ is a Yang-Mills connection, $F_A$ is also called [[Yang-Mills field]].
 
 ## Definition
 
 The _Yang-Mills action functional_ (or _YM action functional_) is given by:
 
 $$
-\operatorname{YM}\colon\Omega^1(B,\operatorname{Ad}(E))\rightarrow\mathbb{R},
+\operatorname{YM}\colon\Omega^1(X,\operatorname{Ad}(P))\rightarrow\mathbb{R},
 \operatorname{YM}(A)
-\coloneqq\int_B\|F_A\|^2\mathrm{d}\operatorname{vol}_g.
+\coloneqq\int_X\|F_A\|^2\mathrm{d}\operatorname{vol}_g.
 $$
 
 $A$ is called a _stable Yang-Mills connection_ (or _stable YM connection_) iff:
@@ -52,7 +52,7 @@ $$
 \gt 0
 $$
 
-for all smooth families $\alpha\colon(-\varepsilon,\varepsilon)\rightarrow\Omega^1(B,\operatorname{Ad}(E))$ with $\alpha(0)=A$. It is called _weakly stable_ if only $\geq 0$ holds. If it is not weakly stable, it is called _unstable_.
+for all smooth families $\alpha\colon(-\varepsilon,\varepsilon)\rightarrow\Omega^1(X,\operatorname{Ad}(P))$ with $\alpha(0)=A$. It is called _weakly stable_ if only $\geq 0$ holds. If it is not weakly stable, it is called _unstable_.
 
 ([Chiang 2013, Definition 3.1.7](#Chiang13))
 
@@ -64,6 +64,54 @@ $$
 $$
 
 If $A$ is a (weakly) stable or unstable Yang-Mills connection, $F_A$ is also called _(weakly) stable_ or _unstable Yang-Mills field_.
+
+\begin{theorem}
+**(Formula for Yang--Mills stability)**
+Let $\alpha\colon(-\varepsilon,\varepsilon)\rightarrow\Omega^1(X,Ad(P))$ be a path with $A=\alpha(0)$, $B=\alpha'(0)$ and $C=\alpha''(0)$, then:
+$$
+\frac{\mathrm{d}^2}{\mathrm{d}t^2}YM(\alpha(t))\vert_{t=0}
+=\int_X\|\mathrm{d}_A B\|^2
++\langle F_A,[B\wedge B]\rangle
++\langle\underbrace{\delta_A F_A}_{YM},C\rangle\mathrm{d}vol_g.
+$$
+\end{theorem}
+The [[Yang-Mills equations]] are $\delta_A F_A=0$ and therefore the formula simplifies for a [[Yang-Mills connection]] $A$. In this case it also becomes independent of $C$.
+\begin{proof}
+One has the following derivatives for the [[curvature]]:
+$$
+\frac{\mathrm{d}}{\mathrm{d}t}F_{\alpha(t)}
+=\frac{\mathrm{d}}{\mathrm{d}t}\left(\mathrm{d}\alpha(t)+\frac{1}{2}[\alpha(t)\wedge\alpha(t)]\right)
+=\mathrm{d}\alpha'(t)+[\alpha(t)\wedge\alpha'(t)]
+=\mathrm{d}_{\alpha(t)}\alpha'(t);
+$$
+$$
+\frac{\mathrm{d}^2}{\mathrm{d}t^2}F_{\alpha(t)}
+=\mathrm{d}_{\alpha(t)}\alpha''(t)
++[\alpha'(t)\wedge\alpha'(t)],
+$$
+which combine together into the following second derivative for the [[Yang-Mills action functional]]:
+$$
+\begin{aligned}
+\frac{\mathrm{d}^2}{\mathrm{d}t^2}YM(\alpha(t))\vert_{t=0}
+&=\int_X\left\|\frac{\mathrm{d}}{\mathrm{d}t}F_{\alpha(t)}\right\|^2
++\left\langle F_{\alpha(t)},\frac{\mathrm{d}^2}{\mathrm{d}t^2}F_{\alpha(t)}\right\rangle\mathrm{d}vol_g\vert_{t=0} \\
+&=\int_X\left\|\mathrm{d}_{\alpha(t)}\alpha'(t)\right\|^2
++\left\langle F_{\alpha(t)},\mathrm{d}_{\alpha(t)}\alpha''(t)
++[\alpha'(t)\wedge\alpha'(t)]\right\rangle\mathrm{d}vol_g\vert_{t=0} \\
+&=\int_X\|\mathrm{d}_A B\|^2
++\langle F_A,\mathrm{d}_A C+[B\wedge B]\rangle.
+\end{aligned}
+$$
+\end{proof}
+Since the first term is always positive, leaving it out directly implies:
+\begin{corollary}
+If $A\in\Omega^1(X,Ad(P))$ is a [[Yang-Mills connection]] with:
+$$
+\int_X\langle F_A,[B\wedge B]\rangle\mathrm{d}\vol_g
+\gt 0\;\text{(or}\geq 0\text{)}
+$$
+for all $B\in\Omega^1(X,Ad(P))$, then it is stable (or weakly stable).
+\end{corollary}
 
 ## Properties
 
