@@ -2340,6 +2340,6 @@ is a class of proper maps containing (necessarily proper) maps of compact Hausdo
 
 * [[Misha Gavrilovich]], *The unreasonable power of the lifting property in elementary mathematics*, 2017 ([arXiv:1707.06615](https://arxiv.org/abs/1707.06615),  [pdf](http://mishap.sdf.org/by:gavrilovich/expressive_power_of_the_lifting_property.pdf))
 
-* [[Misha Gavrilovich]], Konstantin Pimenov. *A naive diagram chasing approach to formalisation of tame topology.*, 2018 ([pdf](http://mishap.sdf.org/mintsGE.pdf))
+* [[Misha Gavrilovich]], [[Konstantin Pimenov]]. *A naive diagram chasing approach to formalisation of tame topology.*, 2018 ([pdf](http://mishap.sdf.org/mintsGE.pdf))
 
 * [[Misha Gavrilovich]], *Extremally disconnected spaces as $\{\{u\to a,b\leftarrow v\}\to\{u\to a=b\leftarrow v\}\}^{lr}$, and being proper as $(\{\{o\}\to\{o\to c\}\}^r_{\le 4})^{lr}$*, 2021 ([pdf](http://mishap.sdf.org/yetanothernotanobfuscatedsyntax.pdf))
