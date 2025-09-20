@@ -41,7 +41,7 @@ The further [[stacky quotient]] of $G(\mathbf{Q})\backslash G(\mathbf{A})$ by $G
 
 Relation to [[Yang-Mills theory]] and the [[moduli space of connections]]:
 
-* Aravind Asok, Brent Doran, Frances Kirwan, _Yang-Mills theory and Tamagawa numbers_ ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733))
+* [[Aravind Asok]], [[Brent Doran]], [[Frances Kirwan]], _Yang-Mills theory and Tamagawa numbers: the fascination of unexpected links in mathematics._, Bulletin of the London Mathematical Society (2008), ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733))
 
 Some other relation to [[quantum mechanics]] and maybe to the [[Witten genus]] (?) is claimed in 
 
