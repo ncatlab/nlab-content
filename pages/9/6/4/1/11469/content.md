@@ -173,7 +173,7 @@ The [[moduli stack]] of [[principal bundles]] was studied in more generality in
 
 See also
 
-* Aravind Asok, Brent Doran, Frances Kirwan. _Yang&#8211;Mills theory and Tamagawa numbers: the fascination of unexpected links in mathematics._ Bulletin of the London Mathematical Society (2008), [arXiv](http://arxiv.org/abs/0801.4733).
+* [[Aravind Asok]], [[Brent Doran]], [[Frances Kirwan]]. _Yang&#8211;Mills theory and Tamagawa numbers: the fascination of unexpected links in mathematics._, Bulletin of the London Mathematical Society (2008), ([arXiv:0801.4733](http://arxiv.org/abs/arXiv:0801.4733)).
 
 [[!redirects Weil conjecture on Tamagawa number]]
 
