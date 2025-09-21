@@ -6,7 +6,7 @@
 
 * [[MFr]]
 
-* [[MO]], [[MSO]], [[MSpin]], [[MString]], ...
+* [[MO]], [[MSO]], [[MSpin]], [[MString]], [[MFivebrane]], [[MNinebrane]] ...
 
 * [[MU]], [[MSU]], ...
 
@@ -14,7 +14,7 @@
 
   [[MP-theory|MP]], [[MR-theory|MR]]
 
-* [[MSpin^c|MSpin<sup><i>c</i></sup>]]
+* [[MSpin^c|MSpin<sup><i>c</i></sup>]], [[MSpin^h|MSpin<sup><i>h</i></sup>]]
 
 * [[MSp]]
 
