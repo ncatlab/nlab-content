@@ -58,10 +58,10 @@ $$
 
 From the canonical projections $Ninebrane(n)\twoheadrightarrow Fivebrane(n)\twoheadrightarrow String(n)$ and $Ninebrane\twoheadrightarrow Fivebrane\twoheadrightarrow String$, there are canonical spectrum morphisms:
 $$
-MNinebrane(n)\twoheadrightarrow MFivebrane(n)\twoheadrightarrow MString(n);
+MNinebrane(n)\rightarrow MFivebrane(n)\rightarrow MString(n);
 $$
 $$
-MNinebrane\twoheadrightarrow MFivebrane\twoheadrightarrow MString.
+MNinebrane\rightarrow MFivebrane\rightarrow MString.
 $$
 
 ## Properties
@@ -69,8 +69,8 @@ $$
 According to [[Thom's theorem]], there is an isomorphism:
 $$
 \Omega_n^{Fivebrane}
-\cong\pi_n Fivebrane
-=\lim_{k\rightarrow\infty}\pi_k Fivebrane_{n+k}.
+\cong\pi_n MFivebrane
+=\lim_{k\rightarrow\infty}\pi_k MFivebrane_{n+k}.
 $$
 
 ## Related concepts
