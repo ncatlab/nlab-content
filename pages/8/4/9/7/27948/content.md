@@ -22,7 +22,7 @@
 
 ## Idea
 
-A _spinʰ spectrum_ is the [[Thom spectrum]] of the [[universal vector bundle]] over a [[spinʰ group]]. Their limit over the infinite spinh group is of particular interest since its [[generalized homology theory]] describes spinʰ bordisms.
+A _spinʰ spectrum_ is the [[Thom spectrum]] of the [[universal vector bundle]] over a [[spinʰ group]]. Their limit over the infinite spinʰ group is of particular interest since its [[generalized homology theory]] describes spinʰ bordisms.
 
 ## Definition
 
@@ -61,6 +61,19 @@ MSpin(n)\rightarrow MSpin^\mathrm{c}(n)\rightarrow MSpin^\mathrm{h}(n);
 $$
 $$
 MSpin\rightarrow MSpin^\mathrm{c}\rightarrow MSpin^\mathrm{h}.
+$$
+
+## Examples
+
+Due to the isomophisms $Spin^\mathrm{h}(1)\cong Sp(1)\cong SU(2)$ and $Spin^\mathrm{h}(2)\cong U(2)$ there are isomorphisms:
+$$
+MSpin^\mathrm{h}(1)
+\cong MSp(1)
+\cong MSU(2);
+$$
+$$
+MSpin^\mathrm{h}(2)
+\cong MU(2).
 $$
 
 ## Properties
