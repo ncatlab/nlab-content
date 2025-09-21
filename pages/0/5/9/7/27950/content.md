@@ -58,10 +58,10 @@ $$
 
 From the canonical projections $O(n)\langle 16\rangle\twoheadrightarrow Ninebrane(n)\twoheadrightarrow Fivebrane(n)$ and $O\langle 16\rangle\twoheadrightarrow Ninebrane\twoheadrightarrow Fivebrane$ , there are canonical spectrum morphisms:
 $$
-MO(n)\langle 16\rangle \twoheadrightarrow MNinebrane(n)\twoheadrightarrow MFivebrane(n);
+MO(n)\langle 16\rangle\rightarrow MNinebrane(n)\rightarrow MFivebrane(n);
 $$
 $$
-MO\langle 16\rangle \twoheadrightarrow MNinebrane\twoheadrightarrow MFivebrane.
+MO\langle 16\rangle\rightarrow MNinebrane\rightarrow MFivebrane.
 $$
 
 ## Properties
@@ -69,8 +69,8 @@ $$
 According to [[Thom's theorem]], there is an isomorphism:
 $$
 \Omega_n^{Ninebrane}
-\cong\pi_n Ninebrane
-=\lim_{k\rightarrow\infty}\pi_k Ninebrane_{n+k}.
+\cong\pi_n MNinebrane
+=\lim_{k\rightarrow\infty}\pi_k MNinebrane_{n+k}.
 $$
 
 ## Related concepts
