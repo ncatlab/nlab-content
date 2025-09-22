@@ -32,7 +32,7 @@ In the [previous chapter](#FreeQuantumFields) we have found the [[quantization]]
 
 Of course most [[quantum field theories]] of interest are non-[[free field theories|free]]; they are _[[interacting field theories]]_ whose [[equations of motion]] is a _non-linear_ differential equation. The archetypical example is the coupling of the [[Dirac field]] to the [[electromagnetic field]] via the [[electron-photon interaction]], corresponding to the [[interacting field theory]] called _[[quantum electrodynamics]]_ (discussed [below](#QuantumElectrodynamics)).
 
-In principle the [[perturbative quantum field theory|perturbative]] [[quantization]] of such non-[[free field theory]] [[interacting field theories]] proceeds the same way: One picks a [[BV-BRST complex|BV-BRST]]-[[gauge fixing]], computes the [[Peierls-Poisson bracket]] on the resulting [[covariant phase space]] ([Khavkine 14](Peierls+bracket#Khavkine14)) and then finds a [[formal deformation quantization]] of this [[Poisson structure]] to obtain the quantized [[non-commutative algebra]] of [[quantum observables]], as [[formal power series]] in [[Planck's constant]] $\hbar$.
+In principle, the [[perturbative quantum field theory|perturbative]] [[quantization]] of such non-[[free field theory|free]] [[interacting field theories]] proceeds the same way: One picks a [[BV-BRST complex|BV-BRST]]-[[gauge fixing]], computes the [[Peierls-Poisson bracket]] on the resulting [[covariant phase space]] ([Khavkine 14](Peierls+bracket#Khavkine14)) and then finds a [[formal deformation quantization]] of this [[Poisson structure]] to obtain the quantized [[non-commutative algebra]] of [[quantum observables]], as [[formal power series]] in [[Planck's constant]] $\hbar$.
 
 It turns out ([Collini 16](perturbative+algebraic+quantum+field+theory#Collini16), [Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16), prop. \ref{InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization} below)
 that the resulting [[interacting field theory|interacting]] [[formal deformation quantization]] may equivalently be expressed in terms of _[[scattering amplitudes]]_ (example \ref{ScatteringAmplitudeFromInteractingFieldObservables} below): These are the [[probability amplitudes]] for [[plane waves]] of [[free fields]] to come in from the far [[past]], then [[interaction|interact]] in a compact region of [[spacetime]] via the given [[interaction]] ([[adiabatic switching|adiabatically switched-off]] outside that region) and to emerge again as [[free fields]] into the far [[future]].
@@ -4385,10 +4385,10 @@ uniquely specified from $\{T_k\}_{k \leq n}$ via the [[star product]] induced by
 and the fact that, on [[Minkowski spacetime]], this is manifestly translation invariant and independent of the fields
 (e.q. prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}).
 
-The third statement requires work. That the [[quantum master equation]]/([[master Ward identity]]
+The third statement requires work. That the [[quantum master equation]]/[[master Ward identity]]
 always holds on [[regular polynomial observables]] is prop. \ref{QuantumMasterEquation} below.
 That it holds for $T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}$ if it holds for $\{T_k\}_{k \leq n}$
-is shown in ([Duetsch 18, section 4.2.2](S-matrix#Duetsch18)).
+is shown in [Duetsch 18, section 4.2.2](S-matrix#Duetsch18).
 
 =--
 
