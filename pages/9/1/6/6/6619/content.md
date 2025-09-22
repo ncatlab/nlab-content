@@ -255,9 +255,9 @@ A notion of [[polarization]] and of actual [[geometric quantization]] of symplec
 
 * {#Weinstein91} [[Alan Weinstein]], _Noncommutative geometry and geometric quantization_ in P. Donato et al. (eds.) _Symplectic geometry and Mathematical physics_, Birkh&#228;user 1991
 
-and is further developed in
+and is further developed, via [[groupoid convolution algebra]], in:
 
-* {#EH} [[Eli Hawkins]], _A groupoid approach to quantization_,  J. Symplectic Geom. Volume 6, Number 1 (2008), 61-125. ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
+* {#EH} [[Eli Hawkins]]: *A groupoid approach to quantization*,  J. Symplectic Geom. **6** 1 (2008) 61-125 \[<a href="https://projecteuclid.org/journals/journal-of-symplectic-geometry/volume-6/issue-1/A-groupoid-approach-to-quantization/jsg/1215032733.full">jsg:1215032733</a>, [arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363)\]
   
 
 The case over Poisson vector spaces leading to [[Moyal quantization]] was proven earlier in 
