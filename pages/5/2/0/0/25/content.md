@@ -188,7 +188,7 @@ contains a general theory of horizontal categorification of a notion of algebrai
 
 * [[John Baez]], [_Ringoids_](http://golem.ph.utexas.edu/category/2006/09/ringoids.html)
 
-* [[John Baez]], [_Higher Operads, Higher Categories_](https://arxiv.org/abs/math/0305049)
+* [[Tom Leinster]], [_Higher Operads, Higher Categories_](https://arxiv.org/abs/math/0305049)
 
 * [[Eugenia Cheng]], [_Comparing operadic theories of $n$-category_](https://arxiv.org/pdf/0809.2070)
 
