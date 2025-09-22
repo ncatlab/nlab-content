@@ -239,6 +239,11 @@ For $E$ an [[E-∞ ring]], then in the [[(∞,1)-category of (∞,1)-modules]] $
 See at _[[(∞,1)-category of (∞,1)-modules]] – [Compact generation]((∞,1\)-category+of+(∞,1\)-modules#CompactGeneration)_ for more.
 \end{example}
 
+\begin{example}
+([Coulembier, Theorem 2.1.1](#Coulembier).)
+If $n\ge0$, $k$ is a [[commutative ring]] in which $n!$ is invertible, $C$ is a $k$-linear [[symmetric monoidal category]] with [[finite colimits]], and $\Lambda^n X$ is an [[invertible object]], then $X$ is dualizable, with $X^*\cong(\Lambda^n X)^* \otimes \Lambda^{n-1}X$.
+\end{example}
+
 
 ### Properties
 
@@ -494,6 +499,8 @@ See also:
 Further examples:
 
 * [[Kate Ponto]] and [[Mike Shulman]], _Traces in symmetric monoidal categories_, ([arXiv:1107.6032](http://arxiv.org/abs/1107.6032))
+
+* Kevin Coulembier, _Invertible exterior powers_, [arXiv](https://arxiv.org/abs/2507.14803).
 
 On [[self-dual objects]] and the corresponding [[inner products]] and [[dagger-category|dagger-structure]]:
 
