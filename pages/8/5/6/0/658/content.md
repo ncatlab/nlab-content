@@ -219,9 +219,11 @@ Original articles:
 
 Some of these ideas were exposed at Oberwolfach in 1966. There are extant notes taken by [[Anders Kock]] of a talk by [[Bill Lawvere]], but there is only a passing mention of 'generalised functors' (what are now called profunctors) and their 'generalised matrix multiplication'.
 
-Texbook account:
+Textbook account:
 
 * [[Francis Borceux]], Sec. 7.7 _[[Handbook of Categorical Algebra]] I_, Cambridge UP 1994. 
+
+* [[Fosco Loregian]]. Profunctors. In: (Co)End Calculus. London Mathematical Society Lecture Note Series. Cambridge University Press; 2021:126-160. ([doi](https://doi.org/10.1017/9781108778657.006)).
 
 Lecture notes:
 
