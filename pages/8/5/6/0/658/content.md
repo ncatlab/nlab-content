@@ -279,6 +279,10 @@ Distributions on a category as lax functors into the category of distributors ar
 
 * {#Benabou95} [[Jean Bénabou]], _Distributions and 2-descent_, (1995), [pdf](https://oda.mfo.de/themes/MFO/vendor/pdfjs-dist-viewer-min/build/minified/web/viewer.html?file=https://oda.mfo.de/bitstream/handle/mfo/102/full-text.pdf#page=275)
 
+On its restriction to [[groupoid|groupoids]] and its relation to the [[Burnside category]]
+
+* [[Haynes Miller]]. *The Burnside bicategory of groupoids*. (2012). ([arXiv:1208.2360](https://arxiv.org/abs/1208.2360)). ([doi](https://doi.org/10.1007/s40590-016-0143-5)).
+
 ## Notation ## {#notation}
 
 Profunctors are often notated with a slashed or barred arrow, as in $C$&#8696;$D$, which is U+21F8 in Unicode.  It is not always obvious how to draw this character, so here are some hints.
