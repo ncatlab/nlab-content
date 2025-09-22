@@ -34,10 +34,6 @@ A [[2-category equipped with proarrows]] is, by definition, a bijective-on-objec
 
 Hence the inclusion $Map M \to M$ is the "universal" proarrow equipment that can be constructed with a given bicategory $M$ as its bicategory of proarrows.  More precisely, there is a forgetful functor from $Equip$ to $Bicat$ which remembers only the bicategory $M$ of proarrows, and the assignment of $M$ to $Map M \to M$ is its right adjoint.
 
-+--{: .query}
-[[Mike Shulman]]: This is obviously morally true, but I can't be bothered right now to check which 1-, 2-, or 3-categories of equipments and bicategories one has to use to make it precisely correct.
-=--
-
 A lot of work in bicategories that makes use of maps can easily be reformulated in a proarrow equipment. One advantage of proarrow equipments over bicategories of maps is they can distinguish between a category and its Cauchy completion (as objects of [[Prof]]).
 
 ## See also 
