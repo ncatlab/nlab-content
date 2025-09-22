@@ -441,6 +441,7 @@ In a final step of the traditional argument one applies a [[renormalization]] ar
 
 
 #### The renormalization choice
+ {#AbelianCSWIlsonLoopsTheRenormalizationChoice}
 
 [Polyakov 1988 (5)](#Polyakov88) considered one regularization of (eq:AbelianCSPropagatorForComputationOfWilsonLoops). Another one was by [Leukert & Schäfer 1996 §7](#LeukertSchäfer96) (there on a backdrop of a rigorous construction of the [[path integral]] [[measure]], which however still leaves the Wilson loop observable ill-defined). 
 
