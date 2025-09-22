@@ -48,6 +48,13 @@ Review:
 
 * [[Alberto Ibort]]: *The groupoid picture of Quantum Mechanics*, [talk at](CQTS#IbortApr2025) [[CQTS]] (23 Apr 2025) \[slides:[[Ibort-CQTS-Apr2025.pdf:file]], video: [zm](https://nyu.zoom.us/rec/share/wpxjPBiUAMt5oTdBwgD39RvzzjvcMvnD5DsQ8A1cF5_QaBWO5HGAWcS4IOi7TPwV.9i7MJDWMkmQ8qM7E)\]
 
+Discussion of [[C* algebraic deformation quantization]] of [[Poisson manifolds]] as [[geometric quantization of symplectic groupoids]] via (twisted) groupoid convolution algebra of [[symplectic groupoids]]:
+
+* [[Eli Hawkins]]: *A groupoid approach to quantization*,  J. Symplectic Geom. **6** 1 (2008) 61-125 \[<a href="https://projecteuclid.org/journals/journal-of-symplectic-geometry/volume-6/issue-1/A-groupoid-approach-to-quantization/jsg/1215032733.full">jsg:1215032733</a>, [arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363)\]
+
+* [[Joost Nuiten]], §3.3.1-2 of: *[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]*, MSc thesis, Utrecht (2013) \[<a href="https://studenttheses.uu.nl/handle/20.500.12932/14957">hdl:20.500.12932/14957</a>, [pdf](/schreiber/files/thesisNuiten.pdf), slides:[pdf](/schreiber/files/thesisNuitenTalk.pdf)\]
+
+
 Proof that [[C* algebraic deformation quantization|non-perturbative]] [[quantum observables]] on [[Yang-Mills theory|Yang-Mill]] [[fluxes]] through a [[surface]] form a [[convolution algebra]]:
 
 * [[Hisham Sati]], [[Urs Schreiber]], Thm 1 in: *[[schreiber:Quantum Observables of Quantized Fluxes]]*, Annales Henri Poincaré (2024) \[<a href="https://doi.org/10.1007/s00023-024-01517-z">doi:10.1007/s00023-024-01517-z</a>, [arXiv:2312.13037](https://arxiv.org/abs/2312.13037)\]
