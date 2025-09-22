@@ -441,7 +441,7 @@ Under the evident translation between "framing" in the above sense of *[[framed 
 
 The above discussion follows:
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Abelian Anyons on Flux-Quantized M5-Branes]]* &lbrack;[arXiv:2408.11896](https://arxiv.org/abs/2408.11896)&rbrack;
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cohomotopy and Framed Links|Cohomotopy, Framed Links, and Abelian Anyons]]* &lbrack;[arXiv:2408.11896](https://arxiv.org/abs/2408.11896)&rbrack;
 
 After writing this up we learned of the following set of slides, where very similar pictures were already drawn (p. 23-30 and pp. 52):
 
