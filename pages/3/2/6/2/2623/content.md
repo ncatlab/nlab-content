@@ -4653,6 +4653,8 @@ Informal introductions:
 
 Further review:
 
+* Bertrand Delamotte: *A hint of renormalization*, Americal Journal of Physics **72** (2004) 170-184 &lbrack;[arXiv:hep-th/0212049](https://arxiv.org/abs/hep-th/0212049), [doi:10.1119/1.1624112](https://doi.org/10.1119/1.1624112)&rbrack;
+
 *  V. Mastropietro, *Renormalization: general theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.11400](https://arxiv.org/abs/2312.11400)&rbrack;
 
 More informal (and historical) review by and for [[philosophy of physics|philosophers of physics]]:
