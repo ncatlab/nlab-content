@@ -161,6 +161,9 @@ Via [[factorization algebras]] and [[classifying spaces]]:
 
 * [[Owen Gwilliam]]: *Remarks on the locality of generalized global symmetries* &lbrack;[arXiv:2504.05626](https://arxiv.org/abs/2504.05626)&rbrack;
 
+Via [[automorphism infinity-group|higher automorphism groups]]:
+
+* [[Alonso Perez-Lona]]: *Higher-form symmetries as higher automorphism bundles* &lbrack;[arXiv:2509.15301](https://arxiv.org/abs/2509.15301)&rbrack;
 
 Further activity:
 
