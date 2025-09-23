@@ -576,7 +576,7 @@ is advantageous to represent the vortices simply by their
 
 In an FQH system, when one quasi-hole (unpaired [[flux quantum]]) is [[quantum adiabatic theorem|adiabatically]] moved past another, hence one quasi-hole moved along *[[hemisphere|half]]* a [[circle]] centered at the other, then their joint [[quantum state]] picks up a [[Berry phase]] 
 $$
-  e^{ \mathrm{i}  \theta} 
+  e^{ \mathrm{i} \pi \theta} 
 $$ 
 in [[U(1)|$U(1)$]] $\subset \mathbb{C}$, exhibiting the quasi-holes as [[abelian anyons]].
 
