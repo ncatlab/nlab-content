@@ -7,6 +7,7 @@
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=34063)
 
 
+
 ## Selected writings:
 
 On [[tmf]]:
@@ -24,6 +25,11 @@ On [[octahedron recurrence]] and [[crystal bases]]
 On identifying [[W*-category|$W^\ast$-categories]] with [[2-Hilbert spaces]]:
 
 * [[André Henriques]], [[Nivedita]], [[David Penneys]]: *Complete $W^\ast$-categories* &lbrack;[arXiv2411.01678](https://arxiv.org/abs/2411.01678)&rbrack;
+
+On relating [[conformal nets]] to [[vertex operator algebras]]:
+
+* [[André G. Henriques]], [[James E. Tener]]: *Every conformal net has an associated unitary VOA* &lbrack;[arXiv:2507.20735](https://arxiv.org/abs/2507.20735)&rbrack;
+
 
 
 
@@ -43,3 +49,5 @@ On identifying [[W*-category|$W^\ast$-categories]] with [[2-Hilbert spaces]]:
 category: people
 
 [[!redirects Andre Henriques]]
+[[!redirects André G. Henriques]]
+[[!redirects Andre G. Henriques]]
