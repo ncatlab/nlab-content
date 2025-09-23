@@ -1,5 +1,4 @@
 
-# Ananatural transformations
 * table of contents
 {: toc}
 
