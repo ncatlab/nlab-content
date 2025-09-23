@@ -76,6 +76,11 @@ For [[super Yang-Mills theory]] in [[light cone gauge]]:
 
 * Nipun Bhave, Saurabh Pant, *Nicolai maps and uniqueness in the light-cone gauge* &lbrack;[arXiv:2406.18238](https://arxiv.org/abs/2406.18238)&rbrack;
 
+For [[supergravity]]:
+
+* Federico Arrighi, Saurish Khandelwal, [[Olaf Lechtenfeld]]: *Towards a Nicolai map for supergravity* &lbrack;[arXiv:2509.17973](https://arxiv.org/abs/2509.17973)&rbrack;
+
+
 
 
 
