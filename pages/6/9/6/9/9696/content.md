@@ -41,7 +41,7 @@ and via [[adiabatic quantum computation]]:
 
 * [[Andrew Childs]], [[Edward Farhi]], [[John Preskill]], *Robustness of adiabatic quantum computation*, Phys.Rev. A **65** (2002) 012322 &lbrack;[arXiv:quant-ph/0108048](https://arxiv.org/abs/quant-ph/0108048), [doi:10.1103/PhysRevA.65.012322](https://doi.org/10.1103/PhysRevA.65.012322)&rbrack;
 
-In [[quantum measurement]] of [[Wilson loops]]:
+On [[quantum measurement]] of [[Wilson loops]]:
 
 * [[David Beckman]], [[Daniel Gottesman]], [[Alexei Kitaev]], [[John Preskill]]: *Measurability of Wilson loop operators*, Phys. Rev. D **65** (2002) 065022 &lbrack;[arXiv:hep-th/0110205](https://arxiv.org/abs/hep-th/0110205), [doi:10.1103/PhysRevD.65.065022](https://doi.org/10.1103/PhysRevD.65.065022)&rbrack;
 
