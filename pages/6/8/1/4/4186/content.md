@@ -101,15 +101,17 @@ Relation to [[vertex operator algebras]] is discussed in
 
 * {#CarpiKawahigahshiLongoWeiner15} [[Sebastiano Carpi]], [[Yasuyuki Kawahigashi]], [[Roberto Longo]], Mih&#225;ly Weiner, _From vertex operator algebras to conformal nets and back_, Memoirs of the American Mathematical Society, Volume 254, Number 1213 2018;  ([doi:10.1090/memo/1213](https://doi.org/10.1090/memo/1213), [arXiv:1503.01260](http://arxiv.org/abs/1503.01260))
 
-* {#Carpi16} [[Sebastiano Carpi]], _Operator algebras and vertex operator algebras_, Contribution to the Proceedings of the 14th Marcel Grossmann Meeting - MG14 (Rome, 2015) ([arXiv:1603.06742](http://arxiv.org/abs/1603.06742))
+* {#Carpi16} [[Sebastiano Carpi]]: _Operator algebras and vertex operator algebras_, Contribution to the Proceedings of the 14th Marcel Grossmann Meeting - MG14 (Rome, 2015) &lbrack;[arXiv:1603.06742](http://arxiv.org/abs/1603.06742)&rbrack;
+
+* [[André G. Henriques]], [[James E. Tener]]: *Every conformal net has an associated unitary VOA* &lbrack;[arXiv:2507.20735](https://arxiv.org/abs/2507.20735)&rbrack;
 
 and for [[super vertex operator algebras]]:
 
 * [[Sebastiano Carpi]], [[Tiziano Gaudio]], [[Robin Hillier]], *From vertex operator superalgebras to graded-local conformal nets and back* &lbrack;[arXiv:2304.14263](https://arxiv.org/abs/2304.14263)&rbrack;
 
-See also
+See also:
 
-* James E. Tener, _Representation theory in chiral conformal field theory: from fields to observables_ ([arXiv:1810.08168](https://arxiv.org/abs/1810.08168))
+* [[James E. Tener]]: *Representation theory in chiral conformal field theory: from fields to observables*, Selecta Math. New Series **25** (2019) 76 &lbrack;[doi:10.1007/s00029-019-0526-3](https://doi.org/10.1007/s00029-019-0526-3), [arXiv:1810.08168](https://arxiv.org/abs/1810.08168)&rbrack;
 
 Relation of the corresponding [[ribbon categories]]:
 
