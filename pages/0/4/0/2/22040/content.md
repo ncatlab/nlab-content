@@ -137,6 +137,15 @@ denoting the $S(\mathbb{K})$-[[universal principal bundle]] over the [[classifyi
   } 
 \]
 
+There are furthermore canonical maps:
+$$
+S^{dim\mathbb{K}}
+\cong\mathbb{K} P^1
+\hookrightarrow\mathbb{K}P^\infty
+\cong B S(\mathbb{K}),
+$$
+which generate their respective first non-trivial [[homotopy group]] $\pi_{dim\mathbb{K}}B S(\mathbb{K})\cong\pi_{dim\mathbb{K}-1}S(\mathbb{K})$ (which is $\mathbb{Z}_2$ for $\mathbb{K}=\mathbb{R}$ and $\mathbb{Z}$ for $\mathbb{K}=\mathbb{C},\mathbb{H}$).
+
 ### Thom spaces
 
 The [[Thom space]] of a [[real vector bundle|real]] [[topological vector bundle]] $\mathcal{V}_X$ over some base space $X$ is the [[homotopy cofiber]] of its associated [[spherical fibration]]:
@@ -147,7 +156,7 @@ The [[Thom space]] of a [[real vector bundle|real]] [[topological vector bundle]
   \overset{ p_{S(\mathcal{V}_X)} }{\longrightarrow} 
   X
   \overset{ hocofib }{\longrightarrow} 
-  Th(X)
+  Th(\mathcal{V}_X)
   \,.
 \]
 
@@ -159,7 +168,7 @@ When the [[topological space]] $X$ has the [[mathematical structure|structure]] 
   \overset{ i_{S_X(\mathcal{V}_X)} }{\longrightarrow} 
   D_X(\mathcal{V}_X)
   \overset{ cofib }{\longrightarrow} 
-  Th(X)
+  Th(\mathcal{V}_X)
   \,.
 \]
 
@@ -180,7 +189,7 @@ Finally, since the [[zero section]] of the unit disk bundle is manifestly the  [
    \overset
     {cofib\big(  i_{S_X(\mathcal{V}_X)} \big)}
     {\longrightarrow}
-  Th(X)
+  Th(\mathcal{V}_X)
 \]
 
 the zero-section _into_ the Thom spaces.
@@ -366,6 +375,17 @@ Since [[homotopy cofibers]] are preserved, up to [[weak equivalence]], by weak e
 
 This is the statement that was to be shown. Or more explicitly: By [[two-out-of-three]] also the [[composition|composite]] vertical morphism on the right is a weak homotopy equivalence, which is the desired morphism in the form (eq:ZeroSectionIntoTheThomSpace).
 \end{proof}
+
+\begin{prop}
+The composition of the above canonical [[sphere]] inclusion with the above [[weak homotopy equivalence]]:
+$$
+Th(\mathbb{K})
+=S^{dim\mathbb{K}}
+\rightarrow B S(\mathbb{K})
+\rightarrow Th(E S(\mathbb{K})\times_{S(\mathbb{K})}\mathbb{K})
+$$
+is homotopic to a map induced on Thom spaces by a fiber inclusion $\mathbb{K}\hookrightarrow E S(\mathbb{K})\times_{S(\mathbb{K})}\mathbb{K}$. In particular, it generates the first non-trivial [[homotopy group]] $\pi_{dim\mathbb{K}}Th(E S(\mathbb{K})\times_{S(\mathbb{K})}\mathbb{K})$.
+\end{prop}
 
 ## Related statements
 
