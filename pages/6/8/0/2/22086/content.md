@@ -31,6 +31,9 @@ A different but closely analogous development for chiral 2d CFT ([[vertex operat
 
 * {#Huang91} [[Yi-Zhi Huang]], _Geometric interpretation of vertex operator algebras_, Proc. Natl. Acad. Sci. USA __88__ (1991) pp. 9964-9968 ([doi:10.1073/pnas.88.22.9964](https://doi.org/10.1073/pnas.88.22.9964))
 
+* [[James E. Tener]]: *Representation theory in chiral conformal field theory: from fields to observables*, Selecta Math. New Series **25** (2019) 76 \[<a href="https://doi.org/10.1007/s00029-019-0526-3">doi:10.1007/s00029-019-0526-3</a>, [arXiv:1810.08168](https://arxiv.org/abs/1810.08168)\]
+
+
 Discussion of the case of [[Liouville theory]]:
 
 * [[Colin Guillarmou]], [[Antti Kupiainen]], [[Rémi Rhodes]], [[Vincent Vargas]], *Segal's axioms and bootstrap for Liouville Theory* \[<a href="https://arxiv.org/abs/2112.14859">arXiv:2112.14859</a>\]
