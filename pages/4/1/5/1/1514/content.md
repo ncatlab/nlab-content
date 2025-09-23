@@ -37,7 +37,11 @@ The notion of **path integral** originates in and is mainly used in the context 
 The idea is that the quantum propagator -- in [[FQFT]] the value of the functor $U : Cob \to Vect$ on a certain [[cobordism]] -- is given by an [[integral kernel]] $U : \psi \mapsto \int K(-,y) \psi(y) d\mu$ where $K(x,y)$ is something like the integral of the exponentiated [[action functional]] $S$ over all field configurations $\phi$ with prescribed boundary data $x$ and $y$. Formally one writes
 
 $$
-  K(x,y) = \int \exp(i S(\phi))\; D\phi 
+  K(x,y) 
+    = 
+  \int 
+    \exp\big( \mathrm{i} S(\phi)\big)
+  \; D\phi 
 $$
 
 and calls this the **path integral**. Here the expression $D \phi$ is supposed to allude to a [[measure space|measure integral]] on the space of all $\phi$. The main problem with the path integral idea is that it is typically unclear what this measure should be, or, worse, it is typically clear that no suitable such measure does exist. 
