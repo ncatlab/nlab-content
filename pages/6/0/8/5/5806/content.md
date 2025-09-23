@@ -348,6 +348,11 @@ Discussion of $Span_n(\mathbf{H}) \simeq Alg_{E_n}(\mathbf{H}^{op})$ is around r
 A discussion of a version $Span(B)$for $B$ a [[2-category]] with $Span(B)$ regarded as a [[tricategory]] and then as a 1-object [[tetracategory]] is in
 
 * {#Hoffnung} [[Alex Hoffnung]], _Spans in 2-Categories: A monoidal tricategory_ ([arXiv:1112.0560](http://arxiv.org/abs/1112.0560))
+
+and for $B$ satisfying further conditions, such as having only invertible $2$-morphisms, see Chapter 5 in
+
+* [[Paul Balmer]], [[Ivo Dell'Ambrogio]]. *Mackey 2-functors and Mackey 2-motives*. (2018). ([arXiv:1808.04902](https://arxiv.org/abs/1808.04902)).
+
  
 
 A discussion that $Span_2(-)$ in a [[2-category]] with weak [[finite limits]] is a [[compact closed 2-category]]:
