@@ -20,7 +20,7 @@
 
 A **probicategory** is a "[[horizontal categorification|many-object]]" generalisation of a [[promonoidal category]], in the same way that a [[bicategory]] is a "many-object" generalisation of a [[monoidal category]].
 
-Just as a promonoidal category in the most general context in which we can perform [[Day convolution]] to obtain a monoidal structure on the category of presheaves, a probicategory is the most general context in which we can perform convolution locally to obtain a bicategory structure on the local cocompletion.
+Just as a promonoidal category in the most general context in which we can perform [[Day convolution]] to obtain a monoidal structure on the category of presheaves, a probicategory is the most general context in which we can perform convolution locally to obtain a bicategory structure on the [[local cocompletion]].
 
 ## Definition
 
@@ -35,6 +35,7 @@ Given a probicategory, we may form a bicategory by [[change of base]] along the 
 * [[promonoidal category]]
 * [[bicategory]]
 * [[Day convolution]]
+* [[local cocompletion]]
 
 ## References
 
