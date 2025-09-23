@@ -1,5 +1,14 @@
 
+* [personal page](https://www.cs.umd.edu/~dgottesm/)
+
+* [Perimeter Institute page](https://perimeterinstitute.ca/people/daniel-gottesman)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Daniel_Gottesman)
+
+* [inSpire page](https://inspirehep.net/authors/1007876)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=373HnhYAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -21,6 +30,10 @@ Further on [[quantum error correcting codes]] and the [[error threshold theorem]
 Introducing [[measurement-based quantum computation]]:
 
 * [[Daniel Gottesman]], [[Isaac L. Chuang]], *Quantum Teleportation is a Universal Computational Primitive*, Nature **402** (1999) 390-393 &lbrack;[doi:10.1038/46503](https://doi.org/10.1038/46503), [arXiv:quant-ph/9908010](https://arxiv.org/abs/quant-ph/9908010)&rbrack;
+
+In [[quantum measurement]] of [[Wilson loops]]:
+
+* [[David Beckman]], [[Daniel Gottesman]], [[Alexei Kitaev]], [[John Preskill]]: *Measurability of Wilson loop operators*, Phys. Rev. D **65** (2002) 065022 &lbrack;[arXiv:hep-th/0110205](https://arxiv.org/abs/hep-th/0110205), [doi:10.1103/PhysRevD.65.065022](https://doi.org/10.1103/PhysRevD.65.065022)&rbrack;
 
 
 
