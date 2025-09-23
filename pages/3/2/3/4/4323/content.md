@@ -50,7 +50,7 @@ $$
   \,.
 $$
 
-This is considered particularly for the stages $G$ in the [[Whitehead tower]] of the [[orthogonal group]], where it yields $M$[[Spin group|Spin]], $M$[[String group]], etc. 
+This is considered particularly for the stages $G$ in the [[Whitehead tower]] of the [[orthogonal group]], where it yields [[MSpin]], [[MString]], [[MFivebrane]], [[MNinebrane]] and so on.
 
 All these Thom spectra happen to naturally have the structure of [[E-∞ rings]] and $E_\infty$-ring homomorphisms $M O\to E$ into another $E_\infty$-ring $E$ are equivalently universal [[orientation in generalized cohomology|orientations in E-cohomology]]. On [[homotopy groups]] these are [[genera]] with [[coefficients]] in the underlying ring $\pi_\bullet(E)$.
 
