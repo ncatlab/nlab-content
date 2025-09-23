@@ -1,8 +1,26 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Homotopy theory
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+{:toc}
+
 An **anabicategory** is a particular notion of _weak [[2-category]]_ appropriate in the absence of the [[axiom of choice]] (including in many [[internal category|internal]] contexts).  It is derived from the notion of [[bicategory]] by replacing the composition functors $\circ: B(y,z) \times B(x,y) \to B(x,z)$ with [[anafunctor]]s (and therefore the [[associator]]s and [[unitor]]s with [[ananatural transformation|ananatural transformations]]).
 
 If [[Cat]] is defined as consisting of ([[small category|small]]) [[category|categories]], anafunctors, and [[ananatural transformation|ananatural transformations]] (as is most appropriate in the absence of choice), then $Cat$ is more naturally an anabicategory rather than any stricter notion.
 
-# Explicit definition #
+Under the equivalence between [[anafunctors]] and [[representable profunctors]], anabicategories are equivalent to [[representable multicategory|representable]] [[probicategories]].
+
+# Explicit definition
 
 An anabicategory $\mathcal{C}$ consists of a set $\mathcal{C}_0$ of objects, a set $\mathcal{C}_1$ of 1-cells, which are relations $\mathcal{C}_0 \times \mathcal{C}_0$, and a set $\mathcal{C}_2$ of 2-cells, which are relations $\mathcal{C}_1 \times \mathcal{C}_1$. (Note that only $\mathcal{C}_2$ needs a defined equality relation, so the other two sets only need to be [[preset]]s.) On these sets are defined several relations; for each relation $R$ if we have $R(x, y)$ $y$ is said to be a _value_ of $R$ at $x$. Some pairs $x, y$ with $R(x, y)$ are also said to be _specified values_; generally if $R$ has some value at $x$, at least one such value will be specified. We omit the word "value" when it is clear from context.
 
@@ -44,6 +62,10 @@ Every [[bicategory]] can be made into an anabicategory; we simply make the sourc
 
 On the other hand, we can also assume that every value of the defining relations is specified; then the anabicategory is said to be _saturated_. Any such anabicategory is clearly [[anafunctors|anaequivalent]] to a strict 2-category (just map each object or 1-cell to its equivalence class, and vice versa). For there to be a weak equivalence between the anabicategory and the 2-category, however, we would need the [[Axiom of Choice]] (to pick out a single element of each equivalence class to serve as its image).
 
-# Reference #
+# Related pages
+
+* [[probicategory]]
+
+# Reference
 
 *  [[Michael Makkai]]; Avoiding the axiom of choice in general category theory; section 3 (which is part 4 [here](http://www.math.mcgill.ca/makkai/anafun/)).
