@@ -39,6 +39,7 @@ On the [[Nicolai map]]:
 
 * [[Olaf Lechtenfeld]]: *Nicolai maps for supersymmetric sigma models* &lbrack;[arXiv:2409.18855](https://arxiv.org/abs/2409.18855)&rbrack;
 
+* Federico Arrighi, Saurish Khandelwal, [[Olaf Lechtenfeld]]: *Towards a Nicolai map for supergravity* &lbrack;[arXiv:2509.17973](https://arxiv.org/abs/2509.17973)&rbrack;
 
 
 On [[Sasakian manifolds]] and [[quiver gauge theory]]:
