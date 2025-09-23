@@ -17,7 +17,7 @@ On [[limits]] and [[colimits]] and [[exponential objects]] in the [[category]] [
 
 * {#DayKelly} [[Brian Day]], [[G. Max Kelly]], *On topological quotients preserved by pullback or products*, Mathematical Proceedings of the Cambridge Philosophical Society **67** 3 (1970) 553 -- 558  ([doi:10.1017/S0305004100045850](https://doi.org/10.1017/S0305004100045850))
 
-Proving [[Day's reflection theorem]]:
+[[Day's reflection theorem]]:
 
 * {#Day72} [[Brian Day]], *A reflection theorem for closed categories*, Journal of Pure and Applied Algebra **2** 1 (1972) 1-11. &lbrack;<a href="https://doi.org/10.1016/0022-4049(72)90021-7">doi:10.1016/0022-4049(72)90021-7</a>&rbrack;
 
