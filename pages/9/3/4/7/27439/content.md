@@ -3,12 +3,13 @@
 ### Observation of anyons in fractional quantum Hall systems
  {#ObservationOfAnyonsInFQH}
 
-While the occurrence of [[anyon]]-excitations in the [[fractional quantum Hall effect]] is a robust theoretical prediction (see the references [above](#AnyonsInTheQuantumHallEffectReferences)), and while the fractional quantum Hall effect itself has long been established in [[experiment]], the actual observation of anyons in these systems is subtle.
+While the occurrence of [[anyon]]-excitations in the [[fractional quantum Hall effect]] is a robust theoretical prediction (see the references [above](#AnyonsInTheQuantumHallEffectReferences)), and while the fractional quantum Hall effect itself has long been established in [[experiment]], the definite observation of anyons and their braiding phases in these systems is more recent.
 
 An early claim of the observation of non-abelian anyons seems to remain unconfirmed:
 
 * Sanghun An, P. Jiang, H. Choi, W. Kang, S. H. Simon, L. N. Pfeiffer, K. W. West, K. W. Baldwin, _Braiding of Abelian and Non-Abelian Anyons in the Fractional Quantum Hall Effect_ \[<a href="https://arxiv.org/abs/1112.3400">arXiv:1112.3400</a>\]
 
+but, more recently, independent groups report consistent results across different materials:
 
 Observation in [[gallium arsenide]] ($GaAs$) [[semiconductor]] [heterostructures](semiconductor#ReferencesHeterostructures):
 
