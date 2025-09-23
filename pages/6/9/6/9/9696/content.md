@@ -5,6 +5,8 @@
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=K2BMBtcAAAAJ&hl=en)
 
+
+
 ## Selected writings
 
 On [[magnetic monopoles]]:
@@ -31,13 +33,17 @@ On [[quantum error correction]] for fault-tolerant/reliable [[quantum computatio
 
 * [[John Preskill]], *Fault-tolerant quantum computation*, in: *Introduction to Quantum Computation and Information*, World Scientific (1998) &lbrack;[arXiv:quant-ph/9712048](https://arxiv.org/abs/quant-ph/9712048), [doi:10.1142/3724](https://doi.org/10.1142/3724)&rbrack;
 
-* [[John Preskill]], *Reliable Quantum Computers*, Proc. Roy. Soc. Lond. A454 (1998) 385-410 $[$[arXiv:quant-ph/9705031](https://arxiv.org/abs/quant-ph/9705031), [doi:10.1098/rspa.1998.0167](https://doi.org/10.1098/rspa.1998.0167)$]$
+* [[John Preskill]], *Reliable Quantum Computers*, Proc. Roy. Soc. Lond. A454 (1998) 385-410 &lbrack;[arXiv:quant-ph/9705031](https://arxiv.org/abs/quant-ph/9705031), [doi:10.1098/rspa.1998.0167](https://doi.org/10.1098/rspa.1998.0167)&rbrack;
 
 * Panos Aliferis, [[Daniel Gottesman]], [[John Preskill]], *Quantum accuracy threshold for concatenated distance-3 codes*, Quant. Inf. Comput. 6 (2006) 97-165 ([arXiv:quant-ph/0504218](https://arxiv.org/abs/quant-ph/0504218))
 
 and via [[adiabatic quantum computation]]:
 
 * [[Andrew Childs]], [[Edward Farhi]], [[John Preskill]], *Robustness of adiabatic quantum computation*, Phys.Rev. A **65** (2002) 012322 &lbrack;[arXiv:quant-ph/0108048](https://arxiv.org/abs/quant-ph/0108048), [doi:10.1103/PhysRevA.65.012322](https://doi.org/10.1103/PhysRevA.65.012322)&rbrack;
+
+In [[quantum measurement]] of [[Wilson loops]]:
+
+* [[David Beckman]], [[Daniel Gottesman]], [[Alexei Kitaev]], [[John Preskill]]: *Measurability of Wilson loop operators*, Phys. Rev. D **65** (2002) 065022 &lbrack;[arXiv:hep-th/0110205](https://arxiv.org/abs/hep-th/0110205), [doi:10.1103/PhysRevD.65.065022](https://doi.org/10.1103/PhysRevD.65.065022)&rbrack;
 
 
 On [[entanglement entropy]] as an indicator of [[topological phases of matter]]:
