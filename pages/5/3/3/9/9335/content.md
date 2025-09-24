@@ -46,7 +46,15 @@ $$A\mapsto A\setminus\{*\},\qquad (g\colon A\to B)\mapsto(g^{-1}(B\setminus\{*\}
 ## Comparison to the simplex category
 
 Recall the [[simplex category]] $\Delta$, whose objects are finite inhabited totally ordered sets and morphisms are order-preserving maps of sets.
-We set
+
+The comparison functor
+$$\iota\colon\Delta\to\Gamma$$
+can be defined concisely via its opposite functor
+$$\iota^{op}\colon\Delta^{op}\to FinSet_*,$$
+given by pointed simplicial set $\Delta^1/\partial\Delta^1$, i.e., the pointed simplicial circle.
+
+We can unfold this concise description as follows.
+Set
 $$[m]=\{0\lt\cdots\lt m\}.$$
 
 Interpreting a simplex $A\in\Delta$ as a (posetal) category, a __spine edge__ in $A$ is a morphism in $A$ that is not an identity morphism and cannot be decomposed as the composition of two nonidentity morphisms.
@@ -106,6 +114,28 @@ The reader should keep in mind that $\times$ is _not_ a [[product]] in the categ
 
 In terms of the category $FinSet_*$, the monoidal structure is given by the [[smash product]] of [[pointed sets]]:
 $$A_1\otimes A_2=(A_1\times A_2)/(\{*\}\times A_2\cup A_1\times \{*\}).$$
+
+## Generalized Reedy structure
+
+The category $\Gamma$ is not a [[Reedy category]] because it has nontrivial automorphisms.
+However, it is a dualizable generalized Reedy category and an Eilenberg–Zilber category in the sense of [Berger–Moerdijk](#BergerMoerdijk).
+
+## Generalized Reedy structure
+
+The category $\Gamma$ is not a [[Reedy category]] because it has nontrivial automorphisms.
+However, it is a dualizable generalized Reedy category and an [[Eilenberg–Zilber category]] in the sense of [Berger–Moerdijk](#BergerMoerdijk).
+
+The degree function on $\Gamma$ and $\Gamma^{op}$ sends an object $c\in\Gamma$ to its cardinality as a finite set.
+The positive and negative Reedy maps are given by epimorphisms and monomorphisms in $\Gamma$ and monomorphisms and epimorphisms in $\Gamma^{op}$.
+
+The generalized Reedy model structure on $\Gamma$-objects in [[simplcial sets]] was first considered by Bousfield–Friedlander under the name of the __strict model structure__.
+
+
+The degree function on $\Gamma$ and $\Gamma^{op}$ sends an object $c\in\Gamma$ to its cardinality as a finite set.
+The positive and negative Reedy maps are given by epimorphisms and monomorphisms in $\Gamma$ and monomorphisms and epimorphisms in $\Gamma^{op}$.
+
+The generalized Reedy model structure on $\Gamma$-objects in [[simplcial sets]] was first considered by Bousfield–Friedlander under the name of the __strict model structure__.
+
 
 ## Applications
 
