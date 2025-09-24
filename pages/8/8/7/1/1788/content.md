@@ -7,4 +7,37 @@
 
 ***
 
-[[ConvenientCategoriesOfSpaces.png:file]]
+
+$$
+  F_2 = 
+  F_2^{X^3}
+  + 
+  F_0 \mathrm{d}t \wedge \mathrm{d}v
+$$
+
+$$
+  \star F_2
+  = 
+  \ell_v
+  \star_3 F_2^{X^3} \wedge \mathrm{d}t \wedge \mathrm{d}v
+  +
+  \tfrac{1}{\ell_v}
+  \star_3 F_0
+$$
+
+$$
+  \underset{\underset{\ell_v \to 0}{\longrightarrow}}{\lim}
+  \,
+  \mathrm{d} \star F_2 
+  = 0
+$$
+
+$$
+  F_2
+  \wedge 
+  F_2
+  =
+  F_2^{X^3} \wedge F_2^{X^3}
+  +
+  2 F_2^{X^3} F_0 \mathrm{d}t \wedge \mathrm{d}v 
+$$
