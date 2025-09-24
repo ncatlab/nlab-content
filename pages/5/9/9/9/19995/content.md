@@ -7,11 +7,12 @@
 
 * [GoogleScholar page](https://scholar.google.co.uk/citations?user=I5SWIuoAAAAJ&hl=en)
 
+
 ## Selected writings
 
 On [[toric duality]]:
 
-* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], _D-brane gauge theories from toric singularities and toric duality, Nucl. Phys. B 595 (2001) 165 ([arXiv:hep-th/0003085](https://arxiv.org/abs/hep-th/0003085))
+* [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], *D-brane gauge theories from toric singularities and toric duality*, Nucl. Phys. B 595 (2001) 165 ([arXiv:hep-th/0003085](https://arxiv.org/abs/hep-th/0003085))
 
 * [[Bo Feng]], [[Amihay Hanany]], [[Yang-Hui He]], _Phase structure of D-brane gauge theories and toric duality_ , J. High Energy Phys. 08 (2001) 040 ([hep-th/0104259](https://arxiv.org/abs/hep-th/0104259))
 
@@ -78,6 +79,10 @@ reviewed in:
 Discussion via [[machine learning]] of [[connection on a bundle|connections]] on [[heterotic line bundles]] over [[Calabi-Yau manifold|Calabi-Yau 3-folds]]:
 
 * [[Anthony Ashmore]], Rehan Deen, [[Yang-Hui He]], [[Burt Ovrut]], *Machine Learning Line Bundle Connections* ([arXiv:2110.12483](https://arxiv.org/abs/2110.12483))
+
+On the [[rational homotopy theory|rational homotopy]] of [[K3-surfaces]] in relation to the [[Mathieu group]]:
+
+* Federico Carta, John F. R. Duncan, [[Yang-Hui He]]: *Rational K3 Homotopy and the Largest Mathieu Group* &lbrack;[arXiv:2509.18969](https://arxiv.org/abs/2509.18969)&rbrack;
 
 
 ## Related entries
