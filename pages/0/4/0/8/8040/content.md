@@ -44,8 +44,13 @@ The Matthieu group $M_{24}$ is the [[automorphism group]] of the [[binary Golay 
 
 * [[John Conway]], Noam D. Elkies and Jeremy L. Martin, "The Mathieu group $M_{12}$ and its pseudogroup extension $M_{13}$", _Experimental Mathematics_ **15** (2006),  223&#8211;236. [Eprint](http://nrs.harvard.edu/urn-3:HUL.InstRepos:2794826). 
 
-See also 
+See also:
 
 * Wikipedia, _[Mathieu group](https://en.wikipedia.org/wiki/Mathieu_group)_
+
+On the [[rational homotopy theory|rational homotopy]] of [[K3-surfaces]] in relation to the Mathieu group:
+
+* Federico Carta, John F. R. Duncan, [[Yang-Hui He]]: *Rational K3 Homotopy and the Largest Mathieu Group* &lbrack;[arXiv:2509.18969](https://arxiv.org/abs/2509.18969)&rbrack;
+
 
 [[!redirects Mathieu groups]]
