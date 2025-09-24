@@ -362,5 +362,11 @@ Further [[defect branes]]:
 
 * [[Masaki Shigemori]], *Interpolating between multi-center microstate geometries*, JHEP 09 (2021) 010 ([arXiv:2105.11639](https://arxiv.org/abs/2105.11639))
 
+See also:
+
+* Alexandru Dima, Pierre Heidmann, Marco Melis, Paolo Pani, Gela Patashuri: *The Great Impersonation: $\mathcal{W}$-Solitons as Prototypical Black Hole Microstates* &lbrack;[arXiv:2509.18245](https://arxiv.org/abs/2509.18245)&rbrack;
+
+
+
 [[!redirects 5d supergravity]]
 [[!redirects 5-dimensional supergravity]]
