@@ -435,6 +435,11 @@ $$
 
 Moreover, the relation $2 4 [S^3] \,\simeq\, 0$ is represented by the [[bordism]] which is the [[complement]] of 24 [[open balls]] inside [[generalized the|the]] [[K3]]-manifold ([Wang-Xu 10, Sec. 2.6](third+stable+homotopy+group+of+spheres#WangXu10)).
 
+
+
+
+
+
 ### Elliptic fibration 
 
 See at _[[elliptically fibered K3-surface]]_.
@@ -499,6 +504,12 @@ Systematic construction of [[Ricci tensor|Ricci flat]] [[Riemannian metrics]] on
 * [[Shamit Kachru]], [[Arnav Tripathy]], [[Max Zimet]], _K3 metrics_ ([arXiv:2006.02435](https://arxiv.org/abs/2006.02435))
 
 * [[Arnav Tripathy]], [[Max Zimet]], _A plethora of K3 metrics_ ([arXiv:2010.12581](https://arxiv.org/abs/2010.12581))
+
+On the [[rational homotopy theory|rational homotopy]] of K3-surfaces in relation to the [[Mathieu group]]:
+
+* Federico Carta, John F. R. Duncan, [[Yang-Hui He]]: *Rational K3 Homotopy and the Largest Mathieu Group* &lbrack;[arXiv:2509.18969](https://arxiv.org/abs/2509.18969)&rbrack;
+
+
 
 ### Elliptic fibrations
 
