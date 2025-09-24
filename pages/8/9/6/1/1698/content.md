@@ -23,9 +23,9 @@
 
 ## Idea
 
-A _homotopy fiber sequence_ is a "long left-[[exact sequence]]" in an [[(∞,1)-category]]. (The dual concept is that of _[[cofiber sequence]]_.)
+A _homotopy fiber sequence_ is a "long left-[[exact sequence]]" in an [[(∞,1)-category]]. (The dual concept is a _[[cofiber sequence]]_.)
 
-Traditionally fiber sequences have been considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown category of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] in question. In particular, classically this was considered for [[Top]] itself. In these cases they are obtained in terms of [[homotopy pullbacks]]. Since, as discussed there, the homotopy fiber of a morphism may be computed as the ordinary 1-categorical [[fiber]] of any [[fibration]] [[resolution]] of this morphism, one often also speaks of _fibration sequences_.
+Traditionally, fiber sequences were considered in the context of [[homotopical category|homotopical categories]] such as [[model category|model categories]] and [[category of fibrant objects|Brown categories of fibrant objects]] which [[presentable (infinity,1)-category|present]] the [[(∞,1)-category]] in question. In particular, this was considered for [[Top]] itself. In these cases, they are obtained in terms of [[homotopy pullbacks]]. Since, as discussed there, the homotopy fiber of a morphism may be computed as the ordinary 1-categorical [[fiber]] of any [[fibration]] [[resolution]] of this morphism, one often also speaks of _fibration sequences_.
 
 
 
@@ -36,14 +36,14 @@ Traditionally fiber sequences have been considered in the context of [[homotopic
 
 Let $C$ be an [[(∞,1)-category]] with small [[limits]] and consider [[pointed objects]] of $C$, i.e. morphisms ${*} \to A$ from the [[terminal object]] ${*}$ ([[generalized the|the]] [[point]]) to some object $A$. All unlabeled morphisms from the point in the following are these chosen ones and all other morphisms are taken with respect to these points.
 
-Notice that in the case that $C$ happens to be a [[stable (∞,1)-category]] for which ${*} = 0$ all objects are canonically pointed and the notions of left- and right-exact fibration sequences coincide.
+Notice that in the case that $C$ happens to be a [[stable (∞,1)-category]] for which ${*} = 0$, all objects are canonically pointed and the notions of left- and right-exact fibration sequences coincide.
 
-But for the notion of fibration sequence to make sense, we do not need to assume that $C$ is a stable $(\infty,1)$-category. In particular, in the context of [[nonabelian cohomology]] (see [[gerbe]] and [[principal 2-bundle]]) one considers fibration sequences in non-stable $(\infty,1)$-categories.
+But for the notion of fibration sequence to make sense, we do not need to assume that $C$ is a stable $(\infty,1)$-category. In particular, in the context of [[nonabelian cohomology]] (see [[gerbe]] and [[principal 2-bundle]]), one considers fibration sequences in non-stable $(\infty,1)$-categories.
 
 
 Now let $f : A \to B$ be a morphism in $C$.
 
-The **homotopy fiber** or **homotopy kernel** or **[[mapping cocone]]** of $f$ is [[generalized the|the]] [[pullback]] (which in our $(\infty,1)$-categorical context means [[homotopy limit|homotopy pullback]]) of the point along $f$:
+The **homotopy fiber** or **homotopy kernel** or **[[mapping cocone]]** of $f$ is [[generalized the|the]] [[pullback]] (which, in our $(\infty,1)$-categorical context, means [[homotopy limit|homotopy pullback]]) of the point along $f$:
 
 $$
   \array{
@@ -60,7 +60,7 @@ $$
 
 > under construction
 
-In ([Quillen 67, section I.3](#Quillen67)) it was shown how the theory of fiber sequences and [[cofiber sequences]] arises in the abstract homotopy theory of [[model categories]]. Focusing on the fiber sequences, this perspective depends only on the [[category of fibrant objects]] inside the model category, and in fact makes sense generally in this context. This was spelled out in ([Brown 73, section 4](#Brown73)), which we review here. 
+In ([Quillen 67, section I.3](#Quillen67)), it was shown how the theory of fiber sequences and [[cofiber sequences]] arises in the abstract homotopy theory of [[model categories]]. Focusing on the fiber sequences, this perspective depends only on the [[category of fibrant objects]] inside the model category, and in fact makes sense generally in this context. This was spelled out in ([Brown 73, section 4](#Brown73)), which we review here. 
 
 
 +-- {: .num_lemma #FiberOfFibrationIsCompatibleWithWeakEquivalences}
@@ -117,20 +117,20 @@ $$
   }
 $$
 
-Here $f^\ast X_2 \to X_2$ is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} and with this $X_1 \to f^\ast X_2$ is a weak equivalence by assumption and [[two-out-of-three]].
+Here, $f^\ast X_2 \to X_2$ is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} and with this $X_1 \to f^\ast X_2$ is a weak equivalence by assumption and [[two-out-of-three]].
 
 Moreover, this diagram exhibits $fib(f_1)\to fib(\phi)$ as the base change (along $\ast \to Y_2$) of $X_1 \to f^\ast X_2$. 
 
-Hence it is now sufficient to observe that in category of fibrant objects, base change preserves weak equivalences (...).
+Hence, it is now sufficient to observe that in category of fibrant objects, base change preserves weak equivalences (...).
 
 =--
 
-Hence we say:
+Hence, we say:
 
 +-- {: .num_defn #HomotopyFiber}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \longrightarrow Y$ any morphism, then its **[[homotopy fiber]]**
+Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \longrightarrow Y$ any morphism, its **[[homotopy fiber]]**
 
 $$
   hofib(f)\longrightarrow X
