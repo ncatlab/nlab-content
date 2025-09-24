@@ -32,7 +32,7 @@ The term "quiver" (German: _K&ouml;cher_) --- for what in [[graph theory]] is (a
 
 > The underlying motivations of quiver theory are quite different from those in the traditional graph theory. To emphasize this distinction, it is common in our context to use the word "quivers" instead of "graphs".
 
-A key result in [[quiver representation]]-theory is _[[Gabriel's theorem]]_, also form [Gabriel 1972](#Gabriel72).
+A key result in [[quiver representation]]-theory is _[[Gabriel's theorem]]_, also from [Gabriel 1972](#Gabriel72).
 
 
 ## Definitions
