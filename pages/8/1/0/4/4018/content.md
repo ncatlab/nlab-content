@@ -14,7 +14,7 @@
 * table of contents
 {:toc}
 
-In model theory, an ultrapower of a structure with respect to an ultrafilter is a common method for creating new structures, with applications to nonstandard arithmetic and nonstandard analysis. It is a standard construction for constructing models which embody infinite and infinitesimal quantities, as in [[Abraham Robinson]]'s nonstandard analysis. 
+In [[model theory]], forming the ultrapower of a structure with respect to an [[ultrafilter]] is a common method for creating a new (large) structure from a given one, in such a way that the given one [[elementary embedding|elementary embeds]] into the new one. This has applications to nonstandard arithmetic and nonstandard analysis as it allows to construct models which embody infinite and infinitesimal quantities, as in [[Abraham Robinson]]'s [[nonstandard analysis]]. 
 
 An ultrapower is a special case of [[ultraproduct]]; see the description under the sheaf-theoretic interpretation below. 
 
@@ -28,7 +28,7 @@ Let $X$ be a set, and let $\mathcal{U}$ be an [[ultrafilter]] on $X$; that is, a
 
 1. $\emptyset \notin \mathcal{U}$,
 
-1. For every set $A \subseteq X$, either $A$ belongs to $\mathcal{U}$ or its complement $\neg A$ belongs to $\mathcal{U}$. 
+1. For every set $A \subseteq X$, either $A$ belongs to $\mathcal{U}$ or its complement $X\setminus A$ belongs to $\mathcal{U}$. 
 
 (The first three axioms are the defining axioms for a [[filter]], and the last is satisfied for maximal filters, aka ultrafilters.) 
 
@@ -36,28 +36,28 @@ Let $Y$ be a model of a (finitary, single-sorted) first-order theory $T$ (given 
 
 $$Y^X/\mathcal{U}$$ 
 
-is the set of $\sim$-equivalence classes $[f]$ on the set of functions $f \in hom(X, Y)$, where $f \sim g$ if and only if 
+is the set of $\sim$-equivalence classes $[f]$ on the set of functions $f : X\to Y$, where 
 
-$$\{x \in X: f(x) = g(x)\} \in \mathcal{U}.$$
+$$f \sim g \qquad\text{ iff }\qquad  \{x \in X: f(x) = g(x)\} \in \mathcal{U}.$$
 
 The ultrapower is a structure of $\Sigma$ under the evident pointwise definitions: for each $n$-ary function symbol $\phi$, define 
 
 $$\phi(f_1, \ldots, f_n)(x) = \phi_Y(f_1(x), \ldots, f_n(x))$$ 
 
-and observe that $f_1 \sim g_1, \ldots, f_n \sim g_n$ implies that $\phi(f_1, \ldots, f_n) \sim \phi(g_1, \ldots, g_n)$, so that the interpretation of $\phi$ descends to equivalence classes. Similarly, for each $n$-ary relation symbol $R$, say $\vdash R([f_1], \ldots, [f_n])$ if 
+and observe that $f_1 \sim g_1, \ldots, f_n \sim g_n$ implies that $\phi(f_1, \ldots, f_n) \sim \phi(g_1, \ldots, g_n)$, so that the interpretation of $\phi$ descends to equivalence classes. Similarly, for each $n$-ary relation symbol $R$, say 
 
-$$\{x \in X: \vdash_Y R(f_1(x), \ldots, f_n(x))\} \in \mathcal{U}$$
+$$\vdash R([f_1], \ldots, [f_n])\qquad\text{ iff }\qquad\{x \in X: \vdash_Y R(f_1(x), \ldots, f_n(x))\} \in \mathcal{U}$$
 
 for any chosen representatives $f_1, \ldots, f_n$. Note that the well-definedness of the interpretations of functions and relations depends only on the filter axioms. 
 
-That the ultrapower is a model of the theory is a consequence of [[Los ultraproduct theorem|Los's theorem]]. (Here one needs all of the ultrafilter conditions, in particular
+That the ultrapower is a model of the theory $T$ is a consequence of [[Los ultraproduct theorem|Łoś's theorem]]. (Here one needs all of the ultrafilter conditions, in particular
 one needs condition 4 in order to accommodate satisfaction of formulas involving instances of negation.)
 
 ## Sheaf-theoretic interpretation
 
-An ultrafilter $\mathcal{U}$ on a set $X$ may be regarded as a point in the Stone-Cech compactification $\beta X$ of the discrete space $X_d$, and ultrapowers may be interpreted as a special case of taking stalks. 
+An ultrafilter $\mathcal{U}$ on a set $X$ may be regarded as a point in the [[Stone-Čech compactification]] $\beta X$ of the discrete space $X_d$, and ultrapowers may be interpreted as a special case of taking stalks. 
 
-Namely, let $i: X_d \hookrightarrow \beta X$ be the inclusion. This is a continuous function; hence it induces a geometric morphism $i_*$ between the sheaf toposes over these spaces. Then, under the composite 
+Namely, let $i: X_d \hookrightarrow \beta X$ be the inclusion. This is a continuous function; hence it induces a [[geometric morphism]] $i_*$ between the sheaf toposes over these spaces. Then, under the composite 
 
 $$Set \stackrel{\Delta}{\to} Set/X \cong Sh(X_d) \stackrel{i_*}{\to} Sh(\beta X) \stackrel{stalk_{\mathcal{U}}}{\to} Set,$$
 
@@ -71,11 +71,11 @@ to the object $\langle Y_x \rangle_{x \in X}$.
 
 ## Filterquotient construction
 
-For any filter $\mathcal{U}$ on a set $X$, we can form the 2-colimit of the pseudofunctor  
+For any filter $\mathcal{U}$ on a set $X$, we can form the 2-colimit of the [[pseudofunctor]]  
 
-$$F: \mathcal{U}^{op} \to Cat: U \mapsto Set/U (\simeq Set^U)$$ 
+$$F: \mathcal{U}^{op} \to Cat:\quad A \mapsto Set/A \;(\simeq Set^A)$$ 
 
-Each $F(i: U \subseteq V): Set/V \to Set/U$ is the logical morphism of toposes given by the pullback functor $i^*$. The 2-colimit is itself a topos denoted $Set/\mathcal{U}$, in fact a 2-valued topos if $\mathcal{U}$ is an ultrafilter, and the functor defined by 
+Each $F(i: A \subseteq B): Set/B \to Set/A$ is the [[logical morphism]] of toposes given by the pullback functor $i^*$. The 2-colimit is itself a topos denoted $Set/\mathcal{U}$, in fact a 2-valued topos if $\mathcal{U}$ is an ultrafilter, and the functor defined by 
 
 $$Set \stackrel{\Delta}{\to} Set/X \to Set/\mathcal{U}$$ 
 
