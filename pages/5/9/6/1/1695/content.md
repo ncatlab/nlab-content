@@ -19,11 +19,11 @@
 
 ## Idea
 
-In the strict sense of the word a _loop space_ in [[topology]] for a given [[pointed topological space]] $X$ is the [[mapping space]] (with its [[compact-open topology]], see the example [there](compact-open+topology#LoopSpace)) $Maps_\ast(S^1, X)$ of [[continuous functions]] from the [[circle]] to $X$, such that they take the given basepoint of the circle to the prescribed basepoint in $X$ (or if one drops this condition, then one speaks of the _[[free loop space]]_). One such continuous function may be thought of as a continuous loop in $X$, and hence the mapping space is the space of all these loops.
+In the strict sense of the word, a _loop space_ in [[topology]] for a given [[pointed topological space]] $X$ is the [[mapping space]] (with its [[compact-open topology]], see the example [there](compact-open+topology#LoopSpace)) $Maps_\ast(S^1, X)$ of [[continuous functions]] from the [[circle]] to $X$, such that they take the given basepoint of the circle to the prescribed basepoint in $X$ (or if one drops this condition, then one speaks of the _[[free loop space]]_). One such continuous function may be thought of as a continuous loop in $X$, and hence the mapping space is the space of all these loops.
 
-If here $X$ is equipped with further structure, such as [[smooth structure]] (e.g. a [[smooth manifold]]), then one may in good cases find such extra structure also on the loop space, for instance to form a _[[smooth loop space]]_, etc. See at _[[manifolds of mapping spaces]]_ for more on this.
+If $X$ is equipped with further structure, such as a [[smooth structure]] (e.g. a [[smooth manifold]]), then one may, in good cases, find such extra structure on the loop space as well, for instance to form a _[[smooth loop space]]_, etc. See _[[manifolds of mapping spaces]]_ for more on this.
 
-If one regards this construction not in [[point-set topology]] but in [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] ([[homotopy hypothesis|equivalently]] [[∞Grpd]]), then, up to [[weak homotopy equivalence]], the loop space is equivalent to the [[homotopy fiber product]] of the basepoint inclusion $\ast \to X$ along itself.
+If one regards this construction not in [[point-set topology]] but in the [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] ([[homotopy hypothesis|equivalently]] [[∞Grpd]]), then, up to [[weak homotopy equivalence]], the loop space is equivalent to the [[homotopy fiber product]] of the basepoint inclusion $\ast \to X$ along itself.
 
 
 
@@ -42,13 +42,13 @@ $$\array{
 X^{S^1} & \underset{X^{pt}}{\to} & X^1
 }$$
 
-(using [[exponential object|exponentials]] to denote internal homs in $Top$), in other words the [[function set|function space]] of basepoint-preserving maps $S^1 \to X$, whose basepoint is the constant map $S^1 \to X$ at the basepoint of $X$.  
+(using [[exponential object|exponentials]] to denote internal homs in $Top$). In other words, it is the [[function set|function space]] of basepoint-preserving maps $S^1 \to X$, whose basepoint is the constant map $S^1 \to X$ at the basepoint of $X$.  
 
-The category $Top_*$ is [[symmetric monoidal category|symmetric]] monoidal [[monoidal closed category|closed]]; its monoidal product is called the **[[smash product]]**, often denoted $\wedge$. In particular, the loop space functor 
+The category $Top_*$ is [[symmetric monoidal category|symmetric]] monoidal [[monoidal closed category|closed]]. Its monoidal product is called the **[[smash product]]**, often denoted $\wedge$. In particular, the loop space functor 
 
 $$\Omega = hom((S^1, pt), -): Top_* \to Top_*$$ 
 
-has a [[left adjoint]] obtained by taking smash product with $(S^1, pt)$. This left adjoint $S: Top_* \to Top_*$ is called the **[[suspension]] functor**. Explicitly, the suspension $S X$ is formed as the [[pushout]] 
+has a [[left adjoint]] obtained by taking the smash product with $(S^1, pt)$. This left adjoint $S: Top_* \to Top_*$ is called the **[[suspension]] functor**. Explicitly, the suspension $S X$ is formed as the [[pushout]] 
 
 $$\array{
  & 1 \times X + S^1 \times 1& \to & 1\\
@@ -64,12 +64,12 @@ with basepoint provided by the right vertical arrow.
 ### Homotopy-associative structure
  {#AInfinityStructure}
 
-A loop space is an example of a [[A-∞ space]], in particular it is an [[H-space]]. Loop spaces admit this rich algebraic structure which arises from the fact that the based space $S^1$ carries a correspondingly rich co-algebraic structure, starting from the fact that the based space $S^1$ is an H-[[cogroup]]. 
+A loop space is an example of a [[A-∞ space]]. In particular, it is an [[H-space]]. Loop spaces admit this rich algebraic structure which arises from the fact that the based space $S^1$ carries a correspondingly rich co-algebraic structure, starting from the fact that the based space $S^1$ is an H-[[cogroup]]. 
 
-The description of this structure on loop spaces has been the very motivation for the introduction of the notion of [[operad]] and [[algebra over an operad]] in ([May](#May)).
+The description of this structure on loop spaces was the very motivation for the introduction of the notion of an [[operad]] and an [[algebra over an operad]] in ([May](#May)).
 
 
-An important theoretical consideration is when an H-space, and particularly one having the type of a [[CW-complex]], has the homotopy type of a loop space of another CW-complex: $X \simeq \Omega Y$. In this circumstance, one calls $Y$ a **[[delooping]]** of $X$; an important example is where $X$ carries a [[topological group]] structure $G$, and $Y$ is the [[classifying space]] of $G$. 
+An important theoretical consideration is when an H-space, and particularly one having the type of a [[CW-complex]], has the homotopy type of the loop space of another CW-complex: $X \simeq \Omega Y$. In this circumstance, one calls $Y$ a **[[delooping]]** of $X$; an important example is where $X$ carries a [[topological group]] structure $G$, and $Y$ is the [[classifying space]] of $G$. 
 
 The most basic fact about deloopings is the shift in [[homotopy group]]s: 
 
