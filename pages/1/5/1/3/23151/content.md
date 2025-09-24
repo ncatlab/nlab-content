@@ -15,7 +15,7 @@
 
 ## Idea
 
-Given a [[category]] $\mathcal{C}$, its *free coproduct completion* (or *free sum completion*) is [[generalized the|the]] category $PSh_{\sqcup}(\mathcal{C})$ (often denoted $Fam(\mathcal{C})$, for *[[families]]* in $\mathcal{C}$, but note the usage of this term also for the [[(infinity,n)-category of correspondences|category of correspondences]] in e.g. [Lurie 2009](https://arxiv.org/abs/0905.0465)) obtained by [[free construction|freely]] adjoining [[coproducts]] of all [[objects]] of $\mathcal{C}$. 
+Given a [[category]] $\mathcal{C}$, its *free coproduct completion* (or *free sum completion*, or *Fam construction*) is [[generalized the|the]] category $PSh_{\sqcup}(\mathcal{C})$ (often denoted $Fam(\mathcal{C})$, for *[[families]]* in $\mathcal{C}$, but note the usage of this term also for the [[(infinity,n)-category of correspondences|category of correspondences]] in e.g. [Lurie 2009](https://arxiv.org/abs/0905.0465)) obtained by [[free construction|freely]] adjoining [[coproducts]] of all [[objects]] of $\mathcal{C}$. 
 
 ## Definitions
  {#Definitions}
@@ -26,7 +26,7 @@ Here are a few concrete realizations of free coproduct completions.
 ### Via indexed sets of objects
  {#ViaIndexedSetsOfObjects}
 
-The following explicit description of the coproduct completion is pretty immediate and seems to be part of [[category theory]] [[folklore]] (for instance the way it is referred to in [Carboni, Lack & Walters (1993), Proof of Prop. 2.4](#CarboniLackWalters93)). Early references include [Bénabou (1985), §3](#Bénabou1985), see also [Hu & Tholen (1995), p. 281, 286](#HuTholen95).
+An early reference for the following explicit description is [Bénabou (1985), §3](#Bénabou1985), see also [Hu & Tholen (1995), p. 281, 286](#HuTholen95).
 
 
 An explicit description of the free coproduct completion $PSh_{\sqcup}(\mathcal{C})$ of a category $\mathcal{C}$ is: 
