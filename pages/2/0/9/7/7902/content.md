@@ -25,7 +25,15 @@ A _Wilson loop_ or _Wilson line_ is an [[observable]] in (both classical and qua
 Hence if the gauge connection is given by a globally defined 1-form $A$, then the __Wilson loop__ along a closed [[loop]] $C$ is the trace of the [[Dyson formula|path-ordered exponential]]
 
 $$
-  W_C = Tr(\mathcal{P}exp(i\oint_C A_\mu d x^\mu))
+  W_C 
+    \;=\; 
+  Tr\Big(
+    \mathcal{P}exp\big(
+      \mathrm{i}
+      \textstyle{\oint_C} A_\mu d x^\mu
+    \big)
+  \Big)
+  \mathrlap{\,,}
 $$
 
 where $\mathcal{P}$ is the "path-ordering operator" and $A_\mu$ are the components of the connection. 
@@ -158,9 +166,17 @@ Review:
 
 * {#Kaul99} [[Romesh K. Kaul]], section 3 of: *Topological Quantum Field Theories -- A Meeting Ground for Physicists and Mathematicians* &lbrack;[arXiv:hep-th/9907119](https://arxiv.org/abs/hep-th/9907119)&rbrack;
 
-Discussion for the general case of nonabelian [[gauge groups]]:
+Discussion generalizing to the case of [[nonabelian group|nonabelian]] [[gauge groups]]:
 
-* Atle Hahn: *The Wilson Loop Observables of Chern-Simons Theory on $\mathbb{R}^3$ in Axial Gauge*,  Commun. Math. Phys. **248** (2004) 467–499 &lbrack;[doi:10.1007/s00220-004-1097-4](https://doi.org/10.1007/s00220-004-1097-4), [inSpire:667450](https://inspirehep.net/literature/667450)&rbrack;
+* [[Atle Hahn]], section 9 of: *Chern–Simons theory on $\mathbb{R}^3$ in axial gauge: a rigorous approach*, Journal of Functional Analysis **211** 2 (2004) 483-507 &lbrack;[doi:10.1016/j.jfa.2004.01.006](https://doi.org/10.1016/j.jfa.2004.01.006)&rbrack;
+
+* [[Atle Hahn]]: *The Wilson Loop Observables of Chern-Simons Theory on $\mathbb{R}^3$ in Axial Gauge*,  Commun. Math. Phys. **248** (2004) 467–499 &lbrack;[doi:10.1007/s00220-004-1097-4](https://doi.org/10.1007/s00220-004-1097-4), [inSpire:667450](https://inspirehep.net/literature/667450)&rbrack;
+
+* [[Atle Hahn]]: *Chern–Simons models on $S^2 \times S^1$, torus gauge fixing, and link invariants I*, Journal of Geometry and Physics **53** 3 (2005) 275-314 &lbrack;[doi:10.1016/j.geomphys.2004.07.001](https://doi.org/10.1016/j.geomphys.2004.07.001)&rbrack;
+
+* [[Atle Hahn]]: *Chern–Simons models on $S^2 \times S^1$, torus gauge fixing, and link invariants II*, Journal of Geometry and Physics **58** 9 (2008) 1124-1136 &lbrack;[doi:10.1016/j.geomphys.2008.03.013](https://doi.org/10.1016/j.geomphys.2008.03.013)&rbrack;
+
+* [[Atle Hahn]]: *The non-Abelian Chern-Simons path integral on     in the torus gauge: a review* &lbrack;[arXiv:1805.00248](https://arxiv.org/abs/1805.00248)&rbrack;
 
 Relation between [[Dehn surgery]] and [[Wilson loop observables]] in [[Chern-Simons theory]]:
 
