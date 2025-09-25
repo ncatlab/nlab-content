@@ -158,6 +158,9 @@ Review:
 
 * {#Kaul99} [[Romesh K. Kaul]], section 3 of: *Topological Quantum Field Theories -- A Meeting Ground for Physicists and Mathematicians* &lbrack;[arXiv:hep-th/9907119](https://arxiv.org/abs/hep-th/9907119)&rbrack;
 
+Discussion for the general case of nonabelian [[gauge groups]]:
+
+* Atle Hahn: *The Wilson Loop Observables of Chern-Simons Theory on $\mathbb{R}^3$ in Axial Gauge*,  Commun. Math. Phys. **248** (2004) 467–499 &lbrack;[doi:10.1007/s00220-004-1097-4](https://doi.org/10.1007/s00220-004-1097-4), [inSpire:667450](https://inspirehep.net/literature/667450)&rbrack;
 
 Relation between [[Dehn surgery]] and [[Wilson loop observables]] in [[Chern-Simons theory]]:
 
