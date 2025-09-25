@@ -122,7 +122,7 @@ On [[AQFT on curved spacetimes]] in terms of [[stacks]] of [[categories]] ([[2-s
 
 A [[higher gauge theory|higher gauge]] [[5d Chern-Simons theory]] analogous to [[semi-topological 4d Chern-Simons theory]]:
 
-* [[Alexander Schenkel]], Benoit Vicedo: *5d 2-Chern-Simons theory and 3d integrable field theories* &lbrack;[arXiv:2405.08083](https://arxiv.org/abs/2405.08083)&rbrack;
+* [[Alexander Schenkel]], Benoit Vicedo: *5d 2-Chern-Simons theory and 3d integrable field theories*, Commun. Math. Phys. **405** (2024) 293 &lbrack;[arXiv:2405.08083](https://arxiv.org/abs/2405.08083), [doi:10.1007/s00220-024-05170-9](https://doi.org/10.1007/s00220-024-05170-9)&rbrack;
 
 Discussion of [[lattice gauge theory|lattice]] [[2d Yang-Mills theory]] via [[derived algebraic geometry]] and [[factorization algebra|prefactorization algebras]]:
 
