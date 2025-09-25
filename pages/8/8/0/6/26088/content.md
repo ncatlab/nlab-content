@@ -48,6 +48,10 @@ For the moment see at *[enriched monad -- Relation to strong and monoidal monads
   A [[cocomplete]] [[poset|posetal]] symmetric monoidal closed category is precisely a [[commutative quantale]].
 \end{example}
 
+## Internal logic
+
+The [[internal logic]] of symmetric monoidal closed categories is the (intuitionistic) multiplicative fragment of [[linear logic]].
+
 ## Related concepts
 
 * [[Bénabou cosmos]]
