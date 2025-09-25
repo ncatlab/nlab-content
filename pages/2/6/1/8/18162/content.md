@@ -1825,7 +1825,7 @@ As a lifting diagram this is
   row sep={between origins, 40pt}
 ]
   \{x,y\}
-  \ar[dd]
+  \ar[dd, hook,  "{ \forall  }"{left} ]
   \ar[rr]
   &&
   {[0,1]}\vee_{\{0,1\}} \{x\leftrightarrow 0, 1\leftrightarrow x\}
