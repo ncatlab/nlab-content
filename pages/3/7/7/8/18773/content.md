@@ -3,7 +3,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -18,17 +18,17 @@
 ## Idea
  {#Idea}
 
-The origins of [[perturbative quantum field theory]] go back to informal ideas on [[quantum electrodynamics]] due to [[Julian Schwinger]], [[Shin'ichirō Tomonaga]], [[Richard Feynman]] and [[Freeman Dyson]], culminating in the informal idea of "[[renormalization]]" due to ([Dyson 49](#Dyson49)).
+The origins of [[perturbative quantum field theory]] go back to informal ideas on [[quantum electrodynamics]] due to [[Julian Schwinger]], [[Shin'ichirō Tomonaga]], [[Richard Feynman]] and [[Freeman Dyson]], culminating in the informal idea of "[[renormalization]]" due to [Dyson 1949](#Dyson49).
 
-While highly successful, the conceptual nature of this original formulation, in particular of the process of "removal of [[UV-divergences]]", had remained mysterious (see [Scharf 95, section 0.0](#Scharf95) for survey): 
+While highly successful, the conceptual nature of this original formulation, in particular of the process of "removal of [[UV-divergences]]", had remained mysterious (see [Scharf 1995, section 0.0](#Scharf95) for survey): 
 
-> $[$ the theory is $]$ an ugly and incomplete one ([Dirac 51](#Dirac51))
+> [Dirac 1951](#Dirac51): "&lbrack;the theory is&rbrack; an ugly and incomplete one"
 
-> I think that the renormalization theory is simply a way to sweep the difficulties of the divergences  of electrodynamics under the rug. I am, of course, not sure of that. ([Feynman 66, Nobel lecture](#Feynman66))
+> [Feynman 1966, Nobel lecture](#Feynman66): "I think that the renormalization theory is simply a way to sweep the difficulties of the divergences  of electrodynamics under the rug. I am, of course, not sure of that.:
 
-> {#Feynman85SuchABunchOfWords} ...is technically called 'renormalization.' But no matter how clever the word, it is what I would call a dippy process! Having to resort to such hocus-pocus has prevented us from proving that the theory $[...]$ is self-consistent. It's surprising that the theory still hasn't been proved self-consistent one way or the other by now; $[...]$ What is certain is that we do not have a good mathematical way to describe the theory of quantum electrodynamics: such a bunch of words... ([Feynman 85, Chap. 4. "Loose Ends"](#Feynman85))
+> {#Feynman85SuchABunchOfWords} [Feynman 1985, Chap. 4. "Loose Ends"](#Feynman85): "...is technically called 'renormalization.' But no matter how clever the word, it is what I would call a dippy process! Having to resort to such hocus-pocus has prevented us from proving that the theory &lbrack;...&rbrack; is self-consistent. It's surprising that the theory still hasn't been proved self-consistent one way or the other by now; &lbrack;...&rbrack; What is certain is that we do not have a good mathematical way to describe the theory of quantum electrodynamics: such a bunch of words..."
 
-These conceptual mysteries were resolved in a mathematically rigorous formulation of [[renormalization|("re"-)normalization]] in [[perturbative QFT]] by ([Epstein-Glaser 73](perturbative+quantum+field+theory#EpsteinGlaser73)), based on ([Bogoliubov-Shirkov 59](perturbative+quantum+field+theory#BogoliubovShirkov59) and [St&#252;ckelberg 51](perturbative+quantum+field+theory#Stueckelberg51)), now known as _[[causal perturbation theory]]_; laid out, together with other rigorous approaches, in the seminal Erice summer school proceedings ([Velo-Wightman 76](perturbative+quantum+field+theory#VeloWightman76)) and later developed by ([Scharf 95](#Scharf95), [Scharf 01](causal+perturbation+theory#Scharf01)) and eventually grown into _[[perturbative AQFT]]_ (see there for more).
+These conceptual mysteries were resolved in a mathematically rigorous formulation of [[renormalization|("re"-)normalization]] in [[perturbative QFT]] by [Epstein & Glaser 1973](perturbative+quantum+field+theory#EpsteinGlaser73), based on [Bogoliubov & Shirkov 1959](perturbative+quantum+field+theory#BogoliubovShirkov59) and [St&#252;ckelberg 1951](perturbative+quantum+field+theory#Stueckelberg51), now known as _[[causal perturbation theory]]_; laid out, together with other rigorous approaches, in the seminal Erice summer school proceedings ([Velo & Wightman 1976](perturbative+quantum+field+theory#VeloWightman76)) and later developed by [Scharf 1995](#Scharf95) [2001](causal+perturbation+theory#Scharf01) and eventually grown into _[[perturbative AQFT]]_ (see there for more).
 
 
 ## References
