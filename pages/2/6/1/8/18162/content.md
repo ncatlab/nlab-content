@@ -295,7 +295,7 @@ distinct points have disjoint open neighbourhoods iff any such injective map ext
   column sep={between origins, 50pt},
   row sep={between origins, 40pt}
 ]
-  \boxed{\{0\leftrightarrow 1\}}
+  \{\boxed{0}, \boxed{1}\}
   \ar[
     rr,
     "{ }"
@@ -1694,7 +1694,7 @@ As a lifting diagram this is
   column sep={between origins, 80pt},
   row sep={between origins, 40pt}
 ]
-  \{\boxed{x}\leftrightarrow \boxed{y}\}
+  \{\boxed{0}, \boxed{1}\}
   \ar[
     rr,
     "{ }"
@@ -1766,7 +1766,7 @@ As a lifting diagram this is
   column sep={between origins, 70pt},
   row sep={between origins, 40pt}
 ]
-  \{\boxed{0}\leftrightarrow \boxed{1}\}
+  \{\boxed{0}, \boxed{1}\}
   \ar[
     rr,
     "{ }"
