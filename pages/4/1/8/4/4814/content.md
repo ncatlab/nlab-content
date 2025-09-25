@@ -82,7 +82,7 @@ Review:
 
 The observation that the BF-theory action functional looks like it should be read as a functional on a space of  [[∞-Lie algebra valued forms]] with values in a [[strict Lie 2-algebra]] possibly appears in print first in <a href="http://arxiv.org/PS_cache/hep-th/pdf/0309/0309173v2.pdf#page=22">section 3.9</a> of 
 
-* [[Florian Girelli]], Hendryk Pfeiffer, _Higher gauge theory -- differential versus integral formulation_, [arXiv:hep-th/0309173](http://arxiv.org/abs/hep-th/0309173)
+* [[Florian Girelli]], [[Hendryk Pfeiffer]], _Higher gauge theory -- differential versus integral formulation_, [arXiv:hep-th/0309173](http://arxiv.org/abs/hep-th/0309173)
 
 The observation that coupled to [[topological Yang-Mills theory]] it can be read as the [[schreiber:∞-Chern-Simons theory]] action functional on [[connections on 2-bundles]] is in 
 
@@ -95,7 +95,7 @@ and a more comprehensive discussion is in section 4.3 of
 
 See also
 
-* Aristide Baratin, Florian Girelli, Daniele Oriti,  _Diffeomorphisms in group field theories_, Physical Review D, vol. 83, Issue 10, id. 104051, [doi](http://dx.doi.org/10.1103/PhysRevD.83.104051), [arxiv/1101.0590](http://arxiv.org/abs/1101.0590)
+* Aristide Baratin, [[Florian Girelli]], Daniele Oriti,  _Diffeomorphisms in group field theories_, Physical Review D, vol. 83, Issue 10, id. 104051, [doi](http://dx.doi.org/10.1103/PhysRevD.83.104051), [arxiv/1101.0590](http://arxiv.org/abs/1101.0590)
 
 
 Relation to [[Einstein gravity]] (in [[first-order formulation of gravity|first-order formulation]]):
