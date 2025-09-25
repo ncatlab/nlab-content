@@ -40,7 +40,7 @@ A more general version is this:  If a set is equipped with two binary operations
 1.  the operation is commutative;
 1.  the operation is associative.
 
-This can also be [[internalisation|internalised]] in any [[symmetric monoidal category]].
+This can also be [[internalisation|internalised]] in any [[braided monoidal category]], e.g. see Proposition 6.29 of [Aguiar and Mahajan](#AguiarMahajan).
 
 
 ## Proofs
@@ -163,6 +163,9 @@ Generalization to [[higher algebra]]/[[higher category theory]] via [[operads]]/
 
 * [[Tomer Schlank]], [[Lior Yanovski]], *The ∞-Categorical Eckmann-Hilton Argument*, Algebr. Geom. Topol. 19 (2019) 3119-3170 ([arXiv:1808.06006](https://arxiv.org/abs/1808.06006), [doi:10.2140/agt.2019.19.3119](https://doi.org/10.2140/agt.2019.19.3119))
 
+A formulation in a [[braided monoidal category]] appears as Proposition 6.29 of:
+
+* {#AguiarMahajan} [[Marcelo Aguiar]], [[Swapneel Mahajan]], *Monoidal Functors, Species and Hopf Algebras*, [pdf](http://www.math.iitb.ac.in/~swapneel/aguiar.pdf).
 
 
 [[!redirects Eckmann-Hilton argument]]
