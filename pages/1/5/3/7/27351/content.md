@@ -443,9 +443,9 @@ In a final step of the traditional argument one applies a [[renormalization]] ar
 #### The renormalization choice
  {#AbelianCSWIlsonLoopsTheRenormalizationChoice}
 
-[Polyakov 1988 (5)](#Polyakov88) considered one regularization of (eq:AbelianCSPropagatorForComputationOfWilsonLoops). Another one was by [Leukert & Schäfer 1996 §7](#LeukertSchäfer96) (there on a backdrop of a rigorous construction of the [[path integral]] [[measure]], which however still leaves the Wilson loop observable ill-defined, see also [Hahn 2004](#Hahn04)). 
+[Polyakov 1988 (5)](#Polyakov88) considered one regularization of (eq:AbelianCSPropagatorForComputationOfWilsonLoops). Another one was by [Leukert & Schäfer 1996 §7](#LeukertSchäfer96) (there on a backdrop of a rigorous construction of the [[path integral]] [[measure]], which however still leaves the Wilson loop observable ill-defined, see also [Hahn 2004a](#Hahn04a) [2004b](#Hahn04b)). 
 
-But [Witten 1989 p. 363](#Witten89) asserted that it is "clear" that the following "point-splitting regularization" should be used instead, and this has become the commonly accepted choice since (cf. [Kaul 1999 (9)](#Kaul99), [Hahn 2004 §2.5 & §5](#Hahn04) [Guadagnini & Thuillier 2008 §3](#GuadagniniThuillier08), [Mezei, Pufu & Wang 2017 (5.1)](#MezeiPufuWang17)):
+But [Witten 1989 p. 363](#Witten89) asserted that it is "clear" that the following "point-splitting regularization" should be used instead, and this has become the commonly accepted choice since (cf. [Kaul 1999 (9)](#Kaul99), [Hahn 2004a §9](#Hahn04a), [Hahn 2004b §2.5 & §5](#Hahn04b) [Guadagnini & Thuillier 2008 §3](#GuadagniniThuillier08), [Mezei, Pufu & Wang 2017 (5.1)](#MezeiPufuWang17)):
 
 Choose a [[framed link|framing]] of the link $\gamma$ (eq:ALink), hence a unit [[vector field]] $n$ in $\mathbb{R}^3$ defined on $\gamma$, which is normal to the [[tangent vectors]] $\dot \gamma$ to $\gamma$. 
 With that, finally define (eq:AbelianCSWilsonLoopObservableByNaivePathIntegral) by replacing all occurences of $y$ with a shifted version $y + s n$, for arbitrarily small lengths $s \in \mathbb{R}_+$ of the normal/framing vector $s n$:
@@ -1048,8 +1048,9 @@ Discussion of [[Wilson loop]] [[quantum observables]] in abelian Chern-Simons th
 
 * [Leukert & Schäfer 1996 §7](#LeukertSchäfer96)
 
-* {#Hahn04} Atle Hahn: *The Wilson Loop Observables of Chern-Simons Theory on $\mathbb{R}^3$ in Axial Gauge*,  Commun. Math. Phys. **248** (2004) 467–499 &lbrack;[doi:10.1007/s00220-004-1097-4](https://doi.org/10.1007/s00220-004-1097-4), [inSpire:667450](https://inspirehep.net/literature/667450)&rbrack;
+* {#Hahn04a} [[Atle Hahn]], §9 of: *Chern–Simons theory on $\mathbb{R}^3$ in axial gauge: a rigorous approach*, Journal of Functional Analysis **211** 2 (2004) 483-507 &lbrack;[doi:10.1016/j.jfa.2004.01.006](https://doi.org/10.1016/j.jfa.2004.01.006)&rbrack;
 
+* {#Hahn04b} [[Atle Hahn]]: *The Wilson Loop Observables of Chern-Simons Theory on $\mathbb{R}^3$ in Axial Gauge*,  Commun. Math. Phys. **248** (2004) 467–499 &lbrack;[doi:10.1007/s00220-004-1097-4](https://doi.org/10.1007/s00220-004-1097-4), [inSpire:667450](https://inspirehep.net/literature/667450)&rbrack;
 
 * [Guadagnini & Thuillier 2008](#GuadagniniThuillier08)
 
