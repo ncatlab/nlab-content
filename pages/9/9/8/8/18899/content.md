@@ -12,17 +12,17 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
+
 
 ## Idea
 
 In [[relativistic field theory|relativistic]] [[perturbative quantum field theory]], the _time-ordered product_ is a product on suitably well-behaved [[observables]]  which re-orders its arguments according to the [[causal ordering]] of their spacetime supports before multiplying with the [[Wick algebra]] product. 
 
-(Analogously reverse [[causal ordering]] this is called the _reverse-time ordered_ or _anti-time ordered_ prouct.)
+(The analogue for reverse [[causal ordering]] is called the _reverse-time ordered_ or _anti-time ordered_ product.)
 
-For example for point-evaluation [[field observables]] and distinct [[events]] $x,y \in \Sigma$ the time-ordered product is defined by
+For example, for point-evaluation [[field observables]] and distinct [[events]] $x,y \in \Sigma$ the time-ordered product is defined by
 
 $$
   T(\mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y))
@@ -347,7 +347,7 @@ This extension is not unique. A choice of such an extension, satisfying some evi
 \begin{remark}\label{OperatorOrderAndTimeOrder}
 **(operator product order and time-order)**
 \linebreak
-  Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} x \xdot$) corresponds to *temporal ordering* of their [[observable]] values ([Feynman 1948, p. 381](path+integral#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](path+integral#Nagaosa99); [Ong](path+integral#Ong)).
+  Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *temporal ordering* of their [[observable]] values ([Feynman 1948, p. 381](path+integral#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](path+integral#Nagaosa99); [Ong](path+integral#Ong)).
 
 Conversely the product of [[observable]] values in the path integral corresponds to the time-ordered product of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21)).
 \end{remark}
