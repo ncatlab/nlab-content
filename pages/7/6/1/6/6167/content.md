@@ -11,11 +11,12 @@ Alexander Pieter Martijn Kupers
 
 * [inSpire page](https://inspirehep.net/authors/2531516)
 
+
 ## Selected writings
 
 On open-closed [[string topology]] operations in terms of [[HQFT]] with [[branes]]:
 
-* {#Kupers11} [[Sander Kupers]]: _String topology operations_, MS thesis, Utrecht (2011) &lbrack;[hdl:20.500.12932/7283](https://studenttheses.uu.nl/handle/20.500.12932/7283)&rbrack;
+* {#Kupers11} [[Sander Kupers]]: _String topology operations_, MS thesis, Utrecht (2011) &lbrack;[hdl:20.500.12932/7283](https://studenttheses.uu.nl/handle/20.500.12932/7283), [[Kupers-StringTopology.pdf:file]]&rbrack;
 
 
 On the [[h-principle]] and [[microflexible sheaf|microflexible sheaves]]:
