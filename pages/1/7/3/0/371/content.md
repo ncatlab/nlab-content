@@ -137,7 +137,13 @@ Thus, such a category becomes [[enriched category|enriched]] over the [[category
 
 =--
 
++-- {: .num_prop}
+###### Proposition
 
+A category with a zero object is [[cartesian closed category|Cartesian closed]] if and only if it is [[equivalence of categories|equivalent]] to the [[trivial category]].
+=--
+
+In other words, as expected, a [[model]] of [[intuitionistic logic]] in which [[true]] and [[false]] coincide is necessarily trivial.
 
 ## Related concepts
 
