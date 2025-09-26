@@ -37,21 +37,23 @@ Let $X$ be a [[smooth manifold]], write $L X$ for its [[free loop space]] (for $
 The **string product** is a morphism of [[abelian group]]s
 
 $$
-  (-)\cdot(-) : 
+  (-)\cdot(-) 
+  \;\colon\; 
   H_\bullet(L X) \otimes H_\bullet(L X)
-  \to 
+  \longrightarrow 
   H_{\bullet - dim X}(L X)
-  \,,
 $$
 
-where $dim X$ is the [[dimension]] of $X$, defined as follows:
+(where $dim X$ is the [[dimension]] of $X$), defined as follows:
 
-Write $ev_* : L X \to X$ for the [[evaluation map]] at the basepoint of the loops. 
+Write $ev_* \colon L X \to X$ for the [[evaluation map]] at the basepoint of the loops. 
 
-For $[\alpha] \in H_i(L X)$ and $[\beta] \in H_j(L X)$ we can find representatives $\alpha$ and $\beta$ such that $ev(\alpha)$ and $ev(\beta)$ intersect [[transversal map|transversally]]. There is then an $((i+j)-dim X)$-chain $\alpha \cdot \beta$ such that $ev(\alpha \cdot \beta)$ is the chain given by that intersection: above $x \in ev(\alpha \cdot \beta)$ this is the loop obtained by concatenating $\alpha_x$ and $\beta_x$ at their common basepoint. The _string product_ is then defined using such representatives by
+For $[\alpha] \in H_i(L X)$ and $[\beta] \in H_j(L X)$ we can find representatives $\alpha$ and $\beta$ such that $ev(\alpha)$ and $ev(\beta)$ intersect [[transversal map|transversally]]. There is then an $\big((i+j)-dim X\big)$-chain $\alpha \cdot \beta$ such that $ev(\alpha \cdot \beta)$ is the chain given by that intersection: above $x \in ev(\alpha \cdot \beta)$ this is the loop obtained by concatenating $\alpha_x$ and $\beta_x$ at their common basepoint. The _string product_ is then defined using such representatives by
 
 $$
-  [\alpha] \cdot [\beta] := [\alpha \cdot \beta]
+  [\alpha] \cdot [\beta] 
+   \coloneqq 
+  [\alpha \cdot \beta]
   \,.
 $$
 
@@ -64,8 +66,8 @@ The string product is [[associativity|associative]] and graded-commutative.
 
 =--
 
-This is due to ([ChasSullivan](#ChasSullivan)).
-There is is a more elegant way to capture this, due to ([CohenJones](#CohenJones)):
+This is due to [Chas & Sullivan](#ChasSullivan).
+There is is a more elegant way to capture this, due to [Cohen & Jones](#CohenJones):
 
 Let 
 
@@ -103,7 +105,8 @@ $$
 
 =--
 
-This is due to ([CohenJones](#CohenJones)).
+This is due to [Cohen & Jones](#CohenJones).
+
 
 ### The BV-operator
 
@@ -125,7 +128,7 @@ $$
 that sends $(\theta, \gamma) \mapsto (t \mapsto \gamma(\theta + t))$.  Then take
 
 $$
-  \Delta : a \mapsto \rho_* ([S^1] \times a)
+  \Delta \colon a \mapsto \rho_* \big([S^1] \times a\big)
   \,,
 $$
 
@@ -151,7 +154,7 @@ $$
 
 =--
 
-This is due to ([ChasSullivan](#ChasSullivan)).
+This is due to [Chas & Sullivan](#ChasSullivan).
 
 
 ## Properties
@@ -187,7 +190,7 @@ structure of a $d$-dimensional [[HCFT]] with _positive boundary_ and set of [[br
 =--
 
 For [[closed strings]] this is discussed in ([Cohen-Godin 03](#CohenGodin03), [Tamanoi 07](#Tamanoi07)). 
-For [[open strings]] on  a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin 07](#Godin)), where the general statement for arbitrary branes is conjectured. A detailed proof of this general statement is in ([Kupers 11](#Kupers)). 
+For [[open strings]] on  a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin 07](#Godin)), where the general statement for arbitrary branes is conjectured. A detailed proof of this general statement is in [Kupers 2011](#Kupers11). 
 
 +-- {: .num_remark }
 ###### Remark
@@ -206,40 +209,42 @@ These constructions work by regarding the [[mapping spaces]] from 2-dimensional 
 
 ## References
 
-The original references include the following:
+Original references:
 
-*  {#ChasSullivan} [[Moira Chas]], [[Dennis Sullivan]], _String topology_, Ann. Math. [math.GT/9911159](http://arxiv.org/abs/math/9911159)
+*  {#ChasSullivan} [[Moira Chas]], [[Dennis Sullivan]]: _String topology_ &lbrack;[math.GT/9911159](http://arxiv.org/abs/math/9911159)&rbrack;
 
+*  [[Ralph Cohen]], John R. Klein, [[Dennis Sullivan]]: _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology **1** 2 (2008) 391-408 &lbrack;[doi:10.1112/jtopol/jtn001](http://dx.doi.org/10.1112/jtopol/jtn001)&rbrack;
 
-*  [[Ralph Cohen]], John R. Klein, [[Dennis Sullivan]], _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology 2008 __1__(2):391-408; [doi](http://dx.doi.org/10.1112/jtopol/jtn001) 
+Realizing the string product as a pull-push (in terms of dual [[fiber integration]] via [[Thom isomorphism]]):
 
-* [[Ralph Cohen]], _Homotopy and geometric perspectives on string topology_, [pdf](http://math.stanford.edu/~ralph/skyesummary.pdf)
-
-In 
-
-* {#CohenJones} [[Ralph Cohen]], [[John David Stuart Jones]], _A homotopy theoretic realization of string topology_ , Math. Ann. 324
-(2002), no. 4, ([arXiv:0107187](http://arxiv.org/abs/math/0107187))
+* {#CohenJones} [[Ralph Cohen]], [[John David Stuart Jones]], _A homotopy theoretic realization of string topology_ , Math. Ann. **324** 4 (2002) &lbrack;[arXiv:0107187](http://arxiv.org/abs/math/0107187)&rbrack;
  
+More on relation to homology of the [[based loop space]] and its [[Pontrjagin product]]:
 
-the string product was realized as genuine pull-push (in terms of dual [[fiber integration]] via [[Thom isomorphism]]).
+* Eric J. Malm: *String topology and the based loop space* &lbrack;[arXiv:1103.6198](https://arxiv.org/abs/1103.6198)&rbrack;
 
-The interpretation of closed string topology as an [[HQFT]] is discussed in
+Lecture notes:
+
+* [[Ralph Cohen]]: _Homotopy and geometric perspectives on string topology_ *lbrack;[pdf](http://math.stanford.edu/~ralph/skyesummary.pdf)&rbrack;
+
+
+The interpretation of closed string topology as an [[HQFT]]:
 
 * {#CohenGodin03} [[Ralph Cohen]], [[Veronique Godin]], _[[A Polarized View of String Topology]]_ ([arXiv:math/0303003](http://arxiv.org/abs/math/0303003))
  
-
 * {#Tamanoi07} Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv](http://arxiv.org/abs/0706.1276))
  
 
-A detailed discussion and generalization to the open-closed [[HQFT]] in the presence of a single space-filling [[brane]] is in
+The open-closed [[HQFT]] in the presence of a single space-filling [[brane]]:
 
-* {#Godin} [[Veronique Godin]], _Higher string topology operations_ (2007)([arXiv:0711.4859](http://arxiv.org/abs/0711.4859))
+* {#Godin} [[Veronique Godin]], _Higher string topology operations_ (2007) &lbrack;[arXiv:0711.4859](http://arxiv.org/abs/0711.4859)&rbrack;
  
 
-The generalization to multiple [[D-branes]] is discussed in
+The generalization to multiple [[D-branes]]:
 
-* {#Kupers} [[Sander Kupers]], _String topology operations_ MS thesis (2011) ([pdf](http://math.stanford.edu/~kupers/thesis7thjune2011.pdf))
+* {#Kupers11} [[Sander Kupers]]: _String topology operations_, MS thesis, Utrecht (2011) &lbrack;[hdl:20.500.12932/7283](https://studenttheses.uu.nl/handle/20.500.12932/7283)&rbrack;
 
+ 
 Exposition of the perspective of regarding [[string topology]]-operations as the [[TQFT]] of a [[topological string]] [[sigma model]]:
 
 * [[Ralph Cohen]], [[Alexander Voronov]]: _Notes on string topology_, in: [[Ralph Cohen]], [[Kathryn Hess]], [[Alexander Voronov]] (eds.): _String topology and cyclic homology_, Advanced courses in mathematics CRM Barcelona, Birkhäuser (2006) &lbrack;[math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)&rbrack;
@@ -269,8 +274,7 @@ For the string product and the BV-operator this extension has been known early o
 
 Evidence for the existence of the [[TCFT]] version by exhibiting a [[dg-category]] that looks like it ought to be the dg-category of string-topology [[branes]] (hence ought to correspond to the TCFT under the suitable version of the [[TCFT]]-version of the [[cobordism hypothesis]]) is discussed in
 
-* {#BlumbergCoheneTeleman09} [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]], _Open-closed field theories, string topology, and Hochschild homology_, pp. 53--56 in Alpine Perspectives on Algebraic Topology, Contemp. Math. 504, Amer. Math. Soc. 2009
-([arXiv:0906.5198](https://arxiv.org/abs/0906.5198))
+* {#BlumbergCoheneTeleman09} [[Andrew Blumberg]], [[Ralph Cohen]], [[Constantin Teleman]]: _Open-closed field theories, string topology, and Hochschild homology_, in: *Alpine Perspectives on Algebraic Topology*, Contemp. Math. **504**, Amer. Math. Soc. (2009) 53-56 &lbrack;[arXiv:0906.5198](https://arxiv.org/abs/0906.5198)&rbrack;
  
 
 Refinements of string topology from [[homology groups]] to the full [[ordinary homology]]-[[spectra]] is discussed in ([Blumberg-Cohen-Teleman 09](#BlumbergCoheneTeleman09)) and in
