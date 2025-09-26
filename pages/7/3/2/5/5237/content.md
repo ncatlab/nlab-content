@@ -37,7 +37,7 @@ A \otimes A \arrow[r, "\nabla_{A}"] \arrow[d, "f \otimes f"'] & A \arrow[d, "f"]
 B \otimes B \arrow[r, "\nabla_{B}"']                          & B                &                                                 & B               
 \end{tikzcd}
 
-Similarly for the **category of [[commutative monoid in a symmetric monoidal category|commutative monoids]]** $CMon(C)$, if $C$ is symmetric monoidal.
+Similarly for the **category of [[commutative monoid in a symmetric monoidal category|commutative monoids]]** $CMon(C)$, if $C$ is [[braided monoidal category|braided monoidal]].
 
 =--
 
@@ -53,7 +53,7 @@ If [[Assoc]] denotes the [[associative operad]] in $C$, then $Mon(C) = Alg_C Ass
 ###### Remark
 
 Every category of monoids comes with a [[forgetful functor]] $U \colon Mon(C) \to C$ which is [[faithful functor|faithful]] and [[conservative 
-functor|conservative]].  In many cases it is [[monadic functor|monadic]].
+functor|conservative]].  In many cases it is [[monadic functor|monadic]] (in fact, as soon as $U$ admits a left adjoint).
 
 =--
 
