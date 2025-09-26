@@ -305,10 +305,10 @@ For disucssion in [[noncommutative topology]]/[[KK-theory]] see at _[[Poincaré 
 
 Poincar&#233; duality is traditional considered on the level of [[cohomology groups]]. One may asks if it lifts to a duality on the underlying [[chain complexes]]. 
 
-Such "derived" Poincar&#233; duality on the level of chain complexes is claimed in theorem 2.5.2 of 
+Such "derived" Poincar&#233; duality on the level of chain complexes is claimed in 
 
-* Eric J. Malm, _String topology and the based loop space_ ([arXiv:1103.6198](http://arxiv.org/abs/1103.6198))
- {#EM11}
+* {#EM11} [[Eric J. Malm]], theorem 2.5.2 of: *String topology and the based loop space* &lbrack;[arXiv:1103.6198](https://arxiv.org/abs/1103.6198), slides: [pdf](http://math.ucr.edu/~jbergner/ucr-st-present.pdf), [[Malm-BasedLoopStringTopology.pdf:file]]&rbrack;
+ 
 
 based on -- or at least inspired by -- the discussion in (section 10) of 
 
