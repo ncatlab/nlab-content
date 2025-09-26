@@ -9,14 +9,13 @@
 =--
 =--
 
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Statements
 
-In its original form, the _Eckmann--Hilton argument_ shows that a [[monoid object]] or [[group object]] [[internalization|internal]] to the [[category of monoids]] or [[Groups]] is necessarily [[abelian group|commutative]]. 
+In its original form, the _Eckmann--Hilton argument_ shows that a [[monoid object]] or [[group object]] [[internalization|internal]] to the [[category of monoids]] or [[Groups|of groups]] is necessarily [[abelian group|commutative/abelian]]. 
 
-In other words this says that if a [[set]] is equipped with a [[pair]] of [[monoid]] [[structures]], such that one is a [[homomorphism]] for the other, then the two structures actually coincide and the resulting monoid is [[commutative monoid|commutative]].
+In other words this says that when a [[set]] is equipped with a [[pair]] of [[monoid]] [[structures]], such that one is a [[homomorphism]] for the other, then the two structures actually coincide and the resulting monoid is [[commutative monoid|commutative]].
 
 From the [[nPOV]], we may want to think of the statement in this way:
 
@@ -163,9 +162,9 @@ Generalization to [[higher algebra]]/[[higher category theory]] via [[operads]]/
 
 * [[Tomer Schlank]], [[Lior Yanovski]], *The ∞-Categorical Eckmann-Hilton Argument*, Algebr. Geom. Topol. 19 (2019) 3119-3170 ([arXiv:1808.06006](https://arxiv.org/abs/1808.06006), [doi:10.2140/agt.2019.19.3119](https://doi.org/10.2140/agt.2019.19.3119))
 
-A formulation in a [[braided monoidal category]] appears as Proposition 6.29 of:
+Formulation in [[braided monoidal categories]]:
 
-* {#AguiarMahajan} [[Marcelo Aguiar]], [[Swapneel Mahajan]], *Monoidal Functors, Species and Hopf Algebras*, [pdf](http://www.math.iitb.ac.in/~swapneel/aguiar.pdf).
+* {#AguiarMahajan} [[Marcelo Aguiar]], [[Swapneel Mahajan]], Prop. 6.29 in: *Monoidal Functors, Species and Hopf Algebras*, CRM  Monograph Series **29**, AMS (2010) &lbrack;[ISBN:978-0-8218-4776-3](https://bookstore.ams.org/view?ProductCode=CRMM/29), [pdf](http://www.math.iitb.ac.in/~swapneel/aguiar.pdf)&rbrack;
 
 
 [[!redirects Eckmann-Hilton argument]]
