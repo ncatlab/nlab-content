@@ -26,7 +26,7 @@ If a $\sigma$-compact space is also [[weakly locally compact]], then one can tak
 
 ## Examples
 
-Every compact space is trivially compact. A discrete space is $\sigma$-compact if and only if it is countable. The product of a finite number of $\sigma$-compact spaces is $\sigma$-compact.
+Every compact space is trivially $\sigma$-compact. A discrete space is $\sigma$-compact if and only if it is countable. The product of a finite number of $\sigma$-compact spaces is $\sigma$-compact.
 
 * [[locally compact and second-countable spaces are sigma-compact]]
 
