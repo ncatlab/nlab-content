@@ -42,12 +42,13 @@ In other parts of the physics literature, notably in the context of [[conformal 
 
 We state the theorem for a vacuum representation on [[Minkowski spacetime]]. Since the theorem has some controverse consequences for the physical interpretation of the theory, some of which will be mentioned in the corresponding paragraph, we take a quick look at which axioms really enter into the proof of the theorem. The references include work on the generalization of the theorem to more general [[spacetimes]] as well as work concerned with dodging the theorem and its consequences by choosing an alternative set of axioms.
 
-## Definition ##
-All necessary definitions can be found at [[Haag-Kastler vacuum representation]].
+## Definition 
+
+All necessary definitions can be found at *[[Haag-Kastler vacuum representation]]*.
 
 ## Statement
 
-Both the statement and the proof we mention here refer to the [[Haag-Kastler vacuum representation]], but both the statement and the proof can be generalized resp. translated to different contexts, like e.g. to a [[Wightman theory]], to more general spacetimes and to other states than the vacuum vector.
+Both the statement and the proof we mention here refer to the [[Haag-Kastler vacuum representation]], but both can be generalized resp. translated to different contexts, like e.g. to a [[Wightman theory]], to more general spacetimes, and to other states than the vacuum vector.
 
 \begin{theorem}
 **(Reeh-Schlieder)**
@@ -170,16 +171,16 @@ The fact that the vacuum vector is cyclic means that any arbitrary state in the 
 
 See also
 
-* Wikipedia on the [Reeh-Schlieder Theorem](http://en.wikipedia.org/wiki/Reeh%E2%80%93Schlieder_theorem)
+* Wikipedia: *[Reeh-Schlieder Theorem](http://en.wikipedia.org/wiki/Reeh%E2%80%93Schlieder_theorem)*
 
 
 The Reeh-Schlieder theorem can be generalized from [[Minkowski spacetime]] to more general [[spacetimes]], see for example:
 
-* Alexander Strohmaier, Rainer Verch, Manfred Wollenberg: _Microlocal analysis of quantum fields on curved spacetimes: Analytic wavefront sets and Reeh-Schlieder theorems_ ([arXiv](http://xxx.uni-augsburg.de/abs/math-ph/0202003))
+* Alexander Strohmaier, [[Rainer Verch]], Manfred Wollenberg: _Microlocal analysis of quantum fields on curved spacetimes: Analytic wavefront sets and Reeh-Schlieder theorems_ &lbrack;[arXiv:math-ph/0202003](http://xxx.uni-augsburg.de/abs/math-ph/0202003)&rbrack;
 
 On efforts to avoid the Reeh-Schlieder theorem and its counter-intuitive implications:
 
-* [[Hans Halvorson]], _Reeh-Schlieder Defeats Newton-Wigner: On alternative localization schemes in relativistic quantum field theory_ ([arXiv](http://xxx.uni-augsburg.de/abs/quant-ph/0007060))
+* [[Hans Halvorson]]: _Reeh-Schlieder Defeats Newton-Wigner: On alternative localization schemes in relativistic quantum field theory_ &lbrack;[arXiv:quant-ph/0007060](http://xxx.uni-augsburg.de/abs/quant-ph/0007060)&rbrack;
 
 The observation that the Reeh-Schlieder property describes what elsewhere is called the _[[operator-state correspondence]]_ is made explicit in:
 
