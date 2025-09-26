@@ -75,7 +75,7 @@ Further discussion (some in the context of the [[framed little disk operad]]):
 * [[Ralph Cohen]], [[Alexander Voronov]]: _Notes on string topology_, in: _String topology and cyclic homology_, Advanced courses in mathematics CRM Barcelona, Birkhäuser (2006) &lbrack;[math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)&rbrack;
   > (in the context of [[string topology]])
 
-* [[Ralph Cohen]] (notes by Eric Malm), p 20 of: *MATH 283: Topological Field Theories* (2008) &lbrack;[pdf](https://ericmalm.net/ac/projects/math283-w08/math283-w08-n.pdf), [[RCohen-TQFT.pdf:file]]&rbrack;
+* [[Ralph Cohen]] (notes by [[Eric Malm]]), p 20 of: *MATH 283: Topological Field Theories* (2008) &lbrack;[pdf](https://ericmalm.net/ac/projects/math283-w08/math283-w08-n.pdf), [[RCohen-TQFT.pdf:file]]&rbrack;
 
 * {#BellingeriGervais12} [[Paolo Bellingeri]], [[Sylvain Gervais]]: *Surface framed braids*, Geom Dedicata **159** (2012) 51–69 &lbrack;[doi:10.1007/s10711-011-9645-5](https://doi.org/10.1007/s10711-011-9645-5), [arXiv:1001.4471](https://arxiv.org/abs/1001.4471)&rbrack;
 
