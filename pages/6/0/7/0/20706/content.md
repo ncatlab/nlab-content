@@ -1,5 +1,5 @@
 
-> not to be confused with *[[Ralph Cohen]]*.
+> beware that there is also *[[Ralph Cohen]]*.
 
 ***
 
