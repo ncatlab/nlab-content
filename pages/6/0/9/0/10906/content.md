@@ -26,7 +26,7 @@ The conditions to be verified are:
 
 * Every subset of a clique is a clique.
 * If $a$ is a point, then $\{a\}$ is a clique.
-* If $A$ is a family of cliques such that $(x,y \in A) \Rightarrow (x \cup y \in A)$, then $\bigcup A$ is a clique.
+* If $A$ is a family of cliques such that $(x,y \in A) \Rightarrow (x \cup y \in X)$, then $\bigcup A$ is a clique.
 
 ### As an Undirected Graph
 
