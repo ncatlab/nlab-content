@@ -53,7 +53,7 @@ Since every [[category]] is also an [[(n,r)-category]] for $n,r \geq 1$, we may 
 
 ### Relation to the boolean domain
 
-The [[boolean domain]] $\mathbb{2}$ is the [[discrete category]] consisting of two objects $0, 1 \in \mathbb{2}$. The boolean domain is the [[groupoid]] [[core]] of the walking morphism, and it is a [[fully faithful]] [[subcategory]] of the walking morphism. 
+The [[boolean domain]] $\mathbb{2}$ is the [[discrete category]] consisting of two objects $0, 1 \in \mathbb{2}$. The boolean domain is the [[groupoid]] [[core]] of the walking morphism, and it is a [[subcategory]] of the walking morphism. 
 
 ### Directed univalence
 
