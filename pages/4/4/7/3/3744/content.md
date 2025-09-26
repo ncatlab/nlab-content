@@ -9,27 +9,28 @@
 =--
 =--
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
 
 ## Idea
-This page lays down a specific set of axioms of the [[Haag-Kastler axioms]] to 
-[[AQFT]], knowing that this set is not _the set_ of Haag-Kastler axioms, but one specific choice. The purpose is to state and prove some of the classical results of the theory in a mathematically precise and model independent way. In fact some experts will find the chosen axioms to be stronger than necessary, this is deliberately so to ease the exposition.
+
+This page refers to a version of the [[Haag-Kastler axioms]] for 
+[[AQFT]], knowing that this set is not _the set_ of Haag-Kastler axioms, but one specific choice. The purpose is to state and prove some of the classical results of the theory in a mathematically precise and model-independent way. Experts may find the chosen axioms to be stronger than necessary, this is deliberately so to ease the exposition.
 
 It is possible to construct examples that fulfill the axioms, to show that they are not empty, but we will not engage in this task here, at least not now. Note however that up to now there was no success in the task to construct systems in 4 dimensions with interactions, which has led to some doubts about the usefulness of this approach in the physics community: It has yet to be shown if the approach does or does not capture the essential features that makes possible the tremendous success of the standard model of particle physics.
 
 ## Abstract
+
 We first collect some terms that are needed to then formulate the axioms of the vacuum representation. A few simple consequences are cited and some links to further concepts are provided.
 
-###Notation
+### Notation
 
-####The Poincar&#233; Group
-The universal covering $SL(2, \C) \ltimes \R^4$ of the restricted [[Poincaré group]] $\mathcal{P}^{\dagger}_+$ will be denoted by $\mathcal{P}$, the [[abelian group|abelian]] [[subgroup]] of all translations by $\mathcal{T}$.
+#### The Poincar&#233; Group
 
-####The Minkowski Spacetime
+The [[universal cover]] $SL(2, \C) \ltimes \R^4$ of the restricted [[Poincaré group]] $\mathcal{P}^{\dagger}_+$ will be denoted by $\mathcal{P}$, the [[abelian group|abelian]] [[subgroup]] of all translations by $\mathcal{T}$.
 
-We talk about 4-dimensional [[Minkowski spacetime]] $\mathcal{Min}$ only, i.e. $\mathcal{Min}$ is the [[vector space]] $\R^{4} = \R \times \R^{3}$ equipped with the scalar product $\lt x, y \gt := x_0 y_0 - (\vec x, \vec y)$ with $( \cdot , \cdot  )$ being the Euclidean scalar product on $\R^{3}$.
+#### The Minkowski Spacetime
+
+We consider 4-dimensional [[Minkowski spacetime]] $\mathcal{Min}$ only, i.e. $\mathcal{Min}$ is the [[vector space]] $\R^{4} = \R \times \R^{3}$ equipped with the scalar product $\lt x, y \gt := x_0 y_0 - (\vec x, \vec y)$ with $( \cdot , \cdot  )$ being the Euclidean scalar product on $\R^{3}$.
 Open bounded subsets of $\mathcal{Min}$ will be denoted by $\mathcal{O}$. The union of these $\mathcal{O}$ form an index set $\mathcal{J}$, that is [[poset|partially ordered]] by inclusion. 
 
 If two sets are spacelike separated, this will be denoted by $\mathcal{O}_1 \perp \mathcal{O}_2$, the interior of the spacelike complement of a given set $\mathcal{O}$ will be denoted by $\mathcal{O}'$ or $\mathcal{O}^{\perp}$. The bounded open sets thus form a [[causal index set]].
@@ -37,45 +38,45 @@ If two sets are spacelike separated, this will be denoted by $\mathcal{O}_1 \per
 We denote the open forward (light)cone at x by $V_+(x)$, similar $V_-(x)$ is the open backward cone at $x$, if $x=0$ we simply write $V_+$ and $V_-$.
 A **double cone** or **diamond** is an intersection of an open forward cone and an open backward cone that is nonempty and will be denoted by $\mathcal{K}$. 
 
-An important class of unbounded regions are the **wedges**: Choose an inertial frame and define the right wedge as
+An important class of unbounded regions are the *wedges*: Choose an inertial frame and define the right wedge as
 $$
-       W_R := \{ x = (t, x_1, x_2, x_3) \in \mathbb{R}^4 \mid x_1 \gt \shortmid t \shortmid \}
+  W_R \coloneqq \{ x = (t, x_1, x_2, x_3) \in \mathbb{R}^4 \mid x_1 \gt \shortmid t \shortmid \}
 $$
 The set of wedges is then defined to be
 $$
-      \mathcal{W} := \{\lambda W_R \mid \lambda \in \mathcal{P}^{\dagger}_+ \}
+  \mathcal{W} \coloneqq \{\lambda W_R \mid \lambda \in \mathcal{P}^{\dagger}_+ \}
 $$
 While the definition of the right wedge depends on the chosen initial frame, the definition of the set of wedges does not.
 
-####Operator Algebras
+#### Operator Algebras
 
-See [[operator algebra]] and [[von Neumann algebra]] here on the nLab.
+For background see at *[[operator algebra]]* and *[[von Neumann algebra]]*.
 
-[[von Neumann algebra|Von Neumann algebras]] $\mathcal{M}$ will always be concrete [[operator algebra]]s acting on a given [[Hilbert space]] $\mathcal{H}$, as is the rule in the literature (see also [[von Neumann algebra]]). The [[commutant]] of $\mathcal{M}$ will be denoted by $\mathcal{M}'$, the positive cone by $\mathcal{M}^+$. The minimal von Neumann algebra that contains two given ones $\mathcal{M}_1$ and $\mathcal{M}_2$ will be denoted by:
+[[von Neumann algebra|Von Neumann algebras]] $\mathcal{M}$ will always be concrete [[operator algebras]] [[module|acting]] on a given [[Hilbert space]] $\mathcal{H}$, as is the rule in the literature. The [[commutant]] of $\mathcal{M}$ will be denoted by $\mathcal{M}'$, the positive cone by $\mathcal{M}^+$. The minimal von Neumann algebra that contains two given ones $\mathcal{M}_1$ and $\mathcal{M}_2$ will be denoted by:
 $$
-      \mathcal{M}_1 \vee \mathcal{M}_2 :=  {(\mathcal{M}_1 \cup \mathcal{M}_2)}''
+  \mathcal{M}_1 \vee \mathcal{M}_2 \coloneqq  {(\mathcal{M}_1 \cup \mathcal{M}_2)}''
 $$
 As in this formula we will make frequently use of the [[bicommutant theorem]] to denote by $\mathcal{M}''$ the weak resp. strong closure resp. the generated von Neumann algebra of a give set of bounded operators.
 
 An [[automorphism]] of an algebra $\alpha \mathcal{M} \rightarrow \mathcal{M}$ is called an **inner** automorphism if there is an invertible element $u \in \mathcal{M}$ such that $\alpha$ is given by conjugation with $u: \alpha(m) = u \quad m \quad u^{-1} \qquad \forall m\in \mathcal{M}$ (note that our convention here differs from that used by [Wikipedia] (http://en.wikipedia.org/wiki/Inner_automorphism)).
 
-####Group Representations
+#### Group Representations
 
 In this paragraph we will collect some links and remarks about unitary [[representation]]s of [[topological group]]s on Hilbert spaces that are relevant to our topic and less commonly used in the literature.
 In the following $\mathcal{G}$ will be a topological group, $\mathcal{H}$ a (complex) Hilbert space and $\mathcal{U}$ an unitary representation of $\mathcal{G}$ in the algebra of bounded operators of $\mathcal{H}$.
 
 Definition (**analytical vector**): Let $\mathcal{G}$ be a n-dimensional real Lie group. Fix a $f \in \mathcal{H}$, a neighbourhood B of 0 in $\R^n$ and a parametrization $\phi: B \to \mathcal{G}$ of a neighbourhood of 1 in $\mathcal{G}$. Then we can define a function $\mathcal{U}_f$ by
 $$
-      \mathcal{U}_f: B \to \mathcal{H}
+  \mathcal{U}_f \colon B \to \mathcal{H}
 $$
 $$
-                     x \mapsto \mathcal{U}(\phi(x)) f    
+  x \mapsto \mathcal{U}\big(\phi(x)\big) f    
 $$
 If $\mathcal{U}_f$ has an extension to an analytic function on a neighbourhood of 0 in $\C^n$, the vector $f$ is called an analytic vector (for $\mathcal{U}$).
 
 See [planetmath] (http://planetmath.org/encyclopedia/BanachSpaceValuedAnalyticFunctions.html) for the definition of Banach space valued analytic functions.
 
-###Definition of Vacuum Representations
+### Definition of Vacuum Representations
 A net of von Neumann algebras $\mathcal{M}(\mathcal{O})$ on a common Hilbert space $(\mathcal{H})$, indexed by $\mathcal{O} \in \mathcal{J}$, is called a **vacuum respresentation** (on the 4-dimensional Minkowski spacetime) if it satisfies the following axioms:
 
 +-- {: .num_theorem #isotony}
@@ -110,7 +111,7 @@ _Remark_ (mathematical viewpoint): $\mathcal{T}$ is the abelian subgroup of tran
 
 =--
 
-###Additional Notations and Notions of Vacuum Representations
+### Additional Notations and Notions of Vacuum Representations
 A short hand notation for vacuum representations will be $\mathcal{M}(\mathcal{J})$ in the following.
 
 The algebras $\mathcal{M}(\mathcal{O})$ are sometimes called **local algebras**.
@@ -128,13 +129,13 @@ The subspace of $\mathcal{H}$ that is invariant under the action of the translat
 * **Definition (algebras of unbounded open set)**
 To any unbounded open set $\mathcal{U}$ we associate a von Neumann algebra by
 $$
-           \mathcal{M}(U) := \bigl( \bigcup_{\mathcal{O} \subset \mathcal{U}} \mathcal{M}(\mathcal{O}) \bigr)''
+  \mathcal{M}(U) \coloneqq \bigl( \bigcup_{\mathcal{O} \subset \mathcal{U}} \mathcal{M}(\mathcal{O}) \bigr)''
 $$
 
 * **Theorem (weak additivity)**
 Let $\mathcal{O} \in \mathcal{J}$ be arbitrary, then we have
 $$
-         \bigl( \bigcup_{a \in \mathcal{T}} \mathcal{M}(a \mathcal{O}) \bigr)'' = \mathcal{R}
+  \bigl( \bigcup_{a \in \mathcal{T}} \mathcal{M}(a \mathcal{O}) \bigr)'' = \mathcal{R}
 $$
 
 _Remark_ (choice of axioms): Weak additivity of our nets are a direct consequence of our axioms, but this is often enough not so in the literature: Depending on the choice of axioms, it is either stated as an axiom or an auxiliary property of a net that is called for when needed.
@@ -156,11 +157,11 @@ which implies that the generated von Neumann algebras coincide, too, of course.
 
 * **[[Reeh-Schlieder Theorem]]**: The vacuum vector is cyclic and separating for all local algebras.
 
-Let $x, y \in \R^4$ and define $[x, y] := \{\lambda x + \mu y | \lambda, \mu \geqq 0, \lambda + \mu = 1\} $.
+Let $x, y \in \R^4$ and define $[x, y] \coloneqq \{\lambda x + \mu y | \lambda, \mu \geqq 0, \lambda + \mu = 1\} $.
 Define
 
 $$
-           \mathcal{M}[x, y] := \cap_{[x, y] \subset \mathcal{O}} \mathcal{M}(\mathcal{O})
+  \mathcal{M}[x, y] \coloneqq \cap_{[x, y] \subset \mathcal{O}} \mathcal{M}(\mathcal{O})
 $$
 
 +-- {: .un_theorem}
