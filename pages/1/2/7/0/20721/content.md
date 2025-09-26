@@ -182,6 +182,13 @@ reflecting the fact that $\Omega \, \mathbb{C}P^\infty \,\simeq\, \Omega B U(1)\
 The homological version of 
 the _[[group completion theorem]]_ relates the [[Pontrjagin ring]] of a [[topological monoid]] $A$ to that of its [[group completion]] $\Omega B A$.
 
+
+### Relation to string topology
+ {#RelationToStringTopology}
+
+The Ponntrjagin product of a [[based loop space]] $\Omega_x X$ is equivalently the [[string topology]]-operation for [[open strings]] stuck to the 0-[[brane]] $\{x\} \hookrightarrow X$. See [there](string+topology#OpenStringProductOn0BraneIsPontrjaginProduct)
+
+
 ### Relation to quantum cohomology
  {#RelationToQuantumCohomology}
 
