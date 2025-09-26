@@ -308,20 +308,21 @@ Exposition of the perspective of regarding [[string topology]]-operations as the
  
 * [[Dennis Sullivan]], _Open and closed string field theory interpreted in classical algebraic topology_, chapter 11 in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Cambridge University Press (2005) ([doi:10.1017/CBO9780511526398.014](https://doi.org/10.1017/CBO9780511526398.014))
 
-For target space a [[classifying space]] of a [[finite group]] or [[compact space|compact]] [[Lie group]] this is discussed in
+For [[target space]] the[[classifying space]] $B G$ of a [[compact Lie group]] $G$ (such as a [[finite group]]):
 
-* David Chataur, [[Luc Menichi]], _String topology of classifying spaces_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/String_Classifiant09.pdf))
+* David Chataur, [[Luc Menichi]]: _String topology of classifying spaces_ &lbrack;[arXiv:0801.0174](https://arxiv.org/abs/0801.0174), [pdf](http://math.univ-angers.fr/perso/lmenichi/String_Classifiant09.pdf)&rbrack;
 
-Arguments that this string-topology [[HQFT]] should refine to a chain-level theory -- a [[TCFT]] -- were given in
+* [[Richard Hepworth]], Anssi Lahtinen: *On string topology of classifying spaces*, Advances in Mathematics
+**281** (2015) 394-507
+&lbrack;[arXiv:1308.6169](https://arxiv.org/abs/1308.6169), [doi:10.1016/j.aim.2015.03.022](https://doi.org/10.1016/j.aim.2015.03.022)&rbrack;
 
-* {#Costello} [[Kevin Costello]],  _Topological conformal field theories and Calabi-Yau $A_\infty$-categories_ (2004) , ([arXiv:0412149](https://arxiv.org/abs/math/0412149))
+
+Arguments that this string-topology [[HQFT]] should refine to a chain-level theory -- a *[[TCFT]]*:
+
+* {#Costello} [[Kevin Costello]], _Topological conformal field theories and Calabi-Yau $A_\infty$-categories_ (2004) &lbrack;[arXiv:0412149](https://arxiv.org/abs/math/0412149)&rbrack;
+
+* {#Lurie} [[Jacob Lurie]], ex. 4.2.16, rem. 4.2.17 in: _[[On the Classification of Topological Field Theories]]_ (2009)
  
-
-and 
-
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
- {#Lurie}
-(see example 4.2.16, remark 4.2.17).
 
 For the string product and the BV-operator this extension has been known early on, it yields a [[homotopy BV algebra]] considered  in
 
@@ -350,11 +351,11 @@ Further generalization to target spaces that are more generally [[differentiable
 
 The relation between string topology and [[Hochschild cohomology]] in dimenion $\gt 1$ is discussed in
 
-* [[Dmitry Vaintrob]], _The String topology BV algebra, Hochschild cohomology and the Goldman bracket on surfaces_ ([arXiv:0702859](http://arxiv.org/abs/math/0702859))
+* [[Dmitry Vaintrob]], _The String topology BV algebra, Hochschild cohomology and the Goldman bracket on surfaces_ &lbrack;[arXiv:0702859](http://arxiv.org/abs/math/0702859)&rbrack;
 
 Further: developments: 
 
-* Eric Malm, _String topology and the based loop space_, 2009 ([arXiv:1103.6198](http://arxiv.org/abs/1103.6198), [slides](http://math.ucr.edu/~jbergner/ucr-st-present.pdf))
+* Eric Malm: _String topology and the based loop space_, 2009 ([arXiv:1103.6198](http://arxiv.org/abs/1103.6198), [slides](http://math.ucr.edu/~jbergner/ucr-st-present.pdf))
 
 Specifically on string topology of [[n-spheres]] (in particular on the [[ordinary homology]] of [[free loop spaces]] of [[n-spheres]]):
 
