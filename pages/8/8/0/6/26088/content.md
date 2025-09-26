@@ -34,6 +34,10 @@ For [[monads]] on symmetric monoidal closed categories there is a close relation
 
 For the moment see at *[enriched monad -- Relation to strong and monoidal monads](enriched}monad#RelationToStrongMonads)* for more on this.
 
+### Internal logic
+
+The [[internal logic]] of symmetric monoidal closed categories is the (intuitionistic) multiplicative fragment of [[linear logic]].
+
 ## Examples
 
 \begin{example}
@@ -45,12 +49,10 @@ For the moment see at *[enriched monad -- Relation to strong and monoidal monads
 \end{example}
 
 \begin{example}
-  A [[cocomplete]] [[poset|posetal]] symmetric monoidal closed category is precisely a [[commutative quantale]].
+  A [[cocomplete]] [[poset|posetal]] symmetric monoidal closed category is precisely a commutative [[quantale]].
 \end{example}
 
-## Internal logic
 
-The [[internal logic]] of symmetric monoidal closed categories is the (intuitionistic) multiplicative fragment of [[linear logic]].
 
 ## Related concepts
 
