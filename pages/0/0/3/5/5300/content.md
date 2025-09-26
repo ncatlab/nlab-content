@@ -1,9 +1,9 @@
 
-Ralph Louis Cohen
-
-> not to be confused with *[[Fred Cohen]].*
+> beware that there is also *[[Fred Cohen]].*
 
 ***
+
+Ralph Louis Cohen
 
 * [personal page](http://math.stanford.edu/~ralph/)
 
@@ -30,17 +30,17 @@ On [[Yang-Mills monopoles]] and [[braid groups]]:
 
 On [[string topology]]:
 
-*  [[Ralph Cohen]], John R. Klein, [[Dennis Sullivan]], _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology 2008 __1__(2):391-408; [doi](http://dx.doi.org/10.1112/jtopol/jtn001) 
+* {#CohenJones} [[Ralph Cohen]], [[John David Stuart Jones]], _A homotopy theoretic realization of string topology_, Math. Ann. **324** 4 (2002) &lbrack;[arXiv:0107187](http://arxiv.org/abs/math/0107187)&rbrack;
 
-* [[Ralph Cohen]], _Homotopy and geometric perspectives on string topology_ ([pdf](http://math.stanford.edu/~ralph/skyesummary.pdf))
+* {#CohenGodin03} [[Ralph Cohen]], [[Veronique Godin]], _[[A Polarized View of String Topology]]_ &lbrack;[arXiv:math/0303003](http://arxiv.org/abs/math/0303003)&rbrack;
 
-* {#CohenJones} [[Ralph Cohen]], [[John David Stuart Jones]], _A homotopy theoretic realization of string topology_ , Math. Ann. **324** 4 (2002) &lbrack;[arXiv:0107187](http://arxiv.org/abs/math/0107187)&rbrack;
+* [[Ralph Cohen]]: *Homotopy and geometric perspectives on string topology* (2005) &lbrack;[pdf](http://math.stanford.edu/~ralph/skyesummary.pdf), [[Cohen-StringTopology.pdf:file]]&rbrack;
 
-* {#CohenGodin03} [[Ralph Cohen]], [[Veronique Godin]], _[[A Polarized View of String Topology]]_ ([arXiv:math/0303003](http://arxiv.org/abs/math/0303003))
+* [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_, in: [[Ralph Cohen]], [[Kathryn Hess]], [[Alexander Voronov]], _String topology and cyclic homology_, Advanced courses in mathematics CRM Barcelona, Birkhäuser (2006) &lbrack;[math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)&rbrack;
 
-* [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_, in: [[Ralph Cohen]], [[Kathryn Hess]], [[Alexander Voronov]], _String topology and cyclic homology_, Advanced courses in mathematics CRM Barcelona, Birkhäuser 2006 ([math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7))
+* [[Ralph Cohen]], John R. Klein, [[Dennis Sullivan]], _The homotopy invariance of the string topology loop product and string bracket_, J. of Topology **1** (2) (2008) 391-408 &lbrack;[doi:10.1112/jtopol/jtn001](http://dx.doi.org/10.1112/jtopol/jtn001)&rbrack;
 
-* [[Ralph Cohen]], [[John Jones]], _Gauge theory and string topology_ ([arXiv:1304.0613](http://arxiv.org/abs/1304.0613))
+* [[Ralph Cohen]], [[John Jones]]: _Gauge theory and string topology_ &lbrack;[arXiv:1304.0613](http://arxiv.org/abs/1304.0613)&rbrack;
 
 
 On the [[homotopy type of spaces of rational maps]] and [[moduli spaces of monopoles]] related to [[braid groups]]:
@@ -64,7 +64,7 @@ On [[string topology]] (and [[Pontrjagin rings]] of [[based loop spaces]]) of [[
 
 On [[topological field theory]]:
 
-* [[Ralph Cohen]] (notes by Eric Malm), p 20 of: *MATH 283: Topological Field Theories* (2008) &lbrack;[pdf](https://ericmalm.net/ac/projects/math283-w08/math283-w08-n.pdf), [[RCohen-TQFT.pdf:file]]&rbrack;
+* [[Ralph Cohen]] (notes by [[Eric Malm]]), p 20 of: *MATH 283: Topological Field Theories* (2008) &lbrack;[pdf](https://ericmalm.net/ac/projects/math283-w08/math283-w08-n.pdf), [[RCohen-TQFT.pdf:file]]&rbrack;
 
 
 
