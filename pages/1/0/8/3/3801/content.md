@@ -189,8 +189,9 @@ structure of a $d$-dimensional [[HCFT]] with _positive boundary_ and set of [[br
 
 =--
 
-For [[closed strings]] this is discussed in ([Cohen-Godin 03](#CohenGodin03), [Tamanoi 07](#Tamanoi07)). 
-For [[open strings]] on  a single [[brane]] $\mathcal{B} = \{*\}$ this was shown in ([Godin 07](#Godin)), where the general statement for arbitrary branes is conjectured. A detailed proof of this general statement is in [Kupers 2011](#Kupers11). 
+For [[closed strings]] this is discussed by  [Cohen & Godin 2003](#CohenGodin03), [Tamanoi 2007](#Tamanoi07). 
+For [[open strings]] on  a single space-filling [[brane]], $\mathcal{B} = \{ X \}$ this was shown by [Godin 2007](#Godin), where the general statement for arbitrary branes is conjectured. A detailed proof of this general statement is given by  [Kupers 2011](#Kupers11). 
+
 
 +-- {: .num_remark }
 ###### Remark
@@ -199,6 +200,61 @@ These constructions work by regarding the [[mapping spaces]] from 2-dimensional 
 
 =--
 
+\begin{example} \label{OpenStringProductOn0BraneIsPontrjaginProduct}
+**(open string product on 0-brane is Pontrjagin product)**
+\linebreak
+  For the case of a single brane being a 0-brane, hence a point $\{x\} \hookrightarrow X$, then:
+
+1. the open string configuration spaces is the [[based loop space]] $P(x,x)  = \Omega_x X$, 
+
+1. whence the homology is the [[homology of loop spaces]] $H_\bullet(\Omega_x X)$, and
+
+1. the open string product coincides with the [[Pontrjagin product]],
+
+   \[
+     \label{PontrjaginProduct}
+     (conc_x)_\ast 
+       \colon 
+     H_\bullet(\Omega X) \otimes H_\bullet(\Omega X)    
+       \longrightarrow 
+     H_\bullet(\Omega X)
+     \mathrlap{\,,}
+   \] 
+
+   given simply by pushforward in homology along the loop concatenation map 
+
+   \[
+     \label{BasedLoopConcatenationMap}
+     conc_x 
+       \colon 
+     \Omega_x X \times \Omega_x X 
+       \longrightarrpw 
+     \Omega_x X
+     \mathrlap{\,.}
+    \]
+
+\end{example}
+\begin{proof}
+  The first two statements are immediate from the definitions. The third statement is a special case of the explicit formula for the open string product $\mu_{a,b,c}$ (here: $\mu_{x,x,x}$) given in [Kupers 2011](#Kupers11) [p. 137](/nlab/files/Kupers-StringTopology.pdf#page=143): 
+
+In our case of a 0-brane, the map denoted "$M^i$" there (on the previous [p. 136](/nlab/files/Kupers-StringTopology.pdf#page=142)), is an [[isomorphism]], and the map "$M^j$" there (beware the typo in the orientation of the arrow) becomes the loop concatenation operation $conc_x$ (eq:BasedLoopConcatenationMap), whence the formula for the string product reduces to the [[Pontrjagin product]] (eq:PontrjaginProduct):
+
+$$
+  \begin{aligned}
+    \mu_{x,x,x} 
+      & \coloneqq (M^j)_\ast \circ (M^i)^!
+    \\
+      & \equiv (conc_x)_\ast \circ (id)^! 
+    \\
+      & \simeq (conc_x)_\ast    
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+
+\end{proof}
+
+
+
 ## Related concepts
 
 * [[Goldman bracket]]
@@ -206,6 +262,7 @@ These constructions work by regarding the [[mapping spaces]] from 2-dimensional 
 * [[Sullivan chord diagram]]
 
 * [[path integral as a pull-push transform]]
+
 
 ## References
 
@@ -234,15 +291,13 @@ The interpretation of closed string topology as an [[HQFT]]:
  
 * {#Tamanoi07} Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv](http://arxiv.org/abs/0706.1276))
  
-
 The open-closed [[HQFT]] in the presence of a single space-filling [[brane]]:
 
 * {#Godin} [[Veronique Godin]], _Higher string topology operations_ (2007) &lbrack;[arXiv:0711.4859](http://arxiv.org/abs/0711.4859)&rbrack;
  
+The generalization to multiple [[branes]]:
 
-The generalization to multiple [[D-branes]]:
-
-* {#Kupers11} [[Sander Kupers]]: _String topology operations_, MS thesis, Utrecht (2011) &lbrack;[hdl:20.500.12932/7283](https://studenttheses.uu.nl/handle/20.500.12932/7283)&rbrack;
+* {#Kupers11} [[Sander Kupers]]: _String topology operations_, MS thesis, Utrecht (2011) &lbrack;[hdl:20.500.12932/7283](https://studenttheses.uu.nl/handle/20.500.12932/7283), [[Kupers-StringTopology.pdf:file]]&rbrack;
 
  
 Exposition of the perspective of regarding [[string topology]]-operations as the [[TQFT]] of a [[topological string]] [[sigma model]]:
