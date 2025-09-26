@@ -1,13 +1,17 @@
 
 __Alastair Hamilton__ is a mathematician at Texas Tech.
 
-
 * [personal page](https://www.math.ttu.edu/~alhamilt/)
 
 * [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=169292)
 
 
 ## Selected writings
+
+On [[string topology]] operations in the generality of (the [[ordinary homology|homology]] of [[loop spaces]] of) [[Poincaré duality spaces]]:
+
+* [[Alastair Hamilton]], [[Andrey Lazarev]]: *Symplectic $A_\infty$-algebras and string topology operations*, Amer. Math. Soc. Transl. **224** 2 (2008) 147–157 &lbrack;[arXiv:0707.4003](https://arxiv.org/abs/0707.4003)&rbrack;
+
 
 On the [[integer Heisenberg group]] describing the [[phase space]] of [[abelian Chern-Simons theory]] on [[closed manifold|closed]] [[Riemann surfaces]] (and its relation to [[skein relations]] and [[theta functions]]):
 
@@ -45,7 +49,6 @@ See also:
 
 * Symplectic C-infinity algebras (with A. Lazarev). Mosc. Math. J. __8__ (2008), no. 3, 443--475, 615, [arxiv/0707.3951](http://arxiv.org/abs/0707.3951)
 
-* Symplectic A-infinity algebras and string topology operations (with A. Lazarev). Amer. Math. Soc. Transl. (2), Vol. 224, 2008, 147--157, [arxiv/0707.4003](http://arxiv.org/abs/0707.4003)
 
 * A super-analogue of Kontsevich's theorem on graph homology. Lett. Math. Phys. 76 (2006), no. 1, 37--55, [math.QA/0510390](http://arxiv.org/abs/math/0510390)
 
