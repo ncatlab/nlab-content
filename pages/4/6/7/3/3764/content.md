@@ -252,7 +252,7 @@ Similarly, the [[Cauchy-Schwarz inequality]] (eq:CauchySchwarzBeforeDividingOutN
   \,.
 \]
 
-Therefore $\langle-,-\rangle$ first of all descends to the [[quotient vector space]] 
+Therefore, $\langle-,-\rangle$ first of all descends to the [[quotient vector space]] 
 
 \[
   \label{HilbertSpaceAsQuotientOfStarAlgebraByNullSpace}
@@ -387,7 +387,9 @@ $$
 $$
 \end{proof}
 
-In summary, notice that this GNS construction constitutes a kind of [[operator-state correspondence]] modulo null-operators:
+
+\begin{remark}
+In summary, the GNS construction constitutes a kind of *[[operator-state correspondence]]* modulo null-operators:
 
 $$
   \begin{array}{rcl}
@@ -400,6 +402,8 @@ $$
     A \cdot \psi_\rho    
   \end{array}
 $$
+
+\end{remark}
 
 
 ### For $C^\ast$-categories
