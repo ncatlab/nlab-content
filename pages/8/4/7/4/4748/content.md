@@ -656,15 +656,17 @@ In [[physics]] various [[action functional]]s for [[quantum field theories]] are
 ## References
  {#References}
 
-For references on ordinary 1-dimensional parallel transport see [[parallel transport]].
+For references on ordinary 1-dimensional parallel transport see *[[parallel transport]]*.
 
-For references on parallel 2-transport in [[bundle gerbes]] see [[connection on a bundle gerbe]].
+For references on parallel 2-transport in [[bundle gerbes]] see *[[connection on a bundle gerbe]]*.
 
-The description of parallel $n$-transport in terms of $n$-functors on the [[path n-groupoid]] is discussed
+The description of parallel $n$-transport in terms of $n$-functors on the [[path n-groupoid]] is discussed:
 
-for $n=2$ ([[connections on 2-bundles]]) in 
+for $n=2$ ([[connections on 2-bundles]]) in: 
 
-* [[John Baez]], [[Urs Schreiber]], _Higher gauge theory_, in A. Davydov et al. (eds.), _Categories in Algebra, Geometry and Mathematical Physics_, Contemp Math 431, AMS, Providence, Rhode Island (2007) pp 7-30 ([arXiv:0511710](http://arxiv.org/abs/math/0511710), [arXiv:hep-th/0412325](http://arxiv.org/abs/hep-th/0412325))
+* [[Urs Schreiber]], §12 of: *From Loop Space Mechanics to Nonabelian Strings*, Diploma Thesis, Essen (2005) &lbrack;[arXiv:0509163](https://arxiv.org/abs/hep-th/0509163)&rbrack;
+
+* [[John Baez]], [[Urs Schreiber]]: _Higher gauge theory_, in A. Davydov et al. (eds.): _Categories in Algebra, Geometry and Mathematical Physics_, Contemp Math 431, AMS, Providence, Rhode Island (2007) pp 7-30 ([arXiv:0511710](http://arxiv.org/abs/math/0511710), [arXiv:hep-th/0412325](http://arxiv.org/abs/hep-th/0412325))
 
 * {#MartinsPickenI} [[João Faria Martins]], [[Roger Picken]]: _On 2-dimensional holonomy_, Trans. Amer. Math. Soc. **362** (2010), 5657-5695 &lbrack;[arXiv:0710.4310](http://arxiv.org/abs/0710.4310), [doi:10.1090/S0002-9947-2010-04857-3](https://doi.org/10.1090/S0002-9947-2010-04857-3)&rbrack;
 
@@ -684,7 +686,6 @@ for $n=2$ ([[connections on 2-bundles]]) in
 * {#LeeOberhauser23} [[Darrick Lee]], Harald Oberhauser, *Random Surfaces and Higher Algebra* &lbrack;[arXiv:2311.08366](https://arxiv.org/abs/2311.08366)&rbrack;
 
 * Francis Bischoff, [[Darrick Lee]]: *Thin homotopy and the signature of piecewise linear surfaces* &lbrack;[arXiv:2506.16657](https://arxiv.org/abs/2506.16657)&rbrack;
-
 
 and for $n = 3$ in
 
