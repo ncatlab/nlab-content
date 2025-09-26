@@ -96,6 +96,7 @@ Textbook accounts:
 
 In terms of ([[effective quantum field theory|effective]]) [[quantum field theory]]:
 
+
 * [[Xiao-Gang Wen]]: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007) &lbrack;[doi:10.1093/acprof:oso/9780199227259.001.0001](https://doi.org/10.1093/acprof:oso/9780199227259.001.0001), [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)&rbrack; 
   > (with an eye towards [[topological phases of matter]] and [[topological order]], such as in [[fractional quantum Hall systems]])
 
@@ -104,6 +105,10 @@ In terms of ([[effective quantum field theory|effective]]) [[quantum field theor
 * [[Eduardo Fradkin]]: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
 
 * Eduardo C. Marino, *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+
+* [[Manfred Salmhofer]]: *Renormalization in Condensed Matter: Fermionic Systems -- from Mathematics to Materials*, Nuclear Physics B **941** (2019) 868-899 &lbrack;[arXiv:1807.01766](https://arxiv.org/abs/1807.01766), [doi:10.1016/j.nuclphysb.2018.07.004](https://doi.org/10.1016/j.nuclphysb.2018.07.004)&rbrack;
+  > (focus on [[renormalization]])
+
 
 With an emphasis on [[non-perturbative quantum field theory]]:
 
