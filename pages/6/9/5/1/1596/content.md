@@ -17,7 +17,6 @@
 =--
 =--
 
-# Replete subcategories
 * table of contents
 {: toc}
 
