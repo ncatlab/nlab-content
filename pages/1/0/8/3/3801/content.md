@@ -346,7 +346,7 @@ The open-closed [[HQFT]] in the presence of a single space-filling [[brane]]:
  
 The generalization to multiple [[branes]]:
 
-* {#Kupers11} [[Sander Kupers]]: _String topology operations_, MS thesis, Utrecht (2011) &lbrack;[hdl:20.500.12932/7283](https://studenttheses.uu.nl/handle/20.500.12932/7283), [[Kupers-StringTopology.pdf:file]]&rbrack;
+* {#Kupers11} [[Sander Kupers]]: *String topology operations*, MS thesis, Utrecht (2011) &lbrack;[hdl:20.500.12932/7283](https://studenttheses.uu.nl/handle/20.500.12932/7283), [[Kupers-StringTopology.pdf:file]]&rbrack;
  
 Exposition of the perspective of regarding [[string topology]]-operations as the [[TQFT]] of a [[topological string]] [[sigma model]]:
 
