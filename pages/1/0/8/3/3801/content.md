@@ -307,9 +307,8 @@ Refinements of string topology from [[homology groups]] to the full [[ordinary h
 
 * [[Ralph Cohen]], [[John Jones]], _Gauge theory and string topology_ ([arXiv:1304.0613](https://arxiv.org/abs/1304.0613))
 
-* Kate Gruher, Paolo Salvatore, _Generalized string topology operations_, Proc. London Math. Soc. __96__:1
-(2008) 78--106 [doi](https://doi.org/10.1112/plms/pdm030)
-[math.AT/0602210](https://arxiv.org/abs/math/0602210)
+* [[Kate Gruher]], [[Paolo Salvatore]]: *Generalized string topology operations*, Proc. London Math. Soc. __96__ 1 (2008) 78--106 &lbrack;[doi:10.1112/plms/pdm030](https://doi.org/10.1112/plms/pdm030), [math.AT/0602210](https://arxiv.org/abs/math/0602210)&rbrack;
+  > (and generalizing from $L M \to M$ to any homotopy [[monoid]] bundle over $M$)
 
 Further generalization to target spaces that are more generally [[differentiable stacks]]/[[Lie groupoids]] is discussed in
 
@@ -360,6 +359,8 @@ Exposition of the perspective of regarding [[string topology]]-operations as the
 * [[Dennis Sullivan]], _Open and closed string field theory interpreted in classical algebraic topology_, chapter 11 in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Cambridge University Press (2005) ([doi:10.1017/CBO9780511526398.014](https://doi.org/10.1017/CBO9780511526398.014))
 
 For [[target space]] the [[classifying space]] $B G$ of a [[compact Lie group]] $G$ (such as a [[finite group]]):
+
+* [[Kate Gruher]]: *String Topology of Classifying Spaces*, PhD thesis, Stanford (2007) &lbrack;[[Gruher_FreeLoopSpaceOfClassifyingSpace.pdf:file]]&rbrack;
 
 * David Chataur, [[Luc Menichi]]: _String topology of classifying spaces_ &lbrack;[arXiv:0801.0174](https://arxiv.org/abs/0801.0174), [pdf](http://math.univ-angers.fr/perso/lmenichi/String_Classifiant09.pdf)&rbrack;
 
