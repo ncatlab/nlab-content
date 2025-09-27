@@ -49,6 +49,10 @@ and with an eye towards the [[superstring]] via [[2-spectral triples]]:
 
 * {#FGR97} [[Jürg Fröhlich]], Oliver Grandjean, [[Andreas Recknagel]], _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
 
+On [[string topology]] and [[BV-formalism]] for [[topological field theories]]:
+
+* [[Alberto S. Cattaneo]], [[Juerg Froehlich]], Bill Pedrini: *Topological Field Theory Interpretation of String Topology*, Commun. Math. Phys. **240** (2003) 397–421 &lbrack;[doi:10.1007/s00220-003-0917-2](https://doi.org/10.1007/s00220-003-0917-2), [arXiv:math/0202176](https://arxiv.org/abs/math/0202176)&rbrack;
+
 On [[QFT with defects|defects]] and [[duality in physics|duality]] ("[[generalized global symmetry]]") in [[2d CFT]] (via the [[FRS theorem on 2d rational CFT]]):
 
 * [[Jürg Fröhlich]], [[Jürgen Fuchs]], [[Ingo Runkel]], [[Christoph Schweigert]], *Kramers-Wannier duality from conformal defects*, Phys. Rev. Lett. **93** (2004) 070601 &lbrack;[doi:10.1103/PhysRevLett.93.070601](https://doi.org/10.1103/PhysRevLett.93.070601), [arXiv:cond-mat/0404051](http://arxiv.org/abs/cond-mat/0404051)&rbrack;
