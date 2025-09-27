@@ -337,6 +337,9 @@ Specifically on string topology of [[n-spheres]] (in particular on the [[ordinar
 The interpretation of closed string topology as an [[HQFT]]:
 
 * {#CohenGodin03} [[Ralph Cohen]], [[Veronique Godin]], _[[A Polarized View of String Topology]]_ ([arXiv:math/0303003](http://arxiv.org/abs/math/0303003))
+
+* [[Alberto S. Cattaneo]], [[Juerg Froehlich]], Bill Pedrini: *Topological Field Theory Interpretation of String Topology*, Commun. Math. Phys. **240** (2003) 397–421 &lbrack;[doi:10.1007/s00220-003-0917-2](https://doi.org/10.1007/s00220-003-0917-2), [arXiv:math/0202176](https://arxiv.org/abs/math/0202176)&rbrack;
+
  
 * {#Tamanoi07} Hirotaka Tamanoi, _Loop coproducts in string topology and triviality of higher genus TQFT operations_ (2007) ([arXiv](http://arxiv.org/abs/0706.1276))
  
