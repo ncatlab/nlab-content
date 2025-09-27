@@ -1,24 +1,25 @@
-* [homepage](http://user.math.uzh.ch/cattaneo)
-* publication list: [pdf](http://user.math.uzh.ch/cattaneo/allpub.pdf)
+
+Alberto Sergio Cattaneo
+
+* [personal page](http://user.math.uzh.ch/cattaneo)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=120224)
+
+* [Wikipedia entry](https://en.m.wikipedia.org/wiki/Alberto_Cattaneo)
+
+* [inSpire page](https://inspirehep.net/authors/1014262)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=NoycPFMAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Alberto-Cattaneo-3/7)
 
 ## Selected writings
+
+* publication list: [pdf](http://user.math.uzh.ch/cattaneo/allpub.pdf)
 
 On [[3-manifolds]]:
 
 * {#BottCattaneo98} [[Raoul Bott]], [[Alberto Cattaneo]], _Integral Invariants of 3-Manifolds_, J. Diff. Geom., 48 (1998) 91-133 ([arXiv:dg-ga/9710001](https://arxiv.org/abs/dg-ga/9710001))
-
-On [[deformation quantization]]:
-
-* [[Alberto Cattaneo]], _From topological field theory to deformation quantization and reduction_, ICM 2006. ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf))
-
-On higher order [[Vassiliev invariants]] as [[Chern-Simons theory]]-[[correlators]], hence as [[configuration space of points|configuration space]]-[[integrals]] of [[wedge products]] of [[Chern-Simons propagators]] assigned to [[edges]] of [[Feynman diagrams]] in the [[graph complex]]:
-
-
-* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 ([arXiv:math/9910139](https://arxiv.org/abs/math/9910139))
-
-* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640 ([arXiv:math/0307218](https://arxiv.org/abs/math/0307218))
-
-
 
 
 
@@ -31,7 +32,24 @@ On the [[Poisson sigma-model]]:
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_ , (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198, 61--93 (Birkh&#228;user, 2001)
 [math.SG/0003023](http://arxiv.org/abs/math/0003023).
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_, Lett. Math. Phys. 56, 163--179 (2001) [math.QA/0102108](http://arxiv.org/abs/math/0102108).
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_, Lett. Math. Phys. 56, 163--179 (2001) &lbrack;[math.QA/0102108](http://arxiv.org/abs/math/0102108)&rbrack;
+
+
+On higher order [[Vassiliev invariants]] as [[Chern-Simons theory]]-[[correlators]], hence as [[configuration space of points|configuration space]]-[[integrals]] of [[wedge products]] of [[Chern-Simons propagators]] assigned to [[edges]] of [[Feynman diagrams]] in the [[graph complex]]:
+
+* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni, _Configuration spaces and Vassiliev classes in any dimension_, Algebr. Geom. Topol. 2 (2002) 949-1000 &lbrack;[arXiv:math/9910139](https://arxiv.org/abs/math/9910139)&rbrack;
+
+* [[Alberto Cattaneo]], Paolo Cotta-Ramusino, Riccardo Longoni: _Algebraic structures on graph cohomology_, Journal of Knot Theory and Its Ramifications, Vol. 14, No. 5 (2005) 627-640 &lbrack;[arXiv:math/0307218](https://arxiv.org/abs/math/0307218)&rbrack;
+
+
+On [[string topology]] and [[BV-formalism]] for [[topological field theories]]:
+
+* [[Alberto S. Cattaneo]], [[Juerg Froehlich]], Bill Pedrini: *Topological Field Theory Interpretation of String Topology*, Commun. Math. Phys. **240** (2003) 397–421 &lbrack;[doi:10.1007/s00220-003-0917-2](https://doi.org/10.1007/s00220-003-0917-2), [arXiv:math/0202176](https://arxiv.org/abs/math/0202176)&rbrack;
+
+On [[deformation quantization]]:
+
+* [[Alberto Cattaneo]], _From topological field theory to deformation quantization and reduction_, ICM (2006) &lbrack;[pdf](http://www.math.uzh.ch/fileadmin/math/preprints/icm.pdf)&rbrack;
+
 
 On [[Poisson algebras]] [[internalization|internal]] to [[graded vector spaces]] (such as [[Gerstenhaber algebras]]):
 
@@ -58,7 +76,7 @@ On the local formulation (allowing decomposition and re-gluing of [[spacetime]])
 
 * [[Alberto S. Cattaneo]], *Phase space for gravity with boundaries*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]* (2023) &lbrack;[arXiv:2307.04666](https://arxiv.org/abs/2307.04666)&rbrack;
 
-and for flux observables:
+and for [[flux]] [[observables]]:
 
 * [[Alberto S. Cattaneo]], Alejandro Perez, *A note on the Poisson bracket of 2d smeared fluxes in loop quantum gravity*, Class. Quant. Grav. **34** (2017) 107001 &lbrack;[arXiv:1611.08394](https://arxiv.org/abs/1611.08394), [doi:10.1088/1361-6382/aa69b4](https://doi.org/10.1088/1361-6382/aa69b4)&rbrack;
 
