@@ -4,7 +4,7 @@ A [[proper map]] $p:E\to B$ between [[locally compact space|locally compact]] me
 
 A proper map $p : E\to B$ between locally compact metric ANRs is an **approximate fibration** if $p$ has the approximate homotopy lifting property for all metric spaces. 
 
-It is straightfoward to generalize this notion to the level maps of inverse systems of locally compact metric ANRs.
+It is straightforward to generalize this notion to the level maps of inverse systems of locally compact metric ANRs.
 
 
 [[!redirects approximate homotopy lifting property]] 
