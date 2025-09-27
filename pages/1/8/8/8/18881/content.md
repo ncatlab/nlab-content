@@ -9,18 +9,23 @@
 =--
 =--
 
-This page collects material related to the textbook
+This page is to record the reference:
 
 
-* [[Katarzyna Rejzner]], 
+* [[Katarzyna Rejzner]]:
 
-  _Perturbative Algebraic Quantum Field Theory_, 
+  \linebreak
 
-  Mathematical Physics Studies, Springer 2016 
+  **Perturbative Algebraic Quantum Field Theory**
 
-  ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+  \linebreak
+
+  Mathematical Physics Studies, Springer (2016) 
+
+  [doi:10.1007/978-3-319-25901-7](https://doi.org/10.1007/978-3-319-25901-7)
 
 on [[perturbative quantum field theory]] in its mathematically precise formulation known as _[[perturbative algebraic quantum field theory]]_, based on [[causal perturbation theory]].
+
 
 ## Related textbooks
 
@@ -28,8 +33,10 @@ on [[perturbative quantum field theory]] in its mathematically precise formulati
 
 * [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
-* [[Urs Schreiber]], _[[geometry of physics -- perturbative quantum field theory|Perturbative quantum field theory]]_, 2017
 
-* [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
+* {#Schreiber17} [[Urs Schreiber]]: *[[geometry of physics -- perturbative quantum field theory|Geometry of Physics -- Perturbative Quantum Field Theory]]*, lecture notes for a course *<a href="https://ncatlab.org/schreiber/show/65-409%3A+Mathematical+Quantum+Field+Theory">Mathematical Quantum Field Theory</a>*, Hamburg University (2017)  &lbrack;[[Schreiber_pQFT20211103.pdf:file]], [PhysicsForums version](https://www.physicsforums.com/insights/a-first-idea-of-quantum-field-theory/)&rbrack;
+
+* {#Duetsch18} [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, Birkhäuser (2018) &lbrack;[doi:10.1007/978-3-030-04738-2](https://doi.org/10.1007/978-3-030-04738-2)&rbrack;
 
 category: reference
+
