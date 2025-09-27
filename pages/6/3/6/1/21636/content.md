@@ -1,6 +1,9 @@
+[[!redirects Yuri Ximenes Martins]]
+[[!redirects Yuri Ximenes Lecca]]
+
 # About
 
-I'm a Brazilian researcher and software developer working on abstraction processes applied to Mathematics, Physics, Philosophy and Computer Science.
+I'm a Brazilian researcher and software developer working in abstraction processes applied to Mathematics, Physics, Philosophy and Computer Science.
 
 Currently I'm in a Software Developer position at [Magalu Cloud](https://magalu.cloud), the first Brazilian public cloud provider.
 
@@ -14,11 +17,12 @@ I was one of the founders and the developer of the [[Math-Phys-Cat Group]], a Br
 
 # Development
 
-Some projects I'm involved:
+I'm involved in constructing a functional approach to Python that presents strong type safety. For instance, see:
 
-- [typed](https://github.com/ximenesyuri/typed): a framework to implement a typed solution to Python, enforcing universal constructions. No dependencies.
-- [cli](https://github.com/ximenesyuri/cli): a lib to quickly build cli's in Python in a [fastapi](https://github.com/fastapi/fastapi)-like syntax. No dependencies.
-- [app](https://github.com/ximenesyuri/app): a framework to build Python web applications (from static pages to APIs) presenting type safety. Uses `typed`. Minor dependencies.
+- [typed](https://github.com/ximenesyuri/typed): the basis of the approach.
+- [comp](https://github.com/ximenesyuri/comp): using the approach to construct a component system compatible with Jinja.
+
+Documentations for the projects are available at [ximenesyuri.com/libs](https://ximenesyuri.com/libs)
 
 # Links
 
@@ -33,3 +37,4 @@ category: people
 
 [[!redirects Yuri Martins]]
 [[!redirects Yuri Ximenes]]
+[[!redirects Yuri Ximenes Martins]]
