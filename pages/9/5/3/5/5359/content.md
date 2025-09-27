@@ -16,7 +16,7 @@
 
 ## Idea
 
-The notion of _blob $n$-category_ captures the notion of an [[(infinity,n)-category with duals|n-category with all duals]]. It is formulated in the style of [[hyperstructure]]: without any distinction between source and targets.
+The notion of a _blob $n$-category_ captures the notion of an [[(infinity,n)-category with duals|n-category with all duals]]. It is formulated in the style of [[hyperstructure]]: without any distinction between sources and targets.
 
 The definition is well-adapted to describing the [[(∞,n)-category of cobordisms]] in the spirit of [[blob homology]].
 
@@ -40,9 +40,9 @@ A **blob $n$-graph** $C$ is given by
 
 =--
 
-We think of $C(B^k)$ as the set of [[k-morphism]]s in the $n$-graph $C$. This means that the [[geometric shape for higher structures]] used here is the [[globe]]. Therefore the term _blob_ . 
+We think of $C(B^k)$ as the set of [[k-morphism]]s in the $n$-graph $C$. This means that the [[geometric shape for higher structures]] used here is the [[globe]]. Hence the term _blob_. 
 
-We define now a notion of composition on $k$-cells of a blob $n$-graph by induction over $k$. Given a blob $n$-graph with composition for $k$-cells, it can be extended from balls to arbitrary manifolds by the definition [extension to general shapes](#ExtensionToGeneralShapes) below.
+We now define a notion of composition on $k$-cells of a blob $n$-graph by induction over $k$. Given a blob $n$-graph with composition for $k$-cells, it can be extended from balls to arbitrary manifolds by the definition [extension to general shapes](#ExtensionToGeneralShapes) below.
 
 +-- {: .num_defn}
 ###### Definition (roughly)
@@ -59,10 +59,10 @@ Assume we have a blob $n$-graph $C$ with composition for $(k-1)$-cells for $k \g
     \,,
   $$
 
-  where on the right we have the extension to $(k-1)$ spheres of $C_{k-1}$
+  where on the right we have the extension to $(k-1)$-spheres of $C_{k-1}$
   described [below](#ExtensionToGeneralShapes);
 
-* for all balls $B = B_1 \cup_{B_1 \cap B_2} B_2$ and $E := \partial (B_1 \cap B_2)$ a natural transformation -- **composition**
+* for all balls $B = B_1 \cup_{B_1 \cap B_2} B_2$ and $E := \partial (B_1 \cap B_2)$, a natural transformation -- **composition**
 
   $$
     \circ : C(B_1) \times_{C(B_1 \cap B_2)} C(B_2) \to C(B)
@@ -70,7 +70,7 @@ Assume we have a blob $n$-graph $C$ with composition for $(k-1)$-cells for $k \g
 
   satisfying some compatibility conditions
 
-* for all balls $X$, $D$ a natural map -- **identity** --
+* for all balls $X$ and $D$, a natural map -- **identity** --
 
   $$
     C(X) \to C(X \times D)
@@ -112,7 +112,7 @@ This is ([MorrisonWalker, example 6.2.1](#MorrisonWalker))).
 +-- {: .num_defn}
 ###### Definition
 
-For $n \in \mathbb{N}$ the **blob $n$-category of $n$-dimensional [[cobordism]]s** $Bord_n$ is the blob $n$-category that sends a $k$-ball $B$ for $k \lt n$ to the set of $k$-dimensional submanifolds $W \hookrightarrow B \times \mathbb{R}^\infty$ such that the projection $W \to B$ is transverse to $\partial B$. An $n$-ball is sent to homeomorphism classes rel boundary of such submanifolds.
+For $n \in \mathbb{N}$, the **blob $n$-category of $n$-dimensional [[cobordism]]s** $Bord_n$ is the blob $n$-category that sends a $k$-ball $B$ for $k \lt n$ to the set of $k$-dimensional submanifolds $W \hookrightarrow B \times \mathbb{R}^\infty$ such that the projection $W \to B$ is transverse to $\partial B$. An $n$-ball is sent to the set of homeomorphism classes rel boundary of such submanifolds.
 
 =--
 
