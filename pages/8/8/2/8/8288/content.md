@@ -349,7 +349,7 @@ $$
 
 such that all the $J^\cdot$ are [[injective objects]].
 
-This we now construct by [[induction]] on the degree $n \in \mathbb{N}$.
+We now construct by [[induction]] on the degree $n \in \mathbb{N}$.
 
 In the first step, by the assumption of enough enjectives we find an injective object $J^0$ and a [[monomorphism]]
 
@@ -421,7 +421,7 @@ $$
 
 such that all the $J_\cdot$ are [[projective objects]]. 
 
-This we we now construct by [[induction]] on the degree $n \in \mathbb{N}$.
+We now construct by [[induction]] on the degree $n \in \mathbb{N}$.
 
 In the first step, by the assumption of enough projectives we find a projective object $J_0$ and an [[epimorphism]]
 
