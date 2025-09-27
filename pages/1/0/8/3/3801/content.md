@@ -352,7 +352,7 @@ The generalization to multiple [[branes]]:
  
 Exposition of the perspective of regarding [[string topology]]-operations as the [[TQFT]] of a [[topological string]] [[sigma model]]:
 
-* [[Ralph Cohen]], [[Alexander Voronov]]: _Notes on string topology_, in: [[Ralph Cohen]], [[Kathryn Hess]], [[Alexander Voronov]] (eds.): _String topology and cyclic homology_, Advanced courses in mathematics CRM Barcelona, Birkhäuser (2006) &lbrack;[math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)&rbrack;
+* [[Ralph Cohen]], [[Alexander Voronov]]: *Notes on String Topology*, Part I in: [[Ralph Cohen]], [[Kathryn Hess]], [[Alexander Voronov]] (eds.): _String topology and cyclic homology_, Advanced Courses in Mathematics, CRM Barcelona, Birkhäuser (2006) &lbrack;[math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)&rbrack;
 
 * [[Dennis Sullivan]], _Sigma models and string topology_, in: Mikhail Lyubich, Leon Takhtajan (eds.), _Graphs and Patterns in Mathematics and Theoretical Physics_, Proc. Symp. Pure Math. 73 (2005) ([doi:10.1090/pspum/073](https://doi.org/10.1090/pspum/073), [spire:1697823](http://inspirehep.net/record/1697823))
  
@@ -367,6 +367,8 @@ For [[target space]] the [[classifying space]] $B G$ of a [[compact Lie group]] 
 * [[Richard Hepworth]], Anssi Lahtinen: *On string topology of classifying spaces*, Advances in Mathematics
 **281** (2015) 394-507
 &lbrack;[arXiv:1308.6169](https://arxiv.org/abs/1308.6169), [doi:10.1016/j.aim.2015.03.022](https://doi.org/10.1016/j.aim.2015.03.022)&rbrack;
+
+* Katsuhiko Kuribayashi, [[Luc Menichi]]: *The Batalin–Vilkovisky Algebra in the String Topology of Classifying Spaces*, Canadian Journal of Mathematics **71** 4 (2019) 843-889 &lbrack;[doi:10.4153/CJM-2018-021-9 ](https://doi.org/10.4153/CJM-2018-021-9 )&rbrack;
 
 Arguments that this string-topology [[HQFT]] should refine to a chain-level theory -- a *[[TCFT]]*:
 
