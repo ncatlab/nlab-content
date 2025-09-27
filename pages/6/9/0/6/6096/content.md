@@ -35,14 +35,13 @@ $$
 
 ## References
 
-For 2-dimensional cobordisms with closed boundary HCFT has been considered in 
+For 2-dimensional cobordisms without boundary:
 
-* {#Godin} [[Veronique Godin]], _Higher string topology operations_ (2007) &lbrack;[arXiv:0711.4859](http://arxiv.org/abs/0711.4859)&rbrack;
+* {#Godin} [[Veronique Godin]]: *Higher string topology operations* (2007) &lbrack;[arXiv:0711.4859](http://arxiv.org/abs/0711.4859)&rbrack;
  
+and generalized to arbitrary sets of boundary labels/[[branes]]:
 
-A detailed treatment in $d = 2$ involving arbitrary sets of [[branes]] is in section 2 of 
-
-* {#Kupers11} [[Sander Kupers]]: _String topology operations_, MS thesis, Utrecht (2011) &lbrack;[hdl:20.500.12932/7283](https://studenttheses.uu.nl/handle/20.500.12932/7283), [[Kupers-StringTopology.pdf:file]]&rbrack;
+* {#Kupers11} [[Sander Kupers]]: *HCFTs with and without branes*, chapter 2 of: *String topology operations*, MS thesis, Utrecht (2011) &lbrack;[hdl:20.500.12932/7283](https://studenttheses.uu.nl/handle/20.500.12932/7283), [[Kupers-StringTopology.pdf:file]]&rbrack;
 
 [[!redirects HCFT]]
 [[!redirects HCFTs]]
