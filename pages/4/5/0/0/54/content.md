@@ -84,20 +84,20 @@ Projects:
 
   talk at *[QMATH16](https://sites.google.com/view/qmath16/)*, Munich (1-5 Sep 2025)
 
-  sides: [pdf](/schreiber/files/Schreiber-QMATH16-250904.pdf), draft recording [yt](https://youtu.be/rZDMkgEZQhY)
+  sides: [pdf](/schreiber/files/Schreiber-QMATH16-250904.pdf), draft video: [yt](https://youtu.be/rZDMkgEZQhY)
 
 * **[[schreiber:ISQS29|Non-Lagrangian construction of abelian CS/FQH-Theory via Flux Quantization in 2-Cohomotopy]]**
 
   talk at: *[ISQS29](https://www.isqs.online)*, Prague (7-11 July 2025)
 
-  slides: [pdf](https://ncatlab.org/schreiber/files/ISQS29-Schreiber-20250706.pdf), draft recording: [YT](https://youtu.be/lfF7SNHB3Rc)
+  slides: [pdf](https://ncatlab.org/schreiber/files/ISQS29-Schreiber-20250706.pdf), draft video: [yt](https://youtu.be/lfF7SNHB3Rc)
 
 
 * **[[schreiber:ItaCa Fest 2025|Geometric Orbifold Cohomology in Singular-Cohesive ∞-Topoi]]**
 
   talk at *[ItaCa](https://progetto-itaca.github.io/)* *[Fest 2025](https://progetto-itaca.github.io/fests/fest25.html)* ([17 June 2025](https://progetto-itaca.github.io/fests/fest25.html#jun))
 
-  slides: [pdf](/schreiber/files/Schreiber-ItaCa+2025-06-17.pdf)
+  slides: [pdf](/schreiber/files/Schreiber-ItaCa+2025-06-17.pdf), video: [YT](https://youtu.be/s7H3jgpnGwM)
 
 * **[[schreiber:Rethinking Topological Quantum]]**
 
