@@ -507,13 +507,15 @@ For $k$ a [[topological field]] and $n \in \mathbb{N}$, the _tautological line b
 $$
   T
    \coloneqq
-  \left\{
-    ( [x_1: \cdots : x_{n+1}], \vec v)
+  \Big\{
+    \big( 
+      [x_1 \colon \cdots \colon x_{n+1}], \vec v
+    \big)
     \in
     k P^n \times k^{n+1}
-    \;\vert\;
+    \;\Big\vert\;
     \vec v \in \langle \vec x\rangle_k
-  \right\}
+  \Big\}
   \,,
 $$
 
