@@ -127,7 +127,7 @@ See also at _[[TCFT]]_.
 ### Classification of ETQFT's
 
 Assume $Z: n Cob_d \rightarrow n Vect(R)$ is an extended TQFT. Since $Z$ maps the $(d-1)$-dimensional vacuum to $R$ as an $R$-vector space, by functoriality $Z$ is forced to map a $d$-dimensional closed manifold to an element of $R$. 
-Iterating this argument, one is naturally led to conjecture that, under the correct categorical hypothesis, the behaviour of $Z$ is enterely determined by its behaviour on $(d-n)$-dimensional manifolds. See details at [[cobordism hypothesis]].
+Iterating this argument, one is naturally led to conjecture that, under the correct categorical hypothesis, the behaviour of $Z$ is entirely determined by its behaviour on $(d-n)$-dimensional manifolds. See details at [[cobordism hypothesis]].
 
 ### Relation of ETQFT to AQFT
 
