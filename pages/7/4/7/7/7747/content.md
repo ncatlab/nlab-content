@@ -46,7 +46,7 @@ Every non-zero [[invariant vector field]] on the Lie group provides an everywher
 
 =--
 
-The following is obvious:
+The following is straightforward:
 
 +-- {: .num_prop #SpinManifoldAdmitsFraming}
 ###### Proposition
