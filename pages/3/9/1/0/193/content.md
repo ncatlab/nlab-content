@@ -387,7 +387,7 @@ For some early history and illustrative examples see
 
   (more along these lines at _[[objective logic]]_).
 
-The fundamental role of [[adjoint functors]] in [[logic]]/[[type theory]] originates with the observaiton that [[substitution]] forms an [[adjoint triple]] with [[existential quantification]] and [[universal quantification]]:
+The fundamental role of [[adjoint functors]] in [[logic]]/[[type theory]] originates with the observation that [[substitution]] forms an [[adjoint triple]] with [[existential quantification]] and [[universal quantification]]:
 
 * {#Lawvere69} [[William Lawvere]], _Adjointness in Foundations_, ([tac:16](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
