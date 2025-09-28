@@ -58,6 +58,6 @@ On the equivalence of connective differential graded C^∞-rings and simplicial 
 
 * {#Taroyan} [[Gregory Taroyan]], _Equivalent models of derived stacks_, [arXiv](https://arxiv.org/abs/2303.12699).
 
-For a similar statement, see also
+For a similar statement in which the category of $C^\infty$-rings is replaced with the quasicategory of homotopy coherent $C^\infty$-rings, see
 
 * {#Nuiten} [[Joost Nuiten]], _Lie algebroids in derived differential topology_, PhD dissertation, 2018, [doi](https://doi.org/1874/364151).
