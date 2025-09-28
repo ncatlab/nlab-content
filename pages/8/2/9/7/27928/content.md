@@ -354,3 +354,10 @@ With [[QFT with defects|defects]]:
 
 
 [[!redirects Maxwell-Chern-Simons theories]]
+
+[[!redirects 5D Maxwell-Chern-Simons theory]]
+[[!redirects 5D Maxwell-Chern-Simons theories]]
+
+[[!redirects D=5 Maxwell-Chern-Simons theory]]
+[[!redirects D=5 Maxwell-Chern-Simons theories]]
+
