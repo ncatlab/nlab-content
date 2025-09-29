@@ -97,9 +97,15 @@ This is not specific to [[string theory]] and can be seen in elementary terms ([
 
 * {#Penrose05} [[Roger Penrose]], _The Road to Reality: A Complete Guide to the Laws of the Universe_, Knopf 2005 ([Wikipedia entry] (https://en.wikipedia.org/wiki/The_Road_to_Reality))
 
-* {#Penrose16} [[Roger Penrose]], _Fashion, Faith, and Fantasy in the New Physics of the Universe_, Princeton University Press 2016 ([PP:10664](https://press.princeton.edu/titles/10664.html))
+* {#Penrose16} [[Roger Penrose]], _Fashion, Faith, and Fantasy in the New Physics of the Universe_, Princeton University Press (2016) &lbrack;[PP:10664](https://press.princeton.edu/titles/10664.html)&rbrack;
 
-## Related $n$Lab entries
+See also reactions in:
+
+* Matěj Krátký, James Read: *On functional freedom and Penrose's critiques of string theory* &lbrack;[arXiv:2509.21515](https://arxiv.org/abs/2509.21515)&rbrack;
+
+
+
+## Related entries
 
 * [[Penrose notation]]
 
