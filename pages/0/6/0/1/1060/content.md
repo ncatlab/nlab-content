@@ -307,6 +307,10 @@ For enriched *-autonomous categories, and *-autonomy for [[promonoidal categorie
 
 * [[Brian Day]] and [[Ross Street]], _Quantum categories, star autonomy, and quantum groupoids_ [arXiv:math/0301209](https://arxiv.org/abs/math/0301209) ([pdf](http://science.mq.edu.au/~street/Qcat.pdf)) (2003).
 
+For the notion of [[bimodule]] between *-autonomous categories, as well as the free *-autonomous category on a [[Frobenius algebra]]:
+
+* [[Richard Garner]], _Three investigations into linear logic_, Master's thesis, ([pdf](https://web.science.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
+
 
 [[!redirects star-autonomous categories]]
 [[!redirects *-autonomous category]]
