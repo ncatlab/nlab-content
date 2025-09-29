@@ -62,9 +62,9 @@ Survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
 * [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_
 
-* {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]], _Quantum Yang-Mills theory_ (2000) &lbrack;[pdf](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf), [pdf](https://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf), [[JaffeWitten-QuantumYangMills.pdf:file]]&rbrack;
+* {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]]: *Quantum Yang-Mills theory*, in: J. Carlson, [[Arthur Jaffe|A. Jaffe]], [[Andrew Wiles|A. Wiles]] (eds.): *The Millennium Prize Problems*, CMI & AMS (2006) 129-152 &lbrack;[ISBN:978-1-4704-7460-7](https://bookstore.ams.org/MPRIZE), [pdf](https://www.claymath.org/library/monographs/MPPc.pdf),  [pdf](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf), [pdf](https://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf), [[JaffeWitten-QuantumYangMills.pdf:file]]&rbrack;
 
-* {#Atiyah2000} [[Michael Atiyah]], *The millennium problems II*, talk at *[CMI Millennium Event at Collège de France](https://www.msri.org/realvideo/ln/hosted/cmi/2000/cmiparis/index-tate.html)* (24-25 May 2000) &lbrack;[web](https://www.claymath.org/lectures/the-millennium-prize-problems-ii/), [YT](https://youtu.be/trxjCOmg8GY), discussion of Yang-Mills&MassGap starting at: [29:40](https://youtu.be/trxjCOmg8GY?t=1764)&rbrack;
+* {#Atiyah2000} [[Michael Atiyah]], *The millennium prize problems II*, talk at *[CMI Millennium Event at Collège de France](https://www.msri.org/realvideo/ln/hosted/cmi/2000/cmiparis/index-tate.html)* (24-25 May 2000) &lbrack;[web](https://www.claymath.org/lectures/the-millennium-prize-problems-ii/), [YT](https://youtu.be/trxjCOmg8GY), discussion of Yang-Mills&MassGap starting at: [29:40](https://youtu.be/trxjCOmg8GY?t=1764)&rbrack;
 
 > [40:20](https://youtu.be/trxjCOmg8GY?t=2420) What is the future of this problem &lbrack;Yang-Mills & mass-gap&rbrack; in physics, what could happen?
 
@@ -194,7 +194,7 @@ High-accuracy computation of [[hadron]]-[[masses]] in [[lattice QCD]]-simulation
 
 But there is also an approach via rigorous analytic [[lattice gauge theory]]:
 
-* {#Chatterjee20} [[Sourav Chatterjee]], _A probabilistic mechanism for quark confinement_, Comm. Math. Phys. 2021 ([arXiv:2006.16229](https://arxiv.org/abs/2006.16229))
+* {#Chatterjee20} [[Sourav Chatterjee]], _A probabilistic mechanism for quark confinement_, Comm. Math. Phys. 2021 &lbrack;[arXiv:2006.16229](https://arxiv.org/abs/2006.16229)&rbrack;
 
 
 (...)
