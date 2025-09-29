@@ -43,7 +43,7 @@ Lecture notes:
 
 * [[Charles Rezk]]: _Lectures on Higher Topos Theory_, Leeds (2019) &lbrack;[pdf](https://rezk.web.illinois.edu/leeds-lectures-2019.pdf), [[RezkHigherToposTheory2019.pdf:file]]&rbrack;
 
-An quick introduction is in part 3, 4 of
+An quick introduction is in parts 3-4 of
 
 * {#Joyal15} [[André Joyal]]: _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), Paris (November 2015) &lbrack;videos: part [1](https://youtu.be/Ro8KoFFdtS4), [2](https://youtu.be/4vxzK4LjFlY), [3](https://youtu.be/u_cl0qiJxWY), [4](https://youtu.be/xzyxgJBNW8w)&rbrack;
 
@@ -55,7 +55,7 @@ Early frameworks for [[Grothendieck topos|Grothendieck]] (as opposed to "element
 
 and due to [[Bertrand Toen|Toën]]--[[Gabriele Vezzosi|Vezzosi]] in two versions (preprints 2002), via [[simplicially enriched category|simplically enriched categories]] and via [[Segal categories]]:
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry. I. Topos theory_, Adv. Math. 193 (2005) no. 2, 257--372 [doi](https://doi.org/10.1016/j.aim.2004.05.004) [arXiv:math.AT/0207028](http://arxiv.org/abs/math/0207028)
+* [[Bertrand Toën]], [[Gabriele Vezzosi]]: *Homotopical algebraic geometry. I. Topos theory*, Adv. Math. **193** 2 (2005) 257-372 &lbrack;[doi:10.1016/j.aim.2004.05.004](https://doi.org/10.1016/j.aim.2004.05.004), [arXiv:math.AT/0207028](http://arxiv.org/abs/math/0207028)&rbrack;
 
 * [[Bertrand Toën]] , [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_, [arXiv:math.AG/0212330](http://arXiv.org/abs/math/0212330)
 
