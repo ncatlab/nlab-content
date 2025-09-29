@@ -1,5 +1,6 @@
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -70,11 +71,15 @@ The case of double gluing along hom-functors, discussed above, is the case when 
 
 ## References
 
-* [[Martin Hyland]] and Andrea Schalk, _Glueing and orthogonality for models of linear logic_, Theoretical Computer Science 294 (2003) 183–231 ([pdf](https://core.ac.uk/download/pdf/21173316.pdf))
- {#HylandSchalk}
-
+* {#HylandSchalk} [[Martin Hyland]] and Andrea Schalk, _Glueing and orthogonality for models of linear logic_, Theoretical Computer Science 294 (2003) 183–231 ([pdf](https://core.ac.uk/download/pdf/21173316.pdf))
+ 
 * [[Aleks Kissinger]] and Sander Uijlen, _A  categorical semantics for causal structure_. Arxiv [1701.04732](https://arxiv.org/abs/1701.04732).
 
-An abstract understanding of the double glueing construction is presented in:
+An abstract understanding of the double glueing construction:
 
-* [[Richard Garner]], _Three investigations into linear logic_, Master's thesis, ([pdf](https://web.science.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
+* [[Richard Garner]]: *Three investigations into linear logic*, MSc thesis, Macquarie (2005) &lbrack;[pdf](https://web.science.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf), [[Garner-LinearLogic.pdf:file]]&rbrack;
+
+
+[[!redirects double gluing construction]]
+[[!redirects double gluing constructions]]
+
