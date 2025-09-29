@@ -176,7 +176,8 @@ On [[M-theory]]:
 
 * {#Duff98} [[Michael Duff]], _The Theory Formerly Known as Strings_, Scientific American 1998 ([pdf](https://www.nikhef.nl/pub/services/biblio/bib_KR/sciam14395569.pdf), [[DuffFormerlyStrings98.pdf:file]])
 
-* {#Duff98b} [[Michael Duff]], _A Layman's Guide to M-theory_, 	Abdus Salam Memorial Meeting, Trieste, Italy, 19 - 22 Nov 1997, pp.184-213 ([arXiv:hep-th/9805177](https://arxiv.org/abs/hep-th/9805177), [cds:355721](https://cds.cern.ch/record/355721))
+* {#Duff98b} [[Michael Duff]]: *A Layman's Guide to M-theory*, in: *Trends in Mathematical Physics*, AMS/IP Studies in Advanced Mathematics **13** (1999) 184-213 &lbrack;[arXiv:hep-th/9805177](https://arxiv.org/abs/hep-th/9805177), [cds:355721](https://cds.cern.ch/record/355721) [doi:10.1090/amsip/013](https://doi.org/10.1090/amsip/013),  [ams:amsip/013](https://www.ams.org/books/amsip/013)&rbrack;
+
 
 * {#Duff99} [[Michael Duff]], _[[The World in Eleven Dimensions]]_ (1999)
 
