@@ -374,10 +374,9 @@ The term *[[model topos]]* was later coined in:
 A comprehensive conceptualization and discussion of [[(∞,1)-toposes]] is then due to 
 
 
-* [[Jacob Lurie]], section 6.1 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies 170, Princeton University Press 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+* [[Jacob Lurie]], section 6.1 of: _[[Higher Topos Theory]]_, Annals of Mathematics Studies **170**, Princeton University Press (2009) &lbrack;[pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf)&rbrack;
 
 building on [Rezk 2010](#Rezk10). There is is also proven that the Brown-Joyal-Jardine-To&#235;n-Vezzosi models indeed precisely model $\infty$-stack $(\infty,1)$-toposes. Details on this relation are at [[models for ∞-stack (∞,1)-toposes]].
-
 
 Overview:
 
