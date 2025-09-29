@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -234,6 +233,7 @@ These constructions work by regarding the [[mapping spaces]] from 2-dimensional 
     \]
 
 \end{example}
+([Sullivan 2005 SFT, Ex. 3](#Sullivan05SFT))
 \begin{proof}
   The first two statements are immediate from the definitions. The third statement is a special case of the explicit formula for the open string product $\mu_{a,b,c}$ (here: $\mu_{x,x,x}$) given in [Kupers 2011](#Kupers11) [p. 137](/nlab/files/Kupers-StringTopology.pdf#page=143): 
 
@@ -345,6 +345,7 @@ The interpretation of closed string topology as an [[HQFT]]:
 The open-closed [[HQFT]] in the presence of a single space-filling [[brane]]:
 
 * {#Godin} [[Veronique Godin]], _Higher string topology operations_ (2007) &lbrack;[arXiv:0711.4859](http://arxiv.org/abs/0711.4859)&rbrack;
+
  
 The generalization to multiple [[branes]]:
 
@@ -354,9 +355,10 @@ Exposition of the perspective of regarding [[string topology]]-operations as the
 
 * [[Ralph Cohen]], [[Alexander Voronov]]: *Notes on String Topology*, Part I in: [[Ralph Cohen]], [[Kathryn Hess]], [[Alexander Voronov]] (eds.): _String topology and cyclic homology_, Advanced Courses in Mathematics, CRM Barcelona, Birkhäuser (2006) &lbrack;[math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)&rbrack;
 
-* [[Dennis Sullivan]], _Sigma models and string topology_, in: Mikhail Lyubich, Leon Takhtajan (eds.), _Graphs and Patterns in Mathematics and Theoretical Physics_, Proc. Symp. Pure Math. 73 (2005) ([doi:10.1090/pspum/073](https://doi.org/10.1090/pspum/073), [spire:1697823](http://inspirehep.net/record/1697823))
+* {#Sullivan05SFT} [[Dennis Sullivan]]: *Open and closed string field theory interpreted in classical algebraic topology*, chapter 11 in: [[Ulrike Tillmann]] (ed.): *Topology, Geometry and Quantum Field Theory*, Cambridge University Press (2005) &lbrack;[doi:10.1017/CBO9780511526398.014](https://doi.org/10.1017/CBO9780511526398.014), [[Sullivan-SFT.pdf:file]]&rbrack;
+
+* [[Dennis Sullivan]]: *Sigma models and string topology*, in: Mikhail Lyubich, [[Leon Takhtajan]] (eds.): *Graphs and Patterns in Mathematics and Theoretical Physics*, Proc. Symp. Pure Math. **73** (2005) &lbrack;[doi:10.1090/pspum/073](https://doi.org/10.1090/pspum/073), [spire:1697823](http://inspirehep.net/record/1697823), [[Sullivan-SigmaModels.pdf:file]]&rbrack;
  
-* [[Dennis Sullivan]], _Open and closed string field theory interpreted in classical algebraic topology_, chapter 11 in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Cambridge University Press (2005) ([doi:10.1017/CBO9780511526398.014](https://doi.org/10.1017/CBO9780511526398.014))
 
 For [[target space]] the [[classifying space]] $B G$ of a [[compact Lie group]] $G$ (such as a [[finite group]]):
 
