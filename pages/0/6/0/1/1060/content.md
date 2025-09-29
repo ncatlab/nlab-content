@@ -309,7 +309,7 @@ For enriched *-autonomous categories, and *-autonomy for [[promonoidal categorie
 
 For the notion of [[bimodule]] between *-autonomous categories, as well as the free *-autonomous category on a [[Frobenius algebra]]:
 
-* [[Richard Garner]], _Three investigations into linear logic_, Master's thesis, ([pdf](https://web.science.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
+* [[Richard Garner]]: *Three investigations into linear logic*, MSc thesis, Macquarie (2005) &lbrack;[pdf](https://web.science.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf), [[Garner-LinearLogic.pdf:file]]&rbrack;
 
 
 [[!redirects star-autonomous categories]]
