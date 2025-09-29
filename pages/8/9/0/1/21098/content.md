@@ -55,7 +55,7 @@ where $a^*:[A,B]\to [T A,B]$ is the internal precomposition with $a:T A\to A$, a
 
 Denote this object by $[A,B]_T$.
 
-(See [Brandenburg, Remark 6.4.1](#Brandenburg2014), as well as the original work [Kock '71, Section 2](#Kock71closed).)
+(See [Brandenburg, Remark 6.4.11](#Brandenburg2014), as well as the original work [Kock '71, Section 2](#Kock71closed).)
 
 
 +-- {: .num_theorem}
