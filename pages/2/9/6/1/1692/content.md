@@ -9,7 +9,6 @@
 =--
 =--
 
-# The Chu construction
 * table of contents
 {: toc}
 
@@ -318,6 +317,10 @@ Further early discussion:
 * [[Vaughan Pratt]], *Linear process algebra*, in: *Distributed Computing and Internet Technology ICDCIT 2011*,  Lecture Notes in Computer Science **6536**, Springer (2011) &lbrack;[doi:10.1007/978-3-642-19056-8_6](https://doi.org/10.1007/978-3-642-19056-8_6), [pdf](http://boole.stanford.edu/pub/bhub.pdf)&rbrack;
 
   > (uses $Chu(Set,K)$ where $K$ is a 4-element set to model concurrency)
+
+Another universal property of the Chu construction is discussed in:
+
+* [[Richard Garner]], _Three investigations into linear logic_, Master's thesis, ([pdf](https://web.science.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
 
 On the history of the notion:
 
