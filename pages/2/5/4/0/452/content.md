@@ -343,7 +343,6 @@ Historically, the second axiom for a crossed module first appeared as footnote 3
 
 * {#Whitehead41} [[J.H.C. Whitehead]], *On adding relations to homotopy groups*, Ann. of Math. **42** 2 (1941) 409–428 &lbrack;[doi:10.2307/1968907](https://doi.org/10.2307/1968907)&rbrack;;
 
-
 A key result on "Free crossed modules". 
 
 * {#Whitehead49} [[J. H. C. Whitehead]],  Section 16 of: *Combinatorial Homotopy II*, Bull. Amer. Math. Soc., {\bf 55} (1949) 453-496 &lbrack;[euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society/volume-55/issue-5/Combinatorial-homotopy-II/bams/1183513797.full)&rbrack;
@@ -364,9 +363,11 @@ Textbook account of crossed modules and their relation to [[strict 2-groups]]:
 
 * [[Saunders MacLane]], §XII.8 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5** Springer (second ed. 1997) &lbrack;[doi:10.1007/978-1-4757-4721-8](https://link.springer.com/book/10.1007/978-1-4757-4721-8)&rbrack;
 
-further exposition:
+Further exposition:
 
 *  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], pp. 45 of: *HDA V: 2-Groups*, Theory and Applications of Categories **12** (2004) 423-491. &lbrack;[arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)&rbrack;
+
+* [[Johannes Huebschmann]]: *Crossed modules*, Notices Amer. Math. Soc. **70** (2023) 1802-1813 &lbrack;[arXiv:2403.15900](https://arxiv.org/abs/2403.15900), [doi:10.1090/noti2831](https://doi.org/10.1090/noti2831), [pdf](https://www.ams.org/journals/notices/202311/rnoti-p1802.pdf), full issue: [pdf](https://www.ams.org/notices/202311/202311FullIssue.pdf)&rbrack;
 
 Monograph:
 
