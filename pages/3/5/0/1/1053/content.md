@@ -491,7 +491,6 @@ Review:
 
 * [[Frank Pfenning]], *Linear Logic*, CSLI Lecture Notes **29** (1998) &lbrack;[pdf](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts/notes.pdf), [webpage](https://www.cs.cmu.edu/~fp/courses/98-linear/handouts.html), [[Pfenning-LinearLogic98.pdf:file]]&rbrack;
 
-
 * [[Jean-Yves Girard]], _Linear logic, its syntax and semantics_ (2006) &lbrack;[pdf](http://www.cs.brandeis.edu/~cs112/2006-cs112/docs/girard-intro.pdf)&rbrack;
 
 * {#Girard11} [[Jean-Yves Girard]], part III of _[[Lectures on Logic]]_, European Mathematical Society 2011
@@ -501,7 +500,6 @@ Review:
 and making explicit the [[categorical semantics]] of linear logic in the category [[FinDimVect]] of [[finite-dimensional vector spaces]]:
 
 * {#Pratt93} [[Vaughan Pratt]], *The second calculus of binary relations*, Mathematical Foundations of Computer Science 1993. MFCS 1993, Lecture Notes in Computer Science **711**, Springer (1993) &lbrack;[doi:10.1007/3-540-57182-5_9](https://doi.org/10.1007/3-540-57182-5_9)&rbrack;
-
   > "Linear logic is seen in its best light as the realization of the [[Curry-Howard isomorphism]] for [[linear algebra]]"
 
 * {#ValironZdancewic14} [[Benoît Valiron]], [[Steve Zdancewic]], *Finite Vector Spaces as Model of Simply-Typed Lambda-Calculi*, in: *Proc. of ICTAC'14*, Lecture Notes in Computer Science **8687**, Springer (2014) 442-459 &lbrack;[arXiv:1406.1310](https://arxiv.org/abs/1406.1310), [doi:10.1007/978-3-319-10882-7_26](https://doi.org/10.1007/978-3-319-10882-7_26), slides:[pdf](https://www.cs.bham.ac.uk/~drg/bll/steve.pdf), [[Zdancewic-LinearLogicAlgebra.pdf:file]]&rbrack;
@@ -511,7 +509,9 @@ and making explicit the [[categorical semantics]] of linear logic in the categor
 following a remark in section 2.4.2 of [Hyland & Schalk (2003)](#HylandSchalk03).
 
 
-* {#HylandSchalk03} [[Martin Hyland]], Andrea Schalk, *Glueing and orthogonality for models of linear logic*, Theoretical Computer Science **294** 1–2 (2003) 183-231 &lbrack;<a href="https://doi.org/10.1016/S0304-3975(01)00241-9">doi:10.1016/S0304-3975(01)00241-9</a>&rbrack;
+* {#HylandSchalk03} [[Martin Hyland]], Andrea Schalk, *Glueing and orthogonality for models of linear logic*, Theoretical Computer Science **294** 1–2 (2003) 183-231 \[<a href="https://doi.org/10.1016/S0304-3975(01)00241-9">doi:10.1016/S0304-3975(01)00241-9</a>\]
+
+* Wikipedia: *[Linear Logic](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic)*
 
 
 The [[categorical semantics]] of linear logic in general [[star-autonomous categories]] originally appeared in
@@ -536,10 +536,10 @@ The more general case of of multiplicative intuitionistic linear logic interpret
 
 * {#Szabo78} M.E. Szabo, _Algebra of Proofs_, Studies in Logic and the Foundations of Mathematics, vol. 88 (1978), North-Holland. 
  
+> (that was before Girard introduced the "linear" terminology).
 
-(that was before Girard introduced the "linear" terminology).
 
-More recent articles exploring this include
+More recent articles exploring this:
 
 * {#dePaiva89} [[Valeria de Paiva]], _The Dialectica Categories_, _Contemporary Mathematics_ 92, 1989. ([web] (http://www.cs.bham.ac.uk/~vdp/publications/dial87.pdf)) 
  
@@ -591,13 +591,11 @@ Further discussion of [[linear type theory]] is for instance in
 * Anders Schack-Nielsen, Carsten Sch&#252;rmann, _Linear contextual modal type theory_ [pdf](http://www.itu.dk/~carsten/papers/lcmtt.pdf)
 
 
-See also
+See also:
 
-* {#Blass1992} [[Andreas Blass]], 1992. _A game semantics for linear logic_. _Annals of Pure and Applied Logic_ 56: 183--220. 1992.
-  
+* {#Blass1992} [[Andreas Blass]]: _A game semantics for linear logic_ Annals of Pure and Applied Logic **56** (1992) 183-220
 
-*  The [article](https://secure.wikimedia.org/wikipedia/en/wiki/Linear_logic) on the English Wikipedia has good summaries of the meanings of the logical operators and of the commonly studied [[fragments]].
-
+* [[Richard Garner]]: *Three investigations into linear logic*, MSc thesis, Macquarie (2005) &lbrack;[pdf](https://web.science.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf), [[Garner-LinearLogic.pdf:file]]&rbrack;
 
 
 Discussion of [[linear type theory]] without [[units]]: 
