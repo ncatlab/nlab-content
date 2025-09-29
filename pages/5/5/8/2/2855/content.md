@@ -1,9 +1,19 @@
 
-* [website](http://comp.mq.edu.au/~rgarner/)
+* [personal page](http://comp.mq.edu.au/~rgarner/)
 
+* [institute page](https://researchers.mq.edu.au/en/persons/richard-garner)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=102363)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=0gKW9vcAAAAJ&hl=en)
 
 
 ## Selected writings
+
+On [[linear logic]] and the [[double gluing construction]]:
+
+* [[Richard Garner]]: *Three investigations into linear logic*, MSc thesis, Macquarie (2005) &lbrack;[pdf](https://web.science.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf), [[Garner-LinearLogic.pdf:file]]&rbrack;
+
 
 On [[weak factorization systems]] such as for [[cofibrantly generated model categories]]:
 
@@ -44,6 +54,15 @@ On the [[categorical semantics]] of [[dependent type theory]] with [[function ty
 On [[transferred model structures]]:
 
 * {#GKR18} [[Richard Garner]], [[Magdalena Kedziorek]], [[Emily Riehl]], *Lifting accessible model structures*, J. Topology **13** 1 (2020) 59-76 &lbrack;[arXiv:1802.09889](https://arxiv.org/abs/1802.09889), [doi:10.1112/topo.12123](https://doi.org/10.1112/topo.12123)&rbrack;
+
+
+
+## Related entries
+
+* [[star-autonomous category]]
+
+
+
 
 
 
