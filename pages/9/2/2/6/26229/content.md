@@ -66,7 +66,7 @@ On [[higher topos theory]] in physics:
 
 On [[higher geometry]] in physics:
 
-* [[Luigi Alfonsi]], *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308), [doi:10.1016/B978-0-323-95703-8.00209-3](https://doi.org/10.1016/B978-0-323-95703-8.00209-3)&rbrack;
+* [[Luigi Alfonsi]]: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* **4**  Elsevier (2024) 39-61 &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308), [doi:10.1016/B978-0-323-95703-8.00209-3](https://doi.org/10.1016/B978-0-323-95703-8.00209-3), [ISBN:978-0-323-95703-8](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)&rbrack;
 
 On [[3d quantum gravity]]:
 
