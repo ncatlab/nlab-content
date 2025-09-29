@@ -233,7 +233,7 @@ Introduction and exposition:
 
 * [[Richard J. Szabo]]: *Quantization of Higher Abelian Gauge Theory in Generalized Differential Cohomology*, PoS **ICMP 2012** (2013) 009 &lbrack;[arXiv:1209.2530](https://arxiv.org/abs/1209.2530), [doi:10.22323/1.175.0009](https://doi.org/10.22323/1.175.0009)&rbrack;
 
-* [[Luigi Alfonsi]], §2 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308)&rbrack;
+* [[Luigi Alfonsi]], §2 & §4 in: *Higher geometry in physics*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* **4**  Elsevier (2024) 39-61 &lbrack;[arXiv:2312.07308](https://arxiv.org/abs/2312.07308), [doi:10.1016/B978-0-323-95703-8.00209-3](https://doi.org/10.1016/B978-0-323-95703-8.00209-3), [ISBN:978-0-323-95703-8](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)&rbrack;
 
 * [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]]: *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
