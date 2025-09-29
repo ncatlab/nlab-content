@@ -1,19 +1,18 @@
 
-Dennis Sullivan is an American topologist. His initial work was in geometric topology, but later he developed theories of localisation of homotopy types, rational homotopy theory, and aspects of string topology.
+Dennis Parnell Sullivan is an American topologist. His initial work was in geometric topology, but later he developed theories of [[localization of a space|localization of homotopy types]], [[rational homotopy theory]], and aspects of [[string topology]].
 
-The editor ([[Andrew Ranicki]]) of the redistribution of his 1970 notes wrote:
+The editor ([[Andrew Ranicki]]) of the redistribution of [his 1970 notes](#Sullivan1970) wrote:
 
-The notes had a major influence on the development of both algebraic and geometric topology, pioneering 
+> "The notes had a major influence on the development of both algebraic and geometric topology, pioneering 
 
-*  the localization and completion of spaces in homotopy theory, including p-local, profinite and rational homotopy theory, leading to the solution of the [[Adams conjecture]] on the relationship between vector bundles and spherical fibrations, 
+> -  the localization and completion of spaces in homotopy theory, including p-local, profinite and rational homotopy theory, leading to the solution of the [[Adams conjecture]] on the relationship between vector bundles and spherical fibrations, 
 
-* the formulation of the 'Sullivan conjecture' on the contractibility of the space of maps from the classifying space of a finite group 
-to a finite dimensional CW complex, 
+> - the formulation of the 'Sullivan conjecture' on the contractibility of the space of maps from the classifying space of a [[finite group]] to a finite dimensional CW complex, 
 
-* the action of the Galois group of $\overline{\mathbb{Q}}$ over $\mathbb{Q}$ on smooth manifold 
+> - the action of the Galois group of $\overline{\mathbb{Q}}$ over $\mathbb{Q}$ on smooth manifold 
 structures in profinite homotopy theory, 
 
-* the K-theory orientation of [[PL manifold]]s and bundles. 
+> - the K-theory orientation of [[PL manifolds]] and bundles."
 
   
 ## External links
@@ -22,7 +21,9 @@ structures in profinite homotopy theory,
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Dennis_Sullivan)
 
-* interview by [[Kathryn Hess]]: [video](https://www.youtube.com/watch?v=K8kPS6FZBoc&feature=youtu.be)
+* [GoogleScholar page](https://scholar.google.com/citations?user=0l0z5wgAAAAJ&hl=en)
+
+* interview by [[Kathryn Hess]] (with [[Jim Stasheff]]): [video](https://youtu.be/K8kPS6FZBoc)
 
 
 
@@ -30,7 +31,7 @@ structures in profinite homotopy theory,
 
 On [[localization of a space|localization in homotopy theory]]:
 
-* Dennis Sullivan, [Geometric Topology: Localization, Periodicity, and Galois Symmetry (The 1970 MIT notes)](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf)
+* {#Sullivan1970} [[Dennis Sullivan]]: *Geometric Topology: Localization, Periodicity, and Galois Symmetry*, lecture notes, MIT (1970) &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/books/gtop.pdf)&rbrack;
 
 
 Introducing [[string topology]]:
@@ -42,9 +43,9 @@ Introducing [[string topology]]:
 
 Exposition of the perspective of regarding [[string topology]]-operations as the [[TQFT]] of a [[topological string]] [[sigma model]]:
 
-* [[Dennis Sullivan]], _Sigma models and string topology_, in: Mikhail Lyubich, Leon Takhtajan (eds.), _Graphs and Patterns in Mathematics and Theoretical Physics_, Proc. Symp. Pure Math. 73 (2005) ([doi:10.1090/pspum/073](https://doi.org/10.1090/pspum/073), [spire:1697823](http://inspirehep.net/record/1697823))
- 
-* [[Dennis Sullivan]], _Open and closed string field theory interpreted in classical algebraic topology_, chapter 11 in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Cambridge University Press (2005) ([doi:10.1017/CBO9780511526398.014](https://doi.org/10.1017/CBO9780511526398.014))
+* [[Dennis Sullivan]]: *Open and closed string field theory interpreted in classical algebraic topology*, chapter 11 in: [[Ulrike Tillmann]] (ed.): *Topology, Geometry and Quantum Field Theory*, Cambridge University Press (2005) &lbrack;[doi:10.1017/CBO9780511526398.014](https://doi.org/10.1017/CBO9780511526398.014), [[Sullivan-SFT.pdf:file]]&rbrack;
+
+* [[Dennis Sullivan]]: *Sigma models and string topology*, in: Mikhail Lyubich, [[Leon Takhtajan]] (eds.): *Graphs and Patterns in Mathematics and Theoretical Physics*, Proc. Symp. Pure Math. **73** (2005) &lbrack;[doi:10.1090/pspum/073](https://doi.org/10.1090/pspum/073), [spire:1697823](http://inspirehep.net/record/1697823), [[Sullivan-SigmaModels.pdf:file]]&rbrack;
 
 
 On [[homotopy theory]] and the [[Adams conjecture]]:
