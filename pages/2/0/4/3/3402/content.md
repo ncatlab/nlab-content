@@ -10,11 +10,8 @@ A __complete Boolean algebra__ is a [[complete lattice]] that is also a [[Boolea
 
 ## Category of complete Boolean algebras
 
-A natural notion of [[morphism]] for complete Boolean algebras
-is that of a continuous homomorphism of Boolean algebras,
-also known as complete Boolean homomorphisms.
-These can be defined as homomorphisms of Boolean algebras that preserve [[suprema]],
-or, equivalently, [[infima]].
+A natural notion of [[morphism]] for complete Boolean algebras is that of a continuous homomorphism of Boolean algebras, also known as complete Boolean homomorphisms.
+These can be defined as homomorphisms of Boolean algebras that preserve [[suprema]], or, equivalently, [[infima]].
 It suffices to require preservation of [[suprema]] of [[directed subsets]].
 
 With this notion of morphisms, complete Boolean algebras form a category.
@@ -59,7 +56,7 @@ Assuming [[excluded middle]], complete *[[atomic Boolean algebra|atomic]]* Boole
 
 This property of CABAs is not applicable in [[constructive mathematics]], where power sets are rarely boolean algebras.  However, we can use [[discrete space|discrete]] [[locales]] instead (or rather, their corresponding [[frames]]).  That is, define a __CABA__ to be (not a complete atomic boolean algebra but) a frame $X$ such that the locale maps $X \to 1$ and $X \to X \times X$ (which in the category of frames are maps $0 \to X$ and $X + X \to X$) are [[open map|open]] (as locale maps).  (Of course, that $X \to 1$ is open is the condition that $X$ is [[overt locale|overt]].)  Then it should be (I will check) a classical theorem that CABAs and complete atomic boolean algebras are the same, and a constructive theorem that CABAs and power sets are the same (in the same functorial manner as above). 
 
-Realtedly, CABAs are the same as [[completely distributive lattice|completely distributive complete Boolean algebras]]. 
+Relatedly, CABAs are the same as [[completely distributive lattice|completely distributive complete Boolean algebras]]. 
 
 Another approach is via [[overlap algebra|overlap algebras]].  An overlap algebra is a [[frame]] with two extra conditions (one of which is [[overt locale|overtness]] of the corresponding [[locale]]).  Classically, overlap algebras are the same thing as complete Boolean algebras; constructively, atomic overlap algebras are the same thing as powersets.  See [Ciraulo 2010](#Ciraulo2010).
 
