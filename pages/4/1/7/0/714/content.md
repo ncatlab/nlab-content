@@ -17,28 +17,28 @@
 
 The definition of a [[category]] effectively enforces an ordering on the "0-faces" -- the source and target [[object|objects]] -- of every 1-cell (every [[morphism]]). In many cases this is essential, in that there is no way to regard the generic morphism $a \stackrel{f}{\to} b$ in the category as a morphism from $b$ to $a$ instead.
 
-But there are many categories for which this is not the case, where every morphism naturally only comes with the information of an unordered pair $\{a,b \}$ of objects, without any prejudice on which is to be regarded as source and which as target. An important general example is:
+But there are many categories for which this is not the case, where every morphism naturally only comes with the information of an unordered pair $\{a,b \}$ of objects, without any prejudice on which is to be regarded as the source and which as the target. An important general example is:
 
 * the category $Spans(C)$ of [[span|spans]] in a category $C$ with pullbacks, or [[duality|dually]], the category $CoSpans(C)$ of [[cospan|cospans]] in a category $C$ with pushouts.
 
 More concrete examples are:
 
-* categories of [[cobordism|cobordisms]] (but notice that cobordisms are naturally regarded as [[cospan|cospans]] which makes this a special case of the above example);
+* categories of [[cobordism|cobordisms]] (but notice that cobordisms are naturally regarded as [[cospan|cospans]] making this a special case of the above example);
 
-* the category [[Hilb]] of Hilbert spaces, where for every linear map $f : H_1 \to H_2$ we also have the adjoint map (in the sense of Hilbert spaces, not in the categorical sense) $f^\dagger : H_2 \to H_1$ (but notice that according to [[groupoidification]] this is also essentially to be regarded as a special case of categories of spans).
+* the category [[Hilb]] of Hilbert spaces, where for every linear map $f : H_1 \to H_2$ we also have the adjoint map (in the sense of Hilbert spaces, not in the categorical sense) $f^\dagger : H_2 \to H_1$ (but notice that, according to [[groupoidification]], this is also essentially to be regarded as a special case of categories of spans).
 
-A _dagger structure_ on a category is extra structure which encodes the idea of _removing_ the ordering information on the 0-faces of 1-cells in a category: it is a contravariant functor which sends every morphism $f : a \to b$ to a morphism going the other way, $f^\dagger : b \to a$.
+A _dagger structure_ on a category is an extra structure which encodes the idea of _removing_ the ordering information on the 0-faces of 1-cells in a category. It is a contravariant functor which sends every morphism $f : a \to b$ to a morphism going the other way, $f^\dagger : b \to a$.
 
-The notation and terminology here is motivated from the example [[Hilb]] of Hilbert spaces, where $f^\dagger$ is traditionally the notion for the adjoint of a linear map $f$.  The canonical &#8224;-structure on [[Hilb]] and on [[nCob]] is crucial in [[FQFT|quantum field theory]] where it is used to encode the idea of **unitarity**:
+The notation and terminology here is motivated by the example [[Hilb]] of Hilbert spaces, where $f^\dagger$ is traditionally the adjoint of a linear map $f$. The canonical &#8224;-structure on [[Hilb]] and on [[nCob]] is crucial in [[FQFT|quantum field theory]] where it is used to encode the idea of **unitarity**:
 
 a _unitary_ [[FQFT|functorial QFT]] of dimension $n$ is supposed to be a functor $n Cob \to Hilb$ which respects the &#8224;-structure on both sides.
 
 
 ## Terminology
 
-In Wikipedia a [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as _involutive category_ or _category with involution_.  However, [Springer's Encyclopedia of Mathematics](https://encyclopediaofmath.org/wiki/Category_with_involution) requires that a "category with involution" is also compatibly [[enriched category|enriched]] over [[posets]].
+In Wikipedia, a [dagger category](http://en.wikipedia.org/wiki/Dagger_category) is said to be the same as an _involutive category_ or a _category with involution_.  However, [Springer's Encyclopedia of Mathematics](https://encyclopediaofmath.org/wiki/Category_with_involution) requires that a "category with involution" is also compatibly [[enriched category|enriched]] over [[posets]].
 
-In enriched category theory, involutive categories have also been called **symmetric categories**. Sometimes the involution is required to be strict in the sense that the dagger is an *equality* rather than an *isomorphism*: in line with [[horizontal categorification]], one could argue these should be called **commutative categories**, since a one-object category with such an involution is a [[commutative monoid]].
+In enriched category theory, involutive categories have also been called **symmetric categories**. Sometimes the involution is required to be strict in the sense that the dagger is an *equality* rather than an *isomorphism*. In line with [[horizontal categorification]], one could argue that these should be called **commutative categories**, since a one-object category with such an involution is a [[commutative monoid]].
 
 ## Definition
 
@@ -47,7 +47,7 @@ In enriched category theory, involutive categories have also been called **symme
 #### With a family of functions
 
 \begin{definition}
-A **dagger category** or $\dagger$-category $C$ is a [[category]] with a function $(-)^\dagger: Hom_C(A,B) \to Hom_C(B,A)$ for every object $A,B \in Ob(C)$, such that 
+A **dagger category** or $\dagger$-category is a [[category]] $C$ with a function $(-)^\dagger: Hom_C(A,B) \to Hom_C(B,A)$ for every object $A,B \in Ob(C)$, such that 
 
 * for every $A \in Ob(C)$, $(1_A)^\dagger = 1_A$,
 * for every $A,B \in Ob(C)$ and every $f \in Hom_C(A,B)$ and $g \in Hom_C(B,C)$, $(g \circ f)^\dagger = f^\dagger \circ g^\dagger$,
@@ -85,7 +85,7 @@ which
 
 \end{definition}
 
-This definition, which is perhaps the most concise, does rely on a notion of [[identity-on-objects functor]].  This is no problem in most foundations for mathematics, although it violates the [[principle of equivalence]] (except for [[strict categories]]).  In [[homotopy type theory]] (or more generally [[intensional type theory]]) it doesn't make sense to talk about "being the identity on objects" as a property of a given functor, but one can still define an "identity-on-objects endofunctor" (covariant or contravariant) as a basic notion; see [[identity-on-objects functor]] for details.  When unwound for $\dagger$-categories, this yields the above "family of functions" definition.
+This definition, which is perhaps the most concise, does rely on a notion of [[identity-on-objects functor]].  This is no problem in most foundations for mathematics, although it violates the [[principle of equivalence]] (except for [[strict categories]]).  In [[homotopy type theory]] (or more generally [[intensional type theory]]), it does not make sense to talk about "being the identity on objects" as a property of a given functor, but one can still define an "identity-on-objects endofunctor" (covariant or contravariant) as a basic notion; see [[identity-on-objects functor]] for details.  When unwound for $\dagger$-categories, this yields the above "family of functions" definition.
 
 ### Special morphisms
 
