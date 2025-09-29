@@ -1,5 +1,3 @@
-# Double gluing
-
 * table of contents
 {: toc}
 
@@ -76,3 +74,7 @@ The case of double gluing along hom-functors, discussed above, is the case when 
  {#HylandSchalk}
 
 * [[Aleks Kissinger]] and Sander Uijlen, _A  categorical semantics for causal structure_. Arxiv [1701.04732](https://arxiv.org/abs/1701.04732).
+
+An abstract understanding of the double glueing construction is presented in:
+
+* [[Richard Garner]], _Three investigations into linear logic_, Master's thesis, ([pdf](https://web.science.mq.edu.au/~rgarner/Thesis/Smith-Knight-Essay.pdf))
