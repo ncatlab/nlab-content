@@ -59,7 +59,7 @@ If a [[LCTVS|locally convex topological vector space]] admits a continuous linea
 
 Homotopy theorists (e.g. [tom Dieck 2008, example 8.3.7](#tomDieck2008)) define $S^\infty$ as the [[directed colimit]] of the $S^n$:
 $$ S^{-1} \hookrightarrow S^0 \hookrightarrow S^1 \hookrightarrow S^2 \hookrightarrow \cdots S^\infty .$$
-Note that this $S^\infty$ is _not_ homeomorphic to the sphere of any metrizable space as defined above, since the metrizable [[CW complex|CW-complexes]] are precisely the  locally finite [[CW complex|CW-complexes]] ([Fritsch–Piccinini 1990: 48, prop. 1.5.17](#FP1990)), which [$S^\infty$ is not](#CWstructures) (every open $n$-cell intersects all closed $m$-cells with $m \ge n$)
+Note that this $S^\infty$ is _not_ homeomorphic to the sphere of any metrizable space as defined above, since the metrizable [[CW complex|CW-complexes]] are precisely the  [[locally finite cell complex|locally finite CW-complexes]] ([Fritsch–Piccinini 1990: 48, prop. 1.5.17](#FP1990)), which [$S^\infty$ is not](#CWstructures) (every open $n$-cell intersects all closed $m$-cells with $m \gt n$)
 
 In themselves, infinite-dimensional spheres provide nothing new to [[homotopy theory]], as they are at least weakly contractible and usually [[contractible space|contractible]].  However, they are a very useful source of big contractible spaces and so are often used as a starting point for making concrete models of [[classifying spaces]].
 
