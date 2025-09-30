@@ -93,7 +93,7 @@ Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geomet
 
 * H. Aoki, [[Noboyuki Ishibashi]], S. Iso, [[Hikaru Kawai]], Y. Kitazawa, T. Tada, _Noncommutative Yang-Mills in IIB Matrix Model_, Nucl.Phys. B565 (2000) 176-192 ([arXiv:hep-th/9908141](http://arxiv.org/abs/hep-th/9908141))
 
-* Tatsuo Azeyanagi, Masanori Hanada, Tomoyoshi Hirata, _On Matrix Model Formulations of Noncommutative Yang-Mills Theories_, Phys.Rev.D78:105017,2008 ([arXiv:0806.3252](http://arxiv.org/abs/0806.3252))
+* Tatsuo Azeyanagi, Masanori Hanada, Tomoyoshi Hirata: _On Matrix Model Formulations of Noncommutative Yang-Mills Theories_, Phys. Rev. D **78** :105017 (2008) &lbrack;[arXiv:0806.3252](http://arxiv.org/abs/0806.3252)&rbrack;
 
 Emergence of [[higher spin gauge theory|higher spin]] [[gravity]] from the [[IKKT matrix model]]:
 
@@ -154,6 +154,9 @@ See also
 *Minimal covariant quantum space-time* &lbrack;[arXiv:2502.02498](https://arxiv.org/abs/2502.02498)&rbrack;
 
 * Jumpei Gohara, Akifumi Sako: *Quantization of Lie-Poisson algebra and Lie algebra solutions of mass-deformed type IIB matrix model* &lbrack;[arXiv:2503.24060](https://arxiv.org/abs/2503.24060)&rbrack;
+
+* Alessandro Manta, [[Harold C. Steinacker]]: *Dynamical Covariant Quantum Spacetime with Fuzzy Extra Dimensions in the IKKT model* &lbrack;[arXiv:2509.24753](https://arxiv.org/abs/2509.24753)&rbrack;
+
 
 
 
