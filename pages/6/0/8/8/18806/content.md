@@ -21,11 +21,16 @@ $$ \frac{} {\vdash} $$
 
 Ordinary linear logic has semantics in [[polycategories]], [[linearly distributive categories]], and [[star-autonomous categories]], depending on how many connectives are assumed.  A linearly distributive category satisfies the binary mix rule if there is a morphism $\bot \to \mathbf{1}$ satisfying a certain coherence axiom.  It additionally satisfies the nullary mix rule if this morphism is an [[isomorphism]].  In [CS97](#CS97) these are called **mix categories** and **isomix categories** respectively.
 
+## Examples
+
+* In [[constructive mathematics]] using [[intuitionistic logic]], [[pairs]] of [[propositions]] / [[subsingletons]] are governed by a [[linear logic]] which satisfies the [[mix rule]] (see [Shulman 2022](#Shulman2022)). 
 
 ## References
 
 * [[Robin Cockett]] and [[R.A.G. Seely]], 1997. _Proof theory for full intuitionistic linear logic, bilinear logic, and mix categories_. 1997. [[TAC]] 5:3. [Web](http://tac.mta.ca/tac/volumes/1997/n5/3-05abs.html).
   {#CS97}
+
+* {#Shulman2022} [[Michael Shulman]], *Affine logic for constructive mathematics*. Bulletin of Symbolic Logic, Volume 28, Issue 3, September 2022. pp. 327 - 386 &lbrack;[doi:10.1017/bsl.2022.28](https://doi.org/10.1017/bsl.2022.28), [arXiv:1805.07518](https://arxiv.org/abs/1805.07518)&rbrack;.
 
 
 [[!redirects mix rule]]
