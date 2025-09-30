@@ -25,7 +25,7 @@ The generalization of the notion of [[flat connection]] from [[differential geom
 
 ## Definition
 
-Given a [[cohesive (∞,1)-topos]] $(\esh \dashv \flat \dashv \sharp)$ with [[shape modality]] $\esh$ and [[flat modality]] $\flat$, a **flat $\infty$-connection** an an [[object]] $X$ with [[coefficients]] in an object $A$ is a morphism
+Given a [[cohesive (∞,1)-topos]] $(\esh \dashv \flat \dashv \sharp)$ with [[shape modality]] $\esh$ and [[flat modality]] $\flat$, a **flat $\infty$-connection** on an [[object]] $X$ with [[coefficients]] in an object $A$ is a morphism
 
 $$
   \nabla \;\colon\; X \to \flat A
