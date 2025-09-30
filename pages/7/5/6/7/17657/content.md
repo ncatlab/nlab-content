@@ -2,6 +2,9 @@
 Fernando Quevedo is director of [ICTP](https://www.ictp.it/) and now
 professor of physics at NYU Abu Dhabi. He works on ([[string theory|string theoretic]]) [[high energy physics]] [[phenomenology]].
 
+
+* [institute page](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/fernando-quevedo.html) (NYU Abu Dhabi)
+
 * [institute page](http://www.damtp.cam.ac.uk/person/fq201) (Cambridge)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Fernando_Quevedo)
@@ -19,9 +22,9 @@ On [[bottom-up model building]] for [[intersecting D-brane models]]:
 
 * {#AldazabalIbanezQuevedoUranga00} G. Aldazabal, [[Luis Ibáñez]], [[Fernando Quevedo]], [[Angel Uranga]], _D-Branes at Singularities: A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067v2](https://arxiv.org/abs/hep-th/0005067))
 
-On [[moduli stabilization]]:
+On [[moduli stabilization]] in [[string theory]] [[KK-compactifications]] ([[supersymmetry and Calabi-Yau manifolds|on]] [[Calabi-Yau manifolds]]):
 
-* [[Vijay Balasubramanian]], Per Berglund, [[Joseph Conlon]], [[Fernando Quevedo]], _Systematics of Moduli Stabilisation in Calabi-Yau Flux Compactifications_,  JHEP 0503:007,2005 ([arXiv:hep-th/0502058](http://arxiv.org/abs/hep-th/0502058))
+* [[Vijay Balasubramanian]], Per Berglund, [[Joseph Conlon]], [[Fernando Quevedo]]: _Systematics of Moduli Stabilisation in Calabi-Yau Flux Compactifications_,  JHEP 0503:007 (2005) &lbrack;[arXiv:hep-th/0502058](http://arxiv.org/abs/hep-th/0502058)&rbrack;
 
 On [[supersymmetry]] in higher dimensions with application to [[Lagrangian]] [[field theory]] and the [[MSSM]]:
 
@@ -50,6 +53,11 @@ On [[moduli stabilization]] in [[string theory]]:
 On the [[standard model of particle physics]]:
 
 * [[Fernando Quevedo]], Andreas Schachner: *Cambridge Lectures on The Standard Model* &lbrack;[arXiv:2409.09211](https://arxiv.org/abs/2409.09211)&rbrack;
+
+On [[string theory|string]](-theory inspired) [[cosmology]]:
+
+* Michele Cicoli, [[Joseph P. Conlon]], Anshuman Maharana, Susha Parameswaran, [[Fernando Quevedo]], Ivonne Zavala: *String Cosmology: from the Early Universe to Today*, Physics Reports
+**1059** (2024) 1-155 &lbrack;[arXiv:2303.04819](https://arxiv.org/abs/2303.04819), [doi:10.1016/j.physrep.2024.01.002](https://doi.org/10.1016/j.physrep.2024.01.002)&rbrack;
 
 On [[Steven Weinberg]]:
 
