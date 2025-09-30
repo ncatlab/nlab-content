@@ -55,8 +55,8 @@ $x \leq z$ and $y \leq z$ implies that $x \leq y$ or $y \leq x$.
 ### History preserving functions
 
 The morphisms of prefix ordered sets are [[history preserving function]]s.
-Given $x \in S$, the __history__ of $x$ is the set $x^- = \{ y \mid y \leq x \}$.
-A __history preserving function__ $f$ from a prefix ordered set $S$ to a prefix ordered set $T$ is a [[function]] from $S$ to $T$ (seen as [[structured sets]]) such that $f(x^-) = f(x)^-$. 
+Given $x \in S$, the __history__ of $x$ is the [[down set]] $x{\downarrow} = \{ y \mid y \leq x \}$.
+A __history preserving function__ $f$ from a prefix ordered set $S$ to a prefix ordered set $T$ is a [[function]] from $S$ to $T$ (seen as [[structured sets]]) such that $f(x{\downarrow}) = f(x){\downarrow}$. 
 
 Equivalently, it is a [[monotone function]] between $S$ and $T$ (interpreted as [[posets]]) satisfying the additional property that for every $x \in S$ and $y \in T$ such that $y \leq f(x)$ there exists a $x' \in S$ with $x' \leq x$ and $f(x') = y$.
 
@@ -65,7 +65,7 @@ In this way, prefix ordered sets form a [[category]] [[Pfx]]. Furthermore, they 
 
 ## Properties ##
 
-* Every prefix order is isomorphic to its set of histories under subsets, leading to the intuition that the elements of a prefix order 'are' their histories. Formally: given a prefix ordered set $S$, the set $H = \{ x^- \mid x \in S \}$ is prefix ordered and isomorphic to $S$ (with 'taking the history of an element' and 'taking the maximum of a history' being the witnessing isomorphisms).
+* Every prefix order is isomorphic to its set of histories under subsets, leading to the intuition that the elements of a prefix order 'are' their histories. Formally: given a prefix ordered set $S$, the set $H = \{ x{\downarrow} \mid x \in S \}$ is prefix ordered and isomorphic to $S$ (with 'taking the history of an element' and 'taking the maximum of a history' being the witnessing isomorphisms).
 
 * Products of prefix orders are not the usual Cartesian products, but rather are formed by all possible 'mergings' of the histories of elements of the combined prefix orders.
 
