@@ -11,5 +11,9 @@ On [[AdS2/CFT1 duality]] between [[JT-gravity]] and the [[SYK model]] in terms o
 
 * [[Henry W. Lin]], [[Douglas Stanford]], *A symmetry algebra in double-scaled SYK* &lbrack;[arXiv:2307.15725](https://arxiv.org/abs/2307.15725)&rbrack;
 
+On the [[BFSS matrix model]]:
+
+* [[Henry W. Lin]]: *TASI lectures on Matrix Theory from a modern viewpoint* &lbrack;[arXiv:2508.20970](https://arxiv.org/abs/2508.20970)&rbrack;
+
 
 category: people
