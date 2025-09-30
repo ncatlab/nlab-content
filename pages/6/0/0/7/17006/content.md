@@ -40,6 +40,8 @@ On [[cosmology]] within the [[IKKT matrix model]]:
 * Alessandro Manta, [[Harold C. Steinacker]]:
 *Minimal covariant quantum space-time* &lbrack;[arXiv:2502.02498](https://arxiv.org/abs/2502.02498)&rbrack;
 
+* Alessandro Manta, [[Harold C. Steinacker]]: *Dynamical Covariant Quantum Spacetime with Fuzzy Extra Dimensions in the IKKT model* &lbrack;[arXiv:2509.24753](https://arxiv.org/abs/2509.24753)&rbrack;
+
 On emergence of [[general relativity]] from the [[IKKT matrix model]]:
 
 * Pei-Ming Ho, [[Hikaru Kawai]], [[Harold C. Steinacker]]: *General Relativity in IIB Matrix Model* &lbrack;[arXiv:2509.06646](https://arxiv.org/abs/2509.06646)&rbrack;
