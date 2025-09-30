@@ -35,12 +35,26 @@ For more see at _[[QFT with defects]]_, the section *[Topological defects from s
 
 * [[defect brane]]
 
-* NB: There is *no* direct relation to _[[strings]]_ in the sense of [[perturbative string theory]]; at best there is a relation to [[D1-branes]] ("D-strings").
+* NB: There is *no* direct relation to *fundamental  [[strings]]* ([[F1-branes]]) in the sense of [[perturbative string theory]]; at best there is a relation to [[D1-branes]] ("D-strings") and to [[black strings]].
 
 
 ## References
 
+Classical diacussion:
+
 * {#VilenkinShellard94} [[Alexander Vilenkin]], E. P. S. Shellard, *Cosmic strings and other topological defects*, Cambridge University Press (1994) &lbrack;[ISBN:9780521654760](https://www.cambridge.org/ae/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/cosmic-strings-and-other-topological-defects?format=PB&isbn=9780521654760), [spire:1384873](https://inspirehep.net/literature/1384873)&rbrack;
+
+See also:
+
+* Wikipedia: *[Cosmic string](https://en.m.wikipedia.org/wiki/Cosmic_string)*
+
+Further review of theory and its [[phenomenology (physics)|phenomenological]] status:
+
+* Mairi Sakellariadou: *Cosmic Strings and Cosmic Superstrings*, Nucl. Phys. Proc. Suppl. **192-193** 68-90 (2009) &lbrack;[arXiv:0902.0569](https://arxiv.org/abs/0902.0569), [doi:10.1016/j.nuclphysbps.2009.07.046](https://doi.org/10.1016/j.nuclphysbps.2009.07.046)&rbrack;
+
+
+* Wilfried Buchmuller, Valerie Domcke, Kai Schmitz: *Metastable cosmic strings* &lbrack;[arXiv:2307.04691](https://arxiv.org/abs/2307.04691)&rbrack;
+
 
 
 [[!redirects cosmic strings]]
