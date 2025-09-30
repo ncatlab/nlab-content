@@ -827,24 +827,6 @@ This happens for the algebraic data of crossed complexes and the topological dat
 
 However $\mathcal{B}C$ is in this case defined by a nerve construction which generalises that for groupoids, and can also be applied to topological crossed crossed complexes, giving a simplicial space. 
 
-+--{: .query}
-[[Mike Shulman|Mike]]: I don't really get any intuition from that.  There might be lots of functors from "algebraic data" to "topological data" but it seems to me that only particular sorts of them deserve the name "classifying space."  Can you say more specifically what sorts of functors you have in mind, and relate it to the more basic ideas that I am familiar with?  What do these classifying spaces classify?
-
-[[Ronnie Brown|Ronnie]] What I am trying to characterise is that higher categories carry structure such as a filtration by lower dimensional higher categories, or, for multiple structures, a multiple filtration. Thus one expects a classifying space to inherit this extra structure. Conversely, the construction of an infinity-groupoid from a space might depend on this extra structure. 
-
-So I spent 9 years trying to construct a _strict_ homotopy double groupoid of a space, yet Philip Higgins and I did this overnight in 1974 when we tried the simplest relative example we could think of: take homotopy classes of maps from a square to $X$ which take the edges to a subspace $X_1$ and the vertices to a base point $x_0$. Then the filtered case took another 4 years or so to complete. 
-
-Then Loday constructed a [[cat-n-group]] from an n-cube of spaces, published in 1982. Its multi-nerve  is an $(n+1)$-simplicial set, whose realisation is $(n+1)$-filtered. 
-
-A strict homotopy double groupoid of a Hausdorff space has been constructed but this needs a subtle notion of [[thin element|thin]] homotopy.
-
-Of course the filtration for a group is not so apparent, but it is more clear that  [[groupoids]]  carry structure in dimension 0 and 1, and hence are useful for representing non connected homotopy 1-types, and their identifications in dimension 0, as explained in the first edition (1968) of my Topology book.   
-
-The intuition for the [[higher homotopy van Kampen theorem]] is that you need _structure in all  dimensions from 0 to n _to get colimit theorems in dimension n, because in homotopy, low dimensional identifications, even in dimension 0,  usually effect high dimensional homotopy information. In effect, the [[higher homotopy van Kampen theorem]] is about gluing [[homotopy n-types]]. 
-
-_Mike_: Thanks, that is helpful.
-=--
-
 Some such constructions arise from generalisations of the [[Dold-Kan correspondence]], with values in [[simplicial sets]]. For example, from a [[crossed complex]] $C$ one obtains a simplicial  set $Nerve(C)$ which in dimension $n$ is $Crs(\Pi(\Delta^n_*),C)$. The geometric realisation $\mathcal{B}C$ of this is canonically filtered by the skeleta of $C$, so $\mathcal{B}$ is really a functor to [[filtered spaces]]. This ties in with the functor $\Pi$ which goes in the opposite direction. But note that there is a different filtration of the space $\mathcal{B}C$ since it is a CW-complex, and so $\Pi$ of this filtration gives a free crossed complex. 
 
 Special cases of crossed complexes are [[groupoids]], and so we get the classifying space of a groupoid; and similarly of a [[crossed module]]. 
