@@ -90,6 +90,14 @@ Discussion of cosmology in terms of [[perturbative AQFT]] [[AQFT on curved space
 
 * {#Hack15} [[Thomas-Paul Hack]], _Cosmological Applications of Algebraic Quantum Field Theory in Curved Spacetimes_, Springer 2016 ([arXiv:1506.01869](https://arxiv.org/abs/1506.01869), [doi:10.1007/978-3-319-21894-6](https://doi.org/10.1007/978-3-319-21894-6))
 
+### String Cosmology
+
+On cosmological models inspired (at least) by [[string theory]]:
+
+* Michele Cicoli, [[Joseph P. Conlon]], Anshuman Maharana, Susha Parameswaran, [[Fernando Quevedo]], Ivonne Zavala: *String Cosmology: from the Early Universe to Today*, Physics Reports
+**1059** (2024) 1-155 &lbrack;[arXiv:2303.04819](https://arxiv.org/abs/2303.04819), [doi:10.1016/j.physrep.2024.01.002](https://doi.org/10.1016/j.physrep.2024.01.002)&rbrack;
+
+
 
 ### M-cosmology
 
