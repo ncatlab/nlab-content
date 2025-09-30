@@ -32,6 +32,9 @@ Argument that the would-be proof of the island conjecture secretly works only fo
 
 * [[Hao Geng]]: *Revisiting Recent Progress in the Karch-Randall Braneworld* \[<a href="https://arxiv.org/abs/2306.15671">arXiv:2306.15671</a>\]
 
+* [[Hao Geng]]: *Making the Case for Massive Islands* \[<a href="https://arxiv.org/abs/2509.22775">arXiv:2509.22775</a>\]
+
+
 
 
 reviewed in:
