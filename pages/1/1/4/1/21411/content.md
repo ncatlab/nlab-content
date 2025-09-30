@@ -150,6 +150,8 @@ See also:
 
 * Keith Y. Patarroyo: _A digression on Hermite polynomials_ &lbrack;[arXiv:1901.01648](https://arxiv.org/abs/1901.01648)&rbrack;
 
+* {#GoesslPoly} Sebastian Gössl: *[Hermite Polynomials](https://goessl.github.io/poly/hermite_functional/#poly.hermite_functional.hermmul_naive)*, in: *[`poly` -- A Python package for polynomials](https://goessl.github.io/poly/)* 
+
 [[!redirects Hermite polynomials]]
 
 [[!redirects Hermite function]]
