@@ -21,11 +21,13 @@ This means that gauge equivalence classes of vaccum configurations on a [[spacet
 
 If [[spacetime]] is locally to be taken of the form $\mathbb{R} \times (\mathbb{R}^3 - D^2 \times \mathbb{R}^1)$, hence with a 1-dimensional ("string"-like) piece taken out, then homotopy classes of maps $X \to \Pi(G/H)$ are classified by the [[fundamental group]] $\pi_1(G/H)$. For a given nontrivial element here the correponding [[vacuum]] is said to contain a **cosmic string defect**. ("Cosmic" just because this effect is thought to be most relevant on scales of [[cosmology]].)
 
-In other words this means that the vacuum strcture changes continuously as one moves around the string, but has a [[singularity]] on the locus of the string itself.
+In other words, this means that the vacuum structure changes continuously as one moves around the string, but has a [[singularity]] on the locus of the string itself.
 
-For more see at _[[QFT with defects]]_ the section _[Topological defects from spontaneously broken symmetry](http://ncatlab.org/nlab/show/QFT+with+defects#DefectsFromBrokenSymmetry)_.
+For more see at _[[QFT with defects]]_, the section *[Topological defects from spontaneously broken symmetry]QFT+with+defects#DefectsFromBrokenSymmetry)*.
 
 ## Related concepts
+
+* [[black string]]
 
 * [[domain wall]], [[monopole]]
 
@@ -33,7 +35,7 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
 
 * [[defect brane]]
 
-There is *no* direct relation to _[[strings]]_ in the sense of [[perturbative string theory]]; maybe to [[D1-branes]].
+* NB: There is *no* direct relation to _[[strings]]_ in the sense of [[perturbative string theory]]; at best there is a relation to [[D1-branes]] ("D-strings").
 
 
 ## References
