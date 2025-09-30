@@ -14,7 +14,6 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -22,7 +21,23 @@
 
 ## Idea
 
-The term _higher structure_ (as used in numerous conference titles starting in the 2010s, e.g. [CGX 11](#CGX11), [BBM 16](#BBM16), [SBBM 18](#SBBM18), [JSSW 18](#JSSW18) and by a journal titled *[Higher Structures](#HSJ)*) has come to mean essentially what elsewhere was and is called _[[categorification|categorified]] [[mathematical structure]]_ or _[[mathematical structure]] [[internalization|in]] [[higher category theory]]_, or, more specifically, _[[mathematical structure]] [[internalization|in]] [[(∞,1)-category theory]]_, hence _[[mathematical structure]] [[internalization|in]] [[homotopy theory]]_ ([[higher algebra]]/[[homotopical algebra]], [[higher geometry]]/[[derived algebraic geometry|derived geometry]], etc.), where the identies/laws of ordinary [[mathematical structures]] may hold only up to [[coherence law|coherent]] [[higher homotopies]].
+The term _higher structure_ 
+
+> (as used in numerous conference titles starting in the 2010s, e.g. [CGX 11](#CGX11), [BBM 16](#BBM16), [SBBM 18](#SBBM18), [JSSW 18](#JSSW18) and by a journal titled *[Higher Structures](#HSJ)*) 
+
+has come to mean essentially what elsewhere had been and still is called:
+
+* _[[categorification|categorified]] [[mathematical structure]]_ or _[[mathematical structure]] [[internalization|in]] [[higher category theory]]_, 
+
+or, more specifically:
+
+* _[[mathematical structure]] [[internalization|in]] [[(∞,1)-category theory]]_, 
+
+hence:
+
+* _[[mathematical structure]] [[internalization|in]] [[homotopy theory]]_ ([[higher algebra]]/[[homotopical algebra]], [[higher geometry]]/[[derived algebraic geometry|derived geometry]], etc.), 
+
+where the identies/laws of ordinary [[mathematical structures]] may hold only up to [[coherence law|coherent]] [[higher homotopies]].
 
 For example, [[L-∞ algebras]], which are [[Lie algebra objects]] [[internalization|in]] the [[(∞,1)-category|(∞,1)-]][[category of chain complexes]], would be a core topic in _higher structures in [[Lie theory]]_ (elsewhere: _[[∞-Lie theory]]_). Further basic classes of higher structures in [[higher algebra]] ("[[brave new algebra]]") are [[A-infinity algebras|$A_\infty$ algebras]] and [[E-infinity algebras|$E_\infty$-algebras]].
 
