@@ -140,6 +140,9 @@ Review:
 
 * [[Juan Maldacena]]: *The BFSS conjecture, a review*, talk at *[Strings 2024](https://indico.cern.ch/event/1284995/)* (2024) &lbrack;[indico:5975486](https://indico.cern.ch/event/1284995/contributions/5975486), [pdf](https://indico.cern.ch/event/1284995/contributions/5975486/attachments/2869735/5024000/Maldacena.pdf)&rbrack;
 
+* [[Henry W. Lin]]: *TASI lectures on Matrix Theory from a modern viewpoint* &lbrack;[arXiv:2508.20970](https://arxiv.org/abs/2508.20970)&rbrack;
+
+
 Review in the context of the [[holographic principle]]:
 
 * [[Juan Maldacena]], *A simple quantum system that describes a black hole* &lbrack;[arXiv:2303.11534](https://arxiv.org/abs/2303.11534), <a href="https://inspirehep.net/literature/2644529">inspire:2644529</a>&rbrack;
