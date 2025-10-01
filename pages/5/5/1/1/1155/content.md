@@ -40,9 +40,9 @@ A **combinatorial spectrum** is ([Kan 63, def. 4.1](#Kan63))
 
 ## Examples
 
-The standard [[simplicial set]]s corresponding to the standard [[simplex|simplices]] have their analogs for simplicial spectra. The difference is that regarded as a spectrum the $k$-simplex may sit in any degree $n \in \mathbb{N}$, not necessarily in degree $k$.
+The standard [[simplicial set]]s corresponding to the standard [[simplex|simplices]] have their analogs for simplicial spectra. The difference is that regarded as a spectrum the $k$-simplex may sit in any degree $n \in \mathbb{Z}$, not necessarily in degree $k$.
 
-**The $(k+1)$-simplex in degree $n$.** For each integer $n \in \mathbb{Z}$ and $k \in \mathbb{N}$ there is a spectrum 
+**The $k$-simplex in degree $n$.** For each integer $n \in \mathbb{Z}$ and $k \in \mathbb{N}$ there is a spectrum 
 
 $$
   \Delta^{k}[n-k]
