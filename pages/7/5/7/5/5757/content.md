@@ -13,12 +13,15 @@ also known as [[sSet]]-[[enriched groupoids]]:
 
 * [[Philip J. Ehlers]], *Algebraic Homotopy in Simplicially Enriched Groupoids*, PhD thesis, University of Wales Bangor (1993) &lbrack;[[Ehlers-thesis.pdf|pdf:file]]&rbrack;
 
+On the [[join of simplicial sets]] in view of [[augmented simplicial sets]]:
 
-Articles based on his work:
+* {#EhlersPorter00} [[Phil Ehlers]], [[Tim Porter]]: *Joins for (Augmented) Simplicial Sets*. Journal of Pure and Applied Algebra **145** 1 (2000) 37-44 \[<a href="https://doi.org/10.1016/S0022-4049(98)00065-6">doi:10.1016/S0022-4049(98)00065-6</a>, [arxiv:math/9904039](https://arxiv.org/abs/math/9904039)\]
 
-* [[Phil Ehlers]], [[Tim Porter]], _Joins for (Augmented) Simplicial Sets_,  Jour. Pure Applied Algebra, 145 (2000) 37-44 &lbrack;[arXiv](http://arxiv.org/abs/math.CT/9904039)&rbrack;
+On [[simplicial groupoids]] and [[crossed complexes]]:
 
 * [[Phil Ehlers]], [[Tim Porter]], _Varieties of simplicial groupoids, I, Crossed complexes_, Jour. Pure Applied Algebra, 120 (1997) 221 - 233; Erratum: Jour. Pure Applied Algebra, 134 (1999) 221-233.
+
+On [[pasting diagram|pasting]] in [[quasicategories]]:
 
 * [[Phil Ehlers]], [[Tim Porter]], _Ordinal subdivision and special pasting in quasicategories_, Advances in Math. 217 (2007), No 2. pp 489-518.
 
