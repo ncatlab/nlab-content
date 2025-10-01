@@ -1,12 +1,17 @@
 
-> Not to be confused with [[Robert L. Wilson]].
+> Beware that there is also *[[Robert L. Wilson]]*.
 
 ***
 
-Robert A. Wilson is a [[finite group|finite ]]-[[group theory|group theorist]]. He is one of the authors of the *[ATLAS of finite groups](https://en.wikipedia.org/wiki/ATLAS_of_Finite_Groups)* and particularly works on [[sporadic finite simple groups]], such as the [[monster group]].
+Robert Arnott Wilson is a [[finite group|finite ]]-[[group theory|group theorist]]. He is one of the authors of the *[ATLAS of finite groups](https://en.wikipedia.org/wiki/ATLAS_of_Finite_Groups)* and particularly works on [[sporadic finite simple groups]], such as the [[monster group]].
 
-* [website](http://www.maths.qmul.ac.uk/~raw/)
+* [personal page](http://www.maths.qmul.ac.uk/~raw/)
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Robert_Arnott_Wilson)
+
+* [inSpire page](https://inspirehep.net/authors/2611068)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=MQ3Kp8wAAAAJ&hl=en)
 
 ## Selected writings
 
