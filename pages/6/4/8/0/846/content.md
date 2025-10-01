@@ -14,11 +14,11 @@
 
 ## Idea
 
-The **join** $S \star T$ of two [[simplicial set]]s $S$ and $T$ is a new simplicial set that may geometrically be thought of as a [[cone]] over $T$ with tip of shape $S$. Topologically, it can also be thought of as the union of line segments connecting $S$ to $T$ if both are placed in general position. 
+The **join** $S \star T$ of a [[pair]] $S, T$ of [[simplicial set]] is a simplicial set that may geometrically be thought of as a [[cone]] over $T$ with tip of shape $S$. Topologically, it can also be thought of as the union of line segments connecting $S$ to $T$ if both are placed in general position. 
 
-If the simplicial sets in question are [[quasi-categories]], then their join produces the notion of the [[join of quasi-categories]] that underlies many constructions in [[higher category theory]] such as the definition of a [[limit in a quasi-category]].
+If the simplicial sets in question are [[quasi-categories]], then their join produces the xorresponding *[[join of quasi-categories]]* that underlies many constructions in [[higher category theory]], such as the definition of *[[limit in a quasi-category]]*.
 
-The join of [[simplicial set]]s extends that historically given for [[simplicial complex|simplicial complexes]], cf. for instance the description and discussion in [[Spanier|Spanier's classical text]] (page 109 and then pages 114 -116). 
+The join oprtation on [[simplicial sets]] generalizes the historically earlier notion of join of [[simplicial complexes]], cf. [Spanier 1966](#Spanier66).
 
 The adaptation of this to simplicial sets reveals a neat link with some categorical structure in the category $\Delta_a$ of finite ordinals (including the empty one).  
 
@@ -703,7 +703,11 @@ This is [[Higher Topos Theory|HTT, corollary 4.2.1.4]].
 
 ## References
 
-Early discussion of the join operation:
+The historical predecessor notion of the join of [[simplicial complexes]]:
+
+* {#Spanier66} [[Edwin Spanier]], pp. 109 & 114-116 in: _Algebraic topology_, McGraw-Hill (1966), Springer (1982) &lbrack;[doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1)&rbrack;
+
+Early discussion of the join operation on simplicial sets:
 
 * [[Philip J. Ehlers]], *Algebraic Homotopy in Simplicially Enriched Groupoids*, PhD thesis, University of Wales Bangor (1993) &lbrack;[[Ehlers-thesis.pdf|pdf:file]]&rbrack;
 
