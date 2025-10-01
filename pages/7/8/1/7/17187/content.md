@@ -30,3 +30,6 @@ In [BriWei](#BriWei) the authors develop an enriched version.
 * [[Thomas Willwacher]], _Configuration spaces of points and real Goodwillie-Weiss calculus_, [talk](https://www.newton.ac.uk/seminar/20181204100011001) at Isaac Newton Institute, 2018.
 
 * {#Arakawa24}[[Kensuke Arakawa]], _A Context for Manifold Calculus_, ([arXiv:2403.03321](https://arxiv.org/abs/2403.03321))
+
+* [[Alexander Kupers]]: *Manifolds and Disc-presheaves*,  Proceedings of [ICM 2026](https://www.mathunion.org/icm/icm-2026) &lbrack;[arXiv:2509.26392](https://arxiv.org/abs/2509.26392)&rbrack;
+
