@@ -84,6 +84,25 @@ Similarly, the convention $L \dashv_J R$ for relative adjunctions and $L {\,\,}_
 - A left relative adjoint is an _absolute [[Kan lift|lift]]_. In particular, if $L \dashv_J R$, then $L = \mathop{Lift}_R J$, and this left lift is _absolute_. Dually, for a right relative coadjoint $L {\,\,}_J\!\dashv R$, we have $R = \mathop{Rift}_L J$, and this right lift is _absolute_. Note that, for the converse to hold, we must additionally require that the lifts are _pointwise_. See Proposition 5.8 and Remark 5.9 of [AM24](#AM24).
 - A relative adjunction has a unit $\eta \colon J \Rightarrow R L$; whereas a relative coadjunction has a counit $\varepsilon \colon L R \Rightarrow J$ (both may be seen to be induced from the hom-set definition, like for ordinary adjunctions). In fact, these may be used to give an alternative definition of relative adjunctions and relative coadjunctions, akin to the unit--counit formulation of an adjunction. See Lemma 5.5 of [AM24](#AM24).
 
+### Extending relative adjunctions to adjunctions
+
+The following result is very useful for establishing the existence of a left adjoint given a relative left adjoint.
+
+\begin{proposition}(Proposition 5.4.7 of [Arkor 2022](#Arkor22Thesis))
+Suppose we have a relative adjunction as follows.
+\begin{tikzcd}
+	& C \\
+	A && E
+	\arrow[""{name=0, anchor=center, inner sep=0}, "R", from=1-2, to=2-3]
+	\arrow[""{name=1, anchor=center, inner sep=0}, "L", from=2-1, to=1-2]
+	\arrow["J"', from=2-1, to=2-3]
+	\arrow["\dashv"{anchor=center}, shift right=2, draw=none, from=1, to=0]
+\end{tikzcd}
+If $J$ is [[dense functor|dense]], then $R$ has a [[left adjoint]] if and only if the (pointwise) [[Kan extension|left extension]] $Lan_L J : E \to C$ exists, in which case $Lan_L J \dashv R$.
+\end{proposition}
+
+For instance, the requisite left extension will always exist when the category $A$ is [[small category|small]] and the category $C$ is [[cocomplete category|cocomplete]].
+
 ### Relative monads and comonads
 
 Just as adjunctions give rise to [[monad|monads]] and [[comonad|comonads]],
@@ -157,6 +176,8 @@ Conversely, there are analogues of the [[Kleisli category]] and [[Eilenberg–Mo
 A comprehensive account of relative adjunctions (covering also adjoint functors in [[enriched category theory]], and more generally [[formal category theory]]) may be found in:
 
 * {#AM24} [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;
+
+* {#Arkor22Thesis} [[Nathanael Arkor]], *Monadic and Higher-Order Structure*, PhD thesis, Cambridge (2022) &lbrack;[doi:10.17863/CAM.86347](https://doi.org/10.17863/CAM.86347), [pdf](https://www.repository.cam.ac.uk/bitstreams/666be4fb-957b-4c2e-83fc-8124621f0c43/download), [[Arkor-MonadicAndHigherStructure.pdf:file]]&rbrack;
 
 The original reference for relative adjunctions is:
 
