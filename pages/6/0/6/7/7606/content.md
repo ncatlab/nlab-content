@@ -14,7 +14,13 @@ An open subset of a semiseparated scheme is semiseparated.
 
 The notion is explained in 
 
-* Thomason, Trobaugh, in Grothendieck Festschrift 1989
+* R.W. Thomason, T. Trobaugh, Higher algebraic K-theory of schemes and of derived categories, in: The
+Grothendieck Festschrift, vol. III, in: Progr. Math., vol. 88, Birkhäuser Boston, Boston, MA, 1990, pp. 247–435
+
+See also Sect. 2 of
+
+* L. Alonso Tarrío, A. Jeremías López, M. Pérez Rodríguez, María J. Vale Gonsalves, The derived category of quasi-
+coherent sheaves and axiomatic stable homotopy, Adv. Math. 218 (4) (2008) 1224–1252
 
 A very short exposition is at the end of  
 
