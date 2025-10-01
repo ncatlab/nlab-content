@@ -25,6 +25,8 @@ The _Dieudonné determinant_ is a variant of the notion of [[determinant]] which
 
 ## Definition
 
+### General
+
 [Dieudonné 43](#Dieudonne) showed that for $K$ a [[division ring]], there is a [[group homomorphism]] of the form
 
 \[
@@ -39,7 +41,7 @@ The _Dieudonné determinant_ is a variant of the notion of [[determinant]] which
 
 where 
 
-* $GL(n,K)$ is the [[group]] of $n \times n$ [[invertible  matrices]] with entries in $K$, 
+* $GL(n,K)$ is the [[general linear group|general linear]] [[group]] of $n \times n$ [[invertible  matrices|invertible]] [[matrices]] with entries in $K$, 
 
 * $K^\times = GL(1,K)$ is the [[group of units]] of $K$, and
 
@@ -77,9 +79,9 @@ gives the **Dieudonné determinant**
   \,. 
 \]
 
-## The quaternionic case
+### The quaternionic case
 
-In the case that $K$ is the ring of [[quaternions]], $\mathbb{H}$, we have a group isomorphism 
+In the case that $K$ is the ring of [[quaternions]], $\mathbb{H}$, we have a group [[isomorphism]] 
 
 $$ 
   \mathbb{H}^\times 
@@ -92,7 +94,7 @@ $$
  \mathbb{R}_{\gt 0} 
 $$
 
-where $\mathbb{R}_{\gt 0}$ is made into a group using [[multiplication]] of [[real numbers]], coming from the fact that now the [[commutator subgroup]] $[\mathbb{H}^\times, \mathbb{H}^\times] $ is the group [[Sp(1)]] of quaternions $q$ with $|q| = 1$, and that any invertible quaternion can uniquely be written as $a q$ where $a \in \mathbb{R}_{\gt 0}$ and $\left\vert q \right\vert = 1$.  
+(where $\mathbb{R}_{\gt 0}$ is made into a group using [[multiplication]] of [[real numbers]]), coming from the fact that now the [[commutator subgroup]] $[\mathbb{H}^\times, \mathbb{H}^\times] $ is the group [[Sp(1)]] of quaternions $q$ with $|q| = 1$, and that any invertible quaternion can uniquely be written as $a q$ where $a \in \mathbb{R}_{\gt 0}$ and $\left\vert q \right\vert = 1$.  
 
 Thus, in this case we can write the Dieudonné determinant (eq:TheDieudonneDeterminant)
 more concretely as a [[group homomorphism]] of the form
@@ -211,32 +213,31 @@ It is well known that the Gauss decomposition of matrices over a noncommutative 
 
 The concept is due to
 
-* {#Dieudonne43}  [[Jean Dieudonné]], _Les déterminants sur un corps non commutatif_,  Bulletin de la Société Mathématique de France, Volume 71  (1943), p. 27-45  ([numdam:BSMF_1943__71__27_0](http://www.numdam.org/item/?id=BSMF_1943__71__27_0)) 
+* {#Dieudonne43}  [[Jean Dieudonné]]: _Les déterminants sur un corps non commutatif_,  Bulletin de la Société Mathématique de France **71**  (1943) 27-45  &lbrack;[numdam:BSMF_1943__71__27_0](http://www.numdam.org/item/?id=BSMF_1943__71__27_0)&rbrack;
 
 Exposition and review:
 
-* {#Arlaksen96} Helmer Aslaksen, _Quaternionic determinants_,  The Mathematical Intelligencer 18, 57–65 (1996) ([doi:10.1007/BF03024312](https://doi.org/10.1007/BF03024312), [pdf](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.65.877&rep=rep1&type=pdf))
+* {#Arlaksen96} Helmer Aslaksen: _Quaternionic determinants_,  The Mathematical Intelligencer **18** (1996) 57–65 &lbrack;[doi:10.1007/BF03024312](https://doi.org/10.1007/BF03024312)&rbrack;
 
-* {#CohenDeLeo99} Nir Cohen, Stefano De Leo, _The quaternionic determinant_, El. J. Lin. Alg. 7, 100-111 (2000) ([arXiv:math-ph/9907015](https://arxiv.org/abs/math-ph/9907015))
+* {#CohenDeLeo99} Nir Cohen, Stefano De Leo: *The quaternionic determinant*, Electronic Journal of Linear Algebra **7** (2000) 100-111 &lbrack;[arXiv:math-ph/9907015](https://arxiv.org/abs/math-ph/9907015), [eudml:121484](https://eudml.org/doc/121484)&rbrack;
 
-* [[Nigel Hitchin]], _$SL(2)$ over the octonions_ ([arXiv:1805.02224](https://arxiv.org/abs/1805.02224))
+* [[Nigel Hitchin]]: _$SL(2)$ over the octonions_ &lbrack;[arXiv:1805.02224](https://arxiv.org/abs/1805.02224)&rbrack;
 
-* [[Joás Venâncio]], [[Carlos Batista]], Section 2 of: _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_ ([arXiv:2007.04296](https://arxiv.org/abs/2007.04296))
+* [[Joás Venâncio]], [[Carlos Batista]], Section 2 of: _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_ &lbrack;[arXiv:2007.04296](https://arxiv.org/abs/2007.04296)&rbrack;
 
 See also:
 
 * Wikipedia, _[Dieudonné determinant](https://en.wikipedia.org/wiki/Dieudonn%C3%A9_determinant)_
 
-Comparison to [[quasideterminants]] is in
+Comparison to [[quasideterminants]]:
 
-* {#GelfandRetakh02} [[Israel Gelfand]], Vladimir Retakh, Robert Lee Wilson, _Quaternionic quasideterminants and determinants_, 2002 ([math.QA/0206211](https://arxiv.org/abs/math/0206211))
+* {#GelfandRetakh02} [[Israel Gelfand]], Vladimir Retakh, Robert Lee Wilson: *Quaternionic quasideterminants and determinants* (2002) &lbrack;[math.QA/0206211](https://arxiv.org/abs/math/0206211)&rbrack;
 
-* {#Draxl83} [[Peter Draxl]], Section III.20 of: _Skew fields_, London Math. Soc. Lecture notes __81__, Cambridge University Press 1983 ([doi:10.1017/CBO9780511661907](https://doi.org/10.1017/CBO9780511661907), ISBN:9780511661907)
+* {#Draxl83} [[Peter Draxl]], Section III.20 of: *Skew fields*, London Math. Soc. Lecture Notes __81__, Cambridge University Press (1983) &lbrack;[doi:10.1017/CBO9780511661907](https://doi.org/10.1017/CBO9780511661907), ISBN:9780511661907&rbrack;
 
-For lectures on quasideterminants see 
+Lecture notes more generally on [[quasideterminants]]:
 
-* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_,  124 pp, CRM, Barcelona, 2007 ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.123.3499&rep=rep1&type=pdf))
-
+* [[V. Retakh]], R. Wilson: _Advanced course on quasideterminants and universal localization_, CRM Barcelona, (2007) &lbrack;[[RetakhWilson-Quasideterminants.pdf:file]]&rbrack;
 
 
 
@@ -244,3 +245,4 @@ For lectures on quasideterminants see
 [[!redirects Dieudonné determinants]]
 [[!redirects Dieudonne determinant]]
 [[!redirects Dieudonne determinants]]
+
