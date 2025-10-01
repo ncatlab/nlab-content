@@ -363,7 +363,7 @@ $$
 
 We first define the **join of simplicial sets** as the restriction to simplicial sets of the extension of the [[ordinal sum]] operation on the augmented [[simplex category]] $\Delta_a$ to augmented simplicial sets.
 
-Then we give the more explicit definition in terms of concrete formulas. We first refer to the description of the [[ordinal sum]], and then how it induces structure on the category of augmented simplicial sets.
+Then we give the more explicit definition in terms of concrete formulas. We first refer to the description of the [[ordinal sum]], and then how it induces structure on the category of [[augmented simplicial sets]].
 
 
 ### By Day convolution {#DayConvolution}
@@ -380,7 +380,7 @@ $$
 $$
 $$
   (S \star S')(-)
-  :=
+  \coloneqq
   \int^{[i],[j] \in \Delta_a}
     (S_i \times S'_j) \times Hom_{\Delta_a}(-,[i] \boxplus [j])
   \,.
@@ -401,8 +401,13 @@ Note that the join of simplicial sets $S \star T$ is [[cocontinuous functor|coco
 ###### Proposition
 
 This join tensor product forms part of a [[closed monoidal category|closed monoidal structure]] on the category of
-augmented simplicial sets, [[asSet]] $ := Sets^{\Delta_a^{op}}$. The [[internal hom]] is given by
-$$[X, Y ]_n =asS(X; Dec^{n+1}Y )\,,$$
+[[augmented simplicial sets]], [[asSet]] $ \coloneqq Sets^{\Delta_a^{op}}$. The [[internal hom]] is given by
+$$
+  [X, Y ]_n 
+    = 
+  asS(X; Dec^{n+1}Y )
+  \,,
+$$
 where $Dec$ is the [[total décalage]] functor (see also at _[[décalage]]_).
 
 =--
@@ -410,7 +415,7 @@ where $Dec$ is the [[total décalage]] functor (see also at _[[décalage]]_).
 +-- {: .un_defn}
 ###### Definition
 
-For $S$ a simplicial set, let $\hat S$ denote the augmented simplicial set which equals $S$ in all degrees except in degree -1, where it is the point, $({\hat S})_{-1} = pt$. This is the **trivial augmentation** of $S$.
+For $S$ a simplicial set, let $\hat S$ denote the [[augmented simplicial set]] which equals $S$ in all degrees except in degree -1, where it is the point, $({\hat S})_{-1} = pt$. This is the **trivial augmentation** of $S$.
 
 =--
 
@@ -420,7 +425,7 @@ For $S$ a simplicial set, let $\hat S$ denote the augmented simplicial set which
 The **join** of two ordinary [[simplicial set]]s $S_1$ and $S_2$ is the join of their _trivial augmentation_ :
 
 $$
-  S_1 \star S_2 := {\hat S_1} \star {\hat S_2}
+  S_1 \star S_2 \coloneqq {\hat S_1} \star {\hat S_2}
   \,.
 $$
 
@@ -437,7 +442,7 @@ Note that the join operation is not commutative. This comes from the fact that t
 The join of two non-augmented simplicial sets is given by the formula
 
 $$
-  (S \star S')_n := S_n \cup S'_n \cup 
+  (S \star S')_n \coloneqq S_n \cup S'_n \cup 
    (\cup_{i+j = n-1} S_i \times S'_j)
   \,.
 $$
@@ -501,9 +506,9 @@ As an operation on simplicial sets, $S \star T$ merely commutes with connected c
 
 For $\{v\} = \Delta[0]$ the [[point]], a join with the point is called a **cone** with cone vertex $v$: for $S \in sSet$ we say
 
-* $S^\triangleleft := \{v\} \star S$ is the **cone** over $S$;  
+* $S^\triangleleft \coloneqq \{v\} \star S$ is the **cone** over $S$;  
 
-* $S^\triangleright :=  S \star \{v\}$ is the **co-cone** under $S$;  
+* $S^\triangleright \coloneqq  S \star \{v\}$ is the **co-cone** under $S$;  
 
 Universal images of cones and cocones over a fixed base $S$ in a [[quasi-category]] $C$ are [[limit in a quasi-category|limits and colimits in that quasi-category]].
 
@@ -612,8 +617,8 @@ $$
 ### Simplicial $n$-sphere
 
 Let $\partial \Delta[1] = \Delta[0] \sqcup \Delta[0]$ the **simplicial 0-sphere**: just the disjoint union of the point. Then the $n$-fold join of $\partial \Delta[1]$ with itself is a simplicial model for the $n$-sphere
-$$\mathbf{S}^0 := \partial \Delta[1]$$
-$$\mathbf{S}^n := \mathbf{S}^0 \star \mathbf{S}^{n-1}$$
+$$\mathbf{S}^0 \coloneqq \partial \Delta[1]$$
+$$\mathbf{S}^n \coloneqq \mathbf{S}^0 \star \mathbf{S}^{n-1}$$
 for $n \in \mathbb{N}$, $n \gt 0$. The [[geometric realization]] of $\mathbf{S}^n$ is equivalent to the topological $n$-sphere.
 
 See [Ehlers/Porter p. 8](http://arxiv.org/PS_cache/math/pdf/9904/9904039v1.pdf#page=8).
