@@ -4,21 +4,26 @@
 ###Context###
 #### Algebra
 +--{: .hide}
-[[!include higher algebra - contents]]
+[[!include algebra - contents]]
 =--
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
 
-Over non-[[commutative ring|commutative]] [[rings]] [[determinants]] are not useful invariants of [[matrix|matrices]] (in fact, various classical formulas for determinants mutually disagree in this case) and other [[polynomial]] suggestions were not of much success (in some cases the [[superdeterminant]] and [[Dieudonné determinant]] are of use, but they can be easily expressed in terms of quasideterminants anyway). Quasideterminants will be [[noncommutative rational function]]s, rather than polynomial, expressions. 
+Over [[ground rings]] which are not [[commutative ring|commutative]], the notion of *[[determinants]]* does not provide useful invariants of [[matrices]] (in fact, various classical formulas for determinants mutually disagree in this case). 
 
-A quasideterminant generalizes a ratio of $n\times n$-determinant and a $(n-1)\times(n-1)$ minor. Regarding that there are $n^2$ such minors -- complementary to each entry-- there are $n^2$ quasideterminants, indexed by labels of the complementary entry. Special cases when useful polynomial determinants are defined like the usual determinant, superdeterminant, quantum determinant and Dieudonné determinant can be obtained as products of quasideterminants.
+The notion of *quasideterminants* is meant to fix this: 
+these are [[noncommutative rational functions]] of the given matrix entries rather than [[polynomials]].
+
+Given an $n \times n$ matrix, its quasideterminants may be thought of as generalized ratios of an $n\times n$-determinant by an $(n-1)\times (n-1)$ [[minor]]. Since there are $n^2$ such [[minors]] -- one complementary to each entry -- there are $n^2$ quasideterminants. 
+
+Ordinary [[determinants]], but also [[superdeterminants]], [[quantum determinants]] and [[Dieudonné determinants]] can be expressed as products of quasideterminants.
+
 
 ## Definition
 
@@ -40,32 +45,42 @@ Up to $n^2$ quasideterminants of a given $A \in M_n(R)$
 may be defined. If all the $n^2$ quasideterminants $|A|_{ij}$ exist and are invertible then the [[inverse matrix]] $A^{-1}$ of $A$ exists in $M_n(R)$ and
 
 $$
-(|A|_{ji})^{-1} = (A^{-1})^i_j.
+  \big( {|A|}_{ji}\big)^{-1} = (A^{-1})^i_j.
 $$
 
 Quasideterminants for a matrix with entries in a commutative ring $R$ are, up to a sign,
 ratios of the determinant of the matrix and the determinant
 of the appropriate $(n-1)\times (n-1)$ submatrix, as one can see by remembering the formula for matrix inverse in terms of the cofactor matrices. For systems of linear equations with coefficients (from one side) in a noncommutative ring, there are solution formulas involving quasideterminants and generalizing Cramer's rule (hence left and right Cramer's rule). Quasideterminants with generic entries (entries in a free skewfield) satisfy generalizations of many classical identities: Muir's law of extensionality, Silvester's law, etc., and a new "heredity" principle and so-called "homological identities". Furthermore, for polynomial equations over noncommutative rings, noncommutative Viete's formulas have been found and used in applications.
 
+
 ## References
 
-Quasideterminants were introduced by I. Gel'fand and V. Retakh around 1990. 
+The original articles:
 
-* [[I. M. Gel'fand]], [[V. Retakh|V. S. Retakh]], _Determinants of matrices over noncommutative rings_, Funct.Anal.Appl. __25__ (1991), no.2, pp. 91--102.
-engl. transl. __21__ (1991), pp. 51--58. 
+* [[Israel M. Gel'fand]], [[Vladimir S. Retakh]]: _Determinants of matrices over noncommutative rings_, Funct. Anal. Appl. __25__ 2 (1991) 91--102 &lbrack;[doi:10.1007/BF01079588](https://doi.org/10.1007/BF01079588)&rbrack;
 
-* I.M. Gel'fand, V.S. Retakh, A theory of noncommutative determinants and characteristic functions of graphs, Funct.Anal.Appl. __26__ (1992), no.4, pp. 231--246.
+* [[Israel M. Gel'fand]], [[Vladimir S. Retakh]]: *A theory of noncommutative determinants and characteristic functions of graphs*, Funct. Anal. Appl. __26__ 4 (1992) 231--246 &lbrack;[doi:10.1007/BF01075044](https://doi.org/10.1007/BF01075044)&rbrack;
 
-* I.M. Gel'fand, V.S. Retakh, _Quasideterminants I_, Selecta Mathematica, N. S. 3 (1997) no.4, pp. 517--546; [doi](https://doi.org/10.1007/s000290050019)
+* [[Israel M. Gel'fand]], [[Vladimir S. Retakh]]: _Quasideterminants I_, Selecta Mathematica, N. S. **3** 4 (1997) 517--546 &lbrack;[doi:10.1007/s000290050019](https://doi.org/10.1007/s000290050019)&rbrack;
 
-* [[Israel Gelfand]], Sergei Gelfand, [[Vladimir Retakh]], Robert Lee Wilson, _Quasideterminants_, Advances in Mathematics 193 (2005) 56--141 [doi](https://doi.org/10.1016/j.aim.2004.03.018)
+Review:
 
-* D.Krob, [[Bernard Leclerc]], _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. 169 (1995) 1--23 [doi](https://doi.org/10.1007/BF02101594)
-arXiv:[hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)
+* [[Israel M. Gelfand]], [[Sergei Gelfand]], [[Vladimir S. Retakh]], [[Robert Lee Wilson]]: _Quasideterminants_, Advances in Mathematics **193** (2005) 56--141 &lbrack;[doi:10.1016/j.aim.2004.03.018](https://doi.org/10.1016/j.aim.2004.03.018)&rbrack;
 
-* Chapter 16: Quasideterminants and Cohn localization in [[Z. Škoda]], _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series 330, ed.  A. Ranicki; pp. 220--313, [arXiv:math.QA/0403276](http://arxiv.org/abs/math/0403276))
+* [[Vladimir S. Retakh]], [[Robert Lee Wilson]]: _Advanced course on quasideterminants and universal localization_, CRM Barcelona, (2007) &lbrack;[[RetakhWilson-Quasideterminants.pdf:file]]&rbrack;
 
-* [[V. Retakh]], R. Wilson, _Advanced course on quasideterminants and universal localization_ (2007) &lbrack;[[RetakhWilson-Quasideterminants.pdf:file]]&rbrack; 
+See also: 
+
+* Wikipedia: *[Quasideterminant](https://en.wikipedia.org/wiki/Quasideterminant)*
+
+Further discussion:
+
+* [[Israel Gelfand]], [[Daniel Krob]], Alain Lascoux, [[Bernard Leclerc]], [[Vladimir S. Retakh]], J.-Y. Thibon: _Noncommutative symmetric functions_, Adv. in Math. __112__ 2 (1995) 218--348 &lbrack;[arXiv:hep-th/9407124](https://arxiv.org/abs/hep-th/9407124), [doi:10.1006/aima.1995.1032](https://doi.org/10.1006/aima.1995.1032)&rbrack;
+
+* [[Daniel Krob]], [[Bernard Leclerc]]: _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. **169** (1995) 1-23 &lbrack;[doi:10.1007/BF02101594](https://doi.org/10.1007/BF02101594), [arXiv:hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)&rbrack;
+
+* [[Zoran Škoda]]: *Quasideterminants and Cohn localization*, Chapter 16 in: _Noncommutative localization in noncommutative geometry_, London Math. Society Lecture Note Series **330** (2006) 220--310 &lbrack;[arXiv:math.QA/0403276](http://arxiv.org/abs/math/0403276), [doi:10.1017/CBO9780511526381.015](https://doi.org/10.1017/CBO9780511526381.015)&rbrack;
+
 
 category: algebra
 
