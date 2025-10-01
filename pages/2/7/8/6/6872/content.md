@@ -1,10 +1,15 @@
-_Bernard Leclerc_ is a mathematician at Universit&#233; de Caen. His specialties include [[algebraic combinatorics]] and [[representation theory]].
+_Bernard Leclerc_ is a mathematician at Universit&#233; de Caen. His specialties include [[algebra|algebraic]] [[combinatorics]] and [[representation theory]].
 
 * [homepage](http://www.math.unicaen.fr/~leclerc)
 
 ## Selected works
 
-* Daniel Krob, Bernard Leclerc, _Minor identities for [[quasi-determinant]]s and [[quantum determinant]]s_, Comm. Math. Phys. 169 (1995) 1--23 [doi](https://doi.org/10.1007/BF02101594) arXiv:[hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)
+On [[quasideterminants]] and [[quantum determinants]]:
+
+* [[Israel Gelfand]], [[Daniel Krob]], Alain Lascoux, [[Bernard Leclerc]], [[Vladimir S. Retakh]], J.-Y. Thibon: _Noncommutative symmetric functions_, Adv. in Math. __112__ 2 (1995) 218--348 &lbrack;[arXiv:hep-th/9407124](https://arxiv.org/abs/hep-th/9407124), [doi:10.1006/aima.1995.1032](https://doi.org/10.1006/aima.1995.1032)&rbrack;
+
+* [[Daniel Krob]], [[Bernard Leclerc]], _Minor identities for quasi-determinants and quantum determinants_, Comm. Math. Phys. **169** (1995) 1-23 &lbrack;[doi:10.1007/BF02101594](https://doi.org/10.1007/BF02101594), [arXiv:hep-th/9411194](https://arxiv.org/pdf/hep-th/9411194)&rbrack;
+
 
 On noncommutative symmetric functions
 
