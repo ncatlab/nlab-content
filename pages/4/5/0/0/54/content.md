@@ -63,6 +63,12 @@ Projects:
 
 \linebreak
 
+* *[[schreiber:Renormalization of Wilson Loops|Renormalization and Complete QFTs]]* 
+
+  talk at [Oberwolfach](https://www.mfo.de/) Mini-Workshop 2539b: \linebreak *[Renormalization and Randomness](https://www.mfo.de/occasion/2539b/www_view)* 
+
+  video invitation: [YT](https://youtu.be/wfWkKC1IU5Q)
+
 \begin{imagefromfile}
     "file_name": "FQH-QuantumPhotonics-Poster.png",
     "float": "right",
@@ -84,7 +90,7 @@ Projects:
 
   talk at *[QMATH16](https://sites.google.com/view/qmath16/)*, Munich (1-5 Sep 2025)
 
-  sides: [pdf](/schreiber/files/Schreiber-QMATH16-250904.pdf), draft video: [yt](https://youtu.be/rZDMkgEZQhY)
+  slides: [pdf](/schreiber/files/Schreiber-QMATH16-250904.pdf), draft video: [yt](https://youtu.be/rZDMkgEZQhY)
 
 * **[[schreiber:ISQS29|Non-Lagrangian construction of abelian CS/FQH-Theory via Flux Quantization in 2-Cohomotopy]]**
 
