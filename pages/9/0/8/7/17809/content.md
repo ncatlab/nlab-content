@@ -68,8 +68,7 @@ Given that [[supergroups]] themselves are mathematically singled out by [[Delign
 this shows that spacetime [[supersymmetry]] is not an ad-hoc concept and is of intrinsic interest independently of debated speculations on
 its realization at the (comparatively "low") [[electroweak symmetry breaking|electroweak energy scale]] in the [[observable universe]].
 
-(In fact [superconformal symmetry](supersymmetry#ClassificationSuperconformal) has an even more rigid classification:
-it exists only in dimensions 3,4,5, and 6, where it turns out to form the local super-symmetry groups
+(In fact [superconformal symmetry](supersymmetry#ClassificationSuperconformal) has an even more rigid classification: it exists only in dimensions 3, 4, 5, and 6, where it turns out to form the local super-symmetry groups
 appearing in the _[[AdS-CFT correspondence]]_.)
 
 
@@ -2094,7 +2093,7 @@ $$
 +-- {: .num_prop #TheMajoranaConditionInComponents}
 ###### Proposition
 
-In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{(2^\nu)}$ is a real spinor according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
+In dimensions $d = 4, 8, 9, 10, 11$ a spinor $\psi \in \mathbb{C}^{(2^\nu)}$ is a real spinor according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
 
 $$
   \psi = C \Gamma_0^T \psi^\ast
@@ -3657,7 +3656,8 @@ $$
 
 
 
-#### Spacetime in dimensions 3,4,6 and 10
+#### Spacetime in dimensions 3, 4, 6 and 10
+ {#SpacetimeInDim3And4And6And10} 
 
 We discuss how [[Minkowski spacetime]] of dimension 3,4,6 and 10 is naturally expressed in terms of the
 real [[normed division algebras]] $\mathbb{K}$ from prop. \ref{HurwitzTheorem}, equivalently the
@@ -4347,7 +4347,7 @@ $$
 
 
 
-#### Real spinors  in dimensions 4,5,7 and 11
+#### Real spinors  in dimensions 4, 5, 7 and 11
   {#InTermsOfNormedDivisionAlgebraInDimension4To11}
 
 
@@ -5498,7 +5498,7 @@ $$
   \right)
 $$
 
-then the pairing is the claimed one (see at _[supersymmetry -- in dimensions 3,4,6,10](https://ncatlab.org/nlab/show/geometry+of+physics+--+supersymmetry#InTermsOfNormedDivisionAlgebraInDimension3To10)_).
+then the pairing is the claimed one (see at _[supersymmetry -- in dimensions 3, 4, 6, 10](https://ncatlab.org/nlab/show/geometry+of+physics+--+supersymmetry#InTermsOfNormedDivisionAlgebraInDimension3To10)_).
 
 =--
 
