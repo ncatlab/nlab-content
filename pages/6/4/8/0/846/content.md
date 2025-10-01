@@ -14,13 +14,15 @@
 
 ## Idea
 
-The **join** $S \star T$ of a [[pair]] $S, T$ of [[simplicial set]] is a simplicial set that may geometrically be thought of as a [[cone]] over $T$ with tip of shape $S$. Topologically, it can also be thought of as the union of line segments connecting $S$ to $T$ if both are placed in general position. 
+The **join** $S \star T$ of a [[pair]] $S, T$ of [[simplicial set]] ([Ehlers 1993](#Ehlers93)) is a simplicial set that may geometrically be thought of as a [[cone]] over $T$ with tip of shape $S$. Topologically, it can also be thought of as the union of line segments connecting $S$ to $T$ if both are placed in general position, cf. *[[join of topological spaces]]*.
 
-If the simplicial sets in question are [[quasi-categories]], then their join produces the xorresponding *[[join of quasi-categories]]* that underlies many constructions in [[higher category theory]], such as the definition of *[[limit in a quasi-category]]*.
+The join operation on [[simplicial sets]] generalizes the historically earlier notion of join of [[simplicial complexes]], cf. [Spanier 1966](#Spanier66). It is naturally discussed in view of [[augmented simplicial sets]] &lbrack;[Ehlers & Porter 2000](#EhlersPorter00)&rbrack;
 
-The join oprtation on [[simplicial sets]] generalizes the historically earlier notion of join of [[simplicial complexes]], cf. [Spanier 1966](#Spanier66).
+If the simplicial sets in question are [[quasi-categories]], then their join produces the corresponding *[[join of quasi-categories]]* that underlies many constructions in [[higher category theory]], such as a definition of *[[limits in quasi-categories]]*.
 
-The adaptation of this to simplicial sets reveals a neat link with some categorical structure in the category $\Delta_a$ of finite ordinals (including the empty one).  
+
+
+
 
 
 ## Motivating examples
@@ -709,13 +711,13 @@ The historical predecessor notion of the join of [[simplicial complexes]]:
 
 Early discussion of the join operation on simplicial sets:
 
-* [[Philip J. Ehlers]], *Algebraic Homotopy in Simplicially Enriched Groupoids*, PhD thesis, University of Wales Bangor (1993) &lbrack;[[Ehlers-thesis.pdf|pdf:file]]&rbrack;
+* {#Ehlers93} [[Philip J. Ehlers]], *Algebraic Homotopy in Simplicially Enriched Groupoids*, PhD thesis, University of Wales Bangor (1993) &lbrack;[[Ehlers-thesis.pdf|pdf:file]]&rbrack;
 
 attributed there to unpublished notes of [[Jack Duskin]] and [[Don van Osdol]].  
 
-Published discussion:
+Published discussion, relating to [[augmented simplicial sets]]:
 
-* [[Phil Ehlers]], [[Tim Porter]]: *Joins for (Augmented) Simplicial Sets*. Journal of Pure and Applied Algebra **145** 1 (2000) 37-44 \[<a href="https://doi.org/10.1016/S0022-4049(98)00065-6">doi:10.1016/S0022-4049(98)00065-6</a>, [arxiv:math/9904039](https://arxiv.org/abs/math/9904039)\]
+* {#EhlersPorter00} [[Phil Ehlers]], [[Tim Porter]]: *Joins for (Augmented) Simplicial Sets*. Journal of Pure and Applied Algebra **145** 1 (2000) 37-44 \[<a href="https://doi.org/10.1016/S0022-4049(98)00065-6">doi:10.1016/S0022-4049(98)00065-6</a>, [arxiv:math/9904039](https://arxiv.org/abs/math/9904039)\]
 
 
 Discussion emphasizing relation to [[Day convolution]] 
