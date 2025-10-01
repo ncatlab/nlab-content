@@ -9,9 +9,8 @@
 =--
 =--
 
-# Augmented simplicial sets
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -153,8 +152,8 @@ $$
 
 ## References
 
-* [[Phil Ehlers]], [[Tim Porter]]. *Joins for (Augmented) Simplicial Sets*. Journal of Pure and Applied Algebra
-Volume 145, Issue 1, 5 January 2000, Pages 37-44. ([arxiv:math/9904039](https://arxiv.org/abs/math/9904039)). ([doi](https://doi.org/10.1016/S0022-4049(98)00065-6)).
+* [[Phil Ehlers]], [[Tim Porter]]: *Joins for (Augmented) Simplicial Sets*. Journal of Pure and Applied Algebra **145** 1 (2000) 37-44 \[<a href="https://doi.org/10.1016/S0022-4049(98)00065-6">doi:10.1016/S0022-4049(98)00065-6</a>, [arxiv:math/9904039](https://arxiv.org/abs/math/9904039)\]
+
 
 
 [[!redirects augmented simplicial set]]
