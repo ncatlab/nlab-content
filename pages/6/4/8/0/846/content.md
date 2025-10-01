@@ -9,9 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -705,23 +703,22 @@ This is [[Higher Topos Theory|HTT, corollary 4.2.1.4]].
 
 ## References
 
-The join operation was studied by P. J. Ehlers, in his thesis
+Early discussion of the join operation:
 
-* _Algebraic Homotopy in Simplicially Enriched Groupoids_, 1993, 
-University of Wales Bangor, available [[Ehlers-thesis.pdf|here:file]], (see also the reference below and the Menagerie notes available from [[Tim Porter]]'s homepage.),
+* [[Philip J. Ehlers]], *Algebraic Homotopy in Simplicially Enriched Groupoids*, PhD thesis, University of Wales Bangor (1993) &lbrack;[[Ehlers-thesis.pdf|pdf:file]]&rbrack;
 
-but was there ascribed to [[Jack Duskin]] and [[Don van Osdol]] in some unpublished notes.  The main ideas were derived there from earlier work of [[Bill Lawvere]].
+attributed there to unpublished notes of [[Jack Duskin]] and [[Don van Osdol]].  
 
-A useful published reference is
+Published discussion:
 
-* [[Phil Ehlers|P. J. Ehlers]] and [[Tim Porter]], _Joins for (Augmented) Simplicial Sets_,  Jour. Pure Applied Algebra, 145 (2000) 37-44, ([arXiv](http://arxiv.org/abs/math.CT/9904039)) .
-
-A useful discussion emphasizing the Day convolution operation is also in section 3.1 of
-
-* [[Dominic Verity]], _Weak complicial sets I_ ([arXiv](http://arxiv.org/abs/math/0604414))
-
-Discussion in [[homotopy type theory]] (with application to [[n-image]] factorization) is in
+* [[Phil Ehlers]], [[Tim Porter]]: *Joins for (Augmented) Simplicial Sets*. Journal of Pure and Applied Algebra **145** 1 (2000) 37-44 \[<a href="https://doi.org/10.1016/S0022-4049(98)00065-6">doi:10.1016/S0022-4049(98)00065-6</a>, [arxiv:math/9904039](https://arxiv.org/abs/math/9904039)\]
 
 
-* {#Rijke17} [[Egbert Rijke]], _The join construction_ ([arXiv:1701.07538](https://arxiv.org/abs/1701.07538))
+Discussion emphasizing relation to [[Day convolution]] 
+
+* [[Dominic Verity]], section 3.1 of: _Weak complicial sets I_ &lbrack;[arXiv:math/0604414](http://arxiv.org/abs/math/0604414)&rbrack;
+
+Discussion in [[homotopy type theory]] (with application to [[n-image]] factorization):
+
+* {#Rijke17} [[Egbert Rijke]], _The join construction_ &lbrack;[arXiv:1701.07538](https://arxiv.org/abs/1701.07538)&rbrack;
 
