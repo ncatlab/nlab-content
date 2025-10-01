@@ -1060,6 +1060,12 @@ Review:
 
 * {#MezeiPufuWang17} [[Márk Mezei]], [[Silviu S. Pufu]], Yifan Wang: *Chern-Simons theory from M5-branes and calibrated M2-branes*,  J. High Energ. Phys. **2019** 165 (2019) \[<a href="https://doi.org/10.1007/JHEP08(2019)165">doi:10.1007/JHEP08(2019)165</a>, [arXiv:1812.07572](https://arxiv.org/abs/1812.07572)\]
 
+Alternative discussion via [[geometry of physics -- flux quantization|proper flux quantization]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cohomotopy and Framed Links|Cohomotopy, Framed Links, and Abelian Anyons]]* &lbrack;[arXiv:2408.11896](https://arxiv.org/abs/2408.11896)&rbrack;
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Renormalization of Wilson Loops|Renormalization of Wilson Loop Observables via Proper Flux Quantization in Cohomotopy]]* &lbrack;[arXiv:2509.25336](https://arxiv.org/abs/2509.25336)&rbrack;
+
 
 
 
