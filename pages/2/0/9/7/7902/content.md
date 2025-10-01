@@ -166,6 +166,12 @@ Review:
 
 * {#Kaul99} [[Romesh K. Kaul]], section 3 of: *Topological Quantum Field Theories -- A Meeting Ground for Physicists and Mathematicians* &lbrack;[arXiv:hep-th/9907119](https://arxiv.org/abs/hep-th/9907119)&rbrack;
 
+Alternative discussion via [[geometry of physics -- flux quantization|proper flux quantization]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Cohomotopy and Framed Links|Cohomotopy, Framed Links, and Abelian Anyons]]* &lbrack;[arXiv:2408.11896](https://arxiv.org/abs/2408.11896)&rbrack;
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Renormalization of Wilson Loops|Renormalization of Wilson Loop Observables via Proper Flux Quantization in Cohomotopy]]* &lbrack;[arXiv:2509.25336](https://arxiv.org/abs/2509.25336)&rbrack;
+
 Discussion generalizing to the case of [[nonabelian group|nonabelian]] [[gauge groups]]:
 
 * [[Atle Hahn]], section 9 of: *Chern–Simons theory on $\mathbb{R}^3$ in axial gauge: a rigorous approach*, Journal of Functional Analysis **211** 2 (2004) 483-507 &lbrack;[doi:10.1016/j.jfa.2004.01.006](https://doi.org/10.1016/j.jfa.2004.01.006)&rbrack;
