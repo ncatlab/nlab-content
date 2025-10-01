@@ -152,6 +152,8 @@ $$
 
 ## References
 
+On the [[join of simplicial sets]] in the generality of augmented simplicial sets:
+
 * [[Phil Ehlers]], [[Tim Porter]]: *Joins for (Augmented) Simplicial Sets*. Journal of Pure and Applied Algebra **145** 1 (2000) 37-44 \[<a href="https://doi.org/10.1016/S0022-4049(98)00065-6">doi:10.1016/S0022-4049(98)00065-6</a>, [arxiv:math/9904039](https://arxiv.org/abs/math/9904039)\]
 
 
