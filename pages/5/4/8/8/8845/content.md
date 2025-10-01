@@ -2,9 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Super-Algebra and Super-Geometry
+#### Super-Algebra
 +--{: .hide}
 [[!include supergeometry - contents]]
+=--
+#### Linear algebra
++-- {: .hide}
+[[!include higher linear algebra - contents]]
 =--
 =--
 =--
@@ -20,9 +24,15 @@ The notion of _super determinant_ or _Berezinian_ is the generalization of the n
 
 ## Related entries
 
-* [[supergeometry]], [[quasideterminant]], [[supertrace]]
+* [[supertrace]]
+
+* [[quasideterminant]]
 
 * [[Berezin integral]]
+
+* [[supergeometry]]
+
+
 
 ## References
 
