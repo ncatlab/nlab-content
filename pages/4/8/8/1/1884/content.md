@@ -2784,23 +2784,29 @@ Textbook accounts:
 
 Further introductions:
 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]]: _[[Spin geometry]]_, Princeton University Press (1989)
 
-* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 9 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 9 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) &lbrack;[toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)&rbrack;
 
-* {#Courtney04} Dennis Courtney, _A brief glance atK-theory_, 2004 ([pdf](https://math.berkeley.edu/~hutching/teach/215b-2004/courtney.pdf))
+* {#Courtney04} Dennis Courtney, _A brief glance atK-theory_ (2004) &lbrack;[pdf](https://math.berkeley.edu/~hutching/teach/215b-2004/courtney.pdf)&rbrack;
 
-* {#Karoubi06} [[Max Karoubi]], _K-theory. An elementary introduction_, lectures given at the Clay Mathematics Academy ([arXiv:math/0602082](https://arxiv.org/abs/math/0602082))
+* {#Karoubi06} [[Max Karoubi]]: _K-theory. An elementary introduction_, lectures given at the Clay Mathematics Academy &lbrack;[arXiv:math/0602082](https://arxiv.org/abs/math/0602082)&rbrack;
 
-* {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_ (emphasis on [[algebraic K-theory]]), 2007 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
+* {#Friedlander} [[Eric Friedlander]]: _An introduction to K-theory_ (2007) &lbrack;[pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf)&rbrack;
+  > (focus on [[algebraic K-theory]])
 
-* {#Karpova09} [[Varvara Karpova]], _Complex topological K-theory_, 2009  ([pdf](http://infoscience.epfl.ch/record/162450/files/karpova.semestre.hess2.pdf), [[KarpovaTopologicalKTheory.pdf:file]])
+* {#Karpova09} [[Varvara Karpova]]: _Complex topological K-theory_ (2009)  &lbrack;[pdf](http://infoscience.epfl.ch/record/162450/files/karpova.semestre.hess2.pdf), [[KarpovaTopologicalKTheory.pdf:file]]&rbrack;
 
-* {#Blair09} Chris Blair, _Some K-theory examples_, 2009 ([pdf](http://www.maths.tcd.ie/~cblair/notes/kex.pdf))
+* {#Blair09} Chris Blair: _Some K-theory examples_ (2009) &lbrack;[pdf](http://www.maths.tcd.ie/~cblair/notes/kex.pdf)&rbrack;
 
-* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([[wirthmueller-vector-bundles-and-k-theory.pdf:file]])
+* Ioannis P. Zois: *18 Lectures on K-Theory* &lbrack;[arXiv:1008.1346](https://arxiv.org/abs/1008.1346)&rbrack;
 
-* Aderemi Kuku, _Introduction to K-theory and some applications_ ([pdf](https://www.math.ksu.edu/~zlin/kuku/Intro-Kthy.pdf))
+* {#Wirthmuller12} [[Klaus Wirthmüller]]: _Vector bundles and K-theory_ (2012) &lbrack;[[wirthmueller-vector-bundles-and-k-theory.pdf:file]]&rbrack;
+
+* Aderemi Kuku: _Introduction to K-theory and some applications_ &lbrack;[pdf](https://www.math.ksu.edu/~zlin/kuku/Intro-Kthy.pdf)&rbrack;
+
+
+
 
 A textbook account of topological K-theory with an eye towards [[operator K-theory]] is section 1 of
 
