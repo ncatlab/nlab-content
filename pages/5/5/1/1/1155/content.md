@@ -16,9 +16,9 @@
 
 ## Idea
 
-_Combinatorial spectra_ is to [[spectra]] of [[topological spaces]] as a [[simplicial sets]] are to [[topological spaces]]: 
+_Combinatorial spectra_ are to [[spectra]] of [[topological spaces]] as [[simplicial sets]] are to [[topological spaces]]: 
 
-Combinatorial spectra are [[graded sets]] that behaves like a set of [[simplices]] constituting a space, but such that the simplices are not just in [[natural number|non-negative]] degree $n \in \mathbb{N}$ but in all [[integer|integral]] degrees $n \in \mathbb{Z}$, hence including negative degrees.
+Combinatorial spectra are [[graded sets]] that behave like a set of [[simplices]] constituting a space, but such that the simplices are not just in [[natural number|non-negative]] degree $n \in \mathbb{N}$ but in all [[integer|integral]] degrees $n \in \mathbb{Z}$, hence including negative degrees.
 
 ## Definition
 
