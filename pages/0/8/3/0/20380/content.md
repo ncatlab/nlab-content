@@ -70,7 +70,7 @@ $$
   Spin(8)/_{\iota} \mathbb{Z}_2
 $$
 
-(e.g. [McInnes 99a, p. 9](#McInnes99a))
+(cf. [McInnes 1999a, p. 9](#McInnes99a))
 
 ### SemiSpin(16)
 
