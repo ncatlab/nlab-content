@@ -5,7 +5,7 @@
 
 ## Idea
 
-The notion of [[projective space]] $\mathbb{O}P^n$ over the [[octonions]] $\mathbb{O}$ makes sense for $n \,\in\, \{ 0,1,2 \}$ (but not beyond, see e.g. [Voelkel 16, Sec. 1.3](#Voelkel16)).
+The notion of [[projective space]] $\mathbb{O}P^n$ over the [[octonions]] $\mathbb{O}$ makes sense for $n \,\in\, \{ 0,1,2 \}$ (but not beyond, cf. [Voelkel 2016, Sec. 1.3](#Voelkel16)).
 The [[octonionic projective plane]] $\mathbb{O}P^2$ is also called the *Cayley projective plane*.
 
 
@@ -41,9 +41,7 @@ between the [[octonionic projective plane]] and the [[attaching space]] obtained
 
 =--
 
-([Lackmann 19, Lemma 3.4.](#Lackmann19))
-
-([Mimura 67, page 166](#Mimura67))
+([Lackmann 2019, Lemma 3.4.](#Lackmann19), [Mimura 1967, page 166](#Mimura67))
 
 See also at _[[cell structure of projective spaces]]_.
 
@@ -106,7 +104,7 @@ $$\pi_{23}\big(\mathbb{O}P^2\big)
 +-- {: .num_prop #OrdinaryCohomologyOfOctonionicProjectivePlane}
 ###### Proposition
 
-For $A \in $ [[Ab]] any [[abelian group]], then the [[ordinary cohomology]] [[cohomology groups|groups]] of octionionic projective plane $\mathbb{O}P^2$ with [[coefficients]] in $A$ are
+For $A \in $ [[Ab]] any [[abelian group]], then the [[ordinary cohomology]] [[cohomology groups|groups]] of octonionic projective plane $\mathbb{O}P^2$ with [[coefficients]] in $A$ are
 
 $$
   H^k(\mathbb{O}P^2,A)
@@ -123,15 +121,15 @@ $$
 
 =--
 
-([Lackmann 19, Corollary 4.1.](#Lackmann19))
+([Lackmann 2019, Corollary 4.1.](#Lackmann19))
 
 ## References
 
-* {#Lackmann19} [[Malte Lackmann]], _The octonionic projective plane_, in MATRIX Book Series **4**, Springer (2021) &lbrack;[doi:10.1007/978-3-030-62497-2_6](https://doi.org/10.1007/978-3-030-62497-2_6), [arXiv:1909.07047](https://arxiv.org/abs/1909.07047)&rbrack;
+* {#Lackmann19} [[Malte Lackmann]]: _The octonionic projective plane_, in MATRIX Book Series **4**, Springer (2021) &lbrack;[doi:10.1007/978-3-030-62497-2_6](https://doi.org/10.1007/978-3-030-62497-2_6), [arXiv:1909.07047](https://arxiv.org/abs/1909.07047)&rbrack;
 
-* {#Voelkel16} [[Konrad Voelkel]], _Motivic cell structures for projective spaces over split quaternions_, 2016 &lbrack;[freidok:11448](https://freidok.uni-freiburg.de/data/11448), [pdf](https://freidok.uni-freiburg.de/fedora/objects/freidok:11448/datastreams/FILE1/content)&rbrack;
+* {#Voelkel16} [[Konrad Voelkel]]: _Motivic cell structures for projective spaces over split quaternions_, 2016 &lbrack;[freidok:11448](https://freidok.uni-freiburg.de/data/11448), [pdf](https://freidok.uni-freiburg.de/fedora/objects/freidok:11448/datastreams/FILE1/content)&rbrack;
 
-* Rowena Held, Iva Stavrov, Brian VanKoten, _(Semi-)Riemannian geometry of (para-)octonionic projective planes_, Diff. Geom. & its Appl. __27__ 4 (2009) 464-481 &lbrack;[doi:/10.1016/j.difgeo.2009.01.007](https://doi.org/10.1016/j.difgeo.2009.01.007)&rbrack;
+* Rowena Held, Iva Stavrov, Brian VanKoten: _(Semi-)Riemannian geometry of (para-)octonionic projective planes_, Diff. Geom. & its Appl. __27__ 4 (2009) 464-481 &lbrack;[doi:/10.1016/j.difgeo.2009.01.007](https://doi.org/10.1016/j.difgeo.2009.01.007)&rbrack;
 
 * {#Mimura67} Mamoru Mimura, _The Homotopy groups of Lie groups of low rank_, J. Math. Kyoto Univ. **6** 2 (1967) 131-176 &lbrack;[doi:10.1215/kjm/1250524375](https://doi.org/10.1215/kjm/1250524375)&rbrack;
 
