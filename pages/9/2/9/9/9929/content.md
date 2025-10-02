@@ -13,10 +13,8 @@
 =--
 =--
 
+\tableofcontents
 
-#Contents#
-* table of contents$X$ 
-{:toc}
 
 ## Idea
 
