@@ -28,7 +28,7 @@ Generally, for $E$ an [[E-∞ ring]] [[spectrum]], and $P \to X$ a [[sphere spec
 
 Specifically, for $P = Th(V)$ the [[Thom space]] of a [[vector bundle]] $V \to X$, an $E$-orientation of $V$ is an $E$-orientation of $P$.
 
-More generally, for $A$ an $E$-algebra spectrum, an $E$-bundle is $A$-orientable if the associated $A$-bundle is trivializable. For more on this see [[(∞,1)-vector bundle]].
+More generally, for $A$ an $E$-algebra spectrum, an $E$-bundle is $A$-orientable if the associated $A$-bundle is trivializable. For more on this see at *[[(∞,1)-vector bundle]]*.
 
 The existence of an $E$-orientation is necessary in order to have a notion of [[fiber integration]] in $E$-cohomology.
 
@@ -46,7 +46,7 @@ The existence of an $E$-orientation is necessary in order to have a notion of [[
 Let $E$  be a [[multiplicative cohomology theory]] and let $V \to X$ be a topological [[vector bundle]] of [[rank]] $n$. Then an **$E$-orientation** or **$E$-[[Thom class]]** on $V$ is an element of degree $n$ 
 
 $$
-  u \in \tilde E^n(Th(V))
+  u \in \tilde E^n\big(Th(V)\big)
 $$ 
 
 in the [[reduced cohomology|reduced]] $E$-[[cohomology ring]] of the [[Thom space]] of $V$, such that for every point $x \in X$ its [[pullback in cohomology|restriction]] $i_x^* u$ along 
