@@ -1,5 +1,5 @@
 
-> not to be confused with the [[Hurewicz theorem]].
+> Beware that there is also the *[[Hurewicz theorem]]*.
 
 ***
 
@@ -19,7 +19,7 @@
 
 ## Statement
 
-The only Euclidean [[composition algebras]] / [[division algebra|division]] [[composition algebras]] over the [[real numbers]] (i.e. real [[normed division algebras]]) are, up to [[isomorphism]], the algebras of
+The only Euclidean [[composition algebras]] / [[division algebra|division]] [[composition algebras]] over the [[real numbers]] (i.e. [[real numbers|real]] [[normed division algebras]]) are, up to [[isomorphism]], the algebras of:
 
 1. [[real numbers]]
 
@@ -120,3 +120,6 @@ Due to [[Adolf Hurwitz]] (1859&#8211;1919), published posthumously in 1923.
 [[!redirects generalised Hurwitz’s Theorem]]
 [[!redirects generalised Hurwitz\'s theorem]]
 [[!redirects generalised Hurwitz\'s Theorem]]
+
+[[!real normed division algebra]]
+[[!real normed division algebras]]
