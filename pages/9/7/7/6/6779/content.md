@@ -1,5 +1,5 @@
 
-> Not to be confused with the [[Hurwitz theorem]].
+> Beware that there is also the *[[Hurwitz theorem]]*.
 
 ***
 
