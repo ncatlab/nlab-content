@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -20,7 +19,7 @@ A [[vector bundle]] with [[fibers]] [[quaternionic vector spaces]].
 
 ## Related concepts
 
-* [[real vector bundle]], [[complex vector bundle]]
+* [[real vector bundle]], [[complex vector bundle]], [[octonionic line bundle]]
 
 * [[quaternionic oriented cohomology theory]]
 
