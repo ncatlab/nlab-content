@@ -737,7 +737,7 @@ Annals of Mathematics, Second Series, Vol. 20, No. 3 (Mar., 1919), pp. 155-171 (
 
 Review:
 
-* {#Baez02} [[John Baez]]: *The Octonions*,  Bull. Amer. Math. Soc. **39** (2002) 145-205. &lbrack;[web](http://math.ucr.edu/home/baez/octonions/octonions.html), [pdf](http://math.ucr.edu/home/baez/octonions/octonions.pdf) [doi:10.1090/S0273-0979-01-00934-X](https://doi.org/10.1090/S0273-0979-01-00934-X)&rbrack;
+* {#Baez02} [[John Baez]]: *The Octonions*,  Bull. Amer. Math. Soc. **39** (2002) 145-205. &lbrack;[web](http://math.ucr.edu/home/baez/octonions/octonions.html), [pdf](http://math.ucr.edu/home/baez/octonions/octonions.pdf), [doi:10.1090/S0273-0979-01-00934-X](https://doi.org/10.1090/S0273-0979-01-00934-X)&rbrack;
 
 * [[Tevian Dray]]: *The Geometry of Octonions*, talk slides &lbrack;[pdf](https://sites.science.oregonstate.edu/~tevian/talks/PSUpub.pdf), [[Dray-GeometryOctonions.pdf:file]]&rbrack;
 
