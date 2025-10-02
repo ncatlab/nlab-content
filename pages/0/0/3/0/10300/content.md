@@ -1,7 +1,16 @@
-# Projective planes
 
-* table of contents
-{: toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
 
 ## Idea
 
@@ -64,13 +73,19 @@ If Desargues' theorem fails, then we can still construct a sort of algebraic str
 
 * [[octonionic projective plane]]
 
+
 ## Related pages
 
 * [[projective line]]
 
+* [[infinite projective space]]
 
 
 ## References
 
-* A. Kryftis, _A constructive approach to projective and affine planes_ , PhD Cambridge 2015. ([arXiv:1601.04998](http://arxiv.org/abs/1601.04998))
+* A. Kryftis: _A constructive approach to projective and affine planes_, PhD thessis, Cambridge (2015) &lbrack;[arXiv:1601.04998](http://arxiv.org/abs/1601.04998)&rbrack;
+
+
 [[!redirects projective planes]]
+
+
