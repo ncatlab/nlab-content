@@ -6,7 +6,22 @@
 
 ***
 
-**Quaternionic Ravenel Orientation of Equivariant Complex K-theory**
+
+
+
+
+**Quaternionic Ravenel Orientation of Orbi-K-theory and M5 charges**
+
+In theoretical physics, both Chern phases of topological quantum materials as well as brane charges on 11D supergravity orbifolds have famously been argued to be classified by (equivariant) topological K-theory, or possibly by other complex-oriented stable cohomology theories, such as elliptic cohomology or stable Cobordism. However, closer inspection has revealed the more fine-grained "fragile" classification in both cases to plausibly be in (equivariant) Cohomotopy, which is the primordial "unstable" and non-abelian generalized cohomology. Coarsening should hence take the latter to the former along a kind of extraordinary character map. 
+
+Concretely, the 
+
+
+Proper flux quantization of probe M5-branes exists
+
+
+
+\linebreak
 
 A universal [[real oriented cohomology theory|real]], [[complex oriented cohomology theory|complex]] or [[quaternionic oriented cohomology theory|quaternionic]] "[[orientation in generalized cohomology|orientation]]" of ([[vector bundles]] in) a [[multiplicative cohomology theory|multiplicative]]$\;$[[generalized cohomology theory]] is well-known to be a [[cohomology class|class]] on [[infinite projective space|$\mathbb{K}P^\infty$]] which restricts to [[unit|unity]] on [[projective line|$\mathbb{K}P^1$]], for [[real normed division algebra|$\mathbb{K} \in 
 \{$]][[real numbers|$\mathbb{R}$]], [[complex numbers|$\mathbb{C}$]], [[quaternions|$\mathbb{H}$]]$\}$, respectively. Over the [[octonions]], [[octonions|$\mathbb{O}$]], the highest [[octonionic projective space|projective space]] to exist is [[octonionic projective plane|$\mathbb{O}P^2$]], but classes on $\mathbb{K}P^2$ restricting to unity on $\mathbb{K}P^1$ are known to still give ["$(3 dim_{\mathbb{R}}(\mathbb{K})-2)$-dimensional" orientations](complex+oriented+cohomology+theory#ReferencesFiniteStageOrientations) for $\mathbb{K} \in 
@@ -27,35 +42,6 @@ We discuss the [[tautological line bundle|tautological $\mathbb{K}$-line bundles
 
 (...)
 
-$$
-  \mathbb{H}
-  \simeq
-  \mathbb{C} \oplus \mathbb{C} \mathbf{j}
-$$
-
-$$
-  \big\langle
-    x_0 
-    + 
-    x_1 \mathbf{i}
-    + 
-    x_2 \mathbf{j}
-    + 
-    x_3 \mathbf{i}\mathbf{j}
-    \;\big\vert\;
-    y_0 
-    + 
-    y_1 \mathbf{i}
-    +
-    y_2 \mathbf{j}
-    + 
-    y_3 \mathbf{i}\mathbf{j}
-  \big\rangle_{\mathbb{C}}
-  \;\coloneqq\;
-  (x_0 - x_1 \mathbf{i})(y_0 + y_1 \mathbf{i})
-  +
-  (x_2 - x_3 \mathbf{i})(y_2 + y_3 \mathbf{i})
-$$
 
 
 (...)
