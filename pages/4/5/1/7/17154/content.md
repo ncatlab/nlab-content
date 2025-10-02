@@ -1,13 +1,15 @@
 
-This page collects links related to
+This page is to record the reference:
 
-* [[Michael Hopkins]],
+* [[Michael Hopkins]]:
 
-  _Complex oriented cohomology theories and the language of stacks_
+  \linebreak
+
+  **Complex oriented cohomology theories and the language of stacks**
 
   1999
 
-  ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf), [[HopkinsComplexOrientedCohomology.pdf:file]])
+  [pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf), [[HopkinsComplexOrientedCohomology.pdf:file]]
 
 on [[complex oriented cohomology]], the [[Adams spectral sequence]], indicating the modern picture of [[E-infinity geometry]] over the "[[derived stacks]]" formally dual to [[S]] and [[MU]].
 
