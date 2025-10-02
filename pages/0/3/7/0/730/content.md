@@ -39,7 +39,7 @@ For example, this immediately implies (see [[category of presheaves#GeneralPrope
 In this vein:
 
 \begin{prop}\label{EpimorphismsOfSimplicialSetsDetectedDegreewise}
-  A morpism $X_\bullet \xrightarrow{f_\bullet} Y_\bullet$ of simplicial sets is
+  A morphism $X_\bullet \xrightarrow{f_\bullet} Y_\bullet$ of simplicial sets is
 
 * a [[monomorphism]] precisely if all component [[functions]] $f_n \colon X_n \to Y_n$ are [[injections]];
 
