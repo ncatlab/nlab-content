@@ -1400,6 +1400,10 @@ On effective field theory for [[spontaneously broken symmetries]]:
 
 * [[Tomáš Brauner]]: *Effective Field Theory for Spontaneously Broken Symmetry*, Lecture Notes in Physics **1023**, Springer (2024) &lbrack;[arXiv:2404.14518](https://arxiv.org/abs/2404.14518), [doi:10.1007/978-3-031-48378-3](https://doi.org/10.1007/978-3-031-48378-3)&rbrack;
 
+On effective field theory for [[open quantum systems]] with application to [[cosmology]]:
+
+* Thomas Colas: *Lectures on Open Effective Field Theories* &lbrack;[arXiv:2510.00140](https://arxiv.org/abs/2510.00140)&rbrack;
+
 
 ### Via causal perturbation theory
  {#ReferencesInCausalPerturbationTheory}
