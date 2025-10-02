@@ -4,7 +4,6 @@
 
 
 
-
 ***
 
 **Octonionic orientation of equivariant complex K-theory**
@@ -24,7 +23,7 @@ We discuss the [[tautological line bundle|tautological $\mathbb{K}$-line bundles
 
 * the tautological [[quaternionic vector bundle|quaternionic line bundle]] over the [[4-sphere]] $\mathbb{H}P^1 \sim S^4$
 
-* the tautological [[octonionic vector bundle|octonionic line bundle]] over the [[8-sphere]] $\mathbb{O}P^1 \sim S^8$
+* the tautological [[octonionic line bundle]] over the [[8-sphere]] $\mathbb{O}P^1 \sim S^8$
 
 (...)
 
