@@ -9,9 +9,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Definition
 
@@ -22,7 +21,9 @@ The **projective space** $\mathbb{P}_n$ of $T$ is the [[quotient]]
 $$
   \mathbb{P}_n 
   \coloneqq
-  (\mathbb{A}^{n+1} \setminus \{0\})/\mathbb{G}_m
+  \big(
+    \mathbb{A}^{n+1} \setminus \{0\}
+  \big)/\mathbb{G}_m
 $$
 
 of the [[complement]] of the origin inside the $(n+1)$-fold [[Cartesian product]] of the line with itself by the canonical [[action]] of $\mathbb{G}_m$.
@@ -34,7 +35,9 @@ More generally, for $(X,0)$ a [[pointed topological space]] with (pointed) $\mat
 $$
  \mathbb{P}(X) 
   \;\coloneqq\;
-  (X \setminus\{0\})
+  \big(
+    X \setminus\{0\}
+  \big)
   /
   \mathbb{G}_m
 $$
@@ -46,7 +49,9 @@ If instead of forming the [[quotient]] one forms the [[quotient stack]]/[[action
 $$
   \hat \mathbb{P}(X) 
   \coloneqq 
-  (X\setminus\{0\})//\mathbb{G}_m
+  \big(
+    X\setminus\{0\}
+  \big) \sslash \mathbb{G}_m
   \,.
 $$
 
@@ -55,9 +60,11 @@ $$
 
 ## Examples
 
-### For commutative rings and algebras
 
-For $T$ the theory of commutative [[ring]]s or more generally commutative [[associative algebra]]s over a ring $k$, $\mathbb{A}_k^1$ is the standard [[affine line]] over $k$. In this case $\mathbb{P}^n_k$ is (...) A closed sub[[scheme]] of $\mathbb{P}^n_k$ is a [[projective scheme]].
+### For commutative rings and algebras
+ {#ForCommutativeRings}
+
+For $T$ the theory of commutative [[rings]] or more generally commutative [[associative algebra]]s over a ring $k$, $\mathbb{A}_k^1$ is the standard [[affine line]] over $k$. In this case $\mathbb{P}^n_k$ is (...) A closed sub[[scheme]] of $\mathbb{P}^n_k$ is a [[projective scheme]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -71,6 +78,19 @@ For $R$ a commutative $k$-algebra, there is a [[natural isomorphism]] between
 =--
 
 The proof is spelled out at _[[affine line]]_.
+
+### As the dimension ranges
+
+By the [above](#ForCommutativeRings) perspective of [[algebraic geometry]] for $\mathbb{F}$ a [[field]] one also says that 
+
+* $\mathbb{F}P^1$ is its *[[projective line]]*,
+
+* $\mathbb{F}P^2$ is its *[[projective plane]]*.
+
+Finally, there is the [[union]] of all $mathbb{F}P^n  \hookrightarrow \mathbb{F}P^{n+1}$:  
+
+* $\mathbb{F}P^\infty \coloneqq \underset{\underset{n \to \infty}{\longrightarrow}}{\lim} \mathbb{F}P^n$, called the *[[infinite projective space]]*.
+
 
 ### Real, complex, quaternionic, octonionic projective space
   {#RealComplexProjectiveOctonionicProjectiveSpace}
