@@ -1,7 +1,16 @@
-# Projective lines
 
-* table of contents
-{: toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
@@ -70,6 +79,12 @@ Conversely, every Desarguesian projective line arises from a division ring in th
 * $a b = \lambda_a(b)$, where $\lambda_b$ is the unique element of $\Lambda(0,\infty)$ with $t_a(1)=a$.
 
 It follows that every Desarguesian projective line can be embedded into a Desarguesian projective plane, and indeed a projective space of any dimension.  See [Buekenhout-Cohen, Chapter 6](#BuekenhoutCohen) for details.
+
+## Related concepts
+
+* [[projective plane]]
+
+* [[infinite projective space]]
 
 
 ## References
