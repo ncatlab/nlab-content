@@ -34,6 +34,11 @@ Discussion of the tautological octonionic line bundle over $\mathbb{O}P^1$:
 
 * {#Baez02} [[John Baez]], §3.1 in: *The Octonions*,  Bull. Amer. Math. Soc. **39** (2002) 145-205. &lbrack;[web](http://math.ucr.edu/home/baez/octonions/octonions.html), [pdf](http://math.ucr.edu/home/baez/octonions/octonions.pdf), [doi:10.1090/S0273-0979-01-00934-X](https://doi.org/10.1090/S0273-0979-01-00934-X)&rbrack;
 
+For $\mathbb{O}P^1$ itself see also:
+
+* {#DrayManogue15} [[Tevian Dray]], [[Corinne Manogue]], §12.2 of: *The Geometry of Octonions*, World Scientific (2015) &lbrack;[doi:10.1142/8456](https://doi.org/10.1142/8456), [web](https://sites.science.oregonstate.edu/coursewikis/GO/start.html)&rbrack;
+
+
 [[!redirects octonionic line bundles]]
 
 [[!redirects tautololgical octonionic line bundle]]
