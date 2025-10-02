@@ -6,7 +6,7 @@
 
 ***
 
-**Octonionic orientation of equivariant complex K-theory**
+**Quaternionic Ravenel Orientation of Equivariant Complex K-theory**
 
 A universal [[real oriented cohomology theory|real]], [[complex oriented cohomology theory|complex]] or [[quaternionic oriented cohomology theory|quaternionic]] "[[orientation in generalized cohomology|orientation]]" of ([[vector bundles]] in) a [[multiplicative cohomology theory|multiplicative]]$\;$[[generalized cohomology theory]] is well-known to be a [[cohomology class|class]] on [[infinite projective space|$\mathbb{K}P^\infty$]] which restricts to [[unit|unity]] on [[projective line|$\mathbb{K}P^1$]], for [[real normed division algebra|$\mathbb{K} \in 
 \{$]][[real numbers|$\mathbb{R}$]], [[complex numbers|$\mathbb{C}$]], [[quaternions|$\mathbb{H}$]]$\}$, respectively. Over the [[octonions]], [[octonions|$\mathbb{O}$]], the highest [[octonionic projective space|projective space]] to exist is [[octonionic projective plane|$\mathbb{O}P^2$]], but classes on $\mathbb{K}P^2$ restricting to unity on $\mathbb{K}P^1$ are known to still give ["$(3 dim_{\mathbb{R}}(\mathbb{K})-2)$-dimensional" orientations](complex+oriented+cohomology+theory#ReferencesFiniteStageOrientations) for $\mathbb{K} \in 
@@ -24,6 +24,39 @@ We discuss the [[tautological line bundle|tautological $\mathbb{K}$-line bundles
 * the tautological [[quaternionic vector bundle|quaternionic line bundle]] over the [[4-sphere]] $\mathbb{H}P^1 \sim S^4$
 
 * the tautological [[octonionic line bundle]] over the [[8-sphere]] $\mathbb{O}P^1 \sim S^8$
+
+(...)
+
+$$
+  \mathbb{H}
+  \simeq
+  \mathbb{C} \oplus \mathbb{C} \mathbf{j}
+$$
+
+$$
+  \big\langle
+    x_0 
+    + 
+    x_1 \mathbf{i}
+    + 
+    x_2 \mathbf{j}
+    + 
+    x_3 \mathbf{i}\mathbf{j}
+    \;\big\vert\;
+    y_0 
+    + 
+    y_1 \mathbf{i}
+    +
+    y_2 \mathbf{j}
+    + 
+    y_3 \mathbf{i}\mathbf{j}
+  \big\rangle_{\mathbb{C}}
+  \;\coloneqq\;
+  (x_0 - x_1 \mathbf{i})(y_0 + y_1 \mathbf{i})
+  +
+  (x_2 - x_3 \mathbf{i})(y_2 + y_3 \mathbf{i})
+$$
+
 
 (...)
 
