@@ -7,7 +7,7 @@ which [[representable functor|co-represent]] these:
 
 * {#Ravenel84} [[Douglas Ravenel]], section 3 of: _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics Vol. 106, No. 2 (Apr., 1984), pp. 351-414 ([doi:10.2307/2374308](https://doi.org/10.2307/2374308), [jstor:2374308](https://www.jstor.org/stable/2374308))
 
-* {#Hopkins84} [[Michael Hopkins]], _Stable decompositions of certain loop spaces_, Northwestern 1984 ([[HopkinsStableDecompositions.pdf:file]])
+* {#Hopkins84} [[Michael Hopkins]], _Stable decompositions of certain loop spaces_, PhD thesis, Northwestern (1984) $[$[[HopkinsStableDecompositions.pdf:file]]\]
 
 * {#Ravenel86} [[Douglas Ravenel]], section 6.5 of: _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986
 
