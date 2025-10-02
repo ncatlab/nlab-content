@@ -17,6 +17,7 @@
 =--
 =--
 
+
 # Octonions
 * table of contents
 {: toc}
@@ -738,11 +739,13 @@ Review:
 
 * {#Baez02} [[John Baez]]: *The Octonions*,  Bull. Amer. Math. Soc. **39** (2002) 145-205. &lbrack;[web](http://math.ucr.edu/home/baez/octonions/octonions.html), [pdf](http://math.ucr.edu/home/baez/octonions/octonions.pdf) [doi:10.1090/S0273-0979-01-00934-X](https://doi.org/10.1090/S0273-0979-01-00934-X)&rbrack;
 
+* [[Tevian Dray]]: *The Geometry of Octonions*, talk slides &lbrack;[pdf](https://sites.science.oregonstate.edu/~tevian/talks/PSUpub.pdf), [[Dray-GeometryOctonions.pdf:file]]&rbrack;
+
 Textbook accounts:
 
-* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000 ([doi:10.1007/978-3-662-12622-6](https://doi.org/10.1007/978-3-662-12622-6))
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]]: _Octonions, Jordan Algebras, and Exceptional Groups_, Monographs in Mathematics, Springer (2000) &lbrack;[doi:10.1007/978-3-662-12622-6](https://doi.org/10.1007/978-3-662-12622-6)&rbrack;
 
-* [[Tevian Dray]], [[Corinne Manogue]], _The Geomety of Octonions_, World Scientific 2015 ([doi:10.1142/8456](https://doi.org/10.1142/8456))
+* {#DrayManogue15} [[Tevian Dray]], [[Corinne Manogue]]: *The Geometry of Octonions*, World Scientific (2015) &lbrack;[doi:10.1142/8456](https://doi.org/10.1142/8456), [web](https://sites.science.oregonstate.edu/coursewikis/GO/start.html)&rbrack;
 
 The concept of "special triples" or ("basic triples") used above seems to go back to 
 
