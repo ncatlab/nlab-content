@@ -124,6 +124,8 @@ This is analogous to how often, in geometry as well as in ordinary life, [[lengt
 
 * Maria Manuel Clementino, Dirk Hofmann, and Walter Tholen, _Cauchy convergence in V-normed categories_, [arXiv:2404.09032](https://arxiv.org/abs/2404.09032) (2024).
 
+* Dirk Hofmann and Walter Tholen, _Notions of Cauchy completeness for normed categories_, [arXiv:2510.00912](https://arxiv.org/abs/2510.00912) (2025).
+
 
 [[!redirects weighted categories]]
 [[!redirects normed category]]
