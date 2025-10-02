@@ -189,7 +189,7 @@ See also:
 
 
 * [[Steven Costenoble]], [[Peter May]], [[Stefan Waner]], _Equivariant orientation theory_, Homology Homotopy Appl.
-Volume 3, Number 2 (2001), 265-339 ([euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256))
+**3** 2 (2001) 265-339 &lbrack;[euclid:hha/1139840256](https://projecteuclid.org/euclid.hha/1139840256)&rbrack;
 
 [[!redirects equivariant complex oriented cohomology theories]]
 
