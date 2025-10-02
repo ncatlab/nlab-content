@@ -1,7 +1,16 @@
 
-#Contents#
-* table of contents
-{:toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+\tableofcontents
+
 
 ## Idea
 
@@ -95,9 +104,7 @@ $$\pi_{23}\big(\mathbb{O}P^2\big)
 
 =--
 
-([Lackmann 19, page 7](#Lackmann19))
-
-([Mimura 67, Theorem 7.2.](#Mimura67))
+([Lackmann 19, page 7](#Lackmann19), [Mimura 67, Theorem 7.2.](#Mimura67))
 
 ### Cohomology
 
@@ -122,6 +129,12 @@ $$
 =--
 
 ([Lackmann 2019, Corollary 4.1.](#Lackmann19))
+
+
+## Related concepts
+
+* [[octonionic line bundle]]
+
 
 ## References
 
