@@ -1,14 +1,24 @@
 
+Corinne Alison Manogue
 
 
+* [institute page](https://physics.oregonstate.edu/directory/corinne-manogue)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Corinne_Manogue)
+
+* [inSpire page](https://inspirehep.net/authors/998935)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=n46MEE4AAAAJ&hl=en)
+
+
 
 ## Selected writings
 
 On [[octonions]], [[quaternions]], [[normed division algebras]] etc.:
 
-* [[Tevian Dray]], [[Corinne Manogue]], _The Geomety of Octonions_, World Scientific 2015 ([doi:10.1142/8456](https://doi.org/10.1142/8456))
+* {#DrayManogue15} [[Tevian Dray]], [[Corinne Manogue]]: *The Geometry of Octonions*, World Scientific (2015) &lbrack;[doi:10.1142/8456](https://doi.org/10.1142/8456), [web](https://sites.science.oregonstate.edu/coursewikis/GO/start.html)&rbrack;
+
+
 
 On _[[supersymmetry and division algebras]]_:
 
