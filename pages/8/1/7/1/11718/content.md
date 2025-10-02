@@ -24,6 +24,9 @@ On [[Lie algebroids]] (motivated by [[higher spin gauge theory]]):
 
 * [[Xavier Bekaert]], *Geometric tool kit for higher spin gravity (part II): An introduction to Lie algebroids and their enveloping algebras* &lbrack;[arXiv:2308.00724](https://arxiv.org/abs/2308.00724)&rbrack;
 
+On [[irreducible representations]] of the [[BMS group]]:
+
+* [[Xavier Bekaert]], Laura Donnay, Yannick Herfray: *BMS particles* &lbrack;[arXiv:2412.06002](https://arxiv.org/abs/2412.06002)&rbrack;
 
 
 
