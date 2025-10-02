@@ -138,7 +138,7 @@ $$
 
 ## References
 
-* {#Lackmann19} [[Malte Lackmann]]: _The octonionic projective plane_, in MATRIX Book Series **4**, Springer (2021) &lbrack;[doi:10.1007/978-3-030-62497-2_6](https://doi.org/10.1007/978-3-030-62497-2_6), [arXiv:1909.07047](https://arxiv.org/abs/1909.07047)&rbrack;
+* {#Lackmann19} [[Malte Lackmann]]: _The octonionic projective plane_, in: *2019-20 MATRIX Annals*, MATRIX Book Series **4**, Springer (2021) &lbrack;[doi:10.1007/978-3-030-62497-2_6](https://doi.org/10.1007/978-3-030-62497-2_6), [arXiv:1909.07047](https://arxiv.org/abs/1909.07047)&rbrack;
 
 * {#Voelkel16} [[Konrad Voelkel]]: _Motivic cell structures for projective spaces over split quaternions_, 2016 &lbrack;[freidok:11448](https://freidok.uni-freiburg.de/data/11448), [pdf](https://freidok.uni-freiburg.de/fedora/objects/freidok:11448/datastreams/FILE1/content)&rbrack;
 
