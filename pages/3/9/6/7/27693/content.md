@@ -43,8 +43,7 @@ See also:
 
 * Yu-fan Zheng: *Supersymmetric $BMS_4$ Algebras Revisited: Electric/Magnetic Superalgebras and Free Field Realization* &lbrack;[arXiv:2508.17925](https://arxiv.org/abs/2508.17925)&rbrack;
 
-
-
+* [[Xavier Bekaert]], Laura Donnay, Yannick Herfray: *BMS particles* &lbrack;[arXiv:2412.06002](https://arxiv.org/abs/2412.06002)&rbrack;
 
 
 
