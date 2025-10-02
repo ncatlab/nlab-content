@@ -3121,7 +3121,7 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 
 
 ### Real spinor representations via Real alternative division algebras
- {##RealSpinRepresentationViaNormedDivisionAlgebra}
+ {#RealSpinRepresentationViaNormedDivisionAlgebra}
 
 We discuss a close relation between _[[real spin representations and division algebras]]_,
 due to [Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84) and others:
