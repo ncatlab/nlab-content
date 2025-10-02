@@ -47,6 +47,7 @@ The _[[Oka-Grauert principle]]_ states that for any [[Stein manifold]] $X$ the h
 
 See at _[[Koszul-Malgrange theorem]]_.
 
+
 ## Related concepts
 
 * [[complex vector space]]
@@ -65,9 +66,7 @@ See at _[[Koszul-Malgrange theorem]]_.
 
   * [[complex oriented cohomology theory]]
 
-* [[real vector bundle]]
-
-* [[quaternionic vector bundle]]
+* [[real vector bundle]], [[quaternionic vector bundle]], [[octonionic line bundle]]
 
 ## References
 
