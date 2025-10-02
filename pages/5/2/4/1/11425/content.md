@@ -10,9 +10,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -213,7 +211,7 @@ In this sense the term "Real vector bundle" is quite appropriate.
 
 * [[Pontryagin class]]
 
-* [[complex vector bundle]], [[quaternionic vector bundle]]
+* [[complex vector bundle]], [[quaternionic vector bundle]], [[octonionic line bundle]]
 
 * [[real oriented cohomology theory]]
 
