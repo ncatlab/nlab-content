@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents:
 
 
 
@@ -97,6 +96,11 @@ The corresponding version of the [[Atiyah-Hirzebruch spectral sequence]]:
 Relation to [[projective representations]]:
 
 * José Manuel Gómez, Johana Ramírez, _A Decomposition of twisted equivariant K-theory_ ([arXiv:2001.02164](https://arxiv.org/abs/2001.02164))
+
+A model in the [[cohesive (infinity,1)-topos|cohesive homotopy theory]] of [[smooth infinity-groupoids|smooth $\infty$-groupoids]]:
+
+* {#SS25} [[Hisham Sati]], [[Urs Schreiber]], §4.5 in: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal ∞-Bundles]]*, Cambridge University Press (2025) &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+
 
 
 [[!redirects equivariant twisted K-theory]]
