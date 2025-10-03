@@ -134,6 +134,8 @@ On [[D=6 supergravity]] formukated on [[free loop space]]:
 
 * [[3-brane in 6d]]
 
+* [[L-brane]]
+
 
 category: people
 
