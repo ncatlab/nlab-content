@@ -84,7 +84,7 @@ On the other hand, working directed higher type theory may not be very practical
 
 * [[Robert Harper]], [[Dan Licata]], _Canonicity for 2-Dimensional Type Theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh112tt/lh112tt.pdf))
 
-* [[Robert Harper]], [[Dan Licata]], _2-Dimensional directed dependent type theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf) [slides](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt-slides.pdf))
+* [[Robert Harper]], [[Dan Licata]], _2-Dimensional directed type theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf) [slides](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt-slides.pdf))
 
 * [[Michael Warren]], _Directed Type Theory_ ([video lecture](https://video.ias.edu/univalent/1213/0410-MichaelWarren))
 
