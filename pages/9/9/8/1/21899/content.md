@@ -1,5 +1,9 @@
 
-* [Inspire page](https://inspirehep.net/authors/1029392)
+* [institute page](https://portalinvestigacion.um.es/investigadores/459301/detalle)
+
+* [inSpire page](https://inspirehep.net/authors/1029392)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=fcWUX1YAAAAJ&hl=en)
 
 # Selected writings
 
@@ -39,6 +43,10 @@ On the work of [[Mike Duff]]:
 
 * [[Leron Borsten]], [[Alessio Marrani]], [[Christopher N. Pope]], [[Kellogg Stelle]], *Introduction to the special issue dedicated to Michael J. Duff FRS on the occasion of his 70th birthday*, Proceedings of the Royal Society A, 
 **478** (2022) 2259 &lbrack;[doi:10.1098/rspa.2022.0166](https://doi.org/10.1098/rspa.2022.0166)&rbrack;
+
+On the [[octonionic projective plane]] ([[Cayley plane]]):
+
+* Daniele Corradetti, [[Alessio Marrani]], Francesco Zucconi: *A minimal and non-alternative realisation of the Cayley plane* &lbrack;[arXiv:2309.00967](https://arxiv.org/abs/2309.00967)&rbrack;
 
 
 
