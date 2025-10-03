@@ -978,6 +978,10 @@ On abelian Chern-Simons theory via [[theta functions]] and the [[representation 
 
 * {#GelcaHamilton15} [[Răzvan Gelca]], [[Alastair Hamilton]]: *The topological quantum field theory of Riemann’s theta functions*, Journal of Geometry and Physics **98** (2015) 242-261 &lbrack;[doi:10.1016/j.geomphys.2015.08.008](https://doi.org/10.1016/j.geomphys.2015.08.008), [arXiv:1406.4269](https://arxiv.org/abs/1406.4269)&rbrack;
 
+On the [[self-dual gauge theory|chiral]] abelian [[WZW model]] ([[edge modes]]) at the [[boundary field theory|boundary]] of abelian Chern-Simons theory:
+
+* [[Irais Rubalcava-Garcia]]: *Constructing the theory at the boundary, its dynamics and degrees of freedom* &lbrack;[arXiv:2003.06241](https://arxiv.org/abs/2003.06241)&rbrack;
+
 
 On [[boundary conditions]] and line-[[defect field theory|defects]] in abelian Chern-Simons theory and on the corresponding ground state degeneracy ([[topological order]]) on [[surfaces]] with ("gapped") [[boundary of a manifold|boundaries]]:
 
