@@ -20,7 +20,9 @@ Now, the [[octonions]] $\mathbb{O}$ are not an ([[associativity|associative]]) [
 
 However, the notion of a [[tautological line bundle]] over the [[octonionic projective line]] $\mathbb{O}P^1$ still does make sense, and this ([[rank of a vector bundle|rank]]=8 [[real vector bundle]]) is commonly called the *tautological octonionic line bundle* or the "canonical octonionic line bundle".
 
-By the above analogy it is then justified (though not common in the literature) to *define* general *octonionic line bundles* to be, up to [[isomorphism]], the [[pullback bundles]] of this tautological one along [[continuous maps]] to [[octonionic projective line|$\mathbb{O}P^1$]].
+Incidentally, a would-be tautological octonionic line bundle on the [[octonionic projective plane]] [[octonionic projective plane|$\mathbb{O}P^2$]] (the "[[Cayley plane]]") does not exist (the non-associativity makes the would-be octonionic lines be [[quaternion|quaternionic]] in some sense, see [Dray & Manogue 2015](#DrayManogue15), [p. 121](https://ncatlab.org/nlab/files/DrayManogue15-12-5.pdf#page=3)), and for $n \geq 3$ even $\mathbb{O}P^n$ does not exist, much less its tautological line bundle. The only tautological octonionic line bundle is hence that over [[octonionic projective line|$\mathbb{O}P^1$]].
+
+Therefore, by the above analogy, it is then justified (though not common in the literature) to *define* general *octonionic line bundles* to be, up to [[isomorphism]], the [[pullback bundles]] of this tautological one along [[continuous maps]] to [[octonionic projective line|$\mathbb{O}P^1$]].
 
 
 ## Related concepts
@@ -33,8 +35,6 @@ By the above analogy it is then justified (though not common in the literature) 
 Discussion of the tautological octonionic line bundle over $\mathbb{O}P^1$:
 
 * {#Baez02} [[John Baez]], §3.1 in: *The Octonions*,  Bull. Amer. Math. Soc. **39** (2002) 145-205. &lbrack;[web](http://math.ucr.edu/home/baez/octonions/octonions.html), [pdf](http://math.ucr.edu/home/baez/octonions/octonions.pdf), [doi:10.1090/S0273-0979-01-00934-X](https://doi.org/10.1090/S0273-0979-01-00934-X)&rbrack;
-
-For $\mathbb{O}P^1$ itself see also:
 
 * {#DrayManogue15} [[Tevian Dray]], [[Corinne Manogue]], §12.2 of: *The Geometry of Octonions*, World Scientific (2015) &lbrack;[doi:10.1142/8456](https://doi.org/10.1142/8456), [web](https://sites.science.oregonstate.edu/coursewikis/GO/start.html)&rbrack;
 
