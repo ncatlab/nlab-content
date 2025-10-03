@@ -39,11 +39,15 @@ On the need for [[topological quantum computation]] in [[quantum computation]]:
 
 * {#DasSarma22} [[Sankar Das Sarma]], *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
 
-  > The [[qubit]] systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. $[\cdots]$ What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called [[topological quantum computing]].
+  > The [[qubit]] systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. \[...\] What is missing is the breakthrough $[\cdots]$ bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called [[topological quantum computing]].
 
 On the prospect of detecting [[Majorana zero modes]]:
 
 * {#DasSarma22} [[Sankar Das Sarma]], *In search of Majorana*, Nature Physics **19** (2023) 165-170 &lbrack;[arXiv:2210.17365](https://arxiv.org/abs/2210.17365), [doi:10.1038/s41567-022-01900-9](https://doi.org/10.1038/s41567-022-01900-9)&rbrack;
+
+On the [[fractional quantum anomalous Hall effect]] in [[graphene]]:
+
+* Ke Huang, Xiao Li, [[Sankar Das Sarma]], Fan Zhang: *Self-consistent theory of fractional quantum anomalous Hall states in rhombohedral graphene* Phys. Rev. B **110** (2024) 115146 &lbrack;[doi:10.1103/PhysRevB.110.115146](https://doi.org/10.1103/PhysRevB.110.115146), [arXiv:2407.08661](https://arxiv.org/abs/2407.08661)&rbrack;
 
 
 
