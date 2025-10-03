@@ -85,7 +85,8 @@ Review:
 
 * Moritz Kuentzler: *Elliptic Fibrations for F-Theory Geometric Engineering* (2014) PhD thesis &lbrack;[webpage](https://kclpure.kcl.ac.uk/portal/en/studentTheses/elliptic-fibrations-for-f-theory-geometric-engineering), [pdf](https://kclpure.kcl.ac.uk/ws/portalfiles/portal/44454578/2014_Kuentzler_Moritz_1146215_ethesis.pdf)&rbrack;
 
-    
+* [[Steven Duplij]]: *Geometric Engineering*, in: *Concise Encyclopedia of Supersymmetry*, Springer (2017) 165-166 &lbrack;[doi:10.1007/1-4020-4522-0_216]( https://doi.org/10.1007/1-4020-4522-0_216)&rbrack;
+
 * {#Fazzi17} [[Marco Fazzi]], _Higher-dimensional field theories from type II supergravity_ &lbrack;[arXiv:1712.04447](https://arxiv.org/abs/1712.04447)&rbrack;
 
 * Iñaki García Etxebarria: *Symmetries from string theory* talk notes (2021) &lbrack;[pdf](https://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2022/Garcia-Etxebarria.pdf)&rbrack;
