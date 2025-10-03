@@ -131,6 +131,10 @@ On [[singleton representations]] in [[supergravity]]:
 
 
 
+## Related entries
+
+* [[L-brane]]
+
 
 
 
