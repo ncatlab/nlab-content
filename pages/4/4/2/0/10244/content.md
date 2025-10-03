@@ -15,9 +15,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -229,14 +227,23 @@ and a more elaborate discussion originates with:
 
 * {#Sorokin00} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
 
-Generalization to [[intersecting branes]] is indicated in:
+More on the case of "L-branes":
+
+* [Howe & Sezgin 1997a, p. 8](#HoweSezgin97a)
+
+* [Howe, Raetzel & Sezgin 1998, pp. 3-4](#HoweRaetzelSezgin98)
+
+* [[Paul S. Howe]], O. Raetzel, I. Rudychev, [[Ergin Sezgin]]: *L-branes*, Class. Quant. Grav. **16** (1999) 705-722 &lbrack;[arXiv:hep-th/9810081](https://arxiv.org/abs/hep-th/9810081), [doi:10.1088/0264-9381/16/3/006](https://doi.org/10.1088/0264-9381/16/3/006)&rbrack;
+
+
+Indication of generalization to [[intersecting branes]]:
 
 * C. S. Chu, [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]]: *Open superbranes*, Physics Letters B **429** 3–4 (1998) 273-280 &lbrack;<a href="https://doi.org/10.1016/S0370-2693(98)00441-9">doi:10.1016/S0370-2693(98)00441-9</a>&rbrack;
 
 
 Review:
 
-* [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Superbrane actions and geometrical approach*, in: *Supersymmetry and Quantum Field Theory*, Lecture Notes in Physics **509**, Springer (1998) 79-91 &lbrack;[doi:10.1007/BFb0105231](https://doi.org/10.1007/BFb0105231)&rbrack;
+* [[Igor Bandos]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Superbrane actions and geometrical approach*, in: *Supersymmetry and Quantum Field Theory*, Lecture Notes in Physics **509**, Springer (1998) 79-91 &lbrack;[doi:10.1007/BFb0105231](https://doi.org/10.1007/BFb0105231), [arXiv:hep-th/9705064](https://arxiv.org/abs/hep-th/9705064)&rbrack;
 
 * [[Igor Bandos]], *Superembedding approach and generalized action in String/M-theory*, in: *Supersymemtries and Quantum Symmetries*, Lecture Notes in Physics **524**, Springer (1999) &lbrack;[arXiv:hep-th/9807202](https://arxiv.org/abs/hep-th/9807202), [doi:10.1007/BFb0104595](https://doi.org/10.1007/BFb0104595)&rbrack;
 
