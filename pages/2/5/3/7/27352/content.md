@@ -76,9 +76,14 @@ For discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Sim
 
 * see [there](quantum+Hall+effect#ReferencesNoncommutativeGeometryOfFQHE).
 
-More on [[edge modes]]:
+More on [[edge modes]] via the abelian [[WZW model]] [[chiral boson]] on the [[boundary field theory|boundary]] of abelian Chern-Simons theory:
 
 * {#Levin13} [[Michael Levin]]: *Protected edge modes without symmetry*, Phys. Rev. X **3** 021009 (2013) \[<a href="https://doi.org/10.1103/PhysRevX.3.021009">doi:10.1103/PhysRevX.3.021009</a>, [arXiv:1301.7355](https://arxiv.org/abs/1301.7355)\]
+
+* Nicola Maggiore: *From Chern-Simons to Tomonaga-Luttinger*,  Int. J. Mod. Phys. A **33** (2018) 1850013 \[<a href="https://doi.org/10.1142/S0217751X18500136">doi:10.1142/S0217751X18500136</a>, [arXiv:1712.08744](https://arxiv.org/abs/1712.08744)\]
+
+* [[Irais Rubalcava-Garcia]], §3.6 in: *Constructing the theory at the boundary, its dynamics and degrees of freedom* &lbrack;[arXiv:2003.06241](https://arxiv.org/abs/2003.06241)&rbrack;
+
 
 The [[symmetry protected topological phase|symmetry protected]] situation:
 
