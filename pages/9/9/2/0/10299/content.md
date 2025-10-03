@@ -1,7 +1,6 @@
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -151,11 +150,16 @@ $$
 
 * [[Cayley 4-form]]
 
+
 ## References
 
 ### General
 
-* {#Lackmann19} [[Malte Lackmann]], _The octonionic projective plane_, in MATRIX Book Series **4**, Springer (2021) &lbrack;[doi:10.1007/978-3-030-62497-2_6](https://doi.org/10.1007/978-3-030-62497-2_6), [arXiv:1909.07047](https://arxiv.org/abs/1909.07047)&rbrack;
+* {#DrayManogue15} [[Tevian Dray]], [[Corinne Manogue]]: *The Octonionic Projective Plane*, §12.5 in: *The Geometry of Octonions*, World Scientific (2015) &lbrack;[doi:10.1142/8456](https://doi.org/10.1142/8456), [web](https://sites.science.oregonstate.edu/coursewikis/GO/start.html), [[DrayManogue15-12-5.pdf:file]]&rbrack;
+
+* {#Lackmann19} [[Malte Lackmann]]: _The octonionic projective plane_, in MATRIX Book Series **4**, Springer (2021) &lbrack;[doi:10.1007/978-3-030-62497-2_6](https://doi.org/10.1007/978-3-030-62497-2_6), [arXiv:1909.07047](https://arxiv.org/abs/1909.07047)&rbrack;
+
+* Daniele Corradetti, [[Alessio Marrani]], Francesco Zucconi: *A minimal and non-alternative realisation of the Cayley plane* &lbrack;[arXiv:2309.00967](https://arxiv.org/abs/2309.00967)&rbrack;
 
 See also:
 
