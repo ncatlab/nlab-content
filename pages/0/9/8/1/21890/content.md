@@ -144,9 +144,13 @@ $$
 
 * {#DrayManogue15} [[Tevian Dray]], [[Corinne Manogue]], §12.2 and §12.5 of: *The Geometry of Octonions*, World Scientific (2015) &lbrack;[doi:10.1142/8456](https://doi.org/10.1142/8456), [web](https://sites.science.oregonstate.edu/coursewikis/GO/start.html)&rbrack;
 
-* {#Voelkel16} [[Konrad Voelkel]]: _Motivic cell structures for projective spaces over split quaternions_, 2016 &lbrack;[freidok:11448](https://freidok.uni-freiburg.de/data/11448), [pdf](https://freidok.uni-freiburg.de/fedora/objects/freidok:11448/datastreams/FILE1/content)&rbrack;
+* {#Voelkel16} [[Konrad Voelkel]]: _Motivic cell structures for projective spaces over split quaternions_ (2016) &lbrack;[freidok:11448](https://freidok.uni-freiburg.de/data/11448), [pdf](https://freidok.uni-freiburg.de/fedora/objects/freidok:11448/datastreams/FILE1/content)&rbrack;
+
+More on the [[octonionic projective plane]]:
 
 * {#Lackmann19} [[Malte Lackmann]]: _The octonionic projective plane_, in: *2019-20 MATRIX Annals*, MATRIX Book Series **4**, Springer (2021) &lbrack;[doi:10.1007/978-3-030-62497-2_6](https://doi.org/10.1007/978-3-030-62497-2_6), [arXiv:1909.07047](https://arxiv.org/abs/1909.07047)&rbrack;
+
+* Daniele Corradetti, [[Alessio Marrani]], Francesco Zucconi: *A minimal and non-alternative realisation of the Cayley plane* &lbrack;[arXiv:2309.00967](https://arxiv.org/abs/2309.00967)&rbrack;
 
 
 
