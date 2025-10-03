@@ -39,10 +39,9 @@ Further discussion:
 
 * Zhida Song, L. Elcoro, [[Nicolas Regnault]], [[B. Andrei Bernevig]]: *Fragile Phases As Affine Monoids: Classification and Material Examples*, Phys. Rev. X **10** 031001 (2020) \[<a href="https://doi.org/10.1103/PhysRevX.10.031001">doi:10.1103/PhysRevX.10.031001</a>, [arXiv:1905.03262](https://arxiv.org/abs/1905.03262)\]
 
-
-
 * Simon Becker, Zhongkai Tao, Mengxuan Yang: *Fragile topology on solid grounds: a mathematical perspective* \[<a href="https://arxiv.org/abs/2502.03442">arXiv:2502.03442\]
 
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQAH Anyons|Identifying Anyonic Topological Order in Fractional Quantum Anomalous Hall Systems]]* \[<a href="https://arxiv.org/abs/2507.00138">arXiv:2507.00138</a>\]
 
 
 
