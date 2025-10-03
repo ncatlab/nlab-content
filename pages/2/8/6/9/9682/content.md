@@ -41,11 +41,17 @@ See at
 
 [[!include field theory with boundaries and defects - table]]
 
+
 ## References
 
 * Wikipedia, _[Boundary conformal field theory](http://en.wikipedia.org/wiki/Boundary_conformal_field_theory)_
 
 For more see the references at _[[defect field theory]]_.
+
+The case of the [[chiral boson]]/[[edge modes]] [[WZW model]] at the boundary of [[abelian Chern-Simons theory]]:
+
+* [[Irais Rubalcava-Garcia]]: *Constructing the theory at the boundary, its dynamics and degrees of freedom* &lbrack;[arXiv:2003.06241](https://arxiv.org/abs/2003.06241)&rbrack;
+
 
 Comments in the context of [[multisymplectic geometry]] are in 
 
