@@ -205,6 +205,8 @@ The corresponding table has been called the **[[brane scan]]**
 
 * [[exotic brane]]
 
+* [[L-brane]]
+
 [[!include field theory with boundaries and defects - table]]
 
 
