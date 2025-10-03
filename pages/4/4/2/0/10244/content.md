@@ -227,7 +227,7 @@ and a more elaborate discussion originates with:
 
 * {#Sorokin00} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
 
-More on the case of "L-branes":
+More on the case of "[[L-brane|L-branes]]":
 
 * [Howe & Sezgin 1997a, p. 8](#HoweSezgin97a)
 
