@@ -73,7 +73,14 @@ On edges modes in [[topological insulators]]:
 
 ### Via Chern-Simons theory & other TQFT
 
-On edge modes via [[Chern-Simons theory]] (cf. also *[[AdS3-CFT2 and CS-WZW correspondence]]*):
+On edge modes via the (abelian) [[WZW model]] on the [[boundary field theory|boundart]] of ([[abelian Chern-Simons theory|abelian]]) [[Chern-Simons theory]] (cf. also *[[AdS3-CFT2 and CS-WZW correspondence]]*):
+
+* Nicola Maggiore: *From Chern-Simons to Tomonaga-Luttinger*,  Int. J. Mod. Phys. A **33** (2018) 1850013 \[<a href="https://doi.org/10.1142/S0217751X18500136">doi:10.1142/S0217751X18500136</a>, [arXiv:1712.08744](https://arxiv.org/abs/1712.08744)\]
+
+
+* {#Levin13} [[Michael Levin]]: *Protected edge modes without symmetry*, Phys. Rev. X **3** 021009 (2013) \[<a href="https://doi.org/10.1103/PhysRevX.3.021009">doi:10.1103/PhysRevX.3.021009</a>, [arXiv:1301.7355](https://arxiv.org/abs/1301.7355)\]
+
+* [[Irais Rubalcava-Garcia]], §3.6 in: *Constructing the theory at the boundary, its dynamics and degrees of freedom* &lbrack;[arXiv:2003.06241](https://arxiv.org/abs/2003.06241)&rbrack;
 
 * [[Thomas G. Mertens]], Qi-Feng Wu: *Minimal Factorization of Chern-Simons Theory -- Gravitational Anyonic Edge Modes* &lbrack;[arXiv:2505.00501](https://arxiv.org/abs/2505.00501)&rbrack;
 
