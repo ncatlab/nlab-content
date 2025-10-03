@@ -23,10 +23,10 @@
 
 ## Idea
 
-The _gauged WZW model_ is a [[field (physics)|field]] [[theory (physics)]] which combines the [[WZW model]] with [[gauge theory]]:
-given a ([[simple Lie group|simple]]) [[Lie group]] $G$ and a [[subgroup]] $H \hookrightarrow G \times G$, the corresponding gauged WZW model is a 2-dimensional [[prequantum field theory]] on some [[worldvolume]] $\Sigma_2$ whose [[field (physics)|fields]] are pairs consisting of a smooth function $\Sigma_2 \to G$ and a [[Lie algebra valued 1-form]] $A \in \Omega^1(\Sigma_2, \mathfrak{h})$, with values in the [[Lie algebra]] of $H$.
+The _gauged WZW model_ is a [[field (physics)|field]] [[theory (physics)|theory]] which combines the plain [[WZW model]] with [[gauge theory]]:
+Given a ([[simple Lie group|simple]]) [[Lie group]] $G$ and a [[subgroup]] $H \hookrightarrow G$, the corresponding gauged WZW model is a 2-dimensional [[prequantum field theory]] on some [[worldvolume]] $\Sigma_2$ whose [[field (physics)|fields]] are pairs consisting of a smooth function $\Sigma_2 \to G$ and a [[Lie algebra valued 1-form]] $A \in \Omega^1(\Sigma_2, \mathfrak{h})$, with values in the [[Lie algebra]] of $H$.
 
-Where the [[Lagrangian]]/[[action functional]] of the ordinary [[WZW model]] is the sum/product of a standard [[kinetic action]] and the [[surface holonomy]] of a [[circle 2-bundle with connection]] whose [[curvature]] 3-form is the canonical 3-form $\langle \theta \wedge [\theta \wedge \theta]\rangle \in \Omega^3(G)^G$, so the action functional of the gauged WZW model is that obtained by refining this circle 2-bundle to the $H$-[[equivariant cohomology|equivariant]] [[differential cohomology]] of $G$, with [[curvature]] 3-form in [[equivariant de Rham cohomology]].
+Where the [[Lagrangian density]]/[[action functional]] of the ordinary [[WZW model]] is the sum/product of a standard [[kinetic action]] and the [[surface holonomy]] of a [[circle 2-bundle with connection]] whose [[curvature]] 3-form is the canonical 3-form $\langle \theta \wedge [\theta \wedge \theta]\rangle \in \Omega^3(G)^G$, so the action functional of the gauged WZW model is that obtained by refining this circle 2-bundle to the $H$-[[equivariant cohomology|equivariant]] [[differential cohomology]] of $G$, with [[curvature]] 3-form in [[equivariant de Rham cohomology]].
 
 ## Definition
  {#Definition}
@@ -49,33 +49,47 @@ $$
 Now for $H \hookrightarrow G$ a [[subgroup]], write 
 
 $$
-  CE(\mathfrak{g}//\mathfrak{h})
+  CE(\mathfrak{g}
+    \sslash
+  \mathfrak{h})
  \coloneqq 
-  \Omega^\bullet(G, \mathfrak{h}^\ast[1])^G
+  \Omega^\bullet(
+    G, 
+   \mathfrak{h}^\ast[1]
+  )^G
 $$
 
 for the corresponding dg-algebra of (say) the [[Cartan model]] for [[equivariant de Rham cohomology]] on $G$. There is a canonical projection
 
 $$
-  CE(\mathfrak{g}//\mathfrak{h})
+  CE(\mathfrak{g}
+  \sslash
+  \mathfrak{h})
   \to 
   CE(\mathfrak{g})
   \,.
 $$
 
-A curvature 3-form for the **gauged WZW model** is a 3-cocycle 
+A [[curvature]] [[differential 3-form|3-form]] for the **gauged WZW model** is a 3-cocycle 
 
 $$
-  \tilde H \in CE^3(\mathfrak{g}//\mathfrak{h})
+  \tilde H 
+    \in
+  CE^3(\mathfrak{g}
+  \sslash
+  \mathfrak{h})
 $$
 
-in this [[equivariant de Rham cohomology]] which lifts $H \coloneqq \langle \theta \wedge [\theta \wedge \theta]\rangle$ through this projection.
+in this [[equivariant de Rham cohomology]], which lifts $H \coloneqq \langle \theta \wedge [\theta \wedge \theta]\rangle$ through this projection.
 
- One finds ([Witten 92, appendix](#Witten92)) that in terms of the degree-2 generators $\{F^a\}$ of the [[Cartan model]] (see there) with respect to some [[basis]] $\{t_a\}$ of $\mathfrak{g}$, these lifts are of the form ([Witten 92, (A.14)](#Witten92))
+ One finds ([Witten 1992, appendix](#Witten92)) that in terms of the degree-2 generators $\{F^a\}$ of the [[Cartan model]] (see there) with respect to some [[basis]] $\{t_a\}$ of $\mathfrak{g}$, these lifts are of the form ([Witten 92, (A.14)](#Witten92))
 
 {#WZWCurvatureInCartanModel}
 $$
-  \tilde H = H + \lambda_a \wedge F^a
+  \tilde H 
+    = 
+   H + \lambda_a \wedge F^a
+  \,,
 $$
 
 where $\lambda_a \in \Omega^1(G)$ is given by (in [[matrix Lie algebra]] notation)
@@ -102,9 +116,9 @@ $$
   \,.
 $$
 
-This condition had originally been seen as a [[anomaly cancellation]]-condition of the gauged WZW model. A systematic discussion of these obstructions in [[equivariant de Rham cohomology]] is in ([Figueroa-O'Farrill-Stanciu 94](#FigueroaOFarrillStanciu94)).
+This condition had originally been seen as a [[anomaly cancellation]]-condition of the gauged WZW model. A systematic discussion of these obstructions in [[equivariant de Rham cohomology]] is given by  [Figueroa-O'Farrill & Stanciu 94](#FigueroaOFarrillStanciu94).
 
-Now by [[schreiber:∞-Wess-Zumino-Witten theory]], the corresponding WZW model has as target the [[smooth groupoid]] $\tilde G//H$ such that maps into it are locally a map $g$ into $G$ together with 1-form potentials $A^a$ for the $F^a$, and the WZW term is locally a 2-form built from $d g$ and $A^a$ such that its curvature 3-form is $\tilde H$. This is the **gauged WZW model** ([Witten 92, (A.16)](#Witten92)).
+The corresponding WZW model has as fields pairs of a map $g$ into $G$ together with 1-form potentials $A^a$ for the $F^a$, and the WZW term is locally a 2-form built from $d g$ and $A^a$ such that its curvature 3-form is $\tilde H$. This is the **gauged WZW model** ([Witten 1992, (A.16)](#Witten92)).
 
 
 ## Properties
@@ -112,7 +126,7 @@ Now by [[schreiber:∞-Wess-Zumino-Witten theory]], the corresponding WZW model 
 ### Partition function in (equivariant) elliptic cohomology
  {#PartitionFunctionInEllipticCohomology}
 
-The [[partition function]] of the gauged WZW model as an [[elliptic genus]] is considered in ([Henningsonn 94, (8)](#Henningson94)). When done properly this should give elements in [[equivariant elliptic cohomology]], hence an [[equivariant elliptic genus]].
+The [[partition function]] of the gauged WZW model as an [[elliptic genus]] is considered in ([Henningsonn 1994, (8)](#Henningson94)). When done properly this should give elements in [[equivariant elliptic cohomology]], hence an [[equivariant elliptic genus]].
 
 ## Related concepts
 
@@ -128,28 +142,28 @@ The [[partition function]] of the gauged WZW model as an [[elliptic genus]] is c
 
 The original articles:
 
-* [[Edward Witten]], _Nonabelian bosonization in two dimensions_, Commun. Math. Phys. 92 (1984) 455 ([euclid:cmp/1103940923](https://projecteuclid.org/euclid.cmp/1103940923))
+* [[Edward Witten]], _Nonabelian bosonization in two dimensions_, Commun. Math. Phys. **92** (1984) 455 &lbrack;[euclid:cmp/1103940923](https://projecteuclid.org/euclid.cmp/1103940923)&rbrack;
 
 * [[Krzysztof Gawedzki]], A. Kupiainen: _G/H conformal field theory from gauged WZW model_ Phys. Lett. **215** B, 119 (1988); 
 
-* [[Krzysztof Gawedzki]], A. Kupiainen, _Coset construction from functional integrals_, Nucl. Phys. B 320 (FS), 649 (1989)
+* [[Krzysztof Gawedzki]], A. Kupiainen, _Coset construction from functional integrals_, Nucl. Phys. B **320** (FS), 649 (1989)
 
 * [[Krzysztof Gawedzki]], in _From Functional Integration, Geometry and Strings_, ed. by Z. Haba and J. Sobczyk (Birkhaeuser, 1989).
 
-The (curvature of the)gauged WZW term was recognized/described as a  [[cocycle]] in [[equivariant de Rham cohomology]] is in the appendix of 
+The (curvature of the) gauged WZW term was recognized/described as a  [[cocycle]] in [[equivariant de Rham cohomology]] is in the appendix of 
 
-* {#Witten92} [[Edward Witten]], _On holomorphic factorization of WZW and coset models_,  Comm. Math. Phys. Volume 144, Number 1 (1992), 189-212. ([EUCLID](http://projecteuclid.org/euclid.cmp/1104249222))
+* {#Witten92} [[Edward Witten]], _On holomorphic factorization of WZW and coset models_,  Comm. Math. Phys. **144**1 (1992) 189-212. &lbrack;[euclid](http://projecteuclid.org/euclid.cmp/1104249222)&rbrack;
  
 
 This is expanded on in 
 
 * {#FigueroaOFarrillStanciu94} [[José Figueroa-O'Farrill]], [[Sonia Stanciu]], _Gauged Wess-Zumino terms and Equivariant Cohomology_, Phys. Lett. B **341** (1994) 153-159 &lbrack;[arXiv:hep-th/9407196](http://arxiv.org/abs/hep-th/9407196), <a href="https://doi.org/10.1016/0370-2693(94)90304-2">doi:10.1016/0370-2693(94)90304-2</a>&rbrack;
 
-* [[José de Azcárraga]],  J. C. Perez Bueno, _On the general structure of gauged Wess-Zumino-Witten terms_ ([arXiv:hep-th/9802192](http://arxiv.org/abs/hep-th/9802192))
+* [[José de Azcárraga]],  J. C. Perez Bueno, _On the general structure of gauged Wess-Zumino-Witten terms_ &lbrack;[arXiv:hep-th/9802192](http://arxiv.org/abs/hep-th/9802192)&rbrack;
   
 A quick review of this class of 3-cocycles in equivariant de Rham cohomology is also in section 4.1 of 
 
-* Hugo Garcia-Compean, Pablo Paniagua, [[Bernardo Uribe]], _Equivariant extensions of differential forms for non-compact Lie groups_ ([arXiv:1304.3226](http://arxiv.org/abs/1304.3226))
+* Hugo Garcia-Compean, Pablo Paniagua, [[Bernardo Uribe]], _Equivariant extensions of differential forms for non-compact Lie groups_ &lbrack;[arXiv:1304.3226](http://arxiv.org/abs/1304.3226)^rbrack;
 
 which further generalizes the discussion to non-compact Lie groups.
 
