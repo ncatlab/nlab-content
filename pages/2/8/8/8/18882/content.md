@@ -20,7 +20,7 @@
 
 Give a [[field theory]] (for instance a [[Lagrangian field theory]]) whose [[field bundle]] is a [[vector bundle]], then the [[space of sections]] of the field bundle, hence the [[space of field histories]], is canonically a [[vector space]] and hence it makes sense to consider [[observables]] which are [[linear functions]], or [[quadratic functions]] of the [[field histories]], etc. A [[sum]] of such is a _polynomial observable_.
 
-Since linear smooth observables are [[compactly supported distributions]] (see at _[[distributions are the smooth linear functionals]]_) polynomial observables are sums of [[diagonals]] of [[distributions of several variables]].
+Since linear smooth observables are [[compactly supported distributions]] (see at _[[distributions are the smooth linear functionals]]_), polynomial observables are sums of [[diagonals]] of [[distributions of several variables]].
 
 If all these distributional coefficients are [[non-singular distributions]] one speaks of _regular observables_.
 
