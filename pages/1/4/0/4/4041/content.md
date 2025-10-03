@@ -22,7 +22,7 @@ A **free $C$-object** on $x$ with respect to $U$ is an [[object]] of $C$ that sa
 
 If $U$ actually has a [[left adjoint]], then $F(x)$ is a free $C$-object on $x$ for every $x$, and conversely if there exists a free $C$-object on every $x\in D$ then $U$ has a left adjoint.  But individual free objects can exist without the whole left adjoint functor existing.  In general, we have a "partially defined adjoint", or $J$-[[relative adjoint]] where $J$ is the inclusion of a [[full subcategory]] (on those objects admitting free objects).
 
-More precisely: a __free $C$-object on $x$__ consists of an object $y\in C$ together with a [[morphism]] $\eta_x \colon x\to U y$ in $D$ such that for any other $z\in C$ and morphism $f\colon x\to U z$ in $D$, there exists a unique $g\colon y\to z$ in $C$ with $U(g) \circ \eta_x = f$.  
+More precisely: a __free $C$-object on $x \in D$__ consists of an object $y\in C$ together with a [[morphism]] $\eta_x \colon x\to U y$ in $D$ such that for any $z\in C$ and morphism $f\colon x\to U z$ in $D$, there exists a unique $g\colon y\to z$ in $C$ with $U(g) \circ \eta_x = f$.  
 
 In other words, it is an [[initial object]] of the [[comma category]] $(x/U)$.  A free $C$-object on $x$ is also sometimes called a **universal arrow** from $x$ to the functor $U$.  It can also be identified with a [[semi-final lift]] of an empty $U$-structured [[sink]]. 
 
