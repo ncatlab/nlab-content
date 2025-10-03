@@ -14,10 +14,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -67,8 +65,10 @@ Reviews:
 
 * {#Gawedzki99} [[Krzysztof Gawędzki]], *Conformal field theory: a case study*, in Y. Nutku, C. Saclioglu, T. Turgut (eds.) *Conformal Field Theory -- New Non-perturbative Methods In String And Field Theory*, CRC Press (2000) &lbrack;[arXiv:hep-th/9904145](https://arxiv.org/abs/hep-th/9904145), [doi:10.1201/9780429502873](https://doi.org/10.1201/9780429502873)&rbrack;
 
+* {#Witten96} [[Edward Witten]], section 2 of: _Five-Brane Effective Action In M-Theory_ J. Geom. Phys. **22** (1997) 103-133 &lbrack;[arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234)&rbrack;
 
-* {#Witten96} [[Edward Witten]], section 2 of _Five-Brane Effective Action In M-Theory_ J. Geom. Phys. 22: 103-133, 1997 ([arXiv:hep-th/9610234](http://arxiv.org/abs/hep-th/9610234))
+* Tran Quang Loc: *Wess-Zumino-Witten models and their correspondence to Chern-Simons theories* &lbrack;[pdf](https://github.com/quangloctran/quangloctran.github.io/blob/master/essay.pdf), [pdf](https://indico.in2p3.fr/event/19437/contributions/89681/attachments/61365/83940/vsop26_TranQuangLoc.pdf), [[Loc-WZWCS.pdf:file]]&rbrack;
+
 
 The relation of this $CS_3/WZW_2$-duality to the [[AdS-CFT correspondence]];
 
