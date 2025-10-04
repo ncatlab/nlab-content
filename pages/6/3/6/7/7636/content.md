@@ -1,4 +1,3 @@
-[[!redirects relation between type theory and category theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -566,6 +565,7 @@ On the [[internal language]] of [[locally cartesian closed (infinity,1)-categori
 
 * [[El Mehdi Cherradi]], _Internal languages of locally cartesian closed $(\infty,1)$-categories_ &lbrack;[arXiv:2509.03371](https://arxiv.org/abs/2509.03371)&rbrack;
 
+[[!redirects relation between type theory and category theory]]
 [[!redirects relation between category theory and type theory]]
 [[!redirects the relation between type theory and category theory]]
 [[!redirects the relation between category theory and type theory]]
