@@ -72,7 +72,9 @@ Analogous discussion for embeddings with less supersymmetry, corresponding to [[
 
 * Varun Gupta, *More Holographic M5 branes in $\mathrm{AdS}_7 \times S^4$*, Phys. Lett. B **853** (2024) 138650 \[<a href="https://doi.org/10.1016/j.physletb.2024.138650">doi:10.1016/j.physletb.2024.138650</a>, [arXiv:2301.02528](https://arxiv.org/abs/2301.02528)\]
 
+Explicit realization of the [[superembedding formalism|superembedding]] of the holographic [[M5-brane]]:
 
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Holographic M-Brane Super-Embeddings]]*, Reviews in Mathematical Physics (2025) \[<a href="https://arxiv.org/abs/2408.09921">arXiv:2408.09921</a>, [doi:10.1142/S0129055X25500230](https://doi.org/10.1142/S0129055X25500230)\]
 
 
 
