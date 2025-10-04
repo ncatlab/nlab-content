@@ -43,7 +43,7 @@ $$
     \mathrm{d} G_{p+1} & = 0
     \\
     \mathrm{d} G_{p+2} & = G_2 \wedge G_{p+1} 
-    \,,
+    \mathrlap{\,;}
   \end{aligned}
 $$
 
@@ -80,7 +80,7 @@ In [Howe, Raetzel & Sezgin 1998, p 3](#HoweRaetzelSezgin98) this is claimed for 
 ### $L_1$-brane
   {#L1Brane}
 
-For $p = 1$ the [above](#Idea) [[Bianchi identities]] read
+For $p = 1$ the [above](#Idea) [[Bianchi identities]] read:
 
 $$
   \begin{aligned}
@@ -89,12 +89,13 @@ $$
     \mathrm{d} G_3 & = G_2 \wedge G_2
     \\
     \mathrm{d} H_1 & = \phi^\ast G_2
+    \mathrlap{\,.}
   \end{aligned}
 $$
 
 The first two are the Bianchi identities of [[5D Maxwell-Chern-Simons theory]], hence of the gauge sector of minimal [[D=5 supergravity]].
 
-There is a close structural analogy between this [[D=5 supergravity|D=5]] and [[D=11 supergravity]]. The latter has Bianchi identities
+There is a close [structural analogy](D=5+supergravity#ViaCYCompactificationOf11dSupergravity) between this [[D=5 supergravity]] on one hand and [[D=11 supergravity]] on the other. The latter has [[Bianchi identities]] (for the [[supergravity C-field]] [[flux densities]] $G_4$ and $G_7$) of this form:
 
 $$
   \begin{aligned}
@@ -102,11 +103,14 @@ $$
     \\
     \mathrm{d} G_7 & = G_4 \wedge G_4
     \\
-    \mathrm{d} H_3 & = \phi^\ast G_2
+    \mathrm{d} H_3 & = \phi^\ast G_4
+    \mathrlap{\,,}
   \end{aligned}
 $$
 
-where in the last line $H_3$ is the [[self-dual higher gauge field|chiral flux]] on the [[M5-brane]] worldvolume. This makes the $L_1$-brane structure above look like it matches the [[probe brane]] version of the known [[black string]] of [[D=5 supergravity]].
+where in the last line $H_3$ is the [[self-dual higher gauge field|chiral flux]] on the [[M5-brane]] worldvolume. 
+
+This makes the $L_1$-brane structure above look like it matches the [[probe brane]] version of the known [[black string]] [of](black+string#ReferencesIn5DSuGra) [[D=5 supergravity]].
 
 
 
