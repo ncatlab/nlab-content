@@ -1,4 +1,3 @@
-[[!redirects codiscrete objects]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -14,9 +13,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Definition
 
@@ -50,7 +47,7 @@ If $\mathcal{E}$ has a [[terminal object]] that is preserved by $\Gamma$, then $
 
 =--
 
-This is ([Shulman, theorem 1](#Shulman)).
+This is [Shulman, theorem 1](#Shulman).
 
 
 +-- {: .num_prop}
@@ -75,4 +72,5 @@ This is ([Shulman, theorem 2](#Shulman)).
 * {#Shulman} [[Mike Shulman]], _Discreteness, Concreteness, Fibrations, and Scones_ ([blog post](http://golem.ph.utexas.edu/category/2011/11/discreteness_concreteness_fibr.html))
  
 
-[[!redirects concrete objects]]
+[[!redirects codiscrete objects]]
+
