@@ -131,6 +131,14 @@ Black holes in [[supergravity]]:
 
 * Antonio Gallerati, _Constructing black hole solutions in supergravity theories_ ([arXiv:1905.04104](https://arxiv.org/abs/1905.04104))
 
+#### In 5D supergravity
+ {#ReferencesBlackHolesIn5DSupergravity}
+
+Black holes in [[D=5 supergravity]] (for more see [there](5D+supergravity#ReferencesBlackHolesAndBlackStrings) and cf. *[[black ring]]* and *[[black string]]*):
+
+* [[Jerome P. Gauntlett]], [[Robert C. Myers]], [[Paul K. Townsend]]: *Black Holes of D=5 Supergravity*, Class. Quant. Grav. **16** (1999) 1-21 &lbrack;[arXiv:hep-th/9810204](https://arxiv.org/abs/hep-th/9810204), [doi:10.1088/0264-9381/16/1/001](https://doi.org/10.1088/0264-9381/16/1/001)&rbrack;
+
+
 
 ### Holographic description
 
