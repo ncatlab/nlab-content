@@ -113,9 +113,9 @@ On the [[moduli spaces of Yang-Mills monopoles]]:
 
 
 
-On [[knot theory]] and [[Chern-Simons theory]]:
+On [[knot theory]] and [[Chern-Simons theory]] via [[geometric quantization]] (cf. *[[quantization of 3D Chern-Simons theory]]*):
 
-* [[Michael Atiyah]], _The Geometry and Physics of Knots_,  Cambridge University Press 1990 ([doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868))
+* {#Atiyah90} [[Michael Atiyah]]: *The Geometry and Physics of Knots*,  Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868), [pdf](http://lib.ysu.am/open_books/417997.pdf)&rbrack;
 
 
 On [[skyrmions]] from [[Kaluza-Klein theory|KK-reduction]] of [[instantons]] in [[D=5 Yang-Mills theory]] ([[hadron Kaluza-Klein theory]]):
