@@ -17,6 +17,7 @@
 \tableofcontents
 
 ## Idea
+ {#Idea}
 
 By reference to the [[superembedding formalism]] for [[super p-branes]], the existence of "$L_p$-branes" has been argued &lbrack;[Howe & Sezgin 1997, p. 8](#HoweSezgin97a)&rbrack;, for small [[natural numbers]] $p$, with the following properties:
 
@@ -73,6 +74,41 @@ $$
 $$
 
 In [Howe, Raetzel & Sezgin 1998, p 3](#HoweRaetzelSezgin98) this is claimed for $p \in \{1,2,3,4,5\}$. The followup article [Howe, Raetzel & Rudychev 1999](#HoweRaetzelRudychev99) considers it for $p \in \{3,4,5\}$.
+
+## Examples
+
+### $L_1$-brane
+  {#L1Brane}
+
+For $p = 1$ the [above](#Idea) [[Bianchi identities]] read
+
+$$
+  \begin{aligned}
+    \mathrm{d} G_2 & = 0
+    \\
+    \mathrm{d} G_3 & = G_2 \wedge G_2
+    \\
+    \mathrm{d} H_1 & = \phi^\ast G_2
+  \end{aligned}
+$$
+
+The first two are the Bianchi identities of [[5D Maxwell-Chern-Simons theory]], hence of the gauge sector of minimal [[D=5 supergravity]].
+
+There is a close structural analogy between this [[D=5 supergravity|D=5]] and [[D=11 supergravity]]. The latter has Bianchi identities
+
+$$
+  \begin{aligned}
+    \mathrm{d} G_4 & = 0
+    \\
+    \mathrm{d} G_7 & = G_4 \wedge G_4
+    \\
+    \mathrm{d} H_3 & = \phi^\ast G_2
+  \end{aligned}
+$$
+
+where in the last line $H_3$ is the [[self-dual higher gauge field|chiral flux]] on the [[M5-brane]] worldvolume. This makes the $L_1$-brane structure above look like it matches the [[probe brane]] version of the known [[black string]] of [[D=5 supergravity]].
+
+
 
 ## References
 
