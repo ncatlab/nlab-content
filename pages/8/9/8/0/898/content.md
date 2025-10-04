@@ -46,7 +46,7 @@ All this may be rephrased in more elementary terms by saying that:
 
 * For any two [[parallel morphisms]] $f,g:c_1\to c_2$ in $C$, there exists a morphism $h:c_2\to c_3$ such that $h f = h g$.
 
-Just as all finite [[colimit|colimits]] can be constructed from initial objects, binary coproducts, and coequalizers, so a cocone on any finite diagram can be constructed from these three.
+Just as all finite [[colimit|colimits]] can be constructed from initial objects, binary coproducts, and coequalizers, so a cocone on any finite diagram can be constructed from these three.  However, the reduction is a little more sophisticated; see Theorem \ref{FilteredReduction} below.
 
 In [[constructive mathematics]], the elementary rephrasing above is equivalent to every [[Bishop-finite]] diagram admitting a cocone.
 
@@ -55,6 +55,28 @@ In [[constructive mathematics]], the elementary rephrasing above is equivalent t
 More generally, if $\kappa$ is an infinite [[regular cardinal]] (or an [[arity class]]), then a **$\kappa$-filtered category** is one such that any diagram $D\to C$ has a cocone when $D$ has $\lt \kappa$ arrows, or equivalently that any functor $F: D \to C$ whose domain has fewer than $\kappa$ morphisms admits an extension $\tilde{F}: D^+ \to C$. The usual filtered categories are then the case $\kappa = \omega$, i.e., where the $D$ have fewer than $\omega$ morphisms (in other words are finite).  (We could also say in this case "$\aleph_0$-filtered", but $\omega$-filtered is more usual in the literature.) 
 
 Note that a [[preorder]] is $\kappa$-filtered as a category just when it is $\kappa$-[[direction|directed]] as a preorder.
+
+Higher filteredness can also be reduced to two special cases, as observed (without proof) in [Makkai-Paré](#MakkaiParé1989):
+
+\begin{theorem}\label{FilteredReduction}
+A category is $\kappa$-filtered if and only if it admits a cocone under every diagram of one of the following shapes:
+
+* The discrete category with $\lambda$ objects, for any $\lambda\lt\kappa$.
+
+* The category with two objects and $\lambda$ parallel arrows between them, for any $\lambda\lt\kappa$.
+
+\end{theorem}
+\begin{proof}
+Let $C$ have cocones under diagrams of the specified shapes, and let $F:D\to C$ where $D$ has $\lt\kappa$ arrows.  First, let $x\in C$ be the vertex of a cocone under the discrete diagram $ob(F) : ob(D) \to C$ of all the objects in $C$, with coprojections $p_a:F a\to x$ for all $a\in ob (D)$.
+
+Second, for any morphism $f:a\to b$ in $D$, there are two morphisms $p_a : F a \to x$ and $p_b\circ F f : F a \to x$.  Together these form a diagram of the second sort, with $\lambda=2$; let $q_a : x \to y_a$ be a cocone under it.
+
+Third, let $z$ be the vertex of a cocone under the discrete diagram $G:ob(D) \to C$ where $G(a) = y_a$, with coprojections $r_a : y_a \to z$.
+
+Fourth, for each $a\in D$ we have a composite morphism $r_a \circ q_a : x \to z$.  Together these form a diagram of the second sort; let $s:z \to w$ be a cocone under it.
+
+Finally, the composite morphisms $s \circ r_a\circ q_a \circ p_a$ form a cocone under the original diagram $F:D\to C$.
+\end{proof}
 
 In [ABLR](#ABLR), they use the term **$\infty$-filtered** for a category that is $\kappa$-filtered for every cardinal $\kappa$. Thus, an $\infty$-filtered category is equivalently one in which every small diagram admits a cocone.
 
@@ -90,6 +112,11 @@ If $\mathcal{J}$ is the class consisting of the [[terminal category]] and the [[
 * [[filtered colimit]]
 
 ## References
+
+* {#MakkaiParé1989} [[Michael Makkai]], [[Robert Paré]],  _Accessible categories: The foundations of categorical model theory_,  Contemporary Mathematics **104**, American Mathematical Society, (1989) &lbrack;[ISBN:978-0-8218-7692-3](https://bookstore.ams.org/conm-104)&rbrack;
+
+* {#AdámekRosický1994} [[Jiří Adámek]], [[Jiří Rosický]], *[[Locally presentable and accessible categories]]*, London Mathematical Society Lecture Note Series **189**, Cambridge University Press (1994) &lbrack;[doi:10.1017/CBO9780511600579](https://doi.org/10.1017/CBO9780511600579)&rbrack;
+
 
 * {#ABLR} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], and [[Jiří Rosický]], _A classification of accessible categories_, Journal of Pure and Applied Algebra **175** 1-3 (2002) 7-30 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(02)00126-3">doi:10.1016/S0022-4049(02)00126-3</a>&rbrack;
 
