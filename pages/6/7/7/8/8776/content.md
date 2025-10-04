@@ -366,6 +366,17 @@ See also:
 
 * Alexandru Dima, Pierre Heidmann, Marco Melis, Paolo Pani, Gela Patashuri: *The Great Impersonation: $\mathcal{W}$-Solitons as Prototypical Black Hole Microstates* &lbrack;[arXiv:2509.18245](https://arxiv.org/abs/2509.18245)&rbrack;
 
+On [[black strings]] in [[D=5 gravity]]/[[D=5 supergravity]] from [[M5-branes]] [[wrapped brane|wrapped]] on [[4-manifolds]]:
+
+* [[David Kastor]], Section 3 of: _From wrapped M-branes to Calabi-Yau black holes and strings_, JHEP 0307 (2003) 040 &lbrack;[arXiv:hep-th/0305261](https://arxiv.org/abs/hep-th/0305261)&rbrack;
+
+On [[anti de Sitter spacetime|AdS]] [[near horizon geometry]] of [[black holes]] and [[black strings]] in 5D:
+
+* Akira Fujii, Ryuji Kemmoku: *$D=5$ Simple Supergravity on $AdS_2 \times S^3$* &lbrack;[arXiv:hep-th/9903231](https://arxiv.org/abs/hep-th/9903231)&rbrack;
+
+* Akira Fujii, Ryuji Kemmoku, S. Mizoguchi: *$D=5$ Simple Supergravity on $AdS_{3} \times S^{2}$ and $N=4$ Superconformal Field Theory* &lbrack;[arXiv:hep-th/9811147](https://arxiv.org/abs/hep-th/9811147)&rbrack;
+
+
 
 
 [[!redirects 5d supergravity]]
