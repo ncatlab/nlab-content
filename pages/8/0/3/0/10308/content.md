@@ -38,7 +38,7 @@ Existing literature knows three sectors of this problem, which overlap but do no
 
 The known relation between the second and the third point here is the following:
 
-That the complex-geometric [[modular functor]] obtained from [[geometric quantization]] of Chern-Simons theory as in ([Axelrod-Pietra-Witten 91](#AxelrodPietraWitten91), [Hitchin 90](#Hitchin90)) coincides with that of [[conformal blocks]] of the [[WZW model]] was shown in ([Laszlo 98](#Laszlo98),see also [Andersen 11](#Andersen11), [Andersen 12](#Andersen12)).
+That the complex-geometric [[modular functor]] obtained from [[geometric quantization]] of Chern-Simons theory as in ([Axelrod-Pietra-Witten 91](#AxelrodPietraWitten91), [Hitchin 90](#Hitchin90)) coincides with that of [[conformal blocks]] of the [[WZW model]] was shown in ([Laszlo 98](#Laszlo98), see also [Andersen 11](#Andersen11), [Andersen 12](#Andersen12)).
 That this in turn indeed satisfies the required [[sewing law]] (and hence really is a modular functor in the strong sense) was shown in ([Tsuchiya-Ueno-Yamada](#TsuchiyaUenoYamada)). By [deprojectivization](modular%20functor#TopologicalLift) these constructions yield a topological modular functor of the form also obtained from the [[Reshetikhin-Turaev construction]].
 
 These (topological) modular functors are fixed by their [[genus]]-0 data ([Andersen-Ueno 06](#AndersenUeno06)) which is equivalently the datum of a (weakly) [[modular tensor category]]. Hence for matching [[geometric quantization]] of 3d Chern-Simons theory to the [[Reshetikhin-Turaev construction]] one has to match the [[modular tensor categories]] obtained from the [[conformal blocks]] of the [[WZW model]] in genus-0 to that associated with the coresponding [[quantum groups]]. This works ([Ostrik 14](#Ostrik14)).
@@ -152,6 +152,7 @@ Discussion of [[equivariant elliptic cohomology]] (see there at _[interpretation
 
 * [[equivariant elliptic cohomology]]
 
+
 ## References
  {#References}
 
@@ -160,29 +161,33 @@ Discussion of [[equivariant elliptic cohomology]] (see there at _[interpretation
 
 Discussion of [[non-perturbative QFT|non-perturbative]] [[geometric quantization]] of [[Chern-Simons theory]]:
 
-Basics are recalled for instance in
+Basics are recalled for instance in:
 
-* Fernando Falceto, [[Krzysztof Gawedzki]], _Chern-Simons States at Genus One_, Commun.Math.Phys. 159 (1994) 549-580 ([arXiv:hep-th/9211003](http://arxiv.org/abs/hep-th/9211003))
+* Fernando Falceto, [[Krzysztof Gawedzki]], _Chern-Simons States at Genus One_, Commun. Math. Phys. **159** (1994) 549-580 ([arXiv:hep-th/9211003](http://arxiv.org/abs/hep-th/9211003))
 
 * {#Gawedzki99} [[Krzysztof Gawedzki]], *Conformal field theory: a case study*, in Y. Nutku, C. Saclioglu, T. Turgut (eds.) *Conformal Field Theory -- New Non-perturbative Methods In String And Field Theory*, CRC Press (2000) &lbrack;[arXiv:hep-th/9904145](https://arxiv.org/abs/hep-th/9904145), [doi:10.1201/9780429502873](https://doi.org/10.1201/9780429502873)&rbrack;
 
-* Yasuhiro Abe, _Application of abelian holonomy formalism to the elementary theory of numbers_ ([arXiv:1005.4299](http://arxiv.org/abs/1005.4299))
+* Yasuhiro Abe, _Application of abelian holonomy formalism to the elementary theory of numbers_ &lbrack;[arXiv:1005.4299](http://arxiv.org/abs/1005.4299)&rbrack;
 
-The [[geometric quantization]] of 3d CS theory in codimension 1 is due to 
+The [[geometric quantization]] of 3d CS theory in codimension 1 is due to:
 
-* {#AxelrodPietraWitten91} [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. 33 (1991), 787-902.  ([EUCLID](http://projecteuclid.org/euclid.jdg/1214446565))
+* {#AxelrodPietraWitten91} [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. **33** (1991) 787-902  &lbrack;[euclid:jdg/1214446565](http://projecteuclid.org/euclid.jdg/1214446565)&rbrack;
 
-* {#Hitchin90} [[Nigel Hitchin]], _Flat connections and geometric quantization_, Comm. Math. Phys. Volume 131, Number 2 (1990), 347-380. ([Euclid](http://projecteuclid.org/euclid.cmp/1104200841))
+* {#Hitchin90} [[Nigel Hitchin]]: _Flat connections and geometric quantization_, Comm. Math. Phys. **131** 2 (1990) 347-380 &lbrack;[euclid:cmp/1104200841](http://projecteuclid.org/euclid.cmp/1104200841)&rbrack;
+  > (cf. at _[[Hitchin connection]]_)
 
-(see also at _[[Hitchin connection]]_).
+See also:
+
+* {#Atiyah90} [[Michael Atiyah]], Section 5 of: *The Geometry and Physics of Knots*,  Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868), [pdf](http://lib.ysu.am/open_books/417997.pdf)&rbrack;
+
 
 The [[3d TQFT]] candidate for quantum CS theory in the form of the [[Reshetikhin-Turaev construction]] and the corresponding [[modular tensor category]] data is discussed in
 
-* {#ReshetikhinTuraev91} [[Nicolai Reshetikhin]], [[Vladimir Turaev]], _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. 103 (1991), no. 3, 547&#8211;597. ([pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf))
+* {#ReshetikhinTuraev91} [[Nicolai Reshetikhin]], [[Vladimir Turaev]], _Invariants of 3-manifolds via link polynomials and quantum groups_. Invent. Math. **103** 3 (1991) 547-597 &lbrack;[pdf](http://mathlab.snu.ac.kr/~top/quantum/article/Reshetikhin01.pdf)&rbrack;
 
-* {#BakalovKirillov} B. Bakalov & [[Alexandre Kirillov]], _Lectures on tensor categories and modular functors_ AMS, University Lecture Series, (2000) ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)). 
+* {#BakalovKirillov} [[Bojko Bakalov]], [[Alexandre Kirillov]]: _Lectures on tensor categories and modular functors_ AMS, University Lecture Series (2000) ([web](http://www.math.sunysb.edu/~kirillov/tensor/tensor.html)). 
 
-* {#Sawin06} [[Stephen Sawin]], _Quantum groups at roots of unity and modularity_ J. Knot Theory Ramifications 15 (2006), no. 10, 1245&#8211;1277 ([arXiv:0308281](http://arxiv.org/abs/math/0308281))
+* {#Sawin06} [[Stephen Sawin]], _Quantum groups at roots of unity and modularity_ J. Knot Theory Ramifications **15** 10 (2006) 1245-1277 &lbrack;[arXiv:0308281](http://arxiv.org/abs/math/0308281)&rbrack;
 
 * {#Ostrik14} [[Victor Ostrik]], _[MO comment August 2014](http://mathoverflow.net/a/178304/381)_
 
