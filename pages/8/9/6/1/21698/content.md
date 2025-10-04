@@ -31,6 +31,7 @@ When $R$ happens to be a [[connective spectrum|connective]] [[E-infinity ring|$E
 The [[red-shift conjecture]] says that this iteration plays a special role in [[chromatic homotopy theory]].
 
 ### On topological K-theory
+ {#OnTopologicalKTheory}
 
 The construction of iterated algebraic K-theory has received particular attention for the case that $R = $ [[ku]] is the [[connective spectrum|connective]] [[ring spectrum]] [[Brown representability theorem|representing]] [[complex vector bundle|complex]] [[topological K-theory]].
 
