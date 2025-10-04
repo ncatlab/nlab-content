@@ -27,14 +27,14 @@ A [[local topos]] is a [[topos]] equipped with a [[sharp modality]] $\sharp$.
 \begin{definition}
 \label{Concretification}
 
-For $X$ any object of the topos, the [[image]] projection of the [[unit of a monad|unit]] $\epsilon^{\sharp}_X \colon X \to \sharp X$ is the _concretification_ of $X$
+For $X$ any object of the topos, the [[image]] projection of the [[unit of a monad|unit]] $\eta^{\sharp}_X \colon X \to \sharp X$ is the _concretification_ of $X$
 
 \[
   \label{ConcretificationAsSharpUnitImage}
   (X \to \sharp_1 X) 
   \coloneqq
   \big(
-    X \twoheadrightarrow im(\epsilon^\sharp_X) 
+    X \twoheadrightarrow im(\eta^\sharp_X) 
   \big)
   \,.
 \]
@@ -45,7 +45,7 @@ For $X$ any object of the topos, the [[image]] projection of the [[unit of a mon
  {#Properties}
 
 \begin{lemma}  
-Given a [[morphism]] $f \colon X \longrightarrow Y$ into a [[concrete object]] $Y$, in that $Y \overset{\sim}{\twoheadrightarrow} \sharp_1 Y $, it factors uniquely through the concretification unit $\epsilon^\sharp_X$, so that we have a [[natural bijection]] of [[hom-sets]]
+Given a [[morphism]] $f \colon X \longrightarrow Y$ into a [[concrete object]] $Y$, in that $Y \overset{\sim}{\twoheadrightarrow} \sharp_1 Y $, it factors uniquely through the concretification unit $\eta^\sharp_X$, so that we have a [[natural bijection]] of [[hom-sets]]
 $$
   Y\;\text{concrete}
   \;\;\;\;\;\;\;\;\;\;
@@ -57,7 +57,9 @@ $$
     Y
   \big)
   \xrightarrow[\sim]{\phantom{--}
-    (\iota^\sharp_X)^\ast 
+    \big(
+      X \twoheadrightarrow \sharp_1 X
+    \big)^\ast 
   \phantom{--}}
   Hom\big(
     X
@@ -82,7 +84,7 @@ Consider the following [[diagram]] of given solid arrows, which [[commuting diag
   \ar[
     dd,
     bend right=30,
-    "{ \epsilon^\sharp_X }"{swap}
+    "{ \eta^\sharp_X }"{swap}
   ]
   \ar[
     rr,
@@ -97,7 +99,7 @@ Consider the following [[diagram]] of given solid arrows, which [[commuting diag
   \ar[
     dd,
     bend left=30,
-    "{ \epsilon^\sharp_Y }"
+    "{ \eta^\sharp_Y }"
   ]
   \\
   \sharp_1 X
