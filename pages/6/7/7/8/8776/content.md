@@ -370,12 +370,17 @@ On [[black strings]] in [[D=5 gravity]]/[[D=5 supergravity]] from [[M5-branes]] 
 
 On [[anti de Sitter spacetime|AdS]] [[near horizon geometry]] of [[black holes]] and [[black strings]] in 5D supergravity:
 
-* Akira Fujii, Ryuji Kemmoku: *$D=5$ Simple Supergravity on $AdS_2 \times S^3$*, Phys. Lett. B **459** (1999) 137-144 &lbrack;[arXiv:hep-th/9903231](https://arxiv.org/abs/hep-th/9903231), [doi:10.1088/0264-9381/16/3/006](https://doi.org/10.1088/0264-9381/16/3/006)&rbrack;
+* {#FujiiKemmokuMizoguchi99} Akira Fujii, Ryuji Kemmoku: *$D=5$ Simple Supergravity on $AdS_2 \times S^3$*, Phys. Lett. B **459** (1999) 137-144 &lbrack;[arXiv:hep-th/9903231](https://arxiv.org/abs/hep-th/9903231), [doi:10.1088/0264-9381/16/3/006](https://doi.org/10.1088/0264-9381/16/3/006)&rbrack;
 
-* Akira Fujii, Ryuji Kemmoku, [[Shun'ya Mizoguchi]]: *$D=5$ Simple Supergravity on $AdS_{3} \times S^{2}$ and $N=4$ Superconformal Field Theory*, Nucl. Phys. B **574** (2000) 691-718  &lbrack;[arXiv:hep-th/9811147](https://arxiv.org/abs/hep-th/9811147), <a href="https://doi.org/10.1016/S0550-3213(00)00018-3">doi:10.1016/S0550-3213(00)00018-3</a>&rbrack;
+* {#FujiiKemmokuMizoguchi00} Akira Fujii, Ryuji Kemmoku, [[Shun'ya Mizoguchi]]: *$D=5$ Simple Supergravity on $AdS_{3} \times S^{2}$ and $N=4$ Superconformal Field Theory*, Nucl. Phys. B **574** (2000) 691-718  &lbrack;[arXiv:hep-th/9811147](https://arxiv.org/abs/hep-th/9811147), <a href="https://doi.org/10.1016/S0550-3213(00)00018-3">doi:10.1016/S0550-3213(00)00018-3</a>&rbrack;
 
 
 
 
 [[!redirects 5d supergravity]]
+[[!redirects 5D supergravity]]
 [[!redirects 5-dimensional supergravity]]
+
+
+
+
