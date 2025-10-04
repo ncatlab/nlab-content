@@ -530,7 +530,6 @@ The [[Green-Schwarz action functional]]-type [[sigma-model]] of the (single) M5-
 generally following
 
 * [[Paul Townsend]], section 3.3 of: *D-branes from M-branes*, Phys. Lett. B **373** (1996) 68-75 &lbrack;[arXiv:hep-th/9512062](https://arxiv.org/abs/hep-th/9512062), <a href="https://doi.org/10.1016/0370-2693(96)00104-9">doi:10.1016/0370-2693(96)00104-9</a>&rbrack;
-
   > (which did not yet have the [[Hopf-Wess-Zumino term]])
 
 and using the covariant mechanism for [[self-dual higher gauge fields]] from 
@@ -559,9 +558,10 @@ and using the [[superembedding approach]] in
 
 * {#HoweSezgin97} [[Paul Howe]], [[Ergin Sezgin]], _$D=11$, $p=5$_, Phys. Lett. B **394** (1997) 62-66 &lbrack;[arXiv:hep-th/9611008](https://arxiv.org/abs/hep-th/9611008), <a href="https://doi.org/10.1016/S0370-2693(96)01672-3">doi:10.1016/S0370-2693(96)01672-3</a>&rbrack;
 
-see
-
 * {#Sorokin99} [[Dmitri Sorokin]], Section 5.2 of: _Superbranes and Superembeddings_, Phys. Rept. **329** (2000) 1-101 &lbrack;[arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142), <a href="https://doi.org/10.1016/S0370-1573(99)00104-0">doi:10.1016/S0370-1573(99)00104-0</a>&rbrack;
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Holographic M-Brane Super-Embeddings]]*, Reviews in Mathematical Physics (2025) \[<a href="https://arxiv.org/abs/2408.09921">arXiv:2408.09921</a>, [doi:10.1142/S0129055X25500230](https://doi.org/10.1142/S0129055X25500230)\]
+  > (concrete example of the [holographic](AdS-CFT+correspondence#ReferencesMicroscopicAdSCFTViapBraneSigmaModesl) [[superembedding formalism|superembedding]] of the probe M5 into its own $AdS_7$ [[near horizon geometry]])
 
 Amplification that the resulting B-field on the M5-brane is *not naively* [[self-dual higher gauge field|self-dual]]:
 
