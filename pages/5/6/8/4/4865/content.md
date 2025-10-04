@@ -150,6 +150,10 @@ And it seems that this is the same term later also redicovered around equation (
 
 > (hm, check)
 
+
+## Properties
+
+
 ### BPS states
 
 The basic [[BPS states]] of 11d SuGra are
@@ -163,6 +167,17 @@ The basic [[BPS states]] of 11d SuGra are
 * the [[Kaluza-Klein monopole]]
 
 (e.g. [EHKNT 07](#EHKNT07))
+
+
+
+
+### Relation to 5D supergravity
+ {#RelationTo5DSupergravity}
+
+
+[[!include analogy between 11D and 5D SuGra -- table]]
+
+
 
 
 ## Related concepts
