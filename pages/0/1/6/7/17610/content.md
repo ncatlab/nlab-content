@@ -27,6 +27,10 @@ Their [[KK-reduction]] down to 4 dimensions yields again ordinary black holes. T
 
 * [[D=5 Einstein-Maxwell theory]]
 
+* [[D=5 Maxwell-Chern-Simons theory]]
+
+* [[D=5 supergravity]]
+
 ## References
 
 The first black ring solution was found, in [[D=5 gravity]], in 
@@ -37,8 +41,6 @@ The first black ring solution was found, in [[D=5 gravity]], in
 The first black ring solution was found, in [[D=5 supergravity]], in:
 
 * [[Henriette Elvang]], [[Roberto Emparan]], [[David Mateos]], [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
-
-
 
 
 Review:
