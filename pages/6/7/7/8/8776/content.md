@@ -18,6 +18,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -96,7 +97,7 @@ with $G_7 = \star G_4$.
 
 
 
-### Black holes and black rings
+### Black holes and black (st)rings
 
 The first [[black ring]] solution in 5d sugra was found in ([Elvang-Emparan-Mateos-Reall 04](#ElvangEmparanMateosReall04), [Elvang-Emparan-Mateos-Reall 05](#ElvangEmparanMateosReall05)).
 
@@ -106,12 +107,13 @@ Supersymmetric black holes exist precisely only in dimensions 4 and 5 ([Gauntlet
 the spacetime in that case is asymptotically [[anti-de Sitter spacetime]] rather than asymptotically flat. Of course, there are non-singular supersymmetric [[black brane]] solutions in various $d \geq 4$ supergravity theories but these are neither 'particle-like' nor, strictly speaking,
 asymptotically flat.)
 
-### Via Calabi-Yau compactification of 11d supergravity
+### Relation to 11D supergravity
  {#ViaCYCompactificationOf11dSupergravity}
 
-Discussion of 5d supergravity as a [[KK-compactification]] of [[11-dimensional supergravity]] on a [[Calabi-Yau manifold]] of complex dimension 3 ([[M-theory on Calabi-Yau manifolds]]) is discussed in
 
-([Hull-Townsend 95, p.30-31](#HullTownsend95), [Cadavid-Ceresole-D'Auria-Ferrara 95](#CadavidCeresoleDAuriaFerrara95) [Ferrara-Khuria-Minasian 96](#FerraraKhuriaMinasian96), [Ferrara-Minasian-Sagnotti 96](#FerraraMinasianSagnotti96)). See also [Mizoguchi & Ohta 1998](#MizoguchiOhta98).
+[[!include analogy between 11D and 5D SuGra -- table]]
+
+Discussion of 5d supergravity as a [[KK-compactification]] of [[11-dimensional supergravity]] on a [[Calabi-Yau manifold]] of complex dimension 3 ([[M-theory on Calabi-Yau manifolds]]):  [Hull & Townsend 1995 p.30-31](#HullTownsend95), [Cadavid, Ceresole, D'Auria & Ferrara 1995](#CadavidCeresoleDAuriaFerrara95) [Ferrara, Khuria & Minasian 1996](#FerraraKhuriaMinasian96), [Ferrara, Minasian & Sagnotti 1996](#FerraraMinasianSagnotti96)). 
 
 
 ### U-duality
@@ -321,8 +323,9 @@ Discussion of [[KK-compactification]] on $S^1/(\mathbb{Z}/2)$-orbifolds (the ver
 
 * Filipe Paccetti Correia, Michael G. Schmidt, Zurab Tavartkiladze, _4D Superfield Reduction of 5D Orbifold SUGRA and Heterotic M-theory_ ([arXiv:hep-th/0602173](https://arxiv.org/abs/hep-th/0602173))
 
-### Black hole solutions
 
+### Black hole and black (st)ring solutions
+ {#ReferencesBlackHolesAndBlackStrings}
 
 Discussion of lifts of 4d [[black holes]] to 5d black holes and [[black rings]], and embedding as [[black holes in string theory]]:
 
