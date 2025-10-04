@@ -99,6 +99,8 @@ is the [[classifying space]] for $Aut(X)$-[[principal bundle]]s, i.e. for [[bund
 
 * [[cotangent complex]]
 
+* [[automorphism group of a Lie algebra]]
+
 ## References
 
 The general definition of $aut(\mathfrak{g})$ is the topic of p. 313 (45 of 63) and following in 
