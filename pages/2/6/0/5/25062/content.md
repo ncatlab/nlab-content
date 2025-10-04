@@ -18,6 +18,10 @@ On [[pp-wave]] [[Penrose limits]] of [[homogeneous space|homogeneous]] [[spaceti
 
 * [[José Figueroa-O'Farrill]], [[Patrick Meessen]], [[Simon Philip]], *Homogeneity and plane-wave limits*,  Journal of High Energy Physics **2005** JHEP05 (2005) &lbrack;[arXiv:hep-th/0504069](https://arxiv.org/abs/hep-th/0504069), [doi:10.1088/1126-6708/2005/05/050](https://doi.org/10.1088/1126-6708/2005/05/050)&rbrack;
 
+On [[black holes]] and [[black strings]] in [[D=5 supergravity]]:
+
+* [[Patrick Meessen]], [[Tomás Ortín]], Jan Perz, [[Carlos S. Shahbazi]]: *Black holes and black strings of $N = 2$, $d = 5$ supergravity in the H-FGK formalism*, J. High Energ. Phys. **2012** 1 (2012) \[<a href="https://doi.org/10.1007/JHEP09(2012)001">doi:10.1007/JHEP09(2012)001</a>, [arXiv:1204.0507](https://arxiv.org/abs/1204.0507)\]
+
 
 
 category: people
