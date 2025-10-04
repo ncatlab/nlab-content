@@ -34,8 +34,6 @@ $$
 
 [[!redirects derivation Lie algebras]]
 
-[[!redirects automorphism Lie algebra]]
-[[!redirects automorphism Lie algebras]]
 
 [[!redirects Lie algebra derivation]]
 [[!redirects Lie algebra derivations]]
