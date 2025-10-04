@@ -1,3 +1,4 @@
+[[!redirects relation between type theory and category theory]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -23,7 +24,7 @@
 
 ## Idea
 
-[[type theory|Type theory]] and certain kinds of [[category theory]] are closely related.  By a [[syntax-semantics duality]] one may view type theory as a formal [[syntax|syntactic]] language or _calculus_ for category theory, and conversely one may think of category theory as providing [[categorical semantics|semantics]] for type theory.  The flavor of category theory used depends on the flavor of type theory; this also extends to [[homotopy type theory]] and certain kinds of [[(∞,1)-category theory]].
+[[type theory|Type theory]] and certain kinds of [[category theory]] are closely related.  By a [[syntax-semantics duality]], one may view type theory as a formal [[syntax|syntactic]] language, or _calculus_, for category theory; conversely, one may think of category theory as providing [[semantics|semantics]] for type theory.  The kind of category theory used depends on the kind of type theory. For example, [[homotopy type theory]] and certain kinds of [[(∞,1)-category theory]] have this relationship.
  
 
 
