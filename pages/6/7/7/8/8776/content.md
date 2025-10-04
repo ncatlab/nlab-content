@@ -111,7 +111,7 @@ asymptotically flat.)
 
 Discussion of 5d supergravity as a [[KK-compactification]] of [[11-dimensional supergravity]] on a [[Calabi-Yau manifold]] of complex dimension 3 ([[M-theory on Calabi-Yau manifolds]]) is discussed in
 
-([Hull-Townsend 95, p.30-31](#HullTownsend95), [Cadavid-Ceresole-D'Auria-Ferrara 95](#CadavidCeresoleDAuriaFerrara95) [Ferrara-Khuria-Minasian 96](#FerraraKhuriaMinasian96), [Ferrara-Minasian-Sagnotti 96](#FerraraMinasianSagnotti96)). See also ([Mizoguchi-Ohta 98](#MizoguchiOhta98)).
+([Hull-Townsend 95, p.30-31](#HullTownsend95), [Cadavid-Ceresole-D'Auria-Ferrara 95](#CadavidCeresoleDAuriaFerrara95) [Ferrara-Khuria-Minasian 96](#FerraraKhuriaMinasian96), [Ferrara-Minasian-Sagnotti 96](#FerraraMinasianSagnotti96)). See also [Mizoguchi & Ohta 1998](#MizoguchiOhta98).
 
 
 ### U-duality
@@ -274,15 +274,13 @@ Discussion via [[KK-compactification]] from [[D=11 supergravity]]/[[M-theory on 
 
 * {#FerraraMinasianSagnotti96} [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]], _Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds_, Nucl. Phys. B **474** (1996) 323-342 &lbrack;[arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097)&rbrack;
 
-* {#MizoguchiOhta98} S. Mizoguchi, N. Ohta: *More on the Similarity between $D=5$ Simple Supergravity and M Theory*, Phys. Lett. B **441** (1998) 123-132 &lbrack;[arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111)&rbrack;
 
 * {#Falkowski99} [[Adam Falkowski]], *Five dimensional locally supersymmetric theories with branes*, Master Thesis, Warsaw (1999?) &lbrack;[[FalkowskiLecture.pdf:file]]&rbrack;
 
 
 See also: 
 
-* S. Mizoguchi, N. Ohta: *More on the Similarity between $D=5$ Simple Supergravity and M Theory* &lbrack;[arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111), <a href="https://doi.org/10.1016/S0370-2693(98)01122-8">doi:10.1016/S0370-2693(98)01122-8</a>&rbrack;
-
+* {#MizoguchiOhta98} [[Shun'ya Mizoguchi]], Nobuyoshi Ohta: *More on the Similarity between $D=5$ Simple Supergravity and M Theory*, Phys. Lett. B **441** (1998) 123-132 &lbrack;[arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111), <a href="https://doi.org/10.1016/S0370-2693(98)01122-8">doi:10.1016/S0370-2693(98)01122-8</a>&rbrack;
 
 
 ### Via type II theory
@@ -370,11 +368,11 @@ On [[black strings]] in [[D=5 gravity]]/[[D=5 supergravity]] from [[M5-branes]] 
 
 * [[David Kastor]], Section 3 of: _From wrapped M-branes to Calabi-Yau black holes and strings_, JHEP 0307 (2003) 040 &lbrack;[arXiv:hep-th/0305261](https://arxiv.org/abs/hep-th/0305261)&rbrack;
 
-On [[anti de Sitter spacetime|AdS]] [[near horizon geometry]] of [[black holes]] and [[black strings]] in 5D:
+On [[anti de Sitter spacetime|AdS]] [[near horizon geometry]] of [[black holes]] and [[black strings]] in 5D supergravity:
 
-* Akira Fujii, Ryuji Kemmoku: *$D=5$ Simple Supergravity on $AdS_2 \times S^3$* &lbrack;[arXiv:hep-th/9903231](https://arxiv.org/abs/hep-th/9903231)&rbrack;
+* Akira Fujii, Ryuji Kemmoku: *$D=5$ Simple Supergravity on $AdS_2 \times S^3$*, Phys. Lett. B **459** (1999) 137-144 &lbrack;[arXiv:hep-th/9903231](https://arxiv.org/abs/hep-th/9903231), [doi:10.1088/0264-9381/16/3/006](https://doi.org/10.1088/0264-9381/16/3/006)&rbrack;
 
-* Akira Fujii, Ryuji Kemmoku, S. Mizoguchi: *$D=5$ Simple Supergravity on $AdS_{3} \times S^{2}$ and $N=4$ Superconformal Field Theory* &lbrack;[arXiv:hep-th/9811147](https://arxiv.org/abs/hep-th/9811147)&rbrack;
+* Akira Fujii, Ryuji Kemmoku, [[Shun'ya Mizoguchi]]: *$D=5$ Simple Supergravity on $AdS_{3} \times S^{2}$ and $N=4$ Superconformal Field Theory*, Nucl. Phys. B **574** (2000) 691-718  &lbrack;[arXiv:hep-th/9811147](https://arxiv.org/abs/hep-th/9811147), <a href="https://doi.org/10.1016/S0550-3213(00)00018-3">doi:10.1016/S0550-3213(00)00018-3</a>&rbrack;
 
 
 
