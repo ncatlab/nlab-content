@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -39,6 +38,7 @@ See also:
 
 
 ### In $D=5$ supergravity
+ {#ReferencesIn5DSuGra}
 
 On the black string solution in [[D=5 supergravity]]:
 
@@ -53,6 +53,14 @@ On the [[anti de Sitter spacetime|AdS]] [[near horizon geometry]] of [[black hol
 From [[M5-branes]] [[wrapped brane|wrapped]] on [[4-manifolds]]:
 
 * [[David Kastor]], Section 3 of: _From wrapped M-branes to Calabi-Yau black holes and strings_, JHEP 0307 (2003) 040 &lbrack;[arXiv:hep-th/0305261](https://arxiv.org/abs/hep-th/0305261)&rbrack;
+
+See also:
+
+* [[Patrick Meessen]], [[Tomás Ortín]], Jan Perz, [[Carlos S. Shahbazi]]: *Black holes and black strings of $N = 2$, $d = 5$ supergravity in the H-FGK formalism*, J. High Energ. Phys. **2012** 1 (2012) \[<a href="https://doi.org/10.1007/JHEP09(2012)001">doi:10.1007/JHEP09(2012)001</a>, [arXiv:1204.0507](https://arxiv.org/abs/1204.0507)\]
+
+* Hari K. Kunduri, James Lucietti, Section 6.3 of: *Classification of near-horizon geometries of extremal black holes*, Living Rev. Relativ. **16** 8 (2013) &lbrack;[doi:10.12942/lrr-2013-8](https://doi.org/10.12942/lrr-2013-8)&rbrack;
+
+* Adel Bouchareb, Chiang-Mei Chen, Gérard Clément, Dmitri Gal'tsov: *Bertotti-Robinson and soliton string solutions of   minimal supergravity*, Phys. Rev. D **90** (2014) 024047 &lbrack;[arXiv:1405.0269](https://arxiv.org/abs/1405.0269), [doi:10.1103/PhysRevD.90.024047](https://doi.org/10.1103/PhysRevD.90.024047)&rbrack;
 
 
 [[!redirects black strings]]
