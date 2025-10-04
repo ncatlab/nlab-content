@@ -91,6 +91,8 @@ $$\array{a & \overset{h}{\to} & b\\
   c  & \underset{k}{\to} & d}$$
 is a commutative square with $n\in M$, then the pullback $k^*n$ is an $M$-morphism through which $e$ factors.  Hence $k^*n$ must be an isomorphism, and so the square admits a diagonal filler, which is unique since $n\in M$ is monic.  It follows that if all $M$-images exist in $C$, then $M$ is the right class of an [[orthogonal factorization system]], and $M$-images are precisely the factorizations in this OFS.
 
+Cf. at *[[(epi, mono) factorization system]]*.
+
 Conversely, it is easy to see that if $(E,M)$ is an OFS on a category $C$, then all $M$-images exist and are given by the factorizations of the OFS.  Therefore, to give a notion of image is more or less equivalent to giving an orthogonal factorization system.
 
 **Duality**
