@@ -9,6 +9,8 @@
 =--
 =--
 
+This page is to record the reference:
+
 * [[Klaas Landsman]], 
 
   \linebreak
@@ -19,7 +21,7 @@
 
   Springer Monographs in Mathematics 
 
-  Springer 1998
+  Springer (1998)
 
   &lbrack;[doi:10.1007/978-1-4612-1680-3](https://doi.org/10.1007/978-1-4612-1680-3)&rbrack;
 
