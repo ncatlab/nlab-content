@@ -52,6 +52,12 @@ In the point-particle limit where the [[2d SCFT]]/[[2-spectral triple]]  becomes
 
   ([Frenkel-Lepowski-Meurman 89](#FrenkelLepowskiMeurman89), [Griess-Lam 11](#GriessLam11))
 
+
+## Related entries
+
+* [[automorphism group of a Lie algebra]]
+
+
 ## References
 
 
