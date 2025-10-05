@@ -14,7 +14,7 @@
 =--
 
 
-This entry collects hyperlinks related to the lecture notes
+This entry is to record the reference:
 
 * Sean Bates, [[Alan Weinstein]]:
 
@@ -24,7 +24,7 @@ This entry collects hyperlinks related to the lecture notes
 
   \linebreak
 
-  Berkeley Mathematics Lecture Notes series,
+  Berkeley Mathematics Lecture Notes series
 
   American Mathematical Society (1997)
 
