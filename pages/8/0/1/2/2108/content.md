@@ -1148,25 +1148,27 @@ Original references:
 
   Translated and reprinted as (see section V.18 for geometric quantization):
 
-  [[Jean-Marie Souriau]], _Structure of dynamical systems - A symplectic view of physics_, Brikh&#228;user (1997) ([doi:10.1007/978-1-4612-0281-3](https://link.springer.com/book/10.1007/978-1-4612-0281-3))
+  [[Jean-Marie Souriau]], _Structure of dynamical systems -- A symplectic view of physics_, Brikh&#228;user (1997) &lbrack;[doi:10.1007/978-1-4612-0281-3](https://link.springer.com/book/10.1007/978-1-4612-0281-3), [pdf](https://empg.maths.ed.ac.uk/Activities/Souriau/Souriau.pdf)&rbrack;
 
 * [[Bertram Kostant]], _Quantization and unitary representations_, in _Lectures in modern analysis and applications III_, Lecture Notes in Math. 170 (1970), Springer Verlag, 87&#8212;208
 
 * {#Souriau74} [[Jean-Marie Souriau]], _Mod&#232;le de particule &#224; spin dans le champ &#233;lectromagn&#233;tique et gravitationnel_, Annales de l'I.H.P. Physique th&#233;orique, 20 no. 4 (1974), p. 315-364  ([numdam](http://www.numdam.org/item?id=AIHPA_1974__20_4_315_0))
 
-* [[Bertram Kostant]], _On the definition of quantization_, in _G&#233;om&#233;trie Symplectique et Physique Math&#233;matique_, Colloques Intern. CNRS, vol. 237,
-Paris (1975) 187&#8212;210
+* [[Bertram Kostant]], _On the definition of quantization_, in: _G&#233;om&#233;trie Symplectique et Physique Math&#233;matique_, Colloques Intern. CNRS **237**, Paris (1975) 187-210
 
 * [[Victor Guillemin]], [[Shlomo Sternberg]], _Geometric Asymptotics_, Math. Surveys no. 14, Amer. Math. Soc. (1977) ([web](http://www.ams.org/online%5Fbks/surv14/))
 
-* [[Alexandre Kirillov]], _Geometric quantization_ Dynamical systems &#8211; 4, Itogi Nauki i Tekhniki. Ser. Sovrem. Probl. Mat. Fund. Napr., 4, VINITI, Moscow, 1985, 141&#8211;176 ([web](http://mi.mathnet.ru/eng/intf35))
+Monographs:
 
-A fairly comprehensive textbook with modern developments is
+* [[David J. Simms]], [[Nicholas Woodhouse]]: *Lectures on Geometric Quantization*, Lecture Notes in Physics **53**, Springer (1976) &lbrack;[doi:10.1007/3-540-07860-6](https://doi.org/10.1007/3-540-07860-6)&rbrack; 
+
+* [[Alexandre Kirillov]]: _Geometric quantization_, in: *Dynamical systems IV*, Encyclopedia of Mathematical Sciences **4**, Springer (1990) 137-172 &lbrack;[doi:10.1007/978-3-662-06793-2_2](https://doi.org/10.1007/978-3-662-06793-2_2)&rbrack;
 
 * {#Woodhouse} [[Nicholas Woodhouse]]: *Geometric Quantization*, Oxford University Press (1997) &lbrack;[ISBN:9780198502708](https://global.oup.com/academic/product/geometric-quantization-9780198502708)&rbrack;
  
 
 Introductions and lecture notes:
+
 
 * William Gordon Ritter, _Geometric Quantization_ ([arXiv:math-ph/0208008](http://arxiv.org/abs/math-ph/0208008))
 
@@ -1202,7 +1204,7 @@ and for almost K&#228;hler structure in
 
 Discussion with an emphasis of quantizing [[classical field theory]] on curved [[spacetime]] is in 
 
-* [[Nicholas Woodhouse]], _Geometric quantization and quantum field theory in curved space-times_, Reports on Mathematical Physics __12__:1, (1977) 45&#8211;56
+* [[Nicholas Woodhouse]]: _Geometric quantization and quantum field theory in curved space-times_, Reports on Mathematical Physics __12__ 1 (1977) 45-56 \[<a href="https://doi.org/10.1016/0034-4877(77)90045-3">doi:10.1016/0034-4877(77)90045-3</a>\]
 
 (For more on geometric quantization of quantum field theories see also at _[Quantization of multisymplectic geometry](multisymplectic+geometry#RefsonQuantization)_.)
 
