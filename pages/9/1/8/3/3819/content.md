@@ -12,10 +12,7 @@
 =--
 
 
-
-# Contents
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -55,20 +52,26 @@ In [[non-perturbative quantum field theory]] the [[algebras of observables]] are
 
 ## References
 
+In the context of [[geometric quantization]]:
+
+* [[David J. Simms]], [[Nicholas Woodhouse]]: *Observables*, Chapter 4 in: *Lectures on Geometric Quantization*, Lecture Notes in Physics **53**, Springer (1976) &lbrack;[doi:10.1007/3-540-07860-6_4](https://doi.org/10.1007/3-540-07860-6_4)&rbrack; 
+
+* [[Alexandre Kirillov]], §1.1 in: _Geometric quantization_, in: *Dynamical systems IV*, Encyclopedia of Mathematical Sciences **4**, Springer (1990) 137-172 &lbrack;[doi:10.1007/978-3-662-06793-2_2](https://doi.org/10.1007/978-3-662-06793-2_2)&rbrack;
+
+
 In the [[AQFT|algebraic]] formulation of [[quantum mechanics]]:
 
-* [[Nikolay Bogolyubov]], A. A. Logunov, A. I. Oksak, I. T. Todorov, G. G. Gould, *Algebra of Observables and State Space* &lbrack;[doi:10.1007/978-94-009-0491-0_6](https://doi.org/10.1007/978-94-009-0491-0_6)&rbrack;,  Chapter in: *General principles of quantum field theory*, Mathematical Physics and Applied Mathematics **10**, Kluwer (1990) &lbrack;[doi:10.1007/978-94-009-0491-0](https://doi.org/10.1007/978-94-009-0491-0)&rbrack; 
+* [[Nikolay Bogolyubov]], A. A. Logunov, A. I. Oksak, I. T. Todorov, G. G. Gould: *Algebra of Observables and State Space* &lbrack;[doi:10.1007/978-94-009-0491-0_6](https://doi.org/10.1007/978-94-009-0491-0_6)&rbrack;,  Chapter in: *General principles of quantum field theory*, Mathematical Physics and Applied Mathematics **10**, Kluwer (1990) &lbrack;[doi:10.1007/978-94-009-0491-0](https://doi.org/10.1007/978-94-009-0491-0)&rbrack; 
 
 * {#Gleason09} [[Jonathan Gleason]], *The $C^*$-algebraic formalism of quantum mechanics* (2009) &lbrack;[[Gleason09.pdf:file]], [[GleasonAlgebraic.pdf:file]]&rbrack;
 
 * {#Gleason11} [[Jonathan Gleason]], *From Classical to Quantum: The $F^\ast$-Algebraic Approach*, contribution to *[VIGRE REU 2011](http://www.math.uchicago.edu/~may/VIGRE/VIGREREU2011.html)*, Chicago (2011) &lbrack;[pdf](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2011/REUPapers/Gleason.pdf), [[GleasonFAlgebraic.pdf:file]]&rbrack;
 
 
-Careful discussion of local gauge invariant observables in [[gravity]]/[[general relativity]] is in 
+Careful discussion of local gauge invariant observables in [[gravity]]/[[general relativity]]: 
 
 
-* {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, Class. Quantum Grav. 32 185019, 2015 ([arXiv:1503.03754](https://arxiv.org/abs/1503.03754), [CQG+](http://cqgplus.com/2015/09/16/local-and-gauge-invariant-observables-in-gravity/), [pdf slides](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf) for talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)
-Levico Terme, Italy, September 2014)
+* {#Khavkine14} [[Igor Khavkine]]:  _Local and gauge invariant observables in gravity_, Class. Quantum Grav. **32** 185019, (2015) &lbrack;[arXiv:1503.03754](https://arxiv.org/abs/1503.03754), [CQG+](http://cqgplus.com/2015/09/16/local-and-gauge-invariant-observables-in-gravity/), [pdf slides](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf) for talk at *[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)* Levico Terme, Italy, September 2014)&rbrack;
 
 showing that, while there are no globally defined local gauge invariant observables, they do exist on an [[open cover]] of the space of field configuration and form something like a [[sheaf]] of observables (but, hence, one without [[global sections]]).
 
