@@ -1,5 +1,15 @@
 
-* [website](http://www.math.ru.nl/~landsman/)
+Nicolaas Pieter Landsman 
+
+* [personal page](http://www.math.ru.nl/~landsman/)
+
+* [institute page](https://www.ru.nl/en/people/landsman-n)
+
+* [MathGenealogy page](www.genealogy.math.ndsu.nodak.edu/id.php?id=66054a)
+
+* [inSpire page](https://inspirehep.net/authors/1970868)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=PTyjucMAAAAJ&hl=nl)
 
 
 ## Selected writings
@@ -11,6 +21,12 @@ On [[strict deformation quantization]] of the [[particle]] coupled to a [[Yang-M
 Survey of [[strict deformation quantization]]:
 
 * [[Nicolaas P. Landsman]], *Classical and quantum representation theory* &lbrack;[arXiv:hep-th/9411172](https://arxiv.org/abs/hep-th/9411172)&rbrack;
+
+
+On [[classical mechanics]] and [[quantum mechanics]]:
+
+* [[Klaas Landsman]]: *[[Mathematical Topics Between Classical and Quantum Mechanics]]*, Monographs in Mathematics, Springer (1998) &lbrack;[doi:10.1007/978-1-4612-1680-3](https://doi.org/10.1007/978-1-4612-1680-3)&rbrack;
+
 
 
 On [[C-star algebra|$C^\ast$-]][[groupoid algebras]] (including [[group algebras]]) as [[strict deformation quantizations]] of [[Lie-Poisson structures]] in the generality of [[Lie algebroids]]:
