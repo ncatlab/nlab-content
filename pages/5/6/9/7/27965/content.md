@@ -1,5 +1,6 @@
 
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -55,7 +56,6 @@ This sequence is known to be a [[group extension|split extension]] for $\mathfra
 
 * [[automorphism infinity-Lie algebra]]
 
-[[!redirects automorphism Lie algebra]]
-[[!redirects automorphism Lie algebras]]
+[[!redirects automorphism groups of Lie algebras]]
 
 
