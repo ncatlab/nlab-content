@@ -20,7 +20,7 @@ On the [[topological space|topoloy]] of [[PU(ℋ)]] (the [[projective unitary gr
 
 On [[geometric quantization]]:
 
-* [[David J. Simms]], [[Nicholas Woodhouse]]: *Lectures on Geometric Quantization*, Lecture Notes in Physics **53**, Springer (1976) &lbrack;[doi:10.1007/3-540-07860-6_4](https://doi.org/10.1007/3-540-07860-6_4)&rbrack; 
+* [[David J. Simms]], [[Nicholas Woodhouse]]: *Lectures on Geometric Quantization*, Lecture Notes in Physics **53**, Springer (1976) &lbrack;[doi:10.1007/3-540-07860-6](https://doi.org/10.1007/3-540-07860-6)&rbrack; 
 
 
 
