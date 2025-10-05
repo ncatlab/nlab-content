@@ -18,6 +18,12 @@ On the [[topological space|topoloy]] of [[PU(ℋ)]] (the [[projective unitary gr
 
 * [[David John Simms]], *Topological aspects of the projective unitary group*, Math. Proc. Camb. Phil. Soc. **68** 1 (1970) 57-60  ([doi:10.1017/S0305004100001043](https://doi.org/10.1017/S0305004100001043))
 
+On [[geometric quantization]]:
+
+* [[David J. Simms]], [[Nicholas Woodhouse]]: *Lectures on Geometric Quantization*, Lecture Notes in Physics **53**, Springer (1976) &lbrack;[doi:10.1007/3-540-07860-6_4](https://doi.org/10.1007/3-540-07860-6_4)&rbrack; 
+
+
+
 category: people
 
 [[!redirects David J. Simms]]
