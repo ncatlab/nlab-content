@@ -17,6 +17,10 @@ On [[superalgebra]] and [[supergeometry]] ([[Grassmann algebra]], [[super vector
 
 * [[Felix A. Berezin]] (edited by [[Alexandre A. Kirillov]]): *Introduction to Superanalysis*, Mathematical Physics and Applied Mathematics **9**, Springer (1987) &lbrack;[doi;10.1007/978-94-017-1963-6_8](https://doi.org/10.1007/978-94-017-1963-6_8)&rbrack; 
 
+On [[geometric quantization]]:
+
+* [[Alexandre Kirillov]]: _Geometric quantization_, in: *Dynamical systems IV*, Encyclopedia of Mathematical Sciences **4**, Springer (1990) 137-172 &lbrack;[doi:10.1007/978-3-662-06793-2_2](https://doi.org/10.1007/978-3-662-06793-2_2)&rbrack;
+
 
 On [[Reshetikhin-Turaev theory]] constructing [[modular functors]] from [[modular tensor categories|modular]] [[tensor categories]]:
 
