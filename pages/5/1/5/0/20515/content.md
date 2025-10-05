@@ -1,5 +1,14 @@
 
-* [webpage](https://math.berkeley.edu/people/faculty/michele-schiavina)
+* [personal page](https://mate.unipv.it/schiavina/)
+
+* [institute page](https://math.berkeley.edu/people/faculty/michele-schiavina)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=210604)
+
+* [inSpire page](https://inspirehep.net/authors/1591101)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=1En9DkUAAAAJ&hl=en)
+
 
 ## Selected writings
 
