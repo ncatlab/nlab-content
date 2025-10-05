@@ -32,9 +32,9 @@ which may be written $Aut(x)$ if the category $C$ is understood.  Up to equivale
 
 ## Examples
 
-(...)
+* [[permutation|permutations]] are automorphisms in [[FinSet]]. 
 
-* [[permutation|Permutations]] are automorphisms in [[FinSet]]. 
+* [[automorphism group of a Lie algebra]]
 
 * [[automorphism of a vertex operator algebra]]
 
