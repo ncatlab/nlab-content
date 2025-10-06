@@ -62,7 +62,7 @@ This is the approach taken in [Adem & Ruan 01, Def. 3.4](#AdemRuan01).
 
 The definition originates, via [[bundle gerbes]] and [[bundle gerbe modules]] on [[Lie groupoids]], in: 
 
-* {#LupercioUribe01} [[Ernesto Lupercio]], [[Bernardo Uribe]], *Gerbes over Orbifolds and Twisted K-theory*, Comm. Math. Phys. **245** (2004) 449-489.  ([arXiv:math/0105039](http://arxiv.org/abs/math/0105039), [doi:10.1007/s00220-003-1035-x](https://doi.org/10.1007/s00220-003-1035-x))
+* {#LupercioUribe01} [[Ernesto Lupercio]], [[Bernardo Uribe]], *Gerbes over Orbifolds and Twisted K-theory*, Comm. Math. Phys. **245** (2004) 449-489.  &lbrack;[arXiv:math/0105039](http://arxiv.org/abs/math/0105039), [doi:10.1007/s00220-003-1035-x](https://doi.org/10.1007/s00220-003-1035-x)&rbrack;
 
 The definition of the K-theory of [[global quotient orbifolds]] as the [[twisted equivariant K-theory]] of the [[universal covering space]] appears in
 
@@ -119,7 +119,7 @@ Example 5.31 there shows that on [[global quotient orbifolds]] this is again equ
 
 * {#BecerraUribe09} [[Edward Becerra]], [[Bernardo Uribe]], _Stringy product on twisted orbifold K-theory for abelian quotients_, Trans. Amer. Math. Soc. 361 (2009), 5781-5803  ([arXiv:0706.3229](https://arxiv.org/abs/0706.3229), [doi:10.1090/S0002-9947-09-04760-6](https://doi.org/10.1090/S0002-9947-09-04760-6))
 
-* Jianxun Hu, [[Bai-Ling Wang]], _Delocalized Chern character for stringy orbifold K-theory_, Trans. Amer. Math. Soc. 365 (2013), 6309-6341  ([arXiv:1110.0953](https://arxiv.org/abs/1110.0953), [doi:10.1090/S0002-9947-2013-05834-5](https://doi.org/10.1090/S0002-9947-2013-05834-5))
+* Jianxun Hu, [[Bai-Ling Wang]], _Delocalized Chern character for stringy orbifold K-theory_, Trans. Amer. Math. Soc. **365** (2013) 6309-6341  &lbrack;[arXiv:1110.0953](https://arxiv.org/abs/1110.0953), [doi:10.1090/S0002-9947-2013-05834-5](https://doi.org/10.1090/S0002-9947-2013-05834-5)&rbrack;
 
 
 [[!redirects orbifold K-theories]]
