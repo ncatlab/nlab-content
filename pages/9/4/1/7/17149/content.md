@@ -13,28 +13,31 @@
 =--
 =--
 
-This page collects links related to
+This page is to record the reference
 
-* [[John Frank Adams]], 
+* [[John Frank Adams]]:
+
+  \linebreak
 
   **Stable homotopy and generalized homology** 
 
-  Chicago Lectures in Mathematics, 1974
+  \linebreak
 
-  The University of Chicago Press 1974
+  Chicago Lectures in Mathematics
+
+  University of Chicago Press (1974)
 
   [ucp:bo21302708](https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo21302708.html)
 
-  [pdf](https://www.uio.no/studier/emner/matnat/math/MAT9580/v17/documents/adams-shgh.pdf), [pdf](https://people.math.rochester.edu/faculty/doug/otherpapers/Adams-SHGH-latex.pdf)
-
+  [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/Adams-SHGH-latex2.pdf)
 
 on [[stable homotopy theory]] and [[generalised homology]] theory, with emphasis on [[complex cobordism cohomology theory|complex]] [[cobordism theory]], [[complex oriented cohomology theory]], and the [[Adams spectral sequence]]/[[Adams-Novikov spectral sequence]] (today: "[[chromatic homotopy theory]]").
 
 Consists of three lectures, each meant to be readable on their own, and there is overlap in topics. It's part III that begins with an actual introduction to stable homotopy theory, and so the beginner might prefer to start reading with Part III. Also notice that on p. 87 it says that the material there in part II is to be regarded as superseding part I.
 
-A very detailed and readable account based on these lectures is
+A very detailed and readable account based on these lectures:
 
-* [[Stanley Kochmann]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* [[Stanley Kochmann]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS (1996)
 
 The big story emerging here was later further developed in
 
