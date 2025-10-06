@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Higher spin geometry
+#### Spin geometry
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
@@ -12,6 +12,7 @@
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
@@ -246,7 +247,7 @@ Spin structures naturally form a [[category]], with [[morphisms]] being ([[isome
 
 
 
-## Properties
+## Properties and Examples
 
 ### General
 
@@ -257,56 +258,32 @@ If a [[manifold]] $X$ admits any spin structure, then its [[set]] of distinct sp
 
 
 
+### Over Lorentzian manifolds
+ {#OverLorentzianManifolds}
 
-### Over a Riemann surface
+\begin{proposition}\label{GerochTheorem}
+**(Geroch's theorem)** \linebreak
+  A [[Lorentzian manifold]] of [[dimension of a manifold|dimension]] $1+3$ admits a spin structure if and only if it admits a [[framed manifold|framing]].  
+\end{proposition}
+
+This is due to [Geroch 1968](#Geroch68) for the case of non-[[compact topological space|compact]] spacetimes (as [[4-manifolds]]), see also [Geroch 1970](#Geroch70). The generalization is due to [Lee 1973](#Lee73), [1975](#Lee75).
+
+
+### Over surfaces
  {#OverARiemannSurface}
 
 Over a [[Riemann surface]] spin structures correspond to [[square roots]] of the [[canonical bundle]]. See at _[[Theta characteristic]]_.
 
-### Over a Hermitian manifold / K&#228;hler manifold
- {#OverAKahlerManifold}
+\begin{proposition}\label{SpinStructuresOnClosedSurfaces}
+  On the [[closed manifold|closed]] [[orientation|oriented]] [[surface]] of [[genus of a surface|genus]] $g \in \mathbb{N}$ there exist precisely $2^{2g}$ distinct spin structures.
+\end{proposition}
+\begin{proof}
+  By the general classification of spin structures of Prop. \ref{ClassificationOfSpinStructures}, the ordinary homology of surfaces discussed [there](surface#OrdinaryHomologyOfClosedOriented) and using the [[universal coefficient theorem]].
+\end{proof}
 
-More generally:
+Cf. [Atiyah 1971](#Atiyah71), [Lawson & Michelson 1989 Ex. 2.6](#LawsonMichelson1989).
 
-+-- {: .num_prop #SpinstructureOnCompactKaehlerIsSquareRootOfCanonical}
-###### Proposition
-
-A spin structure on a [[compact topological space|compact]] [[Hermitian manifold]] ([[Kähler manifold]]) $X$ of complex [[dimension]] $n$ exists precisely if, equivalently
-
-* there is a choice of [[square root]] $\sqrt{\Omega^{n,0}}$ of the [[canonical line bundle]] $\Omega^{n,0}$ (a "[[Theta characteristic]]"); 
-
-* there is a trivialization of the [[first Chern class]] $c_1(T X)$ of the [[tangent bundle]].
-
-=--
-
-In this case one has:
-
-+-- {: .num_prop}
-###### Proposition
-
-There is a [[natural isomorphism]] 
-
-$$
-  S_X \simeq \Omega^{0,\bullet}_X \otimes \sqrt{\Omega^{n,0}_X}
-$$ 
-
-of the [[sheaf]] of [[sections]] of the [[spinor bundle]] $S_X$ on $X$ with the [[tensor product]] of the  [[Dolbeault complex]] with the corresponding [[Theta characteristic]];
-
-
-Moreover, the corresponding [[Dirac operator]] is the [[Dolbeault-Dirac operator]] $\overline{\partial} + \overline{\partial}^\ast$.
-
-=--
-
-This is due to ([Hitchin 74](#Hitchin74)). A textbook account is for instance in ([Friedrich 74, around p. 79 and p. 82](#Friedrich74)).
-
-
-### As quantum anomaly cancellation condition  {#QuantumAnomaly}
-
-In the context of [[quantum field theory]] the existence of a spin structure on a [[Riemannian manifold]] $X$ arises notably as the condition for [[quantum anomaly]] cancellation of the [[sigma-model]] for the spinning particle -- the superparticle -- propagating on $X$. 
-
-It is the generalization of this anomaly computation from the worldlines of superparticles to super[[string theory|string]]s that leads to [[string structure]], and then further the generalizaton to the worldvolume anomaly of fivebranes that leads to [[fivebrane structure]].
-
-## Examples
+Also [Johnson 1980](#Johnson80).
 
 
 ### On $n$-spheres
@@ -402,25 +379,56 @@ The [[n-sphere]], for each $n \in \mathbb{N}$, carries a canonical [[spin struct
 ([here](sphere#LabelCosetSpaceStructure)), as a special case of the canonical $H$-structure on $G/H$ ([this example](G-structure#CanonicalHStructureOnFModH)).
 \end{example}
 
-Other ways to see this:
+For other ways to see this see: [Gutt 1986](#Gutt86), [Nowaczyk 2015, Theorem A.6.6 in](#Nowaczyk15)
 
-* {#Nowaczyk15} Nikolai Nowaczyk, Theorem A.6.6 in: _Dirac Eigenvalues of higher Multiplicity_ ([arXiv:1501.04045](https://arxiv.org/abs/1501.04045))
+### Over Hermitian/K&#228;hler manifolds manifold
+ {#OverAKahlerManifold}
 
-* {#SpinorsInGeometryAndPhysics} S. Gutt, _Killing spinors on spheres and projective spaces_, p. 238-248 in: A. Trautman, G. Furlan (eds.) _Spinors in Geometry and Physics -- Trieste 11-13 September 1986_, World Scientific 1988
-([doi:10.1142/9789814541510](https://doi.org/10.1142/9789814541510),  [GBooks, p. 243](https://books.google.ae/books?id=d14GCwAAQBAJ&lpg=PA243&ots=_tH_He8UFg&dq=%22spin%20structure%20on%20spheres%22&pg=PA243#v=onepage&q=%22spin%20structure%20on%20spheres%22&f=false))
+More generally:
+
++-- {: .num_prop #SpinstructureOnCompactKaehlerIsSquareRootOfCanonical}
+###### Proposition
+
+A spin structure on a [[compact topological space|compact]] [[Hermitian manifold]] ([[Kähler manifold]]) $X$ of complex [[dimension]] $n$ exists precisely if, equivalently
+
+* there is a choice of [[square root]] $\sqrt{\Omega^{n,0}}$ of the [[canonical line bundle]] $\Omega^{n,0}$ (a "[[Theta characteristic]]"); 
+
+* there is a trivialization of the [[first Chern class]] $c_1(T X)$ of the [[tangent bundle]].
+
+=--
+
+In this case one has:
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[natural isomorphism]] 
+
+$$
+  S_X \simeq \Omega^{0,\bullet}_X \otimes \sqrt{\Omega^{n,0}_X}
+$$ 
+
+of the [[sheaf]] of [[sections]] of the [[spinor bundle]] $S_X$ on $X$ with the [[tensor product]] of the  [[Dolbeault complex]] with the corresponding [[Theta characteristic]];
 
 
-### On surfaces
- {#OnSurfaces}
+Moreover, the corresponding [[Dirac operator]] is the [[Dolbeault-Dirac operator]] $\overline{\partial} + \overline{\partial}^\ast$.
 
-\begin{example}\label{SpinStructuresOnClosedSurfaces}
-  On the [[closed manifold|closed]] [[orientation|oriented]] [[surface]] of [[genus of a surface|genus]] $g \in \mathbb{N}$ there exist precisely $2^{2g}$ distinct spin structures.
-\end{example}
-\begin{proof}
-  By the general classification of spin structures of Prop. \ref{ClassificationOfSpinStructures}, the ordinary homology of surfaces discussed [there](surface#OrdinaryHomologyOfClosedOriented) and using the [[universal coefficient theorem]].
-\end{proof}
+=--
 
-Cf. [Atiyah 1971](#Atiyah71), [Lawson & Michelson 1989 Ex. 2.6](#LawsonMichelson1989).
+This is due to ([Hitchin 74](#Hitchin74)). A textbook account is for instance in ([Friedrich 74, around p. 79 and p. 82](#Friedrich74)).
+
+
+### As quantum anomaly cancellation condition  {#QuantumAnomaly}
+
+In the context of [[quantum field theory]] the existence of a spin structure on a [[Riemannian manifold]] $X$ arises notably as the condition for [[quantum anomaly]] cancellation of the [[sigma-model]] for the spinning particle -- the superparticle -- propagating on $X$. 
+
+It is the generalization of this anomaly computation from the worldlines of superparticles to super[[string theory|string]]s that leads to [[string structure]], and then further the generalizaton to the worldvolume anomaly of fivebranes that leads to [[fivebrane structure]].
+
+
+
+
+
+
 
 ## Higher spin structures
  {#Higher}
@@ -598,7 +606,6 @@ Monographs:
 
 * {#Friedrich97} [[Thomas Friedrich]]: _Dirac operators in Riemannian geometry_, Graduate Studies in Mathematics **25** AMS (1997)
 
- 
 Concerning the action of [[diffeomorphisms]] on spin structures:
 
 * L. Dąbrowski, [[Roberto Percacci]]: *Spinors and diffeomorphisms*,  Comm. Math. Phys. **106** 4 (1986) 691-704  &lbrack;[euclid:cmp/1104115859](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-106/issue-4/Spinors-and-diffeomorphisms/cmp/1104115859.full)&rbrack;
@@ -610,33 +617,54 @@ and specifically concerning the action of the [[modular group]] [[SL(2,Z)|$SL_2(
 * [[Oscar Randal-Williams]]$\;$&lbrack;[MO:a/72770](https://mathoverflow.net/a/72770/381)&rbrack;
 
 
-
-A discussion of the full [[groupoid]] of spin structures is in 
+Discussion of the full [[groupoid]] of spin structures:
 
 * [[Johannes Ebert]], _Characteristic classes of spin surface bundles: Applications of the Madsen-Weiss theory_, Phd thesis (2006) ([pdf](http://wwwmath.uni-muenster.de/wwwmath.uni-muenster.de/u/jeber_02/papers/thesis.pdf))
 
 Discussion of [[lifting bundle gerbes]] for spin structures:
 
 * {#MurraySinger03} [[Michael Murray]], Michael Singer, _Gerbes, Clifford modules and the index theorem_ ([arXiv:math/0302096](http://arxiv.org/abs/math/0302096))
-  
-
-Discussion of spin structures in terms of smooth moduli stacks as above is in
-
-* [[Urs Schreiber]], section 5.1 of _[[schreiber:differential cohomology in a cohesive topos]]_.
-  {#dcct}
 
 
-Discussion of spin structures on surfaces is in
+### Over Lorentzian manifolds
 
-* Dennis Johnson, _Spin structures and quadratic forms on surfaces_. J. London Math. Soc. (2) 22 (1980), no. 2, 365&#8211;373. 
+Concerning spin structures on [[Lorentzian manifolds]]:
+
+* {#Geroch68} [[Robert Geroch]]: *Spinor Structure of Space‐Times in General Relativity. I*, J. Math. Phys. **9** (1968) 1739–1744 &lbrack;[doi:10.1063/1.1664507](https://doi.org/10.1063/1.1664507), [[Geroch-SpinorStructureI.pdf:file]]&rbrack;
+
+* {#Geroch70} [[Robert Geroch]]: *Spinor Structure of Space‐Times in General Relativity. II*, J. Math. Phys. **11** (1970) 343–348 &lbrack;[doi:10.1063/1.1665067](https://doi.org/10.1063/1.1665067), [[Geroch-SpinorStructureII.pdf:file]]&rbrack;
+
+* {#Lee73} Kotik Kai Lee: *Global spinor fields in space-time*,  General Relativity and Gravitation **4** (1973) 421–433 &lbrack;[doi:10.1007/BF01215402](https://doi.org/10.1007/BF01215402)&rbrack;
+
+* {#Lee75} Kotik Kai Lee: *Comments on the Spinor Structure of Space-Time*, Canadian Mathematical Bulletin **18** 3 (1975) 437-438 &lbrack;[doi:10.4153/CMB-1975-083-1](https://doi.org/10.4153/CMB-1975-083-1)&rbrack;
+
+### Over spheres
+
+For the case of [[n-spheres]]:
+
+* {#Nowaczyk15} Nikolai Nowaczyk, Theorem A.6.6 in: _Dirac Eigenvalues of higher Multiplicity_ ([arXiv:1501.04045](https://arxiv.org/abs/1501.04045))
+
+* {#Gutt86} [[Simone Gutt]]: _Killing spinors on spheres and projective spaces_, in: A. Trautman, G. Furlan (eds.) _Spinors in Geometry and Physics -- Trieste 11-13 September 1986_, World Scientific (1988) 238-248 &lbrack;[doi:10.1142/9789814541510](https://doi.org/10.1142/9789814541510),  [GBooks, p. 243](https://books.google.ae/books?id=d14GCwAAQBAJ&lpg=PA243&ots=_tH_He8UFg&dq=%22spin%20structure%20on%20spheres%22&pg=PA243#v=onepage&q=%22spin%20structure%20on%20spheres%22&f=false)&rbrack;
+
+### Over surfaces
+
+Discussion of spin structures on [[surfaces]]:
+
+* [Atiyah 1971](#Atiyah71)
+
+* {#Johnson80} Dennis Johnson, _Spin structures and quadratic forms on surfaces_. J. London Math. Soc. (2) 22 (1980), no. 2, 365&#8211;373. 
 
 See also [this MO comment](http://mathoverflow.net/a/136425/381).
 
-Discussion of spin structure on [[Kähler manifolds]] is in 
 
-* [[Nigel Hitchin]], _Harmonic spinors_, Adv. Math. 14 (1974), 1 &#8722; 55. 
- {#Hitchin74}
 
+
+### On Kähler manifolds
+
+Discussion of spin structure on [[Kähler manifolds]]:
+
+* {#Hitchin74} [[Nigel Hitchin]], _Harmonic spinors_, Adv. Math. 14 (1974), 1 &#8722; 55. 
+ 
 * [[Christian Bär]], _On harmonic spinors_ ([pdf](http://www.actaphys.uj.edu.pl/vol29/pdf/v29p0859.pdf))
 
 A textbook account is in ([Friedrich 97, section 3.4](#Friedrich97))
@@ -647,6 +675,8 @@ A survey is also at
 
 
 * _Spin manifolds_ ([pdf](http://empg.maths.ed.ac.uk/Activities/Spin/Lecture4.pdf))
+
+### On orbifolds
 
 Spin structures on [[orbifolds]]:
 
@@ -665,8 +695,6 @@ Discussions of spin structures as [[anomaly cancellation]] for the [[spinning pa
 * [[Luis Alvarez-Gaumé]], p. 165 of: *Supersymmetry and the Atiyah-Singer index theorem*,  Comm. Math. Phys. **90** 2  (1983) 161-173 &lbrack;[doi:10.1007/BF01205500](https://doi.org/10.1007/BF01205500), [euclid](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-90/issue-2/Supersymmetry-and-the-Atiyah-Singer-index-theorem/cmp/1103940278.full)&rbrack;
 
 * [[Daniel Friedan]], P. Windey, *Supersymmetric derivation of the Atiyah-Singer index and the chiral anomaly*,  Nucl. Phys. B **235** (1984) 395 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90506-6">doi:10.1016/0550-3213(84)90506-6</a>&rbrack;
-
-
 
 
 [[!redirects Spin structure]]
