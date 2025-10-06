@@ -35,9 +35,11 @@ The [[red-shift conjecture]] says that this iteration plays a special role in [[
 
 The construction of iterated algebraic K-theory has received particular attention for the case that $R = $ [[ku]] is the [[connective spectrum|connective]] [[ring spectrum]] [[Brown representability theorem|representing]] [[complex vector bundle|complex]] [[topological K-theory]].
 
-Here the first iterated stage $K(ku)$ is related to [[BDR 2-vector bundles]] essentially like [[ku]] is related to ordinary [[complex vector bundles]].
+Here the first iterated stage $K(ku)$ is related to [[BDR 2-vector bundles]] essentially like [[ku]] is related to ordinary [[complex vector bundles]] ([Baas, Dundas & Rognes 2004](#BaasDundasRognes04)).
 
-The tower $K^{2r}(ku)$ of higher iterated algebraic K-theories of topological K-theory has been shown to accommodate a generalization of the [[Fourier-Mukai transform|Fourier-Mukai]]-type transform on [[twisted K-theory]] that is given by [[topological T-duality]], generalizing it to [[spherical T-duality]] ([Lind-Sati-Westerland 16](#LindSatiWesterland16)).
+(Beware that $K(ku)$ is not [[complex oriented cohomology|complex orientable]], cf. [BDR 2004, Rem. 6.10](#BaasDundasRognes04).)
+
+The tower $K^{2r}(ku)$ of higher iterated algebraic K-theories of topological K-theory has been shown to accommodate a generalization of the [[Fourier-Mukai transform|Fourier-Mukai]]-type transform on [[twisted K-theory]] that is given by [[topological T-duality]], generalizing it to [[spherical T-duality]] ([Lind, Sati & Westerland 2016](#LindSatiWesterland16)).
 
 ## Properties
 
@@ -88,7 +90,7 @@ On the first [[algebraic K-theory]] $K(ku)$ of [[connective spectrum|connective]
 
 Interpretation of $K(ku)$ as the [[K-theory]] of [[BDR 2-vector bundles]]:
 
-* [[Nils Baas]], [[Bjørn Ian Dundas]], [[John Rognes]], _Two-vector bundles and forms of elliptic cohomology_, London Math. Soc. Lecture Note Ser., 308, Cambridge Univ. Press, Cambridge, 2004 ([arXiv:math/0306027](https://arxiv.org/abs/math/0306027),  [doi:10.1017/CBO9780511526398.005](https://doi.org/10.1017/CBO9780511526398.005))
+* {#BaasDundasRognes04} [[Nils Baas]], [[Bjørn Ian Dundas]], [[John Rognes]]: _Two-vector bundles and forms of elliptic cohomology_, London Math. Soc. Lecture Note Ser. **308**, Cambridge Univ. Press (2004) &lbrack;[arXiv:math/0306027](https://arxiv.org/abs/math/0306027),  [doi:10.1017/CBO9780511526398.005](https://doi.org/10.1017/CBO9780511526398.005)&rbrack;
 
 * [[Nils Baas]], [[Bjørn Ian Dundas]], [[Birgit Richter]], [[John Rognes]], _Stable bundles over rig categories_, Journal of Topology, Volume 4, Issue 3, September 2011, Pages 623–640 ([arXiv:0909.1742](https://arxiv.org/abs/0909.1742), [doi:10.1112/jtopol/jtr016](https://doi.org/10.1112/jtopol/jtr016))
 
