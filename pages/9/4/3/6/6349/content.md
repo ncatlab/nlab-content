@@ -30,7 +30,7 @@ A [[Lorentzian manifold]] (without [[boundary]]) is called **globally hyperbolic
 =--
 
 In this form the characterization of global hyperbolicity appears for instance in the paragraph at the bottom of page 211 in ([HE](#LargeScale)).
-The equivalence of this to more traditional definitions is ([HE, prop. 6.6.3](#LargeScale)) together with ([HE, prop. 6.6.8](#LargeScale)), due to ([Geroch1970](#Geroch)). The latter in fact implies the following stronger statement:
+The equivalence of this to more traditional definitions is ([HE, prop. 6.6.3](#LargeScale)) together with ([HE, prop. 6.6.8](#LargeScale)), due to [Geroch 1970](#Geroch70). The latter in fact implies the following stronger statement:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -83,9 +83,13 @@ See also:
 * {#BaerGinouxPfaeffle07} [[Christian Bär]], [[Nicolas Ginoux]], [[Frank Pfäffle]], _Wave Equations on Lorentzian Manifolds and Quantization_, ESI Lectures in Mathematics and Physics, European Mathematical Society Publishing House, ISBN 978-3-03719-037-1, March 2007, Softcover ([arXiv:0806.1036](https://arxiv.org/abs/0806.1036))
   
 
-The fact that a single Cauchy surface implies a foliation by Cauchy surfaces is due to:
+The fact that a single Cauchy surface implies a foliation by Cauchy surfaces (the *Geroch splitting theorem*) is due to:
 
-* {#Geroch} [[Robert Geroch]], §5, Thm. 11 in: *Domain of Dependence*, J. Math. Phys. **11** (1970) 437–449 &lbrack;[doi:10.1063/1.1665157](https://doi.org/10.1063/1.1665157)&rbrack;
+* {#Geroch70} [[Robert Geroch]], §5, Thm. 11 in: *Domain of Dependence*, J. Math. Phys. **11** (1970) 437–449 &lbrack;[doi:10.1063/1.1665157](https://doi.org/10.1063/1.1665157)&rbrack;
+
+See also 
+
+* Wikipedia: *[Geroch splitting theorem](https://en.wikipedia.org/wiki/Geroch%27s_splitting_theorem)*
  
 The refinement of this statement to a smooth splitting:
 
@@ -108,6 +112,9 @@ The refinement of this statement to a smooth splitting:
 
 [[!redirects time orientation]]
 [[!redirects time orientations]]
+
+[[!redirects Geroch splitting theorem]]
+[[!redirects Geroch splitting theorems]]
 
 
 
