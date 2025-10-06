@@ -13,9 +13,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  
@@ -40,12 +38,12 @@ Review and survey:
 
 * R. Aldrovandi, J. G. Pereira, K. H. Vu, _Gravitation without the equivalence principle_ ([arXiv:gr-qc/0304106](http://arxiv.org/abs/gr-qc/0304106))
 
-* Manuel Hohmann, *Teleparallel gravity*, in *Signatures and experimental searches for modified and quantum gravity* &lbrack;[arXiv:2207.06438](https://arxiv.org/abs/2207.06438)&rbrack;
+* Manuel Hohmann, *Teleparallel gravity*, in: *Signatures and experimental searches for modified and quantum gravity* &lbrack;[arXiv:2207.06438](https://arxiv.org/abs/2207.06438)&rbrack;
 
 
 Further discussion:
 
-* R. Aldrovandi, J. G. Pereira, and K. H. Vu, _Selected topics in teleparallel gravity_ Brazilian Journal of Physics, vol. 34, no. 4A, (2004) ([pdf](http://www.sbfisica.org.br/bjp/files/v34_1374.pdf))
+* R. Aldrovandi, J. G. Pereira, and K. H. Vu, _Selected topics in teleparallel gravity_, Brazilian Journal of Physics, **34** 4A (2004) &lbrack;[pdf](http://www.sbfisica.org.br/bjp/files/v34_1374.pdf)&rbrack;
 
 The [[Schwarzschild spacetime]] in the context of teleparallel gravity is discussed in 
 
@@ -60,4 +58,6 @@ Via [[multisymplectic geometry]] ([[De Donder-Weyl-Hamiltonian]]-formulation):
 
 * [[Igor V. Kanatchikov]]. *The De Donder-Weyl Hamiltonian formulation of TEGR and its quantization* (2023) &lbrack;[arXiv:2308.10052](https://arxiv.org/abs/2308.10052)&rbrack;
 
+In the context of [[supergravity]]:
 
+* P. Salgado, G. Rubilar, J. Crisóstomo, S. del Campo: *A note about teleparallel supergravity*,  Eur. Phys. J. C **44** (2005) 587–590 &lbrack;[doi:10.1140/epjc/s2005-02394-6](https://doi.org/10.1140/epjc/s2005-02394-6)&rbrack;
