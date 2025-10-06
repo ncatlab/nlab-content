@@ -430,7 +430,7 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
 
 * {#Kornell24} [[Andre Kornell]], *Discrete quantum structures II: Examples*, J. Noncommut. Geom. **18** (2024).
 
-* {#Chirvasitu25} [[Alexandru Chirvasitu]], *Spans of quantum-inequality projections* (2025), [arxiv:2504.01746](https://arxiv.org/abs/2504.01746).
+* {#Chirvasitu25} [[Alexandru Chirvasitu]], *Spans of quantum-inequality projections*, J. Math. Phys. **66** (2025), [arxiv:2504.01746](https://arxiv.org/abs/2504.01746).
 
 * {#JencaLindenhovius25} Gejza Jenča, [[Bert Lindenhovius]],  *Monoidal quantaloids* (2025), [arXiv:2504.18266](https://arxiv.org/abs/2504.18266).
 
