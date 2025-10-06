@@ -147,9 +147,9 @@ The point of quasi-categories is that they are supposed to provide a fully [[hom
 ## Related concepts
  {#RelatedConcepts}
 
-* [[somposer]]
+* [[composer]]
 
-* [[spline]]
+* [[spine]]
 
 * [[relation between quasi-categories and sSet-enriched categories]]
 
