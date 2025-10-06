@@ -127,7 +127,7 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 Let $\mathbf{Std}\cap \mathbf{Cvx}$ be the category of standard spaces with a convex space structure with morphisms being affine measurable functions.  Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line.  $\mathbb{R}_{\infty}$ is a second-countable compact Hausdorff space so it is a [[Polish space]], and hence $\mathbb{R}_{\infty}$ with the Borel $\sigma$-algebra is a standard space.  Let $\mathbf{Std} \cap \mathbf{Cvx}$ denote  
 the category whose objects are standard spaces with a convex space structure, and whose morphisms are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Std} \cap \mathbf{Cvx}$. 
 
-Given any standard space $A$ and any $P \in G(A)$ let $\mathbf{Std}(A, \mathbb{R}_{\infty}) \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_A f \, dP$.  Let $\mathbb{R}_{\infty}^A = \mathbf{Std} \cap \mathbf{Cvx}(A, \mathbb{R}_{\infty})$. Taking $A=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of endomaps on $\mathbb{R}_{\infty}$.  Recall that a $\mathbb{R}_{\infty}$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $m \in \mathbb{R}_{\infty}^A$, the equation 
+Given any standard space $A$ and any $P \in G(A)$ let $\mathbf{Std}(A, \mathbb{R}_{\infty}) \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_A f \, dP$.  Let $\mathbb{R}_{\infty}^A = hom_{\mathbf{Std} \cap \mathbf{Cvx}}(A, \mathbb{R}_{\infty})$. Taking $A=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of endomaps on $\mathbb{R}_{\infty}$.  Recall that a $\mathbb{R}_{\infty}$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $m \in \mathbb{R}_{\infty}^A$, the equation 
 \begin{equation}
 \phi \big( \tilde{P}(m) \big) = \tilde{P}(\phi \circ m).
 \end{equation}
@@ -255,7 +255,7 @@ A more detailed proof can be found in  ([Sturtz 25](#Sturtz25)).
 \begin{lemma} Let $A \in_{ob} \mathbf{Std}_{Cvx}$. Every affine measurable function $A \xrightarrow{m} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
 \end{lemma}
 \begin{proof} 
-By the preceding lemma the affine measurable function  $\mathbb{E}_{\bullet}(id_A)$ is the unique morphism in $\mathbf{Std}_{Cvx}$ such that for every $A \xrightarrow{m} \mathbb{R}_{\infty}$ the $\mathbf{Std}_{Cvx}$-diagram
+By Corollary 3.9 the affine measurable function  $\epsilon_A =\mathbb{E}_{\bullet}(id_A)$ is the unique morphism in $\mathbf{Std}_{Cvx}$ such that for every $A \xrightarrow{m} \mathbb{R}_{\infty}$ the $\mathbf{Std}_{Cvx}$-diagram
 \begin{tikzpicture}
   \node  (GA) at  (-1,0)  {$G(A)$};
   \node  (GR) at  (2,0)   {$G(\mathbb{R}_{\infty})$};
@@ -283,14 +283,45 @@ Since the Giry monad factors through $\mathbf{Std}_{Cvx}$ it follows that  $\mat
 
 \begin{theorem} $\mathbf{Std}_{Cvx} = \mathbf{Alg}_{G}$.
 \end{theorem}
-\begin{proof}
-By the preceding remark we need only to prove that $\mathbf{Alg}_{G}$ is a subcategory of $\mathbf{Std}_{Cvx}$.
+\begin{proof} Suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.  By Lemma 1 $X$ has a convex space structure so $X$ is an object in $\mathbf{Std} \cap \mathbf{Cvx}$.  To show that $X$ is an object in $\mathbf{Std}_{Cvx}$ we only need to verify that $X$ satisfies the fullness condition.
 
-... to be added shortly
+Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We claim that $(X,h) \xrightarrow{m} (\mathbb{R}_{\infty}, \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ is a morphism of $G$-algebras.  In other words, the right-hand side of the $\mathbf{Std}$-diagram
+\begin{tikzpicture}
+   \node (G2X) at (-4,0) {$G^2(X)$};
+   \node  (GX) at  (-4, -1.5) {$G(X)$};
+   \node  (GX2) at  (-1,0)    {$G(X)$};
+   \node  (GR)  at  (2,0)  {$G(\mathbb{R}_{\infty})$};
+   \node  (X)   at  (-1, -1.5)  {$X$};
+   \node  (R)   at  (2, -1.5)   {$\mathbb{R}_{\infty}$};
+
+   \draw[->,above] (G2X) to node {$G(h)$} (GX2);
+   \draw[->,right] (GX2) to node {$h$} (X);
+   \draw[->,left] (G2X) to node {$\mu_X=\mathbb{E}_{\bullet}(id_{G(X)})$} (GX);
+   \draw[->,below] (X) to node {$m$} (R);
+   \draw[->,above] (GX2) to node {$G(m)$} (GR);
+   \draw[->,below] (GX) to node {$h$} (X); 
+   \draw[->,right] (GR) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (R);
+    
+\end{tikzpicture}
+commutes.
+
+To prove this note that the space $G(X)$ is, by Lemma 3.7, an object in $\mathbf{Std}_{Cvx}$, and that $\mathbb{R}_{\infty}$ is also an object in $\mathbf{Std}_{Cvx}$.  The composite map $m \circ h$ is an affine measurable map and hence an arrow in $\mathbf{Std}_{Cvx}$.  By Corollary 3.11 it follows that the outer square commutes.  Thus we have
+$$ \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ G(m) \circ G(h) = m \circ (h \circ \mu_X) = m \circ h \circ G(h).
+$$
+Now note that $G(h)$ is an epimorphism (onto) because $h$ is an epimorphism. Consequently, cancelling the term $G(h)$ on the right in the preceding equation shows that the right-hand side of the square in the diagram commutes.
+
+Since $m$ is a morphism of $G$-algebras it follows that for all $P \in G(X)$ that $m( h(P)) = \mathbb{E}_P(m)$, which in turn implies that 
+$$ h(P) \in m^{-1}\big(\mathbb{E}_P(m)\big) $$
+or equivalently, $h(P) \in m^{-1}( \tilde{P}(m) )$.  This equation holds for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, and hence the fullness property is satisfied, i.e.,
+$$ \bigcap_{m \in \mathbb{R}_{\infty}^A|} m^{-1}(\tilde{P}(m)) \ne \emptyset. $$
+Consequently $X$ lies in the category $\mathbf{Std}_{Cvx}$.
+
+The fact that every morphism in $\mathbf{Alg}_G$ is a morphism in $\mathbf{Std}_{Cvx}$ follows from Lemma 3.1.
+Hence we have shown that $\mathbf{Alg}_G$ is a subcategory of $\mathbf{Std}_{Cvx}$.
 \end{proof}
 
  
-Concerning $P$ algebras, the above method of using $V$-generalized points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. (This is evident in the fact that he does not theoretically relate the algebras to the expectation mapping which characterizes the $P$-algebras.)
+Concerning $P$ algebras, the above method of using generalized points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. (This is evident in the fact that he does not theoretically relate the algebras to the expectation mapping which characterizes the $P$-algebras.)
 His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
  And there’s another condition which requires a compact subset of $P(X)$ to be sent to a compact subset of $X$.
 
@@ -415,7 +446,7 @@ The article
 
 views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, obtained by double dualizing into $[0,\infty]$, which then yields the characterization of $G$-algebras summarized [[Giry monad#algebras_over_the_giry_monad|above]], which is from the article
 
-* {#Sturtz25}[[Kirk Sturtz]], _A factorization of the Giry monad on standard Borel spaces using $[0,\infty]$-generalized points_, $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
+* {#Sturtz25}[[Kirk Sturtz]], _Deriving the Giry algebras on standard Borel spaces using $\mathbb{R}_{\infty}$-generalized points_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
 
 
 Some corrections from an earlier version of the Categorical Probability Theory article, were pointed out in
