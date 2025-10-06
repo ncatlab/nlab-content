@@ -493,17 +493,22 @@ Discussion of [[experiment|experimental]] signatures of and constraints on axion
   > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
 
 
-Discussion of the axion as a candidate for [[dark matter]] ([[fuzzy dark matter]]) is in
+Discussion of the axion as a candidate for [[dark matter]] ([[fuzzy dark matter]]):
 
 * {#HOTW16} [[Lam Hui]], [[Jeremiah Ostriker]], [[Scott Tremaine]], [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_, Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
-with its experimental bounds
+and with its experimental bounds
 
 * Nilanjan Banik, Adam J. Christopherson, Pierre Sikivie, Elisa Maria Todarello, _New astrophysical bounds on ultralight axionlike particles_, Phys. Rev. D 95, 043542 (2017) ([arXiv:1701.04573](https://arxiv.org/abs/1701.04573))
 
 and as a candidate for [[dark energy]]:
 
 * [[Stephon Alexander]], [[Robert Brandenberger]], [[Juerg Froehlich]], _Tracking Dark Energy from Axion-Gauge Field Couplings_ ([arXiv:1601.00057](https://arxiv.org/abs/1601.00057))
+
+See also:
+
+* Luca Visinelli: *Axions as Dark Matter, Dark Energy, and Dark Radiation* &lbrack;[arXiv:2509.17059](https://arxiv.org/abs/2509.17059)&rbrack;
+
 
 
 
