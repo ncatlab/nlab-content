@@ -66,13 +66,18 @@ Observation of flux tubes between [[quarks]] in [[lattice QCD]]-simulations:
 * G.S. Bali, K. Schilling, C. Schlichter, *Observing Long Colour Flux Tubes in $SU(2)$ Lattice Gauge Theory*, Phys. Rev. D **51** (1995) 5165-5198
  &lbrack;[arXiv:hep-lat/9409005](https://arxiv.org/abs/hep-lat/9409005), [doi:10.1103/PhysRevD.51.5165](https://doi.org/10.1103/PhysRevD.51.5165)&rbrack;
 
-
 * M. Baker, V. Chelnokov, L. Cosmai, F. Cuteri, A. Papa, *The flux tube profile in full QCD* &lbrack;[arXiv:2111.06618](https://arxiv.org/abs/2111.06618)&rbrack;
 
 
 Analytic solutions for flux tubes between [[quarks]] at least in [[Proca theory]]:
 
 * [[Vladimir Dzhunushaliev]], [[Vladimir Folomeev]], *Chromoelectric flux tubes within non-Abelian Proca theory* &lbrack;[arXiv:2404.07747](https://arxiv.org/abs/2404.07747)&rbrack;
+
+Description of flux tubes via [[holographic QCD]]:
+
+* Tommaso Canneti: *Flux tube profile from Holography: finite size and strong coupling corrections* &lbrack;[arXiv:2510.02442](https://arxiv.org/abs/2510.02442)&rbrack;
+
+
 
 
 [[!include Polyakov gauge-string duality -- references]]
