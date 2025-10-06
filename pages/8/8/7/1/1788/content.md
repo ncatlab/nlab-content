@@ -6,6 +6,8 @@
 
 ***
 
+$\ldots$
+
 [[analogy between 11D and 5D SuGra -- table]]
 
 **Structural similarity between [[D=11 supergravity|D=11]] and [[D=5 supergravity]]** \linebreak (cf. [Mizoguchi & Ohta 1998](5D+supergravity#MizoguchiOhta98); [Fujii, Kemmoku & Mizoguchi 1999](5D+supergravity#5D+supergravity#FujiiKemmokuMizoguchi99), [2000](5D+supergravity#5D+supergravity#FujiiKemmokuMizoguchi00))
