@@ -54,7 +54,7 @@ in the [[reduced cohomology|reduced]] $E$-[[cohomology ring]] of the [[Thom spac
 $$
   i_x 
     \;\colon\; 
-  S^n \simeq Th(\mathbb{R}^n) \overset{Th(j_x)}{\longrightarrow} Th(V)
+  S^n \simeq Th(\mathbb{R}^n) \overset{Th(fib_x)}{\longrightarrow} Th(V)
 $$ 
 
 (for $\mathbb{R}^n \overset{fib_x}{\hookrightarrow} V$ the [[fiber]] of $V$ over $x$) is a _generator_, in that it is of the form
@@ -72,7 +72,7 @@ for
 
 =--
 
-(e.g. [Kochman 96, def. 4.3.4](#Kochman96))
+(e.g. [Kochman 1996, def. 4.3.4](#Kochman96))
 
 
 #### Orientation of a manifold
