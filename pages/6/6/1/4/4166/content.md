@@ -371,10 +371,9 @@ So by the above theorem
 ## References
  {#References}
 
-The original articles on BDR 2-vector bundles are
+The original article:
 
-* [[Nils Baas]], [[Ian Dundas]],  [[John Rognes]], _Two-vector bundles and forms of elliptic cohomology_, in: _Topology, geometry and quantum field theory_, volume 308 of London Math. Soc. Lecture Note Ser., pages 18&#8211;45.
-Cambridge Univ. Press, Cambridge, (2004).
+* [[Nils Baas]], [[Ian Dundas]],  [[John Rognes]]: _Two-vector bundles and forms of elliptic cohomology_, in: _Topology, Geometry and Quantum Field Theory_, London Math. Soc. Lecture Note Ser. **308**, Cambridge Univ. Press, Cambridge (2004) 18-45 &lbrack;[arXiv:math/0306027](https://arxiv.org/abs/math/0306027), [pdf](https://www.mn.uio.no/math/personer/vit/rognes/papers/segal60.pdf), [doi:10.1017/CBO9780511526398](https://doi.org/10.1017/CBO9780511526398)&rbrack;
 
 Their [[classifying spaces]] are discussed in
 
