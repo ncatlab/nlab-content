@@ -1,7 +1,22 @@
 
+Robert Paul Geroch
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Robert_Geroch)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=92456)
+
+* [inSpire page](https://inspirehep.net/authors/1020721)
+
+
+
 ## Selected writings
+
+Concerning [[spin structures]] on 1+3D [[Lorentzian manifolds]] (and proving that these exists iff there exists a [[framed manifold|framing]]):
+
+* {#Geroch68} [[Robert Geroch]]: *Spinor Structure of Space‐Times in General Relativity. I*, J. Math. Phys. **9** (1968) 1739–1744 &lbrack;[doi:10.1063/1.1664507](https://doi.org/10.1063/1.1664507), [[Geroch-SpinorStructureI.pdf:file]]&rbrack;
+
+* {#Geroch70} [[Robert Geroch]]: *Spinor Structure of Space‐Times in General Relativity. II*, J. Math. Phys. **11** (1970) 343–348 &lbrack;[doi:10.1063/1.1665067](https://doi.org/10.1063/1.1665067), [[Geroch-SpinorStructureII.pdf:file]]&rbrack;
+
 
 On [[Cauchy surfaces]] in [[globally hyperbolic spacetimes]], and proving the the *[[Geroch splitting theorem]]*:
 
@@ -37,3 +52,7 @@ On [[partial differential equations]] appearing in [[physics]]:
 
 
 category: people
+
+[[!redirects Robert P. Geroch]]
+
+
