@@ -186,7 +186,9 @@ Discussion of the [[Page charge]] in relation to the [[Myers effect]] in [[M-the
 
 Proof that C-field [[geometry of physics -- flux quantization|flux quantization]] in [[stable Cohomotopy]] implies the desired divisibility by 6 of the [[D=11 supergravity]] [[action functional]]:
 
-* [[Daniel Grady]]: *Cohomotopy and flux quantization in M-theory* &lbrack;[arXiv:2505.24696](https://arxiv.org/abs/2505.24696)&rbrack;
+* [[Daniel Grady]]: *Cohomotopy and flux quantization in M-theory*, Journal of Geometry and Physics &lbrack;[arXiv:2505.24696](https://arxiv.org/abs/2505.24696), [doi:10.1016/j.geomphys.2025.105667](https://doi.org/10.1016/j.geomphys.2025.105667)&rbrack;
+
+
 
 ### Relation to Freed-Witten anomaly
 
