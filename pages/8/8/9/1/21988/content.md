@@ -11,7 +11,7 @@ which [[representable functor|co-represent]] these:
 
 * {#Ravenel86} [[Douglas Ravenel]], §6.5 of: _[[Complex cobordism and stable homotopy groups of spheres]]_, Academic Press Orland (1986), AMS Chelsea Publishing **347** (2004) \[<a href="https://bookstore.ams.org/chel-347-h">ISBN:978-0-8218-2967-7</a>\]
 
-* {#DevinatzHopkinsSmith88} [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeffrey Smith]], Theorem 3 of: _Nilpotence and Stable Homotopy Theory I_, Annals of Mathematics Second Series, **128** 2 (1988) 207-241 \[<ahref="https://www.jstor.org/stable/1971440">jstor:1971440</a>\]
+* {#DevinatzHopkinsSmith88} [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeffrey Smith]], Theorem 3 of: _Nilpotence and Stable Homotopy Theory I_, Annals of Mathematics Second Series, **128** 2 (1988) 207-241 \[<a href="https://www.jstor.org/stable/1971440">jstor:1971440</a>\]
 
 * [[Doug Ravenel]]: _The first Adams-Novikov differential for the spectrum $T(m)$_ (2000) $[$[pdf](https://web.math.rochester.edu/people/faculty/doug/mypapers/first.pdf), [[RavenelAdamsNovikovForTm.pdf:file]]\]
 
