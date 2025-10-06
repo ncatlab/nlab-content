@@ -34,6 +34,9 @@
 
 * _Strong CP problem and axion Phenomenology_, Proceedings of the DAE Symp. on Nucl. Phys. 58 (2013) ([pdf](http://sympnp.org/proceedings/58/F14.pdf))
 
+* Claudio Bonanno, Claudio Bonati, Massimo D'Elia: *Strong CP problem, theta term and QCD topological properties*, Encyclopedia od Particle Physics (2025) &lbrack;[arXiv:2510.03059](https://arxiv.org/abs/2510.03059)&rbrack;
+
+
 See also
 
 * Wikipedia, _[Strong CP problem](http://en.wikipedia.org/wiki/Strong_CP_problem)_
