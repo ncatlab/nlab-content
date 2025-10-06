@@ -5,9 +5,9 @@
 Discussion of [[complex oriented cohomology theory|complex orientation]] (in [[Whitehead generalized cohomology]]) on (only) those [[complex vector bundles]] which are [[pullback bundle|pulled back]] from base spaces of *bounded* [[cell complex|cell]]-[[dimension]] ([Hopkins 1984 §1.2](#Hopkins84), [Ravenel 1986  §6.5.2](#Ravenel86), [SS23 §3.8](#SatiSchreiber23))_ -- or rather, for the most part, of  [[Ravenel's spectrum|Ravenel's]] [[Thom spectra]] $X(n)$ and $T(m)$ ([Ravenel 1984, Sec. 3](#Ravenel84))
 which [[representable functor|co-represent]] these:
 
-* {#Ravenel84} [[Douglas Ravenel]], §3 of: _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics **106** 2 (1984) 351-414 \[<a href="https://doi.org/10.2307/2374308">doi:10.2307/2374308</a>,  [jstor:2374308](https://www.jstor.org/stable/2374308)\]
+* {#Ravenel84} [[Douglas Ravenel]], §6.5.2 in: _Localization with Respect to Certain Periodic Homology Theories_, American Journal of Mathematics **106** 2 (1984) 351-414 \[<a href="https://doi.org/10.2307/2374308">doi:10.2307/2374308</a>,  [jstor:2374308](https://www.jstor.org/stable/2374308)\]
 
-* {#Hopkins84} [[Michael Hopkins]], _Stable decompositions of certain loop spaces_, PhD thesis, Northwestern (1984) $[$[[HopkinsStableDecompositions.pdf:file]]\]
+* {#Hopkins84} [[Michael Hopkins]], §1.2 in: _Stable decompositions of certain loop spaces_, PhD thesis, Northwestern (1984) $[$[[HopkinsStableDecompositions.pdf:file]]\]
 
 * {#Ravenel86} [[Douglas Ravenel]], §6.5 of: _[[Complex cobordism and stable homotopy groups of spheres]]_, Academic Press Orland (1986), AMS Chelsea Publishing **347** (2004) \[<a href="https://bookstore.ams.org/chel-347-h">ISBN:978-0-8218-2967-7</a>\]
 
