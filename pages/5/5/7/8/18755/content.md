@@ -67,4 +67,4 @@ The inverse of the Compton wavelength appears as the [[mass]] term notably in th
 
 * Wikipedia, _[Compton wavelength](https://en.wikipedia.org/wiki/Compton_wavelength)_
 
-[[!redirects Compton wavelength]]
+[[!redirects Compton wavelengths]]
