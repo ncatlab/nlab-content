@@ -22,9 +22,9 @@ In a [[1-category]], [[compositions]] are by definition unique. However, in a ge
 
 ## Definition
 
-A *composer* $C$ is a [[simplicial set]] with the right [[lifting property]] against all [[spline]] inclusions $I^n \to \Delta^n$. 
+A *composer* $C$ is a [[simplicial set]] with the right [[lifting property]] against all [[spine]] inclusions $I^n \to \Delta^n$. 
 
-In particular since $I^2=\Lambda^2 _1$ is the [[horn|(2,1)-horn,]] and since a [[pair]] of composable [[1-simplices]] $f,g$ determines an [[image]] of $I^2$, this means that given a composer there is a notion of composition $g \circ f$ as the restriction of the extension of the spline $\sigma|_{\{0,2\}}$. 
+In particular since $I^2=\Lambda^2 _1$ is the [[horn|(2,1)-horn,]] and since a [[pair]] of composable [[1-simplices]] $f,g$ determines an [[image]] of $I^2$, this means that given a composer there is a notion of composition $g \circ f$ as the restriction of the extension of the spine $\sigma|_{\{0,2\}}$. 
 
 \begin{tikzcd}
 	& b \\
@@ -37,7 +37,7 @@ In particular since $I^2=\Lambda^2 _1$ is the [[horn|(2,1)-horn,]] and since a [
 ## Examples
 
 \begin{example}
-Since spline inclusions are [[anodyne morphism|anodyne]] it follows that every [[quasi-category]] is a composer. This is one way to make precise how there there is a notion of [[composition]] on ([[n-morphism|higher]]) [[morphisms]] in a quasi-category.
+Since spine inclusions are [[anodyne morphism|anodyne]] it follows that every [[quasi-category]] is a composer. This is one way to make precise how there there is a notion of [[composition]] on ([[n-morphism|higher]]) [[morphisms]] in a quasi-category.
 \end{example}
 
 ## References
