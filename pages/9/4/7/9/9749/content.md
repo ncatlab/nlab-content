@@ -93,7 +93,7 @@ If $X$ is any standard space then the space of probability measures $G{X}$ is a 
 \begin{equation}
 \big(\sum_{i=1}^{\infty} p_i P_i\big)(U) = \sum_{i=1}^{\infty} p_i P_i(U).
 \end{equation}
-By restriction to finite affine sums $G{X}$ is a convex space.
+By restriction to finite affine sums $G{X}$ can also be viewed as a convex space.
 
 \begin{lemma} \label{FunThm} Given any $G$-algebra $h: G{X} \to X$ the base space $X$ has the structure of a convex space which makes the measurable function $h$ an affine (measurable) map. Moreover, morphisms of $G$-algebras are also affine maps.
 \end{lemma}
@@ -283,7 +283,7 @@ Since the Giry monad factors through $\mathbf{Std}_{Cvx}$ it follows that  $\mat
 
 \begin{theorem} $\mathbf{Std}_{Cvx} = \mathbf{Alg}_{G}$.
 \end{theorem}
-\begin{proof} Suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.  By Lemma 1 $X$ has a convex space structure so $X$ is an object in $\mathbf{Std} \cap \mathbf{Cvx}$.  To show that $X$ is an object in $\mathbf{Std}_{Cvx}$ we only need to verify that $X$ satisfies the fullness condition.
+\begin{proof} Suppose that $(X,h)$ is a $G$-algebra so that $X$ is an object in $\mathbf{Alg}_G$.  By Lemma 3.1 $X$ has a convex space structure so $X$ is an object in $\mathbf{Std} \cap \mathbf{Cvx}$.  To show that $X$ is an object in $\mathbf{Std}_{Cvx}$ we only need to verify that $X$ satisfies the fullness condition.
 
 Take any affine measurable function $X \xrightarrow{m} \mathbb{R}_{\infty}$.  We claim that $(X,h) \xrightarrow{m} (\mathbb{R}_{\infty}, \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ is a morphism of $G$-algebras.  In other words, the right-hand side of the $\mathbf{Std}$-diagram
 \begin{tikzpicture}
