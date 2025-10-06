@@ -45,7 +45,7 @@
 
 * {#Lurie09} [[Jacob Lurie]], §3.8 in: *Derived Algebraic Geometry VI: $\mathbb{E}_k$ Algebras* &lbrack;[arXiv:0911.0018](https://arxiv.org/abs/0911.0018)&rbrack;
 
-* [[Jacob Lurie]], *Nonabelian Poincaré Duality*, Lecture 8 in *[Tamagawa Numbers via Nonabelian Poincare Duality (282y)](https://www.math.ias.edu/~lurie/282y.html)* (2014) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/282ynotes/LectureVIII-Poincare.pdf), [[Lurie-NonabPoincareDuality.pdf:file]]&rbrack;
+* [[Jacob Lurie]], Def. 6 in: *Nonabelian Poincaré Duality*, Lecture 8 in: *[Tamagawa Numbers via Nonabelian Poincare Duality (282y)](https://www.math.ias.edu/~lurie/282y.html)* (2014) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/282ynotes/LectureVIII-Poincare.pdf), [[Lurie-NonabPoincareDuality.pdf:file]]&rbrack;
 
 * [[Dennis Gaitsgory]], [[Jacob Lurie]]: *Nonabelian Poincaré Duality*, section 3 in: *Weil's conjecture for function fields* (2014-2017) &lbrack;[pdf](https://www.math.ias.edu/~lurie/papers/tamagawa.pdf), [[GaitsgoryLurie-WeilConjecture.pdf:file]]&rbrack;
 
