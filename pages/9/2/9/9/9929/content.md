@@ -1101,22 +1101,22 @@ Textbook accounts:
 * {#ConnerFloyd66} [[Pierre Conner]], [[Edwin Floyd]], around Theorem 7.6 of: _[[The Relation of Cobordism to K-Theories]]_, Lecture Notes in Mathematics __28__ Springer 1966 ([doi:10.1007/BFb0071091](https://link.springer.com/book/10.1007/BFb0071091), [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511))
 
 
-* [[Frank Adams]], part II, section 2 of: _[[Stable homotopy and generalised homology]]_, 1974
+* [[Frank Adams]], part II, section 2 of: _[[Stable homotopy and generalised homology]]_, Chicago Lectures in Mathematics, University of Chicago Press (1974) &lbrack;[ucp:bo21302708](https://www.press.uchicago.edu/ucp/books/book/chicago/S/bo21302708.html), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/Adams-SHGH-latex2.pdf)&rbrack;
 
 * [[John Michael Boardman]], Section 5 of: _Stable Operations in Generalized Cohomology_ &lbrack;[pdf](https://math.jhu.edu/~wsw/papers2/math/28a-boardman-stable.pdf), [[Boardman-StableOperations.pdf:file]]&rbrack; in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_ Oxford 1995 ([doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 
-* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of: _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, Fields Institute Monographs **7**, American Mathematical Society (1996) &lbrack;[ams:fim-7](https://bookstore.ams.org/fim-7), ISBN:978-1-4704-3134-1, [cds:2264210](https://cdsweb.cern.ch/record/2264210)&rbrack;
 
 * [[Doug Ravenel]], Section 4.1 of: _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 * {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], Section 3.2 in: *Generalized Cohomology*, Translations of Mathematical Monographs, American Mathematical Society (2006) &lbrack;[ISBN: 978-0-8218-3514-2](https://bookstore.ams.org/mmono-230)&rbrack;
 
-Introduction includes
+Introductions:
 
-* _[[Introduction to Cobordism and Complex Oriented Cohomology]]_
+* [[Urs Schreiber]]: _[[Introduction to Cobordism and Complex Oriented Cohomology]]_ (2016)
 
-* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology, generalized orientation and Thom isomorphism_, 2016, 2018 ([[PedrotticECohomology2018.pdf:file]])
+* {#Pedrotti16} [[Riccardo Pedrotti]]: _Complex oriented cohomology, generalized orientation and Thom isomorphism_ (2016, 2018) &lbrack;[[PedrotticECohomology2018.pdf:file]]&rbrack;
 
 
 The perspective of [[chromatic homotopy theory]] originates in
