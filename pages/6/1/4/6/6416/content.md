@@ -3,7 +3,7 @@
 
 ## Selected writings
 
-On [[Cauchy surfaces]] in [[globally hyperbolic spacetimes]]:
+On [[Cauchy surfaces]] in [[globally hyperbolic spacetimes]], and proving the the *[[Geroch splitting theorem]]*:
 
 * [[Robert Geroch]], §5, Thm. 11 in: *Domain of Dependence*, J. Math. Phys. **11** (1970) 437–449 &lbrack;[doi:10.1063/1.1665157](https://doi.org/10.1063/1.1665157)&rbrack;
 
