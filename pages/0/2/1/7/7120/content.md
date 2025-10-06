@@ -87,7 +87,7 @@ Z & \xhookrightarrow{i} & X & \xhookleftarrow{j} & U \\
 \end{array}
 $$
 
-Here $i$ is a _closed_ inclusion and $j$ is an _open_ inclusion. Then the categories of sheaves on $X,Z$ and $U$ fit into the recollement structure described above. The recollement structure on the category of sheaves on $X$ enables one to argue inductively about sheaves on $X.$ This idea is usually referred to as [[Noetherian induction]]. This technique allows to deduce results about higher dimensional schemes from information about lower dimensional schemes and analysis of locally standard schemes (e.g. smooth schemes for étale topology). See [Achar Exercise 1.3.4, Lemma 2.2.1](#Achar2021).
+Here $i$ is a _closed_ inclusion and $j$ is an _open_ inclusion. Then the categories of sheaves on $X,Z$ and $U$ fit into the recollement structure described above. The recollement structure on the category of sheaves on $X$ enables one to argue inductively about sheaves on $X.$ This idea is usually referred to as [[well-founded relation|well-founded]] or [[Noetherian induction]]. This technique allows to deduce results about higher dimensional schemes from information about lower dimensional schemes and analysis of locally standard schemes (e.g. smooth schemes for étale topology). See [Achar Exercise 1.3.4, Lemma 2.2.1](#Achar2021).
 
 * The [[forgetful functor]] from [[global equivariant stable homotopy theory]] to plain [[stable homotopy theory]] exhibits a recollement,
 
