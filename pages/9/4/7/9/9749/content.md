@@ -75,19 +75,21 @@ This makes the [[endofunctor]] $P$ into a [[monad]], and this is the _Giry monad
 
 ## Properties
 
-### Giry Monad on Standard spaces
-
-Every probability measure on a [[Standard Borel space]]  is a [[Radon measure]]. So, on compact Polish spaces, the Giry monad coincides with the measurable sets of the [[Radon monad]]. Do note that not every measurable map is continuous with regard to the topology of the Radon monad. This applies to algebras also — for example, the Giry algebra on $[0, \infty]$ is not continuous.
-
-The Giry monad on Polish spaces uses the weak topology, which is weaker than the weak* topology of the [[Radon monad]].
-
 ### Kleisli category
 
 The [[Kleisli morphisms]] of the Giry monad on [[Meas]] (and related subcategories) are [[Markov kernels]]. Therefore its [[Kleisli category]] is the category [[Stoch]]. 
 It is one of the most important examples of a [[Markov category]].
 
-### Algebras over the Giry monad
-We can't say much about the $G$-algebras on the category of measurable spaces due to lack of structure and set-theoretical issues.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to understand how $G$ algebras arise via expectation maps.
+### Algebras over the Giry Monad on Standard spaces
+
+We can't say much about the $G$-algebras on the category of measurable spaces due to set-theoretical issues, e.g., the hypothesis that measurable cardinals exist.  However, the $G$ monad restricts to the full subcategory of [[standard Borel space]] where we can construct a factorization of the $G$ monad which allows us to understand how $G$ algebras arise via expectation maps.
+
+Let us first note a relationship between the Giry monad on [[standard Borel space]] and the [[Radon monad]].
+Every probability measure on a [[Standard Borel space]]  is a [[Radon measure]]. So, on compact Polish spaces, the Giry monad coincides with the measurable sets of the [[Radon monad]]. Do note that not every measurable map is continuous with regard to the topology of the Radon monad. This applies to algebras also — for example, the Giry algebra on $[0, \infty]$ is not continuous.
+
+The Giry monad on Polish spaces uses the weak topology, which is weaker than the weak* topology of the [[Radon monad]].
+
+We now proceed to determine the category of algebras, $\mathbf{Alg}_G$, of the $G$-monad. 
    
 If $X$ is any standard space then the space of probability measures $G{X}$ is a [[superconvex space]] with the structure defined pointwise: if $\{P_i\}_{i=1}^{\infty}$ is a countable collection of probability measures on $X$  then, for every sequence $\{p_i\}_{i=1}^{\infty}$ with each $p_i \in [0,1]$ such that $\sum_{i=1}^{\infty} p_i = 1$, the countable affine sum  $\sum_{i=1}^{\infty} p_i P_i$,  is also a probability measure, defined at the measurable set $U$ in $X$ by
 \begin{equation}
@@ -95,7 +97,7 @@ If $X$ is any standard space then the space of probability measures $G{X}$ is a 
 \end{equation}
 By restriction to finite affine sums $G{X}$ can also be viewed as a convex space.
 
-\begin{lemma} \label{FunThm} Given any $G$-algebra $h: G{X} \to X$ the base space $X$ has the structure of a convex space which makes the measurable function $h$ an affine (measurable) map. Moreover, morphisms of $G$-algebras are also affine maps.
+\begin{lemma} \label{FunThm} Given any $G$-algebra $G{X} \xrightarrow{h} X$ the base space $X$ has the structure of a convex space which makes the measurable function $h$ an affine (measurable) map. Moreover, morphisms of $G$-algebras are also affine maps.
 \end{lemma}
 \begin{proof} Given $h$ define the convex space structure on $X$ by
 \begin{equation}
@@ -124,8 +126,7 @@ f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
 
 \end{proof}
 
-Let $\mathbf{Std}\cap \mathbf{Cvx}$ be the category of standard spaces with a convex space structure with morphisms being affine measurable functions.  Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line.  $\mathbb{R}_{\infty}$ is a second-countable compact Hausdorff space so it is a [[Polish space]], and hence $\mathbb{R}_{\infty}$ with the Borel $\sigma$-algebra is a standard space.  Let $\mathbf{Std} \cap \mathbf{Cvx}$ denote  
-the category whose objects are standard spaces with a convex space structure, and whose morphisms are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Std} \cap \mathbf{Cvx}$. 
+Let $\mathbf{Std}\cap \mathbf{Cvx}$ be the category of standard spaces with a convex space structure with morphisms being affine measurable functions.  Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line.  $\mathbb{R}_{\infty}$ is a second-countable compact Hausdorff space so it is a [[Polish space]], and hence $\mathbb{R}_{\infty}$ with the Borel $\sigma$-algebra is a standard space.  Let $\mathbf{Std} \cap \mathbf{Cvx}$ denote the category whose objects are standard spaces with a convex space structure, and whose morphisms are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Std} \cap \mathbf{Cvx}$. 
 
 Given any standard space $A$ and any $P \in G(A)$ let $\mathbf{Std}(A, \mathbb{R}_{\infty}) \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_A f \, dP$.  Let $\mathbb{R}_{\infty}^A = hom_{\mathbf{Std} \cap \mathbf{Cvx}}(A, \mathbb{R}_{\infty})$. Taking $A=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of endomaps on $\mathbb{R}_{\infty}$.  Recall that a $\mathbb{R}_{\infty}$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $m \in \mathbb{R}_{\infty}^A$, the equation 
 \begin{equation}
@@ -276,8 +277,7 @@ commutes. But both $\mathbb{E}_{\bullet}(id_A)$ and $\mathbb{E}_{\bullet}(id_{\m
 The proof is straightforward using the previous lemma.
 \end{proof}
 
-Using the naturality of $\mathbb{E}$ we obtain an adjunct pair $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Std}_{Cvx}$, and the partial forgetful functor $\mathbf{Std}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Std}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  T
-he composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
+Using the naturality of $\mathbb{E}$ we obtain an adjunct pair $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Std}_{Cvx}$, and the partial forgetful functor $\mathbf{Std}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Std}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  The composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
 
 Since the Giry monad factors through $\mathbf{Std}_{Cvx}$ it follows that  $\mathbf{Std}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
 
@@ -317,7 +317,7 @@ $$ \bigcap_{m \in \mathbb{R}_{\infty}^A|} m^{-1}(\tilde{P}(m)) \ne \emptyset. $$
 Consequently $X$ lies in the category $\mathbf{Std}_{Cvx}$.
 
 The fact that every morphism in $\mathbf{Alg}_G$ is a morphism in $\mathbf{Std}_{Cvx}$ follows from Lemma 3.1.
-Hence we have shown that $\mathbf{Alg}_G$ is a subcategory of $\mathbf{Std}_{Cvx}$.
+Hence we have shown that $\mathbf{Alg}_G$ is a subcategory of $\mathbf{Std}_{Cvx}$.  Combining this fact with the result that $\mathbf{Std}_{Cvx}$ is a subcategory of $\mathbf{Alg}_G$ yields the result.
 \end{proof}
 
  
