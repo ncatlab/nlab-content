@@ -28,7 +28,7 @@ Let $\mathcal{C}$ be any [[small category]].
 
 For $X \,\in\, \mathcal{C}$ an [[object]], the [[category of presheaves]] $PSh\big( \mathcal{C}_{/X}\big)$ on the [[slice category]] $\mathcal{C}_{/X}$ is [[equivalence of categories|equivalent]] to the [[slice category|slice]] $PSh(\mathcal{C})_{/y(X)}$ of the [[category of presheaves]] on $\mathcal{C}$ over the [[image]] of $X$ under the [[Yoneda embedding]].
 
-The former [[presheaf topos]] is manifestly a [[Grothendieck topos]], whence this equivalence shows that also the slice $PSh(\mathcal{C})_{/X}$ is a Grothendieck topos. This is the archetypical special case of the *[[fundamental theorem of topos theory]]* which says that all [[slice category|slices]] of toposes are themselves toposes: *[[slice toposes]]*.
+The former [[presheaf topos]] is manifestly a [[Grothendieck topos]], whence this equivalence shows that also the slice $PSh(\mathcal{C})_{/X}$ is a Grothendieck topos. This is the archetypical special case of the *[[fundamental theorem of topos theory]]*, which says that all [[slice category|slices]] of toposes are themselves toposes: *[[slice toposes]]*.
 
 As shown in Prop. \ref{TheAdjointEquivalenceInOrdinaryCategoryTheory} below, this equivalence is canonically an [[adjoint equivalence]], where the [[right adjoint]] $R$ forms the [[hom-set]] in the [[slice category|slice]] over $y(X)$, hence is the functor which takes a [[bundle]] (in the broad sense) [[internalization|internal]] to [[presheaves]] to its system of sets $\Gamma_{(-)}(E)$ of [[local sections]]:
 
@@ -1293,4 +1293,8 @@ via [[model categories]]:
 and via [[quasi-categories]]:
 
 * {#Lurie09} [[Jacob Lurie]], Prop. 5.1.6.12 in: *[[Higher Topos Theory]]*, Annals of Mathematics Studies 170, Princeton University Press, 2009 ([pup:8957](https://press.princeton.edu/titles/8957.html), [pdf](https://www.math.ias.edu/~lurie/papers/HTT.pdf))
+
+The account in the entry above follows:
+
+* [[Hisham Sati]], [[Urs Schreiber]], Prop. 3.2.45-47 in: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-Bundles]]*, Cambridge University Press (2025) &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
