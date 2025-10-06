@@ -77,11 +77,13 @@ A detailed discussion is in
 
 * {#HOTW16} [[Lam Hui]], [[Jeremiah Ostriker]], [[Scott Tremaine]], [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_,  Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
-Review includes
+Review:
 
 * David J. E. Marsh, _Axion Cosmology_ ([arXiv:1510.07633](https://arxiv.org/abs/1510.07633))
 
 * {#Lee17} Jae-Weon Lee, _Brief History of Ultra-light Scalar Dark Matter Models_ ([arXiv:1704.05057](https://arxiv.org/abs/1704.05057))
+
+* Luca Visinelli: *Axions as Dark Matter, Dark Energy, and Dark Radiation* &lbrack;[arXiv:2509.17059](https://arxiv.org/abs/2509.17059)&rbrack;
 
 Computer simulation of [[structure formation]] with fuzzy dark matter:
 
