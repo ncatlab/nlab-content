@@ -93,67 +93,68 @@ If $X$ is any standard space then the space of probability measures $G{X}$ is a 
 \begin{equation}
 \big(\sum_{i=1}^{\infty} p_i P_i\big)(U) = \sum_{i=1}^{\infty} p_i P_i(U).
 \end{equation}
+By restriction to finite affine sums $G{X}$ is a convex space.
 
-
-\begin{lemma} \label{FunThm} Given any $G$-algebra $h: G{X} \to X$ the base space $X$ has the structure of a superconvex space which makes the measurable function $h$ a countably affine (measurable) map. Moreover, morphisms of $G$-algebras are also countably affine maps.
+\begin{lemma} \label{FunThm} Given any $G$-algebra $h: G{X} \to X$ the base space $X$ has the structure of a convex space which makes the measurable function $h$ an affine (measurable) map. Moreover, morphisms of $G$-algebras are also affine maps.
 \end{lemma}
-\begin{proof} Given $h$ define the superconvex space structure on $X$ by
+\begin{proof} Given $h$ define the convex space structure on $X$ by
 \begin{equation}
- \sum_{i=1}^{\infty} p_i x_i := h(\sum_{i=1}^{\infty} p_i \delta_{x_i}).
+ \sum_{i=1}^{n} p_i x_i := h(\sum_{i=1}^{n} p_i \delta_{x_i}).
 \end{equation}
 
-Because a $G$-algebra $h$ must satisfy $h \circ \mu_X = h \circ G{h}$ we have, for any countable sequence $Q_i \in GX$, 
+Because a $G$-algebra $h$ must satisfy $h \circ \mu_X = h \circ G{h}$ we have, for any finite sequence $Q_i \in GX$, 
 \begin{equation}
 \begin{array}{lcl}
-(h \circ \mu_X)( \sum_{i=1}^{\infty} p_i \delta_{Q_i}) &=& (h \circ G{h})( \sum_{i=1}^{\infty} p_i \delta_{Q_i}) \\
-h( \sum_{i=1}^{\infty} p_i Q_i) &=& h(\sum_{i=1}^{\infty} p_i \, \delta_{h(Q_i)}) \\
- &=& \sum_{i=1}^{\infty} p_i h(Q_i)
+(h \circ \mu_X)( \sum_{i=1}^{n} p_i \delta_{Q_i}) &=& (h \circ G{h})( \sum_{i=1}^{n} p_i \delta_{Q_i}) \\
+h( \sum_{i=1}^{n} p_i Q_i) &=& h(\sum_{i=1}^{n} p_i \, \delta_{h(Q_i)}) \\
+ &=& \sum_{i=1}^{n} p_i h(Q_i)
 \end{array}
 \end{equation}
-where the last line makes use of the definition of the convex structure on $X$. Thus, every $G$-algebra is countably affine.
+where the last line makes use of the definition of the convex structure on $X$. Thus, every $G$-algebra is affine.
 
-To prove that any map of $G$-algebras $f: (X, h) \to (Y, k)$ is a countably affine map, we compute
+To prove that any map of $G$-algebras $f: (X, h) \to (Y, k)$ is an affine map, we compute
 \begin{equation}
 \begin{array}{lcll}
-f(\sum_{i=1}^{\infty} p_i x_i) &=& f(h(\sum_{i=1}^{\infty} p_i \delta_{x_i})) &  \\
-&=& k(G(f)(\sum_{i=1}^{\infty} p_i \delta_{x_i}) &  \\
-&=& k(\sum_{i=1}^{\infty} p_i \delta_{f(x_i)}) &  \\
-&=& \sum_{i=1}^{\infty} p_i f(x_i) & 
+f(\sum_{i=1}^{n} p_i x_i) &=& f(h(\sum_{i=1}^{n} p_i \delta_{x_i})) &  \\
+&=& k(G(f)(\sum_{i=1}^{n} p_i \delta_{x_i}) &  \\
+&=& k(\sum_{i=1}^{n} p_i \delta_{f(x_i)}) &  \\
+&=& \sum_{i=1}^{n} p_i f(x_i) & 
 \end{array}.
 \end{equation}
 
 \end{proof}
 
-Let $\mathbf{Std}\cap \mathbf{SCvx}$ be the category of standard spaces with a superconvex space structure with morphisms be countably affine measurable functions.  Let $V=[0,\infty]$ which is the one-point compactification of the   interval $[0,\infty)$.  $V$ is a second-countable compact Hausdorff space so it is a [[Polish space]], and hence $V$ with the Borel $\sigma$-algebra is a standard space.  Let $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ denote the full subcategory of $\mathbf{Std} \cap \mathbf{SCvx}$ consisting of those spaces which are coseparable by $V$.
+Let $\mathbf{Std}\cap \mathbf{Cvx}$ be the category of standard spaces with a convex space structure with morphisms being affine measurable functions.  Let $\mathbb{R}_{\infty}$ be the one-point compactification of the real-line.  $\mathbb{R}_{\infty}$ is a second-countable compact Hausdorff space so it is a [[Polish space]], and hence $\mathbb{R}_{\infty}$ with the Borel $\sigma$-algebra is a standard space.  Let $\mathbf{Std} \cap \mathbf{Cvx}$ denote  
+the category whose objects are standard spaces with a convex space structure, and whose morphisms are affine measurable functions. Because $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Cvx}$ it follows that $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Std} \cap \mathbf{Cvx}$. 
 
-Given any standard space $A$ and any $P \in G(A)$ let $\mathbf{Std}(A, V) \xrightarrow{\tilde{P}} V$ denote the functional sending $f \mapsto \int_A f \, dP$.  Let $V^A = (\mathbf{Std} \cap \mathbf{SCvx})_{cos}(A, V)$. Taking $A=V$ we obtain the space $V^V$ of endomaps on $V$.  Recall that a $V$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in V^V$ and all $m \in V^A$, the equation 
+Given any standard space $A$ and any $P \in G(A)$ let $\mathbf{Std}(A, \mathbb{R}_{\infty}) \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ denote the functional sending $f \mapsto \int_A f \, dP$.  Let $\mathbb{R}_{\infty}^A = \mathbf{Std} \cap \mathbf{Cvx}(A, \mathbb{R}_{\infty})$. Taking $A=\mathbb{R}_{\infty}$ we obtain the space $\mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ of endomaps on $\mathbb{R}_{\infty}$.  Recall that a $\mathbb{R}_{\infty}$-generalized point of $A$ is a functional $\tilde{P}$ satisfying, for all $\phi \in \mathbb{R}_{\infty}^{\mathbb{R}_{\infty}}$ and all $m \in \mathbb{R}_{\infty}^A$, the equation 
 \begin{equation}
 \phi \big( \tilde{P}(m) \big) = \tilde{P}(\phi \circ m).
 \end{equation}
-The reader can verify than any such $V$-generalized element $\tilde{P}$ is $V$-linear, weakly averaging, and additive.  Since $\tilde{P}$ is defined in terms of the Lebesque integral we have, more generally, 
-\begin{lemma} Every $V$-generalized element $V^A \xrightarrow{\tilde{P}} V$ of $A$ is countably additive.
+The reader can verify than any such $\mathbb{R}_{\infty}$-generalized element $\tilde{P}$ is $\mathbb{R}_{\infty}$-linear, weakly averaging, and additive.  Since $\tilde{P}$ is defined in terms of the Lebesque integral we have, more generally, 
+\begin{lemma} Every $\mathbb{R}_{\infty}$-generalized element $\mathbb{R}_{\infty}^A \xrightarrow{\tilde{P}} \mathbb{R}_{\infty}$ of $A$ is countably additive.
 \end{lemma}
-\begin{proof} Given a countable sequence $\{A \xrightarrow{f_i} V\}_i$ of measurable functions let $g_n=\sum_{i=1}^n f_i$.  Since $f_i\ge 0$ we have, by the monotone convergence theorem
+\begin{proof} Given a countable sequence $\{A \xrightarrow{f_i} \mathbb{R}_{\infty}\}_i$ of measurable functions let $g_n=\sum_{i=1}^n f_i$.  Since $f_i\ge 0$ we have, by the monotone convergence theorem
 $\tilde{P}(\sum_{i} f_i) = \tilde{P}(\lim_n g_n) = \lim_n \{\tilde{P}(g_n)\} = \lim_n \sum_{i=1}^n \tilde{P}(f_i) = \sum_i \tilde{P}(f_i)$.
 \end{proof}
 
-We say an object $A$ in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ satisfies the fullness property if and only if for every $P \in G(A)$ the property
+We say an object $A$ in $\mathbf{Std} \cap \mathbf{Cvx}$ satisfies the fullness property if and only if for every $P \in G(A)$ the property
 \begin{equation}
-\displaystyle{ \bigcap_{m \in V^A}} m^{-1}\big(\tilde{P}(m)\big) = \{a \in A \, | \, \tilde{P}(m)=m(a) \quad \forall m \in V^A\} \ne \emptyset
+\displaystyle{ \bigcap_{m \in \mathbb{R}_{\infty}^A}} m^{-1}\big(\tilde{P}(m)\big) = \{a \in A \, | \, \tilde{P}(m)=m(a) \quad \forall m \in \mathbb{R}_{\infty}^A\} \ne \emptyset
 \end{equation}
 holds.
 
-\begin{lemma} \label{ff} Every $V$-generalized element $\tilde{P}$ of $A$ which satisfies the fullness property is a point, i.e, $\tilde{P} =ev_a$ for a unique element $a \in A$. ($ev_a$ is the evaluation map at the point $a$.)
+\begin{lemma} \label{ff} Every $\mathbb{R}_{\infty}$-generalized element $\tilde{P}$ of $A$ which satisfies the fullness property is a point, i.e, $\tilde{P} =ev_a$ for a unique element $a \in A$. ($ev_a$ is the evaluation map at the point $a$.)
 \end{lemma} 
 \begin{proof} Since the fullness property is satisfied there exist at least one element $a \in A$ such that $\tilde{P}(m)=m(a)$. 
-Since $A$ lies in $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ it is coseparated by $V$, and hence there is at most one element $a \in A$ satisfying, for all countably affine measurable maps $A \xrightarrow{m} V$, the equation $\tilde{P}(m)=m(a)$.  
+Since $A$ lies in $\mathbf{Std} \cap \mathbf{Cvx}$ is coseparated by $\mathbb{R}_{\infty}$ there is at most one element $a \in A$ satisfying, for all affine measurable maps $A \xrightarrow{m} \mathbb{R}_{\infty}$, the equation $\tilde{P}(m)=m(a)$.  
 \end{proof}
 
-Define $\mathbf{Std}_{SCvx}$ to be the full subcategory of $(\mathbf{Std} \cap \mathbf{SCvx})_{cos}$ consisting of those objects which satisfy the fullness property.  
+Define $\mathbf{Std}_{Cvx}$ to be the full subcategory of $\mathbf{Std} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
 
-Note that $V$ is an object in $\mathbf{Std}_{SCvx}$. (This is exercise 8.23 in the text Sets for Mathematics by Lawvere and Rosebrugh. Moreover, the expectation mapping $G(V) \xrightarrow{\mathbb{E}_{\bullet}(id_V)} V$ is easily verified to be a $G$-algebra.)
+Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Std}_{SCvx}$. (This is exercise 8.23 in the text Sets for Mathematics by Lawvere and Rosebrugh. Moreover, the expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
 
-We now proceed to show that for every standard space $X$ that $G(X)$ is an object in $\mathbf{Std}_{SCvx}$.  
+We now proceed to show that for every standard space $X$ that $G(X)$ is an object in $\mathbf{Std}_{Cvx}$.  
 
 \begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space.  Then for $Q \in \G^2(X)$ we have
 $$\displaystyle{ \bigcap_{U \in \mathbb{F}}} ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \mu_X(Q)$$
@@ -165,91 +166,129 @@ ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \{R \in G(X) \, | \, R(U)=\mu_X(Q)[U] \}
 so taking the intersection over all elements in the generating field (with a basis) yields the result using the well known result if $X$ is a standard space and $P,R \in G(X)$ satisfy $P(U)=R(U)$ for all $U \in \mathbb{F}$ then $P=R$.
 \end{proof}
 
-\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every countably affine measurable function $G(X) \xrightarrow{m} V$ is a countable affine sum of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
+\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every affine measurable function $G(X) \xrightarrow{m} V$ is a countable affine sum of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
 \end{lemma}
 \begin{proof} The superconvex space structure of $G(X)$ is defined by the countable family of equations
 $ ev_U( \sum_{i=1}^{\infty} p_i P_i) = \sum_{i=1}^{\infty}p_i P_i(U)$ 
-for all $U \in \mathbb{F}$. Any countable linear sum of the elements $\{ev_U\}_{U \in \mathbb{F}}$ therefore defines a countable affine map $G(X) \xrightarrow{ \lambda_j ev_{U_j}} V$. (Any constant transformation by $c$ can be represented by a term $c ev_X$ since $c ev_X(P) = c$. Hence we can refer to countable linear sums instead of countable affine sums.)
+for all $U \in \mathbb{F}$. Any countable linear sum of the elements $\{ev_U\}_{U \in \mathbb{F}}$ therefore defines a countable affine map $G(X) \xrightarrow{ \lambda_j ev_{U_j}} \mathbb{R}_{\infty}$. (Any constant transformation by $c$ can be represented by a term $c ev_X$ since $c ev_X(P) = c$. Hence we can refer to countable linear sums instead of countable affine sums.)
 
-Conversely, for a set function $G(X) \xrightarrow{m} V$ to  preserve the superconvex space structure of $G(X)$ which is defined in terms of the elements $ev_U$ it must be a countable linear transformation of those elements.  Indeed, for any measurable function $X \xrightarrow{f} V$ the function $G(X) \xrightarrow{\int_X f \, d{\bullet}} V$ is, by the definition of the Lebesque integral, given by
+Conversely, for a set function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ to  preserve the superconvex space structure of $G(X)$ which is defined in terms of the elements $ev_U$ it must be a countable linear transformation of those elements.  Indeed, for any measurable function $X \xrightarrow{f} \mathbb{R}_{\infty}$ the function $G(X) \xrightarrow{\int_X f \, d{\bullet}} \mathbb{R}_{\infty}$ is, by the definition of the Lebesque integral, given by
 $\int_X f \, dP = \big(\sum_{i \in \mathbb{Nat}} \lambda_i ev_{U_i}\big)P$
 where $\psi_n = \sum_{i=1}^{N_n} \lambda_{n,i} \chi_{U_{n,i}}$ is a simple function satisfying $\psi_n \le f$ and for which $\{\psi_n\}_{n=1}^{\infty}$ converges pointwise to $f$.
 \end{proof}
 
 \begin{lemma}Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then
 \begin{equation}
-\displaystyle{ \bigcap_{G(X) \xrightarrow{m} V}}m^{-1}\big(\tilde{Q}(m)\big) =\mu_X(Q)  = \displaystyle{\bigcap_{U \in \mathbb{F}}} ev_U^{-1}\big( \tilde{Q}(ev_U) \big).
+\displaystyle{ \bigcap_{G(X) \xrightarrow{m} \mathbb{R}_{\infty}}}m^{-1}\big(\tilde{Q}(m)\big) =\mu_X(Q)  = \displaystyle{\bigcap_{U \in \mathbb{F}}} ev_U^{-1}\big( \tilde{Q}(ev_U) \big).
 \end{equation}
 \end{lemma}
-\begin{proof} Since every $V$-generalized point $\tilde{Q}$ of $G(X)$ is $V$-linear and countably additive it follows that $\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \sum_i \lambda_i \tilde{Q}(ev_{U_i})$. Thus 
+\begin{proof} Since every $\mathbb{R}_{\infty}$-generalized point $\tilde{Q}$ of $G(X)$ is $\mathbb{R}_{\infty}$-linear and countably additive it follows that $\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \sum_i \lambda_i \tilde{Q}(ev_{U_i})$. Thus 
 $(\sum_i \lambda_i ev_{U_i})^{-1}(\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \{ P \in G(X) \, | \, \sum_i \lambda_i P(U_i) = \lambda_i \mu_X(Q)[U_i]\}$.
 Now take the intersection over all such countably affine measurable functions $m$, which includes the basic functions $m=ev_U$,
 $\bigcap_m (\sum_i \lambda_i ev_{U_i})^{-1}(\tilde{Q}(\sum_i \lambda_i ev_{U_i}) = \{ P \in G(X) \, | \, \sum_i \lambda_i R(U_i) = \sum_i \lambda_i \mu_X(Q)[U_i] \forall m\}$.
 The only $P \in G(X)$ satisfying the right hand side term for all countably affine maps $m$ is clearly $P= \mu_X(Q)$.
 \end{proof}
 
-\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then $G(X)$ is an object in $\mathbf{Std}_{SCvx}$.
+\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then $G(X)$ is an object in $\mathbf{Std}_{Cvx}$.
 \end{lemma}
-\begin{proof} By the preceding lemma the space $G(X)$ satisfies the fullness property. By the well-known result that if $P,R \in G(X)$ with $P(U)=R(U)$ for all $U \in \mathbb{F}$ it follows that $P=R$, it follows that the evaluations maps $G(X) \xrightarrow{ev_U} V$ coseparate the points of $G(X)$. Hence the result follows by definition of $\mathbf{Std}_{SCvx}$.
+\begin{proof} By the preceding lemma the space $G(X)$ satisfies the fullness property. By the well-known result that if $P,R \in G(X)$ with $P(U)=R(U)$ for all $U \in \mathbb{F}$ it follows that $P=R$, it follows that the evaluations maps $G(X) \xrightarrow{ev_U} V$ coseparate the points of $G(X)$. Hence the result follows by definition of $\mathbf{Std}_{Cvx}$.
 \end{proof}
-This lemma shows there exists a functor $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{SCvx}$ which is the  Giry monad functor with codomain $\mathbf{Std}_{SCvx}$, and coupled with the partial forgetful functor $\mathbf{Std}_{SCvx} \xrightarrow{\mathcal{U}_{SCvx}} \mathbf{Std}$ which forgets the superconvex space structure, we obtain a factorization of the $G$ monad. (This will be an adjoint factorization once we prove some more facts.)
+This lemma shows there exists a functor $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{Cvx}$ which is the  Giry monad functor with codomain $\mathbf{Std}_{Cvx}$, and coupled with the partial forgetful functor $\mathbf{Std}_{Cvx} \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Std}$ which forgets the convex space structure, we obtain a factorization of the $G$ monad. (This will be an adjoint factorization once we prove some more facts.)
 
-\begin{theorem} Let $\mathbf{V}$ denote the full subcategory of $\mathbf{Std}_{SCvx}$ consisting of the single object $V$.
+\begin{theorem} Let $\mathcal{R}$ denote the full subcategory of $\mathbf{Std}_{Cvx}$ consisting of the single object $\mathbb{R}_{\infty}$.
 The functor defined (on objects) by
 \begin{equation}
 \begin{array}{ccc}
-\mathbf{Std}_{SCvx}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathbf{V}} \\
-A & \mapsto & \mathbf{Std}_{SCvx}(A, \bullet)
+\mathbf{Std}_{Cvx}^{op} & \xrightarrow{\mathcal{Y}} & \mathbf{Set}^{\mathcal{R}} \\
+A & \mapsto & \mathbf{Std}_{Cvx}(A, \bullet)
 \end{array}
 \end{equation}
 is a full and faithful functor.
 \end{theorem}
 \begin{proof} 
-In the category $\mathbf{Std}_{SCvx}$ every countably affine measurable function is determined by its value on points $1 \xrightarrow{a} A$. Hence to prove the fully faithful property it suffices to prove those properties on points.
+In the category $\mathbf{Std}_{Cvx}$ every affine measurable function is determined by its value on points $1 \xrightarrow{a} A$. Hence to prove the fully faithful property it suffices to prove those properties on points.
 
-Since $A$ lies in $\mathbf{Std}_{SCvx}$, which has $V$ as a coseparator, the faithful property holds.  The fullness property follows from Lemma \ref{ff}.
+Since $A$ lies in $\mathbf{Std}_{Cvx}$, which has $\mathbb{R}_{\infty}$ as a coseparator, the faithful property holds.  The fullness property follows from Lemma \ref{ff}.
 \end{proof}
 
 Let $\delta_a$ denote the Dirac measure at $a$.
 
-\begin{corollary} If $A$ is an object in $\mathbf{Std}_{SCvx}$ then there exists a unique countably affine measurable function $G(A) \xrightarrow{\epsilon_A} A$ such that $\epsilon_A(\delta_a)=a$ for all $a \in A$. 
+\begin{corollary} If $A$ is an object in $\mathbf{Std}_{Cvx}$ then there exists a unique affine measurable function $G(A) \xrightarrow{\epsilon_A} A$ such that $\epsilon_A(\delta_a)=a$ for all $a \in A$. 
 \end{corollary}
-\begin{proof}  Let $\mathbf{V} \xrightarrow{\iota} \mathbf{Std}_{SCvx}$ denote the inclusion functor. Let $A\downarrow \iota$ denote the slice category of arrows $A \xrightarrow{m} V$, and let $A \downarrow \iota \xrightarrow{\pi} \mathbf{V}$ denote the projection functor.
-For $\mathcal{D}_A = A \downarrow \iota \xrightarrow{\pi} \mathbf{V} \xrightarrow{\iota} \mathbf{Std}_{SCvx}$ 
+\begin{proof}  Let $\mathcal{R} \xrightarrow{\iota} \mathbf{Std}_{Cvx}$ denote the inclusion functor. Let $A\downarrow \iota$ denote the slice category of arrows $A \xrightarrow{m} \mathbb{R}_{\infty}$, and let $A \downarrow \iota \xrightarrow{\pi} \mathcal{R}$ denote the projection functor.
+For $\mathcal{D}_A = A \downarrow \iota \xrightarrow{\pi} \mathcal{R} \xrightarrow{\iota} \mathbf{Std}_{Cvx}$ 
 the theorem is equivalent to saying $A = \lim \mathcal{D}_A$ with the projection map at component $m$ being $m$.
 
-Consider the cone over $\mathcal{D}_A$ with vertex $G(A)$ and natural transformation components $\mathbb{E}_{\bullet}(m) = \mathbb{E}_{\bullet}(id_V) \circ \G(m)$.
+Consider the cone over $\mathcal{D}_A$ with vertex $G(A)$ and natural transformation components $\mathbb{E}_{\bullet}(m) = \mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}}) \circ \G(m)$.
 \begin{tikzpicture}
   \node  (GA) at  (3,0)  {$G(A)$};
-  \node  (GV1) at (4.2,1.2) {$G(V)$};
-  \node  (GV2) at (4.2,-1.2) {$G(V)$};
+  \node  (GV1) at (4.2,1.2) {$G(\mathbb{R}_{\infty})$};
+  \node  (GV2) at (4.2,-1.2) {$G(\mathbb{R}_{\infty})$};
   \node  (A)  at (6.5,0)  {$A$};
-  \node  (V1)  at (7.7,1.2) {$V$};
-  \node  (V2)  at (7.7,-1.2) {$V$};
+  \node  (V1)  at (7.7,1.2) {$\mathbb{R}_{\infty}$};
+  \node  (V2)  at (7.7,-1.2) {$\mathbb{R}_{\infty}$};
   \draw[->,below] (A) to node {$m$} (V1);
   \draw[->,above] (A) to node {$k$} (V2);
   \draw[->,right] (V1) to node {$\phi_{m,k}$} (V2);
   \draw[->,above,dashed] (GA) to node [xshift=7pt]{$\epsilon_A$} (A);  
   \draw[->,above] (GA) to node [xshift=-9pt]{$G(m)$} (GV1);
   \draw[->,below] (GA) to node [xshift=-7pt,yshift=5pt] {$G(k)$} (GV2);
-  \draw[->,above] (GV1) to node {$\mathbb{E}_{\bullet}(id_V)$} (V1);
-  \draw[->,below] (GV2) to node {$\mathbb{E}_{\bullet}(id_V)$} (V2);
+  \draw[->,above] (GV1) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (V1);
+  \draw[->,below] (GV2) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (V2);
  \end{tikzpicture}
 
-Since $A=\lim \mathcal{D}_A$ there exists a unique $\mathbf{Std}_{SCvx}$-morphism   $G(A) \xrightarrow{\epsilon_A} A$ such that $m \circ \epsilon_A = \mathbb{E}_{\bullet}(m)$ for all countably affine maps $A \xrightarrow{m} V$. It follows that on $\delta_a \in G(A)$ that, for all $A \xrightarrow{m} V$ in $\mathbf{Std}_{SCvx}$ that $m(\epsilon_A(\delta_a)) = m(a)$.  Since $V$ is a coseparator in $\mathbf{Std}_{SCvx}$ it follows $\epsilon_A(\delta_a)=a$.
+Since $A=\lim \mathcal{D}_A$ there exists a unique $\mathbf{Std}_{Cvx}$-morphism   $G(A) \xrightarrow{\epsilon_A} A$ such that $m \circ \epsilon_A = \mathbb{E}_{\bullet}(m)$ for all affine maps $A \xrightarrow{m} \mathbb{R}_{\infty}$. It follows that on $\delta_a \in G(A)$ that, for all $A \xrightarrow{m} \mathbb{R}_{\infty}$ in $\mathbf{Std}_{Cvx}$ that $m(\epsilon_A(\delta_a)) = m(a)$.  Since $\mathbb{R}_{\infty}$ is a coseparator in $\mathbf{Std}_{Cvx}$ it follows $\epsilon_A(\delta_a)=a$.
 \end{proof}
 
-A more appropriate notation for the unique morphism $\epsilon_A$ is $\mathbb{E}_{\bullet}(id_A)$ which, in the special case of $A$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $A$ the function $G(A) \xrightarrow{\mathbb{E}_{\bullet}(id_A)} A$ is the unique morphism such that, for every $P \in G(A)$,   $\mathbb{E}_P(id_A) \in A$ is the unique point such that $m(\mathbb{E}_{P}(id_A)) = \int_A m(a) \, dP$ for all countably affine measurable functions $A \xrightarrow{m} V$.
+A more appropriate notation for the unique morphism $\epsilon_A$ is $\mathbb{E}_{\bullet}(id_A)$ which, in the special case of $A$ lying in an $\mathbb{R}$-vector space coincides with the usual interpretation.  For an arbitrary space $A$ the function $G(A) \xrightarrow{\mathbb{E}_{\bullet}(id_A)} A$ is the unique morphism such that, for every $P \in G(A)$,   $\mathbb{E}_P(id_A) \in A$ is the unique point such that $m(\mathbb{E}_{P}(id_A)) = \int_A m(a) \, dP$ for all countably affine measurable functions $A \xrightarrow{m} \mathbb{R}_{\infty}$.
 
 \begin{lemma}
 The function $\epsilon_A$ is a $G$-algebra.
 \end{lemma}
 \begin{proof}The property $\epsilon_A(\delta_a)=a$ follows from the preceding corollary.
-To prove the property $\epsilon_A \circ \mu_A = \epsilon_A \circ G(\epsilon_A)$  compose both sides of that equation by a countably affine measurable map $A \xrightarrow{m} V$.
-If we spell both sides of that equation out, using the property $\int_A m \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(m) dQ$, the equation holds valid.  The result of the lemma follows from the property that $V$ coseparates, i.e, the set of morphisms $A  \xrightarrow{m} V$ are jointly monic on $A$.
+To prove the property $\epsilon_A \circ \mu_A = \epsilon_A \circ G(\epsilon_A)$  compose both sides of that equation by a countably affine measurable map $A \xrightarrow{m} \mathbb{R}_{\infty}$.
+If we spell both sides of that equation out, using the property $\int_A m \, d(\mu_X(Q)) = \int_{P \in \G(A)} \mathbb{E}_{P}(m) dQ$, the equation holds valid.  The result of the lemma follows from the property that $\mathbb{R}_{\infty}$ coseparates, i.e, the set of morphisms $A  \xrightarrow{m} \mathbb{R}_{\infty}$ are jointly monic on $A$.
+
+A more detailed proof can be found in  ([Sturtz 25](#Sturtz25)).
 \end{proof}
 
-Note that what we have shown is that $\mathbf{Std}_{SCvx}$ is a subcategory of $\mathbf{Alg}_{G}$. Proving the reverse inclusion (or finding a counterexample) is an open problem, and is discussed in ([Sturtz 25](#Sturtz25)).
+\begin{lemma} Let $A \in_{ob} \mathbf{Std}_{Cvx}$. Every affine measurable function $A \xrightarrow{m} \mathbb{R}_{\infty}$ yields a morphism of $\G$-algebras.
+\end{lemma}
+\begin{proof} 
+By the preceding lemma the affine measurable function  $\mathbb{E}_{\bullet}(id_A)$ is the unique morphism in $\mathbf{Std}_{Cvx}$ such that for every $A \xrightarrow{m} \mathbb{R}_{\infty}$ the $\mathbf{Std}_{Cvx}$-diagram
+\begin{tikzpicture}
+  \node  (GA) at  (-1,0)  {$G(A)$};
+  \node  (GR) at  (2,0)   {$G(\mathbb{R}_{\infty})$};
+  \node  (A)  at   (-1,-1.5) {$A$};
+  \node  (R)  at   (2, -1.5)  {$\mathbb{R}_{\infty}$};
+
+   \draw[->,below] (A) to node {$m$} (R);
+   \draw[->,above] (GA) to node {$G(m)$} (GR);
+   \draw[->, left] (GA) to node {$\mathbb{E}_{\bullet}(id_A)$} (A);
+   \draw[->,right] (GR) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (R);
+\end{tikzpicture}
+commutes. But both $\mathbb{E}_{\bullet}(id_A)$ and $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ are $G$-algebras. Hence $m$ is a morphism of those algebras.
+\end{proof}
+
+\begin{lemma} The construction $\mathbb{E}_{\bullet}(id_A)$ is natural in the argument $A$.
+\end{lemma}
+\begin{proof}
+The proof is straightforward using the previous lemma.
+\end{proof}
+
+Using the naturality of $\mathbb{E}$ we obtain an adjunct pair $\mathbf{Std} \xrightarrow{\hat{G}} \mathbf{Std}_{Cvx}$, which is the Giry monad (functor) viewed as a functor into $\mathbf{Std}_{Cvx}$, and the partial forgetful functor $\mathbf{Std}_{Cvx}  \xrightarrow{\mathcal{U}_{Cvx}} \mathbf{Std}$ which forgets the convex space structure, with the natural transformation $\mathbb{E}$ as the counit of the adjunction.  T
+he composite functor $\mathcal{U}_{Cvx} \circ \hat{G} = G$.
+
+Since the Giry monad factors through $\mathbf{Std}_{Cvx}$ it follows that  $\mathbf{Std}_{Cvx}$ is a subcategory of $\mathbf{Alg}_{G}$. 
+
+\begin{theorem} $\mathbf{Std}_{Cvx} = \mathbf{Alg}_{G}$.
+\end{theorem}
+\begin{proof}
+By the preceding remark we need only to prove that $\mathbf{Alg}_{G}$ is a subcategory of $\mathbf{Std}_{Cvx}$.
+
+... to be added shortly
+\end{proof}
+
  
 Concerning $P$ algebras, the above method of using $V$-generalized points can be used to obtain similar results. ([Doberkat 03](#Doberkat03)) gives a different representation for the algebras of $P$, although, like the Eilenberg-Moore characterization, the representation is descriptive but not constructive. (This is evident in the fact that he does not theoretically relate the algebras to the expectation mapping which characterizes the $P$-algebras.)
 His representation for the algebras is based upon the idea that we want continuous maps $h:P(X) \rightarrow X$ such that the ‘fibres’ are convex and closed, and such that $\delta_x$, the Delta distribution on $x$, is in the fibre over $x$.
@@ -269,9 +308,6 @@ The barycenter of $\tau \in P(X)$ exists, it is uniquely determined, and it is a
 \begin{theorem}
 Let $h(\tau)$ be the barycenter of $\tau \in P(X)$.  Then $(X,h)$ is an algebra for the $P$-monad.
 \end{theorem}
-
-The example given by the unit square  $X= P(\mathbf{2}) \times P(\mathbf{2})=[0,1] \times [0,1] \subset \mathbb{R}^2$ fits into this theory nicely. The barycenter map is given by the marginalization map $m:P( P(\mathbf{2}) \times P(\mathbf{2})) \rightarrow P(\mathbf{2}) \times P(\mathbf{2})$.  However when the space $X$ cannot be characterized by a finite number of parameters, the above  theory using barycenters directly cannot be applied, even though the marginalization map $P( P(X) \times P(Y)) \rightarrow P(X) \times P(Y)$ is still  a $P$-algebra. (It is still a barycenter map but not within the framework of $\mathbb{R}^n$.)   These barycenter maps are the components of a natural transformation characterizing the counit of an adjunction of the $P$-monad.  
- More information concerning the use of barycenter maps  in finding  algebras can be found at [[Radon monad]].
 
 Finally, we note that Doberkat points out that for  discrete  Polish space $X$ that $X$ is disconnected, and hence there can be no continuous map $P{X} \rightarrow \mathbf{X}$. Hence $X$, irrelavant of any convex structure we endow it with, cannot be an algebra.
 
