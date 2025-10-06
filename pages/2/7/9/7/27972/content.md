@@ -34,9 +34,11 @@ In particular since $I^2=\Lambda^2 _1$ is the [[horn|(2,1)-horn,]] and since a [
 	\arrow[dashed, from=2-1, to=2-3]
 \end{tikzcd}
 
-## Relation to Quasi-Categories 
+## Examples
 
-Since spline inclusions are anodyne then this implies that every infinity-category or quasi-category is a composer and hence there is a notion of composition between "higher morphisms". 
+\begin{example}
+Since spline inclusions are [[anodyne morphism|anodyne]] it follows that every [[quasi-category]] is a composer. This is one way to make precise how there there is a notion of [[composition]] on ([[n-morphism|higher]]) [[morphisms]] in a quasi-category.
+\end{example}
 
 ## References
 
