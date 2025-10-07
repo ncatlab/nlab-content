@@ -26,9 +26,9 @@
 
 Every [[complex oriented cohomology theory]] induces a [[formal group law]] from its first [[Conner-Floyd Chern class]]. Moreover, [[Quillen's theorem on MU]] together with [[Lazard's theorem]] say that the [[cohomology ring]] $\pi_\bullet(M U)$ of [[complex cobordism cohomology]] [[MU]] is the classifying ring for formal group laws. 
 
-The _Landweber exact functor theorem_ ([Landweber 76](#Landweber76)) says that, conversely, forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]].
+Conversely, the _Landweber exact functor theorem_ ([Landweber 1976](#Landweber76)) says that forming the [[tensor product]] of [[complex cobordism cohomology theory]] ([[MU]]) with a [[Landweber exactness|Landweber exact]] [[ring]] via some [[formal group law]] yields a [[cohomology theory]].
 
-By the [[Brown representability theorem]] this defines a [[spectrum]] and the spectra arising this way are called _Landweber exact spectra_. ([e.g. Lurie lect 17, p.2](#Lurie17)).
+By the [[Brown representability theorem]] this defines a [[spectrum]] and the spectra arising this way are called _Landweber exact spectra_. ([e.g. Lurie 2017, lect 17, p.2](#Lurie17)).
 
 There is an analogue of the statement also for [[even cohomology theory|even]] 2-[[periodic cohomology theories]], with [[MU]] replaced by [[MP]] ([Lurie lecture 18, prop. 11](#LurieLect18)).
 
