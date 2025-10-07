@@ -20,7 +20,7 @@
 
 ## Idea
 
-A [[homomorphism]] between [[schemes]] is said to be _(locally) of finite type_ if it behaves like a [[finite number|finite]] [[covering space]].
+A [[morphism]] between [[schemes]] is said to be _of finite type_ if it behaves like a map with finite dimensional fibers, and is said to be _locally of finite type_ if each of its fibers can built by gluing together a (potentially very large) family of finite dimensional pieces.
 
 ## For schemes
 
