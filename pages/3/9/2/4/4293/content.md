@@ -76,7 +76,7 @@ The Taylor series of a [[smooth function]] $f$ is always an [[asymptotic expansi
 
 =--
 
-This follows from the [[Hadamard lemma]], see [this example](asymptotic series#TaylorSeriesOfSmoothFunctionIsAsymptoticSeries) for details.
+This follows from the [[Hadamard lemma]], see [this example](asymptotic+series#TaylorSeriesOfSmoothFunctionIsAsymptoticSeries) for details.
 
 +-- {: .num_theorem}
 ###### Theorem
