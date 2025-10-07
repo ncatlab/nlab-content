@@ -100,9 +100,11 @@ The original articles using the term "geometric engineering":
 
 Review:
 
+* [[Andreas Karch]]: _Field Theory Dynamics from Branes in String Theory_, PhD thesis, Berlin (1998) &lbrack;[doi:10.18452/14371](https://doi.org/10.18452/14371)&rbrack;
+
 * [[Amit Giveon]], [[David Kutasov]]: *Brane Dynamics and Gauge Theory*, Rev. Mod. Phys. **71** (1999) 983-1084 &lbrack;[arXiv:hep-th/9802067](https://arxiv.org/abs/hep-th/9802067) [doi:10.1103/RevModPhys.71.983](https://doi.org/10.1103/RevModPhys.71.983)&rbrack;
 
-* [[Andreas Karch]]: _Field Theory Dynamics from Branes in String Theory_, PhD thesis, Berlin (1998) &lbrack;[doi:10.18452/14371](https://doi.org/10.18452/14371)&rbrack;
+* [[Adil Belhaj]]: *On Geometric Engineering of Supersymmetric Gauge Theories*, talk at *Workshop on Noncommutative Geometry, Superstrings and Particle Physics. Rabat -Morocco, (16-17 June 2000)* &lbrack;[arXiv:hep-ph/0006248](https://arxiv.org/abs/hep-ph/0006248)&rbrack;
 
 * [[David Morrison]], *Limitations of Geometric Engineering: Implications for Model Building*, talk (2008) &lbrack;slides:[[Morrison-GeometricEngineering.pdf:file]]&rbrack;
 
@@ -125,7 +127,7 @@ Further developments:
 
 Specifically in [[M-theory]]:
 
-* A. Belhaj, L. B. Drissi, J. Rasmussen: *On $N=1$ gauge models from geometric engineering in M-theory*, Class. Quant. Grav. **20** (2003) 4973-4982 &lbrack;[arXiv:hep-th/0304019](https://arxiv.org/abs/hep-th/0304019), [doi:10.1088/0264-9381/20/23/002](https://doi.org/10.1088/0264-9381/20/23/002)&rbrack;
+* [[Adil Belhaj]], L. B. Drissi, J. Rasmussen: *On $N=1$ gauge models from geometric engineering in M-theory*, Class. Quant. Grav. **20** (2003) 4973-4982 &lbrack;[arXiv:hep-th/0304019](https://arxiv.org/abs/hep-th/0304019), [doi:10.1088/0264-9381/20/23/002](https://doi.org/10.1088/0264-9381/20/23/002)&rbrack;
 
 * Jacob L. Bourjaily, Sam Espahbodi: *Geometrically Engineerable Chiral Matter in M-Theory* &lbrack;[arXiv:0804.1132](https://arxiv.org/abs/0804.1132), [spire:782985](https://inspirehep.net/literature/782985)&rbrack;
 
@@ -138,6 +140,12 @@ Specifically in [[M-theory]]:
 * Andrea Sangiovanni, Roberto Valandro: *M-theory geometric engineering for rank-0 3d $\mathcal{N}=2$ theories* &lbrack;[arXiv:2410.13943](https://arxiv.org/abs/2410.13943)&rbrack;
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes|Engineering of Anyons on M5-Probes via Flux-Quantization]]*, SciPost Physics Lecture Notes (2025) &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
+
+and in [[F-theory]]:
+
+* Federico Carta: *Aspects of F-theory-engineered quantum field theories*, PhD thesis, Madrid (2018) &lbrack;[hdl:10486/685511](https://hdl.handle.net/10486/685511), [pdf](https://repositorio.uam.es/bitstream/handle/10486/685511/carta_federico.pdf?sequence=1&isAllowed=y)&rbrack;
+
+    
 
 Cast in "[[generalized symmetry]]" language:
 
