@@ -282,7 +282,7 @@ Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]
 
 * [[Juven Wang]], [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, Phys. Rev. Lett. **114** (2015) 031601 &lbrack;[arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [doi:10.1103/PhysRevLett.114.031601](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)&rbrack;
 
-* {#Freed14} [[Daniel Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
+* {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* &lbrack;[arXiv:1406.7278](https://arxiv.org/abs/1406.7278)&rbrack;
 
 * [[Guo Chuan Thiang]], _On the K-theoretic classification of topological phases of matter_ &lbrack;[arXiv:1406.7366](http://arxiv.org/abs/1406.7366)&rbrack;
 
