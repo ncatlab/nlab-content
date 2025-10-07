@@ -1,6 +1,18 @@
 **Jean-Pierre Serre** is a French mathematician, Fields medalist and one of the mathematically most influential mathematicians of the 20th century with main contributions to algebraic topology, algebraic and analytic geometry, algebra and number theory. He introduced a number of innovative calculations and concepts in the aparatus of algebraic topology including a number of useful spectral and exact sequences, the notion of Serre fibration, localization with respect to Serre class and so on. In algebraic and analytic geometry he introduced the technique of [[coherent sheaf|coherent sheaves]], along with basic theorems on categories of (quasi)coherent sheaves on affine and projective varieties (Serre's theorem on Proj, affine Serre's theorem, Serre duality...), a deep correspondence between the complex algebraic geometry and analytic geometry (GAGA principle), number of deep results in arithmetic geometry, Galois theory, cohomological study of algebraic varieties, class field theory...
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Jean-Pierre_Serre)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=34222)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Serre-Jean-Pierre)
+
+
 ## Selected writings
+
+Introducing the [[GAGA]] principle, relating [[algebraic geometry]] over the [[complex numbers]] to [[analytic geometry]]
+
+* {#Serre56} [[Jean-Pierre Serre]], *Géométrie algébrique et géométrie analytique*, Annales de l'Institut Fourier **6** (1956) 1-42 &lbrack;[doi:10.5802/aif.59](https://doi.org/10.5802/aif.59), [numdam:AIF_1956__6__1_0](https://www.numdam.org/item/AIF_1956__6__1_0), ISSN:0373-0956, MR 0082175&rbrack;
+
 
 On [[arithmetic]]:
 
