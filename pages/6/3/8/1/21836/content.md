@@ -13,16 +13,18 @@ and in the universal guise of [[topological modular forms]] in:
 
 * {#Hopkins02} [[Michael Hopkins]], _Algebraic topology and modular forms_ in Proceedings of the International Congress of Mathematicians, Vol. I (Beijing, 2002), pages 291&#8211;317, Beijing, 2002. Higher Ed. Press ([arXiv:math/0212397](http://arxiv.org/abs/math/0212397)) 
 
-
 Surveys:
 
-* [[Matthew Greenberg]], _Constructing elliptic cohomology_, McGill University 2002 ([oclc:898194373](https://www.bac-lac.gc.ca/eng/services/theses/Pages/item.aspx?idNumber=898194373), [[GreenbergEllipticCohomology.pdf:file]])
+* {#Segal88} [[Graeme Segal]]: *Elliptic cohomology*, Astérisque, tome 161-162 (1988), Séminaire Bourbaki, exp. no 695, p. 187-201 \[<a href="https://www.numdam.org/item/SB_1987-1988__30__187_0">numdam:SB_1987-1988__30__187_0</a>, [pdf](https://www.numdam.org/article/SB_1987-1988__30__187_0.pdf)\]
+  > (§6 famously speculates about geometric realization of elliptic cohomology via [[functorial field theory|functorial]] [[2d CFT]], cf.: *[[What is an elliptic object?]]*)
 
-* [[Paul Goerss]], _Topological modular forms (after Hopkins, Miller, and Lurie)_, Séminaire Bourbaki : volume 2008/2009 exposés 997-1011 ([arXiv:0910.5130](https://arxiv.org/abs/0910.5130), [numdam:AST_2010__332__221_0](http://www.numdam.org/item/AST_2010__332__221_0))
+* [[Matthew Greenberg]]: _Constructing elliptic cohomology_, McGill University (2002) $[$[oclc:898194373](https://www.bac-lac.gc.ca/eng/services/theses/Pages/item.aspx?idNumber=898194373), [[GreenbergEllipticCohomology.pdf:file]]\]
 
-* {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_, in:  _Algebraic Topology_, Abel Symposia Volume 4, 2009, pp 219-277 ([pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9))
+* [[Paul Goerss]]: _Topological modular forms (after Hopkins, Miller, and Lurie)_, Séminaire Bourbaki : volume 2008/2009 exposés 997-1011 $[$[arXiv:0910.5130](https://arxiv.org/abs/0910.5130), [numdam:AST_2010__332__221_0](http://www.numdam.org/item/AST_2010__332__221_0)\]
 
-* [[Charles Rezk]], _Elliptic cohomology and elliptic curves_, Felix Klein Lectures, Bonn  (2015) $[$[web](http://www.hcm.uni-bonn.de/fkl-rezk), [pdf](https://rezk.web.illinois.edu/felix-klein-lectures-notes.pdf), [[RezkElliptic2015.pdf:file]], video rec: [part 1](https://youtu.be/eFzB_2fkOxY), [2](https://youtu.be/4e9e3AtK7yg), [3](https://youtu.be/ueL5dMH9JoI), [4](https://youtu.be/r_7SsIoU9No)$]$
+* {#Lurie} [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_, in:  _Algebraic Topology_, Abel Symposia **4** (2009) 219-277 $[$[pdf](http://www.math.harvard.edu/~lurie/papers/survey.pdf), [doi:10.1007/978-3-642-01200-6_9](https://doi.org/10.1007/978-3-642-01200-6_9)\]
+
+* [[Charles Rezk]]: _Elliptic cohomology and elliptic curves_, Felix Klein Lectures, Bonn  (2015) $[$[web](http://www.hcm.uni-bonn.de/fkl-rezk), [pdf](https://rezk.web.illinois.edu/felix-klein-lectures-notes.pdf), [[RezkElliptic2015.pdf:file]], video rec: [part 1](https://youtu.be/eFzB_2fkOxY), [2](https://youtu.be/4e9e3AtK7yg), [3](https://youtu.be/ueL5dMH9JoI), [4](https://youtu.be/r_7SsIoU9No)\]
 
 
 Textbook accounts:
