@@ -37,7 +37,7 @@ The alternative term "**brane engineering**" &lbrack;[Gómez & Hernández 1998](
 
 But since there are in general also [[orbifold|orbi-singularities]] on the brane, it makes sense to broadly speak of *geometric brane engineering of QFTs*.
 
-In the [[large N limit]] of $N$ [[coincident branes]] the QFT on their worldvolume leaves a characteristic gravtational imprint on the ambient [[bulk spacetime]]: the is the content of the [[holographic principle]] in the guise of the [[AdS-CFT correspondence]].
+In the [[large N limit]] of $N$ [[coincident branes]], the quantum fields on their worldvolume leave a characteristic gravitational imprint on the ambient [[bulk spacetime]]: this is the content of the [[holographic principle]] in the guise of the [[AdS-CFT correspondence]].
 
 \linebreak
 
