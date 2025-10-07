@@ -303,7 +303,7 @@ which exhibits the [[simplex category]] as a [[full subcategory]] of the [[tree 
 For each $n \in \mathbb{N}$ there is the **corolla tree**
 
 $$
-  C_n :=
+  C_n \coloneqq
   \left\{
     \array{
       {}_{\mathrlap{l_1}}\searrow & \cdots & \swarrow_{\mathrlap{l_n}}
@@ -1322,7 +1322,7 @@ Surveys:
  
 Dendroidal sets were introduced in 
 
-* {#MoerdijkWeiss}  [[Ieke Moerdijk]] [[Ittay Weiss]], _Dendroidal sets_,  Algebraic & Geometric Topology 7 (2007) 1441&#8211;1470,  ([doi:10.2140/agt.2007.7.1441](http://msp.warwick.ac.uk/agt/2007/07/p056.xhtml), [arXiv:math.AT/0701293](http://arxiv.org/abs/math.AT/0701293))
+* {#MoerdijkWeiss}  [[Ieke Moerdijk]],  [[Ittay Weiss]]: _Dendroidal sets_,  Algebraic & Geometric Topology 7 (2007) 1441&#8211;1470,  ([doi:10.2140/agt.2007.7.1441](http://msp.warwick.ac.uk/agt/2007/07/p056.xhtml), [arXiv:math.AT/0701293](http://arxiv.org/abs/math.AT/0701293))
  
 
 A discussion of dendroidal inner Kan complexes (see also at _[[model structure on dendroidal sets]]_) appeared in
@@ -1338,7 +1338,7 @@ contains essentially the material of these two articles, together with a discuss
 
 The [[model structure for dendroidal complete Segal spaces]] and the [[model structure for Segal operads]] was constructed in 
 
-* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_, ([arxiv:1010.4956](http://arxiv.org/abs/1010.4956))
+* {#CisinskiMoerdijk13} [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], section 1 of: _Dendroidal Segal spaces and infinity-operads_, Journal of Topology **6** 3 (2013) 675-794 &lbrack;[arXiv:1010.4956](http://arxiv.org/abs/1010.4956), [doi:10.1112/jtopol/jtt004](https://doi.org/10.1112/jtopol/jtt004)&rbrack;
 
 Normal morphisms of dendroidal sets are discussed for instance around prop. 1.4 of
 
