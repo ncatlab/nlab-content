@@ -37,7 +37,7 @@ In particular since $I^2=\Lambda^2 _1$ is the [[horn|(2,1)-horn,]] and since a [
 ## Examples
 
 \begin{example}
-Since spine inclusions are [[anodyne morphism|anodyne]] it follows that every [[quasi-category]] is a composer. This is one way to make precise how there there is a notion of [[composition]] on ([[n-morphism|higher]]) [[morphisms]] in a quasi-category.
+Since spine inclusions are [[anodyne morphism|anodyne]] it follows that every [[quasi-category]] is a composer. This is one way to make precise how there  is a notion of [[composition]] on ([[n-morphism|higher]]) [[morphisms]] in a quasi-category.
 \end{example}
 
 ## References
