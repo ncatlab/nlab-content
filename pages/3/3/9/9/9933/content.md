@@ -4,8 +4,7 @@
 
 on the application of [[integral Morava K-theory]] to the [[Diaconescu-Moore-Witten anomaly]], following
 
-* {#SatiKriz04} [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor. Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
- 
+* {#KrizSati04a} [[Igor Kriz]], [[Hisham Sati]], _M Theory, Type IIA Superstrings, and Elliptic Cohomology_, Adv. Theor. Math. Phys. **8** (2004) 345-395 &lbrack;[arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013), [doi:10.4310/ATMP.2004.v8.n2.a3](https://dx.doi.org/10.4310/ATMP.2004.v8.n2.a3)&rbrack;
 
 For more along these lines see also
 
