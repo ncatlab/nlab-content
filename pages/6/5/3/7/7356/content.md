@@ -322,7 +322,7 @@ A series of articles arguing for a relation between the [[elliptic fibration]] o
 
 * {#GukovYauZaslow02} [[Sergei Gukov]], [[Shing-Tung Yau]], [[Eric Zaslow]], _Duality and Fibrations on $G_2$ Manifolds_ ([arXiv:hep-th/0203217](http://arxiv.org/abs/hep-th/0203217))
 
-* {#Belhaj02} Adil Belhaj, _F-theory Duals of M-theory on $G_2$ Manifolds from Mirror Symmetry_ ([arXiv:hep-th/0207208](http://arxiv.org/abs/hep-th/0207208))
+* {#Belhaj02} [[Adil Belhaj]]: _F-theory Duals of M-theory on $G_2$ Manifolds from Mirror Symmetry_, J. Phys. A **36** (2003) 4191-4206 &lbrack;[arXiv:hep-th/0207208](http://arxiv.org/abs/hep-th/0207208), [doi:10.1088/0305-4470/36/14/319](https://doi.org/10.1088/0305-4470/36/14/319)&rbrack;
 
 * [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
 
