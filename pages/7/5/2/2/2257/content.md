@@ -48,6 +48,10 @@ On [[generalized Reedy categories]]:
 
 * {#BergerMoerdijk} [[Clemens Berger]], [[Ieke Moerdijk]], *On an extension of the notion of Reedy category*, Mathematische Zeitschrift **269** (2011) 977–1004 &lbrack;[arXiv:0809.3341](http://arxiv.org/abs/0809.3341), [doi:10.1007/s00209-010-0770-x](https://doi.org/10.1007/s00209-010-0770-x)&rbrack;
 
+On [[dendroidal sets]] as a model for [[(infinity,1)-operads]]:
+
+* {#CisinskiMoerdijk13} [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_, Journal of Topology **6** 3 (2013) 675-794 &lbrack;[arXiv:1010.4956](http://arxiv.org/abs/1010.4956), [doi:10.1112/jtopol/jtt004](https://doi.org/10.1112/jtopol/jtt004)&rbrack;
+
 On [[abelian sheaf cohomology]] and [[Verdier duality]] of [[locally compact topological spaces]]:
 
 * {#Moerdijk2025} [[Ieke Moerdijk]]: *Sheaf Cohomology for Locally Compact Spaces*, Lecture notes, Sheffield (2025) &lbrack;[[Moerdijk-SheafCohomology.pdf:file]]&rbrack;
