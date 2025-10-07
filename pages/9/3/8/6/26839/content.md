@@ -99,6 +99,8 @@ The COMPACT collaboration:
 
 * COMPACT Collaboration: *Cosmic topology. Part IIIa. Microwave background parity violation without parity-violating microphysics* &lbrack;[arXiv:2407.09400](https://arxiv.org/abs/2407.09400)&rbrack;
 
+* COMPACT Collaboration: *Cosmic topology. Part IIb. Eigenmodes, correlation matrices, and detectability of non-orientable Euclidean manifolds* &lbrack;[arXiv:2510.05030](https://arxiv.org/abs/2510.05030)&rbrack;
+
 
 See also:
 
