@@ -296,6 +296,8 @@ is analogous to the inclusion of [[KO]] into [[KU]]
 
 * [[real-oriented generalized cohomology theory]]
 
+* [elliptic genera as brane partition functions](elliptic+cohomology#EllipticGeneraAsBranePartitionFunctionsReferences)
+
 * related but different: _[[equivariant elliptic cohomology]]_
  
 
@@ -317,21 +319,25 @@ Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
 
-* {#KrizSati04a} [[Igor Kriz]], [[Hisham Sati]], _M Theory, Type IIA Superstrings, and Elliptic Cohomology_, Adv. Theor. Math. Phys. 8 (2004) 345-395 ([arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
+* {#KrizSati04a} [[Igor Kriz]], [[Hisham Sati]], _M Theory, Type IIA Superstrings, and Elliptic Cohomology_, Adv. Theor. Math. Phys. **8** (2004) 345-395 &lbrack;[arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013), [doi:10.4310/ATMP.2004.v8.n2.a3](https://dx.doi.org/10.4310/ATMP.2004.v8.n2.a3)&rbrack;
 
-* {#KrizSati04b} [[Igor Kriz]], [[Hisham Sati]], _Type IIB String Theory, S-Duality, and Generalized Cohomology_, Nucl.Phys. B715 (2005) 639-664 ([arXiv:hep-th/0410293](http://arxiv.org/abs/hep-th/0410293))
+* {#KrizSati04b} [[Igor Kriz]], [[Hisham Sati]]: _Type IIB String Theory, S-Duality, and Generalized Cohomology_, Nucl. Phys. B **715** (2005) 639-664 &lbrack;[arXiv:hep-th/0410293](http://arxiv.org/abs/hep-th/0410293), [doi:10.1016/j.nuclphysb.2005.02.016](https://doi.org/10.1016/j.nuclphysb.2005.02.016)&rbrack;
 
-* {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, 	JHEP 0508 (2005) 038 ([arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060))
+* {#KrizSati05} [[Igor Kriz]], [[Hisham Sati]], _Type II string theory and modularity_, JHEP 0508 (2005) 038 &lbrack;[arXiv:hep-th/0501060](http://arxiv.org/abs/hep-th/0501060), [doi:10.1088/1126-6708/2005/08/038](https://doi.org/10.1088/1126-6708/2005/08/038)&rbrack;
 
-* [[Igor Kriz]], Hao Xing, _On effective F-theory action in type IIA compactifications_, Int. J. Mod. Phys. A22:1279-1300, 2007 ([arXiv:hep-th/0511011](http://arxiv.org/abs/hep-th/0511011))
+* [[Igor Kriz]], Hao Xing: _On effective F-theory action in type IIA compactifications_, Int. J. Mod. Phys. A **22** (2007) 1279-1300 &lbrack;[arXiv:hep-th/0511011](http://arxiv.org/abs/hep-th/0511011)&rbrack;
 
-* {#Sati05} [[Hisham Sati]], _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 ([arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087))
+* {#Sati05} [[Hisham Sati]]: _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 &lbrack;[arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087)&rbrack;
 
-* {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ , part I, Proc. Symp. Pure Math. 81 (2010), 181-236 [arXiv:1001.5020](http://arxiv.org/abs/1001.5020)
+* {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, part I, Proc. Symp. Pure Math. **81** (2010) 181-236 &lbrack;[arXiv:1001.5020](http://arxiv.org/abs/1001.5020)&rbrack;
 
-* {#Bandos00} [[Igor Bandos]], _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl.Phys.B599:197-227,2001 ([arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249))
+* {#Bandos00} [[Igor Bandos]]: _Superembedding Approach and S-Duality. A unified description of superstring and super-D1-brane_, Nucl. Phys. B **599** (2001) 197-227 &lbrack;[arXiv:hep-th/0008249](http://arxiv.org/abs/hep-th/0008249)&rbrack;
 
 * {#Greicius09} [[Aaron Greicius]], _Elliptic curves with surjective adelic Galois representations_ ([arXiv:0901.2513](http://arxiv.org/abs/0901.2513))
+
+See also: 
+
+* Dmitry Galakhov: *BPS States Meet Generalized Cohomology*,  	JHEP 07 (2023) 059 &lbrack;[arXiv:2303.05538](https://arxiv.org/abs/2303.05538), <a href="https://doi.org/10.1007/JHEP07(2023)059">doi:10.1007/JHEP07(2023)059</a>&rbrack;
 
 
 [[!redirects modular equivariant tmf]]
