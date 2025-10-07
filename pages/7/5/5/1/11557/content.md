@@ -26,7 +26,7 @@ $$
   \,.
 $$ 
 
-If this is first of all a [[generalized homology theory]] itself, hence [[Brown representability theorem|represented]] by a [[spectrum]], then one may ask if this spectrum coincides with the original $E$, hence if there is an [[natural equivalence]]
+If this is, first of all, a [[generalized homology theory]] itself, hence [[Brown representability theorem|represented]] by a [[spectrum]], then one may ask if this spectrum coincides with the original $E$, hence if there is an [[natural equivalence]]
 
 
 $$
@@ -34,11 +34,11 @@ $$
   \,.
 $$
 
-If so one often says that _the cobordism theory determines the homology theory_ (e.g. [Hopkins-Hovey 92](#HopkinsHovey92)). 
+If so, one often says that _the cobordism theory determines the homology theory_ (e.g. [Hopkins & Hovey 1992](#HopkinsHovey92)). 
 
 ## Examples
 
-Originally this was shown to be the case by ([Conner-Floyd 66](#ConnerFloyd66), see _[[Conner-Floyd isomorphism]]_) for $E= $[[KU]] with its canonical [[complex oriented cohomology theory|complex orientation]] $MU \to KU$ (they also showed the case for [[KO]] with [[MSp]] $\to$[[KO]]). Later the [[Landweber exact functor theorem]] ([Landweber 76](#Landweber76)) generalized this to all [[complex oriented cohomology theories]] [[MU]]$\to E$. 
+Originally this was shown to be the case by [Conner & Floyd 1966](#ConnerFloyd66), see _[[Conner-Floyd isomorphism]]_) for $E= $[[KU]] with its canonical [[complex oriented cohomology theory|complex orientation]] $MU \to KU$ (they also showed the case for [[KO]] with [[MSp]] $\to$[[KO]]). Later the [[Landweber exact functor theorem]] ([Landweber 76](#Landweber76)) generalized this to all [[complex oriented cohomology theories]] [[MU]]$\to E$. 
 
 The generalization to the actual [[Atiyah-Bott-Shapiro orientations]] of [[topological K-theory]], namely [[MSpin^c|MSpin<sup><i>c</i></sup>]] $\to$ [[KU]] and [[MSpin]] $\to$ [[KO]] is due to ([Hopkins-Hovey 92](#HopkinsHovey92)). 
 
