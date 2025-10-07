@@ -44,7 +44,7 @@ The above notion generalizes to [[dendroidal set]]s
 ###### Definition
 
 
-The **spine** of a [[tree]] $T$ is the [[union]] over its [[corollas]]
+The **spine** of a [[tree]] $T$ is the [[union]] over its [corollas](dendroidal+set#Corolla)
 
 $$
   Sp(T) = \bigcup_{C_{k} \to T} C_k
@@ -53,7 +53,7 @@ $$
 
 =--
 
-In ([Cisinski-Moerdijk](#CisinskiMoerdijk)) this is called the _Segal core_ of $T$.
+In [Cisinski & Moerdijk 2013](#CisinskiMoerdijk13) this is called the _Segal core_ of $T$.
 
 +-- {: .num_remark}
 ###### Remark
@@ -82,7 +82,7 @@ $X^{Sp[T] \hookrightarrow \Delta[n]}$ are bijections.
 
 =--
 
-For simplicial sets, this is a classical statement (Grothendieck / Segal). Its homotopical weakening leads to the notion of [[Segal category]] and [[complete Segal space]]. For dendroidal sets this is ([Cisinski-Moerdijk, cor. 2.7](#Cisinski-Moerdijk)).
+For simplicial sets, this is a classical statement (Grothendieck / Segal). Its homotopical weakening leads to the notion of [[Segal category]] and [[complete Segal space]]. For dendroidal sets this is [Cisinski & Moerdijk 2013, cor. 2.7](#CisinskiMoerdijk13).
 
 ### Closure and lifting properties
 
@@ -95,18 +95,25 @@ For any [[tree]] $T$, the spine inclusion $Sp[T] \hookrightarrow \Omega[T]$ is a
  
 =--
 
-This is ([Cisinski-Moerdijk, prop. 2.4](#CisinskiMoerdijk)). 
+This is [Cisinski & Moerdijk 2013, prop. 2.4](#CisinskiMoerdijk13). 
 
 ## Related concepts
 
 * [[horn]], [[boundary of a simplex]]
 
+* [[composer]]
+
 ## References
 
-Dendroidal spines are discussed in section 1 of 
+On spines of [[simplicial sets]]:
 
-* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_ ([arXiv:1010.4956](http://arxiv.org/abs/1010.4956))
- {#CisinskiMoerdijk}
+* {#Land21} [[Markus Land]], Def. 1.1.37(3) in: *Introduction to Infinity-Categories*, Birkhäuser (2021) &lbrack;[doi:10.1007/978-3-030-61524-6](https://link.springer.com/book/10.1007/978-3-030-61524-6)&rbrack;
+
+
+On spines of [[dendroidal sets]]:
+
+* {#CisinskiMoerdijk13} [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], section 1 of: _Dendroidal Segal spaces and infinity-operads_, Journal of Topology **6** 3 (2013) 675-794 &lbrack;[arXiv:1010.4956](http://arxiv.org/abs/1010.4956), [doi:10.1112/jtopol/jtt004](https://doi.org/10.1112/jtopol/jtt004)&rbrack;
+ 
 
 
 [[!redirects spines]]
