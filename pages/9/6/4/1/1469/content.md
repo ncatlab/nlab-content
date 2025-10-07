@@ -76,6 +76,10 @@ Textbook accounts:
 
 * {#ShafarevichVol1} [[Igor Shafarevich]], *Basic Algebraic Geometry 1 -- Varieties in Projective Space*, Springer (1977, 1994, 2013) &lbrack;[pdf](http://userpage.fu-berlin.de/aconstant/Alg2/Bib/Shafarevich.pdf), [doi:10.1007/978-3-642-57908-0](https://link.springer.com/book/10.1007/978-3-642-57908-0)&rbrack;
 
+* [[Robin Hartshorne]], Algebraic Geometry, Graduate Texts in Mathematics __52__, Springer (1977) &lbrack;[doi:10.1007/978-1-4757-3849-0](https://doi.org/10.1007/978-1-4757-3849-0)&rbrack;
+
+* {#Neeman07} [[Amnon Neeman]]: _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__, Cambridge University Press (2007) &lbrack;[ISBN:9780521709835](http://www.cambridge.org/us/academic/subjects/mathematics/geometry-and-topology/algebraic-and-analytic-geometry)&rbrack;
+
 * [[James Milne]]: *Algebraic Geometry* (1996-) &lbrack;[webpage](https://www.jmilne.org/math/CourseNotes/ag.html), [pdf 2008](https://www.jmilne.org/math/CourseNotes/AG510.pdf)&rbrack;
 
 * [[Siegfried Bosch]], *Algebraic Geometry and Commutative Algebra*, Universitext, Springer (2017) &lbrack;[doi:10.1007/978-1-4471-4829-6](https://doi.org/10.1007/978-1-4471-4829-6)&rbrack;
@@ -83,7 +87,6 @@ Textbook accounts:
 *  Ulrich Görtz, Torsten Wedhorn, *Algebraic Geometry I: Schemes*, Springer (2020) &lbrack;[doi:10.1007/978-3-658-30733-2](https://doi.org/10.1007/978-3-658-30733-2)&rbrack; ; *Algebraic Geometry II: Cohomology of Schemes*, Springer 2023
 
 
-* [[Robin Hartshorne]], Algebraic Geometry, Graduate Texts in Mathematics __52__, Springer 1977. &lbrack;[doi:10.1007/978-1-4757-3849-0](https://doi.org/10.1007/978-1-4757-3849-0)&rbrack;
 
 Lecture notes:
 
