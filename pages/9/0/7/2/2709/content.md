@@ -16,6 +16,10 @@ On [[(∞,1)-category theory]] and [[homotopical algebra]]:
 
 * {#CCNW25} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], *Formalization of Higher Categories*, work in progress (2025) &lbrack;[pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view)&rbrack;
 
+On [[dendroidal sets]] as modelling [[(infinity,1)-operads]]:
+
+* {#CisinskiMoerdijk13} [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal Segal spaces and infinity-operads_, Journal of Topology **6** 3 (2013) 675-794 &lbrack;[arXiv:1010.4956](http://arxiv.org/abs/1010.4956), [doi:10.1112/jtopol/jtt004](https://doi.org/10.1112/jtopol/jtt004)&rbrack;
+
 On [[triangulated categories]] of [[mixed motives]] and their [[yoga of six functors]]:
 
 * {#CisinskiDeglise09} [[Denis-Charles Cisinski]], [[Frédéric Déglise]], *Triangulated categories of mixed motives*, Springer Monographs in Mathematics, Springer (2019) &lbrack;[arXiv:0912.2110](http://arxiv.org/abs/0912.2110), [doi:10.1007/978-3-030-33242-6](https://doi.org/10.1007/978-3-030-33242-6)&rbrack;
