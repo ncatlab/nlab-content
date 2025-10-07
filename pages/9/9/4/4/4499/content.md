@@ -15,7 +15,7 @@
 
 ## Idea
 
-_GAGA_ is short for the title _G&#233;om&#233;trie alg&#233;brique et g&#233;om&#233;trie analytique_ of the article  ([Serre 56](#Serre56)), and more generally has come to stand for the kind of results initated in this article, establishing the close relationship between [[algebraic geometry]] over the [[complex numbers]] and [[complex geometry|complex]] [[analytic geometry]], hence between [[algebraic spaces]] ([[algebraic varieties]], [[schemes]]) over the [[complex numbers]] and [[complex analytic spaces]]. 
+_GAGA_ is short for the title _G&#233;om&#233;trie alg&#233;brique et g&#233;https://ncatlab.org/nlab/edit/GAGAom&#233;trie analytique_ of the article by [Serre 1956](#Serre56), and it has come to stand for the kind of results initated in this article, establishing the close relationship between [[algebraic geometry]] over the [[complex numbers]] and [[complex geometry|complex]] [[analytic geometry]], hence between [[algebraic spaces]] ([[algebraic varieties]], [[schemes]]) over the [[complex numbers]] and [[complex analytic spaces]]. 
 
 For example, often one can compute [[sheaf cohomology]] either in the algebraic category or in the analytic category, obtaining the same result. This can be useful because one has more tools in the analytic category, such as [[Dolbeault cohomology|Dolbeault resolutions]]. Typically GAGA-type theorems hold for proper (compact) varieties, but not for non-proper varieties.
 
@@ -32,9 +32,9 @@ For example, often one can compute [[sheaf cohomology]] either in the algebraic 
 
 ## References
 
-The original article is
+The original article:
 
-* {#Serre56} [[Jean-Pierre Serre]], _G&#233;om&#233;trie alg&#233;brique et g&#233;om&#233;trie analytique_ Universit&#233; de Grenoble. Annales de l'Institut Fourier 6: 1&#8211;42, (1956) doi:10.5802/aif.59, ISSN 0373-0956, MR 0082175
+* {#Serre56} [[Jean-Pierre Serre]], *Géométrie algébrique et géométrie analytique*, Annales de l'Institut Fourier **6** (1956) 1-42 &lbrack;[doi:10.5802/aif.59](https://doi.org/10.5802/aif.59), [numdam:AIF_1956__6__1_0](https://www.numdam.org/item/AIF_1956__6__1_0), ISSN:0373-0956, MR 0082175&rbrack;
 
 which compares the categories of projective integral $\mathbb{C}$-schemes of finite type with that of projective complex manifolds possibly with singularities. In
 
@@ -42,9 +42,9 @@ which compares the categories of projective integral $\mathbb{C}$-schemes of fin
 
 this was generalized to a comparison of proper $\mathbb{C}$-schemes locally of finite type and complex analytic spaces.
 
-A good modern textbook account is in
+Modern textbook account:
 
-* {#Neeman07} [[Amnon Neeman]], _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__, 2007 ([publisher](http://www.cambridge.org/us/academic/subjects/mathematics/geometry-and-topology/algebraic-and-analytic-geometry))
+* {#Neeman07} [[Amnon Neeman]]: _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__, Cambridge University Press (2007) &lbrack;[ISBN:9780521709835](http://www.cambridge.org/us/academic/subjects/mathematics/geometry-and-topology/algebraic-and-analytic-geometry)&rbrack;
 
 
 Reviews and surveys include
