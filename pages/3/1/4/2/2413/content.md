@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* tic
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -61,24 +59,24 @@ See also the entry
 
 ## References
 
-A recent survey of the program is
+Survey of the program is
 
-* [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric Euclidean field theories and generalized cohomology_ ([pdf](http://math.berkeley.edu/~teichner/Papers/Survey.pdf))
+* [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric Euclidean field theories and generalized cohomology_ (2008) &lbrack;[pdf](http://math.berkeley.edu/~teichner/Papers/Survey.pdf)&rbrack;
 
 The program was initiated in 
 
-* [[Stephan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_
+* {#Segal88} [[Graeme Segal]], §6 in: *Elliptic cohomology*, Astérisque, tome 161-162 (1988), Séminaire Bourbaki, exp. no 695, p. 187-201 \[<a href="https://www.numdam.org/item/SB_1987-1988__30__187_0">numdam:SB_1987-1988__30__187_0</a>, [pdf](https://www.numdam.org/article/SB_1987-1988__30__187_0.pdf)\]
+
+
+* [[Stephan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_ (2004)
 
 After the original sketch in terms of extended [[FQFT]] subsequent work concentrated on ordinary 1-categorical constructions, the goal being to make very clear, and transparent and rigorous the constructions involved and the claim that 
 
 > the [[partition function]] of a (2|1)-dimensional -Eudlidean [[FQFT]] is an [[integral modular form]].
 
-This latest development on this is in 
+See:
 
-* [[Stephan Stolz]], [[Peter Teichner]], _Super symmetric field theories and integral modular forms_ ([pdf](http://www.nd.edu/~stolz/SusyQFT.pdf))
-
-> **warning** [[Urs Schreiber|I]] am being told that this is by now outdated and to be replaced by an improved version, which however is apparently not available yet
-
+* [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_ , in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), *[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Symposia in Pure Mathematics (2011) &lbrack;[arXiv:1108.0189](http://arxiv.org/abs/1108.0189)&rbrack;
 
 
 [[!redirects geometric models for elliptic cohomology]]
