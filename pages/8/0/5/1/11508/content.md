@@ -327,7 +327,7 @@ Res. Not. (2013) ([arXiv:1203.1696](http://arxiv.org/abs/1203.1696))
 
 * [[Igor Kriz]], Hao Xing: _On effective F-theory action in type IIA compactifications_, Int. J. Mod. Phys. A **22** (2007) 1279-1300 &lbrack;[arXiv:hep-th/0511011](http://arxiv.org/abs/hep-th/0511011)&rbrack;
 
-* {#Sati05} [[Hisham Sati]]: _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 &lbrack;[arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087)&rbrack;
+* {#Sati05} [[Hisham Sati]]: _The Elliptic curves in gauge theory, string theory, and cohomology_, JHEP 0603 (2006) 096 &lbrack;[arXiv:hep-th/0511087](http://arxiv.org/abs/hep-th/0511087), [doi:10.1088/1126-6708/2006/03/096](https://iopscience.iop.org/article/10.1088/1126-6708/2006/03/096)&rbrack;
 
 * {#Sati10} [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, part I, Proc. Symp. Pure Math. **81** (2010) 181-236 &lbrack;[arXiv:1001.5020](http://arxiv.org/abs/1001.5020)&rbrack;
 
