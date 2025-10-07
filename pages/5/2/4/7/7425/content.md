@@ -324,16 +324,14 @@ On the Morava K-theory of [[iterated loop spaces]] of [[n-spheres]]:
 
 The [[orientation in generalized cohomology|orientation]] of [[integral Morava K-theory]] is discussed in
 
-* {#SatiKriz04} [[Igor Kriz]], [[Hisham Sati]], _M-theory, type IIA superstrings, and elliptic cohomology_, Adv. Theor.
-Math. Phys. 8 (2004), no. 2, 345&#8211;394 ([arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013))
- 
+* {#KrizSati04a} [[Igor Kriz]], [[Hisham Sati]], _M Theory, Type IIA Superstrings, and Elliptic Cohomology_, Adv. Theor. Math. Phys. **8** (2004) 345-395 &lbrack;[arXiv:hep-th/0404013](http://arxiv.org/abs/hep-th/0404013), [doi:10.4310/ATMP.2004.v8.n2.a3](https://dx.doi.org/10.4310/ATMP.2004.v8.n2.a3)&rbrack; 
 
 * {#Buhne11} [[Lukas Buhné]], _[[Properties of Integral Morava K-Theory and the Asserted Application to the Diaconescu-Moore-Witten Anomaly]]_, Diploma thesis Hamburg (2011)
  
 
 Some [[twisted cohomology|twists]] of Morava K-theory/maps into its [[∞-group of units]] as well as the [[Atiyah-Hirzebruch spectral sequence]] for Morava $K$ and Morava $E$ are discussed in 
 
-* {#SatiWesterland11} [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
+* {#SatiWesterland11} [[Hisham Sati]], [[Craig Westerland]]: _Twisted Morava K-theory and E-theory_, Journal of Topology **8** 4 (2015) 887-916 &lbrack;[arXiv:1109.3867](http://arxiv.org/abs/1109.3867), [doi:10.1112/jtopol/jtv020](https://doi.org/10.1112/jtopol/jtv020)&rbrack;
  
 
 For a review in the context of [[M-theory]] see
