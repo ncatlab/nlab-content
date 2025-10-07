@@ -18,31 +18,53 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
 
+
 ## Idea
 
-The embedding of aspects of [[quantum field theories]] into sectors of [[string theory]]  -- where [[gauge enhancement]] happens near [[orbifold singularities]]/[[O-planes]] and/or on the [[worldvolumes]]  of [[branes]] (e.g. [[super Yang-Mills theory]] on [[D-branes]], [[6d (2,0)-superconformal QFT]] on [[M5-branes]]) encodes QFT properties in terms of the [[background field|background]] [[geometry]] in a useful way, for instance the various [[duality in string theory|dualities of string theory]] will relate different QFTs in way that are typically far from obvious from just looking at these QFTs themselves. 
+The embedding (meaning: realization) of aspects of [[quantum field theories]] (QFTs) into/within sectors of [[string theory]]  --- where [[gauge enhancement]] happens near [[orbifold singularities]]/[[O-planes]] and/or on the [[worldvolumes]]  of [[branes]] (e.g. [[super Yang-Mills theory]] on [[D-branes]], [[6d (2,0)-superconformal QFT]] on [[M5-branes]]) --- encodes QFT properties in terms of the [[background field|background]] [[geometry]] in a useful way. For instance the various [[duality in string theory|dualities of string theory]] will relate different QFTs in way that are typically far from obvious from just looking at these QFTs themselves. 
 
-The investigation specifically of [[N=2 D=4 super Yang-Mills theory]] and [[N=1 D=4 super Yang-Mills theory]] in this fashion has come to be known as _geometric engineering of quantum field theory_ ([Katz, Klemm & Vafa 1997](#KatzKlemmVafa97), [Katz-Klemm 96](#KatzKlemm96) ).
+The investigation specifically of [[N=2 D=4 super Yang-Mills theory]] and [[N=1 D=4 super Yang-Mills theory]] in this fashion has come to be known as _geometric engineering of quantum field theory_ ([Katz, Klemm & Vafa 1997](#KatzKlemmVafa97), [Katz-Klemm 96](#KatzKlemm96)).
 
 Specifically, the geometrically engineered QFTs are those on the [[worldvolume]] of [[black brane|black]] [[D-branes]] that end on (are suspended between) [[black brane|black]] [[NS5-branes]] (due to [Hanany-Witten 97](#HananyWitten97), review includes [Fazzi 17](#Fazzi17)). See at _[D-branes ending on NS5-branes](NS5-brane#DBranesEndingOnNS5Branes)_.
 
+Beware that the term "geometric engineering" is often associated specifically to [[orbifold|orbi-singular]] [[bulk spacetime|bulk]] dynamics. 
 
-<img src="https://ncatlab.org/nlab/files/HananyWittenConfig.png" />
+The alternative term "**brane engineering**" &lbrack;[Gómez & Hernández 1998](#GómezHernández98)&rbrack; refers more generally to the realization of aspects of QTFs in the [[worldvolume]] [[dynamics]] of [[branes]]. 
 
-> graphics grabbed from [Fazzi 17, p. 25](#Fazzi17)
+But since there are in general also [[orbifold|orbi-singularities]] on the brane, it makes sense to broadly speak of *geometric brane engineering of QFTs*.
 
+In the [[large N limit]] of $N$ [[coincident branes]] the QFT on their worldvolume leaves a characteristic gravtational imprint on the ambient [[bulk spacetime]]: the is the content of the [[holographic principle]] in the guise of the [[AdS-CFT correspondence]].
 
-<img src="https://ncatlab.org/nlab/files/HananyWittenConfigII.png" />
-
-> graphics grabbed from [Fazzi 17, p. 32](#Fazzi17)
-
+\linebreak
 
 For more relations between QFTs found via string theory see at _[[string theory results applied elsewhere]]_.
+
+
+\linebreak
+
+From [[schreiber:Holographic M-Brane Super-Embeddings|GSS25]]:
+
+<div style="margin:-35px 0px 00px 00px;">
+<img src="https://ncatlab.org/nlab/files/ProbeBraneEmbedding.png" width="900"/>
+</div>
+
+\linebreak
+
+From [Fazzi 17, pp. 25, 32](#Fazzi17):
+
+<div style="margin:-30px 0px 00px 00px;">
+<img src="https://ncatlab.org/nlab/files/HananyWittenConfig.png" />
+</div>
+
+<div style="margin:-30px 0px 00px 00px;">
+<img src="https://ncatlab.org/nlab/files/HananyWittenConfigII.png"/>
+</div>
+
+
 
 
 ## Related concepts
@@ -58,11 +80,12 @@ For more relations between QFTs found via string theory see at _[[string theory 
 
 ## References
 
-> The following lists mainly references that explicitly mention the term "geometric engineering" or variants. But the idea of geometric engineering of QFT in string/M-theory is much more wide-spread  and not always referred to by this terminology (cf. for instance at *[[M-theory on G2-manifolds]]*, *[[gauge enhancement]]* and at *[[intersecting D-brane models]]*).
+> The following lists mainly references that explicitly mention the term "geometric engineering" or "brane engineering" or variants. But the idea of geometric engineering of QFT in string/M-theory is much more wide-spread  and not always referred to by this terminology (cf. for instance at *[[M-theory on G2-manifolds]]*, *[[gauge enhancement]]* and at *[[intersecting D-brane models]]*).
 
-### General
+### "Geometric engineering"
+  {#ReferencesGeometricEngineering}
 
-The original articles:
+The original articles using the term "geometric engineering":
 
 * [[Sheldon Katz]], [[Cumrun Vafa]]: *Matter From Geometry*,  Nucl. Phys. B **497** (1997) 146-154 &lbrack;[arXiv:hep-th/9606086](https://arxiv.org/abs/hep-th/9606086), <a href="https://doi.org/10.1016/S0550-3213(97)00280-0">doi:10.1016/S0550-3213(97)00280-0</a>&rbrack;
 
@@ -97,11 +120,10 @@ Further developments:
 
 * [[Balázs Szendrői]]: *Nekrasov's Partition Function and Refined Donaldson-Thomas Theory: the Rank One Case*, SIGMA **8** (2012) 088  &lbrack;[doi:10.3842/SIGMA.2012.088](https://doi.org/10.3842/SIGMA.2012.088), [mathnet:765](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=sigma&paperid=765&option_lang=eng))
 
-* David Berenstein: *Reverse geometric engineering of singularities*, JHEP 0204 (2002) 052 &lbrack;[arXiv:hep-th/0201093](https://arxiv.org/abs/hep-th/0201093), [doi:10.1088/1126-6708/2002/04/052](https://doi.org/10.1088/1126-6708/2002/04/052)&rbrack;
+* [[David Berenstein]]: *Reverse geometric engineering of singularities*, JHEP 0204 (2002) 052 &lbrack;[arXiv:hep-th/0201093](https://arxiv.org/abs/hep-th/0201093), [doi:10.1088/1126-6708/2002/04/052](https://doi.org/10.1088/1126-6708/2002/04/052)&rbrack;
 
 
 Specifically in [[M-theory]]:
-
 
 * A. Belhaj, L. B. Drissi, J. Rasmussen: *On $N=1$ gauge models from geometric engineering in M-theory*, Class. Quant. Grav. **20** (2003) 4973-4982 &lbrack;[arXiv:hep-th/0304019](https://arxiv.org/abs/hep-th/0304019), [doi:10.1088/0264-9381/20/23/002](https://doi.org/10.1088/0264-9381/20/23/002)&rbrack;
 
@@ -115,6 +137,8 @@ Specifically in [[M-theory]]:
 
 * Andrea Sangiovanni, Roberto Valandro: *M-theory geometric engineering for rank-0 3d $\mathcal{N}=2$ theories* &lbrack;[arXiv:2410.13943](https://arxiv.org/abs/2410.13943)&rbrack;
 
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes|Engineering of Anyons on M5-Probes via Flux-Quantization]]*, SciPost Physics Lecture Notes (2025) &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
+
 Cast in "[[generalized symmetry]]" language:
 
 * [[Michele Del Zotto]], Shani Nadir Meynet, Robert Moscrop: *Remarks on Geometric Engineering, Symmetry TFTs and Anomalies* &lbrack;[arXiv:2503.19022](https://arxiv.org/abs/2503.19022)&rbrack;
@@ -122,8 +146,22 @@ Cast in "[[generalized symmetry]]" language:
 * Mario De Marco, Shani Nadir Meynet: *Symmetries Beyond Branes: Geometric Engineering and Isometries* &lbrack;[arXiv:2503.19022](https://arxiv.org/abs/2503.19022)&rbrack;
 
 
+### "Brane engineering"
+ {ReferencesBraneEmgineering}
 
-    
+Use of the term "brane engineering":
+
+* {#GómezHernández98} César Gómez, Rafael Hernández: *Brane Engineering*, AIP Conf. Proc. **445** (1998) 243–278 &lbrack;[doi:10.1063/1.56630](https://doi.org/10.1063/1.56630), [[GomesHernandez-BraneEngineering.pdf:file]]&rbrack;
+
+* {#GKSTY02} E. Gorbatov, [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], [[Stefan Theisen]], [[Shimon Yankielowicz]], _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015 (2002) &lbrack;[arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135), [doi:10.1088/1126-6708/2002/05/015](https://doi.org/10.1088/1126-6708/2002/05/015)&rbrack;
+  > (on [[heterotic M-theory on ADE-orbifolds]])
+
+* Yo Zhang: *D-brane engineering of surface defects in supersymmetric gauge theories*, PhD thesis, Rutgers (2012) &lbrack;[doi:10.7282/T3JD4VC0](https://doi.org/doi:10.7282/T3JD4VC0), [pdf](https://rucore.libraries.rutgers.edu/rutgers-lib/37506/PDF/1/play/)&rbrack;
+
+* Xingyang Yu: *Dualities and Symmetries of Quantum Field Theories from Brane Engineering*, PhD thesis, NYU (2023) &lbrack;[arXiv:2306.12472](https://arxiv.org/abs/2306.12472)&rbrack;
+
+
+
 
 ### Examples
  {#Examples}
@@ -171,16 +209,19 @@ on single M5 [[probe branes]] by taking into account proper [[geometry of physic
 * {#SS25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Engineering of Anyons on M5-Probes via Flux-Quantization]]* &lbrack;[arXiv:2501.17927](https://arxiv.org/abs/2501.17927)&rbrack;
 
 
-
-[[!redirects geometric engineering]]
-
 [[!redirects geometric engineering of quantum field theories]]
-
 [[!redirects geometric engineering of gauge theories]]
 
 [[!redirects geometric engineering of QFT]]
 [[!redirects geometric engineering of QFTs]]
 
+
 [[!redirects Hanany-Witten theory]]
 [[!redirects Hanany-Witten rule]]
 [[!redirects Hanany-Witten rules]]
+
+
+[[!redirects geometric engineering]]
+[[!redirects brane engineering]]
+[[!redirects geometric brane engineering]]
+
