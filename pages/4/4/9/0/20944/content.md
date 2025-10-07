@@ -55,7 +55,7 @@ Relation to [[cutting and pasting of manifolds]]:
 
 * Mayuko Yamashita, *Invertible QFTs and differential Anderson duals* &lbrack;[arXiv:2304.08833](https://arxiv.org/abs/2304.08833)&rbrack;
 
-* [[Renee Hoekzema]], [[Luuk Stehouwer]], [[Simona Veselá]], *SKK groups of manifolds and non-unitary invertible TQFTs* &lbrack;[arXiv:2504.07917](https://arxiv.org/abs/2504.07917)&rbrack;
+* [[Renee Hoekzema]], [[Luuk Stehouwer]], Simona Veselá: *SKK groups of manifolds and non-unitary invertible TQFTs* &lbrack;[arXiv:2504.07917](https://arxiv.org/abs/2504.07917)&rbrack;
 
 
 Application to anomalies of gapped systems:
