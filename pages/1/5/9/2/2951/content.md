@@ -24,7 +24,7 @@ On [[equivariant K-theory]]:
 
 On the [[Atiyah-Segal completion theorem]]:
 
-* [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. Volume 3, Number 1-2 (1969) 1-18 &lbrack;[euclid:jdg/1214428815](http://projecteuclid.org/euclid.jdg/1214428815)&rbrack;
+* [[Michael Atiyah]], [[Graeme Segal]], _Equivariant $K$-theory and completion_,  J. Differential Geom. **3** 1-2 (1969) 1-18 &lbrack;[euclid:jdg/1214428815](http://projecteuclid.org/euclid.jdg/1214428815)&rbrack;
 
 On [[equivariant stable homotopy theory]] and the isomorphism between the [[Burnside ring]] and the [[equivariant stable Cohomotopy]] of the point:
 
@@ -62,8 +62,12 @@ On the [[homotopy type of spaces of rational functions]] from the [[Riemann sphe
 
 * [[Graeme Segal]], _The topology of spaces of rational functions_, Acta Math. __143__ (1979) 39-72 &lbrack;[euclid:1485890033](https://projecteuclid.org/euclid.acta/1485890033)&rbrack;
 
-* [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics
-Volume: 258;  ([arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258))
+* [[Ralph L. Cohen]], [[John D. S. Jones]], [[Graeme B. Segal]], *Stability for holomorphic spheres and Morse theory*, in: K. Grove, I. H. Madsen, E. K. Pedersen (eds.) *Geometry and Topology: Aarhus*, Contemporary Mathematics **258**  &lbrack;[arXiv:math/9904185](https://arxiv.org/abs/math/9904185), [ISBN:978-0-8218-2158-9](https://bookstore.ams.org/conm-258)&rbrack;
+
+Early review of [[elliptic cohomology]] (with a speculation, in §6, about geometric realizations via [[functorial field theory|functorial]] [[2d CFT]], cf.: *[[What is an elliptic object?]]*):
+
+* {#Segal88} [[Graeme Segal]]: *Elliptic cohomology*, Astérisque, tome 161-162 (1988), Séminaire Bourbaki, exp. no 695, p. 187-201 \[<a href="https://www.numdam.org/item/SB_1987-1988__30__187_0">numdam:SB_1987-1988__30__187_0</a>, [pdf](https://www.numdam.org/article/SB_1987-1988__30__187_0.pdf)\]
+
 
 On the [[ordinary cohomology]] of the [[moduli space of Yang-Mills monopoles]]:
 
