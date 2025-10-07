@@ -378,8 +378,7 @@ The original article:
 Their [[classifying spaces]] are discussed in
 
 * [[Nils Baas]], [[Ian Dundas]], [[Birgit Richter]], [[John Rognes]], _Ring completion of rig categories_ ([arXiv:0706.0531](http://arxiv.org/abs/0706.0531))
-
-  (a previous version of this carried the title _Two-vector bundles define a form of elliptic cohomology_)
+  > (a previous version of this carried the title _Two-vector bundles define a form of elliptic cohomology_)
 
 * [[Nils Baas]], M. B&#246;ckstedt, [[Tore Kro]], _Two-Categorical Bundles and Their Classifying Spaces_ (2008) ([arXiv:math/0612549](http://arxiv.org/abs/math/0612549)), .
 
