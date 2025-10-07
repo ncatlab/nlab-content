@@ -138,6 +138,11 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 ## References
  {#References}
 
+Textbook account:
+
+* {#Neeman07} [[Amnon Neeman]]: _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__, Cambridge University Press (2007) &lbrack;[ISBN:9780521709835](http://www.cambridge.org/us/academic/subjects/mathematics/geometry-and-topology/algebraic-and-analytic-geometry)&rbrack;
+
+
 Course notes on ([[global analytic geometry|global]]) analytic geometry are in 
 
 * [[Frédéric Paugam]], _Global analytic geometry and the functional equation_ (2010) ([pdf](http://www.math.jussieu.fr/~fpaugam/documents/enseignement/master-global-analytic-geometry.pdf))
