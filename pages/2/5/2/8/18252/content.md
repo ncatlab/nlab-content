@@ -490,7 +490,7 @@ $$
 
 To see that this is an open cover:
 
-1. This is a cover because with the orgin removed in $k^n \setminus \{0\}$ at every point $[x_1: \cdots : x_{n+1}]$
+1. This is a cover because with the origin removed in $k^n \setminus \{0\}$ at every point $[x_1: \cdots : x_{n+1}]$
    at least one of the $x_i$ has to be non-vanishing.
 
 1. These [[subsets]] are [[open subset|open]] in the [[quotient topology]] $k P^n = (k^{n+1} \setminus \{0\})/\sim$, since their [[pre-image]] under the [[quotient object|quotient]] [[coprojection|co-projection]] $k^{n+1} \setminus \{0\} \to k P^n$ coincides with the pre-image $(pr_i\circ\iota)^{-1}( k \setminus \{0\} )$ under the [[projection]] onto the $i$th coordinate in the [[product topological space]] $k^{n+1} = \underset{i \in \{1,\cdots, n+1\}}{\prod} k$ (where we write $k^{n+1} \setminus \{0\} \overset{\iota}{\hookrightarrow} k^{n+1} \overset{pr_i}{\to} k$).
