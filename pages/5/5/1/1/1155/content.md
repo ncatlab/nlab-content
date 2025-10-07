@@ -150,7 +150,7 @@ The definition is recalled in part II, section 7 of
 
 Discussion of the relation (equivalence of [[homotopy categories]]) to the [[Bousfield-Friedlander model structure]] on [[sequential spectra]] in [[simplicial sets]] is in
 
-* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], section 2.5 of _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], section 2.5 of _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/bousfield-friedlander.pdf))
 
 See also
 
