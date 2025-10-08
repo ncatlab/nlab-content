@@ -26,4 +26,10 @@ Review:
 
 * [[Renate Loll]]: *Nonperturbative quantum gravity unlocked through computation*, in: *Quantum Gravity and Computation*, Routledge  (2025) &lbrack;[arXiv:2501.17972](https://arxiv.org/abs/2501.17972)&rbrack;
 
+And via [[topological data analysis]]:
+
+* J. van der Duin, [[Renate Loll]], M. Schiffer, A. Silva: *Exploring Quantum Spacetime with Topological Data Analysis* &lbrack;[arXiv:2510.05693](https://arxiv.org/abs/2510.05693)&rbrack;
+
+* J. van der Duin, [[Renate Loll]], M. Schiffer, A. Silva: *Quantum Gravity and Effective Topology* &lbrack;[arXiv:2510.05695](https://arxiv.org/abs/2510.05695)&rbrack;
+
 category: people
