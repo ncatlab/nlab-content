@@ -110,7 +110,7 @@ We describe the _refined_ Chern–Weil homomorphism (which associates a class in
 
 The modern construction is rather short and elegant,
 and appears in the work of Bunke–Nikolaus–Völkl and Schreiber.
-For an exposition, see, for example, Part II in ([Amabel–Debray–Haine 2021](#ADH21)).
+Exposition is in [Amabel, Debray & Haine 2021, Part II](#ADH21).
 
 The input data is an arbitrary [[Lie group]] $G$,
 an [[invariant polynomial]] $P$ on the [[Lie algebra]] of $G$, and a [[level]] $c\in H^k(B G,\mathbf{Z})$
