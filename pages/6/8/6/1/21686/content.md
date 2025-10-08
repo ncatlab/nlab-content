@@ -91,7 +91,7 @@ Review of the [[Chern-Weil homomorphism]]:
 * {#FSS23} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: Section 8 of: *[[schreiber:The Character Map in Non-Abelian Cohomology]]*, World Scientific (2023) \[<a href="https://doi.org/10.1142/13422">doi:10.1142/13422</a>\]
   > (as a special case of the character map on generalized [[nonabelian cohomology]])
 
-* {#ADH21} [[Araminta Amabel]], [[Arun Debray]], [[Peter  Haine]]. *Differential Cohomology: Categories, Characteristic Classes, and Connections*. (2021). ([arXiv:2109.12250](https://arxiv.org/abs/2109.12250v2)).
+* {#ADH21} [[Araminta Amabel]], [[Arun Debray]], [[Peter  Haine]], Part II in: *Differential Cohomology: Categories, Characteristic Classes, and Connections*, based on [Fall 2019 talks at MIT's Juvitop seminar](https://math.mit.edu/juvitop/pastseminars/2019_Fall.html) \[<a href="https://arxiv.org/abs/2109.12250">arXiv:2109.12250</a>\]
 
 With an eye towards applications in [[mathematical physics]]:
 
