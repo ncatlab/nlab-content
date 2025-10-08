@@ -1027,7 +1027,7 @@ Further development and an expository account:
 
 The concept of generalized homology obtained by discarding the dimension axiom and the observation that every [[spectrum]] induces an example is due to
 
-* {#Whitehead62} [[George Whitehead]], _Generalized homology theories_, Transactions of the American Mathematical Society, 102 (1962) 227-283 ([pdf](http://www.ams.org/journals/tran/1962-102-02/S0002-9947-1962-0137117-6/S0002-9947-1962-0137117-6.pdf), [jstor:1993676](https://www.jstor.org/stable/1993676))
+* {#Whitehead62} [[George Whitehead]], _Generalized homology theories_, Transactions of the American Mathematical Society, 102 (1962) 227-283 ([doi](https://doi.org/10.1090/s0002-9947-1962-0137117-6), [jstor:1993676](https://www.jstor.org/stable/1993676))
 
 
 The proof that every generalized (co)homology theory arises this way ([[Brown representability theorem]]) is due to
