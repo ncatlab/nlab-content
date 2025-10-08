@@ -1115,6 +1115,7 @@ Formulation in [[homotopy type theory]] (cf. *[[cohomology in homotopy type theo
 
 [[!redirects Eilenberg-Steenrod axioms]]
 
+[[!redirects generalized (Eilenberg-Steenrod) cohomology]]
 [[!redirects generalized (Eilenberg-Steenrod) cohomology theory]]
 [[!redirects generalized (Eilenberg-Steenrod) cohomology theories]]
 
@@ -1131,7 +1132,6 @@ Formulation in [[homotopy type theory]] (cf. *[[cohomology in homotopy type theo
 [[!redirects Whitehead generalized cohomology theory]]
 [[!redirects Whitehead generalized cohomology theories]]
 
-[[!redirects Whitehead-generalized cohomology]]
 [[!redirects Whitehead-generalized cohomology theory]]
 [[!redirects Whitehead-generalized cohomology theories]]
 
