@@ -115,6 +115,9 @@ Monographs:
 
 * Clark Bray, Adrian Butcher, Simon Rubinstein-Salzedo: *Algebraic Topology*, Springer (2021) \[<a href="https://doi.org/10.1007/978-3-030-70608-1">doi:10.1007/978-3-030-70608-1</a>, [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-70608-1.pdf)\]
 
+* [[Haynes Miller]]: *Lectures on Algebraic Topology*, World Scientifuc (2021) \[<a href="https://doi.org/10.1142/12132">doi:10.1142/12132</a>\]
+
+
 * Holger Kammeyer: *Introduction to Algebraic Topology*,   Compact Textbooks in Mathematics, Birkhäuser (2022) \[<a href="https://doi.org/10.1007/978-3-030-98313-0">doi:10.1007/978-3-030-98313-0</a>\]
 
 On [[constructive mathematics|constructive]] methods ([[constructive algebraic topology]]):
@@ -191,7 +194,7 @@ See also:
 
 * [[Klaus Heiner Kamps]], [[Tim Porter]], _Abstract Homotopy and Simple Homotopy Theory_, World Scientific 1997 ([doi:10.1142/2215](https://doi.org/10.1142/2215), [GoogleBooks](http://books.google.de/books?id=7JYKxInRMdAC&dq=Porter+Kamps&printsec=frontcover&source=bl&ots=uuyl_tIjs4&sig=Lt8I92xQBZ4DNKVXD0x76WkcxCE&hl=de&sa=X&oi=book_result&resnum=3&ct=result#PPP1,M1))
 
-* [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_, 2019
+* [[Haynes Miller]] (ed.), _[[Handbook of Homotopy Theory]]_, Chapman and Hall/CRC Press (2019) $[$[ISBN:9780815369707](https://www.routledge.com/Handbook-of-Homotopy-Theory/Miller/p/book/9780815369707), [doi:10.1201/9781351251624](https://doi.org/10.1201/9781351251624)\]
 
 Lecture notes:
 
