@@ -17,6 +17,10 @@ On [[black holes]] and the [[BFSS matrix model]]:
 
 * Oscar J. C. Dias, [[Jorge E. Santos]]: *The Low Energy Limit of BFSS Quantum Mechanics* &lbrack;[arXiv:2407.15921](https://arxiv.org/abs/2407.15921)&rbrack;
 
+On solutions of minimal [[D=5 supergravity]] related to [[black strings]]:
+
+* Pierre Heidmann, Paolo Pani, [[Jorge E. Santos]]: *Asymptotically Flat Rotating Topological Stars* &lbrack;[arXiv:2510.05200](https://arxiv.org/abs/2510.05200)&rbrack;
+
 
 ## Related entries
 
