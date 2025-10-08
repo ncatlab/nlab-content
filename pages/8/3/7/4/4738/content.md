@@ -12,7 +12,6 @@
 =--
 =--
 =--
-=--
 
 
 
@@ -154,7 +153,7 @@ $$
 
 Ordinary [[anafunctor]]s of [[Lie groupoid]]s can equivalently be modeled by [[groupoid principal bundle]]s that are [[bibundles]].
 
-The generalization of this statement to $\infty$-anafunctors is given in ([BlohmannZhu](BlohmannZhu)).
+The generalization of this statement to $\infty$-anafunctors is given in ([BlohmannZhu](#BlohmannZhu)).
 
 ## References
 
@@ -165,7 +164,7 @@ For $(\infty,0)$-anafunctors modeling morphisms in a [[hypercomplete]] [[(∞,1)
 
 A result relating $(\infty,0)$-anafunctors to [[∞-groupoid]]-[[bibundle]]s has been announced by
 
-* [[Christian Blohmann]], [[Chenchang Zhu]], ([blog](http://golem.ph.utexas.edu/category/2010/08/minicourse_on_nonabelian_diffe.html#c034648))
+* {#BlohmannZhu} [[Christian Blohmann]], [[Chenchang Zhu]], ([blog](http://golem.ph.utexas.edu/category/2010/08/minicourse_on_nonabelian_diffe.html#c034648))
 {#BlohmannZhu}
 
 [[!redirects infinity-anafunctors]]
