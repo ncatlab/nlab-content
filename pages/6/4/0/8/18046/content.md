@@ -20,7 +20,7 @@
 ## Definition
 
 
-  For $\mathfrak{g}$ a [[Lie algebra]], then the  Lie algebra of its [[automorphism Lie group]] 
+  For $\mathfrak{g}$ a [[Lie algebra]], then the  Lie algebra of [[automorphism group of a Lie algebra|its automorphism group]] 
 
   $$
     Aut(\mathfrak{g})
@@ -49,6 +49,8 @@ $$
 
 [[!redirects derivation Lie algebras]]
 
+[[!redirects automorphism Lie algebra]]
+[[!redirects automorphism Lie algebras]]
 
 [[!redirects Lie algebra derivation]]
 [[!redirects Lie algebra derivations]]
