@@ -15,7 +15,7 @@
 
 ## Idea
 
-_GAGA_ is short for the title _G&#233;om&#233;trie alg&#233;brique et g&#233;https://ncatlab.org/nlab/edit/GAGAom&#233;trie analytique_ of the article by [Serre 1956](#Serre56), and it has come to stand for the kind of results initated in this article, establishing the close relationship between [[algebraic geometry]] over the [[complex numbers]] and [[complex geometry|complex]] [[analytic geometry]], hence between [[algebraic spaces]] ([[algebraic varieties]], [[schemes]]) over the [[complex numbers]] and [[complex analytic spaces]]. 
+_GAGA_ is short for the title _G&#233;om&#233;trie alg&#233;brique et g&#233;om&#233;trie analytique_ of the article by [Serre 1956](#Serre56), and it has come to stand for the kind of results initated in this article, establishing the close relationship between [[algebraic geometry]] over the [[complex numbers]] and [[complex geometry|complex]] [[analytic geometry]], hence between [[algebraic spaces]] ([[algebraic varieties]], [[schemes]]) over the [[complex numbers]] and [[complex analytic spaces]]. 
 
 For example, often one can compute [[sheaf cohomology]] either in the algebraic category or in the analytic category, obtaining the same result. This can be useful because one has more tools in the analytic category, such as [[Dolbeault cohomology|Dolbeault resolutions]]. Typically GAGA-type theorems hold for proper (compact) varieties, but not for non-proper varieties.
 
