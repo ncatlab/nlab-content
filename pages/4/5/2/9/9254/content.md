@@ -202,6 +202,14 @@ Persistent homology has strong computational limits for large data sets and majo
 
 * Paweł Dłotko, Davide Gurnari, _Euler Characteristic Curves and Profiles: a stable shape invariant for big data problems_, [arXiv:2212.01666](https://arxiv.org/abs/2212.01666)
 
+Application to lattice [[quantum gravity]] ([[piecewise flat spacetime|causal dynamical triangulations]]):
+
+* J. van der Duin, [[Renate Loll]], M. Schiffer, A. Silva: *Exploring Quantum Spacetime with Topological Data Analysis* &lbrack;[arXiv:2510.05693](https://arxiv.org/abs/2510.05693)&rbrack;
+
+* J. van der Duin, [[Renate Loll]], M. Schiffer, A. Silva: *Quantum Gravity and Effective Topology* &lbrack;[arXiv:2510.05695](https://arxiv.org/abs/2510.05695)&rbrack;
+
+
+
 ### Relation to quantum computation
 
 Potential implementation of TDA on [[quantum computers]]:
