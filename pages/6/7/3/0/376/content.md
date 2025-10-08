@@ -54,13 +54,13 @@ $$
 Then the [[internal hom]] in any [[slice category|slice]] $\mathcal{C}_{/X}$ exists and is given by 
 
 $$
-  \big[
+  \big[{
      \langle 
        E \stackrel{f}{\longrightarrow} X
      \rangle 
      \; ,\;  
      \text{-}
-  \big]_{\mathcal{C}_{/X}}
+  }\big]_{\mathcal{C}_{/X}}
   \;\simeq\;
   \textstyle{\prod}_f \circ f^*(\text{-})
   \,.
