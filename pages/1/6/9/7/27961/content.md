@@ -110,7 +110,7 @@ $$
 
 where in the last line $H_3$ is the [[self-dual higher gauge field|chiral flux]] on the [[M5-brane]] worldvolume. 
 
-This makes the $L_1$-brane structure above look like it matches the [[probe brane]] version of the known [[black string]] [of](black+string#ReferencesIn5DSuGra) [[D=5 supergravity]].
+This makes the $L_1$-brane structure above look like it matches the [[probe brane]] version of the known [[black string]] [of](black+string#ReferencesIn5DSuGra) [[D=5 supergravity]] (for which cf. [Mizoguchi & Ohta 1998](D%3D5+supergravity#MizoguchiOhta98), [Fujii, Kemmoku & Mizoguchi 2000](D%3D5+supergravity#FujiiKemmokuMizoguchi00)).
 
 
 
@@ -132,5 +132,8 @@ Review:
 
 [[!redirects Lp-brane]]
 [[!redirects Lp-branes]]
+
+[[!redirects L1-brane]]
+[[!redirects L1-branes]]
 
 
