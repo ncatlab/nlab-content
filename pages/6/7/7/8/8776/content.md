@@ -347,6 +347,9 @@ Discussion of lifts of 4d [[black holes]] to 5d black holes and [[black rings]],
 
 * Alejandra Castro, Joshua L. Davis, [[Per Kraus]], Finn Larsen, _String Theory Effects on Five-Dimensional Black Hole Physics_, International Journal of Modern Physics A **23** 05, (2008) 613-691 &lbrack;[arXiv:0801.1863](http://arxiv.org/abs/0801.1863), [doi:10.1142/S0217751X08039724](https://doi.org/10.1142/S0217751X08039724)&rbrack;
 
+* Pierre Heidmann, Paolo Pani, [[Jorge E. Santos]]: *Asymptotically Flat Rotating Topological Stars* &lbrack;[arXiv:2510.05200](https://arxiv.org/abs/2510.05200)&rbrack;
+
+
 
 Review:
 
