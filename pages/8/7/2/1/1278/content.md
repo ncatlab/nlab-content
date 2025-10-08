@@ -473,7 +473,7 @@ Discussion in the generality of differential [[non-abelian cohomology]]:
 
 Another book-length overview:
 
-* {#AmabelDebrayHaine21} [[Araminta Amabel]], [[Arun Debray]], [[Peter J. Haine]] (eds.), _Differential Cohomology: Categories, Characteristic Classes, and Connections_. Based on [Fall 2019 talks at MIT's Juvitop seminar](https://math.mit.edu/juvitop/pastseminars/2019_Fall.html) by: A. Amabel, D. Chua, A. Debray, S. Devalapurkar, D. Freed, P. Haine, M. Hopkins, G. Parker, C. Reid, and A. Zhang. ([arXiv:2109.12250](https://arxiv.org/abs/2109.12250))
+* {#AmabelDebrayHaine21} [[Araminta Amabel]], [[Arun Debray]], [[Peter J. Haine]] (eds.): _Differential Cohomology: Categories, Characteristic Classes, and Connections_, based on [Fall 2019 talks at MIT's Juvitop seminar](https://math.mit.edu/juvitop/pastseminars/2019_Fall.html) by: A. Amabel, D. Chua, A. Debray, S. Devalapurkar, D. Freed, P. Haine, M. Hopkins, G. Parker, C. Reid, and A. Zhang. &lbrack;[arXiv:2109.12250](https://arxiv.org/abs/2109.12250)&rbrack;
 
 On differential cohomology in [[mathematical physics]]:
 
