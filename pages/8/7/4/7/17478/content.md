@@ -22,6 +22,36 @@ This Lie group is the analog of the [[unitary group]] as one passes from the [[c
 
 The quaternionic unitary group $Sp(n)$ is the group of quaternion-unitary transformations of $\mathbb{H}^n$.  It is also called the [[compact symplectic group]], since both it and the [[symplectic group]] $Sp(2n, \mathbb{R})$ are real forms of the complex Lie group $Sp(2n,\mathbb{C})$, and it is the compact form.  
 
+## Definition
+
+\begin{definition}
+$$
+  Sp(n) \equiv U(n,\mathbb{H})
+  \;\coloneqq\;
+  \Big\{
+    U \in Mat_{n \times n}(\mathbb{H})
+    \;\Big\vert\;
+    U \cdot U^\dagger = I_n
+  \Big\}
+$$
+\end{definition}
+
+(cf. [Zhang 1997, p. 28](#Zhang1997))
+
+\begin{remark}
+We have
+$$
+  \begin{array}{cl}
+    & U \cdot U^\dagger = I_n
+    \\
+    \Leftrightarrow
+    &
+    U^\dagger  \cdot U = I_n
+  \end{array}
+$$
+(cf. [Zhang 1997, Prop. 4.1](#Zhang1997))
+\end{remark}
+
 ## Properties
 
 ### Exceptional isomorphisms
@@ -44,10 +74,12 @@ The quaternionic unitary group $Sp(n)$ is the group of quaternion-unitary transf
 
 ## References
 
+* {#Zhang1997} [[Fuzhen Zhang]], p. 28 of: *Quaternions and matrices of quaternions*, Linear Algebra and its Applications **251** (1997) 21-57 \[<a href="https://doi.org/10.1016/0024-3795(95)00543-9">doi:10.1016/0024-3795(95)00543-9</a>\]
+
 * [[Howard Georgi]], §26 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
 
-
 * _Quaternionic groups_ ([pdf](http://www-math.mit.edu/~dav/quatcoordfree.pdf))
+
 
 
 
