@@ -105,6 +105,8 @@ Early review:
 
 Dedicated monographs:
 
+* {#Zhang1997} [[Fuzhen Zhang]]: *Quaternions and matrices of quaternions*, Linear Algebra and its Applications **251** (1997) 21-57 \[<a href="https://doi.org/10.1016/0024-3795(95)00543-9">doi:10.1016/0024-3795(95)00543-9</a>\]
+
 * [[Andrew J. Hanson]]: *Visualizing Quaternions*, Series in Interactive 3D Technology, Morgan Kaufman (2006) &lbrack;[ISBN:978-0-12-088400-1](https://shop.elsevier.com/books/visualizing-quaternions/cunningham/978-0-12-088400-1), [pdf](http://www.r-5.org/files/books/computers/algo-list/realtime-3d/Andrew_Hanson-Visualizing_Quaternions-EN.pdf)&rbrack;
 
 * [[Andrew J. Hanson]]: *Visualizing More Quaternions*, Morgan Kaufman (2024) &lbrack;[ISBN:978-0-323-99202-2](https://shop.elsevier.com/books/visualizing-more-quaternions/hanson/978-0-323-99202-2)&rbrack;
