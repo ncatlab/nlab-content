@@ -33,7 +33,7 @@ $$
   \mathrlap{\,,}
 $$
 
-where (cf. [Venâncio & Batista 2021 (2.4)](#VenâncioBatista21))
+namely (cf. [Venâncio & Batista 2021 (2.4)](#VenâncioBatista21))
 
 \[
   \label{QuaternonicDeterminant}
@@ -66,13 +66,13 @@ where (cf. [Venâncio & Batista 2021 (2.4)](#VenâncioBatista21))
       \;\text{if}\; d \neq 0
       \\
       \left\vert
-        b d b^{-1}  - b c
+        b d b^{-1} a  - b c
       \right\vert
       & 
       \;\text{if}\; b \neq 0
       \\
       \left\vert
-        c a c^{-1}  - c b
+        c a c^{-1} d - c b
       \right\vert
       &
       \;\text{if}\; c \neq 0
@@ -152,7 +152,7 @@ the formulas (eq:QuaternonicDeterminant) are furthermore equivalent to
       \right\vert
         \cdot
       \left\vert
-        d b^{-1}  - c
+        d b^{-1} a  - c
       \right\vert
       &
       \;\text{if}\; b \neq 0
@@ -162,7 +162,7 @@ the formulas (eq:QuaternonicDeterminant) are furthermore equivalent to
       \right\vert
         \cdot
       \left\vert
-        a c^{-1}  - b
+        a c^{-1} d - b
       \right\vert
       & 
       \;\text{if}\; c \neq 0
