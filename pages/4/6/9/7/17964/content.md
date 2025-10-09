@@ -156,21 +156,21 @@ In particular, every [[dg-module]] has a minimal KS-model (def. \ref{KSFactoriza
 
 
 
-* {#Roig92} [[Agustí Roig]], _Alguns punts d'&#224;lgebra homot&#242;pica_, Barcelona (1992)
+* {#Roig92} [[Agustí Roig]], _Alguns punts d'&#224;lgebra homot&#242;pica_, Barcelona (1992) &lbrack;[web](https://ddd.uab.cat/record/38587)&rbrack;
 
-* {#Roig93} [[Agustí Roig]], _Minimal resolutions and other minimal models_, Publicacions Matem&#224;tiques (1993) Volume: 37, Issue: 2, page 285-303 ([web](https://eudml.org/doc/41535))
+* {#Roig93} [[Agustí Roig]], _Minimal resolutions and other minimal models_, Publicacions Matem&#224;tiques **37** 2 (1993) 285-303 &lbrack;[eudml](https://eudml.org/doc/41535)&rbrack;
 
-* {#Roig94} [[Agustí Roig]], _Formalizability of dg modules and morphisms of cdg algebras_, Volume 38, Issue 3 (1994), 434-451 ([euclid](http://projecteuclid.org/euclid.ijm/1255986724))
+* {#Roig94} [[Agustí Roig]], _Formalizability of dg modules and morphisms of cdg algebras_, Illinois J. Math. **38** 3 (1994) 434-451 &lbrack;[doi:10.1215/ijm/1255986724](https://doi.org/10.1215/ijm/1255986724)&rbrack; 
 
 * [[Igor Kriz]], [[Peter May]], section IV.3 of _Operads, Algebras, Modules and Motives_, 1994 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
 
-* {#RoigSaralegiAranguren00} [[Agustí Roig]], [[Martintxo Saralegi-Aranguren]], _Minimal Models for Non-Free Circle Actions_, Illinois Journal of Mathematics, volume 44, number 4 (2000) ([arXiv:math/0004141](https://arxiv.org/abs/math/0004141))
+* {#RoigSaralegiAranguren00} [[Agustí Roig]], [[Martintxo Saralegi-Aranguren]], _Minimal Models for Non-Free Circle Actions_, Illinois J. Math. **44** 4 (2000) 784-820 &lbrack;[arXiv:math/0004141](https://arxiv.org/abs/math/0004141), [doi:10.1215/ijm/1255984692](https://doi.org/10.1215/ijm/1255984692)&rbrack;
 
 See also
 
-* {#Halperin83} [[Steve Halperin]], _Lectures on minimal models_, Mem. Soc. Math. Franc. no 9/10 (1983) ([web](https://eudml.org/doc/94833))
+* {#Halperin83} [[Steve Halperin]], _Lectures on minimal models_, Mem. Soc. Math. Franc. **9-10** (1983) 1-261 &lbrack;[eudml](https://eudml.org/doc/94833)&rbrack;
 
-* {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
+* {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pac. J. Math. **113** 1 (1984) 1–34 &lbrack;[doi:10.2140/pjm.1984.113.1](http://dx.doi.org/10.2140/pjm.1984.113.1)&rbrack;
 
 
 
