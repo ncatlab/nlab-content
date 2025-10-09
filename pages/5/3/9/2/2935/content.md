@@ -139,33 +139,33 @@ By the Chern-Simons form of the [[holographic principle]] one expects the Poisso
 
 The Poisson sigma model was first considered in 
 
-* [[Noriaki Ikeda]], _Two-dimensional gravity and nonlinear gauge theory_ , Ann.Phys.235(1994) 435- 464, [hep-th/9312059].
+* [[Noriaki Ikeda]], _Two-dimensional gravity and nonlinear gauge theory_ , Ann.Phys. **235** (1994) 435- 464 &lbrack;[hep-th/9312059](https://arxiv.org/abs/hep-th/9312059), [doi:10.1006/aphy.1994.1104](https://doi.org/10.1006/aphy.1994.1104)&rbrack;
 
 and later independently by P. Schaller, T. Strobl, motivated from an attempt to unify several two-dimensional models of [[gravity]] and to cast them into a common form with [[Yang-Mills theory|Yang-Mills theories]].
 
-* P. Schaller, T. Strobl, _Poisson structure induced (topological) field theories_, Modern Phys. Lett. A 9 (1994), no. 33, 3129--3136, [doi](http://dx.doi.org/10.1142/S0217732394002951); _Introduction to Poisson $\sigma$-models_,  Low-dimensional models in statistical physics and quantum field theory (Schladming, 1995),  321--333, Lecture Notes in Phys. __469__, Springer 1996.
+* P. Schaller, T. Strobl, _Poisson structure induced (topological) field theories_, Modern Phys. Lett. A **9** (1994), no. 33, 3129--3136 &lbrack;[doi:10.1142/S0217732394002951](http://dx.doi.org/10.1142/S0217732394002951)&rbrack;; _Introduction to Poisson $\sigma$-models_,  Low-dimensional models in statistical physics and quantum field theory (Schladming, 1995),  321--333, Lecture Notes in Phys. __469__, Springer 1996.
 
-* Thomas Strobl, _Gravity from Lie algebroid morphisms_, Comm. Math. Phys.  __246__  (2004),  no. 3, 475--502, _Algebroid Yang-Mills theories_,   Phys. Rev. Lett.  __93__  (2004),  no. 21, 211601, 4 pp. [doi](http://dx.doi.org/10.1103/PhysRevLett.93.211601)
+* Thomas Strobl, _Gravity from Lie algebroid morphisms_, Comm. Math. Phys.  __246__  (2004),  no. 3, 475--502, _Algebroid Yang-Mills theories_,   Phys. Rev. Lett.  __93__  (2004),  no. 21, 211601, 4 pp. &lbrack;[doi:10.1103/PhysRevLett.93.211601](http://dx.doi.org/10.1103/PhysRevLett.93.211601)&rbrack;
 
-* [[Martin Bojowald]], [[Alexei Kotov]], Thomas Strobl, _Lie algebroid morphisms, Poisson sigma models, and off-shell closed gauge symmetries_,  J. Geom. Phys.  __54__:4  (2005) 400--426, [doi](https://doi.org/10.1016/j.geomphys.2004.11.002)
+* [[Martin Bojowald]], [[Alexei Kotov]], Thomas Strobl, _Lie algebroid morphisms, Poisson sigma models, and off-shell closed gauge symmetries_,  J. Geom. Phys.  __54__:4  (2005) 400--426 &lbrack;[doi:10.1016/j.geomphys.2004.11.002](https://doi.org/10.1016/j.geomphys.2004.11.002)&rbrack;
 
-* Ctirad Klim&#269;&#237;k, T. Strobl, _WZW-Poisson manifolds_, J. Geom. Phys. __43__ (2002), no. 4, 341--344, <a href="http://dx.doi.org/10.1016/S0393-0440(02)00027-X">doi</a> 
+* Ctirad Klim&#269;&#237;k, T. Strobl, _WZW-Poisson manifolds_, J. Geom. Phys. __43__ (2002), no. 4, 341--344 &lbrack;<a href="http://dx.doi.org/10.1016/S0393-0440(02)00027-X">doi:10.1016/S0393-0440(02)00027-X</a>&rbrack;
 
 
 The detailed argument by Cattaneo and Felder on how [[Maxim Kontsevich]]'s formula for the [[deformation quantization]] star product is the 3-point function of the Poisson sigma-model is in
 
-* {#CattaneoFelder} [[Alberto Cattaneo]], [[Giovanni Felder]], _A path integral approach to the Kontsevich quantization formula_, Commun. Math. Phys. 212, 591--611 (2000) [doi](http://dx.doi.org/10.1007/s002200000229), [math.QA/9902090](http://arxiv.org/abs/math/9902090).
+* {#CattaneoFelder} [[Alberto Cattaneo]], [[Giovanni Felder]], _A path integral approach to the Kontsevich quantization formula_, Commun. Math. Phys. **212** (2000) 591--611 &lbrack;[doi:10.1007/s002200000229](http://dx.doi.org/10.1007/s002200000229), [math.QA/9902090](http://arxiv.org/abs/math/9902090)&rbrack;
  
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and deformation quantization_, Mod. Phys. Lett. A 16, 179--190 (2001) [hep-th/0102208](http://arxiv.org/abs/hep-th/0102208).
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and deformation quantization_, Mod. Phys. Lett. A **16** (2001) 179--190 &lbrack;[hep-th/0102208](http://arxiv.org/abs/hep-th/0102208), [doi:10.1142/S0217732301003255](https://doi.org/10.1142/S0217732301003255)&rbrack;
 
 
 See also
 
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_ , (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198, 61--93 (Birkh&#228;user, 2001)
-[math.SG/0003023](http://arxiv.org/abs/math/0003023).
+&lbrack;[math.SG/0003023](http://arxiv.org/abs/math/0003023)&rbrack;
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_, Lett. Math. Phys. 56, 163--179 (2001) [math.QA/0102108](http://arxiv.org/abs/math/0102108).
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_, Lett. Math. Phys. **56** (2001) 163--179 &lbrack;[math.QA/0102108](http://arxiv.org/abs/math/0102108), [doi:10.1023/A:1010963926853](https://doi.org/10.1023/A:1010963926853)&rbrack;
 
 The interpretation in terms of [[schreiber:infinity-Chern-Simons theory]] is discussed in
 
@@ -173,7 +173,7 @@ The interpretation in terms of [[schreiber:infinity-Chern-Simons theory]] is dis
 
 Discussion in terms of [[holography]] is in 
 
-* D. V. Vassilevich, _Holographic duals to Poisson sigma models_ ([arXiv:1301.7029](http://arxiv.org/abs/1301.7029))
+* D. V. Vassilevich, _Holographic duals to Poisson sigma models_, Phys.Rev.D **87** (2013) 104011 &lbrack;[arXiv:1301.7029](http://arxiv.org/abs/1301.7029), [doi:10.1103/PhysRevD.87.104011](https://doi.org/10.1103/PhysRevD.87.104011)&rbrack;
  {#Vassilevich}
 
 
@@ -183,14 +183,14 @@ Discussion in terms of [[holography]] is in
 
 The study of [[branes]] in the Poisson sigma-model has been started in 
 
-* Damien Calaque, [[Giovanni Felder]], Andrea Ferrario, Carlo A. Rossi, _Bimodules and branes in deformation quantization_ ([arXiv:0908.2299](http://arxiv.org/abs/0908.2299))
+* Damien Calaque, [[Giovanni Felder]], Andrea Ferrario, Carlo A. Rossi, _Bimodules and branes in deformation quantization_, Compos.Math. **147** (2011) 105-160 &lbrack;[arXiv:0908.2299](http://arxiv.org/abs/0908.2299), [doi:10.1112/S0010437X10004847](https://doi.org/10.1112/S0010437X10004847)&rbrack;
 
-* Damien Calaque, [[Giovanni Felder]], Carlo A. Rossi, _Deformation quantization with generators and relations_ ([arXiv:0911.4377](http://arxiv.org/abs/0911.4377))
+* Damien Calaque, [[Giovanni Felder]], Carlo A. Rossi, _Deformation quantization with generators and relations_, J. Algebra **337** (2011) 1-12 &lbrack;[arXiv:0911.4377](http://arxiv.org/abs/0911.4377), [doi:10.1016/j.jalgebra.2011.03.037](https://doi.org/10.1016/j.jalgebra.2011.03.037)&rbrack;
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _Coisotropic submanifolds in Poisson geometry and branes in the Poisson $\sigma$-model_, Lett.Math.Phys. 69 (2004) 157-175 ([arXiv:0309180](http://arxiv.org/abs/math/0309180))
+* [[Alberto Cattaneo]], [[Giovanni Felder]], _Coisotropic submanifolds in Poisson geometry and branes in the Poisson $\sigma$-model_, Lett.Math.Phys. **69** (2004) 157-175 &lbrack;[arXiv:0309180](http://arxiv.org/abs/math/0309180), [doi:10.1007/s11005-004-0609-7](https://doi.org/10.1007/s11005-004-0609-7)&rbrack;
  {#CattaneoFelder03}
 
-* Andrea Ferrario, _Poisson Sigma Model with branes and hyperelliptic Riemann surfaces_ ([arXiv:0709.0635](http://arxiv.org/abs/0709.0635))
+* Andrea Ferrario, _Poisson Sigma Model with branes and hyperelliptic Riemann surfaces_, J.Math.Phys. **49** (2008) 092301 &lbrack;[arXiv:0709.0635](http://arxiv.org/abs/0709.0635), [doi:10.1063/1.2982234](https://doi.org/10.1063/1.2982234)&rbrack;
 
 A review is in 
 
@@ -198,7 +198,7 @@ A review is in
 
 ### Further developments
 
-* Francesco Bonechi, [[Alberto Cattaneo]], [[Pavel Mnev]], _The Poisson sigma model on closed surfaces_ ([arXiv:1110.4850](http://arxiv.org/abs/1110.4850))
+* Francesco Bonechi, [[Alberto Cattaneo]], [[Pavel Mnev]], _The Poisson sigma model on closed surfaces_, JHEP **01** (2012) 099 &lbrack;[arXiv:1110.4850](http://arxiv.org/abs/1110.4850), <a href="https://doi.org/10.1007/JHEP01(2012)099">doi:10.1007/JHEP01(2012)099</a>&rbrack;
 
 * [[Thomas Basile]], [[Athanasios Chatzistavrakidis]], [[Sylvain Lavau]]: *Supersymmetric Poisson and Poisson-supersymmetric sigma models* &lbrack;[arXiv:2504.13114](https://arxiv.org/abs/2504.13114)&rbrack;
 
