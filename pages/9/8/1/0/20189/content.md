@@ -25,21 +25,22 @@ The [[spin group]] in [[dimension]] 5.
 ## Properties
 
 ### Exceptional isomorphism
+ {#ExceptionalIsomorphism}
 
-+-- {: .num_prop #ExceptionalIsoToSp2}
-###### Proposition
+\begin{proposition}
 
 There is an [[exceptional isomorphism]]
 
-$$
+\[
   Spin(5) 
   \;\simeq\;
   Sp(2)
-$$
+\]
 
 between [[Spin(5)]] and the [[quaternionic unitary group]] $Sp(2) = U(2,\mathbb{H})$.
 
-=--
+\end{proposition}
+\begin{proof}
 
 This is an indirect consequence of [[triality]], see e.g. [Čadek-Vanžura 97](#CadekVanzura97).  Alternatively, it can be shown as follows.
 
@@ -50,6 +51,28 @@ $J \in \Lambda^2 V$. The subgroup $\mathrm{Sp}(V)$ of $\mathrm{SU}(V)$ preservin
 preserving $J \in \Lambda^2 V = \Lambda_+^2 V \oplus \Lambda_-^2 V$.  Since $\mathrm{Sp}(V)$ is compact, every invariant subspace has an invariant complement, so one or both of the 6-dimensional subspaces $\Lambda_+^2 V$ and $\Lambda_-^2 V$ must have a 5-dimensional subspace invariant under the action of $\mathrm{Sp}(V)$.  This shows that the double cover $\rho: \mathrm{SU}(4) \to \mathrm{SO}(6)$ restricts to a 2-1 homomorphism $\sigma : \mathrm{Sp}(2) \to \mathrm{SO}(5)$.   Since
 $$   \dim(\mathrm{Sp}(2)) = 10 = \dim(\mathrm{SO}(5)) $$
 the differential $d\sigma$, being injective, must also be surjective.  Thus $\sigma : \mathrm{Sp}(2) \to \mathrm{SO}(5)$ is actually a double cover.  Since $\mathrm{Sp}(2)$ is connected this implies $\mathrm{Sp}(2) \cong \mathrm{Spin}(5)$.
+\end{proof}
+
+\begin{remark}\label{SubgroupOfSL2H}
+  There is hence a canonical [[subgroup]] inclusion into [[SL(2,H)]], equivalent to the subgroup inclusion into the [[Lorentz group|Lorentz]] [[spin group]] [[Spin(1,5)]]:
+
+\begin{tikzcd}
+  \mathrm{Spin}(5) 
+    \ar[r, hook] 
+    \ar[d, "\sim"{sloped}]
+  & 
+  \mathrm{Spin}(1,5)
+    \ar[d, "\sim"{sloped}]
+  \\
+  \mathrm{U}(2,\mathbb{H}) 
+    \ar[r, hook] 
+  & 
+  \mathrm{SL}(2,\mathbb{H})
+\end{tikzcd}
+
+See at *[[SL(2,H)]]*, the sections *[Unitary subgroup](SL2H#UnitarySubgroup)* and *[Relation to Spin(1,5)](SL2H#RelationToSpin51)*.
+\end{remark}
+
 
 ### Action on quaternionic Hopf fibration
 
@@ -227,6 +250,7 @@ linebreak
 * {#Pittie91} [[Harsh Pittie]], _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 (<a href="https://doi.org/10.1016/0022-4049(91)90108-E">doi:10.1016/0022-4049(91)90108-E</a>)
 
 * {#Kalkkinen06} [[Jussi Kalkkinen]], _Global Spinors and Orientable Five-Branes_, JHEP 0609: 028, 2006 ([arXiv:hep-th/0604081](https://arxiv.org/abs/hep-th/0604081))
+
 
 [[!redirects Sp(2)]]
 
