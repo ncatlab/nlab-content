@@ -78,6 +78,10 @@ $$
 
 * [[Howard Georgi]], §26 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
 
+* {#CohenDeLeo99} Nir Cohen, Stefano De Leo, Cor. 6.4 in: *The quaternionic determinant*, Electronic Journal of Linear Algebra **7** (2000) 100-111 &lbrack;[arXiv:math-ph/9907015](https://arxiv.org/abs/math-ph/9907015), [doi:10.13001/1081-3810.1050](https://doi.org/10.13001/1081-3810.1050), [eudml:121484](https://eudml.org/doc/121484)&rbrack;
+
+See also:
+
 * _Quaternionic groups_ ([pdf](http://www-math.mit.edu/~dav/quatcoordfree.pdf))
 
 
