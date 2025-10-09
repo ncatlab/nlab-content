@@ -88,17 +88,17 @@ Here
 
 \[
   \label{QuaternionNormSquare}
-  \left\vert q \right\vert^2 
+  \left\vert q \right\vert 
     \;\coloneqq\; 
-  q q^\ast 
+  \textstyle{\sqrt{q q^\ast}}
    \;\in \mathbb{R}
 \] 
 
-is the [[norm]]-square on [[quaternions]]. 
+is the standard [[norm]] on [[quaternions]]. 
 
 
 \begin{remark}
-Since the norm square (eq:QuaternionNormSquare) evidently satisfies
+Since the norm (eq:QuaternionNormSquare) evidently satisfies
 
 $$
   \left\vert q q'\right\vert
@@ -277,7 +277,7 @@ This [[exceptional isomorphism]] is compatible with that between the [[subgroups
 
 ## References
 
-* {#CohenDeLeo99} Nir Cohen, Stefano De Leo, Cor. 6.4 in: *The quaternionic determinant*, Electronic Journal of Linear Algebra **7** (2000) 100-111 &lbrack;[arXiv:math-ph/9907015](https://arxiv.org/abs/math-ph/9907015), [eudml:121484](https://eudml.org/doc/121484)&rbrack;
+* {#CohenDeLeo99} Nir Cohen, Stefano De Leo, Cor. 6.4 in: *The quaternionic determinant*, Electronic Journal of Linear Algebra **7** (2000) 100-111 &lbrack;[arXiv:math-ph/9907015](https://arxiv.org/abs/math-ph/9907015), [doi:10.13001/1081-3810.1050](https://doi.org/10.13001/1081-3810.1050), [eudml:121484](https://eudml.org/doc/121484)&rbrack;
 
 * {#VenâncioBatista21} [[Joás Venâncio]], [[Carlos Batista]], Sections 2,3 of: _Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes_, Adv. Appl. Clifford Algebras **31** 71 (2021) &lbrack;[arXiv:2007.04296](https://arxiv.org/abs/2007.04296), [doi:10.1007/s00006-021-01172-1](https://doi.org/10.1007/s00006-021-01172-1)&rbrack;
 
