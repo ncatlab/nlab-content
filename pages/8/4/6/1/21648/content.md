@@ -23,20 +23,13 @@ By $SL(2,\mathbb{H})$ one denotes the [[special linear group]] of $2 \times 2$ [
 $$
   SL(2,\mathbb{H})
   \;\coloneqq\;
-  \left\{\left.
-     A \coloneqq
-     \left[
-       \array{
-         a & b 
-         \\
-         c & d 
-       }
-     \right]
+  \Big\{\left.
+     A 
+       \in
+     Mat_{2 \times 2}(\mathbb{H})
      \;\right\vert\;
-     a,b,c,d \in \mathbb{H}
-     ,\;
      det_D(A) = 1
-  \right\}
+  \Big\}
   \mathrlap{\,,}
 $$
 
@@ -45,13 +38,11 @@ where (cf. [Venâncio & Batista 2021 (2.4)](#VenâncioBatista21))
 \[
   \label{QuaternonicDeterminant}
     det_D\left(
-      \left[
         \array{
           a & b 
           \\
           c & d 
         }
-      \right]
     \right)
     \;
     =
@@ -123,13 +114,11 @@ the formulas (eq:QuaternonicDeterminant) are furthermore equivalent to
 \[
   \label{QuaternonicDeterminantFactored}
     det_D\left(
-      \left[
         \array{
           a & b 
           \\
           c & d 
         }
-      \right]
     \right)
     \;=\;
     \left\{
