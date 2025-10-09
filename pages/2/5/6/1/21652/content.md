@@ -124,13 +124,18 @@ where $\mathrm{M}_n(\mathbb{H})$ is now the full [[matrix algebra]] of $n \times
 
 \[
   \label{QuaternionicDieudonneIsMonoidHomomorphism}
+  \begin{aligned}
   det_{D}(S T) 
-    \,=\,
+    & =
   det_{D}(S) 
+  \cdot
   det_{D}(T), 
-   \qquad 
-  det_{D}(1) = 1 
-  \,.
+  \\
+  det_{D}(1) 
+    & 
+  = 1 
+  \mathrlap{\,.}
+  \end{aligned}
 \]
 
 ## Variants
@@ -168,8 +173,14 @@ This determinant turns out not to depend on the choice of $i \in \mathbb{H}$ wit
 
 It clearly obeys
 
-$$  det_S(S T) = det_S(S) det_S(T), \qquad det_S(1) = 1 
-  \,.
+$$
+  \begin{aligned}  
+    det_S(S T) 
+      & = det_S(S) \cdot det_S(T), 
+    \\
+    det_S(1) &= 1 
+    \mathrlap{\,.}
+  \end{aligned}
 $$
 
 *A priori* it is complex-valued, but in fact it takes nonnegative real values, because one can show ([Arlaksen 96](#Arlaksen96)) that
