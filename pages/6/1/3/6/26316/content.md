@@ -9,7 +9,11 @@ Class $\mathcal{S}$ (for "six") originally denoted a specific class of $N=2$ 4d 
 
 By further compactifications, one relates theories of this class with certain [[superconformal symmetry|superconformal]] field theories in  dimension $2$ (or, in other formalism, [[chiral algebras]]) which are now also said to be of class $S$ (see at [[AGT correspondence]]).
 
+For more see *[[D=6 N=(2,0) SCFT]]*.
+
 ## References
+
+> See also the references at *[[D=6 N=(2,0) SCFT]]*.
 
 Original articles
 
