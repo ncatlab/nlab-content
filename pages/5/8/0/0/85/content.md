@@ -834,6 +834,8 @@ On [[(infinity,1)-colimits|$\infty$-colimits]] and [[Day convolution]] in the co
 
 * [[Vladimir Hinich]], *Colimits in enriched ∞-categories and Day convolution*, Theory and Applications of Categories **39** 12 (2023) 365-422 &lbrack;[tac:39-12](http://www.tac.mta.ca/tac/volumes/39/12/39-12abs.html), [arXiv:2101.09538](https://arxiv.org/abs/2101.09538)&rbrack;
 
+* Christoph Winges, _Hinich's model for Day convolution revisited_, [arXiv:2506.06025](https://arxiv.org/abs/2506.06025) (2025).
+
 Various generalisations are discussed in:
 
 * [[Brian Day]] and [[Ross Street]], _Lax monoids, pseudo-operads, and convolution_, Contemporary Mathematics 318 (2003): 75-96.
