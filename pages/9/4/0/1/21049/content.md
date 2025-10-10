@@ -35,7 +35,7 @@ A [[topological twist]] of [[supergravity]].
 
 * [[Kevin Costello]], [[Si Li]], _Twisted supergravity and its quantization_ &lbrack;[arXiv:1606.00365](https://arxiv.org/abs/1606.00365), [spire:1466640](http://inspirehep.net/record/1466640)&rbrack;
 
-* Jay Cushing, [[Gregory W. Moore]], [[Martin Rocek]], Vivek Saxena: *Superconformal Gravity And The Topology Of Diffeomorphism Groups* &lbrack;[arXiv:2311.08394](https://arxiv.org/abs/2311.08394), [spire:2722361](https://inspirehep.net/literature/2722361)&rbrack;
+* Jay Cushing, [[Gregory W. Moore]], [[Martin Rocek]], [[Vivek Saxena]]: *Superconformal Gravity And The Topology Of Diffeomorphism Groups* &lbrack;[arXiv:2311.08394](https://arxiv.org/abs/2311.08394), [spire:2722361](https://inspirehep.net/literature/2722361)&rbrack;
 
 On twisted [[D=11 supergravity]]:
 
