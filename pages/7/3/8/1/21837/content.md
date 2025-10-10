@@ -135,7 +135,7 @@ See also:
 
 * [[Theo Johnson-Freyd]], [[Mayuko Yamashita]], *On the 576-fold periodicity of the spectrum SQFT: The proof of the lower bound via the Anderson duality pairing* \[<a href="https://arxiv.org/abs/2404.06333">arXiv:2404.06333</a>\]
 
-* Vivek Saxena, *A T-Duality of Non-Supersymmetric Heterotic Strings and an implication for Topological Modular Forms* \[<a href="https://arxiv.org/abs/2405.19409">arXiv:2405.19409</a>\]
+* [[Vivek Saxena]]: *A T-Duality of Non-Supersymmetric Heterotic Strings and an implication for Topological Modular Forms* \[<a href="https://arxiv.org/abs/2405.19409">arXiv:2405.19409</a>\]
 
 
 
