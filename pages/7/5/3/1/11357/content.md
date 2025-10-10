@@ -59,8 +59,12 @@ On conformal twists of [[SCFT|super-conformal field theories]]:
 * [[Chris Elliott]], [[Owen Gwilliam]], Matteo Lotito. *Twists of superconformal algebras* (2024). &lbrack;[arXiv:2403.19753](https://arxiv.org/abs/2403.19753)&rbrack;
 
 
+On a general approach to [[topological twist|topological twisting]] [[D=4 N=2 super Yang-Mills theory|$D=4$ $N=2$ SYM theories]] based on a notion of transfer of [[structure group]], and proposals for twisting [[non-Lagrangian field theory|non-Lagrangian theories]] (such as theories of [[class S field theory|Class S]]):
+
+* [[Gregory W. Moore]], [[Vivek Saxena]], [[Ranveer Kumar Singh]]: *Topological Twisting of 4d $N=2$ Supersymmetric Field Theories* &lbrack;[arXiv:2411.14396](https://arxiv.org/abs/2411.14396)&rbrack;
+
+
 [[!redirects topological twists]]
 
-On a general approach to twisting D=4 N=2 theories based on the notion of transfer of structure group, and proposals for twisting non-Lagrangian theories (such as theories of Class S):
 
-* [[Gregory W. Moore]], [[Vivek Saxena]], [[Ranveer Kumar Singh]], *Topological Twisting of 4d N=2 Supersymmetric Field Theories* (2024). &lbrack;[arXiv:2411.14396](https://arxiv.org/abs/2411.14396)&rbrack;
+
