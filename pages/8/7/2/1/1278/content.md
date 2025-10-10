@@ -483,6 +483,10 @@ On differential cohomology in terms of [[diffeological spaces]]:
 
 * Nino Scalbi, _Differential Cohomology as Diffeological Homotopy Theory_ &lbrack;[arXiv:2408.02593](https://arxiv.org/abs/2408.02593)&rbrack;
 
+On differential cohomology in relation to [[topological field theory]]:
+
+* [[Gregory W. Moore]], [[Vivek Saxena]]: *TASI Lectures On Topological Field Theories And Differential Cohomology*, [TASI 2023](https://sites.google.com/colorado.edu/tasi-2023-wiki/home) lecture notes &lbrack;[arXiv:2510.07408](https://arxiv.org/abs/2510.07408)&rbrack;
+
 
 
 ### Lectures and talks 
