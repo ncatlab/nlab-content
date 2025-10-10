@@ -93,7 +93,7 @@ See also the references at *[[fiber bundles in physics]]*.
 
 The original argument for charge quantization of the [[electromagnetic field]]:
 
-* {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society A **133** (1931) 60-72 &lbrack;[doi:10.1098/rspa.1931.0130](https://doi.org/10.1098/rspa.1931.0130)&rbrack;
+* {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society A **133** 821 (1931) 60-72 &lbrack;[doi:10.1098/rspa.1931.0130](https://doi.org/10.1098/rspa.1931.0130)&rbrack;
 
 Further early discussion
 
