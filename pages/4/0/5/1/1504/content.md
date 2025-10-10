@@ -582,7 +582,7 @@ See also
 
 * Corinne de Lacroix, Harold Erbin, Sitender Pratap Kashyap, [[Ashoke Sen]], Mritunjay Verma, _Closed Superstring Field Theory and its Applications_,  International Journal of Modern Physics AVol. 32, No. 28n29, 1730021 (2017) ([arXiv:1703.06410](https://arxiv.org/abs/1703.06410))
 
-* Ranveer Kumar Singh, *Algebraic Structures In Closed Superstring Field Theory, Homotopy Transfer And Effective Actions* &lbrack;[arXiv:2405.08063](https://arxiv.org/abs/2405.08063)&rbrack;
+* [[Ranveer Kumar Singh]]: *Algebraic Structures In Closed Superstring Field Theory, Homotopy Transfer And Effective Actions* &lbrack;[arXiv:2405.08063](https://arxiv.org/abs/2405.08063)&rbrack;
 
 
 
