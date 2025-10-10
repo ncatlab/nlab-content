@@ -110,6 +110,14 @@ On the [[10-fold way]]:
 
 * {#GeikoMoore21} Roman Geiko, [[Gregory W. Moore]]: _Dyson’s classification and real division superalgebras_, Journal of High Energy Physics **2021** 4 (2021) 299 &lbrack;[doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)&rbrack;
 
+On a general approach to [[topological twist|topological twisting]] [[D=4 N=2 super Yang-Mills theory|$D=4$ $N=2$ SYM theories]] based on a notion of transfer of [[structure group]], and proposals for twisting [[non-Lagrangian field theory|non-Lagrangian theories]] (such as theories of [[class S field theory|Class S]]):
+
+* [[Gregory W. Moore]], [[Vivek Saxena]], [[Ranveer Kumar Singh]]: *Topological Twisting of 4d $N=2$ Supersymmetric Field Theories* &lbrack;[arXiv:2411.14396](https://arxiv.org/abs/2411.14396)&rbrack;
+
+On [[topological quantum field theory]] and [[differential cohomology]]:
+
+* [[Gregory W. Moore]], [[Vivek Saxena]]: *TASI Lectures On Topological Field Theories And Differential Cohomology*, [TASI 2023](https://sites.google.com/colorado.edu/tasi-2023-wiki/home) lecture notes &lbrack;[arXiv:2510.07408](https://arxiv.org/abs/2510.07408)&rbrack;
+
 
 
 ## Related entries
