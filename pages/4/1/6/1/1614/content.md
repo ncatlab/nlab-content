@@ -99,6 +99,11 @@ Discussion of [[action functionals]] for [[topological field theories]] via [[eq
 
 * Joe Davighi, Ben Gripaios, [[Oscar Randal-Williams]], _Differential cohomology and topological actions in physics_ ([arXiv:2011.05768](https://arxiv.org/abs/2011.05768))
 
+Discussion relating to [[differential cohomology]]:
+
+* [[Gregory W. Moore]], [[Vivek Saxena]]: *TASI Lectures On Topological Field Theories And Differential Cohomology*, [TASI 2023](https://sites.google.com/colorado.edu/tasi-2023-wiki/home) lecture notes &lbrack;[arXiv:2510.07408](https://arxiv.org/abs/2510.07408)&rbrack;
+
+
 
 ### Origin in physics
  {#OriginInPhysics}
