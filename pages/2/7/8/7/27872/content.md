@@ -24,7 +24,7 @@ Principal U(1)-bundles appear in multiple areas of mathematics, for example the 
 
 ## Classification
 
-Principal U(1)-bundles are classified by the [[classifying space]] [[BU(1)]] of the first [[unitary group]] $U(1)$, which is the infinite [[complex projective space]] $\mathbb{C}P^\infty$. ($EU(1)\cong ESO(2)$ is then the [[infinite-dimensional sphere]] $S^\infty$.) For a [[topological space]] $X$, one has a [[bijection]]:
+Principal U(1)-bundles are classified by the [[classifying space]] [[BU(1)]] of the first [[unitary group]] $U(1)$, which is the infinite [[complex projective space]] $\mathbb{C}P^\infty$. ($EU(1)\cong ESO(2)$ is then the [[infinite-dimensional sphere]] $S^\infty$.) For a [[CW complex]] $X$, one has a [[bijection]]:
 $$
 [X,BU(1)]
 \cong[X,\mathbb{C}P^\infty]
@@ -32,12 +32,15 @@ $$
 [f]\mapsto f^*EU(1)
 \cong f^*S^\infty
 $$
-Since $U(1)$ is the [[Eilenberg-MacLane space]] $K(\mathbb{Z},1)$, one has that $BU(1)$ is $K(\mathbb{Z},2)$. Due to this, one can consider the [[identity]] $c_1\colon BU(1)\rightarrow K(\mathbb{Z},2)$, which is exactly the first [[Chern class]] and an [[isomorphism]]. Postcomposition then creates a [[bijection]] to [[singular cohomology]]:
+
+([Mitchell 11, Theorem 7.4](#Mitchell11))
+
+Since $U(1)$ is the [[Eilenberg-MacLane space]] $K(\mathbb{Z},1)$, one has that $BU(1)$ is $K(\mathbb{Z},2)$. ([Hatcher 01, Example 4.50.](#Hatcher01)) Due to this, one can consider the [[identity]] $c_1\colon BU(1)\rightarrow K(\mathbb{Z},2)$, which is exactly the first [[Chern class]] and an [[isomorphism]]. ([Hatcher 17, Theorem 3.10.](#Hatcher)) Postcomposition then creates a [[bijection]] to [[singular cohomology]]:
 $$
 c_1\colon
 Prin_{U(1)}(X)\cong[X,BU(1)]\xrightarrow\cong [X,K(\mathbb{Z},2)]\cong H^2(X,\mathbb{Z})
 $$
-$\mathbb{C}P^\infty$ is a [[CW complex]], whose $n$-skeleton is $\mathbb{C}P^k$ with the largest natural $k\in\mathbb{N}$ fulfilling $2k\leq n$. For an $n$-dimensional [[CW complex]] $X$, the [[cellular approximation theorem]] states that every [[homotopy]] $X\rightarrow\mathbb{H}P^\infty$ is homotopic to a cellular map, which in particular factorizes over the canonical inclusion $\mathbb{C}P^k\hookrightarrow\mathbb{C}P^\infty$. As a result, the postcomposition $[X,\mathbb{C}P^k]\rightarrow[X,\mathbb{C}P^\infty]$ is [[surjective]]. In particular for $X$ having no more than three dimension, one has $k=1$ with $\mathbb{C}P^1\cong S^2$. Hence there is a connection to [[cohomotopy]]:
+$\mathbb{C}P^\infty$ is a [[CW complex]], whose $n$-skeleton is $\mathbb{C}P^k$ with the largest natural $k\in\mathbb{N}$ fulfilling $2k\leq n$. For an $n$-dimensional [[CW complex]] $X$, the [[cellular approximation theorem]] ([Hatcher 01, Theorem 4.8.](#Hatcher01)) states that every [[homotopy]] $X\rightarrow\mathbb{H}P^\infty$ is homotopic to a cellular map, which in particular factorizes over the canonical inclusion $\mathbb{C}P^k\hookrightarrow\mathbb{C}P^\infty$. As a result, the postcomposition $[X,\mathbb{C}P^k]\rightarrow[X,\mathbb{C}P^\infty]$ is [[surjective]]. In particular for $X$ having no more than three dimension, one has $k=1$ with $\mathbb{C}P^1\cong S^2$. Hence there is a connection to [[cohomotopy]]:
 $$
 \pi^2(X)\rightarrow Prin_{U(1)}(X) 
 $$
@@ -60,6 +63,7 @@ $$
 \cong\pi_2U(1)
 \cong 1.
 $$
+([Mitchell 11, Corollary 11.2.](#Mitchell11))
 Hence the principal bundle is trivial, which fits $SU(2)\cong S^3$ and $U(n)\cong\SU(n)\times U(1)$.
 * One has $S^n\cong SO(n+1)/SO(n)$, hence there is a principal SO(2)-bundle $SO(3)\twoheadrightarrow S^2$. Such [[principal bundles]] are classified by:
 $$
@@ -68,6 +72,7 @@ $$
 \cong\pi_1S^1
 \cong\mathbb{Z}.
 $$
+([Mitchell 11, Corollary 11.2.](#Mitchell11))
 
 ## Related entries
 
@@ -77,6 +82,7 @@ $$
 
 * {#FreedUhlenbeck91}  [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
 * {#Hatcher02} [[Allen Hatcher]]: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
+* {#Mitchell11} [[Stephen A. Mitchell]], _Notes on principal bundles_ (2011), Lecture Notes. University of Washington, 2011 ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf), [[MitchellPrincipalBundles.pdf:file]])
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
 See also:
