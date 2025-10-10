@@ -40,7 +40,7 @@ In the [[stack semantics]] of $E$, a locally internal category "looks like" an o
 
 Locally internal categories can also be identified with [[Grothendieck fibrations]] or [[indexed categories]] over $E$ which satisfy a certain "representability" or "comprehensibility" condition:
 
-A Grothendieck fibration $p: C \to E$ is called __locally small__ if, for every pair $A,B \in C$, there exists an object of $E_{pA \times pB}$,  $(x,y) : I \to pA \times pB$, and a morphism $f: x^*A \to y^*B \in C_I$, which is __terminal__, in the sense that given another such datum $(J,z,w,g)$, there is a unique map $u: J \to I$ so that $x u = z, y u = w$, and the coherence isomorphisms identify $u^*f$ with $g$. (This is [Elephant](#Elephant) B.1.3.12).
+A Grothendieck fibration $p: C \to E$ is called **locally small** if, for every pair $A,B \in C$, there exists an object of $E_{pA \times pB}$,  $(x,y) : I \to pA \times pB$, and a morphism $f: x^*A \to y^*B \in C_I$, which is __terminal__, in the sense that given another such datum $(J,z,w,g)$, there is a unique map $u: J \to I$ so that $x u = z, y u = w$, and the coherence isomorphisms identify $u^*f$ with $g$. (This is [Elephant](#Elephant) B.1.3.12).
 
 An indexed category $E \to \operatorname{CAT}$ is called locally small if the associated fibration is locally small.
 
@@ -73,3 +73,5 @@ If we also take care of the appropriate morphisms have the following:
 * {#BettiWalters1985} [[Renato Betti]], [[Robert F. C. Walters]], *Closed bicategories and variable category theory*, Universita degli Studi di Milano (1985), reprinted in: Reprints in Theory and Applications of Categories, **26** (2020) 1-27 $[$[tac:tr26](http://www.tac.mta.ca/tac/reprints/articles/26/tr26abs.html)$]$
 
 [[!redirects locally internal categories]]
+[[!redirects locally small fibration]]
+[[!redirects locally small fibrations]]
