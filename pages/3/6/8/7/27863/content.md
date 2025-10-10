@@ -18,11 +18,11 @@
 
 ## Idea
 
-The _Seiberg-Witten equations_ are [[partial differential equations]] for connections of [[principal U(1)-bundles]] and smooth sections of their spinor bundles. Their [[moduli space]] is used to define the [[Seiberg-Witten invariants]] capable to study smooth structures on [[4-manifolds]]. Since the [[gauge group]] of the Seiberg-Witten equations is abelian, many calculations could be simplified with new methods provided by them.
+The _Seiberg-Witten equations_ are [[partial differential equations]] for connections of [[principal U(1)-bundles]] and smooth sections of their spinor bundles. Their [[moduli space]] is used to define the [[Seiberg-Witten invariants]] capable to study smooth structures on [[4-manifolds]]. Since the [[gauge group]] of the Seiberg-Witten equations is abelian, calculations from [[Donaldson theory]] could be simplified with new methods provided by the Seiberg-Witten invariants.
 
 ## Basics
 
-Let $M$ be a [[compact]] [[orientable]] [[Riemannian manifold|Riemannian]] [[4-manifold]] with a [[Riemannian metric]] $g$ and [[spinᶜ structure]] $\mathfrak{s}$. Both always exist. In particular the latter is a lift of the [[classifying map]] $\tau\colon M\rightarrow BSO(4)$ of the [[tangent bundle]] $TM\cong\tau^*\gamma_\mathbb{R}^4$ to a map $\mathfrak{s}\colon M\rightarrow BSpin^\mathrm{c}(4)$. Because of the [[exceptional isomorphism]]:
+Let $M$ be a [[compact]] [[orientable]] [[Riemannian manifold|Riemannian]] [[4-manifold]] with a [[Riemannian metric]] $g$ and [[spinᶜ structure]] $\mathfrak{s}$. Both always exist. In particular the latter is a lift of the [[classifying map]] $\tau\colon M\rightarrow BSO(4)$ of the [[tangent bundle]] $TM\cong\tau^*\gamma_\mathbb{R}^4$ to a map $\mathfrak{s}\colon M\rightarrow BSpin^\mathrm{c}(4)$. Because of the [[exceptional isomorphism]]: ([Perutz 2002, p. 2](#Perutz02))
 $$
 Spin^\mathrm{c}(4)
 \cong U(2)\times_{U(1)}U(2)
@@ -64,17 +64,22 @@ F_A^+
 +\eta
 =0.
 $$
+
+([Nicolaescu 2000, Definition 2.1.3.](#Nicolaescu00))
+
 Considering the undisturbed Seiberg-Witten equations with a vanishing spinor field $\phi=0$ yields the anti self-dual [[Yang-Mills equations]] (ASDYM equations) $F_A^+=0$.
 
 ## References
 
 * {#Nicolaescu00} [[Liviu Nicolaescu]], *Notes on Seiberg-Witten theory*, American Mathematical Society (2000) &lbrack;[ISBN:978-0-8218-2145-9](https://bookstore.ams.org/GSM/28), [pdf](https://www3.nd.edu/~lnicolae/new1.pdf)&rbrack;
 
-* Jürgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
+* {#Perutz02} Tim Perutz, _Basics of Seiberg-Witten theory_ (May 2002), &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/geometry/junior-geometry-seminar/Seiberg-Witten-theory.pdf)&rbrack;
 
-* [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
+* {#EinhornFriedrich} Jürgen Einhorn, Thomas Friedrich, _Seiberg-Witten theory_ ([pdf](http://matwbn.icm.edu.pl/ksiazki/bcp/bcp39/bcp3925.pdf))
 
-* [[Matilde Marcolli]], _Seiberg-Witten gauge theory_, [pdf](http://www.its.caltech.edu/~matilde/swcosi.pdf)
+* {#Donaldson} [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ ([pdf](http://www.ams.org/journals/bull/1996-33-01/S0273-0979-96-00625-8/S0273-0979-96-00625-8.pdf))
+
+* {#Marcolli} [[Matilde Marcolli]], _Seiberg-Witten gauge theory_, [pdf](http://www.its.caltech.edu/~matilde/swcosi.pdf)
 
 See also:
 
