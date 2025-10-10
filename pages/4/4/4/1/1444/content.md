@@ -31,9 +31,6 @@ A pair of groups $(H,K)$ is said to be matched if there exists a left action $\a
 * $\alpha(k,1) = 1$,
 * $\beta(1,h) = 1$.
 
-+-- {: .query}
-Need to define the bicrossed product of algebras.
-=--
 
 ## Properties
 
