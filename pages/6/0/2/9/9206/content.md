@@ -133,9 +133,9 @@ Relation to the [[D=6 N=(2,0) SCFT]] via [[KK-compactification]] on a [[circle]]
 
 From [[M-theory on Calabi-Yau 3-folds]]:
 
-* {#CDS18} Cyril Closset, Michele Del Zotto, Vivek Saxena, _Five-dimensional SCFTs and gauge theory phases: an M-theory/type IIA perspective_ ([arXiv:1812.10451](https://arxiv.org/abs/1812.10451))
+* {#CDS18} Cyril Closset, [[Michele Del Zotto]], [[Vivek Saxena]]: _Five-dimensional SCFTs and gauge theory phases: an M-theory/type IIA perspective_, SciPost Phys. **6** 052 (2019) &lbrack;[arXiv:1812.10451](https://arxiv.org/abs/1812.10451), [doi:10.21468/SciPostPhys.6.5.052](https://doi.org/10.21468/SciPostPhys.6.5.052)&rbrack;
 
-* Vivek Saxena, _Rank-two 5d SCFTs from M-theory at isolated toric singularities: a systematic study_, High Energ. Phys. 2020, 198 (2020)  ([arXiv:1911.09574](https://arxiv.org/abs/1911.09574))
+* [[Vivek Saxena]]: *Rank-two 5d SCFTs from M-theory at isolated toric singularities: a systematic study*, High Energ. Phys. **2020** 198 (2020)  &lbrack;[arXiv:1911.09574](https://arxiv.org/abs/1911.09574)<a href="https://doi.org/10.1007/JHEP04(2020)198">doi:10.1007/JHEP04(2020)198</a>&rbrack;
 
 
 
