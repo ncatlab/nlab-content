@@ -25,7 +25,8 @@ Beware that this group is also called the *[[compact symplectic group]]*, since 
 ## Definition
 
 \begin{definition}
-$$
+\[
+  \label{TheDefinition}
   Sp(n) \equiv U(n,\mathbb{H})
   \;\coloneqq\;
   \Big\{
@@ -33,23 +34,23 @@ $$
     \;\Big\vert\;
     U \cdot U^\dagger = I_n
   \Big\}
-$$
+\]
 \end{definition}
 
 (cf. [Zhang 1997, p. 28](#Zhang1997))
 
 \begin{remark}
-We have
+The condition in (eq:TheDefinition) is indeed sufficient, since for $B \in Mat_{n \times n}(\mathbb{H})$ we have
 $$
   \begin{array}{cl}
-    & U \cdot U^\dagger = I_n
+    & B \cdot B^\dagger = I_n
     \\
     \Leftrightarrow
     &
-    U^\dagger  \cdot U = I_n
+    B^\dagger \cdot B = I_n
   \end{array}
 $$
-(cf. [Zhang 1997, Prop. 4.1](#Zhang1997))
+(cf. [Zhang 1997, Prop. 4.1](#Zhang1997)).
 \end{remark}
 
 ## Properties
