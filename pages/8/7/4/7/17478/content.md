@@ -18,9 +18,9 @@
 
 ## Idea
 
-This Lie group is the analog of the [[unitary group]] as one passes from the [[complex numbers]] to the [[quaternions]].
+The *quaternion unitary group*, often  denoted $Sp(n)$ in the math literature (rarely but alternatively: $\mathrm{U}(n, \mathbb{H})$, is a [[Lie group]] which is the analog of the [[unitary group]] as one passes from the [[complex numbers]] to the [[quaternions]], hence it is the group of quaternion-[[unitary transformations]] of the [[quaternionic vector space]] $\mathbb{H}^n$.  
 
-The quaternionic unitary group $Sp(n)$ is the group of quaternion-unitary transformations of $\mathbb{H}^n$.  It is also called the [[compact symplectic group]], since both it and the [[symplectic group]] $Sp(2n, \mathbb{R})$ are real forms of the complex Lie group $Sp(2n,\mathbb{C})$, and it is the compact form.  
+Beware that this group is also called the *[[compact symplectic group]]*, since both it and the [[symplectic group]] $Sp(2n, \mathbb{R})$ are [[real forms]] of the [[complex Lie group]] $Sp(2n,\mathbb{C})$, but $Sp(n)$ is the compact form.  
 
 ## Definition
 
