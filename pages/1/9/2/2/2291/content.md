@@ -86,6 +86,10 @@ The [[product]] of any [[space]] $X$ with the [[moduli stack]] $Pic_X$ of line b
 
 ## Related concepts
 
+* [[principal U(1)-bundles]] [[associated fiber bundle|associated]] to complex line bundles
+
+* [[principal SU(2)-bundles]] associated to quaternionic line bundles
+
 * [[complex vector space]]
 
   * [[complex line]]
