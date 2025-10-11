@@ -14,8 +14,7 @@
 
 On [[string theory]]:
 
-* {#Tong09} [[David Tong]], _Lectures on String Theory_ ([arXiv:0908.0333](https://arxiv.org/abs/0908.0333))
-
+* [[David Tong]]: *Lectures on String Theory* &lbrack;[arxiv:0908.0333](https://arxiv.org/abs/0908.0333), [webpage](https://www.damtp.cam.ac.uk/user/tong/string.html)&rbrack;
 
 Identification of the [[Coulomb branch]] of [[D=3 N=4 super Yang-Mills theory]] with the [[moduli space of monopoles]] in [[Yang-Mills theory]]:
 
