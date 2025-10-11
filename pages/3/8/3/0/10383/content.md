@@ -157,6 +157,8 @@ And so on and so forth. In short: all global structure in [[field theory]] is co
  
 ## Related concepts
 
+* [[principal U(1)-bundle]], [[principal SU(2)-bundle]]
+
 * [[Aharonov-Bohm effect]]
 
 * [[geometry of physics]]
