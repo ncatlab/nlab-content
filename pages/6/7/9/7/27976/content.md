@@ -30,7 +30,7 @@ On [[topologically twisted D=4 super Yang-Mills theory]] and [[topologically twi
 * Jay Cushing, [[Gregory W. Moore]], [[Martin Rocek]], [[Vivek Saxena]]: *Superconformal Gravity And The Topology Of Diffeomorphism Groups* &lbrack;[arXiv:2311.08394](https://arxiv.org/abs/2311.08394), [spire:2722361](https://inspirehep.net/literature/2722361)&rbrack;
 
 
-On [[topological quantum field theory]] and [[differential cohomology]]:
+On [[topological quantum field theory]] and [[differential cohomology]] with applications such as to [[shifted C-field flux quantization]]:
 
 * [[Gregory W. Moore]], [[Vivek Saxena]]: *TASI Lectures On Topological Field Theories And Differential Cohomology*, [TASI 2023](https://sites.google.com/colorado.edu/tasi-2023-wiki/home) lecture notes &lbrack;[arXiv:2510.07408](https://arxiv.org/abs/2510.07408)&rbrack;
 
