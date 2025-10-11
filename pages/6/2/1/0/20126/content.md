@@ -1,5 +1,15 @@
 
-* [webpage](http://www.damtp.cam.ac.uk/people/j.e.santos/)
+* [institute page](http://www.damtp.cam.ac.uk/people/j.e.santos/)
+
+* [institute page](https://www.hughes.cam.ac.uk/about/our-people/seniors-members/11673/)
+
+* [inSpire page](https://inspirehep.net/authors/1060716)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=kQqSNPMAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Jorge-Santos-71)
+
+
 
 ## Selected writings
 
@@ -20,6 +30,10 @@ On [[black holes]] and the [[BFSS matrix model]]:
 On solutions of minimal [[D=5 supergravity]] related to [[black strings]]:
 
 * Pierre Heidmann, Paolo Pani, [[Jorge E. Santos]]: *Asymptotically Flat Rotating Topological Stars* &lbrack;[arXiv:2510.05200](https://arxiv.org/abs/2510.05200)&rbrack;
+
+On the [[BFSS matrix model]]:
+
+* Oscar J.C. Dias, [[Jorge E. Santos]]: *Localized states of BFSS super quantum mechanics* &lbrack;[arXiv:2510.07379](https://arxiv.org/abs/2510.07379)&rbrack;
 
 
 ## Related entries
