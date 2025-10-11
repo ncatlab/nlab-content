@@ -215,7 +215,7 @@ Further texts include
 
 * Jean-Pierre Schneiders, _Introduction to characteristic classes and  index theory_ (book), Lisboa (Lisbon) 2000
 
-* [[Johan Dupont]], _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, 2003, 115 pp. [pdf](http://data.imf.au.dk/publications/ln/2003/imf-ln-2003-69.pdf)
+* [[Johan Dupont]], _Fibre bundles and Chern-Weil theory_, Lecture Notes Series __69__, Dept. of Math., University of Aarhus, 2003, 115 pp. [pdf](https://data.math.au.dk/publications/ln/2003/imf-ln-2003-69.pdf)
 
 * Shigeyuki Morita, _Geometry of characteristic classes_, Transl. Math. Mon. __199__, AMS 2001
 
