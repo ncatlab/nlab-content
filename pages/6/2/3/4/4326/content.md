@@ -248,12 +248,13 @@ See at _[spin group -- Exceptional isomorphisms](spin%20group#ExceptionalIsomorp
 
 ## References
 
+With an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]:
 
 * [[Howard Georgi]], §13  in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
 
-  > with an eye towards application to (the [[standard model of particle physics|standard model]] of) [[particle physics]]
+In relation to [[quaternion]] [[algebra]]:
 
-
+* João Pedro Morais, Svetlin Georgiev, Wolfgang Sprößig, §1.27 in: *An Introduction to Quaternions*, chapter 1 in: *Real Quaternionic Calculus Handbook*, Birkhäuser (2014) 1-34 &lbrack;[doi:10.1007/978-3-0348-0622-0_1](https://doi.org/10.1007/978-3-0348-0622-0_1)&rbrack;
 
 
 [[!redirects special unitary group]]
