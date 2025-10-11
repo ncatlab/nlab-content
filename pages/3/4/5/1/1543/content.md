@@ -700,9 +700,15 @@ See for instance ([Androulidakis](#Androulidakis)).
 
 ## Examples
 
+### General
+
+* [[principal U(1)-bundle]]
+
+* [[principal SU(2)-bundle]]
+
 ### Hopf fibration
 
-A standard example of a nontrivial [[circle group]]-principal bundle -- a [[circle bundle]] -- is the [[Hopf fibration]] $S^3 \to S^2$, which has the structure of an $S^1$-principal bundle in [[topological space]]s.
+A standard example of a nontrivial [[circle group]]-principal bundle -- a [[circle bundle]] -- is the [[complex Hopf fibration]] $S^3 \to S^2$, which has the structure of a [[principal U(1)-bundle]].
 
 ### Pullbacks of universal bundles
 
