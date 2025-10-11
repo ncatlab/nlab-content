@@ -81,6 +81,9 @@ On non-abelian ([[parafermion|parafermionic]] [[Majorana zero mode]]) [[defect]]
 
 * [[Luiz H. Santos]]: *Parafermions in Hierarchical Fractional Quantum Hall States*, Phys. Rev. Research **2** (2020) 013232 \[<a href="https://doi.org/10.1103/PhysRevResearch.2.013232">doi:10.1103/PhysRevResearch.2.013232</a>, [arXiv:1906.07188](https://arxiv.org/abs/1906.07188)\]
 
+* Enderalp Yakaboylu, Thomas L. Schmidt: *Topologically Charged Vortices at Superconductor-Quantum Hall Interfaces* \[<a href="https://arxiv.org/abs/2501.12908">arXiv:2501.12908</a>\]
+
+
 
 
 
