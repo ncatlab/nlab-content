@@ -15,7 +15,7 @@
 
 ## Definition
 
-A [[circle group]]-[[principal bundle]].
+A [[circle group]]-[[principal bundle]], a [[principal U(1)-bundle]] (see there for more).
 
 ## Properties
 
@@ -35,5 +35,4 @@ Under the standard [[linear representation]] of $U(1)$ on the [[complex numbers]
 
 [[!redirects circle principal bundles]]
 
-[[!redirects U(1)-principal bundle]]
 
