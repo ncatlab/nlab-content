@@ -154,6 +154,10 @@ Proposals to model the condition by a [[Wu class]]-shifted variant of [[ordinary
 
 * {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_, Communications in Mathematical Physics,  Volume 333, Issue 1 (2015), Page 117-151 ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455), [doi:10.1007/s00220-014-2228-1](http://link.springer.com/article/10.1007%2Fs00220-014-2228-1))
 
+Review:
+
+* [[Gregory W. Moore]], [[Vivek Saxena]]: *The M-Theory Abelian Gauge Field*, Chapter 52 in: *TASI Lectures On Topological Field Theories And Differential Cohomology*, [TASI 2023](https://sites.google.com/colorado.edu/tasi-2023-wiki/home) lecture notes &lbrack;[arXiv:2510.07408](https://arxiv.org/abs/2510.07408)&rbrack;
+
 Suggestion that an actual [[E8]]-[[principal bundle]] on 11d spacetime plays a role here:
 
 * D. Diaconescu, [[Gregory Moore]], [[Edward Witten]], _$E_8$ Gauge Theory, and a Derivation of K-Theory from M-Theory_, Adv. Theor. Math. Phys. 6:1031-1134, 2003 ([arXiv:hep-th/0005090](https://arxiv.org/abs/hep-th/0005090))
