@@ -92,6 +92,10 @@ See also:
 
 * Níckolas de Aguiar Alves, Andre G. S. Landulfo: *The Sky as a Killing Horizon* &lbrack;[arXiv:2504.12514](https://arxiv.org/abs/2504.12514)&rbrack;
 
+* Sharad Mishra, Kinjal Banerjee, Jishnu Bhattacharyya: *Asymptotic Symmetries at Spatial Infinity* &lbrack;[arXiv:2504.19910](https://arxiv.org/abs/2504.19910), [doi:10.1088/1361-6382/ae1096](https://doi.org/10.1088/1361-6382/ae1096)
+&rbrack;
+
+
 
 
 
