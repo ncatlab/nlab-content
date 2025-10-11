@@ -1,23 +1,23 @@
 
 ## Disambiguation
 
-In [[mathematics]], the term *skeleton* or *skeleta* can refer to 
+In [[mathematics]], the term *skeleton* or *skeleta* can refer to:
 
-* The [[skeleton of a category]]
+* the [[skeleton of a category]],
 
-* A [[simplicial skeleton]]
+* a [[simplicial skeleton]],
 
-* The [[skeleton of a band]]
+* the [[skeleton of a band]],
 
-  * The [[skeleton of an idempotent semiring]]
+  * the [[skeleton of an idempotent semiring]],
 
-* The [[Boolean semiring (Chajda & Kotrle)|skeleton of a semiring]] defined by Ivan Chajda and Miroslav Kotrle, which yields a different notion of "skeleton" for idempotent semirings. 
+  * the [[Boolean semiring (Chajda & Kotrle)|skeleton of a semiring]].
 
-Similarly, the term *skeletal* can refer to
+Similarly, the term *skeletal* can refer to:
 
-* A [[skeletal category]]
+* a [[skeletal category]]
 
-* A [[skeletal semiring]] as defined by Ivan Chajda and Miroslav Kotrle. 
+* a [[skeletal semiring]].
 
 category: disambiguation
 
