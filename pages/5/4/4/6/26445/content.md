@@ -38,7 +38,10 @@ Pratt notes that their $\delta$ has the "odd property that the only discreteness
 Category | $\delta$ |[[space and quantity|Spaces $\cong$ Quantities]] | $\delta$ | Category
 ---|---|---|---|---
 [[CABA]] | -1 | [[complete Boolean algebra|CABAs]]/[[overlap algebra|overlap algebras]] $\cong$ sets | 1 | [[Set]]
+&mdash; | $[-1, -1 + \varepsilon]$ | finitely disconnected Boolean algebras $\cong$ finitely [[pointed set|pointed sets]] | $[1 - \varepsilon, 1]$ | $\Set_{\ast}$
 [[SupLat]] | 0 | [[suplattice|suplattices]] $\cong$ inflattices | 0 | [[InfLat]]
+&mdash; | $[-\frac{1}{3}, 0]$ | bounded complete lattices $\cong$ [[strict linear order|tosets]] | $[0, \frac{1}{3}]$ | [[tower|$\mathbb{N}_{\geq}$]]
+[[CompLat]] | $[-1, 0]$ | [[complete lattice|complete lattices]] $\cong$ [[partial order|posets]] | $[0, 1]$ | [[Pos]]
 [[Vect|$Vect_{\mathbb{F}_2}$]] | 0 | [[vector space|vector spaces]] over $\mathbb{F}_2$ $\cong$ [[dual vector space|dual vector spaces]] over $\mathbb{F}_2$ | 0 | $Vect_{\mathbb{F}_2}$
 
 
