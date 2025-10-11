@@ -114,7 +114,7 @@ On a general approach to [[topological twist|topological twisting]] [[D=4 N=2 su
 
 * [[Gregory W. Moore]], [[Vivek Saxena]], [[Ranveer Kumar Singh]]: *Topological Twisting of 4d $N=2$ Supersymmetric Field Theories* &lbrack;[arXiv:2411.14396](https://arxiv.org/abs/2411.14396)&rbrack;
 
-On [[topological quantum field theory]] and [[differential cohomology]]:
+On [[topological quantum field theory]] and [[differential cohomology]] with application such as to [[shifted C-field flux quantization]]:
 
 * [[Gregory W. Moore]], [[Vivek Saxena]]: *TASI Lectures On Topological Field Theories And Differential Cohomology*, [TASI 2023](https://sites.google.com/colorado.edu/tasi-2023-wiki/home) lecture notes &lbrack;[arXiv:2510.07408](https://arxiv.org/abs/2510.07408)&rbrack;
 
