@@ -220,13 +220,13 @@ Exposition from the point of view of [[worldline formalism]]:
 
 Lecture notes on various aspects:
 
-* {#BBDKPT24} Ivano Basile, Luca Buoninfante, Francesco Di Filippo, Benjamin Knorr, Alessia Platania, Anna Tokareva: *Lectures in Quantum Gravity*, lectures at *[Towards Quantum Gravity](https://inspirehep.net/conferences/2755287)*, [Nordita](https://nordita.org/) (2024) &lbrack;[arXiv:2412.08690](https://arxiv.org/abs/2412.08690), videos:[YT](https://www.youtube.com/playlist?list=PLqd-pg7HkOgIXz1IVfkBR2f5bR6KPUu_M)&rbrack;
+* {#BBDKPT24} Ivano Basile, Luca Buoninfante, Francesco Di Filippo, Benjamin Knorr, Alessia Platania, Anna Tokareva: *Lectures in Quantum Gravity*, lectures at *[Towards Quantum Gravity](https://inspirehep.net/conferences/2755287)*, [Nordita](https://nordita.org/) 2024, SciPost Phys. Lect. Notes **98** (2025) &lbrack;[arXiv:2412.08690](https://arxiv.org/abs/2412.08690), videos:[YT](https://www.youtube.com/playlist?list=PLqd-pg7HkOgIXz1IVfkBR2f5bR6KPUu_M), [doi:10.21468/SciPostPhysLectNotes.98](https://doi.org/10.21468/SciPostPhysLectNotes.98)&rbrack;
 
 Surveys of the state of and perspectives on the field:
 
 * Claus Kiefer, _Quantum Gravity_, Oxford University Press (2007) &lbrack;[doi:10.1093/acprof:oso/9780199585205.001.0001](https://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199585205.001.0001/acprof-9780199585205)&rbrack;
 
-* *Visions in Quantum Gravity*, notes from participants of *[Quantum Gravity: from gravitational EFTs to UV complete approaches](https://inspirehep.net/conferences/2755287)*, [Nordita](https://nordita.org/) (2024) &lbrack;[arXiv:2412.08696](https://arxiv.org/abs/2412.08696), [videos](https://www.youtube.com/@Quantumgravity.nordita/playlists)&rbrack;
+* *Visions in Quantum Gravity*, notes from participants of *[Quantum Gravity: from gravitational EFTs to UV complete approaches](https://inspirehep.net/conferences/2755287)*, [Nordita](https://nordita.org/) 2024, SciPost Phys. Comm. Rep. **11** (2025) &lbrack;[arXiv:2412.08696](https://arxiv.org/abs/2412.08696), [videos](https://www.youtube.com/@Quantumgravity.nordita/playlists), [doi:10.21468/SciPostPhysCommRep.11](https://doi.org/10.21468/SciPostPhysCommRep.11)&rbrack;
 
 
 
