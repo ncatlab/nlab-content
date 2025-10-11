@@ -260,7 +260,7 @@ We list examples of classes of categories that have enough projective, according
 +-- {: .num_prop #ModHasEnoughProjectives}
 ###### Proposition
 
-Assuming the [[axiom of choice]], for $R$ a [[ring]] the category $R$[[Mod]] of [[modules]] over $R$ is has enough projectives.
+Assuming the [[axiom of choice]], for $R$ a [[ring]] the category $R$[[Mod]] of [[modules]] over $R$ has enough projectives.
 
 =--
 
