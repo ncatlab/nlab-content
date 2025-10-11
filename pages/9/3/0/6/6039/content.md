@@ -532,7 +532,7 @@ In the traditional physicist's string theory introductions one finds Chan-Paton 
 * [[Clifford Johnson]], section 2.4 of _D-Brane primer_ ([arXiv:hep-th/0007170](http://arxiv.org/abs/hep-th/0007170))
 
 
-* David Tong, around p. 66 of _Lectures on string theory_ ([arxiv/0908.0333](http://front.math.ucdavis.edu/0908.0333))
+* David Tong, around p. 66 of _Lectures on string theory_ ([arxiv/0908.0333](https://arxiv.org/abs/0908.0333))
 
 These lectures tend to ignore most of the global subtleties though. For traditional discussion of the  _[[Freed-Witten-Kapustin anomaly]]_, see there. The above account in terms of [[higher geometry]] and [[extended prequantum field theory]] is due to  section 5.4 of
 
@@ -544,7 +544,7 @@ Lecture notes along these lines are at
 
 Discussion of the derivation of the  [[Yang-Mills theory]] on the D-brane from open [[string scattering amplitudes]]/[[string field theory]] includes
 
-* [[David Gross]], [[Edward Witten]], _Superstring modifications of Einstein's equations_,  Nuclear Physics B Volume 277, 1986, Pages 1-10
+* [[David Gross]], [[Edward Witten]], _Superstring modifications of Einstein's equations_,  Nuclear Physics B Volume 277, 1986, Pages 1-10. (<a href="https://doi.org/10.1016/0550-3213(86)90429-3">doi</a>).
 
 and for the non-abelian case:
 
