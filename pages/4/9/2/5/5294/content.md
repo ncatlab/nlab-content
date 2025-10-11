@@ -19,9 +19,13 @@
 
 ## Idea
 
-A _conical limit_ is an ordinary [[limit]] as opposed to a more general [[weighted limit]].
+A _conical limit_ is an ordinary [[limit]] as opposed to a more general [[weighted limit]]. (However, note that they still satisfy an enriched universal property, rather than being limits in the underlying category.)
 
 When the [[base of enrichment]] is $Set$, every weighted limit can be expressed as a conical limit. However, it is not true that completeness under a class of weights can always be expressed as completeness under a class of diagrams. For instance, every [[power]] $A \times A$ is a [[product]], but the class of categories admitting powers cannot be expressed as the class of categories admitting $D$-indexed limits for some class of categories $D$.
+
+## Properties
+
+- An enriched category admits all [[weighted limits]] if and only if it admits conical limits and [[powers]].
 
 ## References
 
