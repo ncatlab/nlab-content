@@ -189,6 +189,10 @@ Relation to the [[6d (2,0)-supersymmetric QFT]]:
 
 * [[Micha Berkooz]], [[Moshe Rozali]], [[Nathan Seiberg]], _Matrix Description of M-theory on $T^3$ and $T^5$_ ([arXiv:hep-th/9704089](http://arxiv.org/abs/hep-th/9704089))
 
+See also:
+
+* Oscar J.C. Dias, [[Jorge E. Santos]]: *Localized states of BFSS super quantum mechanics* &lbrack;[arXiv:2510.07379](https://arxiv.org/abs/2510.07379)&rbrack;
+
 
 
 
