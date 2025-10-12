@@ -32,11 +32,11 @@ $$
   \,.
 $$
 
-Now given an [[action]] $\rho$ of $G$ on some [[smooth manifold]] $V$, and regarding this action via its [[action groupoid]] projection $p_\rho \colon V//G \to \mathbf{B}G$ as discussed [above](#ActionsOf1Groups), then we may consider these two morphisms into $\mathbf{B}G$ jointly
+Now given an [[action]] $\rho$ of $G$ on some [[smooth manifold]] $V$, and regarding this action via its [[action groupoid]] projection $p_\rho \colon V \sslash G \to \mathbf{B}G$ as discussed [above](#ActionsOf1Groups), then we may consider these two morphisms into $\mathbf{B}G$ jointly
 
 $$
   \array{
-    && V//G
+    && V \sslash G
     \\
     && \downarrow^{\mathrlap{p_\rho}}
     \\
@@ -51,11 +51,11 @@ We now discuss that this is equivalently the [[associated bundle]] which is asso
 +-- {: .num_prop}
 ###### Proposition
 
-For $G$ a [[smooth group]] (e.g. a [[Lie group]]), $X$ a [[smooth manifold]], $P \to X$ a smooth $G$-[[principal bundle]] over $X$ and $\rho$ a smooth [[action]] of $G$ on some [[smooth manifold]] $V$, then the [[associated bundle|associated]] $V$-[[fiber bundle]] $P \times_G V\to X$ is equivalently (regarded as a [[smooth groupoid]]) the [[homotopy pullback]] of the [[action groupoid]]-projection $p_\rho \colon V//G \to \mathbf{B}G$ along a morphism $g \colon X\to\mathbf{B}G$ which [[modulating morphism|modulates]] $P$
+For $G$ a [[smooth group]] (e.g. a [[Lie group]]), $X$ a [[smooth manifold]], $P \to X$ a smooth $G$-[[principal bundle]] over $X$ and $\rho$ a smooth [[action]] of $G$ on some [[smooth manifold]] $V$, then the [[associated bundle|associated]] $V$-[[fiber bundle]] $P \times_G V\to X$ is equivalently (regarded as a [[smooth groupoid]]) the [[homotopy pullback]] of the [[action groupoid]]-projection $p_\rho \colon V \sslash G \to \mathbf{B}G$ along a morphism $g \colon X\to\mathbf{B}G$ which [[modulating morphism|modulates]] $P$
 
 $$
   \array{
-    P\times_G V &\longrightarrow& V//G
+    P\times_G V &\longrightarrow& V \sslash G
     \\
     \downarrow && \downarrow^{\mathrlap{p_\rho}}
     \\
@@ -87,7 +87,7 @@ Moreover, by [this proposition](geometry+of+physics+--+representations+and+assoc
 
 $$
   \array{
-    C(\{U_i\})_\bullet \underset{(\mathbf{B}G)_\bullet}{\times} (V//G)_\bullet &\longrightarrow& (V//G)_\bullet
+    C(\{U_i\})_\bullet \underset{(\mathbf{B}G)_\bullet}{\times} (V \sslash G)_\bullet &\longrightarrow& (V \sslash G)_\bullet
     \\
     \downarrow && \downarrow^{\mathrlap{(p_\rho)_\bullet}}
     \\
@@ -104,7 +104,7 @@ $$
 This pullback is computed componentwise. Hence it is the pre-smooth groupoid whose morphisms are pairs consisting of a morphism $(x,i)\to (x,j)$ in the Cech groupoid as well as a morphism $s \stackrel{g}{\to} \rho(s)(g)$ in the action groupoid, such that the group label $g$ of the latter equals the cocycle $g_{i j}(x)$ of the cocycle on the former. Schematically:
 
 $$
-  C(\{U_i\})_\bullet \underset{(\mathbf{B}G)_\bullet}{\times} (V//G)_\bullet
+  C(\{U_i\})_\bullet \underset{(\mathbf{B}G)_\bullet}{\times} (V \sslash G)_\bullet
   =
   \left\{
      ((x,i),s) \stackrel{g_{i j}(x)}{\longrightarrow} ((x,j),\rho(s)(g))
