@@ -337,7 +337,7 @@ $$
   \big(
     g \cdot g'
     ,\,
-    r + r' + \omega(r,r')
+    r + r' + \omega(g,g')
   \big)
  \,.
 $$
