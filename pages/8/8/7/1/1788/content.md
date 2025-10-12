@@ -7,51 +7,7 @@
 ***
 
 
-\[
-  \label{QuaternonicDeterminant}
-    det_D\left(
-      \left[
-        \array{
-          a & b 
-          \\
-          c & d 
-        }
-      \right]
-    \right)
-    \;
-    \coloneqq
-    \;
-    \begin{array}{cl}
-      0 
-      & 
-      \;\text{if}\; a = b = c = d = 0
-      \\
-      \left\vert
-        a d - a c a^{-1} b
-      \right\vert
-      &
-      \;\text{if}\; a \neq 0
-      \\
-      \left\vert
-        d a - d b d^{-1} c
-      \right\vert
-      & 
-      \;\text{if}\; d \neq 0
-      \\
-      \left\vert
-        b d b^{-1}  - b c
-      \right\vert
-      & 
-      \;\text{if}\; b \neq 0
-      \\
-      \left\vert
-        c a c^{-1}  - c b
-      \right\vert
-      &
-      \;\text{if}\; c \neq 0
-    \mathrlap{\,.}
-  \end{array}
-\]
+$\cdot$
 
 
 (...)
