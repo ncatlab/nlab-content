@@ -126,37 +126,28 @@ The following properties concern the notion ob cobordism categories with cobordi
 
 #### Topological case
 
-
-
-+-- {: .num_theorem}
-###### Theorem
-
-There is a [[weak homotopy equivalence]]
-
+\begin{theorem}
+**(Galatius-Madsen-Tillmann-Weiss theorem)**
+The loop space of the [[classifying space]] ([[geometric realization]] of the [[nerve]]) of the [[cobordism category]] $Cob_k$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to the [[infinite loop space]] of the spectrum [[MTO(k)]], hence:
 $$
-  \Omega |Cob_d|
-  \simeq
-  \Omega^\infty(MTSO(d))
+\Omega|N Cob_k|
+\simeq\Omega^\infty MTO(k)
+\coloneqq\lim_{n\rightarrow\infty}\Omega^{n+k}Th\left({\gamma_\mathbb{R}^{k,n}}^\perp\right).
 $$
+(Alternatively it is written as $|N 
+Cob_k|\simeq\Omega^{\infty-1}MTO(k)$.) ${\gamma_\mathbb{R}^{k,n}}^\perp\twoheadrightarrow Gr_k(\mathbb{R}^{n+k})$ is the orthogonal complement of the real [[tautologial bundle]].
+\end{theorem}
 
-between the [[loop space]] of the [[geometric realization]] of the $d$-cobordism category and the [[Thom spectrum]]-kind spectrum 
-
+\begin{theorem}
+**(Galatius-Madsen-Tillmann-Weiss theorem)**
+The loop space of the [[classifying space]] ([[geometric realization]] of the [[nerve]]) of the [[oriented]] [[cobordism category]] $Cob_k^+$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to the [[infinite loop space]] of [[MTSO(k)]], hence:
 $$
-  \Omega^\infty MTSO(d)
-   :=
-  {\lim_\to}_{n \to \infty}  \Omega^{n+d} Th(U_{d,n}^\perp)
+\Omega|N Cob_k^+|
+\simeq\Omega^\infty MTSO(k)
+\coloneqq\lim_{n\rightarrow\infty}\Omega^{n+k}Th\left({\widetilde\gamma_\mathbb{R}^{k,n}}^\perp\right).
 $$
-
-where
-
-$$
-  U_{d,n}^\perp = 
-  \{
-   ...
-  \}
-$$
-
-=--
+(Alternatively it is written as $|N Cob_k^+|\simeq\Omega^{\infty-1}MTSO(k)$.) ${\widetilde\gamma_\mathbb{R}^{k,n}}^\perp\twoheadrightarrow\widetilde{Gr}_k(\mathbb{R}^{n+k})$ is the orthogonal complement of the [[oriented]] real [[tautologial bundle]].
+\end{theorem}
 
 This is [Galatius, Tillmann, Madsen & Weiss 2009, main theorem](#GMWT09).
 
