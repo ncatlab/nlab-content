@@ -30,9 +30,9 @@ The notion of [[cyclic set]] is intermediate between symmetric sets and simplici
 
 * [[Jean-Louis Loday]], _Cyclic Homology_, Springer Heidelberg 1998$^2$. (ch.VI; ex.6.1.7)
 
-* [[Marco Grandis]], _Finite sets and symmetric simplicial sets_ [PDF](http://www.tac.mta.ca/tac/volumes/8/n8/n8.pdf)
+* [[Marco Grandis]], _Finite sets and symmetric simplicial sets_, Theory and Applications of Categories **8** 8 (2001) 244-252 &lbrack;[tac](http://www.tac.mta.ca/tac/volumes/8/n8/8-08abs.html)&rbrack;
 
-* [[Marco Grandis]], _Higher fundamental functors for simplicial sets_ [arXiv](http://arxiv.org/abs/math/0009004)
+* [[Marco Grandis]], _Higher fundamental functors for simplicial sets_, Cahiers de topologie et géométrie différentielle catégoriques **42** 2 (2001) 101-136 &lbrack;[arXiv:math/0009004](https://arxiv.org/abs/math/0009004), [numdam:CTGDC_2001__42_2_101_0](https://www.numdam.org/item/CTGDC_2001__42_2_101_0/)&rbrack;
 
 * {#HM25} R. Hora, Y. Maehara, *Lawvere's fourth open problem: Levels in the topos of symmetric simplicial sets*, arXiv:2503.03916 (2025). ([abstract](https://arxiv.org/abs/2503.03439))
 
