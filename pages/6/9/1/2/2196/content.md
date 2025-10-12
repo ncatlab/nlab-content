@@ -13,11 +13,13 @@
 * table of contents
 {: toc}
 
-**Functional analysis** can be defined as the study of objects (and their [[homomorphism|homomorphisms]]) with an [[algebra|algebraic]] and a [[topology|topological]] structure such that the algebraic operations are continuous. But usually the algebraic structure is fixed to be the one of a [[vector space]].
 
 ## Idea
 
-Various sets of real or complex-valued functions (usually [[continuous function|continuous]] or at least [[measurable function|measurable]]) have not only the structure of a [[vector space]] but also an additional [[topological structure]]. To study these systematically, various classes of [[topological vector spaces]] were gradually developed and studied, often irrespective of the nature of the elements. Hence one can study (for example) Banach spaces of anything, not necessarily of functions. Naturally more and more general structures were studied. 
+In generality functional analysis* can be defined as the study of objects (and their [[homomorphism|homomorphisms]]) with an [[algebra|algebraic]] and a [[topology|topological]] structure such that the algebraic operations are [[continuous map|continuous]]. But usually the spaces of interest are [[topological vector spaces]] and the algebraic operations on them are [[linear operators]] (cf. *[[operator algebra]]*).
+
+
+Various sets of real or complex-valued [[functions]] (usually [[continuous function|continuous]] or at least [[measurable function|measurable]]) have not only the structure of a [[vector space]] but also an additional [[topological structure]]. To study these systematically, various classes of [[topological vector spaces]] were gradually developed and studied, often irrespective of the nature of the elements. Hence one can study (for example) Banach spaces of anything, not necessarily of functions. Naturally more and more general structures were studied. 
 
 Thus __functional analysis__ is a field of [[mathematics]] studying compatible algebraic and topological structure, where 'algebraic' most often refers to linear spaces with structure (e.g. ordered vector spaces, real algebras etc.) and 'topological' may refer to mere topology but also to [[metric space|metric]] refinements like norm etc. The underlying [[ground field]] is most often [[real number|real]] or [[complex numbers]]. In addition to the study of topological vector spaces, various interesting classes or examples of operators on them are in focus of this subject.
 
@@ -32,6 +34,8 @@ See also [[reflexive Banach space]], [[bounded operator]], [[compact operator]],
 ## References
 
 Textbooks:
+
+* Erwin Kreyszig: *Introductory Functional Analysis with Applications*, Wiley & Sons (1978, 1991) &lbrack;[ISBN: 978-0-471-50459-7](https://www.wiley.com/en-us/Introductory+Functional+Analysis+with+Applications-p-9780471504597), <a href="https://physics.bme.hu/sites/physics.bme.hu/files/users/BMETE15AF53_kov/Kreyszig%20-%20Introductory%20Functional%20Analysis%20with%20Applications%20(1).pdf">pdf</a>, [pdf](https://asoimatepn.wordpress.com/wp-content/uploads/2015/04/kreyszig-erwin-introductory-functional-analysis-with-aplications-university-of-windsor-wiley-classics-library-usa-1989.pdf)&rbrack;
 
 * [[Walter Rudin]]: *Functional analysis*, McGrawHill (1991) &lbrack;[urn:oclc:record:1149261256](https://archive.org/details/functionalanalys00rudi), [pdf](https://59clc.wordpress.com/wp-content/uploads/2012/08/functional-analysis-_-rudin-2th.pdf), [pdf](https://www.math.uniri.hr/~ajurasic/Rudin.pdf)&rbrack;
 
