@@ -55,8 +55,6 @@ In [[mathematical physics]]:
 * [[Michael Reed]], [[Barry Simon]]: *[[Methods of Modern Mathematical Physics]]*, Academic Press (1978), Volume I: *Functional Analysis* $[$[ISBN:9780125850506](https://www.elsevier.com/books/i-functional-analysis/reed/978-0-08-057048-8), [pdf](http://www.astrosen.unam.mx/~aceves/Metodos/ebooks/reed_simon1.pdf)$]$
 
 
-
-
-There are also variations in $p$-[[adic analysis]] and a [[topos]]-theoretic approach initiated by (I think?) [[William Lawvere]].
+There are also variations in [[p-adic number|$p$-adic analysis]] and there is a [[topos theory|topos theoretic]] approach initiated by (I think?) [[William Lawvere]].
 
 category: analysis
