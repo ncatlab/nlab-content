@@ -26,9 +26,9 @@ The *Bousfield-Kan formula* ([BK72](#BousfieldKan)) is a presentation of [[colim
 
 In ordinary [[category theory]], the [[colimit]] of a [[diagram]] $F \colon I\to C$ may be computed as a [[coequalizer]] of the [[parallel pair]]
 $$
-  \coprod_{c_{0}\to c_{1}}F c_{0}
+  \coprod_{i_{0}\to i_{1}}F i_{0}
     \rightrightarrows
-  \coprod_{c}F c
+  \coprod_{i}F i
   \,.
 $$
 When $C$ is an $(\infty,1)$-category, we need to take "higher
@@ -38,11 +38,11 @@ $$
   \;=\;
   \left(
       \cdots
-    \coprod_{c_{0}\to c_{1}\to c_{2}} F c_{0}
+    \coprod_{i_{0}\to i_{1}\to i_{2}} F i_{0}
       \Rrightarrow
-    \coprod_{c_{0}\to c_{1}} F c_{0}
+    \coprod_{i_{0}\to i_{1}} F i_{0}
       \rightrightarrows
-    \coprod_{c\in C} F c
+    \coprod_{i\in I} F i
   \right)
   \,.
 $$
