@@ -18,6 +18,7 @@
 
 * [[MSp]]
 
+* [[MTO]], [[MTSO]]
 
 
 relative bordism theories:
