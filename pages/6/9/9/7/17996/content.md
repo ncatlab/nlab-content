@@ -580,61 +580,8 @@ Similar arguments are ubiquituous in the literature on [[Chern insulators]] (cf.
 \]
 whose [[index bundle]] is the basic complex line bundle, hence which represents the latter's class in [[topological K-theory]] under the [[Atiyah-Jänich theorem]]:
 
-To that end let $\mathscr{H} \coloneqq \mathbb{C}^2 \oplus \ell_2(\mathbb{N})$, and take 
-$$
-  F_{\vec x}
-  \;\coloneqq\;
-  \left[
-  \begin{matrix}
-    H_x - \mathrm{id}
-    & 
-    P_2
-    \\
-    0 & shift^2  
-  \end{matrix}
-  \right]
-  \,,
-$$
-where
-$$
-  \begin{array}{rcl}
-    \ell_2(\mathbb{N}) 
-      &\overset{ P_2 }{\longrightarrow}& 
-    \mathbb{C}^2
-    \\
-    \sum_n c_n {\vert n \rangle} 
-      &\mapsto&
-    \left[
-      \begin{matrix}
-        c_0
-        \\
-        c_1
-      \end{matrix}
-    \right]
-  \end{array}
-$$
-and
-$$
-  \begin{array}{rcl}
-    \ell_2(\mathbb{N}) 
-      &\overset{shift^2}{\longrightarrow}&
-    \ell_2(\mathbb{N}) 
-    \\
-    {\vert n \rangle}
-      &\mapsto&     
-    \left\{ 
-    \begin{array}{ccl}
-      0 & \text{if}\; n \leq 1
-      \\
-      {\vert n-2\rangle} & \text{otherwise}
-      \mathrlap{\,.}
-    \end{array}
-    \right.
-  \end{array}
-$$
+(...)
 
-This is such that $ker(F_{\vec x}) = ker(H_{\vec x} - id)$
-and $coker(F_{\vec x}) = 0$, whence we indeed have a parametrized Fredholm operator whose [[index bundle]] is $ker(H_{\vec x} - id)$.
 \end{remark}
 
 \begin{remark}\label{InEquivariantKTheory}
