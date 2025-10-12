@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -118,7 +119,7 @@ Recollection of the history which made von Neumann turn to discussion of these "
 
 Lecture notes:
 
-* V.S. Sunder, _von Neumann algebras, $II_1$-factors, and their subfactors_ &lbrack;[pdf](https://www.imsc.res.in/~sunder/iitb3.pdf)&rbrack;
+* [[Vaikalathur S. Sunder]]: _von Neumann algebras, $II_1$-factors, and their subfactors_, lecture notes (2007) &lbrack;[pdf](https://www.imsc.res.in/~sunder/iitb3.pdf), [[Sunder-vNSubfactors.pdf:file]]&rbrack;
 
 * Hideki Kosaki, _Type III factors and index theory_ (1993) &lbrack;[pdf](http://pages.uoregon.edu/njp/lec-f.pdf)&rbrack;
 
@@ -134,16 +135,21 @@ Exposition with an eye towards discussion of [[entanglement entropy]]:
 
 The mathematics of inclusions of _subfactors_ is giving deep structural insights. See also at _[[planar algebra]]_. 
 
-* [[Vaughan Jones]], 
+Monograph:
 
-  _Index for subfactors_, Invent. Math. __72__, I (I983); 
+* [[Vaughan F. R. Jones]], [[Vaikalathur S. Sunder]]: *Introduction to Subfactors*, Cambridge University Press (1997) &lbrack;[doi:10.1017/CBO9780511566219](https://doi.org/10.1017/CBO9780511566219)&rbrack;
 
-  _A polynomial invariant for links via von Neumann algebras_, Bull. AMS __12__, 103 (1985); 
+See also:
 
-  _Hecke algebra representations of braid groups and link polynomials_, Ann. Math. __126__, 335 (1987)
+* [[Vaughan Jones]]: _Index for subfactors_,  Invent Math **72** (1983) 1–25 &lbrack;[doi;10.1007/BF01389127](https://doi.org/10.1007/BF01389127), [eudml:143011](https://eudml.org/doc/143011)&rbrack;
 
-* [[Vaughan Jones]], [[Scott Morrison]], [[Noah Snyder]], _The classification of subfactors of index at most 5_ ([arXiv:1304.6141](http://arxiv.org/abs/1304.6141))
-* Vaughan F. R. Jones, David Penneys, _Infinite index subfactors and the GICAR categories_, [arxiv/1410.0856](http://arxiv.org/abs/1410.0856)
+* [[Vaughan Jones]]: _A polynomial invariant for links via von Neumann algebras_, Bull. AMS __12__  (1985) 103-111 &lbrack;[euclid:bams/1183552338](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-12/issue-1/A-polynomial-invariant-for-knots-via-von-Neumann-algebras/bams/1183552338.full)&rbrack;
+
+* [[Vaughan Jones]]: _Hecke algebra representations of braid groups and link polynomials_, Ann. Math. __126__ 335 (1987)
+
+* [[Vaughan Jones]], [[Scott Morrison]], [[Noah Snyder]], _The classification of subfactors of index at most 5_ &lbrack;[arXiv:1304.6141](http://arxiv.org/abs/1304.6141)&rbrack;
+
+* [[Vaughan F. R. Jones]], David Penneys: _Infinite index subfactors and the GICAR categories_ &lbrack;[arxiv/1410.0856](http://arxiv.org/abs/1410.0856)&rbrack;
 
 Symmetries of depth two inclusions of subfactors may be described via associative [[bialgebroid]]s,
 
