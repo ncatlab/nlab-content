@@ -571,17 +571,38 @@ Similar arguments are ubiquituous in the literature on [[Chern insulators]] (cf.
 \begin{remark}\label{AsAFredholmIndexBundle}
 **(As a Fredholm index bundle)**
 \linebreak
-  From (eq:SphereParameterizedHamiltonian) it immediate to produce a nice $S^2$-parameterized [[Fredholm operator]]
+  From (eq:SphereParameterizedHamiltonian) it is immediate to produce a nice $S^2$-parameterized [[Fredholm operator]]
 \[
   \label{AsAParameterizedFredholmOperator}
   \begin{array}{rcl}
     S^2 &\overset{F}{\longrightarrow}& Fred(\mathscr{H})
   \end{array}
 \]
-whose [[index bundle]] is the basic complex line bundle, hence which represents the latter's class in [[topological K-theory]] under the [[Atiyah-Jänich theorem]]:
+whose [[index bundle]] represents the [[Bott element]] in [[topological K-theory]] under the [[Atiyah-Jänich theorem]], hence with class that of the [[virtual vector bundle]] which is the difference of the basic complex line bundle with the trivial complex line bundle , hence which represents the latter's class:
 
-(...)
+Fixing any base point $0 \in S^2$, the Fredholm operator is simply
 
+$$
+  x \mapsto F_x \coloneqq P_0 \circ P_x
+  \,,
+$$
+
+extended as the identity away from $\mathbb{C}^2$.
+
+Namely, away from the single point $\overline{0} \in S^2$ where $P_0 \circ P_x = 0$ this operator has 
+
+$$
+  ker(F_x) = ker(P_x)
+  \;\;\;\;
+  \text{coker}
+  \;\;\;\;
+  coker(F_x) = ker\big( F_x^\dagger \big) = ker(P_0)
+  \,,
+$$
+
+whence here the index bundle is manifestly the virtual difference as claimed, by the above discussion.
+
+The claim then follows by continuity. Concretely, over a small neighbourhood of $0$ we may perturb $P_0$ such that its kernel bundle remains trivializable but ensuring that the perturbated version of $P_0 \circ P_x$ is non-zero everywhere.
 \end{remark}
 
 \begin{remark}\label{InEquivariantKTheory}
