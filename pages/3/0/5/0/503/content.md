@@ -252,7 +252,6 @@ The $(f_! \dashv f^*)$-[[adjunction]] [[isomorphism]] then implies that for all 
 $$
   f^* H \simeq Set(*, f^* H) \simeq [C,Set](f_! *, H)
   \simeq [C,Set](F,H)
-  \,.
 $$
 
 naturally in $H$, and hence that
@@ -264,7 +263,7 @@ $$
 
 By assumption this has a further right adjoint $f_\ast$ and hence preserves all [[colimits]]. By the discussion at [[tiny object]] it follows that $F \in [C,Set]$ is a tiny object. By prop. \ref{CauchyComplIsFullSubcatOnTinyObjects} this means that $F$ belongs to $\overline{C} \subset [C,Set]$.
 
-A morphism $f \Rightarrow g$ between [[geometric morphisms]] $f,g : Set \to [C,Set]$ is a [[geometric transformation]], which is a [[natural transformation]] $f^* \Rightarrow g^*$, hence by the above a natural transformation $[C,Set](F,-) \Rightarrow [C,Set](G,-)$. By the [[Yoneda lemma]] these are in bijection with morphisms $G \to H$ in $[C,Set]$. This gives the full inclusion $Topos_{ess}(Set,[C,Set])^{op} \subset \overline{C}$.
+A morphism $f \Rightarrow g$ between [[geometric morphisms]] $f,g : Set \to [C,Set]$ is a [[geometric transformation]], which is a [[natural transformation]] $f^* \Rightarrow g^*$, hence by the above a natural transformation $[C,Set](F,-) \Rightarrow [C,Set](G,-)$. By the [[Yoneda lemma]] these are in bijection with morphisms $G \to F$ in $[C,Set]$. This gives the full inclusion $Topos_{ess}(Set,[C,Set])^{op} \subset \overline{C}$.
 
 The converse inclusion is now immediate by the same arguments: since the objects in $\overline{C}$ are precisely the [[tiny object]]s $F \in [C,Set]$ each of them corresponds to a functor $[C,Set](F,-) : [C,Set] \to Set$ that has a [[right adjoint]]. Since this generally also has a left adjoint, it is the [[inverse image]] of an essential geometric morphism $f : Set \to [C,Set]$.
 
