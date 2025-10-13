@@ -1813,6 +1813,9 @@ Second Series **139** 2 (1994) 227-237 &lbrack;[jstor:2946581](https://www.jstor
 
 * {#Idrissi21} [[Najib Idrissi]], *Real homotopy of configuration spaces*, Peccot Lecture, Collège de France, March & May 2020, Spinger (2022) &lbrack;[doi:10.1007/978-3-031-04428-1](https://doi.org/10.1007/978-3-031-04428-1), [webpage](https://idrissi.eu/research/peccot), [hal:03821309](https://hal.science/hal-03821309)&rbrack;
 
+* [[Thomas Willwacher]]: *Models for configuration spaces of points via obstruction theory I* &lbrack;[arXiv:2302.07369](https://arxiv.org/abs/2302.07369)&rbrack;
+
+
 
 
 ### Cohomology modeled by graph complexes
@@ -1828,7 +1831,7 @@ Further discussion of [[graph complexes]] as models for the [[de Rham cohomology
 
 * [[Najib Idrissi]], _The Lambrechts-Stanley Model of Configuration Spaces_, Invent. Math (2018) &lbrack;[arXiv:1608.08054](https://arxiv.org/abs/1608.08054), [doi:10.1007/s00222-018-0842-9](https://dx.doi.org/10.1007/s00222-018-0842-9)&rbrack;
 
-* {#CamposWillwacher16} [[Ricardo Campos]], [[Thomas Willwacher]], _A model for configuration spaces of points_ ([arXiv:1604.02043](https://arxiv.org/abs/1604.02043))
+* {#CamposWillwacher16} [[Ricardo Campos]], [[Thomas Willwacher]], _A model for configuration spaces of points_ &lbrack;[arXiv:1604.02043](https://arxiv.org/abs/1604.02043)&rbrack;
 
 * [[Ricardo Campos]], [[Najib Idrissi]], [[Pascal Lambrechts]], [[Thomas Willwacher]], _Configuration Spaces of Manifolds with Boundary_ &lbrack;[arXiv:1802.00716](https://arxiv.org/abs/1802.00716)&rbrack;
 
