@@ -134,5 +134,8 @@ where $B$ is a [[higher group character|biconjugacy class]] of $G$.
 
 * [[Joost Nuiten]], _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_
 
+* [[Ingo Runkel]], Rafal Suszek. *Gerbe-holonomy for surfaces with defect networks* (2008). ([arXiv:0808.1419](https://arxiv.org/abs/0808.1419)). ([doi](https://doi.org/10.4310/ATMP.2009.v13.n4.a5)).
+
+
 
 [[!redirects bi-branes]]
