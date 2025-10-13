@@ -157,7 +157,7 @@ Also: if $F$ is exact then it preserves [[chain homology]].
 
 We discuss the first case. The second is formally dual. The third combines the two cases.
 
-For the first case notice that $0 \to A \stackrel{i}{\to} B \stackrel{p}{\to} C \to 0$ being an [[exact sequence]] is equivalent to $i$ being a [[monomorphism]] and $p$ being an [[epimorphism]], hence to $0 \to A$ being the [[kernel]] of $i$, $i$ being the kernel of $p$ and $C \to 0$ being the [[cokernel]] of $p$. Since the functor $F$ is assumed to preserve this kernel-property, but not the cokernel property, it follows that $F(0) \to F(A)$ is the kernel of $F(A) \stackrel{F(i)}{\to} F(B)$, but not more than that. This means that
+For the first case notice that $0 \to A \stackrel{i}{\to} B \stackrel{p}{\to} C \to 0$ being an [[exact sequence]] is equivalent to $i$ being a [[monomorphism]] and $p$ being an [[epimorphism]], hence to $0 \to A$ being the [[kernel]] of $i$, $i$ being the kernel of $p$ and $C \to 0$ being the [[cokernel]] of $p$. Since the functor $F$ is assumed to preserve this kernel-property, but not the cokernel property, it follows that $F(0) \to F(A)$ is the kernel of $F(A) \stackrel{F(i)}{\to} F(B)$ and $F(i)$ is the kernel of $F(p)$, but not more than that. This means that
 
 $$
   0 \to F(A) \to F(B) \to F(C)
