@@ -1,5 +1,5 @@
 
-Vaikalathur Shankar Sundar
+Vaikalathur Shankar Sunder
 
 * [personal page](https://www.imsc.res.in/~sunder/)
 
