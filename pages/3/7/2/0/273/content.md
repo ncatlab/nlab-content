@@ -59,7 +59,7 @@ This begins with the observation that ([[reduced cohomology|reduced]]) [[ordinar
   \big)
   \,.
 \]
-This equivalence makes manifest the [characteristic properties](Whiethead-generalized+cohomology#AxiomsReduced) of cohomology: homotopy invariance, exactness and wedge property, since these are now immediately implied by general abstract properties of mapping spaces.
+This equivalence makes manifest the [characteristic properties](Whitehead-generalized+cohomology#AxiomsReduced) of cohomology: homotopy invariance, exactness and wedge property, since these are now immediately implied by general abstract properties of mapping spaces.
 
 Moreover, these EM-spaces are in fact [[loop spaces]] of each other, via [[weak homotopy equivalences]]
 \[
