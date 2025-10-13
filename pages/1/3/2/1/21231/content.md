@@ -608,6 +608,10 @@ See also:
 
 * Prasant Samantray, Suprit Singh, _Schwinger Effect in Compact Space_ ([arXiv:2010.13453](https://arxiv.org/abs/2010.13453))
 
+* Walter D. van Suijlekom, Michael F. Wondrak, Heino Falcke: *Particle creation in a cosmological background in analogy to the Schwinger effect* &lbrack;[arXiv:2510.09481](https://arxiv.org/abs/2510.09481)&rbrack;
+
+
+* Álvaro Álvarez-Domínguez: *Quantization of charged fields in the presence of intense electromagnetic fields* &lbrack;[arXiv:2510.09447](https://arxiv.org/abs/2510.09447)&rbrack;
 
 
 
