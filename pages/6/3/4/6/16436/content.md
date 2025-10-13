@@ -109,6 +109,9 @@ Specifically for $AdS^{4 \vert 4 \mathcal{N}}$:
 
 * Nowar E. Koning, [[Sergei M. Kuzenko]], Emmanouil S. N. Raptakis: *The anti-de Sitter supergeometry revisited*,  J. High Energ. Phys. **2025** 175 (2025).  &lbrack;[arXiv:2412.03172](https://arxiv.org/abs/2412.03172), <a href="https://doi.org/10.1007/JHEP02(2025)175">doi:10.1007/JHEP02(2025)175</a>&rbrack;
 
+* Timothy Gargett, Igor Samsonov: *Analytic action principle in $\mathcal{N}=2$ $AdS_4$ harmonic superspace* &lbrack;[arXiv:2510.08905](https://arxiv.org/abs/2510.08905)&rbrack;
+
+
 
 
 The super 3-cocycle for the [[Green-Schwarz superstring]] on $\frac{SU(2,2 \vert 5)}{Spin(4,1)\times SO(5)}$ is originally due to 
