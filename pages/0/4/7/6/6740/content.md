@@ -108,6 +108,10 @@ The theory of measurable locales originated on [[MathOverflow]], in various ques
 
 * [[Dmitri Pavlov]], [answer](http://mathoverflow.net/questions/49426/is-there-a-category-structure-one-can-place-on-measure-spaces-so-that-category-th/49542#49542) to _Is there a category structure one can place on measure spaces so that category-theoretic products exist?_ (version: 2011-01-08)
 
+For a development of [[measure theory]] in this context, see
+
+* [[Georg Lehner]], _Measure theory via Locales_, [arXiv](https://arxiv.org/abs/2510.08826).
+
 
 [[!redirects measurable locale]]
 [[!redirects measurable locales]]
