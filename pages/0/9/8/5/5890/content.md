@@ -78,6 +78,14 @@ See also:
 
 * Wikipedia, _[Kuiper's theorem](http://en.wikipedia.org/wiki/Kuiper%27s_theorem)_
 
+Generalization from [[Hilbert spaces]] to [[Hilbert modules]]:
+
+* [[Joachim Cuntz]], [[Nigel Higson]]: *Kuiper's Theorem for Hilbert Modules*, in *Operator Algebras and Mathematical Physic* Contemporary Mathematics **62**, American Mathematical Society (1987) 429-435 &lbrack;[ISBN:978-0-8218-7652-7](https://bookstore.ams.org/CONM/62), [[CuntzHigson-KuiperForHilbertModules.pdf:file]]&rbrack;
+
+which implies notably the [[equivariant homotopy theory|equivariant]] version of Kuiper's theorem:
+
+* [[Heath Emerson]], [[Ralf Meyer]], Cor. 3.12 in: *Equivariant representable K-theory*, Journal of Topology **2** 1 (2009) 123-156 &lbrack;[arXiv:0710.1410](https://arxiv.org/abs/0710.1410), [doi:10.1112/jtopol/jtp003](https://doi.org/10.1112/jtopol/jtp003)&rbrack;
+
 
 [[!redirects Kuiper theorem]]
 
