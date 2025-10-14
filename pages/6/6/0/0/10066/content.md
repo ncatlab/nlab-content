@@ -443,8 +443,7 @@ Introductions and surveys:
 
 * {#Greenlees05} [[John Greenlees]], _Equivariant version of real and complex connective K-theory_, Homology Homotopy Appl. Volume 7, Number 3 (2005), 63-82. ([Euclid:1139839291](http://projecteuclid.org/euclid.hha/1139839291))
 
-* N. C. Phillips, _Equivariant K-theory for proper actions_, Pitman 
-Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989. 
+* N. C. Phillips, _Equivariant K-theory for proper actions_, Pitman  Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989. 
 
 * [[Bruce Blackadar]], section 11 of _[[K-Theory for Operator Algebras]]_
 
@@ -460,11 +459,15 @@ Textbook accounts:
 
 * {#HJJS08} [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurčo]], [[Martin  Schottenloher]], Section 14 of: _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Springer Lecture Notes in Physics __726__, 2008, ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726.pdf), [doi:10.1007/978-3-540-74956-1](https://link.springer.com/book/10.1007/978-3-540-74956-1))
 
-See also
+See also:
+
+* [[Heath Emerson]], [[Ralf Meyer]]: *Equivariant representable K-theory*, Journal of Topology **2** 1 (2009) 123-156 &lbrack;[arXiv:0710.1410](https://arxiv.org/abs/0710.1410), [doi:10.1112/jtopol/jtp003](https://doi.org/10.1112/jtopol/jtp003)&rbrack;
+
+* {#Cantarero09} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, PhD Thesis (2009) &lbrack;[ubctheses:1.0068026](https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0068026), [[CantareroEquivariantKTheory.pdf:file]]&rbrack;
+
 
 * {#BrunerGreenlees10} [[Robert Bruner]], [[John Greenlees]], *Connective Real K-Theory of Finite Groups*, Mathematical Surveys and Monographs **169** AMS 2010 ([ISBN:978-0-8218-5189-0](https://bookstore.ams.org/surv-169))
 
-* {#Cantarero09} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, Thesis 2009 ([ubctheses:1.0068026](https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0068026), [[CantareroEquivariantKTheory.pdf:file]])
 
 * {#Cantarero12} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, Journal of K-Theory, Volume 9, Issue 3  June 2012, pp. 475 - 501  ([arXiv:0803.3244](https://arxiv.org/abs/0803.3244), [doi:10.1017/is011011005jkt173](https://doi.org/10.1017/is011011005jkt173))
 
