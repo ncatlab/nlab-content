@@ -32,6 +32,8 @@ Beware that there is also the term "[[2-framing]]" due to ([Atiyah](#Atiyah)), w
 
 ## Examples
 
+### Lie groups
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -46,19 +48,38 @@ Every non-zero [[invariant vector field]] on the Lie group provides an everywher
 
 =--
 
+
+\begin{remark}
+**(Stable homotopy elements)**
+
+Left invariant framings $\mathcal{L}$ on compact connected Lie groups $G$ with $dim(G)=k$ give rise to elements $[G,\mathcal{L}]$ in the stable homotopy group $\pi_k^s$ of spheres. One can restrict attention to semisimple Lie groups $G$ since this construction behaves well with respect to products, $G \to T\times G/T$ gives a framed diffeomorphism and  $[S^1,\mathcal{L}] \in \pi_1^s$ is the generator. The following facts are assembled from ([Ossa 1982](#Ossa82)) and ([Minami 2016](#Minami16)).
+
+* For any *[[semisimple Lie group|semisimple]]* compact connected Lie group $G$, Ossa proved that $72[G,\mathcal{L}]=0$. In particular, the only possible torsion is at the primes 2 and 3.
+
+* The left invariant framings on $SO(n),Spin(n)$ and $SU(n)$ give the zero element for $n\geq 7$, those on $Sp(n)$ for $n\geq 4$, as do those on $F_4,E_6,E_7,E_8, SO(4),SO(6),SU(5),SU(6)$. (this means that the undetermined cases of rank 4 in Ossa's Table 1 are, in fact, all 0)
+
+* The left invariant framings on the remaining groups ($SU(2)=Spin(3)=Sp(1),SU(3),SU(4)=Spin(6),Sp(2)=Spin(5),Sp(3),SO(3),SO(5)$ and $G_2$) represent known nonzero classes in $\pi_\ast^s$.
+
+\end{remark}
+
+
+### 3-Manifolds
+ {#Examples3Manifolds}
+
+
 The following is straightforward:
 
 +-- {: .num_prop #SpinManifoldAdmitsFraming}
 ###### Proposition
 
-Every 3-[[dimension|dimensional]] [[manifold]] with [[spin structure]] admits a framing.
+Every [[3-manifold]] with [[spin structure]] admits a framing.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-That a 3-manifold $X$  has [[spin structure]] means that we have a [[reduction of the structure group]] of the tangent bundle to the [[spin group]], and hence the tangent bundle is classified by a map $X \to B Spin(3)$. But $Spin(3)$ has vanishing [[homotopy groups]] in degree $0 \leq k \leq 2$. Therefore its [[delooping]] [[classifying space]] $B Spin(3)$ has vanishing homotopy groups below degree 4, and hence every morphism out of a 3-dimensional manifold into it is homotopically constant.
+That a 3-manifold $X$  has [[spin structure]] means that we have a [[reduction of the structure group]] of the tangent bundle to the [[spin group]], and hence the tangent bundle is classified by a map $X \to B Spin(3)$. But $Spin(3)$ has vanishing [[homotopy groups]] below degree 3. Therefore its [[delooping]]/[[classifying space]] $B Spin(3)$ has vanishing homotopy groups below degree 4, and hence every morphism out of a 3-dimensional manifold into it is homotopically constant.
 
 =--
 
@@ -67,7 +88,7 @@ But in fact, the following stronger statement is also true.
 +-- {: .num_prop #EveryOrientable3ManifoldsIsParallelizable}
 ###### Proposition
 
-Every [[orientation|orientable]] 3-[[dimension|dimensional]] [[manifold]] admits a framing.
+Every [[orientation|orientable]] [[3-manifold]] admits a framing.
 
 =--
 
@@ -86,7 +107,12 @@ obstruction is the [[second Stiefel-Whitney class]] $w_2$.  By the discussion at
 
 Prop. \ref{EveryOrientable3ManifoldsIsParallelizable} has some impact in the context of the [[first order formulation of gravity]], where one is interested in [[vielbein]] fields on 4-dimensional [[spacetime manifolds]], and in particular in [[globally hyperbolic spacetimes]], which, as [[topological spaces]], are the [[Cartesian product]] of the [[real line]] (time) with a [[3-manifold]] (space). Prop. \ref{EveryOrientable3ManifoldsIsParallelizable} implies that already when that spatial 3-manifold is orientable, then the whole globally hyperbolic spacetime admits a framing. (See also at _[[teleparallel gravity]]_.)
 
+In fact, for general [[Lorentzian spacetimes]] of dimension 1+3  it remains true that a [[spin structure]] exists if the total 4D [[manifold]] admits a framing ([Geroch 1968](spin+structure#Geroch68), see [there](spin+structure#OverLorentzianManifolds)).
+
 =--
+
+
+### Spheres
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -105,17 +131,7 @@ where the algebras appearing are precisely the four [[normed division algebras]]
 
 =--
 
-This is due to ([Adams 58](#Adams58)), proven with the [[Adams spectral sequence]].
-
-### Stable homotopy elements
-
-Left invariant framings $\mathcal{L}$ on compact connected Lie groups $G$ with $dim(G)=k$ give rise to elements $[G,\mathcal{L}]$ in the stable homotopy group $\pi_k^s$ of spheres. One can restrict attention to semisimple Lie groups $G$ since this construction behaves well with respect to products, $G \to T\times G/T$ gives a framed diffeomorphism and  $[S^1,\mathcal{L}] \in \pi_1^s$ is the generator. The following facts are assembled from ([Ossa 1982](#Ossa82)) and ([Minami 2016](#Minami16)).
-
-* For any *semisimple* compact connected Lie group $G$, Ossa proved that $72[G,\mathcal{L}]=0$. In particular, the only possible torsion is at the primes 2 and 3.
-
-* The left invariant framings on $SO(n),Spin(n)$ and $SU(n)$ give the zero element for $n\geq 7$, those on $Sp(n)$ for $n\geq 4$, as do those on $F_4,E_6,E_7,E_8, SO(4),SO(6),SU(5),SU(6)$. (this means that the undetermined cases of rank 4 in Ossa's Table 1 are, in fact, all 0)
-
-* The left invariant framings on the remaining groups ($SU(2)=Spin(3)=Sp(1),SU(3),SU(4)=Spin(6),Sp(2)=Spin(5),Sp(3),SO(3),SO(5)$ and $G_2$) represent known nonzero classes in $\pi_\ast^s$.
+This is due to [Adams 1958](#Adams58), proven with the [[Adams spectral sequence]].
 
 
 
