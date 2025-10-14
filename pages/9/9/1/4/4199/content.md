@@ -42,6 +42,10 @@ On [[higher algebra]] in [[stable (infinity,1)-categories|stable $(\infty,1)$-ca
 
 * [[David Gepner]]: *An Introduction to Higher Categorical Algebra*, chapter in: *[[Handbook of Homotopy Theory]]*, CRC Press (2019) &lbrack;[arXiv:1907.02904](https://arxiv.org/abs/1907.02904), [doi:10.1201/9781351251624-13](https://www.taylorfrancis.com/chapters/edit/10.1201/9781351251624-13/introduction-higher-categorical-algebra-david-gepner)&rbrack;
 
+On [[(infinity,infinity)-category|$(\infty,\infty)$-category]] theory in the generality of lax [[Gray tensor product|Gray enrichment]]:
+
+* [[David Gepner]], Hadrian Heine: *Oriented Category Theory* (2025) &lbrack;[arXiv:2510.10504](https://arxiv.org/abs/2510.10504)&rbrack;
+
 
 ## Related entries
 
