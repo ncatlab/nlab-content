@@ -193,7 +193,7 @@ Let $\ast = (\{1\}, \tau_\ast = \left\{\emptyset, \{1\}\right\})$ be the [[point
 
 For $(X,\tau)$ a [[topological space]], then there is a [[bijection]] between 
 the [[irreducible closed subspaces]] of $(X,\tau)$ and the
-[[frame]] [[homomorphisms]] from $\tau_X$ to $\tau_\ast$, given bys
+[[frame]] [[homomorphisms]] from $\tau_X$ to $\tau_\ast$, given by
 
 $$
   \array{
