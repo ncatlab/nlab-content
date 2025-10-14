@@ -268,6 +268,10 @@ If a [[manifold]] $X$ admits any spin structure, then its [[set]] of distinct sp
 
 This is due to [Geroch 1968](#Geroch68) for the case of non-[[compact topological space|compact]] spacetimes (as [[4-manifolds]]), see also [Geroch 1970](#Geroch70). The generalization is due to [Lee 1973](#Lee73), [1975](#Lee75).
 
+\begin{remark}
+ For the special case of [[globally hyperbolic spacetimes]], Prop. \ref{GerochTheorem} is implied by the yet stronger statement that every [[orientation|oriented]] [[3-manifold]] admits a [[framed manifold|framing]], see [there](framed+manifold#Examples3Manifolds).
+\end{remark}
+
 
 ### Over surfaces
  {#OverARiemannSurface}
