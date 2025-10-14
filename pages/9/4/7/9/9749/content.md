@@ -167,7 +167,7 @@ ev_U^{-1}\big( \tilde{Q}(ev_U) \big) = \{R \in G(X) \, | \, R(U)=\mu_X(Q)[U] \}
 so taking the intersection over all elements in the generating field (with a basis) yields the result using the well known result if $X$ is a standard space and $P,R \in G(X)$ satisfy $P(U)=R(U)$ for all $U \in \mathbb{F}$ then $P=R$.
 \end{proof}
 
-\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every affine measurable function $G(X) \xrightarrow{m} V$ is a countable affine sum of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
+\begin{lemma} Let $(X, \sigma(\mathbb{F}))$ be a standard space. Then every affine measurable function $G(X) \xrightarrow{m} \mathbb{R}_{\infty}$ is a countable affine sum of the form $m = \sum_i \lambda_i ev_{U_i}$ where $\lambda_i \in V$ and $U_i \in \mathbb{F}$.
 \end{lemma}
 \begin{proof} The superconvex space structure of $G(X)$ is defined by the countable family of equations
 $ ev_U( \sum_{i=1}^{\infty} p_i P_i) = \sum_{i=1}^{\infty}p_i P_i(U)$ 
