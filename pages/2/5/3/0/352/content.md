@@ -75,6 +75,11 @@ and generalization to higher sheaves/stacks of these:
 
 * [[Zach Goldthorpe]], *Sheaves of $(\infty,\infty)$-categories* &lbrack;[arXiv:2403.069262](https://arxiv.org/abs/2403.06926)&rbrack;
 
+In relation to [[orientation]]:
+
+* [[David Gepner]], Hadrian Heine. *Oriented Category Theory* (2025). ([arXiv:2510.10504](https://arxiv.org/abs/2510.10504)).
+
+
 
 see also 
 
