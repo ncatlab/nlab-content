@@ -61,6 +61,10 @@ Relation to the [[RNS string]]:
 
 * [[Nathan Berkovits]]: *Equivalence Proof of Pure Spinor and Ramond-Neveu-Schwarz Superstring Amplitudes* &lbrack;[arXiv:2411.19778](https://arxiv.org/abs/2411.19778)&rbrack;
 
+* Andrei Mikhailov: *B-RNS-GSS formalism and $L_{\infty}$-actions* &lbrack;[arXiv:2510.10400](https://arxiv.org/abs/2510.10400)&rbrack;
+  > (via [[L-infinity algebra|$L_\infty$-algebra]])
+
+
 
 
 Relation to the [[Green-Schwarz superstring]]:
