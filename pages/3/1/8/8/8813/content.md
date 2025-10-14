@@ -8,6 +8,11 @@
 
 ## Selected writings
 
+Generalization of [[Kuiper's theorem]] from [[Hilbert spaces]] to [[Hilbert modules]]:
+
+* [[Joachim Cuntz]], [[Nigel Higson]]: *Kuiper's Theorem for Hilbert Modules*, in *Operator Algebras and Mathematical Physic* Contemporary Mathematics **62**, American Mathematical Society (1987) 429-435 &lbrack;[ISBN:978-0-8218-7652-7](https://bookstore.ams.org/CONM/62), [[CuntzHigson-KuiperForHilbertModules.pdf:file]]&rbrack;
+
+
 Introduction of [[E-theory]]:
 
 * {#ConnesHigson90} [[Alain Connes]], [[Nigel Higson]], _D&#233;formations, morphismes asymptotiques et $K$-th&#233;orie bivariante_, C. R. Acad. Sci. Paris S&#233;r. I Math. __311__ (1990), no. 2, 101&#8211;106, [MR91m:46114](http://www.ams.org/mathscinet-getitem?mr=1065438), [pdf](ftp://ftp.bnf.fr/578/N5781521_PDF_107_112DM.pdf)
