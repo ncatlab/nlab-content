@@ -333,6 +333,13 @@ Discussion of the Gray tensor product in [[(infinity,2)-category|$(\infty,2)$-ca
 
 * {#Loubaton25} [[Félix Loubaton]], answer to: *The missing proofs in Gaitsgory–Rozenblyum's derived algebraic geometry book* (Jul 2025) &lbrack;[MO:a/497541](https://mathoverflow.net/a/497541/)&rbrack;
 
+### In $(\infty,\infty)$-category theory
+
+In the context of [[(infinity,infinity)-category|$(\infty,\infty)$-category]] theory:
+
+* [[David Gepner]], Hadrian Heine: *Oriented Category Theory* (2025) &lbrack;[arXiv:2510.10504](https://arxiv.org/abs/2510.10504)&rbrack;
+
+
 
 [[!redirects Gray tensor products]]
 
