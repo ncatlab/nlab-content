@@ -506,6 +506,9 @@ See also:
 
 * [[Sylvain Ribault]]: *Exactly solvable conformal field theories* &lbrack;[arXiv:2411.17262](https://arxiv.org/abs/2411.17262)&rbrack;
 
+* Philine van Vliet, Emilio Trevisani, [[Ingo Runkel]], Bernardo Zan, Yifei He, Xin Sun, [[Volker Schomerus]]: *Analytic results in conformal field theory* &lbrack;[arXiv:2510.09868](https://arxiv.org/abs/2510.09868)&rbrack;
+
+
 
 
 ### CFT on complex curves/surfaces of arbitrary genus
