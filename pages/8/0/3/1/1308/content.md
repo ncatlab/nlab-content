@@ -46,7 +46,7 @@ This can also be [[internalisation|internalised]] in any [[braided monoidal cate
 
 [[string diagram|String diagrams]] allow an almost trivial proof. Since there is only one object, and the only 1-morphism is the identity, the diagram of $a \circ b$ (vertical composition) is simply two dots labelled $a, b$ arranged vertically. This diagram can be morphed continuously to a horizontal arrangement, which is the diagram for $a * b$ (horizontal composition). This is then morphed to $a$ below $b$, which is the diagram for $b \circ a$.
 
-A [[pasting diagram]]-proof of \ref{2cat} is depicted in [Cheng](#Cheng) below.  Here we prove the $6$-element general form in $Set$.
+A [[pasting diagram]]-proof of \ref{2cat} is depicted in [Cheng](#Cheng) below.  Here we prove the $5$-part general form in $Set$.
 
 +-- {: .proof}
 ###### Proof
@@ -75,7 +75,7 @@ $$ (a b) c = (a b) (1 c) = (a 1) (b c) = a (b c) ,$$
 so the operation is associative.
 =--
 
-If you start with a monoid object in $Mon$, then only (4&5) need to be shown; the others are part of the hypothesis.  This classic form of the Eckmann--Hilton argument may be combined into a single calculation:
+If you start with a monoid object in $Mon$, then only (3&4) (the operations are the same, and commutative) need to be shown; the others are part of the hypothesis.  This classic form of the Eckmann--Hilton argument may be combined into a single calculation:
 $$ a * b = (a \circ 1) * (1 \circ b) = (a * 1) \circ (1 * b) = a \circ b = (1 * a) \circ (b * 1) = (1 * b) \circ (a * 1) = b * a ,$$
 where the desired results involve the first, middle, and last expressions.
 
