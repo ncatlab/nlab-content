@@ -91,7 +91,7 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 * {#Law91a} [[William Lawvere|F. W. Lawvere]], _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in A. Carboni, M. Pedicchio, G. Rosolini (eds.) ,  _[[Como|Category Theory - Proceedings of the International Conference held in Como 1990]]_ , LNM **1488** Springer Heidelberg 1991.
 
-* T. Mormann, _Heyting Mereology as a Framework for Spatial Reasoning_ , Axiomathes **23** no.1 (2013) pp.237-264. ([draft](http://philpapers.org/go.pl?id=MORCMA-3&proxyId=&u=http%3A%2F%2Fphilpapers.org%2Farchive%2FMORCMA-3.pdf))
+* T. Mormann, _Heyting Mereology as a Framework for Spatial Reasoning_ , Axiomathes **23** no.1 (2013) pp.237-264. ([draft](https://philpapers.org/archive/MORCMA-3.pdf))
 
 * {#Reyes}[[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari,  _Bi-Heyting Algebras, Toposes and Modalities_ , J. Phi. Logic **25** (1996) pp.25-43.
 
