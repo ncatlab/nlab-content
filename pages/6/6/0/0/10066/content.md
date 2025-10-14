@@ -380,8 +380,21 @@ This is never an [[isomorphism]], unless $G$ is the trivial group. But the [[Ati
 
 There is an [[equivariant Chern character]] map from equivariant K-theory to [[rational cohomology|rational]] [[equivariant ordinary cohomology]] [above](#Rationalization)
 
-(e.g. [Stefanich](#Stefanich), [Sati-Schreiber 20, Sec. 3.4](#SatiSchreiber20))
+(e.g. [Stefanich](#Stefanich))
 
+
+## Examples
+
+\begin{example}
+The $G$-equivariant K-theory of a [[coset space]] $G/H$, for $H \subset G$ a [[closed subgroup]], is isomorphic to the $H$-equivariant K-theory of the point, hence to the $H$-[[representation ring]] $R(H)$:
+
+$$
+  K_G(G/H) \simeq R(H)
+$$
+
+\end{example}
+
+(cf. [Segal 1968 Ex. ii) on p. 132 with item c) on p. 130](#Segal68), [Emerson & Meyer 2009 Ex. 4.8](#EmersonMeyer09))
 
 
 ## Related concepts
@@ -441,7 +454,7 @@ See also at _[algebraic K-theory -- References -- On quotient stacks](algebraic+
 
 Introductions and surveys:
 
-* {#Greenlees05} [[John Greenlees]], _Equivariant version of real and complex connective K-theory_, Homology Homotopy Appl. Volume 7, Number 3 (2005), 63-82. ([Euclid:1139839291](http://projecteuclid.org/euclid.hha/1139839291))
+* {#Greenlees05} [[John Greenlees]]: _Equivariant version of real and complex connective K-theory_, Homology Homotopy Appl. **7** 3 (2005) 63-82 &lbrack;[euclid:1139839291](http://projecteuclid.org/euclid.hha/1139839291)&rbrack;
 
 * N. C. Phillips, _Equivariant K-theory for proper actions_, Pitman  Research Notes in Mathematics Series 178, Longman, Harlow, UK, 1989. 
 
@@ -461,7 +474,7 @@ Textbook accounts:
 
 See also:
 
-* [[Heath Emerson]], [[Ralf Meyer]]: *Equivariant representable K-theory*, Journal of Topology **2** 1 (2009) 123-156 &lbrack;[arXiv:0710.1410](https://arxiv.org/abs/0710.1410), [doi:10.1112/jtopol/jtp003](https://doi.org/10.1112/jtopol/jtp003)&rbrack;
+* {#EmersonMeyer09} [[Heath Emerson]], [[Ralf Meyer]]: *Equivariant representable K-theory*, Journal of Topology **2** 1 (2009) 123-156 &lbrack;[arXiv:0710.1410](https://arxiv.org/abs/0710.1410), [doi:10.1112/jtopol/jtp003](https://doi.org/10.1112/jtopol/jtp003)&rbrack;
 
 * {#Cantarero09} [[Jose Cantarero]], _Equivariant K-theory, groupoids and proper actions_, PhD Thesis (2009) &lbrack;[ubctheses:1.0068026](https://open.library.ubc.ca/cIRcle/collections/ubctheses/24/items/1.0068026), [[CantareroEquivariantKTheory.pdf:file]]&rbrack;
 
@@ -494,7 +507,6 @@ The [[equivariant Chern character]] is discussed in
 
 * {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
 
-* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], Sec. 3.4 of: _[[schreiber:The Character Map in Equivariant Twistorial Cohomotopy|The character map in equivariant twistorial Cohomotopy]]_ ([arXiv:2011.06533](https://arxiv.org/abs/2011.06533))
 
 Discussion relating to K-theory of [[homotopy quotients]]/[[Borel constructions]] is in 
 
