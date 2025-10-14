@@ -6,7 +6,6 @@
 
 ## Selected works
 
-
 On [[KK-theory]]:
 
 * [[Ralf Meyer]], _Categorical aspects of bivariant K-theory_, &lbrack;[arXiv:math/0702145](http://arxiv.org/abs/math/0702145)&rbrack;
@@ -14,6 +13,12 @@ On [[KK-theory]]:
 * [[Ralf Meyer]], [[Ryszard Nest]], _Homological algebra in bivariant K-theory and other triangulated categories_ ([arXiv:math/0702146](http://arxiv.org/abs/math/0702146))
 
 * {#Meyer} [[Ralf Meyer]], _KK-theory as a triangulated category_, Lecture notes (2009) ([pdf](http://wwwmath.uni-muenster.de/u/echters/Focused-Semester/lecturenotes/Meyer_--_KK-theory_as_a_triangulated_category.pdf))
+
+On [[equivariant K-theory]]:
+
+* [[Heath Emerson]], [[Ralf Meyer]]: *Equivariant representable K-theory*, Journal of Topology **2** 1 (2009) 123-156 &lbrack;[arXiv:0710.1410](https://arxiv.org/abs/0710.1410), [doi:10.1112/jtopol/jtp003](https://doi.org/10.1112/jtopol/jtp003)&rbrack;
+
+
 
 On [[C-star algebras|$C^\ast$-algebras]]:
 
