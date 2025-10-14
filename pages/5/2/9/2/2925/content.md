@@ -49,7 +49,7 @@ By [this prop.](connected+topological+space) also its [[image]] $f([0,1]) \subse
 ###### Theorem
 (constructive IVT with weakened conclusion)
 
-For real numbers $a$ and $b$, let $f\colon [a,b] \to \mathbb{R}$ be a [[pointwise continuous function]] from the [[closed interval]] $[a, b]$ to the [[real line]], and supposed that $f(a) \lt 0$ and $f(b) \gt 0$. Then for every positive number $\epsilon$ there exists a point $c_\epsilon$ in the unit interval such that ${|f(c_\epsilon)|} \lt \epsilon$.
+For real numbers $a$ and $b$, let $f\colon [a,b] \to \mathbb{R}$ be a [[pointwise continuous function]] from the [[closed interval]] $[a, b]$ to the [[real line]], and supposed that $f(a) \lt 0$ and $f(b) \gt 0$. Then for every positive number $\epsilon$ there exists a point $c_\epsilon$ in the interval such that ${|f(c_\epsilon)|} \lt \epsilon$.
 =--
 
 
@@ -63,7 +63,7 @@ Let us inductively define the following [[sequences]]:
 $$a_0 \coloneqq a$$ 
 $$b_0 \coloneqq b$$ 
 $$c_n \coloneqq \frac{a_n + b_n}{2}$$
-$$d_n \coloneqq \max\left(0, \min\left(\frac{1}{2} + \frac{f(c_\epsilon)}{\epsilon}, 1\right)\right)$$
+$$d_n \coloneqq \max\left(0, \min\left(\frac{1}{2} + \frac{f(c_n)}{\epsilon}, 1\right)\right)$$
 $$a_{n + 1} = c_n - \frac{d_n (b - a)}{2^{n + 1}}$$
 $$a_{n + 1} = b_n - \frac{d_n (b - a)}{2^{n + 1}}$$
 
