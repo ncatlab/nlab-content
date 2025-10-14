@@ -33,6 +33,10 @@ On [[QFT with defects]]:
 
 * [[Nils Carqueville]], [[Michele Del Zotto]], [[Ingo Runkel]], *Topological defects*, in: *[[Encyclopedia of Mathematical Physics 2nd ed]]* &lbrack;[arXiv:2311.02449](https://arxiv.org/abs/2311.02449)&rbrack;
 
+On exact results in higher dimensional [[conformal field theory]]:
+
+* Philine van Vliet, Emilio Trevisani, [[Ingo Runkel]], Bernardo Zan, Yifei He, Xin Sun, [[Volker Schomerus]]: *Analytic results in conformal field theory* &lbrack;[arXiv:2510.09868](https://arxiv.org/abs/2510.09868)&rbrack;
+
 
 ## Related  entries
 
