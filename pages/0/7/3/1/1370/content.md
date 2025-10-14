@@ -8,11 +8,19 @@ Joyal  promoted [[quasi-categories]], greatly extending their theory, as a basis
 
 Joyal has contributed to the $n$Lab as 'joyal'; he once began a project at [[joyalscatlab:HomePage|joyalscatlab]].
 
-[webpage](http://professeurs.uqam.ca/professeur?c=joyal.andre), [wikipedia](http://en.wikipedia.org/wiki/Andr%C3%A9_Joyal)
+* [institute page](http://professeurs.uqam.ca/professeur?c=joyal.andre) ([old version](https://web.archive.org/web/19990221035246/http://www.math.uqam.ca/_joyal/))
 
-[Old webpage](https://web.archive.org/web/19990221035246/http://www.math.uqam.ca/_joyal/).
+* [cv](https://web.archive.org/web/20030707225620/http://132.208.138.87/_joyal/joyal.pdf) (from 1995)
 
-[CV](https://web.archive.org/web/20030707225620/http://132.208.138.87/_joyal/joyal.pdf) from 1995.
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Andr%C3%A9_Joyal)
+
+* [MathGenealogy page](https://mathgenealogy.org/id.php?id=206285)
+
+* [inSpire page](https://inspirehep.net/authors/2959454)
+
+
+
+
 
 ## Selected writings
 
