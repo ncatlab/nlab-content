@@ -32,7 +32,7 @@ Such fixed points we discuss below in
 The importance of fixed points all throughout mathematics is difficult to overstate. They are particularly important in [[analysis]], [[topology]], [[lattice]] theory, set theory, and category theory. Fixed points of endofunctors frequently arise as solutions to "recursive equations", especially in the form of [[initial algebra of an endofunctor|initial algebras and terminal coalgebras]]. 
 
 
-In [[category theory]] the concept of fixed points admits [[categorification]]: For example, if $F \colon C \to C$ is an [[endofunctor]], then an object $c$ of $C$ is called a "fixed point of the endofunctor" $F$ is there is an [[isomorphism]] $F(c) \cong c$ (although usually, a fixed point of a functor is an object together with a specified such isomorphism). These fixed points for endofunctors we discuss below in 
+In [[category theory]] the concept of fixed points admits [[categorification]]: For example, if $F \colon C \to C$ is an [[endofunctor]], then an object $c$ of $C$ is called a "fixed point of the endofunctor" $F$ if there is an [[isomorphism]] $F(c) \cong c$ (although usually, a fixed point of a functor is an object together with a specified such isomorphism). These fixed points for endofunctors we discuss below in 
 
 * _[Fixed points of an endofunctor](#ExamplesInCategoryTheory)_
 
