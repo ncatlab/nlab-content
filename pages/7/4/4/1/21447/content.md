@@ -13,6 +13,8 @@ More on [[gravity]] in the RS model:
 
 * [[Andreas Karch]], [[Lisa Randall]], *Locally Localized Gravity*, JHEP 0105:008 (2001) &lbrack;[arXiv:hep-th/0011156](https://arxiv.org/abs/hep-th/0011156), [doi:10.1088/1126-6708/2001/05/008](https://doi.org/10.1088/1126-6708/2001/05/008)&rbrack;
 
+* Severin Lüst, Michael Nee, [[Lisa Randall]]: *More Effective RS Field Theory* &lbrack;[arXiv:2510.11771](https://arxiv.org/abs/2510.11771)&rbrack;
+
 
 On [[AdS/CFT]] as [[open/closed string duality]] and early discussion of the concept of [[probe branes]] in [[AdS/CFT]]:
 
