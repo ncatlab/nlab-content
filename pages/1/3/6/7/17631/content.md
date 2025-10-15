@@ -115,19 +115,15 @@ In the first place, there is a monoid structure on the set of mountain ranges, e
 
 $$f \ast g: [2(m+n)] \to \mathbb{N}$$ 
 
-is defined by $j \mapsto f(j)$ if $0 \leq j \leq 2m$, and $j \mapsto g(j-2m)$ if $2m \leq 2(m+n)$, noting that $(f \ast g)(2m) = 0$ in either case by definition of mountain range ($f(2m) = 0 = g(0)$). 
+is defined by $j \mapsto f(j)$ if $0 \leq j \leq 2m$, and $j \mapsto g(j-2m)$ if $2m \leq j \leq 2(m+n)$, noting that $(f \ast g)(2m) = 0$ in either case by definition of mountain range ($f(2m) = 0 = g(0)$). 
 
-We define $Moun: Tree^\ast \to Range$, from the free monoid on trees to mountain ranges, by the following recursive rules: 
+We define $Moun: Tree^\ast \to Range$, from the free monoid on trees to mountain ranges, to be the unique monoid map defined recursively by: 
 
 * $Moun(x): \{0\} \to \mathbb{N}$ takes the value $0$. 
 
-* If $Moun(w_1), \ldots Moun(w_n)$ have been defined for reduced forms $w_1, \ldots, w_n$, then 
+* For reduced forms $w_1, \ldots, w_n$, put $w = w_1, w_1 \ldots w_n$, and define $Moun(x^w): [2(k+1)] \to \mathbb{N}$ to be the function that takes $j$ for $1 \leq j \leq 2k+1$ to $1 + Moun(w)(j-1)$. 
 
-  * $Moun(w_1 \ldots w_n) = Moun(w_1) \ast \ldots \ast Moun(w_n)$, as a function $[2k] \to \mathbb{N}$ for some $k$, in which case 
-
-  * $Moun(x^{w_1 \ldots w_n}): [2(k+1)] \to \mathbb{N}$ takes $j$ for $1 \leq j \leq 2k+1$ to $1 + Moun(w_1 \ldots w_n)(j-1)$. 
-
-Then define $\rho: Tree \to Range$ to be the mapping that takes a tree $T = x^w$ to $Moun(w)$. 
+The map $\rho: Tree \to Range$ is defined to be the restriction of $Moun$ along the canonical inclusion $Tree \hookrightarrow Tree^\ast$. 
 
 +-- {: .num_prop} 
 ###### Proposition 
