@@ -70,13 +70,11 @@ and the GRS model, due to
 
 * Csaba Csaki, Joshua Erlich, Timothy J. Hollowood, _Quasi-Localization of Gravity by Resonant Modes_, Phys. Rev. Lett.84:5932-5935, 2000 ([arXiv:hep-th/0002161](https://arxiv.org/abs/hep-th/0002161))
 
-a well as [[intersecting D-brane models]].
+as well as [[intersecting D-brane models]].
 
 More on the localized [[gravity]] in RS-models:
 
 * {#KarchRandall00} [[Andreas Karch]], [[Lisa Randall]], *Locally Localized Gravity*, JHEP 0105:008 (2001) &lbrack;[arXiv:hep-th/0011156](https://arxiv.org/abs/hep-th/0011156), [doi:10.1088/1126-6708/2001/05/008](https://doi.org/10.1088/1126-6708/2001/05/008)&rbrack;
-
-
 
 
 Review:
@@ -97,6 +95,13 @@ Possible relation to [[flavour anomalies]] via potential [[leptoquarks]]:
 Discussion of [[standard model of particle physics|standard model]]-building in [[heterotic M-theory|Horava-Witten]]-type compactifications:
 
 * Y. H. Ahn, Sin Kyu Kang, Hyun Min Lee, *Towards a Model of Quarks and Leptons* ([arXiv:2112.13392](https://arxiv.org/abs/2112.13392))
+
+See also:
+
+* Severin Lüst, Michael Nee, [[Lisa Randall]]: *More Effective RS Field Theory* &lbrack;[arXiv:2510.11771](https://arxiv.org/abs/2510.11771)&rbrack;
+
+
+
 
 
 ### As intersecting brane models in string theory 
