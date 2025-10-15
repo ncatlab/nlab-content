@@ -524,6 +524,18 @@ $$
 
 See [[long exact sequence of homotopy groups]].
 
+## Properties
+
+### Action on the fiber
+
+Given a fiber sequence of topological spaces
+
+$$
+F \to E \to B
+$$
+
+the [[loop space]] $\Omega B$ of the base space $B$ has a [[infinity-action|homotopy-coherent action]] on the fiber $F$. The result seems to go back at least to ([Brown 1959](#Brown59)). See also ([Eckmann-Hilton 1960](#EckHil60)), ([Heath 1973](#Heath73)); Chapter 6 in ([May 1999](https://ncatlab.org/nlab/show/A+Concise+Course+in+Algebraic+Topology)).
+
 ## Examples
 
 ### Characterization of equivalences {#CharOfEquivalences}
@@ -1065,6 +1077,15 @@ Related discussion on the behaviour of [[fiber sequence]]s under left [[Bousfiel
 
 * [[Matthias Wendt]], _Fibre sequences and localization of simplicial sheaves_,
 Alg. Geom. Topol. 13(3), 2013, pp. 1779--1813. ([preprint pdf](http://home.mathematik.uni-freiburg.de/arithmetische-geometrie/preprints/wendt-flocal.pdf) and [ArXiv](http://arxiv.org/abs/1011.4784).)
+
+On the action of the loop space of the base space on the fiber
+
+* {#Brown59} [[Edgar Brown]]. *Twisted Tensor Products, I*. Annals of Mathematics, Vol. 69, No. 1 (Jan., 1959), pp. 223-246. ([doi](https://doi.org/10.2307/1970101)).
+
+* {#EckHil60} [[Beno Eckmann]] and [[Peter Hilton]]. *Operators and cooperators in homotopy theory*. Math. Ann. 141, 1–21 (1960). ([doi](https://doi.org/10.1007/BF01367447)).
+
+* {#Heath73} Philip R. Heath. *Groupoid operations and fibre-homotopy equivalence. I*. I. Math Z 130, 207–233 (1973). ([doi](https://doi.org/10.1007/BF01246620)).
+
 
 
 [[!redirects fiber sequences]]
