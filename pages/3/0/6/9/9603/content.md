@@ -19,7 +19,7 @@ A [[loop (algebra)|loop]] is a set with a [[binary operation]] that is similar t
 
 $$ u v = w \quad \implies \quad \alpha(u) \beta(v) = \gamma(w) .$$
 
-This conceptual definition was given by Conway and Smith, who prove it is equivalent to a more commonly used definition in terms of two equational laws called the _Moufang identities_.
+This conceptual definition was given by [Conway & Smith 2003](#ConwaySmith2003), who prove that it is equivalent to a more commonly used definition in terms of two equational laws called the _Moufang identities_.
 
 ## Definition
 
@@ -43,7 +43,7 @@ and the **flexible** law
 
 * $(u v) u = u (v u) $
 
-As emphasized by Conway and Smith, in a Moufang loop every element has a left and right inverse and these agree.  Furthermore we have these identities
+As emphasized by [Conway & Smith 2003](#ConwaySmith2003), in a Moufang loop every element has a left and right inverse and these agree.  Furthermore we have these identities
 
 * $u (v w) = (u v u)(u^{-1} w) $
 
@@ -51,7 +51,7 @@ As emphasized by Conway and Smith, in a Moufang loop every element has a left an
 
 which say how to left or right multiply a product by an element $u$.  (The products $u v u$ and $u w u$ are unambiguous thanks to the alternative law.)
 
-One may consider the weaker analogous structure without unit $e$, the Moufang quasigroup, but the Moufang identities, by a result of [[Kenneth Kunen]] imply that the quasigroup is a loop.
+One may consider the weaker analogous structure without unit $e$, the Moufang quasigroup, but the Moufang identities, by a result of [Kunen 1996](#Kunen1996) imply that the quasigroup is a loop.
 
 ## Properties
 
@@ -72,24 +72,45 @@ Moufang loops are _[[power-associative algebra|power-associative]]_, in that any
 
 * There is a finite Moufang loop of order $2^{13}$ which [[John Conway]] used to construct the [[Monster group]]. This Moufang loop is a central extension by $\mathbb{Z}/2$ of the [[binary Golay code]], an abelian group of order $2^{12}$, see ([Hsu](#Hsu)). This is a special case of a [[code loop]], which is a specific sort of Moufang loop.
 
+## Related concepts
+
+* [[quasigroup]]
+
+* [[Bol loop]]
+
+* [[identities of Bol-Moufang type]]
+
+* [[composition algebra]]
+
+
+
 ## References
 
-Related concepts in $n$Lab: [[quasigroup]], [[Bol loop]], [[composition algebra]], [[identities of Bol-Moufang type]]
+The original article:
 
-* Wikipedia: [Moufang loop](http://en.wikipedia.org/wiki/Moufang_loop)
+* {#Moufang1935} [[Ruth Moufang]]: *Zur Struktur von Alternativkörpern*, Math. Ann. **110** (1935) 416430 &lbrack;[doi:10.1007/BF01448037](https://doi.org/10.1007/BF01448037), [eudml:159732](https://eudml.org/doc/159732), [gdz:GDZPPN002277301](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002277301)&rbrack;
 
-* John Conway and Derek Smith, _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_.
+Early further discussion:
 
-* [[eom]]: [Moufang loop](http://www.encyclopediaofmath.org/index.php?title=M/m065050)
+* {#Kunen1996} [[Kenneth Kunen]]: _Moufang quasigroups_, J. Algebra __183__ 1 (1996) 231-234 &lbrack;[doi:10.1006/jabr.1996.0216](http://dx.doi.org/10.1006/jabr.1996.0216)&rbrack;
 
-* R. Moufang, _Zur Struktur von Alternativk&#246;rpern_, Math. Ann. __110__ (1935) 416&#8211;430 ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002277301))
+Monographs:
 
-* Tim Hsu, _Explicit constructions of code loops as centrally twisted products_, Math. Proc. Cambridge Philos. Soc. __128__ (2000), no. 2, 223&#8211;232 ([journal](http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=37707&fulltextType=RA&fileId=S030500419900403X) or [preprint](http://www.math.sjsu.edu/~hsu/pdf/tp.pdf))
-{#Hsu}
+* {#ConwaySmith2003} [[John Conway]], [[Derek Smith]], *Moufang Loops*, chapter 7 in: _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_, A K Peters/CRC Press (2003) &lbrack;[ISBN:9781568811345](https://www.routledge.com/On-Quaternions-and-Octonions/Conway-Smith/p/book/9781568811345), [doi:10.1201/9781439864180](https://doi.org/10.1201/9781439864180)&rbrack;
 
-* [[Kenneth Kunen]], _Moufang quasigroups_, J. Algebra __183__:1 (1996) 231&#8211;234 [doi](http://dx.doi.org/10.1006/jabr.1996.0216)
+See also:
 
-* E. N. Kuz'min, Algebra i Logika __10__ (1) (1971), pp. 3&#8211;22, in Russian [pdf](), English translation: _On a relation between Malcev algebras and analytic Moufang loops_, Algebra Logic __10__ (1972), pp. 1&#8211;14
+* Wikipedia: *[Moufang loop](http://en.wikipedia.org/wiki/Moufang_loop)(
+
+* [[eom]]: *[Moufang loop](http://www.encyclopediaofmath.org/index.php?title=M/m065050)*
+
+
+Further discussion:
+
+* E. N. Kuz'min, Algebra i Logika __10__ (1) (1971) 3-22  English translation: _On a relation between Malcev algebras and analytic Moufang loops_, Algebra Logic __10__ (1972) 1-14
+
+* {#Hsu} Tim Hsu, _Explicit constructions of code loops as centrally twisted products_, Math. Proc. Cambridge Philos. Soc. __128__ 2 (2000) 223-232 &lbrack;[doi:10.1017/S030500419900403X](https://doi.org/10.1017/S030500419900403X)&rbrack;
+
 
 [[!redirects Moufang loops]]
 [[!redirects Moufang quasigroup]]
