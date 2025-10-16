@@ -107,6 +107,8 @@ Dedicated monographs:
 
 * {#Zhang1997} [[Fuzhen Zhang]]: *Quaternions and matrices of quaternions*, Linear Algebra and its Applications **251** (1997) 21-57 \[<a href="https://doi.org/10.1016/0024-3795(95)00543-9">doi:10.1016/0024-3795(95)00543-9</a>\]
 
+* [[John Conway]], [[Derek Smith]]: _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_, A K Peters/CRC Press (2003) &lbrack;[ISBN:9781568811345](https://www.routledge.com/On-Quaternions-and-Octonions/Conway-Smith/p/book/9781568811345), [doi:10.1201/9781439864180](https://doi.org/10.1201/9781439864180)&rbrack;
+
 * [[Andrew J. Hanson]]: *Visualizing Quaternions*, Series in Interactive 3D Technology, Morgan Kaufman (2006) &lbrack;[ISBN:978-0-12-088400-1](https://shop.elsevier.com/books/visualizing-quaternions/cunningham/978-0-12-088400-1), [pdf](http://www.r-5.org/files/books/computers/algo-list/realtime-3d/Andrew_Hanson-Visualizing_Quaternions-EN.pdf)&rbrack;
 
 * [[Andrew J. Hanson]]: *Visualizing More Quaternions*, Morgan Kaufman (2024) &lbrack;[ISBN:978-0-323-99202-2](https://shop.elsevier.com/books/visualizing-more-quaternions/hanson/978-0-323-99202-2)&rbrack;
