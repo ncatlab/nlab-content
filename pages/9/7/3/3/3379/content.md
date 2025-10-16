@@ -13,9 +13,6 @@
 =--
 =--
 
-
-
-# Idempotent adjunctions
 * table of contents
 {: toc}
 
