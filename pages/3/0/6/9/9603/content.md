@@ -15,17 +15,41 @@
 
 ## Idea
 
-A Moufang loop is a set with a [[binary operation]] that is similar to that of a [[group]], but does not require [[associativity]]. Making this precise is a little fiddly.
+A [[loop (algebra)|loop]] is a set with a [[binary operation]] that is similar to that of a [[group]], but does not require [[associativity]].  A *Moufang loop* $Q$ is one for which so-called monotopies act transitively, where a **monotopy** is a bijection $\gamma : Q \to Q$ such that there exist bijections $\alpha, \beta \colon Q \to Q$ such that
+
+$$ u v = w \quad \implies \quad \alpha(u) \beta(v) = \gamma(w) .$$
+
+This conceptual definition was given by Conway and Smith, who prove it is equivalent to a more commonly used definition in terms of two equational laws called the _Moufang identities_.
 
 ## Definition
 
-A **Moufang loop** is a set $Q$ with a binary operation $\cdot\colon Q\times Q \to Q$ (a [[magma]]) with two-sided unit $e$ such that left and right multiplication, $y\cdot -\colon Q \to Q$ and $-\cdot x\colon Q \to Q$ respectively, are [[isomorphisms]] (i.e. it is a unital [[quasigroup]] or _[[loop (algebra)|loop]]_) and such that the _Moufang identities_ hold:
+A **loop** is a set $Q$ with a binary operation $\cdot\colon Q\times Q \to Q$ (a [[magma]]) with two-sided unit $e$ such that left and right multiplication, $y\cdot -\colon Q \to Q$ and $-\cdot x\colon Q \to Q$ respectively, are [[bijections]] (i.e. it is a unital [[quasigroup]]).   A **Moufang loop** is a loop such that the **Moufang identities** hold:
 
 * $(u v)(w u) = (u(v w))u = u((v w)u)$ 
+
+These identities imply others, including
 
 * $((u v)u)w = u(v(u w))$
 
 * $((u v)w)v = u(v(w v))$
+
+the so-called **alternative** laws
+
+* $(u u) v = u (u v) $
+
+* $(u v) v = (u v) v$
+
+and the **flexible** law
+
+* $(u v) u = u (v u) $
+
+As emphasized by Conway and Smith, in a Moufang loop every element has a left and right inverse and these agree.  Furthermore we have these identities
+
+* $u (v w) = (u v u)(u^{-1} w) $
+
+* $(v w) u = (v u^{-1}) (u w u) $
+
+which say how to left or right multiply a product by an element $u$.  (The products $u v u$ and $u w u$ are unambiguous thanks to the alternative law.)
 
 One may consider the weaker analogous structure without unit $e$, the Moufang quasigroup, but the Moufang identities, by a result of [[Kenneth Kunen]] imply that the quasigroup is a loop.
 
@@ -54,6 +78,8 @@ Related concepts in $n$Lab: [[quasigroup]], [[Bol loop]], [[composition algebra]
 
 * Wikipedia: [Moufang loop](http://en.wikipedia.org/wiki/Moufang_loop)
 
+* John Conway and Derek Smith, _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_.
+
 * [[eom]]: [Moufang loop](http://www.encyclopediaofmath.org/index.php?title=M/m065050)
 
 * R. Moufang, _Zur Struktur von Alternativk&#246;rpern_, Math. Ann. __110__ (1935) 416&#8211;430 ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002277301))
@@ -62,7 +88,8 @@ Related concepts in $n$Lab: [[quasigroup]], [[Bol loop]], [[composition algebra]
 {#Hsu}
 
 * [[Kenneth Kunen]], _Moufang quasigroups_, J. Algebra __183__:1 (1996) 231&#8211;234 [doi](http://dx.doi.org/10.1006/jabr.1996.0216)
-* E. N. Kuz'min, , Algebra i Logika __10__ (1) (1971), pp. 3&#8211;22, in Russian [pdf](), English translation: _On a relation between Malcev algebras and analytic Moufang loops_, Algebra Logic __10__ (1972), pp. 1&#8211;14
+
+* E. N. Kuz'min, Algebra i Logika __10__ (1) (1971), pp. 3&#8211;22, in Russian [pdf](), English translation: _On a relation between Malcev algebras and analytic Moufang loops_, Algebra Logic __10__ (1972), pp. 1&#8211;14
 
 [[!redirects Moufang loops]]
 [[!redirects Moufang quasigroup]]
