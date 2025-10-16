@@ -38,6 +38,11 @@ On 3D [[space groups]] in relation to the 2D [[wallpaper groups]]:
 
 * [[John Conway]], [[Olaf Delgado Friedrichs]], [[Daniel H. Huson]], [[William P. Thurston]]: *On Three-Dimensional Space Groups*, Beiträge zur Algebra und Geometrie **42** 2 (2001) 475-507 &lbrack;[arXiv:math/9911185](https://arxiv.org/abs/math/9911185), [eudml:233409](http://eudml.org/doc/233409)&rbrack;
 
+On [[quaternions]] and [[octonions]] (and more generally on [[composition algebras]] and [[Moufang loops]]):
+
+* [[John Conway]], [[Derek Smith]]: _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_, A K Peters/CRC Press (2003) &lbrack;[ISBN:9781568811345](https://www.routledge.com/On-Quaternions-and-Octonions/Conway-Smith/p/book/9781568811345), [doi:10.1201/9781439864180](https://doi.org/10.1201/9781439864180)&rbrack;
+
+
 On platycosms (including the [[Hantzsche-Wendt manifold]]):
 
 * {#ConwayRossetti03} [[John Conway]], Jean-Paul Rossetti, _Describing the platycosms_ (2003) &lbrack;[arXiv:math/0311476](https://arxiv.org/abs/math/0311476)&rbrack;
@@ -61,6 +66,7 @@ See also:
 
 * [[Euler characteristic]]
 
+* [[octonionic projective plane]]
 
 category: people
 
