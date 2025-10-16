@@ -110,7 +110,7 @@ where $f'$ is any representative of the class $[f]$ according to Prop. \ref{Cons
 ([Jänich 1965 Lemma 5](#Jänich65))
 
 \begin{remark}
-  The construction of the index map (eq:IndexMap) by [Atiyah 1967 Lem A3, Cor A4](#Atiyah67) is a little different (though the result of course is the same). Exposition is in [Sheth §2](#Sheth).
+  The construction of the index map (eq:IndexMap) by [Atiyah 1967 Lem A3, Cor A4](#Atiyah67) is a little different (though the result, of course, is the same). Exposition is in [Sheth §2](#Sheth).
 \end{remark}
 
 
