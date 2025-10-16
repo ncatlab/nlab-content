@@ -741,9 +741,12 @@ Review:
 
 * [[Tevian Dray]]: *The Geometry of Octonions*, talk slides &lbrack;[pdf](https://sites.science.oregonstate.edu/~tevian/talks/PSUpub.pdf), [[Dray-GeometryOctonions.pdf:file]]&rbrack;
 
-Textbook accounts:
+Monographs:
 
 * {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]]: _Octonions, Jordan Algebras, and Exceptional Groups_, Monographs in Mathematics, Springer (2000) &lbrack;[doi:10.1007/978-3-662-12622-6](https://doi.org/10.1007/978-3-662-12622-6)&rbrack;
+
+* [[John Conway]], [[Derek Smith]]: _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_, A K Peters/CRC Press (2003) &lbrack;[ISBN:9781568811345](https://www.routledge.com/On-Quaternions-and-Octonions/Conway-Smith/p/book/9781568811345), [doi:10.1201/9781439864180](https://doi.org/10.1201/9781439864180)&rbrack;
+
 
 * {#DrayManogue15} [[Tevian Dray]], [[Corinne Manogue]]: *The Geometry of Octonions*, World Scientific (2015) &lbrack;[doi:10.1142/8456](https://doi.org/10.1142/8456), [web](https://sites.science.oregonstate.edu/coursewikis/GO/start.html)&rbrack;
 
