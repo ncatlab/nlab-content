@@ -23,7 +23,7 @@ An *assembly* is a mathematical structure on a [[partial combinatory algebra]] u
 
 Given a [[partial combinatory algebra]] $A$, an **$A$-valued assembly** $X$ consists of a set ${|X|}$ and any one of these equivalent structures:
 
-* a [[family of sets]] $(E_X(x))_{x \in |X|}$ such that each $E_X(x)$ is an [[inhabited sets|inhabited]] [[subset]] of $A$ for all $x \in A$. 
+* a [[family of sets]] $(E_X(x))_{x \in |X|}$ such that each $E_X(x)$ is an [[inhabited sets|inhabited]] [[subset]] of $A$ for all $x \in |X|$. 
 
 * a [[multivalued function]] $E_X \colon {|X|} \to P_{\ge 1}(A)$ from $|X|$ to $A$, where $P_{\ge 1}(A)$ denotes the set of [[inhabited set|inhabited]] subsets of $A$. 
 
