@@ -32,7 +32,7 @@ Let [[Top]] be the [[category]] of [[compactly generated spaces]] and [[continuo
 Consider the [[(2,1)-topos]] of [[(2,1)-sheaves]]=[[stack]]s
 
 $$
-  TopStack := Sh_{(2,1)}(Top)
+  TopStack \coloneqq Sh_{(2,1)}(Top)
 $$
 
 of [[groupoid]]s on $\mathrm{Top}$; by [[Yoneda embedding|Yoneda]] $\mathrm{Top}$ is a full [[sub-(∞,1)-category|sub-(2,1)-category]]
@@ -101,31 +101,32 @@ By the [[Yoneda lemma]], $Hom(T,Bun_G) \cong Bun_G(T)$ for all $T$. Moreover, if
 
 ## References
 
-Basics
+> (See also the references at *[[topological groupoid]]*.)
 
+Basics:
 
-* {#Noohi}[[Behrang Noohi]], *Foundations of Topological Stacks I* ([arXiv:math.AG/0503247](http://arxiv.org/abs/math.AG/0503247))
+* {#Noohi}[[Behrang Noohi]], *Foundations of Topological Stacks I* &lbrack;[arXiv:math.AG/0503247](http://arxiv.org/abs/math.AG/0503247)&rbrack;
 
-* {#Carchedi11} [[David Carchedi]], _Categorical Properties of Topological and Diffentiable Stacks_, PhD thesis, Universiteit Utrecht, 2011 ([dspace:1874/208971](https://dspace.library.uu.nl/handle/1874/208971), [pdf](http://math.gmu.edu/~dcarched/Thesis_David_Carchedi.pdf). [[CarchediDifferentiableStacks.pdf:file]])
+* {#Carchedi11} [[David Carchedi]]: _Categorical Properties of Topological and Diffentiable Stacks_, PhD thesis, Universiteit Utrecht (2011) &lbrack;[dspace:1874/208971](https://dspace.library.uu.nl/handle/1874/208971), [pdf](http://math.gmu.edu/~dcarched/Thesis_David_Carchedi.pdf). [[CarchediDifferentiableStacks.pdf:file]]&rbrack;
 
 * [[David Carchedi]], *Compactly Generated Stacks: A Cartesian Closed Theory of Topological Stacks*, Advances in Mathematics **229** 6 (2012) 3339-3397 &lbrack;[doi:10.1016/j.aim.2012.02.006](http://dx.doi.org/10.1016/j.aim.2012.02.006), [arXiv:0907.3925](http://arxiv.org/abs/0907.3925)&rbrack;
 
-* Metzler, _Topological and smooth stacks_ ([arXiv:math/0306176](http://arxiv.org/abs/math/0306176))
+* Metzler: _Topological and smooth stacks_ &lbrack;[arXiv:math/0306176](http://arxiv.org/abs/math/0306176)&rbrack;
 
 On [[geometric realization of topological stacks]]:
 
-* {#Noohi}[[Behrang Noohi]], *Homotopy types of topological stacks*, Advances in Mathematics Volume 230, Issues 4–6, July–August 2012, Pages 2014-2047 ([arXiv:0808.3799](https://arxiv.org/abs/0808.3799))
+* {#Noohi}[[Behrang Noohi]], *Homotopy types of topological stacks*, Advances in Mathematics **230** 4–6 (2012) 2014-2047 &lbrack;[arXiv:0808.3799](https://arxiv.org/abs/0808.3799), [doi:10.1016/j.aim.2012.04.001](https://doi.org/10.1016/j.aim.2012.04.001)&rbrack;
 
-* [[Johannes Ebert]], *The homotopy type of a topological stack* ([arXiv:0901.3295](https://arxiv.org/abs/0901.3295))
+* [[Johannes Ebert]], *The homotopy type of a topological stack* &lbrack;[arXiv:0901.3295](https://arxiv.org/abs/0901.3295)&rbrack;
 
 
 On [[mapping stacks]] of [[topological stacks]]:
 
-* {#Noohi08} [[Behrang Noohi]], _Mapping stacks of topological stacks_ ([arXiv:0809.2373](http://arxiv.org/abs/0809.2373))
+* {#Noohi08} [[Behrang Noohi]]: _Mapping stacks of topological stacks_ &lbrack;[arXiv:0809.2373](http://arxiv.org/abs/0809.2373)&rbrack;
  
 and in the special case of [[free loop stacks]]:
 
-* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_ &lbrack;[arXiv:0712.3857](https://arxiv.org/abs/0712.3857)&rbrack;
+* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]]: _String topology for stacks_ &lbrack;[arXiv:0712.3857](https://arxiv.org/abs/0712.3857)&rbrack;
 
 
 [[!redirects topological stack]]
