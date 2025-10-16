@@ -155,6 +155,9 @@ $$
 
 ### General
 
+* [[John Conway]], [[Derek Smith]], section 12 of: _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_, A K Peters/CRC Press (2003) &lbrack;[ISBN:9781568811345](https://www.routledge.com/On-Quaternions-and-Octonions/Conway-Smith/p/book/9781568811345), [doi:10.1201/9781439864180](https://doi.org/10.1201/9781439864180)&rbrack;
+
+
 * {#DrayManogue15} [[Tevian Dray]], [[Corinne Manogue]]: *The Octonionic Projective Plane*, §12.5 in: *The Geometry of Octonions*, World Scientific (2015) &lbrack;[doi:10.1142/8456](https://doi.org/10.1142/8456), [web](https://sites.science.oregonstate.edu/coursewikis/GO/start.html), [[DrayManogue15-12-5.pdf:file]]&rbrack;
 
 * {#Lackmann19} [[Malte Lackmann]]: _The octonionic projective plane_, in MATRIX Book Series **4**, Springer (2021) &lbrack;[doi:10.1007/978-3-030-62497-2_6](https://doi.org/10.1007/978-3-030-62497-2_6), [arXiv:1909.07047](https://arxiv.org/abs/1909.07047)&rbrack;
@@ -199,5 +202,8 @@ Indications that [[M-theory]] in 10+1 dimensions may be understood as the [[KK-c
 
 [[!redirects octonionic projective plane]]
 [[!redirects octonionic projective planes]]
+
+[[!redirects OP2]]
+[[!redirects OP^2]]
 
 
