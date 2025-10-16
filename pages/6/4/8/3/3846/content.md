@@ -598,9 +598,12 @@ The term "composition algebra" refers to "composition of sums of squares", as in
 
 * {#Taussky70} Olga Taussky, Section 6 of: *Sums of squares*, The American Mathematical Monthly **77** 8  (1970) 805-830 $[$[doi:10.2307/2317016](https://doi.org/10.2307/2317016)$]$
 
-Textbook account:
+Monographs:
 
-* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 1 of: _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000
+* {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], chapter 1 of: _Octonions, Jordan Algebras, and Exceptional Groups_, Monographs in Mathematics, Springer (2000)
+
+* [[John Conway]], [[Derek Smith]], section 6 of: _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_, A K Peters/CRC Press (2003) &lbrack;[ISBN:9781568811345](https://www.routledge.com/On-Quaternions-and-Octonions/Conway-Smith/p/book/9781568811345), [doi:10.1201/9781439864180](https://doi.org/10.1201/9781439864180)&rbrack;
+
 
 Survey:
 
