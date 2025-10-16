@@ -53,6 +53,8 @@ Every [[topos]] ([[Grothendieck topos]]) with [[point of a topos|enough points]]
 
 ## References
 
+> (See also the references at *[[topological stack]]*.)
+
 The notion of topological categories, hence of topological groupoids, goes back to 
 
 * [[Charles Ehresmann]], _Catégories topologiques et categories différentiables_, Colloque de Géométrie différentielle globale, Bruxelles, C.B.R.M., (1959) pp. 137-150 ([[EhresmannCategoriesTopologiques.pdf:file]], [zbMath:0205.28202](https://zbmath.org/?q=an:0205.28202))
@@ -65,11 +67,11 @@ but the simple notion of [[internalization]] and [[internal groupoids]] ([Grothe
 
 Exposition:
 
-* [[Alan Weinstein]], p. 6 of: _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS volume 43, Number 7 (1996) ([pdf](http://www.ams.org/notices/199607/weinstein.pdf), [[Weinstein_Groupoids.pdf:file]])
+* [[Alan Weinstein]], p. 6 of: _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS **43** 7 (1996) &lbrack;[pdf](http://www.ams.org/notices/199607/weinstein.pdf), [[Weinstein_Groupoids.pdf:file]]&rbrack;
 
 Textbook account:
 
-* [[Kirill Mackenzie]], Chapter II in: _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series, 124. Cambridge University Press, Cambridge, 1987. xvi+327 pp ([doi:10.1017/CBO9780511661839](https://doi.org/10.1017/CBO9780511661839), [MR:896907](http://www.ams.org/mathscinet-getitem?mr=896907))
+* [[Kirill Mackenzie]], Chapter II in: _Lie groupoids and Lie algebroids in differential geometry_, London Mathematical Society Lecture Note Series **124**, Cambridge University Press (1987) &lbrack;[doi:10.1017/CBO9780511661839](https://doi.org/10.1017/CBO9780511661839), [MR:896907](http://www.ams.org/mathscinet-getitem?mr=896907)&rbrack;
 
 Many references on topological groupoids deal with them as models for [[topological stacks]], see there for more.
 
