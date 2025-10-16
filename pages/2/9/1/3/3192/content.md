@@ -66,7 +66,7 @@ $$
 \begin{proposition}\label{ImageIsClosed}
 The [[image]] (range) of a Fredholm operator is [[closed subspace|closed]]. 
 \end{proposition}
-(cf. [Murphy 1990 Thm. 1.4.7](#Murphy90))
+(cf. [Atiyah 1967 p. 153-4](#Atiyah67), [Murphy 1990 Thm. 1.4.7](#Murphy90))
 
 
 \begin{proposition}\label{SubspaceOfFredholmInNormTopology}
