@@ -133,7 +133,7 @@ A basic discussion is for instance around application 1.1.3 of
 
 Homology for spaces  is discussed in chapter 2 of 
 
-*  [[Alan Hatcher]], [Algebraic topology](http://www.math.cornell.edu/~hatcher/AT/AT.pdf), Cambridge Univ. Press 2002, starting p. 106
+*  [[Alan Hatcher]], [Algebraic topology](https://pi.math.cornell.edu/~hatcher/AT/AT.pdf), Cambridge Univ. Press 2002, starting p. 106
 
 and this includes a discussion of the homology of simplicial complexes.
 
