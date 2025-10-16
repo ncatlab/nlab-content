@@ -136,7 +136,7 @@ Some alternate characterizations, and applications in [[Topos]], are discussed i
 
 The proof that a semi-left-exact reflection is a Street fibration can be found in Section 5 of
 
-* [[Matias Menni]], *Decidable objects and molecular toposes*, Rev. Un. Mat. Argentina 67 (2024), no.~2, 397--415.
+* [[Matias Menni]], *Decidable objects and molecular toposes*, Rev. Un. Mat. Argentina 67 (2024), no. 2, 397--415.
 
 
 [[!redirects Street fibration]]
