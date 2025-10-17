@@ -21,9 +21,9 @@
 
 ## Definition
 
-A **Artinian local ring** or **local Artinian ring** or **local Artin ring** or **Artin local ring** or **Weil ring** is a [[local ring]] which is also an [[Artinian ring]]; it satisfies the [[descending chain condition]]
+A **Artinian local ring** or **local Artinian ring** or **local Artin ring** or **Artin local ring** or **Weil ring** is a [[local ring]] which is also an [[Artinian ring]]; it satisfies the [[descending chain condition]].
 
-Crucially, this implies that the [[Jacobson radical]] of the local ring is a [[nilradical]]
+Crucially, this implies that the [[Jacobson radical]] of the local ring is a [[nilradical]].
 
 These are also called **Artinian local algebras**, **local Artinian algebras**, **Artin local algebras**, or **local Artin algebras** or **Weil algebras**, since Artinian local rings are [[commutative algebras]] over the residue field $\mathbb{K}$. 
 
