@@ -6,32 +6,48 @@
 
 ***
 
-From complete quantum field theories to higher topos ontology and back.
+**From complete quantum field theories**
+\linebreak
+**to higher topos ontology, and back**
 
 Physicists mindset: Care about understanding the world. Embrace the foundational math that comes with this; disregard mathematics as sport.
 
-Perturbative physics works on infinitesimal neighboorhoods: ordinary algebra.
+Glory and misery of contemporary QFT: Perturbation theory. Works wonders as far as it goes. But goes only infinitesimally far.
 
-Grand Millennium question: Complete QFTs. Nonperturbative physics needs the geometry of the field space. Not to be found in diff geo textbooks. Basic concepts are traditionally missing.
+Mathematically: Perturbation theory is the geometry of *infinitesimal* spaces. Amenable to ordinary algebra and analysis (formal power series).
 
+The Millennium problem: Complete QFT. Non-perturbative & global field geometry. Needs the geometry of the field space. Just not available in traditional diff geo textbooks. Hence even basic notions are traditionally missing.
 
-Topos Theory in physics provides the missing geometry of physics.
+Claim: (Cohesive Higher) Topos Theory is the missing global Geometry of Physics.
 
 Topos: Where physics may *take place*.
 
-Historical tidbit: Lawvere started out as a physicists, went from asking "what os a vector field, really" to laying foundations of Topos Theory, Indivisible order to speak about "Toposes of laws of motion".
+Historical tidbit: Lawvere started out working on continuum mechanics. Went from asking "what is a vector field, really?" to laying foundations for Topos Theory, in order to speak about "Toposes of Laws of Motion".
 
-But in addition there is gauge fields and topological charges and orbifolding (symmetry protection). Adding these to the picture brings in *higher* topos theory, geometric homotopy theory.
+But beyond classical continuum mechanics, there is gauge fields, topological charges, orbifolding (symmetry protection), and quantum states. Adjoining these to the picture brings in *higher topos theory*, also: *geometric homotopy theory*.
 
-Commonplace in theoretical to allude to "complete QFTs". As in "M-theory is the completion of 11D SuGra". But no traditional concept of what such complete theories would actually be. Claim: Higher Topos Theory is part of the missing language.
+| physics | topos |
+|---------|-------|
+| gauge principle | homotopy |
 
-Just like differential forms is the language for speaking about electrimagnetic fields. You can do without, but you won't get very far.
 
-Now, every topos is a category of geometric spaces of sorts. But many toposes (those usually highlighted in introductions to the topic, no less) are like categories of covering spaces of a fixed space $X$. These are clearly too small a scenery for general physics, in fact they are called *petit toposes*. Other toposes are categories of *all* generalized spaces modeled on some notion of Geometry (differential, super, analytic, ... etc). These are *gros toposes* 
+Commonplace in theoretical physics to allude to "complete QFTs". As in "M-theory is (going to be) the completion of 11D SuGra". But no traditional concept of what such complete theories would actually be. Claim: Higher Topos Theory is the missing language.
 
-We may then ask: What types of *gros* higher toposes are contexts for physics. Need: gauge (shape) and concreteness (sharp). Cohesion. Then also fermions: solid cohesion.
+Just like Riemannian geometry is the languge for speaking about gravity, or differential forms is the language for speaking about electromagnetic fields, or group/representation theory is the language for speaking about symmetries. You can do without, but you won't get very far.
 
-These are higher toposes carrying a progression of adjoint modalities. The structure expressed by these neatly matches idealistic ontology ("objective logic").
+Now, every topos is a category of geometric spaces of sorts. But many toposes (those usually highlighted in introductions to the topic, no less) are just like categories of covering spaces of a fixed space $X$. These are clearly too small a scenery for general physics, in fact they are called *petit toposes*. 
+
+Other toposes are categories of *all* generalized spaces exhibiting a given notion of geometry (differential, infinitesimal, analytic, super, ... etc.). These are called *gros toposes*. These are potentially geometries of physics.
+
+We may then ask: What types of *gros* higher toposes are actual geometries of physics? These must contain besides *concrete* spaces (physical spacetime) also superspaces (of fermionic fields) as well as moduli spaces for *gauge* fields.
+
+Such geometric "qualities" are encoded by systems of *adjoint modal operators* exhibited by a higher topos exhibiting "cohesion".
+
+These are higher toposes carrying a progression of adjoint modalities. 
+
+But every topos also is a language of formal logic (namely of exactly the laws that hold true in its geometry of physics).
+In this logic, the cohesive modalities are a progression of resolution of oppositions.
+From this logical perspective thse neatly matches idealistic ontology ("objective logic").
 
 So, in asking for fundamental physics we end up asking about natural foundations of mathematics. 
 
