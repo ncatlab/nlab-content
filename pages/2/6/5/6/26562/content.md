@@ -104,6 +104,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[imprecise probability|Imprecise probability]] in terms of graded monads and string diagrams: [LC-Staton'25](#imprecise_graded) and [Sarkis-Zanasi'25](#string_graded).
 
+* [[infinite tensor products|Infinite tensor products]] to model certain aspects of probability: [Fritz-Rischel'19](#fritzrischel) and [Lorenzin-Zanasi'25](#lorenzin_continuous)
+
 * [[Kantorovich duality]] in terms of [[probability monads]]: [Perrone'18](#Perrone_thesis), [Fritz-Perrone'19](#FPKant), [Fritz-Perrone'20](#orderedkantorovich).
 
 * [[Kolmogorov extension theorem]]: described in terms of [[Markov categories]] in [Fritz-Rischel'20](#fritzrischel), and in terms of [[probability monads]] (as [[codensity monads]]) in [Van Belle'23](#vb_martingales). 
@@ -380,8 +382,6 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#Heckmann96} Reinhold Heckmann, _Spaces of valuations_, Papers on General Topology and Ap-plications, 1996 ([doi:10.1111/j.1749-6632.1996.tb49168.x](https://doi.org/10.1111/j.1749-6632.1996.tb49168.x),[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.45.5845&rep=rep1&type=pdf))
 
-* {#stoch_memo} Younesse Kaddar and Sam Staton, _A model of stochastic memoization and name generation in probabilistic programming: categorical semantics via monads on presheaf categories_, Proceedings of MFPS, 2023. ([arXiv](https://arxiv.org/abs/2309.09467))
-
 * {#QBS} [[Chris Heunen]], Ohad Kammar, [[Sam Staton]] and Hongseok Yang, _A convenient category for higher-order probability theory_, Proceedings of LICS 2017. ([arXiv](https://arxiv.org/abs/1701.02547))
 
 * {#urn_isometric} [[Bart Jacobs]], _Drawing from an Urn is Isometric_, Proceedings of FoSSaCS, 2024. ([pdf](http://www.cs.ru.nl/B.Jacobs/PAPERS/draw-isometries.pdf))
@@ -419,6 +419,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#jones_plotkin89} Claire Jones and [[Gordon Plotkin]], _A probabilistic powerdomain of evaluations_, Procedings of LICS, 1989. ([doi](https://doi.org/10.1109/LICS.1989.39173))
 
+* {#stoch_memo} Younesse Kaddar and Sam Staton, _A model of stochastic memoization and name generation in probabilistic programming: categorical semantics via monads on presheaf categories_, Proceedings of MFPS, 2023. ([arXiv](https://arxiv.org/abs/2309.09467))
+
 * {#radonkeimel} [[Klaus Keimel]], _The monad of probability measures over compact ordered spaces and its Eilenberg-Moore algebras_, Topology and its Applications, 2008 ([doi:10.1016/j.topol.2008.07.002](https://doi.org/10.1016/j.topol.2008.07.002))
 
 * {#stone_markov} Dexter Kozen, Kim G. Larsen, Radu Mardare, [[Prakash Panangaden]], _Stone duality for Markov processes_, Proceedings of LICS, 2013. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/mfcs2013.pdf))
@@ -442,6 +444,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#imprecise_graded} Jack Liell-Cock and [[Sam Staton]], _Compositional imprecise probability_, POPL 2025. ([arXiv](https://arxiv.org/abs/2405.09391))
 
 * {#probabilistic_triangulation} Antonio Lorenzin and [[Fabio Zanasi]], _An Algebraic Approach to Moralisation and Triangulation of Probabilistic Graphical Models_, 2025. ([arXiv](https://arxiv.org/abs/2503.11820))
+
+* {#lorenzin_continuous} Antonio Lorenzin and [[Fabio Zanasi]], _Approaching the Continuous from the Discrete: an Infinite Tensor Product Construction_, 2025. ([arXiv](https://arxiv.org/abs/2510.14716))
 
 * {#wasserstein_algebras} Radu Mardare, [[Prakash Panangaden]], [[Gordon Plotkin]], _Free complete Wasserstein algebras_, LMCS 14, 2018. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/fcwa.pdf))
 
