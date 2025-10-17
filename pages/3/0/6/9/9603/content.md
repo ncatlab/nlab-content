@@ -64,13 +64,14 @@ Moufang loops are _[[power-associative algebra|power-associative]]_, in that any
 
 ## Examples
 
-* Any group is a Moufang loop.
+* A [[group]] is a Moufang loop.
 
 * The non-zero [[octonions]] form a Moufang loop, as does the multiplicatively closed subset of octonions of norm 1 (which form the [[7-sphere]]). The invertible elements in any alternative ring or [[alternative algebra]] form a Moufang loop. 
 
-* The basis octonions, $1,e_1,\ldots,e_7$ and their additive inverses $-1,-e_1,\ldots,-e_7$ form a finite Moufang loop of order 16 (compare with the case of the quaternions, where the basis elements and their inverses form a group of order 8, the [[quaternion group]] $Q_8$).
+* The basis [[octonions]], $1,e_1,\ldots,e_7$ and their additive inverses $-1,-e_1,\ldots,-e_7$ form a finite Moufang loop of order 16 (compare with the case of the quaternions, where the basis elements and their inverses form a group of order 8, the [[quaternion group]] $Q_8$).
 
 * There is a finite Moufang loop of order $2^{13}$ which [[John Conway]] used to construct the [[Monster group]]. This Moufang loop is a central extension by $\mathbb{Z}/2$ of the [[binary Golay code]], an abelian group of order $2^{12}$, see ([Hsu](#Hsu)). This is a special case of a [[code loop]], which is a specific sort of Moufang loop.
+
 
 ## Related concepts
 
@@ -94,6 +95,9 @@ The original article:
 
 Early further discussion:
 
+* E. N. Kuz'min: *The connection between Mal'cev algebras and analytic Moufang loops*, Algebra Logika **10** 1 (1971) 3-22 &lbrack;[mathnet:al/1279](https://m.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=al&paperid=1279&option_lang=eng)&rbrack;
+  > (relation to [[Malcev Lie algebras]])
+
 * {#Kunen1996} [[Kenneth Kunen]]: _Moufang quasigroups_, J. Algebra __183__ 1 (1996) 231-234 &lbrack;[doi:10.1006/jabr.1996.0216](http://dx.doi.org/10.1006/jabr.1996.0216)&rbrack;
 
 Monographs:
@@ -102,16 +106,15 @@ Monographs:
 
 See also:
 
-* Wikipedia: *[Moufang loop](http://en.wikipedia.org/wiki/Moufang_loop)(
+* Wikipedia: *[Moufang loop](http://en.wikipedia.org/wiki/Moufang_loop)*
 
 * [[eom]]: *[Moufang loop](http://www.encyclopediaofmath.org/index.php?title=M/m065050)*
 
 
 Further discussion:
 
-* E. N. Kuz'min, Algebra i Logika __10__ (1) (1971) 3-22  English translation: _On a relation between Malcev algebras and analytic Moufang loops_, Algebra Logic __10__ (1972) 1-14
 
-* {#Hsu} Tim Hsu, _Explicit constructions of code loops as centrally twisted products_, Math. Proc. Cambridge Philos. Soc. __128__ 2 (2000) 223-232 &lbrack;[doi:10.1017/S030500419900403X](https://doi.org/10.1017/S030500419900403X)&rbrack;
+* {#Hsu} Tim Hsu: _Explicit constructions of code loops as centrally twisted products_, Math. Proc. Cambridge Philos. Soc. __128__ 2 (2000) 223-232 &lbrack;[doi:10.1017/S030500419900403X](https://doi.org/10.1017/S030500419900403X)&rbrack;
 
 
 [[!redirects Moufang loops]]
