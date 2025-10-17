@@ -108,7 +108,7 @@ See also:
 
 * Wikipedia: *[Moufang loop](http://en.wikipedia.org/wiki/Moufang_loop)*
 
-* [[eom]]: *[Moufang loop](http://www.encyclopediaofmath.org/index.php?title=M/m065050)*
+* [[eom]]: *[Moufang loop](https://encyclopediaofmath.org/wiki/Moufang_loop)*
 
 
 Further discussion:
