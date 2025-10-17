@@ -209,6 +209,10 @@ An article with more details on this:
 
 ## References
 
+Lecture notes:
+
+* Miquel Cueca, Antonio Maglio, Fabricio Valencia: *Lecture notes on the symplectic geometry of graded manifolds and higher Lie groupoids* &lbrack;[arXiv:2510.09448](https://arxiv.org/abs/2510.09448)&rbrack;
+
 The notion originates somewhere in the school of [[Alan Weinstein]]'s school of [[higher category theory|higher categorial]] [[symplectic geometry]]. The first published appearance of the notion at least for $0 \leq n \leq 3$ is
 
 * [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and even symplectic supermanifolds_, PhD thesis &lbrack;[arXiv:9910078](http://arxiv.org/abs/math/9910078)&rbrack;
@@ -229,16 +233,15 @@ What we call $n$-symplectic manifold here is called $\Sigma_n$-manifold there.
 
 A discussion of aspects of how [[multisymplectic geometry]] related to $n$-symplectic manifolds is in 
 
-* [[Chris Rogers]], _Courant algebroids from categorified symplectic geometry_ ([pdf](http://math.ucr.edu/~chris/2plectic-algebroid_DRAFT.pdf))
-<a href="http://front.math.ucdavis.edu/1001.0040">arXiv:1001.0040v1 [math-ph]</a>
+* [[Chris Rogers]]: _Courant algebroids from categorified symplectic geometry_ &lbrack;[arXiv:1001.0040](https://arxiv.org/abs/1001.0040)&rbrack;
 
-* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) ([arXiv:1106.4068](http://arxiv.org/abs/1106.4068))
+* [[Chris Rogers]], _Higher symplectic geometry_ PhD thesis (2011) &lbrack;[arXiv:1106.4068](http://arxiv.org/abs/1106.4068)&rbrack;
 
-A discussion of symplectic Lie n-algebroids from an [[infinity-Lie theory]] perspective as discussed here is in 
+A discussion of symplectic Lie n-algebroids from an [[infinity-Lie theory]] perspective as discussed here:
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_, Int. J. Geom. Methods Mod. Phys. 10 (2013) 1250078 ([arXiv:1108.4378](http://arxiv.org/abs/1108.4378))
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_, Int. J. Geom. Methods Mod. Phys. 10 (2013) 1250078 &lbrack;[arXiv:1108.4378](http://arxiv.org/abs/1108.4378)&rbrack;
 
-The [[H-cohomology]] of graded symplectic forms is considered in
+On the [[H-cohomology]] of graded symplectic forms:
 
 * {#Severa05} [[Pavol Severa]], p. 1 of _On the origin of the BV operator on odd symplectic supermanifolds_, Lett Math Phys (2006) 78: 55. ([arXiv:0506331](https://arxiv.org/abs/math/0506331))
 
