@@ -1,4 +1,15 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include algebra - contents]]
+=--
+=--
+=--
+
 # Code loops
 * table of contents
 {: toc}
@@ -11,7 +22,7 @@ A general result about the existence of code loops is as follows.
 
 +-- {: .num_theorem}
 ###### Theorem
-([Griess](#Griess)).
+([Griess 1986](#Griess86)).
 Every doubly even binary code has a unique extension by a non-associative Moufang loop.
 =--
 
@@ -24,7 +35,7 @@ Parker's code loop was used by [[John Conway]] to construct the [[Monster group]
 
 ## References
 
-* {#Griess} [[Robert Griess]]: _Code loops_, J. Algebra __100__ 1 (1986) 224-234 &lbrack;[doi:10.1016/0021-8693(86)90075-X](http://dx.doi.org/10.1016/0021-8693%2886%2990075-X)&rbrack;
+* {#Griess86} [[Robert Griess]]: _Code loops_, J. Algebra __100__ 1 (1986) 224-234 &lbrack;[doi:10.1016/0021-8693(86)90075-X](http://dx.doi.org/10.1016/0021-8693%2886%2990075-X)&rbrack;
 
 
 * {#Hsu2000} Tim Hsu: _Explicit constructions of code loops as centrally twisted products_, Math. Proc. Cambridge Philos. Soc. **128** 2 (2000) 223-232 [doi:10.1017/S030500419900403X](https://doi.org/10.1017/S030500419900403X)&rbrack;
