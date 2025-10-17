@@ -129,6 +129,8 @@ are closely related to [[quantum error correcting codes]] knows as
 
 * [[binary Golay code]]
 
+* [[code loop]]
+
 * [[combinatorial design]]
 
 * [[Leech lattice]]
