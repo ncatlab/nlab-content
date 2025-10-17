@@ -32,4 +32,6 @@ Parker's code loop was used by [[John Conway]] to construct the [[Monster group]
 
 * Tim Hsu, _Moufang loops of class 2 and cubic forms_, Math. Proc. Camb. Phil. Soc. __128__ (2000), 197-222 (on the arXiv as [math.GR/9611214](http://arxiv.org/abs/math/9611214) under the title _Class 2 Moufang loops, small Frattini Moufang loops, and code loops_). 
 
+* Ben Nagy, [[David Roberts]], _(Re)constructing code loops_, American Mathematical Monthly **128** Issue 2 (2021) 151–161, doi:[10.1080/00029890.2021.1852047](https://doi.org/10.1080/00029890.2021.1852047), [arXiv:1903.02748](https://arxiv.org/abs/1903.02748). 
+
 [[!redirects code loops]]
