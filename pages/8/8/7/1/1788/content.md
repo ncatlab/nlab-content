@@ -287,17 +287,20 @@ Hegel's *idealism* refers to the aim that basic *qualities of being* (like *shap
 
 Hence to make *metaphysics* a mathematical since.
 
-Lawvere observed that *modal topos theory* (my paraphrase) provides this "objective logic".
+Lawvere observed/claimed that *modal topos theory* (my paraphrase) does provide this "objective logic" that Hegel was intuiting.
+
+
 
 
 ### The Exceptional within the General Abstract 
 
 Two facets: The general abstract and the exceptional particular.
-Eg. Category of groups is general abstract. In there we find the exceptional groups.
+
+Example: Category of groups is general abstract. In there we find the exceptional groups.
 
 Similarly: Solid cohesive toposes accommodate all supergeometry. In there 11D supergravity with its 5-brane is an exceptional structure.
 
-And in higher cohesive topos, 11D supergravity does find a global completion. Shown in the topological sector...
+And in higher cohesive topos, 11D supergravity does find a global completion (at least in topological sector).
 
 
 
