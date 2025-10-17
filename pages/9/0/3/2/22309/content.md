@@ -1,6 +1,9 @@
+
+\tableofcontents
+
 ## Definition
 
-We work over a [[field]] of characteristic 0, such as the [[rationals]].
+We work over a [[field]] of [[characteristic zero]], such as the [[rationals]].
 
 A __Malcev Lie algebra__ is a [[filtered Lie algebra]] $\mathfrak{g}=F_1 \mathfrak{g}\supset F_2 \mathfrak{g}\supset\cdots$
 such that
