@@ -36,13 +36,16 @@
 
 ## Overview
 
-> Talking with Bill, I often feel like a fly buzzing around a cow. (It seems to me I can liken Bill to a cow, if I'm just a fly myself.) On any easy question, I'll probably see the answer first. But his thoughts seem to move on a level where I don't function, I can barely see down there. (From an [interview](http://at.yorku.ca/t/o/p/c/06.htm) with [[John Isbell]].)
+F. William Lawvere (February 9, 1937 -- January 23, 2023) was an influential [[category theory|category theorist]] and [[topos theory|topos theorist]].
 
-F. William Lawvere (February 9, 1937 -- January 23, 2023)
+* [institute page](http://www.acsu.buffalo.edu/~wlawvere/) 
 
-* ([web site](http://www.acsu.buffalo.edu/~wlawvere/), [Wikipedia entry](http://en.wikipedia.org/wiki/William_Lawvere))
+* [Wikipedia entry](http://en.wikipedia.org/wiki/William_Lawvere))
 
-was an influential [[category theory|category theorist]].
+From an [interview](http://at.yorku.ca/t/o/p/c/06.htm) with [[John Isbell]]:
+
+> "Talking with Bill, I often feel like a fly buzzing around a cow. (It seems to me I can liken Bill to a cow, if I'm just a fly myself.) On any easy question, I'll probably see the answer first. But his thoughts seem to move on a level where I don't function, I can barely see down there."
+
 
 See 
 
@@ -116,7 +119,7 @@ In the same talk, a few lines later after discussion of [[infinitesimally thicke
 
 In 2000 in the article _[[Comments on the development of topos theory]]_ Lawvere writes in the closing section 7 titled "From and to continuum physics":
 
-> What was the impetus which demanded the simplification and generalization of [[Grothendieck]]'s concept of [[topos]], if indeed the application to [[logic]] and [[set theory]] were not decisive. $[...]$ My own motivation came from my earlier study of [[physics]]. The [[foundation]] of the [[continuum physics]] of general materials, in the spirit of [[Clifford Truesdell|Truesdell]], [[Walter Noll|Noll]] and others, involves powerful and clear physical ideas, which unfortunately have been submerged under a mathematical apparatus $[...]$. But, as Fichera $[25]$ lamented, all this apparatus gives often a very uncertain fit to the phenomena. The apparatus may well be helpful in the solution of certain problems, but can the problems themselves and the needed axioms be stated in a direct and clear manner? And might this not lead to a simpler, equally rigorous account? These were the questions to which I began to apply the [[topos]] method in my 1967 Chicago lectures $[$ _[[Categorical dynamics]]_ $]$. It was clear that work on the notion of topos itself would be needed to achieve the goal. I had spent 1961-62 with the Berkeley logicians, believing that listening to experts on [[foundations]] might be the road to clarifying foundational questions. 
+> What was the impetus which demanded the simplification and generalization of [[Grothendieck]]'s concept of [[topos]], if indeed the application to [[logic]] and [[set theory]] were not decisive. $[...]$ My own motivation came from my earlier study of [[physics]]. The [[foundation]] of the [[continuum physics]] of general materials, in the spirit of [[Clifford Truesdell|Truesdell]], [[Walter Noll|Noll]] and others, involves powerful and clear physical ideas, which unfortunately have been submerged under a mathematical apparatus $[...]$. But, as Fichera $[25]$ lamented, all this apparatus gives often a very uncertain fit to the phenomena. The apparatus may well be helpful in the solution of certain problems, but can the problems themselves and the needed axioms be stated in a direct and clear manner? And might this not lead to a simpler, equally rigorous account? These were the questions to which I began to apply the [[topos]] method in my 1967 Chicago lectures &lbrack;*[[Categorical dynamics]]*&rbrack;. It was clear that work on the notion of topos itself would be needed to achieve the goal. I had spent 1961-62 with the Berkeley logicians, believing that listening to experts on [[foundations]] might be the road to clarifying foundational questions. 
 
 > $[...]$ Several books treating the simplified [[topos theory]] ([[Sheaves in Geometry and Logic|MacLane-Moerdijk]] being the most recent and readable text), together with the three excellent books on [[synthetic differential geometry]] $[...]$ provide a solid basis on which further treatment of [[functional analysis]] and the needed development of [[continuum physics]] can be based.
 
