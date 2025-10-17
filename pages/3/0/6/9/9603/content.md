@@ -76,6 +76,8 @@ Moufang loops are _[[power-associative algebra|power-associative]]_, in that any
 
 * [[quasigroup]]
 
+* [[code loop]]
+
 * [[Bol loop]]
 
 * [[identities of Bol-Moufang type]]
