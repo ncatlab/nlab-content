@@ -53,6 +53,8 @@ See [[too simple to be simple]] for general theory.
 
 ## Related concepts
 
+* [[point space]]
+
 [[!include empty objects -- contents]]
 
 * [[Sierpinski space]]
