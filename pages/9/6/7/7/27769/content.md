@@ -3,7 +3,7 @@
 ### Unstable classification of topological phases
  {#ReferencesUnstableClassificationOfTopologicalPhases}
 
-Arguments that some effects in [[topological phases of matter]] are "unstable" or "fragile" in that the relevant deformation class of their [[valence bundles]] over the [[Brillouin torus]] is not their class in [[topological K-theory]] (as assumed by the [[K-theory classification of topological phases of matter]]) but an unstable [[homotopy class]] (what may be called a class in generalized *[[nonabelian cohomology]]*) such as of maps to a [[Grassmannian space]] (or more general [[flag variety]]) classifying (systems of) [[sub-bundles]] of a [[trivial bundle|trivial]] [[vector bundle]] of fixed *[[finite number|finite]]* [[rank of a vector bundle|rank]]:
+Arguments for [[unstable topological phases of matter]], saying that that some effects in [[topological phases of matter]] are "unstable" or "fragile" in that the relevant deformation class of their [[valence bundles]] over the [[Brillouin torus]] is not their class in [[topological K-theory]] (as assumed by the [[K-theory classification of topological phases of matter]]) but an unstable [[homotopy class]] (what may be called a class in generalized *[[nonabelian cohomology]]*) such as of maps to a [[Grassmannian space]] (or more general [[flag variety]]) classifying (systems of) [[sub-bundles]] of a [[trivial bundle|trivial]] [[vector bundle]] of fixed *[[finite number|finite]]* [[rank of a vector bundle|rank]]:
 
 Influential precursor discussion:
 
