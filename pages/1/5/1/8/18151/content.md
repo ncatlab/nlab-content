@@ -160,6 +160,8 @@ Finally, it is clear that these two operations are inverse to each other.
 
 ## Related concepts
 
+* [[empty space]]
+
 [[!include universal constructions of topological spaces -- table]]
 
 
