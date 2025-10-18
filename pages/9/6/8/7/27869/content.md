@@ -31,6 +31,10 @@ The [[Seiberg-Witten flow]] is named after [[Nathan Seiberg]] und [[Edward Witte
 
 ## References
 
+* {#Nicolaescu00} [[Liviu Nicolaescu]], *Notes on Seiberg-Witten theory*, American Mathematical Society (2000) &lbrack;[ISBN:978-0-8218-2145-9](https://bookstore.ams.org/GSM/28), [pdf](https://www3.nd.edu/~lnicolae/new1.pdf)&rbrack;
+* {#HongSchabrun09} Min-Chun Hong, [[Lorenz Schabrun]], _Global Existence for the Seiberg-Witten Flow_ (2009), &lbrack;[arXiv:0909.1855](https://arxiv.org/abs/0909.1855)&rbrack;
+* {#Schabrun10} [[Lorenz Schabrun]], _Seiberg-Witten Flow in Higher Dimensions_ (2010), &lbrack;[arXiv:1003.1765](https://arxiv.org/abs/1003.1765)&rbrack;
+
 See also:
 
 * Wikipedia, _[Seiberg-Witten flow](https://en.wikipedia.org/wiki/Seiberg%E2%80%93Witten_flow)_
