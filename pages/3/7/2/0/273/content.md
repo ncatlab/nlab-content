@@ -1063,6 +1063,7 @@ For examples and discussion of this see
 
 * [[twisted form|twisted forms]] .
 
+
 ## Related concepts
 
 * [[nonabelian Poincaré duality]]
@@ -1071,9 +1072,12 @@ For examples and discussion of this see
 
 * [[differential non-abelian cohomology]]
 
+* [[Chern-Weil theory]]
+
+* [[unstable topological phase of matter]]
+
 * [[generalized cohomology]]
 
-* [[Chern-Weil theory]]
 
 ## References
  {#References}
