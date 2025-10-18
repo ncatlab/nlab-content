@@ -54,10 +54,11 @@ $$
 
 
 ### Relation to $A_\infty$-algebra
+ {#RelationToAInfinityAlgebras}
 
-For $A$ a [[dg-algebra]], its [[chain homology]] $H_\bullet(A)$ inherits an [[A-infinity algebra]] structure by [[Kadeishvili's theorem]]. Then for every $n \in \mathbb{N}$ the $n$-ary $A_\infty$-product on elements $ (a_1, \cdots, a_n) \in H_\bullet(A)^n$ is given, up to a sign, by the Massey product $\langle a_1, \cdots, a_n\rangle$. 
+For $A$ a [[dg-algebra]], its [[chain homology]] $H_\bullet(A)$ inherits an [[A-infinity algebra]] structure by [[Kadeishvili's theorem]]. Then for every $n \in \mathbb{N}$ the $n$-ary $A_\infty$-product on elements $ (a_1, \cdots, a_n) \in H_\bullet(A)^n$ is *often* given, up to a sign, by the Massey product $\langle a_1, \cdots, a_n\rangle$.
 
-For $n = 3$ this is due to ([Stasheff](#Stasheff)). For general $n$  this appears as ([LPWZ, theorem 3.1](#LPWZ)). 
+For $n = 3$ this is due to [Stasheff](#Stasheff), where all $A_\infty$-products are Massey products. For general $n$ the situation is discussed in [BMM 2020](#BMM20) (where it is also shown that the earlier claim in [LPWZ, theorem 3.1](#LPWZ), that still all $A_\infty$-products are Massey products, is wrong for $n \gt 3$).
 
 
 ## Related concepts
@@ -91,25 +92,24 @@ See also
 ### Relation to $A_\infty$-algebra
  {#ReferencesRelationToAInfinity}
 
-The relation of Massey products to [[A-infinity algebra]] structures is in Chapter 12 of
+On the relation of Massey products to [[A-infinity algebra]] structures, for $n = 3$:
 
-* {#Stasheff} [[Jim Stasheff]], _H-spaces from a homotopy point of view_
+* {#Stasheff} [[Jim Stasheff]], Chapter 12 of: _H-spaces from a homotopy point of view_, Lecture Notes in Mathematics **161**, Springer (1970) &lbrack;[doi:10.1007/BFb0065896](https://doi.org/10.1007/BFb0065896)&rbrack;
  
+A statement for higher $n$ was claimed in  
 
-for $n = 3$, and for general $n$ in Theorem 3.1 and Corollary A.5 of 
-
-* {#LPWZ} D.-M. Lu, J. H. Palmieri, Q.-S. Wu, J. J. Zhang, _$A_\infty$-structures in Ext algebras_, J. Pure Appl. Alg. 213 (2009), 2017--2037 (Theorem 3.1 and Corollary A.5) ([arXiv:math/0606144](http://arxiv.org/abs/math/0606144))
+* {#LPWZ} D.-M. Lu, J. H. Palmieri, Q.-S. Wu, J. J. Zhang, Theorem 3.1 and Corollary A.5 of, _$A_\infty$-structures in Ext algebras_, J. Pure Appl. Alg. **213** (2009) 2017--2037 &lbrack;[arXiv:math/0606144](http://arxiv.org/abs/math/0606144)&rbrack;
  
+but the situation is more subtle, as explained in:
 
-as well as from item 1.4 on in 
+* {#BMM20} [[Urtzi Buijs]], [[José Manuel Moreno-Fernández]], [[Aniceto Murillo]]: *A-infinity structures and Massey products*, Mediterr. J. Math. **17** 31 (2020) &lbrack;[arXiv:1801.03408](https://arxiv.org/abs/1801.03408), [doi:10.1007/s00009-019-1464-1](https://doi.org/10.1007/s00009-019-1464-1)&rbrack;
 
-* [[Bruno Vallette]], _Algebra+Homotopy=Operad_ ([arXiv:1202.3245](http://arxiv.org/abs/1202.3245))
+See also:
 
-and sections 9.4.10 to 9.4.12 of 
+* [[Bruno Vallette]], item 1.4 in: _Algebra+Homotopy=Operad_ &lbrack;[arXiv:1202.3245](http://arxiv.org/abs/1202.3245)&rbrack;
 
-* {#ValetteLoday} [[Bruno Vallette]], [[Jean-Louis Loday]], _Algebraic Operads_ ([pdf](http://math.unice.fr/~brunov/Operads.pdf))
+* {#ValetteLoday} [[Bruno Vallette]], [[Jean-Louis Loday]], sections 9.4.10 to 9.4.12 of: _Algebraic Operads_ &lbrack;[pdf](http://math.unice.fr/~brunov/Operads.pdf)&rbrack;
  
-
 Notice that the definition of Massey product on top of p.282 of [Vallette-Loday](#ValetteLoday), $\langle x,y,z\rangle$ depends on choices of $a,b$ which don't appear in the notation. Then lemma 9.4.11 talks about a particular choice of $a,b$ which is made in the body of the proof. The actual statement of the lemma only can be deduced after reading the proof. It then says that for these particular choices of a,b the said equality holds. (See [this MO discussion](http://mathoverflow.net/questions/92315/massey-products-vs-a-infty-structures)).
 
 ### In ordinary differential cohomology
