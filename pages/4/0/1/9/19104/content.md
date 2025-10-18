@@ -27,6 +27,10 @@ On the Quillen Lie model of [[rational homotopy theory]]:
 
 * [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], *Lie Models in Topology*, Progress in Mathematics **335**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-54430-0](https://doi.org/10.1007/978-3-030-54430-0)&rbrack;
 
+On [[A-infinity algebra|$A_\infty$-algebra]]-[[structure]] and [[Massey products]]:
+
+* {#BMM20} [[Urtzi Buijs]], [[José Manuel Moreno-Fernández]], [[Aniceto Murillo]]: *A-infinity structures and Massey products*, Mediterr. J. Math. **17** 31 (2020) &lbrack;[arXiv:1801.03408](https://arxiv.org/abs/1801.03408), [doi:10.1007/s00009-019-1464-1](https://doi.org/10.1007/s00009-019-1464-1)&rbrack;
+
 
 ## Related entries
 
