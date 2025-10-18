@@ -728,6 +728,8 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 ## Related concepts
 
+* [[signal processing]]
+
 * [[harmonic]], [[fundamental frequency]]
 
 * [[superposition]]
