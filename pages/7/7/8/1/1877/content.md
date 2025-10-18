@@ -208,6 +208,10 @@ By symmetric arguments, we obtain the following results:
 
 Passing to the geometric realization, we get that $|\bar\psi| |\psi'|$ is homotopic to the identity on $|L_R|$, and also that $|\psi'|\simeq |\psi|$. Thus we see that $|\bar\psi||\psi|$ is homotopic to the identity on $|L_R|$. It follows that $|\psi|: |L_R| \rightarrow |K_R|$ is a homotopy equivalence, with $|\bar\psi|$ as its homotopy inverse. 
 
+## Related concepts
+
+* [[Dowker duality]]
+
 
 ## References
 
