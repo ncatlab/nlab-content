@@ -45,7 +45,7 @@ Its first term is also called [[Yang-Mills action]].
 Hence the gradient of the Yang-Mills-Higgs action functional gives exactly the [[Yang-Mills-Higgs equations]]:
 $$
 grad(YMH)(A,\Phi)_1
-=\delta_AF_A
+=\delta_A F_A
 +[\Phi,\mathrm{d}_A\Phi],
 $$
 $$
