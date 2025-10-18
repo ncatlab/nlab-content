@@ -1,15 +1,19 @@
 
-This page collects pointers and material related to the book collection
+This page is to record the reference:
 
-* [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.)
+* [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.):
+ 
+  \linebreak
 
-  **Orbifolds in Mathematics and Physics**,
+  **Orbifolds in Mathematics and Physics**
 
-  Contemporary Mathematics 310
+  \linebreak
 
-  American Mathematical Society, 2002
+  Contemporary Mathematics **310**
 
-  ([ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310))
+  American Mathematical Society (2002)
+
+  [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310)
   
 on [[orbifolds]], in [[mathematics]] and [[mathematical physics]], notably in [[string theory]].
 
