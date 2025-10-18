@@ -33,7 +33,7 @@ These identities imply others, including
 
 * $((u v)w)v = u(v(w v))$
 
-the so-called **alternative** laws
+and the so-called **alternative** laws
 
 * $(u u) v = u (u v) $
 
@@ -41,7 +41,7 @@ the so-called **alternative** laws
 
 and the **flexible** law
 
-* $(u v) u = u (v u) $
+* $(u v) u = u (v u) $.
 
 As emphasized by [Conway & Smith 2003](#ConwaySmith2003), in a Moufang loop every element has a left and right inverse and these agree.  Furthermore we have these identities
 
@@ -61,10 +61,11 @@ Since right and left multiplication give isomorphisms of the underlying set, one
 
 Moufang loops are _[[power-associative algebra|power-associative]]_, in that any bracketing of a string consisting of copies of the same element multiply to a unique element. In fact, more is true, in that any two elements generate a genuine group; that is, Moufang loops are _[[alternative algebra|alternative]]_.  
 
-Indeed, the alternative laws $(u u) v = u (u v) $ and $(u v) v = (u v) v$ and flexible law $u (v u) = (u v) u$ are easily derived from the Moufang identities by setting some variables equal to 1.  Conversely, the invertible elements in any alternative ring or [[alternative algebra]] form a Moufang loop.  Here Richard Schafer shows how to derive one of the Moufang identities from the alternative laws, which are equivalent to the associator $(u, v, w) = (u v) w - u (v w)$ 
-being antisymmetric under permutations of its three arguments:
+Indeed, the alternative laws $(u u) v = u (u v) $ and $(u v) v = (u v) v$ and flexible law $u (v u) = (u v) u$ are easily derived from the Moufang identities by setting some variables equal to 1.  Conversely, the invertible elements in any alternative ring or [[alternative algebra]] form a Moufang loop.  Here Schafer ([Schafer 1966](#Schafer1966), pp. 28-29) shows how to derive one of the Moufang identities from the alternative laws, which are equivalent to the associator $(u, v, w) = (u v) w - u (v w)$ being antisymmetric under permutations of its three arguments:
 
 [[deriving_moufang_from_alternativity.jpg:pic]]
+
+and from this he derives the other Moufang identities.
 
 ## Examples
 
@@ -108,7 +109,7 @@ Monographs:
 
 * {#ConwaySmith2003} [[John Conway]], [[Derek Smith]], *Moufang Loops*, chapter 7 in: _On Quaternions and Octonions: Their Geometry, Arithmetic and Symmetry_, A K Peters/CRC Press (2003) &lbrack;[ISBN:9781568811345](https://www.routledge.com/On-Quaternions-and-Octonions/Conway-Smith/p/book/9781568811345), [doi:10.1201/9781439864180](https://doi.org/10.1201/9781439864180)&rbrack;
 
-* Richard D. Schafer _An Introduction to Nonassociative Algebras_, New York, Dover Publications, 1966.
+* {#Schafer1966} Richard D. Schafer, _An Introduction to Nonassociative Algebras_, New York, Dover Publications, 1966.
 
 See also:
 
