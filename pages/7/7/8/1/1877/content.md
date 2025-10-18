@@ -215,7 +215,7 @@ Passing to the geometric realization, we get that $|\bar\psi| |\psi'|$ is homoto
 
 ## References
 
-*  C. H. Dowker, _Homology Groups of Relations_, Annals of Math. 56 (1952), 84&#8211;95.
+* C. H. Dowker: *Homology Groups of Relations*, Annals of Mathematics **56** 1 (1952) 84-95 &lbrack;[doi:10.2307/1969768](https://doi.org/10.2307/1969768), [jstor:1969768](https://www.jstor.org/stable/1969768)&rbrack;
 
 
 [[!redirects Dowker's theorem]]
@@ -224,3 +224,4 @@ Passing to the geometric realization, we get that $|\bar\psi| |\psi'|$ is homoto
 [[!redirects Dowker\'s Theorem]]
 [[!redirects Dowker theorem]]
 [[!redirects Dowker Theorem]]
+
