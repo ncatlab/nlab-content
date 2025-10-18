@@ -25,6 +25,13 @@ In *topological machine learning* one tries to combine methods from both [[topol
 
 A popular approach (originating around [RHBK15](#RHBK15), [KHNL15](#KHNL15)) is to use [[persistent homology]] as a pre-processing stage and train [[neural networks]] not on full data sets, but on their [[persistence diagram]]/[[barcode]] (which may  still be a large amount of data), by making these amenable to [[kernel methods]].
 
+## Related concepts
+
+* [[machine learning]]
+
+* [[topological signal processing]]
+
+
 ## References
 
 On feeding [[persistence diagrams]] into [[machine learning]]-algorithms by equipping them with [[kernel method|kernels]]:
@@ -48,3 +55,4 @@ See also:
 
 * [[Stefan Huber]], *Topological machine learning* ([webpage](https://www.sthu.org/research/topmachinelearning/))
 
+category: applications, probability
