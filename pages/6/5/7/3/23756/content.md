@@ -105,4 +105,5 @@ Variant for [[hyperbolic spaces]]:
 [[!redirects quasi-momentum]]
 [[!redirects quasi-momenta]]
 
-
+[[!redirects Bloch Hamiltonian]]
+[[!redirects Bloch Hamiltonians]]
