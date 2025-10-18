@@ -154,7 +154,10 @@ and
 
 
 
+Test 1
 
+
+(...)
 
 
 (...)
@@ -162,10 +165,14 @@ and
 
 (...)
 
+---
+
+## References (test)
+
+* [[Kimmo I. Rosenthal]]. _The Theory of Quantaloids_. Chapman and Hall/CRC, 1996 ([doi:10.1201/9781498710404](https://doi.org/10.1201/9781498710404))
 
 
-
-
+* Gejza Jenča, Bert Lindenhovius. _Monoidal Quantaloids_, 2025 ([arXiv:2504.18266](https://arxiv.org/abs/2504.18266))
 
 
 
@@ -190,5 +197,3 @@ and
 
 
 
-
-(...)
