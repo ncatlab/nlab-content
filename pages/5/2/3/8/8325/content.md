@@ -9,6 +9,7 @@
 =--
 =--
 
+Georg Wilhelm Friedrich Hegel (1770-1831)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hegel)
 
