@@ -58,6 +58,10 @@ is a _Yang-Mills flow_.
 
 ## References
 
+* {#KelleherStreets16} Casey Lynn Kelleher, Jeffrey Streets, _Singularity formation of the Yang-Mills flow_ (2016), &lbrack;[arXiv:1602.03125](https://arxiv.org/abs/1602.03125)&rbrack;
+* {#Waldron219} Alex Waldron, _Long-time existence for Yang-Mills flow_ (2019), &lbrack;[arXiv:1610.03424](https://arxiv.org/abs/1610.03424)&rbrack;
+* {#Zhang20} [[Pan Zhang]], _Gradient Flows of Higher Order Yang-Mills-Higgs Functionals_ (2020), &lbrack;[arXiv:2004.00420](https://arxiv.org/abs/2004.00420)&rbrack;
+
 See also:
 
 * Wikipedia, _[Yang-Mills flow](https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_flow)_
