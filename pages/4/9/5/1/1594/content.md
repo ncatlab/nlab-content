@@ -336,9 +336,9 @@ On [[orbifolds]], [[orbifold cohomology]] and specifically on [[Chen-Ruan cohomo
 
 Discussion of orbifolds as [[Lie groupoids]]/[[differentiable stacks]]:
  
-* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]], _Orbifolds, sheaves and groupoids_, K-theory 12 3-21 (1997) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/pronk.pdf), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4))
+* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]]: *Orbifolds, sheaves and groupoids*, K-theory **12** 1 (1997) 3-21 &lbrack;[doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4)&rbrack;
 
-* {#Moerdijk02} [[Ieke Moerdijk]], _Orbifolds as Groupoids: an Introduction_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.) _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math 310, AMS (2002), 205–222 ([arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100)) 
+* {#Moerdijk02} [[Ieke Moerdijk]]: *Orbifolds as Groupoids: an Introduction*, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.): _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math **310**, AMS (2002) 205–222 &lbrack;[arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100), [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310)&rbrack;
 
 * {#Lerman08} [[Eugene Lerman]], *Orbifolds as stacks?*, Enseign. Math. **56** 3-4 (2010) 315-363 &lbrack;[arXiv:0806.4160](http://arxiv.org/abs/0806.4160), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4)&rbrack;
 
