@@ -13,6 +13,8 @@
     "caption": "(from [U Chicago Photo Archive](https://photoarchive.lib.uchicago.edu/db.xqy?show=browse8.xml|205))"
 \end{imagefromfile}
 
+Chen Ning Yang (1922-2025)
+
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Chen_Ning_Yang)
 
