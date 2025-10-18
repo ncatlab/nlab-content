@@ -33,12 +33,14 @@ Under [[AdS/CFT duality in solid state physics]] the [[K-theory classification o
 
 ## Related concepts
 
+* [[unstable topological phases of matter]]
+
 * [[K-theory classification of D-brane charge]]
 
+
+
+
 ## References
-
-
-
 
 
 [[!include topological phases of matter via K-theory -- references]]
