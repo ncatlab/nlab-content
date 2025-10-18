@@ -13,5 +13,8 @@ Introducing a notion of [[quantum CPOs]] for [[quantum computation]] (via [[quan
 * [[Andre Kornell]], [[Bert Lindenhovius]], [[Michael Mislove]], *Quantum CPOs*, EPTCS **340** (2021) 174-187 &lbrack;[arXiv:2109.02196](https://arxiv.org/abs/2109.02196), [doi:10.4204/EPTCS.340.9](https://doi.org/10.4204/EPTCS.340.9)&rbrack;
 
 
+On adding a symmetric monoidal structure to a [[quantaloid]]:
+
+* Gejza Jenča, [[Bert Lindenhovius]]. _Monoidal Quantaloids_, 2025 ([arXiv:2504.18266](https://arxiv.org/abs/2504.18266))
 
 category: people
