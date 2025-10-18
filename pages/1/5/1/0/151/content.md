@@ -110,7 +110,7 @@ Again, adjunctions and specifically [[dual adjunctions]] ("[[Galois connections]
 * [[Gabriel-Roos-Oberst duality]]
 * [[Tannaka duality]]
 * [[Hochster duality]]
-
+* [[Dowker duality]]
 
 
 ## Dualizing objects
