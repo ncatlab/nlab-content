@@ -22,7 +22,7 @@
 
 [Wikipedia](https://en.wikipedia.org/wiki/Control_theory) defines _control theory_ as
 
-> a field of control engineering and applied mathematics that deals with the control of [[dynamical systems]]
+> a field of control engineering and [[applied mathematics]] that deals with the control of [[dynamical systems]]
 
 
 ## Related concepts
