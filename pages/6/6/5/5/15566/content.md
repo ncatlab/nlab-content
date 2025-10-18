@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* table of conntents
+* table of contents
 {:toc}
 
 ## Idea
@@ -85,7 +85,7 @@ However, in view of the [analogy between the Selberg zeta function and the Artin
 
 ## Related concepts
 
-* [[Spec(S)]]
+* [[Spec(S)|$Spec(\mathbb{S})$]]
 
 * [[field with one element]]
 
