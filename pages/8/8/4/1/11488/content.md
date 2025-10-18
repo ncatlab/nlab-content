@@ -8,7 +8,7 @@ A [[quantale]] is an analogue of a noncommutative ring and a noncommutative gene
 
 ## References
 
-* Isar Stubbe, _Q-modules are Q-suplattices_, Theory and Appl. of Cat. 19, 2007, No. 4, pp 50-60 [abs](http://www.tac.mta.ca/tac/volumes/19/4/19-04abs.html)
+* [[Isar Stubbe]], _Q-modules are Q-suplattices_, Theory and Appl. of Cat. 19, 2007, No. 4, pp 50-60 [abs](http://www.tac.mta.ca/tac/volumes/19/4/19-04abs.html)
 * [[Pedro Resende]], _Groupoid sheaves as quantale sheaves_, J. Pure Appl. Algebra 216 (2012), 41&#8211;70; [arxiv/0807.4848](http://arxiv.org/abs/0807.4848v3)
 [doi](http://dx.doi.org/10.1016/j.jpaa.2011.05.002)
 * Hans Heymans, _Sheaves on quantales as generalized metric spaces_, Doctor thesis, Universiteit Antwerpen 2010 [pdf](http://www.ua.ac.be/download.aspx?c=hans.heymans&n=31611&ct=32634&e=282776)
