@@ -1,5 +1,14 @@
 
-* [webpage](http://agt.cie.uma.es/~aniceto/)
+* [personal page](http://agt.cie.uma.es/~aniceto/)
+
+* [institute page](https://www.uma.es/departments/teachers/QVlsMExFeDl0aVYybmlKdXlkeXFqUT09/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=53186&fChrono=1)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=qzQtmEwAAAAJ)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Aniceto-Murillo)
+
 
 ## Selected writings
 
@@ -24,6 +33,11 @@ On [[rational homotopy theory]] with general [[fundamental groups]]:
 On the Quillen Lie model of [[rational homotopy theory]]:
 
 * [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], *Lie Models in Topology*, Progress in Mathematics **335**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-54430-0](https://doi.org/10.1007/978-3-030-54430-0)&rbrack;
+
+On [[A-infinity algebra|$A_\infty$-algebra]]-[[structure]] and [[Massey products]]:
+
+* {#BMM20} [[Urtzi Buijs]], [[José Manuel Moreno-Fernández]], [[Aniceto Murillo]]: *A-infinity structures and Massey products*, Mediterr. J. Math. **17** 31 (2020) &lbrack;[arXiv:1801.03408](https://arxiv.org/abs/1801.03408), [doi:10.1007/s00009-019-1464-1](https://doi.org/10.1007/s00009-019-1464-1)&rbrack;
+
 
 
 ## Related entries
