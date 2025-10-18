@@ -15,7 +15,7 @@
 
 ## Idea
 
-$Spec(\mathbb{Z})$ denotes the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. Its [[underlying]] [[topological space]] (also known as the "prime spectrum" or "Zariski spectrum" of $\mathbb{Z}$) has the [[prime ideals]] of $\mathbb{Z}$ as points and carries the [[Zariski topology]]. The [[closed points]] are the [[maximal ideals]] $(p)$, for each [[prime number]] $p$ in $\mathbb{Z}$; the non-maximal [[prime ideal]] $(0)$ is a [[generic point]] as it has as [[topological closure|closure]] the whole of $Spec(\mathbb{Z})$. 
+$Spec(\mathbb{Z})$ denotes ℤ the [[spectrum of a commutative ring|spectrum]] of the [[commutative ring]] $\mathbb{Z}$ of [[integers]]. Its [[underlying]] [[topological space]] (also known as the "prime spectrum" or "Zariski spectrum" of $\mathbb{Z}$) has the [[prime ideals]] of $\mathbb{Z}$ as points and carries the [[Zariski topology]]. The [[closed points]] are the [[maximal ideals]] $(p)$, for each [[prime number]] $p$ in $\mathbb{Z}$; the non-maximal [[prime ideal]] $(0)$ is a [[generic point]] as it has as [[topological closure|closure]] the whole of $Spec(\mathbb{Z})$. 
 A [[subset]] of $Spec(\mathbb{Z})$ is [[closed subset|closed]] if and only if it is all of $Spec(\mathbb{Z})$ or consists of finitely many points of the form $(p)$ with $p$ prime.
 
 As a [[ringed space]], $Spec(\mathbb{Z})$ carries a [[structure sheaf]] $\mathcal{O}$ which is a [[sheaf]] of [[commutative rings]] on the Zariski spectrum of $\mathbb{Z}$. Given a typical [[open set]]
