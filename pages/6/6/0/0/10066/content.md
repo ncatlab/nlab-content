@@ -532,7 +532,7 @@ Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|e
 
 * {#Freed12} [[Daniel Freed]], _Lectures on twisted K-theory and orientifolds_, lectures at ESI Vienna, 2012 ([[FreedESI2012.pdf:file]])
 
-* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], Section 7 of: _Twisted equivariant matter_,  Ann. Henri Poincaré (2013) 14: 1927 ([arXiv:1208.5055](https://arxiv.org/abs/1208.5055))
+* {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], Section 7 of: *Twisted equivariant matter*,  Ann. Henri Poincaré **14** (2013) 1927–2023 &lbrack;[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)&rbrack;
 
 * {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772))
 
