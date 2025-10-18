@@ -18,9 +18,9 @@
 
 ## Idea
 
-For a scalar function, a curve whose derivative is opposite to its [[gradient]] is called a *gradient flow*. It always points down the way of steepest descent and hence is monotonically descreasing with respect to the scalar function. It is then possible to study its convergence to [[critical points]], especially those that are [[local minima]].
+For a [[scalar]]-valued [[function]], a [[curve]] whose [[derivative]] is the negative of its [[gradient]] is called a *gradient flow*. It always points down the way of steepest descent and hence is [[monotone function|monotonically descreasing]] with respect to the scalar function. It is then possible to study its [[convergence]] to [[critical points]], especially those that are [[local minima]].
 
-If the scalar function is the *Yang-Mills-Higgs action functional*, then the gradient flow is called *Yang-Mills-Higgs flow*. It is described by the [[Yang-Mills-Higgs equations]] and can be used to find [[Yang-Mills-Higgs pairs]], the critical points, as well as study [[stable Yang-Mills-Higgs pairs]], the local minima.
+If the scalar function is the *[[Yang-Mills-Higgs equations|Yang-Mills-Higgs]] [[action functional]]*, then this [[gradient flow]] is called *Yang-Mills-Higgs flow*. It is described by the [[Yang-Mills-Higgs equations]] and can be used to find [[Yang-Mills-Higgs pairs]], the [[critical points]], as well as study [[stable Yang-Mills-Higgs pairs]], the [[local minima]].
 
 The [[Yang-Mills flow]] is named after [[Chen Ning Yang]] and [[Robert Mills]], who introduced [[Yang-Mills theory]] in 1954, and [[Peter Higgs]], who proposed the [[Higgs field]] in 1964.
 
