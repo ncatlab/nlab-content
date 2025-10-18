@@ -40,6 +40,8 @@ _Machine learning_ is a branch of [[computer science]] which devises algorithms 
 
 * [[information geometry]]
 
+* [[signal processing]]
+
 ## References
 
 ### Classical machine learning
@@ -190,5 +192,5 @@ To the [[conformal bootstrap]]:
 
 [[!redirects artificial intelligence]]
 
-
+category: applications, probability
 
