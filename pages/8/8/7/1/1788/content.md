@@ -5,9 +5,25 @@
 
 ***
 
+[NNBA21](#NNBA21):
+
+* *fragile* band topology: unstable with respect to addition of [[conduction bands]]
+
+* *delicate* band topology: unstable with respect to addition of [[conduction bands]] or [[valence bands]] (generally: both types)
+
+* {#NNBA21} [[Aleksandra Nelson]], [[Titus Neupert]], [[Tomáš Bzdušek]], [[Aris Alexandradinata]]: *Multicellularity of delicate topological insulators*, Phys. Rev. Lett. **126** (2021) 216404 \[<a href="https://doi.org/10.1103/PhysRevLett.126.216404">doi:10.1103/PhysRevLett.126.216404</a>, [arXiv:2009.01863](https://arxiv.org/abs/2009.01863)\]
+
+* [[Aleksandra Nelson]], [[Titus Neupert]], [[Aris Alexandradinata]], [[Tomáš Bzdušek]]: *Delicate topology protected by rotation symmetry: Crystalline Hopf insulators and beyond*, 
+Phys. Rev. B **106** (2022) 075124 \[<a href="https://doi.org/10.1103/PhysRevB.106.075124">doi:10.1103/PhysRevB.106.075124</a>, [arXiv:2111.09365](https://arxiv.org/abs/2111.09365)&rbrack;
+
+
+
 
 
 ## Idea
+
+
+
 
 A [[crystal|crystalline]] [[quantum material]] in a [[energy gap|gapped]] [[ground state]] is said to be in a *[[topological phase of matter|topological phase]]* if the [[Bloch Hamiltonian]] [[map]] $H_{(-)} \colon \widehat{T}{}^d \longrightarrow \mathscr{A}$ (from the [[Brillouin torus]] of crystal [[momenta]] to the space $\mathscr{A}$ of accessible individual [[Hamiltonians]] $H_{[\vec k]}$) has a non-trivial [[homotopy class]].
 
