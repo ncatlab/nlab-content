@@ -1,5 +1,10 @@
 
-* [website](http://www.math.utexas.edu/users/blumberg/)
+* [personal page](https://ajblumberg.github.io/)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=hkKFNr0AAAAJ&hl=en)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=98808)
+
 
 ## Selected writings
 
@@ -39,6 +44,10 @@ On [[persistent homotopy theory]] and its [[stability of persistence diagrams|st
 On the [[Arnold conjecture]] and [[Morava K-theory]]:
 
 * [[Mohammed Abouzaid]], [[Andrew J. Blumberg]], _Arnold Conjecture and Morava K-theory_, ([arXiv:2103.01507](https://arxiv.org/abs/2103.01507))
+
+On [[cyclotomic spectra]]: 
+
+* [[Andrew J. Blumberg]], [[Michael A. Mandell]]: *The homotopy theory of cyclotomic spectra, 10 years later* &lbrack;[arXiv:2412.15928](https://arxiv.org/abs/2412.15928)&rbrack;
 
 
 ## Related entries
