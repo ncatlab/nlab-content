@@ -38,7 +38,7 @@ and specifically for [[fractional quantum Hall systems]] via [[effective field t
 * [[Yuan-Ming Lu]], [[Ashvin Vishwanath]]: *Classification and properties of symmetry-enriched topological phases: Chern-Simons approach with applications to $\mathbb{Z}_2$ spin liquids*, Phys. Rev. B **93** (2016) 155121 \[<a href="https://doi.org/10.1103/PhysRevB.93.155121">doi:10.1103/PhysRevB.93.155121</a>, [arXiv:1302.2634](https://arxiv.org/abs/1302.2634)\]
 
 
-On "fragile" (unstable, [[nonabelian cohomology]]) effects in [[topological phases of matter]], finer than the [[K-theory classification of topological phases]]:
+On [[unstable topological phase of matter|"fragile" (unstable) effects]] in [[topological phases of matter]], finer than the [[K-theory classification of topological phases]]:
 
 * Hoi Chun Po, Haruki Watanabe, [[Ashvin Vishwanath]]: *Fragile Topology and Wannier Obstructions*, Phys. Rev. Lett. **121** (2018) 126402 \[<a href="https://doi.org/10.1103/PhysRevLett.121.126402">doi:10.1103/PhysRevLett.121.126402</a>\]
 
