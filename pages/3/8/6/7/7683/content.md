@@ -23,8 +23,9 @@ _Cartier [[duality]]_ is a refinement of [[Pontryagin duality]] from [[topologic
 +-- {: .num_defn}
 ###### Definition
 
+Let $k$ be a commutative ring. 
 
-Let $G$ be a [[finite group scheme]] over $k$, regarded as a
+Let $G$ be a commutative [[group scheme]] over $k$, regarded as a
 [[sheaf]] of groups $G \in Sh(Ring^{op}_k)$. Write $\mathbb{G}_m$ for the [[multiplicative group]], similarly regarded. 
 
 Then the _Cartier dual_ $\widehat G$ is the [[internal hom]]
@@ -45,20 +46,20 @@ of group homomorphisms over $Spec(R)$
 
 This appears for instance as ([Polishchuk, (10.1.11)](#Polishchuk)).
 
+Say that $G$ is _finite locally free_ if it is an affine $k$-scheme whose coordinate ring is a finite locally free $k$-module.
+
 +-- {: .num_prop}
-###### Proposition
-
-Cartier duality is indeed a duality in that for any finite commutative group scheme $G$ there is an [[isomorphism]]
-
+###### Proposition ( [SGA3](#SGA3), Exposé VIIA, §3.3)
+If $G$ is a finite locally free commutative $k$-group scheme, then $\widehat{G}$ is also a a finite locally free commutative $k$-group scheme, and the natural map
 $$
-  \widehat{\widehat{G}} \simeq G
+G \to \widehat{\widehat{G}}
 $$
-
-of the double Cartier dual with the original group scheme.
-
+is an isomorphism.
 =--
 
-(e.g. [Polishchuk, right above (10.1.11)](#Polishchuk), [Hida 00, theorem 1.7.1](#Hida00)) 
+This proposition is also discussed in [Polishchuk, right above (10.1.11)](#Polishchuk) and [Hida 00, theorem 1.7.1](#Hida00).
+
+When $k$ is a field, every finite group scheme is locally free. When $G$ is no longer finite, it is still true that $G \to \widehat{\widehat{G}}$ is an isomorphism ([Dieudonné 73, p. 21-22](#Dieudonne))
 
 ## Related concepts
 
@@ -70,9 +71,13 @@ of the double Cartier dual with the original group scheme.
 
 ## References
 
-The classical textbook account is in chapter 1 of
+The case of finite locally free group schemes is covered in 
 
-* [[Jean Dieudonné]], _Introduction to the theory of formal groups_, Marcel Dekker, New York 1973.
+* M. Demazure and A. Grothendieck, editors. _Schémas en groupes. Tome I: Propriétés générales des schémas en groupes._ Séminaire de Géométrie Algébrique du Bois Marie 1962/64 (SGA 3). {#SGA3}
+
+The classical textbook account over a field is in chapter 1 of
+
+* [[Jean Dieudonné]], _Introduction to the theory of formal groups_, Marcel Dekker, New York 1973. {#Dieudonne}
 
 and a more recent textbook account is in section 10.1 of
 
