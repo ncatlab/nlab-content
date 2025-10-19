@@ -123,22 +123,21 @@ Manifold diagrams have canonical geometric duals (in the sense of Poincaré dual
 
 ## References
 
-* {#BaezDolan95} [[John Baez]] and [[James Dolan]], _Higher-dimensional Algebra and Topological Quantum Field Theory_, 1995 ([arXiv](http://arxiv.org/abs/q-alg/9503002))
+* {#BaezDolan95} [[John Baez]], [[James Dolan]]: *Higher dimensional algebra and Topological Quantum Field Theory*, J. Math. Phys. **36** (1995) 6073-6105 &lbrack;[doi:10.1063/1.531236](https://doi.org/10.1063/1.531236), [arXiv:q-alg/9503002](http://arxiv.org/abs/q-alg/9503002)&rbrack;
 
-* {#Carter} [[Scott Carter]], _An excursion in diagrammatic algebra_, 2012, World Scientific ([doi:10.1142/8315](https://doi.org/10.1142/8315))
+* {#Carter} [[Scott Carter]]: _An excursion in diagrammatic algebra_, World Scientific (2012) &lbrack;[doi:10.1142/8315](https://doi.org/10.1142/8315)&rbrack;
 
-* {#DornDouglas22} [[Christoph Dorn]] and [[Christopher Douglas]], _Manifold diagrams and tame tangles_, 2022 ([arXiv](https://arxiv.org/abs/2208.13758), [latest](https://cxdorn.github.io/manifold-diagram-paper/))
+* {#DornDouglas22} [[Christoph Dorn]], [[Christopher Douglas]]: _Manifold diagrams and tame tangles_ &lbrack;[arXiv](https://arxiv.org/abs/2208.13758), [latest](https://cxdorn.github.io/manifold-diagram-paper/)&rbrack;
 
-* {#Dorn23} [[Christoph Dorn]], _Nine short stories about geometric higher categories_, 2023 ([pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf))
+* {#Dorn23} [[Christoph Dorn]]: _Nine short stories about geometric higher categories_ (2023) &lbrack;[pdf](https://cxdorn.github.io/assets/pdfs/nine-stories.pdf)&rbrack;
 
-* {#Heidemann24} [[Lukas Heidemann]], _Manifold Diagrams for Higher Categories_, 2024 ([arXiv](https://arxiv.org/abs/2411.04870))
+* {#Heidemann24} [[Lukas Heidemann]]: _Manifold Diagrams for Higher Categories_ &lbrack;[arXiv:2411.04870](https://arxiv.org/abs/2411.04870)&rbrack;
 
 Brief introductions:
 
 * *From zero to manifold diagrams*, TallCat Seminar Talk, ([video](https://www.youtube.com/watch?v=67RAzY-13r4))
 
 * *[An Invitation to Geometric Higher Categories](https://golem.ph.utexas.edu/category/2023/03/an_invitation_to_geometric_hig.html)*, $n$-Category Café post
-
 
 * [[Christoph Dorn]], *Manifold Diagrams -- A Brief Report*, [talk at](https://ncatlab.org/nlab/show/Center+for+Quantum+and+Topological+Systems#DornNov2023) [[CQTS]] (15 Nov 2023) &lbrack;[[Dorn-ManifoldDiagramsReport.pdf:file]], [YT](https://youtu.be/7KK89MuxmX8)&rbrack;
 
