@@ -13,17 +13,15 @@
 =--
 =--
 
+\tableofcontents
 
-# Contents
-* table of contents
-{: toc}
 
 \section{Idea}
 
 _Category theory_ is a toolset for describing the general abstract structures in [[mathematics]]. 
 
-+-- {: .un_remark}
-###### Paradigm ####
+
+### Paradigm
 
 As opposed to [[set theory]],  category theory focuses not on elements $x,y, \cdots$ -- called [[object]]s -- but on the **relations** between these objects: the ([[homomorphism|homo]])[[morphism]]s between them
 
@@ -68,8 +66,8 @@ $$
   \,.
 $$
 
-+-- {: .un_remark}
-###### Examples ####
+
+### Examples
 
 The archetypical example of a category is the category [[Set]] of [[set]]s and [[function]]s between sets. 
 
@@ -79,11 +77,10 @@ But it is far from the case that all categories are of this type. Categories are
 
 Archetypical examples of non-[[concrete category|concrete]] categories are the [[fundamental groupoid]] of a [[topological space]] and the [[fundamental category]] of a [[directed space]]. 
 
-=--
 
 
-+-- {: .un_remark}
-###### Terminology ####
+
+### Terminology
 
 Categories were named after the examples of [[concrete category|concrete categories]]. As [[Saunders Mac Lane]] writes
 
@@ -93,10 +90,9 @@ Categories were named after the examples of [[concrete category|concrete categor
 
 However, the [[category|categories]] of category theory are way more general than these [[concrete category|concrete categories]], and the way Aristotle and Kant use the [[category (philosophy)|term]] in philosophy is not particularly related to what Eilenberg & Mac Lane did with it.
 
-=--
 
-+-- {: .un_remark}
-###### The basic trinity of concepts ####
+
+### The basic trinity of concepts
 
 Category theory reflects on itself. Categories are about collections of morphisms. And there are evident morphisms between categories: [[functor]]s. And there are evident morphisms between functors: [[natural transformation]]s.
 
@@ -108,26 +104,25 @@ This trinity of concepts
 
 1. [[natural transformation]]
 
-is what category theory is built on. 
-
-In [[higher category theory]] this continues with
+is what category theory is built on.  In [[higher category theory]] this continues with
 
 * $k$-[[transfor]]s for all $k \in \mathbb{N}$.
 
-=--
+But these are just the bookkeeping tools. The actual *theory* of categories is in the concept of *[[adjunctions]]* (defined, in turn, in terms of [[natural transformations]]), a formal notion of [[duality]]: Adjunctions encompass all the [[universal constructions]] that are at the heart of category theory -- ([[colimits|co]])[[limits]], ([[coends|co]])[[ends]] and [[Kan extensions]].
 
 
-+-- {: .un_remark}
-###### Conceptual unification ####
+
+
+### Conceptual unification
 
 A major driving force behind the development of category theory is its ability to abstract and unify concepts. General statements about categories apply to each specific [[concrete category]] of mathematical structures. The general notion of [[universal constructions]] in categories, such as [[representable functors]], [[adjoint functors]]  and [[limits]], turns out to prevail throughout mathematics and manifest itself in myriads of special examples.
 
-=--
 
-+-- {: .un_remark}
-###### Abstract nonsense ####
 
-This abstraction power of category theory has led Norman Steenrod to coin the term _abstract nonsense_ or _general abstract nonsense_ for it. It is being used as in "This property is not specific to this context, it already follows from general abstract nonsense". Peter Freyd expressed a similar feeling by his witticism: 
+### "General abstract nonsense"
+ {#AbstractNonsense}
+
+This abstraction power of category theory has led [[Norman Steenrod]] to coin the term _abstract nonsense_ or _general abstract nonsense_ for it. It is being used as in "This property is not specific to this context, it already follows from general abstract nonsense". [[Peter Freyd]] expressed a similar feeling by his witticism: 
 
 > {#WhatIsTriviallyTrivial} "Perhaps the purpose of categorical algebra is to show that which is trivial is trivially trivial."
 
@@ -135,14 +130,19 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 
 > A number of sophisticated people tend to disparage category theory as consistently as others disparage certain kinds of classical music. When obliged to speak of a category they do so in an apologetic tone, similar to the way some say, "It was a gift &#8211; I've never even played it" when a record of Chopin Nocturnes is discovered in their possession. For this reason I add to the usual prerequisite that the reader have a fair amount of mathematical sophistication, the further prerequisite that he have no other kind.
 
-=--
+[[Alexander Grothendieck]] (in a letter to [[Ronald Brown]] on 5th May 1982, [here](https://csg.igrothendieck.org/wp-content/uploads/2025/06/U24d.pdf#page=11)):
 
-+-- {: .un_remark}
-###### The nPOV ####
+> The introduction of the cipher 0 or the group concept
+was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps...
+
+
+
+
+### The nPOV
 
 The vast applicability and expressiveness of category theory leads to the observation that most structures in mathematics are best understood from a category theoretic or higher category theoretic viewpoint. This is the [[nPOV]].
 
-=--
+
 
 \section{The central constructions}
 
