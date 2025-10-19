@@ -45,6 +45,7 @@ Dually, for colimits the corresponding maps in the opposite direction are someti
 
 
 ### In linear algebra
+ {#InLinearAlgebra}
 
 In [[linear algebra]] an [[idempotent]] [[linear operator]] $P:V\to V$ is called a projection onto its [[image]]. See at _[[projector]]_. 
 
