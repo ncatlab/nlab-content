@@ -29,9 +29,14 @@ Whether and how this is the case depends crucially on the choice of [[classifyin
 
 In the extreme case one allows the system to undergo deformations during which the [[electrons]] may occupy arbitrarily high [[energy bands]]. This *coarsest* resolution of the situation gives the most *stable* classification. This is the situation most commonly considered, notably in the [[K-theory classification of topological phases of matter]].
 
-All other classifications are *unstable*. In the literature such unstable topological phases have also been called *fragile* or *delicate*.
+All other classifications are *unstable*. In the literature such unstable topological phases have also been called *fragile* ([PWV 2018](#PWV18)) or *delicate* ([NNBA 2021](#NNBA21)):
 
-In mathematical language, unstable topological phased are classified by the ([[equivariant cohomology|equivariant]]) *[[nonabelian cohomology]]*
+* *fragile* band topology: unstable when accessing further [[conduction bands]],
+
+* *delicate* band topology: unstable when accessing further [[conduction bands]] or [[valence bands]] (generally: both types).
+
+
+In mathematical terminology, unstable topological phased are classified ([SS 2025](#SatiSchreiber25)) by the ([[equivariant cohomology|equivariant]]) *[[nonabelian cohomology]]*
 
 $$
   H_G\big(\widehat{T}{}^d; \mathscr{A} \big)
