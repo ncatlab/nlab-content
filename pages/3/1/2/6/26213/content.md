@@ -24,6 +24,13 @@ On [[topological crystalline insulators]] with focus on the [[Wilson lines]] of 
 
 * [[Titus Neupert]], [[Frank Schindler]], *Lecture Notes on Topological Crystalline Insulators*, in: *Topological Matter* Springer Series in Solid-State Sciences **190**, Springer (2018) &lbrack;[arXiv:1810.03484](https://arxiv.org/abs/1810.03484), [doi:10.1007/978-3-319-76388-0_2](https://doi.org/10.1007/978-3-319-76388-0_2)&rbrack;
 
+On "delicate" [[unstable topological phases of matter]]:
+
+* {#NNBA21} [[Aleksandra Nelson]], [[Titus Neupert]], [[Tomáš Bzdušek]], [[Aris Alexandradinata]]: *Multicellularity of delicate topological insulators*, Phys. Rev. Lett. **126** (2021) 216404 \[<a href="https://doi.org/10.1103/PhysRevLett.126.216404">doi:10.1103/PhysRevLett.126.216404</a>, [arXiv:2009.01863](https://arxiv.org/abs/2009.01863)\]
+
+* [[Aleksandra Nelson]], [[Titus Neupert]], [[Aris Alexandradinata]], [[Tomáš Bzdušek]]: *Delicate topology protected by rotation symmetry: Crystalline Hopf insulators and beyond*, Phys. Rev. B **106** (2022) 075124 \[<a href="https://doi.org/10.1103/PhysRevB.106.075124">doi:10.1103/PhysRevB.106.075124</a>, [arXiv:2111.09365](https://arxiv.org/abs/2111.09365)&rbrack;
+
+
 
 
 category: people
