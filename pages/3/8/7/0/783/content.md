@@ -114,18 +114,39 @@ See _[Mathematics Genealogy for Grothendieck](http://www.genealogy.ams.org/id.ph
 
 A. Grothendieck, una guía a la obra matemática y filosófica ([pdf](http://matematicas.unex.es/~navarro/res/zalamea.pdf)) por F. Zalamea
 
+
 ## Quotes
+ {#Quotes}
 
 On [[K-theory]]:
 
 > The way I first visualized a K-group was as a group of "classes of objects" of an abelian (or more generally, additive) category, such as coherent sheaves on an algebraic variety, or vector bundles, etc. I would presumably have called this group $C(X)$ ($X$ being a variety or any other kind of "space"), $C$ the initial letter of 'class', but my past in functional analysis may have prevented this, as $C(X)$ designates also the space of continuous functions on $X$ (when $X$ is a topological space). Thus, I reverted to $K$ instead of $C$, since my mother tongue is German, Class = Klasse (in German), and the sounds corresponding to $C$ and $K$ are the same.
 
-from Grothendieck's letter to Bruce Magurn, on 9th February 1985, quoted after:
+from a letter to Bruce Magurn (9th February 1985) quoted after:
 
-* {#Bak87} A. Bak, Editorial, K-theory 1 (1987), 1 ([doi:10.1007/BF00533984](https://access.portico.org/stable?au=pgg197frtxd))
+* {#Bak87} A. Bak: *Editorial*, K-theory **1** 1 (1987) &lbrack;[doi:10.1007/BF00533984](http://dx.doi.org/10.1007/BF00533984)&rbrack;
+
+\linebreak
+
+On [[mathematical structure]]:
+
+> If there is one thing in mathematics that fascinates me more than anything else (and doubtless always has), it is neither "number" nor "size", but above all "form". And among the thousand and one faces that form chooses in presenting itself to our attention, the one that has fascinated me more than any other, and continues to fascinate me, is the structure buried within mathematical objects.
+
+from *[[Récoltes et semailles]]*, [here](https://matematicas.unex.es/~navarro/res/lisker1.pdf#page=64).
+
+\linebreak
+
+On the phrase "[general abstract nonsense](category+theory#AbstractNonsense)":
+
+> The introduction of the cipher 0 or the group concept
+was general nonsense too, and mathematics was more or less stagnating for thousands of years because nobody was around to take such childish steps...
+
+from a letter to [[Ronald Brown]] (5 May 1982), [here](https://csg.igrothendieck.org/wp-content/uploads/2025/06/U24d.pdf#page=11).
+
+\linebreak
 
 
-## Related $n$Lab entries
+## Futher related entries
 
 * [[The Rising Sea]]
 
