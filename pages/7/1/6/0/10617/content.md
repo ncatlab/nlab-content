@@ -28,13 +28,13 @@ For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ a
 Write 
 
 $$
-  [X, B O(n)] := \pi_0 Top(X, B O(n))
+  [X, B O(n)] \coloneqq \pi_0 Top(X, B O(n))
 $$
 
 and
 
 $$
-  [X, B U(n)] := \pi_0 Top(X, B U(n))
+  [X, B U(n)] \coloneqq \pi_0 Top(X, B U(n))
 $$
 
 for the set of [[homotopy]]-classes of [[continuous function]]s $X \to B U(n)$.
