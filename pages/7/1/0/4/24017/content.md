@@ -21,9 +21,17 @@ On non-trivial [[braid group statistics|braiding]] of [[semi-metal|nodal points]
 * Apoorv Tiwari, [[Tomáš Bzdušek]], *Non-Abelian topology of nodal-line rings in PT-symmetric systems*, Phys. Rev. B **101** (2020) 195130 ([doi:10.1103/PhysRevB.101.195130](https://doi.org/10.1103/PhysRevB.101.195130))
 
 
-Arguments that some effects in [[topological phases of matter]] are ["unstable" or "fragile"](topological+phase+of+matter#ReferencesUnstableClassificationOfTopologicalPhases) in that the relevant deformation class of their [[valence bundles]] over the [[Brillouin torus]] is not their class in [[topological K-theory]] (as assumed by the [[K-theory classification of topological phases of matter]]) but an unstable [[homotopy class]] (what may be called a class in generalized *[[nonabelian cohomology]]*) such as of maps to a [[Grassmannian space]] (or more general [[flag variety]]) classifying (systems of) [[sub-bundles]] of a [[trivial bundle|trivial]] [[vector bundle]] of fixed *[[finite number|finite]]* [[rank of a vector bundle|rank]]:
+Arguments that some effects in [[topological phases of matter]] are [[unstable topological phase of matter|"unstable" or "fragile"]] in that the relevant deformation class of their [[valence bundles]] over the [[Brillouin torus]] is not their class in [[topological K-theory]] (as assumed by the [[K-theory classification of topological phases of matter]]) but an unstable [[homotopy class]] (what may be called a class in generalized *[[nonabelian cohomology]]*) such as of maps to a [[Grassmannian space]] (or more general [[flag variety]]) classifying (systems of) [[sub-bundles]] of a [[trivial bundle|trivial]] [[vector bundle]] of fixed *[[finite number|finite]]* [[rank of a vector bundle|rank]]:
 
 * [[Adrien Bouhon]], [[Tomáš Bzdušek]], [[Robert-Jan Slager]]: *Geometric approach to fragile topology beyond symmetry indicators*, Phys. Rev. B **102** (2020) 115135 &lbrack;[arXiv:2005.02044](https://arxiv.org/abs/2005.02044), [doi:10.1103/PhysRevB.102.115135](https://doi.org/10.1103/PhysRevB.102.115135)&rbrack;
+
+
+On "delicate" [[unstable topological phases of matter]]:
+
+* {#NNBA21} [[Aleksandra Nelson]], [[Titus Neupert]], [[Tomáš Bzdušek]], [[Aris Alexandradinata]]: *Multicellularity of delicate topological insulators*, Phys. Rev. Lett. **126** (2021) 216404 \[<a href="https://doi.org/10.1103/PhysRevLett.126.216404">doi:10.1103/PhysRevLett.126.216404</a>, [arXiv:2009.01863](https://arxiv.org/abs/2009.01863)\]
+
+* [[Aleksandra Nelson]], [[Titus Neupert]], [[Aris Alexandradinata]], [[Tomáš Bzdušek]]: *Delicate topology protected by rotation symmetry: Crystalline Hopf insulators and beyond*, Phys. Rev. B **106** (2022) 075124 \[<a href="https://doi.org/10.1103/PhysRevB.106.075124">doi:10.1103/PhysRevB.106.075124</a>, [arXiv:2111.09365](https://arxiv.org/abs/2111.09365)&rbrack;
+
 
 
 
