@@ -3,19 +3,26 @@
 ### Unstable classification of topological phases
  {#ReferencesUnstableClassificationOfTopologicalPhases}
 
-Arguments for [[unstable topological phases of matter]], saying that that some effects in [[topological phases of matter]] are "unstable" or "fragile" in that the relevant deformation class of their [[valence bundles]] over the [[Brillouin torus]] is not their class in [[topological K-theory]] (as assumed by the [[K-theory classification of topological phases of matter]]) but an unstable [[homotopy class]] (what may be called a class in generalized *[[nonabelian cohomology]]*) such as of maps to a [[Grassmannian space]] (or more general [[flag variety]]) classifying (systems of) [[sub-bundles]] of a [[trivial bundle|trivial]] [[vector bundle]] of fixed *[[finite number|finite]]* [[rank of a vector bundle|rank]]:
+Arguments for [[unstable topological phases of matter]], saying that that some effects in [[topological phases of matter]] are "unstable" ("fragile" or "delicate") in that the relevant deformation class of their [[valence bundles]] over the [[Brillouin torus]] is not their class in [[topological K-theory]] (as assumed by the [[K-theory classification of topological phases of matter]]) but an un-[[stable homotopy theory|stable]] [[homotopy class]] (what may be called a class in generalized *[[nonabelian cohomology]]*) such as of maps to a [[Grassmannian space]] (or more general [[flag variety]]) classifying (systems of) [[sub-bundles]] of a [[trivial bundle|trivial]] [[vector bundle]] of fixed *[[finite number|finite]]* [[rank of a vector bundle|rank]]:
 
 Influential precursor discussion:
 
 * [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]]: *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) \[<a href="https://doi.org/10.1103/PhysRevB.78.195125">doi:10.1103/PhysRevB.78.195125</a>, [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)\]
 
-More explicit highlighting of the role of the unstable case (and coinage of the term "fragile" for "unstable"):
+More explicit highlighting of the role of the unstable case and coinage of the term "fragile topologucal phase":
 
 * Hoi Chun Po, Haruki Watanabe, [[Ashvin Vishwanath]]: *Fragile Topology and Wannier Obstructions*, Phys. Rev. Lett. **121** (2018) 126402 \[<a href="https://doi.org/10.1103/PhysRevLett.121.126402">doi:10.1103/PhysRevLett.121.126402</a>\]
 
 * Hoi Chun Po,  Liujun Zou, T. Senthil, [[Ashvin Vishwanath]]: *Faithful tight-binding models and fragile topology of magic-angle bilayer graphene*, Phys. Rev. B **99** (2019) 195455 \[<a href="https://doi.org/10.1103/PhysRevB.99.195455">doi:10.1103/PhysRevB.99.195455</a>, [arXiv:1808.02482](https://arxiv.org/abs/1808.02482)\]
 
 * [[Adrien Bouhon]], [[Tomáš Bzdušek]], [[Robert-Jan Slager]]: *Geometric approach to fragile topology beyond symmetry indicators*, Phys. Rev. B **102** (2020) 115135 \[<a href="https://doi.org/10.1103/PhysRevB.102.115135">doi:10.1103/PhysRevB.102.115135</a>, [arXiv:2005.02044](https://arxiv.org/abs/2005.02044)\] 
+
+Coinage of the term "delicate topological phase":
+
+* {#NNBA21} [[Aleksandra Nelson]], [[Titus Neupert]], [[Tomáš Bzdušek]], [[Aris Alexandradinata]]: *Multicellularity of delicate topological insulators*, Phys. Rev. Lett. **126** (2021) 216404 \[<a href="https://doi.org/10.1103/PhysRevLett.126.216404">doi:10.1103/PhysRevLett.126.216404</a>, [arXiv:2009.01863](https://arxiv.org/abs/2009.01863)\]
+
+* [[Aleksandra Nelson]], [[Titus Neupert]], [[Aris Alexandradinata]], [[Tomáš Bzdušek]]: *Delicate topology protected by rotation symmetry: Crystalline Hopf insulators and beyond*, 
+Phys. Rev. B **106** (2022) 075124 \[<a href="https://doi.org/10.1103/PhysRevB.106.075124">doi:10.1103/PhysRevB.106.075124</a>, [arXiv:2111.09365](https://arxiv.org/abs/2111.09365)&rbrack;
 
 Applications:
 
