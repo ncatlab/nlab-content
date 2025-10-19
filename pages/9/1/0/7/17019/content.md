@@ -198,5 +198,8 @@ The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclo
 
 * {#NikolausScholze17} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_,  Acta Math. **221** 2 (2018) 203-409 &lbrack;[arXiv:1707.01799](https://arxiv.org/abs/1707.01799), [doi:10.4310/ACTA.2018.v221.n2.a1](https://dx.doi.org/10.4310/ACTA.2018.v221.n2.a1)&rbrack;
 
+* [[Andrew J. Blumberg]], [[Michael A. Mandell]]: *The homotopy theory of cyclotomic spectra, 10 years later* &lbrack;[arXiv:2412.15928](https://arxiv.org/abs/2412.15928)&rbrack;
+
+
 
 [[!redirects cyclotomic spectra]]
