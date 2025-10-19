@@ -9,9 +9,10 @@ Influential precursor discussion:
 
 * [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]]: *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) \[<a href="https://doi.org/10.1103/PhysRevB.78.195125">doi:10.1103/PhysRevB.78.195125</a>, [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)\]
 
+
 More explicit highlighting of the role of the unstable case and coinage of the term "fragile topologucal phase":
 
-* Hoi Chun Po, Haruki Watanabe, [[Ashvin Vishwanath]]: *Fragile Topology and Wannier Obstructions*, Phys. Rev. Lett. **121** (2018) 126402 \[<a href="https://doi.org/10.1103/PhysRevLett.121.126402">doi:10.1103/PhysRevLett.121.126402</a>\]
+* {#PWV18} Hoi Chun Po, Haruki Watanabe, [[Ashvin Vishwanath]]: *Fragile Topology and Wannier Obstructions*, Phys. Rev. Lett. **121** (2018) 126402 \[<a href="https://doi.org/10.1103/PhysRevLett.121.126402">doi:10.1103/PhysRevLett.121.126402</a>\]
 
 * Hoi Chun Po,  Liujun Zou, T. Senthil, [[Ashvin Vishwanath]]: *Faithful tight-binding models and fragile topology of magic-angle bilayer graphene*, Phys. Rev. B **99** (2019) 195455 \[<a href="https://doi.org/10.1103/PhysRevB.99.195455">doi:10.1103/PhysRevB.99.195455</a>, [arXiv:1808.02482](https://arxiv.org/abs/1808.02482)\]
 
@@ -21,8 +22,10 @@ Coinage of the term "delicate topological phase":
 
 * {#NNBA21} [[Aleksandra Nelson]], [[Titus Neupert]], [[Tomáš Bzdušek]], [[Aris Alexandradinata]]: *Multicellularity of delicate topological insulators*, Phys. Rev. Lett. **126** (2021) 216404 \[<a href="https://doi.org/10.1103/PhysRevLett.126.216404">doi:10.1103/PhysRevLett.126.216404</a>, [arXiv:2009.01863](https://arxiv.org/abs/2009.01863)\]
 
-* [[Aleksandra Nelson]], [[Titus Neupert]], [[Aris Alexandradinata]], [[Tomáš Bzdušek]]: *Delicate topology protected by rotation symmetry: Crystalline Hopf insulators and beyond*, 
-Phys. Rev. B **106** (2022) 075124 \[<a href="https://doi.org/10.1103/PhysRevB.106.075124">doi:10.1103/PhysRevB.106.075124</a>, [arXiv:2111.09365](https://arxiv.org/abs/2111.09365)&rbrack;
+* [[Aleksandra Nelson]], [[Titus Neupert]], [[Aris Alexandradinata]], [[Tomáš Bzdušek]]: *Delicate topology protected by rotation symmetry: Crystalline Hopf insulators and beyond*,  Phys. Rev. B **106** (2022) 075124 \[<a href="https://doi.org/10.1103/PhysRevB.106.075124">doi:10.1103/PhysRevB.106.075124</a>, [arXiv:2111.09365](https://arxiv.org/abs/2111.09365)&rbrack;
+
+* [[Aleksandra Nelson]]: *Delicate topological insulators: a new world of phases between trivial and fragile*, PhD thesis, Zürich (2022) $[$[webpage](https://www.tomasbzdusek.com/publication/delicate-topological-insulators-a-new-world-of-phases-between-trivial-and-fragile/), [[Nelson-DelicateInsulators.pdf:file]]\]
+
 
 Applications:
 
@@ -50,7 +53,7 @@ Further discussion:
 
 * Simon Becker, Zhongkai Tao, Mengxuan Yang: *Fragile topology on solid grounds: a mathematical perspective* \[<a href="https://arxiv.org/abs/2502.03442">arXiv:2502.03442\]
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQAH Anyons|Identifying Anyonic Topological Order in Fractional Quantum Anomalous Hall Systems]]* \[<a href="https://arxiv.org/abs/2507.00138">arXiv:2507.00138</a>\]
+* {#SatiSchreiber25} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQAH Anyons|Identifying Anyonic Topological Order in Fractional Quantum Anomalous Hall Systems]]* \[<a href="https://arxiv.org/abs/2507.00138">arXiv:2507.00138</a>\]
 
 
 
