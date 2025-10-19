@@ -49,7 +49,8 @@ This appears for instance in [Polishchuk, (10.1.11)](#Polishchuk).
 Say that $G$ is _finite locally free_ if it is an affine $k$-scheme whose coordinate ring is a finite locally free $k$-module.
 
 +-- {: .num_prop}
-###### Proposition ( [SGA3](#SGA3), Exposé VIIA, §3.3)
+###### Proposition 
+( [SGA3](#SGA3), Exposé VIIA, §3.3)
 If $G$ is a finite locally free commutative $k$-group scheme, then $\widehat{G}$ is also a a finite locally free commutative $k$-group scheme, and the natural map
 $$
 G \to \widehat{\widehat{G}}
@@ -59,7 +60,7 @@ is an isomorphism.
 
 This proposition is also discussed in [Polishchuk, right above (10.1.11)](#Polishchuk) and [Hida 00, theorem 1.7.1](#Hida00).
 
-When $k$ is a [[field]], every finite group scheme is locally free. When $G$ is no longer finite, it is still true that $G \to \widehat{\widehat{G}}$ is an isomorphism ([Dieudonné 73, p. 21-22](#Dieudonne))
+When $k$ is a [[field]], every finite group scheme is locally free. When $G$ is no longer finite over $k$, it is still true that $G \to \widehat{\widehat{G}}$ is an isomorphism ([Dieudonné 73, p. 21-22](#Dieudonne))
 
 ## Related concepts
 
