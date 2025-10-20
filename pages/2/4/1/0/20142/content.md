@@ -10,10 +10,7 @@
 =--
 
 
-# Cartesian closed enriched categories
-
-* table of contents
-{: toc}
+\tableofcontents
 
 ## Definition
 
@@ -26,7 +23,7 @@ $$
   \,. 
 $$
 
-We say $C$ is **$V$-cartesian-closed** if each $V$-functor $(X\times -) \colon C \to C$ has a [[enriched adjunction|$V$-enriched]] [[right adjoint]].
+We say that $C$ is **$V$-cartesian-closed** if each [[enriched functor|$V$-functor]] $(X\times -) \colon C \to C$ has a [[enriched adjunction|$V$-enriched]] [[right adjoint]].
 
 
 ## Relation to ordinary cartesian closedness
