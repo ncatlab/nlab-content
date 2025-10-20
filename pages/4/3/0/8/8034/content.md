@@ -102,6 +102,14 @@ This Tate module enters the [[Tate conjecture]].
 
 If $G$ is an abelian variety $T_p(G(k^{sep}))$ is equivalently the first homology group of $G$.
 
+## p-torsion of module spectra
+
+Let $R$ be a ring spectrum, $M$ an $R$-module spectrum and $s\in \pi_0(R)$. Then
+\[ 
+M[s^n]:=M\otimes_R(R/s^n)[-1]\simeq \operatorname{fib}(\cdot s^n:M\to M) 
+\]
+is the $s^n$-torsion part of $M$.
+
 ## p-divisible groups
 
 (main article: [[nLab:p-divisible group]])
@@ -142,6 +150,10 @@ satisfying (1)(2)(3).
 see the references at [[nLab:p-divisible group]], in particular the notes 
 
 * Richard Pink, *Shatz Group Schemes, Formal Groups, and $p$-Divisible Groups*
+
+for torsion parts of module spectra, see the lecture notes
+
+* Fabian Hebestreit, *Algebraic and Hermitian $K$-Theory*, Ch. IV.16b.
 
 [[!redirects p-torsion subgroup]]
 [[!redirects p-torsion subgroups]]
