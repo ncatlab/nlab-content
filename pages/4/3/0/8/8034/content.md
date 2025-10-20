@@ -104,15 +104,19 @@ If $G$ is an abelian variety $T_p(G(k^{sep}))$ is equivalently the first homolog
 
 ## p-torsion of module spectra
 
-Let $R$ be a ring spectrum, $M$ an $R$-module spectrum and $s\in \pi_0(R)$. Then
+Let $R$ be a [[ring spectrum]], $M$ an $R$-[[module spectrum]] and $s\in \pi_0(R)$. Then
 \[ 
-M[s^n]:=M\otimes_R(R/s^n)[-1]\simeq \operatorname{fib}(\cdot s^n:M\to M) 
+  M[s^n]
+    \coloneqq
+  M\otimes_R(R/s^n)[-1]
+    \simeq 
+  fib(\cdot s^n \colon M\to M) 
 \]
 is the $s^n$-torsion part of $M$.
 
 ## p-divisible groups
 
-(main article: [[nLab:p-divisible group]])
+(main article: *[[nLab:p-divisible group]]*)
 
 Sometimes the information encoded in the colimit $T_p(G)=colim_n G[p^n]$ (we passed a contravariant functor from rings to schemes) is considered to be not sufficient and one wants more generally to study the codirected system
 
