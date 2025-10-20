@@ -28,19 +28,20 @@ The [[Yang-Mills flow]] is named after [[Chen Ning Yang]] and [[Robert Mills]], 
 
 Let $G$ be a [[compact]] [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $E\twoheadrightarrow B$ be a principal $G$-bundle with a [[compact]] [[orientable]] [[Riemannian manifold]] $B$ having a metric $g$ and a [[volume form]] $vol_g$. Let $Ad(E)\coloneqq E\times_G\mathfrak{g}$ be its [[adjoint bundle]]. One has $\Omega_{Ad}^k(E,\mathfrak{g})\cong\Omega^k(B,Ad(E))$, which are either under the [[adjoint representation]] $Ad$ invariant Lie-algebra valued or vector bundle valued differential forms. Since the [[Hodge star operator]] $\star$is defined on the Base manifold $B$ as it requires the metric $g$ and the volume form $vol_g$, the second space is usually used.
 
-All spaces $\Omega^k(B,Ad(E))$ are [[vector spaces]], which from $B$ together with the choice of an $Ad$-invariant pairing on $\mathfrak{g}$ (which for [[semisimple]] $\mathfrak{g}$ must be proportional to its [[Killing form]]) inherits a local pairing $\langle-,-\rangle\colon\Omega^k(B,Ad(E))\times\Omega^k(B,Ad(E))\rightarrow\C^\infty(B)$. It defined the [[Hodge star operator]] by $\langle\omega,\eta\rangle vol_g=\omega\wedge\star\eta$ for all $\omega,\eta\in\Omega^k(B,Ad(E))$. Through postcomposition with [[integration]], there is fuethermore a [[scalar product]] $\langle-,-\rangle\colon\Omega^k(B,Ad(E))\times\Omega^k(B,Ad(E))\rightarrow\mathbb{R}$. It's induced [[norm]] is exactly the $L^2$ [[norm]].
+All spaces $\Omega^k(B,Ad(E))$ are [[vector spaces]], which from $B$ together with the choice of an $Ad$-invariant pairing on $\mathfrak{g}$ (which for [[semisimple]] $\mathfrak{g}$ must be proportional to its [[Killing form]]) inherits a local pairing $\langle-,-\rangle\colon\Omega^k(B,Ad(E))\times\Omega^k(B,Ad(E))\rightarrow\C^\infty(B)$. It defined the [[Hodge star operator]] by $\langle\omega,\eta\rangle vol_g=\omega\wedge\star\eta$ for all $\omega,\eta\in\Omega^k(B,Ad(E))$. Through postcomposition with [[integration]], there is furthermore a [[scalar product]] $\langle-,-\rangle\colon\Omega^k(B,Ad(E))\times\Omega^k(B,Ad(E))\rightarrow\mathbb{R}_0^+$. Its induced [[norm]] is exactly the $L^2$ [[norm]].
 
 ## Definition
 
 The _Yang-Mills-Higgs action functional_ is given by:
 $$
 YMH\colon
-\Omega^1(B,Ad(E))\times\Gamma^\infty(B,Ad(E))\rightarrow\mathbb{R},
+\mathcal{A}
+\coloneqq\Omega^1(B,Ad(E))\times\Gamma^\infty(B,Ad(E))\rightarrow\mathbb{R}_0^+,
 YMH(A,\Phi)
 \coloneqq\int_B\|F_A\|^2+\|\mathrm{d}_A\Phi\|^2\mathrm{d}vol_g
 \geq 0.
 $$
-Its first term is also called [[Yang-Mills action]].
+Its first term is also called [[Yang-Mills action]]. $\mathcal{A}$ is called _configuration space_.
 
 Hence the gradient of the Yang-Mills-Higgs action functional gives exactly the [[Yang-Mills-Higgs equations]]:
 $$
@@ -52,7 +53,7 @@ $$
 grad(YMH)(A,\Phi)_2
 =\delta_A\mathrm{d}_A\Phi.
 $$
-For an [[open interval]] $I\subseteq\mathbb{R}$, two $C^1$ maps $\alpha\colon I\rightarrow\Omega^1(B,Ad(E))$ and $\varphi\colon I\rightarrow\Gamma^\infty(B,Ad(E))$ (hence [[continuously differentiable]]) fulfilling:
+For an [[open interval]] $I\subseteq\mathbb{R}$, a $C^1$ map $(\alpha,\varphi)\colon I\rightarrow\mathcal{A}=\Omega^1(B,Ad(E))\times\Gamma^\infty(B,Ad(E))$ (hence [[continuously differentiable]]) fulfilling:
 $$
 \alpha'(t)
 =-grad(YMH)(\alpha(t),\varphi(t))_1
@@ -64,7 +65,24 @@ $$
 =-grad(YMH)(\alpha(t),\varphi(t))_2
 =-\delta_{\alpha(t)}\mathrm{d}_{\alpha(t)}\varphi(t)
 $$
-are a _Yang-Mills-Higgs flow_.
+is a _Yang-Mills-Higgs flow_.
+
+## Properties
+
+\begin{corollary}
+For a Yang-Mills-Higgs pair $(A,\Phi)\in\mathcal{A}$, the constant path on it is a Yang-Mills-Higgs flow.
+\end{corollary}
+\begin{lemma}
+For a Yang-Mills-Higgs flow $(\alpha,\varphi)\colon\mathbb{R}\supseteq I\rightarrow\mathcal{A}$, the composition $YMH\circ(\alpha,\varphi)\colon\mathbb{R}\supseteq I\rightarrow\mathbb{R}_0^+$ with the Yang-Mills-Higgs [[action functional]] is [[monotone function|monotonically descreasing]] and in particular fulfills:
+$$
+(YMH\circ\alpha)'(t)
+=-\int_B\|\alpha'(t)\|^2+\|\varphi'(t)\|^2\mathrm{d}\vol_g
+\leq 0.
+$$
+\end{lemma}
+\begin{lemma}
+For an infinitely long Yang-Mills-Higgs flow $(\alpha,\varphi)\colon[0,\infty)\rightarrow\mathcal{A}$, the [[limits]] $(\lim_{t\rightarrow\infty}\alpha(t),\lim_{t\rightarrow\infty}\varphi(t))\in\mathcal{A}$ exist and are a Yang-Mills-Higgs pair.
+\end{lemma}
 
 ## Related entries
 
