@@ -272,7 +272,7 @@ $$
   }
 $$
 
-By definition of $P$ as the homotopy fiber of $X \to \mathbf{B}G$, the lower horizontal morphism is equivbalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also equivalent to the pullback
+By definition of $P$ as the homotopy fiber of $X \to \mathbf{B}G$, the lower horizontal morphism is equivalent to $P \to {*} \to \mathbf{B}G$, so that $P \times_X P$ is also equivalent to the pullback
 
 $$
   \array{
