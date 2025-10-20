@@ -117,7 +117,7 @@ A [[constructive mathematics|constructive]] model of [[homotopy type theory]] in
 
 * [[Steve Awodey]], [[Evan Cavallo]], [[Thierry Coquand]], [[Emily Riehl]], [[Christian Sattler]], *The equivariant model structure on cartesian cubical sets* ([arXiv:2406.18497](https://arxiv.org/abs/2406.18497))
 
-On [[synthetic mathematics]]:
+On [[synthetic homotopy theory]] via [[simplicial type theory]]:
 
 * [[Emily Riehl]], _Synthetic perspectives on spaces and categories_ &lbrack;[arXiv:2510.15795](https://arxiv.org/abs/2510.15795)&rbrack;
 
