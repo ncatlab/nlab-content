@@ -165,7 +165,7 @@ In fact $CGTop_{Quillen}$ is a [[cartesian closed model category]].
 
 ### Relation between $Top_{Quillen}$ and $sSet_{Quillen}$
 
-The [Quillen model structure](#QuillenModelStructure) $Top_{Qullen}$ is [[Quillen equivalence|Quillen equivalent]] to the standard (Quillen) [[model structure on simplicial sets]] via the total [[fundamental infinity-groupoid|singular complex]] and [[geometric realization]] functors.
+The [Quillen model structure](#QuillenModelStructure) $Top_{Quillen}$ is [[Quillen equivalence|Quillen equivalent]] to the standard (Quillen) [[model structure on simplicial sets]] via the total [[fundamental infinity-groupoid|singular complex]] and [[geometric realization]] functors.
 
 $$
   (\vert-\vert \dashv Sing)
