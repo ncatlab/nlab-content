@@ -12,6 +12,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -80,11 +81,16 @@ Proving an arithmetic result in [[Peano arithmetic]], or more generally a statem
 
 Moreover, such proofs are certain to be valid because of the nature of the fundamental objects considered, as captured by the axioms of the theory, and not by accident because of their particular construction in such and such a system.
 
+
+
 ## Related concepts
 
 * [[analytic versus synthetic]]
 
+
+
 ## References
+
 
 ### General
 
@@ -92,8 +98,6 @@ Moreover, such proofs are certain to be valid because of the nature of the funda
 See also 
 
 * [[Andrej Bauer]], _Synthetic Mathematics with an Excursion Into Computability Theory_, 2021 ([slides and video](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/))
-
-* [[Emily Riehl]], _Synthetic perspectives on spaces and categories_ &lbrack;[arXiv:2510.15795](https://arxiv.org/abs/2510.15795)&rbrack;
 
 * Wikipedia, _[Analytic-synthetic distinction](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)_
 
@@ -103,17 +107,20 @@ See also
 ### Synthetic homotopy theory
  {#ReferencesSyntheticHomotopyTheory}
 
-Discussion of _synthetic [[homotopy theory]]_ (typically understood as [[homotopy type theory]]):
+Discussion of _synthetic [[homotopy theory]]_ (cf. *[[synthetic homotopy theory]]*, typically understood as [[homotopy type theory]]):
 
-* [[Ulrik Buchholtz]], Sec. 3.1 of _Higher Structures in Homotopy Type Theory_ ([arXiv:1807.02177](https://arxiv.org/abs/1807.02177))
+* [[Ulrik Buchholtz]], Sec. 3.1 of: _Higher Structures in Homotopy Type Theory_ &lbrack;[arXiv:1807.02177](https://arxiv.org/abs/1807.02177)&rbrack;
 
-* [[Mike Shulman]], slides 37 onwards in _Homotopical trinitarianism:A perspective on homotopy type theory_, 2018 ([pdf](https://home.sandiego.edu/~shulman/papers/trinity.pdf))
+* [[Mike Shulman]], slides 37 onwards in: _Homotopical trinitarianism:A perspective on homotopy type theory_, 2018 ([pdf](https://home.sandiego.edu/~shulman/papers/trinity.pdf))
 
-* {#Rijke19} [[Egbert Rijke]], _Classifying Types_ ([arXiv:1906.09435](https://arxiv.org/abs/1906.09435))
+* {#Rijke19} [[Egbert Rijke]]: _Classifying Types_ &lbrack;[arXiv:1906.09435](https://arxiv.org/abs/1906.09435)&rbrack;
 
 Via [[cubical type theory]]:
 
 * [[Anders Mörtberg]], [[Loïc Pujet]], *Cubical synthetic homotopy theory*,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (Jan 2020) 158–171 &lbrack;[doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), [pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf)&rbrack;
 
+Via [[simplicial type theory]]:
+
+* [[Emily Riehl]]: _Synthetic perspectives on spaces and categories_ &lbrack;[arXiv:2510.15795](https://arxiv.org/abs/2510.15795)&rbrack;
 
 
