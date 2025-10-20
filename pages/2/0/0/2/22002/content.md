@@ -86,7 +86,12 @@ Therefore, most of the articles listed at
 
 count as synthetic homotopy theory.
 
-The use of [[cubical type theory]] for synthetic homotopy theory is discussed in:
+Via [[cubical type theory]]:
 
 * {#MörtbergPujet2020} [[Anders Mörtberg]], [[Loïc Pujet]], *Cubical synthetic homotopy theory*,  CPP 2020: Proceedings of the 9th ACM SIGPLAN International Conference on Certified Programs and Proofs (Jan 2020) 158–171 &lbrack;[doi:10.1145/3372885.3373825](https://doi.org/10.1145/3372885.3373825), [pdf](https://staff.math.su.se/anders.mortberg/papers/cubicalsynthetic.pdf)&rbrack;
+
+Via [[simplicial type theory]]:
+
+* [[Emily Riehl]]: _Synthetic perspectives on spaces and categories_ &lbrack;[arXiv:2510.15795](https://arxiv.org/abs/2510.15795)&rbrack;
+
 
