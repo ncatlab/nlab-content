@@ -28,28 +28,50 @@ The [[Yang-Mills flow]] is named after [[Chen Ning Yang]] and [[Robert Mills]], 
 
 Let $G$ be a [[compact]] [[Lie group]] with [[Lie algebra]] $\mathfrak{g}$ and $E\twoheadrightarrow B$ be a [[principal bundle|principal $G$-bundle]] with a [[compact]] [[orientable]] [[Riemannian manifold]] $B$ having a [[metric]] $g$ and a [[volume form]] $vol_g$. Let $Ad(B)\coloneqq E\times_G\mathfrak{g}$ be its [[adjoint bundle]]. One has $\Omega_{Ad}^k(E,\mathfrak{g})\cong\Omega^k(B,Ad(E))$, which are either under the [[adjoint representation]] $Ad$ invariant Lie algbera valued or vector bundle valued differential forms. Since the [[Hodge star operator]] $\star$ is defined on the base manifold $B$ as it requires the metric $g$ and the volume form $vol_g$, the second spaces are usually used.
 
+All spaces $\Omega^k(B,Ad(E))$ are [[vector spaces]], which from $B$ together with the choice of an $Ad$-invariant pairing on $\mathfrak{g}$ (which for [[semisimple]] $\mathfrak{g}$ must be proportional to its [[Killing form]]) inherits a local pairing $\langle-,-\rangle\colon\Omega^k(B,Ad(E))\times\Omega^k(B,Ad(E))\rightarrow\C^\infty(B)$. It defined the [[Hodge star operator]] by $\langle\omega,\eta\rangle vol_g=\omega\wedge\star\eta$ for all $\omega,\eta\in\Omega^k(B,Ad(E))$. Through postcomposition with [[integration]], there is furthermore a [[scalar product]] $\langle-,-\rangle\colon\Omega^k(B,Ad(E))\times\Omega^k(B,Ad(E))\rightarrow\mathbb{R}_0^+$. Its induced [[norm]] is exactly the $L^2$ [[norm]].
+
 ## Definition
 
 The _Yang-Mills action functional_ is given by:
 $$
 YM\colon
-\Omega^1(B,Ad(E))\rightarrow\mathbb{R},
+\mathcal{A}
+\coloneqq\Omega^1(B,Ad(E))\rightarrow\mathbb{R}_0^+,
 YM(A)
 \coloneqq\int_B\|F_A\|^2\mathrm{d}vol_g
 \geq 0.
 $$
+$\mathcal{A}$ is called *configuration space*.
+
 Hence the gradient of the Yang-Mills action functional gives exactly the [[Yang-Mills equations]]:
 $$
 grad(YM)(A)
 =-\delta_A F_A.
 $$
-For an [[open interval]] $I\subseteq\mathbb{R}$, a $C^1$ map $\alpha\colon I\rightarrow\Omega^1(B,Ad(E))$ (hence [[continuously differentiable]]) fulfilling:
+For an [[open interval]] $I\subseteq\mathbb{R}$, a $C^1$ map $\alpha\colon I\rightarrow\mathcal{A}=\Omega^1(B,Ad(E))$ (hence [[continuously differentiable]]) fulfilling:
 $$
 \alpha'(t)
 =-grad(YM)(\alpha(t))
 =-\delta_{\alpha(t)}F_{\alpha(t)}
 $$
 is a _Yang-Mills flow_.
+
+## Properties
+
+\begin{corollary}
+For a Yang-Mills connection $A\in\mathcal{A}$, the constant path on it is a Yang-Mills flow.
+\end{corollary}
+\begin{lemma}
+For a Yang-Mills flow $\alpha\colon\mathbb{R}\supseteq I\rightarrow\mathcal{A}$, the composition $YM\circ\alpha\colon\mathbb{R}\supseteq I\rightarrow\mathbb{R}_0^+$ with the Yang-Mills [[action functional]] is [[monotone function|monotonically descreasing]] and in particular fulfills:
+$$
+(YM\circ\alpha)(t)
+=-\int_B\|\alpha'(t)\|^2\mathrm{d}\vol_g
+\leq 0.
+$$
+\end{lemma}
+\begin{lemma}
+For an infinitely long Yang-Mills flow $\alpha\colon[0,\infty)\rightarrow\mathcal{A}$, the [[limit]] $\lim_{t\rightarrow\infty}\alpha(t)\in\mathcal{A}$ exists and is a Yang-Mills connection.
+\end{lemma}
 
 ## Related entries
 
