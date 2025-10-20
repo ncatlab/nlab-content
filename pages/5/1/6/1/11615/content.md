@@ -93,6 +93,8 @@ See also
 
 * [[Andrej Bauer]], _Synthetic Mathematics with an Excursion Into Computability Theory_, 2021 ([slides and video](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/))
 
+* [[Emily Riehl]], _Synthetic perspectives on spaces and categories_ &lbrack;[arXiv:2510.15795](https://arxiv.org/abs/2510.15795)&rbrack;
+
 * Wikipedia, _[Analytic-synthetic distinction](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)_
 
 * {#Lehet21} Ellen Lehet, _Impurity in Contemporary mathematics_ (2021).
