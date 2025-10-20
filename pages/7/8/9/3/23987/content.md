@@ -3164,6 +3164,17 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > We study the nonequilibrium steady state of a two‑dimensional Coulomb gas confined by an anisotropic harmonic trap and driven by a non‑conservative rotational force. The model serves as a tractable, strongly interacting log‑gas with broad relevance across physics and beyond: it provides a simple framework for complex interactions and has a one‑to‑one correspondence with eigenvalues in [[random matrix theory]]. At zero temperature the density remains uniform on a tilted ellipse that supports concentric currents, becoming circular under sufficiently strong drive. A hydrodynamic analysis predicts these features and agrees with numerical simulations.
 
+\linebreak
+
+### Nov 2025
+
+* 20 Oct 2025
+
+  Dieter Suter (Technische Universität Dortmund, Germany):
+
+  **Spin-qubits for quantum technologies**
+
+  > The term "Quantum Technologies" summarises a growing field of emergent technologies that have the potential for breakthrough improvements in fields like information processing, communication and sensing. Quantum bits of qubits, which represent fundamental units of information, exist naturally in the form of spins.
 
 
 
