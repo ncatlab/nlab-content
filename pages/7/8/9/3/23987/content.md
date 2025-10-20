@@ -3166,7 +3166,7 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
-### Nov 2025
+### Oct 2025
 
 * 20 Oct 2025
 
