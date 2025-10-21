@@ -397,7 +397,7 @@ we use notation defined in
 #### Iterated lifting properties
 
 *         $(\emptyset\longrightarrow \{o\})^{&solb;r}$   is the class of surjections
-*         $(\emptyset\longrightarrow \{o\})^{&solb;r}$   is the class of maps $A\longrightarrow B$ where $A\neq \emptyset$ or $A=B$
+*         $(\emptyset\longrightarrow \{o\})^{&solb;l}$   is the class of maps $A\longrightarrow B$ where $A\neq \emptyset$ or $A=B$
 *         $(\emptyset\longrightarrow \{o\})^{&solb;rr}=\{\{x\leftrightarrow y\rightarrow c\}\longrightarrow\{x=y=c\}\}^{&solb;l}=\{\{x\leftrightarrow y\leftarrow c\}\longrightarrow\{x=y=c\}\}^{&solb;l}$ is the class of subsets, i.e. injective maps $A\hookrightarrow B$ where the topology on $A$ is induced from $B$
 
 *  $(\emptyset\longrightarrow \{o\})^{&solb;lr}$ is the class of maps $\emptyset\longrightarrow B$, $B$ arbitrary
