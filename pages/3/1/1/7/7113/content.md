@@ -132,7 +132,6 @@ More generally, one can consider, for every sub-$\sigma$-frame $\Sigma \subseteq
 Archimedean ordered fields include
 
 * [[rational numbers]]
-* [[real closed fields]]
 * [[real numbers]]
 
 In [[constructive mathematics]], one has the different notions of real numbers
@@ -144,12 +143,6 @@ In [[constructive mathematics]], one has the different notions of real numbers
 These notions of real numbers are the same if every Dedekind real number merely has a [[locator]], so that the Cauchy real numbers are Dedekind complete. Both [[excluded middle]] and [[countable choice]] imply that every Dedekind real number has a [[locator]]. 
 
 Non-Archimedean ordered fields include
-
-* [[finite fields]]
-
-* [[complex numbers]]
-
-* [[p-adic numbers]]
 
 * [[surreal numbers]]
 
@@ -188,7 +181,6 @@ The [[real numbers]] are defined as [[generalized the|the]] [[terminal object|te
 [[!redirects archimedean ordered field]]
 [[!redirects archimedean ordered fields]]
 
-[[!redirects Archimedean ordered field]]
 [[!redirects Archimedean ordered fields]]
 
 [[!redirects category of archimedean ordered fields]]
