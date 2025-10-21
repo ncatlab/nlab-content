@@ -129,7 +129,11 @@ For any [[quasicompact quasiseparated morphism|quasi-compact quasi-separated]] $
 
 ### General
 
-* {#Mukai81} [[Shigeru Mukai]],  _Duality between $D(X)$ and $D(\hat X)$ with its application to Picard sheaves_. Nagoya Mathematical Journal 81: 153&#8211;175. (1981)
+The original article:
+
+* {#Mukai81} [[Shigeru Mukai]]: _Duality between $D(X)$ and $D(\hat X)$ with its application to Picard sheaves_, Nagoya Mathematical Journal **81** (1981) 153-175 &lbrack;[doi:10.1017/S002776300001922X](https://doi.org/10.1017/S002776300001922X)&rbrack;
+
+Further discussion:
 
 * {#BondalBergh2002} [[Alexei Bondal]], [[Michel van den Bergh]].  _Generators and representability of functors in commutative and noncommutative geometry_, 2002, [arXiv](http://arxiv.org/abs/math/0204218)
 
