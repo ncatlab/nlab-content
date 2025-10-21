@@ -1,6 +1,17 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 The **Category Theory** (or simply **CT**) conference is an international annual conference on the subject of [[category theory]].
 
-*The list below is incomplete.*
+*The following list is incomplete.*
 
 |Year|Location|Website|Abstracts|
 |----|--------|-------|---------|
@@ -60,31 +71,33 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 
 * [[Oberwolfach]]
 
+
+
 ## References 
 
+Proceedings of past CT events:
 
-* {#CT81} [[Klaus Heiner Kamps]], [[Dieter Pumplün]], [[Walter Tholen]] (Eds), _Category Theory: Applications to Algebra, Logic and Topology. Proceedings of the International Conference Held at Gummersbach, July 6-10, 1981_, Lecture Notes in Mathematics **962** (1982) Springer–Verlag, doi:[10.1007/BFb0066878](https://doi.org/10.1007/BFb0066878)
+* {#CT81} [[Klaus Heiner Kamps]], [[Dieter Pumplün]], [[Walter Tholen]] (Eds), _Category Theory: Applications to Algebra, Logic and Topology. Proceedings of the International Conference Held at Gummersbach, July 6-10, 1981_, Lecture Notes in Mathematics **962**,  Springer (1982) &lbrack;[doi:10.1007/BFb0066878](https://doi.org/10.1007/BFb0066878)&rbrack;
 
-* {#CT89} [[R. Brown]], _International category theory meeting. Bangor, Wales, July 2-7 1989. Cambridge, England, March 23-25, 1990_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Vol. 32, No. 1, 1991, page 3. &lbrack;[numdam](http://www.numdam.org/item/CTGDC_1991__32_1_3_0/)&rbrack;
+* {#CT89} [[Ronald Brown]]: _International category theory meeting. Bangor, Wales, July 2-7 1989. Cambridge, England, March 23-25, 1990_, [[Cahiers]] de Topologie et Géométrie Différentielle Catégoriques **32** 1 (1991) 3 &lbrack;[numdam:CTGDC_1991__32_1_3_0](http://www.numdam.org/item/CTGDC_1991__32_1_3_0)&rbrack;
 
-* {#CT90} [[Aurelio Carboni]], [[Maria Cristina Pedicchio]], [[Giuseppe Rosolini]] (Eds), _Category Theory: Proceedings of the International Conference held in Como, Italy, July 22-28, 1990_, Lecture Notes in Mathematics **1488** (1991) Springer–Verlag, doi:[10.1007/BFb0084207](https://doi.org/10.1007/BFb0084207)
+* {#CT90} [[Aurelio Carboni]], Maria Cristina Pedicchio, [[Giuseppe Rosolini]] (eds.): _Category Theory: Proceedings of the International Conference held in Como, Italy, July 22-28, 1990_, Lecture Notes in Mathematics **1488**, Springer (1991) &lbrack;[doi:10.1007/BFb0084207](https://doi.org/10.1007/BFb0084207)&rbrack;
 
-* {#CT91} [[R.A.G. Seely]] (Ed), _Category Theory 1991: Proceedings of the 1991 Summer Category Theory Meeting, Montreal, Canada_,  Conference Proceedings, Canadian Mathematical Society **13** (1992) American Mathematical Society/Canadian Mathematical Society [AMS bookstore](https://bookstore.ams.org/cmsams-13). (<a class='existingWikiWord' href='/nlab/files/frontmatter.pdf' title='Category Theory 1991 - front matter'>pdf</a>)
+* {#CT91} [[R.A.G. Seely]] (ed.): _Category Theory 1991: Proceedings of the 1991 Summer Category Theory Meeting, Montreal, Canada_,  Conference Proceedings, Canadian Mathematical Society **13**, American Mathematical Society/Canadian Mathematical Society (1992) &lbrack;[ams:cmsams-13](https://bookstore.ams.org/cmsams-13), <a class='existingWikiWord' href='/nlab/files/frontmatter.pdf' title='Category Theory 1991 - front matter'>pdf</a>&rbrack;
 
+* {#CT99} [[Jiří Adámek]], [[Peter T. Johnstone]], [[Manuela Sobral]] (eds.): _Category Theory 1999: selected papers, conference held in Coimbra in honour of the 90th birthday of Saunders Mac Lane_, Journal of Pure and Applied Algebra **168** 2–3 (2002) &lbrack;[jpaa:168-2](https://www.sciencedirect.com/journal/journal-of-pure-and-applied-algebra/vol/168/issue/2)&rbrack;
 
-* {#CT99} J. Adamek, P.T. Johnstone and M. Sobral (Eds), _Category Theory 1999: selected papers, conference held in Coimbra in honour of the 90th birthday of Saunders Mac Lane_, Journal of Pure and Applied Algebra **168** Issues 2–3 (2002) [journal](https://www.sciencedirect.com/journal/journal-of-pure-and-applied-algebra/vol/168/issue/2)
+* {#CT00} [[Aurelio Carboni]], [[Giuseppe Rosolini]], [[Robert Walters]] (eds.): _CT2000_, Theory and Applications of Categories **9** (2001) &lbrack;[tac:vol9](http://www.tac.mta.ca/tac/index.html#vol9)&rbrack;
 
-* {#CT00} [[Aurelio Carboni]], [[Giuseppe Rosolini]] and [[Robert Walters]] (guest editors), _CT2000_, Theory and Applications of Categories, Vol. 9, 2001. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol9)&rbrack;
+* {#CT04} [[George Janelidze]], [[John MacDonald]], [[Ross Street]], [[Walter Tholen]] (guest eds.), _CT2004_, Theory and Applications of Categories **15** (2005-2006) &lbrack;[tac:vol15](http://www.tac.mta.ca/tac/index.html#vol15)&rbrack;
 
-* {#CT04} [[George Janelidze]], [[John MacDonald]], [[Ross Street]] and [[Walter Tholen]] (guest editors), _CT2004_, Theory and Applications of Categories, Vol. 15, 2005-2006. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol15)&rbrack;
+* {#CT06} [[Robert Dawson]], [[Dorette Pronk]], [[Peter Selinger]]: _CT2006_, Theory and Applications of Categories, **19** (2007) &lbrack;[tac:vol19](http://www.tac.mta.ca/tac/index.html#vol19)&rbrack;
 
-* {#CT06} _CT2006_, Theory and Applications of Categories, Vol. 19, 2007. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol19)&rbrack;
+* {#CT11} [[Marino Gran]], [[George Janelidze]], [[Stephen Lack]], [[John MacDonald]], [[Walter Tholen]] (guest eds.): _CT2011_, Theory and Applications of Categories **27** (2012) &lbrack;[tac:vol27](http://www.tac.mta.ca/tac/index.html#vol27)&rbrack;
 
-* {#CT11} [[Marino Gran]], [[George Janelidze]], [[Stephen Lack]], [[John MacDonald]] and [[Walter Tholen]] (guest editors), _CT2011_, Theory and Applications of Categories, Vol. 27, 2012. &lbrack;[TAC](http://www.tac.mta.ca/tac/index.html#vol27)&rbrack;
+A list events up to 2022:
 
-A list of category theory conferences appears in the unpublished note: 
-
-* [[Peter Johnstone]], *Category Theory Summer Conferences* (2023) &lbrack;[pdf](https://ncatlab.org/nlab/files/CThistory.pdf)&rbrack;
+* [[Peter Johnstone]]: *Category Theory Summer Conferences* (2023) &lbrack;[pdf](https://ncatlab.org/nlab/files/CThistory.pdf)&rbrack;
 
 category: reference
 
