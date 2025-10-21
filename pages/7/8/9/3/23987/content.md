@@ -2144,6 +2144,19 @@ $\phantom{-----------}$Tuesday, May 20
   **when analog and digitial hybridize**
 
 
+\linebreak
+
+### Oct 2025
+
+* {#KucharskiOct2025} 22 Oct 2025
+
+  [[Piotr Kucharski]] (University of Warsaw, Poland):
+
+  **Quivers and BPS states in 3d and 4d**
+
+  cf. [arXivL2508.09729](https://arxiv.org/abs/2508.09729)
+
+  > The [[knots-quivers correspondence]] provides a picture of [[BPS state]] counts in [[D=3 N=2 super Yang-Mills theory|3d $N=2$ theories]] associated to symmetric [[quivers]]. On the other hand, we have another, well established construction of [[BPS states]] in [[D=4 N=2 super Yang-Mills theory|4d $N=2$ theories]] which also corresponds to quivers, but not to symmetric ones. In this talk I want to give an answer for an obvious and long-standing question about the relation between these two perspectives.
 
 
 
@@ -3168,13 +3181,13 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 ### Oct 2025
 
-* 20 Oct 2025
+* {#SuterOct2025} 20 Oct 2025
 
-  Dieter Suter (Technische Universität Dortmund, Germany):
+  [[Dieter Suter]] (Technische Universität Dortmund, Germany):
 
   **Spin-qubits for quantum technologies**
 
-  > The term "Quantum Technologies" summarises a growing field of emergent technologies that have the potential for breakthrough improvements in fields like information processing, communication and sensing. Quantum bits of qubits, which represent fundamental units of information, exist naturally in the form of spins.
+  > The term "[[quantum technology|Quantum Technologies]]" summarises a growing field of emergent technologies that have the potential for breakthrough improvements in fields like [[quantum information|information processing]], [[quantum communication|communication]] and [[quantum sensing|sensing]]. Quantum bits or [[qubits]], which represent fundamental units of information, exist naturally in the form of [[spinor|spins]].
 
 
 
