@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[probability theory]], the *law or large numbers* states that the [[empirical mean]] of a [[stochastic process|process]] where the [[random variables]] are [[iid random variables|independent and identically distributed]] tends to its [[expectation value]]. 
+In [[probability theory]], the *law of large numbers* states that the [[empirical mean]] of a [[stochastic process|process]] where the [[random variables]] are [[iid random variables|independent and identically distributed]] tends to its [[expectation value]]. 
 
 It can be seen as a mathematical formalization of the idea that, even in presence of randomness, the *average behavior* of a system tends to be predictable, and the larger the sample size is, the better the prediction is. 
 
