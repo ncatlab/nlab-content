@@ -75,14 +75,56 @@ For a Yang-Mills-Higgs pair $(A,\Phi)\in\mathcal{A}$, the constant path on it is
 \begin{lemma}
 For a Yang-Mills-Higgs flow $(\alpha,\varphi)\colon\mathbb{R}\supseteq I\rightarrow\mathcal{A}$, the composition $YMH\circ(\alpha,\varphi)\colon\mathbb{R}\supseteq I\rightarrow\mathbb{R}_0^+$ with the Yang-Mills-Higgs [[action functional]] is [[monotone function|monotonically descreasing]] and in particular fulfills:
 $$
-(YMH\circ\alpha)'(t)
-=-\int_B\|\alpha'(t)\|^2+\|\varphi'(t)\|^2\mathrm{d}\vol_g
+(YMH\circ(\alpha,\varphi))'(t)
+=-2\int_B\|\alpha'(t)\|^2+\|\varphi'(t)\|^2\mathrm{d}\vol_g
 \leq 0.
 $$
 \end{lemma}
+\begin{proof}
+Using the flow equations yields:
+$$
+\frac{1}{2}\frac{\mathrm{d}}{\mathrm{d}t}\|F_{\alpha(t)}\|^2
+=\left\langle\frac{\mathrm{d}}{\mathrm{d}t}F_{\alpha(t)},F_{\alpha(t)}\right\rangle
+=\left\langle\mathrm{d}_{\alpha(t)}\alpha'(t),F_{\alpha(t)}\right\rangle
+=\left\langle\alpha'(t),\delta_{\alpha(t)}F_{\alpha(t)}\right\rangle;
+$$
+$$
+\frac{1}{2}\frac{\mathrm{d}}{\mathrm{d}t}\|\mathrm{d}_{\alpha(t)}\varphi(t)\|^2
+=\left\langle\frac{\mathrm{d}}{\mathrm{d}t}\mathrm{d}_{\alpha(t)}\varphi(t),\mathrm{d}_{\alpha(t)}\varphi(t)\right\rangle
+=\left\langle\mathrm{d}_{\alpha(t)}\varphi'(t)
++[\alpha'(t),\varphi(t)],\mathrm{d}_{\alpha(t)}\varphi(t)\right\rangle
+=\langle\alpha'(t),[\varphi(t),\mathrm{d}_{\alpha(t)}\varphi(t)]\rangle
++\langle\varphi'(t),\delta_{\alpha(t)}\mathrm{d}_{\alpha(t)}\varphi(t)\rangle;
+$$
+$$
+\frac{1}{2}\frac{\mathrm{d}}{\mathrm{d}t}\left(
+\|F_{\alpha(t)}\|^2
++\|\mathrm{d}_{\alpha(t)}\varphi(t)\|^2
+\right)
+=\langle\alpha'(t),[\varphi(t),\delta_{\alpha(t)}F_{\alpha(t)}+\mathrm{d}_{\alpha(t)}\varphi(t)]\rangle
++\langle\varphi'(t),\delta_{\alpha(t)}\mathrm{d}_{\alpha(t)}\varphi(t)\rangle
+=\|\alpha'(t)\|^2
++\|\varphi'(t)\|^2.
+$$
+\end{proof}
 \begin{lemma}
 For an infinitely long Yang-Mills-Higgs flow $(\alpha,\varphi)\colon[0,\infty)\rightarrow\mathcal{A}$, the [[limits]] $(\lim_{t\rightarrow\infty}\alpha(t),\lim_{t\rightarrow\infty}\varphi(t))\in\mathcal{A}$ exist and are a Yang-Mills-Higgs pair.
 \end{lemma}
+\begin{proof}
+According to the previous lemma, the [[limit]] $\lim_{t\rightarrow\infty}(YMH\circ(\alpha,\varphi))(t)\in\mathbb{R}_0^+$ exists, since the function $YMH\circ(\alpha,\varphi)\colon[0,\infty)\rightarrow\mathbb{R}_0^+$ is [[monotone function|monotonically descreasing]] and bounded from below. The inequality in the previous lemma then yields $\lim_{t\rightarrow\infty}\alpha'(t)=0$ and $\lim_{t\rightarrow\infty}\varphi'(t)=0$, which implies that the limits $A=\lim_{t\rightarrow\infty}\alpha(t)$ and $\Phi=\lim_{t\rightarrow\infty}\varphi'(t)$ exist. Using the flow equations then shows, that they are a Yang-Mills-Higgs pair:
+$$
+\delta_A F_A+[\Phi,\mathrm{d}_A\Phi]
+=\lim_{t\rightarrow\infty}\delta_{\alpha(t)}F_{\alpha(t)}+[\varphi(t),\mathrm{d}_{\alpha(t)}\varphi(t)]
+=\lim_{t\rightarrow\infty}\alpha'(t)
+=0;
+$$
+$$
+\delta_A\mathrm{d}_A\Phi
+=\lim_{t\rightarrow\infty}\delta_{\alpha(t)}\mathrm{d}_{\alpha(t)}\varphi(t)
+=\lim_{t\rightarrow\infty}\varphi'(t)
+=0.
+$$
+\end{proof}
 
 ## Related entries
 
