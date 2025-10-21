@@ -117,9 +117,12 @@ See also:
 * J. Fernando Barbero G., Juan Margalef-Bentabol, Valle Varo, Eduardo J.S. Villaseñor, *Covariant phase space for gravity with boundaries: metric vs tetrad formulations* ([arXiv:2103.06362](https://arxiv.org/abs/2103.06362))
 
 
-See also:
+More towards [[quantization]] ([[quantum gravity]]):
 
 * Fernando T. Brandt, J. Frenkel, S. Martins-Filho, D. G. C. McKeon, *Quantization of Einstein-Cartan theory in the first order form* &lbrack;[arXiv:2401.16343](https://arxiv.org/abs/2401.16343)&rbrack;
+
+* Fernando T. Brandt, J. Frenkel, S. Martins-Filho, D. G. C. McKeon: *On the equivalence of first and second order formulations of the Einstein-Hilbert theory* &lbrack;[arXiv:2510.17615](https://arxiv.org/abs/2510.17615)&rbrack;
+
 
 
 [[!redirects first-order formulations of gravity]]
