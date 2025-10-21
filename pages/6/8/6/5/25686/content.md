@@ -4,6 +4,7 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 
 |Year|Location|Website|Abstracts|
 |----|--------|-------|---------|
+|2026|Baltimore|[website](https://ct2026.com/)| |
 |2025|Brno|[website](https://conference.math.muni.cz/ct2025/) | [pdf](https://conference.math.muni.cz/ct2025/data/uploads/book_of_abstracts.pdf) |
 |2024|Santiago de Compostela|[website](https://www.usc.gal/regaca/ct2024/)| [pdf](https://www.usc.gal/regaca/ct2024/files/CT2024_Book_of_Abstracts.pdf) |
 |2023|Louvain-la-Neuve|[website](https://sites.uclouvain.be/ct2023/), [recordings](https://www.youtube.com/playlist?list=PLu4STGsfbix9l6rPxGsjG6Gl822k1hj2X)| [pdf](https://sites.uclouvain.be/ct2023/img/abstracts.pdf)|
