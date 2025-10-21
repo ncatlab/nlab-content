@@ -82,7 +82,7 @@ $$
 $$
 \end{proof}
 \begin{lemma}
-For an infinitely long Yang-Mills flow $\alpha\colon[0,\infty)\rightarrow\mathcal{A}$, the [[limit]] $\lim_{t\rightarrow\infty}\alpha(t)\in\mathcal{A}$ exists and is a Yang-Mills connection.
+For an infinitely long Yang-Mills flow $\alpha\colon[0,\infty)\rightarrow\mathcal{A}$, the [[limit of a sequence|limit]] $\lim_{t\rightarrow\infty}\alpha(t)\in\mathcal{A}$ exists and is a Yang-Mills connection.
 \end{lemma}
 \begin{proof}
 According to the previous lemma, the [[limit]] $\lim_{t\rightarrow\infty}(YM\circ\alpha)(t)\in\mathbb{R}_0^+$ exists, since the function $YM\circ\alpha\colon[0,\infty)\rightarrow\mathbb{R} _0^+$ is [[monotone function|monotonically descreasing]] and bounded from below. The inequality in the previous lemma then yields $\lim_{t\rightarrow\infty}\alpha'(t)=0$, which implies that the limit $A=\lim_{t\rightarrow\infty}\alpha(t)$ exists. Using the flow equation then shows, that it is a Yang-Mills connection:
