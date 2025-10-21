@@ -151,21 +151,23 @@ If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines
 
 ### General
 
+Introduction with an eye towards [[computational topology]]:
+
+* Thomas Bendokat, Ralf Zimmermann, P.-A. Absil: *A Grassmann Manifold Handbook: Basic Geometry and Computational Aspects*, Adv Comput Math **50** 6 (2024) &lbrack;[arXiv:2011.13699](https://arxiv.org/abs/2011.13699), [doi:10.1007/s10444-023-10090-8](https://doi.org/10.1007/s10444-023-10090-8)&rbrack;
+
+
 Textbook accounts:
+
+* Steven L Kleiman, _Geometry on Grassmannians and applications to splitting bundles and smoothing cycles_, Publications Mathématiques de l'IHÉS (1969) &lbrack;[numdam:PMIHES_1969__36__281_0](https://www.numdam.org/item/?id=PMIHES_1969__36__281_0), [pdf](http://www.numdam.org/article/PMIHES_1969__36__281_0.pdf)&rbrack;
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.3 of *[[Bordism, Stable Homotopy and Adams Spectral Sequences]]*,   Fields Institute Monographs **7**, American Mathematical Society (1996) &lbrack;[ams:fim-7](https://bookstore.ams.org/fim-7), [cds:2264210](https://cdsweb.cern.ch/record/2264210)&rbrack;
 
-* {#Hatcher} [[Allen Hatcher]], section 1.2 of: _Vector bundles & K-theory_ &lbrack;[web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html)&rbrack;
-
-* SL Kleiman, _Geometry on Grassmannians and applications to splitting bundles and smoothing cycles_, Publications Mathématiques de l'IHÉS (1969) &lbrack;[numdam:PMIHES_1969__36__281_0](https://www.numdam.org/item/?id=PMIHES_1969__36__281_0), [pdf](http://www.numdam.org/article/PMIHES_1969__36__281_0.pdf)&rbrack;
+* {#Hatcher} [[Allen Hatcher]], section 1.2 of: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
 * Karin Baur, _Grassmannians and cluster structures_,
 Bull. Iranian Math. Soc. **47** (2021) (Suppl 1) S5-S33
 &lbrack;[doi:10.1007/s41980-021-00542-6](https://doi.org/10.1007/s41980-021-00542-6)&rbrack;
 
-Lecture notes:
-
-* [[Michael Hopkins]], _Grassmannian manifolds_ ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1471353.files/grassmannian.pdf))
 
 See also:
 
