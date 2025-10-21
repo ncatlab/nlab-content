@@ -318,6 +318,8 @@ Textbook accounts on quantum computation:
 
 * [[Goong Chen]], [[Louis Kauffman]], [[Samuel J. Lomonaco]] (eds.), *Mathematics of Quantum Computation and Quantum Technology*, Chapman and Hall/CRC (2007) &lbrack;ISBN:9780367388614, [doi:10.1201/9781584889007](https://doi.org/10.1201/9781584889007)&rbrack;
 
+* [[Dieter Suter]]: *Quantum Computing: A Short Course from Theory to Experiment* &lbrack;[ISBN:978-3-527-40787-3](https://www.wiley.com/en-us/Quantum+Computing%3A+A+Short+Course+from+Theory+to+Experiment%2C+Revised+and+Enlarged%2C+2nd+Edition-p-9783527407873), [doi:10.1002/9783527617760](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527617760), [pdf](https://content.e-bookshelf.de/media/reading/L-603327-a968cb2c96.pdf)&rbrack;
+
 * [[Eleanor Rieffel]], [[Wolfgang Polak]], *Quantum Computing -- A gentle introduction*, MIT Press (2011) &lbrack;[ISBN:9780262526678](https://mitpress.mit.edu/9780262526678/quantum-computing/), [pdf](http://mmrc.amss.cas.cn/tlb/201702/W020170224608150244118.pdf)&rbrack;
 
 * [[Dirk Bouwmeester]], [[Artur Ekert]], [[Anton Zeilinger]] (eds.), *The Physics of Quantum Information -- Quantum Cryptography, Quantum Teleportation, Quantum Computation*, Springer (2020) &lbrack;[doi:10.1007/978-3-662-04209-0](https://doi.org/10.1007/978-3-662-04209-0)&rbrack;
