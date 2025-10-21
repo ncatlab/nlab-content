@@ -108,7 +108,7 @@ $$
 $$
 \end{proof}
 \begin{lemma}
-For an infinitely long Yang-Mills-Higgs flow $(\alpha,\varphi)\colon[0,\infty)\rightarrow\mathcal{A}$, the [[limits]] $(\lim_{t\rightarrow\infty}\alpha(t),\lim_{t\rightarrow\infty}\varphi(t))\in\mathcal{A}$ exist and are a Yang-Mills-Higgs pair.
+For an infinitely long Yang-Mills-Higgs flow $(\alpha,\varphi)\colon[0,\infty)\rightarrow\mathcal{A}$, the [[limit of a sequence|limits]] $(\lim_{t\rightarrow\infty}\alpha(t),\lim_{t\rightarrow\infty}\varphi(t))\in\mathcal{A}$ exist and are a Yang-Mills-Higgs pair.
 \end{lemma}
 \begin{proof}
 According to the previous lemma, the [[limit]] $\lim_{t\rightarrow\infty}(YMH\circ(\alpha,\varphi))(t)\in\mathbb{R}_0^+$ exists, since the function $YMH\circ(\alpha,\varphi)\colon[0,\infty)\rightarrow\mathbb{R}_0^+$ is [[monotone function|monotonically descreasing]] and bounded from below. The inequality in the previous lemma then yields $\lim_{t\rightarrow\infty}\alpha'(t)=0$ and $\lim_{t\rightarrow\infty}\varphi'(t)=0$, which implies that the limits $A=\lim_{t\rightarrow\infty}\alpha(t)$ and $\Phi=\lim_{t\rightarrow\infty}\varphi'(t)$ exist. Using the flow equations then shows, that they are a Yang-Mills-Higgs pair:
