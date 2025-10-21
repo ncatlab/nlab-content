@@ -123,13 +123,21 @@ Notice well the two assumptions that were made to make this argument work:
 ## References
  {#References}
 
-* [[David Ben-Zvi]], _Moduli spaces_ ([pdf](http://www.math.utexas.edu/users/benzvi/math/pcm0178.pdf))
+Survey:
 
-* [[Ib Madsen]], _Moduli spaces from a topological viewpoint_, ICM 2006 ([pdf](http://www.icm2006.org/proceedings/Vol_I/20.pdf))
+* [[David Ben-Zvi]]: _Moduli spaces_, chapter IV.8 in: *The Princeton Companion to Mathematics*, De Gruyter Brill (2009) 408-419 &lbrack;[doi:10.1515/9781400830398.408](https://doi.org/10.1515/9781400830398.408), [pdf](http://www.math.utexas.edu/users/benzvi/math/pcm0178.pdf)&rbrack;
 
-* [[John Baez]], *The Moduli Space of Acute Triangles*, Notices of the American Mathematical Society, Volume 71, Number 5, pages 664-665, May 2024. ([arXiv:2407.06201](https://arxiv.org/abs/2407.06201), [pdf](https://www.ams.org/journals/notices/202405/rnoti-p664.pdf))
+Monograph:
 
-A bit of elementary exposition of these ideas is at 
+* [[Shigeru Mukai]]: *An Introduction to Invariants and Moduli*, Cambridge University Press (2015) &lbrack;[doi:10.1017/CBO9781316257074](https://doi.org/10.1017/CBO9781316257074), [pdf](https://www.math.ens.psl.eu/~benoist/refs/Mukai.pdf), [pdf](http://lib.ysu.am/disciplines_bk/b5c9d97114ad965b9a9ff182c6fa712f.pdf)&rbrack;
+
+See also:
+
+* [[Ib Madsen]], _Moduli spaces from a topological viewpoint_, ICM 2006 &lbrack;[pdf](https://academicweb.nd.edu/~andyp/teaching/2011FallMath541/MadsenSurvey.pdf), [video](https://av.tib.eu/media/15964)&rbrack;
+
+* [[John Baez]], *The Moduli Space of Acute Triangles*, Notices of the American Mathematical Society **71** 5 (2024) 664-665 &lbrack;[arXiv:2407.06201](https://arxiv.org/abs/2407.06201), [pdf](https://www.ams.org/journals/notices/202405/rnoti-p664.pdf)&rbrack;
+
+A bit of elementary exposition of these ideas:
 
 * [[basic ideas of moduli stacks of curves and Gromov-Witten theory]]
 
