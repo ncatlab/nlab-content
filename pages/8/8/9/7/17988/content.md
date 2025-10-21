@@ -160,6 +160,9 @@ See also:
 
 * Edoardo D'Angelo, *Asymptotic Safety in Lorentzian quantum gravity* &lbrack;[arXiv:2310.20603](https://arxiv.org/abs/2310.20603)&rbrack;
 
+* Renata Ferrero: *Asymptotic Safety and Canonical Quantum Gravity* &lbrack;[arXiv:2507.14296](https://arxiv.org/abs/2507.14296)&rbrack;
+
+
 
 Relation to String Theory:
 
