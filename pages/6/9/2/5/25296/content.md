@@ -25,9 +25,12 @@ See also:
 
 * Lieven Vandersypen, Mark Eriksson: *Quantum computing with semiconductor spins*, Physics Today **72** 8 (2019) 38 \[<a href="https://doi.org/10.1063/PT.3.4270">doi:10.1063/PT.3.4270</a>\]
 
-Monograph:
+Monographs:
 
 * Chen, Church, Englert, Henkel, Rohwedder, Scully, Zubairy, section 10 of:  *Quantum Computing Devices -- Principles, Designs, and Analysis*, Routledge (2007) \[<a href="https://www.routledge.com/Quantum-Computing-Devices-Principles-Designs-and-Analysis/Chen-Church-Englert-Henkel-Rohwedder-Scully-Zubairy/p/book/9780367390372?srsltid=AfmBOooGiSmyK4mzxjmR1LBJz4zU9cgCpp_z4cPiCzEhM6SJo4b2GxRp">ISBN:9780367390372</a>\]
+
+* [[Dieter Suter]], chapter 10 of: *Quantum Computing: A Short Course from Theory to Experiment* \[<a href="https://onlinelibrary.wiley.com/doi/book/10.1002/9783527617760">doi:10.1002/9783527617760</a>, [ISBN:978-3-527-40787-3](https://www.wiley.com/en-us/Quantum+Computing%3A+A+Short+Course+from+Theory+to+Experiment%2C+Revised+and+Enlarged%2C+2nd+Edition-p-9783527407873), [pdf](https://content.e-bookshelf.de/media/reading/L-603327-a968cb2c96.pdf)\]
+
 
 
 Exposition, review and outlook:
