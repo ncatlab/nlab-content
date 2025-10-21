@@ -172,12 +172,12 @@ An exposition with an eye towards [[gauge theory]] is in section 16.1 of
 
 * [[Raoul Bott]], [[Loring Tu]], _Differential forms in algebraic topology_, Graduate Texts in Mathematics __82__, Springer 1982. xiv+331 pp.
 
-Discussion with an eye towards [[K-theory]] is in
+Discussion with an eye towards [[K-theory]]:
 
-* [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer 1978. xviii+308 pp.
+* [[Max Karoubi]], _K-theory. An introduction_, Grundlehren der Mathematischen Wissenschaften __226__, Springer (1978)
 
 
-* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-Theory_, (partly finished book) [web](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html)
+* {#Hatcher} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
 
 
