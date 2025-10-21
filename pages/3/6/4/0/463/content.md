@@ -12,7 +12,12 @@
 
 * David Ben-Zvi kindly wrote an expositional piece on geometric function theory for the $n$-Category Caf&#233; ([blog entry](http://golem.ph.utexas.edu/category/2009/01/benzvi_on_geometric_function_t.html))
 
-* D. Ben-Zvi, [[BenZviGeometricFunctionTheory.pdf:file]] (Jan 2009).
+* D. Ben-Zvi: *[[BenZviGeometricFunctionTheory.pdf:file]]* (2009)
+
+On [[moduli spaces]]:
+
+* [[David Ben-Zvi]]: _Moduli spaces_, chapter IV.8 in: *The Princeton Companion to Mathematics*, De Gruyter Brill (2009) 408-419 &lbrack;[doi:10.1515/9781400830398.408](https://doi.org/10.1515/9781400830398.408), [pdf](http://www.math.utexas.edu/users/benzvi/math/pcm0178.pdf)&rbrack;
+
 
 On the [[D=6 N=(2,0) SCFT]]:
 
