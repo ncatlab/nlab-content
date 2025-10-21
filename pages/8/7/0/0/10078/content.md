@@ -165,6 +165,7 @@ Further development:
 
 * Joon-Hwi Kim: *Worldline formalism in phase space* &lbrack;[arXiv:2509.06058](https://arxiv.org/abs/2509.06058)&rbrack;
 
+* Vincent F. He, Julio Parra-Martinez: *Generalized Unitarity Method for Worldline Field Theory* &lbrack;[arXiv:2510.00989](https://arxiv.org/abs/2510.00989)&rbrack;
 
 
 
