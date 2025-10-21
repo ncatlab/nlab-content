@@ -64,14 +64,35 @@ For a Yang-Mills connection $A\in\mathcal{A}$, the constant path on it is a Yang
 \begin{lemma}
 For a Yang-Mills flow $\alpha\colon\mathbb{R}\supseteq I\rightarrow\mathcal{A}$, the composition $YM\circ\alpha\colon\mathbb{R}\supseteq I\rightarrow\mathbb{R}_0^+$ with the Yang-Mills [[action functional]] is [[monotone function|monotonically descreasing]] and in particular fulfills:
 $$
-(YM\circ\alpha)(t)
-=-\int_B\|\alpha'(t)\|^2\mathrm{d}\vol_g
+(YM\circ\alpha)'(t)
+=-2\int_B\|\alpha'(t)\|^2\mathrm{d}\vol_g
+=-2(BYM\circ\alpha)(t)
 \leq 0.
 $$
 \end{lemma}
+$BYM\colon\mathcal{A}\rightarrow\mathbb{R}_0^+$ is the [[Bi-Yang-Mills equation|Bi-Yang-Mills action functional]].
+\begin{proof}
+Using the flow equation yields:
+$$
+\frac{1}{2}\frac{\mathrm{d}}{\mathrm{d}t}\|F_{\alpha(t)}\|^2
+=\left\langle\frac{\mathrm{d}}{\mathrm{d}t}F_{\alpha(t)},F_{\alpha(t)}\right\rangle
+=\left\langle\mathrm{d}_{\alpha(t)}\alpha'(t),F_{\alpha(t)}\right\rangle
+=\left\langle\alpha'(t),\delta_{\alpha(t)}F_{\alpha(t)}\right\rangle
+=-\|\alpha'(t)\|^2.
+$$
+\end{proof}
 \begin{lemma}
 For an infinitely long Yang-Mills flow $\alpha\colon[0,\infty)\rightarrow\mathcal{A}$, the [[limit]] $\lim_{t\rightarrow\infty}\alpha(t)\in\mathcal{A}$ exists and is a Yang-Mills connection.
 \end{lemma}
+\begin{proof}
+According to the previous lemma, the [[limit]] $\lim_{t\rightarrow\infty}(YM\circ\alpha)(t)\in\mathbb{R}_0^+$ exists, since the function $YM\circ\alpha\colon[0,\infty)\rightarrow\mathbb{R} _0^+$ is [[monotone function|monotonically descreasing]] and bounded from below. The inequality in the previous lemma then yields $\lim_{t\rightarrow\infty}\alpha'(t)=0$, which implies that the limit $A=\lim_{t\rightarrow\infty}\alpha(t)$ exists. Using the flow equation then shows, that it is a Yang-Mills connection:
+$$
+\delta_A F_A
+=\lim_{t\rightarrow\infty}\delta_{\alpha(t)}F_{\alpha(t)}
+=\lim_{t\rightarrow\infty}\alpha'(t)
+=0.
+$$
+\end{proof}
 
 ## Related entries
 
