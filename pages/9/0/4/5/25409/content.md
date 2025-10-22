@@ -61,12 +61,12 @@ See also:
 
 * {#E20} [[Alexander I. Efimov]], *Cohomological Hall algebra of a symmetric quiver*, Compositio Mathematica, **148** 4 (2012) 1133-1146 &lbrack;[arXiv:1103.2736](https://arxiv.org/abs/1103.2736), [doi:10.1112/S0010437X12000152](https://doi.org/10.1112/S0010437X12000152)&rbrack;
 
-* {#KS20} [[Maxim Kontsevich]], [[Yan Soibelman]], *Cohomological Hall algebra exponential Hodge structures and motivic Donaldson-Thomas invariants*, Commun. Num. Theor. Phys. **5** (2011) 231-352 &lbrack;[arXiv:1006.2706](https://arxiv.org/abs/1006.2706)&rbrack;
+* {#KS20} [[Maxim Kontsevich]], [[Yan Soibelman]]: *Cohomological Hall algebra exponential Hodge structures and motivic Donaldson-Thomas invariants*, Commun. Num. Theor. Phys. **5** (2011) 231-352 &lbrack;[arXiv:1006.2706](https://arxiv.org/abs/1006.2706)&rbrack;
 
 
 Further discussion:
 
-* [[Vivek Kr. Singh]], S. Chauhan, A. Dwivedi, P. Ramadevi, B.P. Mandal, S. Dwivedi, *Knot-Quiver correspondence for double twist knots* &lbrack;[arXiv:2303.07036](https://arxiv.org/abs/2303.07036)&rbrack;
+* [[Vivek Kr. Singh]], S. Chauhan, A. Dwivedi, P. Ramadevi, B. P. Mandal, S. Dwivedi: *Knot-Quiver correspondence for double twist knots* &lbrack;[arXiv:2303.07036](https://arxiv.org/abs/2303.07036)&rbrack;
 
 * [[Marko Stošić]], *Generalized knots-quivers correspondence* &lbrack;[arXiv:2402.03066](https://arxiv.org/abs/2402.03066)&rbrack;
 
