@@ -153,7 +153,7 @@ Since $A$ lies in $\mathbf{Std} \cap \mathbf{Cvx}$ is coseparated by $\mathbb{R}
 
 Define $\mathbf{Std}_{Cvx}$ to be the full subcategory of $\mathbf{Std} \cap \mathbf{Cvx}$ consisting of those objects which satisfy the fullness property.  
 
-Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Std}_{SCvx}$. (This is exercise 8.23 in the text Sets for Mathematics by Lawvere and Rosebrugh. Moreover, the expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
+Note that $\mathbb{R}_{\infty}$ is an object in $\mathbf{Std}_{Cvx}$. (This is exercise 8.23 in the text Sets for Mathematics by Lawvere and Rosebrugh. Moreover, the expectation mapping $G(\mathbb{R}_{\infty}) \xrightarrow{\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})} \mathbb{R}_{\infty}$ is easily verified to be a $G$-algebra.)
 
 We now proceed to show that for every standard space $X$ that $G(X)$ is an object in $\mathbf{Std}_{Cvx}$.  
 
