@@ -31,4 +31,9 @@
 
 [[!include spin resonance qbits -- references]]
 
+
+
 [[!redirects spin resonance qbits]]
+
+[[!redirects spin resonance qubit]]
+[[!redirects spin resonance qubits]]
