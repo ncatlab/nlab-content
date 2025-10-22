@@ -38,3 +38,11 @@ The "[[Wheels theorem]]", saying that the  [[perturbative quantization of 3d Che
 following
 
 * [[Dror Bar-Natan]], [[Stavros Garoufalidis]], [[Lev Rozansky]], [[Dylan Thurston]], _Wheels, wheeling, and the Kontsevich integral of  the unknot_ ([q-alg/9703025](http://arxiv.org/abs/q-alg/9703025))
+
+Discussion in [[BV-formalism]]:
+
+* [[Pavel Mnev]], Konstantin Wernli: *Globalization of perturbative Chern-Simons theory on the moduli space of flat connections in the BV formalism* \[<a href="https://arxiv.org/abs/2510.18653">arXiv:2510.18653</a>\]
+
+
+
+
