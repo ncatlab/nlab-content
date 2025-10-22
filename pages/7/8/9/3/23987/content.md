@@ -2144,24 +2144,7 @@ $\phantom{-----------}$Tuesday, May 20
   **when analog and digitial hybridize**
 
 
-\linebreak
-
-### Oct 2025
-
-* {#KucharskiOct2025} 22 Oct 2025
-
-  [[Piotr Kucharski]] (University of Warsaw, Poland):
-
-  **Quivers and BPS states in 3d and 4d**
-
-  cf. [arXivL2508.09729](https://arxiv.org/abs/2508.09729)
-
-  > The [[knots-quivers correspondence]] provides a picture of [[BPS state]] counts in [[D=3 N=2 super Yang-Mills theory|3d $N=2$ theories]] associated to symmetric [[quivers]]. On the other hand, we have another, well established construction of [[BPS states]] in [[D=4 N=2 super Yang-Mills theory|4d $N=2$ theories]] which also corresponds to quivers, but not to symmetric ones. In this talk I want to give an answer for an obvious and long-standing question about the relation between these two perspectives.
-
-
-
-
-
+7
 \linebreak
 
 
@@ -3187,7 +3170,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Spin-qubits for quantum technologies**
 
-  > The term "[[quantum technology|Quantum Technologies]]" summarises a growing field of emergent technologies that have the potential for breakthrough improvements in fields like [[quantum information|information processing]], [[quantum communication|communication]] and [[quantum sensing|sensing]]. Quantum bits or [[qubits]], which represent fundamental units of information, exist naturally in the form of [[spinor|spins]].
+  slides: [[Suter-SpinQubits.pdf:file]]
+
+  > The term "[[quantum technology|Quantum Technologies]]" summarises a growing field of emergent technologies that have the potential for breakthrough improvements in fields like [[quantum information|information processing]], [[quantum communication|communication]] and [[quantum sensing|sensing]]. Quantum bits or [[qubits]], which represent fundamental units of information, exist [[spin resonance qubits|naturally]] in the form of [[spins]].
 
 
 
@@ -4360,7 +4345,22 @@ Neumann algebras**
 
   cf.: [arXiv:2411.07299](https://arxiv.org/abs/2411.07299)
 
-  > The [[Green-Schwarz anomaly cancellation]] condition says that the [[target space]] of [[heterotic string theory]] must come with a [[string structure]] for the theory to be consistent. In this talk we discuss a new [[tangential structure]] called $string^h$, first introduced [by Devalapurkar](string+orientation+of+tmf#Devalapurkar), as a [[spin^c|$spin^c$]] analogue of string. Approximating the correct [[tangential structure]] of [[string theory]] has many implications, primarily is the [[swampland|Swampland program]] via the [cobordism conjecture](swampland#SwamplandCobordismConjecture) of Mcnamara and Vafa. We will show that the spectrum of $string^h$ has the notable property that it orients [[Tmf(n)|$tmf_1(n)$]], just like how the [[string orientation of tmf|spectrum of string orients tmf]], by the work of Ando-Hopkins-Rezk. Finally we will show that the anomaly condition of the [[partition function]] of [[M-theory]], studied by [[Diaconescu-Moore-Witten anomaly|Diaconescu-Moore-Witten]] is implied by a $string^h$ structure on the target space of [[type IIA string theory|type IIA]], in parallel to the Green-Schwarz anomaly for heterotic string theory, and discuss applications for anomaly cancellation.
+  > The [[Green-Schwarz anomaly cancellation]] condition says that the [[target space]] of [[heterotic string theory]] must come with a [[string structure]] for the theory to be consistent. In this talk we discuss a new [[tangential structure]] called $string^h$, first introduced [by Devalapurkar](string+orientation+of+tmf#Devalapurkar), as a [[spin^c|$spin^c$]] analogue of string. Approximating the correct [[tangential structure]] of [[string theory]] has many implications, primarily is the [[swampland|Swampland program]] via the [cobordism conjecture](swampland#SwamplandCobordismConjecture) of Mcnamara and Vafa. We will show that the spectrum of $string^h$ has the notable property that it orients [[Tmf(n)|$tmf_1(n)$]], just like how the [[string orientation of tmf|spectrum of string orients tmf]], by the work of Ando-Hopkins-Rezk. Finally we will show that the anomaly condition of the [[partition function]] of [[M-theory]], studied by [[Diaconescu-Moore-Witten anomaly|Diaconescu-Moore-Witten]] is implied by a $string^h$ structure on the target space of [[type IIA string theory|type IIA]], in parallel to the [[Green-Schwarz anomaly]] for [[heterotic string theory]], and discuss applications for [[anomaly cancellation]].
+
+
+\linebreak
+
+### Oct 2025
+
+* {#KucharskiOct2025} 22 Oct 2025
+
+  [[Piotr Kucharski]] (University of Warsaw, Poland):
+
+  **Quivers and BPS states in 3d and 4d**
+
+  cf. [arXiv:2508.09729](https://arxiv.org/abs/2508.09729)
+
+  > The [[knots-quivers correspondence]] provides a picture of [[BPS state]] counts in [[D=3 N=2 super Yang-Mills theory|3d $N=2$ theories]] associated to symmetric [[quivers]]. On the other hand, we have another, well established construction of [[BPS states]] in [[D=4 N=2 super Yang-Mills theory|4d $N=2$ theories]] which also corresponds to quivers, but not to symmetric ones. In this talk I want to give an answer for an obvious and long-standing question about the relation between these two perspectives.
 
 
 \linebreak
@@ -4723,6 +4723,7 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
 \linebreak
 
 \linebreak
+
 
 
 ***
