@@ -238,6 +238,9 @@ See also:
 
 * [[Tuna Demircik]], [[Niko Jokela]], [[Matti Järvinen]], Aleksi Piispa, *Is holographic quark-gluon plasma homogeneous?* &lbrack;[arXiv:2405.02392](https://arxiv.org/abs/2405.02392)&rbrack;
 
+* Thomas Apostolidis, Umut Gürsoy, Edwan Préau: *Higher derivative holography and temperature dependence of QGP viscosities* &lbrack;[arXiv:2502.19195](https://arxiv.org/abs/2502.19195)&rbrack;
+
+
 
 
 
