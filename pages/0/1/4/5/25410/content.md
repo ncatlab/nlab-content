@@ -1,5 +1,12 @@
 
-* [GoogleScholar entry](https://scholar.google.com/citations?user=6n_6ZIUAAAAJ&hl=pl)
+* [institute page](https://www.mimuw.edu.pl/en/employees/151342/)
+
+* [inSpire page](https://inspirehep.net/authors/1274233)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=6n_6ZIUAAAAJ&hl=pl)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Piotr-Kucharski-2)
+
 
 ## Selected writings
 
