@@ -125,12 +125,13 @@ Discussion focusing on 3-dimensional semi-metals with nodal lines:
 
 * [[Junyeong Ahn]], Dongwook Kim, Youngkuk Kim, Bohm-Jung Yang: *Band Topology and Linking Structure of Nodal Line Semimetals with $\mathbb{Z}_2$ Monopole Charges*, Phys. Rev. Lett. **121**  (2018) 106403 &lbrack;[arXiv:1803.11416](https://arxiv.org/abs/1803.11416), [doi:10.1103/PhysRevLett.121.106403](https://doi.org/10.1103/PhysRevLett.121.106403)&rbrack;
 
-
-* [[Anton A. Burkov]], M. D. Hook, Leon Balents,  *Topological nodal semimetals*, Phys. Rev. B **84** (2011) 235126 &lbrack;[arXiv:1110.1089](https://arxiv.org/abs/1110.1089), [doi:10.1103/PhysRevB.84.235126](https://doi.org/10.1103/PhysRevB.84.235126)&rbrack;
+* [[Anton A. Burkov]], M. D. Hook, Leon Balents:  *Topological nodal semimetals*, Phys. Rev. B **84** (2011) 235126 &lbrack;[arXiv:1110.1089](https://arxiv.org/abs/1110.1089), [doi:10.1103/PhysRevB.84.235126](https://doi.org/10.1103/PhysRevB.84.235126)&rbrack;
 
 * [[Ari M. Turner]], [[Ashvin Vishwanath]], Part I of: *Beyond Band Insulators: Topology of Semi-metals and Interacting Phases*, in: *Topological Insulators*, Contemporary Concepts of Condensed Matter Science **6** (2013) 293-324 &lbrack;[arXiv:1301.0330](https://arxiv.org/abs/1301.0330), [ISBN:978-0-444-63314-9](https://www.sciencedirect.com/bookseries/contemporary-concepts-of-condensed-matter-science/vol/6/suppl/C)&rbrack;
 
 * Bohm-Jung Yang, Naoto Nagaosa, *Classification of stable three-dimensional Dirac semimetals with nontrivial topology*, Nature Communications **5** (2014) 4898  &lbrack;[doi:10.1038/ncomms5898](https://doi.org/10.1038/ncomms5898)&rbrack;)
+
+* Da-Shuai Ma, Jianhui Zhou, Botao Fu, Zhi-Ming Yu, Cheng-Cheng Liu, Yugui Yao: *Mirror Protected Multiple Nodal Line Semimetals and Material Realization*, Phys. Rev. B **98** 201104 (2018) &lbrack;[arXiv:1804.06960](https://arxiv.org/abs/1804.06960), [doi:10.1103/PhysRevB.98.201104](https://doi.org/10.1103/PhysRevB.98.201104)&rbrack;
 
 * N. P. Armitage, [[Eugene Mele]], [[Ashvin Vishwanath]], *Weyl and Dirac semimetals in three-dimensional solids*, Rev. Mod. Phys. **90** 015001 (2018) &lbrack;[doi:10.1103/RevModPhys.90.015001](https://doi.org/10.1103/RevModPhys.90.015001)&rbrack;
 
@@ -138,15 +139,12 @@ Discussion focusing on 3-dimensional semi-metals with nodal lines:
 
 * Faruk Abdulla, Ganpathy Murthy, Ankur Das, *Stable nodal line semimetals in the chiral classes in three dimensions*  &lbrack;[arXiv:2401.02966](https://arxiv.org/abs/2401.02966)&rbrack;
 
-
 Discussion of the $\mathbb{Z}/2$-valued [[Berry phases]] around [[codimension]]=2 nodal loci in $P I$-symmetric (time-reversal +  inversion invariant)  semi-metals:
 
 * Dan-Wei Zhang, Y. X. Zhao, Rui-Bin Liu, Zheng-Yuan Xue, Shi-Liang Zhu, Z. D. Wang, *Quantum simulation of exotic PT-invariant topological nodal loop bands with ultracold atoms in an optical lattice*, Phys. Rev. A **93** (2016) 043617  ([arXiv:1601.00371](https://arxiv.org/abs/1601.00371), [doi:10.1103/PhysRevA.93.043617](https://doi.org/10.1103/PhysRevA.93.043617))
-
   > (see sec II.A, these authors stand out as mentioning the relevant [[KO-theory]])
 
-* {#FWDF16} Chen Fang, Hongming Weng, Xi Dai, Zhong Fang, *Topological nodal line semimetals*, Chinese Phys. B **25** (2016) 117106 ([arXiv:1609.05414](https://arxiv.org/abs/1609.05414), [doi:10.1088/1674-1056/25/11/117106](https://doi.org/10.1088/1674-1056/25/11/117106))
-
+* {#FWDF16} Chen Fang, Hongming Weng, Xi Dai, Zhong Fang, *Topological nodal line semimetals*, Chinese Phys. B **25** (2016) 117106 &lbrack;[arXiv:1609.05414](https://arxiv.org/abs/1609.05414), [doi:10.1088/1674-1056/25/11/117106](https://doi.org/10.1088/1674-1056/25/11/117106)&rbrack;
   > (see sec II.B)
 
 * [Vanderbilt 18, 5.5.2](#Vanderbilt18)
