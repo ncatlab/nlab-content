@@ -134,3 +134,6 @@ For generalizations to étale spaces of stacks in groupoids see
 
 [[!redirects display space]]
 [[!redirects display spaces]]
+
+[[!redirects etale locale]]
+[[!redirects etale locales]]
