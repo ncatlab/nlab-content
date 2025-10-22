@@ -92,6 +92,8 @@ More recently, TQFTs find relevance in [[solid state physics]] as models for the
 
 * [[Romesh K. Kaul]]: *Topological Quantum Field Theories -- A Meeting Ground for Physicists and Mathematicians* &lbrack;[arXiv:hep-th/9907119](https://arxiv.org/abs/hep-th/9907119)&rbrack;
 
+* [[Romesh K. Kaul]], T. R. Govindarajan, [[Pichai Ramadevi]]: _Schwarz Type Topological Quantum Field Theories_, [[Encyclopedia of Mathematical Physics]], Elsevier (2006) 494-503 &lbrack;[arXiv:hep-th/0504100](http://arxiv.org/abs/hep-th/0504100)&rbrack;
+
 * [[Ralph Cohen]] (notes by [[Eric Malm]]): *MATH 283: Topological Field Theories* (2008) &lbrack;[pdf](https://ericmalm.net/ac/projects/math283-w08/math283-w08-n.pdf), [[RCohen-TQFT.pdf:file]], [web](https://ericmalm.net/ac/projects/math283-w08/)&rbrack;
 
 
