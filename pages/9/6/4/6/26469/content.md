@@ -128,7 +128,7 @@ We have that
 ## Regular conditional distributions
 
 A Markov kernel can be seen as a [[probability measure]] which depends [[measurable function|measurably]] on a parameter. 
-Therefore, together with the idea of [[conditional expectation]], it's a very useful tool to talk about [[conditional probability]] without incurring into paradoxes. Let's see how.
+Therefore, together with the idea of [[conditional expectation]], it's a very useful tool to talk about [[conditional probability]] without incurring paradoxes. Let's see how.
 
 Let $(X,\mathcal{A},p)$ be a [[probability space]], and consider a sub-[[sigma-algebra]] $\mathcal{B}\subseteq\mathcal{A}$. 
 Recall that 
@@ -168,7 +168,7 @@ The **disintegration theorem** says that when $(X,\mathcal{A})$ is standard Bore
 
 ### Regular conditionals from a joint distribution
 
-Using the disintegration theorem we can obtain conditional probability distributions in a way that generalizes the discrete formula
+Using the disintegration theorem, we can obtain conditional probability distributions in a way that generalizes the discrete formula
 $$
 p(b|a) = \frac{p(a,b)}{p(a)}
 $$
@@ -176,8 +176,8 @@ to the non-discrete setting.
 
 Given standard Borel spaces $(X,\mathcal{A})$ and $(Y,\mathcal{B})$, their product $(X\times Y,\mathcal{A}\otimes\mathcal{B})$ is again standard Borel. The projection map $\pi_1:(X\times Y,\mathcal{A}\otimes\mathcal{B})\to (X,\mathcal{A})$ induces a sub-sigma-algebra $\pi_1^{-1}(\mathcal{A})$ on $X\times Y$ (which makes it isomorphic to $(X,\mathcal{A})$ in both [[Stoch]] and [[Krn]], see [Section 2.1 of this paper](#ergodic_dagger)).
 
-Given a joint distribution $r$ on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$, we can then form the regular conditional $(X\times Y,\pi_1^{-1}(\mathcal{A}))\to(X\times Y,\mathcal{A}\otimes\mathcal{B})$ (or equivalently, up to isomorphism, $(X,\mathcal{A})\to(X\times Y,\mathcal{A}\otimes\mathcal{B})$).
-Further composing with the projection $\pi_2:(X\times Y,\mathcal{A}\otimes\mathcal{B})\to(Y,\mathcal{B})$ (or equivalently restricting the kernel to the sub-sigma-algebra $\pi_2^{-1}(\mathcal{B})$) we then get a kernel
+Given a joint distribution $r$ on $(X\times Y,\mathcal{A}\otimes\mathcal{B})$, we can form the regular conditional $(X\times Y,\pi_1^{-1}(\mathcal{A}))\to(X\times Y,\mathcal{A}\otimes\mathcal{B})$ (or equivalently, up to isomorphism, $(X,\mathcal{A})\to(X\times Y,\mathcal{A}\otimes\mathcal{B})$).
+Further composing with the projection $\pi_2:(X\times Y,\mathcal{A}\otimes\mathcal{B})\to(Y,\mathcal{B})$ (or equivalently restricting the kernel to the sub-sigma-algebra $\pi_2^{-1}(\mathcal{B})$), we get a kernel
 \begin{tikzcd}[%
 nodes={scale=1.25}, arrows={thick},%
 row sep=0,%
@@ -185,13 +185,13 @@ row sep=0,%
 X\times\mathcal{B} \ar{r} & {[0,1]} \\
 (x,B) \ar[mapsto]{r} & \mathbb{P}{[\pi_2^{-1}(B)|\pi_1^{-1}(\mathcal{A})]}(x) ,
 \end{tikzcd}
-sometimes denoted simply $r(B|x)$ or $r'(B|x)$.
+sometimes denoted simply by $r(B|x)$ or $r'(B|x)$.
 
 This kernel satisfies the property that for every $A\in\mathcal{A}$ and $B\in\mathcal{B}$,
 $$
 \int_A r'(B|x) \, p(d x) = r(A\times B) ,
 $$
-and is therefore a generalization of conditional probability to the non-discrete setting: compare it to the formula 
+and is therefore a generalization of conditional probability to the non-discrete setting. Compare it to the formula 
 $$
 P(b|a)\,P(a) = P(a,b) .
 $$
