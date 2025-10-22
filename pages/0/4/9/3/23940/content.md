@@ -29,7 +29,7 @@ $$
   \,,
 $$
 
-where $k\!\!\!/$ are the [[Feynman slash|Clifford momentum]]-[[linear operator|operator]], then for a mass term addition
+where $k\!\!\!/$ is the [[Feynman slash|Clifford momentum]]-[[linear operator|operator]], then for a mass term addition
 
 $$
   \partial_0 \psi
@@ -46,7 +46,7 @@ $$
   E \,=\, \sqrt{k^2 + m^2}
 $$
 
-one needs that the new [[Clifford algebra|Clifford]]-generator $\gamma_0$ exists as an operator on the given [[Hilbert space]] of [[spinor]] $\psi$ such that it skew-commutes with all the Clifford momenta
+one needs that the new [[Clifford algebra|Clifford]]-generator $\gamma_0$ exists as an operator on the given [[Hilbert space]] of [[spinors]] $\psi$ such that it [[anti-commutator|anti-commutes]] with all the Clifford momenta
 
 $$
   \gamma_0 \cdot k\!\!\!/ 
@@ -57,7 +57,7 @@ $$
   \,.
 $$
 
-This is the kind of condition that also appears in [[Karoubi K-theory|Karoubi]]'s formlation of [[topological K-theory]]-classes as [[equivalence classes]] of  [[Clifford modules]] (see [Freed & Hopkins 2021, Thm. 9.63](#FreedHopkins21)). 
+This is the kind of condition that also appears in [[Karoubi K-theory|Karoubi]]'s formulation of [[topological K-theory]]-classes as [[equivalence classes]] of  [[Clifford modules]] (cf. [Freed & Hopkins 2021, Thm. 9.63](#FreedHopkins21)). 
 
 In this guise, mass terms for [[electron]]-excitations in [[semi-metals]] play a role in the [[K-theory classification of topological phases of matter]] (see [below](#ExamplesInTopologicalPhasesOfMatter)).
 
@@ -66,7 +66,7 @@ In this guise, mass terms for [[electron]]-excitations in [[semi-metals]] play a
 
 ### In particle physics
 
-In [[particle physics]] the (non-)existence of mass terms for [[fermions|fermionic]] [[fundamental particles]] goes along with their characterization as [[Dirac spinors]], [[Weyl spinors]] and [[Majorana spinors]]. 
+In [[particle physics]] the (non-)existence of mass terms for [[fermions|fermionic]] [[fundamental particles]] goes along with their characterization as [[Dirac spinors]], [[Weyl spinors]] or [[Majorana spinors]]. 
 
 This plays a central role notably in discussion of the (still hypothetical) detailed nature of [[neutrinos]].
 
@@ -75,7 +75,7 @@ This plays a central role notably in discussion of the (still hypothetical) deta
 ### In topological phases of matter
  {#ExamplesInTopologicalPhasesOfMatter}
 
-In [[solid state physics]] of [[crystals]], [[electrons]] are typically well-approximated by the non-relativistic Dirac equation, but around nodal points in the [[Brillouin torus]], where [[electronic band structure|electron bands]] cross, the effective [[dispersion relation]] is again of form of a relativistic Dirac- or Weyl-equation (whence one speaks of *Dirac points* or *Weyl points*). 
+In [[solid state physics]] of [[crystals]], [[electrons]] are typically well-approximated by the [[non-relativistic particle|non-relativistic]] [[Dirac equation]], but around [[nodal points]] in the [[Brillouin torus]], where [[electronic band structure|electron bands]] cross, the effective [[dispersion relation]] is again of form of a [[relativistic particle|relativistic]] Dirac- or Weyl-equation (whence one speaks of *Dirac points* or *Weyl points*). 
 
 \begin{imagefromfile}
     "file_name": "MassTermsForSemiMetalNodalPoints-220517.jpg",
@@ -107,18 +107,18 @@ See for instance the example of the *[[Haldane model]]*.
 
 ## References
 
-A careful discussion of relativistic mass terms is in:
+A careful discussion of relativistic mass terms:
 
-* {#FreedHopkins21} [[Daniel S. Freed]], [[Michael J. Hopkins]], *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 $[$[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)$]$
+* {#FreedHopkins21} [[Daniel S. Freed]], [[Michael J. Hopkins]], *Reflection positivity and invertible topological phases*, Geom. Topol. **25** (2021) 1165-1330 &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
 
 
-Discussion aimed at the description of [[topological semi-metal]]-phases in [[solid state physics]] includes:
+Discussion aimed at the description of [[topological semi-metal]]-phases in [[solid state physics]]:
 
-* {#MorimotoFurusaki13} Takahiro Morimoto and Akira Furusaki, Sec. V of: *Topological classification with additional symmetries from Clifford algebras*, Phys. Rev. B **88** (2013) 125129 ([arXiv:1306.2505](https://arxiv.org/abs/1306.2505),  [doi:10.1103/PhysRevB.88.125129](https://doi.org/10.1103/PhysRevB.88.125129))
+* {#MorimotoFurusaki13} Takahiro Morimoto and Akira Furusaki, Sec. V of: *Topological classification with additional symmetries from Clifford algebras*, Phys. Rev. B **88** (2013) 125129 &lbrack;[arXiv:1306.2505](https://arxiv.org/abs/1306.2505),  [doi:10.1103/PhysRevB.88.125129](https://doi.org/10.1103/PhysRevB.88.125129)&rbrack;
 
-* {#ChiuSchnyder14} [[Ching-Kai Chiu]], [[Andreas P. Schnyder]], Section A.2 of: *Classification of reflection-symmetry-protected topological semimetals and nodal superconductors*, Phys. Rev. B **90** 205136 (2014) $[$[doi:10.1103/PhysRevB.90.205136](https://doi.org/10.1103/PhysRevB.90.205136)$]$
+* {#ChiuSchnyder14} [[Ching-Kai Chiu]], [[Andreas P. Schnyder]], Section A.2 of: *Classification of reflection-symmetry-protected topological semimetals and nodal superconductors*, Phys. Rev. B **90** 205136 (2014) &lbrack;[doi:10.1103/PhysRevB.90.205136](https://doi.org/10.1103/PhysRevB.90.205136)&rbrack;
 
-* {#CTSR15} [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]], [[Shinsei Ryu]], Section III.C of *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** (2016) 035005 ([arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005))
+* {#CTSR15} [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]], [[Shinsei Ryu]], Section III.C of: *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** (2016) 035005 &lbrack;[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)&rbrack;
 
 See also discussion in the context of [[differential K-theory|differential]] [[KO-theory]]:
 
@@ -127,7 +127,7 @@ See also discussion in the context of [[differential K-theory|differential]] [[K
 
 Some of the above material is taken from:
 
-* {#SS22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Computation in TED-K]]*
+* {#SS22} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Topological Quantum Computation in TED-K]]*, [PlanQC **2022**](https://icfp22.sigplan.org/home/planqc-2022) [**33**](https://planqc2022.hotcrp.com/paper/33) (15 Sep 2022)
 
 [[!redirects mass terms]]
 
