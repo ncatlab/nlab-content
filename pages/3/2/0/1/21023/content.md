@@ -117,6 +117,9 @@ See also:
 
 * Feng Qu, *$P$-adic AdS/CFT on subspaces of the Bruhat-Tits tree* &lbrack;[arXiv:2402.03730](https://arxiv.org/abs/2402.03730)&rbrack;
 
+* Arkapal Mondal, Sarthak Parikh, Pulak Pradhan, Ritu Sengar: *Toward Holography on Biregular Trees* &lbrack;[arXiv:2507.20886](https://arxiv.org/abs/2507.20886)&rbrack;
+
+
 
 
 
