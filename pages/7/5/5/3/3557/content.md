@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include (0,1)-category theory - contents]]
 =--
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
 =--
 =--
 
