@@ -126,7 +126,7 @@ $$f,g\colon(X,M,N)\to(X',M',N')$$
 are [[measurable maps]] that are equal almost everywhere.
 
 Suppose that
-$$h\colon(X'',M'',N'')\to(X',M',N')$$
+$$h\colon(X'',M'',N'')\to(X,M,N)$$
 is a measurable map.
 If composition is to be compatible with equality almost everywhere, then $f\circ h$ would have to be equal to $g\circ h$ almost everywhere.
 However,
