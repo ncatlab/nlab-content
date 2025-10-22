@@ -104,6 +104,7 @@ with focus on [[topological phases of matter]]:
 
 * Junjie Wu, Ying Zhang, Bin Xiang: *Synthesis, properties, and applications of topological quantum materials*, JUSTC **53** 10 (2023) 1002 &lbrack;[doi:10.52396/JUSTC-2023-0024](https://doi.org/10.52396/JUSTC-2023-0024)&rbrack;
 
+* *Topological Quantum Materials*, special issue of Materials Today -- Quantum (2025) &lbrack;[10LXVTG7458](https://www.sciencedirect.com/special-issue/10LXVTG7458)&rbrack;
 
 
 with an eye towards [[topological quantum computation]]:
