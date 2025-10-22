@@ -25,7 +25,7 @@ For the second edition see at *[[Encyclopedia of Mathematical Physics 2nd ed]]*.
 
 On [[Chern-Simons theory|Chern-Simons]] [[TQFT]]:
 
-* [[Romesh K. Kaul]], T. R. Govindarajan, P. Ramadevi: _Schwarz Type Topological Quantum Field Theories_, [[Encyclopedia of Mathematical Physics]], Elsevier (2006) 494-503 &lbrack;[arXiv:hep-th/0504100](http://arxiv.org/abs/hep-th/0504100)&rbrack;
+* [[Romesh K. Kaul]], T. R. Govindarajan, [[Pichai Ramadevi]]: _Schwarz Type Topological Quantum Field Theories_, [[Encyclopedia of Mathematical Physics]], Elsevier (2006) 494-503 &lbrack;[arXiv:hep-th/0504100](http://arxiv.org/abs/hep-th/0504100)&rbrack;
 
 (...)
 
