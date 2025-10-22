@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc} 
@@ -83,9 +84,13 @@ See also:
 
 * Wikipedia, _[Qbit](http://en.wikipedia.org/wiki/Qubit)_
 
-Laboratoy-realizations of qbits for use in [[quantum computers]]:
+
+On laboratoy-realizations of qbits for use in [[quantum computers]]:
 
 * *[Qubit Zoo](https://qubitzoo.org/qubitzoo/)*
+
+* [[Dieter Suter]]: *Spin-Quibits for Quantum Technologies*, [talk at](CQTS##SuterOct2025) [[CQTS]] (Oct 2025) &lbrack;slides:[[Suter-SpinQubits.pdf:file]]&rbrack;
+  > (qubits based on [[spin]], such as [[spin resonance qubits]] at [[nitrogen-vacancy centers in diamond]])
 
 
 
