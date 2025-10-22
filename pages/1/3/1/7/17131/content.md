@@ -18,6 +18,8 @@ Further discussion:
 
 * [[Marko Stošić]], *Generalized knots-quivers correspondence* &lbrack;[arXiv:2402.03066](https://arxiv.org/abs/2402.03066)&rbrack;
 
+* Sachin Chauhan, [[Piotr Kucharski]], Dmitry Noshchenko, Ramadevi Pichai, [[Vivek Kumar Singh]], [[Marko Stošić]]: *Full twists and stability of knots and quivers* &lbrack;[arXiv:2508.18417](https://arxiv.org/abs/2508.18417)&rbrack;
+
 
 
 ## Related entries
