@@ -388,16 +388,15 @@ and all degrees  must differ from that of the class of the [[identity function]]
 * {#Wasserman69} [[Arthur Wasserman]], section 3 of _Equivariant differential topology_, Topology Vol. 8, pp. 127-150, 1969 ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/wasserman.pdf))
 
 
-* {#tomDieck79} [[Tammo tom Dieck]], section 8.4 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics 766 Springer 1979
+* {#tomDieck79} [[Tammo tom Dieck]], section 8.4 of _[[Transformation Groups and Representation Theory]]_, Lecture Notes in Mathematics **766**, Springer (1979) &lbrack;[doi:10.1007/BFb0085965](https://link.springer.com/book/10.1007/BFb0085965)&rbrack;
 
 * {#Peschke94} [[George Peschke]], _Degree of certain equivariant maps into a representation sphere_, Topology and its Applications Volume 59, Issue 2, 30 September 1994, Pages 137-156 (<a href="https://doi.org/10.1016/0166-8641(94)90091-4">doi:10.1016/0166-8641(94)90091-4</a>)
 
 * Zalman Balanov, _Equivariant hopf theorem_, Nonlinear Analysis: Theory, Methods & Applications Volume 30, Issue 6, December 1997, Pages 3463-3474 (<a href="https://doi.org/10.1016/S0362-546X(97)00020-5">doi:10.1016/S0362-546X(97)00020-5</a>)
 
-* {#Cruickshank03} [[James Cruickshank]], _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications Volume 129, Issue 3, 1 April 2003, Pages 251-271 (<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>)
+* {#Cruickshank03} [[James Cruickshank]]: _Twisted homotopy theory and the geometric equivariant 1-stem_, Topology and its Applications **129** 3 (2003)251-271 &lbrack;<a href="https://doi.org/10.1016/S0166-8641(02)00183-9">doi:10.1016/S0166-8641(02)00183-9</a>&rbrack;
 
-* Davide L. Ferrario, _On the equivariant Hopf theorem_, _Topology
-Volume 42, Issue 2, March 2003, Pages 447-465_ (<a href="https://doi.org/10.1016/S0040-9383(02)00015-0">doi:10.1016/S0040-9383(02)00015-0</a>)
+* Davide L. Ferrario, _On the equivariant Hopf theorem_, Topology **42** 2 (2003) 447-465 &lbrack;<a href="https://doi.org/10.1016/S0040-9383(02)00015-0">doi:10.1016/S0040-9383(02)00015-0</a>&rbrack;
 
 
 ### Cocycle spaces
@@ -414,17 +413,16 @@ Discussion of [[cocycle spaces]] in equivariant Cohomotopy:
 Discussion of [[M-brane]] [[charge quantization]] in [[equivariant cohomotopy]]:
 
 * [[John Huerta]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Equivariant homotopy and super M-branes|Real ADE-equivariant (co)homotopy and Super M-branes]]_, Comm. Math. Phys. **371** (2019) 425-524 &lbrack;[arXiv:1805.05987](https://arxiv.org/abs/1805.05987), [doi:10.1007/s00220-019-03442-3](https://doi.org/10.1007/s00220-019-03442-3)&rbrack;
+  > ([[equivariant rational homotopy theory|equivariant]] [[rational Cohomotopy]])
 
-  ([[equivariant rational homotopy theory|equivariant]] [[rational Cohomotopy]])
-
-* {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_ ([arXiv:1909.12277](https://arxiv.org/abs/1909.12277))
+* {#SatiSchreiber19} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Equivariant Cohomotopy implies orientifold tadpole cancellation]]_, Journal of Geometry and Physics **156** (2020) 103775 &lbrack;[doi:10.1016/j.geomphys.2020.103775](https://doi.org/10.1016/j.geomphys.2020.103775), [arXiv:1909.12277](https://arxiv.org/abs/1909.12277)&rbrack;
   > (implying [[RR-field tadpole cancellation]])
 
 On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximation to equivariant Cohomotopy:
 
 * [[Zhen Huan]]: *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* &lbrack;[arXiv:2006.00554](https://arxiv.org/abs/2006.00554)&rbrack;
 
-* [[Zhen Huan]]: *Quasi-elliptic cohomology of 4-spheres* &lbrack;[arXiv:2408.02278](https://arxiv.org/abs/2408.02278)&rbrack;
+* [[Zhen Huan]]: *Quasi-elliptic cohomology of 4-spheres*, Axioms **14** 4 (2025) 267; &lbrack;[doi;10.3390/axioms14040267](https://doi.org/10.3390/axioms14040267), [arXiv:2408.02278](https://arxiv.org/abs/2408.02278)&rbrack;
 
 
 
