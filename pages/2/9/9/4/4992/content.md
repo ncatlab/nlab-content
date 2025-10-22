@@ -62,10 +62,10 @@ See also:
 * [[Leila Schneps]], _On the Poisson bracket on the free Lie algebra in two generators_, [pdf](http://www.math.jussieu.fr/~leila/Poisson.pdf)
 
 * A. Murua, _The Hopf algebra of rooted trees, free Lie algebras, and
-Lie series_, [pdf](www.ehu.es/ccwmuura/research/MS111rev.pdf)
+Lie series_, [pdf](https://www.ehu.eus/ccwmuura/research/MS111rev.pdf)
 
 * F. Chapoton, _Free pre-Lie algebras are free as Lie algebras_, 
-[math.RA/0704.2153](http://arxiv.org/abs/math/0704.2153), Bulletin Canadien de Mathe'matiques
+[ArXiv 0704.2153](https://arxiv.org/abs/0704.2153), Bulletin Canadien de Mathématiques
 
 category: algebra
 
