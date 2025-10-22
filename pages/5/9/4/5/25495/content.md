@@ -48,6 +48,11 @@ Review and further discussion
 * {#AHWZ18} [[David D. Awschalom]], Ronald Hanson, Jörg Wrachtrup & Brian B. Zhou, *Quantum technologies with optically interfaced solid-state spins*, Nature Photonics **12** (2018) 516–527 &lbrack;[doi:10.1038/s41566-018-0232-2](https://doi.org/10.1038/s41566-018-0232-2)&rbrack;
 
 * [Awschalom group](https://pme.uchicago.edu/group/awschalom-group), *The Nitrogen-Vacancy Center in Diamond* &lbrack;[web](https://pme.uchicago.edu/awschalom-group/nitrogen-vacancy-center-diamond)&rbrack;
+
+Exposition in view of [[quantum technologies]]:
+
+* [[Dieter Suter]]: *Spin-Qubits for Quantum Technologies*, [talk at](CQTS##SuterOct2025) [[CQTS]] (Oct 2025) &lbrack;slides:[[Suter-SpinQubits.pdf:file]]&rbrack;
+
     
 Application to [[quantum sensing]]:
 
@@ -71,7 +76,11 @@ See also:
 
 * {#BSERTRH23} Santiago Bussandri, Daphna Shimon, [[Asif Equbal]], Yuhang Ren, Susumu Takahashi, [[Chandrasekhar Ramanathan]], Songi Han,  *P1 center electron spin clusters are prevalent in type Ib diamond* &lbrack;[arXiv:2311.05396](https://arxiv.org/abs/2311.05396)&rbrack;
 
+
+[[!redirects nitrogen-vacancy centers in diamond]]
+
 [[!redirects nitrogen-vacancy center]]
+[[!redirects nitrogen-vacancy centers]]
 
 [[!redirects NV center]]
 [[!redirects NV centers]]
