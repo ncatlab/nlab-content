@@ -71,15 +71,15 @@ Reviews:
 
 * [[M. Zahid Hasan]], [[Charles Kane]], *Colloquium: Topological insulators*, Rev. Mod. Phys. **82** (2010) 3045 &lbrack;[doi:10.1103/RevModPhys.82.3045](https://doi.org/10.1103/RevModPhys.82.3045)&rbrack;
 
-* [[Joel E. Moore]], *The birth of topological insulators*, Nature volume 464, pages 194–198 (2010) ([doi:10.1038/nature08916](https://doi.org/10.1038/nature08916))
+* [[Joel E. Moore]], *The birth of topological insulators*, Nature **464** (2010) 194–198 &lbrack;[doi:10.1038/nature08916](https://doi.org/10.1038/nature08916)&rbrack;
 
 * [[Xiao-Liang Qi]], [[Shou Cheng Zhang]], *Topological insulators and superconductors*, Rev. Mod. Phys. **83** (2011) 1057-1110 &lbrack;[arXiv:1008.2026](https://arxiv.org/abs/1008.2026), [doi:10.1103/RevModPhys.83.1057](https://doi.org/10.1103/RevModPhys.83.1057)&rbrack;
 
-* [[M. Zahid Hasan]], [[Joel E. Moore]], *Three-Dimensional Topological Insulators*, Ann. Review.Condensed Matter Physics **2** (2011) 55-78 $[$[arXiv:1011.5462](https://arxiv.org/abs/1011.5462), [doi:10.1146/annurev-conmatphys-062910-140432](https://doi.org/10.1146/annurev-conmatphys-062910-140432)$]$
+* [[M. Zahid Hasan]], [[Joel E. Moore]], *Three-Dimensional Topological Insulators*, Ann. Review.Condensed Matter Physics **2** (2011) 55-78 &lbrack;[arXiv:1011.5462](https://arxiv.org/abs/1011.5462), [doi:10.1146/annurev-conmatphys-062910-140432](https://doi.org/10.1146/annurev-conmatphys-062910-140432)&rbrack;
 
-*  [[Marcel Franz]], [[Laurens Molenkamp]] (eds.), *Topological Insulators*, Contemporary Concepts of Condensed Matter Science **6** (2013) &lbrack;[ISBN:978-0-444-63314-9](https://www.sciencedirect.com/bookseries/contemporary-concepts-of-condensed-matter-science/vol/6/suppl/C)&rbrack;
+* [[Marcel Franz]], [[Laurens Molenkamp]] (eds.): *Topological Insulators*, Contemporary Concepts of Condensed Matter Science **6** (2013) &lbrack;[ISBN:978-0-444-63314-9](https://www.sciencedirect.com/bookseries/contemporary-concepts-of-condensed-matter-science/vol/6/suppl/C)&rbrack;
 
-* Michel Fruchart, David Carpentier, *An introduction to topological insulators*, Comptes Rendus Physique **14** 9–10, (2013) 779-815 ([doi:10.1016/j.crhy.2013.09.013](https://doi.org/10.1016/j.crhy.2013.09.013))
+* Michel Fruchart, David Carpentier, *An introduction to topological insulators*, Comptes Rendus Physique **14** 9–10 (2013) 779-815 &lbrack;[doi:10.1016/j.crhy.2013.09.013](https://doi.org/10.1016/j.crhy.2013.09.013)&rbrack;
 
 * János K. Asbóth, László Oroszlány, András Pályi: *A Short Course on Topological Insulators: Band-structure topology and edge states in one and two dimensions*, Lecture Notes in Physics **919**, Springer (2016) &lbrack;[arXiv:1509.02295](https://arxiv.org/abs/1509.02295), [doi:10.1007/978-3-319-25607-8](https://doi.org/10.1007/978-3-319-25607-8)&rbrack;
 
@@ -96,10 +96,12 @@ Monographs:
 
 * Shun-Qing Shen, *Topological Insulators*, Springer (2012) &lbrack;[doi:10.1007/978-3-642-32858-9](https://link.springer.com/book/10.1007/978-3-642-32858-9)&rbrack;
 
-* [[B. Andrei Bernevig]] with [[Taylor L. Hughes]]: *Topological Insulators and Topological Superconductors*, Princeton University Press (2013) &lbrack;[ISBN:9780691151755](https://press.princeton.edu/books/hardcover/9780691151755/topological-insulators-and-topological-superconductors), [jstor:j.ctt19cc2gc](https://www.jstor.org/stable/j.ctt19cc2gc)&rbrack;
-
+* [[B. Andrei Bernevig]], [[Taylor L. Hughes]]: *Topological Insulators and Topological Superconductors*, Princeton University Press (2013) &lbrack;[ISBN:9780691151755](https://press.princeton.edu/books/hardcover/9780691151755/topological-insulators-and-topological-superconductors), [jstor:j.ctt19cc2gc](https://www.jstor.org/stable/j.ctt19cc2gc)&rbrack;
 
 * Panagiotis Kotetes: *Topological Insulators*, IOP Science (2019) &lbrack;[ISBN:978-1-68174-517-6](https://iopscience.iop.org/book/978-1-68174-517-6)&rbrack;
+
+* Huixia Luo (ed.): *Advanced Topological Insulators*, Wiley (2019) &lbrack;[doi:10.1002/9781119407317](https://onlinelibrary.wiley.com/doi/book/10.1002/9781119407317)&rbrack;
+
 
 
 See also:
