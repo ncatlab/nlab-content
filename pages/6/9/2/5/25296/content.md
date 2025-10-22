@@ -21,9 +21,12 @@ The very first proof-of-principle [[quantum computations]] were made with [[nucl
 
 * Tao Xin et al., *Nuclear magnetic resonance for quantum computing: Techniques and recent achievements* (Topic Review - Solid-state quantum information processing), Chinese Physics B **27** 020308 $[$[doi:10.1088/1674-1056/27/2/020308](https://iopscience.iop.org/article/10.1088/1674-1056/27/2/020308)$]$
 
-See also:
+Exposition:
 
 * Lieven Vandersypen, Mark Eriksson: *Quantum computing with semiconductor spins*, Physics Today **72** 8 (2019) 38 \[<a href="https://doi.org/10.1063/PT.3.4270">doi:10.1063/PT.3.4270</a>\]
+
+* [[Dieter Suter]]: *Spin-Qubits for Quantum Technologies*, [talk at](CQTS##SuterOct2025) [[CQTS]] (Oct 2025) \[slides:[[Suter-SpinQubits.pdf:file]]\]
+
 
 Monographs:
 
