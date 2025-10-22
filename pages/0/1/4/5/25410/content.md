@@ -21,4 +21,10 @@ Review:
 
 * [[Piotr Kucharski]], Dmitry Noshchenko: *Knot-quiver correspondence: a brief review* &lbrack;[arXiv:2505.05668](https://arxiv.org/abs/2505.05668)&rbrack;
 
+Further discussion:
+
+* Sachin Chauhan, [[Piotr Kucharski]], Dmitry Noshchenko, Ramadevi Pichai, [[Vivek Kumar Singh]], [[Marko Stošić]]: *Full twists and stability of knots and quivers* &lbrack;[arXiv:2508.18417](https://arxiv.org/abs/2508.18417)&rbrack;
+
+
+
 category: people
