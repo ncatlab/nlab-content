@@ -66,6 +66,10 @@ The key practical difference is that *quantum effects* are application-ready and
 
 * Physics@MIT: *[The Next Quantum Revolution](https://physics.mit.edu/news/the-next-quantum-revolution/)* (2024)
 
+* [[Dieter Suter]]: *Spin-Qubits for Quantum Technologies*, [talk at](CQTS##SuterOct2025) [[CQTS]] (Oct 2025) &lbrack;slides:[[Suter-SpinQubits.pdf:file]]&rbrack;
+  > (focus on [[spin]] [[qubits]], such as [[spin resonance qubits]] at [[nitrogen-vacancy centers in diamond]])
+
+
 See also: 
 
 * Wikipedia: *[Quantum engineering](https://en.wikipedia.org/wiki/Quantum_engineering)*
