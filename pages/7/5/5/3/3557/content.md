@@ -236,6 +236,8 @@ Of course, the topos obtained from a tripos has an [[internal logic]].  But a tr
 ## See also
 
 * [[ 2-tripos ]]
+
+* [[ ($\infty$, 1)-tripos ]]
   
 
 ##References##
