@@ -139,6 +139,9 @@ Discussion focusing on 3-dimensional semi-metals with nodal lines:
 
 * Faruk Abdulla, Ganpathy Murthy, Ankur Das, *Stable nodal line semimetals in the chiral classes in three dimensions*  &lbrack;[arXiv:2401.02966](https://arxiv.org/abs/2401.02966)&rbrack;
 
+* Po-Yao Chang: *Nodal-line semimetals and their variance*, in: *Topological Quantum Materials*, special issue of Materials Today Quantum (2025) &lbrack;[arXiv:2507.02329](https://arxiv.org/abs/2507.02329), [10LXVTG7458](https://www.sciencedirect.com/special-issue/10LXVTG7458)&rbrack;
+
+
 Discussion of the $\mathbb{Z}/2$-valued [[Berry phases]] around [[codimension]]=2 nodal loci in $P I$-symmetric (time-reversal +  inversion invariant)  semi-metals:
 
 * Dan-Wei Zhang, Y. X. Zhao, Rui-Bin Liu, Zheng-Yuan Xue, Shi-Liang Zhu, Z. D. Wang, *Quantum simulation of exotic PT-invariant topological nodal loop bands with ultracold atoms in an optical lattice*, Phys. Rev. A **93** (2016) 043617  ([arXiv:1601.00371](https://arxiv.org/abs/1601.00371), [doi:10.1103/PhysRevA.93.043617](https://doi.org/10.1103/PhysRevA.93.043617))
@@ -159,7 +162,7 @@ More mathematical discussion of the case of [[Chern semi-metals]]:
 
 Discussion of (classification of) Dirac/Weyl mass terms:
 
-* {#ChiuSchnyder14} [[Ching-Kai Chiu]], [[Andreas P. Schnyder]], Section A.2 of: *Classification of reflection-symmetry-protected topological semimetals and nodal superconductors*, Phys. Rev. B **90** 205136 (2014) $[$[doi:10.1103/PhysRevB.90.205136](https://doi.org/10.1103/PhysRevB.90.205136)$]$
+* {#ChiuSchnyder14} [[Ching-Kai Chiu]], [[Andreas P. Schnyder]], Section A.2 of: *Classification of reflection symmetry-protected topological semimetals and nodal superconductors*, Phys. Rev. B **90** 205136 (2014) &lbrack;[doi:10.1103/PhysRevB.90.205136](https://doi.org/10.1103/PhysRevB.90.205136), [arXiv:1408.4642](https://arxiv.org/abs/1408.4642)&rbrack;
 
 following:
 
