@@ -114,9 +114,11 @@ A careful discussion of relativistic mass terms:
 
 Discussion aimed at the description of [[topological semi-metal]]-phases in [[solid state physics]]:
 
+* [[Ching-Kai Chiu]], Hong Yao, [[Shinsei Ryu]]: *Classification of topological insulators and superconductors in the presence of reflection symmetry*, Phys. Rev. B **88**  (2013) 075142 &lbrack;[arXiv:1303.1843](https://arxiv.org/abs/1303.1843), [doi:10.1103/PhysRevB.88.075142](https://doi.org/10.1103/PhysRevB.88.075142)&rbrack;
+
 * {#MorimotoFurusaki13} Takahiro Morimoto and Akira Furusaki, Sec. V of: *Topological classification with additional symmetries from Clifford algebras*, Phys. Rev. B **88** (2013) 125129 &lbrack;[arXiv:1306.2505](https://arxiv.org/abs/1306.2505),  [doi:10.1103/PhysRevB.88.125129](https://doi.org/10.1103/PhysRevB.88.125129)&rbrack;
 
-* {#ChiuSchnyder14} [[Ching-Kai Chiu]], [[Andreas P. Schnyder]], Section A.2 of: *Classification of reflection-symmetry-protected topological semimetals and nodal superconductors*, Phys. Rev. B **90** 205136 (2014) &lbrack;[doi:10.1103/PhysRevB.90.205136](https://doi.org/10.1103/PhysRevB.90.205136)&rbrack;
+* {#ChiuSchnyder14} [[Ching-Kai Chiu]], [[Andreas P. Schnyder]], Section A.2 of: *Classification of reflection-symmetry-protected topological semimetals and nodal superconductors*, Phys. Rev. B **90** 205136 (2014) &lbrack;[arXiv:1408.4642](https://arxiv.org/abs/1408.4642), [doi:10.1103/PhysRevB.90.205136](https://doi.org/10.1103/PhysRevB.90.205136)&rbrack;
 
 * {#CTSR15} [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]], [[Shinsei Ryu]], Section III.C of: *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** (2016) 035005 &lbrack;[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)&rbrack;
 
