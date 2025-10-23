@@ -311,6 +311,8 @@ This accurately reflects what is seen [above](#PhaseDiagram) in the phase diagra
 
 ## Related concepts
 
+* [[Su-Schrieffer-Heeger model]]
+
 * [[quantum anomalous Hall effect]]
 
 * [[topological phase of matter]]
