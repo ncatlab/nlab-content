@@ -22,6 +22,8 @@ A [[model (in theoretical physics)]] whose underlying [[spacetime]] is a [[latti
 
 * [[Ising model]]
 
+* [[Haldane model]], [[Su-Schrieffer-Heeger model]]
+
 * [[lattice gauge theory]]
 
 * [[string-net model]]
