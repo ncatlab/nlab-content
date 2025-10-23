@@ -41,6 +41,7 @@ In experimental practice, topological insulators are often engineered by startin
 
 ## Examples
 
+* [[Su-Schrieffer-Heeger model]]
 
 * [[Chern insulator]]
 
