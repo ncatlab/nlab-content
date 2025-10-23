@@ -148,7 +148,10 @@ See also:
 
 
 [[!redirects PCT]]
+
 [[!redirects PCT symmetry]]
+[[!redirects PCT symmetries]]
+
 [[!redirects CPT]]
 [[!redirects CPT symmetry]]
 [[!redirects CPT theorem]]
