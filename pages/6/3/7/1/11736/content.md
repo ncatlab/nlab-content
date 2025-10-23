@@ -117,6 +117,13 @@ Discussion for [[Sasakian manifolds]] includes
 * [[Olaf Lechtenfeld]], Alexander Popov, [[Richard Szabo]], _Sasakian quiver gauge theories and instantons on Calabi-Yau cones_ ([arXiv:1412.4409](http://arxiv.org/abs/1412.4409))
 
 
+On relating the [[quivers]] appearing in  [[D=3 N=2 SYM|$D=3$, $\mathcal{N}=2$ SYM]] and [[D=4 N=2 SYM|$D=4$, $\mathcal{N}=2$ SYM]] quiver gauge theories, in view of the [[knots-quivers correspondence]]:
+
+* [[Piotr Kucharski]], Pietro Longhi, Dmitry Noshchenko, Sunghyuk Park, [[Piotr Sułkowski]]: *Quivers and BPS states in $3d$ and $4d$* &lbrack;[arXiv:2508.09729](https://arxiv.org/abs/2508.09729)&rbrack;
+
+* [[Piotr Kucharski]]: *Quivers and BPS states in 3d and 4d*, [talk at](CQTS##KucharskiOct2025) *[[CQTS]]* (Oct 2025) &lbrack;slides:[[Kucharski-CQTS-20251023.pdf:file]]&rbrack;
+
+
 ### Seiberg duality
 
 * David Berenstein, [[Michael Douglas]], _Seiberg Duality for Quiver Gauge Theories_ ([arXiv:hep-th/0207027](http://arxiv.org/abs/hep-th/0207027))
