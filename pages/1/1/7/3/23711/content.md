@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[condensed matter physics]], a *semi-metal* is a [[crystal|crystalline]] material whose [[electronic band structure]] is such that there is a sizeable gap between the [[valence band]] and the [[conduction band]] (as for an [[insulator]]) *except* over a [[submanifold]] of "nodal loci" inside the [[Brillouin torus]] which is of [[positive number|positive]] [[codimension]] $\geq 2$. 
+In [[condensed matter physics]], specifically in the field of *[[topological phases of matter]]*, a *topological semi-metal* is a [[crystal|crystalline]] material whose [[electronic band structure]] is such that there is a sizeable [[energy gap]] between the [[valence band]] and the [[conduction band]] (as for an [[insulator]]) *except* over a [[positive number|positive]] [[codimension|codimensional]] [[submanifold]] of "nodal loci" inside the [[Brillouin torus]]. 
 
 This terminology, which was established in the early 2000s, is meant to follow the  older terminology *[[semiconductor]]*, which refers to the case where there is globally a gap between valence and conduction band, but just a small one. Notice that a global and large gap corresponds to an [[insulator]], while the absence of a gap, hence the broad overlap of valence and conductions band, corresponds to a [[metal]]. Therefore a semi-metal behaves like an [[insulator]] for the bulk of its excitation modes, like a [[semiconductor]] for excitations close to the nodal loci, and almost like a [[metal]] for excitations right at the nodal loci; whence the terminology.
 
@@ -263,22 +263,17 @@ Some of the above material is taken from
 
 
 
-
-
-
-
-
-[[!redirects semi-metals]]
-
-
-[[!redirects semimetal]]
-[[!redirects semimetals]]
-
-[[!redirects topological semi-metal]]
 [[!redirects topological semi-metals]]
 
 [[!redirects topological semimetal]]
 [[!redirects topological semimetals]]
+
+
+[[!redirects semi-metal]]
+[[!redirects semi-metals]]
+
+[[!redirects semimetal]]
+[[!redirects semimetals]]
 
 
 [[!redirects Dirac point]]
