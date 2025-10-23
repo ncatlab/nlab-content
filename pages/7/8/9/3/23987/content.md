@@ -4358,6 +4358,8 @@ Neumann algebras**
 
   **Quivers and BPS states in 3d and 4d**
 
+  slides: [[Kucharski-CQTS-20251023.pdf:file]]
+
   cf. [arXiv:2508.09729](https://arxiv.org/abs/2508.09729)
 
   > The [[knots-quivers correspondence]] provides a picture of [[BPS state]] counts in [[D=3 N=2 super Yang-Mills theory|3d $N=2$ theories]] associated to symmetric [[quivers]]. On the other hand, we have another, well established construction of [[BPS states]] in [[D=4 N=2 super Yang-Mills theory|4d $N=2$ theories]] which also corresponds to quivers, but not to symmetric ones. In this talk I want to give an answer for an obvious and long-standing question about the relation between these two perspectives.
