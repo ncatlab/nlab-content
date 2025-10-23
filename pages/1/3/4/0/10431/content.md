@@ -82,7 +82,7 @@ Reviews:
 
 * Rahul Roy, *Topological phases and the quantum spin Hall effect in three dimensions*, Phys. Rev. B **79** (2009) 195322 &lbrack;[doi:10.1103/PhysRevB.79.195322](https://doi.org/10.1103/PhysRevB.79.195322)&rbrack;
 
-* [[M. Zahid Hasan]], [[Charles Kane]], *Colloquium: Topological insulators*, Rev. Mod. Phys. **82** (2010) 3045 &lbrack;[doi:10.1103/RevModPhys.82.3045](https://doi.org/10.1103/RevModPhys.82.3045)&rbrack;
+* [[M. Zahid Hasan]], [[Charles Kane]], *Colloquium: Topological insulators*, Rev. Mod. Phys. **82** (2010) 3045 &lbrack;[arXiv:1002.3895](https://arxiv.org/abs/1002.3895), [doi:10.1103/RevModPhys.82.3045](https://doi.org/10.1103/RevModPhys.82.3045)&rbrack;
 
 * [[Joel E. Moore]], *The birth of topological insulators*, Nature **464** (2010) 194–198 &lbrack;[doi:10.1038/nature08916](https://doi.org/10.1038/nature08916)&rbrack;
 
@@ -96,12 +96,13 @@ Reviews:
 
 * János K. Asbóth, László Oroszlány, András Pályi: *A Short Course on Topological Insulators: Band-structure topology and edge states in one and two dimensions*, Lecture Notes in Physics **919**, Springer (2016) &lbrack;[arXiv:1509.02295](https://arxiv.org/abs/1509.02295), [doi:10.1007/978-3-319-25607-8](https://doi.org/10.1007/978-3-319-25607-8)&rbrack;
 
-* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]]: 
+* [[Bei Zeng]], [[Xie Chen]], [[Duan-Lu Zhou]], [[Xiao-Gang Wen]], Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) &lbrack;[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)&rbrack;
 
-  Sec. 5 of: *[[Quantum Information Meets Quantum Matter]] -- From Quantum Entanglement to Topological Phases of Many-Body Systems*, Quantum Science and Technology (QST), Springer (2019) &lbrack;[arXiv:1508.02595](https://arxiv.org/abs/1508.02595), [doi:10.1007/978-1-4939-9084-9](https://doi.org/10.1007/978-1-4939-9084-9)&rbrack;
+* Navketan Batra, Goutam Sheet: *Understanding Basic Concepts of Topological Insulators Through Su-Schrieffer-Heeger (SSH) Model*, Resonance **25** (2020) 765-786 &lbrack;[arXiv:1906.08435](https://arxiv.org/abs/1906.08435), [doi:10.1007/s12045-020-0995-x](https://doi.org/10.1007/s12045-020-0995-x)&rbrack;
+  > (focus on the [[Su-Schrieffer-Heeger model]])
+
 
 * [[Alexander S. Sergeev]]: *Topological insulators and geometry of vector bundles*, SciPost Physics Lecture Notes **67** (2023) &lbrack;[arXiv:2011.05004](https://arxiv.org/abs/2011.05004), [doi:10.21468/SciPostPhysLectNotes.67](https://doi.org/10.21468/SciPostPhysLectNotes.67)&rbrack;
-
 
 * Ben Webster et al. *2024 roadmap on 2D topological insulators*,  Journal of Physics: Materials **7** 2 (2024) 022501 &lbrack;[doi:10.1088/2515-7639/ad2083](https://iopscience.iop.org/article/10.1088/2515-7639/ad2083)&rbrack;
 
@@ -190,7 +191,10 @@ Higher order topological insulators (with protected corner-modes beyond the edge
 
 ### Experimental realization
 
-* Bo Song, Long Zhang, Chengdong He, Ting Fung Jeffrey Poon, Elnur Hajiyev, Shanchao Zhang, Xiong-Jun Liu, Gyu-Boong Jo, *Observation of symmetry-protected topological band with ultracold fermions*, Science Advances **4** eaao4748 (2018) $[$[doi:10.1126/sciadv.aao4748](https://doi.org/10.1126/sciadv.aao4748)$]$
+* Pascal Gehring, Hadj M. Benia, Ye Weng, Robert Dinnebier, Christian R. Ast, Marko Burghard, Klaus Kern: *A Natural Topological Insulator*, Nano Letters **13** (2013) 1179 &lbrack;[arXiv:1311.6637](https://arxiv.org/abs/1311.6637), [doi:10.1021/nl304583m3.](https://doi.org/10.1021/nl304583m)&rbrack;
+
+
+* Bo Song, Long Zhang, Chengdong He, Ting Fung Jeffrey Poon, Elnur Hajiyev, Shanchao Zhang, Xiong-Jun Liu, Gyu-Boong Jo, *Observation of symmetry-protected topological band with ultracold fermions*, Science Advances **4** eaao4748 (2018) &lbrack;[doi:10.1126/sciadv.aao4748](https://doi.org/10.1126/sciadv.aao4748)&rbrackl
 
 
 {#ReferencesOnExternalManipulationViaStrain} External manipulation of topological phases via [[strain]] (see also the references [here](graphene#ReferencesMovementOfDiracPoints) at *[[graphene]]*):
