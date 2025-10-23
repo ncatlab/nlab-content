@@ -34,12 +34,15 @@ This means that a topological crystalline insulator phase observed in the [[bulk
 [doi:10.1103/PhysRevLett.106.106802](https://doi.org/10.1103/PhysRevLett.106.106802)&rbrack;
 
 * Chen Fang, Matthew J. Gilbert, [[B. Andrei Bernevig]]: *Bulk Topological Invariants in Noninteracting Point Group Symmetric Insulators*, Phys. Rev. B **86** 115112 (2012) &lbrack;[arXiv:1207.5767](https://arxiv.org/abs/1207.5767), [doi:10.1103/PhysRevB.86.115112](https://doi.org/10.1103/PhysRevB.86.115112)&rbrack;
-  > (formulas for Chern number)
+  > (formulas for [[Chern number]])
 
 
 * Priyamvada Jadaun, Di Xiao, Qian Niu, Sanjay K. Banerjee: *Topological Classification of Crystalline Insulators with Point Group Symmetry*, Phys. Rev. B **88** (2013) 085110 &lbrack;[arXiv:/1208.1472](https://arxiv.org/abs/1208.1472), [doi:10.1103/PhysRevB.88.085110](https://doi.org/10.1103/PhysRevB.88.085110)&rbrack;
 
-* [[Robert-Jan Slager]], Andrej Mesaros, Vladimir Juricic, [[Jan Zaanen]], *The space group classification of topological band insulators*, Nature Physics **9** 98 (2013) $[$[doi:10.1038/nphys2513](https://doi.org/10.1038/nphys2513), [arXiv:1209.2610](https://arxiv.org/abs/1209.2610)$]$
+* [[Robert-Jan Slager]], Andrej Mesaros, Vladimir Juricic, [[Jan Zaanen]]: *The space group classification of topological band insulators*, Nature Physics **9** 98 (2013) $[$[doi:10.1038/nphys2513](https://doi.org/10.1038/nphys2513), [arXiv:1209.2610](https://arxiv.org/abs/1209.2610)$]$
+
+* [[Ching-Kai Chiu]], Hong Yao, [[Shinsei Ryu]]: *Classification of topological insulators and superconductors in the presence of reflection symmetry*, Phys. Rev. B **88**  (2013) 075142 &lbrack;[arXiv:1303.1843](https://arxiv.org/abs/1303.1843), [doi:10.1103/PhysRevB.88.075142](https://doi.org/10.1103/PhysRevB.88.075142)&rbrack;
+
 
 * Jie Shen, Judy J. Cha,  *Topological Crystalline Insulator Nanostructures*, Nanoscale **6** 23 (2014) 14133-14140 &lbrack;[doi:10.1039/c4nr05124f](https://doi.org/10.1039/c4nr05124f)&rbrack;
 
