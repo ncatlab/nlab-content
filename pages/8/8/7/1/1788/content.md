@@ -5,330 +5,112 @@
 
 ***
 
-[[Kucharski-CQTS-20251023.pdf:file]]
+The *Su-Schrieffer-Heeger model* (SSH) is a simple [[spin chain]]-like [[model (in theoretical physics)|model]] for a type of 1-dimensional [[topological insulator]] [[quantum material]]. In [[theoretical physics]] it mainly serves as an instructive toy model example of [[topological phases of matter]], while experimentally it gives an approximate description of the [[electron band]]-structure of materials like molecular trans-polyacetylene chains, which was the original motivation of [Su, Schrieffer & Heeger 1979](#SuSchriefferHeeger79).
 
+As a [[lattice model]], SSH has a unit cell with two sites, traditionally denoted "$A$" and "$B$", hence with a 2-dimensional (2 "[[electron band|band]]") [[Hilbert space]] $\mathscr{H}_n \simeq \mathbb{C}^2 \simeq \mathbb{C}\langle A, B\rangle$ at each site, and the [[Hamiltonian operator]] is the [[sum]] of 
 
-## Details
+1. an *intracell* hopping term between sites $A$ and $B$ in the same cell 
 
+2. an *extracell* hopping term between the $B$-site of one cell with the $A$-site of the next one. 
 
-### The classifying space
+The parameter space of the model is that of the [[coefficients]] of these two terms:
 
-The assumption that the system and all its accessible deformations are
+* $v \in \mathbb{R}$, the intracell hopping strength,
 
-1. [[energy gap|gapped]]
+* $w \in \mathbb{R}$, the intercell hopping strength 
 
-1. with $v \in \mathbb{N}$ [[valence bands]] filled
-
-1. and $c \in \mathbb{N}$ [[conduction bands]] available
-
-means that the space of available [[fiber]] [[Bloch Hamiltonians]] is (taking the [[energy gap]] to be around zero, without restriction of generality)
-
+After [[Fourier transform]], the [[Bloch Hamiltonian]] of the SSH model
 $$
-  AccBlchHams 
+  H = 
+  \textstyle{\int_{[k] \in S^1}} H_{k}
+  \;\in\;
+  End\Big(
+    \textstyle{\int_{k \in S^1}} \mathbb{C}^2 
+  \Big)
+$$
+is given (up to arbitrary energy shift and [[unitary transformation]]) by (cf. [Asbóth, Oroszlány & Pályi 2016 (1.18)](#AsbóthOroszlányPályi16), [Batra & Sheet 2020](#BatraSheet20)):
+\[
+  \label{TheBlochHamiltonian}
+  [k] 
+   \mapsto
+  H_{[k]} 
     \coloneqq 
-  \Big\{
-    H \in \mathcal{B}\big(\mathbb{C}^{v+c}\big)
-    \,\Big\vert\,
-      H^\dagger = H
-      ,\,
-      Eig_{\lt 0}(H) \simeq \mathbb{C}^{v}
-      ,\,
-      Eig_{\gt 0}(H) \simeq \mathbb{C}^c
-  \Big\}
-  \,,
-$$
-
-where 
-
-* $\mathcal{B}\big(\mathbb{C}^{v+c}\big) \simeq Mat_{v+c \times v + c}(\mathbb{C})$ denotes the space of [[bounded linear operators]], hence of [[matrices]],
-
-* "$Eig_{(-)}(H) \subset \mathbb{C}^{v+c}$" denotes the [[eigenspace]] of the [[Hamiltonian]] [[linear operator|operator]] for the given range of [[eigenvalues]].
-
-Since the [[homotopy classes]] of [[maps]] to this space depend only on its [[homotopy type]], we observe that this space is evidently [[homotopy equivalence|homotopy equivalent]] to the space of *normalized* Bloch Hamiltonians whose [[eigenvalues]] have unit [[absolute value]]:
-
-\[
-  \label{SpaceOfNormalizedBlochHamiltonians}
-  NrmAccBlchHams 
-    \;\coloneqq\;
-  \Big\{
-    H \in \mathcal{B}\big(\mathbb{C}^{v+c}\big)
-    \,\Big\vert\,
-      H^\dagger = H
-      ,\,
-      Eig_{-1}(H) \simeq \mathbb{C}^{v}
-      ,\,
-      Eig_{+1}(H) \simeq \mathbb{C}^c
-  \Big\}
-  \,,
-\]
-
-via
-
-\[
-  \label{HomotopyEquivalenceNormalizingBlochHamiltonians}
-  \begin{array}{ccc}
-    AccBlchHams 
-      &\xrightarrow{\phantom{-} \sim  \phantom{-}}&
-    NrmAccBlchHams
-    \\
-    H 
-      &\mapsto& 
-    N_H \coloneqq \sqrt{H^2}^{-1} \circ H 
-    \mathrlap{\,,}
-  \end{array}
-\]
-
-where 
-
-* $\sqrt{H^2}$ denotes the unique [[positive definite matrix|positive definition]] [[square root]] of $H$, 
-
-* $(-)^{-1}$ denotes the [[inverse]] operator.
-
-In fact, (eq:HomotopyEquivalenceNormalizingBlochHamiltonians) is a [[deformation retraction]]: its [[right inverse]] is given by the inclusion
-
-\[
-  \begin{array}{ccc}
-    NrmAccBlchHams
-      &\xhookrightarrow{\phantom{--}}&
-    AccBlchHams 
-    \\
-    N &\mapsto& N
-    \mathrlap{\,,}
-  \end{array}
-\]
-
-and a [[homotopy]]
-
-$$
-  (H \mapsto N_H) \Rightarrow (H \mapsto H)
-$$
-
-is given by
-
-\[
-  \label{NormalizingHomotopy}
-  \begin{array}{ccc}
-    AccBlchHams \times [0,1]
-    &\longrightarrow&
-    AccBlchHams
-    \\
-    (H, t) 
-      &\mapsto&
-    \big(
-      (1-t)\sqrt{H^2}^{-1} + t \mathrm{I}_{c+v}
-    \big)
-      \circ
-    H
-    \mathrlap{\,.}
-  \end{array}
-\]
- 
-But this space of normalized Bloch Hamiltonians (eq:SpaceOfNormalizedBlochHamiltonians) is furthermore [[homotopy equivalence|homotopy equivalent]] ([[homeomorphism|homeomorphic]], even) to the space of [[hermitian operator|hermitian]] [rank](rank#RankOfALinearMap)=$c$ [projection operators](projection#InLinearAlgebra)
-
-\[
-  \label{SpaceOfProjectors}
-  Proj_v^{c+v} 
-    \;\coloneqq\;
-  \Big\{
-    P \in \mathcal{B}\big(\mathbb{C}^{v+c}\big) 
-    \,\Big\vert\,
-    P^\dagger = P
-    ,\,
-    P \circ P = P
-    ,\,
-    rnk(P) = c
-  \Big\}
-  \mathrlap{\,,}
-\]
-
-via
-
-$$
-  \begin{array}{ccc}
-    NrmAccBlchHams
-      &\xrightarrow{\phantom{-} \sim \phantom{-}}&
-    Proj_{v}^{v+c}
-    \\
-    N
-      &\mapsto& 
-    \tfrac{1}{2}\big(1_{c+v} + N\big)
-    \mathrlap{}
-  \end{array}
-$$
-
-and furthermore to the "[[Grassmannian]]"
-
-$$
-  Gr_v^{v+c} 
-    \;\coloneqq\;
-  \Big\{
-    V \subset \mathbb{C}^{v + c}
-    \,\Big\vert\,
-    dim(V) = v
-  \Big\}
-    \;\simeq\;
-  \frac{ 
-    \mathrm{U}(v+c)
-   }{
-     \mathrm{U}(v) \times \mathrm{U}(c)
-   }
-  \mathrlap{\,,}
-$$
-
-by passage to [[kernels]] $ker(-)$:
-
-$$
-  \begin{array}{ccc}
-    Proj_{v}^{v+c}
-      &\xrightarrow{\phantom{-} \sim \phantom{-}}&
-    Gr_v^{v+c}
-    \\
-    P 
-      &\mapsto&
-    ker(P)
-    \mathrlap{\,.}
-  \end{array}
-$$
-
-
-### The symmetry group action
-
-Furthermore assuming that the system and all its available deformations respects ("is [[symmetry protected topological phase|protected]]" by) a [[subgroup]] $G$ of the [[point group]] of the [[crystal|crystalline]] material, acting on [[crystal momenta]] as
-
-$$
-  \begin{array}{ccc}
-    G \times \widehat{T}{}^d &\longrightarrow& \widehat{T}{}^d
-    \\
-    \big(g, [\vec k]\big) &\mapsto& g \cdot [\vec k]
-  \end{array}
-  \mathrlap{\,,}
-$$
-
-means to specify a [[unitary representation]] [[group representation]]
-
-\[
-  \label{ThePointGroupRepresentation}
-  \rho 
-    \;\colon\;
-  G 
-    \longrightarrow 
-  \mathrm{U}\big(\mathbb{C}^{c+v}\big)
-\] 
-
-such that the [[Bloch Hamiltonian]] satisfies
-
-$$
-  H_{ g \cdot [k] }
-  \;=\;
-  U_g \circ H_{[\vec k]} \circ U_g^{-1}
-  \,,
-$$
-
-hence that as a [[map]] 
-
-$$
-  H_{(-)} \,\colon\,
-  \widehat{T}{}^d 
-    \longrightarrow
-  AccBlchHams
-$$
-
-it is *[[equivariant map|equivariant]]*, for $AccBlchHams$ regarded as a [[G-space]] via the [[conjugation action]] of (eq:ThePointGroupRepresentation).
-
-Again, the [[equivariant homotopy theory|equivariant homotopy class]] of such a map depends only on the equivariant homotopy type of $AccBlchHams$ --- but that is the same as that of $NrmAccBlchHams$, because the above normalizing homotopy (eq:NormalizingHomotopy) is itself equivariant.
-
-
-### The classification statement
-
-In consequence, we find that the unstable $G$-symmetry protected crystalline topological phases seen when $v$ [[valence bands]] are filled and $c$ [[conduction bands]] are accessible are given by the [[equivariant map|equivariant]] [[homotopy classes]] of maps from the [[Brillouin torus]] to $Proj_{v}^{c+v} = Gr_{v}^{c+v}$, hence by the [[equivariant cohomology|equivariant]] [[nonabelian cohomology]] of the [[Brillouin torus]] with [[coefficients]] in $Proj_v^{v+c}$
-
-\[
-  \label{UnstablePhasesViaEquivariantNonabelianCohomology}
-  (v,c)Phases^G(d)
-  \;\simeq\;
-  H_G\big( \widehat{T}{}^d;\, Proj_{v}^{c+v} \big)
-  \;\coloneqq\;
-  \pi_0\,
-  Map\big(
-    \widehat{T}{}^d
-    ,\,
-    Proj_{v}^{c+v}
+  \big(
+    v + w \cdot cos(k)
   \big)
-  \,.
-\]
-
-For example: For $v = 1$ and $c = 1$ (the usual case of [[Chern insulators]], when $d = 2$), the classifying space (eq:SpaceOfProjectors) is the ([[Riemann sphere|Riemann]]) [[2-sphere]]
-
-$$
-  Proj_{1}^{2} 
-    \;\simeq\; 
-  \mathbb{C}P^1 
-   \;\simeq\;
-  S^2
-  \mathrlap{\,,}
-$$
-
-and the [[nonabelian cohomology]] theory in (eq:UnstablePhasesViaEquivariantNonabelianCohomology) is *[[equivariant Cohomotopy|equivariant]] 2-[[Cohomotopy]]*.
-
-
-### Stabilization
-
-The stable situation is obtained by allowing access to *any* number of conduction bands and valence bands.
-
-First, allowing access to arbitrary [[conduction bands]] means to consider the [[union]] ([[colimit]]) of the [[Grassmannians]] with respect to their canonical inclusions $Gr_v^{v + c} \hookrightarrow Gr_v^{v + c + 1}$:
-
-$$
-  B \mathrm{U}(v)
-    \;\simeq\;
-   \textstyle{\bigcup_{c \in \mathbb{N}}}
-   Gr_v^{v + c}
-  \,.
-$$
-
-This yields the [[classifying space]] for [[complex vector bundles]] of [[rank of a vector bundle|rank]]=$v$: the [[valence bundle]].
-
-The corresponding classifying [[nonabelian cohomology]] theory (eq:UnstablePhasesViaEquivariantNonabelianCohomology) is also known as *[[unstable K-theory]]*.
-
-Then also allowing an arbitrary number of [[valence bands]] means to further pass to the [[union]] ([[colimit]])
-
-$$
-  B \mathrm{U}
-    \;\simeq\;
-  \textstyle{\bigcup_{v \in \mathbb{N}}}
-  B \mathrm{U}(v)
-    \;\simeq\;
-  \bigcup_{v \in \mathbb{N}}
-  \bigcup_{c \in \mathbb{N}}
-   Gr_v^{v + c}
+  \sigma_x
+  + 
+  \big(
+    w \cdot sin(k)
+  \big)
+  \sigma_y
   \,,
+\]
+where $\sigma_{(-)} \in End(\mathbb{C}^2)$ denotes the [[Pauli matrices]] and 
 $$
+  v, w \in \mathbb{R}_{\gt 0}
+$$
+are the two parameters of the model.
 
-which is known as the [[classifying space]] of the *[[stable unitary group]]*. This is the classifying space for [[reduced K-theory|reduced]] [[complex K-theory]] (of [[virtual vector bundles]] with vanishing virtual rank).
+To note here that these Bloch Hamiltonians $H_{[k]}$ 
+
+1. have no contribution of the [[Pauli matrix]] $\sigma_z$, which more abstractly means that they satisfy "chiral symmetry" in the sense that 
+
+   \[
+     \label{ChiralSymmetry}
+     \sigma_z H_{[k]} \sigma_z = - H_{[k]}
+     \,,
+   \]
+
+2. generically have two [[eigenvalues]] of opposite sign (labeling the [[valence band]] of negative energy and the [[conduction band]] of positive energy, respectively), except when $H_{[k]} = 0$, where the [[energy gap]] between these eigenvalues closes, which happens for $v = w$.
+
+Hence for $v = w$ the SSH model describes an ordinary [[conductor]] and for $v \neq w$ an [[insulator]]. 
+
+In the latter case there are still two qualitatively different regimes: When $v \lt w$, then the [[Bloch Hamiltonian]] (eq:TheBlochHamiltonian) regarded as a [[map]] to the [[subspace]] of *gapped* and *chiral* (eq:ChiralSymmetry) 2-band Hamiltonians
+\[
+  H_{(-)}
+  \colon
+  S^1 
+  \longrightarrow
+  End(\mathbb{C}^2)_{gap, chr}
+  \coloneqq
+  \left\{
+    H \in End(\mathbb{C}^2)
+    \,\bigg\vert\,
+    \substack{
+      H^\dagger = H,\, \sigma_z H \sigma_z = - H
+      \\
+      Eig_{\gt 0}(H) \simeq \mathbb{C}
+      ,\,
+      Eig_{\lt 0}(H) \simeq \mathbb{C}
+    }
+  \right\}
+    \simeq
+  \mathbb{R}^2 \setminus \{0\}
+    \underset{hmpty}{\simeq}
+  S^1
+\]
+has a non-trivial [[homotopy class]] and hence describes a [[topological insulator]] [[topological phase of matter|phase]], namely it has [[Hopf degree]] ("winding number") equal to 1, while for $v \gt w$ the winding number vanishes, which hence describes an ordinary [[insulator]] phase. 
 
 
+## References
+
+The original article:
+
+* {#SuSchriefferHeeger79} W. P. Su, J. R. Schrieffer, A. J. Heeger: *Solitons in Polyacetylene*, Phys. Rev. Lett. **42** (1979) 1698 &lbrack;[doi:10.1103/PhysRevLett.42.1698]( https://doi.org/10.1103/PhysRevLett.42.1698)&rbrack;
+
+Review:
+
+* {#AsbóthOroszlányPályi16} János K. Asbóth, László Oroszlány, András Pályi, Chapter 1 of: *A Short Course on Topological Insulators: Band-structure topology and edge states in one and two dimensions*, Lecture Notes in Physics **919**, Springer (2016) &lbrack;[arXiv:1509.02295](https://arxiv.org/abs/1509.02295), [doi:10.1007/978-3-319-25607-8](https://doi.org/10.1007/978-3-319-25607-8)&rbrack;
 
 
+* {#BatraSheet20} Navketan Batra, Goutam Sheet: *Understanding Basic Concepts of Topological Insulators Through Su-Schrieffer-Heeger (SSH) Model*, Resonance **25** (2020) 765-786 &lbrack;[arXiv:1906.08435](https://arxiv.org/abs/1906.08435), [doi:10.1007/s12045-020-0995-x](https://doi.org/10.1007/s12045-020-0995-x)&rbrack;
 
+* Weibo Xu: *The Su-Schrieffer-Heeger model on a one-dimensional lattice: Analytical wave functions of topological edge states* &lbrack;[arXiv:2509.16708](https://arxiv.org/abs/2509.16708)&rbrack;
 
+See also:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
+* Wikipedia: *[Su--Schrieffer--Heeger model](https://en.wikipedia.org/wiki/Su%E2%80%93Schrieffer%E2%80%93Heeger_model)*
 
 
 
