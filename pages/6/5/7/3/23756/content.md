@@ -107,3 +107,7 @@ Variant for [[hyperbolic spaces]]:
 
 [[!redirects Bloch Hamiltonian]]
 [[!redirects Bloch Hamiltonians]]
+
+[[!redirects Bloch bundle]]
+[[!redirects Bloch bundles]]
+
