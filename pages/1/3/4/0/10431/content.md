@@ -16,7 +16,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -24,16 +23,30 @@
 
 ## Idea
 
-For the moment see at *[[topological phase of matter]]*.
+A *topological insulator* (TI) is a [[quantum material]] in a [[topological phase of matter]] where:
+
+1. as in an ordinary [[insulator]], an [[energy gap]] separates the filled [[valence bands]] from the unocuupied [[conduction bands]] of [[electron]] [[energies]], but
+
+2. in addition the topological [[characteristic class|class]] of the [[valence bundle]], as a [[vector bundle]] over the [[Brillouin torus]], is non-trivial (at the given level of resolution, hence at least in some *[[unstable classification of topological phases]]* or, more coarsely, in the *[[K-theory classification of topological phases of matter]]* ).
+
+The second condition means that a topological insulator locally (over the [[Brillouin torus]] of [[crystal]] [[momenta]]) looks like an ordinary [[insulator]], but "globally" it is qualitatively different, in that no (small enough) continuous deformation of the parameters (couplings) of the material can turn a topological trivial insulator into a non-trivial one, nor one class of topological insulators into another (whence these are all distinct "[[topological phases of matter]]").
+
+Of course, real samples of [[quantum materials]] are not ideal [[crystals]] in that they typically have [[boundaries]]. But in fact, the most characteristic [[phenomenology|phenomenological]] property of topological insulators is thought to be that at their sample boundaries, the [[energy gap]] closes (so that there the [[valence bundle]] is no longer a well-defined [[subbundle]] of the [[Bloch bundle]] there), making their boundary a [[conductor (electromagnetism)|conductor]] in which characteristic "[[edge modes]]" of [[electron]] [[currents]] propagate ("bulk-boundary correspondence").
+
+Moreover, the [[Bloch Hamiltonians]] of real [[crystals]] and their accessible deformations are typically constrained to respect some of the [[point group]] [[symmetries]] $G$ of the [[space group]] of [[crystal]] [[symmetries]] (in addition to possible [[PCT symmetries]] such as [[time reversal symmetry]]), in which case one speaks of *[[topological crystalline insulators]]*, for emphasis. The non-triviality of their [[valence bundle]] is then a class in $G$-[[equivariant homotopy theory]], for instance in $G$-[[equivariant K-theory]]. If the [[topological phase of matter|topological phase]] of a [[topological crystalline insulator]] is non-trivial as long as such [[point group]] symmetries are respected by all of its deformation, but would be trivial otherwise, then one speaks of a *[[symmetry protected topological phase]]*.
+
+In experimental practice, topological insulators are often engineered by starting with a [[topological semimetal]] --- where a bulk [[energy gap]] does close over higher [[codimension]] [[submanifolds]] of the [[Brillouin torus]] ("[[band nodes]]") --- and then deforming it to make the [[Bloch Hamiltonian]] pick up "[[mass terms]]" which "open the gap" at the [[band nodes]] (see [there](mass+term#ExamplesInTopologicalPhasesOfMatter)).
+
 
 
 ## Examples
 
-* [[quantum Hall effect]]
 
 * [[Chern insulator]]
 
 * [[Haldane model]]
+
+* [[quantum Hall effect]]
 
 
 ## Related concepts
