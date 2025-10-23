@@ -5,6 +5,9 @@
 
 ***
 
+[[Kucharski-CQTS-20251023.pdf:file]]
+
+
 ## Details
 
 
