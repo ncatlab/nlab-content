@@ -582,8 +582,9 @@ The use of homogeneous coordinates $[x_1 : \cdots: x_{n+1}]$ in order to include
 
 Modern textbook accounts:
 
-* [[William S. Massey]], §IX.3.6 & §XV.2 in: *A Basic Course in Algebraic Topology*, Graduate Texts in Mathematics **127**, Springer (1991) \[<a href="https://doi.org/10.1007/978-1-4939-9063-4">doi:10.1007/978-1-4939-9063-4</a>\] 
+* [[Ronald Brown]], §5.3 of: *Elements of Modern Topology*, McGrawHill (1968) \[ISBN:9780070940598, <a href="https://archive.org/details/elementsofmodern0000rona/page/n1/mode/2up">ark:/13960/s26wmm5260h</a>, [[Brown-Topology.pdf:file]]\]
 
+* [[William S. Massey]], §IX.3.6 & §XV.2 in: *A Basic Course in Algebraic Topology*, Graduate Texts in Mathematics **127**, Springer (1991) \[<a href="https://doi.org/10.1007/978-1-4939-9063-4">doi:10.1007/978-1-4939-9063-4</a>\] 
 
 * [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §9 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
 
