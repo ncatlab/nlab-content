@@ -30,9 +30,9 @@ A [[topological manifold|topological]] [[7-sphere]] equipped with an [[exotic sm
 
 The [[exotic 7-spheres]] constructed in [Milnor 1956](#Milnor1956) are all examples of [[fibre bundles]] over the [[4-sphere]] $S^4$ with [[fibre]] the [[3-sphere]] $S^3$, with [[structure group]] the [[special orthogonal group]] [[SO(4)]] (see also at _[[8-manifold]]_ the section _[With exotic boundary 7-spheres](8-manifold#ExoticBoundary7Spheres)_):
 
-By the classification of bundles on spheres via the [[clutching construction]], these correspond to [[homotopy classes]] of maps $S^3 \to SO(4)$, i.e. elements of $\pi_3(SO(4))$. From the table at [orthogonal group -- Homotopy groups](orthogonal+group#HomotopyGroups), this latter group is $\mathbb{Z}\oplus\mathbb{Z}$. Thus any such bundle can be described, up to [[isomorphism]], by a [[pair]] of [[integers]] $(n,m)$. When $n+m=1$, then one can show there is a [[Morse function]] with exactly two [[critical points]] on the total space of the bundle, and hence this 7-manifold is [[homeomorphic]] to a sphere.
+By the classification of bundles on spheres via the [[clutching construction]], these correspond to [[homotopy classes]] of maps $S^3 \to SO(4)$, i.e. elements of $\pi_3(SO(4))$. From the table at [orthogonal group -- Homotopy groups](orthogonal+group#HomotopyGroups), this latter group is $\mathbb{Z}\oplus\mathbb{Z}$. Thus any such bundle can be described, up to [[isomorphism]], by a [[pair]] of [[integers]] $(n,m)$.
 
-Let $E_{h,k}\twoheadrightarrow S^4$ denote the real vector bundle corresponding to the integer pair $h,k\in\mathbb{Z}$. With the choice of a [[Riemannian metric]] on it, one has a disk bundle $D(E_{h,k})\twoheadrightarrow S^4$ by taking the disks $D^4\subset\mathbb{R}^4$ of each fiber, a sphere bundle $S(E_{h,k})=\partial D(E_{h,k})\twoheadrightarrow S^4$ by taking the spheres $S^3\subset\mathbb{R}^4$ of each fiber as well as a [[Thom space]] $Th(E_{h,k})=D(E_{h,k})/S(E_{h,k})$. None of their topological or smooth structures depend on the choice of the [[Riemannian metric]].
+Let $E_{m,n}\twoheadrightarrow S^4$ denote the real vector bundle corresponding to the integer pair $m,n\in\mathbb{Z}$. Its [[fractional first Pontryagin class]] $\frac{p_1}{2}\in H^4(S^4)\simeq\mathbb{Z}$ is given by $n-m$. With the choice of a [[Riemannian metric]] on it, one has a disk bundle $D(E_{m,n})\twoheadrightarrow S^4$ by taking the disks $D^4\subset\mathbb{R}^4$ of each fiber, a sphere bundle $S(E_{m,n})=\partial D(E_{m,n})\twoheadrightarrow S^4$ by taking the spheres $S^3\subset\mathbb{R}^4$ of each fiber as well as a [[Thom space]] $Th(E_{m,n})=D(E_{m,n})/S(E_{m,n})$. None of their topological or smooth structures depend on the choice of the [[Riemannian metric]].
 
 A special case is the [[quaternionic Hopf fibration]] $h_\mathbb{H}\colon\mathbb{H}^2\supset S^7\twoheadrightarrow S^4\cong\mathbb{H}P^1,[q,p]\mapsto[q:p]$, which is a [[principal SU(2)-bundle]] and the [[sphere bundle]] of the [[real vector bundle]] represented by the [[continuous map]]:
 $$
@@ -40,10 +40,35 @@ S^4
 \cong\mathbb{H}P^1
 \hookrightarrow\mathbb{H}P^\infty
 \cong B SU(2)
-\hookrightarrow B SO(4).
+\hookrightarrow B SO(4),
 $$
+which corresponds to $m=?$ and $n=?$.
 
-The  [[fractional first Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \mathbb{Z}$ of the bundle is given by $n-m$. Milnor constructs, using [[cobordism theory]] and [[Hirzebruch's signature theorem]] for [[8-manifolds]], a [[modulo]]-7 [[diffeomorphism]] [[invariant]] of the manifold, so that it is the standard 7-sphere precisely when $\frac{p_1}{2}^2 -1 = 0 (mod\,7)$.
+More generally for $n+m=1$, a [[Morse function]] with exactly two [[critical points]] on $S(E_{m,n})$ exists, implying that it is [[homeomorphic]] to $S^7$. If it is further [[diffeomorphic]], then it is possible to glue the disk bundle $D(E_{m,n})$ and the disk $D^8$ together along their common boundary $S(E_{m,n})\cong S^7$ using a [[pullback]] to obtain the closed [[8-manifold]]:
+$$
+M_{m,n}
+=D(E_{m,n})+_{S^7}D^8.
+$$
+Due to $H^4(M_{m,n},\mathbb{Z})\cong\mathbb{Z}$ and $H^8(M_{m,n},\mathbb{Z})\cong\mathbb{Z}$, the [[intersection form]] is described by a single [[integer]] and hence the signature can only be $\sigma(M_{m,n})=1$ with suitable [[orientation]]. According to [[Hirzebruch's signature theorem]], the signature is also given by:
+$$
+\sigma(M_{m,n})
+=\frac{1}{45}\langle 7p_2(M_{m,n})-p_1^2(M_{m,n}),[M_{m,n}]\rangle
+$$
+Since the first [[Pontrjagin class]] is known, but the second [[Pontrjagin class]] is not, [[John Milnor]] eliminated it by projecting to the following [[modulo]]-7 [[diffeomorphism]] [[invariant]]:
+$$
+\begin{aligned}
+4(m-n)^2 mod 7
+=-\langle p_1^2(M_{m,n}),[M_{m,n}]\rangle mod 7
+=45\sigma(M_{m,n}) mod 7
+=\pm 45 mod 7
+=\pm 3 \\
+\Rightarrow
+\left(\frac{p_1(E_{m,n})}{2}\right)^2
+=(m-n)^2 mod 7
+=1.
+\end{aligned}
+$$
+$S(E_{m,n})$ with $m+n=1$ is then [[diffeomorphic]] to the standard $7$-sphere $S^7$ if and only if this equation holds and hence the [[modulo]]-7 [[diffeomorphism]] [[invariant]] $(m-n)^2-1 mod 7$ vanishes. Examples like $m=1$ and $n=2$ show, that this doesn't have to be true. In this case, the contradiction in [[Hirzebruch's signature theorem]] is resolved by the previously used assumption of $S(E_{m,n})$ and $S^7$ to be [[diffeomorphic]] to obtain the glueing $M_{m,n}$ to not be true. $E_{m,n}$ with $m+n=1$ and $(m-n)^2 mod 7\neq 1$ is then [[homeomorphic]] but not [[diffeomorphic]] to the standard $7$-sphere $S^7$.
 
 By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic structures on the $n$-sphere has the structure of an [[abelian group]]. 
 For the [[7-sphere]], it is the [[cyclic group]] $\mathbb{Z}/{28}$ and [Brieskorn (1966)](#Brieskorn66) found the generator $\Sigma$ so that $\underbrace{\Sigma\#\cdots\#\Sigma}_28$ is the standard sphere.
