@@ -78,6 +78,8 @@ of some arbitrary element $x \in X$.  In particular, the transitivity of $*$ gua
 
 ## Related concepts
 
+* [[orbit-stabilizer theorem]]
+
 * [[combinatorial map]]
 
 * [[homogeneous space]]
