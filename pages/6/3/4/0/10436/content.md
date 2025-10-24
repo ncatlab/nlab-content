@@ -148,13 +148,11 @@ This would constitute a purely [[homotopy theory|homotopy-theoretic]] proof.
 
 The generalisation of the algebraic statement is Theorem 4.3 in: 
 
-* [[Ronnie Brown|R. Brown]] and [[Jean-Louis Loday]], Homotopical excision, and Hurewicz theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._
-(3) 54 (1987) 176-192.  [pdf](https://groupoids.org.uk/pdffiles/VKTEVANS2.pdf) 
+* [[Ronald Brown]], [[Jean-Louis Loday]], Homotopical excision, and Hurewicz theorems, for $n$-cubes of spaces, _Proc. London Math. Soc._ (3) 54 (1987) 176-192 &lbrack;[pdf](https://groupoids.org.uk/pdffiles/VKTEVANS2.pdf)&rbrack;
 
 which relies essentially on the paper 
 
-* [[Ronnie Brown| R. Brown]] and J.-L. Loday, Van Kampen theorems for diagrams of
-spaces,  _Topology_ 26 (1987) 311-334, 
+* [[Ronald Brown]] and J.-L. Loday, Van Kampen theorems for diagrams of spaces,  _Topology_ 26 (1987) 311-334, 
 
 for the van Kampen Theorem and for the nonabelian tensor product of groups. Here is a link to a bibliography of 170 items on the [nonabelian tensor product](http://groupoids.org.uk/nonabtens.html ). 
 
