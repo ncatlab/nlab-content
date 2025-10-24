@@ -32,6 +32,17 @@ The [[exotic 7-spheres]] constructed in [Milnor 1956](#Milnor1956) are all examp
 
 By the classification of bundles on spheres via the [[clutching construction]], these correspond to [[homotopy classes]] of maps $S^3 \to SO(4)$, i.e. elements of $\pi_3(SO(4))$. From the table at [orthogonal group -- Homotopy groups](orthogonal+group#HomotopyGroups), this latter group is $\mathbb{Z}\oplus\mathbb{Z}$. Thus any such bundle can be described, up to [[isomorphism]], by a [[pair]] of [[integers]] $(n,m)$. When $n+m=1$, then one can show there is a [[Morse function]] with exactly two [[critical points]] on the total space of the bundle, and hence this 7-manifold is [[homeomorphic]] to a sphere.
 
+Let $E_{h,k}\twoheadrightarrow S^4$ denote the real vector bundle corresponding to the integer pair $h,k\in\mathbb{Z}$. With the choice of a [[Riemannian metric]] on it, one has a disk bundle $D(E_{h,k})\twoheadrightarrow S^4$ by taking the disks $D^4\subset\mathbb{R}^4$ of each fiber, a sphere bundle $S(E_{h,k})=\partial D(E_{h,k})\twoheadrightarrow S^4$ by taking the spheres $S^3\subset\mathbb{R}^4$ of each fiber as well as a [[Thom space]] $Th(E_{h,k})=D(E_{h,k})/S(E_{h,k})$. None of their topological or smooth structures depend on the choice of the [[Riemannian metric]].
+
+A special case is the quaterionic [[Hopf fibration]] $h_\mathbb{H}\colon\mathbb{H}^2\supset S^7\twoheadrightarrow S^4\cong\mathbb{H}P^1,[q,p]\mapsto[q:p]$, which is a [[principal SU(2)-bundle]] and the sphere bundle of the real vector bundle represented by the [[continuous map]]:
+$$
+S^4
+\cong\mathbb{H}P^1
+\hookrightarrow\mathbb{H}P^\infty
+\cong B SU(2)
+\hookrightarrow B SO(4).
+$$
+
 The  [[fractional first Pontryagin class]] $\frac{p_1}{2} \in H^4(S^4) \simeq \mathbb{Z}$ of the bundle is given by $n-m$. Milnor constructs, using [[cobordism theory]] and [[Hirzebruch's signature theorem]] for [[8-manifolds]], a [[modulo]]-7 [[diffeomorphism]] [[invariant]] of the manifold, so that it is the standard 7-sphere precisely when $\frac{p_1}{2}^2 -1 = 0 (mod\,7)$.
 
 By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic structures on the $n$-sphere has the structure of an [[abelian group]]. 
