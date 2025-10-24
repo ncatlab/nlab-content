@@ -52,6 +52,8 @@ If the original space is [[paracompact space|paracompact]] Hausdorff, then every
 
 ## Related concepts
 
+* [[orbit-stabilizer theorem]]
+
 * [[orbit category]], [[orbit type]]
 
 * [[coadjoint orbit]]
