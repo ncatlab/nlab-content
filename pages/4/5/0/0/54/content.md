@@ -34,6 +34,7 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Urs_Schreiber)
 
+\linebreak
 
 ## contact
 
@@ -41,6 +42,7 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 * <urs.schreiber@gmail.com>
 
+\linebreak
 
 ## research 
 
@@ -54,7 +56,7 @@ Projects:
 
 3. [[schreiber:Quantum Language via Linear Homotopy Types|Quantum language via linear homotopy types]].
 
-
+\linebreak
 
 ## selected talks
  {#SelectedTalks}
@@ -98,7 +100,6 @@ Projects:
 
   slides: [pdf](https://ncatlab.org/schreiber/files/ISQS29-Schreiber-20250706.pdf), draft video: [yt](https://youtu.be/lfF7SNHB3Rc)
 
-
 * **[[schreiber:ItaCa Fest 2025|Geometric Orbifold Cohomology in Singular-Cohesive ∞-Topoi]]**
 
   talk at *[ItaCa](https://progetto-itaca.github.io/)* *[Fest 2025](https://progetto-itaca.github.io/fests/fest25.html)* ([17 June 2025](https://progetto-itaca.github.io/fests/fest25.html#jun))
@@ -118,12 +119,15 @@ Projects:
   video: [yt](https://youtu.be/I1MpihOkiqw), [lm](https://www.loom.com/share/e8943efccf53465bb475ef0807106057?sid=3284879c-d7b6-4be1-9b18-f566762d54f4)
 
 
+<div style="float:right;margin:-60px 0px 00px 30px;">
+<a href="https://youtu.be/1KUhLHlgG2Q"><img src="/nlab/files/Schreiber-on-Jaimungal-Thumbnail-2025.png" width="350"></a> 
+</div>
+
 * **[[schreiber:Perì Pantheōrías]]** 
 
   guest appearance on *[Theories of Everything with Curt Jaimungal](https://www.youtube.com/channel/UCdWIQh9DGG6uhJk8eyIFl1w)*, 8 March 2025
 
   video: *[YT](https://youtu.be/1KUhLHlgG2Q)*
-
 
 * **[[schreiber:Quantum Language via Linear Homotopy Types]]**
 
@@ -191,13 +195,11 @@ Projects:
   video: [YT](https://www.youtube.com/watch?v=hDwXQVcloB8&feature=emb_logo)
 
 
+\linebreak
 
+## publications
 
-
-
-## publications:
-
-For comprehensive lists see:
+**Research articles** --- see the lists:
 
 * [at inSpire](https://inspirehep.net/authors/1056029)
 
@@ -205,6 +207,7 @@ For comprehensive lists see:
 
 * [at arXiv.org](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1)
 
+\linebreak
 
 \begin{imagefromfile}
     "file_name": "PSPM83-cover.png",
@@ -220,7 +223,7 @@ For comprehensive lists see:
 \end{imagefromfile}
 
 
-Book collection:
+**Edited collection:**
 
 * **[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]**
 
@@ -241,7 +244,7 @@ Book collection:
 \linebreak
 
 
-Monographs:
+**Research monographs:**
 
 <div style="float:right;margin:0px 0px 0px 20px;">
 <a href="https://doi.org/10.1142/13422 "><img src="https://ncatlab.org/schreiber/files/CharacterMap-WSCover.jpg" width="300"></a> 
@@ -270,35 +273,51 @@ Monographs:
 </div>
 
 
-* **[[schreiber:Equivariant principal infinity-bundles|Equivariant Principal $\infty$-Bundles]]**
+* **[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-Bundles]]**
 
   (with [[Hisham Sati|H. Sati]])
 
   Cambridge University Press 
 
-  (2025, in print)
+  (2025, in press)
+
+
+\linebreak
+
+* **[[schreiber:Geometric Orbifold Cohomology]]**
+
+  (with [[Hisham Sati|H. Sati]])
+
+  World Scientific (2026, in press)
   
 
 \linebreak
 
-* further monographs on the [[nLab]]:
+**Introductory monographs** on the [nLab](#ResearchWiki):
 
-  * *[[geometry of physics -- categories and toposes|Categories and Toposes]]*
+* *[[geometry of physics -- categories and toposes|Categories and Toposes]]* (2018)
 
-  * *[[schreiber:Introduction to Homological algebra]]*
+* *[[Introduction to Topology]]* (2017)
 
-  * *[[Introduction to Stable homotopy theory]]*
+* *[[schreiber:Introduction to Homological algebra]]* (2012)
 
-* other:
+* *[[Introduction to Homotopy Theory]]* (2016)
 
-  * _[[schreiber:Higher Prequantum Geometry]]_, in: _[[nLab:New Spaces for Mathematics and Physics]]_, Cambr. Univ. Press (2021) $[$[doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429)$]$
+* *[[Introduction to Stable homotopy theory]]* (2016)
 
-  * *[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Proceedings of Symposia in Pure Mathematics **83** Amer. Math. Soc (2011) $[$[ISBN:978-0-8218-5195-1](http://bookstore.ams.org/PSPUM-83)$]$
+\linebreak
+
+
+**Other:**
+
+* _[[schreiber:Higher Prequantum Geometry]]_, in: _[[nLab:New Spaces for Mathematics and Physics]]_, Cambr. Univ. Press (2021) $[$[doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429)$]$
+
 
 \linebreak
 
 
 ## research wiki
+ {#ResearchWiki}
 
 <a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="/nlab/files/OldnLabBanner.jpg" alt="nLab banner" /></div></a>
 
@@ -319,15 +338,15 @@ For more on the $n$Lab, see:
 
 * Wikipedia on: _[nLab](http://en.wikipedia.org/wiki/NLab)_.
 
+\linebreak
 
-
-## more web logs
+## web logs
 
 For logs of further activity see:
 
-* [my feed at X/Twitter](https://twitter.com/UrsSchreiber) (new)
+* [my feed on X.com](https://twitter.com/UrsSchreiber) (new)
 
-* [my old feed at X/Twitter](https://twitter.com/SchreiberUrs) (lost my password...)
+* [my old feed on X.com](https://twitter.com/SchreiberUrs) (lost my password...)
 
 * [my channel on YouTube](https://www.youtube.com/@UrsSchreiber)
 
@@ -345,6 +364,7 @@ For links to technical discussions about math and physics see my pages:
 
 * *[at QuantumComputing.SE](https://quantumcomputing.stackexchange.com/users/19363/urs-schreiber).
 
+\linebreak
 
 ## teaching 
 
@@ -365,7 +385,7 @@ See behind these links for lecture notes that I wrote:
 
 A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
 
-
+\linebreak
 
 ## column
  {#column}
@@ -414,6 +434,7 @@ I used to write an irregular column at [PhysicsForums Insights](https://www.phys
 
 * _[Super p-Brane Theory from Super Homotopy Theory](http://www.physicsforums.com/insights/super-p-brane-theory-emerging-super-homotopy-theory/)_
 
+\linebreak
 
 ## joining our research
 
@@ -435,6 +456,7 @@ If you are a graduate student or young postdoc thinking of entering the Sati-Sch
 
   and/or the nLab entry *[[geometry of physics -- supergeometry and superphysics]]*
 
+\linebreak
 
 ## copyright statement
  {#CopyrightStatement}
