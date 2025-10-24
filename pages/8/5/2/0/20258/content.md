@@ -34,7 +34,7 @@ By the classification of bundles on spheres via the [[clutching construction]], 
 
 Let $E_{h,k}\twoheadrightarrow S^4$ denote the real vector bundle corresponding to the integer pair $h,k\in\mathbb{Z}$. With the choice of a [[Riemannian metric]] on it, one has a disk bundle $D(E_{h,k})\twoheadrightarrow S^4$ by taking the disks $D^4\subset\mathbb{R}^4$ of each fiber, a sphere bundle $S(E_{h,k})=\partial D(E_{h,k})\twoheadrightarrow S^4$ by taking the spheres $S^3\subset\mathbb{R}^4$ of each fiber as well as a [[Thom space]] $Th(E_{h,k})=D(E_{h,k})/S(E_{h,k})$. None of their topological or smooth structures depend on the choice of the [[Riemannian metric]].
 
-A special case is the quaterionic [[Hopf fibration]] $h_\mathbb{H}\colon\mathbb{H}^2\supset S^7\twoheadrightarrow S^4\cong\mathbb{H}P^1,[q,p]\mapsto[q:p]$, which is a [[principal SU(2)-bundle]] and the sphere bundle of the real vector bundle represented by the [[continuous map]]:
+A special case is the [[quaternionic Hopf fibration]] $h_\mathbb{H}\colon\mathbb{H}^2\supset S^7\twoheadrightarrow S^4\cong\mathbb{H}P^1,[q,p]\mapsto[q:p]$, which is a [[principal SU(2)-bundle]] and the [[sphere bundle]] of the [[real vector bundle]] represented by the [[continuous map]]:
 $$
 S^4
 \cong\mathbb{H}P^1
