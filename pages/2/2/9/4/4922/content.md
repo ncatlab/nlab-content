@@ -368,6 +368,8 @@ $$
 
 * [[coset space]]
 
+* [[orbit-stabilizer theorem]]
+
 * [[coadjoint orbit]]
 
 * [[index of a subgroup]]
