@@ -48,7 +48,8 @@ On [[groupoids]] and their [[representation theory]] ([[groupoid representations
 
 On [[smooth sets]] as a foundation for [[classical field theory]]/[[variational calculus]]:
 
-* [[Alberto Ibort]], Arnau Mas: *Smooth sets of fields: A pedagogical introduction*, Geometric Mechanics (2025) &lbrack;[doi:10.1142/S2972458925400052](https://doi.org/10.1142/S2972458925400052), [ResearchGate:394210704](https://www.researchgate.net/publication/394210704)&rbrack;
+* [[Alberto Ibort]], Arnau Mas: *Smooth sets of fields: A pedagogical introduction*, Geometric Mechanics (2025) &lbrack;[arXiv:2510.20422](https://arxiv.org/abs/2510.20422), 
+[doi:10.1142/S2972458925400052](https://doi.org/10.1142/S2972458925400052), [ResearchGate:394210704](https://www.researchgate.net/publication/394210704)&rbrack;
 
 
 
