@@ -2,7 +2,7 @@
 
 ***
 
-This page contains a detailed introduction to basic [[topology]].
+This page (cf. [[IntroductionToTopologyI-170809.pdf:file]], 203p) contains a detailed introduction to basic [[topology]].
 Starting from scratch (required background is just a basic concept of _[[sets]]_), and amplifying motivation from [[analysis]],
 it first develops standard [[point-set topology]] ([[topological spaces]]).
 In passing, some basics of [[category theory]] make an informal appearance,
