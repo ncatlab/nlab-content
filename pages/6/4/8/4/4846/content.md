@@ -273,11 +273,11 @@ solves the equations of motion precisely if
  
      (super-[[torsion]]);
 
-   * $G_4 = (G_4)_{a_1, \cdots a_4} E^{a_1} \wedge \cdots E^{a_4}$ 
+   * $G_4 = (G_4)_{a_1, \cdots a_4} E^{a_1} \wedge \cdots \wedge E^{a_4}$ 
 
      ([[field strength]] of [[supergravity C-field]])
 
-   * $G_7 = (G_7)_{a_1, \cdots a_7} E^{a_1} \wedge \cdots E^{a_7}$
+   * $G_7 = (G_7)_{a_1, \cdots a_7} E^{a_1} \wedge \cdots \wedge E^{a_7}$
 
      ([[electric-magnetic duality|dual]] field strength)
   
