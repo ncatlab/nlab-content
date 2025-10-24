@@ -34,16 +34,10 @@ For example, one speaks (assuming that any exists) of "the" [[terminal object]] 
 
 ## Formalization
 
-The notion of a "generalized the" can be formalized and treated uniformly in [[dependent type theory]]. Here one may define an [[introduction rule]] for *the* as follows, using the [[type universe]] $\mathrm{Type}$:
+The notion of a "generalized the" can be formalized and treated uniformly in [[dependent type theory]]. Here one may define an [[introduction rule]] for *the* as follows:
 
 $$
-  (A:Type),((a,p):IsContr(A)) \vdash (the(A,a,p):A).
-$$
-
-Alternatively, in [[dependent type theory with type variables]] but no [[type universes]]: 
-
-$$
-  (A \; type),((a,p):IsContr(A)) \vdash (the(A,a,p):A).
+\frac{\Gamma \vdash A \; \mathrm{type}}{\Gamma, (a,p):\mathrm{IsContr}(A) \vdash \mathrm{the}(A,a,p):A}.
 $$
 
 Here the [[term]] $(a,p)$ is one witness for the [[contractible type|contractibility]] of the [[type]] $A$. Then we have $the(A,a,p)=a:A$.
