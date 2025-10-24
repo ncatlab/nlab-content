@@ -224,14 +224,16 @@ The [[exceptional Lie groups]] incude
 * [[David John Simms]]: *Lie Groups and Quantum Mechanics*,  Lecture Notes in Mathematics **52**, Springer (1968) &lbrack;[doi:10.1007/BFb0069914](https://doi.org/10.1007/BFb0069914)&rbrack;
   > (with an eye towards [[quantum mechanics]], cf. *[[Gruppenpest]]* -- beware of the false claim on p. 10 that [[U(ℋ)]] is not a [[topological group]] in the [[strong operator topology]], corrected by [Schottenloher 2013](UH#Schottenloher13), [Espinoza & Uribe 2014](UH#EspinozaUribe14), going back to [Schottenloher 1995](UH#Schottenloher95), but repeated by [Atiyah & Segal 2004](UH#AtiyahSegal04))
 
-* {#Bredon72} [[Glen Bredon]], Section 0.5 of: _[[Introduction to compact transformation groups]]_, Academic Press  1972 ([ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf))
+* {#Bredon72} [[Glen Bredon]], Section 0.5 of: _[[Introduction to compact transformation groups]]_, Academic Press  (1972) &lbrack;[ISBN 9780080873596](https://www.elsevier.com/books/introduction-to-compact-transformation-groups/bredon/978-0-12-128850-1), [pdf](http://www.indiana.edu/~jfdavis/seminar/Bredon,Introduction_to_Compact_Transformation_Groups.pdf)&rbrack;
   > (in the broader context of [[topological groups]])
 
 * Arthur A. Sagle, Ralph E. Walde: *Introduction to Lie Groups and Lie Algebras*, Pure and Applied Mathematics **51**, Elsevier (1973) 215-227
 
 * [[Nicolas Bourbaki]], _Lie groups and Lie algebras -- Chapters 1-3_, Springer (1975, 1989) &lbrack;[ISBN:9783540642428](https://link.springer.com/book/9783540642428)&rbrack;
 
-* {#Adams82} [[Frank Adams]], *Lectures on Lie groups*, University of Chicago Press, 1982 ([ISBN:9780226005300](https://press.uchicago.edu/ucp/books/book/chicago/L/bo3614673.html), [gbooks](https://www.google.com/books/edition/Lectures_on_Lie_Groups/TC7d3ZcqjfsC?hl=en))
+* {#Adams82} [[Frank Adams]], *Lectures on Lie groups*, University of Chicago Press (1982) &lbrack;[ISBN:9780226005300](https://press.uchicago.edu/ucp/books/book/chicago/L/bo3614673.html), [gbooks](https://www.google.com/books/edition/Lectures_on_Lie_Groups/TC7d3ZcqjfsC?hl=en)&rbrack;
+
+* [[Frank W. Warner]]: *Foundations of Differentiable Manifolds and Lie Groups*,  Graduate Texts in Mathematics **94** (1983) &lbrack;[doi:10.1007/978-1-4757-1799-0](https://doi.org/10.1007/978-1-4757-1799-0)&rbrack; 
 
 * [[M. M. Postnikov]], *Lectures on geometry: Semester V, Lie groups and algebras* (1986) &lbrack;[ark:/13960/t4cp9jn4p](https://archive.org/details/postnikov-lectures-in-geometry-semester-v-lie-group-and-lie-algebras)&rbrack;
 
