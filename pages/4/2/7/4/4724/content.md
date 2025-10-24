@@ -549,6 +549,7 @@ is a [[Lie group]].
 * [[differentiable stack]], [[smooth stack]], [[smooth infinity-stack]]
 
 
+
 ## References
 
 > See also the references at *[[smooth manifold]]*.
@@ -562,9 +563,11 @@ The vision of the modern notion of [[manifolds]] is attributed to:
 
 Monographs:
 
-* {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+* [[Frank W. Warner]]: *Foundations of Differentiable Manifolds and Lie Groups*,  Graduate Texts in Mathematics **94** (1983) &lbrack;[doi:10.1007/978-1-4757-1799-0](https://doi.org/10.1007/978-1-4757-1799-0)&rbrack; 
 
-* [[William M. Boothby]], *An introduction to differentiable manifolds and Riemannian geometry*, Academic Press (1975, 1986), Elsevier (2002) &lbrack;[ISBN:9780121160517](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2), [pdf](https://aetemad.iut.ac.ir/sites/aetemad.iut.ac.ir/files/files_course/william_m._boothby_an_introduction_to_differentibookfi.org_.pdf)&rbrack;
+* {#Kosinski93} [[Antoni Kosinski]]: _Differential manifolds_, Academic Press (1993) &lbrack;[pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf)&rbrack;
+
+* [[William M. Boothby]]: *An introduction to differentiable manifolds and Riemannian geometry*, Academic Press (1975, 1986), Elsevier (2002) &lbrack;[ISBN:9780121160517](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2), [pdf](https://aetemad.iut.ac.ir/sites/aetemad.iut.ac.ir/files/files_course/william_m._boothby_an_introduction_to_differentibookfi.org_.pdf)&rbrack;
 
 Further textbook accounts:
 
