@@ -1,4 +1,13 @@
-* [Website](https://homepages.uni-regensburg.de/~lum63364/).
+
+* [personal page](https://www.matthias-ludewig.eu/)
+
+* [institute page](https://math-inf.uni-greifswald.de/institut/ueber-uns/mitarbeitende/prof-dr-matthias-ludewig/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=215560)
+
+* [inSpire page](https://inspirehep.net/authors/1892623)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=J9lQIjEAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -18,6 +27,12 @@ On applications of [[coarse geometry]] to [[topological insulators]] in [[solid 
 
 * [[Matthias Ludewig]], *Coarse geometry and its applications in solid state physics*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2308.06384](https://arxiv.org/abs/2308.06384)&rbrack;
 
+
+On "[[adjusted Weil algebra|adjustments]]" for [[crossed modules]]:
+
+On classification of adjustments for central [[crossed modules]]:
+
+* [[Matthias Ludewig]], [[Konrad Waldorf]]: *Classification of adjustments on central crossed modules* &lbrack;[arXiv:2510.19607](https://arxiv.org/abs/2510.19607)&rbrack;
 
 
 category: people
