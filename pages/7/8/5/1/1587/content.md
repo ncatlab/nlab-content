@@ -1173,24 +1173,20 @@ This indeed is then the usual construction of the universal covering space in te
 ## References
 
 
-
-A detailed treatment is available in
-
-* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer, 2016.  [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8.
-
-
 Textbook accounts:
 
+* {#Spanier1966} [[Edwin Spanier]], Chapter 2 of: _Algebraic topology_, Springer 1966 &lbrack;[doi:10.1007/978-1-4684-9322-1](https://doi.org/10.1007/978-1-4684-9322-1)&rbrack;
 
-* [[William S. Massey]], Chapter 5 of: *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715))
+* [[William S. Massey]], Chapter 5 of: *Algebraic Topology: An Introduction*, Harcourt Brace & World (1967), reprinted as: Graduate Texts in Mathematics, Springer (1977) &lbrack;[ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)&rbrack;
 
-* {#Spanier1966} [[Edwin Spanier]], Chapter 2 of _Algebraic topology_, Springer 1966 &lbrack;[doi:10.1007/978-1-4684-9322-1](https://doi.org/10.1007/978-1-4684-9322-1)&rbrack;
+* [[Ronald Brown]], §9 of: *Elements of Modern Topology*, McGrawHill (1968) \[ISBN:9780070940598, <a href="https://archive.org/details/elementsofmodern0000rona/page/n1/mode/2up">ark:/13960/s26wmm5260h</a>, [[Brown-Topology.pdf:file]]\]
+
+* {#tomDieck06} [[Tammo tom Dieck]], sections 2 an 3 of _Algebraic Topology_, EMS (2006) &lbrack;[pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf)&rbrack;
+
+* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer (2016) &lbrack;[doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8&rbrack;
 
 
-* {#tomDieck06} [[Tammo tom Dieck]], sections 2 an 3 of _Algebraic Topology_, EMS 2006 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
-
-
-Review
+Review:
 
 * {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
 
