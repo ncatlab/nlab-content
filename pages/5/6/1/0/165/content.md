@@ -98,16 +98,16 @@ See [[simplicial fundamental groupoid]].
 
 ## References
 
-A detailed treatment:
-
-* [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer (1998, 2016)  [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8.
 
 Monographs:
 
+* [[Ronald Brown]], §6 of: *Elements of Modern Topology*, McGrawHill (1968) \[ISBN:9780070940598, <a href="https://archive.org/details/elementsofmodern0000rona/page/n1/mode/2up">ark:/13960/s26wmm5260h</a>, [[Brown-Topology.pdf:file]]\]
+
 * [[George W. Whitehead]], (1.7) in: *Elements of Homotopy Theory*, Springer (1978) &lbrack;[doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0)&rbrack;
 
-
 * [[Philip J. Higgins]], §6 of: *Categories and Groupoids*, Mathematical  Studies **32**, van Nostrand New  York (1971), Reprints in Theory and Applications of Categories **7** (2005) 1-195 &lbrack;[tac:tr7] (http://www.tac.mta.ca/tac/reprints/articles/7/tr7abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/7/tr7-2a4.pdf)&rbrack;
+
+* [[Nicolas Bourbaki]]: _Topologie Algébrique_, Chapitres 1 à 4, Springer (1998, 2016) &lbrack;[doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8), ISBN 978-3-662-49361-8&rbrack;
 
 * {#Brown06} [[Ronnie Brown]]: Chapter 6 of: *Topology and Groupoids*, Booksurge (2006) &lbrack;[pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf), [webpage](https://groupoids.org.uk/topgpds.html)&rbrack; 
 
