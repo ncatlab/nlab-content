@@ -187,6 +187,10 @@ However, in contrast to the classical situation, this morphism is not in general
 
 
 
+## Properties
+
+* [[orbit-stabilizer theorem]]
+
 
 ## Examples
 
@@ -359,6 +363,8 @@ For instance if $A$ here is $\mathbf{B}^{n}U(1)_{conn}$, and $f \colon X \to \ma
 * [[centralizer subgroup]]
 
 * [[stable point]]
+
+* [[orbit-stabilizer theorem]]
 
 * [[Klein geometry]], [[Cartan geometry]]
 
