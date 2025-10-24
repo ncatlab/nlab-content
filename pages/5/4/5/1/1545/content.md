@@ -1,11 +1,16 @@
 
+Konrad Waldorf
+
 * [personal page](http://math.konradwaldorf.de/)
 
 * [institute page](https://math-inf.uni-greifswald.de/institut/ueber-uns/mitarbeitende/waldorf/)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=129687)
+
+* [inSpire page](https://inspirehep.net/authors/1057449)
+
 * [GoogleScholar page](https://scholar.google.com/citations?user=eWUT0fQAAAAJ)
 
-* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=129687)
 
 
 ## Selected writings
@@ -65,6 +70,9 @@ Construction of the [[Connes fusion]]-operation on [[fibers]] of [[stringor bund
 
 * [[Peter Kristel]], [[Konrad Waldorf]]: *Connes fusion of spinors on loop space*, Compositio Mathematica **160** 7 (2024)  1596-1650  &lbrack;[arXiv:2012.08142](https://arxiv.org/abs/2012.08142), [doi:10.1112/S0010437X24007188](https://doi.org/10.1112/S0010437X24007188)&rbrack;
 
+On classification of "[[adjusted Weil algebra|adjustments]]" for central [[crossed modules]]:
+
+* [[Matthias Ludewig]], [[Konrad Waldorf]]: *Classification of adjustments on central crossed modules* &lbrack;[arXiv:2510.19607](https://arxiv.org/abs/2510.19607)&rbrack;
 
 
 
