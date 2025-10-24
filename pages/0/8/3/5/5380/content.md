@@ -208,7 +208,7 @@ For $n \in \mathbb{C}$ there are [[homeomorphisms]]
 
    between
 
-   1. the [[quotient space]] of the [[Euclidean space|Euclidean]] [[n-sphere]] canonically regarded as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$ by the [[equivalence relation]] which identifies two points $\vec p \in \mathbb{R}^{n+1}$ if they differ by multiplication by $-1$
+   1. the [[quotient space]] of the [[Euclidean space|Euclidean]] [[n-sphere]], canonically regarded as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{n+1}$, by the [[equivalence relation]] which identifies two points $\vec p \in \mathbb{R}^{n+1}$ if they differ by multiplication by $-1$
 
    1. [[real projective space]] (def. \ref{TopologicalProjectiveSpace})
 
@@ -216,7 +216,7 @@ For $n \in \mathbb{C}$ there are [[homeomorphisms]]
 
    between
 
-   1. the [[quotient space]] of the [[Euclidean space|Euclidean]] [[n-sphere|(2n+2)-sphere]], canonically regarded as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{2n+2} \simeq \mathbb{C}^{n+1}$ by the [[equivalence relation]] which identifies two points $\vec p \in \mathbb{C}^{n+1}$ if they differ by multiplication by a complex number of unit norm
+   1. the [[quotient space]] of the [[Euclidean space|Euclidean]] [[n-sphere|(2n+2)-sphere]], canonically regarded as a [[subspace]] of the [[Euclidean space]] $\mathbb{R}^{2n+2} \simeq \mathbb{C}^{n+1}$, by the [[equivalence relation]] which identifies two points $\vec p \in \mathbb{C}^{n+1}$ if they differ by multiplication by a complex number of unit norm
 
    1. [[complex projective space]] (def. \ref{TopologicalProjectiveSpace}).
 
@@ -295,9 +295,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
-we discuss the case $k = \mathbb{C}$. The case $k= \mathbb{R}$ works verbatim the same, with the evident substitutions.
+We discuss the case $k = \mathbb{C}$. The case $k = \mathbb{R}$ works verbatim the same, with the evident substitutions.
 
-Given [[homogeneous coordinates]] $(z_0 ,  z_1 ,  \cdots ,  z_n ,  z_{n+1} ,  z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let
+Given [[homogeneous coordinates]] $(z_0,  z_1,  \cdots,  z_n,  z_{n+1},  z_{n+2}) \in \mathbb{C}^{n+2}$ for $\mathbb{C}P^{n+1}$, let
 
 $$
   \phi \coloneqq -arg(z_{n+2})
