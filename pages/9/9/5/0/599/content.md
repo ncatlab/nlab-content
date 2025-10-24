@@ -76,9 +76,9 @@ For more information, see the entry on [[nonabelian algebraic topology]].
 
 ## Selected writings
 
-On [[algebraic topology]]:
+On [[general topology]] and basic [[homotopy theory]] ([[fundamental groupoids]] and [[covering spaces]]):
 
-* [[Ronald Brown]]: *Elements of Modern Topology*, McGrawHill (1968) \[<a href="https://archive.org/details/elementsofmodern0000rona/page/n1/mode/2up">ark:/13960/s26wmm5260h</a>\]
+* [[Ronald Brown]]: *Elements of Modern Topology*, McGrawHill (1968) \[ISBN:9780070940598, <a href="https://archive.org/details/elementsofmodern0000rona/page/n1/mode/2up">ark:/13960/s26wmm5260h</a>, [[Brown-Topology.pdf:file]]\]
 
 Discussion of [[exponential law for spaces|exponential objects]] in [[slice categories]] of [[compactly generated topological spaces]] (towards [[locally cartesian closed category|local cartesian closure]]):
 
@@ -92,7 +92,7 @@ On [[algebraic topology]] using [[strict ∞-groupoids]] (often in the equivalen
 
 See also:
 
-* [[Omar Antolín-Camarena]], [[Ronnie Brown]]: *Corrigendum to "Groupoids, the Phragmen-Brouwer Property, and the Jordan Curve Theorem", J. Homotopy and Related Structures 1 (2006) 175-183* &lbrack;[arXiv:1404.0556](https://arxiv.org/abs/1404.0556), [pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/brouwer-cor-fin.pdf)&rbrack;
+* [[Omar Antolín-Camarena]], [[Ronnie Brown]]: *Corrigendum to "Groupoids, the Phragmen-Brouwer Property, and the Jordan Curve Theorem"*, J. Homotopy and Related Structures 1 (2006) 175-183 &lbrack;[arXiv:1404.0556](https://arxiv.org/abs/1404.0556), [pdf] (http://pages.bangor.ac.uk/~mas010/pdffiles/brouwer-cor-fin.pdf)&rbrack;
 
 
 
