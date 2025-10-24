@@ -7,7 +7,7 @@
 
 ***
 
-This page is an introduction to basic [[topological homotopy theory|topological]] [[homotopy theory]].
+This page (cf. [[IntroductionToTopologyII-170720.pdf:file]], 61p) is an introduction to basic [[topological homotopy theory|topological]] [[homotopy theory]].
 We introduce the concept of [[homotopy]] between [[continuous functions]] and the induced concept
 of [[homotopy equivalence]] of [[topological spaces]].
 Homotopy classes of paths form the _[[fundamental groupoid]]_ of a topological space, the 
