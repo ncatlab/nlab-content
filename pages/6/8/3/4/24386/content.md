@@ -96,8 +96,11 @@ Application to geometric refinement of [[topological T-duality]]:
 
 * [[Hyungrok Kim]], [[Christian Saemann]], *T-duality as Correspondences of Categorified Principal Bundles with Adjusted Connections* &lbrack;[arXiv:2303.16162](https://arxiv.org/abs/2303.16162)&rbrack;
 
+Classification of adjustments for [[center|central]] [[crossed modules]]:
+
+* [[Matthias Ludewig]], [[Konrad Waldorf]]: *Classification of adjustments on central crossed modules* &lbrack;[arXiv:2510.19607](https://arxiv.org/abs/2510.19607)&rbrack;
+
 
 
 [[!redirects adjusted Weil algebras]]
-
 
