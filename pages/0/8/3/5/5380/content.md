@@ -576,9 +576,11 @@ It remains to see that the [[gluing functions]] of this atlas are [[differentiab
 
 ## References
 
-* {#Mobius27} [[August Ferdinand Möbius]], _Der barycentrische Calc&#252;l_ (1827)
+The use of homogeneous coordinates $[x_1 : \cdots: x_{n+1}]$ in order to include a "point at infinity" goes back to:
 
-Textbook account:
+* {#Mobius27} [[August Ferdinand Möbius]]: *Der barycentrische Calcül -- Ein neues Hülfsmittel zur analytischen Behandlung der Geometrie*, J. A. Barth (1827) &lbrack;[ark:12148/bpt6k99419h/f25](https://gallica.bnf.fr/ark:/12148/bpt6k99419h/f25)&rbrack;
+
+Modern textbook account:
 
 * [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §9 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
 
