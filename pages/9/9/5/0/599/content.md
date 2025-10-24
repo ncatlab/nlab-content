@@ -76,6 +76,10 @@ For more information, see the entry on [[nonabelian algebraic topology]].
 
 ## Selected writings
 
+On [[algebraic topology]]:
+
+* [[Ronald Brown]]: *Elements of Modern Topology*, McGrawHill (1968) \[<a href="https://archive.org/details/elementsofmodern0000rona/page/n1/mode/2up">ark:/13960/s26wmm5260h</a>\]
+
 Discussion of [[exponential law for spaces|exponential objects]] in [[slice categories]] of [[compactly generated topological spaces]] (towards [[locally cartesian closed category|local cartesian closure]]):
 
 * {#BoothBrown78a} [[Peter I. Booth]], [[Ronnie Brown]], *Spaces of partial maps, fibred mapping spaces and the compact-open topology*, General Topology and its Applications **8**  2 (1978) 181-195 &lbrack;<a href="https://doi.org/10.1016/0016-660X(78)90049-1">doi:10.1016/0016-660X(78)90049-1</a>&rbrack:
