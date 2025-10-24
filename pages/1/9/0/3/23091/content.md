@@ -26,6 +26,7 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Robert E. Mosher]], [[Martin C. Tangora]], *Cohomology operations and applications in homotopy theory*, Harper & Row, 1968, reprinted by [Dover 2008](https://store.doverpublications.com/0486466647.html) [GoogleBooks](https://www.google.com/books/edition/Cohomology_Operations_and_Applications_i/wu79f-7V_6AC)
 
+* [[Ronald Brown]]: *Elements of Modern Topology*, McGrawHill (1968) \[ISBN:9780070940598, <a href="https://archive.org/details/elementsofmodern0000rona/page/n1/mode/2up">ark:/13960/s26wmm5260h</a>, [[Brown-Topology.pdf:file]]\]
 
 * {#Homotopietheorie} [[Tammo tom Dieck]], [[Klaus Heiner Kamps]], [[Dieter Puppe]], *Homotopietheorie*, Lecture Notes in Mathematics **157** Springer 1970 ([doi:10.1007/BFb0059721](https://link.springer.com/book/10.1007/BFb0059721))
 
@@ -67,11 +68,11 @@ Monographs:
 
 * [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of Algebraic Topology_, Princeton University Press 1952 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/eilestee.pdf), [ISBN:9780691653297](https://press.princeton.edu/books/hardcover/9780691653297/foundations-of-algebraic-topology))
 
-* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) $[$[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]$]$
+* {#Godement58} [[Roger Godement]]: *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) $[$[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]$]$
 
 * {#Spanier66} [[Edwin Spanier]], _Algebraic topology_, McGraw Hill (1966), Springer (1982) ([doi:10.1007/978-1-4684-9322-1](https://link.springer.com/book/10.1007/978-1-4684-9322-1))
 
-* [[William S. Massey]], *Algebraic Topology: An Introduction*, Harcourt Brace & World 1967, reprinted in: Graduate Texts in Mathematics, Springer 1977 ([ISBN:978-0-387-90271-5](https://link.springer.com/book/9780387902715)) 
+* [[William S. Massey]]: *Algebraic Topology: An Introduction*, Harcourt Brace & World (1967), Graduate Texts in Mathematics **56**, Springer (1977) \[<a href="https://link.springer.com/book/9780387902715">ISBN:9780387902715</a>\]
 
 * [[Klaus Lamotke]]: *Semisimpliziale Algebraische Topologie*, Grundlehren der Mathematischen Wissenschaften **147**, Springer (1968) \[<a href="https://doi.org/10.1007/978-3-662-12988-3">doi:10.1007/978-3-662-12988-3</a>\]
   > (via [[semisimplicial sets]])
@@ -90,6 +91,8 @@ Monographs:
 * [[James Munkres]]: *Elements of Algebraic Topology*, Addison-Wesley (1984) \[<a href="https://www.routledge.com/Elements-Of-Algebraic-Topology/Munkres/p/book/9780367091415?srsltid=AfmBOorgeT-ozzbrkknDo4359cwAJ2b0--yIEM5G-Xi9gbrNnLy6gO2E">ISBN:9780367091415</a>, [pdf](https://people.dm.unipi.it/benedett/MUNKRES-ETA.pdf)\]
 
 * [[Joseph J. Rotman]], *An Introduction to Algebraic Topology*, Graduate Texts in Mathematics **119** (1988) $[$[doi:10.1007/978-1-4612-4576-6](https://doi.org/10.1007/978-1-4612-4576-6)\] 
+
+* [[William S. Massey]]: *A Basic Course in Algebraic Topology*, Graduate Texts in Mathematics **127**, Springer (1991) \[<a href="https://doi.org/10.1007/978-1-4939-9063-4">doi:10.1007/978-1-4939-9063-4</a>\] 
 
 * {#Bredon93} [[Glen Bredon]], _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
