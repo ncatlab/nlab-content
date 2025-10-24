@@ -77,7 +77,7 @@ The original proof that the [[4-sphere]] is a quotient of the [[complex projecti
 * {#Arnold71} [[Vladimir Arnold]], _On disposition of ovals of real plane algebraic curves, involutions of four-dimensional manifolds and arithmetics of integer quadratic forms_, Funct. Anal. and Its Appl., 1971, V. 5, N 3, P. 1-9.
 
 
-* {#Massey73} [[William Massey]], _The quotient space of the complex projective space under conjugation is a 4-sphere_, Geometriae Didactica 1973 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/massey5.pdf))
+* {#Massey73} [[William Massey]]: _The quotient space of the complex projective space under conjugation is a 4-sphere_, Geometriae Didactica (1973) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/massey5.pdf)&rbrack;
 
 * {#Kuiper74} [[Nicolaas Kuiper]], _The quotient space of $\mathbb{C}P(2)$ by complex conjugation is the 4-sphere_, Mathematische Annalen, 1974 ([doi:10.1007/BF01432386](https://doi.org/10.1007/BF01432386))
 
