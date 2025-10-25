@@ -10,18 +10,17 @@ On [[Johnson-Wilson spectrum|$E(1)$]]-[[Bousfield localization of spectra|local]
 * [[Nora Ganter]]: _Smash products of $E(1)$-local spectra at an odd prime_, [[Cahiers]] Topol. Geom. Differ. Categ. __48__ 1 (2007) 3-54 &lbrack;[math.CT/0410589](http://arxiv.org/abs/math/0410589), [numdam:CTGDC_2007__48_1_3_0](http://www.numdam.org/item/?id=CTGDC_2007__48_1_3_0)&rbrack;
 
 
-On [[Tate K-theory]] and [[equivariant elliptic cohomology]]:
+On [[orbifold K-theory|orbifold]] [[Tate K-theory]] and [[equivariant elliptic cohomology]]:
 
 * [[Nora Ganter]], _Stringy power operations in Tate K-theory_, [math.AT/0701565](http://arxiv.org/abs/math/0701565) 
 
-* {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_, Homology Homotopy Appl. Volume 15, Number 1 (2013), 313-342. ([arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/euclid.hha/1383943680))
-
+* [[Nora Ganter]]: *Power operations in orbifold Tate K-theory*,  Homology Homotopy Appl. **15** 1 (2013) 313-342  &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-15/issue-1/Power-operations-in-orbifold-Tate-K-theory/hha/1383943680.full)&rbrack;
 
 * [[Nora Ganter]], _Orbifold genera, product formulas and power operations_, Adv. Math. __205__ (2006), no. 1, 84-133 (revised Ph. D. Thesis) [math.AT/0407021](http://arxiv.org/abs/math/0407021) 
 
 * [[Nora Ganter]], _Hecke operators in equivariant elliptic cohomology and generalized moonshine_, [arxiv/0706.2898](http://arxiv.org/abs/0706.2898) 
 
-* [[Nora Ganter]], [[Matthew Ando]], C. French, _The Jacobi orientation adn the two-variable elliptic genus_, Algebraic and Geometric Topology __8__, 493-539, 2008, [math.AG/0605554](http://arxiv.org/abs/math/0605554)
+* [[Nora Ganter]], [[Matthew Ando]], C. French, _The Jacobi orientation and the two-variable elliptic genus_, Algebraic and Geometric Topology __8__, 493-539, 2008, [math.AG/0605554](http://arxiv.org/abs/math/0605554)
 
 
 
