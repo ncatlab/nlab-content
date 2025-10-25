@@ -35,6 +35,10 @@ The [[principle of unique choice]] is not equivalent to [[weak function extensio
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{weakfunext}(\lambda x.p(x)):\mathrm{isContr}\left(\prod_{x:A} B(x)\right)}$$
 
+Alternatively, one could consider a version of unique choice that is analogous to the set theoretic formulation. That is, given $A : \text{type}$, $B : A \to \text{type}$ and $R : (a : A) \to B(a) \to \text{type}$ one can state unique choice as follows 
+$$((a : A) \to \exists ! (b : B(a)) , R(a)(b)) \to \exists ! (f : (a : A) \to B(a)) , (a : A) \to R(a)(f(a))$$
+where $\exists ! (x : X) , P(x) \coloneqq \text{is-contr} (\sum_{x : X} P(x))$. The above is provable in MLTT in the presence of function extensionality (see [ME2019](#ME2019).)
+
 ## Related concepts
 
 * [[anafunction]]
@@ -42,6 +46,8 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{t
 ## References
 
 * *Homotopy Type Theory: Univalent Foundations of Mathematics*, The [[Univalent Foundations Project]], Institute for Advanced Study, 2013. ([web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf))
+
+* {#ME2019} *Introduction to Univalent Foundations of Mathematics with Agda*, Martín Hötzel Escardó, 2019. ([web] (https://martinescardo.github.io/HoTT-UF-in-Agda-Lecture-Notes/HoTT-UF-Agda.html#unique-choice))
 
 [[!redirects principle of unique choice]]
 [[!redirects function comprehension principle]]
