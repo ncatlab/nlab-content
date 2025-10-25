@@ -14,6 +14,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -67,18 +68,17 @@ The definition originates, via [[bundle gerbes]] and [[bundle gerbe modules]] on
 * [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]]: *Twisted K-theory of differentiable stacks*, Annales Scientifiques de l’École Normale Supérieure **37** 6 (2004) 841-910 &lbrack;[arXiv:math/0306138](https://arxiv.org/abs/math/0306138), [doi:10.1016/j.ansens.2004.10.002](https://doi.org/10.1016/j.ansens.2004.10.002)&rbrack;
 
 
-
-The definition of the K-theory of [[global quotient orbifolds]] as the [[twisted equivariant K-theory]] of the [[universal covering space]] appears in
+The definition of the K-theory of [[global quotient orbifolds]] as the [[twisted equivariant K-theory]] of the [[universal covering space]]:
 
 * {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]]: *Twisted Orbifold K-Theory*, Commun. Math. Phys. **237** (2003) 533-556 &lbrack;[arXiv:math/0107168](https://arxiv.org/abs/math/0107168), [doi:10.1007/s00220-003-0849-x](https://doi.org/10.1007/s00220-003-0849-x)&rbrack;
 
 Review:
 
-* {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], Section 3 of: _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) &lbrack;[doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf)&rbrack;
+* {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]]: *Orbifold K-Theory*, chapter 3 of: _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) &lbrack;[doi:10.1017/CBO9780511543081.004](https://doi.org/10.1017/CBO9780511543081.004), [[AdemLeidaRuan-OrbifoldKTheory.pdf:file]]&rbrack;
+ 
+The general [[proof]] that this is well-defined (independent of the realization of the orbifold as a [[global quotient orbifold|global quotient]]):
 
-The general [[proof]] that this is well-defined (independent of the realization of the orbifold as a [[global quotient orbifold|global quotient]]) is due to
-
-* {#PronkScull07} [[Dorette Pronk]], [[Laura Scull]], Section 4 of: _Translation Groupoids and Orbifold Bredon Cohomology_, Canad. J. Math. **62** (2010), 614-645 &lbrack;[arXiv:0705.3249](https://arxiv.org/abs/0705.3249), [doi:10.4153/CJM-2010-024-1](https://doi.org/10.4153/CJM-2010-024-1)&rbrack;
+* {#PronkScull07} [[Dorette Pronk]], [[Laura Scull]], Section 4 of: _Translation Groupoids and Orbifold Bredon Cohomology_, Canad. J. Math. **62** (2010) 614-645 &lbrack;[arXiv:0705.3249](https://arxiv.org/abs/0705.3249), [doi:10.4153/CJM-2010-024-1](https://doi.org/10.4153/CJM-2010-024-1)&rbrack;
 
 A more geometric model of orbifold K-theory in terms of [[bundles]] of [[Fredholm operators]] over [[Lie groupoids]]/[[differentiable stacks]]:
 
