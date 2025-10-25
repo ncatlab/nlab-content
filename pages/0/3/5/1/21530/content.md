@@ -106,6 +106,20 @@ More on this in:
 
 * Rebecca Goldin, Megumi Harada, Tara S. Holm, [[Takashi Kimura]], _The full orbifold K-theory of abelian symplectic quotients_, Journal of K-theory **8** 2 (2011) 339-362 &lbrack;[arXiv:0812.4964](https://arxiv.org/abs/0812.4964), [doi:10.1017/is010005021jkt118](https://doi.org/10.1017/is010005021jkt118)&rbrack;
 
+On orbifold [[Tate K-theory]]:
+
+* [[Nora Ganter]]: *Power operations in orbifold Tate K-theory*,  Homology Homotopy Appl. **15** 1 (2013) 313-342  &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-15/issue-1/Power-operations-in-orbifold-Tate-K-theory/hha/1383943680.full)&rbrack;
+
+See also:
+
+* Carla Farsi: *K-Theoretical Index Theorems for Good Orbifolds*, Proceedings of the AMS **115** 3 (1992) 769-773 &lbrack;[doi:10.2307/2159225](https://doi.org/10.2307/2159225), [jstor:2159225](https://www.jstor.org/stable/2159225)&rbrack;
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted higher index theory on good orbifolds and fractional quantum numbers* &lbrack;[arXiv:math/9803051](https://arxiv.org/abs/math/9803051)&rbrack;
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted index theory on good orbifolds, I: noncommutative Bloch theory*, Communications in Contemporary Mathematics **1** 4 (1999) 553-587 &lbrack;[arXiv:math/9911102v1](https://arxiv.org/abs/math/9911102v1)&rbrack;
+
+
+
 
 
 ### Via global equivariant homotopy theory
