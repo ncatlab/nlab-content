@@ -291,5 +291,13 @@ Some of the above material is taken from
 [[!redirects nodal line]]
 [[!redirects nodal lines]]
 
+[[!redirects nodal line semimetal]]
+[[!redirects nodal line semimetals]]
+
+[[!redirects nodal line semi-metal]]
+[[!redirects nodal line semi-metals]]
+
+[[!redirects NLSM]]
+[[!redirects NLSMs]]
 
 
