@@ -3,9 +3,9 @@
 
 ## Selected writings
 
-On [[twisted equivariant K-theory]] via [[bundle gerbes]] over [[differentiable stacks]]:
+On [[bundle gerbe]]-[[twisted K-theory]] of [[differentiable stacks]], subsuming [[twisted equivariant K-theory]] and [[orbifold K-theory]]:
 
-* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_, Annales Scientifiques de l’École Normale Supérieure Volume 37, Issue 6, November–December 2004, Pages 841-910 ([arXiv:math/0306138](https://arxiv.org/abs/math/0306138), [doi:10.1016/j.ansens.2004.10.002](https://doi.org/10.1016/j.ansens.2004.10.002))
+* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]]: *Twisted K-theory of differentiable stacks*, Annales Scientifiques de l’École Normale Supérieure **37** 6 (2004) 841-910 &lbrack;[arXiv:math/0306138](https://arxiv.org/abs/math/0306138), [doi:10.1016/j.ansens.2004.10.002](https://doi.org/10.1016/j.ansens.2004.10.002)&rbrack;
 
 
 On [[fiber bundles]] and [[principal bundles]] over [[Lie groupoids]] (e.g. [[orbifolds]]):
