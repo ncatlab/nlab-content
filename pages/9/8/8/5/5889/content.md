@@ -38,7 +38,7 @@ There are generalizations, e.g. the [[quantum homogeneous space]] for the case o
  {#RelationToCosetSpaces}
  
 
-Under weak topological conditions (cf. [Helgason](#Helgason)), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $G/H$ for a [[closed subspace|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
+Under weak topological conditions (cf. [Helgason](#Helgason)), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $X \coloneqq G/H$ for a [[closed subspace|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
 
 See at *[[orbit-stabilizer theorem]]*.
 
