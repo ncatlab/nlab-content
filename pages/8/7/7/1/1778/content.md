@@ -13,9 +13,9 @@
 =--
 =--
 
-#&#268;ech cohomology#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea ##
 
@@ -1203,18 +1203,23 @@ Classical accounts (in the generality of [[nonabelian cohomology]]):
 * {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
 
 
+Historical survey: 
+
+* [[David Edwards]], Harold M. Hastings, _Cech Theory: Its past, present, and future_, Rocky Mountain J. Math. **10** 3 (1980) 429-468 &lbrack;[euclid:rmjm/1250128825](http://projecteuclid.org/euclid.rmjm/1250128825)&rbrack;
+
+
 Textbook account:
 
 * [[Torsten Wedhorn]], *Torsors and Non-abelian Čech Cohomology*, chapter 7 in: *Manifolds, Sheaves, and Cohomology*, Springer (2016) &lbrack;[doi:10.1007/978-3-658-10633-1](https://doi.org/10.1007/978-3-658-10633-1)&rbrack;
 
+Exposition in the context of [[Dirac charge quantization]], hence for [[coefficients]] a [[Deligne complex]]:
 
-A historical survey (of some aspects) is in 
+* {#Alvarez85} [[Orlando Alvarez]], Section 4 of: _Topological quantization and cohomology_, Comm. Math. Phys. **100** 2 (1985) 279-309 &lbrack;[doi:10.1007/BF01212452](https://doi.org/10.1007/BF01212452), [euclid:cmp/1103943448](https://projecteuclid.org/euclid.cmp/1103943448)&rbrack;
 
-* [[David Edwards]], Harold M. Hastings, _Cech Theory: Its past, present, and future_, Rocky Mountain J. Math. Volume 10, Number 3 (1980), 429-468. ([Euclid](http://projecteuclid.org/euclid.rmjm/1250128825))
+and via [[complex analytic geometry]]:
 
-A motivational introduction from within [[complex analytic geometry]] is in 
+* [[Michael Weiss]]: _The Search for a Global Primitive -- Cech Cohomology with Coefficients in a Sheaf_ &lbrack;[[Weiss-CechCohomology.pdf:file]]&rbrack;
 
-* Michael Weiss, _The Search for a Global Primitive -- Cech Cohomology with Coefficients in a Sheaf_ ([pdf](http://files.meetup.com/4699592/cech-ipad.pdf))
 
 A discussion of &#268;ech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[Čech cover]] and [[hypercover]] is
 
