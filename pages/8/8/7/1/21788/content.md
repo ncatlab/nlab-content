@@ -118,7 +118,8 @@ As a form of [[equivariant elliptic cohomology]] ([[twisted ad-equivariant Tate 
 
 * {#Ganter07} [[Nora Ganter]], Section 3.1 in: _Stringy power operations in Tate K-theory_ &lbrack;[arXiv:math/0701565](https://arxiv.org/abs/math/0701565)&rbrack;
 
-* {#Ganter13} [[Nora Ganter]], _Power operations in orbifold Tate K-theory_, Homology Homotopy Appl. **15** 1 (2013)  313-342 &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/euclid.hha/1383943680)&rbrack;
+* {#Ganter13} [[Nora Ganter]]: *Power operations in orbifold Tate K-theory*,  Homology Homotopy Appl. **15** 1 (2013) 313-342  &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-15/issue-1/Power-operations-in-orbifold-Tate-K-theory/hha/1383943680.full)&rbrack;
+  > (cf. *[[orbifold K-theory]]*)
 
 * {#Rezk14} [[Charles Rezk]], *Quasi-Elliptic Cohomology* (2014) &lbrack;[[Rezk-QuasiEllipticCohomology.pdf:file]]&rbrack;
 
