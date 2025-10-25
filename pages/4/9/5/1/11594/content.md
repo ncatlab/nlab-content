@@ -19,7 +19,7 @@
 
 In [[type II superstring theory]] the degree-1 [[RR-charge]] is that of a [[D-brane]] with 0-dimensional [[worldvolume]], hence a "$(-1)$-brane" or "D-instanton".
 
-The RR-potenzial $C_0$ combines with the [[dilaton]] to the [[axio-dilaton]].
+The RR-potential $C_0$ combines with the [[dilaton]] to the [[axio-dilaton]].
 
 ## Related entries
 
@@ -29,9 +29,9 @@ The RR-potenzial $C_0$ combines with the [[dilaton]] to the [[axio-dilaton]].
 
 ## References
 
-* [[Gary Gibbons]], [[Michael Green]] and [[Malcolm Perry]], Phys. Lett. B370 (1996) 231; 
+* [[Gary Gibbons]], [[Michael Green]] and [[Malcolm Perry]], Phys. Lett. B370 (1996) 231. ([hep-th/9511080](https://arxiv.org/abs/hep-th/9511080)).
 
-* [[Steven Gubser]], A. Hashimoto, [[Igor Klebanov]], [[Juan Maldacena]], Nucl. Phys. B472 (1996) 231.
+* [[Steven Gubser]], A. Hashimoto, [[Igor Klebanov]], [[Juan Maldacena]], Nucl. Phys. B472 (1996) 231. ([hep-th/9601057](https://arxiv.org/abs/hep-th/9601057)).
 
 * [[Ashoke Sen]], *String Theory in Rolling Tachyon Vacuum* &lbrack;[arXiv:2312.11634](https://arxiv.org/abs/2312.11634)&rbrack;
 
