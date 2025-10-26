@@ -47,7 +47,11 @@ Discussion of [[asymptotic boundaries]] of [[hyperbolic space|hyperbolic]] [[ten
 
 * [[Alexander Jahn]], [[Zoltán Zimborás]], [[Jens Eisert]], _Tensor network models of AdS/qCFT_ ([arXiv:2004.04173](https://arxiv.org/abs/2004.04173))
 
+On the state of the technology of [[quantum computing]]:
+
+* [[Jens Eisert]], [[John Preskill]]: *Mind the gaps: The fraught road to quantum advantage* &lbrack;[arXiv:2510.19928](https://arxiv.org/abs/2510.19928)&rbrack;
 
 
 
 category: people
+
