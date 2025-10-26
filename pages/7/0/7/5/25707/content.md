@@ -92,9 +92,15 @@ frankfurt.de/64271720/TopNotes_Spring10.pdf))
 
 * {#Mueger18} [[Michael Müger]], _Topology for the working mathematician_, Nijmegen 2018 ([pdf](https://www.math.ru.nl/~mueger/topology.pdf))
 
+Introduction aimed at [[physics|physicists]]:
+
+* [[Helmut Eschrig]], Section 2 of: *Topology and Geometry for Physics*, Lecture Notes in Physics, Springer (2011) \[<a href="https://doi.org/10.1007/978-3-642-14700-5">doi:10.1007/978-3-642-14700-5</a>\] 
+
 On basic topology set up in [[intuitionistic mathematics]]:
 
 * {#Waaldijk96} [[Franka Waaldijk]], _Modern intuitionistic topology_, PhD thesis, Amsterdam (1996) \[<a href="http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf">pdf</a>, [[Waaldijk-IntuitTopology.pdf:file]]\]
+
+
 
 See also:
 
