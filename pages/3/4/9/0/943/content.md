@@ -119,7 +119,7 @@ As special cases of this general construction, the above examples of
 
 See also [Gaucher 2007, Sec. 2](#Gaucher07).
 
-Further developments along these lines are in[Escardo, Lawson &Simpson 2004](#EscardoLawsonSimpson04):
+Further developments along these lines are in [Escardo, Lawson & Simpson 2004](#EscardoLawsonSimpson04):
 
 The topological spaces $X$ for which there is an [[exponential law for spaces|exponentiable space]] in [[Top]] (i.e such that $X \times (-)  \;\colon\; Top \to Top$ has a [[right adjoint]])
 may be described more concretely as _core-compact_ spaces (spaces whose topology is a [[continuous lattice]]). Suppose given a collection $\mathcal{C}$ of core-compact spaces, with the property that the product of any two spaces in $\mathcal{C}$ is a [[colimit]] in [[Top]] of spaces in $\mathcal{C}$. Such a collection $\mathcal{C}$ is called **productive**. Spaces which are $Top$-colimits of spaces in $\mathcal{C}$ are called $\mathcal{C}$-**generated**. 
@@ -256,7 +256,7 @@ Discussion in the generality that subsumes [[compactly generated topological spa
 
 * {#Wyler73} [[Oswald Wyler]], *Convenient categories for topology*, General Topology and its Applications **3** 3 (1973) 225-242 (<a href="https://doi.org/10.1016/0016-660X(72)90014-1">doi:10.1016/0016-660X(72)90014-1</a>)
 
-* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], Section 3 of: *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
+* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], Section 3 of: *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications **143** 1–3 (2004) 105-145 &lbrack;[doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011)&rbrack;
 
 * {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], Section 3 of: _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
 
