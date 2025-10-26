@@ -95,8 +95,10 @@ On [[quantum simulation]] of ([[lattice QFT|lattice]]) [[quantum field theory]]:
 
 On the state of [[quantum information]] and [[quantum computation]]:
 
-* [[John Preskill]], *The Physics of Quantum Information*, talk at
-*The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&lbrack;
+* [[John Preskill]], *The Physics of Quantum Information*, talk at *The Physics of Quantum Information*, 28th Solvay Conference on Physics (2022) &lbrack;[arXiv:2208.08064](https://arxiv.org/abs/2208.08064)&lbrack;
+
+* [[Jens Eisert]], [[John Preskill]]: *Mind the gaps: The fraught road to quantum advantage* &lbrack;[arXiv:2510.19928](https://arxiv.org/abs/2510.19928)&rbrack;
+
 
 On [[quantum information theory]]:
 
