@@ -1,13 +1,26 @@
-__Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet Union and now Professor at University of California-Davis ([web](http://www.math.ucdavis.edu/~schwarz)). He was one of the pioneers of [[Morse theory]] and brought up a first example of a [[topological quantum field theory]]. Schwarz worked on some examples in [[noncommutative geometry]]. He is "S" of the famous [[AKSZ model]].
+__Albert Solomonowich Schwarz__ is a mathematician and a theoretical physicist born in Soviet Union and now Professor at University of California-Davis ([web](http://www.math.ucdavis.edu/~schwarz)). He was one of the pioneers of [[Morse theory]] and brought up a first example of a [[topological quantum field theory]]. Schwarz worked on some examples in [[noncommutative geometry]]. He is "S" of the famous [[AKSZ model]].
 
-* German Wikipedia, _[Albert S. Schwarz](http://de.wikipedia.org/wiki/Albert_S._Schwarz)_
+* [personal page](https://www.math.ucdavis.edu/~schwarz/)
 
-* {#Schwarz04} [[Albert Schwarz]], _My Life In Science_, 2004 ([pdf](https://www.math.ucdavis.edu/~schwarz/bion.pdf), [[AlbertSchwarzLifeInScience.pdf:file]])
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Albert_S._Schwarz)
+
+* [MathGenealogy entry](https://www.mathgenealogy.org/id.php?id=12690)
+
+* [inSpire page](https://inspirehep.net/authors/989589)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=dNDRI8cAAAAJ&hl=en)
+
+* {#Schwarz04} [[Albert Schwarz]]: _My Life In Science_ (2004) &lbrack;[pdf](https://www.math.ucdavis.edu/~schwarz/bion.pdf), [[AlbertSchwarzLifeInScience.pdf:file]]&rbrack;
 
 
 ## Selected writings
 
 (See also the [list of arXiv articles](http://arxiv.org/find/hep-th/1/au:+Schwarz_A/0/1/0/all/0/1) of A. Schwarz.)
+
+
+On [[homotopy theory]] and [[algebraic topology]] for application to [[topological quantum field theory]] and [[topological phases of matter]]:
+
+* [[Albert S. Schwarz]]: *Topology for Physicists*, Grundlehren der mathematischen Wissenschaften **308**, Springer (1994) \[<a href="https://doi.org/10.1007/978-3-662-02998-5">doi:10.1007/978-3-662-02998-5</a>\] 
 
 
 On [[noncommutative tori]]:
