@@ -1752,22 +1752,22 @@ Further early discussion:
      
 A motivation and introduction of the concept of groupoid and a tour of examples (including the refinement to [[topological groupoids]] and [[Lie groupoids]]):
 
-* [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS **43** 7 (1996) &lbrack;[pdf](http://www.ams.org/notices/199607/weinstein.pdf), [[Weinstein_Groupoids.pdf:file]]&rbrack;
+* [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS **43** 7 (1996) 744-752 &lbrack;ams:notices/199607:[pdf](http://www.ams.org/notices/199607/weinstein.pdf), [[Weinstein_Groupoids.pdf:file]]&rbrack;
 
-A textbook with an eye towards the [[representation theory]] of ([[groups]] and) groupoids:
+A textbook with an eye towards the [[representation theory]] of ([[groups]] and) groupoids ([[groupoid representations]]):
 
 * [[Alberto Ibort]], [[Miguel A. Rodriguez]]: *An Introduction to Groups, Groupoids and Their Representations*, CRC Press (2021) &lbrack;[ISBN:9781032086767](https://www.routledge.com/An-Introduction-to-Groups-Groupoids-and-Their-Representations/Ibort-Rodriguez/p/book/9781032086767?srsltid=AfmBOoqc0EH7Qjc1_0C-TYQtUbhTWpdb3Juy61vwE9TfRC5oaJwjlYfN), [doi:10.1201/b22019](https://doi.org/10.1201/b22019)&rbrack;
 
 
 Further exposition:
 
-* [[Ronnie Brown]], *From groups to groupoids: A brief survey*, at _[Groupoids in Mathematics](http://pages.bangor.ac.uk/~mas010/gpdsweb.html)_, Bulletin of the London Mathematical Society **19** 2 (1987) 113-134 &lbrack;[doi:10.1112/blms/19.2.113](https://doi.org/10.1112/blms/19.2.113), [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf)&rbrack;
-
-* [[Introduction to Topology -- 2]], *[Groupoids](https://ncatlab.org/nlab/show/Introduction+to+Topology+--+2#Groupoid)*
+* [[Ronnie Brown]]: *From groups to groupoids: A brief survey*, at _[Groupoids in Mathematics](http://pages.bangor.ac.uk/~mas010/gpdsweb.html)_, Bulletin of the London Mathematical Society **19** 2 (1987) 113-134 &lbrack;[doi:10.1112/blms/19.2.113](https://doi.org/10.1112/blms/19.2.113), [pdf](http://pages.bangor.ac.uk/~mas010/pdffiles/groupoidsurvey.pdf)&rbrack;
 
 * Alberto Santini, *Topological groupoids* (2011) &lbrack;[pdf](http://web.math.ku.dk/~moller/students/alberto.pdf), [[Santini-Groupoids.pdf:file]]&rbrack;
+  > (about groupoids in [[topology]], notably [[fundamental groupoids]] -- not about actual [[topological groupoids]]!)
 
-  > (about groupoids in [[topology]], notably [[fundamental groupoids]] -- not about [[topological groupoids]])
+* [[Urs Schreiber]]: *[[Introduction to Topology -- 2]]*, *[Groupoids](https://ncatlab.org/nlab/show/Introduction+to+Topology+--+2#Groupoid)*, Lecture Notes (2017)
+
 
 With an eye towards [[homotopy theory]]:
 
