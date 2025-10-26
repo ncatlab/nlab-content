@@ -2,16 +2,27 @@ __Matilde Marcolli__ is a mathematician of Italian origin, currently at Caltech,
 
 She was a recipient of the Sonja Kovalevskaja prize and worked for several years at the Max Planck Institute for Mathematics in Bonn. 
 
-* [web](http://www.its.caltech.edu/~matilde)
+* [personal page](http://www.its.caltech.edu/~matilde)
 
-* [wikipedia](https://en.wikipedia.org/wiki/Matilde_Marcolli)
+* [institute page](https://www.pma.caltech.edu/people/matilde-marcolli)
 
-* [research works](http://www.its.caltech.edu/~matilde/work.html)
+* [Wikipedia entey](https://en.wikipedia.org/wiki/Matilde_Marcolli)
 
-* talks: [slides](http://www.its.caltech.edu/~matilde/slides.html)
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36888)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=hTFeplYAAAAJ&hl=en)
+
 
 
 ## Selected writings
+
+Early discussion of [[orbifold K-theory]] via [[C-star algebras|$C^\ast$-algebras]]:
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted higher index theory on good orbifolds and fractional quantum numbers* &lbrack;[arXiv:math/9803051](https://arxiv.org/abs/math/9803051)&rbrack;
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted index theory on good orbifolds, I: noncommutative Bloch theory*, Communications in Contemporary Mathematics **1** 4 (1999) 553-587 &lbrack;[arXiv:math/9911102v1](https://arxiv.org/abs/math/9911102), [doi:10.1142/S0219199799000213](https://doi.org/10.1142/S0219199799000213)&rbrack;
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted higher index theory on good orbifolds, II: fractional quantum numbers*, Commun. Math. Phys. **217** 1 (2001) 55-87 &lbrack;[arXiv:math/9911103](https://arxiv.org/abs/math/9911103), [doi:10.1007/s002200000351](https://doi.org/10.1007/s002200000351)&rbrack;
 
 
 On relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
@@ -38,7 +49,7 @@ Discussion of [[BTZ black holes]] via [[tensor networks]] in the [[p-adic AdS/CF
 
 * Matthew Heydeman, [[Matilde Marcolli]], Sarthak Parikh, [[Ingmar Saberi]], _Nonarchimedean Holographic Entropy from Networks of Perfect Tensors_ ([arXiv:1812.04057](https://arxiv.org/abs/1812.04057))
 
-On [[Hopf algebras]] in generative linguistics:
+On [[Hopf algebras]] in generative [[linguistics]]:
 
 * [[Matilde Marcolli]], [[Noam Chomsky]], Robert Berwick, *Mathematical Structure of Syntactic Merge* ([arXiv:2305.18278](https://arxiv.org/abs/2305.18278))
 
