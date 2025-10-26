@@ -284,7 +284,7 @@ See also:
 
 survey in: _Convenient topology --  a new branch of topology_ ([web](http://at.yorku.ca/i/a/a/c/54.htm))
 
-* {#Brown06} [[Ronnie Brown]],  [[Topology and Groupoids]]_, Booksurge (2006), Section 5.9: Spaces of functions and the compact-open topology. 
+* {#Brown06} [[Ronald Brown]]: *Spaces of functions and the compact-open topology*, Section 5.9 of: *Topology and Groupoids*, Booksurge (2006) &lbrack;[webpage](https://groupoids.org.uk/topgpds.html), [pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/rbrown-topgrpds-e.pdf)&rbrack;
 
 Discussion via [[topos theory]]:
 
