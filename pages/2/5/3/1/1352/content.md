@@ -1,10 +1,15 @@
-#Idea#
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 A _stratified simplicial set_ is a [[simplicial set]] equipped with information about which of its [[simplex|simplices]] are to be regarded as being _[[thin element|thin]]_ in that they are like identities or at least like equivalences in a [[higher category theory|higher category]].
 
 The theory of [[simplicial weak ∞-categories]] is based on stratified simplicial sets.
 
-# Definition #
+## Definition
 
 A **stratification** of a [[simplicial set]] $X : \Delta^{op} \to Set$ is a subset $t X \subset \coprod_{[n]} X_n$ of its set of simplices (not in general a simplicial subset!) such that
 
@@ -31,7 +36,7 @@ This category is a [[quasitopos]].  Hence, in particular, it is [[cartesian clos
 
 
 
-#Examples#
+## Examples
 
 * Every simplicial set gives rise to a stratified simplicial set
 
@@ -53,11 +58,11 @@ This category is a [[quasitopos]].  Hence, in particular, it is [[cartesian clos
 * A [[simplicial set]] is a [[Kan complex]] precisely if its maximal stratification makes it a [[weak complicial set]].
 
 
-#The category of stratified simplicial sets#
+## The category of stratified simplicial sets
 
 There are several [[tensor products]] on the category $Strat$ of stratified simplicial sets that make it a [[monoidal category]].
 
-## Strat with the Verity-Gray tensor product ##
+### Strat with the Verity-Gray tensor product
 
 Consider the monoidal category $(Strat, \otimes)$ where $\otimes$ is the [[Verity-Gray tensor product]]. 
 
@@ -79,7 +84,7 @@ Or so it is claimed on [slide 60](http://www.mat.uc.pt/~categ/ct2007/slides/veri
 [Ver07](http://www.mat.uc.pt/~categ/ct2007/slides/verity.pdf)
 
 
-#References#
+## References
 
 A useful quick introduction is the beginning of these slides:
 
