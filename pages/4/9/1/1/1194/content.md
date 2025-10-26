@@ -334,9 +334,9 @@ Note that in general, the following definitions are mutually [[recursion|recursi
 * A **[[context]]** is a list of typing declarations, in which each term is a fresh variable (i.e. one not occurring to the left of its typing declaration).  If the list of types is not fixed, then one requires that each type occurring in a context be well-formed relative to the sub-context appearing to its left.  In other words, for $\Gamma, x:A$ to be a valid context, the [[judgment]] (see below) $\Gamma \vdash A:Type$ must be derivable.
 
 * A **[[judgment]]** or _[[hypothetical judgment]]_ is symbols of the form $\Gamma \vdash \mathcal{J}$, where $\Gamma$ is a valid context --  a [[sequent]].  Different type theories allow different things in the place of $\mathcal{J}$, but the most common are *typing declarations* and *equalities* between terms of the same type.  For example, the judgment
-  $$ x:N, y:N \vdash x+y :N $$
+  $$ x:\mathbb{N}, y:\mathbb{N} \vdash x+y :\mathbb{N} $$
   asserts that any two natural numbers have a sum, which is also a natural number.  Similarly, 
-  $$ x:N, y:N, z:N \vdash (x+y)+z = x+(y+z) :N $$
+  $$ x:\mathbb{N}, y:\mathbb{N}, z:\mathbb{N} \vdash (x+y)+z = x+(y+z)$$
   asserts that natural number addition is associative.
 
 * A **rule** asserts that if some given list of judgments are valid, then so is another one of a specified form derived from them.  Of course, to be interesting such rules must contain "meta-variables" which range over contexts, types, or terms.  Rules are generally written in the following form:
