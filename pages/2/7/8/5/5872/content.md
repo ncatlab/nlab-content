@@ -1,15 +1,27 @@
 
-* [website](http://www.adelaide.edu.au/directory/mathai.varghese)
+* [institute page](https://www.adelaide.edu.au/directory/mathai.varghese)
+
+* [Wikipedia entry ](https://en.wikipedia.org/wiki/Varghese_Mathai)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=62771)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=nDdQreMAAAAJ&hl=en)
 
 ## Selected writings
+
 
 On [[equivariant de Rham cohomology]]
 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], _Superconnections, Thom classes and equivariant differential forms_, Topology 25, 85 (1986)  (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">doi:10.1016/0040-9383(86)90007-8</a>)
 
-On [[non-commutative geometry]]-deformation of the [[self-dual higher gauge theory]] as it appears on the [[M5-brane]] [[worldvolume]], and its [[S-duality]]:
+Early discussion of [[orbifold K-theory]] via [[C-star algebras|$C^\ast$-algebras]]:
 
-* {#MathaiSati14} [[Varghese Mathai]], [[Hisham Sati]], _Higher abelian gauge theory associated to gerbes on noncommutative deformed M5-branes and S-duality_, J. Geom. Phys. 92:240-251, 2015 ([arXiv:1404.2257](https://arxiv.org/abs/1404.2257))
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted higher index theory on good orbifolds and fractional quantum numbers* &lbrack;[arXiv:math/9803051](https://arxiv.org/abs/math/9803051)&rbrack;
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted index theory on good orbifolds, I: noncommutative Bloch theory*, Communications in Contemporary Mathematics **1** 4 (1999) 553-587 &lbrack;[arXiv:math/9911102v1](https://arxiv.org/abs/math/9911102), [doi:10.1142/S0219199799000213](https://doi.org/10.1142/S0219199799000213)&rbrack;
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted higher index theory on good orbifolds, II: fractional quantum numbers*, Commun. Math. Phys. **217** 1 (2001) 55-87 &lbrack;[arXiv:math/9911103](https://arxiv.org/abs/math/9911103), [doi:10.1007/s002200000351](https://doi.org/10.1007/s002200000351)&rbrack;
+
 
 On [[topological T-duality]]:
 
@@ -19,6 +31,7 @@ On [[topological T-duality]]:
 
 * [[Varghese Mathai]], [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv:hep-th/0401168](http://arxiv.org/abs/hep-th/0401168))
 
+
 On the [[fractional quantum Hall effect]] via [[noncommutative geometry]]:
 
 * [[Matilde Marcolli]], [[Varghese Mathai]]: *Towards the fractional quantum Hall effect: a noncommutative geometry perspective*, in *Noncommutative Geometry and Number Theory*, Vieweg (2006) \[<a href="https://doi.org/10.1007/978-3-8348-0352-8_12">doi:10.1007/978-3-8348-0352-8_12</a>, <a href="https://arxiv.org/abs/cond-mat/0502356">arXiv:cond-mat/0502356</a>\]
@@ -27,6 +40,13 @@ On the [[fractional quantum Hall effect]] via [[noncommutative geometry]]:
 On [[analytic torsion]] and [[twisted de Rham cohomology]]:
 
 * [[Varghese Mathai]], [[Siye Wu]], _Analytic torsion for twisted de Rham complexes_, J. Diff. Geom. 88:297-332, 2011 ([arXiv:0810.4204](https://arxiv.org/abs/0810.4204))
+
+
+On [[non-commutative geometry]]-deformation of the [[self-dual higher gauge theory]] as it appears on the [[M5-brane]] [[worldvolume]], and its [[S-duality]]:
+
+* {#MathaiSati14} [[Varghese Mathai]], [[Hisham Sati]], _Higher abelian gauge theory associated to gerbes on noncommutative deformed M5-branes and S-duality_, J. Geom. Phys. **92** (2015) 240-251 &lbrack;[arXiv:1404.2257](https://arxiv.org/abs/1404.2257)&rbrack;
+
+
 
 On a twisted equivariant version of the [[Bismut-Chern character]]:
 
