@@ -1196,7 +1196,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-In words this means that the Hochschild complex is obtained froms the bar complex by "gluing the two ends of a sequence of elements of $A$ to a circle by a bimodule".
+In words this means that the Hochschild complex is obtained from the bar complex by "gluing the two ends of a sequence of elements of $A$ to a circle by a bimodule".
 
 The fact that the circle appears here has in fact a deep significance: the Hochschild chain complex may be understood in [[higher geometry]] as encoding functions on a [[free loop space object]] of whatever $A$ behaves like being functions on.
 
