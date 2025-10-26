@@ -9,6 +9,11 @@
 
 ## Selected writings
 
+On [[homotopy theory]] and [[algebraic topology]]:
+
+* [[Emanuel Malek]]: *Topology and Geometry for physicists*, Proceedings of Science **323** (2018) \[<a href="https://doi.org/10.22323/1.323.0002">doi:10.22323/1.323.0002</a>, [pdf](https://pos.sissa.it/323/002/pdf)\]
+
+
 Generalization of [[Poisson-Lie T-duality]] to [[U-duality]] in [[exceptional generalized geometry]]:
 
 * [[Emanuel Malek]], [[Daniel C. Thompson]], _Energy Physics - Theory Poisson-Lie U-duality in Exceptional Field Theory_, JHEP 0420 (2020) 058 &lbrack;[arxiv:1911.07833](https://arxiv.org/abs/1911.07833)&rbrack;
