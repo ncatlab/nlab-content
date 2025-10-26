@@ -39,7 +39,7 @@ In [[dependent type theory]], given a type $T$ and a type family $x:T \vdash P(x
 
 $$\exists!\, x\colon T. P(x) \coloneqq \mathrm{isContr}\left(\sum_{x:T} P(x)\right)$$
 
-which indicates that the [[dependent sum type]] $\sum_{x:T} P(x)$ is a [[contractible type]], which is only the case for a family of type if every dependent type is a mere proposition and, for exactly one element $x:T$ up to identity, the type $P(x)$ is inhabited. 
+which indicates that the [[dependent sum type]] $\sum_{x:T} P(x)$ is a [[contractible type]]. When $P$ is propositionally valued one can show that this definition is equivalent to other more naive notions of unique existence. One example of such a notion is mere existence and mere uniqueness defined in terms of propositional truncation. 
 
 ## Usages
 
