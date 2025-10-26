@@ -26,7 +26,7 @@ My first two papers were on the exponential law for topological spaces, and led 
 
 * Seifert van Kampen Theorems 
 
-This has been a major area of work, starting with the theorem for the fundamental groupoid on a _set_ of base points, instead of just the fundamental group, (8). This use of groupoids was publicised in a book published  in 1968 as "Elements of Modern Topology" and now in its third revised edition, published in 2006,  as [Topology and Groupoids](http://groupoids.org.uk/topgpds.html). 
+This has been a major area of work, starting with the theorem for the fundamental groupoid on a _set_ of base points, instead of just the fundamental group, (8). This use of groupoids was publicised in a book published  in 1968 as "Elements of Modern Topology" and now in its third revised edition, re-published as "*Topology and Groupoids*", [Brown 2006](#Brown06).
 
 The writing of this book led to the notion that all of 1-dimensional homotopy theory was better expressed in terms of groupoids rather than groups, and hence to the question of whether groupoids can be useful, or not, in higher dimensional homotopy theory.  A clue was that whereas group objects internal to groups were just abelian groups, this was not so for group objects internal to groupoids, or the equivalent groupoid objects internal to groups. So there was a possibility of realising the dreams of the algebraic topologists of the early 20th century of finding higher dimensional versions of the fundamental group, since it was recognised that the nonabelian nature of the fundamental group was of importance in problems of geometry and analysis. 
 
@@ -79,6 +79,8 @@ For more information, see the entry on [[nonabelian algebraic topology]].
 On [[general topology]] and basic [[homotopy theory]] ([[fundamental groupoids]] and [[covering spaces]]):
 
 * [[Ronald Brown]]: *Elements of Modern Topology*, McGrawHill (1968) \[ISBN:9780070940598, <a href="https://archive.org/details/elementsofmodern0000rona/page/n1/mode/2up">ark:/13960/s26wmm5260h</a>, [[Brown-Topology.pdf:file]]\]
+
+* {#Brown06} [[Ronald Brown]]: *Topology and Groupoids*, Booksurge (2006) &lbrack;[webpage](https://groupoids.org.uk/topgpds.html), [pdf](https://groupoids.org.uk/pdffiles/topgrpds-e.pdf), [pdf](https://www.sas.rochester.edu/mth/sites/doug-ravenel/otherpapers/rbrown-topgrpds-e.pdf)&rbrack;
 
 Discussion of [[exponential law for spaces|exponential objects]] in [[slice categories]] of [[compactly generated topological spaces]] (towards [[locally cartesian closed category|local cartesian closure]]):
 
