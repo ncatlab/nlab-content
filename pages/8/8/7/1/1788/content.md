@@ -5,3 +5,12 @@
 
 ***
 
+coreflection $\mathcal{C}$ on p. 6
+
+$Map_{\mathcal{C}}$ Lemma 3.8 on p. 8.
+
+$Map_{\mathcal{C}}[Y,Z]$ on p. 9
+
+$[X \Rightarrow_{\mathcal{C}} Y] = \mathcal{C}\big(Map_{\mathcal{C}}[X,Y]\big)$ on bottom of p. 14
+
+For $\mathcal{C}$-generated spaces, $Map_{\mathcal{C}}[X,Y] = [X \Rightarrow_{\ll_{\mathcal{C}}} Y]$ (page 21, Prop. 5.21)
