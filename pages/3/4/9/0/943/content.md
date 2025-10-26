@@ -275,7 +275,7 @@ See also:
 
 * {#Booth} Peter I. Booth,  _The exponential law of maps. II._  Math. Z. 121:4 (1971), 311–319.  [doi](https://doi.org/10.1007/bf01109977).
 
-* {#BT} P. Booth, ; Tillotson, J., _Monoidal closed, Cartesian closed and convenient categories of topological spaces_. Pacific J. Math. 88:1 (1980), 35--53.  [doi](https://doi.org/10.2140/pjm.1980.88.35), [euclid](http://projecteuclid.org/euclid.pjm/1102779712).
+* {#BT} P. Booth;  J. Tillotson, _Monoidal closed, Cartesian closed and convenient categories of topological spaces_. Pacific J. Math. 88:1 (1980), 35--53.  [doi](https://doi.org/10.2140/pjm.1980.88.35), [euclid](http://projecteuclid.org/euclid.pjm/1102779712).
 
 * Michael Crabb, [[Ioan James]] ,  _Fibrewise homotopy theory_.   Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. viii+341 pp. ISBN: 1-85233-014-7.  [doi](https://doi.org/10.1007/978-1-4471-1265-5) {#CrabbJames}
 
@@ -284,7 +284,7 @@ See also:
 
 survey in: _Convenient topology --  a new branch of topology_ ([web](http://at.yorku.ca/i/a/a/c/54.htm))
 
-* {#Brown06} [[Ronnie Brown]] _[[Topology and Groupoids]]_, Booksurge (2006), Section 5.9: Spaces of functions and the compact-open topology. 
+* {#Brown06} [[Ronnie Brown]],  [[Topology and Groupoids]]_, Booksurge (2006), Section 5.9: Spaces of functions and the compact-open topology. 
 
 Discussion via [[topos theory]]:
 
