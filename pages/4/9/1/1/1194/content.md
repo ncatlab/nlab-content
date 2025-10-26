@@ -231,7 +231,7 @@ $$
   \Pi_{x:A} C(x)
 $$ 
 
-regarded as the _type of functions_ $f$ such that for any $x\in A$, we have $f(x)\in B(x)$.  This right adjoint exists in any [[locally cartesian closed category]] $\mathcal{C}$.
+regarded as the _type of functions_ $f$ such that for any $x : A$, we have $f(x) : C(x)$.  This right adjoint exists in any [[locally cartesian closed category]] $\mathcal{C}$.
 
 
 ### Logic versus type theory in categorical semantics
