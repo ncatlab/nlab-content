@@ -373,7 +373,7 @@ $$
 
 ### General
 
-$\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a [[nice category of spaces]] for [[homotopy theory]].  
+$\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a [[nice category of spaces]] for [[homotopy theory]]:  
 
 * {#Smith} [[Jeff Smith]], _A really convenient category of topological spaces_ (unpublished and possibly non-existent, according to [Dugger 03, p. 4](#Dugger03))
 
@@ -381,34 +381,35 @@ $\Delta$-generated spaces were originally proposed by [[Jeff Smith]] as a [[nice
 
 A [[proof]] that the category of $\Delta$-generated spaces is [[locally presentable category|locally presentable]] is in:
 
-* {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], Thm. 3.6 of: _A convenient category for directed homotopy_, Theory and Applications of Categories, Vol. 21, 2008, No. 1, pp 7-20. ([arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html))
+* {#FajstrupRosicky08} [[Lisbeth Fajstrup]], [[Jiří Rosický]], Thm. 3.6 of: _A convenient category for directed homotopy_, Theory and Applications of Categories **21** 1 (2008)  7-20 &lbrack;[arXiv:0708.3937](https://arxiv.org/abs/0708.3937), [tac:21-01](http://www.tac.mta.ca/tac/volumes/21/1/21-01abs.html)&rbrack;
 
 See also at _[[directed homotopy theory]]_.
 
 The [[model structure on Delta-generated topological spaces]] [[Quillen equivalence|Quillen equivalent]] to the [[classical model structure on topological spaces]] is due to 
 
-*  {#Haraguchi13} [[Tadayuki Haraguchi]], _On model structure for coreflective subcategories of a model category_, Math. J. Okayama Univ.57(2015), 79–84 ([arXiv:1304.3622](http://arxiv.org/abs/1304.3622), MR3289294, Zbl 1311.55027)
+*  {#Haraguchi13} [[Tadayuki Haraguchi]]: _On model structure for coreflective subcategories of a model category_, Math. J. Okayama Univ. **57** (2015) 79–84 &lbrack;[arXiv:1304.3622](http://arxiv.org/abs/1304.3622), MR3289294, Zbl 1311.55027)&rbrack;
 
 
 Discussion in the generality of subcategory-generated spaces, including [[compactly generated topological spaces]]:
 
-* {#Gaucher07} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories, vol. 22, number 22, 588-621, 2009 ([arXiv:0710.3553](https://arxiv.org/abs/0710.3553))
+* {#Gaucher07} [[Philippe Gaucher]], Section 2 of: *Homotopical interpretation of globular complex by multipointed d-space*, Theory and Applications of Categories **22** 22 (2009) 588-621&lbrack;[arXiv:0710.3553](https://arxiv.org/abs/0710.3553)&rbrack;
 
 along the lines of
 
-* {#Vogt71} [[Rainer M. Vogt]], *Convenient categories of topological spaces for homotopy theory*,  Arch. Math 22, 545–555 (1971) ([doi:10.1007/BF01222616](https://doi.org/10.1007/BF01222616))
+* {#Vogt71} [[Rainer M. Vogt]]: *Convenient categories of topological spaces for homotopy theory*,  Arch. Math **22** (1971) 545–555 &lbrack;[doi:10.1007/BF01222616](https://doi.org/10.1007/BF01222616)&rbrack;
 
-* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], Section 3 of: *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications Volume 143, Issues 1–3, 28 August 2004, Pages 105-145 ([doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011))
+* {#EscardoLawsonSimpson04} [[Martín Escardó]], [[Jimmie Lawson]], [[Alex Simpson]], Section 3 of: *Comparing Cartesian closed categories of (core) compactly generated spaces*, Topology and its Applications **143** 1–3 (2004) 105-145 &lbrack;[doi:10.1016/j.topol.2004.02.011](https://doi.org/10.1016/j.topol.2004.02.011)&rbrack;
 
 Discussion about the [[q-model structure]], the [[m-model structure]], the [[h-model structure]] and the notion of $\Delta$-Hausdorff $\Delta$-generated space (a natural separation condition for $\Delta$-generated spaces) in:
 
-* {#Gaucher21} [[Philippe Gaucher]], Section 2 and Appendix B of: *Left properness of flows*, Theory and Applications of Categories, **37** 19 (2021) 562-612  ([arXiv:1907.01454](https://arxiv.org/abs/1907.01454), [TAC:37-19](http://www.tac.mta.ca/tac/volumes/37/19/37-19abs.html))
+* {#Gaucher21} [[Philippe Gaucher]], Section 2 and Appendix B of: *Left properness of flows*, Theory and Applications of Categories, **37** 19 (2021) 562-612 &lbrack;[arXiv:1907.01454](https://arxiv.org/abs/1907.01454), [tac:37-19](http://www.tac.mta.ca/tac/volumes/37/19/37-19abs.html)&rbrack
+
 
 ### Relation to diffeological spaces
 
 Relation to [[diffeological spaces]]:
 
-* {#SYH10} [[Kazuhisa Shimakawa]], K. Yoshida, [[Tadayuki Haraguchi]], _Homology and cohomology via enriched bifunctors_, Kyushu Journal of Mathematics, 2018 Volume 72 Issue 2 Pages 239-252 ([arXiv:1010.3336](https://arxiv.org/abs/1010.3336), [doi:10.2206/kyushujm.72.239]( https://doi.org/10.2206/kyushujm.72.239))
+* {#SYH10} [[Kazuhisa Shimakawa]], K. Yoshida, [[Tadayuki Haraguchi]], _Homology and cohomology via enriched bifunctors_, Kyushu Journal of Mathematics **72** 2 (2018) 239-252 &lbrack;[arXiv:1010.3336](https://arxiv.org/abs/1010.3336), [doi:10.2206/kyushujm.72.239](https://doi.org/10.2206/kyushujm.72.239)&rbrack;
 
 * {#CSW13} [[J. Daniel Christensen]], [[Gord Sinnamon]], [[Enxin Wu]], Sec. 3.2 of: _The $D$-topology for diffeological spaces_, Pacific Journal of Mathematics **272**  1 (2014) 87-110 &lbrack;[arXiv:1302.2935](http://arxiv.org/abs/1302.2935), [doi:10.2140/pjm.2014.272.87](https://msp.org/pjm/2014/272-1/p04.xhtml)&rbrack;
 
