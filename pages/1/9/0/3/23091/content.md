@@ -40,6 +40,9 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * {#Bredon93} [[Glen Bredon]], Chapter VII of: _Topology and Geometry_, Graduate texts in mathematics **139**, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0),  [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
 
+* [[Albert S. Schwarz]]: *Topology for Physicists*, Grundlehren der mathematischen Wissenschaften **308**, Springer (1994) \[<a href="https://doi.org/10.1007/978-3-662-02998-5">doi:10.1007/978-3-662-02998-5</a>\] 
+  > (with an eye towards application to [[topological quantum field theory]] and [[topological phases of matter]])
+
 * [[Hans-Joachim Baues]], _Homotopy types_, in [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland, 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
 
 
@@ -54,6 +57,7 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * [[Anatoly Fomenko]], [[Dmitry Fuchs]]: *Homotopical Topology*, Graduate Texts in Mathematics **273**, Springer (2016) \[<a href="https://doi.org/10.1007/978-3-319-23488-5">doi:10.1007/978-3-319-23488-5</a>, <a href="https://www.cimat.mx/~gil/docencia/2020/topologia_diferencial/[Fomenko,Fuchs]Homotopical_Topology(2016).pdf">pdf</a>\]
 
+* [[Emanuel Malek]]: *Topology and Geometry for physicists*, Proceedings of Science **323** (2018) \[<a href="https://doi.org/10.22323/1.323.0002">doi:10.22323/1.323.0002</a>, [pdf](https://pos.sissa.it/323/002/pdf)\]
 
 * [[Dai Tamaki]], *Fiber Bundles and Homotopy*, World Scientific (2021) \[<a href="https://doi.org/10.1142/12308">doi:10.1142/12308</a>\]
   > (motivated from [[classifying spaces]] for [[principal bundles]]/[[fiber bundles]])
