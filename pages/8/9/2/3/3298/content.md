@@ -1169,7 +1169,7 @@ $$
   \sim
   (a_{n+1} \nu a_{0}, (1, a_1, \cdots, a_n, 1))
   \mapsto
-  (a_0 \nu a_{n+1}, a_1, \cdots, a_n)
+  (a_{n+1} \nu a_0, a_1, \cdots, a_n)
   \,.
 $$
 
