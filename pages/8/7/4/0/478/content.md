@@ -49,7 +49,7 @@ If we wish to extend this treatment to types which are [[propositions]], we migh
 
 ## References
 
-The term "generalized the" was introduced by [[James Dolan]] and may first appear in print here:
+The term "generalized the" was introduced by [[James Dolan]] and first appeared in print here:
 
 * [[John Baez]], *Higher-dimensional algebra II: 2-Hilbert spaces*, Adv. Math. 127 (1997), 125-189.  ([arXiv:q-alg/9609018](http://arxiv.org/abs/q-alg/9609018))
 
