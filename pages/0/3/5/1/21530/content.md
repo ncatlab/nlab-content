@@ -61,22 +61,28 @@ This is the approach taken in [Adem & Ruan 01, Def. 3.4](#AdemRuan01).
 
 ### General
 
-The definition originates, via [[bundle gerbes]] and [[bundle gerbe modules]] on [[Lie groupoids]], in: 
+Early discussion via [[C-star algebras|$C^\ast$-algebras]]:
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted higher index theory on good orbifolds and fractional quantum numbers* &lbrack;[arXiv:math/9803051](https://arxiv.org/abs/math/9803051)&rbrack;
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted index theory on good orbifolds, I: noncommutative Bloch theory*, Communications in Contemporary Mathematics **1** 4 (1999) 553-587 &lbrack;[arXiv:math/9911102v1](https://arxiv.org/abs/math/9911102), [doi:10.1142/S0219199799000213](https://doi.org/10.1142/S0219199799000213)&rbrack;
+
+* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted higher index theory on good orbifolds, II: fractional quantum numbers*, Commun. Math. Phys. **217** 1 (2001) 55-87 &lbrack;[arXiv:math/9911103](https://arxiv.org/abs/math/9911103), [doi:10.1007/s002200000351](https://doi.org/10.1007/s002200000351)&rbrack;
+
+
+Incorporating the twist via [[bundle gerbes]] and [[bundle gerbe modules]] on [[Lie groupoids]]:
 
 * {#LupercioUribe01} [[Ernesto Lupercio]], [[Bernardo Uribe]], *Gerbes over Orbifolds and Twisted K-theory*, Comm. Math. Phys. **245** (2004) 449-489.  &lbrack;[arXiv:math/0105039](http://arxiv.org/abs/math/0105039), [doi:10.1007/s00220-003-1035-x](https://doi.org/10.1007/s00220-003-1035-x)&rbrack;
 
 * [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]]: *Twisted K-theory of differentiable stacks*, Annales Scientifiques de l’École Normale Supérieure **37** 6 (2004) 841-910 &lbrack;[arXiv:math/0306138](https://arxiv.org/abs/math/0306138), [doi:10.1016/j.ansens.2004.10.002](https://doi.org/10.1016/j.ansens.2004.10.002)&rbrack;
 
-
 The definition of the K-theory of [[global quotient orbifolds]] as the [[twisted equivariant K-theory]] of the [[universal covering space]]:
 
 * {#AdemRuan01} [[Alejandro Adem]], [[Yongbin Ruan]]: *Twisted Orbifold K-Theory*, Commun. Math. Phys. **237** (2003) 533-556 &lbrack;[arXiv:math/0107168](https://arxiv.org/abs/math/0107168), [doi:10.1007/s00220-003-0849-x](https://doi.org/10.1007/s00220-003-0849-x)&rbrack;
 
-Review:
-
 * {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]]: *Orbifold K-Theory*, chapter 3 of: _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) &lbrack;[doi:10.1017/CBO9780511543081.004](https://doi.org/10.1017/CBO9780511543081.004), [[AdemLeidaRuan-OrbifoldKTheory.pdf:file]]&rbrack;
  
-The general [[proof]] that this is well-defined (independent of the realization of the orbifold as a [[global quotient orbifold|global quotient]]):
+The general observation that this is well-defined (independent of the realization of the orbifold as a [[global quotient orbifold|global quotient]]):
 
 * {#PronkScull07} [[Dorette Pronk]], [[Laura Scull]], Section 4 of: _Translation Groupoids and Orbifold Bredon Cohomology_, Canad. J. Math. **62** (2010) 614-645 &lbrack;[arXiv:0705.3249](https://arxiv.org/abs/0705.3249), [doi:10.4153/CJM-2010-024-1](https://doi.org/10.4153/CJM-2010-024-1)&rbrack;
 
@@ -89,6 +95,8 @@ Review in:
 * {#Freed12} [[Daniel Freed]], Lecture 1 of: _Lectures on twisted K-theory and orientifolds_, lecures at _[K-Theory and Quantum Fields](http://www.esi.ac.at/activities/events/2012/k-theory-and-quantum-fields)_, ESI (2012) &lbrack;[[FreedESI2012.pdf:file]]&rbrack;
 
 * [[Joost Nuiten]], Section 3.2.2 of: _[[schreiber:master thesis Nuiten|Cohomological quantization of local prequantum boundary field theory]]_ MSc thesis, Utrecht (August 2013) &lbrack;[pdf](http://ncatlab.org/schreiber/files/thesisNuiten.pdf)&rbrack;
+
+* {#Gomi17} [[Kiyonori Gomi]]: _Freed-Moore K-theory_ &lbrack;[arXiv:1705.09134](https://arxiv.org/abs/1705.09134), [spire:1601772](http://inspirehep.net/record/1601772)&rbrack;
 
 * [[Valentin Zakharevich]], Sections 2.2, 2.3 of: _K-Theoretic Computation of the Verlinde Ring_, PhD thesis (2018) &lbrack;[hdl:2152/67663](http://hdl.handle.net/2152/67663), [pdf](http://www.math.jhu.edu/~vzakharevich/research/Dissertation.pdf), [[ZakharevichKTheoryAndVerlindeRing.pdf:file]]&rbrack;
 
@@ -114,9 +122,6 @@ See also:
 
 * Carla Farsi: *K-Theoretical Index Theorems for Good Orbifolds*, Proceedings of the AMS **115** 3 (1992) 769-773 &lbrack;[doi:10.2307/2159225](https://doi.org/10.2307/2159225), [jstor:2159225](https://www.jstor.org/stable/2159225)&rbrack;
 
-* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted higher index theory on good orbifolds and fractional quantum numbers* &lbrack;[arXiv:math/9803051](https://arxiv.org/abs/math/9803051)&rbrack;
-
-* [[Matilde Marcolli]], [[Varghese Mathai]]: *Twisted index theory on good orbifolds, I: noncommutative Bloch theory*, Communications in Contemporary Mathematics **1** 4 (1999) 553-587 &lbrack;[arXiv:math/9911102v1](https://arxiv.org/abs/math/9911102v1)&rbrack;
 
 
 
