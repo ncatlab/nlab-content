@@ -10,6 +10,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -137,11 +138,11 @@ $$
  {#AsAConvenientCategoryOfTopologicalSpaces}
 
 \begin{prop}\label{CartesianClosure}
-  The [[category]] of [[Euclidean-generated spaces]]/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) is a [[Cartesian closed category]]. 
+  The [[category]] of [[D-topological spaces]]/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) is a [[Cartesian closed category]]. 
 
 Explicitly, the [[internal hom]] $Maps_{DTop}$ is, equivalently:
 
-* the image under $Cdfflg$  (eq:AdjointFunctorsBetweenTopSpAndDifflgSp) of the [[mapping space]] $Maps_{Top}(X,Y)$ with the [[compact-open topology]]:
+* the image under $Cdfflg$  (eq:DeltaGeneratedSpacesInIdempotentAdjunction) of the [[mapping space]] $Maps_{Top}(X,Y)$ with the [[compact-open topology]]:
 
   $$
     Maps_{DTop}(X,Y)
@@ -177,8 +178,11 @@ Explicitly, the [[internal hom]] $Maps_{DTop}$ is, equivalently:
 
 
 \end{prop}
-The first statement is a special case of [Vogt 1971, Thm. 3.6](#Vogt71), as highlighted in [Gaucher 2007, Sec. 2](#Gaucher07).
+\begin{proof}
+The first statement is a special case of [Vogt 1971, Thm. 3.6](#Vogt71), as highlighted in [Gaucher 2007, Sec. 2](#Gaucher07). It is also implicit in [Escardo, Lawson & Simpson 2004](convenient+category+of+topological+spaces#EscardoLawsonSimpson04) (where "$Cdfflgcl$" is denoted "$\mathcal{C}(-)$" on p. 6, "$Maps_{Top}$" is denoted "$[X \Rightarrow_{\ll_{\mathcal{C}}} Y]$" in Rem. 5.20, "$Maps_{DTop}$" is denoted "$[X \Rightarrow_{\mathcal{C}} Y] = \mathcal{C}\big(Map_{\mathcal{C}}[X,Y]\big)$" on bottom of p. 14, where "$Map_{\mathcal{C}}$" is defined in Lemma 3.8, and finally the statement $Map_{\mathcal{C}}[X,Y] = [X \Rightarrow_{\ll_{\mathcal{C}}} Y]$ is Prop. 5.21 on p. 21).
+
 The second statement is the image of [SYH 10, Prop. 4.7](#SYH10) under $Dtplg$ (using that $\nu = T \circ D$, in their notation from p. 4).
+\end{proof}
 
 In fact, [SYH 10, Prop. 4.7](#SYH10) state something stronger, topologically characterizing $Maps_{Dfflg}(X,Y)$ even before applying $Dtplg$ to it. This stronger statement has a nice form when specialized to [[CW-complexes]]:
 
