@@ -67,6 +67,8 @@ The **Category Theory** (or simply **CT**) conference is an international annual
 
 * [Séminaire Itinérant des Catégories](http://www-lmpa.univ-littoral.fr/SIC/)
 
+* [[Applied Category Theory conference]]
+
 * [[events of interest for the working category theorist]]
 
 * [[Oberwolfach]]
