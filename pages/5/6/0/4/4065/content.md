@@ -147,6 +147,11 @@ Relation to [[Seiberg-Witten theory]]:
 
 * Shun'ya Mizoguchi, Takumi Oikawa, Hitomi Tashiro, Shotaro Yata, *More on Seiberg-Witten Theory and Monstrous Moonshine* &lbrack;[arXiv:2211.07251](https://arxiv.org/abs/2211.07251)&rbrack;
 
+See also:
+
+* Roberta Angius, Stefano Giaccari, Sarah M. Harrison, Roberto Volpato: *Non-invertible defects from the Conway SCFT to K3 sigma models I: general results* &lbrack;[arXiv:2504.18619](https://arxiv.org/abs/2504.18619)&rbrack;
+
+
 
 
 
