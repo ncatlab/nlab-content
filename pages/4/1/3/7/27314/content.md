@@ -251,6 +251,24 @@ $$
   \mathrlap{\,.}
 $$
 
+## Inhomogenous Yang-Mills-Higgs equations
+
+For a [[principal connection]] $B\in\Omega^1_{conn}(P)$ and a [[smooth section]] $\Psi\in\Gamma^\infty(Ad_P)$, one can consider the *inhomogenous Yang-Mills-Higgs equations*:
+\[
+  \label{inhomYMHEquations}
+  \begin{array}{ccc}
+    \delta_A F_A
+    +[\Phi,\mathrm{d}_A\Phi]
+    &=&
+    B
+    \\
+    \delta_A\mathrm{d}_A\Phi
+    &=&
+    \Psi
+    \mathrlap{\,.}
+  \end{array}
+\]
+
 
 ## Related entries
 
@@ -279,3 +297,17 @@ See also:
 [[!redirects YMH equations]]
 [[!redirects YMH pair]]
 [[!redirects YMH pairs]]
+
+[[!redirects inhomogenous Yang-Mills-Higgs equation]]
+[[!redirects inhomogenous Yang-Mills-Higgs equations]]
+[[!redirects inhomogenous Yang-Mills-Higgs pair]]
+[[!redirects inhomogenous Yang-Mills-Higgs pairs]]
+[[!redirects inhomogenous YMH equation]]
+[[!redirects inhomogenous YMH equations]]
+[[!redirects inhomogenous YMH pair]]
+[[!redirects inhomogenous YMH pairs]]
+
+[[!redirects Yang-Mills-Higgs action]]
+[[!redirects Yang-Mills-Higgs action functional]]
+[[!redirects YMH action]]
+[[!redirects YMH action functional]]
