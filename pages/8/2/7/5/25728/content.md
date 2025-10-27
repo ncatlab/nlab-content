@@ -1,5 +1,11 @@
 
+Philip Warren Anderson (1923-2020)
+
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Philip_W._Anderson)
+
+* Premala Chandra, Piers Coleman, Clare C. Yu: *Philip Warren Anderson*, Biographical Memoirs of Fellows of the Royal Society &lbrack;[arXiv:2510.20865](https://arxiv.org/abs/2510.20865)&rbrack;
+
 
 ## Selected writings
 
