@@ -76,7 +76,7 @@ See [[descent for simplicial presheaves]] for more on the manipulations involved
 
 To amplify, a general [[hypercover]] would start in degree 0 with a $U$ as above, but then in the next degree would have a cover $V \to U \times_X U$ of the fiber product, and so on, each fiber product in turn being covered by another space.
 
-If $Y$ is not simply a [[Čech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **&#268;ech cover of level $n$** and of the corresponding cohomology formula as **higher &#268;ech cohomology**. See for instance the reference by Tibor Beke below.
+If $Y$ is not simply a [[Čech cover]] but also not the most general [[hypercover]] in that this iterative choice of further covering stops in degree $n$, then one also speaks of **Čech cover of level $n$** and of the corresponding cohomology formula as **higher Čech cohomology** (cf. [Beke 2004](#Beke04)).
 
 
 
@@ -1210,7 +1210,7 @@ Historical survey:
 
 Textbook account:
 
-* [[Torsten Wedhorn]], *Torsors and Non-abelian Čech Cohomology*, chapter 7 in: *Manifolds, Sheaves, and Cohomology*, Springer (2016) &lbrack;[doi:10.1007/978-3-658-10633-1](https://doi.org/10.1007/978-3-658-10633-1)&rbrack;
+* [[Torsten Wedhorn]]: *Torsors and Non-abelian Čech Cohomology*, chapter 7 in: *Manifolds, Sheaves, and Cohomology*, Springer (2016) &lbrack;[doi:10.1007/978-3-658-10633-1](https://doi.org/10.1007/978-3-658-10633-1)&rbrack;
 
 Exposition in the context of [[Dirac charge quantization]], hence for [[coefficients]] a [[Deligne complex]]:
 
@@ -1223,7 +1223,7 @@ and via [[complex analytic geometry]]:
 
 A discussion of &#268;ech cohomology in the wider context of [[cohomology]] particularly realized in terms of the [[model structure on simplicial presheaves]] and with an emphasis on the shades of notions between [[Čech cover]] and [[hypercover]] is
 
-* [[Tibor Beke]], _Higher &#268;ech theory_ ([journal](http://www.math.uiuc.edu/K-theory/0646/), [pdf](http://www.math.uiuc.edu/K-theory/0646/cech.pdf))
+* {#Beke04} [[Tibor Beke]]: *Higher Čech theory*, K-Theory **32** 4 (2004) 293–322 &lbrack;[doi:10.1007/s10977-004-0840-0](http://dx.doi.org/10.1007/s10977-004-0840-0), [pdf](https://faculty.uml.edu/tbeke/cech.pdf)&rbrack;
 
 Abelian &#268;ech cohomology is discussed in some detail in section I.3 of 
 
