@@ -27,17 +27,12 @@ However, note that a generalization from [[Rel]] to the bicategory [[Prof]] of c
 
 ## In dependent type theory
 
-In dependent type theory, the **type-theoretic principle of unique choice** states that the dependent product type of a family of contractible types is pointed. 
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B(x) \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{uniquechoice}(\lambda x.p(x)):\prod_{x:A} B(x)}$$
-
-The [[principle of unique choice]] is not equivalent to [[weak function extensionality]]. Weak function extensionality states that the dependent product type of a family of contractible types is contractible.
-
-$$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma, x:A \vdash B \; \mathrm{type} \quad \Gamma, x:A \vdash p(x):\mathrm{isContr}(B(x))}{\Gamma\vdash \mathrm{weakfunext}(\lambda x.p(x)):\mathrm{isContr}\left(\prod_{x:A} B(x)\right)}$$
-
-Alternatively, one could consider a version of unique choice that is analogous to the set theoretic formulation. That is, given $A : \text{Type}$, $B : A \to \text{Type}$ and $R : (a : A) \to B(a) \to \text{Type}$ one can state unique choice as follows 
+In dependent type theory, unique choice can be formulated as for any $A : \text{Type}$, $B : A \to \text{Type}$ and $R : (a : A) \to B(a) \to \text{Type}$ that
 $$((a : A) \to \exists ! (b : B(a)) , R(a)(b)) \to \exists ! (f : (a : A) \to B(a)) , (a : A) \to R(a)(f(a))$$
-where $\exists ! (x : X) , P(x) \coloneqq \text{is-contr} (\sum_{x : X} P(x))$ (see [[uniqueness quantifier]].) The above is provable in MLTT in the presence of function extensionality (see [ME2019](#ME2019).)
+
+Whether unique choice is provable or not depends mostly on what notion of [[proposition]] is used. It is not provable using the primitive notion of proposition in [[OTT]] or [[Rocq]].
+
+However, if we use the notion of [[mere proposition]] in [[homotopy type theory]] and interpret unique existence as $\exists ! (x : X) , P(x) \coloneqq \text{is-contr} (\sum_{x : X} P(x))$ (see [[uniqueness quantifier]].), then this is provable in MLTT in the presence of [[function extensionality]] (see [ME2019](#ME2019).)
 
 ## Related concepts
 
