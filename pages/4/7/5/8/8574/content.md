@@ -75,6 +75,18 @@ $$
   \,.
 $$
 
+## Inhomogenous Yang-Mills equation
+
+For a [[principal connection]] $B\in\Omega^1_{conn}(P)$, one can consider the *inhomogenous Yang-Mills equations*:
+\[
+  \label{inhomYMEquations}
+  \begin{array}{ccc}
+    \delta_A F_A
+    &=&
+    B
+    \mathrlap{\,.}
+  \end{array}
+\]
 
 ## Related concepts
 
@@ -144,5 +156,21 @@ Another model featuring Yang-Mills fields has been proposed by Curci and Ferrari
 [[!redirects Yang-Mills equations]]
 [[!redirects Yang-Mills connection]]
 [[!redirects Yang-Mills connections]]
+[[!redirects YM equation]]
+[[!redirects YM equations]]
+[[!redirects YM connection]]
+[[!redirects YM connections]]
 
+[[!redirects inhomogenous Yang-Mills equation]]
+[[!redirects inhomogenous Yang-Mills equations]]
+[[!redirects inhomogenous Yang-Mills connection]]
+[[!redirects inhomogenous Yang-Mills connections]]
+[[!redirects inhomogenous YM equation]]
+[[!redirects inhomogenous YM equations]]
+[[!redirects inhomogenous YM connection]]
+[[!redirects inhomogenous YM connections]]
 
+[[!redirects Yang-Mills action]]
+[[!redirects Yang-Mills action functional]]
+[[!redirects YM action]]
+[[!redirects YM action functional]]
