@@ -5,5 +5,4 @@
 
 ***
 
-
-* [[Helmut Eschrig]]: *Topology and Geometry for Physics*, Lecture Notes in Physics, Springer (2011) \[<a href="https://doi.org/10.1007/978-3-642-14700-5">doi:10.1007/978-3-642-14700-5</a>\] 
+...
