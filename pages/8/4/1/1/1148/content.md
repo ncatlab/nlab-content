@@ -312,9 +312,11 @@ $$
 
 Original texts:
 
-* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
+* {#Godement58} [[Roger Godement]], *Topologie algébrique et theorie des faisceaux*, Actualités Sci. Ind. **1252**, Hermann, Paris (1958) &lbrack;[webpage](https://www.editions-hermann.fr/livre/topologie-algebrique-et-theorie-des-faisceaux-roger-godement), [[Godement-TopologieAlgebrique.pdf:file]]&rbrack;
 
 Monographs:
+
+* [[Glen E. Bredon]]: *Sheaf Cohomology*, chapter II of: *Sheaf Theory*, Graduate Texts in Mathematics **170**, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-0647-7](https://doi.org/10.1007/978-1-4612-0647-7)&rbrack;
 
 * [[Ugo Bruzzo]]: _Derived Functors and Sheaf Cohomology_, Contemporary Mathematics and Its Applications: Monographs, Expositions and Lecture Notes: **2**, World Scientific (2020) &lbrack;[doi:10.1142/11473](https://doi.org/10.1142/11473)&rbrack;
 
