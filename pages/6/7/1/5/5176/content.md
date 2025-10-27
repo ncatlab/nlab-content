@@ -91,18 +91,21 @@ Cosheaves of [[algebras]], or notions similar to this, appear in [[AQFT]] as [[l
 * [[presheaf]] /  [[sheaf]] / **cosheaf**
 
 * [[2-sheaf]] / [[stack]] 
+
 * [[(∞,1)-sheaf]] / [[∞-stack]] 
 
 * [[Lawvere distribution]]
 
+* [[Čech homology]]
+
 
 ## References
 
-* [[Glen E. Bredon]], _Sheaf Theory_ , Springer Heidelberg 1997. (chap. V-VI)
+* [[Glen E. Bredon]]: *Cosheaves and Čech Homology*, chapter VI of *Sheaf Theory*, Graduate Texts in Mathematics **170**, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-0647-7](https://doi.org/10.1007/978-1-4612-0647-7)&rbrack;
 
-* [[Marta Bunge]] and [[Jonathon Funk]], _[[Singular coverings of toposes]]_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (sec. 1.4)
+* [[Marta Bunge]] and [[Jonathon Funk]], _Singular coverings of toposes_ , Lecture Notes in Mathematics vol. 1890 Springer Heidelberg (2006). (sec. 1.4)
 
-* [[Justin M. Curry]], _Abstract existence of cosheafification_ ([pdf](https://services.math.duke.edu/~curry/papers/abstract_cosheafification.pdf))
+* Justin M. Curry: _Abstract existence of cosheafification_ ([pdf](https://services.math.duke.edu/~curry/papers/abstract_cosheafification.pdf))
 
 * [[Jonathon Funk]], _The Display Locale of a Cosheaf_ , Cah. Top. G&#233;om. Diff. Cat. **36** (1995) pp.53-93.
 
