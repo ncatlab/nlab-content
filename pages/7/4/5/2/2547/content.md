@@ -1,7 +1,7 @@
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 
 ## Smash product algebra
@@ -26,6 +26,7 @@ and hence the formula for the product above is a tautology: $a h a' h' = a(h_{(1
 
 Similarly, given a right Hopf action of $H$ on $A$, one defines the crossed product algebra $H\sharp A$ whose underlying space is $H\otimes A$. The left and right versions are isomorphic if $H$ has an invertible antipode; this extends the correspondence between the left and right actions obtained by composing with the antipode map. 
 
+
 ### Properties
 
 Every smash product algebra of the form $A\sharp H$ is naturally equipped with a [[monomorphism]] $A\mapsto A\sharp 1\hookrightarrow A\sharp H$ of algebras and with a right $H$-coaction $a\otimes h\mapsto a\otimes \Delta(h)\in (A\sharp H)\otimes H$ making $A\sharp H$ into a right $H$-comodule algebra. Map $\gamma: h\mapsto 1\otimes h$, $H\hookrightarrow A\sharp H$ is then a map of right $H$-comodule algebra (where the coaction on $H$ is $\Delta$), and $A\otimes 1\subset A\sharp H$ is the subalgebra of $H$-coinvariants. 
@@ -34,6 +35,7 @@ If $H$ is a Hopf algebra, then the homomorphism $\gamma$ is a convolution invert
 
 **Proposition** _Let $H$ be a Hopf algebra, $E$ a right $H$-comodule algebra, and $\gamma:H\to E$ a map of right $H$-comodule algebra. Clearly $H$ acts on $E^{co H}$ by $h\triangleright a = \sum \gamma(h_{(1)}) a\gamma(Sh_{(2)})$ for $a\in E^{co H}$ and $h\in H$, where the product on the right-hand side is in $E$. Conclusion: 
 $E\cong E^{co H}\sharp H$ where the smash product is with respect to that action.
+
 
 ## Cocycled crossed product
 
@@ -81,6 +83,7 @@ $$\tau(h,k) = \sum f^{-1}(h_{(1)})[h_{(2)}\triangleright f^{-1}(k_{(1)})]\sigma(
 The isomorphism $i$ is then given by
 $$i(u\sharp_\sigma h) = \sum u f(h_{(1)})\sharp_\tau h_{(2)}$$
 
+
 ## Literature
 
 Related $n$Lab entres include [[cleft extension]], [[crossed product C*-algebra]], [[noncommutative torsor]], [[Hopf-Galois extension]]
@@ -93,11 +96,28 @@ algebra_, Comm. Alg. __17__ (1989), 3053--3085, [MR91k:16027](http://www.ams.org
 rings_, CBMS Regional Conference Series in Mathematics __82__, AMS 1993.
 * S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995.
 
+
 category: algebra, noncommutative geometry
 
+[[!redirects crossed product]]
+[[!redirects crossed products]]
+[[!redirects Hopf crossed product]]
+[[!redirects Hopf crossed products]]
+[[!redirects crossed product algebra]]
 [[!redirects crossed product algebras]]
+
 [[!redirects Hopf smash product]]
+[[!redirects Hopf smash products]]
 [[!redirects smash product algebra]]
+[[!redirects smash product algebras]]
+
 [[!redirects cleft extension]]
+[[!redirects cleft extensions]]
 [[!redirects cleft Hopf-Galois extension]]
+[[!redirects cleft Hopf-Galois extensions]]
+[[!redirects cleft Hopf--Galois extension]]
+[[!redirects cleft Hopf--Galois extensions]]
+[[!redirects cleft Hopf–Galois extension]]
+[[!redirects cleft Hopf–Galois extensions]]
 [[!redirects cleft comodule algebra]]
+[[!redirects cleft comodule algebras]]
