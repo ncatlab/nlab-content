@@ -23,7 +23,7 @@ On [[dualizable objects]], [[traces]] and the [[Becker-Gottlieb transfer]]:
 
 On [[algebraic topology]]:
 
-* {#Dold95} [[Albrecht Dold]], *Lectures on Algebraic Topology*, Springer 1995 ([doi:10.1007/978-3-642-67821-9](https://www.springer.com/gp/book/9783540586609), [pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-67821-9%2F1.pdf))
+* {#Dold95} [[Albrecht Dold]]: *Lectures on Algebraic Topology*, Springer (1995) &lbrack;[doi:10.1007/978-3-642-67821-9](https://www.springer.com/gp/book/9783540586609), [pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-67821-9%2F1.pdf)&rbrack;
 
 
 category: people
