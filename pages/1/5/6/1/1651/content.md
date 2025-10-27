@@ -25,7 +25,7 @@ A [[topological space]] is called **locally path-connected** if it has a [[basis
 +-- {: .num_lemma #InLocallyPathConnectedSpaceThePathConnectedComponentsAreOpen}
 ###### Lemma
 
-Let $X$ be a locally path connected space. Then the path connected component $P_x \subset X$ over any point $x \in X$ is an [[open set]]. 
+Let $X$ be a locally path-connected space. Then the path connected component $P_x \subset X$ over any point $x \in X$ is an [[open set]]. 
 
 =--
 
@@ -122,6 +122,12 @@ The condition is a necessary assumption in the
 in the form of the condition for
 
 * [[semi-locally simply connected topological spaces]]
+
+## References
+
+See also:
+
+* Wikipedia: *[Locally connected space](https://en.wikipedia.org/wiki/Locally_connected_space)*
 
 [[!redirects locally path-connected space]]
 [[!redirects locally path-connected spaces]]
