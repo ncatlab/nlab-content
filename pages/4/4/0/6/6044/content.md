@@ -9,6 +9,8 @@ In general, the term 'cross product' is used for any operation denoted by the sy
 
 However, there is another completely different context, used in the elementary analysis of [[vector spaces]], and that is what we discuss here.  Originally isolated from the multiplication operation in [[quaternions]] as a binary operation on $\mathbb{R}^3 \simeq Im(\mathbb{H})$, the cross product now has generalisations to other arities, other dimensions, and other ground fields.
 
+None of this should be confused with the [[crossed product]] of of a [[Hopf action]].
+
 
 ## Definitions
 
