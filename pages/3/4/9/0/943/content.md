@@ -24,9 +24,8 @@ A primary example is the category of [[compactly generated spaces]], another use
 
 While the authors of this article don't know whether there exists in the literature a widely accepted definition of "convenient category of topological spaces", we propose the following definition as reasonable and convenient (see also the discussion [below](#NvC) on the distinction between "nice" and "convenient"): 
 
-+-- {: .num_defn}
-###### Definition
-
+\begin{definition}
+\label{ConvenientCategory}
 A **convenient category of topological spaces** is a [[full subcategory|full]] [[replete subcategory]] $C$ of the category of all topological spaces [[Top]] such that the following conditions 1-3 hold: 
 
 1. Every [[CW complex]] is an object of $C$; 
@@ -34,7 +33,8 @@ A **convenient category of topological spaces** is a [[full subcategory|full]] [
 2. $C$ is [[cartesian closed]]; 
 
 3. $C$ is [[complete category|complete]] and [[cocomplete category|cocomplete]]. 
-=--
+
+\end{definition}
 
 Frequently it is also felt desirable to add closure under certain types of [[subspaces]]. For instance, in the well-known examples one has 
 
@@ -160,7 +160,37 @@ If $\mathcal{C}$ is a productive class of generating objects (Def. \ref{Producti
 which implies the claim.
 \end{proof}
 
-The other convenience conditions listed in this article (inclusion of [[CW-complexes]], closure under [[closed subspaces]]) are in practice usually satisfied as well. For example, if closed subspaces of objects of $\mathcal{C}$ are $\mathcal{C}$-generated, then closed subspaces of $\mathcal{C}$-generated spaces are also $\mathcal{C}$-generated. If the unit interval $I$ is $\mathcal{C}$-generated, then so are all CW-complexes. 
+The other convenience conditions of Def. \ref{ConvenientCategory} (inclusion of [[CW-complexes]], closure under [[closed subspaces]]) are in practice usually satisfied as well. For example, if closed subspaces of objects of $\mathcal{C}$ are $\mathcal{C}$-generated, then closed subspaces of $\mathcal{C}$-generated spaces are also $\mathcal{C}$-generated. If the unit interval $I$ is $\mathcal{C}$-generated, then so are all CW-complexes. 
+
+Moreover:
+
+\begin{lemma}
+  \label{RetractsOfCGeneratedSpacesAreCGenerated}
+  The category of $\mathcal{C}$-generated spaces is closed under forming [[retracts]].
+\end{lemma}
+\begin{proof}
+ Let $X$ be $\mathcal{C}$-generated and
+\[
+  \label{ARetract}
+  id 
+   \;\colon\;
+  A \xrightarrow{i} X \xrightarrow{r} A
+\]
+a retract, for [[continuous maps]] $i$ and $r$. Consider a [[subset]] $U \subset A$ such that for all $C \in \mathcal{C}$ and all [[continuous maps]] $p \colon C \to A$, the [[preimage]] $p^{-1}(U) \subset C$ is open in $C$. We need to show that then $U$ is already open in $A$.
+
+First note that the [[preimage]] $r^{-1}(U)$ of $U \subset A$ is open in $X$: Namely, for all $C \in \mathcal{C}$ and continuous maps $q \colon C \to X$ we have that $q^{-1}\big(r^{-1}(U)\big) = (r \circ q)^{-1}(U)$ is open in $C$ by assumption on $U$, hence $r^{-1}(U)$ is open in $X$ by the assumption that $X$ is $\mathcal{C}$-generated.
+
+But then the retract property (eq:ARetract) implies that 
+$$
+  U 
+    = 
+  id^{-1}(U)
+    =
+  i^{-1}\big(r^{-1}(U)\big)
+$$
+is the preimage of the open subset $r^{-1}(U)$ under the continuous map $i$, and hence is open.
+\end{proof}
+
 
 ### Subcategories of toposes
  {#ExamplesSubcategoriesOfToposes}
@@ -325,6 +355,7 @@ Discussion via [[topos theory]]:
 Analogous considerations for [[diffeological spaces]] (subsuming [[D-topological spaces]])
 
 * {#KM} [[Andreas Kriegl]]; [[Peter Michor]], _[[The Convenient Setting of Global Analysis]]_, Mathematical Surveys and Monographs **53**, American Mathematical Society (1997) &lbrack;[doi:10.1090/surv/053](https://doi.org/10.1090/surv/053)&rbrack;
+
 
 
 
