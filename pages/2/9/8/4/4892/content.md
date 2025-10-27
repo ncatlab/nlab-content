@@ -46,7 +46,7 @@ we write
   sSet
 \] 
 
-for the [[simplicial set]] which is its [Čech+nerve](Čech+nerve#FromACover):
+for the [[simplicial set]] which is its [Čech nerve](Čech+nerve#FromACover):
 whose $n$-[[simplex|simplices]] are the [[inhabited set|inhabited]] $(n + 1)$-fold [[intersections]] of the [[open subsets]] $U_i$ in $\mathcal{U}$. 
 
 \begin{remark}
@@ -91,6 +91,8 @@ It is to be noted that these groups do not constitute a [[homology theory]] in t
 
 ## Related concepts
 
+* [[cosheaf]]
+
 * [[Čech methods]], [[nerve theorem]]
 
 * [[singular homology]], [[cellular homology]]
@@ -106,7 +108,12 @@ It is to be noted that these groups do not constitute a [[homology theory]] in t
 
 Exposition:
 
-* [[David H. Fremlin]], Section 2 of: _Singular homology for amateurs_ (2016) $[$[pdf](https://www1.essex.ac.uk/maths/people/fremlin/n16703.pdf), [[FremlinSIngularHomology.pdf:file]]$]$
+* [[David H. Fremlin]], Section 2 of: _Singular homology for amateurs_ (2016) &lbrack;[pdf](https://www1.essex.ac.uk/maths/people/fremlin/n16703.pdf), [[FremlinSIngularHomology.pdf:file]]&rbrack;
+
+Monograph:
+
+* [[Glen E. Bredon]]: *Cosheaves and Čech homology*, chapter VI in: *Sheaf Theory*, Graduate Texts in Mathematics **170**, Springer (1997) &lbrack;[doi:10.1007/978-1-4612-0647-7](https://doi.org/10.1007/978-1-4612-0647-7)&rbrack;
+
 
 On [[closed covers]] in Čech homology:
 
