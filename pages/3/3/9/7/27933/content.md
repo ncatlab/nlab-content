@@ -76,7 +76,7 @@ Monographs on [[category theory]]:
 
 * {#Pareigis70} [[Bodo Pareigis]]: *Categories and Functors*, Pure and Applied Mathematics **39**, Academic Press (1970) \[<a href="https://doi.org/10.5282/ubm/epub.7244">doi:10.5282/ubm/epub.7244</a>, [pdf](https://epub.ub.uni-muenchen.de/7244/1/7244.pdf)\]
 
-* {#MacLane97} [[Saunders MacLane]]: _[[Categories for the Working Mathematician]]_, Graduate Texts in Mathematics **5**, Springer (1971, second ed. 1997) \[<a href="https://link.springer.com/book/10.1007/978-1-4757-4721-8">doi:10.1007/978-1-4757-4721-8</a>\]
+* {#MacLane97} [[Saunders MacLane]]: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**, Springer (1971, second ed. 1998) \[<a href="https://link.springer.com/book/10.1007/978-1-4757-4721-8">doi:10.1007/978-1-4757-4721-8</a>\]
 
 * {#Gray74} [[John Gray]]: *[[Adjointness for 2-Categories|Formal category theory: adjointness for $2$-categories]]*, Lecture Notes in Mathematics, **391**, Springer (1974) \[<a href="https://doi.org/10.1007/BFb0061280">doi:10.1007/BFb0061280</a>\] 
   > ([[formal category theory]] in the [[2-category]] [[Cat]])
