@@ -1064,6 +1064,10 @@ Computation of the [[ordinary cohomology]] of [[cyclic loop spaces]] of complex 
 
 * [[Marcel Bökstedt]], [[Iver Ottosen]], *String cohomology groups of complex projective spaces*, Algebr. Geom. Topol. 7(4): 2165-2238 (2007). ([arXiv:math/0605754](https://arxiv.org/abs/math/0605754), [doi:10.2140/agt.2007.7.2165](https://projecteuclid.org/journals/algebraic-and-geometric-topology/volume-7/issue-4/String-cohomology-groups-of-complex-projective-spaces/10.2140/agt.2007.7.2165.full))
 
+On [[simplicial complex|simplicial]] [[cell complex]]-[[structure]] on $\mathbb{C}P^n$:
+
+* Basudeb Datta, Jonathan Spreer: *Simplicial cell decompositions of $\mathbb{C}P^n$* &lbrack;[arXiv:2401.09891](https://arxiv.org/abs/2401.09891)&rbrack;
+
 
 
 [[!redirects complex projective spaces]]
