@@ -1,8 +1,6 @@
+Xiao-Gang Wen is a professor in theoretical physics at MIT. His expertise is in [[condensed matter]] theory of [[strongly correlated system|strongly correlated]] electronic systems and [[topological phases of matter]]. He introduced and studied the concept of *[[topological order]]* and its *[[symmetry protected topological phase|symmetry proteced]]* versions. Topological orders also classify finite generalized symmetries in one lower dimensions.
 
-
-
-Xiao-Gang Wen is the BMO Financial Group Isaac Newton Chair in Theoretical Physics at Perimeter Institute. His expertise is in [[condensed matter]] theory of [[strongly correlated system|strongly correlated]] electronic systems and [[topological phases of matter]]. He introduced and studied the concept of *[[topological order]]* and its *[[symmetry protected topological phase|symmetry proteced]]* versions.
-
+* [personal homepage](https://xgwen.mit.edu/)
 
 * [Institute page](https://physics.mit.edu/faculty/xiao-gang-wen/) at MIT
 
@@ -155,9 +153,12 @@ Claim that [[group cohomology]] classifies some [[symmetry protected topological
 * {#GuWen14} [[Zheng-Cheng Gu]], [[Xiao-Gang Wen]], *Symmetry-protected topological orders for interacting fermions -- fermionic topological non-linear sigma-models and a group super-cohomology theory*, Phys. Rev. B **90** 115141 (2014) $[$[arXiv:1201.2648](http://arxiv.org/abs/1201.2648), [doi:10.1103/PhysRevB.90.115141](https://doi.org/10.1103/PhysRevB.90.115141)$]$
 
 
+Symmetry as shadow topological order:
+
+* [[Liang Kong]], [[Tian Lan]], [[Xiao-Gang Wen]], [[Zhi-Hao Zhang]], [[Hao Zheng]];
+_Algebraic higher symmetry and categorical symmetry -- a holographic and entanglement view of symmetry_, [arXiv:2005.14178](https://arxiv.org/abs/2005.14178)
 
 More on [[topological order]]/[[topological phases of matter]]:
-
 
 * [[Xiao-Gang Wen]], _Topological orders and edge excitations in FQH states_, Advances in Physics __44__, 405 (1995). [cond-mat/9506066](http://arxiv.org/abs/cond-mat/9506066)
 
