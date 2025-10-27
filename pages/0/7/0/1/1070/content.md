@@ -35,7 +35,7 @@ Associated to $\mathcal{A}$ is
 
 * the "[[homotopy category of chain complexes]]" $K(\mathcal{A})$;
 
-* the [[stable ∞-category]] $K_\infty(\mathcal{A})$ of [[chain complexes]] in $C$.
+* the [[stable ∞-category]] $K_\infty(\mathcal{A})$ of [[chain complexes]] in $\mathcal{A}$.
 
 The  _derived category_ $D(C)$ of $\mathcal{A}$ is equivalently
 
