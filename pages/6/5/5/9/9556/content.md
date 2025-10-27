@@ -57,6 +57,12 @@ For $\mathcal{G}_\bullet = (\mathbf{B}G)_\bullet$ the [[delooping]] of a [[group
 
 * [[∞-groupoid bibundle]]
 
+## References
+
+For the more classical definition of an [[action]] of a [[Lie groupoid]] on a [[smooth manifold]] see e.g. Section 1.6 in
+
+* [[Kirill Mackenzie]], _General Theory of Lie Groupoids and Lie Algebroids,_ Cambridge University Press, 2005 ([doi:10.1017/CBO9781107325883](https://doi.org/10.1017/CBO9781107325883))
+
 [[!redirects groupoid action]]
 [[!redirects groupoid actions]]
 
