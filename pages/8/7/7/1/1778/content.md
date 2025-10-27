@@ -1205,7 +1205,7 @@ Classical accounts (in the generality of [[nonabelian cohomology]]):
 
 Historical survey: 
 
-* [[David Edwards]], Harold M. Hastings, _Cech Theory: Its past, present, and future_, Rocky Mountain J. Math. **10** 3 (1980) 429-468 &lbrack;[euclid:rmjm/1250128825](http://projecteuclid.org/euclid.rmjm/1250128825)&rbrack;
+* [[David Edwards]], Harold M. Hastings: _Čech Theory: Its past, present, and future_, Rocky Mountain J. Math. **10** 3 (1980) 429-468 &lbrack;[euclid:rmjm/1250128825](http://projecteuclid.org/euclid.rmjm/1250128825)&rbrack;
 
 
 Textbook account:
