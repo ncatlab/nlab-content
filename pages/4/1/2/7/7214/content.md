@@ -313,8 +313,27 @@ such that the canonical [[shape modality]] (the [[shape via cohesive path ∞-gr
 
 ## Examples
 
+
+\begin{example}
+Every [[topological space]] which is
+
+1. [[locally path-connected space|locally path-connected]]
+
+1. [[first-countable topological space|first-countable]]
+
+is Delta-generated.
+\end{example}
+(cf. [CSW 2013 Prop 3.11 (1)](#CSW13))
+
+\begin{example}
+  All [[CW-complexes]] are Delta-generated.   
+\end{example}
+([SYH 10, Cor. 4.4](#SYH10))
+
+In particular, [[topological manifolds]] are Delta-generated. Moreover:
+
 \begin{example}\label{DtopologyOfSmoothManifolds}
-  Given a [[smooth manifold]] $(X,sm_X)$ --- hence a [[topological space]] $X$ equipped with a [[smooth structure]] $sm_X$ ---  canonically regarded as a [[diffeological space]], then its D-topology (eq:DeltaGeneratedSpacesInIdempotentAdjunction) coincides with its ordinary topology:
+  Given a [[smooth manifold]] $(X,sm_X)$ --- hence a [[topological manifold]] $X$ equipped with a [[smooth structure]] $sm_X$ ---  canonically regarded as a [[diffeological space]], then its D-topology (eq:DeltaGeneratedSpacesInIdempotentAdjunction) coincides with its ordinary topology:
 $$
   Dtplg(X,sm_X) \,\simeq\, X
   \,.
@@ -328,7 +347,6 @@ $$
 1. morphisms of [[diffeological spaces]]$\;(X,sm_X) \longrightarrow Cdfflg(\mathcal{A})$,
 
 1. [[continuous maps]]$\;X \longrightarrow \mathcal{A}$,
-
 
 because
 
