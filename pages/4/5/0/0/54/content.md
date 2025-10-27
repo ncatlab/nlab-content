@@ -4,7 +4,7 @@
 
 $\,$
 
-<div style="float:right;margin:0 20px 10px 20px;"><img width = "230" src="http:ncatlab.org/nlab/files/Urs_Schreiber_portrait_Jan2024.jpg" alt="Urs Schreiber" />
+<div style="float:right;margin:0px 0px 10px 20px;"><img width = "230" src="http:ncatlab.org/nlab/files/Urs_Schreiber_portrait_Jan2024.jpg" alt="Urs Schreiber" />
 </div>
 
 
@@ -12,7 +12,7 @@ $\,$
 * table of contents
 {:toc}
 
-<div style="float:right;margin:0 20px 10px 20px;">
+<div style="float:right;margin:0px 0px 10px 20px;">
 <a href="https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts.html">
 <img src="https://ncatlab.org/schreiber/files/CQTS-logo_animated.gif" width="380" alt="animated logo of CQTS">
 </a>
@@ -319,7 +319,7 @@ Projects:
 ## research wiki
  {#ResearchWiki}
 
-<a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="/nlab/files/OldnLabBanner.jpg" alt="nLab banner" /></div></a>
+<a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0px 0px 10px 20px;"><img width = "250" src="/nlab/files/OldnLabBanner.jpg" alt="nLab banner" /></div></a>
 
 
 For making notes on math/phys I had started (in Nov 2008) 
@@ -435,6 +435,11 @@ I used to write an irregular column at [PhysicsForums Insights](https://www.phys
 * _[Super p-Brane Theory from Super Homotopy Theory](http://www.physicsforums.com/insights/super-p-brane-theory-emerging-super-homotopy-theory/)_
 
 \linebreak
+
+<div style="float:right;margin:0px 0px 10px 40px;">
+<img src="/schreiber/files/UrsSchreiber-UnderThePalms-20251027.png" width="400">
+</div>
+
 
 ## joining our research
 
