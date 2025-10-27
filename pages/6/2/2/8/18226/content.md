@@ -31,7 +31,8 @@ Textbook accounts include
 
 * {#HughesRanicki96} Bruce Hughes, [[Andrew Ranicki]], _Ends of complexes_, Cambridge University Press 1996 ([pdf](http://www.maths.ed.ac.uk/~aar/books/ends.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/books/endint.pdf))
 
-* [[Glen Bredon]], _Borel-Moore Homology_, chapter in _Sheaf Theory_, Volume 170 of the series Graduate Texts in Mathematics pp 279-416
+* [[Glen E. Bredon]]: *Borel-Moore Homology*, chapter V of: *Sheaf Theory*, Graduate Texts in Mathematics **170**, Springer (1997) 279-416 &lbrack;[doi:10.1007/978-1-4612-0647-7](https://doi.org/10.1007/978-1-4612-0647-7)&rbrack;
+
 
 See also
 
