@@ -13,8 +13,8 @@
 =--
 =--
 
-* table of contentshttps://ncatlab.org/nlab/edit/equivalence+of+categories
-{: toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -274,6 +274,18 @@ As with $Cat$, we can recover $Bicat$ as a [[full subcategory|full]] sub[[tricat
 * [[equivalence of 2-categories]], [[2-adjunction]]
 
 * [[equivalence of (∞,1)-categories]], [[adjoint (∞,1)-functor]]
+
+
+## References
+
+See any text on [[category theory]], for instance:
+
+* {#MacLane97} [[Saunders MacLane]], section IV.4 of: *[[Categories for the Working Mathematician]]*, Graduate Texts in Mathematics **5**, Springer (1971, second ed. 1998) \[<a href="https://link.springer.com/book/10.1007/978-1-4757-4721-8">doi:10.1007/978-1-4757-4721-8</a>\]
+
+See also:
+
+* Wikipedia: *[Equivalence of categories](https://en.wikipedia.org/wiki/Equivalence_of_categories)*
+
 
 
 [[!redirects equivalence of categories]]
