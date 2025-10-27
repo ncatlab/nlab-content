@@ -21,7 +21,7 @@
 ###### Definition
 **($\Delta$-Generated spaces)**
 
-A **$\Delta$-generated space** (alias **numerically generated space**) ([Smith](#Smith), [Dugger 03](#Dugger03)) is a [[topological space]] $X$ whose topology is the [[weak topology|final topology]] induced by all [[continuous functions]] of the form $\Delta^n_{top} \to X$, hence those whose [[domain]] $\Delta^n_{top}$ is one of the standard [[topological simplices]], for $n \in \mathbb{N}$.
+A **$\Delta$-generated space** (also: **numerically generated space**) ([Smith](#Smith), [Dugger 03](#Dugger03)) is a [[topological space]] $X$ whose topology is the [[weak topology|final topology]] induced by all [[continuous functions]] of the form $\Delta^n_{top} \to X$, hence those whose [[domain]] $\Delta^n_{top}$ is one of the standard [[topological simplices]], for $n \in \mathbb{N}$.
 
 A [[morphism]] between $\Delta$-generated spaces is just a [[continuous function]], hence the [[category]] of $\Delta$-generated spaces is the [[full subcategory]] on these spaces inside all [[Top|TopologicalSpaces]], 
 
@@ -37,9 +37,9 @@ Equivalently, the [[class]] of $\Delta$-generated spaces is the closure of the s
 
 +-- {: .num_remark #AsEuclideanGeneratedSpaces} 
 ###### Remark
-**(as Euclidean-generated spaces)**
+**(as D-topological spaces)**
 
-For each $n$ the [[topological simplex]] $\Delta^n$ is a [[retract]] of the ambient [[Euclidean space]]/[[Cartesian space]] $\mathbb{R}^n$ (as a [[inhabited|non-empty]] [[convex subset]] of a [[Euclidean space]] it is in fact an [[absolute retract]]). Hence the [[identity function]] on $\Delta^n$ factors as
+For each $n$ the [[topological simplex]] $\Delta^n$ is a [[retract]] of the ambient [[Euclidean space|Euclidean]] [[Cartesian space]] $\mathbb{R}^n$ (as a [[inhabited|non-empty]] [[convex subset]] of a [[Euclidean space]] it is in fact an [[absolute retract]]). Hence the [[identity function]] on $\Delta^n$ factors as
 
 $$
   id 
@@ -74,13 +74,13 @@ Therefore the condition that a topological space $X$ be $\Delta$-generated (Def.
 ###### Remark
 **(as D-topological spaces)**
 
-By Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces} below, the Euclidean-generated spaces and hence, by Remark \ref{AsEuclideanGeneratedSpaces}, the $\Delta$-generated spaces, are equivalently those that arise from equipping a [[diffeological space]] with its [[D-topology]], hence are, in this precise sense, the _D-topological spaces_. Luckily, "D-topological space" may also serve as an abbreviation for "Delta-generated topological space".
+By Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces} below, the D-topological spaces and hence, by Remark \ref{AsEuclideanGeneratedSpaces}, the $\Delta$-generated spaces, are equivalently those that arise from equipping a [[diffeological space]] with its [[D-topology]], as the name suggests. Luckily, "D-topological space" may also serve as an abbreviation for "Delta-generated topological space".
 
 =--
 
 
-## Properties
 
+## Properties
 
 
 ### Coreflection into all topological spaces
@@ -179,9 +179,7 @@ Explicitly, the [[internal hom]] $Maps_{DTop}$ is, equivalently:
 
 \end{prop}
 \begin{proof}
-The first statement is a special case of [Vogt 1971, Thm. 3.6](#Vogt71), as highlighted in [Gaucher 2007, Sec. 2](#Gaucher07). It is also implicit in [Escardo, Lawson & Simpson 2004](convenient+category+of+topological+spaces#EscardoLawsonSimpson04) (where "$Cdfflgcl$" is denoted "$\mathcal{C}(-)$" on p. 6, "$Maps_{Top}$" is denoted "$[X \Rightarrow_{\ll_{\mathcal{C}}} Y]$" in Rem. 5.20, "$Maps_{DTop}$" is denoted "$[X \Rightarrow_{\mathcal{C}} Y] = \mathcal{C}\big(Map_{\mathcal{C}}[X,Y]\big)$" on bottom of p. 14, where "$Map_{\mathcal{C}}$" is defined in Lemma 3.8, and finally the statement $Map_{\mathcal{C}}[X,Y] = [X \Rightarrow_{\ll_{\mathcal{C}}} Y]$ is Prop. 5.21 on p. 21).
-
-The second statement is the image of [SYH 10, Prop. 4.7](#SYH10) under $Dtplg$ (using that $\nu = T \circ D$, in their notation from p. 4).
+The first statement is a special case of [Vogt 1971, Thm. 3.6](#Vogt71), as highlighted in [Gaucher 2007, Sec. 2](#Gaucher07). It is also implicit in [Escardo, Lawson & Simpson 2004](convenient+category+of+topological+spaces#EscardoLawsonSimpson04) (where "$Cdfflgcl$" is denoted "$\mathcal{C}(-)$" on p. 6, "$Maps_{Top}$" is denoted "$[X \Rightarrow_{\ll_{\mathcal{C}}} Y]$" in Rem. 5.20, "$Maps_{DTop}$" is denoted "$[X \Rightarrow_{\mathcal{C}} Y] = \mathcal{C}\big(Map_{\mathcal{C}}[X,Y]\big)$" on bottom of p. 14, where "$Map_{\mathcal{C}}$" is defined in Lemma 3.8, and finally the statement $Map_{\mathcal{C}}[X,Y] = [X \Rightarrow_{\ll_{\mathcal{C}}} Y]$ is Prop. 5.21 on p. 21). The second statement is the image of [SYH 10, Prop. 4.7](#SYH10) under $Dtplg$ (using that $\nu = T \circ D$, in their notation from p. 4).
 \end{proof}
 
 In fact, [SYH 10, Prop. 4.7](#SYH10) state something stronger, topologically characterizing $Maps_{Dfflg}(X,Y)$ even before applying $Dtplg$ to it. This stronger statement has a nice form when specialized to [[CW-complexes]]:
@@ -268,9 +266,9 @@ In summary:
 
 +-- {: .num_prop #EuclideanGeneratedSpacesAreConvenient}
 ###### Proposition
-**([[Euclidean-generated spaces]] are [[convenient category of topological spaces|convenient]])**
+**(D-topological spaces are [[convenient category of topological spaces|convenient]])**
 
-The [[category]] of [[Euclidean-generated spaces]]/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) is 
+The [[category]] of D-topological spaces/$\Delta$-generated spaces (Def. \ref{DeltaGeneratedSpace}) is 
 a [[convenient category of topological spaces]] in that:
 
 * it is [[coreflective subcategory|coreflective]] in [[TopSp]] (by Prop. \ref{AdjunctionBetweenTopologicalSpacesAndDiffeologicalSpaces})
@@ -328,7 +326,19 @@ is Delta-generated.
 \begin{example}
   All [[CW-complexes]] are Delta-generated.   
 \end{example}
-([SYH 10, Cor. 4.4](#SYH10))
+(cf. [SYH 10, Cor. 4.4](#SYH10))
+
+More generally:
+
+\begin{example}
+\label{RetractsOfCellComplexesAreDeltaGenerated}
+  All topological [[cell complexes]] and all their [[retracts]] are Delta-generated, hence all the [[cofibrant objects]] in the [[classical model structure on topological spaces]].
+\end{example}
+\begin{proof}
+  The first statement follows since [[cell complexes]] are, by definition, [[colimits]] of [[disks]] and [[spheres]] (which are Delta-generated) and since colimits of Delta-generated spaces are Delta-generated by the [[coreflective subcategory|coreflection]] discussed [above](#CoreflectionIntoAllTopologicalSpaces) (and using that [[left adjoints preserve colimits]]).
+The second statement about retracts then follows by the general statement [here](convenient+category+of+topological+spaces#RetractsOfCGeneratedSpacesAreCGenerated).
+\end{proof}
+
 
 In particular, [[topological manifolds]] are Delta-generated. Moreover:
 
