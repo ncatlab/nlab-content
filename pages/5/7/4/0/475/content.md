@@ -52,9 +52,11 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 
 ## Related entries 
 
-*  [[strict 3-category]]
-*  [[bicategory]]
-*  [[tetracategory]]
+* [[strict 3-category]]
+* [[Gray-category]]
+* [[2-bicategory]]
+* [[bicategory]]
+* [[tetracategory]]
 
 ## References
 
