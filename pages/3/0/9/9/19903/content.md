@@ -32,6 +32,10 @@ In [[systems theory]]:
 
 * [[Conway's law]]
 
+In [[probability]] and related fields:
+
+* See [[category-theoretic approaches to probability theory]]
+
 ##References##
 
 * {#Bradley18} [[Tai-Danae Bradley]], _What is applied category theory?_, [arXiv:1809.05923](https://arxiv.org/abs/1809.05923)
