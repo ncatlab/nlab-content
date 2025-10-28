@@ -188,7 +188,7 @@ $$
 
 ## References
 
-* {#Yang14} Haibo Yang, *Equivariant cohomology and sheaves*, Journal of Algebra, **412** 2014, 230-254 ([doi:10.1016/j.jalgebra.2014.05.009](https://doi.org/10.1016/j.jalgebra.2014.05.009))
+* {#Yang14} Haibo Yang, *Equivariant cohomology and sheaves*, Journal of Algebra **412** (2014) 230-254 &lbrack;[doi:10.1016/j.jalgebra.2014.05.009](https://doi.org/10.1016/j.jalgebra.2014.05.009)&rbrack;
 
 
 [[!redirects equivariant good open covers]]
