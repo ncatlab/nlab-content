@@ -13,9 +13,9 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Definition
 
@@ -25,8 +25,16 @@
 For $n \in \mathbb{N}$ a [[natural number]], the $n$-[[dimension|dimensional]] **ball** or **$n$-disk** in $\mathbb{R}^n$ is the [[topological space]]
 
 $$
-  D^n := \{ \vec x \in \mathbb{R}^n | \sum_{i} (x^i)^2 \leq 1\}
-  \subset \mathbb{R}^n
+  D^n 
+    \coloneqq 
+  \Big\{ 
+    \vec x \in \mathbb{R}^n 
+  \,\Big\vert\, 
+    \textstyle{\sum_{i}} (x^i)^2 \leq 1
+  \Big\}
+  \;\subset\;
+  \mathbb{R}^n
+  \mathrlap{\,,}
 $$ 
 
 equipped with the [[induced topology]] as a subspace of the [[Cartesian space]] $\mathbb{R}^n$.
@@ -34,8 +42,16 @@ equipped with the [[induced topology]] as a subspace of the [[Cartesian space]] 
 Its [[interior]] is the **open $n$-ball**
 
 $$
-  \mathbb{B}^n := \{ \vec x \in \mathbb{R}^n | \sum_{i} (x^i)^2 \lt 1 \}
-  \subset \mathbb{R}^n
+  \mathbb{B}^n 
+    \coloneqq 
+  \Big\{ 
+    \vec x \in \mathbb{R}^n 
+  \;\Big\vert\; 
+    \textstyle{\sum_{i}} 
+      (x^i)^2 \lt 1 
+  \Big\}
+  \;\subset\; 
+  \mathbb{R}^n
   \,.
 $$ 
 
@@ -162,7 +178,7 @@ Let $C \subset \mathbb{R}^n$ be a [[star-shaped]] [[open subset]] of a [[Cartesi
 +-- {: .num_remark #LiteratureOnStarShapedOpenDiffeoToOpenBall}
 ###### Remark
 
-Theorem \ref{StarShapedOpenDiffeomorphicToOpenBall} is a [[folk theorem]], but explicit **proofs** in the literature are hard to find. See the discussion in the References-section *[here](#ReferencesStarShapedReasonDiffeomorphicToOpenBall)*. An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in ([Ferus 07](#Ferus07)). A simpler proof is given in [Gonnord-Tosel 98](#GonnordTosel98) reproduced [here](http://mathoverflow.net/a/212595/381).
+Theorem \ref{StarShapedOpenDiffeomorphicToOpenBall} is a [[folk theorem]], but explicit **proofs** in the literature are hard to find. See the discussion in the References-section *[here](#ReferencesStarShapedReasonDiffeomorphicToOpenBall)*. An explicit proof has been written out by Stefan Born, and this appears as the proof of [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in [Ferus 2007](#Ferus07). A simpler proof is given in [Gonnord & Tosel 1998](#GonnordTosel98), reproduced [here](http://mathoverflow.net/a/212595/381).
 
 =--
 
