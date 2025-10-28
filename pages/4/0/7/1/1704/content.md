@@ -750,15 +750,15 @@ The fully general abstract formalization in [[(∞,1)-topos theory]] as discusse
 
 with more comprehensive accounts in:
 
-* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- models and general theory|Principal $\infty$-bundles -- General theory]]_, J. Hom. Rel. Struc. **10** 4 (2015) 749-801 &lbrack;[arXiv:1207.0248](https://arxiv.org/abs/1207.0248), [doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6)&rbrack;
+* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]]: _[[schreiber:Principal ∞-bundles -- models and general theory|Principal $\infty$-bundles -- General theory]]_, J. Hom. Rel. Struc. **10** 4 (2015) 749-801 &lbrack;[arXiv:1207.0248](https://arxiv.org/abs/1207.0248), [doi:10.1007/s40062-014-0083-6](http://link.springer.com/article/10.1007/s40062-014-0083-6)&rbrack;
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
 
-* [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant Principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-bundles]]* &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
 For some additional developments and applications to ∞-group extensions, see also
 
-* [[Severin Bunk]], _Principal ∞-bundles and smooth String group models_, Mathematische Annalen **387** 689–743  &lbrack;[doi:10.1007/s00208-022-02462-0](https://doi.org/10.1007/s00208-022-02462-0), [arXiv:2008.12263] (http://arxiv.org/abs/2008.12263)&rbrack;
+* [[Severin Bunk]]: _Principal ∞-bundles and smooth String group models_, Mathematische Annalen **387** 689–743  &lbrack;[doi:10.1007/s00208-022-02462-0](https://doi.org/10.1007/s00208-022-02462-0), [arXiv:2008.12263] (http://arxiv.org/abs/2008.12263)&rbrack;
 
 A comparison of smooth principal ∞-bundles and diffeological principal bundles for diffeological groups is in
 
