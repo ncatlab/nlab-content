@@ -760,7 +760,7 @@ with the [[left adjoint]] given by hom-objects in a pushout object as above is t
 
 We also have an adjunction
 $$
-  (R \vdash \textstyle{\int}) 
+  (\textstyle{\int} \vdash R) 
   \;\colon\; 
   Fib(C) 
   \rightleftarrows 
