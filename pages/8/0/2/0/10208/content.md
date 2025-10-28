@@ -14,11 +14,11 @@
 
 ## Idea
 
-Given an [[inner product space]] $V = (V,\langle-,-\rangle)$, the *[[orthogonal group]]* of $V$ is the subgroup of the [[general linear group]] $GL(V)$ which leaves invariant the inner product.
+Given an [[inner product space]] $V = (V,\langle-,-\rangle)$, the *[[orthogonal group]]* of $V$ is the subgroup of the [[general linear group]] $GL(V)$ which leaves the inner product invariant.
 
 ## Definition
 
-Given an element $A$ of $GL(V)$ we say it _preserves the inner product_ $\langle-,-\rangle$ if $\langle A v ,A w \rangle = \langle v,w \rangle$ for all $v,w\in V$.
+Given an element $A$ of $GL(V)$, we say it _preserves the inner product_ $\langle-,-\rangle$ if $\langle A v ,A w \rangle = \langle v,w \rangle$ for all $v,w\in V$.
 
 +-- {: .num_prop #inner_product_preserving_elements_closed}
 ###### Proposition
@@ -38,7 +38,7 @@ The **orthogonal group** $O(V,\langle-,-\rangle)$ is the subgroup of $GL(V)$ con
 
 ## As a Lie group
 
-When the base field is $\mathbb{R}$, $\mathbb{C}$ or $\mathbb{H}$ (the last being a [[skewfield]], but this is ok), and the vector space is finite-dimensional then we can put the structure of a finite-dimensional  [[manifold]] on $O(V,\langle-,-\rangle)$. We shall denote the group in this case by $O(n,\mathbb{K})$ where $V = \mathbb{K}^n$, $\mathbb{K} \in \{ \mathbb{R},\mathbb{C},\mathbb{H}\}$ and we take the 'standard' inner products on these spaces.
+When the base field is $\mathbb{R}$, $\mathbb{C}$ or $\mathbb{H}$ (the last being a [[skewfield]], but this is okay), and the vector space is finite-dimensional then we can put the structure of a finite-dimensional  [[manifold]] on $O(V,\langle-,-\rangle)$. We shall denote the group in this case by $O(n,\mathbb{K})$ where $V = \mathbb{K}^n$, $\mathbb{K} \in \{ \mathbb{R},\mathbb{C},\mathbb{H}\}$ and we take the 'standard' inner products on these spaces.
 
 A relatively easy way to see that $O(n,\mathbb{K})$ is a manifold is that it is a smooth [[affine variety]] in [[Euclidean space]], but this requires some machinery. We can however construct explicit [[charts]] for $O(n,\mathbb{K})$ as a real manifold.
 
