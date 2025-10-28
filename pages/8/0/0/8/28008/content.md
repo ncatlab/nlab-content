@@ -9,7 +9,7 @@
 =--
 =--
 
-The **Applied Category Theory conference** (or simply **ACT conference**) conference is an international annual conference on the subject of [[applied category theory]].
+The **Applied Category Theory conference** (or simply **ACT conference**) is an international annual conference on the subject of [[applied category theory]].
 
 *The following list is incomplete.*
 
