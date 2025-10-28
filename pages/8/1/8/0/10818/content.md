@@ -20,7 +20,7 @@ A [[lax-idempotent 2-monad]] generalizes the notion of [[idempotent monad]] to [
 We will need to use all three kinds of composition in the 3-category $2 Cat$.  We write composition along 0-cells (2-functors, denoted with upper case Latin letters) with juxtaposition.  We write composition along 1-cells (functors, denoted with lower case Greek letters) with a dot; this is of course composition along 0-cells *in* a 2-category.  And we write composition along 2-cells (transformations, denoted with lower case Latin letters) with $\circ$, which is composition along 1-cells *in* a 2-category.
 
 Let $F : C \rightleftarrows D : G$ be a [[2-adjunction]] with unit $\eta: 1_C \to G F$ and counit $\epsilon: F G \to 1_D$.  (For simplicity, we will assume it is a strict 2-adjunction, but the same definitions and proofs work in the pseudo case with some equalities replaced by isomorphisms.)
-Write $M = GF$ and $\mu = G \epsilon F : M^2 \to F$ and $C = FG$ and $\delta = F \eta G : C \to C^2$.
+Write $M = GF$ and $\mu = G \epsilon F : M^2 \to M$ and $C = FG$ and $\delta = F \eta G : C \to C^2$.
 
 The 2-adjunction is said to be **lax-idempotent** if one (hence all) of the following equivalent conditions hold (of which the latter 7 are dual to the former 7; the duality involves reversing 2-cells).
 
