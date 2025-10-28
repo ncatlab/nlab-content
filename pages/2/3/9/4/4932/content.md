@@ -1,7 +1,11 @@
 
-* [website](http://www.math.sunysb.edu/~jack/)
+John Willard Milnor
+
+* [personal page](http://www.math.sunysb.edu/~jack/)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/John_Milnor)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=15157)
 
 ## Selected writings
 
@@ -23,6 +27,10 @@ On [[universal principal bundles]] via the *[[Milnor construction]]*:
 On [[exotic 7-spheres]]:
 
 * {#Milnor1956} [[John Milnor]], _On manifolds homeomorphic to the 7-sphere_, Annals of Mathematics 64 (2): 399-405 (1956) ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/exotic.pdf), [doi:10.1142/9789812836878_0001](https://doi.org/10.1142/9789812836878_0001))
+
+On [[Morse theory]]:
+
+* {#Milnor1963} [[John Milnor]]: _Morse theory_ , Princeton University Press (1963) &lbrack;[ISBN:9780691080086](https://press.princeton.edu/books/paperback/9780691080086/morse-theory), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/milnmors.pdf)&rbrack;
 
 
 On [[spin structures]] over [[manifolds]]:
@@ -74,6 +82,7 @@ On [[invariant Riemannian metrics]] on ([[compact Lie group|compact]]) [[Lie gro
 
 * [[Pontrjagin ring]]
 
+* [[good open cover]]
 
 
 [[!redirects John W. Milnor]]
