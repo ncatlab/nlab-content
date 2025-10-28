@@ -86,17 +86,18 @@ a differentiable good open cover, def.&#160;\ref{DifferentiablyGoodOpenCover}
 The following proof of Prop. \ref{ExistenceOfDifferentiablyGoodOpenCovers} follows that given in [FSS 2010, Prop. A.1](#FSS10):
 
 \begin{proof}
-By ([Greene](#Greene)) every paracompact smooth manifold admits a [[Riemannian metric]] with positive [[convexity radius]] $r_{\mathrm{conv}} \in \mathbb{R}$. Choose such a metric and choose an [[open cover]] consisting for each point $p\in X$ of the geodesically convex open subset $U_p := B_p(r_{conv})$ given by the geodesic $r_{conv}$-ball at $p$. Since the [[injectivity radius]] of any metric is at least $2r_{\mathrm{conv}}$ it follows from the minimality of the geodesics in a geodesically convex region that inside every finite nonempty intersection $U_{p_1} \cap \cdots \cap U_{p_n}$ the [[geodesic flow]] around any point $u$ is of radius less than or equal the injectivity radius and is therefore a diffeomorphism onto its image. 
+By [Greene 1978](#Greene78), every paracompact smooth manifold admits a [[Riemannian metric]] with positive [[convexity radius]] $r_{\mathrm{conv}} \in \mathbb{R}$. Choose such a metric and choose an [[open cover]] consisting for each point $p\in X$ of the geodesically convex open subset $U_p \coloneqq B_p(r_{conv})$ given by the [[geodesic]] $r_{conv}$-ball at $p$. Since the [[injectivity radius]] of any metric is at least $2r_{\mathrm{conv}}$ it follows from the minimality of the geodesics in a geodesically convex region that inside every finite nonempty intersection $U_{p_1} \cap \cdots \cap U_{p_n}$ the [[geodesic flow]] around any point $u$ is of radius less than or equal the injectivity radius and is therefore a diffeomorphism onto its image. 
 
 Moreover, the [[preimage]] of the intersection region under the geometric flow is a [[star-shaped]] region in the [[tangent space]] $T_u X$: because the intersection of geodesically convex regions is itself geodesically convex, so that for any $v \in T_u X$ with $\exp(v) \in U_{p_1} \cap \cdots \cap U_{p_n}$ the whole geodesic segment $t \mapsto \exp(t v)$ for $t \in [0,1]$ is also in the region.
 
-So we have that every finite non-empty intersection of the $U_p$ is diffeomorphic to a star-shaped region in a vector space. By the results cited at [[ball]] (e.g. theorem 237 of ([Ferus 2007](#Ferus07))) this star-shaped region is diffeomorphic to an $\mathbb{R}^n$.
+So we have that every finite non-empty intersection of the $U_p$ is diffeomorphic to a star-shaped region in a vector space. By the results cited in the entry *[[ball]]* (e.g. theorem 237 of [Ferus 2007](#Ferus07)) this star-shaped region is [[diffeomorphism|diffeomorphic]] to an $\mathbb{R}^n$.
 \end{proof}
 
 Here is another proof of Prop. \ref{ExistenceOfDifferentiablyGoodOpenCovers}:
 
 \begin{proof}
-Every [[paracompact manifold|paracompact]] [[smooth manifold]] admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a [[geodesically convex]] [[neighborhood]] (any two points in the neighborhood are connected by a unique geodesic in the neighborhood, one whose length is the distance between the points; see for example the remark after ([Milnor, lemma 10.3 on page 59](#Milnor)), or ([do Carmo, Proposition 4.2](#doCarmo))).
+Every [[paracompact manifold|paracompact]] [[smooth manifold]] admits a [[Riemannian metric]], and for any point in a [[Riemannian manifold]] there is a [[geodesically convex]] [[neighborhood]] (any two points in the neighborhood are connected by a unique geodesic in the neighborhood, one whose length is the distance between the points; see for example the remark after [Milnor 1963, lem 10.3 p 59](#Milnor1963), or [do Carmo 1992, prop 4.2](#doCarmo1992)).
+
 A nonempty intersection of finitely many such geodesically convex neighborhoods is also geodesically convex.
 The inverse of the [[exponential map]] based at any
 interior point of a geodesically convex open subset
@@ -240,7 +241,7 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 
 Proof of existence of differentiably good open covers (Def. \ref{DifferentiablyGoodOpenCover}) of smooth manifolds:
 
-* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Thm. 5.1 in: *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics 82 Springer 1982 ([doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0), [pdf](http://www.maths.ed.ac.uk/~aar/papers/botttu.pdf))
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Thm. 5.1 in: *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics **82**, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0), [pdf](http://www.maths.ed.ac.uk/~aar/papers/botttu.pdf)&rbrack;
 
 * {#FSS10} [[Domenico Fiorenza]], [[Urs Schreiber]], [[Jim Stasheff]], Prop. A.1 of:  *[[schreiber:Cech cocycles for differential characteristic classes]]*, Advances in Theoretical and Mathematical Physics, **16** 1 (2012) 149-250 ([arXiv:1011.4735](http://arxiv.org/abs/1011.4735), [euclid:1358950853](http://projecteuclid.org/euclid.atmp/1358950853), [doi:10.1007/BF02104916](https://doi.org/10.1007/BF02104916)) 
 
@@ -262,11 +263,11 @@ Such proofs have been given in:
 
 Other references on good open covers:
 
-* {#doCarmo} [[Manfredo do Carmo]], _Riemannian geometry_ (trans. Francis Flaherty), Birkh&#228;user (1992) 
+* {#doCarmo1992} [[Manfredo do Carmo]], _Riemannian geometry_, Mathematics: Theory & Applications,  Birkhäuser (1992) &lbrack;[ISBN:9780817634902](https://link.springer.com/book/9780817634902)&rbrack;
 
-* {#Milnor} [[John Milnor]], _Morse theory_ , Princeton University Press (1963)
+* {#Milnor1963} [[John Milnor]]: _Morse theory_ , Princeton University Press (1963) &lbrack;[ISBN:9780691080086](https://press.princeton.edu/books/paperback/9780691080086/morse-theory), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/milnmors.pdf)&rbrack;
 
-* {#Greene} R. Greene, _Complete metrics of bounded curvature on noncompact manifolds_  Archiv der Mathematik Volume 31, Number 1 (1978)
+* {#Greene78} R. Greene: _Complete metrics of bounded curvature on noncompact manifolds_, Archiv der Mathematik **31** 1 (1978) &lbrack;[doi:10.1007/BF01226419](https://doi.org/10.1007/BF01226419)&rbrack;
 
 
 * {#OsborneStern69} RP Osborne and JL Stern. _Covering Manifolds with Cells_, Pacific Journal of Mathematics, Vol 30, No. 1, 1969.
