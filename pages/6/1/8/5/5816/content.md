@@ -71,6 +71,8 @@ For $\mathcal{V}$ a [[monoidal bicategory]], a  $\mathcal{V}$-enriched (bi)categ
 
 * When $\mathcal{V}$ is the cartesian monoidal 2-category of [[fully faithful functors]], then a $\mathcal{V}$-enriched bicategory is a weak [[F-category]].
 
+* When $\mathcal{V}$ is the cartesian monoidal 2-category [[2Cat]], then a $\mathcal{V}$-enriched bicategory is a [[bi-2-category]].
+
 ## References
 
 Bicategories enriched in monoidal 2-categories first appeared in:
