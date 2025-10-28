@@ -17,21 +17,21 @@
 
 ## Idea
 
-An _inner product_ on a [[vector space]] $V$ (also "scalar product" in the sense of: with values in "[[scalars]]", namely in the [[ground field]] $\mathbb{K}$) is a pairing $\langle\text{-},\text{-}\rangle$ of [[vectors]] to [[scalars]]
+An _inner product_ on a [[vector space]] $V$ (also "scalar product" in the sense of "with values in the [[scalars]]", namely in the [[ground field]] $\mathbb{K}$) is a pairing $\langle\text{-},\text{-}\rangle$ of [[vectors]] to [[scalars]]
 $$
   v_1,\, v_2
   \,\in\,
   V
-  \;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
     \vdash
-  \;\;\;\;\;\;\;\;\;
+  \;\;\;\;\;\;\;
   \langle v_1,\, v_2 \rangle
   \,\in\,
   \mathbb{K}
 $$
-which is  [[bilinear form|bilinear]] *or rather* -- namely if $\mathbb{K}$ is understood with a [[star-algebra|star]]-[[involution]] (such as the [[complex numbers]] under [[complex conjugation]]) -- [[sesquilinear form|sesquilinear]], in which case one also speaks of a *[[Hermitian inner product]]*, for definiteness.
+which is [[bilinear form|bilinear]] (or rather [[sesquilinear form|sesquilinear]], if $\mathbb{K}$ is understood with a [[star-algebra|star]]-[[involution]], such as the [[complex numbers]] with [[complex conjugation]]).
 
-Often one requires such a pairing to be non-degenerate or even [[positive-definite]] in order to qualify as an inner product, standard conventions depend on context.
+Often one requires such a pairing to be non-degenerate or even [[positive-definite]] in order to qualify as an inner product. Conventions depend on context.
 
 For example, the ([[Hermitian inner product|Hermitian]]) inner product on a [[Hilbert space]] is required to be positive definite, as is that on [[tangent spaces]] in [[Riemannian geometry]], but the inner product on [[tangent spaces]] in [[pseudo-Riemannian geometry]] is only required to be non-degenerate. 
 
