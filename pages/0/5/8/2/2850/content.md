@@ -79,6 +79,9 @@ Modern monographs:
 
 * [[William M. Boothby]], *An introduction to differentiable manifolds and Riemannian geometry*, Academic Press (1975, 1986), Elsevier (2002) &lbrack;[ISBN:9780121160517](https://shop.elsevier.com/books/an-introduction-to-differentiable-manifolds-and-riemannian-geometry-revised/boothby/978-0-08-057475-2), [pdf](https://aetemad.iut.ac.ir/sites/aetemad.iut.ac.ir/files/files_course/william_m._boothby_an_introduction_to_differentibookfi.org_.pdf)&rbrack;
 
+* {#doCarmo1992} [[Manfredo do Carmo]]: _Riemannian geometry_, Mathematics: Theory & Applications,  Birkhäuser (1992) &lbrack;[ISBN:9780817634902](https://link.springer.com/book/9780817634902)&rbrack;
+
+
 * [[Thomas J. Willmore]], *Riemannian Geometry*, Oxford University Press (1996) &lbrack;[ISBN:9780198514923](https://global.oup.com/academic/product/riemannian-geometry-9780198514923?cc=de&lang=en&), [ark:/13960/t4jn0093w](https://archive.org/details/riemanniangeomet0000will)&rbrack;
 
 * {#Lee97} [[John M. Lee]], _Riemannian manifolds. An introduction to curvature_, Graduate Texts in Mathematics **176** Springer (1997) &lbrack;ISBN: 0-387-98271-X&rbrack;
