@@ -53,6 +53,8 @@ For $\mathcal{G}_\bullet = (\mathbf{B}G)_\bullet$ the [[delooping]] of a [[group
 
 ## Related concepts
 
+* [[groupoid representation]]
+
 * [[∞-groupoid-principal ∞-bundle]]
 
 * [[∞-groupoid bibundle]]
