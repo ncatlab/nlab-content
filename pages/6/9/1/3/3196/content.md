@@ -66,6 +66,8 @@ The restriction to the [[unit sphere]] in $\mathbb{R}^{n+1}$ of a generic quadra
 
 ### General
 
+* {#Milnor1963} [[John Milnor]]: _Morse theory_ , Princeton University Press (1963) &lbrack;[ISBN:9780691080086](https://press.princeton.edu/books/paperback/9780691080086/morse-theory), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/milnmors.pdf)&rbrack;
+
 * [[Raoul Bott]], _[Morse theory indomitable](http://archive.numdam.org/article/PMIHES_1988__68__99_0.pdf)_, _Publications Math&#233;matiques de L'IH&#201;S_, 1988, Volume 68, Number 1, Pages 99-114.
 
 * [[Raoul Bott]], [Lectures on Morse Theory, Old and New](http://www.ams.org/journals/bull/1982-07-02/S0273-0979-1982-15038-8/),  Bull. Amer. Math. Soc. 7 (1982), 331-358.
