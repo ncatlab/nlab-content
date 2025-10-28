@@ -15,9 +15,8 @@
 
 
 
-#Contentsrepre
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -206,6 +205,12 @@ $$
 If $X$ is [[locally path-connected topological space|locally path connected]] and [[semi-locally simply connected topological space|semi-locally simply connected]], then this is an [[equivalence of categories]]. See at _[[fundamental theorem of covering spaces]]_ for details.
 
 =--
+
+
+## Related concepts
+
+* [[groupoid action]]
+
 
 ## References
 
