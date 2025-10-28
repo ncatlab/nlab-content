@@ -142,9 +142,9 @@ $P \to P/G \simeq X$ of the $G$-[[action]].
 \begin{remark}\label{CartanPrincipalBundles}
 **(Cartan principal bundles)**
 
-Historically this quotient property of a free continuous action was sometimes taken as the very definition of "principal bundle" without requiring [[local triviality]], e. g. in ([Cartan, 1949-1950](#Cartan)), where this perspective is attributed to [[Henri Cartan]]. A standard modern textbook following this tradition is ([Husem&#246;ller](#Husemoeller)).
+Historically this quotient property of a free continuous action was sometimes taken as the very definition of "principal bundle" without requiring [[local triviality]], e. g. in [Cartan 1949-1950](#Cartan), where this perspective is attributed to [[Henri Cartan]]. A standard modern textbook following this tradition is [Husemöller 1994](#Husemöller94).
 
-Therefore in order to avoid ambiguous terminology in the following, we will now follow ([Palais 61, Def. 1.1.2](#Palais61)) and refer to this alternative definition of principal bundle as that of _Cartan principal bundle_:
+Therefore in order to avoid ambiguous terminology in the following, we will now follow [Palais 1961, Def. 1.1.2](#Palais61) and refer to this alternative definition of principal bundle as that of _Cartan principal bundle_:
 
 \end{remark}
 
@@ -893,9 +893,9 @@ Textbook accounts:
 
 * {#Steenrod51} [[Norman Steenrod]], section I.7 of: _The topology of fibre bundles_, Princeton Mathematical Series **14**, Princeton Univ. Press (1951) &lbrack;[jstor:j.ctt1bpm9t5](https://www.jstor.org/stable/j.ctt1bpm9t5)&rbrack;
 
-* {#Husemoeller} [[Dale Husemöller]], _Fiber bundles_, Springer (1994) ([doi:10.1007/978-1-4757-2261-1](https://doi.org/10.1007/978-1-4757-2261-1))
+* {#Husemöller94} [[Dale Husemöller]], §4.3 in: _Fiber bundles_, Springer (1994) &lbrack;[doi:10.1007/978-1-4757-2261-1](https://doi.org/10.1007/978-1-4757-2261-1)&rbrack;
  
-* [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
+* [[Dale Husemöller]], [[Michael Joachim]], [[Branislav Jurco]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
 * [[Ralph Cohen]], _The topology of fiber bundles_, Stanford University (2017) ([pdf](http://math.stanford.edu/~ralph/fiber.pdf), [OMN:201707.110706](https://www.ams.org/open-math-notes/omn-view-listing?listingId=110706))
 
@@ -904,9 +904,9 @@ Textbook accounts:
 
 With an eye towards application in [[mathematical physics]]:
 
-* [[Mikio Nakahara]], Chapter 9 of: _[[Geometry, Topology and Physics]]_, IOP 2003 ([doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>)
+* [[Mikio Nakahara]], Chapter 9 of: _[[Geometry, Topology and Physics]]_, IOP (2003) &lbrack;[doi:10.1201/9781315275826](https://doi.org/10.1201/9781315275826), <a href="http://alpha.sinp.msu.ru/~panov/LibBooks/GRAV/(Graduate_Student_Series_in_Physics)Mikio_Nakahara-Geometry,_Topology_and_Physics,_Second_Edition_(Graduate_Student_Series_in_Physics)-Institute_of_Physics_Publishing(2003).pdf">pdf</a>&rbrack;
 
-* [[Gerd Rudolph]], [[Matthias Schmidt]], Section 1.1: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
+* [[Gerd Rudolph]], [[Matthias Schmidt]], Section 1.1: *Differential Geometry and Mathematical Physics Part II. Fibre Bundles, Topology and Gauge Fields*, Springer (2017) &lbrack;[doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8)&rbrack;
 
 For principal bundles in the smooth context see most textbooks on _[[differential geometry]]_, for instance
 
