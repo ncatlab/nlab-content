@@ -20,7 +20,7 @@
 ## Idea
  {#Idea}
 
-The concept of _adjoint functors_ &lbrack;[Kan (1958)](#Kan58)&rbrack; is a key concept in [[category theory]] --- if not _the_ key concept --- and it is in large part through the manifold identification of examples of adjoint functors appearing ubiquituously in the practice of [[mathematics]] that category theoretic tools are brought to use in general mathematics.
+The concept of _adjoint functors_ &lbrack;[Kan (1958)](#Kan58)&rbrack; is a key concept in [[category theory]] --- if not _the_ key concept --- and it is in large part through the manifold identification of examples of adjoint functors appearing ubiquitously in the practice of [[mathematics]] that category theoretic tools are brought to use in general mathematics.
 
 Abstractly, the notion of adjoint functors embodies the concept of *[[representable functors]]* and has as special cases the fundamental [[universal constructions]] of [[category theory]] such as notably *[[Kan extensions]]* and hence *([[colimit|co-]])[[limits]]* and *([[coend|co-]])[[ends]]*, while being itself the archetypical special case of a natural notion of *[[adjunction]]* which in [[2-category theory]] embodies a general [principle of duality](geometry+of+physics+--+categories+and+toposes#CategoryTheoryIsTheoryOfDuality).
 
