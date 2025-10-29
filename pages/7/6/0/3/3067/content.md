@@ -49,6 +49,7 @@ The 2-category of symmetric pseudomonoids in a symmetric monoidal 2-category has
 
 * [[pseudoaction]]
 * [[pseudomonad]]
+* [[enriched bicategories]] (pseudomonoids in $K$ are precisely $K$-enriched bicategories with one object)
 * [[cartesian object]]
 
 ## References
