@@ -1,12 +1,26 @@
-Dorette Pronk is a category theorist at Dalhousie University, Canada.
+Dorette Pronk is a [[category theory|category theorist]] at Dalhousie University, Canada.
 
-* [webpage](http://www.mscs.dal.ca/Faculty/pronk.htm)
+* [institute page](https://www.dal.ca/faculty/science/math-stats/faculty-staff/our-faculty/mathematics/dorette-pronk.html)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Dorette_Pronk)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Af1lBU8AAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Dorette-Pronk)
+
+
 
 ## Selected writings
 
 On [[localizations of 2-categories]] via [[bicategories of fractions]]:
 
 * [[Dorette A. Pronk]], _Etendues and stacks as bicategories of fractions_, Comp. Math. **102** 3 (1996) pp.243-303. ([numdam:CM_1996__102_3_243_0](http://www.numdam.org/item/?id=CM_1996__102_3_243_0))
+
+On [[orbifolds]] as [[Lie groupoids]]/[[differentiable stacks]]:
+ 
+* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]]: *Orbifolds, sheaves and groupoids*, K-theory **12** 1 (1997) 3-21 &lbrack;[doi:10.1023/A:1007767628271](http://dx.doi.org/10.1023/A:1007767628271)&rbrack;
+
+
 
 On [[model structures on DblCat]]:
 
