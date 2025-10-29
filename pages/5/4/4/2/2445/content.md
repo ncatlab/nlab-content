@@ -19,6 +19,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents 
 {: toc}
@@ -525,11 +526,11 @@ See also:
 
 * [[Eckhard Meinrenken]]: *Clifford algebras and Lie groups*, Ergebn. Mathem. & Grenzgeb., Springer (2013) &lbrack;[doi:10.1007/978-3-642-36216-3](https://doi.org/10.1007/978-3-642-36216-3)&rbrack;
 
-Clifford Algebras and Bott periodicity:
+On [[Bott periodicity]] for Clifford algebras:
 
-* Dexter Chua, _Clifford Algebras and Bott Periodicity_, [PDF](https://dec41.user.srcf.net/exp/clifford/clifford.pdf)
+* [[Dexter Chua]]: *Clifford Algebras and Bott Periodicity* &lbrack;[pdf](https://dec41.user.srcf.net/exp/clifford/clifford.pdf)&rbrack;
 
-* Ben Slater, _Clifford Algebras and Bott Periodicity_, [PDF](https://math.uchicago.edu/~may/REU2023/REUPapers/Slater.pdf)
+* Ben Slater: *Clifford Algebras and Bott Periodicity*, presentation at *[REU 2023](https://math.uchicago.edu/~may/REU2023/REUPapers/Slater.pdf)*, Chicago (2023) &lbrack;[pdf](https://math.uchicago.edu/~may/REU2023/REUPapers/Slater.pdf)&rbrack;
 
 
 For a program that promotes the use of Clifford algebra as a good expositional tool in introductory [[mechanics]] see _[[Geometric Algebra]]_.
