@@ -63,6 +63,8 @@ For $\mathcal{V}$ a [[monoidal bicategory]], a  $\mathcal{V}$-enriched (bi)categ
 
 ## Examples
 
+* A $\mathcal{V}$-enriched bicategory with one object is precisely a [[pseudomonoid]] in $\mathcal{V}$.
+
 * When $\mathcal{V} = Cat$, a $\mathcal{V}$-enriched bicategory is just a plain [[bicategory]].
 
 * When $\mathcal{V}$ is an ordinary [[monoidal category]], a $\mathcal{V}$-enriched bicategory is just an ordinary [[enriched category]].
