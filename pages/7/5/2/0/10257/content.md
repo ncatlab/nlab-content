@@ -126,6 +126,13 @@ For a list of proofs of Bott periodicity, see
 
 * _Proofs of Bott periodicity_, [MO](https://mathoverflow.net/q/8800/447)
 
+Clifford Algebras and Bott periodicity:
+
+* Dexter Chua, _Clifford Algebras and Bott Periodicity_, [PDF](https://dec41.user.srcf.net/exp/clifford/clifford.pdf)
+
+* Ben Slater, _Clifford Algebras and Bott Periodicity_, [PDF](https://math.uchicago.edu/~may/REU2023/REUPapers/Slater.pdf)
+
+
 [[!redirects Bott periodicities]]
 
 [[!redirects Bott periodicity theorem]]
