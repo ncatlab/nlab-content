@@ -921,28 +921,25 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 Original discussion of classifying spaces in topological homotopy theory:
 
-* [[John Milnor]], _Construction of Universal Bundles, II_, Annals of Mathematics Second Series, Vol. 63, No. 3 (May, 1956), pp. 430-436 ([jstor:1970012](https://www.jstor.org/stable/1970012))
+* [[John Milnor]], _Construction of Universal Bundles, II_, Annals of Mathematics Second Series **63** 3 (1956) 430-436 &lbrack;[jstor:1970012](https://www.jstor.org/stable/1970012)rbrack;
 
-* [[Richard Palais]], Section 2.6 of: *The classification of $G$-spaces*, Memoirs of the AMS **36**, 1960 ([ISBN:978-0-8218-9979-3](https://bookstore.ams.org/memo-1-36) [pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf), [[Palais_ClassificationOfGSpaces.pdf:file]])
+* [[Richard Palais]], Section 2.6 of: *The classification of $G$-spaces*, Memoirs of the AMS **36** (1960) &lbrack;[ISBN:978-0-8218-9979-3](https://bookstore.ams.org/memo-1-36) [pdf](http://vmm.math.uci.edu/PalaisPapers/ClassificationOfG-Spaces.pdf), [[Palais_ClassificationOfGSpaces.pdf:file]]&rbrack;
 
-* {#Milgram67} [[R. James Milgram]], *The bar construction and abelian H-spaces*, Illinois J. Math. 11(2): 242-250 (1967) ([doi:10.1215/ijm/1256054662](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-11/issue-2/The-bar-construction-and-abelian-H-spaces/10.1215/ijm/1256054662.full))
+* {#Milgram67} [[R. James Milgram]]: *The bar construction and abelian H-spaces*, Illinois J. Math. **11** 2 (1967) 242-250  &lbrack;[doi:10.1215/ijm/1256054662](https://projecteuclid.org/journals/illinois-journal-of-mathematics/volume-11/issue-2/The-bar-construction-and-abelian-H-spaces/10.1215/ijm/1256054662.full)&rbrack;
 
-* [[Michael C. McCord]], *Classifying Spaces and Infinite Symmetric Products*, Transactions of the American Mathematical Society, Vol. 146 (Dec., 1969), pp. 273-298  ([jstor:1995173](https://www.jstor.org/stable/1995173), [pdf](https://www.ams.org/journals/tran/1969-146-00/S0002-9947-1969-0251719-4/S0002-9947-1969-0251719-4.pdf))
-
+* [[Michael C. McCord]]: *Classifying Spaces and Infinite Symmetric Products*, Transactions of the American Mathematical Society **146** (1969) 273-298  &lbrack;[jstor:1995173](https://www.jstor.org/stable/1995173), [pdf](https://www.ams.org/journals/tran/1969-146-00/S0002-9947-1969-0251719-4/S0002-9947-1969-0251719-4.pdf)&rbrack;
   > (using -- and introducing -- [[compactly generated weakly Hausdorff topological spaces]])
 
-* {#MacLane} [[Saunders MacLane]], Section 6 of: _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday* Lecture Notes in Mathematics *168*,  Springer, 1970 ([doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf))
-
+* {#MacLane} [[Saunders MacLane]], Section 6 of: _The Milgram bar construction as a tensor product of functors_,  In: F.P. Peterson  (eds.) *The Steenrod Algebra and Its Applications: A Conference to Celebrate N.E. Steenrod's Sixtieth Birthday* Lecture Notes in Mathematics *168*,  Springer (1970) &lbrack;[doi:10.1007/BFb0058523](https://doi.org/10.1007/BFb0058523), [pdf](https://link.springer.com/content/pdf/10.1007/BFb0058523.pdf)&rbrack;
   > (understanding  [[geometric realization of simplicial topological spaces]] via a [[coend]]-formula)
  
-* [[Graeme Segal]], _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS, Volume 34  (1968), p. 105-112  ([numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/))
+* [[Graeme Segal]]: _Classifying spaces and spectral sequences_,  Publications Mathématiques de l'IHÉS **34**  (1968) 105-112  &lbrack;[numdam:PMIHES_1968__34__105_0](http://www.numdam.org/item/PMIHES_1968__34__105_0/)&rbrack;
 
-* [[Norman Steenrod]], _Milgram's classifying space of a topological group_, Topology Volume 7, Issue 4, November 1968, Pages 349-368 (<a href="https://doi.org/10.1016/0040-9383(68)90012-8">doi:10.1016/0040-9383(68)90012-8</a>)
+* [[Norman Steenrod]], _Milgram's classifying space of a topological group_, Topology **7** 4 (1968) 349-368 &lbrack;<a href="https://doi.org/10.1016/0040-9383(68)90012-8">doi:10.1016/0040-9383(68)90012-8</a>&rbrack;
 
-* [[Jim Stasheff]], _H-spaces and classifying spaces: foundations and recent developments_, Algebraic topology (Proc. Sympos. Pure Math., Vol. XXII, Univ. Wisconsin, Madison, Wis., 1970), Providence, R.I.: American Mathematical Society (1971) pp. 247–272
+* [[Jim Stasheff]], _H-spaces and classifying spaces: foundations and recent developments_, in: *Algebraic Topology*, Proc. Sympos. Pure Math. **XXII** Univ. Wisconsin, Madison, Wis., 1970), Providence, R.I.: American Mathematical Society (1971) 247–272
 
-* {#tomDieck74} [[Tammo tom Dieck]], *On the homotopy type of classifying spaces*, Manuscripta Math 11, 41–49 (1974) ([doi:10.1007/BF01189090](https://doi.org/10.1007/BF01189090))
-
+* {#tomDieck74} [[Tammo tom Dieck]]: *On the homotopy type of classifying spaces*, Manuscripta Math **11** (1974) 41–49 &lbrack;[doi:10.1007/BF01189090](https://doi.org/10.1007/BF01189090)&rbrack;
   > (relating the plain and fat [[geometric realization of simplicial topological spaces]] appearing in Milnor's and Milgram's constructions)
 
 
