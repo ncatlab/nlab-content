@@ -34,6 +34,12 @@ On [[algebraic set theory]]:
 
 * [[André Joyal]], [[Ieke Moerdijk]]: _Algebraic set theory_, London Mathematical Society Lecture Note Series __220__, Cambridge University Press (1995) &lbrack;ISBN:0-521-55830-1, [doi:10.1017/CBO9780511752483](https://doi.org/10.1017/CBO9780511752483)&rbrack;
 
+On [[orbifolds]] as [[Lie groupoids]]/[[differentiable stacks]]:
+ 
+* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]]: *Orbifolds, sheaves and groupoids*, K-theory **12** 1 (1997) 3-21 &lbrack;[doi:10.1023/A:1007767628271](http://dx.doi.org/10.1023/A:1007767628271)&rbrack;
+
+* {#Moerdijk02} [[Ieke Moerdijk]]: *Orbifolds as Groupoids: an Introduction*, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.): _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math **310**, AMS (2002) 205–222 &lbrack;[arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100), [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310)&rbrack;
+
 
 On the [[categorical semantics]] of well-founded [[inductive types]] ([[W-types|$\mathcal{W}$-types]]) as given by [[initial algebra over an endofunctor|initial algebras over]] [[polynomial functor|polynomial]] [[endofunctors]] on the [[type system]]:
 
