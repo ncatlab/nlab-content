@@ -202,7 +202,7 @@ A profunctor $F$ between $C$ and $D$ can also be viewed as a span $C_0 \leftarro
 ## References ##
 
 
-Original articles:
+Original articles (in which, for instance, the perspective of profunctors over the [[interval category]] is discussed):
 
 * [[Maren Justesen]], *Bikategorien af Profunktorer*, Aarhus 1968 ([pdf](https://ncatlab.org/nlab/files/Justesen_Profunktoren.pdf))
 
