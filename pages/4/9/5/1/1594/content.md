@@ -321,9 +321,9 @@ Orbifolds often appear as [[moduli spaces]] in differential geometric setting:
 
 * [[Joel W. Robbin]], [[Dietmar Salamon|Dietmar A. Salamon]], _A construction of the Deligne--Mumford [[orbifold]]_, J. Eur. Math. Society 8, N&#186; 4 (2006) 611--699, arXiv:[math/0407090](https://arxiv.org/abs/math/0407090) [MR2009d:32012](http://www.ams.org/mathscinet-getitem?mr=2009d:32012), _Corrigendum_, J. Eur. Math. Soc. (JEMS)  __9__  (2007),  no. 4, 901--905, [doi](https://doi.org/10.4171/JEMS/101)
 
-The generalization of orbifolds to _weighted [[branched manifolds]]_ is discussed in
+The generalization of orbifolds to *weighted [[branched manifolds]]*:
 
-* [[Dusa McDuff]], _Groupoids, branched manifolds and multisections_, J. Symplectic Geom. Volume 4, Number 3 (2006), 259-315 ([project euclid](http://projecteuclid.org/euclid.jsg/1180135649)).
+* [[Dusa McDuff]]: _Groupoids, branched manifolds and multisections_, J. Symplectic Geom. **4** 3 (2006) 259-315 &lbrack;[project euclid](http://projecteuclid.org/euclid.jsg/1180135649)&rbrack;
 
 On [[orbifolds]], [[orbifold cohomology]] and specifically on [[Chen-Ruan cohomology]] and [[orbifold K-theory]]:
 
