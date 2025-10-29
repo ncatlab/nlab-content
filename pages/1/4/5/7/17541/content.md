@@ -13,5 +13,11 @@ On [[representation theory]]:
 
 * S. Martin: *Representation Theory*, notes by [[Dexter Chua]] (2016) &lbrack;[web](https://dec41.user.srcf.net/h/II_L/representation_theory)&rbrack;
 
+On [[Bott periodicity]] for [[Clifford algebras]]:
+
+* [[Dexter Chua]]: *Clifford Algebras and Bott Periodicity* &lbrack;[pdf](https://dec41.user.srcf.net/exp/clifford/clifford.pdf)&rbrack;
+
+
+
 
 category : people
