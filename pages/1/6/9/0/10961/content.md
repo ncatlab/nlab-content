@@ -54,6 +54,9 @@ The need for and proper nature of such an interpretation may be subtle and is th
 
 * [[Bayesian interpretation of quantum mechanics]]
 
+* [[indivisible stochastic process interpretation of quantum mechanics]]
+
+
 
 ## Bohr's standpoint
  {#BohrStandpoint}
