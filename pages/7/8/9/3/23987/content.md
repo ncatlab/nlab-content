@@ -4375,6 +4375,8 @@ Neumann algebras**
 
   **Strong quasipositivity, Thurston-Bennequin invariants, and arc index**
 
+  slides: [[Stoimenow-talk-NYUAD-Oct2025.pdf:file]]
+
   cf.: [arXiv:2406.15361](https://arxiv.org/abs/2406.15361)
 
   > This talk gives a survey of recent work with several collaborators (mostly G.T.Jin and H.J.Lee, and [[Andrei Mironov|Mironov]]-[[Hisham Sati|Sati]]-[[Vivek Singh|Singh]]) on establishing connections between grid diagrams and geometric properties of [[satellite links]]. Specifically, we relate to Rudolph's result about strong quasipositivity of annuli, the Livingston-Naik inequalities for jump numbers of slice-torus invariants, the Bennequin sharpness problem for Whitehead doubles, the Ohyama braid index inequality, and a recent result of Diao-Morton about the braid indices of reverse parallels of alternating knots. We introduce an alternative approach towards estimating Thurston-Bennequin invariants and arc index of [[knots]] from link polynomials, with special discussion of [[torus knots]].
