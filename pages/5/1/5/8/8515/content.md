@@ -45,11 +45,15 @@ Explicit definitional equality is also used in single-level type theories like [
 
 There are many different ways that one can conceivably represent definitonal equality explicitly in dependent type theory. The most common approach in the literature uses **judgmental equality**, which is the equality that is added as a separate [[judgment]] to the theory. Other possible approaches, though rarely used, include adding a second [[judgment]] of [[propositions]] to the theory and defining the definitional equality explicitly as a [[propositional equality]] in the style of [[logic over type theory]]. 
 
-> *Perhaps at some later point in time, one may consider adding material to this article about the use of an equality judgment in untyped theories, such as in Reuben Goodstein's 1954 formalization of [[primitive recursive arithmetic]] without [[predicate logic]]. But for the time being, this article is solely about judgmental equality in [[dependent type theory]] in the sense of explicit definitional equality defined by an equality judgment.*
+\begin{remark}
+Perhaps at some later point in time, one may consider adding material to this article about the use of an equality judgment in untyped theories, such as in Reuben Goodstein's 1954 formalization of [[primitive recursive arithmetic]] without [[predicate logic]]. But for the time being, this article is solely about judgmental equality in [[dependent type theory]] in the sense of explicit definitional equality defined in the syntax by an equality judgment.
+\end{remark}
 
-There are two different kinds of judgmental equalities
+There are different kinds of judgmental equalities
 
-* Judgmental equality of terms
+* Judgmental equality of [[contexts]]
+
+* Judgmental equality of [[terms]]
 
 * Judgmental equality of types, in [[dependent type theories]] with a separate [[type]] [[judgment]]. 
 
