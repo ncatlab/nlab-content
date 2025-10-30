@@ -149,7 +149,7 @@ Textbook accounts:
 
 Lecture notes:
 
-* {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
+* {#BarNatanStoimenow97} [[Dror Bar-Natan]], [[Alexander Stoimenow]]: _The Fundamental Theorem of Vassiliev Invariants_, in: *Geometry and Physics*, Lecture Notes in Pure and Applied Mathematics **184** Marcel Dekker Inc. (1996) &lbrack;[arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009), [ISBN:0-8247-9791-4](https://users-math.au.dk/swann/Aarhus-proceedings-1995/index.html)&rbrack;
 
 
 ### In terms of the knot-graph complex
