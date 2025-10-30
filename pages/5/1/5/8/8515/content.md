@@ -21,7 +21,11 @@
 
 ## Idea
 
-In [[logic]] and [[type theory]], **definitional equality** is the metatheoretic [[equivalence relation]] on syntactic expressions ([[types]], [[terms]], [[propositions]], [[contexts]], whatever) which states that two syntactic expressions are equivalent if they have the same meaning. Thus, definitional equality encompasses both [[syntactic equality]] and [[alpha-equivalence]], as well as equivalence of abbreviations and so forth. 
+In [[logic]] and [[type theory]], there are two related notions of equality, *judgmental equality* and *definitional equality*. 
+
+* **Judgmental equality** is a notion of [[equality in type theory]] which is defined to be a [[judgment]], as opposed to a [[proposition]] ([[propositional equality]]) or a [[type]] ([[typal equality]]). 
+
+* **Definitional equality** is the metatheoretic [[equivalence relation]] on syntactic expressions ([[types]], [[terms]], [[propositions]], [[contexts]], whatever) which states that two syntactic expressions are equivalent if they have the same meaning. Definitional equality encompasses both [[syntactic equality]] and [[alpha-equivalence]], as well as equivalence of abbreviations and so forth. 
 
 According to [PML (1980), p. 31](#PML):
 
@@ -31,11 +35,7 @@ on p. 60:
 
 > ... intensional (sameness of meaning) ...
 
-Definitional equality is used to define certain symbols, abbreviations, and syntactical expressions as other syntactical expressions. For example, one might want to define the symbol $2$ as the syntactical expression $s(s(0))$ representing the successor of the successor of zero in the natural numbers; definitional equality makes it so that in the metatheory, $2 \equiv s(s(0))$. 
-
-In addition, definitions are made using the [[single assignment operator]] $\coloneqq$ in the metatheory, so one would write $2 \coloneqq s(s(0))$. 
-
-In a similar manner to the usual implicit notion of parametricity and [[explicit parametricity]] in [[parametric dependent type theory]], dependent type theories can be distinguished between those with 
+In a similar manner to the usual notion of implicit conversion and [[explicit conversion]] in [[dependent type theory]], as well as the usual implicit notion of parametricity and [[explicit parametricity]] in [[parametric dependent type theory]], dependent type theories can be distinguished between those with 
 
 * explicit definitional equality, which have a separate [[equality]] to explicitly represent definitional equality in the syntax of the theory itself. The vast majority of dependent type theories have explicit definitional equality. 
 
@@ -43,21 +43,36 @@ In a similar manner to the usual implicit notion of parametricity and [[explicit
 
 Explicit definitional equality is also used in single-level type theories like [[Martin-Löf type theory]] or [[higher observational type theory]] for the [[conversion rules]] of some [[inductive types]] and in [[cubical type theory]] and [[simplicial type theory]] to define probe shapes for [[(infinity,1)-category theory|(infinity,1)-categorical]] types which could not be coherently defined in vanilla dependent type theory. 
 
-There are many different ways that one can conceivably represent definitonal equality explicitly in dependent type theory. The most common approach in the literature uses **judgmental equality**, which is the equality that is added as a separate [[judgment]] to the theory. Other possible approaches, though rarely used, include adding a second [[judgment]] of [[propositions]] to the theory and defining the definitional equality explicitly as a [[propositional equality]] in the style of [[logic over type theory]]. 
-
 \begin{remark}
-Perhaps at some later point in time, one may consider adding material to this article about the use of an equality judgment in untyped theories, such as in Reuben Goodstein's 1954 formalization of [[primitive recursive arithmetic]] without [[predicate logic]]. But for the time being, this article is solely about judgmental equality in [[dependent type theory]] in the sense of explicit definitional equality defined in the syntax by an equality judgment.
+There are many different ways that one can conceivably represent definitonal equality explicitly in type theory. The most common approach in the literature defines the definitional equality as an equality judgment, hence the name **judgmental equality** for definitional equality. Other possible approaches to definitional equality include adding a second [[judgment]] of [[propositions]] to the theory and defining the definitional equality explicitly as a [[propositional equality]] in the style of [[logic over type theory]]. This article is solely about the first approach of explicitly defining definitional equality using an equality judgment. 
 \end{remark}
 
-There are different kinds of judgmental equalities
+\begin{remark}
+Equality judgments can hypothetically be used in type theory for things other than definitional equality, such as a shorthand for [[typal equality]] in a dependent type theory without explicit definitional equality, given by a reflection rule into the [[identity type]]:
 
-* Judgmental equality of [[contexts]]
+{#ShorthandTypalEquality} 
+$$\frac{\Gamma \vdash a \equiv a':A}{\Gamma \vdash \delta_{a, a'}:a =_A a'}$$
+
+This article is solely about judgmental equality in [[dependent type theory]] in the sense of explicit definitional equality defined in the syntax by an equality judgment.
+\end{remark}
+
+\begin{remark}
+One may consider adding material to this article about the use of an equality judgment in untyped theories, such as in Reuben Goodstein's 1954 formalization of [[primitive recursive arithmetic]] without [[predicate logic]]. But for the time being, this article is solely about the most common use of an equality judgment in [[dependent type theory]] for definitional equality.
+\end{remark}
+
+In [[dependent type theory]], there are different kinds of judgmental equalities
 
 * Judgmental equality of [[terms]]
 
 * Judgmental equality of types, in [[dependent type theories]] with a separate [[type]] [[judgment]]. 
 
-Judgmental equality of types is not necessary for [[dependent type theory]] with a separate type judgment. It behaves similarly to the [[equality]] between [[sets]] in [[structural set theory]], and the equality between sets is not necessary for structural set theory since one could simply work with [[bijections]] or [[one-to-one correspondences]] between sets. Similarly, in [[dependent type theory]], one could just work with [[definitional isomorphism]] or some notion of [[equivalence of types]] instead of judgmental equality of types. 
+* Judgmental equality of [[contexts]]
+
+Judgmental equality of terms is additional structure on types which gives every type the structure of a [[set]] in addition to the [[infinity-groupoid|$\infty$-groupoidal]] structure on a type from the [[identity type]]. 
+
+Judgmental equality of types could be thought of as making explicit the implicit [[coercion]] of [[equivalence of types|equivalent types]] as [[subtypes]], and is preserved throughout the type theory as [[congruences]].
+
+Judgmental equality of types is not necessary for [[dependent type theory]] with a separate type judgment. It behaves similarly to the [[equality]] between [[sets]] in [[structural set theory]], and the equality between sets is not necessary for structural set theory since one could simply work with [[bijections]] or [[one-to-one correspondences]] between sets. Similarly, in [[dependent type theory]], one could just work with [[definitional isomorphisms]] instead of judgmental equality of types. 
 
 ## Judgmental equality of terms
 
@@ -65,25 +80,11 @@ Judgmental equality of terms is given by the following judgment:
 
 * $\Gamma \vdash a \equiv a' : A$ - $a$ and $a'$ are judgmentally equal well-typed terms of type $A$ in context $\Gamma$.
 
-There are two different notions of judgmental equality of terms which could be distinguished:
-
-* Weak judgmental equality of terms is just a shorthand for the [[identity type]] as [[typal equality]]
-
-* Strict judgmental equality is additional structure on types which gives every type the structure of a [[set]] in addition to the [[infinity-groupoid|$\infty$-groupoidal]] structure on a type from the [[identity type]]. 
-
-Strict judgmental equalities of terms are used in most [[dependent type theories]]. Weak judgmental equalities of terms can be used in [[weak type theories]], where a direct translation of the [[inference rules]] of the types in [[Martin-Löf type theory]] results in a weak version of Martin-Löf type theory. 
-
 Judgmental equality of terms can be contrasted with [[propositional equality]] of terms, where equality is a [[proposition]] in the sense of [[first-order logic]], and [[typal equality]] of terms, where equality is a [[type]].
 
-### Weak judgmental equality
+### Inference rules
 
-Weak judgmental equality of terms is simply given by a reflection rule into the [[identity type]]:
-
-$$\frac{\Gamma \vdash a \equiv a':A}{\Gamma \vdash \delta_{a, a'}:a =_A a'}$$
-
-### Strict judgmental equality
-
-Strict judgmental equality is an equivalence relation:
+Judgmental equality is an equivalence relation:
 
 * Reflexivity of judgmental equality
 
@@ -95,7 +96,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A}{\Gamm
 * Transitivity of judgmental equality
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b:A \quad b \equiv c:A }{\Gamma \vdash a \equiv c:A}$$
 
-In addition, strict judgmental equality of terms has congruence rules for substitution, the [[principle of substitution]]:
+In addition, judgmental equality of terms has congruence rules for substitution, the [[principle of substitution]]:
 
 * Principle of substitution for judgmentally equal terms:
 $$\frac{\Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash c(x):B}{\Gamma, \Delta(a) \vdash c(a) \equiv c(b): B}$$
@@ -106,7 +107,7 @@ If one has judgmental equality of types, then the principle of substitution into
 
 $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \quad \Gamma, x:A, \Delta \vdash B(x) \; \mathrm{type}}{\Gamma, \Delta(a) \vdash B(a) \equiv B(b) \; \mathrm{type}}$$
 
-This implies the reflection rule of weak judgmental equalities because one could derive the following rule:
+This implies the reflection rule of the [[judgmental equality#ShorthandTypalEquality|equality judgment as shorthand for typal equality]] because one could derive the following rule:
 
 $$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{refl}_A(a):a =_A b}$$
 
@@ -126,7 +127,7 @@ $$\frac{\Gamma \vdash A \; \mathrm{type} \quad \Gamma \vdash a \equiv b : A \qua
 
 This shows that transport across judgmental equality forms a [[groupoid]]. 
 
-Either way, this also implies the reflection rule of weak judgmental equalities because one could derive the following rule
+Either way, this also implies the reflection rule of the [[judgmental equality#ShorthandTypalEquality|equality judgment as shorthand for typal equality]] because one could derive the following rule
 
 $$\frac{\Gamma \vdash a \equiv b:A}{\Gamma \vdash \mathrm{tr}_{a =_A (-)}^{a \equiv b}(\mathrm{refl}_A(a)):a =_A b}$$
 
@@ -172,39 +173,12 @@ In [[dependent type theory]] with a separate [[type]] [[judgment]], judgmental e
 
 * $\Gamma \vdash A \equiv A' \; \mathrm{type}$ - $A$ and $A'$ are judgmentally equal well-typed types in context $\Gamma$.
 
-There are two different notions of judgmental equality of types which could be distinguished:
+### Inference rules
 
-* Weak judgmental equality of types is just a shorthand for equivalence of types 
-
-* Strict judgmental equality of types could be thought of as making explicit the implicit [[coercion]] of [[equivalence of types|equivalent types]] as [[subtypes]], and is preserved throughout the type theory as [[congruences]].
-
-In either case, judgmental equality of types is primarily used for [[definitional equality]] of types. 
-
-### Weak judgmental equality
-
-Weak judgmental equality of types is given by one of the two sets of structural rules:
-
-* The variable conversion rule for judgmentally equal types:
+The variable conversion rule for judgmentally equal types:
 $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma, x:A, \Delta \vdash \mathcal{J}}{\Gamma, x:B, \Delta \vdash \mathcal{J}}$$
 
-or
-
-* Rules for isomorphisms between judgmentally equal types:
-
-$$\frac{\Gamma \vdash A \equiv B \; \mathrm{type}}{\Gamma, x:A \vdash \delta_{A, B}(x):B} \qquad \frac{\Gamma \vdash A \equiv B \; \mathrm{type}}{\Gamma, y:B \vdash \delta_{A, B}^{-1}(x):A}$$
-
-$$\frac{\Gamma \vdash A \equiv B \; \mathrm{type}}{\Gamma, x:A \vdash \delta_{A, B}^{-1}(\delta_{A, B}(x)) \equiv x:A} \qquad \frac{\Gamma \vdash A \equiv B \; \mathrm{type}}{\Gamma, y:B \vdash \delta_{A, B}(\delta_{A, B}^{-1}(y)) \equiv y:B}$$
-
-In the first case, one could construct isomorphisms from the variable conversion rule, other structural rules, and the rules for function types:
-
-From the generic term rule and the variable conversion rule for judgmentally equal types $A \equiv A'$ we have $x:A' \vdash x:A$ and $x:A \vdash x:A'$, whereby from the introduction and computation rules for function types we have functions $\lambda x:A'.x:A' \to A$ and $\lambda x:A.x:A \to A'$ such that 
-$$(\lambda x:A'.x)((\lambda x:A.x)(x)) \equiv (\lambda x:A'.x)(x) \equiv x:A$$ 
-$$(\lambda x:A.x)((\lambda x:A'.x)(x)) \equiv (\lambda x:A.x)(x) \equiv x:A'$$ 
-making both functions $\lambda x:A'.x$ and $\lambda x:A.x$ isomorphisms.
-
-### Strict judgmental equality
-
-In addition to the variable conversion rule, there are reflexivity, symmetry, and transitivity rules making strict judgmental equality for types an [[equivalence relation]]:
+In addition to the variable conversion rule, there are reflexivity, symmetry, and transitivity rules making judgmental equality for types an [[equivalence relation]]:
 
 * Reflexivity of judgmental equality
 
@@ -218,7 +192,7 @@ $$\frac{\Gamma \vdash A \equiv B \; \mathrm{type} \quad \Gamma \vdash B \equiv C
 
 ### Congruence rules for judgmental equality of types
 
-In addition, strict judgmental equalities have [[congruence rules]] for every type in the type theory. 
+In addition, judgmental equalities have [[congruence rules]] for every type in the type theory. 
 
 * Congruence rules for dependent function types
 
@@ -336,7 +310,7 @@ In some [[dependent type theories]], there is also judgmental equality of [[cont
 
 * $\Gamma \equiv \Gamma' \; \mathrm{ctx}$ - $\Gamma$ and $\Gamma'$ are judgmentally equal contexts.
 
-In addition to the variable conversion rule, there are reflexivity, symmetry, and transitivity rules making judgmental equality for contexts an [[equivalence relation]]:
+There are reflexivity, symmetry, and transitivity rules making judgmental equality for contexts an [[equivalence relation]]:
 
 * Reflexivity of judgmental equality
 
@@ -363,7 +337,7 @@ This was also influenced by natural deduction, where constructors correspond to 
 With this extension, one obtains a programming language with dependent types and where computations correspond to unfolding of definitions (that can be primitive recursive definitions). This programming language has the feature that all computations terminate. This has been also considered in functional programming, see e.g. the discussion in [this paper](http://uf-ias-2012.wikispaces.com/file/view/turner.pdf/401400700/turner.pdf).
 
 A description of the evaluation algorithm using techniques from functional programming
-can be found in [this work of Gregoire and Leroy](http://uf-ias-2012.wikispaces.com/file/view/strong-reduction.pdf/402005168/strong-reduction.pdf).  
+can be found in [this work of Gregoire and Leroy](http://uf-ias-2012.wikispaces.com/file/view/strong-reduction.pdf/402005168/strong-reduction.pdf). 
 
 ## See also
 
@@ -420,54 +394,6 @@ specifically in the [[Coq]] [[proof assistant]]:
 
 [[!redirects judgemental equality of types]]
 [[!redirects judgemental equalities of types]]
-
-[[!redirects weak judgmental equality]]
-[[!redirects weak judgmental equalities]]
-
-[[!redirects weak judgemental equality]]
-[[!redirects weak judgemental equalities]]
-
-[[!redirects weak judgmental equality of terms]]
-[[!redirects weak judgmental equalities of terms]]
-
-[[!redirects weak judgemental equality of terms]]
-[[!redirects weak judgemental equalities of terms]]
-
-[[!redirects weak judgmental equality of elements]]
-[[!redirects weak judgmental equalities of elements]]
-
-[[!redirects weak judgemental equality of elements]]
-[[!redirects weak judgemental equalities of elements]]
-
-[[!redirects weak judgmental equality of types]]
-[[!redirects weak judgmental equalities of types]]
-
-[[!redirects weak judgemental equality of types]]
-[[!redirects weak judgemental equalities of types]]
-
-[[!redirects strict judgmental equality]]
-[[!redirects strict judgmental equalities]]
-
-[[!redirects strict judgemental equality]]
-[[!redirects strict judgemental equalities]]
-
-[[!redirects strict judgmental equality of terms]]
-[[!redirects strict judgmental equalities of terms]]
-
-[[!redirects strict judgemental equality of terms]]
-[[!redirects strict judgemental equalities of terms]]
-
-[[!redirects strict judgmental equality of elements]]
-[[!redirects strict judgmental equalities of elements]]
-
-[[!redirects strict judgemental equality of elements]]
-[[!redirects strict judgemental equalities of elements]]
-
-[[!redirects strict judgmental equality of types]]
-[[!redirects strict judgmental equalities of types]]
-
-[[!redirects strict judgemental equality of types]]
-[[!redirects strict judgemental equalities of types]]
 
 [[!redirects judgmentally equal]]
 [[!redirects judgmentally equal terms]]
