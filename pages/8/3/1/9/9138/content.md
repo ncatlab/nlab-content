@@ -246,7 +246,7 @@ Discussion in relation to [[presheaves]] on [[FinSet]]${}^{op}$ (hence in the [[
 
 D-posets were first introduced in:
 
-* F. Kôpka,_D-posets of fuzzy sets_, Tatra Mountains Mathematical Publications, vol. 1, no. 1, pp. 83-87, 1992. {#Kopka}
+* F. Kôpka, _D-posets of fuzzy sets_, Tatra Mountains Mathematical Publications, vol. 1, no. 1, pp. 83-87, 1992. {#Kopka}
 
 * F. Chovanec and F. Kôpka, _D-lattices_, International Journal of
 Theoretical Physics, vol. 34, no. 8, pp. 1297–1302, 1995. {#ChovKop}
