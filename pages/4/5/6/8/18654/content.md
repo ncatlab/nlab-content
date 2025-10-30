@@ -221,6 +221,11 @@ On the [[Dalitz decay]] of the [[pion]]:
 
 * Esther Weil, Gernot Eichmann, Christian S. Fischer, Richard Williams, section III.A of: _Electromagnetic decays of the neutral pion_, Phys. Rev. D 96, 014021 (2017) ([arXiv:1704.06046](https://arxiv.org/abs/1704.06046))
 
+See also:
+
+* Raúl A. Briceño, Maxwell T. Hansen, Andrew W. Jackura, Robert G. Edwards, Christopher E. Thomas: *Isotensor $\pi\pi\pi$ scattering with a $\rho$ resonant subsystem from QCD* &lbrack;[arXiv:2510.24894](https://arxiv.org/abs/2510.24894)&rbrack;
+
+
 
 
 ### Exponentiated pion field and Skyrmions
