@@ -146,6 +146,13 @@ where $F//Aut(F)$ is the [[action groupoid]], the [[2-colimit]] of $\rho \mathbf
 
 =--
 
+## Definition internal to (∞,1)-toposes
+
+Suppose $B$ is a base [[(∞,1)-topos]] and $\pi_*\colon X\to B$ is a [[geometric morphism]].
+An object $A\in X$ is __locally constant internal to $B$__ if there is an [[effective (∞,1)-epimorphism]] $\coprod_i U_i \to 1$ such that the projection morphism $X\times U_i\to U_i$ is in the essential image of the composition $\pi^*\colon B\to X$ and $X\to X/U_i$ ($C\mapsto C\times U_i$).
+
+When applied to the case $B=Fun(P,\infty Grpd)$, this definition yields the notion of a [[constructible sheaf]].  See there for more details and references.
+
 ## Applications
 
 * Locally constant sheaves are sheaves of sections of [[covering space]]s. 
