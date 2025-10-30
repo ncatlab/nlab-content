@@ -14,10 +14,7 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -106,7 +103,7 @@ The traditional definition of orbifolds, going back to [Satake 1956](#Satake1956
 \begin{definition}\label{OrbifoldDefinitionViaOrbifoldAtlas}
 **(effective orbifold structure via orbifold atlas)**
 \linebreak
-Let $X$ be a [[paracompact topological space|paracompact]] [[Hausdorff space]].
+Let $X$ be a [[paracompact Hausdorff space]].
 
 1. An *orbifold [[chart]]* $\big(G \curvearrowright \widehat{U}, \phi\big)$ for $X$ is:
 
@@ -248,9 +245,38 @@ Every orbifold (Def. \ref{OrbifoldDefinitionViaOrbifoldAtlas}) may be given by a
 
 
 
-### Via proper &eacute;tale groupoids
+### Via proper étale groupoids
+  {#DefinitionViaProperEtaleGroupoids}
 
-Equivalently, an orbifold is a [[smooth stack]] presented by an [[orbifold groupoid]]. See the references [below](#ReferencesAsLieGroupoids).
+Equivalently, an orbifold is a [[smooth stack]] presented by an [[orbifold groupoid]] &lbrack;[Moerdijk & Pronk 1997](#MoerdijkPronk97), [1999](#MoerdijkPronk99)&rbrack;. 
+
+\begin{definition}
+  \label{OrbifoldAsProperEtaleGroupoid}
+  An *orbifold* is a [[Lie groupoid]] $\mathcal{G}$ which is
+
+1. [[étale groupoid|étale]]:
+
+   the [[source]] map $s \colon Mor(\mathcal{G}) \longrightarrow Obj(\mathcal{G})$ is a [[local diffeomorphisms]] (as are then all the other structure maps),
+
+1. [[proper Lie groupoid|proper]]: 
+
+   the [[pair]] of the [[source]] and [[target]] maps $(s,t) \colon Mor(\mathcal{G}) \longrightarrow Obj(\mathcal{G})$ is a [[proper map]].
+
+\end{definition}
+
+\begin{remark}
+  From the perspective of the traditional Definition \ref{OrbifoldDefinitionViaOrbifoldAtlas} one may rather want to say that (cf. [Moerdijk 2002 §3.2](#Moerdijk02)):
+An *orbifold structure* on a [[paracompact Hausdorff space]] $X$ is a choice of Lie groupoid $\mathcal{G}$ as in Def. \ref{OrbifoldAsProperEtaleGroupoid}, together with a [[homeomorphism]] from its space of [[isomorphism classes]], $Obj(\mathcal{G})/\mathrm{Mor}(\mathcal{G}) \overset{\sim}{\longrightarrow} X$.
+
+But since $X$ is determined, up to homeomorphism, from the groupoid $\mathcal{G}$, the evident [[category]] of orbifold structures in this sense is [[equivalence of categories|equivalent]] to the [[homotopy category]] of the corresponding [[Lie groupoids]]/[[differentiable stacks]] (cf. [Moerdijk 2002 §3.3](#Moerdijk02))
+\end{remark}
+
+\begin{remark}
+  The main ingredient in the construction (cf. [Amenta 2012, Cor. 2.4.13](#Amenta12)) of an orbifold atlas (Def. \ref{OrbifoldDefinitionViaOrbifoldAtlas}) from an effective  proper étale Lie groupoid (Def. \ref{OrbifoldAsProperEtaleGroupoid}) is the fact that every point $x$ in the object space of a proper étale Lie groupoid has an [[open neighbourhood]] $U \subset Obj(\mathcal{G})$ on which the groupoid structure restricts to an [[action groupoid]] $U \sslash G_x$ of the [[finite group|finite]] [[automorphism group]]/[[isotropy group]] $G_x \coloneqq Hom_{\mathcal{G}}(x,x)$ of $x$. (cf. [Moerdijk & Pronk 1997, pp. 15](#MoerdijkPronk97), [Amenta 2012, Thm. 2.4.11](#Amenta12))
+
+Conversely, the construction of a proper étale Lie groupoid (Def. \ref{OrbifoldAsProperEtaleGroupoid}) from an orbifold atlas (Def. \ref{OrbifoldDefinitionViaOrbifoldAtlas}) is indicated in [Moerdijk & Pronk 1999, inside proof of Thm. 4.1.1](#MoerdijkPronk99).
+\end{remark}
+
 
 
 ## Properties
@@ -435,8 +461,9 @@ Survey of basic orbifold theory:
 See also
 
 * Wikipedia,  _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
+  > (which is mainly tailored toward [Thurston's approach](#Thurston92))
 
-  (which is mainly tailored toward [Thurston's approach](#Thurston92)). 
+* Alanod Sibih: *Orbifold Atlas Groupoids*, PhD thesis, Dalhousie (2013) &lbrack;[pdf](https://dalspaceb.library.dal.ca/server/api/core/bitstreams/313bac18-de54-4a7f-81a4-75949f57b404/content)&rbrack; 
 
 On [[good orbifolds]]:
 
@@ -480,13 +507,12 @@ On [[orbifolds]], [[orbifold cohomology]] and specifically on [[Chen-Ruan cohomo
 * {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
 
 
-### As Lie groupoids
+### As proper étale Lie groupoids
  {#ReferencesAsLieGroupoids}
 
+Discussion of orbifolds as [[proper Lie groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoids]]/[[differentiable stacks]]:
 
-Discussion of orbifolds as [[Lie groupoids]]/[[differentiable stacks]]:
-
-* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]]: *Orbifolds, sheaves and groupoids*, K-theory **12** 1 (1997) 3-21 &lbrack;[doi:10.1023/A:1007767628271](http://dx.doi.org/10.1023/A:1007767628271)&rbrack;
+* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]]: *Orbifolds, sheaves and groupoids*, K-theory **12** 1 (1997) 3-21 &lbrack;[doi:10.1023/A:1007767628271](http://dx.doi.org/10.1023/A:1007767628271), [[MoerdijkPronk-OrbifoldsAndGroupoids.pdf:file]]&rbrack;
 
 * {#MoerdijkPronk99} [[Ieke Moerdijk]], [[Dorette Pronk]], section 4 of: *Simplicial cohomology of orbifolds*, Indagationes Mathematicae **10** 2 (1999) 269-293 \[<a href="https://doi.org/10.1016/S0019-3577(99)80021-4">doi:10.1016/S0019-3577(99)80021-4</a>\]
 
@@ -496,19 +522,22 @@ Discussion of orbifolds as [[Lie groupoids]]/[[differentiable stacks]]:
 
 Review:
 
-* Alexander Amenta, _The Geometry of Orbifolds via Lie Groupoids_, ANU 2012 ([arXiv:1309.6367](https://arxiv.org/abs/1309.6367))
+* Olivier Brahic: *Orbifolds via Lie Groupoids* (2009) &lbrack;[pdf](https://www.math.tecnico.ulisboa.pt/~martinez/files/Orbifolds.pdf)&rbrack;
+
+* {#Amenta12} Alexander Amenta: _The Geometry of Orbifolds via Lie Groupoids_, ANU (2012) &lbrack;[arXiv:1309.6367](https://arxiv.org/abs/1309.6367)&rbrack;
+
 
 Analogous discussion for topological orbifolds as [[topological stacks]]:
 
-* Vesta Coufal, [[Dorette Pronk]], Carmen Rovi, [[Laura Scull]], Courtney Thatcher, _Orbispaces and their Mapping Spaces via Groupoids: A Categorical Approach_, Contemporary Mathematics 641 (2015): 135-166 ([arXiv:1401.4772](https://arxiv.org/abs/1401.4772))
+* Vesta Coufal, [[Dorette Pronk]], [[Carmen Rovi]], [[Laura Scull]], Courtney Thatcher: _Orbispaces and their Mapping Spaces via Groupoids: A Categorical Approach_, in: *Women in Topology: Collaborations in Homotopy Theory*, Contemporary Mathematics **641** (2015) 135-166 &lbrack;[arXiv:1401.4772](https://arxiv.org/abs/1401.4772), [doi:10.1090/conm/641](https://doi.org/10.1090/conm/641)&rbrack;
 
 
 Discussion of the corresponding perspective in [[algebraic geometry]], via [[Deligne-Mumford stacks]]:
 
-* {#Kresch09} [[Andrew Kresch]], _On the geometry of Deligne-Mumford stacks_ ([doi:10.5167/uzh-21342](https://doi.org/10.5167/uzh-21342), [pdf](https://www.zora.uzh.ch/id/eprint/21342/1/geodm.pdf)), in:  D. Abramovich, A. Bertram, L. Katzarkov, R. Pandharipande, M. Thaddeus (eds.) _Algebraic Geometry: Seattle 2005_, Proceedings of Symposia in Pure Mathematics 80, Providence, Rhode Island: American Mathematical Society 2009, 259-271 ([pspum-80-1](https://bookstore.ams.org/pspum-80-1))
+* {#Kresch09} [[Andrew Kresch]], _On the geometry of Deligne-Mumford stacks_ ([doi:10.5167/uzh-21342](https://doi.org/10.5167/uzh-21342), [pdf](https://www.zora.uzh.ch/id/eprint/21342/1/geodm.pdf)), in:  D. Abramovich, A. Bertram, L. Katzarkov, R. Pandharipande, M. Thaddeus (eds.) _Algebraic Geometry: Seattle 2005_, Proceedings of Symposia in Pure Mathematics **80**, American Mathematical Society (2009) 259-271 &lbrack;[pspum-80-1](https://bookstore.ams.org/pspum-80-1)&rbrack;
 
 
-The [[mapping stacks]] of orbifolds are discussed in
+On [[mapping stacks]] of orbifolds:
 
 * [[Weimin Chen]], *On a notion of maps between orbifolds, I. Function spaces*, Commun. Contemp. Math. 8 (2006), no. 5, 569&#8211;620 ([arXiv:math/0603671](https://arxiv.org/abs/math/0603671), [doi:10.1142/S0219199706002246](https://doi.org/10.1142/S0219199706002246)).
 
