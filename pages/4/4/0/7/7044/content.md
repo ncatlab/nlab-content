@@ -1,4 +1,3 @@
-[[!redirects torus knots]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -10,10 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 
 ##Idea##
@@ -38,11 +34,26 @@ Examples include
 
 * the cinquefoil knot:
 
+
 [[!include cinquefoil knot - SVG]] 
 
 
+## Related entries 
+
+* [[hyperbolic knot]]
+
+* [[satellite knot]]
+
+## References
+
+See also: 
+
+* Wikipedia: *[Torus knot](https://en.wikipedia.org/wiki/Torus_knot)*
 
 
 
 category: knot theory
+
 [[!redirects torus knots]]
+
+
