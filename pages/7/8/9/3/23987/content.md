@@ -3646,7 +3646,9 @@ Stone-von Neumann**
 
 \linebreak
 
-* {#GwilliamApr2023} [[Owen Gwilliam]] (University of Massachusetts, Amherst, USA)
+* {#GwilliamApr2023} 19 Apr 2023
+
+  [[Owen Gwilliam]] (University of Massachusetts, Amherst, USA)
 
   **A bulk-boundary correspondence with factorization algebras**
 
