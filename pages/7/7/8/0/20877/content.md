@@ -41,7 +41,7 @@ Textbook accounts
 
 Lecture notes:
 
-* {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
+* {#BarNatanStoimenow97} [[Dror Bar-Natan]], [[Alexander Stoimenow]]: _The Fundamental Theorem of Vassiliev Invariants_, in: *Geometry and Physics*, CRC Press (1996) &lbrack;[arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009), [doi:10.1201/9781003072393-6](https://www.taylorfrancis.com/chapters/edit/10.1201/9781003072393-6/fundamental-theorem-vassiliev-invariants-dror-bar-natan-alexander-stoimenow)&rbrack;
 
 [[!redirects 1T relations]]
 
