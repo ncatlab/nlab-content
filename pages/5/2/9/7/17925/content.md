@@ -1,6 +1,6 @@
 
 
-This entry collects material related to the textbook:
+This page is to record the reference:
 
 * [[José de Azcárraga]], [[José M. Izquierdo]]:
 
@@ -12,9 +12,7 @@ This entry collects material related to the textbook:
 
   Cambridge Monographs of Mathematical Physics
 
-  Cambridge University Press
-
-  (1995)
+  Cambridge University Press (1995)
 
   [doi:10.1017/CBO9780511599897](https://doi.org/10.1017/CBO9780511599897)
 
