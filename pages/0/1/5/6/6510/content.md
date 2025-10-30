@@ -19,7 +19,7 @@ In any [[Lie algebra]] we can define the **triple commutator** of three elements
 
 $$ [a,b,c] = [[a,b],c], $$
 
-and this obeys axioms which form the definition of a **Lie triple system**.  Furthermore, the space of elements of odd degree in any $\mathbb{Z}/2$-graded [[Lie algebra]] forms a Lie triple system, and so does the tangent space of a [[symmetric space]] at any point.
+and this obeys axioms which form the definition of a **Lie triple system**.  Furthermore, the space of elements of odd degree in any $\mathbb{Z}/2$-graded [[Lie algebra]] forms a Lie triple system, and thus so does the tangent space of a [[symmetric space]] at any point.
 
 ## Definition 
 
@@ -31,7 +31,7 @@ $$ [u,v,w] + [w,u,v] + [v,w,u] = 0 $$
 
 $$ [u,v,[w,x,y]] = [[u,v,w],x,y] + [w,[u,v,x],y] + [w,x,[u,v,y]]. $$
 
-The first two identities abstract the [[skew symmetry]] and [[Jacobi identity]] for the triple commutator in a Lie algebra. The third identity, which also holds for the triple commutator in a Lie algebra (CHECK), says that the linear map $L_{u,v} \colon L \times L \to L$ defined by $L_{u,v}(w) = [u,v,w]$, is a derivation of of the triple product, in the following sense:
+The first two identities abstract the [[skew symmetry]] and [[Jacobi identity]] for the triple commutator in a Lie algebra. The third identity, which also holds for the triple commutator in a Lie algebra, says that the linear map $L_{u,v} \colon L \times L \to L$ defined by $L_{u,v}(w) = [u,v,w]$, is a derivation of of the triple product, in the following sense:
 
 $$ L_{u,v}[w,x,y] = [L_{u,v} w, x, y] + [w, L_{u,v} x, y] + [w, x, L_{u,v} y] .$$
 
