@@ -1,4 +1,7 @@
 
+> This entry is about the concept in [[homological algebra]]. For the concept in [[knot theory]] see at *[[satellite knot]]*.
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
