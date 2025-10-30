@@ -25,7 +25,7 @@ In [[logic]] and [[type theory]], there are two related notions of equality, *ju
 
 * **Judgmental equality** is a notion of [[equality in type theory]] which is defined to be a [[judgment]], as opposed to a [[proposition]] ([[propositional equality]]) or a [[type]] ([[typal equality]]). 
 
-* **Definitional equality** is the metatheoretic [[equivalence relation]] on syntactic expressions ([[types]], [[terms]], [[propositions]], [[contexts]], whatever) which states that two syntactic expressions are equivalent if they have the same meaning. Definitional equality encompasses both [[syntactic equality]] and [[alpha-equivalence]], as well as equivalence of abbreviations and so forth. 
+* **Definitional equality** is the [[equivalence relation]] on syntactic expressions ([[types]], [[terms]], [[propositions]], [[contexts]], whatever) which states that two syntactic expressions are equivalent if they have the same meaning. Definitional equality encompasses both [[syntactic equality]] and [[alpha-equivalence]], as well as equivalence of abbreviations and so forth. 
 
 According to [PML (1980), p. 31](#PML):
 
@@ -35,11 +35,11 @@ on p. 60:
 
 > ... intensional (sameness of meaning) ...
 
-In a similar manner to the usual notion of implicit conversion and [[explicit conversion]] in [[dependent type theory]], as well as the usual implicit notion of parametricity and [[explicit parametricity]] in [[parametric dependent type theory]], dependent type theories can be distinguished between those with 
+In a similar manner to the usual implicit notion of meta-theoretic conversion and [[explicit conversion]] in [[dependent type theory]], as well as the usual implicit notion of meta-theoretic parametricity and [[explicit parametricity]] in [[parametric dependent type theory]], dependent type theories can be distinguished between those with 
 
 * explicit definitional equality, which have a separate [[equality]] to explicitly represent definitional equality in the syntax of the theory itself. The vast majority of dependent type theories have explicit definitional equality. 
 
-* implicit definitional equality, which do not have a separate [[equality]] for definitional equality. Definitional equality here is meta-theoretic rather than represented in the syntax of the theory. Examples of such dependent type theories include some flavors of [[objective type theory]]. 
+* meta-theoretic definitional equality, which do not have a separate [[equality]] for definitional equality. Examples of such dependent type theories include some flavors of [[objective type theory]]. 
 
 Explicit definitional equality is also used in single-level type theories like [[Martin-Löf type theory]] or [[higher observational type theory]] for the [[conversion rules]] of some [[inductive types]] and in [[cubical type theory]] and [[simplicial type theory]] to define probe shapes for [[(infinity,1)-category theory|(infinity,1)-categorical]] types which could not be coherently defined in vanilla dependent type theory. 
 
@@ -48,7 +48,7 @@ There are many different ways that one can conceivably represent definitonal equ
 \end{remark}
 
 \begin{remark}
-Equality judgments can hypothetically be used in type theory for things other than definitional equality, such as a shorthand for [[typal equality]] in a dependent type theory without explicit definitional equality, given by a reflection rule into the [[identity type]]:
+Equality judgments can hypothetically be used in type theory for things other than definitional equality, such as a shorthand for [[typal equality]] in a dependent type theory without only meta-theoretic definitional equality, given by a reflection rule into the [[identity type]]:
 
 {#ShorthandTypalEquality} 
 $$\frac{\Gamma \vdash a \equiv a':A}{\Gamma \vdash \delta_{a, a'}:a =_A a'}$$
@@ -406,5 +406,8 @@ specifically in the [[Coq]] [[proof assistant]]:
 [[!redirects explicit definitional equality]]
 [[!redirects explicit definitional equalities]]
 
-[[!redirects implicit definitional equality]]
-[[!redirects implicit definitional equalities]]
+[[!redirects metatheoretic definitional equality]]
+[[!redirects metatheoretic definitional equalities]]
+
+[[!redirects meta-theoretic definitional equality]]
+[[!redirects meta-theoretic definitional equalities]]
