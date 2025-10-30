@@ -1,7 +1,18 @@
 
 * [personal page](https://webpages.math.luc.edu/~crovi/)
 
+* [institute page](https://www.luc.edu/math/profiles/rovicarmen.shtml)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=195839)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=VEmmf4MAAAAJ&hl=en)
+
 ## Selected writings
+
+On [[orbifolds]] as [[topological groupoids]]/[[topological stacks]]:
+
+* Vesta Coufal, [[Dorette Pronk]], [[Carmen Rovi]], [[Laura Scull]], Courtney Thatcher: _Orbispaces and their Mapping Spaces via Groupoids: A Categorical Approach_, in: *Women in Topology: Collaborations in Homotopy Theory*, Contemporary Mathematics **641** (2015) 135-166 &lbrack;[arXiv:1401.4772](https://arxiv.org/abs/1401.4772), [doi:10.1090/conm/641](https://doi.org/10.1090/conm/641)&rbrack;
+
 
 Relating ([[invertible TQFT|invertible]]) [[topological quantum field theories]] to [[cutting and pasting of manifolds|cut-and-paste-ivariants]]:
 
