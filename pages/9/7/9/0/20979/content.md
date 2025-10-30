@@ -330,7 +330,7 @@ Original articles:
 
 Review:
 
-* {#BarNatanStoimenow97} [[Dror Bar-Natan]], Alexander Stoimenow, _The Fundamental Theorem of Vassiliev Invariants_ ([arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009))
+* {#BarNatanStoimenow97} [[Dror Bar-Natan]], [[Alexander Stoimenow]]: _The Fundamental Theorem of Vassiliev Invariants_, in: *Geometry and Physics*, Lecture Notes in Pure and Applied Mathematics **184** Marcel Dekker Inc. (1996) &lbrack;[arXiv:q-alg/9702009](https://arxiv.org/abs/q-alg/9702009), [ISBN:0-8247-9791-4](https://users-math.au.dk/swann/Aarhus-proceedings-1995/index.html)&rbrack;
 
 * {#ChmutovDuzhinMostovoy11} [[Sergei Chmutov]], [[Sergei Duzhin]], [[Jacob Mostovoy]], Section 8.8 of: _Introduction to Vassiliev knot invariants_, Cambridge University Press, 2012 ([arxiv:1103.5628](http://arxiv.org/abs/1103.5628), [doi:10.1017/CBO9781139107846](https://doi.org/10.1017/CBO9781139107846))
 
