@@ -214,8 +214,17 @@ If $X$ is [[locally path-connected topological space|locally path connected]] an
 
 ## References
 
+Introduction for discrete geometry:
+
 * [[Alberto Ibort]], [[Miguel A. Rodriguez]]: *An Introduction to Groups, Groupoids and Their Representations*, CRC Press (2021) &lbrack;[ISBN:9781032086767](https://www.routledge.com/An-Introduction-to-Groups-Groupoids-and-Their-Representations/Ibort-Rodriguez/p/book/9781032086767?srsltid=AfmBOoqc0EH7Qjc1_0C-TYQtUbhTWpdb3Juy61vwE9TfRC5oaJwjlYfN), [doi:10.1201/b22019](https://doi.org/10.1201/b22019)&rbrack;
 
+On representations of [[topological groupoids]] on [[fields of Hilbert spaces]]:
+
+* Rogier Bos: *Continuous representations of groupoids* &lbrack;[pdf](https://www.math.tecnico.ulisboa.pt/~rbos/GpdRep.pdf)&rbrack;
+
+On such representations of [[orbifold groupoids]]:
+
+* J. Kališnik: *Representations of orbifold groupoids*, Topology and its Applications **155** 11 (2008) 1175-1188 &lbrack;[doi:10.1016/j.topol.2008.02.004](https://doi.org/10.1016/j.topol.2008.02.004), [arXiv:0709.0176](https://arxiv.org/abs/0709.0176)&rbrack;
 
 
 
