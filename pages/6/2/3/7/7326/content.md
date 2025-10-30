@@ -1,4 +1,6 @@
 
+> This entry needs attention. See at *[[orbifold]]* instead the section *[Via proper étale groupoids](orbifold#DefinitionViaProperEtaleGroupoids)*.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -129,8 +131,7 @@ An expository account is in
 
 Other sources:
 
-[^Mc Duff]: [[Dusa McDuff]], _Groupoids, branched manifolds and multisections_.  Journal of Symplectic Geometry 4:3 (2006), 259-315. 
- [doi:10.4310/jsg.2006.v4.n3.a2](http://dx.doi.org/10.4310/jsg.2006.v4.n3.a2).
+[^Mc Duff]: [[Dusa McDuff]], _Groupoids, branched manifolds and multisections_.  Journal of Symplectic Geometry 4:3 (2006), 259-315 &lbrack;[doi:10.4310/jsg.2006.v4.n3.a2](http://dx.doi.org/10.4310/jsg.2006.v4.n3.a2)&rbrack;
 
 [^H. Hofer]: [[Helmut Hofer]], _Polyfolds and Fredholm Theory_.  Oxford University Press (2017) ([doi:10.1093/oso/9780198784913.003.0004](http://dx.doi.org/10.1093/oso/9780198784913.003.0004))
 
