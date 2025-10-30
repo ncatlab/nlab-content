@@ -4367,6 +4367,18 @@ Neumann algebras**
 
 \linebreak
 
+* {#StoimenowOct2025} 27 Oct 2025
+
+  [[Alexander Stoimenow]] (Dongguk University, Korea):
+
+  **Strong quasipositivity, Thurston-Bennequin invariants, and arc index**
+
+  cf.: [arXiv:2406.15361](https://arxiv.org/abs/2406.15361)
+
+  > This talk gives a survey of recent work with several collaborators (mostly G.T.Jin and H.J.Lee, and [[Andrei Mironov|Mironov]]-[[Hisham Sati|Sati]]-[[Vivek Singh|Singh]]) on establishing connections between grid diagrams and geometric properties of [[satellite links]]. Specifically, we relate to Rudolph's result about strong quasipositivity of annuli, the Livingston-Naik inequalities for jump numbers of slice-torus invariants, the Bennequin sharpness problem for Whitehead doubles, the Ohyama braid index inequality, and a recent result of Diao-Morton about the braid indices of reverse parallels of alternating knots. We introduce an alternative approach towards estimating Thurston-Bennequin invariants and arc index of [[knots]] from link polynomials, with special discussion of [[torus knots]].
+
+\linebreak
+
 
 
 \linebreak  
@@ -4716,7 +4728,6 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
 
 
 \linebreak  
-
 
 
 ***
