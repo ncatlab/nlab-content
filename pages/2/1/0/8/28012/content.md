@@ -17,6 +17,9 @@ See also:
 
 * Hwa Jeong Lee, [[Alexander Stoimenow]], Gyo Taek Jin: *Minimal grid diagrams of the prime alternating knots with 13 crossings*,  Journal of Knot Theory and Its RamificationsVol. **34** 04 (2025) 2550009 &lbrack;[doi:10.1142/S0218216525500099](https://doi.org/10.1142/S0218216525500099), [arXiv:2406.15361](https://arxiv.org/abs/2406.15361)&rbrack;
 
+* [[Alexander Stoimenow]]: *Strong quasipositivity, Thurston-Bennequin invariants, and arc index*, [talk at](CQTS#StoimenowOct2025) *[[CQTS]]*, NYUAD (Oct 2025) &lbrack;slides:[[Stoimenow-talk-NYUAD-Oct2025.pdf:file]]&rbrack;
+
+
 
 ## Related entries
 
