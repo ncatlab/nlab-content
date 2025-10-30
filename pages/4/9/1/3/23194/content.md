@@ -190,6 +190,9 @@ $$
 
 * {#Yang14} Haibo Yang, *Equivariant cohomology and sheaves*, Journal of Algebra **412** (2014) 230-254 &lbrack;[doi:10.1016/j.jalgebra.2014.05.009](https://doi.org/10.1016/j.jalgebra.2014.05.009)&rbrack;
 
+In the generality good [[orbifold]] [atlases](orbifold#DefinitionViaOrbifoldAtlases):
+
+* {#MoerdijkPronk99} [[Ieke Moerdijk]], [[Dorette Pronk]], Cor. 1.2.5 of: *Simplicial cohomology of orbifolds*, Indagationes Mathematicae **10** 2 (1999) 269-293 \[<a href="https://doi.org/10.1016/S0019-3577(99)80021-4">doi:10.1016/S0019-3577(99)80021-4</a>\]
 
 [[!redirects equivariant good open covers]]
 
