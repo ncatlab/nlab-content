@@ -1,1 +1,1 @@
-[[!redirects definitional equality]]
+< [[judgmental equality]]
