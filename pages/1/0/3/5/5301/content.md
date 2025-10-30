@@ -1,5 +1,13 @@
 
-* [website](http://www.math.umn.edu/~voronov/)
+* [personal page](http://www.math.umn.edu/~voronov/)
+
+* [institute page](https://cse.umn.edu/math/alexander-voronov)
+
+* [Wikipedia entry ](https://en.wikipedia.org/wiki/Alexander_A._Voronov)
+
+* [inSpire page](https://inspirehep.net/authors/984439)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=nebQK88AAAAJ&hl=en)
 
 ## Selected writings
 
