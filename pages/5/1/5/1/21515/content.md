@@ -7,7 +7,7 @@ For the [[global quotient orbifold]] of a [[topological G-space|G-space]] $X$, t
 
 A dedicated account of this Borel cohomology of orbifolds, in the generality of [[twisted cohomology]] (i.e. with [[local coefficients]]) is in:
 
-* {#MoerdijkPronk99} [[Ieke Moerdijk]], [[Dorette Pronk]], _Simplicial cohomology of orbifolds_, Indagationes Mathematicae Volume 10, Issue 2, 1999, Pages 269-293 (<a href="https://doi.org/10.1016/S0019-3577(99)80021-4">doi:10.1016/S0019-3577(99)80021-4</a>)
+* {#MoerdijkPronk99} [[Ieke Moerdijk]], [[Dorette Pronk]]: *Simplicial cohomology of orbifolds*, Indagationes Mathematicae **10** 2 (1999) 269-293 \[<a href="https://doi.org/10.1016/S0019-3577(99)80021-4">doi:10.1016/S0019-3577(99)80021-4</a>\]
 
 Moreover, since the orbifold's [[isotropy groups]] $G_x$ are, by definition, [[finite groups]], their [[classifying spaces]] $\ast \!\sslash\! G \simeq B G$ have purely [[torsion subgroup|torsion]] [[integral cohomology]] in [[positive number|positive]] degrees, and hence become indistinguishable from the [[point]] in [[rational cohomology]] (and more generally whenever their [[order of a group|order]] is [[unit|invertible]] in the [[coefficient]] [[ring]]).
 
