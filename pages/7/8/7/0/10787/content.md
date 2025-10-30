@@ -7,6 +7,16 @@
 
 A [[sheaf]] on an [[étale site]] is _constructible_ if its restriction to a suitable decomposition into [[constructible subsets]] is a [[locally constant sheaf]].
 
+## Conceptual definition
+
+A conceptual definition of a constructible sheaf can be given using [[topos theory]].
+
+Given a [[poset]] $P$, a $P$-stratification of a [[topos]] or [[(∞,1)-topos]] $X$ is a [[geometric morphism]] $s_*\colon X\to Fun(P,\infty Grpd)$.
+
+Now a constructible sheaf in $X$ relative to the $P$-stratification $s_*$ can be defined as a [[locally constant sheaf]] in $X$ internal to $s_*$.  (See the linked article for a definition.)
+
+See [He](#He) for more details.
+
 ## References
 
 Original articles include
@@ -38,6 +48,10 @@ and with more on [[chain complexes of sheaves]] and [[abelian sheaf cohomology]]
  {#BhattScholze13}
 
 with an eye towards the application in [[l-adic cohomology]]/the [[pro-étale topos]].
+
+A general definition in terms of [[(∞,1)-toposes]]:
+
+* {#He} Li He, _An internal description of constructible objects in an ∞-topos_, [arXiv](https://arxiv.org/abs/2510.25248v1).
 
 
 See also
