@@ -282,10 +282,8 @@ A writeup of some aspects is in section 3.3.1 of
 [[!redirects concrete smooth infinity-groupoid]]
 [[!redirects concrete smooth infinity-groupoids]]
 
-[[!redirects diffeological groupoid]]
 [[!redirects diffeological ∞-groupoid]]
 [[!redirects diffeological infinity-groupoid]]
 
-[[!redirects diffeological groupoids]]
 [[!redirects diffeological ∞-groupoids]]
 [[!redirects diffeological infinity-groupoids]]
