@@ -235,6 +235,8 @@ Symmetric powers in a symmetric monoidal $\mathbb{Q}^{+}$-linear category  are c
 
 ## Related concepts
 
+* [[Grassmann algebra]]
+
 * [[symmetric algebra spectrum]]
 
 * [[symmetric ring]]
