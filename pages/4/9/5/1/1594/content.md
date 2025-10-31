@@ -407,33 +407,43 @@ Orbifolds in [[string theory]]:
 ## References
 
 ### General
+ {#ReferencesGeneral}
 
-The original articles:
+Essentially the modern definition of orbifolds [via orbifold atlases](#DefinitionViaOrbifoldAtlases) was first given by:
 
 * {#Satake1956} [[Ichiro Satake]]: _On a generalisation of the notion of manifold_, Proc. Nat. Acad. Sci. U.S.A. **42** (1956), 359-363 &lbrack;[doi:10.1073/pnas.42.6.359](https://doi.org/10.1073/pnas.42.6.359)&rbrack;
 
-* [[Ichiro Satake]]: _The Gauss&#8211;Bonnet theorem for $V$-manifolds_, J. Math. Soc. Japan **9** (1957), 464-492 &lbrack;[euclid:1261153826](https://projecteuclid.org/euclid.jmsj/1261153826)&rbrack;
+* [[Ichiro Satake]]: _The Gauss-Bonnet theorem for $V$-manifolds_, J. Math. Soc. Japan **9** (1957) 464-492 &lbrack;[euclid:1261153826](https://projecteuclid.org/euclid.jmsj/1261153826)&rbrack;
 
-* {#Thurston92} [[William Thurston]]: *Three-dimensional geometry and topology*, preliminary draft, University of Minnesota (1992) &lbrack;1979: [ark:/13960/t3714t34v](https://archive.org/details/ThurstonTheGeometryAndTopologyOfThreeManifolds/mode/2up), 1991:  [[Thurston-3dGeometry-1991.pdf:file]], 2002: [pdf](https://www.math.unl.edu/~jkettinger2/thurston.pdf), [[Thurston-3dGeometry-2002.pdf:file]]&rbrack;
+under the name "V-manifolds". (Satake's motivation for this terminology has not survived. One claim &lbrack;[MO:q/97901](https://mathoverflow.net/q/97901/381)&rbrack; is that: According to a colleague who asked Satake about it, the "V" in "V-manifold" stands for the German word '*Verzweigung*, which means "branching" or "ramification", as in *[[ramified cover]]*.)
+
+
+The term "orbifold" was introduced by:
+
+<div style="float:right;margin:-30px 0px 00px 20px;">
+<a href="https://ncatlab.org/nlab/files/Thurston-3dGeometry-2002.pdf#page=318"><img src="/nlab/files/Thurston-NamingOrbifold.png" width="500"></a>
+</div>
+
+* {#Thurston92} [[William Thurston]], §3.2 of: *Three-dimensional geometry and topology*, preliminary draft, University of Minnesota (1992) &lbrack;1979: [ark:/13960/t3714t34v](https://archive.org/details/ThurstonTheGeometryAndTopologyOfThreeManifolds/mode/2up), 1991:  [[Thurston-3dGeometry-1991.pdf:file]], 2002: [pdf](https://www.math.unl.edu/~jkettinger2/thurston.pdf), [[Thurston-3dGeometry-2002.pdf:file]]&rbrack;
    
-  the first three chapters of which are published in expanded form as:
+the first three chapters of which are published in expanded form as:
 
 * [[William Thurston]]: _The Geometry and Topology of Three-Manifolds_, Princeton University Press (1997) &lbrack;[ISBN:9780691083049](https://press.princeton.edu/books/hardcover/9780691083049/three-dimensional-geometry-and-topology-volume-1), [Wikipedia page](https://en.wikipedia.org/wiki/The_geometry_and_topology_of_three-manifolds)&rbrack;
 
-  in particular orbifolds are discussed in [chapter 13](http://library.msri.org/books/gt3m/PDF/13.pdf)
 
-* [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque no. 116 (1984), p. 70-97 ([numdam:AST_1984__116__70_0/](http://www.numdam.org/item/AST_1984__116__70_0/))
+Further early discussion:
 
-* [[Peter Scott]], section 2 of : *The Geometries of 3-Manifolds*, Bulletin of the LMS **15** 5 (1983) 401-487 &lbrack;[doi:10.1112/blms/15.5.401](https://doi.org/10.1112/blms/15.5.401), [hdl:2027.42/135276](https://hdl.handle.net/2027.42/135276)&rbrack;
+* [[André Haefliger]], _Groupoides d'holonomie et classifiants_, Astérisque **116** (1984) 70-97 &lbrack;[numdam:AST_1984__116__70_0/](http://www.numdam.org/item/AST_1984__116__70_0/)&rbrack;
+
+* [[Peter Scott]], section 2 of: *The Geometries of 3-Manifolds*, Bulletin of the LMS **15** 5 (1983) 401-487 &lbrack;[doi:10.1112/blms/15.5.401](https://doi.org/10.1112/blms/15.5.401), [hdl:2027.42/135276](https://hdl.handle.net/2027.42/135276)&rbrack;
 
 and specifically for orbifolds in [[complex geometry]]:
 
-* [[Walter Lewis Baily]], _On the quotient of an analytic manifold by a group of analytic homeomorphisms_, PNAS 40 (9) 804-808 (1954) ([doi:10.1073/pnas.40.9.804](https://doi.org/10.1073/pnas.40.9.804))
+* [[Walter Lewis Baily]], _On the quotient of an analytic manifold by a group of analytic homeomorphisms_, PNAS **40** 9 (1954) 804-808 &lbrack;[doi:10.1073/pnas.40.9.804](https://doi.org/10.1073/pnas.40.9.804)&rbrack;
 
 * [[Walter Lewis Baily]], _The Decomposition Theorem for V-Manifolds_, American Journal of Mathematics Vol. 78, No. 4 (Oct., 1956), pp. 862-888 ([jstor:2372472](https://www.jstor.org/stable/2372472))
 
-For careful comparative review of the definitions in these original articles see [IKZ 10](#IKZ10).
-
+For careful comparative review of the definitions in these original articles see also [IKZ 10](#IKZ10).
 
 
 Survey of basic orbifold theory:
@@ -456,12 +466,11 @@ Survey of basic orbifold theory:
 
 * {#AdemKlaus} [[Alejandro Adem]], Michele Klaus, _Lectures on orbifolds and group cohomology_ ([pdf](http://www.math.ubc.ca/~adem/hangzhou.pdf), [[AdemKlausOrbifolds.pdf:file]])
 
-* Francisco C. Caramello Jr, _Introduction to orbifolds_ ([arXiv:1909.08699](https://arxiv.org/abs/1909.08699))
+* Francisco C. Caramello Jr: *Introduction to orbifolds* &lbrack;[arXiv:1909.08699](https://arxiv.org/abs/1909.08699)&rbrack;
 
 See also
 
-* Wikipedia,  _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
-  > (which is mainly tailored toward [Thurston's approach](#Thurston92))
+* Wikipedia: _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
 
 * Alanod Sibih: *Orbifold Atlas Groupoids*, PhD thesis, Dalhousie (2013) &lbrack;[pdf](https://dalspaceb.library.dal.ca/server/api/core/bitstreams/313bac18-de54-4a7f-81a4-75949f57b404/content)&rbrack; 
 
@@ -470,11 +479,11 @@ On [[good orbifolds]]:
 * {#Lange24} Christian Lange: *Good, but not very good orbifolds* &lbrack;[arXiv:2404.14234](https://arxiv.org/abs/2404.14234)&rbrack;
 
 
-Textbook account:
+Textbook accounts:
 
-* {#Ratcliffe06} [[John Ratcliffe]], _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Graduate Texts in Mathematics 149, Springer 2006 ([doi:10.1007/978-0-387-47322-2](https://doi.org/10.1007/978-0-387-47322-2), <a href="http://entsphere.com/pub/pdf/Ratcliffe%20-%20Foundations%20of%20hyperbolic%20manifolds%20(2e)%20-%20GTM%20149.pdf">pdf</a>)
+* {#Ratcliffe06} [[John Ratcliffe]], _Geometric Orbifolds_, chapter 13 in _Foundations of Hyperbolic Manifolds_, Graduate Texts in Mathematics **149**, Springer (2006) &lbrack;[doi:10.1007/978-0-387-47322-2](https://doi.org/10.1007/978-0-387-47322-2), <a href="http://entsphere.com/pub/pdf/Ratcliffe%20-%20Foundations%20of%20hyperbolic%20manifolds%20(2e)%20-%20GTM%20149.pdf">pdf</a>&rbrack;
 
-* [[Michael Kapovich]], Chapter 6 of: _Hyperbolic Manifolds and Discrete Groups_,  Modern Birkhäuser Classics, Birkhäuser 2008 ([doi:10.1007/978-0-8176-4913-5](https://link.springer.com/book/10.1007/978-0-8176-4913-5))
+* [[Michael Kapovich]], Chapter 6 of: _Hyperbolic Manifolds and Discrete Groups_,  Modern Birkhäuser Classics, Birkhäuser (2008) &lbrack;[doi:10.1007/978-0-8176-4913-5](https://link.springer.com/book/10.1007/978-0-8176-4913-5)&rbrack;
 
 Application to [[moduli spaces of curves]] and [[moduli spaces of Riemann surfaces]]:
 
@@ -489,14 +498,14 @@ On [[Riemannian orbifolds]]:
 * {#HydeRamsdenRobins14} S. T. Hyde, S. J. Ramsden and V. Robins, _Unification and classification of two-dimensional crystalline patterns using orbifolds_, Acta Cryst. (2014). A70, 319-337 ([doi:10.1107/S205327331400549X](https://doi.org/10.1107/S205327331400549X))
 
 
-Survey of applications in [[mathematical physics]] and notably in [[string theory]]:
+Assorted applications in [[mathematical physics]] and notably in [[string theory]]:
 
-* {#AdemMoravaRuan02} [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]], _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics 310 American Mathematical Society, 2002
+* {#AdemMoravaRuan02} [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]], _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics **310**, American Mathematical Society (2002) &lbrack;[ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310)&rbrack;
 
 
-Orbifolds often appear as [[moduli spaces]] in differential geometric setting:
+Orbifolds often appear as [[moduli spaces]] in [[differential geometry]]: 
 
-* [[Joel W. Robbin]], [[Dietmar Salamon|Dietmar A. Salamon]], _A construction of the Deligne--Mumford [[orbifold]]_, J. Eur. Math. Society 8, N&#186; 4 (2006) 611--699, arXiv:[math/0407090](https://arxiv.org/abs/math/0407090) [MR2009d:32012](http://www.ams.org/mathscinet-getitem?mr=2009d:32012), _Corrigendum_, J. Eur. Math. Soc. (JEMS)  __9__  (2007),  no. 4, 901--905, [doi](https://doi.org/10.4171/JEMS/101)
+* [[Joel W. Robbin]], [[Dietmar A. Salamon]]: _A construction of the Deligne--Mumford [[orbifold]]_, J. Eur. Math. Society **8** 4 (2006) 611--699 &lbrack;[arXiv:math/0407090](https://arxiv.org/abs/math/0407090), [MR2009d:32012](http://www.ams.org/mathscinet-getitem?mr=2009d:32012)&rbrack;, _Corrigendum_, J. Eur. Math. Soc. (JEMS)  __9__  4 (2007) 901--905 &lbrack;[doi:10.4171/JEMS/101](https://doi.org/10.4171/JEMS/101)&rbrack;
 
 The generalization of orbifolds to *weighted [[branched manifolds]]*:
 
@@ -504,19 +513,21 @@ The generalization of orbifolds to *weighted [[branched manifolds]]*:
 
 On [[orbifolds]], [[orbifold cohomology]] and specifically on [[Chen-Ruan cohomology]] and [[orbifold K-theory]]:
 
-* {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+* {#ALR07} [[Alejandro Adem]], [[Johann Leida]], [[Yongbin Ruan]], _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) &lbrack;[doi:10.1017/CBO9780511543081](https://doi.org/10.1017/CBO9780511543081), [pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf)&rbrack;
 
 
 ### As proper étale Lie groupoids
  {#ReferencesAsLieGroupoids}
 
-Discussion of orbifolds as [[proper Lie groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoids]]/[[differentiable stacks]]:
+The understanding of orbifolds as [[proper Lie groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoids]]/[[differentiable stacks]] is due to
 
 * {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]]: *Orbifolds, sheaves and groupoids*, K-theory **12** 1 (1997) 3-21 &lbrack;[doi:10.1023/A:1007767628271](http://dx.doi.org/10.1023/A:1007767628271), [[MoerdijkPronk-OrbifoldsAndGroupoids.pdf:file]]&rbrack;
 
 * {#MoerdijkPronk99} [[Ieke Moerdijk]], [[Dorette Pronk]], section 4 of: *Simplicial cohomology of orbifolds*, Indagationes Mathematicae **10** 2 (1999) 269-293 \[<a href="https://doi.org/10.1016/S0019-3577(99)80021-4">doi:10.1016/S0019-3577(99)80021-4</a>\]
 
 * {#Moerdijk02} [[Ieke Moerdijk]]: *Orbifolds as Groupoids: an Introduction*, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.): _[[Orbifolds in Mathematics and Physics]]_, Contemporary Math **310**, AMS (2002) 205–222 &lbrack;[arXiv:math.DG/0203100](http://arxiv.org/abs/math.DG/0203100), [ISBN:978-0-8218-2990-5](https://bookstore.ams.org/conm-310)&rbrack;
+
+See also:
 
 * {#Lerman08} [[Eugene Lerman]], *Orbifolds as stacks?*, Enseign. Math. **56** 3-4 (2010) 315-363 &lbrack;[arXiv:0806.4160](http://arxiv.org/abs/0806.4160), [doi:10.4171/LEM/56-3-4](http://dx.doi.org/10.4171/LEM/56-3-4)&rbrack;
 
@@ -525,7 +536,6 @@ Review:
 * Olivier Brahic: *Orbifolds via Lie Groupoids* (2009) &lbrack;[pdf](https://www.math.tecnico.ulisboa.pt/~martinez/files/Orbifolds.pdf)&rbrack;
 
 * {#Amenta12} Alexander Amenta: _The Geometry of Orbifolds via Lie Groupoids_, ANU (2012) &lbrack;[arXiv:1309.6367](https://arxiv.org/abs/1309.6367)&rbrack;
-
 
 Analogous discussion for topological orbifolds as [[topological stacks]]:
 
@@ -552,7 +562,8 @@ Discussion of [[principal bundles]] and [[fiber bundles]] over orbifolds:
 
 An expected relation of orbifolds ([[orbispaces]]) to [[global equivariant homotopy theory]]:
 
-* [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019)) (on the relation to [[orbispaces]]/[[topological stacks]])
+* [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_ &lbrack;[arXiv:1711.06019](https://arxiv.org/abs/1711.06019)&rbrack;
+  > (on the relation to [[orbispaces]]/[[topological stacks]])
 
 
 ### As diffeological spaces
@@ -560,7 +571,7 @@ An expected relation of orbifolds ([[orbispaces]]) to [[global equivariant homot
 
 On [[orbifolds]] regarded as naive local [[quotient spaces]] (instead of [[homotopy quotients]]/[[Lie groupoids]]/[[differentiable stacks]]) but as such formed in [[diffeological spaces]]:
 
-* {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka, _Orbifolds as diffeologies_, Transactions of the American Mathematical Society 362 (2010), 2811-2831 ([arXiv:math/0501093](https://arxiv.org/abs/math/0501093))
+* {#IKZ10} [[Patrick Iglesias-Zemmour]], [[Yael Karshon]], Moshe Zadka: _Orbifolds as diffeologies_, Transactions of the American Mathematical Society **[362](https://www.ams.org/journals/tran/2010-362-06/)** (2010) 2811-2831 &lbrack;[arXiv:math/0501093](https://arxiv.org/abs/math/0501093), [doi:10.1090/S0002-9947-10-05006-3](https://www.ams.org/journals/tran/2010-362-06/S0002-9947-10-05006-3)&rbrack;
 
 * {#Watts15} [[Jordan Watts]], _The Differential Structure of an Orbifold_, Rocky Mountain Journal of Mathematics, Vol. 47, No. 1 (2017), pp. 289-327 ([arXiv:1503.01740](https://arxiv.org/abs/1503.01740))
 
