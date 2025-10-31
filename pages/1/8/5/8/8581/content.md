@@ -1156,19 +1156,23 @@ Discussion of [[diffeological groups]] (such as [[diffeomorphism groups]] and [[
 
 * {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([MathScinet](http://www.ams.org/mathscinet-getitem?mr=607688))
 
-Exposition of the concept of smooth groupoids motivated from basic [[gauge theory]] is in 
+The notion of smooth groupoids:
 
-* {#Eggersson14} [[Ragnar Eggertsson]], _[[schreiber:bachelor thesis Eggertsson|Stacks in gauge theory]]_, 2014-
+* [[Urs Schreiber]], Def. 1.2.252 of: _[[schreiber:differential cohomology in a cohesive topos]]_ &lbrack;[arXiv:1310.7930](http://arxiv.org/abs/1310.7930)&rbrack;
+
+Exposition of the concept of smooth groupoids motivated from basic [[gauge theory]]:
+
+* {#Eggersson14} Ragnar Eggertsson: _[[schreiber:bachelor thesis Eggertsson|Stacks in gauge theory]]_ (2014)
 
 Discussion of smooth stacks as [[target spaces]] for [[sigma-model]] [[quantum field theories]] is in 
 
-* [[Tony Pantev]], [[Eric Sharpe]], _String compactifications on Calabi-Yau stacks_, Nucl.Phys. B733 (2006) 233-296, ([arXiv:hep-th/0502044](http://arxiv.org/abs/hep-th/0502044))
+* [[Tony Pantev]], [[Eric Sharpe]], _String compactifications on Calabi-Yau stacks_, Nucl. Phys. B **733** (2006) 233-296 &lbrack;[arXiv:hep-th/0502044](http://arxiv.org/abs/hep-th/0502044)&rbrack;
 
-* [[Tony Pantev]], [[Eric Sharpe]], _Gauged linear sigma-models for gerbes (and other toric stacks)_, ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
- {#PantevSharpe}
+* {#PantevSharpe} [[Tony Pantev]], [[Eric Sharpe]]: _Gauged linear sigma-models for gerbes (and other toric stacks)_, ([arXiv:hep-th/0502053](http://arxiv.org/abs/hep-th/0502053))
+ 
 
-* S. Hellerman, [[Eric Sharpe]], _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_, ([arXiv:1012.5999](http://arxiv.org/abs/1012.5999))
- {#HellermanSharpe}
+* {#HellermanSharpe} [[Simeon Hellerman]], [[Eric Sharpe]]: _Sums over topological sectors and quantization of Fayet-Iliopoulos parameters_ &lbrack;[arXiv:1012.5999](http://arxiv.org/abs/1012.5999)&rbrack;
+ 
 
 Discussion of [[geometric Langlands duality]] in terms of 2d sigma-models on stacks ([[moduli stacks]] of [[Higgs bundles]] over a given [[algebraic curve]]) is in 
 
