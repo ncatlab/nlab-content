@@ -1,4 +1,17 @@
 
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -19,44 +32,45 @@ See [He](#He) for more details.
 
 ## References
 
-Original articles include
+Original articles:
 
-* [[Pierre Deligne]], _La conjecture de Weil. II_. Inst. Hautes &#180;Etudes Sci. Publ. Math., (52):137&#8211;252, 1980.
+* [[Pierre Deligne]], _La conjecture de Weil. II_, Inst. Hautes Études Sci. Publ. Math. **52** (1980) 137-252 &lbrack;[doi:10.1007/BF02684780](https://doi.org/10.1007/BF02684780), [numdam:PMIHES_1980__52__137_0/](https://www.numdam.org/item/PMIHES_1980__52__137_0/)&rbrack;
 
-* [[Torsten Ekedahl]], _On the adic formalism_. In The Grothendieck Festschrift, Vol. II, volume 87 of Progr. Math., pages 197&#8211;218. Birkh&#228;user Boston, Boston, MA, 1990.
+* [[Torsten Ekedahl]]: _On the adic formalism_. In The Grothendieck Festschrift, Vol. II, Progr. Math. **87**, Birkh&#228;user (2007) 197-218 &lbrack;[doi:10.1007/978-0-8176-4575-5_4](https://doi.org/10.1007/978-0-8176-4575-5_4)&rbrack;
 
-* Alexander Beilinson, _Constructible sheaves are holonomic_, Selecta Mathematica 22 (2016) 1797-1819; a slightly updated version (with respect to the published one) is at [arxiv/1505.06768](http://arxiv.org/abs/1505.06768)
-
-
-An introductory survey is in
-
-* Florian Klein, Gerrit Begher, _Constructible Sheaves and their derived category_ ([pdf](http://www.mathematik.uni-stuttgart.de/~geckmf/skyefiles/talk10.pdf))
+* [[Alexander Beilinson]]: _Constructible sheaves are holonomic_, Selecta Mathematica **22** (2016) 1797-1819; &lbrack;[doi:10.1007/s00029-016-0260-z](https://doi.org/10.1007/s00029-016-0260-z),
+[arXiv:1505.06768](https://arxiv.org/abs/1505.06768)&rbrack;
+  >(arXiv version slightly updated after publication)
 
 
-A list of relevant definitions and facts is at
+An introductory survey:
 
-* [[Günter Tamme]], section II 9.3.2 _[[Introduction to Étale Cohomology]]_
-
-* [[James Milne]], section 17 _[[Lectures on Étale Cohomology]]_
+* Florian Klein, Gerrit Begher: _Constructible Sheaves and their derived category_ &lbrack;[pdf](http://www.mathematik.uni-stuttgart.de/~geckmf/skyefiles/talk10.pdf)&rbrack;
 
 
-* [[The Stacks Project]], _[44.62. Constructible sheaves](http://stacks.math.columbia.edu/tag/05BE)_
+A list of relevant definitions and facts:
+
+* [[Günter Tamme]], section II 9.3.2 in: _[[Introduction to Étale Cohomology]]_
+
+* [[James Milne]], section 17 of: _[[Lectures on Étale Cohomology]]_
+
+
+* [[The Stacks Project]]: _[44.62. Constructible sheaves](http://stacks.math.columbia.edu/tag/05BE)_
 
 and with more on [[chain complexes of sheaves]] and [[abelian sheaf cohomology]] in 
 
-* Bhargav Bhatt, [[Peter Scholze]], section 6.3 of _The pro-&#233;tale topology for schemes_ ([arXiv:1309.1198](http://arxiv.org/abs/1309.1198))
- {#BhattScholze13}
-
+* {#BhattScholze13} [[Bhargav Bhatt]], [[Peter Scholze]], section 6.3 of: _The pro-&#233;tale topology for schemes_ &lbrack;[arXiv:1309.1198](http://arxiv.org/abs/1309.1198)&rbrack;
+ 
 with an eye towards the application in [[l-adic cohomology]]/the [[pro-étale topos]].
 
 A general definition in terms of [[(∞,1)-toposes]]:
 
-* {#He} Li He, _An internal description of constructible objects in an ∞-topos_, [arXiv](https://arxiv.org/abs/2510.25248v1).
+* {#He} Li He: _An internal description of constructible objects in an $\infty$-topos_, &lbrack;[arXiv:2510.25248](https://arxiv.org/abs/2510.25248)&rbrack;
 
 
-See also
+See also:
 
-* [[Jacob Lurie]], _Constructible sheaves_ ([pdf](http://www.math.harvard.edu/~lurie/287xnotes/Lecture18.pdf))
+* [[Jacob Lurie]]: _Constructible sheaves_ &lbrack;[pdf](http://www.math.harvard.edu/~lurie/287xnotes/Lecture18.pdf)&rbrack;
 
 
 [[!redirects constructible sheaves]]
