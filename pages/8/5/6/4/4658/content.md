@@ -14,9 +14,8 @@
 =--
 
 
-# Contents
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -37,7 +36,7 @@ If we regard Lie groupoids as special cases of [[stacks]] on [[Diff]] ([[smooth 
 
 ## References
 
-Diffeological groups were intoduced in
+Original discussion of [[diffeological groups]]:
 
 * {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([doi:10.1007/BFb0089728](https://doi.org/10.1007/BFb0089728), [mr:607688](http://www.ams.org/mathscinet-getitem?mr=607688))
 
@@ -45,9 +44,29 @@ Diffeological groups were intoduced in
 
 motivated by the examples appearing in [[geometric quantization]], such as the (Hamiltonian) [[diffeomorphism group]] and its [[quantomorphism group]] extension.
 
-Textbook account:
+The definition of diffeological groupoids:
 
-* {#PIZ} [[Patrick Iglesias-Zemmour]], Chapter 7 of: _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [ ISBN:978-0-8218-9131-5](https://bookstore.ams.org/surv-185))
+* {#PIZ} [[Patrick Iglesias-Zemmour]], §8.3 of: _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [ ISBN:978-0-8218-9131-5](https://bookstore.ams.org/surv-185))
+
+Historical survey:
+
+* [[Patrick Iglesias-Zemmour]]: *Groupoids in Diffeology* &lbrack;[arXiv:2508.17484](https://arxiv.org/abs/2508.17484)&rbrack;
+
+On [[Morita equivalence]] of diffeological groupoids:
+
+* [[Nesta van der Schaaf]]: *Diffeology, Groupoids & Morita Equivalence*, MSc thesis, Radboud University (2020) &lbrack;[pdf](https://www.math.ru.nl/~landsman/NestaM.pdf)&rbrack;
+
+* [[Nesta van der Schaaf]]: *Diffeological Morita Equivalence*, [[Cahiers]] de Topologie et Géométrie Différentielle Catégoriques **LXII** 2 (2021) 177-238 &lbrack;[arXiv:2007.09901](https://arxiv.org/abs/2007.09901), [pdf](https://cahierstgdc.com/wp-content/uploads/2021/04/Van-der-Schaaf-_LXII-2.pdf)&rbrack;
+
+On [[Lie theory]] for diffeological groupoids:
+
+* [[Christian Blohmann]]: *Lectures on Diffeological Groupoids*, Vienna (2021) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/blohmann/Diffeological_groupoids.pdf), [[Blohmann-DiffeologicalGroupoids.pdf:file]]&rbrack;
+
+As a special case of [[smooth groupoids]] (and [[smooth infinity-groupoids]]):
+
+{#SatiSchreiber26} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-Bundles]]*, Cambridge University Press (2025) &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+
+* {#SatiSchreiber26} [[Hisham Sati]], [[Urs Schreiber]], Ex. 4.1.19 in: _[[schreiber:Geometric Orbifold Cohomology]]_, CRC Press (2026) &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
 
 
 [[!redirects diffeological groupoid]]
