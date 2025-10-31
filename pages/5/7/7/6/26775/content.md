@@ -73,7 +73,7 @@ We describe the spindle orbifold [as a proper étale Lie groupoid](orbifold#Defi
     \mathrlap{\,,}
   \]
 
-where the subscripts only serve to [[indexed set|index]] the [[direct sum|direct summands]]. 
+where the subscripts on the copies of [[complex line|$\mathbb{C}$]] only serve to [[indexed set|index]] the [[direct sum|direct summands]]. 
 
 Here the first pair of direct summands may be referred to as the "internal" morphisms (as they will operate within either chart, implementing here the actual orbi-singularities), and the second pair of summands as the "external" or "gluing" morphisms (as they operate between charts, implementing nothing but their gluing).
 
@@ -153,7 +153,7 @@ Finally, the general gluing morphism is the unique composite
 
 $$
   \big(
-    (v,\pm,\mp), [k_\pm], [k_\mp]
+    (v,\pm\mp), [k_\pm], [k_\mp]
   \big)
   \;\equiv\;
   \big(
@@ -176,7 +176,7 @@ $$
   (s,t)
   \;\colon\;
   \big(
-    (v,\pm,\mp), [k_\pm], [k_\mp]
+    (v,\pm\mp), [k_\pm], [k_\mp]
   \big)
   \mapsto
   \big(
@@ -194,6 +194,7 @@ $$
 
 * [[teardrop orbifold]]
 
+* [[branched cover of the Riemann sphere]]
 
 ## Literature
 
