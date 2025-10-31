@@ -146,6 +146,8 @@ General abstract discussion is in:
 
 * [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], *Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism*, Compositio Math. **152** (2016) 1740-1776 &lbrack;[arXiv:1501.01999](http://arxiv.org/abs/1501.01999), [doi:10.1112/S0010437X16007375](https://doi.org/10.1112/S0010437X16007375)&rbrack;
 
+* [[Peter Scholze]], _Six-Functor Formalisms_ &lbrack;[arXiv:2510.26269](https://arxiv.org/abs/2510.26269)&rbrack;
+
 
 Lecture notes:
 
