@@ -1,8 +1,10 @@
-#Contents#
-* automatic table of contents goes here
-{:toc}
 
-##Definition 
+# Contents
+* automatic table of contents goes here
+{: toc}
+
+
+## Definition 
 
 A __Malcev operation__ on a [[set]] $X$ is a ternary operation, a [[function]]
 
@@ -22,6 +24,7 @@ An [[algebraic theory]] $T$ is a __Malcev theory__ when $T$ contains a Malcev op
 Statement (1) is one of the motivations to introduce the notion of [[Malcev category]]. 
 
 A __Malcev variety__ is the category of $T$-algebras for a Malcev theory $T$, thought of as a [[variety of algebras]]. 
+
 
 ## Proofs of equivalence 
 
@@ -78,6 +81,7 @@ $$\phi(t) = b \qquad \psi(t) = a$$
 Let $R$ be the equivalence relation on $F(3)$ given by the kernel pair of $\phi$, and let $S$ be the kernel pair of $\psi$. Then $R(x, y)$ and $S(y, z)$, so $(S \circ R)(x, z)$. Then, since composition of equivalence relations is assumed commutative, $(R \circ S)(x, z)$. This means there exists $t$ such that $S(x, t)$ and $R(t, z)$, or that $\psi(x) = \psi(t)$ and $\phi(t) = \phi(z)$. This completes the proof. 
 =--
 
+
 ## Examples 
 
 * The theory of [[group]]s, where $t(x, y, z) = x y^{-1} z$, is Malcev. 
@@ -89,6 +93,7 @@ is Malcev.
 * If $T$ is Malcev, and if $T \to T'$ is a morphism of algebraic theories, then $T'$ is Malcev. From this point of view, the theory of groups is Malcev because the theory of heaps is Malcev, and the theory of Heyting algebras is Malcev because the theory of [[cartesian closed category|cartesian closed]] [[meet-semilattice]]s is Malcev. 
 
 See also [[Malcev category]]. 
+
 
 ## The lattice of congruences $Equiv(X)$
 
@@ -131,6 +136,7 @@ and also $S \vee (R \wedge T) \subseteq R \wedge (S \vee T)$. Thus $S \subseteq 
 If $T$ is a Malcev theory, then the lattice of congruences $Equiv(X)$ on any $T$-algebra $X$ is a modular lattice. 
 =--
 
+
 ### $Equiv(X)$ is a Desarguesian lattice 
 
 A similar argument shows that congruence lattices for $T$-algebras $X$, for $T$ a Malcev theory, satisfy the following property (stronger than the modular property):
@@ -143,6 +149,7 @@ Freyd-Scedrov's [[Categories, Allegories]] (2.157, pp. 206-207) gives the follow
 $$R_2 R_1 \cap S_2 S_2 \subseteq T_2 T_1 \qquad implies \qquad S_1 R_{1}^{op} \cap S_{2}^{op} R_2 \subseteq (S_1 T_{1}^{op} \wedge S_{2}^{op} T_2)(T_1 R_{1}^{op} \cap T_{2}^{op}R_2)$$ 
 
 Then, under the assumption that equivalence relations internal to $T$-$Alg$ commute (so that the join of equivalence relations $R, S$ on $X$ is their relational composite $R S = R \circ S$), the Desarguesian axiom follows immediately. 
+
 
 ## Generalized Malcev operations and connection to unorderability and recursion
 
@@ -162,7 +169,8 @@ An algebra has a _generalized_ Malcev operation if and only if it is absolutely 
 Here, a generalized Malcev operation is a finite sequence of ternary operations $M_1\dots M_n$ such that 
 
 $$ t = M_1(t,u,u);\ \  M_1(t,t,u)=M_2(t,u,u);\ \  M_2(t,t,u) = M_3(t,u,u);\ \  \dots M_n(t,t,u)=u.$$
- 
+
+
 ### Recursion and the lambda calculus
 
 Orders are often used to explain [[recursion]], by saying that a recursive definition has a solution via [[Kleene's fixed point theorem]]. Since the [[lambda calculus]] is a famous calculus for computation and recursion, there is a question (attributed to [[Gordon Plotkin]]) of whether the [[lambda calculus]] is necessarily orderable to some extent. [[Peter Selinger]] then asked, is the lambda calculus inconsistent with Malcev operators? 
@@ -177,6 +185,7 @@ There can be no generalized Malcev operator with $n=1$ or $n=2$ in the lambda ca
 ######Question
 For $n\gt 2$, it is an open question whether generalized Malcev operators are consistent with the lambda calculus. 
 =--
+
 
 ## References
 
@@ -194,7 +203,8 @@ For the characterisation of [[categories]] which are [[localizations]] of [[Malt
 ## Spelling
 
 The original is 'Мальцев'; Malcev spelled his name as 'Malcev' in his non-Russian papers.
-This has also been transliterated 'Mal'cev', 'Mal'tsev' and 'Maltsev'.
+This has also been transliterated 'Malʹcev', 'Malʹtsev' and 'Maltsev'.
+
 
 ## Related concepts
 
@@ -202,23 +212,43 @@ This has also been transliterated 'Mal'cev', 'Mal'tsev' and 'Maltsev'.
 
 * [[pseudo-torsor]], [[heap]]
 
+
+[[!redirects Malcev variety]]
+[[!redirects Malcev varieties]]
+[[!redirects Malcev operation]]
+[[!redirects Malcev operations]]
+[[!redirects Malcev theory]]
+[[!redirects Malcev theories]]
+[[!redirects Malʹcev variety]]
+[[!redirects Malʹcev varieties]]
+[[!redirects Malʹcev operation]]
+[[!redirects Malʹcev operations]]
+[[!redirects Malʹcev theory]]
+[[!redirects Malʹcev theories]]
 [[!redirects Mal'cev variety]]
 [[!redirects Mal'cev varieties]]
 [[!redirects Mal'cev operation]]
 [[!redirects Mal'cev operations]]
 [[!redirects Mal'cev theory]]
 [[!redirects Mal'cev theories]]
-[[!redirects Malcev varieties]]
-[[!redirects Malcev operation]]
-[[!redirects Malcev operations]]
-[[!redirects Malcev theory]]
-[[!redirects Malcev theories]]
 [[!redirects Maltsev variety]]
 [[!redirects Maltsev varieties]]
 [[!redirects Maltsev operation]]
 [[!redirects Maltsev operations]]
 [[!redirects Maltsev theory]]
-[[!redirects Maltsev theories]] 
+[[!redirects Maltsev theories]]
+[[!redirects Malʹtsev variety]]
+[[!redirects Malʹtsev varieties]]
+[[!redirects Malʹtsev operation]]
+[[!redirects Malʹtsev operations]]
+[[!redirects Malʹtsev theory]]
+[[!redirects Malʹtsev theories]]
+[[!redirects Mal'tsev variety]]
+[[!redirects Mal'tsev varieties]]
+[[!redirects Mal'tsev operation]]
+[[!redirects Mal'tsev operations]]
+[[!redirects Mal'tsev theory]]
+[[!redirects Mal'tsev theories]]
 [[!redirects Мальцев variety]]
 [[!redirects Мальцев varieties]]
 [[!redirects Мальцев operation]]
