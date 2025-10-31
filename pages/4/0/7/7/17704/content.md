@@ -53,8 +53,8 @@ strength (a, fb) = fmap (a,) fb
 
 ## References
 
-* [[Conor Mcbride]], Ross Paterson: _Applicative programming with effects_, Journal of Functional Programming **18** 01 (2008) 1-13 &lbrack;[doi:10.1017/S0956796807006326](https://doi.org/10.1017/S0956796807006326); [author’s version](http://www.staff.city.ac.uk/~ross/papers/Applicative.html)&rbrack
+* [[Conor McBride]], Ross Paterson: _Applicative programming with effects_, Journal of Functional Programming **18** 01 (2008) 1-13 &lbrack;[doi:10.1017/S0956796807006326](https://doi.org/10.1017/S0956796807006326); [author’s version](http://www.staff.city.ac.uk/~ross/papers/Applicative.html)&rbrack;
 
-* Ross Paterson, _Constructing Applicative Functors_, in Mathematics of Program Construction, Madrid, 2012, Lecture Notes in Computer Science vol. 7342, pp. 300-323, Springer, 2012. ([paper](http://www.staff.city.ac.uk/~ross/papers/Constructors.html))
+* Ross Paterson: _Constructing Applicative Functors_, in: *Mathematics of Program Construction, Madrid, 2012*, Lecture Notes in Computer Science **7342**, Springer, (2012) 300-323 &lbrack;[doi:10.1007/978-3-642-31113-0_15](https://doi.org/10.1007/978-3-642-31113-0_15), [webpage](http://www.staff.city.ac.uk/~ross/papers/Constructors.html)&rbrack;
 
 [[!redirects applicative functors]]
