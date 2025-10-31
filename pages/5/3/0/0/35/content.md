@@ -384,23 +384,26 @@ Historical review:
 
 * [[Jean Pradines]], _In [[Ehresmann]]'s footsteps: from Group Geometries to Groupoid Geometries_, Banach Center Publications, vol. 76, Warsawa 2007, 87-157 ([arXiv:0711.1608](http://arxiv.org/abs/0711.1608), [doi:10.4064/bc76-0-5 ](https://www.impan.pl/en/publishing-house/banach-center-publications/all/76/0/86184/in-ehresmann-s-footsteps-from-group-geometries-to-groupoid-geometries))
 
-
-The relation to [[differentiable stacks]] is discussed/reviewed in section 2 of
-
-* {#Blohmann} [[Christian Blohmann]], _Stacky Lie groups_, Int. Mat. Res. Not. (2008) Vol. 2008: article ID rnn082 ([arXiv:math/0702399](http://arxiv.org/abs/math/0702399))
- 
-
 Lie groupoids as a source for [[groupoid convolution algebras|groupoid convolution]] [[C*-algebras]] are discussed in 
 
-* [[Alain Connes]], _[[Noncommutative Geometry]]_
+* [[Alain Connes]]: _[[Noncommutative Geometry]]_, Academic Press (1994) &lbrack;[ISBN:9780080571751](https://www.elsevier.com/books/noncommutative-geometry/connes/978-0-08-057175-1), [pdf](http://www.alainconnes.org/docs/book94bigpdf.pdf)&rbrack;
 
 Review:
 
-* [[John Baez]]  _[TWF](http://math.ucr.edu/home/baez/TWF.html) [256](http://math.ucr.edu/home/baez/week256.html)_
+* [[John Baez]]:  _[TWF](http://math.ucr.edu/home/baez/TWF.html) [256](http://math.ucr.edu/home/baez/week256.html)_
 
 * [[Alan Weinstein]], _Groupoids: Unifying Internal and External Symmetry -- A Tour through some Examples_, Notices of the AMS **43** 7 (1996) &lbrack;[pdf](http://www.ams.org/notices/199607/weinstein.pdf), [[Weinstein_Groupoids.pdf:file]]&rbrack;
 
 * [[Henrique Bursztyn]], Matias del Hoyo, *Lie Groupoids*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2309.14105](https://arxiv.org/abs/2309.14105)&rbrack;
+
+Most discussion of [[orbifolds]] [proper étale groupoids](orbifold#DefinitionViaProperEtaleGroupoids) include a review of Lie groupoids, see the references
+
+* [there](#orbifold#ReferencesAsLieGroupoids) 
+
+Review of the relation to [[differentiable stacks]]:
+
+* {#Blohmann08} [[Christian Blohmann]], Section 2 of: _Stacky Lie groups_, Int. Mat. Res. Not. **2008** rnn082 (2008)  &lbrack;[arXiv:math/0702399](http://arxiv.org/abs/math/0702399), [doi:10.1093/imrn/rnn082](https://doi.org/10.1093/imrn/rnn082)&rbrack;
+
 
 Groupoids and their various morphisms between them in different categories, including in Diff, is also in
 
