@@ -131,10 +131,11 @@ Relation to [[pseudofunctors]] with values in [[CatAdj|$Cat_{Adj}$]] and [[ModCa
 
 * {#CagneMelliès20} [[Pierre Cagne]], [[Paul-André Melliès]], *On bifibrations of model categories*, Advances in Mathematics **370** (2020) 107205 &lbrack;[arXiv:1709.10484](https://arxiv.org/abs/1709.10484), [doi:10.1016/j.aim.2020.107205](https://doi.org/10.1016/j.aim.2020.107205)&rbrack;
 
+Discrete bifibrations (i.e. functors that are both [[discrete fibrations]] and [[discrete opfibrations]]) are termed **coverings** in:
 
-
-
-
+* Samantha Parle, _A note on Robert Paré's notion of universal covering category_, [[TAC]] (2025), ([url](http://www.tac.mta.ca/tac/volumes/44/34/44-34abs.html))
 
 
 [[!redirects bifibrations]]
+[[!redirects discrete bifibration]]
+[[!redirects discrete bifibrations]]
