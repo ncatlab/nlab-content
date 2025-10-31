@@ -9,6 +9,7 @@
 =--
 =--
 
+
 # Contents
 * table of contents
 {: toc}
@@ -100,7 +101,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The analogous definition for more than two arguments yields __multilinear maps__. There is a [[multicategory]] of abelian groups and multilinear maps between them; the bilinear maps are the [[binary morphisms]], and the multilinear maps are the [[multimorphisms]]. 
+The analogous definition for more than two arguments yields __[[multilinear maps]]__. There is a [[multicategory]] of abelian groups and [[multilinear maps]] between them; the bilinear maps are the [[binary morphisms]], and the multilinear maps are the [[multimorphisms]]. 
 
 =--
 
@@ -137,7 +138,6 @@ $$
   \,.
 $$
 
-__Multilinear maps__ are again a generalisation.
 
 ### For bimodules
 
@@ -173,7 +173,6 @@ $$
   \,.
 $$
 
-__Multilinear maps__ are again a generalisation.
 
 ### For $\infty$-modules
  {#ForInfinityModules}
@@ -236,7 +235,9 @@ If $f$ is a trilinear map that alternates in each adjacent pair of arguments, th
 
 ## Related concepts
 
-* [[binary function]], **bilinear map**, **multilinear map**
+* [[multilinear map]]
+
+* [[binary function]] 
 
 * [[binary morphism]], [[multimorphism]]
 
@@ -260,12 +261,6 @@ In the context of [[higher algebra]]/[[(∞,1)-category theory]] [[bilinear maps
 [[!redirects bilinear operator]]
 [[!redirects bilinear operators]]
 
-[[!redirects multilinear map]]
-[[!redirects multilinear maps]]
-[[!redirects multilinear mapping]]
-[[!redirects multilinear mappings]]
-[[!redirects multilinear function]]
-[[!redirects multilinear functions]]
 
 [[!redirects bilinear map in an (∞,1)-category]]
 [[!redirects bilinear maps in an (∞,1)-category]]
