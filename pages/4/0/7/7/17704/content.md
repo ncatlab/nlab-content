@@ -32,7 +32,7 @@ and
 ```
 instance Applicative List where
   pure x = repeat x
-  fs <*> xs = zipWith ($) fs xs
+  fs <*> xs = zipWith (\f x -> f x) fs xs
 
 instance Monoidal List where
   unit = repeat ()
