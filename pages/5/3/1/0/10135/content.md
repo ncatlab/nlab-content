@@ -128,7 +128,7 @@ $$
    }
 $$
 
-This "unity of opposites" may be captured by the [[modalities]] on the [[singular-cohesive (infinity,1)-topos|singular-cohesive $\infty$-topos]]  of [[singular-smooth infinity-groupoid|singular-smooth $\infty$-groupoids]]. Its intrinsic [[cohomology]] accomodates a good notion of orbifold cohomology ([SaSc 2020](#SatiSchreiber20)).
+This "unity of opposites" may be captured by the [[modalities]] on the [[singular-cohesive (infinity,1)-topos|singular-cohesive $\infty$-topos]]  of [[singular-smooth infinity-groupoid|singular-smooth $\infty$-groupoids]]. Its intrinsic [[cohomology]] accomodates a good notion of orbifold cohomology ([SaSc 2026](#SatiSchreiber26)).
 
 
 ## Related concepts
@@ -184,7 +184,9 @@ The observation of the [[cohesion of global- over G-equivariant homotopy theory]
 
 A formulation of orbifold cohomology in the [[singular-cohesive (infinity,1)-topos|singular-cohesive $\infty$-topos]] of [[singular-smooth infinity-groupoids|singular-smooth $\infty$-groupoids]] is then discussed in:
 
-* {#SatiSchreiber20} [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+{#SatiSchreiber26} [[Hisham Sati]], [[Urs Schreiber]], Rem. 6.2.4 in: *[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-Bundles]]*, Cambridge University Press (2025) &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+
+* {#SatiSchreiber26} [[Hisham Sati]], [[Urs Schreiber]]: _[[schreiber:Geometric Orbifold Cohomology]]_, CRC Press (2026) &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
 
 * [[Adrian Clough]], [[Bastiaan Cnossen]], [[Sil Linskens]]: *Global spaces and the homotopy theory of stacks* &lbrack;[arXiv:2407.06877](https://arxiv.org/abs/2407.06877)&rbrack;
 
