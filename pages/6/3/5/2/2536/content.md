@@ -376,6 +376,8 @@ For more details see [[semilattice of commutative subalgebras]].
 
 * [[exceptional Jordan algebra]]/[[Albert algebra]]
 
+* [[Jordan triple system]]
+
 ## References
 
 The original articles:
@@ -396,8 +398,7 @@ Textbooks:
 
 * {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], Chapter 5 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000.
 
-* Harald Upmeier, _Jordan Algebras in Analysis, Operator Theory, and 
-Quantum Mechanics_, AMS, 1987.
+* Harald Upmeier, _Jordan Algebras in Analysis, Operator Theory, and Quantum Mechanics_, AMS, 1987.
 
 Introductions and surveys include:
 
