@@ -22,6 +22,9 @@ On [[Lie algebras]]:
 
 * [[Nathan Jacobson]]: *Lie Algebras*, Dover Books (1979) &lbrack;[ISBN:9780486638324](https://store.doverpublications.com/products/9780486638324)&rbrack;
 
+On [[Lie triple system|Lie triple systems]]:
 
+* {#Jacobson49} [[Nathan Jacobson]], _Lie and Jordan triple systems_, American Journal of Mathematics, __71__ (1949) 149–170, [jstor](https://www.jstor.org/stable/2372102).  In: Nathan Jacobson, Collected Mathematical Papers. Contemporary Mathematicians. Birkhäuser Boston 1989 [doi](https://doi.org/10.1007/978-1-4612-3694-8_2)
+* {#Jacobson51} [[Nathan Jacobson]], _General representation theory of Jordan algebras_ (1951), Trans. Amer. Math. Soc. **70**, p. 509–530
 
 category: people
