@@ -40,7 +40,7 @@ Just as two algebras are Morita equivalent if their categories of modules are eq
 
 Sending a [[Lie groupoid]] to the [[smooth stack]] it represents constitutes an [[equivalence of (infinity,1)-categories]] between [[Lie groupoids]] with Morita morphisms/[[bibundles]] between them and differentiable stacks.
 
-(e.g. [Blohmann 07](#Blohmann), [Carchedi 11](#Carchedi11)). For review in a broader context see also [Nuiten 13, around prop. 2.2.34](#Nuiten13)
+(e.g. [Blohmann 2008](#Blohmann08), [Carchedi 2011](#Carchedi11)). For review in a broader context see also [Nuiten 13, around prop. 2.2.34](#Nuiten13)
 
 ### Other descriptions
 
@@ -85,15 +85,17 @@ For $X$, $Y$ two differentiable stacks, there is the [[mapping stack]] $[X,Y]$, 
 
 ## References
 
+> See also the references at *[[Lie groupoid]]*.
+
 A comprehensive account is in
 
 * {#Carchedi11} [[David Carchedi]], _Categorical Properties of Topological and Diffentiable Stacks_, PhD thesis, Universiteit Utrecht, 2011 ([dspace:1874/208971](https://dspace.library.uu.nl/handle/1874/208971), [pdf](http://math.gmu.edu/~dcarched/Thesis_David_Carchedi.pdf), [[CarchediDifferentiableStacks.pdf:file]])
 
 
 
-See also
+See also:
 
-* {#Blohmann} [[Christian Blohmann]], _Stacky Lie groups_, Int. Mat. Res. Not. (2008) Vol. 2008 rnn082 ([arXiv:math/0702399](http://arxiv.org/abs/math/0702399), [doi:10.1093/imrn/rnn082](https://doi.org/10.1093/imrn/rnn082))
+* {#Blohmann08} [[Christian Blohmann]]: _Stacky Lie groups_, Int. Mat. Res. Not. **2008** rnn082 (2008)  &lbrack;[arXiv:math/0702399](http://arxiv.org/abs/math/0702399), [doi:10.1093/imrn/rnn082](https://doi.org/10.1093/imrn/rnn082)&rbrack;
  
 * [[Kai Behrend]], [[Ping Xu]], _Differentiable Stacks and Gerbes_ J. Symplectic Geom. Volume 9, Number 3 (2011), 285-341. ([arXiv:math/0605694](http://arxiv.org/abs/arXiv:math/0605694))
 
