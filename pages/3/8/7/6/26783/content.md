@@ -24,7 +24,8 @@ On [[Lie algebras]]:
 
 On [[Lie triple system|Lie triple systems]]:
 
-* {#Jacobson49} [[Nathan Jacobson]], _Lie and Jordan triple systems_, American Journal of Mathematics, __71__ (1949) 149–170, [jstor](https://www.jstor.org/stable/2372102).  In: Nathan Jacobson, Collected Mathematical Papers. Contemporary Mathematicians. Birkhäuser Boston 1989 [doi](https://doi.org/10.1007/978-1-4612-3694-8_2)
-* {#Jacobson51} [[Nathan Jacobson]], _General representation theory of Jordan algebras_ (1951), Trans. Amer. Math. Soc. **70**, p. 509–530
+* {#Jacobson49} [[Nathan Jacobson]]: _Lie and Jordan triple systems_, American Journal of Mathematics __71__ (1949) 149–170 &lbrack;[jstor:2372102](https://www.jstor.org/stable/2372102)&rbrack; also in: *Nathan Jacobson, Collected Mathematical Papers*, Contemporary Mathematicians. Birkhäuser Boston (1989) &lbrack;[doi:10.1007/978-1-4612-3694-8_2](https://doi.org/10.1007/978-1-4612-3694-8_2)*rbrack;
+
+* {#Jacobson51} [[Nathan Jacobson]]: _General representation theory of Jordan algebras_, Trans. Amer. Math. Soc. **70** (1951) 509–530 &lbrack;[doi:10.1007/978-1-4612-3694-8_9](https://doi.org/10.1007/978-1-4612-3694-8_9), [doi:10.2307/1990612](https://doi.org/10.2307/1990612), [jstor:1990612](https://www.jstor.org/stable/1990612)&rbrack;
 
 category: people
