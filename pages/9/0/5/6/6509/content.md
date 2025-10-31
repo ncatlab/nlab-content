@@ -11,6 +11,16 @@ On [[higher gauge theory]] for [[principal 2-bundles]] [[connection on a 2-bundl
 
 * [[Florian Girelli]], [[Hendryk Pfeiffer]], *Higher gauge theory -- differential versus integral formulation*, J. Math. Phys. **45** (2004) 3949-3971 &lbrack;[hep-th/0309173](http://arxiv.org/abs/hep-th/0309173), [doi:10.1063/1.1790048](https://doi.org/10.1063/1.1790048)&rbrack; 
 
+In a broader context of [[higher gauge theory]] and relating to the [[Dirac monopole]]:
+
+* [[Hank Chen]], [[Florian Girelli]], *Gauging the Gauge and Anomaly Resolution* &lbrack;[arXiv:2211.08549](https://arxiv.org/abs/2211.08549)&rbrack;
+
+
+On [[Snyder spacetimes]] and [[Lie triple systems]]:
+
+* {#Girelli10} [[Florian Girelli]]: _Snyder space-time: K-loop and Lie triple system_, SIGMA Symmetry Integrability Geom. Methods Appl. __6__ 074 (2010) &lbrack;[sigma:2010/074](http://www.emis.de/journals/SIGMA/2010/074), [pdf](http://www.emis.de/journals/SIGMA/2010/074/sigma10-074.pdf), [arxiv/1009.4762](http://arxiv.org/abs/1009.4762)&rbrack;
+
+
 See also:
 
 * Aristide Baratin, Florian Girelli, Daniele Oriti,  _Diffeomorphisms in group field theories_, Physical Review D, vol. 83, Issue 10, id. 104051, [doi](http://dx.doi.org/10.1103/PhysRevD.83.104051), [arxiv/1101.0590](http://arxiv.org/abs/1101.0590)
@@ -26,9 +36,6 @@ Born Symposium: The Planck Scale (Wroclaw, Poland, 2009), AIP Conf. Proc. 1196, 
 
 * F. Girelli, E. R. Livine, _Scalar field theory in Snyder space-time: alternatives_, [arXiv:1004.0621](ttp://arxiv.org/abs/1004.0621)
 
-In a broader context of [[higher gauge theory]] and relating to the [[Dirac monopole]]:
-
-* [[Hank Chen]], [[Florian Girelli]], *Gauging the Gauge and Anomaly Resolution* &lbrack;[arXiv:2211.08549](https://arxiv.org/abs/2211.08549)&rbrack;
 
 
 [[!redirects F. Girelli]]
