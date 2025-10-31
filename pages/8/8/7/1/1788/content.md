@@ -6,7 +6,27 @@
 ***
 
 
-[[Thurston-NamingOrbifold.png:file]]
+
+```
+instance Applicative List where
+  pure x = repeat x
+  fs <*> xs = zipWith ($) fs xs
+  ($)
+
+instance Monoidal List where
+  unit = repeat ()
+  as ⊗ bs = zip as bs
+```
+
+with the canonical strength being defined as follows:
+
+```
+strength :: Functor f => (a, f b) -> f (a, b)
+strength (a, fb) = fmap (a,) fb
+```
 
 
-(...)
+## Related concepts
+
+* [[arrow (in computer science)]]
+
