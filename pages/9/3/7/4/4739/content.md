@@ -9,7 +9,12 @@
 
 ## Selected writings
 
-On [[Lie theory]] for diffeological groupoids:
+On [[Lie groupoids]], [[Lie 2-groups]] and [[differentiable stacks]]:
+
+* [[Christian Blohmann]]: _Stacky Lie groups_, Int. Mat. Res. Not. **2008** rnn082 (2008)  &lbrack;[arXiv:math/0702399](http://arxiv.org/abs/math/0702399), [doi:10.1093/imrn/rnn082](https://doi.org/10.1093/imrn/rnn082)&rbrack;
+
+
+On [[Lie theory]] for [[diffeological groupoids]]:
 
 * [[Christian Blohmann]]: *Lectures on Diffeological Groupoids*, Vienna (2021) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/blohmann/Diffeological_groupoids.pdf), [[Blohmann-DiffeologicalGroupoids.pdf:file]]&rbrack;
 
