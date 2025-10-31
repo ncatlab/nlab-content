@@ -264,6 +264,9 @@ See also:
 
 * Cédric Deffayet, [[Burt Ovrut]], [[Paul Steinhardt]], *Stable Vacua with Realistic Phenomenology and Cosmology in Heterotic M-theory Satisfying Swampland Conjectures* &lbrack;[arXiv:2401.04828](https://arxiv.org/abs/2401.04828)&rbrack;
 
+* Mario Reig, Ignacio Ruiz: *The dark dimension, proton decay, and the length of the M-theory interval* &lbrack;[arXiv:2510.25832](https://arxiv.org/abs/2510.25832)&rbrack;
+
+
 
 
 
