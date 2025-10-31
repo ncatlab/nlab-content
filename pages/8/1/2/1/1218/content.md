@@ -496,7 +496,7 @@ A discussion of the relations of variants of the definition is in
 
 Following Souriau, a comprehensive textbook account of [[differential geometry]] formulated in terms of [[diffeological spaces]] (and coining that term) is 
 
-* {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [ ISBN:978-0-8218-9131-5](https://bookstore.ams.org/surv-185))
+* {#PIZ} [[Patrick Iglesias-Zemmour]]: _Diffeology_ Mathematical Surveys and Monographs, AMS (2013) &lbrack;[web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [ ISBN:978-0-8218-9131-5](https://bookstore.ams.org/surv-185)&rbrack;
   
 following the thesis
 
