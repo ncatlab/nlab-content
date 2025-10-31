@@ -50,6 +50,8 @@ In [[operator algebra|operator theory]], one sometimes distinguishes 'linear map
 
 * [[function]], [[quadratic function]], [[polynomial function]]
 
+* [[bilinear map]], [[multilinear map]]
+
 * [[operator product]]
 
 * [[linear isomorphism]], [[linear isometry]]
