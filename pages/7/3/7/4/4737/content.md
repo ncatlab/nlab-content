@@ -117,3 +117,6 @@ is an [[isomorphism]].
 
 
 [[!redirects groupoid principal bundles]]
+
+[[!redirects groupoid torsor]]
+[[!redirects groupoid torsors]]
