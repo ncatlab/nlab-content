@@ -69,6 +69,12 @@ On [[Noncommutative Geometry]] and [[diffeology]]:
 
 * [[Patrick Iglesias-Zemmour]], Elisa Prato, *Quasifolds, diffeology and noncommutative geometry*, Journal of Noncommutative Geometry, volume 15, issue 2 (2021). [doi 10.4171/jncg/419] (https://doi.org/10.4171/jncg/419).
 
+On [[diffeological groupoids]]:
+
+* [[Patrick Iglesias-Zemmour]]: *Groupoids in Diffeology* &lbrack;[arXiv:2508.17484](https://arxiv.org/abs/2508.17484)&rbrack;
+
+
+
 ## Related entries
 
 * [[diffeological space]]
