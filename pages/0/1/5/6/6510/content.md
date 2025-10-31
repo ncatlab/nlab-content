@@ -1,18 +1,32 @@
-# Contents
-* table of contents
-{: toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
 
 ## Idea 
 
-In any [[Lie algebra]] we can define the **triple commutator** of three elements by 
+In any [[Lie algebra]] we can define the **triple [[commutator]]** of three elements by 
 
-$$ [a,b,c] = [[a,b],c], $$
+$$ 
+  [a,b,c] \;\coloneqq\; \big[[a,b],c\big]
+  \mathrlap{\,,} 
+$$
 
-and this obeys axioms which form the definition of a **Lie triple system**.  Furthermore, the space of elements of odd degree in any $\mathbb{Z}/2$-graded [[Lie algebra]] forms a Lie triple system, and thus so does the tangent space of a [[symmetric space]] at any point.
+and this obeys [[axioms]] which form the definition of a **Lie triple system**.  Furthermore, the space of elements of odd degree in any [[cyclic group of order 2|$\mathbb{Z}/2$]]-[[graded Lie algebra]] forms a Lie triple system, and thus so does the [[tangent space]] of a [[symmetric space]] at any point.
 
 ## Definition 
 
-A **Lie triple system** is a [[vector space]] $V$ equipped with a trilinear map $[\cdot,\cdot,\cdot] \colon V \times V \times V \to V$ obeying the following three identities:
+A **Lie triple system** is a [[vector space]] $V$ equipped with a [[trilinear map]] $[\cdot,\cdot,\cdot] \colon V \times V \times V \to V$ obeying the following three identities:
 
 $$ [u,v,w] = -[v,u,w] $$
 
@@ -22,7 +36,7 @@ $$ [u,v,[w,x,y]] = [[u,v,w],x,y] + [w,[u,v,x],y] + [w,x,[u,v,y]]. $$
 
 ([Jacobson 51, Eq. (1.7)-(1.11)](#Jacobson51), [Smirnov 09, 2.1](#Smirnov09))
 
-The first two identities abstract the [[skew symmetry]] and [[Jacobi identity]] for the triple commutator in a Lie algebra. The third identity, which also holds for the triple commutator in a Lie algebra, says that the linear map $L_{u,v} \colon L \to L$ defined by $L_{u,v}(w) = [u,v,w]$, is a derivation of of the triple product, in the following sense:
+The first two identities abstract the [[skew symmetry]] and [[Jacobi identity]] for the triple commutator in a [[Lie algebra]]. The third identity, which also holds for the triple commutator in a Lie algebra, says that the linear map $L_{u,v} \colon L \to L$ defined by $L_{u,v}(w) = [u,v,w]$, is a derivation of of the triple product, in the following sense:
 
 $$ L_{u,v}[w,x,y] = [L_{u,v} w, x, y] + [w, L_{u,v} x, y] + [w, x, L_{u,v} y] .$$
 
@@ -64,8 +78,19 @@ It is not an [[equivalence of categories]], since any abelian $\mathbb{Z}/2$-gra
 
 ## References
 
-* {#Jacobson49} [[Nathan Jacobson]], _Lie and Jordan triple systems_, American Journal of Mathematics, __71__ (1949) 149–170, [jstor](https://www.jstor.org/stable/2372102).  In: Nathan Jacobson, Collected Mathematical Papers. Contemporary Mathematicians. Birkhäuser Boston 1989 [doi](https://doi.org/10.1007/978-1-4612-3694-8_2)
-* {#Jacobson51} [[Nathan Jacobson]], _General representation theory of Jordan algebras_ (1951), Trans. Amer. Math. Soc. **70**, p. 509–530
-* {#Lister52} William G. Lister, _A structure theory of Lie triple systems_, Trans. Amer. Math. Soc. __72__ (1952), 217-242, [doi](http://dx,doi.org/10.1090/S0002-9947-1952-0045702-9), [pdf](http://www.ams.org/journals/tran/1952-072-02/S0002-9947-1952-0045702-9/S0002-9947-1952-0045702-9.pdf)
-* {#Smirnov09} Oleg Smirnov, _Imbedding of Lie triple systems into Lie algebras_ (2009), [arxiv:0906.1170](https://arxiv.org/abs/0906.1170)
-* {#Girelli10} Florian Girelli, _[[Snyder space]]-time: K-loop and Lie triple system_, SIGMA Symmetry Integrability Geom. Methods Appl. __6__ (2010), Paper 074, 19 pp. [journal](http://www.emis.de/journals/SIGMA/2010/074) [pdf](http://www.emis.de/journals/SIGMA/2010/074/sigma10-074.pdf) [arxiv/1009.4762](http://arxiv.org/abs/1009.4762)
+
+* {#Jacobson49} [[Nathan Jacobson]]: _Lie and Jordan triple systems_, American Journal of Mathematics __71__ (1949) 149–170 &lbrack;[jstor:2372102](https://www.jstor.org/stable/2372102)&rbrack; also in: *Nathan Jacobson, Collected Mathematical Papers*, Contemporary Mathematicians. Birkhäuser Boston (1989) &lbrack;[doi:10.1007/978-1-4612-3694-8_2](https://doi.org/10.1007/978-1-4612-3694-8_2)*rbrack;
+
+* {#Jacobson51} [[Nathan Jacobson]]: _General representation theory of Jordan algebras_, Trans. Amer. Math. Soc. **70** (1951) 509–530 &lbrack;[doi:10.1007/978-1-4612-3694-8_9](https://doi.org/10.1007/978-1-4612-3694-8_9), [doi:10.2307/1990612](https://doi.org/10.2307/1990612), [jstor:1990612](https://www.jstor.org/stable/1990612)&rbrack;
+
+* {#Smirnov09} Oleg Smirnov: _Imbedding of Lie triple systems into Lie algebras_, Journal of Algebra **341** 1 (2011) 1-12 &lbrack;[arxiv:0906.1170](https://arxiv.org/abs/0906.1170), [doi:10.1016/j.jalgebra.2011.06.011](https://doi.org/10.1016/j.jalgebra.2011.06.011)&rbrack;
+
+In the context of [[Snyder spaces]]:
+
+* {#Girelli10} [[Florian Girelli]]: _Snyder space-time: K-loop and Lie triple system_, SIGMA Symmetry Integrability Geom. Methods Appl. __6__ 074 (2010) &lbrack;[sigma:2010/074](http://www.emis.de/journals/SIGMA/2010/074), [pdf](http://www.emis.de/journals/SIGMA/2010/074/sigma10-074.pdf), [arxiv/1009.4762](http://arxiv.org/abs/1009.4762)&rbrack;
+
+
+[[!redirects Lie triple systems]]
+
+
+
