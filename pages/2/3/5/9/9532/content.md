@@ -14,13 +14,17 @@
 =--
 =--
 
-This entry collects some links related to the textbook
+This entry is to record the reference:
 
-* [[Alain Connes]],
+* [[Alain Connes]]:
+
+  \linebreak
 
   **Noncommutative geometry**
 
-  Academic Press, San Diego, CA, 1994
+  \linebreak
+
+  Academic Press (1994)
 
   [ISBN:9780080571751](https://www.elsevier.com/books/noncommutative-geometry/connes/978-0-08-057175-1)
 
