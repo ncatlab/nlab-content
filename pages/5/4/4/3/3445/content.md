@@ -44,6 +44,8 @@ Such data clearly is the local data for a [[covering space]] over $X$ with typic
 
 ## Definition
 
+### General
+
 Let $(\Delta \dashv \Gamma) : \mathcal{E} \stackrel{\overset{\Delta}{\leftarrow}}{\underset{\Gamma}{\to}} \mathcal{S}$ be the [[global section]] [[geometric morphism]] of a [[topos]] $\mathcal{E}$ over base $\mathcal{S}$.
 
 Without further assumption on $\mathcal{E}$ we have the following definition.
@@ -146,24 +148,24 @@ where $F//Aut(F)$ is the [[action groupoid]], the [[2-colimit]] of $\rho \mathbf
 
 =--
 
-## Definition internal to (∞,1)-toposes
+### Internal to $(\infty,1)$-toposes
 
-Suppose $B$ is a base [[(∞,1)-topos]] and $\pi_*\colon X\to B$ is a [[geometric morphism]].
-An object $A\in X$ is __locally constant internal to $B$__ if there is an [[effective (∞,1)-epimorphism]] $\coprod_i U_i \to 1$ such that the projection morphism $X\times U_i\to U_i$ is in the essential image of the composition $\pi^*\colon B\to X$ and $X\to X/U_i$ ($C\mapsto C\times U_i$).
+Suppose $B$ is a [[base (∞,1)-topos]] and $\pi_*\colon X\to B$ is a [[geometric morphism]].
+An object $A\in X$ is __locally constant internal to $B$__ if there is an [[effective epimorphism in an (infinity,1)-category|effective epimorphism]] $\coprod_i U_i \to 1$ in $X$ such that the [[projection]] morphism $X\times U_i\to U_i$ is in the [[essential image]] of the [[composition]] of the [[inverse image]] $\pi^*\colon B\to X$ with the [[(infinity,1)-functor|functor]] $X\to X/U_i \;\colon\; C\mapsto C\times U_i$ to the [[slice (infinity,1)-topos]].
 
-When applied to the case $B=Fun(P,\infty Grpd)$, this definition yields the notion of a [[constructible sheaf]].  See there for more details and references.
+When applied to the case $B=Fun(P,\infty Grpd)$ for $P$ a [[poset]], this definition yields the notion of [[constructible sheaves]].  See there for more details and references.
 
 ## Applications
 
-* Locally constant sheaves are sheaves of sections of [[covering space]]s. 
+* Locally constant sheaves are sheaves of sections of [[covering spaces]]. 
 
-* When used as coefficient objects in [[cohomology]] they are also called [[local system]]s.
+* When used as coefficient objects in [[cohomology]] they are also called [[local systems]].
 
 * The [[action]] of the [[fundamental groupoid]] $\Pi_1(X)$ on the fibers of a local system give rise to the notion of [[monodromy]].
 
 * This may be used to define [[homotopy group (of an infinity-stack)|homotopy groups of]] general objects in a [[topos]], and the [[fundamental group of a topos]].
 
-* This is the content of [[Galois theory]].
+* This is the content of *[[Galois theory]]*.
 
 ## Pattern
 
