@@ -174,11 +174,23 @@ The generalization of the notion of final functor from [[category theory]] to [[
 **([[subcategory|inclusion]] of a [[terminal object]] is [[final functor]])** \linebreak
 If $D$ has a [[terminal object]] then the functor $F : {*} \to D$ that picks that terminal object is final: for every $d \in D$ the [[comma category]] $d/F$ is equivalent to $*$.  The converse is also true: if a functor $*\to D$ is final, then its image is a terminal object.
 
-In this case the statement about preservation of colimits states that the colimit over a category with a terminal object is the value of the diagram at that object. Which is also readily checked directly.
-
-More generally, a functor whose domain is a [[discrete category]] is final if and only if it is a right adjoint.  
-
+In this case the statement about preservation of colimits states that the colimit over a category with a terminal object is the value of the diagram at that object. Which is also readily checked directly.  
 \end{example}
+
+More generally (see Lemma 3.7 of [Clarke 2024](#Clarke2024)):
+
+\begin{lemma}
+A functor whose domain is a [[discrete category]] is final if and only if it is a [[right adjoint]], in which case the functor is [[fully faithful]].
+\end{lemma}
+\begin{proof}
+That every right adjoint functor is final is proven below. For the converse, suppose that we have a final functor $F : C \to D$ where $C$ is discrete. Finality says that, for each $d \in D$, $d \downarrow F$ is connected:
+- Nonemptyness of $d \downarrow F$ says that there exists some $c_d \in C$ and morphism $\eta_d : d \to F(c_d)$ in $D$.
+- The existence of a path between any pair of objects says that, given any $c, c' \in C$ and [[span]] $F(c) \leftarrow d \rightarrow F(c')$, we have $c = c'$ and that the two legs are equal.
+
+Consequently, we have an assignment $|D| \to |C|$ sending $d \mapsto c_d$. For this to be an adjunction, we must have $C(c_d, c') \cong D(d, R(c'))$. Since $C$ is discrete, this says that there exists at most one morphism $d \to R(c')$ in $D$, and there exists a morphism iff $c_d = c'$. If $c_d = c'$, then we take $\eta_d$. Conversely, if there exists $d \to R(c')$, we necessarily have $c' = c_d$ by the path existence property.
+
+Full faithfulness now follows, since $D(Fc, Fc') \cong C(c_{Fc}, c') = C(c, c')$.
+\end{proof}
 
 \begin{example}\label{FinalFunctorBetweenGroupoids}
   A functor between [[groupoids]] is final iff it is [[essentially surjective functor|essentially surjective]] and [[full functor|full]].
@@ -340,6 +352,8 @@ In [[enriched category theory]]:
 In [[internal category]] theory for [[internal functors]] between [[internal groupoids]] in [[exact categories]]:
 
 * {#Cigoli18} [[Alan S. Cigoli]], *A characterization of final functors between internal groupoids in exact categories*, Theory and Applications of Categories **33** 11 (2018) 265-275.  &lbrack;[arXiv:1711.10747](https://arxiv.org/abs/1711.10747), [tac:33-11](http://www.tac.mta.ca/tac/volumes/33/11/33-11abs.html)&rbrack;
+
+* [[Bryce Clarke]], _Lifting twisted coreflections against delta lenses_, Theory and Applications of Categories 41.26 (2024): 838-877.
 
 
 [[!redirects cofinal functor]]
