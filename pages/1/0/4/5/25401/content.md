@@ -58,10 +58,10 @@ Clearly the two definitions above are dual to each other, since $\mathcal{C}^{op
 \begin{remark}
 Instantiating this definition for the trivial factorization systems gives us a general definition of minimal and maximal objects in a category:
 
-In fact, every category admits a trivial orthogonal factorization systems, namely $(\mathcal{I}, \mathcal{C})$, where $\mathcal{I}$ is the [[core|wide subcategory of isomorphisms]] of $\mathcal{C}$. In this instance, every object is $\mathcal{I}$-minimal (since every isomorphism to it is already an iso) but an $\mathcal{I}$-maximal object is one such that every morphism out of it is invertible.
+- In fact, every category $\mathcal{C}$ admits a trivial orthogonal factorization systems, namely $(Iso, All)$. In this instance, every object is $Iso$-minimal (since every isomorphism to it is already an iso) but an $Iso$-maximal object is one such that every morphism out of it is invertible.
 We call these simply **maximal objects**.
 
-Every category also admits $(\mathcal{C}, \mathcal{I})$ as a trivial orthogonal factorization system. In this case, $\mathcal{C}$-minimal objects are the ones for which every morphism into them is invertible, whereas every object is trivially $\mathcal{C}$-maximal. We call these simply **minimal objects**.
+- Every category $\mathcal{C}$ also admits $(All, Iso)$ as a trivial orthogonal factorization system. In this case, $All$-minimal objects are the ones for which every morphism into them is invertible, whereas every object is trivially $All$-maximal. We call these simply **minimal objects**.
 
 These notions recover the order-theoretic ones when $\mathcal{C}$ is a preorder.
 \end{remark}
