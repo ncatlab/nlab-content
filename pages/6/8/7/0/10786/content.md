@@ -40,6 +40,11 @@ On [[Berkovich motives]]:
 
 * [[Peter Scholze]], *Berkovich Motives* ([arXiv:2412.03382](https://arxiv.org/abs/2412.03382))
 
+On [[six functor formalism]]:
+
+* [[Peter Scholze]], _Six-Functor Formalisms_ &lbrack;[arXiv:2510.26269](https://arxiv.org/abs/2510.26269)&rbrack;
+
+
 ## Related entries
 
 * [[p-adic Hodge theory]]
