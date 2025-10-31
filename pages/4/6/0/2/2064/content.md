@@ -295,5 +295,7 @@ Discussion of fiber bundles [[internalization|internal]] to [[finitely complete 
 [[!redirects transition morphism]]
 [[!redirects transition morphisms]]
 
+[[!redirects typical fiber]]
+[[!redirects typical fibers]]
 
 
