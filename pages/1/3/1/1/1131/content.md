@@ -16,8 +16,6 @@
 
 
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -489,3 +487,6 @@ Classification in the case of vanishing differential:
 [[!redirects Lie dg-algebra]]
 [[!redirects dg-Lie algebras]]
 [[!redirects Lie dg-algebras]]
+
+[[!redirects graded Lie algebra]]
+[[!redirects graded Lie algebras]]
