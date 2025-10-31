@@ -8,6 +8,44 @@ In [[computer science]], **applicative functors** (also known as **idioms**) are
 
 A [[strong monad]] gives rise to an applicative functor, but not all applicative functors result from monads. Unlike monads, applicative functors are closed under composition.
 
+## Examples
+
+There are two ways to define `List` as an applicative functor
+within the category of data types.
+In [[Haskell]], the first is the default implementation,
+while the second is accessible via the `ZipList` newtype.
+They can be presented as an instance of the `Applicative` type class,
+or, equivalently, as an instance of the `Monoidal` type class.
+
+```
+instance Applicative List where
+  pure x = [x]
+  fs <*> xs = [ f x | f <- fs, x <- xs ]
+
+instance Monoidal List where
+  unit = [()]
+  as ⊗ bs = [ (a, b) | a <- as, b <- bs ]
+```
+
+and
+
+```
+instance Applicative List where
+  pure x = repeat x
+  fs <*> xs = zipWith ($) fs xs
+
+instance Monoidal List where
+  unit = repeat ()
+  as ⊗ bs = zip as bs
+```
+
+with the canonical strength being defined as follows:
+
+```
+strength :: Functor f => (a, f b) -> f (a, b)
+strength (a, fb) = fmap (a,) fb
+```
+
 ##Related concepts
 
 * [[arrow (in computer science)]]
