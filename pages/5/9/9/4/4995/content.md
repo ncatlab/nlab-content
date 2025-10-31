@@ -1386,9 +1386,9 @@ in the context of _[[Q-categories]]_ .
 
 On the material presented here:
 
-* [[Urs Schreiber]], Section 3 of: _[[schreiber:differential cohomology in a cohesive topos]]_ ([arXiv:1310.7930](http://arxiv.org/abs/1310.7930))
+* [[Urs Schreiber]], Section 3 of: _[[schreiber:differential cohomology in a cohesive topos]]_ &lbrack;[arXiv:1310.7930](http://arxiv.org/abs/1310.7930)&rbrack;
 
-* [[Hisham Sati]], [[Urs Schreiber]], Section 3.1.1 of: _[[schreiber:Proper Orbifold Cohomology]]_ ([arXiv:2008.01101](https://arxiv.org/abs/2008.01101))
+* [[Hisham Sati]], [[Urs Schreiber]], Section 3.1.1 of: _[[schreiber:Proper Orbifold Cohomology]]_, CRC Press (2026) &lbrack;[arXiv:2008.01101](https://arxiv.org/abs/2008.01101)&rbrack;
 
 A model in [[derived differential geometry]]:
 
