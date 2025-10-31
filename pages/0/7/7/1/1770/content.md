@@ -406,6 +406,8 @@ For more discussion of this see [[synthetic differential ∞-groupoid]].
 
 ## Related concepts
 
+* [[smooth groupoid]], [[smooth infinity-groupoid|smooth $\infty$-groupoid]]
+
 [[!include geometries of physics -- table]]
 
 $\,$
