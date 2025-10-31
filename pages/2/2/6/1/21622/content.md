@@ -62,7 +62,10 @@ $$
 
 ## Related entries
 
-* [[spindle orbifold]]
+* [[spindle orbifold]], [[teardrop orbifold]]
+
+* [[branched cover of the Riemann sphere]]
+
 
 ## References
 
