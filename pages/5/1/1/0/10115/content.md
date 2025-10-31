@@ -48,6 +48,8 @@ As such this is:
 
 * [[branched cover of Riemann sphere]]
 
+* [[spindle orbifold]]
+
 * [[stereographic projection]]
 
 * [[complex projective space]]
