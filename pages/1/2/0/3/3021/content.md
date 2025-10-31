@@ -1,5 +1,5 @@
 
-Nicola Gambino is associate professor of [[mathematics]] at Manchester.
+Nicola Gambino is a professor of [[mathematics]] at Manchester.
 
 * [website](https://personalpages.manchester.ac.uk/staff/nicola.gambino/)
 
