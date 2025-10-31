@@ -19,7 +19,7 @@ On formulating and proving [[confinement]] and the [[Yang-Mills mass gap problem
 
 > The second big open question is the problem of [[quark]] [[confinement]]. Quarks are the constituents of various elementary particles, such as protons and neutrons. It is an enduring mystery why quarks are never observed freely in nature. The problem of quark confinement has received enormous attention in the physics literature, but the current consensus seems to be that a satisfactory theoretical explanation does not exist.
 
-* [[Sourav Chatterjee]]: *Yang-Mills Existence and Mass Gap*, talk at: *[Millennium Prize Problems Lecture Series](https://cmsa.fas.harvard.edu/millennium/)*, Center of Mathematical Science and Applications, Harvard (15 Oct 2025) &lbrack;[webpage](https://cmsa.fas.harvard.edu/event/clay_101425/)&rbrack;
+* [[Sourav Chatterjee]]: *Yang-Mills Existence and Mass Gap*, talk at: *[Millennium Prize Problems Lecture Series](https://cmsa.fas.harvard.edu/millennium/)*, Center of Mathematical Science and Applications, Harvard (15 Oct 2025) &lbrack;[webpage](https://cmsa.fas.harvard.edu/event/clay_101425/), video:[yt](https://youtu.be/qVoEUFvDqWk)&rbrack;
 
 
 On [[Liouville theory]]:
