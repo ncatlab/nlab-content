@@ -527,8 +527,6 @@ See also:
 [[!redirects Grothendieck cofibrations]]
 [[!redirects opfibration]]
 [[!redirects opfibrations]]
-[[!redirects bifibration]]
-[[!redirects bifibrations]]
 
 [[!redirects fibered category]]
 [[!redirects fibred category]]
