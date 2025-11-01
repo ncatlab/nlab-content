@@ -1,5 +1,5 @@
 
-* [website](http://www.nd.edu/~stolz/)
+* [Archived website](https://web.archive.org/web/20250101233032/https://www3.nd.edu/~stolz/).
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Stephan_Stolz)
 
