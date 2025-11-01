@@ -15,7 +15,8 @@ A **Jordan triple system** is a vector space $V$ equipped with a trilinear map $
 
 $$ \{a,b,c\} = \{c,b,a\}$$
 
- \{a,b,\{c,d,e\}\} - \{c,d,\{a,b,e\}\} = \{\{a,b,c\},d,e\} − \{c,\{b,a,d\},e\} 
+ $$\{a,b,\{c,d,e\}\} - \{c,d,\{a,b,e\}\} = \{\{a,b,c\},d,e\} - \{c,\{b,a,d\},e\} 
+$$
 
 
 Any subspace of an associative algebra closed under the operation $\{a,b,c\} = a b c + c b a$ obeys these axioms.   The first axiom captures the symmetry of this operation under switching the first and last arguments, while the second, subtler axiom implies that the operations $L_{a,b} \colon V \to V$ given by $L_{a,b}(c) = \{a,b,c\}$  form a Lie algebra under commutators.
