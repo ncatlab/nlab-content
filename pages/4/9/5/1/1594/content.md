@@ -521,7 +521,7 @@ On [[orbifolds]], [[orbifold cohomology]] and specifically on [[Chen-Ruan cohomo
 
 The understanding of orbifolds as [[proper Lie groupoid|proper]] [[étale groupoid|étale]] [[Lie groupoids]]/[[differentiable stacks]] is due to
 
-* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]]: *Orbifolds, sheaves and groupoids*, K-theory **12** 1 (1997) 3-21 &lbrack;[doi:10.1023/A:1007767628271](http://dx.doi.org/10.1023/A:1007767628271), [[MoerdijkPronk-OrbifoldsAndGroupoids.pdf:file]]&rbrack;
+* {#MoerdijkPronk97} [[Ieke Moerdijk]], [[Dorette Pronk]], pp. 15 in: *Orbifolds, sheaves and groupoids*, K-theory **12** 1 (1997) 3-21 &lbrack;[doi:10.1023/A:1007767628271](http://dx.doi.org/10.1023/A:1007767628271), [[MoerdijkPronk-OrbifoldsAndGroupoids.pdf:file]]&rbrack;
 
 * {#MoerdijkPronk99} [[Ieke Moerdijk]], [[Dorette Pronk]], section 4 of: *Simplicial cohomology of orbifolds*, Indagationes Mathematicae **10** 2 (1999) 269-293 \[<a href="https://doi.org/10.1016/S0019-3577(99)80021-4">doi:10.1016/S0019-3577(99)80021-4</a>\]
 
@@ -535,7 +535,9 @@ Review:
 
 * Olivier Brahic: *Orbifolds via Lie Groupoids* (2009) &lbrack;[pdf](https://www.math.tecnico.ulisboa.pt/~martinez/files/Orbifolds.pdf)&rbrack;
 
-* {#Amenta12} Alexander Amenta: _The Geometry of Orbifolds via Lie Groupoids_, ANU (2012) &lbrack;[arXiv:1309.6367](https://arxiv.org/abs/1309.6367)&rbrack;
+and further details:
+
+* {#Amenta12} Alexander Amenta: _The Geometry of Orbifolds via Lie Groupoids_, Honours Thesis, Australian National University (2012) &lbrack;[arXiv:1309.6367](https://arxiv.org/abs/1309.6367)&rbrack;
 
 Analogous discussion for topological orbifolds as [[topological stacks]]:
 
