@@ -451,8 +451,8 @@ $$
 where $X_k^{nd}$ is the presheaf of non-degenerate $k$-cells and $X_k^{dg}$ is a separate presheaf containing all the degenerate cells (and itself a coproduct over separate presheaves for each degree and order of degeneracy).
 
 
-+-- {: .num_prop }
-###### Proposition
+\begin{proposition}
+\label{DuggerSufficientProjectiveCofibrancyCondition}
 
 In the _projective_ [[local model structure on simplicial presheaves|local model structure]] all objects that are 
 
@@ -462,7 +462,7 @@ In the _projective_ [[local model structure on simplicial presheaves|local model
 
 are cofibrant.
 
-=--
+\end{proposition}
 
 This is in [Dugger 01, Cor. 9.4](#Dugger01).
 
