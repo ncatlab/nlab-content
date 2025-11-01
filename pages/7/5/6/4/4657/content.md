@@ -9,40 +9,83 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
+ {#Idea}
 
-For $\{U_i \to X\}$ a [[cover]] of a [[space]] $X$, the corresponding **&#268;ech groupoid** is the [[internal groupoid]]
+For $\{U_i \to X\}$ a [[cover]] of a [[space]] $X$, the corresponding **Čech groupoid** is the [[internal groupoid]]
 
 $$
-  C(\{U_i\}) = (\coprod_{i j} U_i \cap U_j \rightrightarrows \coprod_i U_i)
+  C\big(\{U_i\}\big) 
+   \;=\; 
+  \big(
+    \textstyle{\coprod_{i j}} U_i \cap U_j 
+    \rightrightarrows 
+    \textstyle{\coprod_i} U_i  
+  \big)
+  \,,
 $$
 
-whose set of objects is the [[disjoint union]] $\coprod_i U_i$ of the covering patches, and the set of morphisms is the disjoint union of the [[intersections]] $U_i \cap U_j$ of these patches.
+whose object of objects is the [[disjoint union]] $\coprod_i U_i$ of the covering patches, and whose object of morphisms is the disjoint union of the [[intersections]] $U_i \cap U_j$ of these patches.
 
-This is the $2$-[[coskeleton]] of the full [[Čech nerve]]. See there for more details.
+
+The Čech groupoid is the $2$-[[coskeleton]] of the full [[Čech nerve]]. See there for more details.
+
+The following graphics illustrates the Čhech groupoid of a ([[good open cover|good]] [[open cover]]) of the [[open disk]] $\mathbb{D}^{2}$ by three [[charts]] (indicated in light gray is the space of objects, and in darker gray the space of non-identity morpshisms):
+
+\begin{imagefromfile}
+    "file_name": "CechGroupoid-Illustration-251101b.png",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
 
 If we speak about [[generalized element|generalized points]] of the $U_i$ (which are often just ordinary points, in applications), then 
 
 * an [[object]] of $C(\{U_i\})$ is a pair $(x,i)$ where $x$ is a point in $U_i$;
 
-* there is a unique [[morphism]] $(x,i) \to (x,j)$ for all pairs of objects labeled by the same $x$ such that $x \in U_i \cap U_j$;
+* there is a unique [[morphism]] $(x,i,j) \,\colon\, (x,i) \to (x,j)$ for all pairs of objects labeled by the same $x$ such that $x \in U_i \cap U_j$;
 
-* hence the composition of morphism is of the form
+* hence the [[composition]] of morphisms is of this form:
 
-  $$
-    \array{
-       && (x,j)
-       \\
-       & \nearrow &=& \searrow
-       \\
-      (x,i) &&\to&& (x,k)
-    }
-    \,.
-  $$
+\begin{tikzcd}
+  & 
+  (x,j)
+  \ar[
+    dr, "{ (x,j,k) }"{sloped}
+  ]
+  \ar[
+    d,
+    equals,
+    shorten=8pt,
+    "{ (x,i,j,k) }"{description}
+  ]
+  \\
+  (x,i)
+  \ar[
+    ur,
+    "{ (x,i,j) }"{sloped}
+  ]
+  \ar[
+    rr,
+    "{ (x,i,k) }"{swap}
+  ]
+  &
+  {}
+  &
+  (x,k)
+\end{tikzcd}
+
+
 
 ## Definition
  {#Definition}
