@@ -10,13 +10,14 @@
 =--
 
 
-
 \tableofcontents
 
 
 ## Idea
 
 For a [[pair]] of [[coprime]] [[natural numbers]] $n_+, n_- \in \mathbb{N}_{\geq 1}$, $qcd(n_+, n_-) = 1$, the *$(n_+, n_-)$-spindle* is the 2-[[dimension of a manifold|dimensional]] [[orbifold]] whose [[underlying]] coarse [[topological space]] is the [[2-sphere]]/[[Riemann sphere]] $\mathbb{C}P^1$, but where the [[poles]] $0, \infty \in \mathbb{C}P^1$ are [[cone]] tips of order $n_+, n_-$, respectively.
+
+Hence with $\mathbb{D}^2$ the [[open disk]] and $\mathbb{D}^2\sslash\mathbb{Z}_{n}$ the [[cone (Riemannian geometry)|cone]] [[orbifold]] obtained by quotientint out the $n$-fold rigid [[rotation]] action, then the $(n_+, n_-)$-spindle is the result of gluing $\mathbb{D}^2\sslash \mathbb{Z}_{n_+}$ to $\mathbb{D}^2\sslash \mathbb{Z}_{n_i}$ along a joint [[collar]] of their [[end compactification|ends]]. 
 
 This is also sometimes called the *$(n_+,n_-)$-football* and is denoted "$S^2(n_+, n_-)$" or "$\Sigma(n_+, n_-)$" or sometimes just "$(n_+, n_-)$". It is the orbifold incarnation of the *weighted projective space* $\mathbb{C}P(n_+, n_-)$.
 
@@ -36,7 +37,14 @@ If both $n_+ = n_- = 1$ then the spindle orbifold reduces is a [[smooth manifold
 ### As a proper étale Lie groupoid
  {#DefinitionAsProperEtaleLieGroupoid}
 
-We describe the spindle orbifold [as a proper étale Lie groupoid](orbifold#DefinitionViaProperEtaleGroupoids) (the following  description is far from unique, as far as [[Morita equivalence|Morita equivalent]] [[proper topological groupoid|proper]] [[étale Lie groupoids]] go, but it is about the simplest evident realization):
+We describe the spindle orbifold [via proper étale Lie groupoids](orbifold#DefinitionViaProperEtaleGroupoids)
+
+There are many [[Morita equivalence|Morita equivalent]] [[proper topological groupoid|proper]] [[étale Lie groupoids]] that all describe the spindle orbifold. We describe a couple of useful models.
+
+#### Minimal model
+ {#AsProperEtaleGroupoidMinimal}
+
+The following should be about the minimal and evident realization of the spindle as [a proper étale Lie groupoids](orbifold#DefinitionViaProperEtaleGroupoids)
 
 1. the [[smooth manifold]] of [[objects]] is the [[disjoint union]] of two copies of the [[plane]] $\mathbb{R}^2$ --- which for notational purposes, at least, will be useful to think of as the *[[complex line]]* $\mathbb{C}$:
   \[
@@ -186,6 +194,62 @@ $$
   \big)
   \mathrlap{\,.}
 $$
+
+
+#### Dugger-cofibrant model
+ {#AsProperEtaleGroupoidDuggerCofibrant}
+
+For computing [[derived functors]] and [[mapping stacks]] out of a spindle orbifold, it is useful to have a [Dugger cofibrant model](model+structure+on+simplicial+presheaves#DuggerSufficientProjectiveCofibrancyCondition), namely a Lie groupoid whose [[simplicial nerve]] is in each degree [[diffeomorphism|diffeomorphic]] to a [[disjoint union]] of [[Cartesian spaces]]/[[open balls]], such that the [[degeneracy maps]] are inclusions of disjoint summands.
+
+We describe this in pictures, which should make the actual definition obvious. 
+
+First consider the Dugger-cofibrant resolution of the [[action groupoid]] $\mathbb{D}^2_{1+ \epsilon} \sslash \mathbb{Z}_n$ which is obtained from the [[equivariant good open cover]] of $\mathbb{D}^2_{1+\epsilon}$ whose charts are [[tubular neighbourhoods]] of the $n$ sectors where the evident [[angle]] [[coordinate]] $\alpha \colon \mathbb{D}^2 \setminus \mathbb{R}_{\geq 0} \longrightarrow \mathbb{R}$ is within $\tfrac{k+1}{n} \geq  \tfrac{\alpha}{n 2 \pi } \geq \tfrac{k}{n}$, for $k \in \{0, 1, \cdots, n-1\}$.
+
+This is illustrated in the following graphic for $n = 3$ (cf. the non-equivariant version [here](#Čech+groupoid#Idea) at *[[Čech groupoid]]*). Indicated in light gray is the space of objects, and indicated in darker shades of gray are the components of the space of non-trivial morphisms. The top shows the Čech groupoid resolution and the bottom the plain action groupoid:
+
+\begin{imagefromfile}
+    "file_name": "EquivariantChechGroupoidIllustration-251101.png",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+We want to glue two such equivariant Čech groupoids by gluing the $\epsilon$-collars of all the components of their object spaces. For that we introduce disk-shaped spaces of gluing morphisms indicated in the following graphics (again for the $(2,3)$-case) by the horizontal bars in the middle:
+
+\begin{imagefromfile}
+    "file_name": "SpindleGluingMorphismIllustration-251101.png",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+To note here that the composition of any two of these gluing morphisms is translation by one of the two group actions, hence may be identified with a morphism in one of the two action groupoids. 
+
+In total, the resulting Lie groupoid presentation of the spindle looks as indicated in the following graphics for $(n_+, n_-) = (2,3)$:
+
+\begin{imagefromfile}
+    "file_name": "DuggerCofibrantSpindleGroupoid-251101.png",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+
 
 
 ## Related entries
