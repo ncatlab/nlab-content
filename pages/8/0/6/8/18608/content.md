@@ -125,6 +125,10 @@ Problem description in terms of [[probability theory|probabilistic]] [[lattice g
 
 * [[Sourav Chatterjee]], _Yang-Mills for probabilists_, in: _Probability and Analysis in Interacting Physical Systems_, PROMS **283**, Springer (2019) &lbrack;[arXiv:1803.01950](https://arxiv.org/abs/1803.01950), [doi:10.1007/978-3-030-15338-0](https://link.springer.com/book/10.1007/978-3-030-15338-0)&rbrack;
 
+* [[Martin Hairer]] @ [Tom Rocks Math](https://www.youtube.com/@TomRocksMaths): *Yang Mills Mass Gap Hypothesis with Martin Hairer* (July 2025) &lbrack;video:[yt](https://youtu.be/Ae9lTCUzJjE)&rbrack;
+
+* [[Martin Hairer]]: *Yang-Mills and the Mass Gap*, talk at Clay Mathematics Institute (Oct 2025) &lbrack;video:[yt](https://youtu.be/qJOV8NZDUQw)&rbrack;
+
 * [[Sourav Chatterjee]]: *Yang-Mills Existence and Mass Gap*, talk at: *[Millennium Prize Problems Lecture Series](https://cmsa.fas.harvard.edu/millennium/)*, Center of Mathematical Science and Applications, Harvard (15 Oct 2025) &lbrack;[webpage](https://cmsa.fas.harvard.edu/event/clay_101425/), video:[yt](https://youtu.be/qVoEUFvDqWk)&rbrack;
 
 
