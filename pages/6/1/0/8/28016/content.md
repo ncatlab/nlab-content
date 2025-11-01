@@ -6,5 +6,7 @@ Just as a [[Lie triple system]] axiomatizes the properties of the ternary operat
 
 ## References
 
-* {#Jacobson49} [[Nathan Jacobson]]: _Lie and Jordan triple systems_, American Journal of Mathematics __71__ (1949) 149–170 &lbrack;[jstor:2372102](https://www.jstor.org/stable/2372102)&rbrack; also in: *Nathan Jacobson, Collected Mathematical Papers*, Contemporary Mathematicians. Birkhäuser Boston (1989) &lbrack;[doi:10.1007/978-1-4612-3694-8_2](https://doi.org/10.1007/978-1-4612-3694-8_2)*rbrack;
+* {#Loos71} Ottmar Loos, _Jordan triple systems, R-spaces, and bounded symmetric domains_, Bulletin of the American Mathematical Society __77__ (1971) 558–561. [pdf](https://www.ams.org/journals/bull/1971-77-04/S0002-9904-1971-12753-2/S0002-9904-1971-12753-2.pdf)
+
+* {#Jacobson49} [[Nathan Jacobson]]: _Lie and Jordan triple systems_, American Journal of Mathematics __71__ (1949) 149–170 &lbrack;[jstor:2372102](https://www.jstor.org/stable/2372102)&rbrack; also in: *Nathan Jacobson, Collected Mathematical Papers*, Contemporary Mathematicians. Birkhäuser Boston (1989) &lbrack;[doi:10.1007/978-1-4612-3694-8_2](https://doi.org/10.1007/978-1-4612-3694-8_2)&rbrack;
 
