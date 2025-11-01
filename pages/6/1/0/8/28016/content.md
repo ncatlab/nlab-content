@@ -28,14 +28,13 @@ $$ \{a,b,c\} = a \circ (b \circ c) + (a \circ b) \circ c - b \circ (a \circ c).$
 
 There are however other Jordan triple systems.  For example, let $M(m,n)$ be the space of $m \times n$ matrices with entries in a field, and given $a \in M(m,n)$ let $a^T \in M(n,m)$ be its transpose.  We can make $M(m,n)$ into a Jordan triple system by defining
 
-$$ {a,b,c} = a b^t c - c b^t a .$$
+$$ \{a,b,c\} = a b^t c - c b^t a .$$
 
 ## Lie triple systems from Jordan triple systems
 
 Any Jordan triple system gives a Lie triple system with Lie triple product given by
 
 $$ [x,y,z] = \{x,y,z\} - \{y,x,z\} .$$
-
 
 ## References
 
