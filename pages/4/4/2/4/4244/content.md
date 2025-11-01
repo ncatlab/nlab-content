@@ -21,15 +21,7 @@ An $n$-dimensional _Calabi-Yau variety_ is an $n$-dimensional [[Kähler manifold
 
 For [[compact topological space|compact]] [[Kähler manifolds]], [[Yau's theorem]] (also known as the  [[Calabi conjecture]]) states any of the above conditions implies the vanishing of the first [[Chern class]].
 
-+--{.query}
-Is it also true for non-compact?
-=--
-
 Note that $c_1(X) = 0$ implies in general that the canonical bundle is *topologically trivial*. But if $X$ is a simply connected compact K&#228;hler manifold, $c_1(X) = 0$ implies further that the canonical bundle is *holomorphically trivial*.
-
-+--{.query}
-The language used in this article is implicitly analytic, rather than algebraic. Is this OK? Or should I make this explicit?
-=--
 
 ## Definition
 
