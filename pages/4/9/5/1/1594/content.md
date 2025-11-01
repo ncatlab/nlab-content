@@ -382,7 +382,7 @@ Orbifolds are in [[differential geometry]] what [[Deligne-Mumford stacks]] are i
 
 Orbifolds may be regarded as a kind of _[[stratified spaces]]_.
 
-See also 
+See also: 
 
 * [[étale groupoid]]
 
@@ -468,7 +468,7 @@ Survey of basic orbifold theory:
 
 * Francisco C. Caramello Jr: *Introduction to orbifolds* &lbrack;[arXiv:1909.08699](https://arxiv.org/abs/1909.08699)&rbrack;
 
-See also
+See also:
 
 * Wikipedia: _[Orbifolds](http://en.wikipedia.org/wiki/Orbifold)_ 
 
