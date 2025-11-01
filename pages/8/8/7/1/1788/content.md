@@ -7,3 +7,10 @@
 
 
 [[CechGroupoid-Illustration-251101b.png:file]]
+
+[[EquivariantChechGroupoidIllustration-251101.png:file]]
+
+[[SpindleGluingMorphismIllustration-251101.png:file]]
+
+[[DuggerCofibrantSpindleGroupoid-251101.png:file]]
+
