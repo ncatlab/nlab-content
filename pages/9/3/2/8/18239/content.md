@@ -231,6 +231,7 @@ then $f$ is proper.
 
 ## Properties
 
+
 Proper maps enjoy analogous properties as [[compact topological spaces]] do, for example the product of proper maps is again proper:
 
 \begin{theorem}
@@ -245,6 +246,11 @@ $$
 $$
 is also a proper map.
 \end{theorem}
+
+Further properties:
+
+* [[proper maps to locally compact spaces are closed]]
+
 
 ## Comparison with proper maps of locales
 
