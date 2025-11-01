@@ -6,4 +6,4 @@
 ***
 
 
-[[CechGroupoid-Illustration-251101.png:file]]
+[[CechGroupoid-Illustration-251101b.png:file]]
