@@ -1,7 +1,32 @@
 
 ## Idea
 
-Just as a [[Lie triple system]] axiomatizes the properties of the ternary operation $[a,b,c] = [[a,b],c]$ in an associative algebra where $[a,b] = a b - b a$ is the [[commutator]], a **Jordan triple system** axiomatizes the properties of the so-called Jordan triple product $\{a,b,c\} = \{\{a,b\},c\}$ in an associative algebra where $\{a,b\} = a b + b a$ is the [[anticommutator]].  Just as Lie triple systems arise naturally from $\mathbb{Z}/2$-graded [[Lie algebras]], Jordan triple systems arise naturally from so-called **3-graded Lie algebras**, which are $\mathbb{Z}$-graded Lie algebras concentrated in degrees $-1,0$ and $1$.   And just as the tangent space of any point in a [[symmetric space]] is naturally a Lie triple system, the tangent space of any point in a [[hermitian]] symmetric space is naturally a Jordan triple system.
+[[Jordan algebras]] were invented to axiomatize some properties of the Jordan product $a \circ b = (ab + ba)/2$ of self-adjoint complex matrices.  As work proceeded, some researchers found it convenient to focus on another binary operation on self-adjoint matrices, $U_a (b) = a b a$.  Axiomatizing the properties of this led to the definition of a [[quadratic Jordan algebra]].   However, it is often convenient to replace this operation $U_a(b)$ by a trilinear operation, by [[polarization identity|polarizing]] it as follows:
+
+$$  \{a,b,c\} = U_{a+c}(b) - U_a(b) - U_c(b) = a b c + c b a $$
+
+A **Jordan triple system** axiomatizes the properties of this triple product of self-adjoint complex matrices.  
+
+Later it was discovered that there are close relations between Jordan triple systems and [[Lie triple systems]]. Just as Lie triple systems naturally give $\mathbb{Z}/2$-graded [[Lie algebras]], Jordan triple systems naturally give a certain class of so-called **3-graded Lie algebras**, which are $\mathbb{Z}$-graded Lie algebras concentrated in degrees $-1,0$ and $1$.   And just as the tangent space of any point in a [[symmetric space]] is naturally a Lie triple system, the tangent space of any point in a [[hermitian]] symmetric space is naturally a Jordan triple system.
+
+## Definition
+
+A **Jordan triple system** is a vector space $V$ equipped with a trilinear map $\{\cdot, \cdots, \cdot \} \colon V \times V \times V \to V$ obeying two axioms:
+
+$$ \{a,b,c\} = \{c,b,a\}$$
+
+ \{a,b,\{c,d,e\}\} - \{c,d,\{a,b,e\}\} = \{\{a,b,c\},d,e\} − \{c,\{b,a,d\},e\} 
+
+
+Any subspace of an associative algebra closed under the operation $\{a,b,c\} = a b c + c b a$ obeys these axioms.   The first axiom captures the symmetry of this operation under switching the first and last arguments, while the second, subtler axiom implies that the operations $L_{a,b} \colon V \to V$ given by $L_{a,b}(c) = \{a,b,c\}$  form a Lie algebra under commutators.
+
+## Jordan triple systems from Jordan algebras
+
+Any Jordan algebra gives a Jordan triple system by
+
+$$ \{a,b,c\} = a \circ (b \circ c) + (a \circ b) \circ c - b \circ (a \circ c).$$
+
+
 
 
 ## References
