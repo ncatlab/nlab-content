@@ -18,9 +18,10 @@ Introducing the notion of [[cutting and pasting of manifolds]]:
 
 
 
-On [[elliptic genera]]:
+On [[elliptic genera]] and [[quaternionic projective plane]]-[[bundles]]:
 
-* {#KreckStolz93} [[Matthias Kreck]], [[Stephan Stolz]], _$HP^2$-bundles and elliptic homology_, Acta Math **171** (1993) 231-261 &lbrack;[[KreckStolzElliptic.pdf:file]], [euclid:acta/1485890737](https://projecteuclid.org/euclid.acta/1485890737)&rbrack;
+* {#KreckStolz93} [[Matthias Kreck]], [[Stephan Stolz]]: _$H P^2$-bundles and elliptic homology_, Acta Math **171** (1993) 231-261 &lbrack;[[KreckStolzElliptic.pdf:file]], [euclid:acta/1485890737](https://projecteuclid.org/euclid.acta/1485890737)&rbrack;
+
 
 On [[differential topology|differential]] [[algebraic topology]] based on [[stratifolds]]:
 
