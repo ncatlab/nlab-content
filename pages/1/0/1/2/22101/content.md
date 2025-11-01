@@ -55,6 +55,9 @@ $$
 
 * {#Arnold99} [[Vladimir Arnold]], _Relatives of the Quotient of the Complex Projective Plane by the Complex Conjugation_, Tr. Mat. Inst. Steklova, 1999, Volume 224, Pages 56–67; English translation: Proceedings of the Steklov Institute of Mathematics, 1999, 224, 46–56 ([mathnet:tm691](http://mi.mathnet.ru/eng/tm691))
 
+On $\mathbb{H}P^2$-[[fiber bundles]] in relation to  [[elliptic genera]]:
+
+* {#KreckStolz93} [[Matthias Kreck]], [[Stephan Stolz]]: _$H P^2$-bundles and elliptic homology_, Acta Math **171** (1993) 231-261 &lbrack;[[KreckStolzElliptic.pdf:file]], [euclid:acta/1485890737](https://projecteuclid.org/euclid.acta/1485890737)&rbrack;
 
 
 {#AtiyahWitten01} [[M-theory on 8-manifolds|M-theory on the 8-manifold]] $\mathbb{H}P2$, hence on a [[quaternion-Kähler manifold]] of dimension 8 with [[holonomy]] [[Sp(2).Sp(1)]], is considered in
