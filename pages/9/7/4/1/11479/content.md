@@ -1,6 +1,11 @@
 
+Peter George Oliver Freund (1936-2018)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Peter_Freund)
+
+* [inSpire page](https://inspirehep.net/authors/1009454)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Xb1XrpMAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -30,6 +35,10 @@ On [[p-adic string theory]]:
 
 * Lee Brekke,  [[Peter Freund]],  Mark Olson, [[Edward Witten]], _Non archimedean  string dynamics_, Nucl. Phys. B302, 3 (1988) (<a href="https://doi.org/10.1016/0550-3213(88)90207-6">arXiv:10.1016/0550-3213(88)90207-6</a>)
 
+On [[Irving Kaplansky]]:
+
+* [[Peter G. O. Freund]]: *Irving Kaplansky and Supersymmetry*, remarks at Irving Kaplansky Memorial at MSRI, Berkeley, Ca, (Feb 2007) &lbrack;[arXiv:physics/0703037](https://arxiv.org/abs/physics/0703037)&rbrack;
+
 
 
 
@@ -43,3 +52,5 @@ On [[p-adic string theory]]:
 * [[7d supergravity]]
 
 category: people
+
+[[!redirects Peter G. O. Freund]]
