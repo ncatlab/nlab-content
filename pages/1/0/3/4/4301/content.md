@@ -55,6 +55,9 @@ $$
 
 * [[canonical commutation relation]], [[Weyl algebra]]
 
+* [[Jacobson's lemma]]
+
+
 ## References
 
 On commutators in [[operator algebra]]:
