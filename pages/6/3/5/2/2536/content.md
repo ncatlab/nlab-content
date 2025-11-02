@@ -352,29 +352,29 @@ $$ \frac{d}{d t} O(t) = -i [H, O(t)] $$
 
 where $H \in \mathfrak{h}_n(\mathbb{C})$ is a fixed element called the [[Hamiltonian]].  However, this uses the commutator bracket, which is not part of the Jordan algebra structure.   [Townsend 2016](#Townsend2016) noted a nice solution to this problem when 
 
-$$ H = i [X, Y]$$
+$$ H = -4i [X, Y]$$
 
 for some $X, Y \in \mathfrak{h}_n(\mathbb{C})$.   In this case we can use the identity
 
-$$ [[X, Y], A] = \frac{1}{4}(X, A, Y)$$
+$$ [[X, Y], A] = -\frac{1}{4}(X, A, Y)$$
 
-(CHECK SIGN) where 
+where 
 
 $$(X, A, Y) = (X \circ A) \circ Y - X \circ (A \circ Y) $$
 
 is the [[associator]] of $X,A,$ and $Y$ with respect to the Jordan product on $\mathfrak{h}_n(\mathbb{C})$.  This lets us re-express Heisenberg's equation as
 
-$$ \frac{d}{d t} O(t) = \frac{1}{4}(X, O(t), Y)$$
+$$ \frac{d}{d t} O(t) = (X, O(t), Y)$$
 
 so that it uses only operations available in a Jordan algebra - and an associator rather than a commutator.
 
-This raises the question of when a self-adjoint complex matrix $H$ can be written as $i [X, Y]$ for self-adjoint matrices $X, Y$.  This is true whenever $H$ is traceless since $\mathfrak{su}(n)$ is a compact simple real Lie algebra and every element of such a Lie algebra is a commutator (Akhiezer, [arXiv](https://arxiv.org/abs/1501.02934)).  But *any* self-adjoint complex matrix $H$ is of the form $H' + \lambda I$ where $H'$ is traceless, so writing $H' = i[X,Y]$ we have
+This raises the question of when a self-adjoint complex matrix $H$ can be written as $-4i [X, Y]$ for self-adjoint matrices $X, Y$.  This is true whenever $H$ is traceless since $\mathfrak{su}(n)$ is a compact simple real Lie algebra, and every element of such a Lie algebra is a commutator (Akhiezer, [arXiv](https://arxiv.org/abs/1501.02934)).  But *any* self-adjoint complex matrix $H$ is of the form $H' + \lambda I$ where $H'$ is traceless, so writing $H' = -4i[X,Y]$ we have
 
-$$ [H, O(t)] = [H' + \lambda I, O(t)] = [H, O(t)] = i [[X,Y], O(t)] = \frac{i}{4}(X, O(t), Y) $$
+$$ [H, O(t)] = [H' + \lambda I, O(t)] = [H, O(t)] = -4i [[X,Y], O(t)] = i (X, O(t), Y) $$
 
 so we can rewrite Heisenberg's equation as
 
-$$ \frac{d}{d t} O(t) = \frac{1}{4}(X, O(t), Y).$$
+$$ \frac{d}{d t} O(t) = (X, O(t), Y).$$
 
 Moreover, in *any* Jordan algebra, a pair of elements $X, Y$ determines a derivation $(X, \cdot, Y)$ ([Jacobson](#Jacobson) Sec. I.7).  In the finite-dimensional case there is no difficulty with exponentiating a derivation to obtain an automorphism.   Thus, for any elements $X, Y$ of a finite-dimensional Jordan algebra, the solution of the above equation always determines a one-parameter group of Jordan algebra automorphisms.
 
