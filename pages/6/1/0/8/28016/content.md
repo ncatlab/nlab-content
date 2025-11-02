@@ -50,9 +50,43 @@ Any Jordan triple system gives a Lie triple system with Lie triple product given
 
 $$ [x,y,z] = \{x,y,z\} - \{y,x,z\} .$$
 
+## Relation to 3-graded Lie algebras
+
+Given any 3-graded Lie algebra $\mathfrak{g}$ with an anti-graded involution $\varepsilon \colon \mathfrak{g} \rightarrow \mathfrak{g}$ (restricting to $\mathfrak{g}_{-1} \rightarrow \mathfrak{g}_1$ and $\mathfrak{g}_0 \rightarrow \mathfrak{g}_0$) and any linear subspace $V \subseteq \mathfrak{g}$ closed under the triple commutator
+
+$$ \{u,v,w\} = [[u,\varepsilon(v)], w] ,$$
+
+$V$ becomes a Lie triple system. Thus, given a 3-graded Lie algebra, say $\mathfrak{g} = \mathfrak{g}_{-1} \oplus  \mathfrak{g}_0 \oplus \mathfrak{g}_1$, the space $\mathfrak{g}_1$ of odd elements becomes a Jordan triple system.   
+
+Conversely, given any Jordan triple system $V$, if we define 
+
+$$ \mathfrak{g}_{-1} = V $$
+
+$$ \mathfrak{g}_0 = \text{span}\{L_{u,v}: u, v \in V \} $$ 
+
+$$ \mathfrak{g}_1 = V $$
+
+then $\mathfrak{g} = \mathfrak{g}_{-1} \oplus  \mathfrak{g}_0 \oplus \mathfrak{g}_1$ becomes a 3-graded Lie algebra with bracket given by
+
+$$ [(a,L,u),(b,M,v)] = (L(b) - M(a), [L,M]+L_{a,v}-L_{b,u}, L(v) - M(u)) $$
+
+for $L,M \in \mathfrak{g}_0, u,v \in \mathfrak{g}_1$. ([Caveny & Smirnov 11 Thrm. 5.3](#CavenySmirnov11))
+
+Let $\mathbf{LA}_{3-gr}$ be the category of Lie algebras, $\mathbf{LA}_{3-gr}^\varepsilon$ be the category of Lie algebras with an anti-graded involution, and $\mathbf{JTS}$ be the category of Jordan triple systems. The first construction (with $V=\mathfrak{g}_1$) describes a [[forgetful functor]] $\mathcal{F}_\mathcal{T}\colon\mathbf{LA}_{3-gr}^\varepsilon\rightarrow\mathbf{JTS}$. The second construction defines a [[fully faithful functor]] $\widehat{TKK}\colon\mathbf{JTS}\rightarrow\mathbf{LA}_{3-gr}^\varepsilon$, which gives and [[adjunction]]:
+$$
+\widehat{TKK}\dashv\mathcal{F}_\mathcal{T}.
+$$
+
+([Caveny & Smirnov 11 6.1](#CavenySmirnov11))
+
+This adjunction is not an [[equivalence of categories]]. Thus, the counit $\widehat{TKK}\mathcal{F}_\mathcal{T}\Rightarrow Id$ is not a natural isomorphism. But since $\widehat{TKK}$ is [[fully faithful]], a suitable subcategory of $\mathbf{LA}_{3-gr}^\varepsilon$ makes the [[adjunction]] an [[equivalence of categories]], which is that of 3-graded Lie algebras $\mathfrak{g}=\mathfrak{g}_{-1}\oplus\mathfrak{g}_0\oplus\mathfrak{g}_1$ with involution, which are centrally 0-closed (meaning every central 0-extension of it splits uniquely) and 0-perfect (meaning $\mathfrak{g}_0=[\mathfrak{g}_{-1},\mathfrak{g}_1]$). ([Caveny & Smirnov 11 Crl. 6.6](#CavenySmirnov11))
+
 ## References
 
 * {#Loos71} Ottmar Loos, _Jordan triple systems, R-spaces, and bounded symmetric domains_, Bulletin of the American Mathematical Society __77__ (1971) 558–561. [pdf](https://www.ams.org/journals/bull/1971-77-04/S0002-9904-1971-12753-2/S0002-9904-1971-12753-2.pdf)
 
 * {#Jacobson49} [[Nathan Jacobson]]: _Lie and Jordan triple systems_, American Journal of Mathematics __71__ (1949) 149–170 &lbrack;[jstor:2372102](https://www.jstor.org/stable/2372102)&rbrack; also in: *Nathan Jacobson, Collected Mathematical Papers*, Contemporary Mathematicians. Birkhäuser Boston (1989) &lbrack;[doi:10.1007/978-1-4612-3694-8_2](https://doi.org/10.1007/978-1-4612-3694-8_2)&rbrack;
 
+* {#CavenySmirnov11} Deanna Caveny and [[Oleg Smirnov]]: _Categories of Jordan Structures and Graded Lie Algebras_ (2011), &lbrack;[arxiv:1106.2447](https://arxiv.org/abs/1106.2447)&rbrack;
+
+[[!redirects Jordan triple systems]]
