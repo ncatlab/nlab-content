@@ -348,6 +348,39 @@ v \in C, v' \in C' \} . $$
 
 In short: finite-dimensional formally real Jordan algebras arise fairly naturally as observables starting from a formalism where nonnegative observables form a cone, as long as we insist on some properties of this cone.
 
+## Derivations 
+
+In ordinary quantum mechanics, in the special case where observables are described as elements of $\mathfrak{h}_n(\mathbb{C})$, we can describe time evolution of an observable $O(t) \in \mathfrak{h}_n(\mathbb{C})$ using Heisenberg's equation
+
+$$ \frac{d}{d t} O(t) = -i [H, O(t)] $$
+
+where $H \in \mathfrak{h}_n(\mathbb{C})$ is a fixed element called the [[Hamiltonian]].  However, this uses the commutator bracket, which is not part of the Jordan algebra structure of $\mathfrak{h}_n(\mathbb{C})$.   Townsend ([Townsend](#Townsend)) noted a nice solution to this problem when 
+
+$$ H = i [X, Y]$$
+
+for some $X, Y \in \mathfrak{h}_n(\mathbb{C})$.   Then we can use the identity
+
+$$ [[X, Y], A] = \frac{1}{4}(X, A, Y)$$
+
+(CHECK SIGN) where 
+
+$$(X, A, Y) = (X \circ A) \circ Y - X \circ (A \circ Y) $$
+
+is the [[associator]] of $X,A,$ and $Y$ with respect to the Jordan product on $\mathfrak{h}_n(\mathbb{C})$.  This lets us re-express Heisenberg's equation as
+
+$$ \frac{d}{d t} O(t) = \frac{1}{4}(X, O(t), Y)$$
+
+so that is uses an associator rather than a commutator.
+
+This raises the question of when a self-adjoint matrix $H$ can be written as $i [X, Y]$ for self-adjoint matrices $X, Y$.  I believe this is true whenever $H$ is traceless.  If so we are in luck, since *any* self-adjoint matrix $H$ is of the form $H' + \lambda I$ where $H'$ is traceless, and then writing $H' = i[X,Y]$ we have
+
+$$ [H, O(t)] = [H' + \lambda I, O(t)] = [H, O(t)] = i [[X,Y], O(t)] = \frac{i}{4}(X, O(t), Y) $$
+
+so we can rewrite Heisenberg's equation as
+
+$$ \frac{d}{d t} O(t) = \frac{1}{4}(X, O(t), Y)$$
+
+Moreover, in *any* Jordan algebra, a pair of elements $X, Y$ determines a derivation $(X, \cdot, Y)$ ([Jacobson](#Jacobson) Sec. I.7).  so for a finite-dimensional Jordan algebra the solution of the above equation determines a one-parameter group of Jordan algebra automorphisms.
 
 ## Relation to commutative subalgebras
 
@@ -392,9 +425,9 @@ Textbooks:
 
 *  Harald Hanche-Olsen and Erling Stormer: _Jordan Operator Algebras_, Pitman, 1984.  ([web](http://www.math.ntnu.no/~hanche/joa/))
 
-* Nathan Jacobson, _Structure and Representations of Jordan Algebras_, American Mathematical Society, 1968.
+* {#Jacobson} Nathan Jacobson, _Structure and Representations of Jordan Algebras_, American Mathematical Society, 1968.
 
-* Kevin McCrimmon, _A Taste of Jordan Algebras_, Springer, 2006.  ([pdf](http://math.nsc.ru/LBRT/a1/files/mccrimmon.pdf))
+* {#McCrimmon} Kevin McCrimmon, _A Taste of Jordan Algebras_, Springer, 2006.  ([pdf](http://math.nsc.ru/LBRT/a1/files/mccrimmon.pdf))
 
 * {#SpringerVeltkamp00} [[Tonny Springer]], [[Ferdinand Veldkamp]], Chapter 5 of _Octonions, Jordan Algebras, and Exceptional Groups_, Springer Monographs in Mathematics, 2000.
 
@@ -406,12 +439,11 @@ Introductions and surveys include:
 _Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams.org/bull/1978-84-04/S0002-990\
 4-1978-14503-0/home.html)) and ([Project Euclid website](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540925)).
 
-* {#Koecher} Max Koecher, _The Minnesota Notes on Jordan Algebras and 
-Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 1999. doi:[10.1007/BFb0096285](http://dx.doi.org/10.1007/BFb0096285) (paywalled)
+* {#Koecher} Max Koecher, _The Minnesota Notes on Jordan Algebras and Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 1999. doi:[10.1007/BFb0096285](http://dx.doi.org/10.1007/BFb0096285) (paywalled)
 
-* [[Paul Townsend]], _The Jordan formulation of quantum mechanics: a review_ ([arXiv:1612.09228](https://arxiv.org/abs/1612.09228))
+* {#Townsend} [[Paul Townsend]], _The Jordan formulation of quantum mechanics: a review_ ([arXiv:1612.09228](https://arxiv.org/abs/1612.09228))
 
-More on the physical motivation for regarding any [[algebra of quantum observables]] (just) as a Jordan algebra:
+More on the physical motivation for regarding any [[algebra of quantum observables]] as a Jordan algebra:
 
 * [[John Baez]], *Jordan algebras*, Section 4 of: *Getting to the Bottom of Noether's Theorem* &lbrack;[arXiv:2006.14741](https://arxiv.org/abs/2006.14741)&rbrack;
 
