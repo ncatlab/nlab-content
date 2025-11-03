@@ -48,6 +48,11 @@ Under minimal assumptions, the $w$-weak morphism classifier 2-adjunction is [[la
 * [[Stephen Lack]], _Morita contexts as lax functors_, Applied Categorical Structures 22.2 (2014): 311-330.
 * Kengo Hirata, _Generalization of formal monad theory to lax functors_, [arXiv:2301.06420](https://arxiv.org/abs/2301.06420) (2023).
 
+In the context of [[(∞,2)-categories]]:
+
+* Johannes Gloßner, _A Model Independent Universal Property for the Lax 2-Functor Classifier_ &lbrack;[arXiv:2510.27557](https://arxiv.org/abs/2510.27557)&rbrack;
+
+
 [[!redirects weak morphism classifiers]]
 [[!redirects lax morphism classifier]]
 [[!redirects lax morphism classifiers]]
