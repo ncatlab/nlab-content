@@ -1,13 +1,24 @@
 
-* [website Berkeley](http://math.berkeley.edu/people/faculty/peter-teichner)
+* [personal page](http://people.mpim-bonn.mpg.de/teichner/Math/Home.html) (MPIM)
 
-* [webpage MPIM](http://people.mpim-bonn.mpg.de/teichner/Math/Home.html)
+* [institute page](http://math.berkeley.edu/people/faculty/peter-teichner) (Berkeley)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Peter_Teichner)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=25969)
+
+* [inSpire page](https://inspirehep.net/authors/2132963)
+
+
 
 ## Selected writings
 
-On relating [[topological K-theory]] and, maybe, [[elliptic cohomology]] (at least the [[Witten genus]]) to [[functorial quantum field theory]]:
+On relating [[topological K-theory]] and, maybe, [[elliptic cohomology]] (at least the [[Witten genus]]) to [[functorial quantum field theory]] (cf. *[[(1,1)-dimensional Euclidean field theories and K-theory]]*):
 
-* [[Stefan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_
+* [[Stefan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_ (2004)
+
+* [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]]: *From Minimal Geodesics to Supersymmetric Field Theories*, in *A Celebration of the Mathematical Legacy of Raoul Bott*,  CRM Proceedings & Lecture Notes **50**, AMS and Centre de Recherches Math&eacute;matiques (2010) 207–274 &lbrack;[pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Bott-EFT.pdf), [ams:CRMP/50](https://bookstore.ams.org/view?ProductCode=CRMP/50)&rbrack;
+
 
 * {#StolzTeichner11} [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
 
