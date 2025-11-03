@@ -49,6 +49,8 @@ Alternatively one may set up synthetic differential geometry via axioms for [[di
 
   * [[real-cohesive homotopy type theory]], which sets up the [[(infinity,1)-topos]] of [[Euclidean topological infinity-groupoids]] via axioms
 
+* [[formal category theory]], a synthetic approach to [[category theory]]
+
 * [[synthetic differential topology]]
 
 * [[synthetic domain theory]]
