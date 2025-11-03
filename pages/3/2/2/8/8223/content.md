@@ -92,7 +92,7 @@ For example, consider how to construct the [[equalizer]] of a pair of graph maps
 
 Moreover, every induced subgraph $H \hookrightarrow G$ arises as an equalizer (consider the equalizer of the two embeddings of $G$ into the amalgamation $G +_H G$, which at the vertex level agrees with $H \hookrightarrow G$). 
 
-Of course this is elementary, but we get much more more: the quasitopos $SimpGph$ is also a [[locally cartesian closed category]], and [[dependent products]] can also be read off directly from how they work for presheaves. 
+Of course this is elementary, but we get much more: the quasitopos $SimpGph$ is also a [[locally cartesian closed category]], and [[dependent products]] can also be read off directly from how they work for presheaves. 
 =-- 
 
 It is easy to describe [[monomorphism|monos]] and [[epimorphism|epis]] in $SimpGph$. For, let $\Gamma = \hom(1, -): SimpGph \to Set$ be the underlying vertex-set [[forgetful functor]]. 
