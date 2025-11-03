@@ -2690,6 +2690,8 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 
 * **topological K-theory
 
+  * [[KU]]
+
   * [[Atiyah-Bott-Shapiro isomorphism]]
 
   * [[topological index]]
@@ -2705,6 +2707,8 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
   * [[Adams operations]]
 
   * [[unstable K-theory]]
+
+  * [[(1,1)-dimensional Euclidean field theories and K-theory]]
 
 * [[groupoid K-theory]]
 
