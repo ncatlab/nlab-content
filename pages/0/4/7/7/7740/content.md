@@ -224,6 +224,13 @@ Discussion from a point of view of [[synthetic differential geometry]] is in
 
 * {#Kock10} [[Anders Kock]], _Synthetic geometry of manfiolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
+On differential operators in [[noncommutative geometry]]
+
+* Keegan J. Flood, Mauro Mantegazza, Henrik Winther. *Jet functors in noncommutative geometry*. Sel. Math. New Ser. 31, 70 (2025). ([doi.org/10.1007/s00029-025-01064-3](https://doi.org/10.1007/s00029-025-01064-3))
+
+* Keegan J. Flood, Mauro Mantegazza, Henrik Winther. *Symbols in noncommutative geometry* (2023). ([arXiv:2308.00835](https://arxiv.org/abs/2308.00835))
+
+* Keegan J. Flood, Mauro Mantegazza, Henrik Winther. *Higher order connections in noncommutative geometry* (2025). ([arXiv:2504.05519](https://arxiv.org/abs/2504.05519))
 [[!redirects differential operators]]
 
 [[!redirects linear differential operator]]
