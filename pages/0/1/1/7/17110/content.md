@@ -88,6 +88,10 @@ Now
 
 * [[Neil Strickland]], section 13 of: *A Bestiary of Topological Objects* \[<a href="https://strickland1.org/courses/bestiary/bestiary.pdf">pdf</a>, [[Strickland-BestiaryTopological.pdf:file]]\]
 
+On 4-manifolds and [[Kirby calculus]]:
+
+* {#GompfStipsicz99} [[Robert Gompf]], [[András Stipsicz]]: _4-Manifolds and Kirby Calculus_, Graduate Studies in Mathematics **20**, AMS (1999) &lbrack;[ISBN:978-0-8218-0994-5](https://www.ams.org/books/gsm/020), [doi:10.1090/gsm/020](https://www.ams.org/books/gsm/020)&rbrack;
+
 
 All [[PL manifold|PL]] [[4-manifolds]] are _simple_ [[branched covers]] of the  [[4-sphere]]:
 
