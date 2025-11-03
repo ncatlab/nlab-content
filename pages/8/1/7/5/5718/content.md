@@ -390,6 +390,12 @@ On jet bundles in [[noncommutative geometry]]:
 
 * Xiao Han, [[Shahn Majid]]. *Quantum jet Hopf algebroids by cotwist* (2025). ([arXiv:2507.02848](https://arxiv.org/abs/2507.02848)).
 
+* Keegan J. Flood, Mauro Mantegazza, Henrik Winther. *Jet functors in noncommutative geometry*. Sel. Math. New Ser. 31, 70 (2025). ([doi.org/10.1007/s00029-025-01064-3](https://doi.org/10.1007/s00029-025-01064-3))
+
+* Keegan J. Flood, Mauro Mantegazza, Henrik Winther. *Symbols in noncommutative geometry* (2023). ([arXiv:2308.00835](https://arxiv.org/abs/2308.00835))
+
+* Keegan J. Flood, Mauro Mantegazza, Henrik Winther. *Higher order connections in noncommutative geometry* (2025). ([arXiv:2504.05519](https://arxiv.org/abs/2504.05519))
+
 [[!redirects jet bundles]]
 
 [[!redirects jet]]
