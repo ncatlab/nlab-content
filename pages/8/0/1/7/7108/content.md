@@ -7,8 +7,13 @@
 
 Let $S$ be a [[set]].  Frequently, $S$ is a [[group]] or [[monoid]] (usually [[commutative monoid|commutative]]).
 
-An **$S$-graded set** is an $S$-indexed [[family of sets]] $\{X_s\}_{s\in S}$. This can equivalently be described as a [[function]] $S \to Set$, or as a function $X \to S$ (a [[bundle]] with $X_s$ the [[fiber]] over $s\in S$).
-In case $S$ is a monoid, this is the same as a [[comodule]] over $S$, where $S$ is viewed as a [[bimonoid]] under the diagonal map.
+An **$S$-graded set** is an $S$-indexed [[family of sets]] $\{X_s\}_{s\in S}$. This can equivalently be described as 
+
+* a [[function]] $S \to Set$, 
+
+* a function $X \to S$ (a [[bundle]] with $X_s$ the [[fiber]] over $s\in S$),
+
+* a [[comodule]] over $S$, where $S$ is viewed as a [[comonoid]] with [[comultiplication]] the [[diagonal map]] and [[counit]] the [[terminal object|terminal map]].
 
 The elements of $X_s$ are often said to have **degree** $s$.
 
