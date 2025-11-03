@@ -411,11 +411,14 @@ $$
 ## References
  {#References}
 
-* [[Stephan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_ in _Topology, geometry and quantum field theory_ , London Math. Soc. LNS 308, Cambridge Univ. Press (2004), 247-343. ([pdf](http://web.me.com/teichner/Math/Reading_files/Elliptic-Objects.pdf))
+* [[Stephan Stolz]], [[Peter Teichner]], Remark 3.1.6 in: _[[What is an elliptic object?]]_, in: _Topology, geometry and quantum field theory_ , London Math. Soc. LNS **308**, Cambridge Univ. Press (2004) 247-343 &lbrack;[pdf](https://math.berkeley.edu/~teichner/Papers/Oxford.pdf), [[Stolz-Teichner_EllipticObject.pdf:file]]&rbrack;
+
+* [[Pokman Cheung]], Thm. 1.2.3 in: _Supersymmetric field theories and cohomology_ &lbrack;[arXiv:0811.2267](http://arxiv.org/abs/0811.2267)&rbrack;
+
+* {#Stolz} [[Stefan Stolz]] (notes by Arlo Caine), §11-13: _Supersymmetric Euclidean field theories and generalized cohomology_, Lecture notes (2009) &lbrack;[[StolzCaine-SEFTandCohomology.pdf:file]]&rbrack;
+
+* [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]]: *From Minimal Geodesics to Supersymmetric Field Theories*, in *A Celebration of the Mathematical Legacy of Raoul Bott*,  CRM Proceedings & Lecture Notes **50**, AMS and Centre de Recherches Math&eacute;matiques (2010) 207–274 &lbrack;[pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Bott-EFT.pdf), [ams:CRMP/50](https://bookstore.ams.org/view?ProductCode=CRMP/50)&rbrack;
+
+* [[Stefan Stolz]], [[Peter Teichner]]: _Supersymmetric Euclidean field theories and generalized cohomology_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011)
 
 
-* Pokman Cheung, _Supersymmetric field theories and cohomology_ ([arXiv:0811.2267](http://arxiv.org/abs/0811.2267))
-
-* {#Stolz} [[Stefan Stolz]] (notes by Arlo Caine), _Supersymmetric Euclidean field theories and generalized cohomology_ Lecture notes (2009) ([pdf](http://www.cpp.edu/~jacaine/pdf/Lectures_complete.pdf))
-
-* [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric Euclidean field theories and generalized cohomology_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011)
