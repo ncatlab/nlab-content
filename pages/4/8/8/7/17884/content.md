@@ -100,7 +100,7 @@ $$
   \,.
 $$
 
-Notice: The differential takes the single generator in degree 0 to the single generator in degree 1. As a differential in chain complexes of $\mathbb{R}$-modules this would be the null complex, but since the bracket carries a prefactor of $\hbar$, we get something non-null if we regard this suitably filtered over $\hbar$... In particular, setting "$\hbar = 0$" by forming the [[tensor product]] with $\mathbb{R} \simeq \mathbb{R}[ [\hbar] ]/(\hbar)$ turns it into the chain complex concetrated on a single generator in degree 0. This is the $E_0$-operad.
+Notice: The differential takes the single generator in degree 0 to the single generator in degree 1. As a differential in chain complexes of $\mathbb{R}$-modules this would be the null complex, but since the bracket carries a prefactor of $\hbar$, we get something non-null if we regard this suitably filtered over $\hbar$... In particular, setting "$\hbar = 0$" by forming the [[tensor product]] with $\mathbb{R} \simeq \mathbb{R}[ [\hbar] ]/(\hbar)$ turns it into the chain complex concetrated on a single generator in degree 0. This is the $P_0$-operad.
 On the other hand, for finite $\hbar$, i.e. after tensoring with $\mathbb{R}[ [\hbar] ]/(\hbar-1)$ then it becomes the $\tilde E_0$-operad, which is equivalent to the $E_0$-operad (whose algebras are simply pointed chain complexes). See also [Gwilliam-Haugseng](#GwilliamHaugseng).
 
 $$
