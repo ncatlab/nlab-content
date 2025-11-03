@@ -151,6 +151,9 @@ An email exchange of similar content that happened half a year earlier is recall
 See also
 
 * Wikipedia, *[ER=EPR](https://en.wikipedia.org/wiki/ER%3DEPR)* 
+
+* Xin Jiang, Peng Wang, Houwen Wu, Haitang Yang:  *Realization of "ER=EPR"* &lbrack;[arXiv:2411.18485](https://arxiv.org/abs/2411.18485)&rbrack;
+
    
 
 [[!redirects ER=EPR]]
