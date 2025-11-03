@@ -28,6 +28,7 @@ On relating [[topological K-theory]] and, maybe, [[elliptic cohomology]] (at lea
 
 * {#Stolz} [[Stefan Stolz]] (notes by Arlo Caine): _Supersymmetric Euclidean field theories and generalized cohomology_, Lecture notes (2009) &lbrack;[[StolzCaine-SEFTandCohomology.pdf:file]]&rbrack;
 
+* [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]]: *From Minimal Geodesics to Supersymmetric Field Theories*, in *A Celebration of the Mathematical Legacy of Raoul Bott*,  CRM Proceedings & Lecture Notes **50**, AMS and Centre de Recherches Math&eacute;matiques (2010) 207–274 &lbrack;[pdf](https://people.mpim-bonn.mpg.de/teichner/Math/ewExternalFiles/Bott-EFT.pdf), [ams:CRMP/50](https://bookstore.ams.org/view?ProductCode=CRMP/50)&rbrack;
 
 * {#StolzTeichner11} [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
 
