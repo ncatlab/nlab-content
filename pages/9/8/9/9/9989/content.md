@@ -1,5 +1,14 @@
 
-* [webpage](http://ww1.math.nus.edu.sg/onepageCV.aspx?id=mathanf)
+
+* [institute page](https://discovery.nus.edu.sg/1759-fei-han)
+
+* [institute page](https://scms.fudan.edu.cn/info/3052/3883.htm)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=124277)
+
+* [inSpire page](https://inspirehep.net/authors/1949789)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=1LYw5NYAAAAJ&hl=en)
 
 ## Selected writings
 
