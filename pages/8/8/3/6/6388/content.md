@@ -60,9 +60,15 @@ A general discssion is for instance in section 11 of
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
 
-A discussion of the vacuum Einstein equations (only gravity, no other fields) in terms of [[synthetic differential geometry]] is in
+A discussion of the vacuum Einstein equations (only gravity, no other fields) in terms of [[synthetic differential geometry]]:
 
-* [[Gonzalo Reyes]], _A derivation of Einstein's vacuum field equations_ ([pdf](http://marieetgonzalo.files.wordpress.com/2009/12/a-derivation-of-einsteins-vacuum-field-equations1.pdf))
+* [[Gonzalo Reyes]], _A derivation of Einstein's vacuum field equations_ &lbrack;[pdf](http://marieetgonzalo.files.wordpress.com/2009/12/a-derivation-of-einsteins-vacuum-field-equations1.pdf)&rbrack;
+
+In relation to [[holographic entanglement entropy]]:
+
+* Xin Jiang, Haitang Yang: *Derive Einstein equation from CFT entanglement entropy* &lbrack;[arXiv:2510.27250](https://arxiv.org/abs/2510.27250)&rbrack;
+
+
 
 ### PDE theory
 
