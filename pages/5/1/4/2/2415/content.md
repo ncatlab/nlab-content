@@ -22,9 +22,12 @@ Introducing the [[Stolz conjecture]]:
 
 * {#Stolz96} [[Stephan Stolz]], _A conjecture concerning positive Ricci curvature and the Witten genus_, Mathematische Annalen Volume 304, Number 1 (1996) ([doi:10.1007/BF01446319](https://doi.org/10.1007/BF01446319))
 
-On relating [[topological K-theory]] and, maybe, [[elliptic cohomology]] (at least the [[Witten genus]]) to [[functorial quantum field theory]]:
+On relating [[topological K-theory]] and, maybe, [[elliptic cohomology]] (at least the [[Witten genus]]) to [[functorial quantum field theory]] (cf. *[[(1,1)-dimensional Euclidean field theories and K-theory]]*):
 
-* [[Stephan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_
+* [[Stephan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_ (2004)
+
+* {#Stolz} [[Stefan Stolz]] (notes by Arlo Caine): _Supersymmetric Euclidean field theories and generalized cohomology_, Lecture notes (2009) &lbrack;[[StolzCaine-SEFTandCohomology.pdf:file]]&rbrack;
+
 
 * {#StolzTeichner11} [[Stephan Stolz]], [[Peter Teichner]], _Supersymmetric field theories and generalized cohomology_, in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[Mathematical foundations of Quantum field theory and String theory](http://ncatlab.org/schreiber/show/Mathematical+Foundations+of+Quantum+Field+and+Perturbative+String+Theory#ContributionStolzTeichner)_, Proceedings of Symposia in Pure Mathematics, Volume 83, AMS (2011)
 
