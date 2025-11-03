@@ -48,7 +48,7 @@ Monographs on the relativistic Dirac equation in 3+1d Minkowski spacetime:
 * [[James D. Bjorken]], [[Sidney D. Drell]]: *Relativistic Quantum Mechanics*, McGrawHill (1964) &lbrack;[ark:/13960/t5fc2v05h](https://archive.org/details/relativisticquan0000bjor/page/n1/mode/2up), [pdf](https://emineter.wordpress.com/wp-content/uploads/2018/10/james-d-bjorken-sidney-d-drell-relativistic-quantum-mechanics-1964.pdf), [pdf](http://www.mmmut.ac.in/News_content/14331tpnews_11122020.pdf)&rbrack;
 
 
-* [[Bernd Thaller]], *The Dirac Equation*,  Texts and Monographs in Physics, Springer (1992) ([doi:10.1007/978-3-662-02753-0](https://link.springer.com/book/10.1007/978-3-662-02753-0))
+* [[Bernd Thaller]]: *The Dirac Equation*,  Texts and Monographs in Physics, Springer (1992) &lbrack;[doi:10.1007/978-3-662-02753-0](https://link.springer.com/book/10.1007/978-3-662-02753-0)&rbrack;
    
 
 See also:
