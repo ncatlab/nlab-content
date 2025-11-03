@@ -34,6 +34,12 @@ On [[bundle gerbe modules]] with [[higher structure|higher]] [[G-structures]] (i
 * [[Fei Han]], [[Ruizhi Huang]], [[Varghese Mathai]], *Fractional structures on bundle gerbe modules and fractional classifying spaces* &lbrack;[arXiv:2203.14439](https://arxiv.org/abs/2203.14439)&rbrack;
 
 
+On the [[Anderson dual]] of [[Spin^c]]-[[cobordism cohomology]] in relation to [[topological K-theory]]:
+
+* [[Fei Han]], Yuanchu Li: *Differential Models for Anderson Dual to Twisted -Bordism and Twisted Anomaly Map* &lbrack;[arXiv:2510.27286](https://arxiv.org/abs/2510.27286)&rbrack;
+
+
+
 
 category: people
 
