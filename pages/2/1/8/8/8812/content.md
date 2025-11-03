@@ -68,6 +68,12 @@ For $E$ a [[real vector bundle|real]] [[trivial line bundle]] then the principal
 * [[Nigel Higson]], [[John Roe]], chapter 2.5 of  _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
 
 * {#Freed87} [[Daniel Freed]], *Geometry of Dirac operators* (1987) &lbrack;[pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf), [[FreedGeometryOfDiracOperators.pdf:file]]&rbrack;
+
+On symbols in [[noncommutative geometry]]
+
+* Keegan J. Flood, Mauro Mantegazza, Henrik Winther. *Symbols in noncommutative geometry* (2023). ([arXiv:2308.00835](https://arxiv.org/abs/2308.00835))
+
+* Keegan J. Flood, Mauro Mantegazza, Henrik Winther. *Higher order connections in noncommutative geometry* (2025). ([arXiv:2504.05519](https://arxiv.org/abs/2504.05519))
  
 See also
 
