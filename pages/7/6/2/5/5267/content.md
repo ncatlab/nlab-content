@@ -31,6 +31,8 @@ The set $\sigma_d(A)$ of ordinary [[normal eigenvalues|normal]] [[eigenvalues]] 
 
 ## Related concepts
 
+* [[essential spectrum]], [[Calkin algebra]]
+
 * [[spectral gap]]
 
 * [[spectral theory]]
@@ -39,7 +41,11 @@ The set $\sigma_d(A)$ of ordinary [[normal eigenvalues|normal]] [[eigenvalues]] 
 
 ## References
 
-See also 
+
+* {#Müller2003} [[Vladimir Müller]]: *Spectral Theory of Linear Operators and Spectral Systems in Banach Algebras*, Operator Theory: Advances and Applications **139**, Birkhäuser (2003, 2007) &lbrack;[doi:10.1007/978-3-7643-8265-0](https://doi.org/10.1007/978-3-7643-8265-0)&rbrack;
+
+
+See also:
 
 * Wikipedia, *<a href="https://en.wikipedia.org/wiki/Spectrum_(functional_analysis)">Spectrum (functional_analysis)</a>*
 
