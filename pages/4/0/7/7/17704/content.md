@@ -21,7 +21,7 @@ class (Functor f) => Applicative f where
   (<*>) :: f (a -> b) -> f a -> f b
 ```
 
-It defines a strong lax monoidal endofunctor as follows:
+It defines a [[tensorial strength|strong]] [[lax monoidal functor|lax monoidal]] [[endofunctor]] as follows:
 
 - $\epsilon = \eta_I : I \to F(I)$,
 - $\mu_{x,y} : F(x) \otimes F(y) \xrightarrow{F(\Lambda(\mathrm{id}_{x \otimes y})) \otimes \mathrm{id}_{F(y)}} F([y, x \otimes y]) \otimes F(y) \xrightarrow{\phi_{y,x \otimes y}} F(x \otimes y)$
@@ -84,5 +84,9 @@ strength (a, fb) = fmap (a,) fb
 * [[Conor McBride]], Ross Paterson: _Applicative programming with effects_, Journal of Functional Programming **18** 01 (2008) 1-13 &lbrack;[doi:10.1017/S0956796807006326](https://doi.org/10.1017/S0956796807006326); [author’s version](http://www.staff.city.ac.uk/~ross/papers/Applicative.html)&rbrack;
 
 * Ross Paterson: _Constructing Applicative Functors_, in: *Mathematics of Program Construction, Madrid, 2012*, Lecture Notes in Computer Science **7342**, Springer, (2012) 300-323 &lbrack;[doi:10.1007/978-3-642-31113-0_15](https://doi.org/10.1007/978-3-642-31113-0_15), [webpage](http://www.staff.city.ac.uk/~ross/papers/Constructors.html)&rbrack;
+
+Review:
+
+* beuke.org: *[Applicative -- A Strong Lax Monoidal Functor](https://beuke.org/applicative/)*
 
 [[!redirects applicative functors]]
