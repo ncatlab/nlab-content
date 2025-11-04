@@ -5,14 +5,62 @@
 
 ***
 
+\begin{proposition}
+  The space of [[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
+  $$
+    Fred^{sa}
+    \subset
+    \Big\{
+      F \in Fred 
+      \;\Big\vert\;
+      F^\dagger = F
+    \Big\}
+  $$
+  has three [[connected components]]
+  $$
+    Fred^{sa}
+    \simeq
+    Fred_+^{sa}
+    \sqcup
+    Fred_-^{sa}
+    \sqcup
+    Fred_\ast^{sa}
+  $$
+  corresponding to the operators $F$ whose [[essential spectrum]] (which is [[real number|real]], by self-adjointness) is, respectively:
 
-[[CechGroupoid-Illustration-251101b.png:file]]
+  1. $Fred_+^{sa}$: purely [[positive number|positive]]
 
-[[EquivariantChechGroupoidIllustration-251101.png:file]]
+  1. $Fred_-^{sa}$: purely [[negative number|negative]]
 
-[[SpindleGluingMorphismIllustration-251101.png:file]]
+  1. $Fred_{\ast}^{sa}$: both, hence [[inhabited set|nonempty]] both above and below [[zero]].
 
-[[DuggerCofibrantSpindleGroupoid-251101.png:file]]
+Moreover, 
+
+1. the first two components are [[contractible topological space|contractible]]
+
+   $$
+     Fred^{sa}_{\pm} \simeq \ast
+     \,,
+   $$
+
+1. the last component is [[homotopy equivalence|homotoppy equivalent]] to the [[stable unitary group]], hence the [[classifying space]] for [[topological K-theory]] in odd degree:
+
+   $$
+     Fred^{sa}_{\ast} \simeq U \simeq KU_1
+     \,.
+   $$
+
+\end{proposition}
+Up to some straightforward reidentifications (for instance one may equivalently use *skew* self-adjoint operators whose spectrum is then purely [[imaginery number|imaginary]]) this is the statement of [Atiyah & Singer 1969 Thm. B](#AtiyahSinger1969) and [Karoubi 1970 Lem 1.4 & Prop. 1.5](#Karoubi1970).
+
+## References
+
+* {#AtiyahSinger1969} [[Michael F. Atiyah]], [[Isadore M. Singer]]: *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
+
+* {#Karoubi1970} [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
+
+
+***
 
 
 +-- {: .num_theorem #PullbackLawForACube}
