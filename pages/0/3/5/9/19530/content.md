@@ -170,6 +170,13 @@ For $\mathcal{C}$ a [[small category|small]] $\mathcal{V}$-[[enriched category]]
 
 =--
 
++-- {: .num_example}
+###### Example
+
+If $\mathcal{C}$ is a [[partial order|poset]] (or merely a pre-ordered set), then it is enriched over the two-object category of [[truth value|truth values]]. In this case, $\mathcal{C}$ is powered precisely when it has a greatest element, and it is co-powered precisely when it has a least element. If $\mathcal{C}$ is powered, then for all $x\in \mathcal{C}$, $x^1 = x$ and $x^0$ is the greatest element of $\mathcal{C}$. If $\mathcal{C}$ is co-powered, then $1 \cdot x = x$ and $0 \cdot x$ is the least element of $\mathcal{C}$.
+
+=--
+
 ## Related concepts
 
 * [[two-variable adjunction]]
