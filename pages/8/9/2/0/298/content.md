@@ -301,7 +301,9 @@ Much algebraic insight to algebraic structures in CFT is in unfinished notes
 
 Relation to [[2d CFT]]:
 
-* [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_  Birkh&#228;user (1997) ([doi:10.1007/978-1-4612-4276-5](https://link.springer.com/book/10.1007/978-1-4612-4276-5))
+* [[Yi-Zhi Huang]]: _Two-dimensional conformal geometry and vertex operator algebras_,  Birkh&#228;user (1997) ([doi:10.1007/978-1-4612-4276-5](https://link.springer.com/book/10.1007/978-1-4612-4276-5))
+
+* [[Terry Gannon]]: *Exotic quantum subgroups and extensions of affine Lie algebra VOAs -- part I* &lbrack;[arXiv:2301.07287](https://arxiv.org/abs/2301.07287)&rbrack;
 
 For [[orbifolds]]:
 
