@@ -46,7 +46,7 @@ Introducing the [[Atiyah-Bott fixed point theorem]]:
 * [[Michael F. Atiyah]], [[Raoul Bott]]: *A Lefschetz Fixed Point Formula for Elliptic Complexes: I*, Annals of Mathematics **86** 2 (1967) 374-407 &lbrack;[doi:10.2307/1970694](https://doi.org/10.2307/1970694), [jstor:1970694](https://www.jstor.org/stable/1970694)&rbrack;
 
 
-Generalization of the [[Atiyah-Jänich theorem]] to any degree:
+Generalization of the [[Atiyah-Jänich theorem]] to any degree and to [[KO-theory]]:
 
 * [[Michael F. Atiyah]], [[Isadore M. Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
 
