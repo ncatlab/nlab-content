@@ -73,6 +73,8 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 * [[quaternionic vector bundle]]
 
+* [[quaternionic structure]]
+
 * [[Dieudonné determinant]]
 
 * [[SL(2,H)]]
