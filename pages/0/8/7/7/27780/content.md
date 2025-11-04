@@ -132,9 +132,9 @@ The original articles:
 * {#Atiyah69} [[Michael Atiyah]], §2 in: *Algebraic Topology and Operators in Hilbert Space*, in: *Lectures in Modern Analysis and Applications I*, Lecture Notes in Mathematics **103**, Springer (1969) 101-121 &lbrack;[doi:10.1007/BFb0099987](https://doi.org/10.1007/BFb0099987), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyah002.pdf), [[Atiyah-AlgTopAndOperators.pdf:file]]&rbrack;
 
 
-Generalization to general degree:
+Generalization to general degree and to [[KO-theory]]:
 
-* [[Michael F. Atiyah]], [[Isadore M. Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
+* [[Michael F. Atiyah]], [[Isadore M. Singer]]: *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
 
 * [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
 
