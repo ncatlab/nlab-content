@@ -26,7 +26,7 @@ the [[topological K-theory]] of [[quaternionic vector bundles]].
 
 This is in direct analogy with how [[complex K-theory]] ([[KU]]) is the topological K-theory of [[complex vector bundles]] and [[KO]] that of [[real vector bundles]].
 
-In fact, quaternionic K-theory is equivalently [[KO-theory]] in degrees which are multiples of 4.
+In fact, $KSp^0 = KO^4$.
 
 
 
@@ -49,4 +49,4 @@ In this context, the [[Kane-Mele invariant]] is a projection $K Q^1(\mathbb{T}^d
 
 [[!redirects KQ-theory]]
 
-[[!redirects KH]]
+[[!redirects KSp]]
