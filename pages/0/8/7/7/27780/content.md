@@ -145,14 +145,15 @@ where $f'$ is any representative of the class $[f]$ according to Prop. \ref{Cons
   has three [[connected components]]
   $$
     Fred^{sa}
-    \simeq
+    \;\simeq\;
     Fred_+^{sa}
-    \sqcup
+    \,\sqcup\,
     Fred_-^{sa}
-    \sqcup
+    \,\sqcup\,
     Fred_\ast^{sa}
+    \mathrlap{\,,}
   $$
-  corresponding to the operators $F$ whose [[essential spectrum]] (which is [[real number|real]], by [[self-adjoint operator|self-adjointness]]) is, respectively:
+  corresponding to those Fredholm operators whose [[essential spectrum]] (which is [[real number|real]], by [[self-adjoint operator|self-adjointness]]) is, respectively:
 
   1. $Fred_+^{sa}$: purely [[positive number|positive]],
 
