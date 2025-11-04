@@ -275,10 +275,261 @@ is [[homotopy equivalence|homotopy equivalent]] to the [[classifying space]]/[[d
 ### For $K \mathrm{O}^2$ and $K \mathrm{O}^6$
  {#StatementForKO2andKO6}
 
-(...)
+\begin{lemma}
+\label{SelfAdjointAntiLinearOperator}
+  For a complex [[anti-linear operator]] $A$ on a [[Hilbert space]] $\mathscr{H}$, the following are equivalent:
+
+1. $A^\dagger = A$ with respect to the [[Hermitian inner product]] $\langle -,-\rangle$,
+
+1. $A^\ast = A$ with respect to the underlying real inner product $Re\big(\langle -,-\rangle\big)$.
+
+\end{lemma}
+\begin{proof}
+  One direction is immediate: 
+$$
+  \big\langle A v , w \big\rangle 
+  =
+  \overline{
+    \big\langle v , A w \big\rangle 
+  }
+  \;\;\;\;\;\; 
+  \Rightarrow
+  \;\;\;\;\;\;
+  Re\Big(
+    \big\langle A v , w \big\rangle 
+  \Big)
+  =
+  Re\Big(
+  \overline{
+    \big\langle v , A w \big\rangle 
+  }
+  \Big)
+  =
+  Re\Big(
+    \big\langle v , A w \big\rangle 
+  \Big)
+  \mathrlap{\,.}
+$$
+
+In the other direction: Assuming that 
+$$
+  Re\Big(
+    \big\langle A v , w \big\rangle 
+  \Big)
+  =
+  Re\Big(
+    \big\langle v , A w \big\rangle 
+  \Big)
+$$
+we need to show that then 
+$$
+  Im\Big(
+    \big\langle A v , w \big\rangle 
+  \Big)
+  =
+  -
+  Im\Big(
+    \big\langle v , A w \big\rangle 
+  \Big)
+  \mathrlap{\,.}
+$$
+For that we compute as follows (where we use the convention that $\langle-,-\rangle$ is anti-linear in the first and linear in the second argument, but the same conclusion holds of course with the other convention):
+$$
+  \begin{array}{lll}
+    Im\Big(
+      \big\langle A v , w \big\rangle 
+    \Big)
+    & =
+    Re\Big(
+      -\mathrm{i}
+      \big\langle A v , w \big\rangle 
+    \Big)   
+    & \text{basic property of complex arithmetic}
+    \\
+    & =
+    Re\Big(
+      \big\langle A v , - \mathrm{i} w \big\rangle 
+    \Big)   
+    & \text{sesqui-linearity of inner product}
+    \\
+    & =
+    Re\Big(
+      \big\langle v , A(-\mathrm{i} w) \big\rangle 
+    \Big)   
+    & \text{assumption of real self-adjointness}
+    \\
+    & =
+    Re\Big(
+      \big\langle v , \mathrm{i} A w \big\rangle 
+    \Big)   
+    & \text{assumption of complex anti-linearity}
+    \\
+    & =
+    Re\Big(
+      \mathrm{i}
+      \big\langle v , A w \big\rangle 
+    \Big)   
+    & \text{sesqui-linearity of inner product}
+    \\
+    & =
+    -Im\Big(
+      \big\langle v , A w \big\rangle 
+    \Big)   
+    & \text{basic property of complex arithmetic}
+    \mathrlap{\,.}
+  \end{array}
+$$
+
+\end{proof}
+
+\begin{proposition}
+\label{KaroubiModelForKO2}
+  The space of [[Fredholm operators]] on the complex Hilbert space $\mathscr{H}$ which are
+
+1. [[anti-linear maps|anti-linear]],
+
+1. [[self-adjoint operator|self-adjoint]] (cf. Lem. \ref{SelfAdjointAntiLinearOperator})
+
+is a classifying space for $K\mathrm{O}^2$.
+\end{proposition}
+([Karoubi 1970 Prop. 1.9](#Karoubi1970))
+
+It is useful to reformulate Prop. \ref{KaroubiModelForKO2} as follows:
+
+\begin{proposition}
+On the complex Hilbert space $\mathscr{H}$ consider a [[real structure]] $\widehat T$, hence 
+
+1. $\widehat{T}$ is [[anti-linear map|anti-linear]],
+
+2. $\widehat{T}^2 = -1$,
+
+3. $\widehat{T}^\dagger = \widehat{T}$ (cf. Lem. \ref{SelfAdjointAntiLinearOperator}).
+
+On the $\mathbb{Z}/2$-graded Hilbert space $\mathscr{H} \oplus \mathscr{H}$ consider 
+
+$$
+  \widehat{C}
+  \,\coloneqq\,
+  \left(
+  \begin{matrix}
+    0 & \widehat{T} 
+    \\
+    \widehat{T} & 0
+  \end{matrix}
+  \right)
+  \mathrlap{\,.}
+$$
+
+Then the space
+ 
+$$
+  \bigg\{
+    F \in Fred(\mathscr{H} \oplus \mathscr{H})
+    \;\bigg\vert\;
+    \substack{
+      F\;\text{is odd},
+      \\
+      F^\dagger = F,
+    }
+    \;\;
+    F \circ \widehat{C} = \widehat{C} \circ F
+  \bigg\}
+$$
+
+is a classifying space for $K\mathrm{O}^2$.
+\end{proposition}
+\begin{proof}
+  The fact that $F$ in our space is odd and self-adjoint implies that it is of the form
+$$
+  F 
+    = 
+  \left(
+  \begin{matrix}
+    0 & f^\dagger
+    \\
+    f & 0
+  \end{matrix}
+  \right)
+  \,.
+$$
+From this, the further condition that it commutes with $\widehat{C}$,
+$$
+  \left(
+  \begin{matrix}
+    0 & \widehat{T}
+    \\
+    \widehat{T} & 0
+  \end{matrix}
+  \right)
+  \cdot
+  \left(
+  \begin{matrix}
+    0 & f^\dagger
+    \\
+    f & 0
+  \end{matrix}
+  \right)
+  =
+  \left(
+  \begin{matrix}
+    0 & f^\dagger
+    \\
+    f & 0
+  \end{matrix}
+  \right)
+  \cdot
+  \left(
+  \begin{matrix}
+    0 & \widehat{T}
+    \\
+    \widehat{T} & 0
+  \end{matrix}
+  \right)
+  \mathrlap{\,,}
+$$
+means equivalently that
+$$
+  \widehat{T} \circ f 
+    \;=\; 
+  f^\dagger \circ \widehat{T}
+  \,,
+$$
+and hence our space is equivalently given by
+$$
+  \Big\{
+    f \in Fred(\mathscr{H})
+    \;\Big\vert\;
+    \widehat{T} \circ f 
+      \;=\; 
+    f^\dagger \circ \widehat{T}
+  \Big\}
+  \,.
+$$
+For $f$ of this from, notice that $\widehat{T} \circ f$ is (anti-linear and) self-adjoint:
+$$
+  \big(
+    \widehat{T} \circ f
+  \big)^\dagger
+  \;=\;
+  f^\dagger \circ \widehat{T}
+  \;=\;
+  \widehat{T} \circ f
+  \mathrlap{\,.}
+$$
+
+Therefore this space is homeomorphic to the space from Prop. \ref{KaroubiModelForKO2}, via the map
+$$
+  f \;\mapsto\; \widehat{T} \circ f 
+  \,,
+$$
+and hence the claim follows by Prop. \ref{KaroubiModelForKO2}.
+\end{proof}
 
 
 
+
+
+\linebreak
 
 
 
