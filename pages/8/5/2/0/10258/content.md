@@ -16,9 +16,16 @@
 
 ## Definition
 
-A _real structure_ on a [[complex vector space]] $V$ is an [[antilinear map]] $\sigma \colon V \to V$ which is an [[involution]].
+A _real structure_ on a [[complex vector space]] $V$ is an [[antilinear map]] $\sigma \colon V \to V$ which is an [[involution]] in that t squares to the identity:
 
-Equivalently this is a [[real vector space]] $W$ and an [[isomorphism]] $V \simeq W \otimes_{\mathbb{R}} \mathbb{C}$ of $V$ with its [[complexification]].
+$$
+  \sigma^2 = id
+  \mathrlap{\,.}
+$$
+
+(Compare this to a *[[quaternionic structure]]*, which is such a $\mathbb{C}$-[[anti-linear map]]  that instead squares to $-id$.)
+
+Equivalently, a real structure on $V$ is a [[real vector space]] $W$ and an [[isomorphism]] $V \simeq W \otimes_{\mathbb{R}} \mathbb{C}$ of $V$ with its [[complexification]].
 
 Here $W = Eig(\sigma,1) \hookrightarrow V$ is the [[eigenspace]] of $\sigma$ for [[eigenvalue]] 1 and $W \otimes \{i\} = Eig(\sigma,-1) \hookrightarrow V$ is the [[eigenspace]] for [[eigenvalue]] -1. 
 
