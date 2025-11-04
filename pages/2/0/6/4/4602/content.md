@@ -1,7 +1,7 @@
 [[!redirects epic sink]]
 ## Definition
 
-Given an [[object]] $X$ in some [[category]], a family $(f_i\colon U_i \to X)_i$ of [[morphisms]] to $X$ is an __epic [[sink]]__, or a __jointly epic family__ if, given any two morphisms $g, h\colon X \to Y$ such that $ g \circ f_i= h\circ f_i$ for all $i$, it follows that $g = h$.
+Given an [[object]] $X$ in some [[category]] $\mathcal{C}$, a family $(f_i\colon U_i \to X)_i$ of [[morphisms]] to $X$ is an __epic [[sink]]__, or a __jointly epic family__ if, given any two morphisms $g, h\colon X \to Y$ such that $ g \circ f_i= h\circ f_i$ for all $i$, it follows that $g = h$.
 
 Dually, a family $(f_i\colon X \to U_i)_i$ of morphisms from $X$ is a __monic source__, or a __jointly monic family__ if, given any two morphisms $g, h\colon Y \to X$ such that $f_i \circ g = f_i \circ h$ for all $i$, it follows that $g = h$.
 
@@ -10,6 +10,8 @@ Sometimes we are interested only in [[small families]] of morphisms, but if so t
 A single morphism $U \to X$ is an [[epimorphism]] if and only it forms an epic sink by itself; conversely, a sink $(f_i\colon U_i \to X)_i$ is epic iff the induced map $\coprod_i U_i \to X$ is an epimorphism, assuming that the [[coproduct]] $\coprod_i U_i$ exists.  (Note, though, that for a large family of morphisms, this coproduct might not exist even if the category has all small coproducts.)  Dual results hold for [[monomorphisms]] and [[products]].
 
 Finally, the [[empty family]] of morphisms with domain $X$ is a monic source iff $X$ is a [[subterminal object]] (and dually).
+
+**Warning**: In the presence of coproducts in $\mathcal{C}$ the condition of being an jointly epic family can be expressed by the requirement that the induced map $\bigsqcup_{i} U_i \rightarrow X$ is epic. In the absence of coproducts it thus might be tempting to require the map $\bigsqcup_i h_{U_i} \rightarrow h_X$ to be an epic in $\operatorname{Psh}(\mathcal{C})$ or $\operatorname{Psh}_{\sqcup}(\mathcal{C})$, where the latter denotes the [[free coproduct completion]]. However this is incorrect and gives a stronger (i.e. sufficient) condition. The correct reformulation is that the induced map $\mathcal{C}(X,-)\rightarrow \prod_i \mathcal{C}(U_i,-)$ is a monomorphism of copresheaves.
 
 ## Examples
 
