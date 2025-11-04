@@ -47,6 +47,19 @@ In this context, the [[Kane-Mele invariant]] is a projection $K Q^1(\mathbb{T}^d
 
 * [[quaternionic oriented cohomology theory]]
 
+
+## References
+
+Generalization of the [[Atiyah-Jänich theorem]] to ([[KO-theory]] and) quaternionic K-theory:
+
+* {#AtiyahSinger1969} [[Michael F. Atiyah]], [[Isadore M. Singer]]: *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
+
+* {#Karoubi1970} [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
+
+
+
+
 [[!redirects KQ-theory]]
 
 [[!redirects KSp]]
+[[!redirects KSp-theory]]
