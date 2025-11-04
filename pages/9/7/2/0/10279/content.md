@@ -31,9 +31,15 @@ An antilinear map has a central role in the concept of [[star-algebra]]. Convers
 
 ## Definition
 
-Given a [[commutative ring]] (often a [[field]], or possibly just a [[rig]]) $K$, equipped with an [[involution]] $x \mapsto \overline{x}$, meaning an [[endomorphism]] with $\overline{\overline{x}} = x$ for all $x \in K$.
+### General
 
-Then for $K$-[[modules]] (or $K$-[[linear spaces]]) $V, W$, a __$K$-antilinear map__ is a function $T \colon V \to W$ such that for all $x, y \in V$ and $r \in K$,
+Consider as [[ground ring]] a [[commutative ring]] (often a [[field]], or possibly just a [[rig]]) $K$, equipped with an [[involution]] $x \mapsto \overline{x}$, meaning an [[endomorphism]] with $\overline{\overline{x}} = x$ for all $x \in K$ (such as a [[star algebra]], such as the [[complex numbers]] or [[quaterionions]], with their [[complex conjugation]] [[involution]]).
+
+Then:
+
+\begin{definition}
+\label{GeneralDefinition}
+For $K$-[[modules]] (or $K$-[[linear spaces]]) $V, W$, a __$K$-antilinear map__ is a function $T \colon V \to W$ such that for all $x, y \in V$ and $r \in K$,
 
 $$ 
   T(r \cdot x + y) 
@@ -41,8 +47,39 @@ $$
   \overline{r} \cdot T(x) + T(y) 
   \,.
 $$
+\end{definition}
 
 This differs from the definition of a [[linear map]] in the appearance of $\overline{(-)}$ on the right-hand side.
+
+
+### On Hermitian/Hilbert spaces
+ {#DefinitionOnHermitianSpaces}
+
+\begin{definition}
+\label{HermitianConjugate}
+Given a [[complex numbers|complex]] antilinear operator $A$ (Def. \ref{GeneralDefinition}) on a [[complex numbers|complex]] [[Hermitian inner product|Hermitian]] [[inner product space]] (like a [[Hilbert space]]) $\mathscr{H}, \langle -,-\rangle$, its *[[adjoint operator]]* $A^\dagger$ is defined not by the same formula as for [[linear operators]] (which would not type-check) but by
+
+\[
+  \label{HermitianAdjoint}
+  \underset{v,w \in \mathscr{H}}{\forall}
+  \;\;\;\;
+  \big\langle
+    v , A w
+  \big\rangle
+  =
+  \overline{
+  \big\langle
+    A^\dagger v , w
+  \big\rangle
+  }
+  \equiv
+  \big\langle
+    w, A^\dagger v
+  \big\rangle
+  \,.
+\]
+\end{definition}
+(cf. [Uhlmann 2016 Def. 3.1](#Uhlmann2016))
 
 ## Examples
 
@@ -79,11 +116,19 @@ A [[star-algebra|$*$-algebra]] requires by definition its [[anti-involution]] to
 
 ## References
 
-See also
+Review:
+
+* {#Uhlmann2016} Armin Uhlmann: *Anti- (Conjugate) Linearity*, Sci. China Phys. Mech. Astron. **59** (2016) 630301  &lbrack;[arXiv:1507.06545](https://arxiv.org/abs/1507.06545), [doi:10.1007/s11433-015-5777-1](https://doi.org/10.1007/s11433-015-5777-1)&rbrack;
+
+
+See also:
 
 * Wikipedia, *[Antilinear map](https://en.wikipedia.org/wiki/Antilinear_map)*
 
-and see also the references at *[[Wigner's theorem]]*.
+* references at *[[Wigner's theorem]]*.
+
+* Santtu Ruotsalainen: *On a Weyl-von Neumann -type Theorem for Antilinear Self-adjoint Operators* &lbrack;[arXiv:1203.4670](https://arxiv.org/abs/1203.4670)&rbrack;
+
 
 [[!redirects antilinear maps]]
 
