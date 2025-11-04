@@ -491,6 +491,9 @@ Discussion of mathematical formalization ([[vertex operator algebras]], [[confor
 
 * [[Liang Kong]], _Full field algebras, operads and tensor categories_, Adv. Math.213:271-340, 2007 ([arXiv:0603065](http://arxiv.org/abs/math/0603065))
 
+* [[Terry Gannon]]: *Exotic quantum subgroups and extensions of affine Lie algebra VOAs -- part I* &lbrack;[arXiv:2301.07287](https://arxiv.org/abs/2301.07287)&rbrack;
+
+
 
 For a survey of perspectives in CFT with an eye towards [[string theory]] see various contributions in 
 
