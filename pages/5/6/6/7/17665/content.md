@@ -110,6 +110,10 @@ holds. (Every algebra $X$ necessarily possesses a convex space structure. The ca
 
 * Wikipedia [stochastic process](https://en.wikipedia.org/wiki/Stochastic_process)
 
+* [[William Lawvere]], *The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition*, including abstract and commentary added by Lawvere in 2020, [Lawvere Archive](https://lawverearchives.com) (2025) &lbrack;[pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf)&rbrack;
+
+* Xiao-qing Meng, *Categories of convex sets and of metric spaces with applications to stochastic programming and related areas*, PhD thesis ([[Meng.djvu|djvu:file]])
+
 With an eye towards [[quantum noise]];
 
 * [[Stéphane Attal]], *Stochastic Processes*, Lecture 4 in:  *Lectures on Quantum Noises* &lbrack;[pdf](http://math.univ-lyon1.fr/~attal/Stochastic_Processes.pdf), [webpage](http://math.univ-lyon1.fr/~attal/chapters.html)&rbrack;
@@ -117,8 +121,6 @@ With an eye towards [[quantum noise]];
 On some kind of [[supersymmetry]] in stochastic PDEs:
 
 * Igor V. Ovchinnikov: *Ubiquitous order known as chaos* &lbrack;[arXiv:2503.17157](https://arxiv.org/abs/2503.17157)&rbrack;
-
-
 
 
 
