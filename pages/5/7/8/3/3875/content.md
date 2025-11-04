@@ -1,4 +1,13 @@
-* [wikipedia](http://en.wikipedia.org/wiki/Isadore_Singer)
+
+Isadore Manuel Singer (1924-2021)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Isadore_Singer)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=6405)
+
+* [inSpire page](https://inspirehep.net/authors/1059843)
+
+* [[Robert Bryant]], [[Jeff Cheeger]], [[Phillip Griffiths]]:  *Isadore M. Singer (1924–2021) In Memoriam Part 1: Scientific Works*, Notices of the AMS (Oct 2022) &lbrack;[pdf](https://www.ams.org/publications/journals/notices/202209/rnoti-p1547.pdf)&rbrack;
 
 ## Selected writings
 
@@ -6,9 +15,9 @@ Introducing the [[Kadison-Singer problem]]:
 
 * [[Richard V. Kadison]], [[Isadore Singer]], _Extensions of pure states_, American Journal of Mathematics, 81(2):383&#8211;400, 1959 ([jstor:2372748](https://www.jstor.org/stable/2372748))
 
-Introducing what came to be known as [[Karoubi K-theory]]:
+Generalization of the [[Atiyah-Jänich theorem]] to any degree:
 
-* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 $[$[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)$]$
+* [[Michael F. Atiyah]], [[Isadore M. Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
 
 
 Introducing Ray-Singer [[analytic torsion]]:
@@ -33,6 +42,8 @@ On [[differential cohomology]] with motivation from [[M5-branes]]-physics
 
 * _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
 
+
+[[!redirects Isadore M. Singer]]
 
 
 category: people
