@@ -15,7 +15,7 @@
 
 ## Selected writings
 
-Generalization of the [[Atiyah-Jänich theorem]] to any degree:
+Generalization of the [[Atiyah-Jänich theorem]] to any degree and to [[KO-theory]]:
 
 * [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
 
