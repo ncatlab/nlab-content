@@ -38,6 +38,8 @@ Another result ([Farah and Hirshberg 2016](#FarahHirshberg16)) of Farah and Hirs
 
 ## Related entries
 
+* [[essential spectrum]]
+
 * [[Brown-Douglas-Fillmore theory]]
 
 ## References
