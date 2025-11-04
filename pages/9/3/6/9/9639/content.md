@@ -756,6 +756,9 @@ See also:
 
 * Wikipedia _[Fractional quantum Hall effect](http://en.wikipedia.org/wiki/Fractional_quantum_Hall_effect)_
 
+* Gautam Mandal, Ajay Mohan, Rushikesh Suroshe: *2D or not 2D: a "holographic dictionary" for Lowest Landau Levels* &lbrack;[arXiv:2511.01630](https://arxiv.org/abs/2511.01630)&rbrack;
+
+
 
 ### Integral quantum Hall effect
 
