@@ -275,13 +275,16 @@ is [[homotopy equivalence|homotopy equivalent]] to the [[classifying space]]/[[d
 ### For $K \mathrm{O}^2$ and $K \mathrm{O}^6$
  {#StatementForKO2andKO6}
 
+
+First some basic preliminaries:
+
 \begin{lemma}
 \label{SelfAdjointAntiLinearOperator}
-  For a complex [[anti-linear operator]] $A$ on a [[Hilbert space]] $\mathscr{H}$, the following are equivalent:
+  For a [[complex numbers|complex]] [[anti-linear operator]] $A$ on a [[Hilbert space]] $\mathscr{H}$, the following are equivalent:
 
-1. $A^\dagger = A$ with respect to the [[Hermitian inner product]] $\langle -,-\rangle$,
+1. $A$ is Hermitian self-adjoint, $A^\dagger = A$, as an anti-linear operator (cf. [there](antilinear+map#DefinitionOnHermitianSpaces)) with respect to the [[Hermitian inner product]] $\langle -,-\rangle$,
 
-1. $A^\ast = A$ with respect to the underlying real inner product $Re\big(\langle -,-\rangle\big)$.
+1. $A$ is [[self-adjoint operator|self-adjoint]], $A^\ast = A$, as a [[real numbers|real]] [[linear operator]] with respect to the [[underlying]] real inner product, $Re\big(\langle -,-\rangle\big)$, given by the [[real part]] of the [[Hermitian inner product]].
 
 \end{lemma}
 \begin{proof}
@@ -379,8 +382,161 @@ $$
     \mathrlap{\,.}
   \end{array}
 $$
-
 \end{proof}
+
+
+\begin{example}
+  The canonical [[real structure]] on $\mathbb{C}$
+  $$
+    \begin{array}{ccc}
+      \mathbb{C} 
+        &\xrightarrow{\; \widehat{T} \;}& 
+      \mathbb{C}
+      \\
+      z &\mapsto& \overline{z}
+    \end{array}
+  $$
+  is self-adjoint (cf. Lem. \ref{SelfAdjointAntiLinearOperator}):
+  $$
+    \begin{aligned}
+      \big\langle
+        \widehat{T} z
+        ,
+        w
+      \big\rangle
+      & =
+      \big\langle
+        \overline{z}
+        ,
+        w
+      \big\rangle
+      \\
+      & =
+      \overline{\overline{z}} \, w
+      \\
+      & =
+      z \, w
+      \\
+      & =
+      \overline{
+        \overline{z} \, \overline{w}
+      }
+      \\
+      & =
+      \overline{
+        \big\langle
+           z, \overline{w}
+        \big\rangle
+      }
+      \\
+      & =
+      \overline{
+        \big\langle
+           z, \widehat{T} w
+        \big\rangle
+      }
+      \mathrlap{\,.}
+    \end{aligned}
+  $$
+\end{example}
+
+\begin{example}
+  The canonical [[quaternionic structure]] on $\mathbb{C}^2$
+  $$
+    \begin{array}{ccc}
+      \mathbb{C}^2 
+        &\xrightarrow{\; \widehat{T} \;}& 
+      \mathbb{C}^2
+      \\
+      \left(
+      \begin{matrix}
+        z_1
+        \\
+        z_2
+      \end{matrix} 
+      \right)
+        &\mapsto& 
+      \left(
+      \begin{matrix}
+        -\overline{z_2}
+        \\
+        \overline{z_1}
+      \end{matrix} 
+      \right)
+    \end{array}
+  $$
+  is anti-self-adjoint (cf. Lem. \ref{SelfAdjointAntiLinearOperator}):
+
+$$
+  \begin{aligned}
+    \Big\langle
+      \widehat{T}\vec z
+      ,\,
+      \vec w
+    \Big\rangle
+    & =
+    \left\langle
+    \left(
+      \begin{matrix}
+        -\overline{z_2}
+        \\
+        \overline{z_1}
+      \end{matrix} 
+    \right)
+    ,
+    \left(
+      \begin{matrix}
+        w_1
+        \\
+        w_2
+      \end{matrix} 
+    \right)
+    \right\rangle
+    \\
+    & =
+    - z_2 \, w_1 \;+\; z_1 \, w_2
+    \\
+    & =
+    \overline{
+      - \overline{z_2} \, \overline{w_1}
+      +
+      \overline{z_1} \, \overline{w_2}
+    }
+    \\
+    & =
+    \overline{
+      \left\langle
+      \left(
+        \begin{matrix}
+          z_1
+          \\
+          z_2
+        \end{matrix} 
+      \right)
+      ,
+      \left(
+        \begin{matrix}
+          \overline{w_2}
+          \\
+          -\overline{w_1}
+        \end{matrix} 
+      \right)
+    \right\rangle
+    }
+    \\
+    & = 
+    -
+    \Big\langle
+      \vec z
+      ,\,
+      \widehat{T} \vec w
+    \Big\rangle
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+\end{example}
+
+Now:
 
 \begin{proposition}
 \label{KaroubiModelForKO2}
@@ -388,22 +544,24 @@ $$
 
 1. [[anti-linear maps|anti-linear]],
 
-1. [[self-adjoint operator|self-adjoint]] (cf. Lem. \ref{SelfAdjointAntiLinearOperator})
+1. (skew) [[self-adjoint operator|self-adjoint]] (cf. Lem. \ref{SelfAdjointAntiLinearOperator}):
 
-is a classifying space for $K\mathrm{O}^2$.
+   $F^\dagger = \pm F$
+
+is a classifying space for $K\mathrm{O}^{\pm 2}$ (where $K\mathrm{O}^{-2} \simeq K \mathrm{O}^6$).
 \end{proposition}
-([Karoubi 1970 Prop. 1.9](#Karoubi1970))
+([Karoubi 1970 Props. 1.9, 1.12](#Karoubi1970))
 
 It is useful to reformulate Prop. \ref{KaroubiModelForKO2} as follows:
 
 \begin{proposition}
-On the complex Hilbert space $\mathscr{H}$ consider a [[real structure]] $\widehat T$, hence 
+On the complex Hilbert space $\mathscr{H}$ consider a [[real structure|real]]/[[quaternionic structure]] $\widehat T$, in that
 
 1. $\widehat{T}$ is [[anti-linear map|anti-linear]],
 
-2. $\widehat{T}^2 = -1$,
+2. $\widehat{T}^2 = \pm 1$,
 
-3. $\widehat{T}^\dagger = \widehat{T}$ (cf. Lem. \ref{SelfAdjointAntiLinearOperator}).
+3. $\widehat{T}^\dagger = \pm \widehat{T}$ (cf. Lem. \ref{SelfAdjointAntiLinearOperator}).
 
 On the $\mathbb{Z}/2$-graded Hilbert space $\mathscr{H} \oplus \mathscr{H}$ consider 
 
@@ -436,7 +594,7 @@ $$
   \bigg\}
 $$
 
-is a classifying space for $K\mathrm{O}^2$.
+is a classifying space for $K\mathrm{O}^{\pm 2}$.
 \end{proposition}
 \begin{proof}
   The fact that $F$ in our space is odd and self-adjoint implies that it is of the form
@@ -505,14 +663,15 @@ $$
   \Big\}
   \,.
 $$
-For $f$ of this from, notice that $\widehat{T} \circ f$ is (anti-linear and) self-adjoint:
+For $f$ of this from, notice that $\widehat{T} \circ f$ is (anti-linear and) self-adjoint/anti-self-adjoint:
 $$
   \big(
     \widehat{T} \circ f
   \big)^\dagger
   \;=\;
-  f^\dagger \circ \widehat{T}
+  f^\dagger \circ (\pm)\widehat{T}
   \;=\;
+  \pm
   \widehat{T} \circ f
   \mathrlap{\,.}
 $$
@@ -525,6 +684,12 @@ $$
 and hence the claim follows by Prop. \ref{KaroubiModelForKO2}.
 \end{proof}
 
+
+
+
+### For $K \mathrm{O}^{\pm 1}$, $K \mathrm{O}^{\pm 3}$
+
+(...)
 
 
 
