@@ -60,6 +60,13 @@ With [[Bott periodicity]] 8.
 
 ### General
 
+Generalization of the [[Atiyah-Jänich theorem]] (to any degree and) to KO-theory:
+
+* [[Michael F. Atiyah]], [[Isadore M. Singer]]: *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
+
+* [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
+
+
 On the [[differential K-theory]] for KO:
 
 * {#GradySati18} [[Daniel Grady]], [[Hisham Sati]], _Differential KO-theory: Constructions, computations, and applications_, Advances in Mathematics Volume 384, 25 June 2021, 107671 ([arXiv:1809.07059](https://arxiv.org/abs/1809.07059), [doi:10.1016/j.aim.2021.107671](https://doi.org/10.1016/j.aim.2021.107671))
