@@ -86,7 +86,7 @@ According to [K78 Thm. 4.12](#Karoubi78) this definition reproduces the ordinary
 
 [Douglas & Henriques 2011](#DouglasHenriques11) have proposed that this description of K-theory has a good [[vertical categorification|categorification]] that might be relevant for [[tmf]].
 
-[Here](http://golem.ph.utexas.edu/category/2007/10/higher_clifford_algebras.html#c012972) is a report by [[Mike Shulman]] on a talk by [[Chris Douglas]] on this topic, from which also part of the above text is taken.
+[Here](http://golem.ph.utexas.edu/category/2007/10/higher_clifford_algebras.html#c012972) is a report by [[Mike Shulman]] on a talk by [[Chris Douglas]] on this topic.
 
 
 ## Related concepts
