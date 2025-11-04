@@ -41,18 +41,22 @@ U && V \\
 \end{tikzcd}
 \linebreak
 
-* Assume the front face is a pullback. Then the following are equivalent:
+* Assume the front and bottom faces are pullback squares. Then the following are equivalent:
   1.  The total rectangle from $U'\to V'$ to $X\to Y$ is a pullback.
 
-  1.  Each face is a pullback.
+  1.  The top and back faces are pullback squares.
 
-  1.  At least one of the other faces apart from the front face is a pullback.
+  1.  The top face or the back face is a pullback square.
 
-* Assume the back face is a pushout. Then the following are equivalent:
+* Assume the top and back faces are pushout squares. Then the following are equivalent:
   1.  The total rectangle from $U'\to V'$ to $X\to Y$ is a pushout.
 
-  1.  Each face is a pushout.
+  1.  The front and bottom faces are pushout squares.
 
-  1.  At least one of the other faces apart from the back face is a pullback.
+  1.  The front face or the bottom face is a pushout square.
  =--
+
+\begin{proof}
+Bla.
+\end{proof}
 
