@@ -90,6 +90,10 @@ and see also the references at *[[Wigner's theorem]]*.
 [[!redirects anti-linear map]]
 [[!redirects anti-linear maps]]
 
+[[!redirects anti-linear operator]]
+[[!redirects anti-linear operators]]
+
+
 [[!redirects antilinear function]]
 [[!redirects antilinear functions]]
 
