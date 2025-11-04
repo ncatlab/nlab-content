@@ -19,6 +19,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -55,14 +56,18 @@ This statement generalizes:
 
 The original Atiyah-Jänich theorem theorem concerns complex [[topological K-theory]], $K(-) = KU^0(-)$ in degree 0 (and hence in any [[even number|even]] degree), see:
 
-* [Statement for $KU^0$](#StatementForKU0).
+* [Statement for $K \mathrm{U}^0$](#StatementForKU0).
 
-Generalization to any degree and to [[KO-theory]] is due to [Atiyah & Singer 1969](#AtiyahSinger1969), [Karoubi 1970](#Karoubi1970), see:
+Generalization to [[KO-theory]] and [[KSp-theory]] in degree 0 is farily straightforward by just replacing the [[ground field]] of [[complex numbers]] by the [[real numbers]] or [[quaternions]], respectively, see:
+
+* [Statement for $K \mathrm{O}^0$ and $K Sp^0$](#StatementForKO0andKSp0).
+
+Generalization to any degree over any ground field is due to [Atiyah & Singer 1969](#AtiyahSinger1969), [Karoubi 1970](#Karoubi1970), see:
 
 * [Statement for $KU^1$](#StatementForKU1).
 
 
-### For $KU^0$
+### For $K \mathrm{U}^0$
  {#StatementForKU0}
 
 
@@ -128,7 +133,13 @@ where $f'$ is any representative of the class $[f]$ according to Prop. \ref{Cons
   The construction of the index map (eq:IndexMap) by [Atiyah 1967 Lem A3, Cor A4](#Atiyah67) is a little different (though the result, of course, is the same). Exposition is in [Sheth §2](#Sheth).
 \end{remark}
 
-### For $KU^1$
+
+
+
+
+
+
+### For $K \mathrm{U}^1$
  {#StatementForKU1}
 
 \begin{proposition}
@@ -170,7 +181,7 @@ Moreover,
      \,,
    $$
 
-1. the last component is [[homotopy equivalence|homotoppy equivalent]] to the [[stable unitary group]], hence the [[classifying space]] for [[topological K-theory]] in odd degree:
+1. the last component is [[homotopy equivalence|homotoppy equivalent]] to the [[stable unitary group]], hence to the [[classifying space]] for [[complex numbers|complex]] [[topological K-theory]] in odd degree:
 
    $$
      Fred^{sa}_{\ast} \simeq U \simeq KU_1
@@ -178,7 +189,97 @@ Moreover,
    $$
 
 \end{proposition}
-Up to some straightforward reidentifications (for instance one may equivalently use *skew* self-adjoint operators whose spectrum is then purely [[imaginary number|imaginary]]), this is the statement of [Atiyah & Singer 1969 Thm. B](#AtiyahSinger1969) and [Karoubi 1970 Lem 1.4 & Prop. 1.5](#Karoubi1970).
+
+Up to some straightforward re-identifications (for instance one may equivalently use *skew* self-adjoint operators whose spectrum is then purely [[imaginary number|imaginary]]), this is the statement of [Atiyah & Singer 1969 Thm. B](#AtiyahSinger1969) and [Karoubi 1970 Lem 1.4 & Prop. 1.5](#Karoubi1970).
+
+
+
+
+### For $K \mathrm{O}^0$ and $K Sp^0$
+  {#StatementForKO0andKSp0}
+
+The directly analogous discussion as for complex K-theory $KU^0$ in degree 0 ([above](#StatementForKU0)) applies when replacing the underlying complex Hilbert space $\mathscr{H}$ with a [[real vector space|real]] or [[quaternionic vector space|quaternionic]] [[Hilbert space]], where it yields real K-theory ([[KO-theory]]) and [[quaternionic K-theory]] ([[KSp-theory]]) in degree=0, respectively.
+
+It is useful to express this in terms of [[complex vector spaces|complex]] [[Hilbert spaces]] but equipped with [[real structure]] or [[quaternionic structure]], respectively, namely with a [[complex numbers|complex]] [[antilinear map]]
+
+$$
+  \widehat{T} 
+    \,\colon\, 
+  \mathscr{H} \longrightarrow \mathscr{H}
+$$
+
+which squares to $\pm 1$, respectively, whence the statement reads as follows:
+
+\begin{proposition}
+Let $\widehat T$ be an [[antilinear map]] on the [[complex numbers|complex]] [[Hilbert space]] $\mathscr{H}$ such that 
+$$
+  \widehat T^2 = + id
+  \mathrlap{\,,}
+$$
+then the space of [[real numbers|real]]-[[Fredholm operators]]
+
+$$
+  Fred_{\mathbb{R}}
+  \,\coloneqq\,
+  \Big\{
+    F \in Fred
+    \,\Big\vert\,
+    F \circ \widehat T
+    = 
+    \widehat{T} \circ F
+  \Big\}
+  \;\simeq\;
+  B O
+  \;\simeq\;
+  KO_0
+$$
+
+is [[homotopy equivalence|homotopy equivalent]] to the [[classifying space]]/[[delooping]] of the [[stable orthogonal group]] and hence is a classifying space for [[KO-theory]].
+\end{proposition}
+
+([Jänich 1965 p. 132](#Jänich65); [Atiyah 1969 §2 p. 102](#Atiyah69); [Karoubi 1970 Prop. 1.3 p. 78](#Karoubi1970))
+
+\begin{proposition}  
+Let $\widehat T$ be an [[antilinear map]] on the [[complex numbers|complex]] [[Hilbert space]] $\mathscr{H}$ such that 
+$$
+  \widehat T^2 = - id
+  \mathrlap{\,,}
+$$
+then the space of [[quaternions|quaternionic]]-[[Fredholm operators]]
+
+$$
+  Fred_{\mathbb{H}}
+  \,\coloneqq\,
+  \Big\{
+    F \in Fred
+    \,\Big\vert\,
+    F \circ \widehat T
+    = 
+    \widehat{T} \circ F
+  \Big\}
+  \;\simeq\;
+  B Sp
+  \;\simeq\;
+  KO_4
+$$
+
+is [[homotopy equivalence|homotopy equivalent]] to the [[classifying space]]/[[delooping]] of the stable [[quaternionic unitary group]] and hence is a classifying space for [[KSp-theory]].
+
+\end{proposition}
+
+([Atiyah & Singer 1969 p. 323](#AtiyahSinger1969); [Karoubi 1970 Prop. 1.12 p. 81](#Karoubi1970))
+
+
+
+
+### For $K \mathrm{O}^2$ and $K \mathrm{O}^6$
+ {#StatementForKO2andKO6}
+
+(...)
+
+
+
+
 
 
 
@@ -200,7 +301,7 @@ The original articles:
 * {#Atiyah69} [[Michael Atiyah]], §2 in: *Algebraic Topology and Operators in Hilbert Space*, in: *Lectures in Modern Analysis and Applications I*, Lecture Notes in Mathematics **103**, Springer (1969) 101-121 &lbrack;[doi:10.1007/BFb0099987](https://doi.org/10.1007/BFb0099987), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyah002.pdf), [[Atiyah-AlgTopAndOperators.pdf:file]]&rbrack;
 
 
-Generalization to general degree and to [[KO-theory]]:
+Generalization to general degree and to [[KO-theory]]/[[KSp-theory]]:
 
 * {#AtiyahSinger1969} [[Michael F. Atiyah]], [[Isadore M. Singer]]: *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
 
