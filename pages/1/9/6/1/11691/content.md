@@ -23,6 +23,11 @@ On [[rational homotopy theory]]:
 * {#GriffithMorgan13} [[Phillip Griffiths]], [[John Morgan]], _Rational Homotopy Theory and Differential Forms_,  Progress in Mathematics Volume 16, Birkh&auml;user (2013)
 
 
+On [[Isadore M. Singer]]:
+
+* [[Robert Bryant]], [[Jeff Cheeger]], [[Phillip Griffiths]]:  *Isadore M. Singer (1924–2021) In Memoriam Part 1: Scientific Works*, Notices of the AMS (Oct 2022) &lbrack;[pdf](https://www.ams.org/publications/journals/notices/202209/rnoti-p1547.pdf)&rbrack;
+
+
 
 ## Related entries
 
