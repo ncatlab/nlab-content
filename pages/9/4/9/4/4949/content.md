@@ -25,4 +25,9 @@ On [[special holonomy orbifolds]]:
 * [[Jeff Cheeger]], Gang Tian, _Anti-Self-Duality of Curvature and Degeneration of Metrics with Special Holonomy_, Communications in Mathematical Physics volume 255, pages391–417 (2005) ([doi:10.1007/s00220-004-1279-0](https://doi.org/10.1007/s00220-004-1279-0))
 
 
+On [[Isadore M. Singer]]:
+
+* [[Robert Bryant]], [[Jeff Cheeger]], [[Phillip Griffiths]]:  *Isadore M. Singer (1924–2021) In Memoriam Part 1: Scientific Works*, Notices of the AMS (Oct 2022) &lbrack;[pdf](https://www.ams.org/publications/journals/notices/202209/rnoti-p1547.pdf)&rbrack;
+
+
 category: people
