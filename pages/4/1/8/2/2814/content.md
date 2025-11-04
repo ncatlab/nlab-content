@@ -121,7 +121,11 @@ satisfying the following conditions:
 
    where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
 
-{#StrictMonoidalFunctor} If $\epsilon$ and all $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. (Note that 'strong' is also sometimes applied to 'monoidal functor' to indicate possession of a [[tensorial strength]].)   If they are even [[identity morphisms]], then $F$ is called a **strict monoidal functor**.
+{#StrictMonoidalFunctor} If $\epsilon$ and all $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
+
+> (Beware that it is has also become common to say "strong monoidal functor" for monoidal functors with *[[tensorial strength]]*, which is different.)   
+
+If they are even [[identity morphisms]], then $F$ is called a **strict monoidal functor**.
 
 =--
 
