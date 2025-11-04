@@ -2760,6 +2760,11 @@ Early lecture notes:
 
   Russian transl. by B. Yu. Sternin, Matematika **11** 2 (1967) 32–56 &lbrack;[mathnet:mat424](https://www.mathnet.ru/eng/mat424)&rbrack;
 
+and further review:
+
+* {#Atiyah69} [[Michael Atiyah]]: *Algebraic Topology and Operators in Hilbert Space*, in: *Lectures in Modern Analysis and Applications I*, Lecture Notes in Mathematics **103**, Springer (1969) 101-121 &lbrack;[doi:10.1007/BFb0099987](https://doi.org/10.1007/BFb0099987), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyah002.pdf), [[Atiyah-AlgTopAndOperators.pdf:file]]&rbrack;
+
+
 Representable K-theory over non-compact spaces was considered in
 
 * {#Karoubi70} [[Max Karoubi]], _Espaces Classifiants en K-Th&#233;orie_, Transactions of the American Mathematical Society Vol. 147, No. 1 (Jan., 1970), pp. 75-115  ([jstor](http://www.jstor.org/stable/1995218))
