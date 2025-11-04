@@ -8,13 +8,13 @@
 
 * _Memories of Sir Michael Atiyah_, Notices of the AMS &lbrack;[pdf](https://www.ams.org/journals/notices/201911/rnoti-p1834.pdf), [[MemoriesOfAtiyah.pdf:file]]&rbrack;
 
-* [[Bernd Schroers]], _Michael Atiyah and Physics: the Later Years_ &lbrack;[arXiv:1910.10630](https://arxiv.org/abs/1910.10630)&rbrack;
+* [[Bernd Schroers]]: _Michael Atiyah and Physics: the Later Years_ &lbrack;[arXiv:1910.10630](https://arxiv.org/abs/1910.10630)&rbrack;
 
 * [[Alain Connes]], Joseph Kouneiher: _Sir Michael Atiyah, a Knight Mathematician A tribute to Michael Atiyah, an inspiration and a friend_ ([arxiv:1910.07851](https://arxiv.org/abs/1910.07851))
 
-* [[Nigel Hitchin]], _Sir Michael Atiyah OM. 22 April 1929–11 January 2019_, Biographical Memoirs of the FRS, September 2020 ([doi:10.1098/rsbm.2020.0001](https://doi.org/10.1098/rsbm.2020.0001))
+* [[Nigel Hitchin]]: _Sir Michael Atiyah OM. 22 April 1929–11 January 2019_, Biographical Memoirs of the FRS, September 2020 ([doi:10.1098/rsbm.2020.0001](https://doi.org/10.1098/rsbm.2020.0001))
 
-* {#Hitchin20} [[Nigel Hitchin]], _Michael Atiyah: Geometry and Physics_, 2020 ([pdf](https://cmsa.fas.harvard.edu/wp-content/uploads/2021/01/Geometry-and-physics.pdf), [[HitchinOnAtiyahGeometryPhysics.pdf:file]])
+* {#Hitchin20} [[Nigel Hitchin]]: _Michael Atiyah: Geometry and Physics_ (2020) &lbrack;[pdf](https://cmsa.fas.harvard.edu/wp-content/uploads/2021/01/Geometry-and-physics.pdf), [[HitchinOnAtiyahGeometryPhysics.pdf:file]]&rbrack;
 
 
 
@@ -26,7 +26,10 @@ Introducing [[topological K-theory]]:
 
 * {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. (<a href="https://doi.org/10.1142/9789814401319_0008">doi:10.1142/9789814401319_0008</a>, [web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
 
-*  {#Atiyah67}  [[Michael Atiyah]], _K-theory_, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin 1967 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]])
+*  {#Atiyah67} [[Michael Atiyah]]: _K-theory_, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin (1967) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]]&rbrack;
+
+* {#Atiyah69} [[Michael Atiyah]]: *Algebraic Topology and Operators in Hilbert Space*, in: *Lectures in Modern Analysis and Applications I*, Lecture Notes in Mathematics **103**, Springer (1969) 101-121 &lbrack;[doi:10.1007/BFb0099987](https://doi.org/10.1007/BFb0099987), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyah002.pdf), [[Atiyah-AlgTopAndOperators.pdf:file]]&rbrack;
+
 
 Introducing [[cobordism cohomology theory]] [[MSO]]:
 
@@ -43,9 +46,9 @@ Introducing the [[Atiyah-Bott fixed point theorem]]:
 * [[Michael F. Atiyah]], [[Raoul Bott]]: *A Lefschetz Fixed Point Formula for Elliptic Complexes: I*, Annals of Mathematics **86** 2 (1967) 374-407 &lbrack;[doi:10.2307/1970694](https://doi.org/10.2307/1970694), [jstor:1970694](https://www.jstor.org/stable/1970694)&rbrack;
 
 
-Introducing what came to be known as [[Karoubi K-theory]]:
+Generalization of the [[Atiyah-Jänich theorem]] to any degree:
 
-* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 &lbrack;[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)&rbrack;
+* [[Michael F. Atiyah]], [[Isadore M. Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
 
 
 On [[Bott periodicity]]:
