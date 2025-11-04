@@ -1,4 +1,6 @@
 
+> Beware that there is also a(nother) notion of *[[strong monoidal functor]]*.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
