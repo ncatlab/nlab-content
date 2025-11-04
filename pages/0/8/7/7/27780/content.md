@@ -43,13 +43,28 @@ For $X$ a [[compact Hausdorff space]], the [[homotopy classes]] of [[continuous 
 
 where $ind_X$ forms the *index bundle*, an $X$-parameterized enhancement of the [[Fredholm index]] (see Prop. \ref{IndexViaVirtualKernelBundlesOfConstantDimPerturbation} below).
 
-This relation generalizes to a definition of [[twisted K-theory]] and of [[equivariant K-theory]] (hence of [[twisted equivariant K-theory]]) as given by homotopy classes of [[sections]] of $Fred(\mathscr{H})$-[[fiber bundles]] ([Atiyah & Segal 2004](#AtiyahSegal04)).
+This statement generalizes:
+
+1. to any degrees and to [[KO-theory]] ([Atiyah & Singer 1969 Thm. B](#AtiyahSinger1969), [Karoubi 1970 Lem 1.4 & Prop. 1.5](#Karoubi1970)), given by maps to Fredholm operators satisfying further (anticommutation) conditions,
+
+1. to a definition of [[twisted K-theory]] and of [[equivariant K-theory]] (hence of [[twisted equivariant K-theory]]), given by homotopy classes of [[sections]] of $Fred(\mathscr{H})$-[[fiber bundles]] ([Atiyah & Segal 2004](#AtiyahSegal04)).
 
 
 ## Statement
  {#Statement}
 
-Concretely:
+The original Atiyah-Jänich theorem theorem concerns complex [[topological K-theory]], $K(-) = KU^0(-)$ in degree 0 (and hence in any [[even number|even]] degree), see:
+
+* [Statement for $KU^0$](#StatementForKU0).
+
+Generalization to any degree and to [[KO-theory]] is due to [Atiyah & Singer 1969](#AtiyahSinger1969), [Karoubi 1970](#Karoubi1970), see:
+
+* [Statement for $KU^1$](#StatementForKU1).
+
+
+### For $KU^0$
+ {#StatementForKU0}
+
 
 \begin{proposition}
 \label{KernelBundles}
@@ -113,6 +128,58 @@ where $f'$ is any representative of the class $[f]$ according to Prop. \ref{Cons
   The construction of the index map (eq:IndexMap) by [Atiyah 1967 Lem A3, Cor A4](#Atiyah67) is a little different (though the result, of course, is the same). Exposition is in [Sheth §2](#Sheth).
 \end{remark}
 
+### For $KU^1$
+ {#StatementForKU1}
+
+\begin{proposition}
+  The space of [[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
+  $$
+    Fred^{sa}
+    \subset
+    \Big\{
+      F \in Fred 
+      \;\Big\vert\;
+      F^\dagger = F
+    \Big\}
+  $$
+  has three [[connected components]]
+  $$
+    Fred^{sa}
+    \simeq
+    Fred_+^{sa}
+    \sqcup
+    Fred_-^{sa}
+    \sqcup
+    Fred_\ast^{sa}
+  $$
+  corresponding to the operators $F$ whose [[essential spectrum]] (which is [[real number|real]], by [[self-adjoint operator|self-adjointness]]) is, respectively:
+
+  1. $Fred_+^{sa}$: purely [[positive number|positive]],
+
+  1. $Fred_-^{sa}$: purely [[negative number|negative]],
+
+  1. $Fred_{\ast}^{sa}$: both, hence [[inhabited set|nonempty]] both above and below [[zero]].
+
+Moreover, 
+
+1. the first two components are [[contractible topological space|contractible]]
+
+   $$
+     Fred^{sa}_{\pm} \simeq \ast
+     \,,
+   $$
+
+1. the last component is [[homotopy equivalence|homotoppy equivalent]] to the [[stable unitary group]], hence the [[classifying space]] for [[topological K-theory]] in odd degree:
+
+   $$
+     Fred^{sa}_{\ast} \simeq U \simeq KU_1
+     \,.
+   $$
+
+\end{proposition}
+Up to some straightforward reidentifications (for instance one may equivalently use *skew* self-adjoint operators whose spectrum is then purely [[imaginary number|imaginary]]), this is the statement of [Atiyah & Singer 1969 Thm. B](#AtiyahSinger1969) and [Karoubi 1970 Lem 1.4 & Prop. 1.5](#Karoubi1970).
+
+
 
 ## Examples
 
@@ -134,9 +201,9 @@ The original articles:
 
 Generalization to general degree and to [[KO-theory]]:
 
-* [[Michael F. Atiyah]], [[Isadore M. Singer]]: *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
+* {#AtiyahSinger1969} [[Michael F. Atiyah]], [[Isadore M. Singer]]: *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
 
-* [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
+* {#Karoubi1970} [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
 
 
 In monographs:
