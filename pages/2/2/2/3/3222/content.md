@@ -1,16 +1,24 @@
 **Max Karoubi** is a French topologist, with main interests in algebraic and topological K-theory, cyclic (co)homology and [[noncommutative geometry]] &#224; l&#224; Connes. He introduced the noncommutative differential forms to generalize the de Rham complex to [[noncommutative geometry]].
 
-* personal [webpage](http://people.math.jussieu.fr/~karoubi/); 
+* [personal page](http://people.math.jussieu.fr/~karoubi/); 
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Max_Karoubi) (en)
 
-* German [wikipedia](http://de.wikipedia.org/wiki/Max_Karoubi)
+* [Wikipedia entry](http://de.wikipedia.org/wiki/Max_Karoubi) (de)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=47121)
+
+* [inSpire page](https://inspirehep.net/authors/2470943)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Max-Karoubi)
 
 
 ## Selected writings
 
-Introducing what came to be known as [[Karoubi K-theory]]:
+Generalization of the [[Atiyah-Jänich theorem]] to any degree:
 
-* [[Max Karoubi]], *Espaces Classifiants en K-Théorie*, Transactions of the American Mathematical Society **147** 1 (Jan., 1970) 75-115 $[$[doi:10.2307/1995218](https://doi.org/10.2307/1995218)$]$
+* [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
+
 
 Introducing [[Hermitian K-theory]]:
 
@@ -66,7 +74,7 @@ On [[Bott periodicity]]:
 
 On [[twisted K-theory]], [[Hermitian K-theory]] and [[KR-theory]]:
 
-* [[Max Karoubi]], [[Marco Schlichting]], [[Charles Weibel]], *The Witt group of real algebraic varieties*, Journal of Topology **9** 4 (2016) 1257-1302 &lbrack;[arXiv:1506.03862](https://arxiv.org/abs/1506.03862), [doi:10.1112/jtopol/jtw024]( https://doi.org/10.1112/jtopol/jtw024)&rbrack;
+* [[Max Karoubi]], [[Marco Schlichting]], [[Charles Weibel]], *The Witt group of real algebraic varieties*, Journal of Topology **9** 4 (2016) 1257-1302 &lbrack;[arXiv:1506.03862](https://arxiv.org/abs/1506.03862), [doi:10.1112/jtopol/jtw024](https://doi.org/10.1112/jtopol/jtw024)&rbrack;
 
 * [[Max Karoubi]], [[Charles Weibel]], *Twisted $K$-theory, Real $A$-bundles and Grothendieck–Witt groups*, Journal of Pure and Applied Algebra **221** 7 (2017) 1629-1640 &lbrack;[doi:10.1016/j.jpaa.2016.12.020](https://doi.org/10.1016/j.jpaa.2016.12.020)&rbrack;
 
