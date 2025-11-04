@@ -14,12 +14,11 @@
 {:toc}
 
 ## Idea
+A __stochastic process__ describes a dynamical system evolving over a [[linearly ordered set]] $T$ ("time", typically the integers or positive real axis) whose dynamical laws are morphisms in the Kleisi category of the [[Giry monad]] (or any other probability monad). By working in the larger category of algebras of that monad, a characterization  of a stochastic processes can be modeled in terms of the expected value of measurements on that process. 
 
-A __stochastic process__ is a function from a [[linearly ordered set]] $T$ ("time", typically the integers or positive real axis) into a set of [[random variable]]s (on fixed [[probability space]]), that is a collection $(X_t)_{t\in T}$ of random variables.
+By a __random process__ physicists usually mean the same, but mathematicians sometimes allow random processes indexed by more general sets, not usually with meaning of time or equipped with a linear order. 
 
-By a __random process__ physicists usually mean the same, but mathematicians sometimes allow random processes indexed by more general sets, not usually with meaning of time or equipped with a linear order; maybe "random collection" would be a better term in that case. 
-
-The most studied examples include [[Brownian motion]], [[Ornstein-Uhlenbeck process]] and [[Lévy process]]es.
+The most studied examples include [[Brownian motion]], [[Ornstein-Uhlenbeck process]] and [[Lévy process]]es. The concept of an __indivisible stochastic process__ leads to [[Jacob Barandes]] [[indivisible stochastic process interpretation of quantum mechanics]].
 
 ## References
 
