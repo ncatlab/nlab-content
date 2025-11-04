@@ -14,10 +14,10 @@
 =--
 
 
-
 #Contents#
 * table of contents
 {:toc}
+
 
 ## Idea
 
@@ -49,4 +49,4 @@ In this context, the [[Kane-Mele invariant]] is a projection $K Q^1(\mathbb{T}^d
 
 [[!redirects KQ-theory]]
 
-
+[[!redirects KH]]
