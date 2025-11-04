@@ -139,6 +139,7 @@ It is closely related to the Kleisli category of the [[distribution monad]].
 
 ## Related concepts
 
+* [[stochastic process]]
 * [[Markov category]]
 * [[Markov kernel]]
 * [[category of couplings]]
