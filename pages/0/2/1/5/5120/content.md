@@ -32,31 +32,41 @@ Grothendieck has defined a prime spectrum of commutative unital ring having in m
 
 * _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, prime (primitive etc.) spectrum of a commutative or noncommutative ring, _[[analytic spectrum]]_, _[[spectrum of an abelian category]]_, _[[spectrum of a triangulated category]]_, _[[Berkovich spectrum]]_, _[[Orlov spectrum]]_ etc.
 
-* in algebraic geometry, especially in [[birational geometry]] and arithmetic algebraic geometry, points are sometimes reconstructed by looking at [[valuation]]s on the field of rational functions. 
+* in [[algebraic geometry]], especially in [[birational geometry]] and [[arithmetic geometry]], points are sometimes reconstructed by looking at [[valuations]] on the field of rational functions. 
+
 
 ## Literature
 
 #### Functional analysis and quantum mechanics
 
-* [[Michael Reed]], [[Barry Simon]]: *Methods of Modern Mathematical Physics*, Academic Press (1978) Volume IV: *Analysis of Operators* $[$[ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7)$]$
-
-* [[William Arveson]], *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) $[$[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)$]$
-
-* [[eom]]: [Spectral theory of linear operators](http://eom.springer.de/S/s086520.htm) (by Hazewinkel)
-
-* wikipedia: [spectral theory](http://en.wikipedia.org/wiki/Spectral_theory)
-
-* [[Tom Leinster]], _Spectra of operators and rings_, [nCaf&#233;](http://golem.ph.utexas.edu/category/2011/10/spectra_of_operators_and_rings.html)
-
-* Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
-
-* Nelson Dunford, Jacob T Schwartz, _Linear operators, spectral theory, self adjoint operators in Hilbert space_ (Part 2) (1967, paperback 1988). Wiley.
-
-* Jean Dieudonn&#233;, _Fundamentals of modern analysis_, vol. I, chapter XI: Elementary spectral theory, 1969
+* Jean Dieudonn&#233;, _Fundamentals of modern analysis_, vol. I, chapter XI: Elementary spectral theory (1969)
 
 * Jean Dieudonn&#233;, _Sur la th&#233;orie spectrale_,  J. Math. Pures Appl. (9) 35 (1956), 175--187, MR0077894
 
+* [[Michael Reed]], [[Barry Simon]]: *Methods of Modern Mathematical Physics*, Academic Press (1978) Volume IV: *Analysis of Operators* &lbrack;[ISBN:9780080570457](https://www.elsevier.com/books/iv-analysis-of-operators/reed/978-0-08-057045-7)&rbrack;
+
+* [[William Arveson]], *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) &lbrack;[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)&rbrack;
+
+
+* Nelson Dunford, Jacob T Schwartz, _Linear operators, spectral theory, self adjoint operators in Hilbert space_ (Part 2) (1967, paperback 1988). Wiley.
+
+
+* Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, (1995) &lbrack;[gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)&rbrack;
+
+
+* {#Müller2003} [[Vladimir Müller]]: *Spectral Theory of Linear Operators and Spectral Systems in Banach Algebras*, Operator Theory: Advances and Applications **139**, Birkhäuser (2003, 2007) &lbrack;[doi:10.1007/978-3-7643-8265-0](https://doi.org/10.1007/978-3-7643-8265-0)&rbrack;
+
+
 * [[Valter Moretti]], _Spectral Theory and Quantum Mechanics: Mathematical Structure of Quantum Theories, Symmetries and introduction to the Algebraic Formulation_ 2nd Edition, Springer 2018 ISBN 978-3-319-70705-1
+
+See also:
+
+* [[eom]]: *[Spectral theory of linear operators](http://eom.springer.de/S/s086520.htm)* (by Hazewinkel)
+
+* Wikipedia: *[Spectral theory](http://en.wikipedia.org/wiki/Spectral_theory)*
+
+
+* [[Tom Leinster]], _Spectra of operators and rings_, [nCaf&#233;](http://golem.ph.utexas.edu/category/2011/10/spectra_of_operators_and_rings.html)
 
 
 #### Spectra in noncommutative algebraic geometry
