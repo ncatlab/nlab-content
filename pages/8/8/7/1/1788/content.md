@@ -4,6 +4,157 @@
 
 ***
 
+\begin{example}
+  The canonical [[real structure]] on $\mathbb{C}$
+  $$
+    \begin{array}{ccc}
+      \mathbb{C} 
+        &\xrightarrow{\; \widehat{T} \;}& 
+      \mathbb{C}
+      \\
+      z &\mapsto& \overline{z}
+    \end{array}
+  $$
+  is self-adjoint (cf. Lem. \ref{SelfAdjointAntiLinearOperator}):
+  $$
+    \begin{aligned}
+      \big\langle
+        \widehat{T} z
+        ,
+        w
+      \big\rangle
+      & =
+      \big\langle
+        \overline{z}
+        ,
+        w
+      \big\rangle
+      \\
+      & =
+      \overline{\overline{z}} \, w
+      \\
+      & =
+      z \, w
+      \\
+      & =
+      \overline{
+        \overline{z} \, \overline{w}
+      }
+      \\
+      & =
+      \overline{
+        \big\langle
+           z, \overline{w}
+        \big\rangle
+      }
+      \\
+      & =
+      \overline{
+        \big\langle
+           z, \widehat{T} w
+        \big\rangle
+      }
+      \mathrlap{\,.}
+    \end{aligned}
+  $$
+\end{example}
+
+\begin{example}
+  The canonical [[quaternionic structure]] on $\mathbb{C}^2$
+  $$
+    \begin{array}{ccc}
+      \mathbb{C}^2 
+        &\xrightarrow{\; \widehat{T} \;}& 
+      \mathbb{C}^2
+      \\
+      \left(
+      \begin{matrix}
+        z_1
+        \\
+        z_2
+      \end{matrix} 
+      \right)
+        &\mapsto& 
+      \left(
+      \begin{matrix}
+        -\overline{z_2}
+        \\
+        \overline{z_1}
+      \end{matrix} 
+      \right)
+    \end{array}
+  $$
+  is anti-self-adjoint (cf. Lem. \ref{SelfAdjointAntiLinearOperator}):
+
+$$
+  \begin{aligned}
+    \Big\langle
+      \widehat{T}\vec z
+      ,\,
+      \vec w
+    \Big\rangle
+    & =
+    \left\langle
+    \left(
+      \begin{matrix}
+        -\overline{z_2}
+        \\
+        \overline{z_1}
+      \end{matrix} 
+    \right)
+    ,
+    \left(
+      \begin{matrix}
+        w_1
+        \\
+        w_2
+      \end{matrix} 
+    \right)
+    \right\rangle
+    \\
+    & =
+    - z_2 \, w_1 \;+\; z_1 \, w_2
+    \\
+    & =
+    \overline{
+      - \overline{z_2} \, \overline{w_1}
+      +
+      \overline{z_1} \, \overline{w_2}
+    }
+    \\
+    & =
+    \overline{
+      \left\langle
+      \left(
+        \begin{matrix}
+          z_1
+          \\
+          z_2
+        \end{matrix} 
+      \right)
+      ,
+      \left(
+        \begin{matrix}
+          \overline{w_2}
+          \\
+          -\overline{w_1}
+        \end{matrix} 
+      \right)
+    \right\rangle
+    }
+    \\
+    & = 
+    -
+    \Big\langle
+      \vec z
+      ,\,
+      \widehat{T} \vec w
+    \Big\rangle
+    \mathrlap{\,.}
+  \end{aligned}
+$$
+\end{example}
+
 \begin{lemma}
 \label{SelfAdjointAntiLinearOperator}
   For a complex [[anti-linear operator]] $A$ on a [[Hilbert space]] $\mathscr{H}$, the following are equivalent:
