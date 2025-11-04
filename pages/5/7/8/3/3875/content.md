@@ -15,7 +15,7 @@ Introducing the [[Kadison-Singer problem]]:
 
 * [[Richard V. Kadison]], [[Isadore Singer]], _Extensions of pure states_, American Journal of Mathematics, 81(2):383&#8211;400, 1959 ([jstor:2372748](https://www.jstor.org/stable/2372748))
 
-Generalization of the [[Atiyah-Jänich theorem]] to any degree:
+Generalization of the [[Atiyah-Jänich theorem]] to any degree and to [[KO-theory]]:
 
 * [[Michael F. Atiyah]], [[Isadore M. Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
 
@@ -40,7 +40,7 @@ On [[topological Yang-Mills theory]]:
 
 On [[differential cohomology]] with motivation from [[M5-branes]]-physics
 
-* _[[Quadratic Functions in Geometry, Topology,and M-Theory]]_
+* [[Michael Hopkins]], [[Isadore Singer]]: *[[Quadratic Functions in Geometry, Topology,and M-Theory]]*, J. Differential Geom. **70** 3 (2005)  329-452 &lbrack;[arXiv:math.AT/0211216](http://arxiv.org/abs/math.AT/0211216), [doi:10.4310/jdg/1143642908](https://doi.org/10.4310/jdg/1143642908), [euclid:1143642908](https://projecteuclid.org/euclid.jdg/1143642908)&rbrack;
 
 
 [[!redirects Isadore M. Singer]]
