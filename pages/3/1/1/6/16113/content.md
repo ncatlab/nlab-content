@@ -35,6 +35,10 @@ On [[Spin(8)]]
 
 * [[Robert Bryant]], _Remarks on Spinors in Low Dimension_ ([pdf](https://services.math.duke.edu/~bryant/Spinors.pdf), [[BryantRemarksOnSpinorsInLowDimension.pdf:file]])
 
+On [[Isadore M. Singer]]:
+
+* [[Robert Bryant]], [[Jeff Cheeger]], [[Phillip Griffiths]]:  *Isadore M. Singer (1924–2021) In Memoriam Part 1: Scientific Works*, Notices of the AMS (Oct 2022) &lbrack;[pdf](https://www.ams.org/publications/journals/notices/202209/rnoti-p1547.pdf)&rbrack;
+
 
 
 
