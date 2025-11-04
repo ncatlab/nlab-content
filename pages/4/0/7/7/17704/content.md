@@ -8,6 +8,34 @@ In [[computer science]], **applicative functors** (also known as **idioms**) are
 
 A [[strong monad]] gives rise to an applicative functor, but not all applicative functors result from monads. Unlike monads, applicative functors are closed under composition.
 
+## Equivalence
+
+An applicative functor $F$ in a [[closed monoidal category|closed (symmetric) monoidal category]]
+$(\mathcal{C}, {\otimes}, I)$ is given by natural transformations
+$\eta_x : x \to F(x)$ and $\phi_{x,y} : F([x, y]) \otimes F(x) \to F(y)$,
+satisfying unit and associativity coherence.
+
+```
+class (Functor f) => Applicative f where
+  pure  :: a -> f a
+  (<*>) :: f (a -> b) -> f a -> f b
+```
+
+It defines a strong lax monoidal endofunctor as follows:
+
+- $\epsilon = \eta_I : I \to F(I)$,
+- $\mu_{x,y} : F(x) \otimes F(y) \xrightarrow{F(\Lambda(\mathrm{id}_{x \otimes y})) \otimes \mathrm{id}_{F(y)}} F([y, x \otimes y]) \otimes F(y) \xrightarrow{\phi_{y,x \otimes y}} F(x \otimes y)$
+  where $\Lambda(\mathrm{id}_{x \otimes y}) : x \to [y, x \otimes y]$
+  is the [[currying]] of the identity morphism on $x \otimes y$,
+- $\mathrm{st}_{x,y} = \mu_{x,y} \circ (\eta_x \otimes \mathrm{id}_{F(y)})$.
+
+Conversely, given such an endofunctor $(F, \epsilon, \mu, \mathrm{st})$,
+one can consider the following applicative:
+
+- $\eta_x : x \xrightarrow{\rho_x^{-1}} x \otimes I \xrightarrow{\mathrm{id}_x \otimes \epsilon} x \otimes F(I) \xrightarrow{\mathrm{st}_{x,I}} F(x \otimes I) \xrightarrow{F(\rho_x)} F(x)$,
+  where $\rho_x : x \otimes I \to x$ is the right [[unitor]] for $\otimes$,
+- $\phi_{x,y} = F(\mathrm{ev}_{x,y}) \circ \mu_{[x,y], x}$.
+
 ## Examples
 
 There are two ways to define `List` as an applicative functor
