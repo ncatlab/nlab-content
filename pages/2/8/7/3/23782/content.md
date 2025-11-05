@@ -40,17 +40,24 @@ In contrast, *[[long-range entanglement]]* in the ground state is supposedly the
 
 The notion was introduced (only) in a series of talks:
 
-* {#Kitaev11} [[Alexei Kitaev]], *Toward Topological Classification of Phases with Short-range Entanglement*, talk at KITP (2011) $[$[video](https://online.kitp.ucsb.edu/online/topomat11/kitaev/)$]$
+* {#Kitaev11} [[Alexei Kitaev]], *Toward Topological Classification of Phases with Short-range Entanglement*, talk at KITP (2011) &lbrack;[video](https://online.kitp.ucsb.edu/online/topomat11/kitaev/)&rbrack;
 
-* {#Kitaev13} [[Alexei Kitaev]], *On the Classification of Short-Range Entangled States*, talk at Simons Center (2013) $[$[video](https://scgp.stonybrook.edu/archives/7874)$]$
+* {#Kitaev13} [[Alexei Kitaev]], *On the Classification of Short-Range Entangled States*, talk at Simons Center (2013) &lbrack;[video](https://scgp.stonybrook.edu/archives/7874)&rbrack;
+
+* {#Kitaev15} [[Alexei Kitaev]]: *Homotopy-theoretic approach to SPT phases in action: $\mathbb{Z}_{16}$ classification of three-dimensional superconductors*, Talk at: *Symmetry and Topology in Quantum Matter Workshop*, Institute for Pure and Applied Mathematics, University of California (2015) &lbrack;[web](http://www.ipam.ucla.edu/programs/workshops/symmetry-and-topology-in-quantum-matter/)&rbrack;
+
+* {#Kitaev19} [[Alexei Kitaev]]: *Topological quantum phases*, Talk at IAS (2019) &lbrack;[video](https://www.ias.edu/video/special/2019/1125-AlexeiKitaev)&rbrack;
 
 Formalization in terms of [[invertible topological field theories]]:
 
 * {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* $[$[arXiv:1406.7278](https://arxiv.org/abs/1406.7278) $]$
 
-See also around [footnote 2](https://arxiv.org/pdf/1712.07950.pdf#page=4) of
+See also:
 
-* {#GJF19} [[Davide Gaiotto]], [[Theo Johnson-Freyd]], *Symmetry Protected Topological phases and Generalized Cohomology*, J. High Energ. Phys. **2019** 7 (2019) $[$[arXiv:1712.07950](https://arxiv.org/abs/1712.07950), [doi:10.1007/JHEP05%282019%29007](https://doi.org/10.1007/JHEP05%282019%29007)  $]$
+* {#GJF19} [[Davide Gaiotto]], [[Theo Johnson-Freyd]], around [footnote 2](https://arxiv.org/pdf/1712.07950.pdf#page=4) of: *Symmetry Protected Topological phases and Generalized Cohomology*, J. High Energ. Phys. **2019** 7 (2019) &rbrack;[arXiv:1712.07950](https://arxiv.org/abs/1712.07950), [doi:10.1007/JHEP05%282019%29007](https://doi.org/10.1007/JHEP05%282019%29007)&rbrack;
+
+* [[Yosuke Kubota]]: *Stable homotopy theory of invertible gapped quantum spin systems I: Kitaev's $\Omega$-spectrum* &lbrack;[arXiv:2503.12618](https://arxiv.org/abs/2503.12618)&rbrack;
+
 
 ### Long-range entanglement
 
