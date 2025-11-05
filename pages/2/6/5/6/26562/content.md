@@ -485,7 +485,7 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 
 * {#dagger_martingales} [[Paolo Perrone]] and Ruben Van Belle, _Convergence of martingales via enriched dagger categories_, 2024. ([arXiv](https://arxiv.org/abs/2404.15191))
 
-* {#lifting} [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, 2021. ([arXiv](https://arxiv.org/abs/2110.06591))
+* {#lifting} [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, Compositionality 7, 2025. ([arXiv](https://arxiv.org/abs/2110.06591))
 
 * {#Perrone_thesis} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, 2018 ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
 
