@@ -102,6 +102,12 @@ It also appears in the following works:
 
 * {#dagger_martingales} [[Paolo Perrone]] and Ruben Van Belle, _Convergence of martingales via enriched dagger categories_, 2024. ([arXiv](https://arxiv.org/abs/2404.15191))
 
+* {#lifting} [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, Compositionality 7, 2025. ([arXiv](https://arxiv.org/abs/2110.06591))
+
+* {#stein_RV} Dario Stein, _Random Variables, Conditional Independence and Categories of Abstract Sample Spaces_, LICS 2025. ([arXiv](https://arxiv.org/abs/2503.02477))
+
+* {#dagger_relations} Matthew Di Meglio, Chris Heunen, Jean-Simon Pacaud Lemay, Paolo Perrone and Dario Stein, _Dagger categories of relations: the equivalence of dilatory dagger categories and epi-regular independence categories_, 2025. ([arXiv](https://arxiv.org/abs/2508.01146))
+
 
 ## Related concepts
 
