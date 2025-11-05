@@ -392,10 +392,10 @@ $$
 
 for the [[opposite category]] of the [[category of commutative monoids]] in $\mathcal{C}$, according to def. \ref{MonoidsInMonoidalCategory}.
 
-For $R \in CMon(\mathcal{C})$ we write
+For $A \in CMon(\mathcal{C})$ we write
 
 $$
-  Spec(R)
+  Spec(A)
   \in
   Aff(\mathcal{C})
 $$
