@@ -34,6 +34,8 @@ Small categories are free of some of the subtleties that apply to large categori
 
 A category is said to be **essentially small** (or, rarely, **svelte**) if it is [[equivalence of categories|equivalent]] to a small category.  Assuming the [[axiom of choice]], this is the same as saying that it has a small [[skeleton]], or equivalently that it is [[locally small category|locally small]] and has a [[small set|small number]] of isomorphism classes of objects.
 
+A category is said to be **Morita small** if it is [[Morita equivalent]] to a small category (i.e. its [[category of presheaves]] is [[equivalence of categories|equivalent]] to a the category of presheaves on a small category, or alternatively if it is [[equivalence in a 2-category|equivalent]] to a small category in the bicategory [[Dist]] of [[distributors]]).
+
 A **small category structure** on a [[locally small category]] $C$ is an [[essentially surjective functor]] from a set (as a [[discrete category]]) to $C$.  A category is essentially small iff it is locally small and has a small category structure; unlike the previous paragraph, this result does not require the axiom of choice.
 
 ## Characterisations
@@ -87,6 +89,15 @@ A category is **$U$-moderate** if its set of objects and set of morphisms are bo
 
 * {#KoudenburgMathOverflow} [[Seerp Roald Koudenburg]], answer to "Is every petite category essentially small?": [MathOverflow](https://mathoverflow.net/a/474544)
 
+The terminology **Morita small** appears, for instance, in:
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The nerve theorem for relative monads_ (2025), Theory and Applications of Categories, &lbrack;[arXiv:2404.01281](https://arxiv.org/abs/2404.01281)&rbrack;
+
+though the notion has appeared earlier, e.g. it is simply called **small** in:
+
+
+* [[Ross Street]], _Enriched categories and cohomology_, Quaestiones Mathematicae, Vol. 6, No. 1-3, 1983, pp. 265-283. &lbrack;[doi:10.1080/16073606.1983.9632304](https://doi.org/10.1080/16073606.1983.9632304)&rbrack;
+
 [[!redirects small]]
 [[!redirects small category]]
 [[!redirects small categories]]
@@ -101,3 +112,7 @@ A category is **$U$-moderate** if its set of objects and set of morphisms are bo
 [[!redirects svelte categories]]
 
 [[!redirects essentially small]]
+
+[[!redirects Morita small]]
+[[!redirects Morita small category]]
+[[!redirects Morita small categories]]
