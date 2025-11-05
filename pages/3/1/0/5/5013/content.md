@@ -109,3 +109,10 @@ and aspects of their [[homotopy theory]] is discussed in
 
 [[!redirects finite topological space]]
 [[!redirects finite topological spaces]]
+
+[[!redirects finite space]]
+[[!redirects finite spaces]]
+
+
+
+
