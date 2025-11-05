@@ -67,11 +67,15 @@ On the classification of [[gapped Hamiltonians]]/[[topological insulators]] by [
 
 * [[Alexei Kitaev]], _Periodic table for topological insulators and superconductors_, talk at: L.D.Landau Memorial Conference "Advances in Theoretical Physics", June 22-26, 2008, In:AIP Conference Proceedings 1134, 22 (2009) ([arXiv:0901.2686](https://arxiv.org/abs/0901.2686), [doi:10.1063/1.3149495](https://doi.org/10.1063/1.3149495))
 
-Introducing the notion of [[short-range entanglement]] in [[quantum materials]]:
+Introducing the notion of [[short-range entanglement]] in [[quantum materials]] and conjecturing its classification by spaces forming an [[Omega-spectrum]]:
 
-* {#Kitaev11} [[Alexei Kitaev]], *Toward Topological Classification of Phases with Short-range Entanglement*, talk at KITP (2011) $[$[video](https://online.kitp.ucsb.edu/online/topomat11/kitaev/)$]$
+* {#Kitaev11} [[Alexei Kitaev]]: *Toward Topological Classification of Phases with Short-range Entanglement*, talk at KITP (2011) &lbrack;[video](https://online.kitp.ucsb.edu/online/topomat11/kitaev/)&rbrack;
 
-* {#Kitaev13} [[Alexei Kitaev]], *On the Classification of Short-Range Entangled States*, talk at Simons Center (2013) &lbrack;[video](https://scgp.stonybrook.edu/archives/7874)&rbrack;
+* {#Kitaev13} [[Alexei Kitaev]]: *On the Classification of Short-Range Entangled States*, talk at Simons Center (2013) &lbrack;[video](https://scgp.stonybrook.edu/archives/7874)&rbrack;
+
+* {#Kitaev15} [[Alexei Kitaev]]: *Homotopy-theoretic approach to SPT phases in action: $\mathbb{Z}_{16}$ classification of three-dimensional superconductors*, Talk at: *Symmetry and Topology in Quantum Matter Workshop*, Institute for Pure and Applied Mathematics, University of California (2015) &lbrack;[web](http://www.ipam.ucla.edu/programs/workshops/symmetry-and-topology-in-quantum-matter/)&rbrack;
+
+* {#Kitaev19} [[Alexei Kitaev]]: *Topological quantum phases*, Talk at IAS (2019) &lbrack;[video](https://www.ias.edu/video/special/2019/1125-AlexeiKitaev)&rbrack;
 
 Discussion of the [[Levin-Wen model]] as an [[extended TQFT|extended]] [[3d TQFT]] formulated using [[tensor categories]]:
 
