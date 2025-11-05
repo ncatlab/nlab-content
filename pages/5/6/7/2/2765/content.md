@@ -20,7 +20,7 @@
 
 ## Definition
 
-$\mathbf{Prof}$ is the [[2-category]] of [[categories]], [[profunctors]], and [[natural transformations]].  
+$\mathbf{Prof}$ (a.k.a. $\mathbf{Dist}$, for [[distributors]]) is the [[2-category]] of [[categories]], [[profunctors]], and [[natural transformations]].  
 
 Recall that a profunctor from $A$ to $B$ is a functor $B^{op}\times A\to Set$.  Composition of profunctors in $Prof$ is by the "tensor product of functors" [[coend]] construction: if $H\colon A\to B$ and $K\colon B\to C$, their composite is given as a functor $C^{op}\times A \to Set$ by
 $$(c,a)\mapsto \int^{b\in B} H(b,a)\times K(c,b).$$
@@ -73,3 +73,5 @@ $Prof$ is a [[locally cocomplete bicategory]].
 
 
 category: category
+
+[[!redirects Dist]]
