@@ -444,7 +444,7 @@ The article
 
 * [[Kirk Sturtz]], _Categorical Probability Theory_, $[$[arXiv:1406.6030](http://arxiv.org/abs/1406.6030)$]$
 
-views probability measures via double dualization, restricted to weakly averaging affine maps which preserves limits.  A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, obtained by double dualizing into $[0,\infty]$, which then yields the characterization of $G$-algebras summarized [[Giry monad#algebras_over_the_giry_monad|above]], which is from the article
+views probability measures via double dualization, restricted to weakly averaging affine maps.  A more satisfactory description of probability measures arises from recognizing the need for viewing them as weakly-averaging countably affine maps, obtained by double dualizing into $\mathbb{R}_{\infty}$, which then yields the characterization of $G$-algebras summarized [[Giry monad#algebras_over_the_giry_monad|above]], which is from the article
 
 * {#Sturtz25}[[Kirk Sturtz]], _Deriving the Giry algebras on standard Borel spaces using $\mathbb{R}_{\infty}$-generalized points_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
 
