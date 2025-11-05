@@ -395,7 +395,7 @@ for the [[opposite category]] of the [[category of commutative monoids]] in $\ma
 For $R \in CMon(\mathcal{C})$ we write
 
 $$
-  Spec(A)
+  Spec(R)
   \in
   Aff(\mathcal{C})
 $$
