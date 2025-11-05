@@ -14,7 +14,7 @@ Later precursor discussion phrased in terms of [[random matrix theory]] instead 
 
 * Denis Bernard, André LeClair, *A classification of 2D random Dirac fermions*, J. Phys. A: Math. Gen. **35** (2002) 2555 \[<a href="https://iopscience.iop.org/article/10.1088/0305-4470/35/11/303">doi:10.1088/0305-4470/35/11/303</a>\]
 
-* [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]], *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) $[$[doi:10.1103/PhysRevB.78.195125](https://doi.org/10.1103/PhysRevB.78.195125), [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)$]$
+* {#SchnyderRyuFurusakiLudwig2008} [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]], *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) $[$[doi:10.1103/PhysRevB.78.195125](https://doi.org/10.1103/PhysRevB.78.195125), [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)$]$
 
 The original proposal making [[topological K-theory]] explicit:
 
