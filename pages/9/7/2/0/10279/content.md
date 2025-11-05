@@ -33,7 +33,7 @@ An antilinear map has a central role in the concept of [[star-algebra]]. Convers
 
 ### General
 
-Consider as [[ground ring]] a [[commutative ring]] (often a [[field]], or possibly just a [[rig]]) $K$, equipped with an [[involution]] $x \mapsto \overline{x}$, meaning an [[endomorphism]] with $\overline{\overline{x}} = x$ for all $x \in K$ (such as a [[star algebra]], such as the [[complex numbers]] or [[quaterionions]], with their [[complex conjugation]] [[involution]]).
+Consider as [[ground ring]] a [[commutative ring]] (often a [[field]], or possibly just a [[rig]]) $K$, equipped with an [[involution]] $x \mapsto \overline{x}$, meaning an [[endomorphism]] with $\overline{\overline{x}} = x$ for all $x \in K$ (such as a [[star algebra]], such as the [[complex numbers]] or [[quaternions]], with their [[complex conjugation]] [[involution]]).
 
 Then:
 
