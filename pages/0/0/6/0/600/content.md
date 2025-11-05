@@ -167,7 +167,7 @@ $$
     \array{
       && B
       \\
-      & {}^{Id}\swarrow && \searrow^{Id}
+      & {}^{Id}\swarrow && \searrow^{Id} \\
       B &&&& B
     }
   \right)
