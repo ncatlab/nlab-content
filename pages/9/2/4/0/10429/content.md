@@ -304,6 +304,19 @@ Relation of [[extended TQFT|extended]] [[3d TQFT]] to lattice models for [[topol
 
 * [[Daniel S. Freed]], [[Michael J. Hopkins]], [[Constantin Teleman]]: *Discrete quantum systems from topological field theory* &lbrack;[arXiv:2506.05131](https://arxiv.org/abs/2506.05131)&rbrack;
 
+On the classification of [[invertible field theory|invertible]] [[energy gap|gapped]] quasi-local [[Hamiltonians]] ([[short-range entanglement]]):
+
+* {#Kitaev11} [[Alexei Kitaev]]: *Toward Topological Classification of Phases with Short-range Entanglement*, talk at KITP (2011) &lbrack;[video](https://online.kitp.ucsb.edu/online/topomat11/kitaev/)&rbrack;
+
+* {#Kitaev13} [[Alexei Kitaev]]: *On the Classification of Short-Range Entangled States*, talk at Simons Center (2013) &lbrack;[video](https://scgp.stonybrook.edu/archives/7874)&rbrack;
+
+* {#Kitaev15} [[Alexei Kitaev]]: *Homotopy-theoretic approach to SPT phases in action: $\mathbb{Z}_{16}$ classification of three-dimensional superconductors*, Talk at: *Symmetry and Topology in Quantum Matter Workshop*, Institute for Pure and Applied Mathematics, University of California (2015) &lbrack;[web](http://www.ipam.ucla.edu/programs/workshops/symmetry-and-topology-in-quantum-matter/)&rbrack;
+
+* {#Kitaev19} [[Alexei Kitaev]]: *Topological quantum phases*, Talk at IAS (2019) &lbrack;[video](https://www.ias.edu/video/special/2019/1125-AlexeiKitaev)&rbrack;
+
+* [[Yosuke Kubota]]: *Stable homotopy theory of invertible gapped quantum spin systems I: Kitaev's $\Omega$-spectrum* &lbrack;[arXiv:2503.12618](https://arxiv.org/abs/2503.12618)&rbrack;
+
+
 
 [[!include topological phases of matter via K-theory -- references]]
 
