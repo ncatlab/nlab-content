@@ -104,6 +104,7 @@ In other words, Prop. \ref{ClosureUnderComposition} says that Banach spaces with
 
 
 ### Via parametrices
+ {#ViaParametrices}
 
 
 An equivalent characterization of Fredholm operators is the following:
@@ -185,7 +186,6 @@ of the [[product space]] of the spaces of
     }
 \end{imagefromfile}
 
-
 \end{definition}
 (This is due to [Atiyah & Segal 2004 Def. 3.2](#AtiyahSegal04), following [Atiyah & Singer 1969 p 7](#AtiyahSinger69), see also [Freed, Hopkins & Teleman 2011 Def. A.39](#FreedHopkinsTeleman11).)
 
@@ -224,7 +224,9 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 * [[Toeplitz operator]]
 
-* [[K-theory]], [[KK-theory]]
+* [[topological K-theory]], [[KK-theory]]
+
+* [[Atiyah-Jänich theorem]]
 
 * [[index theory]] 
 
