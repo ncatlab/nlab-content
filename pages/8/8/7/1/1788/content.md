@@ -4,36 +4,8 @@
 
 ***
 
-| this space of such Fredholm operators | classifies |
-|---|---|
-| complex  |  $K \mathrm{U}^0$ |
-| complex self-adjoint | $K \mathrm{U}^1$ |
-| real  |  $K \mathrm{O}^0$ |
-| real self-adjoint | $K \mathrm{O}^1$ |
-| real anti-self-adjoint | $K\mathrm{O}^7$ |
-| quaternionic  |  $K \mathrm{O}^4$ |
-| quaternionic self-adjoint | $K \mathrm{O}^5$ |
-| quaternionic anti-self-adjoint | $K \mathrm{O}^{3}$ |
-| complex anti-linear self-adjoint  |  $K \mathrm{O}^2$ |
-| complex anti-linear anti-self-adjoint | $K \mathrm{O}^6$ |
+[[QSfixedFredholms-251105.png:file]]
 
-or conversely
-
-| this K-theory | is classified by such Fredholm operators |
-|---|---|
-| $K \mathrm{U}^0$ | complex  |  
-| $K \mathrm{U}^1$ | complex self-adjoint | 
-| $K \mathrm{O}^0$ | real  |  
-| $K \mathrm{O}^1$ | real self-adjoint  |
-| $K \mathrm{O}^2$ | complex anti-linear self-adjoint |
-| $K \mathrm{O}^3$ | quaternionic anti-self-adjoint |
-| $K \mathrm{O}^4$ | quaternionic |
-| $K \mathrm{O}^5$ | quaternionic self-adjoint |
-| $K \mathrm{O}^6$ | complex anti-linear anti-self-adjoint |
-| $K \mathrm{O}^7$ | real anti-self-adjoint |
-
-
-except that in the cases of $K \mathrm{U}^n$ with $n = 1 mod 2$ and  $K\mathrm{O}^n$ with $n = 1 mod 4$ the given space of Fredholm operators is actually the disjoint union of $K \mathrm{U}^n$/$K\mathrm{O}^n$ with two contractible components.
 
 
 +-- {: .num_theorem #PullbackLawForACube}
