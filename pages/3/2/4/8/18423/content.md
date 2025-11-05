@@ -671,7 +671,7 @@ The identification in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGro
 
 * {#BEBP19} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]]: *Classifying spaces of infinity-sheaves*, Algebr. Geom. Topol. **24** (2024) 4891-4937 &lbrack;[doi:10.2140/agt.2024.24.4891](https://doi.org/10.2140/agt.2024.24.4891), [arXiv:1912.10544](https://arxiv.org/abs/1912.10544)&rbrack;
 
-The special case where $A$ in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} a [[0-truncated]] [[smooth infinity-groupoid|smooth $\infty$-groupoid]] (hence a *[[smooth set]]*) and restricting attention to $\pi_0$ of its shape $\esh A$ was previously shown by:
+The special case where $A$ in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} a [[0-truncated]] [[smooth infinity-groupoid|smooth $\infty$-groupoid]] (hence a *[[smooth set]]*) and restricting attention to $\pi_0$ of its shape $\esh A$ was previously claimed (but see [MO:q/234778](https://mathoverflow.net/q/234778/381)) by:
 
 * [[Ib Madsen]], [[Michael Weiss]], appendix A.1 of: *The stable moduli space of Riemann surfaces: Mumford’s conjecture*, Annals of Mathematics **165** 3 (2007) 843–941 &lbrack;[arXiv:math/0212321](https://arxiv.org/abs/math/0212321), [doi:10.4007/annals.2007.165.843](https://doi.org/http://doi.org/10.4007/annals.2007.165.843)&rbrack;
 
@@ -689,8 +689,6 @@ An alternative proof of Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityG
 
    *The homotopy theory of differentiable sheaves* &lbrack;[arXiv:2309.01757](https://arxiv.org/abs/2309.01757)&rbrack;
 
-Talk notes:
-
 * [[Adrian Clough]]: *The smooth Oka principle*, talk at [[CQTS]] (Oct 2022) &lbrack;[pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)&rbrack;
 
 
@@ -699,9 +697,9 @@ applied to [[diffeological spaces]] (among all [[smooth infinity-groupoids|smoot
 
 * {#ChristensenWu13} [[J. Daniel Christensen|J. Daniel Christensen]],  [[Enxin Wu]], Def. 4.3 of: _The homotopy theory of diffeological spaces, I. Fibrant and cofibrant objects_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
 
-Application of the theorem to a (orbi-)smooth Oka principle and to the classification of [[equivariant bundles|equivariant]] [[principal bundles]]:
+Application of the theorem to a(n) (orbi-)smooth Oka principle (and coinage of that term) and to the classification of [[equivariant bundles|equivariant]] [[principal bundles]]:
 
-* {#SS21} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* $[$[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)$]$
+* {#SS21} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]*, Cambridge University Press (2025)  &lbrack;[arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
 
 
