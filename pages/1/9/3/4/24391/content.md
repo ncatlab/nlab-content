@@ -347,8 +347,9 @@ Proposition 1.2 in
 
 is particularly useful for viewing superconvex spaces as positively convex spaces which are somewhat easier to work with because the condition $\sum_{i \in \mathbb{N}}p_i=1$  is replaced by the inequality $\le 1$.
 
-Superconvex spaces can be used to obtain a factorization of the [[Giry monad]] yielding $G$-algebras as shown in the article
-* {#Sturtz25} [[Kirk Sturtz]], _A factorization of the Giry monad on standard Borel spaces using $[0,\infty]$-generalized points_ $[$[arXiv:2409:14861](https://arxiv.org/abs/2409.14861)$]$
+Superconvex spaces play a role in obtaining a factorization of the [[Giry monad]] yielding $G$-algebras as shown in the article
+
+* [[Kirk Sturtz]], _Deriving the Giry algebras on standard Borel spaces using $\mathbb{R}_{\infty}$-generalized points_,  $[$[arXiv:2409.14861](https://arxiv.org/abs/2409.14861)$]$
 
 For purposes of constructing models of complex systems using superconvex spaces the construction given in Example 6.1 of the following article applies equally well to superconvex spaces.
 
