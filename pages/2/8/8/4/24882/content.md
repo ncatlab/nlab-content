@@ -32,7 +32,7 @@ Let $C$ be a category with an [[initial object]] $0$ and [[transfinite compositi
 
 $$0 \overset{i}{\to} F(0) \overset{F(i)}{\to} \ldots \to F^{(n)}(0) \overset{F^{(n)}(i)}{\to} F^{(n+1)}(0) \to \ldots$$ 
 
-carries a structure of initial $F$-algebra. 
+carries the structure of an initial $F$-algebra. 
 =-- 
 
 +-- {: .proof}
