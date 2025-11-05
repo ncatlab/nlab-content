@@ -1,4 +1,4 @@
-**Max Karoubi** is a French topologist, with main interests in algebraic and topological K-theory, cyclic (co)homology and [[noncommutative geometry]] &#224; l&#224; Connes. He introduced the noncommutative differential forms to generalize the de Rham complex to [[noncommutative geometry]].
+**Max Karoubi** is a French topologist, with main interests in [[algebraic K-theory|algebraic]] and [[topological K-theory]], [[cyclic homology|cyclic (co)homology]] and [[noncommutative geometry]] &#224; l&#224; Connes. He introduced the noncommutative differential forms to generalize the [[de Rham complex]] to [[noncommutative geometry]].
 
 * [personal page](http://people.math.jussieu.fr/~karoubi/); 
 
@@ -17,7 +17,7 @@
 
 Generalization of the [[Atiyah-Jänich theorem]] to any degree and to [[KO-theory]]:
 
-* [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
+* {#Karoubi1970} [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218), Engl. transl: [[Karoubi-EspacesClassifiants-English-251105.pdf:file]]&rbrack;
 
 
 Introducing [[Hermitian K-theory]]:
