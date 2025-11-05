@@ -314,6 +314,9 @@ See also:
 
 * Fridrik Freyr Gautason, Jesse van Muiden: *Localisation of the M2-brane* &lbrack;[arXiv:2503.16597](https://arxiv.org/abs/2503.16597)&rbrack;
 
+* Alex Buchel, Ruben Monten: *Near-extremal membranes in M-theory* &lbrack;[arXiv:2511.01974](https://arxiv.org/abs/2511.01974)&rbrack;
+
+
 
 
 
