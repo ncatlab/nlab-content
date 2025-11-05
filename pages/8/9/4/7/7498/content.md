@@ -27,7 +27,7 @@ For $G$ a [[topological group]] [[action|acting]] on a [[topological space]] $X$
 
 ## Definition
 
-For $X$ a [[topological space]], $G$ a [[topological group]] and $\rho\colon G \times X \to X$ a [[continuous map|continuous]] $G$-[[action]] (a [[topological G-space]]), the **Borel construction** of $\rho$ is [[generalized the|the]] [[topological space]] $X \times_G E G$, hence [[quotient]] of the [[product]] of $X$ with the total space of [[generalized the|the]] $G$-[[universal principal bundle]] $E G$ by the [[diagonal]] [[action]] of $G$ on both.
+For $X$ a [[topological space]], $G$ a [[topological group]] and $\rho\colon G \times X \to X$ a [[continuous map|continuous]] $G$-[[action]] (a [[topological G-space]]), the **Borel construction** of $\rho$ is [[generalized the|the]] [[topological space]] $X \times_G E G$, hence [[quotient]] of the [[product]] of $X$ with the total space of [[generalized the|the]] $G$-[[universal principal bundle]] $E G$ by the [[diagonal action]] of $G$ on both.
 
 Analogously, for $\mathcal{G}$ a [[simplicial group]] and $\mathcal{G} \times X \xrightarrow{\;\;} X$ a [[simplicial group action]], its Borel construction is the [[quotient]]
 
