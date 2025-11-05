@@ -22,7 +22,7 @@ The most studied examples include [[Brownian motion]], [[Ornstein-Uhlenbeck proc
 
 ## Definition
 
-We define discrete time stochastic processes following Lawvere 1962 unpublished document.  Let $N$ be the category with countably many objects and no non-identify morphisms, and let $\mathbf{Meas}_G$ denote the Kleisi category of the Giry monad.  Let $\mathbf{Meas}_G^{N}$ denote the category whose objects $\mathbf{\Omega}$ are sequences $\Omega_0, \Omega_1, \Omega_2,\ldots$ of objects in $\mathbf{Meas}_G$. (The objects in $\mathbf{Meas}_G$ are measurable spaces.)  We define an endofunctor $\mathbf{Meas}_G^{N} \xrightarrow{\mathbf{\Phi}} \mathbf{Meas}_G^{N}$ by 
+We define discrete time stochastic processes following Lawvere 1962 unpublished document.  Let $N$ be the category with countably many objects, $\{1,2,...\}$, and no non-identify morphisms, and let $\mathbf{Meas}_G$ denote the Kleisi category of the Giry monad.  Let $\mathbf{Meas}_G^{N}$ denote the category whose objects $\mathbf{\Omega}$ are sequences $\Omega_1, \Omega_2,\ldots$ of objects in $\mathbf{Meas}_G$ which are measurable spaces.  We define an endofunctor $\mathbf{Meas}_G^{N} \xrightarrow{\mathbf{\Phi}} \mathbf{Meas}_G^{N}$ by 
 $
 \mathbf{\Phi}(\mathbf{\Omega})= \{ \prod_{k \lt n} \Omega_k \}_{k \in N}  
 $
@@ -45,7 +45,7 @@ where $\mathbf{id}$ is the identity functor on $\mathbf{Meas}_G^N$.  Given any t
    \draw[->,right] (POpn) to node {$Q'_n$} (Opn);
 \end{tikzpicture}
 
-commutes. Since there is an obvious notion of composition for such maps,all stochastic processes and all such maps of such determine the category of discrete time stochastic processes $\mathbf{dStoch}$.  (Warning: Some authors have used the notation $\mathbf{Stoch}$ ([[Stoch]]) to mean the Kleisi category of the Giry monad, traditionally denoted by $\mathbf{Meas}_G$ or $\mathcal{K}(G)$. The two categories $\mathbf{Stoch}$ and $\mathbf{dStoch}$ are only related in the loose sense that they both employ the Kleisi category of the Giry monad in their definition.)
+commutes. Since there is an obvious notion of composition for such maps,all stochastic processes and all such maps of such determine the category of discrete time stochastic processes $\mathbf{dStoch}$.  (Warning: Some authors have used the notation $\mathbf{Stoch}$ ([[Stoch]]) to mean the Kleisi category of the Giry monad, traditionally denoted by $\mathbf{Meas}_G$ or $\mathcal{K}(G)$, which can also be interpreted (for modeling) as the category of Markov stochastic processes.)
 
 In the preceding diagram the morphisms $Q_n$, which are Kleisi morphisms
 $
@@ -59,16 +59,45 @@ A __Markov dynamic law__ $Q_n$ is a dynamic law depending only on the current st
   \node  (On)  at  (6,0)  {$\Omega_n$};
   \node  (On1) at  (3,-1.5)  {$\Omega_{n-1}$};
   \draw[->,above] (POn) to node {$Q_n$} (On);
-  \draw[->,left]  (POn) to node {$\prod_{n-1}$} (On1);
+  \draw[->,left]  (POn) to node {$\pi_{n-1}$} (On1);
   \draw[->,right] (On1) to node [xshift=3pt,yshift=-3pt]{$\tilde{Q}_n$} (On); 
 \end{tikzpicture}
-where $\prod_{n-1}$ is the canonical coordinate projection (measurable) function which specifies the deterministic Kleisi morphism (with the same notation).  Thus a Markov dynamic law only depends upon the current state and not its history.
+where $\pi_{n-1}$ is the canonical coordinate projection (measurable) function which specifies the deterministic Kleisi morphism (with the same notation).  Thus a Markov dynamic law only depends upon the current state and not its history.
 
 If $\mathbf{Q}$ is a stochastic process such that the dynamic law at every stage is a Markov dynamic law we say the stochastic process $\mathbf{Q}$ is a __Markov stochastic process__.  In  the special case where $\mathbf{\Omega}$ defines a constant sequence, $\Omega_n = \Omega$ for all $n$,   then a Markov stochastic process on $\mathbf{\Omega}$ is called a [[Markov chain]].
 
-[Ed. Note. Add the definition of an __indivisible stochastic process__].
+An even more elementary way of defining a stochastic process is by taking $\Omega_n = \Omega$, so each $\Omega_n$ is a copy of $\Omega$, and for all $n$ defining the dynamic law $Q_n$ such that it factorizes as a composite of the projection map (onto the first coordinate) $\pi_1$ and a Kleisi morphism $\tilde{Q}_n$, 
+\begin{tikzpicture}
+  \node  (POn) at  (0,0)  {$\prod_{k < n} \Omega_k$};
+  \node  (On)  at  (6,0)  {$\Omega_n$};
+  \node  (On1) at  (3,-1.5)  {$\Omega_{1}$};
+  \draw[->,above] (POn) to node {$Q_n$} (On);
+  \draw[->,left]  (POn) to node {$\pi_1$} (On1);
+  \draw[->,right] (On1) to node [xshift=3pt,yshift=-3pt]{$\tilde{Q}_n$} (On); 
+\end{tikzpicture}
 
-## Example
+We say a stochastic process $\mathbf{Q}$ is __divisible__ if and only if for all stages $m$ and $n$, with $m \le n$ there exists a Kleisi morphism $\tilde{Q}_{m,n}$ such that the triangle on the right hand side of the Kleisi-diagram
+\begin{tikzpicture}
+  \node  (POm) at  (0,0)  {$\prod_{k < m} \Omega_k$};
+  \node  (Om)  at  (6,0)  {$\Omega_m$};
+  \node  (Om1) at  (3,-1.5)  {$\Omega_{1}$};
+  \draw[->,above] (POm) to node {$Q_m$} (Om);
+  \draw[->,left]  (POm) to node {$\pi_{1}$} (Om1);
+  \draw[->,right] (Om1) to node [xshift=3pt,yshift=-3pt]{$\tilde{Q}_m$} (Om); 
+
+  \node  (Pon) at (0, -3)  {$\prod_{k < n} \Omega_k$};
+  \node  (On)  at (6, -3)  {$\Omega_n$}; 
+  \draw[->, below] (Pon) to node {$Q_n$} (On);
+  \draw[->, above] (Pon) to node {$\pi_1$} (Om1);
+  \draw[->, right] (Om1) to node {$\tilde{Q}_n$} (On);
+
+  \draw[->, right, dashed] (Om) to node {$\tilde{Q}_{m,n}$} (On);
+\end{tikzpicture}
+commutes, i.e., $\tilde{Q}_n = \tilde{Q}_{m,n} \circ \tilde{Q}_m$. (We have abused notation by using the notation $\pi_1$ to denote the two projection maps onto the first coordinate despite the domains being distinct when $m \lt n$.)
+
+An __indivisible stochastic process__ is a stochastic process which is not divisible.
+
+## Examples
 
  A 2-stage stochastic process $\mathbf{Q}$ with  measurements $\Omega_i \xrightarrow{f_i} \mathbb{R}$, modeled within the category of algebras of the [[Giry monad]] $(G, \eta, \mu)$ so that the process $\mathbf{Q}$ can be characterized in terms of the expected values of the measurements, is given by
 
@@ -103,7 +132,7 @@ The operator $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ is defined at each
 Note that measurements $\Omega \xrightarrow{f} X$ can be taken over any object $X$ which lies in the category of algebras of the monad $G$. In the case where $X$ is a [[standard Borel space]] the $G$-algebra $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$, which is a morphism in the category of algebras, is defined as: $\mathbb{E}_{P}(id_X)$ is the unique element in $X$ such that for all affine maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, the property
 \begin{equation} m(\mathbb{E}_P(id_X)) = \int_X m \, dP
 \end{equation}
-holds. (Every algebra $X$ necessarily possesses a convex space structure. The case $X=\mathbb{R}_{\infty}$ is just a special case which trivially satisfies the above property since the affine maps $\mathbb{R}_{\infty} \xrightarrow{m} \mathbb{R}_{\infty}$ are of the form $m(r) =\lambda r + t$ (scale + translate) and hence $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ simplifies to the standard expectation operator.  When $X$ is a discrete standard space the operator $\mathbb{E}_{\bullet}(id_X)$ is $\mathbf{not}$ the standard expectation operator with $X=n=\{0,1,2,\ldots\}$ ''embedded'' into $\mathbb{R}_{\infty}$. More generally, if $X$ is an algebra of the $G$ monad whose convex space structure is either of discrete type or of mixed type then the expectation operator $\mathbb{E}_{\bullet}(id_X)$ is not the standard expectation operator.  Only in the special case where the convex space structure of $X$ is of geometric type does the expectation operator $\mathbb{E}_{\bullet}(id_X)$ coincide with the usual interpretation.)
+holds. (Every algebra $X$ necessarily possesses a convex space structure. The case $X=\mathbb{R}_{\infty}$ is just a special case which trivially satisfies the above property since the affine maps $\mathbb{R}_{\infty} \xrightarrow{m} \mathbb{R}_{\infty}$ are of the form $m(r) =\lambda r + t$ (scale + translate) and hence $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ simplifies to the standard expectation operator.)
  
 ## References
 
@@ -113,6 +142,8 @@ holds. (Every algebra $X$ necessarily possesses a convex space structure. The ca
 * [[William Lawvere]], *The Category of Probabilistic Mappings With Applications to Stochastic Processes, Statistics, and Pattern Recognition*, including abstract and commentary added by Lawvere in 2020, [Lawvere Archive](https://lawverearchives.com) (2025) &lbrack;[pdf](https://lawverearchives.com/wp-content/uploads/2025/07/1962.probmap.pdf)&rbrack;
 
 * Xiao-qing Meng, *Categories of convex sets and of metric spaces with applications to stochastic programming and related areas*, PhD thesis ([[Meng.djvu|djvu:file]])
+
+* [[Jacob Barandes]], *Quantum Systems as Indivisible Stochastic Processes* &lbrack;[arXiv:2507.21192](https://arxiv.org/abs/2507.21192)&rbrack;
 
 With an eye towards [[quantum noise]];
 
