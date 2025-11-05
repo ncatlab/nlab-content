@@ -23,6 +23,7 @@
 \tableofcontents
 
 
+
 ## Idea 
 
 The *Atiyah-Jänich theorem* ([Jänich 1965](#Jänich65), [Atiyah 1967 Thm A1](#Atiyah67)) states that the space of [[Fredholm operators]] $Fred(\mathscr{H})$ on a (countably infinite-dimensional [[separable Hilbert space|separable]], [[complex vector space|complex]]) [[Hilbert space]] $\mathscr{H}$ is a [[classifying space]] for [[topological K-theory]] $K(-)$:
@@ -58,18 +59,26 @@ The original Atiyah-Jänich theorem theorem concerns complex [[topological K-the
 
 * [Statement for $K \mathrm{U}^0$](#StatementForKU0).
 
-Generalization to [[KO-theory]] and [[KSp-theory]] in degree 0 is farily straightforward by just replacing the [[ground field]] of [[complex numbers]] by the [[real numbers]] or [[quaternions]], respectively, see:
+Generalization to [[KO-theory]] and [[KSp-theory]] in degree 0 is fairly straightforward by just replacing the [[ground field]] of [[complex numbers]] by the [[real numbers]] or [[quaternions]], respectively, see:
 
-* [Statement for $K \mathrm{O}^0$ and $K Sp^0$](#StatementForKO0andKSp0).
+* [Statement for $K \mathrm{O}^0$ and $K \mathrm{O}^4 = K Sp^0$](#StatementForKO0andKSp0).
 
-Generalization to any degree over any ground field is due to [Atiyah & Singer 1969](#AtiyahSinger1969), [Karoubi 1970](#Karoubi1970), see:
+Generalization to any degree over any ground field is due to [Atiyah & Singer 1969](#AtiyahSinger1969), [Karoubi 1970](#Karoubi1970), see below:
 
 * [Statement for $KU^1$](#StatementForKU1).
+
+* [Statement for $K \mathrm{O}^{\pm 2}$](#StatementForKO2andKO6)
+
+* [Statement for $K \mathrm{O}^{\pm 1}$](#StatementForKO1andKO7)
+
+* [Statement for $K \mathrm{O}^{\pm 3}$](#StatementForKO3andKO5)
+
+In stating these, we mostly review results from [Karoubi 1970 §I](#[Karoubi1970](#Karoubi1970), but we reformulate these (in a straightforward though consequential manner) to bring out (following [Sati & Schreiber 2023 §2.2](#SatiSchreiber2023)) how they exhibit the *10-fold way* of [[quantum symmetries]] as known from the [[K-theory classification of topological phases of matter]].
+
 
 
 ### For $K \mathrm{U}^0$
  {#StatementForKU0}
-
 
 \begin{proposition}
 \label{KernelBundles}
@@ -134,6 +143,61 @@ where $f'$ is any representative of the class $[f]$ according to Prop. \ref{Cons
 \end{remark}
 
 
+\begin{remark}
+\label{TheSpaceOfGradedFredholmOperators}
+  It turns out to be useful (such as for the discussion of [[twisted equivariant K-theory]] and of the [[K-theory classification of topological phases of matter]]) to reformulate, here and in the following, the space of Fredholm operators in the following more structured way (due to [Atiyah & Segal 2004 Def. 3.2](Fredholm+operator#AtiyahSegal04), following [Atiyah & Singer 1969 p 7](#AtiyahSinger69), see [here](Fredholm+operator#FredZero) at *[[Fredholm operator]]*):
+
+  Given any [[cyclic group of order 2|$C_2$]]-[[graded vector space|graded]] infinite-dimensional ([[separable Hilbert space|separable]] [[complex vector space|complex]]) [[Hilbert space]] $\mathscr{H} \simeq \mathscr{H}_+ \oplus \mathscr{H}_i$, 
+write $Fred^{(0)}(\mathscr{H})$ for the set of [[bounded linear operators]] $F \,\colon\, \mathscr{H} \to \mathscr{H}$ which are
+
+1. [[self-adjoint operator|self-adjoint]]: $F^\dagger = F$
+
+1. odd-graded: $F(\mathscr{H}_{\pm}) \subset \mathscr{H}_{\mp}$,
+
+1. idempotent up to [[compact operators]]: $F^2 - Id \,\in\, \mathcal{K}(\mathscr{H})$,
+
+equipped with the [[topological space|topology]] of the [[topological subspace]], via
+
+$$
+  F \,\mapsto\, \big(F ,\, F^2 - id\big)
+  \,,
+$$
+
+of the [[product space]] of the spaces of 
+
+1. [[bounded linear operators]], $\mathcal{B}$, equipped with the [[compact-open topology]] and 
+
+1. [[compact operators]], $\mathcal{K}$, equipped with the [[norm topology]]:
+
+\begin{imagefromfile}
+    "file_name": "Fred0.png",
+    "width": 800,
+    "unit": "px",
+    "margin": {
+        "top": -30,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+This definition implies that these graded Fredholm operators are of the form
+
+\[
+  \label{GradedFredholmOperatorInComponents}
+  F 
+  = 
+  \left(
+  \begin{matrix}
+    0 & f^\dagger
+    \\
+    f & 0 
+  \end{matrix}
+  \right)
+\]
+
+for $f$ an ordinary [[Fredholm operator]] and $f^\dagger$ fixed to be its [[adjoint operator]] (also serving as [its parametrix](Fredholm+operator#ViaParametrices)). Therefore in itself, $Fred^{(0)}$ an equivalent space of Fredholm operators. But the way it is presented by graded operators makes manifest that there is "charge conjugation" [[quantum symmetry]] acting on this space, namely by swapping the two homogeneously graded Hilbert space summands. This is useful in the following for neatly expressing extra conditions on Fredholm operators.
+\end{remark}
 
 
 
@@ -143,41 +207,42 @@ where $f'$ is any representative of the class $[f]$ according to Prop. \ref{Cons
  {#StatementForKU1}
 
 \begin{proposition}
-  The space of [[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
-  $$
-    Fred^{sa}
+  The space of [[complex numbers|complex]] [[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
+  \[
+    \label{SpaceOfSelfAdjointFredholmOperators}
+    Fred^{sa}(\mathscr{H})
     \subset
     \Big\{
-      F \in Fred 
+      f \in Fred 
       \;\Big\vert\;
-      F^\dagger = F
+      f^\dagger = f
     \Big\}
-  $$
+  \]
   has three [[connected components]]
   $$
-    Fred^{sa}
+    Fred^{sa}(\mathscr{H})
     \;\simeq\;
-    Fred_+^{sa}
+    Fred_+^{sa}(\mathscr{H})
     \,\sqcup\,
-    Fred_-^{sa}
+    Fred_-^{sa}(\mathscr{H})
     \,\sqcup\,
-    Fred_\ast^{sa}
+    Fred_\ast^{sa}(\mathscr{H})
     \mathrlap{\,,}
   $$
   corresponding to those Fredholm operators whose [[essential spectrum]] (which is [[real number|real]], by [[self-adjoint operator|self-adjointness]]) is, respectively:
 
-  1. $Fred_+^{sa}$: purely [[positive number|positive]],
+  1. $Fred_+^{sa}(\mathscr{H})$: purely [[positive number|positive]],
 
-  1. $Fred_-^{sa}$: purely [[negative number|negative]],
+  1. $Fred_-^{sa}(\mathscr{H})$: purely [[negative number|negative]],
 
-  1. $Fred_{\ast}^{sa}$: both, hence [[inhabited set|nonempty]] both above and below [[zero]].
+  1. $Fred_{\ast}^{sa}(\mathscr{H})$: both, hence [[inhabited set|nonempty]] both above and below [[zero]].
 
 Moreover, 
 
 1. the first two components are [[contractible topological space|contractible]]
 
    $$
-     Fred^{sa}_{\pm} \simeq \ast
+     Fred^{sa}_{\pm}(\mathscr{H}) \simeq \ast
      \,,
    $$
 
@@ -193,9 +258,27 @@ Moreover,
 Up to some straightforward re-identifications (for instance one may equivalently use *skew* self-adjoint operators whose spectrum is then purely [[imaginary number|imaginary]]), this is the statement of [Atiyah & Singer 1969 Thm. B](#AtiyahSinger1969) and [Karoubi 1970 Lem 1.4 & Prop. 1.5](#Karoubi1970).
 
 
+\begin{remark}
+\label{SelfAdjointViaCommutingWithP}
+  In terms of the graded Fredholm operators $F$ (eq:GradedFredholmOperatorInComponents) from Rem. \ref{TheSpaceOfGradedFredholmOperators}, the self-adjoint Fredholm operators (eq:SpaceOfSelfAdjointFredholmOperators) are equivalently those that commute with the operator
+\[
+  \label{TheChargeSwappingOperator}
+  \widehat{P}
+  \coloneqq 
+  \left(
+    \begin{matrix}
+       0 & id
+       \\
+       id & 0
+    \end{matrix}
+  \right)
+  \,.
+\]
+\end{remark}
 
 
-### For $K \mathrm{O}^0$ and $K Sp^0$
+
+### For $K \mathrm{O}^0$ and $K \mathrm{O}^4 = K Sp^0$
   {#StatementForKO0andKSp0}
 
 The directly analogous discussion as for complex K-theory $KU^0$ in degree 0 ([above](#StatementForKU0)) applies when replacing the underlying complex Hilbert space $\mathscr{H}$ with a [[real vector space|real]] or [[quaternionic vector space|quaternionic]] [[Hilbert space]], where it yields real K-theory ([[KO-theory]]) and [[quaternionic K-theory]] ([[KSp-theory]]) in degree=0, respectively.
@@ -272,7 +355,7 @@ is [[homotopy equivalence|homotopy equivalent]] to the [[classifying space]]/[[d
 
 
 
-### For $K \mathrm{O}^2$ and $K \mathrm{O}^6$
+### For $K \mathrm{O}^{\pm 2}$
  {#StatementForKO2andKO6}
 
 
@@ -563,7 +646,7 @@ On the complex Hilbert space $\mathscr{H}$ consider a [[real structure|real]]/[[
 
 3. $\widehat{T}^\dagger = \pm \widehat{T}$ (cf. Lem. \ref{SelfAdjointAntiLinearOperator}).
 
-On the $\mathbb{Z}/2$-graded Hilbert space $\mathscr{H} \oplus \mathscr{H}$ consider 
+On the $\mathbb{Z}/2$-graded Hilbert space $\mathscr{H} \oplus \mathscr{H}$ (cf. Rem. \ref{TheSpaceOfGradedFredholmOperators}) consider 
 
 $$
   \widehat{C}
@@ -687,11 +770,198 @@ and hence the claim follows by Prop. \ref{KaroubiModelForKO2}.
 
 
 
-### For $K \mathrm{O}^{\pm 1}$, $K \mathrm{O}^{\pm 3}$
+### For $K \mathrm{O}^{\pm 1}$
+ {#StatementForKO1andKO7}
+
+
+\begin{proposition}
+  The space of [[real numbers|real]] [[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
+  \[
+    \label{SpaceOfSelfAdjointFredholmOperators}
+    Fred^{sa}(\mathscr{H}_{\mathbb{R}})
+    \subset
+    \Big\{
+      f \in Fred(\mathscr{H}_{\mathbb{R}}) 
+      \;\Big\vert\;
+      f^\dagger = f
+    \Big\}
+  \]
+  has three [[connected components]]
+  $$
+    Fred^{sa}
+    \;\simeq\;
+    Fred_+^{sa}(\mathscr{H}_{\mathbb{R}})
+    \,\sqcup\,
+    Fred_-^{sa}(\mathscr{H}_{\mathbb{R}})
+    \,\sqcup\,
+    Fred_\ast^{sa}(\mathscr{H}_{\mathbb{R}})
+    \mathrlap{\,,}
+  $$
+  corresponding to those Fredholm operators whose [[essential spectrum]] is, respectively:
+
+  1. $Fred_+^{sa}(\mathscr{H}_{\mathbb{R}})$: purely [[positive number|positive]],
+
+  1. $Fred_-^{sa}(\mathscr{H}_{\mathbb{R}})$: purely [[negative number|negative]],
+
+  1. $Fred_{\ast}^{sa}(\mathscr{H}_{\mathbb{R}})$: both, hence [[inhabited set|nonempty]] both above and below [[zero]].
+
+Moreover, 
+
+1. the first two components are [[contractible topological space|contractible]]
+
+   $$
+     Fred^{sa}_{\pm}(\mathscr{H}_{\mathbb{R}}) \simeq \ast
+     \,,
+   $$
+
+1. the last component is [[homotopy equivalence|homotoppy equivalent]] to the [[stable orthogonal group]], hence to the [[classifying space]] for [[real numbers|real]] [[topological K-theory]] ([[KO-theory]]) in degree=1:
+
+   $$
+     Fred^{sa}_{\ast}(\mathscr{H}_{\mathbb{R}}) 
+      \;\simeq\; 
+     O 
+      \;\simeq\; 
+     KO_1
+     \,.
+   $$
+
+\end{proposition}
+([Atiyah & Singer 1969 Cor. to Thm. A(k)](#AtiyahSinger1969), [Karoubi 1970 Lem 1.4, Dem. 1.4, Prop. 1.5](#Karoubi1970))
+
+\begin{proposition}
+  The space of [[real numbers|real]] anti[[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
+  \[
+    \label{SpaceOfSelfAdjointFredholmOperators}
+    Fred^{sa}(\mathscr{H}_{\mathbb{R}})
+    \subset
+    \Big\{
+      f \in Fred 
+      \;\Big\vert\;
+      f^\dagger = -f
+    \Big\}
+  \]
+  is a classifying space for $K\mathrm{O}^{-1} \simeq K\mathrm{O}^7$.
+\end{proposition}
+([Atiyah & Singer 1969 Theorem A](#AtiyahSinger1969), [Karoubi 1970 Lem 1.6, Cor. 1.7](#Karoubi1970))
+
+\begin{remark}
+  In terms of graded Fredholm operators $F$ (Rem. \ref{TheSpaceOfGradedFredholmOperators}), these real (skew) self-adjoint operators $f$ are equivalently those $F$ which commute both with a [[real structure]] [[anti-linear map]] $\widehat{T}$, $\widehat{T}^2 = +1$, and with the operator $\widehat{P}$ (eq:TheChargeSwappingOperator).
+\end{remark}
+
+
+
+### For $K \mathrm{O}^{\pm 3}$
+ {#StatementForKO3andKO5}
+
+\begin{proposition}
+  The space of [[quaternions|quaternionic]] [[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
+  \[
+    \label{SpaceOfSelfAdjointFredholmOperators}
+    Fred^{sa}(\mathscr{H}_{\mathbb{H}})
+    \subset
+    \Big\{
+      f \in Fred(\mathscr{H}_{\mathbb{H}}) 
+      \;\Big\vert\;
+      f^\dagger = f
+    \Big\}
+  \]
+  has three [[connected components]]
+  $$
+    Fred^{sa}(\mathscr{H}_{\mathbb{H}})
+    \;\simeq\;
+    Fred_+^{sa}(\mathscr{H}_{\mathbb{H}})
+    \,\sqcup\,
+    Fred_-^{sa}(\mathscr{H}_{\mathbb{H}})
+    \,\sqcup\,
+    Fred_\ast^{sa}(\mathscr{H}_{\mathbb{H}})
+    \mathrlap{\,,}
+  $$
+  corresponding to those Fredholm operators whose [[essential spectrum]] (which is [[real numbers|real]], due to self-adjointness) is, respectively:
+
+  1. $Fred_+^{sa}(\mathscr{H}_{\mathbb{H}})$: purely [[positive number|positive]],
+
+  1. $Fred_-^{sa}(\mathscr{H}_{\mathbb{H}})$: purely [[negative number|negative]],
+
+  1. $Fred_{\ast}^{sa}(\mathscr{H}_{\mathbb{H}})$: both, hence [[inhabited set|nonempty]] both above and below [[zero]].
+
+Moreover, 
+
+1. the first two components are [[contractible topological space|contractible]]
+
+   $$
+     Fred^{sa}_{\pm}(\mathscr{H}_{\mathbb{H}}) \simeq \ast
+     \,,
+   $$
+
+1. the last component is [[homotopy equivalence|homotoppy equivalent]] to the stable [[quaternionic unitary group]], hence to the [[classifying space]] for [[quaternionic K-theory]] in degree 1, hence of [[real number|real]] [[topological K-theory]] ([[KO-theory]]) in degree=5:
+
+   $$
+     Fred^{sa}_{\ast}(\mathscr{H}_{\mathbb{H}}) 
+      \;\simeq\; 
+     KSp_1
+      \;\simeq\;
+     KO_5
+     \,.
+   $$
+
+\end{proposition}
+([Atiyah & Singer 1969 Thm. A(k)](#AtiyahSinger1969), [Karoubi 1970 Prop. 1.13](#Karoubi1970))
+
+\begin{proposition}
+  The space of [[quaternion|quaternionic]] anti-[[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
+  \[
+    \label{SpaceOfSelfAdjointFredholmOperators}
+    Fred^{sa}(\mathscr{H}_{\mathbb{H}})
+    \subset
+    \Big\{
+      f \in Fred(\mathscr{H}_{\mathbb{H}}) 
+      \;\Big\vert\;
+      f^\dagger = -f
+    \Big\}
+  \]
+  is a classifying space for $K\mathrm{O}^{3}$.
+\end{proposition}
+([Atiyah & Singer 1969 Theorem A(k)](#AtiyahSinger1969), [Karoubi 1970 Prop. 1.14](#Karoubi1970))
+
+\begin{remark}
+  In terms of graded Fredholm operators $F$ (Rem. \ref{TheSpaceOfGradedFredholmOperators}), these quaternionic (skew) self-adjoint operators $f$ are equivalently those $F$ which commute both with a [[quaternionic structure]] [[anti-linear map]] $\widehat{T}$, $\widehat{T}^2 = -1$, and with the operator $\widehat{P}$ (eq:TheChargeSwappingOperator).
+\end{remark}
+
+
+
+### Summary
+
+In summary, the classifying spaces for topological K-theory in its various degrees are those of graded complex Fredholm operators (Rem. \ref{TheSpaceOfGradedFredholmOperators}) that in addition commute with some operators from this list:
+
+1. $\widehat{P}$ an odd-graded complex [[linear operator]] with $P^2 = \pm id$ (enforcing self-adjointness),
+
+1. $\widehat{T}$ an even complex [[anti-linear operator]] with $\widehat{T}^2 = \pm id$ (a [[real structure]] or [[quaternionic structure]], respectively),
+
+1. $\widehat{C}$ an odd complex [[anti-linear operator]] with $\widehat{C}^2 = \pm id$,
+
+according to the following table, where 
+$$
+  G 
+   \;\subset\;
+  \underset{
+    \{\mathrm{e}, T\}
+  }{
+    \underbrace{
+      \mathbb{Z}^{t}_2
+    }
+  }
+  \times
+  \underset{
+    \{\mathrm{e}, C\}
+  }{
+    \underbrace{
+      \mathbb{Z}^{c}_2
+    }
+  }
+$$
+is the [[subgroup]] of the [[Klein 4-group]] which has generators $T$, $C$ (with product $P \coloneqq T C$) depending on whether commutation with $\widehat{T}$, $\widehat{C}$ or $\widehat{P} = \widehat{T}\widehat{C}$ appears as a constraint, respectively:
 
 (...)
-
-
 
 
 \linebreak
@@ -721,7 +991,7 @@ Generalization to general degree and to [[KO-theory]]/[[KSp-theory]]:
 
 * {#AtiyahSinger1969} [[Michael F. Atiyah]], [[Isadore M. Singer]]: *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
 
-* {#Karoubi1970} [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218)&rbrack;
+* {#Karoubi1970} [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218), Engl. transl: [[Karoubi-EspacesClassifiants-English-251105.pdf:file]]&rbrack;
 
 
 In monographs:
@@ -746,6 +1016,9 @@ Further development:
 
 * Kamran Sharifi: *Atiyah-Jänich theorem for  $\sigma$-$C^\ast$-algebras* &lbrack;[arXiv:1612.03287](https://arxiv.org/abs/1612.03287)&rbrack;
 
+Formulation in the context of the 10-fold way of [[quantum symmetries]] and the [[K-theory classification of topological phases of matter]]:
+
+* {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]], §2.2 in: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
 
 
 [[!redirects Atiyah-Janich theorem]]
