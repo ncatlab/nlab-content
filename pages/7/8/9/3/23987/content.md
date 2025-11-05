@@ -4383,6 +4383,20 @@ Neumann algebras**
 
 \linebreak
 
+Nov 2025
+
+* {#KubotaNov2025} 5 Nov 2025
+
+  [[Yosuke Kubota]] (Kyoto University):
+
+  **Stable homotopy theory of invertible gapped quantum spin systems**
+
+  cf.: [arXiv:2503.12618](https://arxiv.org/abs/2503.12618)
+
+  > In [his 2013 talk](short-range+entanglement#Kitaev13), [[Alexei Kitaev|A. Kitaev]] proposed a [[conjecture]] stating that the [[topological space|space]] $IP_d$  of [[invertible field theory|invertible]] [[energy gap|gapped]] [[Hamiltonians]] in [[dimension of a manifold|dimension]] $d$ forms an [[Omega-spectrum]]. This conjecture has potential applications to the study of [[symmetry protected topological phase|symmetry-protected topological (SPT) phases of matter]].  In this talk, I present a mathematically rigorous formulation of the space $IP_d$ that  justifies Kitaev’s argument and shows that it indeed forms an [[Omega-spectrum]].
+
+\linebreak
+
 
 
 \linebreak  
