@@ -675,7 +675,7 @@ The special case where $A$ in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInf
 
 * [[Ib Madsen]], [[Michael Weiss]], appendix A.1 of: *The stable moduli space of Riemann surfaces: Mumford’s conjecture*, Annals of Mathematics **165** 3 (2007) 843–941 &lbrack;[arXiv:math/0212321](https://arxiv.org/abs/math/0212321), [doi:10.4007/annals.2007.165.843](https://doi.org/http://doi.org/10.4007/annals.2007.165.843)&rbrack;
 
-while the "stable" situation, where $A$ is taken to be a [[spectrum object]] in [[smooth infinity-groupoid|smooth $\infty$-groupoids]] was previously considered in:
+while the "stable" situation, where $A$ is taken to be a [[spectrum object]] in [[smooth infinity-groupoid|smooth $\infty$-groupoids]], was previously considered in:
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Lem. 7.5 of: _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures **11** 1 (2016) &lbrack;[arXiv:1311.3188](http://arxiv.org/abs/1311.3188), [doi:10.1007/s40062-014-0092-5](https://doi.org/10.1007/s40062-014-0092-5)&rbrack;
 
