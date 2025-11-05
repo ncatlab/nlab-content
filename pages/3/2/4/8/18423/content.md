@@ -683,13 +683,13 @@ The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is
 
 * {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces*, J. Homotopy Relat. Struct. (2022) &lbrack;[arXiv:2007.06039](https://arxiv.org/abs/2007.06039), [doi:10.1007/s40062-022-00318-7](https://doi.org/10.1007/s40062-022-00318-7)&rbrack;
 
-An alternative proof of Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} is also claimed as
+An alternative proof of Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} is also claimed in:
 
 * {#Clough21} [[Adrian Clough]], Theorem B of: *A Convenient Category for Geometric Topology*, PhD thesis, UT Austin (2021) &lbrack;[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/114981/CLOUGH-DISSERTATION-2021.pdf), [[Clough-ConvenientCategory.pdf:file]]&rbrack;
 
-   *The homotopy theory of differentiable sheaves* &lbrack;[arXiv:2309.01757](https://arxiv.org/abs/2309.01757)&rbrack;
+* [[Adrian Clough]]: *The homotopy theory of differentiable sheaves* &lbrack;[arXiv:2309.01757](https://arxiv.org/abs/2309.01757)&rbrack;
 
-* [[Adrian Clough]]: *The smooth Oka principle*, talk at [[CQTS]] (Oct 2022) &lbrack;[pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)&rbrack;
+* [[Adrian Clough]]: *The smooth Oka principle*, talk at *[[CQTS]]* (Oct 2022) &lbrack;[pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)&rbrack;
 
 
 The special case of the smooth path $\infty$-groupoid (Def. \ref{PathInfinityGroupoid})
