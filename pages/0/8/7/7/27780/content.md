@@ -931,7 +931,55 @@ Moreover,
 
 ### Summary
 
-In summary, the classifying spaces for topological K-theory in its various degrees are those of graded complex Fredholm operators (Rem. \ref{TheSpaceOfGradedFredholmOperators}) that in addition commute with some operators from this list:
+#### In terms of plain Fredholm operators
+ {#SummaryInTermsOfPlainFredholmOperators}
+
+In terms of ordinary [[Fredholm operators]] (on a countably infinite dimensional [[Hilbert space]]) we have ([Karoubi 1970 Thm. 1.16](#Karoubi1970)):
+
+| The space of such Fredholm operators | classifies |
+|---|---|
+| complex  |  $K \mathrm{U}^0$ |
+| complex self-adjoint | $K \mathrm{U}^1$ |
+| real  |  $K \mathrm{O}^0$ |
+| real self-adjoint | $K \mathrm{O}^1$ |
+| real anti-self-adjoint | $K\mathrm{O}^7$ |
+| quaternionic  |  $K \mathrm{O}^4$ |
+| quaternionic self-adjoint | $K \mathrm{O}^5$ |
+| quaternionic anti-self-adjoint | $K \mathrm{O}^{3}$ |
+| complex anti-linear self-adjoint  |  $K \mathrm{O}^2$ |
+| complex anti-linear anti-self-adjoint | $K \mathrm{O}^6$ |
+
+hence, conversely:
+
+| this K-theory | is classified by such Fredholm operators |
+|---|---|
+| $K \mathrm{U}^0$ | complex  |  
+| $K \mathrm{U}^1$ | complex self-adjoint | 
+| $K \mathrm{O}^0$ | real  |  
+| $K \mathrm{O}^1$ | real self-adjoint  |
+| $K \mathrm{O}^2$ | complex anti-linear self-adjoint |
+| $K \mathrm{O}^3$ | quaternionic anti-self-adjoint |
+| $K \mathrm{O}^4$ | quaternionic |
+| $K \mathrm{O}^5$ | quaternionic self-adjoint |
+| $K \mathrm{O}^6$ | complex anti-linear anti-self-adjoint |
+| $K \mathrm{O}^7$ | real anti-self-adjoint, |
+
+except that, in the cases of 
+
+* $K \mathrm{U}^n$ with $n = 1 \,mod\, 2$ 
+
+* $K\mathrm{O}^n$ with $n = 1 \,mod\, 4$, 
+
+the given space of Fredholm operators is actually the disjoint union with two contractible components of $K \mathrm{U}^n$ or $K\mathrm{O}^n$, respectively. To discard these spurious contractible components 
+
+* read "self-adjoint" in the above tables as short for:
+
+  "self-adjoint with essential spectrum both positive and negative".
+
+
+#### In terms of graded Fredholm operators
+
+The classifying spaces for topological K-theory in its various degrees are those of graded self-adjoint complex Fredholm operators (Rem. \ref{TheSpaceOfGradedFredholmOperators}) that in addition commute with some operators from this list:
 
 1. $\widehat{P}$ an odd-graded complex [[linear operator]] with $P^2 = \pm id$ (enforcing self-adjointness),
 
