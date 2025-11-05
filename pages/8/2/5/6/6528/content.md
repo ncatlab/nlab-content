@@ -316,6 +316,10 @@ Identification of the [[moduli space]] of instantons with that of [[holomorphic 
 
 * {#Atiyah84} [[Michael Atiyah]], *Instantons in two and four dimensions*, Commun. Math. Phys. 93, 437–451 (1984) ([doi:10.1007/BF01212288](https://doi.org/10.1007/BF01212288))
 
+with a proposed generalization to a two-dimensional [[topological quantum field theory]] [[sigma-model]]
+
+* Hong-Liang Hu. *Topological $\sigma$ models with loop groups as the target manifolds*. Phys. Rev. D 44, 2498 – Published 15 October, 1991. ([doi](https://doi.org/10.1103/PhysRevD.44.2498)).
+
 
 Detailed argument for the [[theta-vacuum]] structure from [[chiral symmetry breaking]] is offered in 
 
