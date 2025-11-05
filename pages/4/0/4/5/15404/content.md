@@ -18,6 +18,12 @@ On [[orthogonal calculus]]:
 
 * {#Weiss95} [[Michael Weiss]], _Orthogonal calculus_, Trans. Amer. Math. Soc. 347 (1995), 3743-3796, [pdf](https://wwwmath.uni-muenster.de/u/michael.weiss/preprints/or.pdf)
 
+On the [[moduli space of Riemann surfaces]], proving [[Mumford's conjecture]] (and proving, in appendix A.1, a special case of the [[smooth Oka principle]]):
+
+* [[Ib Madsen]], [[Michael Weiss]]: *The stable moduli space of Riemann surfaces: Mumford’s conjecture*, Annals of Mathematics **165** 3 (2007) 843–941 &lbrack;[arXiv:math/0212321](https://arxiv.org/abs/math/0212321), [doi:10.4007/annals.2007.165.843](https://doi.org/http://doi.org/10.4007/annals.2007.165.843)&rbrack;
+
+
+
 On [[Čech cohomology]]:
 
 * [[Michael Weiss]]: _The Search for a Global Primitive -- Čech Cohomology with Coefficients in a Sheaf_ &lbrack;[[Weiss-CechCohomology.pdf:file]]&rbrack;
