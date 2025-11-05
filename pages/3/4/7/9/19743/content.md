@@ -17,10 +17,10 @@
 
 ## Idea
 
-The [[direct product group]] of the [[group of order 2]] with itself is known as the _Klein four group_:
+The [[direct product group]] of the [[group of order 2]] $C_2$ with itself is known as the _Klein four group_:
 
 $$
-  \mathbb{Z}/2 \times \mathbb{Z}/2
+  C_2 \times C_2
   \,.
 $$
 
