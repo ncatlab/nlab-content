@@ -75,6 +75,7 @@ An even more elementary way of defining a stochastic process is by taking $\Omeg
   \draw[->,left]  (POn) to node {$\pi_1$} (On1);
   \draw[->,right] (On1) to node [xshift=3pt,yshift=-3pt]{$\tilde{Q}_n$} (On); 
 \end{tikzpicture}
+For such dynamic laws the time at stage $1$ is thought of as conditioning event time - subsequent stages are ''conditioned on $\Omega_1$''.
 
 We say a stochastic process $\mathbf{Q}$ is __divisible__ if and only if for all stages $m$ and $n$, with $m \le n$ there exists a Kleisi morphism $\tilde{Q}_{m,n}$ such that the triangle on the right hand side of the Kleisi-diagram
 \begin{tikzpicture}
