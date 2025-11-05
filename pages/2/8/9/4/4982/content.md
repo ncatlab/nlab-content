@@ -48,5 +48,8 @@ See also
 
 * Wikipedia, _[Fluid dynamics](http://en.wikipedia.org/wiki/Fluid_dynamics)_
 
+* [[Alexander Migdal]]: *Geometric Solution of Turbulence as Diffusion in Loop Space* &lbrack;[arXiv:2511.02165](https://arxiv.org/abs/2511.02165)&rbrack;
+
+
 [[!redirects fluid dynamics]]
 [[!redirects hydrodynamic]]
