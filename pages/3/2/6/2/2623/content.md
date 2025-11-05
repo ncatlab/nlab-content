@@ -4663,6 +4663,9 @@ Further review:
 
 *  V. Mastropietro, *Renormalization: general theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.11400](https://arxiv.org/abs/2312.11400)&rbrack;
 
+* Leonardo Di Giustino: *Renormalisation*, Encyclopedia of Particle Physics &lbrack;[arXiv:2511.02005](https://arxiv.org/abs/2511.02005)&rbrack;
+
+
 On application to [[condensed matter physics]]:
 
 * [[Manfred Salmhofer]]: *Renormalization in Condensed Matter: Fermionic Systems -- from Mathematics to Materials*, Nuclear Physics B **941** (2019) 868-899 &lbrack;[arXiv:1807.01766](https://arxiv.org/abs/1807.01766), [doi:10.1016/j.nuclphysb.2018.07.004](https://doi.org/10.1016/j.nuclphysb.2018.07.004)&rbrack;
