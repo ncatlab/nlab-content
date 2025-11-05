@@ -1,5 +1,14 @@
 
-* [website](http://www.math.ku.dk/~imadsen/)
+Ib Henning Madsen
+
+* [personal page](http://www.math.ku.dk/~imadsen/)
+
+* [institute page](https://mrc.stanford.edu/ib-madsen)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Ib_Madsen)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=6627)
+
 
 ## Selected writings
 
@@ -15,10 +24,22 @@ On [[free group actions on n-spheres]] and their [[spherical space forms]]:
 
 * {#Madsen78} [[Ib Madsen]], *Smooth spherical space forms*, Geometric Applications of Homotopy Theory I. Springer 1978. 303-352 ([doi:10.1007/BFb0069224](https://link.springer.com/book/10.1007/BFb0069224),  [pdf](https://link.springer.com/content/pdf/10.1007/BFb0069243.pdf))
 
+On the [[moduli space of Riemann surfaces]], proving [[Mumford's conjecture]] (and proving, in appendix A.1, a special case of the [[smooth Oka principle]]):
+
+* [[Ib Madsen]], [[Michael Weiss]]: *The stable moduli space of Riemann surfaces: Mumford’s conjecture*, Annals of Mathematics **165** 3 (2007) 843–941 &lbrack;[arXiv:math/0212321](https://arxiv.org/abs/math/0212321), [doi:10.4007/annals.2007.165.843](https://doi.org/http://doi.org/10.4007/annals.2007.165.843)&rbrack;
 
 
-## Related $n$Lab entries
+
+## Related entries
 
 * [[cobordism categories]]
 
+
+[[!redirects Ib H. Madsen]]
+
+
 category: people
+
+
+
+
