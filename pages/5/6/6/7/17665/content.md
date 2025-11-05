@@ -14,13 +14,13 @@
 {:toc}
 
 ## Idea
-A __stochastic process__ describes a dynamical system evolving over a [[linearly ordered set]] $T$ ("time", typically the integers or positive real axis) whose dynamical laws are morphisms in the Kleisi category of the [[Giry monad]] (or any other probability monad). By working in the larger category of algebras of that monad, a characterization  of a stochastic processes can be modeled in terms of the expected value of measurements on that process. 
+A __stochastic process__ describes a dynamical system evolving over a [[linearly ordered set]] $T$ ("time", typically the integers or positive real axis) whose dynamical laws of motion are morphisms in the Kleisi category of the [[Giry monad]] (or any other probability monad). By working in the larger category of algebras of that monad, a characterization  of a stochastic processes can be modeled in terms of the expected value of measurements on that process. 
 
 By a __random process__ physicists usually mean the same, but mathematicians sometimes allow random processes indexed by more general sets, not usually with meaning of time or equipped with a linear order. 
 
-The most studied examples include [[Brownian motion]], [[Ornstein-Uhlenbeck process]] and [[Lévy process]]es. The concept of an __indivisible stochastic process__ leads to [[Jacob Barandes]] [[indivisible stochastic process interpretation of quantum mechanics]].
+The most studied examples include [[Brownian motion]], Ornstein-Uhlenbeck process and Lévy processes. The most elementary stochastic process (to define) is an  __indivisible stochastic process__ which [[Jacob Barandes]] has used to give an [[indivisible stochastic process interpretation of quantum mechanics]].
 
-## Definition
+## Definitions
 
 We define discrete time stochastic processes following Lawvere 1962 unpublished document.  Let $N$ be the category with countably many objects, $\{1,2,...\}$, and no non-identify morphisms, and let $\mathbf{Meas}_G$ denote the Kleisi category of the Giry monad.  Let $\mathbf{Meas}_G^{N}$ denote the category whose objects $\mathbf{\Omega}$ are sequences $\Omega_1, \Omega_2,\ldots$ of objects in $\mathbf{Meas}_G$ which are measurable spaces.  We define an endofunctor $\mathbf{Meas}_G^{N} \xrightarrow{\mathbf{\Phi}} \mathbf{Meas}_G^{N}$ by 
 $
@@ -51,7 +51,7 @@ In the preceding diagram the morphisms $Q_n$, which are Kleisi morphisms
 $
 \prod_{k \lt n} \Omega_k \xrightarrow{Q_n} \Omega_n
 $
-are called  __dynamic laws__, and stochastic processes are classified by properties of the dynamic laws.
+are called  __dynamic laws__ (of motion), and stochastic processes are classified by properties of the dynamic laws.
 
 A __Markov dynamic law__ $Q_n$ is a dynamic law depending only on the current state, i.e., $Q_n$ factors as
 \begin{tikzpicture}
@@ -95,10 +95,11 @@ We say a stochastic process $\mathbf{Q}$ is __divisible__ if and only if for all
 \end{tikzpicture}
 commutes, i.e., $\tilde{Q}_n = \tilde{Q}_{m,n} \circ \tilde{Q}_m$. (We have abused notation by using the notation $\pi_1$ to denote the two projection maps onto the first coordinate despite the domains being distinct when $m \lt n$.)
 
-An __indivisible stochastic process__ is a stochastic process which is not divisible.
+An __indivisible stochastic process__ is a stochastic process which is not divisible.  Such processes are employed in the [[indivisible stochastic process interpretation of quantum mechanics]].
 
 ## Examples
 
+\begin{example}
  A 2-stage stochastic process $\mathbf{Q}$ with  measurements $\Omega_i \xrightarrow{f_i} \mathbb{R}$, modeled within the category of algebras of the [[Giry monad]] $(G, \eta, \mu)$ so that the process $\mathbf{Q}$ can be characterized in terms of the expected values of the measurements, is given by
 
 \begin{tikzpicture}
@@ -127,13 +128,25 @@ An __indivisible stochastic process__ is a stochastic process which is not divis
 \end{tikzpicture}
 
 The [[standard Borel space]] $\mathbb{R}_{\infty}$ is the one point compactification of the real line. (There is no $G$-algebra $G(\mathbb{R}) \rightarrow \mathbb{R}$; so to model any process with measurement $\Omega \xrightarrow{f} \mathbb{R}$ we first need to embedd $\mathbb{R}$ into $\mathbb{R}_{\infty}$.)
-The operator $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ is defined at each $P \in G(\mathbb{R}_{\infty})$ by $\mathbb{E}_{P}(id_{\mathbb{R}_{\infty}}) =\int f \, dP$.  
+The operator $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ is defined at each $P \in G(\mathbb{R}_{\infty})$ by $\mathbb{E}_{P}(id_{\mathbb{R}_{\infty}}) =\int id_{\mathbb{R}_{\infty}} \, dP$.  
 
-Note that measurements $\Omega \xrightarrow{f} X$ can be taken over any object $X$ which lies in the category of algebras of the monad $G$. In the case where $X$ is a [[standard Borel space]] the $G$-algebra $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$, which is a morphism in the category of algebras, is defined as: $\mathbb{E}_{P}(id_X)$ is the unique element in $X$ such that for all affine maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, the property
+Note that measurements $\Omega \xrightarrow{f} X$ can be taken over any object $X$ which lies in the category of algebras of the monad $G$. In the case where $X$ is a [[standard Borel space]] the $G$-algebra $G(X) \xrightarrow{\mathbb{E}_{\bullet}(id_X)} X$, which is a morphism in the category of algebras, is defined as: $\mathbb{E}_{P}(id_X)$ is the unique element in $X$ such that for all affine measurable maps $X \xrightarrow{m} \mathbb{R}_{\infty}$, the property
 \begin{equation} m(\mathbb{E}_P(id_X)) = \int_X m \, dP
 \end{equation}
-holds. (Every algebra $X$ necessarily possesses a convex space structure. The case $X=\mathbb{R}_{\infty}$ is just a special case which trivially satisfies the above property since the affine maps $\mathbb{R}_{\infty} \xrightarrow{m} \mathbb{R}_{\infty}$ are of the form $m(r) =\lambda r + t$ (scale + translate) and hence $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ simplifies to the standard expectation operator.)
- 
+holds. (Every algebra $X$ necessarily possesses a convex space structure. The case $X=\mathbb{R}_{\infty}$ is just a special case which trivially satisfies the above property since the affine maps $\mathbb{R}_{\infty} \xrightarrow{m} \mathbb{R}_{\infty}$ are of the form $m(r) =\lambda r + t$ (scale + translate) and hence $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ simplifies to the standard expectation operator.  A derivation of the category of algebras for [[standard Borel space]] is given on the [[Giry monad]] page.)
+\end{example}
+
+\begin{example}
+Here are two  elementary examples of an indivisible stochastic process due to [[Jacob Barandes]].  Taking the finite space $\Omega = \{1,2\}=\Omega_n$ for all $n$, and defining the dynamic law $\Omega \xrightarrow{\tilde{Q}_n} \Omega$ by 
+$$ \tilde{Q}_n =  \begin{pmatrix} e^{-\frac{t_n^2}{\tau^2}} & 1-e^{-\frac{t_n^2}{\tau^2}} \\ 1-e^{-\frac{t_n^2}{\tau^2}} & e^{-\frac{t_n^2}{\tau^2}} \end{pmatrix} 
+$$
+where $t_n$ is the time at stage $n$, and $\tau$ is a constant. (For a finite space $\Omega$ a dynamic law $\Omega \rightarrow \Omega$ can be represented by a matrix.)
+
+Similarly, on the same space $\Omega$, we can define
+$$ \tilde{Q}_n =  \begin{pmatrix} \cos^2(\omega t_n) & \sin^2(\omega t_n) \\ \sin^2(\omega t_n) & \cos^2(\omega t_n) \end{pmatrix} 
+$$
+where $\omega$ is a constant.
+\end{example}
 ## References
 
 
