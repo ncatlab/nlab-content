@@ -424,6 +424,12 @@ and in the context of [[simplicial homotopy theory]] in:
 * [[Daniel Dugger]], section 3.4, from page 29 on in:  _Sheaves and Homotopy Theory_ &lbrack;[web](http://www.uoregon.edu/~ddugger/cech.html), [pdf](http://ncatlab.org/nlab/files/cech.pdf)&rbrack;
   > (the [[point of a topos|topos points]] of $Sh(Diff)$ are discussed there in example 4.1.2 on p. 36, mentioned before on p. 31)
 
+and as a model for [[generalized smooth spaces]] in
+
+* [[Ib Madsen]], [[Michael Weiss]], appendix A.1 of: *The stable moduli space of Riemann surfaces: Mumford’s conjecture*, Annals of Mathematics **165** 3 (2007) 843–941 &lbrack;[arXiv:math/0212321](https://arxiv.org/abs/math/0212321), [doi:10.4007/annals.2007.165.843](https://doi.org/http://doi.org/10.4007/annals.2007.165.843)&rbrack;
+  > (where a special case of the [[smooth Oka principle]] is proven)
+
+
 The equivalent incarnation over the [[dense subsite]] [[CartSp]] and the understanding as a [[cohesive topos]] is due to:
 
 * {#Schreiber13} [[Urs Schreiber]], Def. 1.2.16, Def. 1.3.58 of: _[[schreiber:differential cohomology in a cohesive topos]]_ &lbrack;[arXiv:1310.7930](https://arxiv.org/abs/1310.7930)&rbrack;
