@@ -10,10 +10,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
  {#Idea}
@@ -667,13 +665,17 @@ Here:
 
 ## References
 
-The identification in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} is due to
+The identification in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} is due to:
  
 * {#Pavlov14} [[Dmitri Pavlov]]: _Structured Brown representability via concordance_ (2014) &lbrack;[pdf](https://dmitripavlov.org/concordance.pdf), [[Pavlov_Concordance.pdf:file]]&rbrack;
 
 * {#BEBP19} [[Daniel Berwick-Evans]], [[Pedro Boavida de Brito]], [[Dmitri Pavlov]]: *Classifying spaces of infinity-sheaves*, Algebr. Geom. Topol. **24** (2024) 4891-4937 &lbrack;[doi:10.2140/agt.2024.24.4891](https://doi.org/10.2140/agt.2024.24.4891), [arXiv:1912.10544](https://arxiv.org/abs/1912.10544)&rbrack;
 
-with a precursor observation in:
+The special case where $A$ in Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} a [[0-truncated]] [[smooth infinity-groupoid|smooth $\infty$-groupoid]] (hence a *[[smooth set]]*) and restricting attention to $\pi_0$ of its shape $\esh A$ was previously shown by:
+
+* [[Ib Madsen]], [[Michael Weiss]], appendix A.1 of: *The stable moduli space of Riemann surfaces: Mumford’s conjecture*, Annals of Mathematics **165** 3 (2007) 843–941 &lbrack;[arXiv:math/0212321](https://arxiv.org/abs/math/0212321), [doi:10.4007/annals.2007.165.843](https://doi.org/http://doi.org/10.4007/annals.2007.165.843)&rbrack;
+
+while the "stable" situation, where $A$ is taken to be a [[spectrum object]] in [[smooth infinity-groupoid|smooth $\infty$-groupoids]] was previously considered in:
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], Lem. 7.5 of: _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures **11** 1 (2016) &lbrack;[arXiv:1311.3188](http://arxiv.org/abs/1311.3188), [doi:10.1007/s40062-014-0092-5](https://doi.org/10.1007/s40062-014-0092-5)&rbrack;
 
@@ -681,15 +683,15 @@ The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is
 
 * {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces*, J. Homotopy Relat. Struct. (2022) &lbrack;[arXiv:2007.06039](https://arxiv.org/abs/2007.06039), [doi:10.1007/s40062-022-00318-7](https://doi.org/10.1007/s40062-022-00318-7)&rbrack;
 
-The "smooth Oka principle" is also proven (Theorem B) in:
+An alternative proof of Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} is also claimed as
 
-* {#Clough21} [[Adrian Clough]], *A Convenient Category for Geometric Topology*, PhD thesis, UT Austin (2021) &lbrack;[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/114981/CLOUGH-DISSERTATION-2021.pdf), [[Clough-ConvenientCategory.pdf:file]]&rbrack;
+* {#Clough21} [[Adrian Clough]], Theorem B of: *A Convenient Category for Geometric Topology*, PhD thesis, UT Austin (2021) &lbrack;[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/114981/CLOUGH-DISSERTATION-2021.pdf), [[Clough-ConvenientCategory.pdf:file]]&rbrack;
 
    *The homotopy theory of differentiable sheaves* &lbrack;[arXiv:2309.01757](https://arxiv.org/abs/2309.01757)&rbrack;
 
 Talk notes:
 
-* [[Adrian Clough]], *The smooth Oka principle*, talk at [[CQTS]] (Oct 2022) &lbrack;[pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)&rbrack;
+* [[Adrian Clough]]: *The smooth Oka principle*, talk at [[CQTS]] (Oct 2022) &lbrack;[pdf](https://github.com/adrianclough/adrianclough.github.io/raw/main/The%20smooth%20Oka%20principle%206.pdf)&rbrack;
 
 
 The special case of the smooth path $\infty$-groupoid (Def. \ref{PathInfinityGroupoid})
