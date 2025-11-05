@@ -755,9 +755,12 @@ From all this one might expect analogously a [[super L-∞ algebra]] underlying 
 
 * Yuji Okawa, [[Barton Zwiebach]], _Heterotic string field theory_ ([arXiv:hep-th/0406212](http://arxiv.org/abs/hep-th/0406212))
 
+See also 
 
+* _[[higher category theory and physics]]_ 
 
-See also _[[higher category theory and physics]]_ .
+* Enrico Perron Cabus: *Co-algebraic methods for String Field Theory and Quantum Field Theory* &lbrack;[arXiv:2511.02753](https://arxiv.org/abs/2511.02753)&rbrack;
+
 
 #### For Yang-Mills theory
  {#ReferencesOnYMTheoryAspects}
