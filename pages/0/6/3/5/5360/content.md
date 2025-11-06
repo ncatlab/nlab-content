@@ -28,11 +28,16 @@ A _symmetric space_ is a specially nice [[homogeneous space]], characterized by 
 
 ## Definitions
 
-A **symmetric space** is classically defined to be a [[quotient]] [[manifold]] of the form $G/H$, where $G$ is a [[Lie group]] and the [[subgroup]] $H$ is the set of fixed points of some [[involution]] $\sigma : G \to G$, that is, a smooth [[homomorphism]] with $\sigma^2 = 1_G$.   Using the involution, every point $a \in G/H$ gives rise to a [[smooth function]]
+A **symmetric space** is classically defined to be a [[quotient]] [[manifold]] of the form $G/H$, where $G$ is a [[Lie group]] and the [[subgroup]] $H$ is the set of fixed points of some [[involution]] $\sigma \colon G \longrightarrow G$, that is, a smooth [[homomorphism]] with $\sigma^2 = 1_G$.   Using the involution, every point $a \in G/H$ gives rise to a [[smooth function]]
 
-$$   a \triangleright -  : G/H \to G/H $$
+$$   
+  a \triangleright (-)  
+  \;\colon\; 
+  G/H \longrightarrow G/H
+  \mathrlap{\,,} 
+$$
 
-fixing the point $a$ and acting as $-1$ on the tangent space of $a$.  This operations satisfies the laws of an involutory [[quandle]].
+fixing the point $a$ and acting as $-1$ on the [[tangent space]] of $a$.  This operations satisfies the laws of an involutory [[quandle]].
 
 More precisely, a **symmetric pair** is a pair $(G,H)$ where $G$ is a [[Lie group]] and the subgroup $H$ is the set of fixed points of some [[involution]] $\sigma : G \to G$.  Different pairs $(G,H)$, $(G',H')$ can give what is normally considered the same symmetric space $G/H \cong G'/H'$.   In other words, not every morphism of symmetric spaces arises from a morphism of symmetric pairs.
 
@@ -61,10 +66,15 @@ This amounts to an involutory [[quandle]] object $Q$ in the category of smooth m
 
 ## References
 
+Original discussion and classification of symmetric spaces:
+
+* {#Cartan1926} [[Élie Cartan]]: *Sur une classe remarquable d'espaces de Riemann*, Bulletin de la Société Mathématique de France **54** (1926) 214-264 &lbrack;[numdam:BSMF_1926__54__214_0](https://www.numdam.org/item/?id=BSMF_1926__54__214_0), [eudml:86508](https://eudml.org/doc/86508)&rbrack;
+
+Further discussion:
+
 * {#Loos69I} Ottmar Loos, _Symmetric Spaces I: General Theory_,  Benjamin (1969) &lbrack;[pdf](https://www2.math.upenn.edu/~wziller/math661/LoosI.pdf)&rbrack;
 
 * {#Loos69II} Ottmar Loos, _Symmetric Spaces II: Compact spaces and classification_,  Benjamin (1969) 
-
 
 * [[Sigurdur Helgason]], *Group representations and symmetric spaces*, Proc. Internat. Congress Math. Nice 1970, Vol. 2 book no 10, Gauthier-Villars (1971) 313-320 &lbrack;[pdf](https://math.mit.edu/~helgason/group_representations.pdf), [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.pdf), [djvu](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0313.0320.ocr.djvu)&rbrack;
 
