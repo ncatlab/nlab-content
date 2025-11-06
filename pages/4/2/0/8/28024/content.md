@@ -1,5 +1,6 @@
 
 ### PCT Quantum Symmetries
+ {#PCTQuantumSymmetries}
 
 We discuss how [[PCT symmetry|PCT]] [[quantum symmetries]] (Def. \ref{PCTQuantumSymmetry} below) are classified (Prop. \ref{ClassificationOfPCTQuantumSymmetries} below) by a "[[10-fold way]]" (Cor. \ref{TenFoldWayOfPCTQuantumSymmetries} below).
 
@@ -7,7 +8,7 @@ The definition and the argument is quite straightforward. Just for completeness 
 
 The 10-fold classification of these PCT quantum symmetries immediately induces other incarnations of the [[10-fold way]], notably:
 
-* the classification of flavors of [[topological K-theory]] 
+* the classification of flavors of [[topological K-theory]] ([[KU-theory]], [[KO-theory]], hence [[KR-theory]] in any degree)
 
   (by the [[Atiyah-Jänich theorem]] [in terms of graded Fredholm operators](Atiyah-Jänich+theorem#SummaryInTermsOfGradedFredholmOperators), see there) 
 
@@ -388,6 +389,9 @@ and all these cases occur.
     }
 \end{imagefromfile}
 
-
 \end{corollary}
+
+\begin{remark}
+The labels in the last row of the table in Cor. \ref{TenFoldWayOfPCTQuantumSymmetries} are traditional --- early appearance in [Schnyder, Ryu, Furusaki & Ludwig 2008 table 1](ten-fold+way#SchnyderRyuFurusakiLudwig2008) (where, beware, the labels "DII" and "CII" are swapped with regards to the modern convention), reviewed in [Chiu, Teo, Schnyder & Ryu 2016](ten-fold+way#ChiuTeoSchnyderRyu2016)), with historical origin in [Cartan's 1926](symmetric+space#Cartan1926) classification of [[symmetric spaces]] in terms of [[simple Lie algebras]] (see [there](simple+Lie+algebra#Classification)).
+\end{remark}
 
