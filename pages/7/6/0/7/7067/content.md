@@ -58,7 +58,7 @@ The algebraic analog of [[monoidal model categories]] is discussed in
 
 Review:
 
-* [[Emily Riehl]], §12.9 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
+* [[Emily Riehl]], §12.9 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](https://emilyriehl.github.io/files/cathtpy.pdf)&rbrack;
 
 See also:
 
