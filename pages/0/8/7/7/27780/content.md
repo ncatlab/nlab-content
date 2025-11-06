@@ -746,7 +746,7 @@ $$
   \Big\}
   \,.
 $$
-For $f$ of this from, notice that $\widehat{T} \circ f$ is (anti-linear and) self-adjoint/anti-self-adjoint:
+For $f$ of this form, notice that $\widehat{T} \circ f$ is (anti-linear and) self-adjoint/anti-self-adjoint:
 $$
   \big(
     \widehat{T} \circ f
@@ -829,7 +829,7 @@ Moreover,
 ([Atiyah & Singer 1969 Cor. to Thm. A(k)](#AtiyahSinger1969), [Karoubi 1970 Lem 1.4, Dem. 1.4, Prop. 1.5](#Karoubi1970))
 
 \begin{proposition}
-  The space of [[real numbers|real]] anti[[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
+  The space of [[real numbers|real]] anti-[[self-adjoint operator|self-adjoint]] [[Fredholm operators]] 
   \[
     \label{SpaceOfSelfAdjointFredholmOperators}
     Fred^{sa}(\mathscr{H}_{\mathbb{R}})
