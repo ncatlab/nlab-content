@@ -243,6 +243,9 @@ Textbook accounts:
 
 Review:
 
+* {#Schechter1965} [[Martin Schechter]]: *Fredholm Operators and the Essential Spectrum*, New York University Courant Institute (1965) &lbrack;[pdf](https://ia801803.us.archive.org/17/items/fredholmoperator00sche/fredholmoperator00sche.pdf)&rbrack;
+  > (focus on their [[essential spectrum]])
+
 * {#Schechter1967} [[Martin Schechter]]: *Basic theory of Fredholm operators*, Annali della Scuola Normale Superiore di Pisa - Scienze Fisiche e Matematiche, Serie 3, **21** 2 (1967) 261-280 &lbrack;[numdam:ASNSP_1967_3_21_2_261_0](https://www.numdam.org/item/ASNSP_1967_3_21_2_261_0)&rbrack;
 
 * {#Jaffe} Ethan Y. Jaffe: *Atkinson’s Theorem* &lbrack;[pdf](https://r-grande.github.io/Expository/Atkinson%27s%20Theorem.pdf)&rbrack;
