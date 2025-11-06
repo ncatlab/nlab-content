@@ -109,7 +109,7 @@ Y & \cong & \int^n X(n) \cdot \sigma(n) \\
 & \cong & \int^m (\int^n X(n) \cdot \Sigma_n(m)) \cdot \Box(m)
 }$$
 
-where in the last line we used the [[coend Fubini theorem]] for interchange of coends. Thus, defining the cubical set $C$ by
+where in the last line we used the [coend Fubini theorem](end#Fubini) for interchange of coends. Thus, defining the cubical set $C$ by
 
 $$C(m) = \int^n X(n) \cdot \Sigma_n(m)$$
 
