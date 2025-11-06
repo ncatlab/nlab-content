@@ -38,9 +38,15 @@ As formalizing [[short-range entanglement]] in [[topological phases of matter]]:
 
 * {#Freed14} [[Daniel S. Freed]], *Short-range entanglement and invertible field theories* &lbrack;[arXiv:1406.7278](https://arxiv.org/abs/1406.7278)&rbrack;
 
-On classification (via [[reflection positivity]]):
+On classification:
 
 * {#FreedHopkins21} [[Daniel Freed]], [[Michael Hopkins]], *Reflection positivity and invertible topological phases*, Geometry & Topology **25** (2021) 1165–1330  &lbrack;[arXiv:1604.06527](https://arxiv.org/abs/1604.06527), [doi:10.2140/gt.2021.25.1165](https://doi.org/10.2140/gt.2021.25.1165)&rbrack;
+  > (via [[reflection positivity]])
+
+* [[Yosuke Kubota]]: *Stable homotopy theory of invertible gapped quantum spin systems I: Kitaev's $\Omega$-spectrum* &lbrack;[arXiv:2503.12618](https://arxiv.org/abs/2503.12618)&rbrack;
+
+* [[Yosuke Kubota]]: *Stable homotopy theory of invertible gapped quantum spin systems*, [talk at](CQTS#KubotaNov2025) *[[CQTS]]*@NYUAD (Nov 2025) &lbrack;slides:[[Kubota-CQTS-251105.pdf:file]]&rbrack;
+
 
 Review:
 
