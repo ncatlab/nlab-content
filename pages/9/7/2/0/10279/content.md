@@ -81,6 +81,10 @@ Given a [[complex numbers|complex]] antilinear operator $A$ (Def. \ref{GeneralDe
 \end{definition}
 (cf. [Uhlmann 2016 Def. 3.1](#Uhlmann2016))
 
+\begin{example}
+An anti-linear map $\Theta$ is *[[anti-unitary operator|anti-unitary]]* if its adjoint $\Theta^\dagger$ in the sense of (eq:HermitianAdjoint) is equals its [[inverse function|inverse]]: $\Theta^\dagger = \Theta^{-1}$.
+\end{example}
+
 ## Examples
 
 ### Simple general examples
@@ -118,7 +122,7 @@ A [[star-algebra|$*$-algebra]] requires by definition its [[anti-involution]] to
 
 Review:
 
-* {#Uhlmann2016} Armin Uhlmann: *Anti- (Conjugate) Linearity*, Sci. China Phys. Mech. Astron. **59** (2016) 630301  &lbrack;[arXiv:1507.06545](https://arxiv.org/abs/1507.06545), [doi:10.1007/s11433-015-5777-1](https://doi.org/10.1007/s11433-015-5777-1)&rbrack;
+* {#Uhlmann2016} [[Armin Uhlmann]]: *Anti- (Conjugate) Linearity*, Sci. China Phys. Mech. Astron. **59** (2016) 630301  &lbrack;[arXiv:1507.06545](https://arxiv.org/abs/1507.06545), [doi:10.1007/s11433-015-5777-1](https://doi.org/10.1007/s11433-015-5777-1)&rbrack;
 
 
 See also:
