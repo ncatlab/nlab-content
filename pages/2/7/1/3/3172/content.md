@@ -5,6 +5,7 @@ Father of [[Henri Cartan]].
 * wikipedia [en](http://en.wikipedia.org/wiki/%C3%89lie_Cartan), [fr](http://fr.wikipedia.org/wiki/%C3%89lie_Cartan), [ru](http://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%80%D1%82%D0%B0%D0%BD,_%D0%AD%D0%BB%D0%B8_%D0%96%D0%BE%D0%B7%D0%B5%D1%84)
 * wikipedia  [integrability conditions for  differential systems](http://en.wikipedia.org/wiki/Integrability_conditions_for_differential_systems)
 
+
 ## Selected writings
 
 Introducing what came to be known as *[[Maurer-Cartan forms]]*:
@@ -24,10 +25,13 @@ Introducing the re-formulation of [[Riemannian geometry]] that came to be known 
 
 * [[Élie Cartan]] (translated by Robert Hermann from Cartan's lectures in 1951): *Geometry of Riemannian Spaces*, Lie Groups: History, Frontiers and Applications **XIII**, Math Sci Press (1983) &lbrack;[ark:/13960/s28rzmj9xrv](https://archive.org/details/geometryofrieman0013cart)&rbrack;
 
-
 as reviewed in 
 
 * [[Erhard Scholz]], *E. Cartan’s attempt at bridge-building between Einstein and the Cosserats – or how translational curvature became to be known as "torsion"*, The European Physics Journal H **44** (2019) 47-75 \[<a href="https://doi.org/10.1140/epjh/e2018-90059-x">doi:10.1140/epjh/e2018-90059-x</a>\]
+
+Introducing and classifying [[symmetric spaces]]:
+
+* {#Cartan1926} [[Élie Cartan]]: *Sur une classe remarquable d'espaces de Riemann*, Bulletin de la Société Mathématique de France **54** (1926) 214-264 &lbrack;[numdam:BSMF_1926__54__214_0](https://www.numdam.org/item/?id=BSMF_1926__54__214_0), [eudml:86508](https://eudml.org/doc/86508)&rbrack;
 
 
 
