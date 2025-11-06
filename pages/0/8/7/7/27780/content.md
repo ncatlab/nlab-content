@@ -73,7 +73,7 @@ Generalization to any degree over any ground field is due to [Atiyah & Singer 19
 
 * [Statement for $K \mathrm{O}^{\pm 3}$](#StatementForKO3andKO5)
 
-In stating these, we mostly review results from [Karoubi 1970 §I](#[Karoubi1970](#Karoubi1970), but we reformulate these (in a straightforward though consequential manner) to bring out (following [Sati & Schreiber 2023 §2.2](#SatiSchreiber2023)) how they exhibit the *10-fold way* of [[quantum symmetries]] as known from the [[K-theory classification of topological phases of matter]].
+In stating these, we mostly review results from [Karoubi 1970 §I](#[Karoubi1970](#Karoubi1970), but we reformulate these (in a straightforward though consequential manner) to bring out (following [Sati & Schreiber 2023 §2.2](#SatiSchreiber2023)) how they exhibit the *[[10-fold way]]* of [[quantum symmetries]] as known from the [[K-theory classification of topological phases of matter]].
 
 
 
@@ -1047,7 +1047,7 @@ of
 
 Hence a lift $\widehat{(-)}$ of $T$ or $C$ or $P = T C$ to this group is represented by an (anti-)linear operator $\widehat{T}$ or $\widehat{C}$ or $\widehat{P}$, respectively, and homomorphy of the lift requires that $\widehat{T}^2, \widehat{C}^2 \in \{\pm 1\}$. Asking the graded Fredholm operators to commute with such lifts $\widehat{G}$ of subgroups $G \subset \mathbb{Z}_2^t \times \mathbb{Z}_2^c$ is equivalent, by the above discussion, to one of the ten constrains that lead to the 10 possible classifying spaces for K-theory, as shown in the above table.
 
-Tables of related or analogous structures are well-known in the discussion of the "10-fold way" of [[topological phases of matter]] (cf. [Schnyder, Ryu, Furusaki & Ludwig 2008 Table 1](K-theory+classification+of+topological+phases+of+matter#SchnyderRyuFurusakiLudwig2008), [Kitaev 2009 Table 1](K-theory+classification+of+topological+phases+of+matter), [Freed & Moore 2013 Prop. B.4 & 6.4](K-theory+classification+of+topological+phases+of+matter#FreedMoore13)); the concrete relation to the Atiyah-Jänich theorem as per the above table was observed in [Sati & Schreiber 2023 Table 3](#SatiSchreiber2023).
+Tables of related or analogous structures are well-known in the discussion of the "[[10-fold way]]" of [[topological phases of matter]] (cf. [Schnyder, Ryu, Furusaki & Ludwig 2008 Table 1](K-theory+classification+of+topological+phases+of+matter#SchnyderRyuFurusakiLudwig2008), [Kitaev 2009 Table 1](K-theory+classification+of+topological+phases+of+matter), [Freed & Moore 2013 Prop. B.4 & 6.4](K-theory+classification+of+topological+phases+of+matter#FreedMoore13)); the concrete relation to the Atiyah-Jänich theorem as per the above table was observed in [Sati & Schreiber 2023 Table 3](#SatiSchreiber2023).
 
 \linebreak
 
@@ -1101,7 +1101,7 @@ Further development:
 
 * Kamran Sharifi: *Atiyah-Jänich theorem for  $\sigma$-$C^\ast$-algebras* &lbrack;[arXiv:1612.03287](https://arxiv.org/abs/1612.03287)&rbrack;
 
-Formulation in the context of the 10-fold way of [[quantum symmetries]] and the [[K-theory classification of topological phases of matter]]:
+Formulation in the context of the [[10-fold way]] of [[quantum symmetries]] and the [[K-theory classification of topological phases of matter]]:
 
 * {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]], §2.2 in: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
 
