@@ -35,6 +35,13 @@ The 10-fold way was also approached from a purely [[representation theory|repres
 
 ## Realizations
 
+
+[[!include PCT quantum symmetries -- section]]
+
+
+
+### Further
+
 * [[Atiyah-Jänich theorem]] -- [In terms of graded Fredholm operators](Atiyah-Jänich+theorem#SummaryInTermsOfGradedFredholmOperators)
 
 * ...
@@ -73,6 +80,7 @@ The 10-fold way was also approached from a purely [[representation theory|repres
 Review:
 
 * [[John Baez]], _The Tenfold Way_ (2020) &lbrack;[webpage](https://math.ucr.edu/home/baez/tenfold.html)&rbrack;
+
 
 
 [[!redirects tenfold way]]
