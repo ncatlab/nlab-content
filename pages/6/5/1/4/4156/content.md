@@ -144,6 +144,11 @@ See also:
 
 * I. P-Castro, J. L. Díaz-Cruz, A. Pérez-Lorenzana: *CPT Symmetry and its Breaking in the chiral fermion formalism* &lbrack;[arXiv:2411.05242](https://arxiv.org/abs/2411.05242)&rbrack;
 
+Discussion in [[cosmology]]:
+
+* Harry Goodhew, Ayngaran Thavanesan, [[Aron C. Wall]]: *The Cosmological CPT Theorem* &lbrack;[arXiv:2408.17406](https://arxiv.org/abs/2408.17406)&rbrack;
+
+
 
 
 
