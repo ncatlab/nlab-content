@@ -1011,7 +1011,7 @@ $$
 is the [[subgroup]] of the [[Klein 4-group]] which has generators $T$, $C$ (with product $P \coloneqq T C$) depending on whether commutation with $\widehat{T}$, $\widehat{C}$ or $\widehat{P} = \widehat{T}\widehat{C}$ appears as a constraint, respectively:
 
 \begin{imagefromfile}
-    "file_name": "QSfixedFredholms-251105.png",
+    "file_name": "QSfixedFredholms-251106.png",
     "width": 800,
     "unit": "px",
     "margin": {
