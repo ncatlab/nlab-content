@@ -15,6 +15,10 @@ On [[holographic tensor networks]] and [[quantum error correcting codes]] in ful
 
 * [[Ning Bao]], [[Geoffrey Penington]], [[Jonathan Sorce]], [[Aron C. Wall]], _Holographic Tensor Networks in Full AdS/CFT_ ([arXiv:1902.10157](https://arxiv.org/abs/1902.10157))
 
+On the [[PCT theorem]] in the context of [[cosmology]]:
+
+* Harry Goodhew, Ayngaran Thavanesan, [[Aron C. Wall]]: *The Cosmological CPT Theorem* &lbrack;[arXiv:2408.17406](https://arxiv.org/abs/2408.17406)&rbrack;
+
 category: people
 
 [[!redirects Aron Wall]]
