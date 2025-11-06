@@ -14,7 +14,7 @@ Later precursor discussion phrased in terms of [[random matrix theory]] instead 
 
 * Denis Bernard, André LeClair, *A classification of 2D random Dirac fermions*, J. Phys. A: Math. Gen. **35** (2002) 2555 \[<a href="https://iopscience.iop.org/article/10.1088/0305-4470/35/11/303">doi:10.1088/0305-4470/35/11/303</a>\]
 
-* {#SchnyderRyuFurusakiLudwig2008} [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]], *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) $[$[doi:10.1103/PhysRevB.78.195125](https://doi.org/10.1103/PhysRevB.78.195125), [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)$]$
+* {#SchnyderRyuFurusakiLudwig2008} [[Andreas P. Schnyder]], [[Shinsei Ryu]], [[Akira Furusaki]], [[Andreas W. W. Ludwig]]: *Classification of topological insulators and superconductors in three spatial dimensions*, Phys. Rev. B **78** 195125 (2008) $[$[doi:10.1103/PhysRevB.78.195125](https://doi.org/10.1103/PhysRevB.78.195125), [arXiv:0803.2786](https://arxiv.org/abs/0803.2786)\]
 
 The original proposal making [[topological K-theory]] explicit:
 
@@ -25,15 +25,15 @@ Further details:
 
 The technical part of the argument always essentially boils down (implicitly, never attributed this way before [Freed & Moore 2013](#FreedMoore13)) to the argument for [[Karoubi K-theory]] from: 
 
-* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 $[$[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)$]$
+* [[Michael Atiyah]], [[Isadore Singer]], *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS, Tome **37** (1969) 5-26 $[$[numdam:PMIHES_1969__37__5_0](http://www.numdam.org/item/PMIHES_1969__37__5_0)\]
 
-* [[Max Karoubi]], *Espaces Classifiants en K-Théorie*, Transactions of the American Mathematical Society **147** 1 (Jan., 1970) 75-115 $[$[doi:10.2307/1995218](https://doi.org/10.2307/1995218)$]$
+* [[Max Karoubi]], *Espaces Classifiants en K-Théorie*, Transactions of the American Mathematical Society **147** 1 (Jan., 1970) 75-115 $[$[doi:10.2307/1995218](https://doi.org/10.2307/1995218)\]
 
 More on this [[Clifford algebra]]-argument explicit in view of topological insulators:
 
-* Michael Stone, Ching-Kai Chiu, Abhishek Roy, *Symmetries, dimensions and topological insulators: the mechanism behind the face of the Bott clock*,  Journal of Physics A: Mathematical and Theoretical, **44** 4 (2010) 045001 $[$[doi:10.1088/1751-8113/44/4/045001](https://iopscience.iop.org/article/10.1088/1751-8113/44/4/045001)$]$
+* Michael Stone, Ching-Kai Chiu, Abhishek Roy, *Symmetries, dimensions and topological insulators: the mechanism behind the face of the Bott clock*,  Journal of Physics A: Mathematical and Theoretical, **44** 4 (2010) 045001 $[$[doi:10.1088/1751-8113/44/4/045001](https://iopscience.iop.org/article/10.1088/1751-8113/44/4/045001)\]
 
-* Gilles Abramovici, Pavel Kalugin, *Clifford modules and symmetries of topological insulators*,  International Journal of Geometric Methods in Modern PhysicsVol. **09**  03 (2012) 1250023   $[$[arXiv:1101.1054](https://arxiv.org/abs/1101.1054), [doi:10.1142/S0219887812500235](https://doi.org/10.1142/S0219887812500235)$]$
+* Gilles Abramovici, Pavel Kalugin, *Clifford modules and symmetries of topological insulators*,  International Journal of Geometric Methods in Modern PhysicsVol. **09**  03 (2012) 1250023   $[$[arXiv:1101.1054](https://arxiv.org/abs/1101.1054), [doi:10.1142/S0219887812500235](https://doi.org/10.1142/S0219887812500235)\]
 
 
 The proper [[equivariant K-theory]] formulation expected to apply also to [[topological crystalline insulators]]:
@@ -48,24 +48,23 @@ Further discussion:
 
 * [[Ralph M. Kaufmann]], Dan Li, Birgit Wehefritz-Kaufmann, _Topological insulators and K-theory_ ([arXiv:1510.08001](https://arxiv.org/abs/1510.08001), [spire:1401095/](http://inspirehep.net/record/1401095/))
 
-* [[Ken Shiozaki]], [[Masatoshi Sato]], [[Kiyonori Gomi]], *Topological Crystalline Materials - General Formulation, Module Structure, and Wallpaper Groups*, Phys. Rev. B **95** (2017) 235425 $[$[arXiv:1701.08725](https://arxiv.org/abs/1701.08725), [doi:10.1103/PhysRevB.95.235425](https://doi.org/10.1103/PhysRevB.95.235425)$]$
+* [[Ken Shiozaki]], [[Masatoshi Sato]], [[Kiyonori Gomi]], *Topological Crystalline Materials - General Formulation, Module Structure, and Wallpaper Groups*, Phys. Rev. B **95** (2017) 235425 $[$[arXiv:1701.08725](https://arxiv.org/abs/1701.08725), [doi:10.1103/PhysRevB.95.235425](https://doi.org/10.1103/PhysRevB.95.235425)\]
 
 
-* [[Luuk Stehouwer]], [[Jan de Boer]], [[Jorrit Kruthoff]], [[Hessel Posthuma]], *Classification of crystalline topological insulators through K-theory*, Adv. Theor. Math. Phys, **25** 3 (2021) 723–775 $[$[arXiv:1811.02592](https://arxiv.org/abs/1811.02592), [doi:10.4310/ATMP.2021.v25.n3.a3](https://doi.org/10.4310/ATMP.2021.v25.n3.a3)$]$
+* [[Luuk Stehouwer]], [[Jan de Boer]], [[Jorrit Kruthoff]], [[Hessel Posthuma]], *Classification of crystalline topological insulators through K-theory*, Adv. Theor. Math. Phys, **25** 3 (2021) 723–775 $[$[arXiv:1811.02592](https://arxiv.org/abs/1811.02592), [doi:10.4310/ATMP.2021.v25.n3.a3](https://doi.org/10.4310/ATMP.2021.v25.n3.a3)\]
 
 * Charles Zhaoxi Xiong, _Classification and Construction of Topological Phases of Quantum Matter_ ([arXiv:1906.02892](https://arxiv.org/abs/1906.02892))
 
-* Eyal Cornfeld, Shachar Carmeli, *Tenfold topology of crystals: Unified classification of crystalline topological insulators and superconductors*, Phys. Rev. Research **3** (2021) 013052 $[$[doi:10.1103/PhysRevResearch.3.013052](https://doi.org/10.1103/PhysRevResearch.3.013052), [arXiv:2009.04486](https://arxiv.org/abs/2009.04486)$]$
+* Eyal Cornfeld, Shachar Carmeli, *Tenfold topology of crystals: Unified classification of crystalline topological insulators and superconductors*, Phys. Rev. Research **3** (2021) 013052 $[$[doi:10.1103/PhysRevResearch.3.013052](https://doi.org/10.1103/PhysRevResearch.3.013052), [arXiv:2009.04486](https://arxiv.org/abs/2009.04486)\]
 
-* {#BHMP23} [[Agnès Beaudry]], Michael Hermele, Juan Moreno, [[Markus Pflaum]], Marvin Qi, Daniel Spiegel, *Homotopical Foundations of Parametrized Quantum Spin Systems* $[$[arXiv:2303.07431](https://arxiv.org/abs/2303.07431)$]$
+* {#BHMP23} [[Agnès Beaudry]], Michael Hermele, Juan Moreno, [[Markus Pflaum]], Marvin Qi, Daniel Spiegel, *Homotopical Foundations of Parametrized Quantum Spin Systems* $[$[arXiv:2303.07431](https://arxiv.org/abs/2303.07431)\]
 
-* [[Ken Shiozaki]], [[Masatoshi Sato]], [[Kiyonori Gomi]], *Atiyah-Hirzebruch Spectral Sequence in Band Topology: General Formalism and Topological Invariants for 230 Space Groups*, Phys. Rev. B **106** (2022) 165103 $[$[arXiv:1802.06694](https://arxiv.org/abs/1802.06694), [doi:10.1103/PhysRevB.106.165103](https://doi.org/10.1103/PhysRevB.106.165103)$]$
-
+* [[Ken Shiozaki]], [[Masatoshi Sato]], [[Kiyonori Gomi]], *Atiyah-Hirzebruch Spectral Sequence in Band Topology: General Formalism and Topological Invariants for 230 Space Groups*, Phys. Rev. B **106** (2022) 165103 $[$[arXiv:1802.06694](https://arxiv.org/abs/1802.06694), [doi:10.1103/PhysRevB.106.165103](https://doi.org/10.1103/PhysRevB.106.165103)\]
   > (using the [[Atiyah-Hirzebruch spectral sequence]])
 
 Review:
 
-* {#vanNigtevecht19} [[Sven van Nigtevecht]], *Topological phases and K-theory*, Amsterdam (2019) $[$[web](https://svann.science/publication/bachelors), [pdf](https://webspace.science.uu.nl/~0554804/publications/bachelor.pdf)$]$
+* {#vanNigtevecht19} [[Sven van Nigtevecht]], *Topological phases and K-theory*, Amsterdam (2019) $[$[web](https://svann.science/publication/bachelors), [pdf](https://webspace.science.uu.nl/~0554804/publications/bachelor.pdf)\]
 
 Generalization of the K-theory classification of free topological pgases to include interacting [[topological order]]:
 
@@ -94,7 +93,7 @@ Relation to the [[GSO projection]]:
 
 With application of the [[external tensor product of vector bundles]] to describe coupled systems:
 
-* {#Mera20} [[Bruno Mera]], *The product of two independent Su-Schrieffer-Heeger chains yields a two-dimensional Chern insulator*, Phys. Rev. B **102** 155150 (2020) $[$[arXiv:2009.02268](https://arxiv.org/abs/2009.02268), [doi:10.1103/PhysRevB.102.155150](https://doi.org/10.1103/PhysRevB.102.155150)$]$
+* {#Mera20} [[Bruno Mera]], *The product of two independent Su-Schrieffer-Heeger chains yields a two-dimensional Chern insulator*, Phys. Rev. B **102** 155150 (2020) $[$[arXiv:2009.02268](https://arxiv.org/abs/2009.02268), [doi:10.1103/PhysRevB.102.155150](https://doi.org/10.1103/PhysRevB.102.155150)\]
 
 For [[quasicrystals]] via [[KK-theory]] of the [[noncommutative topology of quasiperiodicity]]:
 
