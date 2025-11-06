@@ -31,7 +31,7 @@ The technical part of the argument always essentially boils down (implicitly, ne
 
 More on this [[Clifford algebra]]-argument explicit in view of topological insulators:
 
-* Michael Stone, Ching-Kai Chiu, Abhishek Roy, *Symmetries, dimensions and topological insulators: the mechanism behind the face of the Bott clock*,  Journal of Physics A: Mathematical and Theoretical, **44** 4 (2010) 045001 $[$[doi:10.1088/1751-8113/44/4/045001](https://iopscience.iop.org/article/10.1088/1751-8113/44/4/045001)\]
+* Michael Stone, [[Ching-Kai Chiu]], Abhishek Roy, *Symmetries, dimensions and topological insulators: the mechanism behind the face of the Bott clock*,  Journal of Physics A: Mathematical and Theoretical, **44** 4 (2010) 045001 $[$[doi:10.1088/1751-8113/44/4/045001](https://iopscience.iop.org/article/10.1088/1751-8113/44/4/045001)\]
 
 * Gilles Abramovici, Pavel Kalugin, *Clifford modules and symmetries of topological insulators*,  International Journal of Geometric Methods in Modern PhysicsVol. **09**  03 (2012) 1250023   $[$[arXiv:1101.1054](https://arxiv.org/abs/1101.1054), [doi:10.1142/S0219887812500235](https://doi.org/10.1142/S0219887812500235)\]
 
@@ -39,6 +39,10 @@ More on this [[Clifford algebra]]-argument explicit in view of topological insul
 The proper [[equivariant K-theory]] formulation expected to apply also to [[topological crystalline insulators]]:
 
 * {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], *Twisted equivariant matter*, Ann. Henri Poincaré **14** (2013)  1927-2023 $[$[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)\]
+
+Review:
+
+* {#ChiuTeoSchnyderRyu2016} [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]], [[Shinsei Ryu]]: *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** (2016) 035005 \[<a href="https://doi.org/10.1103/RevModPhys.88.035005">doi:10.1103/RevModPhys.88.035005</a>, [arXiv:1505.03535](https://arxiv.org/abs/1505.03535)\]
 
 Further discussion:
 
