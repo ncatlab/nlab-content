@@ -4,8 +4,7 @@
 
 ***
 
-[[QSfixedFredholms-251105.png:file]]
-
+[[Kubota-CQTS-251105.pdf:file]]
 
 
 +-- {: .num_theorem #PullbackLawForACube}
