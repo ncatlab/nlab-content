@@ -980,7 +980,7 @@ the given space of Fredholm operators is actually the disjoint union with two co
 #### In terms of graded Fredholm operators
  {#SummaryInTermsOfGradedFredholmOperators}
 
-Equivalently, the classifying spaces for topological K-theory in its various degrees (including those contractible components) are those of graded self-adjoint complex Fredholm operators (Rem. \ref{TheSpaceOfGradedFredholmOperators}) that in addition commute with some operators from this list:
+Equivalently, the classifying spaces for topological K-theory in its various degrees (including those contractible components) are those of graded self-adjoint complex Fredholm operators (Rem. \ref{TheSpaceOfGradedFredholmOperators}) that in addition commute with some *[PCT quantum symmetries](Wigner+theorem#PCTQuantumSymmetries)* from this list:
 
 1. $\widehat{P}$ an odd-graded complex [[linear operator]] with $P^2 = \pm id$ (enforcing self-adjointness),
 
@@ -1022,7 +1022,7 @@ is the [[subgroup]] of the [[Klein 4-group]] which has generators $T$, $C$ (with
     }
 \end{imagefromfile}
 
-Here the group $QS$ of "[[quantum symmetries]]" is the [[semidirect product]] 
+Here the group $QS$ of "[graded quantum symmetries](Wigner+theorem#PCTQuantumSymmetryDefinitionAndClassification)" is the [[semidirect product]] 
 
 \[
   QS
@@ -1047,7 +1047,7 @@ of
 
 Hence a lift $\widehat{(-)}$ of $T$ or $C$ or $P = T C$ to this group is represented by an (anti-)linear operator $\widehat{T}$ or $\widehat{C}$ or $\widehat{P}$, respectively, and homomorphy of the lift requires that $\widehat{T}^2, \widehat{C}^2 \in \{\pm 1\}$. Asking the graded Fredholm operators to commute with such lifts $\widehat{G}$ of subgroups $G \subset \mathbb{Z}_2^t \times \mathbb{Z}_2^c$ is equivalent, by the above discussion, to one of the ten constrains that lead to the 10 possible classifying spaces for K-theory, as shown in the above table.
 
-Tables of related or analogous structures are well-known in the discussion of the "[[10-fold way]]" of [[topological phases of matter]] (cf. [Schnyder, Ryu, Furusaki & Ludwig 2008 Table 1](K-theory+classification+of+topological+phases+of+matter#SchnyderRyuFurusakiLudwig2008), [Kitaev 2009 Table 1](K-theory+classification+of+topological+phases+of+matter), [Freed & Moore 2013 Prop. B.4 & 6.4](K-theory+classification+of+topological+phases+of+matter#FreedMoore13)); the concrete relation to the Atiyah-Jänich theorem as per the above table was made more explicit by [Sati & Schreiber 2023 around Table 3](#SatiSchreiber2023).
+Tables of related or analogous structures are well-known in the discussion of the "[[10-fold way]]" of [[topological phases of matter]] (cf. [Schnyder, Ryu, Furusaki & Ludwig 2008 Table 1](K-theory+classification+of+topological+phases+of+matter#SchnyderRyuFurusakiLudwig2008), [Kitaev 2009 Table 1](K-theory+classification+of+topological+phases+of+matter), [Freed & Moore 2013 Prop. B.4 & 6.4](K-theory+classification+of+topological+phases+of+matter#FreedMoore13)), which follow the [classication of PCT quantum symmetries](Wigner+theorem#TenFoldWayOfPCTQuantumSymmetries) (see there); the concrete relation to the Atiyah-Jänich theorem as per the above table was made more explicit by [Sati & Schreiber 2023 around Table 3](#SatiSchreiber2023).
 
 \linebreak
 
