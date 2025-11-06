@@ -25,8 +25,9 @@ Equivalently, a simple Lie algebra is a [[simple object]] of [[LieAlg]] that *al
 
 
 ## Classification
+ {#Classification}
 
-Simple Lie algebras over an [[algebraically closed field]] of [[characteristic]] [[zero]], like many other things in [[mathematics]], may be classified by [[Dynkin diagram]]s.  We have:
+Simple Lie algebras over an [[algebraically closed field]] of [[characteristic]] [[zero]], like many other things in [[mathematics]], may be classified by [[Dynkin diagrams]].  We have:
 
 * $\mathfrak{a}_n = \mathfrak{sl}_{n+1}$, the [[special linear Lie algebra]] of rank $n$.  We count this only for $n \geq 1$, since $\mathfrak{a}_0$ is the [[trivial Lie algebra]] (which is not simple but is still [[semisimple Lie algebra|semisimple]]).
 
@@ -40,9 +41,9 @@ Simple Lie algebras over an [[algebraically closed field]] of [[characteristic]]
 
 * the [[exceptional Lie algebra]]s $\mathfrak{f}_4$ and $\mathfrak{g}_2$, which exist only for those ranks.
 
-If you want to classify simple objects in $Lie Alg$, then there is one other possibility: the [[line]] (which has no corresponding Dynkin diagram).
+If you want to classify simple objects in $Lie Alg$, then there is one other possibility: the [[line]] (which has no corresponding [[Dynkin diagram]]).
 
-It is much more difficult to classify simple Lie algebras over non-closed fields, over fields with positive characteristic, and especially over non-fields.
+It is much more difficult to classify simple Lie algebras over non-[[algebraically closed field|closed fields]], over fields with [[positive characteristic]], and especially over non-fields.
 
 
 ## Semisimple Lie algebras
