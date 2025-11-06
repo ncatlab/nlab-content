@@ -24,7 +24,9 @@ Various structures in [[algebra]] and [[algebraic topology]] have a classificati
 
 The specific term "10-fold way" is a variation of the term "threefold way" used in [Dyson 1962](#Dyson62), which is referred to as inspiration by [Heinzner, Huckleberry & Zirnbauer 2004](#HHZ04) and [Zirnbauer 2010](#Z10) in reference to work going back to [Altland & Zirnbauer 1997](#AZ97). While the term "10-fold way" is now often attributed to these authors, they may not actually have used it as a term ([Zirnbauer 2010](#Z10) finally speaks at least of the "10-way").
 
-The term became rather popular in the wake of the seminal suggestion by [Kitaev 2009](#Kitaev09), following [Schnyder, Ryu, Furusaki & Ludwig 2008 Table 1](#SchnyderRyuFurusakiLudwig2008), that "[[free field theory|free]]" [[topological phases of matter]], specifically free [[crystalline topological insulator|crystalline]] [[topological insulator]]-phases,  are classified by some form of [[topological K-theory]] (though [Kitaev 2009](#Kitaev09) does not use the term "10-fold way", either): see at *[[K-theory classification of topological phases of matter]]* for more on this.
+The term became rather popular in the wake of the seminal suggestion by [Kitaev 2009](#Kitaev09), following [Schnyder, Ryu, Furusaki & Ludwig 2008 table 1](#SchnyderRyuFurusakiLudwig2008), that "[[free field theory|free]]" [[topological phases of matter]], specifically free [[crystalline topological insulator|crystalline]] [[topological insulator]]-phases,  are classified by some form of [[topological K-theory]]: see at *[[K-theory classification of topological phases of matter]]* for more on this.
+
+(Though [Kitaev 2009](#Kitaev09) does not use the term "10-fold way", either, nor the now standard labels for the ten classes --- all this appears later, cf. [Chiu, Teo, Schnyder & Ryu 2016 table 1](#ChiuTeoSchnyderRyu2016).)
 
 Kitaev's suggestion was made more precise by [Freed & Moore 2013](#FreedMoore13) (who, however and ironically, doubted, on [p. 57](https://arxiv.org/pdf/1208.5055.pdf#page=57), its application to topological phases -- but see [pp. 2](https://arxiv.org/pdf/2206.13563.pdf#page=2) of [SS23](K-theory+classification+of+topological+phases+of+matter#SatiSchreiber23) for resolution) and it is these authors who very much amplify (and may have actually coined) the term "10-fold way". Moreover, they point out ([pp. 75](https://arxiv.org/pdf/1208.5055.pdf#page=75)) that a 10-fold classification is already contained by [Dyson 1962](#Dyson62)(!), which the authors re-interpret as the classification of [[super division algebras]]. 
 
@@ -70,6 +72,9 @@ The 10-fold way was also approached from a purely [[representation theory|repres
 * {#FreedMoore13} [[Daniel Freed]], [[Gregory Moore]], *Twisted equivariant matter*, Ann. Henri Poincaré **14** (2013)  1927-2023 &lbrack;[arXiv:1208.5055](https://arxiv.org/abs/1208.5055), [doi:10.1007/s00023-013-0236-x](https://doi.org/10.1007/s00023-013-0236-x)&rbrack;
 
 * {#Moore13} [[Gregory Moore]]: _Quantum symmetries and compatible Hamiltonians_ (2013) &lbrack;[pdf](http://www.physics.rutgers.edu/~gmoore/695Fall2013/CHAPTER1-QUANTUMSYMMETRY-OCT5.pdf)&rbrack;
+
+* {#ChiuTeoSchnyderRyu2016} [[Ching-Kai Chiu]], [[Jeffrey C.Y. Teo]], [[Andreas P. Schnyder]], [[Shinsei Ryu]]: *Classification of topological quantum matter with symmetries*, Rev. Mod. Phys. **88** (2016) 035005 &lbrack;[arXiv:1505.03535](https://arxiv.org/abs/1505.03535), [doi:10.1103/RevModPhys.88.035005](https://doi.org/10.1103/RevModPhys.88.035005)&rbrack;
+
 
 * {#GeikoMoore21} Roman Geiko, [[Gregory W. Moore]], _Dyson’s classification and real division superalgebras_, Journal of High Energy Physics **2021** 4 (2021) 299 &lbrack;[doi: 10.1007/jhep04(2021)299](http://dx.doi.org/10.1007/jhep04%282021%29299)&rbrack;
 
