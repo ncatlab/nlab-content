@@ -41,7 +41,7 @@ Just as monoidal categories can be identified with [[representable multicategori
 
 Multiactegories were introduced in Definition 6.9 of the following paper, in the additional generality of [[skew-multicategories]]. Ordinary multiactegories are skew-multicategories that are **left-** and **right-normal** in the terminology ibid.
 
-* [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack.
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack;.
 
 The theory of [[representable multicategory|representability]] for multiactegories is developed in §3.4 of:
 
