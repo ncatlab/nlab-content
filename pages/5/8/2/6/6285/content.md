@@ -211,7 +211,7 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
 
 The original:
 
-* {#Wigner31} [[Eugene P. Wigner]]: §20(app.) *Gruppentheorie und ihre Anwendung auf die Quantenmechanik der Atomspektren*, Springer (1931) &lbrack;[doi:10.1007/978-3-663-02555-9](https://doi.org/10.1007/978-3-663-02555-9), [pdf](https://digbib.ubka.uni-karlsruhe.de/volltexte/wasbleibt/33355459/33355459.pdf)&rbrack;
+* {#Wigner31} [[Eugene P. Wigner]] §20 (appndx) of: *Gruppentheorie und ihre Anwendung auf die Quantenmechanik der Atomspektren*, Springer (1931) &lbrack;[doi:10.1007/978-3-663-02555-9](https://doi.org/10.1007/978-3-663-02555-9), [pdf](https://digbib.ubka.uni-karlsruhe.de/volltexte/wasbleibt/33355459/33355459.pdf)&rbrack;
 
 and its English translation:
 
@@ -232,6 +232,8 @@ A proof in the greater generality of possibly non-[[pure state|pure]] [[quantum 
 See also:
 
 * Wikipedia, _[Wigner's theorem](https://en.wikipedia.org/wiki/Wigner%27s_theorem#Statement)_
+
+* {#Uhlmann2016} [[Armin Uhlmann]]: *Anti- (Conjugate) Linearity*, Sci. China Phys. Mech. Astron. **59** (2016) 630301  &lbrack;[arXiv:1507.06545](https://arxiv.org/abs/1507.06545), [doi:10.1007/s11433-015-5777-1](https://doi.org/10.1007/s11433-015-5777-1)&rbrack;
 
 
 Discussion for [[quaternions|quaternionic]] Hilbert spaces:
