@@ -58,6 +58,10 @@ See also:
 
 * [[Yosuke Kubota]]: *Stable homotopy theory of invertible gapped quantum spin systems I: Kitaev's $\Omega$-spectrum* &lbrack;[arXiv:2503.12618](https://arxiv.org/abs/2503.12618)&rbrack;
 
+* [[Yosuke Kubota]]: *Stable homotopy theory of invertible gapped quantum spin systems*, [talk at](CQTS#KubotaNov2025) *[[CQTS]]*@NYUAD (Nov 2025) &lbrack;slides:[[Kubota-CQTS-251105.pdf:file]]&rbrack;
+
+
+
 
 ### Long-range entanglement
 
