@@ -127,7 +127,7 @@ See also:
 
 * references at *[[Wigner's theorem]]*.
 
-* Santtu Ruotsalainen: *On a Weyl-von Neumann -type Theorem for Antilinear Self-adjoint Operators* &lbrack;[arXiv:1203.4670](https://arxiv.org/abs/1203.4670)&rbrack;
+* Santtu Ruotsalainen: *On a Weyl-von Neumann-type Theorem for Antilinear Self-adjoint Operators* &lbrack;[arXiv:1203.4670](https://arxiv.org/abs/1203.4670)&rbrack;
 
 
 [[!redirects antilinear maps]]
