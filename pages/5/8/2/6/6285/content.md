@@ -174,6 +174,13 @@ $U \,\colon\, \mathcal{H} \xrightarrow{\;} \mathcal{H}$ which is either a [[unit
 The first full proof of this statement seems to be that due to [Bargmann 1964, §1.3](#Bargmann64), following indications in the appendix of §20 in [Wigner 1931](#Wigner31)/[59](#Wigner1959). A geometric proof via the [[Fubini-Study metric]] is given in [Freed 2012, Thm. 8](#Freed12). Statement and proof in the greater generality of possibly non-[[pure state|pure]] [[quantum states]] is given in [Moretti 2017, Thm. 12.11](#Moretti17).
 
 
+## Further properties
+
+
+[[!include PCT quantum symmetries -- section]]
+
+
+
 ## Related theorems
 
 
