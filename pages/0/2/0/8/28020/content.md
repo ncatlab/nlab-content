@@ -34,4 +34,9 @@ See also:
 
 * Wikipedia: *[Essential spectrum](https://en.wikipedia.org/wiki/Essential_spectrum)*
 
+With focus on [[Fredholm operators]]:
+
+* {#Schechter1965} [[Martin Schechter]]: *Fredholm Operators and the Essential Spectrum*, New York University Courant Institute (1965) &lbrack;[pdf](https://ia801803.us.archive.org/17/items/fredholmoperator00sche/fredholmoperator00sche.pdf)&rbrack;
+
+
 [[!redirects essential spectra]]
