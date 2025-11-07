@@ -294,7 +294,7 @@ $V$ equipped with a pointed homogeneous self-dual regular open convex cone $C \s
 
 * A morphism from one object, say $(V,C)$, to another, say $(V',C')$, is a linear map $T : V \to V'$ preserving the inner product and mapping $C$ into $C'$.  
 
-Now for the payoff.  The work of Koecher and Vinberg, nicely explained in Koecher's  Minnesota notes ([Koecher](#Koecher)) shows that:
+Now for the payoff.  The work of Koecher and Vinberg, nicely explained in Koecher's Minnesota notes ([Koecher](#Koecher)) shows that:
 
 
 +-- {: .num_theorem}
@@ -341,8 +341,15 @@ $$
   \big\}
   \mathrlap{\,.} 
 $$
-
 In short: finite-dimensional formally real Jordan algebras arise fairly naturally as observables starting from a formalism where nonnegative observables form a cone, as long as we insist on some properties of this cone.
+
+### Relation to Lie algebras
+
+There is a deep connection between Jordan algebras and *3-graded Lie algebras*, which are ordinary $\mathbb{Z}$-graded Lie algebras $L$ that vanish except in grades -1, 0 and 1:
+
+$$  L = L_{-1} \oplus L_0 \oplus L_1 $$
+
+In fact the category of Jordan algebras is equivalent to the category of 3-graded Lie algebras equipped with extra structure and properties.   As a result, I. L. Kantor said "There are no Jordan algebras; there are only Lie algebras" ([Kac](#Kac)).
 
 ### Relation to derivations 
 
@@ -415,8 +422,6 @@ The original articles:
  
 * {#JordanvNeumannWigner34} [[Pascual Jordan]], [[John von Neumann]], [[Eugene Wigner]], *On an algebraic generalization of the quantum mechanical formalism*, Ann. Math. **35** (1934) 29-64 &lbrack;[jstor:1968117](https://www.jstor.org/stable/1968117), [doi:10.1007/978-3-662-02781-3_21](https://doi.org/10.1007/978-3-662-02781-3_21)&rbrack;
  
-
- 
 Textbooks:
 
 *  Harald Hanche-Olsen and Erling Stormer: _Jordan Operator Algebras_, Pitman (1984)  &lbrack;[web](http://www.math.ntnu.no/~hanche/joa/)&rbrack;
@@ -443,22 +448,22 @@ More on the physical motivation for regarding any [[algebra of quantum observabl
 
 * [[John Baez]], *Jordan algebras*, Section 4 of: *Getting to the Bottom of Noether's Theorem* &lbrack;[arXiv:2006.14741](https://arxiv.org/abs/2006.14741)&rbrack;
 
+Relations between Jordan and Lie superalgebras (these papers also have results interesting in the "non-super" case):
+
+* {#Kac2} Victor G. Kac, Classification of simple $\mathbb{Z}$-graded Lie superalgebras and simple Jordan superalgebras, Communications in Algebra, 5(13) (2007), 1375–1400. doi:[0.1080/00927877708822224](https://doi.org/10.1080/00927877708822224) (paywalled)
 
 See also: 
 
 * Wikipedia, *[Jordan algebra](https://en.wikipedia.org/wiki/Jordan_algebra)*
 
-* {#Zelmanov83} E. I. Zelmanov: *On prime Jordan algebras. II*,
-_Sibirsk Mat. J._ **24** (1983) 89-104
+* {#Zelmanov83} E. I. Zelmanov: *On prime Jordan algebras. II*, _Sibirsk Mat. J._ **24** (1983) 89-104
 
 * [[Irving Kaplansky]]: _Graded Jordan algebras I_ &lbrack;[pdf](https://web.osu.cz/~Zusmanovich/files/kaplansky/gja.pdf), [[Kaplansky-GradedJordanAlgebras.pdf:file]]&rbrack;
-
 
 
 Remarks on Jordan algebras as [[algebras of observables]] in [[quantum physics]]: 
 
 * {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], p. 80 of: _[[Lectures on the geometry of quantization]]_, Berkeley Mathematics Lecture Notes series, American Mathematical Society (1997) &lbrack;[ams:bmln-8](https://bookstore.ams.org/bmln-8), [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf), [[BatesWeinstein-Lectures.pdf:file]]&rbrack;
-
 
 
 Discussion of [[spectral triples]] over Jordan algebras in the [[Connes-Lott model]]:
