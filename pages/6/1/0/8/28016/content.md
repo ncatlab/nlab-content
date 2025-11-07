@@ -72,7 +72,7 @@ $$ [(a,L,u),(b,M,v)] = (L(b) - M(a), [L,M]+L_{a,v}-L_{b,u}, L(v) - M(u)) $$
 
 for $L,M \in \mathfrak{g}_0, u,v \in \mathfrak{g}_1$. ([Caveny & Smirnov 11 Thrm. 5.3](#CavenySmirnov11))
 
-Let $\mathbf{LA}_{3-gr}$ be the category of Lie algebras, $\mathbf{LA}_{3-gr}^\varepsilon$ be the category of Lie algebras with an anti-graded involution, and $\mathbf{JTS}$ be the category of Jordan triple systems. The first construction (with $V=\mathfrak{g}_1$) describes a [[forgetful functor]] $\mathcal{F}_\mathcal{T}\colon\mathbf{LA}_{3-gr}^\varepsilon\rightarrow\mathbf{JTS}$. The second construction defines a [[fully faithful functor]] $\widehat{TKK}\colon\mathbf{JTS}\rightarrow\mathbf{LA}_{3-gr}^\varepsilon$, which gives and [[adjunction]]:
+Let $\mathbf{LA}_{3gr}$ be the category of Lie algebras, $\mathbf{LA}_{3gr}^\varepsilon$ be the category of Lie algebras with an anti-graded involution, and $\mathbf{JTS}$ be the category of Jordan triple systems. The first construction (with $V=\mathfrak{g}_1$) describes a [[forgetful functor]] $\mathcal{F}_\mathcal{T}\colon\mathbf{LA}_{3gr}^\varepsilon\rightarrow\mathbf{JTS}$. The second construction defines a [[fully faithful functor]] $\widehat{TKK}\colon\mathbf{JTS}\rightarrow\mathbf{LA}_{3gr}^\varepsilon$, which gives and [[adjunction]]:
 $$
 \widehat{TKK}\dashv\mathcal{F}_\mathcal{T}.
 $$
