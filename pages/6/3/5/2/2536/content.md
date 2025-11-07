@@ -34,7 +34,7 @@ More recently, the [[Bohr topos]] associated to a noncommutative [[algebra of ob
 
 ## Definition
 
-A **Jordan algebra** is a [[commutative algebra|commutative]] [[nonassociative algebra]] $J$ satisfying the __Jordan identity__ $(x y) (x x) = x (y (x x))$ for all $x,y$ in $J$.  
+A **Jordan algebra** is a [[commutative algebra|commutative]] [[nonassociative algebra]] $J$ satisfying the __Jordan identity__ $(x x) (x y) = x ((x x) y)$ for all $x,y$ in $J$.  
 
 It follows (via a nontrivial argument) that $J$ is [[power-associative algebra|power-associative]], and the Jordan identity generalizes to
 $$ (x^m y) x^n = x^m (y x^n) $$
@@ -48,6 +48,13 @@ $$x\circ y \stackrel{def}{=} \frac{x\cdot y + y \cdot x}{2}.$$
 
 Such Jordan algebras are called __special__ Jordan algebras; all others are called __[[exceptional Jordan algebra|exceptional]]__.
 
+The Jordan identity $(x x) (x y) = x ((x x) y)$ may equivalently be restated as 
+
+$$   L_{x^2} L_x = L_{x^2} L_x $$
+
+where $L_x \colon J \to J$ is the operation of left multiplication, or else as a restricted form of the associative law:
+
+$$   (x^2 y) x = x^2 (x y) \, .$$
 
 ## Examples
 
@@ -353,15 +360,28 @@ In short: finite-dimensional formally real Jordan algebras arise fairly naturall
 
 ### Relation to Lie algebras
 
-There is a deep connection between Jordan algebras and *3-graded Lie algebras*, which are ordinary $\mathbb{Z}$-graded Lie algebras $L$ that vanish except in grades -1, 0 and 1:
+There is a deep connection between Jordan algebras and *3-graded Lie algebras*, which are ordinary $\mathbb{Z}$-graded Lie algebras that vanish except in grades -1, 0 and 1:
 
 $$  
-  L = L_{-1} \oplus L_0 \oplus L_1 
+  \mathfrak{g} = \mathfrak{g}_{-1} \oplus \mathfrak{g}_0 \oplus \mathfrak{g}_1 
   \,.
 $$
 
-In fact the category of Jordan algebras is equivalent to the category of 3-graded Lie algebras equipped with extra structure and properties.   As a result, I. L. Kantor said "There are no Jordan algebras; there are only Lie algebras" (as quoted by [Kac 2007](#Kac2007)).
+In fact the category of Jordan algebras is equivalent to a category of 3-graded Lie algebras equipped with extra structure and properties.   As a result, I. L. Kantor said "There are no Jordan algebras; there are only Lie algebras" (as quoted by [Kac 2007](#Kac2007)).  
 
+More precisely, suppose we are given a 3-graded Lie algebra $\mathfrak{g}$ over a field $k$ of characteristic zero, equipped with the following structure and properties:
+
+a) if $a \in \mathfrak{g}_0$ or $\mathfrak{g}_1$ and $[a,b] = 0$ for all $b \in \mathfrak{g}_{-1}$, then $a = 0$;
+
+b) $\mathfrak{g}_{-1}$ is equipped with an element $p$ such that $\mathfrak{g}_{-1}=[\mathfrak{g}_0, p]+k p$ and $[\mathfrak{g}_1, p]$ generates the Lie algebra $\mathfrak{g}_0$.
+
+Then $\mathfrak{g}_1$ becomes a Jordan algebra with product 
+
+$$ a \circ b=[[p, a], b] \, .$$
+
+Moreover this construction defines an equivalence between the category of 3-graded Lie algebras with the above extra structure and properties and the category of Jordan algebras ([Kac 2007](#Kac2007)).
+
+There are many variants of this result, called **Tits-Kantor-Koecher constructions** after three researchers who invented different versions ([Tits 1962](#Tits1962)), ([Kantor 1966](Kantor1966)), ([Koecher 1967](#Koecher1967)).  These constructions seem to be more cleanly stated in terms of [[Jordan triple systems]] or [[Jordan pairs]], two slight generalizations of Jordan algebras.  Many of these variants extend to the "super" context.   For details see ([Barbier and Coulembier 2018](#BarbierCoulembier2018)), ([Caveny and Smirnov 2011](#CavenySmirnov11)), and also [[Jordan triple system]].  
 
 ### Relation to derivations 
 
@@ -425,12 +445,44 @@ $$
 
 Moreover, in *any* Jordan algebra, a pair of elements $X, Y$ determines a derivation $(X, \cdot, Y)$ ([Jacobson](#Jacobson) Sec. I.7).  In the finite-dimensional case there is no difficulty with exponentiating a derivation to obtain an automorphism.   Thus, for any elements $X, Y$ of a finite-dimensional Jordan algebra, the solution of the above equation always determines a one-parameter group of Jordan algebra automorphisms.
 
-
 ### Relation to commutative subalgebras
 
 For every [[associative algebra]] there is its [[semilattice of commutative subalgebras]]  $ComSub(A)$. At least for $A, B$ [[von Neumann algebra]]s without type $I_2$ [[von Neumann algebra factor]]-subfactors, the isomorphisms $ComSub(A) \to ComSub(B)$ correspond to isomorphisms between the corresponding Jordan algebras $A_J \to B_J$.
 
 For more details see *[[semilattice of commutative subalgebras]]*.
+
+### Identities
+
+All Jordan algebras obey a host of nonobvious identities.   Here are a few of the identities listed in ([Jacobson](#Jacobson), Sec. I.7).   Polarizing the quartic identity
+
+$$ (x \circ x) \circ (x \circ y) = x \circ ((x \circ x) \circ y) $$
+
+we obey a tetralinear identity that can be written in various ways.   If the characteristic of the underlying field is not 2, it can be written as
+
+$$ [c \circ d,a,b] + [b \circ c,a,d] + [b \circ d,a,c] = 0 $$
+
+where
+
+$$ [a,b,c] = (a \circ b) \circ c - a \circ (b \circ c) $$
+
+is the so-called **associator**.
+
+If $L_a \colon A \to A$ is the operation of left multiplication by $a$, any Jordan algebra obeys
+
+$$ [[L_a, L_b], L_c] = L_{[a,b,c]} \, .$$
+
+This identity implies that the vector space of linear maps $L_a$ is closed under the Lie triple product $[[-,-],-]$ and thus forms a [[Lie triple system]].  It also can be used to show that the operations $[L_a,L_b] \colon A \to A$ are [[derivations]] of $A$, where a **derivation** of a Jordan algebra is a linear map $\delta \colon A \to A$ obeying the [[Leibniz law]]
+
+$$ \delta(a \circ b) = \delta(a) \circ b + a \circ \delta(b) \, .$$
+
+Jordan algebra derivations of the form $[L_a,L_b]$ are called **inner derivations**.  It is also easy to see that
+
+$$ [L_a, L_b](c) = a \circ (b \circ c) - b \circ (a \circ c) = 
+a \circ (c \circ b) - (a \circ c) \circ b = -[a, c, b] $$
+
+so 
+
+$$ [L_a, L_b] = -[a , - , b] \, .$$
 
 
 ## Related concepts
@@ -489,9 +541,22 @@ More on the physical motivation for regarding any [[algebra of quantum observabl
 
 * [[John Baez]], *Jordan algebras*, Section 4 of: *Getting to the Bottom of Noether's Theorem* &lbrack;[arXiv:2006.14741](https://arxiv.org/abs/2006.14741)&rbrack;
 
-Relations between Jordan and [[super Lie algebras]] (these papers also have results interesting in the "non-super" case):
+For the original Tits-Kantor-Koecher constructions, see:
+
+* {#Tits1962} Jacques Tits, *Une classe d’algèbres de Lie en relation avec les algèbres de Jordan*, Nederl. Akad. Wetensch. Proc. Ser. A 65 (1962), which is the same as Indag. Math. 24 (1962) 530–535.
+
+* {#Kantor1966} I. L. Kantor, *Transitive differential groups and invariant connections in homogeneous spaces*, Trudy Sem.
+Vektor. Tenzor. Anal. 13 (1966), 310–398.
+
+* {#Koecher1967} M. Koecher, *Imbedding of Jordan algebras into Lie algebras*, I. Am. J. Math. 89 (1967), 787–816.
+
+More modern versions of the TKK construction relating [[Jordan superalgebras]] and [[super Lie algebras]] also have results interesting in the "non-super" case.  The work of Barbier and Coulembier compares many previous constructions, while Caveny and Smirnov take an explicitly functorial attitude:   
 
 * {#Kac2007} [[Victor G. Kac]]: *Classification of simple $\mathbb{Z}$-graded Lie superalgebras and simple Jordan superalgebras*, Communications in Algebra **5** 13 (2007) 1375–1400 &lbrack;[doi:0.1080/00927877708822224](https://doi.org/10.1080/00927877708822224)&rbrack;
+
+* {#BarbierCoulembier2018} Sigiswald Barbier and Kevin Coulembier, *On structure and TKK algebras for Jordan superalgebras*, Communications in Algebra **46** 2 (2018), 684–704.  &lbrack;[doi:full/10.1080/00927872.2017.1327059](https://www-tandfonline-com.eux.idm.oclc.org/doi/full/10.1080/00927872.2017.1327059)&rbrack;
+
+* {#CavenySmirnov11} Deanna Caveny and [[Oleg Smirnov]]: _Categories of Jordan structures and graded Lie algebras_ (2011), &lbrack;[arxiv:1106.2447](https://arxiv.org/abs/1106.2447)&rbrack;
 
 See also: 
 
