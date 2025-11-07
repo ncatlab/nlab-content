@@ -37,7 +37,13 @@ Discussion of the [[Velo-Zwanziger problem]] for the higher [[string]] excitatio
 
 * [[Massimo Porrati]], Rakibur Rahman, [[Augusto Sagnotti]], _String Theory and The Velo-Zwanziger Problem_, Nucl. Phys. B846:250-282, 2011 ([arXiv:1011.6411](http://arxiv.org/abs/1011.6411))
 
-## Related $n$Lab entries
+On [[supersymmetry breaking]]:
+
+* E. Dudas, J. Mourad, [[Augusto Sagnotti]]: *Supersymmetry Breaking with Fields, Strings and Branes* &lbrack;[arXiv;2511.04367](https://arxiv.org/abs/2511.04367)&rbrack;
+
+
+
+## Related entries
 
 * [[orientifold]]
 
