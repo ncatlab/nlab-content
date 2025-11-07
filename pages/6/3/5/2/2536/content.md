@@ -22,7 +22,9 @@
 A _Jordan algebra_ is an algebra that may not be [[associativity|associative]], but is [[commutative algebra|commutative]], subject to some further conditions which are modeled after the archetypical example: for $(A, \cdot)$ any [[associative algebra]], equipping it with the _symmetrized product_
 
 $$
-  x \circ y \coloneqq \frac{1}{2}(x y + y x) 
+  x \circ y 
+    \;\coloneqq\; 
+  \tfrac{1}{2}(x y + y x) 
 $$
 
 makes $(A, \circ)$ a Jordan algebra. It is this relation that originally motivated the notion in discussion of [[quantum mechanics]], for the symmetrized product and hence the Jordan algebra structure of the [[algebra of observables]] of a [[quantum mechanics|quantum mechanical]] system is what remains when one ignores the otherwise all-important [[commutators]] and hence the [[Hamiltonian]] flows on observables.
@@ -443,7 +445,7 @@ $$
   \,.
 $$
 
-Moreover, in *any* Jordan algebra, a pair of elements $X, Y$ determines a derivation $(X, \cdot, Y)$ ([Jacobson](#Jacobson) Sec. I.7).  In the finite-dimensional case there is no difficulty with exponentiating a derivation to obtain an automorphism.   Thus, for any elements $X, Y$ of a finite-dimensional Jordan algebra, the solution of the above equation always determines a one-parameter group of Jordan algebra automorphisms.
+Moreover, in *any* Jordan algebra, a pair of elements $X, Y$ determines a derivation $(X, \cdot, Y)$ ([Jacobson 1968](#Jacobson1968) Sec. I.7).  In the finite-dimensional case there is no difficulty with exponentiating a derivation to obtain an automorphism.   Thus, for any elements $X, Y$ of a finite-dimensional Jordan algebra, the solution of the above equation always determines a one-parameter group of Jordan algebra automorphisms.
 
 ### Relation to commutative subalgebras
 
@@ -453,9 +455,13 @@ For more details see *[[semilattice of commutative subalgebras]]*.
 
 ### Identities
 
-All Jordan algebras obey a host of nonobvious identities.   Here are a few of the identities listed in ([Jacobson](#Jacobson), Sec. I.7).   Polarizing the quartic identity
+All Jordan algebras obey a host of nonobvious identities.   Here are a few of the identities listed in [Jacobson '68 Sec. I.7](#Jacobson1968).  [[polarization|Polarizing]] the quartic identity
 
-$$ (x \circ x) \circ (x \circ y) = x \circ ((x \circ x) \circ y) $$
+$$ 
+  (x \circ x) \circ (x \circ y) 
+    \;=\; 
+  x \circ \big( (x \circ x) \circ y\big) 
+$$
 
 we obey a tetralinear identity that can be written in various ways.   If the characteristic of the underlying field is not 2, it can be written as
 
@@ -519,7 +525,7 @@ Textbooks:
 
 *  Harald Hanche-Olsen and Erling Stormer: _Jordan Operator Algebras_, Pitman (1984)  &lbrack;[web](http://www.math.ntnu.no/~hanche/joa/)&rbrack;
 
-* {#Jacobson} [[Nathan Jacobson]], _Structure and Representations of Jordan Algebras_,  Colloquium Publication **39**, American Mathematical Society (1968) &lbrack;[ISBN:978-0-8218-3179-3](https://bookstore.ams.org/COLL/39), <a href="https://cjhb.site/Files.php/Books/Algebra/Structures%20and%20Representations%20of%20Jordan%20Algebras%20(AMS%20Collq.%20Pub.%20v.%2039).pdf">pdf</a>&rbrack;
+* {#Jacobson1968} [[Nathan Jacobson]]: _Structure and Representations of Jordan Algebras_,  Colloquium Publication **39**, American Mathematical Society (1968) &lbrack;[ISBN:978-0-8218-3179-3](https://bookstore.ams.org/COLL/39), <a href="https://cjhb.site/Files.php/Books/Algebra/Structures%20and%20Representations%20of%20Jordan%20Algebras%20(AMS%20Collq.%20Pub.%20v.%2039).pdf">pdf</a>&rbrack;
 
 * {#McCrimmon} Kevin McCrimmon: _A Taste of Jordan Algebras_, Springer (2006) &lbrack;[pdf](http://math.nsc.ru/LBRT/a1/files/mccrimmon.pdf)&rbrack;
 
