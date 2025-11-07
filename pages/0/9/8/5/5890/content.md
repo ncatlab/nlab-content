@@ -56,13 +56,13 @@ See the commented list of references [below](#References).
 
 Proof for the [norm topology](UH#NormTopology) on [[U(ℋ)]]:
 
-* {#Kuiper64} [[Nicolaas Kuiper]], *Contractibility of the unitary group in Hilbert space*, Topology, 3, 19-30 (1964)
+* {#Kuiper64} [[Nicolaas Kuiper]]: *Contractibility of the unitary group in Hilbert space*, Topology **3** (1964) 19-30 
 
-* [[Luc Illusie]], *Contractibilité du groupe linéaire des espaces de Hilbert de dimension infinie*, Séminaire Bourbaki: années 1964/65 1965/66, exposés 277-312, Séminaire Bourbaki, no. 9 (1966), Exposé no. 284, 9 p. ([numdam:SB_1964-1966__9__105_0](http://www.numdam.org/item/SB_1964-1966__9__105_0))
+* [[Luc Illusie]]: *Contractibilité du groupe linéaire des espaces de Hilbert de dimension infinie*, Séminaire Bourbaki: années 1964/65 1965/66, exposés 277-312, Séminaire Bourbaki, no. 9 (1966), Exposé no. 284, 9 p. &lbrack;[numdam:SB_1964-1966__9__105_0](http://www.numdam.org/item/SB_1964-1966__9__105_0)&rbrack;
 
 Proof for the [strong operator topology](UH#StrongOperatorTopology) on [[U(ℋ)]]:
 
-* {#DixmierDOuady63} [[Jacques Dixmier]], [[Adrien Douady]], Lem. 3 on p. 251 of: *Champs continus d’espaces hilbertiens et de $C^\ast$-algèbres*, Bulletin de la Société Mathématique de France, Tome 91 (1963), pp. 227-284 ([numdam:BSMF_1963__91__227_0](http://archive.numdam.org/item/BSMF_1963__91__227_0))
+* {#DixmierDOuady63} [[Jacques Dixmier]], [[Adrien Douady]], Lem. 3 on p. 251 of: *Champs continus d’espaces hilbertiens et de $C^\ast$-algèbres*, Bulletin de la Société Mathématique de France, Tome 91 (1963), pp. 227-284 &lbrack;[numdam:BSMF_1963__91__227_0](http://archive.numdam.org/item/BSMF_1963__91__227_0)&rbrack;
 
 Direct proof for the [compact-open topology](UH#CompactOpenTopology) on [[U(ℋ)]]:
 
