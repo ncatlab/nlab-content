@@ -18,41 +18,108 @@
 
 ## Idea
 
-An __operator topology__ is an abbreviation of a __[[topology]] on a space of (continuous linear) [[linear operator|operator]]s__ between [[topological vector space]]s over a fixed [[field]] $k$ of [[real number|reals]] or [[complex number|complexes]] (possibly also p-adics, skewfield of [[quaternions]] etc.). In other words the [[hom-sets]] in the category of topological vector spaces as objects and continuous linear operators as morphisms are equipped with an operator topology.
+By an *operator topology* one means a [[topology]] (the [[structure]] of a [[topological space]]) on the [[set]] of [[continuous map|continuous]] [[linear operators]] between [[topological vector spaces]].
 
-There are many widely used topologies, some with standard names. Let $L(V,W) = Hom_{TVS}(V,W)$ be the set of continuous linear operators. 
+In other words, given a [[sequence]] of [[linear operators]] $(T_n)_{n \in \mathbb{N}}$, an operator topology determines whether this [[convergence of a sequence|converges]] to a given limit operator $T \;\colon\; V \longrightarrow W$.
 
-* __weak operator topology__ on $L(V,W)$ is given by the basis of open neighborhoods of zero given by sets of the form $U(x,f) = \big\{A\in L(V,W)  \,\big|\, f(A(x)) \lt 1 \big\} $ where $x\in V$ and $f\in W^* = Hom_{TVS}(W,k)$. A sequence $(A_n)$ converges to $A$ in weak operator topology iff the sequence $(A_n(x))$ converges to $A(x)$ in the weak topology on $W$. We write $A_n\stackrel{w}\longrightarrow A$ or $w-lim A_n = A$. 
+There are three key examples:
 
-* __strong operator topology__: the basis of neighborhoods of zero is given by sets 
-$N(x,U) = \big\{A\in L(V,W) \,|\, A v \in U \big\}$, where $v\in V$ and $U$ is a neighborhood of zero in $W$. For convergence of sequences, we write $A_n\stackrel{s}\longrightarrow A$ or $\text{s-lim} A_n= A$.
+1. the *strong operator topology* requires that for each [[vector]] $v \in V$ the sequence of [[image]] vectors $T_n(v)$ converges to $T(v)$ in $W$,
 
-* __uniform operator topology__: here we assume that $V,W$ are normed spaces with norms $p_V$, $p_W$. Then $L(V,W)$ has a uniform operator topology induced by the norm given by the formula  
+1. the *weak operator topology* requires less: namely that for every $v \in V$ and every [[linear functional]] $\omega$ on $W$, the sequence of numbers $\omega\big(T_n(v)\big)$ converges to $\omega\big(T(v)\big)$,
 
-$$
-p(A) = sup_{v\neq 0} \frac{p_W(A v)}{p_V (v)}
-$$
-
-* __ultraweak operator topology__ ...
+1. the *[[norm topology]]* requires more (assuming now that $V$ and $W$ are equipped with [[normed vector space|norms]] $\vert-\vert$), namely that the [[supremum]] over all unit norm vectors, $\vert v \vert = 1$, of the [[norm]] $\vert T_n(v) - T(v)\vert$ converges to zero.
 
 
-## Properties
+## Definition
 
-### Relation to norm topology
+Let 
 
-The reason that in the definition of a [[unitary representation]], the strong operator topology on $\mathcal{U}(\mathcal{H})$ is used and not the [[norm topology]], is that only few [[homomorphisms]] turn out to be [[continuous map|continuous]] in the norm topology.
+* $k$ denote the [[ground field]], assumed [[normed field|normed]],
 
-Example: let $G$ be a [[compact topological space|compact]] [[Lie group]] and $L^2(G)$ be the [[Hilbert space]] of square integrable [[measurable function]]s with respect to its [[Haar measure]]. The right [[regular representation]] of $G$ on $L^2(G)$ is defined as
+* $V$, $W$ be [[topological vector space]],
 
-$$
-  R \,\colon\, G \to \mathcal{U}(L^2(G))
-$$
+* $L(V,W) = Hom_{TVS}(V,W)$ denote the set of [[continuous maps|continuous]] [[linear operators]] between them.
+
+
+\begin{definition}
+The *weak operator topology* on $L(V,W)$ is given by the [[neighbourhood base|basis of open neighborhoods]] of [[zero]] given by [[subsets]] of the form 
 
 $$
-  g \mapsto \big( R_g \,\colon\, f(x) \mapsto f(x g) \big)
+  U(v,f) 
+    \;=\; 
+  \Big\{
+     T\in L(V,W)  
+      \,\Big\vert\, 
+    \omega\big(T(v)\big) \vert \lt 1 
+  \Big\}
+  \mathrlap{\,,} 
+$$ 
+
+where $v\in V$ and $\omega \in W^* = Hom_{TVS}(W,k)$. 
+
+\end{definition}
+
+\begin{definition}
+The *strong operator topology* on $L(V,W)$ is given by the [[neighbourhood base|basis of open neighborhoods]] of [[zero]] is given by subsets of the form
+$$
+  N(v,U) 
+   \;=\; 
+  \Big\{
+    T \in L(V,W) 
+      \,\Big|\, 
+    T(v) \in U 
+  \Big\}
+  \,,
 $$
 
-and this will generally not be continuous in the norm topology, but is always continuous in the strong topology. 
+where $v\in V$ and $U$ is a [[neighborhood]] of zero in $W$. 
+\end{definition}
+
+\begin{definition}
+Assuming that $V,W$ are [[normed vector spaces]] with [[norms]] $p_V$, $p_W$ then the *uniform operator topology* or *norm topology* on $L(V,W)$ is induced by the norm given by the formula  
+
+$$
+  p(T) 
+    \;=\; 
+  sup_{v\neq 0} \frac{p_W(T v)}{p_V (v)}
+  \mathrlap{\,.}
+$$
+
+\end{definition}
+
+
+## Examples
+
+### The unitary group
+
+The reason that in the definition of a [[unitary representation]], the strong operator topology on [[U(ℋ)|$\mathcal{U}(\mathcal{H})$]] is used and not the [[norm topology]], is that only few [[group homomorphisms]] turn out to be [[continuous map|continuous]] in the norm topology.
+
+For instance, let
+
+* $G$ be a [[compact Lie group]],
+
+* $L^2(G)$ denote the [[Hilbert space]] of [[square integrable function|square integrable]] [[measurable functions]] with respect to its [[Haar measure]],
+
+then the (right) [[regular representation]] of $G$ on $L^2(G)$, defined as
+
+$$
+  \begin{array}{ccc}
+    G &\longrightarrow& \mathcal{U}\big(L^2(G)\big)
+    \\
+    g 
+      &\mapsto&
+    \big( 
+       U(-) \mapsto U( - \cdot g) 
+    \big)
+    \mathrlap{\,,}
+  \end{array}
+$$
+
+is generally not continuous in the [[norm topology]], but is always continuous in the strong operator topology. 
+
+(The exception is of course when $G$ is [[discrete group|discrete]], hence [[finite group|finite]].)
+
 
 ## Related entries
 
