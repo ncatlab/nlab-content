@@ -79,7 +79,7 @@ Original articles include
 
 * {#Witten81} [[Edward Witten]], _Dynamical breaking of supersymmetry_, Nuclear Physics B Volume 188, Issue 3, 5 October 1981, Pages 513-554 (<a href="https://doi.org/10.1016/0550-3213(81)90006-7">doi:10.1016/0550-3213(81)90006-7</a>)
 
-Review includes
+Review:
 
 * [[Hans-Peter Nilles]], _Supersymmetry, supergravity and particle physics_, Physics Reports Volume 110, Issues 1–2, August 1984, Pages 1-162 (<a href="https://doi.org/10.1016/0370-1573(84)90008-5">doi:10.1016/0370-1573(84)90008-5</a>)
 
@@ -91,9 +91,15 @@ Review includes
 
 * [[Matteo Bertolini]], _Supersymmetry breaking_ ([pdf](http://people.sissa.it/~bertmat/lect7.pdf))
 
+* E. Dudas, J. Mourad, [[Augusto Sagnotti]]: *Supersymmetry Breaking with Fields, Strings and Branes* &lbrack;[arXiv;2511.04367](https://arxiv.org/abs/2511.04367)&rbrack;
+
+
 A quantitative analysis showing that locally supersymmetric [[spacetime]] theories will generically not exhibit global spacetime supersymmetry is
 
 * {#DLSW} [[Keith Dienes]], Michael Lennek, David S&#233;n&#233;chal, Vaibhav Wasnik, _Is SUSY Natural?_ NewJ.Phys.10:085003,2008 ([arXiv:0804.4718](http://arxiv.org/abs/0804.4718))
+
+
+
  
 Discussion of supersymmetry breaking unified with [[cosmic inflation]] via [[higher curvature corrections]] of [[supergravity]] -- in the [[Starobinsky model of cosmic inflation]] -- includes
 
