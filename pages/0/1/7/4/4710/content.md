@@ -106,20 +106,17 @@ A rng with a unit must have an identity.
 \begin{proof}
 Let $R$ be a rng with a unit $u$;\linebreak
 
-For any $a,b\in R$ denote by ${}_a u^{-1}$ the unique element s.t. $a= {}_a u^{-1} \cdot u$, and denote by $u^{-1}_b$ the unique element s.t. $b= u\cdot u^{-1}_b$;\linebreak
-the goal is to show that $u^{-1}_u= {}_u u^{-1}$ and that is the identity of $R$.
+for any $a,b\in R$ define ${}_a u^{-1}$ as the unique element s.t. $a= {}_a u^{-1} \cdot u$, and define $u^{-1}_b$ as the unique element s.t. $b= u\cdot u^{-1}_b$;\linebreak
+the goal is to show that $u^{-1}_u= {}_u u^{-1}$ which is the identity of $R$.
 
-One has
-$$ a\cdot u^{-1}_u= {}_a u^{-1}\cdot u \cdot u^{-1}_u= {}_a u^{-1} \cdot u = a$$
-and also
-$$ {}_u u^{-1} \cdot b= {}_u u^{-1} \cdot u\cdot u^{-1}_b=u\cdot u^{-1}_b=b,$$
-for all $a,b\in R$;\linebreak
-therefore, it remains to show that $u^{-1}_u= {}_u u^{-1}$.
+Just observe that
 
-To accomplish this, notice that, on one hand, one has $u = {}_u u^{-1}\cdot u$;\linebreak
-on the other hand, one has $u\cdot u^{-1}_u \cdot u=u\cdot u$, hence $u\cdot (u^{-1}_u\cdot u-u)=0$, which must imply $u= u^{-1}_u\cdot u$ since $u$ is neither a left nor a right zero divisor (The equations $0=x\cdot u$ and $0=u\cdot x$ both have $0$ as a solution, and that must be unique).
+* $a\cdot u^{-1}_u= {}_a u^{-1}\cdot u \cdot u^{-1}_u= {}_a u^{-1} \cdot u = a$ for any $a\in R$;
 
-By uniqueness of the solution to $u=x\cdot u$, one concludes that $u^{-1}_u= {}_u u^{-1}$.
+* $ {}_u u^{-1} \cdot b= {}_u u^{-1} \cdot u\cdot u^{-1}_b=u\cdot u^{-1}_b=b$ for any $b\in R$;
+
+* $u^{-1}_u = {}_u u^{-1} \cdot u^{-1}_u = {}_u u^{-1}$ by the previous two points.
+
 \end{proof}
 
 It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
