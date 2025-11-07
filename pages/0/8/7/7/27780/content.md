@@ -145,48 +145,38 @@ where $f'$ is any representative of the class $[f]$ according to Prop. \ref{Cons
 
 \begin{remark}
 \label{TheSpaceOfGradedFredholmOperators}
-  It turns out to be useful (such as for the discussion of [[twisted equivariant K-theory]] and of the [[K-theory classification of topological phases of matter]]) to reformulate, here and in the following, the space of Fredholm operators in the following more structured way (due to [Atiyah & Segal 2004 Def. 3.2](Fredholm+operator#AtiyahSegal04), following [Atiyah & Singer 1969 p 7](#AtiyahSinger69), see [here](Fredholm+operator#FredZero) at *[[Fredholm operator]]*):
+**(Graded Fredholm operators)**
+\linebreak
+  It turns out to be useful (such as for the discussion of [[twisted equivariant K-theory]] and of the [[K-theory classification of topological phases of matter]]) to reformulate, here and in the following, the space of Fredholm operators in the following more structured way (due to [Atiyah & Segal 2004 Def. 3.2](Fredholm+operator#AtiyahSegal04), following [Atiyah & Singer 1969 p 7](#AtiyahSinger69), see also [here](Fredholm+operator#FredZero) at *[[Fredholm operator]]*):
 
-  Given any [[cyclic group of order 2|$C_2$]]-[[graded vector space|graded]] infinite-dimensional ([[separable Hilbert space|separable]] [[complex vector space|complex]]) [[Hilbert space]] $\mathscr{H} \simeq \mathscr{H}_+ \oplus \mathscr{H}_i$, 
-write $Fred^{(0)}(\mathscr{H})$ for the set of [[bounded linear operators]] $F \,\colon\, \mathscr{H} \to \mathscr{H}$ which are
+  Given any [[cyclic group of order 2|$C_2$]]-[[graded vector space|graded]] infinite-dimensional ([[separable Hilbert space|separable]] [[complex vector space|complex]]) [[Hilbert space]] 
+$$
+  \mathscr{H}_{gr} 
+    \;\simeq\; 
+  \mathscr{H}_+ \oplus \mathscr{H}_-
+$$ 
+write 
+$$
+  Fred_{gr}(\mathscr{H}_{gr})
+  \;\subset\;
+  \mathcal{B}(\mathscr{H}_{gr})
+$$ 
+for the set of [[bounded linear operators]] $F \,\colon\, \mathscr{H} \to \mathscr{H}$ which are
 
-1. [[self-adjoint operator|self-adjoint]]: $F^\dagger = F$
+1. [[self-adjoint operator|self-adjoint]]: $F^\dagger = F$,
 
 1. odd-graded: $F(\mathscr{H}_{\pm}) \subset \mathscr{H}_{\mp}$,
 
-1. idempotent up to [[compact operators]]: $F^2 - Id \,\in\, \mathcal{K}(\mathscr{H})$,
+1. [[Fredholm operator|Fredholm]] in that there exists such $\tilde F$ which is a [[parametrix]],
 
-equipped with the [[topological space|topology]] of the [[topological subspace]], via
+equipped with the [[norm topology]].
 
-$$
-  F \,\mapsto\, \big(F ,\, F^2 - id\big)
-  \,,
-$$
-
-of the [[product space]] of the spaces of 
-
-1. [[bounded linear operators]], $\mathcal{B}$, equipped with the [[compact-open topology]] and 
-
-1. [[compact operators]], $\mathcal{K}$, equipped with the [[norm topology]]:
-
-\begin{imagefromfile}
-    "file_name": "Fred0.png",
-    "width": 800,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 20,
-        "right": 0, 
-        "left": 30
-    }
-\end{imagefromfile}
-
-This definition implies that these graded Fredholm operators are of the form
+This just means that $F \in Fred_{gr}(\mathscr{H}_{gr})$ is of the form
 
 \[
   \label{GradedFredholmOperatorInComponents}
   F 
-  = 
+  \;=\; 
   \left(
   \begin{matrix}
     0 & f^\dagger
@@ -194,9 +184,36 @@ This definition implies that these graded Fredholm operators are of the form
     f & 0 
   \end{matrix}
   \right)
+  \;\in\;
+  End\big(
+    \mathscr{H}_+ \oplus \mathscr{H}_-
+  \big)
 \]
 
-for $f$ an ordinary [[Fredholm operator]] and $f^\dagger$ fixed to be its [[adjoint operator]] (also serving as [its parametrix](Fredholm+operator#ViaParametrices)). Therefore in itself, $Fred^{(0)}$ an equivalent space of Fredholm operators. But the way it is presented by graded operators makes manifest that there is "charge conjugation" [[quantum symmetry]] acting on this space, namely by swapping the two homogeneously graded Hilbert space summands. This is useful in the following for neatly expressing extra conditions on Fredholm operators.
+for $f$ an ordinary [[Fredholm operator]]. 
+
+Therefore this space is [[homeomorphism|homeomorphic]] to the standard space of Fredholm operators:
+$$
+  \begin{array}{ccc}
+    Fred(\mathscr{H})
+    &\overset{\sim}{\longrightarrow}&
+    Fred_gr(\mathscr{H}_{gr})
+    \\
+    f 
+      &\mapsto&
+   \left(
+   \begin{matrix}
+     0 & f^\dagger
+     \\
+     f & 0 
+   \end{matrix}
+   \right)
+   \mathrlap{\,,}
+  \end{array}
+$$
+but the way it is presented by graded operators makes manifest that there is "charge conjugation" [[quantum symmetry]] acting on this space, namely by swapping the two homogeneously graded Hilbert space summands. This is useful in the following for neatly expressing (anti-)self-adjointness conditions on Fredholm operators.
+
+(The point of [Atiyah & Segal 2004 §4](Fredholm+operator#AtiyahSegal04) is to further modify this space so that it carries a non-contractible [[compact-open topology]] which allows for more general [[PU(ℋ)]] actions on it. The commutation relations discussed in the following immediately apply also to this modified space and constrain the components $f$ of its elements $F$ in the same way. It seems plausible that the correspondingly constrained modified spaces are accordingly classifying spaces for the various flavors of K-theory as is the case for the unmodified space --- as summarized [below](#SummaryInTermsOfGradedFredholmOperators) --- but this is not actually obvious.)
 \end{remark}
 
 
