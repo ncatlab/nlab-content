@@ -82,6 +82,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Restriction presheaves and restriction colimits|Daniel Lin|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1269712)| |
 |Structures in two dimensional category theory and applications to polynomial functors|Charles Walker|2019|[Macquarie repository](http://hdl.handle.net/1959.14/1270211)| |
 |The Scott adjunction|[[Ivan Di Liberti]]|2020|[arXiv](https://arxiv.org/abs/2009.07320)| |
+|Cartesian closed bicategories: type theory and coherence|[[Philip Saville]]|2020|[arXiv](https://arxiv.org/abs/2007.00624)| |
 |The Gray tensor product for 2-quasi-categories|[[Yuki Maehara]]|2020|[Macquarie repository](http://hdl.handle.net/1959.14/1284564)| |
 |Toposes of Monoid Actions|[[Morgan Rogers]]|2021|[arXiv](https://arxiv.org/abs/2112.10198)| |
 |Monadic and Higher-Order Structure|[[Nathanael Arkor]]|2022|[Cambridge repository](https://www.repository.cam.ac.uk/handle/1810/338940)| on [[relative monads]], [[second-order algebraic theories]], and monad–theory correspondences in a [[proarrow equipment]] |
