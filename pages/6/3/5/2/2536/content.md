@@ -207,7 +207,7 @@ linear functionals on $J$ and elements of $J$.  The reason is that
 every finite-dimensional Jordan algebra has a **[[trace]]**
 
 $$
-  \mathrm{tr} : J \to \mathbb{R} 
+  \mathrm{tr} \colon J \to \mathbb{R} 
 $$
 
 defined so that $\mathrm{tr}(a)$ is the trace of the linear operator 'multiplication by $a$'.  Such a Jordan algebra is then formally real if and only if
@@ -217,7 +217,7 @@ $$
 $$
 
 is a real-valued [[inner product]]. So, when $J$ is a finite-dimensional formally real Jordan algebra, any linear functional 
-$\langle \cdot \rangle : J \to \mathbb{R}$ can be written as
+$\langle \cdot \rangle \colon J \to \mathbb{R}$ can be written as
 
 $$
   \langle a \rangle = \mathrm{tr}(\rho \circ a) 
@@ -261,7 +261,9 @@ true.
    we see that $C$ being regular simply means
 
    $$
-    a \ge 0 \; and \; -a \ge 0 \quad \implies \quad a = 0 , 
+     a \ge 0 \; and \; -a \ge 0 
+      \quad \implies \quad 
+     a = 0 , 
    $$
 
    a perfectly plausible assumption.
@@ -270,7 +272,12 @@ true.
 identify linear functionals on $J$ with elements of $J$.  This also lets us define the **dual cone**
 
    $$
-     C^* = \{  a \in J \colon \forall b \in A \; \; \langle a,b \rangle \gt 0 \} 
+     C^* = \big\{  
+       a \in J 
+       \colon 
+       \forall b \in A \; \; \langle a,b \rangle \gt 0 
+     \big\} 
+     \,,
    $$
 
    which one can check is indeed a cone.  
@@ -294,7 +301,7 @@ $V$ equipped with a pointed homogeneous self-dual regular open convex cone $C \s
 
 * A morphism from one object, say $(V,C)$, to another, say $(V',C')$, is a linear map $T : V \to V'$ preserving the inner product and mapping $C$ into $C'$.  
 
-Now for the payoff.  The work of Koecher and Vinberg, nicely explained in Koecher's Minnesota notes ([Koecher](#Koecher)) shows that:
+Now for the payoff.  The work of Koecher and Vinberg, nicely explained in [Koecher 1999](#Koecher1999), shows that:
 
 
 +-- {: .num_theorem}
@@ -343,51 +350,85 @@ $$
 $$
 In short: finite-dimensional formally real Jordan algebras arise fairly naturally as observables starting from a formalism where nonnegative observables form a cone, as long as we insist on some properties of this cone.
 
+
 ### Relation to Lie algebras
 
 There is a deep connection between Jordan algebras and *3-graded Lie algebras*, which are ordinary $\mathbb{Z}$-graded Lie algebras $L$ that vanish except in grades -1, 0 and 1:
 
-$$  L = L_{-1} \oplus L_0 \oplus L_1 $$
+$$  
+  L = L_{-1} \oplus L_0 \oplus L_1 
+  \,.
+$$
 
-In fact the category of Jordan algebras is equivalent to the category of 3-graded Lie algebras equipped with extra structure and properties.   As a result, I. L. Kantor said "There are no Jordan algebras; there are only Lie algebras" ([Kac](#Kac)).
+In fact the category of Jordan algebras is equivalent to the category of 3-graded Lie algebras equipped with extra structure and properties.   As a result, I. L. Kantor said "There are no Jordan algebras; there are only Lie algebras" (as quoted by [Kac 2007](#Kac2007)).
+
 
 ### Relation to derivations 
 
 In ordinary quantum mechanics, in the special case where observables are described as elements of the Jordan algebra $\mathfrak{h}_n(\mathbb{C})$, we can describe time evolution of an observable $O(t) \in \mathfrak{h}_n(\mathbb{C})$ using Heisenberg's equation
 
-$$ \frac{d}{d t} O(t) = -i [H, O(t)] $$
+$$ 
+  \frac{d}{d t} O(t) = -i [H, O(t)] 
+  \,,
+$$
 
 where $H \in \mathfrak{h}_n(\mathbb{C})$ is a fixed element called the [[Hamiltonian]].  However, this uses the commutator bracket, which is not part of the Jordan algebra structure.   [Townsend 2016](#Townsend2016) noted a nice solution to this problem when 
 
-$$ H = -4i [X, Y]$$
+$$ 
+  H = -4i [X, Y]
+  \,,
+$$
 
 for some $X, Y \in \mathfrak{h}_n(\mathbb{C})$.   In this case we can use the identity
 
-$$ [[X, Y], A] = -\frac{1}{4}(X, A, Y)$$
+$$ 
+  [[X, Y], A] = -\frac{1}{4}(X, A, Y)
+  \,,
+$$
 
 where 
 
-$$(X, A, Y) = (X \circ A) \circ Y - X \circ (A \circ Y) $$
+$$
+  (X, A, Y) = (X \circ A) \circ Y - X \circ (A \circ Y) 
+$$
 
 is the [[associator]] of $X,A,$ and $Y$ with respect to the Jordan product on $\mathfrak{h}_n(\mathbb{C})$.  This lets us re-express Heisenberg's equation as
 
-$$ \frac{d}{d t} O(t) = (X, O(t), Y)$$
+$$ 
+  \frac{d}{d t} O(t) = (X, O(t), Y)
+  \,,
+$$
 
 so that it uses only operations available in a Jordan algebra - and an associator rather than a commutator.
 
 This raises the question of when a self-adjoint complex matrix $H$ can be written as $-4i [X, Y]$ for self-adjoint matrices $X, Y$.  This is true whenever $H$ is traceless since $\mathfrak{su}(n)$ is a compact simple real Lie algebra, and every element of such a Lie algebra is a commutator (Akhiezer, [arXiv](https://arxiv.org/abs/1501.02934)).  But *any* self-adjoint complex matrix $H$ is of the form $H' + \lambda I$ where $H'$ is traceless, so writing $H' = -4i[X,Y]$ we have
 
-$$ [H, O(t)] = [H' + \lambda I, O(t)] = [H, O(t)] = -4i [[X,Y], O(t)] = i (X, O(t), Y) $$
+$$ 
+  [H, O(t)] 
+    = 
+  [H' + \lambda I, O(t)] 
+    = 
+  [H, O(t)] 
+    = 
+  -4i \big[ [X,Y], O(t) \big] 
+    = 
+  i (X, O(t), Y)
+  \,, 
+$$
 
 so we can rewrite Heisenberg's equation as
 
-$$ \frac{d}{d t} O(t) = (X, O(t), Y).$$
+$$ 
+  \frac{d}{d t} O(t) = (X, O(t), Y)
+  \,.
+$$
 
 Moreover, in *any* Jordan algebra, a pair of elements $X, Y$ determines a derivation $(X, \cdot, Y)$ ([Jacobson](#Jacobson) Sec. I.7).  In the finite-dimensional case there is no difficulty with exponentiating a derivation to obtain an automorphism.   Thus, for any elements $X, Y$ of a finite-dimensional Jordan algebra, the solution of the above equation always determines a one-parameter group of Jordan algebra automorphisms.
 
+
 ### Relation to commutative subalgebras
 
-For [[every associative algebra]] there is its [[semilattice of commutative subalgebras]]  $ComSub(A)$. At least for $A, B$ [[von Neumann algebra]]s without type $I_2$ [[von Neumann algebra factor]]-subfactors, the isomorphisms $ComSub(A) \to ComSub(B)$ correspond to isomorphisms between the corresponding Jordan algebras $A_J \to B_J$.
+For every [[associative algebra]] there is its [[semilattice of commutative subalgebras]]  $ComSub(A)$. At least for $A, B$ [[von Neumann algebra]]s without type $I_2$ [[von Neumann algebra factor]]-subfactors, the isomorphisms $ComSub(A) \to ComSub(B)$ correspond to isomorphisms between the corresponding Jordan algebras $A_J \to B_J$.
 
 For more details see *[[semilattice of commutative subalgebras]]*.
 
@@ -440,7 +481,7 @@ Introductions and surveys:
 _Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams.org/bull/1978-84-04/S0002-990\
 4-1978-14503-0/home.html)) and ([Project Euclid website](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540925)).
 
-* {#Koecher} Max Koecher, _The Minnesota Notes on Jordan Algebras and Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 1999. doi:[10.1007/BFb0096285](http://dx.doi.org/10.1007/BFb0096285) (paywalled)
+* {#Koecher1999} Max Koecher: _The Minnesota Notes on Jordan Algebras and Their Applications_, in: *The Minnesota Notes on Jordan Algebras and Their Applications*, _Lecture Notes in Mathematics_ **1710**, Springer (1999) &lbrack;[doi:10.1007/BFb0096285](http://dx.doi.org/10.1007/BFb0096285)&rbrack;
 
 * {#Townsend2016} [[Paul Townsend]]: _The Jordan formulation of quantum mechanics: a review_ &lbrack;[arXiv:1612.09228](https://arxiv.org/abs/1612.09228)&rbrack;
 
@@ -448,9 +489,9 @@ More on the physical motivation for regarding any [[algebra of quantum observabl
 
 * [[John Baez]], *Jordan algebras*, Section 4 of: *Getting to the Bottom of Noether's Theorem* &lbrack;[arXiv:2006.14741](https://arxiv.org/abs/2006.14741)&rbrack;
 
-Relations between Jordan and Lie superalgebras (these papers also have results interesting in the "non-super" case):
+Relations between Jordan and [[super Lie algebras]] (these papers also have results interesting in the "non-super" case):
 
-* {#Kac2} Victor G. Kac, Classification of simple $\mathbb{Z}$-graded Lie superalgebras and simple Jordan superalgebras, Communications in Algebra, 5(13) (2007), 1375–1400. doi:[0.1080/00927877708822224](https://doi.org/10.1080/00927877708822224) (paywalled)
+* {#Kac2007} [[Victor G. Kac]]: *Classification of simple $\mathbb{Z}$-graded Lie superalgebras and simple Jordan superalgebras*, Communications in Algebra **5** 13 (2007) 1375–1400 &lbrack;[doi:0.1080/00927877708822224](https://doi.org/10.1080/00927877708822224)&rbrack;
 
 See also: 
 
