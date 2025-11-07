@@ -80,7 +80,7 @@ In stating these, we mostly review results from [Karoubi 1970 §I](#[Karoubi1970
 ### For $K \mathrm{U}^0$
  {#StatementForKU0}
 
-Let [[Fredholm operator|$Fred(\mathscr{H}$]] denote the space of [[Fredholm operators]], equipped with the [[norm topology]], on the countably infinite-dimensional complex [[Hilbert space]] $\mathscr{H}$.
+Let [[Fredholm operator|$Fred(\mathscr{H})$]] denote the space of [[Fredholm operators]], equipped with the [[norm topology]], on the countably infinite-dimensional complex [[Hilbert space]] $\mathscr{H}$.
 
 > (A more ambitious construction modifies $Fred(\mathscr{H})$ up to [[homotopy equivalence]] to have it carry a continuous action of the [[PU(ℋ)]] with the [[operator topology]], cf. [Atiyah & Segal 2004](#twisted K-theory#AtiyahSegal04).)
 
