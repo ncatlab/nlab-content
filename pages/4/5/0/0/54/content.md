@@ -65,9 +65,22 @@ Projects:
 
 \linebreak
 
-<div style="float:right;margin:-75px 0px 00px 30px;">
+<div style="margin:-30px 0px 00px 30px;">
+<a href="https://sciforum.net/event/ICMMP2026?section=#Sessions"><img src="/schreiber/files/ICMMP26_anncmnt_Schreiber.png" width="680"></a> 
+</div>
+
+* (upcoming) keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026), Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions)*, Hangzhou, 30 Oct--3 Nov 2026
+
+
+<div style="float:right;margin:15px 0px 00px 30px;">
 <a href="https://youtu.be/GO2UnQUHfu8"><img src="/schreiber/files/KnowTimeAppearanceThumbnail-Nov2025.jpg" width="380"></a> 
 </div>
+
+* (upcoming) 
+
+  **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
+
+  talk at *[Geometry, Higher Structures, and Physics](https://icms.ac.uk/activities/workshop/geometry-higher-structures-and-physics-icms-workshop/)*, [International Centre for Mathematical Sciences (ICMS)](https://www.icms.org.uk/), Bayes Centre, Edinburgh, 8-12 December 2025
 
 * **[Introduction to Category & Topos Theory in Physics](https://youtu.be/GO2UnQUHfu8)**, 
 
