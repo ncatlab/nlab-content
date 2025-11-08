@@ -93,14 +93,22 @@ A review of the history of these developments is in
 
 * [[John Schwarz]], _String theory origins of supersymmetry_, Nucl. Phys. Proc. Suppl. 101 (2001) 54-61 ([arXiv:hep-th/0011078](http://arxiv.org/abs/hep-th/0011078))
 
-Interpretation of the [[GSO projection]] as a [[sum]] over [[spin structures]]:
-
-* [[Nathan Seiberg]], [[Edward Witten]], _Spin Structures in String Theory_, Nucl. Phys. B276 (1986) 272 ([spire:227193](http://inspirehep.net/record/227193))
+Interpretation of the [[GSO projection]] as a [[sum]] over [[spin structures]] and discussion of [[type 0 string theory]]:
 
 
-For discussion in the context of [[D-branes]] ([[boundary conformal field theory]]) see
 
-* [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher, _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
+* [[Nathan Seiberg]], [[Edward Witten]], section 4 of: *Spin Structures in String Theory*, Nucl. Phys. B **276** (1986) 272 \[<a href="https://doi.org/10.1016/0550-3213(86)90297-X">doi:10.1016/0550-3213(86)90297-X</a>\]
+
+* [[Lance J. Dixon]], [[Jeffrey A. Harvey]]: *String Theories in Ten-Dimensions Without Space-Time Supersymmetry*, Nucl. Phys. B **274** (1986) 93-105 \[<a href="https://doi.org/10.1016/0550-3213(86)90619-X">10.1016/0550-3213(86)90619-X</a>\]
+
+
+* [[Hikaru Kawai]], D. C. Lewellen, S. H. H. Tye: *Classification of Closed Fermionic String Models*, Phys. Rev. D **34** (1986) 3794 &lbrack;[doi:10.1103/PhysRevD.34.3794](https://doi.org/10.1103/PhysRevD.34.3794)&rbrack;
+
+
+
+Discussion in the context of [[D-branes]] ([[boundary conformal field theory]]):
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher: _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
 
 Relation of the [[GSO projection]] to the [[K-theory classification of topological phases of matter]]:
 
