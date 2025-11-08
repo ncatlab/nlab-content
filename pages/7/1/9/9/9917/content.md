@@ -1,7 +1,16 @@
 
-* [webpage](http://wwwth.mpp.mpg.de/members/blumenha/)
+* [personal page](http://wwwth.mpp.mpg.de/members/blumenha/)
+
+* [institute page](https://www.theorie.physik.uni-muenchen.de/MATH/members/mpi/permanent_staff/blumenhagen_ralph/index.html)
+
+* [inSpire page](https://inspirehep.net/authors/1016081)
 
 ## Selected writings
+
+On [[D-branes]] in [[type 0 string theory]]:
+
+* [[Ralph Blumenhagen]], Anamaria Font, [[Dieter Lüst]]: *Non-Supersymmetric Gauge Theories from D-Branes in Type 0 String Theory*, Nucl. Phys. B **560** (1999) 66-92 &lbrack;[arXiv:hep-th/9906101](https://arxiv.org/abs/hep-th/9906101), <a href="https://doi.org/10.1016/S0550-3213(99)00443-5">doi:10.1016/S0550-3213(99)00443-5</a>&rbrack;
+
 
 On [[intersecting D-brane models]]:
 
