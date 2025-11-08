@@ -1,5 +1,14 @@
 
-* [website](http://www.perimeterinstitute.ca/index.phpindex.php?option=com_content&task=view&id=30&Itemid=7&view_directory=1&pi=1766)
+* [personal page](https://member.ipmu.jp/kentaro.hori/)
+
+* [institute page](https://www.u-tokyo.ac.jp/focus/en/people/people100765.html)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Kentar%C5%8D_Hori) (de)
+
+* [inSpire page](https://inspirehep.net/authors/1005599)
+
+
+
 
 ## Selected writings
 
@@ -22,6 +31,12 @@ On [[geometric engineering of QFT]] on [[D4-D6 brane intersections]] subject to 
 On [[string theory]] [[perturbative string theory vacuum|vacua]] [[KK-compactification|compactified]] on [[orbifolds]] and [[orientifolds]]:
 
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 3 of _Triples, Fluxes, and Strings_, Adv.Theor.Math.Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
+
+Explicitly identifying the [[tachyon]] field in the argument for [[D-brane charge quantization in topological K-theory]] with the [[Fredholm operator]] in the [[Atiyah-Jänich theorem|Atiyah-Jänich presentation]] of [[topological K-theory]] (with application to [[orientifolds]] via [[KR-theory]]):
+
+* [[Dongfeng Gao]], [[Kentaro Hori]]: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
+
+
 
 
 category: people
