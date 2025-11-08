@@ -16,9 +16,9 @@ he discusses [[quantum electrodynamics]] this way, and in
 
 he discusses [[Yang-Mills theory]], hence [[electroweak theory]] and [[quantum chromodynamics]] as well as [[perturbative quantum gravity]].
 
-On [[vacua]]/[[ground states]] of the [[free field|free]] [[Dirac field]] in a [[electromagnetic field|Coulomb]] [[background field]]:
+On [[vacua]]/[[ground states]] of the [[free field|free]] [[Dirac field]] in a [[electromagnetic field|Coulomb]] [[background field]] in relation to [[Fredholm operators]]:
 
-* {#KlausScharf77} [[Martin Klaus]], [[Günter Scharf]], *The regular external field problem in quantum electrodynamics*, Helv. Phys. Acta **50** (1977) $[$[doi:10.5169/seals-114890](http://doi.org/10.5169/seals-114890)$]$
+* {#KlausScharf77} [[Martin Klaus]], [[Günter Scharf]]: *The regular external field problem in quantum electrodynamics*, Helv. Phys. Acta **50** (1977) &lbrack;[doi:10.5169/seals-114890](http://doi.org/10.5169/seals-114890), [hpa-001:1977:50::1019](https://www.e-periodica.ch/cntmng?var=true&pid=hpa-001:1977:50::1019), [[KlausScharf-ExternalFieldQED.pdf:file]]&rbrack;
 
 
 
