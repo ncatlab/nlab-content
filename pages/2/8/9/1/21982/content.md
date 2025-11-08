@@ -44,9 +44,12 @@ and with emphasis on the full picture of [[twisted differential K-theory|twisted
 
 * [Witten 98, Section 3](#Witten98) adds the observation that the [[tachyon condensation]] -- which is expected (this is _[[Sen's conjecture]]_ from [Sen 98](Sen's+conjecture#ReferencesForSuperstrings)) for [[open strings]] between [[D-brane]]/[[anti-D-branes]] -- plausibly implements on their [[Chan-Paton gauge field|Chan-Paton]] [[vector bundles]] the defining [[equivalence relation]] ([here](topological+K-theory#eq:DefiningEquivalenceRelation)) of [[topological K-theory]].
 
-Explicitly identifying the [[tachyon]] field in this argument with the [[Fredholm operator]] in the [[Atiyah-Jänich theorem|Atiyah-Jänich presentation]] of [[topological K-theory]] (with application to [[orientifolds]] via [[KR-theory]]):
+Explicitly identifying the [[tachyon]] field in this argument with the [[Fredholm operator]] in the [[Atiyah-Jänich theorem|Atiyah-Jänich presentation]] of [[topological K-theory]]:
+
+* [Szabo 2002 §3.1](#Szabo2002) (rewording [Witten 2000 p 7](#Witten00))
 
 * [[Dongfeng Gao]], [[Kentaro Hori]]: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
+  > (with application to [[orientifolds]] via [[KR-theory]])
 
 
 Expression of these D-brane K-theory classes via the [[Atiyah-Hirzebruch spectral sequence]]:
@@ -106,7 +109,9 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * [[John Schwarz]], _TASI Lectures on Non-BPS D-Brane Systems_ ([arXiv:hep-th/9908144](https://arxiv.org/abs/hep-th/9908144))
 
-* {#Witten00} [[Edward Witten]], _Overview Of K-Theory Applied To Strings_, Int. J. Mod. Phys. A16:693-706, 2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
+* {#Witten00} [[Edward Witten]]: _Overview Of K-Theory Applied To Strings_, Int. J. Mod. Phys. A **16** (2001) 693-706 &lbrack;<a href="https://doi.org/10.1142/S0217751X01003822">doi:10.1142/S0217751X01003822</a>, [arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175)&rbrack;
+
+* {#Szabo2002} [[Richard Szabo]]: _D-Branes, Tachyons and K-Homology_, Mod. Phys. Lett. A **17** (2002) 2297-2316 \[<a href="https://doi.org/10.1142/S0217732302009015">doi:10.1142/S0217732302009015</a>, <a href="http://arxiv.org/abs/hep-th/0209210">arXiv:hep-th/0209210</a>\]
 
 * {#Moore02} [[Greg Moore]], _K-Theory from a physical perspective_, in: [[Ulrike Tillmann]] (ed.) _Topology, Geometry and Quantum Field Theory_, Proceedings of the 2002 Oxford Symposium in Honour of the 60th Birthday of Graeme Segal, Cambridge University Press (2004)  ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018), [doi:10.1017/CBO9780511526398.011](https://doi.org/10.1017/CBO9780511526398.011))
 
@@ -146,9 +151,8 @@ based on
  
 * [[Jacek Brodzki]], [[Varghese Mathai]], [[Jonathan Rosenberg]], [[Richard Szabo]],  _D-branes, KK-theory and duality on noncommutative spaces_, J. Phys. Conf. Ser. **103** 012004 (2008) \[<a href="https://doi.org/10.1088/1742-6596/103/1/012004">doi:10.1088/1742-6596/103/1/012004</a>, [arXiv:0709.2128](http://arxiv.org/abs/0709.2128)\]
 
-In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-brane charge as a generalized [[index]] in [[KK-theory]]. The discussion there focuses on the untwisted case. Comments on the generalization of this to topologicall non-trivial [[B-field]] and hence [[twisted K-theory]] is in
+In particular ([BMRS2](#BMRS2)) discusses the definition and construction of D-brane charge as a generalized [[index]] in [[KK-theory]]. The discussion there focuses on the untwisted case. Comments on the generalization of this to topologicall non-trivial [[B-field]] and hence [[twisted K-theory]] is in [Szabo 2002](#Szabo2002).
 
-* [[Richard Szabo]], _D-Branes, Tachyons and K-Homology_,  	Mod. Phys. Lett. A17 (2002) 2297-2316 ([arXiv:hep-th/0209210](http://arxiv.org/abs/hep-th/0209210))
 
 
 #### Conceptual problems
