@@ -54,6 +54,9 @@ On [[D-branes]] in type 0 string theory:
 
 * [[Ralph Blumenhagen]], Anamaria Font, [[Dieter Lüst]]: *Non-Supersymmetric Gauge Theories from D-Branes in Type 0 String Theory*, Nucl. Phys. B **560** (1999) 66-92 &lbrack;[arXiv:hep-th/9906101](https://arxiv.org/abs/hep-th/9906101), <a href="https://doi.org/10.1016/S0550-3213(99)00443-5">doi:10.1016/S0550-3213(99)00443-5</a>&rbrack;
 
+* [[Eduardo Eyras]]: *Stable D8-branes and Tachyon Condensation in Type 0 Open String Theory*, JHEP 9910 (1999) 005 &lbrack;[arXiv:hep-th/9908121](https://arxiv.org/abs/hep-th/9908121), [doi:10.1088/1126-6708/1999/10/005](https://doi.org/10.1088/1126-6708/1999/10/005)&rbrack;
+
+
 Discussion of possible [[K-theory classification of D-brane charge]] in type 0 string theory:
 
 * [[Justin Kaidi]], [[Julio Parra-Martinez]], [[Yuji Tachikawa]]: *Classification of String Theories via Topological Phases*, Phys. Rev. Lett. **124** (2020) 121601 &lbrack;[doi:10.1103/PhysRevLett.124.121601](https://doi.org/10.1103/PhysRevLett.124.121601)&rbrack;
