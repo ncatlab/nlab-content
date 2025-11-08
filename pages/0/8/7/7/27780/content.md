@@ -1136,7 +1136,7 @@ Identifying the [[tachyon]] field in the argument for [[D-brane charge quantizat
 
 * {#Szabo2002} [[Richard Szabo]], §3.1 in: _D-Branes, Tachyons and K-Homology_, Mod. Phys. Lett. A **17** (2002) 2297-2316 \[<a href="https://doi.org/10.1142/S0217732302009015">doi:10.1142/S0217732302009015</a>, <a href="http://arxiv.org/abs/hep-th/0209210">arXiv:hep-th/0209210</a>\]
 
-* [[Dongfeng Gao]], [[Kentaro Hori]]: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
+* [[Dongfeng Gao]], [[Kentaro Hori]], §8 of: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
 
 
 Discussion in the context of the [[10-fold way]] of [[quantum symmetries]] and the [[K-theory classification of topological phases of matter]]:
