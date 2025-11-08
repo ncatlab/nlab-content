@@ -27,6 +27,13 @@ On the [[non-abelian DBI action]]:
 
 * [[Eric Bergshoeff]], [[Adel Bilal]], [[Mees de Roo]], A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) &lbrack;[arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274)&rbrack;
 
+
+On [[D9-branes]]:
+
+* [[Eric A. Bergshoeff]], [[Mees de Roo]], Sven F. Kerstan, [[Tomas Ortin]], [[Fabio Riccioni]]: *IIB Nine-branes*, JHEP 0606:006 (2006) &lbrack;[arXiv:hep-th/0601128](https://arxiv.org/abs/hep-th/0601128), [doi:10.1088/1126-6708/2006/06/006](https://doi.org/10.1088/1126-6708/2006/06/006)&rbrack;
+
+
+
 On [[D=8 supergravity]]:
 
 * [[Mees de Roo]], [[Giuseppe Dibitetto]], Yihao Yin, _Critical points of maximal $D=8$ gauged supergravities_, JHEP 1201:029 (2012) &lbrack;[arXiv:1110.2886](http://arxiv.org/abs/1110.2886)&rbrack;
