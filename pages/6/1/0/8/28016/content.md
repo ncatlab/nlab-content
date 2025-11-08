@@ -102,14 +102,14 @@ $$
 
 for $L,M \in \mathfrak{g}_0, u,v \in \mathfrak{g}_1$. ([Caveny & Smirnov 11 Thrm. 5.3](#CavenySmirnov11))
 
-Let $\mathbf{LA}_{3gr}$ be the category of Lie algebras, $\mathbf{LA}_{3gr}^\varepsilon$ be the category of Lie algebras with an anti-graded involution, and $\mathbf{JTS}$ be the category of Jordan triple systems. The first construction (with $V=\mathfrak{g}_1$) describes a [[forgetful functor]] $\mathcal{F}_\mathcal{T}\colon\mathbf{LA}_{3gr}^\varepsilon\rightarrow\mathbf{JTS}$. The second construction defines a [[fully faithful functor]] $\widehat{TKK}\colon\mathbf{JTS}\rightarrow\mathbf{LA}_{3gr}^\varepsilon$, which gives and [[adjunction]]:
+Let $\mathbf{LA}_{3gr}^\varepsilon$ be the category of 3-graded Lie algebras with an anti-graded involution and let $\mathbf{JTS}$ the category of Jordan triple systems. The first construction (with $V=\mathfrak{g}_1$) gives a [[forgetful functor]] $U\colon\mathbf{LA}_{3gr}^\varepsilon\rightarrow\mathbf{JTS}$, while the second gives a [[fully faithful functor]] $F\colon\mathbf{JTS} \rightarrow\mathbf{LA}_{3gr}^\varepsilon$.  There is an [[adjunction]]:
 $$
-  \widehat{TKK}\dashv\mathcal{F}_\mathcal{T}.
+  F \dashv U 
 $$
+([Caveny & Smirnov 2011 6.1](#CavenySmirnov11)).
 
-([Caveny & Smirnov 2011 6.1](#CavenySmirnov11))
-
-This adjunction is not an [[equivalence of categories]]. Thus, the counit $\widehat{TKK}\mathcal{F}_\mathcal{T}\Rightarrow Id$ is not a natural isomorphism. But since $\widehat{TKK}$ is [[fully faithful]], a suitable subcategory of $\mathbf{LA}_{3-gr}^\varepsilon$ makes the [[adjunction]] an [[equivalence of categories]], which is that of 3-graded Lie algebras $\mathfrak{g}=\mathfrak{g}_{-1}\oplus\mathfrak{g}_0\oplus\mathfrak{g}_1$ with involution, which are centrally 0-closed (meaning every central 0-extension of it splits uniquely) and 0-perfect (meaning $\mathfrak{g}_0=[\mathfrak{g}_{-1},\mathfrak{g}_1]$). ([Caveny & Smirnov 11 Crl. 6.6](#CavenySmirnov11))
+This adjunction is not an [[equivalence of categories]], since the counit $F \circ U \Rightarrow Id$ is not a natural isomorphism.  But since $F$ is [[fully faithful]], the unit $Id \Rightarrow U \circ F$ is a natural isomorphism and $\mathbf{JTS}$ is a [[coreflective subcategory]] of $\mathbf{LA}_{3gr}^\varepsilon$.  Thus, 
+restricting the adjunction to suitable full subcategory of $\mathbf{LA}_{3-gr}^\varepsilon$ gives an [[equivalence of categories]].  This subcategory is that of 3-graded Lie algebras $\mathfrak{g}=\mathfrak{g}_{-1}\oplus\mathfrak{g}_0\oplus\mathfrak{g}_1$ with involution that are **centrally 0-closed** (meaning every central 0-extension of it splits uniquely) and **0-perfect** (meaning $\mathfrak{g}_0=[\mathfrak{g}_{-1},\mathfrak{g}_1]$) ([Caveny & Smirnov 11 Crl. 6.6](#CavenySmirnov11)).
 
 
 ## References
@@ -118,6 +118,6 @@ This adjunction is not an [[equivalence of categories]]. Thus, the counit $\wide
 
 * {#Jacobson49} [[Nathan Jacobson]]: _Lie and Jordan triple systems_, American Journal of Mathematics __71__ (1949) 149–170 &lbrack;[jstor:2372102](https://www.jstor.org/stable/2372102)&rbrack; also in: *Nathan Jacobson, Collected Mathematical Papers*, Contemporary Mathematicians. Birkhäuser Boston (1989) &lbrack;[doi:10.1007/978-1-4612-3694-8_2](https://doi.org/10.1007/978-1-4612-3694-8_2)&rbrack;
 
-* {#CavenySmirnov11} Deanna Caveny and [[Oleg Smirnov]]: _Categories of Jordan Structures and Graded Lie Algebras_ (2011), &lbrack;[arxiv:1106.2447](https://arxiv.org/abs/1106.2447)&rbrack;
+* {#CavenySmirnov11} Deanna Caveny and [[Oleg Smirnov]]: _Categories of Jordan structures and graded Lie algebras_ (2011), &lbrack;[arxiv:1106.2447](https://arxiv.org/abs/1106.2447)&rbrack;
 
 [[!redirects Jordan triple systems]]
