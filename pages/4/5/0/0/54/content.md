@@ -61,13 +61,23 @@ Projects:
 ## selected talks
  {#SelectedTalks}
 
-> For the complete list of invited talks I have given, see [there](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
+> complete list of invited talks: [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
 
 \linebreak
 
-* *[[schreiber:Renormalization of Wilson Loops|Renormalization and Complete QFTs]]* 
+<div style="float:right;margin:-75px 0px 00px 30px;">
+<a href="https://youtu.be/GO2UnQUHfu8"><img src="/schreiber/files/KnowTimeAppearanceThumbnail-Nov2025.jpg" width="380"></a> 
+</div>
 
-  talk at [Oberwolfach](https://www.mfo.de/) Mini-Workshop 2539b: \linebreak *[Renormalization and Randomness](https://www.mfo.de/occasion/2539b/www_view)* 
+* **[Introduction to Category & Topos Theory in Physics](https://youtu.be/GO2UnQUHfu8)**, 
+
+  guest appearance on *[KnowTime](https://www.youtube.com/channel/UCJ-937lA3_s2g5AxdpKQjVg)* (Oct 2025)
+
+  video: [full conversation](https://youtu.be/GO2UnQUHfu8), [beginner's intro to categories](https://youtu.be/2uSvJ0PRJNo), [simple intro to toposes](https://youtu.be/8CLwwwjAiOo), [on not to do perturbation theory](https://youtu.be/ryYSSRFwXqI), [on being from nothing](https://youtu.be/9_0eVZfzUYI), [on the nLab](https://youtu.be/BMD6rXBn3OA)
+
+* **[[schreiber:Renormalization of Wilson Loops|Renormalization and Complete QFTs]]**
+
+  talk at [Oberwolfach](https://www.mfo.de/) Mini-Workshop 2539b: \linebreak *[Renormalization and Randomness](https://www.mfo.de/occasion/2539b/www_view)* (Sep 2025)
 
   video invitation: [YT](https://youtu.be/wfWkKC1IU5Q)
 
@@ -77,7 +87,7 @@ Projects:
     "width": 300,
     "unit": "px",
     "margin": {
-        "top": -110,
+        "top": -40,
         "bottom": 0,
         "right": 0, 
         "left": 30
@@ -349,6 +359,8 @@ For logs of further activity see:
 * [my old feed on X.com](https://twitter.com/SchreiberUrs) (lost my password...)
 
 * [my channel on YouTube](https://www.youtube.com/@UrsSchreiber)
+
+  and [other YouTube appearances](https://www.youtube.com/results?search_query=Urs+Schreiber)
 
 while [[nLab|$n$Lab]]-edits are announced
 
