@@ -11,6 +11,12 @@ On [[D=6 supergravity]]:
  
 * [[Fabio Riccioni]], *All Couplings of Minimal Six-dimensional Supergravity_, Nucl. Phys. B **605** (2001) 245-265 &lbrack;[arXiv:hep-th/0101074](https://arxiv.org/abs/hep-th/0101074), <a href="https://doi.org/10.1016/S0550-3213(01)00199-7">doi:10.1016/S0550-3213(01)00199-7</a>&rbrack;
 
+
+On [[D9-branes]]:
+
+* [[Eric A. Bergshoeff]], [[Mees de Roo]], Sven F. Kerstan, [[Tomas Ortin]], [[Fabio Riccioni]]: *IIB Nine-branes*, JHEP 0606:006 (2006) &lbrack;[arXiv:hep-th/0601128](https://arxiv.org/abs/hep-th/0601128), [doi:10.1088/1126-6708/2006/06/006](https://doi.org/10.1088/1126-6708/2006/06/006)&rbrack;
+
+
 On [[black branes]]/[[solitonic branes|solitonic]] [[exotic branes]] and their [[double dimensional reduction]]:
 
 * [[Eric A. Bergshoeff]], [[Fabio Riccioni]], *Solitonic branes and wrapping rules*, Phys. Part. Nuclei **43** (2012) 557–561 &lbrack;[doi:10.1134/S106377961205005X](https://doi.org/10.1134/S106377961205005X)&rbrack; 
