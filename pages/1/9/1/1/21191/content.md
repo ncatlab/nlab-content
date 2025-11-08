@@ -12,6 +12,10 @@ Introducing the [[KLT relations]]:
 
 * {#KawaiLewellenTye86} [[Hikaru Kawai]], D. C. Lewellen, S. H. H. Tye, _A Relation Between Tree Amplitudes of Closed and Open Strings_, Nucl. Phys. B269 (1986) 1-23 (<a href="https://doi.org/10.1016/0550-3213(86)90362-7">doi:10.1016/0550-3213(86)90362-7</a>)
 
+On the [[GSO projection]] and [[type 0 string theory]]:
+
+* [[Hikaru Kawai]], D. C. Lewellen, S. H. H. Tye: *Classification of Closed Fermionic String Models*, Phys. Rev. D **34** (1986) 3794 &lbrack;[doi:10.1103/PhysRevD.34.3794](https://doi.org/10.1103/PhysRevD.34.3794)&rbrack;
+
 Introducing the [[IKKT matrix model]]:
 
 * {#IKKT96} [[Noboyuki Ishibashi]], [[Hikaru Kawai]], Y. Kitazawa, A. Tsuchiya, _A Large-$N$ Reduced Model as Superstring_, Nucl. Phys. B498 (1997) 467-491 ([arXiv:hep-th/9612115](http://arxiv.org/abs/hep-th/9612115), <a href="https://doi.org/10.1016/S0550-3213(97)00290-3">doi:10.1016/S0550-3213(97)00290-3</a>)
