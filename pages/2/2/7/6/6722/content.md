@@ -7,6 +7,11 @@ On [[supersymmetry breaking]] from [[super QCD]] to [[QCD]]:
 
 * [[Ian Affleck]], [[Michael Dine]], [[Nathan Seiberg]]: *Dynamical supersymmetry breaking in supersymmetric QCD.* Nuclear Physics B **241** 2 (1984) 493-534 \[<a href="https://doi.org/10.1016/0550-3213(84)90058-0">doi:10.1016/0550-3213(84)90058-0</a>\]
 
+On the [[GSO projection]] and introducing what came to be called [[type 0 string theory]]:
+
+* [[Nathan Seiberg]], [[Edward Witten]], section 4 of: *Spin Structures in String Theory*, Nucl. Phys. B **276** (1986) 272 \[<a href="https://doi.org/10.1016/0550-3213(86)90297-X">doi:10.1016/0550-3213(86)90297-X</a>\]
+
+
 
 Introducing [[mirror symmetry]] of [[D=3 N=4 super Yang-Mills theory]]:
 
