@@ -10,6 +10,10 @@
 
 ## Selected writings
 
+On the [[GSO projection]] and introducing what came to be called [[type 0 string theory]]:
+
+* [[Lance J. Dixon]], [[Jeffrey A. Harvey]]: *String Theories in Ten-Dimensions Without Space-Time Supersymmetry*, Nucl. Phys. B **274** (1986) 93-105 \[<a href="https://doi.org/10.1016/0550-3213(86)90619-X">10.1016/0550-3213(86)90619-X</a>\]
+
 Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expressions for [[D-brane charge]] are of the form of [[Chern characters]] on [[topological K-theory]], leading to the [[K-theory classification of D-brane charge]]:
 
 * {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-Brane Inflow and Anomalous Couplings on D-Branes*, Class. Quant. Grav. **14** (1997) 47-52 &lbrack;[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)&rbrack;
