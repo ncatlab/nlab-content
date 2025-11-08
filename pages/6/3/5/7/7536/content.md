@@ -1,7 +1,15 @@
 
-Arkady Tseytlin is professor for theoretical [[physics]] at Imperial College London.
+Arkady Alexander Tseytlin is professor for theoretical [[physics]] at Imperial College London.
 
 * [webpage](http://www3.imperial.ac.uk/people/a.tseytlin)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Arkady_Tseytlin)
+
+* [inSpire page](https://inspirehep.net/authors/985553)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=NjJF8vQAAAAJ&hl=en)
+
+
 
 ## Selected writings
 
@@ -20,6 +28,15 @@ On [[higher curvature corrections]] to the (abelian) [[DBI-action]] for (single)
 On the [[3-brane in 6d]] as [[brane intersection|self-intersection]] of [[M5-branes]]:
 
 * [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B475 (1996) 149 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>)
+
+
+
+On [[D-branes]] in [[type 0 string theory]]:
+
+* [[Igor Klebanov]], [[Arkady A. Tseytlin]]: *D-Branes and Dual Gauge Theories in Type 0 String Theory*, Nucl. Phys. B **546** (1999) 155-181 &lbrack;[arXiv:hep-th/9811035](https://arxiv.org/abs/hep-th/9811035), <a href="https://doi.org/10.1016/S0550-3213(99)00041-3">doi:10.1016/S0550-3213(99)00041-3</a>&rbrack;
+
+* [[Igor R. Klebanov]], [[Arkady A. Tseytlin]]: *A Non-supersymmetric Large $N$ CFT from Type 0 String Theory*, JHEP 9903:015 (1999) &lbrack;[arXiv:hep-th/9901101](https://arxiv.org/abs/hep-th/9901101), [doi:10.1088/1126-6708/1999/03/015](https://doi.org/10.1088/1126-6708/1999/03/015)&rbrack;
+  > (in relation to [[AdS/CFT duality]])
 
 
 
