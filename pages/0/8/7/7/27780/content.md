@@ -1087,6 +1087,8 @@ Tables of related or analogous structures are well-known in the discussion of th
 
 ## References
 
+### General
+
 The original articles:
 
 * {#Jänich65} [[Klaus Jänich]]: *Vektorraumbündel und der Raum der Fredholm-Operatoren*, Mathematische Annalen **161** (1965) 129–142 &lbrack;[doi:10.1007/BF01360851](https://doi.org/10.1007/BF01360851)&rbrack;
@@ -1125,13 +1127,22 @@ Further development:
 
 * Kamran Sharifi: *Atiyah-Jänich theorem for  $\sigma$-$C^\ast$-algebras* &lbrack;[arXiv:1612.03287](https://arxiv.org/abs/1612.03287)&rbrack;
 
-Formulation in the context of the [[10-fold way]] of [[quantum symmetries]] and the [[K-theory classification of topological phases of matter]]:
+### In topological quantum physics
+
+Identifying the [[tachyon]] field in the argument for [[D-brane charge quantization in topological K-theory]] with the [[Fredholm operator]] in the Atiyah-Jänich presentation of [[topological K-theory]]:
+
+* {#Witten00} [[Edward Witten]], p. 7 in: _Overview Of K-Theory Applied To Strings_, Int. J. Mod. Phys. A **16** (2001) 693-706 &lbrack;<a href="https://doi.org/10.1142/S0217751X01003822">doi:10.1142/S0217751X01003822</a>, [arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175)&rbrack;
+
+
+* {#Szabo2002} [[Richard Szabo]], §3.1 in: _D-Branes, Tachyons and K-Homology_, Mod. Phys. Lett. A **17** (2002) 2297-2316 \[<a href="https://doi.org/10.1142/S0217732302009015">doi:10.1142/S0217732302009015</a>, <a href="http://arxiv.org/abs/hep-th/0209210">arXiv:hep-th/0209210</a>\]
+
+* [[Dongfeng Gao]], [[Kentaro Hori]]: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
+
+
+Discussion in the context of the [[10-fold way]] of [[quantum symmetries]] and the [[K-theory classification of topological phases of matter]]:
 
 * {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]], §2.2 in: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
 
-Explicitly identifying the [[tachyon]] field in the argument for [[D-brane charge quantization in topological K-theory]] with the [[Fredholm operator]] in the Atiyah-Jänich presentation of [[topological K-theory]] (with application to [[orientifolds]] via [[KR-theory]]):
-
-* [[Dongfeng Gao]], [[Kentaro Hori]]: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
 
 
 [[!redirects Atiyah-Janich theorem]]
