@@ -26,9 +26,17 @@ Formulation of ([[Lagrangian densities]] for) [[type II supergravity]] with "dem
 * [[Eric Bergshoeff]], [[Renata Kallosh]], [[Tomas Ortin]], [[Diederik Roest]], [[Antoine Van Proeyen]], *New Formulations of D=10 Supersymmetry and D8-O8 Domain Walls*, Class. Quant. Grav. **18** (2001) 3359-3382 &lbrack;[arXiv:hep-th/0103233](https://arxiv.org/abs/hep-th/0103233), [doi:10.1088/0264-9381/18/17/303](https://doi.org/10.1088/0264-9381/18/17/303)&rbrack;
 
 
+
+On [[D9-branes]]:
+
+* [[Eric A. Bergshoeff]], [[Mees de Roo]], Sven F. Kerstan, [[Tomas Ortin]], [[Fabio Riccioni]]: *IIB Nine-branes*, JHEP 0606:006 (2006) &lbrack;[arXiv:hep-th/0601128](https://arxiv.org/abs/hep-th/0601128), [doi:10.1088/1126-6708/2006/06/006](https://doi.org/10.1088/1126-6708/2006/06/006)&rbrack;
+
+
 On [[defect branes]]:
 
 * {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], [[Fabio Riccioni]], _Defect Branes_, Nuclear Physics B **856** 2 (2012) 210-227 &lbrack;[arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037)&rbrack;
+
+
 
 On [[black holes]] and [[black strings]] in [[D=5 supergravity]]:
 
