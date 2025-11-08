@@ -44,17 +44,21 @@ and with emphasis on the full picture of [[twisted differential K-theory|twisted
 
 * [Witten 98, Section 3](#Witten98) adds the observation that the [[tachyon condensation]] -- which is expected (this is _[[Sen's conjecture]]_ from [Sen 98](Sen's+conjecture#ReferencesForSuperstrings)) for [[open strings]] between [[D-brane]]/[[anti-D-branes]] -- plausibly implements on their [[Chan-Paton gauge field|Chan-Paton]] [[vector bundles]] the defining [[equivalence relation]] ([here](topological+K-theory#eq:DefiningEquivalenceRelation)) of [[topological K-theory]].
 
+Explicitly identifying the [[tachyon]] field in this argument with the [[Fredholm operator]] in the [[Atiyah-Jänich theorem|Atiyah-Jänich presentation]] of [[topological K-theory]] (with application to [[orientifolds]] via [[KR-theory]]):
+
+* [[Dongfeng Gao]], [[Kentaro Hori]]: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
+
 
 Expression of these D-brane K-theory classes via the [[Atiyah-Hirzebruch spectral sequence]]:
 
 * {#MaldacenaMooreSeiberg01} [[Juan Maldacena]], [[Gregory Moore]], [[Nathan Seiberg]], _D-Brane Instantons and K-Theory Charges_, JHEP 0111:062,2001 ([arXiv:hep-th/0108100](http://arxiv.org/abs/hep-th/0108100))
 
-* {#EvslinSati06} [[Jarah Evslin]], [[Hisham Sati]], _Can D-Branes Wrap Nonrepresentable Cycles?_, JHEP0610:050,2006 ([arXiv:hep-th/0607045](http://arxiv.org/abs/hep-th/0607045))
+* {#EvslinSati06} [[Jarah Evslin]], [[Hisham Sati]], _Can D-Branes Wrap Nonrepresentable Cycles?_, JHEP 0610:050 (2006) \[<a href="http://arxiv.org/abs/hep-th/0607045">arXiv:hep-th/0607045</a>\]
 
 
-Specifically for D-branes in [[WZW models]] see
+Specifically for D-branes in [[WZW models]]:
 
-* [[Peter Bouwknegt]], _A note on equality of algebraic and geometric D-brane charges in WZW models_ ([pdf](http://people.physics.anu.edu.au/~drt105/papers/BR0312259.pdf))
+* [[Peter Bouwknegt]]: _A note on equality of algebraic and geometric D-brane charges in WZW models_, JHEP 0405 (2004) 029 \[<a href="https://doi.org/10.1088/1126-6708/2004/05/029">doi:10.1088/1126-6708/2004/05/029</a>, [arXiv:hep-th/0312259](https://arxiv.org/abs/hep-th/0312259)\]
 
 Understanding the [[solitonic brane|solitonic]] (non-singular) D-branes and their [[T-duality]] in K-theory:
 
