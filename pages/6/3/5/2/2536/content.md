@@ -54,7 +54,7 @@ The Jordan identity $(x x) (x y) = x ((x x) y)$ may equivalently be restated as
 
 $$   L_{x^2} L_x = L_{x^2} L_x $$
 
-where $L_x \colon J \to J$ is the operation of left multiplication, or else as a restricted form of the associative law:
+where $L_x \colon J \to J$ is the operation of left multiplication, or else, using commutativity, as a restricted form of the associative law:
 
 $$   (x^2 y) x = x^2 (x y) \, .$$
 
@@ -359,10 +359,9 @@ $$
 $$
 In short: finite-dimensional formally real Jordan algebras arise fairly naturally as observables starting from a formalism where nonnegative observables form a cone, as long as we insist on some properties of this cone.
 
-
 ### Relation to Lie algebras
 
-There is a deep connection between Jordan algebras and *3-graded Lie algebras*, which are ordinary $\mathbb{Z}$-graded Lie algebras that vanish except in grades -1, 0 and 1:
+There is a deep connection between Jordan algebras and **3-graded Lie algebras**, which are ordinary $\mathbb{Z}$-graded Lie algebras that vanish except in grades -1, 0 and 1:
 
 $$  
   \mathfrak{g} = \mathfrak{g}_{-1} \oplus \mathfrak{g}_0 \oplus \mathfrak{g}_1 
