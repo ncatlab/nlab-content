@@ -67,9 +67,9 @@ See also
 ### In string theory
  {#ReferencesInStringTheory}
 
-In addition to the open string tachyon [[condensation]] discussed in the references at _[[Sen's conjecture]]_, there is also work on the closed string tachyon [[condensation]] in the following articles.
+In addition to the [[open string]] tachyon [[condensation]] discussed in the references at _[[Sen's conjecture]]_, there is also work on the [[closed string]] tachyon [[condensation]]:
 
-* A. Adams, [[Joseph Polchinski]] and [[Eva Silverstein]], _Don't panic! Closed string tachyons in ALE space-times,_ JHEP 0110 (2001) 029 ([arXiv:hep-th/0108075](http://arxiv.org/abs/hep-th/0108075)).
+* A. Adams, [[Joseph Polchinski]], [[Eva Silverstein]], _Don't panic! Closed string tachyons in ALE space-times,_ JHEP 0110 (2001) 029 ([arXiv:hep-th/0108075](http://arxiv.org/abs/hep-th/0108075)).
 
 * R. Rabadan and [[Joan Simon]], _M theory lift of brane anti-brane systems and localized closed string tachyons_, JHEP 0205 (2002) 045 ([arXiv:hep-th/0203243](http://arxiv.org/abs/hep-th/0203243)).
 
@@ -85,6 +85,17 @@ The following articles specifically identify closed string tachyon condensation 
 * [[Simeon Hellerman]], Ian Swanson, _Dimension-changing exact solutions of string theory_, JHEP0709:096 (2007) &lbrack;[arXiv:hep-th/0612051](http://arxiv.org/abs/hep-th/0612051)&rbrack;
 
 * Mikel Berasaluce-Gonz&#225;lez, Miguel Montero, Ander Retolaza, [[Ángel Uranga]], _Discrete gauge symmetries from (closed string) tachyon condensation_ ([arXiv:1305.6788](http://arxiv.org/abs/1305.6788))
+
+More importantly, there are tachyon modes for [[open string|open]] [[superstrings]] that stretch between [[D-branes]] and [[anti D-branes]], and their [[tachyon condensation]] is meant to witness the (partial) pair creation/annihilation of the D-branes conjectured to lead to their [[D-brane charge quantization in topological K-theory]].
+
+On identifying this open superstring tachyon with the [[Fredholm operator]] in the [[Atiyah-Jänich theorem|Atiyah-Jänich presentation]] of [[topological K-theory]]:
+
+* {#Witten00} [[Edward Witten]], p. 7 in: _Overview Of K-Theory Applied To Strings_, Int. J. Mod. Phys. A **16** (2001) 693-706 &lbrack;<a href="https://doi.org/10.1142/S0217751X01003822">doi:10.1142/S0217751X01003822</a>, [arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175)&rbrack;
+
+* {#Szabo2002} [[Richard Szabo]], §3.1 in: _D-Branes, Tachyons and K-Homology_, Mod. Phys. Lett. A **17** (2002) 2297-2316 \[<a href="https://doi.org/10.1142/S0217732302009015">doi:10.1142/S0217732302009015</a>, <a href="http://arxiv.org/abs/hep-th/0209210">arXiv:hep-th/0209210</a>\]
+
+* [[Dongfeng Gao]], [[Kentaro Hori]]: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
+
 
 
 [[!redirects tachyons]]
