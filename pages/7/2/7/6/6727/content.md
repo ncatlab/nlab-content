@@ -110,9 +110,12 @@ Discussion in the context of [[D-branes]] ([[boundary conformal field theory]]):
 
 * [[Jürgen Fuchs]], [[Christoph Schweigert]], J. Walcher: _Projections in string theory and boundary states for Gepner models_, Nucl.Phys. B588 (2000) 110-148 ([arXiv:hep-th/0003298](https://arxiv.org/abs/hep-th/0003298))
 
-Relation of the [[GSO projection]] to the [[K-theory classification of topological phases of matter]]:
+Relation of the GSO projection to the [[symmetry protected topological phase|symmetry protected]] [[invertible field theory|invertible]] [[topological phases of matter]] and the [[K-theory classification of topological phases of matter]]:
 
-* Justin Kaidi, Julio Parra-Martinez, [[Yuji Tachikawa]], _Topological Superconductors on Superstring Worldsheets_ ([arXiv:1911.11780](https://arxiv.org/abs/1911.11780))
+* [[Justin Kaidi]], [[Julio Parra-Martinez]], [[Yuji Tachikawa]]: *Classification of String Theories via Topological Phases*, Phys. Rev. Lett. **124** (2020) 121601 &lbrack;[doi:10.1103/PhysRevLett.124.121601](https://doi.org/10.1103/PhysRevLett.124.121601)&rbrack;
+
+* [[Justin Kaidi]], [[Julio Parra-Martinez]], [[Yuji Tachikawa]]: _Topological Superconductors on Superstring Worldsheets_, SciPost Phys. **9** 010 (2020)  &lbrack;[doi:10.21468/SciPostPhys.9.1.010](https://doi.org/10.21468/SciPostPhys.9.1.010), [arXiv:1911.11780](https://arxiv.org/abs/1911.11780)&rbrack;
+
 
 
 
