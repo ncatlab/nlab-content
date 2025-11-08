@@ -1129,6 +1129,10 @@ Formulation in the context of the [[10-fold way]] of [[quantum symmetries]] and 
 
 * {#SatiSchreiber23} [[Hisham Sati]], [[Urs Schreiber]], §2.2 in: *[[schreiber:Anyonic topological order in TED K-theory]]*, Reviews in Mathematical Physics **35** 03 (2023) 2350001 \[<a href="https://doi.org/10.1142/S0129055X23500010">doi:10.1142/S0129055X23500010</a>, [arXiv:2206.13563](https://arxiv.org/abs/2206.13563)\]
 
+Explicitly identifying the [[tachyon]] field in the argument for [[D-brane charge quantization in topological K-theory]] with the [[Fredholm operator]] in the Atiyah-Jänich presentation of [[topological K-theory]] (with application to [[orientifolds]] via [[KR-theory]]):
+
+* [[Dongfeng Gao]], [[Kentaro Hori]]: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
+
 
 [[!redirects Atiyah-Janich theorem]]
 [[!redirects Atiyah-Jaenich theorem]]
