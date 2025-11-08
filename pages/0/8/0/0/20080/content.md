@@ -52,6 +52,9 @@ On [[D-branes]] in type 0 string theory:
 
 * Marco Bill&oacute;, Ben Craps, Frederik Roose: *On D-branes in Type 0 String Theory*, Phys. Lett. B **457** (1999) 61-69 &lbrack;[arXiv:hep-th/9902196](https://arxiv.org/abs/hep-th/9902196), <a href="https://doi.org/10.1016/S0370-2693(99)00508-0">doi:10.1016/S0370-2693(99)00508-0</a>&rbrack;
 
+* [[Mohammad R. Garousi]]: *String Scattering from D-branes in Type 0 Theories*, Nucl.Phys. B **550** (1999) 225-237 &lbrack;[arXiv:hep-th/9901085](https://arxiv.org/abs/hep-th/9901085), <a href="https://doi.org/10.1016/S0550-3213(99)00152-2">doi:10.1016/S0550-3213(99)00152-2</a>&rbrack;
+
+
 * [[Ralph Blumenhagen]], Anamaria Font, [[Dieter Lüst]]: *Non-Supersymmetric Gauge Theories from D-Branes in Type 0 String Theory*, Nucl. Phys. B **560** (1999) 66-92 &lbrack;[arXiv:hep-th/9906101](https://arxiv.org/abs/hep-th/9906101), <a href="https://doi.org/10.1016/S0550-3213(99)00443-5">doi:10.1016/S0550-3213(99)00443-5</a>&rbrack;
 
 * [[Eduardo Eyras]]: *Stable D8-branes and Tachyon Condensation in Type 0 Open String Theory*, JHEP 9910 (1999) 005 &lbrack;[arXiv:hep-th/9908121](https://arxiv.org/abs/hep-th/9908121), [doi:10.1088/1126-6708/1999/10/005](https://doi.org/10.1088/1126-6708/1999/10/005)&rbrack;
