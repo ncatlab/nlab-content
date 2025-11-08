@@ -16,7 +16,7 @@ Further early discussion:
 
 * {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019 (1998) \[<a href="http://arxiv.org/abs/hep-th/9810188">arXiv:hep-th/9810188</a>, [doi:10.1088/1126-6708/1998/12/019](https://doi.org/10.1088/1126-6708/1998/12/019)\]
 
-* {#Horava98} [[Petr Hořava]], *Type IIA D-Branes, K-Theory, and Matrix Theory* (1998). ([hep-th/9812135](https://arxiv.org/abs/hep-th/9812135)).
+* {#Horava98} [[Petr Hořava]]: *Type IIA D-Branes, K-Theory, and Matrix Theory*, Adv. Theor. Math. Phys. **2** (1998) 1373-1404 \[<a href="https://arxiv.org/abs/hep-th/9812135">hep-th/9812135</a>, [atmp:1998-0002-0006-a005](https://intlpress.com/site/pub/files/_fulltext/journals/atmp/1998/0002/0006/ATMP-1998-0002-0006-a005.pdf)\]
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], *On Ramond-Ramond fields and K-theory*, JHEP 0005 (2000) 044 \[<a href="https://doi.org/10.1088/1126-6708/2000/05/044">doi:10.1088/1126-6708/2000/05/044</a>, [arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027)\]
 
@@ -48,9 +48,14 @@ Explicitly identifying the [[tachyon]] field in this argument with the [[Fredhol
 
 * [Szabo 2002 §3.1](#Szabo2002) (rewording [Witten 2000 p 7](#Witten00))
 
-* [[Dongfeng Gao]], [[Kentaro Hori]]: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
+* [[Dongfeng Gao]], [[Kentaro Hori]], §8 in: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
   > (with application to [[orientifolds]] via [[KR-theory]])
 
+The suggestion that the signs of the [[eigenvalues]]/[[spectrum of an operator|spectrum]] of self-adjoint Fredholm operators ([classifying $KU^1$](Atiyah-Jänich+theorem#SummaryInTermsOfPlainFredholmOperators)) correspond with [[D-branes]]/[[anti D-branes]]:
+
+* [Hořava 1998 (3.11)](#Horava98)
+
+* [Witten 2000 p. 7](#Witten00)
 
 Expression of these D-brane K-theory classes via the [[Atiyah-Hirzebruch spectral sequence]]:
 
