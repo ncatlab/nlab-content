@@ -341,7 +341,7 @@ In 2 dimensions
 
 2d toroidal [[orientifolds]]:
 
-* Dongfeng Gao, [[Kentaro Hori]], Section 7.3 of: _On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds_ ([arXiv:1004.3972](https://arxiv.org/abs/1004.3972))
+* [[Dongfeng Gao]], [[Kentaro Hori]], section 7.3 of: *On The Structure Of The Chan-Paton Factors For D-Branes In Type II Orientifolds* \[<a href="https://arxiv.org/abs/1004.3972">arXiv:1004.3972</a>\]
 
 * {#DMR14} [[Charles Doran]], [[Kevin Iga]], Jordan Kostiuk, [[Stefan Méndez-Diez]], *Geometrization of $\mathcal{N}$-Extended 1-Dimensional Supersymmetry Algebras II*, Adv. Theor. Math> Physics **22** 3 (2018) &lbrack;[arXiv:1610.09983](https://arxiv.org/abs/1610.09983)&rbrack;
 
