@@ -1,5 +1,12 @@
 
-* [website](http://www-theory.lbl.gov/~horava/)
+* [institute page](https://physics.berkeley.edu/people/faculty/petr-horava)
+
+* [institute page](https://www-theory.lbl.gov/~horava/)
+
+* <a href="https://en.wikipedia.org/wiki/Petr_Ho%C5%99ava_(physicist)">Wikipedia entry</a>
+
+* [inSpire page](https://inspirehep.net/authors/1005602)
+
 
 ## Selected writings
 
@@ -24,6 +31,11 @@ Introducing [[Hořava-Witten theory]]:
 
 
 * {#HoravaWitten96} [[Petr Hořava]], [[Edward Witten]],  _Eleven dimensional supergravity on a manifold with boundary_, Nucl. Phys. B475 (1996) 94 ([arXiv:hep-th/9603142](http://arxiv.org/abs/hep-th/9603142))
+
+Early discussion of [[D-brane charge quantization in K-theory]]:
+
+* {#Horava98} [[Petr Hořava]]: *Type IIA D-Branes, K-Theory, and Matrix Theory*, Adv. Theor. Math. Phys. **2** (1998) 1373-1404 \[<a href="https://arxiv.org/abs/hep-th/9812135">hep-th/9812135</a>, [atmp:1998-0002-0006-a005](https://intlpress.com/site/pub/files/_fulltext/journals/atmp/1998/0002/0006/ATMP-1998-0002-0006-a005.pdf)\]
+
 
 Understanding [[solitonic brane|solitonic]] (non-[[singular brane|singular]]) [[D-branes]] and their [[T-duality]] in terms of the [[D-brane charge quantization in K-theory]]:
 
