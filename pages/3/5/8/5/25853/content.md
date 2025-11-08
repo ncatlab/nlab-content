@@ -1,5 +1,9 @@
 
-* [inspire page](https://inspirehep.net/authors/1010498)
+* [institute page](https://www.emblaustralia.org/our-people/eduardo-eyras/)
+
+* [inSpire page](https://inspirehep.net/authors/1010498)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=LiojlGoAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -18,9 +22,12 @@ On the [[KK-monopole]] in massive [[D=11 supergravity]], [[KK-reduction|reducing
 
 On [[T-duality]] for [[NS5-branes]]:
 
-Discussion of the effect of [[T-duality]] on NS5-branes includes
-
 * [[Eduardo Eyras]], [[Bert Janssen]], [[Yolanda Lozano]], _5-branes, KK-monopoles and T-duality_, Nucl. Phys. B **531** (1998) 275-301 &lbrack;[arXiv:hep-th/9806169](https://arxiv.org/abs/hep-th/9806169), <a href="https://doi.org/10.1016/S0550-3213(98)00575-6">doi:10.1016/S0550-3213(98)00575-6</a>&rbrack;
+
+On [[D-branes]] in [[type 0 string theory]]:
+
+* [[Eduardo Eyras]]: *Stable D8-branes and Tachyon Condensation in Type 0 Open String Theory*, JHEP 9910 (1999) 005 &lbrack;[arXiv:hep-th/9908121](https://arxiv.org/abs/hep-th/9908121), [doi:10.1088/1126-6708/1999/10/005](https://doi.org/10.1088/1126-6708/1999/10/005)&rbrack;
+
 
 
 category: people
