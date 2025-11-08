@@ -8,6 +8,11 @@
 
 ## Selected writings
 
+On [[string scattering amplitudes]] and [[D-branes]] in [[type 0 string theory]]:
+
+* [[Mohammad R. Garousi]]: *String Scattering from D-branes in Type 0 Theories*, Nucl.Phys. B **550** (1999) 225-237 &lbrack;[arXiv:hep-th/9901085](https://arxiv.org/abs/hep-th/9901085), <a href="https://doi.org/10.1016/S0550-3213(99)00152-2">doi:10.1016/S0550-3213(99)00152-2</a>&rbrack;
+
+
 On [[anti D-brane|anti]] [[M2-branes]]:
 
 * [[Mohammad Garousi]], _A proposal for M2-brane-anti-M2-brane action_, Phys. Lett.B686:59-63, 2010 ([arXiv:0809.0381](https://arxiv.org/abs/0809.0381))
