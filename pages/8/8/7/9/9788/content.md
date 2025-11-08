@@ -39,14 +39,17 @@ the existence of D9-branes is argued from [[BPS state]] considerations. The [[S-
 
 The [[Green-Schwarz sigma-model]] description of $(p,q)$-9-branes via cocycles on [[extended super Minkowski spacetimes]] is obtained in 
 
-* {#Sakaguchi00} Makoto Sakaguchi, section 2 of _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
+* {#Sakaguchi00} Makoto Sakaguchi, section 2 of: _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
+See also:
 
+* [[Eric A. Bergshoeff]], [[Mees de Roo]], Sven F. Kerstan, [[Tomas Ortin]], [[Fabio Riccioni]]: *IIB Nine-branes*, JHEP 0606:006 (2006) &lbrack;[arXiv:hep-th/0601128](https://arxiv.org/abs/hep-th/0601128), [doi:10.1088/1126-6708/2006/06/006](https://doi.org/10.1088/1126-6708/2006/06/006)&rbrack;
 
-Cohomological discussion (maybe mostly of [[M9-branes]]) is in
+The suggestion of all stable D-brane configurations arise via [[tachyon condensation]] from D9-brane/[[anti D-brane|anti]]-D-brane pairs, leading to [[D-brane charge quantization in K-theory]]:
 
-* {#Sati14} [[Hisham Sati]], _Ninebrane structures_ ([arXiv:1405.7686](http://arxiv.org/abs/1405.7686))
+* {#Horava98} [[Petr Hořava]]: *Type IIA D-Branes, K-Theory, and Matrix Theory*, Adv. Theor. Math. Phys. **2** (1998) 1373-1404 \[<a href="https://arxiv.org/abs/hep-th/9812135">hep-th/9812135</a>, [atmp:1998-0002-0006-a005](https://intlpress.com/site/pub/files/_fulltext/journals/atmp/1998/0002/0006/ATMP-1998-0002-0006-a005.pdf)\]
 
+* {#Witten00} [[Edward Witten]]: _Overview Of K-Theory Applied To Strings_, Int. J. Mod. Phys. A **16** (2001) 693-706 &lbrack;<a href="https://doi.org/10.1142/S0217751X01003822">doi:10.1142/S0217751X01003822</a>, [arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175)&rbrack;
 
 
 [[!redirects D9-branes]]
