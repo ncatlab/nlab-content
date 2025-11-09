@@ -187,6 +187,12 @@ included the case of category-valued functors, hence of 2-sheaves, in:
 
 * [[Jean Giraud]], _Classifying topos_, in: [[William Lawvere]] (ed.) _Toposes, Algebraic Geometry and Logic_, Lecture Notes in Mathematics **274**, Springer (1972) &lbrack;[doi:10.1007/BFb0073964](https://doi.org/10.1007/BFb0073964)&rbrack;
 
+See also:
+
+* [[Ross Street]]: *Characterization of bicategories of stacks*, in: *Category Theory*, Lecture Notes in Mathematics **962**, Springer (1982) 282–291 &lbrack;[doi:10.1007/BFb0066909](https://doi.org/10.1007/BFb0066909)&rbrack;
+
+* [[Ross Street]]: *Two-dimensional sheaf theory*, Journal of Pure and Applied Algebra **23** 3 (1982) 251-270 \[<a href="https://doi.org/10.1016/0022-4049(82)90101-3">doi:10.1016/0022-4049(82)90101-3</a>\]
+
 ### In terms of categories internal to sheaf toposes
  {#ReferencesInTermsOfInternalCategories}
 
