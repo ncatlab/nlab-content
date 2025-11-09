@@ -1,5 +1,8 @@
 [[!redirects 2-logic]]
 [[!redirects 2-logic]]
+[[!redirects 2-logic]]
+[[!redirects 2-logic]]
+[[!redirects 2-logic]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,31 +19,11 @@
 {:toc}
 
 ## Idea
+This page collects several 2-dimensional aspects of categorical logic. We see a collection of unifying themes:
 
-As a [[category]] has an [[internal logic]] so a [[2-category]] has internal _2-logic_
+* Grothendieck and Elementary 2-topoi capture several defining features of the 2-category of categories. This treatment largely mirrors its 1-dimensional counterpart whose aim is to study the properties of the category of Sets. Subobject classifiers are replaced by classifiers of fibrations. Powersets become presheaf constructions. The Cantor embedding transforms into the Yoneda one.
 
-## Related concepts
-
-* [[type theory]], [[logic]]
-
-* [[2-type theory]], **2-logic**
-
-* [[(∞,1)-type theory]], [[(∞,1)-logic]]
-
-## References
-
-* [[Mark Weber]], *Yoneda structures from 2-toposes*, Appl Categor Struct **15** (2007) 259–323 &lbrack;[doi:10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2), [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
-* [[Luca Mesiti]], [*Aspects of 2-dimensional Elementary Topos Theory*](https://etheses.whiterose.ac.uk/id/eprint/35008/1/Mesiti_thesis_finalversion.pdf)
-* [[Ross Street]], Two-dimensional sheaf theory
-
-A discussion on 2-categorical logic appeared on the Category Theory Zulip:
-
-* *What became of 2-categorical logic?*, Category Theory Zulip, ([web](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/What.20.20became.20of.20.202-categorical.20logic.3F))
-
-
-
-
-# Bibliography dumped by Ivan to be polished.
+* for S a suitable 2-dimensional sketch-like object its 2-category of models in Cat is a category of 1-theories: coherent categories, regular categories, lex categories. Thus, on one side we have the study of 2-sketch like objects, of 2-monads on Cat and lex, and on 2-functorial semantics. This is the adagio that 2-theories are logics. On the other we have the study of 2-categories of (1)-theories, i.e. the idea that 2-models are 1-theories.
 
 ## Exactness conditions of 2-categories
 * [BG14] John Bourke and Richard Garner. Two-dimensional regularity and exactness. Journal of Pure and Applied Algebra, 218(7):1346–1371, 2014.
@@ -86,16 +69,19 @@ categories and flat pseudofunctors. Advances in Mathematics, 333:266–313, 2018
 
 
 
-### Yoneda structures
+### Yoneda structures and double categorical aspects of the presehaf construction
 
-### Double categorical aspects of the presehaf construction
+* Walker. Yoneda structures and KZ doctrines. [1703.08693] 
+*  Seerp Roald Koudenburg. Formal category theory in augmented virtual double categories
+* Seerp Roald Koudenburg. A double-dimensional approach to formal category theory
+
+
 
 ##2-functorial semantics
 
 * [ABK24]Nathanael Arkor, John Bourke and Joanna Ko. Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation. 2024. arXiv: 2412.07475
 
-* [DO22]  Ivan Di Liberti and Axel Osmond. Bi-accessible and bipresentable 2-categories.
-2022. arXiv: 2203.07046
+* [DO22]  Ivan Di Liberti and Axel Osmond. Bi-accessible and bipresentable 2-categories. 2022. arXiv: 2203.07046
 
 * [BG88] Renato Betti and Marco Grandis. Complete theories in 2-categories. Cahiers de topologie et g´eom´etrie diﬀ´erentielle cat´egoriques, 29(1):9–57, 1988.
 
@@ -107,13 +93,38 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 ### 2-theories and types
 
 * [CDL21] Greta Coraglia and Ivan Di Liberti. Context, judgement, deduction. arXiv preprint arXiv:2111.09438, 2021.
-Vít Jelínek, Type theory and its semantics (Master thesis)
-Jonathan Osser,  A 2‑Sketchy Approach to Type Theory. (Master thesis)
+
+* Vít Jelínek, Type theory and its semantics (Master thesis)
+
+* Jonathan Osser,  A 2‑Sketchy Approach to Type Theory. (Master thesis)
+
+* [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]], *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, 12 (2022) 1–14, &lbrack;[doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334)&rbrack;
+
+* {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical structures in computer science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
 
 ### Rewriting
-Samuel Mimram, Categorical Coherence from Term Rewriting Systems
-SAMUEL MIMRAM, REWRITING TECHNIQUES FOR RELATIVE COHERENCE
-[Pow89a] John Power. An abstract formulation for rewrite systems. In Category Theory and Computer Science, pages 300–312, Berlin, Heidelberg, 1989. Springer Berlin Heidelberg. doi:10.1007/ BFb0018358.
+* Samuel Mimram, Categorical Coherence from Term Rewriting Systems
+
+* SAMUEL MIMRAM, REWRITING TECHNIQUES FOR RELATIVE COHERENCE
+
+* [Pow89a] John Power. An abstract formulation for rewrite systems. In Category Theory and Computer Science, pages 300–312, Berlin, Heidelberg, 1989. Springer Berlin Heidelberg. doi:10.1007/ BFb0018358.
+
+* [[Tom Hirschowitz]], *Cartesian closed 2-categories and permutation equivalence in higher-order rewriting*. Logical Methods in Computer Science, Logical Methods in Computer Science Association, 2013, 9 (3), pp.10. ([pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document))
+
+
+### 2-categories of 1-theories
+* Garner and Lack. Lex Colimits.
+* Di Liberti and Ye. Logics and concepts in the 2-category of Topoi.
+* Di Liberti and Lobbia. Sketches and Classifying Logoi.
 
 ## (infty,2)-topoi
-FERNANDO ABELLAN AND LOUIS MARTINI. (∞,2)-TOPOI AND DESCENT
+* FERNANDO ABELLAN AND LOUIS MARTINI. (∞,2)-TOPOI AND DESCENT
+
+
+## Related concepts
+
+* [[type theory]], [[logic]]
+
+* [[2-type theory]], **2-logic**
+
+* [[(∞,1)-type theory]], [[(∞,1)-logic]]
