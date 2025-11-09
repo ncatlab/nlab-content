@@ -41,7 +41,9 @@ A topos $\mathcal{E}$ is called _two-valued_ if its [[subobject classifier]] $\O
 
 * Though the  forcing models resulting from the above mentioned filter-quotient construction provide a plethora of examples of Boolean two-valued toposes other than $Set$, two-valued toposes are by no means bound to be Boolean. 
 
-* In fact, there exists a rich supply of two-valued toposes that are not Boolean provided by the **toposes of actions of monoids** $M$:  Since the underlying set of $\Omega$ consists of all right ideals of $M$ with $m\in M$ acting on a right ideal $I$ by mapping it to $I\cdot m=\{x\in M|m\cdot x\in I\}\;,$ a global element picks out a right ideal $J$ that satisfies $J\cdot y= J$ for all $y\in M$, inheriting by equivariance the triviality of the action on $1$ with underlying set a singleton, which implies $J=\empty$ or $J=M$, the latter since $j\in J$ entails $1\in J\cdot j=J\;.$ Whence $Set^{M^{op}}$ is two-valued but it is a well known excercise that $Set^{M^{op}}$ is Boolean precisely iff $M$ is a group.
+* In fact, there exists a rich supply of two-valued toposes that are not Boolean provided by the **toposes of actions of monoids** $M$:  Since the underlying set of $\Omega$ consists of all right ideals of $M$ with $m\in M$ acting on a right ideal $I$ by mapping it to $I\cdot m=\{x\in M|m\cdot x\in I\}\;,$ a global element picks out a right ideal $J$ that satisfies $J\cdot y= J$ for all $y\in M$, inheriting by equivariance the triviality of the action on $1$ with underlying set a singleton, which implies $J=\empty$ or $J=M$, the latter since $j\in J$ entails $1\in J\cdot j=J\;.$ Whence $Set^{M^{op}}$ is two-valued but it is a well known exercise that $Set^{M^{op}}$ is Boolean precisely iff $M$ is a group.
+
+* More generally, a [[presheaf topos]] on a category $C$ is two-valued if and only if C is [[connected graph|strongly connected]], in the sense that every [[homset]] of $C$ is inhabited (Caramello [2016](#Ca16)).
 
 
 ## Related entries
@@ -59,6 +61,8 @@ A topos $\mathcal{E}$ is called _two-valued_ if its [[subobject classifier]] $\O
 ## References
 
 * {#Ca12}[[Olivia Caramello]], _Atomic toposes and countable categoricity_ , Appl. Cat. Struc. **20** no. 4 (2012) pp.379-391. ([arXiv:0811.3547](http://arxiv.org/abs/0811.3547))
+
+* {#Ca16}[[Olivia Caramello]], [_Grothendieck toposes as unifying ‘bridges’ in Mathematics_] (https://www.oliviacaramello.com/Unification/HDROliviaCaramello.pdf), habilitation thesis, University of Paris 7 (2016).
 
 * {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
 
