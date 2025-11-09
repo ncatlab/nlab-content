@@ -117,7 +117,7 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 * Ahrens, Benedikt, Peter LeFanu Lumsdaine, and Paige Randall North. "Comparing semantic frameworks for dependently-sorted algebraic theories." Asian Symposium on Programming Languages and Systems. Singapore: Springer Nature Singapore, 2024.
 * Coraglia, Greta, and Jacopo Emmenegger. "Categorical models of subtyping." arXiv preprint arXiv:2312.14600 (2023).
 
-## (infty,2)-topoi
+## (∞,2)-topoi
 * FERNANDO ABELLAN AND LOUIS MARTINI. (∞,2)-TOPOI AND DESCENT
 
 
