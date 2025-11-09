@@ -1,5 +1,3 @@
-[[!redirects Jordan pairs]]
-[[!redirects Jordan pairs]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -125,8 +123,11 @@ $$[(D^+, D^-), (E^+, E^-)] = ([D^+, E^+], [D^-, E^-]) \, .$$
 
 ## References
 
-* {#Loos75} Ottmar Loos, _Jordan Pairs_, Lecture Notes in Mathematics, vol. 460, Springer, 1975, ISBN 978-3-540-37499-2.
+* {#Loos75} [[Ottmar Loos]]: _Jordan Pairs_, Lecture Notes in Mathematics **460** Springer (1975) &lbrack;ISBN:978-3-540-37499-2, [doi:10.1007/BFb0080843](https://doi.org/10.1007/BFb0080843), [ark:/13960/t9774fs7f ](https://archive.org/details/jordanpairs0000loos)&rbrack;
 
-* {#Loos77} Ottmar Loos, _Bounded Symmetric Domains and Jordan Pairs_, Dept. of Mathematics, University of California, 1977., California, 1977.
+* {#Loos77} [[Ottmar Loos]]: _Bounded Symmetric Domains and Jordan Pairs_, Lecture notes, University of California (1977)
+
+
+[[!redirects Jordan pairs]]
 
 
