@@ -512,6 +512,9 @@ $$ [L_a, L_b] = -[a , - , b] \, .$$
 
 * [[Jordan triple system]]
 
+* [[Jordan pair]]
+
+
 ## References
 
 The original articles:
