@@ -90,7 +90,7 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 
 * Power, John. "Categories with algebraic structure." *International Workshop on Computer Science Logic*. Berlin, Heidelberg: Springer Berlin Heidelberg, 1997.
 
-### 2-theories and types
+### 2-categories as 2-theories (aka logics)
 
 * [CDL21] Greta Coraglia and Ivan Di Liberti. Context, judgement, deduction. arXiv preprint arXiv:2111.09438, 2021.
 
@@ -116,6 +116,9 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 * Garner and Lack. Lex Colimits.
 * Di Liberti and Ye. Logics and concepts in the 2-category of Topoi.
 * Di Liberti and Lobbia. Sketches and Classifying Logoi.
+* Coraglia, Greta, and Jacopo Emmenegger. "A 2-categorical analysis of context comprehension." arXiv preprint arXiv:2403.03085 (2024).
+* Ahrens, Benedikt, Peter LeFanu Lumsdaine, and Paige Randall North. "Comparing semantic frameworks for dependently-sorted algebraic theories." Asian Symposium on Programming Languages and Systems. Singapore: Springer Nature Singapore, 2024.
+* Coraglia, Greta, and Jacopo Emmenegger. "Categorical models of subtyping." arXiv preprint arXiv:2312.14600 (2023).
 
 ## (infty,2)-topoi
 * FERNANDO ABELLAN AND LOUIS MARTINI. (∞,2)-TOPOI AND DESCENT
