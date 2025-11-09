@@ -62,7 +62,7 @@ This suggests, of course, that more of [[proper equivariant homotopy theory|prop
 
 For [[topological K-theory|topological]] [[equivariant K-theory]] this is the case, by
 
-* {#PronkScull07} [[Dorette Pronk]], [[Laura Scull]], Prop. 4.1 in: _Translation Groupoids and Orbifold Bredon Cohomology_, Canad. J. Math. 62(2010), 614-645 ([arXiv:0705.3249](https://arxiv.org/abs/0705.3249), [doi:10.4153/CJM-2010-024-1](https://doi.org/10.4153/CJM-2010-024-1))
+* {#PronkScull07} [[Dorette Pronk]], [[Laura Scull]], Prop. 4.1 in: _Translation Groupoids and Orbifold Bredon Cohomology_, Canad. J. Math. **62** (2010) 614-645 \[<a href="https://doi.org/10.4153/CJM-2010-024-1">doi:10.4153/CJM-2010-024-1</a>, [arXiv:0705.3249](https://arxiv.org/abs/0705.3249)\]
 
 Therefore it makes sense to _define_ [[orbifold K-theory]] for [[orbifolds]] $\mathcal{X}$ which are equivalent to a [[global quotient orbifold]] 
 $
