@@ -19,7 +19,7 @@
 {:toc}
 
 ## Idea
-This page collects several 2-dimensional aspects of categorical logic. We see a collection of unifying themes:
+This page collects several 2-dimensional aspects of [[categorical logic]]. We see a collection of unifying themes:
 
 * Grothendieck and Elementary 2-topoi capture several defining features of the 2-category of categories. This treatment largely mirrors its 1-dimensional counterpart whose aim is to study the properties of the category of Sets. Subobject classifiers are replaced by classifiers of fibrations. Powersets become presheaf constructions. The Cantor embedding transforms into the Yoneda one.
 
