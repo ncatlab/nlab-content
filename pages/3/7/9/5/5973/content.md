@@ -52,8 +52,6 @@ On 2-type theory:
 
 * [[Tom Hirschowitz]], *Cartesian closed 2-categories and permutation equivalence in higher-order rewriting*. Logical Methods in Computer Science, Logical Methods in Computer Science Association, 2013, 9 (3), pp.10. ([pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document))
 
-* [[Mike Shulman]], _[[michaelshulman:2-categorical logic]]_
-
 * [[Philip Saville]], *Cartesian closed bicategories: type theory and coherence*. PhD thesis, 2020. [pdf](https://arxiv.org/pdf/2007.00624.pdf).
 
 * A type system with semantics in [[virtual equipment]]s:
