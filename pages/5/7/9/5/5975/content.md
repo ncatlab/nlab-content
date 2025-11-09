@@ -1,8 +1,5 @@
 [[!redirects 2-logic]]
-[[!redirects 2-logic]]
-[[!redirects 2-logic]]
-[[!redirects 2-logic]]
-[[!redirects 2-logic]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
