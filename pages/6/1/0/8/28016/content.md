@@ -26,7 +26,7 @@ $$
 
 A **Jordan triple system** axiomatizes the properties of this triple product of self-adjoint complex matrices.  
 
-Later it was discovered that there are close relations between Jordan triple systems and [[Lie triple systems]]. Just as Lie triple systems naturally give $\mathbb{Z}/2$-graded [[Lie algebras]], Jordan triple systems naturally give a certain class of so-called **3-graded Lie algebras**, which are $\mathbb{Z}$-graded Lie algebras concentrated in degrees $-1,0$ and $1$.   And just as the tangent space of any point in a [[symmetric space]] is naturally a Lie triple system, the tangent space of any point in a [[hermitian]] symmetric space is naturally a Jordan triple system.
+Later it was discovered that there are close relations between Jordan triple systems and [[Lie triple systems]]. Just as [[Lie triple systems]] naturally give $\mathbb{Z}/2$-graded [[Lie algebras]], Jordan triple systems naturally give a certain class of so-called **3-graded Lie algebras**, which are $\mathbb{Z}$-graded Lie algebras concentrated in degrees $-1,0$ and $1$.   And just as the tangent space of any point in a [[symmetric space]] is naturally a Lie triple system, the tangent space of any point in a [[hermitian]] symmetric space is naturally a Jordan triple system.
 
 ## Definition
 
@@ -65,7 +65,7 @@ $$ \{a,b,c\} = a b^t c - c b^t a .$$
 
 ## Lie triple systems from Jordan triple systems
 
-Any Jordan triple system gives a Lie triple system with Lie triple product given by
+Any Jordan triple system gives a [[Lie triple system]] with Lie triple product given by
 
 $$ [x,y,z] = \{x,y,z\} - \{y,x,z\} .$$
 
@@ -112,9 +112,13 @@ This adjunction is not an [[equivalence of categories]], since the counit $F \ci
 restricting the adjunction to suitable full subcategory of $\mathbf{LA}_{3-gr}^\varepsilon$ gives an [[equivalence of categories]].  This subcategory is that of 3-graded Lie algebras $\mathfrak{g}=\mathfrak{g}_{-1}\oplus\mathfrak{g}_0\oplus\mathfrak{g}_1$ with involution that are **centrally 0-closed** (meaning every central 0-extension of it splits uniquely) and **0-perfect** (meaning $\mathfrak{g}_0=[\mathfrak{g}_{-1},\mathfrak{g}_1]$) ([Caveny & Smirnov 11 Crl. 6.6](#CavenySmirnov11)).
 
 
+## Related concepts
+
+* [[Lie triple system]]
+
 ## References
 
-* {#Loos71} Ottmar Loos, _Jordan triple systems, R-spaces, and bounded symmetric domains_, Bulletin of the American Mathematical Society __77__ (1971) 558–561. [pdf](https://www.ams.org/journals/bull/1971-77-04/S0002-9904-1971-12753-2/S0002-9904-1971-12753-2.pdf)
+* {#Loos71} [[Ottmar Loos]]: _Jordan triple systems, $R$-spaces, and bounded symmetric domains_, Bulletin of the American Mathematical Society __77__ (1971) 558–561 &lbrack;[doi:10.1090/S0002-9904-1971-12753-2](https://doi.org/10.1090/S0002-9904-1971-12753-2), [pdf](https://www.ams.org/journals/bull/1971-77-04/S0002-9904-1971-12753-2/S0002-9904-1971-12753-2.pdf)&rbrack;
 
 * {#Jacobson49} [[Nathan Jacobson]]: _Lie and Jordan triple systems_, American Journal of Mathematics __71__ (1949) 149–170 &lbrack;[jstor:2372102](https://www.jstor.org/stable/2372102)&rbrack; also in: *Nathan Jacobson, Collected Mathematical Papers*, Contemporary Mathematicians. Birkhäuser Boston (1989) &lbrack;[doi:10.1007/978-1-4612-3694-8_2](https://doi.org/10.1007/978-1-4612-3694-8_2)&rbrack;
 
