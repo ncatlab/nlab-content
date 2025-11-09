@@ -35,6 +35,13 @@ On [[topos theory]]:
 
 * [[Ross Street]], _A survey of topos theory_, lecture notes (1978) &lbrack;[pdf](http://www.math.mq.edu.au/~street/ToposSurvey.pdf), [[Street-SurveyToposTheory.pdf:file]]&rbrack;
 
+
+On [[bicategories]] of  [[stacks]] and [[2-sheaves]]:
+
+* [[Ross Street]]: *Characterization of bicategories of stacks*, in: *Category Theory*, Lecture Notes in Mathematics **962**, Springer (1982) 282–291 &lbrack;[doi:10.1007/BFb0066909](https://doi.org/10.1007/BFb0066909)&rbrack;
+
+* [[Ross Street]]: *Two-dimensional sheaf theory*, Journal of Pure and Applied Algebra **23** 3 (1982) 251-270 \[<a href="https://doi.org/10.1016/0022-4049(82)90101-3">doi:10.1016/0022-4049(82)90101-3</a>\]
+
 Introducing the notion of [[braided monoidal categories]]:
 
 * {#JoyalStreet85} [[André Joyal]], [[Ross Street]]: *Braided monoidal categories*, _Macquarie Math Reports_ **85-0067** (1985) &lbrack;[pdf](http://web.science.mq.edu.au/~street/BMC850067.pdf), [[JoyalStreet-BraidedMonoidal85.pdf:file]]&rbrack;
@@ -112,7 +119,6 @@ Further:
 
 * R.H. Street, _Two dimensional sheaf theory_, J. Pure and Appl. Algebra __24__ (1982) [MR617138](https://mathscinet.ams.org/mathscinet-getitem?mr=617138)
 
-* R. Street, _Characterization of bicategories of stacks_, In: Kamps, K.H., Pumplün, D., Tholen, W. (eds) Category Theory. Lect. Notes Math. __962__, Springer 1982 [doi](https://doi.org/10.1007/BFb0066909)
 
 On [[monoidal 2-categories]], [[braided monoidal 2-categories]], [[sylleptic monoidal 2-categories]] and [[symmetric monoidal 2-categories]] (and [[pseudomonoids]]):
 
@@ -188,9 +194,6 @@ On [[monoidal categories]]:
 
 * [[Ross Street]], _Cauchy characterization of enriched categories_, Rendiconti del Seminario Matematico e Fisico di Milano, Vol. 51, 1981, pp. 217–233. &lbrack;[doi:10.1007/BF02924823](https://doi.org/10.1007/BF02924823)&rbrack;
 
-* [[Ross Street]], _Two-dimensional sheaf theory_, Journal of Pure and Applied Algebra, Vol. 23, No. 3, 1982, pp. 251-270. &lbrack;<a href="https://doi.org/10.1016/0022-4049(82)90101-3">doi:10.1016/0022-4049(82)90101-3</a>&rbrack;
-
-* [[Ross Street]], _Characterization of bicategories of stacks_, Lecture Notes in Mathematics, Vol. 962, 1982, pp. 282–291. &lbrack;[doi:10.1007/BFb0066909](https://doi.org/10.1007/BFb0066909)&rbrack;
 
 * [[Ross Street]], _Enriched categories and cohomology_, Quaestiones Mathematicae, Vol. 6, No. 1-3, 1983, pp. 265-283. &lbrack;[doi:10.1080/16073606.1983.9632304](https://doi.org/10.1080/16073606.1983.9632304)&rbrack;
 
