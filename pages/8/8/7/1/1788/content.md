@@ -4,7 +4,6 @@
 
 ***
 
-[[QSfixedFredholms-251109.png:file]]
 
 
 +-- {: .num_theorem #PullbackLawForACube}
