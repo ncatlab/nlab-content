@@ -89,7 +89,7 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 
 ### 2-categories as 2-theories (aka logics)
 
-* [CDL21] Greta Coraglia and Ivan Di Liberti. Context, judgement, deduction. arXiv preprint arXiv:2111.09438, 2021.
+* {#CDL21} Greta Coraglia, [[Ivan Di Liberti]], _Context, judgement, deduction_ &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;.
 
 * Vít Jelínek, Type theory and its semantics (Master thesis)
 
