@@ -1,4 +1,3 @@
-[[!redirects 2-logic]]
 
 
 +-- {: .rightHandSide}
@@ -16,35 +15,51 @@
 {:toc}
 
 ## Idea
-This page collects several 2-dimensional aspects of [[categorical logic]]. We see a collection of unifying themes:
+
+By *2-categorical logic* one means [[categorical logic]] generalized from ordinary [[categories]] ([[1-categories]]) to *[[2-categories]]* ([[bicategories]]).
+
+Unifying themes:
 
 * Grothendieck and Elementary 2-topoi capture several defining features of the 2-category of categories. This treatment largely mirrors its 1-dimensional counterpart whose aim is to study the properties of the category of Sets. Subobject classifiers are replaced by classifiers of fibrations. Powersets become presheaf constructions. The Cantor embedding transforms into the Yoneda one.
 
 * for S a suitable 2-dimensional sketch-like object its 2-category of models in Cat is a category of 1-theories: coherent categories, regular categories, lex categories. Thus, on one side we have the study of 2-sketch like objects, of 2-monads on Cat and lex, and on 2-functorial semantics. This is the adagio that 2-theories are logics. On the other we have the study of 2-categories of (1)-theories, i.e. the idea that 2-models are 1-theories.
 
-## Exactness conditions of 2-categories
+
+## Related concepts
+
+* [[type theory]], [[logic]]
+
+* [[2-type theory]]
+
+* [[(∞,1)-type theory]], [[(∞,1)-logic]]
+
+
+## References
+
+
+### Exactness conditions
+
 * [BG14] John Bourke and Richard Garner. Two-dimensional regularity and exactness. Journal of Pure and Applied Algebra, 218(7):1346–1371, 2014.
 
-* [3] Betti, R., Schumacher, D., and Street, R. Factorizations in bicategories. Unpublished
-note, 1999.
+* [3] Betti, R., Schumacher, D., and Street, R. Factorizations in bicategories. Unpublished note (1999)
 
-## Stacks and Grothendieck 2-topoi
 
-* [Str82a] Ross Street. Characterization of bicategories of stacks. In Category Theory, pages 282–291. Springer, 1982.
+### Stacks and Grothendieck 2-topoi
 
-* [Str82b] Ross Street. Two-dimensional sheaf theory. Journal of Pure and Applied Algebra, 23(3):251–270, 1982.
+* [[Ross Street]]: *Characterization of bicategories of stacks*, in: *Category Theory*, Lecture Notes in Mathematics **962**, Springer (1982) 282–291 &lbrack;[doi:10.1007/BFb0066909](https://doi.org/10.1007/BFb0066909)&rbrack;
+
+* [[Ross Street]]: *Two-dimensional sheaf theory*, Journal of Pure and Applied Algebra **23** 3 (1982) 251-270 \[<a href="https://doi.org/10.1016/0022-4049(82)90101-3">doi:10.1016/0022-4049(82)90101-3</a>\]
 
 ### 2-flatness
 
-* [DDS16] Maria Emilia Descotte, Eduardo Julio Dubuc, and Martin Szyld. A construction of
-certain weak colimits and an exactness property of the 2-category of categories, 2016.
+* [DDS16] Maria Emilia Descotte, Eduardo Julio Dubuc, and Martin Szyld. A construction of certain weak colimits and an exactness property of the 2-category of categories, 2016.
 
 * [DDS18] Maria Emilia Descotte, Eduardo Julio Dubuc, and Martin Szyld. Sigma limits in 2-
 categories and flat pseudofunctors. Advances in Mathematics, 333:266–313, 2018.
 
 * [Des20] Maria Emilia Descotte. A theory of 2-pro-objects, a theory of 2-model 2-categories and the 2-model structure for 2-pro (c). arXiv preprint arXiv:2010.10636, 2020.
 
-## Elementary 2-topoi
+### Elementary 2-topoi
 
 * [25] C. Hughes and A. Miranda. The elementary theory of the 2-category of small categories. Theory and Applications of Categories, Vol. 43, 2025, No. 8, pp 196-242.
 
@@ -66,17 +81,21 @@ categories and flat pseudofunctors. Advances in Mathematics, 333:266–313, 2018
 
 
 
-### Yoneda structures and double categorical aspects of the presehaf construction
+### Yoneda structures 
 
 * Walker. Yoneda structures and KZ doctrines. [1703.08693] 
+
+
+### Double categories
+
 *  Seerp Roald Koudenburg. Formal category theory in augmented virtual double categories
+
 * Seerp Roald Koudenburg. A double-dimensional approach to formal category theory
 
 
+### 2-functorial semantics
 
-##2-functorial semantics
-
-* [ABK24]Nathanael Arkor, John Bourke and Joanna Ko. Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation. 2024. arXiv: 2412.07475
+* [ABK24] Nathanael Arkor, John Bourke and Joanna Ko. Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation. 2024. arXiv: 2412.07475
 
 * [DO22]  Ivan Di Liberti and Axel Osmond. Bi-accessible and bipresentable 2-categories. 2022. arXiv: 2203.07046
 
@@ -87,7 +106,7 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 
 * Power, John. "Categories with algebraic structure." *International Workshop on Computer Science Logic*. Berlin, Heidelberg: Springer Berlin Heidelberg, 1997.
 
-### 2-categories as 2-theories (aka logics)
+### 2-categories as 2-theories
 
 * {#CDL21} Greta Coraglia, [[Ivan Di Liberti]], _Context, judgement, deduction_ &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;.
 
@@ -100,31 +119,32 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 * {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical structures in computer science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
 
 ### Rewriting
+
 * Samuel Mimram, Categorical Coherence from Term Rewriting Systems
 
-* SAMUEL MIMRAM, REWRITING TECHNIQUES FOR RELATIVE COHERENCE
+* Samuel Mimram, *Rewriting techniques for relative coherence
 
 * [Pow89a] John Power. An abstract formulation for rewrite systems. In Category Theory and Computer Science, pages 300–312, Berlin, Heidelberg, 1989. Springer Berlin Heidelberg. doi:10.1007/ BFb0018358.
 
 * [[Tom Hirschowitz]], *Cartesian closed 2-categories and permutation equivalence in higher-order rewriting*. Logical Methods in Computer Science, Logical Methods in Computer Science Association, 2013, 9 (3), pp.10. ([pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document))
 
-
 ### 2-categories of 1-theories
+
 * Garner and Lack. Lex Colimits.
+
 * Di Liberti and Ye. Logics and concepts in the 2-category of Topoi.
+
 * Di Liberti and Lobbia. Sketches and Classifying Logoi.
+
 * Coraglia, Greta, and Jacopo Emmenegger. "A 2-categorical analysis of context comprehension." arXiv preprint arXiv:2403.03085 (2024).
+
 * Ahrens, Benedikt, Peter LeFanu Lumsdaine, and Paige Randall North. "Comparing semantic frameworks for dependently-sorted algebraic theories." Asian Symposium on Programming Languages and Systems. Singapore: Springer Nature Singapore, 2024.
+
 * Coraglia, Greta, and Jacopo Emmenegger. "Categorical models of subtyping." arXiv preprint arXiv:2312.14600 (2023).
 
-## (∞,2)-topoi
-* FERNANDO ABELLAN AND LOUIS MARTINI. (∞,2)-TOPOI AND DESCENT
+### (∞,2)-topoi
+
+* Fernando Abellan, [[Louis Martini]]: *$(\infty,2)$-topoi and descent*
 
 
-## Related concepts
-
-* [[type theory]], [[logic]]
-
-* [[2-type theory]], **2-logic**
-
-* [[(∞,1)-type theory]], [[(∞,1)-logic]]
+[[!redirects 2-logic]]
