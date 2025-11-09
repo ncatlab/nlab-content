@@ -82,6 +82,10 @@ categories and flat pseudofunctors. Advances in Mathematics, 333:266–313, 2018
 
 * [12] E. Caviglia and L. Mesiti. Indexed Grothendieck construction. arXiv: https:// [arxiv.org/](http://arxiv.org/) abs/ 2307.16076 , 2023.
 
+* [AE2025] Steve Awodey, Jacopo Emmenegger. Toward the effective 2-topos. https:// [arxiv.org/](http://arxiv.org/) abs/2503.24279 , 2025.
+
+
+
 ### Yoneda structures
 
 ### Double categorical aspects of the presehaf construction
