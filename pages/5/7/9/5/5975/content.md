@@ -37,18 +37,14 @@ Unifying themes:
 ## References
 
 
-### Exactness conditions
+### Geometric 2-Logic
+ {#ReferencesGeometric2Logic}
 
-* [BG14] John Bourke and Richard Garner. Two-dimensional regularity and exactness. Journal of Pure and Applied Algebra, 218(7):1346–1371, 2014.
+Consideration of aspects of "[[geometric logic|geometric]] 2-logic":
 
-* [3] Betti, R., Schumacher, D., and Street, R. Factorizations in bicategories. Unpublished note (1999)
+* {#BourkeGarner} [[John Bourke]], [[Richard Garner]], Remks. 42 & 47 in: *Two-dimensional regularity and exactness*, Journal of Pure and Applied Algebra, **218** 7 (2014) 1346–1371 &lbrack;[doi:10.1016/j.jpaa.2013.11.021](https://doi.org/10.1016/j.jpaa.2013.11.021), [arXiv:1304.5275](https://arxiv.org/abs/1304.5275)&rbrack;
 
 
-### Stacks and Grothendieck 2-topoi
-
-* [[Ross Street]]: *Characterization of bicategories of stacks*, in: *Category Theory*, Lecture Notes in Mathematics **962**, Springer (1982) 282–291 &lbrack;[doi:10.1007/BFb0066909](https://doi.org/10.1007/BFb0066909)&rbrack;
-
-* [[Ross Street]]: *Two-dimensional sheaf theory*, Journal of Pure and Applied Algebra **23** 3 (1982) 251-270 \[<a href="https://doi.org/10.1016/0022-4049(82)90101-3">doi:10.1016/0022-4049(82)90101-3</a>\]
 
 ### 2-flatness
 
