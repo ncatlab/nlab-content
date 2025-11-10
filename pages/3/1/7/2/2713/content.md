@@ -178,9 +178,10 @@ The characterization of ordinary [[compact space|compact]] [[smooth manifolds]] 
 
 * {#Connes08} [[Alain Connes]], _On the spectral characterization of manifolds_ ([arXiv:0810.2088](http://arxiv.org/abs/0810.2088))
 
-See also
+See also:
 
-* {#CareyPhilips98} [[Alan Carey]], John Phillips, _Fredholm modules and spectral flow_  J. Canadian Math. Soc. **50** (1998) 673-718. ([publisher](https://cms.math.ca/10.4153/CJM-1998-038-x))
+* {#CareyPhilips98} [[Alan Carey]], [[John Phillips]]: _Fredholm modules and spectral flow_  J. Canadian Math. Soc. **50** (1998) 673-718 &lbrack;[cms:10.4153/CJM-1998-038-x](https://cms.math.ca/10.4153/CJM-1998-038-x)&rbrack;
+  > (on [[Fredholm operators]] and their [[spectral flow]])
 
 * R. da Rocha, A. A. Tomaz, _Hearing the shape of inequivalent spin structures and exotic Dirac operators_ ([arXiv:2003.03619](https://arxiv.org/abs/2003.03619))
 
