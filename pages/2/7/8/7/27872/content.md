@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Principal $U(1)$-bundles_ (or _principal $SO(2)$-bundles_) are [[principal bundles]] whose [[structure group]] is the [[unitary group]] $U(1)$ (equivalently: the [[circle group]], and [[special orthogonal group]] $SO(2)$).
+_Principal $U(1)$-bundles_ (or _principal $SO(2)$-bundles_) are [[principal bundles]] whose [[structure group]] is the [[unitary group]] [[U(1)|$U(1)$]] (equivalently: the [[circle group]], and [[special orthogonal group]] [[SO(2)|$SO(2)$]]).
 
 Principal $U(1)$-bundles appear in multiple areas of [[mathematics]], for example the [[Seiberg-Witten equations]] or monopole Floer homology. Since $U(1)$ is the [[gauge group]] of [[electromagnetism]], principal $U(1)$-bundles also appear promiently in [[theoretical physics]] (cf. *[[fiber bundles in physics]]*). For example, principal $U(1)$-bundles over the [[2-sphere]] $S^2$, which includes the [[complex Hopf fibration]], can be used to describe the [[Dirac charge quantization]] of hypothetical three-dimensional ($\mathbb{R}^3\setminus\{0\}\simeq S^2$) [[magnetic monopoles]], called _Dirac monopoles_, compare also with *[[D=2 Yang-Mills theory]]*.
 
