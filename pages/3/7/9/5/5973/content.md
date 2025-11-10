@@ -54,13 +54,15 @@ On 2-type theory:
 
 * [[Philip Saville]], *Cartesian closed bicategories: type theory and coherence*. PhD thesis, 2020. [pdf](https://arxiv.org/pdf/2007.00624.pdf).
 
-* A type system with semantics in [[virtual equipment]]s:
+* Andrea Laretto, [[Fosco Loregian]], and Niccolò Veltri, _Directed equality with dinaturality_ &lbrack;[arXiv:2409.10237](https://arxiv.org/abs/2409.10237)&rbrack;
 
-  Max S. New and Daniel R. Licata. 2023. A Formal Logic for Formal Category Theory. In Foundations of Software Science and Computation Structures - 26th International Conference, FoSSaCS 2023. [DOI](https://doi.org/10.1007/978-3-031-30829-1\_6)
+Type systems with semantics in [[virtual equipment]]s:
 
-* Andrea Laretto, Fosco Loregian, and Niccolò Veltri. 2024. Directed equality with dinaturality. [ArXiv](https://arxiv.org/abs/2409.10237)
+* [[Max S. New]] and [[Daniel R. Licata]], _A Formal Logic for Formal Category Theory_. In Foundations of Software Science and Computation Structures - 26th International Conference, FoSSaCS 2023. [DOI](https://doi.org/10.1007/978-3-031-30829-1\_6)
 
+* Hayato Nasu, _An Internal Logic of Virtual Double Categories_ &lbrack;[arXiv:2410.06792](https://arxiv.org/abs/2410.06792)&rbrack;
 
+* Hayato Nasu, _Logical Aspects of Virtual Double Categories_ &lbrack;[arXiv:2501.17869](https://arxiv.org/abs/2501.17869)&rbrack;
 
 Application to [[adjoint logic]] and [[modal type theory]]:
 
