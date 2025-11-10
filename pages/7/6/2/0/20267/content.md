@@ -116,6 +116,8 @@ This is a re-statement of
 
 ## References
 
+* {#MimuraToda63} [[Mamoru Mimura]] and [[Hiroshi Toda]], _Homotopy Groups of SU(3), SU(4) and Sp(2)_ (1963), Journal of Mathematics of Kyoto University **3** (2), p. 217–250, [doi:10.1215/kjm/1250524818](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-3/issue-2/Homotopy-Groups-of-SU3-SU4-and-Sp2/10.1215/kjm/1250524818.full)
+
 * {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
 
   * *I.* A. L. Onishchik, E. B.  Vinberg, _Foundations of Lie Theory_,
