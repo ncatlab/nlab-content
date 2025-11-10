@@ -86,9 +86,9 @@ $$
 
 * One has $S^{2n+1}\cong SU(n+1)/SU(n)$, hence there is a principal SU(2)-bundle $SU(3)\twoheadrightarrow S^5$. Such [[principal bundles]] are classified by:
 $$
-  \pi_5BSU(3)
+  \pi_5BSU(2)
     \cong
-  \pi_4SU(3)
+  \pi_4SU(2)
     \cong
   \pi_4S^3
     \cong
@@ -110,9 +110,9 @@ $$
   \mathbb{Z}_2
   \mathrlap{\,.}
 $$
-([Donaldson 1983, p. 295](#Donaldson83))
+([Mimura & Toda 63](#MimuraToda63), [Donaldson 1983, p. 295](#Donaldson83))
 
-* One has $S^{4n+3}\cong Sp(n+1)/Sp(n)$, hence there is a principal Sp(1)-bundle $Sp(2)\twoheadrightarrow S^7$. Such [[principal bundles]] are classified by:
+* One has $S^{4n+3}\cong Sp(n+1)/Sp(n)$, hence there is a principal Sp(1)-bundle $Sp(2)\twoheadrightarrow S^7$. See in particular [[Spin(5)/SU(2) is the 7-sphere]]. Such [[principal bundles]] are classified by:
 $$
   \pi_7 B SU(3)
     \cong
@@ -140,9 +140,11 @@ Particular [[principal bundles]]:
 
 ## References
 
+* {#MimuraToda63} [[Mamoru Mimura]] and [[Hiroshi Toda]], _Homotopy Groups of SU(3), SU(4) and Sp(2)_ (1963), Journal of Mathematics of Kyoto University **3** (2), p. 217–250, [doi:10.1215/kjm/1250524818](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-3/issue-2/Homotopy-Groups-of-SU3-SU4-and-Sp2/10.1215/kjm/1250524818.full)
+
 * {#Donaldson83} [[Simon Donaldson]]: _An application of gauge theory to four-dimensional topology_. In: Journal of Differential Geometry. 18. Jahrgang, Nr. 2 (1983) &lbrack;[doi:10.4310/jdg/1214437665](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-2/An-application-of-gauge-theory-to-four-dimensional-topology/10.4310/jdg/1214437665.full)&rbrack;
 
-* {#Donaldson87} [[Simon Donaldson]]L _The orientation of Yang-Mills moduli spaces and 4-manifold topology_. In: Journal of Differential Geometry. 26. Jahrgang, Nr. 3 (1987) &lbrack;[doi:10.4310/jdg/1214441485](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-26/issue-3/The-orientation-of-Yang-Mills-moduli-spaces-and-4-manifold/10.4310/jdg/1214441485.full)&rbrack;
+* {#Donaldson87} [[Simon Donaldson]], _The orientation of Yang-Mills moduli spaces and 4-manifold topology_. In: Journal of Differential Geometry. 26. Jahrgang, Nr. 3 (1987) &lbrack;[doi:10.4310/jdg/1214441485](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-26/issue-3/The-orientation-of-Yang-Mills-moduli-spaces-and-4-manifold/10.4310/jdg/1214441485.full)&rbrack;
 
 * {#FreedUhlenbeck91}  [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer (1991) &lbrack;[doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8)&rbrack;
 
