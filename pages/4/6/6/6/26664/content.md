@@ -17,7 +17,7 @@
 
 ## Idea
 
-$B SO(n)$ is the [[classifying space]] for the [[special orthogonal group]] $SO(n)$.
+$B SO(n)$ is the [[classifying space]] for (principal bundles with structure group) the [[special orthogonal group]] $SO(n)$. Important examples are [[principal SO(2)-bundles]], [[principal SO(3)-bundles]], [[principal SO(4)-bundles]] and [[principal SO(6)-bundles]].
 
 ## Definition
 
