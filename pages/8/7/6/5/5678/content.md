@@ -66,7 +66,7 @@ Earlier indication for this had come from the observation [Witten92](#Witten92) 
 
 Exposition:
 
-* {#Lobb24} Andrew Lobb: *A feeling for Khovanov homology*, Notices of the AMS **71** 5 (2024) &lbrack;[doi:10.1090/noti2928](https://doi.org/10.1090/noti2928), [pdf](https://www.ams.org/notices/202405/rnoti-p621.pdf), [pdf](https://www.maths.dur.ac.uk/users/andrew.lobb/notices.pdf), full issue:[pdf](https://www.ams.org/notices/202405/202405FullIssue.pdf)&rbrack;
+* {#Lobb24} [[Andrew Lobb]]: *A feeling for Khovanov homology*, Notices of the AMS **71** 5 (2024) &lbrack;[doi:10.1090/noti2928](https://doi.org/10.1090/noti2928), [pdf](https://www.ams.org/notices/202405/rnoti-p621.pdf), [pdf](https://www.maths.dur.ac.uk/users/andrew.lobb/notices.pdf), full issue:[pdf](https://www.ams.org/notices/202405/202405FullIssue.pdf)&rbrack;
 
 Original articles:
 
