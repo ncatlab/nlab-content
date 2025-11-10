@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Principal SU(2)-bundles_ (or _principal Sp(1)-bundles_) are special [[principal bundles]] with the second [[special unitary group]] $SU(2)$ (isomorphic to the first [[quaternionic unitary group]] $Sp(1)$) as [[gauge group]].
+_Principal SU(2)-bundles_ (or _principal Sp(1)-bundles_) are special [[principal bundles]] with the second [[special unitary group]] [[SU(2)|$SU(2)$]] (isomorphic to the first [[quaternionic unitary group]] [[Sp(1)|$Sp(1)$]]) as [[structure group]]/[[gauge group]].
 
 Principal $SU(2)$-bundles appear in multiple areas of mathematics, for example [[Donaldson's theorem]] or [[instanton Floer homology]]. Since $SU(2)$ is the [[gauge group]] of the [[weak interaction]], principal $SU(2)$-bundles also appear in [[theoretical physics]] (cf. *[[fiber bundles in physics]]*). For example, principal $SU(2)$-bundles over the [[4-sphere]] $S^4$, which includes the [[quaternionic Hopf fibration]], can be used to describe the [[Dirac charge quantization]] of hypothetical five-dimensional ($\mathbb{R}^5\setminus\{0\}\simeq S^4$) [[magnetic monopoles]], called _[[Yang monopoles]]_, compare also with *[[D=4 Yang-Mills theory]]*. 
 
