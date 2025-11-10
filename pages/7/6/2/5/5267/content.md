@@ -35,6 +35,8 @@ The set $\sigma_d(A)$ of ordinary [[normal eigenvalues|normal]] [[eigenvalues]] 
 
 * [[spectral gap]]
 
+* [[spectral flow]]
+
 * [[spectral theory]]
 
 * [[min-entropy]]
