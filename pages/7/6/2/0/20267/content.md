@@ -108,6 +108,8 @@ This is a re-statement of
 
 ## Related concepts
 
+* [[principal SU(3)-bundle]]
+
 * [[Calabi-Yau manifold]]
 
 * [[U(1)]], [[SU(2)]], [[SU(4)]], [[SU(5)]]
