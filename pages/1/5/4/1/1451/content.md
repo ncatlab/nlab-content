@@ -1,6 +1,8 @@
-Anders Kock is a mathematician at Aarhus University, Denmark. He has proved important results in [[category theory]] and particularly in [[synthetic differential geometry]].
+Anders Kock is a mathematician at Aarhus University, Denmark. He works on [[category theory]]/[[topos theory]] and particularly on [[synthetic differential geometry]].
 
-[Homepage](https://users-math.au.dk/kock)
+* [personal page](https://users-math.au.dk/kock)
+
+* [ResearchGatePage](https://www.researchgate.net/profile/Anders-Kock)
 
 
 ## Selected writings
@@ -18,17 +20,24 @@ Introducing the notion of [[strong monads]] and relating to [[monoidal monads]] 
 
 * [[Anders Kock]], *Strong functors and monoidal monads*, Arch. Math **23** (1972) 113–120 &lbrack;[doi:10.1007/BF01304852](https://doi.org/10.1007/BF01304852), [pdf](http://home.imf.au.dk/kock/SFMM.pdf)&rbrack;
 
+On [[synthetic differential geometry]]:
+
+*  {#Kock81} [[Anders Kock]]: _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](http://home.imf.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
+
+*  {#Kock10} [[Anders Kock]], _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics **180** (2010) &lbrack;[pdf](http://home.imf.au.dk/kock/SGM-final.pdf), [doi:10.1017/CBO9780511691690](https://doi.org/10.1017/CBO9780511691690)&rbrack;
+
+
+Early discussion of what later came to be called [[microlinear space|micorlinearity]] in [[synthetic differential geometry]]:
+
+* [[Anders Kock]], [[René Lavendhomme]]: *Strong infinitesimal linearity, with applications to strong difference and affine connections*, [[Cahiers]] de topologie et géométrie différentielle catégoriques, tome 25, no 3 (1984) 311-324 &lbrack;[numdam:CTGDC_1984__25_3_311_0](http://www.numdam.org/item?id=CTGDC_1984__25_3_311_0)&rbrack;
+
+
 On [[fiber bundles]] [[internalization|internal]] to [[finitely complete categories]]:
 
 * [[Anders Kock]], *Fibre bundles in general categories*, Journal of Pure and Applied Algebra **56** 3 (1989) 233-245 &lbrack;<a href="https://doi.org/10.1016/0022-4049(89)90059-5">doi:10.1016/0022-4049(89)90059-5</a>&rbrack;
 
 * [[Anders Kock]], *Generalized fibre bundles*, in: Categorical Algebra and its Applications, Lecture Notes in Mathematics **1348** (2006) 194-207 &lbrack;[doi:10.1007/BFb0081359](https://doi.org/10.1007/BFb0081359)&rbrack;
 
-On [[synthetic differential geometry]]:
-
-*  {#Kock81} [[Anders Kock]], _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](http://home.imf.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
-
-*  {#Kock10} [[Anders Kock]], _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics **180** (2010) &lbrack;[pdf](http://home.imf.au.dk/kock/SGM-final.pdf), [doi:10.1017/CBO9780511691690](https://doi.org/10.1017/CBO9780511691690)&rbrack;
 
 
 See also:
