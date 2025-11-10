@@ -14,17 +14,19 @@
 =--
 
 
-This entry collects links for the book
+This entry is to record the reference:
 
-* [[Bruce Blackadar]], 
+* [[Bruce Blackadar]]:
 
-  _K-Theory for Operator Algebras_
+  \linebreak
 
-  Cambridge University Press 1986, second ed. 1999
+  **K-Theory for Operator Algebras**
+
+  \linebreak
+
+  Cambridge University Press (1986, 1999)
 
   [doi:10.1007/978-1-4613-9572-0](https://link.springer.com/book/10.1007/978-1-4613-9572-0)
-
-  [pdf](http://wolfweb.unr.edu/homepage/bruceb/Book6.pdf)
 
 on [[operator algebra]], [[operator K-theory]] and [[KK-theory]].
 
