@@ -1,5 +1,5 @@
 
-* [institute page](https://www.math.cit.tum.de/en/algebra/personen/dr-pelle-steffens/)
+* [Homepage](https://sites.google.com/view/pelle-steffens)
 
 * [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=288580)
 
