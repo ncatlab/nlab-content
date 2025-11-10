@@ -17,7 +17,7 @@
 
 ## Idea
 
-$B U(n)$ is the [[classifying space]] for ([[principal bundles]] with [[structure group]]) the [[unitary group]] $U(n)$.
+$B U(n)$ is the [[classifying space]] for ([[principal bundles]] with [[structure group]]) the [[unitary group]] $U(n)$. Important examples are [[principal U(1)-bundles]] and [[principal U(2)-bundles]].
 
 ## Definition
 
