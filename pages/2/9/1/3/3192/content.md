@@ -408,6 +408,8 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 Textbook accounts:
 
+* Ronald G. Douglas: *Compact Operators, Fredholm Operators, and Index Theory*, chapter 5 in *Banach Algebra Techniques in Operator Theory*, Pure and Applied Mathematics **49** (1972) 121-148 \[<a href="https://doi.org/10.1016/S0079-8169(08)60364-5">doi:10.1016/S0079-8169(08)60364-5</a>\]
+
 * {#Murphy90} [[Gerard Murphy]]: §1.4 in: *$C^\ast$-algebras and Operator Theory*, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
 
 * [[William Arveson]], §3.3 of: *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) &lbrack;[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)&rbrack;
