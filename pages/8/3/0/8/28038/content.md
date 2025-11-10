@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal SO(4)-bundles* are special [[principal bundles]] with the fourth [[special orthogonal group]] $SO(4)$ as [[gauge group]]. Applications include the [[frame bundle]] of an [[orientable]] [[4-manifold]] and [[John Milnor]]'s construction of [[exotic 7-spheres]].
+*Principal SO(4)-bundles* are special [[principal bundles]] with the fourth [[special orthogonal group]] [[SO(4)|$SO(4)$]] as [[structure group]]/[[gauge group]]. Applications include the [[frame bundle]] of an [[orientable]] [[4-manifold]] and [[John Milnor]]'s construction of [[exotic 7-spheres]].
 
 Principal SO(4)-bundles in particular are induced by pairs of [[principal SU(2)-bundles]] using the canonical projection $SU(2)\times SU(2)\cong Spin(4)\hookrightarrow SO(4)$. Principal SO(4)-bundles also induce [[principal SO(2)-bundles]] and [[principal SO(3)-bundles]] and are induced by [[principal SO(6)-bundles]] using the canonical inclusions $SO(2)\hookrightarrow SO(3)\hookrightarrow SO(4)\hookrightarrow SO(6)$.
 
