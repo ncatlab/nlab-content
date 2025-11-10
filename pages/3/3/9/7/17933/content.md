@@ -8,7 +8,7 @@ $\,$
 
 For $G$ any [[gauge group]] (a [[Lie group]]), a $G$-[[Yang-Mills instanton]] on some 4-dimensional [[spacetime]] (a [[pseudo-Riemannian manifold]]) $X$ is a $G$-[[principal bundle]] on $X$ (whose class is going to be the "instanton sector"), equipped with a $G$-[[principal connection]] $\nabla$ (this is the actual [[gauge field]]) such that this is [[self-dual Yang-Mills theory|self-dual]], in that its [[curvature form]] $F_\nabla$ satisfies $F_\nabla = \star F_{\nabla}$, where $\star$ denotes the [[Hodge star]] operator for the given [[Riemannian metric|metric]] (which represents the field of [[gravity]]).
 
-The [[ADHM construction]] gives an essentially unique self-dual [[principal connection]] $\nabla$ on every [[isomorphism class]] of $SU(2)$-[[principal bundles]] (ie.: "in every instanton sector"). Therefore classifying and counting instantons amounts to classifying and counting $G$-[[principal bundles]]. 
+The [[ADHM construction]] gives an essentially unique self-dual [[principal connection]] $\nabla$ on every [[isomorphism class]] of [[principal SU(2)-bundles]] (ie.: "in every instanton sector"). Therefore classifying and counting instantons amounts to classifying and counting $G$-[[principal bundles]]. 
 
 This is what makes instantons a "topological" structure in the parlance of physics, meaning that they do not depend on [[Riemannian metric]] information, after all. 
 
@@ -35,13 +35,13 @@ $$
 
 It is this passage from $\mathbb{R}^4$ to $S^4$ which takes care of the subtleties that often tend to be glossed over.
 
-With the boundary conditions "at infinity" taken care of this way, an $SU(2)$-instanton now is the [[isomorphism class]] of an $SU(2)$-[[principal bundle]]  on the [[4-sphere]] $S^4$.
+With the boundary conditions "at infinity" taken care of this way, an $SU(2)$-instanton now is the [[isomorphism class]] of an [[principal SU(2)-bundle]]  on the [[4-sphere]] $S^4$.
 
 $\,$
 
 **Instanton number**
 
-There is a [[classifying space]] for $SU(2)$-[[principal bundles]], denoted [[BSU(n)|$B SU(2)$]]. This being a [[classifying space]] means that for $X$ any [[paracompact topological space]], we have that the [[isomorphism classes]] of $SU(2)$-[[principal bundles]] on $X$ are in [[bijection]] with [[homotopy classes]] of [[continuous functions]] from $X$ to [[BSU(n)|$B SU(2)$]].
+There is a [[classifying space]] for [[principal SU(2)-bundles]], denoted [[BSU(n)|$B SU(2)$]]. This being a [[classifying space]] means that for $X$ any [[paracompact topological space]], we have that the [[isomorphism classes]] of [[principal SU(2)-bundles]] on $X$ are in [[bijection]] with [[homotopy classes]] of [[continuous functions]] from $X$ to [[BSU(n)|$B SU(2)$]].
 
 $$
   \{X \to B SU(2)\}_{/homotopy}
@@ -96,7 +96,7 @@ $$
   c_2 \;\colon\; B SU(2) \longrightarrow K(\mathbb{Z},4)
 $$
 
-called the _universal [[second Chern class]]_. This hence sends $SU(2)$-[[principal bundles]], classified by some map
+called the _universal [[second Chern class]]_. This hence sends [[principal SU(2)-bundles]], classified by some map
 
 $$
   \chi  \;\colon\; X \longrightarrow B SU(2)
@@ -117,13 +117,13 @@ $$
   c_2(\chi) \in H^4(X,\mathbb{Z})
 $$
 
-is hence called the [[second Chern class]] of the $SU(2)$-[[principal bundle]].
+is hence called the [[second Chern class]] of the [[principal SU(2)-bundle]].
 
-This is one in a whole sequence of _[[characteristic classes]]_ which are carried by $SU(2)$-[[principal bundles]], the _[[Chern classes]]_.
+This is one in a whole sequence of _[[characteristic classes]]_ which are carried by [[principal SU(2)-bundles]], the _[[Chern classes]]_.
 
-But in the special case that the base space $X$ is 4-[[dimension|dimensional]], we have that only a single one of these classes may be non-trivial, namely the [[second Chern class]] $c_2$. Therefore this class completely characterizes $SU(2)$-[[principal bundles]] in 4d. 
+But in the special case that the base space $X$ is 4-[[dimension|dimensional]], we have that only a single one of these classes may be non-trivial, namely the [[second Chern class]] $c_2$. Therefore this class completely characterizes [[principal SU(2)-bundles]] in 4d. 
 
-In conclusion: _Where a [[BPST-instanton]] is manifested by an [[special unitary group|SU(2)]]-[[principal bundle]] on a 4-dimensional [[manifold]], the [[instanton number]] is the [[second Chern class]] of this bundle._
+In conclusion: _Where a [[BPST-instanton]] is manifested by an [[principal SU(2)-bundle]] on a 4-dimensional [[manifold]], the [[instanton number]] is the [[second Chern class]] of this bundle._
 
 $\,$
 
