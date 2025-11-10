@@ -30,7 +30,14 @@ $$
 \cong\pi_6 SU(3)
 \cong\mathbb{Z}_6.
 $$
+([Mimura & Toda 63](#MimuraToda63))
 
+* [[G₂/SU(3) is the 6-sphere]], hence there is a principal SU(3)-bundle $G_2\twoheadrightarrow S^6$. Such principal bundles are classified by:
+$$
+\pi_6B SU(3)
+\cong\pi_5 SU(3)
+\cong\mathbb{Z}.
+$$
 ([Mimura & Toda 63](#MimuraToda63))
 
 ## Related concepts
