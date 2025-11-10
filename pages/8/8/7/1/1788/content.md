@@ -146,7 +146,21 @@ is a [[fiber bundle]] (in fact a [[principal bundle]]) with [[typical fiber]] $G
 
 \end{proposition}
 
-
+\begin{proposition}
+  The [[exponential map]]
+  $$
+    \exp\big(\pi \mathrm{i} (-) \big)
+    \;\colon\;
+    \widehat{\mathcal{F}}_\ast
+    \longrightarrow
+    \Big\{
+      U \in \mathrm{U}(\mathscr{H})
+      \,\Big\vert\,
+      U + id \in \mathcal{K}(\mathscr{H})
+    \Big\}
+  $$
+  is a [[homotopy equivalence]].
+\end{proposition}
 
 
 
