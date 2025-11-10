@@ -1,142 +1,197 @@
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Type theory
-+--{: .hide}
-[[!include type theory - contents]]
-=--
-=--
-=--
-
-#Contents#
-* table of contents
-{:toc}
-
-## Idea
-
-By *2-categorical logic* one means [[categorical logic]] generalized from ordinary [[categories]] ([[1-categories]]) to *[[2-categories]]* ([[bicategories]]).
-
-Unifying themes:
-
-* Grothendieck and Elementary 2-topoi capture several defining features of the 2-category of categories. This treatment largely mirrors its 1-dimensional counterpart whose aim is to study the properties of the category of Sets. Subobject classifiers are replaced by classifiers of fibrations. Powersets become presheaf constructions. The Cantor embedding transforms into the Yoneda one.
-
-* for S a suitable 2-dimensional sketch-like object its 2-category of models in Cat is a category of 1-theories: coherent categories, regular categories, lex categories. Thus, on one side we have the study of 2-sketch like objects, of 2-monads on Cat and lex, and on 2-functorial semantics. This is the adagio that 2-theories are logics. On the other we have the study of 2-categories of (1)-theories, i.e. the idea that 2-models are 1-theories.
-
-
-## Related concepts
-
-* [[type theory]], [[logic]]
-
-* [[2-type theory]], **2-logic**
-
-* [[(∞,1)-type theory]], [[(∞,1)-logic]]
-
-
-## References
-
-
-### Exactness conditions
-
-* {#BourkeGarner2014} John Bourke and Richard Garner. *Two-dimensional regularity and exactness*. Journal of Pure and Applied Algebra, 218(7):1346–1371, 2014.
-
-* {#BettiSchumacherStreet1999} Betti, R., Schumacher, D., and Street, R. *Factorizations in bicategories*. Unpublished note, 1999.
-
-### Stacks and Grothendieck 2-topoi
-
-* {#Street1982a} Ross Street. *Characterization of bicategories of stacks*. In Category Theory, pages 282–291. Springer, 1982.
-
-* {#Street1982b} Ross Street. *Two-dimensional sheaf theory*. Journal of Pure and Applied Algebra, 23(3):251–270, 1982.
-
-### 2-flatness
-
-* {#DescotteDubucSzyld2016} Maria Emilia Descotte, Eduardo Julio Dubuc, and Martin Szyld. *A construction of certain weak colimits and an exactness property of the 2-category of categories*, 2016.
-
-* {#DescotteDubucSzyld2018} Maria Emilia Descotte, Eduardo Julio Dubuc, and Martin Szyld. *Sigma limits in 2-categories and flat pseudofunctors*. Advances in Mathematics, 333:266–313, 2018.
-
-* {#Descotte2020} Maria Emilia Descotte. *A theory of 2-pro-objects, a theory of 2-model 2-categories and the 2-model structure for 2-pro (c)*. arXiv preprint arXiv:2010.10636, 2020.
-
-### Elementary 2-topoi
-
-* {#HughesMiranda2025} C. Hughes and A. Miranda. *The elementary theory of the 2-category of small categories*. Theory and Applications of Categories, Vol. 43, 2025, No. 8, pp 196-242.
-
-* *THE ELEMENTARY THEORY OF THE 2-CATEGORY OF SMALL CATEGORIES 37*
-
-* {#Street2006} Ross Street. *Elementary cosmoi i*. In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, pages 134–180. Springer, 2006.
-
-* {#Weber2007} Mark Weber. *Yoneda structures from 2-toposes*. Applied Categorical Structures, 15:259–323,2007.
-
-* {#Street1974} R. Street. *Fibrations and Yoneda’s Lemma in a 2-category*. Category Sem.,Proc., Sydney 1972/1973, Lect. Notes Math. 420, 104-133, Springer, 1974.
-
-* {#Mesiti2023} L. Mesiti. *The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits*. arXiv: https:// [arxiv.org/](http://arxiv.org/) abs/ 2302.04566 , 2023.
-
-* {#Mesiti2024} L. Mesiti. *2-classifiers via dense generators and Hofmann-Streicher universe in stacks*. arXiv: https:// [arxiv.org/](http://arxiv.org/) abs/ 2401.16900 , 2024.
-
-* {#CavigliaMesiti2023} E. Caviglia and L. Mesiti. *Indexed Grothendieck construction*. arXiv: https:// [arxiv.org/](http://arxiv.org/) abs/ 2307.16076 , 2023.
-
-* {#AwodeyEmmenegger2025} Steve Awodey, Jacopo Emmenegger. *Toward the effective 2-topos*. https:// [arxiv.org/](http://arxiv.org/) abs/2503.24279 , 2025.
-
-### Yoneda structures 
-
-* {#Walker2017} Walker. *Yoneda structures and KZ doctrines*. [1703.08693] 
-
-### Double categories
-
-* {#Koudenburg1} Seerp Roald Koudenburg. *Formal category theory in augmented virtual double categories*
-
-* {#Koudenburg2} Seerp Roald Koudenburg. *A double-dimensional approach to formal category theory*
-
-### 2-functorial semantics
-
-* {#ArkorBourkeKo2024} Nathanael Arkor, John Bourke and Joanna Ko. *Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation*. 2024. arXiv: 2412.07475
-
-* {#DiLibertiOsmond2022} Ivan Di Liberti and Axel Osmond. *Bi-accessible and bipresentable 2-categories*. 2022. arXiv: 2203.07046
-
-* {#BettiGrandis1988} Renato Betti and Marco Grandis. *Complete theories in 2-categories*. Cahiers de topologie et g´eom´etrie diﬀ´erentielle cat´egoriques, 29(1):9–57, 1988.
-
-* {#Power1995} Power, A. John. *Why tricategories?*. *Information and Computation* 120.2 (1995): 251-262.
-
-* {#Power1999} Power, John. *Enriched lawvere theories*. *Theory and Applications of Categories* 6.7 (1999): 83-93.
-
-* {#Power1997} Power, John. *Categories with algebraic structure*. *International Workshop on Computer Science Logic*. Berlin, Heidelberg: Springer Berlin Heidelberg, 1997.
-
-### 2-categories as 2-theories
-
-* {#CDL21} Greta Coraglia, [[Ivan Di Liberti]], *Context, judgement, deduction* &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;.
-
-* {#Jelinek} Vít Jelínek, *Type theory and its semantics* (Master thesis)
-
-* {#Osser} Jonathan Osser, *A 2-Sketchy Approach to Type Theory*. (Master thesis)
-
-* {#AhrensNorthVanDerWeide2022} [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]], *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, 12 (2022) 1–14, &lbrack;[doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334)&rbrack;
-
-* {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical structures in computer science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
-
-### Rewriting
-
-* {#Mimram1} Samuel Mimram, *Categorical Coherence from Term Rewriting Systems*
-
-* {#Mimram2} Samuel Mimram, *Rewriting techniques for relative coherence*
-
-* {#Power1989} John Power. *An abstract formulation for rewrite systems*. In Category Theory and Computer Science, pages 300–312, Berlin, Heidelberg, 1989. Springer Berlin Heidelberg. doi:10.1007/ BFb0018358.
-
-* {#Hirschowitz2013} [[Tom Hirschowitz]], *Cartesian closed 2-categories and permutation equivalence in higher-order rewriting*. Logical Methods in Computer Science, Logical Methods in Computer Science Association, 2013, 9 (3), pp.10. ([pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document))
-
-### 2-categories of 1-theories
-
-* {#GarnerLack} Garner and Lack. *Lex Colimits*.
-
-* {#DiLibertiYe} Di Liberti and Ye. *Logics and concepts in the 2-category of Topoi*.
-
-* {#DiLibertiLobbia} Di Liberti and Lobbia. *Sketches and Classifying Logoi*.
-
-* {#CoragliaEmmenegger2024} Coraglia, Greta, and Jacopo Emmenegger. *A 2-categorical analysis of context comprehension*. arXiv preprint arXiv:2403.03085 (2024).
-
-* {#AhrensLumsdaineNorth2024} Ahrens, Benedikt, Peter LeFanu Lumsdaine, and Paige Randall North. *Comparing semantic frameworks for dependently-sorted algebraic theories*. Asian Symposium on Programming Languages and Systems. Singapore: Springer Nature Singapore, 2024.
-
-* {#CoragliaEmmenegger2023} Coraglia, Greta, and Jacopo Emmenegger. *Categorical models of subtyping*. arXiv preprint arXiv:2312.14600 (2023).
-
-### (∞,2)-topoi
-
-* {#AbellanMartini} Fernando Abellan, [[Louis Martini]]: *$(\infty,2)$-topoi and descent*
-
+> This [[HomePage|nLab]] page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](/nlab/history/Sandbox).
+
+\linebreak
+
+***
+
+All [[linear operators]] in the following act on a given [[separable Hilbert space|separable]] countably infinite-dimensional [[complex numbers|complex]] [[Hilbert space]].
+
+Consider and denote:
+
+* $\mathcal{B}$ --- the space of [[bounded operators]],
+
+* $\mathcal{K} \subset \mathcal{B}$ --- the subspace of [[compact operators]],
+
+* $\mathcal{C} \coloneqq \mathcal{B}/\mathcal{K}$  --- the [[Calkin algebra]] regarded as a [[C*-algebra|$C^\ast$-algebra]],
+
+* $\mathbf{p} \colon \mathcal{B} \twoheadrightarrow \mathcal{C}$  --- the [[quotient]] [[coprojection]],
+
+* $\mathcal{G} \coloneqq \mathcal{C}^\times = GL(\mathcal{C})$  --- the [[group of units]] of the [[Calkin algebra]],
+
+* $\widehat{\mathcal{G}} \subset \mathcal{G}$  --- the subgroup of [[self-adjoint elements]],
+
+* $\widehat{\mathcal{G}}_{\pm} \subset \widehat{\mathcal{G}}$   --- the subgroup of elements with purely positibe/negative [[essential spectrum]], 
+
+* $\widehat{\mathcal{G}}_{\ast} \subset \widehat{\mathcal{G}}$   --- the remaining subspace, of elements whose essential spectrum is both positive and negative,
+
+* $G \coloneqq \mathrm{U}(\mathcal{C}) \subset GL(\mathcal{C})$ --- the [[unitary group]] of the Calkin algebra, 
+
+* $\widehat{G} \coloneqq \widehat{\mathcal{G}} \cap G$ --- the group of self-adjoint unitary elements of the Calkin algebra
+
+* $\widehat{G}_{\pm} \coloneqq \widehat{\mathcal{G}}_{\pm} \cap G$ --- the group of self-adjoint unitary elements of the Calkin algebra with purely positive/negative essential spectrum,
+
+* $\widehat{G}_{\ast} \coloneqq \widehat{\mathcal{G}}_{\ast} \cap G$ --- the group of self-adjoint unitary elements of the Calkin algebra with both positive and negative essential spectrum,
+
+* $\mathcal{F} \simeq \mathbf{p}^{-1}(\mathcal{G})$  --- the space of [[Fredholm operators]],
+
+* $\widehat{\mathcal{F}} \subset \mathcal{F}$  --- the subspace of self-adjoint Fredholm operators,
+
+* $\widehat{\mathcal{F}}_{\pm} \subset \widehat{\mathcal{F}}$  --- the subspace of operators with purely positive/negative [[essential spectrum]],
+  
+* $\widehat{\mathcal{F}}_{\ast} \subset \widehat{\mathcal{F}}$  --- the remaining subspace, that of operators with both positive and negative [[essential spectrum]],
+
+
+\begin{proposition}
+
+We have [[homeomorphisms]]:
+
+\[
+  \begin{aligned}
+     \widehat{\mathcal{G}} 
+     & \;\simeq\; 
+     \widehat{\mathcal{G}}_+ 
+       \sqcup 
+     \widehat{\mathcal{G}}_- 
+       \sqcup 
+     \widehat{\mathcal{G}}_\ast
+     \\
+     \widehat{\mathcal{F}} 
+     & \;\simeq\; 
+     \widehat{\mathcal{F}}_+ 
+       \sqcup 
+     \widehat{\mathcal{F}}_- 
+       \sqcup 
+     \widehat{\mathcal{F}}_\ast
+     \\
+     \widehat{G}_\pm 
+     & \;\simeq\; 
+     \{ \pm id \}
+     \\
+     \widehat{G}_\ast
+     & \;\simeq\; 
+     \big\{
+       g \in \mathcal{C}
+       \;\Big\vert\;
+       g^\ast = g
+       ,\;
+       g^2 = id
+       ,\;
+       g \neq \pm id
+     \big\}
+     \\
+     & \;\simeq\; 
+     \big\{
+       g \in \mathcal{C}
+       \;\Big\vert\;
+       g^\ast = g
+       ,\;
+       spec(g) = \{+1, -1\}
+     \big\}
+     \\
+     & \;\simeq\;
+     \underset{
+       Gr(\mathcal{C})
+     }{
+     \underbrace{
+       \big\{ 
+          p \in \mathcal{C} 
+       \,\big\vert\, 
+          p^2 = p = p^\ast \neq 0, id 
+       \big\} 
+     }}
+  \end{aligned}
+\]
+
+and [[homotopy equivalences]]:
+
+\[
+  \begin{aligned}
+    \widehat{\mathcal{G}}_{\pm} 
+     & \;\sim\; 
+    \widehat{G}_{\pm} \;\sim\; \ast
+    \\
+    \widehat{\mathcal{F}}_{\pm} 
+    & \;\sim\; 
+    \mathbf{p}^{-1}\big(\widehat{\mathcal{G}}_{\pm}\big)
+      \;\sim\; 
+      \ast
+    \\
+    \widehat{\mathcal{F}}_{\ast} 
+    & \;\sim\; 
+    \mathbf{p}^{-1}\big(\widehat{\mathcal{G}}_{\ast}\big)
+    \\
+    \mathbf{p} 
+      \;\colon\; 
+    \widehat{\mathcal{F}}_\ast 
+     & \;\sim\; 
+    \widehat{\mathcal{G}}_\ast  
+       \;\sim\;
+    \widehat{G}_\ast  
+  \end{aligned}
+\]
+
+For $j_0 \in \widehat{G}_\ast$ any [[base point]], the [[conjugation action]] map
+
+$$
+  \begin{array}{c}
+     G 
+     &\overset{}{\longrightarrow}&
+     \widehat{G}_\ast
+     \\
+     u &\mapsto& u \circ j_0 \circ u^{-1}
+  \end{array}
+$$
+
+is a [[fiber bundle]] (in fact a [[principal bundle]]) with [[typical fiber]] $G \times G$.
+
+\end{proposition}
+
+
+
+
+
++-- {: .num_theorem #PullbackLawForACube}
+###### Theorem
+**(Pasting Law for Pullbacks in a Cube)**
+\linebreak
+Suppose we have a commutative cube in a category:
+
+\begin{tikzcd}[sep = scriptsize]
+{U'} && {V'} \\
+& {X'} && {Y'} \\
+U && V \\
+& X && Y
+\arrow[from=1-1, to=1-3]
+\arrow[from=1-1, to=2-2]
+\arrow[from=1-1, to=3-1]
+\arrow[from=1-3, to=2-4]
+\arrow[from=1-3, to=3-3]
+\arrow[crossing over, from=2-2, to=2-4]
+\arrow[from=2-4, to=4-4]
+\arrow[from=3-1, to=3-3]
+\arrow[from=3-1, to=4-2]
+\arrow[from=3-3, to=4-4]
+\arrow[from=4-2, to=4-4]
+\arrow[crossing over, from=2-2, to=4-2]
+\end{tikzcd}
+\linebreak
+
+* Assume the front and bottom faces are pullback squares. Then the following are equivalent:
+  1.  The total rectangle from $U'\to V'$ to $X\to Y$ is a pullback.
+
+  1.  The top and back faces are pullback squares.
+
+  1.  The top face or the back face is a pullback square.
+
+* Assume the top and back faces are pushout squares. Then the following are equivalent:
+  1.  The total rectangle from $U'\to V'$ to $X\to Y$ is a pushout.
+
+  1.  The front and bottom faces are pushout squares.
+
+  1.  The front face or the bottom face is a pushout square.
+ =--
+
+\begin{proof}
+Bla.
+\end{proof}
 
