@@ -170,7 +170,7 @@ Now for any category $D$, $K( D)(*)$ is exactly the set of functors $[G/\!/G, D]
 =--
 ### Category of simplices
 
-For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]], the corresponding category of elements is called its _[[category of simplices]]_. See there for more. 
+For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]], the corresponding category of elements is called its _[[category of simplices]]_. See there for more. As we have suggested at the beginning of this article, the category of elements of a covariant functor is defined differently than the category of elements of a presheaf, so the [[category of simplices]] is not an instance of the definition given above.
 
 ## Related concepts
 
