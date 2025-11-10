@@ -127,9 +127,10 @@ Particular [[principal bundles]]:
 * {#DoldWhitney59} [[Albrecht Dold]] and [[Hassler Whitney]], _Classification of oriented sphere bundles over a 4-complex_ (1959), Annals of Mathematics Vol. 69 No. 3 &lbrack;[doi:10.2307/1970030](https://doi.org/10.2307/1970030) &rbrack; 
 * {#HirzebruchHopf58} [[Friedrich Hirzebruch]], [[Heinz Hopf]], _Felder von Flächenelementen in 4-dimensionalen Mannigfaltigkeiten_ (1958)
 * {#DoldWhitney59} [[Albrecht Dold]] and [[Hassler Whitney]], _Classification of oriented sphere bundles over a 4-complex_ (1959)
+* {#UhlenbeckFreed91} [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))
 * {#GompfStipsicz99} [[Robert Gompf]] and [[András Stipsicz]], _4-Manifolds and Kirby Calculus_ (1999), Graduate Studies 
 in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/books/gsm/020), [doi:10.1090/gsm/020](https://www.ams.org/books/gsm/020)&rbrack;
-* {#Lobb17} Andrew Lobb, _The Dold-Whitney theorem and the Sato-Levine invariant_ (2017), &lbrack;[arxiv:1709.09922](https://arxiv.org/abs/1709.09922) [pdf](https://maths.dur.ac.uk/users/andrew.lobb/mod4slicing.pdf)&rbrack;
+* {#Lobb17} [[Andrew Lobb]], _The Dold-Whitney theorem and the Sato-Levine invariant_ (2017), &lbrack;[arxiv:1709.09922](https://arxiv.org/abs/1709.09922) [pdf](https://maths.dur.ac.uk/users/andrew.lobb/mod4slicing.pdf)&rbrack;
  
 [[!redirects principal SO(3)-bundles]]
 [[!redirects SO(3)-principal bundle]]
