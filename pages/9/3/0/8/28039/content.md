@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal SO(6)-bundles* are special [[principal bundles]] with the sixth [[special orthogonal group]] $SO(6)$ as [[gauge group]]. Applications include the [[frame bundle]] of an [[orientable]] 6-manifold.
+*Principal SO(6)-bundles* are special [[principal bundles]] with the sixth [[special orthogonal group]] [[SO(6)|$SO(6)$]] as [[structure group]]/[[gauge group]]. Applications include the [[frame bundle]] of an [[orientable]] 6-manifold.
 
 Principal SO(6)-bundles in particular are induced by [[principal SU(4)-bundles]] using the canonical projection $SU(4)\cong Spin(6)\hookrightarrow SO(6)$. Principal SO(6)-bundles also induce [[principal SO(2)-bundles]], [[principal SO(3)-bundles]] and principal SO(6)-bundles using the canonical inclusions $SO(2)\hookrightarrow SO(3)\hookrightarrow SO(4)\hookrightarrow SO(6)$.
 
