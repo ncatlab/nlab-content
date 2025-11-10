@@ -346,7 +346,25 @@ is a [[fiber bundle]] (in fact a [[principal bundle]]) with [[typical fiber]] $G
 
 \end{proposition}
 
-([Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993))
+([Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993), following [Atiyah & Singer 1969](#AtiyahSinger69))
+
+\begin{proposition}
+  The [[exponential map]]
+  $$
+    \exp\big(\pi \mathrm{i} (-) \big)
+    \;\colon\;
+    \widehat{\mathcal{F}}_\ast
+    \longrightarrow
+    \Big\{
+      U \in \mathrm{U}(\mathscr{H})
+      \,\Big\vert\,
+      U + id \in \mathcal{K}(\mathscr{H})
+    \Big\}
+  $$
+  (to the *Fredholm unitary group*) is a [[homotopy equivalence]].
+\end{proposition}
+([Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69))
+
 
 \linebreak
 
