@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal SU(3)-bundles* are special [[principal bundles]] with the third [[special unitary group]] $SU(3)$ as [[gauge group]]. Applications include [[quantum chromodynamics]], in which $SU(3)$ arises as the gauge group from the three color charges.
+*Principal SU(3)-bundles* are special [[principal bundles]] with the third [[special unitary group]] [[SU(3)|$SU(3)$]] as [[structure group]]/[[gauge group]]. Applications include [[quantum chromodynamics]], in which $SU(3)$ arises as the gauge group from the three color charges.
 
 Principal SU(3)-bundles induce [[principal SU(2)-bundles]] and are induced by [[principal SU(4)-bundles]] using the canonical inclusions $SU(2)\hookrightarrow SU(3)\hookrightarrow SU(4)$.
 
