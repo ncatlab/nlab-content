@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal U(2)-bundles* (or *principal Spin$^\mathrm{c}$(3)-bundles*) are special [[principal bundles]] with the second [[unitary group]] $U(2)$ ([[exceptional isomorphism|exceptionally isomorphic]] to the third [[spinᶜ group]] $Spin^\mathrm{c}(3)$) as [[gauge group]].
+*Principal U(2)-bundles* (or *principal Spin$^\mathrm{c}$(3)-bundles*) are special [[principal bundles]] with the second [[unitary group]] [[U(2)|$U(2)$]] ([[exceptional isomorphism|exceptionally isomorphic]] to the third [[spinᶜ group]] $Spin^\mathrm{c}(3)$) as [[structure group]]/[[gauge group]].
 
 Principal U(2)-bundles in particular induce [[principal SO(3)-bundles]] using the canonical projection $U(2)\cong Spin^\mathrm{c}(3)\twoheadrightarrow SO(3)$ and are induced by [[principal SU(2)-bundles]] using the canonical inclusion $SU(2)\hookrightarrow U(2)$.
 
