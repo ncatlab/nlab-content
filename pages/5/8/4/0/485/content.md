@@ -79,13 +79,16 @@ The [[codomain fibration]] of an exact category is a [[stack]] ([[2-sheaf]]) for
 
 * {#BarrGrilletvonOsdool} [[Michael Barr]],  [[Pierre Grillet]], [[Donovan van Osdol]], *Exact Categories and Categories of Sheaves*,  Lec. Notes in Math. **236**, Springer (1971) &lbrack;[doi:10.1007/BFb0058579](https://link.springer.com/book/10.1007/BFb0058579)&rbrack;
 
-
 * {#Barr71}  [[Michael Barr]], _Exact categories_, in: *Exact categories and categories of sheaves*, Springer Lec. Notes in Math. __236__ (1971) 1-120 &lbrack;[doi:10.1007/BFb0058580](http://dx.doi.org/10.1007/BFb0058580), [pdf](https://www.math.mcgill.ca/barr/papers/exact.pdf), [[Barr-ExactCategories.pdf:file]]&rbrack;  
 
 * [[Aurelio Carboni]], [[Enrico Vitale]], _Regular and exact completions_, _JPAA_ 125, 1998.
 
-
 * [[Francis Borceux]], [[Dominique Bourn]], *[[Borceux-Bourn|Mal'cev, protomodular, homological and semi-abelian categories]]*
+
+On [[2-category theory|2-category theoretic]] notions of exactness:
+
+* [[John Bourke]], [[Richard Garner]]: *Two-dimensional regularity and exactness*, Journal of Pure and Applied Algebra, **218** 7 (2014) 1346–1371 &lbrack;[doi:10.1016/j.jpaa.2013.11.021](https://doi.org/10.1016/j.jpaa.2013.11.021), [arXiv:1304.5275](https://arxiv.org/abs/1304.5275)&rbrack;
+
 
 [[!redirects exact categories]]
 
