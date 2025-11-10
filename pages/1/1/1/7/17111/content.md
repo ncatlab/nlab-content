@@ -750,6 +750,8 @@ To record some aspects of the [[linear representation|linear]] [[representation 
 
 * [[su(2)]]
 
+* [[principal SU(2)-bundle]]
+
 * [[quantum rotation gate]]
 
 * [[complex Hopf fibration]]
@@ -763,6 +765,7 @@ To record some aspects of the [[linear representation|linear]] [[representation 
 * [[Solovay-Kitaev theorem]]
 
 [[!include low dimensional rotation groups -- table]]
+
 
 ## References
 
