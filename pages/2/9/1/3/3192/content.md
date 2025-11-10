@@ -199,6 +199,157 @@ Finally, together with the grading, the condition $F^\ast = F$ implies that in f
 
 \linebreak
 
+### Self-adjoint Fredholm operators
+ {#PropertiesSelfAdjointFredholmOperators}
+
+The following is a digest of [Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993).
+
+All [[linear operators]] in the following act on a given [[separable Hilbert space|separable]] countably infinite-dimensional [[complex numbers|complex]] [[Hilbert space]].
+
+Consider and denote:
+
+* $\mathcal{B}$ --- the space of [[bounded operators]],
+
+* $\mathcal{K} \subset \mathcal{B}$ --- the subspace of [[compact operators]],
+
+* $\mathcal{C} \coloneqq \mathcal{B}/\mathcal{K}$  --- the [[Calkin algebra]] regarded as a [[C*-algebra|$C^\ast$-algebra]],
+
+* $\mathbf{p} \colon \mathcal{B} \twoheadrightarrow \mathcal{C}$  --- the [[quotient]] [[coprojection]],
+
+* $\mathcal{G} \coloneqq \mathcal{C}^\times = GL(\mathcal{C})$  --- the [[group of units]] of the [[Calkin algebra]],
+
+* $\widehat{\mathcal{G}} \subset \mathcal{G}$  --- the subgroup of [[self-adjoint elements]],
+
+* $\widehat{\mathcal{G}}_{\pm} \subset \widehat{\mathcal{G}}$   --- the subgroup of elements with purely positibe/negative [[essential spectrum]], 
+
+* $\widehat{\mathcal{G}}_{\ast} \subset \widehat{\mathcal{G}}$   --- the remaining subspace, of elements whose essential spectrum is both positive and negative,
+
+* $G \coloneqq \mathrm{U}(\mathcal{C}) \subset GL(\mathcal{C})$ --- the [[unitary group]] of the Calkin algebra, 
+
+* $\widehat{G} \coloneqq \widehat{\mathcal{G}} \cap G$ --- the group of self-adjoint unitary elements of the Calkin algebra
+
+* $\widehat{G}_{\pm} \coloneqq \widehat{\mathcal{G}}_{\pm} \cap G$ --- the group of self-adjoint unitary elements of the Calkin algebra with purely positive/negative essential spectrum,
+
+* $\widehat{G}_{\ast} \coloneqq \widehat{\mathcal{G}}_{\ast} \cap G$ --- the group of self-adjoint unitary elements of the Calkin algebra with both positive and negative essential spectrum,
+
+* $\mathcal{F} \simeq \mathbf{p}^{-1}(\mathcal{G})$  --- the space of [[Fredholm operators]],
+
+* $\widehat{\mathcal{F}} \subset \mathcal{F}$  --- the subspace of self-adjoint Fredholm operators,
+
+* $\widehat{\mathcal{F}}_{\pm} \subset \widehat{\mathcal{F}}$  --- the subspace of operators with purely positive/negative [[essential spectrum]],
+  
+* $\widehat{\mathcal{F}}_{\ast} \subset \widehat{\mathcal{F}}$  --- the remaining subspace, that of operators with both positive and negative [[essential spectrum]],
+
+
+\begin{proposition}
+
+We have [[homeomorphisms]]:
+
+\[
+  \begin{aligned}
+     \widehat{\mathcal{G}} 
+     & \;\simeq\; 
+     \widehat{\mathcal{G}}_+ 
+       \sqcup 
+     \widehat{\mathcal{G}}_- 
+       \sqcup 
+     \widehat{\mathcal{G}}_\ast
+     \\
+     \widehat{\mathcal{F}} 
+     & \;\simeq\; 
+     \widehat{\mathcal{F}}_+ 
+       \sqcup 
+     \widehat{\mathcal{F}}_- 
+       \sqcup 
+     \widehat{\mathcal{F}}_\ast
+     \\
+     \widehat{G}_\pm 
+     & \;\simeq\; 
+     \{ \pm id \}
+     \\
+     \widehat{G}_\ast
+     & \;\simeq\; 
+     \big\{
+       g \in \mathcal{C}
+       \;\Big\vert\;
+       g^\ast = g
+       ,\;
+       g^2 = id
+       ,\;
+       g \neq \pm id
+     \big\}
+     \\
+     & \;\simeq\; 
+     \big\{
+       g \in \mathcal{C}
+       \;\Big\vert\;
+       g^\ast = g
+       ,\;
+       spec(g) = \{+1, -1\}
+     \big\}
+     \\
+     & \;\simeq\;
+     \underset{
+       Gr(\mathcal{C})
+     }{
+     \underbrace{
+       \big\{ 
+          p \in \mathcal{C} 
+       \,\big\vert\, 
+          p^2 = p = p^\ast \neq 0, id 
+       \big\} 
+     }}
+  \end{aligned}
+\]
+
+and [[homotopy equivalences]]:
+
+\[
+  \begin{aligned}
+    \widehat{\mathcal{G}}_{\pm} 
+     & \;\sim\; 
+    \widehat{G}_{\pm} \;\sim\; \ast
+    \\
+    \widehat{\mathcal{F}}_{\pm} 
+    & \;\sim\; 
+    \mathbf{p}^{-1}\big(\widehat{\mathcal{G}}_{\pm}\big)
+      \;\sim\; 
+      \ast
+    \\
+    \widehat{\mathcal{F}}_{\ast} 
+    & \;\sim\; 
+    \mathbf{p}^{-1}\big(\widehat{\mathcal{G}}_{\ast}\big)
+    \\
+    \mathbf{p} 
+      \;\colon\; 
+    \widehat{\mathcal{F}}_\ast 
+     & \;\sim\; 
+    \widehat{\mathcal{G}}_\ast  
+       \;\sim\;
+    \widehat{G}_\ast  
+  \end{aligned}
+\]
+
+For $j_0 \in \widehat{G}_\ast$ any [[base point]], the [[conjugation action]] map
+
+$$
+  \begin{array}{c}
+     G 
+     &\overset{}{\longrightarrow}&
+     \widehat{G}_\ast
+     \\
+     u &\mapsto& u \circ j_0 \circ u^{-1}
+  \end{array}
+$$
+
+is a [[fiber bundle]] (in fact a [[principal bundle]]) with [[typical fiber]] $G \times G$.
+
+\end{proposition}
+
+([Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993))
+
+\linebreak
+
 
 ## Generalizations
 
@@ -309,7 +460,7 @@ As a [[classifying space]] for [[topological K-theory]] $KU^1$, $KO^1$ and $KSp^
  
 More on the [[homotopy groups]] of this space:
 
-* [[Bernhelm Booß-Bavnbek]], Krzysztof P. Wojciechowski: *The Homotopy Groups of the Space of Self-Adjoint Fredholm Operators*, §16 in: *Elliptic Boundary Problems for Dirac Operators* Mathematics: Theory & Applications, Birkhäuser (1993) 127-137  &lbrack;[doi:10.1007/978-1-4612-0337-7_16](https://doi.org/10.1007/978-1-4612-0337-7_16), [pdf](https://link.springer.com/content/pdf/10.1007/978-1-4612-0337-7_16)&rbrack;
+* {#BooßBavnbekWojciechowski1993} [[Bernhelm Booß-Bavnbek]], Krzysztof P. Wojciechowski: *The Homotopy Groups of the Space of Self-Adjoint Fredholm Operators*, §16 in: *Elliptic Boundary Problems for Dirac Operators* Mathematics: Theory & Applications, Birkhäuser (1993) 127-137  &lbrack;[doi:10.1007/978-1-4612-0337-7_16](https://doi.org/10.1007/978-1-4612-0337-7_16), [pdf](https://link.springer.com/content/pdf/10.1007/978-1-4612-0337-7_16)&rbrack;
 
 Specifically regarding their [[spectral flow]]:
 
