@@ -73,6 +73,11 @@ Particular [[principal bundles]]:
 * [[principal SO(4)-bundle]]
 * **principal SO(6)-bundle**
 
+## References
+
+* {#GompfStipsicz99} [[Robert Gompf]] and [[András Stipsicz]], _4-Manifolds and Kirby Calculus_ (1999), Graduate Studies 
+in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/books/gsm/020), [doi:10.1090/gsm/020](https://www.ams.org/books/gsm/020)&rbrack;
+
 [[!redirects principal SO(6)-bundles]]
 [[!redirects SO(6)-principal bundle]]
 [[!redirects SO(6)-principal bundles]]
