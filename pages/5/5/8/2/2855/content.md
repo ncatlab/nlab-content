@@ -45,6 +45,11 @@ On [[adhesive categories]]:
 
 * {#GarnerLack12} [[Richard Garner]], [[Steve Lack]]: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
 
+On [[2-category theory|2-category theoretic]] notions of [[exact categories]]:
+
+* [[John Bourke]], [[Richard Garner]]: *Two-dimensional regularity and exactness*, Journal of Pure and Applied Algebra, **218** 7 (2014) 1346–1371 &lbrack;[doi:10.1016/j.jpaa.2013.11.021](https://doi.org/10.1016/j.jpaa.2013.11.021), [arXiv:1304.5275](https://arxiv.org/abs/1304.5275)&rbrack;
+
+
 On the [[categorical semantics]] of [[dependent type theory]] with [[function types]] in [[locally cartesian closed categories]] (see at *[[relation between category theory and type theory]]*):
 
 * {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], *Revisiting the categorical interpretation of dependent type theory*, Theoretical Computer Science **546** 21 (2014) 99-119 &lbrack;[doi:10.1016/j.tcs.2014.03.003](https://doi.org/10.1016/j.tcs.2014.03.003), [[CurienGarnerHofmann.pdf:file]]&rbrack;
