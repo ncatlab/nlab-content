@@ -17,7 +17,7 @@
 
 ## Idea
 
-$B SU(n)$ is the [[classifying space]] for the [[special unitary group]] $SU(n)$.
+$B SU(n)$ is the [[classifying space]] for (principal bundles with structure group) the [[special unitary group]] $SU(n)$. Important examples are [[principal SU(2)-bundles]], [[principal SU(3)-bundles]] and [[principal SU(4)-bundles]].
 
 ## Definition
 
