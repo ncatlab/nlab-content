@@ -50,6 +50,8 @@ $$
 
 (see [this Prop.](sphere#SphereAsSymplecticUnitaryCoset)).
 
+In particular, there is a [[principal SU(2)-bundle]] $Spin(5)\twoheadrightarrow S^7$. Such principal bundles are classified by $\pi_7 B SU(2)\cong\pi_6 SU(2)\cong\pi_6 S^3    \cong\mathbb{Z}_{12}$.
+
 ## Related concepts
 
 [[!include coset space structure on n-spheres -- table]]
