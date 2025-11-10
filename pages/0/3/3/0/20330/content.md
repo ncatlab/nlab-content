@@ -31,6 +31,7 @@ $$
   S^6
   \,.
 $$
+In particular, there is a [[principal SU(3)-bundle]] $G_2\twoheadrightarrow S^6$. Such principal bundles are classified by $\pi_6 B SU(3)\cong\pi_5 SU(3)\cong\mathbb{Z}$.
 
 ## Related concepts
 
