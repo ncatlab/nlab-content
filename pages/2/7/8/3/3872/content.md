@@ -63,10 +63,20 @@ Concerning [[spin structures]] on [[Riemann surface|Riemann]] [[surfaces]]:
 
 * {#Atiyah71} [[Michael Atiyah]]: *Riemann surfaces and spin structures*, Annales scientifiques de l'École Normale Supérieure, Serie 4, Volume 4 (1971) no. 1, pp. 47-62 &lbrack;[numdam:ASENS_1971_4_4_1_47_0](https://www.numdam.org/item/?id=ASENS_1971_4_4_1_47_0)&rbrack;
 
+Introducing the notion of the [[eta-invariant]]:
+
+* [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian Geometry. I*, Mathematical Proceedings of the Cambridge Philosophical Society **77** 1 (1975) 43-69 &lbrack;[doi:10.1017/S0305004100049410](https://doi.org/10.1017/S0305004100049410), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/aps001.pdf)&rbrack; 
+
+* [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian geometry II*, Mathematical Proceedings of the Cambridge Philosophical Society **78** 3 (1975) 405-432 &lbrack;[doi:10.1017/S0305004100051872](https://doi.org/10.1017/S0305004100051872), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/aps002.pdf)&rbrack;
+
+* [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian geometry III*, Mathematical Proceedings of the Cambridge Philosophical Society **79** 1  (1976) 71-99 &lbrack;[doi:10.1017/S0305004100052105](https://doi.org/10.1017/S0305004100052105), [pdf](https://repository.ias.ac.in/33549/1/33549.pdf)&rbrack;
+
+
 
 On the [[KO-theory]] of [[complex projective 3-space]]:
 
 * [[Michael Atiyah]], E. Rees, _Vector bundles on projective 3-space_ Invent. Math.35, 131–153 (1976) ([[AtiyahReesVectorBundlesOnCP3.pdf:file]])
+
 
 Introducing the [[ADHM construction]] for [[Yang-Mills instantons]]:
 
