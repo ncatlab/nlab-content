@@ -54,10 +54,7 @@ For every microlinear space $X$, the [[tangent bundle]] $X^D \to X$ has a natura
 
 We describe first the addition of tangent vectors, then the $R$-action on them and then prove that this is a [[module]]-structure.
 
-* **Addition** With $D = \{\epsilon \in R| \epsilon^2 = 0 \}$ the 
-  [[infinitesimal space|infinitesimal interval]] and 
-  $D(2) = \{(\epsilon_1, \epsilon_2) \in R \times R | \epsilon_i^2 = 0\}$
-  we have a cocone
+* **Addition** With $D \coloneqq \{\epsilon \in R| \epsilon^2 = 0 \}$ the [[infinitesimal space|infinitesimal interval]] and  $D(2) \coloneqq \big\{(\epsilon_1, \epsilon_2) \in R \times R | \epsilon_i \epsilon_j = 0\big\}$ we have a [[cocone]]
   
   $$
     \array{
@@ -81,31 +78,27 @@ We describe first the addition of tangent vectors, then the $R$-action on them a
     }
   $$
 
-  is a [[limit]] cone, by the [[Kock-Lawvere axiom]] satisfied in the [[smooth topos]] $\mathcal{T}$. Since $X$ is microlinear,
-  also the canonical map
+  is a [[limit]] [[cone]], by the [[Kock-Lawvere axiom]] satisfied in the [[smooth topos]] $\mathcal{T}$. Since $X$ is microlinear, also the canonical map
   
   $$
-    r \colon X^{D(2)} \to X^D \times_X X^D
+    r \;\colon\; X^{D(2)} \to X^D \times_X X^D
   $$
 
-  is an [[isomorphism]]. With $\Id \times Id : D \to D(2)$ the diagonal
-  map, we then define the fiberwise addition $X^D \times_X X^D \to X^D$ in 
-  the [[tangent bundle]] $X^D$ 
-  to be given by the map
+  is an [[isomorphism]]. With $\Id \times Id \colon D \to D(2)$ the [[diagonal map]], we then define the fiberwise [[addition]] $X^D \times_X X^D \to X^D$ in  the [[tangent bundle]] $X^D$ to be given by the map
   
   $$  
-    + : X^D \times_X X^D \stackrel{r^{-1}}{\to} X^{D(2)} \stackrel{X^{Id \times Id}}{\to}
+    + \;\colon\; X^D \times_X X^D \stackrel{r^{-1}}{\to} X^{D(2)} \stackrel{X^{Id \times Id}}{\to}
     X^D
     \,.
   $$
 
-  On elements, this sends two elements $v_1, v_2 \in X^D$ in the same fiber to the element $v_1 + v_2$ of $X^D$ given by the map $(v_1 + v_2) : d \mapsto r^{-1}(v_1,v_2)(d,d)$.
+  On elements, this sends a pair $v_1, v_2 \in X^D$ in the same fiber to the element $v_1 + v_2$ of $X^D$ given by the map $(v_1 + v_2) \;\colon\; d \mapsto r^{-1}(v_1,v_2)(d,d)$.
 
-*  **Multiplication** $ \cdot : R \times X^D \to X^D$ is defined componentwise by
+*  **Multiplication** $ \cdot \;\colon\; R \times X^D \to X^D$ is defined componentwise by
 
-   $(\alpha \cdot v) : d \mapsto v (\alpha \cdot d)$.
+   $(\alpha \cdot v) \;\colon\; d \mapsto v (\alpha \cdot d)$.
   
-One checks that this is indeed unital, associative and distributive. ...
+One checks that this is indeed [[unitality|unital]], [[associativity|associative]] and [[distributivity|distributive]]. ...
 
 =--
 
@@ -118,8 +111,7 @@ A large class of examples is implied by the following proposition.
 ###### Proposition
 **(closedness of the collection of microlinear spaces)**
 
-In every [[smooth topos]] $(\mathcal{T},R)$ we have
-the following.
+In every [[smooth topos]] $(\mathcal{T},R)$ we have:
 
 1. The standard line $R$ is microlinear.
 
@@ -127,7 +119,7 @@ the following.
 
    for $X = \lim_i X_i$ a [[limit]] of microlinear spaces $X_i$, also $X$ is microlinear.
   
-1. Mapping spaces into microlinear spaces are microlinear: for $X$ any microlinear space and $\Sigma$ any space, also the [[internal hom]] $X^\Sigma$ is microlinear.
+1. [[mapping space|Mapping spaces]] into microlinear spaces are microlinear: for $X$ any microlinear space and $\Sigma$ any space, also the [[internal hom]] $X^\Sigma$ is microlinear.
 
 =--
 
@@ -137,7 +129,7 @@ the following.
 
 This is obvious from the standard properties
 of [[limits]] and the fact that the [[internal hom]]-functor
-$(-)^Y : \mathcal{T} \to \mathcal{T}$ preserves limits.
+$(-)^Y \colon \mathcal{T} \to \mathcal{T}$ preserves limits.
 (See [[limits and colimits by example]] if you don't find it obvious.)
 
 1. by definition
@@ -209,7 +201,7 @@ The notion of microlinear space in the above fashion is due to
 
 and was studied further under the name _strong infinitesimal linearity_
 
-* [[Anders Kock]], R. Lavendhomme, _Strong infinitesimal linearity, with applications to string difference and affine connections_, Cahiers de Top. 25 (1984)
+* [[Anders Kock]], [[René Lavendhomme]]: *Strong infinitesimal linearity, with applications to strong difference and affine connections*, [[Cahiers]] de topologie et géométrie différentielle catégoriques, tome 25, no 3 (1984) 311-324 &lbrack;[numdam:CTGDC_1984__25_3_311_0](http://www.numdam.org/item?id=CTGDC_1984__25_3_311_0)&rbrack;
 
 This is similar to but stronger than the earlier "condition (E)" given in
 
@@ -217,19 +209,15 @@ This is similar to but stronger than the earlier "condition (E)" given in
 
 which apparently was also called "infinitesimal linearity" (without the "strong").
 
-Spaces satisfying this condition were called _infinitesimally linear spaces_, for instance in
+Spaces satisfying this condition were called _infinitesimally linear spaces_, for instance in the original version of:
 
-* [[Anders Kock]] (1981) .
+*  {#Kock81} [[Anders Kock]]: _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](http://home.imf.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
 
-The later re-typing of that book
-
-* [[Anders Kock]], _Synthetic Differential Geometry_ (2006)  ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
-
-contains in its appendix D the definition of microlinearity as above.
+The 2006 revision of this book contains in its appendix D the definition of microlinearity as above.
 
 A comprehensive discussion of microlinearity is in chapter V, section 1 of
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_
+* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_, Springer (1991) &lbrack;[doi:10.1007/978-1-4757-4143-8](https://link.springer.com/book/10.1007/978-1-4757-4143-8)&rbrack;
 
 
 [[!redirects microlinear spaces]]
