@@ -114,6 +114,8 @@ $d\rho$ must also be [[surjective function|surjective]].   Since $\mathrm{SO}(6)
 
 ## References
 
+* {#MimuraToda63} [[Mamoru Mimura]] and [[Hiroshi Toda]], _Homotopy Groups of SU(3), SU(4) and Sp(2)_ (1963), Journal of Mathematics of Kyoto University **3** (2), p. 217–250, [doi:10.1215/kjm/1250524818](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-3/issue-2/Homotopy-Groups-of-SU3-SU4-and-Sp2/10.1215/kjm/1250524818.full)
+
 * {#FigueroaFarrill10} [[José Figueroa-O'Farrill]], _[PG course on Spin Geometry](https://empg.maths.ed.ac.uk/Activities/Spin/)_ lecture 8: _Parallel and Killing spinors_, 2010 ([pdf](https://empg.maths.ed.ac.uk/Activities/Spin/Lecture8.pdf))
 
 [[!redirects SU(4)]]
