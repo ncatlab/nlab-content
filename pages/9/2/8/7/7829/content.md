@@ -242,18 +242,18 @@ See at _[[zeta function of a Riemann surface]]_ for more on this case.
 
 ## References
 
-The $\eta$-invariant was introduced by Atiyah-Patodi-Singer in the series of articles
+The $\eta$-invariant was originally introduced in
 
-* [[Michael Atiyah]], V. K. Patodi and [[Isadore Singer]], _Spectral asymmetry and Riemannian geometry I_ Proc. Cambridge Philos. Soc. 77 (1975), 43-69.
+* [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian Geometry. I*, Mathematical Proceedings of the Cambridge Philosophical Society **77** 1 (1975) 43-69 &lbrack;[doi:10.1017/S0305004100049410](https://doi.org/10.1017/S0305004100049410), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/aps001.pdf)&rbrack; 
 
-   _Spectral asymmetry and Riemannian geometry II. Proc. Cambridge Philos. Soc.
+* [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian geometry II*, Mathematical Proceedings of the Cambridge Philosophical Society **78** 3 (1975) 405-432 &lbrack;[doi:10.1017/S0305004100051872](https://doi.org/10.1017/S0305004100051872), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/aps002.pdf)&rbrack;
 
-  _Spectral asymmetry and Riemannian geometry III_, Proc. Cambridge Philos. Soc. 79 (1976), 71-99.
+* [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian geometry III*, Mathematical Proceedings of the Cambridge Philosophical Society **79** 1  (1976) 71-99 &lbrack;[doi:10.1017/S0305004100052105](https://doi.org/10.1017/S0305004100052105), [pdf](https://repository.ias.ac.in/33549/1/33549.pdf)&rbrack;
 
 as the [[boundary]] correction term  for the [[analytic index|index formula]] on a [[manifold with boundary]].
 
 
-Introductions and surveys include
+Introductions and surveys:
 
 * [[Jean-Michel Bismut]], _Local index theory, eta invariants and holomorphic torsion: a survey_, pp. 1-76, in: Surveys in diff. geom. 3 (C.-C. Hsiung, S.-T. Yau, eds.) 1996. International Press
 
