@@ -119,6 +119,8 @@ The [[homotopy groups]] of $SO(4)$ in [[low-dimensional topology|low degrees]] a
 
 ## Related concepts
 
+* [[principal SO(4)-bundle]]
+
 [[!include low dimensional rotation groups -- table]]
 
 
