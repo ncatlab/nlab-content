@@ -6,7 +6,11 @@
 
 ## Selected writings
 
-* [list of arXiv preprints](http://arxiv.org/find/math/1/au:+Bourke_J/0/1/0/all/0/1)
+* cf.: [list of arXiv preprints](http://arxiv.org/find/math/1/au:+Bourke_J/0/1/0/all/0/1)
+
+On [[2-category theory|2-category theoretic]] notions of [[exact categories]]:
+
+* [[John Bourke]], [[Richard Garner]]: *Two-dimensional regularity and exactness*, Journal of Pure and Applied Algebra, **218** 7 (2014) 1346–1371 &lbrack;[doi:10.1016/j.jpaa.2013.11.021](https://doi.org/10.1016/j.jpaa.2013.11.021), [arXiv:1304.5275](https://arxiv.org/abs/1304.5275)&rbrack;
 
 On [[skew-monoidal categories]]:
 
