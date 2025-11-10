@@ -9,6 +9,7 @@ Isadore Manuel Singer (1924-2021)
 
 * [[Robert Bryant]], [[Jeff Cheeger]], [[Phillip Griffiths]]:  *Isadore M. Singer (1924–2021) In Memoriam Part 1: Scientific Works*, Notices of the AMS (Oct 2022) &lbrack;[pdf](https://www.ams.org/publications/journals/notices/202209/rnoti-p1547.pdf)&rbrack;
 
+
 ## Selected writings
 
 Introducing the [[Kadison-Singer problem]]:
@@ -27,6 +28,16 @@ Introducing Ray-Singer [[analytic torsion]]:
 
 * {#RaySinger73} [[Daniel Burrill Ray]], [[Isadore Singer]]: *Analytic torsion for complex manifolds*, Ann. Math. **98** 1 (1973) 154-177 \[<a href="https://doi.org/10.2307/1970909">doi:10.2307/1970909</a>, [jstor:1970909](https://www.jstor.org/stable/1970909)\]
   > (for [[complex manifolds]])
+
+
+
+Introducing the notion of the [[eta-invariant]]:
+
+* [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian Geometry. I*, Mathematical Proceedings of the Cambridge Philosophical Society **77** 1 (1975) 43-69 &lbrack;[doi:10.1017/S0305004100049410](https://doi.org/10.1017/S0305004100049410), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/aps001.pdf)&rbrack; 
+
+* [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian geometry II*, Mathematical Proceedings of the Cambridge Philosophical Society **78** 3 (1975) 405-432 &lbrack;[doi:10.1017/S0305004100051872](https://doi.org/10.1017/S0305004100051872), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/aps002.pdf)&rbrack;
+
+* [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian geometry III*, Mathematical Proceedings of the Cambridge Philosophical Society **79** 1  (1976) 71-99 &lbrack;[doi:10.1017/S0305004100052105](https://doi.org/10.1017/S0305004100052105), [pdf](https://repository.ias.ac.in/33549/1/33549.pdf)&rbrack;
 
 
 On [[quantum anomalies]] via [[index theory]]:
