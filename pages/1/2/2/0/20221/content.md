@@ -102,9 +102,13 @@ $d\rho$ must also be [[surjective function|surjective]].   Since $\mathrm{SO}(6)
 
 ## Related concepts
 
-[[!include low dimensional rotation groups -- table]]
+* [[principal SU(4)-bundle]]
 
 * [[U(1)]], [[SU(2)]], [[SU(3)]], [[SU(5)]]
+
+
+[[!include low dimensional rotation groups -- table]]
+
 
 \linebreak
 
