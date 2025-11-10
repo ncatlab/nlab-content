@@ -100,7 +100,7 @@ and specifically in the context of [[Khovanov homology]]:
 
 reviewed in:
 
-* {#Lobb24} Andrew Lobb: Figs. 11-12 in: *A feeling for Khovanov homology*, Notices of the AMS **71** 5 (2024) &lbrack;[doi:10.1090/noti2928](https://doi.org/10.1090/noti2928), [pdf](https://www.ams.org/notices/202405/rnoti-p621.pdf), [pdf](https://www.maths.dur.ac.uk/users/andrew.lobb/notices.pdf), full issue:[pdf](https://www.ams.org/notices/202405/202405FullIssue.pdf)&rbrack;
+* {#Lobb24} [[Andrew Lobb]]: Figs. 11-12 in: *A feeling for Khovanov homology*, Notices of the AMS **71** 5 (2024) &lbrack;[doi:10.1090/noti2928](https://doi.org/10.1090/noti2928), [pdf](https://www.ams.org/notices/202405/rnoti-p621.pdf), [pdf](https://www.maths.dur.ac.uk/users/andrew.lobb/notices.pdf), full issue:[pdf](https://www.ams.org/notices/202405/202405FullIssue.pdf)&rbrack;
 
 
 [[!redirects link cobordisms]]
