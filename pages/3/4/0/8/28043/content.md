@@ -6,7 +6,7 @@ Computing [[homotopy groups]]:
 
 ## Related entries
 
-* [[principal SU(3)-bundles]]
-* [[principal SU(4)-bundles]]
+* [[SU(3)]], [[SU(4)]], [[Sp(2)]]
+* [[principal SU(3)-bundles]], [[principal SU(4)-bundles]]
 
 category: people
