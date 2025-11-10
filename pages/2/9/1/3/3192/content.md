@@ -309,7 +309,7 @@ As a [[classifying space]] for [[topological K-theory]] $KU^1$, $KO^1$ and $KSp^
  
 More on the [[homotopy groups]] of this space:
 
-* [[Bernhelm Booß-Bavnbek]], Krzysztof P. Wojciechowski: *The Homotopy Groups of the Space of Self-Adjoint Fredholm Operators*, §16 in: *Elliptic Boundary Problems for Dirac Operators* Mathematics: Theory & Applications, Birkhäuser (1993) 127-137  &lbrack;[doi:10.1007/978-1-4612-0337-7_16](https://doi.org/10.1007/978-1-4612-0337-7_16)[pdf](https://link.springer.com/content/pdf/10.1007/978-1-4612-0337-7_16)&rbrack;
+* [[Bernhelm Booß-Bavnbek]], Krzysztof P. Wojciechowski: *The Homotopy Groups of the Space of Self-Adjoint Fredholm Operators*, §16 in: *Elliptic Boundary Problems for Dirac Operators* Mathematics: Theory & Applications, Birkhäuser (1993) 127-137  &lbrack;[doi:10.1007/978-1-4612-0337-7_16](https://doi.org/10.1007/978-1-4612-0337-7_16), [pdf](https://link.springer.com/content/pdf/10.1007/978-1-4612-0337-7_16)&rbrack;
 
 Specifically regarding their [[spectral flow]]:
 
@@ -326,6 +326,9 @@ Specifically regarding their [[spectral flow]]:
 * [[Bernhelm Booß-Bavnbek]], Matthias Lesch, [[John Phillips]]: *Unbounded Fredholm Operators and Spectral Flow*, Canadian Journal of Mathematics **57** 2 (2005) 225-250 &lbrack;[doi:10.4153/CJM-2005-010-1](https://doi.org/10.4153/CJM-2005-010-1), [arXiv:math/0108014](https://arxiv.org/abs/math/0108014)&rbrack;
 
 * Nils Waterstraat: *Fredholm Operators and Spectral Flow* &lbrack;[arXiv:1603.02009](https://arxiv.org/abs/1603.02009)&rbrack;
+
+* Robert Skiba, Nils Waterstraat: *The Index Bundle for Selfadjoint Fredholm Operators and Multiparameter Bifurcation for Hamiltonian Systems* &lbrack;[arXiv:2012.05691](https://arxiv.org/abs/2012.05691)&rbrack;
+
 
 
 category: analysis
