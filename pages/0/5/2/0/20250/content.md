@@ -261,11 +261,17 @@ This $7$-dimensional representation may also be realized as the space of harmoni
 
 ## Related concepts
 
-[[!include low dimensional rotation groups -- table]]
+* [[principal SO(3)-bundle]]
+
+* [[finite rotation group]]
 
 * [[Euclidean group]]
 
 * [[rigid body dynamics]]
+
+
+[[!include low dimensional rotation groups -- table]]
+
 
 
 \linebreak
