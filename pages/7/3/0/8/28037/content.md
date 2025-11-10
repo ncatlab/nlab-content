@@ -18,9 +18,9 @@
 
 ## Idea
 
-*Principal SO(3)-bundles* are special [[principal bundles]] with the third [[special orthogonal group]] $SO(3)$ as [[gauge group]]. Applications include the [[frame bundle]] of an [[orientable]] [[3-manifold]].
+*Principal SO(3)-bundles* are [[principal bundles]] with the third [[special orthogonal group]] [[SO(3)|$SO(3)$]] as [[structure group]]/[[gauge group]]. Applications include the [[frame bundle]] of an [[orientable]] [[3-manifold]].
 
-Principal SO(3)-bundles are in particular induced by [[principal SU(2)-bundles]] using the [[double cover]] $SU(2)\cong Spin(3)\twoheadrightarrow SO(3)$ and [[principal U(2)-bundles]] using the canonical projection $U(2)\cong Spin^\mathrm{c}(3)\cong Spin^\mathrm{h}(2)\rightarrow SO(3)$. In fact the latter example generalizes to every $Spin^\mathrm{h}(n)$-bundle using the [[double cover]] of the former example:
+Principal $SO(3)$-bundles are in particular induced by [[principal SU(2)-bundles]] using the [[double cover]] $SU(2)\cong Spin(3)\twoheadrightarrow SO(3)$ and [[principal U(2)-bundles]] using the canonical projection $U(2)\cong Spin^\mathrm{c}(3)\cong Spin^\mathrm{h}(2)\rightarrow SO(3)$. In fact the latter example generalizes to every $Spin^\mathrm{h}(n)$-bundle using the [[double cover]] of the former example:
 $$
 Spin^\mathrm{h}(n)
 \cong(Spin(n)\times SU(2))/\mathbb{Z}_2
