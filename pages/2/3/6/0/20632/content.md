@@ -109,7 +109,7 @@ Textbook accounts and review:
 * [[Sibe Mardešić]], _Absolute Neighborhood  Retracts and Shape  Theory_ ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/mardesic.pdf))
 
 
-* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Def. 4.2.10 in: _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, Def. 4.2.10 in: _Algebraic topology from a homotopical viewpoint_, Springer (2002) &lbrack;[doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586), [toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf)&rbrack;
 
 
 See also:
