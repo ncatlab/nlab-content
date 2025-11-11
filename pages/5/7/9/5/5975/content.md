@@ -101,43 +101,43 @@ On 2-[[functorial semantics]]:
 
 On [[2-categories]] as [[2-theories]]:
 
-* {#CDL21} Greta Coraglia, [[Ivan Di Liberti]], _Context, judgement, deduction_ &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;.
+* {#CDL21} Greta Coraglia, [[Ivan Di Liberti]], _Context, judgement, deduction_ (2021) &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;
 
-* Vít Jelínek, Type theory and its semantics (Master thesis)
+* Vít Jelínek, _Type theory and its semantics_, Master thesis, Masaryk University (2024) &lbrack;[url](https://theses.cz/id/n7t9ei/)&rbrack;
 
-* Jonathan Osser,  A 2‑Sketchy Approach to Type Theory. (Master thesis)
+* Jonathan Osser,  _A 2‑Sketchy Approach to Type Theory_, Master thesis, University of Amsterdam (2025) &lbrack;[url](https://scripties.uba.uva.nl/search?id=record_56899)&rbrack;
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]], *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, 12 (2022) 1–14, &lbrack;[doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334)&rbrack;
 
-* {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical structures in computer science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
+* {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical Structures in Computer Science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
 
 On [[rewriting]]:
 
-* Samuel Mimram, Categorical Coherence from Term Rewriting Systems
+* [[Samuel Mimram]], _Categorical Coherence from Term Rewriting Systems_, 8th International Conference on Formal Structures for Computation and Deduction (FSCD 2023), Leibniz International Proceedings in Informatics (LIPIcs) **260** (2023) 16:1–16:17 &lbrack;[doi:10.4230/LIPIcs.FSCD.2023.16](http://doi.org/10.4230/LIPIcs.FSCD.2023.16)&rbrack;
 
-* Samuel Mimram, *Rewriting techniques for relative coherence
+* [[Samuel Mimram]], _Rewriting techniques for relative coherence_, Logical Methods in Computer Science **21** 3 (2025) &lbrack;[arXiv:2402.18170](http://arxiv.org/abs/2402.18170), [doi:10.46298/lmcs-21(3:7)2025](http://doi.org/10.46298/lmcs-21(3:7)2025)&rbrack;
 
-* [Pow89a] John Power. An abstract formulation for rewrite systems. In Category Theory and Computer Science, pages 300–312, Berlin, Heidelberg, 1989. Springer Berlin Heidelberg. doi:10.1007/ BFb0018358.
+* [[John Power]], _An abstract formulation for rewrite systems_, In Category Theory and Computer Science, Springer Berlin Heidelberg (1989) 300–312 &lbrack;[doi:10.1007/BFb0018358](http://doi.org/10.1007/BFb0018358)&rbrack;
 
-* [[Tom Hirschowitz]], *Cartesian closed 2-categories and permutation equivalence in higher-order rewriting*. Logical Methods in Computer Science, Logical Methods in Computer Science Association, 2013, 9 (3), pp.10. ([pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document))
+* [[Tom Hirschowitz]], _Cartesian closed 2-categories and permutation equivalence in higher-order rewriting_, Logical Methods in Computer Science **9** 3 (2013) pp.10 &lbrack;[pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document), [arXiv:1307.6318](http://arxiv.org/abs/1307.6318), [doi:10.2168/LMCS-9(3:10)2013](https://doi.org/10.2168/LMCS-9%283%3A10%292013)&rbrack;
 
 On [[2-categories]] of [[theory|1-theories]]:
 
-* Garner and Lack. Lex Colimits.
+* [[Richard Garner]], [[Stephen Lack]], _Lex colimits_, Journal of Pure and Applied Algebra **216** 6 (2012) 1372–1396 &lbrack;[arXiv:1107.0778](https://arxiv.org/abs/1107.0778), [doi:10.1016/j.jpaa.2012.01.003](http://doi.org/10.1016/j.jpaa.2012.01.003)&rbrack;
 
-* Di Liberti and Ye. Logics and concepts in the 2-category of Topoi.
+* [[Ivan Di Liberti]], [[Lingyuan Ye]], _Logics and concepts in the 2-category of Topoi_ (2025) &lbrack;[arXiv:2504.16690](http://arxiv.org/abs/2504.16690)&rbrack;
 
-* Di Liberti and Lobbia. Sketches and Classifying Logoi.
+* [[Ivan Di Liberti]], [[Gabriele Lobbia]], _Sketches and Classifying Logoi_ (2024) &lbrack;[arXiv:2403.09264](http://arxiv.org/abs/2403.09264)&rbrack;
 
-* Coraglia, Greta, and Jacopo Emmenegger. "A 2-categorical analysis of context comprehension." arXiv preprint arXiv:2403.03085 (2024).
+* Greta Coraglia, [[Jacopo Emmenegger]], _A 2-categorical analysis of context comprehension_, Theory and Applications of Categories **41** 42 (2024) 1476–1512 &lbrack;[arXiv:2403.03085](http://arxiv.org/abs/2403.03085), [doi:10.70930/tac/dcvkbg9f](http://doi.org/10.70930/tac/dcvkbg9f)&rbrack;
 
-* Ahrens, Benedikt, Peter LeFanu Lumsdaine, and Paige Randall North. "Comparing semantic frameworks for dependently-sorted algebraic theories." Asian Symposium on Programming Languages and Systems. Singapore: Springer Nature Singapore, 2024.
+* [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], [[Paige Randall North]], _Comparing semantic frameworks for dependently-sorted algebraic theories_, Asian Symposium on Programming Languages and Systems (APLAS 2024), Lect. Notes Comp. Sci. **15194** (2024) 3–22 &lbrack;[arXiv:2412.19946](http://arxiv.org/abs/2412.19946), [doi:10.1007/978-981-97-8943-6_1](http://doi.org/10.1007/978-981-97-8943-6_1)&rbrack;
 
-* Coraglia, Greta, and Jacopo Emmenegger. "Categorical models of subtyping." arXiv preprint arXiv:2312.14600 (2023).
+* Greta Coraglia, [[Jacopo Emmenegger]], _Categorical models of subtyping_, 29th International Conference on Types for Proofs and Programs (TYPES 2023), Leibniz International Proceedings in Informatics (LIPIcs) **303** (2024) 3:1–3:19 &lbrack;[arXiv:2312.14600](http://arxiv.org/abs/2312.14600), [doi:10.4230/LIPIcs.TYPES.2023.3](http://doi.org/10.4230/LIPIcs.TYPES.2023.3)&rbrack;
 
 On [[(∞,2)-topoi]]:
 
-* Fernando Abellan, [[Louis Martini]]: *$(\infty,2)$-topoi and descent*
+* Fernando Abellán, [[Louis Martini]]: _$(\infty,2)$-Topoi and descent_ &lbrack;[arXiv:2410.02014](https://arxiv.org/abs/2410.02014)&rbrack;
 
 
 [[!redirects 2-logic]]
