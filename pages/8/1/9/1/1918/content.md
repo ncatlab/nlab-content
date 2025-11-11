@@ -129,7 +129,7 @@ When both sets are closed:
 
 When the sets are arbitrary:
 <table markdown="1"><tr><th>Stronger condition &#8595;\Weaker condition &#8594;</th> <th>Separated</th></tr>
-<tr><th>Separated by neighbourhoods</th> <td>Completely normal ($T_5$)</td></tr></table>
+<tr><th>Separated by neighbourhoods</th> <td>Completely normal (T5)</td></tr></table>
 
 
 
