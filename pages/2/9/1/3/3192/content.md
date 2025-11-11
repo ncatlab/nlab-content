@@ -424,10 +424,12 @@ The subspace
   \hookrightarrow 
   \widehat{\mathrm{F}}_\ast
 \]
-is [[contractible space|contractible]].
+is [[contractible space|contractible]] and its inclusio is a [[Hurewicz cofibration]].
 \end{proposition}
 \begin{proof}
-  These operators are equivalently choices of [[direct sum]] decompositions $\mathscr{H} \simeq \mathscr{H} \oplus \mathscr{H}$. The space of these is the [[Grassmannian]] $\mathrm{U}(\mathscr{H})/\big( \mathrm{U}(\mathscr{H}) \times \mathrm{U}(\mathscr{H}) \big)$ but [[U(ℋ)]] is contractible ([[Kuiper's theorem]]).
+For the first statement: These operators are equivalently choices of [[direct sum]] decompositions $\mathscr{H} \simeq \mathscr{H} \oplus \mathscr{H}$. The space of these is the [[Grassmannian]] $\mathrm{U}(\mathscr{H})/\big( \mathrm{U}(\mathscr{H}) \times \mathrm{U}(\mathscr{H}) \big)$ --- but [[U(ℋ)]] is contractible ([[Kuiper's theorem]]).
+
+For the second statement: Since all spaces of operators in question are [[metric spaces]] (via the [[operator norm]]) they are [[perfectly normal Hausdorff spaces]]. Moreover, $\widehat{\mathrm{F}}{}_\ast^0 \subset \widehat{\mathrm{F}}{}_\ast$ is a [[closed subspace]] (being the [[preimage]] of $\{0\}$ under the [[map]] $\widehat{\mathrm{F}}_\ast \to \mathcal{B}(\mathscr{H}) \colon f \mapsto f^2 - Id$). Therefore it is sufficient (by [this Prop.](deformation+retract#ClosedStrongNDROfPerfectlyNormalSpaceIsCofibration)) to see that the inclusion is a [[strong deformation retract]] of a [[neighbourhood]] ([this Def.](deformation+retract#StrongDeformationRetractOfNeighbourhood)). That neighbourhood may be taken to be the invertible operators among $\widehat{\mathrm{F}}_\ast$, and the [[retraction]] may then be given by [[functional calculus]], shifting all points in the spectrum to their sign in $\pm 1$.
 \end{proof}
 
 Hence we can sharpen Prop. \ref{ExponentiatedUnitNormalSelfAdjointFredholmOperators} to:
@@ -454,7 +456,8 @@ Hence we can sharpen Prop. \ref{ExponentiatedUnitNormalSelfAdjointFredholmOperat
 
 \begin{example}
 \label{CanonicalRepresentativeOfpi3OfSAFred}
-  
+**(Fredholm representative of $\pi_3(KU_1)$)**
+\linebreak
 Regarding 
 
 * $S^3 \simeq D^3/\partial D^3$ --- the [[3-sphere]] as the [[one-point compactification]]  of the [[closed ball|closed 3-ball]], 
@@ -465,7 +468,7 @@ Regarding
 
 * $Mat_{2 \times 2}(\mathbb{C}) \hookrightarrow \mathcal{F}$ by forming the [[direct sum of Hilbert spaces|Hilbert space direct sum]] $X \mapsto X \oplus \bigoplus_{n \in \mathbb{N}} diag(+1,-1)$,
 
-we have a map
+then Cor. \ref{ExponentiatedProjectionSelfAdjointFredholmOperators} implies that we have a [[map]]
 
 $$
   \begin{array}{ccccc}
@@ -478,6 +481,7 @@ $$
     - C
     \\
     x &\mapsto& \sigma \cdot x
+    \mathrlap{\,.}
   \end{array}
 $$
 
@@ -487,7 +491,7 @@ $$
   \,.
 $$
 
-This construction (in consequence of [Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69)) should be a way to make sense of what has been suggested by [Witten 2000 p. 6-8](D-brane+charge+quantization+in+K-theory#Witten00) and of the corresponding precursor suggestions by [Hořava 1998 (3.7, 3.17)](D-brane+charge+quantization+in+K-theory#Horava98).
+This construction (in consequence of [Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69)) may be understood as completing a suggestion by [Witten 2000 p. 6-8](D-brane+charge+quantization+in+K-theory#Witten00) following [Hořava 1998 (3.7, 3.17)](D-brane+charge+quantization+in+K-theory#Horava98).
 
 \end{example}
 
