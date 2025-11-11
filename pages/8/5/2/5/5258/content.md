@@ -41,6 +41,8 @@ On the [[Connes-Lott-Chamseddine-Barrett model]]:
 
 * [[Ali Chamseddine]], [[Alain Connes]], Walter D. van Suijlekom, _Beyond the Spectral Standard Model: Emergence of Pati-Salam Unification_, JHEP 1311 (2013) 132 &lbrack;[arXiv:1304.8050](https://arxiv.org/abs/1304.8050)&rbrack;
 
+* [[Ali H. Chamseddine]]: *Hearing the Shape of the Universe: A Personal Journey in Noncommutative Geometry* &lbrack;[arXiv:2511.05909](https://arxiv.org/abs/2511.05909)&rbrack;
+
 
 category: people
 
