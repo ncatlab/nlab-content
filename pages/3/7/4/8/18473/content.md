@@ -60,6 +60,10 @@ The choice between these is closely related to the question of giving an equival
 
 Every fully faithful functor is *equivalent* to one that is fully faithful and injective on objects.  Let $f:C\to D$ be fully faithful, and let $E$ be the "mapping cylinder" category, whose objects are the disjoint unions of those of $C$ and $D$, with $C$ and $D$ embedded fully-faithfully (and of course injectively on objects), and $E(c,d) = D(f c,d)$ and $E(d,c) = D(d,f c)$.  Full-faithfulness of $f$ allow us to compose all arrows in $E$ making it a category.  There is a projection $E\to D$ that is the identity on $D$ and acts by $f$ on $C$, and which is an inverse equivalence to the inclusion $D\to E$.  Thus, $f:C\to D$ is equivalent, in the 2-category whose objects are functors and whose morphisms are pseudo-commutative squares, to the inclusion functor $C\to E$, which is fully faithful and injective on objects.
 
+## Properties
+
+* Full embeddings are closed under [[pushouts]] in [[Cat]].  For ordinary categories this was proven by [Trnková](#Trnková) and independently by [Fritch and Latch](#FL); for [[enriched categories]] it is proven in [Stanculescu, Prop. 3.1](#Stanculescu), and for [[(∞,1)-categories]] it is proven in [Simspon, Cor. 16.6.2](#Simpson). See also [MacDonald and Scull](#MS) for more general conditions.
+
 ## Examples
 
 ### The Yoneda embedding
@@ -80,7 +84,22 @@ Probably the most common embedding of categories encountered is the [[Yoneda emb
 
 * {#AHS} [[Jiří Adámek]], [[Horst Herrlich]], and [[George Strecker]], *Abstract and Concrete Categories: The Joy of Cats*, John Wiley and Sons 1990. ([Online edition](http://katmat.math.uni-bremen.de/acc/)) 
 
-* {#Riehl} [[Emily Riehl]], *Category Theory in Context*, Dover Publications, Inc. 2016. ([pdf](https://emilyriehl.github.io/files/context.pdf)) 
+* {#Riehl} [[Emily Riehl]], *Category Theory in Context*, Dover Publications, Inc. 2016. ([pdf](https://emilyriehl.github.io/files/context.pdf))
+
+For stability under pushouts:
+
+* {#Trnková} [[Věra Trnková]], _Sum of categories with amalgamated subcategory_, Commentationes Mathematicae Universitatis Carolinae 6.4 (1965): 449-474.
+
+* {#FL} R. Fritsch, D. M. Latch, _Homotopy inverses for nerve_, Math. Z. 177 (1981), no. 2, 147–179, doi:[10.1007/BF01214196](https://doi.org/10.1007/BF01214196).
+
+* {#MS} [[John MacDonald]] and Laura Scull, _Amalgamations of categories_, Canadian mathematical bulletin 52.2 (2009): 273-284.
+
+* {#Stanculescu} Alexandru E. Stanculescu, _Constructing model categories with prescribed fibrant objects_, Theory and Applications of Categories, Vol. 29, (2014) No. 23, pp 635-653, [journal page](http://www.tac.mta.ca/tac/volumes/29/23/29-23abs.html), arXiv:[1208.6005](https://arxiv.org/abs/1208.6005).
+
+* {#Simpson} [[Carlos Simpson]], [[Homotopy Theory of Higher Categories]]
 
 [[!redirects embedding of categories]]
 [[!redirects embeddings of categories]]
+
+[[!redirects full embedding]]
+[[!redirects full embeddings]]
