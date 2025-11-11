@@ -47,6 +47,18 @@ $$
 
 This definition works well over any field or even commutative ring that is not of characteristic 2 or 3.
 
+The trilinear maps are often reformulated as quadratic maps 
+
+$$ Q_+ \colon V_+ \to \text{Hom}(V_-, V_+) $$
+$$ Q_- \colon V_- \to \text{Hom}(V_+, V_-) .$$
+
+For a simple example of a Jordan pair, let $V_+$ be a finite-dimensional vector space and $V_-$ the dual of that vector space, with the quadratic maps given by
+
+$$ Q_+(v)(f) = f(v) \,v $$
+$$ Q_-(f)(v) = f(v) \, f. $$
+
+for $v \in V_+, f \in V_-$.
+
 ## Advantages 
 
 Jordan pairs are more general than Jordan algebras.  Further, the connection between Jordan structures, 3-graded Lie algebras and bounded symmetric domains is arguably clearer in terms of Jordan pairs than using Jordan algebras or Jordan triple systems ([Loos77](#Loos77)). 
@@ -96,6 +108,15 @@ $$[D, x] = D^+(x) \; \text{ for } \; x \in V^+, \qquad [D, y] = D^-(y) \; \text{
 $$[(D^+, D^-), (E^+, E^-)] = ([D^+, E^+], [D^-, E^-]) \, .$$
 
 4) **$[\mathfrak{g}_i, \mathfrak{g}_j] = 0$** when $|i + j| \gt 1$.
+
+## Relation to Jordan triple systems
+
+The category of [[Jordan triple systems]] is equivalent to the category of Jordan pairs with involution [Loos75](#Loos75)), at least away from characteristic 2.  A **Jordan pair with involution** is a Jordan pair $(V^+,V^-)$ with a vector space isomorphism $\alpha \colon V^+ \to V^-$ such that 
+
+$$ Q_-(\alpha(v)) = \alpha \circ Q_+(v) \alpha $$
+
+for all $v \in V^+$.  A Jordan pair with involution gives a Jordan triple system $(V, \{\cdot, \cdot, \cdot \})$ with $V = V^+$ and $\{v,u,v\} = Q_+(v) (\alpha(u))$, where the general formula for the Jordan triple product $\{v,u,w\}$ 
+can be deduced using polarization.
 
 ## Related concepts
 
