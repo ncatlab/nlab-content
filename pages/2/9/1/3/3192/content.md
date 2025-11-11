@@ -406,6 +406,11 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 ### General
 
+The concept of Fredholm operators originates with and is named after:
+
+* [[Ivar Fredholm]]: *Sur une classe d’équations fonctionnelles*,  Acta Math. **27** (1903) &lbrack;[doi:10.1007/BF02421317](https://doi.org/10.1007/BF02421317), [euclid:10.1007/BF02421317](https://projecteuclid.org/journals/acta-mathematica/volume-27/issue-none/Sur-une-classe-d%C3%A9quations-fonctionnelles/10.1007/BF02421317.full)&rbrack;
+
+
 Textbook accounts:
 
 * Ronald G. Douglas: *Compact Operators, Fredholm Operators, and Index Theory*, chapter 5 in *Banach Algebra Techniques in Operator Theory*, Pure and Applied Mathematics **49** (1972) 121-148 \[<a href="https://doi.org/10.1016/S0079-8169(08)60364-5">doi:10.1016/S0079-8169(08)60364-5</a>\]
@@ -413,6 +418,8 @@ Textbook accounts:
 * {#Murphy90} [[Gerard Murphy]]: §1.4 in: *$C^\ast$-algebras and Operator Theory*, Academic Press (1990) &lbrack;[doi:10.1016/C2009-0-22289-6](https://doi.org/10.1016/C2009-0-22289-6)&rbrack;
 
 * [[William Arveson]], §3.3 of: *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) &lbrack;[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)&rbrack;
+
+* Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]: *Bounded Fredholm Operators*, Chapter 3 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477)&rbrack;
 
 Review:
 
@@ -472,6 +479,9 @@ On Fredholm complexes:
 
 On (the space of) [[self-adjoint operators|self-adjoint]] Fredholm operators:
 
+* Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]:  *Bounded Self-Adjoint Fredholm Operators*, Section 3.6 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477)&rbrack;
+
+
 As a [[classifying space]] for [[topological K-theory]] $KU^1$, $KO^1$ and $KSp^1$ (see at *[[Atiyah-Jänich theorem]]*):
 
 * {#AtiyahSinger1969} [[Michael F. Atiyah]], [[Isadore M. Singer]]: *Index theory for skew-adjoint Fredholm operators*, Publications Mathématiques de l'IHÉS **37** (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [numdam:PMIHES_1969__37__5_0](https://www.numdam.org/item/PMIHES_1969__37__5_0), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/askew.pdf)&rbrack;
@@ -487,18 +497,17 @@ Specifically regarding their [[spectral flow]]:
 * [[Michael F. Atiyah]], [[Vijay K. Patodi]], [[Isadore M. Singer]]: *Spectral asymmetry and Riemannian Geometry. I*, Mathematical Proceedings of the Cambridge Philosophical Society **77** 1 (1975) 43-69 &lbrack;[doi:10.1017/S0305004100049410](https://doi.org/10.1017/S0305004100049410)&rbrack; 
   > (original mentioning, on p. 47-48, in the context of introducing the [[eta-invariant]])
 
-
 * [[John Phillips]]: *Self-Adjoint Fredholm Operators And Spectral Flow*, Canadian Mathematical Bulletin **39** 4 (1996) 460-467 &lbrack;[doi:10.4153/CMB-1996-054-4](https://doi.org/10.4153/CMB-1996-054-4)&rbrack; 
 
-
 * {#CareyPhilips98} [[Alan Carey]], [[John Phillips]]: _Fredholm modules and spectral flow_  J. Canadian Math. Soc. **50** (1998) 673-718 &lbrack;[cms:10.4153/CJM-1998-038-x](https://cms.math.ca/10.4153/CJM-1998-038-x)&rbrack;
-
 
 * [[Bernhelm Booß-Bavnbek]], Matthias Lesch, [[John Phillips]]: *Unbounded Fredholm Operators and Spectral Flow*, Canadian Journal of Mathematics **57** 2 (2005) 225-250 &lbrack;[doi:10.4153/CJM-2005-010-1](https://doi.org/10.4153/CJM-2005-010-1), [arXiv:math/0108014](https://arxiv.org/abs/math/0108014)&rbrack;
 
 * [[Nils Waterstraat]]: *Fredholm Operators and Spectral Flow* &lbrack;[arXiv:1603.02009](https://arxiv.org/abs/1603.02009)&rbrack;
 
 * Robert Skiba, Nils Waterstraat: *The Index Bundle for Selfadjoint Fredholm Operators and Multiparameter Bifurcation for Hamiltonian Systems* &lbrack;[arXiv:2012.05691](https://arxiv.org/abs/2012.05691)&rbrack;
+
+* Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]: *Spectral Flow for Bounded Fredholm Operators*, Chapter 4 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477)&rbrack;
 
 
 
