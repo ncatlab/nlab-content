@@ -53,9 +53,15 @@ See [[states]].
 
 * [[von Neumann algebra]]
 
+
+
 ## References
 
-Textbook:
+History:
+
+* Evans M. Harrell II: *[A Short History of Operator Theory](http://www.mathphysics.com/opthy/OpHistory.html)*
+
+Textbook accounts:
 
 * [[Gert K. Pedersen]]: *Analysis Now*, Graduate Texts in Mathematics **118**, Springer (1989) &lbrack;[doi;10.1007/978-1-4612-1007-8](https://doi.org/10.1007/978-1-4612-1007-8)&rbrack;
 
