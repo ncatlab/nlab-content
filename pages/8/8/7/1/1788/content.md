@@ -4,6 +4,8 @@
 
 ***
 
+* 8 Homotopy Theory of Fredholm Operators
+
 All [[linear operators]] in the following act on a given [[separable Hilbert space|separable]] countably infinite-dimensional [[complex numbers|complex]] [[Hilbert space]].
 
 Consider and denote:
