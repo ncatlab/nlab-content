@@ -346,13 +346,11 @@ A KZ-doctrine $(P,y)$ on a 2-category $\mathcal{K}$ is called _locally fully-fai
 
 Now we are ready to state the main result of this section.
 
-+-- {: .num_prop #Yoneda_monad}
-###### Theorem (Walker)
+\begin{theorem}
+\label{Yoneda_monad}
 Let $(P,y)$ be a locally fully-faithful KZ-doctrine on 2-category $\mathcal{K}$ with $\mathbb{A}_P$ the class of P-admissible 1-cells. The pair $(\mathbb{A}_P,P)$ defines a proto-Yoneda structure on $\mathcal{K}$.
-
-=--
-
-**Proof**. cf. Walker ([2017](#Walker17), p.9). $\qed$
+\end{theorem}
+([Walker 2017 p.9](#Walker17))
 
 Jokingly, we may say that _a general KZ-doctrine is nothing but unfaithful Yoneda-structure without size problems!_ Conversely, the main difference between a locally fully-faithful KZ-doctrine and a Yoneda structure concerns size: For the KZ-doctrine every identity morphism is admissible and, accordingly, its presheaf construction is total whereas this need not be the case for general Yoneda structures. 
 
@@ -433,10 +431,10 @@ On relations with KZ doctrines:
 
 * {#MW12} [[Francisco Marmolejo]], [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [[TAC]] **26** 1 (2012) 1-29 &lbrack;[26-01](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html)&rbrack;
 
+* {#Walker17} [[Charles Walker]]: _Yoneda Structures and KZ Doctrines_ &lbrack;[arXiv:1703.08693](https://arxiv.org/abs/1703.08693)&rbrack;
 
-* {#Walker17} C. Walker, _Yoneda Structures and KZ Doctrines_, arXiv:1703.08693 (2017). ([abstract](http://arxiv.org/pdf/1703.08693v3))
+* {#Walker18} [[Charles Walker]]: _Distributive Laws via Admissibility_ &lbrack;[arXiv:1706.09575](https://arxiv.org/abs/1706.09575)&rbrack;
 
-* {#Walker18} C. Walker, _Distributive Laws via Admissibility_, arXiv:1706.09575 (2018). ([abstract](https://arxiv.org/abs/1706.09575))
 
 * {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
 
