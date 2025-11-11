@@ -10,7 +10,7 @@ Erik Ivar Fredholm (1866-1927)
 
 ## Selected writings
 
-Introducing what came to be called *[[Fredholm operators]]*:
+Introducing what came to be called *[[Fredholm operators]]* and the [[Fredholm determinant]]:
 
 * [[Ivar Fredholm]]: *Sur une classe d’équations fonctionnelles*,  Acta Math. **27** (1903) &lbrack;[doi:10.1007/BF02421317](https://doi.org/10.1007/BF02421317), [euclid:10.1007/BF02421317](https://projecteuclid.org/journals/acta-mathematica/volume-27/issue-none/Sur-une-classe-d%C3%A9quations-fonctionnelles/10.1007/BF02421317.full)&rbrack;
 
