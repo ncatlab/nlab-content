@@ -32,7 +32,7 @@ It is not sufficient for there simply to exist _some_ isomorphism between $C(x, 
 * A [[fully faithful functor]] (hence a [[full subcategory]] inclusion) [[reflected limit|reflects]] all [[limits]] and [[colimits]], also all [[isomorphisms]] (is a [[conservative functor]]).  This is evident from inspection of the defining [[universal property]].
  {#FullSubcategoryInclusionsReflectCoLimits}
 
-* Fully faithful functors are closed under [[pushouts]] in [[Cat]].  For ordinary categories this was proven by [Fritch and Latch](#FL); for [[enriched categories]] it is proven in [Stanculescu, Prop. 3.1](#Stanculescu), and for [[(∞,1)-categories]] it is proven in [Simspon, Cor. 16.6.2](#Simpson).
+* Fully faithful functors that are [[injective-on-objects functor|Injective-on-objects]] are closed under [[pushouts]] in [[Cat]]: see [[full embedding]] for references.
 
 * Fully faithful functors $F : C \to D$ can be characterized as those functors for which the following square is a pullback, where the vertical maps are source and target, and the horizontal maps are induced by $F$
 $$
