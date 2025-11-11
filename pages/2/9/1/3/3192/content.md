@@ -202,6 +202,9 @@ Finally, together with the grading, the condition $F^\ast = F$ implies that in f
 ### Self-adjoint Fredholm operators
  {#PropertiesSelfAdjointFredholmOperators}
 
+#### General
+ {#SelfAdjointFredholmOperatorsGeneral}
+
 The following is a digest of [Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993).
 
 All [[linear operators]] in the following act on a given [[separable Hilbert space|separable]] countably infinite-dimensional [[complex numbers|complex]] [[Hilbert space]].
@@ -348,9 +351,30 @@ is a [[fiber bundle]] (in fact a [[principal bundle]]) with [[typical fiber]] $G
 
 ([Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993), following [Atiyah & Singer 1969](#AtiyahSinger69), see also [DSBW23 section 8.3](#SWBW23Chapter8))
 
-Denote by 
+#### The exponential map
+ {#SelfAdjointOperatorsTheExponentialMap}
 
-* $\widehat{\mathrm{F}}_\ast \subset \widehat{\mathcal{F}}_\ast$ the [[deformation retract]] consisting of those self-adjoint Fredholm operators of unit [[operator norm|norm]] and whose [[essential spectrum]] is specifically $= \{+1, -1\}$.
+Recall the notation $\widehat{\mathcal{F}}_\ast$ (from [above](#SelfAdjointFredholmOperatorsGeneral)) for the space of self-adjoint Fredholm operators with both positive and negative [[essential spectrum]].
+
+\begin{proposition}
+The further subspace of self-adjoint Fredholm operators
+\[
+  \label{SAFredholmWithLocalizedEssentialSpectrum}
+  \widehat{\mathrm{F}}_\ast 
+  \;\coloneqq\;
+  \Big\{
+    f \in \widehat{\mathcal{F}}_\ast
+    \;\Big\vert\;
+    spec_{ess}(f) = \{+1, -1\}
+    ,\,
+    \vert f \vert = 1
+  \Big\}
+  \hookrightarrow
+  \widehat{\mathcal{F}}_\ast
+\]
+(whose [[essential spectrum]] is not just positive and negative but actually concentrated at $+1$ and $-1$, and whose [[operator norm]] is unity) is a [[deformation retract]]. 
+\end{proposition}
+([Atiyah & Singer 1969 below (2.5)](#AtiyahSinger69))
 
 \begin{proposition}
   \label{ExponentiatedUnitNormalSelfAdjointFredholmOperators}
@@ -367,10 +391,105 @@ Denote by
       U - id \in \mathcal{K}(\mathscr{H})
     \Big\}
   $$
-  (to the image under negation of the *unitary [[Fredholm group]]*) is a [[homotopy equivalence]].
+  (from (eq:SAFredholmWithLocalizedEssentialSpectrum) to the image under negation of the *[[unitary Fredholm group]]*) is a [[homotopy equivalence]].
 \end{proposition}
-([Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69))
+([AS69 Prop. 3.3](#AtiyahSinger69))
 
+Observe that if $f \in \widehat{\mathrm{F}}_\ast$ satisfies $f^2 = 1$, hence if not just its essential spectrum but the actual spectrum is $\{+1,-1\}$, then (by [[Euler's formula]])
+$$
+  \exp\big(
+    \pi \mathrm{i} f
+  \big)
+  \;=\;
+  cos(\pi)\cdot id + sin(\pi) \cdot f
+  \;=\;
+  -id
+  \,.
+$$
+
+\begin{proposition}
+\label{SAFredholmWithActualSpectrumPmUnity}
+The subspace
+\[
+  \label{SAFredholmWithLocalizedActualSpectrum}
+  \widehat{\mathrm{F}}{}_\ast^0
+  \;\coloneqq\;
+  \Big\{
+    f \in \widehat{\mathcal{F}}_\ast
+    \;\Big\vert\;
+    spec(f) = \{+1, -1\}
+    ,\,
+    \vert f \vert = 1
+  \Big\}
+  \hookrightarrow 
+  \widehat{\mathrm{F}}_\ast
+\]
+is [[contractible space|contractible]].
+\end{proposition}
+\begin{proof}
+  These operators are equivalently choices of [[direct sum]] decompositions $\mathscr{H} \simeq \mathscr{H} \oplus \mathscr{H}$. The space of these is the [[Grassmannian]] $\mathrm{U}(\mathscr{H})/\big( \mathrm{U}(\mathscr{H}) \times \mathrm{U}(\mathscr{H}) \big)$ but [[U(ℋ)]] is contractible ([[Kuiper's theorem]]).
+\end{proof}
+
+Hence we can sharpen Prop. \ref{ExponentiatedUnitNormalSelfAdjointFredholmOperators} to:
+
+\begin{corollary}
+  \label{ExponentiatedProjectionSelfAdjointFredholmOperators}
+  The [[exponential map]]
+  $$
+    \exp\big(\pi \mathrm{i} (-) \big)
+    \;\colon\;
+    \widehat{\mathrm{F}}_\ast
+    \big/
+    \widehat{\mathrm{F}}{}_\ast^0
+    \longrightarrow
+    -
+    \Big\{
+      U \in \mathrm{U}(\mathscr{H})
+      \,\Big\vert\,
+      U - id \in \mathcal{K}(\mathscr{H})
+    \Big\}
+  $$
+  is a [[homotopy equivalence]].
+\end{corollary}
+
+\begin{example}
+\label{CanonicalRepresentativeOfpi3OfSAFred}
+  
+Regarding 
+
+* $S^3 \simeq D^3/\partial D^3$ --- the [[3-sphere]] as the [[one-point compactification]]  of the [[closed ball|closed 3-ball]], 
+
+* $D^3 \simeq D(\mathbb{H}_{im})$ --- the closed 3-ball as the closed unit ball in the space of [[imaginary number|imaginary]] [[quaternions]],
+
+* $\mathbb{H}_{im} \hookrightarrow Mat^{herm}_{2 \times 2}(\mathbb{C})$ --- via the [[Pauli matrices]] $\{\sigma_i\}_{i = 1}^3$,
+
+* $Mat_{2 \times 2}(\mathbb{C}) \hookrightarrow \mathcal{F}$ by forming the [[direct sum of Hilbert spaces|Hilbert space direct sum]] $X \mapsto X \oplus \bigoplus_{n \in \mathbb{N}} diag(+1,-1)$,
+
+we have a map
+
+$$
+  \begin{array}{ccccc}
+    D^3 / \partial D^3
+    &\overset{}{\longrightarrow}&
+    \widehat{\mathrm{F}}_\ast 
+      \big/
+    \widehat{\mathrm{F}}{}_\ast^0 
+    &\overset{ exp(\pi \mathrm{i} (-))  }{\longrightarrow}&
+    - C
+    \\
+    x &\mapsto& \sigma \cdot x
+  \end{array}
+$$
+
+But the total map now is now essentially just the [[exponential map]] from the unit ball in the [[Lie algebra]] [[su(2)|$\mathfrak{su}(2)$]] to the [[Lie group]] [[SU(2)]] and as such represents a generator of
+$$
+  \pi_3\big(C\big) = \mathbb{Z}
+  \,.
+$$
+
+This construction (in consequence of [Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69)) should be a way to make sense of what has been suggested by [Witten 2000 p. 6-8](D-brane+charge+quantization+in+K-theory#Witten00) and of the corresponding precursor suggestions by [Hořava 1998 (3.7, 3.17)](D-brane+charge+quantization+in+K-theory#Horava98).
+
+\end{example}
 
 
 
