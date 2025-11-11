@@ -17,6 +17,7 @@ Further early discussion:
 * {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019 (1998) \[<a href="http://arxiv.org/abs/hep-th/9810188">arXiv:hep-th/9810188</a>, [doi:10.1088/1126-6708/1998/12/019](https://doi.org/10.1088/1126-6708/1998/12/019)\]
 
 * {#Horava98} [[Petr Hořava]]: *Type IIA D-Branes, K-Theory, and Matrix Theory*, Adv. Theor. Math. Phys. **2** (1998) 1373-1404 \[<a href="https://arxiv.org/abs/hep-th/9812135">hep-th/9812135</a>, [atmp:1998-0002-0006-a005](https://intlpress.com/site/pub/files/_fulltext/journals/atmp/1998/0002/0006/ATMP-1998-0002-0006-a005.pdf)\]
+  > (essentially a hint at [this construction](Fredholm+operator#CanonicalRepresentativeOfpi3OfSAFred))
 
 * {#FreedHopkins00} [[Daniel Freed]], [[Michael Hopkins]], *On Ramond-Ramond fields and K-theory*, JHEP 0005 (2000) 044 \[<a href="https://doi.org/10.1088/1126-6708/2000/05/044">doi:10.1088/1126-6708/2000/05/044</a>, [arXiv:hep-th/0002027](http://arxiv.org/abs/hep-th/0002027)\]
 
@@ -115,6 +116,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 * [[John Schwarz]], _TASI Lectures on Non-BPS D-Brane Systems_ ([arXiv:hep-th/9908144](https://arxiv.org/abs/hep-th/9908144))
 
 * {#Witten00} [[Edward Witten]]: *Overview Of K-Theory Applied To Strings*, Int. J. Mod. Phys. A **16** (2001) 693-706 \[<a href="https://doi.org/10.1142/S0217751X01003822">doi:10.1142/S0217751X01003822</a>, [arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175)\]
+  > (essentially a hint at [this construction](Fredholm+operator#CanonicalRepresentativeOfpi3OfSAFred))
 
 * {#Szabo2002} [[Richard Szabo]]: _D-Branes, Tachyons and K-Homology_, Mod. Phys. Lett. A **17** (2002) 2297-2316 \[<a href="https://doi.org/10.1142/S0217732302009015">doi:10.1142/S0217732302009015</a>, <a href="http://arxiv.org/abs/hep-th/0209210">arXiv:hep-th/0209210</a>\]
 
