@@ -19,7 +19,7 @@ $\,$
 </div>
 
 
-## position
+## Position
 
 I work in <br>
 the [Mathematics Division of Science](https://nyuad.nyu.edu/en/academics/divisions/science/academic-programs/math.html) <br/>
@@ -36,15 +36,17 @@ in the group of Prof. [[Hisham Sati]] leading the <br/>
 
 \linebreak
 
-## contact
+## Contact
 
 * <us13@nyu.edu> 
 
 * <urs.schreiber@gmail.com>
 
+
 \linebreak
 
-## research 
+
+## Research 
 
 I am researching [[mathematical physics|mathematical]] and [[fundamental physics|fundamental]] [[quantum physics]], with a focus on using tools of [[algebraic topology]] and [[schreiber:Higher Topos Theory in Physics|geometric homotopy theory]] for understanding elusive [[non-perturbative quantum field theory|strongly-coupled]] [[quantum systems]] with applications to [future](topological+quantum+computation#ReferencesNeedForTopologicalProtection) [[topological quantum computing|topological]] [[quantum technology]]. 
 
@@ -58,7 +60,7 @@ Projects:
 
 \linebreak
 
-## selected talks
+## Selected talks
  {#SelectedTalks}
 
 > complete list of invited talks: [here](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References).
@@ -72,15 +74,16 @@ Projects:
 * (upcoming) keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026), Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions)*, Hangzhou, 30 Oct--3 Nov 2026
 
 
-<div style="float:right;margin:15px 0px 00px 30px;">
-<a href="https://youtu.be/GO2UnQUHfu8"><img src="/schreiber/files/KnowTimeAppearanceThumbnail-Nov2025.jpg" width="380"></a> 
-</div>
-
 * (upcoming) 
 
   **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
 
   talk at *[Geometry, Higher Structures, and Physics](https://icms.ac.uk/activities/workshop/geometry-higher-structures-and-physics-icms-workshop/)*, [International Centre for Mathematical Sciences (ICMS)](https://www.icms.org.uk/), Bayes Centre, Edinburgh, 8-12 December 2025
+
+
+<div style="float:right;margin:-72px 0px 00px 30px;">
+<a href="https://youtu.be/GO2UnQUHfu8"><img src="/schreiber/files/KnowTimeAppearanceThumbnail-Nov2025.jpg" width="380"></a> 
+</div>
 
 * **[Introduction to Category & Topos Theory in Physics](https://youtu.be/GO2UnQUHfu8)**, 
 
@@ -220,7 +223,7 @@ Projects:
 
 \linebreak
 
-## publications
+## Publications
 
 **Research articles** --- see the lists:
 
@@ -232,23 +235,17 @@ Projects:
 
 \linebreak
 
-\begin{imagefromfile}
-    "file_name": "PSPM83-cover.png",
-    "float": "right",
-    "width": 300,
-    "unit": "px",
-    "margin": {
-        "top": -30,
-        "bottom": 0,
-        "right": 0, 
-        "left": 30
-    }
-\end{imagefromfile}
 
+
+<div style="float:right;margin:10px 0px 0px 20px;">
+<a href="https://bookstore.ams.org/pspum-83/"><img src="/nlab/files/PSPM83-cover.png" width="300"></a> 
+</div>
 
 **Edited collection:**
 
-* **[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]**
+* **[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory|Mathematical Foundations of]]**
+  <br/>
+  **[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory|Quantum Field Theory and Perturbative String Theory]]**
 
   (with [[Hisham Sati|H. Sati]])
 
@@ -270,7 +267,7 @@ Projects:
 **Research monographs:**
 
 <div style="float:right;margin:0px 0px 0px 20px;">
-<a href="https://doi.org/10.1142/13422 "><img src="https://ncatlab.org/schreiber/files/CharacterMap-WSCover.jpg" width="300"></a> 
+<a href="https://doi.org/10.1142/13422"><img src="/schreiber/files/CharacterMap-WSCover.jpg" width="300"></a> 
 </div>
 
 * **[[schreiber:The Character Map in Non-Abelian Cohomology]]**
@@ -291,10 +288,10 @@ Projects:
 
 \linebreak
 
-<div style="float:right;margin:-60px -120px 0px 20px;">
-<a href="https://doi.org/10.1142/13422 "><img src="https://ncatlab.org/schreiber/files/EquivariantInfinityBundlesDiagram.jpg" width="670"></a> 
-</div>
 
+<div style="float:right;margin:-10px 0px 0px 20px;">
+<a href="/schreiber/show/Equivariant+Principal+infinity-Bundles"><img src="/schreiber/files/SS25Bun-CUP-Cover-251111.png" width="300"></a> 
+</div>
 
 * **[[schreiber:Equivariant Principal infinity-Bundles|Equivariant Principal $\infty$-Bundles]]**
 
@@ -304,6 +301,17 @@ Projects:
 
   (2025, in press)
 
+> **In this book** we prove classification results for 
+stable [[nLab:equivariant principal bundle|equivariant $\Gamma$-principal bundles]] in the case when the underlying [[nLab:homotopy type]] $\esh \, \Gamma$ of the [[nLab:topological group|topological]] [[nLab:structure group]] $\Gamma$ is [[nLab:n-truncated|truncated]], meaning that its [[nLab:homotopy groups]] vanish in and above some degree $n$. We discuss how this coincides with the classification of equivariant [[nLab:2-gerbe|higher]] [[nLab:non-abelian gerbes]] and generally of equivariant *[[nLab:principal infinity-bundles|principal $\infty$-bundles]]* with [[nLab:structure group|structure]] [[nLab:n-group|$n$-group]] $\esh  \Gamma$; and we show how the [[nLab:equivariant homotopy groups]] of the respective classifying $G$-spaces are given by the [[nLab:non-abelian cohomology|non-abelian]] [[nLab:group cohomology]] of the equivariance group with coefficients in $\esh  \Gamma$.
+
+> The result is proven in a conceptually transparent manner as
+a consequence of a *[[nLab:smooth Oka principle]]* which becomes available after faithfully embedding traditional [[nLab:equivariant differential topology|equivariant topology]] into the [[schreiber:Geometric Orbifold Cohomology|singular-cohesive homotopy theory]] of [[nLab:global homotopy theory|globally equivariant]] [[nLab:infinity-stack|higher stacks]]. This works for [[nLab:discrete group|discrete]] [[nLab:equivariance groups]] $G$ [[nLab:proper action|acting properly]] on [[nLab:smooth manifolds]] ("[[nLab:proper equivariant homotopy theory|proper equivariance]]")
+with resolvable singularities whence we are equivalently describing principal bundles on [[nLab:good orbifolds]].
+
+> In setting up this proof, we re-develop the theory of [[nLab:equivariant principal bundles]] from scratch by systematic use of [[nLab:Alexander Grothendieck|Grothendieck]]'s *[[nLab:internalization]]*.
+In particular we prove that all the intricate [equivariant local triviality conditions](equivariant+bundle#NotionsOfEquivariantLocalTriviality) considered in the literature are automatically *implied* by regarding $G$-[[nLab:equivariant principal bundles]] as [[nLab:pseudo-torsor|principal bundles]] [[nLab:internalization|internal]] to the [[nLab:delooping groupoid|$B G$]]-[[nLab:slice (infinity,1)-topos|slice]] of the ambient [[nLab:cohesive (infinity,1)-topos|cohesive $\infty$-topos]]. We also show that these conditions are all equivalent. Generally we find that the characteristic subtle phenomena of equivariant classifying theory all reflect basic [[nLab:modality|modal properties]] of [[schreiber:Geometric Orbifold Cohomology|singular-cohesive homotopy theory]] (hence of [[nLab:cohesion|cohesive]] [[nLab:global equivariant homotopy theory]]).
+
+  
 
 \linebreak
 
@@ -311,7 +319,9 @@ Projects:
 
   (with [[Hisham Sati|H. Sati]])
 
-  World Scientific (2026, in press)
+  World Scientific 
+
+  (2026, in press)
   
 
 \linebreak
@@ -333,16 +343,16 @@ Projects:
 
 **Other:**
 
-* _[[schreiber:Higher Prequantum Geometry]]_, in: _[[nLab:New Spaces for Mathematics and Physics]]_, Cambr. Univ. Press (2021) $[$[doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429)$]$
+* _[[schreiber:Higher Prequantum Geometry]]_, in: _[[nLab:New Spaces for Mathematics and Physics]]_, Cambr. Univ. Press (2021) \[<a href="https://doi.org/10.1017/9781108854429">doi:10.1017/9781108854429</a>\]
 
 
 \linebreak
 
 
-## research wiki
+## Research wiki
  {#ResearchWiki}
 
-<a href="http://ncatlab.org/nlab/show/HomePage"><div style="float:right;margin:0px 0px 10px 20px;"><img width = "250" src="/nlab/files/OldnLabBanner.jpg" alt="nLab banner" /></div></a>
+<a href="/nlab/show/HomePage"><div style="float:right;margin:0px 0px 10px 20px;"><img width = "250" src="/nlab/files/OldnLabBanner.jpg" alt="nLab banner" /></div></a>
 
 
 For making notes on math/phys I had started (in Nov 2008) 
@@ -363,7 +373,7 @@ For more on the $n$Lab, see:
 
 \linebreak
 
-## web logs
+## Web logs
 
 For logs of further activity see:
 
@@ -375,23 +385,22 @@ For logs of further activity see:
 
   and [other YouTube appearances](https://www.youtube.com/results?search_query=Urs+Schreiber)
 
-while [[nLab|$n$Lab]]-edits are announced
+* *[Q&A at MathOverflow](http://mathoverflow.net/users/381/urs-schreiber)* 
 
-* *[on the $n$Forum](https://nforum.ncatlab.org/)*.
+* *[Q&A at PhysicsOverflow](http://www.physicsoverflow.org/user/Urs+Schreiber)*
 
-For links to technical discussions about math and physics see my pages:
+* *[Q&A at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber)*
 
-* *[at MathOverflow](http://mathoverflow.net/users/381/urs-schreiber)* 
+* *[Q&A at QuantumComputing.SE](https://quantumcomputing.stackexchange.com/users/19363/urs-schreiber).
 
-* *[at PhysicsOverflow](http://www.physicsoverflow.org/user/Urs+Schreiber)*
+and last not least:
 
-* *[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber)*
+* *[the $n$Forum](https://nforum.ncatlab.org/)* for logs of [[nLab|$n$Lab]]-edits
 
-* *[at QuantumComputing.SE](https://quantumcomputing.stackexchange.com/users/19363/urs-schreiber).
 
 \linebreak
 
-## teaching 
+## Teaching 
 
 See behind these links for lecture notes that I wrote:
 
@@ -412,7 +421,7 @@ A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/s
 
 \linebreak
 
-## column
+## Column
  {#column}
 
 I used to write an irregular column at [PhysicsForums Insights](https://www.physicsforums.com/insights/). Articles in the series include these:
@@ -466,7 +475,7 @@ I used to write an irregular column at [PhysicsForums Insights](https://www.phys
 </div>
 
 
-## joining our research
+## Joining our research
 
 If you are a graduate student or young postdoc thinking of entering the Sati-Schreiber program, here is some basic reading to start with:
 
@@ -488,7 +497,7 @@ If you are a graduate student or young postdoc thinking of entering the Sati-Sch
 
 \linebreak
 
-## copyright statement
+## Copyright statement
  {#CopyrightStatement}
 
 > To the extent that it matters, my contributions to the [[HomePage|nLab]] are copyrighted according to [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/).
