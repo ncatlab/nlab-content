@@ -27,6 +27,13 @@ For the generalisation to an [[internal category]] $C$, see [[identity-assigning
 
 In [[Set]], the identity morphisms are the [[identity functions]].
 
+## Examples
+
+\begin{example}
+  \label{IdentityOperator}
+  As morphisms in [[categories]] of [[topological vector spaces]] are also called *[[linear operators]]* (or just *[[operators]]*, for short), so the identity morphisms here are the *identity operators*.
+\end{example}
+
 ## Related concepts
 
 * [[equality]], [[equivalence]]
