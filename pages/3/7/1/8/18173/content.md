@@ -8,3 +8,5 @@ the **main [[separation axioms]]**
 | $T_{\gt 2}$ |  |  $T_1$ and... | all points are [[closed point|closed]] and... |
 | $T_3$  | [[regular Hausdorff topological space|regular Hausdorff]] |  ...given a point and a [[closed subset]] not containing it, they have [[disjoint subset|disjoint]] [[open neighbourhoods]]  | ...every [[neighbourhood]] of a point contains the [[topological closure|closure]] of an [[open neighbourhood]] |
 | $T_4$  | [[normal Hausdorff topological space|normal Hausdorff]] | ...given two [[disjoint subset|disjoint]] [[closed subsets]], they have [[disjoint subset|disjoint]] [[open neighbourhoods]] | ...every [[neighbourhood]] of a [[closed set]] also contains the [[topological closure|closure]] of an [[open neighbourhood]] <br/> ... every pair of [[disjoint subset|disjoint]] [[closed subsets]] is separated by an [[Urysohn function]] |
+| $T_5$ | [[completely normal Hausdorff space|completely normal Hausdorff]] |  |  |
+| $T_6$ | [[perfectly normal Hausdorff space|perfectly normal Hausdorff]] |  |  |
