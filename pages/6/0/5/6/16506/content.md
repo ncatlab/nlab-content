@@ -489,9 +489,9 @@ For $B$ a [[set]], the [[Kleisli category]] for the $B$-reader monad has $B$-[[t
 ### General modules over the reader monad
  {#AlgebrasForTheReaderMonad}
 
-In general, the [[algebra over a monad|algebras]] for the function monad are not easily characterizable. (See also [MO:a/868317](https://math.stackexchange.com/a/868317/58526).)
+An [[algebra over a monad|algebra]] of the reader monad on an object $$A$$ consists of a single operation $$r : A^B \to A$$ subject to a constancy law $$r(\lambda b. a) = a$$ and a diagonal law $$r(\lambda b. r(\lambda b'. a(b,b'))) = r(\lambda b. a(b,b))$$. This algebraic structure captures equations for a [[computational effect]] of being able to query a fixed global parameter of type $$B$$, hence the name "reader monad". The operation $$r$$ is interpreted as "reading the parameter $$B$$ and using it to decide how to proceed". The constancy law says that reading the parameter itself is not observable and the diagonal law says that if we read the parameter multiple times we get the same answer. See (See also [MO:a/868317](https://math.stackexchange.com/a/868317/58526).) for a further discussion of the algebras.
 
-A special case is when $W$ is a 2 element set, where the $W$-reader algebras on $Set$ correspond to [[idempotent]] [[semigroups]], also known as _[[rectangular band|rectangular bands]]_. 
+A special case is when $B$ is a 2 element set, where the $B$-reader algebras on $Set$ correspond to [[idempotent]] [[semigroups]], also known as _[[rectangular band|rectangular bands]]_. 
 
 But the definition of the reader monad makes sense also for other [[hyperdoctrines]] such as for [[dependent linear types]]: For the resulting "linear" or "quantum" version of the reader monad the situation is different, see  [below](#QuantumReaderMonad).
 
