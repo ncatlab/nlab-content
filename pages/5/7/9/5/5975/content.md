@@ -35,74 +35,73 @@ Unifying themes:
 
 
 ## References
+ {#References}
 
 
-### Geometric 2-Logic
- {#ReferencesGeometric2Logic}
+Early discussion towards the [[internal logic]] of [[2-toposes]]:
 
-Consideration of aspects of "[[geometric logic|geometric]] 2-logic":
+* [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (2009)
+
+Some of the following references are cited in support of the discussion there.
+
+Further explicit consideration of aspects of such "[[geometric logic|geometric]] 2-logic":
 
 * {#BourkeGarner} [[John Bourke]], [[Richard Garner]], Remks. 42 & 47 in: *Two-dimensional regularity and exactness*, Journal of Pure and Applied Algebra, **218** 7 (2014) 1346–1371 &lbrack;[doi:10.1016/j.jpaa.2013.11.021](https://doi.org/10.1016/j.jpaa.2013.11.021), [arXiv:1304.5275](https://arxiv.org/abs/1304.5275)&rbrack;
 
 
+On [[flat functor|flat]] [[2-functors]]:
 
-### 2-flatness
+* Maria Emilia Descotte, [[Eduardo J. Dubuc]], and Martin Szyld. A construction of certain weak colimits and an exactness property of the 2-category of categories, 2016.
 
-* [DDS16] Maria Emilia Descotte, Eduardo Julio Dubuc, and Martin Szyld. A construction of certain weak colimits and an exactness property of the 2-category of categories, 2016.
-
-* [DDS18] Maria Emilia Descotte, Eduardo Julio Dubuc, and Martin Szyld. Sigma limits in 2-
-categories and flat pseudofunctors. Advances in Mathematics, 333:266–313, 2018.
+* Maria Emilia Descotte, [[Eduardo J. Dubuc]], and Martin Szyld. Sigma limits in 2-categories and flat pseudofunctors. Advances in Mathematics, 333:266–313, 2018.
 
 * [Des20] Maria Emilia Descotte. A theory of 2-pro-objects, a theory of 2-model 2-categories and the 2-model structure for 2-pro (c). arXiv preprint arXiv:2010.10636, 2020.
 
-### Elementary 2-topoi
+On [[elementary topos|elementary]] [[2-topoi]]:
 
-* [25] C. Hughes and A. Miranda. The elementary theory of the 2-category of small categories. Theory and Applications of Categories, Vol. 43, 2025, No. 8, pp 196-242.
+* C. Hughes and A. Miranda. The elementary theory of the 2-category of small categories. Theory and Applications of Categories, Vol. 43, 2025, No. 8, pp 196-242 &lbrack;[arXiv:2403.03647](https://arxiv.org/abs/2403.03647)&rbrack;
 
-* [Web07] THE ELEMENTARY THEORY OF THE 2-CATEGORY OF SMALL CATEGORIES 37
+* [[Ross Street]]: Elementary cosmoi i. In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, pages 134–180. Springer, 2006.
 
-* [Str06]  Ross Street. Elementary cosmoi i. In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, pages 134–180. Springer, 2006.
+* [[Ross Street]] Fibrations and Yoneda’s Lemma in a 2-category. Category Sem.,Proc., Sydney 1972/1973, Lect. Notes Math. 420, 104-133, Springer, 1974.
 
-* [Web07]  Mark Weber. Yoneda structures from 2-toposes. Applied Categorical Structures, 15:259–323,2007.
+* L. Mesiti. The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits &lbrack;[arXiv:2302.04566](http://arxiv.org/abs/2302.04566)&rbrack;
 
-* [41] R. Street. Fibrations and Yoneda’s Lemma in a 2-category. Category Sem.,Proc., Sydney 1972/1973, Lect. Notes Math. 420, 104-133, Springer, 1974.
+* L. Mesiti. 2-classifiers via dense generators and Hofmann-Streicher universe in stacks &lbrack;[arXiv:2401.16900](http://arxiv.org/abs/2401.16900)&rbrack;
 
-* [36] L. Mesiti. The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits. arXiv: https:// [arxiv.org/](http://arxiv.org/) abs/ 2302.04566 , 2023.
+* E. Caviglia and L. Mesiti. Indexed Grothendieck construction &lbrack;[arXiv:2307.16076](http://arxiv.org/abs/2307.16076)&rbrack;
 
-* [37] L. Mesiti. 2-classifiers via dense generators and Hofmann-Streicher universe in stacks. arXiv: https:// [arxiv.org/](http://arxiv.org/) abs/ 2401.16900 , 2024.
+* [[Steve Awodey]], [[Jacopo Emmenegger]]: Toward the effective 2-topos &lbrack;[arXiv:2503.24279](http://arxiv.org/abs/2503.24279)&rbrack;
 
-* [12] E. Caviglia and L. Mesiti. Indexed Grothendieck construction. arXiv: https:// [arxiv.org/](http://arxiv.org/) abs/ 2307.16076 , 2023.
+On [[Yoneda structures]]:
 
-* [AE2025] Steve Awodey, Jacopo Emmenegger. Toward the effective 2-topos. https:// [arxiv.org/](http://arxiv.org/) abs/2503.24279 , 2025.
+* [[Mark Weber]]: *Yoneda structures from 2-toposes*, Applied Categorical Structures **15** (2007) 259–323
 
-
-
-### Yoneda structures 
-
-* Walker. Yoneda structures and KZ doctrines. [1703.08693] 
+* {#Walker17} [[Charles Walker]]: _Yoneda Structures and KZ Doctrines_ &lbrack;[arXiv:1703.08693](https://arxiv.org/abs/1703.08693)&rbrack;
 
 
-### Double categories
+On [[double categories]]:
 
 *  Seerp Roald Koudenburg. Formal category theory in augmented virtual double categories
 
 * Seerp Roald Koudenburg. A double-dimensional approach to formal category theory
 
 
-### 2-functorial semantics
+On 2-[[functorial semantics]]:
 
-* [ABK24] Nathanael Arkor, John Bourke and Joanna Ko. Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation. 2024. arXiv: 2412.07475
+* [[Nathanael Arkor]], [[John Bourke]], Joanna Ko. Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation. 2024. arXiv:2412.07475
 
-* [DO22]  Ivan Di Liberti and Axel Osmond. Bi-accessible and bipresentable 2-categories. 2022. arXiv: 2203.07046
+* [[Ivan Di Liberti]], Axel Osmond. Bi-accessible and bipresentable 2-categories. 2022. arXiv:2203.07046
 
-* [BG88] Renato Betti and Marco Grandis. Complete theories in 2-categories. Cahiers de topologie et g´eom´etrie diﬀ´erentielle cat´egoriques, 29(1):9–57, 1988.
+* Renato Betti and Marco Grandis. Complete theories in 2-categories. [[Cahiers]] **29** 1 (1988) 9–57
 
-* Power, A. John. "Why tricategories?." *Information and Computation* 120.2 (1995): 251-262.
-Power, John. "Enriched lawvere theories." *Theory and Applications of Categories* 6.7 (1999): 83-93.
+* [[John Power]]: "Why tricategories?." *Information and Computation* 120.2 (1995): 251-262.
 
-* Power, John. "Categories with algebraic structure." *International Workshop on Computer Science Logic*. Berlin, Heidelberg: Springer Berlin Heidelberg, 1997.
+* [[John Power]]: "Enriched lawvere theories." *Theory and Applications of Categories* 6.7 (1999): 83-93.
 
-### 2-categories as 2-theories
+* [[John Power]]: "Categories with algebraic structure." *International Workshop on Computer Science Logic*. Berlin, Heidelberg: Springer Berlin Heidelberg, 1997.
+
+On [[2-categories]] as [[2-theories]]:
 
 * {#CDL21} Greta Coraglia, [[Ivan Di Liberti]], _Context, judgement, deduction_ &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;.
 
@@ -114,7 +113,7 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 
 * {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical structures in computer science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
 
-### Rewriting
+On [[rewriting]]:
 
 * Samuel Mimram, Categorical Coherence from Term Rewriting Systems
 
@@ -124,7 +123,7 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 
 * [[Tom Hirschowitz]], *Cartesian closed 2-categories and permutation equivalence in higher-order rewriting*. Logical Methods in Computer Science, Logical Methods in Computer Science Association, 2013, 9 (3), pp.10. ([pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document))
 
-### 2-categories of 1-theories
+On [[2-categories]] of [[theory|1-theories]]:
 
 * Garner and Lack. Lex Colimits.
 
@@ -138,7 +137,7 @@ Power, John. "Enriched lawvere theories." *Theory and Applications of Categorie
 
 * Coraglia, Greta, and Jacopo Emmenegger. "Categorical models of subtyping." arXiv preprint arXiv:2312.14600 (2023).
 
-### (∞,2)-topoi
+On [[(∞,2)-topoi]]:
 
 * Fernando Abellan, [[Louis Martini]]: *$(\infty,2)$-topoi and descent*
 
