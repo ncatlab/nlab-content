@@ -32,7 +32,7 @@ The canonical inclusion $i:A\hookrightarrow X$ corresponding to an NDR-pair $(X,
 
 ## References
 
-Textbook accounts
+Textbook accounts:
 
 * [[Peter May]], Section 6.4 of: _[[A concise course in algebraic topology]]_, University of Chicago Press 1999 ([ISBN: 9780226511832](https://www.press.uchicago.edu/ucp/books/book/chicago/C/bo3777031.html), [pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
