@@ -105,3 +105,9 @@ category: analysis, noncommutative geometry
 
 [[!redirects algebra of operators]]
 [[!redirects algebras of operators]]
+
+[[!redirects operator theory]]
+[[!redirects operator theories]]
+
+
+
