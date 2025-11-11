@@ -38,7 +38,7 @@ A brief version of roughly this material is in _[[Encyclopedia of the Philosophi
 
 
 
-## Vom wissenshcaftlichen Erkennen
+## Vom wissenschaftlichen Erkennen
 
 ## Jetziger Standpunkt des Geistes
 
