@@ -38,11 +38,11 @@ Unifying themes:
  {#References}
 
 
-Early discussion towards the [[internal logic]] of [[2-toposes]]:
+Early constributions towards the understanding of the  [[internal logic]] of [[2-toposes]] were started by Weber (see references below). Those later inspired a project led my Shulman.
 
 * [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (2009)
 
-Some of the following references are cited in support of the discussion there.
+The project never saw light, and remained largely unexpressed, collecting some existing knowledge and references at the time and making germinal conjectures towards some initial notions. 
 
 Further explicit consideration of aspects of such "[[geometric logic|geometric]] 2-logic":
 
