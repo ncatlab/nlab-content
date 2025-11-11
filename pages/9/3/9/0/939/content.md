@@ -357,6 +357,11 @@ Invertible distributive laws are considered in Lemma 4.12 of:
 
 * Alain Bruguieres and Alexis Virelizier, _Quantum double of Hopf monads and categorical centers_, Transactions of the American Mathematical Society 364.3 (2012): 1225-1279.
 
+See also:
+
+* {#Walker18} [[Charles Walker]]: _Distributive Laws via Admissibility_ &lbrack;[arXiv:1706.09575](https://arxiv.org/abs/1706.09575)&rbrack;
+
+
 [[!redirects distributive laws]]
 [[!redirects mixed distributive law]]
 [[!redirects mixed distributive laws]]
