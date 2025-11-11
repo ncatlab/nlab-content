@@ -3174,7 +3174,15 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > The term "[[quantum technology|Quantum Technologies]]" summarises a growing field of emergent technologies that have the potential for breakthrough improvements in fields like [[quantum information|information processing]], [[quantum communication|communication]] and [[quantum sensing|sensing]]. Quantum bits or [[qubits]], which represent fundamental units of information, exist [[spin resonance qubits|naturally]] in the form of [[spins]].
 
+\linebreak
 
+### Nov 2025
+
+* {#LeiSubNov2025} 10 Nov 2025
+
+  [Lei Sun](https://sunlei.lab.westlake.edu.cn/) (Westlake University, China ):
+
+  **Molecular Qubit Frameworks: Spin Dynamics and Quantum Sensing Applications**
 
 \linebreak
 
