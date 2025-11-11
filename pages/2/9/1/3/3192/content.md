@@ -348,22 +348,30 @@ is a [[fiber bundle]] (in fact a [[principal bundle]]) with [[typical fiber]] $G
 
 ([Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993), following [Atiyah & Singer 1969](#AtiyahSinger69), see also [SWBW23 section 8.3](#SWBW23Chapter8))
 
+Denote by 
+
+* $\widehat{\mathrm{F}}_\ast \subset \widehat{\mathcal{F}}_\ast$ the [[deformation retract]] consisting of those self-adjoint Fredholm operators of [[operator norm|norm]] is 1 and whose [[essential spectrum]] is specifically $= \{+1, -1\}$.
+
 \begin{proposition}
+  \label{ExponentiatedUnitNormalSelfAdjointFredholmOperators}
   The [[exponential map]]
   $$
     \exp\big(\pi \mathrm{i} (-) \big)
     \;\colon\;
-    \widehat{\mathcal{F}}_\ast
+    \widehat{\mathrm{F}}_\ast
     \longrightarrow
+    -
     \Big\{
       U \in \mathrm{U}(\mathscr{H})
       \,\Big\vert\,
-      U + id \in \mathcal{K}(\mathscr{H})
+      U - id \in \mathcal{K}(\mathscr{H})
     \Big\}
   $$
-  (to the *Fredholm unitary group*) is a [[homotopy equivalence]].
+  (to the the image under negation of the *unitary [[Fredholm group]]*) is a [[homotopy equivalence]].
 \end{proposition}
 ([Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69))
+
+
 
 
 \linebreak
@@ -384,12 +392,13 @@ One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not z
 
 ## Related concepts
 
+* [[Fredholm module]] 
 
-* [[Fredholm module]], 
+* [[Fredholm determinant]] 
 
-* [[Fredholm determinant]], 
+* [[Fredholm group]]
 
-* [[Dirac operator]], 
+* [[Dirac operator]] 
 
 * [[Toeplitz operator]]
 
@@ -489,7 +498,7 @@ On Fredholm complexes:
 
 On (the space of) [[self-adjoint operators|self-adjoint]] Fredholm operators:
 
-* Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]:  *Bounded Self-Adjoint Fredholm Operators*, Section 3.6 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477)&rbrack;
+* Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]:  *Bounded Self-Adjoint Fredholm Operators*, Section 3.6 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477), [hdl:20.500.12657/63798](https://library.oapen.org/handle/20.500.12657/63798)&rbrack;
 
 As a [[classifying space]] for [[topological K-theory]] $KU^1$, $KO^1$ and $KSp^1$ (see at *[[Atiyah-Jänich theorem]]*):
 
