@@ -34,13 +34,13 @@ $$
 where $\Omega_t$ is a copy of $\Omega$ at time $t \in T$. These [[Markov kernels]] $\Gamma_t$ are defined as functions
 $$
 \begin{array}{ccc}
-\Omega_0 \times \Sigma_{\Omega_t} & \Gamma_t & [0,1] \\
+\Omega_0 \times \Sigma_{\Omega_t} & \xrightarrow{\Gamma_t} & [0,1] \\
 (\omega, U) & \mapsto & \Gamma_t(U | \omega)
 \end{array}
 $$
 which we read as ''the probability of $\Gamma_t$ on the measurable set $U$ given the point $\omega \in \Omega_0$''.  For each fixed $\omega \in \Omega_0$ the function $\Gamma_t(\bullet | \omega)$ defines a probability measure on $\Omega_t$ ($\Gamma_t(\bullet | \omega) \in G(\Omega_0)$), and for each fixed $U \in \Sigma_{\Omega_t}$ the function $\Omega_0 \xrightarrow{\Gamma_t(U | \bullet)} [0,1]$ is a measurable function.
  
-To say that the stochastic process is indivisible means that for any $0 \le s \lt t$ there exists no morphism $\Omega_s \xrightarrow{ \Gamma_{t,s}} \Omega_t$ in the [[Kleisli category]] of the [[Giry monad]] $G$ such that $\Gamma_t = \Gamma_{t,s} \circ \Gamma_s$ where the composition in the [[Kleisli category]] is defined by $(\Gamma_{t,s} \circ \Gamma_s)(U | \omega) = \int_{\lambda \in \Omega_s} \Gamma_{t,s}(U | \lambda) \, d\Gamma_s(\bullet | \omega)$.
+To say that the stochastic process is indivisible means that for any $0 \lt s \lt t$ there exists no morphism $\Omega_s \xrightarrow{ \Gamma_{t,s}} \Omega_t$ in the [[Kleisli category]] of the [[Giry monad]] $G$ such that $\Gamma_t = \Gamma_{t,s} \circ \Gamma_s$ where the composition in the [[Kleisli category]] is defined by $(\Gamma_{t,s} \circ \Gamma_s)(U | \omega) = \int_{\lambda \in \Omega_s} \Gamma_{t,s}(U | \lambda) \, d\Gamma_s(\bullet | \omega)$.
 
 The stochastic-quantum correspondence results [[Jacob Barandes]] presents assumes the configuration space $\Omega$ is a finite [[measurable space]] with the discrete $\sigma$-algebra. Since $\Omega$ is finite, say $|\Omega| = N$, it follows that every singleton set $\{i\} \subset \Omega_t$ is measurable, and hence the morphism $\Gamma_t$ is completely determined by the values $\Gamma_t(\{i\} | j)$ for $i,j \in \Omega$. To correspond with the convenient notation used in the articles of [[Jacob Barandes]] we switch our notation to $\Gamma_{i,j}(t)$. Moreover, since $\Omega$ is finite, the morphisms $\Gamma_t$ in the [[Kleisli category]] of $G$ has a representation as an $N \times N$ matrix, and the composition in the [[Kleisli category]] is just matrix multiplication.  Consequently we let $\Gamma(t)$ denote the matrix whose component at row $i$ and column $j$ is $\Gamma_{i,j}(t)$. Since $\Gamma_{i,j}(t) \in [0,1]$ we can introduce an $N \times N$ __potential matrix__ $\Theta(t)$ consisting of complex-valued matrix elements $\Theta_{i,j}(t)$ related to $\Gamma_{i,j}(t)$ by the modulus squared relation
 $$
