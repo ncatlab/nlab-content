@@ -346,7 +346,7 @@ is a [[fiber bundle]] (in fact a [[principal bundle]]) with [[typical fiber]] $G
 
 \end{proposition}
 
-([Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993), following [Atiyah & Singer 1969](#AtiyahSinger69))
+([Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993), following [Atiyah & Singer 1969](#AtiyahSinger69), see also [SWBW23 section 8.3](#SWBW23Chapter8))
 
 \begin{proposition}
   The [[exponential map]]
@@ -419,7 +419,8 @@ Textbook accounts:
 
 * [[William Arveson]], §3.3 of: *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) &lbrack;[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)&rbrack;
 
-* Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]: *Bounded Fredholm Operators*, Chapter 3 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477)&rbrack;
+* {#DSBW23} Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]: *Bounded Fredholm Operators*, Chapter 3 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477), [hdl:20.500.12657/63798](https://library.oapen.org/handle/20.500.12657/63798)&rbrack;
+
 
 Review:
 
@@ -432,14 +433,23 @@ Review:
   > (focus on [[Atkinson's theorem]])
 
 
+Discussion of the space of Fredholm operators as a [[classifying space]] for [[topological K-theory]] ([[Atiyah-Jänich theorem]]):
 
-Discussion of the space of Fredholm operators as a [[classifying space]] for [[topological K-theory]]:
+* {#Jänich65} [[Klaus Jänich]]: *Vektorraumbündel und der Raum der Fredholm-Operatoren*, Mathematische Annalen **161** (1965) 129–142 &lbrack;[doi:10.1007/BF01360851](https://doi.org/10.1007/BF01360851)&rbrack;
 
 * {#Atiyah67}  [[Michael Atiyah]], Appendix of: _K-theory_, Harvard Lecture 1964 (notes by D. W. Anderson), Benjamin (1967) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/atiyahk.pdf), [[AtiyahKTheory.pdf:file]]&rbrack;
 
-and variants that serve as classifying spaces also for [[twisted K-theory]] and [[equivariant K-theory]]:
+* {#Atiyah69} [[Michael Atiyah]], §2 in: *Algebraic Topology and Operators in Hilbert Space*, in: *Lectures in Modern Analysis and Applications I*, Lecture Notes in Mathematics **103**, Springer (1969) 101-121 &lbrack;[doi:10.1007/BFb0099987](https://doi.org/10.1007/BFb0099987), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/atiyah002.pdf), [[Atiyah-AlgTopAndOperators.pdf:file]]&rbrack;
+
+* {#SWBW23Chapter8} [DSBW23 ch 8](#DSBW23): *Homotopy theory of Fredholm operators* &lbrack;[[DSBW23-HomotopyFredholmOps.pdf:file]]&rbrack;
+
+and variants that serve as classifying spaces also for [[KO-theory]] and in any degree:
 
 * {#AtiyahSinger69} [[Michael Atiyah]], [[Isadore Singer]]: *Index theory for skew-adjoint Fredholm operators*,  Publications Mathématiques de l’Institut des Hautes Scientifiques **37** 1 (1969) 5-26 &lbrack;[doi:10.1007/BF02684885](https://doi.org/10.1007/BF02684885), [pdf](http://www.maths.ed.ac.uk/~aar/papers/askew.pdf)&rbrack;
+
+* {#Karoubi1970} [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218), Engl. transl: [[Karoubi-EspacesClassifiants-English-251105.pdf:file]]&rbrack;
+
+and relation to [[twisted equivariant K-theory]] hupf
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], §3 in: _Twisted K-theory_, Ukrainian Math. Bull. **1** 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
 
@@ -480,7 +490,6 @@ On Fredholm complexes:
 On (the space of) [[self-adjoint operators|self-adjoint]] Fredholm operators:
 
 * Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]:  *Bounded Self-Adjoint Fredholm Operators*, Section 3.6 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477)&rbrack;
-
 
 As a [[classifying space]] for [[topological K-theory]] $KU^1$, $KO^1$ and $KSp^1$ (see at *[[Atiyah-Jänich theorem]]*):
 
