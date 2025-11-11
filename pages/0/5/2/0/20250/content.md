@@ -295,3 +295,10 @@ reviewed in
 
 * {#RudolphSchmidt17} Gerd Rudolph, Matthias Schmidt, around Theorem 4.2.23 of _Differential Geometry and Mathematical Physics: Part II. Fibre Bundles, Topology and Gauge Fields_, Theoretical and Mathematical Physics series, Springer 2017 ([doi:10.1007/978-94-024-0959-8](https://link.springer.com/book/10.1007/978-94-024-0959-8))
 
+Visualisation and explanation:
+
+* {#Egan11a} [[Greg Egan]], _[The Double Covers of SO(3) and SO(4)](https://www.gregegan.net/ORTHOGONAL/03/WavesExtra.html#DC)_ (2011)
+* {#Egan11b} [[Greg Egan]], _[Representations of SO(3) and SO(4)](https://www.gregegan.net/ORTHOGONAL/03/WavesExtra.html#R34)_ (2011)
+
+[[!redirects third special orthogonal group]]
+[[!redirects SO3]]
