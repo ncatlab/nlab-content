@@ -4,7 +4,10 @@
 
 ***
 
-* 8 Homotopy Theory of Fredholm Operators
+
+
+* Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]:  *Homotopy Theory of Fredholm Operators*, Chapter 8 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477), ch8:[[DSBW23-HomotopyFredholmOps.pdf:file]]&rbrack;
+
 
 All [[linear operators]] in the following act on a given [[separable Hilbert space|separable]] countably infinite-dimensional [[complex numbers|complex]] [[Hilbert space]].
 
