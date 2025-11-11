@@ -104,7 +104,17 @@ This is a re-statement of
 
 [[!include Spin(8)-subgroups and reductions -- table]]
 
+### Homotopy groups
 
+$\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ | $\pi_10$ | $\pi_11$ | $\pi_12$ | $\pi_13$ | $\pi_14$ | $\pi_15$ | $\pi_16$ | $\pi_17$ |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+$\mathbb{Z}$ | $0$ | $\mathbb{Z}$ | $\mathbb{Z}_6$ | $0$ | $\mathbb{Z}_12$ | $\mathbb{Z}_3$ | $\mathbb{Z}_30$ | $\mathbb{Z}_4$ | $\mathbb{Z}_60$ | $\mathbb{Z}_6$ | $\mathbb{Z}_84\oplus\mathbb{Z}_2$ | $\mathbb{Z}_36$ | $\mathbb{Z}_252\oplus\mathbb{Z}_6$ | $\mathbb{Z}_30\oplus\mathbb{Z}_2$
+
+$\pi_18$ | $\pi_19$ | $\pi_20$ | $\pi_21$ | $\pi_22$ | $\pi_23$ |
+|--|--|--|--|--|--|
+$\mathbb{Z}_30\oplus\mathbb{Z}_6$ | $\mathbb{Z}_12\oplus\mathbb{Z}_6$ | $\mathbb{Z}_60\oplus\mathbb{Z}_6$ | $\mathbb{Z}_6$ | $\mathbb{Z}_66\oplus\mathbb{Z}_2$ | $\mathbb{Z}_12\oplus\mathbb{Z}_2$
+
+([Mimura & Toda 63](#MimuraToda63))
 
 ## Related concepts
 
