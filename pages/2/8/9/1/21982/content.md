@@ -114,7 +114,7 @@ Discussion of full-blown [[twisted K-theory|twisted]] [[differential K-theory|di
 
 * [[John Schwarz]], _TASI Lectures on Non-BPS D-Brane Systems_ ([arXiv:hep-th/9908144](https://arxiv.org/abs/hep-th/9908144))
 
-* {#Witten00} [[Edward Witten]]: _Overview Of K-Theory Applied To Strings_, Int. J. Mod. Phys. A **16** (2001) 693-706 \[<a href="https://doi.org/10.1142/S0217751X01003822">doi:10.1142/S0217751X01003822</a>, [arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175)\]
+* {#Witten00} [[Edward Witten]]: *Overview Of K-Theory Applied To Strings*, Int. J. Mod. Phys. A **16** (2001) 693-706 \[<a href="https://doi.org/10.1142/S0217751X01003822">doi:10.1142/S0217751X01003822</a>, [arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175)\]
 
 * {#Szabo2002} [[Richard Szabo]]: _D-Branes, Tachyons and K-Homology_, Mod. Phys. Lett. A **17** (2002) 2297-2316 \[<a href="https://doi.org/10.1142/S0217732302009015">doi:10.1142/S0217732302009015</a>, <a href="http://arxiv.org/abs/hep-th/0209210">arXiv:hep-th/0209210</a>\]
 
