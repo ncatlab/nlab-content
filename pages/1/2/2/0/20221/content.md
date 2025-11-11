@@ -97,8 +97,17 @@ $d\rho$ must also be [[surjective function|surjective]].   Since $\mathrm{SO}(6)
 
 [[!include Spin(8)-subgroups and reductions -- table]]
 
+### Homotopy groups
 
-\linebreak
+$\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ | $\pi_10$ | $\pi_11$ | $\pi_12$ | $\pi_13$ | $\pi_14$ | $\pi_15$ | $\pi_16$ | $\pi_17$ |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+$\mathbb{Z}$ | $0$ | $\mathbb{Z}$ | $0$ | $\mathbb{Z}$ | $\mathbb{Z}_24$ | $\mathbb{Z}_2$ | $\mathbb{Z}_120\oplus\mathbb{Z}_2$ | $\mathbb{Z}_4$ | $\mathbb{Z}_60$ | $\mathbb{Z}_4$ | $\mathbb{Z}_1680\oplus\mathbb{Z}_2$ | $\mathbb{Z}_72\oplus\mathbb{Z}_2$ | $\mathbb{Z}_504\oplus\mathbb{Z}_2^4$ | $\mathbb{Z}_40\oplus\mathbb{Z}_2^3$
+
+$\pi_18$ | $\pi_19$ | $\pi_20$ | $\pi_21$ | $\pi_22$ | $\pi_23$ |
+|--|--|--|--|--|--|
+$\mathbb{Z}_2520\oplus\mathbb{Z}_12\oplus\mathbb{Z}_2$ | $\mathbb{Z}_12\oplus\mathbb{Z}_2$ | $\mathbb{Z}_60\oplus\mathbb{Z}_2$ | $\mathbb{Z}_16\oplus\mathbb{Z}_2$ | $\mathbb{Z}_2640\oplus\mathbb{Z}_4\oplus\mathbb{Z}_2^2$ | $\mathbb{Z}_24\oplus\mathbb{Z}_2^4$
+
+([Mimura & Toda 63](#MimuraToda63))
 
 ## Related concepts
 
