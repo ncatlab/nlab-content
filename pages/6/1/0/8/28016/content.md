@@ -75,7 +75,7 @@ Given any 3-graded Lie algebra $\mathfrak{g}$ with an anti-graded involution $\v
 
 $$ \{u,v,w\} = \big[ [u,\varepsilon(v)], w \big] ,$$
 
-$V$ becomes a Lie triple system. Thus, given a 3-graded Lie algebra, say $\mathfrak{g} = \mathfrak{g}_{-1} \oplus  \mathfrak{g}_0 \oplus \mathfrak{g}_1$, the space $\mathfrak{g}_1$ of odd elements becomes a Jordan triple system.   
+$V$ becomes a Jordan triple system. Thus, given a 3-graded Lie algebra with an anti-graded involution, say $\mathfrak{g} = \mathfrak{g}_{-1} \oplus  \mathfrak{g}_0 \oplus \mathfrak{g}_1$, the space $\mathfrak{g}_1$ of odd elements becomes a Jordan triple system. (For $u,v,w\in\mathfrak{g}_1$, one has $\varepsilon(v)\in\mathfrak{g}_{-1}$ and therefore $[u,\varepsilon(v)]\in\mathfrak{g}_0$, which results in $\{u,v,w\}\in\mathfrak{g}_1$.)
 
 Conversely, given any Jordan triple system $V$, if we define 
 
