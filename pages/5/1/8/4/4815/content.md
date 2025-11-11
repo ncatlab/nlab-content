@@ -199,7 +199,7 @@ Cautioning against the interpretation of type Ia [[supernovae]] as indicative of
 * {#MRS21} [[Roya Mohayaee]], [[Mohamed Rameez]], [[Subir Sarkar]], *Do supernovae indicate an accelerating universe?* ([arXiv:2106.03119](https://arxiv.org/abs/2106.03119))
 
 
-
+* {#SLCPC25}  Junhyuk Son, Young-Wook Lee, Chul Chung, Seunghyun Park, Hyejeon Cho, *Strong progenitor age bias in supernova cosmology – II. Alignment with DESI BAO and signs of a non-accelerating universe*, Monthly Notices of the Royal Astronomical Society, Volume 544, Issue 1, November 2025, Pages 975–987 &lbrack;[doi:10.1093/mnras/staf1685](https://doi.org/10.1093/mnras/staf1685)&rbrack;
 
 ### In pAQFT
  {#ReferencedInpAQFT}
