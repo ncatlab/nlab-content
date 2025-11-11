@@ -346,11 +346,11 @@ is a [[fiber bundle]] (in fact a [[principal bundle]]) with [[typical fiber]] $G
 
 \end{proposition}
 
-([Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993), following [Atiyah & Singer 1969](#AtiyahSinger69), see also [SWBW23 section 8.3](#SWBW23Chapter8))
+([Booß-Bavnbek & Wojciechowski 1993](#BooßBavnbekWojciechowski1993), following [Atiyah & Singer 1969](#AtiyahSinger69), see also [DSBW23 section 8.3](#SWBW23Chapter8))
 
 Denote by 
 
-* $\widehat{\mathrm{F}}_\ast \subset \widehat{\mathcal{F}}_\ast$ the [[deformation retract]] consisting of those self-adjoint Fredholm operators of [[operator norm|norm]] is 1 and whose [[essential spectrum]] is specifically $= \{+1, -1\}$.
+* $\widehat{\mathrm{F}}_\ast \subset \widehat{\mathcal{F}}_\ast$ the [[deformation retract]] consisting of those self-adjoint Fredholm operators of unit [[operator norm|norm]] and whose [[essential spectrum]] is specifically $= \{+1, -1\}$.
 
 \begin{proposition}
   \label{ExponentiatedUnitNormalSelfAdjointFredholmOperators}
@@ -367,7 +367,7 @@ Denote by
       U - id \in \mathcal{K}(\mathscr{H})
     \Big\}
   $$
-  (to the the image under negation of the *unitary [[Fredholm group]]*) is a [[homotopy equivalence]].
+  (to the image under negation of the *unitary [[Fredholm group]]*) is a [[homotopy equivalence]].
 \end{proposition}
 ([Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69))
 
@@ -382,10 +382,22 @@ Denote by
 Fredholm operators generalize to Fredholm complexes. A finite [[chain complex]]
 
 $$
-0 \to C_0 \stackrel{d_0}\to C_1\stackrel{d_1}\to C_2 \ldots C_n\to 0
+  0 
+   \to
+  C_0 
+    \overset{d_0}{\longrightarrow} 
+  C_1 
+    \overset{d_1}{\longrightarrow} 
+  C_2 
+    \longrightarrow
+  \cdots 
+    \longrightarrow
+  C_n
+  \to 
+  0
 $$
 
-of [[Banach spaces]] and bounded operators is said to be a **Fredholm complex** if the images $d_i$ are closed and the [[chain homology]] of the complex is finite dimensional. The [[Euler characteristic]] (the alternative sum of the dimensions of the homology groups) is then called the __index__ of the Fredholm complex. Each Fredholm operator can be considered as a Fredholm complex concentrated at zero. Each Fredholm complex produces a Fredholm operator from the sum of the even- to the sum of the odd-numbered spaces in the complex. 
+of [[Banach spaces]] and [[bounded linear operators]] between them is said to be a **Fredholm complex** if the [[images]] $d_i$ are [[closed subspace|closed]] and the [[chain homology]] of the complex is finite dimensional. The [[Euler characteristic]] (the alternative sum of the dimensions of the homology groups) is then called the __index__ of the Fredholm complex. Each Fredholm operator can be considered as a Fredholm complex concentrated at zero. Each Fredholm complex produces a Fredholm operator from the sum of the even- to the sum of the odd-numbered spaces in the complex. 
 
 One can consider *Fredholm almost complexes*, where $d_i \circ d_{i-1}$ is not zero but the image of that operator is compact. Out of every Fredholm almost complex one can make a complex by correcting the differentials by compact perturbation terms. [[elliptic complex|Elliptic complexes]] give examples of Fredholm complexes. 
 
