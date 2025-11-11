@@ -38,7 +38,7 @@ Unifying themes:
  {#References}
 
 
-Early constributions towards the understanding of the  [[internal logic]] of [[2-toposes]] were started by Weber (see references below). Those later inspired a project led my Shulman.
+Early contributions towards the understanding of the  [[internal logic]] of [[2-toposes]] were started by Weber. Those later inspired 
 
 * [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (2009)
 
