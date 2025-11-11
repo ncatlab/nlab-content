@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal SO(3)-bundles* are [[principal bundles]] with the third [[special orthogonal group]] [[SO(3)|$SO(3)$]] as [[structure group]]/[[gauge group]]. Applications include the [[frame bundle]] of an [[orientable]] [[3-manifold]].
+*Principal SO(3)-bundles* are [[principal bundles]] with the third [[special orthogonal group]] [[SO(3)|$SO(3)$]] as [[structure group]]/[[gauge group]]. Applications include the [[frame bundle]] of an [[orientable]] [[3-manifold]] as well as the (anti) self-dual bundles $\Lambda_\pm^2TX$ for an [[orientable]] [[Riemannian manifold|Riemannian]] [[4-manifold]] $X$, resulting from the splitting $\mathfrak{so}(4)\cong\mathfrak{so}(3)\oplus\mathfrak{so}(3)$.
 
 Principal $SO(3)$-bundles are in particular induced by [[principal SU(2)-bundles]] using the [[double cover]] $SU(2)\cong Spin(3)\twoheadrightarrow SO(3)$ and [[principal U(2)-bundles]] using the canonical projection $U(2)\cong Spin^\mathrm{c}(3)\cong Spin^\mathrm{h}(2)\rightarrow SO(3)$. In fact the latter example generalizes to every $Spin^\mathrm{h}(n)$-bundle using the [[double cover]] of the former example:
 $$
@@ -99,6 +99,44 @@ $$
 \begin{proposition}
 A principal SO(3)-bundle $f\colon X\rightarrow B SO(3)$ lifts to a [[principal U(2)-bundle]] $\widehat{f}\colon X\rightarrow B U(2)$ if and only if its third [[integral Stiefel-Whitney class]] vanishes, hence the composition $W_3\circ f\colon X\rightarrow K(\mathbb{Z},2)$ is [[nullhomotopic]].
 \end{proposition}
+
+## (Anti) self-dual bundles
+
+Using the [[exceptional isomorphisms]] $Spin(3)\cong SU(2)$ and $Spin(4)\cong SU(2)\times SU(2)$, matrices in [[SO(3)]] and [[SO(4)]] can be represented by matrices in [[SU(2)]]. In particular there are maps:
+$$
+\phi\colon
+SO(3)\rightarrow SO(4)
+[U]\mapsto[(U,U)];
+$$
+$$
+\psi_-\colon
+SO(4)\rightarrow SO(3),
+[(U_-,U_+)]\mapsto[U_-];
+$$
+$$
+\psi_+\colon
+SO(4)\rightarrow SO(3),
+[(U_-,U_+)]\mapsto[U_+]
+$$
+with $\psi_\pm\circ\phi=id$ and so that there is a [[Lie algebra]] [[isomorphism]]:
+$$
+(\phi_-',\phi_+')\colon
+\mathfrak{so}(4)\xrightarrow\cong\mathfrak{so}(3)\oplus\mathfrak{so}(3)
+$$
+\begin{proposition}
+For an [[orientable]] [[Riemannian manifold|Riemannian]] [[4-manifold]] $X$, one has $\Lambda_\pm^2TX=(\psi_\pm)_*TX$ with characteristic classes:
+$$
+w_2(\Lambda_+^2TX)
+=w_2(X);
+$$
+$$
+p_1(\Lambda_+^2TX)
+=p_1(X)
++2e(X).
+$$
+\end{proposition}
+
+([Gompf & Stipsicz 99, Thrm. 1.4.20](#GompfStipsicz99))
 
 ## Examples
 
