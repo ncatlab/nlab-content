@@ -6,9 +6,14 @@ There are famously [no pictures of him on the web](http://gregegan.customer.nets
 
 ##Selected writings
 
-* [[J. Daniel Christensen]] and [[Greg Egan]], _An  Efficient  Algorithm  for the  Riemannian 10j Symbols_ [arxiv:gr-qc/0110045v3](http://arxiv.org/abs/gr-qc/0110045v3)
+* {#ChristensenEgan02} [[J. Daniel Christensen]] and [[Greg Egan]], _An  Efficient  Algorithm  for the  Riemannian 10j Symbols_ [arxiv:gr-qc/0110045v3](http://arxiv.org/abs/gr-qc/0110045v3)
 
-* [[John C. Baez]], [[J. Daniel Christensen]], and [[Greg Egan]]. _Asymptotics of 10j Symbols_ Classical and Quantum Gravity 19, no. 24 (December 21, 2002): 6489–6513. [arXiv:gr-qc/0208010](https://arxiv.org/abs/gr-qc/0208010)
+* {#BaezChristensenEgan02} [[John C. Baez]], [[J. Daniel Christensen]], and [[Greg Egan]]. _Asymptotics of 10j Symbols_ Classical and Quantum Gravity 19, no. 24 (December 21, 2002): 6489–6513. [arXiv:gr-qc/0208010](https://arxiv.org/abs/gr-qc/0208010)
+
+About the [[special orthogonal groups]] [[SO(3)]] and [[SO(4)]]:
+
+* {#Egan11a} [[Greg Egan]], _[The Double Covers of SO(3) and SO(4)](https://www.gregegan.net/ORTHOGONAL/03/WavesExtra.html#DC)_ (2011)
+* {#Egan11b} [[Greg Egan]], _[Representations of SO(3) and SO(4)](https://www.gregegan.net/ORTHOGONAL/03/WavesExtra.html#R34)_ (2011)
 
 Explanation, visualisation and calculation of the first homology of the [[Hantzsche-Wendt manifold]]:
 
