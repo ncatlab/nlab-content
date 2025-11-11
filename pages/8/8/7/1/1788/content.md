@@ -4,6 +4,8 @@
 
 ***
 
+$\infty$
+
 Denote by 
 
 * $\mathscr{H}$ [[generalized the|the]] countably-infinite-dimensional [[separable Hilbert space|separable]] [[Hilbert space]],
