@@ -103,13 +103,13 @@ dim\mathcal{M}_P^+
 =2p_1(Ad(P))[X]
 -\dim G(1-b_1+b_2^-).
 $$
-In particular for $G=\operatorname{SU}(2)$ the second [[special unitary group]]: ([Freed & Uhlenbeck 1991, between eq. (2.28) and (2.29) on p. 42](#FreedUhlenbeck91))
+In particular for $G$ being the second [[special unitary group]] [[SU(2)]] and $P$ a [[principal SU(2)-bundle]]: ([Freed & Uhlenbeck 1991, between eq. (2.28) and (2.29) on p. 42](#FreedUhlenbeck91))
 $$
 dim\mathcal{M}_P^+
 =-8c_2(P)[X]
 -3(1-b_1+b_2^-).
 $$
-In particular for $G=\operatorname{SO}(3)$ the third [[special orthogonal group]]: ([Freed & Uhlenbeck 1991, Eq. (2.29) on p. 42 & eq. (10.3) on p. 155](#FreedUhlenbeck91))
+In particular for $G$ being the third [[special orthogonal group]] [[SO(3)]] and $P$ a [[principal SO(3)-bundle]]: ([Freed & Uhlenbeck 1991, Eq. (2.29) on p. 42 & eq. (10.3) on p. 155](#FreedUhlenbeck91))
 $$
 dim\mathcal{M}_P^+
 =2p_1(P)[X]
