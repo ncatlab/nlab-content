@@ -20,7 +20,7 @@
 
 *Principal SO(4)-bundles* are special [[principal bundles]] with the fourth [[special orthogonal group]] [[SO(4)|$SO(4)$]] as [[structure group]]/[[gauge group]]. Applications include the [[frame bundle]] of an [[orientable]] [[4-manifold]] and [[John Milnor]]'s construction of [[exotic 7-spheres]].
 
-Principal SO(4)-bundles in particular are induced by pairs of [[principal SU(2)-bundles]] using the canonical projection $SU(2)\times SU(2)\cong Spin(4)\hookrightarrow SO(4)$. Principal SO(4)-bundles also induce [[principal SO(2)-bundles]] and [[principal SO(3)-bundles]] and are induced by [[principal SO(6)-bundles]] using the canonical inclusions $SO(2)\hookrightarrow SO(3)\hookrightarrow SO(4)\hookrightarrow SO(6)$.
+Principal SO(4)-bundles in particular are induced by pairs of [[principal SU(2)-bundles]] using the canonical projection $SU(2)\times SU(2)\cong Spin(4)\twoheadrightarrow SO(4)$. Principal SO(4)-bundles also induce [[principal SO(2)-bundles]] and [[principal SO(3)-bundles]] and are induced by [[principal SO(6)-bundles]] using the canonical inclusions $SO(2)\hookrightarrow SO(3)\hookrightarrow SO(4)\hookrightarrow SO(6)$.
 
 Principal SO(4)-bundles also arise from any principal $G$-bundle with a four-dimensional real [[Lie group]] $G$ using its [[adjoint representation]] $Ad\colon G\rightarrow SL_4(\mathbb{R})$, which induces a map $\mathcal{B}Ad\colon\mathcal{B}G\rightarrow B SO(4)$. 
 
@@ -77,12 +77,12 @@ An abstract way to obtain this [[group]] [[isomorphism]] is the [[exceptional is
 
 \begin{theorem}
 (**Dold-Whitney theorem**)
-A closed [[orientable]] $4$-manifold $X$ is [[parallelizable]] if and only if its its second [[Stiefel-Whitney class]] $w_2(X)\in H^2(X,\mathbb{Z})$, first [[Pontrjagin class]] $p_1(X)\in H^4(X,\mathbb{Z})$ and [[Euler class]] $e(X)\in H^4(X,\mathbb{Z})$ all vanish.
+A closed [[orientable]] [[4-manifold]] $X$ is [[parallelizable]] if and only if its its second [[Stiefel-Whitney class]] $w_2(X)\in H^2(X,\mathbb{Z})$, first [[Pontrjagin class]] $p_1(X)\in H^4(X,\mathbb{Z})$ and [[Euler class]] $e(X)\in H^4(X,\mathbb{Z})$ all vanish.
 \end{theorem}
 
 ([Bais 24, Thrm. 1](#Bais24))
 
-All three conditions can be interpreted geometrically. Let therefore $[X]\in H_4(X,\mathbb{Z})\cong\mathbb{Z}$ be the [[fundamental class]] induced by the orientation with the [[Kronecker pairing]] $\langle-,[X]\rangle\colon H^4(X,\mathbb{Z})\rightarrow\mathbb{Z}$ being a [[group]] [[isomorphism]].
+All three conditions can be interpreted geometrically. Let therefore $[X]\in H_4(X,\mathbb{Z})\cong\mathbb{Z}$ be the [[fundamental class]] induced by the orientation with the [[Kronecker pairing]] $\langle-,[X]\rangle\colon H^4(X,\mathbb{Z})\xrightarrow\cong\mathbb{Z}$ being a [[group]] [[isomorphism]].
 
 * $w_2(X)=0$ is equivalent to $X$ being a [[spin manifold]]. ([Gompf & Stipsicz 99, Prop. 1.4.25](#GompfStipsicz99))
 
@@ -107,7 +107,7 @@ Equivalently, $X$ has a nowhere vanishing vector field.
 ## Liftings
 
 \begin{proposition}
-A principal SO(4)-bundle $f\colon X\rightarrow B SO(4)$ lifts to a pair of [[principal SU(2)-bundles]] $\widehat{f}_1,\widetilde{f}_2\colon X\rightarrow B SU(2)$ if and only if its second [[Stiefel-Whitney class]] vanishes, hence the composition $w_2\circ f\colon X\rightarrow K(\mathbb{Z}_2,2)$ is [[nullhomotopic]].
+A principal SO(4)-bundle $f\colon X\rightarrow B SO(4)$ lifts to a pair of [[principal SU(2)-bundles]] $\widehat{f}_1,\widehat{f}_2\colon X\rightarrow B SU(2)$ if and only if its second [[Stiefel-Whitney class]] vanishes, hence the composition $w_2\circ f\colon X\rightarrow K(\mathbb{Z}_2,2)$ is [[nullhomotopic]].
 \end{proposition}
 
 ## Examples
