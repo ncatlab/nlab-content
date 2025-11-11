@@ -17,7 +17,7 @@ Explicit formulas for [[Dirac operators]] parameterized by [[n-spheres]] and reg
 
 On [[spectral flow]] of [[self-adjoint operator|self-adjoint]] [[Fredholm operators]]:
 
-* Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477)&rbrack;
+* Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477), [hdl:20.500.12657/63798](https://library.oapen.org/handle/20.500.12657/63798)&rbrack;
 
 
 On [[topological index|topological indices]] in [[solid state physics]] ([[topological phases of matter]]):
