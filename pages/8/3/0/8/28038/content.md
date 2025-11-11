@@ -86,15 +86,21 @@ All three conditions can be interpreted geometrically. Let therefore $[X]\in H_4
 
 * $w_2(X)=0$ is equivalent to $X$ being a [[spin manifold]]. ([Gompf & Stipsicz 99, Prop. 1.4.25](#GompfStipsicz99))
 
-* $p_1(X)=0$ is equivalent to a vanishing [[signature]] $\sigma(X)=0$ using [[Hirzebruch's signature theorem]]: ([Gompf & Stipsicz 99, Thrm. 1.4.12](#GompfStipsicz99))
+* $p_1(X)=0$ is equivalent to a vanishing [[signature]] $\sigma(X)=0$ using [[Hirzebruch's signature theorem]] ([Gompf & Stipsicz 99, Thrm. 1.4.12](#GompfStipsicz99)): 
 $$
-\sigma(X)=\frac{1}{3}\langle p_1(X),[X]\rangle
+  \sigma(X)
+    \;=\;
+  \frac{1}{3}\big\langle p_1(X), [X] \big\rangle
+  \mathrlap{\,.}
 $$
 Since the signature is a [[group]] [[isomorphism]] $\sigma\colon\Omega_4^SO\xrightarrow\cong\mathbb{Z}$, having $\sigma(X)=0$ is equivalent to the $X$ being the boundary of an [[orientable]] [[5-manifold]].
 
 * $e(X)=0$ is equivalent to a vanishing [[Euler characteristic]] $\chi(X)=0$ using:
 $$
-\chi(X)=\langle e(X),[X]\rangle.
+  \chi(X)
+    \;=\;
+  \big\langle e(X), [X] \big\rangle
+  \mathrlap{\,.}
 $$
 Equivalently, $X$ has a nowhere vanishing vector field.
 
