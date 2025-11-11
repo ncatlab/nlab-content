@@ -228,8 +228,17 @@ $$
 
 [[!include Spin(8)-subgroups and reductions -- table]]
 
+### Homotopy groups
 
-\linebreak
+$\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ | $\pi_10$ | $\pi_11$ | $\pi_12$ | $\pi_13$ | $\pi_14$ | $\pi_15$ | $\pi_16$ | $\pi_17$ |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+$\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $0$ | $\mathbb{Z}$ | $0$ | $0$ | $\mathbb{Z}_120$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_4\oplus\mathbb{Z}_2$ | $\mathbb{Z}_1680$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_40$
+
+$\pi_18$ | $\pi_19$ | $\pi_20$ | $\pi_21$ | $\pi_22$ | $\pi_23$ |
+|--|--|--|--|--|--|
+$\mathbb{Z}_2520\oplus\mathbb{Z}_2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_2^3$ | $\mathbb{Z}_32\oplus\mathbb{Z}_2$ | $\mathbb{Z}_5280\oplus\mathbb{Z}_2^2$ | $\mathbb{Z}_2^3$
+
+([Mimura & Toda 63](#MimuraToda63))
 
 ## Related concepts
 
