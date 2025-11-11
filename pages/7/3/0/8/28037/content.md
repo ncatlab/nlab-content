@@ -138,6 +138,18 @@ $$
 
 ([Gompf & Stipsicz 99, Thrm. 1.4.20](#GompfStipsicz99))
 
+According to the first equation, $\Lambda_+^2T X$ lifts to a [[principal SU(2)-bundle]] if and only if $T X$ lifts to a pair of [[principal SU(2)-bundles]] (being $Spin(3)$ and $Spin(4)$ structures repsectively). Or just taking the weaker implied equality of the third [[integral Stiefel-Whitney classes]], $\Lambda_+^2T X$ lifts to a [[principal U(2)-bundle]] if and only if $T X$ lifts to a pair of [[principal U(2)-bundles]] with same first [[Chern class]] (being $Spin^\mathrm{c}(3)$ and $Spin^\mathrm{c}(4)$ structures respectively).
+
+According to the second equation, using the [[fundamental class]] $[X]\in H_4(X,\mathbb{Z})\cong\mathbb{Z}$ induced by the orientation as well as [[Hirzebruch's signature theorem]], one has:
+$$
+\big\langle p_1(\Lambda_+^2T X),[X]\big\rangle
+=\big\langle p_1(X),[X]\big\rangle
++2\big\langle e(X),[X]\big\rangle
+=3\sigma(X)
++2\chi(X)
+$$
+This expression appears both in the virtual dimension of the [[Seiberg-Witten moduli space]] ([Gompf & Stipsicz 99, Thrm. 2.4.24](#GompfStipsicz99)) and Noether's formula for [[almost complex structures]]. ([Gompf & Stipsicz 99, Thrm. 1.4.15](#GompfStipsicz99))
+
 ## Examples
 
 * One has $S^n\cong SO(n+1)/SO(n)$, hence there is a principal SO(3)-bundle $SO(4)\twoheadrightarrow S^3$. Such [[principal bundles]] are classified by:
