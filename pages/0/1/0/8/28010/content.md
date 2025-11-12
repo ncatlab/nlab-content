@@ -67,9 +67,10 @@ $$
 $$
 The __state vector__ or __wave function__ $\Psi(t)$ then evolves over time according to
 $$
-\Psi(t) = \Theta(t) \Psi(0)
+\Psi(t) = \Theta(t) \Psi(0),
 $$
-which gives us the [[Hilbert space]] viewpoint of the [[stochastic process]].  This procedure can be reversed using the dictionary formula.
+and $\Psi(t)$ satisfies the property $||\Psi(t)||=1$.
+Thus we have derived the [[Hilbert space]] viewpoint of the [[stochastic process]].  This procedure can be reversed using the dictionary formula.
 
  For this brief overview we have ignored the measurement aspect as measurements cannot be modeled for [[stochastic processes]] within the [[Kleisli category]] of the [[Giry monad]] $G$. (They can however be modeled within the larger category of the category of algebras of the monad $G$. See Example 1 in [[stochastic processes]].)
 
