@@ -20,13 +20,13 @@
 ## Preface 
  {#Preface}
 
-The sections to follow give a summary in the spirit of the account in [Barandes 2025](#Barandes2025). Here instead to say in short what is going on: 
+The sections to follow give a summary of the account in [Barandes 2025](#Barandes2025). As a brief preview, here is the gist of what is going on: 
 
 For a finite (physical) system with $N \in \mathbb{N}$ states, a one-step random evolution is given by a [[stochastic matrix]] $(P_{i j})_{i, j =1}^N$ whose entry $P_{i j} \in [0,1]$ gives the [[probability]] that the system, if in state $j$, evolves to state $i$. 
 
-If there is a (temporal) [[sequence]] of such one-step random evolutions then these [[stochastic matrices]] depend on a [[pair]] of (time) parameters $t_1 \geq t_0 \in \mathbb{R}$. 
+Assuming there is a (temporal) [[sequence]] of such one-step random evolutions then these [[stochastic matrices]] depend on a [[pair]] of (time) parameters $t_1 \geq t_0 \in \mathbb{R}$. 
 
-Say that the *[[stochastic process]]* defined thereby is *divisible* iff these matrices of transition probabilities  over some (time) interval are the [[matrix multiplication|matrix product]] $(-) \cdot (-)$ over those associated with any decomposition of the interval:
+Say that the [[stochastic process]] defined thereby is *divisible* iff these matrices of transition probabilities  over some (time) interval are the [[matrix multiplication|matrix product]] $(-) \cdot (-)$ over those associated with any decomposition of the interval:
 
 $$ 
   \text{decomposable}
@@ -73,7 +73,7 @@ Now, if these transition probabilities $P$ are given by the rules of coherent ti
      \,.
    $$ 
 
-But with the probability amplitudes $\Theta$ composing according to matrix multiplication, then in general the corresponding probabilities $P$ will clearly *not* compose by matrix multiplication.
+But with the probability amplitudes $\Theta$ composing according to matrix multiplication, then in general the corresponding probabilities $P$ will clearly *not* compose by the rules of matrix multiplication.
 
 In conclusion: The stochastic processes given by quantum processes are generically *indivisible*.
 
