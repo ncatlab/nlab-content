@@ -33,13 +33,13 @@ $$
 
 have a unique solution for $x$.
 
-The notion of _quasigroup_ is hence a generalization of the notion of _[[group]]_, in that it does not require the [[associativity]] law nor the existence of an [[identity element]].  
+The notion of a _quasigroup_ is hence a generalization of the notion of a _[[group]]_, in that it does not require the [[associativity]] law nor the existence of an [[identity element]].  
 
-If a quasigroup does have a two-sided [[identity element]] then it is called a _[[loop (algebra)|loop]]_ (French _la boucle_, Russian &#1083;&#1091;&#1087;&#1072;) and a *[[Moufang loop]]* if some further relations are satisfied.
+If a quasigroup does have a two-sided [[identity element]], then it is called a _[[loop (algebra)|loop]]_ (French _la boucle_, Russian &#1083;&#1091;&#1087;&#1072;) and a *[[Moufang loop]]* if some further relations are satisfied.
 
 Note that, in the absence of associativity, it is not enough (even for a [[loop (algebra)|loop]]) to say that every element has an [[inverse element]] (on either side); instead, you must say that division is always possible.  This is because the definition $x/y = x y^{-1}$ won\'t work right without associativity.
 
-Some consider the concept of quasigroup to be an example of [[centipede mathematics]], see more at [[historical notes on  quasigroups]]. 
+Some consider the concept of a quasigroup to be an example of [[centipede mathematics]]. See more at [[historical notes on  quasigroups]]. 
 
 
 ## Definitions
