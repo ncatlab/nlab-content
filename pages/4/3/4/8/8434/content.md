@@ -17,7 +17,7 @@
 
 ## Idea
 
-The *Levin-Wen model* is a [[model (in theoretical physics)]] for certain phenomena in 2-dimensional [[solid state physics]]. It can be regarded as a  [[3d TQFT]].
+The *Levin-Wen model* is [[lattice gauge theory|lattice]] [[model (in theoretical physics)|model]] for certain phenomena in 2-dimensional [[solid state physics]]. It can be regarded as a  [[3d TQFT]].
 
 ## Related concepts
 
@@ -30,7 +30,7 @@ The *Levin-Wen model* is a [[model (in theoretical physics)]] for certain phenom
 
 ## References
 
-The original article is
+The original article:
 
 * [[Michael Levin]], [[Xiao-Gang Wen]], *String-net condensation: A physical mechanism for topological phases*, Phys.Rev. B **71** (2005) 045110 $[$[arXiv:cond-mat/0404617](http://arxiv.org/abs/cond-mat/0404617)$]$
 
@@ -44,12 +44,15 @@ See also:
 
 * Vincentas Mulevicius, [[Ingo Runkel]], Thomas Voß: *Internal Levin-Wen models* &lbrack;[arXiv:2309.05755](https://arxiv.org/abs/2309.05755)&rbrack;
 
-* Kyle Kawagoe, Corey Jones, Sean Sanford, David Green, David Penneys. *Levin-Wen is a gauge theory: entanglement from topology* &lbrack;[arXiv:2401.13838](https://arxiv.org/abs/2401.13838)&rbrack;
+* Kyle Kawagoe, Corey Jones, Sean Sanford, [[David Green]], [[David Penneys]]: *Levin-Wen is a gauge theory: entanglement from topology* &lbrack;[arXiv:2401.13838](https://arxiv.org/abs/2401.13838)&rbrack;
 
 On [[anyon|anyonic]] [[topological order]] in the Levin-Wen model:
 
-* Jessica Christian, David Green, Peter Huston, David Penneys: *A lattice model for condensation in Levin-Wen systems* &lbrack;[arXiv:2303.04711](https://arxiv.org/abs/2303.04711)&rbrack;
+* Jessica Christian, [[David Green]], Peter Huston, [[David Penneys]]: *A lattice model for condensation in Levin-Wen systems* &lbrack;[arXiv:2303.04711](https://arxiv.org/abs/2303.04711)&rbrack;
 
+and using rigorous [[DHR superselection theory]]:
+
+* [[Alex Bols]]: *Sector theory for Levin-Wen models*, [talk at](CQTS#BolsNov2025) *[[CQTS]]* (Nov 2025) &lbrack;slides:[[Bols-CQTS-Nov2025.pdf:file]]&rbrack;
 
 
 [[!redirects Levin-Wen models]]
