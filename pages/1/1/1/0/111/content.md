@@ -47,7 +47,7 @@ There are two broad ways to write down the definition of category; in the usual 
 
 *  Each introduces its own system of notation, both of which are useful in other parts of category theory, so one should know them.
 
-*  One definition generalises quite nicely to the notion of [[internal category]], while the other generalises quite nicely to the notion of [[enriched category]]; these are both important concepts.
+*  One definition generalises quite nicely to the notion of an [[internal category]], while the other generalises quite nicely to the notion of an [[enriched category]]; these are both important concepts.
 
 *  When examining alternative foundations, sometimes one definition or the other may be more appropriate; in any case, one will want to examine the question of their equivalence.
 
@@ -117,14 +117,14 @@ People also often write $x \in C$ instead of $x \in C_0$ as a short way to indic
 
 Given a one-collection-of-morphisms category $C_1\rightrightarrows C_0$, we define a family-of-collections-of-morphisms category by taking $C_1(x,y)$ to be the [[preimage]] of $(x,y)$ under the [[function]] $(s,t):C_1 \to C_0\times C_0$.  Conversely, given a family-of-collections-of-morphisms category we define a one-collection-of-morphisms category by taking $C_1$ to be the [[disjoint union]] of the families of morphisms $C_1 = \coprod_{x,y\in C_0} C_1(x,y)$.  With the straightforward definitions of [[functor]] and [[natural transformation]] in both cases, this sets up a strict [[2-equivalence]] of [[2-categories]].
 
-Note, though, that this 2-equivalence is not an *isomorphism* of 2-categories, because the disjoint union operation has to "tag" each morphism with its domain and codomain.  It seems that the strongest thing that can be said is that, in a [[material set theory]], if a family-of-collections-of-morphisms category $C$ has the property that sets $C_1(x,y)$ are all disjoint, then there is a one-collection-of-morphisms category with $C_1 = \bigcup_{x,y\in C_0} C_1(x,y)$ (the *non*-disjoint union) that gives rise to $C$ on the nose.  The notion of [[protocategory]] is a way to formalize a family-of-collections-of-morphisms category together with the information about how its hom-sets "overlap".
+Note, though, that this 2-equivalence is not an *isomorphism* of 2-categories, because the disjoint union operation has to "tag" each morphism with its domain and codomain.  It seems that the strongest thing that can be said is that, in a [[material set theory]], if a family-of-collections-of-morphisms category $C$ has the property that sets $C_1(x,y)$ are all disjoint, then there is a one-collection-of-morphisms category with $C_1 = \bigcup_{x,y\in C_0} C_1(x,y)$ (the *non*-disjoint union) that gives rise to $C$ on the nose.  The notion of a [[protocategory]] is a way to formalize a family-of-collections-of-morphisms category together with the information about how its hom-sets "overlap".
 
 In ordinary category theory one rarely specifies which of the two definitions is being used, although often language implicitly suggests that it is the latter, e.g. when defining a category one first specifies the objects and then specifies what "the morphisms from $X$ to $Y$ are" rather than specifying what "a morphism" is and then what the domain and codomain of each morphism are.  Indeed, when defining a category in this way, one rarely worries about whether the hom-sets are disjoint, meaning that it must be the second definition in use.  Even for the prototypical category [[Set]], if constructed in a material-set-theoretic foundation like [[ZFC]], the natural definition "a morphism from $X$ to $Y$ is a function, i.e. a subset of $X\times Y$ that is total and functional", produces hom-sets that are not disjoint, since a total and functional set of ordered pairs can have any codomain that is a superset of its range.  Moreover, categorical constructions do not "naturally" preserve disjointness of homsets, e.g. in the [[category of elements]] $el(P)$ of a functor $P:C\to Set$ a given morphism in $C$ can "be" a morphism between many different elements of $P$, and similarly for a [[slice category]] and so on.
 
 ### Foundational issues
 {#foundations}
 
-We said a category has a 'collection' of objects and 'collection'(s) of morphisms. However, different [[mathematical foundations]] have different notions of [[equality]]. For foundations whose notion of 'collection' have [[proposition]]-valued equality, such as in [[set theory]], [[class]]-set theory, or [[extensional type theory]], the two definitions above suffice for defining a category. However, in for other foundations, with a weaker notion of equality, such as [[internalization|internally]] in a [[(2,1)-topos]] like [[Grpd]], in [[Thomas Streicher]]'s groupoid model of types, or in [[homotopy type theory]], there are multiple definitions of a category. The naive definition of the category above with a collection of objects and a collection of morphisms results in a [[wild category]]. If the morphism collections are sets, then the resulting structure is a [[precategory]], and if the collection of objects is a set as well, then the resulting structure is a [[strict category]]. The above definitions in set theory foundations are the same as strict categories in the alternative foundations, but in the alternative foundations categories like [[Set]] are not strict categories. Instead, they happen to be a special kind of precategory called [[univalent categories]], where equality of objects is isomorphism of objects. 
+We said a category has a 'collection' of objects and 'collection'(s) of morphisms. However, different [[mathematical foundations]] have different notions of [[equality]]. For foundations whose notion of a 'collection' has [[proposition]]-valued equality, such as in [[set theory]], [[class]]-set theory, or [[extensional type theory]], the two definitions above suffice for defining a category. However, in for other foundations, with a weaker notion of equality, such as [[internalization|internally]] in a [[(2,1)-topos]] like [[Grpd]], in [[Thomas Streicher]]'s groupoid model of types, or in [[homotopy type theory]], there are multiple definitions of a category. The naive definition of the category above with a collection of objects and a collection of morphisms results in a [[wild category]]. If the morphism collections are sets, then the resulting structure is a [[precategory]], and if the collection of objects is a set as well, then the resulting structure is a [[strict category]]. The above definitions in set theory foundations are the same as strict categories in the alternative foundations, but in the alternative foundations categories like [[Set]] are not strict categories. Instead, they happen to be a special kind of precategory called [[univalent categories]], where equality of objects is isomorphism of objects. 
 
 ### Size issues
 {#size}
@@ -167,20 +167,20 @@ A [[category]] is equivalently
 
 #### Internal categories
 
-The first definition, with a single collection $C_1$ of morphisms, generalises to the notion of [[internal category]].  Essentially, we define a category internal to (some other category) $D$ as above, with 'collection' interpreted as an object of $D$ and 'function' interpreted as a morphism of $D$.  In particular, a category internal to [[Set]] is the same thing as a small category.
+The first definition, with a single collection $C_1$ of morphisms, generalises to the notion of an [[internal category]].  Essentially, we define a category internal to (some other category) $D$ as above, with 'collection' interpreted as an object of $D$ and 'function' interpreted as a morphism of $D$.  In particular, a category internal to [[Set]] is the same thing as a small category.
 
 #### Enriched categories
 
-The second definition of a category, as a family $C_1(x,y)$ of collections of morphisms, generalises to the notion of [[enriched category]]: we define a category enriched over (some other category) $D$ as above, with the collection of objects still a 'collection' as before, but with objects of $D$ in place of the collections of morphisms and morphisms of $D$ in place of the various functions.  In particular, a category enriched over [[Set]] is the same thing as a locally small category.
+The second definition of a category, as a family $C_1(x,y)$ of collections of morphisms, generalises to the notion of an [[enriched category]]: we define a category enriched over (some other category) $D$ as above, with the collection of objects still a 'collection' as before, but with objects of $D$ in place of the collections of morphisms and morphisms of $D$ in place of the various functions.  In particular, a category enriched over [[Set]] is the same thing as a locally small category.
 
 #### Indexed categories
 
-The notion of [[indexed category]] captures the idea of woking "over a base" other than [[Set]].
+The notion of an [[indexed category]] captures the idea of woking "over a base" other than [[Set]].
 
 
 #### Multicategories etc.
 
-There is a generalization of the notion of category where one allows a morphism to go from several objects to a single object. This is called a [[multicategory]] or [[operad]].  If we additionally allow a morphism to go *to* several objects, we obtain a _[[polycategory]]_ or _[[PROP]]_.
+There is a generalization of the notion of a category where one allows a morphism to go from several objects to a single object. This is called a [[multicategory]] or [[operad]].  If we additionally allow a morphism to go *to* several objects, we obtain a _[[polycategory]]_ or _[[PROP]]_.
 
 #### Higher categories
 
