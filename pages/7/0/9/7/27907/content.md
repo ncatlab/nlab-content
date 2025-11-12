@@ -12,4 +12,9 @@ On regiorously deriving [[anyon]] [[fusion category]] structure via [[DHR theory
 * [[Alex Bols]], [[Boris Kjaer]], [[Alvin Moon]]: *The double semion state in infinite volume*, Ann. Henri Poincaré **26** (2025) 1009–1053 \[<a href="https://doi.org/10.1007/s00023-024-01445-y">doi:10.1007/s00023-024-01445-y</a>, [arXiv:2306.13762](https://arxiv.org/abs/2306.13762)\]
 
 
+and specifically in the [[Levin-Wen model]]:
+
+* [[Alex Bols]]: *Sector theory for Levin-Wen models*, [talk at](CQTS#BolsNov2025) *[[CQTS]]* (Nov 2025) &lbrack;slides:[[Bols-CQTS-Nov2025.pdf:file]]&rbrack;
+
+
 category: people
