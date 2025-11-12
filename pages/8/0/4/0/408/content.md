@@ -107,11 +107,13 @@ and:
 
 * [[Emily Riehl]], Def. 4.3.7 in: _[[Category Theory in Context]]_, Dover Publications (2017)
 
+The terminology *trijunction* is used in:
+
+* [[René Guitart]], *Trijunctions and triadic Galois connections*. Cah. Topol. Géom. Différ. Catég. 54 (2013), no. 1, 13-27, ([pdf](https://cahierstgdc.com/wp-content/uploads/2017/04/Guitart_54-1.pdf))
+
 Generalization to $n$-variable adjunctions:
 
 * {#CGR} [[Eugenia Cheng]], [[Nick Gurski]], [[Emily Riehl]], "Multivariable adjunctions and mates" &lbrack;[arXiv:1208.4520](http://arxiv.org/abs/1208.4520)&rbrack;
-
-* [[René Guitart]], *Trijunctions and triadic Galois connections*. Cah. Topol. Géom. Différ. Catég. 54 (2013), no. 1, 13-27, ([pdf](https://cahierstgdc.com/wp-content/uploads/2017/04/Guitart_54-1.pdf))
 
 * {#Shulman} [[Mike Shulman]], *The 2-Chu-Dialectica construction and the polycategory of multivariable adjunctions*, [arxiv:1806.06082](https://arxiv.org/abs/1806.06082), [blog post](https://golem.ph.utexas.edu/category/2017/11/the_polycategory_of_multivaria.html)
 
