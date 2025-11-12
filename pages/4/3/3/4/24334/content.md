@@ -33,6 +33,7 @@
 
 *Simplicial type theory* is a [[cohesive homotopy type theory]] which is used to represent the internal logic of [[cohesive (infinity,1)-topos|cohesive]] [[locally cartesian closed (infinity,1)-category|locally cartesian closed $(\infty,1)$-categories]] of [[simplicial objects in an (infinity,1)-category|simplicial objects]] in a locally cartesian closed $(\infty,1)$-category. One can think of simplicial type theory as a [[synthetic mathematics|synthetic]] theory of [[simplicial anima]], since the [[cohesive (infinity,1)-topos]] $\mathrm{Ani}^{\Delta^\op}$ of [[simplicial anima]] is the characteristic example of a cohesive locally cartesian closed $(\infty,1)$-category of simplicial objects in a locally cartesian closed $(\infty,1)$-category. 
 
+
 Simplicial type theory is used to construct various [[geometric shape for higher structures|geometric shapes]] [[internal logic|internally]], such as [[Segal types]] (i.e. [[Segal space]]-types), [[Rezk types]] (i.e. [[Rezk category]]-types), and covariant fibrations. 
 
 ## Definition
@@ -195,6 +196,12 @@ $$\mathcal{S} \coloneqq \sum_{X:U} \mathrm{isACov}(T(X))$$
 
 The directed univalent universe $\mathcal{S}$ is a [[finitely complete type|finitely complete]] and [[finitely cocomplete type|finitely cocomplete]] [[Rezk type]]. 
 
+## Categorical semantics
+
+The [[categorical semantics]] of simplicial type theory was originally meant to be the [[locally cartesian closed (infinity,1)-category]] of [[simplicial objects in an (infinity,1)-category|simplicial objects]] in a locally cartesian closed $(\infty,1)$-category. 
+
+In [Rasekh 25](#Rasekh25), the author showed that there are other $(\infty,1)$-categories, such as the $(\infty,1)$-category of filter quotients on a finitary model category with interval-shapes, whose internal logic has the axioms of the original simplicial type theory defined in [Riehl & Shulman 2017](#RS17). However, it is unclear whether those other $(\infty,1)$-categories satisfy in its internal logic the [[synthetic quasi-coherence]] and the [[cohesion]] [[modalities]] of simplicial type theory found in [Gratzer, Weinberger & Buchholtz 2024](#GWB24), [Gratzer, Weinberger & Buchholtz 2025](#GWB25), since the author never studied those questions. 
+
 ## Generalizations 
 
 There are many generalizations of simplicial type theory, where the [[directed interval]] is not a [[total order]] and thus the types only represent [[cubical objects in an (infinity,1)-topos|cubical objects in an $(\infty,1)$-topos]] instead of [[simplicial objects in an (infinity,1)-topos|simplicial objects in an $(\infty,1)$-topos]]:
@@ -251,7 +258,7 @@ These theories could hypothetically be called *cubical type theories* or *cubica
 
 * {#GWB25} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *The Yoneda embedding in simplicial type theory* ([arXiv:2501.13229](https://arxiv.org/abs/2501.13229))
 
-* [[Nima Rasekh]], *Simplicial Homotopy Type Theory is not just Simplicial: What are $\infty$-Categories?* &lbrack;[arXiv:2508.07737](https://arxiv.org/abs/2508.07737)&rbrack;
+* {#Rasekh25} [[Nima Rasekh]], *Simplicial Homotopy Type Theory is not just Simplicial: What are $\infty$-Categories?* &lbrack;[arXiv:2508.07737](https://arxiv.org/abs/2508.07737)&rbrack;
 
 * [[Emily Riehl]]: _Synthetic perspectives on spaces and categories_ &lbrack;[arXiv:2510.15795](https://arxiv.org/abs/2510.15795)&rbrack;
 
