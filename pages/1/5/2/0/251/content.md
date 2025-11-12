@@ -374,6 +374,13 @@ For [[univalent double categories]] in [[dependent type theory]]:
 
 * [[Niels van der Weide]], [[Nima Rasekh]], [[Benedikt Ahrens]], [[Paige Randall North]], *Univalent Double Categories* &lbrack;[arXiv:2310.09220](https://arxiv.org/abs/2310.09220)&rbrack;
 
+On [[formal category theory]] within double categories:
+
+* [[Seerp Roald Koudenburg]]: _Formal category theory in augmented virtual double categories_, Theory and Applications of Categories **41** 10 (2024) 288–413 &lbrack;[arXiv:2205.04890](https://arxiv.org/abs/2205.04890), [doi:10.70930/tac/dc4prz63](https://doi.org/10.70930/tac/dc4prz63)&rbrack;
+
+* [[Seerp Roald Koudenburg]]: _A double-dimensional approach to formal category theory_ (2015–) &lbrack;[arXiv:1511.04070](https://arxiv.org/abs/1511.04070)&rbrack;
+
+
 [[!redirects double category]]
 [[!redirects double categories]]
 [[!redirects double groupoid]]
