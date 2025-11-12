@@ -53,7 +53,7 @@ A *simplicial abelian group* is
 
 ### More properties
 
-* [[Dold-Kan correspondence]]
+* [[Dold-Kan correspondence]], which relates simplicial abelian groups to [[chain complexes]]
 
 * [[Eilenberg-Zilber theorem]]
 
