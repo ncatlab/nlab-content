@@ -420,7 +420,7 @@ In the generality of [[multicategories]]:
 * {#Hermida04} [[Claudio Hermida]]: *Fibrations and Yoneda structure for multicategories*, in: *Galois Theory, Hopf Algebras, and Semiabelian Categories*, Fields Institute Communications **43** (2004) 281-294 &lbrack;[doi:10.1090/fic/043](https://doi.org/10.1090/fic/043), [pdf](https://www.researchgate.net/profile/Claudio-Hermida/publication/246180896_Fibrations_for_abstract_multicategories/links/573907ae08ae9f741b2be202/Fibrations-for-abstract-multicategories.pdf)&rbrack;
 
 
-On Yoneda structures arising from 2-categories with a discrete-opfibration classifier (such as [[2-toposes]]):
+On Yoneda structures arising from [[2-categories]] with a discrete-opfibration classifier (such as [[2-toposes]]):
 
 * {#Weber07} [[Mark Weber]], *Yoneda structures from 2-toposes*, Appl Categor Struct **15** (2007) 259–323 &lbrack;[doi:10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2), [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
 
@@ -431,12 +431,11 @@ On relations with KZ doctrines:
 
 * {#MW12} [[Francisco Marmolejo]], [[Richard J. Wood]], *Kan extensions and lax idempotent pseudomonads*, [[TAC]] **26** 1 (2012) 1-29 &lbrack;[26-01](http://www.tac.mta.ca/tac/volumes/26/1/26-01abs.html)&rbrack;
 
-* {#Walker17} [[Charles Walker]]: _Yoneda Structures and KZ Doctrines_ &lbrack;[arXiv:1703.08693](https://arxiv.org/abs/1703.08693)&rbrack;
+* {#Walker17} [[Charles Walker]], _Yoneda Structures and KZ Doctrines_, Journal of Pure and Applied Algebra **222** 6 (2018) 1375–1387 &lbrack;[arXiv:1703.08693](https://arxiv.org/abs/1703.08693), [doi:10.1016/j.jpaa.2017.07.004](http://doi.org/10.1016/j.jpaa.2017.07.004)&rbrack;
 
 * {#Walker18} [[Charles Walker]]: _Distributive Laws via Admissibility_ &lbrack;[arXiv:1706.09575](https://arxiv.org/abs/1706.09575)&rbrack;
 
-
-* {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
+* {#DL18} [[Ivan Di Liberti]], [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
 
 The relation to pro-arrow equipments, the presheaf construction and Isbell duality:
 
