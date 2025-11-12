@@ -7,6 +7,6 @@
 $\not\simeq$ $&#x2244;$
 ...
 
-* M. W. Wong: *Fredholm Operators*, ch. 20 of: *An Introduction to Pseudo-Differential Operators*, Series on Analysis, Applications and Computation **6**, World Scientific (2014) 143-153 &lbrack;[https://doi.org/10.1142/9789814583091_0020](https://doi.org/10.1142/9789814583091_0020)&rbrack;
+* M. W. Wong: *Fredholm Operators*, ch. 20 of: *An Introduction to Pseudo-Differential Operators*, Series on Analysis, Applications and Computation **6**, World Scientific (2014) 143-153 &lbrack;[doi:10.1142/9789814583091_0020](https://doi.org/10.1142/9789814583091_0020)&rbrack;
 
 
