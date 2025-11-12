@@ -40,9 +40,12 @@ $$
 $$
 which we read as ''the probability of $\Gamma_t$ on the measurable set $U$ given the point $\omega \in \Omega_0$''.  For each fixed $\omega \in \Omega_0$ the function $\Gamma_t(\bullet | \omega)$ defines a probability measure on $\Omega_t$ ($\Gamma_t(\bullet | \omega) \in G(\Omega_0)$), and for each fixed $U \in \Sigma_{\Omega_t}$ the function $\Omega_0 \xrightarrow{\Gamma_t(U | \bullet)} [0,1]$ is a measurable function.
  
-To say that the stochastic process is indivisible means that for any $0 \lt s \lt t$ there exists no morphism $\Omega_s \xrightarrow{ \Gamma_{t,s}} \Omega_t$ in the [[Kleisli category]] of the [[Giry monad]] $G$ such that $\Gamma_t = \Gamma_{t,s} \circ \Gamma_s$ where the composition in the [[Kleisli category]] is defined by $(\Gamma_{t,s} \circ \Gamma_s)(U | \omega) = \int_{\lambda \in \Omega_s} \Gamma_{t,s}(U | \lambda) \, d\Gamma_s(\bullet | \omega)$.
+To say that the stochastic process is indivisible means that for any $0 \lt s \lt t$ there exists no morphism $\Omega_s \xrightarrow{ \Gamma_{t,s}} \Omega_t$ in the [[Kleisli category]] of the [[Giry monad]] $G$ such that $\Gamma_t = \Gamma_{t,s} \circ \Gamma_s$ where the composition in the [[Kleisli category]] is defined by $(\Gamma_{t,s} \circ \Gamma_s)(U | \omega) = \int_{\lambda \in \Omega_s} \Gamma_{t,s}(U | \lambda) \, d\Gamma_s(\bullet | \omega)$. An indivisible [[stochastic process]] is a very general type of [[stochastic process]] which can exhibit wild behavior because, for any $\epsilon \gt 0$, the two dynamics laws $\Gamma_t$ and $\Gamma_{t+\epsilon}$ need not have any relationship between them.  For example, even if $\Omega$ was a [[standard Borel space]] and for every $U \in \Sigma_{\Omega}$ all the measurable functions $\Omega_0 \xrightarrow{\Gamma_t(U | \bullet)} [0,1]$ and $\Omega_0 \xrightarrow{\Gamma_{t+\epsilon}(U | \bullet)} [0,1]$ were  continuous functions the two probability measures obtained by composition with an initial probability measure on $\Omega_0$, $\mathbf{1} \xrightarrow{P_0} \Omega_0 \xrightarrow{\Gamma_t} \Omega_t$ and $\mathbf{1} \xrightarrow{P_0} \Omega_0 \xrightarrow{\Gamma_{t+\epsilon}} \Omega_{t+\epsilon}$, can vary significantly.  Such a process is in stark contrast to a [[Markov process]] on a [[standard Borel space]] where continuous [[Markov kernels]] yield a continuously varying probability measure on the [[measurable space]] $\Omega$. 
 
-The stochastic-quantum correspondence results [[Jacob Barandes]] presents assumes the configuration space $\Omega$ is a finite [[measurable space]] with the discrete $\sigma$-algebra. Since $\Omega$ is finite, say $|\Omega| = N$, it follows that every singleton set $\{i\} \subset \Omega_t$ is measurable, and hence the morphism $\Gamma_t$ is completely determined by the values $\Gamma_t(\{i\} | j)$ for $i,j \in \Omega$. To correspond with the convenient notation used in the articles of [[Jacob Barandes]] we switch our notation to $\Gamma_{i,j}(t)$. Moreover, since $\Omega$ is finite, the morphisms $\Gamma_t$ in the [[Kleisli category]] of $G$ has a representation as an $N \times N$ matrix, and the composition in the [[Kleisli category]] is just matrix multiplication.  Consequently we let $\Gamma(t)$ denote the matrix whose component at row $i$ and column $j$ is $\Gamma_{i,j}(t)$. Since $\Gamma_{i,j}(t) \in [0,1]$ we can introduce an $N \times N$ __potential matrix__ $\Theta(t)$ consisting of complex-valued matrix elements $\Theta_{i,j}(t)$ related to $\Gamma_{i,j}(t)$ by the modulus squared relation
+The stochastic-quantum correspondence results [[Jacob Barandes]] presents assumes the configuration space $\Omega$ is a finite [[measurable space]] with the discrete $\sigma$-algebra. Since $\Omega$ is finite, say $|\Omega| = N$, it follows that every singleton set $\{i\} \subset \Omega_t$ is measurable, and hence the morphism $\Gamma_t$ is completely determined by the values $\Gamma_t(\{i\} | j)$ which represent the transition probability from the state $j$ at time $0$ to the state $i$ at time $t$. 
+ Since $\Omega$ is finite the morphisms $\Gamma_t$ in the [[Kleisli category]] of $G$ can be representated as an $N \times N$ matrix, and the composition in the [[Kleisli category]] reduces to just matrix multiplication.  Let $\Gamma(t)$ denote the matrix whose component at row $i$ and column $j$ is $\Gamma_t(\{i\}|j)$, and denote that component of $\Gamma(t)$ by $\Gamma_{i,j}(t)$. 
+
+Let us now proceed, from the indivisible [[stochastic process]] specified by the laws $\Gamma(t)$, to a [[Hilbert space]] formulation of that same process. Since $\Gamma_{i,j}(t) \in [0,1]$ we can introduce an $N \times N$ __potential matrix__ $\Theta(t)$ consisting of complex-valued matrix elements $\Theta_{i,j}(t)$ related to $\Gamma_{i,j}(t)$ by the modulus squared relation
 $$
 \Gamma_{i,j}(t) = |\Theta_{i,j}(t)|^2.
 $$
@@ -52,7 +55,7 @@ $$
 $$
 where $\Theta^{\dagger}(t)$ is the [[conjugate transpose matrix]] of $\Theta(t)$. We call this equation the __dictionary formula__ as it  provides the translation between indivisible [[stochastic processes]], as represented by the left-hand side, and the formalism of quantum-theoretic [[Hilbert spaces]] as represented on the right-hand side.  This dictionary formula is the basic ingredient of the stochastic-quantum correspondence.
 
-Given an initial probability measure $p(0)$ on $\Omega_0$ with components $p_j(0)$ we can define the __density matrix__ $rho(0) = diag(p_1(0),p_2(0),\ldots,p_N(0))$. We then define a time-dependent density matrix by
+Given an initial probability measure $p(0)$ on $\Omega_0$ with components $p_j(0)$ we can define the __density matrix__ $\rho(0) = diag(p_1(0),p_2(0),\ldots,p_N(0))$. We then define a time-dependent density matrix by
 $$
 \rho(t) = \Theta(t) \rho(0) \Theta^{\dagger}(t)
 $$
@@ -64,9 +67,11 @@ $$
 $$
 The __state vector__ or __wave function__ $\Psi(t)$ then evolves over time according to
 $$
-\Psi(t) = \Theta(t) \Psi(0).
+\Psi(t) = \Theta(t) \Psi(0)
 $$
-This equation along with the dictionary formula essentially specify the complete correspondence between indivisible [[stochastic processes]] (on finite spaces) and the [[Hilbert space]] formalism of quantum mechanics.  For this brief overview we have ignored the measurement aspect as measurements cannot be modeled for [[stochastic processes]] within the [[Kleisli category]] of the [[Giry monad]] $G$. (They can however be modeled within the larger category of the category of algebras of the monad $G$. See Example 1 in [[stochastic processes]].)
+which gives us the [[Hilbert space]] view point of the [[stochastic process]].  This procedure can be reversed using the dictionary formula.
+
+ For this brief overview we have ignored the measurement aspect as measurements cannot be modeled for [[stochastic processes]] within the [[Kleisli category]] of the [[Giry monad]] $G$. (They can however be modeled within the larger category of the category of algebras of the monad $G$. See Example 1 in [[stochastic processes]].)
 
 ## Remarks
 The stochastic-quantum correspondence, derived for the case of a finite configuration space, provide an impetus for searching for a more general characterization which does not depend upon the countability of the configuration space $\Omega$.  This is not an insignificant issue as there are some interesting analogies with finite [[probability spaces]] and other systems which fail to hold for uncountable  [[probability spaces]] with non-atomic probability measure. 
