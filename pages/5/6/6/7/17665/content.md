@@ -24,7 +24,7 @@ The most studied examples include *[[Brownian motion]]*, *[[Ornstein-Uhlenbeck p
 
 ## Definitions
 
-We define discrete time stochastic processes following [Lawvere 1962](#Lawvere62).  Let $N$ be the [[category]] with [[countable set|countably many]] [[objects]], $\{1,2,...\}$, and no non-[[identity morphisms]], and let $\mathbf{Meas}_G$ denote the [[Kleisli category]] of the [[Giry monad]].  Let $\mathbf{Meas}_G^{N}$ denote the category whose objects $\mathbf{\Omega}$ are [[sequences]] $\Omega_1, \Omega_2,\ldots$ of objects in $\mathbf{Meas}_G$ which are [[measurable spaces]].  We define an [[endofunctor]] $\mathbf{Meas}_G^{N} \xrightarrow{\mathbf{\Phi}} \mathbf{Meas}_G^{N}$ by 
+We define discrete time stochastic processes following [Lawvere 1962](#Lawvere62).  Let $N$ be the [[category]] with [[countable set|countably many]] [[objects]], $\{0,1,2,...\}$, and no non-[[identity morphisms]], and let $\mathbf{Meas}_G$ denote the [[Kleisli category]] of the [[Giry monad]].  Let $\mathbf{Meas}_G^{N}$ denote the category whose objects $\mathbf{\Omega}$ are [[sequences]] $\Omega_0, \Omega_1,\ldots$ of objects in $\mathbf{Meas}_G$ which are [[measurable spaces]].  We define an [[endofunctor]] $\mathbf{Meas}_G^{N} \xrightarrow{\mathbf{\Phi}} \mathbf{Meas}_G^{N}$ by 
 $
 \mathbf{\Phi}(\mathbf{\Omega})= \{ \prod_{k \lt n} \Omega_k \}_{k \in N}  
 $
@@ -68,35 +68,35 @@ where $\pi_{n-1}$ is the canonical [[coordinate]] [[projection]] ([[measurable f
 
 If $\mathbf{Q}$ is a stochastic process such that the dynamic law at every stage is a [[Markov process|Markov dynamic law]] we say the stochastic process $\mathbf{Q}$ is a __[[Markov process|Markov stochastic process]]__.  In  the special case where $\mathbf{\Omega}$ defines a constant sequence, $\Omega_n = \Omega$ for all $n$,   then a Markov stochastic process on $\mathbf{\Omega}$ is called a *[[Markov chain]]*.
 
-An even more elementary way of defining a stochastic process is by taking $\Omega_n = \Omega$, so each $\Omega_n$ is a copy of $\Omega$, and for all $n$ defining the dynamic law $Q_n$ such that it factorizes as a composite of the projection map (onto the first coordinate) $\pi_1$ and a [[Kleisli morphism]] $\tilde{Q}_n$, 
+An even more elementary way of defining a stochastic process is by taking $\Omega_n = \Omega$, so each $\Omega_n$ is a copy of $\Omega$, and for all $n$ defining the dynamic law $Q_n$ such that it factorizes as a composite of the projection map $\pi_0$ and a [[Kleisli morphism]] $\tilde{Q}_n$, 
 \begin{tikzpicture}
   \node  (POn) at  (0,0)  {$\prod_{k < n} \Omega_k$};
   \node  (On)  at  (6,0)  {$\Omega_n$};
-  \node  (On1) at  (3,-1.5)  {$\Omega_{1}$};
+  \node  (On1) at  (3,-1.5)  {$\Omega_{0}$};
   \draw[->,above] (POn) to node {$Q_n$} (On);
-  \draw[->,left]  (POn) to node {$\pi_1$} (On1);
+  \draw[->,left]  (POn) to node {$\pi_0$} (On1);
   \draw[->,right] (On1) to node [xshift=3pt,yshift=-3pt]{$\tilde{Q}_n$} (On); 
 \end{tikzpicture}
-For such dynamic laws the time at stage $1$ is thought of as conditioning event time - subsequent stages are ''conditioned on $\Omega_1$''.
+For such dynamic laws the time at stage $0$ is thought of as the conditioning event time - subsequent stages are ''conditioned on $\Omega_0$''.
 
 We say a stochastic process $\mathbf{Q}$ is __divisible__ if and only if for all stages $m$ and $n$, with $m \le n$ there exists a [[Kleisli morphism]] $\tilde{Q}_{m,n}$ such that the triangle on the right hand side of the Kleisli-diagram
 \begin{tikzpicture}
   \node  (POm) at  (0,0)  {$\prod_{k < m} \Omega_k$};
   \node  (Om)  at  (6,0)  {$\Omega_m$};
-  \node  (Om1) at  (3,-1.5)  {$\Omega_{1}$};
+  \node  (Om1) at  (3,-1.5)  {$\Omega_{0}$};
   \draw[->,above] (POm) to node {$Q_m$} (Om);
-  \draw[->,left]  (POm) to node {$\pi_{1}$} (Om1);
+  \draw[->,left]  (POm) to node {$\pi_{0}$} (Om1);
   \draw[->,right] (Om1) to node [xshift=3pt,yshift=-3pt]{$\tilde{Q}_m$} (Om); 
 
   \node  (Pon) at (0, -3)  {$\prod_{k < n} \Omega_k$};
   \node  (On)  at (6, -3)  {$\Omega_n$}; 
   \draw[->, below] (Pon) to node {$Q_n$} (On);
-  \draw[->, above] (Pon) to node {$\pi_1$} (Om1);
+  \draw[->, above] (Pon) to node {$\pi_0$} (Om1);
   \draw[->, right] (Om1) to node {$\tilde{Q}_n$} (On);
 
   \draw[->, right, dashed] (Om) to node {$\tilde{Q}_{m,n}$} (On);
 \end{tikzpicture}
-commutes, i.e., $\tilde{Q}_n = \tilde{Q}_{m,n} \circ \tilde{Q}_m$. (We have abused notation by using the notation $\pi_1$ to denote the two projection maps onto the first coordinate despite the domains being distinct when $m \lt n$.)
+commutes, i.e., $\tilde{Q}_n = \tilde{Q}_{m,n} \circ \tilde{Q}_m$. (We have abused notation by using the notation $\pi_0$ to denote the two projection maps onto the $0^{th}$ coordinate despite the domains being distinct when $m \lt n$.)
 
 An __indivisible stochastic process__ is a stochastic process which is not divisible.  Such processes are employed in the [[indivisible stochastic process interpretation of quantum mechanics]].
 
