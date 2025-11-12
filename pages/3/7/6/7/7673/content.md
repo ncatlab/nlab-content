@@ -558,7 +558,9 @@ Categories with families are defined in
 
 and shown to be equivalent to categories with attributes in [Hofmann (1997)](#Hofmann97)
 
+An extension of [[categories with families]] from [[set-truncation|set-truncated]] categories to [[groupoid]]-[[truncated]] categories, called [[groupoid categories with families]], is developed in:
 
+* [[Thorsten Altenkirch]], [[Ambrus Kaposi]], [[Szumi Xie]], *The Groupoid-syntax of Type Theory is a Set* &lbrack;[arXiv:2509.14988](https://arxiv.org/abs/2509.14988)&rbrack;
 
 The formulation in terms of representable natural transformations ([[natural models of homotopy type theory]]) is due to:
 
@@ -698,12 +700,23 @@ An [[internal language]] for [[comprehension categories]] is developed in:
 [[!redirects display map categories]]
 [[!redirects category with attributes]]
 [[!redirects categories with attributes]]
+[[!redirects cwa]]
+[[!redirects CwA]]
 [[!redirects category with families]]
 [[!redirects categories with families]]
+[[!redirects cwf]]
+[[!redirects CwF]]
 [[!redirects contextual category]]
 [[!redirects contextual categories]]
 [[!redirects C-system]]
 [[!redirects C-systems]]
+
+[[!redirects groupoid category with families]]
+[[!redirects groupoid categories with families]]
+[[!redirects groupoid cwf]]
+[[!redirects groupoid CwF]]
+[[!redirects gcwf]]
+[[!redirects GCwF]]
 
 
 
