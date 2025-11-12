@@ -17,7 +17,7 @@
 
 ## Idea
 
-The Levin-Wen model is a [[model (in theoretical physics)]] for certain phenomena in 2-dimensional [[solid state physics]]. It can be regarded as a  [[3d TQFT]].
+The *Levin-Wen model* is a [[model (in theoretical physics)]] for certain phenomena in 2-dimensional [[solid state physics]]. It can be regarded as a  [[3d TQFT]].
 
 ## Related concepts
 
@@ -42,8 +42,14 @@ See also:
 
 * Liang Chang, [[Meng Cheng]], [[Shawn X. Cui]], Yuting Hu, Wei Jin, Ramis Movassagh, [[Pieter Naaijkens]], [[Zhenghan Wang]], [[Amanda Young]]: *On Enriching the Levin-Wen model with Symmetry*, J. Phys. A: Math. Theor. **48** (2016) 12FT01  &lbrack;[arXiv:1412.6589](https://arxiv.org/abs/1412.6589)&rbrack;
 
-* Vincentas Mulevicius, [[Ingo Runkel]], Thomas Voß. *Internal Levin-Wen models* (2023). ([arXiv:2309.05755](https://arxiv.org/abs/2309.05755)).
+* Vincentas Mulevicius, [[Ingo Runkel]], Thomas Voß: *Internal Levin-Wen models* &lbrack;[arXiv:2309.05755](https://arxiv.org/abs/2309.05755)&rbrack;
 
-* Kyle Kawagoe, Corey Jones, Sean Sanford, David Green, David Penneys. *Levin-Wen is a gauge theory: entanglement from topology* (2024). ([arXiv:2401.13838](https://arxiv.org/abs/2401.13838)).
+* Kyle Kawagoe, Corey Jones, Sean Sanford, David Green, David Penneys. *Levin-Wen is a gauge theory: entanglement from topology* &lbrack;[arXiv:2401.13838](https://arxiv.org/abs/2401.13838)&rbrack;
+
+On [[anyon|anyonic]] [[topological order]] in the Levin-Wen model:
+
+* Jessica Christian, David Green, Peter Huston, David Penneys: *A lattice model for condensation in Levin-Wen systems* &lbrack;[arXiv:2303.04711](https://arxiv.org/abs/2303.04711)&rbrack;
+
+
 
 [[!redirects Levin-Wen models]]
