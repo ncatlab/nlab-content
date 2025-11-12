@@ -83,6 +83,14 @@ __189__1--3 (2004) 37--59
 
 * R. Cignoli, E.J. Dubuc, D. Mundici, _An MV-algebraic invariant for boolean algebras with a finite-orbit automorphism_, Tatra Mount. Math. Publ, 27 (2003) 23--43
 
+
+On flat [[2-functors]] with an eye towards [[2-toposes]]:
+
+* [[Maria Emilia Descotte]], [[Eduardo J. Dubuc]], Martin Szyld: _A construction of certain weak colimits and an exactness property of the 2-category of categories_, Theory and Applications of Categories **33** 8 (2018) 193–215 &lbrack;[arXiv:1610.02453](https://arxiv.org/abs/1610.02453), [doi:10.70930/tac/ojwotgya](https://doi.org/10.70930/tac/ojwotgya)&rbrack;
+
+* [[Maria Emilia Descotte]], [[Eduardo J. Dubuc]], Martin Szyld: _Sigma limits in 2-categories and flat pseudofunctors_, Advances in Mathematics **333** 31 (2018) 266–313 &lbrack;[arXiv:1610.09429](https://arxiv.org/abs/1610.09429), [doi:10.1016/j.aim.2018.05.021](https://doi.org/10.1016/j.aim.2018.05.021)&rbrack;
+
+
 On [[homotopy 2-categories]] of [[model categories]] (in higher variation of the [[homotopy category of a model category]]):
 
 * [[Eduardo J. Dubuc]], Jacqueline Girabel  *The 2-localization of a model category*, Theory and Applications of Categories **40** 18 (2024) 537-574 &lbrack;[arXiv:2208.00314](https://arxiv.org/abs/2208.00314), [tac:40-18](http://www.tac.mta.ca/tac/volumes/40/18/40-18abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/40/18/40-18.pdf)&rbrack;
