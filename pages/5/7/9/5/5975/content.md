@@ -122,5 +122,9 @@ On [[(∞,2)-topoi]]:
 
 * Fernando Abellán, [[Louis Martini]]: _$(\infty,2)$-Topoi and descent_ &lbrack;[arXiv:2410.02014](https://arxiv.org/abs/2410.02014)&rbrack;
 
+On [[directed type theory]] and [[ends]] and [[coends]] as *directed* [[quantifiers]]:
+
+* Andrea Laretto, [[Fosco Loregian]], Niccolò Veltri, _Directed equality with dinaturality_ &lbrack;[arXiv:2409.10237](https://arxiv.org/abs/2409.10237)&rbrack;
+
 
 [[!redirects 2-logic]]
