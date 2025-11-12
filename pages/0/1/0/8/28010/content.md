@@ -22,10 +22,12 @@
 
 ## Idea
 
-Indivisible [[stochastic processes]] generically exhibit all the hallmark empirical features of quantum systems, including [[quantum interference]], [[decoherence]], [[entanglement]], and noncommutative observables.  Moreover an indivisible [[stochastic process]] can replicate all the empirical predictions made by the [[Hilbert space]] formalism for [[quantum mechanics]], while avoiding the famous measurement problem.  Consequently one can view any quantum system as an indivisible stochastic process yielding the indivisible stochastic process interpretation of [[quantum mechanics]].  Going in the other logical direction, one can also represent indivisible stochastic processes in the usual [[Hilbert space]] formalism yielding a bijective correspondence between indivisible stochastic process systems and quantum systems. 
+The indivisible [[stochastic process]] interpretation of [[quantum mechanics]]
+proposes that quantum systems can be understood as [[stochastic processes]] that lack the "Markov property," meaning they cannot be broken down into independent, sequential steps. Instead, they evolve over finite chunks of time through a more general, non-Markovian, stochastic law. This interpretation, developed by [[Jacob Barandes]], suggests that the core features of [[quantum mechanics]], such as [[quantum interference]], [[decoherence]], [[entanglement]],
+and noncommutative observables arise from these "indivisible" or "non-divisible" [[stochastic processes]], which can replicate all empirical predictions of quantum theory while potentially avoiding the quantum measurement problem. 
 
 
-## Formalism 
+## Definitions and the stochastic-quantum correspondence 
 
 Let $\Omega$ be a [[measurable space]] which we interpret as the space of all possible configurations of some system, and let $T$ denote an interval of time starting at $0$.  An indivisible real-time [[stochastic process]] on $\Omega$ consists of a family of morphisms in the [[Kleisli category]] of the [[Giry monad]] $G$,
 $$
@@ -72,7 +74,7 @@ $$
 and $\Psi(t)$ satisfies the property $||\Psi(t)||=1$.
 Thus we have derived the [[Hilbert space]] viewpoint of the [[stochastic process]].  This procedure can be reversed using the dictionary formula.
 
- For this brief overview we have ignored the measurement aspect as measurements cannot be modeled for [[stochastic processes]] within the [[Kleisli category]] of the [[Giry monad]] $G$. (They can however be modeled within the larger category of the category of algebras of the monad $G$. See Example 1 in [[stochastic processes]].)
+ For this brief overview of the stochastic-quantum correspondence we have ignored the measurement aspect as measurements cannot be modeled for [[stochastic processes]] within the [[Kleisli category]] of the [[Giry monad]] $G$. (They can however be modeled within the larger category of the category of algebras of the monad $G$. See Example 1 in [[stochastic processes]].)
 
 ## Remarks
 The stochastic-quantum correspondence, derived for the case of a finite configuration space, provide an impetus for searching for a more general characterization which does not depend upon the countability of the configuration space $\Omega$.  This is not an insignificant issue as there are some interesting analogies with finite [[probability spaces]] and other systems which fail to hold for uncountable  [[probability spaces]] with non-atomic probability measure. 
@@ -81,7 +83,7 @@ This issue arises because the path required to generalize the results to uncount
 
 ## Interpretations
 
-To be added: interpretations for [[quantum interference]], [[decoherence]], [[entanglement]] within the framework of indivisible [[stochastic processes]].
+Being developed: How  [[quantum interference]], [[decoherence]], [[entanglement]] arise within the framework of indivisible [[stochastic processes]].
 
 ## History
 
