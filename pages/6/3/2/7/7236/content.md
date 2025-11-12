@@ -168,5 +168,10 @@ In: Walukiewicz I. (eds) Foundations of Software Science and Computation Structu
 
 * {#GarnerLack12} [[Richard Garner]], [[Steve Lack]]: *On the axioms for adhesive and quasiadhesive categories*, Theory and Applications of Categories, **27**  3 (2012) 27-46 &lbrack;[arXiv:1108.2934](http://arxiv.org/abs/1108.2934), [tac:27-03](http://www.tac.mta.ca/tac/volumes/27/3/27-03abs.html)&rbrack;
 
+Adhesiveness with respect to a suitable class of [[monomorphisms]] (i.e. **$M$-adhesive categories**) is defined in:
+
+- Ehrig, H., Ermel, C., Golas, U., & Hermann, F. (2015). Graph and model transformation. Monographs in Theoretical Computer Science. Springer, 17.
+
+Here, "suitable" (called "PO-PB compatible" ibid.) means: $M$ is a wide subcategory of $C$, and $C$ has pullbacks and pushouts along morphisms in $M$, and morphisms in $M$ are stable under pullbacks and pushouts.
 
 [[!redirects adhesive categories]]
