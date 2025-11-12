@@ -37,101 +37,86 @@ Unifying themes:
 ## References
  {#References}
 
-On 2-categorical [[exactness properties]]:
-
-* [[Ross Street]]: *Characterization of bicategories of stacks*, in: *Category Theory*, Lecture Notes in Mathematics **962**, Springer (1982) 282–291 &lbrack;[doi:10.1007/BFb0066909](https://doi.org/10.1007/BFb0066909)&rbrack;
-
-* [[Ross Street]]: *Two-dimensional sheaf theory*, Journal of Pure and Applied Algebra **23** 3 (1982) 251-270 \[<a href="https://doi.org/10.1016/0022-4049(82)90101-3">doi:10.1016/0022-4049(82)90101-3</a>\]
+Remarks on [[geometric logic|geometric]] 2-logic:
 
 * {#BourkeGarner} [[John Bourke]], [[Richard Garner]], Remks. 42 & 47 in: *Two-dimensional regularity and exactness*, Journal of Pure and Applied Algebra, **218** 7 (2014) 1346–1371 &lbrack;[doi:10.1016/j.jpaa.2013.11.021](https://doi.org/10.1016/j.jpaa.2013.11.021), [arXiv:1304.5275](https://arxiv.org/abs/1304.5275)&rbrack;
 
-On [[flat functor|flat]] [[2-functors]]:
 
-* [[Maria Emilia Descotte]], [[Eduardo J. Dubuc]], and Martin Szyld. _A construction of certain weak colimits and an exactness property of the 2-category of categories_, Theory and Applications of Categories **33** 8 (2018) 193–215 &lbrack;[arXiv:1610.02453](https://arxiv.org/abs/1610.02453), [doi:10.70930/tac/ojwotgya](https://doi.org/10.70930/tac/ojwotgya)&rbrack;
-
-* [[Maria Emilia Descotte]], [[Eduardo J. Dubuc]], and Martin Szyld, _Sigma limits in 2-categories and flat pseudofunctors_, Advances in Mathematics **333** 31 (2018) 266–313 &lbrack;[arXiv:1610.09429](https://arxiv.org/abs/1610.09429), [doi:10.1016/j.aim.2018.05.021](https://doi.org/10.1016/j.aim.2018.05.021)&rbrack;
-
-* [[Maria Emilia Descotte]], _A theory of 2-pro-objects, a theory of 2-model 2-categories and the 2-model structure for 2-Pro(C)_, PhD thesis, Universidad de Buenos Aires (2020) &lbrack;[arXiv:2010.10636](https://arxiv.org/abs/2010.10636)&rbrack;
-
-On [[elementary topos|elementary]] [[2-topoi]] (or more generally the pieces of such a structure):
-
-* [[Calum Hughes]], Adrian Miranda, _The elementary theory of the 2-category of small categories_, Theory and Applications of Categories *43* 8 (2025) 196–242 &lbrack;[arXiv:2403.03647](https://arxiv.org/abs/2403.03647), [doi:10.70930/tac/c97jx7g2](https://doi.org/10.70930/tac/c97jx7g2)&rbrack;
-
-* [[Ross Street]], _Elementary cosmoi I_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 134–180 &lbrack;[doi:10.1007/bfb0063103](https://doi.org/10.1007/bfb0063103)&rbrack;
+{#ReferencesOnElementary2Topoi} On [[elementary topos|elementary]] [[2-topoi]] (or more generally the pieces of such a structure):
 
 * [[Ross Street]], _Fibrations and Yoneda's Lemma in a 2-category_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 104–133 &lbrack;[doi:10.1007/BFb0063102](https://doi.org/10.1007/BFb0063102)&rbrack;
 
-* [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009).  Also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi.
+* [[Ross Street]], _Elementary cosmoi I_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 134–180 &lbrack;[doi:10.1007/bfb0063103](https://doi.org/10.1007/bfb0063103)&rbrack;
+
+* [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009)
+  > (also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi).
 
 * [[Luca Mesiti]], _Pointwise Kan extensions along 2-fibrations and the 2-category of elements_, Theory and Applications of Categories **41** 30 960–994 (2024) &lbrack;[arXiv:2302.04566](http://arxiv.org/abs/2302.04566), [doi:10.70930/tac/b9u5z003](http://doi.org/10.70930/tac/b9u5z003)&rbrack;
 
+* [[Elena Caviglia]], [[Luca Mesiti]], _Indexed Grothendieck construction_, Theory and Applications of Categories **41** 28 (2024) 894–926 &lbrack;[arXiv:2307.16076](http://arxiv.org/abs/2307.16076), [doi:10.70930/tac/xzio144a](https://doi.org/10.70930/tac/xzio144a)&rbrack;
+
 * [[Luca Mesiti]], _2-classifiers via dense generators and Hofmann-Streicher universe in stacks_, Canadian Journal of Mathematics (2025) 1–52 &lbrack;[arXiv:2401.16900](http://arxiv.org/abs/2401.16900), [doi:10.4153/S0008414X24000865](https://doi.org/10.4153/S0008414X24000865)&rbrack;
 
-* [[Elena Caviglia]], [[Luca Mesiti]], _Indexed Grothendieck construction_, Theory and Applications of Categories **41** 28 (2024) 894–926 &lbrack;[arXiv:2307.16076](http://arxiv.org/abs/2307.16076), [doi:10.70930/tac/xzio144a](https://doi.org/10.70930/tac/xzio144a)&rbrack;
+* [[Calum Hughes]], Adrian Miranda: _The elementary theory of the 2-category of small categories_, Theory and Applications of Categories *43* 8 (2025) 196–242 &lbrack;[arXiv:2403.03647](https://arxiv.org/abs/2403.03647), [doi:10.70930/tac/c97jx7g2](https://doi.org/10.70930/tac/c97jx7g2)&rbrack;
 
 * [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ (2025) &lbrack;[arXiv:2503.24279](http://arxiv.org/abs/2503.24279)&rbrack;
 
-On [[Yoneda structures]]:
-
-* [[Mark Weber]], _Yoneda structures from 2-toposes_, Applied Categorical Structures **15** (2007) 259–323 &lbrack;[author pdf](https://webercat.au/2topos.pdf), [doi:10.1007/s10485-007-9079-2](http://doi.org/10.1007/s10485-007-9079-2)&rbrack;
-
-* {#Walker17} [[Charles Walker]], _Yoneda Structures and KZ Doctrines_, Journal of Pure and Applied Algebra **222** 6 (2018) 1375–1387 &lbrack;[arXiv:1703.08693](https://arxiv.org/abs/1703.08693), [doi:10.1016/j.jpaa.2017.07.004](http://doi.org/10.1016/j.jpaa.2017.07.004)&rbrack;
-
-On [[double categories]]:
-
-* [[Seerp Roald Koudenburg]], _Formal category theory in augmented virtual double categories_, Theory and Applications of Categories **41** 10 (2024) 288–413 &lbrack;[arXiv:2205.04890](https://arxiv.org/abs/2205.04890), [doi:10.70930/tac/dc4prz63](https://doi.org/10.70930/tac/dc4prz63)&rbrack;
-
-* [[Seerp Roald Koudenburg]], _A double-dimensional approach to formal category theory_ (2015–) &lbrack;[arXiv:1511.04070](https://arxiv.org/abs/1511.04070)&rbrack;
 
 On 2-[[functorial semantics]]:
 
-* [[Nathanael Arkor]], [[John Bourke]], Joanna Ko, _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_ (2024) &lbrack;[arXiv:2412.07475](https://arxiv.org/abs/2412.07475)&rbrack;
+* [[John Power]], _Why tricategories?_, Information and Computation **120** 2 (1995) 251–262 &lbrack;[doi:10.1006/inco.1995.1112](https://doi.org/10.1006/inco.1995.1112)&rbrack;
 
-* [[Ivan Di Liberti]], [[Axel Osmond]], _Bi-accessible and bipresentable 2-categories_, Applied Categorical Structures **33** 3 (2025) &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046), [doi:10.1007/s10485-024-09794-9](http://doi.org/10.1007/s10485-024-09794-9)&rbrack;
+* [[John Power]]: _Enriched Lawvere theories_, Theory and Applications of Categories **6** 7 (1999) 83–93 &lbrack;[tac:6-07](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html), [doi:10.70930/tac/soye1d6v](https://doi.org/10.70930/tac/soye1d6v)&rbrack;
+
+* [[John Power]]: _Categories with algebraic structure_, International Workshop on Computer Science Logic, Springer (1997) 389–405 &lbrack;[doi:10.1007/BFb0028027](http://doi.org/10.1007/BFb0028027)&rbrack;
 
 * [[Renato Betti]], [[Marco Grandis]], _Complete theories in 2-categories_, [[Cahiers]] **29** 1 (1988) 9–57 &lbrack;[numdam:CTGDC_1988__29_1_9_0](https://www.numdam.org/item/CTGDC_1988__29_1_9_0)&rbrack;
 
-* [[John Power]], _Why tricategories?_, Information and Computation **120** 2 (1995) 251–262 &lbrack;[doi:10.1006/inco.1995.1112](https://doi.org/10.1006/inco.1995.1112)&rbrack;
+* [[Nathanael Arkor]], [[John Bourke]], Joanna Ko, _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_ &lbrack;[arXiv:2412.07475](https://arxiv.org/abs/2412.07475)&rbrack;
 
-* [[John Power]], _Enriched Lawvere theories_, Theory and Applications of Categories **6** 7 (1999) 83–93 &lbrack;[tac:6-07](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html), [doi:10.70930/tac/soye1d6v](https://doi.org/10.70930/tac/soye1d6v)&rbrack;
+* [[Ivan Di Liberti]], [[Axel Osmond]], _Bi-accessible and bipresentable 2-categories_, Applied Categorical Structures **33** 3 (2025) &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046), [doi:10.1007/s10485-024-09794-9](http://doi.org/10.1007/s10485-024-09794-9)&rbrack;
 
-* [[John Power]], _Categories with algebraic structure_, International Workshop on Computer Science Logic, Springer Berlin Heidelberg (1997) 389–405 &lbrack;[doi:10.1007/BFb0028027](http://doi.org/10.1007/BFb0028027)&rbrack;
 
 On [[2-categories]] as [[2-theories]]:
 
+* {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical Structures in Computer Science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
+
 * {#CDL21} Greta Coraglia, [[Ivan Di Liberti]], _Context, judgement, deduction_ (2021) &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;
 
-* Vít Jelínek, _Type theory and its semantics_, Master thesis, Masaryk University (2024) &lbrack;[url](https://is.muni.cz/th/fl75q/)&rbrack;
+* [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]]: *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, 12 (2022) 1–14, &lbrack;[doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334)&rbrack;
 
-* Jonathan Osser,  _A 2‑Sketchy Approach to Type Theory_, Master thesis, University of Amsterdam (2025) &lbrack;[url](https://scripties.uba.uva.nl/search?id=record_56899)&rbrack;
+* Vít Jelínek, _Type theory and its semantics_, Master thesis, Masaryk University (2024) &lbrack;[url](https://theses.cz/id/n7t9ei)&rbrack;
 
-* [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]], *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, 12 (2022) 1–14, &lbrack;[doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334)&rbrack;
+* Jonathan Osser:  _A 2‑Sketchy Approach to Type Theory_, Master thesis, University of Amsterdam (2025) &lbrack;[scripties:56899](https://scripties.uba.uva.nl/search?id=record_56899)&rbrack;
 
-* {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical Structures in Computer Science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
+
 
 On [[rewriting]]:
 
+* [[John Power]]: _An abstract formulation for rewrite systems_, In Category Theory and Computer Science, Springer Berlin Heidelberg (1989) 300–312 &lbrack;[doi:10.1007/BFb0018358](http://doi.org/10.1007/BFb0018358)&rbrack;
+
+* [[Tom Hirschowitz]]: _Cartesian closed 2-categories and permutation equivalence in higher-order rewriting_, Logical Methods in Computer Science **9** 3 (2013) pp.10 &lbrack;[pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document), [arXiv:1307.6318](http://arxiv.org/abs/1307.6318), [doi:10.2168/LMCS-9(3:10)2013](https://doi.org/10.2168/LMCS-9%283%3A10%292013)&rbrack;
+
 * [[Samuel Mimram]], _Categorical Coherence from Term Rewriting Systems_, 8th International Conference on Formal Structures for Computation and Deduction (FSCD 2023), Leibniz International Proceedings in Informatics (LIPIcs) **260** (2023) 16:1–16:17 &lbrack;[doi:10.4230/LIPIcs.FSCD.2023.16](http://doi.org/10.4230/LIPIcs.FSCD.2023.16)&rbrack;
 
-* [[Samuel Mimram]], _Rewriting techniques for relative coherence_, Logical Methods in Computer Science **21** 3 (2025) &lbrack;[arXiv:2402.18170](http://arxiv.org/abs/2402.18170), [doi:10.46298/lmcs-21(3:7)2025](http://doi.org/10.46298/lmcs-21(3:7)2025)&rbrack;
+* [[Samuel Mimram]]: _Rewriting techniques for relative coherence_, Logical Methods in Computer Science **21** 3 (2025) &lbrack;[arXiv:2402.18170](http://arxiv.org/abs/2402.18170), [doi:10.46298/lmcs-21(3:7)2025](http://doi.org/10.46298/lmcs-21(3:7)2025)&rbrack;
 
-* [[John Power]], _An abstract formulation for rewrite systems_, In Category Theory and Computer Science, Springer Berlin Heidelberg (1989) 300–312 &lbrack;[doi:10.1007/BFb0018358](http://doi.org/10.1007/BFb0018358)&rbrack;
-
-* [[Tom Hirschowitz]], _Cartesian closed 2-categories and permutation equivalence in higher-order rewriting_, Logical Methods in Computer Science **9** 3 (2013) pp.10 &lbrack;[pdf](https://hal.archives-ouvertes.fr/hal-00540205v2/document), [arXiv:1307.6318](http://arxiv.org/abs/1307.6318), [doi:10.2168/LMCS-9(3:10)2013](https://doi.org/10.2168/LMCS-9%283%3A10%292013)&rbrack;
 
 On [[2-categories]] of [[theory|1-theories]]:
 
-* [[Richard Garner]], [[Stephen Lack]], _Lex colimits_, Journal of Pure and Applied Algebra **216** 6 (2012) 1372–1396 &lbrack;[arXiv:1107.0778](https://arxiv.org/abs/1107.0778), [doi:10.1016/j.jpaa.2012.01.003](http://doi.org/10.1016/j.jpaa.2012.01.003)&rbrack;
+* [[Richard Garner]], [[Stephen Lack]]: _Lex colimits_, Journal of Pure and Applied Algebra **216** 6 (2012) 1372–1396 &lbrack;[arXiv:1107.0778](https://arxiv.org/abs/1107.0778), [doi:10.1016/j.jpaa.2012.01.003](http://doi.org/10.1016/j.jpaa.2012.01.003)&rbrack;
 
-* [[Ivan Di Liberti]], [[Lingyuan Ye]], _Logics and concepts in the 2-category of Topoi_ (2025) &lbrack;[arXiv:2504.16690](http://arxiv.org/abs/2504.16690)&rbrack;
-
-* [[Ivan Di Liberti]], [[Gabriele Lobbia]], _Sketches and Classifying Logoi_ (2024) &lbrack;[arXiv:2403.09264](http://arxiv.org/abs/2403.09264)&rbrack;
+* [[Ivan Di Liberti]], [[Gabriele Lobbia]]: _Sketches and Classifying Logoi_ (2024) &lbrack;[arXiv:2403.09264](http://arxiv.org/abs/2403.09264)&rbrack;
 
 * Greta Coraglia, [[Jacopo Emmenegger]], _A 2-categorical analysis of context comprehension_, Theory and Applications of Categories **41** 42 (2024) 1476–1512 &lbrack;[arXiv:2403.03085](http://arxiv.org/abs/2403.03085), [doi:10.70930/tac/dcvkbg9f](http://doi.org/10.70930/tac/dcvkbg9f)&rbrack;
 
-* [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], [[Paige Randall North]], _Comparing semantic frameworks for dependently-sorted algebraic theories_, Asian Symposium on Programming Languages and Systems (APLAS 2024), Lect. Notes Comp. Sci. **15194** (2024) 3–22 &lbrack;[arXiv:2412.19946](http://arxiv.org/abs/2412.19946), [doi:10.1007/978-981-97-8943-6_1](http://doi.org/10.1007/978-981-97-8943-6_1)&rbrack;
+* [[Benedikt Ahrens]], [[Peter LeFanu Lumsdaine]], [[Paige Randall North]]: _Comparing semantic frameworks for dependently-sorted algebraic theories_, Asian Symposium on Programming Languages and Systems (APLAS 2024), Lect. Notes Comp. Sci. **15194** (2024) 3–22 &lbrack;[arXiv:2412.19946](http://arxiv.org/abs/2412.19946), [doi:10.1007/978-981-97-8943-6_1](http://doi.org/10.1007/978-981-97-8943-6_1)&rbrack;
 
-* Greta Coraglia, [[Jacopo Emmenegger]], _Categorical models of subtyping_, 29th International Conference on Types for Proofs and Programs (TYPES 2023), Leibniz International Proceedings in Informatics (LIPIcs) **303** (2024) 3:1–3:19 &lbrack;[arXiv:2312.14600](http://arxiv.org/abs/2312.14600), [doi:10.4230/LIPIcs.TYPES.2023.3](http://doi.org/10.4230/LIPIcs.TYPES.2023.3)&rbrack;
+* Greta Coraglia, [[Jacopo Emmenegger]]: _Categorical models of subtyping_, 29th International Conference on Types for Proofs and Programs (TYPES 2023), Leibniz International Proceedings in Informatics (LIPIcs) **303** (2024) 3:1–3:19 &lbrack;[arXiv:2312.14600](http://arxiv.org/abs/2312.14600), [doi:10.4230/LIPIcs.TYPES.2023.3](http://doi.org/10.4230/LIPIcs.TYPES.2023.3)&rbrack;
+
+* [[Ivan Di Liberti]], [[Lingyuan Ye]]: _Logics and concepts in the 2-category of Topoi_ (2025) &lbrack;[arXiv:2504.16690](http://arxiv.org/abs/2504.16690)&rbrack;
+
+
 
 On [[(∞,2)-topoi]]:
 
