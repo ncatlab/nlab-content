@@ -19,7 +19,7 @@ An **enhanced 2-category** (or **$\mathcal{F}$-category**) is like a [[2-categor
 
 ### Strict $\mathcal{F}$-categories
 
-Let $\mathcal{F}$ denote the category whose [[objects]] are [[functors]] that are [[fully faithful functors|fully faithful]] and injective on objects, and whose [[morphisms]] are [[commutative squares]] (a [[full subcategory]] of the [[arrow category]] of [[Cat]]).  We call the objects of $\mathcal{F}$, for the nonce, _full embeddings_.  Then $\mathcal{F}$ is [[cartesian closed category|cartesian closed]], [[complete category|complete]] and [[cocomplete category|cocomplete]], hence a [[Benabou cosmos]].
+Let $\mathcal{F}$ denote the category whose [[objects]] are the [[full embeddings]], i.e. the [[functors]] that are [[fully faithful functors|fully faithful]] and injective on objects, and whose [[morphisms]] are [[commutative squares]] (a [[full subcategory]] of the [[arrow category]] of [[Cat]]).  Then $\mathcal{F}$ is [[cartesian closed category|cartesian closed]], [[complete category|complete]] and [[cocomplete category|cocomplete]], hence a [[Benabou cosmos]].
 
 A **strict $\mathcal{F}$-category** is a [[enriched category|category enriched over]] $\mathcal{F}$.  Therefore, between every two objects, an $\mathcal{F}$-category $K$ has an object $K(x,y)\in \mathcal{F}$, hence a full embedding $K(x,y)_\tau \to K(x,y)_\lambda$.  The objects of $K(x,y)_\tau$ are called **tight morphisms** $x\to y$, and the objects of $K(x,y)_\lambda$ are called **loose morphisms** $x\rightsquigarrow y$.
 
