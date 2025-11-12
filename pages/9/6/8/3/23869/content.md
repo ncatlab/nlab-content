@@ -21,9 +21,22 @@ On [[G-crossed braided fusion categories]] via [[3-categories]]:
 
 * [[Corey Jones]], [[David Penneys]], [[David Reutter]], *A 3-categorical perspective on $G$-crossed braided categories*, J. London Math. Soc. **107** 1 (2023) 333-406 &lbrack;[arXiv:2009.00405](https://arxiv.org/abs/2009.00405), [doi:10.1112/jlms.12687](https://doi.org/10.1112/jlms.12687)&rbrack;
 
+
+
+
+On [[anyon|anyonic]] [[topological order]] in the [[Levin-Wen model]]:
+
+* Jessica Christian, [[David Green]], Peter Huston, [[David Penneys]]: *A lattice model for condensation in Levin-Wen systems* &lbrack;[arXiv:2303.04711](https://arxiv.org/abs/2303.04711)&rbrack;
+
+On the [[Levin-Wen model]] as a [[gauge theory]]:
+
+* Kyle Kawagoe, Corey Jones, Sean Sanford, [[David Green]], [[David Penneys]]: *Levin-Wen is a gauge theory: entanglement from topology* &lbrack;[arXiv:2401.13838](https://arxiv.org/abs/2401.13838)&rbrack;
+
+
+
 Introducing a notion of [[dagger n-categories|dagger $n$-categories]]:
 
-* [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
+* [[Giovanni Ferrer]], [[Brett Hungar]], [[Theo Johnson-Freyd]], [[Cameron Krulewski]], [[Lukas Müller]], [[Nivedita]], [[David Penneys]], [[David Reutter]], [[Claudia Scheimbauer]], [[Luuk Stehouwer]], [[Chetan Vuppulury]], *Dagger n-categories* &lbrack;[arXiv:2403.01651](https://arxiv.org/abs/2403.01651)&rbrack;
 
 On identifying [[W*-category|$W^\ast$-categories]] with [[2-Hilbert spaces]]:
 
