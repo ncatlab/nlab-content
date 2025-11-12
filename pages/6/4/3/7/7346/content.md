@@ -39,7 +39,7 @@ Below is an "element-free" proof. The key ideas are that finitely-generated $R$-
 
 Recall the following six basic facts (essentially four "induction principles" and two "base cases" of our "induction" up from cyclic modules):
 
-1. The middle term of a short exact sequence is $0$ iff the left and right terms are $0$
+1. The middle term of a short exact sequence is $0$ iff its left and right terms are $0$
 
 2. The middle component of a morphism of short exact sequences is $0$ iff its left and right components are $0$.
 
