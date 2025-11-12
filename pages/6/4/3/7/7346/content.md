@@ -144,7 +144,12 @@ A map between complex projective varieties of dimension $n$ which is a bijection
 
 ## References
 
-Cf. [Stacks 07RC](https://stacks.math.columbia.edu/tag/07RC)
+* [[Stacks Project]]: [07RC](https://stacks.math.columbia.edu/tag/07RC)
+
+* Wikipedia: *[Nakayama lemma](https://en.wikipedia.org/wiki/Nakayama%27s_lemma)*
 
 category: algebra
+
+
 [[!redirects Nakayama lemma]]
+
