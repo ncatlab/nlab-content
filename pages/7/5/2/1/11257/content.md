@@ -33,7 +33,7 @@ Roughly speaking, a $C^*$-[[C-star-correspondence|correspondence]] between two $
 +-- {: .num_defn #CstarCorrespondence}
 ###### Definition
 
-Let $A$ and $B$ be $C^*$-[[C*-algebra|algebras]]. An $A,B$-correspondence is a pair $(E,\varphi)$ consisting of a right Hilbert $B$-[[Hilbert C*-module|module]] $E$ and a non-degerate $C^*$-homomorphism $\varphi \colon A\to \mathcal{L}_B(E)$; _i.e_., the image $\varphi(A)E$ is dense in $E$ (as Hilbert $B$-modules).
+Let $A$ and $B$ be $C^*$-[[C*-algebra|algebras]]. An $A,B$-correspondence is a pair $(E,\varphi)$ consisting of a right Hilbert $B$-[[Hilbert C*-module|module]] $E$ and a non-degenerate $C^*$-homomorphism $\varphi \colon A\to \mathcal{L}_B(E)$; _i.e_., the image $\varphi(A)E$ is dense in $E$ (as Hilbert $B$-modules).
 
 We write 
 
