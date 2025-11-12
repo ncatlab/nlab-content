@@ -77,7 +77,7 @@ But with the probability amplitudes $\Theta$ composing according to matrix multi
 
 In conclusion: The stochastic processes given by quantum processes are generically *indivisible*.
 
-That seems to be the key point highlighted by [Barandes 2025](#Barandes2025).
+That seems to be the key point highlighted by [Barandes 2025](#Barandes2025) (without maybe explicitly saying so).
 
 
 
