@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[dependent type theory]] the _type of propositions_ --- typically denoted $Prop$ or $\Omega$ --- corresponds, under [[categorical semantics]], roughly to a *[[subobject classifier]]*.  
+In [[dependent type theory]] the *type of propositions* ([Univalent Foundations Project 2013](#UFP13)) or *universe of propositions* ([Altenkirch, Kaposi, & Xie 2025](#AKX25), [Angiuli & Gratzer](#AngiuliGratzer)) --- typically denoted $Prop$ or $\Omega$ --- corresponds, under [[categorical semantics]], roughly to a *[[subobject classifier]]*.  
 
 > (To be precise, depending on the type theoretic rules and axioms this may not be quite true: one needs [[propositional impredicativity]], [[propositional resizing]], [[propositional extensionality]], and --- in some type theories where "proposition" is not defined as an [[h-proposition]], such as the [[calculus of constructions]] --- the [[principle of unique choice]].)
 
@@ -129,7 +129,8 @@ Uniqueness rules for the type of all propositions:
 
 $$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash A \equiv \mathrm{toProp}_{\mathrm{El}(A)}(\mathrm{proptrunc}(A)):\mathrm{Prop}}$$
 
-Extensionality principle of the type of all propositions:
+Extensionality principle of the type of all propositions (i.e. [[univalence]], [[propositional extensionality]]):
+
 $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gamma \vdash \mathrm{ext}_\mathrm{Prop}(A, B):\mathrm{isEquiv}(\mathrm{transport}^\mathrm{El}(A, B))}$$
 
 #### A la Russell
@@ -155,7 +156,8 @@ Uniqueness rules for the type of all propositions:
 
 $$\frac{\Gamma \vdash A:\mathrm{Prop}}{\Gamma \vdash A \equiv \mathrm{toProp}_{A}(\mathrm{proptrunc}(A)):\mathrm{Prop}}$$
 
-Extensionality principle for the type of all propositions:
+Extensionality principle for the type of all propositions (i.e. [[univalence]], [[propositional extensionality]]):
+
 $$\frac{\Gamma \vdash A:\mathrm{Prop} \quad \Gamma \vdash B:\mathrm{Prop}} {\Gamma \vdash \mathrm{ext}_\mathrm{Prop}(A, B):(A =_\mathrm{Prop} B) \simeq (A \simeq B)}$$
 
 ## Predicate logic
@@ -380,6 +382,10 @@ These axioms imply that $(\Omega, T)$ satisfy [[propositional extensionality]] a
 ## References
 
 * {#UFP13} [[Univalent Foundations Project]], *[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]* (2013) &lbrack;[web](http://homotopytypetheory.org/book/), [pdf](http://hottheory.files.wordpress.com/2013/03/hott-online-323-g28e4374.pdf)&rbrack;
+
+These are called *universe of propositions* in section 6 of:
+
+* {#AKX25} [[Thorsten Altenkirch]], [[Ambrus Kaposi]], [[Szumi Xie]], *The Groupoid-syntax of Type Theory is a Set* &lbrack;[arXiv:2509.14988](https://arxiv.org/abs/2509.14988)&rbrack;
 
 The impredicative universe of all propositions and its inference rules are defined in sections 2.8.4 and 5.1.1 of the following draft reference, and the predicate logic of the type theory is defined in section 2.8.5 of:
 
