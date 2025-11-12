@@ -28,7 +28,7 @@ There are various variants and generalizations of the Dold-Kan correspondence. T
 
 ## Statement (abelian case)
 
-Let $A$ be an [[abelian category]].
+Let $A$ be an [[abelian category]] (or more generally a [[finitely complete category|finitely complete]] [[additive category]]).
 
 We say a [[chain complex]] in $A$ is _connective_ if it is concentrated in non-negative degree. The [[full subcategory]]
 
