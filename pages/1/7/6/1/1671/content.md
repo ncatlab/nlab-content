@@ -74,7 +74,7 @@ The axiom of __weak countable choice__ ($WCC$) states that a surjection $p\colon
 
 ### Another weak countable choice {#ACN2}
 
-An axiom variously called $AC_{weak}$ and $\mathrm{AC}_{\mathrm{N},2}$ is countable choice for relations from the [[natural numbers]] $\mathbb{N}$ to the [[booleans]] $\{0,1\}$. This states that any entire relation $R$ from $\mathbb{N}$ to $\{0,1\}$ contains a functional entire relation, i.e. there exists a [[sequence]] $x$ in $\{0,1\}$ such that $R(n, x_n)$ holds. Like $WCC$ above, this also follows from either $CC$ or excluded middle. It is enough to prove the equivalence of the [[Dedekind reals]] and [[Cauchy reals]]. See [Saving et al (2021)](#Saving2021), [King et al (2024)](#King2024). It is also enough to prove the [[fan theorem]] and the [[Heine-Borel theorem]] for the [[Dedekind real numbers]]. 
+An axiom variously called $AC_{weak}$ and $\mathrm{AC}_{\mathrm{N},2}$ is countable choice for relations from the [[natural numbers]] $\mathbb{N}$ to the [[booleans]] $\{0,1\}$. This states that any entire relation $R$ from $\mathbb{N}$ to $\{0,1\}$ contains a functional entire relation, i.e. there exists a [[sequence]] $x$ in $\{0,1\}$ such that $R(n, x_n)$ holds. Like $WCC$ above, this also follows from either $CC$ or excluded middle. It is enough to prove the equivalence of the [[Dedekind reals]] and [[Cauchy reals]]. See [Saving et al (2021)](#Saving2021), [King et al (2024)](#King2024). 
 
 ### Very weak countable choice
 
