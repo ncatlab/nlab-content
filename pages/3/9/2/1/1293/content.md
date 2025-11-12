@@ -28,10 +28,14 @@ Explanation, visualisation and calculation of the first homology of the [[Hantzs
 
 Applets:
 
-* [Euler characteristic applet](ttps://www.gregegan.net/DIASPORA/02/02det.html#APPLET) (1997)
+* [Euler characteristic applet](https://www.gregegan.net/DIASPORA/02/02det.html#APPLET) (1997)
+
 * [Gravitational Waves applet](https://www.gregegan.net/DIASPORA/04/04.html#GWAVES) (1997)
+
 * [Decoherence applet](https://www.gregegan.net/SCHILD/Decoherence/DecoherenceApplet.html) (2002)
+
 * [Spin Networks applet](https://www.gregegan.net/SCHILD/Spin/Spin.html) (2002)
+
 * [Interactive 2+2-dimensional Pseudo-Riemannian space](https://www.gregegan.net/DICHRONAUTS/02/Interactive.html) (2017)
 
 category: people
