@@ -8,26 +8,27 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea 
 
-Nakayama's lemma is a simple but fundamental result of commutative algebra frequently used to lift information from the [[fiber]] of a [[sheaf]] over a point (as for example a [[coherent sheaf]] over a [[scheme]]) to give information on the [[stalk]] at that point. 
+*Nakayama's lemma* is a simple but fundamental result of [[commutative algebra]] which is frequently used to lift information from the [[fiber]] of a [[sheaf]] over a point (as for example a [[coherent sheaf]] over a [[scheme]]) to give information on the [[stalk]] at that point. 
 
 ## Statement
 
-We first give a general version of Nakayama's lemma (Prop. \ref{GeneralNakayamaLemma}) and then give as corollaries two alternative statements (Prop. \ref{FirstSpecialVersion} and Prop. \ref{SecondSpecialVersion}) that are also often considered "Nakayama's lemma".
+We first give a general version of Nakayama's lemma (Prop. \ref{GeneralNakayamaLemma}) and then give as corollaries two alternative statements (Prop. \ref{FirstSpecialVersion} and Prop. \ref{SecondSpecialVersion}) that are also often called "Nakayama's lemma".
 
 \begin{proposition}\label{GeneralNakayamaLemma}
 **(Nakayama's lemma**)
 \linebreak
-Given a [[commutative ring]] $R$, a [[finitely generated]] [[module|$R$-module]] $M$, and an ideal $I \subseteq R$,
+Given a [[commutative ring]] $R$, a [[finitely generated]] [[module|$R$-module]] $M$, and an [[ideal]] $I \subseteq R$,
 
 1. $\text{supp} (M) = \mathcal{V} (Ann (M))$.
 
-2. $M \otimes_{R} (R / I)$ is not $0$ iff $\text{supp}(M) \cap \mathcal{V} (I)$ is inhabited.
+2. $M \otimes_{R} (R / I) \,&#x2244;\, 0$ iff $\text{supp}(M) \cap \mathcal{V} (I)$ is [[inhabited set|inhabited]].
 
 \end{proposition}
 
