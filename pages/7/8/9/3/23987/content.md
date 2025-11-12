@@ -4409,7 +4409,7 @@ Nov 2025
 
 ### Nov 2025
 
-* 12 Nov 2025
+* {#BolsNov2025} 12 Nov 2025
 
   [[Alex Bols]]: 
 
