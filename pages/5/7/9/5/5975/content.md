@@ -63,7 +63,7 @@ On [[elementary topos|elementary]] [[2-topoi]] (or more generally the pieces of 
 
 * [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009).  Also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi.
 
-* [[Luca Mesiti]], _The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits_ (2023) &lbrack;[arXiv:2302.04566v1](http://arxiv.org/abs/2302.04566v1)&rbrack;
+* [[Luca Mesiti]], _Pointwise Kan extensions along 2-fibrations and the 2-category of elements_, Theory and Applications of Categories **41** 30 960–994 (2024) &lbrack;[arXiv:2302.04566](http://arxiv.org/abs/2302.04566), [doi:10.70930/tac/b9u5z003](http://doi.org/10.70930/tac/b9u5z003)&rbrack;
 
 * [[Luca Mesiti]], _2-classifiers via dense generators and Hofmann-Streicher universe in stacks_, Canadian Journal of Mathematics (2025) 1–52 &lbrack;[arXiv:2401.16900](http://arxiv.org/abs/2401.16900), [doi:10.4153/S0008414X24000865](https://doi.org/10.4153/S0008414X24000865)&rbrack;
 
@@ -101,7 +101,7 @@ On [[2-categories]] as [[2-theories]]:
 
 * {#CDL21} Greta Coraglia, [[Ivan Di Liberti]], _Context, judgement, deduction_ (2021) &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;
 
-* Vít Jelínek, _Type theory and its semantics_, Master thesis, Masaryk University (2024) &lbrack;[url](https://theses.cz/id/n7t9ei/)&rbrack;
+* Vít Jelínek, _Type theory and its semantics_, Master thesis, Masaryk University (2024) &lbrack;[url](https://is.muni.cz/th/fl75q/)&rbrack;
 
 * Jonathan Osser,  _A 2‑Sketchy Approach to Type Theory_, Master thesis, University of Amsterdam (2025) &lbrack;[url](https://scripties.uba.uva.nl/search?id=record_56899)&rbrack;
 
