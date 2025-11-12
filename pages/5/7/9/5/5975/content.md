@@ -16,7 +16,7 @@
 
 ## Idea
 
-By *2-categorical logic* one means [[categorical logic]] generalized from ordinary [[categories]] ([[1-categories]]) to *[[2-categories]]* ([[bicategories]]).
+By *2-categorical logic* one means [[categorical logic]] generalized from ordinary [[categories]] ([[1-categories]]) to *[[2-categories]]* (usually treated as weak 2-categories, i.e. [[bicategories]]).  This includes 
 
 Unifying themes:
 
@@ -37,17 +37,13 @@ Unifying themes:
 ## References
  {#References}
 
+On 2-categorical [[exactness properties]]:
 
-Early contributions towards the understanding of the  [[internal logic]] of [[2-toposes]] were started by Weber. Those later inspired 
+* [[Ross Street]]: *Characterization of bicategories of stacks*, in: *Category Theory*, Lecture Notes in Mathematics **962**, Springer (1982) 282–291 &lbrack;[doi:10.1007/BFb0066909](https://doi.org/10.1007/BFb0066909)&rbrack;
 
-* [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (2009)
-
-The project never saw light, and remained largely unexpressed, collecting some existing knowledge and references at the time and making germinal conjectures towards some initial notions. 
-
-Further explicit consideration of aspects of such "[[geometric logic|geometric]] 2-logic":
+* [[Ross Street]]: *Two-dimensional sheaf theory*, Journal of Pure and Applied Algebra **23** 3 (1982) 251-270 \[<a href="https://doi.org/10.1016/0022-4049(82)90101-3">doi:10.1016/0022-4049(82)90101-3</a>\]
 
 * {#BourkeGarner} [[John Bourke]], [[Richard Garner]], Remks. 42 & 47 in: *Two-dimensional regularity and exactness*, Journal of Pure and Applied Algebra, **218** 7 (2014) 1346–1371 &lbrack;[doi:10.1016/j.jpaa.2013.11.021](https://doi.org/10.1016/j.jpaa.2013.11.021), [arXiv:1304.5275](https://arxiv.org/abs/1304.5275)&rbrack;
-
 
 On [[flat functor|flat]] [[2-functors]]:
 
@@ -57,13 +53,15 @@ On [[flat functor|flat]] [[2-functors]]:
 
 * [[Maria Emilia Descotte]], _A theory of 2-pro-objects, a theory of 2-model 2-categories and the 2-model structure for 2-Pro(C)_, PhD thesis, Universidad de Buenos Aires (2020) &lbrack;[arXiv:2010.10636](https://arxiv.org/abs/2010.10636)&rbrack;
 
-On [[elementary topos|elementary]] [[2-topoi]]:
+On [[elementary topos|elementary]] [[2-topoi]] (or more generally the pieces of such a structure):
 
 * [[Calum Hughes]], Adrian Miranda, _The elementary theory of the 2-category of small categories_, Theory and Applications of Categories *43* 8 (2025) 196–242 &lbrack;[arXiv:2403.03647](https://arxiv.org/abs/2403.03647), [doi:10.70930/tac/c97jx7g2](https://doi.org/10.70930/tac/c97jx7g2)&rbrack;
 
 * [[Ross Street]], _Elementary cosmoi I_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 134–180 &lbrack;[doi:10.1007/bfb0063103](https://doi.org/10.1007/bfb0063103)&rbrack;
 
 * [[Ross Street]], _Fibrations and Yoneda's Lemma in a 2-category_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 104–133 &lbrack;[doi:10.1007/BFb0063102](https://doi.org/10.1007/BFb0063102)&rbrack;
+
+* [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009).  Also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi.
 
 * [[Luca Mesiti]], _The 2-Set-enriched Grothendieck construction and the lax normal conical 2-limits_ (2023) &lbrack;[arXiv:2302.04566v1](http://arxiv.org/abs/2302.04566v1)&rbrack;
 
