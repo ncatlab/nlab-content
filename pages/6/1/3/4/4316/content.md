@@ -223,7 +223,7 @@ Discussion in the context of [[holographic entanglement entropy]]:
 ### Applications
  {#ReferencesApplications}
 
-Approaches using DHR theory to rigorously derive [[anyon]] [[braided monoidal category|braided]] [[fusion category]] stricture in 2+1D [[QFT]]:
+Approaches using DHR theory to rigorously derive [[anyon]] [[braided monoidal category|braided]] [[fusion category]] structure in 2+1D [[QFT]]:
 
 * [[Pieter Naaijkens]]: *Localized endomorphisms in Kitaev's toric code on the plane*, Rev. Math. Phys. **23** (2011) 347-373 \[<a href="https://doi.org/10.1142/S0129055X1100431X">doi:10.1142/S0129055X1100431X</a>, [arXiv:1012.3857](https://arxiv.org/abs/1012.3857)\]
 
@@ -235,6 +235,9 @@ Approaches using DHR theory to rigorously derive [[anyon]] [[braided monoidal ca
 * [[Yoshiko Ogata]]: *A derivation of braided $C^\ast$-tensor categories from gapped ground states satisfying the approximate Haag duality*, J. Math. Phys. **63** 011902 (2022) \[<a href="https://doi.org/10.1063/5.0061785">doi:10.1063/5.0061785</a>, [arXiv:2106.15741](https://arxiv.org/abs/2106.15741)\]
 
 * [[Alex Bols]], [[Boris Kjaer]], [[Alvin Moon]]: *The double semion state in infinite volume*, Ann. Henri Poincaré **26** (2025) 1009–1053 \[<a href="https://doi.org/10.1007/s00023-024-01445-y">doi:10.1007/s00023-024-01445-y</a>, [arXiv:2306.13762](https://arxiv.org/abs/2306.13762)\]
+
+* [[Alex Bols]]: *Sector theory for Levin-Wen models*, [talk at](CQTS#BolsNov2025) *[[CQTS]]* (Nov 2025) &lbrack;slides:[[Bols-CQTS-Nov2025.pdf:file]]&rbrack;
+  > (in the [[Levin-Wen model]])
 
 
 [[!redirects DHR analysis]]
