@@ -160,7 +160,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-First to see that it is an open subset. It is sufficient to show that for any $e \in E$ there exists an open neighbourhood of $(e,e) \in E \times_X E$.
+First to see that it is an open subset. It is sufficient to show that for any $e \in E$ there exists an open neighbourhood of $(e,e) \in E \times_X E$ that is a subset of $\Delta(E)$.
 
 Now by definition of covering spaces, there exists an open neighbourhood $U_{p(e)} \subset X$ of $p(e) \in X$ such that 
 
@@ -176,17 +176,23 @@ $$
   \,.
 $$
 
-It follows that $U_{p(e)} \times \{e\} \subset E$ is an open neighbourhood. Hence by the nature of the [[product topology]], $U_{p(e)} \times U_{p(e)} \subset E \times E$ is an open neighbourhood of $(e,e)$ in $E \times E$ and hence by the nature of the [[subspace topology]] the restriction 
+It follows that $U_{p(e)} \times \{e\} \cong U'_{p(e)} \subset E$ is an open neighbourhood. Hence by the nature of the [[product topology]], $U'_{p(e)} \times U'_{p(e)} \subset E \times E$ is an open neighbourhood of $(e,e)$ in $E \times E$ and hence by the nature of the [[subspace topology]] the restriction 
 
 $$
-  (E \times_X E) \cap (U_{p(e)} \times U_{p(e)}) \subset E \times_X E
+  (E \times_X E) \cap (U'_{p(e)} \times U'_{p(e)}) \subset E \times_X E
 $$
 
-is an open neighbourhood of $(e,e)$ in $E \times_X E$.
+is an open neighbourhood of $(e,e)$ in $E \times_X E$. Because $p$ restricts to a homeomorphism on $U'_{p(e)}$, this neighborhood satisfies
+
+$$
+  (E \times_X E) \cap (U'_{p(e)} \times U'_{p(e)}) = \Delta(U'_{p(e)}) \subset \Delta(E),
+$$
+
+thereby proving that $\Delta(E)$ is open.
 
 Now to see that the diagonal is closed, hence that the complement $(E \times_X E) \setminus \Delta(E)$ is an open subset, it is sufficient to show that every point $(e_1, e_2)$ with $e_1 \neq e_2$ but $p(e_1) = p(e_2)$ has an open neighbourhood in this complement.
 
-As before, there is an open neighbourhood $U \subset X$ of $p(e_1) = p(e_2)$ over which the cover trivializes, and hence $U \times \{e_1\}, U \times \{e_2\} \subset E$ are open neighbourhoods of $e_1$ and $e_2$, respectively. These are disjoint by the assumption that $e_1 \neq e_2$. As above, this means that the intersection
+As before, there is an open neighbourhood $U \subset X$ of $p(e_1) = p(e_2)$ over which the cover trivializes, and hence $U \times \{e_1\}, U \times \{e_2\} \subset U \times Disc(p^{-1}(p(e_1))) \cong E$ are open neighbourhoods of $e_1$ and $e_2$, respectively. These are disjoint by the assumption that $e_1 \neq e_2$. As above, this means that the intersection
 
 $$
   (E \times_X E) \cap ( (U \times \{e_1\}) \times (U \times \{e_2\}) )
