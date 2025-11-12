@@ -2,12 +2,15 @@
 
 ## Selected writings
 
-On [[2-category theory]]:
+On flat [[2-functors]] with an eye towards [[2-toposes]]:
 
-* [[Maria Emilia Descotte]], [[Eduardo Dubuc]], _A theory of 2-pro-objects (with expanded proofs)_ &lbrack;[arXiv:1406.5762](https://arxiv.org/abs/1406.5762)&rbrack;
+* [[Maria Emilia Descotte]], [[Eduardo J. Dubuc]], Martin Szyld: _A construction of certain weak colimits and an exactness property of the 2-category of categories_, Theory and Applications of Categories **33** 8 (2018) 193–215 &lbrack;[arXiv:1610.02453](https://arxiv.org/abs/1610.02453), [doi:10.70930/tac/ojwotgya](https://doi.org/10.70930/tac/ojwotgya)&rbrack;
 
-* [[Maria E. Descotte]], [[Eduardo J. Dubuc]], M. Szyld, _Sigma limits in 2-categories and flat pseudofunctors_, (v1:On the notion of flat 2-functors) [arXiv:1610.09429](https://arxiv.org/abs/1610.09429) Adv. Math. __333__ (2018) 266--313
+* [[Maria Emilia Descotte]], [[Eduardo J. Dubuc]], Martin Szyld: _Sigma limits in 2-categories and flat pseudofunctors_, Advances in Mathematics **333** 31 (2018) 266–313 &lbrack;[arXiv:1610.09429](https://arxiv.org/abs/1610.09429), [doi:10.1016/j.aim.2018.05.021](https://doi.org/10.1016/j.aim.2018.05.021)&rbrack;
 
+On [[pro-objects]] in [[2-category theory]]:
+
+* [[Maria Emilia Descotte]], _A theory of 2-pro-objects, a theory of 2-model 2-categories and the 2-model structure for $2\text{-}Pro(C)$_, PhD thesis, Universidad de Buenos Aires (2020) &lbrack;[arXiv:2010.10636](https://arxiv.org/abs/2010.10636)&rbrack;
 
 On [[localizations of 2-categories]]:
 
