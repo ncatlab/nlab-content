@@ -4415,6 +4415,8 @@ Nov 2025
 
   **Sector theory for Levin-Wen models**
 
+  slides: [[Bols-CQTS-Nov2025.pdf:file]]
+
   > The [[category]] of [[superselection sectors]] associated to a [[energy gap|gapped]] [[ground state]] of a 2+1 dimensional [[quantum system]] provides a rigorous definition of the [[topological order]] of that [[ground state]]. After giving a brief introduction to [[DHR superselection theory|sector theory]] in the context of quantum spin systems, I will sketch how we compute this category for [[Levin-Wen models]]. Based on ongoing work with [[Boris Kjaer]].
 
 \linebreak
