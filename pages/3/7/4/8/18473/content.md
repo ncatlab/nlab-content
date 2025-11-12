@@ -62,7 +62,11 @@ Every fully faithful functor is *equivalent* to one that is fully faithful and i
 
 ## Properties
 
-* Full embeddings are closed under [[pushouts]] in [[Cat]].  For ordinary categories this was proven by [Trnková](#Trnková) and independently by [Fritch and Latch](#FL); for [[enriched categories]] it is proven in [Stanculescu, Prop. 3.1](#Stanculescu), and for [[(∞,1)-categories]] it is proven in [Simspon, Cor. 16.6.2](#Simpson). See also [MacDonald and Scull](#MS) for more general conditions.
+* Full embeddings are closed under [[pushouts]] in [[Cat]].
+  - For ordinary categories this was proven first by [Trnková](#Trnková) under the assumption both functors are full embeddings, and later in the general case by [Fritch and Latch](#FL).
+  - For [[enriched categories]] it is proven in [Stanculescu, Prop. 3.1](#Stanculescu).
+  - For [[(∞,1)-categories]] it is proven in [Simspon, Cor. 16.6.2](#Simpson). See also [MacDonald and Scull](#MS) for more general conditions.
+  - For [[internal categories]] in an [[(∞,1)-category]], it is proven in Lemma 6.3.10 of [Martini and Wolf](#MW).
 
 ## Examples
 
@@ -97,6 +101,8 @@ For stability under pushouts:
 * {#Stanculescu} Alexandru E. Stanculescu, _Constructing model categories with prescribed fibrant objects_, Theory and Applications of Categories, Vol. 29, (2014) No. 23, pp 635-653, [journal page](http://www.tac.mta.ca/tac/volumes/29/23/29-23abs.html), arXiv:[1208.6005](https://arxiv.org/abs/1208.6005).
 
 * {#Simpson} [[Carlos Simpson]], [[Homotopy Theory of Higher Categories]]
+
+* {#MW} Louis Martini and Sebastian Wolf, _Colimits and cocompletions in internal higher category theory_ (2024), [[Higher Structures]], ([pdf](https://higher-structures.math.cas.cz/api/files/issues/Vol8Iss1/MartiniWolf))
 
 [[!redirects embedding of categories]]
 [[!redirects embeddings of categories]]
