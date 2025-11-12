@@ -491,7 +491,7 @@ $$
   \,.
 $$
 
-This construction (in consequence of [Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69)) may be understood as completing a suggestion by [Witten 2000 p. 6-8](D-brane+charge+quantization+in+K-theory#Witten00) following [Hořava 1998 (3.7, 3.17)](D-brane+charge+quantization+in+K-theory#Horava98).
+This construction (in consequence of [Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69)) may be understood as completing a suggestion by [Witten 2001 p. 6-8](D-brane+charge+quantization+in+K-theory#Witten00) following [Hořava 1998 (3.7, 3.17)](D-brane+charge+quantization+in+K-theory#Horava98).
 
 \end{example}
 
