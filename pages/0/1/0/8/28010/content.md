@@ -69,15 +69,18 @@ The __state vector__ or __wave function__ $\Psi(t)$ then evolves over time accor
 $$
 \Psi(t) = \Theta(t) \Psi(0)
 $$
-which gives us the [[Hilbert space]] view point of the [[stochastic process]].  This procedure can be reversed using the dictionary formula.
+which gives us the [[Hilbert space]] viewpoint of the [[stochastic process]].  This procedure can be reversed using the dictionary formula.
 
  For this brief overview we have ignored the measurement aspect as measurements cannot be modeled for [[stochastic processes]] within the [[Kleisli category]] of the [[Giry monad]] $G$. (They can however be modeled within the larger category of the category of algebras of the monad $G$. See Example 1 in [[stochastic processes]].)
 
 ## Remarks
 The stochastic-quantum correspondence, derived for the case of a finite configuration space, provide an impetus for searching for a more general characterization which does not depend upon the countability of the configuration space $\Omega$.  This is not an insignificant issue as there are some interesting analogies with finite [[probability spaces]] and other systems which fail to hold for uncountable  [[probability spaces]] with non-atomic probability measure. 
-The path required to generalize the results to uncountable spaces in not clear and needs to be addressed. 
+This issue arises because the path required to generalize the results to uncountable spaces is not elementary and needs to be addressed. 
 
 
+## Interpretations
+
+To be added: interpretations for [[quantum interference]], [[decoherence]], [[entanglement]] within the framework of indivisible [[stochastic processes]].
 
 ## History
 
