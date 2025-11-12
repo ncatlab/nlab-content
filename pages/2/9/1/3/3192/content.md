@@ -563,6 +563,8 @@ Textbook accounts:
 
 * [[William Arveson]], §3.3 of: *A Short Course on Spectral Theory*, Graduate Texts in Mathematics **209**, Springer (2002) &lbrack;[doi:10.1007/b97227](https://link.springer.com/book/10.1007/b97227)&rbrack;
 
+* M. W. Wong: *Fredholm Operators*, ch. 20 of: *An Introduction to Pseudo-Differential Operators*, Series on Analysis, Applications and Computation **6**, World Scientific (2014) 143-153 &lbrack;[doi:10.1142/9789814583091_0020](https://doi.org/10.1142/9789814583091_0020)&rbrack;
+
 * {#DSBW23} Nora Doll, [[Hermann Schulz-Baldes]], [[Nils Waterstraat]]: *Bounded Fredholm Operators*, Chapter 3 in: *Spectral Flow --- A Functional Analytic and Index-Theoretic Approach*, Studies in Mathematics **94**, De Gruyter (2023) &lbrack;[doi:10.1515/9783111172477](https://doi.org/10.1515/9783111172477), [hdl:20.500.12657/63798](https://library.oapen.org/handle/20.500.12657/63798)&rbrack;
 
 
@@ -593,7 +595,7 @@ and variants that serve as classifying spaces also for [[KO-theory]] and in any 
 
 * {#Karoubi1970} [[Max Karoubi]]: *Espaces Classifiants en K-Théorie*, Trans. Amer. Math. Soc. **147** (1970) 75-115 &lbrack;[doi:10.2307/1995218](https://doi.org/10.2307/1995218), [jstor:1995218](https://www.jstor.org/stable/1995218), Engl. transl: [[Karoubi-EspacesClassifiants-English-251105.pdf:file]]&rbrack;
 
-and relation to [[twisted equivariant K-theory]] hupf
+and relation to [[twisted equivariant K-theory]]:
 
 * {#AtiyahSegal04} [[Michael Atiyah]], [[Graeme Segal]], §3 in: _Twisted K-theory_, Ukrainian Math. Bull. **1** 3 (2004) &lbrack;[arXiv:math/0407054](http://arxiv.org/abs/math/0407054), [journal page](http://iamm.su/en/journals/j879/?VID=10), [published pdf](http://iamm.su/upload/iblock/45e/t1-n3-287-330.pdf)&rbrack;
 
@@ -605,17 +607,20 @@ See also:
 
 * Wikipedia, *[Fredholm operator](http://en.wikipedia.org/wiki/Fredholm_operator)*
 
-* A. S. Mishchenko, &#1042;&#1077;&#1082;&#1090;&#1086;&#1088;&#1085;&#1099;&#1077; &#1088;&#1072;&#1089;&#1089;&#1083;&#1086;&#1077;&#1085;&#1080;&#1103; &#1080; &#1080;&#1093; &#1087;&#1088;&#1080;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103; (Vector bundles and their applications), Nauka, Moscow, 1984. 208 pp. MR87f:55010  
+* [[Alexander Grothendieck]]; _La th&#233;orie de Fredholm_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __84__ (1956)  319-384 &lbrack;[numdam:1956__84__319_0](http://www.numdam.org/item?id=BSMF_1956__84__319_0)&rbrack; 
 
-* S. Rempel, B-W. Schulze, _Index theory of elliptic boundary problems_, Akademie--Verlag, Berlin, 1982.
+* S. Rempel, B-W. Schulze, _Index theory of elliptic boundary problems_, Akademie--Verlag (1982)
 
-* [[Lars Hörmander]], _The analysis of linear partial differential operators. III. Pseudo-differential operators_, 1994, reprinted 2007. 
+* A. S. Mishchenko, &#1042;&#1077;&#1082;&#1090;&#1086;&#1088;&#1085;&#1099;&#1077; &#1088;&#1072;&#1089;&#1089;&#1083;&#1086;&#1077;&#1085;&#1080;&#1103; &#1080; &#1080;&#1093; &#1087;&#1088;&#1080;&#1084;&#1077;&#1085;&#1077;&#1085;&#1080;&#1103; (Vector bundles and their applications), Nauka, Moscow, (1984) &lbrack;MR87f:55010&rbrack; 
 
-* Pietro Aiena, _Fredholm and local spectral theory, with applications to multipliers_, [book page](http://www.springer.com/mathematics/analysis/book/978-1-4020-1830-5)
 
-* [[Otgonbayar Uuye]], _A simple proof of the Fredholm Alternative_, [arxiv/1011.2933](http://arxiv.org/abs/1011.2933)
+* [[Lars Hörmander]]: _The analysis of linear partial differential operators. III. Pseudo-differential operators_, (1994, 2007)
 
-* [[Alexander Grothendieck]], _La th&#233;orie de Fredholm_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France __84__ (1956), p. 319-384, [numdam](http://www.numdam.org/item?id=BSMF_1956__84__319_0) 
+* Pietro Aiena, _Fredholm and local spectral theory, with applications to multipliers*, Springer (2004) &lbrack;[doi:10.1007/1-4020-2525-4](https://doi.org/10.1007/1-4020-2525-4)&rbrack;
+
+* [[Otgonbayar Uuye]], _A simple proof of the Fredholm Alternative_ &lbrack;[arxiv:1011.2933](http://arxiv.org/abs/1011.2933)&rbrack;
+
+
 
 * Marina Prokhorova, _Spectral Sections_, [arXiv:2008.04672](https://arxiv.org/abs/2008.04672).
 
