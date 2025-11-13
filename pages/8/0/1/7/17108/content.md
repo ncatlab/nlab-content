@@ -203,6 +203,17 @@ $$
 
 [[!include Spin(8)-subgroups and reductions -- table]]
 
+### Homotopy groups
+
+$\pi_1$ | $\pi_2$ | $\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ | $\pi_10$ | $\pi_11$ | $\pi_12$ | $\pi_13$ | $\pi_14$ | $\pi_15$ | $\pi_16$ | $\pi_17$ |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $0$ | $0$ | $\mathbb{Z}$ | $0$ | $0$ | $0$ | $\mathbb{Z}$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_8$ | $\mathbb{Z}\oplus\mathbb{Z}_2$ | $0$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2560\oplus\mathbb{Z}_8\oplus\mathbb{Z}_2$ | $\mathbb{Z}_2^4$ | $\mathbb{Z}_2^7$ | $\mathbb{Z}_8^2\oplus\mathbb{Z}_2^2$
+
+$\pi_18$ | $\pi_19$ | $\pi_20$ | $\pi_21$ | $\pi_22$ |
+|--|--|--|--|--|
+$\mathbb{Z}_945\oplus\mathbb{Z}_16\oplus\mathbb{Z}_8\oplus\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_24\oplus\mathbb{Z}_4$ | $\mathbb{Z}_10395\oplus\mathbb{Z}_8^2\oplus\mathbb{Z}_2^4$
+
+([Mimura 67](#Mimura67))
 
 ## Related concepts
 
@@ -211,6 +222,8 @@ $$
 [[!include special holonomy table]]
 
 ## References
+
+* {#Mimura67} [[Mamoru Mimura]], _The Homotopy groups of Lie groups of low rank_, Math. Kyoto Univ. Volume 6, Number 2 (1967), 131-176. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524375))
 
 * {#Onishchik93} A. L. Onishchik (ed.) _Lie Groups and Lie Algebras_
 
