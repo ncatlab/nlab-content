@@ -284,7 +284,8 @@ The assumption of naturality is necessary for the Yoneda lemma to hold. A simple
 
 A finite counter-example is given by the category with two objects $A$ and $B$, in which $Hom(A,A) = Hom(A,B) = Hom(B,B) = \{0, 1\}$, in which $Hom(B,A) = \{0, 2\}$, and composition is multiplication modulo 2. Here, again, it is certainly the case that $Hom(A,-)$ is isomorphic to $Hom(B,-)$ for any choice of $-$, but $A$ and $B$ are not isomorphic (composition with any arrow $B \rightarrow A$ is $0$, so cannot have an inverse, since $1$ is the identity on $A$ and $B$).
 
-On the other hand, there have been examples of locally finite categories where naturality is not necessary. For example, ([Lovász, Theorem 3.6 (iv)](#Lovasz)) states precisely that finite relational structures $A$ and $B$ are isomorphic if, and only if, $Hom(C,A) \cong Hom(C,B)$ for every finite relational structure $C$. Later ([Pultr, Theorem 2.2](#Pultr)) generalised the result to finitely well-powered, locally finite categories with (extremal epi, mono) [[factorization system]].
+On the other hand, there have been examples of locally finite categories where naturality is not necessary. For example, [Lovász 1967, Theorem 3.6 (iv)](#Lovasz1967) states precisely that finite relational structures $A$ and $B$ are isomorphic if, and only if, $Hom(C,A) \cong Hom(C,B)$ for every finite relational structure $C$. Later, [Pultr 1973, Theorem 2.2](#Pultr1973) generalised the result to finitely well-powered, locally finite categories with (extremal epi, mono) [[factorization system]].
+
 
 ## The Yoneda lemma in semicategories
 
@@ -363,18 +364,29 @@ Review and exposition:
 
 * [[Paolo Perrone]], _Notes on Category Theory with examples from basic mathematics_, Chapter 2. ([arXiv](http://arxiv.org/abs/1912.10642))
 
-A discussion of the Yoneda lemma from the point of view of [[universal algebra]] is in
+Early Lovász-Type results:
+
+* {#Lovasz1967} László Lovász, _Operations with structures_, Acta Mathematica Academiae Scientiarum Hungarica **18** (1967) 3-4 321-328
+
+* {#Pultr1973} Aleš Pultr. _Isomorphism types of objects in categories determined by numbers of morphisms_, Acta Scientiarum Mathematicarum **35** (1973) 155–160
+
+
+A discussion of the Yoneda lemma from the point of view of [[universal algebra]]:
 
 * [[Vaughan Pratt]], _The Yoneda lemma without category theory: algebra and applications_ ([pdf](http://boole.stanford.edu/pub/yon.pdf)).
 
-A treatment of the Yoneda lemma for [[internal category in an (infinity,1)-category|categories internal to an (∞,1)-topos]] is in 
 
-* Louis Martini, _Yoneda's lemma for internal higher categories_, ([arXiv:2103.17141](https://arxiv.org/abs/2103.17141))
+Discussion of the Yoneda lemma in [[formal category theory]] internal to suitable [[2-categories]]:
 
-Early Lovász-Type results include
+* [[Ross Street]]: _Fibrations and Yoneda's Lemma in a 2-category_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 104–133 &lbrack;[doi:10.1007/BFb0063102](https://doi.org/10.1007/BFb0063102)&rbrack;
 
-* {#Lovasz} László Lovász, _Operations with structures_, Acta Mathematica Academiae Scientiarum Hungarica 18.3-4 (1967): 321-328.
-* {#Pultr} Aleš Pultr. _Isomorphism types of objects in categories determined by numbers of morphisms_, Acta Scientiarum Mathematicarum, 35:155–160, 1973.
+* [[Ross Street]]: _Elementary cosmoi I_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 134–180 &lbrack;[doi:10.1007/bfb0063103](https://doi.org/10.1007/bfb0063103)&rbrack;
+
+
+A treatment of the Yoneda lemma for [[internal category in an (infinity,1)-category|categories internal to an (∞,1)-topos]]:
+
+* [[Louis Martini]], _Yoneda's lemma for internal higher categories_ &lbrack;[arXiv:2103.17141](https://arxiv.org/abs/2103.17141)&rbrack;
+
 
 
 [[!redirects yoneda lemma]]
