@@ -41,4 +41,9 @@ The Rosenberg's version of the [[Gabriel-Rosenberg reconstruction]] of commutati
 
 * [[A. L.  Rosenberg]], _Noncommutative algebraic geometry and representations of quantized algebras_, MIA __330__, Kluwer Academic Publishers Group, Dordrecht, 1995. xii+315 pp. ISBN: 0-7923-3575-9 
 
+[[!redirects spectra of abelian categories]]
+
+
 category: algebraic geometry, noncommutative geometry
+
+
