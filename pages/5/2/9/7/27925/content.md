@@ -41,7 +41,7 @@ Consequently, in a category with [[finite limits]], an object $X$ is an [[expone
 
 - [[Conduche functor|Exponentiable functors]] are characterised by a factorisation property.
 
-- The exponentiable morphisms in $Top$ were characterized by [Niefield](#Niefield82). In particular, a subspace inclusion $C \to D$ is exponentiable if and only if it is [[locally closed]].
+- The exponentiable morphisms in $Top$ were characterized by [Niefield](#Niefield82). In particular, a subspace inclusion $C \to D$ is exponentiable if and only if $C$ is [[locally closed]].
 
 - The exponentiable morphisms in $Locale$ and $Topos$ which are embeddings were also characterized by [Niefield](#Niefield81). It seems that no complete characterization of exponentiable morphisms in $Locale$ or $Topos$ appears in the literature.
 
