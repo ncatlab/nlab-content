@@ -32,6 +32,11 @@ On [[coherence theorems]] for [[tricategories]]:
 
 * [[Robert Gordon]], [[A. John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558 ([ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558))
 
+On motivation for [[tricategories]] from [[formal logic|formal]]/[[categorical logic]] and [[computer science]]:
+
+* [[John Power]]: _Why tricategories?_, Information and Computation **120** 2 (1995) 251–262 &lbrack;[doi:10.1006/inco.1995.1112](https://doi.org/10.1006/inco.1995.1112)&rbrack;
+
+
 On [[sketches]] [[internalization|internalized]] in [[2-categories]]:
 
 * {#KinoshitaPowerTakeyama99} [[Yoshiki Kinoshita]], [[John Power]], Makoto Takeyama, *Sketches*, Journal of Pure and Applied Algebra **143** 1-3 (1999) 275-291 \[<a href="https://doi.org/10.1016/S0022-4049(98)00114-5">doi:10.1016/S0022-4049(98)00114-5</a>\]
