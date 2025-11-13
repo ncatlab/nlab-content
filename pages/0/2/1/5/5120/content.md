@@ -57,7 +57,7 @@ Grothendieck has defined a prime spectrum of commutative unital ring having in m
 * {#Müller2003} [[Vladimir Müller]]: *Spectral Theory of Linear Operators and Spectral Systems in Banach Algebras*, Operator Theory: Advances and Applications **139**, Birkhäuser (2003, 2007) &lbrack;[doi:10.1007/978-3-7643-8265-0](https://doi.org/10.1007/978-3-7643-8265-0)&rbrack;
 
 
-* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics: Mathematical Structure of Quantum Theories, Symmetries and introduction to the Algebraic Formulation_ 2nd Edition, Springer 2018 ISBN 978-3-319-70705-1
+* [[Valter Moretti]], _Spectral Theory and Quantum Mechanics -- Mathematical Foundations of Quantum Theories, Symmetries and Introduction to the Algebraic Formulation_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
 
 See also:
 
