@@ -21,6 +21,7 @@
 A **tricategory** is a particular [[algebraic definition of higher category|algebraic]] notion of _weak_ [[3-category]]. 
 The idea is that a tricategory is a category [[weak enrichment|_weakly_ enriched]] over [[Bicat]]: the [[hom-object|hom-objects]] of a tricategory are [[bicategories]], and the associativity and unity laws of [[enriched category|enriched categories]] hold only up to coherent equivalence.
 
+
 ## Coherence theorems
 {#Coherence}
 
@@ -53,22 +54,30 @@ This, and that the monoidal bicategory is even symmetric monoidal is given by th
 ## Related entries 
 
 * [[strict 3-category]]
+
 * [[Gray-category]]
+
 * [[2-bicategory]]
+
 * [[bicategory]]
+
 * [[tetracategory]]
+
 
 ## References
 
 The original source:
 
-* [[Robert Gordon]], [[A. John Power]], [[Ross Street]], _Coherence for tricategories_, Mem. Amer. Math Soc. 117 (1995) no 558 ([ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558))
+* [[Robert Gordon]], [[A. John Power]], [[Ross Street]]: _Coherence for tricategories_, Mem. Amer. Math Soc. **117** 558 (1995) &lbrack;[ISBN:978-1-4704-0137-5](https://bookstore.ams.org/memo-117-558)&rbrack;
 
 refined in:
 
-* [[Nick Gurski]], _An algebraic theory of tricategories_, PhD thesis (2007) &lbrack;[pdf](https://dokumen.tips/documents/an-algebraic-theory-of-tricategories.html), [[Gurski-AlgebraicTricategories.pdf:file]]&rbrack;
+* [[Nick Gurski]]: _An algebraic theory of tricategories_, PhD thesis (2007) &lbrack;[pdf](https://dokumen.tips/documents/an-algebraic-theory-of-tricategories.html), [[Gurski-AlgebraicTricategories.pdf:file]]&rbrack;
 
-See also:
+A motivation via [[formal logic|formal]]/[[categorical logic]] and [[computer science]]:
+
+* [[John Power]]: _Why tricategories?_, Information and Computation **120** 2 (1995) 251–262 &lbrack;[doi:10.1006/inco.1995.1112](https://doi.org/10.1006/inco.1995.1112)&rbrack;
+
 
 Textbook account:
 
