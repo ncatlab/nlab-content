@@ -64,7 +64,7 @@ Every fully faithful functor is *equivalent* to one that is fully faithful and i
 
 * Full embeddings are closed under [[pushouts]] in [[Cat]].
   - For ordinary categories this was proven first by [Trnková](#Trnková) under the assumption both functors are full embeddings, and later in the general case by [Fritch and Latch](#FL).
-  - For [[enriched categories]] it is proven independently in [BKPV13, Lemma 4.9](#BKPV) [Stanculescu, Prop. 3.1](#Stanculescu).
+  - For [[enriched categories]] it is proven independently in [BKPV13, Lemma 4.9](#BKPV) and [Stanculescu, Prop. 3.1](#Stanculescu).
   - For [[(∞,1)-categories]] it is proven in [Simspon, Cor. 16.6.2](#Simpson). See also [MacDonald and Scull](#MS) for more general conditions.
   - For [[internal categories]] in an [[(∞,1)-category]], it is proven in Lemma 6.3.10 of [Martini and Wolf](#MW).
 
