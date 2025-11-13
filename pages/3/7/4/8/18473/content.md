@@ -64,7 +64,7 @@ Every fully faithful functor is *equivalent* to one that is fully faithful and i
 
 * Full embeddings are closed under [[pushouts]] in [[Cat]].
   - For ordinary categories this was proven first by [Trnková](#Trnková) under the assumption both functors are full embeddings, and later in the general case by [Fritch and Latch](#FL).
-  - For [[enriched categories]] it is proven in [Stanculescu, Prop. 3.1](#Stanculescu).
+  - For [[enriched categories]] it is proven independently in [BKPV13, Lemma 4.9](#BKPV) [Stanculescu, Prop. 3.1](#Stanculescu).
   - For [[(∞,1)-categories]] it is proven in [Simspon, Cor. 16.6.2](#Simpson). See also [MacDonald and Scull](#MS) for more general conditions.
   - For [[internal categories]] in an [[(∞,1)-category]], it is proven in Lemma 6.3.10 of [Martini and Wolf](#MW).
 
@@ -97,6 +97,8 @@ For stability under pushouts:
 * {#FL} R. Fritsch, D. M. Latch, _Homotopy inverses for nerve_, Math. Z. 177 (1981), no. 2, 147–179, doi:[10.1007/BF01214196](https://doi.org/10.1007/BF01214196).
 
 * {#MS} [[John MacDonald]] and Laura Scull, _Amalgamations of categories_, Canadian mathematical bulletin 52.2 (2009): 273-284.
+
+* {#BKPV} Bilkova, M., Kurz, A., Petrisan, D., & Velebil, J. (2013), _Relation lifting, with an application to the many-valued cover modality_, Logical Methods in Computer Science, 9.
 
 * {#Stanculescu} Alexandru E. Stanculescu, _Constructing model categories with prescribed fibrant objects_, Theory and Applications of Categories, Vol. 29, (2014) No. 23, pp 635-653, [journal page](http://www.tac.mta.ca/tac/volumes/29/23/29-23abs.html), arXiv:[1208.6005](https://arxiv.org/abs/1208.6005).
 
