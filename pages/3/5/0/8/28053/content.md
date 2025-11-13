@@ -14,16 +14,18 @@
 
 ## Idea
 
-$U(2)$ is the second [[unitary group]]. It is used to describe [[almost complex structures]] on [[4-manifolds]].
+$U(2)$ is the [[unitary group]] in dimension 2. It is used to describe [[almost complex structures]] on [[4-manifolds]].
 
 ## Properties
 
 \begin{proposition}
-One has [[exceptional isomorphisms]]:
+One has [[exceptional isomorphisms]] between $U(2)$ and the [[spinᶜ group]] in dimension 3 as well as the [[spinʰ group]] in dimension 2:
 $$
-U(2)
-\cong Spin^\mathrm{c}(3)
-\cong Spin^\mathrm{h}(2).
+  U(2)
+    \cong 
+  Spin^\mathrm{c}(3)
+   \cong 
+  Spin^\mathrm{h}(2).
 $$
 \end{proposition}
 
@@ -44,18 +46,20 @@ Spin^\mathrm{h}(2)
 =(SU(2)\times U(1))/\mathbb{Z}_2
 \cong U(2)
 $$
-(In general, one has $(SU(n)\times U(1))/\mathbb{Z}_n\cong U(n)$ using the [[homomorphism theorem]] on the [[group homomorphism]] $SU(n)\times U(1)\rightarrow U(n),(U,z)\mapsto Uz$, which is surjective and has $\{(\zeta_n^k\mathbf{1}_n,\zeta_n^{-k})|[k]\in\mathbb{Z}_n \}\cong\mathbb{Z}_n$ as [[kernel]].)
+(In general, one has $(SU(n)\times U(1))/\mathbb{Z}_n\cong U(n)$ using the [[homomorphism theorem]] on the [[group homomorphism]] $SU(n)\times U(1)\rightarrow U(n),(U,z)\mapsto U \cdot z$, which is surjective and has $\{(\zeta_n^k\mathbf{1}_n,\zeta_n^{-k})|[k]\in\mathbb{Z}_n \}\cong\mathbb{Z}_n$ as [[kernel]].)
 \end{proof}
 
 ## Related concepts
 
 * [[Spinᶜ(4)]]
+
 * [[Spinᶜ(6)]]
 
 ## References
 
 * {#GompfStipsicz99} [[Robert Gompf]] and [[András Stipsicz]], _4-Manifolds and Kirby Calculus_ (1999), Graduate Studies 
 in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/books/gsm/020), [doi:10.1090/gsm/020](https://www.ams.org/books/gsm/020)&rbrack;
+
 * {#Nicolaescu00} [[Liviu Nicolaescu]], *Notes on Seiberg-Witten theory*, American Mathematical Society (2000) &lbrack;[ISBN:978-0-8218-2145-9](https://bookstore.ams.org/GSM/28), [pdf](https://www3.nd.edu/~lnicolae/new1.pdf)&rbrack;
 
 [[!redirects Spinᶜ(3)]]
