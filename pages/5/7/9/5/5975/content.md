@@ -44,9 +44,6 @@ Remarks on [[geometric logic|geometric]] 2-logic:
 
 {#ReferencesOnElementary2Topoi} On [[elementary topos|elementary]] [[2-topoi]] (or more generally the pieces of such a structure):
 
-* [[Ross Street]], _Fibrations and Yoneda's Lemma in a 2-category_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 104–133 &lbrack;[doi:10.1007/BFb0063102](https://doi.org/10.1007/BFb0063102)&rbrack;
-
-* [[Ross Street]], _Elementary cosmoi I_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 134–180 &lbrack;[doi:10.1007/bfb0063103](https://doi.org/10.1007/bfb0063103)&rbrack;
 
 * [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009)
   > (also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi).
