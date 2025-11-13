@@ -24,7 +24,7 @@ In the [[spectral theory]] of [[operator algebras]], the *discrete spectrum* is 
 
 The *discrete spectrum* of a [[closed linear operator]] on a [[Hilbert space]] consists of those points in its [[operator spectrum]] which are
 
-1. isolated points: they have an [[open neighbourhood]] in containing no other points of the spectrum,
+1. isolated points: they have an [[open neighbourhood]] containing no other points of the spectrum,
 
 2. of finite algebraic multiplicity.
 
