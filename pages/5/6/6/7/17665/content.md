@@ -100,6 +100,8 @@ commutes, i.e., $\tilde{Q}_n = \tilde{Q}_{m,n} \circ \tilde{Q}_m$. (We have abus
 
 An __indivisible stochastic process__ is a stochastic process which is not divisible.  Such processes are employed in the [[indivisible stochastic process interpretation of quantum mechanics]].
 
+An indivisible [[stochastic process]] is a very general type of [[stochastic process]] which can exhibit wild behavior because, for any $\epsilon \gt 0$, the two dynamics laws $\Gamma_t$ and $\Gamma_{t+\epsilon}$ need not have any relationship between them.  For example, even if $\Omega$ was a [[standard Borel space]] and for every $U \in \Sigma_{\Omega}$ all the measurable functions $\Omega_0 \xrightarrow{\Gamma_t(U | \bullet)} [0,1]$ and $\Omega_0 \xrightarrow{\Gamma_{t+\epsilon}(U | \bullet)} [0,1]$ were  continuous functions the two probability measures obtained by composition with an initial probability measure on $\Omega_0$, $\mathbf{1} \xrightarrow{P_0} \Omega_0 \xrightarrow{\Gamma_t} \Omega_t$ and $\mathbf{1} \xrightarrow{P_0} \Omega_0 \xrightarrow{\Gamma_{t+\epsilon}} \Omega_{t+\epsilon}$, can vary significantly.  Such a process is in stark contrast to a [[Markov process]] on a [[standard Borel space]] where continuous [[Markov kernels]] yield a continuously varying probability measure on the [[measurable space]] $\Omega$. 
+
 ## Examples
 
 \begin{example}
