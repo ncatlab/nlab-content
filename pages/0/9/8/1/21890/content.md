@@ -138,7 +138,7 @@ $$
 
 ## References
 
-* {#Mimura67} Mamoru Mimura: _The Homotopy groups of Lie groups of low rank_, J. Math. Kyoto Univ. **6** 2 (1967) 131-176 &lbrack;[doi:10.1215/kjm/1250524375](https://doi.org/10.1215/kjm/1250524375)&rbrack;
+* {#Mimura67} [[Mamoru Mimura]]: _The Homotopy groups of Lie groups of low rank_, J. Math. Kyoto Univ. **6** 2 (1967) 131-176 &lbrack;[doi:10.1215/kjm/1250524375](https://doi.org/10.1215/kjm/1250524375)&rbrack;
 
 * Rowena Held, Iva Stavrov, Brian VanKoten: _(Semi-)Riemannian geometry of (para-)octonionic projective planes_, Diff. Geom. & its Appl. __27__ 4 (2009) 464-481 &lbrack;[doi:/10.1016/j.difgeo.2009.01.007](https://doi.org/10.1016/j.difgeo.2009.01.007)&rbrack;
 
