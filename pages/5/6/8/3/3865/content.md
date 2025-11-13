@@ -13,9 +13,8 @@
 =--
 =--
 
-# Contents
-* automatic table of contents goes here
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -228,3 +227,7 @@ category: analysis
 [[!redirects closable operators]]
 [[!redirects closed operator]]
 [[!redirects closed operators]]
+
+[[!redirects closed linear operator]]
+[[!redirects closed linear operators]]
+
