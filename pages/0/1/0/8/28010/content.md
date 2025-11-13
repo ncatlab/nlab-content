@@ -58,7 +58,7 @@ Now, if these transition probabilities $P$ are given by the rules of coherent ti
          & = 
           \langle i \vert \Theta \vert j \rangle
           \,
-          \langle j \vert \Theta \vert i \rangle
+          \langle j \vert \Theta^\dagger \vert i \rangle
      \end{aligned}
    $$
 
@@ -73,7 +73,7 @@ Now, if these transition probabilities $P$ are given by the rules of coherent ti
      \,.
    $$ 
 
-But with the probability amplitudes $\Theta$ composing according to matrix multiplication, then in general the corresponding probabilities $P$ will clearly *not* compose by the rules of matrix multiplication.
+But with the probability amplitudes $\Theta$ composing according to matrix multiplication, then in general the corresponding (doubly) stochastic matrices $P$ of transition probabilities will clearly *not* compose by the rules of matrix multiplication.
 
 In conclusion: The stochastic processes given by quantum processes are generically *indivisible*.
 
