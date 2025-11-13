@@ -22,7 +22,7 @@
 
 ## Idea
 
-$Rel$ is the [[category]] whose [[objects]] are [[sets]] and whose [[morphisms]] are (binary) [[relations]] between sets.   It becomes a [[2-category]] $\mathbf{Rel}$ (in fact, a [[2-poset]]) by taking [[2-morphisms]] to be inclusions of relations. 
+$Rel$, the category of relations, is the [[category]] whose [[objects]] are [[sets]] and whose [[morphisms]] are (binary) [[relations]] between sets.   It becomes a [[2-category]] $\mathbf{Rel}$ (in fact, a [[2-poset]]) by taking [[2-morphisms]] to be inclusions of relations. 
 
 ## Definition
 
@@ -187,3 +187,4 @@ category: category
 [[!redirects Rel]]
 [[!redirects REL]]
 [[!redirects rel]]
+[[!redirects category of relations]]
