@@ -1,3 +1,6 @@
+
+\tableofcontents
+
 ## Idea 
 
 Typically spectra of categories involve utilization of some preordering and looking for "almost final" objects in that preordering and declaring them points of spectra. For example, one can look at some class of topologizing subcategories and equip that class with a preordering. A deeper inspection shows that an additional functor may be involved. 
