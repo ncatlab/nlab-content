@@ -73,7 +73,7 @@ following the notation [[Sp(n).Sp(1)]] (see [there](SpnSp1#SpinnSpin2IsSpinc)).
 
 ## Examples
 
-* For $n=3$, the [[exceptional isomorphism]] between [[Spin(3)]] and [[SU(2)]] extends to an isomorphism between $Spin^c(3)$ and the [[unitary group]] $U(2)$:
+* For $n=3$, one has [[U(2)]]. The [[exceptional isomorphism]] between [[Spin(3)]] and [[SU(2)]] extends to an isomorphism between $Spin^c(3)$ and the [[unitary group]] $U(2)$:
   $$
     Spin^c(3) 
     \;\simeq\; 
@@ -81,7 +81,7 @@ following the notation [[Sp(n).Sp(1)]] (see [there](SpnSp1#SpinnSpin2IsSpinc)).
   $$
 over the exceptional isomorphism [[SO(3)|$SO(3) \simeq PU(2)$]], as both of these [[quotient groups]] are quotients by the respective [[centers]], both identifiable with the [[circle group]] $U(1)$ ([Ozbagci–Stipsicz 2004](#OzbagciStipsicz) Section 6.2). This isomorphism follows from considering the surjective homomorphism [[SU(2)|$SU(2) \times U(1) \to U(2)$]] given by $(A,z) \mapsto z A$, and noticing its [[kernel]] is precisely $\{\pm(I,1)\}$, hence $U(2)$ satisfies the [[universal property]] defining $Spin^c(3)$ as a quotient.
 
-* For $n=4$, we have 
+* For $n=4$, one has [[Spinᶜ(4)]]. It is given by:
 $$
     Spin^c(4) 
       = \big(SU(2)\times SU(2)\times U(1)\big) / \{\pm(I,I,1)\} 
@@ -97,7 +97,7 @@ defined by $(A,B,z) \mapsto (z A,z B)$, which has image $U(2)\times_{U(1)} U(2)$
 
   The [[Spin(4)|$Spin(4)$]] subgroup can be seen as the subgroup of pairs of unitary matrices with both of them having determinant 1.
 
-* Using the exceptional isomorphism [[Spin(6)|$Spin(6) \simeq SU(4)$]], and the multiplication map $SU(4)\times U(1) \to U(4)$ analogous to the above, it can be seen that the group $Spin^c(6)$ is the connected [[double cover]] of $U(4)$ corresponding to the (unique) index-2 subgroup $2\mathbb{Z} \hookrightarrow \mathbb{Z} \simeq \pi_1(U(4))$. This is because the multiplication map is surjective and has kernel canonically isomorphic to $\mu_4$, the fourth [[roots of unity]], via the map $\mu_4\to SU(4)\times U(1)$ sending $\zeta\mapsto (\zeta^{-1}I,\zeta)$. Hence there are a pair of 2:1 surjective homomorphisms
+* For $n=6$, one has [[Spinᶜ(6)]]. Using the exceptional isomorphism [[Spin(6)|$Spin(6) \simeq SU(4)$]], and the multiplication map $SU(4)\times U(1) \to U(4)$ analogous to the above, it can be seen that the group $Spin^c(6)$ is the connected [[double cover]] of $U(4)$ corresponding to the (unique) index-2 subgroup $2\mathbb{Z} \hookrightarrow \mathbb{Z} \simeq \pi_1(U(4))$. This is because the multiplication map is surjective and has kernel canonically isomorphic to $\mu_4$, the fourth [[roots of unity]], via the map $\mu_4\to SU(4)\times U(1)$ sending $\zeta\mapsto (\zeta^{-1}I,\zeta)$. Hence there are a pair of 2:1 surjective homomorphisms
 $$
 SU(4) \times U(1) \to Spin^c(6) \to U(4),
 $$
