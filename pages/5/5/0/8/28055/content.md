@@ -19,10 +19,11 @@ $Spin^\mathrm{c}(6)$ is the fourth [[spinᶜ group]]. It is used to describe [[s
 ## Properties
 
 \begin{proposition}
-One has a canonical [[double cover]]:
+One has a canonical [[double cover]] of the [[unitary group]] in dimension 4:
 $$
-Spin^\mathrm{c}(6)
-\twoheadrightarrow U(4).
+  Spin^\mathrm{c}(6)
+    \twoheadrightarrow 
+  U(4).
 $$
 \end{proposition}
 
@@ -41,6 +42,7 @@ $$
 ## Related concepts
 
 * [[U(2)]] (Spinᶜ(3), Spinʰ(2))
+
 * [[Spinᶜ(4)]]
 
 [[!redirects Spinc(6)]]
