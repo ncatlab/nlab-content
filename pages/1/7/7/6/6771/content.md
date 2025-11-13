@@ -50,6 +50,10 @@ reviewed in
 
 * {#Duetsch18} [[Michael Dütsch]], section 3.5.3 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
+Another formulation within the framework of [[functorial field theory]] appeared in the work
+
+* {#GritskovLosev25} Maxim Gritskov, Andrey Losev, _Beta function without ultraviolet divergences_, Journal of High Energy Physics Volume 2025, Issue 10, 14 October 2025, Article number 111 (<a href="https://doi.org/10.1007/JHEP10(2025)111">doi:10.1007/JHEP10(2025)111</a>)
+
 Discussion for [[Yang-Mills theory]] includes
 
 * {#Nepomechie83} R.I. Nepomechie, _Remarks on quantized Yang-Mills theory in 26 dimensions_, Physics Letters B Volume 128, Issues 3–4, 25 August 1983, Pages 177-178 Phys. Lett. B128 (1983) 177 (<a href="https://doi.org/10.1016/0370-2693(83)90385-4">doi:10.1016/0370-2693(83)90385-4</a>)
