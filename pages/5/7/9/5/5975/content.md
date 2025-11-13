@@ -61,7 +61,8 @@ Remarks on [[geometric logic|geometric]] 2-logic:
 
 On 2-[[functorial semantics]]:
 
-* [[John Power]], _Why tricategories?_, Information and Computation **120** 2 (1995) 251–262 &lbrack;[doi:10.1006/inco.1995.1112](https://doi.org/10.1006/inco.1995.1112)&rbrack;
+* [[John Power]]: _Why tricategories?_, Information and Computation **120** 2 (1995) 251–262 &lbrack;[doi:10.1006/inco.1995.1112](https://doi.org/10.1006/inco.1995.1112)&rbrack;
+  > (in a context of [[tricategories]])
 
 * [[John Power]]: _Enriched Lawvere theories_, Theory and Applications of Categories **6** 7 (1999) 83–93 &lbrack;[tac:6-07](http://www.tac.mta.ca/tac/volumes/6/n7/6-07abs.html), [doi:10.70930/tac/soye1d6v](https://doi.org/10.70930/tac/soye1d6v)&rbrack;
 
