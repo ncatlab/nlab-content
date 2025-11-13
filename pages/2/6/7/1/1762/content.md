@@ -7,8 +7,6 @@ His most important works include works in [[sheaf]]-, [[fibred category]]-, and 
 
 ## Selected writings
 
-* [list of publications](http://science.mq.edu.au/~street/Publications.html)
-
 
 On [[lax functors]]:
 
@@ -101,6 +99,13 @@ An attempt to formulate [[descent]] theory using [[strict omega-categories]]:
 
 * Ross Street, _Categorical and combinatorial aspects of descent theory_, Applied Categorical Structures 12, 537--576 (2004) [doi](https://doi.org/10.1023/B:APCS.0000049317.24861.36)
 
+On the [[Yoneda lemma]] in [[formal category theory]], internal to suitable [[2-categories]]:
+
+* [[Ross Street]]: _Fibrations and Yoneda's Lemma in a 2-category_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 104–133 &lbrack;[doi:10.1007/BFb0063102](https://doi.org/10.1007/BFb0063102)&rbrack;
+
+* [[Ross Street]]: _Elementary cosmoi I_, In Category Seminar: Proceedings Sydney Category Theory Seminar 1972/1973, Lect. Notes Math. *420*, Springer (2006) 134–180 &lbrack;[doi:10.1007/bfb0063103](https://doi.org/10.1007/bfb0063103)&rbrack;
+
+
 Introducing [[skew-closed categories]]:
 
 * [[Ross Street]], *Skew-closed categories*, Journal of Pure and Applied Algebra **217** 6 (2013) 973-988 &lbrack;[arXiv:1205.6522](https://arxiv.org/abs/1205.6522), [doi:10.1016/j.jpaa.2012.09.020](https://doi.org/10.1016/j.jpaa.2012.09.020)&rbrack;
@@ -155,6 +160,8 @@ On [[monoidal categories]]:
 * [[Ross Street]], *Monoidal categories in, and linking, geometry and algebra*, Bull. Belg. Math. Soc. Simon Stevin **19** 5 (2012) 769-820 &lbrack;[arXiv:1201.2991](https://arxiv.org/abs/1201.2991), [doi:10.36045/bbms/1354031551](https://projecteuclid.org/journals/bulletin-of-the-belgian-mathematical-society-simon-stevin/volume-19/issue-5/Monoidal-categories-in-and-linking-geometry-and-algebra/10.36045/bbms/1354031551.full)&rbrack;
 
 ## Collected writings
+
+* [list of publications](http://science.mq.edu.au/~street/Publications.html)
 
 * [[Ross Street]], _Homotopy Classification of Filtered Complexes_, PhD thesis, University of Sydney, 1968. &lbrack;[pdf](http://science.mq.edu.au/~street/Thesis.pdf)&rbrack;
 
