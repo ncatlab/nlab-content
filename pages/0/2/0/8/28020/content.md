@@ -19,7 +19,9 @@
 
 ### For self-adjoint operators
 
-For [[self-adjoint operators]] the characterization simplifies: The essential spectrum is the [[complement]] of the [[discrete spectrum]] (the latter being the [[discrete set]] of isolated [[eigenvalues]]).
+For [[self-adjoint operators]] the characterization simplifies: Their essential spectrum is the [[complement]] of the [[discrete spectrum]] (the latter being the [[discrete topological space|discrete]] [[set]] of isolated [[eigenvalues]] with finite geometric multiplicity).
+
+(cf. [Moretti 2017 Rem. 9.15](#Moretti2017))
 
 
 ## Properties
@@ -39,6 +41,8 @@ For [[self-adjoint operators]] the characterization simplifies: The essential sp
 * {#Schechter1965} [[Martin Schechter]]: *Fredholm Operators and the Essential Spectrum*, New York University Courant Institute (1965) &lbrack;[pdf](https://ia801803.us.archive.org/17/items/fredholmoperator00sche/fredholmoperator00sche.pdf)&rbrack;
 
 * {#Müller2003} [[Vladimir Müller]]: *Essential Spectrum*, Chapter III In: *Spectral Theory of Linear Operators and Spectral Systems in Banach Algebras*, Operator Theory: Advances and Applications **139**, Birkhäuser (2003) &lbrack;[doi:10.1007/978-3-0348-7788-6_3](https://doi.org/10.1007/978-3-0348-7788-6_3)&rbrack;
+
+* {#Moretti2017} [[Valter Moretti]]: _Spectral Theory and Quantum Mechanics_, Springer (2017) &lbrack;[doi:10.1007/978-3-319-70706-8](https://doi.org/10.1007/978-3-319-70706-8)&rbrack;
 
 See also:
 
