@@ -79,6 +79,7 @@ In conclusion: The stochastic processes given by quantum processes are generical
 
 That seems to be the key point highlighted by [Barandes 2025](#Barandes2025) (without maybe explicitly saying so).
 
+> NB: The above argument generalizes immediately to [[countable sets]] of states, with $\big\{ {\vert i \rangle} \big\}_{i \in \mathbb{N}}$ a [[Hilbert space]] [[linear basis|basis]] of a Hilbert space $\mathscr{H}$, with $\Theta$ a ([[unitary operator|unitary]]) [[linear operator]] on $\mathscr{H}$, and $P$ an infinite [[stochastic matrix]] acting on $\ell^1(\mathbb{N})$.
 
 
 ## Idea
