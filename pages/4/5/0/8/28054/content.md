@@ -30,7 +30,7 @@ $$
 \begin{proof}
 Using the [[exceptional isomorphism]] $Spin(4)\cong SU(2)\times SU(2)$ yields:
 $$
-Spin^\mathrm{c}(6)
+Spin^\mathrm{c}(4)
 \cong(SU(2)\times SU(2)\times U(1))/\mathbb{Z}_2
 \twoheadrightarrow U(2)\times_{U(1)}U(2),
 (U_-,U_+,z)\mapsto(U_-z,U_+z)
