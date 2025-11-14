@@ -6920,7 +6920,7 @@ $\,$
 
 For example
 the complement of the locus of a **[[KK-monopole]]** [[spacetime]]
-is a [[circle]] [[principal bundle]] with [[first Chern class]]
+is a [[principal U(1)-bundle]] with [[first Chern class]]
 equal to the [[charge]] carried by the [[KK-monopole]].
 (which is the corresponding number of coincident [[D6-branes]] in type IIA).
 
