@@ -356,13 +356,13 @@ $$
 ### Line bundles with connection
 
 
-Let $X = \mathcal{B} U(1) \simeq K(\mathbb{Z},2)$ be the [[Eilenberg-MacLane space]] that is the [[classifying space]] [[BU(n)|$B U(1)$]] for $U(1)$-[[principal bundle]]s. It carries the canonical [[cocycle]] $\iota := Id : \mathcal{B}U(1) \to \mathcal{B}U(1) \simeq K(\mathbb{Z},2)$ representing in $H^2(X,\mathbb{Z})$ the class of the universal complex [[line bundle]] $L \to X$ on $X$.
+Let $X = \mathcal{B} U(1) \simeq K(\mathbb{Z},2)$ be the [[Eilenberg-MacLane space]] that is the [[classifying space]] [[BU(n)|$B U(1)$]] for [[principal U(1)-bundle]]s. It carries the canonical [[cocycle]] $\iota := Id : \mathcal{B}U(1) \to \mathcal{B}U(1) \simeq K(\mathbb{Z},2)$ representing in $H^2(X,\mathbb{Z})$ the class of the universal complex [[line bundle]] $L \to X$ on $X$.
 
 Accordingly, for $c : S\to \mathcal{B}U(1)$ a continuous map, we have the corresponding line bundle $c^* L$ on $S$. 
 
 One checks (...details...Example 2.7 in HopSin) that a refinement of $c$ to a differential function $(c,\omega,h)$ corresponds to equipping $c^* L$ with a [[connection on a bundle|smooth connection]].
 
-Now consider $((c,\omega,h) \to (c',\omega', h')) \in filt_0  (\mathcal{B}U(1),Id)^S$ a morphism between two such $(\mathcal{B}U(1),Id)$-differential functions. By definition this is now a $U(1)$-principal bundle $\hat L$ with connection on $S \times \Delta^i_{Diff}$, whose curvature form $\hat \omega \in \Omega^2(S \times \Delta^1_{Diff})$ is of the form $g \cdot \tilde \omega$, where $\tilde \omega$ is a 2-form on $S$ and $g$ is a smooth function on $\Delta^1_{Diff}$, both pulled back to $S \times \Delta^1_{Diff}$ and multiplied there.
+Now consider $((c,\omega,h) \to (c',\omega', h')) \in filt_0  (\mathcal{B}U(1),Id)^S$ a morphism between two such $(\mathcal{B}U(1),Id)$-differential functions. By definition this is now a [[principal U(1)-bundle]] $\hat L$ with connection on $S \times \Delta^i_{Diff}$, whose curvature form $\hat \omega \in \Omega^2(S \times \Delta^1_{Diff})$ is of the form $g \cdot \tilde \omega$, where $\tilde \omega$ is a 2-form on $S$ and $g$ is a smooth function on $\Delta^1_{Diff}$, both pulled back to $S \times \Delta^1_{Diff}$ and multiplied there.
 
 But since $\hat \omega$ is necessarily _closed_ it follows with $d (g \wedge \tilde \omega) = d t \frac{\partial g}{\partial t} \wedge \tilde \omega + g \wedge d_{S} \tilde \omega$ that $g$ is actually constant. 
 
