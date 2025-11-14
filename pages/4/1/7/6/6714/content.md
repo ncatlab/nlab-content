@@ -53,7 +53,7 @@ $$
   \,.
 $$
 
-Since $H^2(X;\mathbb{Z})$ classifies [[isomorphism classes]] of $U(1)$-[[principal bundles]] over $X$ and $W_3(T X)$ is the obstruction to the existence of a [[spin^c structure]] on $X$, we see that $X$ has a $spin^c$ structure if and only if there exists a principal $U(1)$-bundle on $X$ "killing" the second Stiefel-Whitney class of $X$. 
+Since $H^2(X;\mathbb{Z})$ classifies [[isomorphism classes]] of [[principal U(1)-bundles]] over $X$ and $W_3(T X)$ is the obstruction to the existence of a [[spin^c structure]] on $X$, we see that $X$ has a $spin^c$ structure if and only if there exists a principal $U(1)$-bundle on $X$ "killing" the second Stiefel-Whitney class of $X$. 
 
 In particular, when $w_2(T X)$ is killed by the trivial $U(1)$-bundle, i.e., when $w_2(T X)=0$, then $X$ has a [[spin structure]].
 
