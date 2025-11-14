@@ -36,12 +36,12 @@ $$
   SO(3) \to SO(3) \times SO(3) \hookrightarrow SO(6)
 $$
 
-this naturally induces a [[special orthogonal group|SO(6)]]-[[principal bundle]]. 
+this naturally induces a [[principal SO(6)-bundle]]. 
 
 +-- {: .num_prop}
 ###### Proposition
 
-The underlying $SO(6)$-principal bundle of $2 T X$ always admits a [[lift of structure group|lift]] to a [[spin group|spin(6)]]-[[principal bundle]].
+The underlying [[principal SO(6)-bundle]] of $2 T X$ always admits a [[lift of structure group|lift]] to a [[spin group|spin(6)]]-[[principal bundle]].
 
 =--
 
