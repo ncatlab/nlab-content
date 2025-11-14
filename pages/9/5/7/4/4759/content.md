@@ -25,7 +25,7 @@ of the [[classifying space]] $B U$ of the [[unitary group]].
 
 Accordingly these are characteristic classes in [[ordinary cohomology]] of [[unitary group|U]]-[[principal bundles]] and hence of [[complex vector bundle]]
 
-The first Chern class is the unique characteristic class of [[circle group]]-principal bundles.
+The first Chern class is the unique characteristic class of [[principal U(1)-bundles]].
 
 The analogous classes for the [[orthogonal group]] are the [[Pontryagin classes]].
 
