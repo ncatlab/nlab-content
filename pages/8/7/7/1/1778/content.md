@@ -1083,7 +1083,7 @@ $$
 
 on $U_{i j k}$ as before in the nonabelian case of
 &#268;ech cocycles for
-$U(1)$-[[principal bundles]].
+[[principal U(1)-bundles]].
 
 Here and from now on we shall notationally suppress the restriction maps $(-)|_{U_{i_0, i_1, \cdots, i_n}}$
 as they are unambiguously obviuous in every case.
