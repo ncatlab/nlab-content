@@ -31,7 +31,7 @@ Geometric quantization is one formalization of the notion of _[[quantization]]_ 
 
 With a [[symplectic manifold]] regarded as a [[classical mechanical system]], _geometric quantization_ produces [[quantization]] of this to a [[quantum mechanical system]] by 
 
-1. realize the [[symplectic form]] as the [[curvature]] of a $U(1)$-[[principal bundle]] with [[connection on a bundle|connection]] (which requires the form to have integral [[periods]]): called the [[prequantum circle bundle]];
+1. realize the [[symplectic form]] as the [[curvature]] of a [[principal U(1)-bundle]] with [[connection on a bundle|connection]] (which requires the form to have integral [[periods]]): called the [[prequantum circle bundle]];
 
 1. choose a [[polarization]] -- a splitting of the abstract [[phase space]] into "coordinates" and "momenta";
 
@@ -517,7 +517,7 @@ $$
 +-- {: .num_remark #SpinCWithDivisibleDetIsSpinTensorLine}
 ###### Remark
 
-In words this says that a [[spin^c structure]] on an oriented manifold $X$ is a choice of [[circle group]]-[[principal bundle]] or equivalenty of hermitian [[complex line bundle]] such that its [[first Chern class]] modulo 2 equals the [[second Stiefel-Whitney class]] $w_2$ of $X$. If this second Stiefel-Whitney class vanishes (as an element in $H^2(X,\mathbb{Z}_2)$) this means that $X$ has a genuine _[[spin structure]]_. So in other words whenever the [[determinant line bundle]] of a [[spin^c structure]] (in the sens of def. \ref{SpinCAndDeterminantLineBundle}) has a [[first Chern class]] that is divisible by 2, then there is an actual [[spin^c structure]].
+In words this says that a [[spin^c structure]] on an oriented manifold $X$ is a choice of [[principal U(1)-bundle]] or equivalenty of hermitian [[complex line bundle]] such that its [[first Chern class]] modulo 2 equals the [[second Stiefel-Whitney class]] $w_2$ of $X$. If this second Stiefel-Whitney class vanishes (as an element in $H^2(X,\mathbb{Z}_2)$) this means that $X$ has a genuine _[[spin structure]]_. So in other words whenever the [[determinant line bundle]] of a [[spin^c structure]] (in the sens of def. \ref{SpinCAndDeterminantLineBundle}) has a [[first Chern class]] that is divisible by 2, then there is an actual [[spin^c structure]].
 
 We can formalize this statement as follows: there is a [[commuting square]] of the form
 
