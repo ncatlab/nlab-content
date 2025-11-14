@@ -83,7 +83,7 @@ $$
 
 ## Examples
 
-* The single curvature characteristic form of a complex [[line bundle]]/$U(1)$-[[principal bundle]] is the curvature 2-form itself.
+* The single curvature characteristic form of a complex [[line bundle]]/[[principal U(1)-bundle]] is the curvature 2-form itself.
 
 
 [[!include Chern- and Pontrjagin forms -- section]]
