@@ -23,13 +23,14 @@ There is a concept of [[fractal dimension]] which measures how the amount of det
 
 ## References
 
-For [[category theory|category theoretic]] treatments of the self-similarity found in fractals in terms of [[terminal coalgebras]], see
+On [[category theory|category theoretic]] treatments of the self-similarity found in fractals in terms of [[terminal coalgebras]]:
 
-* [[Tom Leinster]], _A general theory of self-similarity_, ([arXiv:1010.4474](https://arxiv.org/abs/1010.4474))
+* [[Tom Leinster]]: _A general theory of self-similarity_, &lbrack;[arXiv:1010.4474](https://arxiv.org/abs/1010.4474)&rbrack;
 
-* Prasit Bhattacharya, Lawrence S. Moss, Jayampathy Ratnayake, and Robert Rose, _Fractal Sets as Final Coalgebras Obtained by Completing an Initial Algebra_, ([pdf](http://www3.nd.edu/~pbhattac/papers/Sierpinski.pdf))
+* [[Prasit Bhattacharya]], [[Lawrence S. Moss]], Jayampathy Ratnayake, Robert Rose: _Fractal Sets as Final Coalgebras Obtained by Completing an Initial Algebra_, in: *Horizons of the Mind --- A Tribute to Prakash Panangaden*, Lecture Notes in Computer Science **8464**, Springer (2014) &lbrack;[doi:10.1007/978-3-319-06880-0_7](https://doi.org/10.1007/978-3-319-06880-0_7)&rbrack;
 
-See also
+
+See also:
 
 * Wikipedia, _[Fractal](https://en.wikipedia.org/wiki/Fractal)_
 
