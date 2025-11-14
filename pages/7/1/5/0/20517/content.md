@@ -31,9 +31,9 @@ The construction is closely related to the following basic fact relating [[self-
 ### For the free self-dual field and trivial target space metric
  {#ForTheFreeSelfDualField}
 
-We review the definitions from [Perry-Schwarz 96, Section 2 "The Free Theory"](#PerrySchwarz96) (following [Henneaux-Teitelboim 88](#HenneauxTeitelboim88)), for the [[worldvolume]] [[Lagrangian density]] of just the [[free field|free]] [[self-dual higher gauge field]] on a [[circle principal bundle]]-[[worldvolume]] for would-be [[target space]] being [[Minkowski spacetime]]. 
+We review the definitions from [Perry-Schwarz 96, Section 2 "The Free Theory"](#PerrySchwarz96) (following [Henneaux-Teitelboim 88](#HenneauxTeitelboim88)), for the [[worldvolume]] [[Lagrangian density]] of just the [[free field|free]] [[self-dual higher gauge field]] on a [[principal U(1)-bundle]]-[[worldvolume]] for would-be [[target space]] being [[Minkowski spacetime]]. 
 
-In doing so, we translate to [[coordinate chart|coordinate]]-invariant [[Cartan calculus]]-formalism and generalized to [[KK-compactification]] on possibly non-[[trivial bundle|trivial]] [[circle principal bundle]]:
+In doing so, we translate to [[coordinate chart|coordinate]]-invariant [[Cartan calculus]]-formalism and generalized to [[KK-compactification]] on possibly non-[[trivial bundle|trivial]] [[principal U(1)-bundle]]:
 
 
 #### Worldvolume and self-duality
