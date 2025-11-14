@@ -35,11 +35,13 @@
 
 [[!include fields and quanta - table]]
 
+
 ## Related entries
 
 * [[quantum gravity]]
 
 * [[string theory]]
+
 
 ## References
 
@@ -49,6 +51,8 @@
 
 
 * James Dodd, [[Ben Gripaios]], _The Ideas of Particle Physics_, Cambridge University Press 2020 ([ISBN:9781108727402](https://www.cambridge.org/gb/academic/subjects/physics/particle-physics-and-nuclear-physics/ideas-particle-physics-4th-edition?format=PB), [doi:10.1017/9781108616270]( https://doi.org/10.1017/9781108616270))
+
+* *[[Encyclopedia of Particle Physics]]*
 
 * Wikipedia, _[Particle physics](https://en.wikipedia.org/wiki/Particle_physics)_
 
