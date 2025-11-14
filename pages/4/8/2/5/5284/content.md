@@ -141,7 +141,9 @@ reviewed in:
 
 * {#Loday11} [[Jean-Louis Loday]], Section 4 of: _Free loop space and homology_, Chapter 4 in: Janko Latchev, Alexandru Oancea (eds.): *Free Loop Spaces in Geometry and Topology*, IRMA Lectures in Mathematics and Theoretical Physics **24**, EMS 2015 ([arXiv:1110.0405](https://arxiv.org/abs/1110.0405), [ISBN:978-3-03719-153-8](https://bookstore.ams.org/emsilmtp-24/))
 
+See also:
+
+* [[Manuel Rivera]], [[Samson Saneblidze]]: _A combinatorial model for the free loop space fibration_, Bull. London Math. Soc. **50** (2018) 1085-1101 &lbrack;[doi:10.1112/blms.12202](https://doi.org/10.1112/blms.12202), [arXiv:1712.02644](https://arxiv.org/abs/1706.00983)&rbrack;
 
 
-[[!redirects free loop space]]
 [[!redirects free loop spaces]]
