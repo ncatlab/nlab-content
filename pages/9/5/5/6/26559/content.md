@@ -649,7 +649,7 @@ The above flux densities in 11d and 10d are closely related:
 \begin{example}
 **([[double dimensional reduction]] of fluxes form 11d to 10d)**
 \linebreak
-Consider the case of C-field flux densities $G_4$ and $G_7$ on an 11-dimensional spacetime $X^{11}$ which is the total space of a [[circle group|circle]]-[[principal bundle]] 
+Consider the case of C-field flux densities $G_4$ and $G_7$ on an 11-dimensional spacetime $X^{11}$ which is the total space of a [[principal U(1)-bundle]] 
 
 \begin{tikzcd}[sep=15pt]
   S^1 \ar[r, hook] &[-5pt] X^{11}
@@ -689,7 +689,7 @@ Assuming that all flux densities are $S^1$-inavariant (hence focusing on their 0
 
 This is the process of "[[double dimensional reduction]]" -- called this way since both spacetime dimension is reduced by [[Kaluza-Klein reduction]] on a fiber space, but also the degrees of densities of fluxes "through the fiber space" are decreased -- known as part of the [[duality between M-theory and type IIA string theory]]: The new component flux densities $H_3$ and $H_7$ are interpreted as those of the [[B-field]] and the component flux densities $F_4$ and $F_6$ (and $F_2$) as those of the [[RR-field]] in [[type IIA supergravity]].
 
-Here the flux density $F_2$, which in 10d is understood as witnessing singular [[D6-brane|$D_6$-brane]] sources, is a $\color{orange}\text{gravitational}$ flux from the 11d point of view: If $X^{10} \,=\, \mathbb{R}^{6,1} \times \mathbb{R}_{\gt 0} \times S^2$ is the spacetime domain around a flat singular [[D6-brane]] (cf. [above](#TheDistinctionBetweenSingularAndSolitonicBranes)), then the total space of the circle-principal bundle $X^{11}$ (a multiple of the [[complex Hopf fibration]]) is known as the corresponding "[[KK-monopole]]" spacetime.
+Here the flux density $F_2$, which in 10d is understood as witnessing singular [[D6-brane|$D_6$-brane]] sources, is a $\color{orange}\text{gravitational}$ flux from the 11d point of view: If $X^{10} \,=\, \mathbb{R}^{6,1} \times \mathbb{R}_{\gt 0} \times S^2$ is the spacetime domain around a flat singular [[D6-brane]] (cf. [above](#TheDistinctionBetweenSingularAndSolitonicBranes)), then the total space of the [[principal U(1)-bundle]] $X^{11}$ (a multiple of the [[complex Hopf fibration]]) is known as the corresponding "[[KK-monopole]]" spacetime.
 \end{example}
 
 This transmutation, under [[Kaluza-Klein compactification]], of parts of the gravitational field in higher dimensions into [[gauge fields]] in lower dimensions is a major subtlety in choosing [[flux quantization]] laws: Since these laws apply to higher gauge fields but not directly to the field of gravity, there may appear new possibilities for flux quantization after [[KK-reduction]] to lower dimensions which do not come from flux quantization in higher dimensions. 
@@ -2933,7 +2933,7 @@ The data $\hat A \,\colon\, \chi \Rightarrow \vec B$ in (eq:GaugePotentialsAsHom
 
 * **(A)** ...for the case of ordinary [[electromagnetism]] with $\mathfrak{a} \equiv b \mathfrak{u}(1)$ and $\mathcal{A} \equiv B \mathrm{U}(1) = B^2 \mathbb{Z}$ (Ex. \ref{FluxQuantizationLawsForOrdinaryElectromagnetism}):  
 
-  to that of a [[circle group|U(1)]]-[[principal bundle]] on $X^d$ equipped with a [[connection on a principal bundle|connection]], which of course is the traditional data for the [[gauge potential]] of ordinary electromagnetism (going back to [Wu & Yang 1975](gauge+potential#WuYang75), cf. [Wu & Yang 2006](gauge+potential#WuYang06); [Eguchi, Gilkey & Hanson 1980, Ex. 5.5](fiber+bundles+in+physics#EguchiGilkeyHanson80), [Rudolph & Schmidt 2017, §6](fiber+bundles+in+physics#RudolphSchmidt17));
+  to that of a [[principal U(1)-bundle]] on $X^d$ equipped with a [[connection on a principal bundle|connection]], which of course is the traditional data for the [[gauge potential]] of ordinary electromagnetism (going back to [Wu & Yang 1975](gauge+potential#WuYang75), cf. [Wu & Yang 2006](gauge+potential#WuYang06); [Eguchi, Gilkey & Hanson 1980, Ex. 5.5](fiber+bundles+in+physics#EguchiGilkeyHanson80), [Rudolph & Schmidt 2017, §6](fiber+bundles+in+physics#RudolphSchmidt17));
 
 * **(B)** ...for the case where $\mathfrak{a} \equiv b^2\mathfrak{u}(1)$ and $\mathcal{A} \equiv B^2 \mathrm{U}(1) \simeq B^3 \mathbb{Z}$ :
 
