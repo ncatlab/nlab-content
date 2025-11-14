@@ -15,7 +15,7 @@
 
 ## Idea
 
-A [[bundle gerbe]] or [[circle n-bundle with connection|circle 2-bundle]] has a unique [[characteristic class]] in [[integral cohomology]] in degree 3, the higher analog of the [[Chern class]] of a [[circle group]]-[[principal bundle]] (or complex [[line bundle]]): this is called the **Dixmier-Douady class** of the [[bundle gerbe]].
+A [[bundle gerbe]] or [[circle n-bundle with connection|circle 2-bundle]] has a unique [[characteristic class]] in [[integral cohomology]] in degree 3, the higher analog of the [[Chern class]] of a [[principal U(1)-bundle]] (or complex [[line bundle]]): this is called the **Dixmier-Douady class** of the [[bundle gerbe]].
 
 ## Definition
 
