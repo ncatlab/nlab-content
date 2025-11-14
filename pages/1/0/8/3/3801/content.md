@@ -318,9 +318,11 @@ Further generalization to target spaces that need not be compact and  moreover m
 
 * [[Po Hu]]: _Higher string topology on general spaces_, Proc. London Math. Soc. __93__ (2006) 515-544, [doi](http://dx.doi.org/10.1112/S0024611506015838), [ps](http://www.math.wayne.edu/~po/koszul04.ps)
 
-The relation between string topology and [[Hochschild cohomology]] in dimenion $\gt 1$ is discussed in
+On therelation between string topology and [[Hochschild cohomology]]:
 
-* [[Dmitry Vaintrob]], _The String topology BV algebra, Hochschild cohomology and the Goldman bracket on surfaces_ &lbrack;[arXiv:0702859](http://arxiv.org/abs/math/0702859)&rbrack;
+* [[Dmitry Vaintrob]]: _The String topology BV algebra, Hochschild cohomology and the Goldman bracket on surfaces_ &lbrack;[arXiv:0702859](http://arxiv.org/abs/math/0702859)&rbrack;
+
+* [[Manuel Rivera]], Zhengfang Wang: *Singular Hochschild cohomology and algebraic string operations*, Journal of Noncommutative Geometry **13** 1 (2017) 297–361 &lbrack;[doi;10.4171/jncg/325](https://doi.org/10.4171/jncg/325)&rbrack;
 
 
 Specifically on string topology of [[n-spheres]] (in particular on the [[ordinary homology]] of [[free loop spaces]] of [[n-spheres]]):
