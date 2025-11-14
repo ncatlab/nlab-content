@@ -436,7 +436,7 @@ $$
 
 is the [[partition function]] of the theory a kind of [[expectation value]] with [[probabilities]] replaced by [[probability amplitudes]].
 
-In order to make sense of this (for a full discussion of "[[motivic quantization]]" in this sense see ([Nuiten 13](#Nuiten13)), here we concentrate on the [[prequantum field theory|pre-quantum aspects]]), it is useful to allow some more conceptual wiggling room by passing to [[higher differential geometry]]. Notice that if we write $\mathbf{B}U(1)$ for the [[smooth groupoid|smooth]] universal [[moduli stack]] of [[circle group]]-[[principal bundles]], then an [[action functional]] as above is equivalently a [[homotopy]] of the form
+In order to make sense of this (for a full discussion of "[[motivic quantization]]" in this sense see ([Nuiten 13](#Nuiten13)), here we concentrate on the [[prequantum field theory|pre-quantum aspects]]), it is useful to allow some more conceptual wiggling room by passing to [[higher differential geometry]]. Notice that if we write $\mathbf{B}U(1)$ for the [[smooth groupoid|smooth]] universal [[moduli stack]] of [[principal U(1)-bundles]], then an [[action functional]] as above is equivalently a [[homotopy]] of the form
 
 $$
   \array{
