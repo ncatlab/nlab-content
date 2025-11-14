@@ -114,7 +114,7 @@ The background field for the charged particle that we want to consider is the [[
 
 * the **background field** given by a 
 
-  * a $U(1)$-[[principal bundle]] $P \to X$ classified by a [[cocycle]]
+  * a [[principal U(1)-bundle]] $P \to X$ classified by a [[cocycle]]
     $g : X \to \mathbf{B}U(1)$ in $\mathbf{H}$ which in the model is 
     given by an [[anafunctor]] $X \stackrel{\simeq}{\leftarrow} Y \to \mathbf{B}U(1)$;
 
