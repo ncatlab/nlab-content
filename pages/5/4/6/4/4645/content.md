@@ -1727,7 +1727,7 @@ So $\mathbf{B}G_{diff}$ is a [[resolution]] of $\mathbf{B}G$. We will see that i
 +-- {: .num_defn}
 ###### Definition
 
-For $X \stackrel{\simeq}{\leftarrow}C(U) \to \mathbf{B}U(1)$ a cocycle for a $U(1)$-principal bundle $P \to X$, we call a lift $\nabla_{ps}$ in
+For $X \stackrel{\simeq}{\leftarrow}C(U) \to \mathbf{B}U(1)$ a cocycle for a [[principal U(1)-bundle]] $P \to X$, we call a lift $\nabla_{ps}$ in
 
 $$
   \array{
