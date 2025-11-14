@@ -27,7 +27,7 @@
 
 ## Idea
 
-We discuss the refinement to [[higher differential geometry]] of the concept of a [[circle group]]-[[principal connection]] (on a [[circle group]]-[[principal bundle]]). Specifically we indicate how the general abstract definition in terms of [[cohesion]] reproduces in the context of [[smooth ∞-groupoid|smooth cohesion]] to the representation of circle $n$-connections by [[cocycles]] in smooth _[[Deligne cohomology]]_ ([dcct](#dcct)). 
+We discuss the refinement to [[higher differential geometry]] of the concept of a [[circle group]]-[[principal connection]] (on a [[principal U(1)-bundle]]). Specifically we indicate how the general abstract definition in terms of [[cohesion]] reproduces in the context of [[smooth ∞-groupoid|smooth cohesion]] to the representation of circle $n$-connections by [[cocycles]] in smooth _[[Deligne cohomology]]_ ([dcct](#dcct)). 
 
 In every [[cohesive (∞,1)-topos]] $\mathbf{H}$ there is an <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">intrinsic notion of differential cohomology</a> with coefficients in an [[abelian group|abelian]] [[group object]] $A \in \mathbf{H}$ that classifies $\mathbf{B}^{n-1}A$-[[principal ∞-bundles]] with [[connection on an ∞-bundle|∞-connection]]. 
 
@@ -108,7 +108,7 @@ $$
 
 We show how the notion of _smooth circle $n$-bundles with connection_ obtained by  applying the general setup above to this case reproduces [[ordinary differential cohomology]]:
 
-* a _circle 1-bundle with connection_ is an ordinary $U(1)$ [[principal bundle]] [[connection on a bundle|with connection]];
+* a _circle 1-bundle with connection_ is an ordinary [[principal U(1)-bundle]] [[connection on a bundle|with connection]];
 
 * a _circle 2-bundle with connection_ is a $\mathbf{B}U(1)$-[[principal 2-bundle]] [[connection on a 2-bundle|with connection]], equivalently a $U(1)$-[[bundle gerbe]] [[connection on a bundle gerbe|with connection]];
 
@@ -457,7 +457,7 @@ From the tradtional point of view of differential cohomology this may be what on
 
 ### Circle bundles with connection {#CircleBundlesConnection}
 
-Before discussing [the full theorem](#DeligneCohomologyTheorem), it is instructive to start by looking at the special case $n=1$ in some detail, which is about ordinary  $U(1)$-[[principal bundle]]s [[connection on a bundle|with connection]]. 
+Before discussing [the full theorem](#DeligneCohomologyTheorem), it is instructive to start by looking at the special case $n=1$ in some detail, which is about ordinary  [[principal U(1)-bundle]]s [[connection on a bundle|with connection]]. 
 
 This contains in it already all the relevant structure of the general case, but the low categorical degree is more transparently written out and will allow us to pause to highlight some maybe noteworthy aspects of the situation, such as the phenomenon of _pseudo-connections_ [below](#CircleBunlePseudoConnection).
 
@@ -624,7 +624,7 @@ and picking the lowest horizontal morphism.
 
 Here the terms mean the following:
 
-* $INN(U(1))$ is the [[2-group]] $\Xi(U(1) \to U(1))$, which is a  [[groupal model for universal principal ∞-bundles|groupal model for the universal U(1)-principal bundle]] $\mathbf{E}U(1)$;
+* $INN(U(1))$ is the [[2-group]] $\Xi(U(1) \to U(1))$, which is a  [[groupal model for universal principal ∞-bundles|groupal model for the universal principal U(1)-bundle]] $\mathbf{E}U(1)$;
 
 * $\mathbf{\Pi}_2(U)$ is the [[nLab:path 2-groupoid]] with homotopy class of 2-dimensional paths as 2-morphisms
 
@@ -753,7 +753,7 @@ $$
 
 So in total we have found the following story:
 
-1. In order to compute the curvature characteristic form of a [[nLab:Cech cohomology]] cocycle $g : C(\{U_i\}) \to \mathbf{B}U(1)$ of a $U(1)$-principal bundle, we first lift it 
+1. In order to compute the curvature characteristic form of a [[nLab:Cech cohomology]] cocycle $g : C(\{U_i\}) \to \mathbf{B}U(1)$ of a principal U(1)-bundle, we first lift it 
 
    $$
      \array{
@@ -765,7 +765,7 @@ So in total we have found the following story:
      }
    $$
 
-   to an equivalent $\mathbf{B}_{diff}U(1)$-cocycle, and this amounts to putting (the Cech-representatitve of) a _pseudo-connection_ on the $U(1)$-principal bundle.
+   to an equivalent $\mathbf{B}_{diff}U(1)$-cocycle, and this amounts to putting (the Cech-representatitve of) a _pseudo-connection_ on the [[principal U(1)-bundle]].
 
 1. From that lift the desired curvature characteristic is simply projected out
 
@@ -804,7 +804,7 @@ The general version of this story is discussed in detail at <a href="#Connection
 ### Circle bundles with pseudo-connection 
  {#CircleBunlePseudoConnection}
 
-In the above discussion of extracting ordinary connections on ordinary $U(1)$-principal bundles from the abstract topos-theoretic definition of differential cohomology, we argued that a certain homotopy pullback may be computed by choosing in the Cech-hypercohomology of the complex of sheaves $(\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2_{cl}(-))$ over a manifold $X$ those cohomology representatives that happen to be represented by globally defined 2-forms on $X$. We saw that the homotopy fiber of _pseudo-connections_ over these 2-forms happened to have connected components indexed by _genuine_ connections.
+In the above discussion of extracting ordinary connections on ordinary [[principal U(1)-bundles]] from the abstract topos-theoretic definition of differential cohomology, we argued that a certain homotopy pullback may be computed by choosing in the Cech-hypercohomology of the complex of sheaves $(\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2_{cl}(-))$ over a manifold $X$ those cohomology representatives that happen to be represented by globally defined 2-forms on $X$. We saw that the homotopy fiber of _pseudo-connections_ over these 2-forms happened to have connected components indexed by _genuine_ connections.
 
 But by the general abstract theory, up to isomorphism the differential cohomology computed this way is guaranteed to be independent of all such choices, which only help us to compute things.
 
@@ -863,7 +863,7 @@ $$
   \,.
 $$
 
-This fixes the pseudo-components to be $a_{i j} = - d g_{i j}$. By the above discussion, this pseudo-connection with vanishing connection 1-forms is equivalent, as a pseudo-connection, to the ordinary connection cocycle with connection forms $(A_i \coloneqq \sum_{i_0} \rho_{i_0} d g_{i_0 i})$. This is a <a href="http://ncatlab.org/nlab/show/connection+on+a+bundle#Properties">standard formula</a> for equipping $U(1)$-principal bundles with Cech cocycle $(g_{i j})$ with a connection.
+This fixes the pseudo-components to be $a_{i j} = - d g_{i j}$. By the above discussion, this pseudo-connection with vanishing connection 1-forms is equivalent, as a pseudo-connection, to the ordinary connection cocycle with connection forms $(A_i \coloneqq \sum_{i_0} \rho_{i_0} d g_{i_0 i})$. This is a <a href="http://ncatlab.org/nlab/show/connection+on+a+bundle#Properties">standard formula</a> for equipping [[principal U(1)-bundles]] with Cech cocycle $(g_{i j})$ with a connection.
 
 ### $U(1)_0$-groupoid bundles {#U1GroupoidBundle}
 
@@ -1524,7 +1524,7 @@ See the discussion at _[[homotopy pullback]]_ for why this is indeed interpreted
 
 ## Examples
 
-For $n = 1$ a circle $n$-bundle with connection in the sense discussed here is indeed an ordinary hermitian [[line bundle]] or equivalently $U(1)$-[[principal bundle]] with connection.
+For $n = 1$ a circle $n$-bundle with connection in the sense discussed here is indeed an ordinary hermitian [[line bundle]] or equivalently [[principal U(1)-bundle]] with connection.
 
 For $n = 2$ a circle 2-bundle with connection is equivalent to a [[bundle gerbe]] with connection (at least over a smooth manifold. Over an [[orbifold]] the definition given here does produce the correct [[equivariant cohomology]], which is different from that of bundle gerbes that are equivariant in the ordinary sense.)
 
