@@ -78,7 +78,7 @@ Clearly the statement and the proof of Proposition \ref{InSheafToposTinyImpliesA
 +-- {: .num_prop}
 ###### Proposition
 
-Any [[retract]] of a tiny object is tiny, since [[split idempotent|splitting of idempotents]] is an [[absolute colimit]] (see also [Kelly, prop. 5.25](#Kelly)).  
+Any [[retract]] of a tiny object is tiny, since [[split idempotent|splitting of idempotents]] is an [[absolute colimit]] (see also [Kelly, prop. 5.25](#Kelly82)).  
 
 =--
 
