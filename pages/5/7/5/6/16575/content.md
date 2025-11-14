@@ -27,7 +27,7 @@ Generally, an _enhanced gauge symmetry_ refers to the appearance of [[gauge theo
 
 ### On coincident D-branes
 
-A famous case is the enhanced gauge symmetry in the [[Chan-Paton gauge fields]] of coincident [[D-branes]]. A priori each D-brane carries a [[complex line bundle]]/[[circle principal bundle]], but as $n$ of them coincide the [[gauge group]] is expected to enhance from $(U(1))^n$ to the [[unitary group]] $U(n)$ (or the [[special unitary group]] $SU(n)$). 
+A famous case is the enhanced gauge symmetry in the [[Chan-Paton gauge fields]] of coincident [[D-branes]]. A priori each D-brane carries a [[complex line bundle]]/[[principal U(1)-bundle]], but as $n$ of them coincide the [[gauge group]] is expected to enhance from $(U(1))^n$ to the [[unitary group]] $U(n)$ (or the [[special unitary group]] $SU(n)$). 
 
 Mathematically this gauge enhancement on D-branes is modeled by the [[Baum-Douglas geometric cycle]] model for [[K-homology]] ([Reis-Szabo 05, def. 1.5 and p. 16](#ReisSzabo05), [Szabo 08, p. 4](#Szabo08)): One such cycle is given by a submanifold $W \overset{\phi}{\hookrightarrow} X$ of [[spacetime]] $X$ equipped with [[spin^c structure]] and with a [[complex vector bundle]] $E \to X$, and given two such cycles $(W,\phi,E_1)$ and $(W,\phi,E_2)$ with the same underlying manifold ("coincident D-brane [[worldvolume]]") then their formal [[direct sum]] is identified with the single cycle carrying the [[direct sum of vector bundles]] 
 
