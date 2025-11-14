@@ -13,8 +13,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -382,6 +380,8 @@ See [[internalization versus enrichment]].
 * [[internal groupoid]]
 
 * [[locally internal category]]
+
+* [[indexed category]], [[externalisation]]
 
 * [[internal category in a monoidal category]]
 
