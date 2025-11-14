@@ -47,7 +47,7 @@ One thing to notice about this is that
 
 * net magnetic charge has not been observed in nature.
 
-The other thing is a more conceptual problem: the [[electromagnetic field|Dirac quantization condition]] says that the $2$-form $F$ is not entirely arbitrary, but constrained to be the characteristic curvature $2$-form of a degree-$2$ cocycle in [[ordinary differential cohomology]], for instance the curvature $2$-form of a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]]. But this necessarily implies that $d F = 0$.
+The other thing is a more conceptual problem: the [[electromagnetic field|Dirac quantization condition]] says that the $2$-form $F$ is not entirely arbitrary, but constrained to be the characteristic curvature $2$-form of a degree-$2$ cocycle in [[ordinary differential cohomology]], for instance the curvature $2$-form of a [[principal U(1)-bundle]] [[connection on a bundle|with connection]]. But this necessarily implies that $d F = 0$.
 
 Indeed, to circumvent dealing with this problem Dirac, in his original argument, has considered removing from $X$ the support of any magnetic charge density. 
 
