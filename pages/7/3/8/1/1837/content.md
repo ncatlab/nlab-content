@@ -28,7 +28,7 @@ An _ordinary gauge theory_ is a [[quantum field theory]] whose field configurati
 
 This includes notably the [[field (physics)|fields]] that carry the three fundamental forces of the [[standard model of particle physics]]:
 
-* Ordinary [[electromagnetism]] in the absence of magnetic charges is a gauge theory of $U(1)$-[[principal bundle|principal bundles]] with [[connection on a bundle|connection]]. 
+* Ordinary [[electromagnetism]] in the absence of magnetic charges is a gauge theory of [[principal U(1)-bundles]] with [[connection on a bundle|connection]]. 
 
 * Fields in [[Yang-Mills theory]] (such as appearing in the [[standard model of particle physics]] and in [[GUT|GUTs]]) are [[vector bundle|vector bundles]] [[connection on a bundle|with connection]].
 
