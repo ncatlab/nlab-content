@@ -57,10 +57,15 @@ Then
 
 * Sori Lee, [[Jaap van Oosten]], _Basic subtoposes of the effective topos_, [arxiv/1201.2571](http://arxiv.org/abs/1201.2571)
 
-* Edmund Robinson, Giuseppe Rosolini, _Colimit completions and the effective topos_, The Journal of symbolic logic, 55, no 2 (1990) ([JSTOR](http://www.jstor.org/discover/10.2307/2274658?uid=3738736&uid=2129&uid=2134&uid=2&uid=70&uid=4&sid=47698789906927))
- {#RobinsonRosolini}
+* {#RobinsonRosolini} Edmund Robinson, Giuseppe Rosolini, _Colimit completions and the effective topos_, The Journal of symbolic logic, 55, no 2 (1990) ([JSTOR](http://www.jstor.org/discover/10.2307/2274658?uid=3738736&uid=2129&uid=2134&uid=2&uid=70&uid=4&sid=47698789906927))
+ 
 
 * [[Aurelio Carboni]], _Some free constructions in realizability and proof theory_, J. Pure App. Alg., Vol. 103 Issue 2 (1995), 117-233. ([web](http://www.sciencedirect.com/science/journal/00224049/103/2)) 
+
+On [[categorification]] of the effective topos to an effective [[2-topos]]:
+
+* [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ (2025) &lbrack;[arXiv:2503.24279](http://arxiv.org/abs/2503.24279)&rbrack;
+
 
 
 [[!redirects effective toposes]]
