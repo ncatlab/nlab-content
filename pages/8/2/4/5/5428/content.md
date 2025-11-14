@@ -20,6 +20,11 @@ On the [[cohomology ring]]-structure of [[twisted equivariant K-theory]]:
 
 * [[Jean-Louis Tu]], [[Ping Xu]], *The ring structure for equivariant twisted K-theory*, J. Reine Angew. Math. 635 (2009), 97–148 ([arXiv:math/0604160](https://arxiv.org/abs/math/0604160), [doi:10.1515/CRELLE.2009.077](https://doi.org/10.1515/CRELLE.2009.077))
 
+On generalizing [[string topology]] to [[target spaces]] which need not be [[compact topological space|compact]] and moreover may be [[Lie groupoids]]/[[differentiable stacks]]:
+
+* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]]: _String topology for stacks_, Astérisque **343** (2012) &lbrack;[arxiv/0712.3857](http://arxiv.org/abs/0712.3857), [numdam:AST_2012__343__R1_0](<http://www.numdam.org/item?id=AST_2012__343__R1_0>)&rbrack;
+
+
 
 
 category: people
