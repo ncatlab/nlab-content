@@ -33,7 +33,7 @@ The generalization of the [[Dirac monopole]] from 3+1 dimensional [[spacetime]] 
 
 ### Recalling the Dirac monopole
 
-For comparison, first note that the Dirac monopole is a [[circle group]] [[principal bundle]] with non-trivial [[first Chern class]] on a [[spacetime]] of the form
+For comparison, first note that the Dirac monopole is a [[principal U(1)-bundle]] with non-trivial [[first Chern class]] on a [[spacetime]] of the form
 
 $$
   X_4 \;\coloneqq\; (\mathbb{R}^3_{space} - \{0\}) \times \mathbb{R}_{time}
@@ -49,7 +49,7 @@ which is the [[integration of differential forms|integration]] of the [[curvatur
 
 ### The Yang monopole
 
-Now analogously, a _Yang monopole_ is a nontrivial [[special unitary group]]-[[principal bundle]] (for which there is no non-trivial [[first Chern class]]) with non-trivial _[[second Chern class]]_ on 
+Now analogously, a _Yang monopole_ is a nontrivial [[principal SU(2)-bundle]] (for which there is no non-trivial [[first Chern class]]) with non-trivial _[[second Chern class]]_ on 
 
 $$
   X_6 \coloneqq (\mathbb{R}^5_{space} - \{0\}) \times \mathbb{R}_{time}
