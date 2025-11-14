@@ -33,7 +33,7 @@ The **relativistic particle** is described by the [[sigma-model]] whose
 
 * [[worldvolume]] is the [[real line]] $\Sigma = \mathbb{R}$ or the [[circle]] $\Sigma = S^1$, the _[[worldline]]_;
 
-* [[background gauge field]] is [[connection on a bundle|connection]] $\nabla$ on a [[circle group]]-[[principal bundle]] over $X$, encoding a field of [[electromagnetism]] acting by [[Lorentz force]] on the particle;
+* [[background gauge field]] is [[connection on a bundle|connection]] $\nabla$ on a [[principal U(1)-bundle]] over $X$, encoding a field of [[electromagnetism]] acting by [[Lorentz force]] on the particle;
 
 * [[configuration space]] is the [[quotient]]
 
@@ -57,7 +57,7 @@ The **relativistic particle** is described by the [[sigma-model]] whose
      \,,
   $$
 
-  where the first terms is the integral of the [[volume form]] of the pullback of the background metric, and where the second term is the [[holonomy]] of the [[circle n-bundle with connection|circle bundle with connection]] around $\gamma$. In the case that the underlying [[circle]]-[[principal bundle]] is trivial, so that the [[connection on a bundle|connection]] is given by a [[differential forms|1-form]] $A \in \Omega^1(X)$, the [[action functional]] is
+  where the first terms is the integral of the [[volume form]] of the pullback of the background metric, and where the second term is the [[holonomy]] of the [[circle n-bundle with connection|circle bundle with connection]] around $\gamma$. In the case that the underlying [[principal U(1)-bundle]] is trivial, so that the [[connection on a bundle|connection]] is given by a [[differential forms|1-form]] $A \in \Omega^1(X)$, the [[action functional]] is
    
   $$
     \begin{aligned}
