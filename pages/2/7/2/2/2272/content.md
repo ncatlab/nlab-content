@@ -242,7 +242,7 @@ $$
 
 If we regard $\mathbb{R}^{2n} \simeq T^\ast \mathbb{R}^n$ as the [[cotangent bundle]] of the [[Cartesian space]] $\mathbb{R}^n$, then this is what is known as the [[Liouville-Poincaré 1-form]].
 
-Since $\mathbb{R}^{2n}$ is [[contractible topological space|contractible]] as a [[topological space]], every [[circle bundle]] over it is necessarily trivial, and hence any choice of 1-form such as $\theta$ may canonically be thought of as being a [[connection on a bundle|connection]] on the trivial $U(1)$-[[principal bundle]]. As such this $\theta$ is a [[prequantization]] of $(\mathbb{R}^{2n}, \sum_{i=1}^n d p_i \wedge d q^i)$.
+Since $\mathbb{R}^{2n}$ is [[contractible topological space|contractible]] as a [[topological space]], every [[circle bundle]] over it is necessarily trivial, and hence any choice of 1-form such as $\theta$ may canonically be thought of as being a [[connection on a bundle|connection]] on the trivial [[principal U(1)-bundle]]. As such this $\theta$ is a [[prequantization]] of $(\mathbb{R}^{2n}, \sum_{i=1}^n d p_i \wedge d q^i)$.
 
 Being thus a [[circle bundle with connection]], $\theta$ has more symmetry than its [[curvature]] $\omega$ has: for $\alpha \in C^\infty(\mathbb{R}^{2n}, U(1))$ any smooth function, then 
 
