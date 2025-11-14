@@ -35,7 +35,7 @@ There is a [[Darboux theorem]] for contact structures, stating how they are loca
 +-- {: .num_theorem}
 ###### Theorem
 
-If $X$ is a [[closed manifold|closed]] [[smooth manifold]], $P \to X$ a smooth [[circle bundle]] ($U(1)$-[[principal bundle]]) and $\omega \in \Omega^2(X)$ a [[differential 2-form]] representing its [[Chern class]] in [[de Rham cohomology]], then there is a corresponding [[Ehresmann connection]] 1-form $A \in \Omega^1(P)$ with [[curvature]] $\omega$ and such that
+If $X$ is a [[closed manifold|closed]] [[smooth manifold]], $P \to X$ a smooth [[principal U(1)-bundle]] and $\omega \in \Omega^2(X)$ a [[differential 2-form]] representing its [[Chern class]] in [[de Rham cohomology]], then there is a corresponding [[Ehresmann connection]] 1-form $A \in \Omega^1(P)$ with [[curvature]] $\omega$ and such that
 
 1. $A$ is a regular contact form on $P$;
 
