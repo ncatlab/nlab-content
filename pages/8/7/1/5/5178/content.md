@@ -240,6 +240,8 @@ This is ([Johnstone, prop. B1.3.17](#Johnstone)).
 
 * [[hyperdoctrine]]
 
+* [[internal category]], [[externalisation]]
+
 ## References
   
 The notion of *indexed categories* was introduced in
