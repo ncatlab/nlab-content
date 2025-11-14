@@ -56,7 +56,7 @@ $$
 
 as discussed in detail at _[[covariant phase space]]_.
 
-Together, this is a [[prequantum bundle]], hence a [[circle bundle with connection]] whose [[curvature]] is $\omega$. It so happens that the underlying U(1)-[[principal bundle]] of this is trivial, and hence the [[connection on a bundle|connection]] is given by the globally defined [[differential 1-form]] $\theta$.
+Together, this is a [[prequantum bundle]], hence a [[circle bundle with connection]] whose [[curvature]] is $\omega$. It so happens that the underlying [[principal U(1)-bundle]] of this is trivial, and hence the [[connection on a bundle|connection]] is given by the globally defined [[differential 1-form]] $\theta$.
 
 But this trivialility is only superficial: the [[symmetry]] [[group]] $G$ of the Lagrangian is supposed to act by [[Hamiltonian flows]] and the prequantum connection $\theta$ is to be equipped with $G$-[[equivariant connection]] structure for it to count as a connection on the [[reduced phase space]].
 
