@@ -19,7 +19,7 @@
 
 ## Idea
 
-As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type theory_ has semantics in [[2-categories]].
+As [[type theory]] has [[categorical semantics]] in 1-[[categories]], _2-type theory_ has semantics in [[2-categories]] and in [[double categories]].
 In particular, a 2-type theory can have semantics in the 2-category [[Cat]], which would mean that contexts and closed types are modelled as categories.
 
 There are, potentially, many different kinds of "2-type theory" with different uses and semantics.  2-type theory is closely related to (and sometimes the same as) *[[directed type theory]]*.
