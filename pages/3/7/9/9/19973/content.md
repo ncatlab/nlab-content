@@ -148,15 +148,13 @@ Here we are showing
 
 ### General
 
-A good quick account is in 
+A good quick account:
 
 * {#yotams} yotams, _What is flavor?_ ([pdf](https://webhome.weizmann.ac.il/home/yotams/notes/ep1_flavor.pdf), [[yotamsFlavor.pfd:file]])
 
 Textbook accounts:
 
-
 * [[Robert E. Marshak]], Chapter 3 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
-
 
 * {#Buras20}  [[Andrzej Buras]], _Gauge Theory of Weak Decays_, (2020) ([doi:10.1017/9781139524100](https://doi.org/10.1017/9781139524100), [CERN review](https://cerncourier.com/a/the-hitchhikers-guide-to-weak-decays/) by [[Gino Isidori]])
 
@@ -170,13 +168,17 @@ Lecture notes:
 
 * {#Zupan19} Jure Zupan, _Introduction to flavour physics_ ([arXiv:1903.05062](https://arxiv.org/abs/1903.05062))
 
-With an emphasis on [[CP-violation]]:
+With an emphasis on [[CP violation]]:
 
 * [[Antonio Pich]], _Flavour Dynamics and Violations of the CP Symmetry_, Lectures at the 2017 and 2019 CERN - Latin-American Schools of High-Energy Physics ([arXiv:1805.08597](https://arxiv.org/abs/1805.08597))
 
 With an emphasis on the [[neutrino]]-sector:
 
 * Zhi-zhong Xing, _Flavor structures of charged fermions and massive neutrinos_ ([arXiv:1909.09610](https://arxiv.org/abs/1909.09610))
+
+Beyond the [[standard model of particle physics|standard model]]:
+
+* [[Wolfgang Altmannshofer]], [[Peter Stangl]]: *Flavour Physics Beyond the Standard Model* &lbrack;[arXiv:2508.03950](https://arxiv.org/abs/2508.03950)&rbrack;
 
 
 See also
