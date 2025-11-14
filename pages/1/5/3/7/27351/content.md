@@ -225,7 +225,7 @@ The traditional reasoning via "[[path integral]]" arguments, followed by a point
 
 #### Wilson loops
 
-The [[gauge field|gauge]] [[field (physics)|field]] of abelian [[circle group|$\mathrm{U}(1)$]] Chern-Simons theory is a [[circle group|$\mathrm{U}(1)$]]-[[principal bundle]] with [[principal connection]] $\nabla$.
+The [[gauge field|gauge]] [[field (physics)|field]] of abelian [[circle group|$\mathrm{U}(1)$]] Chern-Simons theory is a [[principal U(1)-bundle]] with [[principal connection]] $\nabla$.
 
 However, on $\Sigma^3 = S^3$ the [[3-sphere]], any such $\mathrm{U}(1)$-[[principal connection|connection]] has [[underlying]] [[trivial bundle]] (since the [[homotopy classes]] of [[maps]] from $S^3$ to the [[classifying space]] $B \mathrm{U}(1)$, being an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$, are all trivial: $\pi_0 Map\big(S^3, B \mathrm{U}(1)\big) \simeq \pi_3 B \mathrm{U}(1) \simeq 1$) and hence is represented by a globally defined [[differential 1-form]] 
 \[
