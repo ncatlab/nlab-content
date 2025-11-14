@@ -29,7 +29,7 @@ Over [[formal groups]] associated with [[complex oriented cohomology theories]] 
 +-- {: .num_defn}
 ###### Definition
 
-Given a [[circle group]]-[[principal bundle]]/[[complex line bundle]] $\mathcal{L}$ on an [[abelian group]] $A$, write $\Theta(\mathcal{L})$ for the line bundle on $G^3$ which is given by the formula
+Given a [[principal U(1)-bundle]]/[[complex line bundle]] $\mathcal{L}$ on an [[abelian group]] $A$, write $\Theta(\mathcal{L})$ for the line bundle on $G^3$ which is given by the formula
 
 $$
   \Theta(\mathcal{L})_{x,y,z}
