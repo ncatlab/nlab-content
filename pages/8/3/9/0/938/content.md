@@ -455,5 +455,9 @@ Detection in terms of free homotopy sets:
 
 * {#MatumotoMinamiSugawara84} [[Takao Matumoto]], [[Norihiko Minami]], [[Masahiro Sugawara]], *On the set of free homotopy classes and Brown's construction*, Hiroshima Math. J. 14(2): 359-369 (1984) ([doi:10.32917/hmj/1206133043](https://projecteuclid.org/journals/hiroshima-mathematical-journal/volume-14/issue-2/On-the-set-of-free-homotopy-classes-and-Browns-construction/10.32917/hmj/1206133043.full))
 
+The weak homotopy equivalences among [[path connected topological space|path connected]] [[pointed topological spaces]] can be detected by [[singular homology|singular]] chain functor $C_*$, provided $C_*(X)$ is regarded its [[structure]] of a [[dg-coalgebra]]:
+
+* [[Manuel Rivera]], [[Felix Wierstra]], [[Mahmoud Zeinalian]]: _The functor of singular chains detects weak homotopy equivalences_, Proc. Amer. Math. Soc. **147** (2019) 4987--4998 &lbrack;[doi:10.1090/proc/14555](https://doi.org/10.1090/proc/14555), [arXiv/1807.06410](https://arxiv.org/abs/1807.06410), [MR4011530](https://mathscinet.ams.org/mathscinet-getitem?mr=4011530)&rbrack;
+
 
 [[!redirects weak homotopy equivalences]]
