@@ -131,7 +131,7 @@ One class of examples for this sort of situation is where one considers refined 
 
 There are various formalizations of the notion of [[quantization]] in [[physics]], or at least various aspects of that formalization. This involves various steps, some of which may have obstructions to being carried out. In [[physics]] such an obstruction in the process of quantization is often called a [[quantum anomaly]].
 
-For instance for many [[theory (physics)|theories in physics]] the [[action functional]] is a priori not a [[function]] on the [[field (physics)|fields]] but a [[section]] of a circle-[[principal bundle]]. For this to qualify as an action functional therefore one needs a trivialization of that bundle and so the [[Chern class]] of the bundle is the obstruction and hence an _[[quantum anomaly|anomaly]]_ of the system. See there for more.
+For instance for many [[theory (physics)|theories in physics]] the [[action functional]] is a priori not a [[function]] on the [[field (physics)|fields]] but a [[section]] of a [[principal U(1)-bundle]]. For this to qualify as an action functional therefore one needs a trivialization of that bundle and so the [[Chern class]] of the bundle is the obstruction and hence an _[[quantum anomaly|anomaly]]_ of the system. See there for more.
 
 (...)
 
