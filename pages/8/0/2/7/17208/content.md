@@ -32,7 +32,7 @@ $$
   \,.
 $$
 
-The [[sequential colimit]] over this sequence is the infinite complex projective space $\mathbb{C}P^\infty$. This is a model for the [[classifying space]] [[BU(n)|$B U(1)$]] of [[circle principal bundles]]/[[complex line bundles]] (an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$).
+The [[sequential colimit]] over this sequence is the infinite complex projective space $\mathbb{C}P^\infty$. This is a model for the [[classifying space]] [[BU(n)|$B U(1)$]] of [[principal U(1)-bundles]]/[[complex line bundles]] (an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$).
 
 ## Definition
  {#Definition}
@@ -315,7 +315,7 @@ $q_{\mathbb{C}^{n+2}}^{-1}(S)$ is a union of open cyclinders, hence is open. By 
 
 First of all, this implies that $\mathbb{C}P^n$ is [[connected topological space|connected]], since $S^{2n+1}$ is, hence $\pi_0\big( \mathbb{C}P^n\big) = \ast$.
 
-Moreover, since this is a [[free action]], we have a [[circle principal bundle]] and hence a [[fiber sequence]] of the form
+Moreover, since this is a [[free action]], we have a [[principal U(1)-bundle]] and hence a [[fiber sequence]] of the form
 
 \begin{xymatrix@C=20pt@R=20pt}
   S^1 
