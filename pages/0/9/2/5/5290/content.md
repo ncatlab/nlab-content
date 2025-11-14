@@ -47,16 +47,14 @@ such that
 
 ## Properties
 
-+-- {: .num_theorem}
-###### Theorem
+\begin{theorem}
+\label{GerstenhaberIsHomologyOfLittle2Disk}
+The [[homology]] of the [[little 2-disk operad]] in [[chain complexes]] is the operad for Gerstenhaber algebras.
 
-The [[homology]] of the  [[operad]] for Gerstenhaber algebras in [[chain complexes]] is the operad for Gerstenhaber algebras.
+Accordingly, the [[homology]] of an [[E2-algebra|$E_2$-algebra]] is a Gerstenhaber algebra.
+\end{theorem}
 
-Accordingly the [[homology]] of an [[E2-algebra]] is a Gerstenhaber algebra.
-
-=--
-
-This is due to [Cohen (1976)](#Cohen).
+This is due to [Cohen 1976](#Cohen).
 
 +-- {: .num_remark}
 ###### Remark
