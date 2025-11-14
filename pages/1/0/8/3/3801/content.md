@@ -310,11 +310,13 @@ Refinements of string topology from [[homology groups]] to the full [[ordinary h
 * [[Kate Gruher]], [[Paolo Salvatore]]: *Generalized string topology operations*, Proc. London Math. Soc. __96__ 1 (2008) 78--106 &lbrack;[doi:10.1112/plms/pdm030](https://doi.org/10.1112/plms/pdm030), [math.AT/0602210](https://arxiv.org/abs/math/0602210)&rbrack;
   > (and generalizing from $L M \to M$ to any homotopy [[monoid]] bundle over $M$)
 
-Further generalization to target spaces that are more generally [[differentiable stacks]]/[[Lie groupoids]] is discussed in
+Further generalization to target spaces that need not be compact and  moreover may be [[differentiable stacks]]/[[Lie groupoids]]:
 
-* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]], _String topology for stacks_, (89 pages) [arxiv/0712.3857](http://arxiv.org/abs/0712.3857); _String topology for loop stacks_, C. R. Math. Acad. Sci. Paris, __344__ (2007), no. 4, 247--252, (6 pages, [pdf]())
+* [[Kai Behrend]], [[Gregory Ginot]], [[Behrang Noohi]], [[Ping Xu]]: _String topology for stacks_, Astérisque **343** (2012) &lbrack;[arxiv/0712.3857](http://arxiv.org/abs/0712.3857), [numdam:AST_2012__343__R1_0](<http://www.numdam.org/item?id=AST_2012__343__R1_0>)&rbrack;
 
-* Po Hu, _Higher string topology on general spaces_, Proc. London Math. Soc. __93__ (2006) 515-544, [doi](http://dx.doi.org/10.1112/S0024611506015838), [ps](http://www.math.wayne.edu/~po/koszul04.ps)
+* _String topology for loop stacks_, C. R. Math. Acad. Sci. Paris, __344__ 4 (2007) 247--252
+
+* [[Po Hu]]: _Higher string topology on general spaces_, Proc. London Math. Soc. __93__ (2006) 515-544, [doi](http://dx.doi.org/10.1112/S0024611506015838), [ps](http://www.math.wayne.edu/~po/koszul04.ps)
 
 The relation between string topology and [[Hochschild cohomology]] in dimenion $\gt 1$ is discussed in
 
