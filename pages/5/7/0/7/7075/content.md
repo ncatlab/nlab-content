@@ -28,7 +28,7 @@
 
 ## Idea
 
-The _complex Hopf fibration_ &lbrack;[Hopf (1931)](#Hopf31)&rbrack; is a canonical nontrivial  [[circle principal bundle]] over the [[2-sphere]] whose total space is the [[3-sphere]].
+The _complex Hopf fibration_ &lbrack;[Hopf (1931)](#Hopf31)&rbrack; is a canonical nontrivial  [[principal U(1)-bundle]] over the [[2-sphere]] whose total space is the [[3-sphere]].
 
 $$
   S^1 \hookrightarrow S^3 \to S^2 
@@ -51,7 +51,7 @@ More generally, there are four Hopf fibrations, on the 1-sphere, the 3-sphere, t
 ### Homotopy-theoretic characterization
  {#HomotopyTheoreticCharacterization}
 
-The [[Eilenberg-MacLane space]] $K(\mathbb{Z},2) \simeq B S^1$ is the [[classifying space]] for [[circle group]] [[principal bundles]]. By its very nature, it has a single nontrivial [[homotopy group]], the second, and this is isomorphic to the group of [[integers]]
+The [[Eilenberg-MacLane space]] $K(\mathbb{Z},2) \simeq B S^1$ is the [[classifying space]] for [[principal U(1)-bundles]]. By its very nature, it has a single nontrivial [[homotopy group]], the second, and this is isomorphic to the group of [[integers]]
 
 $$
   \pi_2(K(\mathbb{Z},2)) \simeq \mathbb{Z}
@@ -67,7 +67,7 @@ $$
 
 such that $[\phi] \in \pi_2(K(\mathbb{Z},2)) = \pm 1 \in \mathbb{Z}$.
 
-As any map into $K(\mathbb{Z},2)$ this classifies a [[circle group]] [[principal bundle]] over its [[domain]]. This is the Hopf fibration, fitting into the long [[fiber sequence]]
+As any map into $K(\mathbb{Z},2)$ this classifies a [[principal U(1)-bundle]] over its [[domain]]. This is the Hopf fibration, fitting into the long [[fiber sequence]]
 
 $$
   \array{
