@@ -49,7 +49,7 @@ A **$(n+1)$-BV algebra** is a similar structure with a BV-operator being of degr
 
 =--
 
-See ([Cohen-Voronov, def. 5.3.1, theorem 2.1.3](#CohenVoronov)) for details.
+For details cf. [Cohen & Voronov 2006, def. 5.3.1, theorem 2.1.3](#CohenVoronov2006).
 
 
 
@@ -72,7 +72,7 @@ The [[homology]] of an [[algebra over an operad]] over the [[framed little n-dis
 
 =--
 
-This appears as ([CohenVoronov, theorem 5.3.3](#CohenVoronov)). The full [[homology]] of the [[framed little n-disk operad]] is described by ([Salvatore & Wahl, theorem 5.4](#SalvatoreWahl)).
+This appears as [Cohen & Voronov 2006, theorem 5.3.3](#CohenVoronov2006). The full [[homology]] of the [[framed little n-disk operad]] is described by [Salvatore & Wahl, theorem 5.4](#SalvatoreWahl).
 
 ## Examples
 
@@ -103,7 +103,7 @@ The identification of BV-algebras as algebras over the homology of the framed li
 
 The generalization to higher dimensional framed little disks is discussed in
 
-* {#CohenVoronov} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](http://arxiv.org/abs/math/0503625))
+* {#CohenVoronov2006} [[Ralph Cohen]], [[Alexander Voronov]]: *Notes on String Topology*, Part I in: _String topology and cyclic homology_, Advanced Courses in Mathematics, CRM Barcelona, Birkhäuser (2006) &lbrack;[math.GT/05036259](http://arxiv.org/abs/math/0503625), [doi:10.1007/3-7643-7388-1](https://doi.org/10.1007/3-7643-7388-1), [pdf](http://gen.lib.rus.ec/get?md5=adde9464705ede0fea6b435edb58fbe7)&rbrack;
 
 
 * {#SalvatoreWahl} [[Paolo Salvatore]], [[Nathalie Wahl]]:  _Framed discs operads and Batalin-Vilkovisky algebras_, The Quarterly Journal of Mathematics **54** 2 (2003) 213–231 &lbrack;[pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf), [doi:10.1093/qmath/hag012](https://doi.org/10.1093/qmath/hag012)&rbrack;
