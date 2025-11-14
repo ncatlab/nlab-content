@@ -24,7 +24,7 @@
 
 A _line bundle_ is a [[vector bundle]] of rank (or [[dimension]]) $1$, i.e. a vector bundle whose typical fiber is a $1$-dimensional [[vector space]] (a [[line]]).
 
-For complex vector bundles, [[complex line]] bundles are canonically [[associated bundles]] of [[circle group]]-[[principal bundles]].
+For complex vector bundles, [[complex line]] bundles are canonically [[associated bundles]] of [[principal U(1)-bundles]].
 
 ## Properties
 
