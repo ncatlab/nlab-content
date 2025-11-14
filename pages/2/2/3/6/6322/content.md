@@ -122,6 +122,10 @@ Introduction and review:
 
 * [[Franz Gross]], [[Eberhard Klempt]] et al., *50 Years of Quantum Chromodynamics*, EJPC &lbrack;[arXiv:2212.11107](https://arxiv.org/abs/2212.11107)&rbrack;
 
+* Gudrun Heinrich, Anton Olsson: *Perturbative QCD*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2509.02790](https://arxiv.org/abs/2509.02790)&rbrack;
+  > (focus on [[perturbative quantum field theory|perturbation theory]])
+
+
 Textbooks:
 
 * [[Robert E. Marshak]], Chapter 5 of: *Conceptual Foundations of Modern Particle Physics*, World Scientific 1993 ([doi:10.1142/1767](https://doi.org/10.1142/1767))
