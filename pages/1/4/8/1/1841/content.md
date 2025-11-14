@@ -27,7 +27,7 @@ The **electromagnetic field** is is a [[gauge field|gauge]] [[field (physics)|fi
 
 This may be realized in particular equivalently by
 
-* a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]] on $X$; 
+* a [[principal U(1)-bundle]] [[connection on a bundle|with connection]] on $X$; 
 
 * a degree 2 [[Deligne cohomology|Deligne cocycle]] on $X$.
 
@@ -319,7 +319,7 @@ In this context the half-line $\{x^1 \geq 0\}$ is called a **Dirac string**. Whi
 
 In modern terms:
 
-The [[clutching construction]] gives $U(1)$-principal bundle ob $S^2$ by covering with two hemispheres $U_0$ and $U_1$ and picking a transition function $g \colon S^1 \to U(1)$ 
+The [[clutching construction]] gives [[principal U(1)-bundle]] ob $S^2$ by covering with two hemispheres $U_0$ and $U_1$ and picking a transition function $g \colon S^1 \to U(1)$ 
 on the overlap $U_0 \cap U_1 \simeq S^1\times (0,\epsilon)$. The integral [[winding number]] of $g$ represents the [[first Chern class]] of the line bundle.
 
 By [the standard formula](connection+on+a+bundle#ExistenceOfConnections) for existence of principal connections on given principal bundles, given a choice of [[partition of unity]] $\{\rho_i\}$ then the connection on $U_0$ is given by
