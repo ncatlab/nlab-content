@@ -1,3 +1,21 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
+# Contents
+* table of contents
+{: toc}
+
+## Idea
+
 A [[fibered category]] is a **small fibration** if it is equivalent to a fibered category which is obtained via a specific construction of the [[externalization]] of an internal category. The input for externalization is an [[internal category]] $C = (C_0,C_1,s,t,c,i)$ in a category $E$ with pullbacks, and the output is a fibered category $P:F\to E$, whose fiber over an object $I$ ("index set") in $C$ is the small category $C^I = \hom_E(I,C)$ whose object part is $C_0^I$ and morphism part is $C_1^I$; and the structure maps of $C^I$ are obtained by postcomposing with structure maps of $C$.  
 
 Conventions for the internal category $C$: the composition $c$ takes arguments in Leibniz convention, and the source map is the right leg of the span $C_0\leftarrow C_1\to C_0)$; the projection $p_1,p_2:C_1\times_{C_0} C_1$ have $t\circ p_1 = s\circ p_2$. 
@@ -7,5 +25,7 @@ Consider objects $m:I\to C_0$ and $n:J\to C_0$ in fibers over $I$ and $J$. Morph
 Finally, the projection $P:F\to C$ is rather obvious: $P(m:I\to C_0) = I$, and in notation from above, $P(\alpha,f)=\alpha$. One checks that $P$ is a fibered category with a canonical [[cleavage]]: the chosen [[cartesian morphism]] over $\alpha : I\to J$ with given target $n:J\to C_0$ is $(\alpha,i\circ n\circ\alpha):(I,n\circ\alpha)\to(J,n)$. Indeed, for any object $l:L\to C_0$ over $L$ and a morphism $(\lambda,g):l\to n$ with $\lambda = \alpha\circ\beta$, one can decompose $(\lambda,g)=(\alpha,i\circ n\circ\alpha)\circ(\beta,g)$ where $(\beta,g)$ is a morphism in $F$ with $P(\beta,g)=\beta$.
 
 The basic example is the small fibration $\mathrm{Set}(C)\to\mathrm{Set}$ of *set-indexed families of objects in $C$*, for a [[small category]] $C$. The objects in the fiber $C^I$, that is the functions $m:I\to C_0$, $m:i\mapsto m_i\in C_0$ are the $I$-indexed families $(m_i)_{i\in I}$ of objects in $C$. A map $(\alpha,f):m\to n$ is a map $\alpha:I\to J$ together with an $I$-indexed family $(f_i)_{i\in I}$ of morphisms $f_i:m_i\to n_{\alpha(i)}$ in $C$. The composition is $(\beta,(g_j)_{j\in J})\circ(\alpha,(f_i)_{i\in I})= (\beta\circ\alpha,(g_{\alpha(i)}\circ f_i)_{i\in I})$.
+
+## References
 
 * [[Francis Borceux]], [[Handbook of Categorical Algebra]] vol.2, ch. 8
