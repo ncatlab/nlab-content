@@ -150,7 +150,7 @@ See the [references](Kuiper's+theorem#References) at *[[Kuiper's theorem]]*.
 
 
 \begin{proposition}\label{UHCircleFiberBundle}
-  The [[U(1)]]-[[quotient space]] [[coprojection]] of [[U(ℋ)]]  over [[PU(ℋ)]] -- both in their strong [[operator topology]] -- is a [[circle group|circle]]-[[principal bundle]]:
+  The [[U(1)]]-[[quotient space]] [[coprojection]] of [[U(ℋ)]]  over [[PU(ℋ)]] -- both in their strong [[operator topology]] -- is a [[principal U(1)-bundle]]:
 $$
   \array{
     S^1 &\hookrightarrow& \mathrm{U}(\mathcal{H})
