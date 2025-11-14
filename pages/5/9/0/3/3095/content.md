@@ -133,12 +133,19 @@ Pragmatics is concerned with the meaning of language in context.
 
 ### Category theory and linguistics
 
-* [[Joachim Lambek]], _Pregroups and natural language processing_, The Mathematical Intelligencer 28 (2006), 41–48 [pdf](http://www.math.mcgill.ca/rags/JAC/124/Lambek-Pregroups-s.pdf)
-* [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]], Stephen Clark, _Mathematical foundations for a compositional distributional model of meaning_, in the Lambek Festschrift, special issue of Linguistic Analysis, 2010 [arxiv/1003.4394](https://arxiv.org/abs/1003.4394)
+On [[category theory|category theoretic]] methods in linguistics:
+
+* [[Joachim Lambek]], _Pregroups and natural language processing_, The Mathematical Intelligencer **28** (2006) 41–48 &lbrack;[pdf](http://www.math.mcgill.ca/rags/JAC/124/Lambek-Pregroups-s.pdf)&rbrack;
+
+* [[Bob Coecke]], [[Mehrnoosh Sadrzadeh]], Stephen Clark, _Mathematical foundations for a compositional distributional model of meaning_, in the Lambek Festschrift, special issue of Linguistic Analysis (2010) &lbrack;[arxiv/1003.4394](https://arxiv.org/abs/1003.4394)&rbrack;
+
+On applications of [[modal logic]] to linguistics:
+
+* [[Lawrence S. Moss]], Hans-Jörg Tiede: _Applications of Modal Logic in Linguistics_, in: *Studies in Logic and Practical Reasoning **3** (2007) 1031-1076 &lbrack;<a href="https://doi.org/10.1016/S1570-2464(07)80022-X">doi:10.1016/S1570-2464(07)80022-X</a>, [pdf](https://www.csc.liv.ac.uk/~frank/MLHandbook/19.pdf)&rbrack;
+
+On using [[tensor networks]] in linguistics:
 
 * [[Vasily Pestun]], [[Yiannis Vlassopoulos]], *Tensor network language model*, &lbrack;[arXiv:1710.10248](https://arxiv.org/abs/1710.10248)&rbrack;
-
-  > (via [[tensor networks]])
 
 category: philosophy
 
