@@ -114,7 +114,7 @@ $$
   \big)
 $$
 
-denoting the $S(\mathbb{K})$-[[universal principal bundle]] over the [[classifying space]] for the group (eq:GroupOfUnitNormElements), the [[real vector bundle]] underlying the [[universal complex line bundle|universal K-line bundle]] is the corresponding [[associated bundle]] via the above action (eq:KAsSKRepresentation):
+denoting the $S(\mathbb{K})$-[[universal principal bundle]] over the [[classifying space]] for the group (eq:GroupOfUnitNormElements) (hence a [[double cover]], [[principal U(1)-bundle]] or [[principal SU(2)-bundle]]), the [[real vector bundle]] underlying the [[universal complex line bundle|universal K-line bundle]] is the corresponding [[associated bundle]] via the above action (eq:KAsSKRepresentation):
 
 \[
   \label{UniversalKLineBundle}
