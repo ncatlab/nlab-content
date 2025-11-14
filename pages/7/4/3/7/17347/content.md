@@ -3693,7 +3693,7 @@ $$
   \,.
 $$
 
-The [[sequential colimit]] over this sequence is the infinite complex projective space $\mathbb{C}P^\infty$. This is a model for the [[classifying space]] $B U(1)$ of [[circle principal bundles]]/[[complex line bundles]] (an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$).
+The [[sequential colimit]] over this sequence is the infinite complex projective space $\mathbb{C}P^\infty$. This is a model for the [[classifying space]] [[BU(n)|$B U(1)$]] of [[principal U(1)-bundles]]/[[complex line bundles]] (an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$).
 
 +-- {: .num_defn #ComplexProjectiveSpace}
 ###### Definition
@@ -5440,7 +5440,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Observe that the [[circle group]] $U(1)$ is naturally identified with the unit sphere in $\mathbb{C}$: $U (1) \simeq S(\mathbb{S})$. Therefore the sphere bundle of the universal complex line bundle is equivalently the $U(1)$-[[universal principal bundle]]
+Observe that the [[circle group]] $U(1)$ is naturally identified with the unit sphere in $\mathbb{C}$: $U (1) \simeq S(\mathbb{S})$. Therefore the sphere bundle of the universal complex line bundle is equivalently the universal [[principal U(1)-bundle]]
 
 $$
   \begin{aligned}
