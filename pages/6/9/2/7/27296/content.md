@@ -41,7 +41,7 @@ The [[isomorphism class]] of the [[underlying]] [[principal bundles]], hence its
 
 Much technology in [[variational calculus]] for [[Lagrangian field theory]] and subsequent [[quantization]]-procedures has been and is being developed already for handling gauge fields with their [[gauge transformations]] just locally -- common machinery is known as "[[BRST complex|BRST]]-[[BV-formalism]]" or variants thereof.
 
-Comparatively less attention has traditionally been paid to the global aspects of gauge fields (for instance available BRST-BV formalism does not really reflect or handle them). But realizing that connections on [[circle principal bundle|$U(1)$-principal bundles]] globally describing the [[electromagnetic field]] are equivalently 2-[[cocycles]] in [[ordinary differential cohomology]], and that connections on general [[principal bundles]] may still be understood as cocycles in [[nonabelian differential cohomology]], it is helpful to understand the global nature of gauge fields generally as reflected by notions of [[cohomology]]:
+Comparatively less attention has traditionally been paid to the global aspects of gauge fields (for instance available BRST-BV formalism does not really reflect or handle them). But realizing that connections on [[principal U(1)-bundles]] globally describing the [[electromagnetic field]] are equivalently 2-[[cocycles]] in [[ordinary differential cohomology]], and that connections on general [[principal bundles]] may still be understood as cocycles in [[nonabelian differential cohomology]], it is helpful to understand the global nature of gauge fields generally as reflected by notions of [[cohomology]]:
 
 [[!include cohomology and gauge fields -- table]]
 
