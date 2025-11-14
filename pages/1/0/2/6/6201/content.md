@@ -4325,14 +4325,14 @@ We discuss the
 <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">intrinsic differential cohomology</a> in $Smooth \infty Grpd$
 
 We first expose the simple special case of ordinary
-$U(1)$-[[principal bundle]]s with [[connection on a bundle|connection]]
+[[principal U(1)-bundle]] with [[connection on a bundle|connection]]
 in more detail. Then we turn to the general case.
 
 #### Circle 0- and circle 1-bundle with connection
 
 ##### Circle bundles with connection {#CircleBundlesConnection}
 
-Before discussing [the full theorem](#DeligneCohomologyTheorem), it is instructive to start by looking at the special case $n=1$ in some detail, which is about ordinary  $U(1)$-[[nLab:principal bundle]]s [[nLab:connection on a bundle|with connection]]. 
+Before discussing [the full theorem](#DeligneCohomologyTheorem), it is instructive to start by looking at the special case $n=1$ in some detail, which is about ordinary  [[principal U(1)-bundles]] [[nLab:connection on a bundle|with connection]]. 
 
 This contains in it already all the relevant structure of the general case, but the low categorical degree is more transparently written out and will allow us to pause to highlight some maybe noteworthy aspects of the situation, such as the phenomenon of _pseudo-connections_ [below](#CircleBunlePseudoConnection).
 
@@ -4500,7 +4500,7 @@ and picking the lowest horizontal morphism.
 Here the terms mean the following:
 
 * $INN(U(1))$ is the [[nLab:2-group]] $\Xi(U(1) \to U(1))$, which is a 
-  [[nLab:groupal model for universal principal ∞-bundles|groupal model for the universal U(1)-principal bundle]] $\mathbf{E}U(1)$;
+  [[nLab:groupal model for universal principal ∞-bundles|groupal model for the universal [[principal U(1)-bundle]] $\mathbf{E}U(1)$;
 
 * $\mathbf{\Pi}_2(U)$ is the [[nLab:path 2-groupoid]] with homotopy class of 2-dimensional paths as 2-morphisms
 
@@ -4629,7 +4629,7 @@ $$
 
 So in total we have found the following story:
 
-1. In order to compute the curvature characteristic form of a [[nLab:Cech cohomology]] cocycle $g : C(\{U_i\}) \to \mathbf{B}U(1)$ of a $U(1)$-principal bundle, we first lift it 
+1. In order to compute the curvature characteristic form of a [[nLab:Cech cohomology]] cocycle $g : C(\{U_i\}) \to \mathbf{B}U(1)$ of a [[principal U(1)-bundle]], we first lift it 
 
    $$
      \array{
@@ -4641,7 +4641,7 @@ So in total we have found the following story:
      }
    $$
 
-   to an equivalent $\mathbf{B}_{diff}U(1)$-cocycle, and this amounts to putting (the Cech-representatitve of) a _pseudo-connection_ on the $U(1)$-principal bundle.
+   to an equivalent $\mathbf{B}_{diff}U(1)$-cocycle, and this amounts to putting (the Cech-representatitve of) a _pseudo-connection_ on the [[principal U(1)-bundle]].
 
 1. From that lift the desired curvature characteristic is simply projected out
 
@@ -4679,7 +4679,7 @@ The general version of this story is discussed in detail at <a href="#Connection
 
 ##### Circle bundles with pseudo-connection {#CircleBunlePseudoConnection}
 
-In the above discussion of extracting ordinary connections on ordinary $U(1)$-principal bundles from the abstract topos-theoretic definition of differential cohomology, we argued that a certain homotopy pullback may be computed by choosing in the Cech-hypercohomology of the complex of sheaves $(\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2_{cl}(-))$ over a manifold $X$ those cohomology representatives that happen to be represented by globally defined 2-forms on $X$. We saw that the homotopy fiber of _pseudo-connections_ over these 2-forms happened to have connected components indexed by _genuine_ connections.
+In the above discussion of extracting ordinary connections on ordinary [[principal U(1)-bundles]] from the abstract topos-theoretic definition of differential cohomology, we argued that a certain homotopy pullback may be computed by choosing in the Cech-hypercohomology of the complex of sheaves $(\Omega^1(-) \stackrel{d_{dR}}{\to} \Omega^2_{cl}(-))$ over a manifold $X$ those cohomology representatives that happen to be represented by globally defined 2-forms on $X$. We saw that the homotopy fiber of _pseudo-connections_ over these 2-forms happened to have connected components indexed by _genuine_ connections.
 
 But by the general abstract theory, up to isomorphism the differential cohomology computed this way is guaranteed to be independent of all such choices, which only help us to compute things.
 
@@ -4738,7 +4738,7 @@ $$
   \,.
 $$
 
-This fixes the pseudo-components to be $a_{i j} = - d g_{i j}$. By the above discussion, this pseudo-connection with vanishing connection 1-forms is equivalent, as a pseudo-connection, to the ordinary connection cocycle with connection forms $(A_i := \sum_{i_0} \rho_{i_0} d g_{i_0 i})$. This is a <a href="http://ncatlab.org/nlab/show/connection+on+a+bundle#Properties">standard formula</a> for equipping $U(1)$-principal bundles with Cech cocycle $(g_{i j})$ with a connection.
+This fixes the pseudo-components to be $a_{i j} = - d g_{i j}$. By the above discussion, this pseudo-connection with vanishing connection 1-forms is equivalent, as a pseudo-connection, to the ordinary connection cocycle with connection forms $(A_i := \sum_{i_0} \rho_{i_0} d g_{i_0 i})$. This is a <a href="http://ncatlab.org/nlab/show/connection+on+a+bundle#Properties">standard formula</a> for equipping [[principal U(1)-bundles]] with Cech cocycle $(g_{i j})$ with a connection.
 
 
 ##### Circle 0-bundle {#U1GroupoidBundle}
