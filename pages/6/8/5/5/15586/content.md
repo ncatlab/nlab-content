@@ -175,7 +175,7 @@ In the following MO discussion, [[Mike Shulman]] also offers additional perspect
 
 The above worked-out ET2CSC (where the "S" stands for "small") can be found in
 
-* {#HM25} C. Hughes, A. Miranda, _The elementary theory of the 2-category of small categories_, Theory and Applications of Categories, 2025, [link](http://tac.mta.ca/tac/volumes/43/8/43-08abs.html)
+* {#HM25} [[Calum Hughes]], Adrian Miranda: _The elementary theory of the 2-category of small categories_, Theory and Applications of Categories *43* 8 (2025) 196–242 &lbrack;[arXiv:2403.03647](https://arxiv.org/abs/2403.03647), [doi:10.70930/tac/c97jx7g2](https://doi.org/10.70930/tac/c97jx7g2)&rbrack;
 
 See also
 
