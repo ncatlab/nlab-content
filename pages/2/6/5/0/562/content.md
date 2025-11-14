@@ -428,6 +428,8 @@ Fibrations are pseudoalgebras for a [[lax-idempotent pseudomonad]] (see there fo
 
   [[two-sided fibration]]
 
+* [[small fibration]], [[locally small fibration]]
+
 * [[monoidal fibration]]
 
 * [[fibration of 2-categories]]
