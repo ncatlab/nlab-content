@@ -491,7 +491,7 @@ $$
   \,.
 $$
 
-This construction (in consequence of [Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69)) may be understood as completing a suggestion by [Witten 2001 p. 6-8](D-brane+charge+quantization+in+K-theory#Witten00) following [Hořava 1998 (3.7, 3.17)](D-brane+charge+quantization+in+K-theory#Horava98).
+This construction (in consequence of [Atiyah & Singer 1969 Prop. 3.3](#AtiyahSinger69)) follows [SS26 §4.3.3](#SS26), completing a suggestion by [Witten 2001 p. 6-8](D-brane+charge+quantization+in+K-theory#Witten00) following [Hořava 1998 (3.7, 3.17)](D-brane+charge+quantization+in+K-theory#Horava98).
 
 \end{example}
 
@@ -649,6 +649,9 @@ As a [[classifying space]] for [[topological K-theory]] $KU^1$, $KO^1$ and $KSp^
 More on the [[homotopy groups]] of this space:
 
 * {#BooßBavnbekWojciechowski1993} [[Bernhelm Booß-Bavnbek]], Krzysztof P. Wojciechowski: *The Homotopy Groups of the Space of Self-Adjoint Fredholm Operators*, §16 in: *Elliptic Boundary Problems for Dirac Operators* Mathematics: Theory & Applications, Birkhäuser (1993) 127-137  &lbrack;[doi:10.1007/978-1-4612-0337-7_16](https://doi.org/10.1007/978-1-4612-0337-7_16), [pdf](https://link.springer.com/content/pdf/10.1007/978-1-4612-0337-7_16)&rbrack;
+
+* {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: *The 3-Sphere of Self-Adjoint Fredholm Operators*, §4.3.3 of: *[[schreiber:Orientations of Orbi-K-Theory|Orientations of Orbi-K-Theory measuring Topological Phases and Brane Charges]]*
+
 
 Specifically regarding their [[spectral flow]]:
 
