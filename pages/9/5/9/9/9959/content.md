@@ -84,7 +84,7 @@ See also:
 ### Via differential 3-cohomology
  {#ReferencesViaDiff3Cohomology}
 
-Instead of removing the singular locus of the monopole from spacetime (so that [[Maxwell's equations]] without magnetic sources are satisfied on the [[complement]]) one may retain the monopole locus and change the model of the [[electromagnetic field]] from a [[connection on a bundle|connection]] on a [[circle group|U(1)]]-[[principal bundle]] to a suitable *trivialization* of a [[circle 2-bundle with connection]] (a "[[bundle gerbe]]" [[connection on a bundle gerbe|with connection]]) whose [[curvature]] 3-form is the magnetic [[current density]] (the magnetic "source" term):
+Instead of removing the singular locus of the monopole from spacetime (so that [[Maxwell's equations]] without magnetic sources are satisfied on the [[complement]]) one may retain the monopole locus and change the model of the [[electromagnetic field]] from a [[connection on a bundle|connection]] on a [[principal U(1)-bundle]] to a suitable *trivialization* of a [[circle 2-bundle with connection]] (a "[[bundle gerbe]]" [[connection on a bundle gerbe|with connection]]) whose [[curvature]] 3-form is the magnetic [[current density]] (the magnetic "source" term):
 
 * [Brylinski 1993, §7.2](#Brylinski93)
 
