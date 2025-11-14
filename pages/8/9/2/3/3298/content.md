@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
+
  
 ## Idea
 
@@ -33,7 +32,9 @@ Originally the notion of Hochschild homology was introduced as the
 [[chain homology]] of a certain [[chain complex]] associated to any [[bimodule]] $N$ over some [[algebra]] $A$: its [[bar complex]], written 
  
 $$
-  C_\bullet(A,N) := N \otimes_{A \otimes A^{op}} \mathrm{B}_\bullet A
+  C_\bullet(A,N) 
+    \coloneqq 
+  N \otimes_{A \otimes A^{op}} \mathrm{B}_\bullet A
   \,,
 $$
   
@@ -49,18 +50,26 @@ $$
 Then still a little later, it was understood that this is just the ordinary tensor product in the [[symmetric monoidal (∞,1)-category]] of [[chain complex]]es. If this
 is understood, we can just write again simply 
 $$
-  C_\bullet(A,N) := N \otimes_{A \otimes A^{op}} A
+  C_\bullet(A,N) 
+    \coloneqq
+  N \otimes_{A \otimes A^{op}} A
   \,.
 $$
 
 This, generally, is the definition of the Hochschild homology object of any bimodule over a [[monoid in a monoidal (∞,1)-category|monoid]] in a symmetric monoidal $(\infty,1)$-category (symmetry is needed to make sense of $A^{op}$).  Dually, the Hochschild *cohomology* object is 
 
-$$ C^\bullet(A,N) := Hom_{A\otimes A^{op}}(A,N).$$
+$$ 
+  C^\bullet(A,N) 
+   \coloneqq
+  Hom_{A\otimes A^{op}}(A,N).
+$$
 
 Of special interest is the case where $N = A$. In this case the Hochschild cohomology object is also called the ("$(\infty,1)$-" or "derived-")**center** of $A$:
   
 $$
-  Z(A) := Hom_{A\otimes A^{op}}(A,A).
+  Z(A) 
+    \coloneqq
+  Hom_{A\otimes A^{op}}(A,A).
 $$
  
 Dually, the Hochschild homology object when $N=A$ is called the [[universal trace]] or *shadow*.  In this case, if $A = \mathcal{O}(X)$ can be identified with an $\infty$-algebra of functions on an object $X$, which is therefore commutative so that $A^{op}= A$, and if taking functions commutes with $(\infty,1)$-pullbacks, then 
@@ -148,7 +157,7 @@ The following definition formalizes large classes of $\mathcal{O}$-perfect objec
 
 Let $T$ be an [[(∞,1)-algebraic theory]] and $T Alg_\infty$ its [[(∞,1)-category]] of $\infty$-algebras. Let $C$ with $T \hookrightarrow C \hookrightarrow T Alg_\infty^{op}$ be a [[small (∞,1)-category|small]] full [[sub-(∞,1)-category]] of $T Alg_\infty^{op}$ which is closed under [[(∞,1)-limit]]s in $T Alg$ and equipped with the structure of a [[subcanonical coverage|subcanonical]] [[(∞,1)-site]]. 
 
-Take $\mathbf{H} := Sh(C)$ the [[(∞,1)-category of (∞,1)-sheaves]] on $C$. This is an [[(∞,1)-topos]] for [[derived geometry]] modeled on $T Alg_\infty$.  Write $C \hookrightarrow \mathbf{H}$ for the [[(∞,1)-Yoneda embedding]].
+Take $\mathbf{H} \coloneqq Sh(C)$ the [[(∞,1)-category of (∞,1)-sheaves]] on $C$. This is an [[(∞,1)-topos]] for [[derived geometry]] modeled on $T Alg_\infty$.  Write $C \hookrightarrow \mathbf{H}$ for the [[(∞,1)-Yoneda embedding]].
 
 For $X \in C\stackrel{}{\hookrightarrow} \mathbf{H} $ write $\mathcal{O}(X)$ for the same object regarded as an object of $T Alg_\infty$.
 
@@ -1101,7 +1110,7 @@ We spell out explicitly the Hochschild chain complex for an
 The [[bar complex]] of $A$ is the [[connective chain complex|connective]] [[chain complex]]
 
 $$
-  \mathrm{B}_\bullet A :=
+  \mathrm{B}_\bullet A \coloneqq
   (
     \cdots \to A^{\otimes_k n}
     \stackrel{\partial}{\to}
@@ -1117,7 +1126,7 @@ which in degree $n$ has the $(n+1)$ [[tensor power]] of $A$ with itself, and who
 
 $$
   \partial(a_0, a_1, \cdots a_n)
-  :=
+  \coloneqq
   (a_0 a_1, a_2, \cdots, a_n)
   - 
   (a_0, a_1 a_2 , a_3, \cdots, a_n)
@@ -1137,14 +1146,18 @@ regarded as a chain complex in $A$-[[bimodule]]s for the evident bimodule struct
 Let $N$ be an $A$-[[bimodule]]. The **Hochschild chain complex** $C_\bullet(A,N)$ of $A$ with coefficients in $N$ is the chain complex obtained by taking in the [bar complex](#PlainBarComplex) degreewise the [[tensor product]] of $A$-bimodules with $N$:
 
 $$
-  C_\bullet(A,N) := N_{A \otimes A^{op}}\mathrm{B}_\bullet A
+  C_\bullet(A,N) 
+    \coloneqq
+  N_{A \otimes A^{op}}\mathrm{B}_\bullet A
   \,.
 $$
 
 The **Hochschild homology** of $A$ with coefficients in $N$ is the [[homology]] of the Hochschild chain complex, written
 
 $$
-  HH_n(A,N) := H_n( C_\bullet(A,N))
+  HH_n(A,N) 
+    \coloneqq
+  H_n( C_\bullet(A,N))
   \,.
 $$
 
@@ -1366,7 +1379,7 @@ This is usually discussed as a [[chain complex]] in the category of $\mathcal{O}
  
 $$
   \mathrm{B} \mathcal{O}(X) 
-   :=
+   \coloneqq
   \left(
      \cdots 
     \mathcal{O}(X) \otimes_k \mathcal{O}(X) \otimes_k
@@ -1432,7 +1445,7 @@ $$
   (\mathcal{O} \dashv Spec) : 
    (cdgAlg_k^{op})^\circ
    \stackrel{\overset{\mathcal{O}}{\leftarrow}}{\underset{Spec}{\longrightarrow}}
-   \mathbf{H} := Sh_\infty((cdgAlg_k^-)^{op})
+   \mathbf{H} \coloneqq Sh_\infty((cdgAlg_k^-)^{op})
    \,.
 $$
 
@@ -1683,7 +1696,7 @@ of the first Hochschild homology of $A$ with coefficients in itself and degree-1
 
 
 
-Write $\Omega^0(R/k) := R \simeq HH_0(R,R)$.
+Write $\Omega^0(R/k) \coloneqq R \simeq HH_0(R,R)$.
 
 For $n \geq 2$ Write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [[exterior algebra|wedge product]] of $\Omega(R/k)$ with itself: the degree $n$-K&#228;hler-differentials.
 
@@ -1693,7 +1706,7 @@ For $n \geq 2$ Write $\Omega^n(R/k) = \wedge^n_R \Omega(R/k)$ for the $n$-fold [
 The isomorphism $\Omega^1(R/k) \simeq H_1(R,R)$ extends to a graded ring morphism
 
 $$
-  \psi : \Omega^\bullet(R/k) \to H_\bullet(R,R)
+  \psi \colon \Omega^\bullet(R/k) \to H_\bullet(R,R)
   \,.
 $$
 
