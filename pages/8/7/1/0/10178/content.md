@@ -508,7 +508,7 @@ $$
   \,.
 $$
 
-in $\mathbf{H}$, which exhibts the [[circle group]] (as a [[Lie group]]!) as the [[loop space object]] of the [[moduli stack]] of $U(1)$-[[principal bundles]]: $U(1)\simeq \Omega \mathbf{B}U(1)$. By the [[universal property]] of the [[homotopy fiber]] construction, this means that maps $\mathbf{Fields}_{traj} \longrightarrow U(1)$ are equivalent to [[diagrams]] of the form
+in $\mathbf{H}$, which exhibts the [[circle group]] (as a [[Lie group]]!) as the [[loop space object]] of the [[moduli stack]] of [[principal U(1)-bundles]]: $U(1)\simeq \Omega \mathbf{B}U(1)$. By the [[universal property]] of the [[homotopy fiber]] construction, this means that maps $\mathbf{Fields}_{traj} \longrightarrow U(1)$ are equivalent to [[diagrams]] of the form
 
 $$
   \array{
