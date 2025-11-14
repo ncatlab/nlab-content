@@ -73,7 +73,7 @@ More on this in the discussion below.
 
 ### As the Atiyah Lie 2-algebroid of a $U(1)$-gerbe
 
-A standard Courant algebroid may be understood as being related to $\mathbf{B}U(1)$ [[principal 2-bundle]]s ($U(1)$-[[gerbe]]s) as an [[Atiyah Lie algebroid]] is related to a $U(1)$-[[principal bundle]].
+A standard Courant algebroid may be understood as being related to $\mathbf{B}U(1)$ [[principal 2-bundle]]s ($U(1)$-[[gerbe]]s) as an [[Atiyah Lie algebroid]] is related to a [[principal U(1)-bundle]].
 
 (...explain...)
 
