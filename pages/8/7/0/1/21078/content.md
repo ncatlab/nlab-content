@@ -18,5 +18,10 @@ On [[Z' bosons]] in view of the [[flavour anomalies]]:
 
 * [[Wolfgang Altmannshofer]], Joe Davighi, Marco Nardecchia, _Gauging the accidental symmetries of the Standard Model, and implications for the flavour anomalies_ ([arXiv:1909.02021](https://arxiv.org/abs/1909.02021))
 
+On [[flavour physics]] beyond the [[standard model of particle physics]]:
+
+* [[Wolfgang Altmannshofer]], [[Peter Stangl]]: *Flavour Physics Beyond the Standard Model*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2508.03950](https://arxiv.org/abs/2508.03950)&rbrack;
+
+
 
 category: people
