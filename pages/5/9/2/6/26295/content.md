@@ -36,9 +36,9 @@ More exhaustive references:
 
 * [[Mitchell Buckley]]. _Fibred 2-categories and bicategories_, Journal of pure and applied algebra **218** 6 (2014) 1034-1074 &lbrack;[doi](https://doi.org/10.1016/j.jpaa.2013.11.002)&rbrack;
 
-See also:
+With an eye towards understanding classifiers in [[2-categorical logic]]:
 
-* [[Luca Mesiti]], *Pointwise Kan extensions along 2-fibrations and the 2-category of elements* &lbrack;[arXiv:2302.04566](https://arxiv.org/abs/2302.04566)&rbrack;
+* [[Luca Mesiti]]: _Pointwise Kan extensions along 2-fibrations and the 2-category of elements_, Theory and Applications of Categories **41** 30 960–994 (2024) &lbrack;[arXiv:2302.04566](http://arxiv.org/abs/2302.04566), [doi:10.70930/tac/b9u5z003](http://doi.org/10.70930/tac/b9u5z003)&rbrack;
 
 
 [[!redirects 2-Grothendieck constructions]]
