@@ -322,7 +322,7 @@ They play a central role for instance on [[Riemannian manifold]]s and [[pseudo-R
 
 In [[physics]] connections on bundles model [[gauge field]]s. 
 
-* The [[electromagnetic field]] is a connection on a [[circle group]]-principal bundle;
+* The [[electromagnetic field]] is a connection on a [[principal U(1)-bundle]];
 
 * A [[Yang-Mills field]] more generally is a connection on a [[unitary group]]-principal bundle.
 
