@@ -476,7 +476,7 @@ See also:
 
 * MathOverflow: **Computational complexity of computing homotopy groups of spheres &lbrack;[MO:q/31004](https://mathoverflow.net/q/31004/381)&rbrack;
 
-* Prasit Bhattacharya, Irina Bobkova, [[J. D. Quigley]]: *New infinite families in the stable homotopy groups of spheres* (2024) &lbrack;[arXiv:2404.10062](https://arxiv.org/abs/2404.10062)&rbrack;
+* [[Prasit Bhattacharya]], Irina Bobkova, [[J. D. Quigley]]: *New infinite families in the stable homotopy groups of spheres* (2024) &lbrack;[arXiv:2404.10062](https://arxiv.org/abs/2404.10062)&rbrack;
 
 Expressing the homotopy groups of the [[2-sphere]] in terms of Brunnian [[braid groups]]:
 
