@@ -230,6 +230,10 @@ which sends a finitely complete category $C$ to the category of [[models]] of $C
 
 * Every locally presentable category is also well-*copowered*.  This is shown in [Adámek & Rosický (1994), Prop. 1.57 & Thm. 2.49](#AdámekRosický94).
 
+### Tensor product
+
+The category of locally presentable categories is equipped with a [[symmetric monoidal category|symmetric monoidal]] structure, defined by $C \otimes D := Cts(C^op, D)$, where $Cts$ denotes the 2-category of [[complete categories]] and [[continuous functors]]: see [[Pr(infinity,1)Cat]] for more details.
+
 
 ## Examples and applications
 
