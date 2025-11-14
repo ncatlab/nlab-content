@@ -19,6 +19,10 @@ and in the context of [[leptoquark]]-models:
 * {#GST21} [[Admir Greljo]], [[Peter Stangl]], Anders Eller Thomsen, _A Model of Muon Anomalies_ ([arXiv:2103.13991](https://arxiv.org/abs/2103.13991))
 
 
+On [[flavour physics]] beyond the [[standard model of particle physics]]:
+
+* [[Wolfgang Altmannshofer]], [[Peter Stangl]]: *Flavour Physics Beyond the Standard Model*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2508.03950](https://arxiv.org/abs/2508.03950)&rbrack;
+
 
 
 category: people
