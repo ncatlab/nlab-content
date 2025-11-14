@@ -44,7 +44,7 @@ $$
 $$
 
 
-And just as a degree 2 [[Deligne cohomology|Deligne cocycle]] is equivalently encoded in a $U(1)$-[[principal bundle]] [[connection on a bundle|with connection]], the degree 3 differential cocycle is equivalently encoded in
+And just as a degree 2 [[Deligne cohomology|Deligne cocycle]] is equivalently encoded in a [[principal U(1)-bundle]] [[connection on a bundle|with connection]], the degree 3 differential cocycle is equivalently encoded in
 
 * a degree 3 [[Deligne cohomology|Deligne cocycle]];
 
