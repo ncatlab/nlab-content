@@ -673,7 +673,7 @@ We next discuss some examples and applications:
 ###### Gauge coupling action functional of charged particle
  {#GaugeCouplingActionFunctionalOfChargedParticle}
 
-Let $X \in \mathbf{H}$ and consider a [[circle group]]-[[principal connection]] $\nabla \colon X \to \mathbf{B}U(1)_{conn}$ over $X$. By the discussion in _[Dirac charge quantization and the electromagnetic field](#DiracChargeQuantizationAndElectromagneticField)_ above this encodes an [[electromagnetic field]] on $X$. Assume for simplicity here that the underlying [[circle principal bundle]] is trivialized, so that then the connection is equivalently given by a differential 1-form
+Let $X \in \mathbf{H}$ and consider a [[circle group]]-[[principal connection]] $\nabla \colon X \to \mathbf{B}U(1)_{conn}$ over $X$. By the discussion in _[Dirac charge quantization and the electromagnetic field](#DiracChargeQuantizationAndElectromagneticField)_ above this encodes an [[electromagnetic field]] on $X$. Assume for simplicity here that the underlying [[principal U(1)-bundle]] is trivialized, so that then the connection is equivalently given by a differential 1-form
 
 $$
   \nabla = A \colon X \to \Omega^1
