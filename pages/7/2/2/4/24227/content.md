@@ -1,7 +1,7 @@
 
-* [personal page](https://www.carloangiuli.com/).
+* [personal page](https://www.carloangiuli.com/)
 
-* [GoogleScholar page](https://scholar.google.com/citations?user=eM1H0SwAAAAJ&hl=en)
+* [Google Scholar page](https://scholar.google.com/citations?user=eM1H0SwAAAAJ&hl=en)
 
 ## Publications
 
@@ -9,11 +9,13 @@ On the principles of [[dependent type theory]]
 
 * {#AngiuliGratzer} [[Carlo Angiuli]], [[Daniel Gratzer]], *Principles of Dependent Type Theory* ([pdf](https://www.danielgratzer.com/papers/type-theory-book.pdf))
 
-On computational higher type theory:
+On Cartesian [[cubical type theory]]:
 
-* _Computational Higher Type Theory I: Abstract Cubical Realizability_, [[Carlo Angiuli]], [[Robert Harper]], Todd Wilson, [arxiv](https://arxiv.org/abs/1604.08873), 2016
-* _Computational Higher Type Theory II: Dependent Cubical Realizability_, [[Carlo Angiuli]], [[Robert Harper]], [arxiv](https://arxiv.org/abs/1606.09638), 2016
-* _Computational Higher Type Theory III: Univalent Universes and Exact Equality_, [[Carlo Angiuli]], [[Kuen-Bang Hou]], [[Robert Harper]], [arxiv](https://arxiv.org/abs/1712.01800), 2017
+* [[Jonathan Sterling]], [[Carlo Angiuli]], _Normalization for Cubical Type Theory_, 36th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS), 2021. ([doi:10.1109/LICS52264.2021.9470719](https://dx.doi.org/10.1109/LICS52264.2021.9470719), [arXiv:2101.11479](https://arxiv.org/abs/2101.11479))
+
+* {#ABCFHL} [[Carlo Angiuli]], [[Guillaume Brunerie]], [[Thierry Coquand]], [[Kuen-Bang Hou (Favonia)]], [[Robert Harper]], and [[Daniel R. Licata]], _Syntax and models of Cartesian cubical type theory_, Mathematical Structures in Computer Science, 31(4), 2021. ([doi:10.1017/S0960129521000347](https://dx.doi.org/10.1017/S0960129521000347))
+
+* [[Carlo Angiuli]], _Computational Semantics of Cartesian Cubical Type Theory_, Ph.D. Thesis. ([pdf](https://www.carloangiuli.com/papers/thesis.pdf))
 
 On [[XTT]]:
 
