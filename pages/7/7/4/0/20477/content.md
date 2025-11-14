@@ -1,5 +1,5 @@
 
-* [webpage](http://www.physics.wayne.edu/~apetrov/Welcome.html)
+* [personal page](http://www.physics.wayne.edu/~apetrov/Welcome.html)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Alexey_A._Petrov)
 
@@ -19,9 +19,16 @@ specifically via [[charm quark]] physicsl:
 
 * Alexey Petrov, _Searching for New Physics with Charm_ ([arXiv:1003.0906](https://arxiv.org/abs/1003.0906))
 
+On [[CP violation]]:
 
-## Related $n$Lab entries
+* [[Alexey A. Petrov]]: *CP violation*, in *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2511.09739](https://arxiv.org/abs/2511.09739)&rbrack;
+
+
+
+## Related entries
 
 * [[effective field theory]]
+
+[[!redirects Alexey A. Petrov]]
 
 category: people
