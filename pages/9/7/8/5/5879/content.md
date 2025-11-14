@@ -24,8 +24,8 @@ For instance
 
 * a [[photon]] is the quantum of the [[electromagnetic field]]: a connection on a [[line bundle]];
 
-* a [[gluon]] is the quantum of the [[Yang-Mills field]]: a [[connection on a bundle|connection]] on a $SU(3)$-[[principal 
-bundle]].
+* a [[gluon]] is the quantum of the [[Yang-Mills field]]: a [[connection on a bundle|connection]] on a [[principal 
+SU(3)-bundle]].
 
 * if one regards [[first-order formulation of gravity|gravity as a gauge theory]], then the [[graviton]] may be regaded as the gauge boson of a connection on a [[Poincare group|ISO]]-[[principal bundle]].
 
