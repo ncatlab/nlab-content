@@ -121,7 +121,7 @@ There are various equivalent [[cocycle]]-models for ordinary differential cohomo
 
 The last of these are often known as $U(1)$-[[gerbe]]s or [[bundle gerbe]]s with connection.
 
-Cocycles $\nabla \in H_{diff}^2(X)$ in degree 2 ordinary differential cohomology are represented by ordinary [[circle group]]-[[principal bundle]]s with [[connection on a bundle|connection]] on $X$.  The class $c(\nabla) \in H^2(X,\mathbb{Z})$ is the [[Chern class]] of the underlying circle bundle and the form $F_\nabla \in \Omega^2_{cl}(X)$ is the [[curvature]] 2-form of the connection $\nabla$.
+Cocycles $\nabla \in H_{diff}^2(X)$ in degree 2 ordinary differential cohomology are represented by ordinary [[principal U(1)-bundle]]s with [[connection on a bundle|connection]] on $X$.  The class $c(\nabla) \in H^2(X,\mathbb{Z})$ is the [[Chern class]] of the underlying circle bundle and the form $F_\nabla \in \Omega^2_{cl}(X)$ is the [[curvature]] 2-form of the connection $\nabla$.
 
 ## Fiber integration
 
