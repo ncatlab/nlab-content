@@ -1,12 +1,4 @@
-<div class="rightHandSide toc">
-[[!include cohomology - contents]]
 
-***
-
-[[!include higher algebra - contents]]
-
-
-</div>
 
 
 
@@ -37,15 +29,12 @@ Next:
 
 
 
-# contents #
-
-* table of contents
-{: toc}
+\tableofcontents
 
 
 
 
-# part 1 -- the sheaf of elliptic cohomology ring spectra #
+## The sheaf of elliptic cohomology ring spectra 
 
 
 We will talk about a lifting problem that will lead to the formulation of [[tmf]]. This requires [[E-infinity ring]]s and [[derived algebraic geometry]].
@@ -140,7 +129,7 @@ Let $A$ be an [[A-infinity ring]] [[spectrum]].
 
 1. $\pi_0(M)$ is flat over $\pi_0(A)$ in the ordinary sense
 
-1. $\forall n : \pi_n(A) \otimes_{\pi_0(A)} \pi_0(M) \to \pi_n(M)$ is an isomorphism of $\pi_0(M)$-modules
+1. $\forall n : \pi_n(A) \otimes_{\pi_0(A)} \pi_0(M) \to \pi_n(M)$ is an isomorphism of $\pi_0(A)$-modules
 
 **definition** a morphism $f : A \to B$ of [[E-infinity ring]]s is flat if $B$ regarded as an $A$-module using this morphism is flat. 
 
@@ -161,7 +150,7 @@ The [[spectrum]] [[tmf]] is obtained in the same manner by replacing $M_{1,1}$ b
 
 
 
-# part 2 - the stable symmetric monoidal $(\infty,1)$-category of spectra#
+## The stable symmetric monoidal $(\infty,1)$-category of spectra
 
 
 
@@ -384,7 +373,7 @@ so to each [[(infinity,1)-category]] $C$ we get another [[(infinity,1)-category]
 In particular, we set 
 
 $$
-  Sp := Sp(Top)
+  Sp \coloneqq Sp(Top)
 $$
 
 the [[stable (infinity,1)-category of spectra]] is the stabilization of the [[(infinity,1)-category]] [[Top]] of [[topological space]]s.
@@ -437,7 +426,7 @@ $E_\infty$-rings themselves form an [[(infinity,1)-category]]. And this has all 
 
 
 
-# part 3 - brave new schemes #
+## Brave new schemes
 
 Now the theory of [[scheme]]s and [[derived scheme]]s, but not over [[simplicial commutative ring]]s, but over [[E-infinity ring]]s.
 
@@ -450,14 +439,16 @@ Let $A$ be an [[E-infinity ring]].
 Define its [[spectrum of an E-infinity ring]] $Spec A$ as  the [[ringed space]] $(|Spec A|, \mathcal{O}_{Spec A})$ whose underlying [[topological space]] is the ordinary spectrum of the degree-0 ring
 
 $$
-  |Spec A| := Spec \pi_0 A
+  |Spec A| 
+  \coloneqq
+   Spec \pi_0 A
 $$
  
 and where $\mathcal{O}_{Spec A}$ is given on Zariski-opens $D(f)$ for any $f \in \pi_0 A$ by
 
 $$
   \mathcal{O}_{Spec A}(D(f))
-  :=
+  \coloneqq
   A[f^{-1}]
   \,.
 $$
@@ -473,12 +464,12 @@ This geometry over [[E-infinity ring]]s is in [[spectral algebraic geometry]]/[[
 
 The analog for [[simplicial commutative ring]]s instead of  is what is discussed at [[derived scheme]].
 
-**theorem** ([[Jacob Lurie]])
+**theorem** ([[Jacob Lurie|Lurie]])
 
 If $X$ s a space and $\mathcal{O}$ a sheaf of [[E-infinity ring]]s then $(X,\pi_0 \mathcal{O}_X)$ is a classical [[scheme]] and $\pi_n \mathcal{O}_X$ is a quasicoherent $\pi_0 \mathcal{O}_X$-[[module]].
 
 **theorem** there exists a [[derived Deligne-Mumford stack]] $(M_{1,1}, \mathcal{O}^{der}_{M_{1,1}})$ such that $(M_{1,1}, \pi_0 \mathcal{O}^{der}_{M_{1,1}})$ is the ordinary [[Deligne-Mumford stack|DM-]] [[moduli stack]] of [[elliptic curve]]s.
 
-#References#
+## References
 
 * [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
