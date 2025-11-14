@@ -49,6 +49,11 @@ $$
 
 ### General
 
+* Claudio Bonanno, Claudio Bonati, Massimo D'Elia: *Strong CP problem, theta term and QCD topological properties*, in: *[[Encyclopedia od Particle Physics]]* (2026) &lbrack;[arXiv:2510.03059](https://arxiv.org/abs/2510.03059)&rbrack;
+
+
+See also:
+
 * {#CrewtherDiVecchiaVenezianoWitten79} [[Rodney Crewther]], [[Paolo Di Vecchia]], [[Gabriele Veneziano]], [[Edward Witten]], _Chiral estimate of the electric dipole moment of the neutron in quantum chromodynamics_, Phys. Lett. B 88 (1979) 123-127 ([cds:133382](http://cds.cern.ch/record/133382)). 
 
 * [[Davide Gaiotto]], [[Anton Kapustin]], [[Zohar Komargodski]], [[Nathan Seiberg]], _Theta, Time Reversal, and Temperature_, JHEP05(2017)091 ([arXiv:1703.00501](https://arxiv.org/abs/1703.00501))
