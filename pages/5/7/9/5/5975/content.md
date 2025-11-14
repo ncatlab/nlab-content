@@ -16,7 +16,7 @@
 
 ## Idea
 
-By *2-categorical logic* one means [[categorical logic]] generalized from ordinary [[categories]] ([[1-categories]]) to *[[2-categories]]* (usually treated as weak 2-categories, i.e. [[bicategories]]).  This includes 
+By *2-categorical logic* one means [[categorical logic]] generalized from ordinary [[categories]] ([[1-categories]]) to *[[2-categories]]* (usually treated as weak 2-categories, i.e. [[bicategories]]) and also to [[double categories]].  This includes 
 
 Unifying themes:
 
@@ -129,5 +129,8 @@ On [[directed type theory]] and [[ends]] and [[coends]] as *directed* [[quantifi
 
 * Andrea Laretto, [[Fosco Loregian]], Niccolò Veltri, _Directed equality with dinaturality_ &lbrack;[arXiv:2409.10237](https://arxiv.org/abs/2409.10237)&rbrack;
 
+A treatment of [[doctrines]] in terms of [[double categories]]:
+
+* Michael Lambert, [[Evan Patterson]], *Cartesian double theories: A double-categorical framework for categorical doctrines* &lbrack;[arXiv:2310.05384](https://arxiv.org/abs/2310.05384)&rbrack;
 
 [[!redirects 2-logic]]
