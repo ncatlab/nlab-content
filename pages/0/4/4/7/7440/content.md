@@ -1517,6 +1517,8 @@ and has since seen a multitude of further developments.
 
 Influential but unpublished discussion of [[higher Segal spaces]] is due to [[Clark Barwick]].
 
+* [[Raffael Stenzel]], _The $(\infty, 2) $-category of internal $(\infty, 1) $-categories_, [arXiv:2402.01396](https://arxiv.org/abs/2402.01396) (2024).
+
 ### Internal to an $\infty$-topos
  {#ReferencesInternalToInfinityTopos}
 
@@ -1541,7 +1543,6 @@ internal [[presentable (∞,1)-categories]]:
 and on [[(infinity,1)-toposes|$\infty$-toposes]] internal to [[(infinity,1)-toposes|$\infty$-toposes]]:
 
 * [[Louis Martini]], [[Sebastian Wolf]], *Internal higher topos theory* &lbrack;[arXiv:2303.06437](https://arxiv.org/abs/2303.06437)&rbrack;
-
 
 
 ### Formalization in homotopy type theory
