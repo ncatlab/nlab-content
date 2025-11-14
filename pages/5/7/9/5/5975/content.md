@@ -42,22 +42,27 @@ Remarks on [[geometric logic|geometric]] 2-logic:
 * {#BourkeGarner} [[John Bourke]], [[Richard Garner]], Remks. 42 & 47 in: *Two-dimensional regularity and exactness*, Journal of Pure and Applied Algebra, **218** 7 (2014) 1346–1371 &lbrack;[doi:10.1016/j.jpaa.2013.11.021](https://doi.org/10.1016/j.jpaa.2013.11.021), [arXiv:1304.5275](https://arxiv.org/abs/1304.5275)&rbrack;
 
 
-{#ReferencesOnElementary2Topoi} On [[elementary topos|elementary]] [[2-topoi]] (or more generally the pieces of such a structure):
+{#ReferencesOnElementary2Topoi} On aspects of [[elementary topos|elementary]] [[2-topoi]]:
 
 
 * [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009)
   > (also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi).
 
-* [[Luca Mesiti]], _Pointwise Kan extensions along 2-fibrations and the 2-category of elements_, Theory and Applications of Categories **41** 30 960–994 (2024) &lbrack;[arXiv:2302.04566](http://arxiv.org/abs/2302.04566), [doi:10.70930/tac/b9u5z003](http://doi.org/10.70930/tac/b9u5z003)&rbrack;
+* [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ (2025) &lbrack;[arXiv:2503.24279](http://arxiv.org/abs/2503.24279)&rbrack;
+  > (higher version of the [[effective topos]])
+
+{#ReferencesOnHigherClassifiers} Specifically on higher classifiers (higher analogs of what is the [[subobject classifier]] in ordinary [[elementary topos|elementary]] [[toposes]]):
+
+* [[Luca Mesiti]]: _Pointwise Kan extensions along 2-fibrations and the 2-category of elements_, Theory and Applications of Categories **41** 30 960–994 (2024) &lbrack;[arXiv:2302.04566](http://arxiv.org/abs/2302.04566), [doi:10.70930/tac/b9u5z003](http://doi.org/10.70930/tac/b9u5z003)&rbrack;
+  > (via a [[2-Grothendieck construction]])
 
 * [[Elena Caviglia]], [[Luca Mesiti]], _Indexed Grothendieck construction_, Theory and Applications of Categories **41** 28 (2024) 894–926 &lbrack;[arXiv:2307.16076](http://arxiv.org/abs/2307.16076), [doi:10.70930/tac/xzio144a](https://doi.org/10.70930/tac/xzio144a)&rbrack;
+  > (via the [[indexed Grothendieck construction]])
 
 * [[Luca Mesiti]], _2-classifiers via dense generators and Hofmann-Streicher universe in stacks_, Canadian Journal of Mathematics (2025) 1–52 &lbrack;[arXiv:2401.16900](http://arxiv.org/abs/2401.16900), [doi:10.4153/S0008414X24000865](https://doi.org/10.4153/S0008414X24000865)&rbrack;
 
 * [[Calum Hughes]], Adrian Miranda: _The elementary theory of the 2-category of small categories_, Theory and Applications of Categories *43* 8 (2025) 196–242 &lbrack;[arXiv:2403.03647](https://arxiv.org/abs/2403.03647), [doi:10.70930/tac/c97jx7g2](https://doi.org/10.70930/tac/c97jx7g2)&rbrack;
-
-* [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ (2025) &lbrack;[arXiv:2503.24279](http://arxiv.org/abs/2503.24279)&rbrack;
-
+  > (via [ET2CC](ETCC#ET2CC))
 
 On 2-[[functorial semantics]]:
 
