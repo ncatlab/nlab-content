@@ -408,7 +408,7 @@ $$
 
 Now passing to the [[0-truncation]] turns the bottom piece into the [[moduli space of flat connections]] on the torus, which is $A_G$, def. \ref{TheModuliSpace}, remark \ref{ModuliSpaceOfFlatConnections}.
 
-By the discussion at [smooth higher holonomy](smooth+infinity-groupoid#StrucChernSimons) the 0-truncation of the top left piece is $U(1)$, so under 0-truncation we should get a $U(1)$-[[principal bundle]]
+By the discussion at [smooth higher holonomy](smooth+infinity-groupoid#StrucChernSimons) the 0-truncation of the top left piece is $U(1)$, so under 0-truncation we should get a [[principal U(1)-bundle]]
 
 $$
   \array{
