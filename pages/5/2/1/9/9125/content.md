@@ -2742,7 +2742,7 @@ in $\mathbf{H}_{/\mathbf{B}String}$. These, or their twisted variants, appear in
 ##### Higher $Spin^c$-structures
  {#HigherSpincstructures}
 
-As discussed above, an ordinary [[spin-c structure]] is really a [[spin structure]] which is _[[twisted differential c-structure|twisted]]_ by the class of a $U(1)$-[[principal bundle]]. 
+As discussed above, an ordinary [[spin-c structure]] is really a [[spin structure]] which is _[[twisted differential c-structure|twisted]]_ by the class of a [[principal U(1)-bundle]]. 
 
 Similarly the [[higher spin structure]]-fields just discussed have further twistes by background unitary bundles. For
 
@@ -2964,7 +2964,7 @@ $$
   \,.
 $$
 
-For instance smooth $U(1)$-[[principal bundles]] and $\mathbb{C}^\times$-[[principal bundles]] are both classified by the universal [[Chern class]] in $H^2(-, \mathbb{Z})$ but the [[gauge transformation|gauge]] [[automorphisms]] of the trivial $U(1)$-principal bundle form $C^\infty(-,U(1))$, while that of the trivial $\mathbb{C}^\times$-principal bundle form the larger $C^\infty(-,\mathbb{C}^\times)$.
+For instance smooth [[principal U(1)-bundles]] and $\mathbb{C}^\times$-[[principal bundles]] are both classified by the universal [[Chern class]] in $H^2(-, \mathbb{Z})$ but the [[gauge transformation|gauge]] [[automorphisms]] of the trivial [[principal U(1)-bundle]] form $C^\infty(-,U(1))$, while that of the trivial $\mathbb{C}^\times$-principal bundle form the larger $C^\infty(-,\mathbb{C}^\times)$.
 
 Both versions of the moduli $n$-stack of $n$-bundles have their use. The version $\mathbf{B}^n \mathbb{C}^\times$ has the advantage that it is actually equivalent to the moduli $n$-stack of complex line $n$-bundles.
 
