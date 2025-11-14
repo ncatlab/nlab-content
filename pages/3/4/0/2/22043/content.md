@@ -32,7 +32,7 @@ There are several ways to make sense of the notion of the [[n-sphere]] in the li
 
 Due to their [[weak homotopy equivalence]] to points, in [[homotopy theory]] infinite-dimensional spheres provide nothing new in themselves, but as a source of big contractible spaces they serve as a starting point for making concrete models of [[classifying spaces]]. 
 
-For example, the [[n-sphere|2k-sphere]] is the total space of the [[tautological line bundle|tautological]] [[circle group]]-[[principal bundle]] over [[complex projective space|complex projective k-space]], so that in the [[colimit]] $2k \to \infty$ the infinite-dimensional sphere emerges as a model for the [[universal principal bundle]] over the [[classifying space]] [[BU(n)|$B \mathrm{U}(1)$]]. This being contractible relates to important statements such as that [[zero-section into Thom space of universal line bundle is weak equivalence|the zero-section into the Thom space of the universal line bundle is a weak equivalence]].
+For example, the [[n-sphere|2k-sphere]] is the total space of the [[tautological line bundle|tautological]] [[principal U(1)-bundle]] over [[complex projective space|complex projective k-space]], so that in the [[colimit]] $2k \to \infty$ the infinite-dimensional sphere emerges as a model for the [[universal principal bundle]] over the [[classifying space]] [[BU(n)|$B \mathrm{U}(1)$]]. This being contractible relates to important statements such as that [[zero-section into Thom space of universal line bundle is weak equivalence|the zero-section into the Thom space of the universal line bundle is a weak equivalence]].
 
 
 
