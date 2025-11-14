@@ -378,9 +378,9 @@ Formalization of modalities ([[higher modalities]]) in [[homotopy type theory]] 
 
 * [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
 
-An overview of applications of modal logic in [[linguistics]] can be found in
+On applications of modal logic to [[linguistics]]:
 
-* Lawrence S. Moss, Hans-J&#246;rg Tiede, _Applications of Modal Logic in Linguistics_ , pp.299-341 in Blackburn, van Benthem, Wolter (eds.), _The Handbook of Modal Logic_ , Elsevier Amsterdam 2007. ([draft](http://www.indiana.edu/~iulg/moss/linguistics.pdf))
+* [[Lawrence S. Moss]], Hans-Jörg Tiede: _Applications of Modal Logic in Linguistics_, in: *Studies in Logic and Practical Reasoning **3** (2007) 1031-1076 &lbrack;<a href="https://doi.org/10.1016/S1570-2464(07)80022-X">doi:10.1016/S1570-2464(07)80022-X</a>, [pdf](https://www.csc.liv.ac.uk/~frank/MLHandbook/19.pdf)&rbrack;
 
 
 
