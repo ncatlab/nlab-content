@@ -235,7 +235,7 @@ and then consider genuine [[prequantum line bundles]]
 +-- {: .num_remark}
 ###### Remark
 
-Hermitian [[complex line bundles]] are classified via their [[first Chern class]] (just as [[circle group]]-[[principal bundles]]) by second [[ordinary cohomology]] with [[integer]] [[coefficients]], which for the 2-sphere is
+Hermitian [[complex line bundles]] are classified via their [[first Chern class]] (just as [[principal U(1)-bundles]]) by second [[ordinary cohomology]] with [[integer]] [[coefficients]], which for the 2-sphere is
 
 $$
   H^2(S^2, \mathbb{Z}) \simeq \mathbb{Z}
