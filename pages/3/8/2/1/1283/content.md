@@ -45,7 +45,7 @@ A **bundle gerbe** over a [[smooth manifold]] $X$ is
       }
     $$
 
-* together with a $U(1)$-[[principal bundle]]
+* together with a [[principal U(1)-bundle]]
 
   $$
       \array{
