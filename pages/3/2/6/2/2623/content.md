@@ -4663,7 +4663,7 @@ Further review:
 
 *  V. Mastropietro, *Renormalization: general theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2312.11400](https://arxiv.org/abs/2312.11400)&rbrack;
 
-* Leonardo Di Giustino: *Renormalisation*, Encyclopedia of Particle Physics &lbrack;[arXiv:2511.02005](https://arxiv.org/abs/2511.02005)&rbrack;
+* Leonardo Di Giustino: *Renormalisation*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2511.02005](https://arxiv.org/abs/2511.02005)&rbrack;
 
 
 On application to [[condensed matter physics]]:
