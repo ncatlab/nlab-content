@@ -60,7 +60,7 @@ Consider:
 ## Application on the 2-sphere
  {#ApplicationToThe2Sphere}
 
-The [[complex Hopf fibration]] is a [[circle principal bundle|principal $U(1)$-bundle]] over [[2-sphere|$S^2$]], which encodes the [[charge quantization]] of the [[magnetic charge]] of a [[magnetic monopole]] in three dimensions ([[Dirac monopole]]) using:
+The [[complex Hopf fibration]] is a [[principal U(1)-bundle]] over [[2-sphere|$S^2$]], which encodes the [[charge quantization]] of the [[magnetic charge]] of a [[magnetic monopole]] in three dimensions ([[Dirac monopole]]) using:
 $$
   \operatorname{Prin}_{\operatorname{U}(1)}(S^2)
   \;\cong\;
