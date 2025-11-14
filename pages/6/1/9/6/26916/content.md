@@ -54,7 +54,7 @@ Consider
 
 ## Application on the 4-sphere
 
-The [[quaternionic Hopf fibration]] is a [[principal bundle|principal $SU(2)$-bundle]] over $S^4$, which encodes the [[charge quantization]] of the magnetic charge of a [[magnetic monopole]] in five dimensions (Wu-Yang monopole) using:
+The [[quaternionic Hopf fibration]] is a [[principal SU(2)-bundle]] over $S^4$, which encodes the [[charge quantization]] of the magnetic charge of a [[magnetic monopole]] in five dimensions (Wu-Yang monopole) using:
 $$
   \operatorname{Prin}_{\operatorname{Sp}(1)}(S^4)
   \;\cong\;
