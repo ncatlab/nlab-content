@@ -417,6 +417,10 @@ Discussion in [[homotopy type theory]]:
 
 * [[David Wärn]], Section 4.4 of: _Eilenberg-MacLane spaces and stabilisation in homotopy type theory_ &lbrack;[arXiv:2301.03685](https://arxiv.org/abs/2301.03685)&rbrack;
 
+On Steenrod operations in [[equivariant cohomology theory]]:
+
+* [[Prasit Bhattacharya]], Alex Waugh, Mingcong Zeng, Foling Zou: *Equivariant Steenrod Operations* &lbrack;[arXiv:2511.09816](https://arxiv.org/abs/2511.09816)&rbrack;
+
 
 
 [[!redirects Steenrod squares]]
