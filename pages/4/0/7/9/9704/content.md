@@ -45,7 +45,7 @@ In the original [[Dirac charge quantization]] argument an [[electromagnetic fiel
 
 This is the classical example of monopoles and often taken to be the default meaning. (In the context of the [[standard model of particle physics]], however, the default meaning is that of electroweak vacuum defect monopoles, discussed [below](#ElectroweakMonopoles).)
 
-Technically, in the sense of the discussion at [[QFT with defects]] in the section _[Topological defects from spontaneous symmetry breaking](QFT%20with%20defects#DefectsFromBrokenSymmetry)_ what happens here is that the [[moduli space]] of the [[instanton sector]] of electromagnetism (= the [[classifying space]] of [[circle group]]-[[principal bundles]]) $B U(1)$ has the [[homotopy type]] of an [[Eilenberg-MacLane space]] $B U(1) \simeq K(\mathbb{Z},2)$. This is by definition a space such that [[homotopy classes]] of [[continuous functions]] from a [[sphere]] into it are classified by the [[integers]]: $\pi_2(B U(1)) \simeq \mathbb{Z}$.
+Technically, in the sense of the discussion at [[QFT with defects]] in the section _[Topological defects from spontaneous symmetry breaking](QFT%20with%20defects#DefectsFromBrokenSymmetry)_ what happens here is that the [[moduli space]] of the [[instanton sector]] of electromagnetism (= the [[classifying space]] of [[principal U(1)-bundles]]) $B U(1)$ has the [[homotopy type]] of an [[Eilenberg-MacLane space]] $B U(1) \simeq K(\mathbb{Z},2)$. This is by definition a space such that [[homotopy classes]] of [[continuous functions]] from a [[sphere]] into it are classified by the [[integers]]: $\pi_2(B U(1)) \simeq \mathbb{Z}$.
 
 But since there is a [[homotopy equivalence]]
 
