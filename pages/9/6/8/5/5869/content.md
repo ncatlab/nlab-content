@@ -48,7 +48,7 @@ If $\mathcal{H}$ is an infinite-[[dimension]]al [[separable Hilbert space]] the 
 
 
 \begin{proof}
-The [[unitary group]] $U(\mathcal{H})$ in this case is [[contractible]] (by [[Kuiper's theorem]]) and the [[circle group]] $U(1)$ [[action|acts]] free and faithfully on it. Therefore the quotient map $U(\mathcal{H}) \to P U(\mathcal{H})$ is a model for the [[circle group]]-[[universal principal bundle]] and in particular the topological space underlying $P U(\mathcal{H})$ is equivalent to the [[classifying space]] $B U(1) \simeq B^2 \mathbb{Z} \simeq K(\mathbb{Z},2)$.
+The [[unitary group]] $U(\mathcal{H})$ in this case is [[contractible]] (by [[Kuiper's theorem]]) and the [[circle group]] $U(1)$ [[action|acts]] free and faithfully on it. Therefore the quotient map $U(\mathcal{H}) \to P U(\mathcal{H})$ is a model for the universal [[principal U(1)-bundle]] and in particular the topological space underlying $P U(\mathcal{H})$ is equivalent to the [[classifying space]] $B U(1) \simeq B^2 \mathbb{Z} \simeq K(\mathbb{Z},2)$.
 \end{proof}
 
 
