@@ -47,7 +47,7 @@ $U(1)$ is the compact [[real form]] of the [[multiplicative group]] $\mathbb{G}_
 
 ## Related concepts
 
-* A [[principal bundle]] with [[structure group]] the circle group is a [[circle bundle]]. The [[associated bundle]] under the standard [[linear representation]] of $U(1) \hookrightarrow \mathbb{C}$ is a [[complex line bundle]].
+* A [[principal U(1)-bundle]] is a [[principal bundle]] with the circle group as [[structure group]]. The [[associated bundle]] under the standard [[linear representation]] of $U(1) \hookrightarrow \mathbb{C}$ is a [[complex line bundle]].
 
 * [[cyclic group]], [[Q/Z]]
 
