@@ -18,9 +18,8 @@
 =--
 
 
-#Contents
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
+
 
 
 ## Idea 
@@ -76,7 +75,7 @@ where $\pi \in \wedge^2_{C^\infty(C)}\Gamma(T X)$ is the Poisson tensor of $(X, 
  {#RelationToQuantizationOfPoissonManifolds}
 
 
-In ([Cattaneo-Felder](#CattaneoFelder)) it was shown that the [[n-point function|3-point function]] in the [[path integral quantization]] of the Poisson $\sigma$-model of a [[Poisson Lie algebroid]] associated with a [[Poisson manifold]]  computes the [[star product]] in the [[deformation quantization]] of the Poisson manifold as given by ([Kontsevich](#Kontsevich)).
+[Cattaneo & Felder 2000](#CattaneoFelder2000) showed that the [[n-point function|3-point function]] in the [[path integral quantization]] of the Poisson $\sigma$-model of a [[Poisson Lie algebroid]] associated with a [[Poisson manifold]]  computes the [[star product]] in the [[deformation quantization]] of the Poisson manifold as given by [Kontsevich](#Kontsevich).
 
 A [[higher geometric quantization]] that also yields the [[strict deformation quantization]] is discussed at _[[extended geometric quantization of 2d Chern-Simons theory]]_.
 
@@ -154,7 +153,7 @@ and later independently by P. Schaller, T. Strobl, motivated from an attempt to 
 
 The detailed argument by Cattaneo and Felder on how [[Maxim Kontsevich]]'s formula for the [[deformation quantization]] star product is the 3-point function of the Poisson sigma-model is in
 
-* {#CattaneoFelder} [[Alberto Cattaneo]], [[Giovanni Felder]], _A path integral approach to the Kontsevich quantization formula_, Commun. Math. Phys. **212** (2000) 591--611 &lbrack;[doi:10.1007/s002200000229](http://dx.doi.org/10.1007/s002200000229), [math.QA/9902090](http://arxiv.org/abs/math/9902090)&rbrack;
+* {#CattaneoFelder2000} [[Alberto Cattaneo]], [[Giovanni Felder]], _A path integral approach to the Kontsevich quantization formula_, Commun. Math. Phys. **212** (2000) 591--611 &lbrack;[doi:10.1007/s002200000229](http://dx.doi.org/10.1007/s002200000229), [math.QA/9902090](http://arxiv.org/abs/math/9902090)&rbrack;
  
 
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and deformation quantization_, Mod. Phys. Lett. A **16** (2001) 179--190 &lbrack;[hep-th/0102208](http://arxiv.org/abs/hep-th/0102208), [doi:10.1142/S0217732301003255](https://doi.org/10.1142/S0217732301003255)&rbrack;
@@ -173,8 +172,8 @@ The interpretation in terms of [[schreiber:infinity-Chern-Simons theory]] is dis
 
 Discussion in terms of [[holography]] is in 
 
-* D. V. Vassilevich, _Holographic duals to Poisson sigma models_, Phys.Rev.D **87** (2013) 104011 &lbrack;[arXiv:1301.7029](http://arxiv.org/abs/1301.7029), [doi:10.1103/PhysRevD.87.104011](https://doi.org/10.1103/PhysRevD.87.104011)&rbrack;
- {#Vassilevich}
+* {#Vassilevich} D. V. Vassilevich, _Holographic duals to Poisson sigma models_, Phys.Rev.D **87** (2013) 104011 &lbrack;[arXiv:1301.7029](http://arxiv.org/abs/1301.7029), [doi:10.1103/PhysRevD.87.104011](https://doi.org/10.1103/PhysRevD.87.104011)&rbrack;
+ 
 
 
 
@@ -183,12 +182,12 @@ Discussion in terms of [[holography]] is in
 
 The study of [[branes]] in the Poisson sigma-model has been started in 
 
-* Damien Calaque, [[Giovanni Felder]], Andrea Ferrario, Carlo A. Rossi, _Bimodules and branes in deformation quantization_, Compos.Math. **147** (2011) 105-160 &lbrack;[arXiv:0908.2299](http://arxiv.org/abs/0908.2299), [doi:10.1112/S0010437X10004847](https://doi.org/10.1112/S0010437X10004847)&rbrack;
+* [[Damien Calaque]], [[Giovanni Felder]], Andrea Ferrario, Carlo A. Rossi, _Bimodules and branes in deformation quantization_, Compos.Math. **147** (2011) 105-160 &lbrack;[arXiv:0908.2299](http://arxiv.org/abs/0908.2299), [doi:10.1112/S0010437X10004847](https://doi.org/10.1112/S0010437X10004847)&rbrack;
 
-* Damien Calaque, [[Giovanni Felder]], Carlo A. Rossi, _Deformation quantization with generators and relations_, J. Algebra **337** (2011) 1-12 &lbrack;[arXiv:0911.4377](http://arxiv.org/abs/0911.4377), [doi:10.1016/j.jalgebra.2011.03.037](https://doi.org/10.1016/j.jalgebra.2011.03.037)&rbrack;
+* [[Damien Calaque]], [[Giovanni Felder]], Carlo A. Rossi, _Deformation quantization with generators and relations_, J. Algebra **337** (2011) 1-12 &lbrack;[arXiv:0911.4377](http://arxiv.org/abs/0911.4377), [doi:10.1016/j.jalgebra.2011.03.037](https://doi.org/10.1016/j.jalgebra.2011.03.037)&rbrack;
 
-* [[Alberto Cattaneo]], [[Giovanni Felder]], _Coisotropic submanifolds in Poisson geometry and branes in the Poisson $\sigma$-model_, Lett.Math.Phys. **69** (2004) 157-175 &lbrack;[arXiv:0309180](http://arxiv.org/abs/math/0309180), [doi:10.1007/s11005-004-0609-7](https://doi.org/10.1007/s11005-004-0609-7)&rbrack;
- {#CattaneoFelder03}
+* {#CattaneoFelder03} [[Alberto Cattaneo]], [[Giovanni Felder]], _Coisotropic submanifolds in Poisson geometry and branes in the Poisson $\sigma$-model_, Lett.Math.Phys. **69** (2004) 157-175 &lbrack;[arXiv:0309180](http://arxiv.org/abs/math/0309180), [doi:10.1007/s11005-004-0609-7](https://doi.org/10.1007/s11005-004-0609-7)&rbrack;
+ 
 
 * Andrea Ferrario, _Poisson Sigma Model with branes and hyperelliptic Riemann surfaces_, J.Math.Phys. **49** (2008) 092301 &lbrack;[arXiv:0709.0635](http://arxiv.org/abs/0709.0635), [doi:10.1063/1.2982234](https://doi.org/10.1063/1.2982234)&rbrack;
 
