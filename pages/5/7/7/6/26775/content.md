@@ -37,7 +37,7 @@ If both $n_+ = n_- = 1$ then the spindle orbifold reduces is a [[smooth manifold
 ### As a proper étale Lie groupoid
  {#DefinitionAsProperEtaleLieGroupoid}
 
-We describe the spindle orbifold [via proper étale Lie groupoids](orbifold#DefinitionViaProperEtaleGroupoids)
+We describe the spindle orbifold [via proper étale Lie groupoids](orbifold#DefinitionViaProperEtaleGroupoids), following [SS26 Ex. 2.58](#SS26).
 
 There are many [[Morita equivalence|Morita equivalent]] [[proper topological groupoid|proper]] [[étale Lie groupoids]] that all describe the spindle orbifold. We describe a couple of useful models.
 
@@ -266,13 +266,13 @@ In total, the resulting Lie groupoid presentation of the spindle looks as indica
 
 * {#Amenta12} Alexander Amenta, Ex. 1.2.2 in: _The Geometry of Orbifolds via Lie Groupoids_, ANU (2012) &lbrack;[arXiv:1309.6367](https://arxiv.org/abs/1309.6367)&rbrack;
 
-
 * Vesta Coufal, [[Dorette Pronk]], [[Carmen Rovi]], [[Laura Scull]], Courtney Thatcher, Ex. 2.6 in: _Orbispaces and their Mapping Spaces via Groupoids: A Categorical Approach_, in: *Women in Topology: Collaborations in Homotopy Theory*, Contemporary Mathematics **641** (2015) 135-166 &lbrack;[arXiv:1401.4772](https://arxiv.org/abs/1401.4772), [doi:10.1090/conm/641](https://doi.org/10.1090/conm/641)&rbrack;
-
-
 
 * Francisco C. Caramello Jr, Ex. 1.3.1 in: *Introduction to orbifolds* &lbrack;[arXiv:1909.08699](https://arxiv.org/abs/1909.08699)&rbrack;
 
+The above text and graphics follow:
+
+* {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: Ex. 2.58 in: *[[schreiber:Orientations of Orbi-K-Theory|Orientations of Orbi-K-Theory measuring Topological Phases and Brane Charges]]*, Part I of: *[[schreiber:Geometric Orbifold Cohomology]]*, CRC Press (2026)
 
 
 
@@ -286,9 +286,7 @@ On [[supergravity]] [[KK-compactification|KK-compactified]] (and [[branes]] [[wr
  &lbrack;[arXiv:2105.13344](https://arxiv.org/abs/2105.13344), <a href="https://doi.org/10.1007/JHEP11(2021)002">doi:10.1007/JHEP11(2021)002</a>&rbrack;
 &rbrack;
 
-
 * Federico Faedo, [[Dario Martelli]], *D4-branes wrapped on a spindle*, J. High Energ. Phys. **2022** 101 (2022) &lbrack;[arXiv:2111.13660](https://arxiv.org/abs/2111.13660), <a href="https://doi.org/10.1007/JHEP02(2022)101">doi:10.1007/JHEP02(2022)10</a>&rbrack;
-
 
 * Christopher Couzens, *A tale of (M)2 twists*, J. High Energ. Phys. **2022** 78 (2022) &lbrack;[arXiv:2112.04462](https://arxiv.org/abs/2112.04462), <a href="https://doi.org/10.1007/JHEP03(2022)078">doi:10.1007/JHEP03(2022)078</a>&rbrack;
 
