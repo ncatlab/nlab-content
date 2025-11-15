@@ -246,9 +246,12 @@ On [[chiral symmetry breaking]]:
 
 * [[Franz Gross]], [[Eberhard Klempt]] et al., Section 6.2 of: *50 Years of Quantum Chromodynamics*, EJPC &lbrack;[arXiv:2212.11107](https://arxiv.org/abs/2212.11107)&rbrack;
 
-* [[Ulf-G. Meissner]]: *Chiral perturbation theory*, Encyclopedia of Particle Physics &lbrack;[arXiv:2410.21912](https://arxiv.org/abs/2410.21912)&rbrack;
+* [[Ulf-G. Meissner]]: *Chiral perturbation theory*, in:  [[Encyclopedia of Particle Physics]] &lbrack;[arXiv:2410.21912](https://arxiv.org/abs/2410.21912)&rbrack;
+
+* Alexey Nefediev: *Chiral symmetry and its breaking*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2507.22502](https://arxiv.org/abs/2507.22502)&rbrack;
 
 * [[Ulf-G. Meißner]]: *Chiral dynamics: Quo vadis?* &lbrack;[arXiv:2501.03014](https://arxiv.org/abs/2501.03014)&rbrack;
+
 
 
 
