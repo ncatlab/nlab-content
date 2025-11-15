@@ -184,6 +184,8 @@ Introduction and survey:
 
 * {#Brambilla14} Brambilla et al., Section 3.2.7 of: _[[QCD and strongly coupled gauge theories - challenges and perspectives]]_, Eur Phys J C Part Fields. 2014; 74(10): 2981  ([arXiv:1404.3723](https://arxiv.org/abs/1404.3723), [doi:10.1140/epjc/s10052-014-2981-5](https://link.springer.com/article/10.1140%2Fepjc%2Fs10052-014-2981-5))
 
+* Douglas Bryman, Robert Shrock: *Pion Decay*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2502.18384](https://arxiv.org/abs/2502.18384)&rbrack;
+
 
 See also
 
