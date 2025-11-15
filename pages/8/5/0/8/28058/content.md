@@ -2,7 +2,6 @@
 
 This entry is to record the upcoming reference:
 
-
 * **Encyclopedia of Particle Physics**
 
 on [[hadron]]- and [[particle physics]].
@@ -53,6 +52,52 @@ On [[perturbative quantum field theory|perturbative]] [[quantum chromodynamics]]
 On [[flavour physics]]:
 
 * [[Wolfgang Altmannshofer]], [[Peter Stangl]]: *Flavour Physics Beyond the Standard Model* &lbrack;[arXiv:2508.03950](https://arxiv.org/abs/2508.03950)&rbrack;
+
+On [[Feynman diagrams]]:
+
+* [[Stefan Weinzierl]]: *Feynman Diagrams* &lbrack;[arXiv:2501.08354](https://arxiv.org/abs/2501.08354)&rbrack;
+
+On [[quark]] and [[lepton]] [[masses]]:
+
+* Ferruccio Feruglio, Saul Ramos-Sanchez: *Quark and lepton masses* &lbrack;[arXiv:2506.20755](https://arxiv.org/abs/2506.20755)&rbrack;
+
+On [[hadron]] [[masses]] via [[lattice QCD]]:
+
+* Sasa Prelovsek: *Lattice QCD calculations of hadron spectroscopy* &lbrack;[arXiv:2505.10002](https://arxiv.org/abs/2505.10002)&rbrack;
+
+
+On the [[constituent quark model]]:
+
+* D. R. Entem, F. Fernández, P. G. Ortega, J. Segovia: *The Constituent Quark Model* &lbrack;[arXiv:2504.07897](https://arxiv.org/abs/2504.07897)&rbrack;
+
+On [[chiral perturbation theory]]:
+
+* [[Ulf-G. Meissner]]: *Chiral perturbation theory*, in:  [[Encyclopedia of Particle Physics]] &lbrack;[arXiv:2410.21912](https://arxiv.org/abs/2410.21912)&rbrack;
+
+* Alexey Nefediev: *Chiral symmetry and its breaking* &lbrack;[arXiv:2507.22502](https://arxiv.org/abs/2507.22502)&rbrack;
+
+
+On [[experiments]] in [[hadron]] physics:
+
+* Claude Amsler: *Key Historical Experiments in Hadron Physics* &lbrack;[arXiv:2503.14689](https://arxiv.org/abs/2503.14689)&rbrack;
+
+On [[charm quark]] physics:
+
+* David Friday, Evelina Gersabeck, Alexander Lenz, Maria Laura Piscopo: *Charm physics* &lbrack;[arXiv:2506.15584](https://arxiv.org/abs/2506.15584)&rbrack;
+
+On (no) hints for the [[MSSM]] at the [[LHC]]:
+
+* Hyun Min Lee: *Supersymmetry and LHC era* &lbrack;[arXiv:2505.01769](https://arxiv.org/abs/2505.01769)&rbrack;
+
+On [[pion]] [[decay]]:
+
+* Douglas Bryman, Robert Shrock: *Pion Decay* &lbrack;[arXiv:2502.18384](https://arxiv.org/abs/2502.18384)&rbrack;
+
+On [[cosmic inflation]]:
+
+* Alberto Salvio: *Inflationary scenarios beyond the Standard Model* &lbrack;[arXiv:2501.08380](https://arxiv.org/abs/2501.08380)&rbrack;
+
+
 
 (...)
 
