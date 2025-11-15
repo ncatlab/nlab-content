@@ -14,7 +14,7 @@ On ([[spectral triple|spectral]]) [[noncommutative geometry]]:
 
 * [[Atabey Kaygun]], Masoud Khalkhali, _Hopf modules and noncommutative differential geometry_, Lett. Math. Phys. __76__ (2006) 77--91 [doi](https://doi.org/10.1007/s11005-006-0062-x)
 
-* [[Masoud Khalkhali]] _Basic Noncommutative Geometry_, Europ. Math. Soc. (2009) &lbrack;[ems:elm/225](https://ems.press/books/elm/225), [pdf](https://www.math.nagoya-u.ac.jp/~richard/teaching/s2015/Khalkhali_13.pdf)&rbrack;
+* [[Masoud Khalkhali]]: *Basic Noncommutative Geometry*, Europ. Math. Soc. (2009) &lbrack;[ems:elm/225](https://ems.press/books/elm/225), [doi:10.4171/128](https://doi.org/10.4171/128)&rbrack;
 
 On [[cyclic cohomology]]:
 
@@ -24,6 +24,10 @@ On [[cyclic cohomology]]:
 On the [[Riemann hypothesis and physics]]:
 
 * [[Masoud Khalkhali]]: _What is new with Connes' approach to the Riemann hypothesis?_ &lbrack;[pdf](https://www.math.uwo.ca/faculty/khalkhali/files/TehProg.pdf)&rbrack;
+
+## Related entries
+
+* [[Gelfand duality]]
 
 
 [[!redirects M. Khalkhali]]
