@@ -20,7 +20,7 @@ The full Hahn--Banach theorem may be seen as a weak form of the [[axiom of choic
 
 The Hahn-Banach theorem can be proven in [[set theory]] with the axiom of choice, or more weakly in set theory assuming the [[ultrafilter theorem]], itself a weak form of choice. (To be continued...)
 
-However, the Hahn--Banach theorem for [[separable spaces]] is much weaker.  It may be proved constructively using only [[dependent choice]].  
+However, under the additional assumption that the bound $p$ in the statement is [[continuous]], the Hahn--Banach theorem for a restricted class of spaces, including e.g. [[separable spaces]] is much weaker. It may be proved constructively using only [[dependent choice]]. This is false if the continuity assumption is removed. 
 
 There is also a version of the theorem for [[locales]] proven
 in [Pelletier 1991](#Pelletier91). This constructs a locale of functionals (whose points are the unit ball of the dual space) and proves that it is compact and completely regular.
@@ -36,6 +36,8 @@ in [Pelletier 1991](#Pelletier91). This constructs a locale of functionals (whos
 See also:
 
 * Wikipedia, *[Hahn-Banach theorem] (http://en.wikipedia.org/wiki/Hahn%E2%80%93Banach_theorem)*
+
+*Juliette Dodu and Marianne Morillon, *The Hahn-Banach Property and the Axiom of Choice*, Mathematical Logic Quarterly Volume 45 No. 3, Pages 299-314
 
 Discussion in the generality of [[locales]]:
 
