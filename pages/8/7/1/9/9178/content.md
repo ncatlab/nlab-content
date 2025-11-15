@@ -79,7 +79,7 @@ However, at high [[temperature]] [[QCD]] goes through a _deconfinement_ [[phase 
 
 * [[Particle Data Group]], *Quark Model* ([pdf](https://pdg.lbl.gov/2020/reviews/rpp2020-rev-quark-model.pdf), [web](https://pdg.lbl.gov/2021/reviews/contents_sports.html)), Chapter 15 in: *[The Review of Particle Physics](https://pdg.lbl.gov/)*,  Prog. Theor. Exp. Phys. 2020, 083C01 (2020) ([doi:10.1093/ptep/ptaa104](https://doi.org/10.1093/ptep/ptaa104))
 
-* Ferruccio Feruglio, Saul Ramos-Sanchez: *Quark and lepton masses*, Encyclopedia of Particle Physics &lbrack;[arXiv:2506.20755](https://arxiv.org/abs/2506.20755)&rbrack;
+* Ferruccio Feruglio, Saul Ramos-Sanchez: *Quark and lepton masses*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2506.20755](https://arxiv.org/abs/2506.20755)&rbrack;
 
 
 Textbooks:
