@@ -44,6 +44,7 @@ Remarks on [[geometric logic|geometric]] 2-logic:
 
 {#ReferencesOnElementary2Topoi} On aspects of [[elementary topos|elementary]] [[2-topoi]]:
 
+* {#Weber07} [[Mark Weber]]: *Yoneda structures from 2-toposes*, Appl Categor Struct **15** (2007) 259–323 &lbrack;[doi:10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2), [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
 
 * [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009)
   > (also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi).
@@ -77,8 +78,8 @@ On 2-[[functorial semantics]]:
 
 * [[Nathanael Arkor]], [[John Bourke]], Joanna Ko, _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_ &lbrack;[arXiv:2412.07475](https://arxiv.org/abs/2412.07475)&rbrack;
 
-* [[Ivan Di Liberti]], [[Axel Osmond]], _Bi-accessible and bipresentable 2-categories_, Applied Categorical Structures **33** 3 (2025) &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046), [doi:10.1007/s10485-024-09794-9](http://doi.org/10.1007/s10485-024-09794-9)&rbrack;
-
+* [[Ivan Di Liberti]], [[Axel Osmond]]: _Bi-accessible and bipresentable 2-categories_, Applied Categorical Structures **33** 3 (2025) &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046), [doi:10.1007/s10485-024-09794-9](http://doi.org/10.1007/s10485-024-09794-9)&rbrack;
+  > (not on 2-logic but on [[representable 2-categories]])
 
 On [[2-categories]] as [[2-theories]]:
 
@@ -88,7 +89,7 @@ On [[2-categories]] as [[2-theories]]:
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]]: *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, 12 (2022) 1–14, &lbrack;[doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334)&rbrack;
 
-* Vít Jelínek, _Type theory and its semantics_, Master thesis, Masaryk University (2024) &lbrack;[url](https://theses.cz/id/n7t9ei)&rbrack;
+* Vít Jelínek: _Type theory and its semantics_, Master thesis, Masaryk University (2024) &lbrack;[is.muni.cz:th/fl75q/](https://theses.cz/id/n7t9ei)&rbrack;
 
 * Jonathan Osser:  _A 2‑Sketchy Approach to Type Theory_, Master thesis, University of Amsterdam (2025) &lbrack;[scripties:56899](https://scripties.uba.uva.nl/search?id=record_56899)&rbrack;
 
