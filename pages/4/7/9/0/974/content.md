@@ -509,6 +509,11 @@ See also:
 
 * [MO:q/53470](https://mathoverflow.net/q/53470/381): *Enriched locally presentable categories*
 
+On locally presentable [[2-categories]]:
+
+* [[Ivan Di Liberti]], [[Axel Osmond]]: _Bi-accessible and bipresentable 2-categories_, Applied Categorical Structures **33** 3 (2025) &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046), [doi:10.1007/s10485-024-09794-9](http://doi.org/10.1007/s10485-024-09794-9)&rbrack;
+
+
 
 [[!redirects locally presentable]]
 [[!redirects locally presentable category]]
