@@ -43,14 +43,14 @@ In [[particle physics]] the letters _MSSM_ are an abbreviation for "minimally su
 
 ### General
 
-The original articles are
+The original articles:
 
 * S. Dimopoulos and H. Georgi, Phys. Lett. B 117, 287
 (1982). 
 
 * [[Steven Weinberg]], Phys. Rev. D 26, 287 (1982)
 
-Theoretical predictions
+Theoretical predictions:
 
 * Stefano Frixione, Benjamin Fuks, Valentin Hirschi, Kentarou Mawatari, Hua-Sheng Shao, Marthijn P. A. Sunder, Marco Zaro, _Automated simulations beyond the Standard Model: supersymmetry_ ([arXiv:1907.04898](https://arxiv.org/abs/1907.04898))
 
@@ -58,11 +58,13 @@ Review:
 
 * [[Sven Krippendorf]], [[Fernando Quevedo]], [[Oliver Schlotterer]], section 6 of: _Cambridge Lectures on Supersymmetry and Extra Dimensions_ (2010) &lbrack;[arXiv:1011.1491](http://arxiv.org/abs/1011.1491), [spire:875723](https://inspirehep.net/literature/875723)&rbrack;
 
-
 * S. F. King, S. Moretti, R. Nevzorov, _A Review of the Exceptional Supersymmetric Standard Model_ ([arXiv:2002.02788](https://arxiv.org/abs/2002.02788))
 
 * [[Michael Dine]], _Supersymmetry and string theory: beyond the standard model_, Cambridge University Press (2006, 2007) &lbrack;[ISBN:9781009290920](https://www.cambridge.org/ae/academic/subjects/physics/particle-physics-and-nuclear-physics/supersymmetry-and-string-theory-beyond-standard-model-2nd-edition?format=HB), [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/dine.pdf)&rbrack;
 
+On the experimental status:
+
+* Hyun Min Lee: *Supersymmetry and LHC era*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2505.01769](https://arxiv.org/abs/2505.01769)&rbrack;
 
 
 ### Relation to flavour anomalies
