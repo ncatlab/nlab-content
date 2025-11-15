@@ -650,7 +650,7 @@ More on the [[homotopy groups]] of this space:
 
 * {#BooßBavnbekWojciechowski1993} [[Bernhelm Booß-Bavnbek]], Krzysztof P. Wojciechowski: *The Homotopy Groups of the Space of Self-Adjoint Fredholm Operators*, §16 in: *Elliptic Boundary Problems for Dirac Operators* Mathematics: Theory & Applications, Birkhäuser (1993) 127-137  &lbrack;[doi:10.1007/978-1-4612-0337-7_16](https://doi.org/10.1007/978-1-4612-0337-7_16), [pdf](https://link.springer.com/content/pdf/10.1007/978-1-4612-0337-7_16)&rbrack;
 
-* {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: *The 3-Sphere of Self-Adjoint Fredholm Operators*, §4.3.3 of: *[[schreiber:Orientations of Orbi-K-Theory|Orientations of Orbi-K-Theory measuring Topological Phases and Brane Charges]]*
+* {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: *The 3-Sphere of Self-Adjoint Fredholm Operators*, §4.3.3 of: *[[schreiber:Orientations of Orbi-K-Theory|Orientations of Orbi-K-Theory measuring Topological Phases and Brane Charges]]*, Part I of: *[[schreiber:Geometric Orbifold Cohomology]]*, CRC Press (2026)
 
 
 Specifically regarding their [[spectral flow]]:
