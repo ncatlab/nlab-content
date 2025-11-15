@@ -26,7 +26,9 @@ The notion of _Calabi-Yau algebra_ is an algebraic incarnation of the notion of 
 For $A$ a [[dg-algebra]] and $N$ a [[dg-module|dg-bimodule]] over $A$, write
 
 $$
-  N^! := RHom_{A Bimod}(N, A \otimes A)
+  N^! 
+  \coloneqq
+  RHom_{A Bimod}(N, A \otimes A)
 $$
 
 for the dual $A$-[[bimodule]], where $RHom$ denotes the [[derived functor|right derived]] [[hom-functor]] with respect to the [[model structure on dg-modules]].
@@ -39,7 +41,7 @@ for the dual $A$-[[bimodule]], where $RHom$ denotes the [[derived functor|right 
 A homologically smooth [[dg-algebra]] $A$ is a **Calabi-Yau algebra** of [[dimension]] $d$ if there is a [[quasi-isomorphism]] of $A$-[[bimodule]]s
 
 $$
- f :  A \stackrel{\simeq}{\to} A^![d]
+ f \colon  A \stackrel{\simeq}{\to} A^![d]
 $$
 
 such that
@@ -51,7 +53,7 @@ $$
 
 =--
 
-This is ([Ginzburg, def. 3.2.3](#Ginzburg)).
+This is [Ginzburg, def. 3.2.3](#Ginzburg).
 
 ## Properties
 
@@ -72,7 +74,7 @@ An [[object]] $\mathcal{E} \in D^b(Coh X)$ is called a **tilting generator** if 
 
 =--
 
-This appears as ([Ginzburg, def. 7.1.1](#Ginzburg)). 
+This appears as [Ginzburg, def. 7.1.1](#Ginzburg). 
 
 +-- {: .num_remark}
 ###### Remark
@@ -96,7 +98,7 @@ Then $End \mathcal{E}$ is a Calabi-Yau algebra of dimension $d$ precisely if $X$
 
 =--
 
-This appears as ([Ginzburg, prop. 3.3.1](#Ginzburg)).
+This appears as [Ginzburg, prop. 3.3.1](#Ginzburg).
 
 #### $0$-Calabi-Yau algebras
 
@@ -151,11 +153,11 @@ This is ([Lurie 09, example 4.2.8](#Lurie09)).
 
 ## References
 
-* {#Ginzburg} [[Victor Ginzburg]], _Calabi-Yau algebras_ ([arXiv:0612139](http://arxiv.org/abs/math/0612139))
+* {#Ginzburg} [[Victor Ginzburg]], _Calabi-Yau algebras_ &lbrack;[arXiv:0612139](http://arxiv.org/abs/math/0612139)&rbrack;
  
-* {#Lurie09} [[Jacob Lurie]], section 4.2 of _[[On the Classification of Topological Field Theories]]_ ([arXiv:0905.0465](http://arxiv.org/abs/0905.0465))
+* {#Lurie09} [[Jacob Lurie]], section 4.2 of: _[[On the Classification of Topological Field Theories]]_ &lbrack;[arXiv:0905.0465](http://arxiv.org/abs/0905.0465)&rbrack;
 
-An adaptation of this notion to the setting of spectra in [[stable homotopy theory]] is studied in
+An adaptation of this notion to the setting of spectra in [[stable homotopy theory]]:
 
 * Ralph L. Cohen, Inbar Klang, _Twisted Calabi–Yau ring spectra, string topology, and gauge symmetry_, Tunisian J. Math. __2__:1 (2020) [doi](https://doi.org/10.2140/tunis.2020.2.147)
 
