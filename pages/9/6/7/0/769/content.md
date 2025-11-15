@@ -130,6 +130,8 @@ The proof is analogous to that at [[pullback]].
 
 * [[oplax/lax comma object]]
 
+* [[representable 2-category]]
+
 [[!include notions of pullback -- contents]]
 
 
