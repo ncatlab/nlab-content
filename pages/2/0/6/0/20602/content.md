@@ -32,7 +32,10 @@ In the [[standard model of particle physics]] the _charm quark_ is the up-type [
 
 * Marco Gersabeck, _Introduction to Charm Physics_, Proceedings of Science, Volume 220 - _Flavorful Ways to New Physics (FWNP)_ - Keynote Talks  ([arXiv:1503.00032](https://arxiv.org/abs/1503.00032), [spire:1346952](https://inspirehep.net/literature/1346952), [doi:10.22323/1.220.0001](https://doi.org/10.22323/1.220.0001))
 
-See also
+* David Friday, Evelina Gersabeck, Alexander Lenz, Maria Laura Piscopo: *Charm physics*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2506.15584](https://arxiv.org/abs/2506.15584)&rbrack;
+
+
+See also:
 
 * Wikipedia, _[Charm quark](https://en.wikipedia.org/wiki/Charm_quark)_
 
