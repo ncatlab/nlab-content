@@ -103,6 +103,7 @@ See _[[ekpyrotic cosmology]]_.
 
 * [[Renata Kallosh]], [[Andrei Linde]]: *On the Present Status of Inflationary Cosmology* &lbrack;[arXiv:2505.13646](https://arxiv.org/abs/2505.13646)&rbrack;
 
+* Alberto Salvio: *Inflationary scenarios beyond the Standard Model*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2501.08380](https://arxiv.org/abs/2501.08380)&rbrack;
 
 
 
