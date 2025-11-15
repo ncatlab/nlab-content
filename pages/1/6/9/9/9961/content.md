@@ -180,6 +180,8 @@ reviewed in
 
 * [Fodor-Hoelbling 12, section V of ](#FodorHoelbling12)
 
+* Sasa Prelovsek: *Lattice QCD calculations of hadron spectroscopy*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2505.10002](https://arxiv.org/abs/2505.10002)&rbrack;
+
 
 Discussion specifically of numerical computation of [[form factors]]:
 
