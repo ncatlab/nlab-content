@@ -66,7 +66,7 @@ The [[biequivalence]] of Feynman catgeories with [[coloured operads]] is proven 
 
 * {#Caviglia15} [[Giovanni Caviglia]], Section A.1 of: _The Dwyer-Kan model structure for enriched coloured PROPs_ ([arXiv:1510.01289](https://arxiv.org/abs/1510.01289))
 
-* {#BataninKockWeber15} [[Michael Batanin]], [[Joachim Kock]], [[Mark Weber]], _Regular patterns, substitudes, Feynman categories and operads_, Theory Appl. Categ. 33 (2018), 148--192 ([arXiv:1510.08934](https://arxiv.org/abs/1510.08934))
+* {#BataninKockWeber15} [[Michael Batanin]], [[Joachim Kock]], [[Mark Weber]]: _Regular patterns, substitudes, Feynman categories and operads_, Theory Appl. Categ. **33** 7 (2018), 148--192 &lbrack;[arXiv:1510.08934](https://arxiv.org/abs/1510.08934), [tac:33-07](http://www.tac.mta.ca/tac/volumes/33/7/33-07abs.html)&rbrack;
 
 
 
