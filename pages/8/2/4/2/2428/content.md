@@ -1,6 +1,14 @@
-* [website](http://www.mat.uab.es/~kock/)
 
-* [Copenhagen website](https://www.math.ku.dk/english/about/news/new-names/joachim-kock-associate-professor/)
+
+* [personal page](http://www.mat.uab.es/~kock/) (Barcelona)
+
+* [personal page](https://kock.sites.ku.dk/) (Copenhagen)
+
+* [institute page](https://researchprofiles.ku.dk/en/persons/joachim-kock/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=49951)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=4MaBvRIAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -15,7 +23,9 @@ On [[quantum cohomology]]:
 
 Proving the [[biequivalence]] between [[Feynman categories]] and [[colored operads]]:
 
-* {#BataninKockWeber15} [[Michael Batanin]], [[Joachim Kock]], [[Mark Weber]], _Regular patterns, substitudes, Feynman categories and operads_, Theory Appl. Categ. 33 (2018), 148--192 ([arXiv:1510.08934](https://arxiv.org/abs/1510.08934))
+* {#BataninKockWeber15} [[Michael Batanin]], [[Joachim Kock]], [[Mark Weber]]: _Regular patterns, substitudes, Feynman categories and operads_, Theory Appl. Categ. **33** 7 (2018), 148--192 &lbrack;[arXiv:1510.08934](https://arxiv.org/abs/1510.08934), [tac:33-07](http://www.tac.mta.ca/tac/volumes/33/7/33-07abs.html)&rbrack;
+
+See also:
 
 * {#GKT18} [[Imma Gálvez-Carrillo]], [[Joachim Kock]],  [[Andrew Tonks]], _Homotopy linear algebra_. Proc. Roy. Soc. Edinburgh Sect. A, 148(2):293–325, 2018 ([arXiv:1602.05082](https://arxiv.org/abs/1602.05082)).
 
