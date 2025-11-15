@@ -159,20 +159,25 @@ The detailed argument by Cattaneo and Felder on how [[Maxim Kontsevich]]'s formu
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and deformation quantization_, Mod. Phys. Lett. A **16** (2001) 179--190 &lbrack;[hep-th/0102208](http://arxiv.org/abs/hep-th/0102208), [doi:10.1142/S0217732301003255](https://doi.org/10.1142/S0217732301003255)&rbrack;
 
 
-See also
+See also:
 
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _Poisson sigma models and symplectic groupoids_ , (ed. [[Klaas Landsman]], M. Pflaum, M. Schlichenmeier), Progress in Mathematics 198, 61--93 (Birkh&#228;user, 2001)
 &lbrack;[math.SG/0003023](http://arxiv.org/abs/math/0003023)&rbrack;
 
 * [[Alberto Cattaneo]], [[Giovanni Felder]], _On the AKSZ formulation of the Poisson sigma model_, Lett. Math. Phys. **56** (2001) 163--179 &lbrack;[math.QA/0102108](http://arxiv.org/abs/math/0102108), [doi:10.1023/A:1010963926853](https://doi.org/10.1023/A:1010963926853)&rbrack;
 
-The interpretation in terms of [[schreiber:infinity-Chern-Simons theory]] is discussed in
+Review:
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_ (2011)
+* Nima Moshayedi: *Kontsevich’s Deformation Quantization and Quantum Field Theory*, Springer (2022) &lbrack;[doi:10.1007/978-3-031-05122-7](https://doi.org/10.1007/978-3-031-05122-7)&rbrack;
 
-Discussion in terms of [[holography]] is in 
 
-* {#Vassilevich} D. V. Vassilevich, _Holographic duals to Poisson sigma models_, Phys.Rev.D **87** (2013) 104011 &lbrack;[arXiv:1301.7029](http://arxiv.org/abs/1301.7029), [doi:10.1103/PhysRevD.87.104011](https://doi.org/10.1103/PhysRevD.87.104011)&rbrack;
+Interpretation in terms of [[schreiber:infinity-Chern-Simons theory]]:
+
+* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]]: _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_ (2011)
+
+Discussion in terms of [[holography]]:
+
+* {#Vassilevich} D. V. Vassilevich, _Holographic duals to Poisson sigma models_, Phys. Rev .D **87** (2013) 104011 &lbrack;[arXiv:1301.7029](http://arxiv.org/abs/1301.7029), [doi:10.1103/PhysRevD.87.104011](https://doi.org/10.1103/PhysRevD.87.104011)&rbrack;
  
 
 
