@@ -7,7 +7,7 @@ On [[chiral perturbation theory]]:
 
 * [[Véronique Bernard]], [[Ulf-G. Meissner]], _Chiral perturbation theory_, Ann. Rev. Nucl. Part. Sci.57:33-60, 2007 ([arXiv:hep-ph/0611231](https://arxiv.org/abs/hep-ph/0611231))
 
-* [[Ulf-G. Meissner]]: *Chiral perturbation theory*, Encyclopedia of Particle Physics &lbrack;[arXiv:2410.21912](https://arxiv.org/abs/2410.21912)&rbrack;
+* [[Ulf-G. Meissner]]: *Chiral perturbation theory*, in:  [[Encyclopedia of Particle Physics]] &lbrack;[arXiv:2410.21912](https://arxiv.org/abs/2410.21912)&rbrack;
 
 
 
