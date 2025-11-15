@@ -37,11 +37,11 @@ A review of some aspects of constructive Gelfand duality (with an eye towards [[
 
 * {#HeunenLandsmanSpitters} [[Chris Heunen]], [[Klaas Landsman]], [[Bas Spitters]], section 2 of _A topos for algebraic quantum theory_, Comm. Math. Phys. 291:63&#8211;110, 2009, free access [doi](http://dx.doi.org/10.1007/s00220-009-0865-6), [arXiv:0709.4364](http://arxiv.org/abs/0709.4364)
 
-Further disussion includes
+Further disussion:
 
-* [[Simon Henry]], _Constructive Gelfand duality for non-unital commutative $C^\ast$-algebras_ ([arXiv:1412.2009](https://arxiv.org/abs/1412.2009))
+* [[Simon Henry]]: *Constructive Gelfand duality for non-unital commutative $C^\ast$-algebras* &lbrack;[arXiv:1412.2009](https://arxiv.org/abs/1412.2009)&rbrack;
 
-* [[Simon Henry]], _Localic Metric spaces and the localic Gelfand duality_ ([arXiv:1411.0898](https://arxiv.org/abs/1411.0898))
+* [[Simon Henry]], _Localic Metric spaces and the localic Gelfand duality_ &lbrack;[arXiv:1411.0898](https://arxiv.org/abs/1411.0898)&rbrack;
 
 
 [[!redirects Stone-Gelfand-Naimark theorem]]
