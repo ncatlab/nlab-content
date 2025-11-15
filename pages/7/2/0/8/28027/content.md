@@ -111,12 +111,23 @@ $$[(D^+, D^-), (E^+, E^-)] = ([D^+, E^+], [D^-, E^-]) \, .$$
 
 ## Relation to Jordan triple systems
 
-The category of [[Jordan triple systems]] is equivalent to the category of Jordan pairs with involution [Loos75](#Loos75)), at least away from characteristic 2.  A **Jordan pair with involution** is a Jordan pair $(V^+,V^-)$ with a vector space isomorphism $\alpha \colon V^+ \to V^-$ such that 
+Define a **Jordan pair with involution** to be a Jordan pair $(V^\pm, \{\cdot, \cdot, \cdot\}_\pm)$ with a vector space isomorphism $\alpha \colon V^+ \to V^-$ such that 
 
 $$ Q_-(\alpha(v)) = \alpha \circ Q_+(v) \alpha $$
 
-for all $v \in V^+$.  A Jordan pair with involution gives a Jordan triple system $(V, \{\cdot, \cdot, \cdot \})$ with $V = V^+$ and $\{v,u,v\} = Q_+(v) (\alpha(u))$, where the general formula for the Jordan triple product $\{v,u,w\}$ 
-can be deduced using polarization.
+for all $v \in V^+$.  
+
+The category of [[Jordan triple systems]] is equivalent to the category of Jordan pairs with involution ([Loos75](#Loos75)).  In this equivalence, a Jordan pair with involution gives a Jordan triple system $(V, \{\cdot,\cdot,\cdot\})$ with $V = V^+$ and 
+
+$$ \{u,v,w\} = \{u,\alpha(v),w\}_+ \, . $$
+ 
+Conversely, a Jordan triple system $(V, \{\cdot, \cdot, \cdot \})$ gives a Jordan pair $(V^\pm, \{\cdot, \cdot, \cdot\}_\pm)$ with $V^+ = V^- = V$ and 
+
+$$ \{u,v,w\}_+ = \{u,v,w\}  \qquad for \; all \; u,w \in V^+, v \in V^- $$
+
+$$ \{u,v,w\}_- = \{u,v,w\}  \qquad for \; all \; u,w \in V^-, v \in V^- \, . $$
+
+This has an involution given by $\alpha = 1_V$.
 
 ## Related concepts
 
