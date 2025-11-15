@@ -83,6 +83,8 @@ For a version appropriate to [[constructive mathematics|constructive]] (but impr
 
 * Bernhard Banaschewski, Ale&#353; Pultr; 2002; A Constructive View of Complete Regularity; [web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.9.4811).
 
+[[!redirects completely regular]]
+
 
 [[!redirects completely regular space]]
 [[!redirects completely regular spaces]]
@@ -91,7 +93,7 @@ For a version appropriate to [[constructive mathematics|constructive]] (but impr
 
 [[!redirects completely regular Hausdorff space]]
 [[!redirects completely regular Hausdorff spaces]]
-[[!redirects Tychonoff space]]
+
 [[!redirects Tychonoff spaces]]
 [[!redirects Tychonov space]]
 [[!redirects Tychonov spaces]]
