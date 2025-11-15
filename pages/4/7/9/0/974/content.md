@@ -232,7 +232,7 @@ which sends a finitely complete category $C$ to the category of [[models]] of $C
 
 ### Tensor product
 
-The category of locally presentable categories is equipped with a [[symmetric monoidal category|symmetric monoidal]] structure, defined by $C \otimes D := Cts(C^op, D)$, where $Cts$ denotes the 2-category of [[complete categories]] and [[continuous functors]]: see [[Pr(infinity,1)Cat]] for more details.
+The category of locally presentable categories is equipped with a [[symmetric monoidal category|symmetric monoidal]] structure, defined by $C \otimes D := Cts(C^op, D)$, where $Cts$ denotes the 2-category of [[complete categories]] and [[continuous functors]] ([Bird 1982](#Bird82)): see [[Pr(infinity,1)Cat]] for more details.
 
 
 ## Examples and applications
@@ -493,7 +493,7 @@ On the example of [[Grothendieck abelian categories]]:
 
 * {#Beke00} [[Tibor Beke]], *Sheafifiable homotopy model categories*, Math. Proc. Cambridge Philosophical Society **129** 3 (2000) 447-475 &lbrack;[arXiv:math/0102087](https://arxiv.org/abs/math/0102087), [doi:10.1017/S0305004100004722](https://doi.org/10.1017/S0305004100004722)&rbrack;
 
-* {#Bird82} [[Greg Bird]], _Limits in 2-Categories of Locally-Presentable Categories [pdf](http://maths.mq.edu.au/~street/BirdPhD.pdf)&rbrack;
+* {#Bird82} [[Greg Bird]], _Limits in 2-Categories of Locally-Presentable Categories ([pdf](http://maths.mq.edu.au/~street/BirdPhD.pdf))
 
 * {#Krause15} [[Henning Krause]], _Deriving Auslander's formula_, Documenta Math. **20** (2015) 669-688 &lbrack;[arXiv:1409.7051](https://arxiv.org/abs/1409.7051)&rbrack;
 
