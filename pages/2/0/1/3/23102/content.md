@@ -29,7 +29,7 @@ In particular, a 2-category with [[comma objects]] and 2-[[pullbacks]] is repres
 
 * [[Ross Street]], _Fibrations and Yoneda's lemma in a 2-category_, Lecture Notes in Mathematics, Vol. 420, 1974, pp. 104–133. &lbrack;[doi:10.1007/BFb0063102](https://doi.org/10.1007/BFb0063102)&rbrack;
 
-* [[Ivan Di Liberti]], [[Axel Osmond]]: _Bi-accessible and bipresentable 2-categories_, Applied Categorical Structures **33** 3 (2025) &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046), [doi:10.1007/s10485-024-09794-9](http://doi.org/10.1007/s10485-024-09794-9)&rbrack;
+
 
 
 [[!redirects representable 2-categories]]
