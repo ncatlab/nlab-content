@@ -79,7 +79,7 @@ On 2-[[functorial semantics]]:
 * [[Nathanael Arkor]], [[John Bourke]], Joanna Ko, _Enhanced 2-categorical structures, two-dimensional limit sketches and the symmetry of internalisation_ &lbrack;[arXiv:2412.07475](https://arxiv.org/abs/2412.07475)&rbrack;
 
 * [[Ivan Di Liberti]], [[Axel Osmond]]: _Bi-accessible and bipresentable 2-categories_, Applied Categorical Structures **33** 3 (2025) &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046), [doi:10.1007/s10485-024-09794-9](http://doi.org/10.1007/s10485-024-09794-9)&rbrack;
-  > (not on 2-logic but on [[representable 2-categories]])
+  > (not on 2-logic but on [[locally presentable categories|locally presentable]] [[2-categories]])
 
 On [[2-categories]] as [[2-theories]]:
 
