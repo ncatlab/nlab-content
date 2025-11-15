@@ -268,7 +268,7 @@ What is harder to prove is that $k$ may be chosen to be as small as $2n$
 
 For every [[smooth manifold]] $X$ of dimension $n$ (Hausdorff, sigma-compact), there is an embedding into the [[Euclidean space]] of dimension $2n$.
 
-In fact this bound is minimal, there are smooth manifolds of dimension $n$ which have no embdding into $\mathbb{R}^k$ for $k \lt 2n$.
+In fact this bound is minimal, there are smooth manifolds of dimension $n$ which have no embedding into $\mathbb{R}^k$ for $k \lt 2n$.
 
 =--
 
