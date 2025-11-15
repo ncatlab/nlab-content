@@ -26,10 +26,8 @@
 =--
 
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -253,20 +251,32 @@ Quick exposition is in
 
 * Ivo Dell'Ambrogio, _Categories of $C^\ast$-algebras_ ([pdf](https://idellambrogio.github.io/exercise_C_algebras.pdf))
 
-Textbook accounts include
+Textbook accounts:
 
-* {#Johnstone82} [[Peter Johnstone]], section IV.4 of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics 3, Cambridge University Press 1982. xxi+370 pp. MR85f:54002, reprinted 1986.
+* {#Johnstone82} [[Peter Johnstone]], section IV.4 of _[[Stone Spaces]]_, Cambridge Studies in Advanced Mathematics **3**, Cambridge University Press (1982, 1986)  MR85f:54002
 
-* [[Nicolaas Landsman|N. P. Landsman]], _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Mathematics 1998. xx+529 pp. [MR2000g:81081](http://www.ams.org/mathscinet-getitem?mr=1662141) [doi](http://dx.doi.org/10.1007/978-1-4612-1680-3)
+* [[Nicolaas P. Landsman]]: _Mathematical topics between classical and quantum mechanics_, Springer Monographs in Mathematics 1998. xx+529 pp. [MR2000g:81081](http://www.ams.org/mathscinet-getitem?mr=1662141) [doi](http://dx.doi.org/10.1007/978-1-4612-1680-3)
 
-* [[Gerald B. Folland]], *A course in abstract harmonic analysis*, Studies in Advanced Mathematics. CRC Press (1995) &lbrack;[pdf](https://sv.20file.org/up1/1415_0.pdf), [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)&rbrack;
+* [[Gerald B. Folland]], *A course in abstract harmonic analysis*, Studies in Advanced Mathematics, CRC Press (1995) &lbrack;[pdf](https://sv.20file.org/up1/1415_0.pdf), [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)&rbrack;
 
 
-Careful discussion of the duality for the more general case of [[locally compact topological spaces]] includes
+Discussion in the generality of [[locally compact topological spaces|locally compact]] [[Hausdorff spaces]] and [[nonunital algebra|nonunital]] [[C*-algebra|$C^\ast$-algebras]]:
 
-* {#Brandenburg07} [[Martin Brandenburg]], _Gelfand-Dualität ohne 1_, 2007 ([web](http://www.matheplanet.com/matheplanet/nuke/html/article.php?sid=1111))
+* {#Brandenburg07} [[Martin Brandenburg]], _Gelfand-Dualität ohne 1_ (2007) &lbrack;[web](http://www.matheplanet.com/matheplanet/nuke/html/article.php?sid=1111)&rbrack;
 
-{#ReferencesCenterOfAction} Discussion of Gelfand duality as a [[fixed point equivalence of an adjunction]] between includes
+* [[Masoud Khalkhali]]: *Locally compact spaces and commutative $C^\ast$-algebras*, section 1.1 of: *Basic Noncommutative Geometry*, Europ. Math. Soc. (2009) &lbrack;[ems:elm/225](https://ems.press/books/elm/225), [doi:10.4171/128](https://doi.org/10.4171/128), [[Khalkhali-GelfandDuality.pdf:file]]&rbrack;
+
+* Eleftherios Papadopoulos: *Gelfand Duality*, MSc Thesis, University of Ioannia (2022) &lbrack;[pdf](https://olympias.lib.uoi.gr/jspui/bitstream/123456789/31841/1/%CE%9C.%CE%95.%20%CE%A0%CE%91%CE%A0%CE%91%CE%94%CE%9F%CE%A0%CE%9F%CE%A5%CE%9B%CE%9F%CE%A3%20%CE%95%CE%9B%CE%95%CE%A5%CE%98%CE%95%CE%A1%CE%99%CE%9F%CE%A3%202022.pdf), [[Papadopoulos-GelfandDuality.pdf:file]]&rbrack;
+
+* Abhijeet Vats: *The Path to Gelfand Duality and Spectral Theory*, BSc thesis, Lund University (2023) &lbrack;[lup:9129834](https://lup.lub.lu.se/student-papers/search/publication/9129834), [pdf](https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=9129834&fileOId=9129838), [[Vats-GelfandDuality.pdf:file]]&rbrack;
+
+
+and in [[constructive mathematics]] (with topological spaces generalized to [[locales]]):
+
+* [[Simon Henry]]: *Constructive Gelfand duality for non-unital commutative $C^\ast$-algebras* &lbrack;[arXiv:1412.2009](https://arxiv.org/abs/1412.2009)&rbrack;
+
+
+{#ReferencesCenterOfAction} Discussion of Gelfand duality as a [[fixed point equivalence of an adjunction]]:
 
 * {#PorstTholen91} [[Hans-E. Porst]], [[Walter Tholen]], section 4-c of _Concrete Dualities_ in H. Herrlich, [[Hans-E. Porst]] (eds.) _Category Theory at Work_, Heldermann Verlag 1991 ([pdf](http://www.heldermann.de/R&E/RAE18/ctw07.pdf))
 
