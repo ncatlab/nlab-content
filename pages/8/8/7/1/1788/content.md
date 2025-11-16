@@ -4,63 +4,36 @@
 
 ***
 
-This entry is to record the upcoming reference:
+Where 
+
+* [[categorical logic]] is [[formal logic]]/[[type theory]] regarded as the [[internal logic]]/[[internal language]] of [[categories]], notably of categories well-suited for this purposes, such as [[elementary toposes]],
+
+so 
+
+* 2-categorical logic, or *2-logic* for short, as understood in this entry here, is (or should be, once developed) the [[categorification]] of this situation, namely the study of the [[internal logic]]/[[internal language|language]] of [[2-categories]] (understood in the generality including [[bicategories]], [[double categories]], etc.), and notably of 2-categories well-suited for this purpose, such as those one will want to call *elementary [[2-toposes]]*.
+
+Therefore, the step from [[formal logic]]/[[categorical logic]] to formal 2-logic/2-categorical logic is analogous to the step from the former to [[homotopy type theory]], where one instead considers the [[internal language]] of [[(infinity,1)-categories|$(\infty,1)$-categories]]. 
+
+This means that 2-logic is a genuine extension of ordinary logic with new logical constructions and phenomena (largely still to be isolated properly) --- analogous to how [[homotopy type theory]] enhances ordinary logical [[types]] to [[homotopy types]], so 2-logic will be speaking about "2-types" of sorts.
+
+For example, 
+
+* where [[subobject classifiers]] in ordinary [[elementary toposes]] serve as [[universes of propositions]] for their [[first order logic|first order]] [[internal logic]], 
+
+* where [[object classifiers]] in [[(infinity,1)-toposes|$(\infty,1)$-toposes]] serve as [[type universes]] for their   [[homotopy type theory|homotopy]] [[internal logic]],  
+
+* so [[2-toposes]] have *fibration classifiers* which should serve as universes of "2-types" for their internal 2-logic.
+
+  Accordingly, [[powersets]] in ordinary logic/[[set theory]] become [[categories of presheaves]] in 2-logic, and the Cantor embedding becomes the [[Yoneda embedding]], etc.
 
 
-* **Encyclopedia of Particle Physics**
+In fact, there should be a joint generalization and unification of 2-logic of "2-types" with the "$(\infty,1)$-logic" of [[homotopy types]], namely given by the internal language of [[(infinity,2)-categories|$(\infty,2)$-categories]] (notably of [[(infinity,2)-toposes|$(\infty,2)$-toposes]]): This $(\infty,2)$-logic is currently being developed under the name *[[directed homotopy type theory]]* and as such, even if itself nascent, may be the most developed form of [[syntax|syntactic]] 2-logic that has found attention for.
 
-on [[hadron]]- and [[particle physics]].
+This means that 2-logic in the sense of this page here is *not* about the related but different idea of using general tools from [[2-category theory]] in the study of ordinary [[1-category|1-]][[categorical logic]], hence is *not* along the lines of how [[formal category theory]] uses [[2-category theory]] to study [[1-categories]]. 
 
-\tableofcontents
+Of course, there may be relation and overlap between 2-logic proper and such "formal categorical logic" using 2-categorical methods in 1-logic. With genuine 2-logic not being developed much at all at this point, most of the references listed below actually fall on the side of 2-categorical methods in 1-logic.
 
-## Cover blurb 
+For instance, for a suitable 2-dimensional [[sketch]]-like object its 2-category of [[models]] in [[Cat]] is a category of [[algebraic theories|1-theories]]: [[coherent categories]], [[regular categories]], [[lex categories]]. Thus, on one side we have the study of 2-sketch like objects, of [[2-monads]] on [[Cat]] and [[Lex]], and on [[2-functor|2-]][[functorial semantics]]. This is the adagio that *2-theories are logics*. On the other we have the study of 2-categories of (1)-theories, i.e. the idea that *2-models are 1-theories*.
 
-The *Encyclopedia of (Hadron- and) Particle Physics* will be a brand new, up to date reference work consisting of approximately 180 articles, headed up by an editorial board of world-leading hadron- and particle physicists. It will provide a first point of entry to the literature for all graduate/post-graduate students and early career-researchers working in and studying physics, especially those with an interest in hadron- and particle physics within the standard model and beyond. It will also be indispensable to all serious readers in the interdisciplinary areas (astrophysics, nuclear physics, particle therapy, accelerator physics) where particle physics is of utility. With a clear and logical template binding all chapters, content will be divided into the following six sections, each of which will contain chapters written by leading scientists who have pursued theoretical tools and methods and/or gathered and evaluated the most important data published within the field: 
-
-Section 1: **General Concepts of Particle Physics.** This will provide an overview on general concepts that play a major role in every area of [[hadrodynamics|hadron]] and [[particle physics]]. 
-
-Section 2: **[[hadrodynamics|Hadron Physics]].** The [[strong nuclear force|strong interaction]] of [[quarks]] and [[gluons]] and the resulting [[hadrodynamics|hadron physics]] provides a broad field of interest with major discoveries ([[exotic hadrons]]) in the past decade. Understanding the strong interaction also provides the background for the search of physics beyond the standard model. 
-
-Section 3: **[[leptons|Lepton]], [[flavour (particle physics)|Flavour]] and [[Higgs field|Higgs]] Physics.** The electromagnetic and weak interaction of [[quarks]], [[leptons]] and the [[Higgs particle]] provides a unique testing ground for the physics of the [[standard model of particle physics|standard model]] with major advances in the past decades. 
-
-Section 4: **[[neutrino|Neutrino]] Physics.** This area has emerged in the past decade as a separate and highly innovative field with major discovery potential in the next years. 
-
-Section 5: **Beyond standard model physics.** This section will provide introductions into the landscape of concepts of physics beyond the standard model including a broad variety of topics. 
-
-Section 6: **Experiments.** Every young researcher struggles to get an overview on the large variety of ongoing and planned experiments in hadron and particle physics. Here will be introductions to general experimental concepts as well as an overview on all existing major international facilities and experiments. 
-
-## Contributions
-
-* [full list on arXiv](https://arxiv.org/search/?query=%22Encyclopedia+of+Particle+Physics%22&searchtype=all&source=header)
-
-> For the time being, the following list is clearly incomplete and in no particular order.
-
-
-On [[CP violation]]:
-
-* [[Alexey A. Petrov]]: *CP violation* &lbrack;[arXiv:2511.09739](https://arxiv.org/abs/2511.09739)&rbrack;
-
-
-On [[renormalization]]:
-
-* Leonardo Di Giustino: *Renormalisation* &lbrack;[arXiv:2511.02005](https://arxiv.org/abs/2511.02005)&rbrack;
-
-On the stromg [[CP problem]], the [[theta angle]] and [[topological physics -- contents|topological aspects]] of [[QCD]]:
-
-* Claudio Bonanno, Claudio Bonati, Massimo D'Elia: *Strong CP problem, theta term and QCD topological properties* &lbrack;[arXiv:2510.03059](https://arxiv.org/abs/2510.03059)&rbrack;
-
-On [[perturbative quantum field theory|perturbative]] [[quantum chromodynamics]]:
-
-* Gudrun Heinrich, Anton Olsson: *Perturbative QCD* &lbrack;[arXiv:2509.02790](https://arxiv.org/abs/2509.02790)&rbrack;
-
-On [[flavour physics]]:
-
-* [[Wolfgang Altmannshofer]], [[Peter Stangl]]: *Flavour Physics Beyond the Standard Model* &lbrack;[arXiv:2508.03950](https://arxiv.org/abs/2508.03950)&rbrack;
-
-(...)
-
-(...)
-
-(...)
 
 
