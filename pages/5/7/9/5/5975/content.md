@@ -66,7 +66,7 @@ For instance, for a suitable 2-dimensional [[sketch]]-like object its 2-category
 ## References
  {#References}
 
-An early explicit logic for a class of structured 2-categories (namely lax [[cartesian closed]] [[2-categores]]) may be found in:
+An early explicit logic for a class of structured 2-categories (namely lax [[cartesian closed]] [[2-categories]]) may be found in:
 
 * [[R. A. G. Seely]]. _Modelling Computations : a 2-categorical Framework_. LICS 1987. ([pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf))
 
