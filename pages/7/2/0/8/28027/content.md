@@ -133,9 +133,9 @@ $$ \{u,v,w\}_- = \{u,v,w\}  \qquad for \; all \; u,w \in V^-, v \in V^- \, . $$
 
 This has an involution given by $\alpha = 1_V$.
 
-### Jordan pairs as Jordan triple systems with splitting
+### Jordan pairs as polarized Jordan triple systems
 
-Define a **Jordan triple system with splitting** to be a [[Jordan triple system]] $(V, \{\cdot, \cdot, \cdot\})$ together with a direct sum decomposition $V = V^+ \oplus V^-$ such that 
+Define a **polarized Jordan triple system** to be a [[Jordan triple system]] $(V, \{\cdot, \cdot, \cdot\})$ together with a direct sum decomposition $V = V^+ \oplus V^-$ such that 
 
 $$ \{u,v,w\}_\pm \in V^\pm $$
 
@@ -145,15 +145,13 @@ $$ \{u,v,w\}_\pm = 0 $$
 
 for all $u, v \in V^\pm$, $w \in V^\mp$, all $v, w \in V^\pm$, $u \in V^\mp$, and all $u, v, w \in V^\pm$.
 
-The category of Jordan pairs is equivalent to the category of Jordan triple systems with splitting ([Loos75](#Loos75)). 
+The category of Jordan pairs is equivalent to the category of polarized Jordan triple systems ([Loos75](#Loos75)). 
 
 ## Related concepts
 
 * [[Jordan algebra]]
 
 * [[Jordan triple system]]
-
-* [[Jordan pair]]
 
 * [[Jordan superalgebra]]
 
