@@ -111,6 +111,10 @@ $$[(D^+, D^-), (E^+, E^-)] = ([D^+, E^+], [D^-, E^-]) \, .$$
 
 ## Relation to Jordan triple systems
 
+There is a way to see a [[Jordan triple system]] as a Jordan pair with extra structure, and vice versa ([McCrimmon78](#McCrimmon78)).  This suggests that there are adjoint functors between the category of Jordan triple systems and the category of Jordan pairs.
+
+### Jordan triple systems as Jordan pairs with involutions
+
 Define a **Jordan pair with involution** to be a Jordan pair $(V^\pm, \{\cdot, \cdot, \cdot\}_\pm)$ with a vector space isomorphism $\alpha \colon V^+ \to V^-$ such that 
 
 $$ Q_-(\alpha(v)) = \alpha \circ Q_+(v) \alpha $$
@@ -129,15 +133,24 @@ $$ \{u,v,w\}_- = \{u,v,w\}  \qquad for \; all \; u,w \in V^-, v \in V^- \, . $$
 
 This has an involution given by $\alpha = 1_V$.
 
+
 ## Related concepts
 
 * [[Jordan algebra]]
 
 * [[Jordan triple system]]
 
+* [[Jordan pair]]
+
+* [[Jordan superalgebra]]
+
+* [[exceptional Jordan algebra]]/[[Albert algebra]]
+
 * [[Jordan-Lie-Banach algebra]]
 
 * [[JBW-algebra]], [[JBW-algebraic quantum mechanics]]
+
+* [[W-algebra]]
 
 * [[Kantor-Koecher-Tits construction]]
 
@@ -147,18 +160,14 @@ This has an involution given by $\alpha = 1_V$.
 
   * [[Harding-Döring-Hamhalter theorem]]
 
-* [[W-algebra]]
-
-* [[Jordan superalgebra]]
-
-* [[exceptional Jordan algebra]]/[[Albert algebra]]
-
 ## References
 
 * {#Loos75} [[Ottmar Loos]]: _Jordan Pairs_, Lecture Notes in Mathematics **460** Springer (1975) &lbrack;ISBN:978-3-540-37499-2, [doi:10.1007/BFb0080843](https://doi.org/10.1007/BFb0080843), [ark:/13960/t9774fs7f ](https://archive.org/details/jordanpairs0000loos)&rbrack;
 
 * {#Loos77} [[Ottmar Loos]]: _Bounded Symmetric Domains and Jordan Pairs_, Lecture notes, University of California (1977)
 
+* {McCrimmon78} Kevin McCrimmon, _Review: Ottmar Loos, Jordan pairs_, Bull. Amer. Math. Soc. 84(4) (July 1978), 685-690.    
+&lbrack;[pdf](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-84/issue-4/Review-Ottmar-Loos-Jordan-pairs/bams/1183540942.full)&rbrack;
 
 [[!redirects Jordan pairs]]
 
