@@ -1,6 +1,11 @@
 
+Robert Andrew George Seely 
 
-* [webpage](http://www.math.mcgill.ca/rags/)
+* [personal page](http://www.math.mcgill.ca/rags/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=67226)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/R-A-G-Seely-3238339)
 
 
 ## Selected writings
@@ -23,6 +28,12 @@ On the [[relation between type theory and category theory]]...
 ... the [[categorical semantics]] of [[linear logic]] in [[star-autonomous categories]]:
 
 * {#Seely89} [[R. A. G. Seely]],  *Linear logic, $\ast$-autonomous categories and cofree coalgebras*, in *Categories in Computer Science and Logic*, Contemporary Mathematics **92** (1989)  &lbrack;[[SeelyLinearLogic.pdf:file]], [ps.gz](http://www.math.mcgill.ca/rags/nets/llsac.ps.gz), [ISBN:978-0-8218-5100-5](https://bookstore.ams.org/conm-92)&rbrack;
+
+
+On [[categorical semantics]] of [[lambda calculus]] in a [[2-category]] (cf. *[[2-categorical logic]]*):
+
+* [[R. A. G. Seely]]: _Modelling Computations: a 2-categorical Framework_, Proceedings of [LICS 1987](https://lics.siglog.org/archive/1987/index.html) (1987) 65-71 &lbrack;[pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf), [lics.siglog](https://lics.siglog.org/archive/1987/Seely-ModellingComputatio.html)&rbrack;
+
 
 On [[categorical semantics]] of the [[exponential modality]] in [[linear type theory]]:
 
