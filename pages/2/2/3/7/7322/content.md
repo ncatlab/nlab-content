@@ -68,6 +68,11 @@ On naive/informal [[dependent type theory]]:
 
 * [[Thorsten Altenkirch]], *Naive Type Theory*, in: *[[Reflections on the Foundations of Mathematics]]*, Synthese Library **407** Springer (2019) &lbrack;[doi:10.1007/978-3-030-15655-8_5](https://doi.org/10.1007/978-3-030-15655-8_5), [pdf](https://www.cs.nott.ac.uk/~psztxa/publ/fomus19.pdf)&rbrack;
 
+On [[directed homotopy type theory]]:
+
+* [[Thorsten Altenkirch]], [[Jacob Neumann]], _Synthetic 1-Categories in Directed Type Theory_ &lbrack;[arXiv:2410.19520](https://arxiv.org/abs/2410.19520)&rbrack;
+
+
 ## Related entries
 
 * [[type theory]], [[homotopy type theory]], [[higher observational type theory]]
