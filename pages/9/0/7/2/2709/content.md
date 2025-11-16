@@ -1,16 +1,24 @@
-* [website](https://cisinski.app.uni-regensburg.de/)
+
+* [institute page](https://cisinski.app.uni-regensburg.de/)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Denis-Charles_Cisinski)
 
-* [[Denis-Charles Cisinski]], _Catégories supérieures et théorie des topos_, Séminaire Bourbaki, 2015-03-21, [pdf](https://cisinski.app.uni-regensburg.de/1097.pdf).
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=74126)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=TewShjUAAAAJ&hl=en)
+
 
 ## Selected writings
+
+
 
 On [[(∞,1)-category theory]] and [[homotopical algebra]]:
 
 * [[Denis-Charles Cisinski]], *Faisceaux localement asph&eacute;riques* (2003) &lbrack;[pdf](https://cisinski.app.uni-regensburg.de/mtest2.pdf), [[Cisinski-FaisceauxLocAsph.pdf:file]]&rbrack;
 
 * [[Denis-Charles Cisinski]], _Les préfaisceaux comme modèles des types d'homotopie_, Astérisque 308, 2006 ([doi:10.24033/ast.715](https://smf.emath.fr/publications/les-prefaisceaux-comme-modeles-des-types-dhomotopie), [NUMDAM](http://www.numdam.org/item/AST_2006__308__R1_0/))
+
+* [[Denis-Charles Cisinski]], _Catégories supérieures et théorie des topos_, Séminaire Bourbaki, 2015-03-21, [pdf](https://cisinski.app.uni-regensburg.de/1097.pdf).
 
 * [[Denis-Charles Cisinski]], _[[Higher categories and homotopical algebra]]_, Cambridge University Press, 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](https://cisinski.app.uni-regensburg.de/CatLR.pdf))
 
@@ -33,7 +41,14 @@ On the [[(infinity,1)-Grothendieck construction]] via [[straightening and unstra
 
 * [[Denis-Charles Cisinski]], [[Hoang Kim Nguyen]], *The universal coCartesian fibration* &lbrack;[arXiv:2210.08945](https://arxiv.org/abs/2210.08945)&rbrack;
 
-## Related $n$Lab entries
+On [[directed homotopy type theory]]:
+
+* {#CisinskiEtAl23} [[Denis-Charles Cisinski]], [[Hoang Kim Nguyen]], [[Tashi Walde]]: *Univalent Directed Type Theory*, lecture series in the *[CMU Homotopy Type Theory Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* ([13, 20, 27 Mar 2023](https://www.cmu.edu/dietrich/philosophy/hott/seminars/previous.html#:~:text=Univalent%20Directed%20Type%20Theory)) &lbrack;[web](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html#230313), video 1:[YT](https://www.youtube.com/watch?v=5YOltuTcBK8), 2:[YT](https://www.youtube.com/watch?v=xWmELBvHMPo), 3:[YT](https://www.youtube.com/watch?v=P0Cfb4eUJo4); slides 0:[pdf](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-intro_talk1.pdf), 1:[pdf](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-talk1.pdf), 2:[pdf](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-talk2.pdf), 3:[pdf](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-talk3.pdf)&rbrack;
+
+* {#CCNW25} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], *Formalization of Higher Categories*, work in progress (2025) &lbrack;[pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view)&rbrack;
+
+
+## Related entries
 
 * [[test category]], [[test topos]]
 
