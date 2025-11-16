@@ -14,7 +14,9 @@ On the [[homotopy type]] of [[mapping spaces]] out of an [[n-sphere]]:
 
 On [[homotopy theory]]:
 
-* {#SzeTsen59} [[Sze-Tsen Hu]], *Homotopy Theory*, Academic Press (1959) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hu2.pdf)&rbrack;
+* {#SzeTsen59} [[Sze-Tsen Hu]], *Homotopy Theory*, Academic Press (1959) &lbrack;[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hu2.pdf), [[STHu-HomotopyTheory.pdf:file]]&rbrack;
+
+
 
 ## Related entries
 
