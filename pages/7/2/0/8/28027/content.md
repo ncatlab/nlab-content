@@ -166,8 +166,8 @@ This has an involution given by $\alpha = 1_V$.
 
 * {#Loos77} [[Ottmar Loos]]: _Bounded Symmetric Domains and Jordan Pairs_, Lecture notes, University of California (1977)
 
-* {McCrimmon78} Kevin McCrimmon, _Review: Ottmar Loos, Jordan pairs_, Bull. Amer. Math. Soc. 84(4) (July 1978), 685-690.    
-&lbrack;[pdf](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-84/issue-4/Review-Ottmar-Loos-Jordan-pairs/bams/1183540942.full)&rbrack;
+* {#McCrimmon78} Kevin McCrimmon: _Review: Ottmar Loos, Jordan pairs_, Bull. Amer. Math. Soc. **84** 4 (1978)  685-690.    
+&lbrack;[euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-84/issue-4/Review-Ottmar-Loos-Jordan-pairs/bams/1183540942.full)&rbrack;
 
 [[!redirects Jordan pairs]]
 
