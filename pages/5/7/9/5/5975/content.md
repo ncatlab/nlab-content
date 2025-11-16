@@ -45,12 +45,13 @@ Remarks on [[geometric logic|geometric]] 2-logic:
 {#ReferencesOnElementary2Topoi} On aspects of [[elementary topos|elementary]] [[2-topoi]]:
 
 * {#Weber07} [[Mark Weber]]: *Yoneda structures from 2-toposes*, Appl Categor Struct **15** (2007) 259–323 &lbrack;[doi:10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2), [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)&rbrack;
+  > (introduce a notion of *elementary 2-topos* but explicitly disregards discussion of logical aspects)
 
 * [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009)
   > (also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi).
 
 * [[Steve Awodey]], [[Jacopo Emmenegger]], _Toward the effective 2-topos_ (2025) &lbrack;[arXiv:2503.24279](http://arxiv.org/abs/2503.24279)&rbrack;
-  > (higher version of the [[effective topos]])
+  > (a 2-dimensional version of the [[effective topos]])
 
 {#ReferencesOnHigherClassifiers} Specifically on higher classifiers (higher analogs of what is the [[subobject classifier]] in ordinary [[elementary topos|elementary]] [[toposes]]):
 
@@ -83,9 +84,9 @@ On 2-[[functorial semantics]]:
 
 On [[2-categories]] as [[2-theories]]:
 
-* {#Garner09} [[Richard Garner]], *Two-dimensional models of type theory*, Mathematical Structures in Computer Science 19.4 (2009): 687-736 ([doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf))
+* {#Garner09} [[Richard Garner]]: *Two-dimensional models of type theory*, Mathematical Structures in Computer Science **19** 4 (2009) 687-736 &lbrack;[doi:10.1017/S0960129509007646](https://doi.org/10.1017/S0960129509007646), [pdf](https://www.irif.fr/~mellies/mpri/mpri-ens/articles/garner-two-dimensional-models-of-type-theory.pdf)&rbrack;
 
-* {#CDL21} Greta Coraglia, [[Ivan Di Liberti]], _Context, judgement, deduction_ (2021) &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;
+* {#CDL21} Greta Coraglia, [[Ivan Di Liberti]]: _Context, judgement, deduction_ (2021) &lbrack;[arXiv:2111.09438](https://arxiv.org/abs/2111.09438)&rbrack;
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Niels van der Weide]]: *Semantics for two-dimensional type theory*, LICS '22: Proceedings of the 37th Annual ACM/IEEE Symposium on Logic in Computer Science, 12 (2022) 1–14, &lbrack;[doi:10.1145/3531130.3533334](https://doi.org/10.1145/3531130.3533334)&rbrack;
 
