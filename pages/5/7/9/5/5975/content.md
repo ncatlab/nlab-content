@@ -14,9 +14,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -68,7 +68,7 @@ For instance, for a suitable 2-dimensional [[sketch]]-like object its 2-category
 
 An early explicit logic for a class of structured 2-categories (namely lax [[cartesian closed]] [[2-categories]]) may be found in:
 
-* [[R. A. G. Seely]]. _Modelling Computations : a 2-categorical Framework_. LICS 1987. ([pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf))
+* [[R. A. G. Seely]]: _Modelling Computations: a 2-categorical Framework_, Proceedings of [LICS 1987](https://lics.siglog.org/archive/1987/index.html) (1987) 65-71 &lbrack;[pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf), [lics.siglog](https://lics.siglog.org/archive/1987/Seely-ModellingComputatio.html)&rbrack;
 
 Remarks on [[geometric logic|geometric]] 2-logic:
 
