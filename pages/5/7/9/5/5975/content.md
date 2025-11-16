@@ -30,9 +30,9 @@ so
 
 Therefore, the step from [[formal logic]]/[[categorical logic]] to formal 2-logic/2-categorical logic is analogous to the step from the former to [[homotopy type theory]], where one instead considers the [[internal language]] of [[(infinity,1)-categories|$(\infty,1)$-categories]]. 
 
-This means that 2-logic is a genuine extension of ordinary logic with new logical constructions and phenomena (largely still to be isolated properly) --- analogous to how [[homotopy type theory]] enhances ordinary logical [[types]] to [[homotopy types]], so 2-logic will be speaking about "2-types" of sorts (meaning: [[(n,r)-category|$(2,2)$]]-types as opposed to homotopy $(2,1)$-types).
+This means that 2-logic is a genuine extension of ordinary logic with new logical constructions and phenomena (largely still to be isolated properly) --- analogous to how [[homotopy type theory]] enhances ordinary logical [[types]] to [[homotopy types]], so 2-logic will be speaking about "1-types" of sorts (meaning: [[(n,r)-category|$(1,1)$]]-types also known as *[[small categories]]*, as opposed to the more restrictive [[homotopy 1-types|homotopy $(1,0)$-types]] also known as *[[groupoids]]*, both generalizing the [[homotopy 0-types|0-types]] also known as *[[sets]]*).
 
-For example, 
+For example:
 
 * where [[subobject classifiers]] in ordinary [[elementary toposes]] serve as [[universes of propositions]] for their [[first order logic|first order]] [[internal logic]], 
 
