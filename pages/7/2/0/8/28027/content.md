@@ -63,10 +63,19 @@ for $v \in V_+, f \in V_-$.
 
 Jordan pairs are more general than Jordan algebras.  Further, the connection between Jordan structures, 3-graded Lie algebras and bounded symmetric domains is arguably clearer in terms of Jordan pairs than using Jordan algebras or Jordan triple systems ([Loos77](#Loos77)). 
 
-Unlike for Jordan algebras and Jordan triple systems, there is a natural way to define inner automorphisms of Jordan pairs 
-([Loos75](#Loos75)).   (See below for inner derivations.)
+Isomorphisms of Jordan pairs are more general than isomorphisms of Jordan algebras or Jordan triple systems: they generalize the so-called "isotopies" of these.  An **isotopy** $f \colon V \to V'$ of Jordan triple systems is a pair of bijective linear maps $f_+, f_- \colon V \to V'$ such that
 
-Furthermore, Jordan pairs always contain sufficiently many idempotents (which generalize the [[projection operators]] familiar in the case of self-adjoint complex matrices) ([Loos75](#Loos75)).  It may happen even in a finite-dimensional simple Jordan algebra that the unit element cannot be written as the sum of orthogonal division idempotents (the algebra need not have "capacity").  In a Jordan triple system the relevant generalization of an idempotent is a **tripotent**, an element $p$ with $\{p,p,p\} = p$, but if we make $\mathbb{R}$ into a Jordan triple system with $\{a,b,c\} = -(a b c + c b a)$ it has no nonzero tripotents.  In the case of a Jordan pair $(V^+, V^-)$, we define an **idempotent** to be a pair of elements $p_+ \in V^+, p_- \in V^-$ such that 
+$$ f_+(\{u,v,w\}) = \{f_+(u), f_-(v), f^+(w) \} $$
+
+for all $u,v,w \in V$.  The use of two separate linear maps is somewhat odd here, but natural for Jordan pairs.   An **isomorphism** from a Jordan pair $V_\pm$ to a Jordan pair $V'_\pm$ is a pair of bijective linear maps $f_\pm \colon V_\pm \to V'_\pm$ such that
+
+$$ f_\pm\bigl(\{u,v,w\}_\pm\bigr) = \{f_\pm(u), f_\mp(v), f_\pm(w)\}_\pm  $$
+
+for all $u,w \in V_\pm, v \in V_\mp$.
+
+Unlike for Jordan algebras and Jordan triple systems, there is a natural way to define inner automorphisms and inner derivations of Jordan pairs ([Loos75](#Loos75)).   (See below for inner derivations.)
+
+Furthermore, Jordan pairs always contain sufficiently many idempotents (which generalize the [[projection operators]] familiar in the case of self-adjoint complex matrices) ([Loos75](#Loos75)).  It may happen even in a finite-dimensional simple Jordan algebra that the unit element cannot be written as the sum of orthogonal division idempotents (the algebra need not have "capacity").  In a Jordan triple system the relevant generalization of an idempotent is a **tripotent**, an element $p$ with $\{p,p,p\} = p$, but if we make $\mathbb{R}$ into a Jordan triple system with $\{a,b,c\} = -(a b c + c b a)$ it has no nonzero tripotents.  In the case of a Jordan pair $(V_+, V_-)$, we define an **idempotent** to be a pair of elements $p_+ \in V_+, p_- \in V_-$ such that 
 
 $$  \{p_\pm, p_\mp, p_\pm\}_\pm = p_{\pm} \, . $$
 
@@ -82,30 +91,30 @@ $$ \{a,b,c\}_\pm = [[a,b],c] $$
 
 for $a,c \in \mathfrak{g}_{\pm 1}$ and $b \in \mathfrak{g}_{\mp 1}$.  
 
-Conversely, there is a functorial way to build a 3-graded Lie algebra from a Jordan pair.  Start with a Jordan pair $(V^+, V^-)$.  We construct a 3-graded Lie algebra $\mathfrak{g} = \mathfrak{g}_{-1} \oplus \mathfrak{g}_0 \oplus \mathfrak{g}_1$ 
+Conversely, there is a functorial way to build a 3-graded Lie algebra from a Jordan pair.  Start with a Jordan pair $(V_+, V_-)$.  We construct a 3-graded Lie algebra $\mathfrak{g} = \mathfrak{g}_{-1} \oplus \mathfrak{g}_0 \oplus \mathfrak{g}_1$ 
 as follows.  First, set
 
-$$ \mathfrak{g}_1 = V^+, \qquad \mathfrak{g}_{-1} = V^- $$
+$$ \mathfrak{g}_1 = V_+, \qquad \mathfrak{g}_{-1} = V_- $$
 
-and let $\mathfrak{g}_0$ consist of the **inner derivations** of the Jordan pair.  These are linear maps $D \colon V^+ \oplus V^- \to V^+ \oplus V^-$ of the form  
+and let $\mathfrak{g}_0$ consist of the **inner derivations** of the Jordan pair.  These are linear maps $D \colon V_+ \oplus V_- \to V_+ \oplus V_-$ of the form  
 
 $$D(x, y) = (\{x, y, \cdot\}, -\{y, x, \cdot\})$$
 
-for $x \in V^+, y \in V^-$.  We write $D(x,y) = (D^+(x,y), D^-(x,y))$. 
+for $x \in V_+, y \in V_-$.  We write $D(x,y) = (D_+(x,y), D_-(x,y))$. 
 
 Next, define a Lie bracket on $\mathfrak{g}$ as follows:
 
-1) **$[\mathfrak{g}_1, \mathfrak{g}_{-1}] \to \mathfrak{g}_0$**: For $x \in V^+, y \in V^-$, set
+1) **$[\mathfrak{g}_1, \mathfrak{g}_{-1}] \to \mathfrak{g}_0$**: For $x \in V_+, y \in V_-$, set
 
 $$[x, y] = D(x, y) = (Q(x, y, \cdot), -Q(y, x, \cdot))$$
 
-2) **$[\mathfrak{g}_0, \mathfrak{g}_{\pm 1}] \to \mathfrak{g}_{\pm 1}$**: For $D = (D^+, D^-) \in \mathfrak{g}_0$, set
+2) **$[\mathfrak{g}_0, \mathfrak{g}_{\pm 1}] \to \mathfrak{g}_{\pm 1}$**: For $D = (D_+, D_-) \in \mathfrak{g}_0$, set
 
-$$[D, x] = D^+(x) \; \text{ for } \; x \in V^+, \qquad [D, y] = D^-(y) \; \text{ for } \; y \in V^-$$
+$$[D, x] = D_+(x) \; \text{ for } \; x \in V_+, \qquad [D, y] = D_-(y) \; \text{ for } \; y \in V_-$$
 
 3) **$[\mathfrak{g}_0, \mathfrak{g}_0] \to \mathfrak{g}_0$**: Here we use the usual commutator of linear operators:
 
-$$[(D^+, D^-), (E^+, E^-)] = ([D^+, E^+], [D^-, E^-]) \, .$$
+$$[(D_+, D_-), (E_+, E_-)] = ([D_+, E_+], [D_-, E_-]) \, .$$
 
 4) **$[\mathfrak{g}_i, \mathfrak{g}_j] = 0$** when $|i + j| \gt 1$.
 
@@ -115,35 +124,35 @@ There is a way to see a [[Jordan triple system]] as a Jordan pair with extra str
 
 ### Jordan triple systems as Jordan pairs with involutions
 
-Define a **Jordan pair with involution** to be a Jordan pair $(V^\pm, \{\cdot, \cdot, \cdot\}_\pm)$ with a vector space isomorphism $\alpha \colon V^+ \to V^-$ such that 
+Define a **Jordan pair with involution** to be a Jordan pair $(V_\pm, \{\cdot, \cdot, \cdot\}_\pm)$ with a vector space isomorphism $\alpha \colon V_+ \to V_-$ such that 
 
 $$ Q_-(\alpha(v)) = \alpha \circ Q_+(v) \alpha $$
 
-for all $v \in V^+$, where $Q_\pm$ are the quadratic maps mentioned above.
+for all $v \in V_+$, where $Q_\pm$ are the quadratic maps mentioned above.
 
-The category of [[Jordan triple systems]] is equivalent to the category of Jordan pairs with involution ([Loos75](#Loos75)).  In this equivalence, a Jordan pair with involution gives a Jordan triple system $(V, \{\cdot,\cdot,\cdot\})$ with $V = V^+$ and 
+The category of [[Jordan triple systems]] is equivalent to the category of Jordan pairs with involution ([Loos75](#Loos75)).  In this equivalence, a Jordan pair with involution gives a Jordan triple system $(V, \{\cdot,\cdot,\cdot\})$ with $V = V_+$ and 
 
 $$ \{u,v,w\} = \{u,\alpha(v),w\}_+ \, . $$
  
-Conversely, a Jordan triple system $(V, \{\cdot, \cdot, \cdot \})$ gives a Jordan pair $(V^\pm, \{\cdot, \cdot, \cdot\}_\pm)$ with $V^+ = V^- = V$ and 
+Conversely, a Jordan triple system $(V, \{\cdot, \cdot, \cdot \})$ gives a Jordan pair $(V_\pm, \{\cdot, \cdot, \cdot\}_\pm)$ with $V_+ = V_- = V$ and 
 
-$$ \{u,v,w\}_+ = \{u,v,w\}  \qquad for \; all \; u,w \in V^+, v \in V^- $$
+$$ \{u,v,w\}_+ = \{u,v,w\}  \qquad for \; all \; u,w \in V_+, v \in V_- $$
 
-$$ \{u,v,w\}_- = \{u,v,w\}  \qquad for \; all \; u,w \in V^-, v \in V^- \, . $$
+$$ \{u,v,w\}_- = \{u,v,w\}  \qquad for \; all \; u,w \in V_-, v \in V_- \, . $$
 
 This has an involution given by $\alpha = 1_V$.
 
 ### Jordan pairs as polarized Jordan triple systems
 
-Define a **polarized Jordan triple system** to be a [[Jordan triple system]] $(V, \{\cdot, \cdot, \cdot\})$ together with a direct sum decomposition $V = V^+ \oplus V^-$ such that 
+Define a **polarized Jordan triple system** to be a [[Jordan triple system]] $(V, \{\cdot, \cdot, \cdot\})$ together with a direct sum decomposition $V = V_+ \oplus V_-$ such that 
 
-$$ \{u,v,w\}_\pm \in V^\pm $$
+$$ \{u,v,w\}_\pm \in V_\pm $$
 
-for all $u,w \in V^\pm, v \in V^\mp$ and 
+for all $u,w \in V_\pm, v \in V_\mp$ and 
 
 $$ \{u,v,w\}_\pm = 0 $$
 
-for all $u, v \in V^\pm$, $w \in V^\mp$, all $v, w \in V^\pm$, $u \in V^\mp$, and all $u, v, w \in V^\pm$.
+for all other possibilities, i.e. for all $u, v \in V_\pm$, $w \in V_\mp$, all $v, w \in V_\pm$, $u \in V_\mp$, and all $u, v, w \in V_\pm$.
 
 The category of Jordan pairs is equivalent to the category of polarized Jordan triple systems ([Loos75](#Loos75)). 
 
