@@ -15,7 +15,11 @@
 
 ## Idea
 
-[[Jordan algebras]] were invented to axiomatize some properties of the Jordan product $a \circ b = (a b + b a)/2$ of self-adjoint complex matrices, which serve as [[observables]] in quantum mechanics.  As work proceeded, some researchers found it convenient to focus on another binary operation on self-adjoint matrices, $U_a (b) = a b a$.  Axiomatizing the properties of this led to the definition of a [[quadratic Jordan algebra]].   However, it is often convenient to replace this operation $U_a(b)$ by a trilinear operation, obtained by [[polarization identity|polarization]] as follows:
+[[Jordan algebras]] were invented to axiomatize some properties of the Jordan product $a \circ b = (a b + b a)/2$ of self-adjoint complex matrices, which serve as [[observables]] in quantum mechanics.  As work proceeded, some researchers found it convenient to focus on another binary operation on self-adjoint matrices, 
+
+$$ U_a (b) = 2 a \circ (a \circ b) - (a \circ a) \circ b = a b a \, . $$
+
+Axiomatizing the properties of this operation led to the definition of a [[quadratic Jordan algebra]].   However, it is often convenient to replace this operation $U_a(b)$ by a trilinear operation, obtained by [[polarization identity|polarization]] as follows:
 
 $$  
   \{a,b,c\} 
@@ -28,7 +32,7 @@ A **Jordan triple system** axiomatizes the properties of this triple product of 
 
 Later it was discovered that there are close relations between Jordan triple systems and [[Lie triple systems]]. Just as [[Lie triple systems]] naturally give $\mathbb{Z}/2$-graded [[Lie algebras]], Jordan triple systems naturally give a certain class of so-called **3-graded Lie algebras**, which are $\mathbb{Z}$-graded Lie algebras concentrated in degrees $-1,0$ and $1$.   And just as the tangent space of any point in a [[symmetric space]] is naturally a Lie triple system, the tangent space of any point in a [[hermitian]] symmetric space is naturally a Jordan triple system.
 
-Closely related to Jordan triple systems are [[quadratic Jordan algebras]] and [[Jordan pairs]].
+A further development of the Jordan algebra concept, in some sense based on Jordan triple systems, is that of a [[Jordan pair]].
 
 ## Definition
 
