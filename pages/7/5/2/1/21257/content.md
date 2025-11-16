@@ -31,6 +31,11 @@ On [[baryon chiral perturbation theory]]:
 
 * Matthias Frink, [[Ulf-G. Meissner]], _On the chiral effective meson-baryon Lagrangian at third order_, Eur. Phys. J. A29:255-260, 2006 ([arXiv:hep-ph/0609256](https://arxiv.org/abs/hep-ph/0609256))
 
+On [[baryon]] [[form factors]]:
+
+* Yong-Hui Lin, Hans-Werner Hammer, [[Ulf-G. Meißner]]: *Baryon Form Factors*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2412.12885](https://arxiv.org/abs/2412.12885)&rbrack;
+
+
 On [[primordial nucleosynthesis]]:
 
 * [[Ulf-G. Meißner]], Bernard Ch. Metsch, Helen Meyer: *Fine-tunings in nucleosynthesis and the emergence of life: Status and perspectives* &lbrack;[arXiv:2503.15162](https://arxiv.org/abs/2503.15162)&rbrack;
