@@ -105,6 +105,9 @@ On the other hand, working directed higher type theory may not be very practical
 
 * [[Andreas Nuyts]], _Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance_, 2015, [PDF](https://anuyts.github.io/files/mathesis.pdf)
 
+* [[Thorsten Altenkirch]], [[Jacob Neumann]], _Synthetic 1-Categories in Directed Type Theory_ &lbrack;[arXiv:2410.19520](https://arxiv.org/abs/2410.19520)&rbrack;
+
+
 ### Cisinski et al.
  {#ReferencesCisinskiEtAl}
 
