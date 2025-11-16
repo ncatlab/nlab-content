@@ -119,7 +119,7 @@ Define a **Jordan pair with involution** to be a Jordan pair $(V^\pm, \{\cdot, \
 
 $$ Q_-(\alpha(v)) = \alpha \circ Q_+(v) \alpha $$
 
-for all $v \in V^+$.  
+for all $v \in V^+$, where $Q_\pm$ are the quadratic maps mentioned above.
 
 The category of [[Jordan triple systems]] is equivalent to the category of Jordan pairs with involution ([Loos75](#Loos75)).  In this equivalence, a Jordan pair with involution gives a Jordan triple system $(V, \{\cdot,\cdot,\cdot\})$ with $V = V^+$ and 
 
@@ -133,6 +133,19 @@ $$ \{u,v,w\}_- = \{u,v,w\}  \qquad for \; all \; u,w \in V^-, v \in V^- \, . $$
 
 This has an involution given by $\alpha = 1_V$.
 
+### Jordan pairs as Jordan triple systems with splitting
+
+Define a **Jordan triple system with splitting** to be a [[Jordan triple system]] $(V, \{\cdot, \cdot, \cdot\})$ together with a direct sum decomposition $V = V^+ \oplus V^-$ such that 
+
+$$ \{u,v,w\}_\pm \in V^\pm $$
+
+for all $u,w \in V^\pm, v \in V^\mp$ and 
+
+$$ \{u,v,w\}_\pm = 0 $$
+
+for all $u, v \in V^\pm$, $w \in V^\mp$, all $v, w \in V^\pm$, $u \in V^\mp$, and all $u, v, w \in V^\pm$.
+
+The category of Jordan pairs is equivalent to the category of Jordan triple systems with splitting ([Loos75](#Loos75)). 
 
 ## Related concepts
 
@@ -166,8 +179,7 @@ This has an involution given by $\alpha = 1_V$.
 
 * {#Loos77} [[Ottmar Loos]]: _Bounded Symmetric Domains and Jordan Pairs_, Lecture notes, University of California (1977)
 
-* {#McCrimmon78} Kevin McCrimmon: _Review: Ottmar Loos, Jordan pairs_, Bull. Amer. Math. Soc. **84** 4 (1978)  685-690.    
-&lbrack;[euclid](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-84/issue-4/Review-Ottmar-Loos-Jordan-pairs/bams/1183540942.full)&rbrack;
+* {McCrimmon78} Kevin McCrimmon, _Review: Ottmar Loos, Jordan pairs_, Bull. Amer. Math. Soc. 84(4) (July 1978), 685-690. &lbrack;[pdf](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-84/issue-4/Review-Ottmar-Loos-Jordan-pairs/bams/1183540942.full)&rbrack;
 
 [[!redirects Jordan pairs]]
 
