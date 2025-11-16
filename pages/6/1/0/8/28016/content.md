@@ -28,6 +28,8 @@ A **Jordan triple system** axiomatizes the properties of this triple product of 
 
 Later it was discovered that there are close relations between Jordan triple systems and [[Lie triple systems]]. Just as [[Lie triple systems]] naturally give $\mathbb{Z}/2$-graded [[Lie algebras]], Jordan triple systems naturally give a certain class of so-called **3-graded Lie algebras**, which are $\mathbb{Z}$-graded Lie algebras concentrated in degrees $-1,0$ and $1$.   And just as the tangent space of any point in a [[symmetric space]] is naturally a Lie triple system, the tangent space of any point in a [[hermitian]] symmetric space is naturally a Jordan triple system.
 
+Closely related to Jordan triple systems are [[quadratic Jordan algebras]] and [[Jordan pairs]].
+
 ## Definition
 
 A **Jordan triple system** is a vector space $V$ equipped with a trilinear map $\{\cdot, \cdots, \cdot \} \colon V \times V \times V \to V$ obeying two axioms:
@@ -45,7 +47,6 @@ $$
 $$
 
 Any subspace of an associative algebra closed under the operation $\{a,b,c\} = a b c + c b a$ obeys these axioms, and the first axiom captures the symmetry of this operation under switching the first and last arguments.  The second, subtler axiom implies that the operations $L_{a,b} \colon V \to V$ given by $L_{a,b}(c) = \{a,b,c\}$  form a Lie algebra under commutators.
-
 
 ## Jordan triple systems from Jordan algebras
 
@@ -111,10 +112,34 @@ $$
 This adjunction is not an [[equivalence of categories]], since the counit $F \circ U \Rightarrow Id$ is not a natural isomorphism.  But since $F$ is [[fully faithful]], the unit $Id \Rightarrow U \circ F$ is a natural isomorphism and $\mathbf{JTS}$ is a [[coreflective subcategory]] of $\mathbf{LA}_{3gr}^\varepsilon$.  Thus, 
 restricting the adjunction to suitable full subcategory of $\mathbf{LA}_{3-gr}^\varepsilon$ gives an [[equivalence of categories]].  This subcategory is that of 3-graded Lie algebras $\mathfrak{g}=\mathfrak{g}_{-1}\oplus\mathfrak{g}_0\oplus\mathfrak{g}_1$ with involution that are **centrally 0-closed** (meaning every central 0-extension of it splits uniquely) and **0-perfect** (meaning $\mathfrak{g}_0=[\mathfrak{g}_{-1},\mathfrak{g}_1]$) ([Caveny & Smirnov 11 Crl. 6.6](#CavenySmirnov11)).
 
+## Jordan triple systems from Jordan pairs
+
+There is a way to turn a Jordan triple system into a Jordan pair, and vice versa.  For detail see [[Jordan pair]].
+
 
 ## Related concepts
 
+* [[Jordan algebra]]
+
 * [[Lie triple system]]
+
+* [[Jordan-Lie-Banach algebra]]
+
+* [[JBW-algebra]], [[JBW-algebraic quantum mechanics]]
+
+* [[Kantor-Koecher-Tits construction]]
+
+* [[order-theoretic structure in quantum mechanics]]
+
+  * [[Alfsen-Shultz theorem]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
+
+* [[W-algebra]]
+
+* [[Jordan superalgebra]]
+
+* [[exceptional Jordan algebra]]/[[Albert algebra]]
 
 ## References
 
