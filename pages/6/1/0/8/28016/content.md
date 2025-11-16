@@ -114,12 +114,18 @@ restricting the adjunction to suitable full subcategory of $\mathbf{LA}_{3-gr}^\
 
 ## Jordan triple systems from Jordan pairs
 
-There is a way to turn a Jordan triple system into a Jordan pair, and vice versa.  For detail see [[Jordan pair]].
+There is a way to turn a Jordan triple system into a Jordan pair, and vice versa.  For details see [[Jordan pair]].
 
 
 ## Related concepts
 
 * [[Jordan algebra]]
+
+* [[Jordan pair]]
+
+* [[exceptional Jordan algebra]]/[[Albert algebra]]
+
+* [[Jordan superalgebra]]
 
 * [[Lie triple system]]
 
@@ -136,10 +142,6 @@ There is a way to turn a Jordan triple system into a Jordan pair, and vice versa
   * [[Harding-Döring-Hamhalter theorem]]
 
 * [[W-algebra]]
-
-* [[Jordan superalgebra]]
-
-* [[exceptional Jordan algebra]]/[[Albert algebra]]
 
 ## References
 
