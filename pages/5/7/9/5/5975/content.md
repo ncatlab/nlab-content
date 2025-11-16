@@ -26,7 +26,7 @@ Where
 
 so 
 
-* 2-categorical logic, or *2-logic* for short, as understood in this entry here, is (or should be, once developed) the [[categorification]] of this situation, namely the study of the [[internal logic]]/[[internal language|language]] of [[2-categories]] (understood in the generality including [[bicategories]], [[double categories]], etc.), and notably of 2-categories well-suited for this purpose, such as those one will want to call *elementary [[2-toposes]]*.
+* 2-categorical logic, or *2-logic* for short, as understood in this entry here, is (or should be, once developed) the [[categorification]] of this situation, namely the study of the [[internal logic]]/[[internal language|language]] of [[two-dimensional categories]] (understood in the generality including [[2-categories]], [[bicategories]], [[double categories]], [[virtual double categories]], etc.), and notably of two-dimensional categories well-suited for this purpose, such as those one will want to call *elementary [[2-toposes]]*.
 
 Therefore, the step from [[formal logic]]/[[categorical logic]] to formal 2-logic/2-categorical logic is analogous to the step from the former to [[homotopy type theory]], where one instead considers the [[internal language]] of [[(infinity,1)-categories|$(\infty,1)$-categories]]. 
 
@@ -66,12 +66,11 @@ For instance, for a suitable 2-dimensional [[sketch]]-like object its 2-category
 ## References
  {#References}
 
-The original idea of 2-logic in the sense of internal logic of 2-categories:
+An early explicit logic for a class of structured 2-categories (namely lax [[cartesian closed]] [[2-categores]]) may be found in:
 
-* {#Shulman2009} [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009)
-  > (also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi).
+* [[R. A. G. Seely]]. _Modelling Computations : a 2-categorical Framework_. LICS 1987. ([pdf](http://www.math.mcgill.ca/rags/WkAdj/LICS.pdf))
 
-Further remarks on [[geometric logic|geometric]] 2-logic:
+Remarks on [[geometric logic|geometric]] 2-logic:
 
 * {#BourkeGarner} [[John Bourke]], [[Richard Garner]], Remks. 42 & 47 in: *Two-dimensional regularity and exactness*, Journal of Pure and Applied Algebra, **218** 7 (2014) 1346–1371 &lbrack;[doi:10.1016/j.jpaa.2013.11.021](https://doi.org/10.1016/j.jpaa.2013.11.021), [arXiv:1304.5275](https://arxiv.org/abs/1304.5275)&rbrack;
 
@@ -166,5 +165,10 @@ On [[directed type theory]] and [[ends]] and [[coends]] as *directed* [[quantifi
 A treatment of [[doctrines]] in terms of [[double categories]]:
 
 * Michael Lambert, [[Evan Patterson]], *Cartesian double theories: A double-categorical framework for categorical doctrines* &lbrack;[arXiv:2310.05384](https://arxiv.org/abs/2310.05384)&rbrack;
+
+Notes on assorted topics related to 2-categorical logic:
+
+* {#Shulman2009} [[Mike Shulman]]: *[[michaelshulman:2-categorical logic]]* (Unfinished notes, 2009)
+  > (also includes exposition of other aspects of 2-logic, such as exactness and Grothendieck 2-topoi).
 
 [[!redirects 2-logic]]
