@@ -66,7 +66,7 @@ On the other hand, working directed higher type theory may not be very practical
 
 * [[directed univalence axiom]]
 
-* [[directed type theory]], [[2-type theory]]
+* [[directed type theory]], [[2-type theory]], [[2-logic]]
 
 * [[opetopic type theory]]
 
@@ -77,6 +77,7 @@ On the other hand, working directed higher type theory may not be very practical
 * [[modal homotopy type theory]]
 
 * [[fibered category theory]]
+
 
 ## References
 
