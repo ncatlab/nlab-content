@@ -97,6 +97,10 @@ On [[cosmic inflation]]:
 
 * Alberto Salvio: *Inflationary scenarios beyond the Standard Model* &lbrack;[arXiv:2501.08380](https://arxiv.org/abs/2501.08380)&rbrack;
 
+On [[baryon]] [[form factors]]:
+
+* Yong-Hui Lin, Hans-Werner Hammer, [[Ulf-G. Meißner]]: *Baryon Form Factors*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2412.12885](https://arxiv.org/abs/2412.12885)&rbrack;
+
 
 
 (...)
