@@ -7,4 +7,8 @@
 
 * [[Jacob Neumann]], *Paranatural Category Theory*, 2023, [arxiv:2307.09289](https://arxiv.org/abs/2307.09289)
 
+On [[directed homotopy type theory]]:
+
+* [[Thorsten Altenkirch]], [[Jacob Neumann]], _Synthetic 1-Categories in Directed Type Theory_ &lbrack;[arXiv:2410.19520](https://arxiv.org/abs/2410.19520)&rbrack;
+
 category:people
