@@ -22,7 +22,7 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 
 * {#Hilton53} [[Peter J. Hilton]], *An introduction to homotopy theory*, Cambridge University Press 1953 ([doi:10.1017/CBO9780511666278](https://doi.org/10.1017/CBO9780511666278))
 
-* {#SzeTsen59} [[Sze-Tsen Hu]], *Homotopy Theory*, Academic Press 1959 ([pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hu2.pdf))
+* {#SzeTsen59} [[Sze-Tsen Hu]], *Homotopy Theory*, Academic Press (1959) $[$[pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/hu2.pdf), [[STHu-HomotopyTheory.pdf:file]]\]
 
 * [[Robert E. Mosher]], [[Martin C. Tangora]], *Cohomology operations and applications in homotopy theory*, Harper & Row, 1968, reprinted by [Dover 2008](https://store.doverpublications.com/0486466647.html) [GoogleBooks](https://www.google.com/books/edition/Cohomology_Operations_and_Applications_i/wu79f-7V_6AC)
 
