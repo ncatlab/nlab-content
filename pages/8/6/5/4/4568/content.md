@@ -20,7 +20,7 @@ Given a small [[set]] $S$, an __$S$-sorted infinitary algebraic theory__ is a lo
 
 If $(\mathcal{D},\mathcal{R})$ is an $S$-sorted infinitary algebraic theory, then $\mathcal{D}$ is a many-sorted infinitary algebraic theory; conversely, any many-sorted infinitary algebraic theory may be interpreted as an $S$-sorted infinitary algebraic theory, where $S$ is (the set of isomoprhism classes of) an appropriate family $\mathcal{R}$ and the $S$-indexed family is given by the identity indexing.
 
-An __unsorted infinitary algebraic theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with an object $R$ (so that $(\mathcal{D},R)$ is a [[pointed category]]) such that every object is [[isomorphic]] to $R^n$ for some small cardinal number $n$.  An __infinitary algebraic theory__ is by default an unsorted infinitary algebraic theory, invoking the [[red herring principle]].  Note that an unsorted infinitary Lawvery theory is the same thing as a $1$-sorted infinitary algebraic theory.
+An __unsorted infinitary algebraic theory__ is a locally small category $\mathcal{D}$ with all small products and equipped with an object $R$ (so that $(\mathcal{D},R)$ is a [[pointed category]]) such that every object is [[isomorphic]] to $R^n$ for some small cardinal number $n$.  An __infinitary algebraic theory__ is by default an unsorted infinitary algebraic theory, invoking the [[red herring principle]].  Note that an unsorted infinitary Lawvere theory is the same thing as a $1$-sorted infinitary algebraic theory.
 
 We will give the definitions of further special cases for unsorted infinitary algebraic theories, but these definitions may also be generalised to the many-sorted case.
 
