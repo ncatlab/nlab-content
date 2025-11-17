@@ -490,7 +490,7 @@ $$ [L_a, L_b] = -[a , - , b] \, .$$
 
 ## Related concepts
 
-** [[quadratic Jordan algebra]]
+* [[quadratic Jordan algebra]]
 
 * [[Jordan triple system]]
 
