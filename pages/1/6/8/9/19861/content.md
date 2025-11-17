@@ -11,6 +11,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -46,10 +47,9 @@ There is a [[Chern character]] map from [[equivariant K-theory]] to [[equivarian
 
 * [[Steven Costenoble]], [[Stefan Waner]], _Equivariant ordinary homology and cohomology_, Springer, 2016 ([arXiv:math/0310237](https://arxiv.org/abs/math/0310237))
 
-* {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
+* {#Stefanich} [[Germán Stefanich]]: _Chern Character in Twisted and Equivariant K-Theory_ &lbrack;[pdf](https://math.berkeley.edu/~germans/Chern2.pdf), [[Stefanich-ChernCharacter.pdf:file]]&rbrack;
 
 ### As Bredon-equivariant cohomology theory
-
 
 Discussion over the point but in arbitrary [[RO(G)-degree]]:
 
