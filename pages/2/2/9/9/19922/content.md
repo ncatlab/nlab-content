@@ -20,9 +20,25 @@
 
 ## Idea 
 
-In [[proof theory]], **primitive recursive arithmetic**, or **PRA**, is a [[finitist mathematics|finitist]], [[quantifier]]-free formalization of the [[natural numbers]].
+In [[proof theory]], **primitive recursive arithmetic**, or **PRA**, is a [[finitist mathematics|finitist]], [[quantifier]]-free (or more precisely a [[free variable theory]]) of the [[natural numbers]].
 
-**PRA** can express arithmetic propositions involving natural numbers and any [[primitive recursive function]], including the operations of addition, multiplication, and exponentiation. 
+**PRA** can express arithmetic propositions involving natural numbers and any [[primitive recursive function]], including the operations of addition, multiplication, and exponentiation.
+
+## Uniqueness Rule
+
+A uniqueness rule replaces the [[induction]] axiom of [[first-order theory|first-order]] arithmetic theories (such as [[Peano arithmetic]]).
+
+$$
+  \frac{
+    F(0) = G(0)
+	\qquad F(S(x)) = H(x, F(x))
+	\qquad G(S(x)) = H(x, G(x))
+  }{
+    F(x) = G(x)
+  }
+$$
+
+where $x$ is a [[variable]] (meaning that $F(x) = G(x)$ is an [[open formula]]).
 
 ## As a Skolem theory 
 
@@ -34,6 +50,7 @@ Abstractly, PRA can be described as the initial Skolem theory. Precise statement
 
 * [[ordinal analysis]]
 * [[finite mathematics]]
+* [[elementary recursive arithmetic]]
 
 ## References
 
