@@ -1,11 +1,18 @@
 
-Kellogg Stelle (1948-2025) was a professor of theoretical [[physics]] at Imperial College London.
+Kellogg S. Stelle (1948-2025) was a professor of [[theoretical physics]] at Imperial College London, focusing on [[string theory]].
 
-* [webpage](http://www.imperial.ac.uk/people/k.stelle/)
+* [institute page](https://web.archive.org/web/20240416181343/http://www.imperial.ac.uk/people/k.stelle/) (archived)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=163300)
+
+* [obituary](https://www.online-tribute.com/KellyStelle)
+
+* [inSpire page](https://inspirehep.net/authors/987588)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=kjyf--gAAAAJ&hl=en)
 
 * [ResearchGate page](https://www.researchgate.net/profile/Kellogg-Stelle)
 
-* [obituary](https://www.online-tribute.com/KellyStelle)
 
 ## Selected writings
 
