@@ -205,6 +205,20 @@ The case of [[Rozansky-Witten theory]]:
 
 * [[Germán Stefanich]]: *Categorification of sheaf theory* &lbrack;[arXiv:2511.09553](https://arxiv.org/abs/2511.09553)&rbrack;
 
+For *geometric* (non-topological) extended field theory:
+
+* {#GradyPavlov20} [[Daniel Grady]], [[Dmitri Pavlov]], *Extended field theories are local and have classifying spaces* &lbrack;[arXiv:2011.01208](https://arxiv.org/abs/2011.01208)&rbrack;
+
+
+* {#GradyPavlov21} [[Daniel Grady]], [[Dmitri Pavlov]], *The geometric cobordism hypothesis* &lbrack;[arXiv:2111.01095](https://arxiv.org/abs/2111.01095)&rbrack;
+
+Review:
+
+* [[Dmitri Pavlov]], *The geometric cobordism hypothesis*, talk at *[QFT and Cobordism](https://nyuad.nyu.edu/en/events/2023/march/quantum-field-theories-and-cobordisms.html)*, [[CQTS]] (Mar 2023) &lbrack;[pdf](https://dmitripavlov.org/nyuad.pdf), [[Pavlov-GCHatCQTS.pdf:file]], [web](Center+for+Quantum+and+Topological+Systems#PavlovMar2023), video: [YT](https://www.youtube.com/watch?v=n6Eog_z82eA)&rbrack;
+
+* Alexander Zahrer: *Smooth Functorial Field Theory and the Geometric Cobordism Hypothesis*, MSc thesis, Vienna (2023) &lbrack;[utheses:67464](https://utheses.univie.ac.at/detail/67464#), <a href="https://alexanderzahrer.github.io/maths/Notes_GCH%20(1).pdf">pdf</a>&rbrack;
+
+
 
 
 [[!include D=6 N=(2,0) SCFT as an extended functorial field theory -- references]]
