@@ -13,7 +13,10 @@ Kellogg S. Stelle (1948-2025) was a professor of [[theoretical physics]] at Impe
 
 * [ResearchGate page](https://www.researchgate.net/profile/Kellogg-Stelle)
 
-In 1977 he created the theory of [[quadratic gravity]] which he acknowledged as having seemingly insurmountable problems but is experiencing a recent surge in popularity.
+In 1977 for his thesis he created the theory of [[quadratic gravity]] which he acknowledged as having seemingly insurmountable problems but is experiencing a recent surge in popularity.
+
+* [[Kellogg Stelle]], *Renormalization of Higher Derivative Quantum Gravity*,   Phys. Rev. D, **16** (1977) 953, &lbrack;<a href="https://doi.org/10.1103/PhysRevD.16.953">doi:10.1103/PhysRevD.16.953</a>&rbrack;
+
 
 * Quanta Magazine, 2025, [Old ‘Ghost’ Theory of Quantum Gravity Makes a Comeback](https://www.quantamagazine.org/old-ghost-theory-of-quantum-gravity-makes-a-comeback-20251117/)
 
