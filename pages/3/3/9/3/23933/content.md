@@ -1,5 +1,5 @@
 
-* [personal page](https://www.math.arizona.edu/~kirti/)
+* [personal page](https://sites.arizona.edu/kirti-joshi/)
 
 * [MathematicsGenealogy page](https://www.mathgenealogy.org/id.php?id=170515)
 
@@ -18,11 +18,11 @@ On [[p-adic Teichmüller theory]]:
 
 * [[Kirti Joshi]], *Comments on Arithmetic Teichmüller Spaces* ([arXiv:2111.06771](https://arxiv.org/abs/2111.06771))
 
-* [[Kirti Joshi]], *Mochizuki's Corollary 3.12 and my quest for its proof* &lbrack;<a href='https://www.math.arizona.edu/~kirti/joshi-teich-quest.pdf'>pdf</a>&rbrack;
+* [[Kirti Joshi]], *Mochizuki's Corollary 3.12 and my quest for its proof* &lbrack;<a href='https://sites.arizona.edu/kirti-joshi/files/2025/11/joshi-teich-quest.pdf'>pdf</a>&rbrack;
 
-* [[Kirti Joshi]], *The status of the Scholze-Stix Report and an analysis of the Mochizuki-Scholze-Stix Controversy* ([pdf] (https://www.math.arizona.edu/~kirti/report-on-scholze-stix-mochizuki-controversy.pdf))
+* [[Kirti Joshi]], *The status of the Scholze-Stix Report and an analysis of the Mochizuki-Scholze-Stix Controversy* ([pdf] (https://sites.arizona.edu/kirti-joshi/files/2025/11/report-on-scholze-stix-mochizuki-controversy.pdf))
 
-* [[Kirti Joshi]], *Final report on the Mochizuki-Scholze-Stix Controversy* ([pdf] (https://math.arizona.edu/~kirti/Final-Mochizuki-Scholze-Stix-Controversy.pdf))
+* [[Kirti Joshi]], *Final report on the Mochizuki-Scholze-Stix Controversy* ([pdf] (https://arxiv.org/pdf/2505.10568))
 
 * [[Kirti Joshi]], *(Older-Version) Construction of Arithmetic Teichmuller spaces II: Towards Diophantine Estimates* ([arXiv:2111.04890](https://arxiv.org/abs/2111.04890))
 
@@ -37,6 +37,8 @@ Claim of proof of statements similar to [[Mochizuki's corollary 3.12]]:
 Claim of proof of the [[abc conjecture]]:
 
 * [[Kirti Joshi]], *Construction of Arithmetic Teichmuller Spaces IV: Proof of the abc-conjecture* ([arXiv:2403.10430](https://arxiv.org/abs/2403.10430))
+
+* [[Kirti Joshi]], *Frequently Asked Questions (FAQ) about the proof of the abc-Conjecture* ([pdf] (https://sites.arizona.edu/kirti-joshi/files/2025/11/joshi-mochizuki-FAQ.pdf))
 
 On [[anabelian geometry]]:
 
