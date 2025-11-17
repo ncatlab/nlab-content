@@ -503,9 +503,9 @@ Vol. 347, No. 1 (Jan., 1995), pp. 77-98 ([jstor:2154789](https://www.jstor.org/s
 
 
 
-The [[equivariant Chern character]] is discussed in 
+Discussion of the [[equivariant Chern character]] from equivariant K-theory to [[equivariant ordinary cohomology]]:
 
-* {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
+* {#Stefanich} [[Germán Stefanich]]: _Chern Character in Twisted and Equivariant K-Theory_ &lbrack;[pdf](https://math.berkeley.edu/~germans/Chern2.pdf), [[Stefanich-ChernCharacter.pdf:file]]&rbrack;
 
 
 Discussion relating to K-theory of [[homotopy quotients]]/[[Borel constructions]] is in 
