@@ -268,5 +268,6 @@ An approach via the universality of certain $(\infty, 2)$-categories of [[higher
 [[!redirects motivic yoga]]
 
 [[!redirects six functor formalism]]
+[[!redirects six functor formalisms]]
 
 
