@@ -160,25 +160,11 @@ The category of Jordan pairs is equivalent to the category of polarized Jordan t
 
 * [[Jordan algebra]]
 
+* [[quadratic Jordan algebra]]
+
 * [[Jordan triple system]]
 
-* [[Jordan superalgebra]]
-
 * [[exceptional Jordan algebra]]/[[Albert algebra]]
-
-* [[Jordan-Lie-Banach algebra]]
-
-* [[JBW-algebra]], [[JBW-algebraic quantum mechanics]]
-
-* [[W-algebra]]
-
-* [[Kantor-Koecher-Tits construction]]
-
-* [[order-theoretic structure in quantum mechanics]]
-
-  * [[Alfsen-Shultz theorem]]
-
-  * [[Harding-Döring-Hamhalter theorem]]
 
 ## References
 
