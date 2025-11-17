@@ -525,26 +525,39 @@ The category of [[D-module]]s on a [[space]] $X$ is equivalently that of quasico
 
 ## References
 
-Quasicoherent sheaves in [[E-∞ geometry]] (on "[[Spectral Schemes]]" over [[E-∞ rings]]) are discussed in 
+### General
 
-* [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
- {#LurieQC}
+See also: 
 
-Their [[descent]] properties are discussed in
+* Wikipedia: *[Coherent sheaf](https://en.wikipedia.org/wiki/Coherent_sheaf)*
+
+On quasicoherent sheaves over [[geometric stacks]]:
+
+* Leovigildo Alonso Tarrío, Ana Jeremías López, Marta Pérez Rodríguez, María J. Vale Gonsalves: _A functorial formalism for quasi-coherent sheaves on a geometric stack_, Expositiones Mathematicae __33__ 4 (2015) 452-501 &lbrack;[doi:10.1016/j.exmath.2014.12.007](https://doi.org/10.1016/j.exmath.2014.12.007)&rbrack;
+
+Application to [[BV-formalism]]:
+
+* [[Luigi Alfonsi]], [[Charles A. S. Young]], Section 3 in: *Towards non-perturbative BV-theory via derived differential geometry* (2023) &lbrack;[arXiv:2307.15106](https://arxiv.org/abs/2307.15106)&rbrack;
+
+
+### Higher quasicoherent sheaves
+
+On quasicoherent sheaves in [[E-∞ geometry]] (on "[[Spectral Schemes]]" over [[E-∞ rings]]):
+
+* {#LurieQC} [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
+ 
+
+Their [[descent]] properties:
 
 * [[Jacob Lurie]], _[[Descent Theorems]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
 
-and a [[Grothendieck existence theorem]] for [[coherent sheaves]] in this higher context is discussed in 
+and a [[Grothendieck existence theorem]] for [[coherent sheaves]] in this higher context:
 
 * [[Jacob Lurie]], _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf))
 
-On a geometric stack
+On quasicoherent sheaves of [[locally presentable (infinity,n)-category|locally presentable $(\infty,n)$-categories]]:
 
-* Leovigildo Alonso Tarrío, Ana Jeremías López, Marta Pérez Rodríguez, María J. Vale Gonsalves, _A functorial formalism for quasi-coherent sheaves on a geometric stack_, Expositiones Mathematicae __33__:4 (2015) 452-501 [doi](https://doi.org/10.1016/j.exmath.2014.12.007)
-
-See also
-
-* Section 3 in. [[Luigi Alfonsi]], [[Charles A. S. Young]]. *Towards non-perturbative BV-theory via derived differential geometry* (2023). ([arXiv:2307.15106](https://arxiv.org/abs/2307.15106)). 
+* [[Germán Stefanich]]: *Higher Quasicoherent Sheaves*, PhD thesis, UC Berkeley (2021) &lbrack;[escholarship:19h1f1tv](https://escholarship.org/uc/item/19h1f1tv), [pdf](https://web.ma.utexas.edu/users/gs29722/Thesis.pdf)&rbrack;
 
 
 
