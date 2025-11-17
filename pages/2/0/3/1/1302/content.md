@@ -542,18 +542,20 @@ Application to [[BV-formalism]]:
 
 ### Higher quasicoherent sheaves
 
+On higher ([[categorification|categorified]]) notions of quasicoherent sheaves:
+
 On quasicoherent sheaves in [[E-∞ geometry]] (on "[[Spectral Schemes]]" over [[E-∞ rings]]):
 
 * {#LurieQC} [[Jacob Lurie]], _[[Quasi-Coherent Sheaves and Tannaka Duality Theorems]]_
  
-
-Their [[descent]] properties:
+on [[descent]] properties:
 
 * [[Jacob Lurie]], _[[Descent Theorems]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XI.pdf))
 
 and a [[Grothendieck existence theorem]] for [[coherent sheaves]] in this higher context:
 
 * [[Jacob Lurie]], _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf))
+
 
 On quasicoherent sheaves of [[locally presentable (infinity,n)-category|locally presentable $(\infty,n)$-categories]]:
 
