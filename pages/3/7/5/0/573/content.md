@@ -1077,6 +1077,8 @@ and extra [[properties]] that it may enjoy.
 
   * [[symmetric monoidal (∞,n)-category]]
 
+  * [[locally presentable (∞,n)-category]]
+
 * [[(n,r)-category]]
 
 * [[(∞,n)-sheaf]], [[(∞,n)-topos]]
