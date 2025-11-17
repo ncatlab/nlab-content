@@ -14,8 +14,6 @@
 =--
 
 
-
-# $Ab$-enriched categories
 * tic
 {: toc}
 
