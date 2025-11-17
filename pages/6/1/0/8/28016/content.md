@@ -28,7 +28,11 @@ $$
   \,.
 $$
 
-A **Jordan triple system** axiomatizes the properties of this triple product of self-adjoint complex matrices.  
+From this triple product we can easily recover the original Jordan product in the presence of a unit, at least if we can divide by 2:
+
+$$ \frac{1}{2} \{a,b,1\} = \frac{1}{2}(a b + b a) = a \circ b \, . $$
+
+A **Jordan triple system** axiomatizes the properties of this triple product of self-adjoint complex matrices. 
 
 Later it was discovered that there are close relations between Jordan triple systems and [[Lie triple systems]]. Just as [[Lie triple systems]] naturally give $\mathbb{Z}/2$-graded [[Lie algebras]], Jordan triple systems naturally give a certain class of so-called **3-graded Lie algebras**, which are $\mathbb{Z}$-graded Lie algebras concentrated in degrees $-1,0$ and $1$.   And just as the tangent space of any point in a [[symmetric space]] is naturally a Lie triple system, the tangent space of any point in a [[hermitian]] symmetric space is naturally a Jordan triple system.
 
@@ -66,7 +70,12 @@ $$
 
 There are however other Jordan triple systems.  For example, let $M(m,n)$ be the space of $m \times n$ matrices with entries in a field, and given $a \in M(m,n)$ let $a^T \in M(n,m)$ be its transpose.  We can make $M(m,n)$ into a Jordan triple system by defining
 
-$$ \{a,b,c\} = a b^t c - c b^t a .$$
+$$ \{a,b,c\} = a b^t c - c b^t a $$
+
+or in the case of matrices over $\mathbb{C}$ or any other [[star-ring]]
+
+$$ \{a,b,c\} = a b^\ast c - c b^\ast a \, . $$
+
 
 ## Lie triple systems from Jordan triple systems
 
@@ -105,7 +114,7 @@ $$
   \,,
 $$
 
-for $L,M \in \mathfrak{g}_0, u,v \in \mathfrak{g}_1$. ([Caveny & Smirnov 11 Thrm. 5.3](#CavenySmirnov11))
+for $L,M \in \mathfrak{g}_0, u,v \in \mathfrak{g}_1$. ([Caveny & Smirnov 11 Thm. 5.3](#CavenySmirnov11))
 
 Let $\mathbf{LA}_{3gr}^\varepsilon$ be the category of 3-graded Lie algebras with an anti-graded involution and let $\mathbf{JTS}$ the category of Jordan triple systems. The first construction (with $V=\mathfrak{g}_1$) gives a [[forgetful functor]] $U\colon\mathbf{LA}_{3gr}^\varepsilon\rightarrow\mathbf{JTS}$, while the second gives a [[fully faithful functor]] $F\colon\mathbf{JTS} \rightarrow\mathbf{LA}_{3gr}^\varepsilon$.  There is an [[adjunction]]:
 $$
@@ -113,12 +122,11 @@ $$
 $$
 ([Caveny & Smirnov 2011 6.1](#CavenySmirnov11)).
 
-This adjunction is not an [[equivalence of categories]], since the counit $F \circ U \Rightarrow Id$ is not a natural isomorphism.  But since $F$ is [[fully faithful]], the unit $Id \Rightarrow U \circ F$ is a natural isomorphism and $\mathbf{JTS}$ is a [[coreflective subcategory]] of $\mathbf{LA}_{3gr}^\varepsilon$.  Thus, 
-restricting the adjunction to suitable full subcategory of $\mathbf{LA}_{3-gr}^\varepsilon$ gives an [[equivalence of categories]].  This subcategory is that of 3-graded Lie algebras $\mathfrak{g}=\mathfrak{g}_{-1}\oplus\mathfrak{g}_0\oplus\mathfrak{g}_1$ with involution that are **centrally 0-closed** (meaning every central 0-extension of it splits uniquely) and **0-perfect** (meaning $\mathfrak{g}_0=[\mathfrak{g}_{-1},\mathfrak{g}_1]$) ([Caveny & Smirnov 11 Crl. 6.6](#CavenySmirnov11)).
+This adjunction is not an [[equivalence of categories]], since the counit $F \circ U \Rightarrow Id$ is not a natural isomorphism.  But since $F$ is [[fully faithful]], the unit $Id \Rightarrow U \circ F$ is a natural isomorphism and $\mathbf{JTS}$ is a [[coreflective subcategory]] of $\mathbf{LA}_{3gr}^\varepsilon$.  Thus, restricting the adjunction to suitable full subcategory of $\mathbf{LA}_{3gr}^\varepsilon$ gives an [[equivalence of categories]].  This subcategory is that of 3-graded Lie algebras $\mathfrak{g}=\mathfrak{g}_{-1}\oplus\mathfrak{g}_0\oplus\mathfrak{g}_1$ with involution that are **centrally 0-closed** (meaning every central 0-extension of it splits uniquely) and **0-perfect** (meaning $\mathfrak{g}_0=[\mathfrak{g}_{-1},\mathfrak{g}_1]$) ([Caveny & Smirnov 11 Crl. 6.6](#CavenySmirnov11)).
 
-## Jordan triple systems from Jordan pairs
+## Relation to Jordan pairs
 
-There is a way to turn a Jordan triple system into a Jordan pair, and vice versa.  For details see [[Jordan pair]].
+There is a way to turn a Jordan triple system into a Jordan pair, and vice versa. For details see [[Jordan pair]].
 
 
 ## Related concepts
@@ -135,7 +143,7 @@ There is a way to turn a Jordan triple system into a Jordan pair, and vice versa
 
 * [[Jordan-Lie-Banach algebra]]
 
-* [[JBW-algebra]], [[JBW-algebraic quantum mechanics]]
+* [[Jordan-Banach algebra]], [[JBW-algebraic quantum mechanics]]
 
 * [[Kantor-Koecher-Tits construction]]
 
