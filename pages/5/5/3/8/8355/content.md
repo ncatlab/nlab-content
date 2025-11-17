@@ -51,8 +51,8 @@ For example, in order to prove in EFA that addition is [[commutative]], one can 
 
 ## Related concepts
 
+* [[elementary recursive arithmetic]]
 * [[Peano arithmetic]]
-
 * [[second-order arithmetic]]
 
 
