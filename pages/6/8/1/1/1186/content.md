@@ -356,9 +356,12 @@ For $C$ an $(\infty,1)$-category with finite [[products]], the $(\infty,1)$-cate
 
 * [[Ho(CombModCat)]]
 
-[[!include locally presentable categories - table]]
+* [[locally presentable category]], [[locally presentable (infinity,n)-category|locally presentable $(\infty,n)$-category]]
 
 * [[compactly generated (infinity,1)-category]]
+
+[[!include locally presentable categories - table]]
+
 
 ## References 
 
@@ -393,6 +396,12 @@ On factorication of functors between presentable $\infty$-categories as [[corefl
 Discussion [[category internal to an (infinity,1)-topos|internal to]] any [[(∞,1)-topos]]:
 
 * [[Louis Martini]], [[Sebastian Wolf]], *Presentable categories internal to an ∞-topos* &lbrack;[arXiv:2209.05103](https://arxiv.org/abs/2209.05103)&rbrack;
+
+Generalization to [[locally presentable (infinity,n)-category|locally presentable $(\infty,n)$-categories]]:
+
+* [[Germán Stefanich]]: *Presentable $(\infty,n)$-categories* &lbrack;[arXiv:2011.03035](https://arxiv.org/abs/2011.03035)&rbrack;
+
+* Ko Aoki: *Higher presentable categories and limits* &lbrack;[arXiv:2510.13503](https://arxiv.org/abs/2510.13503)&rbrack;
 
 
 
