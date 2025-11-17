@@ -29,9 +29,9 @@ $$
 
 makes $(A, \circ)$ a Jordan algebra. It is this relation that originally motivated the notion in discussion of [[quantum mechanics]], for the symmetrized product and hence the Jordan algebra structure of the [[algebra of observables]] of a [[quantum mechanics|quantum mechanical]] system is what remains when one ignores the otherwise all-important [[commutators]] and hence the [[Hamiltonian]] flows on observables.
 
-But later Jordan algebras have been studied largely for their own sake. 
+Later Jordan algebras were also studied for pure mathematical reasons, including their connection to self-dual convex homogeneous cones, hermitian symmetric spaces, 3-graded Lie algebras and the exceptional Lie algebras $\mathfrak{f}_4, \mathfrak{e}_6$, and $\mathfrak{e}_7$.  In the process the Jordan algebra concept was generalized slightly to define [[quadratic Jordan algebras]], [[Jordan triple systems]] and [[Jordan pairs]].
 
-More recently, the [[Bohr topos]] associated to a noncommutative [[algebra of observables]] was found to really see the underlying Jordan algebra structure. See at _[[Bohr topos]]_ and _[[poset of commutative subalgebras]]_ for more on this.
+More recently, the [[Bohr topos]] associated to a noncommutative [[algebra of observables]] was found to depend on the underlying Jordan algebra structure. See at _[[Bohr topos]]_ and _[[poset of commutative subalgebras]]_ for more on this.
 
 
 ## Definition
@@ -167,8 +167,6 @@ So, in a formally real Jordan algebra we can reasonably talk about one observabl
 In fact the Jordan identity $(x \circ y) \circ (x \circ x) = x \circ (y \circ (x \circ x)) $ is a _consequence_ of the above definition of formally real Jordan algebra.  So, every formally real Jordan algebra is a Jordan algebra (but not conversely).
 
 For more on this see also at _[order-theoretic structure in quantum mechanics -- Relation to non-commutative geometry](order-theoretic+structure+in+quantum+mechanics#RelationToTheNonCommutativePhaseSpace)_.
-
-
 
 ### Relation to self-dual homogeneous convex cones
 
@@ -492,9 +490,19 @@ $$ [L_a, L_b] = -[a , - , b] \, .$$
 
 ## Related concepts
 
+** [[quadratic Jordan algebra]]
+
+* [[Jordan triple system]]
+
+* [[Jordan pair]]
+
+* [[Jordan superalgebra]]
+
+* [[exceptional Jordan algebra]]/[[Albert algebra]]
+
 * [[Jordan-Lie-Banach algebra]]
 
-* [[JBW-algebra]], [[JBW-algebraic quantum mechanics]]
+* [[JB-algebra]], [[JBW-algebraic quantum mechanics]]
 
 * [[Kantor-Koecher-Tits construction]]
 
@@ -506,13 +514,7 @@ $$ [L_a, L_b] = -[a , - , b] \, .$$
 
 * [[W-algebra]]
 
-* [[Jordan superalgebra]]
 
-* [[exceptional Jordan algebra]]/[[Albert algebra]]
-
-* [[Jordan triple system]]
-
-* [[Jordan pair]]
 
 
 ## References
