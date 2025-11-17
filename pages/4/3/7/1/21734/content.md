@@ -71,11 +71,11 @@ The equivariant Chern character has a variety of different but equivalent concre
 
 * Pierre Albin, [[Richard Melrose]], _Delocalized equivariant cohomology and resolution_ ([arXiv:1012.5766](https://arxiv.org/abs/1012.5766))
 
-Review in:
+Review:
 
 * [[Ulrich Bunke]], Section 3.1 in: _Orbifold index and equivariant K-homology_, Math. Ann. 339, 175–194 (2007) ([arXiv:math/0701768](https://arxiv.org/abs/math/0701768), [doi:10.1007/s00208-007-0111-5](https://doi.org/10.1007/s00208-007-0111-5))
 
 
-* {#Stefanich} German Stefanich, _Chern Character in Twisted and Equivariant K-Theory_ ([pdf](https://math.berkeley.edu/~germans/Chern2.pdf))
+* {#Stefanich} [[Germán Stefanich]]: _Chern Character in Twisted and Equivariant K-Theory_ &lbrack;[pdf](https://math.berkeley.edu/~germans/Chern2.pdf), [[Stefanich-ChernCharacter.pdf:file]]&rbrack;
 
 
