@@ -133,27 +133,13 @@ There is a way to turn a Jordan triple system into a Jordan pair, and vice versa
 
 * [[Jordan algebra]]
 
+* [[quadratic Jordan algebra]]
+
 * [[Jordan pair]]
 
 * [[exceptional Jordan algebra]]/[[Albert algebra]]
 
-* [[Jordan superalgebra]]
-
 * [[Lie triple system]]
-
-* [[Jordan-Lie-Banach algebra]]
-
-* [[Jordan-Banach algebra]], [[JBW-algebraic quantum mechanics]]
-
-* [[Kantor-Koecher-Tits construction]]
-
-* [[order-theoretic structure in quantum mechanics]]
-
-  * [[Alfsen-Shultz theorem]]
-
-  * [[Harding-Döring-Hamhalter theorem]]
-
-* [[W-algebra]]
 
 ## References
 
