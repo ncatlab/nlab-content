@@ -93,7 +93,7 @@ The localization of an Ore integral monoid $M$ at $\mathrm{Reg}(M)$ is a [[divis
 
 ### Actions and modules
 
-Given an absorption monoid $M$, an left $M$-action on a pointed set $(P, 0)$ is an ternary function $\alpha_L:M \times P \to P$ such that: 
+Given an absorption monoid $M$, an left $M$-action on a pointed set $(P, 0)$ is a binary function $\alpha_L:M \times P \to P$ such that: 
 
 * for all elements $p \in P$, $\alpha_L(1, p) = p$
 * for all elements $a \in M$, $b \in M$, and $c \in P$, $\alpha_L(a, \alpha_L(b, c)) = \alpha_L(a \cdot b, c)$
