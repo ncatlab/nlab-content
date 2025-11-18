@@ -109,6 +109,11 @@ On a version of BF-theory in [[arithmetic]] related to non-[[orientation|orienta
 
 * [[Magnus Carlson]], [[Minhyong Kim]], _A note on abelian arithmetic BF-theory_, ([arXiv:1911.02236](https://arxiv.org/abs/1911.02236))
 
+Via [[BV-formalism]]:
+
+* [[Alberto S. Cattaneo]]: *Surface Observables, 2-Knot Invariants, and Nonabelian Electric Fluxes* &lbrack;[arXiv:2511.13623](https://arxiv.org/abs/2511.13623)&rbrack;
+
+
 ### BFCG theory
  {#ReferencesBFCGTheory}
 
