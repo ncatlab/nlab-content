@@ -53,7 +53,7 @@ A list of (believed to be) open problems in [[homotopy type theory]].  To add mo
 
 * Calculate more [[homotopy groups of spheres]].
 
-* Show that the [[homotopy groups of spheres]] are all finitely generated, and are finite with the same exceptions as classically.
+* Show that the [[homotopy groups of spheres]] are all finitely generated, and are finite with the same exceptions as classically. [Barton](https://ncatlab.org/nlab/show/Reid+William+Barton) and [Campion](https://ncatlab.org/nlab/show/Tim+Campion) have proved the first part of this, and the result has been [formalized in Cubical Agda](https://hottest-seminar.github.io/hottestfiles/Ljungstrom-2025-10-23-HoTTEST.pdf) by Barton, [Ljungström](https://ncatlab.org/nlab/show/Axel+Ljungstr%C3%B6m), [Milner](https://www.cmu.edu/dietrich/philosophy/people/phd/owen-milner.html), [Mörtberg](https://ncatlab.org/nlab/show/Anders+M%C3%B6rtberg), and [Pujet](https://ncatlab.org/nlab/show/Lo%C3%AFc+Pujet).
 
     * The classical proof requires Hurewicz, and now that spectral sequences are around should be possible.
 
