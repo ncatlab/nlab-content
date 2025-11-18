@@ -301,26 +301,27 @@ This appears as ([Lurie, claim 3.2.4](#Lurie)).
 
 * [[sheaf with transfer]], [[Mackey functor]]
 
+
 ## References
 
 For references on 1- and 2-categories of spans see at _[[correspondences]]_.
 
 An explicit definition of the [[(∞,2)-category]] of spans in [[∞Grpd]] is in section 10 of 
 
-* {#DyckerhoffKapranov12} Tobias Dyckerhoff, [[Mikhail Kapranov]], _Higher Segal spaces I_, ([arxiv:1212.3563](http://arxiv.org/abs/1212.3563))
+* {#DyckerhoffKapranov12} [[Tobias Dyckerhoff]], [[Mikhail Kapranov]]: _Higher Segal spaces I_, &lbrack;[arxiv:1212.3563](http://arxiv.org/abs/1212.3563)&rbrack;
  
 
 
 An inductive definition of the [[symmetric monoidal (∞,n)-category]] $Span_n(\infty Grpd)/C$ of spans of [[∞-groupoid]] over a symmetric monoidal $(\infty,n)$-category $C$ is sketched in section 3.2 of 
 
-* {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
+* {#Lurie} [[Jacob Lurie]]: _[[On the Classification of Topological Field Theories]]_
  
 
 there denoted $Fam_n(C)$. Notice the heuristic discussion on page 59.
 
 More detailed discussion is given in
 
-* {#Haugseng14} [[Rune Haugseng]], _Iterated spans and "classical" topological field theories_ ([arXiv:1409.0837](http://arxiv.org/abs/1409.0837))
+* {#Haugseng14} [[Rune Haugseng]]: _Iterated spans and "classical" topological field theories_ ([arXiv:1409.0837](http://arxiv.org/abs/1409.0837))
 
 * [[Yonatan Harpaz]], _Ambidexterity and the universality of finite spans_ ([arXiv:1703.09764](https://arxiv.org/abs/1703.09764))
 
@@ -334,7 +335,6 @@ The extension to the case when the ambient $\infty$-topos is varied is in
 
 
 
-
 The application of $Span_n(\infty Grpd/C)$ to the construction of [[FQFT]]s is further discussed in section 3 of 
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_
@@ -343,6 +343,10 @@ Discussion of $Span_n(\mathbf{H}) \simeq Alg_{E_n}(\mathbf{H}^{op})$ is around r
 
 * {#BenZviNadler13} [[David Ben-Zvi]], [[David Nadler]], _Nonlinear traces_ ([arXiv:1305.7175](http://arxiv.org/abs/1305.7175))
  
+Further discussion:
+
+* [[Germán Stefanich]]: *Higher sheaf theory I: Correspondences* &lbrack;[arXiv:2011.03027](https://arxiv.org/abs/2011.03027)&rbrack;
+
 
 
 A discussion of a version $Span(B)$for $B$ a [[2-category]] with $Span(B)$ regarded as a [[tricategory]] and then as a 1-object [[tetracategory]] is in
