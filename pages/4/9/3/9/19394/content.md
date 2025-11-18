@@ -138,6 +138,8 @@ See also:
 
 * Sung-Soo Kim, Yuji Sugimoto, Futoshi Yagi, _Surface defects on E-string from 5-brane webs_, JHEP 12(2020) 183 ([arXiv:2008.06428](https://arxiv.org/abs/2008.06428))
 
+* [[Du Pei]], David H. Wu: *E-Strings and Four-Manifolds* &lbrack;[arXiv:2511.11807](https://arxiv.org/abs/2511.11807)&rbrack;
+
 
 ### In F-theory
 
