@@ -26,5 +26,11 @@ On the [[M5-brane elliptic genus]] and [[topological modular forms]]:
 
 * [[Sergei Gukov]], Vyacheslav Krushkal, [[Lennart Meier]], [[Du Pei]]: *A new approach to $(3+1)$-dimensional TQFTs via topological modular forms* &lbrack;[arXiv:2509.12402](https://arxiv.org/abs/2509.12402)&rbrack;
 
+On [[E-strings]] and [[4-manifolds]]:
+
+* [[Du Pei]], David H. Wu: *E-Strings and Four-Manifolds* &lbrack;[arXiv:2511.11807](https://arxiv.org/abs/2511.11807)&rbrack;
+
+
+
 
 category: people
