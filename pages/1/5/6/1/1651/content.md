@@ -70,7 +70,7 @@ $U$ is connected. Hence we have a [[proof by contradiction]].
 
 For $n \in \mathbb{N}$ then [[Euclidean space]] $\mathbb{R}^n$ (with its [[metric topology]]) is locally path-connected, since each [[open ball]] is [[path-connected topological space]].
 
-Similarly the [[open intevals]], [[closed intervals]] and [[half-open intervals]], regarded as [[topological subspaces]] of the [[Euclidean space|Euclidean]] [[real line]], are locally path connected.
+Similarly the [[open intervals]], [[closed intervals]] and [[half-open intervals]], regarded as [[topological subspaces]] of the [[Euclidean space|Euclidean]] [[real line]], are locally path connected.
 
 =--
 
