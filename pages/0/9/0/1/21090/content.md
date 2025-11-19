@@ -62,7 +62,7 @@ over arrow/.style={-, black, preaction={draw=white, double}},%
         \node [style=morphism] (4) at (0, 0) {$f$};
 \end{tikzpicture}
 
-Notice that, across the literature, convention vary (for example, also left-to-right is used.)
+Notice that, across the literature, conventions vary (for example, also left-to-right is used.)
 When domain and codomain are clear, we will omit them:
 
 \begin{tikzpicture}[%
@@ -1994,7 +1994,7 @@ The map $samp$ can be thought of as being the *universal* random map, in the sen
 
 From the point of view of probability theory, in [[Stoch]], we can view this map $P X\to X$ as taking a distribution $p\in P X$, and returning a random point of $X$ distributed according to $p$. In other words, it is [[sampling map|sampling]] from $p$.
 
-This also corresponds to the idea of sampling in [[probabilistic programming]], (see [[monad (in computer science)]]).
+This also corresponds to the idea of sampling in [[probabilistic programming]] (see [[monad (in computer science)]]).
 
 Additional properties can be imposed on a representable Markov category. For example:
 
