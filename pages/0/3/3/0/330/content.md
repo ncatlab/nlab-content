@@ -63,6 +63,11 @@ $$\mathcal{C}(A, B) \stackrel{\mathcal{C}(\lambda_A, 1_B)}{\to} \mathcal{C}(I \o
 Finally, in contrast to a global element, a morphism to $x$ from _any_ object $i$ whatsoever may be seen as a [[generalized element]] of $x$. For example, if $i$ is the [[unit interval]] (in topology, chain complexes, etc), then a map from $i$ to $x$ is a *path* (rather than a point) in $x$. Or in a slice category $C/b$, if $\rho: a \to b$ is an [[embedding]], then a morphism from $\rho$ to $\pi$ is a _local_ section of $\pi$.
 
 
+## Related concepts
+
+* [[constant morphism]]
+
+
 [[!redirects global element]]
 [[!redirects global elements]]
 [[!redirects global point]]
