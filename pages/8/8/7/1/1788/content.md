@@ -15,13 +15,13 @@ Here "sheaf" is really short for "abelian sheaf" as in "quasicoherent sheaf", an
 
 In any case, the article claims something like that any choice of such presentable six-functor coefficients (denoted "$Sh$" and neatly encoded as a lax symmetric monoidal functor from $Corr(\mathcal{C})$ to (locally) presentable $\infty$-categories) induces (Theorem 1.2) 
 
-* for any target space $X \in \mathcal{C}$ 
+* for any target space $X \in \mathcal{C}$, 
 
-* for any $n \ge 2 $ 
+* for any $n \ge 2 $, 
 
-* an $(n+1)$d-dimensional extended TQFT $\chi_{(n+1)Sh,X}$ 
+* an $(n+1)$d-dimensional extended TQFT, denoted $\chi_{(n+1)Sh,X}$,
 
-* with coefficients in something like the $(n+1)$-fold categorification $(n+1)Pr_Sh$ of $Sh$ 
+* with coefficients in something like the $(n+1)$-fold categorification $(n+1)Pr_Sh$ of the category of values of $Sh$ 
 
 * which in codimension 1 assigns to an $n$-manifold $M$ the $Sh$-eaves on the derived mapping space: 
 
@@ -30,6 +30,8 @@ In any case, the article claims something like that any choice of such presentab
   $$
 
   (i.e. represent the homotopy type of $M$ as a homotopy colimit in $\infty$-groupoids of a functor constant on the point and then form the corresponding homtopy limit in $\mathcal{C}$ of the functor constant on $X$ and evaluate $Sh \colon Corr(\mathcal{C}) \to PresCat$ on that).
+
+(There is a crucial degree shift here: $\chi_{(n+1)Sh,X} \colon (n+1)Corr(\mathcal{C}) \longrightarrow (n+1)Pr_{Sh}$ goes from the $(n+1)$-category of correspondendes to an $(n+2)$-category.)
 
 Such kind of situation is not unheard of, as the author recalls, but here it looks like one is getting to the bottom of what makes this work in great generality.
 
@@ -43,11 +45,11 @@ $$
 
 Here 
 
-* $Corr^{enr}(\mathcal{C})$ (Ntn. 2.10, Rem. 3.5) is the $(\infty,n)$-category of correspondences in $\mathcal{C}$ equipped with $\mathcal{C}$-enrichment in top degree
+* $Corr^{enr}(\mathcal{C})$ (Ntn. 2.10, Rem. 3.5) is the $(\infty,n)$-category of correspondences in $\mathcal{C}$ equipped with $Corr(\mathcal{C})$-enrichment in top degree,
 
-* $Sh_!$ denotes change of enrichment (Notation 2.1)
+* $Sh_!$ denotes change of enrichment along $Sh$ (Notation 2.1),
 
-* $n Mod_{(-)}$ (Notation 3.3) is, despite the notation *not explicitly* about modules at all: it's the "canonical functor" taking $n$-categories which in top degree are enriched in locally presentable categories to locally presentable $(n+1)$-categories (which the author develops in his thesis and a previous article [arXiv:2011.03035](https://arxiv.org/abs/2011.03035))
+* $n Mod_{(-)}$ (Notation 3.3) is advertized as the "canonical functor" taking $n$-categories which in top degree are enriched in locally presentable categories to locally presentable $(n+1)$-categories (which the author develops in his thesis and a previous article [arXiv:2011.03035](https://arxiv.org/abs/2011.03035)) given by "freely adding colimits" in dimension $\leq n$. So I am guessing that the notation "$n Mod_{\mathcal{D}}$" refers to passing to a Yoneda-like embedding by forming functors on $\mathcal{D}^{op}$, but I don't see the actual definition at the moment,
 
 So in (my) tentative vague words it appears that $n Pr_{Sh}$ is something like the $(n+1)$-category obtained from that of  $n+1$-fold correspondences which in degrees $\neq n$ is somehow completed under colimits (cf. Ntn. 3.3.) and in top degree is enriched by the $Sh$-eaves sitting on the tips of the correspondences.
 
@@ -55,9 +57,39 @@ So why I see where this is all headed, it's a mouthful and some crucial ingredie
 
 So what I would like to look at is an example. My favorite case to start with would be
 
-* $\mathcal{C} \coloneqq Grpd_\infty \equiv An$ the $\infty$-category of $\infty$-groipoids
+* $\mathcal{C} \coloneqq Grpd_\infty \equiv An$, the $\infty$-category of $\infty$-gorupoids
 
-* $Sh(-) \coloneqq k Mod(-)$ the $\infty$-category of chain complexes of $k$-vector spaces over a rational field $k$,
+* $Sh(-) \coloneqq Vect(-)$ the $\infty$-category of chain complexes of vector spaces over some groups field,
 
-and my first question would be: What is the $(\infty,2)$-category $ 1Pr_{Sh} =  1 Pr_{k Mod}$? Does it have a nice equivalent description beyond its definition from the above?
+and my first question would be: What is the $(\infty,2)$-category $ 1Pr_{Sh} =  1 Pr_{Vect}$? 
 
+So the objects of $1 Corr(Grpd_\infty)^{enr}$ are $\infty$-groupoids, and  the hom-object (in $Corr(Grpd_\infty)$) between a pair $(X, Y)$ of these ought to be the product $X \times Y$, whence $Sh_! Corr(Grpd_\infty)^{enr}$ should have hom-object $Vect(X \times Y)$ between this pair, in our case.
+
+This describes $Sh_! Corr(\mathcal{C})^{enr} = Vect_! Corr(Grpd_\infty)$ in our case.
+
+Now what is $1Mod_{Vect_! Corr(Grpd_\infty)^{enr}}$ ? 
+
+I am guessing it's meant to be the 2-category of $Pr$-enriched functors (though I am not sure where this is stated)
+$$
+  Vect_! Corr(Grpd_\infty)^{enr}
+  \longrightarrow
+  Pr^L
+  \,.
+$$
+Over the point, such functors pick a presentable category with a $Vect(\ast)$-module structure, hence a presentable dg-category. 
+
+And that sounds like it out to be the answer: 
+
+$$
+  1 Mod_{Vect_! Corr(Grpd_\infty)^{enr}}
+  \simeq
+  Pr dg Cat
+  \equiv
+  2 Vect
+  \,.
+$$
+
+which is denoted $2 \mathcal{Vect}$ in section 1.2 of [the thesis](https://ncatlab.org/nlab/show/Germ%C3%A1n+Stefanich#Stefanich21Thesis). 
+
+
+?
