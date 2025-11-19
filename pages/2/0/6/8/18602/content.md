@@ -144,7 +144,12 @@ Comprehensive discussion for the [[muon]]:
 
 ### Experiment and deviation
 
-Discussion of precision experiment and possible deviation from theory:
+Discussion of precision measurements:
+
+* Gerald Gabrielse, Graziano Venanzoni: *Measured Lepton Magnetic Moments*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2507.11268](https://arxiv.org/abs/2507.11268)&rbrack;
+
+
+and possible deviation from theory:
 
 * {#DHMZ17} Michel Davier, Andreas Hoecker, Bogdan Malaescu, Zhiqing Zhang, _Reevaluation of the hadronic vacuum polarisation contributions to the Standard Model predictions of the muon g-2 and alpha(mZ) using newest hadronic cross-section data_, Eur. Phys. J. C (2017) 77: 827 ([arXiv:1706.09436](https://arxiv.org/abs/1706.09436))
 
@@ -174,6 +179,7 @@ Further [[lattice QCD]]-simulation increasingly points to there not being an ano
 * CernCourier: *[Shifting sands for muon g–2](https://cerncourier.com/a/shifting-sands-for-muon-g-2/)* (20 November 2024)
 
 * [Aliberti et al 2025](#AlibertiEtAl25)
+
 
 
 
