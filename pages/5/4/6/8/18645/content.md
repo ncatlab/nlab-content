@@ -173,6 +173,7 @@ $\,$
 [[!include A first idea of quantum field theory -- Renormalization]]
 
 
+[[!redirects gop -- perturbative quantum field theory]]
 [[!redirects geometry of physics -- A first idea of quantum field theory]]
 [[!redirects A first idea of quantum field theory]]
 
