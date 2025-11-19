@@ -262,6 +262,9 @@ See also:
 
 * Soumya Adhikari, Bindusar Sahoo: *$\mathcal{N}=2$ conformal supergravity in five dimensions* &lbrack;[arXiv:2312.01879](https://arxiv.org/abs/2312.01879)&rbrack;
 
+* Edoardo Colombo, Vasil Dimitrov, Dario Martelli, Alberto Zaffaroni: *Patch-wise localization with Chern-Simons forms in five dimensional supergravity* &lbrack;[arXiv:2511.13824](https://arxiv.org/abs/2511.13824)&rbrack;
+
+
 
 ### Via M-theory on Calabi-Yau 3-folds
  {#ReferencesViaMTheoryOnCY3Folds}
