@@ -67,6 +67,8 @@ $$\mathrm{ap}_{\mathrm{rec}_{\mathrm{Cone}(A)}^B(b, f, p)}(\mathrm{edge}(x)) \eq
 
 * [[cone type]]
 
+* [[constant morphism]]
+
 [[!redirects constant function]]
 [[!redirects constant functions]]
 [[!redirects constant map]]
