@@ -1,4 +1,13 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Fields and quanta
++-- {: .hide}
+[[!include fields and quanta - table]]
+=--
+=--
+=--
 
 This entry is to record the upcoming reference:
 
@@ -101,6 +110,9 @@ On [[baryon]] [[form factors]]:
 
 * Yong-Hui Lin, Hans-Werner Hammer, [[Ulf-G. Meißner]]: *Baryon Form Factors*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2412.12885](https://arxiv.org/abs/2412.12885)&rbrack;
 
+On the [[anomalous magnetic moment]] of the [[electron]] and [[muon]]:
+
+* Gerald Gabrielse, Graziano Venanzoni: *Measured Lepton Magnetic Moments* &lbrack;[arXiv:2507.11268](https://arxiv.org/abs/2507.11268)&rbrack;
 
 
 (...)
