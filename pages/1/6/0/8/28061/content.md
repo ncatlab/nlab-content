@@ -16,7 +16,7 @@ On the [[equivariant Chern character]] from ([[twisted equivariant K-theory|twis
 
 On [[quasicoherent sheaves]] of [[locally presentable (infinity,n)-category|locally presentable $(\infty,n)$-categories]]:
 
-* [[Germán Stefanich]]: *Higher Quasicoherent Sheaves*, PhD thesis, UC Berkeley (2021) &lbrack;[escholarship:19h1f1tv](https://escholarship.org/uc/item/19h1f1tv), [pdf](https://web.ma.utexas.edu/users/gs29722/Thesis.pdf)&rbrack;
+* {#Stefanich21Thesis} [[Germán Stefanich]]: *Higher Quasicoherent Sheaves*, PhD thesis, UC Berkeley (2021) &lbrack;[escholarship:19h1f1tv](https://escholarship.org/uc/item/19h1f1tv), [pdf](https://web.ma.utexas.edu/users/gs29722/Thesis.pdf)&rbrack;
 
 * [[Germán Stefanich]]: *Presentable $(\infty,n)$-categories* &lbrack;[arXiv:2011.03035](https://arxiv.org/abs/2011.03035)&rbrack;
 
