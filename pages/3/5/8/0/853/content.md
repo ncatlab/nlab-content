@@ -58,5 +58,7 @@ Using the two-point set, it is simple to show that the constant morphisms in [[S
 
 * [[steady function]]
 
+* [[global element]]
+
 [[!redirects constant morphism]]
 [[!redirects constant morphisms]]
