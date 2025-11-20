@@ -43,6 +43,9 @@ If $C$ does not have a terminal object, we can still define a global element of 
 
 If we unravel the general definition more explicitly, it says that a global element of $x$ consists of, for every object $i\in C$, a morphism $e_x : i\to x$ (i.e. a [[generalized element]] of $x$ at stage $i$), such that for any morphism $f:i\to j$ we have $e_j \circ f = e_i$.
 
+\begin{example}
+In the category $C = \mathbf{InfSet}$ of [[infinite sets]], which does not have any terminal objects, the map $x \mapsto \{ \mathrm{const}_{x} : I \to X \}_{I \in C},$ is a bijection between the set-theoretical [[elements]] of $X$ and the (generalized) global elements of $X$.
+\end{example}
 
 ## Variations
 
