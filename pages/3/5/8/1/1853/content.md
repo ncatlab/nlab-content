@@ -157,7 +157,7 @@ $$
 Hence we may take $Z_\bullet \coloneqq \mathbb{Z}[n_1 + n_2]$ and $f = id$ and we get a cup product
 
 $$
-  \cup \;\colon\; H^{n_1}(X, \mathbb{Z}) \times H^{n_2}(X, \mathbb{Z})
+  \smile \;\colon\; H^{n_1}(X, \mathbb{Z}) \times H^{n_2}(X, \mathbb{Z})
   \to 
   H^{n_1 + n_2}(X, \mathbb{Z})
   \,.
