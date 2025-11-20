@@ -3,7 +3,7 @@ Gerald V. Dunne
 
 * [personal page](https://dunne.physics.uconn.edu/)
 
-* [personal page][https://physics.uconn.edu/person/gerald-v-dunne/)
+* [personal page](https://physics.uconn.edu/person/gerald-v-dunne/)
 
 * [inSpire](https://inspirehep.net/authors/1011213)
 
@@ -43,6 +43,9 @@ On [[resurgence]]:
 * [[Gerald Dunne]], _Introduction to Resurgence, Trans-series and Non-perturbative Physics_, 2018 ([pdf](https://www.icts.res.in/sites/default/files/NUMSTRINGS2018-2018-01-27-Gerald-Dunne.pdf))
 
 * {#DunneUnsal14} [[Gerald Dunne]], Mithat Unsal, _Uniform WKB, Multi-instantons, and Resurgent Trans-Series_, Phys. Rev. D 89, 105009 (2014) ([arXiv:1401.5202](https://arxiv.org/abs/1401.5202))
+
+* [[Gerald V. Dunne]]: *Introductory Lectures on Resurgence: CERN Summer School 2024* &lbrack;[arXiv:2511.15528](https://arxiv.org/abs/2511.15528)&rbrack;
+
 
 On [[Borel summation]]:
 
