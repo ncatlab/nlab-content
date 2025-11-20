@@ -116,7 +116,9 @@ where $SSMC$ is the category of [[symmetric monoidal category|strict symmetric m
 
 ## References
 
-* [[John Baez]], Fabrizio Genovese, [[Jade Master]], [[Michael Shulman]], _Categories of Nets_, ([arXiv:2101.04238](https://arxiv.org/abs/2101.04238))
+* [[John Baez]], Fabrizio Genovese, [[Jade Master]], [[Michael Shulman]], _Categories of Nets_,  ([arXiv:2101.04238](https://arxiv.org/abs/2101.04238))
+
+* [[Joachim Kock]], _Whole-grain Petri nets and processes_ ([arXiv:2005.05108](https://arxiv.org/abs/2005.05108))
 
 * {#WinskelNielsen} [[G. Winskel]], M. Nielsen, _Models for concurrency_, Handbook of Logic in Computer Science vol. 3, pp. 100 -- 200, Oxford Univ. Press 1994. (see also [online technical report](http://www.daimi.au.dk/PB/463/PB-463.pdf)).
 
