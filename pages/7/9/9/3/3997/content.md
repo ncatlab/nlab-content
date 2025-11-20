@@ -11,8 +11,6 @@
 =--
 
 
-
-# Creation of limits
 * table of contents
 {: toc}
 
