@@ -16,7 +16,7 @@
 
 ## Idea
 
-Nonstandard analysis is a rich formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal objects]]. In fact, not only infinitesimal but also infinitely large can be accomodated (and must be).  Moreover, not only the field of [[real numbers]], but more general algebraic structures can be extended, essentially via a construction of [[ultraproducts]]; also general sets can be extended to contain nonstandard elements (see [[internal set]]).
+Nonstandard analysis is a rich formalization of [[analysis]] that uses a certain explicit notions of [[infinitesimal objects]]. In fact, not only infinitesimal but also infinitely large can be accommodated (and must be).  Moreover, not only the field of [[real numbers]], but more general algebraic structures can be extended, essentially via a construction of [[ultraproducts]]; also general sets can be extended to contain nonstandard elements (see [[internal set]]).
 
 In fact the nonstandard method is not limited to analysis, but is rather a method of producing a models in the sense of [[model theory]], as pioneered by Robinson or using a syntactic extension of set theory, like the theory of [[internal sets]] by Nelson.
 
