@@ -29,13 +29,13 @@ Thus it seems possible (and sometimes is claimed) that the perturbative series a
 
 ### General
 
-Original articles include
+Original articles:
 
 * {#JentschuraZinnJustin04} Jentschura, [[Jean Zinn-Justin]], Phys. Lett. B 596 (2004), 138-144
 
 * {#DunneUnsal14} [[Gerald Dunne]], Mithat Unsal, _Uniform WKB, Multi-instantons, and Resurgent Trans-Series_, Phys. Rev. D 89, 105009 (2014) ([arXiv:1401.5202](https://arxiv.org/abs/1401.5202))
 
-A clear account is in 
+A clear account:
 
 
 * M. V. Berry, C. J. Howls, _Hyperasymptotics for Integrals with Saddles_, Proceedings: Mathematical and Physical Sciences Vol. 434, No. 1892 (Sep. 9, 1991), pp. 657-675 ([jstor:51890](https://www.jstor.org/stable/51890))
@@ -54,6 +54,9 @@ Review:
 * [[Gerald Dunne]], _Introduction to Resurgence, Trans-series and Non-perturbative Physics_, 2018 ([pdf](https://www.icts.res.in/sites/default/files/NUMSTRINGS2018-2018-01-27-Gerald-Dunne.pdf))
 
 * David Sauzin, *Resurgence and Mould Calculus*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2310.15029](https://arxiv.org/abs/2310.15029)&rbrack;
+
+* [[Gerald V. Dunne]]: *Introductory Lectures on Resurgence: CERN Summer School 2024* &lbrack;[arXiv:2511.15528](https://arxiv.org/abs/2511.15528)&rbrack;
+
 
 
 Part of the above text is taken from
