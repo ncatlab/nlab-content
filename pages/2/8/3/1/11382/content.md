@@ -147,6 +147,9 @@ Review:
 
 * Salvatore Vitale, _The first five years of gravitational-wave astrophysics_ ([arXiv:2011.03563](https://arxiv.org/abs/2011.03563))
 
+* Vitor Cardoso, Shauvik Biswas, Subhodeep Sarkar: *The Physics of Black Holes and Their Environments: Consequences for Gravitational Wave Science* &lbrack;[arXiv:2511.14841](https://arxiv.org/abs/2511.14841)&rbrack;
+
+
 
 
 
