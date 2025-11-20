@@ -26,7 +26,7 @@
 
 ## Definition
 
-Up to [[isometry]], the **anti de Sitter spacetime** of [[dimension]] $d$, $AdS_d$, is the [[pseudo-Riemannian manifold]] whose underlying [[manifold]] is the [[submanifold]] of the [[Minkowski spacetime]] $\mathbb{R}^{d-1,2}$ that solves the equation
+Up to [[isometry]], the **anti de Sitter spacetime** of [[dimension]] $d$, $AdS_d$, is the [[pseudo-Riemannian manifold]] whose underlying [[manifold]] is the [[submanifold]] of $\mathbb{R}^{d-1,2}$ that solves the equation
 
 $$
   \textstyle{\sum_{i = 1}^{d-1}} 
