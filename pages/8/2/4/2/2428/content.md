@@ -25,6 +25,10 @@ Proving the [[biequivalence]] between [[Feynman categories]] and [[colored opera
 
 * {#BataninKockWeber15} [[Michael Batanin]], [[Joachim Kock]], [[Mark Weber]]: _Regular patterns, substitudes, Feynman categories and operads_, Theory Appl. Categ. **33** 7 (2018), 148--192 &lbrack;[arXiv:1510.08934](https://arxiv.org/abs/1510.08934), [tac:33-07](http://www.tac.mta.ca/tac/volumes/33/7/33-07abs.html)&rbrack;
 
+On [[Petri nets]]:
+
+* [[Joachim Kock]], _Whole-grain Petri nets and processes_ &lbrack;[arXiv:2005.05108](https://arxiv.org/abs/2005.05108)&rbrack;
+
 See also:
 
 * {#GKT18} [[Imma Gálvez-Carrillo]], [[Joachim Kock]],  [[Andrew Tonks]], _Homotopy linear algebra_. Proc. Roy. Soc. Edinburgh Sect. A, 148(2):293–325, 2018 ([arXiv:1602.05082](https://arxiv.org/abs/1602.05082)).
