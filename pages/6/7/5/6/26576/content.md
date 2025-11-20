@@ -1,5 +1,5 @@
 
-#### Supergravity C-Field gauge algebra
+#### Supergravity $C$-Field gauge algebra
  {#ReferencesCFieldGaugeAlgebra}
 
 Identifying the super-graded gauge algebra of the [[supergravity C-field|C-field]] in [[D=11 supergravity]] (with non-trivial [[super Lie algebra|super Lie bracket]] $[v_3, v_3] = -v_6$):
