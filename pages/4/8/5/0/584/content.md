@@ -100,7 +100,7 @@ To get rid of the dependence of this construction on $V$, we can let $V$ "grow a
 The resulting $n$-fold simplicial topological space obtained by this colimit then is essentially the [[(∞,n)-category]] $Bord_n$ that we are after. It turns out that it actually is an $n$-fold Segal space. We just formally _complete_ it to an [[n-fold complete Segal space]]
 
 $$
-  Bord_n : (\Delta^{op})^n \to Top
+  Bord_n \colon (\Delta^{op})^n \to Top
   \,.
 $$
 
@@ -220,9 +220,24 @@ This shows that if $\gamma$ is regarded with its two endpoints both as incoming 
 ## Properties 
  {#Properties}
 
-### Adjoints
 
-$Bord_n$ is an [[(∞,n)-category with all adjoints]].
+### General
+
+
+\begin{proposition}
+  $Bord_n$ is an [[(∞,n)-category with all adjoints]].
+\end{proposition}
+
+
+\begin{proposition}
+\label{SymmetricMonoidalFunctorToCoSpans}
+There is a [[symmetric monoidal (infinity,n)-category|symmetric monoidal]] [[(infinity,n)-functor|$(\infty,n)$-functor]]
+$$
+  Bord_n \longrightarrow CoSpan_n(Grpd_\infty)
+$$
+from the unoriented [[(infinity,n)-category of cobordisms|$(\infty,n)$-category of cobordisms]] to the [[(infinity,n)-category|$(\infty,n)$-category]] of [[cospans]] of [[infinity-groupoids|$\infty$-groupoids]] (the dual version of the [[(infinity,n)-category of correspondences|$(\infty,n)$-category of correspondences]]) which first regards a [[cobordism]] as the higher [[cospan]] (in [[SmthMfd]]) of its [[boundary]]-inclusions and then applies the [[shape modality]] $\esh \colon SmthMfd \longrightarrow Grpd_\infty$, passing to the underlying [[fundamental infinity-groupoids|fundamental $\infty$-groupoids]]/[[homotopy types]].
+\end{proposition}
+(The basic idea of this construction is common, but an actual proof of its symmetric monoidal $(\infty,n)$-functoriality is due to [Calaque, Haugseng & Scheimbauer 2025 Thm. D](#CalaqueHaugsengScheimbauer2025))
 
 ### Relation to Thom spectrum
 
@@ -242,6 +257,7 @@ $$
 $$
 
 to some symmetric monoidal $\infty$-groupoid $S$ is a [[genus]].
+
 
 ## Related concepts
 
@@ -268,11 +284,15 @@ In that article a proof of the [[cobordism hypothesis]] is indicated. A review i
 
 * [[Julie Bergner]], _Models for $(\infty,n)$-Categories and the Cobordism Hypothesis_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Available [on the arxiv](http://arxiv.org/abs/1011.0110). 
 
-Other discussions of higher categories of cobordisms are
+Other discussions of higher categories of cobordismsL
 
 * [[Marco Grandis]], _[[Cospans in Algebraic Topology]]_
 
 * [[Eugenia Cheng]] and [[Nick Gurski]], _Toward an $n$-category of cobordisms_ , Theory and Applications of Categories 18 (2007), 274-302. ([tac](http://www.tac.mta.ca/tac/volumes/18/10/18-10abs.html))
+
+Discussion in the context of promoting [[AKSZ sigma-models]] to [[extended functorial field theories]] via [[derived algebraic geometry]]:
+
+* {#CalaqueHaugsengScheimbauer2025} [[Damien Calaque]], [[Rune Haugseng]], [[Claudia Scheimbauer]]: *The AKSZ Construction in Derived Algebraic Geometry as an Extended Topological Field Theory*, Memoirs of the American Mathematical Society **308** 1555 (2025)  &lbrack;[arXiv:2108.02473](https://arxiv.org/abs/2108.02473), [doi:10.1090/memo/1555](https://doi.org/10.1090/memo/1555)&rbrack;
 
 
 ### In dimension 2
@@ -305,4 +325,5 @@ For a discussion of the relation of $Bord_{(\infty,\infty)}$ to the [[Thom spect
 
 [[!redirects (∞,n)-categories of cobordisms]]
 [[!redirects (infinity,n)-categories of cobordisms]]
+[[!redirects infinityn-category of cobordisms]]
 
