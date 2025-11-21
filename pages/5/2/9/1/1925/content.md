@@ -87,6 +87,10 @@ $$
   t(a,b,c) = t(c,b,a)
 $$
 
+\begin{remark}
+A heap always satisfies the relation $t(a, t(d, c, b), e) = t(t(a, b, c), d, e)$ ([Hollings and Lawson 2017](#HollingsLawson), theorem 8.2.13).
+\end{remark}
+
 \begin{definition}
 \label{CategoryOfHeaps}
 A *[[homomorphism]]* of heaps $f \colon H \to H'$ is, of course, a [[function]] of the [[underlying]] [[set]] which respects the ternary operations.  
@@ -393,7 +397,7 @@ See Vokřínek {#Vokrinek} for more information.
 * G. M. Bergman, A.O. Hausknecht, Ch.IV §22 pp 95 in:
 *Cogroups and co-rings in categories of associative rings*, AMS (1996) &lbrack;[ams:surv-45](https://bookstore.ams.org/surv-45)&rbrack;
 
-* [[Christopher D. Hollings]], [[Mark V. Lawson]], *Wagner’s theory of generalised heaps*, Springer (2017)  &lbrack;[doi:10.1007/978-3-319-63621-4](https://doi.org/10.1007/978-3-319-63621-4)&rbrack;
+* {#HollingsLawson}[[Christopher D. Hollings]], [[Mark V. Lawson]], *Wagner’s theory of generalised heaps*, Springer (2017)  &lbrack;[doi:10.1007/978-3-319-63621-4](https://doi.org/10.1007/978-3-319-63621-4)&rbrack;
 
 * [[Zoran Škoda]], _Quantum heaps, cops and heapy categories_, Mathematical Communications **12** 1  (2007) 1-9 &lbrack;[math.QA/0701749](http://arxiv.org/abs/math.QA/0701749)&rbrack;
 
