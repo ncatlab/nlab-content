@@ -11,6 +11,11 @@ Rune Gjøringbø Haugseng
 
 ## Selected writings
 
+Discussion of the [[AKSZ sigma-model]] as an [[extended functorial field theories]] via [[derived algebraic geometry]]:
+
+* {#CalaqueHaugsengScheimbauer2025} [[Damien Calaque]], [[Rune Haugseng]], [[Claudia Scheimbauer]]: *The AKSZ Construction in Derived Algebraic Geometry as an Extended Topological Field Theory*, Memoirs of the American Mathematical Society **308** 1555 (2025)  &lbrack;[arXiv:2108.02473](https://arxiv.org/abs/2108.02473), [doi:10.1090/memo/1555](https://doi.org/10.1090/memo/1555)&rbrack;
+
+
 On [[(infinity,1)-category|$(\infty,1)$-category]] [[(infinity,1)-category theory|theory]]:
 
 * [[Rune Haugseng]]: *Yet another introduction to $\infty$-categories* (2025)  &lbrack;[pdf](https://runegha.folk.ntnu.no/naivecat_web.pdf)&rbrack;
