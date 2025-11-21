@@ -20,6 +20,10 @@ On the [[D'Auria-Fré-Regge formulation of supergravity]]:
 
 * [[Leonardo Castellani]], *Group manifold approach to supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.04318](https://arxiv.org/abs/2211.04318)&rbrack;
 
+and on its understanding in terms of [[super L-infinity algebra|super]] [[L-infinity algebra|$L_\infty$-algebra]]:
+
+* [[Leonardo Castellani]], [[Riccardo D'Auria]]: *The $L_\infty$-structure of Free Differential Algebras and   Supergravity*, International Journal of Modern Physics A (2025) \[<a href="https://doi.org/10.1142/S0217751X25501787">doi:10.1142/S0217751X25501787</a>, [arXiv:2507.20344](https://arxiv.org/abs/2507.20344)\]
+
 
 On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] in application to [[first-order formulation of gravity|first-order formulation]] of ([[supergravity|super]]-)[[gravity]]:
 
