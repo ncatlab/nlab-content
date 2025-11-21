@@ -36,6 +36,11 @@ Review of [[formal moduli problems]] via [[L-infinity algebras|$L_\infty$-algebr
 
 * {#CalaqueGrivaux18} [[Damien Calaque]], Julien Grivaux: *Formal moduli problems and formal derived stacks*, in *Derived Algebraic Geometry*, Panoramas & Synthèses **55**, AMS (2021) 85-145 &lbrack;[arXiv:1802.09556](https://arxiv.org/abs/1802.09556), [pdf](https://jgrivaux.perso.math.cnrs.fr/articles/fmp.pdf), [ISBN:978-2-85629-938-8](https://bookstore.ams.org/view?ProductCode=PASY/55)&rbrack;
 
+Discussion of the [[AKSZ sigma-model]] as an [[extended functorial field theories]] via [[derived algebraic geometry]]:
+
+* {#CalaqueHaugsengScheimbauer2025} [[Damien Calaque]], [[Rune Haugseng]], [[Claudia Scheimbauer]]: *The AKSZ Construction in Derived Algebraic Geometry as an Extended Topological Field Theory*, Memoirs of the American Mathematical Society **308** 1555 (2025)  &lbrack;[arXiv:2108.02473](https://arxiv.org/abs/2108.02473), [doi:10.1090/memo/1555](https://doi.org/10.1090/memo/1555)&rbrack;
+
+
 
 Review of [[shifted symplectic structures]]:
 
