@@ -27,7 +27,7 @@ As such it is a central tool in [[rational homotopy theory]].
 
 ## Definition
 
-Let $\Delta_{Diff} : \Delta \to $ [[Diff]] be the standard smooth [[simplex]]es, and write $\Omega^\bullet_{\mathbb{Q}}(\Delta_{Diff}^n)$ for the [[dg-algebra]] of (polynomial, rational, whatevber) [[differential form]]s on $\Delta^n_{Diff}$.
+Let $\Delta_{Diff} : \Delta \to $ [[Diff]] be the standard smooth [[simplex]]es, and write $\Omega^\bullet_{\mathbb{Q}}(\Delta_{Diff}^n)$ for the [[dg-algebra]] of (polynomial, rational, whatever) [[differential form]]s on $\Delta^n_{Diff}$.
 
 For $A \in dgAlg_{\mathbb{Q}}$ a [[dg-algebra]], consider the [[simplicial set]]
 
