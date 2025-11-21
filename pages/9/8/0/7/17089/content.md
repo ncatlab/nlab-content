@@ -101,6 +101,10 @@ Further exposition and review of the (dual) identification of supergravity "FDAs
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The rational higher structure of M-theory|The rational higher structure of M-theory]]*, in *[[Higher Structures in M-Theory 2018]]*, Fortschr. der Physik **67** 8-9 (2019) 1910017 \[<a href="https://arxiv.org/abs/1903.02834">arXiv:1903.02834</a>, <a href="https://doi.org/10.1002/prop.201910017">doi:10.1002/prop.201910017</a>\]
 
 
+* [[Leonardo Castellani]], [[Riccardo D'Auria]]: *The $L_\infty$-structure of Free Differential Algebras and   Supergravity*, International Journal of Modern Physics A (2025) \[<a href="https://doi.org/10.1142/S0217751X25501787">doi:10.1142/S0217751X25501787</a>, [arXiv:2507.20344](https://arxiv.org/abs/2507.20344)\]
+
+
+
 Beware that there is a _different_ concept of "Filipov [[n-Lie algebra]]" suggested by [Bagger& Lambert 2006](BLG+model#BaggerLambert06) to play a role in the description of the [[conformal field theory]] in the [[near horizon limit]] of [[black p-branes]], notably the [[BLG model]] for the conformal [[worldvolume]] theory on the [[M2-brane]] .
 
 A realization of these "Filippov $3$-Lie algebras" as 2-term $L_\infty$-algebras ([[Lie 2-algebras]]) equipped with a binary [[invariant polynomial]] ("metric Lie 2-algebras") is in:
