@@ -20,13 +20,13 @@ A _presymplectic structure_ on a [[smooth manifold]] or more generally on a [[sm
 
 (In parts of the literature a pre-symplectic 2-form is required to have constant rank. However, other parts of the literature do not require this, e.g. [Bottacin, def. 3.1](#Bottacin). )
 
-If the 2-form is happens to be _non-degenerate_ (have maximal rank) then it is a _[[symplectic structure]]_ on $X$. 
+If the 2-form happens to be _non-degenerate_ (have maximal rank) then it is a _[[symplectic structure]]_ on $X$. 
 
 Given a presymplectic structure, the [[quotient]] of $X$ by the [[flow]] of the [[vector fields]] in the [[kernel]] of $\omega$ is, if it exists in a reasonable way, a [[symplectic manifold]].
 
 One speaks of closed 2-forms as presymplectic structures if one is interested in eventually forming this quotient and obtaining a symplectic structure. 
 
-The central application of this appears in the theory of [[quantization]] of [[action functionals]]. The [[covariant phase space]] of a [[local action functional]] is canonically presymplectic, and one is interested in its quotientient by symmetries to obtain a symplectic structure. This quotient generically is very ill behaved, though, when taken in the naive way. The [[BV-BRST formalism]] is all about forming this quotient "up to homotopy", such that it exists in a reasonable way. See [[derived critical locus]] for more on this.
+The central application of this appears in the theory of [[quantization]] of [[action functionals]]. The [[covariant phase space]] of a [[local action functional]] is canonically presymplectic, and one is interested in its quotient by symmetries to obtain a symplectic structure. This quotient generically is very ill behaved, though, when taken in the naive way. The [[BV-BRST formalism]] is all about forming this quotient "up to homotopy", such that it exists in a reasonable way. See [[derived critical locus]] for more on this.
 
 The notion of presymplectic structure is a weakening of the notion of [[symplectic structure]] roughly orthogonal to the notion of [[Poisson structure]].
 
