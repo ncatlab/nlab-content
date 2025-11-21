@@ -10,7 +10,6 @@
 
 The original articles on the [[D'Auria-Fre formulation of supergravity]]:
 
-
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Tullio Regge]], *Geometrical formulation of supergravity as a theory on a supergroup manifold*, contribution to *[Supergravity Workshop](https://inspirehep.net/conferences/964530)*, Stony Brook (1979) 85-92 &lbrack;[inspire:148583](https://inspirehep.net/literature/148583)&rbrack;
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Tullio Regge]], *Supergravity and Cohomology Theory: Progress and Problems in $D = 5$*, in *Unification of the Fundamental Particle Interactions*, Ettore Majorana International Science Series, **7** Springer (1980) &lbrack;[doi:10.1007/978-1-4613-3171-1_12](https://doi.org/10.1007/978-1-4613-3171-1_12), [[DAuriaFreRegge-SuGraAndCohomology.pdf:file]]&rbrack;
@@ -37,6 +36,11 @@ The original articles on the [[D'Auria-Fre formulation of supergravity]]:
 * [[Riccardo D'Auria]], _Geometric supergravity_ ([arXiv:2005.13593](https://arxiv.org/abs/2005.13593)) in:  [[Leonardo Castellani]],  [[Anna Ceresole]], [[Riccardo D'Auria]], [[Pietro Fré]] (eds.): _Tullio Regge: An Eclectic Genius_, World Scientific (2019) &lbrack;[doi:10.1142/11643](https://doi.org/10.1142/11643)&rbrack;
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra*, Expositiones Mathematicae, &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987) [10.1016/j.exmath.2024.125631](https://doi.org/10.1016/j.exmath.2024.125631)&rbrack;
+
+and on its understanding in terms of [[super L-infinity algebra|super]] [[L-infinity algebra|$L_\infty$-algebra]]:
+
+* [[Leonardo Castellani]], [[Riccardo D'Auria]]: *The $L_\infty$-structure of Free Differential Algebras and   Supergravity*, International Journal of Modern Physics A (2025) \[<a href="https://doi.org/10.1142/S0217751X25501787">doi:10.1142/S0217751X25501787</a>, [arXiv:2507.20344](https://arxiv.org/abs/2507.20344)\]
+
 
 On [[Fierz identities]] in ([[D=5 supergravity|D=5]]) [[supergravity]]:
 
