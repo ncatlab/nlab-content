@@ -279,6 +279,11 @@ A cohomological reduction of the formalism is described in
 
 * F. Bonechi, P. Mn&#235;v, [[Maxim Zabzine]], _Finite dimensional AKSZ-BV-theories_, Lett. Math. Phys. **94** (2010) 197-228 &lbrack;[arXiv:0903.0995](http://arxiv.org/abs/0903.0995), [doi:10.1007/s11005-010-0423-3](https://doi.org/10.1007/s11005-010-0423-3)&rbrack;
 
+See also:
+
+* [[Theodore Voronov]]: _Vector fields on mapping spaces and a converse to the AKSZ construction_ &lbrack;[arxiv/1211.6319](https://arxiv.org/abs/1211.6319)&rbrack;
+
+
 That the AKSZ action on bounding manifolds $\partial \hat \Sigma$ is the integral of the graded symplectic form over $\hat \Sigma$ is theorem 4.4 in 
 
 * A. Kotov, T. Strobl, _Characteristic classes associated to Q-bundles_, Int. J. Geom. Meth. Mod. Phys. **12** 01 (2015) 1550006 &lbrack;[arXiv:0711.4106v1](https://arxiv.org/abs/0711.4106v1), [doi:10.1142/S0219887815500061](https://doi.org/10.1142/S0219887815500061)&rbrack;
@@ -297,18 +302,19 @@ Discussion of [[boundary conditions]] for the AKSZ sigma model includes
 
 * {#IkedaXu13} [[Noriaki Ikeda]], Xiaomeng Xu, _Canonical functions and differential graded symplectic pairs in supergeometry and AKSZ sigma models with boundary_, J. Math. Phys. **55** (2014) 113505 &lbrack;[arXiv:1301.4805](https://arxiv.org/abs/1301.4805), [doi:10.1063/1.4900834](https://doi.org/10.1063/1.4900834)&rbrack;
 
-The AKSZ model is extended to coisotropic boundary conditions in
+With coisotropic boundary conditions:
 
 * [[Theo Johnson-Freyd]], _Exact triangles, Koszul duality, and coisotropic boundary conditions_, &lbrack;[arxiv/1608.08598](https://arxiv.org/abs/1608.08598)&rbrack;
 
-An example in [[higher spin gauge theory]] is discussed in
+An example in [[higher spin gauge theory]]:
 
 * {#AlkalevGrigorievSkvortsov14} K.B. Alkalaev, Maxim Grigoriev, E.D. Skvortsov, _Uniformizing higher-spin equations_, J. Phys. A: Math. Theor. **48** (2015) 015401 &lbrack;[arXiv:1409.6507](https://arxiv.org/abs/1409.6507), [doi:10.1088/1751-8113/48/1/015401](https://doi.org/10.1088/1751-8113/48/1/015401)&rbrack;
 
 
-See also
+Discussion as an [[extended functorial field theories]] via [[derived algebraic geometry]]:
 
-* Theodore Th. Voronov, _Vector fields on mapping spaces and a converse to the AKSZ construction_, &lbrack;[arxiv/1211.6319](https://arxiv.org/abs/1211.6319)&rbrack;
+* {#CalaqueHaugsengScheimbauer2025} [[Damien Calaque]], [[Rune Haugseng]], [[Claudia Scheimbauer]]: *The AKSZ Construction in Derived Algebraic Geometry as an Extended Topological Field Theory*, Memoirs of the American Mathematical Society **308** 1555 (2025)  &lbrack;[arXiv:2108.02473](https://arxiv.org/abs/2108.02473), [doi:10.1090/memo/1555](https://doi.org/10.1090/memo/1555)&rbrack;
+
 
 [[!redirects AKSZ sigma-models]]
 [[!redirects AKSZ sigma model]]
