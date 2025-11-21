@@ -63,7 +63,7 @@ If $\mathcal{K}$ is a [[strict 2-category]], then $T \mathbf{Alg}$ is a strict d
 
 ## References
 
-* [[Robert Paré]] and [[Marco Grandis]], _Multiple categories of generalised quintets_, Pubbl. Mat. Univ. Genova, Preprint 607 (2017), [pdf](http://web.archive.org/web/20230629160818/https://dima.unige.it/~grandis/MlcGQ.pdf)
+* [[Robert Paré]] and [[Marco Grandis]], _Multiple categories of generalised quintets_, Pubbl. Mat. Univ. Genova, Preprint 607 (2017), arXiv:[2511.15264](https://arxiv.org/abs/2511.15264)
 
 [[!redirects double category of algebras]]
 [[!redirects double category of T-algebras]]
