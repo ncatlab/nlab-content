@@ -41,7 +41,9 @@ $$\frac{\Gamma \vdash A \;  \mathrm{type} \quad \Gamma \vdash a:A \quad \Gamma \
 
 ## Proof of UIP from boundary separation
 
-We denote path types by $a =_A b$ and dependent path types by $a =_{i.A} b$. 
+We denote path types by $a =_A b$ and dependent path types by $a =_{i.A} b$, and path application to be $p(i)$ for $p$ a path and $i$ an interval. 
+
+As the first step, consider $p : a =_A a$, the goal is to prove $p =_{a=_A a} \mathrm{refl}_a$. Applying $r$ on both sides we get $p(r) =_{A} a$, and it follows from reflexivity and boundary separation because $\partial{r} \vdash p(r) \equiv a$.
 
 Consider the following context: 
 
