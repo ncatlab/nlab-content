@@ -112,11 +112,12 @@ Let us now proceed, from the indivisible [[stochastic process]] specified by the
 $$
 \Gamma_{i,j}(t) = |\Theta_{i,j}(t)|^2.
 $$
-The matrix $\Theta(t)$ is not unique.  Let  $P_i = diag(0,\ldots,1,0,\ldots,0)$ denote the $N \times N$ diagonal matrix with value one at row $i$ and column $i$.  We can represent the elements $\Gamma(t)$ as the trace of the composite of four matrices,
+The matrix $\Theta(t)$ is not unique.  Let  $P_i = diag(0,\ldots,1,0,\ldots,0)$ denote the $N \times N$ diagonal matrix with value one at row $i$ and column $i$.  We can represent the elements of the matrix $\Gamma(t)$ as the trace of the composite of four matrices,
 $$
 \Gamma_{i,j}(t) = tr( \Theta^{\dagger}(t) P_j \Theta(t) P_i )
 $$
 where $\Theta^{\dagger}(t)$ is the [[conjugate transpose matrix]] of $\Theta(t)$. We call this equation the __dictionary formula__ as it  provides the translation between indivisible [[stochastic processes]], as represented by the left-hand side, and the formalism of quantum-theoretic [[Hilbert spaces]] as represented on the right-hand side.  This dictionary formula is the basic ingredient of the stochastic-quantum correspondence.
+
 
 Given an initial probability measure $p(0)$ on $\Omega_0$ with components $p_j(0)$ we can define the __density matrix__ $\rho(0) = diag(p_1(0),p_2(0),\ldots,p_N(0))$. We then define a time-dependent density matrix by
 $$
@@ -135,7 +136,33 @@ $$
 and $\Psi(t)$ satisfies the property $||\Psi(t)||=1$.
 Thus we have derived the [[Hilbert space]] viewpoint of the [[stochastic process]].  This procedure can be reversed using the dictionary formula.
 
- For this brief overview of the stochastic-quantum correspondence we have ignored the measurement aspect as measurements cannot be modeled for [[stochastic processes]] within the [[Kleisli category]] of the [[Giry monad]] $G$. (They can however be modeled within the larger category of the category of algebras of the monad $G$. See Example 1 in [[stochastic processes]].)
+Note that the measurement process for an indivisible [[stochastic process]] can be modeled within the framework of the Kleisi category of the [[Giry monad]] $(G, \eta, \mu)$ as follows:
+ 
+If $\Omega_t \xrightarrow{f} \mathbb{R}$ is a measurable function then $G(\Omega_t) \xrightarrow{G(f)} G(\mathbb{R})$ just pushes the probability measure on $\Omega_t$ forward to a probability measure on $\mathbb{R}$. If we want to characterize the measurement of the process $\Gamma$  in terms of the expected value of the measurement $f$ then the model of the process, measurement, and computation of the expected value can be displayed within the larger category of algebras of the [[Giry monad]] as
+
+\begin{tikzpicture}
+ \node (one) at  (0,0)  {$\mathbf{1}$};
+ \node (GO0) at  (3,0) {$G(\Omega_0)$};
+ \node (G2Ot) at  (6,0)  {$G^2(\Omega_t)$};
+ \node (GOt) at   (9,0) {$G(\Omega_t)$};
+ \node (GR) at   (12,0)  {$G(\mathbb{R}_{\infty})$};
+ \node (R)  at   (15,0) {$\mathbb{R}_{\infty}$};
+
+ \draw[->,above] (one) to node {$P=\Gamma(0)$} (GO0);
+ \draw[->,above] (GO0) to node {$G(\Gamma(t))$} (G2Ot);
+ \draw[->,above] (G2Ot) to node {$\mu_{\Omega_t}$} (GOt);
+ \draw[->,above] (GOt) to node {$G(f)$} (GR);
+ \draw[->,above] (GR) to node {$\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$} (R);
+
+\end{tikzpicture} 
+where the [[standard Borel space]] $\mathbb{R}_{\infty}$ is the one point compactification of the real line. (There is no $G$-algebra $G(\mathbb{R}) \rightarrow \mathbb{R}$; so to model any process with measurement $\Omega \xrightarrow{f} \mathbb{R}$ we first need to embedd $\mathbb{R}$ into $\mathbb{R}_{\infty}$.)
+The operator $\mathbb{E}_{\bullet}(id_{\mathbb{R}_{\infty}})$ is defined at each $P \in G(\mathbb{R}_{\infty})$ by $\mathbb{E}_{P}(id_{\mathbb{R}_{\infty}}) =\int id_{\mathbb{R}_{\infty}} \, dP$, yielding the expected value
+$$
+\mathbb{E}_{\mu(G(\Gamma(t)(P)))}(f) = \int_{\omega \in \Omega} \Big( \int_{x \in \Omega} f(x) \, d\Gamma_t(\bullet | \omega) \Big) \, dP.
+$$
+
+
+Editorial Note: The dictionary formula only makes sense for the configuration space $\Omega$ being a countable measurable space.  If $\Omega$ is a [[standard Borel space]] with cardinality of the continuum and $P$ is a probability measure on $\Omega$ such that $P(\{i\})=0$  for every $i \in \Omega$ then $\Gamma_{i,j}(t)=0$.  Hence our assumption that $\Omega$ be a countable measurable set.  Note however that [Barandes 2025](#Barandes2025) (page 5) claims that the stochastic-quantum correspondence extends to uncountable spaces provided the dictionary formula is characterized in terms of probability density functions. He has yet to provide that correspondence and, at present, this nLab author does not understand how that construction can be carried out.
 
 
 ## Interpretations
@@ -183,3 +210,5 @@ For a discussion of the measurement problem arising in other interpretations of 
 
 [[!redirects indivisible stochastic interpretation of quantum mechanics]]
 [[!redirects Barandes interpretation of quantum mechanics]]
+[[!redirects indivisible interpretation of quantum mechanics]]
+[[!redirects indivisible quantum theory]]
