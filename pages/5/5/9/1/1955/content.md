@@ -290,7 +290,7 @@ $$
   d e^t = d\left(\sum_{n=0}^{\infty} \frac{t^n}{n!}\right) \ne \sum_{n=0}^{\infty} \frac{d(t^n)}{n!} = e^t d t \,.
 $$
 
-However, the only proof we know that $d e^t \ne e^t d t$ is quite tricky: in fact it uses the axiom of choice]]!
+However, the only proof we know that $d e^t \ne e^t d t$ is quite tricky: in fact it uses the [[axiom of choice]]!
 
 * {#Speyer09} [[David Speyer]]: *Kähler differentials and ordinary differentials*, MathOverflow reply (2009) &lbrack;[MO:a/9723](https://mathoverflow.net/a/9723/381)&rbrack;
 
