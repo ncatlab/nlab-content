@@ -233,11 +233,31 @@ This shows that if $\gamma$ is regarded with its two endpoints both as incoming 
 \label{SymmetricMonoidalFunctorToCoSpans}
 There is a [[symmetric monoidal (infinity,n)-category|symmetric monoidal]] [[(infinity,n)-functor|$(\infty,n)$-functor]]
 $$
-  Bord_n \longrightarrow CoSpan_n(Grpd_\infty)
+  Bord_n 
+    \longrightarrow 
+  CoSpan_n(Grpd_\infty)
+    \equiv
+  Corr_n\big(
+    Grpd_\infty^{op}
+  \big)
 $$
-from the unoriented [[(infinity,n)-category of cobordisms|$(\infty,n)$-category of cobordisms]] to the [[(infinity,n)-category|$(\infty,n)$-category]] of [[cospans]] of [[infinity-groupoids|$\infty$-groupoids]] (the dual version of the [[(infinity,n)-category of correspondences|$(\infty,n)$-category of correspondences]]) which first regards a [[cobordism]] as the higher [[cospan]] (in [[SmthMfd]]) of its [[boundary]]-inclusions and then applies the [[shape modality]] $\esh \colon SmthMfd \longrightarrow Grpd_\infty$, passing to the underlying [[fundamental infinity-groupoids|fundamental $\infty$-groupoids]]/[[homotopy types]].
+
+
+* from the unoriented [[(infinity,n)-category of cobordisms|$(\infty,n)$-category of cobordisms]] 
+
+* to the [[(infinity,n)-category|$(\infty,n)$-category]] of [[cospans]] of [[infinity-groupoids|$\infty$-groupoids]], hence
+
+  the [[(infinity,n)-category of correspondences|$(\infty,n)$-category of correspondences]] in the [[opposite (infinity,1)-category|opposite]] of [[infinity-Grpd|$Grpd_\infty$]],
+
+given by 
+
+* first regarding a [[cobordism]] as the higher [[cospan]] (in [[SmthMfd]]) of its [[boundary]]-inclusions 
+
+* then applying the [[shape modality]] $\esh \colon SmthMfd \longrightarrow Grpd_\infty$, passing to the underlying [[fundamental infinity-groupoids|fundamental $\infty$-groupoids]]/[[homotopy types]].
+
 \end{proposition}
-(The basic idea of this construction is common, but an actual proof of its symmetric monoidal $(\infty,n)$-functoriality is due to [Calaque, Haugseng & Scheimbauer 2025 Thm. D](#CalaqueHaugsengScheimbauer2025))
+The basic idea of this construction is common, but an actual proof of its symmetric monoidal $(\infty,n)$-functoriality is due to [Calaque, Haugseng & Scheimbauer 2025 Thm. D](#CalaqueHaugsengScheimbauer2025).
+
 
 ### Relation to Thom spectrum
 
