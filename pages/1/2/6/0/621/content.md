@@ -18,18 +18,28 @@
 =--
 
 
-# Traces
-* table of contents 
-{: toc}
+\tableofcontents
 
 
 ## Idea
 
-Given an [[endomorphism]] $f:A\to A$ in a [[traced monoidal category]] $\mathscr{C}$ there is a natural notation of a _trace_ $\tr(f):1\to 1$, where $1$ is the tensor unit. When $\mathscr{C}$ is a $\mathbb{C}$-linear category for which the tensor unit (e.g. a fusion categories), we can canonically identity $\tr(f)$ with a complex number. That is, the trace of $f$ is the unique scalar $\lambda$ such that
+Given an [[endomorphism]] $f\colon A\to A$ in a [[traced monoidal category]] $\mathscr{C}$ there is a natural notion of its _trace_ $\tr(f) \colon 1\to 1$, where $1$ denotes the [[tensor unit]]. 
 
-$$\tr(f)=\lambda \cdot \text{id}_A.$$
+When $\mathscr{C}$ is a $\mathbb{C}$-linear category for which the tensor unit (e.g. a [[fusion category]]), we can canonically identity $\tr(f)$ with a [[complex number]]. 
 
-In the case that $f$ is a [[linear map | linear]] endomorphism of a [[finite number| finite]] [[dimension | dimensional]] [[vector space]], we recover the usual notion of trace from [[linear algebra]].
+That is, the trace of $f$ is the unique [[scalar]] $\lambda \in End(1)$ such that
+
+$$
+  \tr(f)
+    \,=\,
+  \lambda 
+    \cdot 
+   \text{id}_1 
+  \mathrlap{\,.}
+$$
+
+
+In the case that $f$ is a [[linear map|linear]] [[endomorphism]] of a [[finite number| finite]] [[dimension | dimensional vector space]], this recovers the usual notion of trace from [[linear algebra]].
 
 ## Definition
 
