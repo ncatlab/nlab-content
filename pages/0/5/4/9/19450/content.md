@@ -39,6 +39,8 @@ Let $\mathbf{Ex}$ be the (bi-)category of [[exact categories]] and [[regular fun
 
 ## References
 
+* [[Martin Hyland]], A small complete category. Annals of Pure and Applied Logic, Volume 40, Issue 2, November 1988, Pages 135-165. doi: https://doi.org/10.1016/0168-0072(88)90018-8
+
 * [[Maria Maietti]] and [[Giuseppe Rosolini]], Unifying exact completions. Applied Categorical Structures, 2012. arxiv:[1212.0966 ](https://arxiv.org/abs/1212.0966)
 
 [[!redirects categories of PERs]]
