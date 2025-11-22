@@ -13181,8 +13181,9 @@ $$
 =--
 
 
-+-- {: .num_theorem #EMTheorem}
-###### Theorem (Eilenberg-MacLane)
+\begin{theorem}
+\label{EMTheorem}
+(Eilenberg-MacLane)
 
 Given a [[simplicial abelian group]] $A$, then the inclusion
 
@@ -13193,9 +13194,9 @@ $$
 of the normalized chain complex, def. \ref{NormalizedChainComplexOnGeneralGroup} into the full alternating face map complex, def. \ref{AlternatingFaceMapComplex},
 is a [[natural transformation|natural]] [[quasi-isomorphism]] and in fact a natural chain [[homotopy equivalence]], i.e. the complex $D_\bullet(X)$ is null-homotopic.
 
-=--
+\end{theorem}
 
-([Goerss-Jardine, theorem III 2.4](Moore+complex#GoerssJardine))
+([Goerss & Jardine, theorem III 2.4](Moore+complex#GoerssJardine))
 
 
 +-- {: .num_cor}
