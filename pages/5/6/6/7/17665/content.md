@@ -105,7 +105,7 @@ An indivisible [[stochastic process]] is a very general type of [[stochastic pro
 ## Examples
 
 \begin{example}
- A 3-stage stochastic process $\mathbf{Q}$ with  measurements $\Omega_i \xrightarrow{f_i} \mathbb{R}$, modeled within the category of algebras of the [[Giry monad]] $(G, \eta, \mu)$ so that the process $\mathbf{Q}$ can be characterized in terms of the expected values of the measurements, is given by
+ A 3-stage Markov [[stochastic process]] $\mathbf{Q}$ with  measurements $\Omega_i \xrightarrow{f_i} \mathbb{R}$, modeled within the category of algebras of the [[Giry monad]] $(G, \eta, \mu)$ so that the process $\mathbf{Q}$ can be characterized in terms of the expected values of the measurements, is given by
 
 \begin{tikzpicture}
  \node (one) at  (0,0)  {$\mathbf{1}$};
