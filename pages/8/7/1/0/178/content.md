@@ -382,11 +382,16 @@ Smooth $\infty$-groupoids and related cohesive structures play a central role in
 
 ## References
 
-For standard references on [[differential geometry]] and [[Lie groupoid]]s see there. 
+For standard references on [[differential geometry]] and [[Lie groupoids]] see there. 
 
 The $(\infty,1)$-topos $Smooth \infty Grpd$ is discussed in section 3.3 of
 
-* {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+* {#Schreiber13} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ (2013)
+
+following
+
+* [[Daniel Dugger]]: _Sheaves and homotopy theory_ (1998) &lbrack;[[DuggerSheavesAndHomotopyTheory.pdf:file]]&rbrack;
+
 
 A discussion of smooth $\infty$-groupoids as $(\infty,1)$-sheaves on $CartSp$ and the presentaton of the $\infty$-Chern-Weil homomorphism on these is in
 
