@@ -136,7 +136,7 @@ $$
 and $\Psi(t)$ satisfies the property $||\Psi(t)||=1$.
 Thus we have derived the [[Hilbert space]] viewpoint of the [[stochastic process]].  This procedure can be reversed using the dictionary formula.
 
-Note that the measurement process for an indivisible [[stochastic process]] can be modeled within the framework of the Kleisi category of the [[Giry monad]] $(G, \eta, \mu)$ as follows:
+Note that the measurement process for an indivisible [[stochastic process]] can be modeled within the framework of the [[Kleisli category]] of the [[Giry monad]] $(G, \eta, \mu)$ as follows:
  
 If $\Omega_t \xrightarrow{f} \mathbb{R}$ is a measurable function then $G(\Omega_t) \xrightarrow{G(f)} G(\mathbb{R})$ just pushes the probability measure on $\Omega_t$ forward to a probability measure on $\mathbb{R}$. If we want to characterize the measurement of the process $\Gamma$  in terms of the expected value of the measurement $f$ then the model of the process, measurement, and computation of the expected value can be displayed within the larger category of algebras of the [[Giry monad]] as
 
