@@ -10652,8 +10652,8 @@ for the categories of topologically enriched functors equipped with these classe
 
 =--
 
-+-- {: .num_theorem #ProjectiveModelStructureOnTopologicalFunctors}
-###### Theorem
+\begin{theorem}
+\label{ProjectiveModelStructureOnTopologicalFunctors}
 
 The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors} constitute a [[model category]] structure on $[\mathcal{C}, Top_{cg}]$ and $[\mathcal{C}, Top^{\ast/}_{cg}]$, called the **[[projective model structure on enriched functors]]**
 
@@ -10670,7 +10670,7 @@ $$
 
 These are [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}, with set of generating (acyclic) cofibrations the sets $I_{Top}^{\mathcal{C}}$, $J_{Top}^{\mathcal{C}}$ and $I_{Top^{\ast/}}^{\mathcal{C}}$, $J_{Top^{\ast/}}^{\mathcal{C}}$ from def. \ref{GeneratingCofibrationsForProjectiveStructureOnFunctors}, respectively.
 
-=--
+\end{theorem}
 
 ([Piacenza 91, theorem 5.4](#Piacenza91))
 
@@ -13328,8 +13328,8 @@ where
 
 ([Dold 58](Dold-Kan+correspondence#Dold58), [Kan 58](Dold-Kan+correspondence#Kan58), [Dold-Puppe 61](Dold-Kan+correspondence#DoldPuppe61)).
 
-+-- {: .num_theorem }
-###### Theorem (Kan)
+
+\begin{theorem}
 
 For the case that $A$ is the category [[Ab]] of [[abelian group]]s, the functors $N$ and $\Gamma$ are [[nerve and realization]] with respect to the cosimplicial chain complex
 
@@ -13345,7 +13345,7 @@ $$
     \,.
 $$
 
-=--
+\end{theorem}
 
 This is due to ([Kan 58](Dold-Kan+correspondence#Kan58)).
 
@@ -13445,13 +13445,13 @@ It follows that with the inverse structure maps, we also have an [[adjunction]] 
 Hence in conclusion the [[Dold-Kan correspondence]] allows us to regard [[chain complexes]] (in non-negative degree) as, in particular, special [[simplicial sets]]. In fact as simplicial sets they are [[Kan complexes]] and hence [[infinity-groupoids]]:
 
 
-+-- {: .num_theorem #MooreTheorem}
-###### Theorem (J. C. Moore)
+\begin{theorem}
+\label{MooreTheorem}
 
 The [[simplicial set]] underlying any [[simplicial group]]
 (by forgetting the group structure) is a [[Kan complex]].
 
-=--
+\end{theorem}
 
 This is due to ([Moore, 1954](simplicial+group#Moore54))
 
