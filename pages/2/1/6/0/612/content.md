@@ -18,7 +18,6 @@ After an early interest in [[formal logic]] (specifically notions of [[computabi
 ## References (partly) indexed on the $n$Lab ##
 
 
-
 ### Higher category theory
 
 *  _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([pdf](http://www.math.harvard.edu/~lurie/papers/GoodwillieI.pdf), [arXiv](http://arxiv.org/abs/0905.0462))
@@ -79,6 +78,9 @@ subsuming
   on [[∞-Lie algebra]]s as formal neighbourhoods of point in [[∞-stack]]s.
 
 
+On [[ambidextrous adjunctions]] in [[stable homotopy theory]]:
+
+* [[Michael Hopkins]], [[Jacob Lurie]]: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2013) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf), [[HopkinsLurie-Ambidexterity.pdf:file]]&rbrack;
 
 
 
