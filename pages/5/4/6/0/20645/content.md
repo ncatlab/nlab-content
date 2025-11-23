@@ -45,8 +45,9 @@ review:
 
 * [[Howard Georgi]], §24 in: *Lie Algebras In Particle Physics*, Westview Press (1999), CRC Press (2019) &lbrack;[doi:10.1201/9780429499210](https://doi.org/10.1201/9780429499210)&rbrack;
 
-
 * {#Malinsky09} [[Michal Malinský]], _35 years of GUTs - where do we stand?_, 2009 ([pdf](https://www.mpi-hd.mpg.de/lin/seminar_theory/talks/Malinsky.pdf))
+
+* [[John Baez]] and [[John Huerta]], *The algebra of grand unified theories*, Bull. Amer. Math. Soc. 47 (2010), 483-552. ([arxiv:0904.1556](https://arxiv.org/abs/0904.1556))
 
 for non-superymmetric [[model (physics)|models]]:
 
@@ -66,7 +67,7 @@ for non-superymmetric [[model (physics)|models]]:
 
   > Results indicating non-SUSY $SO(10)$ as self sufficient theory for neutrino masses, baryon asymmetry, dark matter, vacuum stability of SM scalar potential, origin of three gauge forces, and observed proton stability.
 
-* Nobuchika Okada, Digesh Raut, Qaisar Shafi, _Inflation, Proton Decay, and Higgs-Portal Dark Matter in $SO(10) \times U(1)_\pri$_ ([arXiv:1906.06869](https://arxiv.org/abs/1906.06869))
+* Nobuchika Okada, Digesh Raut, Qaisar Shafi, _Inflation, Proton Decay, and Higgs-Portal Dark Matter in $SO(10) \times U(1)_\psi$_ ([arXiv:1906.06869](https://arxiv.org/abs/1906.06869))
 
 for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 
