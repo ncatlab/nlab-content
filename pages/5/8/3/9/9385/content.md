@@ -61,11 +61,11 @@ In parts of the literature this case is understood by default when speaking of "
 
 * [[connection on a smooth principal infinity-bundle]]
 
+* [[infinity-local system]], [[local system]]
+
 * [[flat connection]]
 
 * [[Galois theory]]
-
-* [[local system]]
 
 * [[constant infinity-stack]]
 
@@ -76,7 +76,7 @@ In parts of the literature this case is understood by default when speaking of "
 
 ### General
 
-On higher version of [[Galois theory]] via [[automorphisms]] of [[locally constant infinity-stacks|locally constant $\infy$-stacks]]:
+On higher version of [[Galois theory]] via [[automorphisms]] of [[locally constant infinity-stacks|locally constant $\infty$-stacks]]:
 
 * [[Bertrand Toën]], *Vers une interprétation galoisienne de la théorie de l'homotopie*, Cahiers de Topologie et Géométrie Différentielle Catégoriques **43** 4 (2002) 257-312 &lbrack;[numdam:CTGDC_2002__43_4_257_0](http://www.numdam.org/item/?id=CTGDC_2002__43_4_257_0)&rbrack;
 
@@ -85,6 +85,11 @@ On higher version of [[Galois theory]] via [[automorphisms]] of [[locally consta
 In view of [[cohesive homotopy theory]]:
 
 * [[schreiber:differential cohomology in a cohesive topos|dcct §3.8.5]]
+
+In the generality of [[(infinity,1)-module bundles|$(\infty,1)$-module bundles]]:
+
+* [[Michael Hopkins]], [[Jacob Lurie]]: *Local Systems*, section 4.3 of: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2013) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf), [[HopkinsLurie-Ambidexterity.pdf:file]]&rbrack;
+
 
 
 ### Flat $(\infty,1)$-vector bundles ($\infty$-local systems)
