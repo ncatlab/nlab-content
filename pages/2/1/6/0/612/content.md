@@ -78,10 +78,11 @@ subsuming
   on [[∞-Lie algebra]]s as formal neighbourhoods of point in [[∞-stack]]s.
 
 
-On [[ambidextrous adjunctions]] in [[stable homotopy theory]]:
+On [[ambidextrous adjunctions]] in [[stable homotopy theory]] with application to [[extended topological field theories]]:
 
 * [[Michael Hopkins]], [[Jacob Lurie]]: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2013) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf), [[HopkinsLurie-Ambidexterity.pdf:file]]&rbrack;
 
+* [[Gijs Heuts]], [[Jacob Lurie]]: *Ambidexterity*, in: *Topology and Field Theories*, Contemporary Mathematics **613**, AMS (2014) 79-110 &lbrack;[ISBN:978-1-4704-1015-5](https://bookstore.ams.org/conm-613), [doi:10.1090/conm/613](https://doi.org/10.1090/conm/613), [[HeutsLurie_Ambidexterity.pdf:file]]&rbrack;
 
 
 ### Higher geometry
