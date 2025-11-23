@@ -9,12 +9,11 @@ He got his PhD in 1999 at MIT, advised by [[Michael J. Hopkins]].
 
 On [[model structures on simplicial presheaves]] and the $\mathbb{R}^1$-[[Bousfield localization of model categories|localization]] of that on the site of [[smooth manifolds]] (later: "[[smooth infinity-groupoids]]"):
 
-* [[Daniel Dugger]], _Sheaves and homotopy theory_ (1998) &lbrack;[[DuggerSheavesAndHomotopyTheory.pdf:file]]&rbrack;
+* [[Daniel Dugger]]: _Sheaves and homotopy theory_ (1998) &lbrack;[[DuggerSheavesAndHomotopyTheory.pdf:file]], [[Dugger1998.pdf:file]]&rbrack;
 
 On [[hypercovers]] in [[simplicial presheaves]]:
 
 * {#DuggerHollanderIsaksen02} [[Daniel Dugger]], [[Sharon Hollander]], [[Daniel Isaksen]], _Hypercovers and simplicial presheaves_, Mathematical Proceedings of the Cambridge Philosophical Society. Vol. 136. No. 1., 2004. ([arXiv:0205027](http://arxiv.org/abs/math/0205027), [K-theory archive](http://www.math.uiuc.edu/K-theory/0563/))
-
 
 On [[combinatorial model categories]]:
 
