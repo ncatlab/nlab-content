@@ -18,10 +18,7 @@
 =--
 
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -47,6 +44,12 @@ The interpretation in terms of certain [[module spectra]] over the [[Spanier-Whi
 and the interpretation in terms of $\mathbb{S}[\Omega X]$-[[module spectra]], and [[Koszul duality|Koszul dually]] in terms of $\mathbb{S}[X]$-[[comodule spectra]] (using the canonical [[coring spectrum]]-[[structure]] of [[suspension spectra]]), is due to:
 
 * {#HessShipley14} [[Kathryn Hess]], [[Brooke Shipley]]: _Waldhausen K-theory of spaces via comodules_, Advances in Mathematics **290** (2016) 1079-1137 &lbrack;[arXiv:1402.4719](https://arxiv.org/abs/1402.4719), [doi:10.1016/j.aim.2015.12.019](https://doi.org/10.1016/j.aim.2015.12.019)&rbrack;
+
+further discussed in:
+
+* [[Jacob Lurie]]: *The Algebraic K-Theory of Spaces*, Lecture 21 of: *[Algebraic K-Theory and Manifold Topology](https://www.math.ias.edu/~lurie/281.html)* (2014) &lbrack;[pdf](https://www.math.ias.edu/%7Elurie/281notes/Lecture21-ATheory.pdf)&rbrack;
+
+
 
 [[!redirects A-theories]]
 
