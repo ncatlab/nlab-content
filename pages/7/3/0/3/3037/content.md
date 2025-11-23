@@ -75,7 +75,7 @@ The [[syntax - semantics duality]] in first order logic is discussed in
 
 On the historical development:
 
-* Jos&#233; Ferreir&#243;s, _The Road to Modern Logic - An Interpretation_ , The Bulletin of Symbolic Logic **7** no. 4 (2001) pp.441-484. ([draft](http://personal.us.es/josef/BSL0704-001.pdf))
+* Jos&#233; Ferreir&#243;s, _The Road to Modern Logic - An Interpretation_ , The Bulletin of Symbolic Logic **7** no. 4 (2001) pp.441-484. ([draft](https://idus.us.es/server/api/core/bitstreams/819edc9f-3254-4445-bc4f-6f7635521009/content))
 
 ### From type theory
  {#ReferencesFromTypeTheory}
