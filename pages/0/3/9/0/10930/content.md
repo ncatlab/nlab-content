@@ -10,6 +10,7 @@
 =--
 
 
+
 This page is to record the reference:
 
 * [[Michael Hopkins]], [[Jacob Lurie]]:
@@ -25,12 +26,16 @@ This page is to record the reference:
   [pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf),
   [[HopkinsLurie-Ambidexterity.pdf:file]]
 
-  also: talk at _Notre Dame Graduate Summer School on Topology and Field Theories_ and _Harvard lecture_ 2012 ([video part 1](http://www.youtube.com/watch?v=eQayYLDw1VA), [part 2](http://www.youtube.com/watch?v=OEShrQyvmS4), [part 3](http://www.youtube.com/watch?v=nOIcdn1iUR4) [part 4](http://www.youtube.com/watch?v=ZwnClYedaYM), [pdf lecture notes](http://www.math.northwestern.edu/~celliott/notre_dame_notes/Lurie_notes.pdf) by Chris Elliott)
-
-
 on [[biproduct|bilimits]] in [[K(n)-local stable homotopy theory]] and generally on [[ambidextrous adjunctions]] and their un-twisted [[Wirthmüller isomorphisms]] for [[(∞,1)-module bundles|∞-module bundles]] in [[semiadditive (∞,1)-categories]].
 
 (The untwisted [[Wirthmüller isomorphism]] is the map $\mu$ in Construction 4.0.7 and then the [[norm map]] in Remark 4.1.12. The induced [[integration]] map considered in Construction 4.0.7, Notation 4.1.6 there is also discussed (for the general twisted case) in the article _[[schreiber:Quantization via Linear homotopy types]]_, see section 4.3 there for details.)
+
+The material was the basis of a talk at _[Notre Dame Graduate Summer School on Topology and Field Theories](https://science.nd.edu/news-and-media/news/summer-school-in-topology-and-field-theories-brings-top-lecturers-and-diverse-learners/)_ and _Harvard lecture_ 2012 ([video part 1](http://www.youtube.com/watch?v=eQayYLDw1VA), [part 2](http://www.youtube.com/watch?v=OEShrQyvmS4), [part 3](http://www.youtube.com/watch?v=nOIcdn1iUR4) [part 4](http://www.youtube.com/watch?v=ZwnClYedaYM), [pdf lecture notes](http://www.math.northwestern.edu/~celliott/notre_dame_notes/Lurie_notes.pdf) by Chris Elliott) 
+
+which appeared in expository form as:
+
+* [[Gijs Heuts]], [[Jacob Lurie]]: *Ambidexterity*, in: *Topology and Field Theories*, Contemporary Mathematics **613**, AMS (2014) 79-110 &lbrack;[ISBN:978-1-4704-1015-5](https://bookstore.ams.org/conm-613), [doi:10.1090/conm/613](https://doi.org/10.1090/conm/613), [[HeutsLurie_Ambidexterity.pdf:file]]&rbrack;
+
 
 The discussion in the article is apparently motivated as part of what it takes to make precise the discussion of [[quantization]] in sections 3 and 8 of 
 
