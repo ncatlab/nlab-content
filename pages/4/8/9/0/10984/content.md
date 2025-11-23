@@ -143,6 +143,9 @@ See also:
  
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]]: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2014) &lbrack;[[HopkinsLurie-Ambidexterity.pdf:file]]&rbrack;
 
+* [[Gijs Heuts]], [[Jacob Lurie]]: *Ambidexterity*, in: *Topology and Field Theories*, Contemporary Mathematics **613**, AMS (2014) 79-110 &lbrack;[ISBN:978-1-4704-1015-5](https://bookstore.ams.org/conm-613), [doi:10.1090/conm/613](https://doi.org/10.1090/conm/613), [[HeutsLurie_Ambidexterity.pdf:file]]&rbrack;
+
+
 with some review in:
 
 * [[Peter Haine]], *Ambidexterity* (2018) &lbrack;[pdf](https://math.berkeley.edu/~phaine/files/Ambidexterity_4.pdf), [[Haine-Ambidexterity.pdf:file]]&rbrack;
