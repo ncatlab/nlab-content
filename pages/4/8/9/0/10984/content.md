@@ -141,7 +141,7 @@ On the [[Frobenius monads]] induced by ambidextrous adjuntions:
 
 See also:
  
-* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]]: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2014)
+* {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]]: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2014) &lbrack;[[HopkinsLurie-Ambidexterity.pdf:file]]&rbrack;
 
 with some review in:
 
