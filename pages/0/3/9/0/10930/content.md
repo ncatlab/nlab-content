@@ -22,9 +22,11 @@ This page is to record the reference:
 
   (2013)
 
-  [pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf)
+  [pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf),
+  [[HopkinsLurie-Ambidexterity.pdf:file]]
 
   also: talk at _Notre Dame Graduate Summer School on Topology and Field Theories_ and _Harvard lecture_ 2012 ([video part 1](http://www.youtube.com/watch?v=eQayYLDw1VA), [part 2](http://www.youtube.com/watch?v=OEShrQyvmS4), [part 3](http://www.youtube.com/watch?v=nOIcdn1iUR4) [part 4](http://www.youtube.com/watch?v=ZwnClYedaYM), [pdf lecture notes](http://www.math.northwestern.edu/~celliott/notre_dame_notes/Lurie_notes.pdf) by Chris Elliott)
+
 
 on [[biproduct|bilimits]] in [[K(n)-local stable homotopy theory]] and generally on [[ambidextrous adjunctions]] and their un-twisted [[Wirthmüller isomorphisms]] for [[(∞,1)-module bundles|∞-module bundles]] in [[semiadditive (∞,1)-categories]].
 
