@@ -128,7 +128,7 @@ On [[stable homotopy theory]]:
 
 On [[ambidextrous adjunctions]] in [[stable homotopy theory]]
 
-* [[Michael Hopkins]], [[Jacob Lurie]]: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2013) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf)&rbrack;
+* [[Michael Hopkins]], [[Jacob Lurie]]: *[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]* (2013) &lbrack;[pdf](http://www.math.harvard.edu/~lurie/papers/Ambidexterity.pdf), [[HopkinsLurie-Ambidexterity.pdf:file]]&rbrack;
 
 
 Introducing [[Hodge-filtered differential cohomology]] and its specialization to Hodge-filtered [[complex cobordism theory]]: 
