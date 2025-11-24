@@ -203,6 +203,21 @@ For more discussion along these lines see at _[[motivic quantization]]_.
 
 [[!include action (physics) - table]]
 
+
+## Properties
+
+### Relation to time-ordered products of observables
+
+\begin{remark}\label{OperatorOrderAndTimeOrder}
+**(operator product order and time-order)**
+\linebreak
+  Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *[[time-ordered product|temporal ordering]]* of their [[observable]] values ([Feynman 1948, p. 381](#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong)).
+
+Conversely, the product of [[observable]]-values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21)).
+\end{remark}
+
+
+
 ## The path integral in the bigger picture
 
 Ours is the age whose central fundamental theoretical physics question is: 
