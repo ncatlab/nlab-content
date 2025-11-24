@@ -1,5 +1,15 @@
 
-* [webpage](http://www.damtp.cam.ac.uk/people/m.j.perry/)
+Malcolm J. Perry
+
+* [institute page](https://www.seresearch.qmul.ac.uk/cfp/people/mperry/)
+
+* <a href="https://en.wikipedia.org/wiki/Malcolm_Perry_(physicist)">Wikipedia entry</a>
+
+* [inSpire page](https://inspirehep.net/authors/993693)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=j2fD8FcAAAAJ&hl=en)
+
+
 
 ## Selected writings
 
@@ -29,6 +39,10 @@ On [[boundary conditions]] for interacting [[M2-branes]] in regarding through th
 Early discussion of enriching [[spacetime]] by [[M2-brane]] charges in higher analogy to [[double field theory]] and similar to later discussion of [[exceptional field theory]]:
 
 * [[David S. Berman]], [[Malcolm J. Perry]]: *Generalized Geometry and M theory*,  J. High Energ. Phys. **2011** 74 (2011)  &lbrack;[arXiv:1008.1763v4](https://arxiv.org/abs/1008.1763v4), <a href="https://doi.org/10.1007/JHEP06(2011)074">doi:10.1007/JHEP06(2011)074</a>&rbrack;
+
+On [[black hole entropy]] in [[supergravity]]:
+
+* [[Mirjam Cvetic]], [[Malcolm J. Perry]]: *Quantization of Black Hole Entropy for Black Holes in Subtracted Geometry* &lbrack;[arXiv:2504.14247](https://arxiv.org/abs/2504.14247)&rbrack;
 
 
 ## Related entries
