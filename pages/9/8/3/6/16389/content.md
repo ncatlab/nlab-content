@@ -298,6 +298,9 @@ Review:
 
 
 
+[[!redirects light front quantizations]]
+
+[[!redirects light-cone quantization]]
 [[!redirects light cone quantization]]
 
 [[!redirects light-cone gauge quantization]]
@@ -310,7 +313,6 @@ Review:
 [[!redirects light cone gauge]]
 [[!redirects lightcone gauge]]
 
-[[!redirects light front quantization]]
 
 [[!redirects discrete light front quantization]]
 
