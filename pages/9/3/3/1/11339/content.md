@@ -16,8 +16,11 @@ Introducing the [[TT deformation]] in [[2d CFT]]:
 
 * [[Alexander Zamolodchikov]], _Expectation value of composite field $T \bar T$ in two-dimensional quantum field theory_ ([arXiv:hep-th/0401146](https://arxiv.org/abs/hep-th/0401146))
 
+[[integrable model|Integrability]]-based approach for the systematic study of [[meson]] [[masses]] in the [['t Hooft model]]:
 
-## Related $n$Lab entries
+* Vladimir Fateev, Sergei Lukyanov, [[Alexander Zamolodchikov]], *On mass spectrum in ’t Hooft's 2D model of mesons*, J.Phys.A **42** (2009) 304012 &lbrack;[arXiv:0905.2280](https://arxiv.org/abs/0905.2280), <a href="https://doi.org/10.1088/1751-8113/42/30/304012">doi:10.1088/1751-8113/42/30/304012</a>&rbrack;
+
+## Related entries
 
 * [[Knizhnik-Zamolodchikov equation]]
 
