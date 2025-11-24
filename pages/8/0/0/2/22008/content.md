@@ -57,5 +57,8 @@ JT-gravity gives a good approximation to the [[anti de Sitter spacetime|AdS]]-fa
 
 * J. Ambjørn, T. Budd: *Two-Dimensional Quantum Geometry*, Acta Physica Polonica B **44** 12 (2013) 2537 &lbrack;[arXiv:1310.8552](https://arxiv.org/abs/1310.8552), [doi:10.5506/APhysPolB.44.2537](https://doi.org/10.5506/APhysPolB.44.2537)&rbrack;
 
+* Gustavo J. Turiaci: *Les Houches lectures on two-dimensional gravity and holography* &lbrack;[arXiv:2412.09537](https://arxiv.org/abs/2412.09537)&rbrack;
+
+
 
 [[!redirects 2d gravity]]
