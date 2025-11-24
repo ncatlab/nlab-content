@@ -578,7 +578,7 @@ Discussion in terms of D-branes as [[leaves]] of [[Dirac structures]] on [[Coura
 
 * {#AsakawaSasaWatamura} [[Tsuguhiko Asakawa]], Shuhei Sasa, Satoshi Watamura, _D-branes in Generalized Geometry and Dirac-Born-Infeld Action_ ([arXiv:1206.6964](http://arxiv.org/abs/1206.6964))
 
-See also
+See also:
 
 * [[Martin Cederwall]], Alexander von Gussich, [[Aleksandar Mikovic]], [[Bengt Nilsson]], Anders Westerberg, _On the Dirac-Born-Infeld Action for D-branes_,  Phys.Lett.B390:148-152, 1997 ([arXiv:hep-th/9606173](https://arxiv.org/abs/hep-th/9606173))
 
@@ -617,8 +617,7 @@ The now widely accepted proposal via a symmetrized [[trace]] is due to
 followed by
 
 * {#Myers99} [[Robert Myers]], _Dielectric-Branes_, JHEP 9912 (1999) 022 ([arXiv:hep-th/9910053](https://arxiv.org/abs/hep-th/9910053))
-
-  (introducing the [[Myers effect]])
+  > (introducing the [[Myers effect]])
 
 The symmetrized trace proposal has become widely accepted.
 
@@ -626,8 +625,7 @@ Review includes:
 
 * {#Chemissany04} W. Chemissany, _On the way of finding the non-Abelian Born-Infeld theory_, 2004 ([spire:1286212](http://inspirehep.net/record/1286212) [[ChemissanyNonAbelianDBI04.pdf:file]])
 
-Issues with this proposal at higher order have been found in
-
+Issues with this proposal at higher order have been found in:
 
 * {#HashimotoTaylor97} [[Akikazu Hashimoto]], [[Washington Taylor]], _Fluctuation Spectra of Tilted and Intersecting D-branes from the Born-Infeld Action_, Nucl. Phys. B503: 193-219, 1997 ([arXiv:hep-th/9703217](https://arxiv.org/abs/hep-th/9703217))
 
@@ -636,7 +634,7 @@ Issues with this proposal at higher order have been found in
 * {#BergshoeffBilalRooSevrin01} [[Eric Bergshoeff]], [[Adel Bilal]], [[Mees de Roo]], A. Sevrin, _Supersymmetric non-abelian Born-Infeld revisited_, JHEP 0107, 029 (2001) ([arXiv:hep-th/0105274](https://arxiv.org/abs/hep-th/0105274))
 
 
-Correction terms have been proposed in
+Correction terms have been proposed in:
 
 * {#TaylorVanRaamsdonk99} [[Washington Taylor]], [[Mark Van Raamsdonk]], _Multiple D$p$-branes in Weak Background Fields_, Nucl. Phys. B573:703-734, 2000 ([arXiv:hep-th/9910052](https://arxiv.org/abs/hep-th/9910052))
 
@@ -672,6 +670,10 @@ Discussion of the [[DBI-action]] for [[flavor brane|flavor branes]] in [[hologra
 
 
 * [[Vadim Kaplunovsky]], [[Jacob Sonnenschein]], Section 6 of: _Searching for an Attractive Force in Holographic Nuclear Physics_, JHEP 05 (2011) 058 ([arXiv:1003.2621](https://arxiv.org/abs/1003.2621))
+
+Application of the nonabelian DBI action to the description of [[heavy flavor]] via [[holographic QCD]]:
+
+* [[Carlos Hoyos]], [[Niko Jokela]], Andrea Olzi: *Subtleties of non-Abelian D-brane actions and their effect on holographic heavy-light meson spectra* &lbrack;[arXiv:2511.17409](https://arxiv.org/abs/2511.17409)&rbrack;
 
 
 [[!include holographic Schwinger effect -- references]]
