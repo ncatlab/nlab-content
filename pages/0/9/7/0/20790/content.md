@@ -33,6 +33,14 @@ The original account is:
 
 * {#tHooft74} [[Gerard ’t Hooft]], *A Two-Dimensional Model For Mesons*, Nucl. Phys. B **75** (1974) 461-470 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90088-1">doi:10.1016/0550-3213(74)90088-1</a>&rbrack;
 
+Integrability-based approach for the systematic study of meson masses in the 't Hooft model:
+
+* Vladimir Fateev, Sergei Lukyanov, [[Alexander Zamolodchikov]], *On mass spectrum in ’t Hooft's 2D model of mesons*, J.Phys.A **42** (2009) 304012 &lbrack;[arXiv:0905.2280] (https://arxiv.org/abs/0905.2280), <a href="https://doi.org/10.1088/1751-8113/42/30/304012">doi:10.1088/1751-8113/42/30/304012</a>&rbrack;
+
+* Alexey Litvinov, Pavel Meshcheriakov, *Meson mass spectrum in QCD_2 ’t Hooft's model*, Nucl.Phys.B **1010** (2025) 116766 &lbrack;[arXiv:2409.11324] (https://arxiv.org/abs/2409.11324), <a href="https://doi.org/10.1016/j.nuclphysb.2024.116766">doi:10.1016/j.nuclphysb.2024.116766</a>&rbrack;
+
+* Aleksandr Artemev, Alexey Litvinov, Pavel Meshcheriakov, *QCD_2 ’t Hooft model: Two-flavor mesons spectrum*, Phys.Rev.D **111** (2025) 125001 &lbrack;[arXiv:2504.12081] (https://arxiv.org/abs/2504.12081), <a href="https://doi.org/10.1103/7311-kdbj">doi:10.1103/7311-kdbj</a>&rbrack;
+
 Further discussion:
 
 * [[Michael Douglas]], Keke Li, [[Matthias Staudacher]], *Generalized Two-Dimensional QCD*, Nucl.Phys. B **420** (1994) 118-140 &lbrack;[arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062), <a href="https://doi.org/10.1016/0550-3213(94)90377-8">doi:10.1016/0550-3213(94)90377-8</a>&rbrack;
