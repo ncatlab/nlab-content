@@ -1,6 +1,11 @@
-[[!redirects Mirjam Cvetic]]
 
-* [webpage](http://www.physics.upenn.edu/people/standing-faculty/mirjam-cvetic)
+* [institute page](http://www.physics.upenn.edu/people/standing-faculty/mirjam-cvetic)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Mirjam_Cveti%C4%8D)
+
+* [inSpire page](https://inspirehep.net/authors/1012655)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=W9EGCHEAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -29,6 +34,10 @@ On [[heterotic M-theory]]:
 
 * [[Mirjam Cvetič]], Max Wiesner: *Non-perturbative Resolution of Strong Coupling Singularities in 4d N=1 Heterotic/M-theory* &lbrack;[arXiv:2408.12458](https://arxiv.org/abs/2408.12458)&rbrack;
 
+On [[black hole entropy]] in [[supergravity]]:
+
+* [[Mirjam Cvetic]], [[Malcolm J. Perry]]: *Quantization of Black Hole Entropy for Black Holes in Subtracted Geometry* &lbrack;[arXiv:2504.14247](https://arxiv.org/abs/2504.14247)&rbrack;
+
 
 ## Related entries
 
@@ -47,3 +56,6 @@ On [[heterotic M-theory]]:
 * [[T-duality]]
 
 category: people
+
+
+[[!redirects Mirjam Cvetic]]
