@@ -156,23 +156,23 @@ $$
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
 
-For $n,s,t \in \mathbb{N}$ then there are the following [[isomorphisms]] of [[associative algebras]] over $\mathbb{R}$:
+For $p,q \in \mathbb{N}$ then there are the following [[isomorphisms]] of [[associative algebras]] over $\mathbb{R}$:
 
 $$
-  Cl_{n+2,0} \simeq Cl_{0,n} \otimes_{\mathbb{R}} Cl_{2,0}
-$$
-
-$$
-  Cl_{0,n+2} \simeq Cl_{n,0} \otimes_{\mathbb{R}} Cl_{0,2}
+  Cl_{q+2,p} \simeq Cl_{p,q} \otimes_{\mathbb{R}} Cl_{2,0}
 $$
 
 $$
-  Cl_{s+1.t+1} \simeq Cl_{s,t} \otimes_{\mathbb{R}} Cl_{1,1}
+  Cl_{q,p+2} \simeq Cl_{p,q} \otimes_{\mathbb{R}} Cl_{0,2}
+$$
+
+$$
+  Cl_{p+1,q+1} \simeq Cl_{p,q} \otimes_{\mathbb{R}} Cl_{1,1}
 $$
 
 =--
 
-(e.g. [Lawson-Michelsohn 89, theorem 4.1](#LawsonMichelsohn89), [Figueroa-O'Farrill, lemma 2](#FigueroaOFarrill))
+(e.g. [Lawson-Michelsohn 89, Theorem 4.1](#LawsonMichelsohn89) and [Figueroa-O'Farrill, Lemma 2](#FigueroaOFarrill) for special cases where $p$ or $q$ is zero, and [Budinich and Trautman, Eqs. 7.8b and 7.9](#BudinichTrautman) for the general case)
 
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
@@ -496,9 +496,7 @@ Further early discussion:
 
 * [[Emil Artin]], §V.4 in: *[[Geometric Algebra]]*, Wiley 1957 (1988) &lbrack;[ISBN:978-1-118-16454-9](https://www.wiley.com/en-ae/Geometric+Algebra-p-9781118164549), <a href="https://en.wikipedia.org/wiki/Geometric_Algebra_(book)">Wikipedia entry</a>, [ark:/13960/t4nk37034](https://archive.org/details/geometricalgebra033556mbp/page/n5/mode/2upa)&rbrack;
 
-
 * {#Cartan66} [[Élie Cartan]], _Theory of Spinors_, Dover,  (1966)
-
 
 
 Brief introductions:
@@ -516,11 +514,13 @@ Standard textbook accounts:
 
 * {#Lounesto} [[Pertti Lounesto]], _Clifford  Algebras and Spinors_, London Mathematical Society **286**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511526022](https://doi.org/10.1017/CBO9780511526022)&rbrack;
 
-* Jayme Vaz, Jr., Roldão da Rocha, _An introduction to Clifford algebras and spinors_, Oxford University Press, 2019. xiv+242 pp. ISBN: 978-0-19-883628-5, 978-0-19-878292-6.  [DOI](https://doi.org/10.1093/acprof:oso/9780198782926.001.0001).
+* {#BudinichTrautman} P. Budinich, [[Andrej Trautman]], _The Spinorial Chessboard_, Springer Verlag, 1998.
 
-* D. J. H. Garling, _Clifford algebras: an introduction_, London Mathematical Society Student Texts, 78. Cambridge University Press, Cambridge, 2011. viii+200 pp. ISBN: 978-1-107-42219-3.  [DOI](https://doi.org/10.1017/CBO9780511972997).
+* Jayme Vaz, Jr., Roldão da Rocha, _An Introduction to Clifford algebras and Spinors_, Oxford University Press, 2019. xiv+242 pp. ISBN: 978-0-19-883628-5, 978-0-19-878292-6.  [DOI](https://doi.org/10.1093/acprof:oso/9780198782926.001.0001).
 
-* Jacques Helmstetter, Artibano Micali, _Quadratic mappings and Clifford algebras_, Birkhäuser Verlag, Basel, 2008. xiv+504 pp. ISBN: 978-3-7643-8605-4.  [DOI](https://doi.org/10.1007/978-3-7643-8606-1).
+* D. J. H. Garling, _Clifford Algebras: an Introduction_, London Mathematical Society Student Texts, 78. Cambridge University Press, Cambridge, 2011. viii+200 pp. ISBN: 978-1-107-42219-3.  [DOI](https://doi.org/10.1017/CBO9780511972997).
+
+* Jacques Helmstetter, Artibano Micali, _Quadratic Mappings and Clifford Algebras_, Birkhäuser Verlag, Basel, 2008. xiv+504 pp. ISBN: 978-3-7643-8605-4.  [DOI](https://doi.org/10.1007/978-3-7643-8606-1).
 
 See also:
 
