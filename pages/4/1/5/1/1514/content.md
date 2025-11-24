@@ -93,13 +93,6 @@ For arbitrary Hamiltonians $H = \frac{p^2}{2m} + V(x),$ we get
 \[ \array{\langle \psi_F|e^{-iHt}|\psi_I\rangle &=& \int Dq e^{i \int_0^t dt \frac{1}{2}m \dot{q}^2 - V(x)} \\ &=& \int Dq e^{i\int_0^t\mathcal{L}(\dot{q},q) dt} \\ &=& \int Dq e^{iS(q)}, } \]
 where $S(q)$ is the [[action functional]].
 
-\begin{remark}\label{OperatorOrderAndTimeOrder}
-**(operator product order and time-order)**
-\linebreak
-  Under the path integral, the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} x \cdot$) corresponds to *temporal ordering* of their [[observable]] values ([Feynman 1942 p. 35](#Feynman42), [1948 p. 381](#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong)).
-
-Conversely the product of [[observable]] values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]], eg. [Polchinski 1998 (A.1.17)](#Polchinski98); [Rischke 2021 (5.63)](#Rischke21).
-\end{remark}
 
 
 ### As an integral against the Wiener measure
@@ -204,17 +197,203 @@ For more discussion along these lines see at _[[motivic quantization]]_.
 [[!include action (physics) - table]]
 
 
+
 ## Properties
 
-### Relation to time-ordered products of observables
+### Relation to operator product order and time-order
+ {#RelationToOperatorProductAndTimeOrder}
 
-\begin{remark}\label{OperatorOrderAndTimeOrder}
-**(operator product order and time-order)**
-\linebreak
-  Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *[[time-ordered product|temporal ordering]]* of their [[observable]] values ([Feynman 1948, p. 381](#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong)).
+Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *[[time-ordered product|temporal ordering]]* of their [[observable]] values ([Feynman 1948, p. 381](#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong)).
 
-Conversely, the product of [[observable]]-values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21)).
-\end{remark}
+(Conversely, the product of [[observable]]-values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21).)
+
+Concretely, the following is the observation of [Feynman 1948, p. 381](#Feynman48):
+
+Consider the path integral for a [[particle]] propagating on a [[circle]] $S^1$, and approximated, for the time being, by an ordinary integral over positions $x_t$ at $N$ discrete time steps $t \in \mathbf{N} \coloneqq \{0, 1, \cdots, N-1\}$, hence over discretized trajectories 
+$$
+  x \colon \mathbf{N} \longrightarrow S^1
+  \mathrlap\,.
+$$
+
+To recall that the [[quantum probability theory|quantum expectation value]] of an [[observable]] $O \colon (S^1) ^{\mathbf{N}} \longrightarrow \mathbb{C}$ is expressed as the following (discretized) path integral:
+\[
+  \label{ExpectationValuesForParticleOnS1ViaDiscretized}
+  \big\langle
+    O
+  \big\rangle
+  \;\coloneqq\;
+  \tfrac{1}{\mathcal{N}}
+  \int   
+    O(x) 
+   \,
+   \exp\big(\tfrac{\mathrm{i}}{\hbar} S(x)\big)
+   \,
+   D x
+   \mathrlap{\,,}
+\]
+where 
+$$
+  \mathcal{N} 
+    \coloneqq   
+  \int   
+   \exp\big(\tfrac{\mathrm{i}}{\hbar} S(x)\big)
+   \,
+   D x
+$$
+is the normalization factor (the "[[partition function]]"), and where
+$$
+  \int D x 
+    \,\coloneqq\,
+  \int_{S^1} \cdots \int_{S^1} 
+  \mathrm{d}x_0 \cdots \mathrm{d}x_{\mathbf{N}-1}
+$$
+(for brevity we are disregarding in/out state data, since this does not affect the following argument).
+
+With that simple setup, ordinary [[integration by parts]] gives for an observable which is a [[partial derivative]],
+$$
+  O(x) 
+    \,=\, 
+  \tfrac{\partial F}{\partial x_t} (x)
+  \,,
+  \phantom{--}
+  1 \lt t \lt N
+  \mathrlap{\,,}
+$$
+that its [[expectation value]] is equivalently expressed as:
+\[
+  \label{PartialIntegrationInDiscretizedPathIntegral}
+  \begin{aligned}
+    \big\langle
+      O
+    \big\rangle
+    & \equiv
+    \big\langle
+      \tfrac{\partial F}{\partial x_t}
+    \big\rangle
+    \\   
+    & 
+    -\tfrac{\mathrm{i}}{\hbar}
+    \big\langle
+      F
+      \tfrac{\partial S}{\partial x_t} 
+    \big\rangle
+    \mathrlap{\,.}
+  \end{aligned}
+\]
+
+Specializing this to the [[free field theory|free]] [[non-relativistic particle]] of [[mass]] $m \gt 0$, for which the discretized [[action functional]] is
+$$
+  S(x) 
+   \,=\,  
+  \sum_{1 \leq t \lt N}
+  \tfrac{m}{2}
+  (
+     x_{t+1} 
+     - 
+     x_{t}
+  )^2 
+  \tfrac{1}{N}
+  \mathrlap{\,,}
+$$
+the key point to observe is  that 
+$$
+  \tfrac{\partial S}{\partial x_t}
+  \,=\,
+  m
+  \tfrac{
+    (x_{t} - x_{t-1})
+  }{1/N}
+  -
+  m
+  \tfrac{
+    (x_{t+1} - t_n)
+  }{1/N}
+  \mathrlap{\,.}
+$$
+
+Using this when entering equation (eq:PartialIntegrationInDiscretizedPathIntegral) with the choice
+$$
+  F 
+    \coloneqq 
+  x_t
+$$ 
+ gives:
+$$
+  \mathrm{i}\hbar
+  = 
+  \big\langle
+    x_t 
+    \, 
+    m
+    \tfrac{
+      (x_{t} - x_{t-1})
+    }{1/N}
+  \big\rangle
+  -
+  \big\langle
+    m
+    \tfrac{
+      (x_{t+1} - x_{t})
+    }{1/N}
+    \,
+    x_t
+  \big\rangle
+  \mathrlap{\,.}
+$$
+
+Here we recognize
+$$
+  p_{t+1/2} 
+    \coloneqq 
+    m
+    \tfrac{
+      (x_{t+1} - x_{t})
+    }
+    {1/N}
+$$
+as the discrete approximation to the [[momentum]] observable at time $t + 1/2$, in terms of which we have found that:
+$$
+  \begin{aligned}
+  \mathrm{i}\hbar
+  & = 
+  \big\langle
+    x_t 
+    \cdot
+    p_{t - 1/2}
+    \,-\,
+    p_{t + 1/2}
+    \cdot
+    x_t 
+  \big\rangle
+  \,.
+  \end{aligned}
+$$
+In the time continuum limit, this becomes
+$$
+  \mathrm{i}\hbar
+  \,=\, 
+  \big\langle
+    x_t 
+    \cdot
+    p_{t - \epsilon}
+    \,-\,
+    p_{t + \epsilon}
+    \cdot
+    x_t 
+  \big\rangle
+$$
+for $\epsilon \to 0$.
+
+But this is clearly the path integral expression for what in operator formalism is the [[canonical commutation relation]]
+$$
+  \mathrm{i}\hbar
+  =
+  \hat x \cdot \hat p - \hat p \cdot \hat x
+  \,.
+$$
+
+In conclusion, the observable corresponding to a quantum operator product $B \cdot A$ of observables at times $t$ may be thought of as the result of first shifting the temporal supports of the observables so that  $B$ is observation at a time just a little *after* that of $A$, and then forming the ordinary product of observed values. 
+
 
 
 
