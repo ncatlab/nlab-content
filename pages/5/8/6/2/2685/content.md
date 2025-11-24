@@ -10,7 +10,7 @@ Introducing the [[path integral]]-formulation of [[quantum mechanics]]:
 
 * {#Feynman42} [[Richard P. Feynman]], *The Principles of Least Action in Quantum Mechanics*, PhD thesis (1942), reprinted in [Brown 2005](#Brown05) &lbrack;[doi:10.1142/9789812567635_0001](https://doi.org/10.1142/9789812567635_0001)&rbrack;
 
-* [[Richard Feynman]], *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf), [pdf](https://faculty.washington.edu/seattle/physics541/2012-path-integrals/paper.pdf)&rbrack;
+* [[Richard Feynman]], *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf), [pdf](https://faculty.washington.edu/seattle/physics541/2012-path-integrals/paper.pdf), [[Feynman-1948.pdf:file]]&rbrack;
 
 reprinted with historical commentary in:
 
@@ -125,7 +125,7 @@ From [Feynman 1988](#Feynman88) ([here](https://books.google.de/books?id=vbMIlkp
 
 > Have no respect _whatsoever_ for authority; forget who said it and instead look at what he starts with, where he ends up, and ask yourself, "Is it reasonable?"
 
-cf. [[Carl Sagan]] [on scepticism](Carl+Sagan#OnScepticism)
+cf. [[Carl Sagan]] [on scepticism](Carl+Sagan#OnScepticism).
 
 
 
