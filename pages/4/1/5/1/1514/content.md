@@ -22,7 +22,6 @@
 =--
 =--
 
-
 > under construction
 
 #Contents#
@@ -215,7 +214,7 @@ $$
   \mathrlap\,.
 $$
 
-To recall that the [[quantum probability theory|quantum expectation value]] of an [[observable]] $O \colon (S^1) ^{\mathbf{N}} \longrightarrow \mathbb{C}$ is expressed as the following (discretized) path integral:
+To recall that the [[quantum probability theory|quantum expectation value]] of an [[observable]] $O \colon (S^1) ^{\mathbf{N}} \longrightarrow \mathbb{C}$ with respect to a [[pure quantum state]] $psi \colon S^1 \longrightarrow \mathbb{C}$ is expressed as the following (discretized) path integral:
 \[
   \label{ExpectationValuesForParticleOnS1ViaDiscretized}
   \big\langle
@@ -228,6 +227,9 @@ To recall that the [[quantum probability theory|quantum expectation value]] of a
    \,
    \exp\big(\tfrac{\mathrm{i}}{\hbar} S(x)\big)
    \,
+   \psi^\ast(x_N)
+   \psi(x_0)
+   \,
    D x
    \mathrlap{\,,}
 \]
@@ -238,6 +240,9 @@ $$
   \int   
    \exp\big(\tfrac{\mathrm{i}}{\hbar} S(x)\big)
    \,
+   \psi^\ast(x_N)
+   \psi(x_0)
+   \,
    D x
 $$
 is the normalization factor (the "[[partition function]]"), and where
@@ -246,8 +251,8 @@ $$
     \,\coloneqq\,
   \int_{S^1} \cdots \int_{S^1} 
   \mathrm{d}x_0 \cdots \mathrm{d}x_{\mathbf{N}-1}
+  \mathrlap{\,.}
 $$
-(for brevity we are disregarding in/out state data, since this does not affect the following argument).
 
 With that simple setup, ordinary [[integration by parts]] gives for an observable which is a [[partial derivative]],
 $$
@@ -473,11 +478,11 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 The original articles:
 
-* {#Dirac33} [[Paul A. M. Dirac]], *The Lagrangian in Quantum Mechanics*, Physikalische Zeitschrift der Sowjetunion, Band **3**, Heft 1 (1933) 64–72 &lbrack;[pdf](https://www.informationphilosopher.com/solutions/scientists/dirac/Lagrangian_1933.pdf)&rbrack;, reprinted in [Brown 2005](#Brown05) &lbrack;[doi:10.1142/9789812567635_0003](https://doi.org/10.1142/9789812567635_0003)&rbrack;
+* {#Dirac33} [[Paul A. M. Dirac]]: *The Lagrangian in Quantum Mechanics*, Physikalische Zeitschrift der Sowjetunion, Band **3**, Heft 1 (1933) 64–72 &lbrack;[pdf](https://www.informationphilosopher.com/solutions/scientists/dirac/Lagrangian_1933.pdf)&rbrack;, reprinted in [Brown 2005](#Brown05) &lbrack;[doi:10.1142/9789812567635_0003](https://doi.org/10.1142/9789812567635_0003)&rbrack;
 
-* {#Feynman42} [[Richard P. Feynman]], *The Principles of Least Action in Quantum Mechanics*, PhD thesis (1942), reprinted in [Brown 2005](#Brown05) &lbrack;[doi:10.1142/9789812567635_0001](https://doi.org/10.1142/9789812567635_0001)&rbrack;
+* {#Feynman42} [[Richard P. Feynman]]: *The Principles of Least Action in Quantum Mechanics*, PhD thesis (1942), reprinted in [Brown 2005](#Brown05) &lbrack;[doi:10.1142/9789812567635_0001](https://doi.org/10.1142/9789812567635_0001)&rbrack;
 
-* {#Feynman48} [[Richard P. Feynman]], *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf)&rbrack;
+* {#Feynman48} [[Richard P. Feynman]]: *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf), [[Feynman-1948.pdf:file]]&rbrack;
 
 reprinted in:
 
