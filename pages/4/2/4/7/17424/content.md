@@ -143,7 +143,7 @@ Similarly the [[ordinary cohomology]] [[cohomology groups|groups]] of $\mathbb{R
     \begin{array}{ll}
        \mathbb{Z} & k = 0 \quad or \quad k = n \quad if \quad odd
        \\
-       \mathbb{Z}_2 & k \quad odd \quad and \quad 1 \leq k \leq n-1
+       \mathbb{Z}_2 & k \quad even \quad and \quad 1 \leq k \leq n
        \\
        1 & otherwise
     \end{array}
