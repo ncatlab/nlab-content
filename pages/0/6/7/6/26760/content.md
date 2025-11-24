@@ -28,5 +28,11 @@ On the [[quark gluon plasma]] described via [[holographic QCD]]:
 
 * [[Tuna Demircik]], [[Niko Jokela]], [[Matti Järvinen]], Aleksi Piispa, *Is holographic quark-gluon plasma homogeneous?* &lbrack;[arXiv:2405.02392](https://arxiv.org/abs/2405.02392)&rbrack;
 
+Application of the [[nonabelian DBI action]] to the description of [[heavy flavor]] via [[holographic QCD]]:
+
+* [[Carlos Hoyos]], [[Niko Jokela]], Andrea Olzi: *Subtleties of non-Abelian D-brane actions and their effect on holographic heavy-light meson spectra* &lbrack;[arXiv:2511.17409](https://arxiv.org/abs/2511.17409)&rbrack;
+
+
+
 
 category: people
