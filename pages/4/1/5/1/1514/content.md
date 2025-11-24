@@ -22,6 +22,7 @@
 =--
 =--
 
+
 > under construction
 
 #Contents#
@@ -202,7 +203,7 @@ For more discussion along these lines see at _[[motivic quantization]]_.
 ### Relation to operator product order and time-order
  {#RelationToOperatorProductAndTimeOrder}
 
-Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *[[time-ordered product|temporal ordering]]* of their [[observable]] values ([Feynman 1948, p. 381](#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong)).
+Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *[[time-ordered product|temporal ordering]]* of their [[observable]] values ([Feynman 1948, p. 381](#Feynman48),  reviewed in [Feynman, Hibbs & Styer 2010 (7.45)](FeynmanHibbsStyer2010); [Schulman 1981, Ch. 8](#Shulman1981); [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong)).
 
 (Conversely, the product of [[observable]]-values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21).)
 
@@ -494,7 +495,7 @@ and then the original monograph:
 
 * [[Daniel F. Styer]], *The Errors of Feynman and Hibbs* &lbrack;[pdf](https://www2.oberlin.edu/physics/dstyer/FeynmanHibbs/ErrorsOfFeynmanHibbsX.pdf)&rbrack;
 
-* [[Daniel F. Styer]], [[Richard P. Feynman]], [[Albert R. Hibbs]], *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html), [pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack;
+* {#FeynmanHibbsStyer2010} [[Richard P. Feynman]], [[Albert R. Hibbs]], [[Daniel F. Styer]]: *Quantum Mechanics and Path Integrals: Emended Edition*, Dover (2010) &lbrack;[ISBN:0486477223](https://store.doverpublications.com/0486477223.html), [pdf](http://www-f1.ijs.si/~ramsak/km1/FeynmanHibbs.pdf)&rbrack;
 
 See also:
 
@@ -504,13 +505,15 @@ See also:
 
 Textbook accounts:
 
+* {#Shulman1981} L. S. Schulman: *Techniques and Applications of Path Integrals*, Wiley & Sons (1981, 1996), Dover (2005) &lbrack;[ISBN:9780486445281](http://store.doverpublications.com/products/9780486445281), ch. 8: [[Schulman-PathIntegrals-Ch8.pdf:file]]&rbrack;
+
 * [[John W. Negele]], [[Henri Orland]], *Functional Integral Formulation*, §2.2 in: *Quantum Many-Particle Systems*, Westview Press (1988, 1998) &lbrack;[doi:10.1201/9780429497926](https://doi.org/10.1201/9780429497926)&rbrack;
 
 * {#Kleinert90} [[Hagen Kleinert]], *Path Integrals in Quantum Mechanics, Statistics, Polymer Physics, and Financial Markets*, World Scientific (1990, 1994, 2003, 2006, 2009) &lbrack;[doi:10.1142/7305](https://doi.org/10.1142/7305), [pdf](https://hagenkleinert.de/documents/pi/HagenKleinert_PathIntegrals.pdf)&rbrack;
 
 * {#Polchinski98} [[Joseph Polchinski]], *A short course on path integrals*,  Appendix A in: _[[String theory]]_ part I: *An Introduction to the Bosonic String*, Cambridge University Press (1998) &lbrack;[doi:10.1017/CBO9780511816079](https://doi.org/10.1017/CBO9780511816079), [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/polchinski1.pdf)&rbrack;
 
-* {#Nagaosa99} [[Naoto Nagaosa]], *Quantization with Path Integral Methods*, Section 2 of: *Quantum Field Theory in Condensed Matter Physics*, Texts and Monographs in Physics, Springer (1999) &lbrack;[doi:10.1007/978-3-662-03774-4_2](https://doi.org/10.1007/978-3-662-03774-4_2)&rbrack;
+* {#Nagaosa99} [[Naoto Nagaosa]], *Quantization with Path Integral Methods*, Section 2 of: *Quantum Field Theory in Condensed Matter Physics*, Texts and Monographs in Physics, Springer (1999) &lbrack;[doi:10.1007/978-3-662-03774-4_2](https://doi.org/10.1007/978-3-662-03774-4_2), [[Nagaosa-PathIntegral.pdf:file]]&rbrack;
 
 * G. Johnson, M. Lapidus, _The Feynman integral and Feynman's operational calculus_, Oxford University Press (2000)
 
