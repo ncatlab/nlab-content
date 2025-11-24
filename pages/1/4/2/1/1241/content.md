@@ -402,7 +402,7 @@ for non-superymmetric [[model (physics)|models]]:
 
   > Results indicating non-SUSY $SO(10)$ as self sufficient theory for neutrino masses, baryon asymmetry, dark matter, vacuum stability of SM scalar potential, origin of three gauge forces, and observed proton stability.
 
-* Nobuchika Okada, Digesh Raut, Qaisar Shafi, _Inflation, Proton Decay, and Higgs-Portal Dark Matter in $SO(10) \times U(1)_\pri$_ ([arXiv:1906.06869](https://arxiv.org/abs/1906.06869))
+* Nobuchika Okada, Digesh Raut, Qaisar Shafi, _Inflation, Proton Decay, and Higgs-Portal Dark Matter in $SO(10) \times U(1)_\psi$_ ([arXiv:1906.06869](https://arxiv.org/abs/1906.06869))
 
 * V. Suryanarayana Mummidi, Ketan M. Patel, *Leptogenesis and fermion mass fit in a renormalizable $SO(10)$ model* ([arXiv:2109.04050](https://arxiv.org/abs/2109.04050))
 
