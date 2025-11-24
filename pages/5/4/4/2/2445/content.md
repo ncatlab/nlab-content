@@ -172,7 +172,7 @@ $$
 
 =--
 
-(e.g. [Lawson-Michelsohn 89, Theorem 4.1](#LawsonMichelsohn89) and [Figueroa-O'Farrill, Lemma 2](#FigueroaOFarrill) for special cases where $p$ or $q$ is zero, and [Budinich and Trautman, Eqs. 7.8b and 7.9](#BudinichTrautman) for the general case)
+(e.g. [Lawson & Michelsohn 1989, Theorem 4.1](#LawsonMichelsohn89) and [Figueroa-O'Farrill, Lemma 2](#FigueroaOFarrill) for special cases where $p$ or $q$ is zero, and [Budinich & Trautman 1988 19, Eqs. 7.8b and 7.9](#BudinichTrautman) for the general case)
 
 +-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
 ###### Proposition
@@ -514,7 +514,7 @@ Standard textbook accounts:
 
 * {#Lounesto} [[Pertti Lounesto]], _Clifford  Algebras and Spinors_, London Mathematical Society **286**, Cambridge University Press (2001) &lbrack;[doi:10.1017/CBO9780511526022](https://doi.org/10.1017/CBO9780511526022)&rbrack;
 
-* {#BudinichTrautman} P. Budinich, [[Andrej Trautman]], _The Spinorial Chessboard_, Springer Verlag, 1998.
+* {#BudinichTrautman} P. Budinich, [[Andrej Trautman]]: _The Spinorial Chessboard_, Springer (1998) &lbrack;[doi:10.1007/978-3-642-83407-3](https://doi.org/10.1007/978-3-642-83407-3)&rbrack;
 
 * Jayme Vaz, Jr., Roldão da Rocha, _An Introduction to Clifford algebras and Spinors_, Oxford University Press, 2019. xiv+242 pp. ISBN: 978-0-19-883628-5, 978-0-19-878292-6.  [DOI](https://doi.org/10.1093/acprof:oso/9780198782926.001.0001).
 
