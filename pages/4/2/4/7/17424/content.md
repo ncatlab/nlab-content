@@ -122,9 +122,9 @@ The [[ordinary homology]] [[homology groups|groups]] of real projective space $\
     \begin{array}{ll}
        \mathbb{Z} & k = 0 \quad or \quad k = n \quad if \quad odd
        \\
-       \mathbb{Z}_2 & k \quad odd \quad and \quad 1 \leq k \leq n
+       \mathbb{Z}_2 & k \quad odd \quad and \quad 1 \leq k \lt n
        \\
-       1 & otherwise
+       0 & otherwise
     \end{array}
     \right.
 \]
@@ -143,16 +143,16 @@ Similarly the [[ordinary cohomology]] [[cohomology groups|groups]] of $\mathbb{R
     \begin{array}{ll}
        \mathbb{Z} & k = 0 \quad or \quad k = n \quad if \quad odd
        \\
-       \mathbb{Z}_2 & k \quad even \quad and \quad 1 \leq k \leq n
+       \mathbb{Z}_2 & k \quad even \quad and \quad 1 \leq k \lt n
        \\
-       1 & otherwise
+       0 & otherwise
     \end{array}
     \right.
 \]
 
 =--
 
-One has $H_{n-1}(\mathbb{R}P^n)\cong\mathbb{Z}_2$ für $n$ odd and $H_{n-1}(\mathbb{R}P^n)\cong 1$ for $n$ even, hence $\mathbb{R}P^n$ is [[orientable]] iff $n$ is odd.
+One has $H_{n-1}(\mathbb{R}P^n)\cong\mathbb{Z}_2$ for $n$ odd and $H_{n-1}(\mathbb{R}P^n)\cong 1$ for $n$ even, hence $\mathbb{R}P^n$ is [[orientable]] iff $n$ is odd.
 
 ([Hatcher 02, Corollary 3.28.](#Hatcher02))
 
