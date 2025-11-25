@@ -85,6 +85,4 @@ Careful discussion of observables in abelian [[gauge theory]] ([[electromagnetis
 [[!redirects algebra of observables]]
 [[!redirects algebras of observables]]
 
-[[!redirects algebra of quantum observables]]
-[[!redirects algebras of quantum observables]]
 
