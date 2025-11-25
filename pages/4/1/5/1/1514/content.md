@@ -433,6 +433,7 @@ As Feynman 1948 also noticed, the same conclusion holds with an ordinary [[poten
 
 
 #### In Quantum Field Theory
+{#CCRFromPathIntegralInQFT}
 
 In fact, by using the [[Schwinger-Dyson equation]], this argument generalizes (cf. [physics.SE:685812](https://physics.stackexchange.com/a/685812/5603)) from the [[quantum mechanics]] of a [[nonrelativistic particle]] to general [[quantum field theories]] with ordinary [[potential energy]] terms.
 
@@ -617,7 +618,7 @@ A closely related question is:
 
 > _What is the path integral_ ? 
 
-After its conception by [[Richard Feynman]] in the middle of the 20th century It was notably [[Edward Witten]]'s achievement in the late 20th century to make clear the vast potential for fundamental physics and pure math underlying the concept of the quantum field theoretic path integral.
+After its conception by [[Richard Feynman]] in the middle of the 20th century, it was notably [[Edward Witten]]'s achievement in the late 20th century to make clear the vast potential for fundamental physics and pure math underlying the concept of the quantum field theoretic path integral.
 
 And yet, among all the aspects of QFT, the notion of the path integral is the one that has resisted attempts at formalization the most.
 
