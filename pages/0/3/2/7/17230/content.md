@@ -16,9 +16,9 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] the _Schwinger-Dyson equation_ ([Dyson 49](#Dyson49), [Schwinger 51](#Schinger51)) equates, [[on-shell]], the [[time-ordered product]] of the [[functional derivative]] of the [[action functional]] $S$ for a [[free field theory]] and another [[observable]] $A$ with the [[time ordered product|time ordering]] of the corresponding [[functional derivative]] of just $A$ itself, times $i \hbar$ ([[imaginary unit]] times [[Planck's constant]]):
+In [[perturbative quantum field theory]] the _Schwinger-Dyson equation_ (named after [Dyson 1949](#Dyson49), [Schwinger 1951](#Schinger51)) equates, [[on-shell]], the [[time-ordered product]] of the [[functional derivative]] of the [[action functional]] $S$ for a [[free field theory]] and another [[observable]] $A$ with the [[time ordered product|time ordering]] of the corresponding [[functional derivative]] of just $A$ itself, times $i \hbar$ ([[imaginary unit]] times [[Planck's constant]]):
 
-$$
+\[
  \label{EquationSchwingerDyson}
   \mathcal{T}
   \left(
@@ -29,7 +29,8 @@ $$
       \, dvol_\Sigma(x)
   \right)
   \;=\;
-  i \hbar
+  \mathrm{i} \hbar
+  \,
   \mathcal{T}
   \left(
     \underset{\Sigma}{\int}
@@ -39,14 +40,15 @@ $$
   \right)  
   \phantom{AAA}
   \text{on-shell}
-  \,.
-$$
+\]
 
-(e.q. [Henneaux-Teitelboim 92, (15.25)](#HenneauxTeitelboim92), [Rejzner 16, remark 7.7](#Rejzner16)).
+(cf. [Henneaux & Teitelboim 1992 (15.25)](#HenneauxTeitelboim92), [Rejzner 2916 Rem. 7.7](#Rejzner16)).
 
-This may be understood as a special case of the quantum-correction of the [[BV-differential]] by the [[BV-operator]] in [[pQFT]], which is hence also called the _[[Schwinger-Dyson operator]]_; see [there](BV-operator#SchwingerDysonEquation).
+If one can arrange or imagine that the [[expectation values]] of [[time-ordered products]] are given by a [[path integral]] against an [[exponential|exponentiated]] [[action functional]] $\exp(\tfrac{\mathrm{i}}{\hbar}S\big(\mathbf{\Phi})\big)$, and if one can argue away boundary terms, then the SD-equation (eq:EquationSchwingerDyson) may be understood as the result of path-[[integration by parts]], whereby the ([[variational calculus|variational]]) [[derivative]] of the observable $A$ on the right is moved over to the factor $\exp(\tfrac{\mathrm{i}}{\hbar}S\big(\mathbf{\Phi})\big)$ which is then implicit on the left. In this [[path integral]]-perspective (and in the special case of [[quantum mechanics]]) the SD equation was originally found by [Feynman 1948 (45-46)](#Feynman48) (who referred to it as "this very important relation").
 
-Often (eq:EquationSchwingerDyson) is displayed before spacetime-smearing of observables in terms of [[operator products]] of [[operator-valued distributions]] 
+Alternatively and rigorousoly, the SD equation (eq:EquationSchwingerDyson) may be understood as a special case of the quantum-correction of the [[BV-differential]] by the [[BV-operator]] in [[pQFT]], which is hence also called the _[[Schwinger-Dyson operator]]_; see [there](BV-operator#SchwingerDysonEquation).
+
+Often the equation (eq:EquationSchwingerDyson) is displayed before spacetime-smearing of observables, in terms of [[operator products]] of [[operator-valued distributions]]:
 
 $$
   A^a(x) 
