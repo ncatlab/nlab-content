@@ -203,7 +203,8 @@ For more discussion along these lines see at _[[motivic quantization]]_.
 ### Relation to operator product order and time-order
  {#RelationToOperatorProductAndTimeOrder}
 
-Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *[[time-ordered product|temporal ordering]]* of their [[observable]] values ([Feynman 1948, p. 381](#Feynman48),  reviewed in [Feynman, Hibbs & Styer 2010 (7.45)](FeynmanHibbsStyer2010); [Schulman 1981, Ch. 8](#Shulman1981); [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong)).
+Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *[[time-ordered product|temporal ordering]]* of their [[observable]] values ([Feynman 1948, p. 381](#Feynman48),  recalled in [Feynman, Hibbs & Styer 2010 (7.45)](FeynmanHibbsStyer2010); [Schulman 1981, Ch. 8](#Shulman1981); [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong); [Rischke 2021 Section 5.6](path+integral#Rischke21
+)).
 
 (Conversely, the product of [[observable]]-values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21).)
 
@@ -283,9 +284,9 @@ that its [[expectation value]] is equivalently expressed as:
       F
       \tfrac{\partial S}{\partial x_t} 
     \big\rangle
-    \mathrlap{\,.}
   \end{aligned}
 \]
+(which is the 1d discretized form of the *[[Schwinger-Dyson equation]]*).
 
 Specializing this to the [[free field theory|free]] [[non-relativistic particle]] of [[mass]] $m \gt 0$, for which the discretized [[action functional]] is
 $$
@@ -399,6 +400,10 @@ $$
 $$
 
 In conclusion, the observable corresponding to a quantum operator product $B \cdot A$ of observables at times $t$ may be thought of as the result of first shifting the temporal supports of the observables so that  $B$ is observation at a time just a little *after* that of $A$, and then forming the ordinary product of observed values. 
+
+As Feynman 1948 also noticed, the same conclusion holds with an ordinary [[potential energy]] term included in the [[action functional]], since its contribution is non-singular and vanishes in the final $\epsilon\to 0$ limit.
+
+In fact, by using the [[Schwinger-Dyson equation]], this argument generalizes from the [[quantum mechanics]] of a [[nonrelativistic particle]] to general [[quantum field theories]] with ordinary potential terms, see [pjysics.SE:685812](https://physics.stackexchange.com/a/685812/5603).
 
 
 
