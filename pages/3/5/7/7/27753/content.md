@@ -144,6 +144,8 @@ Experimental realization of FQAH systems:
 * *Observation of Integer and Fractional Chern insulators in high Chern number flatbands* &lbrack;[arXiv:2507.09908](https://arxiv.org/abs/2507.09908)&rbrack;
 
 * *Diverse high-Chern-number quantum anomalous Hall insulators in twisted rhombohedral graphene* &lbrack;[arXiv:2507.11347](https://arxiv.org/abs/2507.11347)&rbrack;
+
+* Hongyun Zhang et al.: *Moiré enhanced flat band in rhombohedral graphene*, Nat. Mater. (2025) &lbrack;[arXiv:2504.06251](https://arxiv.org/abs/2504.06251), [doi:10.1038/s41563-025-02416-2](https://doi.org/10.1038/s41563-025-02416-2)&rbrack;
      
 
 
