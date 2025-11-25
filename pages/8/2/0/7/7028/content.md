@@ -1,14 +1,16 @@
 
-> See also at *[[algebra of observables]]*.
+
+
+> See also at *[[observable]]*.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+###Context
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
 =--
-#### Algebraic Quantum Field Theory
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -22,11 +24,12 @@
 
 ## Idea
 
-An [[observable]] in [[quantum physics]].
+In [[quantum physics]], the [[observables]] pick up a non-commutative [[algebra]]-structure, whose [[commutator]] is a deformation of the [[Poisson bracket]] of classical observables (cf. *[[deformation quantization]]*).
 
-## Definition in geometric quantization
 
-We consider the notion of quantum observables in the the context of [[geometric quantization]]. See also [[quantum operator (in geometric quantization)]].
+## In geometric quantization
+
+We consider the notion of quantum observables in the the context of [[geometric quantization]]. See also *[[quantum operator (in geometric quantization)]]*.
 
 ### On a symplectic manifold
  {#OnASymplecticManifold}
@@ -115,7 +118,7 @@ Over a phase space which is a [[cotangent bundle]] and with respect to the corre
 
 =--
 
-See for instance ([Blau, around p. 35](#Blau))
+See for instance [Blau, around p. 35](#Blau)
 
 
 
@@ -127,6 +130,17 @@ See for instance ([Blau, around p. 35](#Blau))
 ### Irreducible representations and superselection sectors
 
 The [[space of quantum states]] forms a linear [[representation]] of a given [[algebra of observables]]. The decomposition of that into [[irreducible representations]] is physically the decomposition into [[superselection sectors]].
+
+
+
+## Via the path integral
+ {#ViaPathIntegral}
+
+
+
+[[!include quantum commutators are time-ordered ordinary products -- section]]
+
+
 
 ## Related concepts
 
@@ -183,3 +197,5 @@ Computation of quantum observables by [[index]] maps in [[equivariant K-theory]]
 [[!redirects quantum operator]]
 [[!redirects quantum operators]]
 
+[[!redirects algebra of quantum observables]]
+[[!redirects algebras of quantum observables]]
