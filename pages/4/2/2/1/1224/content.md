@@ -353,7 +353,7 @@ In [[internal category]] theory for [[internal functors]] between [[internal gro
 
 * {#Cigoli18} [[Alan S. Cigoli]], *A characterization of final functors between internal groupoids in exact categories*, Theory and Applications of Categories **33** 11 (2018) 265-275.  &lbrack;[arXiv:1711.10747](https://arxiv.org/abs/1711.10747), [tac:33-11](http://www.tac.mta.ca/tac/volumes/33/11/33-11abs.html)&rbrack;
 
-* [[Bryce Clarke]], _Lifting twisted coreflections against delta lenses_, Theory and Applications of Categories 41.26 (2024): 838-877.
+* {#Clarke2024} [[Bryce Clarke]], _Lifting twisted coreflections against delta lenses_, Theory and Applications of Categories 41.26 (2024): 838-877.
 
 
 [[!redirects cofinal functor]]
