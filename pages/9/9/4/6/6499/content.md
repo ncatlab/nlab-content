@@ -20,9 +20,9 @@
 
 ## Idea
 
-Global [[analytic geometry]] is a developing subject that gives an alternative/complementary approach to scheme theory in [[arithmetic geometry]] and [[analytic number theory]]. The starting point of this theory is in Vladimir Berkovich's book about spectral theory and non-archimedean analytic geometry. It was then developped further by [[Jérôme Poineau]].
+Global [[analytic geometry]] is a developing subject that gives an alternative/complementary approach to scheme theory in [[arithmetic geometry]] and [[analytic number theory]]. The starting point of this theory is in Vladimir Berkovich's book about spectral theory and non-archimedean analytic geometry. It was then developed further by [[Jérôme Poineau]].
 
-Many interesting results on polynomial equations can be proved using the mysterious interactions between algebraic, complex analytic and p-adic analytic geometry. The aim of global analytic geometry is to construct a category of spaces which contains these three geometries.
+Many interesting results on polynomial equations can be proven using the mysterious interactions between algebraic, complex analytic and p-adic analytic geometry. The aim of global analytic geometry is to construct a category of spaces which contains these three geometries.
 
 ## Motivation
  {#Motivation}
