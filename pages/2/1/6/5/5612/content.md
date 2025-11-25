@@ -42,9 +42,7 @@ coequalizers for our pair.
 
 
 * The two [[parallel arrows]] $F G\varepsilon_a$ and $\varepsilon_{F G a}$
-appearing in the canonical presentation have a common 
-[[section]], namely, $F \eta_{G a}$ (by the [[triangle identities]]).  Hence,
-whenever $G$ is monadic, the resulting coequalizer is a [[reflexive coequalizer]].  
+appearing in the canonical presentation have a common [[section]], namely, $F \eta_{G a}$ (by the [[triangle identities]]).  Hence, whenever $G$ is monadic, the resulting coequalizer is a [[reflexive coequalizer]].  
 
 
 ## Example
