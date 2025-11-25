@@ -127,7 +127,8 @@ For details and proof see at _[[BV-operator]]_ [this prop.](BV-operator#DysonSch
 
 Precursor discussion for [[quantum mechanics]] (QFT in $1+0$-dimensions) goes back to 
 
-* {#Feynman48} [[Richard P. Feynman]], equation (46) in: *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf)&rbrack;
+* {#Feynman48} [[Richard P. Feynman]], equations (45-46) in: *Space-Time Approach to Non-Relativistic Quantum Mechanics*, Rev. Mod. Phys. **20** (1948) 367 &lbrack;[doi:10.1103/RevModPhys.20.367](https://doi.org/10.1103/RevModPhys.20.367), [pdf](http://www-f1.ijs.si/~ramsak/km1/feynman.pdf)&rbrack;
+  > (referred to as "this very important equation")
 
 
 The Dyson-Schwinger equation is named after:
