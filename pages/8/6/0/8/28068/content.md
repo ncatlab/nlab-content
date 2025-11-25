@@ -29,7 +29,7 @@ Or rather:
 
 +-- {: slogan}
 **Slogan:**
-The non-commutativity of quantum observables (such as witnessed by [[canonical commutation relations]]) reflects that the temporal order of observation matters, hence reflects the difference $\underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim} \big( O_2(t + \epsilon)  O_1(t)  - O_1(t + \epsilon)  O_2(t)\big)$.
+The non-commutativity of quantum observables (such as witnessed by the [[canonical commutation relation|canonical]] [[commutator]] between [[field observables]] and their [[canonical momenta]]) reflects that the temporal order of observation matters, hence reflects the difference $\underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim} \big( O_2(t + \epsilon)  O_1(t)  - O_1(t + \epsilon)  O_2(t)\big)$.
 
 =--
 
