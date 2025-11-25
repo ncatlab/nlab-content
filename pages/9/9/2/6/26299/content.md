@@ -47,3 +47,11 @@ Textbook account:
 [[!redirects constraint]]
 [[!redirects constraints]]
 
+[[!redirects first class constraint]]
+[[!redirects first class constraints]]
+
+[[!redirects second class constraint]]
+[[!redirects second class constraints]]
+
+
+
