@@ -150,6 +150,7 @@ $$Set^V \to Set^{X \times X}$$
 since bicontinuous functors of the form $Set^V \to Set^{X \times X}$ are precisely those of the form $Set^d$ for some function $d: X \times X \to V$, at least if $V$ is [[Cauchy complete category|Cauchy complete]]. 
 
 ### Enrichment in a bicategory 
+
  {#InBicat}
 
 Let $B$ be a [[bicategory]], and write $\otimes$ for horizontal (1-cell) composition (written in Leibniz order). A [[category enriched in a bicategory|category enriched in the bicategory]] $B$ consists of a [[set]] $X$ together with 
@@ -341,7 +342,7 @@ Textbook accounts:
 
 * [[Francis Borceux]], Chapter 6 of: _[[Handbook of Categorical Algebra]] Vol 2: Categories and Structures_, Encyclopedia of Mathematics and its Applications **50**, Cambridge University Press (1994) ([doi:10.1017/CBO9780511525865](https://doi.org/10.1017/CBO9780511525865))
 
-* [[Emily Riehl]], _Basic concepts of enriched category theory_, chapter 3 in: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
+* [[Emily Riehl]], _Basic concepts of enriched category theory_, chapter 3 in: _[[Categorical Homotopy Theory]]_, Cambridge University Press, 2014 ([pdf](https://emilyriehl.github.io/files/cathtpy.pdf), [doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457))
 
 * {#JohnsonYau20} [[Niles Johnson]], [[Donald Yau]], Section 1.3 of: _2-Dimensional Categories_, Oxford University Press 2021 ([arXiv:2002.06055](http://arxiv.org/abs/2002.06055), [doi:10.1093/oso/9780198871378.001.0001](https://oxford.universitypressscholarship.com/view/10.1093/oso/9780198871378.001.0001/oso-9780198871378))
 
