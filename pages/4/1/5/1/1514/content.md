@@ -200,18 +200,19 @@ For more discussion along these lines see at _[[motivic quantization]]_.
 
 ## Properties
 
-### Relation to operator/time-order and commutators
+
+### Quantum commutators are time-ordered ordinary products of observables
  {#RelationToOperatorProductAndTimeOrder}
 
-The [[path integral]] formulation reveals the following foundational fact of [[quantum physics]], which is "well known" but not widely appreciated (most textbooks don't mention it).
+The [[path integral]] formulation (and generally the notion of [[time-ordered products]]) reveals the following foundational fact of [[quantum physics]], which is "well known" but not widely appreciated (most textbooks don't mention it).
 
 As slogans, in slightly increasing order of accuracy:
 
-> **The quantum (operator) product of observables is their ordinary product after slightly shifting their time domains into operator order**.
+> **The quantum ([[linear operator|operator]]) product of [[observables]] is their ordinary product after slightly shifting their time domains into operator order**.
 
 Or more technically:
 
-> The operator product $O_2(t) \star O_1(t)$ of observables at equal time $t$ is their ordinary product after shifting the observation $O_2$ to after $O_1$, hence  $\underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim} O_2(t + \epsilon)  O_1(t)$.
+> The operator product $O_2(t) \star O_1(t)$ of observables at equal time $t$ is their ordinary product after slightly shifting the observation $O_2$ to after $O_1$, hence  $\underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim} O_2(t + \epsilon)  O_1(t)$.
 
 Or rather: 
 
@@ -219,16 +220,24 @@ Or rather:
 
 Here these (limits of) ordinary products of ordinary observables (on $\mathbb{C}$-valued functions of physical configurations) are to be understood as expectation values as produced by a [[path integral]] with respect to some (arbitrary) state. We proceed to say this in more technical detail.
 
+This insight goes back to [Feynman 1948 p. 381](#Feynman48), who considered it in the context of [[non-relativistic particle|non-relativistic]] [[quantum mechanics]], reviewed below in:
+
+* *[In Quantum Mechanics](#CCRFromPathIntegralInQM)*
+
+But this generalizes to [[relativistic quantum field theory|relativistic]] [[quantum field theory|quantum]] [[field theory]], discussed below in:
+
+* *[In Quantum Field Theory](#CCRFromPathIntegralInQFT)*.
 
 
 #### In Quantum Mechanics
+ {#CCRFromPathIntegralInQM}
 
-The following is the original observation of [Feynman 1948, p. 381](#Feynman48), recalled essentially verbatim by [Feynman, Hibbs & Styer 2010 (7.45)](#FeynmanHibbsStyer2010); [Schulman 1981, Ch. 8](#Shulman1981); [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong); [Rischke 2021 Section 5.6](path+integral#Rischke21
-). (In particular, none of these authors actively recognizes the [[Schwinger-Dyson equation]] in the argument nor comments on generalization beyond the exact 1d discretized path integral that Feynman considered.)
+The following is the original observation of [Feynman 1948, p. 381](#Feynman48). It has been recalled by [Feynman, Hibbs & Styer 2010 (7.45)](#FeynmanHibbsStyer2010); [Schulman 1981, Ch. 8](#Shulman1981); [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong 2012](#Ong2012); [Rischke 2021 Section 5.6](path+integral#Rischke21
+). (But all these authors follow Feynman 1948 essentially verbatim. In particular, none actively recognizes the [[Schwinger-Dyson equation]] in the argument nor comments on generalization beyond the 1d discretized nonrelativistic path integral that Feynman considered and which we recall now.)
 
 \linebreak
 
-Consider the path integral for a [[particle]] propagating on a [[circle]] $S^1$, and approximated, for the time being, by an ordinary integral over positions $x_t$ at $N$ discrete time steps $t \in \mathbf{N} \coloneqq \{0, 1, \cdots, N-1\}$, hence over discretized trajectories 
+Consider the [[path integral]] for a [[particle]] propagating on a [[circle]] $S^1$, and approximated by an ordinary [[integral]] over positions $x_t$ at $N$ discrete time steps $t \in \mathbf{N} \coloneqq \{0, 1, \cdots, N-1\}$, hence over discretized trajectories 
 $$
   x \colon \mathbf{N} \longrightarrow S^1
   \mathrlap\,.
@@ -304,7 +313,7 @@ that its [[expectation value]] is equivalently expressed as:
     \big\rangle
   \end{aligned}
 \]
-(which is the 1d discretized form of the *[[Schwinger-Dyson equation]]*).
+(which we may recognize as the 1d discretized form of what is now called the *[[Schwinger-Dyson equation]]* in [[quantum field theory]] more generally).
 
 Specializing this to the [[free field theory|free]] [[non-relativistic particle]] of [[mass]] $m \gt 0$, for which the discretized [[action functional]] is
 $$
@@ -377,7 +386,8 @@ $$
     {1/N}
 $$
 as the discrete approximation to the [[momentum]] observable at time $t + 1/2$, in terms of which we have found that:
-$$
+\[
+  \label{FeynmanCCRViaTimeShiftedProduct}
   \begin{aligned}
   \mathrm{i}\hbar
   & = 
@@ -392,7 +402,7 @@ $$
   \big\rangle
   \,.
   \end{aligned}
-$$
+\]
 In the time continuum limit, this becomes
 $$
   \mathrm{i}\hbar
@@ -419,14 +429,177 @@ $$
 
 In conclusion, the observable corresponding to a quantum operator product $B \cdot A$ of observables at times $t$ may be thought of as the result of first shifting the temporal supports of the observables so that  $B$ is observation at a time just a little *after* that of $A$, and then forming the ordinary product of observed values. 
 
-As Feynman 1948 also noticed, the same conclusion holds with an ordinary [[potential energy]] term included in the [[action functional]], since its contribution is non-singular and vanishes in the final $\epsilon\to 0$ limit.
+As Feynman 1948 also noticed, the same conclusion holds with an ordinary [[potential energy]] term included in the [[action functional]], since its contribution is non-singular and hence vanishes in the final $\epsilon\to 0$ limit.
+
 
 #### In Quantum Field Theory
 
-In fact, by using the [[Schwinger-Dyson equation]], this argument generalizes from the [[quantum mechanics]] of a [[nonrelativistic particle]] to general [[quantum field theories]] with ordinary potential terms, see [pjysics.SE:685812](https://physics.stackexchange.com/a/685812/5603).
+In fact, by using the [[Schwinger-Dyson equation]], this argument generalizes (cf. [physics.SE:685812](https://physics.stackexchange.com/a/685812/5603)) from the [[quantum mechanics]] of a [[nonrelativistic particle]] to general [[quantum field theories]] with ordinary [[potential energy]] terms.
+
+Imagine a [[path integral]]-formulation exists of some $1+d$-dimensional [[quantum field theory]] determined by a [[Lagrangian density]] $L$ with an ordinary [[potential energy]] term and denote the corresponding [[expectation values]] in some state by $\langle-\rangle$ --- or else regard $\langle-\rangle$ as denoting the [[time-ordered product]] of its arguments, that's all we need.
+
+Let $\phi$ be one of the [[field (physics)|field]] species. (It could be a [[scalar field]] but it may just as well be a component of any more complex field.)
+
+Assuming we are on cylindrical [[Minkowski spacetime]] $\mathbb{R}^{1,d} / \mathbb{Z}^{d}$ --- just for notational simplicity --- then the [[Schwinger-Dyson equation]] for field insertion $\phi(y)$ says that
+
+\[
+  \label{SchwingerDysonForComputingCCRs}
+  \bigg\langle
+    \underset
+    { 
+      \delta S / \delta \phi(x) 
+    }{
+      \underbrace{
+        \Big(
+        \frac{ \partial L }{ \partial \phi }
+        (x)
+        -
+        \partial_\mu 
+        \frac{ \partial L }{ \partial (\partial_\mu \phi) }
+        \Big)
+      }
+    }
+    \,
+    \phi(y)
+  \bigg\rangle
+  \;=\;
+  \mathrm{i}\hbar
+  \left\langle
+    \frac{ \partial \phi(y) }{ \partial \phi}(x)
+  \right\rangle
+  \;=\;
+  \mathrm{i}\hbar
+  \,
+  \delta^{1+d}(x-y)
+  \mathrlap{\,.}
+\]
+
+> This is the field theoretic version of Feynman's (eq:PartialIntegrationInDiscretizedPathIntegral).
+
+Now consider the [[integration]] of this expression in the variable $x$ over the spacetime region in a small time interval $(y^0- \epsilon, y^0 + \epsilon) \times \mathbb{R}^{d}/\mathbb{Z}^{d}$ and let $\epsilon \to 0$. Then: 
+
+1. the first summand on the left of (eq:SchwingerDysonForComputingCCRs) vanishes (being asymptotically proportional to $\epsilon$ since we are assuming that the potential term and hence the $\phi$-dependence of $L$ is that of an ordinary smooth function), 
+
+1. by [[Stokes's theorem]] the spatial integral over the spatial components of the second summand vanishes and
+
+1. the remaining temporal integral of its temporal component gives two boundary terms (where we now decompose $x = (x^0, \vec x)$):
+
+\[
+  \label{IntegratedSchwingerDysonForComputingCCRs}
+  \underset{\underset{\epsilon\to 0}{\longrightarrow}}{\lim}
+  \int_{\mathbb{R}^{d}/\mathbb{Z}^{d}}
+  \mathrm{d}^d \vec x
+  \,
+  \left\langle
+    \frac{ \partial L }{ \partial (\partial_0 \phi) }
+    (y^0 + \epsilon, \vec x)
+    \,
+    \phi(y^0, \vec y)
+    \;-\;
+    \frac{ \partial L }{ \partial (\partial_0 \phi) }
+    (y^0 - \epsilon, \vec x)
+    \,
+    \phi(y^0, \vec y)
+  \right\rangle
+  \;=\;
+  -\mathrm{i}\hbar
+  \mathrlap{\,.}
+\]
+
+Here we recognize the [[canonical momentum]] $\pi$ to the field $\phi$:
+
+$$
+  \pi(x)
+  \;\coloneqq\;
+  \frac{ \partial L }{ \partial (\partial_0 \phi) }(x)
+  \mathrlap{\,,}
+$$
+
+so that
+
+\[
+  \label{IntegratedSchwingerDysonForComputingCCRsViaMomenta}
+  \underset{\underset{\epsilon\to 0}{\longrightarrow}}{\lim}
+  \int_{\mathbb{R}^{d}/\mathbb{Z}^{d}}
+  \mathrm{d}^d x
+  \,
+  \Big\langle
+    \pi(y^0 + \epsilon, \vec x)
+    \,
+    \phi(y^0, \vec y)
+    \;-\;
+    \pi(y^0 - \epsilon, \vec x)
+    \,
+    \phi(y^0, \vec y)
+  \Big\rangle
+  \;=\;
+  -\mathrm{i}\hbar
+  \mathrlap{\,.}
+\]
+
+> This is the field-theoretic version of Feynman's (eq:FeynmanCCRViaTimeShiftedProduct).
+
+We may redo this derivation  after multiplication of the original Schwinger-Dyson equation (eq:SchwingerDysonForComputingCCRs) with any "smearing function" $f(\vec x)$ (a spatial [[bump function]]). Then where we used [[Stokes' theorem]] above we are now faced with an [[integration by parts]] that picks up terms proportional to the [[gradient]] of $f$ --- but if the dependence of $L$ on spatial derivatives of $\phi$ does not have unusual singularities (i.e. if the [[kinetic energy]] term in $L$ is a standard one) then these terms vanish with $\epsilon$ just as the [[potential energy]] term does, and hence we end up with
+
+\[
+  \label{IntegratedSchwingerDysonForComputingCCRsViaMomenta}
+  \underset{\underset{\epsilon\to 0}{\longrightarrow}}{\lim}
+  \int_{\mathbb{R}^{d}/\mathbb{Z}^{d}}
+  \mathrm{d}^d x
+  \,
+  \int \mathrm{d}^d \vec x
+  f(\vec x)
+  \Big\langle
+    \pi(y^0 + \epsilon, \vec x)
+    \,
+    \phi(y^0, \vec y)
+    \;-\;
+    \pi(y^0 - \epsilon, \vec x)
+    \,
+    \phi(y^0, \vec y)
+  \Big\rangle
+  \;=\;
+  -\mathrm{i}\hbar f(\vec y)
+  \mathrlap{\,.}
+\]
+
+But since this holds for all smearing functions $f$, this is equivalent to the [[distribution|distributional]] equation
+\[
+  \label{UnIntegratedSchwingerDysonForComputingCCRsViaMomenta}
+  \underset{\underset{\epsilon\to 0}{\longrightarrow}}{\lim}
+  \Big\langle
+    \pi(y^0 + \epsilon, \vec x)
+    \,
+    \phi(y^0, \vec y)
+    \;-\;
+    \pi(y^0 - \epsilon, \vec x)
+    \,
+    \phi(y^0, \vec y)
+  \Big\rangle
+  \;=\;
+  -\mathrm{i}\hbar 
+  \,
+  \delta^d(\vec x - \vec y)
+  \mathrlap{\,,}
+\]
+which is the claimed incarnation of the [[canonical commutation relation]] of field operators at equal times,
+$$
+  \big[
+    \widehat{\pi}(\vec x), \widehat{\phi}(\vec x)
+  \big]
+  \,=\, 
+  -\mathrm{i}\hbar 
+  \,
+  \delta^d(\vec x - \vec y)
+  \mathrlap{\,,}
+$$
+now re-expressed as an expectation value of ordinary products of observables after shifting their temporal domains into operator order.
+
+\linebreak
 
 
-(Conversely, the product of [[observable]]-values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21).)
+
+(Conversely, the product of [[observable]]-values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21).)
 
 
 
@@ -533,8 +706,10 @@ See also:
 * [[Ted Jacobson]]: *Feynman 1947 letter on path integral for the Dirac equation* &lbrack;[arXiv:2408.15070](https://arxiv.org/abs/2408.15070)&rbrack;
   > (on early attempts at a path integral for [[spinning particles]])
 
+* Daniel Parrochia: *Some remarks on history and pre-history of Feynman path integral* &lbrack;[arXiv:1907.11168](https://arxiv.org/abs/1907.11168)&rbrack;
 
-Textbook accounts:
+
+Further textbook accounts:
 
 * {#Shulman1981} L. S. Schulman: *Techniques and Applications of Path Integrals*, Wiley & Sons (1981, 1996), Dover (2005) &lbrack;[ISBN:9780486445281](http://store.doverpublications.com/products/9780486445281), ch. 8: [[Schulman-PathIntegrals-Ch8.pdf:file]]&rbrack;
 
@@ -556,7 +731,7 @@ Textbook accounts:
 
 See also:
 
-* {#Ong} Yen Chin Ong, *Where is the Commutation Relation Hiding in the Path Integral Formulation?* &lbrack;[pdf](https://physicstravelguide.com/_media/quantum_theory/path-integral.pdf), [[Ong-CommutationRelationInPathIntegral.pdf:file]]&rbrack;
+* {#Ong2012} [[Yen Chin Ong]]: *Where is the Commutation Relation Hiding in the Path Integral Formulation?* ([2012](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=60y-nk0AAAAJ&cstart=20&pagesize=80&citation_for_view=60y-nk0AAAAJ:SeFeTyx0c_EC)) &lbrack;[[Ong-CommutationRelationInPathIntegral.pdf:file]]&rbrack;
 
 * Giampiero Esposito, Tepper L. Gill: *On the physical and mathematical foundations of quantum physics via functional integrals* &lbrack;[arXiv:2408.16404](https://arxiv.org/abs/2408.16404)&rbrack;
 
