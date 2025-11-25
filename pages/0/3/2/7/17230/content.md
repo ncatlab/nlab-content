@@ -117,6 +117,11 @@ is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for t
 
 For details and proof see at _[[BV-operator]]_ [this prop.](BV-operator#DysonSchwinger), following [Rejzner 16, remark 7.7](#Rejzner16), following [Henneaux-Teitelboim 92, section 15.5.3](#HenneauxTeitelboim92)
 
+## Examples
+
+[[!include quantum commutators are time-ordered ordinary products -- section]]
+
+
 ## Related concepts
 
 * [[path integral]]
