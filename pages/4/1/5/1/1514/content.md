@@ -200,15 +200,33 @@ For more discussion along these lines see at _[[motivic quantization]]_.
 
 ## Properties
 
-### Relation to operator product order and time-order
+### Relation to operator/time-order and commutators
  {#RelationToOperatorProductAndTimeOrder}
 
-Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *[[time-ordered product|temporal ordering]]* of their [[observable]] values ([Feynman 1948, p. 381](#Feynman48),  recalled in [Feynman, Hibbs & Styer 2010 (7.45)](FeynmanHibbsStyer2010); [Schulman 1981, Ch. 8](#Shulman1981); [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong); [Rischke 2021 Section 5.6](path+integral#Rischke21
-)).
+The [[path integral]] formulation reveals the following foundational fact of [[quantum physics]], which is "well known" but not widely appreciated (most textbooks don't mention it).
 
-(Conversely, the product of [[observable]]-values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21).)
+As slogans, in slightly increasing order of accuracy:
 
-Concretely, the following is the observation of [Feynman 1948, p. 381](#Feynman48):
+> **The quantum (operator) product of observables is their ordinary product after slightly shifting their time domains into operator order**.
+
+Or more technically:
+
+> The operator product $O_2(t) \star O_1(t)$ of observables at equal time $t$ is their ordinary product after shifting the observation $O_2$ to after $O_1$, hence  $\underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim} O_2(t + \epsilon)  O_1(t)$.
+
+Or rather: 
+
+> **The non-commutativity of quantum observables** (such as witnessed by [[canonical commutation relations]]) **reflects that the temporal order of observation matters**, hence reflects the difference $\underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim} \big( O_2(t + \epsilon)  O_1(t)  - O_1(t + \epsilon)  O_2(t)\big)$.
+
+Here these (limits of) ordinary products of ordinary observables (on $\mathbb{C}$-valued functions of physical configurations) are to be understood as expectation values as produced by a [[path integral]] with respect to some (arbitrary) state. We proceed to say this in more technical detail.
+
+
+
+#### In Quantum Mechanics
+
+The following is the original observation of [Feynman 1948, p. 381](#Feynman48), recalled essentially verbatim by [Feynman, Hibbs & Styer 2010 (7.45)](#FeynmanHibbsStyer2010); [Schulman 1981, Ch. 8](#Shulman1981); [Nagaosa 1999, pp. 33](#Nagaosa99); [Ong](#Ong); [Rischke 2021 Section 5.6](path+integral#Rischke21
+). (In particular, none of these authors actively recognizes the [[Schwinger-Dyson equation]] in the argument nor comments on generalization beyond the exact 1d discretized path integral that Feynman considered.)
+
+\linebreak
 
 Consider the path integral for a [[particle]] propagating on a [[circle]] $S^1$, and approximated, for the time being, by an ordinary integral over positions $x_t$ at $N$ discrete time steps $t \in \mathbf{N} \coloneqq \{0, 1, \cdots, N-1\}$, hence over discretized trajectories 
 $$
@@ -403,8 +421,16 @@ In conclusion, the observable corresponding to a quantum operator product $B \cd
 
 As Feynman 1948 also noticed, the same conclusion holds with an ordinary [[potential energy]] term included in the [[action functional]], since its contribution is non-singular and vanishes in the final $\epsilon\to 0$ limit.
 
+#### In Quantum Field Theory
+
 In fact, by using the [[Schwinger-Dyson equation]], this argument generalizes from the [[quantum mechanics]] of a [[nonrelativistic particle]] to general [[quantum field theories]] with ordinary potential terms, see [pjysics.SE:685812](https://physics.stackexchange.com/a/685812/5603).
 
+
+(Conversely, the product of [[observable]]-values in the path integral corresponds to the [[time-ordered product]] of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21).)
+
+
+
+\linebreak
 
 
 
