@@ -299,6 +299,10 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   * [[Schrödinger picture]], [[Heisenberg picture]], [[Dirac picture]]
 
+  * [[quantum observable]], [[uncertainty principle]]
+
+  * [[quantum state]] ([[pure quantum state|pure]], [[mixed quantum state|mixed]])
+
   * [[quantum probability]]
 
   * [[propagator]]
