@@ -342,15 +342,9 @@ This extension is not unique. A choice of such an extension, satisfying some evi
 
 ## Properties
 
-### Relation to path integral
 
-\begin{remark}\label{OperatorOrderAndTimeOrder}
-**(operator product order and time-order)**
-\linebreak
-  Under the [[path integral]], the order of the product of [[linear operators]] (such as $x \cdot \frac{d}{d x}$ as opposed to $\frac{d}{d x} \cdot x $) corresponds to *temporal ordering* of their [[observable]] values ([Feynman 1948, p. 381](path+integral#Feynman48),  reviewed in [Nagaosa 1999, pp. 33](path+integral#Nagaosa99); [Ong](path+integral#Ong)).
+[[!include quantum commutators are time-ordered ordinary products -- section]]
 
-Conversely, the product of [[observable]]-values in the path integral corresponds to the time-ordered product of the corresponding [[linear operators]] (eg. [Polchinski 1998 (A.1.17)](path+integral#Polchinski98); [Rischke 2021 (5.63)](path+integral#Rischke21)).
-\end{remark}
 
 
 ## Related concepts
