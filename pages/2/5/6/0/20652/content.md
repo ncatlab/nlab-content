@@ -19,6 +19,8 @@ The [[special orthogonal group]] in [[dimension]] 7.
 
 ## Related concepts
 
+* [[principal SO(7)-bundle]]
+
 [[!include low dimensional rotation groups -- table]]
 
 
