@@ -14,10 +14,10 @@
 
 ##Idea##
 
-Models of theoretical [[physics]] are often given in the form of [[differential equations]]. Informally, [[integrable PDE|integrability]] is the property of a concrete [[model (physics)|model]] which enables one to [[solution|solve]] these equations in a closed form, or in terms of [[quadratures]] (expressions in terms of ordinary [[integrals]]). 
+[[model (in theoretical physics)|Models]] in [[theoretical physics]] are often given in the form of [[differential equations]]. Informally, [[integrable PDE|integrability]] is the property of a concrete [[model (physics)|model]] which enables one to [[solution|solve]] these equations in a closed form, or in terms of [[quadratures]] (expressions in terms of ordinary [[integrals]]). 
 
 
-##Classical integrable systems##
+## Classical integrable systems##
 
 In [[classical mechanics]], a sort of integrability follows if there are generalized "angle-action" coordinates; the evolution of a system is then of a very special form, hence such "[[Liouville integrability]]" (existence of a maximal [[Poisson manifold|Poisson]]-commuting invariants) leads to a special type of global structure of orbits. In addition to finite-dimensional integrable models, many classical PDEs of mathematical physics can be exactly solved, which can often be expressed in terms of infinite-dimensional Hamiltonian systems. There are many methods and approaches which are often simultaneously applicable, and under some assumptions essentially equivalent; we list just keywords: Lax pairs, bihamiltonian systems, spectral curve, classical r-matrix, inverse scattering method, [[Riemann-Hilbert problem|Riemann--Hilbert method]] and Birkhoff decomposition (which also provide connections to the subject of special functions)...
 
@@ -41,6 +41,10 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 * [[sine-Gordon model]], [[KdV equation]], [[KP equation]]
 
+* [[Calogero model]], [[Dunkl operator]]
+
+* [[Manakov-Zakharov-Ward model]]
+
 * [[quasitriangular bialgebra]], [[Yangian]], [[quantum group]] 
 
 * [[Lax equation]], [[spectral curve]]
@@ -48,8 +52,6 @@ were invented with a view toward quantum integrable systems systematizing analog
 * [[Burchnall-Chaundy theory]], [[argument shift method]]
 
 * [[tau-function]], [[Sato Grassmannian]]
-
-* [[Calogero model]], [[Dunkl operator]]
 
 * [[topological recursion]]
 
@@ -145,4 +147,7 @@ On possible structures in [[M2-brane]] dynamics and [[M2-M5-brane bound states]]
 
 [[!redirects integrable hierarchy]]
 [[!redirects integrable hierarchies]]
+
+[[!redirects integrable field theory]]
+[[!redirects integrable field theories]]
 
