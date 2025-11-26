@@ -169,6 +169,11 @@ Solutions to the [[equations of motion]] of self-dual Yang-Mills theory are natu
 
 ## References
 
+Relation to [[twistor space]]:
+
+* {#Ward77} [[Richard S. Ward]]: _On Selfdual gauge fields_, Phys. Lett. A **61** (1977) 81-82 &lbrack;<a href="https://doi.org/10.1016/0375-9601(77)90842-8">doi:10.1016/0375-9601(77)90842-8</a>&rbrack;
+
+
 ### Via action functional
 
 The action functional [above](#ViaActionFunctional) is due to 
