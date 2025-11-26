@@ -23,7 +23,7 @@
 ## Properties
 
 \begin{proposition}
-A principal SO(5)-bundle $P$ fulfills:
+A principal SO(7)-bundle $P$ fulfills:
 $$
 w_2^2(P)
 \equiv p_1(P) mod 2;
@@ -40,20 +40,6 @@ $$
 \end{proposition}
 
 ([Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99))
-
-$$
-(w_2,w_4,p_1,e)\colon
-Prin_{SO(6)}(X)
-\cong[X,B SO(6)]
-\rightarrow H^2(X,\mathbb{Z}_2)\oplus H^4(X,\mathbb{Z}_2)\oplus H^4(X,\mathbb{Z})\oplus H^6(X,\mathbb{Z})
-$$
-
-$$
-(w_2,w_4,p_1)\colon
-Prin_{SO(7)}(X)
-\cong[X,B SO(7)]
-\rightarrow H^2(X,\mathbb{Z}_2)\oplus H^4(X,\mathbb{Z}_2)\oplus H^4(X,\mathbb{Z})
-$$
 
 ## Related concepts
 
