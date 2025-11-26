@@ -114,6 +114,11 @@ More on this in:
 
 * Rebecca Goldin, Megumi Harada, Tara S. Holm, [[Takashi Kimura]], _The full orbifold K-theory of abelian symplectic quotients_, Journal of K-theory **8** 2 (2011) 339-362 &lbrack;[arXiv:0812.4964](https://arxiv.org/abs/0812.4964), [doi:10.1017/is010005021jkt118](https://doi.org/10.1017/is010005021jkt118)&rbrack;
 
+A construction of twisted orbifold K-theory using classifying stacks:
+
+* {#SS26} [[Hisham Sati]], [[Urs Schreiber]]: Section 3.1 of: *[[schreiber:Orientations of Orbi-K-Theory|Orientations of Orbi-K-Theory measuring Topological Phases and Brane Charges]]*, Part I of: *[[schreiber:Geometric Orbifold Cohomology]]*, CRC Press (2026)
+
+
 On orbifold [[Tate K-theory]]:
 
 * [[Nora Ganter]]: *Power operations in orbifold Tate K-theory*,  Homology Homotopy Appl. **15** 1 (2013) 313-342  &lbrack;[arXiv:1301.2754](https://arxiv.org/abs/1301.2754), [euclid:hha/1383943680](https://projecteuclid.org/journals/homology-homotopy-and-applications/volume-15/issue-1/Power-operations-in-orbifold-Tate-K-theory/hha/1383943680.full)&rbrack;
