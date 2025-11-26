@@ -34,11 +34,14 @@ proteins.
 
 * [[integrable model]], [[Korteweg de Vries equation]]
 
+* [[Manakov-Zakharov-Ward model]]
+
+* [[Kadomtsev-Petviashvili equation]]
+
 * [[solitonic brane]]
 
   [[black hole]], [[black brane]]
 
-* [[Kadomtsev-Petviashvili equation]]
 
 
 
