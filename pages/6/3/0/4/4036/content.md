@@ -239,6 +239,14 @@ We can turn this around and speak for any [[site]] $C$ of a covering family $\{U
 ## References
  {#References}
 
+An early appearance of the concept together with a proof of existence in the compact case is in Section 4 of
+
+* [[Georges de Rham]], _Complexes à automorphismes et homéomorphie différentiable_, Annales de l'Institut Fourier 2 (1950), 51–67.  [DOI](https://doi.org/10.5802/aif.19), [Numdam](http://www.numdam.org/item?id=AIF_1950__2__51_0).
+
+A proof for the noncompact case is in Section 1 of
+
+* [[André Weil]], _Sur les théorèmes de de Rham_, Commentarii Mathematici Helvetici 26:1 (1952), 119–145.  [DOI](https://doi.org/10.1007/bf02564296).
+
 Proof of existence of differentiably good open covers (Def. \ref{DifferentiablyGoodOpenCover}) of smooth manifolds:
 
 * {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Thm. 5.1 in: *[[Differential Forms in Algebraic Topology]]*, Graduate Texts in Mathematics **82**, Springer (1982) &lbrack;[doi:10.1007/978-1-4757-3951-0](https://link.springer.com/book/10.1007/978-1-4757-3951-0), [pdf](http://www.maths.ed.ac.uk/~aar/papers/botttu.pdf)&rbrack;
