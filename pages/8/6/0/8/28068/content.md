@@ -368,10 +368,10 @@ We may redo this derivation  after multiplication of the original Schwinger-Dyso
   \label{IntegratedSchwingerDysonForComputingCCRsViaMomenta}
   \underset{\underset{\epsilon\to 0}{\longrightarrow}}{\lim}
   \int_{\mathbb{R}^{d}/\mathbb{Z}^{d}}
-  \mathrm{d}^d x
-  \,
   \int \mathrm{d}^d \vec x
+  \,
   f(\vec x)
+  \,
   \Big\langle
     \pi(y^0 + \epsilon, \vec x)
     \,
