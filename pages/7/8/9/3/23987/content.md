@@ -4421,6 +4421,18 @@ Nov 2025
 
 \linebreak
 
+* {#OstenNov2025} 26 Nov 2025
+
+  [[David Osten]] (University of Wrocław, Poland):
+
+  **An integrable sector for the membrane**
+
+  cf.: [arXiv:2505.17184](https://arxiv.org/abs/2505.17184)
+
+  > In contrast to [[string]] [[sigma models]] which are well-known to be (classically) [[integrable model|integrable]] in certain [[background field|backgrounds]], most famously [[Minkowski spacetime|flat space]] or [[anti de Sitter spacetime|$AdS_5$]] $\times$ [[5-sphere|$S^5$]], the same is not true for the [[membrane]] [[sigma model]]. Reasons for this are the non-trivial [[gravity]] on the [[world-volume]] but also the rarity of three-dimensional integrable field theories in general. Here, I will present the novel observation that a certain decoupling limit of the [[M2-brane|membrane]] in certain backgrounds will lead to an integrable model, the [[Manakov-Zakharov-Ward model]] -- a known three-dimensional, but [[relativistic field theory|non-relativistic]], [[integrable model|integrable]] [[field theory]]. As an example of a [[supergravity]] background in which this limit is possible I present the [[D=11 supergravity|11d]] uplift of the pure NS-NS $AdS_3 \times S^3 \times T^4$ background.
+
+\linebreak
+
 
 
 \linebreak  
