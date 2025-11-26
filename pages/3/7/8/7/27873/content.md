@@ -72,6 +72,20 @@ $$
 $$
 Its composition with the second [[Chern class]] is exactly the [[Hurewicz homomorphism]] $\pi^4(X)\rightarrow H^4(X,\mathbb{Z})$.
 
+### Adjoint vector bundle
+
+\begin{proposition}
+For a principal $SU(2)$-bundle, the first [[Pontrjagin class]] of its [[adjoint bundle]] is given by:
+$$
+p_1Ad(P)
+=-4c_2(P).
+$$
+\end{proposition}
+
+([Donaldson & Kronheimer 91, Eq. 2.1.37](#donaldsonkronheimer91))
+
+(This relation holds in general for principal $SU(n)$-bundles with $p_1 Ad(P)=-2nc_2(P)$.)
+
 ### Associated vector bundle
 
 For principal $SU(2)$-bundles $P\twoheadrightarrow X$, there is an [[associated bundle|associated]] complex plane bundle $P\times_{SU(2)}\mathbb{C}^2\twoheadrightarrow X$ using the [[balanced product]].
@@ -129,6 +143,7 @@ $$
 
 Particular [[principal bundles]]:
 
+* [[double cover]] (principal O(1)-bundle)
 * [[principal U(1)-bundle]] (principal SO(2)-bundle)
 * [[principal U(2)-bundle]] (principal $Spin^\mathrm{c}(3)$-bundle, principal $Spin^\mathrm{h}(2)$-bundle)
 * **principal SU(2)-bundle** (principal Sp(1)-bundle, principal Spin(3)-bundle)
@@ -147,6 +162,8 @@ Particular [[principal bundles]]:
 * {#Donaldson87} [[Simon Donaldson]], _The orientation of Yang-Mills moduli spaces and 4-manifold topology_. In: Journal of Differential Geometry. 26. Jahrgang, Nr. 3 (1987) &lbrack;[doi:10.4310/jdg/1214441485](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-26/issue-3/The-orientation-of-Yang-Mills-moduli-spaces-and-4-manifold/10.4310/jdg/1214441485.full)&rbrack;
 
 * {#FreedUhlenbeck91}  [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer (1991) &lbrack;[doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8)&rbrack;
+
+* {#DonaldsonKronheimer97} [[Simon Donaldson]], [[Peter Kronheimer]]: _The Geometry of Four-Manifolds_ (1990, revised 1997), Oxford University Press and Claredon Press, &lbrack;[oup:52942](https://academic.oup.com/book/52942), [doi:10.1093/oso/9780198535539.001.0001](https://doi.org/10.1093/oso/9780198535539.001.0001), ISBN:978-0198502692, ISSN:0964-9174&rbrack;
 
 * {#Hatcher02} [[Allen Hatcher]]: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
