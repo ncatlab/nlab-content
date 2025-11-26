@@ -525,6 +525,8 @@ $$
 
 ## Related concepts
 
+* [[principal SO(8)-bundle]]
+
 [[!include low dimensional rotation groups -- table]]
 
 \linebreak
