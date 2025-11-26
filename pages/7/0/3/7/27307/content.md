@@ -21,5 +21,14 @@ On [[heterotic string theory|heterotic]] [[double field theory]]:
 
 * [[Falk Hassler]], [[David Osten]], [[Yuho Sakatani]]: *Duality covariant curvatures for the heterotic string* &lbrack;[arXiv:2412.17893](https://arxiv.org/abs/2412.17893)&rbrack;
 
+Realizing the [[integrable model|integrble]] [[Manakov-Zakharov-Ward model]] as a limit of the [[M2-brane]] [[sigma-model]]:
+
+* [[David Osten]]: *The Manakov-Zakharov-Ward model as an integrable decoupling limit of the membrane* &lbrack;[arXiv:2505.17184](https://arxiv.org/abs/2505.17184)&rbrack;
+
+* [[David Osten]]: *An integrable sector for the membrane*,  [talk at](CQTS#OstenNov2025) *[[CQTS]]* (Nov 2025)
+
+
+  
+
 
 category: people
