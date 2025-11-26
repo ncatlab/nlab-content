@@ -12,6 +12,7 @@ Simon Donaldson is professor for pure [[mathematics]] at Imperial College London
 Proof of [[Donaldson's theorem]], which laid the basis for [[Donaldson theory]]:
 
 * {#Donaldson83} [[Simon Donaldson]]. _An application of gauge theory to four-dimensional topology_. In: Journal of Differential Geometry. 18. Jahrgang, Nr. 2, 1. Januar 1983, [doi:10.4310/jdg/1214437665](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-2/An-application-of-gauge-theory-to-four-dimensional-topology/10.4310/jdg/1214437665.full)
+
 * {#Donaldson87} [[Simon Donaldson]]. _The orientation of Yang-Mills moduli spaces and 4-manifold topology_. In: Journal of Differential Geometry. 26. Jahrgang, Nr. 3, 1. Januar 1987, [doi:10.4310/jdg/1214441485](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-26/issue-3/The-orientation-of-Yang-Mills-moduli-spaces-and-4-manifold/10.4310/jdg/1214441485.full)
 
 On [[Nahm's equations]] and the [[moduli space of monopoles]]:
@@ -20,7 +21,8 @@ On [[Nahm's equations]] and the [[moduli space of monopoles]]:
 
 Textbook on [[4-manifolds]]:
 
-* {#DonaldsonKronheimer97} [[Simon Donaldson]], [[Peter Kronheimer]], _The Geometry of Four-Manifolds_ (1990, revised 1997), Oxford University Press and Claredon Press, [ISBN 978-0198502692, ISSN 0964-9174]
+* {#DonaldsonKronheimer97} [[Simon Donaldson]], [[Peter Kronheimer]]: _The Geometry of Four-Manifolds_ (1990, revised 1997), Oxford University Press and Claredon Press, &lbrack;[oup:52942](https://academic.oup.com/book/52942), [doi:10.1093/oso/9780198535539.001.0001](https://doi.org/10.1093/oso/9780198535539.001.0001), ISBN:978-0198502692, ISSN:0964-9174&rbrack;
+
 
 On [[Yang-Mills theory]] ([[gauge theory]]) in [[mathematical physics]]:
 
