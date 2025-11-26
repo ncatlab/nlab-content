@@ -42,7 +42,7 @@ In [[perturbative quantum field theory]] the _Schwinger-Dyson equation_ (named a
   \text{on-shell}
 \]
 
-(cf. [Henneaux & Teitelboim 1992 (15.25)](#HenneauxTeitelboim92), [Rejzner 2916 Rem. 7.7](#Rejzner16)).
+(cf. [Henneaux & Teitelboim 1992 (15.25)](#HenneauxTeitelboim92), [Rejzner 2016 Rem. 7.7](#Rejzner16)).
 
 If one can arrange or imagine that the [[expectation values]] of [[time-ordered products]] are given by a [[path integral]] against an [[exponential|exponentiated]] [[action functional]] $\exp(\tfrac{\mathrm{i}}{\hbar}S\big(\mathbf{\Phi})\big)$, and if one can argue away boundary terms, then the SD-equation (eq:EquationSchwingerDyson) may be understood as the result of path-[[integration by parts]], whereby the ([[variational calculus|variational]]) [[derivative]] of the observable $A$ on the right is moved over to the factor $\exp(\tfrac{\mathrm{i}}{\hbar}S\big(\mathbf{\Phi})\big)$ which is then implicit on the left. In this [[path integral]]-perspective (and in the special case of [[quantum mechanics]]) the SD equation was originally found by [Feynman 1948 (45-46)](#Feynman48) (who referred to it as "this very important relation").
 
@@ -147,17 +147,17 @@ The Dyson-Schwinger equation is named after:
 
 The traditional informal account in terms of [[path integral]]-heuristics is reviewed for instance in
 
-* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], section 15.1.4, 15.5.1, 15.5.3 of _[[Quantization of Gauge Systems]]_, Princeton University Press 1992. 
+* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], sections 15.1.4, 15.5.1, 15.5.3 of: _[[Quantization of Gauge Systems]]_, Princeton University Press (1992)  &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
 
 * {#Dermisek09} [[Radovan Dermisek]], _Schwinger-Dyson equations_, 2009  ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-4-4p.pdf))
 
-A rigorous derivation in terms of [[BV-formalism]] in [[causal perturbation theory]]/[[pAQFT]] is provided in
+Rigorous derivation in terms of [[BV-formalism]] in [[causal perturbation theory]]/[[pAQFT]]:
 
-* {#Rejzner16} [[Katarzyna Rejzner]], remark 7.7 _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+* {#Rejzner16} [[Katarzyna Rejzner]]: Remark 7.7 in: *Perturbative Algebraic Quantum Field Theory*, Mathematical Physics Studies, Springer (2016) &lbrack;[doi:10.1007/978-3-319-25901-7](https://doi.org/10.1007/978-3-319-25901-7)&rbrack;
 
-For discussion in the context of the [[master Ward identity]], see
+and in the context of the [[master Ward identity]]:
 
-* {#DuetschFredenhagen02} [[Michael Dütsch]], [[Klaus Fredenhagen]], _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_, Commun.Math.Phys. 243 (2003) 275-314 ([arXiv:hep-th/0211242](https://arxiv.org/abs/hep-th/0211242))
+* {#DuetschFredenhagen02} [[Michael Dütsch]], [[Klaus Fredenhagen]], _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_, Commun. Math. Phys. **243** (2003) 275-314 &lbrack;[arXiv:hep-th/0211242](https://arxiv.org/abs/hep-th/0211242)&rbrack;
 
 See also
 
