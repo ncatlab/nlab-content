@@ -17,8 +17,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -86,7 +84,7 @@ To fix this, look at the category of [[pointed object|pointed]] groupoids with [
 ### Internalization 
  {#Internalization}
 
-A **[[group object]]** [[internalization|internal to]] a [[monoidal category|monoidal]] [[category]] $C$ is an object $G$ together with maps $mult:G\times G\to G$, $id:1\to G$, and $inv:G\to G$ such that various diagrams expressing associativity, unitality, and inverses commute.
+A **[[group object]]** (see there for more) [[internalization|internal to]] a [[category]] $C$ with [[finite products]] (hence in particular with a [[terminal object]] $\ast$) is an object $G$ together with [[morphisms]] $mult \colon G \times G\to G$, $id \colon \ast \to G$, and $inv \colon G\to G$ such that various diagrams commute expressing associativity, unitality, and inverses (see [there](group+object#InCartesianMonoidalCategory)).
 
 Equivalently, it is a functor $C^{op}\to Grp$ whose underlying functor $C^{op} \to Set$ is [[representable functor|representable]].
 
