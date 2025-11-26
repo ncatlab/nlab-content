@@ -242,6 +242,7 @@ $\mathbb{Z}_2520\oplus\mathbb{Z}_2$ | $\mathbb{Z}_2^2$ | $\mathbb{Z}_2^3$ | $\ma
 
 ## Related concepts
 
+* [[principal Sp(2)-bundle]]
 * [[Spin(5,1)]]
 
 [[!include low dimensional rotation groups -- table]]
