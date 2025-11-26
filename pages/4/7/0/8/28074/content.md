@@ -23,7 +23,7 @@
 ## Properties
 
 \begin{proposition}
-A principal SO(5)-bundle $P$ fulfills:
+A principal SO(8)-bundle $P$ fulfills:
 $$
 w_2^2(P)
 \equiv p_1(P) mod 2;
