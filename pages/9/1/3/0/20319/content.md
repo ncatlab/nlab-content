@@ -19,6 +19,8 @@ The [[special orthogonal group]] in [[dimension]] 5.
 
 ## Related concepts
 
+* [[principal SO(5)-bundle]]
+
 [[!include low dimensional rotation groups -- table]]
 
 
