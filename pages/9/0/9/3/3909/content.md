@@ -488,6 +488,8 @@ This correspondence extends also to the 0-point in $\mathcal{N}$ if one passes t
 
 * [[celestial sphere]], [[quadric]], [[Klein quadric]]
 
+
+
 ## References
 
 ### General
@@ -504,7 +506,11 @@ Key developments concerning [[scattering amplitudes]] are due to
 
 The relation to [[self-dual Yang-Mills theory]] is due to 
 
-* {#Ward77} R. S. Ward, _On Selfdual gauge fields_, Phys. Lett. A61 (1977) 81-82.
+* {#Ward77} [[Richard S. Ward]]: _On Selfdual gauge fields_, Phys. Lett. A **61** (1977) 81-82 &lbrack;<a href="https://doi.org/10.1016/0375-9601(77)90842-8">doi:10.1016/0375-9601(77)90842-8</a>&rbrack;
+
+with comprehensive discussion in:
+
+* {#WardWells90} [[Richard S. Ward]], R. O. Wells, _Twistor geometry and field theory_, Cambridge Univ. Press (1990) &lbrack;[doi:10.1017/CBO9780511524493](https://doi.org/10.1017/CBO9780511524493)&rbrack;
  
 
 Introductions and surveys:
@@ -530,8 +536,6 @@ Introductions and surveys:
 * {#Adamo17} Tim Adamo, _Lectures on twistor theory_ ([arXiv:1712.02196](https://arxiv.org/abs/1712.02196))
 
 * [[Lionel J. Mason]], N. M. J. Woodhouse, _Integrability, self-duality and twistor theory_, OUP 1996
-
-* R. S. Ward, R. O. Wells, Jr. _Twistor geometry and field theory_, Cambridge Univ. Press 1990
 
 * [[Roger Penrose]], *Twistor Theory: A Geometric Perspective for Describing the Physical World* ([doi:10.1017/9781108854399.011](https://doi.org/10.1017/9781108854399.011)), chapter in: [[Gabriel Catren]], [[Mathieu Anel]] (eds.) *[[New Spaces for Mathematics and Physics]]*, Cambridge University Press (2021) ([doi:10.1017/9781108854429](https://doi.org/10.1017/9781108854429))
 
@@ -564,7 +568,8 @@ and the further generalization to [[Cartan geometry]]/[[parabolic geometry]] is 
 
 More on traditional applications to [[quantum field theory]] is in 
 
-* {#WardWells90} R.S. Ward, R.O. Wells, _Twistor geometry and field theory_, Cambridge Univ. Press 1990 ([doi:10.1017/CBO9780511524493](https://doi.org/10.1017/CBO9780511524493))
+* [Ward & Wells 1990](#WardWells90)
+
   
 
 The relation of twistor geometry to [[MHV amplitudes]] in 4d [[Yang-Mills theory]] and [[twistor string theory]] is due to 
