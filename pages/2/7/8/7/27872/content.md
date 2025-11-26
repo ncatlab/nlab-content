@@ -67,8 +67,13 @@ Its composition with the first [[Chern class]] is exactly the [[Hurewicz homomor
 
 ### Associated vector bundle
 
-For principal $U(1)$-bundles $P\twoheadrightarrow X$, there is an [[associated fiber bundle|associated]] [[complex line bundle]] $P\times_{U(1)}\mathbb{C}\twoheadrightarrow X$ using the [[balanced product]].
+For principal $U(1)$-bundles $P\twoheadrightarrow X$, there is an [[associated fiber bundle|associated]] [[complex line bundle]] $L=P\times_{U(1)}\mathbb{C}\twoheadrightarrow X$ using the [[balanced product]]. If $Q$ is the induced [[principal SU(2)-bundle]] (using the canonical inclusion $U(1)\hookrightarrow SU(2),z\mapsto diag(z,z^{-1})$), then its [[adjoint bundle]] is given by:
+$$
+Ad(Q)
+=L^2\oplus\underline{\mathbb{R}}.
+$$
 
+([Donaldson & Kronheimer 91, Eq. (4.2.12)](#donaldsonkronheimer91))
 
 ## Examples
 
@@ -113,6 +118,7 @@ $$
 
 Particular [[principal bundles]]:
 
+* [[double cover]] (principal O(1)-bundle)
 * **principal U(1)-bundle** (principal SO(2)-bundle)
 * [[principal U(2)-bundle]] (principal $Spin^\mathrm{c}(3)$-bundle, principal $Spin^\mathrm{h}(2)$-bundle)
 * [[principal SU(2)-bundle]] (principal Sp(1)-bundle, principal Spin(3)-bundle)
@@ -125,6 +131,8 @@ Particular [[principal bundles]]:
 ## References
 
 * {#FreedUhlenbeck91}  [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer (1991) &lbrack;[doi:10.1007/978-1-4613-9703-8](https://link.springer.com/book/10.1007/978-1-4613-9703-8))&rbrack;
+
+* {#DonaldsonKronheimer97} [[Simon Donaldson]], [[Peter Kronheimer]]: _The Geometry of Four-Manifolds_ (1990, revised 1997), Oxford University Press and Claredon Press, &lbrack;[oup:52942](https://academic.oup.com/book/52942), [doi:10.1093/oso/9780198535539.001.0001](https://doi.org/10.1093/oso/9780198535539.001.0001), ISBN:978-0198502692, ISSN:0964-9174&rbrack;
 
 * {#Hatcher02} [[Allen Hatcher]]: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
