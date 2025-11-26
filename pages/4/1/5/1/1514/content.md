@@ -48,7 +48,7 @@ and calls this the **path integral**. Here the expression $D \phi$ is supposed t
 
 The name _path integral_ originates from the special case where the system is the [[sigma model]] describing a particle on a target space manifold $X$. In this case a field configuration $\phi$ is a path $\phi : [0,1] \to X$ in $X$, hence the integral over all field configurations is an integral over all paths.
 
-The idea of the path integral famously goes back to [[Richard Feynman]], who motivated the idea in [[quantum mechanics]]. In that context the notion can typically be made precise and shown to be equivalent to various other [[quantization]] prescriptions. 
+The idea of the path integral famously goes back to [Feynman 1942](#Feynman42) (and, less famously so, in fact to [Dirac 1933](#Dirac33)), who motivated the idea in [[non-relativistic particle|non-relativistic]] [[quantum mechanics]]. In that context the notion can typically be made precise and can be shown to be equivalent to various other [[quantization]] prescriptions. 
 
 The central impact of the idea of the path integral however is in its application to [[quantum field theory]], where it is often taken in the physics literature as the _definition_ of what the quantum field theory encoded by an [[action functional]] should be, disregarding the fact that in these contexts it is typically quite unclear what the path integral actually means, precisely. 
 
