@@ -297,7 +297,7 @@ Assuming we are on cylindrical [[Minkowski spacetime]] $\mathbb{R}^{1,d} / \math
   \mathrlap{\,.}
 \]
 
-> This is the field theoretic version of Feynman's (eq:PartialIntegrationInDiscretizedPathIntegral).
+> This is the field theoretic version of Feynman's equation (eq:PartialIntegrationInDiscretizedPathIntegral) above.
 
 Now consider the [[integration]] of this expression in the variable $x$ over the spacetime region in a small time interval $(y^0- \epsilon, y^0 + \epsilon) \times \mathbb{R}^{d}/\mathbb{Z}^{d}$ and let $\epsilon \to 0$. Then: 
 
@@ -360,7 +360,7 @@ so that
   \mathrlap{\,.}
 \]
 
-> This is the field-theoretic version of Feynman's (eq:FeynmanCCRViaTimeShiftedProduct).
+> This is the field-theoretic version of Feynman's equation (eq:FeynmanCCRViaTimeShiftedProduct) above.
 
 We may redo this derivation  after multiplication of the original Schwinger-Dyson equation (eq:SchwingerDysonForComputingCCRs) with any "smearing function" $f(\vec x)$ (a spatial [[bump function]]). Then where we used [[Stokes' theorem]] above we are now faced with an [[integration by parts]] that picks up terms proportional to the [[gradient]] of $f$ --- but if the dependence of $L$ on spatial derivatives of $\phi$ does not have unusual singularities (i.e. if the [[kinetic energy]] term in $L$ is a standard one) then these terms vanish with $\epsilon$ just as the [[potential energy]] term does, and hence we end up with
 
