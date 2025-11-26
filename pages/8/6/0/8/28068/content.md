@@ -62,7 +62,7 @@ $$
   \mathrlap\,.
 $$
 
-To recall that the [[quantum probability theory|quantum expectation value]] of an [[observable]] $O \colon (S^1) ^{\mathbf{N}} \longrightarrow \mathbb{C}$ with respect to a [[pure quantum state]] $psi \colon S^1 \longrightarrow \mathbb{C}$ is expressed as the following (discretized) path integral:
+To recall that the [[quantum probability theory|quantum expectation value]] of an [[observable]] $O \colon (S^1) ^{\mathbf{N}} \longrightarrow \mathbb{C}$ with respect to a [[pure quantum state]] $\psi \colon S^1 \longrightarrow \mathbb{C}$ is expressed as the following (discretized) path integral:
 \[
   \label{ExpectationValuesForParticleOnS1ViaDiscretized}
   \big\langle
