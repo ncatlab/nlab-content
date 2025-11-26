@@ -133,7 +133,7 @@ The [[space of quantum states]] forms a linear [[representation]] of a given [[a
 
 
 
-## Via the path integral
+## Via time-ordered products
  {#ViaPathIntegral}
 
 
