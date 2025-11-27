@@ -15,11 +15,17 @@
 
 ## Idea
 
-In [[physics]] there are (at least) two different concepts that go by the name **gauge group**:
+In [[physics]] by a *[[gauge group]]* one means a "[[group]] of  [[gauge transformations]]", but details differ:
 
-* a _local gauge group_ $G$ is a structure group of $G$-[[principal bundle]]s in the configuration space of a classical [[gauge theory]]: it acts by [[gauge transformation]]s on the space of field configurations.
+* A _local gauge group_ $G$ is the [[structure group]] of $G$-[[principal bundles]] which serve as topological sectors of $G$-[[gauge fields]] or of their [[associated bundle|associated]] [[fiber bundles]] which serve as topological sectors of of other [[field (physics)|fields]] (cf. *[[fiber bundles in physics]]*).
 
-* a _global gauge group_ is a group of [[automorphism]]s that acts on the ([[local net]] of) [[observable]]s of a [[quantum field theory]].
+* A _global gauge group_ is a group of [[automorphisms]] that [[group action|acts]] as the [[global symmetry]] group on the ([[local net]] of) [[observables]] of a [[quantum field theory]].
+
+Moreover, in a kind of combination of these two cases, some authors in mathematical physics say that:
+
+* The *gauge group of a (principal) fiber bundle* is its [[automorphism group]] over its base space.
+
+For for instance if $P$ is the [[trivial bundle|trivial]] $G$-[[principal bundle]] over a space $X$, then its gauge group in this third sense is the group $Map(X,G)$ of [[functions]]/[[maps]] on $X$ with values in the *local* gauge group $G$, regarded as a group under pointwise group multiplication.
 
 Notably after [[quantization]] the gauge group in the first sense does _not_ become a gauge group in the second sense. On the contrary, observables in quantum field theory are required _not_ to depend on gauge transformations in the first sense, and part of what makes quantization of [[gauge theory]] nontrivial is to find among all potential candidate observables those that actually are invariant under gauge transformations, i.e. under isomorphisms of [[principal bundle]]s with [[connection on a bundle|connection]] in the configuration space of the gauge theory.
 
