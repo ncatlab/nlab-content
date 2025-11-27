@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal O(2)-bundles* are special [[principal bundles]] with the second [[orthogonal group]] [[O(2)]] as [[gauge group]].
+*Principal O(2)-bundles* are special [[principal bundles]] with the second [[orthogonal group]] [[O(2)]] as [[structure group]]([[gauge group]]).
 
 ## Related concepts
 
