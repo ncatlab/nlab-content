@@ -17,7 +17,7 @@
 
 In [[physics]] by a *[[gauge group]]* one means a "[[group]] of  [[gauge transformations]]", but details differ:
 
-* A _local gauge group_ $G$ is the [[structure group]] of $G$-[[principal bundles]] which serve as topological sectors of $G$-[[gauge fields]] or of their [[associated bundle|associated]] [[fiber bundles]] which serve as topological sectors of of other [[field (physics)|fields]] (cf. *[[fiber bundles in physics]]*).
+* A _local gauge group_ $G$ is the [[structure group]] of $G$-[[principal bundles]] which serve as topological sectors of $G$-[[gauge fields]] or of their [[associated bundle|associated]] [[fiber bundles]] which serve as topological sectors of other [[field (physics)|fields]] (cf. *[[fiber bundles in physics]]*).
 
 * A _global gauge group_ is a group of [[automorphisms]] that [[group action|acts]] as the [[global symmetry]] group on the ([[local net]] of) [[observables]] of a [[quantum field theory]].
 
