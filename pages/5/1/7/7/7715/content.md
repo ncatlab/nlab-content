@@ -28,7 +28,7 @@ More generally, and less tautologically, if $V \to X$ is a $G$-[[associated bund
 
 In particular when $V = T X$ is a [[tangent bundle]] with structure group $G$ one also says that $X$ is equipped with *[[G-structure]]*. 
 
-In [[physics]], with these bundles understood as [[field bundles]] (cf. *[[fiber bundles in physics]]*) the structure group is called the *[[gauge group]]*.
+In [[physics]], with these bundles understood as [[field bundles]] (cf. *[[fiber bundles in physics]]*) the structure group is called the local *[[gauge group]]*, but see there for disambiguation.
 
 
 ## Related concepts
