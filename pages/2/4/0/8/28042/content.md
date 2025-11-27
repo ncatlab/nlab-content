@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal SU(4)-bundles* (or *principal Spin(6)-bundles*) are special [[principal bundles]] with the fourth [[special unitary group]] [[SU(4)|$SU(4)$]] ([[exceptional isomorphism|exceptionally isomorphic]] to the sixth [[spin group]] [[Spin(6)|$Spin(6)$]]) as [[gauge group]].
+*Principal SU(4)-bundles* (or *principal Spin(6)-bundles*) are special [[principal bundles]] with the fourth [[special unitary group]] [[SU(4)|$SU(4)$]] ([[exceptional isomorphism|exceptionally isomorphic]] to the sixth [[spin group]] [[Spin(6)|$Spin(6)$]]) as [[structure group]] ([[gauge group]]).
 
 Principal $SU(4)$-bundles in particular induce [[principal SO(6)-bundles]] using the canonical projection $SU(4)\cong Spin(6)\twoheadrightarrow SO(6)$. Principal SU(4)-bundles also induce [[principal SU(2)-bundles]] and [[principal SU(3)-bundles]] using the canonical inclusions $SU(2)\hookrightarrow SU(3)\hookrightarrow SU(4)$.
 
