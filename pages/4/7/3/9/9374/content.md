@@ -70,7 +70,9 @@ On the [[braided tensor categories]] corresponding to logarithmic CFTs:
 
 On generalizing the [[FRS-theorem on rational 2d CFT]] to logarithmic 2dCFTs:
 
-* {#FuchsSchweigert19} [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  $[$[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)$]$
+* {#FuchsSchweigert19} [[Jürgen Fuchs]], [[Christoph Schweigert]], *Full Logarithmic Conformal Field theory - an Attempt at a Status Report*, Proc. of *[[Higher Structures in M-Theory 2018]]*, Fortschr. Phys.  **67** 8-9 (2019)  &lbrack;[arXiv:1903.02838](https://arxiv.org/abs/1903.02838), [doi:10.1002/prop.201910018](https://doi.org/10.1002/prop.201910018)&rbrack;
+
+* Aaron Hofer, [[Ingo Runkel]]: *Non-semisimple CFT/TFT correspondence I: General setup* &lbrack;[arXiv:2511.21231](https://arxiv.org/abs/2511.21231)&rbrack;
 
 Logarithmic CFT describing generalized [[Laughlin wavefunctions]] with [[topological order]]:
 
