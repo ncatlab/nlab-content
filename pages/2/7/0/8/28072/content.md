@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal SO(5)-bundles* are special [[principal bundles]] with the fifth [[special orthogonal group]] [[SO(5)]] as [[gauge group]].
+*Principal SO(5)-bundles* are special [[principal bundles]] with the fifth [[special orthogonal group]] [[SO(5)]] as [[structure group]] ([[gauge group]]).
 
 ## Properties
 
