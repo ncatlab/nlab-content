@@ -746,7 +746,7 @@ Then the corresponding _[[projective G-space]]_ is the [[quotient space]] of the
 
 $$
   k P(V)
-  \;:=\;
+  \;\coloneqq\;
   \big(
     V \setminus \{0\}
   \big) / k^\times
@@ -763,6 +763,8 @@ See at _[[G-CW complex]]_.
 ## Related concepts
 
 * [[G-set]], [[G-manifold]], [[simplicial group action]]
+
+* [[balanced product]]
 
 * [[fixed point space]]
 
