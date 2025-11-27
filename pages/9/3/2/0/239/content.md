@@ -152,6 +152,10 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[tensor product of Banach spaces]]
 
+* [[balanced product]] of [[G-spaces]]
+
+* [[balanced smash product]] of [[pointed topological space|pointed]] [[G-spaces]]
+
 * [[tensor product of functors]]
 
 * [[enriched product category|tensor product of enriched categories]]
