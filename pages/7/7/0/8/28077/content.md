@@ -22,11 +22,21 @@
 
 ## Idea
 
-The _balanced product_ is the [[product]] in the [[category]] of [[topological G-spaces]].
+The _balanced product_ is the natural [[tensor product]] in the [[category]] of [[topological G-spaces]] (for $G$ any [[topological group]]) with values in plain [[topological spaces]].
+
+Similarly there is a balanced product of [[smooth manifold|smooth]] [[G-manifolds]] for $G$ any [[Lie group]], etc.
+
+## Examples
+
+\begin{example}
+The balanced product of a $G$-[[principal bundle]] with a [[G-space]] $F$ is the [[associated bundle|associated]] $F$-[[fiber bundle]].
+\end{example}
 
 ## Related concepts
 
 * [[balanced smash product]]
+
+* [[associated bundle]]
 
 ## References
 
