@@ -96,6 +96,16 @@ $$
 \cong\pi_4 U(2)
 \cong\mathbb{Z}_{2}.
 $$
+$U(3)\twoheadrightarrow S^5$ is the unique non-trivial principal bundle, which can be detected by the fourth [[homotopy group]]:
+$$
+\pi_4 U(3)
+\cong 1;
+$$
+$$
+\pi_4\left(S^5\times U(2)\right)
+\cong\pi_4(S^5)\times\pi_4 U(2)
+\cong\mathbb{Z}_2.
+$$
 
 ## Related concepts
 
@@ -115,7 +125,7 @@ Particular [[principal bundles]]:
 * [[principal SU(2)-bundle]] (principal Sp(1)-bundle, principal Spin(3)-bundle)
 * [[principal SU(3)-bundle]]
 * [[principal SU(4)-bundle]] (principal Spin(6)-bundle)
-* [[principal Sp(2)-bundle]]
+* [[principal Sp(2)-bundle]] (principal Spin(5)-bundle)
 
 ## References
 
