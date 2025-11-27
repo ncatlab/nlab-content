@@ -198,6 +198,8 @@ See at _[[symmetric smash product of spectra]]_.
 
 * While the smash product is not cartesian, it does [[monoidal category with diagonals|admit diagonals]].
 
+* [[balanced smash product]]
+
 ## References
 
 Basic accounts:
