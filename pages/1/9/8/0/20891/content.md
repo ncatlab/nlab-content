@@ -118,3 +118,8 @@ of any class category is an [[elementary topos]].
 
 [[!redirects Heyting category with class structure]]
 [[!redirects Heyting categories with class structure]]
+
+[[!redirects class of small maps]]
+[[!redirects classes of small maps]]
+[[!redirects class of open maps]]
+[[!redirects classes of open maps]]
