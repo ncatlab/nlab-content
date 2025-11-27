@@ -45,6 +45,15 @@ $$
 
 ([Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99))
 
+## Examples
+
+* One has $S^n\cong SO(n+1)/SO(n)$, hence there is a principal SO(8)-bundle $SO(9)\twoheadrightarrow S^8$. Such [[principal bundles]] are classified by:
+$$
+\pi_8B SO(8)
+\cong\pi_7 SO(8)
+\cong\mathbb{Z}^2.
+$$
+
 ## Related concepts
 
 Particular [[principal bundles]]:
