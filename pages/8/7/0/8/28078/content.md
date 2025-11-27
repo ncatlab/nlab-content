@@ -22,7 +22,7 @@
 
 ## Idea
 
-The _balanced smash product_ is the [[product]] in the [[category]] of pointed [[topological G-spaces]].
+The _balanced smash product_ is the [[tensor product]] in the [[category]] of [[pointed topological space|pointed]] [[topological G-spaces]] (for any [[topological group]] $G$) which combines the ordinary [[smash product]] of [[pointed topological spaces]] with the [[balanced product]] of [[G-spaces]].
 
 ## Related concepts
 
