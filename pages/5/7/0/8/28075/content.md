@@ -36,6 +36,15 @@ Both relations hold in general for the maps $SU(n)\hookrightarrow U(n)\rightarro
 
 ([Donaldson & Kronheimer 91, p. 205](#donaldsonkronheimer91))
 
+## Examples
+
+* One has $S^{2n+1}\cong U(n+1)/U(n)$, hence there is a principal U(3)-bundle $U(4)\twoheadrightarrow S^7$. Such [[principal bundles]] are classified by:
+$$
+\pi_7B U(3)
+\cong\pi_6 U(3)
+\cong\mathbb{Z}_6.
+$$
+
 ## Related concepts
 
 Particular [[principal bundles]]:
