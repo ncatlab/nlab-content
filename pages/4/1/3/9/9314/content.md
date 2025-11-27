@@ -136,6 +136,8 @@ This is a traditional description of the associated bundle in question.
 
 ## Related concepts
 
+* [[balanced product]]
+
 * [[associated infinity-bundle]]
 
 [[!redirects associated bundles]]
