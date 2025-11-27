@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal Sp(2)-bundles* (or *principal Spin(5)-bundles*) are special [[principal bundles]] with the second symplectic group [[Spin(5)|Sp(2)]] ([[exceptional isomorphism|exceptionally isomorphic]] to the fifth [[spin group]] [[Spin(5)]]) as [[gauge group]].
+*Principal Sp(2)-bundles* (or *principal Spin(5)-bundles*) are special [[principal bundles]] with the second symplectic group [[Spin(5)|Sp(2)]] ([[exceptional isomorphism|exceptionally isomorphic]] to the fifth [[spin group]] [[Spin(5)]]) as [[structure group]] ([[gauge group]]).
 
 ## Related concepts
 
