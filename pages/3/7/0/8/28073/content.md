@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal SO(7)-bundles* are special [[principal bundles]] with the seventh [[special orthogonal group]] [[SO(7)]] as [[gauge group]].
+*Principal SO(7)-bundles* are special [[principal bundles]] with the seventh [[special orthogonal group]] [[SO(7)]] as [[structure group]] ([[gauge group]]).
 
 ## Properties
 
