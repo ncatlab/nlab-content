@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal SO(8)-bundles* are special [[principal bundles]] with the eighth [[special orthogonal group]] [[SO(8)]] as [[gauge group]].
+*Principal SO(8)-bundles* are special [[principal bundles]] with the eighth [[special orthogonal group]] [[SO(8)]] as [[structure group]] ([[gauge group]]).
 
 ## Properties
 
