@@ -96,7 +96,7 @@ as follows.  First, set
 
 $$ \mathfrak{g}_1 = V_+, \qquad \mathfrak{g}_{-1} = V_- $$
 
-and let $\mathfrak{g}_0$ consist of the **inner derivations** of the Jordan pair.  These are linear maps $D \colon V_+ \oplus V_- \to V_+ \oplus V_-$ of the form  
+and let $\mathfrak{g}_0$ consist of the **inner derivations** of the Jordan pair.  These are linear maps $D \colon V_+ \oplus V_- \to V_+ \oplus V_-$ that are linear combinations of those of the form  
 
 $$D(x, y) = (\{x, y, \cdot\}, -\{y, x, \cdot\})$$
 
