@@ -43,6 +43,15 @@ $$
 A principal SO(5)-bundle $f\colon X\rightarrow B SO(5)$ lifts to a [[principal Sp(2)-bundle]] $\widehat{f}\colon X\rightarrow B Sp(2)$ if and only if its second [[Stiefel-Whitney class]] vanishes, hence the composition $w_2\circ f\colon X\rightarrow K(\mathbb{Z}_2,2)$ is [[nullhomotopic]].
 \end{proposition}
 
+## Examples
+
+* One has $S^n\cong SO(n+1)/SO(n)$, hence there is a principal SO(5)-bundle $SO(6)\twoheadrightarrow S^5$. Such [[principal bundles]] are classified by:
+$$
+\pi_5B SO(5)
+\cong\pi_4 SO(5)
+\cong\mathbb{Z}_2^2.
+$$
+
 ## Related concepts
 
 Particular [[principal bundles]]:
