@@ -19,7 +19,7 @@ Computing other [[homotopy groups]]:
 * [[EHP spectral sequence]]
 * [[Toda bracket]]
 * [[SU(3)]], [[SU(4)]], [[Sp(2)]]
-* [[principal SU(3)-bundles]], [[principal SU(4)-bundles]]
+* [[principal SU(3)-bundle]], [[principal SU(4)-bundle]], [[principal Sp(2)-bundle]]
 
 category: people
 
