@@ -20,6 +20,15 @@
 
 *Principal O(2)-bundles* are special [[principal bundles]] with the second [[orthogonal group]] [[O(2)]] as [[structure group]]([[gauge group]]).
 
+## Examples
+
+* One has $S^n\cong O(n+1)/O(n)$, hence there is a principal O(2)-bundle $O(3)\twoheadrightarrow S^2$. Such [[principal bundles]] are classified by:
+$$
+\pi_2B O(2)
+\cong\pi_1 O(2)
+\cong\mathbb{Z}.
+$$
+
 ## Related concepts
 
 Particular [[principal bundles]]:
