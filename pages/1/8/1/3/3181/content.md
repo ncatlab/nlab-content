@@ -37,6 +37,10 @@ On exact results in higher dimensional [[conformal field theory]]:
 
 * Philine van Vliet, Emilio Trevisani, [[Ingo Runkel]], Bernardo Zan, Yifei He, Xin Sun, [[Volker Schomerus]]: *Analytic results in conformal field theory* &lbrack;[arXiv:2510.09868](https://arxiv.org/abs/2510.09868)&rbrack;
 
+On generalizing the [[FRS theorem]] to finite [[logarithmic CFT]]:
+
+* Aaron Hofer, [[Ingo Runkel]]: *Non-semisimple CFT/TFT correspondence I: General setup* &lbrack;[arXiv:2511.21231](https://arxiv.org/abs/2511.21231)&rbrack;
+
 
 ## Related  entries
 
