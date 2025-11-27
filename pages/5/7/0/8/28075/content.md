@@ -18,7 +18,7 @@
 
 ## Idea
 
-*Principal SU(3)-bundles* are special [[principal bundles]] with the third [[special unitary group]] [[SU(3)]] as [[gauge group]].
+*Principal SU(3)-bundles* are special [[principal bundles]] with the third [[special unitary group]] [[SU(3)]] as [[structure group]] ([[gauge group]]).
 
 ## Associated vector bundle
 
