@@ -4,7 +4,7 @@
 
 On realizing [[qbits]] and [[quantum gates]] (hence [[quantum computation]]) via [[quantum states]] of [[magnetic flux]] through ([[Josephson junctions]] in) [[superconductors]], manipulated via [[electromagnetic radiation|electromagnetic pulses]]:
 
-* [[Michel H. Devoret]], A. Wallraff, J. M. Martinis, *Superconducting Qubits: A Short Review* \[<a href="https://arxiv.org/abs/cond-mat/0411174">arXiv:cond-mat/0411174</a>\]
+* [[Michel H. Devoret]], A. Wallraff, [[John M. Martinis]], *Superconducting Qubits: A Short Review* \[<a href="https://arxiv.org/abs/cond-mat/0411174">arXiv:cond-mat/0411174</a>\]
 
 * John Clarke, Frank K. Wilhelm, *Superconducting quantum bits*, Nature **453** (2008) 1031–1042 $[$[doi:10.1038/nature07128](https://doi.org/10.1038/nature07128)$]$
 
