@@ -41,6 +41,16 @@ $$
 
 ([Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99))
 
+## Examples
+
+* One has $S^n\cong SO(n+1)/SO(n)$, hence there is a principal SO(7)-bundle $SO(8)\twoheadrightarrow S^7$. Such [[principal bundles]] are classified by:
+$$
+\pi_7B SO(7)
+\cong\pi_6 SO(7)
+\cong 1.
+$$
+Hence the bundle is trivial and $SO(8)\cong SO(7)\times S^7$.
+
 ## Related concepts
 
 Particular [[principal bundles]]:
