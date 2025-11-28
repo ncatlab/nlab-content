@@ -95,6 +95,10 @@ Introductory lecture notes:
 
 * [[Gennadi Sardanashvily]], _Lectures on supergeometry_ &lbrack;[arXiv:0910.0092](http://arxiv.org/abs/0910.0092), [inspire:832789](https://inspirehep.net/literature/832789)&rbrack;
 
+* [[Alberto S. Cattaneo]], [[Florian Schätz]]: *Introduction to supergeometry*, Rev. Math. Phys. **23** (2011) 669-690 &lbrack;[arXiv:1011.3401](https://arxiv.org/abs/1011.3401), [doi:10.1142/S0129055X11004400](https://doi.org/10.1142/S0129055X11004400)&rbrack;
+  > (in view of [[dg-manifolds]] and [[AKSZ sigma-models]])
+
+
 Discussion via [[functorial geometry]]:
 
 * [Schmitt 1997](#Schmitt97)
