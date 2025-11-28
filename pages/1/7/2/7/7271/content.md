@@ -20,6 +20,11 @@ Frank Adams (John Frank Adams) was a British mathematician who made a great cont
 
 ## Selected writings
 
+On the [[cobar construction]]:
+
+* [[John F. Adams]]: *On the cobar construction*, PNAS **42** 7 (1956) 409-412 &lbrack;[doi:10.1073/pnas.42.7.409](https://doi.org/10.1073/pnas.42.7.409)&rbrack;
+
+
 Introducing the [[Adams-Hilton model]] for the [[Pontrjagin ring]]-structure on the [[ordinary homology|homology]] of a [[based loop space]], refined to the [[singular chain complex]]:
 
 * [[John F. Adams]], [[Peter J. Hilton]], *On the chain algebra of a loop space*, Commentarii Mathematici Helvetici **30** (1956) 305–330 &lbrack;[doi:10.1007/BF02564350](https://doi.org/10.1007/BF02564350)&rbrack;
