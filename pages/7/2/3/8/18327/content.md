@@ -26,14 +26,14 @@ Given a [[group object]] in the context of [[homotopy theory]] then the [[free c
 
 
 
-
 ## Definition
 
 One may consider the construction at various levels of algebraic structure:
 
-* for [[∞-groups]] and [[E-∞ rings]]: _[∞-Group E-∞ rings](InfinityGroupInfintyRings)_
+* for [[∞-groups]] and [[E-∞ rings]]: _[∞-Group E-∞ rings](#InfinityGroupInfintyRings)_
 
 * for [[H-groups]] and [[ring spectra]]: _[H-group ring spectra](#HGroupRingSpectra)_
+
 
 ### $\infty$-Group $\infty$-rings
  {#InfinityGroupInfintyRings}
@@ -245,7 +245,23 @@ $$
 
 ## References
 
-* {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ ([arXiv:0810.4535](http://arxiv.org/abs/0810.4535))
+The [[A-infinity algebra|$A_\infty$-algebra]] structure on the [[singular homology]] [[chain complex]] of an [[A-infinity space|$A_\infty$-space]] is due to:
+
+* {#Stasheff63b} [[Jim Stasheff]], Thm. 2.3 of: *Homotopy associativity of H-spaces II* **108** 2 (1963) 293-312 &lbrack;[doi:10.2307/1993609](https://doi.org/10.2307/1993609), [doi:10.1090/S0002-9947-1963-0158400-5](https://doi.org/10.1090/S0002-9947-1963-0158400-5)&rbrack;
+
+If the [[loop infinity group]] is [[rigidification of quasi-categories|rigidified]] to a [[topological monoid]] by using [[Moore loops]] then the $A_\infty$-algebra structure on its chains rigidified to a [[dg-algebra]] stucture. As such this is discussed in relation to the [[cobar construction]]:
+
+* [[John Frank Adams]]: *On the cobar construction*,  Proc Natl Acad Sci USA **42** 7 (1956) 409–412 &lbrack;[doi:10.1073/pnas.42.7.409](https://doi.org/10.1073%2Fpnas.42.7.409)&rbrack;
+
+* [[Manuel Rivera]], [[Mahmoud Zeinalian]]: *Cubical rigidification, the cobar construction, and the based loop space*, Algebr. Geom. Topol. **18** (2018) 3789-3820 &lbrack;[arXiv:1612.04801](https://arxiv.org/abs/1612.04801), [doi:10.2140/agt.2018.18.3789](https://doi.org/10.2140/agt.2018.18.3789)&rbrack;
+
+* [[Manuel Rivera]]: *Adams' cobar construction revisited*, Documenta Math. **27** (2022) 1213-1223 &lbrack;[arxiv:1910.08455](https://arxiv.org/abs/1910.08455), [pdf](https://ems.press/content/serial-article-files/26673)&rbrack;
+
+
+The above abstract [[stable homotopy theory]] of commutative group $\infty$-rings is due to:
+
+* {#ABGHR08} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], [[Michael Hopkins]], [[Charles Rezk]], _Units of ring spectra and Thom spectra_ &lbrack;[arXiv:0810.4535](http://arxiv.org/abs/0810.4535)&rbrack;
+
 
 
 [[!redirects H-group ring spectrum]]
@@ -284,4 +300,13 @@ $$
 [[!redirects group infinity-ring]]
 [[!redirects group infinity-rings]]
 
+[[!redirects ∞-group algebra]]
+[[!redirects ∞-group algebras]]
+[[!redirects ∞-group ∞-algebra]]
+[[!redirects ∞-group ∞-algebras]]
+
+[[!redirects infinity-group algebra]]
+[[!redirects infinity-group algebras]]
+[[!redirects infinity-group infinity-algebra]]
+[[!redirects infinity-group infinity-algebras]]
 
