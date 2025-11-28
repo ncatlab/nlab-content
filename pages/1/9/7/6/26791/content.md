@@ -26,6 +26,8 @@ The name is a nod to *[Narya](https://tolkiengateway.net/wiki/Narya)*, the Ring 
 
 ## References
 
+* [[David Jaz Myers]], *Structure-aware version control via observational bridge types*, [[Topos Institute]], 13 November 2024 ([web](https://topos.institute/blog/2024-11-13-structure-aware-version-control-via-observational-bridge-types/))
+
 * [github.com/gwaithimirdain/narya](https://github.com/gwaithimirdain/narya)
 
 category: software
