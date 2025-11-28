@@ -86,6 +86,10 @@ Exposition of [[homotopy type theory]]:
 
 * [[David Jaz Myers]], *How do you identify one thing with another? -- an intro to Homotopy Type Theory*, talk in Prof. [[Sadok Kallel]]'s seminar at American University of Sharjah (10 Apr 2023) &lbrack;slides: [[Myers-IntroHoTT-Apr2023.pdf:file]]&rbrack;
 
+A blog post from the [[Topos Institute]] on [[bridge types]] for the theory of version control: 
+
+* [[David Jaz Myers]], *Structure-aware version control via observational bridge types*, [[Topos Institute]], 13 November 2024 ([web](https://topos.institute/blog/2024-11-13-structure-aware-version-control-via-observational-bridge-types/))
+
 ## Related entries
 
 * [[logical topology]]
