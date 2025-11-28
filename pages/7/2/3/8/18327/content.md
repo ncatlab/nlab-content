@@ -249,11 +249,12 @@ $$
 
 ## Examples
 
-* The localization of the $E_\infty$-group ring $\Sigma^\infty(BU(1)_+)$ of the  [[circle 2-group]] at the [[Bott element]] $\beta$ is equivalently the [[Brown representability theorem|representing]] [[spectrum]] [[KU]] of complex [[topological K-theory]]:
+\begin{example}
+The localization of the $E_\infty$-group ring $\Sigma^\infty(BU(1)_+)$ of the  [[circle 2-group]] at the [[Bott element]] $\beta$ is equivalently the [[Brown representability theorem|representing]] [[spectrum]] [[KU]] of complex [[topological K-theory]]: $\mathbb{S}[B U(1)][\beta^{-1}]  \simeq KU$.
 
-  $\mathbb{S}[B U(1)][\beta^{-1}]  \simeq KU$
+This is _[[Snaith's theorem]]_.
+\end{example}
 
-  This is _[[Snaith's theorem]]_.
 
 ## References
 
@@ -261,9 +262,11 @@ The [[A-infinity algebra|$A_\infty$-algebra]] structure on the [[singular homolo
 
 * {#Stasheff1963} [[Jim Stasheff]], Thm. 2.3 of: *Homotopy associativity of H-spaces II* **108** 2 (1963) 293-312 &lbrack;[doi:10.2307/1993609](https://doi.org/10.2307/1993609), [doi:10.1090/S0002-9947-1963-0158400-5](https://doi.org/10.1090/S0002-9947-1963-0158400-5)&rbrack;
 
-If the [[loop group|loop]] [[infinity group]] is [[rigidification of quasi-categories|rigidified]] to a [[topological monoid]] by using [[Moore loops]] then the $A_\infty$-algebra structure on its chains rigidified to a [[dg-algebra]] stucture. As such this is discussed in relation to the [[cobar construction]]:
+If the [[loop group|loop]] [[infinity-group]] is [[rigidification of quasi-categories|rigidified]] to a [[topological monoid]] by using [[Moore loops]] then the $A_\infty$-algebra structure on its chains rigidified to a [[dg-algebra]] stucture. As such this is discussed in relation to the [[cobar construction]]:
 
 * [[John Frank Adams]]: *On the cobar construction*,  Proc Natl Acad Sci USA **42** 7 (1956) 409–412 &lbrack;[doi:10.1073/pnas.42.7.409](https://doi.org/10.1073%2Fpnas.42.7.409)&rbrack;
+
+* [[Camilo Arias Abad]], [[Florian Schätz]]: *Flat $\mathbb{Z}$-graded connections and loop spaces*, International Mathematics Research Notices **2018** 4 (2018) 961–1008 &lbrack;[doi:10.1093/imrn/rnw258](https://doi.org/10.1093/imrn/rnw258), [arXiv:1510.04975](https://arxiv.org/abs/1510.04975)&rbrack;
 
 * [[Manuel Rivera]], [[Mahmoud Zeinalian]]: *Cubical rigidification, the cobar construction, and the based loop space*, Algebr. Geom. Topol. **18** (2018) 3789-3820 &lbrack;[arXiv:1612.04801](https://arxiv.org/abs/1612.04801), [doi:10.2140/agt.2018.18.3789](https://doi.org/10.2140/agt.2018.18.3789)&rbrack;
 
