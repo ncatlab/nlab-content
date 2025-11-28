@@ -63,6 +63,10 @@ On [[BV-BRST formalism]] compatible with decomposing [[spacetime]] into pieces (
 * [[Alberto S. Cattaneo]], [[Pavel Mnev]], [[Michele Schiavina]], *BV Quantization*, [[Encyclopedia of Mathematical Physics 2nd ed]] &lbrack;[arXiv:2307.07761](https://arxiv.org/abs/2307.07761)&rbrack;
 
 
+On [[supergeometry]] in view of [[dg-manifolds]] and [[AKSZ sigma-models]]:
+
+* [[Alberto S. Cattaneo]], [[Florian Schätz]]: *Introduction to supergeometry*, Rev. Math. Phys. **23** (2011) 669-690 &lbrack;[arXiv:1011.3401](https://arxiv.org/abs/1011.3401), [doi:10.1142/S0129055X11004400](https://doi.org/10.1142/S0129055X11004400)&rbrack;
+
 
 On the local formulation (allowing decomposition and re-gluing of [[spacetime]]) of the [[phase space]] of [[Einstein gravity]] in [[first-order formulation of gravity|first-order formulation]] via [[BV-BFV formalism]]:
 
