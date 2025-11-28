@@ -237,6 +237,10 @@ Bridge types in [[Narya]]:
 
 * *Parametricity*, [[Narya]] documentation. ([web](https://narya.readthedocs.io/en/latest/parametricity.html))
 
+A blog post from the [[Topos Institute]] on [[bridge types]] for the theory of version control: 
+
+* [[David Jaz Myers]], *Structure-aware version control via observational bridge types*, [[Topos Institute]], 13 November 2024 ([web](https://topos.institute/blog/2024-11-13-structure-aware-version-control-via-observational-bridge-types/))
+
 Some discussion of bridge types occurs in 
 
 * {#CTZulip} *synthetic algebraic geometry vs continuation passing style*, Category Theory Zulip, [web](https://categorytheory.zulipchat.com/#narrow/channel/229199-learning.3A-questions/topic/synthetic.20algebraic.20geometry.20vs.20continuation.20passing.20style/with/526838004). 
