@@ -135,7 +135,7 @@ If the [[adjunction unit]] and [[adjunction counit]] are (enriched natural) *[[i
 
 (e.g. [Kelly, §1.11](#Kelly), [Borceux 94, Def. 6.7.1](#Borceux94))
 
-The [[2-functor]] $\mathcal{V}$-$Cat \rightarrow {Cat}$ that sends an enriched category to its underlying ordinary category (i.e. the [[change of enrichment]] to the [[terminal category]] along $\mathcal{V} \to \ast$) sends a pair of enriched adjoint functor to an ordinary pair of [[adjoint functors]] and sends an enriched adjoint equivalence to an [[adjoint equivalence]].
+The [[2-functor]] $\mathcal{V}$-$Cat \rightarrow {Cat}$ that sends an enriched category to its underlying ordinary category (i.e. the [[change of enrichment]] to [[Set]] along $V : \mathcal{V} \to Set$) sends a pair of enriched adjoint functor to an ordinary pair of [[adjoint functors]] and sends an enriched adjoint equivalence to an [[adjoint equivalence]].
 
 
 ## Examples
