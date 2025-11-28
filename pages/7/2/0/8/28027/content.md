@@ -73,7 +73,7 @@ $$ f_\pm\bigl(\{u,v,w\}_\pm\bigr) = \{f_\pm(u), f_\mp(v), f_\pm(w)\}_\pm  $$
 
 for all $u,w \in V_\pm, v \in V_\mp$.
 
-Unlike for Jordan algebras and Jordan triple systems, there is a natural way to define inner automorphisms and inner derivations of Jordan pairs ([Loos75](#Loos75)).   (See below for inner derivations.)
+Unlike for Jordan algebras and Jordan triple systems, there is a natural way to define inner automorphisms of Jordan pairs ([Loos75](#Loos75)).   (See below for inner derivations.)
 
 Furthermore, Jordan pairs always contain sufficiently many idempotents (which generalize the [[projection operators]] familiar in the case of self-adjoint complex matrices) ([Loos75](#Loos75)).  It may happen even in a finite-dimensional simple Jordan algebra that the unit element cannot be written as the sum of orthogonal division idempotents (the algebra need not have "capacity").  In a Jordan triple system the relevant generalization of an idempotent is a **tripotent**, an element $p$ with $\{p,p,p\} = p$, but if we make $\mathbb{R}$ into a Jordan triple system with $\{a,b,c\} = -(a b c + c b a)$ it has no nonzero tripotents.  In the case of a Jordan pair $(V_+, V_-)$, we define an **idempotent** to be a pair of elements $p_+ \in V_+, p_- \in V_-$ such that 
 
@@ -98,7 +98,7 @@ $$ \mathfrak{g}_1 = V_+, \qquad \mathfrak{g}_{-1} = V_- $$
 
 and let $\mathfrak{g}_0$ consist of the **inner derivations** of the Jordan pair.  These are linear maps $D \colon V_+ \oplus V_- \to V_+ \oplus V_-$ that are linear combinations of those of the form  
 
-$$D(x, y) = (\{x, y, \cdot\}, -\{y, x, \cdot\})$$
+$$D(x, y) = (\{x, y, \cdot\}_+, -\{y, x, \cdot\}_-)$$
 
 for $x \in V_+, y \in V_-$.  We write $D(x,y) = (D_+(x,y), D_-(x,y))$. 
 
