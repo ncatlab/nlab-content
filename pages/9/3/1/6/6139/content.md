@@ -333,6 +333,7 @@ given by forming [[loop space objects]] and by forming deloopings.
 
 
 ### For topological spaces and $\infty$-groupoids
+ {#ForTopologicalSpacesAndInfinityGroupoids}
 
 There is an [[equivalence of (∞,1)-categories]]
 
@@ -343,9 +344,9 @@ $$
 $$
 
 
-between [[pointed object|pointed]] [[connected]] [[∞-groupoid]]s and [[∞-group]]s, where $\Omega$ forms [[loop space object]]s.
+between [[pointed object|pointed]] [[connected]] [[∞-groupoid]]s and [[∞-group]]s, where $\Omega$ forms [[loop space objects]]. This is do to with the first instance of the *[[May recognition theorem]]*, see there for more.
 
-This is [[presentable (∞,1)-category|presented]] by a [[Quillen equivalence]] of [[model categories]]
+Concretely, this is [[presentable (∞,1)-category|presented]] by a [[Quillen equivalence]] of [[model categories]]
 
 $$
   sSet_* 
