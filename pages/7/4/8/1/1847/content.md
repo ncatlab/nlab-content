@@ -86,7 +86,7 @@ Every [[locally connected topological space|locally connected]] [[locally compac
 +-- {: .num_prop #ParacompactFromLocallyCompactAndSigmacompact}
 ###### Proposition
 
-[[locally compact and sigma-compact spaces are paracompact]]
+[[locally compact and sigma-compact spaces are paracompact]].
 
 =--
 
@@ -130,9 +130,9 @@ Consider a disjoint union $X = \coprod X_\lambda$ whose components are paracompa
 
   *  finite-dimensional manifolds are locally compact, so we have the results above, but we also have some converses:
 
-     * a finite-dimensional Hausdorff topological [[manifold]] is paracompact precisely if it is [[metric space|metrizable]]
+     * a finite-dimensional Hausdorff topological [[manifold]] is paracompact precisely if it is [[metric space|metrizable]].
 
-     * a finite-dimensional Hausdorff topological manifold is paracompact precisely if each component is second-countable
+     * a finite-dimensional Hausdorff topological manifold is paracompact precisely if each component is second-countable.
 
    * [[infinite-dimensional manifolds]] are generally not locally compact, but we still have some results:
 
