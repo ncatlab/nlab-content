@@ -63,6 +63,8 @@ In parts of the literature this case is understood by default when speaking of "
 
 * [[infinity-local system]], [[local system]]
 
+* [[infinity-group infinity-algebra]]
+
 * [[flat connection]]
 
 * [[Galois theory]]
@@ -104,6 +106,9 @@ Component-definitions are due to:
 
 * {#BlockSmith14} [[Jonathan Block]], [[Aaron M. Smith]], *The higher Riemann--Hilbert correspondence*, Advances in Mathematics **252** (2014) 382-405 &lbrack;[arXiv:0908.2843](https://arxiv.org/abs/0908.2843), [doi:10.1016/j.aim.2013.11.001](https://doi.org/10.1016/j.aim.2013.11.001)&rbrack;
 
+* [[Camilo Arias Abad]], [[Florian Schätz]]: *Flat $\mathbb{Z}$-graded connections and loop spaces*, International Mathematics Research Notices **2018** 4 (2018) 961–1008 &lbrack;[doi:10.1093/imrn/rnw258](https://doi.org/10.1093/imrn/rnw258), [arXiv:1510.04975](https://arxiv.org/abs/1510.04975)&rbrack;
+
+
 Identification with [[(infinity,1)-functors|$(\infty,1)$-functors]] is made explicit in:
 
 * [Block & Smith (2014), below Def. 2.3 (§2.2 in the preprint)](#BlockSmith14)
@@ -116,7 +121,7 @@ and construction of a [[model category]] of $\infty$-local systems:
 
 Enhancement of the [[Chern-Weil homomorphism]] from [[ordinary cohomology]]-groups to [[dg-categories]] of [[infinity-local systems|$\infty$-local systems]]:
 
-* [[Camilo Arias Abad]], Santiago Pineda Montoya, Alexander Quintero Velez, *Chern-Weil theory for $\infty$-local systems*, Trans. Amer. Math. Soc. **377** (2024) 3129-3171 &lbrack;[arXiv:2105.00461](https://arxiv.org/abs/2105.00461), [doi:10.1090/tran/9068](https://doi.org/10.1090/tran/9068)&rbrack;
+* [[Camilo Arias Abad]], Santiago Pineda Montoya, Alexander Quintero Velez: *Chern-Weil theory for $\infty$-local systems*, Trans. Amer. Math. Soc. **377** (2024) 3129-3171 &lbrack;[arXiv:2105.00461](https://arxiv.org/abs/2105.00461), [doi:10.1090/tran/9068](https://doi.org/10.1090/tran/9068)&rbrack;
 
 
 ### $\infty$-Local systems as topological quantum state spaces
