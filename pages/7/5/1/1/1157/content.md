@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
+
 
 ## Bar  and cobar constructions
 
@@ -175,8 +174,9 @@ $$C\to s^{-1}\overline{C} \to \overline{T(s^{-1}\overline{C})}\to \overline{sT(s
 
 * [[Koszul duality]]
 
-## References
 
+
+## References
 
 
 The source used for the above was 
@@ -203,11 +203,11 @@ Review:
 
 Identifying the cobar construction on [[singular homology|singular chains]] on a [[topological space]] with the dg-algebra of chains on its [[loop space]]:
 
-* [[John Frank Adams]], *On the cobar construction*,  Proc Natl Acad Sci USA **42** 7 (1956) 409–412 &lbrack;[doi:10.1073/pnas.42.7.409](https://doi.org/10.1073%2Fpnas.42.7.409)&rbrack;
+* [[John Frank Adams]]: *On the cobar construction*,  Proc Natl Acad Sci USA **42** 7 (1956) 409–412 &lbrack;[doi:10.1073/pnas.42.7.409](https://doi.org/10.1073%2Fpnas.42.7.409)&rbrack;
 
 * [[Manuel Rivera]], [[Mahmoud Zeinalian]], *Cubical rigidification, the cobar construction, and the based loop space*, Algebr. Geom. Topol. **18** (2018) 3789-3820 &lbrack;[arXiv:1612.04801](https://arxiv.org/abs/1612.04801), [doi:10.2140/agt.2018.18.3789](https://doi.org/10.2140/agt.2018.18.3789)&rbrack;
 
-* [[Manuel Rivera]], *Adams' cobar construction revisited*, Documenta Math. **27** (2022) 1213-1223 &lbrack;[arxiv:1910.08455](https://arxiv.org/abs/1910.08455)&rbrack;
+* [[Manuel Rivera]]: *Adams' cobar construction revisited*, Documenta Math. **27** (2022) 1213-1223 &lbrack;[arxiv:1910.08455](https://arxiv.org/abs/1910.08455), [pdf](https://ems.press/content/serial-article-files/26673)&rbrack;
 
 Generalization of the bar-cobar constructions to [[dg-Hopf algebras]]:
 
