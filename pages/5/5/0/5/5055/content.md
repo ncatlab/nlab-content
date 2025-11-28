@@ -71,6 +71,11 @@ On [[mathematical physics]]:
 
 > Too many physicists are inclined to start from some preconceived physical ideas and then to try to develop them and ﬁnd a mathematical scheme that incorporates them.  Such a line of attack is unlikely to lead to success. One runs into difficulties and ﬁnds no  reasonable way out of them. One ought then to realize that one’s whole line of approach  is wrong and to seek a new starting point with a sound mathematical basis.
 
+On anxiety with new ideas:
+
+> I think he [Heisenberg] failed to make this discovery simply because he was too scared. He was afraid of his own bold new idea, and he was afraid that if he went too far with it, it might all break down.
+
+> I had a great advantage over Heisenberg. I did not have any of these fears, because it was not my idea. I could play about with this non-commuting algebra... and see where it led
 
 
 ## Related entries
