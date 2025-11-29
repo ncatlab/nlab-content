@@ -81,7 +81,7 @@ In [[homotopy type theory]] the torus can be formalized as the [[higher inductiv
 $\,$
 
 
-{#StableHomotopyType} The *[[stable homotopy type]]* of the torus is the [[wedge sum]] of 2 circles and one [[2-sphere]] (eg. [Freed & Moore 13, Thm. 11.8](#FreedMoore13)):
+{#StableHomotopyType} The *[[stable homotopy type]]* of the torus is the [[wedge sum]] of 2 circles and one [[2-sphere]] (cf. at *[stable splitting of product spaces](reduced+suspension#StableSplittingOfProductSpaces)* or [Freed & Moore 2013, Thm. 11.8](#FreedMoore13)):
 
 
 <center>
