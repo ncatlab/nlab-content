@@ -38,6 +38,7 @@ A better name for an $H$-space might be $H$-[[unitoid]], but it is rarely used. 
 There are dual notions of $H$-counitoid (or $H'$-space, or [[co-H-space]]), $H$-comonoid (or $H'$-monoid) and $H$-[[cogroup]] (or $H'$-group) having co-operations with the usual identities up to homotopy. 
 
 ## Examples
+ {#Examples}
 
 \begin{example}
 **(topological groups)** \linebreak
@@ -151,25 +152,11 @@ such that the right unitor is preserved:
 
 $$\phi_\rho(\rho_A) = \rho_B$$
 
+\begin{example}
+The H-space structure on the [[circle]] is proven as Lemma 8.5.8 of the [[HoTT book]]. 
+\end{example}
 
-### Examples 
- {#Examples}
 
-* There is a H-space structure on the [[circle]]. See Lemma 8.5.8 of the [[HoTT book]]. 
-
-\begin{proof}
-We define $\mu : S^1 \to S^1 \to S^1$ by circle induction:
-$$\mu(base)\equiv id_{S^1}\qquad ap_{\mu}\equiv funext(h)$$
-where $h : \prod_{x : S^1} x = x$ is defined in Lemma 6.4.2 of the [[HoTT book]]. We now need to show that $\mu(x,e)=\mu(e,x)=x$ for every $x : S^1$. Showing $\mu(e,x)=x$ is quite simple, the other way requires some more manipulation. Both of which are done in the book.
-\end{proof}
-
-* Every [[loop space]] is naturally a [[H-space]] with [[path]] concatenation as the operation. In fact every [[loop space]] is a [[group]].
-
-* The type of [[maps]] $A \to A$ has the structure of a H-space, with basepoint $id_A$, operation function composition.
-
-* An [[A3-space]] $A$ is an H-space with an equality $\mu(\mu(a, b),c)=\mu(a,\mu(b,c))$ for every $a:A$, $b:A$, $c:A$ representing associativity up to homotopy. 
-
-* A unital magma is a 0-truncated H-space. 
 
 ## Related concepts
 
