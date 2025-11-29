@@ -23,9 +23,9 @@ The *Samelson product* associated with a [[grouplike space]] (such as a [[topolo
 
 Let $\mathcal{G}$ be a [[grouplike space]] with:
 
-* [[neutral element]] $\mathrm{e} \,\colon\, \ast \longrightarrow \mathcal{G}$,
+* [[neutral element]]$\;$ $\mathrm{e} \,\colon\, \ast \longrightarrow \mathcal{G}$,
 
-* [[binary operation]] $(-)\cdot(-) \,\colon\, \mathcal{G} \times \mathcal{G} \longrightarrow \mathcal{G}$,
+* [[binary operation]]$\;$ $(-)\cdot(-) \,\colon\, \mathcal{G} \times \mathcal{G} \longrightarrow \mathcal{G}$,
 
 * [[inverse]]-assigning map $(-)^{-1} \,\colon\, \mathcal{G} \longrightarrow \mathcal{G}$,
 
