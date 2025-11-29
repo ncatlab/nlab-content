@@ -465,24 +465,62 @@ On the relation to [[Goodwillie calculus]] see e.g. [Scherer & Chorny 2011, Sec.
 
 For $X = S^2$ the [[2-sphere]], consider the following two [[elements]] of its [[homotopy groups]] ([[homotopy groups of spheres|of spheres]], as it were):
 
-1. $id_{S^2} \in \pi_2\big( S^2 \big)$ (represented by the [[identity function]] $S^2 \to S^2$)
+1. $[id_{S^2}] \in \pi_2\big( S^2 \big)$ (represented by the [[identity function]] $S^2 \to S^2$)
 
-1. $h_{\mathbb{C}} \in \pi_3\big(  S^2 \big)$ (represented by the [[complex Hopf fibration]])
+1. $[h_{\mathbb{C}}] \in \pi_3\big(  S^2 \big)$ (represented by the [[complex Hopf fibration]])
 
 Then the Whitehead product satisfies
 
 $$
   \big[
-    id_{S^2},
+    [id_{S^2}],
     \; 
-    id_{S^2}
+    [id_{S^2}]
   \big]
   \;=\;
-  2 \cdot h_{\mathbb{C}}
+  2 \cdot [h_{\mathbb{C}}]
+  \eqqcolon 2 \eta
   \,.
 $$
 
 =--
+
+Generally, 
+$  \big[
+    [id_{S^{2k}}],
+    \; 
+    [id_{S^{2k}}]
+  \big]
+$ has [[Hopf invariant]] 2 ([Whitehead 1978 Thm. 2.5 on p. 495](#Whitehead78), using the notation $\iota_n \coloneqq [id_{S^{n}}]$ introduced on p. 194).
+
+So we have similarly that
+
+$$
+  \big[
+    [id_{S^4}],
+    \; 
+    [id_{S^4}]
+  \big]
+  \;=\;
+  2 \cdot [h_{\mathbb{H}}]
+  \eqqcolon 2 \nu
+$$
+
+for $h_{\mathbb{H}}$ the [[quaternionic Hopf fibration]], and
+
+$$
+  \big[
+    [id_{S^8}],
+    \; 
+    [id_{S^8}]
+  \big]
+  \;=\;
+  2 \cdot [h_{\mathbb{O}}]
+  \eqqcolon 2 \sigma
+$$
+
+for $h_{\mathbb{O}}$ the [[octonionic Hopf fibration]].
+
 
 
 \linebreak
