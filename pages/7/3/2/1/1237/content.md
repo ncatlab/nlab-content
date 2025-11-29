@@ -13,9 +13,8 @@
 =--
 =--
 
-# Reduced suspension
-* table of contents
-{: toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -116,19 +115,33 @@ For [[CW-complexes]] $X$ that are also [[pointed topological space|pointed]], wi
 
 [[suspensions are H-cogroup objects]]
 
-## Example
+## Examples
 
-### Spheres
-
+\begin{example} **(spheres)** \linebreak
 Up to [[homeomorphism]], the reduced suspension of the $n$-[[sphere]] is the $(n+1)$-sphere
-
 $$
   \Sigma S^n \simeq S^{n+1}
   \,.
 $$
+For more see at _[one-point compactification -- Examples -- Spheres](one-point+compactification#ExamplesSpheres)_.
+\end{example}
 
-See at _[one-point compactification -- Examples -- Spheres](one-point+compactification#ExamplesSpheres)_ for details.
-
+\begin{example} **(stable splitting of product spaces)** 
+\label{StableSplittingOfProductSpaces}
+\linebreak
+  For $X$ and $Y$ a [[pair]] of [[pointed topological space|pointed]] [[CW-complexes]], the reduced suspension of their [[product space]] is [[homotopy equivalence|homotopy equivalent]] to the [[wedge sum]] of their individual reduced suspensions with that of their [[smash product]] $X \wedge Y$:
+$$
+  \Sigma(X \times Y)
+  \,\underset{hmtp}{\simeq}\,
+  \Sigma X 
+    \,\vee\, 
+  \Sigma Y
+    \,\vee\,
+  \Sigma(X \wedge Y)
+  \mathrlap{\,.}
+$$
+\end{example}
+(cf. [Hatcher 2002 Prop. 4I.1](#Hatcher02))
 
 ## Related concepts
 
@@ -162,6 +175,8 @@ See at _[one-point compactification -- Examples -- Spheres](one-point+compactifi
 Discussion of (reduced) [[suspension]] may be found in most introductions to [[homotopy theory]] (for discussion of unreduced suspension see also [there](suspension#References)).
 
 For instance:
+
+* {#Hatcher02} [[Allen Hatcher]], Ex. 0.10 in: *Algebraic Topology*, Cambridge University Press (2002) &lbrack;[ISBN:9780521795401](https://www.cambridge.org/gb/academic/subjects/mathematics/geometry-and-topology/algebraic-topology-1?format=PB&isbn=9780521795401), [webpage](https://pi.math.cornell.edu/~hatcher/AT/ATpage.html)&rbrack;
 
 * [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], §2.10 in: *Algebraic topology from a homotopical viewpoint*, Springer (2008) &lbrack;[doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586)&rbrack;
 
