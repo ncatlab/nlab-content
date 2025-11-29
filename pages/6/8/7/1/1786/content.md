@@ -23,11 +23,11 @@ An __$H$-space__ ("H" for [[Heinz Hopf|Hopf]], as in _[[Hopf construction]]_) is
 
 Similarly:
 
-An **[[H-monoid|$H$-monoid]]** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. 
+* An **[[H-monoid|$H$-monoid]]** is a [[monoid object]] in [[Ho(Top)]], hence an $H$-space is an $H$-monoid if the product of the magma is [[associativity|associative]] up to [[homotopy]]. 
 
-An __$H$-group__ is a [[group object]] in [[Ho(Top)]], so an $H$-monoid is an $H$-group if it also has [[inverses]] up to homotopy.
+* An __$H$-group__ (or *grouplike space*) is a [[group object]] in [[Ho(Top)]], so an $H$-monoid is an $H$-group if it also has [[inverses]] up to homotopy (cf. [Arkowitz 2011 Def. 2.2.1](#Arkowitz11)).
 
-An **$H$-ring** is a [[ring object]] in (pointed) [[Ho(Top)]].
+* An **$H$-ring** is a [[ring object]] in (pointed) [[Ho(Top)]].
 
 To continue in this pattern, one could say that an **[[H-category]]** is a category internal to [[Ho(Top)]].
 
@@ -39,34 +39,52 @@ There are dual notions of $H$-counitoid (or $H'$-space, or [[co-H-space]]), $H$-
 
 ## Examples
 
-### Loop spaces
+\begin{example}
+**(topological groups)** \linebreak
+  The [[topological groups]] are the $H$-groups where all the [[axioms]] ([[unitality]], [[associativity]] and [[inverses]]) hold even as [[equalities]] and not just as [[homotopies]].
+\end{example}
 
-The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$, which however is naturally even an [[A-infinity space]]. 
+\begin{example}
+**(loop spaces)** \linebreak
+For $X$ a [[pointed topological space]] its based [[loop space]] is an $H$-group under concatenation and reversal of loops.  
 
-### Suspensions
+Of course, loop groups have a much more structured grouplike structure: They are grouplike [[A-infinity spaces|$A_\infty$-spaces]] also called *[[infinity-groups|$\infty$-groups]]*.
 
-The main example of an [[co-H-space|H-cogroup]] in $Top_*$ is the [[suspension]] $S X= S^1\wedge X$ of a pointed topological space $X$. 
+Generally, if an $H$-space is equivalent to a [[delooping|deloopable one]], then it is a [[groupoid object in an (infinity,1)-category|group object in the (∞,1)-category]] [[Top]]. In other words, in that case, the associativity and other axioms hold up to [[coherence|coherent]] [[higher homotopy]]. 
+\end{example}
 
-### Spheres
+ 
 
-The only [[n-spheres]] $S^n$ which have $H$-space structure are those for $n = 0,1,3,7$, and their H-space structure is given by identifying them as the unit spheres in one of the four [[normed division algebras]] ([[real numbers]], [[complex numbers]], [[quaternions]], [[octonions]]) and taking the product to be that induced by the algebra product. 
+\begin{example}
+**(suspensions)** \linebreak
+The main example of [[co-H-space|H-cogroups]] in $Top_*$ are [[reduced suspensions]] $S X= S^1\wedge X$ of [[pointed topological spaces]] $X$. 
+\end{example}
 
-An example of an H-space that does not lift to an [[A-infinity space]] is the [[7-sphere]] $S^7$. It can't be delooped because its [[delooping]] would have [[cohomology group]] a [[polynomial ring]] on a generator in degree 8, and this is impossible by mod $p$ [[Steenrod operations]] for any odd $p$, see [Lemma 2, Adams61](#Adams61). The 7-sphere is also not an $H$-group.
+\begin{example}
+**(sphere)**
+\linebreak
+The only [[n-spheres]] $S^n$ which have $H$-space structure are those with $n = 0, 1, 3, 7$. Their H-space structure is given by identifying them as the [[unit spheres]] in one of the four [[normed division algebras]] ([[real numbers]], [[complex numbers]], [[quaternions]], [[octonions]]) and taking the product to be that induced by the algebra product.
 
-### Mapping spaces into H-groups
+The [[7-sphere]] $S^7$ is an example of an H-space that does not lift to an [[A-infinity space|$A_\infty$-space]]. It can't be delooped because its would-be [[delooping]] would have [[cohomology group]] a [[polynomial ring]] on a generator in degree 8, and this is impossible by mod $p$ [[Steenrod operations]] for any odd $p$ (cf. [Adams 1961 Lemma 2](#Adams61). The 7-sphere is also not an $H$-group.
+\end{example}
 
-If $K$ is an $H$-group then for any topological space $X$, the set of [[homotopy classes]] $[X,K]$ has a natural group structure in the strict sense; analogously if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. If there is more than one $H$-group structure on a space, then the induced group structures on the set of homotopy classes coincide. 
+\begin{example}
+**(Mapping spaces into H-groups)**
+If $K$ is an $H$-group then for any topological space $X$, the set of [[homotopy classes]] $[X,K]$ of [[maps]] $X \to K$ has a natural group structure in the strict sense. Analogously, if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. 
 
-If an $H$-space is equivalent to a [[delooping|deloopable one]], then it is a [[groupoid object in an (infinity,1)-category|group object in the (∞,1)-category]] [[Top]]. In other words, in that case, the associativity and other axioms hold up to **coherent homotopy**. 
+If there is more than one $H$-group structure on a space, then the induced group structures on the set of homotopy classes coincide. 
+\end{example}
 
-### K-Theory space
 
+\begin{example}
+**(K-Theory classifying space)** \linebreak
+The [[classifying space]] $B U \times \mathbb{Z}$ for (complex) [[topological K-theory]] is an H-ring space (cf. p. 205 (213 of 251) in _[[A Concise Course in Algebraic Topology]]_.)
+\end{example}
 
-The [[classifying space]] $B U \times \mathbb{Z}$ for (complex) [[topological K-theory]] is an H-ring space (p. 205 (213 of 251) in _[[A Concise Course in Algebraic Topology]]_.)
+\begin{example}
+  The _[[Dwyer-Wilkerson H-space]]_, see there for more.
+\end{example}
 
-### Dwyer-Wilkerson space
-
-See at _[[Dwyer-Wilkerson H-space]]_
 
 
 ## Properties
@@ -99,7 +117,7 @@ For example, since [[smooth manifolds]] have CW-complex structure (see [there](C
 
 ## H-Spaces in homotopy type theory
 
-In [[homotopy type theory]], an *H-Space* consists of
+In [[homotopy type theory]], *H-spaces* may be axiomatized as  consists of
 
 * A type $A$,
 * A basepoint $e:A$
@@ -133,7 +151,9 @@ such that the right unitor is preserved:
 
 $$\phi_\rho(\rho_A) = \rho_B$$
 
-### Examples
+
+### Examples 
+ {#Examples}
 
 * There is a H-space structure on the [[circle]]. See Lemma 8.5.8 of the [[HoTT book]]. 
 
@@ -257,6 +277,11 @@ See also
 
 [[!redirects H-group]]
 [[!redirects H-groups]]
+
+[[!redirects grouplike space]]
+[[!redirects grouplike spaces]]
+[[!redirects group-like space]]
+[[!redirects group-like spaces]]
 
 [[!redirects H-monoid]]
 [[!redirects H-monoids]]
