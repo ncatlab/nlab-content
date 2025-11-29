@@ -1,7 +1,15 @@
 
-* [website](http://www.math.uni-hamburg.de/home/wockel/)
+* [personal page](http://www.math.uni-hamburg.de/home/wockel/) at Univ. Hamburg
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=104292)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=om5LPkoAAAAJ&hl=en)
 
 ## Selected writings
+
+On the [[Samelson product]] in the context of [[gauge groups]] ([[automorphism groups]]) of [[principal bundles]]:
+
+* [[Christoph Wockel]]: *The Samelson Product and Rational Homotopy for Gauge Groups*, Abh. Math. Sem. Univ. Hamburg **77** (2007) 219-228 &lbrack;[arXiv:math/0511404](https://arxiv.org/abs/math/0511404)&rbrack;
 
 On [[Lie group cohomology]]:
 
