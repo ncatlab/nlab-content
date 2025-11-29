@@ -1483,9 +1483,9 @@ $$
     \wedge 
   T^2_+ 
   \xrightarrow{ 
-    (pr_a)_+ 
+    pr_a 
     \wedge
-    (pr_b)_+
+    pr_b
   }
   S^1 \wedge S^1
   \xrightarrow{  \widetilde{id} \wedge \widetilde{id}  }
@@ -1530,9 +1530,9 @@ $$
     \wedge 
   T^2_+ 
   \xrightarrow{ 
-    (pr_a)_+ 
+    pr_a 
     \wedge
-    (pr_c)_+
+    pr_c
   }
   S^1 \wedge S^2
   \xrightarrow{  \widetilde{id} \wedge \widetilde{\eta}  }
