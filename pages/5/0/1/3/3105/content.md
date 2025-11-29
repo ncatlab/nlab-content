@@ -13,10 +13,12 @@
 =--
 =--
 
+\tableofcontents
 
-#Contents#
-* table of contents
-{:toc}
+## Idea
+
+The *Whitehead bracket* on the [[homotopy groups]] of a [[connected]] [[topological space]] is a reflection of the "[[group commutator]]" ([[Samelson product]]) on its [[grouplike space|grouplike]] [[loop space]] (cf. [below](#InTermsOfSamelsonProducts)).
+
 
 ## Definition
 
@@ -203,11 +205,82 @@ A textbook account is in [Whitehead (1978) Thm. X.7.10](#Whitehead78).
 
 
 ### In terms of Samelson products
+ {#InTermsOfSamelsonProducts}
 
-In the context of [[simplicial groups]], representing [[connected]] [[homotopy types]], there is a formula for the Whitehead product in terms of a [[Samelson product]], which in turn is derived from a [[shuffle]] product which is a sort of non-commutative version of the [[Eilenberg-Zilber map]].  These simplicial formulae come from an analysis of the structure of the [[product of simplices]]. 
+For $X$ a [[connected topological space|connected]] [[pointed topological space]], consider its [[loop space]]
+$$
+  \mathcal{G} \coloneqq \Omega X
+  \mathrlap{\,,}
+$$ 
+regarded as a [[grouplike space]] with a [[Samelson product]] $\langle-,-\rangle$ (essentially the [[group commutator]] of $\mathcal{G}$), whence (by the [[looping and delooping]] relation)
+$$
+  X \simeq B \mathcal{G}
+  \mathrlap{\,.}
+$$
+
+Then we have:
+
+1. the [[Samelson product]] on the [[homotopy groups]] of $\mathcal{G}$:
+
+   $$
+     \langle -, - \rangle
+     \;\colon\;
+     \pi_n(\mathcal{G}) \times \pi_m(\mathcal{G})
+     \longrightarrow
+     \pi_{n+m}(\mathcal{G})
+     \mathrlap{\,.}
+   $$
+
+2. the [[Whitehead bracket]] on the homotopy groups of $X$:
+
+   $$
+     [- , - ]
+     \;\colon\;
+     \pi_n(X) \times \pi_m(X)
+     \longrightarrow
+     \pi_{n+m-1}(X)
+     \mathrlap{\,,}
+   $$
+
+3. the canonical [[isomorphism]]
+
+   \[
+     \label{HomotopyGroupsUnderLoopingAndDelooping}
+     \tau 
+       \,\colon\, 
+     \pi_{n+1}(X)
+     \xrightarrow{ \sim }
+     \pi_n(\mathcal{G}) 
+     \mathrlap{\,.}
+   \]
 
 
-(This formula for the Whitehead product is due to [[Dan Kan]] and can be found in the old survey article of [[Ed Curtis]].  The proof that it works was never published. For more pointers see [MO:q/296479/381](https://mathoverflow.net/q/296479/381))
+\begin{proposition}
+  Under the isomorphism (eq:HomotopyGroupsUnderLoopingAndDelooping) the [[Samelson product]] on the homotopy groups of $\mathcal{G}$ coincides up to a sign with the Whitehead bracket on the homotopy groups of $X \simeq B \mathcal{G}$, in that for [[pairs]] $\alpha_p \in \pi_{p+1}(X)$, $\beta_q \in \pi_{q+1}(X)$ we have 
+
+$$
+  \tau[\alpha_p, \beta_q]
+  \;=\;
+  (-1)^p
+  \big\langle
+    \tau \alpha_p
+    ,\,
+    \tau \beta_q
+  \big\rangle
+  \mathrlap{\,.}
+$$
+
+\end{proposition}
+(cf. [Whitehead 1978 §X.7 Thm 7.10 (p. 476)](#Whitehead78))
+
+
+\begin{remark}
+
+In the context of [[simplicial homotopy theory]], with [[simplicial groups]] representing [[connected]] [[homotopy types]], there is a formula for the Whitehead product in terms of a [[Samelson product]], which in turn is derived from a [[shuffle]] product that is a kind of non-commutative version of the [[Eilenberg-Zilber map]]. These simplicial formulae come from an analysis of the structure of the [[product of simplices]]. 
+
+This formula for the Whitehead product is due to [[Dan Kan]] and can be found in the old survey article of [[Ed Curtis]].  The proof that it works was never published. For more pointers see [MO:q/296479/381](https://mathoverflow.net/q/296479/381).
+
+\end{remark}
 
 
 ### Relation to the Sullivan models
@@ -378,6 +451,7 @@ Prop. \ref{CoBinarySullivanDifferentialIsWhiteheadProduct} says in particular th
 
 This is due to the [[minimal model|minimality]] of Sullivan models, which implies that the co-unary part of their [[differential]] vanishes, and hence that that the unary bracket of the corresponding $L_\infty$-algebra vanishes: Since the failure of the Jacobi identity on binary brackets in an $L_\infty$-algebra is measured not by the trinary bracket itself but by its composition with the unary bracket, this vanishes in the above case.
 \end{remark}
+
 
 ### Relation to Goodwillie Calculus:
 
