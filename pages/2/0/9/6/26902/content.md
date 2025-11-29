@@ -1,17 +1,20 @@
-Gail Letzter was an American algebraist.
+Gail Letzter (1960-2024) was an American algebraist.
 
-* wikipedia [Gail Letzter](https://en.wikipedia.org/wiki/Gail_Letzter)
+* [Wilipedia entry](https://en.wikipedia.org/wiki/Gail_Letzter)
+
 
 ## Selected works
 
-Letzter introduced [[quantum symmetric pair]]s
+Introducing [[quantum symmetric pairs]]:
 
 * [[Gail Letzter]], Symmetric pairs for quantized enveloping algebras, J. Algebra __220__ (1999) 729--767
+
 * [[Gail Letzter]], _Quantum symmetric pairs and their zonal spherical functions_, Transformation Groups 8
 (2003) 261--292
+
 * [[Gail Letzter]], _Cartan subalgebras for quantum symmetric pair coideals_, Representation Theory __23__ (2019) 99--153
 
-Some works on [[quantized enveloping algebra]]s from her long collaboration with [[Anthony Joseph]]
+On [[quantized enveloping algebras]]:
 
 * [[Anthony Joseph]], [[Gail Letzter]], _Local finiteness of the adjoint action for quantized enveloping algebra_, J. Algebra __153__ 2 (1992) 289--318
 
