@@ -16,14 +16,16 @@
 
 ## Definition
 
-For $g,h \in G$ two elements of a [[group]], their **group commutator** is defined as
+For $g,h \in G$ a [[pair]] of [[elements]] of a [[group]], their **group commutator** is the element
 
 $$
-  [g,h] \coloneqq g^{-1} h^{-1} g h
+  [g,h] 
+    \coloneqq 
+  g^{-1} \cdot h^{-1} \cdot g \cdot h
   \,.
 $$
 
-This definition Is also valid for [[invertible semigroups]]. 
+This definition clearly generalizes to  [[invertible semigroups]]. 
 
 ## Related concepts
 
@@ -32,6 +34,8 @@ This definition Is also valid for [[invertible semigroups]].
 * [[commutator]]
 
 * [[Lie bracket]]
+
+* [[Samelson product]]
 
 [[!redirects group commutators]]
 
