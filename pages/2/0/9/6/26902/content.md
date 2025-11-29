@@ -1,4 +1,4 @@
-Gail Letzter is an American algebraist.
+Gail Letzter was an American algebraist.
 
 * wikipedia [Gail Letzter](https://en.wikipedia.org/wiki/Gail_Letzter)
 
