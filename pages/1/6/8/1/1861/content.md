@@ -1453,10 +1453,9 @@ $$
   \mathrlap{\,.}
 $$
 \end{lemma}
-See at *[[Samelson product]]* for more on this.
+For the first statement see at *[[Whitehead bracket]]* ([this example](Whitehead+product#WhiteheadProductCorrespondingToComplexHopfFibration)), for the second see at *[[Samelson product]]*.
 
 Now we are ready for the proof:
-
 
 \begin{proof}
 of Prop. \ref{FundamentalGroupOfMapsFromTorusToSphere}.
@@ -1499,16 +1498,16 @@ $$
 $$
 
 
-By Lem. \ref{SamelsonProductInOmegaOfSphere}, the second part of this map represents
+By Lem. \ref{SamelsonProductInOmegaOfSphere}, the second half of this composite map represents
 $$
   \big\langle \tau(\iota_2), \tau(\iota_2) \big\rangle
   \,=\,
-  \pm \tau [\iota_2, \iota_2] 
+  \tau [\iota_2, \iota_2] 
   \,=\,
-  \pm 2 \tau\eta
+  2 \tau(\eta)
   \mathrlap{\,,}
 $$
-while the first part is [[homotopy|homotopic]] to $pr_c$, whence $[W_a, W_b]$ is represented by
+while the first half is clearly [[homotopy|homotopic]] to $pr_c$, whence $[W_a, W_b]$ is represented by
 $$
   T^2_+
   \xrightarrow{ pr_c }
@@ -1547,6 +1546,29 @@ $$
 where the first part of this map is [[null homotopy|null-homotopic]], since $\pi_0 Map^\ast(T^2_+, S^3) = \ast$ (e.g. by the [[cellular approximation theorem]]). Analogously we have $[W_b, \zeta] = \mathrm{e}$.
 \end{proof}
 
+\begin{remark}
+This proof strategy immediately generalizes to a computation of
+$$
+  \pi_1 Map\big(
+    (S^{2k+1})^2
+    ,
+    S^{2k+2}
+  \big)
+$$
+for all $k \in \mathbb{N}$. For example, for $k = 1$ it yields
+$$
+  \pi_1 Map\big(
+    (S^3)^2
+    ,
+    S^4
+  \big)
+  \;\simeq\;
+  \widehat{\mathbb{Z}^2}
+  \times
+  \mathbb{Z}_{12}
+  \mathrlap{\,.}
+$$
+\end{remark}
 
 \linebreak
 
