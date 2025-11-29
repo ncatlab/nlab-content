@@ -23,7 +23,7 @@
 Recall from the discussion at [[cohomology]] that every notion of cohomology (e.g. [[group cohomology]], [[abelian sheaf cohomology]], etc) is given by Hom-spaces in an [[(∞,1)-topos]] $\mathbf{H}$. Cohomology on an object $X \in \mathbf{H}$ with coefficients in an object $A \in \mathbf{H}$ is
 
 $$
-  H(X,A) := \pi_0 \mathbf{H}(X,A)
+  H(X,A) \coloneqq \pi_0 \mathbf{H}(X,A)
   \,.
 $$
 
@@ -186,7 +186,7 @@ A special case of the cup product on Moore complexes is the complex of [[singula
 
 Often in the literature by _cup product_ is meant specifically the realization of the cup product on [[singular cohomology]]. 
 
-For $X$ a [[topological space]], let $\Pi(X)_\bullet := X^{\Delta_{Top}^\bullet}$ be the [[simplicial set]] of $n$-[[simplex|simplices]] in $X$ -- the [[fundamental ∞-groupoid]] of $X$.
+For $X$ a [[topological space]], let $\Pi(X)_\bullet \coloneqq X^{\Delta_{Top}^\bullet}$ be the [[simplicial set]] of $n$-[[simplex|simplices]] in $X$ -- the [[fundamental ∞-groupoid]] of $X$.
 
 For $R$ some [[ring]], let $Maps(\Pi(X),R)^{\bullet}$ be the [[cosimplicial algebra|cosimplicial ring]] of $R$-valued functions on the spaces of $n$-simplices. The corresponding [[Moore complex|Moore cochain complex]] $C^\bullet(X)$ is the cochain complex whose [[chain homology and cohomology|cochain cohomology]] is the [[singular cohomology]] of the space $X$: a homogeneous element $\omega_p \in C^p(X)$ is a function on $p$-simplices in $X$.
 
@@ -378,7 +378,7 @@ by sending $\alpha \in C^p(U,A_1)_\bullet$ and $\beta \in C^q(U,A_2)_\bullet$ to
 
 $$
   \phi(\alpha \otimes \beta)_{i_0, \cdots , i_{p + q}}
-  \;:=\;
+  \;\coloneqq\;
   \alpha_{i_0, \cdots, i_p} \otimes \beta_{i_p, \cdots i_{p+q}}
   \,.
 $$
@@ -409,6 +409,8 @@ For the case that of [[Čech cohomology|Čech]] [[hypercohomology]] with coeffic
 * [[power operation]]
 
 * [[Massey product]]
+
+* [[Samelson product]]
 
 * [[cup product in differential cohomology]]
 
