@@ -17,11 +17,11 @@ Computing the [[second stable homotopy group of spheres]]:
 
 On [[homotopy theory]]:
 
-* [[George Whitehead]], _Elements of homotopy theory_, Springer 1978 ([doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0))
+* [[George Whitehead]]: *Elements of homotopy theory*, Springer (1978) &lbrack;[doi:10.1007/978-1-4612-6318-0](https://link.springer.com/book/10.1007/978-1-4612-6318-0)&rbrack;
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Spanier-Whitehead category]]
 
