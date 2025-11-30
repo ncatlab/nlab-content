@@ -2510,6 +2510,38 @@ A picture-rich discussion is in
 * {#LaudaPfeiffer05} [[Aaron Lauda]], [[Hendryk Pfeiffer]], _Open-closed strings: two-dimensional extended TQFTs and Frobenius algebras_, Topology Appl. 155 (2008) 623-666. ([arXiv:math.AT/0510664](http://arxiv.org/abs/math.AT/0510664))
 
 
+### Twisted/relative functorial field theory
+ {#ReferencesTwistedRelativeFunctorialFieldTheory}
+
+The notion of *[[twisted functorial field theory|twisted]]* or *[[relative functorial field theory|relative]]* functorial field theory as [[natural transformations]] between FQFTs was popularized in:
+
+* [[Stephan Stolz]], [[Peter Teichner]]: *Twisted field theories*, §5 in: *Supersymmetric field theories and generalized cohomology*, in: [[Hisham Sati]], [[Urs Schreiber]] (eds.): *[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]*, Proceedings of Symposia in Pure Mathematics **83**, AMS (2011) &lbrack;[arXiv:1108.0189](https://arxiv.org/abs/1108.0189), [ams:pspum-83](https://bookstore.ams.org/pspum-83/)&rbrack;
+
+* [[Daniel Freed]], [[Constantin Teleman]]: *Relative quantum field theory*, Commun. Math. Phys. **326** (2014) 459–476  &lbrack;[arXiv:1212.1692](https://arxiv.org/abs/1212.1692), [doi:10.1007/s00220-013-1880-1](https://doi.org/10.1007/s00220-013-1880-1)&rbrack;
+
+but the observation of the phenomenon is already in
+
+* [[Urs Schreiber]]: "A kind of Holography", section 4 of: *On 2D QFT -- from Arrows to Disks* (2006) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/ad.pdf), [pdf](schreiber/files/Schreiber-ArrowsToDisks.pdf)&rbrack;
+
+  presented as: *Quantum 2-States: Sections of 2-vector bundles*, talk at *[Higher categories and their applications](https://www.fields.utoronto.ca/programs/scientific/06-07/homotopy/highercat/index.html)*, Fields Institute (Jan 2007) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/atd.pdf), [pdf](/schreiber/files/schreiber_2VectorSpaces_Jan2007.pdf)&rbrack;
+
+and [was communicated](https://golem.ph.utexas.edu/category/2007/06/extended_quantum_field_theory.html) to the above authors at:
+
+  * *[Workshop on Elliptic Cohomology](https://www.zmp.uni-hamburg.de/events/workshop-cohomology.html)*, Hamburg (June 2007) &lbrack;poster: [pdf](https://www.zmp.uni-hamburg.de/events/workshop-cohomology/files/workshop-ellcoh-cdr.pdf), [[WorkshopEllipticCohomologyPoster-Hamburg2007.pdf:file]]&rbrack;
+
+Further mathematical discussion:
+
+* [[Theo Johnson-Freyd]], [[Claudia Scheimbauer]]: *(Op)lax natural transformations, twisted quantum field theories, and "even higher" Morita categories*, Advances in Mathematics **307** (2017) 147-223 &lbrack;[arXiv:1502.06526](https://arxiv.org/abs/1502.06526), [doi:10.1016/j.aim.2016.11.014](https://doi.org/10.1016/j.aim.2016.11.014)&rbrack;
+
+* [[Claudia Scheimbauer]], Thomas Stempfhuber: *Relative field theories via relative dualizability*, Lett. Math. Phys. **115** 65 (2025) &lbrack;[arXiv:2312.05051](https://arxiv.org/abs/2312.05051), [doi;10.1007/s11005-025-01948-7](https://doi.org/10.1007/s11005-025-01948-7)&rbrack;
+
+Meanwhile the perspective has become popular in [[theoretical physics]] under various names such as "[[quantum anomaly|anomaly]] field theory", for instance:
+
+* [[Samuel Monnier]]: *A Modern Point of View on Anomalies*, in: proceedings of *[[Higher Structures in M-Theory 2018]]*, Fortschritte der Physik **67** 8-9 (2019) 1910012 &lbrack;[arXiv:1903.02828](https://arxiv.org/abs/1903.02828), [doi:10.1002/prop.201910012](https://doi.org/10.1002/prop.201910012), video:[yt](https://youtu.be/PAKf_o5XCek)&rbrack;
+
+and "symmetry TFT", for instance:
+
+* Fabio Apruzzi, [[Federico Bonetti]], Iñaki García Etxebarria, Saghar S. Hosseini, [[Sakura Schäfer-Nameki]]: *Symmetry TFTs from String Theory*, Commun. Math. Phys. **402**  (2023) 895–949 &lbrack;[arXiv:2112.02092](https://arxiv.org/abs/2112.02092), [doi:10.1007/s00220-023-04737-2](https://doi.org/10.1007/s00220-023-04737-2)&rbrack;
 
 
 
@@ -2654,7 +2686,7 @@ See
 
 * [[(2,1)-dimensional Euclidean field theories and tmf]]
 
-### homological 2d FQFT (and TCFT) ##
+### Homological 2d FQFT (and TCFT) ##
 
 As usual, the problem of constructing FQFT becomes much more tractable when linear approximations are applied. In homological FQFT and in [[TCFT]] the Hom-spaces of the cobordism category (the moduli spaces of cobordisms with given punctures/boundaries) are approximated by complexes  of chains on them. This leads to formalization of $\infty$-functorial QFT in the context of [[dg-algebra]]
 
