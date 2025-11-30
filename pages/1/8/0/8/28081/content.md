@@ -10,6 +10,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -29,6 +30,34 @@ out of the [[tensor unit]] $\mathbf{1}$ in the given ([[higher category|higher]]
 This is closely analogous and related to how [[sections]] of a [[vector bundle]] --- hence *twisted functions*: twisted by the bundle --- are equivalently morphism of vector bundles from the tensor unit bundle (the [[trivial bundle|trivial]] [[line bundle]]).
 
 These days, also the term *symmetry TFT* (for the $FFT_{d+1}$) is popular.
+
+In the case $d = 2$, the components that [[natural transformations]] between [[TQFT]] [[3-functors]] assign to [[surfaces]] are [[3-morphisms]] between [[2-morphisms]] making "tin-can diagrams" (vividly so when using [[globular set|globular]] [[geometric shape for higher structures|shapes of higher morphisms]], whence the original slogan: "*[D-branes from tin cans](https://www.google.com/search?q=schreiber+D-branes+from+tin-cans)*") as shown in the last row of the following table (from [Schreiber 2006](#Schreiber2006)):
+
+\begin{imagefromfile}
+    "file_name": "TwistedQFTAndHolographicCats.png",
+    "width": 600,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
+
+More informal but more popular these days is a corresponding schematic diagram of the following form (from [ABBGN24](#ABBGN2024)):
+
+\begin{imagefromfile}
+    "file_name": "SymmetryTFT-ABBGN2024.png",
+    "width": 500,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 0, 
+        "left": 30
+    }
+\end{imagefromfile}
 
 
 
@@ -69,6 +98,9 @@ Meanwhile the perspective has become popular in [[theoretical physics]] under va
 and "symmetry TFT", for instance:
 
 * Fabio Apruzzi, [[Federico Bonetti]], Iñaki García Etxebarria, Saghar S. Hosseini, [[Sakura Schäfer-Nameki]]: *Symmetry TFTs from String Theory*, Commun. Math. Phys. **402**  (2023) 895–949 &lbrack;[arXiv:2112.02092](https://arxiv.org/abs/2112.02092), [doi:10.1007/s00220-023-04737-2](https://doi.org/10.1007/s00220-023-04737-2)&rbrack;
+
+* {#ABBGN2024} Riccardo Argurio, Francesco Benini, Matteo Bertolini, Giovanni Galati, Pierluigi Niro: *On the Symmetry TFT of Yang-Mills-Chern-Simons theory*,  J. High Energ. Phys. **2024** 130 (2024) &lbrack;<a href="https://doi.org/10.1007/JHEP07(2024)130">doi:10.1007/JHEP07(2024)130</a>, [arXiv:2404.06601](https://arxiv.org/abs/2404.06601)&rbrack;
+
 
 [[!redirects twisted functorial field theories]]
 
