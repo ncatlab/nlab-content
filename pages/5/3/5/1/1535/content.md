@@ -9,13 +9,17 @@
 =--
 =--
 
-This entry is about the article
+This entry is to record the reference:
 
 * [[Jacob Lurie]]:
 
+  \linebreak
+
   **On the Classification of Topological Field Theories** 
 
-  Current Developments in Mathematics Volume 2008 (2009), 129-280 
+  \linebreak
+
+  Current Developments in Mathematics **2008** (2009) 129-280 
 
   [arXiv:0905.0465](http://arxiv.org/abs/0905.0465)
 
