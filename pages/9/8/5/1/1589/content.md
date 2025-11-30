@@ -1,16 +1,25 @@
-This entry collects material on the June 2009 workshop on [[string theory|strings]], [[quantum field theory|fields]], and [[topology]] at [[Oberwolfach]].
 
-* Title:      Strings, Fields and Topology
-* Organisers: 
-  * Dennis Sullivan, New York
-  * Stephan Stolz, Notre Dame
-  * Peter Teichner, Berkeley
-* Date:       June 7th - June 13th, 2009
-* ID:         0924
+This entry is to record the workshop:
+
+
+* [[Dennis Sullivan]], [[Stephan Stolz]], [[Peter Teichner]] (orgs.):
+
+  \linebreak
+
+  **Strings, Fields and Topology**
+
+  \linebreak
+
+  [[Oberwolfach]] workshop 0924
+
+  June 7th - June 13th, 2009
+
+  
+on [[string theory|strings]], [[quantum field theory|fields]], and ([[algebraic topology|algebraic]]) [[topology]].
 
 Writeups of most of the talks have appeared as 
 
-* {#OWR-2009-28} _Strings, Field, Topology_,  Oberwolfach report **28** (2009) &lbrack;[pdf](https://publications.mfo.de/bitstream/handle/mfo/3129/OWR_2009_28.pdf?sequence=1&isAllowed=y), [[OWR_2009_28.pdf:file]]&rbrack;
+* {#OWR-2009-28} Oberwolfach report **28** (2009) &lbrack;[pdf](https://publications.mfo.de/bitstream/handle/mfo/3129/OWR_2009_28.pdf?sequence=1&isAllowed=y), [[OWR_2009_28.pdf:file]]&rbrack;
 
 See also *[[Oberwolfach Workshop, June 2009 -- Abstracts]]*
 
@@ -162,11 +171,11 @@ In this talk, Alex Kahle described results from his thesis work (his supervisor 
 
 #### [[Chris Schommer-Pries]], _Topological defects, $D$-branes, and the classifications of TFTs in low dimensions_. {#schommer-pries}
 
-Chris explained his classification result mentioned at [[(infinity,n)-category of cobordisms]] from his thesis of extended (he suggested calling them _local_) 2d TQFT's via the explicit generators and relations he obtained on $2Cob$. He also showed how the [[higher category theory|higher-categorical viewpoint]] unites the following two ideas: the 'open-closed' theories and the 'field theories with defects' from Ingo Runkel and Christoph Schweigert's talk. He showed how both these concepts are particular examples of a single notion, namely that of a collection of natural transformations between a restriction of [[FTQFT]] $n$-functors (called "unnatural" or "supernatural" transformations to indicate that it is a transformation not of the entire functor, but just of its restriction to the 2-category of 2-manifolds with only inverttible 2-morphisms). 
+Chris explained his classification result mentioned at [[(infinity,n)-category of cobordisms]] from his thesis of extended (he suggested calling them _local_) 2d TQFT's via the explicit generators and relations he obtained on $2Cob$. He also showed how the [[higher category theory|higher-categorical viewpoint]] unites the following two ideas: the 'open-closed' theories and the 'field theories with defects' from Ingo Runkel and Christoph Schweigert's talk. He showed how both these concepts are particular examples of a single notion, namely that of a collection of natural transformations between a restriction of [[FQFT]] $n$-functors (called "unnatural" or "supernatural" transformations to indicate that it is a transformation not of the entire functor, but just of its restriction to the 2-category of 2-manifolds with only inverttible 2-morphisms). 
 
 This is precisely the kind of viewpoint that Urs Schreiber and Jens Fjelstad [suggested](http://golem.ph.utexas.edu/category/2007/08/dbranes_from_tin_cans_part_x.html) at the [n-category cafe](http://golem.ph.utexas.edu/category/) under the slogal [D-branes from tin-cans](http://golem.ph.utexas.edu/category/2006/10/dbranes_from_tin_cans_arrow_th.html) (a D-[[brane]] is a boundary condition ordefect, a "tin-can diagram" is the naturality diagram for a higher natural transformation).
 
-By the way, there's much more to come from Chris, he is working on the 3d theory and much besides!
+> Cf. at *[[holographic principle of higher category theory]]* and at *[[twisted functorial field theory]]*.
 
 ##### Resources
 
@@ -174,7 +183,7 @@ By the way, there's much more to come from Chris, he is working on the 3d theory
 
 #### Dan Freed, _Geometry and topology of orientifolds_. {#freed}
 
-Freed described recent work with [[Jacques Distler]] and Greg Moore on a certain background structure in [[string theory|superstring theory]] called an [[orientifold]], which is a [[bundle gerbe]] on a $\mathbb{Z}_2$ [[orbifold]] with a peculiar "twisted" [[equivariance]] condition. There is apparantly a beautiful string theory formula to calculate the '[[RR charge]]', namely something like
+Freed described recent work with [[Jacques Distler]] and Greg Moore on a certain background structure in [[string theory|superstring theory]] called an [[orientifold]], which is a [[bundle gerbe]] on a $\mathbb{Z}_2$ [[orbifold]] with a peculiar "twisted" [[equivariance]] condition. There is apparantly a beautiful string theory formula to calculate the '[[RR-field]] [[charge]]', namely something like
 \[
  RR charge = \pm 2^{something} i_* \sqrt\left( \frac{L'(F)}{L'(\nu)} \right)
 \]
@@ -231,7 +240,7 @@ What can I ([[Bruce Bartlett|Bruce]]) say about Urs's talk? Many mere mortals mi
 
 * [Notes by Gabriel Drummond-Cole](http://www.math.sunysb.edu/~blafard/tex/sum09/ow_june_11.pdf)
 
-* Urs's personal nLab write-up on [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]]
+* Urs's personal nLab write-up on [[schreiber:Background fields in twisted differential nonabelian cohomology|Background fields in twisted differential nonabelian cohomology]] (and [pdf](/nlab/files/OWR_2009_28.pdf))
 
 
 #### Andr&#233; Henriques, _Invertible conformal nets_. {#henriques}
@@ -343,4 +352,4 @@ Notes needed... help...
 Notes needed... help...
 
 
-
+category: reference
