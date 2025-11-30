@@ -14,7 +14,6 @@ On [[M-theory on Spin(7)-manifolds]], [[F-theory on Spin(7)-manifolds]] and [[Wi
 
 * [[Federico Bonetti]], [[Thomas Grimm]], [[Eran Palti]], [[Tom Pugh]], _F-Theory on $Spin(7)$ Manifolds: Weak-Coupling Limit_, JHEP 02 (2014) 076 ([arXiv:1309.2287](https://arxiv.org/abs/1309.2287))
 
-## Selected writings
 
 On [[M5-branes]] and their [[quantum anomaly]]-cancellation:
 
@@ -37,6 +36,10 @@ On [[5d Chern-Simons theory]] in [[5-dimensional supergravity]]:
 On [[sphere fiber bundles]] as [[Kaluza-Klein compactifications]] in [[supergravity]] and [[string theory]]:
 
 * [[Federico Bonetti]], [[Ruben Minasian]], Valentí Vall Camell, Peter Weck, *Consistent truncations from the geometry of sphere bundles* &lbrack;[arXiv:2212.08068](https://arxiv.org/abs/2212.08068)&rbrack;
+
+On [[symmetry TFTs]] in [[string theory]]:
+
+* Fabio Apruzzi, [[Federico Bonetti]], Iñaki García Etxebarria, Saghar S. Hosseini, [[Sakura Schäfer-Nameki]]: *Symmetry TFTs from String Theory*, Commun. Math. Phys. **402**  (2023) 895–949 &lbrack;[arXiv:2112.02092](https://arxiv.org/abs/2112.02092), [doi:10.1007/s00220-023-04737-2](https://doi.org/10.1007/s00220-023-04737-2)&rbrack;
 
 
 
