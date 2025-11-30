@@ -324,7 +324,7 @@ A Kac-type discrete quantum group is a quantum monoid $(X,m,e)$ together with a 
 
 These examples are all discrete in the sense that the underlying quantum space is discrete and not in the sense that the structure on that quantum space is discrete. This qualification is necessary because the underlying space of a quantum structure is often assumed to be from a larger class. For example, the underlying quantum space of a quantum graph may be a quantum [[localizable measurable space|measurable space]], and the underlying space of a quantum group may be a quantum [[locally compact topological space|topological space]].
 
-The material in this section is mostly from [Weaver 2012](#Weaver12), [Kornell 2024](#Kornell24), and [Chirvasitu & Kornell 2025](#ChirvasituKornell25).
+The material in this section is mostly from [Kuperberg & Weaver 2012](#KuperbergWeaver12), [Weaver 2012](#Weaver12), [Kornell 2024](#Kornell24), and [Chirvasitu & Kornell 2025](#ChirvasituKornell25).
 
 ## Duality
 
