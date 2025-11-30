@@ -14,12 +14,16 @@
 
 
 
-This page collects material related to 
+This page is to record the event:
 
 
 * London Mathematical Society EPSRC Durham Symposium
 
+  \linebreak
+
   **Higher Structures in M-Theory**
+
+  \linebreak
 
   12 to 18 August 2018
 
@@ -429,6 +433,12 @@ on [[logarithmic conformal field theory]] in view of the [[FRS-theorem on ration
 
   [arXiv:1903.02845](https://arxiv.org/abs/1903.02845), [doi:10.1002/prop.201910022](https://doi.org/10.1002/prop.201910022)
 
+
+## A Modern Point of View on Anomalies
+
+On [[twisted functorial field theory]] characterizing [[quantum anomalies]]:
+
+* [[Samuel Monnier]]: *A Modern Point of View on Anomalies*, in: proceedings of *[[Higher Structures in M-Theory 2018]]*, Fortschritte der Physik **67** 8-9 (2019) 1910012 &lbrack;[arXiv:1903.02828](https://arxiv.org/abs/1903.02828), [doi:10.1002/prop.201910012](https://doi.org/10.1002/prop.201910012)&rbrack;
 
 \linebreak
 
