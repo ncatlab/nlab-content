@@ -1,5 +1,14 @@
 [[!redirects Sakura Schafer-Nameki]]
 
+* [institute page](https://www.maths.ox.ac.uk/people/sakura.schafer-nameki)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Sakura_Schafer-Nameki)
+
+* [inspire page](https://inspirehep.net/authors/1019576)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=uOuzik8AAAAJ&hl=en)
+
+
 ## Selected writings
 
 On [[single trace operators]]/[[BMN operators]] in [[D=4 N=4 super Yang-Mills theory]] identified as [[integrable system|integrable]] [[spin chains]] with respect to the [[dilatation operator]], and the correspondence of their spectrum with the [[classical field theory|classical]] [[Green-Schwarz superstring]] on [[anti de Sitter spacetime|AdS5]] under the [[AdS/CFT correspondence]]:
@@ -44,6 +53,10 @@ On [[G2-manifolds|$G_2$-manifolds]] via [[D=4 N=1 super Yang-Mills theory|$D=4$,
 
 * [[Andreas P. Braun]], Evyatar Sabag, Matteo Sacchi, [[Sakura Schäfer-Nameki]]: *$G_2$ -Manifolds from $4d$ $\mathcal{N}=1$ Theories, Part I: Domain Walls* &lbrack;[arXiv:2304.01193](https://arxiv.org/abs/2304.01193)&rbrack;
 
+
+On [[symmetry TFTs]] in [[string theory]]:
+
+* Fabio Apruzzi, [[Federico Bonetti]], Iñaki García Etxebarria, Saghar S. Hosseini, [[Sakura Schäfer-Nameki]]: *Symmetry TFTs from String Theory*, Commun. Math. Phys. **402**  (2023) 895–949 &lbrack;[arXiv:2112.02092](https://arxiv.org/abs/2112.02092), [doi:10.1007/s00220-023-04737-2](https://doi.org/10.1007/s00220-023-04737-2)&rbrack;
 
 
 category: people
