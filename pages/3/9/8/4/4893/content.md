@@ -13,23 +13,21 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
 
+\tableofcontents
 
 ## The general abstract principle
 
 In [[higher category theory]] it is easy to verify that a (strict) $1$-[[transfor]]mation $\lambda$ between [[n-functor]]s $F_1,F_2 : C \to D$ between [[strict n-categories]] $C$ and $D$
 
 $$
-  \lambda : F_1 \Rightarrow F_2
+  \lambda \colon F_1 \Rightarrow F_2
 $$
 
 is determined uniquely by an $(n-1)$-functor
 
 $$
-  \eta : C_{(n-1)} \to D^{\Delta^1}
+  \eta \colon C_{(n-1)} \to D^{\Delta^1}
 $$
 
 on the strict $(n-1)$-category obtained from $C$ by discarding the [[n-morphism]]s.  (Of course, not every such $(n-1)$-functor determines such a transformation; the missing condition is "naturality" at the top level.)
@@ -46,7 +44,7 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
 * **$(n=1)$** -- A [[natural transformation]] $\eta$ between [[functor]]s $F_1,F_2 : C \to D$ between ordinary [[categories]] consists of components which are given by a [[function]]
 
   $$
-    \eta : Obj(C) \to Mor(D)
+    \eta \colon Obj(C) \longrightarrow Mor(D)
   $$
 
   that sends [[object]]s of $C$ to [[morphism]]s in $D$
@@ -59,7 +57,7 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
   Saying that such a function extends to a functor $C \to Arr(D)$:
 
   $$
-    \eta : 
+    \eta \colon
     \left(
       \array{
         x 
@@ -101,7 +99,7 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
   So we may regard the component function of $\eta$ as a [[0-functor]]
 
   $$
-    \eta : \mathbf{sk}_0 C = Obj(C) \to D^{\Delta[1]} = Arr(D)
+    \eta \colon \mathbf{sk}_0 C = Obj(C) \to D^{\Delta[1]} = Arr(D)
   $$
 
   from the [[discrete category]] on the set of objects of $C$ to the [[arrow category]] of $D$.
@@ -156,47 +154,46 @@ We spell out explicitly the $(n-1)$-functorial nature of transformation for low 
   Again, saying that this 1-functor extends to a 2-functor from $C$ to the arrow 2-category of $D$ says precisely that these components form a pseudonatural transformation, and any such extension is unique when it exists since the forgetful 2-functor $Arr(D)\to D\times D$ is locally faithful.
 
 
+* {#SchematicsIn3d} **$(n=3)$** -- A transformation between 3-functors is in components a  [[2-functor]] that sends [[2-morphism]]s in $C$ to cyclinders in $D$. This is shown in the $(n=3)$-row of the following diagram (from [Schreiber 2006](#Schreiber2006))
 
-* {#SchematicsIn3d} **$(n=3)$** -- A transformation between 3-functors is in components a  [[2-functor]] that sends [[2-morphism]]s in $C$ to cyclinders in $D$. This is shown in the $(n=3)$-row of the following diagram
-
-  <img width = "550" src="http://www.math.uni-hamburg.de/home/schreiber/pics/koh.gif" alt="components of transformations" />
+  <img width = "550" src="/nlab/files/TwistedQFTAndHolographicCats.png" alt="components of transformations" />
 
 
   The pseudonaturality condition on $\eta$, which is componentwise the equation
 
-  <img width = "550" src="http://www.math.uni-hamburg.de/home/schreiber/pics/natthree.gif" alt="2-pseudonaturality" />
+  <img width = "550" src="/nlab/files/natthree.gif" alt="2-pseudonaturality" />
 
   and the fact that there are only identity 3-morphisms in $D$ implies that this already uniquely extends to a 2-functor
 
   $$  
-    \eta : C \to Arr(D)
+    \eta \colon C \to Arr(D)
     \,,
   $$
 
   where on the right we have the 2-category whose objects are morphisms in $D$, whose morphisms are squares in $D$ and whose 2-morphisms are cylinders bounded by these squares.
+
 
 ### Formalizations {#Formalizations}
 
 
 For [[strict ∞-categories]] modeled as globular [[strict ∞-categories]] we have the following simple statement of the general principle.
 
-+-- {: .un_Lemma}
-###### Observation
+\begin{lemma}
 
-For $C,D \in Str n Cat$ and $F_1, F_2 : C \to D$ two strict $n$-functors, [[transfor]]mations $\eta : F_1 \Rightarrow F_2$ which are in components given by $n$-functors
+For $C,D \in Str n Cat$ and $F_1, F_2 \colon C \to D$ two strict $n$-functors, [[transfor]]mations $\eta \colon F_1 \Rightarrow F_2$ which are in components given by $n$-functors
 
 $$
-  \eta : C \to D^{G_1}
+  \eta \colon C \to D^{G_1}
 $$
 
 are entirely specified by their underlying $(n-1)$-functors
 
 $$
-  \eta : C_{n-1} \to D^{G_1}
+  \eta \colon C_{n-1} \to D^{G_1}
   \,.
 $$
 
-=--
+\end{lemma}
 
 For weak $n$-categories analogous statements hold, but may have a less straightforward formulation. What is always true is that the transformation $\eta$ is specified by its values on $(n-1)$-morphisms (and below) and will be functorial in a weak sense on these, but these $(n-1)$-morphisms and below will usually not form an $(n-1)$-category themselves, since they will compose coherently only up to $n$-morphisms.
 
@@ -214,6 +211,8 @@ More generally, for any algebraic notion of weak $n$-category, there is a corres
 ## Application in functorial QFT
  {#ApplicationsInQFT}
 
+In the context of ([[extended functorial field theory|extended]]) [[functorial field theory]], this "holographic principel of higher category theory" gives rise to what is now called *[[twisted functorial field theory]]* (or *[[relative functorial field theory]]*).
+
 For instance in [[FQFT]] one models $n$-dimensional [[topological quantum field theories]] as [[(∞,n)-functor]]s on a flavor of an [[(∞,n)-category of cobordisms]]
 
 $$
@@ -229,22 +228,22 @@ More specifically, if $\mathcal{C}$ is a [[symmetric monoidal (∞,n)-category]]
 One can see in examples that the transformations
 
 $$
-  B : Z \Rightarrow \mathbf{1}
+  B \colon Z \Rightarrow \mathbf{1}
 $$
 
 encode _boundary conditions_ on cobordisms with boundary for the theory $Z$. Conversely, this means that one discovers on the boundary of the $n$-dimensional QFT $Z$ the $(n-1)$-dimensional QFT $B$. Or rather, this is the case if instead of [[natural transformation]]s $\eta$ one uses [[canonical transformation]]s: those component maps $\eta : C_{n-1} \to D^{I}$ that are required to be natural only with respect to the invertible $(n-1)$-morphisms in $C$.
 
-For the case of $n=2$ and 2-dimensional cobordisms without any extra structure, a detailed version of these statements are given in ([Schommer-Pries](#SchommerPries)). For $n=3$ and the holographic relation between [[Reshetikhin-Turaev model]] and rational 2d [[CFT]] in [[FFRS-formalism]] some remarks are in ([Schreiber](#Schreiber)).
+For the case of $n=2$ and 2-dimensional cobordisms without any extra structure, a detailed version of these statements are given in [Schommer-Pries 2009](#SchommerPries2009). For $n=3$ and the holographic relation between [[Reshetikhin-Turaev model]] and rational 2d [[CFT]] in [[FFRS-formalism]] some remarks are in [Schreiber 2007](#Schreiber2007).
 
 In the study of [[quantum field theory]] and [[string theory]] such kinds of relations between $n$-dimensional QFTs and $(n-1)$-dimensional QFTs on their boundary have been called the _[[holographic principle]]_ . The degree to which this principle has been formalized and the degree to which this formalization has been verified varies greatly. Examples include
 
-* The boundary theory of 3-dimensional [[Chern-Simons theory]] is the 2-dimensional [[WZW-model]]. 
+* The boundary theory of 3-dimensional [[Chern-Simons theory]] is the 2-dimensional [[WZW-model]] (cf. *[[AdS3-CFT2 and CS-WZW correspondence]]*). 
 
   This is probably the oldest known holographic relation between QFTs.
 
 * In the 2-d QFT called the [[Poisson sigma-model]] with target the [[Poisson Lie algebroid]] coming from a [[Poisson manifold]] the boundary 3-point function computes the [[deformation quantization]] of the classical system described by that Poisson manifold. 
 
-  (This was in fact used implicitly by [[Maxim Kontsevich]] to solve deformation quantization. The relation to the Poisson sigma-model was made explicit by Cattaneo and Felder.)
+  (This was in fact used implicitly by [[Maxim Kontsevich]] to solve [[formal deformation quantization]]. The relation to the Poisson sigma-model was made explicit by Cattaneo and Felder.)
 
 * The boundary theory of the 2-dimensional [[A-model]] QFT on a target space that is a complexification of a classical [[phase space]] is the 1-dimensional QFT (= [[quantum mechanics]]) that is the [[geometric quantization]] of this phase space. 
 
@@ -252,25 +251,38 @@ In the study of [[quantum field theory]] and [[string theory]] such kinds of rel
 
 * The [[AdS/CFT correspondence]] conjectures specifically a holographic relation between [[quantum gravity]] on a 10-dimensional asymptotically [[anti-de Sitter spacetime]] and a superconformal [[Yang-Mills theory]] on its asymptotic boundary. More generally, this specific construction is supposed to apply, with variations, in many different dimensions.
 
-See also [[higher category theory and physics]].
+
+## Related concepts
+
+* [[twisted functorial field theory]]
+
+* [[higher category theory and physics]].
+
+
 
 ## References
   {#References}
 
-The discussion of transformations between 2d FQFTs and how these encode boundary 1-[[brane]]s and defect 1-[[bi-brane]]s is in
+The above text and graphics follow:
 
-* [[Chris Schommer-Pries]], _Topological defects and classifying local topological field theories in low dimension_ ([[SchommerPriesDefects.pdf:file]])
-{#SchommerPries}
+* {#Schreiber2006} [[Urs Schreiber]]: "A kind of Holography", section 4 of: *On 2D QFT -- from Arrows to Disks* (2006) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/ad.pdf), [pdf](/schreiber/files/Schreiber-ArrowsToDisks.pdf)&rbrack;
 
-from slide 65 on.
+  presented as: *Quantum 2-States: Sections of 2-vector bundles*, talk at *[Higher categories and their applications](https://www.fields.utoronto.ca/programs/scientific/06-07/homotopy/highercat/index.html)*, Fields Institute (Jan 2007) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/atd.pdf), [pdf](/schreiber/files/schreiber_2VectorSpaces_Jan2007.pdf)&rbrack;
 
-A formally  comparatively well understood case of QFT holography is the relation between 3-dimensional [[Chern-Simons theory]] and the 2-dimensional [[WZW-model]]. This is formalized by the [[Reshetikhin-Turaev model]] on the 3-dimensional side and the [[Fuchs-Runkel-Schweigert construction]] on the 2-dimensional side.
+Discussion with respect to actual [[(infinity,n)-category of cobordisms|higher]] [[categories of cobordisms]]:
 
-Remarks on how the relation between Reshitikhin-Turaev and FSR seem to have an interpretation in terms transformations between 3-functors are at
+* {#SchommerPries2009} [[Chris Schommer-Pries]], pp. 65 in: _Topological defects and classifying local topological field theories in low dimension_, talk at *[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]* &lbrack;[[SchommerPriesDefects.pdf:file]]&rbrack;
 
-* [[Urs Schreiber]], _Towards 2-functorial CFT_ ([blog entry](http://golem.ph.utexas.edu/category/2007/08/dbranes_from_tin_cans_part_x.html))
-{#Schreiber}
+
+A formally  comparatively well understood case of QFT holography is the relation between 3-dimensional [[Chern-Simons theory]] and the 2-dimensional [[WZW-model]]. This is formalized by the [[Reshetikhin-Turaev model]] on the 3-dimensional side and the [[Fuchs-Runkel-Schweigert construction]] on the 2-dimensional side. For more on this see at:
+
+* *[[AdS3-CFT2 and CS-WZW correspondence]]*
+
+Remarks on how the relation between Reshitikhin-Turaev and FSR seem to have an interpretation in terms transformations between 3-functors:
+
+* {#Schreiber2007} [[Urs Schreiber]], _Towards 2-functorial CFT_ (2007) &lbrack;[blog entry](http://golem.ph.utexas.edu/category/2007/08/dbranes_from_tin_cans_part_x.html)&rbrack;
+
 
 There is it discussed how the basic [[string diagram]] that in FSR formalism encodes a field insertion on, possibly, a defect line and encodes the disk amplitudes of the CFT is the string diagram Poincar&eacute;-dual to the cylinder in a 3-category of [[n-vector space|3-vector space]]s.
 
-For references on the [[holographic principle]] in QFT, see there.
+For references on the actual *[[holographic principle]]* in QFT, see there.
