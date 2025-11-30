@@ -127,14 +127,14 @@ The beginnings of a classification theory for $n$-truncated $\Pi$-algebras can b
 
 [[David Blanc]] has written a lot on the theory of these objects. An example is
 
-* [[David Blanc]], _Loop spaces and homotopy operations_, Fund. Math. 154 (1997) 75 - 95.
+* [[David Blanc]]: *Loop spaces and homotopy operations*, Fundamenta Mathematicae **154** 1 (1997) 75-95 &lbrack;[arXiv:math/9803055](https://arxiv.org/abs/math/9803055), [eudml:212228](https://eudml.org/doc/212228)&rbrack;
 
-The realisability problem is discussed in 
+On the realisability problem:
 
-* [[David Blanc]], _Higher homotopy operations and the realizability of homotopy groups_, Proc.  London Math. Soc. (3) 70 (1995) 214 -240,
+* [[David Blanc]], _Higher homotopy operations and the realizability of homotopy groups_, Proc.  London Math. Soc. (3) 70 (1995) 214 -240
 
-and further in 
+*  [[David Blanc]], _Algebraic invariants for homotopy types_, Math. Proc. Camb. Phil. Soc. 127 (3)(1999) 497 - 523 &lbrack;[arXiv](http://arxiv.org/abs/math/9812035)&rbrack;
 
-*  [[David Blanc]], _Algebraic invariants for homotopy types_, Math. Proc. Camb. Phil. Soc. 127 (3)(1999) 497 - 523. (preprint version on the [ArXiv](http://arxiv.org/abs/math/9812035).)
+* [[Martin Frankland]]'s [thesis](https://dspace.mit.edu/bitstream/handle/1721.1/59586/671249306-MIT.pdf?sequence=2&isAllowed=y)
 
-There are more recent results on the realisability problem in [[Martin Frankland]]'s [thesis](https://dspace.mit.edu/bitstream/handle/1721.1/59586/671249306-MIT.pdf?sequence=2&isAllowed=y).  
+[[!redirects Pi-algebras]]  
