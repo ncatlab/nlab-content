@@ -2521,13 +2521,20 @@ The notion of *[[twisted functorial field theory|twisted]]* or *[[relative funct
 
 but the observation of the phenomenon is already in
 
-* [[Urs Schreiber]]: "A kind of Holography", section 4 of: *On 2D QFT -- from Arrows to Disks* (2006) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/ad.pdf), [pdf](schreiber/files/Schreiber-ArrowsToDisks.pdf)&rbrack;
+* [[Urs Schreiber]]: "A kind of Holography", section 4 of: *On 2D QFT -- from Arrows to Disks* (2006) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/ad.pdf), [pdf](/schreiber/files/Schreiber-ArrowsToDisks.pdf)&rbrack;
 
-  presented as: *Quantum 2-States: Sections of 2-vector bundles*, talk at *[Higher categories and their applications](https://www.fields.utoronto.ca/programs/scientific/06-07/homotopy/highercat/index.html)*, Fields Institute (Jan 2007) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/atd.pdf), [pdf](/schreiber/files/schreiber_2VectorSpaces_Jan2007.pdf)&rbrack;
+  presented as: 
 
-and [was communicated](https://golem.ph.utexas.edu/category/2007/06/extended_quantum_field_theory.html) to the above authors at:
+  *Quantum 2-States: Sections of 2-vector bundles*, talk at *[Higher categories and their applications](https://www.fields.utoronto.ca/programs/scientific/06-07/homotopy/highercat/index.html)*, Fields Institute (Jan 2007) &lbrack;[pdf](https://www.math.uni-hamburg.de/home/schreiber/atd.pdf), [pdf](/schreiber/files/schreiber_2VectorSpaces_Jan2007.pdf)&rbrack;
 
-  * *[Workshop on Elliptic Cohomology](https://www.zmp.uni-hamburg.de/events/workshop-cohomology.html)*, Hamburg (June 2007) &lbrack;poster: [pdf](https://www.zmp.uni-hamburg.de/events/workshop-cohomology/files/workshop-ellcoh-cdr.pdf), [[WorkshopEllipticCohomologyPoster-Hamburg2007.pdf:file]]&rbrack;
+  which [was communicated](https://golem.ph.utexas.edu/category/2007/06/extended_quantum_field_theory.html) to the above authors at:
+
+  *[Workshop on Elliptic Cohomology](https://www.zmp.uni-hamburg.de/events/workshop-cohomology.html)*, Hamburg (June 2007) &lbrack;poster: [pdf](https://www.zmp.uni-hamburg.de/events/workshop-cohomology/files/workshop-ellcoh-cdr.pdf), [[WorkshopEllipticCohomologyPoster-Hamburg2007.pdf:file]]&rbrack;
+
+and then in:
+
+* {#SchommerPries} [[Chris Schommer-Pries]], pp. 65 in: _Topological defects and classifying local topological field theories in low dimension_, talk at *[[Oberwolfach Workshop, June 2009 -- Strings, Fields, Topology]]* &lbrack;[[SchommerPriesDefects.pdf:file]]&rbrack;
+
 
 Further mathematical discussion:
 
