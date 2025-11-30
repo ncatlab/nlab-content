@@ -37,6 +37,9 @@ An $n$-[[n-natural transformation|natural transformation]] goes between $n$-func
 [[!redirects n-functor]]
 [[!redirects n-functors]]
 
+[[!redirects 3-functor]]
+[[!redirects 3-functors]]
+
 [[!redirects higher functor]]
 [[!redirects higher functors]]
 
