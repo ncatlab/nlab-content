@@ -313,9 +313,18 @@ A discrete quantum [[group]] is a quantum monoid $(X,m,e)$ such that
 where $\top_X$ is the [[top|maximum]] relation $1 \to X$. Note that a discrete quantum group is not a [[group object]] in $qSet$.
 \end{example}
 
+\begin{example}
+A Kac-type discrete quantum group is a quantum monoid $(X,m,e)$ together with a map $i \colon X^* \to X$ such that
+
+1. $m \circ (\id_X \times i) \circ \varepsilon_{X} = e$,
+
+1. $m \circ (i \times \id_X) \circ \varepsilon_{X^*} = e$.
+
+\end{example}
+
 These examples are all discrete in the sense that the underlying quantum space is discrete and not in the sense that the structure on that quantum space is discrete. This qualification is necessary because the underlying space of a quantum structure is often assumed to be from a larger class. For example, the underlying quantum space of a quantum graph may be a quantum [[localizable measurable space|measurable space]], and the underlying space of a quantum group may be a quantum [[locally compact topological space|topological space]].
 
-The material in this section is mostly from [Weaver 2012](#Weaver12) and [Kornell 2024](#Kornell24).
+The material in this section is mostly from [Weaver 2012](#Weaver12), [Kornell 2024](#Kornell24), and [Chirvasitu & Kornell 2025](#ChirvasituKornell25).
 
 ## Duality
 
@@ -433,6 +442,8 @@ As such, this serves as [[categorical semantics]] for [[quantum programming lang
 * {#Chirvasitu25} [[Alexandru Chirvasitu]], *Spans of quantum-inequality projections*, J. Math. Phys. **66** (2025), [arxiv:2504.01746](https://arxiv.org/abs/2504.01746).
 
 * {#JencaLindenhovius25} Gejza Jenča, [[Bert Lindenhovius]],  *Monoidal quantaloids* (2025), [arXiv:2504.18266](https://arxiv.org/abs/2504.18266).
+
+* {#ChirvasituKornell25} [[Alexandru Chirvasitu]], [[Andre Kornell]], *A new characterization of Kac-type discrete quantum groups* (2025), [arXiv:2511.20958] (https://arxiv.org/abs/2511.20958).
 
 
 
