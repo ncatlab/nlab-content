@@ -50,6 +50,9 @@ The [[n-torus]] for $n \geq 3$ is not a [[cyclic group|cyclic]] branched cover o
 
 [[!redirects piecewise-linear manifolds]]
 
+[[!redirects piecewise linear manifold]]
+[[!redirects piecewise linear manifolds]]
+
 [[!redirects PL manifold]]
 [[!redirects PL manifolds]]
 
