@@ -22,6 +22,8 @@ Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expr
 
 * {#GreenHarveyMoore97} [[Michael Green]], [[Jeffrey A. Harvey]], [[Gregory Moore]], *I-brane inflow and anomalous couplings on D-branes*, Class. Quant. Grav. **14** (1997) 47-52 &lbrack;[arXiv:hep-th/9605033](https://arxiv.org/abs/hep-th/9605033), [doi:10.1088/0264-9381/14/1/008](https://doi.org/10.1088/0264-9381/14/1/008)&rbrack;
 
+* [[Gregory Moore]], [[Edward Witten]]: *Self-Duality, Ramond-Ramond Fields, and K-Theory*, JHEP **2000** 05 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/05/032">doi:10.1088/1126-6708/2000/05/032</a>, [arXiv:hep-th/9912279](https://arxiv.org/abs/hep-th/9912279)\]
+
 
 On [[anyons]] in the [[fractional quantum Hall effect]] satisfying [[non-abelian group|non-abelian]] [[braid group statistics]] and introducing the *[Moore-Read states](Laughlin+wavefunction#MooreReadWavefunctionOnPlane)*:
 
