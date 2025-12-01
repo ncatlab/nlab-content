@@ -6,36 +6,4 @@
 
 ***
 
-[[TwistedQFTAndHolographicCats.png:file]]
-
-For $d = 2$ the components that [[natural transformations]] between [[TQFT]] [[3-functors]] assign to [[surfaces]] are [[3-morphisms]] between [[2-morphisms]] making "tin-can diagrams" (vividly so when using [[globular set|globular]] [[geometric shape for higher structures|shapes of higher morphisms]]) as shown in the last row of the following table (from [Schreiber 2006](#Schreiber2006)):
-
-\begin{imagefromfile}
-    "file_name": "TwistedQFTAndHolographicCats.png",
-    "width": 600,
-    "unit": "px",
-    "margin": {
-        "top": -20,
-        "bottom": 20,
-        "right": 0, 
-        "left": 30
-    }
-\end{imagefromfile}
-
-More informal but more popular these days is a schematic diagram as follows (from [ABBGN24](#ABBGN2024)):
-
-\begin{imagefromfile}
-    "file_name": "SymmetryTFT-ABBGN2024.png",
-    "width": 500,
-    "unit": "px",
-    "margin": {
-        "top": -20,
-        "bottom": 20,
-        "right": 0, 
-        "left": 30
-    }
-\end{imagefromfile}
-
-
-
-[[natthree.gif:file]]
+In dimensions $n$ where there exist [[h-cobordisms]] which are not [[isomorphism|isomorphic]] to [[cylinders]] (such as for $n=5$ or when non-trivial [[Whitehead torsion]] exists), the [[Segal space]] $PreCob(n)$ modeling the [[(infinity,1)-category| (infinity,1)-category]] of cobordisms $Cob(n)$ fails to be a *[[complete Segal space]]*. This is because the [[infinity-groupoid]] of [[invertible morphisms]] (in degree 1) contains components corresponding to these non-trivial h-cobordisms, which are not in the image of the degeneracy map from the [[infinity-groupoid]] of objects (in degree 0, which represents the [[classifying spaces]] of the [[diffeomorphism groups]] of closed $(n-1)$-manifolds). Consequently, the *completion* of this Segal space has a space of objects strictly "larger" than that given by the [[shape]] of the diffeomorphism groups ([Lurie 2009, Warning 2.2.8](#Lurie2009)).
