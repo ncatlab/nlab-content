@@ -21,11 +21,14 @@ Specifically for the [[D=6 N=(2,0) SCFT]] on the [[M5-brane]] via [[AdS7/CFT6]]:
 
 * [[Luis Alday]], [[Shai Chester]], Himanshu Raj, _6d $(2,0)$ and M-theory at 1-loop_ ([arXiv:2005.07175](https://arxiv.org/abs/2005.07175))
 
+
 Specifically for the [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-brane]] via [[AdS4/CFT3]]
 
 * Nathan B. Agmon, [[Shai Chester]], [[Silviu S. Pufu]]: *The M-theory Archipelago*,  J. High Energ. Phys. **2020** 10 (2020) &lbrack;<a href="https://doi.org/10.1007/JHEP02(2020)010">doi:10.1007/JHEP02(2020)010</a>, [arXiv:1907.13222](https://arxiv.org/abs/1907.13222)&rbrack;
 
 * Damon J. Binder, [[Shai Chester]], Max Jerdee, [[Silviu S. Pufu]]: *The 3d $\mathcal{N}=6$ Bootstrap: From Higher Spins to Strings to Membranes*, J. High Energ. Phys. **2021** 83 (2021) &lbrack;[arXiv:2011.05728](https://arxiv.org/abs/2011.05728), <a href="https://doi.org/10.1007/JHEP05(2021)083">doi:10.1007/JHEP05(2021)083</a>&rbrack;
+
+* [[Shai M. Chester]], [[Silviu S. Pufu]], Yifan Wang, Xi Yin: *Bootstrapping M-theory Orbifolds* &lbrack;[arXiv:2312.13112](https://arxiv.org/abs/2312.13112)&rbrack;
 
 * [[Shai M. Chester]], Ross Dempsey, [[Silviu S. Pufu]]: *Higher-derivative corrections in M-theory from precision numerical bootstrap* &lbrack;[arXiv:2412.14094](https://arxiv.org/abs/2412.14094)&rbrack;
 
