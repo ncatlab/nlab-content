@@ -21,6 +21,9 @@ The **$E_8$ manifold** is the unique [[compact]], [[simply connected]] [[topolog
 The $E_{8}$ manifold has no [[smooth structure]], nor even is [[triangulation theorem|triangulable]] as a [[simplicial complex]].
 
 
+## Related entries
+
+* [[h-cobordism theorem]]
 
 ## References
 
