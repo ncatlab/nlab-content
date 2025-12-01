@@ -94,7 +94,7 @@ Often specializations of the general concept play a role:
 
 ## Mann's approach
 
-Mann ([Mann 22](#Mann22)) has developed an abstract framework for a six-functor formalism that combines the approaches of Liu-Zheng and Gaitsgory-Rozenblyum and applies it to [[rigid analytic geometry]], in particular in combination with [[condensed mathematics]] and [[almost mathematics]] to construct an [[$\infty$-category]] of derived solid $\mathcal{O}_{X}^{+}/\pi$ almost modules (see also [Scholze22](#Scholze22)).
+Mann ([Mann 22](#Mann22)) has developed an abstract framework for a six-functor formalism that combines the approaches of Liu-Zheng and Gaitsgory-Rozenblyum and applies it to [[rigid analytic geometry]], in particular in combination with [[condensed mathematics]] and [[almost mathematics]] to construct an [[(infinity,1)-category|$\infty$-category]] of derived solid $\mathcal{O}_{X}^{+}/\pi$ almost modules (see also [Scholze22](#Scholze22)).
 
 \begin{definition}
 Let $C$ be an $\infty$-category admitting finite limits and let $E$ be a class of morphisms stable under pullback and composition, and including all isomorphisms. The symmetric monoidal $\infty$-category of correspondences $\mathrm{Corr}(C,E)$ has as its objects the objects in $C$, and has as its morphisms the correspondences in $C$, i.e. for objects $X$ and $Y$ of $C$ a morphism from $X$ to $Y$ is given by an object $W$ of $C$ together with maps
@@ -103,7 +103,7 @@ Let $C$ be an $\infty$-category admitting finite limits and let $E$ be a class o
     \array{
       && W
       \\
-      & \swarrow_{f} && \searrow_{g}
+      & \mathllap{^f}\swarrow && \searrow\mathrlap{^g}
       \\
       X &&&& Y
     }
@@ -138,27 +138,30 @@ The [[initial object]] in the [[(infinity,2)-category]] of functors to [[stable 
 
 ## References
 
-General abstract discussion is in:
+General abstract discussion:
 
-* [[Halvard Fausk]], [[Po Hu]], [[Peter May]],  *Isomorphisms between left and right adjoints*, Theory and Applications of Categories, **11** 4 (2003) 107-131 &lbrack;[tac:11-04](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.math.uiuc.edu/K-theory/0573/FormalFeb16.pdf)&rbrack;
+* [[Halvard Fausk]], [[Po Hu]], [[Peter May]],  *Isomorphisms between left and right adjoints*, Theory and Applications of Categories, **11** 4 (2003) 107-131 &lbrack;[tac:11-04](http://www.tac.mta.ca/tac/volumes/11/4/11-04abs.html), [pdf](http://www.tac.mta.ca/tac/volumes/11/4/11-04.pdf)&rbrack;
 
 * [[Roy Joshua]], _Grothendieck-Verdier duality in enriched symmetric monoidal $t$-categories_ ([[JoshuaDuality.pdf:file]])
 
 * [[Paul Balmer]], [[Ivo Dell'Ambrogio]], [[Beren Sanders]], *Grothendieck-Neeman duality and the Wirthm&#252;ller isomorphism*, Compositio Math. **152** (2016) 1740-1776 &lbrack;[arXiv:1501.01999](http://arxiv.org/abs/1501.01999), [doi:10.1112/S0010437X16007375](https://doi.org/10.1112/S0010437X16007375)&rbrack;
-
-* [[Peter Scholze]], _Six-Functor Formalisms_ &lbrack;[arXiv:2510.26269](https://arxiv.org/abs/2510.26269)&rbrack;
 
 
 Lecture notes:
 
 * [[Martin Gallauer]], *An introduction to six-functor formalism*, lecture at *[The Six-Functor Formalism and Motivic Homotopy Theory](https://sites.google.com/view/summer-school-motivic/home)*, Università degli Studi di Milano (Sept. 2021) &lbrack;[arXiv:2112.10456](https://arxiv.org/abs/2112.10456), [pdf](https://homepages.warwick.ac.uk/staff/Martin.Gallauer/docs/m6ff.pdf)&rbrack;
 
-* {#Scholze22} [[Peter Scholze]], *Six Functor Formalisms*, [lecture notes ](https://people.mpim-bonn.mpg.de/scholze/Course%20Winter%202223.html) (2022) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf), [[Scholze-SixOperations.pdf:file]]&rbrack;
+* {#Scholze22} [[Peter Scholze]], *Six Functor Formalisms*, [lecture notes ](https://people.mpim-bonn.mpg.de/scholze/Course%20Winter%202223.html) (2022) &lbrack;[pdf](https://people.mpim-bonn.mpg.de/scholze/SixFunctors.pdf), [[Scholze-SixOperations.pdf:file]], [arXiv:2510.26269](https://arxiv.org/abs/2510.26269)&rbrack;
 
-* {#KrauseNikolaus24} [[Achim Krause]], [[Thomas Nikolaus]], *Sheaves on manifolds* (2024) &lbrack;[pdf](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/Papers/sheaves-on-manifolds.pdf), [[KrauseNikolaus-SheavesOnManifolds.pdf:file]]&rbrack;
+* {#KrauseNikolaus24} [[Achim Krause]], [[Thomas Nikolaus]]: *Sheaves on manifolds* (2024) &lbrack;[pdf](https://www.uni-muenster.de/IVV5WS/WebHop/user/nikolaus/Papers/sheaves-on-manifolds.pdf), [[KrauseNikolaus-SheavesOnManifolds.pdf:file]]&rbrack;
 
 
-An approach to six functor formalism as a bifibered multicategory (multiderivator, when appropriate) over correspondences is in 
+An [[enhanced triangulated category|enhanced]] version of the six operations formalism for [[etale cohomology]] of ([[infinity-stack|higher]]) [[Artin stacks]], using the language of [[stable (infinity,1)-categories]]:
+
+* Yifeng Liu, Weizhe Zheng: _Enhanced six operations and base change theorem for Artin stacks_, [arXiv](http://arxiv.org/abs/1211.5948).
+
+
+An approach to six functor formalism as a bifibered [[multicategory]] (multiderivator, when appropriate) over [[correspondences]]:
 
 * Fritz H&#246;rmann, _Fibered derivators, (co)homological descent, and Grothendieck's six functors_ [pdf](http://home.mathematik.uni-freiburg.de/hoermann/overview6fu.pdf); 
 
@@ -168,15 +171,24 @@ An approach to six functor formalism as a bifibered multicategory (multiderivato
 
   _Derivator Six Functor Formalisms --- Definition and Construction I_ [arXiv:1701.02152](https://arxiv.org/abs/1701.02152)
 
-The traditional applications ([[quasicoherent sheaves of modules]]) are discussed in
+
+
+Formalization of six functor formalism in [[linear homotopy type theory]]:
+
+* {#Riley22Thesis} [[Mitchell Riley]]: *An Internal Six Functor Formalism*, §2.4 in: *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [[Riley-BunchedHoTT.pdf:file]]&rbrack;
+
+following a suggestion in
+
+* [[Urs Schreiber]], §3.2 in: *[[schreiber:Quantization via Linear homotopy types|Quantization via Linear Homotopy Types]]*, talk notes (2014) &lbrack;[arXiv:1402.7041](http://arxiv.org/abs/1402.7041)&rbrack;
+
+
+
+On the traditional applications to [[quasicoherent sheaves of modules]]:
 
 * [[Joseph Lipman]], _Notes on derived functors and Grothendieck duality_, in _Foundations of Grothendieck Duality for Diagrams of Schemes_, Lecture Notes in Math. **1960** Springer (2009) 1-259 &lbrack;[pdf](http://www.math.purdue.edu/~lipman/Duality.pdf)&rbrack;
 
 * Yves Laszlo, Martin Olsson, _The six operations for sheaves on Artin stacks I: Finite Coefficients_ ([arXiv:math/0512097](http://arxiv.org/abs/math/0512097))
 
-An [[enhanced triangulated category|enhanced]] version of the six operations formalism for [[etale cohomology]] of ([[infinity-stack|higher]]) [[Artin stacks]], using the language of [[stable (infinity,1)-categories]]:
-
-* Yifeng Liu, Weizhe Zheng, _Enhanced six operations and base change theorem for Artin stacks_, [arXiv](http://arxiv.org/abs/1211.5948).
 
 The six functor formalism for [[motivic homotopy theory]]:
 
@@ -197,7 +209,7 @@ Enhancement to [[equivariant motivic homotopy theory]]:
 
 * [[Marc Hoyois]], *The six operations in equivariant motivic homotopy theory*, Adv. Math. **305** (2017) 197-279 &lbrack;[arXiv:1509.02145](https://arxiv.org/abs/1509.02145), [doi:10.1016/j.aim.2016.09.031](https://doi.org/10.1016/j.aim.2016.09.031)&rbrack;
 
-Discussion of six-functor formalism for [[abelian sheaves]] on [[manifolds]]/[[topological spaces]]:
+Further discussion for for [[abelian sheaves]] on [[manifolds]]/[[topological spaces]]:
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], Chapters II and III of: _Sheaves on manifolds_, Grundlehren **292**, Springer (1990) &lbrack;[doi:10.1007/978-3-662-02661-8](https://doi.org/10.1007/978-3-662-02661-8)&rbrack;
 
@@ -226,7 +238,7 @@ The six operations for [[derived categories]] of [[quasi-coherent sheaves]], [[i
 
 * [[Dennis Gaitsgory]], [[Notes on geometric Langlands]], [web](http://www.math.harvard.edu/~gaitsgde/GL/).
 
-Six operations in the setup of [[o-minimal structure]]s is discussed in 
+Six operations in the setup of [[o-minimal structures]]: 
 
 * Mario J. Edmundo, Luca Prelli, _The six Grothendieck operations on o-minimal sheaves_, Comptes Rendus Mathematique 352:6 (2014) 455-458 [arxiv/1401.0846](http://arxiv.org/abs/1401.0846) [doi](https://doi.org/10.1016/j.crma.2014.03.021)
  
