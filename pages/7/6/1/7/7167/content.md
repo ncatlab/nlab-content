@@ -91,6 +91,8 @@ These ideas are clarified and expanded on in
 
 * {#BMW} [[Clemens Berger]], [[Paul-André Melliès]], [[Mark Weber]], _Monads with Arities and their Associated Theories_ (2011) ([arXiv:1101.3064](http://arxiv.org/abs/1101.3064))
 
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The nerve theorem for relative monads_ (2025), Theory and Applications of Categories, &lbrack;[arXiv:2404.01281](https://arxiv.org/abs/2404.01281)&rbrack;
+
 On the connection between [[relative monads]] and monads with arities:
 
 * {#ACU14} [[Thorsten Altenkirch]], [[James Chapman]], [[Tarmo Uustalu]], *Monads need not be endofunctors*, Logical Methods in Computer Science **11** 1:3 (2015) 1–40 &lbrack;[arXiv:1412.7148](https://arxiv.org/abs/1412.7148), [pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf), <a href="https://doi.org/10.2168/LMCS-11(1:3)2015">doi:10.2168/LMCS-11(1:3)2015</a>&rbrack;
