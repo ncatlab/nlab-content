@@ -865,14 +865,14 @@ $$
       \\
       Hom_D(X,Y) & if X,Y \in D
       \\
-      \left\{k(X,Y)\right\} & if X \in C and Y \in D
+      k(X,Y) & if X \in C and Y \in D
       \\
       \emptyset & otherwise
     }
   \right.
 $$
 
-($k(X,Y)$ is also called a _[[heteromorphism]]_).
+(An element of $k(X,Y)$ is also called a _[[heteromorphism]]_).
 
 This category naturally comes with a functor to the [[interval]] category
 
