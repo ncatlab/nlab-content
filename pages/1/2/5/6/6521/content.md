@@ -11,7 +11,7 @@ Simon Donaldson is professor for pure [[mathematics]] at Imperial College London
 
 Proof of [[Donaldson's theorem]], which laid the basis for [[Donaldson theory]]:
 
-* {#Donaldson83} [[Simon Donaldson]]. _An application of gauge theory to four-dimensional topology_. In: Journal of Differential Geometry. 18. Jahrgang, Nr. 2, 1. Januar 1983, [doi:10.4310/jdg/1214437665](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-2/An-application-of-gauge-theory-to-four-dimensional-topology/10.4310/jdg/1214437665.full)
+* {#Donaldson83} [[Simon Donaldson]]: _An application of gauge theory to four-dimensional topology_, Journal of Differential Geometry. **18** Jahrgang, Nr. 2 (1983) &lbrack;[doi:10.4310/jdg/1214437665](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-2/An-application-of-gauge-theory-to-four-dimensional-topology/10.4310/jdg/1214437665.full)&rbrack;
 
 * {#Donaldson87} [[Simon Donaldson]]. _The orientation of Yang-Mills moduli spaces and 4-manifold topology_. In: Journal of Differential Geometry. 26. Jahrgang, Nr. 3, 1. Januar 1987, [doi:10.4310/jdg/1214441485](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-26/issue-3/The-orientation-of-Yang-Mills-moduli-spaces-and-4-manifold/10.4310/jdg/1214441485.full)
 
@@ -30,11 +30,13 @@ On [[Yang-Mills theory]] ([[gauge theory]]) in [[mathematical physics]]:
 
 * {#Donaldson06} [[Simon Donaldson]], _Gauge Theory: Mathematical Applications_, Encyclopedia of Mathematical Physics, Academic Press (2006) 468-481 &lbrack;[doi:10.1016/B0-12-512666-2/00075-4](https://doi.org/10.1016/B0-12-512666-2/00075-4), [author pdf](http://wwwf.imperial.ac.uk/~skdona/EMP.PDF), [[DonaldsonGaugeTheory.pdf:file]]&rbrack;
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Donaldson-Thomas invariant]]
 
 * [[Donaldson theory]]
+
+* [[h-cobordism theorem]]
 
 category: people
 
