@@ -13,10 +13,9 @@
 =--
 =--
 
-# Dependent linear type theory
+\tableofcontents
 
-* table of contents
-{: toc}
+
 
 ## Idea
 
@@ -307,13 +306,11 @@ Proposals for a genuine [[syntax]] for dependent linear type theory:
 
 * [[Benjamin Moon]], [[Harley Eades III]], [[Dominic Orchard]], *Graded Modal Dependent Type Theory*. In: N. Yoshida (ed.) *Programming Languages and Systems ESOP 2021*, Lecture Notes in Computer Science **12648**, Springer (2021) 462-490 &lbrack;[doi:10.1007/978-3-030-72019-3_17](https://doi.org/10.1007/978-3-030-72019-3_17), [arxiv:2010.13163](https://arxiv.org/abs/2010.13163)&rbrack;
 
-
 (Detailed critical discussion of most of these previous proposals is given in [Riley 2022, §1.7](#Riley22Thesis) [p. 90](https://mvr.hosting.nyu.edu/pubs/thesis.pdf#page=90), see also brief comments in [Riley 2022b](#Riley22), [p. 22](https://ncatlab.org/nlab/files/CQTS-InitialResearcherMeeting-Riley-220913.pdf#page=22)).
 
 A satisfactory dependent [[linear homotopy type theory]] is given in
 
-* {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [pdf](https://mvr.hosting.nyu.edu/pubs/thesis.pdf)&rbrack;
-
+* {#Riley22Thesis} [[Mitchell Riley]], *A Bunched Homotopy Type Theory for Synthetic Stable Homotopy Theory*, PhD Thesis (2022) &lbrack;[doi:10.14418/wes01.3.139](https://doi.org/10.14418/wes01.3.139), [ir:3269](https://digitalcollections.wesleyan.edu/object/ir%3A3269), [[Riley-BunchedHoTT.pdf:file]]&rbrack;
   > (using ideas from [[bunched logic]])
 
 based on
