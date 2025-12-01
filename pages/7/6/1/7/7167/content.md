@@ -65,7 +65,7 @@ The proof of the nerve theorem, following [BMW](#BMW), is fairly straightforward
 
 * Every [[p.r.a. monad]] has arities.  In particular, therefore, every [[polynomial monad]] has arities.
 
-* The free [[groupoid]] monad on the category of [[directed graphs]] with [[involution]] has arities, although it is not p.r.a.
+* The free [[groupoid]] monad on the category of [[directed graphs]] with [[involution]] has arities, although it is not p.r.a. The arities are the full subcategory of involutive graphs on the finite connected acyclic graphs.
 
 See [BMW](#BMW) for more.
 
