@@ -145,6 +145,10 @@ Specifically for the [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-br
 
 * Damon J. Binder, [[Shai Chester]], Max Jerdee, [[Silviu S. Pufu]]: *The 3d $\mathcal{N}=6$ Bootstrap: From Higher Spins to Strings to Membranes*, J. High Energ. Phys. **2021** 83 (2021) &lbrack;[arXiv:2011.05728](https://arxiv.org/abs/2011.05728), <a href="https://doi.org/10.1007/JHEP05(2021)083">doi:10.1007/JHEP05(2021)083</a>&rbrack;
 
+* [[Shai M. Chester]], [[Silviu S. Pufu]], Yifan Wang, Xi Yin: *Bootstrapping M-theory Orbifolds* &lbrack;[arXiv:2312.13112](https://arxiv.org/abs/2312.13112)&rbrack;
+
+
+
 * [[Shai M. Chester]], Ross Dempsey, [[Silviu S. Pufu]]: *Higher-derivative corrections in M-theory from precision numerical bootstrap* &lbrack;[arXiv:2412.14094](https://arxiv.org/abs/2412.14094)&rbrack;
 
 
