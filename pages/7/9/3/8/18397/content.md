@@ -67,7 +67,7 @@ Generalization to the s-cobordism theorem and counterexamples:
 
 * {#Donaldson1983} [[Simon Donaldson]], _An application of gauge theory to four-dimensional topology_, Journal of Differential Geometry. **18** 2 (1983) 279-315 &lbrack;[doi:10.4310/jdg/1214437665](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-18/issue-2/An-application-of-gauge-theory-to-four-dimensional-topology/10.4310/jdg/1214437665.full)&rbrack;
 
-Relevance for the [[(infinity,n)-category of cobordisms|$(\infy,n)$-category of cobordisms]]:
+Relevance for the [[(infinity,n)-category of cobordisms|$(\infty,n)$-category of cobordisms]]:
 
 * {#Lurie2009} [[Jacob Lurie]], Warning 2.2.8 in: _[[On the Classification of Topological Field Theories]]_, Current Developments in Mathematics **2008** (2009) 129-280 &lbrack;[doi:10.4310/CDM.2008.v2008.n1.a3](https://dx.doi.org/10.4310/CDM.2008.v2008.n1.a3), [arXiv:0905.0465](http://arxiv.org/abs/0905.0465)&rbrack;
 
