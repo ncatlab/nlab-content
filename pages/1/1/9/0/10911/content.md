@@ -124,6 +124,19 @@ Discussion of [[standard model of particle physics|standard model]] [[phenomenol
 * [[Harold Steinacker]], Jochen Zahn, _An extended standard model and its Higgs geometry from the matrix model_, PTEP 2014 (2014) 8, 083B03 ([arXiv:1401.2020](http://arxiv.org/abs/1401.2020))
 
 
+In relation to the [[Brandenberger-Vafa mechanism]]:
+
+* [[Robert Brandenberger]], Julia Pasiecznik: *On the Origin of the $SO(9) \to SO(3) \times SO(6)$ Symmetry Breaking in the IKKT Matrix Model* &lbrack;[arXiv:2409.00254](https://arxiv.org/abs/2409.00254)&rbrack;
+
+* Suddhasattwa Brahma, [[Robert Brandenberger]], Samuel Laliberte: *BFSS Matrix Model Cosmology: Progress and Challenges*, Physics **5** 1 (2023)  &lbrack;[arXiv:2210.07288](https://arxiv.org/abs/2210.07288), [doi:10.3390/physics5010001](https://doi.org/10.3390/physics5010001)&rbrack;
+
+* [[Robert Brandenberger]]: *Emergent Metric Space-Time from the BFSS Matrix Model*, talk at Perimeter Institute (May 2023) &lbrack;[doi:10.48660/23050109](https://doi.org/10.48660/23050109), video:[pirsa:23050109](https://pirsa.org/23050109), slides:[pdf](https://pdf.pirsa.org/files/23050109.pdf)&rbrack;
+
+In relation to [[gauged supergravity]]:
+
+* Franz Ciceri, [[Henning Samtleben]]: *A supergravity dual for IKKT holography* &lbrack;[arXiv:2511.23111](https://arxiv.org/abs/2511.23111)&rbrack;
+
+
 See also
 
 * A. Stern, Chuang Xu, _Signature change in matrix model solutions_ ([arXiv:1808.07963](https://arxiv.org/abs/1808.07963))
@@ -157,20 +170,6 @@ See also
 
 * Alessandro Manta, [[Harold C. Steinacker]]: *Dynamical Covariant Quantum Spacetime with Fuzzy Extra Dimensions in the IKKT model* &lbrack;[arXiv:2509.24753](https://arxiv.org/abs/2509.24753)&rbrack;
 
-
-
-
-
-In relation to the [[Brandenberger-Vafa mechanism]]:
-
-* [[Robert Brandenberger]], Julia Pasiecznik: *On the Origin of the $SO(9) \to SO(3) \times SO(6)$ Symmetry Breaking in the IKKT Matrix Model* &lbrack;[arXiv:2409.00254](https://arxiv.org/abs/2409.00254)&rbrack;
-
-* Suddhasattwa Brahma, [[Robert Brandenberger]], Samuel Laliberte: *BFSS Matrix Model Cosmology: Progress and Challenges*, Physics **5** 1 (2023)  &lbrack;[arXiv:2210.07288](https://arxiv.org/abs/2210.07288), [doi:10.3390/physics5010001](https://doi.org/10.3390/physics5010001)&rbrack;
-
-* [[Robert Brandenberger]]: *Emergent Metric Space-Time from the BFSS Matrix Model*, talk at Perimeter Institute (May 2023) &lbrack;[doi:10.48660/23050109](https://doi.org/10.48660/23050109), video:[pirsa:23050109](https://pirsa.org/23050109), slides:[pdf](https://pdf.pirsa.org/files/23050109.pdf)&rbrack;
-
-
-See also:
 
 * Shota Komatsu, Adrien Martina, João Penedones, Antoine Vuignier, Xiang Zhao: *Einstein gravity from a matrix integral -- Part I* &lbrack;[arXiv:2410.18173](https://arxiv.org/abs/2410.18173)&rbrack;
 
