@@ -89,7 +89,7 @@ and its [[anti de Sitter spacetime|AdS]] version
 * [[Alex Arvanitakis]], Alec E. Barns-Graham, [[Paul Townsend]], _Twistor description of spinning particles in AdS_, JHEP 01 (2018) 059 ([arXiv:1710.09557](https://arxiv.org/abs/1710.09557))
 
 
-Streamlined proof and exposition is in
+Streamlined proof and exposition:
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]]: _Division algebras and supersymmetry I_, in: _Superstrings, Geometry, Topology, and $C^*\ast$-algebras_, Proc. Symp. Pure Math. **81**, AMS (2010) 65-80 &lbrack;[arXiv:0909.0551](http://arxiv.org/abs/0909.0551), [ISBN:978-0-8218-4887-6](https://bookstore.ams.org/view?ProductCode=PSPUM/81)&rbrack;
 
@@ -100,13 +100,16 @@ The case of 2-component quaternionic spinors in 6d (see at [[SL(2,H)]]) is discu
 
 * [[Joás Venâncio]], [[Carlos Batista]], *Two-Component Spinorial Formalism using Quaternions for Six-dimensional Spacetimes*, Advances in Applied Clifford Algebras **31** 71 (2021) &lbrack;[arXiv:2007.04296](https://arxiv.org/abs/2007.04296), [doi:10.1007/s00006-021-01172-1](https://doi.org/10.1007/s00006-021-01172-1)&rbrack;
 
-Discussion with an emphasis on [[super Yang-Mills theory]] and [[U-duality]] in [[supergravity]] and the [[Freudenthal magic square]] is in
+Discussion with an emphasis on [[super Yang-Mills theory]] and [[U-duality]] in [[supergravity]] and the [[Freudenthal magic square]]:
 
-* [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], _A magic square from Yang-Mills squared_ ([arXiv:1301.4176](http://arxiv.org/abs/1301.4176))
+* {#BorstenDuffHughesNagy13} [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]]: *A magic square from Yang-Mills squared*, Phys. Rev. Lett. **112** (2014) 131601.  &lbrack;[arXiv:1301.4176](http://arxiv.org/abs/1301.4176)&rbrack;
 
-* [[Alexandros Anastasiou]], [[Leron Borsten]], [[Mike Duff]], [[Mia J. Hughes]], [[Silvia Nagy]], _Super Yang-Mills, division algebras and triality_ &lbrack;[arXiv:1309.0546](http://arxiv.org/abs/1309.0546)&rbrack;
+* [[Alexandros Anastasiou]], [[Leron Borsten]], [[Mike Duff]], [[Mia J. Hughes]], [[Silvia Nagy]]: _Super Yang-Mills, division algebras and triality_ &lbrack;[arXiv:1309.0546](http://arxiv.org/abs/1309.0546)&rbrack;
 
-* {#ABDHN} A. Anastasiou, [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic pyramid of supergravities_, [arXiv:1312.6523](http://arxiv.org/abs/1312.6523)
+* {#ABDHN} [[Alexandros Anastasiou]], [[Leron Borsten]], [[Michael Duff]], [[Mia J. Hughes]], [[Silvia Nagy]]: *A magic pyramid of supergravities*, JHEP (2014) 178 &lbrack;[arXiv:1312.6523](http://arxiv.org/abs/1312.6523)&rbrack;
+
+* [[Mia J. Hughes]], *Octonions and Supergravity*, Ph.D. thesis, Department of Physics, Imperial College (2016)  &lbrack;[doi:10.25560/34938](https://doi.org/10.25560/34938), [inSpire:1756154](https://inspirehep.net/literature/1756154),  [pdf](https://s3.cern.ch/inspire-prod-files-c/ccdb911a7f6c541e40164fffd84875ca)&rbrack;
+
 
 
 The relationship in [[string theory]] via [[octonion]] algebra between the NRS [[spinning string]] and the [[Green-Schwarz superstring]] [[sigma-models]] is discussed in
