@@ -12,7 +12,7 @@ An important identity involving the projective dimension of a module of finite p
 
 Dually, we define the injective dimension of $M$. 
 
-Id $R$ is a ring then both the category of all right $R$-modules and the category of all left $R$-modules have enough projectives. The left (right) __global dimension__ of $R$ is the supremum of projective dimensions of all left (right) $R$-modules. More generally, a __global dimension of an abelian category__ $C$ may be defined as
+If $R$ is a ring then both the category of all right $R$-modules and the category of all left $R$-modules have enough projectives. The left (right) __global dimension__ of $R$ is the supremum of projective dimensions of all left (right) $R$-modules. More generally, a __global dimension of an abelian category__ $C$ may be defined as
 $$
 gl.dim(C) := sup\{ i\geq 0\,|\, \exists M,N\in C,\, Ext^i(M,N) \neq 0\}
 $$
