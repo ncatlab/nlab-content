@@ -12,6 +12,9 @@ The idea that [[D-branes]] have [[Dirac charge quantization]] in [[topological K
 
 * {#MinasianMoore97} [[Ruben Minasian]], [[Gregory Moore]], *K-theory and Ramond-Ramond charge*, JHEP 9711:002 (1997) \[<a href="https://doi.org/10.1088/1126-6708/1997/11/002">doi:10.1088/1126-6708/1997/11/002</a>, [arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230)\]
 
+* [[Gregory Moore]], [[Edward Witten]]: *Self-Duality, Ramond-Ramond Fields, and K-Theory*, JHEP **2000** 05 (2000) \[<a href="https://doi.org/10.1088/1126-6708/2000/05/032">doi:10.1088/1126-6708/2000/05/032</a>, [arXiv:hep-th/9912279](https://arxiv.org/abs/hep-th/9912279)\]
+
+
 Further early discussion:
 
 * {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019 (1998) \[<a href="http://arxiv.org/abs/hep-th/9810188">arXiv:hep-th/9810188</a>, [doi:10.1088/1126-6708/1998/12/019](https://doi.org/10.1088/1126-6708/1998/12/019)\]
