@@ -3,13 +3,13 @@
 \begin{imagefromfile}
     "file_name": "LevSemenovichPontryagin.jpg",
     "float": "right",
-    "width": "200",
+    "width": "230",
     "unit": "px",
     "margin": {
-        "top": -40,
+        "top": -48,
         "bottom": 20,
         "right": 0, 
-        "left": 10
+        "left": 30
     }
 \end{imagefromfile}
 
