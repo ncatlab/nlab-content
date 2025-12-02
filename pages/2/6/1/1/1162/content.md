@@ -19,7 +19,7 @@
 
 ## Definition
 
-If $T \colon X\to Y$ is an [[additive functor]] between [[abelian category|abelian categories]] with sufficiently many [[projective object|projectives]] and [[injective object|injectives]], then one defines its __right satellite__ $S^1 T$ and __left satellite__ $S^{-1}T=S_1 T:C\to D$ via the formulas
+If $T \colon X\to Y$ is an [[additive functor]] between [[abelian category|abelian categories]] with sufficiently many [[projective object|projectives]] and [[injective object|injectives]], then one defines its __right satellite__ $S^1 T$ and __left satellite__ $S^{-1}T=S_1 T:X\to Y$ via the formulas
 $$
 S^1 T (A) = ker(T(M)\to T(P))
 $$
