@@ -6,7 +6,7 @@ John L. Kelley (1916-1999) was an American mathematician, known primarily for hi
 
 On [[general topology]]:
 
-* [[John Kelley]], _General topology_, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
+For more see the references at _[[topology]]_.
 
 ## Related entries
 
