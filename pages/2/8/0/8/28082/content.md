@@ -13,7 +13,7 @@ On a computation of the [[algebraic K-theory|algebraic $K$-theory]] of the [[cat
 
 * {#Lehner25} [[Georg Lehner]], *Algebraic $K$-theory of coherent spaces* &#x5B;[arXiv:2507.00221](https://arxiv.org/abs/2507.00221)]
 
-On a unified perspective on various constructions of the [[group completion]] of a [[En-algebra|$E_n$-monoids]]:
+On a unified perspective on various constructions of the [[group completion]] of [[En-algebra|$E_n$-monoids]]:
 
 * {#Lehner24} [[Georg Lehner]], *Group completion via the action $\infty$-category* &#x5B;[arXiv:2405.12118](https://arxiv.org/abs/2405.12118)]
 
