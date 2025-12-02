@@ -15,6 +15,6 @@ On [[CW complexes]] and [[absolute neighbourhood retracts]]:
 
 On [[general topology]] (including [[compactly generated topological spaces]]):
 
-* [[James Dugundji]], *Topology*, Allyn and Bacon 1966 ([pdf](https://www.southalabama.edu/mathstat/personal_pages/carter/Dugundji.pdf))
+* [[James Dugundji]]: *Topology*, Allyn and Bacon (1966) &lbrack;[pdf](https://indico.eimi.ru/category/117/attachments/417/859/James_Dugundji_-_Topology-McGraw-Hill_Inc.US_1966.pdf)&rbrack;
 
 category: people
