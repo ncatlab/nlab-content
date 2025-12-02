@@ -40,7 +40,7 @@ In [[simplicial sets]] with [[simplicial weak equivalences]] (as in the [[classi
 
 \begin{example}
 **(homotopy products of topological space)**\linebreak
-In [[topological spaces]] with [[weak homotopy equivalences]], as in the [[classical model structure on topological spaces]], every object is [[fibrant object|fibant]], so that
+In [[topological spaces]] with [[weak homotopy equivalences]], as in the [[classical model structure on topological spaces]], every object is [[fibrant object|fibrant]], so that
 homotopy products can be computed as ordinary [[Cartesian products]], which here means [[product spaces]].
 \end{example}
 
