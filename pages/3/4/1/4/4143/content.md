@@ -150,4 +150,9 @@ Relation to [[twisted equivariant K-theory]]:
 
 * José Manuel Gómez, Johana Ramírez, _A Decomposition of twisted equivariant K-theory_ ([arXiv:2001.02164](https://arxiv.org/abs/2001.02164))
 
+Applications in [[topological phases of matter]]:
+
+* Ryohei Kobayashi, Haruki Watanabe: *Projective Representations, Bogomolov Multiplier, and Their Applications in Physics* &lbrack;[arXiv:2507.12515](https://arxiv.org/abs/2507.12515)&rbrack;
+
+
 [[!redirects projective representations]]
