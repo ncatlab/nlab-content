@@ -400,7 +400,7 @@ Early variations on the theme:
 
 * {#Street80}[[Ross Street]], _Cosmoi of internal categories_ , Transactions AMS **258** (1980) pp.271-318.
 
-The quote abve stems from:
+The quote above stems from:
 
 * {#Street10} [[Ross Street]], _An Australian conspectus of higher categories_ , pp.237-264 in Baez, May (eds.), _Towards Higher Categories_ , Springer Heidelberg 2010. ([draft](http://maths.mq.edu.au/~street/Minneapolis.pdf))
 
