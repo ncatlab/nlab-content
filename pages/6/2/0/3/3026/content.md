@@ -18,11 +18,13 @@
 
 The _one-point compactification_ of a [[topological space]] $X$ is a new [[compact space]] $X^* = X \cup \{\infty\}$ obtained by adding a single new point "$\infty$" to the original space and declaring in $X^*$ the [[complements]] of the original [[closed subspace|closed]] [[compact space|compact]] [[subspaces]] to be [[open subspace|open]].
 
-One may think of the new point added as the "point at infinity" of the original space. A [[continuous function]] on $X$ _[[vanishing at infinity|vanishes at infinity]]_ precisely if it extends to a continuous function on $X^*$ and literally takes the value zero at the point "$\infty$".
+One may think of the adjoined point as the "point at infinity" of the original space. A [[continuous function]] on $X$ _[[vanishing at infinity|vanishes at infinity]]_ precisely if it extends to a continuous function on $X^*$ and literally takes the value zero at the point "$\infty$".
 
 This one-point compactification is also known as the _Alexandroff compactification_ after a 1924 paper by [[Pavel Aleksandrov|Павел Сергеевич Александров]] (then transliterated 'P.S. Aleksandroff'). 
 
 The one-point compactification is usually applied to a non-[[compact space|compact]] [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] space.  In the more general situation, it may not really be a [[compactification]] and hence is called the _one-point extension_ or _Alexandroff extension_.
+
+Applied to a non-compact space, the one-point compactification is the [[quotient space]] of the [[end compactification]] (where each "end", hence each "connected component of infinity" appears as a separate point) by the set of ends.
 
 
 ## Definition
@@ -586,9 +588,14 @@ The concept goes back to
 
 Monographs:
 
-* {#Kelley75} [[John Kelley]], p. 150 of: *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251)&rbrack;
+* {#Munkres75} [[James Munkres]], Thm. 29.1 in: _Topology_, Prentice Hall (1975, 2000) &lbrack;ISBN:0-13-181629-2, [pdf](http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf)&rbrack;
 
-* {#Bredon93} [[Glen Bredon]], p. 199 of: _Topology and Geometry_, Graduate Texts in Mathematics 139, Springer 1993 ([doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf))
+* {#Kelley75} [[John Kelley]], p. 150 of: *General topology*, D. van Nostrand, New York (1955), reprinted as: Graduate Texts in Mathematics, Springer (1975) &lbrack;[ISBN:978-0-387-90125-1](https://www.springer.com/gp/book/9780387901251), <a href="https://cjhb.site/Files.php/books/(Uncategorized)/General%20Topology-John%20L.Kelley.pdf">pdf</a>&rbrack;
+
+* [[James Dugundji]], p. 246 in: *Topology*, Allyn and Bacon (1966) &lbrack;[pdf](https://indico.eimi.ru/category/117/attachments/417/859/James_Dugundji_-_Topology-McGraw-Hill_Inc.US_1966.pdf)&rbrack;
+
+
+* {#Bredon93} [[Glen Bredon]], p. 199 of: _Topology and Geometry_, Graduate Texts in Mathematics **139**, Springer (1993) &lbrack;[doi:10.1007/978-1-4757-6848-0](https://link.springer.com/book/10.1007/978-1-4757-6848-0), [pdf](http://virtualmath1.stanford.edu/~ralph/math215b/Bredon.pdf)&rbrack;
 
 
 * {#James84} [[Ioan Mackenzie James]], Chapter 3 of: *General Topology and Homotopy Theory*, Springer (1984) &lbrack;[doi:10.1007/978-1-4613-8283-6](https://doi.org/10.1007/978-1-4613-8283-6)&rbrack;
@@ -611,7 +618,7 @@ Further discussion:
 
 * Gerald Beer, Maria Cristina Vipera: *The Alexandroff one-point compactification as a prototype for extensions*, Advances in Mathematics **231** 3–4 (2012) 1598-1618 &lbrack;[doi:10.1016/j.aim.2012.07.008](https://doi.org/10.1016/j.aim.2012.07.008)&rbrack;
 
-
+* M. R. Koushesh: *One-point Compactifications*, J. Aust. Math. Soc. **99** (2015) 76–84 &lbrack;[doi:10.1017/S1446788714000676](https://doi.org/10.1017/S1446788714000676)&rbrack;
 
 [[!redirects one-point compactification]]
 [[!redirects one-point compactifications]]
