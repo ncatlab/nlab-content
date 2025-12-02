@@ -96,7 +96,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Stochastic versions of [[Gelfand duality]]: [Furber-Jacobs'15](#gelfand_furber) and [Parzygnat'17](#stoch_gelfand_parzygnat).
 
-* Probabilistic graphical models: a categorical study of Bayesian networks [Fong'12](#fong12), a d-separation criterion for Markov categories [Fritz-Klingler'22](#d-sep), a theory of Bayesian networks and Markov random fields [Lorenzin-Zanasi'25](#probabilistic_triangulation).
+* Probabilistic graphical models: a categorical study of Bayesian networks [Fong'12](#fong12), a d-separation criterion for Markov categories [Fritz-Klingler'22](#d-sep), a theory of Bayesian networks and Markov random fields [Lorenzin-Zanasi'25](#probabilistic_triangulation). Extension to (Bayesian) updating in [JSS'25](#compositional_inference).
 
 * [[idempotent completion|Idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structural consequences, proven in [FGLPS'23](#markov_supports).
 
@@ -136,7 +136,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[Bayesian inverses]]: expressed categorically, with proofs about their core properties and their existence, in [DDGS'18](#krn), [Cho-Jacobs'19](#cd_categories), [Fritz'20](#fritzmarkov), [Parzygnat'24](#retrodiction), and others.
 
-* [[Bayesian updating]]: categorically [Jacobs'23](#pearl_jeffrey), [Jacobs-Zanasi'18](#essential_bayes), and including using Markov categories, [Di Lavore-Román'23](#partial_markov) and [DLRS'25](#partial_markov_ext).
+* [[Bayesian updating]]: categorically [Jacobs'23](#pearl_jeffrey), [Jacobs-Zanasi'18](#essential_bayes), and including using Markov categories, [Di Lavore-Román'23](#partial_markov) and [DLRS'25](#partial_markov_ext). Diagrammatic approach in [JSS'25](#compositional_inference).
 
 * Blackwell-Sherman-Stein theorem on statistical experiments: proven and generalized beyond the discrete case using [[Markov categories]] in [FGPR'23](#fritz_representable). Additional results in [BP'25](#bohinen).
 
@@ -410,6 +410,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#causal_surgery} [[Bart Jacobs]], [[Aleks Kissinger]], [[Fabio Zanasi]], _Causal Inference by String Diagram Surgery_, ([arXiv:1811.08338](https://arxiv.org/abs/1811.08338))
 
 * {#definetti_limit} [[Bart Jacobs]], [[Sam Staton]], _De Finetti's construction as a categorical limit_, Proceedings of CMCS, 2021. ([arXiv:2003.01964](https://arxiv.org/abs/2003.01964))
+
+* {#compositional_inference} [[Bart Jacobs]], Márk Széles and [[Dario Stein]], _Compositional Inference for Bayesian Networks and Causality_, 2025. ([arXiv:2512.00209](https://arxiv.org/abs/2512.00209))
 
 * {#overdrawing} [[Bart Jacobs]] and [[Dario Stein]], _Overdrawing Urns using Categories of Signed Probabilities_, Proceedings of Applied Category Theory, EPTCS 397, 2023. ([arXiv](https://arxiv.org/abs/2312.12453))
 
