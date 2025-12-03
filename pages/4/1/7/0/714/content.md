@@ -8,9 +8,8 @@
 =--
 =--
 
-# $\dagger$ categories
-* tic
-{: toc}
+
+\tableofcontents
 
 
 ## Idea
@@ -389,6 +388,8 @@ also [[compact closed categories]] ([[dagger compact categories]]), a fact that 
 * [[star-category]], [[C-star-category]]
 
 * [[dagger functor]]
+
+* [[dagger equalizer]]
 
 * [[dagger category in homotopy type theory]]
 
