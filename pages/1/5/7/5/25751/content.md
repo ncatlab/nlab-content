@@ -44,7 +44,7 @@ When $V$ is [[cartesian monoidal category|cartesian monoidal]], the two concepts
 
 As we have stated the definitions, this is trivial, but both concepts have more elementary reformulations that avoid [[size issues]], for which this is a nontrivial theorem.
 
-For example, with [Levy (2019), slide 21](#Levy19) this gives an abstract proof of the standard fact that [[simplicially enriched categories]] can be viewed as those [[simplicial objects]] in [[Cat]] which take value in [[identity-on-objects functors]] (e.g. [Riehl (2023), Prop. 1.2.3](#Riehl23)).
+For example, with [Levy (2019), slide 21](#Levy19) this gives an abstract proof of the standard fact that [[simplicially enriched categories]] can be viewed as those [[simplicial objects]] in [[Cat]] which take value in [[identity-on-objects functors]] (e.g. [Riehl (2023), Prop. 1.2.3](#Riehl23)). See also Example 4.7 of [Shulman 2013](#Shulman13).
 
 ## References
 
@@ -79,6 +79,8 @@ For a treatment of $V$-enriched functor categories and bifunctors that is applic
 For [[weighted colimits]] and [[weighted limits]] in the context of categories enriched in a presheaf category:
 
 * [[F. Borceux]] and [[Jiří Rosický]]. "On filtered weighted colimits of presheaves." Cahiers de topologie et géométrie différentielle catégoriques 49.4 (2008): 243-266.
+
+* {#Shulman13} [[Michael Shulman]], _Enriched indexed categories, [[Theory and Applications of Categories]], 28.21 (2013): 616-695.
 
 [[!redirects locally graded categories]]
 [[!redirects locally indexed category]]
