@@ -24,6 +24,9 @@ Chen Ning Yang (1922-2025)
 
 * [GooglScholar page](https://scholar.google.com/citations?user=vuJL4QwAAAAJ&hl=en)
 
+* [[Stephen L. Adler]]: *Chen Ning Yang Retrospective* &lbrack;[arXiv:2512.02673](https://arxiv.org/abs/2512.02673)&rbrack;
+
+
 
 
 ## Selected writings
