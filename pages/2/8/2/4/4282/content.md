@@ -164,6 +164,8 @@ In the [[category of sets]], $*$-algebra objects are called **[[anti-involution|
 
 * [[star-representation]]
 
+* [[H-star-algebra]]
+
 [[!include states and observables -- content]]
 
 
