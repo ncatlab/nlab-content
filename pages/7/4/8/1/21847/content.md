@@ -32,7 +32,7 @@
 * {#Stong68} [[Robert Stong]], Chapter IX of: _Notes on Cobordism theory_, Princeton University Press, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [ISBN:9780691649016](http://press.princeton.edu/titles/6465.html), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/stongcob.pdf))
 
 
-* [[Manifold Atlas]], _[Oriented bordism](http://www.map.mpim-bonn.mpg.de/Oriented_bordism)_
+* [[Manifold Atlas]], _[Oriented bordism](https://web.archive.org/web/20241113162806/http://www.map.mpim-bonn.mpg.de/Oriented_bordism)_
 
 [[!redirects oriented bordism]]
 [[!redirects oriented cobordism]]
