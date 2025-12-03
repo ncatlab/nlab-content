@@ -1343,7 +1343,7 @@ The [[Grothendieck construction]] on this functor may be called the *[[tangent c
 
 * [[indexed Grothendieck construction]]
 
-* [[2-Grothendieck construction]]
+* [[2-Grothendieck construction]], [[2-category of elements]]
 
 * [[(infinity,1)-Grothendieck construction]]
 
