@@ -81,7 +81,7 @@ The join of $A$ and $B$ can be seen as the [[cocomma]] of their product cone:
 	\arrow[from=2-1, to=2-2]
 \end{tikzcd}
 
-This makes it easy to understand the join as a kind of directed/lopsided [[coproduct]]: indeed, the coproduct $A+B$ would be the colimit of the same diagram but [[weighted limit|weighted]] by $1 \leftarrow 0 \rightarrow 1$ rather than $1 \leftarrow 2 \rightarrow 1$.
+This makes it easy to understand the join as a kind of directed/lopsided [[coproduct]]: indeed, the coproduct $A+B$ would be the colimit of the same diagram but [[weighted limit|weighted]] by $[0] \rightarrow \{0,1\} \leftarrow [0]$ rather than $[0] \rightarrow [1] \leftarrow [0]$.
 
 ## Properties
 
