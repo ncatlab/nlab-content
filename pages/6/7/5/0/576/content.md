@@ -88,7 +88,7 @@ constitutes a dagger-compact category structure.
 
 See for instance ([Selinger, remark 4.5](#Selinger)).
 
-Applied for instance to the category of finite-dimensional [[inner product spaces]] this dagger-operation sends [[matrices]] to their [[transpose]]. 
+Applied for instance to the category of (complex) finite-dimensional [[inner product spaces]] this dagger-operation sends [[matrices]] to their [[conjugate transpose matrix |(conjugate) transpose]]. 
 
 A good example of a $\dagger$-compact category where most objects are *not* isomorphic to their duals is the category of continuous unitary representations of [[U(n)]] on finite-dimensional complex Hilbert spaces. 
 
