@@ -43,7 +43,7 @@ for all $a,b,c \in A$.
 [[Frobenius algebra| Frobenius structures]] in the [[category]] of [[finite-dimensional Hilbert space|finite-dimensional Hilbert spaces]] can be classified via $H^*$-algebras.
 
 \begin{theorem}
-A [[monoid in a monoidal category|monoid]] $(A, \mu, \eta)$ internal to [[finite-dimensional Hilbert space|$\mathrm{FdHilb}$]] is a [[Frobenius algebra|symmetric dagger Frobenius monoid]] if and only if it is a finite-dimensional $H^*$-algebra, where the the involution is defined by sending an element $a \in A$ to
+A [[monoid in a monoidal category|monoid]] $(A, \mu, \eta)$ internal to [[Hilb|$\mathrm{FdHilb}$]] is a [[Frobenius algebra|symmetric dagger Frobenius monoid]] if and only if it is a finite-dimensional $H^*$-algebra, where the the involution is defined by sending an element $a \in A$ to
 \begin{centre}
     \begin{tikzcd}
 \mathbb{C} \arrow[r, "\eta"] & A \arrow[r, "\mu^{\dagger}"] & A \otimes A \arrow[r, "1_A \otimes a"] & A \otimes \mathbb{C} \arrow[r] & A.
