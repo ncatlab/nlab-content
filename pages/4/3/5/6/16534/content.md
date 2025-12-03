@@ -92,6 +92,11 @@ For [[M-branes]]:
 
 * Sergey A. Cherkis, _Supergravity Solution for M5-brane Intersection_ ([arXiv:hep-th/9906203](https://arxiv.org/abs/hep-th/9906203))
 
+For [[near horizon geometry]] of the form $AdS_k \times S^l \times S^m \times E^n$:
+
+* Harm Jan Boonstra, Bas Peeters, [[Kostas Skenderis]]: *Brane intersections, anti-de Sitter space-times and dual superconformal theories*, Nuclear Physics B **533** 1–3  (1998) 127-162 \[<a href="https://doi.org/10.1016/S0550-3213(98)00512-4">doi:10.1016/S0550-3213(98)00512-4</a>, [arXiv:hep-th/9803231](https://arxiv.org/abs/hep-th/9803231)\]
+
+
 ### Brane webs
  {#BraneWebs}
 
