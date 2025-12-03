@@ -83,6 +83,9 @@ On non-abelian ([[parafermion|parafermionic]] [[Majorana zero mode]]) [[defect]]
 
 * Enderalp Yakaboylu, Thomas L. Schmidt: *Topologically Charged Vortices at Superconductor-Quantum Hall Interfaces* \[<a href="https://arxiv.org/abs/2501.12908">arXiv:2501.12908</a>\]
 
+* Gustavo M. Yoshitome, Pedro R. S. Gomes: *Non-Abelian Zero Modes in Fractional Quantum Hall-Superconductor Heterostructure* \[<a href="https://arxiv.org/abs/2511.15547">arXiv:2511.15547</a>\]
+
+
 
 
 
