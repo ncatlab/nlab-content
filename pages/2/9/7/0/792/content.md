@@ -164,6 +164,12 @@ Comprehensive discussion in [[higher differential geometry]]:
 
 * [[Luigi Alfonsi]], _The puzzle of global Double Field Theory: open problems and the case for a Higher Kaluza-Klein perspective_ ([arXiv:2007.04969](https://arxiv.org/abs/2007.04969))
 
+See also:
+
+* Ashwin S. Pande: *On Higher Topological T-duality Functors* &lbrack;[arXiv:2402.12039](https://arxiv.org/abs/2402.12039)&rbrack;
+
+
+
 ### Equivariant refinement
 
 Discussion in the [[equivariant cohomology|equivariant]] generality, ie. as an equivalence of [[twisted equivariant K-theory]] groups:
