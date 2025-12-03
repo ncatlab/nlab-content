@@ -1,6 +1,10 @@
 Welcome on my personal webpage at the nlab.
 
-# Position {#position}
+* [personal page](https://webusers.imj-prg.fr/~frederic.paugam/parts-en/index.html)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=74134)
+
+## Position {#position}
 
 I am currently ma&#238;tre de conf&#233;rence (assistant professor) of
 [University Paris 6](http://www.upmc.fr/) at
@@ -9,7 +13,7 @@ in the
 [Algebraic analysis group](https://www.imj-prg.fr/aa/).
 
 
-# Research {#myresearch}
+## Research {#myresearch}
 
 I have two main domains of interest:
 
@@ -29,7 +33,7 @@ and at [[global analytic geometry]].
 
 I think that the combination of the three above tools may be quite useful to better understand the geometric meaning of functional symmetries.
 
-# Webpage {#contact} 
+## Webpage {#contact} 
 
 You can find further informations on me (publications, preprints, etc...) on my
 [academic webpage](http://www.imj-prg.fr/~frederic.paugam/parts-en/index.html).
