@@ -125,6 +125,8 @@ See also
 
 * Yoav Zigdon: *A Charge Constraint in BMN* &lbrack;[arXiv:2506.19924](https://arxiv.org/abs/2506.19924)&rbrack;
 
+* Adwait Gaikwad, Tanay Kibe, Sam van Leuven, Kayleigh Mathieson: *To gauge or to double gauge? Matrix models, global symmetry, and black hole cohomologies* &lbrack;[arXiv:2512.02103](https://arxiv.org/abs/2512.02103)&rbrack;
+
 
 
 
