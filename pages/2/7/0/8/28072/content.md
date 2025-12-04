@@ -48,6 +48,18 @@ $$
 
 ([Hatcher 17, Prop. 3.13 c](#Hatcher17))
 
+\begin{proposition}
+A principal SO(5)-bundle $P$ fulfills:
+$$
+e(P)
+=W_5(P)
+=\beta w_4(P).
+$$
+with the fifth [[integral Stiefel-Whitney class]] and the [[Bockstein homomorphism]] $\beta\colon H^4(M,\mathbb{Z}_2)\rightarrow H^5(M,\mathbb{Z})$ of the [[short exact sequence]] $0\rightarrow\mathbb{Z}\hookrightarrow\mathbb{Z}\twoheadrightarrow\mathbb{Z}_2\rightarrow 0$. (In general, a principal $SO(2n+1)$-bundle $P$ fulfills $e(P)=W_{2n+1}(P)=\beta w_{2n}(P)$.)
+\end{proposition}
+
+([Hatcher 17, Ch. 3, Ex. 3](#Hatcher17))
+
 ## Liftings
 
 \begin{proposition}
