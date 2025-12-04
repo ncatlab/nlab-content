@@ -287,9 +287,9 @@ On how to understand long-[[wavelength]] [[quantum fluctuation|fluctuations]] pr
 
 \linebreak
 
-Reviews recent constructions of different non-[[Lorentzian geometry|Lorentzian]] [[supergravity]] theories in various [[dimension]]s:
+On [non-relativistic supergravity](supergravity#ReferencesNonRelativisticSupergravity) in various [[dimensions]]:
 
-* [[Eric Bergshoeff|Eric A. Bergshoeff]], Jan Rosseel, *Non-Lorentzian Supergravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.02604](https://arxiv.org/abs/2211.02604)&rbrack;
+* [[Eric A. Bergshoeff]], [[Jan Rosseel]]: *Non-Lorentzian Supergravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2024) &lbrack;[arXiv:2211.02604](https://arxiv.org/abs/2211.02604), [doi:](https://doi.org/10.1007/978-981-99-7681-2_52)&rbrack;
 
 \linebreak
 
