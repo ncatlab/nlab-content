@@ -33,6 +33,9 @@ On [[super-Cartan geometry]]:
 
 * [[Jordan François]], [[Lucrezia Ravera]], *Cartan geometry, supergravity, and group manifold approach* &lbrack;[arXiv:2402.11376](https://arxiv.org/abs/2402.11376)&rbrack;
 
+On [non-relativistic supergravity](supergravity#ReferencesNonRelativisticSupergravity):
+
+* Patrick Concha, [[Lucrezia Ravera]]: *Non-Lorentzian Supergravity and Kinematical Superalgebras*, JHEP 03 (2025) 032 &lbrack;[arXiv:2412.07665](https://arxiv.org/abs/2412.07665)&rbrack;
 
 
 
