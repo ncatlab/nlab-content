@@ -92,7 +92,7 @@ Identification of the long-[[wavelength]] limit of the [GMP mode](Laughlin+wavef
 * Yuzhu Wang, Bo Yang: *Geometric Fluctuation of Conformal Hilbert Spaces and Multiple Graviton Modes in Fractional Quantum Hall Effect*, Nat. Commun. **14** 2317 (2023) \[<a href="https://doi.org/10.1038/s41467-023-38036-0">doi:10.1038/s41467-023-38036-0</a>, [arXiv:2201.00020](https://arxiv.org/abs/2201.00020)\]
   > ([[gravitino]] on p. 8)
 
-and explicit embedding of these phenomena into ([[relativistic field theory|non-relativistic]]) [[supergravity]]:
+and explicit embedding of these phenomena into ([non-relativistic](supergravity#ReferencesNonRelativisticSupergravity)) [[supergravity]]:
 
 * Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
 
