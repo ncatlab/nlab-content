@@ -35,9 +35,6 @@ further discussed in:
 * {#PuBalramFremlingGromovPapić23} Songyang Pu, [[Ajit C. Balram]], Mikael Fremling, [[Andrey Gromov]], Zlatko Papić: *Signatures of Supersymmetry in the $\nu = 5/2$ Fractional Quantum Hall Effect*, Phys. Rev. Lett. **130** (2023) 176501 \[<a href="https://doi.org/10.1103/PhysRevLett.130.176501">doi:10.1103/PhysRevLett.130.176501</a>, [arXiv:2301.04169](https://arxiv.org/abs/2301.04169)\]
   > "Our results suggest that the SUSY structure is intrinsically present in spectral properties of the $\nu = 5/2$ state"
 
-* Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
-  > (proposal for a [[supergravity]] formulation)
-
 
 * {#LiuZhaoXiang24} Yang Liu, Tongzhou Zhao, T. Xiang: *Resolving Geometric Excitations of Fractional Quantum Hall States*, Phys. Rev. B **110** 195137 (2024) \[<a href="https://arxiv.org/abs/2406.11195">arXiv:2406.11195</a>, <a href=" https://doi.org/10.1103/PhysRevB.110.195137">doi:10.1103/PhysRevB.110.195137</a>\]
   > "Our findings support the hypothesis of emergent supersymmetry and highlight the potential for detecting neutral fermions in future experiments."
@@ -55,6 +52,24 @@ See also:
 * Eran Sagi, Raul A. Santos: *Supersymmetry in the Fractional Quantum Hall Regime*,  	Phys. Rev. B **95** 205144 (2017) \[<a href="https://doi.org/10.1103/PhysRevB.95.205144">doi:10.1103/PhysRevB.95.205144</a>, [arXiv:1610.07627](https://arxiv.org/abs/1610.07627)\]
 
 * Jin-Beom Bae, Sungjay Lee, section 5 of: *Emergent Supersymmetry on the Edges*, SciPost Phys. **11** 091 (2021) \[<a href="https://doi.org/10.21468/SciPostPhys.11.5.091">doi:10.21468/SciPostPhys.11.5.091</a>, [arXiv:2105.02148](https://arxiv.org/abs/2105.02148)\]
+
+Identification of the long-[[wavelength]] limit of the [GMP mode](Laughlin+wavefunction#GMPExcitationsOfLaughlinStates) and its [[superpartner]] with an effective [[graviton]] and [[gravitino]] mode on [[Brillouin torus|momentum space]]:
+
+* [[Duncan Haldane]]: *Majorana Physics, Neutral Fermion modes, and a "Gravitino", in the Moore-Read Fractional Quantum Hall State*, talk at *Majorana Physics in Condensed Matter*, Ettiore Majorana Center, Erice Italy (July 12-18, 2013) $[$[pdf](https://haldane.scholar.princeton.edu/sites/g/files/toruqf2976/files/documents/erice.pdf)\]
+
+* Yuzhu Wang, Bo Yang: *Geometric Fluctuation of Conformal Hilbert Spaces and Multiple Graviton Modes in Fractional Quantum Hall Effect*, Nat. Commun. **14** 2317 (2023) \[<a href="https://doi.org/10.1038/s41467-023-38036-0">doi:10.1038/s41467-023-38036-0</a>, [arXiv:2201.00020](https://arxiv.org/abs/2201.00020)\]
+  > (gravitino on p. 8)
+
+and a proposal for an explicit embedding into [[supergravity]]:
+
+* Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
+
+See also:
+
+* Koyena Bose, Ajit C. Balram: *Dispersion of neutral collective modes in partonic fractional quantum Hall states and its applications to paired states of composite fermions*, Physical Review B **112** 3 (2025) \[<a href="https://doi.org/10.1103/p5sq-kczs">doi:10.1103/p5sq-kczs</a>, [arXiv:2502.02686](https://arxiv.org/abs/2502.02686)\]
+
+
+
 
 
 
