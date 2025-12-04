@@ -11,9 +11,9 @@ The density-wave excitations above the [[topological phase of matter|topological
 
 * [effective supergeometry](#ReferencesEffectiveFQHSupergeometry)
 
-and in the long-wavelength limit an 
+and in the long-wavelength limit are described by an
 
-* [effective supergravity](#ReferencesEffectiveFQHSupergravity).
+* [effective supergravity theory](#ReferencesEffectiveFQHSupergravity).
 
 
 
@@ -75,7 +75,7 @@ See also:
 
 Identification of the long-[[wavelength]] limit of the [GMP mode](Laughlin+wavefunction#GMPExcitationsOfLaughlinStates) and its [[superpartner]] with an effective (massive, chiral) [[graviton]] and [[gravitino]] mode (on [[Brillouin torus|momentum space]]):
 
-* [[F. Duncan M. Haldane]]: *Majorana Physics, Neutral Fermion modes, and a "Gravitino", in the Moore-Read Fractional Quantum Hall State*, talk at *Majorana Physics in Condensed Matter*, Ettiore Majorana Center, Erice Italy (July 12-18, 2013) $[$[pdf](https://haldane.scholar.princeton.edu/sites/g/files/toruqf2976/files/documents/erice.pdf)\]
+* [[F. Duncan M. Haldane]]: *Majorana Physics, Neutral Fermion modes, and a "Gravitino", in the Moore-Read Fractional Quantum Hall State*, talk at *Majorana Physics in Condensed Matter*, Ettore Majorana Center, Erice Italy (July 12-18, 2013) $[$[pdf](https://haldane.scholar.princeton.edu/sites/g/files/toruqf2976/files/documents/erice.pdf)\]
 
 * [[F. Duncan M. Haldane]]: *Geometrical Description of the Fractional Quantum Hall Effect*, Phys. Rev. Lett. **123**  (2019) 146801 \[<a href="https://doi.org/10.1103/PhysRevLett.107.116801">doi:10.1103/PhysRevLett.107.116801</a>, [arXiv:1904.12231](https://arxiv.org/abs/1904.12231)\]
 
@@ -96,7 +96,7 @@ and explicit embedding of these phenomena into ([[relativistic field theory|non-
 
 * Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
 
-* Yi-Hsien Du: *Chiral Graviton Theory of Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2509.04408v1">arXiv:2509.04408v1</a>\]
+* Yi-Hsien Du: *Chiral Graviton Theory of Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2509.04408">arXiv:2509.04408</a>\]
   > (generalization to non-abelian Read-Rezayi states)
 
 
