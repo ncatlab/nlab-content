@@ -196,7 +196,7 @@ refinement of the topos $\mathcal{Z}$ designed such that in the [[internal logic
 
 $\mathcal{B} := Sh_{fin-open/proj}(\mathbb{L})$ is the [[category of sheaves]] on the [[site]] $\mathbb{L}$ of [[smooth locus|smooth loci]] with [[cover]]ing [[sieve]]s given by 
 
-* finite open covers as above for $\mathbb{Z}$
+* finite open covers as above for $\mathcal{Z}$
 
 * and in addition letting projections $\ell A \times \ell B \to \ell A$ out of [[product]]s in $\mathbb{L}$ (for $B \neq 0 $ if $A \neq 0$) be singleton covers.
 
