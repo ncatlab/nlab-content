@@ -1174,10 +1174,12 @@ Introductions and lecture notes:
 
 * {#Blau} [[Matthias Blau]], _Symplectic geometry and geometric quantization_ ([[BlauGeometricQuantization.pdf:file]])
  
-
 * {#Lerman} [[Eugene Lerman]], _Geometric quantization; a crash course_ ([arXiv:1206.2334](http://arxiv.org/abs/1206.2334))
 
 * Andrea Carosso: *Geometric Quantization* &lbrack;[arXiv:1801.02307](https://arxiv.org/abs/1801.02307)&rbrack;
+
+* Kadri İlker Berktav, Burak Oğuz, Ömer Önder, Yunus Emre Sargut, Başar Deniz Sevinç, Deniz Nazif Taştan: *A Mathematical Introduction to Geometric Quantization* &lbrack;[arXiv:2512.03171](https://arxiv.org/abs/2512.03171)&rbrack;
+
  
 
 Lecture notes with an emphasis on [[semiclassical states]]:
