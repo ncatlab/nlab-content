@@ -51,6 +51,8 @@ On excitations of [[fractional quantum Hall systems]] possibly identified as eff
 
 * [[Duncan Haldane]]: *Majorana Physics, Neutral Fermion modes, and a "Gravitino", in the Moore-Read Fractional Quantum Hall State*, talk at *Majorana Physics in Condensed Matter*, Ettiore Majorana Center, Erice Italy (July 12-18, 2013) $[$[pdf](https://haldane.scholar.princeton.edu/sites/g/files/toruqf2976/files/documents/erice.pdf)\]
 
+* Shiuan-Fan Liou, [[F. Duncan M. Haldane]], Kun Yang, [[Edward H. Rezayi]]: *Chiral Gravitons in Fractional Quantum Hall Liquids*, Phys. Rev. Lett. **123** 146801 (2019) \[<a href="https://doi.org/10.1103/PhysRevLett.123.146801">doi:PhysRevLett.123.146801</a>, [arXiv:1904.12231](https://arxiv.org/abs/1904.12231)\]
+
 
 
 On the [[fractional quantum Hall effect]]:
