@@ -52,6 +52,18 @@ $$
 
 ([Hatcher 17, Prop. 3.13 c](#Hatcher17))
 
+\begin{proposition}
+A principal SO(7)-bundle $P$ fulfills:
+$$
+e(P)
+=W_7(P)
+=\beta w_6(P).
+$$
+with the fifth [[integral Stiefel-Whitney class]] and the [[Bockstein homomorphism]] $\beta\colon H^6(M,\mathbb{Z}_2)\rightarrow H^7(M,\mathbb{Z})$ of the [[short exact sequence]] $0\rightarrow\mathbb{Z}\hookrightarrow\mathbb{Z}\twoheadrightarrow\mathbb{Z}_2\rightarrow 0$. (In general, a principal $SO(2n+1)$-bundle $P$ fulfills $e(P)=\beta w_{2n}(P)$.)
+\end{proposition}
+
+([Hatcher 17, Ch. 3, Ex. 3](#Hatcher17))
+
 ## Examples
 
 * One has $S^n\cong SO(n+1)/SO(n)$, hence there is a principal SO(7)-bundle $SO(8)\twoheadrightarrow S^7$. Such [[principal bundles]] are classified by:
