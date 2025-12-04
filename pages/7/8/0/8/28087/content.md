@@ -8,7 +8,7 @@
 
 ## Selected writings
 
-On non-[[relativistic field theory|relativistic]] supergravity:
+On [non-relativistic](supergravity#ReferencesNonRelativisticSupergravity) [[supergravity]]:
 
 * Roel Andringa, [[Eric A. Bergshoeff]], [[Jan Rosseel]], [[Ergin Sezgin]]: *Newton-Cartan Supergravity*, Classical and Quantum Gravity **30** 20 (2013) &lbrack;[doi:10.1088/0264-9381/30/20/205005](https://doi.org/10.1088/0264-9381/30/20/205005), [arXiv:1305.6737](https://arxiv.org/abs/1305.6737)&rbrack;
 
