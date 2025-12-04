@@ -2,10 +2,24 @@
 ### Supersymmetry in fractional quantum Hall systems
  {#ReferencesSupersymmetryInFractionalQuantumHall}
 
-
-On hidden/emergent [[supersymmetry]] in [[fractional quantum Hall systems]] (cf. *[SuSy between Laughlin and Moore-Read states](Laughlin+wavefunction#SupersymmetryBetweenLaughlinAndMooreReadStates)*):
+On hidden/emergent [[supersymmetry]] in [[fractional quantum Hall systems]] (cf. *[SuSy between Laughlin and Moore-Read states](Laughlin+wavefunction#SupersymmetryBetweenLaughlinAndMooreReadStates)*).
 
 > (for a similar phenomenon cf. also *[[hadron supersymmetry]]*)
+
+
+The density-wave excitations above the [[topological phase of matter|topological]] [[ground state]] of 2D [[electron]] gases in [[fractional quantum Hall systems]] exhibit an
+
+* [effective supergeometry](#ReferencesEffectiveFQHSupergeometry)
+
+and in the long-wavelength limit an 
+
+* [effective supergravity](#ReferencesEffectiveFQHSupergravity).
+
+
+
+#### Effective FQH Supergeometry
+ {#ReferencesEffectiveFQHSupergeometry}
+
 
 The use of [[supergeometry]] in the description of [[fractional quantum Hall systems]], and the observation that the [[Moore-Read state]] is the top [[super field]]-component of a super-[[Laughlin wavefunction]] (see [there](Laughlin+wavefunction#SupersymmetryBetweenLaughlinAndMooreReadStates)) was promoted in:
 
@@ -39,6 +53,8 @@ further discussed in:
 * {#LiuZhaoXiang24} Yang Liu, Tongzhou Zhao, T. Xiang: *Resolving Geometric Excitations of Fractional Quantum Hall States*, Phys. Rev. B **110** 195137 (2024) \[<a href="https://arxiv.org/abs/2406.11195">arXiv:2406.11195</a>, <a href=" https://doi.org/10.1103/PhysRevB.110.195137">doi:10.1103/PhysRevB.110.195137</a>\]
   > "Our findings support the hypothesis of emergent supersymmetry and highlight the potential for detecting neutral fermions in future experiments."
 
+* Koyena Bose, [[Ajit C. Balram]]: *Dispersion of neutral collective modes in partonic fractional quantum Hall states and its applications to paired states of composite fermions*, Physical Review B **112** 3 (2025) \[<a href="https://doi.org/10.1103/p5sq-kczs">doi:10.1103/p5sq-kczs</a>, [arXiv:2502.02686](https://arxiv.org/abs/2502.02686)\]
+
 
 See also:
 
@@ -53,20 +69,36 @@ See also:
 
 * Jin-Beom Bae, Sungjay Lee, section 5 of: *Emergent Supersymmetry on the Edges*, SciPost Phys. **11** 091 (2021) \[<a href="https://doi.org/10.21468/SciPostPhys.11.5.091">doi:10.21468/SciPostPhys.11.5.091</a>, [arXiv:2105.02148](https://arxiv.org/abs/2105.02148)\]
 
-Identification of the long-[[wavelength]] limit of the [GMP mode](Laughlin+wavefunction#GMPExcitationsOfLaughlinStates) and its [[superpartner]] with an effective [[graviton]] and [[gravitino]] mode on [[Brillouin torus|momentum space]]:
 
-* [[Duncan Haldane]]: *Majorana Physics, Neutral Fermion modes, and a "Gravitino", in the Moore-Read Fractional Quantum Hall State*, talk at *Majorana Physics in Condensed Matter*, Ettiore Majorana Center, Erice Italy (July 12-18, 2013) $[$[pdf](https://haldane.scholar.princeton.edu/sites/g/files/toruqf2976/files/documents/erice.pdf)\]
+#### Effective FQH Supergravity
+ {#ReferencesEffectiveFQHSupergravity}
+
+Identification of the long-[[wavelength]] limit of the [GMP mode](Laughlin+wavefunction#GMPExcitationsOfLaughlinStates) and its [[superpartner]] with an effective (massive, chiral) [[graviton]] and [[gravitino]] mode (on [[Brillouin torus|momentum space]]):
+
+* [[F. Duncan M. Haldane]]: *Majorana Physics, Neutral Fermion modes, and a "Gravitino", in the Moore-Read Fractional Quantum Hall State*, talk at *Majorana Physics in Condensed Matter*, Ettiore Majorana Center, Erice Italy (July 12-18, 2013) $[$[pdf](https://haldane.scholar.princeton.edu/sites/g/files/toruqf2976/files/documents/erice.pdf)\]
+
+* [[F. Duncan M. Haldane]]: *Geometrical Description of the Fractional Quantum Hall Effect*, Phys. Rev. Lett. **123**  (2019) 146801 \[<a href="https://doi.org/10.1103/PhysRevLett.107.116801">doi:10.1103/PhysRevLett.107.116801</a>, [arXiv:1904.12231](https://arxiv.org/abs/1904.12231)\]
+
+* Shiuan-Fan Liou, [[F. Duncan M. Haldane]], Kun Yang, [[Edward H. Rezayi]]: *Chiral Gravitons in Fractional Quantum Hall Liquids*, Phys. Rev. Lett. **123** 146801 (2019) \[<a href="https://doi.org/10.1103/PhysRevLett.123.146801">doi:PhysRevLett.123.146801</a>, [arXiv:1904.12231](https://arxiv.org/abs/1904.12231)\]
+  > (effective [[gravitational waves]])
+
+* Wang Yuzhu: *Graviton Modes in Fractional Quantum HallLiquids*, PhD thesis, Nanyang TU (2023) \[<a href="https://hdl.handle.net/10356/165156">hndl:10356/165156</a>, <a href="https://dr.ntu.edu.sg/server/api/core/bitstreams/41f1a8f4-aca1-4d37-a68d-0d56e4811d5e/content">pdf</a>\]
+
+* J. Liang et al.: *Evidence for chiral graviton modes in fractional quantum Hall liquids*, Nature **628** (2024) 78–83 \[<a href=" https://doi.org/10.1038/s41586-024-07201-w">doi:10.1038/s41586-024-07201-w</a>\]
+  > (experimental detection of the "[[graviton]]" mode)
+
+* [[Ajit C. Balram]], G. J. Sreejith, [[Jainendra K. Jain]]: *Splitting of Girvin-MacDonald-Platzman density wave and the nature of chiral gravitons in fractional quantum Hall effect*, Phys. Rev. Lett. **133** (2024) 246605 \[<a href="https://doi.org/10.1103/PhysRevLett.133.246605">doi:10.1103/PhysRevLett.133.246605</a>, [arXiv:2406.02730](https://arxiv.org/abs/2406.02730)\]
 
 * Yuzhu Wang, Bo Yang: *Geometric Fluctuation of Conformal Hilbert Spaces and Multiple Graviton Modes in Fractional Quantum Hall Effect*, Nat. Commun. **14** 2317 (2023) \[<a href="https://doi.org/10.1038/s41467-023-38036-0">doi:10.1038/s41467-023-38036-0</a>, [arXiv:2201.00020](https://arxiv.org/abs/2201.00020)\]
-  > (gravitino on p. 8)
+  > ([[gravitino]] on p. 8)
 
-and a proposal for an explicit embedding into [[supergravity]]:
+and explicit embedding of these phenomena into ([[relativistic field theory|non-relativistic]]) [[supergravity]]:
 
 * Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
 
-See also:
+* Yi-Hsien Du: *Chiral Graviton Theory of Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2509.04408v1">arXiv:2509.04408v1</a>\]
+  > (generalization to non-abelian Read-Rezayi states)
 
-* Koyena Bose, Ajit C. Balram: *Dispersion of neutral collective modes in partonic fractional quantum Hall states and its applications to paired states of composite fermions*, Physical Review B **112** 3 (2025) \[<a href="https://doi.org/10.1103/p5sq-kczs">doi:10.1103/p5sq-kczs</a>, [arXiv:2502.02686](https://arxiv.org/abs/2502.02686)\]
 
 
 
