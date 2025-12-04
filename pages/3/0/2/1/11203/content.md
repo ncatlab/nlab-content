@@ -212,6 +212,11 @@ On [[semiconductor doping|doping]] of [[semiconductors]] to become superconducti
 
 
 
+[[!include superconducting islands in FQH systems -- references]]
+
+
+
+
 [[!redirects superconductor]]
 [[!redirects superconductors]]
 
