@@ -31,7 +31,7 @@ Principal SO(3)-bundles also induce [[principal SO(2)-bundles]] and are induced 
 
 Principal SO(3)-bundles also arise from any principal $G$-bundle with a three-dimensional real [[Lie group]] $G$ using its [[adjoint representation]] $Ad\colon G\rightarrow SL_3(\mathbb{R})$, which induces a map $\mathcal{B}Ad\colon\mathcal{B}G\rightarrow B SO(3)$.
 
-## Properties
+## Characteristic classes
 
 \begin{proposition}
 A principal SO(3)-bundle $P$ fulfills:
@@ -42,7 +42,20 @@ $$
 (In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) mod 2$ for $2k\leq n$.)
 \end{proposition}
 
-([Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99))
+([Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
+
+\begin{proposition}
+A principal SO(3)-bundle $P$ fulfills:
+$$
+w_3(P)
+\equiv e(P) mod 2.
+$$
+(In general, a principal $SO(n)$-bundle $P$ fulfills $w_n(P)\equiv e(P) mod 2$.)
+\end{proposition}
+
+([Hatcher 17, Prop. 3.13 c](#Hatcher17))
+
+## Classification over 4-manifolds by characteristic classes
 
 \begin{proposition}
 Let $X$ be a [[4-manifold]]. Two principal SO(3)-bundles $P,Q\twoheadrightarrow X$ are isomorphic if and only if their second [[Stiefel-Whitney class]] and first [[Pontrjagin class]] are equal:
@@ -162,6 +175,7 @@ $$
 \cong\pi_2 SO(3)
 \cong 1.
 $$
+Hence the bundle is trivial and $SO(4)\cong SO(3)\times S^7$.
 
 ## Related concepts
 
@@ -181,7 +195,7 @@ Particular [[principal bundles]]:
 * [[principal SU(2)-bundle]] (principal Sp(1)-bundle, principal Spin(3)-bundle)
 * [[principal SU(3)-bundle]]
 * [[principal SU(4)-bundle]] (principal Spin(6)-bundle)
-* [[principal Sp(2)-bundle]]
+* [[principal Sp(2)-bundle]] (principal Spin(5)-bundle)
 
 ## References
 
@@ -197,6 +211,8 @@ Particular [[principal bundles]]:
 
 * {#GompfStipsicz99} [[Robert Gompf]] and [[András Stipsicz]], _4-Manifolds and Kirby Calculus_ (1999), Graduate Studies 
 in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/books/gsm/020), [doi:10.1090/gsm/020](https://www.ams.org/books/gsm/020)&rbrack;
+
+* {#Hatcher17} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
 * {#Lobb17} [[Andrew Lobb]], _The Dold-Whitney theorem and the Sato-Levine invariant_ (2017), &lbrack;[arxiv:1709.09922](https://arxiv.org/abs/1709.09922) [pdf](https://maths.dur.ac.uk/users/andrew.lobb/mod4slicing.pdf)&rbrack;
  
