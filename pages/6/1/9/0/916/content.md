@@ -165,6 +165,11 @@ An axiomatic treatment of such semirings may be found at the end of [Richman 201
 
 * {#Richman12} [[Fred Richman]], *Algebraic functions, calculus style*. Communications in Algebra, Volume 40, Issue 7, July 2012, Pages 2671-2683 &lbrack;[doi:10.1080/00927872.2011.584337](https://doi.org/10.1080/00927872.2011.584337)&rbrack;
 
+For an alternative to [[restriction categories]] as a category-theoretic framework for partial maps:
+
+* Marcello Lanfranchi, [[Jean-Simon Pacaud Lemay]], *Local categories: a new framework for partiality* &lbrack;[arXiv:2512.03371](https://arxiv.org/abs/2512.03371)&rbrack;
+
+
 
 [[!redirects partial function]]
 [[!redirects partial functions]]
