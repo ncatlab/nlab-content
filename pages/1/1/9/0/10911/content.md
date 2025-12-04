@@ -212,6 +212,9 @@ Further:
 
 * *The emergence of expanding space-time in the Lorentzian type IIB matrix model with a novel regularization* &lbrack;[arXiv:2307.01681](https://arxiv.org/abs/2307.01681)&rbrack;
 
+* Henry Liao, Reishi Maeta: *A New Type of Saddle in Euclidean IKKT Matrix Model and Its Effective Geometry* &lbrack;[arXiv:2512.03161](https://arxiv.org/abs/2512.03161)&rbrack;
+
+
 
 
 
