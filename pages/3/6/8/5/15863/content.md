@@ -75,7 +75,7 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 ##References
 
-* G. Bellin, _Categorical Proof Theory of Co-Intuitionistic Linear Logic_ , arXiv:1407.341 (2014). ([pdf](http://arxiv.org/pdf/1407.3416v1))
+* G. Bellin, _Categorical Proof Theory of Co-Intuitionistic Linear Logic_ , arXiv:1407.341 (2014). ([pdf](http://arxiv.org/pdf/1407.3416))
 
 * G. Bezhanishvili, N. Beshanishvili, D. Gelaia, A. Kurz, _Bitopological duality for distributive lattices and Heyting algebras_ , Math. Struc. Comp. Sci. **20** no.3 (2010) pp.359-393. ([preprint](http://www.cs.le.ac.uk/people/nb118/Publications/PairwiseStone.pdf))
 
