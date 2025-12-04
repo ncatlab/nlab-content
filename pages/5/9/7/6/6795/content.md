@@ -94,6 +94,13 @@ reviewed in
 
 * [[Henning Samtleben]], [[Ergin Sezgin]], Robert Wimmer, Linus Wulff, _New superconformal models in six dimensions: Gauge group and representation structure_, PoS CORFU2011 (2011) 071 ([arXiv:1204.0542](https://arxiv.org/abs/1204.0542), [spire:1102894](http://inspirehep.net/record/1102894))
 
+
+On non-[[relativistic field theory|relativistic]] [[supergravity]]:
+
+* Roel Andringa, [[Eric A. Bergshoeff]], [[Jan Rosseel]], [[Ergin Sezgin]]: *Newton-Cartan Supergravity*, Classical and Quantum Gravity **30** 20 (2013) &lbrack;[doi:10.1088/0264-9381/30/20/205005](https://doi.org/10.1088/0264-9381/30/20/205005), [arXiv:1305.6737](https://arxiv.org/abs/1305.6737)&rbrack;
+
+
+
 On [[E11]]-[[exceptional field theory|exceptional]] [[supergravity]]:
 
 * [[Guillaume Bossard]], [[Axel Kleinschmidt]], [[Jakob Palmkvist]], [[Christopher Pope]], [[Ergin Sezgin]], _Beyond $E_{11}$_, JHEP 05 (2017) 020 \[<a href="https://doi.org/10.1007/JHEP05(2017)020">doi:10.1007/JHEP05(2017)020</a>, [arXiv:1703.01305](https://arxiv.org/abs/1703.01305)\]
