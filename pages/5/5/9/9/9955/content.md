@@ -102,7 +102,7 @@ On [[defect branes]]:
 * {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], [[Fabio Riccioni]], _Defect Branes_, Nuclear Physics B **856** 2 (2012) 210-227 &lbrack;[arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037)&rbrack;
 
 
-On non-[[relativistic field theory|relativistic]] [[supergravity]]:
+On [non-relativistic](supergravity#ReferencesNonRelativisticSupergravity) [[supergravity]]:
 
 * Roel Andringa, [[Eric A. Bergshoeff]], [[Jan Rosseel]], [[Ergin Sezgin]]: *Newton-Cartan Supergravity*, Classical and Quantum Gravity **30** 20 (2013) &lbrack;[doi:10.1088/0264-9381/30/20/205005](https://doi.org/10.1088/0264-9381/30/20/205005), [arXiv:1305.6737](https://arxiv.org/abs/1305.6737)&rbrack;
 
