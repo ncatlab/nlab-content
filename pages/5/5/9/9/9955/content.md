@@ -1,5 +1,19 @@
 
-* [webpage](http://thep.housing.rug.nl/people/eric-bergshoeff)
+Eric Arnold Bergshoeff
+
+* [personal page](http://www.ericbergshoeff.nl/)
+
+* [institute page](https://research.rug.nl/en/persons/eric-bergshoeff/)
+
+* [Wikipedia entry](https://de.wikipedia.org/wiki/Eric_Bergshoeff) (de)
+
+* [Wikipedia entry](https://nl.wikipedia.org/wiki/Eric_Bergshoeff) (nl)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=120416&fChrono=1)
+
+* [inSpire page](https://inspirehep.net/authors/1016633)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=EnI1UGEAAAAJ&hl=nl)
 
 ## Selected writings
 
@@ -10,7 +24,6 @@ Introducing the [[Green-Schwarz sigma-model]]-type formulation of the [[super-me
 and on the early history of the development:
 
 * [[Eric A. Bergshoeff]], [[Ergin Sezgin]], [[Paul K. Townsend]]: *A brief history of supermembranes* \[<a href="https://arxiv.org/abs/2503.06234">arXiv:2503.06234</a>\]
-
 
 
 On the emergence of [[superconformal field theory]] in the perturbations of the [[super-membrane]] [[Green-Schwarz sigma model]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]]:
@@ -87,6 +100,16 @@ Relating the [[E10]] [[U-duality]] covariant [[sigma-model]] description of, hyp
 On [[defect branes]]:
 
 * {#BershoeffOrtinRiccioni11} [[Eric Bergshoeff]], [[Tomas Ortin]], [[Fabio Riccioni]], _Defect Branes_, Nuclear Physics B **856** 2 (2012) 210-227 &lbrack;[arXiv:1109.4484](https://arxiv.org/abs/1109.4484), [doi:10.1016/j.nuclphysb.2011.10.037](https://doi.org/10.1016/j.nuclphysb.2011.10.037)&rbrack;
+
+
+On non-[[relativistic field theory|relativistic]] [[supergravity]]:
+
+* Roel Andringa, [[Eric A. Bergshoeff]], [[Jan Rosseel]], [[Ergin Sezgin]]: *Newton-Cartan Supergravity*, Classical and Quantum Gravity **30** 20 (2013) &lbrack;[doi:10.1088/0264-9381/30/20/205005](https://doi.org/10.1088/0264-9381/30/20/205005), [arXiv:1305.6737](https://arxiv.org/abs/1305.6737)&rbrack;
+
+* [[Eric Bergshoeff]], [[Jan Rosseel]], Thomas Zojer: *Newton-Cartan (super)gravity as a non-relativistic limit*, Class. Quant. Grav. **32** (2015) 205003 &lbrack;[arXiv:1505.02095](https://arxiv.org/abs/1505.02095), [doi:10.1088/0264-9381/32/20/205003](https://doi.org/10.1088/0264-9381/32/20/205003)&rbrack;
+
+* [[Eric A. Bergshoeff]], [[Jan Rosseel]]: *Non-Lorentzian Supergravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2024) &lbrack;[arXiv:2211.02604](https://arxiv.org/abs/2211.02604), [doi:](https://doi.org/10.1007/978-981-99-7681-2_52)&rbrack;
+
 
 
 On [[black branes]]/[[solitonic branes|solitonic]] [[exotic branes]] and their [[double dimensional reduction]]:
