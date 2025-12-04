@@ -20,7 +20,7 @@
 
 *Principal SO(7)-bundles* are special [[principal bundles]] with the seventh [[special orthogonal group]] [[SO(7)]] as [[structure group]] ([[gauge group]]).
 
-## Properties
+## Characteristic classes
 
 \begin{proposition}
 A principal SO(7)-bundle $P$ fulfills:
@@ -39,7 +39,18 @@ $$
 (In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) mod 2$ for $2k\leq n$.)
 \end{proposition}
 
-([Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99))
+([Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
+
+\begin{proposition}
+A principal SO(7)-bundle $P$ fulfills:
+$$
+w_7(P)
+\equiv e(P) mod 2.
+$$
+(In general, a principal $SO(n)$-bundle $P$ fulfills $w_n(P)\equiv e(P) mod 2$.)
+\end{proposition}
+
+([Hatcher 17, Prop. 3.13 c](#Hatcher17))
 
 ## Examples
 
@@ -75,6 +86,8 @@ Particular [[principal bundles]]:
 
 * {#GompfStipsicz99} [[Robert Gompf]] and [[András Stipsicz]], _4-Manifolds and Kirby Calculus_ (1999), Graduate Studies 
 in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/books/gsm/020), [doi:10.1090/gsm/020](https://www.ams.org/books/gsm/020)&rbrack;
+
+* {#Hatcher17} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
 [[!redirects principal SO(7)-bundles]]
 [[!redirects SO(7)-principal bundle]]
