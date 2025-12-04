@@ -37,6 +37,8 @@ See also:
 
 * [[Luis F. Alday]], [[Shai M. Chester]], *Pure anti-de Sitter supergravity and the conformal bootstrap* &lbrack;[arXiv:2207.05085](https://arxiv.org/abs/2207.05085)&rbrack;
 
+* [[Shai M. Chester]], Rishi Mouland, Jesse van Muiden, Clément Virally: *Extremal couplings and gluon scattering in M-theory* &lbrack;[arXiv:2512.04057](https://arxiv.org/abs/2512.04057)&rbrack;
+
 
 Application of [[conformal bootstrap]] to [[experiment|experimental]] [[superfluid]]-transition:
 
