@@ -55,6 +55,18 @@ $$
 
 ([Hatcher 17, Prop. 3.13 c](#Hatcher17))
 
+\begin{proposition}
+A principal SO(3)-bundle $P$ fulfills:
+$$
+e(P)
+=W_3(P)
+=\beta w_2(P).
+$$
+with the third [[integral Stiefel-Whitney class]] and the [[Bockstein homomorphism]] $\beta\colon H^2(M,\mathbb{Z}_2)\rightarrow H^3(M,\mathbb{Z})$ of the [[short exact sequence]] $0\rightarrow\mathbb{Z}\hookrightarrow\mathbb{Z}\twoheadrightarrow\mathbb{Z}_2\rightarrow 0$. (In general, a principal $SO(2n+1)$-bundle $P$ fulfills $e(P)=W_{2n+1}(P)=\beta w_{2n}(P)$.)
+\end{proposition}
+
+([Hatcher 17, Ch. 3, Ex. 3](#Hatcher17))
+
 ## Classification over 4-manifolds by characteristic classes
 
 \begin{proposition}
