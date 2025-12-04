@@ -40,6 +40,12 @@ On the [[fractional quantum Hall effect]]:
 
 * {#HalperinJain20} [[Bertrand I. Halperin]], [[Jainendra K. Jain]] (eds.): *Fractional Quantum Hall Effects -- New Developments*, World Scientific (2020) \[<a href="https://doi.org/10.1142/11751">doi:10.1142/11751</a>\]
 
+
+On the [[graviton]]-like excitation of [[FQH systems]] (cf. *[effective supersymemtry in FQH systems](supersymmetry+in+fractional+quantum+Hall+systems+--+references)*):
+
+* [[Ajit C. Balram]], G. J. Sreejith, [[Jainendra K. Jain]]: *Splitting of Girvin-MacDonald-Platzman density wave and the nature of chiral gravitons in fractional quantum Hall effect*, Phys. Rev. Lett. **133** (2024) 246605 \[<a href="https://doi.org/10.1103/PhysRevLett.133.246605">doi:10.1103/PhysRevLett.133.246605</a>, [arXiv:2406.02730](https://arxiv.org/abs/2406.02730)\]
+
+
 On [[bound states]] of [[anyons]] in [[fractional quantum Hall systems]]:
 
 * Mytraya Gattu, [[Jainendra K. Jain]]: *Molecular anyons in fractional quantum Hall effect* \[<a href="https://arxiv.org/abs/2505.22782">arXiv:2505.22782</a>\]
