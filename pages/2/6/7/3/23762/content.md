@@ -47,6 +47,11 @@ Explicit computation of [[quantum adiabatic theorem|adiabatic]] [[braiding]] of 
 
 * {#ProdanHaldan09} [[Emil Prodan]], [[F. Duncan Haldane]]: *Mapping the braiding properties of the Moore-Read state*, Phys. Rev. B **80** (2009) 115121 &lbrack;[doi:10.1103/PhysRevB.80.115121](https://doi.org/10.1103/PhysRevB.80.115121)&rbrack;
 
+On excitations of [[fractional quantum Hall systems]] possibly identified as effective [[gravitons]] and [[gravitinos]] (cf. *[Supersymmetry in FQH systems](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall)*):
+
+* [[Duncan Haldane]]: *Majorana Physics, Neutral Fermion modes, and a "Gravitino", in the Moore-Read Fractional Quantum Hall State*, talk at *Majorana Physics in Condensed Matter*, Ettiore Majorana Center, Erice Italy (July 12-18, 2013) $[$[pdf](https://haldane.scholar.princeton.edu/sites/g/files/toruqf2976/files/documents/erice.pdf)\]
+
+
 
 On the [[fractional quantum Hall effect]]:
 
