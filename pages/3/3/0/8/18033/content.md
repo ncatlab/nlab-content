@@ -148,8 +148,14 @@ Specifically for the [[D=3 SCFT]] ([[BLG-model]], [[ABJM model]]) on the [[M2-br
 * [[Shai M. Chester]], [[Silviu S. Pufu]], Yifan Wang, Xi Yin: *Bootstrapping M-theory Orbifolds* &lbrack;[arXiv:2312.13112](https://arxiv.org/abs/2312.13112)&rbrack;
 
 
-
 * [[Shai M. Chester]], Ross Dempsey, [[Silviu S. Pufu]]: *Higher-derivative corrections in M-theory from precision numerical bootstrap* &lbrack;[arXiv:2412.14094](https://arxiv.org/abs/2412.14094)&rbrack;
+
+See also:
+
+* [[Shai M. Chester]], Rishi Mouland, Jesse van Muiden, Clément Virally: *Extremal couplings and gluon scattering in M-theory* &lbrack;[arXiv:2512.04057](https://arxiv.org/abs/2512.04057)&rbrack;
+
+
+
 
 
 [[!redirects conformal bootstrap program]]
