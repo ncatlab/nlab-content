@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -40,7 +39,7 @@ $$
   DiGrph
 $$
 
-(Incidentally, the [[forgetful functor]] $F \,\colon\,Cat^{strct}_{smll} \longrightarrow Grpd^{strct}_{smll}$ also has a [[right adjoint]], known as the *[[core]]*-construction).
+(Incidentally, the [[forgetful functor]] $U_{Grpd} \,\colon\, Grpd^{strct}_{smll} \longrightarrow Cat^{strct}_{smll}$ also has a [[right adjoint]], known as the *[[core]]*-construction).
 
 
 ## Definition
