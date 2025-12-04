@@ -35,7 +35,7 @@ The use of [[supergeometry]] in the description of [[fractional quantum Hall sys
 
 * [[Kazuki Hasebe]]: *Supersymmetric Quantum Spin Model and Quantum Hall Effect*, Soryushiron Kenkyu Electronics **117** 6 (2010) F59- \[<a href="https://doi.org/10.24532/soken.117.6_F59">doi:10.24532/soken.117.6_F59</a>, [spire:1687527](https://inspirehep.net/literature/1687527)\]
 
-Based on this, the proposal that also the "magentoroton" and the "neutral fermion" excitations of the $\nu = 5/2$ Moore&Read-state should be [[superpartners]] of each other, is due to:
+Based on this, the proposal that also the "magnetoroton" and the "neutral fermion" excitations of the $\nu = 5/2$ Moore&Read-state should be [[superpartners]] of each other, is due to:
 
 * {#GromovMartinecRyu20} [[Andrey Gromov]], [[Emil J. Martinec]], [[Shinsei Ryu]]: *Collective excitations at filling factor $5/2$: The view from superspace*, Phys. Rev. Lett. **125** (2020) 077601 \[<a href="https://doi.org/10.1103/PhysRevLett.125.077601">doi:10.1103/PhysRevLett.125.077601</a>, [arXiv:1909.06384](https://arxiv.org/abs/1909.06384)\]
   > (via [[superspace]] formulation)
