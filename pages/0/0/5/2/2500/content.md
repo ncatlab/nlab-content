@@ -18,12 +18,8 @@
 =--
 
 
+\tableofcontents
 
-
-
-#Contents#
-* table of contents
-{:toc}
 
 ## Idea
 
@@ -424,6 +420,10 @@ Lecture notes:
 
 * [[Joachim Gomis]], _Three lectures on Supergravity_ ([pdf slides](http://www.fis.puc.cl/~jalfaro/supergravity/Three%20Lectures%20on%20Supergravity.pdf))
 
+On [[Chern-Simons gravity]]-style action functionals for supergravity:
+
+* {#Zanelli} [[Jorge Zanelli]], _Lecture notes on Chern-Simons (super-)gravities_ &lbrack;[arXiv:0502193](http://arxiv.org/abs/hep-th/0502193)&rbrack;
+
 
 
 Further surveys:
@@ -433,9 +433,9 @@ Further surveys:
 
 A fair bit of detail on [[supersymmetry]] and on supergravity is in 
 
-* [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+* [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D. R. Morrison, [[Edward Witten|E. Witten]], eds.  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
-The original article that introduced the [[D'Auria-Fre formulation of supergravity]] is
+The original article that introduced the [[D'Auria-Fre formulation of supergravity]]:
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
 
@@ -468,10 +468,7 @@ An [[S-matrix]] perspective:
 
 * Tony Gherghetta, Wenqi Ke: *Supergravity from the Bottom Up* &lbrack;[arXiv:2507.12538](https://arxiv.org/abs/2507.12538)&rbrack;
 
-
-
-
-### Renormalization
+On [[renormalization]] of supergravity:
 
 * S. Deser, J.H. Kay, K.S. Stelle, _Renormalizability Properties of Supergravity_, Phys Rev Lett 38, 527 (1977) (reproduced as [arXiv:1506.03757](http://arxiv.org/abs/1506.03757))
 
@@ -479,7 +476,9 @@ An [[S-matrix]] perspective:
 ### U-duality
  {#UDualityReferences}
 
-Some basic facts are recalled in
+On [[U-duality]] of supergravity compactifications:
+
+Some basic facts:
 
 * [[Jacques Distler]], _Split real forms_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001213.html)).
 
@@ -533,16 +532,28 @@ General discussion of the [[Kac-Moody groups]] arising in this context is for in
 
 * Philipp Fleig, [[Axel Kleinschmidt]], _Eisenstein series for infinite-dimensional U-duality groups_ ([arXiv:1204.3043](http://arxiv.org/abs/1204.3043))
 
-### Gauged supergravity
 
-* Natxo Alonso-Alberca; and Tom&#225;as Ort&#237;n, _Gauged/Massive supergravities in diverse dimensions_ ([pdf](http://digital.csic.es/bitstream/10261/38952/1/ARTICULOS302400%5B1%5D.pdf))
+### Non-relativistic supergravity
+ {#ReferencesNonRelativisticSupergravity}
 
-### Chern-Simons supergravity
+On non-[[relativistic field theory|relativistic]] supergravity:
 
-A survey of the [[Chern-Simons gravity]]-style action functionals for supergravity is in
+* Roel Andringa, [[Eric A. Bergshoeff]], [[Jan Rosseel]], [[Ergin Sezgin]]: *Newton-Cartan Supergravity*, Classical and Quantum Gravity **30** 20 (2013) &lbrack;[doi:10.1088/0264-9381/30/20/205005](https://doi.org/10.1088/0264-9381/30/20/205005), [arXiv:1305.6737](https://arxiv.org/abs/1305.6737)&rbrack;
 
-* [[Jorge Zanelli]], _Lecture notes on Chern-Simons (super-)gravities_ ([arXiv:0502193](http://arxiv.org/abs/hep-th/0502193))
-{#Zanelli}
+* [[Eric Bergshoeff]], [[Jan Rosseel]], Thomas Zojer: *Newton-Cartan (super)gravity as a non-relativistic limit*, Class. Quant. Grav. **32** (2015) 205003 &lbrack;[arXiv:1505.02095](https://arxiv.org/abs/1505.02095), [doi:10.1088/0264-9381/32/20/205003](https://doi.org/10.1088/0264-9381/32/20/205003)&rbrack;
+
+* [[Eric A. Bergshoeff]], [[Jan Rosseel]]: *Non-Lorentzian Supergravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2024) &lbrack;[arXiv:2211.02604](https://arxiv.org/abs/2211.02604), [doi:10.1007/978-981-99-7681-2_52](https://doi.org/10.1007/978-981-99-7681-2_52)&rbrack;
+
+* Patrick Concha, [[Lucrezia Ravera]]: *Non-Lorentzian Supergravity and Kinematical Superalgebras*, JHEP 03 (2025) 032 &lbrack;[arXiv:2412.07665](https://arxiv.org/abs/2412.07665)&rbrack;
+
+On non-relativistic SuGra as an [[effective field theory]] for excitation modes of [[FQH systems]] (cf. *[[supersymmetry in fractional quantum Hall systems -- references|supersymmetry in fractional quantum Hall systems]]*):
+
+* Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
+
+* Yi-Hsien Du: *Chiral Graviton Theory of Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2509.04408">arXiv:2509.04408</a>\]
+  > (generalization to non-abelian Read-Rezayi states)
+
+
 
 
 ### History
