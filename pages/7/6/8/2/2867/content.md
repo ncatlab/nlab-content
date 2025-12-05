@@ -387,7 +387,7 @@ Discussion of embedding of $\Theta$ into strict $n$-categories is in
 * [[Michael Batanin]], [[Ross Street]], _The universal property of the multitude of trees_, J. Pure Appl. Alg. 154 (2000), 3&#8211;13.
  {#BataninStreet}
 
-* [[Michael Makkai]], M. Zawadowsky, _Duality for simple $\omega$-categories and disks_, Theory Appl. Categories 8 (2001), 114&#8211;243
+* [[Michael Makkai]], M. Zawadowski, _Duality for simple $\omega$-categories and disks_, Theory Appl. Categories 8 (2001), 114&#8211;243
  {#MakkaiZawadowsky}
 
 * [[Clemens Berger]], _A cellular nerve for higher categories_, Adv. Math. 169 (2002), 118&#8211;175.
