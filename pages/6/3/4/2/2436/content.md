@@ -800,6 +800,8 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 * [[super vector bundle]]
 
+* [[supercategory]]
+
 * [[chain complex of super vector spaces]]
 
 * [[model structure on chain complexes of super vector spaces]]
