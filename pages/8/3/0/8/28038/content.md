@@ -39,7 +39,7 @@ $$
 (In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) mod 2$ for $2k\leq n$.)
 \end{proposition}
 
-([Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
+([Milnor & Stasheff 74, Prob. 15-A](#MilnorStasheff74), [Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
 
 \begin{proposition}
 A principal SO(4)-bundle $P$ fulfills:
@@ -50,7 +50,7 @@ $$
 (In general, a principal $SO(2n)$-bundle $P$ fulfills $p_n(P)=e^2(P)$.)
 \end{proposition}
 
-([Hatcher 17, Prop. 3.15 b](#Hatcher17))
+([Milnor & Stasheff 74, Crl. 15.8](#MilnorStasheff74), [Hatcher 17, Prop. 3.15 b](#Hatcher17))
 
 The two previous propositions together imply $w_4^2(P)\equiv e^2(P) mod 2$ and one even has:
 
@@ -63,7 +63,7 @@ $$
 (In general, a principal $SO(n)$-bundle $P$ fulfills $w_n(P)\equiv e(P) mod 2$.)
 \end{proposition}
 
-([Hatcher 17, Prop. 3.13 c](#Hatcher17))
+([Milnor & Stasheff 74, Prop. 9.5](#MilnorStasheff74), [Hatcher 17, Prop. 3.13 c](#Hatcher17))
 
 ## Classification over 4-manifolds by characteristic classes
 
@@ -168,6 +168,8 @@ Particular [[principal bundles]]:
 ## References
 
 * {#DoldWhitney59} [[Albrecht Dold]] and [[Hassler Whitney]], _Classification of oriented sphere bundles over a 4-complex_ (1959), Annals of Mathematics Vol. 69 No. 3 &lbrack;[doi:10.2307/1970030](https://doi.org/10.2307/1970030) &rbrack;
+
+* {#MilnorStasheff74} [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [doi:10.1515/9781400881826](https://doi.org/10.1515/9781400881826), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnstas.pdf))
 
 * {#GompfStipsicz99} [[Robert Gompf]] and [[András Stipsicz]], _4-Manifolds and Kirby Calculus_ (1999), Graduate Studies 
 in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/books/gsm/020), [doi:10.1090/gsm/020](https://www.ams.org/books/gsm/020)&rbrack;
