@@ -20,6 +20,19 @@
 
 *Principal SU(3)-bundles* are special [[principal bundles]] with the third [[special unitary group]] [[SU(3)]] as [[structure group]] ([[gauge group]]).
 
+## Characteristic classes
+
+\begin{proposition}
+A principal U(3)-bundle $P$ fulfills:
+$$
+e(P)
+\equiv c_3(P).
+$$
+(In general, a principal $U(n)$-bundle $P$ fulfills $e(P)=c_n(P)$.)
+\end{proposition}
+
+([Hatcher 17, Prop. 3.13 c](#Hatcher17))
+
 ## Associated vector bundle
 
 For principal $U(3)$-bundles $P\twoheadrightarrow X$, there is an [[associated bundle|associated]] complex plane bundle $E=P\times_{U(3)}\mathbb{C}^3\twoheadrightarrow X$ using the [[balanced product]]. If $Q$ is the induced [[principal SU(4)-bundle]] (using the canonical inclusion $U(3)\hookrightarrow SU(4),U\mapsto diag(U,det(U)^{-1})$), then its [[adjoint bundle]] is given by:
@@ -68,6 +81,8 @@ Particular [[principal bundles]]:
 ## References
 
 * {#DonaldsonKronheimer97} [[Simon Donaldson]], [[Peter Kronheimer]]: _The Geometry of Four-Manifolds_ (1990, revised 1997), Oxford University Press and Claredon Press, &lbrack;[oup:52942](https://academic.oup.com/book/52942), [doi:10.1093/oso/9780198535539.001.0001](https://doi.org/10.1093/oso/9780198535539.001.0001), ISBN:978-0198502692, ISSN:0964-9174&rbrack;
+
+* {#Hatcher17} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
 [[!redirects principal U(3)-bundles]]
 [[!redirects U(3)-principal bundle]]
