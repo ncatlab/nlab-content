@@ -22,7 +22,20 @@
 
 Principal U(2)-bundles in particular induce [[principal SO(3)-bundles]] using the canonical projection $U(2)\cong Spin^\mathrm{c}(3)\twoheadrightarrow SO(3)$ and are induced by [[principal SU(2)-bundles]] using the canonical inclusion $SU(2)\hookrightarrow U(2)$.
 
-## Properties
+## Characteristic classes
+
+\begin{proposition}
+A principal U(2)-bundle $P$ fulfills:
+$$
+e(P)
+\equiv c_2(P).
+$$
+(In general, a principal $U(n)$-bundle $P$ fulfills $e(P)=c_n(P)$.)
+\end{proposition}
+
+([Hatcher 17, Prop. 3.13 c](#Hatcher17))
+
+## Classification over 4-manifolds by characteristic classes
 
 \begin{proposition}
 Let $X$ be a $4$-manifold. Two principal U(2)-bundles $P,Q\twoheadrightarrow X$ are isomorphic if and only if their first and second [[Chern class]] are equal:
@@ -135,6 +148,8 @@ Particular [[principal bundles]]:
 in Mathematics, Volume 20 &lbrack;[ISBN: 978-0-8218-0994-5](https://www.ams.org/books/gsm/020), [doi:10.1090/gsm/020](https://www.ams.org/books/gsm/020)&rbrack; 
 
 * {#DonaldsonKronheimer97} [[Simon Donaldson]], [[Peter Kronheimer]]: _The Geometry of Four-Manifolds_ (1990, revised 1997), Oxford University Press and Claredon Press, &lbrack;[oup:52942](https://academic.oup.com/book/52942), [doi:10.1093/oso/9780198535539.001.0001](https://doi.org/10.1093/oso/9780198535539.001.0001), ISBN:978-0198502692, ISSN:0964-9174&rbrack;
+
+* {#Hatcher17} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
 [[!redirects principal U(2)-bundles]]
 [[!redirects U(2)-principal bundle]]
