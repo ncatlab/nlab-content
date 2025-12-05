@@ -9,19 +9,21 @@ This entry records tites and abstracts of the meeting
 
   June 4-8, 2018
 
-  at the [Hausdorff Institute for Mathematics](https://www.him.uni-bonn.de/), Bonn
+  at the [Hausdorff Institute for Mathematics](https://www.mathematics.uni-bonn.de/him), Bonn
 
   Organizers: [[Steve Awodey]], [[Thierry Coquand]], [[Maria Emilia Maietti]]
 
 on [[homotopy type theory]].
 
+Videos of most talks are collected as [a YouTube playlist](https://youtube.com/playlist?list=PLul8LCT3AJqQxIaZhaSNCTuLYfIFB1AiI).
+
 This was part of the:
 
-* **Trimester Program "[Types, Sets and Constructions](https://www.him.uni-bonn.de/programs/past-programs/past-trimester-programs/types-sets-constructions/description/)"**
+* **Trimester Program "[Types, Sets and Constructions](https://www.mathematics.uni-bonn.de/him/programs/past/tp_2018_05)"**
 
   May 2 - August 24, 2018
 
-  at the [Hausdorff Institute for Mathematics](https://www.him.uni-bonn.de/), 
+  at the [Hausdorff Institute for Mathematics](https://www.mathematics.uni-bonn.de/him), 
 
   Organizers: Douglas S. Bridges, Michael Rathjen, Peter Schuster, Helmut Schwichtenberg
 
