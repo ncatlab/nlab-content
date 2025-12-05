@@ -26,7 +26,7 @@ For two [[parallel morphisms]] $f \colon x \to y$ and $g \colon x \to y$ in a [[
 \mathrm{eq} \arrow[r, "e"] & x \arrow[r, shift right=4pt, "g"'] \arrow[r, shift left=4pt, "f"] & y
     \end{tikzcd}
 \end{centre}
-[[commuting diagram|commutes]] (i.e., $f \circ e = g \circ e$), and every morphism $h \colon z \to x$ so that $f \circ h = g \circ h$ factors through $e$:
+is a [[fork]] (i.e., $f \circ e = g \circ e$), and every morphism $h \colon z \to x$ so that $f \circ h = g \circ h$ factors through $e$:
 
 \begin{centre}
     \begin{tikzcd}
