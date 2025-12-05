@@ -24,7 +24,7 @@ Principal SO(4)-bundles in particular are induced by pairs of [[principal SU(2)-
 
 Principal SO(4)-bundles also arise from any principal $G$-bundle with a four-dimensional real [[Lie group]] $G$ using its [[adjoint representation]] $Ad\colon G\rightarrow SL_4(\mathbb{R})$, which induces a map $\mathcal{B}Ad\colon\mathcal{B}G\rightarrow B SO(4)$. 
 
-## Properties
+## Characteristic classes
 
 \begin{proposition}
 A principal SO(4)-bundle $P$ fulfills:
@@ -40,6 +40,13 @@ $$
 \end{proposition}
 
 ([Milnor & Stasheff 74, Prob. 15-A](#MilnorStasheff74), [Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
+
+Let $X$ be an [[orientable]] [[4-manifold]] (with [[fundamental class]] $[X]\in H^4(X,\mathbb{Z})\cong\mathbb{Z}$) and $P=Fr_{SO}TX$ be the [[frame bundle]] of its [[tangent bundle]] (which doesn't change [[characteristic classes]]). Using [[Hirzebruch's signature theorem]] ([Gompf & Stipsicz 99, Thrm. 1.4.12](#GompfStipsicz99)) connects one of itsa [[Stiefel-Whitney numbers]] with its [[signature genus|signature]]:
+$$
+w_2^2[X]
+=p_1[X] mod 2
+=\sigma(X) mod 2.
+$$
 
 \begin{proposition}
 A principal SO(4)-bundle $P$ fulfills:
