@@ -22,6 +22,19 @@
 
 Principal $SU(4)$-bundles in particular induce [[principal SO(6)-bundles]] using the canonical projection $SU(4)\cong Spin(6)\twoheadrightarrow SO(6)$. Principal SU(4)-bundles also induce [[principal SU(2)-bundles]] and [[principal SU(3)-bundles]] using the canonical inclusions $SU(2)\hookrightarrow SU(3)\hookrightarrow SU(4)$.
 
+## Characteristic classes
+
+\begin{proposition}
+A principal SU(4)-bundle $P$ fulfills:
+$$
+e(P)
+\equiv c_4(P).
+$$
+(In general, a principal $SU(n)$-bundle $P$ fulfills $e(P)=c_n(P)$.)
+\end{proposition}
+
+([Hatcher 17, Prop. 3.13 c](#Hatcher17))
+
 ## Adjoint vector bundle
 
 \begin{proposition}
@@ -70,6 +83,8 @@ Particular [[principal bundles]]:
 * {#MimuraToda63} [[Mamoru Mimura]] and [[Hiroshi Toda]], _Homotopy Groups of SU(3), SU(4) and Sp(2)_ (1963), Journal of Mathematics of Kyoto University **3** (2), p. 217–250, [doi:10.1215/kjm/1250524818](https://projecteuclid.org/journals/kyoto-journal-of-mathematics/volume-3/issue-2/Homotopy-Groups-of-SU3-SU4-and-Sp2/10.1215/kjm/1250524818.full)
 
 * {#DonaldsonKronheimer97} [[Simon Donaldson]], [[Peter Kronheimer]]: _The Geometry of Four-Manifolds_ (1990, revised 1997), Oxford University Press and Claredon Press, &lbrack;[oup:52942](https://academic.oup.com/book/52942), [doi:10.1093/oso/9780198535539.001.0001](https://doi.org/10.1093/oso/9780198535539.001.0001), ISBN:978-0198502692, ISSN:0964-9174&rbrack;
+
+* {#Hatcher17} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
 [[!redirects principal SU(4)-bundles]]
 [[!redirects SU(4)-principal bundle]]
