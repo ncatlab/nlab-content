@@ -106,24 +106,6 @@ This strengthening is important in [[predicative mathematics]], where the catego
 
 If $E$ is only a [[lextensive category]], such as in a [[category of sets]] without [[quotient sets]] (as commonly found in the [[syntactic category]] of an [[extensional type theory]]), then $E$ is well-pointed if $1$ is only a [[initial object|noninitial]] [[indecomposable object|indecomposable]] [[extremal generator]]. 
 
-### In more general categories
-
-Do we know what these should be in any more general situations?
-
-[[Mike Shulman]]: Well, the pretopos version makes sense in any [[coherent category]], and I would bet that it's the right notion in that generality.  In a [[regular category]] one might just want to assert that $1$ is a (regular-)projective extremal generator, which would probably be enough for regular logic.  And in a category with mere finite limits, being a extremal generator is all one could ask for, and that'd probably be enough for finite-limit logic.
-
-
-### Well-pointed $(\infty,1)$-toposes {#Infty1Version}
-
-> [[Urs Schreiber|Urs]]: an attempt
-
-One might like to say that "[[∞Grpd]] is essentially the unique [[(∞,1)-topos]] with all small limits and colimits that is well-pointed ."
-
-Possibly one should say: an $(\infty,1)$-topos $\mathbf{H}$ is _well-pointed_ if the terminal object is not the initial one and the  [[global section]] [[(∞,1)-functor]] $\Gamma : \mathbf{H} \to \infty Grpd$ is faithful...
-
-...which should mean that on hom-$\infty$-groupoids it is a [[monomorphism in an (∞,1)-category]]...
-
-...which should mean that for all $X,Y \in \mathbf{H}$ the image of the morphism $\Gamma_{X,Y} : \mathbf{H}(X,Y) \to Func(\Gamma(X),\Gamma(Y))$ in the [[homotopy category]] identifies $\mathbf{H}(X,Y)$ as a [[direct sum]]mand of $Func(\Gamma(X),\Gamma(Y))$.
 
 ## As an axiom schema of separation
 
@@ -164,7 +146,7 @@ In fact, given that $\mathcal{E}$ is a [[finitely complete category]], we could 
 
 For constructive well-pointedness of [[Heyting categories]] as a structural [[axiom schemata of separation]] in addition to the [[terminal object]] being a [[strong generator]], see:
 
-* [[Michael Shulman]] (2018). Comparing material and structural set theories. [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
+* {#Shulman19} [[Michael Shulman]], _Comparing material and structural set theories_, Annals of Pure and Applied Logic **170** Issue 4 (2019) pp. 465–504, doi:[10.1016/j.apal.2018.11.002](https://doi.org/10.1016/j.apal.2018.11.002), [arXiv:1808.05204](https://arxiv.org/abs/1808.05204).
 
 [[!redirects well-pointed topos]]
 [[!redirects well-pointed toposes]]
