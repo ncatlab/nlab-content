@@ -42,7 +42,7 @@ $$
 (In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) mod 2$ for $2k\leq n$.)
 \end{proposition}
 
-([Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
+([Milnor & Stasheff 74, Prob. 15-A](#MilnorStasheff74), [Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
 
 \begin{proposition}
 A principal SO(3)-bundle $P$ fulfills:
@@ -53,7 +53,7 @@ $$
 (In general, a principal $SO(n)$-bundle $P$ fulfills $w_n(P)\equiv e(P) mod 2$.)
 \end{proposition}
 
-([Hatcher 17, Prop. 3.13 c](#Hatcher17))
+([Milnor & Stasheff 74, Prop. 9.5](#MilnorStasheff74), [Hatcher 17, Prop. 3.13 c](#Hatcher17))
 
 \begin{proposition}
 A principal SO(3)-bundle $P$ fulfills:
@@ -65,7 +65,7 @@ $$
 with the third [[integral Stiefel-Whitney class]] and the [[Bockstein homomorphism]] $\beta\colon H^2(M,\mathbb{Z}_2)\rightarrow H^3(M,\mathbb{Z})$ of the [[short exact sequence]] $0\rightarrow\mathbb{Z}\hookrightarrow\mathbb{Z}\twoheadrightarrow\mathbb{Z}_2\rightarrow 0$. (In general, a principal $SO(2n+1)$-bundle $P$ fulfills $e(P)=W_{2n+1}(P)=\beta w_{2n}(P)$.)
 \end{proposition}
 
-([Hatcher 17, Ch. 3, Ex. 3](#Hatcher17))
+([Milnor & Stasheff 74, Prob. 15-D](#MilnorStasheff74), [Hatcher 17, Ch. 3, Ex. 3](#Hatcher17))
 
 ## Classification over 4-manifolds by characteristic classes
 
@@ -215,6 +215,8 @@ Particular [[principal bundles]]:
 
 * {#HirzebruchHopf58} [[Friedrich Hirzebruch]], [[Heinz Hopf]], _Felder von Flächenelementen in 4-dimensionalen Mannigfaltigkeiten_ (1958)
 * {#DoldWhitney59} [[Albrecht Dold]] and [[Hassler Whitney]], _Classification of oriented sphere bundles over a 4-complex_ (1959)
+
+* {#MilnorStasheff74} [[John Milnor]], [[Jim Stasheff]], _Characteristic classes_, Princeton Univ. Press (1974) ([ISBN:9780691081229](https://press.princeton.edu/books/paperback/9780691081229/characteristic-classes-am-76-volume-76), [doi:10.1515/9781400881826](https://doi.org/10.1515/9781400881826), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnstas.pdf))
 
 * {#UhlenbeckFreed91} [[Daniel Freed]], [[Karen Uhlenbeck]], _Instantons and Four-Manifolds_, Mathematical Sciences Research Institute Publications, Springer 1991 ([doi:10.1007/978-1-4613-9703-8]
 (https://link.springer.com/book/10.1007/978-1-4613-9703-8))
