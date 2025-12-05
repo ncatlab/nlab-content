@@ -45,6 +45,13 @@ $$
 
 ([Milnor & Stasheff 74, Prob. 15-A](#MilnorStasheff74), [Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
 
+Let $X$ be an [[orientable]] [[8-manifold]] (with [[fundamental class]] $[X]\in H^8(X,\mathbb{Z})\cong\mathbb{Z}$) and $P=Fr_{SO}TX$ be the [[frame bundle]] of its [[tangent bundle]] (which doesn't change [[characteristic classes]]). Using [[Hirzebruch's signature theorem]] connects one of its [[Stiefel-Whitney numbers]] with its [[signature genus|signature]]:
+$$
+w_4^2[X]-w_2^4[X]
+=(p_2-p_1^2)[X] mod 2
+=\sigma(X) mod 2
+$$
+
 \begin{proposition}
 A principal SO(8)-bundle $P$ fulfills:
 $$
