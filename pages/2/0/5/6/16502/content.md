@@ -12,6 +12,24 @@
 
 ## Selected writings
 
+On [[synthetic mathematics]] in [[modal homotopy type theory]] and [[cohesive homotopy type theory]]:
+
+* {#LicataWellen18} [[Dan Licata]], [[Felix Wellen]]: _Synthetic Mathematics in Modal Dependent Type Theories_, tutorial at *[[HoTT in Bonn2018|Types, Homotopy Theory and Verification]]* (2018)
+
+  Tutorial 1, Dan Licata:  _A Fibrational Framework for Modal Simple Type Theories_
+([recording](https://www.youtube.com/watch?v=uLLbSAYd3yI))
+
+  Tutorial 2, Felix Wellen: _The Shape Modality in Real cohesive HoTT and Covering Spaces_ ([recording](https://www.youtube.com/watch?v=ACGjJDarEc4))
+
+  Tutorial 3, Dan Licata: _Discrete and Codiscrete Modalities in Cohesive HoTT_ ([recording](https://www.youtube.com/watch?v=OHN9vEVPBN8))
+
+  Tutorial 4, Felix Wellen, _Discrete and Codiscrete Modalities in Cohesive HoTT, II_ ([recording](https://www.youtube.com/watch?v=KXx9UDQdWPw))
+
+  Tutorial 5, Dan Licata: _A Fibrational Framework for Modal Dependent Type Theories_ ([recording](https://www.youtube.com/watch?v=R4SsxUnIcng))
+
+  Tutorial 6, Felix Wellen: _Differential Cohesive HoTT_, ([recording](https://www.youtube.com/watch?v=uEZXHPdwvJU&t=226s))
+
+
 On [[differential cohesion|differentially]] [[cohesive homotopy type theory]] for [[synthetic differential geometry]]:
 
 * _[[schreiber:thesis Wellen|Formalizing Cartan Geometry in Modal Homotopy Type Theory]]_, PhD Thesis, Karlsruhe Institute of Technology (2017) &lbrack;[web](https://publikationen.bibliothek.kit.edu/1000073164), [arXiv:1806.05966](https://arxiv.org/abs/1806.05966), [[nLab:HoTT]]-[[nLab:Agda]] code: [DCHoTT-Agda](https://github.com/felixwellen/DCHoTT-Agda)&rbrack;
