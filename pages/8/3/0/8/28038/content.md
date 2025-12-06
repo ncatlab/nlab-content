@@ -30,11 +30,11 @@ Principal SO(4)-bundles also arise from any principal $G$-bundle with a four-dim
 A principal SO(4)-bundle $P$ fulfills:
 $$
 w_2^2(P)
-\equiv p_1(P) mod 2;
+\equiv p_1(P) \mod 2;
 $$
 $$
 w_4^2(P)
-\equiv p_2(P) mod 2.
+\equiv p_2(P) \mod 2.
 $$
 (In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) mod 2$ for $2k\leq n$.)
 \end{proposition}
@@ -44,8 +44,8 @@ $$
 Let $X$ be an [[orientable]] [[4-manifold]] (with [[fundamental class]] $[X]\in H^4(X,\mathbb{Z})\cong\mathbb{Z}$) and $P=Fr_{SO}TX$ be the [[frame bundle]] of its [[tangent bundle]] (which doesn't change [[characteristic classes]]). Using [[Hirzebruch's signature theorem]] ([Gompf & Stipsicz 99, Thrm. 1.4.12](#GompfStipsicz99)) connects one of itsa [[Stiefel-Whitney numbers]] with its [[signature genus|signature]]:
 $$
 w_2^2[X]
-=p_1[X] mod 2
-=\sigma(X) mod 2.
+=p_1[X] \mod 2
+=\sigma(X) \mod 2.
 $$
 
 \begin{proposition}
@@ -65,7 +65,7 @@ The two previous propositions together imply $w_4^2(P)\equiv e^2(P) mod 2$ and o
 A principal SO(4)-bundle $P$ fulfills:
 $$
 w_4(P)
-\equiv e(P) mod 2.
+\equiv e(P) \mod 2.
 $$
 (In general, a principal $SO(n)$-bundle $P$ fulfills $w_n(P)\equiv e(P) mod 2$.)
 \end{proposition}
@@ -98,7 +98,8 @@ $$
 
 Certain [[4-manifolds]] yield simplifcations when the [[singular cohomology]] [[groups]] vanish. For example, for principal SO(4)-bundles over the [[4-sphere]], used in [[John Milnor]]'s construction of [[exotic 7-spheres]], the second [[singular cohomology]] vanishes and therefore the condition of equal second [[Stiefel-Whitney classes]] becomes trivial. In this case one has a [[group]] [[isomorphism]]:
 $$
-\left(e,-\frac{1}{4}(p_1+2e)\right)\colon
+\left(e,-\frac{1}{4}(p_1+2e)\right)
+  \,\colon\,
 \pi_4 B SO(4)
 \cong\pi_3 SO(4)
 \xrightarrow\cong\mathbb{Z}\oplus\mathbb{Z}.
