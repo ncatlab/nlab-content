@@ -26,17 +26,17 @@
 A principal SO(7)-bundle $P$ fulfills:
 $$
 w_2^2(P)
-\equiv p_1(P) mod 2;
+\equiv p_1(P) \mod 2;
 $$
 $$
 w_4^2(P)
-\equiv p_2(P) mod 2;
+\equiv p_2(P) \mod 2;
 $$
 $$
 w_6^2(P)
-\equiv p_3(P) mod 2.
+\equiv p_3(P) \mod 2.
 $$
-(In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) mod 2$ for $2k\leq n$.)
+(In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) \mod 2$ for $2k\leq n$.)
 \end{proposition}
 
 ([Milnor & Stasheff 74, Prob. 15-A](#MilnorStasheff74), [Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
