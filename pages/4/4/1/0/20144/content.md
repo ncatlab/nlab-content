@@ -5,7 +5,7 @@
 
 ## Definition
 
-Let $V$ be a [[monoidal category]] and $C$ a $V$-[[enriched category]] with [[pullbacks]] in the enriched sense.  Then for any morphism $f:x\to y$ in (the [[underlying ordinary category]] of) $C$, there is a pullback $V$-functor $f^*:C/y \to C/x$ between the [[enriched slice categories]], and each enriched slice category $C/x$ has $V$-enriched [[products]].  We say $C$ is **$V$-locally-cartesian-closed** if the following equivalent conditions hold:
+Let $V$ be a [[semicartesian monoidal category]] and $C$ a $V$-[[enriched category]] with [[pullbacks]] in the enriched sense.  Then for any morphism $f:x\to y$ in (the [[underlying ordinary category]] of) $C$, there is a pullback $V$-functor $f^*:C/y \to C/x$ between the [[enriched slice categories]], and each enriched slice category $C/x$ has $V$-enriched [[products]].  We say $C$ is **$V$-locally-cartesian-closed** if the following equivalent conditions hold:
 
 * Each $V$-functor $f^*$ has a right $V$-adjoint $f_*$.
 * Each $V$-category $C/x$ is $V$-[[cartesian closed enriched category|cartesian closed]].
