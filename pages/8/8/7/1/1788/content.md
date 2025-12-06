@@ -6,4 +6,4 @@
 
 ***
 
-[[superconducting islands in FQH systems -- references]]
+$x \mod 2$
