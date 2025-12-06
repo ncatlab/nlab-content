@@ -17,17 +17,28 @@
 
 ## Idea
 
-A **supercategory** is a [[category]] [[enriched category|enriched]] in [[super vector spaces]] and even linear maps. Concretely, this means that a supercategory is a category in which:
+A **supercategory** is a [[category]] [[enriched category|enriched]] in [[super vector spaces]] and even linear maps.
+While there is nothing supercommutative about supercategories themselves, they provide the structure necessary to define supercommutative variants of more advanced structures like monoidal categories, analogous to how super vector spaces are not supercommutative themselves but needed to define [[super algebras]].
 
-- each $Hom(X,Y)$ carries the structure of a [[super vector space]], i.e. the structure of a vector space together with a decomposition $Hom(X,Y)\simeq Hom(X,Y)_{even}\oplus Hom(X,Y)_{odd}$ into an "even" part and an "odd" part,
+## Definition
+Supercategories are categories enriched over the category of super vector spaces and even linear maps.
+Concretely, this means that a **supercategory** is a category in which:
 
-- each composition map $\circ:Hom(Y,Z)\times Hom(X,Y)\to Hom(X,Z)$ is bilinear,
+  - each $Hom(X,Y)$ carries the structure of a [[super vector space]], i.e. the structure of a vector space together with a decomposition $Hom(X,Y)\simeq Hom(X,Y)_{even}\oplus Hom(X,Y)_{odd}$ into an "even" part and an "odd" part,
 
-- the composition of two even or two odd morphisms is always even, and the composition of one even and one odd morphism is always odd.
+  - each composition map $\circ:Hom(Y,Z)\times Hom(X,Y)\to Hom(X,Z)$ is bilinear,
 
-A **superfunctor** between supercategories is similarly an [[enriched functor]], hence a [[functor]] that is linear on each hom-set and sends even morphisms to even morphisms and odd morphisms to odd morphisms.
+  - parity is additive under composition, i.e. the composition of two morphisms of the same parity is always even and the composition of two morphisms of different parities is always odd.
 
-Notions of **monoidal supercategories**, **2-supercategories** and **monoidal 2-supercategories** also exist and arise e.g. in the context of odd [[Khovanov homology]]; see ([Schelstraete & Vaz 2023](SchelstraeteVaz2023)).
+A **superfunctor** between supercategories is similarly an [[enriched functor]], hence a [[functor]] that is linear on each hom-set and sends even morphisms to even morphisms and odd morphisms to odd morphisms. A **supernatural transformation** $\lambda:\F\Rightarrow G$ between superfunctors $F,G:C\to D$ is however not an [[enriched natural transformation]], but a collection of morphisms $\lambda_X=\lambda_{X,even}+\lambda_{X,odd}\in Hom(F X,G X)=Hom(F X,G X)_{even}\oplus Hom(F X,G X)_{odd}$ such that 
+$\lambda_{Y,p}\circ F f=(-1)^{|f|p}G f\circ\lambda_{X,p}$ for all homogeneous $f\in Hom(X,Y)$. Supernatural transformations are called even or odd iff all their components are even resp. odd, turning the space of all supernatural transformations into a super vector space itself. Only the even supernatural transformations correspond to enriched natural transformations.
+
+## Monoidal supercategories
+A **monoidal supercategory** is defined to be a supercategory $C$ together with ...
+
+## See also
+
+Notions of **2-supercategories** and **monoidal 2-supercategories** also exist and arise e.g. in the context of odd [[Khovanov homology]]; see ([Schelstraete & Vaz 2023](SchelstraeteVaz2023)).
 
 ## References
 
