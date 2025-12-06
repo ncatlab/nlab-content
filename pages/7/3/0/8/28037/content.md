@@ -37,9 +37,9 @@ Principal SO(3)-bundles also arise from any principal $G$-bundle with a three-di
 A principal SO(3)-bundle $P$ fulfills:
 $$
 w_2^2(P)
-\equiv p_1(P) mod 2.
+\equiv p_1(P) \mod 2.
 $$
-(In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) mod 2$ for $2k\leq n$.)
+(In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) \mod 2$ for $2k\leq n$.)
 \end{proposition}
 
 ([Milnor & Stasheff 74, Prob. 15-A](#MilnorStasheff74), [Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
@@ -48,9 +48,9 @@ $$
 A principal SO(3)-bundle $P$ fulfills:
 $$
 w_3(P)
-\equiv e(P) mod 2.
+\equiv e(P) \mod 2.
 $$
-(In general, a principal $SO(n)$-bundle $P$ fulfills $w_n(P)\equiv e(P) mod 2$.)
+(In general, a principal $SO(n)$-bundle $P$ fulfills $w_n(P)\equiv e(P) \mod 2$.)
 \end{proposition}
 
 ([Milnor & Stasheff 74, Prop. 9.5](#MilnorStasheff74), [Hatcher 17, Prop. 3.13 c](#Hatcher17))
@@ -96,7 +96,7 @@ $$
 An abstract way to obtain this [[group]] [[isomorphism]] is the [[exceptional isomorphism]] $Spin(3)\cong SU(2)\cong S^3$, which double covers $SO(3)$ and therefore has the same higher [[homotopy groups]] (beyond the [[fundamental group]]). Therefore $\pi_3 SO(3)\cong\pi_3(S^3)\cong\mathbb{Z}$. (Just the result is also stated in [Dold & Whitney 59, Eq. (2)](#DoldWhitney59).)
 
 \begin{proposition}
-Let $X$ be a $4$-manifold. For every $(w_2,p_1)\in H^2(X,\mathbb{Z}_2)\times H^4(X,\mathbb{Z})$ with $p_1=Pont(w_2) mod 4$, there exists a principal SO(3)-bundle $P\twoheadrightarrow X$ with $w_2(P)=w_2$ and $p_1(P)=p_1$.
+Let $X$ be a $4$-manifold. For every $(w_2,p_1)\in H^2(X,\mathbb{Z}_2)\times H^4(X,\mathbb{Z})$ with $p_1=Pont(w_2) \mod 4$, there exists a principal SO(3)-bundle $P\twoheadrightarrow X$ with $w_2(P)=w_2$ and $p_1(P)=p_1$.
 \end{proposition}
 
 ([Gompf & Stipsicz 99, Thrm. 1.4.20](#GompfStipsicz99))
