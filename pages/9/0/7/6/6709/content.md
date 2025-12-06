@@ -190,3 +190,6 @@ See also
 
 [[!redirects first Stiefel-Whitney class]]
 [[!redirects second Stiefel-Whitney class]]
+
+[[!redirects Stiefel-Whitney number]]
+[[!redirects Stiefel-Whitney numbers]]
