@@ -30,17 +30,17 @@ Principal SO(6)-bundles also arise from any principal $G$-bundle with a six-dime
 A principal SO(6)-bundle $P$ fulfills:
 $$
 w_2^2(P)
-\equiv p_1(P) mod 2;
+\equiv p_1(P) \mod 2;
 $$
 $$
 w_4^2(P)
-\equiv p_2(P) mod 2;
+\equiv p_2(P) \mod 2;
 $$
 $$
 w_6^2(P)
-\equiv p_3(P) mod 2.
+\equiv p_3(P) \mod 2.
 $$
-(In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) mod 2$ for $2k\leq n$.)
+(In general, a principal $SO(n)$-bundle $P$ fulfills $w_{2k}^2(P)\equiv p_k(P) \mod 2$ for $2k\leq n$.)
 \end{proposition}
 
 ([Milnor & Stasheff 74, Prob. 15-A](#MilnorStasheff74), [Gompf & Stipsicz 99, Ex. 1.4.21 d](#GompfStipsicz99), [Hatcher 17, Prop. 3.15 a](#Hatcher17))
@@ -56,15 +56,15 @@ $$
 
 ([Milnor & Stasheff 74, Crl. 15.8](#MilnorStasheff74), [Hatcher 17, Prop. 3.15 b](#Hatcher17))
 
-The two previous propositions together imply $w_6^2(P)\equiv e^2(P) mod 2$ and one even has:
+The two previous propositions together imply $w_6^2(P)\equiv e^2(P) \mod 2$ and one even has:
 
 \begin{proposition}
 A principal SO(6)-bundle $P$ fulfills:
 $$
 w_6(P)
-\equiv e(P) mod 2.
+\equiv e(P) \mod 2.
 $$
-(In general, a principal $SO(n)$-bundle $P$ fulfills $w_n(P)\equiv e(P) mod 2$.)
+(In general, a principal $SO(n)$-bundle $P$ fulfills $w_n(P)\equiv e(P) \mod 2$.)
 \end{proposition}
 
 ([Milnor & Stasheff 74, Prop. 9.5](#MilnorStasheff74), [Hatcher 17, Prop. 3.13 c](#Hatcher17))
