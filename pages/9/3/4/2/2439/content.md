@@ -272,7 +272,7 @@ $$
 +-- {: .num_defn #Center}
 ###### Definition
 
-The **[[center]]** of a superalgebra $A$ is the sub-superalgebra $Z(A) \hookrightarrow A$ spanned by all those elements $z \in A$ of homogeneous degree which graded-commute with all other homogeneois elements $a$. 
+The **[[center]]** of a superalgebra $A$ is the sub-superalgebra $Z(A) \hookrightarrow A$ spanned by all those elements $z \in A$ of homogeneous degree which graded-commute with all other homogeneous elements $a$. 
 
 =--
 
