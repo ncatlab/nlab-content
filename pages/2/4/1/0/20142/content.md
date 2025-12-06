@@ -12,9 +12,26 @@
 
 \tableofcontents
 
-## Definition
+## Idea
 
-Let $V$ be a [[monoidal category]] with [[products]] and $C$ a $V$-[[enriched category]] with [[products]], in the enriched sense that we have a [[enriched natural transformation|$V$-natural]] [[natural isomorphism|isomorphisms]] of [[hom-objects]] in $V$:
+A cartesian closed enriched category is an [[enriched category]] that is simultaneously [[cartesian monoidal category|cartesian monoidal]] and [[closed monoidal category|monoidal closed]].
+
+## Definitions
+
+The generalization of [[closed monoidal category]] to the enriched setting is standard.
+
+There are multiple inequivalent definitions we could make for what it means for an enriched category to be cartesian monoidal.
+
+\begin{definition}
+In [Street 14](#Street14), a cartesian monoidal enriched category is an [[enriched monoidal category]] $(C,\otimes, I)$ such that the functors $I : I \to C$ and $(-\otimes -) : C\otimes C \to C$ have [[enriched adjunction|$V$-enriched]] [[left adjoint|left adjoints]].
+
+A cartesian closed enriched category is a cartesian monoidal enriched category in which all the $V$-functors $(X\otimes -) \colon C \to C$ and $(-\otimes X) \colon C \to C$ have [[enriched adjunction|$V$-enriched]] [[right adjoint|right adjoints]].
+\end{definition}
+
+\begin{definition}
+If we want the monoidal product to literally be the [[products|categorical product]], we need, in general, $V$ to be [[semicartesian monoidal category|semicartesian]].
+
+Let $V$ be a [[semicartesian monoidal category]] with [[products]] and $C$ a $V$-[[enriched category]] with [[products]], in the enriched sense that we have a [[enriched natural transformation|$V$-natural]] [[natural isomorphism|isomorphisms]] of [[hom-objects]] in $V$:
 
 $$ 
   C(Z, X\times Y) 
@@ -24,9 +41,12 @@ $$
 $$
 
 We say that $C$ is **$V$-cartesian-closed** if each [[enriched functor|$V$-functor]] $(X\times -) \colon C \to C$ has a [[enriched adjunction|$V$-enriched]] [[right adjoint]].
+\end{definition}
 
 
 ## Relation to ordinary cartesian closedness
+
+For the following, we use the second definition given above.
 
 If $C$ is $V$-cartesian-closed, then its [[underlying ordinary category]] $C_0$ is [[cartesian closed category|cartesian closed]] in the usual sense, since $V$-enriched right adjoints have underlying ordinary right adjoints.
 
@@ -55,6 +75,8 @@ However, the converse is false in general.  [[counterexample|Counterexamples]] c
 * {#MO} [Enriched cartesian closed categories on MO](https://mathoverflow.net/q/322085)
 
 * {#MO2} [Simplicial cartesian closed categories on MO](https://mathoverflow.net/q/322917)
+
+* {#Street14} [[Ross Street]], _Kan extensions and cartesian monoidal categories_ [arXiv:1409.6405](https://arxiv.org/abs/1409.6405)
 
 
 [[!redirects cartesian closed enriched category]]
