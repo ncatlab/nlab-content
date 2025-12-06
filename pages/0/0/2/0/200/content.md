@@ -68,7 +68,7 @@ $$
   \,.
 $$ 
 
-preserve multiplicative inverses, $f\left( a/b \right) = f(a) \cdot \big(f(b)\big)^{-1}$, it follows that any pair $(f,g)$ of [[parallel morphisms]] on $\mathbb{Q}$ are equal as soon as they take equal value on the integers.
+preserve multiplicative inverses, $f\left( a/b \right) = f(a) \cdot {\big(f(b)\big)}^{-1}$, it follows that any pair $(f,g)$ of [[parallel morphisms]] on $\mathbb{Q}$ are equal as soon as they take equal value on the integers.
 
 \end{proof}
 
