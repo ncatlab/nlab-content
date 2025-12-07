@@ -81,7 +81,7 @@ In [Lowe10](#Lowe10) and [Lowe12](#Lowe12) a yet more general construction is co
 
 * H. Ehrig, M. Pfender, and H.J. Schneider, _Graph-grammars: an algebraic approach_, In IEEE Conf. on Automata and Switching Theory, pages 167&#8211;180, 1973.
 
-* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [PDF](http://users.ecs.soton.ac.uk/ps/papers/adhesive.pdf)
+* [[Steve Lack]] and [[Pawel Sobocinski]], *Adhesive categories*, [PDF](https://www.ioc.ee/~pawel/papers/adhesive.pdf)
  {#LS}
 
 * Andrea Corradini, Tobias Heindel, Frank Hermann, and Barbara K&#246;nig, *Sesqui-pushout rewriting*, 2006, [springerlink](https://link.springer.com/chapter/10.1007/11841883_4), [pdf](http://www.ti.inf.uni-due.de/publications/koenig/icgt06b.pdf).
