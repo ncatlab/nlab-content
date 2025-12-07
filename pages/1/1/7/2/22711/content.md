@@ -116,6 +116,11 @@ Relation to [[integrable systems]]:
 
 * Pramod Padmanabhan, Abhishek Chowdhury, *Loop braid groups and integrable models* &lbrack;[arXiv:2210.12932](https://arxiv.org/abs/2210.12932)&rbrack;
 
+Argument that [[M2-branes]] braiding around each other in 7D pick up an anyonic braiding phase:
+
+* [[Sean A. Hartnoll]]: *Anyonic strings and membranes in AdS space and dual Aharonov-Bohm effects*, Phys. Rev. Lett. **98** (2007) 111601 &lbrack;[arXiv:hep-th/0612159](https://arxiv.org/abs/hep-th/0612159), [doi:10.1103/PhysRevLett.98.111601](https://doi.org/10.1103/PhysRevLett.98.111601)&rbrack;
+
+
 
 
 [[!redirects loop braid groups]]
