@@ -365,7 +365,7 @@ Some categories are _implicitly_ [[enriched category|enriched]] over commutative
 
 A general discussion of categories of monoids in [[symmetric monoidal categories]] is in
 
-* {#Porst} [[Hans Porst]], _On Categories of Monoids, Comonoids and bimonoids_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.144.4291&rep=rep1&type=pdf))
+* {#Porst} [[Hans Porst]], _On Categories of Monoids, Comonoids and bimonoids_ (doi:[10.2989/QM.2008.31.2.2.474](https://doi.org/10.2989/QM.2008.31.2.2.474), [pdf](https://user.informatik.uni-bremen.de/porst/dvis/CoBiMon_Porst.pdf))
 
 
 Free monoid constructions are discussed in 
