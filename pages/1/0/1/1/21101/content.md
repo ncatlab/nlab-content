@@ -9,6 +9,10 @@
 
 ## Selected writings
 
+Argument that [[strings]] in 5D and [[M2-branes]] in 7D pick up an [[anyon|anyonic]] phase when their [[worldvolumes]] are braided around each other:
+
+* [[Sean A. Hartnoll]]: *Anyonic strings and membranes in AdS space and dual Aharonov-Bohm effects*, Phys. Rev. Lett. **98** (2007) 111601 &lbrack;[arXiv:hep-th/0612159](https://arxiv.org/abs/hep-th/0612159), [doi:10.1103/PhysRevLett.98.111601](https://doi.org/10.1103/PhysRevLett.98.111601)&rbrack;
+
 Discussion of [[superconductivity]] via [[AdS/CFT in condensed matter physics]]:
 
 * [[Sean Hartnoll]], [[Christopher Herzog]], [[Gary Horowitz]]: _Building an AdS/CFT superconductor_, Phys. Rev. Lett. **101** (2008) 031601 &lbrack;[arXiv:0803.3295](https://arxiv.org/abs/0803.3295)&rbrack;
