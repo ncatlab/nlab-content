@@ -677,7 +677,19 @@ $
   \end{aligned}
 $
 
-induced under pushforward in homology from
+induced under pushforward in homology
+
+$
+  H_0(\Omega M)
+  \otimes
+  H_0(\Omega M)
+  \simeq
+  H_0(\Omega M \times \Omega M)
+  \xrightarrow{\phantom{--} \star_\ast \phantom{--}}
+  H_0(\Omega M)
+$
+
+from concatenation of loops
 
 $
   \begin{array}{ccc}
@@ -690,14 +702,75 @@ $
     \ell_2 \star \ell_1 
     &
     \colon\;
-    s \,\mapsto\,
+    x^1 \,\mapsto\,
+    \left\{
     \begin{array}{lcl}
-      \ell_1(s) & \vert & s \leq \tfrac{1}{2}
+      \ell_1\big(\ln(-\tfrac{1}{x^1})\big) & \vert & x^1 \geq 0
       \\
-      \ell_2(s) & \vert & s \geq \tfrac{1}{2}
+      \ell_2\big(\ln(+x^1)\big) & \vert & x^1 \leq 0
     \end{array}
+  \right.
   \end{array}
 $
+
+So where $\delta_\ell \in TopObs$ 
+\linebreak
+is the $\{0,1\}$-valued observable asking:
+
+"Is the field history of shape [\ell]?"
+
+the observable $\delta_{\ell_2} \star \delta_{\ell_1}$ asks
+
+"Is the field history 
+\linebreak *first* of shape $\ell_1$ and 
+\linebreak *then* of shape $\ell_2$?"
+
+
+\linebreak
+
+With the algebra of topological quantum observables understood, 
+
+the *topological [[quantum states]]* are its [[modules]],
+
+which here are the [[linear representations]] of the moduli [[fundamental group]]:
+
+$
+ \begin{aligned}
+   TopQuStSpc
+   &
+   \coloneqq
+   (TopObs, \star) Mod
+   \\
+   & \equiv
+   \Big(
+     H_0\big(
+       \Omega Map^\ast(X^{d-1}_{dom}, \mathcal{A})
+     \big)
+   \Big) Mod
+   \\
+   & \simeq
+   \Big(
+     \mathbb{C}\big[
+       \pi_1
+       Map^\ast(X^{d-1}_{dom}, \mathcal{A})
+     \big]
+   \Big) Mod
+   \\
+   & \simeq
+   \big(
+       \pi_1
+       Map^\ast(X^{d-1}_{dom}, \mathcal{A})
+     \big]
+   \big) Rep
+ \end{aligned}
+$
+
+
+
+
+
+
+
 
 
 
