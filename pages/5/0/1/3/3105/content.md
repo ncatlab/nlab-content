@@ -636,6 +636,9 @@ The Whitehead product of $\mathbb{C}P^1 \vee \mathbb{C}P^1 \to \mathbb{C}P^\inft
 [[!redirects Whitehead L-infinity algebra]]
 [[!redirects Whitehead L-infinity algebras]]
 
+[[!redirects Whitehead L∞-algebra]]
+[[!redirects Whitehead L∞-algebras]]
+
 [[!redirects Whitehead bracket L-infinity algebra]]
 [[!redirects Whitehead bracket L-infinity algebras]]
 
