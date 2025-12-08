@@ -95,7 +95,8 @@ for
 
 $
  \mathrm{d} F_{2\bullet} = 0
- \,\;\;\;\;
+ \Big\}
+ \,,\;\;\;\;
  \star_{1,9} F_{2\bullet} = F_{10-2\bullet}
  ,.
 $
@@ -104,6 +105,7 @@ $
 
 $
   \mathrm{d} H_{2k+1} = 0
+  \Big\}
   \,,\;\;\;\;\;
   \star_{1,4k+1} H_{2k+1} = H_{2k+1}
 $
@@ -133,8 +135,285 @@ $
   \end{aligned}
   \right\}
   \,,\;\;\;\;
-  F_7 = \star_{1,10} G_4
+  G_7 = \star_{1,10} G_4
 $
+
+
+\linebreak
+
+now assume a [[globally hyperbolic spacetime]]
+
+$
+  X^{1,d} \simeq \mathbb{R}^{1,0} \times X^d
+$
+
+with [[Cauchy surface]]
+
+$
+  X^d \xhookrightarow{ \iota_t } \mathbb{R}^{1,0} \times X^d
+$
+
+and consider the time-local solution space
+
+$
+  LocSol_t
+  \;\coloneqq\;
+  \begin{array}{l}
+    \text{ temporal germs of solutions }
+    \\
+    \text{ of the above EoMs around }\; \{t\} \times X^d 
+  \end{array}
+$
+
+\linebreak
+
+**Proposition.**
+
+$
+  LocSol_t
+  \xrightarrow[\sim]{\phantom{--}\iota_t^\ast\phantom{--}}
+  \Big\{
+    \vec B
+    \coloneqq
+    \big(
+      B^{(i)} \in \Omega^{deg_i}_{dR}(X^d)
+    \big)_{i \in I}
+    \;\Big\vert\;
+    \mathrm{d}\vec B = \vec P(\vec B)
+  \Big\}
+$
+
+so
+
+* dual flux densities become [[canonical momenta]]
+
+* Hodge duality relation disappears (absorbed in the iso)
+
+* remaining differential relation is [higher Gauss law](/nlab/show/Gauss+law#InHigherGaugeTheory)
+
+\linebreak
+
+**Proposition:** Moreover:
+
+$
+  \Big\{
+    \vec B
+    \;\Big\vert\;
+    \mathrm{d}\vec B = \vec P(\vec B)
+  \Big\}
+  \;\;
+  \simeq
+  \;\;
+  \Omega^1_{dR}\big(X^d; \mathfrak{a}\big)_{cl}
+$
+
+for **characteristic $L_\infty$-algebra** $\mathfrak{a}$
+
+connected [$L_\infty$-algebras](/nlab/show/L-infinity-algebra) of [[finite type]] are
+
+$
+  \begin{array}{ccc}
+    L_\infty Alg^{ft}_{conn}
+    &\xhookrightarrow{\phantom{--}}&
+    dgcAlg^{op}
+    \\
+    \left(
+      \mathfrak{g}
+      ,\;
+      \begin{array}{l}
+        [-], [-,-], 
+        \\
+        [-,-,-], \cdots
+      \end{array}
+    \right)
+    &\mapsto&
+    \left(
+    \wedge^\bullet \mathfrak{g}^{\vee}
+    ,\,
+    \mathrm{d}_{\vert \wedge^1 \mathfrak{g}^{\vee}}
+    =
+    \begin{array}{l}
+      [-]^\ast + [-,-]^\ast +
+      \\
+      [-,-,-]^\ast + \cdots
+    \end{array}
+    \right)
+  \end{array}
+$
+
+where $\mathfrak{g}$ is 
+
+* an $\mathbb{N}$-[[graded vector space]]
+
+* degreewise of finite dimension.
+
+and [closed $L_\infty$-valued forms](/nlab/show/infinity-Lie+algebroid-valued+differential+form) are
+
+$
+  \Omega^1_{dR}\big(X; \mathfrak{g}\big)_{cl}
+  \;\coloneqq\;
+  Hom_{dgAlg}\Big(
+    CE(\mathfrak{g})
+    ,
+    \Omega^\bullet_{dR}(X)
+  \Big)
+$
+
+\linebreak
+
+**Definition/Proposition**
+
+For $\mathcal{A}$ a [[connected topological space]]
+
+with abelian [[fundamental groups]] (for simplicity)
+
+and $dim_{\mathbb{R}}\big(H^\bullet(\mathcal{A},\mathbb{R}) \lt \infty$
+
+then its real [[Whitehead L∞-algebra]] $\mathfrak{l}\mathcal{A}$ is 
+
+$
+  (\mathfrak{l}\mathcal{A})_\bullet
+  \coloneqq
+  \pi_\bullet(\Omega \mathcal{A}) \otimes_{\mathbb{Z}} \mathbb{R}
+$
+
+with brackets uniquely determined by the condition that
+
+$
+  H^\bullet\big(
+    CE(\mathfrak{l}\mathcal{A})
+  \big)
+  \;\simeq\;
+  H^\bullet\big(
+   \mathcal{A}; \mathbb{R}
+  \big)
+$
+
+\linebreak
+
+**Examples**
+
+[[electromagnetism]]: $\mathfrak{a} = \mathfrak{l}(B \mathrm{U}(1)^2)$
+
+[[self-dual higher gauge field]]: $\mathfrak{a} = \mathfrak{l} B^{2k} \mathbb{Z}$
+
+[[RR-field]]: $\mathfrak{a} = \mathfrak{l}(B \mathrm{U})$
+
+[[Maxwell-Chern-Simons field]]: $\mathfrak{a} = \mathfrak{l}S^2$
+
+[[C-field]]: $\mathfrak{a} = \mathfrak{l}S^4$
+
+\linebreak
+
+**Definition/Proposition.**
+
+The *total flux* of a [[flux density]] $\vect F$
+
+is its image in [[non-abelian de Rham cohomology]]
+
+$
+ H^1_{dR}\big(
+   X;\, \mathfrak{a}
+ \big)
+ \;\simeq\;
+ \Omega^1_{dR}\big(X; \mathfrak{a}\big)_{cl}\big/ \text{concordance}
+$
+
+\linebreak
+
+**Definition/Proposition.**
+
+Denoting by
+
+* $L^{\mathbb{Q}}\mathcal{A}$ the [[rationalization]] of $\mathcal{A}$,
+
+* $L^{\mathbb{R}}\mathcal{A}$ its [[extension of scalars]] to the reals
+
+* $\eta^{\mathbb{R}} \colon \mathcal{A} \longrightarrow L^{\mathbb{R}} \mathcal{A}$ the comparison mao,
+
+the *nonabelian character map* is
+
+$
+  \begin{array}{ccc}
+    \begin{array}{c}
+    \text{charge in}
+    \\
+    \text{nonabelian cohomology}
+    \end{array}
+    &character&
+    \begin{array}{c}
+    \text{total flux in}
+    \\
+    \text{nonabelian dR-cohomology}
+    \end{array}
+    \\
+    H^1(X;\,\Omega \mathcal{A})
+    &\xrightarrow{\phantom{--} ch^{\mathcal{A}} \phantom{--}}&
+    H^1_{dR}\big(X;\,\mathfrak{a}\big)
+    \\
+    = && \simeq
+    \\
+    \pi_0\, Map\big(X, \mathcal{A}\big)
+    &\xrightarrow{\phantom{--} \eta^{\mathbb{R}} \phantom{--}}&
+    \pi_0\, Map\big(X, L^{\mathbb{R}}\mathcal{A}\big)
+  \end{array}
+$
+
+\linebreak
+
+**Flux quantization** of a higher gauge theory is
+
+choice of $\mathcal{A}$ with $\mathfrak{l}\mathcal{A}\simeq \mathfrak{a}$
+
+Promotion of flux densities to pairs $(\vec F, \chi)$ for 
+
+$\chi$ a charge whose character is the total flux of $\vec F$:
+
+$
+  \begin{array}{ccccc}
+    \Omega^1_{dR}\big(
+      X^d; \mathfrak{a}
+    \big)_{cl}
+    &\xrightarrow{ [-] }&
+    H^1_{dR}\big(
+     X^d;\,
+     \mathfrak{a}
+    \big)
+    &\xleftarrow{ ch^{\mathcal{A}} }&
+    H^1(X^d; \Omega \mathcal{A})
+    \\
+    \vec F
+    &\mapsto&
+    [\vec F] = ch^{\mathcal{A}}(\chi)
+    &\leftarrow\!\!\!\vert&
+    \chi
+  \end{array}
+$
+
+\linebreak
+
+There is either none of infinitely many admissible $\mathcal{A}$
+
+$\Rightarrow$ is a *hypothesis* about the correct model for given physics
+
+**Examples**
+
+[[Dirac charge quantization]] of EM-field: 
+$\mathcal{A} \equiv B \mathrm{U}(1)^2$
+
+Hyothesis h on 5D MCS-field:
+$\mathcal{A} \equiv S^2 $
+
+
+[[Hypothesis H]] on [[C-field]]:
+$\mathcal{A} \equiv S^4 $
+
+
+
+(...)
+
+
+
 
 
 
