@@ -540,10 +540,10 @@ $
 
 Also think of $\mathcal{A}$ as pointed by 0-charge
 
-$$
+$
   \big(\mathcal{A}, 0\big) \in Top^\ast
   \,.
-$$
+$
 
 Then a pointed map $\chi \in Map^\ast\big(X^d_{dom}, \mathcal{A}\big)$ 
 
@@ -578,7 +578,7 @@ $
 
 Question: What is the quantum operator product $\star$ on $TopObs$?
 
-[Feynman 1948](/nlab/show/path integral#QuantumCommutatorsAreTimeOrderedOrdinaryProducts):
+[Feynman 1948](/nlab/show/path+integral#QuantumCommutatorsAreTimeOrderedOrdinaryProducts):
 the time-ordered ordinary product 
 
 e.g. for field operators $\phi$ and their [[canonical momenta]]:
@@ -600,17 +600,17 @@ $$
     \\
     -
     \big\langle
-    \pi(t, \vec x)
+    \phi(t, \vec x)
     \star
-    \phi(t, \vec y)
+    \pi(t, \vec y)
     \big\rangle
     &&
     -
     \underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim}
     \big\langle
-      \pi(t + \epsilon, \vec x)
+      \phi(t + \epsilon, \vec x)
       \cdot
-      \phi(t, \vec y)
+      \pi(t, \vec y)
     \big\rangle
   \end{array}
 $$
@@ -745,7 +745,8 @@ $
    \Big(
      H_0\big(
        \Omega Map^\ast(X^{d-1}_{dom}, \mathcal{A})
-     \big)
+     \big),
+     \star
    \Big) Mod
    \\
    & \simeq
@@ -758,41 +759,1344 @@ $
    \\
    & \simeq
    \big(
-       \pi_1
-       Map^\ast(X^{d-1}_{dom}, \mathcal{A})
-     \big]
+     \pi_1
+     Map^\ast(X^{d-1}_{dom}, \mathcal{A})
    \big) Rep
  \end{aligned}
 $
 
 
+\linebreak
+
+{#Part3} **Part 3 -- Application to Topological Quantum Materials**
+
+Consider $\mathfrak{g}$-Yang-Mills theory on 
+
+$
+  X^{1,3} = \mathbb{R}^{1,1} \times \Sigma^2
+$
+
+What are its standard topological flux quantum observables?
+
+**Proposition.** 
+
+The [[Poisson brackets]] on linear E/Mflux observables through $\Sigma^2$ are:
+
+$
+  \underset{\text{electric flux}}{
+  \underbrace{
+  C^\infty\big(
+    \Sigma^2, \mathfrak{g}_{\hbar}
+  \big)
+  }
+  }
+  \ltimes_{ad}
+  \underset{\text{magnetic flux}}{
+  \underbrace{
+  C^\infty\big(
+    \Sigma^2, \mathfrak{g}_{0}
+  \big)
+  }
+  \mathrlap{\,,}
+  }
+$
+
+where $\mathfrak{g}_{\hbar}$ is $\mathfrak{g}$ with Lie bracket rescaled by $\hbar \in \mathbb{R}_{\gt 0}$.
+
+Their non-perturbative [[C-star algebraic deformation quantization]] 
+
+is the $C^\ast$-[[convolution algebra]]:
+
+$
+  \mathbb{C}\Big[
+  C^\infty\big(
+    \Sigma^2, G
+  \big)
+  \rtimes_{Ad}
+  C^\infty\big(
+    \Sigma^2, \mathfrak{g}_{0}/\Lambda
+  \big)
+  \Big]
+$
+
+for choices of 
+
+* [[Lie group]] $G$ integrating $\mathfrak{g}$ 
+
+* $ad$-invariant lattice $\Lambda \subset \mathfrak{g}$.
+
+\linebreak
+
+Hence the traditional topological observables are
+
+$
+  \begin{aligned}
+  TopObs^{trad}
+  & =
+  \mathbb{C}\Big[
+    \pi_0
+    C^\infty\big(
+      \Sigma^2, G \ltimes \mathfrak{g}_{0}/\Lambda
+    \big)
+  \Big]
+  \\
+  & \simeq
+  \mathbb{C}\Big[
+    \pi_0
+    Map\big(
+      \Sigma^2, G \ltimes \mathfrak{g}_{0}/\Lambda
+    \big)
+  \Big]
+  \\
+  & \simeq
+  \mathbb{C}\Big[
+    \pi_1
+    Map\big(
+      \Sigma^2, B(G \ltimes \mathfrak{g}_{0}/\Lambda)
+    \big)
+  \Big]
+  \end{aligned}
+$
+
+Specifically if for Maxwell theory, $\mathfrak{g} = \mathfrak{u}(1)$ we choose
+
+$G = \mathrm{U}(1)$ and $\Lambda = \mathbb{Z} \subset \mathbb{R}$ then
+
+$
+ TopObs^{trad}
+ =
+  \mathbb{C}\Big[
+    \pi_1
+    Map\big(
+      \Sigma^2, B \mathrm{U}(1)^2
+    \big)
+  \Big]
+$
+
+which coincides with our general $TopObs$ from above.
+
+\linebreak
+
+**Example.**
+
+For $\Sigma^2 = T^2$ the [[2-torus]],
+
+$
+  \begin{aligned}
+    \pi_1
+    Map\big(
+      T^2
+      ,
+      B \mathrm{U}(1)
+    \big)
+    & \simeq
+    \pi_0
+    Map\big(
+      T^2
+      ,
+      \mathrm{U}(1)
+    \big)
+    \\
+    & \simeq
+    H^1(T^2; \mathbb{Z})
+    \\
+    & \simeq
+    \mathbb{Z}_a \times \mathbb{Z}_b
+  \end{aligned}
+$
+
+Algebra of Maxwell [[Wilson loops]]  on torus.
+
+\linebreak
+
+Now consider lifting these particles in 4D to strings in 5D
+
+$
+  X^{1,4}
+  \simeq
+  \mathbb{R}^{1,1} \times (\mathbb{R}^1 \times \Sigma^2)
+$
+
+$
+  X^4_{dom} 
+    = 
+  \mathbb{R}^1_{\sqcup \{\infty\}} 
+    \wedge
+  (\mathbb{R}^1 \times \Sigma^2)_{\cup \infty}
+  \,.
+$
+
+Under *Hyothesis h*, with $\mathcal{A} = S^2 \xhookrightarrow{\iota_2} B \mathrm{U}(1)$,
+
+the topologcal observables are deformed to:
+
+**Proposition.**
+
+$
+    \pi_1 
+    Map\big(
+      T^2,
+      S^2
+    \big)
+    \simeq
+    \widehat{\mathbb{Z}^2}
+$
+
+is the [[integer Heisenberg group]] at level=2:
+
+$
+  \widehat{\mathbb{Z}^2}
+  \coloneqq_{Set}
+  (\mathbb{Z}_a \times \mathbb{Z}_b) \times \mathbb{Z} 
+$
+
+with generating elements
+
+$
+  \begin{aligned}
+    W_a
+    &\coloneqq
+    \big((1,0), 0\big)
+    \\
+    W_b
+    &\coloneqq
+    \big((0,1), 0\big)
+    \\
+    \zeta
+    &\coloneqq
+    \big((0,0), 1\big)
+  \end{aligned}
+$
+
+on which the only non-trivial [[group commutator]] is
+
+$
+  [W_a, W_b] = \zeta^2
+  \mathrlap{\,.}
+$
+
+This is a nonabelian deformation of the Maxwell Wilson loops
+
+In fact this is exactly the algebra of observables of
+
+1. [[abelian Chern-Simons theory]] 
+
+2. [[anyons]] in [[fractional quantum Hall systems]],
+
+the latter being (vortices in a 2D electron liquid induced by) 
+
+surplus magnetic [[flux quanta]] 
+
+on top of some rational number of flux quanta per electrons.
+
+\linebreak
+
+Let's further lift this situation to [[11D supergravity]] on
+
+$
+  X^{1,10}
+  \coloneqq
+  \mathbb{R}^{1,3}
+  \times
+  \big(
+    \mathbb{R}^1 \times S^3 \times S^3
+  \big)
+$
+
+with 
+
+$
+  X^{10}_{dom}
+  \coloneqq
+  \mathbb{R}^3_{\sqcup \{\infty\}}
+  \wedge
+  \big(
+    \mathbb{R}^1 \times S^3 \times S^3
+  \big)_{\cup \{\infty\}}
+$
+
+globally completed according to [[Hypothesis H]]:
+
+\linebreak
+
+
+**Proposition.**
+
+$
+  \pi_1 Map\big( S^3 \times S^3, S^4 \big)
+  \simeq
+  \widehat{\mathbb{Z}^2}
+  \times 
+  \mathbb{Z}_{/12}
+$
+
+Under the [[Pontrjagin theorem]] this says that 
+
+5-branes on this background, wrapped on $\mathbb{R}^{1,3}$ 
+
+have the same anyon braiding in $S^3 \times S^3$ as FQH anyons on $T^2$
+
+
+\linebreak
+
+For more see at [ncatlab.org/schreiber/show/ICMS25](https://ncatlab.org/schreiber/show/ICMS25)
+
+
+\linebreak
+
+***
+
+\linebreak
+
+> This [[nLab:HomePage|nLab]] page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](/nlab/history/Sandbox).
+
+
+\linebreak
+
+
+***
 
 
 
+**Complete Topological Quantization of Higher Gauge Fields**
+\linebreak
+[ncatlab.org/schreiber/show/ICMS25](https://ncatlab.org/schreiber/show/ICMS25)
+
+Plan:
+
+1. [Completion of Higher Gauge Theories](#Part1)
+
+2. [Their Complete Topological Quantization](#Part2)
+
+3. [Application to Topological Quantum Materials](#Part3)
 
 
+Motivation: 
+
+* Global completion of [[nLab:11D supergravity]] ("[[nLab:M-theory]]"),
+
+* and of its [[nLab:M5-brane]] [[nLab:probe brane|probes]] ("[[nLab:Theory X]]"),
+
+* relatedly of [[nLab:FQH system|FQH]] [[nLab:anyons]] ("[[nLab:topological quantum]]").
+
+\linebreak
+
+{#Part1} **Part 1 -- Completion of Higher Gauge Theories**
+
+Recall [[nLab:Maxwell's equations]] in [[nLab:vacuum]]:
+
+$
+  \mathrm{d} F_2 = 0
+  ,\;
+  \mathrm{d} \star_{1,3} F_2 = 0
+  \mathrlap{\,.}
+$
+
+Suprprisingly good idea to rewrite this in
+
+[[nLab:pre-metric electromagnetism|pre-metric or duality symmetric form]]
+
+$
+  \left.
+  \begin{aligned}
+  \mathrm{d} F_2 & = 0
+  \\
+  \mathrm{d} G_2 &= 0
+  \end{aligned}
+  \right\}\,,
+  \;\;\;\;\;
+  G_2 = \star_{1,3} F_2
+$
+
+In this vein, say that
+
+**[higher Maxwell-type equations](/nlab/show/Gauss law#InHigherGaugeTheory)** 
+
+on higher [[nLab:flux densities]]
+
+$
+  \vec F 
+  \;\coloneqq\;
+  \Big(
+    F^{(i)} \in Omega^{deg_i}_{dR}(X^{1,d})
+  \Big)_{i \in I}
+$
+
+are equations of the form
+
+$
+  \mathrm{d} \vec F
+  \;=\;
+  \vec P\big( \vec F  \big)
+  \,,\;\;\;\;
+  \star_{1,d} \vec F = \vec \mu\big( \vec F \big)
+$
+
+for
+
+* $\vec P$ an $I$-tuple of graded-symemtric [[nLab:polynomials]],
+
+* $\vec \mu$ an $I$-tuple of [[nLab:linear maps]]
 
 
+**Examples**
+
+[[nLab:RR-field]] in [[nLab:type IIA 10D supergravity]]:
+
+$
+ \mathrm{d} F_{2\bullet} = 0
+ \Big\}
+ \,,\;\;\;\;
+ \star_{1,9} F_{2\bullet} = F_{10-2\bullet}
+ ,.
+$
+
+[[nLab:self-dual higher gauge field]]:
+
+$
+  \mathrm{d} H_{2k+1} = 0
+  \Big\}
+  \,,\;\;\;\;\;
+  \star_{1,4k+1} H_{2k+1} = H_{2k+1}
+$
+
+[[nLab:Maxwell-Chern-Simons field]] in minimal [[nLab:5D supergravity]]
+
+$
+  \left.
+  \begin{aligned}
+    \mathrm{d} F_2 & = 0
+    \\
+    \mathrm{d} F_3 & = \tfrac{1}{2} F_2 \wedge F_2
+  \end{aligned}
+  \right\}
+  \,,\;\;\;\;
+  F_3 = \star_{1,4} F_2
+$
+
+[[nLab:C-field]] in [[nLab:11D supergravity]]:
+
+$
+  \left.
+  \begin{aligned}
+    \mathrm{d} G_4 & = 0
+    \\
+    \mathrm{d} G_7 & = \tfrac{1}{2} G_4 \wedge G_3
+  \end{aligned}
+  \right\}
+  \,,\;\;\;\;
+  G_7 = \star_{1,10} G_4
+$
 
 
+\linebreak
+
+now assume a [[nLab:globally hyperbolic spacetime]]
+
+$
+  X^{1,d} \simeq \mathbb{R}^{1,0} \times X^d
+$
+
+with [[nLab:Cauchy surface]]
+
+$
+  X^d \xhookrightarow{ \iota_t } \mathbb{R}^{1,0} \times X^d
+$
+
+and consider the time-local solution space
+
+$
+  LocSol_t
+  \;\coloneqq\;
+  \begin{array}{l}
+    \text{ temporal germs of solutions }
+    \\
+    \text{ of the above EoMs around }\; \{t\} \times X^d 
+  \end{array}
+$
+
+\linebreak
+
+**Proposition.**
+
+$
+  LocSol_t
+  \xrightarrow[\sim]{\phantom{--}\iota_t^\ast\phantom{--}}
+  \Big\{
+    \vec B
+    \coloneqq
+    \big(
+      B^{(i)} \in \Omega^{deg_i}_{dR}(X^d)
+    \big)_{i \in I}
+    \;\Big\vert\;
+    \mathrm{d}\vec B = \vec P(\vec B)
+  \Big\}
+$
+
+so
+
+* dual flux densities become [[nLab:canonical momenta]]
+
+* Hodge duality relation disappears (absorbed in the iso)
+
+* remaining differential relation is [higher Gauss law](/nlab/show/Gauss+law#InHigherGaugeTheory)
+
+\linebreak
+
+**Proposition:** Moreover:
+
+$
+  \Big\{
+    \vec B
+    \;\Big\vert\;
+    \mathrm{d}\vec B = \vec P(\vec B)
+  \Big\}
+  \;\;
+  \simeq
+  \;\;
+  \Omega^1_{dR}\big(X^d; \mathfrak{a}\big)_{cl}
+$
+
+for **characteristic $L_\infty$-algebra** $\mathfrak{a}$
+
+connected [$L_\infty$-algebras](/nlab/show/L-infinity-algebra) of [[nLab:finite type]] are
+
+$
+  \begin{array}{ccc}
+    L_\infty Alg^{ft}_{conn}
+    &\xhookrightarrow{\phantom{--}}&
+    dgcAlg^{op}
+    \\
+    \left(
+      \mathfrak{g}
+      ,\;
+      \begin{array}{l}
+        [-], [-,-], 
+        \\
+        [-,-,-], \cdots
+      \end{array}
+    \right)
+    &\mapsto&
+    \left(
+    \wedge^\bullet \mathfrak{g}^{\vee}
+    ,\,
+    \mathrm{d}_{\vert \wedge^1 \mathfrak{g}^{\vee}}
+    =
+    \begin{array}{l}
+      [-]^\ast + [-,-]^\ast +
+      \\
+      [-,-,-]^\ast + \cdots
+    \end{array}
+    \right)
+  \end{array}
+$
+
+where $\mathfrak{g}$ is 
+
+* an $\mathbb{N}$-[[nLab:graded vector space]]
+
+* degreewise of finite dimension.
+
+and [closed $L_\infty$-valued forms](/nlab/show/infinity-Lie+algebroid-valued+differential+form) are
+
+$
+  \Omega^1_{dR}\big(X; \mathfrak{g}\big)_{cl}
+  \;\coloneqq\;
+  Hom_{dgAlg}\Big(
+    CE(\mathfrak{g})
+    ,
+    \Omega^\bullet_{dR}(X)
+  \Big)
+$
+
+\linebreak
+
+**Definition/Proposition**
+
+For $\mathcal{A}$ a [[nLab:connected topological space]]
+
+with abelian [[nLab:fundamental groups]] (for simplicity)
+
+and $dim_{\mathbb{R}}\big(H^\bullet(\mathcal{A},\mathbb{R}) \lt \infty$
+
+then its real [[nLab:Whitehead L∞-algebra]] $\mathfrak{l}\mathcal{A}$ is 
+
+$
+  (\mathfrak{l}\mathcal{A})_\bullet
+  \coloneqq
+  \pi_\bullet(\Omega \mathcal{A}) \otimes_{\mathbb{Z}} \mathbb{R}
+$
+
+with brackets uniquely determined by the condition that
+
+$
+  H^\bullet\big(
+    CE(\mathfrak{l}\mathcal{A})
+  \big)
+  \;\simeq\;
+  H^\bullet\big(
+   \mathcal{A}; \mathbb{R}
+  \big)
+$
+
+\linebreak
+
+**Examples**
+
+[[nLab:electromagnetism]]: $\mathfrak{a} = \mathfrak{l}(B \mathrm{U}(1)^2)$
+
+[[nLab:self-dual higher gauge field]]: $\mathfrak{a} = \mathfrak{l} B^{2k} \mathbb{Z}$
+
+[[nLab:RR-field]]: $\mathfrak{a} = \mathfrak{l}(B \mathrm{U})$
+
+[[nLab:Maxwell-Chern-Simons field]]: $\mathfrak{a} = \mathfrak{l}S^2$
+
+[[nLab:C-field]]: $\mathfrak{a} = \mathfrak{l}S^4$
+
+\linebreak
+
+**Definition/Proposition.**
+
+The *total flux* of a [[nLab:flux density]] $\vect F$
+
+is its image in [[nLab:non-abelian de Rham cohomology]]
+
+$
+ H^1_{dR}\big(
+   X;\, \mathfrak{a}
+ \big)
+ \;\simeq\;
+ \Omega^1_{dR}\big(X; \mathfrak{a}\big)_{cl}\big/ \text{concordance}
+$
+
+\linebreak
+
+**Definition/Proposition.**
+
+Denoting by
+
+* $L^{\mathbb{Q}}\mathcal{A}$ the [[nLab:rationalization]] of $\mathcal{A}$,
+
+* $L^{\mathbb{R}}\mathcal{A}$ its [[nLab:extension of scalars]] to the reals
+
+* $\eta^{\mathbb{R}} \colon \mathcal{A} \longrightarrow L^{\mathbb{R}} \mathcal{A}$ the comparison mao,
+
+the *nonabelian character map* is
+
+$
+  \begin{array}{ccc}
+    \begin{array}{c}
+    \text{charge in}
+    \\
+    \text{nonabelian cohomology}
+    \end{array}
+    &character&
+    \begin{array}{c}
+    \text{total flux in}
+    \\
+    \text{nonabelian dR-cohomology}
+    \end{array}
+    \\
+    H^1(X;\,\Omega \mathcal{A})
+    &\xrightarrow{\phantom{--} ch^{\mathcal{A}} \phantom{--}}&
+    H^1_{dR}\big(X;\,\mathfrak{a}\big)
+    \\
+    = && \simeq
+    \\
+    \pi_0\, Map\big(X, \mathcal{A}\big)
+    &\xrightarrow{\phantom{--} \eta^{\mathbb{R}} \phantom{--}}&
+    \pi_0\, Map\big(X, L^{\mathbb{R}}\mathcal{A}\big)
+  \end{array}
+$
+
+\linebreak
+
+**Flux quantization** of a higher gauge theory is
+
+choice of $\mathcal{A}$ with $\mathfrak{l}\mathcal{A}\simeq \mathfrak{a}$
+
+Promotion of flux densities to pairs $(\vec F, \chi)$ for 
+
+$\chi$ a charge whose character is the total flux of $\vec F$:
+
+$
+  \begin{array}{ccccc}
+    \Omega^1_{dR}\big(
+      X^d; \mathfrak{a}
+    \big)_{cl}
+    &\xrightarrow{ [-] }&
+    H^1_{dR}\big(
+     X^d;\,
+     \mathfrak{a}
+    \big)
+    &\xleftarrow{ ch^{\mathcal{A}} }&
+    H^1(X^d; \Omega \mathcal{A})
+    \\
+    \vec F
+    &\mapsto&
+    [\vec F] = ch^{\mathcal{A}}([\chi])
+    &\leftarrow\!\!\!\vert&
+    [\chi]
+  \end{array}
+$
+
+\linebreak
+
+There is either none of infinitely many admissible $\mathcal{A}$
+
+$\Rightarrow$ is a *hypothesis* about the correct model for given physics
+
+**Examples**
+
+[[nLab:Dirac charge quantization]] of EM-field: $\mathcal{A} \equiv B \mathrm{U}(1)^2$
+
+[Hypothesis K](/nlab/show/D-brane+charge+quantization+in+K-theory) on the [[nLab:RR-field]]
+
+[Hypothesis h](/schreiber/show/Renormalization+of+Wilson+Loops) on [[nLab:Maxwell-Chern-Simons field]]: $\mathcal{A} \equiv S^2 $
+
+[[nLab:Hypothesis H]] on [[nLab:C-field]]: $\mathcal{A} \equiv S^4$
+
+\linebreak
+
+Finally, the full completed higher gauge field 
+
+is not just the flux densities $\vec F$, a charge $\chi$
+
+and an *[[nLab:equality]]* $[\vec F] = ch[\chi]$, but involves
+
+a [[nLab:gauge transformation]]/[[nLab:homotopy]] $\widehat{A}$ exhibiting this equality 
+
+which out the "be" the [[nLab:gauge potentials]].
+
+The globally completed phase space is, schematically:
+
+$
+  PhsSpc
+  \;\coloneqq\;
+  \left\{
+  \begin{array}{ll}
+    \text{gauge potentials} & \vec F \in \Omega^1_{dR}(X^d;\mathfrak{a})
+    \\
+    \text{local charges} & \chi \in Map(X^d, \mathcal{A})
+    \\
+    \text{gauge potentials} & \widehat{A} \colon \vec F \Rightarrow \chi
+  \end{array}
+  \right\}
+$
+
+In reality this is the [smooth ∞-groupoid](/nlab/show/smooth+infinity-groupoid) 
+
+which as such is the [[nLab:homotopy pullback]] 
+
+of the character map from total flux to flux densities.
+
+Essentially. In the following we will only need 
+
+the *[[nLab:shape modality|shape]]* of the space space, 
+
+which turns out to be given by a concrete formula.
 
 
+\linebreak
+
+{#Part2} **Part 2 -- Their Complete Topological Quantization**
+
+[[nLab:observables]] are the [[nLab:smooth functions]] on [[nLab:phase space]]
+
+$
+  O \,\colon\,
+  PhsSpc
+  \longrightarrow
+  \mathbb{C}
+$
+
+the *topological observables* are the *locally constant* functions
+
+$
+  O \,\colon\,
+  PhsSpc
+  \longrightarrow
+  \flat \mathbb{C}
+$
+
+(where $\flat \mathcal{C}$ is the discrete set [[nLab:underlying]] $\mathcal{C}$)
+
+\linebreak
+
+**Proposition**
+
+The topological observables 
+
+$
+  PhsSpc \xrightarrow{\phantom{--}} \flat \mathbb{C}
+$
+
+are naturally equivalent to the maps
+
+$
+  \pi_0 \, Map(X^d, \mathcal{A}) 
+    \xrightarrow{\phantom{--}}
+  \mathcal{C}
+$
+
+out of the [[nLab:connected components]] of the [[nLab:mapping space]] 
+
+from the [[nLab:Cauchy surface]] into the [[nLab:classifying space]],
+
+\linebreak
+
+"Topologically, fields are only seen through their charges."
 
 
+\linebreak
+
+Moreover, realistic observables are 
+
+supported on finitely many components, hence:
+
+$
+  TopObs 
+  \;\coloneqq\;
+  \mathbb{C}\big[
+    \pi_0 \, Map(X^d, \mathcal{A})
+  \big]
+  \,\simeq\,
+  H_0\big(
+    Map(X^d, \mathcal{A})
+    ;\,
+    \mathbb{C}
+  \big)
+$
+
+\linebreak
+
+More specifically, we look at **field [[nLab:solitons]]**, 
+
+whose charge [vanishes at infinity](/nlab/show/vanishing+at+infinity)
+
+To formalize this, consider a [[nLab:pointed topological space]]
+
+$ 
+ \big( X^d_{dom}, \infty \big)
+ \in
+ Top^\ast
+$
+
+with basepoint thought of as a [[nLab:point at infinity]]:
+
+$
+ X^d \,\simeq\, X^d_{dom} \setminus \{\infty\}
+$
+
+Also think of $\mathcal{A}$ as pointed by 0-charge
+
+$
+  \big(\mathcal{A}, 0\big) \in Top^\ast
+  \,.
+$
+
+Then a pointed map $\chi \in Map^\ast\big(X^d_{dom}, \mathcal{A}\big)$ 
+
+*literally* takes the value $0$ at $\infty$
+
+$
+ \begin{array}{ccc}
+    X^d_{dom} &\xrightarrow{\phantom{--} \chi \phantom{--}}&
+    \mathcal{A}
+    \\
+    \uparrow
+    &&
+    \uparrow
+    \\
+    \{\infty\} &\xrightarrow{\phantom{----}}& \{0\}
+ \end{array}
+$
+
+\linebreak
+
+So the *solitonic topological observabes* are
+
+$
+  TopObs
+  \,\coloneqq\,
+  \mathbb{C}\Big[
+    Map^\ast\big(X^d_{dom}, \mathcal{A}\big)
+  \Big]
+$
+
+\linebreak
+
+Question: What is the quantum operator product $\star$ on $TopObs$?
+
+[Feynman 1948](/nlab/show/path+integral#QuantumCommutatorsAreTimeOrderedOrdinaryProducts):
+the time-ordered ordinary product 
+
+e.g. for field operators $\phi$ and their [[nLab:canonical momenta]]:
+
+$$
+  \begin{array}{rcr}
+    \big\langle
+    \pi(t, \vec x)
+    \star
+    \phi(t, \vec y)
+    \big\rangle
+    &=&
+    \underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim}
+    \big\langle
+      \pi(t + \epsilon, \vec x)
+      \cdot
+      \phi(t, \vec y)
+    \big\rangle
+    \\
+    -
+    \big\langle
+    \phi(t, \vec x)
+    \star
+    \pi(t, \vec y)
+    \big\rangle
+    &&
+    -
+    \underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim}
+    \big\langle
+      \phi(t + \epsilon, \vec x)
+      \cdot
+      \pi(t, \vec y)
+    \big\rangle
+  \end{array}
+$$
+
+\linebreak
+
+The analogue is still true for [[nLab:light front quantization]]
+
+with respect to ordering in the light-front parameter 
+$X^+ \coloneqq X^0 + x^1$.
+
+So consider light-fron quantization on spacetime 
+
+$
+  \begin{aligned}
+    X^{1,d}
+    &\simeq\,
+    \mathbb{R}^{1,1} \times X^{d-1}
+    \\
+    X^d
+    & \simeq
+    \mathbb{R}^1 \times X^{d-1}
+    \\
+    X^d_{dom} 
+    & =
+    \mathbb{R}^1_{\cup \{\infty\}} \wedge X^{d-1}_{dom}
+  \end{aligned}
+$
+
+For topological observables which are necessarily $x^0$-independent
+
+their light-front ordering is their $x^1$-ordering.
+
+This is given by the *[[nLab:Pontrjagin product]]*/[fundamental](/nlab/show/fundamental+group)[[nLab:group algebra]] on
+
+$
+  \begin{aligned}
+  TopObs
+  & =
+  H_0\Big(
+    Map^\ast\big(
+      \mathbb{R}^1_{\cup \{\infty\}}
+      \wedge
+      X^d_{dom}
+    \big)
+  \Big)
+  \\
+  & \simeq
+  H_0\Big(
+    \Omega
+    Map^\ast\big(
+      X^d_{dom}
+    \big)
+  \Big)  
+  \\
+  & \simeq
+  \mathbb{C}\Big[
+    \pi_1
+    \,
+    Map^\ast\big(
+      X^d_{dom}
+    \big)
+  \Big]
+  \end{aligned}
+$
+
+induced under pushforward in homology
+
+$
+  H_0(\Omega M)
+  \otimes
+  H_0(\Omega M)
+  \simeq
+  H_0(\Omega M \times \Omega M)
+  \xrightarrow{\phantom{--} \star_\ast \phantom{--}}
+  H_0(\Omega M)
+$
+
+from concatenation of loops
+
+$
+  \begin{array}{ccc}
+    \Omega M \times \Omega M
+    &\xrightarrow{\phantom{--} \star \phantom{--}}&
+    \Omega M
+    \\
+    \big( \ell_2, \ell_1 \big)
+    &\mapsto&
+    \ell_2 \star \ell_1 
+    &
+    \colon\;
+    x^1 \,\mapsto\,
+    \left\{
+    \begin{array}{lcl}
+      \ell_1\big(\ln(-\tfrac{1}{x^1})\big) & \vert & x^1 \geq 0
+      \\
+      \ell_2\big(\ln(+x^1)\big) & \vert & x^1 \leq 0
+    \end{array}
+  \right.
+  \end{array}
+$
+
+So where $\delta_\ell \in TopObs$ 
+\linebreak
+is the $\{0,1\}$-valued observable asking:
+
+"Is the field history of shape [\ell]?"
+
+the observable $\delta_{\ell_2} \star \delta_{\ell_1}$ asks
+
+"Is the field history 
+\linebreak *first* of shape $\ell_1$ and 
+\linebreak *then* of shape $\ell_2$?"
 
 
+\linebreak
 
+With the algebra of topological quantum observables understood, 
 
+the *topological [[nLab:quantum states]]* are its [[nLab:modules]],
 
+which here are the [[nLab:linear representations]] of the moduli [[nLab:fundamental group]]:
 
+$
+ \begin{aligned}
+   TopQuStSpc
+   &
+   \coloneqq
+   (TopObs, \star) Mod
+   \\
+   & \equiv
+   \Big(
+     H_0\big(
+       \Omega Map^\ast(X^{d-1}_{dom}, \mathcal{A})
+     \big),
+     \star
+   \Big) Mod
+   \\
+   & \simeq
+   \Big(
+     \mathbb{C}\big[
+       \pi_1
+       Map^\ast(X^{d-1}_{dom}, \mathcal{A})
+     \big]
+   \Big) Mod
+   \\
+   & \simeq
+   \big(
+     \pi_1
+     Map^\ast(X^{d-1}_{dom}, \mathcal{A})
+   \big) Rep
+ \end{aligned}
+$
 
-(...)
 
 \linebreak
 
 {#Part3} **Part 3 -- Application to Topological Quantum Materials**
 
-(...)
+Consider $\mathfrak{g}$-Yang-Mills theory on 
+
+$
+  X^{1,3} = \mathbb{R}^{1,1} \times \Sigma^2
+$
+
+What are its standard topological flux quantum observables?
+
+**Proposition.** 
+
+The [[nLab:Poisson brackets]] on linear E/Mflux observables through $\Sigma^2$ are:
+
+$
+  \underset{\text{electric flux}}{
+  \underbrace{
+  C^\infty\big(
+    \Sigma^2, \mathfrak{g}_{\hbar}
+  \big)
+  }
+  }
+  \ltimes_{ad}
+  \underset{\text{magnetic flux}}{
+  \underbrace{
+  C^\infty\big(
+    \Sigma^2, \mathfrak{g}_{0}
+  \big)
+  }
+  \mathrlap{\,,}
+  }
+$
+
+where $\mathfrak{g}_{\hbar}$ is $\mathfrak{g}$ with Lie bracket rescaled by $\hbar \in \mathbb{R}_{\gt 0}$.
+
+Their non-perturbative [[nLab:C-star algebraic deformation quantization]] 
+
+is the $C^\ast$-[[nLab:convolution algebra]]:
+
+$
+  \mathbb{C}\Big[
+  C^\infty\big(
+    \Sigma^2, G
+  \big)
+  \rtimes_{Ad}
+  C^\infty\big(
+    \Sigma^2, \mathfrak{g}_{0}/\Lambda
+  \big)
+  \Big]
+$
+
+for choices of 
+
+* [[nLab:Lie group]] $G$ integrating $\mathfrak{g}$ 
+
+* $ad$-invariant lattice $\Lambda \subset \mathfrak{g}$.
+
+\linebreak
+
+Hence the traditional topological observables are
+
+$
+  \begin{aligned}
+  TopObs^{trad}
+  & =
+  \mathbb{C}\Big[
+    \pi_0
+    C^\infty\big(
+      \Sigma^2, G \ltimes \mathfrak{g}_{0}/\Lambda
+    \big)
+  \Big]
+  \\
+  & \simeq
+  \mathbb{C}\Big[
+    \pi_0
+    Map\big(
+      \Sigma^2, G \ltimes \mathfrak{g}_{0}/\Lambda
+    \big)
+  \Big]
+  \\
+  & \simeq
+  \mathbb{C}\Big[
+    \pi_1
+    Map\big(
+      \Sigma^2, B(G \ltimes \mathfrak{g}_{0}/\Lambda)
+    \big)
+  \Big]
+  \end{aligned}
+$
+
+Specifically if for Maxwell theory, $\mathfrak{g} = \mathfrak{u}(1)$ we choose
+
+$G = \mathrm{U}(1)$ and $\Lambda = \mathbb{Z} \subset \mathbb{R}$ then
+
+$
+ TopObs^{trad}
+ =
+  \mathbb{C}\Big[
+    \pi_1
+    Map\big(
+      \Sigma^2, B \mathrm{U}(1)^2
+    \big)
+  \Big]
+$
+
+which coincides with our general $TopObs$ from above.
+
+\linebreak
+
+**Example.**
+
+For $\Sigma^2 = T^2$ the [[nLab:2-torus]],
+
+$
+  \begin{aligned}
+    \pi_1
+    Map\big(
+      T^2
+      ,
+      B \mathrm{U}(1)
+    \big)
+    & \simeq
+    \pi_0
+    Map\big(
+      T^2
+      ,
+      \mathrm{U}(1)
+    \big)
+    \\
+    & \simeq
+    H^1(T^2; \mathbb{Z})
+    \\
+    & \simeq
+    \mathbb{Z}_a \times \mathbb{Z}_b
+  \end{aligned}
+$
+
+Algebra of Maxwell [[nLab:Wilson loops]]  on torus.
+
+\linebreak
+
+Now consider lifting these particles in 4D to strings in 5D
+
+$
+  X^{1,4}
+  \simeq
+  \mathbb{R}^{1,1} \times (\mathbb{R}^1 \times \Sigma^2)
+$
+
+$
+  X^4_{dom} 
+    = 
+  \mathbb{R}^1_{\sqcup \{\infty\}} 
+    \wedge
+  (\mathbb{R}^1 \times \Sigma^2)_{\cup \infty}
+  \,.
+$
+
+Under *Hyothesis h*, with $\mathcal{A} = S^2 \xhookrightarrow{\iota_2} B \mathrm{U}(1)$,
+
+the topologcal observables are deformed to:
+
+**Proposition.**
+
+$
+    \pi_1 
+    Map\big(
+      T^2,
+      S^2
+    \big)
+    \simeq
+    \widehat{\mathbb{Z}^2}
+$
+
+is the [[nLab:integer Heisenberg group]] at level=2:
+
+$
+  \widehat{\mathbb{Z}^2}
+  \coloneqq_{Set}
+  (\mathbb{Z}_a \times \mathbb{Z}_b) \times \mathbb{Z} 
+$
+
+with generating elements
+
+$
+  \begin{aligned}
+    W_a
+    &\coloneqq
+    \big((1,0), 0\big)
+    \\
+    W_b
+    &\coloneqq
+    \big((0,1), 0\big)
+    \\
+    \zeta
+    &\coloneqq
+    \big((0,0), 1\big)
+  \end{aligned}
+$
+
+on which the only non-trivial [[nLab:group commutator]] is
+
+$
+  [W_a, W_b] = \zeta^2
+  \mathrlap{\,.}
+$
+
+This is a nonabelian deformation of the Maxwell Wilson loops
+
+In fact this is exactly the algebra of observables of
+
+1. [[nLab:abelian Chern-Simons theory]] 
+
+2. [[nLab:anyons]] in [[nLab:fractional quantum Hall systems]],
+
+the latter being (vortices in a 2D electron liquid induced by) 
+
+surplus magnetic [[nLab:flux quanta]] 
+
+on top of some rational number of flux quanta per electrons.
+
+\linebreak
+
+Let's further lift this situation to [[nLab:11D supergravity]] on
+
+$
+  X^{1,10}
+  \coloneqq
+  \mathbb{R}^{1,3}
+  \times
+  \big(
+    \mathbb{R}^1 \times S^3 \times S^3
+  \big)
+$
+
+with 
+
+$
+  X^{10}_{dom}
+  \coloneqq
+  \mathbb{R}^3_{\sqcup \{\infty\}}
+  \wedge
+  \big(
+    \mathbb{R}^1 \times S^3 \times S^3
+  \big)_{\cup \{\infty\}}
+$
+
+globally completed according to [[nLab:Hypothesis H]]:
+
+\linebreak
+
+
+**Proposition.**
+
+$
+  \pi_1 Map\big( S^3 \times S^3, S^4 \big)
+  \simeq
+  \widehat{\mathbb{Z}^2}
+  \times 
+  \mathbb{Z}_{/12}
+$
+
+Under the [[nLab:Pontrjagin theorem]] this says that 
+
+5-branes on this background, wrapped on $\mathbb{R}^{1,3}$ 
+
+have the same anyon braiding in $S^3 \times S^3$ as FQH anyons on $T^2$
+
+
+\linebreak
+
+For more see at [ncatlab.org/schreiber/show/ICMS25](https://ncatlab.org/schreiber/show/ICMS25)
+
+
+
+
+
+
+
 
 
 
