@@ -189,5 +189,8 @@ Comprehensive discussion in [[higher differential geometry]]:
 [[!redirects 10D type IIA supergravity]]
 [[!redirects 10D type IIB supergravity]]
 
+[[!redirects type IIA 10D supergravity]]
+[[!redirects type IIB 10D supergravity]]
+
 
 
