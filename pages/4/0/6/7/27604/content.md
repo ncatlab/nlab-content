@@ -27,9 +27,9 @@
 ## Idea
 
 
-In [[quantum information theory]], by the *Clifford group* on $n$-[[qbits]] (for $n \in \mathbb{N}_{\geq 1}$) one means the [[normalizer subgroup]], inside the [[unitary group]] $U(2n)$, of the group of $n$fold $\mathbb{C}$-[[tensor products]] of [[linear operators]] from the [[Pauli group]].
+In [[quantum information theory]], by the *Clifford group* on $n$-[[qbits]] (for $n \in \mathbb{N}_{\geq 1}$) one means the [[normalizer subgroup]], inside the [[unitary group]] $U(2^n)$, of the group of $n$fold $\mathbb{C}$-[[tensor products]] of [[linear operators]] from the [[Pauli group]].
 
-An [[element]] of the Clifford group, understood as a [[unitary operator]] on the [[finite-dimensional Hilbert space]] $\mathbb{C}^{2n}$, is also called a *Clifford [[quantum gate]]* or just *Clifford gate*, for short.
+An [[element]] of the Clifford group, understood as a [[unitary operator]] on the [[finite-dimensional Hilbert space]] $\mathbb{C}^{2^n}$, is also called a *Clifford [[quantum gate]]* or just *Clifford gate*, for short.
 
 The [[Gottesman-Knill theorem]] states that [[quantum circuits]] which are built only from Clifford gates ("stabilizer circuits") may be efficiently [[quantum simulation|simulated]] on [[classical computers]]. Conversely this means that for a [[quantum computer]] to exhibit [[quantum advantage]] it must realize [[quantum gates]] which are non-Clifford gates.
 
