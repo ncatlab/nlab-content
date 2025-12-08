@@ -384,9 +384,9 @@ $
     \\
     \vec F
     &\mapsto&
-    [\vec F] = ch^{\mathcal{A}}(\chi)
+    [\vec F] = ch^{\mathcal{A}}([\chi])
     &\leftarrow\!\!\!\vert&
-    \chi
+    [\chi]
   \end{array}
 $
 
@@ -398,38 +398,320 @@ $\Rightarrow$ is a *hypothesis* about the correct model for given physics
 
 **Examples**
 
-[[Dirac charge quantization]] of EM-field: 
-$\mathcal{A} \equiv B \mathrm{U}(1)^2$
+[[Dirac charge quantization]] of EM-field: $\mathcal{A} \equiv B \mathrm{U}(1)^2$
 
-Hyothesis h on 5D MCS-field:
-$\mathcal{A} \equiv S^2 $
+[Hypothesis K](/nlab/show/D-brane+charge+quantization+in+K-theory) on the [[RR-field]]
 
+[Hypothesis h](/schreiber/show/Renormalization+of+Wilson+Loops) on [[Maxwell-Chern-Simons field]]: $\mathcal{A} \equiv S^2 $
 
-[[Hypothesis H]] on [[C-field]]:
-$\mathcal{A} \equiv S^4 $
+[[Hypothesis H]] on [[C-field]]: $\mathcal{A} \equiv S^4$
 
+\linebreak
 
+Finally, the full completed higher gauge field 
 
-(...)
+is not just the flux densities $\vec F$, a charge $\chi$
 
+and an *[[equality]]* $[\vec F] = ch[\chi]$, but involves
 
+a [[gauge transformation]]/[[homotopy]] $\widehat{A}$ exhibiting this equality 
 
+which out the "be" the [[gauge potentials]].
 
+The globally completed phase space is, schematically:
 
+$
+  PhsSpc
+  \;\coloneqq\;
+  \left\{
+  \begin{array}{ll}
+    \text{gauge potentials} & \vec F \in \Omega^1_{dR}(X^d;\mathfrak{a})
+    \\
+    \text{local charges} & \chi \in Map(X^d, \mathcal{A})
+    \\
+    \text{gauge potentials} & \widehat{A} \colon \vec F \Rightarrow \chi
+  \end{array}
+  \right\}
+$
 
+In reality this is the [smooth ∞-groupoid](/nlab/show/smooth+infinity-groupoid) 
 
+which as such is the [[homotopy pullback]] 
 
+of the character map from total flux to flux densities.
 
+Essentially. In the following we will only need 
 
+the *[[shape modality|shape]]* of the space space, 
 
-
-
-
+which turns out to be given by a concrete formula.
 
 
 \linebreak
 
 {#Part2} **Part 2 -- Their Complete Topological Quantization**
+
+[[observables]] are the [[smooth functions]] on [[phase space]]
+
+$
+  O \,\colon\,
+  PhsSpc
+  \longrightarrow
+  \mathbb{C}
+$
+
+the *topological observables* are the *locally constant* functions
+
+$
+  O \,\colon\,
+  PhsSpc
+  \longrightarrow
+  \flat \mathbb{C}
+$
+
+(where $\flat \mathcal{C}$ is the discrete set [[underlying]] $\mathcal{C}$)
+
+\linebreak
+
+**Proposition**
+
+The topological observables 
+
+$
+  PhsSpc \xrightarrow{\phantom{--}} \flat \mathbb{C}
+$
+
+are naturally equivalent to the maps
+
+$
+  \pi_0 \, Map(X^d, \mathcal{A}) 
+    \xrightarrow{\phantom{--}}
+  \mathcal{C}
+$
+
+out of the [[connected components]] of the [[mapping space]] 
+
+from the [[Cauchy surface]] into the [[classifying space]],
+
+\linebreak
+
+"Topologically, fields are only seen through their charges."
+
+
+\linebreak
+
+Moreover, realistic observables are 
+
+supported on finitely many components, hence:
+
+$
+  TopObs 
+  \;\coloneqq\;
+  \mathbb{C}\big[
+    \pi_0 \, Map(X^d, \mathcal{A})
+  \big]
+  \,\simeq\,
+  H_0\big(
+    Map(X^d, \mathcal{A})
+    ;\,
+    \mathbb{C}
+  \big)
+$
+
+\linebreak
+
+More specifically, we look at **field [[solitons]]**, 
+
+whose charge [vanishes at infinity](/nlab/show/vanishing+at+infinity)
+
+To formalize this, consider a [[pointed topological space]]
+
+$ 
+ \big( X^d_{dom}, \infty \big)
+ \in
+ Top^\ast
+$
+
+with basepoint thought of as a [[point at infinity]]:
+
+$
+ X^d \,\simeq\, X^d_{dom} \setminus \{\infty\}
+$
+
+Also think of $\mathcal{A}$ as pointed by 0-charge
+
+$$
+  \big(\mathcal{A}, 0\big) \in Top^\ast
+  \,.
+$$
+
+Then a pointed map $\chi \in Map^\ast\big(X^d_{dom}, \mathcal{A}\big)$ 
+
+*literally* takes the value $0$ at $\infty$
+
+$
+ \begin{array}{ccc}
+    X^d_{dom} &\xrightarrow{\phantom{--} \chi \phantom{--}}&
+    \mathcal{A}
+    \\
+    \uparrow
+    &&
+    \uparrow
+    \\
+    \{\infty\} &\xrightarrow{\phantom{----}}& \{0\}
+ \end{array}
+$
+
+\linebreak
+
+So the *solitonic topological observabes* are
+
+$
+  TopObs
+  \,\coloneqq\,
+  \mathbb{C}\Big[
+    Map^\ast\big(X^d_{dom}, \mathcal{A}\big)
+  \Big]
+$
+
+\linebreak
+
+Question: What is the quantum operator product $\star$ on $TopObs$?
+
+[Feynman 1948](/nlab/show/path integral#QuantumCommutatorsAreTimeOrderedOrdinaryProducts):
+the time-ordered ordinary product 
+
+e.g. for field operators $\phi$ and their [[canonical momenta]]:
+
+$$
+  \begin{array}{rcr}
+    \big\langle
+    \pi(t, \vec x)
+    \star
+    \phi(t, \vec y)
+    \big\rangle
+    &=&
+    \underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim}
+    \big\langle
+      \pi(t + \epsilon, \vec x)
+      \cdot
+      \phi(t, \vec y)
+    \big\rangle
+    \\
+    -
+    \big\langle
+    \pi(t, \vec x)
+    \star
+    \phi(t, \vec y)
+    \big\rangle
+    &&
+    -
+    \underset{\underset{\epsilon \to_+ 0}{\longrightarrow}}{\lim}
+    \big\langle
+      \pi(t + \epsilon, \vec x)
+      \cdot
+      \phi(t, \vec y)
+    \big\rangle
+  \end{array}
+$$
+
+\linebreak
+
+The analogue is still true for [[light front quantization]]
+
+with respect to ordering in the light-front parameter 
+$X^+ \coloneqq X^0 + x^1$.
+
+So consider light-fron quantization on spacetime 
+
+$
+  \begin{aligned}
+    X^{1,d}
+    &\simeq\,
+    \mathbb{R}^{1,1} \times X^{d-1}
+    \\
+    X^d
+    & \simeq
+    \mathbb{R}^1 \times X^{d-1}
+    \\
+    X^d_{dom} 
+    & =
+    \mathbb{R}^1_{\cup \{\infty\}} \wedge X^{d-1}_{dom}
+  \end{aligned}
+$
+
+For topological observables which are necessarily $x^0$-independent
+
+their light-front ordering is their $x^1$-ordering.
+
+This is given by the *[[Pontrjagin product]]*/[fundamental](/nlab/show/fundamental+group)[[group algebra]] on
+
+$
+  \begin{aligned}
+  TopObs
+  & =
+  H_0\Big(
+    Map^\ast\big(
+      \mathbb{R}^1_{\cup \{\infty\}}
+      \wedge
+      X^d_{dom}
+    \big)
+  \Big)
+  \\
+  & \simeq
+  H_0\Big(
+    \Omega
+    Map^\ast\big(
+      X^d_{dom}
+    \big)
+  \Big)  
+  \\
+  & \simeq
+  \mathbb{C}\Big[
+    \pi_1
+    \,
+    Map^\ast\big(
+      X^d_{dom}
+    \big)
+  \Big]
+  \end{aligned}
+$
+
+induced under pushforward in homology from
+
+$
+  \begin{array}{ccc}
+    \Omega M \times \Omega M
+    &\xrightarrow{\phantom{--} \star \phantom{--}}&
+    \Omega M
+    \\
+    \big( \ell_2, \ell_1 \big)
+    &\mapsto&
+    \ell_2 \star \ell_1 
+    &
+    \colon\;
+    s \,\mapsto\,
+    \begin{array}{lcl}
+      \ell_1(s) & \vert & s \leq \tfrac{1}{2}
+      \\
+      \ell_2(s) & \vert & s \geq \tfrac{1}{2}
+    \end{array}
+  \end{array}
+$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 (...)
 
