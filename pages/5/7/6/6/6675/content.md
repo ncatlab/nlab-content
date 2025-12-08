@@ -486,4 +486,6 @@ Highlighting the need for topological stabilization mechanisms:
 [[!redirects topological quantum computer]]
 [[!redirects topological quantum computers]]
 
+[[!redirects topological quantum]]
+
 
