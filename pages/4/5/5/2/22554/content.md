@@ -99,7 +99,7 @@ $$
 
 In [[quantum information theory]] one often considers the "*higher*" or "*$n$-[[qbit]]*" Pauli groups $\mathcal{P}_n$ whose elements are (multiples by $\pm 1$, $\pm \mathrm{i}$) of $n$-fold [[tensor products of vector spaces|tensor products]] of the Pauli matrices.
 
-The [[normalizer subgroup]] of the $n$-qbit Pauli group inside the [[unitary group]] $U(2n)$ is known as the corresponding *[[Clifford group]]*.
+The [[normalizer subgroup]] of the $n$-qbit Pauli group inside the [[unitary group]] $U(2^n)$ is known as the corresponding *[[Clifford group]]*.
 
 
 ## Properties
