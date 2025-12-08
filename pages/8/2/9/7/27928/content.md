@@ -361,3 +361,8 @@ With [[QFT with defects|defects]]:
 [[!redirects D=5 Maxwell-Chern-Simons theory]]
 [[!redirects D=5 Maxwell-Chern-Simons theories]]
 
+[[!redirects Maxwell-Chern-Simons field]]
+[[!redirects Maxwell-Chern-Simons fields]]
+
+
+
