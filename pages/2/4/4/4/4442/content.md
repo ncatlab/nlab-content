@@ -333,6 +333,7 @@ The full formalization of AdS/CFT is still very much out of reach, but maybe mos
 
 But see [Anderson 04](#Anderson04).
 
+
 One proposal for a formalization of a toy version in the context of [[AQFT]] is [[Rehren duality]]. However, it does not seem that this actually formalizes AdS-CFT, but something else.
 
 
@@ -590,6 +591,9 @@ See also
 * [[Lorenz Eberhardt]], _$AdS_3/CFT_2$ at higher genus_ ([arXiv:2002.11729](https://arxiv.org/abs/2002.11729))
 
 * [[Lorenz Eberhardt]], _Summing over Geometries in String Theory_ ([arXiv:2102.12355](https://arxiv.org/abs/2102.12355))
+
+* Guim Planella Planas: *Emergent Strings from Quantum Field Theory* &lbrack;[arXiv:2512.07928](https://arxiv.org/abs/2512.07928)&rbrack;
+
 
 
 
