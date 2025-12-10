@@ -119,8 +119,10 @@ In [[gravity]]:
 
 On integrability in [[Seiberg-Witten theory]]:
 
-
 * [[Alexander Gorsky]], [[Igor Krichever]], [[Andrei Marshakov]], [[Andrei Mironov]], [[Andrey Morozov]], *Integrability and Seiberg-Witten Exact Solution*, Phys. Lett. B **355** (1995) 466-474 &lbrack;[arXiv:hep-th/9505035](https://arxiv.org/abs/hep-th/9505035), <a href="https://doi.org/10.1016/0370-2693(95)00723-X">doi:10.1016/0370-2693(95)00723-X</a>&rbrack;
+
+* [[Ron Donagi]], [[Edward Witten]]: *Supersymmetric Yang-Mills Systems And Integrable Systems*, Nucl. Phys. B **460** (1996) 299-334 &lbrack;[arXiv:hep-th/9510101](https://arxiv.org/abs/hep-th/9510101), <a href="https://doi.org/10.1016/0550-3213(95)00609-5">doi:10.1016/0550-3213(95)00609-5</a>&rbrack;
+  > (in relation to the [[Coulomb branch]])
 
 * [[Andrei Marshakov]], *Seiberg-Witten Curves and Integrable Systems* &lbrack;[arXiv:hep-th/9903252](https://arxiv.org/abs/hep-th/9903252)&rbrack;
 
