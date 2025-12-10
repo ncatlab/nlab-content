@@ -59,11 +59,15 @@ By including $\mathbb{C}^*$ equivariance as well, this gives a non-commutative d
 
 ### General
 
-The terminology "Coulomb branch" and "Higgs branch" first appears in 
+The terminology "Coulomb branch" and "[[Higgs branch]]" first appears in:
 
 * {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, duality and chiral symmetry breaking in $N=2$ supersymmetric QCD_, Nucl.Phys. __B431__ (1994) 484--550 ([doi](https://doi.org/10.1016/0550-3213%2894%2990214-3) [arXiv:hep-th/9408099](https://arxiv.org/abs/hep-th/9408099))
 
 The definition is summarized (specifically for [[super QCD]]) in [Assel-Cremoni 17, Section 2.1](#AsselCremoni17).
+
+Relation to [[integrable systems]]:
+
+* [[Ron Donagi]], [[Edward Witten]]: *Supersymmetric Yang-Mills Systems And Integrable Systems*, Nucl. Phys. B **460** (1996) 299-334 &lbrack;[arXiv:hep-th/9510101](https://arxiv.org/abs/hep-th/9510101), <a href="https://doi.org/10.1016/0550-3213(95)00609-5">doi:10.1016/0550-3213(95)00609-5</a>&rbrack;
 
 
 Quick exposition of the basic idea includes
