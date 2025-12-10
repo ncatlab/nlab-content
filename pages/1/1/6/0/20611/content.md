@@ -65,6 +65,7 @@ The following list is meant to be roughly in decreasing order of the number of a
 |[Mathematical Logic Quaterly](https://onlinelibrary.wiley.com/journal/15213870)|Wiley|[[Steve Awodey|Awodey]], [[Maria Emilia Maietti|Maietti]], [[Emily Riehl|Riehl]]|subscription|logic|
 |[Annals of Pure and Applied Logic](https://www.journals.elsevier.com/annals-of-pure-and-applied-logic)|Elsevier|Benno van den Berg|subscription|logic|
 |[Fuzzy Sets and Systems](https://www.sciencedirect.com/journal/fuzzy-sets-and-systems)|Elsevier|Lili Shen|subscription|?|
+|[Bulletin de la Société Mathématique de France](https://smf.emath.fr/en/publications/bulletin-de-la-societe-mathematique-de-france)|?|Wendy Lowen|?|general|
 
 ## Journals previously publishing homotopy theory and/or category theory
 
