@@ -264,6 +264,11 @@ A light-cone QCD-[[Lagrangian density]] adapted to [[MHV amplitudes]]:
 
 * Hiren Kakkad, Piotr Kotko, Anna Stasto, *Quantum correction to a new Wilson line-based action for Gluodynamics* &lbrack;[arXiv:2311.04101](https://arxiv.org/abs/2311.04101)&rbrack;
 
+See also:
+
+* James P. Vary, Chandan Mondal, Siqi Xu, Xingbo Zhao, Yang Li: *Nucleon Structure from Basis Light-Front Quantization : Status and Prospects* &lbrack;[arXiv:2512.08283](https://arxiv.org/abs/2512.08283)&rbrack;
+
+
 
 
 ### Application in string theory
