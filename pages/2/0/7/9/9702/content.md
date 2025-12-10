@@ -1,13 +1,29 @@
 
-* [webpage](http://www.math.upenn.edu/~donagi/)
+Ron Yehuda Donagi
+
+* [personal page](http://www.math.upenn.edu/~donagi/)
+
+* [institute page](https://www.math.upenn.edu/people/ron-donagi)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Ron_Donagi)
+
+* [inSpire page](https://inspirehep.net/authors/1029676)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Ron-Donagi)
 
 ## Selected writings
 
+On [[Coulomb branches]] in [[Seiberg-Witten theory]] in relation to [[integrable systems]]:
+
+* [[Ron Donagi]], [[Edward Witten]]: *Supersymmetric Yang-Mills Systems And Integrable Systems*, Nucl. Phys. B **460** (1996) 299-334 &lbrack;[arXiv:hep-th/9510101](https://arxiv.org/abs/hep-th/9510101), <a href="https://doi.org/10.1016/0550-3213(95)00609-5">doi:10.1016/0550-3213(95)00609-5</a>&rbrack;
+
 On [[string phenomenology]] in [[heterotic M-theory]]:
+
+* {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
+
 
 * {#DOPW99} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Models from Heterotic M-theory_, Adv. Theor. Math. Phys. 5 (2002) 93-137 ([arXiv:hep-th/9912208](https://arxiv.org/abs/hep-th/9912208))
 
-* {#DOPW00} [[Ron Donagi]], [[Burt Ovrut]], [[Tony Pantev]], [[Daniel Waldram]], _Standard Model Vacua in Heterotic M-Theory_, talk at [Strings '99](http://strings99.aei.mpg.de/), Potsdam, Germany, 19 - 24 Jul 1999 ([arXiv:hep-th/0001101](https://arxiv.org/abs/hep-th/0001101))
 
 Discussion of the [[Hilbert schemes of points]] of [[ADE-singularities]]:
 
