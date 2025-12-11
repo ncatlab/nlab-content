@@ -137,6 +137,68 @@ $$
   \mathrlap{\,,}
 $$
 
+Now say that the *topological observables* are these integrals for closed $\omega$ modulo exact.
+
+Consider this on 
+
+$$
+  X^4
+  =
+  \mathbb{R}^1 \times [0,1] \times 
+  T^2
+$$
+
+Then the space of topological observables is spanned by 
+
+$\big(O^{(a)}_1, O_1^{(b)}, O_2\big)$ with the only non-trivial Poisson bracket being
+$$
+  \big\{ O^{(a)}_1,  O^{(b)}_1 \big\} = \tfrac{4}{3}O_2  
+$$
+
+\linebreak
+
+Alternatively, consider the Pontrjagin algebra
+
+$$
+  H_0\big(
+    \Omega\, Map\big(T^2, S^2\big)
+  \big)
+  \;\simeq\;
+  \big(
+    U\mathfrak{l}Map(T^2, S^2)
+  \big)_0
+  \mathrlap{\,,}
+$$
+
+which is the universal enveloping algebra of the $\mathbb{C}$-Whitehead bracket Lie algebra, in degree=0, of the mapping space. 
+
+Here
+$$
+  \mathfrak{l}Map(T^2, S^2)
+  \;\simeq\;
+  tor^2 \mathfrak{l}S^2
+$$
+
+and the degree=0 elements in here are spanned by
+
+$$
+  \overset{1}{s} v_1
+  ,\,
+  \overset{2}{s} v_1
+  ,\,
+  \overset{1}{s} \overset{2}{s} v_2
+$$
+
+with the only non-trivial bracket being
+$$
+  \big[
+    \overset{1}{s} v_1
+    ,\,
+    \overset{2}{s} v_1
+  \big]
+  \;=\;
+  \overset{1}{s} \overset{2}{s} v_2
+$$
 
 
 
