@@ -802,7 +802,7 @@ two morphisms between groupoids,
       \\
       & {}_{\mathllap{g_\bullet}}\searrow & \downarrow^{\mathrlap{(ev_0)_\bullet}}
       \\
-      && \mathcal{K}
+      && \mathcal{K}_\bullet
     }
     \,.
   $$
