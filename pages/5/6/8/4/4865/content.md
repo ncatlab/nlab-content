@@ -401,6 +401,11 @@ Computation of [[Feynman amplitudes]]/[[scattering amplitudes]] and [[effective 
 
 * Hamid R. Bakhtiarizadeh, _Gauge field corrections to eleven dimensional supergravity via dimensional reduction_ ([arXiv:1711.11313](https://arxiv.org/abs/1711.11313))
 
+Via [[worldline formalism]]:
+
+* [[Max Guillen]], Marcelo dos Santos, Eggon Viana: *Tree-level 11D supergravity amplitudes from the pure spinor worldline* &lbrack;[arXiv:2508.19748](https://arxiv.org/abs/2508.19748)&rbrack;
+
+
 ### Truncations and compactifications
 
 [[Kaluza-Klein compactifications]] of supergravity and its consistent truncations:
