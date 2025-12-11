@@ -66,7 +66,7 @@ This is due to [Vigu&#233; & Sullivan 1976](#VigueSullivan76). Review includes [
 +-- {: .num_remark}
 ###### Remark
 
-The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is akin to that that for the [[Weil algebra]] of the [[L-infinity algebra|$L_\infty$-algebra]] of which $(\wedge^\bullet V,d_X)$ is the [[Chevalley-Eilenberg algebra]], except that here $s$ shifts _down_, whereas for the Weil algebra it shifts _up_.
+The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is akin to that for the [[Weil algebra]] of the [[L-infinity algebra|$L_\infty$-algebra]], of which $(\wedge^\bullet V,d_X)$ is the [[Chevalley-Eilenberg algebra]], except that here $s$ shifts _down_, whereas for the Weil algebra it shifts _up_.
 
 =--
 
