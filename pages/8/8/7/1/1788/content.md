@@ -127,9 +127,9 @@ we have Poisson brackets
 
 $$
   \Big\{
-    \textstyle{\int_{X_4}} \omega \wedge E_3
+    \textstyle{\int_{X^4}} \omega \wedge E_3
     ,\,
-    \textstyle{\int_{X_4}} \omega' \wedge E_3
+    \textstyle{\int_{X^4}} \omega' \wedge E_3
   \Big\}
   \;=\;
   \tfrac{4}{3}
