@@ -1,5 +1,10 @@
 
 
+* [institute page](https://www.gu.se/en/about/find-staff/maxguillen)
+
+* [inSpire page](https://inspirehep.net/authors/1610983)
+
+
 ## Selected writings
 
 
@@ -19,6 +24,12 @@ On [[scattering amplitudes]] in [[D=10 super Yang-Mills theory]] in [[pure spino
 On the chiral [[Green-Schwarz superstring]] and [[Berkovits superstring]]:
 
 * [[Max Guillen]], *Green-Schwarz and Pure Spinor Formulations of Chiral Strings* ([arXiv:2108.11724](https://arxiv.org/abs/2108.11724))
+
+On [[scattering amplitudes]] in [[D=11 supergravity]] via [[worldline formalism]]:
+
+
+* [[Max Guillen]], Marcelo dos Santos, Eggon Viana: *Tree-level 11D supergravity amplitudes from the pure spinor worldline* &lbrack;[arXiv:2508.19748](https://arxiv.org/abs/2508.19748)&rbrack;
+
 
 
 category: people
