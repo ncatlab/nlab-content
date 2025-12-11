@@ -272,9 +272,9 @@ $$
   \array{ 
     \phi
     & 
-    DK(A) 
+    CD(A) 
       &\overset{\simeq}{\longrightarrow}&
-    \widetilde{DK}(A)
+    \widetilde{CD}(A)
     \\
     &
     (a,b)
@@ -288,7 +288,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-It is clear from Def. \ref{CayleyDicksonDoubleByAdjoiningFurtherGenerator} that for every element $x \in \widetilde{DK}(A)$ there is a _unique_ [[pair]] of elements $a,b \in A$ such that 
+It is clear from Def. \ref{CayleyDicksonDoubleByAdjoiningFurtherGenerator} that for every element $x \in \widetilde{CD}(A)$ there is a _unique_ [[pair]] of elements $a,b \in A$ such that 
 
 $$
   x = a + \ell b \;=\; \phi(a,b)
