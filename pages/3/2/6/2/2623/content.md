@@ -4604,7 +4604,7 @@ See at *[Chern-Simons level renormalization](Chern-Simons+level#LevelRenormaliza
 ## References
  {#References}
 
-After the original informal suggestions by [[Schwinger-Tomonaga-Feynman-Dyson]]
+After the original informal suggestions by [[Schwinger-Tomonaga-Feynman-Dyson]]:
 
 * {#Dyson49} [[Freeman Dyson]], _The raditation theories of Tomonaga, Schwinger and Feynman_, Phys. Rev. 75, 486, 1949 ([pdf](http://web.ihep.su/dbserv/compas/src/dyson49b/eng.pdf))
 
@@ -4618,7 +4618,7 @@ Little advancement happened until the identification of [[Hopf algebra]] structu
 
 * {#Kreimer97} [[Dirk Kreimer]], _On the Hopf algebra structure of perturbative quantum field theories_, Adv. Theor. Math. Phys. 2 , 303 (1998) ([q-alg/9707029](https://arxiv.org/abs/q-alg/9707029))
 
-This finally triggered the formulation of [[causal perturbation theory]] in terms of [[Feynman diagrams]] in
+This finally triggered the formulation of [[`causal perturbation theory]] in terms of [[Feynman diagrams]] in
 
 * {#GarciaBondiaLazzarini00} [[Jose Gracia-Bondia]], S. Lazzarini, _Connes-Kreimer-Epstein-Glaser Renormalization_ ([arXiv:hep-th/0006106](https://arxiv.org/abs/hep-th/0006106))
 
@@ -4689,9 +4689,8 @@ The idea of Epstein-Glaser renormalization is due to
 
 following precursors in
 
-* {#StueckelbergPetermann53} [[Ernst Stückelberg]], [[André Petermann]], , _La normalisation des constants dans la theorie des quanta_, Helv. Phys. Acta 26, 499 (1953); and earlier references therein
-
-  (see also _[[Stückelberg-Petermann renormalization group]]_)
+* {#StueckelbergPetermann53} [[Ernst Stückelberg]], [[André Petermann]]: _La normalisation des constants dans la theorie des quanta_, Helv. Phys. Acta 26, 499 (1953); and earlier references therein
+  > (see also _[[Stückelberg-Petermann renormalization group]]_)
 
 * {#BogoliubovShirkov76} [[Nikolay Bogoliubov]], [[Dmitry Shirkov]],, _Introduction to the Theory of Quantized Fiels_, New York: John Wiley and Sons, 1976, 3rd edition
 
@@ -4735,14 +4734,16 @@ Review is in
 
 
 
-
-
 For more see at _[perturbation theory -- In AQFT](perturbation+theory#ReferencesInAQFT)_.
 
 
-Applications to the renormalization of [[Yang-Mills theory]] on curved [[background field|background]] [[spacetimes]] is accomplished in
+Applications to the renormalization of [[Yang-Mills theory]] on curved [[background field|background]] [[spacetimes]]:
 
 * {#Hollands07} [[Stefan Hollands]], _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev.Math.Phys.20:1033-1172,2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
+
+Relating Epstein-Glaser renormalization (causal perturbation theory) to the Connes-Kreimer formulation of BPHZ renormalization:
+
+* Jonah Epstein, Arne Hofmann, [[David Prinz]]: *Multiplicative Renormalization in Causal Perturbation Theory* &lbrack;[arXiv:2512.09918](https://arxiv.org/abs/2512.09918)&rbrack;
 
 
 ### BPHZ Renormalization
