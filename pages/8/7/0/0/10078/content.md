@@ -191,6 +191,11 @@ A list of more literature:
 
 * The Tangent Bundle, _[QFT Worldline formalism](http://www.physics.thetangentbundle.net/wiki/Quantum_field_theory/worldline_formalism)_
 
+Worldline formalism for [[D=11 supergravity]]:
+
+* [[Max Guillen]], Marcelo dos Santos, Eggon Viana: *Tree-level 11D supergravity amplitudes from the pure spinor worldline* &lbrack;[arXiv:2508.19748](https://arxiv.org/abs/2508.19748)&rbrack;
+
+
 
 [[!redirects worldline formalisms]]
 
