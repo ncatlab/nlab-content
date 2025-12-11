@@ -14,108 +14,238 @@
 
 ## Idea 
 
-*Nakayama's lemma* is a simple but fundamental result of [[commutative algebra]] which is frequently used to lift information from the [[fiber]] of a [[sheaf]] over a point (as for example a [[coherent sheaf]] over a [[scheme]]) to give information on the [[stalk]] at that point. 
+*Nakayama's lemma* is a family of simple but fundamental results of [[commutative algebra]] which are frequently used to lift information from the [[fiber]] of a [[sheaf]] over a point (as for example a [[coherent sheaf]] over a [[scheme]]) to give information on the [[stalk]] at that point.
 
 ## Statement
 
-We first give a general version of Nakayama's lemma (Prop. \ref{GeneralNakayamaLemma}) and then give as corollaries two alternative statements (Prop. \ref{FirstSpecialVersion} and Prop. \ref{SecondSpecialVersion}) that are also often called "Nakayama's lemma".
+We first state and prove a pair of fundamental geometric facts (Prop. \ref{GeneralNakayamaLemma}) concerning the relationships between annihilators, supports, and tensor products of modules and then deduce as corollaries two standard formulations (Cor. \ref{FirstSpecialVersion} and Cor. \ref{SecondSpecialVersion}) of "Nakayama's lemma" from which various other instances thereof can in turn be derived (as is done in [Stacks 00DV](https://stacks.math.columbia.edu/tag/00DV)).
 
-\begin{proposition}\label{GeneralNakayamaLemma}
-**(Nakayama's lemma**)
+As motivation, recall the following general fact:
+
+\begin{proposition}\label{GeneralNakayamaMotivation}
+**(motivation)**
 \linebreak
-Given a [[commutative ring]] $R$, a [[finitely generated]] [[module|$R$-module]] $M$, and an [[ideal]] $I \subseteq R$,
+Given [[commutative ring]] $R$, [[natural number|natural]] $n$, and $n$-[[tuple]] of [[module|$R$-modules]] $\left( M _ i \right) _ { i \in \left\{ 0 , \dots , n-1 \right\} }$,
 
-1. $supp (M) = \mathcal{V} (Ann (M))$.
+1. for all $i \in \left\{ 0 , \dots , n-1 \right\}$, one has $supp \left( M _ i \right) \subseteq \mathcal{V} \left( Ann \left( M _ i \right) \right)$.
 
-2. $supp (M \otimes_{R} (R / I)) = supp(M) \cap \mathcal{V} (I)$.
+2. $supp \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \subseteq \bigcap _ { i \in \left\{ 0 , \dots , n-1 \right\} } supp \left( M _ i \right)$.
 
+(Here $\mathcal{V}$, $supp$, and $Ann$ denote the [zero locus](https://stacks.math.columbia.edu/tag/00DZ), [support](https://stacks.math.columbia.edu/tag/00L1), and [annihilator](https://stacks.math.columbia.edu/tag/07T7) respectively.)
 \end{proposition}
 
-(Here $\mathcal{V} (I)$, $supp (M)$, and $Ann (M)$ denote the [zero locus](https://stacks.math.columbia.edu/tag/00DZ) of $I$, [support](https://stacks.math.columbia.edu/tag/00L1) of $M$, and [annihilator](https://stacks.math.columbia.edu/tag/07T7) of $M$ respectively.)
+\begin{proof}
+As for the first claim,
+if $i \in \left\{ 0 , \dots , n-1 \right\}$ and $\mathfrak{p} \in supp \left( M _ i \right)$,
+i.e., if $M _ i \otimes R _ { \mathfrak{p} } \ \,&#x2244;\, \  0$,
+then the elements of $R \setminus \mathfrak{p}$ act nontrivially on $M _ i \otimes R _ { \mathfrak{p} }$,
+hence nontrivially on $M _ i$,
+hence $Ann \left( M _ i \right) \subseteq \mathfrak{p}$.
+As for the second claim, recall that $\left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \otimes R _ { \mathfrak{p} } \simeq \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } \left( M _ i \otimes R _ { \mathfrak{p} } \right)$,
+hence that if $\mathfrak{p} \in supp \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right)$,
+i.e., if $\left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \otimes R _ { \mathfrak{p} } \ \,&#x2244;\, \  0$,
+then for all $i \in \left\{ 0 , \dots , n-1 \right\}$ one must have $M _ i \otimes R _ { \mathfrak{p} } \ \,&#x2244;\, \  0$,
+i.e., $\mathfrak{p} \in supp \left( M _ i \right)$.
+\end{proof}
 
-Below is an "element-free" proof. The key ideas are that finitely-generated $R$-modules are (precisely) those which can be "built up" from cyclic $R$-modules via extensions and that the relevant properties of the former are sufficiently determined by those of their constituent cyclic $R$-modules, which are easily verified.
+Our first, geometric incarnation of Nakayama’s lemma is just the assertion that if the modules in the statement of Prop. \ref{GeneralNakayamaMotivation} are finitely generated, then the inclusions in the same are equalities.
+
+\begin{proposition}\label{GeneralNakayamaLemma}
+**("geometric Nakayama")**
+\linebreak
+Given [[commutative ring]] $R$, [[natural number|natural]] $n$,, and $n$-[[tuple]] of [[finitely generated]] $R$-modules $\left( M _ i \right) _ { i \in \left\{ 0 , \dots , n-1 \right\} }$,
+
+1. for all $i \in \left\{ 0 , \dots , n-1 \right\}$, one has $supp \left( M _ i \right) = \mathcal{V} \left( Ann \left( M _ i \right) \right)$.
+
+2. $supp \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) = \bigcap _ { i \in \left\{ 0 , \dots , n-1 \right\} } supp \left( M _ i \right)$.
+
+(Here $\mathcal{V}$, $supp$, and $Ann$ denote the [zero locus](https://stacks.math.columbia.edu/tag/00DZ), [support](https://stacks.math.columbia.edu/tag/00L1), and [annihilator](https://stacks.math.columbia.edu/tag/07T7) respectively.)
+\end{proposition}
+
+We give an "element-free" proof below. The two key ideas are that finitely-generated $R$-modules are (precisely) those which can be "built up" inductively from cyclic $R$-modules via extensions and that the relevant properties of the former are sufficiently determined by those of the latter, which are standard and/or easily verified.
 
 \begin{proof}
-
-Recall the following six basic facts (essentially four "induction principles" and two "base cases" of our "induction" up from cyclic modules):
+Recall the following seven basic facts (essentially two "induction principles", three "interaction principles", and two "base cases" of our "induction" up from cyclic modules):
 
 1. The middle term of a short exact sequence is $0$ iff its left and right terms are $0$
 
 2. The middle component of a morphism of short exact sequences is $0$ iff its left and right components are $0$.
 
-3. Given a prime $\mathfrak{q} \in Spec (R)$, the functor $N \mapsto N \otimes_{R} R _{\mathfrak{q}}$ is exact.
+3. Given prime $\mathfrak{p} \in Spec (R)$, the functor $N \mapsto N \otimes R _ { \mathfrak{p} }$ is exact.
 
-4. Given an ideal $J \subseteq R$, the functor $N \mapsto N \otimes_{R} (R / J)$ is right exact.
+4. The ($n$-ary) functor of $R$-modules $\left( N _ i \right) _ { i \in \left\{ 0 , \dots , n-1 \right\} } \mapsto \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } N _ i$ is right exact in all arguments.
 
-5. Given a prime $\mathfrak{q} \in Spec (R)$ and an ideal $J \subseteq R$, the localization $(R / J) \otimes_{R} R _{\mathfrak{q}} \,&#x2244;\, 0$ iff $\mathfrak{q} \in \mathcal{V} (J)$.
+5. Given prime $\mathfrak{p} \in Spec (R)$ and $n$-tuple of $R$-modules $\left( N _ i \right) _ { i \in \left\{ 0 , \dots , n-1 \right\} }$, one has $\left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } N _ i \right) \otimes R _ { \mathfrak{p} } \simeq \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } \left( N _ i \otimes R _ { \mathfrak{p} } \right)$.
 
-6. Given ideals $J_{0}, J_{1} \subseteq R$, the tensor product $(R / J_{0}) \otimes_{R} (R / J_{1})$ is $R / (J_{0} + J _{1})$, hence $0$ iff $\mathcal{V} (J_{0}) \cap \mathcal{V} (J_{1})$ is inhabited.
+6. Given prime $\mathfrak{p} \in Spec (R)$ and ideal $J \subseteq R$, one has $\left( R / J \right) \otimes_{R} R _ { \mathfrak{p} } \ \,&#x2244;\, \  0$ iff $\mathfrak{p} \in \mathcal{V} \left( J \right)$.
 
-The argument consists of four parts:
+7. Given $n$-tuple of ideals $\left( J _ i \subseteq R \right) _ { i \in \left\{ 0 , \dots , n-1 \right\} }$, one has $\bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } \left( R / J _ i \right) \simeq R / \left( \sum _ { i \in \left\{ 0 , \dots , n-1 \right\} } J _ i \right)$.
 
-1. By the hypothesis that $M$ is finitely generated there exists some $n$ such that $M$ is a quotient of $R ^ {n}$.
-It follows (by taking the image under said quotient of the standard length-$n$ filtration of $R ^ {n}$) that $M$ admits a length-$n$ filtration with cyclic cokernels;
-denote this filtration as the $n$-tuple of short exact sequences
-\[ \left( \ 0 \to M_{k} \to M_{k+1} \to R / I_{k} \to 0 \ \right)_{k \in \{ 0 , \dots , n-1 \}} \]
-with $( I_{k} )_{k \in \{ 0 , \dots , n-1 \}}$ ideals of $R$.
+The argument goes in four parts:
+
+1.  Suppose we are given $i \in \left\{ 0 , \dots , n-1 \right\}$.
+By the hypothesis that $M _ i$ is finitely generated
+there exists natural $d _ i$ such that $M$ is a quotient of $R ^ { d _ i }$.
+It follows (by taking the image under said quotient of the standard length-$d _ i$ filtration of $R ^ { d _ i }$)
+that $M _ i$ admits a length-$d _ i$ filtration with cyclic cokernels;
+denote this filtration and its associated $d _ i$-tuple of short exact sequences as
+\[ 0 \ = \ M _ { i , 0 } \ \overset{ \iota _ { i , 0 } }{ \hookrightarrow } \ \dots \ \overset{ \iota _ { i , d _ i - 1 } }{ \hookrightarrow } \ M _ {i , d _ i } \ = \ M _ i \]
+and
+\[ \left( \ 0 \ \to \ M_{ i , j } \ \overset{ \iota _ { i , j } }{ \hookrightarrow } \ M_{ i , j + 1 } \ \overset{ \pi _ { i , j } }{ \twoheadrightarrow } \ R / I_{ i , j } \ \to \ 0 \ \right)_{ j \in \left\{ 0 , \dots , d _ i - 1 \right\} } \]
+with $\left( I _ { i , j } \subseteq R \right) _ { j \in \left\{ 0 , \dots , d _ i - 1 \right\} }$ ideals.
  
-2. We now show that $\mathcal{V} (Ann (M)) = \bigcup_{k=0}^{n-1} \mathcal{V} (I_{k})$.
-Applying recalled fact 2, it follows (inductively) that all $f \in Ann (M)$ act as $0$ on all the $R / I_{k}$,
-i.e., that $Ann (M) \subseteq \bigcap_{k=0}^{n-1} I_{k}$, hence $\mathcal{V} (Ann (M)) \supseteq \bigcup_{k=0}^{n-1} \mathcal{V} (I_{k})$.
-Conversely, for all $k \in \{ 0 , \dots , n-1 \}$ we have that $I_{k} M_{k+1} \subseteq M_{k}$,
-from which it follows (inductively) $\prod_{k=0}^{n-1} I_{k} \subseteq Ann(M)$,
-hence in turn that $\bigcup_{k=0}^{n-1} \mathcal{V} (I_{k}) \supseteq \mathcal{V} (Ann (M))$.
+2. We now show, given $i \in \left\{ 0 , \dots , n-1 \right\}$,
+that $\mathcal{V} \left( Ann \left( M _ i \right) \right) = \bigcup _ { j \in \left\{ 0 , \dots , d _ i - 1 \right\} } \mathcal{V} \left( I _ { i , j } \right)$.
+Applying recalled fact 2, it follows (inductively) that all $f \in Ann \left( M _ i \right)$ act as $0$ on all the $R / I _ { i , j }$,
+i.e., that
+\[ Ann \left( M _ i \right) \ \subseteq \ \bigcap_{ j \in \left\{ 0 , \dots , d _ i - 1 \right\} } I _ { i , j } . \]
+Conversely, it’s clear for all $j \in \left\{ 0 , \dots , d _ i - 1 \right\}$ that $I _ { i , j } M _ { i , j + 1 } \subseteq M _ { i , j }$,
+from which it follows (reverse inductively) that
+\[ \prod _ { j \in \left\{ 0 , \dots , d _ i - 1 \right\} } I _ { i , j } \ \subseteq \ Ann \left( M _ i \right) . \]
+We conclude that
+\[ \prod _ { j \in \left\{ 0 , \dots , d _ i - 1 \right\} } I _ { i , j } \ \subseteq \ Ann \left( M _ i \right) 
+\ \subseteq \ \bigcap_{ j \in \left\{ 0 , \dots , d _ i - 1 \right\} } I _ { i , j } , \]
+whence the (sub)claim.
 
-3. We now show, given a prime $\mathfrak{p} \in Spec (R)$, that the localization $M \otimes_{R} R _{\mathfrak{p}} \,&#x2244;\, 0$ iff there exists a $k \in \{ 0 , \dots , n-1 \}$ such that $\mathfrak{p} \in \mathcal{V} (I_{k})$.
-Applying recalled fact 3, we have an $n$-tuple of short exact sequences
-\[ \left( \ 0 \to M_{k} \otimes_{R} R _{\mathfrak{p}} \to M_{k+1} \otimes_{R} R _{\mathfrak{p}} \to (R / I_{k}) \otimes_{R} R _{\mathfrak{p}} \to 0 \ \right)_{k \in \{ 0 , \dots , n-1 \}} . \]
-Applying recalled fact 1, it follows (reverse inductively) that $M \,&#x2244;\, 0$ iff there exists a $k \in \{ 0 , \dots , n-1 \}$ such that $(R / I_{k}) \otimes_{R} R _{\mathfrak{p}} \,&#x2244;\, 0$;
-applying recalled fact 5 this holds iff in turn there exists a $k \in \{ 0 , \dots , n-1 \}$ such that $\mathfrak{p} \in \mathcal{V} (I_{k})$.
+3. We now show, given $i \in \left\{ 0 , \dots , n-1 \right\}$ and prime $\mathfrak{p} \in Spec (R)$,
+that $M _ i \otimes R _ { \mathfrak{p} } \ \,&#x2244;\, \  0$ iff there exists $j \in \left\{ 0 , \dots , d _ i - 1 \right\}$ such that $\mathfrak{p} \in \mathcal{V} \left( I _ { i , j } \right)$.
+Applying recalled fact 3, we have a $d _ i$-tuple of short exact sequences
+\[ \left( \ 0 \ \to \ M_{ i , j } \otimes R _ { \mathfrak{p} } \ \overset{ \iota _ { i , j } \otimes 1 _ { R _ { \mathfrak{p} } } }{ \hookrightarrow } \ M_{ i , j + 1 } \otimes R _ { \mathfrak{p} } \ \overset{ \pi _ { i , j } \otimes 1 _ { R _ { \mathfrak{p} } } }{ \twoheadrightarrow } \ R / I_{ i , j } \otimes R _ { \mathfrak{p} } \ \to \ 0 \ \right)_{ j \in \left\{ 0 , \dots , d _ i - 1 \right\} } . \]
+Applying recalled fact 1, it follows (inductively) that $M \ \,&#x2244;\, \  0$ iff there exists $j \in \left\{ 0 , \dots , d _ i - 1 \right\}$ such that $\left( R / I _ { i , j } \right) \otimes R _ { \mathfrak{p} } \ \,&#x2244;\, \  0$.
+Applying recalled fact 6 this holds iff in turn there exists $j \in \left\{ 0 , \dots , d _ i - 1 \right\}$ such that $\mathfrak{p} \in \mathcal{V} \left( I _ { i , j } \right)$.
 
-4. We now show, given a prime $\mathfrak{p} \in Spec (R)$, that the localization $M \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R/ I) \,&#x2244;\, 0$ iff there exists a $k \in \{ 0 , \dots , n-1 \}$ such that $\mathfrak{p} \in \mathcal{V} (I_{k}) \cap \mathcal{V} (I)$.
-Suppose first that there exists no such $k$.
-Applying recalled facts 3, 4, and 6, we obtain an $n$-tuple of right exact sequences
-\[ \left( \ M_{k} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / I) \to M_{k+1} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / I) \to 0 \to 0 \ \right)_{k \in \{ 0 , \dots , n-1 \}} , \]
-hence (inductively) that
-\[ 0 \ \simeq M_{0} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / I) \ \simeq \ \dots \ \simeq \ M_{n} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / I) \ = \ M \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / I) . \]
-Otherwise there exists a maximal index $k_{max}$ such that $\mathfrak{p} \in \mathcal{V} (I_{k}) \cap \mathcal{V} (I)$.
-Applying recalled facts 3, 4, 5, and 6 (localizing before tensoring with the quotient, though of course the two commute), we obtain an epimorphism
-\[ M_{k_{max}+1} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) \to R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) \to 0 , \]
-hence that $M_{k_{max}+1} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) \,&#x2244;\, 0$,
-as well as isomorphisms
-\[ \left( \ 0 \to M_{k} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) \to M_{k+1} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) \to 0 \to 0 \ \right)_{k \in \{ k_{max}+1 , \dots , n-1 \}} , \]
-hence (inductively) that
-\[ M_{k_{max}+1} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) \ \simeq \ \dots \ \simeq \ M_{n} \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) \ = \ M \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) \]
-with the latter not $0$.
-As by applying recalled fact 6, we have that
-\[ M \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) \simeq M \otimes_{R} (R / I) \otimes_{R} R _{\mathfrak{p}} \otimes_{R} (R / \mathfrak{p}) , \]
-we conclude that $M \otimes_{R} (R / I) \otimes_{R} R _{\mathfrak{p}} \,&#x2244;\, 0$.
+4. We now show, given a prime $\mathfrak{p} \in Spec (R)$,
+that $\left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \otimes R _ { \mathfrak{p} } \ \,&#x2244;\, \  0$
+iff for all $i \in \left\{ 0 , \dots , n-1 \right\}$ there exists $j \in \{ 0 , \dots , d _ i - 1 \}$ such that $\mathfrak{p} \in \mathcal{V} \left( I _ { i , j } \right)$.
+Suppose first that there exists $i _ { nil } \in \left\{ 0 , \dots , n-1 \right\}$ such that there exists no $j \in \{ 0 , \dots , d _ { i _ { nil } } - 1 \}$ such that $\mathfrak{p} \in \mathcal{V} \left( I _ { i _ { nil } , j } \right)$.
+Applying recalled facts 3 and 6, we obtain a $d _ { i _ { nil } }$-tuple of isomorphisms
+\[ \left( \ 0 \ \to \ \ M_{ i _ { nil } , j } \otimes R _ { \mathfrak{p} } \ \overset{ \iota _ { i _ { nil } , j } \otimes 1 _ { R _ { \mathfrak{p} } } }{ \hookrightarrow } \ M_{ i _ { nil } , j + 1 } \otimes R _ { \mathfrak{p} } \ \twoheadrightarrow \ 0 \ \to \ 0 \ \right) _ { j \in \left\{ 0 , \dots , d _ { i _ { nil } } - 1 \right\} } , \]
+from which it follows (inductively) that the composite
+\[ 0 \overset{ \iota _ { i _ { nil } , d _ { i _ { nil } } - 1 } \circ \dots \circ \iota _ { i _ { nil } , 0 } }{ \to } M _ { i _ { nil } } \otimes R _ { \mathfrak{p} } \]
+is an isomorphism.
+Applying recalled fact 5, we conclude by the above that $\left(  \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \otimes R _ { \mathfrak{p} } \simeq 0$.
+Suppose now instead that for each $i \in \left\{ 0 , \dots , n-1 \right\}$ there exists maximal $j _ { i , sup } \in \{ 0 , \dots , d _ i - 1 \}$ such that $\mathfrak{p} \in \mathcal{V} \left( I _ { i , j _ { i , sup } } \right)$.
+Applying recalled facts 3, 4, 6, and 7, we obtain an epimorphism
+\[ \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ { i , j _ { i , sup } } \right) \otimes R _ { \mathfrak{p} } \ \overset{ \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } \pi _ { i , j _ { i , sup } } \right) \otimes 1 _ { R _ { \mathfrak{p} } } }{ \twoheadrightarrow } \ \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } \left( R / I _ { i , j _ { i , sup } } \right) \right) \otimes R _ { \mathfrak{p} } \ \ \,&#x2244;\, \  \ 0 , \]
+hence that $\left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ { i , j _ { i , sup } } \right) \otimes R _ { \mathfrak{p} } \ \,&#x2244;\, \  0$.
+Applying recalled facts 3 and 6, we obtain isomorphisms
+\[ \left( \ 0 \ \to \ \ M_{ i , j } \otimes R _ { \mathfrak{p} } \ \overset{ \iota _ { i , j } \otimes 1 _ { R _ { \mathfrak{p} } } }{ \hookrightarrow } \ M_{ i , j + 1 } \otimes R _ { \mathfrak{p} } \ \twoheadrightarrow \ 0 \ \to \ 0 \ \right) _ { \substack{ i \in \left\{ 0 , \dots , n-1 \right\} \\ j \in \left\{ j _ { i , sup } + 1 , \dots , d _ { i } - 1 \right\} } } , \]
+from which it follows (inductively) that the tensored composite
+\[ \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } \left( M _ { i , j _ { i , sup } } \otimes R _ { \mathfrak{p} } \right) \overset{ \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } \left( \left( \iota _ { i , d _ i - 1 } \otimes 1 _ { R _ { \mathfrak{p} } } \right) \circ \dots \circ \left( \iota _ { i , j _ { i , sup } + 1 }  \otimes 1 _ { R _ { \mathfrak{p} } } \right) \right) }{ \to } \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } \left( M _ i \otimes R _ { \mathfrak{p} } \right) \]
+is an isomorphism.
+Applying recalled fact 5 (twice), we conclude by the above that $\left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \otimes R _ { \mathfrak{p} } \ \,&#x2244;\, \  0$.
 
-Claims 1 and 2 of Prop. \ref{GeneralNakayamaLemma} are immediate from subarguments 2 and 3 and  2 and 4 above respectively.
+Claims 1 and 2 of Prop. \ref{GeneralNakayamaLemma} are immediate from subarguments 2 and 3 and 2 and 4 above respectively.
 \end{proof}
 
-More familiar forms of Nakayama's lemma can be recovered as corollaries of the above without too much effort. Sometimes, as for instance in the [Stacks Project](https://stacks.math.columbia.edu/tag/07RC), wherein all 11(!) other formulations of the lemma are straightforwardly reduced to the following, Nakayama's lemma is stated instead as:
+Prop. \ref{GeneralNakayamaLemma} immediately gives the following corollary, which we include for general interest:
 
-\begin{proposition}\label{FirstSpecialVersion}
-**(special version 1)** 
+\begin{corollary}\label{SupportTensorIntersection}
+**(Bound on the annihilator of a tensor product of finitely generated modules)**
 \linebreak
-Given a commutative ring $R$, a finitely generated $R$-module $M$, and an ideal $I \subseteq R$ such that $I M = M$, there exists an element $f \in R$ such that $f = 1 \ (mod \ I)$ and $f M = 0$.
-\end{proposition}
+Given commutative ring $R$, natural $n$, and $n$-tuple of finitely generated $R$-modules $\left( M _ i \right) _ { i \in \left\{ 0 , \dots , n-1 \right\} }$,
+\[ \sum _ { i \in \left\{ 0 , \dots , n-1 \right\} } Ann \left( M _ i \right) \ \subseteq \ Ann \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \ \subseteq \ rad \left( \sum _ { i \in \left\{ 0 , \dots , n-1 \right\} } Ann \left( M _ i \right) \right) . \]
+
+(Here $rad$ denotes the [[radical]].)
+\end{corollary}
+
 \begin{proof}
-From that $I M = M$ it follows that $M \otimes_{R} (R / I) \simeq 0$, i.e. that $supp (M \otimes_{R} (R / I)) = \emptyset$, hence by claims 1 and 2 of Prop. \ref{GeneralNakayamaLemma} that $\mathcal{V} (I)$ is disjoint from $\mathcal{V} (Ann(M))$, i.e. that $I$ and $Ann(M)$ are comaximal.
-The [Chinese Remainder theorem](https://stacks.math.columbia.edu/tag/00DT) then constructs the desired $f \in R$ such that $f = 1\ (mod\ I)$ and $f = 0\ (mod\ Ann(M))$.
+The left inclusion follows from that each $Ann \left( M _ i \right)$ (manifestly) annihilates $\bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i$.
+The right inclusion follows from that by claims 1 and 2 of Prop. \ref{GeneralNakayamaLemma}
+\[
+\begin{aligned}
+\mathcal{V} \left( Ann \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \right)
+& = supp \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \\
+& = \bigcap _ { i \in \left\{ 0 , \dots , n-1 \right\} } supp \left( M _ i \right) \\
+& = \bigcap _ { i \in \left\{ 0 , \dots , n-1 \right\} } \mathcal{V} \left( Ann \left( M _ i \right) \right) \\
+& = \mathcal{V} \left( \sum _ { i \in \left\{ 0 , \dots , n-1 \right\} } Ann \left( M _ i \right) \right) ,
+\end{aligned}
+\]
+hence $rad \left( Ann \left( \bigotimes _ { i \in \left\{ 0 , \dots , n-1 \right\} } M _ i \right) \right)
+ = rad \left( \sum _ { i \in \left\{ 0 , \dots , n-1 \right\} } Ann \left( M _ i \right) \right)$.
+\end{proof}
+
+Remark that the finite generation hypotheses in the statements of Prop. \ref{GeneralNakayamaLemma} and Cor. \ref{SupportTensorIntersection} are necessary:
+
+\begin{example}\label{NoInfiniteNakayama}
+**(The finiteness hypotheses in Prop. \ref{GeneralNakayamaLemma} and Cor. \ref{SupportTensorIntersection} are necessary)**
+\linebreak
+Viewing $\mathbb{Q} / \mathbb{Z}$ as a $\mathbb{Z}$-module,
+
+1. $supp \left( \mathbb{Q} / \mathbb{Z} \right) \subsetneq \mathcal{V} \left( Ann \left( \mathbb{Q} / \mathbb{Z} \right) \right)$.
+
+2. $supp \left( \left( \mathbb{Q} / \mathbb{Z} \right) \otimes \left( \mathbb{Q} / \mathbb{Z} \right) \right) \subsetneq supp \left( \mathbb{Q} / \mathbb{Z} \right) \cap supp \left( \mathbb{Q} / \mathbb{Z} \right)$.
+
+3. $Ann \left( \left( \mathbb{Q} / \mathbb{Z} \right) \otimes \left( \mathbb{Q} / \mathbb{Z} \right) \right) \subsetneq rad \left( Ann \left( \mathbb{Q} / \mathbb{Z} \right) + Ann \left( \mathbb{Q} / \mathbb{Z} \right) \right)$
+
+Contradicting claims 1 and 2 of Prop. \ref{GeneralNakayamaLemma} sans the finite generation hypothesis and Cor. \ref{SupportTensorIntersection} respectively.
+\end{example}
+
+Note likewise that the right inclusion in Cor. \ref{SupportTensorIntersection} is tight:
+
+\begin{example}\label{SupportTensorIntersectionTight}
+**(The bounds in Cor. \ref{SupportTensorIntersection} are tight)** 
+\linebreak
+Let
+
+- $R = \mathbb{Z} \left[ x _ 0, x _ 1 \right]$.
+
+- $M _ 0 = R / ( x _ 0 ) \oplus R / ( x _ 1 )$.
+
+- $M _ 1 = R / ( x _ 0 - x _ 1 )$.
+
+Then
+\[ Ann \left( M _ 0 \right) + Ann \left( M _ 1 \right) \subsetneq Ann \left( M _ 0 \otimes M _ 1 \right) = rad \left( Ann \left( M _ 0 \right) + Ann \left( M _ 1 \right) \right) \]
+(viewing $M _ 0$ and $M _ 1$ as $R$-modules).
+\end{example}
+\begin{proof}
+It is straightforwardly computed that
+
+- $Ann \left( M _ 0 \right) = ( x _ 0 x_ 1 )$.
+
+- $Ann \left( M _ 1 \right) = ( x _ 0 - x _ 1 )$.
+
+- $Ann \left( M _ 0 \right) + Ann \left( M _ 1 \right) = ( x _ 0 - x _ 1 ) + ( x _ 0 , x_ 1 ) ^ 2$.
+
+- $rad \left( Ann \left( M _ 0 \right) + Ann \left( M _ 1 \right) \right) = ( x _ 0 , x_ 1 )$.
+
+- $M _ 0 \otimes M _ 1 \simeq R / ( x _ 0 , x _ 1 ) \oplus R / ( x _ 0 , x _ 1 )$.
+
+- $Ann \left( M _ 0 \otimes M _ 1 \right) = ( x _ 0 , x_ 1 )$.
+
+The claim follows.
+\end{proof}
+
+We now deduce more familiar forms of Nakayama's lemma can as corollaries of the above. Sometimes, as for instance in the [Stacks Project](https://stacks.math.columbia.edu/tag/00DV), wherein all 11(!) other formulations of the lemma are straightforwardly reduced to the following, Nakayama's lemma is stated instead as:
+
+\begin{corollary}\label{FirstSpecialVersion}
+**(Nakayama, version 1)** 
+\linebreak
+Given commutative ring $R$, finitely generated $R$-module $M$, and ideal $I \subseteq R$ such that $I M = M$,
+there exists element $f \in R$ such that $f = 1 \ (mod \ I)$ and $f M = 0$.
+\end{corollary}
+\begin{proof}
+From that $I M = M$ it follows that $M \otimes_{R} \left( R / I \right) \simeq 0$,
+i.e. that $supp \left( M \otimes_{R} left( R / I \right) = \emptyset$,
+hence by claims 1 and 2 of Prop. \ref{GeneralNakayamaLemma}
+that $\mathcal{V} \left( Ann \left( M \right) \right)$ is disjoint from $\mathcal{V} \left( I \right)$,
+i.e. that $Ann \left( M \right)$ and $I$ are comaximal.
+The [Chinese Remainder theorem](https://stacks.math.columbia.edu/tag/00DT) then constructs the desired $f \in R$ such that $f = 1\ (mod\ I)$ and $f = 0\ \left( mod\ Ann \left( M \right) \right)$.
 \end{proof}
 
 Alternatively, Nakayama's lemma is often understood as a means by which information about the fiber of a module at a point can be used to characterize that of its stalk at said point:
 
-\begin{proposition}\label{SecondSpecialVersion}
-**(special version 2)** 
+\begin{corollary}\label{SecondSpecialVersion}
+**(Nakayama, version 2)** 
 \linebreak
-Given a local ring $R$ with maximal ideal $\mathfrak{m} \subseteq R$ and a finitely generated $R$-module $M$, $M \,&#x2244;\, 0$ iff $M \otimes_R (R / \mathfrak{m}) \,&#x2244;\, 0$. 
-\end{proposition}
+Given [[local ring]] $R$ with maximal ideal $\mathfrak{m} \subseteq R$ and finitely generated $R$-module $M$,
+then $M \ \,&#x2244;\, \  0$ iff $M \otimes_R \left( R / \mathfrak{m} \right) \ \,&#x2244;\, \  0$. 
+\end{corollary}
 \begin{proof}
-It's essentially tautological that an $R$-module is not $0$ iff $\mathfrak{m}$ is in its support.
-By claim 2 of Prop. \ref{GeneralNakayamaLemma}, $\mathfrak{m}$ is in $supp (M)$ iff it's in $supp (M) \otimes_R (R / \mathfrak{m})$.
+Observe that $\mathfrak{m} \in supp \left( R / \mathfrak{m} \right)$,
+hence by claim 2 of Prop. \ref{GeneralNakayamaLemma}
+that $\mathfrak{m} \in supp (M)$ iff $\mathfrak{m} \in supp \left( M \otimes_R \left( R / \mathfrak{m} \right) \right)$.
+Conclude by that an $R$-module is (essentially tautologically) $\ \,&#x2244;\, \  0$ iff $\mathfrak{m}$ is in its support.
 \end{proof}
 
 ## Examples and consequences
