@@ -513,7 +513,7 @@ We discuss now the simplest non-trivial example of a [[path integral quantizatio
 
 1. motivating and introducing elements of [[homotopy theory]] which become crucial for the understanding of FQFT as one moves up in dimension.
 
-A more detailed version of this section is at _[Local prequantum field theory -- id Dijkgraaf-Witten theory](prequantum+field+theory#1dDWTheory)_.
+A more detailed version of this section is at _[Local prequantum field theory -- 1d Dijkgraaf-Witten theory](prequantum+field+theory#1dDWTheory)_.
 
 #### Gauge transformation and Groupoids
  {#GroupoidsAndBasicHomotopy1TypeTheory}
