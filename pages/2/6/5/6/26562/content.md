@@ -96,7 +96,7 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Stochastic versions of [[Gelfand duality]]: [Furber-Jacobs'15](#gelfand_furber) and [Parzygnat'17](#stoch_gelfand_parzygnat).
 
-* Probabilistic graphical models: a categorical study of Bayesian networks [Fong'12](#fong12), a d-separation criterion for Markov categories [Fritz-Klingler'22](#d-sep), a theory of Bayesian networks and Markov random fields [Lorenzin-Zanasi'25](#probabilistic_triangulation). Extension to (Bayesian) updating in [JSS'25](#compositional_inference).
+* Probabilistic graphical models: a categorical study of Bayesian networks [Fong'12](#fong12), a d-separation criterion for Markov categories [Fritz-Klingler'22](#d-sep), a theory of Bayesian networks and Markov random fields [Lorenzin-Zanasi'25a](#probabilistic_triangulation), [Lorenzin-Zanasi'25b](#triangulation_moralization). Extension to (Bayesian) updating in [JSS'25](#compositional_inference).
 
 * [[idempotent completion|Idempotent completion]] of [[BorelStoch]]: a new measure-theoretic result, with several structural consequences, proven in [FGLPS'23](#markov_supports).
 
@@ -448,6 +448,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#probabilistic_triangulation} Antonio Lorenzin and [[Fabio Zanasi]], _An Algebraic Approach to Moralisation and Triangulation of Probabilistic Graphical Models_, 2025. ([arXiv](https://arxiv.org/abs/2503.11820))
 
 * {#lorenzin_continuous} Antonio Lorenzin and [[Fabio Zanasi]], _Approaching the Continuous from the Discrete: an Infinite Tensor Product Construction_, 2025. ([arXiv](https://arxiv.org/abs/2510.14716))
+
+* {#triangulation_moralization} Antonio Lorenzin and [[Fabio Zanasi]], _Bayesian Networks, Markov Networks, Moralisation, Triangulation: a Categorical Perspective_, 2025. ([arXiv](https://arxiv.org/abs/2512.09908))
 
 * {#wasserstein_algebras} Radu Mardare, [[Prakash Panangaden]], [[Gordon Plotkin]], _Free complete Wasserstein algebras_, LMCS 14, 2018. ([pdf](https://www.cs.mcgill.ca/~prakash/Pubs/fcwa.pdf))
 
