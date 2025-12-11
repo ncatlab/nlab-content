@@ -17,7 +17,7 @@
 
 ## Idea
 
-The concept of _filtered category_ is a [[categorification]] of the concept of [[directed set]]:  In addition to having an [[upper bound]] (but not necessarily a [[coproduct]]) for every [[pair]] of [[objects]], there must also be an upper bound (but not necessarily a [[coequaliser]]) for every pair of [[parallel morphisms]].
+The concept of a _filtered category_ is a [[categorification]] of the concept of a [[directed set]].  In addition to having an [[upper bound]] (but not necessarily a [[coproduct]]) for every [[pair]] of [[objects]], there must also be an upper bound (but not necessarily a [[coequaliser]]) for every pair of [[parallel morphisms]].
 
 A [[diagram]] $F \colon D\to C$ where $D$ is a filtered category is called a **filtered diagram**.  A [[colimit]] of a filtered diagram is called a **[[filtered colimit]]**.
 
