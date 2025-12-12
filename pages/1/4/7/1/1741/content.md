@@ -100,7 +100,7 @@ A &\stackrel{p}\leftarrow & C &\stackrel{i_r}\leftarrow & C_r\\
 
 in which the two squares are the cartesian satisfies the following 3 properties:
 
-* $p\circ i_r : C_1\to A$ is a discrete fibration 
+* $p\circ i_r : C_r\to A$ is a discrete fibration 
 
 * $q\circ i_l: C_l\to B$ is a discrete opfibration
 
