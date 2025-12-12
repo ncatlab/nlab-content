@@ -36,49 +36,12 @@ The [[opposite category]] of $\sigma\mathrm{Frm}$ is the category $\sigma\mathrm
 
 The [[initial object]] $\Sigma$ in the category of $\sigma$-frames is an important structure in [[topology]] and [[real analysis]], as it represents [[Sierpinski space]] in [[synthetic topology]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19)) and is sometimes used to constuct a version of the [[Dedekind real numbers]] ([Univalent Foundations Project 2013](#UFP13)). 
 
-In [[impredicative mathematics]], the initial $\sigma$-frame $\Sigma$ is constructed as the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of the sigma-frame of [[truth values]] $\Omega$. On the other hand, in [[predicative mathematics|predicative]] [[constructive mathematics]], the initial $\sigma$-frame $\Sigma$ is usually not constructable from the other axioms and inference rules of the foundations and usually has to be postulated separately as the initial $\sigma$-frame. This occurs in e.g. the [[HoTT Book]] where the initial $\sigma$-frame is a [[higher inductive-inductive type]]. 
+The initial $\sigma$-frame can also be defined in the following ways:
 
-In impredicative mathematics, one can then prove from initiality that the unique $\sigma$-frame homomorphism from the postulated initial $\sigma$-frame to the sigma-frame of truth values $\Omega$ is an [[injection]], and that the subset of $\Omega$ corresponding to that injection is the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of $\Omega$. 
+* as the [[free object|free]] $\omega$-[[cpo]] on the [[boolean domain]]
+* [[impredicative mathematics|impredicatively]] as the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of the $\sigma$-frame of [[truth values]] $\Omega$
 
-Let $S$ be a [[subobject|sub]]-$\sigma$-frame of the $\sigma$-frame of truth values $\Omega$, one can define a function $t:\Sigma \to S$ from the initial $\sigma$-frame $\Sigma$ to $S$ by $t(i) \mapsto i = \top$, where $\top$ is the top element of the $\sigma$-frame. 
-
-\begin{theorem}
-The function $t$ is a $\sigma$-frame homomorphism. 
-\end{theorem}
-
-\begin{proof}
-One can show from the definition of a $\sigma$-frame that
-
-* $t(\top) \coloneqq \top = \top$ is true, 
-* $t(\bot) \coloneqq \bot = \top$ is false, since only in a trivial $\sigma$-frame is that statement true, and since the [[boolean domain]] is a sublattice of the initial $\sigma$-frame, the initial $\sigma$-frame is not trivial. 
-* $t(i \wedge j) \coloneqq i \wedge j = \top$ is $(i = \top) \wedge (j = \top)$, by definition of a [[arity|binary]] [[meet]]
-* $t(i \vee j) \coloneqq i \vee j = \top$ is $(i = \top) \vee (j = \top)$, provable for any [[distributive lattice]]. 
-* $t(\lambda n.i(i)) \coloneqq \bigvee_{n:\mathbb{N}} i(n) = \top$ is $\exists n:\mathbb{N}.(i(n) = \top)$. 
-
-Thus $t$ is a $\sigma$-frame homomorphism. 
-\end{proof}
-
-\begin{corollary}
-$t$ is the unique $\sigma$-frame homomorphism from $\Sigma$ to $S$ by definition of initiality of $\Sigma$. 
-\end{corollary}
-
-\begin{theorem}
-The initial $\sigma$-frame $\Sigma$ is conservative with respect to $S$; that is, $t(i) \iff t(j)$ if and only if $i = j$ for $t:\Sigma \to S$.
-\end{theorem}
-
-\begin{proof}
-One direction of the theorem follows from the [[principle of substitution]] of [[equality]]. 
-
-The converse that $i = \top \iff j = \top$ implies that $i = j$ holds because...
-
-[proof still in construction...]
-\end{proof}
-
-\begin{corollary}
-The function $t$ from $\Sigma$ to $S$ is an [[injection]], and $\Sigma$ is a [[subset]] of $S \subseteq \Omega$. Since $\Sigma$ is a subset of every such sub-$\sigma$-frame $S$ of $\Omega$, it is the intersection of every sub-$\sigma$-frame of $\Omega$. 
-\end{corollary}
-
-Thus, the initial $\sigma$-frame sits in a hierarchy of subsets of the set of truth values:
+The initial $\sigma$-frame sits in a hierarchy of subsets of the set of truth values:
 
 $$\mathbb{2} \subseteq \Sigma^0_1 \subseteq \Sigma \subseteq \Omega$$
 
