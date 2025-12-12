@@ -17,7 +17,11 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 ## Examples
 
-* The [initial $\sigma$-frame](#InitialSigmaFrame). 
+* The [[Sierpinski space#Predicative|predicative Sierpinski space]] is the [[initial object|initial]] $\sigma$-frame. 
+
+* The [[limited principle of omniscience]] implies that the [[boolean domain]] is a $\sigma$-frame. 
+
+* The [[limited principle of omniscience]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$ implies that the set of [[semidecidable truth values]] is a $\sigma$-frame. 
 
 * The [[intrinsic topology]] on a set $A$, which is the [[function set]] $\Sigma^A$
 
@@ -30,24 +34,6 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 $\sigma\mathrm{Frm}$ is the [[category]] whose [[objects]] are $\sigma$-frames and whose [[morphisms]] are $\sigma$-frame [[homomorphisms]], that is lattice [[homomorphisms]] that preserve [[countable]] joins. $\sigma\mathrm{Frm}$ is a [[replete subcategory|replete]] [[subcategory]] of [[Pos]] and [[DistLat]], and it is an [[algebraic category]].
 
 The [[opposite category]] of $\sigma\mathrm{Frm}$ is the category $\sigma\mathrm{Loc}$ of [[sigma-locale|$\sigma$-locales]]; this is an example of the duality between [[space and quantity]].
-
-### The initial $\sigma$-frame
-{#InitialSigmaFrame}
-
-The [[initial object]] $\Sigma$ in the category of $\sigma$-frames is an important structure in [[topology]] and [[real analysis]], as it represents [[Sierpinski space]] in [[synthetic topology]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19)) and is sometimes used to constuct a version of the [[Dedekind real numbers]] ([Univalent Foundations Project 2013](#UFP13)). 
-
-The initial $\sigma$-frame can also be defined in the following ways:
-
-* as the [[free object|free]] $\omega$-[[cpo]] on the [[boolean domain]]
-* [[impredicative mathematics|impredicatively]] as the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of the $\sigma$-frame of [[truth values]] $\Omega$
-
-The initial $\sigma$-frame sits in a hierarchy of subsets of the set of truth values:
-
-$$\mathbb{2} \subseteq \Sigma^0_1 \subseteq \Sigma \subseteq \Omega$$
-
-where $\mathbb{2}$ is the [[boolean domain]] and $\Sigma^0_1$ is the set of [[semidecidable truth values]]. 
-
-In [[classical mathematics]], and in [[constructive mathematics]] which accept the [[limited principle of omniscience]], the initial $\sigma$-frame is just the [[boolean domain]] $\mathbb{2}$; in fact, that the [[boolean domain]] is the initial $\sigma$-frame is equivalent to the [[limited principle of omniscience]]. In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$, the initial $\sigma$-frame is just the [[Rosolini dominance]]. The [[limited principle of omniscience]] also implies that the initial $\sigma$-frame is the [[Rosolini dominance]] since both are equivalent to the [[boolean domain]] under the assumption. 
 
 ## Related concepts
 
@@ -110,10 +96,6 @@ In [[classical mathematics]], and in [[constructive mathematics]] which accept t
 
 [[!redirects sigma frame]]
 [[!redirects sigma frames]]
-
-[[!redirects initial sigma-frame]]
-[[!redirects initial σ-frame]]
-[[!redirects initial sigma frame]]
 
 [[!redirects category of sigma-frames]]
 [[!redirects category of σ-frames]]
