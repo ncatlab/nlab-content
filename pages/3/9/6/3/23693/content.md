@@ -8,20 +8,16 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
-## Definition 
+## Definition
 
 A __$\sigma$-frame__ is a [[sigma-complete lattice|$\sigma$-complete lattice]] $(L, \leq, \bot, \vee, \top, \wedge, \Vee)$ such that for all elements $a \in L$ and sequences $s:\mathbb{N} \to L$, 
 $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
-## Examples 
+## Examples
 
-* [[Sierpinski space]], denoted as $\Sigma$ or $1_\bot$, is the initial $\sigma$-frame. 
-
-* Assuming the [[axiom of countable choice]], the [[Rosolini dominance]]
+* The [initial $\sigma$-frame](#InitialSigmaFrame). 
 
 * The [[intrinsic topology]] on a set $A$, which is the [[function set]] $\Sigma^A$
 
@@ -35,9 +31,16 @@ $\sigma\mathrm{Frm}$ is the [[category]] whose [[objects]] are $\sigma$-frames a
 
 The [[opposite category]] of $\sigma\mathrm{Frm}$ is the category $\sigma\mathrm{Loc}$ of [[sigma-locale|$\sigma$-locales]]; this is an example of the duality between [[space and quantity]].
 
+### The initial $\sigma$-frame
+{#InitialSigmaFrame}
 
+The initial object $\Sigma$ in the category of $\sigma$-frames is an important structure in [[topology]] and [[real analysis]], as it represents [[Sierpinski space]] in [[synthetic topology]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19)) and is sometimes used to constuct a version of the [[Dedekind real numbers]] ([Univalent Foundations Project 2013](#UFP13)). 
 
-## See also ##
+In [[impredicative mathematics]], the initial $\sigma$-frame $\Sigma$ is constructed as the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of the sigma-frame of [[truth values]] $\Omega$. On the other hand, in [[predicative mathematics|predicative]] [[constructive mathematics]], the initial $\sigma$-frame $\Sigma$ is usually not constructable from the other axioms and inference rules of the foundations and usually has to be postulated separately as the initial $\sigma$-frame. This occurs in e.g. the [[HoTT Book]] where the initial $\sigma$-frame is a [[higher inductive-inductive type]]. In impredicative mathematics, one can then prove from initiality that the unique $\sigma$-frame homomorphism from the postulated initial $\sigma$-frame to the sigma-frame of truth values $\Omega$ is an [[injection]], and that the subset of $\Omega$ corresponding to that injection is the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of $\Omega$.
+
+In [[classical mathematics]], and in [[constructive mathematics]] which accept the [[limited principle of omniscience]], the initial $\sigma$-frame is just the [[boolean domain]] $\mathbb{2}$; in fact, that the [[boolean domain]] is the initial $\sigma$-frame is equivalent to the [[limited principle of omniscience]]. In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$, the initial $\sigma$-frame just the [[Rosolini dominance]]. The [[limited principle of omniscience]] also implies that the initial $\sigma$-frame is the [[Rosolini dominance]] since both are equivalent to the [[boolean domain]] under the assumption. 
+
+## Related concepts
 
 * [[sigma-complete lattice]]
 
@@ -83,9 +86,9 @@ The [[opposite category]] of $\sigma\mathrm{Frm}$ is the category $\sigma\mathrm
 
 * [[Andrej Bauer]], *Spreen spaces and the synthetic Kreisel-Lacombe-Shoenfield-Tseitin theorem* ([arXiv:2307.07830](https://arxiv.org/abs/2307.07830))
 
-* Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
+* {#BFS19} Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
 
-* Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+* {#UFP13} Section 11.2 of Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 * [[Raquel Bernardes]], *Lebesgue integration on $\sigma$-locales: simple functions*, ([arXiv:2408.13911](https://arxiv.org/abs/2408.13911))
 
@@ -98,6 +101,10 @@ The [[opposite category]] of $\sigma\mathrm{Frm}$ is the category $\sigma\mathrm
 
 [[!redirects sigma frame]]
 [[!redirects sigma frames]]
+
+[[!redirects initial sigma-frame]]
+[[!redirects initial σ-frame]]
+[[!redirects initial sigma frame]]
 
 [[!redirects category of sigma-frames]]
 [[!redirects category of σ-frames]]
