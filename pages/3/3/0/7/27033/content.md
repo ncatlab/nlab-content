@@ -126,7 +126,7 @@ We say that a $A$-[[frame homomorphism]] is a lattice homomorphism which also pr
 $\mathrm{LPO}_A$ holds if and only if the [[boolean domain]] is the [[initial object|initial]] $A$-frame; i.e. the [[boolean domain]] is an $A$-frame and for every other $A$-frame $L$, [[uniqueness quantifier|there is a unique]] $A$-frame homomorphism from the [[boolean domain]] to $L$. 
 \end{theorem}
 
-When the set $A$ is the [[natural numbers]] $\mathbb{N}$, this yields the familiar theorem that $\mathrm{LPO}_\mathbb{N}$ holds if and only if the [[boolean domain]] is the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. 
+When the set $A$ is the [[natural numbers]] $\mathbb{N}$, this yields the familiar theorem that $\mathrm{LPO}_\mathbb{N}$ holds if and only if the [[boolean domain]] is the [[initial sigma-frame|initial $\sigma$-frame]]. 
 
 The next statement relate the $\mathrm{LPO}_A$ with the axiom that [[tight apartness relation]] on the [[function set]] $\mathbb{2}^A$ is a [[decidable tight apartness]]. 
 
@@ -303,7 +303,7 @@ $\mathrm{LPO}_\mathbb{N}$ and fully untruncated $\mathrm{LPO}_\mathbb{N}$ are eq
 Next, we have the equivalence of the $\mathrm{LPO}_\mathbb{N}$ with the [[analytic LPO]] for various notions of [[real numbers]]. 
 
 \begin{theorem}
-The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma \subseteq \Omega$. 
+The [[analytic LPO]] for the following sets of real numbers are equivalent to the LPO for the [[natural numbers]]: the [[Cauchy real numbers]] $\mathbb{R}_C$, the [[Escardo-Simpson real numbers]]/[[HoTT book real numbers]] $\mathbb{R}_E$/$\mathbb{R}_H$, and the subfield of [[Dedekind real numbers]] $\mathbb{R}_\Sigma \subseteq \mathbb{R}_D$ which are constructed out of [[Dedekind cuts]] valued in the [[initial sigma-frame|initial $\sigma$-frame]] $\Sigma \subseteq \Omega$. 
 \end{theorem}
 
 Let $C$ denote the [[category]] of [[discrete field|discrete]] [[sequentially Cauchy complete]] [[Archimedean ordered fields]]. $C$ is a [[groupoid]] and a [[subsingleton]] [[principle of equivalence|up to]] [[uniqueness quantifier|unique]] [[isomorphism]]: for every two [[objects]] $R \in C$ and $R' \in C$ there exists a unique [[morphism]] between $R$ and $R'$ which is an [[isomorphism]]. 
@@ -396,7 +396,7 @@ One can construct an element $\mathbb{R}:U$ representing the $U$-small type of r
 
 Note that in all these cases, the real numbers $\mathbb{R}$ constructed from these universes or classical models of foundations of mathematics, while equivalent to the internal Dedekind real numbers constructed in the universe or model, are not necessarily equivalent to the external [[Dedekind real numbers]] in the foundations. 
 
-Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]], which is the initial $\mathbb{N}$-overt [[dominance]]. The [[axiom of choice]] for $\Sigma$-open entire relations to set $B$ says that for any set $A$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
+Let $\Sigma$ be the [[initial sigma-frame|initial $\sigma$-frame]], which is the initial $\mathbb{N}$-overt [[dominance]]. The [[axiom of choice]] for $\Sigma$-open entire relations to set $B$ says that for any set $A$ and any entire $\Sigma$-open relation $R:A \times B \to \Sigma$ from $A$ to $B$ there exists a function $f:A \to B$ such that for all $x$ in $A$ $R(x, f(x)) = \top$.
 
 \begin{theorem}
 The [[axiom of choice]] for $\Sigma$-open entire relations to the [[boolean domain]] implies $\mathrm{LPO}_\mathbb{N}$. 
@@ -465,7 +465,7 @@ $\mathrm{AC}_{\mathbb{N}, 2}$ implies that the Cauchy real numbers and the Dedek
 This means that theories which accept both $\mathrm{LPO}_\mathbb{N}$ and [[Brouwer's continuity principle]] for the Dedekind real numbers, such as the [[internal logic]] of the [[cohesive (infinity,1)-topos]] of [[Euclidean-topological infinity-groupoids]], necessarily reject $\mathrm{AC}_{\mathbb{N}, 2}$. 
 
 \begin{theorem}
-$\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[Phoa's principle]] for the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$. 
+$\mathrm{LPO}_\mathbb{N}$ is inconsistent with [[Phoa's principle]] for the [[initial sigma-frame|initial $\sigma$-frame]] $\Sigma$. 
 \end{theorem}
 
 \begin{proof}
@@ -473,7 +473,7 @@ $\mathrm{LPO}_\mathbb{N}$ is equivalent to the fact that the unique [[distributi
 \end{proof}
 
 \begin{lemma}
-$\mathrm{LPO}_\mathbb{N}$ is inconsistent with synthetic quasi-coherence (i.e. the [[Kock-Lawvere axiom]]) for the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$; that is, let $A$ be a finitely presented $\Sigma$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\Sigma[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{Spec}_\Sigma(A)$ be the set of $\Sigma$-algebra homomorphisms. Then the canonical lattice homomorphism
+$\mathrm{LPO}_\mathbb{N}$ is inconsistent with synthetic quasi-coherence (i.e. the [[Kock-Lawvere axiom]]) for the [[initial sigma-frame|initial $\sigma$-frame]] $\Sigma$; that is, let $A$ be a finitely presented $\Sigma$-algebra, in the sense that $A$ is a [[distributive lattice]] equivalent to the quotient of $\Sigma[x_1 \ldots x_n]$ by finitely many relations, and let $\mathrm{Spec}_\Sigma(A)$ be the set of $\Sigma$-algebra homomorphisms. Then the canonical lattice homomorphism
 
 $$a \mapsto (f \mapsto f(a)):A \to \Sigma^{\mathrm{Spec}_\Sigma(A)}$$
 
@@ -481,15 +481,15 @@ is an [[isomorphism]]
 \end{lemma}
 
 \begin{proof}
-Synthetic quasi-coherence for the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$ implies [[Phoa's principle]] for $\Sigma$, and so is thus inconsistent with $\mathrm{LPO}_\mathbb{N}$.  
+Synthetic quasi-coherence for the [[initial objectsigma-frame|initial $\sigma$-frame]] $\Sigma$ implies [[Phoa's principle]] for $\Sigma$, and so is thus inconsistent with $\mathrm{LPO}_\mathbb{N}$.  
 \end{proof}
 
 \begin{corollary}
-The [[directed interval]] $\mathbb{I}$ is not the [[initial object|initial]] $\sigma$-frame in [[triangulated type theory]]. 
+The [[directed interval]] $\mathbb{I}$ is not the [[initial sigma-frame|initial $\sigma$-frame]] in [[triangulated type theory]]. 
 \end{corollary}
 
 \begin{proof}
-The directed interval $\mathbb{I}$ satisfies [[Phoa's principle]] in [[triangulated type theory]], while the directed interval $\mathbb{I}$ being a $\sigma$-frame implies $\mathrm{LPO}_\mathbb{N}$ as proven above. $\mathrm{LPO}_\mathbb{N}$ then implies that the [[initial object|initial]] $\sigma$-frame $\Sigma$ is the [[boolean domain]], and it is inconsistent for the boolean domain to satisfy [[Phoa's principle]] because of the [[negation]] [[endofunction]] on the boolean domain. 
+The directed interval $\mathbb{I}$ satisfies [[Phoa's principle]] in [[triangulated type theory]], while the directed interval $\mathbb{I}$ being a $\sigma$-frame implies $\mathrm{LPO}_\mathbb{N}$ as proven above. $\mathrm{LPO}_\mathbb{N}$ then implies that the [[initial sigma-frame |initial$\sigma$-frame]] $\Sigma$ is the [[boolean domain]], and it is inconsistent for the boolean domain to satisfy [[Phoa's principle]] because of the [[negation]] [[endofunction]] on the boolean domain. 
 \end{proof}
 
 \begin{theorem}
