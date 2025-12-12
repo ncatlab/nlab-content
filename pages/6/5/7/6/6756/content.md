@@ -40,7 +40,7 @@ In this case $\alpha$ is called a [[Hamiltonian]] for $v$.
 +-- {: .num_defn}
 ###### Definition
 
-For $(X,\omega)$ an [[n-plectic manifold]], a [[vector field]] $v \in \Gamma(T X)$ is called a **Hamiltonian vector field** if is contraction with the $(n+1)$-form $\omega$ is exact: there is $\alpha \in \Omega^{n-1}(X)$ such that
+For $(X,\omega)$ an [[n-plectic manifold]], a [[vector field]] $v \in \Gamma(T X)$ is called a **Hamiltonian vector field** if its contraction with the $(n+1)$-form $\omega$ is exact: there is $\alpha \in \Omega^{n-1}(X)$ such that
 
 $$
   \iota_v \omega = d \alpha
