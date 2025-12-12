@@ -17,9 +17,9 @@
 
 A _projective presentation_ of an [[object]] is a realization of that object as a suitable [[quotient]] of a [[projective object]]. 
 
-In [[homological algebra]] projective presentations can sometimes be used in place of genuine [[projective resolutions]] in the computation of [[derived functors]]. See for instance at _[[Ext-functor]]_ for examples.
+In [[homological algebra]], projective presentations can sometimes be used in place of genuine [[projective resolutions]] in the computation of [[derived functors]]. See _[[Ext-functor]]_ for examples.
 
-The [[duality|dual]] notion is that of [[injective presentation]].
+The [[duality|dual]] notion is that of an [[injective presentation]].
 
 ## Definition
 
