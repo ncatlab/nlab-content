@@ -75,7 +75,7 @@ Suppose that there is an Archimedean ordered field $R$ which is a [[field extens
 Since the field of Cauchy real numbers is a (trivial) field extension of itself, the analytic LPO for $R$ implies the analytic LPO for the Cauchy real numbers, which implies the LPO for the natural numbers. 
 \end{proof}
 
-Let $\Sigma$ be the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]. It is a sub-$\sigma$-frame of the [[frame of truth values]]. One can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts valued in the initial $\sigma$-frame $\Sigma \subseteq \Omega$ (see section 11.2 of [UFP 2013](#UFP13)), where then one has ring homomorphisms
+Let $\Sigma$ be the [[initial sigma-frame|initial $\sigma$-frame]]. It is a sub-$\sigma$-frame of the [[frame of truth values]]. One can construct a set of Dedekind real numbers $\mathrm{R}_\Sigma$ out of Dedekind cuts valued in the initial $\sigma$-frame $\Sigma \subseteq \Omega$ (see section 11.2 of [UFP 2013](#UFP13)), where then one has ring homomorphisms
 $$\mathrm{R}_C \hookrightarrow \mathrm{R}_\Sigma \hookrightarrow \mathrm{R}_D$$
 
 \begin{theorem}
