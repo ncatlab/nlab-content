@@ -2,9 +2,9 @@
 
 ***
 
-This entry discusses the general notion of _[[derived functor]]_ specified to the special context of [[homological algebra]], hence to functors between [[categories of chain complexes]].
+This entry discusses the general notion of a _[[derived functor]]_ specified to the special context of [[homological algebra]], hence to functors between [[categories of chain complexes]].
 
-In the literature this is often understood to be the default case of derived functors. For more discussion of how the following relates to the more general concepts of derived functors see at _[derived functor -- In homological algebra](derived+functor#InHomologicalAlgebra)_.
+In the literature, this is often understood to be the default case of derived functors. For more discussion of how the following relates to the more general concepts of derived functors, see _[derived functor -- In homological algebra](derived+functor#InHomologicalAlgebra)_.
 
 ***
 
@@ -25,7 +25,7 @@ In the literature this is often understood to be the default case of derived fun
 
 ## Idea
 
-The general concept of [[derived functor]] is in homological algebra usually called the _[[total derived functor|total]] [[hyper-derived functor]]_, with just "derived functor" being reserved for a more restrictive case. In this tradition, we consider the special case first and then generalize it in stages. The relation between all these notions is discussed [below](#Properties).
+The general concept of a [[derived functor]] is in homological algebra usually called a _[[total derived functor|total]] [[hyper-derived functor]]_, with just "derived functor" being reserved for a more restrictive case. In this tradition, we consider the special case first and then generalize it in stages. The relation between all these notions is discussed [below](#Properties).
 
 ## Definition
 
@@ -86,7 +86,7 @@ $$
   Ch_\bullet(F) \colon Ch_\bullet(\mathcal{A}) \to Ch_\bullet(\mathcal{A}')
 $$
 
-between [[nLab:categories of chain complexes]] (its "prolongation") by applying it to each [[nLab:chain complex]] and to all the diagrams in the definition of a [[nLab:chain map]]. Similarly it preserves [[nLab:chain homotopies]] and hence it passes to the quotient given by the strong [[nLab:homotopy category of chain complexes]]
+between [[nLab:categories of chain complexes]] (its "prolongation") by applying it to each [[nLab:chain complex]] and to all the diagrams in the definition of a [[nLab:chain map]]. Similarly, it preserves [[nLab:chain homotopies]] and hence it passes to the quotient given by the strong [[nLab:homotopy category of chain complexes]]
 
 $$
   \mathcal{K}(F) \colon \mathcal{K}(\mathcal{A}) \to \mathcal{K}(\mathcal{A}')
@@ -112,7 +112,7 @@ $$
   \mathcal{D}^\bullet(\mathcal{A}) \simeq \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
 $$
 
-etc. One wants to accordingly _derive_ from $F$ a functor $\mathcal{D}_\bullet(\mathcal{A}) \to \mathcal{D}_\bullet(\mathcal{A}')$ between these derived categories. It is immediate to achieve this on the domain category, there we can simply precompose and form
+etc. Accordingly, one wants to _derive_ from $F$ a functor $\mathcal{D}_\bullet(\mathcal{A}) \to \mathcal{D}_\bullet(\mathcal{A}')$ between these derived categories. It is immediate to achieve this on the domain category, since there we can simply precompose and form
 
 $$
   \mathcal{A}  
@@ -127,9 +127,9 @@ $$
   \,.
 $$
 
-But the resulting composite lands in $\mathcal{K}_\bullet(\mathcal{A}')$ and in general does not factor through the inclusion $\mathcal{D}_\bullet(\mathcal{A}') = \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}'}) \hookrightarrow \mathcal{K}_\bullet(\mathcal{A}')$.
+But the resulting composite lands in $\mathcal{K}_\bullet(\mathcal{A}')$ and generally does not factor through the inclusion $\mathcal{D}_\bullet(\mathcal{A}') = \mathcal{K}_\bullet(\mathcal{P}_{\mathcal{A}'}) \hookrightarrow \mathcal{K}_\bullet(\mathcal{A}')$.
 
-In a more general abstract discussion than we present here, one finds that by applying a projective resolution functor _on chain complexes_, one can enforce this factorization. However, by definition of [[nLab:resolution]], the resulting chain complex is [[nLab:quasi-isomorphism|quasi-isomorphic]] to the one obtained by the above composite. 
+In a more general abstract discussion than we present here, one finds that by applying a projective resolution functor _on chain complexes_, one can enforce this factorization. However, by the definition of a [[nLab:resolution]], the resulting chain complex is [[nLab:quasi-isomorphism|quasi-isomorphic]] to the one obtained by the above composite. 
 
 This means that if one is only interested in the "weak chain homology type" of the chain complex in the image of a [[nLab:derived functor]], then forming [[nLab:chain homology]] groups of the chain complexes in the images of the above composite gives the desired information. This is what def. \ref{RightDerivedFunctorOfLeftExactFunctor} and def. \ref{LeftDerivedFunctorOfRightExactFunctor} below do.
 
@@ -149,7 +149,7 @@ which preserves [[nLab:direct sums]] (and hence in particular the [[nLab:zero ob
 
 =--
 
-Here to "preserve kernels" means that for every morphism $X \stackrel{f}{\to} Y$ in $\mathcal{A}$ we have an [[nLab:isomorphism]] on the left of the following [[nLab:commuting diagram]]
+Here, to "preserve kernels" means that for every morphism $X \stackrel{f}{\to} Y$ in $\mathcal{A}$ we have an [[nLab:isomorphism]] on the left of the following [[nLab:commuting diagram]]
 
 $$
   \array{
@@ -164,15 +164,15 @@ $$
 
 hence that both rows are [[nLab:exact sequence|exact]]. And dually for right exact functors.
 
-We record the following immediate consequence of this definition (which in the literature is often taken to be the definition).
+We record the following immediate consequence of this definition (which, in the literature, is often taken to be the definition).
 
 +-- {: .num_prop #LeftRightExactFunctorsCharacterizedByExactSequences}
 ###### Proposition
 
-If $F$ is a left exact functor, then for every [[nLab:exact sequence]]  of the form
+If $F$ is a left exact functor, then for every [[nLab:exact sequence]] of the form
 
 $$
-  0 \to A \to B \to C
+  0 \to A \to B \to C,
 $$
 
 also 
@@ -184,7 +184,7 @@ $$
 is an exact sequence. Dually, if $F$ is a right exact functor, then for every [[nLab:exact sequence]] of the form
 
 $$
-  A \to B \to C \to 0
+  A \to B \to C \to 0,
 $$
 
 also 
@@ -200,12 +200,9 @@ is an exact sequence.
 +-- {: .proof}
 ###### Proof
 
-If $0 \to A \to B \to C$ is exact then $A \hookrightarrow B$ is a [[monomorphism]].
-But then the statement that $A \to B \to C$ is exact at $B$ says 
-precisely that $A$ is the [[kernel]] of $B \to C$. 
-So if $F$ is left exact then by definition also $F(A) \to F(B)$
-is the kernel of $F(B) \to F(C)$ and so is in particular also 
-a monomorphism.
+If $0 \to A \to B \to C$ is exact, then $A \hookrightarrow B$ is a [[monomorphism]].
+But then the statement that $A \to B \to C$ is exact at $B$ says precisely that $A$ is the [[kernel]] of $B \to C$. 
+So if $F$ is left exact, then by definition also $F(A) \to F(B)$ is the kernel of $F(B) \to F(C)$ and so is in particular also a monomorphism.
 Dually for right exact functors.
 
 =--
@@ -213,8 +210,7 @@ Dually for right exact functors.
 +-- {: .num_remark }
 ###### Remark
 
-Proposition \ref{LeftRightExactFunctorsCharacterizedByExactSequences} is
-clearly the motivation for the terminology in def. \ref{LeftRightExactFunctor}: a functor is left exact if it preserves short exact sequences to the left, and right exact if it preserves them to the right.
+Proposition \ref{LeftRightExactFunctorsCharacterizedByExactSequences} is clearly the motivation for the terminology in def. \ref{LeftRightExactFunctor}: a functor is left exact if it preserves short exact sequences to the left, and right exact if it preserves them to the right.
 
 =--
 
@@ -270,7 +266,7 @@ $$
   F \colon \mathcal{A} \to \mathcal{A}'
 $$
 
-be a [[right exact functor]] between [[abelian categories]] such that $\mathcal{A}$ has [[enough projectives]]. For $n \in \mathbb{N}$ the **$n$th [[left derived functor]]** of $F$ is the composite
+be a [[right exact functor]] between [[abelian categories]] such that $\mathcal{A}$ has [[enough projectives]]. For $n \in \mathbb{N}$, the **$n$th [[left derived functor]]** of $F$ is the composite
 
 $$
   L_n F 
@@ -305,12 +301,12 @@ $$
 
 ### Basic properties
 
-The following proposition says that in degree 0 these derived functors coincide with the original functors. 
+The following proposition says that, in degree 0, these derived functors coincide with the original functors. 
 
 +-- {: .num_prop #BasicPropertiesOfDerivedFunctors}
 ###### Proposition
 
-Let $F \colon \mathcal{A} \to \mathcal{B}$ a [[left exact functor]], def. \ref{LeftRightExactFunctor} in the presence of [[enough injectives]]. Then for all $X \in \mathcal{A}$ there is a [[nLab:natural isomorphism]]
+Let $F \colon \mathcal{A} \to \mathcal{B}$ a [[left exact functor]], def. \ref{LeftRightExactFunctor} in the presence of [[enough injectives]]. Then, for all $X \in \mathcal{A}$, there is a [[nLab:natural isomorphism]]
 
 $$
   R^0F(X) \simeq F(X)
@@ -329,16 +325,16 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We discuss the first statement, the second is formally dual. 
+We discuss the first statement—the second is formally dual. 
 
-By [this](/nlab/show/injective+resolution#InjectiveResolutionInComponents) remark an injective resolution $X \stackrel{\simeq_{qi}}{\to} X^\bullet$ is equivalently an [[nLab:exact sequence]] of the form
+By [this](/nlab/show/injective+resolution#InjectiveResolutionInComponents) remark, an injective resolution $X \stackrel{\simeq_{qi}}{\to} X^\bullet$ is equivalently an [[nLab:exact sequence]] of the form
 
 $$
-  0 \to X \hookrightarrow X^0 \to X^1 \to \cdots
+  0 \to X \hookrightarrow X^0 \to X^1 \to \cdots.
   \,.
 $$
 
-If $F$ is left exact then it preserves this exact sequence by definition of left exactness, and hence 
+If $F$ is left exact, then it preserves this exact sequence by the definition of left exactness, and hence 
 
 $$
   0 \to F(X) \hookrightarrow F(X^0) \to F(X^1) \to \cdots
@@ -379,17 +375,16 @@ Let $F$ be an [[nLab:additive functor]].
 +-- {: .proof}
 ###### Proof
 
-If $N$ is projective then the chain complex $[\cdots \to 0 \to 0 \to N]$ is already a [[projective resolution]] and hence by definition $L_n F(N) \simeq H_n(0)$ for $n \geq 1$. Dually if $N$ is an injective object.
+If $N$ is projective, then the chain complex $[\cdots \to 0 \to 0 \to N]$ is a [[projective resolution]] and hence, by definition, $L_n F(N) \simeq H_n(0)$ for $n \geq 1$. Dually if $N$ is an injective object.
 
 =--
 
-For proving the basic property of derived functors below in prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence} which continues these basis statements to higher degree, in a certain way, we need the following technical lemma.
+For proving the basic property of derived functors below in prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}, which continues these basis statements to higher degree, in a certain way, we need the following technical lemma.
 
 +-- {: .num_lemma #ProjectiveResolutionOfExactSequenceByExactSequence}
 ###### Lemma
 
-For $0 \to A \stackrel{i}{\to} B \stackrel{p}{\to} C \to 0$ a [[nLab:short exact sequence]]
-in an [[nLab:abelian category]] with [[nLab:enough projectives]], 
+For $0 \to A \stackrel{i}{\to} B \stackrel{p}{\to} C \to 0$ a [[nLab:short exact sequence]] in an [[nLab:abelian category]] with [[nLab:enough projectives]], 
 there exists a [[nLab:commuting diagram]] of [[nLab:chain complexes]]
 
 $$
@@ -421,7 +416,7 @@ and in addition
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{ExistenceOfInjectiveResolutions} we can choose $f_\bullet$ and $h_\bullet$. The task is now to construct the third resolution $g_\bullet$ such as to obtain a short exact sequence of chain complexes, hence degreewise a short exact sequence, in the two row.
+By prop. \ref{ExistenceOfInjectiveResolutions}, we can choose $f_\bullet$ and $h_\bullet$. The task is now to construct the third resolution $g_\bullet$ such as to obtain a short exact sequence of chain complexes, hence degreewise a short exact sequence, in the two row.
 
 To construct this, let for each $n \in \mathbb{N}$
 
@@ -431,7 +426,7 @@ $$
 
 be the [[nLab:direct sum]] and let the top horizontal morphisms be the canonical inclusion and projection maps of the direct sum.
 
-Let then furthermore (in [[nLab:matrix calculus]] notation)
+Then let (in [[nLab:matrix calculus]] notation)
 
 $$
   g_0 = 
@@ -473,7 +468,7 @@ $$
 which exists by the [[nLab:left lifting property]] of the [[nLab:projective object]]
 $C_0$ (since $C_\bullet$ is a projective resolution) against the [[nLab:epimorphism]] $p : B \to C$ of the [[nLab:short exact sequence]].
 
-In total this gives in degree 0
+In total this gives, in degree 0,
 
 $$
   \array{
@@ -488,7 +483,7 @@ $$
   \,.
 $$
 
-Let then the [[nLab:differentials]] of $B_\bullet$ be given by
+Then let the [[nLab:differentials]] of $B_\bullet$ be given by
 
 $$
   d_k^{B_\bullet} 
@@ -507,7 +502,7 @@ $$
   \,,
 $$
 
-where the $\{e_k\}$ are constructed by [[nLab:induction]] as follows. Let $e_0$ be a lift in 
+where the $\{e_k\}$'s are constructed by [[nLab:induction]] as follows. Let $e_0$ be a lift in 
 
 $$
   \array{   
@@ -519,7 +514,7 @@ $$
   }
 $$
 
-which exists since $C_1$ is a [[nLab:projective object]] and $A_0 \to A$ is an epimorphism by $A_\bullet$ being a projective resolution. Here we are using that by exactness the bottom morphism indeed factors through $A$ as indicated, because the definition of $\zeta$ and  the chain complex property of $C_\bullet$ gives 
+which exists since $C_1$ is a [[nLab:projective object]] and $A_0 \to A$ is an epimorphism by $A_\bullet$ being a projective resolution. Here we are using that, by exactness, the bottom morphism indeed factors through $A$ as indicated, because the definition of $\zeta$ and the chain complex property of $C_\bullet$ gives 
 
 $$
   \begin{aligned}
@@ -534,7 +529,7 @@ $$
   \,.
 $$ 
 
-Now in the induction step, assuming that $e_{n-1}$ has been been found satisfying the chain complex property, let $e_n$ be a lift in
+Now, in the induction step, assuming that $e_{n-1}$ has been been found satisfying the chain complex property, let $e_n$ be a lift in
 
 $$
   \array{
@@ -550,7 +545,7 @@ $$
 
 which again exists since $C_{n+1}$ is projective. That the bottom morphism factors as indicated is the chain complex property of $e_{n-1}$ inside $d^{B_\bullet}_{n-1}$.
 
-To see that the $d^{B_\bullet}$ defines this way indeed squares to 0 notice that
+To see that the $d^{B_\bullet}$ defined this way does indeed square to 0, notice that
 
 $$
   d^{B_\bullet}_{n}
@@ -567,12 +562,12 @@ $$
   \,.
 $$
 
-This vanishes by the very commutativity of the above diagram.
+This vanishes by the commutativity of the above diagram.
 
 
-This establishes $g_\bullet$ such that the above diagram commutes and the bottom row is degreewise a short exact sequence, in fact a [[nLab:split exact sequence]], by construction. 
+This establishes $g_\bullet$ such that the above diagram commutes and the bottom row is degreewise a short exact sequence (in fact, a [[nLab:split exact sequence]]) by construction. 
 
-To see that $g_\bullet$ is indeed a quasi-isomorphism, consider the [[nLab:homology long exact sequence]] associated to the short exact sequence of cochain complexes $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$. In positive degrees it implies that the chain homology of $B_\bullet$ indeed vanishes. In degree 0 it gives the short sequence $0 \to A \to H_0(B_\bullet) \to B\to 0$ sitting in a commuting diagram
+To see that $g_\bullet$ is indeed a quasi-isomorphism, consider the [[nLab:homology long exact sequence]] associated to the short exact sequence of cochain complexes $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$. In positive degrees, it implies that the chain homology of $B_\bullet$ indeed vanishes. In degree 0, it gives the short sequence $0 \to A \to H_0(B_\bullet) \to B\to 0$ sitting in a commuting diagram
 
 $$
   \array{
@@ -618,7 +613,7 @@ where
 
 * each vertical morphism is an [[nLab:injective resolution]];
 
-and in addition
+and, in addition,
 
 * the bottom row is again a [[nLab:short exact sequence]] of cochain complexes.
 
@@ -628,7 +623,7 @@ and in addition
  {#LongExactSequence}
 
 
-The central general fact about derived functors to be discussed here is now the following.
+The central general fact about derived functors to be discussed here is the following.
 
 +-- {: .num_prop #LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
 ###### Proposition
@@ -672,15 +667,15 @@ $$
   0 \to A^\bullet \to B^\bullet \to C^\bullet \to 0
 $$
 
-of the given exact sequence which is itself again an exact sequence of cochain complexes.
+of the given exact sequence, which is itself an exact sequence of cochain complexes.
 
-Since $A^n$ is an [[nLab:injective object]] for all $n$, its component sequences $0 \to A^n \to B^n \to C^n \to 0$ are indeed [[nLab:split exact sequences]] (see the discussion there). Splitness is preserved by any functor $F$ (and also since $F$ is [[nLab:additive functor|additive]] it even preserves the [[nLab:direct sum]] structure that is chosen in the proof of lemma \ref{ProjectiveResolutionOfExactSequenceByExactSequence}) and so it follows that
+Since $A^n$ is an [[nLab:injective object]] for all $n$, its component sequences $0 \to A^n \to B^n \to C^n \to 0$ are indeed [[nLab:split exact sequences]] (see the discussion there). Splitness is preserved by any functor $F$ (and also, since $F$ is [[nLab:additive functor|additive]], it even preserves the [[nLab:direct sum]] structure that is chosen in the proof of lemma \ref{ProjectiveResolutionOfExactSequenceByExactSequence}) and so it follows that
 
 $$
   0 \to F(\tilde A^\bullet) \to F(\tilde B^\bullet) \to F(\tilde C^\bullet) \to 0
 $$
 
-is a again short exact sequence of cochain complexes, now in $\mathcal{B}$. Hence we have the corresponding [[nLab:homology long exact sequence]] from prop. \ref{HomologyLongExactSequence}:
+is a short exact sequence of cochain complexes, now in $\mathcal{B}$. Hence, we have the corresponding [[nLab:homology long exact sequence]] from prop. \ref{HomologyLongExactSequence}:
 
 
 $$
@@ -696,7 +691,7 @@ $$
   \,.
 $$
 
-By construction of the resolutions and by def. \ref{RightDerivedFunctorOfLeftExactFunctor}, this is equal to
+By the constructions of the resolutions and by def. \ref{RightDerivedFunctorOfLeftExactFunctor}, this is equal to
 
 $$
   \cdots
@@ -711,7 +706,7 @@ $$
   \,.
 $$
 
-Finally the equivalence of the first three terms with $F(A) \to F(B) \to F(C)$ is given by prop. \ref{BasicPropertiesOfDerivedFunctors}.
+Finally, the equivalence of the first three terms with $F(A) \to F(B) \to F(C)$ is given by prop. \ref{BasicPropertiesOfDerivedFunctors}.
 
 
 =--
@@ -725,9 +720,9 @@ $$
   0 \to F(A) \to F(B) \to F(C) \to R^1 F(A)
 $$
 
-and hence $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence itself precisely if $R^1 F(A) \simeq 0$.
+and hence $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence precisely if $R^1 F(A) \simeq 0$.
 
-Dually, if $F$ is [[nLab:right exact functor]], then $L_1 F (C)$ "measures how $F$ fails to be exact" for then 
+Dually, if $F$ is [[nLab:right exact functor]], then $L_1 F (C)$ "measures how $F$ fails to be exact", for then 
 
 $$
   L_1F (C) \to F(A) \to F(B) \to F(C) \to 0
@@ -737,7 +732,7 @@ is an exact sequence and hence is a short exact sequence precisely if $L_1F(C) \
 
 =--
 
-Notice that in fact we even have the following statement (following directly from the definition).
+Notice that we even have the following statement (following directly from the definition).
 
 +-- {: .num_prop #DerivedFunctorOfExactFunctor}
 ###### Proposition
@@ -761,7 +756,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Because an [[exact functor]] preserves all [[exact sequences]]. If $Y_\bullet \to A$ is a projective resolution then also $F(Y)_\bullet$ is exact in all positive degrees, and hence $L_{n\geq 1} F(A) ) H_{n \geq}(F(Y)) = 0$. Dually for $R^n F$.
+Because an [[exact functor]] preserves all [[exact sequences]], if $Y_\bullet \to A$ is a projective resolution, then $F(Y)_\bullet$ is exact in all positive degrees, and hence $L_{n\geq 1} F(A) ) H_{n \geq}(F(Y)) = 0$. Dually for $R^n F$.
 
 =--
 
@@ -780,7 +775,7 @@ Let $F \colon \mathcal{A} \to \mathcal{B}$ be a left or right exact additive fun
 
 We now discuss how the derived functor of an additive functor $F$ may also be computed not necessarily with genuine injective/projective resolutions as in def. \ref{RightDerivedFunctorOfLeftExactFunctor}, but with (just) "$F$-injective"/"$F$-projective resolutions".
 
-While projective resolutions in $\mathcal{A}$ are _sufficient_ for computing _every_ [[nLab:left derived functor]] on $Ch_\bullet(\mathcal{A})$ and injective resolutions are sufficient for computing _every_ [[nLab:right derived functor]] on $Ch^\bullet(\mathcal{A})$, if one is interested just in a single functor $F$ then such resolutions may be more than _necessary_. A weaker kind of resolution which is still sufficient is then often more convenient for applications. These _$F$-projective resolutions_ and _$F$-injective resolutions_, respectively, we discuss now. A special case of both are _$F$-[[nLab:acyclic resolutions]]_.
+While projective resolutions in $\mathcal{A}$ are _sufficient_ for computing _every_ [[nLab:left derived functor]] on $Ch_\bullet(\mathcal{A})$ and injective resolutions are sufficient for computing _every_ [[nLab:right derived functor]] on $Ch^\bullet(\mathcal{A})$, if one is interested just in a single functor $F$ then such resolutions may be more than _necessary_. A weaker kind of resolution which is still sufficient is often more convenient for applications. These _$F$-projective resolutions_ and _$F$-injective resolutions_, respectively, we discuss now. A special case of both is _$F$-[[nLab:acyclic resolutions]]_.
 
 Let $\mathcal{A}, \mathcal{B}$ be [[nLab:abelian categories]] and let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor]]. 
 
@@ -791,9 +786,9 @@ Assume that $F$ is [[nLab:left exact functor|left exact]]. An [[nLab:additive ca
 
 1. for every object $A \in \mathcal{A}$ there is a [[nLab:monomorphism]] $A \to \tilde A$ into an object $\tilde A \in \mathcal{I} \subset \mathcal{A}$;
 
-1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A, B \in \mathcal{I} \subset \mathcal{A}$ also $C \in \mathcal{I} \subset \mathcal{A}$;
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A, B \in \mathcal{I} \subset \mathcal{A}$, we also have $C \in \mathcal{I} \subset \mathcal{A}$;
 
-1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A\in \mathcal{I} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $A\in \mathcal{I} \subset \mathcal{A}$, we also have that $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
 
 =--
 
@@ -804,15 +799,15 @@ And dually:
 
 Assume that $F$ is [[nLab:right exact functor|right exact]]. An [[nLab:additive category|additive]] [[nLab:full subcategory]] $\mathcal{P} \subset \mathcal{A}$ is called **$F$-projective** (or: consisting of $F$-projective objects) if
 
-1. for every object $A \in \mathcal{A}$ there is an [[nLab:epimorphism]] $\tilde A \to A$ from an object $\tilde A \in \mathcal{P} \subset \mathcal{A}$;
+1. for every object $A \in \mathcal{A}$, there is an [[nLab:epimorphism]] $\tilde A \to A$ from an object $\tilde A \in \mathcal{P} \subset \mathcal{A}$;
 
-1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $B, C \in \mathcal{P} \subset \mathcal{A}$ also $A \in \mathcal{P} \subset \mathcal{A}$;
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $B, C \in \mathcal{P} \subset \mathcal{A}$, we also have $A \in \mathcal{P} \subset \mathcal{A}$;
 
-1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $C\in \mathcal{P} \subset \mathcal{A}$ also $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
+1. for every [[nLab:short exact sequence]] $0 \to A \to B \to C \to 0$ in $\mathcal{A}$ with $C\in \mathcal{P} \subset \mathcal{A}$, we also have that $0 \to F(A) \to F(B) \to F(C) \to 0$ is a short exact sequence in $\mathcal{B}$. 
 
 =--
 
-With the $\mathcal{I},\mathcal{P}\subset \mathcal{A}$ as above, we say:
+With  $\mathcal{I},\mathcal{P}\subset \mathcal{A}$ as above, we say:
 
 +-- {: .num_defn #FProjectivesResolution}
 ###### Definition
@@ -834,13 +829,13 @@ For $A \in \mathcal{A}$,
 
 =--
 
-Let now $\mathcal{A}$ have [[enough projectives]] / [[enough injectives]], respectively.
+Now let $\mathcal{A}$ have [[enough projectives]] / [[enough injectives]], respectively.
 
 +-- {: .num_example #FAcyclicObjectsAreFProjectiveObjects}
 ###### Example
 
 For $F \colon \mathcal{A} \to \mathcal{B}$ an [[nLab:additive functor]],
-let $Ac \subset \mathcal{A}$ be the [[nLab:full subcategory]] on the $F$-[[nLab:acyclic objects]], def. \ref{AcyclicObject}. Then
+let $Ac \subset \mathcal{A}$ be the [[nLab:full subcategory]] on the $F$-[[nLab:acyclic objects]], def. \ref{AcyclicObject}. Then,
 
 * if $F$ is [[nLab:left exact functor|left exact]], then $\mathcal{I} \coloneqq Ac$ is a subcategory of $F$-injective objects;
 
@@ -852,22 +847,22 @@ let $Ac \subset \mathcal{A}$ be the [[nLab:full subcategory]] on the $F$-[[nLab:
 ###### Proof
 
 Consider the case that $F$ is left exact. The other case works dually.
-Then the first condition of def. \ref{FInjectives} is satisfied because every [[nLab:injective object]] is an $F$-[[nLab:acyclic object]] and by assumption there are enough of these. 
+The first condition of def. \ref{FInjectives} is satisfied because every [[nLab:injective object]] is an $F$-[[nLab:acyclic object]] and by assumption there are enough of these. 
 
-For the second and third condition of def. \ref{FInjectives} use that there is the [[nLab:long exact sequence]] of [[nLab:derived functors]] prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
+For the second and third condition of def. \ref{FInjectives}, use the [[nLab:long exact sequence]] of [[nLab:derived functors]] prop. \ref{LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
 
 $$
   0 \to F(A) \to F(B) \to F(C) \to R^1 F(A) \to R^1 F(B) \to R^1 F(C) \to R^2 F(A) \to R^2 F(B) \to R^2 F(C) \to \cdot
   \,.
 $$
 
-For the second condition, by assumption on $A$ and $B$ and definition of $F$-[[nLab:acyclic object]] we have $R^n F(A) \simeq 0$ and $R^n F(B) \simeq 0$ for $n \geq 1$ and hence short exact sequences
+For the second condition, by the assumption on $A$ and $B$ and the definition of an $F$-[[nLab:acyclic object]], we have $R^n F(A) \simeq 0$ and $R^n F(B) \simeq 0$ for $n \geq 1$, and hence short exact sequences
 
 $$
   0 \to 0 \to R^n F(C) \to 0
 $$
 
-which imply that $R^n F(C)\simeq 0$ for all $n \geq 1$, hence that $C$ is acyclic. 
+which imply that $R^n F(C)\simeq 0$ for all $n \geq 1$, and hence that $C$ is acyclic. 
 
 Similarly, the third condition is equivalent to $R^1 F(A) \simeq 0$. 
 
@@ -882,7 +877,7 @@ The $F$-projective/injective resolutions (def. \ref{FProjectivesResolution}) by 
 
 
 Let $\mathcal{A}$ be an [[nLab:abelian category]] with [[nLab:injective object|enough injectives]].
-Let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor|additive]] [[nLab:left exact functor]] with [[nLab:right derived functor]] $R_\bullet F$, def. \ref{RightDerivedFunctorOfLeftExactFunctor}. Finally let $\mathcal{I} \subset \mathcal{A}$ be a subcategory of $F$-injective objects, def. \ref{FInjectives}.
+Let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor|additive]] [[nLab:left exact functor]] with [[nLab:right derived functor]] $R_\bullet F$, def. \ref{RightDerivedFunctorOfLeftExactFunctor}. Finally, let $\mathcal{I} \subset \mathcal{A}$ be a subcategory of $F$-injective objects, def. \ref{FInjectives}.
 
 
 +-- {: .num_lemma #FPreservesNullnessOfFInjectiveComplexes}
@@ -891,7 +886,7 @@ Let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[nLab:additive functor|additiv
 If a [[nLab:cochain complex]] $X^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ is [[nLab:quasi-isomorphism|quasi-isomorphic]] to 0, 
 
 $$
-  X^\bullet \stackrel{\simeq_{qi}}{\to} 0
+  X^\bullet \stackrel{\simeq_{qi}}{\to} 0,
 $$
 
 then also $F(X^\bullet) \in Ch^\bullet(\mathcal{B})$ is quasi-isomorphic to 0
@@ -920,7 +915,7 @@ $$
   0 \to im(d^2) \to X^3 \stackrel{d^3}{\to} im(d^3) \to 0
 $$
 
-and so on. Going by [[nLab:induction]] through this list and using the second condition in def. \ref{FInjectives} we have that all the $im(d^n)$ are in $\mathcal{I}$. Then the third condition in def. \ref{FInjectives} says that all the sequences
+and so on. Going by [[nLab:induction]] through this list and using the second condition in def. \ref{FInjectives}, we have that all the $im(d^n)$'s are in $\mathcal{I}$. The third condition in def. \ref{FInjectives} says that all the sequences
 
 $$
   0 \to F(im(d^n)) \to F(X^n+1) \to F(im(d^{n+1})) \to 0
@@ -932,7 +927,7 @@ $$
   0 \to F(X^0)\to F(X^1) \to F(X^2) \to \cdots
 $$
 
-is exact, hence that $F(X^\bullet)$ is quasi-isomorphic to 0.
+is exact, and hence that $F(X^\bullet)$ is quasi-isomorphic to 0.
 
 
 =--
@@ -941,7 +936,7 @@ is exact, hence that $F(X^\bullet)$ is quasi-isomorphic to 0.
 +-- {: .num_theorem #DerivedFFromFInjectiveResolution}
 ###### Theorem
 
-For $A \in \mathcal{A}$ an object with $F$-injective resolution $A \stackrel{\simeq_{qi}}{\to} I_F^\bullet$, def. \ref{FProjectivesResolution}, we have for each $n \in \mathbb{N}$ an [[nLab:isomorphism]]
+For $A \in \mathcal{A}$ an object with $F$-injective resolution $A \stackrel{\simeq_{qi}}{\to} I_F^\bullet$, def. \ref{FProjectivesResolution}, we have, for each $n \in \mathbb{N}$, an [[nLab:isomorphism]]
 
 $$  
   R^n F(A) \simeq H^n(F(I_F^\bullet))
@@ -954,7 +949,7 @@ between the $n$th right derived functor, def. \ref{RightDerivedFunctorOfLeftExac
 +-- {: .proof}
 ###### Proof
 
-By [this prop.](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#ExistenceOfInjectiveResolutions) we may also find an injective resolution $A \stackrel{\simeq_{qi}}{\to} I^\bullet$. By [this prop](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#InjectiveResolutionOfCodomainRespectsMorphisms) there is a lift of the identity on $A$ to a [[chain map]] $I^\bullet_F \to I^\bullet$ such that the [[diagram]]
+By [this prop.](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#ExistenceOfInjectiveResolutions), we may also find an injective resolution $A \stackrel{\simeq_{qi}}{\to} I^\bullet$. By [this prop](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#InjectiveResolutionOfCodomainRespectsMorphisms), there is a lift of the identity on $A$ to a [[chain map]] $I^\bullet_F \to I^\bullet$ such that the [[diagram]]
 
 $$
   \array{
@@ -966,7 +961,7 @@ $$
   }
 $$
 
-[[nLab:commuting diagram|commutes]] in $Ch^\bullet(\mathcal{A})$. Therefore by the [[nLab:2-out-of-3]] property of [[nLab:quasi-isomorphisms]] it follows that $f$ is a quasi-isomorphism
+[[nLab:commuting diagram|commutes]] in $Ch^\bullet(\mathcal{A})$. Therefore, by the [[nLab:2-out-of-3]] property of [[nLab:quasi-isomorphisms]] it follows that $f$ is a quasi-isomorphism.
 
 Let $Cone(f) \in Ch^\bullet(\mathcal{A})$ be the [[nLab:mapping cone]] of $f$ and let $I^\bullet \to Cone(f)$ be the canonical [[nLab:chain map]] into it. By the explicit formulas for mapping cones, we have that 
 
@@ -982,8 +977,8 @@ $$
   \,.
 $$
 
-Observe that with $f^\bullet$ a quasi-isomorphism $Cone(f^\bullet)$ is quasi-isomorphic to 0. Therefore 
-the second item above implies with lemma \ref{FPreservesNullnessOfFInjectiveComplexes} that also $F(Cone(f))$ is quasi-isomorphic to 0. This finally means that the above homology exact sequences consists of exact pieces of the form
+Observe that, with $f^\bullet$ a quasi-isomorphism, $Cone(f^\bullet)$ is quasi-isomorphic to 0. Therefore, 
+the second item above implies (with lemma \ref{FPreservesNullnessOfFInjectiveComplexes}) that $F(Cone(f))$ is quasi-isomorphic to 0. This finally means that the above homology exact sequence consists of exact pieces of the form
 
 $$
   0 \to (R^n F(A)\coloneqq H^n(I^\bullet) \stackrel{\simeq}{\to} H^n(I_F^\bullet) \to 0
@@ -1029,7 +1024,7 @@ is a pair of [[additive functor|additive]] [[adjoint functors]], then
 
 Let $F \colon \mathcal{A} \to \mathcal{B}$ be an [[additive functor|additive]] [[right exact functor]] with codomain an [[additive and abelian categories|AB5-category]]. 
 
-Then the [[left derived functors]] $L_n F$ preserves [[filtered colimits]] precisely if filtered colimits of [[projective objects]] in $\mathcal{A}$ are $F$-[[acyclic objects]]. 
+Then the [[left derived functors]] $L_n F$ preserve [[filtered colimits]] precisely if filtered colimits of [[projective objects]] in $\mathcal{A}$ are $F$-[[acyclic objects]]. 
 
 =--
 
