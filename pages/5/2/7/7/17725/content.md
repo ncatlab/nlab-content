@@ -20,14 +20,6 @@ The second condition implies that $\Sigma$ is closed under binary [[meets]] $\we
 
 The elements of $\Sigma$ are called **open** truth values.
 
-### In dependent type theory
-
-In [[dependent type theory]], every [[univalent]] [[type of propositions]] is a [[subtype]] of the [[type of all propositions]] $\Omega$. A **dominance** is a univalent type of propositions $(\Sigma, \mathrm{El}_\Sigma)$ with an element $\top:\Sigma$ such that
-
-* $\mathrm{El}_\Sigma(\top)$ is a [[contractible type]]
-* given a [[mere proposition]] $P$, for all elements $U:\Sigma$ with a function from $\mathrm{El}_\Sigma(U)$ to the type that $P$ is essentially $\Sigma$-small, the [[product type]] $\mathrm{El}_\Sigma(U) \times P$ is essentially $\Sigma$-small. 
-$$\frac{\Gamma \vdash P \; \mathrm{type} \quad \Gamma \vdash p:\mathrm{isProp}(P)}{\Gamma, U:\Sigma \vdash q:\left(\mathrm{El}_\Sigma(U) \to \sum_{B:\Sigma} \mathrm{El}_\Sigma(B) \simeq P\right) \to \left(\sum_{C:\Sigma} \mathrm{El}_\Sigma(C) \simeq \mathrm{El}_\Sigma(U) \times P\right)}$$
-
 ## Open subsets
 
 We define a subset $U\subseteq A$ of an arbitrary set $A$ to be **open** if for each $x\in A$, the proposition "$x\in U$" is an open truth value.  The second condition above is equivalent to saying that if $U\subseteq A$ is open and also $V\subseteq U$ is open, then $V\subseteq A$ is open.
@@ -50,9 +42,9 @@ Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is cl
 
 * The [[boolean domain]] $\{\bot,\top\}$ is a dominance.  This is the smallest dominance such that the empty set is overt and the smallest dominance such that the boolean domain is overt. (In [[classical mathematics]], of course, this and the previous example are the only two dominances, and the theory trivializes.)
 
-* The [[initial object|initial]] [[sigma-frame|$\sigma$-frame]] $\Sigma$ is a dominance: the unique $\sigma$-frame [[homomorphism]] from $\Sigma$ to the [[frame of truth values]] $\Omega$ is an [[injection]], meaning that $\Sigma$ is a (structural) [[subset]] of $\Omega$. This is the smallest dominance such that the [[natural numbers]] $\mathbb{N}$ is overt. 
+* The [[initial sigma-frame|initial $\sigma$-frame]] $\Sigma$ is a dominance: the unique $\sigma$-frame [[homomorphism]] from $\Sigma$ to the [[frame of truth values]] $\Omega$ is an [[injection]], meaning that $\Sigma$ is a (structural) [[subset]] of $\Omega$. This is the smallest dominance such that the [[natural numbers]] $\mathbb{N}$ is overt. 
 
-* The set of all truth values of the form $\exists n, f(n) = 1$ for some function $f:\mathbb{N}\to \mathbf{2}$ is often a dominance, though this may not be provable without further assumptions. For instance, this is the case if we assume [[countable choice]] or (perhaps) the [[propositional axiom of choice]]. When it is a dominance, this is the smallest dominance such that $\mathbb{N}$ is overt; it is called the **Rosolini dominance**.  Equivalently, it is the set of truth values of the form $x\gt 0$ for some [[Cauchy real number]] $x$.
+* The set $\Sigma^0_1$ of all truth values of the form $\exists n, f(n) = 1$ for some function $f:\mathbb{N}\to \mathbf{2}$ is a dominance if and only if it coincides with the [[initial sigma-frame|initial $\sigma$-frame]], the smallest dominance such that $\mathbb{N}$ is overt. For instance, this is the case if we assume the [[limited principle of omniscience]] or [[countable choice]] or (perhaps) the [[propositional axiom of choice]]; in these cases $\Sigma^0_1$ is called the **Rosolini dominance**.  Equivalently, it is the set of truth values of the form $x\gt 0$ for some [[Cauchy real number]] $x$.
 
 * The set of all truth values of the form $x\gt 0$ for some [[Dedekind real number]] $x$ is also often a dominance, though this also may not be provable without further assumptions.
 
