@@ -17,7 +17,7 @@
 
 In [[logic]], double negation is the operation that takes $P$ to $\neg{\neg{P}}$, where $\neg$ is [[negation]].  In other words, double negation is the [[composite]] of [[negation]] with itself. This is a [[closure operator]]/[[modality]] and as such a special case of a [[continuation monad]].
 
-The _[[double negation translation]]_ says that a [[proposition]] $P$ is provable in [[classical logic]] precisely if its double negation $\not \not P$ is provable in [[constructive logic]].
+The _[[double negation translation]]_ says that a [[proposition]] $P$ is provable in [[classical logic#classical_propositional_logic|classical propositional logic]] precisely if its double negation $\not \not P$ is provable in [[constructive logic|constructive propositional logic]].
 
 The _double negation topology_ closes morphisms under double negation (def. \ref{DoubleNegationTopology} below), and its [[category of sheaves]] forms a [[boolean topos]] (prop. \ref{DoubleNegationSheavesFormBooleanTopos} below). This notably serves to capture the _[[forcing]]_ of [[set theory]] in terms of [[topos theory]] ([[classifying topoi]]), see also remark \ref{RelationToForcing} below. 
 
