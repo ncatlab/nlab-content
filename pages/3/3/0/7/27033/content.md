@@ -268,6 +268,8 @@ The internal versions of the limited principles of omniscience, like all interna
 
 The term "limited principle of omniscience", without any specification of the set for which LPO holds, usually refers to the limited principle of omniscience for the natural numbers $\mathrm{LPO}_\mathbb{N}$. 
 
+The limited principle of omniscience for the natural numbers is also called **[[excluded middle]] for [[semidecidable truth values]]**, i.e. [[truth values]] of the form $\exists n, f(n) = 1$ for some [[boolean]]-valued [[sequence]] $f:\mathbb{N}\to \mathbf{2}$, or **$\Sigma^0_1$-[[excluded middle]]** ([Diener 2018](#Diener18)) in the sense of the [[arithmetical hierarchy]] in [[computability theory]]. 
+
 ### Statements equivalent to $\mathrm{LPO}_\mathbb{N}$
 
 Apart from the equivalent statements stated above for the LPO for a general set $A$, there are various other results that are equivalent specifically to the limited principle of omniscience for the natural numbers. 
