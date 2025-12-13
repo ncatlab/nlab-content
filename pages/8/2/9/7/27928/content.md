@@ -340,6 +340,13 @@ With [[boundary field theory|boundaries]]:
 
 ### In 5d
 
+In the context of minimal [[D=5 supergravity]]:
+
+* {#ChamseddineNicolai80} [[Ali Chamseddine]], [[Hermann Nicolai]]: *Coupling the $SO(2)$ Supergravity Through Dimensional Reduction*, Physics Letters B **96** 1–2 (1980) 89-93 \[<a href="https://doi.org/10.1016/0370-2693(80)90218-X">doi:10.1016/0370-2693(80)90218-X</a>, [[ChamseddineNicolai-SU2SuGra.pdf:file]]\]
+
+  see equation (0.1) in: Corrigendum: Phys. Lett. B **785** (2018) 631-632 &lbrack;[arXiv:1808.08955](https://arxiv.org/abs/1808.08955), [doi:10.1016/j.physletb.2018.05.029](https://doi.org/10.1016/j.physletb.2018.05.029)&rbrack;
+
+
 In the context of [[quantum electrodynamics]] in 5d:
 
 * [[Christopher T. Hill]]: *Anomalies, Chern-Simons Terms and Chiral Delocalization in Extra Dimensions*, Phys. Rev. D **73** (2006) 085001 &lbrack;[arXiv:hep-th/0601154](https://arxiv.org/abs/hep-th/0601154), [doi:10.1103/PhysRevD.73.085001](https://doi.org/10.1103/PhysRevD.73.085001)&rbrack;
