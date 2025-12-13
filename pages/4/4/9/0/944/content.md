@@ -82,6 +82,8 @@ The **Sierpi&#324;ski space** $\Sigma$ is defined in the following equivalent wa
 * [[impredicative mathematics|impredicatively]] as the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of the $\sigma$-frame of [[truth values]] $\Omega$
 =--
 
+Here a [[subobject|sub]]-$\sigma$-frame of $\Omega$ is one that is closed under [[existential quantifiers]] on the [[natural numbers]]. 
+
 In [[dependent type theory]], the first three definitions of the Sierpi&#324;ski space are formulated using [[higher inductive types]] or [[higher inductive-inductive types]]. 
 
 The Sierpi&#324;ski space $\Sigma$ sits in a hierarchy of subsets of the set of truth values:
@@ -90,7 +92,7 @@ $$\mathbb{2} \subseteq \Sigma^0_1 \subseteq \Sigma \subseteq \Omega$$
 
 where $\mathbb{2}$ is the [[boolean domain]] and $\Sigma^0_1$ is the set of [[semidecidable truth values]].
 
-In [[classical mathematics]], and in [[constructive mathematics]] which accept the [[limited principle of omniscience]], the Sierpi&#324;ski space is just the [[boolean domain]] $\mathbb{2}$; in fact, that the [[boolean domain]] is the Sierpi&#324;ski space is equivalent to the [[limited principle of omniscience]]. In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$, the Sierpi&#324;ski space is just the [[Rosolini dominance]]. The [[limited principle of omniscience]] also implies that the Sierpi&#324;ski space is the [[Rosolini dominance]] since both are equivalent to the [[boolean domain]] under the assumption. 
+In [[classical mathematics]], and in [[constructive mathematics]] which accept the [[limited principle of omniscience]], the (underlying [[set]] of) Sierpi&#324;ski space is just the [[boolean domain]] $\mathbb{2}$; in fact, that the [[boolean domain]] is the (underlying [[set]] of) Sierpi&#324;ski space is equivalent to the [[limited principle of omniscience]]. In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$, the Sierpi&#324;ski space is just the [[Rosolini dominance]]. The [[limited principle of omniscience]] also implies that the Sierpi&#324;ski space is the [[Rosolini dominance]] since both are equivalent to the [[boolean domain]] under the assumption. 
 
 ## Related concepts
 
@@ -115,13 +117,11 @@ In [[classical mathematics]], and in [[constructive mathematics]] which accept t
 
 * [[Paul Taylor]],  _Foundations for computable topology -- 7 The Sierpinski space_ ([html](http://www.paultaylor.eu/ASD/foufct/sierpinski.html))
 
+* [[Andrej Bauer]], [[Davorin Lešnik]], *Metric spaces in synthetic topology* Annals of Pure and Applied Logic, Volume 163, Issue 2, February 2012, Pages 87-100 ([doi:10.1016/j.apal.2011.06.017](https://doi.org/10.1016/j.apal.2011.06.017))
+
 * {#UFP13} Univalent Foundations Project, [[HoTT book|Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
 
 * {#ADK16} [[Thorsten Altenkirch]], [[Nils Anders Danielsson]], [[Nicolai Kraus]], Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type ([abs:1610.09254](https://arxiv.org/abs/1610.09254))
-
-* Martin Escardó, Cory Knapp, Partial Elements and Recursion via Dominances in Univalent Type Theory ([pdf](https://drops.dagstuhl.de/opus/volltexte/2017/7682/))
-
-* Andrej Bauer, Davorin Lešnik, Metric spaces in synthetic topology ([pdf](https://www.sciencedirect.com/science/article/pii/S0168007211000935))
 
 * {#Gilbert17} Gaëtan Gilbert. *Formalising real numbers in homotopy type theory.* In CPP’17, Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, pages 112–124, 2017. &lbrack;[doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;.
 
