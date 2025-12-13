@@ -68,20 +68,21 @@ Dually, it classifies [[closed subsets]] in that any closed subspace $A$ is $\ch
 ## Predicative Sierpi&#324;ski space
 {#Predicative}
 
-In [[constructive mathematics]], there is also a distinct version of Sierpi&#324;ski space which is only a [[sigma-frame|$\sigma$-frame]] ([Altinkirch, Danielsson, & Kraus 2016](#ADK16), [Bidlingmaier, Faissole, & Spitters 2019](#BFS19)). In general, this notion of Sierpi&#324;ski space will not coincide with the version defined above as a frame unless a classical axiom like [[excluded middle]] is assumed. This version of the Sierpi&#324;ski space is predicative in the sense that it does not require the use of impredicative definitions, and so can probably be called the *predicative Sierpi&#324;ski space* to distinguish it from the usual version of the Sierpi&#324;ski space defined above. 
+In [[constructive mathematics]], there is also a distinct version of Sierpi&#324;ski space which is only a [[sigma-frame|$\sigma$-frame]] ([Altinkirch, Danielsson, & Kraus 2016](#ADK16), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole, & Spitters 2019](#BFS19)). In general, this notion of Sierpi&#324;ski space will not coincide with the version defined above as a frame unless a classical axiom like [[excluded middle]] is assumed. This version of the Sierpi&#324;ski space is predicative in the sense that it does not require the use of impredicative definitions, and so can probably be called the *predicative Sierpi&#324;ski space* to distinguish it from the usual version of the Sierpi&#324;ski space defined above. 
 
-This version of the Sierpi&#324;ski space is an important structure in [[constructive mathematics|constructive]] [[topology]] and [[real analysis]], as it represents the set of [[open propositions]] in [[synthetic topology]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19)) and is sometimes used to construct a distinct and smaller version of the [[Dedekind real numbers]] ([Univalent Foundations Project 2013](#UFP13)) that is not provably equivalent to the usual [[Dedekind real numbers]] defined using the set of all truth values, but is equivalent to the [[Cauchy real numbers]] if one assumes the [[limited principle of omniscience]]. 
+This version of the Sierpi&#324;ski space is an important structure in [[constructive mathematics|constructive]] [[topology]] and [[real analysis]], as it represents the set of [[open propositions]] in [[synthetic topology]] ([Bidlingmaier, Faissole & Spitters 2019](#BFS19)) and is used to construct a distinct and smaller version of the [[Dedekind real numbers]] ([Univalent Foundations Project 2013](#UFP13), [Gilbert 2017](#Gilbert17), [Bidlingmaier, Faissole & Spitters 2019](#BFS19)) that is not provably equivalent to either the usual [[Dedekind real numbers]] or the [[Cauchy real numbers]] in the absence of [[excluded middle]] or [[countable choice]]. 
 
 +-- {: .num_defn }
 ###### Definition
 The **Sierpi&#324;ski space** $\Sigma$ is defined in the following equivalent ways:
 
 * as the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]
+* as the [[partial map classifier]] of [[generalized the|the]] set with one element, for the definition of the partial map classifier given in [Altinkirch, Danielsson, & Kraus 2016](#ADK16)
 * as the [[free object|free]] [[omega-cpo|$\omega$-cpo]] on the [[boolean domain]]
 * [[impredicative mathematics|impredicatively]] as the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of the $\sigma$-frame of [[truth values]] $\Omega$
 =--
 
-In [[dependent type theory]], the first two definitions of the Sierpi&#324;ski space are formulated using [[higher inductive types]] or [[higher inductive-inductive types]]. 
+In [[dependent type theory]], the first three definitions of the Sierpi&#324;ski space are formulated using [[higher inductive types]] or [[higher inductive-inductive types]]. 
 
 The Sierpi&#324;ski space $\Sigma$ sits in a hierarchy of subsets of the set of truth values:
 
@@ -89,7 +90,7 @@ $$\mathbb{2} \subseteq \Sigma^0_1 \subseteq \Sigma \subseteq \Omega$$
 
 where $\mathbb{2}$ is the [[boolean domain]] and $\Sigma^0_1$ is the set of [[semidecidable truth values]].
 
-In [[classical mathematics]], and in [[constructive mathematics]] which accept the [[limited principle of omniscience]], the Sierpi&#324;ski space is just the [[boolean domain]] $\mathbb{2}$; in fact, that the [[boolean domain]] is the Sierpi&#324;ski space is equivalent to the [[limited principle of omniscience]]. In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$, the predicative Sierpi&#324;ski space is just the [[Rosolini dominance]]. The [[limited principle of omniscience]] also implies that the Sierpi&#324;ski space is the [[Rosolini dominance]] since both are equivalent to the [[boolean domain]] under the assumption. 
+In [[classical mathematics]], and in [[constructive mathematics]] which accept the [[limited principle of omniscience]], the Sierpi&#324;ski space is just the [[boolean domain]] $\mathbb{2}$; in fact, that the [[boolean domain]] is the Sierpi&#324;ski space is equivalent to the [[limited principle of omniscience]]. In [[classical mathematics]] and in [[constructive mathematics]] which accepts [[countable choice]] or the [[weak countable choice]] axiom $\mathrm{AC}_{\mathbb{N}, \mathbb{2}}$, the Sierpi&#324;ski space is just the [[Rosolini dominance]]. The [[limited principle of omniscience]] also implies that the Sierpi&#324;ski space is the [[Rosolini dominance]] since both are equivalent to the [[boolean domain]] under the assumption. 
 
 ## Related concepts
 
@@ -121,6 +122,8 @@ In [[classical mathematics]], and in [[constructive mathematics]] which accept t
 * Martin Escardó, Cory Knapp, Partial Elements and Recursion via Dominances in Univalent Type Theory ([pdf](https://drops.dagstuhl.de/opus/volltexte/2017/7682/))
 
 * Andrej Bauer, Davorin Lešnik, Metric spaces in synthetic topology ([pdf](https://www.sciencedirect.com/science/article/pii/S0168007211000935))
+
+* {#Gilbert17} Gaëtan Gilbert. *Formalising real numbers in homotopy type theory.* In CPP’17, Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, pages 112–124, 2017. &lbrack;[doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;.
 
 * {#BFS19} Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
 
