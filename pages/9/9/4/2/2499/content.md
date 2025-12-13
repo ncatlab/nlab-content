@@ -1243,6 +1243,7 @@ See also:
 [[!redirects rheonomy]]
 
 [[!redirects D'Auria-Fre formulation of supergravity]]
+[[!redirects DAuria-Fre formulation of supergravity]]
 [[!redirects D'Auria-Fré formulation of supergravity]]
 [[!redirects Auria-Fre formulation of supergravity]]
 
