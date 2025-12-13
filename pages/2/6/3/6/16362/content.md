@@ -10,7 +10,7 @@
 =--
 
 
-This page collects material related to the ten volume textbook series
+This page is to record the reference:
 
 * [[Lev Landau]], [[Evgeny Lifshitz]]:
 
