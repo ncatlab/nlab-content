@@ -77,7 +77,7 @@ This version of the Sierpi&#324;ski space is an important structure in [[constru
 The **Sierpi&#324;ski space** $\Sigma$ is defined in the following equivalent ways:
 
 * as the [[initial object|initial]] [[sigma-frame|$\sigma$-frame]]
-* as the [[free object|free]] $\omega$-[[cpo]] on the [[boolean domain]]
+* as the [[free object|free]] [[omega-cpo|$\omega$-cpo]] on the [[boolean domain]]
 * [[impredicative mathematics|impredicatively]] as the [[intersection]] of all [[subobject|sub]]-$\sigma$-frames of the $\sigma$-frame of [[truth values]] $\Omega$
 =--
 
