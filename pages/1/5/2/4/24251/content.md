@@ -13,10 +13,7 @@
 =--
 =--
 
-
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -25,7 +22,7 @@ An *$\omega$-complete poset*, in the following sense, is a [[poset]] with [[coun
 
 ## Definition ##
 
-A __$\omega$-complete poset__ is a [[poset]] $(P, \leq)$ with
+A **$\omega$-complete poset** or a **$\omega$-[[cpo]]** is a [[poset]] $(P, \leq)$ with
 
 * an [[initial object|initial]] [[element]] $\bot \in P$ ([[bottom]]), hence such that for every element $a \in P$ we have $\bot \leq a$;
 
@@ -79,4 +76,30 @@ A __$\omega$-complete poset__ is a [[poset]] $(P, \leq)$ with
 
 ## References ##
 
-* *Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type* ([arXiv:1610.09254](https://arxiv.org/abs/1610.09254))
+* {#ADK16} [[Thorsten Altenkirch]], [[Nils Anders Danielsson]], [[Nicolai Kraus]], Partiality, Revisited: The Partiality Monad as a Quotient Inductive-Inductive Type ([abs:1610.09254](https://arxiv.org/abs/1610.09254))
+
+* {#BFS19} Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
+
+[[!redirects omega-complete poset]]
+[[!redirects omega-complete posets]]
+
+[[!redirects ω-complete poset]]
+[[!redirects ω-complete posets]]
+
+[[!redirects omega complete poset]]
+[[!redirects omega complete posets]]
+
+[[!redirects ω complete poset]]
+[[!redirects ω complete posets]]
+
+[[!redirects omega-cpo]]
+[[!redirects omega-cpos]]
+
+[[!redirects ω-cpo]]
+[[!redirects ω-cpos]]
+
+[[!redirects omega cpo]]
+[[!redirects omega cpos]]
+
+[[!redirects ω cpo]]
+[[!redirects ω cpos]]
