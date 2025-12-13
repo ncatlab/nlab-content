@@ -357,8 +357,9 @@ which is known as the [[classifying space]] of the *[[stable unitary group]]*. T
 [[!redirects unstable classification of topological phases]]
 [[!redirects unstable classifications of topological phases]]
 
-
 [[!redirects unstable classification of topological phases of matter]]
 [[!redirects unstable classifications of topological phases of matter]]
 
+[[!redirects fragile topological phase]]
+[[!redirects fragile topological phases]]
 
