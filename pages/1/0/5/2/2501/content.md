@@ -57,6 +57,8 @@ Textbook accounts:
 
 * [[Jean-Louis Basdevant]]: *Variational Principles in Physics*, Springer (2007) \[<a href="https://doi.org/10.1007/978-3-031-21692-3">doi:10.1007/978-3-031-21692-3</a>\]
 
+* [[Horatiu Nastase]]: *Classical Field Theory*, Cambridge University Press (2019) &lbrack;[doi:10.1017/9781108569392](https://doi.org/10.1017/9781108569392)&rbrack;
+
 
 Discussion of recursive solutions to classical field equations and their relation to the quantum [[perturbation theory]]:
 
