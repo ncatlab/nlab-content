@@ -17,7 +17,7 @@ $$a \wedge \Vee_{n:\mathbb{N}} s(n) = \Vee_{n:\mathbb{N}} a \wedge s(n)$$
 
 ## Examples
 
-* The [[Sierpinski space#Predicative|predicative Sierpinski space]] is the [[initial object|initial]] $\sigma$-frame. 
+* The [[Sierpinski space#Predicative|Sierpinski space]] in [[synthetic topology]] is the [[initial object|initial]] $\sigma$-frame. 
 
 * The [[limited principle of omniscience]] implies that the [[boolean domain]] is a $\sigma$-frame. 
 
@@ -80,6 +80,8 @@ The [[opposite category]] of $\sigma\mathrm{Frm}$ is the category $\sigma\mathrm
 * [[Alex Simpson]], *Measure, randomness and sublocales*, Annals of Pure and Applied Logic, Volume 163, Issue 11, November 2012, Pages 1642-1659. ([doi:10.1016/j.apal.2011.12.014](https://doi.org/10.1016/j.apal.2011.12.014))
 
 * [[Andrej Bauer]], *Spreen spaces and the synthetic Kreisel-Lacombe-Shoenfield-Tseitin theorem* ([arXiv:2307.07830](https://arxiv.org/abs/2307.07830))
+
+* {#Gilbert17} Gaëtan Gilbert. *Formalising real numbers in homotopy type theory.* In CPP’17, Proceedings of the 6th ACM SIGPLAN Conference on Certified Programs and Proofs, pages 112–124, 2017. &lbrack;[doi:10.1145/3018610.3018614](https://doi.org/10.1145/3018610.3018614)&rbrack;.
 
 * {#BFS19} Martin E. Bidlingmaier, Florian Faissole, [[Bas Spitters]], *Synthetic topology in Homotopy Type Theory for probabilistic programming*. Mathematical Structures in Computer Science, 2021;31(10):1301-1329. &lbrack;[doi:10.1017/S0960129521000165](https://doi.org/10.1017/S0960129521000165), [arXiv:1912.07339](https://arxiv.org/abs/1912.07339)&rbrack;
 
