@@ -50,6 +50,8 @@ Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is cl
 
 ## See also
 
+* [[Sierpinski space]]
+
 * [[streak]]
 
 ## References
@@ -59,6 +61,8 @@ Given a dominance $\Sigma$, we say that a set $I$ is **overt** if $\Sigma$ is cl
 * [[Martin Escardo]], *Topology via higher-order intuitionistic logic.*, unfinished paper, [pdf](http://www.cs.bham.ac.uk/~mhe/papers/pittsburgh.pdf)
 
 * [[Martin Escardo]], *Synthetic  topology  of  data  types  and  classical  spaces.*  Electronic Notes in Theoretical Computer Science, 87:21--156, 2004.  [pdf](http://www.cs.bham.ac.uk/~mhe/papers/entcs87.pdf)
+
+* {#EK17} [[Martín Escardó]], [[Cory Knapp]]. *Partial Elements and Recursion via Dominances in Univalent Type Theory.* In 26th EACSL Annual Conference on Computer Science Logic (CSL 2017). Leibniz International Proceedings in Informatics (LIPIcs), Volume 82, pp. 21:1-21:16, Schloss Dagstuhl – Leibniz-Zentrum für Informatik (2017) &lbrack;[10.4230/LIPIcs.CSL.2017.21](https://doi.org/10.4230/LIPIcs.CSL.2017.21)&rbrack;
 
 * [[Andrej Bauer]] and Davorin Lesnik, *Metric Spaces in Synthetic Topology*, [pdf](http://math.andrej.com/wp-content/uploads/2010/01/csms_in_synthtop.pdf)
 
