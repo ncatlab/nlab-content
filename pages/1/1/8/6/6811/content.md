@@ -1,5 +1,11 @@
 
-* [webpage](http://www.het.brown.edu/~nastase/)
+Horatiu Stefan Nastase
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Hora%C8%9Biu_N%C4%83stase)
+
+* [inSpire page](https://inspirehep.net/authors/996022)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=XKlqRVkAAAAJ&hl=pt-BR)
 
 ## Selected writings
 
@@ -37,6 +43,12 @@ On the [[ABJM model]] as a [[matrix model]]:
 
 * {#MohammedMuruganNastase10} Asadig Mohammed, Jeff Murugan, [[Horatiu Nastase]], _Looking for a Matrix model of ABJM_, Phys. Rev. D82:086004, 2010 ([arXiv:1003.2599](https://arxiv.org/abs/1003.2599))
 
+On [[classical field theory]]:
+
+* [[Horatiu Nastase]]: *Classical Field Theory*, Cambridge University Press (2019) &lbrack;[doi:10.1017/9781108569392](https://doi.org/10.1017/9781108569392)&rbrack;
+
+
+
 On a [[TT-deformation]] of the [[Skyrme model]] applied to [[nucleon]] [[scattering]]:
 
 * [[Horatiu Nastase]], [[Jacob Sonnenschein]], _A $T \bar T$-like deformation of the Skyrme model and the Heisenberg model of nucleon-nucleon scattering_ ([arXiv:2101.08232](https://arxiv.org/abs/2101.08232))
@@ -44,7 +56,7 @@ On a [[TT-deformation]] of the [[Skyrme model]] applied to [[nucleon]] [[scatter
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[Chern-Simons gravity]]
 
