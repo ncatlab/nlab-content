@@ -672,7 +672,9 @@ Under the [[Atiyah-Segal completion]] map [[linear representations]] of a [[grou
 
 See at _[[characteristic class of a linear representation]]_ for more.
 
-## Related concepts 
+## Related concepts
+
+* [[Chern number]]
 
 * [[Chern root]]
 
