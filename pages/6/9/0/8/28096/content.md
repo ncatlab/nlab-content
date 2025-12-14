@@ -12,7 +12,9 @@ On [[D=6 Seiberg-Witten theory]]:
 
 On [[pseudo-Riemannian Seiberg-Witten theory]]:
 
-* {#DegirmenciKarapazar12} [[Nedim Değirmenci]] and [[Şenay Karapazar Bulut]], _Seiberg-Witten Equations on Pseudo-Riemannian Spinc Manifolds With Neutral Signature_, Analele ştiinţifice ale Universităţii "Ovidius" Constanţa. Seria Matematică **20** 1 (2012)
+* {#DegirmenciOezdemir11} [[Nedim Değirmenci]] and [[Nülifer Özdemir]], _Seiberg-Witten equations on four-dimensional Lorentzian spinᶜ manifolds_ (2011), &lbrack;[DOI:10.1142/S0219887811005348](https://doi.org/10.1142/S0219887811005348)&rbrack;
+
+* {#DegirmenciKarapazar12} [[Nedim Değirmenci]] and [[Şenay Karapazar Bulut]], _Seiberg-Witten Equations on Pseudo-Riemannian Spinᶜ Manifolds With Neutral Signature_, Analele ştiinţifice ale Universităţii "Ovidius" Constanţa. Seria Matematică **20** 1 (2012)
 
 category: people
 
