@@ -112,6 +112,8 @@ The [[twisted differential c-structures]] corresponding to Pontryagin class incl
 
 ## Related concepts
 
+* [[Pontrjagin number]]
+
 * [[Pontrjagin character]]
 
 * [[p1-structure]], [[string structure]], [[fivebrane structure]]
