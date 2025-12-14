@@ -6,6 +6,220 @@
 
 ***
 
+
+## Idea of topological quantum gates
+
+The [[quantum adiabatic theorem]] entails:
+
+\linebreak
+
+Given a [[quantum system]] (e.g., a [[quantum material]])
+
+depending on external parameters $p$ in a parameter space $P$
+
+with a [[energy gap|gapped]] [[Hilbert space]] $\mathscr{H}_p$ of [[quantum state|quantum]] [[ground states]]
+
+then sufficiently gentle ("adiabatic") tuning $\gamma$ of parameters
+
+brings about unitary transformation $U_\gamma$ of the quantum state
+
+$
+  \begin{array}{ccc}
+    \mathscr{H}_p &\overset{U_\gamma}{\longrightarrow}& \mathscr{H}_{p'}
+    \\
+    p &\overset{\gamma}{\rightsquigarrow}& p'
+  \end{array}
+$
+
+\linebreak
+
+This is called "*[[topological quantum computing|topological]]*" (really: "homotopical") if
+
+$U_\gamma$ depends only on the [[homotopy class]] of $\gamma$ (rel. endpoints),
+
+whence the $\mathscr{H}_p$ form a *[[local system]]* of [[Hilbert spaces]] over $P$,
+
+which over each [[connected component]] $c \in \pi_0 P$
+
+is equivalently a [[unitary group|unitary]] [[linear representation|representation]] of the [[fundamental group]]
+
+$
+  U_{(-)}
+  \,\colon\,
+  \pi_1 (P, c)
+  \longrightarrow
+  \mathrm{U}(\mathscr{H})
+$
+
+\linebreak
+
+Regarded as [[quantum gates]], these $U_\gamma$ are "topologically protected"  
+
+in that they are undisturbed by noise in control parameter $\gamma$.
+
+There are [arguments](/nlab/show/topological+quantum+computation#ReferencesNeedForTopologicalProtection) that some such topological protection 
+
+is *necessary* for [[quantum computers]] to reach interesting scale.
+
+\linebreak
+
+Big question: How to find/build quantum systems with such
+
+nontrivial (nonabelian) topological [[monodromy]] $U_{(-)}$
+
+(jargon: "[[topological order]]") ??
+
+\linebreak
+
+Old idea: If one could arrange that 
+
+$P \sim Conf(\mathbb{R}^2)$ 
+
+is a [[configuration space of points]] in the plane, such as of
+
+some kind of [[soliton]]/[[defect]] positions in a $\sim$2D material
+
+then
+
+$ Br(n) \simeq \pi_1(P, n) \longrightarrow U(\mathscr{H})  $
+
+is a [[braid representation]] of a [[braid group]] on $n$ strands
+
+if non-trivial, the [[solitons]]/[[defects]] are called "[[anyons]]"
+
+
+\linebreak
+
+But $P$ could be different.
+
+Let's have a closer look which $P$ actually arise in practice.
+
+\linebreak
+
+## Idea of topological phases of matter
+
+The [[Bloch theorem]] entails that 
+
+the [[Hamiltonians]] $H$ of [[electrons]] in a [[crystal]] are [[direct integrals]]
+
+$
+ H 
+   \;=\;
+ \underset
+  {{[k] \in \widehat{T}^d}}
+  {\displaystyle{\int}}
+ H_k
+$
+
+over the [[Brillouin torus]] $\widehat{T}^d$ of crystal momenta 
+
+of [[Bloch Hamiltonians]], given by [[continuous maps]]
+
+$
+ H_{(-)}
+  \;\colon\;
+ \widehat{T}^d
+ \longrightarrow
+ Herm(\mathscr{H}_{Bl})
+$
+
+\linebreak
+
+The [[graph]] of [[eigenvalues]] of $H_{(-)}$ are the [[energy bands]].
+
+\linebreak
+
+If all the $H_{[k]}$ are [[energy gap|gapped]] at, say $E = 0$,
+
+then the *[[valence bundle]]* is the negative [[eigenspace]] [[fiber bundle|bundle]] 
+
+$
+  \mathcal{V} 
+  \,\coloneqq\,
+  Eig_{\lt 0}\big(
+    H_{(-)}
+  \big)
+  \longrightarrow
+  \widehat{T}^d
+$
+
+\linebreak
+
+The relevant [[equivalence class]] of the [[valence bundle]]
+
+depends on how fine/coarse this description is. Given a choice
+
+then the class $[\mathcal{V}]$ is the observed [[topological phase of matter]].
+
+\linebreak
+
+For *[[fragile topological phases]]* one considers
+
+$
+ \mathcal{B}\big(\mathbb{C}^{v+c}\big)
+ \,\coloneqq\,
+ \Bigg\{
+ H \in Herm(\mathbb{C}^{v+c})
+ \,\Bigg\vert\,
+    \substack{
+      Eig_{\lt 0}(H) \simeq \mathbb{C}^v
+      \\
+      Eig_{\gt 0}(H) \simeq \mathbb{C}^c 
+    }
+ \,
+ \Bigg\}
+ \sim
+ Gr_{v}^{v+c}
+ \,,
+$
+
+which is [[homotopy equivalence|homotopy equivalent]] to the [[Grassmannian]] 
+
+$
+ Gr_{v}^{v+c}
+ \,\coloneqq\,
+ \left\{
+ \substack{
+    v\;\text{dimensional linear}
+    \\
+    \text{subspaces of} \mathbb{C}^{v+c}
+ }  
+ \right\}
+$
+
+whence the parameter space of fragile topological couplings is
+
+the [[mapping space]] from the [[Brillouin torus]] to the [[Grassmannian]]
+
+$
+ P 
+ \,\equiv\,
+ Map\big(
+  \widehat{T}
+  ,\,
+  Gr_{v}^{v+c}
+ \big)
+$
+
+
+Consider "2 accessible bands", $\mathscr{H}_{Bl} \simeq \mathbb{C}^2$,
+
+then the space of gapped Bloch Hamiltonians is
+
+
+
+
+## Idea of Crystalline Phases
+
+
+## Equivariant 2-Cohomotopy
+
+
+
+
+
+\linebreak
+
 For [[5D Maxwell-Chern-Simons theory]] on a [[spacetime]] $X^{1,4}$
 
 * the local [[field (physics)|field]] content is a 1-form [[gauge potential]] $A \in \Omega^1_{dR}(X^{1,4})$
