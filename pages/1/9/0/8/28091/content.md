@@ -22,7 +22,7 @@ _D = 6 Seiberg-Witten theory_ (short _D = 6 SW_) is a transfer of [[Seiberg-Witt
 
 ## Description
 
-While usual [[Seiberg-Witten theory]] is based on the [[Lie group]] $Spin^\mathrm{c}(4)=U(2)\times_{U(1)}U(2)$, quaternionic Seiberg-Witten theory is based on the [[Lie group]]:
+While usual [[Seiberg-Witten theory]] is based on the [[Lie group]] $Spin^\mathrm{c}(4)=U(2)\times_{U(1)}U(2)$, D=6 Seiberg-Witten theory is based on the [[Lie group]]:
 $$
 Spin^\mathrm{c}(6)
 \coloneqq\big(Spin(6)\times U(1)\big)/\mathbb{Z}_2
