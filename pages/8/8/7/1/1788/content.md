@@ -310,7 +310,65 @@ whence one speaks of [[topological insulator|topological]] *[[Chern insulators]]
 \linebreak
 
 
-## Idea of Crystalline Topological Phases
+## Fragile Crystalline Topological Phases
+
+More precisely, in general a [[space group|crystalline symmetry]] $G \curvearrowright \widehat{T}{^2}$
+
+is respected by the Bloch Hamiltonian and its deformations, in that
+
+$
+ H_{g \cdot [k]}
+ =
+ U_g
+ \circ
+ H_{[k]}
+ \circ
+ U_g^{-1}
+$
+
+whence: "[[symmetry protected topological phases]]".
+
+\linebreal
+
+Observation: This means that the classifying maps are *[[equivariant maps]]*
+
+$
+  P 
+  \;\equiv\;
+  Map\big(\widehat{T}{}^d, Gr_{v}^{c+c}\big)^G
+$
+
+and the classification is in [[equivariant cohomology|equivariant]] [[nonabelian cohomology]]
+
+$
+ H^1_G\big(
+  \widehat{T}{}^d
+  ;\,
+  \Omega
+  Gr_{v}^{v+x}
+ \big)
+ \,\equiv\,
+ \pi_0\,
+ Map\big(\widehat{T}{}^d, Gr_{v}^{c+c}\big)^G
+$
+
+\linebreak
+
+Need to admit that the topological parameter space is really
+
+the [[homotopy quotient]] by the [[diffeomorphism group]]
+
+$
+ P
+ \;=\;
+ Map\big(
+  \widehat{T}{}^2
+  ,\,
+  S^2
+ \big)^G
+ \sslash
+ Diff\big(\widehat{T}^2\big)^G
+$
 
 (...)
 
@@ -320,11 +378,119 @@ whence one speaks of [[topological insulator|topological]] *[[Chern insulators]]
 
 ## Identifying Anyons in FQAH Materials
 
-(...) 
+Hence if there is [[topological order]]/[[anyons]]
+
+in [[crystalline topological insulator|crystalline]] [[fractional quantum Hall systems]] it ought to be 
+
+reflected in nontrivial [[fundamental groups]]:
+
+$
+  \pi_1\Big(
+    Map\big(
+      \widehat{T}{}^2
+      ,\,
+      Gr_{1}^2
+    \big)^G
+    \sslash
+    Diff\big(
+     \widehat{T}{}^2
+    \big)^G
+  \Big)
+$
+
+\linebreak
+
+Two examples (1.) [[soliton|solitonic]] and (2.) [[defect]] anyons:
+
+\linebreak
+
+**Proposition 1** (potential solitonic FQAH anyons): 
+
+When all symmetry is broken:
+
+$
+  \pi_1\Big(
+    Map\big(
+      \widehat{T}{}^2
+      ,\,
+      S^2
+    \big)
+    \sslash
+    Diff\big(
+     \widehat{T}{}^2
+    \big)
+  \Big)
+  \,\simeq\,
+  \widehat{\mathbb{Z}^2}
+  \rtimes
+  Mod
+  \mathrlap{\,,}
+$
+
+where $\widehat{\mathbb{Z}^2}$ is the [[integer Heisenberg group]] at level=2
+
+$
+  \widehat{\mathbb{Z}^2}
+  \,=_{{}_{Set}}\,
+  (\mathbb{Z}_a \times \mathbb{Z}_b)
+  \times 
+  \mathbb{Z}
+$
+
+with generators
+
+$
+  \left.
+  \begin{aligned}
+    W_a & \coloneqq \big((1,0),0\big)
+    \\
+    W_b & \coloneqq \big((0,1),0\big)
+    \\
+    \zeta & \coloneqq \big((0,0),1\big)
+  \end{aligned}
+  \right\}
+  \,\in\, 
+  (\mathbb{Z}_a \times \mathbb{Z}_b)
+  \times 
+  \mathbb{Z}
+$
+
+and the only nontrivial [[group commutator]] being
+
+$
+ [W_a, W_b] \,=\, \zeta^2
+ \,.
+$
+
+\linebreak
+
+**Proposition 2** (potential defect FQAH anyons): 
+
+For [p3](/nlab/show/wallpaper+group#TorusWithC3RotationAction) symmetry
+
+$
+  \pi_1\Big(
+    Map\big(
+      \widehat{T}{}^2
+      ,\,
+      S^2
+    \big)^{\mathbb{Z}_{/3}}
+    \sslash
+    Diff\big(
+     \widehat{T}{}^2
+    \big)^{\mathbb{Z}_{/3}}
+  \Big)
+  \,\supset\,
+  \mathbb{Z}^3 \rtimes Sym(3)
+  \mathrlap{\,,}
+$
 
 
 
 
+\linebreak
+
+***
 
 \linebreak
 
