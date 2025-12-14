@@ -241,7 +241,7 @@ Concretely, the above graphics shows the Berry curvature in the Haldane model fo
     "caption": "(from [DTC](#DTC))"
 \end{imagefromfile}
 
-Since blue and red coloring denotes [[Berry curvature]] of opposite [[sign]], the figure makes it plausibly manifest that the integrated [[Berry curvature]] -- and thus the [[first Chern class|first Chern number]] of the [[valence bundle]] -- *vanishes* for $M \neq 0$, $t_2 = 0$. This is the statement that the [[Chern insulator]]-phase of the Haldane model at $t_2 = 0$ is topologically trivial.
+Since blue and red coloring denotes [[Berry curvature]] of opposite [[sign]], the figure makes it plausibly manifest that the integrated [[Berry curvature]] -- and thus the [[first Chern number]] of the [[valence bundle]] -- *vanishes* for $M \neq 0$, $t_2 = 0$. This is the statement that the [[Chern insulator]]-phase of the Haldane model at $t_2 = 0$ is topologically trivial.
 
 In constract, as $t_2/M \gt \frac{1}{3 \sqrt{3}}$, the [[Berry curvature]] is still concentrated around the would-be Dirac points, but now it has the same sign everywhere:
 
@@ -258,7 +258,7 @@ In constract, as $t_2/M \gt \frac{1}{3 \sqrt{3}}$, the [[Berry curvature]] is st
     "caption": "(from [DTC](#DTC))"
 \end{imagefromfile}
 
-This makes it clear that the [[integration|integral]] of the [[Berry curvature]] over the [[Brillouin torus]] -- hence the [[first Chern class|first Chern number]] of the [[valence bundle]] -- is [[positive number|positive]] in this phase. This is the statement that the [[Chern insulator]]-phase of the Haldane model at $t_2/M \gt \frac{1}{3\sqrt{3}}$ is non-trivial.  
+This makes it clear that the [[integration|integral]] of the [[Berry curvature]] over the [[Brillouin torus]] -- hence the [[first Chern number]] of the [[valence bundle]] -- is [[positive number|positive]] in this phase. This is the statement that the [[Chern insulator]]-phase of the Haldane model at $t_2/M \gt \frac{1}{3\sqrt{3}}$ is non-trivial.  
 
 
 ### K-Theory classification?
