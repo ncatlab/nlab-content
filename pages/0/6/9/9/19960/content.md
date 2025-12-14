@@ -780,7 +780,7 @@ Analogous discussion for [[flavour (particle physics)|flavour]] [[D6-branes]]:
 
 The analogoue of the WSS model for [[2d QCD]]:
 
-* {#GaoXuZeng06} Yi-hong Gao, Weishui Xu, Ding-fang Zeng, _NGN, $QCD_2$ and chiral phase transition from string theory_, Nucl.Phys. B400:181-210, 1993 ([arXiv:hep-th/0605138](https://arxiv.org/abs/hep-th/0605138))
+* {#GaoXuZeng06} [[Yi-hong Gao]], Weishui Xu, Ding-fang Zeng, _NGN, $QCD_2$ and chiral phase transition from string theory_, Nucl.Phys. B400:181-210, 1993 ([arXiv:hep-th/0605138](https://arxiv.org/abs/hep-th/0605138))
 
 Specifically concerning the 3d [[Chern-Simons theory]] on the [[D8-branes]]:
 
