@@ -9,7 +9,7 @@
 =--
 =--
 
-> This entry is about the notion of "crystal" in [[solid state physics]]. For the notion in [[algebraic geometry]] see at *[[crystal (algebraic geometry)]]*.
+> This entry is about the notion of *crystal* in [[solid state physics]]. For the notion in [[algebraic geometry]] see at *[[crystal (algebraic geometry)]]*.
 
 ***
 
