@@ -50,7 +50,7 @@ Any Banach space $V$ with basis $B$ is the $V$-direct sum of ${|B|}$ copies of t
 
 ## Direct integrals
 
-As $l^p$ is the [[Lebesgue space]] $L^p$ for a [[measure space]] with [[counting measure]], and infinitary sums are simply the [[integrals]] on such a measure space, we may generalise from direct sums of Banach spaces to their [[direct integral]]s.  This is particularly common (using $p = 2$) for [[Hilbert spaces]].
+As $l^p$ is the [[Lebesgue space]] $L^p$ for a [[measure space]] with [[counting measure]], and infinitary sums are simply the [[integrals]] on such a measure space, we may generalise from direct sums of Banach spaces to their [[direct integrals]].  This is particularly common (using $p = 2$) for [[Hilbert spaces]].
 
 
 ## References
