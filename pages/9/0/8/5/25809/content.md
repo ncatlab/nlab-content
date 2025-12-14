@@ -15,6 +15,10 @@ Related work on technique of virtual classes
 
 * [[Yongbin Ruan]], [[Gang Tian]], _A mathematical theory of quantum cohomology_, J. Diff. Geometry __42__ 2 (1995) 259-367 &lbrack;[doi:10.4310/jdg/1214457234](https://projecteuclid.org/journals/journal-of-differential-geometry/volume-42/issue-2/A-mathematical-theory-of-quantum-cohomology/10.4310/jdg/1214457234.full)&rbrack;
 
+On [[D=8 Seiberg-Witten theory]]:
+
+* {#GaoTian00} [[Yi-hong Gao]] and [[Gang Tian]], _Instantons and the monopole-like equations in eight dimensions_ (2000) &lbrack;[arXiv:hep-th/0004167](https://arxiv.org/abs/hep-th/0004167), [DOI:10.1088/1126-6708/2000/05/036](https://doi.org/10.1088/1126-6708/2000/05/036)&rbrack;
+
 On [[special holonomy]]:
 
 * [[Jeff Cheeger]], [[Gang Tian]], _Anti-self-duality of curvature and degeneration of metrics with special holonomy_, Commun. Math. Phys. __255__, 391--417 (2005) [doi](https://doi.org/10.1007/s00220-004-1279-0)
