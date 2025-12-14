@@ -1,7 +1,15 @@
 
-# Direct sums of Banach spaces
-* table of contents
-{: toc}
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+=--
+=--
+
+\tableofcontents
 
 ## Idea
 
