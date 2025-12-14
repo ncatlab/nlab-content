@@ -7,7 +7,10 @@
 ***
 
 
-## Idea of topological quantum gates
+\tableofcontents
+
+
+## Idea of Topological Quantum Gates
 
 The [[quantum adiabatic theorem]] entails:
 
@@ -96,7 +99,7 @@ Let's have a closer look which $P$ actually arise in practice.
 
 \linebreak
 
-## Idea of topological phases of matter
+## Idea of Topological Phases of Matter
 
 The [[Bloch theorem]] entails that 
 
@@ -106,19 +109,19 @@ $
  H 
    \;=\;
  \underset
-  {{[k] \in \widehat{T}^d}}
+  {{[k] \in \widehat{T}{}^d}}
   {\displaystyle{\int}}
  H_k
 $
 
-over the [[Brillouin torus]] $\widehat{T}^d$ of crystal momenta 
+over the [[Brillouin torus]] $\widehat{T}{}^d$ of crystal momenta 
 
 of [[Bloch Hamiltonians]], given by [[continuous maps]]
 
 $
  H_{(-)}
   \;\colon\;
- \widehat{T}^d
+ \widehat{T}{}^d
  \longrightarrow
  Herm(\mathscr{H}_{Bl})
 $
@@ -140,7 +143,7 @@ $
     H_{(-)}
   \big)
   \longrightarrow
-  \widehat{T}^d
+  \widehat{T}{}^d
 $
 
 \linebreak
@@ -153,7 +156,10 @@ then the class $[\mathcal{V}]$ is the observed [[topological phase of matter]].
 
 \linebreak
 
-For *[[fragile topological phases]]* one considers
+For *[[fragile topological phases]]* one considers the system
+
+exploring only the given space of gapped Bloch Hamiltonians
+
 
 $
  \mathcal{B}\big(\mathbb{C}^{v+c}\big)
@@ -195,24 +201,126 @@ $
  P 
  \,\equiv\,
  Map\big(
-  \widehat{T}
+  \widehat{T}{}^d
   ,\,
   Gr_{v}^{v+c}
  \big)
 $
 
+\linebreak
 
-Consider "2 accessible bands", $\mathscr{H}_{Bl} \simeq \mathbb{C}^2$,
+For $v = 1$ and $c \to \infty$ these phases are in [[ordinary cohomology]]
 
-then the space of gapped Bloch Hamiltonians is
+$
+  H^2\big(
+    \widehat{T}{}^d
+    ;\,
+    \mathbb{Z}
+  \big)
+  \,\simeq\,
+  \pi_0\, Map\big(
+    \widehat{T}{}^d
+    ,\,
+    Gr_{v}^\infty
+  \big)
+$
+
+but in general fragile phases are in extraordinary *[[nonabelian cohomology]]*:
+
+$
+  H^1\big(
+    \widehat{T}{}^d
+    ;\,
+    \Omega Gr_{v}^c
+  \big)
+  \,\simeq\,
+  \pi_0\, Map\big(
+    \widehat{T}{}^d
+    ,\,
+    Gr_{v}^\infty
+  \big)
+$
 
 
 
 
-## Idea of Crystalline Phases
+\linebreak
+
+In the case of "2 accessible bands", $\mathscr{H}_{Bl} \simeq \mathbb{C}^2$,
+
+this makes the fragile topological phases be classified 
+
+by the 2-[[Cohomotopy]] of the [[Brillouin torus]]:
+
+$
+  Gr_1^{2} \simeq \mathbb{C}P^2 \simeq S^2
+  \,.
+$
+
+\linebreak
+
+For 2D materials this coincides already with the stable phases
+
+$
+  S^2 \simeq Gr_1^2 
+  \xhookrightarrow{\phantom{--}}
+  Gr_1^{\infty} \simeq B \mathrm{U}(1)
+$
+
+in that
+
+$
+ \begin{array}{ccc}
+   \pi^2\big(
+     \widehat{T}{}^2
+   \big)
+   &
+    \overset{\sim}{\longrightarrow}
+   &
+   H^2\big(
+     \widehat{T}{}^2
+     ,\,
+     \mathbb{Z}
+   \big)
+   & \simeq \mathbb{Z}
+   \\
+   = && =
+   \\
+   \pi_0 \, 
+   Map\big(
+    \widehat{T}{}^2
+    ,\, 
+    \mathbb{C}P^1
+   \big)
+   &\overset{\sim}{\longrightarrow}&
+   \pi_0 \, 
+   Map\big(
+    \widehat{T}{}^2
+    ,\, 
+    \mathbb{C}P^\infty
+   \big)
+ \end{array}
+$
+
+This integer class is the *[[Chern class]]* of the [[valence bundle|valence]] [[complex line bundle]]
+
+whence one speaks of [[topological insulator|topological]] *[[Chern insulators]]*.
 
 
-## Equivariant 2-Cohomotopy
+\linebreak
+
+
+## Idea of Crystalline Topological Phases
+
+(...)
+
+
+\linebreak
+
+
+## Identifying Anyons in FQAH Materials
+
+(...) 
 
 
 
