@@ -1055,7 +1055,7 @@ $$
 
 is called a _trivialization_ of $E \overset{p}{\to} X$. 
 
-It is in this sense that evry coverin space $E$ is, by definition, locally trvializable.
+It is in this sense that every covering space $E$ is, by definition, locally trivializable.
 
 =--
 
@@ -1115,7 +1115,7 @@ $$
   \,,
 $$
 
-where we assume $X$ to be connected with chosen baspoint $x$ just to shorten the exposition a little. By the laws of [[homotopy pullback]]s in general and [[homotopy fiber]]s in particular, we may compute this as the ordinary [[pullback]] of a weakly equivalent diagram, where the point $*$ is resolved to the [[generalized universal bundle|universal]] $\Pi_1(X)$-principal bundle
+where we assume $X$ to be connected with chosen basepoint $x$ just to shorten the exposition a little. By the laws of [[homotopy pullback]]s in general and [[homotopy fiber]]s in particular, we may compute this as the ordinary [[pullback]] of a weakly equivalent diagram, where the point $*$ is resolved to the [[generalized universal bundle|universal]] $\Pi_1(X)$-principal bundle
 
 $$
   \mathbf{E}_x \Pi_1(X) = T_x \Pi_1(X)
