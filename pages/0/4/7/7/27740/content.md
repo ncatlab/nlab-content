@@ -9,7 +9,7 @@
 
 ## Selected writings
 
-Quantization of higher Chern numbers in the presence of strong disorder; K-Theoretic formulation of bulk-boundary correspondence; Proof of absence of Anderson localization of edge modes:
+Quantization of higher [[Chern numbers]] in the presence of strong disorder; K-Theoretic formulation of bulk-boundary correspondence; Proof of absence of Anderson localization of edge modes:
 
 [[Emil Prodan]], [[Hermann Schulz-Baldes]]: *Bulk and Boundary Invariants for Complex Topological Insulators*, Springer 2016 
 &lbrack;[doi.org/10.1007/978-3-319-29351-6](https://doi.org/10.1007/978-3-319-29351-6)&rbrack;
