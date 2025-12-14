@@ -153,6 +153,8 @@ More generally, the SW classes are then given by the [[Chern character]]. See fo
 
 ## Related concepts
 
+* [[Stiefel-Whitney number]]
+
 * [[orientation]], [[Spin structure]], [[w4-structure]]
 
 * [[Chern class]]
@@ -187,9 +189,10 @@ See also
 * Wikipedia, _[Stiefel-Whitney class](http://en.wikipedia.org/wiki/Stiefel%E2%80%93Whitney_class)_
 
 [[!redirects Stiefel-Whitney classes]]
-
 [[!redirects first Stiefel-Whitney class]]
 [[!redirects second Stiefel-Whitney class]]
 
-[[!redirects Stiefel-Whitney number]]
-[[!redirects Stiefel-Whitney numbers]]
+[[!redirects SW classe]]
+[[!redirects SW classes]]
+[[!redirects first SW class]]
+[[!redirects second SW class]]
