@@ -125,7 +125,7 @@ Discussion for [[quiver representations]]:
 
 ### Triangulated context
 
-* {#Murayama} Takumi Murayama, *The classification of thick subcategories and Balmer's reconstruction theorem* ([pdf](https://web.math.princeton.edu/~takumim/NeemanBalmer.pdf))
+* {#Murayama} Takumi Murayama, *The classification of thick subcategories and Balmer's reconstruction theorem* ([pdf](https://www.math.purdue.edu/~murayama/NeemanBalmer.pdf))
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, lecture 26, _Thick subcategories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture26.pdf))
 
