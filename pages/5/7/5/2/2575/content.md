@@ -885,7 +885,7 @@ A detailed discussion of the symplectic structure on the moduli space of flat co
 
 A talk about the historical origins of the standard Chern-Simons forms see
 
-* [[Jim Simons]], _Origin of Chern-Simons_ talk at Simons Center for Geometry and Physics (2011) ([video](http://media.scgp.stonybrook.edu/video/video.php?f=20110728_1_qtp.mp4))
+* [[James Simons]], _Origin of Chern-Simons_ talk at Simons Center for Geometry and Physics (2011) ([video](http://media.scgp.stonybrook.edu/video/video.php?f=20110728_1_qtp.mp4))
 
 A discussion of Chern-Simons theory as a canonical object in [[infinity-Chern-Weil theory]] and its [[higher geometric quantization]] is in
 
@@ -893,6 +893,9 @@ A discussion of Chern-Simons theory as a canonical object in [[infinity-Chern-We
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_
 
+Relation to Chern-Simons to [[Dijkgraaf-Witten theory]]:
+
+* Thomas Nicosanti, Pavel Putrov, Johann Quenta-Raygada: *Approximating $\mathrm{SU}(2)$ Chern-Simons theory by finite group gauge theories* &lbrack;[arXiv:https://arxiv.org/abs/2512.11704](https://arxiv.org/abs/2512.11704)&rbrack;
 
 
 ### With Wilson loops, defects and boundaries
