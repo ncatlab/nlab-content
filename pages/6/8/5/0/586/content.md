@@ -1,5 +1,5 @@
 
-> This entry is about finite objects in generalization of [[finite sets]]. For generalization of [[finite-dimensional vector spaces]] see instead at *[[dualizable object]]*.
+> This entry is about finite objects in generalization of [[finite sets]]. For generalization of [[finite-dimensional vector spaces]], see *[[dualizable object]]*.
 
 ***
 
@@ -23,11 +23,11 @@
 
 ## Idea
 
-The notion of _[[finite object]]_ in a [[category]] -- notably in a [[topos]] -- is a generalisation of the notion of [[finite set]] in [[Set|the category of sets]].
+The notion of a _[[finite object]]_ in a [[category]] -- notably in a [[topos]] -- is a generalisation of the notion of a [[finite set]] in [[Set|the category of sets]].
 
-As there are already at least five distinct notions of [[finite set]] in [[constructive mathematics]], so there must be at least five distinct notions of finite object internal to a [[topos]].  Additionally, the definitions may also be interpreted in an 'external' sense, giving even further notions.  Only some are mentioned below.
+As there are already at least five distinct notions of a [[finite set]] in [[constructive mathematics]], so there must be at least five distinct notions of a finite object internal to a [[topos]].  Additionally, the definitions may also be interpreted in an 'external' sense, giving even further notions. Only some are mentioned below.
 
-Also beware that in [[category theory]] the term 'finite object' is also used in a much more general sense to mean a _[[compact object]]_. Similar finiteness meaning may also be attributed to [[dualizable objects]] in [[monoidal categories]] and to [[perfect complexes]] (of [[abelian sheaves]]) in [[geometry]].
+Also beware that, in [[category theory]], the term 'finite object' is also used in a much more general sense to mean a _[[compact object]]_. Similar finiteness meaning may also be attributed to [[dualizable objects]] in [[monoidal categories]] and to [[perfect complexes]] (of [[abelian sheaves]]) in [[geometry]].
 
 
 
