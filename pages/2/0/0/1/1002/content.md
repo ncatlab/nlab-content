@@ -13,7 +13,7 @@ Or if we start by requiring $F$ to be a [[proper filter]], then we need only the
 
 We may also define an ultrafilter to be [[maximal element|maximal]] among the proper filters.  This definition generalises from the [[power set]] of $S$ to any [[poset]] $L$; notice that we speak of an ultrafilter _on_ $S$ but an ultrafilter _in_ $L$.  In a distributive [[lattice]], every ultrafilter is [[prime filter|prime]]; the converse holds in a [[Boolean algebra]].
 
-Using [[excluded middle]], it is equivalent to say that a filter $F$ on $S$ is an ultrafilter if, given any subset $A$ of $S$, either $A$ or its complement belongs to $F$; this version generalises to any [[Boolean algebra]].  Another way to define an ultrafilter in a Boolean algebra $L$ is as a Boolean-algebra homomorphism from $L$ to the set $\{\bot,\top\}$ of Boolean [[truth value]]s.
+Using [[excluded middle]], it is equivalent to say that a proper filter $F$ on $S$ is an ultrafilter if, given any subset $A$ of $S$, either $A$ or its complement belongs to $F$; this version generalises to any [[Boolean algebra]].  Another way to define an ultrafilter in a Boolean algebra $L$ is as a Boolean-algebra homomorphism from $L$ to the set $\{\bot,\top\}$ of Boolean [[truth value]]s.
 
 Given an element $x$ of a set $S$, the __principal ultrafilter__ (on $S$) at $x$ consists of every [[subset]] of $S$ to which $x$ belongs.  An ultrafilter $F$ is __fixed__ if the [[intersection]] of its elements is [[inhabited subset|inhabited]], in which case that intersection must be a [[singleton]] $\{x\}$ and $F$ is the principal ultrafilter at $x$.
 
