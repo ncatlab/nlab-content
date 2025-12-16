@@ -100,6 +100,12 @@ is an [[epimorphism]].
 
 This theorem explains a likely origin of the term "generator" or "generating family". For example, in linear algebra, one says that a set of morphisms $f_a: S_a \to X$ spans or generates $X$ if the induced map $\oplus S_a \to X$ maps epimorphically onto $X$. 
 
+In particular if every [[epimorphism]] in our category is [[regular epimorphism | regular]] (for example any [[abelian category]]) then any object $X$ can be realised as a colimit in the following way 
+$$ 
+X=coeq\left(a,b\colon Y \to \coprod_{a\colon A, f\colon S_a \to X} S_a\right) = coeq\left(a \circ \varepsilon_Y,b \circ \varepsilon_Y \colon \coprod_{a\colon A, f\colon S_a \to Y} S_a \to \coprod_{a\colon A, f\colon S_a \to X} S_a\right)
+$$
+That is the family $(S_a)_{(a\colon A)}$ generates $C$ under colimits
+
 More generally:
 
 +-- {: .num_defn}
