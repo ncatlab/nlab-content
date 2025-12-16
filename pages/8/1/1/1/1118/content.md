@@ -259,7 +259,7 @@ $$
   \xrightarrow{
     \;
     \big(
-      \mathrm{e}\circ p ,\, (-)^{-1} ,\, \mathrm{e} \circ p
+      id ,\, (-)^{-1} ,\, id
     \big)
     \;
   }
