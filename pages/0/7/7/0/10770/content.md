@@ -1181,7 +1181,7 @@ The bulk of the basic constructions is in
 
 Recent surveys of the modern picture are in
 
-* [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/events/talbot/), _[2013 Pre-Talbot Seminar Chromatic homotopy theoy](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php?pageID=links)_
+* [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/events/talbot/), _[2013 Pre-Talbot Seminar Chromatic homotopy theory](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php?pageID=links)_
 
 and of relevance for the above discussion are particularly the following contributions there
 
