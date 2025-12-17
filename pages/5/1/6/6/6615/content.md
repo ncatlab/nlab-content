@@ -29,7 +29,7 @@ This formula can also be extended to the case where $T$, or anything else up to 
 
 The nabla is an old instrument in the shape of inverted triangle, sort of an Assyrian harp.  [[William Hamilton]] introduced the operator $\nabla$ (sometimes called Hamilton's or Hamiltonian operator, but distinguish strictly from [[Hamiltonian]] in the mechanics sense) and [[James Maxwell]] used it to write [[Maxwell's equations|his equations]].
 
-* History of nabla [nabla.txt](http://www.mat.univie.ac.at/~neum/contrib/nabla.txt)
+* History of nabla [nabla.txt](https://arnold-neumaier.at/contrib/nabla.txt)
 
 The terms 'Atled' and 'Del' are based on the idea that the nabla is an upside-down capital Greek Delta.  Sometimes the [[partial derivative]] symbol $\partial$ is taken to be the lowercase equivalent, as it is a variant (but not upside-down) of the lowercase Delta.
 
