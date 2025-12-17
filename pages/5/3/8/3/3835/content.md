@@ -3,16 +3,25 @@
 
 * [diffeology.net](http://diffeology.net/)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=103873)
+
+* [inspire page](https://inspirehep.net/authors/2133595)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=NOyYJMwAAAAJ&hl=en)
+
+
 ## Selected writings
 
 On [[thermodynamics]] and [[general relativity]]:
 
-
 * {#IglesiasSouriau84} [[Patrick Iglesias-Zemmour]], [[Jean-Marie Souriau]] _Heat, cold and Geometry_, in: M. Cahen et al (eds.) Differential geometry and mathematical physics, 37-68, D. Reidel 1983 ([web](http://www.jmsouriau.com/Heat_Cold_And_Geometry_1983.htm), [pdf](http://www.jmsouriau.com/Publications/JMSouriau-PIglesias-HeatColdAndGeometry1983.pdf), [doi:978-94-009-7022-9_5](https://doi.org/10.1007/978-94-009-7022-9_5))
 
-* [[Patrick Iglesias-Zemmour]], _Essai de «thermodynamique rationnelle» des milieux continus_, Annales de l'I.H.P. Physique théorique, Volume 34 (1981) no. 1,  p. 1-24 ([numdam:AIHPA_1981__34_1_1_0](http://www.numdam.org/item/AIHPA_1981__34_1_1_0))
+* [[Patrick Iglesias-Zemmour]]: _Essai de «thermodynamique rationnelle» des milieux continus_, Annales de l'I.H.P. Physique théorique, Volume 34 (1981) no. 1,  p. 1-24 ([numdam:AIHPA_1981__34_1_1_0](http://www.numdam.org/item/AIHPA_1981__34_1_1_0))
 
-On [[diffeological spaces]] ([[diffeology]]):
+
+{#OnDiffeology} On [[diffeological spaces]] ([[diffeology]]):
+
+> comprehesive archive of publications: [github.com/p-i-z/Diffeology-Archives](https://github.com/p-i-z/Diffeology-Archives)
 
 * {#IglesiasZemmour85} [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologiques et Homotopie_,  Dissertation (1985) ([web](http://math.huji.ac.il/~piz/Site/The%20Articles/D9DD15EE-6993-4CA3-8B9B-4FC1DEF4A418.html), [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf), [[IglesiasZemmourFibrationsDiffeologiques1985.pdf:file]])
 
@@ -20,7 +29,6 @@ On [[diffeological spaces]] ([[diffeology]]):
 Reprint (revised version) by Beijing WPC (2022), World Map Technology, ([pdf] (http://www.icloud.com/iclouddrive/08bIgfV5NT8F8oBo-Ipqoz1kg#Diffeology), [publisher] (https://mp.weixin.qq.com/s?__biz=MjM5NzE3Nzc4MQ==&mid=2664511235&idx=2&sn=a2b55b7fc0e88a3ae4142a8f53077055)).
 
 Exposition:
-
 
 * [[Patrick Iglesias-Zemmour]]: _Diffeologies_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris (2015) &lbrack;[video](https://www.youtube.com/watch?v=4sZDmiVOhaA)&rbrack;
 
