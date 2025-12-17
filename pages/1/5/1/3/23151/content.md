@@ -47,7 +47,7 @@ An explicit description of the free coproduct completion $PSh_{\sqcup}(\mathcal{
 
 ### As a comma category
 
-The free coproduct completion of a category $\mathcal{C}$ is equivalently the following [[comma category]].
+The free coproduct completion of a category $\mathcal{C}$ is a sort of [[comma category]] of the following shape:
 
 \begin{tikzcd}
 	{\mathbf{Fam}(\mathcal{C})} & 1 \\
@@ -58,6 +58,8 @@ The free coproduct completion of a category $\mathcal{C}$ is equivalently the fo
 	\arrow[shorten <=7pt, shorten >=7pt, Rightarrow, from=2-1, to=1-2]
 	\arrow["{\mathbf{disc}}"', from=2-1, to=2-2]
 \end{tikzcd}
+
+However, this requires treating $Cat$ as a 2-category, and allowing the 2-cell to be a [[lax natural transformation]].
 
 
 ### As a Grothendieck construction
