@@ -161,7 +161,7 @@ with the interesting difference that for this splitting [[super Lie algebra]]  i
 
 See also:
  
-* {#Ravera18b} [[Lucrezia Ravera]], _Group Theoretical Hidden Structure of Supergravity Theories in Higher Dimensions_ ([arXiv:1802.06602](https://arxiv.org/abs/1802.06602))
+* {#Ravera18b} [[Lucrezia Ravera]]: _Group Theoretical Hidden Structure of Supergravity Theories in Higher Dimensions_, PhD thesis, Torino (2018) &lbrack;[arXiv:1802.06602](https://arxiv.org/abs/1802.06602), [doi:10.6092/polito/porto/2700157](https://doi.org/10.6092/polito/porto/2700157)&rbrack;
 
 That the underlying bosonic [[body]] of this super Lie algebra happens to be the [[typical fiber]] of what would be the 11-d [[exceptional generalized tangent bundle]], namely the [level-2 truncation of the l1-representation](E11#FundamentalRepresentationAndBraneCharges) of [[E11]] according to ([West 04](E11#West04)) was highlighted in:
 
