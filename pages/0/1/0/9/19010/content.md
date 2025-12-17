@@ -18,7 +18,11 @@ On the [[supergravity Lie 3-algebra]] (see also at *[[M-theory supersymmetry alg
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _More on the Hidden Symmetries of 11D Supergravity_ ([arXiv:1705.06251](https://arxiv.org/abs/1705.06251))
 
+* {#Ravera18b} [[Lucrezia Ravera]]: _Group Theoretical Hidden Structure of Supergravity Theories in Higher Dimensions_, PhD thesis, Torino (2018) &lbrack;[arXiv:1802.06602](https://arxiv.org/abs/1802.06602), [doi:10.6092/polito/porto/2700157](https://doi.org/10.6092/polito/porto/2700157)&rbrack;
+
 * [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity* ([arXiv:2112.00445](https://arxiv.org/abs/2112.00445))
+
+
 
 On the [[self-dual higher gauge field]] on the [[M5-brane]] lifted to [[superspace]] in the [[D'Auria-Fré formulation of supergravity]]:
 
