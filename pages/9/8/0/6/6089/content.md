@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _Beilinson-Drinfeld cup product_ is an explicit presentation of the [[cup product]] in [[ordinary differential cohomology]] (see also at _[[cup product in differential cohomology]]_) for the case that the latter is modeled by the [[Cech cohomology|Cech]]-[[Deligne cohomology]]. It sends (see [[cup product in abelian Cech cohomology]])
+The _Beilinson-Deligne cup product_ is an explicit presentation of the [[cup product]] in [[ordinary differential cohomology]] (see also at _[[cup product in differential cohomology]]_) for the case that the latter is modeled by the [[Cech cohomology|Cech]]-[[Deligne cohomology]]. It sends (see [[cup product in abelian Cech cohomology]])
 
 $$
 \cup: A[p]^\infty_D\otimes B[q]^\infty_D\to (A\otimes_{\mathbb{Z}} B)[p+q]^\infty_D,
