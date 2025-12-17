@@ -21,7 +21,7 @@ On [[thermodynamics]] and [[general relativity]]:
 
 {#OnDiffeology} On [[diffeological spaces]] ([[diffeology]]):
 
-> comprehesive archive of publications: [github.com/p-i-z/Diffeology-Archives](https://github.com/p-i-z/Diffeology-Archives)
+* Comprehensive archive of publications: [github.com/p-i-z/Diffeology-Archives](https://github.com/p-i-z/Diffeology-Archives)
 
 * {#IglesiasZemmour85} [[Patrick Iglesias-Zemmour]], _Fibrations diff&#233;ologiques et Homotopie_,  Dissertation (1985) ([web](http://math.huji.ac.il/~piz/Site/The%20Articles/D9DD15EE-6993-4CA3-8B9B-4FC1DEF4A418.html), [pdf](http://math.huji.ac.il/~piz/documents/TheseEtatPI.pdf), [[IglesiasZemmourFibrationsDiffeologiques1985.pdf:file]])
 
