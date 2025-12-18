@@ -240,6 +240,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[random variables|Random variables]] in terms of [[sheaves]]: [Simpson'17](#probability_sheaves), [Simpson'24](#atomic_sheaf), [Stein'25](#stein_RV).
 
+* A [[universal property]] of the category [[BorelStoch]]: [Rischel'25](#universal_borel).
+
 (...)
 
 
@@ -492,6 +494,8 @@ their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourt
 * {#lifting} [[Paolo Perrone]], _Lifting couplings in Wasserstein spaces_, Compositionality 7, 2025. ([arXiv](https://arxiv.org/abs/2110.06591))
 
 * {#Perrone_thesis} [[Paolo Perrone]], _Categorical Probability and Stochastic Dominance in Metric Spaces_, 2018 ([thesis](http://www.paoloperrone.org/phdthesis.pdf))
+
+* {#universal_borel} Eigil Fjeldgren Rischel, _The Universal Property of Measure-Theoretic Probability_, 2025. ([arXiv](https://arxiv.org/abs/2512.15485))
 
 * {#name_gen} Marcin Sabok, Sam Staton, Dario Stein, Michael Wolman, _Probabilistic Programming Semantics for Name Generation_, Proceedings of POPL, 2021. ([arXiv](https://arxiv.org/abs/2007.08638))
 
