@@ -40,14 +40,13 @@ A statement about sufficient data for extensions of a [[smooth function]] from a
 
 ## References
 
-The original article is
+The original article:
 
-* [[Hassler Whitney]], _Analytic extensions of differentiable functions defined in closed sets_, 1933 ([pdf](http://www.ams.org/journals/tran/1934-036-01/S0002-9947-1934-1501735-3/S0002-9947-1934-1501735-3.pdf))
+* [[Hassler Whitney]]: _Analytic extensions of differentiable functions defined in closed sets_, Transactions of the American Mathematical Society **36** 1 (1934) 63-89 &lbrack;[doi:10.2307/1989708](https://doi.org/10.2307/1989708), [jstor:1989708](https://www.jstor.org/stable/1989708),  [pdf](http://www.ams.org/journals/tran/1934-036-01/S0002-9947-1934-1501735-3/S0002-9947-1934-1501735-3.pdf)&rbrack;
 
-Textbook accounts include
+Textbook account:
 
-
-* {#Hoermander90} [[Lars Hörmander]], theore 2.3.6 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+* {#Hoermander90} [[Lars Hörmander]], theorem 2.3.6 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
 Enhancement to a linear splitting of [[restriction]] maps on Fréchet [[spaces of sections]] with compact support of [[vector bundles]]:
 
