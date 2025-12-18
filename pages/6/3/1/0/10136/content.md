@@ -4,6 +4,11 @@
 
 ## Selected writings
 
+Introducing the [[Whitney extension theorem]]:
+
+* [[Hassler Whitney]]: _Analytic extensions of differentiable functions defined in closed sets_, Transactions of the American Mathematical Society **36** 1 (1934) 63-89 &lbrack;[doi:10.2307/1989708](https://doi.org/10.2307/1989708), [jstor:1989708](https://www.jstor.org/stable/1989708),  [pdf](http://www.ams.org/journals/tran/1934-036-01/S0002-9947-1934-1501735-3/S0002-9947-1934-1501735-3.pdf)&rbrack;
+
+
 Introducing the notion of *[[matroids]]*:
 
 * [[Hassler Whitney]], _On the abstract properties of linear dependence_, American Journal of Mathematics (The Johns Hopkins University Press) **57** 3  (1935) 509-533 &lbrack;[jstor:2371182](http://jstor.org/stable/2371182), [MR1507091](http://www.ams.org/mathscinet-getitem?mr=1507091)&rbrack;
