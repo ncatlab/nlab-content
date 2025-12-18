@@ -73,6 +73,11 @@ constitutes a model of $\mathcal{G}$ in the (Cech) [[∞-stack]] [[(∞,1)-topos
 
 This is _[[Structured Spaces]]_ [prop 1.4.2](http://arxiv.org/PS_cache/arxiv/pdf/0905/0905.0459v1.pdf#page=26).
 
+##References
+
+* [[Ivan Di Liberti]], [[Nicholas Meadows]], _Classifying Infinity Topoi via Weighted Limits_ &lbrack;[arXiv:2512.15613](https://arxiv.org/abs/2512.15613)&rbrack;
+
+
 [[!redirects classifying (∞,1)-topos]]
 [[!redirects classifying (∞,1)-toposes]]
 
