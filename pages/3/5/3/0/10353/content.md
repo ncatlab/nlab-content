@@ -46,7 +46,7 @@ The original article:
 
 Textbook account:
 
-* {#Hoermander90} [[Lars Hörmander]], theorem 2.3.6 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+* {#Hoermander90} [[Lars Hörmander]], Theorem 2.3.6 of: _The analysis of linear partial differential operators_, vol. I, Springer (1983, 1990) &lbrack;[pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-61497-2.pdf)&rbrack;
 
 Enhancement to a linear splitting of [[restriction]] maps on Fréchet [[spaces of sections]] with compact support of [[vector bundles]]:
 
