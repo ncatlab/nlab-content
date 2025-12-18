@@ -322,6 +322,8 @@ Further discussion of [[superconductivity]] via [[AdS/CFT in condensed matter ph
 
 * Jhony A. Herrera-Mendoza, Alfredo Herrera-Aguilar, Daniel F. Higuita-Borja, Julio A. Méndez-Zavaleta, Felipe Pérez-Rodríguez, Jia-Xin Yin, *Effects of rotation and anisotropy on the properties of type-II holographic superconductors* &lbrack;[arXiv:2406.05351](https://arxiv.org/abs/2406.05351)&rbrack;
 
+* Makoto Natsuume: *What is the dual Ginzburg-Landau theory for holographic superconductors?* &lbrack;[arXiv:2407.13956](https://arxiv.org/abs/2407.13956)&rbrack;
+
 * Souvik Paul, Sunandan Gangopadhyay: *Noncommutative $p$-wave holographic superconductors* &lbrack;[arXiv:2502.08275](https://arxiv.org/abs/2502.08275)&rbrack;
 
 
