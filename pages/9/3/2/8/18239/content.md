@@ -165,6 +165,7 @@ closed subsets of $X$, one has $f(\cap_{i \in I} F_i) = \cap_{i \in I}f(F_i)$;
 
 \end{proposition}
 
+(cf. [Bourbaki 1971](#Bourbaki71): Thm. 1 on p. 1 with Def. 1 on p. 97)
 
 \begin{definition}
 \label{ProperContinuous}
