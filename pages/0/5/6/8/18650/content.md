@@ -60,6 +60,9 @@ On bipresentable [[2-categories]] and their relations to logical [[doctrines]]:
  * [[Ivan Di Liberti]], Axel Osmond, *Bi-accessible and bipresentable 2-categories.* &lbrack;[arXiv:2203.07046](https://arxiv.org/abs/2203.07046)&rbrack;
 
 
+On [[classifying (∞,1)-toposes]]:
+
+* [[Ivan Di Liberti]], [[Nicholas Meadows]], _Classifying Infinity Topoi via Weighted Limits_ &lbrack;[arXiv:2512.15613](https://arxiv.org/abs/2512.15613)&rbrack;
 
 
 
