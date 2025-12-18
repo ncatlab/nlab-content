@@ -315,6 +315,9 @@ See also:
 
 * E. Lanina, A. Sleptsov: *Algebraic structures of Vassiliev invariants for knot families* &lbrack;[arXiv:2508.02385](https://arxiv.org/abs/2508.02385)&rbrack;
 
+* E. Lanina, A. Sleptsov: *Algebraic structures of Vassiliev invariants for knot families* &lbrack;[arXiv:2508.02385](https://arxiv.org/abs/2508.02385)&rbrack;
+
+
 
 
 ### Relation to the Jones polynomial:
