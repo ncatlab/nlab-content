@@ -44,11 +44,15 @@ Named after [[Hassler Whitney]].
 
 * {#Pontrjagin55} [[Lev Pontrjagin]], Section 2.2 of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
 
-See also
+See also:
 
 * Wikipedia, _[Whitney embedding theorem](https://en.wikipedia.org/wiki/Whitney_embedding_theorem)_
 
 * Paul Rapoport, _Introduction to Immersion, Embeddingand the Whitney Embedding Theorem_, 2015 ([pdf](http://schapos.people.uic.edu/MATH549_Fall2015_files/Survey%20Paul.pdf))
+
+Generalization of Whitney embedding to manifold [[stratified spaces]]:
+
+* Hiroko Natsume: *The Realization of Abstract Stratified Sets*, Kodai Math. J. **3** (1980) 1-7 &lbrack;[pdf](https://projecteuclid.org/journals/kodai-mathematical-journal/volume-3/issue-1/The-realization-of-abstract-stratified-sets/10.2996/kmj/1138036113.pdf)&rbrack;
 
 
 [[!redirects Whitney's embedding theorem]]
