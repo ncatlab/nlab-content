@@ -32,8 +32,11 @@
 {#KM}
 
 * Kolmogorov, Fomin, _Elements of the theory of functions and functional analysis_
+
 * F.Riesz and Nagy, Functional Analysis
-* [[Elias Stein]], R. Shakarchi, _Functional Analysis: An Introduction to Further Topics in Analysis_, Princeton University Press 2011, ISBN 0691113874.
+
+* [[Elias M. Stein]], Rami Shakarchi: _Functional Analysis: An Introduction to Further Topics in Analysis_, Princeton University Press (2011) &lbrack;[ISBN 0691113874](https://press.princeton.edu/books/hardcover/9780691113876/functional-analysis?srsltid=AfmBOorZ1SD6uvcHIR-8MZx-W6Qm--tTAfXJuChJ0ygAN9nVr9IWPrwB), [pdf](https://www.kryakin.site/am2/Stein-Shakarchi%5D-4-Functional-Analys.pdf)&rbrack;
+
 * Haim Brezis, _Functional analysis, Sobolev spaces and partial differential equations_,  
 * Georgi E. Shilov, _Elementary functional analysis_
 * Eliott H. Lieb, Michael Loss, _Analysis_, Grad. Studies in Math. __14__, Amer. Math. Soc. 2001 (2nd ed.)
