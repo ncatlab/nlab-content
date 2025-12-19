@@ -439,15 +439,22 @@ Therefore, by (eq:ECohomologyGroupOfComplexProjectiveSpace), the assumption (eq:
 
 * [[Thom isomorphism]]
 
+
 ## References
 
 ### For ordinary cohomology
+
+Named after [[Jean Leray]] and Guy Hirsch. 
 
 Review of the theorem for [[ordinary cohomology]]:
 
 * [[Alan Hatcher]], _[Algebraic topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002, theorem 4D.1 on p. 432 ([pdf](https://www.math.cornell.edu/~hatcher/AT/ATch4.4.pdf))
 
 * {#Ebert12} [[Johannes Ebert]], section 2.3 of _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf)) 
+
+See also: 
+
+* Wikipedia: *[Leray-Hirsch theorem](https://en.wikipedia.org/wiki/Leray%E2%80%93Hirsch_theorem)*
 
 ### For generalized cohomology
 
