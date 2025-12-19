@@ -28,7 +28,7 @@
 
 ## Idea
 
-The __spin group__ $Spin(n)$ is the [[universal covering space]] of the [[special orthogonal group]] $SO(n)$. By the usual arguments it inherits a group structure for which the operations are smooth and so is a [[Lie group]] like $SO(n)$.
+The __spin group__ $Spin(n)$ is a [[connected]] [[double cover]] of the [[special orthogonal group]] $SO(n)$, which is its [[universal covering space]] for $n \gt 2$. By the usual arguments it inherits a group structure for which the operations are smooth and so is a [[Lie group]] like $SO(n)$.
 
 For special cases in low dimensions see at:  [[Spin(2)]], [[Spin(3)]], [[Spin(4)]], [[Spin(5)]], [[Spin(6)]], [[Spin(7)]], [[Spin(8)]], [[Spin(9)]], [[Spin(10)]].
 
@@ -228,14 +228,6 @@ We have
   * [[Spin(5)]] $\simeq Sp(2)$ (an indirect consequence of [[triality]], see e.g. [Čadek-Vanžura 97](#CadekVanzura97))
 
   * [[Spin(6)]] $\simeq SU(4)$ (the [[special unitary group]] [SU(4)](special+unitary+group#SU4))
-
-  * [[Spin(7)]] is intimately connected to triality.
-
-  * [[Spin(8)]] has three inequivalent 8-dimensional irreducible representation which are related by the [[triality]] outer automorphisms of this group, and which give rise to the [[octonions]].  $Spin(8)$ admits a description as certain operators on $\mathbb{O}^2$ where $\mathbb{O}$ is the octonions.
-
-  * [[Spin(9)]] admits a description as certain operators on $(\mathbb{C} \otimes \mathbb{O})^2$.
-
-  * [[Spin(10)]] is the gauge group of a [[grand unified theory]], and it admits a description as certain operators on $(\mathbb{C} \otimes \mathbb{O})^2$.
 
 * in [[Lorentz group|Lorentzian]] signature
 
