@@ -1,5 +1,11 @@
 
-* [webpage](https://www.thphys.uni-heidelberg.de/~palti/)
+* [research group page](https://sites.physics.bgu.ac.il/palti/)
+
+* [institute page](https://in.bgu.ac.il/en/Pages/Eran-Palti.aspx)
+
+* [inSpire page](https://inspirehep.net/authors/1029390)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=NbfbT1kAAAAJ&hl=en)
 
 
 ## Selected writings
