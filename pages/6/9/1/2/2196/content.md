@@ -16,7 +16,7 @@
 
 ## Idea
 
-In generality functional analysis* can be defined as the study of objects (and their [[homomorphism|homomorphisms]]) with an [[algebra|algebraic]] and a [[topology|topological]] structure such that the algebraic operations are [[continuous map|continuous]]. But usually the spaces of interest are [[topological vector spaces]] and the algebraic operations on them are [[linear operators]] (cf. *[[operator algebra]]*).
+In generality, *functional analysis* can be defined as the study of objects (and their [[homomorphism|homomorphisms]]) with an [[algebra|algebraic]] and a [[topology|topological]] structure such that the algebraic operations are [[continuous map|continuous]]. But usually the spaces of interest are [[topological vector spaces]] and the algebraic operations on them are [[linear operators]] (cf. *[[operator algebra]]*).
 
 
 Various sets of real or complex-valued [[functions]] (usually [[continuous function|continuous]] or at least [[measurable function|measurable]]) have not only the structure of a [[vector space]] but also an additional [[topological structure]]. To study these systematically, various classes of [[topological vector spaces]] were gradually developed and studied, often irrespective of the nature of the elements. Hence one can study (for example) Banach spaces of anything, not necessarily of functions. Naturally more and more general structures were studied. 
@@ -40,6 +40,8 @@ Textbooks:
 * [[Walter Rudin]]: *Functional analysis*, McGrawHill (1991) &lbrack;[urn:oclc:record:1149261256](https://archive.org/details/functionalanalys00rudi), [pdf](https://59clc.wordpress.com/wp-content/uploads/2012/08/functional-analysis-_-rudin-2th.pdf), [pdf](https://www.math.uniri.hr/~ajurasic/Rudin.pdf)&rbrack;
 
 * [[John B. Conway]]: *A Course in Functional Analysis*, Graduate Texts in Mathematics **96**,  Springer (2007) &lbrack;[doi:10.1007/978-1-4757-4383-8](https://doi.org/10.1007/978-1-4757-4383-8)&rbrack;
+
+* [[Elias M. Stein]], Rami Shakarchi: _Functional Analysis: An Introduction to Further Topics in Analysis_, Princeton University Press (2011) &lbrack;[ISBN 0691113874](https://press.princeton.edu/books/hardcover/9780691113876/functional-analysis?srsltid=AfmBOorZ1SD6uvcHIR-8MZx-W6Qm--tTAfXJuChJ0ygAN9nVr9IWPrwB), [pdf](https://www.kryakin.site/am2/Stein-Shakarchi%5D-4-Functional-Analys.pdf)&rbrack;
 
 
 For more see:
