@@ -1,12 +1,20 @@
 
+Hassler Whitney (1907-1989)
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hassler_Whitney)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=4956)
+
+* [MacTutor Biography page](https://mathshistory.st-andrews.ac.uk/Biographies/Whitney/)
 
 ## Selected writings
 
 Introducing the [[Whitney extension theorem]]:
 
 * [[Hassler Whitney]]: _Analytic extensions of differentiable functions defined in closed sets_, Transactions of the American Mathematical Society **36** 1 (1934) 63-89 &lbrack;[doi:10.2307/1989708](https://doi.org/10.2307/1989708), [jstor:1989708](https://www.jstor.org/stable/1989708),  [pdf](http://www.ams.org/journals/tran/1934-036-01/S0002-9947-1934-1501735-3/S0002-9947-1934-1501735-3.pdf)&rbrack;
+
+* [[Hassler Whitney]]: *Differentiable Functions Defined in Closed Sets. I*, Transactions of the AMS **36** 2 (1934) 369-387 &lbrack;[doi:10.2307/1989844](https://doi.org/10.2307/1989844), [jstor:1989844](https://www.jstor.org/stable/1989844)&rbrack;
+
 
 
 Introducing the notion of *[[matroids]]*:
