@@ -1,247 +1,34 @@
-> This [[HomePage|nLab]] page is for developing preliminary notes or making typographical experiments, etc. It may be edited by anybody, anytime. But you don't necessarily need to delete other people's ongoing notes here in order to add your own. In any case, overwritten edits may always be recovered from the [page history](/nlab/history/Sandbox).
+## Definitions
 
+There are three inequivalent definitions of a proper map in the literature.
 
-\linebreak
+The first one is the oldest definition, still found in some analysis books.
 
+\begin{definition}
+A continuous map $f\colon X\to Y$ of [[topological spaces]] is __proper__ (or __quasi-proper__) if for every [[compact]] subset $K\subset Y$, the preimage $f^{-1}K$ is a compact subset of $X$.
+\end{definition}
 
-***
+The second definition was introduced by [[Bourbaki]] to make proper maps closed under [[base changes]].
 
+\begin{definition}
+A continuous map $f\colon X\to Y$ of [[topological spaces]] is __proper__ if it is __universally closed__: every [[base change]] of $f$ is a [[closed map]] of topological spaces.
+\end{definition}
 
-$$
-  \begin{aligned}
-    Hom_{ThSmthSet}\big(
-      \mathbb{R}^n \times \mathbb{D}
-      ,\,
-      \underset{\leftarrow}{\lim}
-      \mathbb{R}^\bullet
-    \big)
-    & 
-    \simeq
-    \underset{\leftarrow}{\lim}
-    Hom_{ThSmthSet}\big(
-      \mathbb{R}^n \times \mathbb{D}
-      ,\,
-      \mathbb{R}^\bullet
-    \big)
-    \\
-    & \simeq
-    \underset{\leftarrow}{\lim}
-    Hom_{ThSmthSet}\big(
-      \mathbb{R}^n 
-      ,\,
-      (\mathbb{R}^\bullet)^{\mathbb{D}}
-    \big)
-    \\
-    & \simeq
-    \underset{\leftarrow}{\lim}
-    Hom_{SmthSet}\big(
-      \mathbb{R}^n 
-      ,\,
-      (\mathbb{R}^\bullet)^{\mathbb{D}}
-    \big)
-  \end{aligned}
-$$
+Other equivalent characterizations include the following:
 
+* For every [[topological space]] $Z$ the map $f\times id_Z\colon X\times Z\to Y\times Z$ is a [[closed map]].  (The original formulation used by Bourbaki.)
 
-***
+* The map $f$ is quasi-proper and closed.
 
-\linebreak
+* The map $f$ is closed and every fiber of $f$ is [[compact]].
 
-For [[5D Maxwell-Chern-Simons theory]] on a [[spacetime]] $X^{1,4}$
+The third definition was introduced by [[Grothendieck]].  It is in the same relation to the previous definition as [[compact Hausdorff spaces]] are to [[compact spaces]].
 
-* the local [[field (physics)|field]] content is a 1-form [[gauge potential]] $A \in \Omega^1_{dR}(X^{1,4})$
+\begin{definition}
+A continuous map $f\colon X\to Y$ of [[topological spaces]] is __proper__ if it is universally closed and [[separated map|separated]].
+\end{definition}
 
-* the [[Lagrangian density]] is:
+Recall that $f$ is separated if its relative diagonal $$X\to X\times_Y X$ is a [[closed map]].
 
-  $$
-    L 
-    \;\coloneqq\;
-    \tfrac{1}{2}\mathrm{d}A \wedge \star \mathrm{d}A
-    \,-\,
-    \tfrac{1}{6} A \wedge \mathrm{d}A \wedge \mathrm{d}A
-    \mathrlap{\,,}
-  $$
-
-where $\star$ is the [[Hodge star operator]] for the [[pseudo-Riemannian metric]] on $X^{1,d}$.
-
-The [[Euler-Lagrange equations]] [[equations of motion|of motion]] are
-
-$$
-  \left.
-  \begin{aligned}
-    \mathrm{d}\, F_2 & = 0
-    \\
-    \mathrm{d}\, G_3 & = \tfrac{1}{2} F_2 \wedge F_2
-  \end{aligned}
-  \right\}
-  \,,
-  \;\;
-  \text{where}
-  \;\;
-  \left\{
-  \begin{aligned}
-    F_2 & \coloneqq \mathrm{d}A
-    \\
-    G_3 & \coloneqq \star F_2
-    \,.
-  \end{aligned}
-  \right.
-$$
-
-While $G_3$ is not closed, the combination
-$$
-  \widetilde G_3 
-  \,\coloneqq\,
-  G_3 - \tfrac{1}{2} A \wedge F_2
-$$
-is closed:
-$$
-  \mathrm{d}\, \widetilde G_3
-  \;=\;
-  0
-  \mathrlap{\,.}
-$$
-
-Considering now
-
-* a [[globally hyperbolic spacetime]]
-
-  $$
-    X^{1,4} \simeq \mathbb{R}^{1,0} \times X^4
-  $$
-
-  with [[Cauchy surface]] 
-
-  $$
-    \iota \colon X^d \hookrightarrow X^{1,4}
-    \mathllap{\,,}
-  $$
-
-* [[temporal gauge]]$\;$$A_0 = 0$
-
-  whence we now understand $A \in \Omega^1_{dR}(X^4)$.
-
-The [[canonical momentum]] to the [[gauge potential]] $A$ is
-
-$$
-  \widetilde E_3 
-    \;\coloneqq\;
-  \tfrac{\partial L}{\partial (\partial_0 A)}
-    \;=\;
-  \iota^\ast G_3 
-    \,-\,
-  \tfrac{1}{3} A \wedge B_2
-  \,,
-$$
-
-whence the basic [[Poisson bracket]] is, for $\omega \in \Omega^1_{dR}(X^4)$, given by
-
-$$
-  \Big\{
-    \textstyle{\int_{X^4}} \omega \wedge E
-    ,\,
-    A(x)
-  \Big\}
-  \;=\;
-  \omega(x)
-  \mathrlap{\,.}
-$$
-
-Setting 
-
-$$
-  \begin{aligned}
-    B_2 
-      & \coloneqq\, 
-    \iota^\ast \mathrm{d}A
-    \\
-    E_3 
-      & \coloneqq\, 
-    \iota^\ast G_3
-    \\
-    & = 
-    \widetilde E_3 + \tfrac{1}{3} A \wedge B_2 
-  \end{aligned}
-$$
-
-we have Poisson brackets
-
-$$
-  \Big\{
-    \textstyle{\int_{X^4}} \omega \wedge E_3
-    ,\,
-    \textstyle{\int_{X^4}} \omega' \wedge E_3
-  \Big\}
-  \;=\;
-  \tfrac{4}{3}
-  \int_{X^4} \omega \wedge \omega' \wedge B_2
-  \mathrlap{\,,}
-$$
-
-Now say that the *topological observables* are these integrals for closed $\omega$ modulo exact.
-
-Consider this on 
-
-$$
-  X^4
-  =
-  \mathbb{R}^1 \times [0,1] \times 
-  T^2
-$$
-
-Then the space of topological observables is spanned by 
-
-$\big(O^{(a)}_1, O_1^{(b)}, O_2\big)$ with the only non-trivial Poisson bracket being
-$$
-  \big\{ O^{(a)}_1,  O^{(b)}_1 \big\} = \tfrac{4}{3}O_2  
-$$
-
-\linebreak
-
-Alternatively, consider the Pontrjagin algebra
-
-$$
-  H_0\big(
-    \Omega\, Map\big(T^2, S^2\big)
-  \big)
-  \;\simeq\;
-  \big(
-    U\mathfrak{l}Map(T^2, S^2)
-  \big)_0
-  \mathrlap{\,,}
-$$
-
-which is the universal enveloping algebra of the $\mathbb{C}$-Whitehead bracket Lie algebra, in degree=0, of the mapping space. 
-
-Here
-$$
-  \mathfrak{l}Map(T^2, S^2)
-  \;\simeq\;
-  tor^2 \mathfrak{l}S^2
-$$
-
-and the degree=0 elements in here are spanned by
-
-$$
-  \overset{1}{s} v_1
-  ,\,
-  \overset{2}{s} v_1
-  ,\,
-  \overset{1}{s} \overset{2}{s} v_2
-$$
-
-with the only non-trivial bracket being
-$$
-  \big[
-    \overset{1}{s} v_1
-    ,\,
-    \overset{2}{s} v_1
-  \big]
-  \;=\;
-  \overset{1}{s} \overset{2}{s} v_2
-$$
-
-
-
-
+If $Y=\{*\}$ is the terminal [[topological space]], then the first two definitions amount to saying $X$ is [[compact]], whereas the last definition makes $X$ compact and [[Hausdorff]].
 
