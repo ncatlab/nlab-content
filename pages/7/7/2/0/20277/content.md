@@ -48,7 +48,7 @@ $$
 
 ### Octonionic construction of representation
 
-The group $Spin(9)$ has a 16-dimensional faithful irreducible complex representation called its [[spin+representation#complex_representations|spinor representation]].   ([Bryant 20](#Bryant20)) constructs this using [[octonions]] as follows.   
+The group $Spin(9)$ has a 16-dimensional faithful irreducible complex representation called its [[spin+representation|spinor representation]].   ([Bryant 20](#Bryant20)) constructs this using [[octonions]] as follows.   
 
 For $(r,x) \in \mathbb{R} \oplus \mathbb{O}$ define a linear map $m_{r,x} \colon \mathbb{C} \otimes \mathbb{O}^2 \to \mathbb{C} \otimes \mathbb{O}^2$ as follows:
 
