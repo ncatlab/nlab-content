@@ -50,7 +50,7 @@ Some standard examples are [[Fourier analysis]] on locally compact abelian group
 * [[Gerald B. Folland]], *A course in abstract harmonic analysis*, Studies in Advanced Mathematics. CRC Press (1995) &lbrack;[pdf](https://sv.20file.org/up1/1415_0.pdf), [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)&rbrack;
 
 
-* Elias Stein, Guido Weiss, _Introduction to Fourier analysis on Euclidean spaces_, Princeton Univ. Press 1971
+* [[Elias M. Stein]], Guido Weiss: _Introduction to Fourier analysis on Euclidean spaces_, Princeton Univ. Press (1971) &lbrack;[jstor:j.ctt1bpm9w6](https://www.jstor.org/stable/j.ctt1bpm9w6), [pdf](https://api.pageplace.de/preview/DT0400.9781400883899_A26876181/preview-9781400883899_A26876181.pdf)&rbrack;
 
 See also:
 
