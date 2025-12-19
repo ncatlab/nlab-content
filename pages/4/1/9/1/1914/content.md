@@ -27,9 +27,9 @@ $$
 $$
 
 is a [[differentiable function]]
-such that there exists an [[inverse]] differentiabe function $f^{-1}$ (a function which is an [[inverse function]] on the underlying sets and is itself [[differentiable function|differentiable]] to the given degree).
+such that there exists an [[inverse]] differentiable function $f^{-1}$ (a function which is an [[inverse function]] on the underlying sets and is itself [[differentiable function|differentiable]] to the given degree).
 
-Diffeomorphisms are the [[isomorphisms]] in the corrresponding [[category]] [[Diff]] of [[differentiable manifolds]]/[[smooth manifolds]].
+Diffeomorphisms are the [[isomorphisms]] in the corresponding [[category]] [[Diff]] of [[differentiable manifolds]]/[[smooth manifolds]].
 
 ## Properties
 
