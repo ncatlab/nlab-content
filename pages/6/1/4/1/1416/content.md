@@ -288,7 +288,7 @@ One says that $PSh(C)$ is the _[[classifying topos]]_ for internally flat functo
 
 * [[theory of flat functors]]
 
-* [[exact (∞,1)-functor]]
+* [[flat (∞,1)-functor]]
 
 * [[ind-object]]
 
