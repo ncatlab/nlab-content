@@ -76,7 +76,7 @@ Basic facts about smooth functions are
 
 * [[Borel's theorem]]
 
-* the [[Tietze extension theorem]]
+* the [[Whitney extension theorem]]
 
 * the [[Steenrod-Wockel approximation theorem]]
 
@@ -111,6 +111,10 @@ A crucial property of smooth functions, however, is that they contain also [[bum
 An early account, in the context of [[Cohomotopy]], [[cobordism theory]] and the [[Pontryagin-Thom construction]]:
 
 * {#Pontrjagin55} [[Lev Pontrjagin]], Chapter I of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/pont001.pdf))
+
+Modern monograph:
+
+* Boris M. Makarov, Anatolii N. Podkorytov: *Smooth Functions and Maps*, Moscow Lectures **7**, Springer (2021) &lbrack;[doi:10.1007/978-3-030-79438-5](https://doi.org/10.1007/978-3-030-79438-5)&rbrack;
 
 
 
