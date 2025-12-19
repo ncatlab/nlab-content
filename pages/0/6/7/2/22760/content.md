@@ -48,4 +48,7 @@ The [[trivial group]] with $a \vert b = a \cdot b$ is a midpoint algebra.
 
 * [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
-* [[Martín Escardó]] and [[Alex Simpson]]. *A universal characterization of the closed Euclidean interval.* In 16th Annual IEEE Symposium on Logic in Computer Science, Boston, Massachusetts, USA, June 16-19, 2001, Proceedings, pages 115–125. IEEE Computer Society, 2001. ([doi:10.1109/LICS.2001.932488](https://doi.org/10.1109/LICS.2001.932488), [pdf](http://www.cs.bham.ac.uk/~mhe/papers/interval.pdf))
+* [[Martín Escardó]] and [[Alex Simpson]], *A universal characterization of the closed Euclidean interval.* In 16th Annual IEEE Symposium on Logic in Computer Science, Boston, Massachusetts, USA, June 16-19, 2001, Proceedings, pages 115–125. IEEE Computer Society, 2001. ([doi:10.1109/LICS.2001.932488](https://doi.org/10.1109/LICS.2001.932488), [pdf](http://www.cs.bham.ac.uk/~mhe/papers/interval.pdf))
+
+* [[Martín Escardó]] and [[Alex Simpson]], *Euclidean interval objects in categories with finite products* &lbrack;[arXiv:2504.21551](https://arxiv.org/abs/2504.21551)&rbrack;
+
