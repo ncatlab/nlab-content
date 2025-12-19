@@ -49,7 +49,7 @@ Since a complex number can be understood as a pair of [[real numbers]], this wou
 
 * Douglas N. Arnold, _Complex analysis_, lecture notes, [pdf](http://www.ima.umn.edu/~arnold/502.s97/complex.pdf)
 
-* Elias M. Stein, Rami Shakarchi, _Complex analysis_, Princeton University Press 2003, 2012
+* [[Elias M. Stein]], Rami Shakarchi: _Complex analysis_, Princeton University Press (2003, 2012) &lbrack;[ISBN:9780691113852](https://press.princeton.edu/books/hardcover/9780691113852/complex-analysis?srsltid=AfmBOorhQ48pR5BbXQhMF6YTUtCSU-HbCG69Zp953MeM73xcAOWiEGbq), [pdf](https://www.fing.edu.uy/~cerminar/Complex_Analysis.pdf)&rbrack;
 
 Via [[constructive analysis]]:
 
