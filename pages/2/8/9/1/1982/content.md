@@ -59,7 +59,7 @@ A comprehensive five-volume treatise (with a sixth volume forthcoming) is
 
 A more concise two-volume treatise is
 
-* [[Vladimir Bogachev]], _[[Measure theory]]_, Volumes I, II.  Springer, 2007.  ISBN: 978-3-540-34513-8, 3-540-34513-2.
+* [[Vladimir Bogachev]], _Measure theory_, Volumes I, II.  Springer, 2007.  ISBN: 978-3-540-34513-8, 3-540-34513-2.
 
 A classical (slightly dated) concise treatise is
 
@@ -67,12 +67,14 @@ A classical (slightly dated) concise treatise is
 
 * Donald L. Cohn, _Measure Theory_, Birkhäuser, 1980.  ISBN: 3-7643-3003-1 
 
-Other texts include
+Other texts:
 
 * [[Ernst-Erich Doberkat]], _Measures and all that --- A Tutorial_ ([arXiv:1409.2662](http://arxiv.org/abs/1409.2662))
 
 * {#Connes1995} [[Alain Connes]] (1995); _[[Noncommutative Geometry]]_.
    
+* Lawrence C. Evans, Ronald F. Gariepy: *Measure Theory and Fine Properties of Functions*, Textbooks in Mathematics, CRC Press (2015) &lbrack;[ISBN:9781032946443](https://www.routledge.com/Measure-Theory-and-Fine-Properties-of-Functions/Evans/p/book/9781032946443), [pdf](http://home.ustc.edu.cn/~huangty0407/[Evans,%20Lawrence%20Craig;%20Gariepy,%20Ronald]%20Measure%20Theory%20and%20Fine%20Properties%20of%20Functions,%20Revised%20Edition.pdf)&rbrack;
+
 
 ### Via topos theory
  {#ReferencesViaToposTheory}
