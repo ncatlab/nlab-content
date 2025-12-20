@@ -27,6 +27,9 @@ Via [[Liouville theory]]:
 
 * Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann: *The complex Liouville string: the gravitational path integral* &lbrack;[arXiv:2501.10265](https://arxiv.org/abs/2501.10265)&rbrack;
 
+* Dionysios Anninos, Thomas Hertog, Joel Karlsson: *Quantum Liouville Cosmology* &lbrack;[arXiv:2512.15969](https://arxiv.org/abs/2512.15969)&rbrack;
+  > (on 2D [[quantum cosmology]])
+
 
 
 [[!redirects 2d quantum gravity]]
