@@ -81,7 +81,7 @@ $$
   \,.
 $$
 
-A discrete [[quotient group]] of this, [[Lie integration|integrating]] the same [[Lie algebra]], has as underlying manifold $\mathbb{R}^2 \times U(1)$ (the second factor being the [[circle group]]), with the projection
+A discrete [[quotient group]] of this, [[Lie integration|integrating]] the same [[Lie algebra]], has as underlying manifold $\mathbb{R}^2 \times U(1)$ (the second factor being the [[circle group]]), with the [[coprojection]]
 
 $$
   \mathbb{R}^2 \times \mathbb{R}
@@ -89,7 +89,7 @@ $$
   \mathbb{R}^2 \times U(1)
 $$
 
-being quotienting by $\mathbb{Z}$: $U(1) \simeq \mathbb{R} / \mathbb{Z}$.
+that of the [[quotient]] $U(1) \simeq \mathbb{R} / \mathbb{Z}$.
 
 If the circle group is instead thought of as the unit circle in the complex plane, then this quotient is thought of as the exponential map $\exp(2 \pi i (-)) : \mathbb{R} \to U(1)$. In terms of this the group elements in the quotient read
 
@@ -227,9 +227,14 @@ An original account:
 
 * [[Bertram Kostant]], _Quantization and unitary representations_, in: _Lectures in modern analysis and applications III_. Lecture Notes in Math. **170**, Springer (1970) &lbrack;[doi:10.1007/BFb0079068](https://doi.org/10.1007/BFb0079068)&rbrack;
 
+Review in the context of the [[Stone-von Neumann theorem]]:
+
+* {#Rosenberg2004} [[Jonathan Rosenberg]], p. 7 of: *A Selective History of the Stone-von Neumann Theorem*, in: *Operator Algebras, Quantization, and Noncommutative Geometry: A Centennial Celebration Honoring John von Neumann and Marshall H. Stone*, Contemporary Mathematics **365**, AMS (2004)  &lbrack;[doi:10.1090/conm/365](https://doi.org/10.1090/conm/365), [pdf](https://www.math.umd.edu/~jmr/StoneVNart.pdf)&rbrack;
+
+
 Monographs:  
 
-* {#PressleySegal} [[Andrew Pressley]], [[Graeme Segal]] §9.5 in: *Loop groups*, Oxford University Press (1988) &lbrack;[ISBN:9780198535614](https://global.oup.com/academic/product/loop-groups-9780198535614)&rbrack;
+* {#PressleySegal} [[Andrew Pressley]], [[Graeme Segal]], §9.5 in: *Loop groups*, Oxford University Press (1988) &lbrack;[ISBN:9780198535614](https://global.oup.com/academic/product/loop-groups-9780198535614)&rbrack;
   > (in the context of [[loop groups]])
   
 
