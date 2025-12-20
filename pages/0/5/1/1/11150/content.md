@@ -161,7 +161,10 @@ In the context of [[D=2 quantum gravity]]:
 
 On *timelike* Liouville theory:
 
-* [[Sourav Chatterjee]]. *Rigorous results for timelike Liouville field theory* (2025). ([arXiv:2504.02348](https://arxiv.org/abs/2504.02348)).
+* [[Sourav Chatterjee]]. *Rigorous results for timelike Liouville field theory* &lbrack;[arXiv:2504.02348](https://arxiv.org/abs/2504.02348)&rbrack;
+
+* Dionysios Anninos, Thomas Hertog, Joel Karlsson: *Quantum Liouville Cosmology* &lbrack;[arXiv:2512.15969](https://arxiv.org/abs/2512.15969)&rbrack;
+  > (as 2D [[quantum cosmology]])
 
 
 
