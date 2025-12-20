@@ -148,10 +148,15 @@ In [[complex geometry]] for purposes of [[Cech cohomology]] the role of Cartesia
 
 ## References
 
-Named after [[René Descartes]].
+Cartesian spaces are named after [[René Descartes]].
 
-* {#Stallings} [[John Stallings]], _The piecewise linear structure of Euclidean space_ , Proc. Cambridge Philos. Soc. 58 (1962), 481-488. ([pdf](http://journals.cambridge.org/production/action/cjoGetFulltext?fulltextid=2118140))
+> See also references at *[[Euclidean space]]*.
 
+On the [[piecewise-linear manifold]] [[structure]] and the [[smooth manifold]] [[structure]] of Cartesian spaces
+
+* [[John Stallings]]: *The Piecewise-Linear Structure of Euclidean Space*, Mathematical Proceedings of the Cambridge Philosophical Society **58** 3 (1962) 481--488 &lbrack;[doi:10.1017/S0305004100036756](https://doi.org/10.1017/S0305004100036756), [pdf](https://www.maths.gla.ac.uk/~mpowell/stallings-structures-of-euclidean-space.pdf)&rbrack;
+
+See also:
 
 * {#Ozols} V. Ozols, _Largest normal neighbourhoods_ ,
 Proceedings of the American Mathematical Society
