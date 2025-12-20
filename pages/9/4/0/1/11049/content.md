@@ -34,3 +34,5 @@ Via [[Liouville theory]]:
 
 [[!redirects 2d quantum gravity]]
 [[!redirects 2-dimensional quantum gravity]]
+[[!redirects 2D quantum gravity]]
+
