@@ -113,7 +113,7 @@ Discussion of [[D-branes]] in 3d supergravity includes
 
 ### Gauged
 
-Topological gauged supergravity in dimension three was first considered in 
+Topological [[gauged supergravity]] in dimension three was first considered in 
 
 * A. Ach&#250;carro and [[Paul Townsend]], _A Chern-Simons action for
 three-dimensional anti-de Sitter supergravity theories_, Phys. Lett. B180
@@ -154,6 +154,9 @@ See also
 * Eoin &#211; Colg&#225;in, [[Henning Samtleben]], _3D gauged supergravity from wrapped M5-branes with AdS/CMT applications_, JHEP 1102:031,2011 ([arXiv:1012.2145](http://arxiv.org/abs/1012.2145))
 
 * Edi Gava, Parinya Karndumri, K. S. Narain, _3D gauged supergravity from SU(2) reduction of N=1 6D supergravity_, JHEP 09 (2010) 028 ([arXiv:1006.4997](http://arxiv.org/abs/1006.4997))
+
+* Davide Rovere: *The Use of Torsion in Supergravity Uplifts and Covariant Fractons* &lbrack;[arXiv:2512.16166](https://arxiv.org/abs/2512.16166)&rbrack;
+
 
 
 [[!redirects 3-dimensional supergravities]]
