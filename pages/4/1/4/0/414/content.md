@@ -235,7 +235,7 @@ An object in [[Ab]], an [[abelian group]], is projective precisely if it is a [[
 ###### Example
 
 
-For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]]. See at _[[projective module]]_ for more on this.
+For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]]. See _[[projective module]]_ for more on this.
 
 
 =--
@@ -247,7 +247,21 @@ The projective objects in [[compact topological space|compact]] [[Hausdorff topo
 
 =--
 
++-- {: .num_example}
+###### Example
 
+The projective objects in the category of posets and order-preserving functions are precisely the discrete posets.
+
+Indeed, let $P$ be a poset and let $D(P)$ be the discrete poset with the same underlying set. Then the identity function on $P$ is order-preserving from $D(P)$ to $P$, and it is surjective. If $P$ is projective, then this function admits an order-preserving section, which must also be the identity function. It follows that two elements of $P$ are comparable if and only if they are comparable in $D(P)$, so $P$ is discrete.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+By an argument similar to the previous example's, every projective object in the [[Cat|category of small categories]] is a discrete category.
+
+=--
 
 
 ## Properties
@@ -255,16 +269,16 @@ The projective objects in [[compact topological space|compact]] [[Hausdorff topo
 ### Existence of enough projectives
  {#ExistenceOfEnoughProjectives}
 
-We list examples of classes of categories that have enough projective, according to def. \ref{EnoughProjectives}.
+We list examples of classes of categories that have enough projectives according to def. \ref{EnoughProjectives}.
 
 +-- {: .num_prop #ModHasEnoughProjectives}
 ###### Proposition
 
-Assuming the [[axiom of choice]], for $R$ a [[ring]] the category $R$[[Mod]] of [[modules]] over $R$ has enough projectives.
+Assuming the [[axiom of choice]], for $R$ a [[ring]], the category $R$[[Mod]] of [[modules]] over $R$ has enough projectives.
 
 =--
 
-See at _[[projective module]]_ for more.
+See _[[projective module]]_ for more.
 
 +-- {: .num_lemma #FreeModulesAreProjective}
 ###### Lemma
