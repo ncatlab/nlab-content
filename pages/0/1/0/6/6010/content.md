@@ -400,7 +400,12 @@ Now we pick some embedding $\psi _{0} \colon M \to V$ which, by applying $S^{-}$
 * [[hypersurface]]
 
 
+
 ## References
+
+Original articles:
+
+* [[André Haefliger]]: *Plongements différentiables de variétés dans variétés*, Commentarii mathematici Helvetici **36** (1961/62) 47-82 &lbrack;[eudml:139228](https://eudml.org/doc/139228), [[Haefliger-Plongements.pdf:file]]&rbrack;
 
 Monographs:
 
@@ -411,13 +416,17 @@ Monographs:
 
 Lecture notes:
 
-* Paul Rapoport, _Introduction to Immersion, Embedding and the Whitney Embedding Theorem_, 2015 ([pdf](http://schapos.people.uic.edu/MATH549_Fall2015_files/Survey%20Paul.pdf))
+* Paul Rapoport: _Introduction to Immersion, Embedding and the Whitney Embedding Theorem_, 2015 ([pdf](http://schapos.people.uic.edu/MATH549_Fall2015_files/Survey%20Paul.pdf))
 
-* Emery Thomas, _Embedding manifolds in Euclidean space_, Osaka Journal Mathematics 13 (1976) ([pdf](http://ir.library.osaka-u.ac.jp/metadb/up/LIBOJMK01/ojm13_01_12.pdf))
+* Emery Thomas: _Embedding manifolds in Euclidean space_, Osaka Journal Mathematics 13 (1976) ([pdf](http://ir.library.osaka-u.ac.jp/metadb/up/LIBOJMK01/ojm13_01_12.pdf))
 
-* Rodolfo De Sapio, _Embedding $\pi$-manifolds_, Annals of mathematics, Second Series, Vol 82, No 2 ([jstor](http://www.jstor.org/pss/1970642))
+* Rodolfo De Sapio: _Embedding $\pi$-manifolds_, Annals of mathematics, Second Series, Vol 82, No 2 ([jstor](http://www.jstor.org/pss/1970642))
 
-* [[Manifold Atlas]], _[Embeddings in Euclidean space: an introduction to their classification](https://web.archive.org/web/20241114020154/http://www.map.mpim-bonn.mpg.de/Embeddings_in_Euclidean_space:_an_introduction_to_their_classification)_
+* [[Manifold Atlas]]: _[Embeddings in Euclidean space: an introduction to their classification](https://web.archive.org/web/20241114020154/http://www.map.mpim-bonn.mpg.de/Embeddings_in_Euclidean_space:_an_introduction_to_their_classification)_
+
+Discussion for [[piecewise-linear manifolds]]:
+
+* Robert J. Daverman, Gerard A. Vanema: *Embeddings in Manifolds*, Graduate Studies in Mathematics **106**, American Mathematical Society (2009) &lbrack;[doi:10.1090/gsm/106](https://doi.org/10.1090/gsm/106), [pdf](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/davenema.pdf)&rbrack;
 
 Discussion of embeddings of [[spheres]] into each other (generalizing the concept of [[knots]]):
 
