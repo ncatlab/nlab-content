@@ -254,6 +254,8 @@ The projective objects in the category of posets and order-preserving functions 
 
 Indeed, let $P$ be a poset and let $D(P)$ be the discrete poset with the same underlying set. Then the identity function on $P$ is order-preserving from $D(P)$ to $P$, and it is surjective. If $P$ is projective, then this function admits an order-preserving section, which must also be the identity function. It follows that two elements of $P$ are comparable if and only if they are comparable in $D(P)$, so $P$ is discrete.
 
+If we require projective objects to only satisfy the lifting property with respect to _regular_ epimorphisms, then the 2-element chain is also projective (and no larger totally ordered set is projective).
+
 =--
 
 +-- {: .num_example}
