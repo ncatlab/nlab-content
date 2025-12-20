@@ -110,6 +110,8 @@ and other inner products are recovered by linearity.  (We must then use the axio
 
 ## Related concepts
 
+* [[Cartesian space]]
+
 * [[Euclidean field]]
 
 * [[Euclidean G-space]]
@@ -132,11 +134,16 @@ Textbook accounts:
 
 * [[Igor R. Shafarevich]], [[Alexey O. Remizov]]: §7 in: *Linear Algebra and Geometry* (2012) &lbrack;[doi:10.1007/978-3-642-30994-6](https://doi.org/10.1007/978-3-642-30994-6), [MAA-review](https://maa.org/press/maa-reviews/linear-algebra-and-geometry)&rbrack; 
 
+On the [[piecewise-linear manifold]] [[structure]] and the [[smooth manifold]] [[structure]] of finite-dimensional Euclidean spaces:
 
-On the use of the Dedekind real numbers in constructive and predicative constructive mathematics, such as for Euclidean spaces:
+* [[John Stallings]]: *The Piecewise-Linear Structure of Euclidean Space*, Mathematical Proceedings of the Cambridge Philosophical Society **58** 3 (1962) 481--488 &lbrack;[doi:10.1017/S0305004100036756](https://doi.org/10.1017/S0305004100036756), [pdf](https://www.maths.gla.ac.uk/~mpowell/stallings-structures-of-euclidean-space.pdf)&rbrack;
+
+On the use of the [[Dedekind real numbers]] in constructive and predicative constructive mathematics, such as for Euclidean spaces:
 
 * [[Univalent Foundations Project]], [[Homotopy Type Theory – Univalent Foundations of Mathematics]] (2013)
+
 * [[Mike Shulman]], Brouwer’s fixed-point theorem in real-cohesive homotopy type theory, Mathematical Structures in Computer Science Vol 28 (6) (2018): 856-941 ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584), [doi:10.1017/S0960129517000147](https://doi.org/10.1017/S0960129517000147))
+
 * Davorin Lešnik, Synthetic Topology and Constructive Metric Spaces, ([arxiv:2104.10399](https://arxiv.org/abs/2104.10399))
 
 [[!redirects Euclidean space]]
