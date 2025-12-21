@@ -4,7 +4,7 @@ Olivia Caramello is an Italian mathematician who works as an Associate Professor
 * [webpage](http://www.oliviacaramello.com/)
 
 
-###Recent papers and preprints:
+## Selected writings
 
 * Olivia Caramello, [_Theories, Sites, Toposes: Relating and studying mathematical theories through topos-theoretic ‘bridges’_](https://global.oup.com/academic/product/theories-sites-toposes-9780198758914), Oxford University Press (2017).
 
@@ -15,6 +15,11 @@ Olivia Caramello is an Italian mathematician who works as an Associate Professor
 * Olivia Caramello, _Topological Galois theories_, ([arXiv: 1301.0300](http://arxiv.org/abs/1301.0300)) (2013)
 
 * Olivia Caramello, _The unification of Mathematics via Topos Theory_, ([arXiv: 1006.3930](http://arxiv.org/abs/1006.3930)) (2010)
+
+On a [[double category]] of [[sites]]:
+
+* [[Olivia Caramello]], [[Axel Osmond]]: *Morphisms and comorphisms of sites I -- Double categories of sites* &lbrack;[arXiv:2505.08766](https://arxiv.org/abs/2505.08766)&rbrack;
+
 
 
 
