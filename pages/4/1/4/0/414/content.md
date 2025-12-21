@@ -235,7 +235,7 @@ An object in [[Ab]], an [[abelian group]], is projective precisely if it is a [[
 ###### Example
 
 
-For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective (a [[projective module]], see there for more details) precisely if it is a [[direct sum|direct summand]] of a [[free module]]. See _[[projective module]]_ for more on this.
+For $R$ a [[commutative ring]], an object in  $R$[[Mod]], an $R$-[[module]], is projective precisely if it is a [[direct sum|direct summand]] of a [[free module]]. See _[[projective module]]_ for more on this.
 
 
 =--
@@ -250,11 +250,11 @@ The projective objects in [[compact topological space|compact]] [[Hausdorff topo
 +-- {: .num_example}
 ###### Example
 
-The projective objects in the category of posets and order-preserving functions are precisely the discrete posets.
+The projective objects in the category of [[posets]] and order-preserving functions are precisely the [[discrete]] posets.
 
 Indeed, let $P$ be a poset and let $D(P)$ be the discrete poset with the same underlying set. Then the identity function on $P$ is order-preserving from $D(P)$ to $P$, and it is surjective. If $P$ is projective, then this function admits an order-preserving section, which must also be the identity function. It follows that two elements of $P$ are comparable if and only if they are comparable in $D(P)$, so $P$ is discrete.
 
-If we require projective objects to only satisfy the lifting property with respect to _regular_ epimorphisms, then the 2-element chain is also projective (and no larger totally ordered set is projective).
+If we require projective objects to only satisfy the lifting property with respect to _regular_ epimorphisms, then the projective objects can be characterised by forbidden subobjects: a poset $P$ is projective if and only if it does not admit any order-preserving injections from the 3-element chain, or from the [[walking span]] $\{1 \geq 0 \leq 1'\}$, or from the dual of the walking span. In other words, a poset is projective in this sense if and only if its underlying [[undirected graph]] has no paths with three distinct vertices, if and only if it is the disjoint union of copies of the singleton poset and the two-element chain. Furthermore, every poset is a quotient of such a projective poset.
 
 =--
 
