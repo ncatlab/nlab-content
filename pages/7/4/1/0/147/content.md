@@ -211,6 +211,12 @@ In
 
 sites are discussed in section C2.1.
 
+For a treatment of sites via [[double categories]]:
+
+* [[Olivia Caramello]], [[Axel Osmond]], *Morphisms and comorphisms of sites I -- Double categories of sites* &lbrack;[arXiv:2505.08766](https://arxiv.org/abs/2505.08766)&rbrack;
+
+
+
 [[!redirects sites]]
 
 [[!redirects 1-site]]
