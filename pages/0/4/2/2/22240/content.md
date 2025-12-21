@@ -12,6 +12,10 @@ On the notion of [[spectrum (geometry)|spectrum in geometry]] known as the [[Die
 
 * [[Axel Osmond]], _On Diers theory of Spectrum II: Geometries and dualities_, ([arXiv:2012.02167](https://arxiv.org/abs/2012.02167))
 
-* [[Axel Osmond]], _The general construction of Spectra_, [arXiv:2102.01259](https://arxiv.org/abs/2102.01259).
+* [[Axel Osmond]], _The general construction of Spectra_, [arXiv:2102.01259](https://arxiv.org/abs/2102.01259)
+
+On a [[double category]] of [[sites]]:
+
+* [[Olivia Caramello]], [[Axel Osmond]]: *Morphisms and comorphisms of sites I -- Double categories of sites* &lbrack;[arXiv:2505.08766](https://arxiv.org/abs/2505.08766)&rbrack;
 
 category: people
