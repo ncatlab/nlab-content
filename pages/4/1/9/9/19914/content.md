@@ -20,7 +20,6 @@
 {:toc}
 
 
-
 ## Idea
 
 The _Chern-Simons propagator_ is the [[Feynman propagator]] for [[Chern-Simons theory]] regarded as a [[Euclidean quantum field theory]]. Since the [[Feynman propagator]] only depends on the [[free field theory]]-[[equations of motion]] (the staring point of [[perturbative QFT]]), which here is $d A = 0$, its form is independent of the [[gauge group]] and in fact applies also to all [[higher Chern-Simons theories]] such as notably the [[AKSZ sigma-models]].
@@ -35,11 +34,12 @@ The Chern-Simons propagator was re-formulated as a [[Feynman amplitudes on compa
 
 ## References
 
-Detailed review is in 
+Detailed review:
 
-* Konstantin Wernli, section 3 of _Perturbative Quantization of Split Chern-Simons Theory on Handlebodies and Lens Spaces by the BV-BFV formalism_, 2018
+* [[Konstantin Wernli]], section 3 of: *Perturbative Quantization of Split Chern-Simons Theory on Handlebodies and Lens Spaces by the BV-BFV formalism*, PhD thesis, Zürich (2018) \[<a href="https://www.zora.uzh.ch/entities/publication/21a78865-d88a-4a77-aeb4-aebbdce7c050">zora:entities/publication/21a78865-d88a-4a77-aeb4-aebbdce7c050</a>, [pdf](https://user.math.uzh.ch/cattaneo/wernli.pdf), [[Wernli-QuantumCS.pdf:file]]\]
 
-Original articles include the following
+
+Original articles:
 
 * {#AxelrodSinger91} [[Scott Axelrod]], [[Isadore Singer]], _Chern-Simons Perturbation Theory_, in S. Catto, A. Rocha (eds.) Proc. XXthe DGM Conf. World Scientific Singapore, 1992, 3-45; ([arXiv:hep-th/9110056](http://arxiv.org/abs/hep-th/9110056))
 
