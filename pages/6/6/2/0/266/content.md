@@ -405,6 +405,7 @@ Similarly, if $D$ is [[copower|copowered]] over $V$, then the left Kan extension
 
 ([Kelly (4.25)](#Kelly))
 
+([Loregian 2021 (2.27)](#Loregian21))
 
 +-- {: .num_example #CoendFormulaForPresheavesOfSets}
 ###### Example
@@ -952,7 +953,7 @@ found in the paper that also defined [[adjoint functors]] and [[limits]]:
 
 * [[Daniel M. Kan]], _Adjoint functors_, Transactions of the American Mathematical Society 87:2 (1958), 294–294 ([doi:10.1090/s0002-9947-1958-0131451-0](https://doi.org/10.1090/s0002-9947-1958-0131451-0)).
 
-Textbook sources include 
+Textbook accounts:
 
 * {#Borceux} [[Francis Borceux]], section 3.7 of _[[Handbook of Categorical Algebra]] I_
  
@@ -965,12 +966,17 @@ The book
 
 has a famous treatment of Kan extensions with a statement: "The notion of Kan extensions subsumes all the other fundamental concepts in category theory".  Of course, many other fundamental concepts of category theory can also be regarded as subsuming all the others.
 
-Lecture notes with an eye towards applications in [[homotopy theory]] include
+Lecture notes with an eye towards applications in [[homotopy theory]]:
 
 * {#Riehl} [[Emily Riehl]], Chapter 1 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
+On Kan extensions via (co)[[ends]]:
 
-For Kan extensions in the context of [[enriched category theory]] see
+* {#Loregian21} [[Fosco Loregian]], section 2 of: *Coend calculus*, Cambridge University Press (2021) &lbrack;[arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657](https://doi.org/10.1017/9781108778657), [ISBN:9781108778657](https://www.cambridge.org/core/books/coend-calculus/C662E90767358B336F17B606D19D8C43)&rbrack;
+
+
+
+For more on Kan extensions in the context of [[enriched category theory]] see
 
 * [[Eduardo Dubuc]], _Kan extensions in enriched category theory_,  Lecture Notes in Mathematics, Vol. 145 Springer-Verlag, Berlin-New York 1970 xvi+173 pp.
 
