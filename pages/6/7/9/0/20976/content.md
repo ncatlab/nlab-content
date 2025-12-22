@@ -10,7 +10,6 @@ Discussion of  [[perturbative quantum field theory|perturbative]] [[quantization
 
 * [[Scott Axelrod]], [[Isadore Singer]], _Chern--Simons Perturbation Theory II_, J. Diff. Geom. 39 (1994) 173-213 ([arXiv:hep-th/9304087](http://arxiv.org/abs/hep-th/9304087)) 
 
-
 * {#Kontsevich93} [[Maxim Kontsevich]], _Vassiliev's knot invariants_, Advances in Soviet Mathematics, Volume 16, Part 2, 1993 ([pdf](http://pagesperso.ihes.fr/~maxim/TEXTS/VassilievKnot.pdf))
  
 * {#Kontsevich} [[Maxim Kontsevich]], _Feynman diagrams and low-dimensional topology_, in First European Congress of Mathematics, Vol. II (Paris, 1992), volume 120 of Progr. Math., pages 97&#8211;121, Birkh&#228;user, Basel, 1994. ([pdf](https://www.ihes.fr/~maxim/TEXTS/Feynman%20%20diagrams%20and%20low-dimensional%20topology.pdf))
@@ -22,7 +21,10 @@ Discussion of  [[perturbative quantum field theory|perturbative]] [[quantization
  
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
-* [[Pavel Mnev]], Konstantin Wernli: *Perturbative Chern-Simons invariants from non-acyclic flat connections* \[<a href="https://arxiv.org/abs/2512.17638">arXiv:2512.17638</a>\]
+* [[Konstantin Wernli]]: *Perturbative Quantization of Split Chern-Simons Theory on Handlebodies and Lens Spaces by the BV-BFV formalism*, PhD thesis, Zürich (2018) \[<a href="https://www.zora.uzh.ch/entities/publication/21a78865-d88a-4a77-aeb4-aebbdce7c050">zora:entities/publication/21a78865-d88a-4a77-aeb4-aebbdce7c050</a>, [pdf](https://user.math.uzh.ch/cattaneo/wernli.pdf), [[Wernli-QuantumCS.pdf:file]]\]
+
+
+* [[Pavel Mnev]], [[Konstantin Wernli]]: *Perturbative Chern-Simons invariants from non-acyclic flat connections* \[<a href="https://arxiv.org/abs/2512.17638">arXiv:2512.17638</a>\]
 
 
 Review:
@@ -44,7 +46,7 @@ following
 
 Discussion in [[BV-formalism]]:
 
-* [[Pavel Mnev]], Konstantin Wernli: *Globalization of perturbative Chern-Simons theory on the moduli space of flat connections in the BV formalism* \[<a href="https://arxiv.org/abs/2510.18653">arXiv:2510.18653</a>\]
+* [[Pavel Mnev]], [[Konstantin Wernli]]: *Globalization of perturbative Chern-Simons theory on the moduli space of flat connections in the BV formalism* \[<a href="https://arxiv.org/abs/2510.18653">arXiv:2510.18653</a>\]
 
 
 
