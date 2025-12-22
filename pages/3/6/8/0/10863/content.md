@@ -25,7 +25,7 @@ This page is to record the reference:
 
   [[Anders Kock]] (ed.), 
 
-  _Topos Theoretic Methods in Geometry_, 
+  _[[Topos Theoretic Methods in Geometry]]_, 
 
   Aarhus Univ. Var. Pub. Ser. **30** (1979).
 
