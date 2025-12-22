@@ -52,7 +52,7 @@ The third definition was introduced by [[Grothendieck]].  It is in the same rela
 A continuous map $f\colon X\to Y$ of [[topological spaces]] is __proper__ if it is universally closed and [[separated map|separated]].
 \end{definition}
 
-Recall that $f$ is separated if its relative diagonal $X\to X\times_Y X$ is a [[closed map]].
+Recall that $f$ is [[separated map|separated]] if its relative diagonal $X\to X\times_Y X$ is a [[closed map]].
 
 If $Y=\{*\}$ is the terminal [[topological space]], then the first two definitions amount to saying $X$ is [[compact]], whereas the last definition makes $X$ compact and [[Hausdorff]].
 
@@ -218,7 +218,7 @@ The notion of compact space is subject to naming ambiguity. For the same notion,
 
 For _properness_ the situation is _worse_ as there are three competing definitions. We have defined the one similar to _quasi-compact_ spaces.
 
-In addition one could require $f$ to be separated, that is to require that if a net $x_\bullet$ converges to both $x_1$ and $x_2$ with $f(x_1) = f(x_2)$, then $x_1 = x_2$. This definition of properness resembles the one used in algebraic geometry: see [[ proper morphism ]]. It is also the one to be used in the proper base change theorem.
+In addition one could require $f$ to be [[separated map|separated]], that is to require that if a net $x_\bullet$ converges to both $x_1$ and $x_2$ with $f(x_1) = f(x_2)$, then $x_1 = x_2$. This definition of properness resembles the one used in algebraic geometry: see [[ proper morphism ]]. It is also the one to be used in the proper base change theorem.
 
 Finally, some authors use a weaker version of properness, where $f \colon X \to Y$ is proper when $f^{-1}(K)$ is compact for every compact $K \subset Y$. But as explained below, this definition is usually used in situations where these maps are always closed.
 \end{remark} 
@@ -311,6 +311,10 @@ Conversely, if $\mathrm{Loc}(f)\,:\, \mathrm{Loc}(X) \to \mathrm{Loc}(Y)$ is pro
 * [[proper equivariant homotopy theory]]
 
 ## References
+
+All three definitions are presented in
+
+* [[Stacks Project]], Tag 005M, <https://stacks.math.columbia.edu/tag/005M>.
 
 One of the early reference on proper maps is
 
