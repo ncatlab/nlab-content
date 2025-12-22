@@ -85,7 +85,7 @@ The following proposition generalises the well-known result that compact Hausdor
 +-- {: .num_prop }
 ###### Proposition
 
-Every separated and proper map is locally proper
+Every ([[separated map|separated]]) [[proper map]] is locally proper
 
 =--
 
