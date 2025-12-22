@@ -216,4 +216,6 @@ Review:
 
 [[!redirects writhe]]
 
+[[!redirects Gauss integral formula]]
+[[!redirects Gauss integral formulas]]
 
