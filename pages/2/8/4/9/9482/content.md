@@ -7,6 +7,11 @@ A method for [[semiclassical approximation]]...
 
 ## References
 
+Review:
+
+* Kohei Iwaki: *Les Houches Lectures on Exact WKB Analysis and Painlevé Equations* &lbrack;[arXiv:2512.17599](https://arxiv.org/abs/2512.17599)^rbrack;
+
+
 See also; 
 
 * Wikipedia, _[WKB approximation](http://en.wikipedia.org/wiki/WKB_approximation
