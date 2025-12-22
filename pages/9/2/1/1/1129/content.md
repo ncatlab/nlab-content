@@ -19,9 +19,9 @@
 
 ## Definition
 
-There is a very general notion of _injective objects_ in a [[category]] $C$, and then there is a sequence of more concrete notions as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|or a relative]] thereof.
+There is a very general notion of an _injective object_ in a [[category]] $C$, and then there is a sequence of more concrete notions as $C$ is equipped with more [[stuff, structure, property|structure and property]], in particular for $C$ an [[abelian category]] [[additive and abelian categories|or a relative]] thereof.
 
-The concept of [[resolutions]] by injective objects -- [[injective resolutions]] -- is crucial notably in the discussion of [[derived functors]] (in the context of [[abelian categories]]: [[derived functors in homological algebra]]).
+The concept of [[resolutions]] by injective objects -- [[injective resolutions]] -- is crucial in the discussion of [[derived functors]] (see [[derived functors in homological algebra]]).
 
 Being injective is a *property* of an object; the corresponding *structure* is called an [[algebraic injective]].
 
@@ -32,9 +32,9 @@ Let $C$ be a [[category]] and $J \subset Mor(C)$ a [[class]] of [[morphisms]] in
 +-- {: .num_example}
 ###### Example
 
-Frequently $J$ is the class of all [[monomorphisms]] or a related class.  
+Frequently, $J$ is the class of all [[monomorphisms]], or a related class such as the [[regular monomorphisms]].
 
-This is notably the case for  $C$ is a [[category of chain complexes]] equipped with the injective [[model structure on chain complexes]] and $J$ is its class of [[cofibrations]].
+When $C$ is a [[category of chain complexes]] equipped with the injective [[model structure on chain complexes]], then $J$ is often its class of [[cofibrations]].
 
 =--
 
@@ -99,7 +99,7 @@ Any [[small set|small]] [[Cartesian product]] of injective objects is injective.
 ###### Remark
 
 
-If $C$ has a [[terminal object]] $*$ then these extensions are equivalently [[lifts]]
+If $C$ has a [[terminal object]] $*$, then these extensions are equivalently [[lifts]]
 
 $$
   \array{
@@ -137,7 +137,12 @@ takes morphisms in $J$ to [[epimorphism]]s in [[Set]].
 
 =--
 
++-- {: .num_prop #InjectivesCharacterisedBySplitting}
+###### Proposition
 
+If $C$ has [[pushouts]] and the pushout of a morphism in $J$ along any other morphism is always an element of $J$, then the $J$-injective objects are precisely the objects $I$ such that every morphism in $J$ with domain $I$ is a [[split monomorphism]].
+
+=--
 
 ### In abelian categories 
 
@@ -377,6 +382,10 @@ In the category of all spaces, the injectives with respect to homeomorphic embed
 
 Injective objects in the category of [[Boolean algebras]] are precisely [[complete Boolean algebras]]. This is the dual form of a theorem of Gleason, saying that the [[projective objects]] in the category of [[Stone spaces]] are the [[extremally disconnected topological space|extremally disconnected]] ones (the closure of every open set is again open). 
 
+### In posets
+
+In the category of [[posets]] and order-preserving functions, the singleton is the only poset which satisfies the extension property along all monomorphisms. However, if we require injectives to satisfy the extension property only with respect to [[regular monomorphisms]], then the injective objects are precisely the [[complete lattices]]. Indeed, if $I$ is an injective poset and $A \subseteq I$, then we can freely adjoin a supremum of $A$ to $I$ to get a new poset $J$, and the inclusion $I \hookrightarrow J$ has a retraction $f : J \to I$. It can easily be checked that $f$ maps the supremum of $A$ in $J$ to a supremum of $A$ in $I$. Conversely, let $I$ be a complete lattice and let $f : I \to J$ be a regular monomorphism. Assuming without loss of generality that $I \subseteq J$ and $f$ is the inclusion, regularity means that the order on $I$ is the order inherited from $J$. To define a retraction of $f$, for each $j\in J$, set $g(j) = \sup \{i \in I : i \leq j\}$. This shows that every regular monomorphism out of $I$ is a [[split monomorphism]]. It follows from Proposition \ref{InjectivesCharacterisedBySplitting} that $I$ is injective with respect to the regular monomorphisms.
+
 ## Properties
 
 ### Preservation of injective objects
@@ -401,7 +410,7 @@ between [[abelian categories]] such that the [[left adjoint]] $L$ is a [[left ex
 +-- {: .proof}
 ###### Proof
 
-Observe that an object is injective precisely if the [[hom-functor]] into it sends [[monomorphisms]] to [[epimorphisms]], and that $L$ preserves monomorphisms by assumption of (left-)exactness. With this the statement follows via adjunction isomorphism
+Observe that an object is injective precisely if the [[hom-functor]] into it sends [[monomorphisms]] to [[epimorphisms]], and that $L$ preserves monomorphisms by assumption of (left-)exactness. With this, the statement follows via the adjunction isomorphism
 
 $$
   Hom_{\mathcal{A}}(-,R(I))\simeq Hom_{\mathcal{B}}(L(-),I)
@@ -438,7 +447,7 @@ R(I) &   &
 }
 $$
 
-Let $\theta: Hom_\mathcal{C}(X,R(Y))\overset{\simeq}{\rightarrow}Hom_\mathcal{D}(L(X),Y)$ the natural bijection given by the adjunction. Consider now the following diagram in $\mathcal{D}$ where the assumptions ensure that $L(m)$ is mono:
+Let $\theta: Hom_\mathcal{C}(X,R(Y))\overset{\simeq}{\rightarrow}Hom_\mathcal{D}(L(X),Y)$ the natural bijection given by the adjunction. Consider now the following diagram in $\mathcal{D}$ where the assumptions ensure that $L(m)$ is monic:
 
 $$
 \array{
@@ -455,22 +464,22 @@ Since $I$ is injective, there there exists a filler $\theta(g):L(B)\to I$ which 
 \frac{L(A)\overset{L(m)}{\rightarrowtail} L(B)\overset{\theta(g)}{\rightarrow}I}{A\overset{m}{\rightarrowtail} B\overset{g}{\rightarrow}R(I)}
 \]
 
-correspond to each other under the bijection whence $\theta(g\circ m)=\theta(g)\circ L(m)$ but from the commutativity of the second diagram we have $\theta(g)\circ L(m)=\theta(f)=\theta(g\circ m)$. Since $\theta$ is a bijection it follows that $f=g\circ m$ which proves that $R(I)$ is injective.
+correspond to each other under the bijection, whence we have $\theta(g\circ m)=\theta(g)\circ L(m)$. But from the commutativity of the second diagram, we have $\theta(g)\circ L(m)=\theta(f)=\theta(g\circ m)$. Since $\theta$ is a bijection, it follows that $f=g\circ m$, which proves that $R(I)$ is injective.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The proof transposes the proof of the dual statement 10.2. in  ([Hilton-Stammbach 1971](#HiltonStammbach71), p. 82): In situation $L\dashv R$, if $R$ maps epis to epis then $L$ maps projectives to projectives.
+The proof transposes the proof of the dual statement 10.2. in ([Hilton-Stammbach 1971](#HiltonStammbach71), p. 82): In situation $L\dashv R$, if $R$ maps epis to epis, then $L$ maps projectives to projectives.
 
 =--
 
 +-- {: .num_remark #Exponential_injectives}
 ###### Remark
-Let $X\in\mathcal{C}$ such that ${}_-\times:\mathcal{C}\to\mathcal{C}$ exists and has a right adjoint ${}_-\times X\dashv (_-)^X$. Since it is easy to check that ${}_-\times X$ preserves monos it follows that $(_-)^X$ preserves injectives.
+Let $X\in\mathcal{C}$ such that ${}_-\times:\mathcal{C}\to\mathcal{C}$ exists and has a right adjoint ${}_-\times X\dashv (_-)^X$. Since it is easy to check that ${}_-\times X$ preserves monos, it follows that $(_-)^X$ preserves injectives.
 
-In particular, for toposes this implies that all power objects $\Omega^X$ are injective since the injectivity of $\Omega$ follows more or less straightforwardly from its classifying properties.
+In particular, for toposes, this implies that all power objects $\Omega^X$ are injective, since the injectivity of $\Omega$ follows more or less straightforwardly from its classifying properties.
 =--
 
 ### Existence of enough injectives
@@ -500,17 +509,16 @@ Assuming some form of the [[axiom of choice]], the category of [[abelian groups]
 
 =--
 
-Full AC is much more than required, however; [[small violations of choice]] suffices.
+Full AC is much more than required, however; [[small violations of choice]] suffice.
 
 +-- {: .proof} 
 ###### Proof 
 
-By prop. \ref{InjectiveAbelianGroupIsDivisibleGroup} an [[abelian group]]
-is an injective $\mathbb{Z}$-module precisely if it is a [[divisible group]]. So we need to show that every [[abelian group]] is a [[subgroup]] of a [[divisible group]].
+By Proposition \ref{InjectiveAbelianGroupIsDivisibleGroup}, an [[abelian group]] is an injective $\mathbb{Z}$-module precisely if it is a [[divisible group]]. So, we need to show that every [[abelian group]] is a [[subgroup]] of a [[divisible group]].
 
-To start with, notice that the group $\mathbb{Q}$ of [[rational numbers]] is divisible and hence the canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ shows that the additive group of [[integers]] embeds into an injective $\mathbb{Z}$-module.
+To start with, notice that the group $\mathbb{Q}$ of [[rational numbers]] is divisible, and hence the canonical embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ shows that the additive group of [[integers]] embeds into an injective $\mathbb{Z}$-module.
 
-Now by the discussion at _[[projective module]]_ every [[abelian group]] $A$ receives an [[epimorphism]] $(\oplus_{s \in S} \mathbb{Z}) \to A$ from a [[free group|free]] abelian group, hence is the [[quotient group]] of a [[direct sum]] of copies of $\mathbb{Z}$. Accordingly it embeds into a quotient $\tilde A$ of a direct sum of copies of $\mathbb{Q}$.
+Now, by the discussion at _[[projective module]]_, every [[abelian group]] $A$ admits an [[epimorphism]] $(\oplus_{s \in S} \mathbb{Z}) \to A$ from a [[free group|free]] abelian group, and hence is the [[quotient group]] of the [[direct sum]] of copies of $\mathbb{Z}$. Accordingly, it embeds into a quotient $\tilde A$ of the direct sum of copies of $\mathbb{Q}$.
 
 $$
   \array{
@@ -526,7 +534,7 @@ $$
   }
 $$
 
-Here $\tilde A$ is divisible because the [[direct sum]] of divisible groups is again divisible, and also the [[quotient group]] of a divisible groups is again divisble. So this exhibits an embedding of any $A$ into a divisible abelian group, hence into an injective $\mathbb{Z}$-module.
+Here, $\tilde A$ is divisible because the [[direct sum]] of divisible groups is again divisible, and also the [[quotient group]] of a divisible groups is again divisble. So this exhibits an embedding of any $A$ into a divisible abelian group, hence into an injective $\mathbb{Z}$-module.
 
 
 =--
@@ -547,11 +555,11 @@ $$
 
 between [[abelian categories]] such that the [[left adjoint]] $L$ is 
 
-1. an [[exact functor]],
+1. an [[exact functor]] and
 
-1. a [[faithful functor]]. 
+1. a [[faithful functor]],
 
-Then if $\mathcal{B}$ has enough injectives, also $\mathcal{A}$ has enough injectives.
+if $\mathcal{B}$ has enough injectives, then $\mathcal{A}$ also has enough injectives.
 
 =--
 
@@ -561,16 +569,16 @@ Then if $\mathcal{B}$ has enough injectives, also $\mathcal{A}$ has enough injec
 Consider $A \in \mathcal{A}$. By the assumption that $\mathcal{B}$ has enough injectives, there is an injective object $I \in \mathcal{B}$ and a monomorphism $i \colon L(A) \hookrightarrow I$. The [[adjunct]] of this is a morphism
 
 $$
-  \tilde i \colon A \longrightarrow R(I)
+  \tilde i \colon A \longrightarrow R(I),
 $$
 
 and so it is sufficient to show that
 
-1. $R(I)$ is injective in $\mathcal{A}$;
+1. $R(I)$ is injective in $\mathcal{A}$, and
 
 1. $\tilde i$ is a monomorphism.
 
-The first point is the statement of lemma \ref{RightAdjointsOfExactFunctorsPreserveInjectives}.
+The first point is the statement of Lemma \ref{RightAdjointsOfExactFunctorsPreserveInjectives}.
 
 For the second point, consider the [[kernel]] of $\tilde i$ as part of the [[exact sequence]]
 
@@ -579,14 +587,14 @@ $$
   \,.
 $$
 
-By the assumption that $L$ is an [[exact functor]], the image of this sequence under $L$ is still exact
+By the assumption that $L$ is an [[exact functor]], the image of this sequence under $L$ is still exact:
 
 $$
   L(ker(\tilde i)) \longrightarrow L(A) \stackrel{L(\tilde i)}{\longrightarrow} L(R(I))
   \,.
 $$
 
-Now observe that $L(\tilde i)$ is a monomorphism: this is because its composite $L(A) \stackrel{L(\tilde i)}{\longrightarrow} L(R(I)) \stackrel{\epsilon}{\longrightarrow} I$ with the [[adjunction unit]] is (by the formula for [[adjuncts]]) the original morphism $i$, which by construction is a monomorphism. Therefore the exactness of the above sequence means that $L(ker(\tilde i)) \to L(A)$ is the [[zero morphism]]; and by the assumption that $L$ is a [[faithful functor]] this means that already $ker(\tilde i) \to A$ is zero, hence that $ker(\tilde i) = 0$, hence that $\tilde i$ is a monomorphism.
+Now observe that $L(\tilde i)$ is a monomorphism. This is because its composite $L(A) \stackrel{L(\tilde i)}{\longrightarrow} L(R(I)) \stackrel{\epsilon}{\longrightarrow} I$ with the [[adjunction unit]] is (by the formula for [[adjuncts]]) the original morphism $i$, which is a monomorphism by construction. Therefore, the exactness of the above sequence means that $L(ker(\tilde i)) \to L(A)$ is the [[zero morphism]], and by the assumption that $L$ is a [[faithful functor]], this means that $ker(\tilde i) \to A$ is zero, and hence that $ker(\tilde i) = 0$, so $\tilde i$ is a monomorphism.
 
 =--
 
@@ -595,7 +603,7 @@ Now observe that $L(\tilde i)$ is a monomorphism: this is because its composite 
 
 As soon as the category [[Ab]] of [[abelian groups]] has enough injectives, so does the [[abelian category]] $R$[[Mod]] of [[modules]] over some [[ring]] $R$.  
 
-In particular if the [[axiom of choice]] holds, then $R Mod$ has enough injectives.
+In particular, if the [[axiom of choice]] holds, then $R Mod$ has enough injectives.
 
 =--
 
