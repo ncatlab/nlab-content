@@ -110,7 +110,7 @@ The conception and discussion of these well adapted toposes goes back to [[Eduar
 
 This theory of well-adapted models was later summarized and extended in the standard textbook
 
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]]: _[[Models for Smooth Infinitesimal Analysis]]_, Springer (1991) &lbrack;[doi:10.1007/978-1-4757-4143-8](https://doi.org/10.1007/978-1-4757-4143-8)&rbrack;
+* {#MoerdijkReyes1991} [[Ieke Moerdijk]], [[Gonzalo Reyes]]: _[[Models for Smooth Infinitesimal Analysis]]_, Springer (1991) &lbrack;[doi:10.1007/978-1-4757-4143-8](https://doi.org/10.1007/978-1-4757-4143-8)&rbrack;
 
 
 
@@ -227,7 +227,7 @@ The idea of axiomatizing [[differential geometry]] using ideas inspired by [[top
 
 They were published as pp.1-28 in
 
-* {#Kocke79} [[Anders Kock]] (ed.), _Topos Theoretic Methods in Geometry_ , Aarhus Univ. Var. Pub. Ser. 30 (1979).  
+* {#Kocke79} [[Anders Kock]] (ed.): _[[Topos Theoretic Methods in Geometry]]_ , Aarhus Univ. Var. Pub. Ser. 30 (1979).  
  
 The first model for the axioms presented there served to demonstrate that the theory is non-empty, but was hard to work with. Much of the later work was concerned with refining the model-building. For instance
 
@@ -293,11 +293,7 @@ The textbooks
 
 develop the theory of [[differential geometry]] using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
 
-Somewhat complementary to that, the book
-
-* [[Ieke Moerdijk]], [[Gonzalo Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ , Springer Heidelberg 1991.
-
-focuses on concrete constructions of well-adapted models using the technology of [[generalized smooth algebra | generalized smooth algebras]] ($C^\infty$-rings). 
+Somewhat complementary to that, [Moerdijk & Reyes 1991](#MoerdijkReyes1991) focuse on concrete constructions of well-adapted models using the technology of [[generalized smooth algebra | generalized smooth algebras]] ($C^\infty$-rings). 
 
 Another textbook is
 
