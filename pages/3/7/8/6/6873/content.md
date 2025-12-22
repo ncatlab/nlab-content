@@ -25,9 +25,9 @@ On [[2d conformal field theory]]:
 
 On [[perturbative quantum field theory|perturbative]] [[quantization of 3d Chern-Simons theory]] via [[BV-formalism]]:
 
-* [[Pavel Mnev]], Konstantin Wernli: *Globalization of perturbative Chern-Simons theory on the moduli space of flat connections in the BV formalism* \[<a href="https://arxiv.org/abs/2510.18653">arXiv:2510.18653</a>\]
+* [[Pavel Mnev]], [[Konstantin Wernli]]: *Globalization of perturbative Chern-Simons theory on the moduli space of flat connections in the BV formalism* \[<a href="https://arxiv.org/abs/2510.18653">arXiv:2510.18653</a>\]
 
-* [[Pavel Mnev]], Konstantin Wernli: *Perturbative Chern-Simons invariants from non-acyclic flat connections* \[<a href="https://arxiv.org/abs/2512.17638">arXiv:2512.17638</a>\]
+* [[Pavel Mnev]], [[Konstantin Wernli]]: *Perturbative Chern-Simons invariants from non-acyclic flat connections* \[<a href="https://arxiv.org/abs/2512.17638">arXiv:2512.17638</a>\]
 
 
 category: people
