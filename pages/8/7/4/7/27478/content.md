@@ -1,35 +1,78 @@
 
-Topos theoretic methods in geometry.
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Synthetic differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
 
-A collection of articles edited by [[A. Kock]].
+This page is to record the reference:
 
-May 1979.
+* [[Anders Kock]] (ed.):
 
-Various Publications Series No. 30.
+  \linebreak
 
-[PDF file](https://dmitripavlov.org/scans/kock.pdf)
+  **Topos Theoretic Methods in Geometry**
+
+  \linebreak 
+
+  Various Publications Series **30**
+
+  Aarhus University (1979)
+
+  [pdf](https://dmitripavlov.org/scans/kock.pdf), 
+  [[Kock-1979.pdf:file]]
+
+compiling early discussions of [[synthetic differential geometry]].
 
 Contents:
 
-- [[F. William Lawvere]].  Categorical dynamics.
+* [[F. William Lawvere]]: 
 
-- Marie-Françoise Coste, [[Michel Coste]].  The generic model of an ε-stable geometric extension of the theory of rings is of line type.
+  *[[Categorical dynamics]]*
 
-- Marie-Françoise Coste, [[Michel Coste]].  Topologies for real algebraic geometry.
+* Marie-Françoise Coste, [[Michel Coste]]:  
 
-- [[E. J. Dubuc]], [[G. E. Reyes]].  Subtoposes of the ring classifier.
+  *The generic model of an $\epsilon$-stable geometric extension of the theory of rings is of line type*
 
-- [[Anders Kock]].  Formally real local rings, and infinitesimal stability.
+* Marie-Françoise Coste, [[Michel Coste]]:  
 
-- [[Peter T. Johnstone]].  Extracts from two letters to Anders Kock, March 1978.
+  *Topologies for real algebraic geometry*
 
-- [[Anders Kock]].  On the synthetic theory of vector fields.
+* [[E. J. Dubuc]], [[G. E. Reyes]]:  
 
-- [[A. Kock]], [[G. E. Reyes]].  Connections in formal differential geometry.
+  *Subtoposes of the ring classifier*
 
-- Christiane Rousseau.  Complex structures on topoi.
+* [[Anders Kock]]:  
 
-- [[G. C. Wraith]].  Complexification of variable fields.
+  *Formally real local rings, and infinitesimal stability*
 
-- Report on the Open House on Topos Theoretic Methods in Geometry and Analysis, Aarhus, May 10–24, 1978.
+* [[Peter T. Johnstone]]:  
 
+  *Extracts from two letters to Anders Kock, March 1978*
+
+* [[Anders Kock]]: 
+
+  *On the synthetic theory of vector fields*
+
+* [[A. Kock]], [[G. E. Reyes]]:  
+
+  *Connections in formal differential geometry*
+
+* Christiane Rousseau: 
+
+  *Complex structures on topoi*
+
+* [[G. C. Wraith]]:
+
+  *Complexification of variable fields*
+
+* Report on the Open House on Topos Theoretic Methods in Geometry and Analysis, Aarhus, May 10–24, 1978.
+
+
+category: reference
+
+[[!redirects Topos theoretic methods in geometry]]
