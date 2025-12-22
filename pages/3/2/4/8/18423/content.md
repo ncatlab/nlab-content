@@ -683,7 +683,11 @@ The particular conclusion (eq:ShapeEquivalentToDiscreteSmoothSingularComplex) is
 
 * {#Bunk20} [[Severin Bunk]], Section 3 of: *The $\mathbb{R}$-Local Homotopy Theory of Smooth Spaces*, J. Homotopy Relat. Struct. (2022) &lbrack;[arXiv:2007.06039](https://arxiv.org/abs/2007.06039), [doi:10.1007/s40062-022-00318-7](https://doi.org/10.1007/s40062-022-00318-7)&rbrack;
 
-An alternative proof of Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} is also claimed in:
+Another discussion is offered in:
+
+* {#AmabelDebrayHaine21} [[Araminta Amabel]], [[Arun Debray]], [[Peter J. Haine]] (eds.), section 5 of: _Differential Cohomology: Categories, Characteristic Classes, and Connections_, based on [Fall 2019 talks at MIT's Juvitop seminar](https://math.mit.edu/juvitop/pastseminars/2019_Fall.html) by: A. Amabel, D. Chua, A. Debray, S. Devalapurkar, D. Freed, P. Haine, M. Hopkins, G. Parker, C. Reid, and A. Zhang. &lbrack;[arXiv:2109.12250](https://arxiv.org/abs/2109.12250)&rbrack;
+
+Yet an alternative proof of Prop. \ref{SmoothShapeModelityGivenBySmoothPathInfinityGroupoid} is also claimed in:
 
 * {#Clough21} [[Adrian Clough]], Theorem B of: *A Convenient Category for Geometric Topology*, PhD thesis, UT Austin (2021) &lbrack;[pdf](https://repositories.lib.utexas.edu/bitstream/handle/2152/114981/CLOUGH-DISSERTATION-2021.pdf), [[Clough-ConvenientCategory.pdf:file]]&rbrack;
 
