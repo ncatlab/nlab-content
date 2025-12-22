@@ -22,6 +22,9 @@ Discussion of  [[perturbative quantum field theory|perturbative]] [[quantization
  
 * {#LambrechtsVolic14} [[Pascal Lambrechts]], [[Ismar Volić]], sections 6 and 7 of _Formality of the little N-disks operad_, Memoirs of the American Mathematical Society ; no. 1079, 2014  ([arXiv:0808.0457](https://arxiv.org/abs/0808.0457), [doi:10.1090/memo/1079](http://dx.doi.org/10.1090/memo/1079))
 
+* [[Pavel Mnev]], Konstantin Wernli: *Perturbative Chern-Simons invariants from non-acyclic flat connections* \[<a href="https://arxiv.org/abs/2512.17638">arXiv:2512.17638</a>\]
+
+
 Review:
 
 * [[Robbert Dijkgraaf]], _Perturbative topological field theory_, In: *Trieste 1993, Proceedings, String theory, gauge theory and quantum gravity '93* 189-227 ([spire:399223](http://inspirehep.net/record/399223/), [[DijkgraafPerturbativeCS93.pdf:file]])
