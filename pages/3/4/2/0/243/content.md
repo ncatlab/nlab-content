@@ -661,7 +661,7 @@ Textbook accounts:
 * [[Emily Riehl]], §4.1 in: *[[Categorical Homotopy Theory]]*, Cambridge University Press (2014) &lbrack;[doi:10.1017/CBO9781107261457](https://doi.org/10.1017/CBO9781107261457), [pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf)&rbrack;
 
 
-* {#Loregian21} [[Fosco Loregian]], *Coend calculus*, Cambridge University Press (2021) &lbrack;[arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657](https://doi.org/10.1017/9781108778657), ISBN:9781108778657)&rbrack;
+* {#Loregian21} [[Fosco Loregian]]: *Coend calculus*, Cambridge University Press (2021) &lbrack;[arXiv:1501.02503](http://arxiv.org/abs/1501.02503), [doi:10.1017/9781108778657](https://doi.org/10.1017/9781108778657), [ISBN:9781108778657](https://www.cambridge.org/core/books/coend-calculus/C662E90767358B336F17B606D19D8C43)&rbrack;
 
 See also:
 
