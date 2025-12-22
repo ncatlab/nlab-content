@@ -68,3 +68,5 @@ category: people
 [[!redirects Adamek]]
 [[!redirects Adámek]]
  
+[[!redirects J. Adámek]]
+[[!redirects J. Adamek]]
