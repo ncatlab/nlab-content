@@ -53,9 +53,9 @@ an [[enriched model category]] or more generally an [[enriched homotopical categ
 
 Monographs:
 
-* [[Max Kelly]], *Basic Concepts of Enriched Category Theory*, Lecture Notes in Mathematics **64**, Cambridge University Press (1982)
+* [[Max Kelly]]: *Basic Concepts of Enriched Category Theory*, Lecture Notes in Mathematics **64**, Cambridge University Press (1982) &lbrack;[ISBN:9780521287029](https://www.cambridge.org/de/universitypress/subjects/mathematics/logic-categories-and-sets/basic-concepts-enriched-category-theory?format=PB&isbn=9780521287029)&rbrack;
 
-  Republished as: Reprints in Theory and Applications of Categories **10** (2005) 1-136 &lbrack;[tac:10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
+  Republished as: Reprints in Theory and Applications of Categories **10** (2005) 1-136 &lbrack;[tac:tr10](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html), [pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)&rbrack;
 
 * [[Francis Borceux]], Vol 2, chapter 6 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
