@@ -16,4 +16,4 @@ On [[constructive empiricism]] in view of contemporary [[particle physics]] and 
 
 * [[philosophy of science]], [[philosophy of physics]]
 
-category: reference
+category: people
