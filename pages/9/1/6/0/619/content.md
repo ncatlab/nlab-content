@@ -422,7 +422,7 @@ is a reflective subcategory [Buckley, theorem 5.2.1](#Buckley). Therefore, becau
 
 * cf. the notion of $Q^\circ$-category in the entry [[Q-category]]
 
-* {#Riehl} [[Emily Riehl]], _[[Category Theory in Context]], p. 142, Courier Dover Publications 2017 ([pdf](https://emilyriehl.github.io/files/context.pdf))
+* {#Riehl} [[Emily Riehl]], p. 142 in: *[[Category Theory in Context]]*, Courier Dover Publications (2017) &lbrack;[pdf](https://emilyriehl.github.io/files/context.pdf)&rbrack;
 
 * {#Buckley} Mitchell Buckley, _Lawvere Theories, 2008 [pdf](http://web.science.mq.edu.au/~street/MitchB.pdf)
 
