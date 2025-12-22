@@ -10,12 +10,16 @@
 =--
 
 
-This page collects material related to the book
+This page is to record the reference:
 
 
-* [[Jiří Adámek]], [[Jiří Rosický]]
+* [[Jiří Adámek]], [[Jiří Rosický]]:
+
+  \linebreak
 
   **Locally Presentable and Accessible Categories**
+
+  \linebreak
 
   London Mathematical Society Lecture Note Series, number 189, 
 
