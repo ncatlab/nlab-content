@@ -52,7 +52,7 @@ but one has to decide in which category of [[infinite-dimensional manifolds]] to
 
 1. one may form the limit formally, i.e. in [[pro-manifolds]]. This is what is implicit for instance in [Anderson, p.3-5](#Anderson);
 
-1. one may form the limit in [[Fréchet manifolds]], this is farily explicit in ([Saunders 89, chapter 7](#Saunders89)). See at _[Fr&#233;chet manifold -- Projective limits of finite-dimensional manifolds](Frechet+manifold#ProjectiveLimitsOfSmoothFiniteDimensionalManifolds)_. Beware that this is not equivalent to the pro-manifold structure (see the remark [here](Frechet+manifold#DifferenceBetweenProManifoldAndFrecherManifoldStructure)). It makes sense to speak of _[[locally pro-manifolds]]_.
+1. one may form the limit in [[Fréchet manifolds]], this is fairly explicit in ([Saunders 89, chapter 7](#Saunders89)). See at _[Fr&#233;chet manifold -- Projective limits of finite-dimensional manifolds](Frechet+manifold#ProjectiveLimitsOfSmoothFiniteDimensionalManifolds)_. Beware that this is not equivalent to the pro-manifold structure (see the remark [here](Frechet+manifold#DifferenceBetweenProManifoldAndFrecherManifoldStructure)). It makes sense to speak of _[[locally pro-manifolds]]_.
 
 
 ### The Atiyah exact sequence
@@ -300,7 +300,7 @@ The algebra of smooth functions of just _locally_ finite order on the jet bundle
 
 {#DiscussionOfFrechetManifoldStructure} Discussion of the [[Fréchet manifold]] structure on infinite jet bundles includes
 
-* {#Saunders89} [[David Saunders]], chapter 7 _Infinite jet bundles_ of _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
+* {#Saunders89} [[David Saunders]]: _Infinite jet bundles_, chapter 7 of: _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press (1989) &lbrack;[doi:10.1017/CBO9780511526411](https://doi.org/10.1017/CBO9780511526411)&rbrack;
 
 * M. Bauderon, _Differential geometry and Lagrangian formalism in the calculus of variations_, in _Differential Geometry, Calculus of Variations, and their Applications_, Lecture Notes in Pure and Applied Mathematics, 100, Marcel Dekker, Inc., N.Y., 1985, pp. 67-82.
 
