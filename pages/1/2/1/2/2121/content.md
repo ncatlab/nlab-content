@@ -82,7 +82,7 @@ This makes manifest how [[diffieties]] are the analog in [[differential geometry
 
 ### General
 
-* {#Vinogradov81} [[Alexandre Vinogradov]], _Geometry of nonlinear differential equations_, Journal of Soviet Mathematics 17 (1981) 1624&#8211;1649 ([doi:10.1007/BF01084594](https://doi.org/10.1007/BF01084594))
+* {#Vinogradov81} [[Alexandre Vinogradov]]: _Geometry of nonlinear differential equations_, Journal Math Sci **17** (1981) 1624-1649 &lbrack;[doi:10.1007/BF01084594](https://doi.org/10.1007/BF01084594)&rbrack;
 
 * {#Vinogradov84} [[Alexandre Vinogradov]], _Local symmetries and conservation laws_, Acta Appl. Math., Vol. 2, 1984, p. 21 ([MR85m:58192](http://www.ams.org/mathscinet-getitem?mr=736872), [doi](http://dx.doi.org/10.1007/BF01405491))
 
