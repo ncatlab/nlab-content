@@ -48,3 +48,4 @@ On [[geometric logic]] [[internal logic|internal to]] [[Grothendieck toposes]]:
 category:people 
 
 [[!redirects Steven Vickers]] 
+[[!redirects S. Vickers]] 
