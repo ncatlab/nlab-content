@@ -31,7 +31,8 @@ On a smooth open/closed [[functorial field theory]] exhibiting the [[string]]'s 
 
 On the relation between [[functorial quantum field theory]] (axiomatizing the [[Schrödinger picture]] of [[quantum field theory]]) and [[algebraic quantum field theory]] (axiomatizing the [[Heisenberg picture]]):
 
-* {#BunkMacManusSchenkel23} [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]], *Lorentzian bordisms in algebraic quantum field theory* &lbrack;[arXiv:2308.01026](https://arxiv.org/abs/2308.01026)&rbrack;
+* {#BunkMacManusSchenkel23} [[Severin Bunk]], [[James MacManus]], [[Alexander Schenkel]], *Lorentzian bordisms in algebraic quantum field theory*, Lett Math Phys **115** (2025) 16 &lbrack;[arXiv:2308.01026](https://arxiv.org/abs/2308.01026), [doi:10.1007/s11005-025-01906-3](https://doi.org/10.1007/s11005-025-01906-3)&rbrack;
+
 
 On [[principal infinity-bundles|principal $\infty$-bundles]]:
 
