@@ -95,9 +95,14 @@ Similarly the bulk of the textbook
 
 considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
 
-Review includes:
+Review:
 
 * {#Jiang95} [[Shuhan Jiang]], *BRST cohomology*, Section 3 in: *Mathematical Structures of Cohomological Field Theories*, PhD thesis (1995) &lbrack;[urn:nbn:de:bsz:15-qucosa2-869402](https://nbn-resolving.org//urn:nbn:de:bsz:15-qucosa2-869402), [spire:2701230](https://inspirehep.net/literature/2701230), [pdf](https://inspirehep.net/files/183359de739dfbf2a8118cd6e5d44700)&rbrack;
+
+On the [[conserved current]] of the BRST operator:
+
+* [[Glenn Barnich]], Laurent Baulieu, [[Marc Henneaux]], Tom Wetzstein: *BV-BRST Noether theorem* &lbrack;[arXiv:2512.19418](https://arxiv.org/abs/2512.19418)&rbrack;
+
 
 
 The [[L-infinity algebroid|$L_\infty$-algebroid]]-structure of the [[local BRST complex]] on the [[jet bundle]] is made manifest in
@@ -135,7 +140,7 @@ With focus on the [[cochain cohomology]]:
 
 * [[José Figueroa-O'Farrill]], [[Takashi Kimura]], *The cohomology of BRST complexes* (1988) &lbrack;[pdf](https://www.maths.ed.ac.uk/~jmf/Research/PVBLICATIONS/homol.pdf), [[FigueroaKimuar-BRSTCohomology.pdf:file]]&rbrack;
 
-Discussion of the BRST complex of the [[bosonic string]]/for [[2d CFT]] includes
+Discussion of the BRST complex of the [[bosonic string]]/for [[2d CFT]]:
 
 * [[Graeme Segal]], p.114 and following of _The definition of conformal field theory_ , preprint, 1988; also in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ , London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577. ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
 
