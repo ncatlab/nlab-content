@@ -24,7 +24,7 @@ A continuous map $X \to Y$ is proper when “$X$ is compact, relative to $Y$”.
 
 ## Definitions
 
-There are three inequivalent definitions of a proper map in the literature.
+There are three inequivalent definitions of a proper map in the literature, of strictly increasing strength.
 
 The first one is the oldest definition, still found in some analysis books.
 
@@ -55,6 +55,23 @@ A continuous map $f\colon X\to Y$ of [[topological spaces]] is __proper__ if it 
 Recall that $f$ is [[separated map|separated]] if its relative diagonal $X\to X\times_Y X$ is a [[closed map]].
 
 If $Y=\{*\}$ is the terminal [[topological space]], then the first two definitions amount to saying $X$ is [[compact]], whereas the last definition makes $X$ compact and [[Hausdorff]].
+
+If $X$ is a [[Hausdorff space]], then the map $f\colon X\to Y$ is automatically separated, which makes the last two definitions equivalent.
+
+The following criterion explains the necessary and sufficient criterion on a [[topological space]] $Y$ that ensures that quasi-proper maps to $Y$ are universally closed.
+
+\begin{proposition}
+(Whyburn 1965, Palais 1969.)
+The following properties of a topological space $Y$ are equivalent:
+
+* Every quasi-proper map $X\to Y$ is a [[closed map]];
+* Every surjective quasi-proper map $X\to Y$ is a [[closed map]];
+* Every injective quasi-proper map $X\to Y$ is a [[closed map]];
+* Every compactly closed subset of $Y$ is closed.
+
+\end{proposition}
+
+If $Y$ is Hausdorff, the last condition is equivalent to $Y$ being a [[compactly generated space]].
 
 ## Definition
 
@@ -316,11 +333,15 @@ All three definitions are presented in
 
 * [[Stacks Project]], Tag 005M, <https://stacks.math.columbia.edu/tag/005M>.
 
+Equivalence of the first and second definition is explored in
+
+* [[Richard S. Palais]], _When proper maps are closed_, Proceedings of the American Mathematical Society 24:4 (1970), 835-836.  [doi](https://doi.org/10.1090/s0002-9939-1970-0254818-x).
+
 One of the early reference on proper maps is
 
 * [[Nicolas Bourbaki]], _Topologie Générale_ (Éléments de Mathématique, Livre III), Chapitres 1 à 2.  Second Edition, 1951.  Actualites Sci. Ind. 1142, Hermann, Paris.
 
-A considerable expanded treatment is given in the third edition, see Chapter I, Section 10:
+An expanded treatment is given in the third edition, see Chapter I, Section 10:
 
 * [[Nicolas Bourbaki]], _Topologie Générale_ (Éléments de Mathématique, Livre III), Chapitres 1 à 2.  Third Edition, 1961.  Actualites Sci. Ind. 1142, Hermann, Paris.
 
