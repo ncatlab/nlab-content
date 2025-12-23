@@ -265,6 +265,13 @@ By an argument similar to the previous example's, every projective object in the
 
 =--
 
++-- {: .num_example}
+###### Example
+
+In the category of [[Banach spaces]] and linear contractions, the only projective object is the zero space. If we require only lifting along regular epimorphisms, then all the $\ell^1$-spaces are projective.
+
+=--
+
 
 ## Properties
 
