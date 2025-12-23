@@ -71,6 +71,10 @@ On [[Stanley Deser]]:
 
 * [[Marc Henneaux]], Rafael I. Nepomechie, Domenico Seminara: *Preface to Fields, Gravity, Strings and Beyond: In Memory of Stanley Deser* &lbrack;[arXiv:2509.10618](https://arxiv.org/abs/2509.10618)&rbrack;
 
+On the [[conserved current]] of [[BRST operators]]:
+
+* [[Glenn Barnich]], Laurent Baulieu, [[Marc Henneaux]], Tom Wetzstein: *BV-BRST Noether theorem* &lbrack;[arXiv:2512.19418](https://arxiv.org/abs/2512.19418)&rbrack;
+
 
 ## Related entries
 
