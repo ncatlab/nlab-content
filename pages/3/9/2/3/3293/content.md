@@ -18,9 +18,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -272,15 +271,23 @@ Hence it makes sense to speak of _[[locally pro-manifolds]]_.
 
 Accounts include:
 
-* [[Richard S. Hamilton]], Section I.4 in: *The inverse function theorem of Nash and Moser*, Bull. Amer. Math. Soc. **7** (1982) 65-222 &lbrack;[doi:1982-07-01/S0273-0979-1982-15004-2](https://www.ams.org/journals/bull/1982-07-01/S0273-0979-1982-15004-2)&rbrack;
+* [[Richard S. Hamilton]], Section I.4 in: *The inverse function theorem of Nash and Moser*, Bull. Amer. Math. Soc. **7** (1982) 65-222 &lbrack;[doi:1982-07-01/S0273-0979-1982-15004-2](https://doi.org/10.1090/S0273-0979-1982-15004-2), [euclid:bams/1183549049](https://projecteuclid.org/journals/bulletin-of-the-american-mathematical-society-new-series/volume-7/issue-1/The-inverse-function-theorem-of-Nash-and-Moser/bams/1183549049.full)&rbrack;
+
+
 
 * {#Michor80} [[Peter Michor]], _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
 
-* {#KM} [[Andreas Kriegl]], [[Peter Michor]]: _The convenient setting of global analysis_, AMS (1997) ([pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf))
+* {#KM} [[Andreas Kriegl]], [[Peter Michor]]: *[[The convenient setting of global analysis]]*, Mathematical Surveys and Monographs **53** AMS (1997) &lbrack;ISBN:978-0-8218-0780-4, [ams:surv-53](https://bookstore.ams.org/surv-53), [pdf](http://www.mat.univie.ac.at/~michor/apbookh-ams.pdf)&rbrack;
  
 * V. I. Arnold,  B. A. Khesin, _Topological methods in hydrodynamics._ (Springer 1998, [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0902.76001&format=complete))
 
 * Boris Khesin, Robert Wendt, _The geometry of infinite-dimensional groups._ (Springer 2009, [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1153.22001&format=complete))
+
+* Armen Sergeev, Part I of: *Kähler Geometry of Loop Spaces*, MSJ Memoirs (2010) 1-76 &lbrack;[euclid:10.2969/msjmemoirs/02301C010](https://projecteuclid.org/ebooks/mathematical-society-of-japan-memoirs/K%C3%A4hler-Geometry-of-Loop-Spaces/Chapter/Part-I-Preliminary-concepts/10.2969/msjmemoirs/02301C010)&rbrack;
+
+See also:
+
+* Wikipedia: *[Fréchet manifold](https://en.wikipedia.org/wiki/Fr%C3%A9chet_manifold)*
 
 The embedding into [[diffeological spaces]] is due to
 
