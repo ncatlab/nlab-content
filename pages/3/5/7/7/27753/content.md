@@ -209,6 +209,12 @@ Relation to [[superconductors]]:
 
 * Taige Wang, Michael P. Zaletel: *Chiral superconductivity near a fractional Chern insulator* &lbrack;[arXiv:2507.07921](https://arxiv.org/abs/2507.07921)&rbrack;
 
+On [[anyons]] in FQAH systems:
+
+* Zhengyan Darius Shi, T. Senthil: *Anyon delocalization transitions out of a disordered FQAH insulator*, PNAS **122**  51 (2025) e2520608122
+ &lbrack;[arXiv:2506.02128](https://arxiv.org/abs/2506.02128), [doi:10.1073/pnas.2520608122](https://doi.org/10.1073/pnas.2520608122)&rbrack;
+
+
 
 
 
