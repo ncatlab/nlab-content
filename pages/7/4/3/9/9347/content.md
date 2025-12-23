@@ -1,5 +1,5 @@
 
-This entry provides links for the book
+This page is to record the reference:
 
 * [[Andreas Kriegl]], [[Peter Michor]]:
 
