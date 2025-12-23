@@ -19,6 +19,11 @@ On [[discrete light cone quantization]]:
 
 * [[Glenn Barnich]], Sucheta Majumdar, [[Simone Speziale]], Wen-Di Tan, *Lessons from discrete light-cone quantization for physics at null infinity: Bosons in two dimensions* &lbrack;[arXiv:2401.14873](https://arxiv.org/abs/2401.14873)&rbrack;
 
+On the [[conserved current]] of [[BRST operators]]:
+
+* [[Glenn Barnich]], Laurent Baulieu, [[Marc Henneaux]], Tom Wetzstein: *BV-BRST Noether theorem* &lbrack;[arXiv:2512.19418](https://arxiv.org/abs/2512.19418)&rbrack;
+
+
 ## Related entries
 
 * [[local BRST cohomology]]
