@@ -199,7 +199,7 @@ This is the way that quantum mechanical time evolution is traditionally introduc
 
 But the equivalent formulation above in terms of locality of $U(-,-)$ is noteworthy. The condition of locality here is precisely what in [[mathematics]] is called _[[functor|functoriality]]_: the condition that a system of [[homomorphisms]] (here: linear/unitary operator) depends on another system of "directed data" (here: the time intervals $[t_1,t_2]$) such that [[composition]] is respected.
 
-More specifically, one says that the collection [[Vect]] (or [[Hilb]]) of [[vector spaces]] ([[Hilbert spaces]]) forms a _[[category]]_ whose _[[objects]]_ are vector space $V$ and whose _[[morphisms]]_ are linear maps $f \colon V_1 \to V_2$; where the point is that these morphisms may be [[associativity|associatively]] composed whenever their [[codomain]]/[[domain]] matches:
+More specifically, one says that the collection [[Vect]] (or [[Hilb]]) of [[vector spaces]] ([[Hilbert spaces]]) forms a _[[category]]_ whose _[[objects]]_ are vector spaces $V$ and whose _[[morphisms]]_ are linear maps $f \colon V_1 \to V_2$; where the point is that these morphisms may be [[associativity|associatively]] composed whenever their [[codomain]]/[[domain]] matches:
 
 $$
   \array{
