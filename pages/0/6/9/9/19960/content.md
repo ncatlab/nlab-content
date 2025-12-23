@@ -883,6 +883,11 @@ On the other hand, an embedding of the hard-wall model into [[type IIB string th
 
 * Saulo Diles, *On the spectrum of open strings in the Hard-Wall model of AdS/QCD: the role of $S^5$* &lbrack;[arXiv:2404.10183](https://arxiv.org/abs/2404.10183)&rbrack;
 
+On comparing the hard wall model to experiment:
+
+* Adi Armoni, Bartosz Pyszkowski, Dorin Weissman: High-Energy Pion Scattering in Holographic QCD: A Comparison with Experimental Data* &lbrack;[arXiv:2512.18274](https://arxiv.org/abs/2512.18274)&rbrack;
+
+
 
 
 ##### Holographic light-front QCD
