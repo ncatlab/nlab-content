@@ -22,8 +22,8 @@ Similarly a *hyperbologic tesselation* is such a tiling of the [[hyperbolic plan
 For example the hyperbolic tesselation $\{5,4\}$ by [[pentagons]]:
 
 <center>
-<a href="https://mathstat.slu.edu/escher/index.php/File:Hyp-tess-5-4.png">
-<img src="https://mathstat.slu.edu/escher/images/b/b5/Hyp-tess-5-4.png" width="300">
+<a href="https://eschermath.org/mediawiki/upload/b/b5/Hyp-tess-5-4.png">
+<img src="https://eschermath.org/mediawiki/upload/b/b5/Hyp-tess-5-4.png" width="300">
 </a>
 </center>
 
@@ -32,8 +32,8 @@ In discussion of [[holographic entanglement entropy]] and [[quantum error correc
 Or the hyperbolic tesselation $\{4,6\}$ by [[squares]]:
 
 <center>
-<a href="https://mathstat.slu.edu/escher/index.php/File:Hyp-tess-4-6.png">
-<img src="https://mathstat.slu.edu/escher/images/a/a4/Hyp-tess-4-6.png" width="300">
+<a href="hhttps://eschermath.org/mediawiki/upload/a/a4/Hyp-tess-4-6.png">
+<img src="https://eschermath.org/mediawiki/upload/a/a4/Hyp-tess-4-6.png" width="300">
 </a>
 </center>
 
