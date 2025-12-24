@@ -1,5 +1,5 @@
 
-* [personal page](http://www.jonathanacampbell.com/)
+* [personal page](https://jonalfcam.github.io/)
 
 
 ## Selected writings
