@@ -14,7 +14,7 @@
 
 ## Idea
 
-The idea of a symmetric midpoint algebra comes from [[Peter Freyd]]. 
+A symmetric midpoint algebra is an abstract treatment of the operation $a \vert b \coloneqq \frac{a + b}{2}$, which finds the midpoint between $a$ and $b$, including the ideas that the midpoint is independent of the order of $a$ and $b$. 
 
 ## Definition
 
@@ -49,6 +49,8 @@ The [[trivial group]] with $a \vert b = a \cdot b$, $\odot = 1$ and $a^{\bullet}
 * [[dyadic rational algebra]]
 
 ## References
+
+* [[Marshall Stone|Marshall H Stone]], _Postulates for the barycentric calculus_, Ann. Mat. Pura. Appl. (4), 29:25&#8211;30, 1949.
 
 * [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
