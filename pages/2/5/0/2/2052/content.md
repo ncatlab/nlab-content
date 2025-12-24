@@ -34,6 +34,8 @@ Nowadays combinatorial group theory uses fruitful connections to [[topology]] an
 
 * [[Cayley graph]]
 
+* [[Baumslag-Solitar group]]
+
 
 
 ## References
