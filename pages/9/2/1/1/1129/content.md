@@ -366,7 +366,7 @@ One can check that $F$ is [[flabby sheaf|flabby]] (this is particularly easy usi
 The analogs of Proposition \ref{EquivalenceOfInternalNotionsOfInjectivity} and Proposition \ref{EquivalenceOfInternalAndExternalInjectivity} for abelian group objects instead of unstructured objects hold as well, with mostly the same proofs. Condition 1. then refers to the functor $[-, X] : Ab(\mathcal{E})^op \to Ab(\mathcal{E})$.
 
 =--
-### In topological spaces 
+### Topological spaces 
 
 In the category [[Top]] of all topological spaces, the injective objects are precisely the [[inhabited set|inhabited]] [[indiscrete spaces]]. 
 
@@ -378,20 +378,23 @@ In the category of $T_0$ spaces, the injective objects with respect to homeomorp
 
 In the category of all spaces, the injectives with respect to homeomorphic embeddings (i.e., [[regular monomorphisms]]) are the spaces whose $T_0$ reflections are continuous lattices under the Scott topology.
 
-### In Boolean algebras 
+### Boolean algebras 
 
 Injective objects in the category of [[Boolean algebras]] are precisely the [[complete Boolean algebras]]. This is the dual form of a theorem of Gleason, saying that the [[projective objects]] in the category of [[Stone spaces]] are the [[extremally disconnected topological space|extremally disconnected]] ones (the closure of every open set is again open). 
 
-### In posets
+### Posets
 
 In the category of [[posets]] and order-preserving functions, the singleton is the only poset which satisfies the extension property along all monomorphisms. However, if we require injectives to satisfy the extension property only with respect to [[regular monomorphisms]], then the injective objects are precisely the [[complete lattices]]. Indeed, if $I$ is an injective poset and $A \subseteq I$, then we can freely adjoin a supremum of $A$ to $I$ to get a new poset $J$, and the inclusion $I \hookrightarrow J$ has a retraction $f : J \to I$. It can easily be checked that $f$ maps the supremum of $A$ in $J$ to a supremum of $A$ in $I$. Conversely, let $I$ be a complete lattice and let $f : I \to J$ be a regular monomorphism. Assuming without loss of generality that $I \subseteq J$ and $f$ is the inclusion, regularity means that the order on $I$ is the order inherited from $J$. To define a retraction of $f$, for each $j\in J$, set $g(j) = \sup \{i \in I : i \leq j\}$. This shows that every regular monomorphism out of $I$ is a [[split monomorphism]]. It follows from Proposition \ref{InjectivesCharacterisedBySplitting} that $I$ is injective with respect to the regular monomorphisms.
 
-### In Banach spaces
+### Banach spaces
 
 In the category of [[Banach spaces]] and contractive linear maps, the only injective object with respect to all monomorphisms is the zero space. Indeed, suppose $I$ is injective and let $B$ be any non-zero Banach space. Choose any non-zero $x$ in the unit ball of $B$, and let $y$ be in the unit ball of $I$. Define linear maps $m$ and $f$ from the complex numbers to $B$ and $I$ respectively by setting $m(1) = x$ and $f(1) = y$. These are morphisms in this category, and $m$ is a monomorphism. By the injectivity of $I$, there exists a morphism $g: B \to I$ which extends $f$ along $m$, i.e., $g(x) = y$. Since $g$ is contractive, we have $\|y\| \leq \|x\|$. But $\|x\|$ can be chosen to be arbitrarily small, so $\|y\|=0$. Hence $I$ is the zero space.
 
 If we require the extension property along _regular_ monomorphisms only, then the injective objects are the Banach spaces of the form $(C(K), \|\cdot\|_\infty)$ for extremally disconnected compact Hausdorff spaces $K$.
 
+### Graphs
+
+In the category of [[graphs]] (directed, allowing loops and multiple edges between pairs of vertices), a graph $G$ is injective if and only if, for all $x$ and $y$ in $G$, there is at least one edge going from $x$ to $y$ and at least one going from $y$ to $x$. (All monomorphisms in this category are regular.)
 
 ## Properties
 
