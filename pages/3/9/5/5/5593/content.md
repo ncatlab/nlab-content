@@ -93,16 +93,17 @@ that are refined by some $U_{E_i}$.
 
 ### From covering uniformities to entourage uniformities
 
-Given an open cover $U$, we construct an entourage $E_U$
-by setting $$E_U=\bigvee_{x\in U}x\times x.$$
+Given an open cover $U$, we construct an entourage $E_U$ by setting
+$$E_U=\bigvee_{x\in U}x\times x.$$
 
-Given a covering uniformity $\{U^i\}_i$, we construct an entourage uniformity
-out of it by taking all entourages $E$ that contain some $E_{U^i}$.
+Given a covering uniformity $\{U^i\}_i$, we construct an entourage uniformity out of it by taking all entourages $E$ that contain some $E_{U^i}$.
 
 ### Equivalence between covering uniformities and entourage uniformities
 
-Theorem XII.3.3.4 in [Picado and Pultr](#PP) shows that the above correspondence is bijective.  Furthermore, the categories of entourage uniform locales
-and covering uniform locales are equivalent (Corollary XII.3.4.3 in the cited book).  However, since their book uses [[classical logic]] throughout, it is not entirely clear whether the same equivalence holds constructively.
+Theorem XII.3.3.4 in [Picado and Pultr](#PP) shows that the above correspondence is bijective.  Furthermore, the categories of entourage uniform locales and covering uniform locales are equivalent (Corollary XII.3.4.3 in the cited book).
+Their book uses [[classical logic]] throughout.
+
+A constructive account is found in [Manuell](#Manuell).
 
 ## Properties
 
@@ -117,8 +118,7 @@ Uniformities are closed under unions,
 so any [[completely regular]] [[locale]] admits a largest uniformity,
 the __fine uniformity__.
 
-The fine uniformity consists of all [[normal covers]] (alias [[numerable covers]]),
-where a cover $U$ is __normal__
+The fine uniformity consists of all normal covers (alias [[numerable covers]]), where a cover $U$ is __normal__
 if there is a sequence of covers $\{U_n\}_{n\ge0}$
 such that $U=U_0$ and $U_{n+1}U_{n+1}$ refines $U_n$.
 
@@ -189,11 +189,11 @@ The following paper developes covering uniformities constructively, and includes
 
 These ideas are developed further in
 
-* Graham Manuell, _Uniform locales and their constructive aspects_, [arxiv:2106.00678](https://arxiv.org/abs/2106.00678), [TAC](http://www.tac.mta.ca/tac/volumes/41/8/41-08abs.html) 41:8, 2024
+* {#Manuell} Graham Manuell, _Uniform locales and their constructive aspects_, [arxiv:2106.00678](https://arxiv.org/abs/2106.00678), [TAC](http://www.tac.mta.ca/tac/volumes/41/8/41-08abs.html) 41:8, 2024
 
 A constructive and predicative theory in the programme of [[formal topology]] can be found here:
 
-* [[Giovanni Curi]], *On the collection of points of a formal space*, Annals of Pure and Applied Logic* **137** 1-3 (2006)  126-146 $[$[doi:10.1016/j.apal.2005.05.019](https://doi.org/10.1016/j.apal.2005.05.019)$]$
+* [[Giovanni Curi]], *On the collection of points of a formal space*, Annals of Pure and Applied Logic 137:1-3 (2006), 126-146 $[$[doi:10.1016/j.apal.2005.05.019](https://doi.org/10.1016/j.apal.2005.05.019)$]$
 
 * [[Giovanni Curi]]; Constructive metrisability in point-free topology; Theoretical Computer Science 305 (2003) 1--3, 85--109.
 
