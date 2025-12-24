@@ -29,7 +29,7 @@ There are three inequivalent definitions of a proper map in the literature, of s
 The first one is the oldest definition, still found in some analysis books.
 
 \begin{definition}
-A continuous map $f\colon X\to Y$ of [[topological spaces]] is __proper__ (or __quasi-proper__) if for every [[compact]] subset $K\subset Y$, the preimage $f^{-1}K$ is a compact subset of $X$.
+A continuous map $f\colon X\to Y$ of [[topological spaces]] is __proper__ if it is __quasi-proper__: for every [[compact]] subset $K\subset Y$, the preimage $f^{-1}K$ is a compact subset of $X$.
 \end{definition}
 
 The second definition was introduced by [[Bourbaki]] to make proper maps closed under [[base changes]].
@@ -337,3 +337,11 @@ where it is attributed to this "preliminary" (and apparently unpublished) accoun
 
 [[!redirects proper continuous function]]
 [[!redirects proper continuous functions]]
+
+[[!redirects quasi-proper map]]
+[[!redirects quasiproper map]]
+[[!redirects quasi-proper maps]]
+[[!redirects quasiproper maps]]
+
+[[!redirects universally closed map]]
+[[!redirects universally closed maps]]
