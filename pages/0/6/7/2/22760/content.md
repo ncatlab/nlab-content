@@ -50,6 +50,8 @@ The [[trivial group]] with $a \vert b = a \cdot b$ is a midpoint algebra.
 
 * [[Marshall Stone|Marshall H Stone]], _Postulates for the barycentric calculus_, Ann. Mat. Pura. Appl. (4), 29:25&#8211;30, 1949.
 
+* Reinhold Heckmann. _Probabilistic domains._ In: Trees in Algebra and Programming — CAAP'94. Lecture Notes in Computer Science, vol 787. Springer, 1994. [doi:10.1007/BFb0017479](https://doi.org/10.1007/BFb0017479)
+
 * [[Peter Freyd]], *Algebraic real analysis*, Theory and Applications of Categories, Vol. 20, 2008, No. 10, pp 215-306 ([tac:20-10](http://www.tac.mta.ca/tac/volumes/20/10/20-10abs.html))
 
 * [[Martín Escardó]] and [[Alex Simpson]], *A universal characterization of the closed Euclidean interval.* In 16th Annual IEEE Symposium on Logic in Computer Science, Boston, Massachusetts, USA, June 16-19, 2001, Proceedings, pages 115–125. IEEE Computer Society, 2001. ([doi:10.1109/LICS.2001.932488](https://doi.org/10.1109/LICS.2001.932488), [pdf](http://www.cs.bham.ac.uk/~mhe/papers/interval.pdf))
