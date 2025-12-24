@@ -73,9 +73,9 @@ The following properties of a topological space $Y$ are equivalent:
 
 If $Y$ is Hausdorff, the last condition is equivalent to $Y$ being a [[compactly generated space]].
 
-## Definition
+## Equivalent definitions of universally closed maps
 
-Just like there are various equivalent ways of characterizing [[compact topological spaces]], there are also various equivalent ways of characterizing proper functions.
+Just like there are various equivalent ways of characterizing [[compact topological spaces]], there are also various equivalent ways of characterizing universally closed maps.
 
 In the following we discuss:
 
@@ -99,11 +99,11 @@ A generalisation of this characterisation to a [[continuous map]] $f \colon X \t
 \begin{definition}
 \label{PropernessViaNets}
 
-A [[continuous map]] $f \,\colon\, X \to Y$ is *proper* iff for every [[net]] $x_\bullet$ in $X$ and for every [[cluster point]] $y$ of $f(x_\bullet)$ in $Y$, the net $x_\bullet$ has a [[cluster point]] $x \in X$ with $f(x) = y$.
+A [[continuous map]] $f \,\colon\, X \to Y$ is *universally closed* if and only if for every [[net]] $x_\bullet$ in $X$ and for every [[cluster point]] $y$ of $f(x_\bullet)$ in $Y$, the net $x_\bullet$ has a [[cluster point]] $x \in X$ with $f(x) = y$.
 
 Equivalently:
 
-Such $f$ is proper iff for every net $x_\bullet \in X$ and every $y \in Y$, if $f(x_\bullet)$ [[convergence of a net|converges]] to $y$ then $x_\bullet$ admits a subnet [[convergence of a net|converging]] to $x \in X$ with $f(x) = y$.
+Such $f$ is universally closed if and only if for every net $x_\bullet \in X$ and every $y \in Y$, if $f(x_\bullet)$ [[convergence of a net|converges]] to $y$ then $x_\bullet$ admits a subnet [[convergence of a net|converging]] to $x \in X$ with $f(x) = y$.
 
 \end{definition}
 
@@ -115,57 +115,39 @@ Recall that, equivalently, a [[topological space]] $X$ is [[compact topological 
 \begin{definition}
 \label{PropernessViaClosedSets}
 
-A [[continuous map]]  $f \,\colon\, X \to Y$  is *proper* iff
+A [[continuous map]]  $f \colon X \to Y$  is *universally closed* if and only if
 
 1. $f$ is closed;
 
 1. for every cofiltered set of closed subsets $\{F_i\}_{i \in I}$ of $X$, one has
-
-$$
-  f(\cap_{i \in I} F_i) = \cap_{i \in I}f(F_i)
-$$
+$$f(\cap_{i \in I} F_i) = \cap_{i \in I}f(F_i)$$
 
 \end{definition}
 
 ### Via closedness
  {#UsingClosedness}
 
-
 Recall that, equivalently, a [[topological space]] $X$ is [[compact topological space|compact]] if and only if the [[projection map]] 
-
-$$
-  X \times Z \longrightarrow Z
-$$
-
+$$X \times Z \longrightarrow Z$$
 out of the [[product topological space]] with some $Z$
 is a [[closed map]], for every [[topological space]] $Z$.
 
 \begin{definition}
 \label{PropernessViaClosedness}
-
-A [[continuous map]]  $f \,\colon\, X \to Y$  is *proper* iff its image under the [[Cartesian product]]-[[functor]]
-
-$$ 
-  f \times \mathrm{Id}_Z 
-   \;\colon\; 
-  X \times Z 
-   \;\longrightarrow\; 
-  Y \times Z
-$$
-
+A [[continuous map]]  $f \colon X \to Y$  is *universally closed* if and only if its image under the [[Cartesian product]]-[[functor]]
+$$f \times \mathrm{Id}_Z \colon X \times Z \longrightarrow Y \times Z$$
 is a [[closed map]] for every [[topological space]] $Z$.
-
 \end{definition}
 
 ### As a continuous family of compact spaces
  {#AsAContinousFamilyOfCompactSpaces}
 
-With every function $f \colon X \to Y$, the space $X$ can be described as the union of the fibres $f^{-1}(y)$ with $y \in Y$. The map $f$ is proper when each fibre is compact and the family is continuous in the sense that: for every net $y_\bullet$ converging to $y \in Y$, we ask that the net of sets $f^{-1}(y_\bullet)$ converges to $f^{-1}(y)$. This is equivalent to ask that $f$ be closed.
+With every function $f \colon X \to Y$, the space $X$ can be described as the union of the fibres $f^{-1}(y)$ with $y \in Y$. The map $f$ is proper when each fibre is compact and the family is continuous in the sense that: for every net $y_\bullet$ converging to $y \in Y$, we ask that the net of sets $f^{-1}(y_\bullet)$ converges to $f^{-1}(y)$. This is equivalent to asking that $f$ be closed.
 
 \begin{definition}
 \label{PropernessAsAContinuousFamilyOfCompactFibres}
 
-A [[continuous map]]  $f \,\colon\, X \to Y$  is *proper* if:
+A [[continuous map]]  $f \colon X \to Y$  is *universally closed* if:
 
 1. $f^{-1}(\{y\})$ is compact for every $y \in Y$;
 
@@ -188,31 +170,24 @@ Given a [[continuous map]] $f \colon X \to Y$, the following properties are all 
 
 1. (Def. \ref{PropernessViaClosedSets}) 
 
-   $f$ is a [[closed map]] and for every cofiltered family $\{F_i\}_{i \in I}$ of
+   The map $f$ is a [[closed map]] and for every cofiltered family $\{F_i\}_{i \in I}$ of
 closed subsets of $X$, one has $f(\cap_{i \in I} F_i) = \cap_{i \in I}f(F_i)$;
 
 1. (Def. \ref{PropernessViaClosedness}) 
 
    The image $f \times \mathrm{Id}_Z \,\colon\, X \times Z \to Y \times Z$ under the [[Cartesian product]]-[[functor]] is a [[closed map]] for every topological space $Z$;
 
-
 1. ([[universally closed morphism|universally closed]]) 
    
    For every [[continuous map]] $g \colon Z \to Y$, the resulting [[pullback]] map
-
-   \[
-      g^\ast(f) 
-        \;\colon\; 
-      X \times_Y Z \to Z
-   \]
-
-   is a [[closed map]];
+\[ g^\ast(f)\colon X \times_Y Z \to Z \]
+is a [[closed map]];
 
 1. (Def. \ref{PropernessAsAContinuousFamilyOfCompactFibres})
 
-   $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}\big(\{y\}\big)$ of every $y \in Y$ is [[compact topological space|compact]];
+   The map $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}\big(\{y\}\big)$ of every $y \in Y$ is [[compact topological space|compact]];
 
-1. $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}(K)$ of every [[compact subspace]] $K \subset Y$ is [[compact topological space|compact]].
+1. The map $f$ is a [[closed map]] and the [[inverse image]] $f^{-1}(K)$ of every [[compact subspace]] $K \subset Y$ is [[compact topological space|compact]].
 
 \end{proposition}
 
@@ -223,10 +198,8 @@ closed subsets of $X$, one has $f(\cap_{i \in I} F_i) = \cap_{i \in I}f(F_i)$;
 **([[proper maps]])**
 \linebreak
 A [[continuous function]] $f  \colon X \to Y$
-is called _[[proper map|proper]]_ if it satisfies one of the equivalent properties listed in Prop. \ref{EquivalenceOfCharacterization}.
-
+is called _[[proper map|universally closed]]_ if it satisfies one of the equivalent properties listed in Prop. \ref{EquivalenceOfCharacterization}.
 \end{definition}
-
 
 \begin{remark} 
 **(Ambiguous terminology)**
@@ -235,14 +208,14 @@ The notion of compact space is subject to naming ambiguity. For the same notion,
 
 For _properness_ the situation is _worse_ as there are three competing definitions. We have defined the one similar to _quasi-compact_ spaces.
 
-In addition one could require $f$ to be [[separated map|separated]], that is to require that if a net $x_\bullet$ converges to both $x_1$ and $x_2$ with $f(x_1) = f(x_2)$, then $x_1 = x_2$. This definition of properness resembles the one used in algebraic geometry: see [[ proper morphism ]]. It is also the one to be used in the proper base change theorem.
+In addition one could require $f$ to be [[separated map|separated]], that is to require that if a net $x_\bullet$ converges to both $x_1$ and $x_2$ with $f(x_1) = f(x_2)$, then $x_1 = x_2$. This definition of properness resembles the one used in algebraic geometry: see [[proper morphism]]. It is also the one to be used in the [[proper base change theorem]].
 
-Finally, some authors use a weaker version of properness, where $f \colon X \to Y$ is proper when $f^{-1}(K)$ is compact for every compact $K \subset Y$. But as explained below, this definition is usually used in situations where these maps are always closed.
+Finally, some authors use a weaker version of properness (defined above as quasi-properness), where $f \colon X \to Y$ is quasi-proper when $f^{-1}(K)$ is compact for every compact $K \subset Y$. But as explained below, this definition is usually used in situations where such maps are closed.
 \end{remark} 
 
 ## Further criteria
 
-A continuous map $f \colon X \to Y$ such that $f^{-1}(K)$ is compact for every compact $K \subset Y$ may not be closed; even when both $X$ and $Y$ are very nice spaces like $\mathbf{T}_5$ spaces.
+A quasi-proper map, i.e., a continuous map $f \colon X \to Y$ such that $f^{-1}(K)$ is compact for every compact $K \subset Y$ may not be closed; even when both $X$ and $Y$ are very nice spaces like $\mathbf{T}_5$ spaces.
 
 \begin{example}
 Let $X$ be an uncountable set and let $p \in X$. Let's still write $X$ for the discrete topological space associated to it. Let $X_p$ denote the topological space whose underlying set is $X$ but whose opens sets are either all the sets not containing $p$ or the sets containing $p$ with countable complement in $X$.
@@ -250,7 +223,7 @@ Let $X$ be an uncountable set and let $p \in X$. Let's still write $X$ for the d
 Then $X_p$ is a $\mathbf{T}_5$ topological space and its compact subsets are all finite.
 But the identity map
 $$ X \longrightarrow X_p$$
- is not closed.
+is not closed.
 \end{example}
 
 However this is very often the case in practice: for example when $Y$ is a metric space or a locally compact separated space.
@@ -260,9 +233,9 @@ Let $f \colon X \to Y$ be a continuous map such that
 
 1. $f^{-1}(K)$ is compact for every compact $K \subset Y$;
 
-1. $Y$ is a [[ compactly generated topological space | $k$-space ]]
+1. $Y$ is a [[compactly generated topological space | $k$-space]]
 
-then $f$ is closed and thus proper.
+then $f$ is closed and thus universally closed.
 \end{proposition}
 
 Also,
@@ -277,40 +250,38 @@ Let $f \colon X \longrightarrow Y$ be a [[continuous function]] between [[topolo
 
 1. $Y$ is [[Hausdorff topological space | separated]],
 
-then $f$ is proper.
+then $f$ is universally closed.
 
 =--
 
 ## Properties
 
 
-Proper maps enjoy analogous properties as [[compact topological spaces]] do, for example the product of proper maps is again proper:
+Proper maps enjoy analogous properties as [[compact topological spaces]] do, for example the product of proper maps (with or without the separation condition) is again proper:
 
 \begin{theorem}
-Let $\{f_i \colon X_i \to Y_i\}_{i \in I}$ be a small [[indexed family]] of continuous proper maps (Def. \ref{ProperContinuous}), then their [[functor|functorial]] [[product topological space|product]]
-
-$$
-  \prod_{i \in I} \,f_i 
-    \;\colon\; 
-  \prod_{i \in I} \, X_i 
-  \longrightarrow 
-  \prod_{i \in I} Y_i
-$$
-is also a proper map.
+Let $\{f_i \colon X_i \to Y_i\}_{i \in I}$ be a small [[indexed family]] of universally closed maps (Def. \ref{ProperContinuous}), then their [[functor|functorial]] [[product topological space|product]]
+$$\prod_{i \in I} f_i \colon \prod_{i \in I} X_i \longrightarrow \prod_{i \in I} Y_i$$
+is also a universally closed map.  If the maps $f_i$ are [[separated maps]], then so is their product.
 \end{theorem}
 
 Further properties:
 
 * [[proper maps to locally compact spaces are closed]]
 
-
 ## Comparison with proper maps of locales
 
-\begin{proposition}
-Every proper map $f\,:\, X \to Y$ between two topological spaces induces a
-proper map $\mathrm{Loc}(f)\,:\, \mathrm{Loc}(X) \to \mathrm{Loc}(Y)$ between the associated locales.
+\begin{definition}
+A morphism $f\colon X\to Y$ of [[locales]] is __universally closed__ if every [[base change]] of $f$ is a [[closed map]] of [[locales]], __separated__ if the relative diagonal $X\to X\times_Y X$ is a [[closed map]] of locales, and __proper__ if it is universally closed and separated.
+\end{definition}
 
-Conversely, if $\mathrm{Loc}(f)\,:\, \mathrm{Loc}(X) \to \mathrm{Loc}(Y)$ is proper and $Y$ is a $\mathrm{T}_\mathrm{D}$-space, then $f\,:\, X \to Y$ is proper.
+These three notions can also be defined categorically by considering $f$ as an object in the category $Loc/Y$ and recalling that the latter category is equvialent to the category of [[locales]] in the [[topos]] of sheaves of sets on $Y$.  Then $f$ satisfies these properties if the corresponding internal locale is [[compact]], [[separated]] (meaning the diagonal map is a [[closed map]] of [[locales]]), or [[compact]] and [[separated]], respectively.
+
+\begin{proposition}
+Every proper map $f\colon X \to Y$ between two topological spaces induces a
+proper map $\mathrm{Loc}(f)\colon \mathrm{Loc}(X) \to \mathrm{Loc}(Y)$ between the associated locales.
+
+Conversely, if $\mathrm{Loc}(f)\colon \mathrm{Loc}(X) \to \mathrm{Loc}(Y)$ is proper and $Y$ is a $\mathrm{T}_\mathrm{D}$-space, then $f\,:\, X \to Y$ is proper.
 \end{proposition}
 
 ## Related concepts
