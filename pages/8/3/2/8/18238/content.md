@@ -85,7 +85,7 @@ Let
 
 Then:
 
-If $f$ is a [[proper map]], then it is a [[closed map]].
+If $f$ is a [[quasi-proper map]], then it is a [[closed map]].
 
 =--
 
