@@ -31,3 +31,6 @@ The point-set formulation of separated maps implies that every fiber of a separa
 ## References
 
 * [[Stacks Project]], Tag 0CY0, <https://stacks.math.columbia.edu/tag/0CY0>.
+
+[[!redirects separated maps]]
+[[!redirects separated]]
