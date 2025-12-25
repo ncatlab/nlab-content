@@ -164,7 +164,7 @@ With the canonical projection $\widetilde\mathcal{B}\rightarrow\mathcal{B}$, the
 
 For the [[Seiberg-Witten invariant]], which is in particular [[Chern number]], the necessary amount of [[cup products]] of the [[Chern class]] with itself is evaluated with the [[fundamental class]] of the [[moduli space]] in the [[Kronecker pairing]]. Since the [[Chern class]] has even degree, the [[moduli space]] must have even dimension for this to work and it furthermore has to be known precisely for the amount of [[cup products]]. First relating it to the [[index]] of the [[Dirac operator]] and then applying the [[Atiyah-Singer index theorem]] yields formulas containing the [[Euler characteristic]] and the [[signature]]:
 
-Let $M$ be [[simply connected]]. If $ind(D_A^+)\gt 0$ for $b_+(M)=0$ or $b_+(M)\gt 0$, then $\mathcal{M}_\eta$ is an [[oriented]] [[smooth manifold]] with dimension: ([Nicolaescu 2000, Lem. 2.2.10](#Nicolaescu00), [Kronheimer & Mrowka 2007, Thrm 1.4.4.](#KronheimerMrowka07), [Moore 2010, Transversality Theorem 2 on p. 91](#Moore10), [Naber 11, p. 394](#Naber11)) 
+Let $M$ be [[simply connected]]. If $ind(D_A^+)\gt 0$ for $b_+(M)=0$ or $b_+(M)\gt 0$, then $\mathcal{M}_\eta$ is an [[oriented]] [[smooth manifold]] with dimension: ([Gompf & Stipsicz 99, Thrm. 2.4.24](#GompfStipsicz99), [Nicolaescu 2000, Lem. 2.2.10](#Nicolaescu00), [Kronheimer & Mrowka 2007, Thrm 1.4.4.](#KronheimerMrowka07), [Moore 2010, Transversality Theorem 2 on p. 91](#Moore10), [Naber 11, p. 394](#Naber11)) 
 $$
 dim\mathcal{M}_\eta
 =2 ind(D_A^+)
@@ -181,7 +181,7 @@ dim\widetilde\mathcal{M}_\eta
 -b_+(M)
 =\frac{1}{4}(c_1^2(\mathfrak{s})[M]-2\chi(M)-3\sigma(M))+1.
 $$
-(Some literature uses the convention $L^2=\det(W^\pm)$ since it is indeed the square of a line bundle, which makes the above formula not include a factor in front of the [[Chern class]].) Hence for $b_+(M)$ even, $dim\mathcal{M}_\eta$ is also even and the [[Seiberg-Witten invariants]], which are independent of the [[Riemannian metric]] $g$ and the perturbation $\eta$ [Kronheimer & Mrowka 2007, Thrm 1.5.2.](#KronheimerMrowka07)  as argued above for the latter, can then be defined as: ([Donaldson 1996, Eq. (6)](#Donaldson96), [Nicolaescu 2000, p. 113](#Nicolaescu00), [Kronheimer & Mrowka 2007, Def. 1.5.3. & 1.5.4.](#KronheimerMrowka07))
+(Some literature uses the convention $L^2=\det(W^\pm)$ since it is indeed the square of a line bundle, which makes the above formula not include a factor in front of the [[Chern class]].) Hence for $b_+(M)$ even, $dim\mathcal{M}_\eta$ is also even and the [[Seiberg-Witten invariants]], which are independent of the [[Riemannian metric]] $g$ and the perturbation $\eta$ [Kronheimer & Mrowka 2007, Thrm 1.5.2.](#KronheimerMrowka07)  as argued above for the latter, can then be defined as: ([Donaldson 1996, Eq. (6)](#Donaldson96), [Gompf & Stipcisz 99, Def. 2.4.2](#GompfStipcisz99), [Nicolaescu 2000, p. 113](#Nicolaescu00), [Kronheimer & Mrowka 2007, Def. 1.5.3. & 1.5.4.](#KronheimerMrowka07))
 $$
 SW(M,\mathfrak{s})
 \coloneqq\langle c_1(\mathcal{M}_\eta)^{\frac{dim\widetilde\mathcal{M}_\eta}{2}},[\widetilde\mathcal{M}_\eta]\rangle.
@@ -194,6 +194,8 @@ $$
 ## References
 
 * {#Donaldson96} [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ (1996), _Bulletin of the American Mathematical Society, *33* (1): 45–70, &lbrack;[doi:10.1090/S0273-0979-96-00625-8](https://doi.org/10.1090%2FS0273-0979-96-00625-8)&rbrack;
+
+* {#GompfStipsicz99} [[Robert Gompf]], [[András Stipsicz]]: _4-Manifolds and Kirby Calculus_, Graduate Studies in Mathematics **20**, AMS (1999) &lbrack;[ISBN:978-0-8218-0994-5](https://www.ams.org/books/gsm/020), [doi:10.1090/gsm/020](https://www.ams.org/books/gsm/020)&rbrack;
 
 * {#Nicolaescu00} [[Liviu Nicolaescu]], _Notes on Seiberg-Witten Theory_ (2000), &lbrack;[pdf](https://www3.nd.edu/~lnicolae/swnotes.pdf)&rbrack;
 
