@@ -270,10 +270,9 @@ Exposition of [[variational calculus]] in terms of jet bundles and [[Lepage form
 
 Lecture notes and textbook accounts:
 
+* {#Michor80} [[Peter Michor]]: *Jet Bundles*, §1 in: *Manifolds of differentiable mappings*, Shiva Publishing (1980) &lbrack;[pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)&rbrack;
 
-* {#Michor80} [[Peter Michor]], _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
-
-* {#Saunders89} [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
+* {#Saunders89} [[David Saunders]]: _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press (1989) &lbrack;[doi:10.1017/CBO9780511526411](https://doi.org/10.1017/CBO9780511526411)&rbrack;
 
 * [[Demeter Krupka]], [[Josef Janyška]], Part 1 of: _Lectures on differential invariants_, Univerzita J. E. Purkyně, Brno (1990) &lbrack;ISBN:80-210-165-8, [researchgate](https://www.researchgate.net/publication/36792711_Lectures_on_Differential_Invariants)&rbrack;
 
@@ -295,7 +294,7 @@ Early accounts include
 
 The algebra of smooth functions of just _locally_ finite order on the jet bundle ("[[locally pro-manifold]]") was maybe first considered in
 
-* {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_, J. Differential Geom. Volume 14, Number 4 (1979), 543-562. ([Euclid](https://projecteuclid.org/euclid.jdg/1214435235))
+* {#Takens79} [[Floris Takens]]: *A global version of the inverse problem of the calculus of variations*, J. Differential Geom. **14** 4 (1979) 543--562 &lbrack;[euclid:euclid.jdg/1214435235](https://projecteuclid.org/euclid.jdg/1214435235)&rbrack;
 
 
 {#DiscussionOfFrechetManifoldStructure} Discussion of the [[Fréchet manifold]] structure on infinite jet bundles includes
