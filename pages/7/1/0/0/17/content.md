@@ -928,10 +928,11 @@ or
 
 * {#ReferenceStyleLinks} use reference-style links
 
-  `[link text][1]` $\;$ `[1]: url`
+  `[link text][id]`
+  `[id]: url`
 
 
-  > Of course, you need to replace "1" here by a *distinct* number (or alphanumeric string) for every distinct url on a given page (which also means that this syntax is error-prone, especially when copy-and-pasting material).
+  > Of course, you need to replace "id" here by a *distinct* alphanumeric string for every distinct url on a given page (which also means that this syntax is error-prone, especially when copy-and-pasting material).
 
 
 For example
@@ -944,14 +945,14 @@ produces
 
 or
 
-    [Monad (category theory)#Monads and adjunctions][1]
+    [Monad (category theory)#Monads and adjunctions][MonadURL]
 
-    [1]: http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions
+    [MonadURL]: http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions
 
 produces again
 
-:  [Monad (category theory)#Monads and adjunctions][1]
-[1]: http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions
+:  [Monad (category theory)#Monads and adjunctions][MonadURL]
+[MonadURL]: http://en.wikipedia.org/wiki/Monad_(category_theory)#Monads_and_adjunctions
 
 
 
