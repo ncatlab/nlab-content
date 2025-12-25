@@ -29,7 +29,7 @@ There are three inequivalent definitions of a proper map in the literature, of s
 The first one is the oldest definition, still found in some analysis books.
 
 \begin{definition}
-A continuous map $f\colon X\to Y$ of [[topological spaces]] is __proper__ if it is __quasi-proper__: for every [[compact]] subset $K\subset Y$, the preimage $f^{-1}K$ is a compact subset of $X$.
+A continuous map $f\colon X\to Y$ of [[topological spaces]] is __proper__ if it is __quasi-proper__ (alias __lax proper__): for every [[compact]] subset $K\subset Y$, the preimage $f^{-1}K$ is a compact subset of $X$.
 \end{definition}
 
 The second definition was introduced by [[Bourbaki]] to make proper maps closed under [[base changes]].
@@ -329,6 +329,14 @@ where it is attributed to this "preliminary" (and apparently unpublished) accoun
 
 * [[Peter Johnstone]], _Factorization and pullback theorems for localic geometric morphisms_, Univ. Cath. de Louvain, Sem. de math, pure, Rapport no. 79 (1979)
 
+Additional sources:
+
+* J. J. C. Vermeulen, _Proper maps of locales_, Journal of Pure and Applied Algebra 92:1 (1994), 79-107.  [doi][Vurl].
+[Vurl]: https://doi.org/10.1016/0022-4049(94)90047-7
+
+
+* M. Korostenski, C. C. A. Labuschagne, _Lax proper maps of locales_, Journal of Pure and Applied Algebra 208:2 (2007), 655-664.  [doi][KLurl].
+[KLurl]: https://doi.org/10.1016/j.jpaa.2006.03.003
 
 
 [[!redirects proper maps]]
