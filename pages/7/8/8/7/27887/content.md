@@ -22,7 +22,7 @@ The _Seiberg-Witten moduli space_ (short _SW moduli space_, also _monopole modul
 
 ## Basics
 
-Let $M$ be a [[compact]] [[orientable]] [[Riemannian manifold|Riemannian]] [[4-manifold]] with [[Riemannian metric]] $g\in\Gamma^\infty(S^2T^*M)$ and [[spinᶜ structure]] $\mathfrak{s}\colon M\rightarrow BSpin^\mathrm{c}(4)$. Because of the [[exceptional isomorphism]]: ([Perutz 2002, p. 2](#Perutz02))
+Let $M$ be a [[compact]] [[orientable]] [[Riemannian manifold|Riemannian]] [[4-manifold]] with [[Riemannian metric]] $g\in\Gamma^\infty(S^2T^*M)$ and [[spinᶜ structure]] $\mathfrak{s}\colon M\rightarrow BSpin^\mathrm{c}(4)$. Because of the [[exceptional isomorphism]]: ([Perutz 2002, p. 2](#Perutz02), [Naber 11, Eq. (A.2.34) and (A.2.35)](#Naber11))
 $$
 Spin^\mathrm{c}(4)
 \cong U(2)\times_{U(1)}U(2)
@@ -82,7 +82,7 @@ Although the definition of the reduced configuration space $\mathcal{A}^*$ is ma
 
 ## Gauge group
 
-Smooth maps $g\colon M\rightarrow U(1)$ act on the elements of the configuration space by: ([Perutz 2002, p. 6](#Perutz02), [Moore 2010, p. 77-79](#Moore10))
+Smooth maps $g\colon M\rightarrow U(1)$ act on the elements of the configuration space by: ([Perutz 2002, p. 6](#Perutz02), [Moore 2010, p. 77-79](#Moore10), [Naber 11, Eq. (A.4.15)](#Naber11))
 $$
 g\cdot(d_A-ia,\psi)
 =(d_A-ia+g d(g^{-1}),g\psi).
@@ -119,7 +119,7 @@ As the product shows, the gauge group $\mathcal{G}$ is not contractible. But as 
 
 ## Moduli space
 
-Since both the [[gauge group]] $\mathcal{G}$ and its [[subgroup]], the based gauge group $\mathcal{G}_0$, act on the configuration space $\mathcal{A}$ and its subspace, the reduced configuration space $\mathcal{A}^*$, there are [[quotient spaces]]: ([Nicolaescu 2000, p. 89](#Nicolaescu00), [Kronheimer & Mrowka 2007, Def. 1.3.1. & Eq. (1.16)](#KronheimerMrowka07), [Moore 2010, p. 77-79](#Moore10))
+Since both the [[gauge group]] $\mathcal{G}$ and its [[subgroup]], the based gauge group $\mathcal{G}_0$, act on the configuration space $\mathcal{A}$ and its subspace, the reduced configuration space $\mathcal{A}^*$, there are [[quotient spaces]]: ([Nicolaescu 2000, p. 89](#Nicolaescu00), [Kronheimer & Mrowka 2007, Def. 1.3.1. & Eq. (1.16)](#KronheimerMrowka07), [Moore 2010, p. 77-79](#Moore10), [Naber 11, p. 392](#Naber11))
 $$
 \mathcal{B}
 \coloneqq\mathcal{A}/\mathcal{G};
@@ -143,7 +143,7 @@ $$
 $$
 Equivalently, for every $a\in\Omega^1(M)$, there is a unique smooth map $u\colon M\rightarrow\mathbb{R}$ with $\delta(a+\mathrm{d}u)=\delta a+\Delta u=0$, which can be shown again using the [[Hodge decomposition]] $C^\infty(M,\mathbb{R})=\mathcal{H}_0(M)\oplus\delta\Omega^1(M)$ with $\mathcal{H}_0(M)$ just being the constant functions for $M$ [[connected]]. ([Moore 2010, p. 77-79](#Moore10))
 
-Although the canonical projection $\widetilde\mathcal{B}\rightarrow\mathcal{B}$ might not be even be a [[fiber bundle]] due to the singularities, the canonical projection $\widetilde\mathcal{B}^*\rightarrow\mathcal{B}^*$, after a suitable Sobolev completion, is a [[principal U(1)-bundle]]. For $M$ [[simply connected]], $\widetilde\mathcal{B}^*$ is contractible, since $\mathcal{A}^*$ always is and $\mathcal{G}_0$ is in this case as argued before. It then follows from the [[long exact sequence]] of [[homotopy groups]] of the [[principal U(1)-bundle]] $\widetilde\mathcal{B}^*\rightarrow\mathcal{B}^*$, that $\mathcal{B}^*$ is an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$ (as $S^1$ is a $K(\mathbb{Z},1)$) and since the infinite [[complex projective space]] $\mathbb{C}P^\infty$ is as well, there is a [[weak homotopy equivalence]] $\mathcal{B}^*\rightarrow\mathbb{C}P^\infty$. ([Moore 2010, p. 81](#Moore10)) Homotopy classes of such maps are classified by $[K(\mathbb{Z},2),K(\mathbb{Z},2)]\cong\mathbb{Z}$ and the [[weak homotopy equivalence]] must correspond to a generator $\pm 1\in\mathbb{Z}$. But the [[principal U(1)-bundle]] also bijectively corresponds to the [[homotopy class]] of a classifying map $f\colon\mathcal{B}^*\rightarrow BU(1)\cong\mathbb{C}P^\infty$ with $\widetilde\mathcal{B}^*\cong f^*EU(1)\cong f^*S^\infty$, which falls under the exact same classification, but doesn't necessarily correspond to a generator. It is exactly the first [[Chern class]] $c_1(\mathcal{B})\in H^2(\mathcal{B}^*,\mathbb{Z})\in\mathbb{Z}$ of the [[principal U(1)-bundle]], but the [[perturbed Seiberg-Witten equations]] need to enter for it to be of use for the [[Seiberg-Witten invariants]]. Its [[moduli spaces]] are then given by the subspaces of its solutions: ([Perutz 2002, p. 6](#Perutz02), [Moore 2010, p. 81](#Moore10))
+Although the canonical projection $\widetilde\mathcal{B}\rightarrow\mathcal{B}$ might not be even be a [[fiber bundle]] due to the singularities, the canonical projection $\widetilde\mathcal{B}^*\rightarrow\mathcal{B}^*$, after a suitable Sobolev completion, is a [[principal U(1)-bundle]]. For $M$ [[simply connected]], $\widetilde\mathcal{B}^*$ is contractible, since $\mathcal{A}^*$ always is and $\mathcal{G}_0$ is in this case as argued before. It then follows from the [[long exact sequence]] of [[homotopy groups]] of the [[principal U(1)-bundle]] $\widetilde\mathcal{B}^*\rightarrow\mathcal{B}^*$, that $\mathcal{B}^*$ is an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$ (as $S^1$ is a $K(\mathbb{Z},1)$) and since the infinite [[complex projective space]] $\mathbb{C}P^\infty$ is as well, there is a [[weak homotopy equivalence]] $\mathcal{B}^*\rightarrow\mathbb{C}P^\infty$. ([Moore 2010, p. 81](#Moore10)) Homotopy classes of such maps are classified by $[K(\mathbb{Z},2),K(\mathbb{Z},2)]\cong\mathbb{Z}$ and the [[weak homotopy equivalence]] must correspond to a generator $\pm 1\in\mathbb{Z}$. But the [[principal U(1)-bundle]] also bijectively corresponds to the [[homotopy class]] of a classifying map $f\colon\mathcal{B}^*\rightarrow BU(1)\cong\mathbb{C}P^\infty$ with $\widetilde\mathcal{B}^*\cong f^*EU(1)\cong f^*S^\infty$, which falls under the exact same classification, but doesn't necessarily correspond to a generator. It is exactly the first [[Chern class]] $c_1(\mathcal{B})\in H^2(\mathcal{B}^*,\mathbb{Z})\in\mathbb{Z}$ of the [[principal U(1)-bundle]], but the [[perturbed Seiberg-Witten equations]] need to enter for it to be of use for the [[Seiberg-Witten invariants]]. Its [[moduli spaces]] are then given by the subspaces of its solutions: ([Perutz 2002, p. 6](#Perutz02), [Moore 2010, p. 81](#Moore10), [Naber 11, p. 391](#Naber11))
 $$
 \mathcal{M}
 \coloneqq\{[d_A-ia,\psi]\in\mathcal{B}|(d_A-ia,\psi)\text{fulfills SW eq.}\};
@@ -164,7 +164,7 @@ With the canonical projection $\widetilde\mathcal{B}\rightarrow\mathcal{B}$, the
 
 For the [[Seiberg-Witten invariant]], which is in particular [[Chern number]], the necessary amount of [[cup products]] of the [[Chern class]] with itself is evaluated with the [[fundamental class]] of the [[moduli space]] in the [[Kronecker pairing]]. Since the [[Chern class]] has even degree, the [[moduli space]] must have even dimension for this to work and it furthermore has to be known precisely for the amount of [[cup products]]. First relating it to the [[index]] of the [[Dirac operator]] and then applying the [[Atiyah-Singer index theorem]] yields formulas containing the [[Euler characteristic]] and the [[signature]]:
 
-Let $M$ be [[simply connected]]. If $ind(D_A^+)\gt 0$ for $b_+(M)=0$ or $b_+(M)\gt 0$, then $\mathcal{M}_\eta$ is an [[oriented]] [[smooth manifold]] with dimension: ([Nicolaescu 2000, Lem. 2.2.10](#Nicolaescu00), [Kronheimer & Mrowka 2007, Thrm 1.4.4.](#KronheimerMrowka07), [Moore 2010, Transversality Theorem 2 on p. 91](#Moore10) ) 
+Let $M$ be [[simply connected]]. If $ind(D_A^+)\gt 0$ for $b_+(M)=0$ or $b_+(M)\gt 0$, then $\mathcal{M}_\eta$ is an [[oriented]] [[smooth manifold]] with dimension: ([Nicolaescu 2000, Lem. 2.2.10](#Nicolaescu00), [Kronheimer & Mrowka 2007, Thrm 1.4.4.](#KronheimerMrowka07), [Moore 2010, Transversality Theorem 2 on p. 91](#Moore10), [Naber 11, p. 394](#Naber11)) 
 $$
 dim\mathcal{M}_\eta
 =2 ind(D_A^+)
@@ -193,11 +193,17 @@ $$
 
 ## References
 
-* {#Donaldson96} [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ (1996), _Bulletin of the American Mathematical Society, *33* (1): 45–70, &lbrack;[doi:10.1090/S0273-0979-96-00625-8](https://doi.org/10.1090%2FS0273-0979-96-00625-8)&rbrack; 
-* {#Nicolaescu00} [[Liviu Nicolaescu]], _Notes on Seiberg-Witten Theory_ (2000), &lbrack;[pdf](https://www3.nd.edu/~lnicolae/swnotes.pdf)&rbrack; 
-* {#Perutz02} Tim Perutz, _Basics of Seiberg-Witten theory_ (May 2002), &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/geometry/junior-geometry-seminar/Seiberg-Witten-theory.pdf)&rbrack; 
+* {#Donaldson96} [[Simon Donaldson]], _The Seiberg-Witten equations and 4-manifold topology_ (1996), _Bulletin of the American Mathematical Society, *33* (1): 45–70, &lbrack;[doi:10.1090/S0273-0979-96-00625-8](https://doi.org/10.1090%2FS0273-0979-96-00625-8)&rbrack;
+
+* {#Nicolaescu00} [[Liviu Nicolaescu]], _Notes on Seiberg-Witten Theory_ (2000), &lbrack;[pdf](https://www3.nd.edu/~lnicolae/swnotes.pdf)&rbrack;
+
+* {#Perutz02} Tim Perutz, _Basics of Seiberg-Witten theory_ (May 2002), &lbrack;[pdf](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/geometry/junior-geometry-seminar/Seiberg-Witten-theory.pdf)&rbrack;
+
 * {#KronheimerMrowka07} [[Peter Kronheimer]], [[Tomasz Mrowka]], _Monopoles and Three-Manifolds_ (2007), &lbrack;[ISBN:978-0-521-88022-0](https://webhomes.maths.ed.ac.uk/~v1ranick/papers/kronmrowka.pdf)&rbrack;
+
 * {#Moore10} John Douglas Moore, _Lecture Notes on Seiberg-Witten Invariants (Revised Second Edition)_, &lbrack;[pdf](https://web.math.ucsb.edu/~moore/seibergwittenrev2edition.pdf)&rbrack;
+
+* {#Naber11} [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Foundations*,  Texts in Applied Mathematics **25** (2011) &lbrack;[doi:10.1007/978-1-4419-7254-5](https://doi.org/10.1007/978-1-4419-7254-5)&rbrack;
 
 See also:
 
