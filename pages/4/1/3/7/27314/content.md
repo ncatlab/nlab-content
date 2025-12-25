@@ -146,7 +146,7 @@ This is the case iff the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations 
   \end{array}
 \]
 
-(cf. [Taubes 1982a, Equations (2.2a) and (2.2b)](#Taubes82a), [Taubes 1984, Equation (1)](#Taubes84), [Taubes 1985, Equations (A.1.1a) and (A.1.1b)](#Taubes85), but beware that [Taubes 1984, Equation (1)](#Taubes84) is missing the second [[Hodge star operator]] in the first [[Yang-Mills-Higgs equation]].)
+(cf. [Taubes 1982a, Eq. (2.2a) and (2.2b)](#Taubes82a), [Taubes 1984, Eq. (1)](#Taubes84), [Taubes 1985, Eq. (A.1.1a) and (A.1.1b)](#Taubes85), but beware that [Taubes 1984, Eq. (1)](#Taubes84) is missing the second [[Hodge star operator]] in the first [[Yang-Mills-Higgs equation]]. cf. [Naber 11, Eq. (2.5.12)](#Naber11))
 
 Furthermore, the following [[Bianchi identities]] hold:
 
@@ -163,7 +163,7 @@ $$
   \end{array}
 $$
 
-(cf. [Taubes 1982a, Equations (2.2c) and (2.2d)](#Taubes82a))
+(cf. [Taubes 1982a, Eq. (2.2c) and (2.2d)](#Taubes82a), [Naber 11, Eq. (2.5.13)](#Naber11))
 
 
 Using $\star^2=(-1)^{k(n-k)}$ (see [there](Hodge+star+operator#BasicProperties)) and $\delta_A=(-1)^{n(k+1)+1}\star\mathrm{d}_A\star$ when applied to $k$-forms, the first Yang-Mills-Higgs equation (eq:YMHEquations) is equivalent to:
@@ -285,6 +285,8 @@ For a [[principal connection]] $B\in\Omega^1_{conn}(P)$ and a [[smooth section]]
 * {#Taubes84} [[Clifford Taubes]], _On the Yang--Mills--Higgs equations_, Bulletin of the American Mathematical Society **10** (1984) 295–297 &lbrack;[doi:10.1090/s0273-0979-1984-15254-6](https://doi.org/10.1090/s0273-0979-1984-15254-6)&rbrack;
 
 * {#Taubes85} [[Clifford Taubes]], _Min-max theory for the Yang-Mills-Higgs equations_, Communications in Mathematical Physics **97** (1985) 295–297 &lbrack;[doi:10.1007/BF01221215](https://doi.org/10.1007/BF01221215)&rbrack;
+
+* {#Naber11} [[Gregory L. Naber]], *Topology, Geometry and Gauge fields -- Foundations*,  Texts in Applied Mathematics **25** (2011) &lbrack;[doi:10.1007/978-1-4419-7254-5](https://doi.org/10.1007/978-1-4419-7254-5)&rbrack;
 
 See also:
 
