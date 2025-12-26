@@ -87,7 +87,7 @@ $$
 g\cdot(d_A-ia,\psi)
 =(d_A-ia+g d(g^{-1}),g\psi).
 $$
-Hence the _gauge group_ can be taken as: ([Perutz 2002, p. 6](#Perutz02), [Moore 2010, p. 77-79](#Moore10))
+Hence the _gauge group_ can be taken as: ([Perutz 2002, p. 6](#Perutz02), [Moore 2010, p. 77-79](#Moore10), [Naber 11, Lemma A.4.1](#Naber11))
 $$
 \mathcal{G}
 \coloneqq C^\infty(M,U(1)).
