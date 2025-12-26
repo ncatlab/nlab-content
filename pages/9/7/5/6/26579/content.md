@@ -17,7 +17,7 @@
 
 The [[category]] whose [[objects]] are [[finite sets]] and whose [[morphisms]] are [[stochastic maps]] (or [[stochastic matrices]]) is often denotes _FinStoch_, or similar; a [[full subcategory]] of [[Stoch]].
 
-This is an elementary but nontrivial example of a [[Markov category]], and together with its subcategory [[Stoch#borelstoch|BorelStoch]], one of the most important categories of [[category-theoretic probability]].
+This is an elementary but nontrivial example of a [[Markov category]], and together with [[Stoch#borelstoch|BorelStoch]], one of the most important categories of [[category-theoretic probability]].
 
 ## Definition
 
