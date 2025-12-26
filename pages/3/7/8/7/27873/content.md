@@ -139,6 +139,20 @@ $$
 $$
 ([Mitchell 2011, Corollary 11.2.](#Mitchell11))
 
+## Application in Yang-Mills theory
+
+\begin{proposition}
+Reducible anti self-dual [[Yang-Mills connections]] of a principal $SU(2)$-bundle $E$ over a [[compact]], [[simply connected]], [[oriented]] [[Riemannian manifold|Riemannian]] [[4-manifold]] $X$ are in [[bijective]] correspondence with non-zero pairs $\pm c\in H^2(X,\mathbb{Z})$ with $c^2=-c_2(E)$.
+\end{proposition}
+
+([Donaldson & Kronheimer 97, Prop. (4.2.15)](#DonaldsonKronheimer97))
+
+\begin{proposition}
+Irreducible anti self-dual [[Yang-Mills connections]] of a principal $SU(2)$-bundle $E$ over a [[simply connected]] [[Riemannian manifold|Riemannian]] [[4-manifold]] $X$ are still irreducible under the restriction to any non-empty open subset.
+\end{proposition}
+
+([Donaldson & Kronheimer 97, Lem. (4.3.21)](#DonaldsonKronheimer97))
+
 ## Related entries
 
 Particular [[principal bundles]]:
