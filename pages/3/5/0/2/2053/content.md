@@ -62,12 +62,12 @@ Informally, the "free product" is the group whose elements are [[free constructi
 More generally, if each of the given groups is equipped with a [[homomorphism]] 
 
 $$
-  \iota_i \,\colon\, H \longrightarrow G_i
+  \iota_i \,\colon\, A \longrightarrow G_i
 $$
 
-from a fixed group $H \,\in\, Grp$
+from a fixed group $A \,\in\, Grp$
 
-> (often taken to be [[monomorphisms]], hence [[injections]], hence [[subgroup]]-inclusions $A \hookrightarrow G_i$ and reducing to the previous situation when $H = 1$ is the [[trivial group]]) 
+> (often taken to be [[monomorphisms]], hence [[injections]], hence [[subgroup]]-inclusions $A \hookrightarrow G_i$ and reducing to the previous situation when $A = 1$ is the [[trivial group]]) 
 
 then what is traditionally called their **amalgamated free product** (or similar), and denoted
 
@@ -98,7 +98,7 @@ $$
   \;\;
   \simeq
   \;\;
-  G_1 \overset{H}{\amalg} G_2
+  G_1 \overset{A}{\amalg} G_2
   \;\;
   \in
   \;
@@ -118,12 +118,12 @@ $$
   \ar[dr, "{ q_1 }"{description}]
   \ar[drr, bend left=20, "{ f_1 }"{description}]
   \\
-  H 
+  A 
   \ar[ur, "{ \iota_1 }"{description}]
   \ar[dr, "{ \iota_2 }"{description}]
   \ar[rr, phantom, "{ \scalebox{.6}{(po)} }"]
     && 
-  G_1 \star_{{}_H} G_2
+  G_1 \star_{{}_A} G_2
   \ar[r, dashed]
   &
   Q
@@ -228,14 +228,14 @@ The value of the more general construction above is that one often has much smal
 
 * [[central product of groups]]
 
-
+* [[Higman-Neumann-Neumann extension]]
 
 
 ## References
 
-The notion of amalgamated free products of groups seems to be due to
+The notion of amalgamated free products of groups is due to
 
-* [[Otto Schreier]], §1 in: *Die Untergruppen der freien Gruppen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 161–183 &lbrack;[doi:10.1007/BF02952517](https://doi.org/10.1007/BF02952517)&rbrack;
+* [[Otto Schreier]], §1 in: *Die Untergruppen der freien Gruppen*, Abh. Math. Semin. Univ. Hambg. **5** (1927) 161--183 &lbrack;[doi:10.1007/BF02952517](https://doi.org/10.1007/BF02952517)&rbrack;
 
 where it is discussed (though not under any name) complete with the [[universal property]] of what today we recognize as a [[colimit]] (long before this [[category theory]]-notion was formulated in generality).
 
@@ -260,7 +260,7 @@ See also
 
 Discussion of [[subgroups]] of amalgamated from products:
 
-* A. Karrass, D. Solitar, *The Subgroups of a Free Product of Two Groups with an Amalgamated Subgroup*, Transactions of the American Mathematical Society **150** 1 (1970) 227-255 &lbrack;[doi:10.2307/1995492](https://doi.org/10.2307/1995492)&rbrack;
+* A. Karrass, D. Solitar, *The subgroups of a free product of two groups with an amalgamated subgroup*, Transactions of the American Mathematical Society **150** 1 (1970) 227-255 &lbrack;[doi:10.2307/1995492](https://doi.org/10.2307/1995492)&rbrack;
 
 
 [[!redirects free product]]
