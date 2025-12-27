@@ -537,15 +537,18 @@ for $h_{\mathbb{O}}$ the [[octonionic Hopf fibration]].
 
 ### General
 
-The concept is originally due to 
+The concept is due to 
 
-* {#Whitehead41} [[J. H. C. Whitehead]], Section 3 of _On Adding Relations to Homotopy Groups_, Annals of Mathematics Second Series, Vol. 42, No. 2 (Apr., 1941), pp. 409-428 ([jstor:1968907](https://www.jstor.org/stable/1968907))
+* {#Whitehead41} [[J. H. C. Whitehead]], Section 3 ofL _On Adding Relations to Homotopy Groups_, Annals of Mathematics Second Series, **42** 2 (1941) 409-428 &lbrack;[jstor:1968907](https://www.jstor.org/stable/1968907)&rbrack;
 
-with early discussion in
 
-* {#HiltonWhitehead53} [[Peter Hilton]], [[J. H. C. Whitehead]], _Note on the Whitehead Product_, Annals of Mathematics Second Series, Vol. 58, No. 3 (Nov., 1953), pp. 429-442  ([jstor:1969746](https://www.jstor.org/stable/1969746))
+with further early discussion in:
 
-* {#Hilton55} [[Peter Hilton]], _On the homotopy groups of unions of spheres_, J. London Math. Soc., 1955, 30, 154–172 ([[Hilton55.pdf:file]], [doi:doi.org/10.1112/jlms/s1-30.2.154]( https://doi.org/10.1112/jlms/s1-30.2.154))
+* [[George W. Whitehead]]: *On Products in Homotopy Groups*, Annals of Mathematics **47** 3 (1946) 460-475 &lbrack;[doi:10.2307/1969085](https://doi.org/10.2307/1969085), [jstor:1969085](https://www.jstor.org/stable/1969085)&rbrack;
+
+* {#HiltonWhitehead53} [[Peter Hilton]], [[J. H. C. Whitehead]]: _Note on the Whitehead Product_, Annals of Mathematics Second Series **58** 3 (1953) 429-442  &lbrack;[jstor:1969746](https://www.jstor.org/stable/1969746)&rbrack;
+
+* {#Hilton55} [[Peter Hilton]], _On the homotopy groups of unions of spheres_, J. London Math. Soc., **30** (1955) 154–172 &lbrack;[[Hilton55.pdf:file]], [doi:doi.org/10.1112/jlms/s1-30.2.154]( https://doi.org/10.1112/jlms/s1-30.2.154)&rbrack;
 
 Proof that the Whitehead product is the [[commutator]] of the [[Pontrjagin product]]:
 
