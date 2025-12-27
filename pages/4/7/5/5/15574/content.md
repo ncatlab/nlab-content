@@ -623,7 +623,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law99} [[F. W. Lawvere]], *Kinship and Mathematical Categories*, pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
-* {#Law00} [[F. William Lawvere]], *Adjoint Cylinders*, message to Categories Mailing List (November 2000) &lbrack;[archive](https://web.archive.org/web/20150326193637/http://permalink.gmane.org/gmane.science.mathematics.categories/1683), scan: [part 1](/nlab/files/Lawvere00-AdjointCylinders1.png), [part 2](/nlab/files/Lawvere00-AdjointCylinders1.png)&rbrack;
+* {#Law00} [[F. William Lawvere]], *Adjoint Cylinders*, message to Categories Mailing List (November 2000) &lbrack;[archive](https://web.archive.org/web/20150326193637/http://permalink.gmane.org/gmane.science.mathematics.categories/1683), scan: [part 1](/nlab/files/Lawvere00-AdjointCylinders1.png), [part 2](/nlab/files/Lawvere00-AdjointCylinders2.png)&rbrack;
 
 * {#Law02} [[F. W. Lawvere]], *Linearization of graphic toposes via Coxeter groups*, JPAA **168** (2002) pp.425-436.
 
