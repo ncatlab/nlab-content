@@ -455,7 +455,7 @@ Relation to [[Hochschild homology]]:
 
 * Jerry M. Lodder, _Leibniz homology, characteristic classes and K-theory, [K-theory archive/0493](http://www.math.uiuc.edu/K-theory/0493); _Leibniz cohomology and the calculus of variations_ ([arXiv:math/9808036](http://arxiv.org/abs/math/9808036))
 
-* [[Jean-Louis Loday]], _Algebraic K-theory and the conjectural Leibniz K-theory_, K-Theory 09/2003; 30(2):105-127, [pdf](http://www-irma.u-strasbg.fr/~loday/PAPERS/2003Loday%28LeibnizConj%29.pdf) [doi](http://dx.doi.org/10.1023/B:KTHE.0000018382.90150.ce)
+* [[Jean-Louis Loday]], _Algebraic K-theory and the conjectural Leibniz K-theory_, K-Theory 09/2003; 30(2):105-127, [pdf](https://web.archive.org/web/20111230132653/http://www-irma.u-strasbg.fr/~loday/PAPERS/2003Loday(LeibnizConj).pdf) [doi](http://dx.doi.org/10.1023/B:KTHE.0000018382.90150.ce)
 
 
 This is partly based on earlier insights of Kinyon and Weinstein:
