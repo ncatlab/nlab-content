@@ -123,7 +123,7 @@ satisfying the following conditions:
 
 {#StrictMonoidalFunctor} If $\epsilon$ and all $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
 
-> (Beware that it is has also become common to say "strong monoidal functor" for monoidal functors with *[[tensorial strength]]*, which is different.)   
+> (Beware that it has also become common to say "strong monoidal functor" for monoidal functors with *[[tensorial strength]]*, which is different.)   
 
 If they are even [[identity morphisms]], then $F$ is called a **strict monoidal functor**.
 
