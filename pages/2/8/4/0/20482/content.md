@@ -1,4 +1,4 @@
-Cl
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -29,9 +29,7 @@ The [[partial differential equation]] describing viscous [[hydrodynamics]].
 
 * [[fluid/gravity correspondence]]
 
-## Proposed Millennium Prize solutions
 
-* [Victor Porton's](https://www.researchgate.net/publication/398639635_A_Proof_Of_Existence_Of_Smooth_Classical_Solutions_Of_Navier-Stokes_Equations) (preprint, uses Victor's earlier general topology research)
 
 ## References
 
