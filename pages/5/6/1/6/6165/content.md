@@ -7,11 +7,16 @@
 
 Introducing the [[J-homomorphism]]:
 
-* {#Whitehead42} [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640 (1942) ([jstor:1968956](http://www.jstor.org/stable/1968956))
+* {#Whitehead42} [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series **43** 4 (1942) 634-640 &lbrack;[jstor:1968956](http://www.jstor.org/stable/1968956)&rbrack;
+
+On [[Whitehead products]]:
+
+* [[George W. Whitehead]]: *On Products in Homotopy Groups*, Annals of Mathematics **47** 3 (1946) 460-475 &lbrack;[doi:10.2307/1969085](https://doi.org/10.2307/1969085), [jstor:1969085](https://www.jstor.org/stable/1969085)&rbrack;
+
 
 Computing the [[second stable homotopy group of spheres]]:
 
-* [[George Whitehead]], _The $(n+2)$nd Homotopy Group of the $n$-Sphere_, Annals of Mathematics Second Series, Vol. 52, No. 2 (Sep., 1950), pp. 245-247  ([jstor:1969466](https://www.jstor.org/stable/1969466))
+* [[George Whitehead]]: _The $(n+2)$nd Homotopy Group of the $n$-Sphere_, Annals of Mathematics Second Series **52** 2 (1950) 245--247  &lbrack;[jstor:1969466](https://www.jstor.org/stable/1969466)&rbrack;
 
 
 
