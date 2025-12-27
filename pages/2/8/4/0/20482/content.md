@@ -29,6 +29,10 @@ The [[partial differential equation]] describing viscous [[hydrodynamics]].
 
 * [[fluid/gravity correspondence]]
 
+## Proposed Millennium Prize solutions
+
+* [Victor Porton's](https://www.researchgate.net/publication/398639635_A_Proof_Of_Existence_Of_Smooth_Classical_Solutions_Of_Navier-Stokes_Equations) (preprint, uses Victor's earlier general topology research)
+
 ## References
 
 * [[Terence Tao]], _Searching for singularities in the Navier–Stokes equations_, Nature Reviews Physics (2019) ([doi:10.1038/s42254-019-0068-9](https://doi.org/10.1038/s42254-019-0068-9), <a href="https://www.nature.com/articles/s42254-019-0068-9.epdf?shared_access_token=6rc-x7FPL5kjpveoikZunNRgN0jAjWel9jnR3ZoTv0MfKWsg_vlKrq5yDHjqGGQky1MsgKL3WJRQ32XSOhs-xM9z3gF_OslGamWLNTEd1LaSb8IoX6JS2saOuFLxwG4mVrnLm6T2XrCaLH_eF4_LjQ%3D%3D">pdf</a>)
