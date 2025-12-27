@@ -881,7 +881,7 @@ In contrast, the fundamental group of the free mapping space deviates from this 
 
 \begin{proposition}
 \label{FundamentalGroupsOfEndomappingSpaceOf2Sphere}
-([Hu 1946, Thm 5.3(1)](#STHu46), [Koh 1960 Lem 3.1](#Koh60))
+([Hu 1946, Thm 5.3(1)](#STHu46), [Koh 1960 Lem 3.9](#Koh60))
 \linebreak
   $$
     \pi_1 \, Map_k\big(
