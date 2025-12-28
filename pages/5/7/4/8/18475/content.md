@@ -361,6 +361,7 @@ Proposed realization of aspects of [[p-adic AdS/CFT correspondence]] in [[solid-
 
 
 [[!redirects AdS/CFT in condensed matter physics]]
+[[!redirects AdS-CFT in condensed matter physics]]
 
 [[!redirects AdS/CFT correspondence in codensed matter physics]]
 [[!redirects AdS-CFT correspondence in codensed matter physics]]
