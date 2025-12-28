@@ -1,3 +1,4 @@
+[[!redirects HNN-extension]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,6 +19,9 @@
 ## Idea
 
 In [[combinatorial group theory]], by the *HNN construction* --- named after [Higman, Neumann and Neumann (1949)](#HigmanNeumannNeumann49) --- one means a [[universal construction]] which from a [[group]] and two *abstractly* [[isomorphism|isomorphic]] [[subgroups]] produces a group extension in which these two become [[conjugate subgroups]].
+
+If the group is a fundamental group of a [[topological space]], this comes from the following situation.
+If $X$ is a topological spaces, $A$ and $B$ to isomorphic subspaces of $X$, and one is given a fundamental group of $X$, what is the fundamental group of $X$ with attached handle from $A$ to $B$ ?
 
 
 ## Definition
@@ -89,4 +93,13 @@ de France (1977)
 * [[Jean-Pierre Serre]], , _Trees_ , Springer Monographs in Mathematics, Springer-Verlag Berlin.  
 150, 157, 161 (2003)
 
- 
+A standard reference is
+
+* Lyndon, Schupp, _Combinatorial group theory_
+
+Recent survey
+
+* arXiv:[2512.10800](https://arxiv.org/pdf/2512.10800)
+
+[[!redirects HNN-extension]]
+[[!redirects Higman-Neumann-Neumann extension]]
