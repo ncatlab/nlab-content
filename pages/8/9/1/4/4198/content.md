@@ -33,7 +33,7 @@ On the [[equivariant stable homotopy theory]] of [[cyclotomic spectra]]:
 
 On [[equivariant homotopy theory]]:
 
-* Andrew Blumberg, _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+* {#Blumberg17} [[Andrew Blumberg]]: _Equivariant homotopy theory_ (2017) &lbrack;[pdf](https://adebray.github.io/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory)&rbrack;
 
 
 On [[persistent homotopy theory]] and its [[stability of persistence diagrams|stability theorem]]:
