@@ -141,9 +141,9 @@ Experimental realization of FQAH systems:
 
 * Zhengguang Lu et al.: *Fractional quantum anomalous Hall effect in multilayer graphene*, Nature **626** (2024) 759–764 &lbrack;[doi:10.1038/s41586-023-07010-7](https://doi.org/10.1038/s41586-023-07010-7), [arXiv:2309.17436](https://arxiv.org/abs/2309.17436)&rbrack;
 
-* *Observation of Integer and Fractional Chern insulators in high Chern number flatbands* &lbrack;[arXiv:2507.09908](https://arxiv.org/abs/2507.09908)&rbrack;
+* Jingwei Dong, et al.: *Observation of Integer and Fractional Chern insulators in high Chern number flatbands* &lbrack;[arXiv:2507.09908](https://arxiv.org/abs/2507.09908)&rbrack;
 
-* *Diverse high-Chern-number quantum anomalous Hall insulators in twisted rhombohedral graphene* &lbrack;[arXiv:2507.11347](https://arxiv.org/abs/2507.11347)&rbrack;
+* Naitian Liu et al.: *Diverse high-Chern-number quantum anomalous Hall insulators in twisted rhombohedral graphene* &lbrack;[arXiv:2507.11347](https://arxiv.org/abs/2507.11347)&rbrack;
 
 * Hongyun Zhang et al.: *Moiré enhanced flat band in rhombohedral graphene*, Nat. Mater. (2025) &lbrack;[arXiv:2504.06251](https://arxiv.org/abs/2504.06251), [doi:10.1038/s41563-025-02416-2](https://doi.org/10.1038/s41563-025-02416-2)&rbrack;
      
@@ -191,8 +191,6 @@ The case of [[crystalline topological insulators]] and [[symmetry protected topo
 
 * Chao-Ming Jian, Xiao-Liang Qi: *Crystal-symmetry preserving Wannier states for fractional chern insulators*, Phys. Rev. B **88** (2013) 165134 &lbrack;[arXiv:1303.1787](https://arxiv.org/abs/1303.1787), [doi:10.1103/PhysRevB.88.165134](https://doi.org/10.1103/PhysRevB.88.165134)&rbrack;
 
-* Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators*, Phys. Rev. B (2025) &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431), [doi:10.1103/8bpm-qbzp](https://doi.org/10.1103/8bpm-qbzp)&rbrack;
-
 * Ke Huang, Xiao Li, [[Sankar Das Sarma]], Fan Zhang: *Self-consistent theory of fractional quantum anomalous Hall states in rhombohedral graphene* Phys. Rev. B **110** (2024) 115146 &lbrack;[doi:10.1103/PhysRevB.110.115146](https://doi.org/10.1103/PhysRevB.110.115146), [arXiv:2407.08661](https://arxiv.org/abs/2407.08661)&rbrack;
 
 * Yuxuan Zhang, [[Maissam Barkeshli]]: *Fractionally Quantized Electric Polarization and Discrete Shift of Crystalline Fractional Chern Insulators*, Phys. Rev. B
@@ -211,11 +209,11 @@ Relation to [[superconductors]]:
 
 On [[anyons]] in FQAH systems:
 
-* Zhengyan Darius Shi, T. Senthil: *Anyon delocalization transitions out of a disordered FQAH insulator*, PNAS **122**  51 (2025) e2520608122
- &lbrack;[arXiv:2506.02128](https://arxiv.org/abs/2506.02128), [doi:10.1073/pnas.2520608122](https://doi.org/10.1073/pnas.2520608122)&rbrack;
+* Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators*, Phys. Rev. B (2025) &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431), [doi:10.1103/8bpm-qbzp](https://doi.org/10.1103/8bpm-qbzp)&rbrack;
 
+* Zhengyan Darius Shi, T. Senthil: *Anyon delocalization transitions out of a disordered FQAH insulator*, PNAS **122**  51 (2025) e2520608122 &lbrack;[arXiv:2506.02128](https://arxiv.org/abs/2506.02128), [doi:10.1073/pnas.2520608122](https://doi.org/10.1073/pnas.2520608122)&rbrack;
 
-
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQAH Anyons|Identifying Anyonic Topological Order in Fractional Quantum Anomalous Hall Systems]]*, Applied Physics Letters (2025) &lbrack;[arXiv:2507.00138](https://arxiv.org/abs/2507.00138)&rbrack;
 
 
 [[!redirects quantum anomalous Hall effects]]
