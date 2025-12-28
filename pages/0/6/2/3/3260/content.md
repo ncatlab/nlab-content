@@ -395,7 +395,7 @@ Equivariant homotopy theory is to [[equivariant stable homotopy theory]] as [[ho
 
 Lecture notes:
 
-* {#Blumberg17} [[Andrew Blumberg]], _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+* {#Blumberg17} [[Andrew Blumberg]]: _Equivariant homotopy theory_ (2017) &lbrack;[pdf](https://adebray.github.io/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory)&rbrack;
 
 * {#Guillou20} [[Bert Guillou]], *Equivariant Homotopy and Cohomology*, lecture notes, 2020 ([pdf](http://www.ms.uky.edu/~guillou/F20/751Notes.pdf), [[GuillouEquivariantHomotopyAndCohomology.pdf:file]])
 
