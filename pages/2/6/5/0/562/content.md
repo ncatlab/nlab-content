@@ -245,7 +245,7 @@ M \arrow[rr, bend right, shift right] \arrow[r, "g"]        & M_{1} \arrow[r]   
 \end{tikzcd}
 \end{center}
 It immediately follows from the above unfolding of the definition that $\VBun(e'',e')\cong\VBun(e'',p)$ naturally in $e''$, where $p$ is the pullback bundle of $V_{2}\longrightarrow M_{2}$ along $M_{1}\longrightarrow M_{2}$, and thus by the [[Yoneda lemma#YonedaCorollaries|Yoneda lemma]] $e'\cong p$, and thus $V_{1}\cong\mathcal{P}(e')^{*}V_{2}$. Note that the isomorphisms $e'\cong p$ preserve the commutativity of the diagrams we have drawn above by the universal property of the pullback, and by the definition of a cartesian morphism. Now that we have identified the cartesian morphisms, the statement that $\mathcal{P}:\VBun\longrightarrow\Man$ is a Grothendieck fibration is equivalent to the statement that vector bundles can be pulled back along smooth maps. This is of course true, and thus $\mathcal{P}:\VBun\longrightarrow\Man$ is a Grothendieck fibration.
-The associated functors $f^{*}$ are the [[pullback#PullbackFunctor|pullback psuedofunctors]] $f^{*}:\VBun_{M_{2}}\longrightarrow \VBun_{M_{1}}$ that pullback vector bundles over a manifold $M_{2}$ to vector bundles over a manifold $M_{1}$ along a smooth map $f:M_{1}\longrightarrow M_{2}$.
+The associated functors $f^{*}$ are the [[pullback#PullbackFunctor|pullback pseudofunctors]] $f^{*}:\VBun_{M_{2}}\longrightarrow \VBun_{M_{1}}$ that pullback vector bundles over a manifold $M_{2}$ to vector bundles over a manifold $M_{1}$ along a smooth map $f:M_{1}\longrightarrow M_{2}$.
 \end{example}
 
 \begin{example}
