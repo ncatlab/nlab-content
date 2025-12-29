@@ -18,10 +18,9 @@
 
 ## Idea
 
-In [[combinatorial group theory]], by the *HNN construction* --- named after [Higman, Neumann and Neumann (1949)](#HigmanNeumannNeumann49) --- one means a [[universal construction]] which from a [[group]] and two *abstractly* [[isomorphism|isomorphic]] [[subgroups]] produces a group extension in which these two become [[conjugate subgroups]].
+In [[combinatorial group theory]], by the *HNN construction* --- named after [Higman, Neumann and Neumann (1949)](#HigmanNeumannNeumann49) --- one means a [[universal construction]] which from a [[group]] and two [[subgroups]] which are [[isomorphism|isomorphic]] as abstract groups, produces a [[group extension]] in which these two become [[conjugate subgroups]].
 
-If the group is a fundamental group of a [[topological space]], this comes from the following situation.
-If $X$ is a topological spaces, $A$ and $B$ to isomorphic subspaces of $X$, and one is given a fundamental group of $X$, what is the fundamental group of $X$ with attached handle from $A$ to $B$ ?
+If the group in question is the [[fundamental group]] of a [[topological space]] $X$, and the two subgroups are the fundamental groups of homeomorphic [[subspaces]] $A,B \subset X$, then the corresponding HNN extension is the fundamental group of the result of attaching to $X$ a [[handlebody]] at $A$ and $B$.
 
 
 ## Definition
@@ -50,7 +49,7 @@ under which the two copies of $H$ in $G$ (given by $H$ itself and by the [[image
 
 ### Link with graphs of groups
 
-Examine the [[fundamental group of a graph of groups|fundamental group]] of the [[graph of groups]], $\mathcal{G}$, with [[underlying]] [[graph]] the graph with one [[vertex]], $v$ and one [[edge]], $e$ and nothing else. 
+Examine the fundamental group of the [[graph of groups]], $\mathcal{G}$, with [[underlying]] [[graph]] the graph with one [[vertex]], $v$ and one [[edge]], $e$ and nothing else. 
 
 Take 
 
@@ -83,6 +82,15 @@ The original article:
 * {#HigmanNeumannNeumann49} Graham Higman, B. H. Neumann, Hanna Neuman, *Embedding Theorems for Groups*, J. of the London Mathematical Society **s1-24** 4 (1949)  247-254 &lbrack;[doi:10.1112/jlms/s1-24.4.247](https://doi.org/10.1112/jlms/s1-24.4.247)&rbrack;
 
 
+Survey:
+
+* Martin R. Bridson, Carl-Fredrik Nyberg-Brodda: *HNN extensions and embedding theorems for groups* &lbrack;[arXiv:2512.10800](https://arxiv.org/abs/2512.10800)&rbrack;
+
+Textbook account:
+
+* Roger C. Lindon, Paul E. Schupp: *Free Products and HNN Extensions*, Chapter IV of *Combinatorial group theory*, Springer (1977) &lbrack;[doi:10.1007/978-3-642-61896-3](https://doi.org/10.1007/978-3-642-61896-3)&rbrack;
+
+
 See also:
 
 * Wikipedia, *[HNN extension](https://en.wikipedia.org/wiki/HNN_extension)*
@@ -93,13 +101,8 @@ de France (1977)
 * [[Jean-Pierre Serre]], , _Trees_ , Springer Monographs in Mathematics, Springer-Verlag Berlin.  
 150, 157, 161 (2003)
 
-A standard reference is
 
-* Lyndon, Schupp, _Combinatorial group theory_
 
-Recent survey
-
-* arXiv:[2512.10800](https://arxiv.org/pdf/2512.10800)
 
 [[!redirects HNN-extension]]
 [[!redirects Higman-Neumann-Neumann extension]]
