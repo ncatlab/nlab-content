@@ -63,7 +63,7 @@ See also at _[[flow of a vector field]]_.
 Let $M$ be a [[differentiable manifold]], let $\Del$ be an [[affine connection]] on $M$, and let $p$ be a [[point]] in $M$.  Then by the general theory of [[differential equations]], there is a unique [[maximal partial function|maximally]] defined [[partial function]] $\exp_p$ from the [[tangent space]] $T_p M$ to $M$ such that:
 
 *  $\Del \exp_p = \exp_p$ and
-*  $\exp_p(0) = 1$.
+*  $\exp_p(0) = p$.
 
 This function is the __natural exponential map on $M$ at $p$ relative to $\Del$__.  We have $\exp_p\colon U \to M$, where $U$ is some [[neighbourhood]] of $0$ in $T_p M$.  If $M$ is [[complete manifold|complete]] (relative to $\Del$), then $U$ will be all of $T_p M$.
 
