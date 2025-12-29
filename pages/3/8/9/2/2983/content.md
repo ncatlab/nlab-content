@@ -101,17 +101,27 @@ If the Coxeter group W is finite, the building is called **spherical**. The reas
 
 * [[p-adic AdS/CFT correspondence]]
 
+
 ## References
 
-### Introductory
+Original discussion:
+
+* [[François Bruhat]], [[Jacques Tits]]: *Groupes Réductifs Sur Un Corps Local*,  Publications Mathématiques de l’Institut des Hautes Études Scientifiques **41** (1972) 5–251 &lbrack;[doi:10.1007/BF02715544](https://doi.org/10.1007/BF02715544)&rbrack;
+
+* [[Jacques Tits]]: *Buildings of Spherical Type and Finite BN-Pairs*, Lecture Notes in Mathematics **386**,  Springer (1974) &lbrack;[doi:10.1007/978-3-540-38349-9](https://doi.org/10.1007/978-3-540-38349-9)&rbrack;
+
+Introductions:
 
 * {#Casselman14} [[Bill Casselman]], _The Bruhat-Tits tree of $\mathrm{SL}(2)$_ (2014) &lbrack;[pdf](https://pdfs.semanticscholar.org/3cc6/b53850a03003204f1225c780cf29ab625a6c.pdf), [[CasselmanOnBruhatTitsTree2014.pdf:file]]&rbrack;
 
-* [[John Baez]], This Week's Finds in Mathematical Physics, [week 263] (http://math.ucr.edu/home/baez/week263.html) second half.
+* [[John Baez]], This Week's Finds in Mathematical Physics, [week 263](http://math.ucr.edu/home/baez/week263.html) second half.
 
-* Wikipedia on [buildings] (http://en.wikipedia.org/wiki/Bruhat-Tits_building)
 
-An introductory textbook that starts with explaining Coxeter groups is this:
+See also:
+
+* Wikipedia: \[<a href="https://en.wikipedia.org/wiki/Building_(mathematics)">Building (mathematics)</a>\]
+
+An introductory textbook that starts with explaining [[Coxeter groups]]:
 
 * Abramenko, Peter; Brown, Kenneth S.: Buildings. Theory and applications. (Springer 2008, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05288866&format=complete) )
 
@@ -119,7 +129,9 @@ A short introduction to spherical buildings (this notion will be explained below
 
 * Richard M. Weiss: The Structure of Spherical Buildings. (Princeton University Press 2004, [ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1061.51011&format=complete))
 
-### Buildings and [[Berkovich spaces]]
+
+
+Relation to [[Berkovich spaces]]:
 
 * Remy, Bertrand; Thuillier, Amaury; Werner, Annette, _Bruhat-Tits buildings and analytic geometry_ ([arXiv:1110.1362] (https://arxiv.org/abs/1110.1362)).
 
