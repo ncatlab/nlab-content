@@ -42,9 +42,9 @@ Nowadays combinatorial group theory uses fruitful connections to [[topology]] an
 
 Textbook accounts:
 
-* [[Wilhelm Magnus]], A. Karras, D. Solitar, *Combinatorial group theory: Presentation of groups in terms of generators and relations*, Courier Corporation (1966, 2004) &lbrack;[ISBN:0-486-43830-9](https://www.maa.org/press/maa-reviews/combinatorial-group-theory-presentations-of-groups-in-terms-of-generators-and-relations), [GoogleBooks](https://books.google.com/books?hl=en&lr=&id=1LW4s1RDRHQC&oi=fnd&pg=PP1&ots=WszNa-0hEz&sig=Hn_MTbyLcEreBBNZ8jJtQUVKlZk)&rbrack;
+* [[Wilhelm Magnus]], A. Karras, D. Solitar: *Combinatorial group theory: Presentation of groups in terms of generators and relations*, Courier Corporation (1966, 2004) &lbrack;[ISBN:0-486-43830-9](https://www.maa.org/press/maa-reviews/combinatorial-group-theory-presentations-of-groups-in-terms-of-generators-and-relations), [GoogleBooks](https://books.google.com/books?hl=en&lr=&id=1LW4s1RDRHQC&oi=fnd&pg=PP1&ots=WszNa-0hEz&sig=Hn_MTbyLcEreBBNZ8jJtQUVKlZk)&rbrack;
 
-* R. Lindon, P. Schupp, _Combinatorial group theory_, Springer 1977 (Russian transl. Mir, Moskva 1980)
+* Roger C. Lindon, Paul E. Schupp: *Combinatorial group theory*, Springer (1977) &lbrack;[doi:10.1007/978-3-642-61896-3](https://doi.org/10.1007/978-3-642-61896-3)&rbrack;
 
 * [[David Lawrence Johnson]], *Topics in Theory of Group Presentations*, London Mathematical Society Lecture notes series **42**, Cambridge Univ. Press (1980) &lbrack;[doi:10.1017/CBO9780511629303](https://doi.org/10.1017/CBO9780511629303)&rbrack;
 
