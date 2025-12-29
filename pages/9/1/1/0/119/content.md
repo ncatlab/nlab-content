@@ -43,10 +43,10 @@ A **preordered set** is a [[loop digraph object|loop]] [[digraph]] $(V, E, s:E \
 $$tr:\{(f,g) \in E \times E \vert t(f) =_V s(g)\} \to E$$ 
 such that 
 
-* for every $a \in V$, $s(refl(a)) =_E a$
-* for every $a \in V$, $t(refl(a)) =_E a$
-* for every $f \in E$, $s(tr(g,f)) =_E s(f)$ 
-* for every $f \in E$, $t(tr(g,f)) =_E t(g)$
+* for every $a \in V$, $s(refl(a)) =_V a$
+* for every $a \in V$, $t(refl(a)) =_V a$
+* for every $f \in E$, $s(tr(g,f)) =_V s(f)$ 
+* for every $f \in E$, $t(tr(g,f)) =_V t(g)$
 * for every $f \in E$, $tr(f, refl(s(f))) =_E f$ 
 * for every $f \in E$, $tr(refl(t(f)), f) =_E f$ 
 * for every $f \in E$, $g \in E$, and $h \in E$ such that $t(f) =_V s(g)$ and $t(g) =_V s(h)$, $tr(h,tr(g,f)) =_E tr(tr(h,g),f)$
