@@ -107,7 +107,7 @@ $$\Delta^2 =
      \right\}
 $$
 
-with [[boundary]]
+with [[boundary of a simplex|boundary]]
 
 $$\partial \Delta^2 =   \left\{
       \array{
