@@ -28,6 +28,10 @@ $$
 
 for some [[dimension]] $d \in \mathbb{N}$ and some [[ground field]] $k$, in other words: it it admits a *[[faithful representation|faithful]]* [[linear representation]] of [[finite-dimensional vector space|finite-dimensional]].
 
+## Properties
+
+* [[Tits alternative]]
+
 ## References
 
 See also: 
