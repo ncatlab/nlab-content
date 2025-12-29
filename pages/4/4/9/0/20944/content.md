@@ -22,7 +22,7 @@ An invertible ([[extended functorial field theory|extended]]) [[functorial field
 
 ## References
 
-The proposal to understand [[quantum anomalies]] of lower-dimensional non-invertible (and possibly non-topological) [[quantum field theories]] as invertible topoligical field theories:
+The proposal to understand [[quantum anomalies]] of lower-dimensional non-invertible (and possibly non-topological) [[quantum field theories]] as invertible topological field theories:
 
 * {#FreedMoore06} [[Daniel S. Freed]], [[Gregory W. Moore]], Def. 5.7 in: *Setting the quantum integrand of M-theory*, Commun. Math. Phys. **263** (2006) 89-132 &lbrack;[arXiv:hep-th/0409135](https://arxiv.org/abs/hep-th/0409135), [doi:10.1007/s00220-005-1482-7](https://doi.org/10.1007/s00220-005-1482-7)&rbrack;
 
