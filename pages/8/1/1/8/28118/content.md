@@ -23,13 +23,12 @@ and on their  relationship to [[differential categories]]:
 
 * [[Sacha Ikonicoff]], [[Jean-Simon Pacaud Lemay]], _Cartesian Differential Comonads and New Models of Cartesian Differential Categories_, 2021, [doi:10.48550/arXiv.2108.04304](https://doi.org/10.48550/arXiv.2108.04304), 
 
-with  Arxiv prepublications:
+and [[tangent categories]]:
 
-*    [[Sacha Ikonicoff]], [[Jean-Simon Pacaud Lemay]], [[Tim Van der Linden]], _From Abelianization to tangent categories_, arxiv preprint: [doi.org/10.48550/arXiv.2510.12324](https://doi.org/10.48550/arXiv.2510.12324)
+* [[Sacha Ikonicoff]]: _Tangent structures for divided power algebras_ &lbrack;[arXiv:2508.16302](https://arxiv.org/abs/2508.16302)&rbrack;
 
-and 
+*  [[Sacha Ikonicoff]], [[Jean-Simon Pacaud Lemay]], [[Tim Van der Linden]]: _From Abelianization to tangent categories_ &lbrack;[arXiv:2510.12324](https://arxiv.org/abs/2510.12324)&rbrack;
 
- *   [[Sacha Ikonicoff]], _Tangent structures for divided power algebras_, arxiv preprint: [doi.org/10.48550/arXiv.2508.16302](https://doi.org/10.48550/arXiv.2508.16302)
 
 
 category: people
