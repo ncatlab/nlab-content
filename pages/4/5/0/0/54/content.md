@@ -483,17 +483,23 @@ If you are a graduate student or young postdoc thinking of entering the Sati-Sch
 
   see the chapter *Model categories* in *[[schreiber:The Character Map in Non-Abelian Cohomology]]* (chapter 1 in the printed version, appendix in the arXiv version)
 
-  and for more details the nLab entries *[[Introduction to Homotopy Theory]]* or for yet more details *[[geometry of physics -- categories and toposes]]*
+  and for more details the nLab entries *[[Introduction to Homotopy Theory]]* or for yet more details *[[geometry of physics -- categories and toposes]]*,
+
+  quick exposition is in *[[schreiber:Higher Topos Theory in Physics]]*,
 
 * for relevant basics of [[rational homotopy theory]] and [[L-infinity algebras|$L_\infty$-Lie algebras]]:
 
-  see the part *Non-abelian de Rham cohomology* in *[[schreiber:The Character Map in Non-Abelian Cohomology]]*
+  see the part *Non-abelian de Rham cohomology* in *[[schreiber:The Character Map in Non-Abelian Cohomology]]*,
 
 * for relevant basics of [[nLab:supergravity]] and [[super p-branes|super $p$-branes]]:
 
   see the articles *[[schreiber:Flux Quantization on 11d Superspace]]* and *[[schreiber:Flux Quantization on M5-Branes]]*
 
   and/or the nLab entry *[[geometry of physics -- supergeometry and superphysics]]*
+
+* for introductions to the actual program, try:
+
+  *[[schreiber:Flux Quantization]]* and *[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]*.
 
 \linebreak
 
