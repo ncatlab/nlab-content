@@ -58,9 +58,11 @@ A class of Hopf-Galois extensions admitting a cleaving map   is dedicated a sepa
 * [[Stefaan Caenepeel]], Septimiu Crivei, Andrei Marcus, [[Mitsuhiro Takeuchi]], _Morita equivalences induced by bimodules over Hopf-Galois extensions_, J. Algebra __314__ (2007) 267--302 [pdf](https://core.ac.uk/download/pdf/81180359.pdf)
 
 * [[Peter Schauenburg]], _Hopf bimodules over Hopf-Galois extensions, Miyashita–Ulbrich actions, and monoidal center constructions_, Comm. Algebra 24 (1996) 143--163 [doi](https://doi.org/10.1080/00927879608825559)
+
 * [[Peter Schauenburg]], _Hopf-Galois and bi-Galois extensions_, from: “Galois theory, Hopf
 algebras, and semiabelian categories”, (G Janelidze, B Pareigis, W Tholen, editors), Fields Inst. Commun. 43, Amer. Math. Soc. (2004) 469--515 [MR2075600](http://www.ams.org/mathscinet-getitem?mr=2075600)
-* Giovanni Landi, Chiara Pagani, _Push-forward of Hopf--Galois extensions: the non central case_, arXiv:[2512.20465](https://arxiv.org/abs/2512.20465)
+
+* Giovanni Landi, Chiara Pagani: _Push-forward of Hopf--Galois extensions: the non central case_ &lbrack;[arXiv:2512.20465](https://arxiv.org/abs/2512.20465)&rbrack;
 
 ### Categorifications and homotopifications
 
