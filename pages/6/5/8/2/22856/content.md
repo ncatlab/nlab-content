@@ -152,7 +152,7 @@ It is related to [[differential categories]] in:
 
 On divided powers:
 
-* [[Luis Narváez Macarro]], _Hasse-Schmidt derivations, divided powers and differential smoothness_, 2009, [doi:10.5802/aif.2513](https://doi.org/10.5802/aif.2513), [pdf](https://aif.centre-mersenne.org/item/10.5802/aif.2513.pdf)
+* Luis Narváez Macarro: _Hasse-Schmidt derivations, divided powers and differential smoothness_, 2009, [doi:10.5802/aif.2513](https://doi.org/10.5802/aif.2513), [pdf](https://aif.centre-mersenne.org/item/10.5802/aif.2513.pdf)
 
 See also:
 
