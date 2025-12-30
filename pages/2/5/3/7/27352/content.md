@@ -114,7 +114,12 @@ Further developments:
 * Abhishek Agarwal, Dimitra Karabali, [[V. Parameswaran Nair]]: *Fractional quantum Hall effect in higher dimensions*, Phys. Rev. D **111** (2025) 025002 \[<a href="https://doi.org/10.1103/PhysRevD.111.025002">doi:10.1103/PhysRevD.111.025002</a>, <a href="https://arxiv.org/abs/2410.14036">arXiv:2410.14036</a>\]
  > ([[higher dimensional Chern-Simons theory]])
 
+* T. H. Hansson, Rodrigo Arouca, Thomas Klein Kvorning: *On the relation between fractional charge and statistics* \[<a href="https://arxiv.org/abs/2412.15857">arXiv:2412.15857</a>\]
+
 * Paul Leask: *Anyon interactions in the Chern--Simons--Landau--Ginzburg model of the fractional quantum Hall effect* \[<a href="https://arxiv.org/abs/2510.04830">arXiv:2510.04830</a>\]
+
+
+
 
 
 
