@@ -56,7 +56,7 @@ of [[sheaves]] on the [[site]] [[SmthMfd]] of [[smooth manifolds]] equipped with
 
 Since $SmthMfd$ is [[equivalence of categories|equivalent]] to the category of [[manifolds]] _embedded_ into $\mathbb{R}^\infty$, $SmthMfd$ is an [[essentially small category]], so there are no size issues involved in this definition.
 
-But since manifolds themselves are defined in terms of gluing conditons, the [[Grothendieck topos]] $SmthSet$ depends on much less than all of $SmthMfd$.
+But since manifolds themselves are defined in terms of gluing conditions, the [[Grothendieck topos]] $SmthSet$ depends on much less than all of $SmthMfd$.
 
 Let
 
