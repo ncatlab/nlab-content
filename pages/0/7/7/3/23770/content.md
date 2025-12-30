@@ -9,7 +9,12 @@
 
 On [[string-net models]] via [[tensor networks]]:
 
-* [[Zheng-Cheng Gu]], [[Michael Levin]], [[Brian Swingle]], [[Xiao-Gang Wen]], *Tensor-product representations for string-net condensed states*, Phys. Rev. B **79** (2009) 085118 $[$[doi:10.1103/PhysRevB.79.085118](https://doi.org/10.1103/PhysRevB.79.085118)$]$  
+* [[Zheng-Cheng Gu]], [[Michael Levin]], [[Brian Swingle]], [[Xiao-Gang Wen]], *Tensor-product representations for string-net condensed states*, Phys. Rev. B **79** (2009) 085118 &lbrack;[doi:10.1103/PhysRevB.79.085118](https://doi.org/10.1103/PhysRevB.79.085118)&rbrack;
+
+Co-predicting the [[fractional quantum anomalous Hall effect]]:
+
+* {#SunGuKatsuraDasSarma11} Kai Sun, [[Zheng-Cheng Gu]], Hosho Katsura, [[Sankar Das Sarma]]: _Nearly Flatbands with Nontrivial Topology_, Phys. Rev. Lett. **106** (2011) 236803 &lbrack;[arXiv:1012.5864](https://arxiv.org/abs/1012.5864), [doi:10.1103/PhysRevLett.106.236803](https://doi.org/10.1103/PhysRevLett.106.236803)&rbrack;
+
 
 On [[braid group]]-effects in 2d [[symmetry protected topological phases]]:
 
