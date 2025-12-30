@@ -1,4 +1,5 @@
 
+* [personal webpage](https://kensuke-arakawa.github.io/)
 * [arXiv page](https://arxiv.org/a/arakawa_k_1.html)
 
 ## Selected writings
