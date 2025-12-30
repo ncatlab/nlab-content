@@ -15,9 +15,9 @@
 =--
 
 
-# Contents #
-* table of contents 
-{: toc}
+\tableofcontents
+
+
 
 ## Statement 
 
@@ -37,13 +37,18 @@ $$\log(1 + x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \ldots $$
 
 with radius of convergence equal to $1$. (A formal verification of the binomial theorem may be found at [[coinduction]].) 
 
-Thus, if we define the **binomial coefficient** $\binom{r}{k}$ by the formula 
+Thus, if we define the **[[binomial coefficient]]** $\binom{r}{k}$ by the formula 
 
 $$\binom{r}{k} \coloneqq \frac{r^{\underline{k}}}{k!},$$ 
 
 then we have 
 
-$$(y + x)^r = \sum_{k \geq 0} \binom{r}{k} y^{r-k}x^k$$ 
+$$
+  (y + x)^r 
+   \;=\; 
+  \sum_{k \geq 0} 
+   \binom{r}{k} \cdot y^{r-k} \cdot x^k
+$$ 
 
 whenever ${|\frac{x}{y}|} \lt 1$, i.e., whenever ${|y|} \gt {|x|}$. More precisely: for any fixed $y \neq 0$, this equation holds for any branch of the logarithm that we use to define $(y+x)^r$ as $\exp(r\log(y+x))$ over the domain $\{x: {|x|} \lt {|y|}\}$. 
 
@@ -89,6 +94,8 @@ may be interpreted combinatorially: a $k$-element subset $K$ of $X + 1$ is eithe
 
 ## Related concepts
 
+* [[binomial coefficient]]
+
 * [[multinomial coefficient]]
 
 * [[factorial]], [[double factorial]]
@@ -104,5 +111,3 @@ See also
 * Wikipedia, _[Binomial theorem](https://en.wikipedia.org/wiki/Binomial_theorem)_
 
 
-[[!redirects binomial coefficient]] 
-[[!redirects binomial coefficients]] 
