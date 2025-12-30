@@ -1,5 +1,5 @@
 
-> There is also a notion of [[special lambda-ring]]. But in most cases by ''$\lambda$-ring'' is meant ''special $\lambda$-ring''.
+> There is also a notion of [[special lambda-ring]], and in many cases the terminology "$\lambda$-ring" actually refers by default to special $\lambda$-rings.
 
 
 +-- {: .rightHandSide}
@@ -13,10 +13,7 @@
 =--
 
 
-# $\Lambda$-rings
-* table of contents
-{: toc}
-
+\tableofcontents
 
 
 ## Idea
@@ -97,7 +94,7 @@ $$\lambda^n (1+\sum_{m=1}^\infty r_m t^m)=1+\sum_{m=1}^\infty P_{m,n}(r_1,\dots,
 
 =--
 
-([Hopkinson](#Hopkinson))
+([Hopkinson 2006](#Hopkinson2006))
 
 +-- {: .num_prop}
 ###### Proposition
@@ -114,7 +111,7 @@ Equivalently this result asserts that $\Lambda$ is the [[free construction|free]
 
 =--
 
-This is due to ([Hopkinson](#Hopkinson))
+This is due to [Knutson 1973](#Knutson1973), see also [Hopkinson 2006](#Hopkinson2006).
 
 
 +-- {: .proof}
@@ -355,6 +352,7 @@ in [[Borger's absolute geometry]] ([Borger 08](#Borger08), exposition in [Borger
 * [[Generalized Lambda-structure]]
 
 
+
 ## References
 
 The $\lambda$-ring structure on [[topological K-theory]] goes back to [[Alexander Grothendieck]] in the 1960s.
@@ -363,29 +361,28 @@ The relation to lifts of [[Frobenius homomorphisms]] is due to
 
 * {#Wilkerson82} Wilkerson 1982
 
-Modern accounts include
+Modern accounts include:
 
-* [[Michiel Hazewinkel]], _Formal groups and applications_
+* {#Knutson1973} [[Donald Knutson]]: *Lambda-Rings and the Representation Theory of the Symmetric Group*, Lecture Notes in Mathematics **308**, Springer (1973) &lbrack;[doi:10.1007/BFb0069217](https://doi.org/10.1007/BFb0069217)&rbrack;
 
-* {#Hazewinkel08} [[Michiel Hazewinkel]],  _[[Hazewinkel, Witt vectors|Witt vectors]]_, ([arXiv](http://arxiv.org/abs/0804.3888))
+* [[Michiel Hazewinkel]]: _Formal groups and applications_, Academic Press (1978) &lbrack;[pdf](https://math.bu.edu/people/jsweinst/AWS/Files/HazewinkelFormalGroups.pdf)&rbrack;
+
+* {#Hazewinkel08} [[Michiel Hazewinkel]]:  *Witt vectors*, &lbrack;[arXiv:0804.3888](http://arxiv.org/abs/0804.3888)&rbrack;
   
 See also
 
 * John Baez, [comment](http://golem.ph.utexas.edu/category/2007/12/this_weeks_finds_in_mathematic_19.html#c013821).
 
 
-* John R. Hopkinson, _Universal polynomials in lambda-rings and the K-theory of the infinite loop space $tmf$_, thesis, [pdf](http://dspace.mit.edu/bitstream/handle/1721.1/34544/71011847.pdf?sequence=1)
-  {#Hopkinson}
-
-* Donald Knutson, $\lambda$-Rings and the Representation Theory of the Symmetric Group, Lecture Notes in Mathematics, Vol. 308, Springer, Berlin, 1973.
+* {#Hopkinson2006} John R. Hopkinson, _Universal polynomials in lambda-rings and the K-theory of the infinite loop space $tmf$_, PhD thesis, MIT (2006) &lbrack;[hdl:1721.1/34544](http://hdl.handle.net/1721.1/34544)&rbrack;
+  
 
 * [concretenonsense blog](http://concretenonsense.wordpress.com/2009/07/23/lambda-rings)
 * Donald Yau, [LAMBDA-RINGS] (http://www.worldscibooks.com/mathematics/7664.html), World Scientific, 2010.
 
-school/conference in Leiden: Frobenius lifts and lambda rings 5-10. October 2009 featuring 
+* school/conference in Leiden: Frobenius lifts and lambda rings 5-10. October 2009 featuring 
 
-* [[Pierre Cartier]]: Lambda-rings and Witt vectors
-
+* [[Pierre Cartier]]: *Lambda-rings and Witt vectors*
 
 * [[Lars Hesselholt]]: The de Rham-Witt complex
 
@@ -394,9 +391,9 @@ school/conference in Leiden: Frobenius lifts and lambda rings 5-10. October 2009
 * [[James Borger]]: Lambda-algebraic geometry 
 
 
-[conference site](http://www.lorentzcenter.nl/lc/web/2009/342/info.php3?wsid=342)
+  [conference site](http://www.lorentzcenter.nl/lc/web/2009/342/info.php3?wsid=342)
 
-[participants](http://www.lorentzcenter.nl/lc/web/2009/342/participants.php3?wsid=342)
+  [participants](http://www.lorentzcenter.nl/lc/web/2009/342/participants.php3?wsid=342)
 
 The $\lambda$-ring structure on [[equivariant elliptic cohomology]] is due to
 
