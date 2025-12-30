@@ -293,6 +293,9 @@ known in [[quantum information theory]] as a *[[rotation gate]]*.
 
 Monographs:
 
+* {#Knutson1973} [[Donald Knutson]]: *Lambda-Rings and the Representation Theory of the Symmetric Group*, Lecture Notes in Mathematics **308**, Springer (1973) &lbrack;[doi:10.1007/BFb0069217](https://doi.org/10.1007/BFb0069217)&rbrack;
+  > (in relation to [[Lambda-rings]])
+
 * {#James78} [[G. D. James]], *The Representation Theory of the Symmetric Groups*, Lecture Notes in Mathematics **682**, Springer (1978) &lbrack;[doi:10.1007/BFb0067708](https://link.springer.com/book/10.1007/BFb0067708)&rbrack;
 
 * [[Gordon D. James]], Adalbert Kerber: *The Representation Theory of the Symmetric Group*, Cambridge University Press (1984) &lbrack;[doi:10.1017/CBO9781107340732](https://doi.org/10.1017/CBO9781107340732)&rbrack;
