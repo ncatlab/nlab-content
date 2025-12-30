@@ -24,12 +24,12 @@ $$
   \;\;\;
   \text{where}\; \alpha \in \{1,\ldots, K\}
 $$
-with coefficients $a_1,\ldots, a_n$ in a [[group]] $G$, a solution in $G$ for unknowns $x_1,\ldots,x_m$ supplies the evaluation "functional" $Hom(G_F,G)$, where $G_F$ is
+with coefficients $a_1,\ldots, a_n$ in a [[group]] $G$, a solution in $G$ for unknowns $x_1,\ldots,x_m$ supplies the evaluation "functional" in $Hom(G_F,G)$, where $G_F$ is
 the [[direct product]] of $n+m$ copies of $G$ modulo the [[normal subgroup]] determined by $F_\alpha$ for fixed constants $a_i$. 
 
 [Makanin 1982](#Makanin1982) found an [[algorithm]] which for such a finite system of equations over a free group on $s$ letters produces all solutions when at least one exists. In his thesis, [Razborov 1984](#Razborov1984) developed the theory further. 
 
-Later, similar schemes, now called *Makanin-Razborov diagrams*, for finding $Hom(H,G)$ in the larger generality where $H$ is some [[finitely generated group]], were discussed by various authors, including Sela, Reinfeldt, Weidman, Bestvina, and Feighn.
+Later, similar schemes, now called *Makanin-Razborov diagrams*, for finding $Hom(H,G)$ in the larger generality where $H$ is some [[finitely generated group]], were discussed by various authors, including Sela, Reinfeldt, Weidmann, Bestvina, and Feighn.
 
 
 ## Literature
