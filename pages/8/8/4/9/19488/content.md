@@ -28,7 +28,14 @@ For the moment, for more see at _[[geometry of physics]]_ the chapters _[[geomet
 
 ## References
 
+In the context of [[jet bundles]] and [[partial differential equations]]:
+
 * {#KhavkineSchreiber17} [[Igor Khavkine]], [[Urs Schreiber]]: _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
+
+and further in the context of [[variational calculus]] and [[Lagrangian field theory]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Field Theory via Higher Geometry II: Thickened Smooth Sets as Synthetic Foundations* &lbrack;[arXiv:2512.22816](https://arxiv.org/abs/2512.22816)&rbrack;
+
 
 
 [[!redirects formal smooth sets]]
