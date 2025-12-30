@@ -15,14 +15,20 @@ On [[anyons]]  in [[fractional quantum Hall systems]] as potential hardware for 
 
 * [[Sankar Das Sarma]], [[Michael Freedman]], [[Chetan Nayak]]: *Topologically-Protected Qubits from a Possible Non-Abelian Fractional Quantum Hall State*, Phys. Rev. Lett. **94** 166802 (2005) \[<a href="https://doi.org/10.1103/PhysRevLett.94.166802">doi:10.1103/PhysRevLett.94.166802</a>, [arXiv:cond-mat/0412343](https://arxiv.org/abs/cond-mat/0412343)\]
 
+On [[anyons]] in application to [[quantum computation]]:
+
+* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
+
 
 Proposing nanowire experiments potentially realizing [[Majorana zero modes]]:
 
 * Roman M. Lutchyn, Jay D. Sau, [[Sankar Das Sarma]], *Majorana Fermions and a Topological Phase Transition in Semiconductor-Superconductor Heterostructures*, Phys. Rev. Lett. **105** (2010) 077001 &lbrack;[doi:10.1103/PhysRevLett.105.077001](https://doi.org/10.1103/PhysRevLett.105.077001)&rbrack;  
 
-On [[anyons]] in application to [[quantum computation]]:
 
-* [[Chetan Nayak]], [[Steven H. Simon]], [[Ady Stern]], [[Michael Freedman]], [[Sankar Das Sarma]], _Non-Abelian Anyons and Topological Quantum Computation_, Rev. Mod. Phys. 80, 1083 (2008) ([arXiv:0707.1888] (http://arxiv.org/abs/0707.1889))
+Co-predicting the [[fractional quantum anomalous Hall effect]]:
+
+* {#SunGuKatsuraDasSarma11} Kai Sun, [[Zheng-Cheng Gu]], Hosho Katsura, [[Sankar Das Sarma]]: _Nearly Flatbands with Nontrivial Topology_, Phys. Rev. Lett. **106** (2011) 236803 &lbrack;[arXiv:1012.5864](https://arxiv.org/abs/1012.5864), [doi:10.1103/PhysRevLett.106.236803](https://doi.org/10.1103/PhysRevLett.106.236803)&rbrack;
+
 
 On the [[adiabatic quantum computation|adiabaticity]] of [[topological quantum computation]] by [[braid group|braiding]] of [defect anyons](braid+group+statistics#AsBraidingOfDefects):
 
