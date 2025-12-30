@@ -67,6 +67,7 @@ On [[abelian Chern-Simons theory]] as an [[effective field theory]] for the [[fr
 
 * {#WenEdgeStates92} [[Xiao-Gang Wen]]: *Theory of Edge States in Fractional Quantum Hall Effects*, International Journal of Modern Physics B **06** 10 (1992) 1711-1762 \[<a href="https://doi.org/10.1142/S0217979292000840">doi:10.1142/S0217979292000840</a>\]
 
+
 On [[edge modes]] in [[fractional quantum Hall systems]]:
 
 * [Wen 1992](#WenEdgeStates92), "Theory of Edge States..."
@@ -80,6 +81,11 @@ and on [[quantum tunneling|tunneling]] of edge modes:
 * [[Claudio Chamon]], D. E. Freed, S. A. Kivelson, S. L. Sondhi, [[Xiao-Gang Wen]]: *Two point-contact interferometer for quantum Hall systems*, Phys. Rev. B **55** (1997) 2331 &lbrack;[doi:10.1103/PhysRevB.55.2331](https://doi.org/10.1103/PhysRevB.55.2331)&rbrack;
 
 * [[Claudio Chamon]], [[Xiao-Gang Wen]]: *Resonant tunneling in the fractional quantum Hall regime*, Phys. Rev. Lett. **70** (1993) 2605 &lbrack;[doi:10.1103/PhysRevLett.70.2605](https://doi.org/10.1103/PhysRevLett.70.2605)&rbrack;
+
+Co-predicting the [[fractional quantum anomalous Hall effect]]:
+
+* {#TangMeiWen11} Evelyn Tang, Jia-Wei Mei, [[Xiao-Gang Wen]]: _High-Temperature Fractional Quantum Hall States_, Phys. Rev. Lett. **106** (2011) 236802 &lbrack;[arXiv:1101.1942](https://arxiv.org/abs/1101.1942), [doi:10.1103/PhysRevLett.106.236802](https://doi.org/10.1103/PhysRevLett.106.236802)&rbrack;
+
 
 
 On ground state degeneracy ([[topological order]]) of [[topological phases of matter]] on [[surfaces]] with ("gapped") [[boundary of a manifold|boundaries]] via [[effective field theory|effective]] [[abelian Chern-Simons theory]]:
