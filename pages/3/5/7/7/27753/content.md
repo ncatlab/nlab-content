@@ -114,9 +114,15 @@ See also:
 ### Fractional QAHE
 
 
-Theoretical prediction:
+The original theoretical prediction (published back-to-back in the same volume):
+
+* {#TangMeiWen11} Evelyn Tang, Jia-Wei Mei, [[Xiao-Gang Wen]]: _High-Temperature Fractional Quantum Hall States_, Phys. Rev. Lett. **106** (2011) 236802 &lbrack;[arXiv:1101.1942](https://arxiv.org/abs/1101.1942), [doi:10.1103/PhysRevLett.106.236802](https://doi.org/10.1103/PhysRevLett.106.236802)&rbrack;
+
+* {#SunGuKatsuraDasSarma11} Kai Sun, [[Zheng-Cheng Gu]], Hosho Katsura, [[Sankar Das Sarma]]: _Nearly Flatbands with Nontrivial Topology_, Phys. Rev. Lett. **106** (2011) 236803 &lbrack;[arXiv:1012.5864](https://arxiv.org/abs/1012.5864), [doi:10.1103/PhysRevLett.106.236803](https://doi.org/10.1103/PhysRevLett.106.236803)&rbrack;
 
 * [[Titus Neupert]], [[Luiz Santos]], [[Claudio Chamon]], [[Christopher Mudry]]: *Fractional quantum Hall states at zero magnetic field*, Phys. Rev. Lett. **106** (2011) 236804  &lbrack;[arXiv:1012.4723](https://arxiv.org/abs/1012.4723), [doi:10.1103/PhysRevLett.106.236804](https://doi.org/10.1103/PhysRevLett.106.236804)&rbrack;
+
+and further early theoretical development:
 
 * S. A. Parameswaran, [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Quantum Hall Physics in Topological Flat Bands*, Comptes Rendus. Physique, Topological insulators / Isolants topologiques, **14** 9-10 (2013) 816-839 &lbrack;[arXiv:1302.6606](https://arxiv.org/abs/1302.6606), [doi:10.1016/j.crhy.2013.04.003](https://doi.org/10.1016/j.crhy.2013.04.003)&rbrack;
   > "The possibility of stabilizing exotic topological phases outside of a dilution fridge and without a superconducting magnet, and the avenues it opens for further experimental
