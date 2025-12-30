@@ -311,8 +311,6 @@ With its original site of all [[formal smooth manifolds]], the Cahiers topos als
 
 *  {#Kock81} [[Anders Kock]], ex. 2 on p. 191 of: _Synthetic Differential Geometry_, Cambridge University Press (1981, 2006) &lbrack;[pdf](http://home.imf.au.dk/kock/sdg99.pdf), [doi:10.1017/CBO9780511550812](https://doi.org/10.1017/CBO9780511550812)&rbrack;
 
-
-
 With an eye towards [[Frölicher space]]s the site is also considered in section 5 of 
 
 * Hirokazu Nishimura, _Beyond the Regnant Philosophy of Manifolds_ ([arXiv:0912.0827](http://arxiv.org/abs/0912.0827))
@@ -320,3 +318,8 @@ With an eye towards [[Frölicher space]]s the site is also considered in section
 The [[(∞,1)-topos]] analog of the Cahiers topos ([[synthetic differential ∞-groupoids]]) is discussed in section 3.4 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
+
+More on the $\mathbb{R}$-algebraic formulation with application to [[variational calculus]] and [[Lagrangian field theory]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Field Theory via Higher Geometry II: Thickened Smooth Sets as Synthetic Foundations* &lbrack;[arXiv:2512.22816](https://arxiv.org/abs/2512.22816)&rbrack;
+
