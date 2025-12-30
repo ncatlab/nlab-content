@@ -108,6 +108,11 @@ On using integrable systems for solving [[combinatorics]] problems:
 
 * [[Paul Zinn-Justin]], *Integrability and combinatorics*,  in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2404.13221](https://arxiv.org/abs/2404.13221)&rbrack;
 
+Relation to [[gauge theory]]:
+
+* Igor Chaban, [[Nikita Nekrasov]]: *Lectures on Gauge theories and Many-Body systems* &lbrack;[arXiv:2512.23099](https://arxiv.org/abs/2512.23099)&rbrack;
+
+
 
 ### In gravity
 
