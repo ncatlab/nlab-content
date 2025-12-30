@@ -16,6 +16,10 @@ On [[smooth sets]] as a [[convenient category of spaces|convenient category]] fo
 
 * {#GiotopoulosSati23} [[Grigorios Giotopoulos]], [[Hisham Sati]], *Field Theory via Higher Geometry I: [[schreiber:Smooth Sets of Fields]]*, Journal of Geometry and Physics **213** (2025) 105462 &lbrack;[arXiv:2312.16301](https://arxiv.org/abs/2312.16301), [doi:10.1016/j.geomphys.2025.105462](https://doi.org/10.1016/j.geomphys.2025.105462)&rbrack;
 
+and generalization to [[formal smooth sets]]:
+
+* [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Field Theory via Higher Geometry II: Thickened Smooth Sets as Synthetic Foundations* &lbrack;[arXiv:2512.22816](https://arxiv.org/abs/2512.22816)&rbrack;
+
 Expositions:
 
 * [[Grigorios Giotopoulos]],  *Classical field theory in the topos of smooth sets*, [talk at](Center+for+Quantum+and+Topological+Systems#GiotopoulosOct2023) [[CQTS]] (Oct 2023) &lbrack;[[Giotopoulos-FieldTheoryInSmoothSets.pdf:file]], video:[YT](https://youtu.be/7Bw9CJct8QY)&rbrack;
