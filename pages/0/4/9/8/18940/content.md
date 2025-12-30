@@ -48,6 +48,12 @@ This number is the number of ways of drawing $k_1$ elements and then $k_2$ eleme
 
 For $r = 2$ this is the _[[binomial coefficient]]_.
 
+## Related entries
+
+* [[binomial theorem]]
+
+* [[binomial coefficient]]
+
 ## References
 
 See also
