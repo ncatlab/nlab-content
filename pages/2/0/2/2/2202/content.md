@@ -48,6 +48,8 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 
 * The category of [[convex space|convex spaces]], also known as 'barycentric algebras', made into a closed monoidal category where the internal hom has $hom(x,y)$ being the set of convex linear maps from $x$ to $y$, made into an barycentric algebra via pointwise operations.
 
+* More generally, a category of algebras for a [[commutative algebraic theory]] is (symmetric) monoidal with the unit being the free algebra on one generator. This unit is terminal if and only if every operation of the theory satisfies an "idempotence"/"constancy" law $o(x,\ldots) = x$.
+
 * The thin category associated to the linear order $([0, \infty], \ge)$ of extended nonnegative real numbers with addition as the tensor product and [[internal hom]] as truncated subtraction. 
 
 * If $(M, \otimes, I)$ is any monoidal category, $I$ being the monoidal unit, the [[slice category]] $M/I$ inherits a monoidal product given by 
