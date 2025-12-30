@@ -77,7 +77,7 @@ $$
 
 ways. But if/since order does not matter then all $k!$ [[permutations]] of a sequence of $k$ elements picked count as the same choice, reducing the number of choices to (eq:PlainDefinition).
 
-From this perspective, equation (eq:Symmetry) reflects that the set of ways to *taking* $k$ items from a set of $n$ is in bijection to the set of ways of *leaving* $(n-k)$ items in the set.
+This perspective shows in particular that the fraction (eq:PlainDefinition) is indeed an [[integer]]; and from this perspective, equation (eq:Symmetry) reflects the FACT that the set of ways to *taking* $k$ items from a set of $n$ is in [[bijection]] to the set of ways of *leaving* $(n-k)$ items in the set.
 
 
 ### Variants
