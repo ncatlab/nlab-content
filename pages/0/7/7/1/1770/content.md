@@ -389,6 +389,36 @@ $SmthSet$ has [[point of a topos|enough points]]: they are given by the $D^n$ fo
 
 Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a smooth set, it is natural to consider the _smooth_ [[linear functionals]] on such [[mapping spaces]]. These turn out to be equivalent to the [[continuous linear functionals]], hence to [[distributional densities]]. See at _[[distributions are the smooth linear functionals]]_ for details.
 
+## Shape
+
+The __shape__ (or __smooth singular complex__) functor sends a smooth set $X$ to the [[simplicial set]] $\Pi X$ whose set of $n$-simplices is $X(\Delta^n)$, i.e., smooth maps from a smooth $n$-simplex to $X$.
+
+Various choices of [[cosimplicial objects]] $\Delta$ yield weakly equivalent shapes.
+Some of the more popular choices include the following.
+
+* The cosimplicial object $n\mapsto\{x\in\mathbf{R}^{n+1}\mid \sum_i x_i=1\}$ of extended smooth simplices, which is degreewise representable because it is isomorphic to $\mathbf{R}^n$.
+
+* The subobject of the above object given by taking $x_i\ge0$, which yields the more traditional notion of a singular complex.  This subobject is no longer a [[representable presheaf]], so working with it may be more involved.
+
+The left adjoint to the shape functor is known as the __smooth geometric realization__ functor.  It is computed much like the usual [[geometric realization]], but working in smooth sets instead of [[topological spaces]].
+
+## The relative category of smooth sets
+
+The category of smooth sets can be turned into a [[relative category]] by declaring a morphism of smooth sets to be a [[weak equivalence]] if its shape is a [[weak equivalence of simplicial sets]].
+
+The realization-shape adjunction described above has degreewise weak equivalences as its unit and counit and therefore is an equivalence of [[relative categories]].  Thus, smooth sets form yet another model for homotopy types, with the previous statement forming another variant of the [[homotopy hypothesis]].
+
+## Model structures on smooth sets
+
+The relative category of smooth sets described above admits a variety of model structures, some of which include the following ([Cisinski 2002](#Cisinski), Théorème 3.9).
+
+* The __injective model structure__, in which [[cofibrations]] are defined as [[monomorphisms]].
+
+* The __projective model structure__, [[transferred model structure|transferred]] from the [[Kan–Quillen model structure]] on [[simplicial sets]] along the shape functor.
+
+References on the projective model structure also include [Clough 2023](#Clough) (Proposition 7.1.5), [Pavlov 2022](#Pavlov) (Theorem 7.4).
+
+By [Pavlov 2022](#Pavlov) (Proposition 8.9), the projective model structure is a [[cartesian model structure]].
 
 ## Variants and generalizations
  {#VariantsAndGeneralizations}
@@ -415,9 +445,16 @@ $\,$
 
 ## References
 
-The category of sheaves of the site of smooth manifolds is considered as a model for [[homotopy types]] inL
+The category of sheaves of the site of smooth manifolds is considered as a model for [[homotopy types]] in
 
 * [[Denis-Charles Cisinski]], Ch. 6 in: *Faisceaux localement asph&eacute;riques* (2003) &lbrack;[pdf](https://cisinski.app.uni-regensburg.de/mtest2.pdf), [[Cisinski-FaisceauxLocAsph.pdf:file]]&rbrack;
+
+* {#Cisinski} [[Denis-Charles Cisinski]], _Théories homotopiques dans les topos_, Journal of Pure and Applied Algebra 174:1 (2002), 43–82.  [doi:10.1016/s0022-4049(01)00176-1][CisinskiURL].
+[CisinskiURL]: https://doi.org/10.1016/s0022-4049(01)00176-1
+
+* {#Clough} [[Adrian Clough]], _The homotopy theory of differentiable sheaves_, [arXiv:2309.01757](https://arxiv.org/abs/2309.01757).
+
+* {#Pavlov} [[Dmitri Pavlov]], _Projective model structures on diffeological spaces and smooth sets and the smooth Oka principle_, Homology, Homotopy, and Applications 26:2 (2024), 375–408.  [arXiv:2210.12845](https://arxiv.org/abs/2210.12845).
 
 and in the context of [[simplicial homotopy theory]] in:
 
