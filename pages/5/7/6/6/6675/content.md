@@ -132,7 +132,7 @@ Such operations on ground states are called **[holonomic quantum gates](adiabati
 
 These are **protected from external [[noise]]** quanta of energy $\lt \epsilon$
 
-**but** may still be sensitive no **[[noise]] in the parameter paths**.
+**but** may still be sensitive to **[[noise]] in the parameter paths**.
 
 \linebreak
 
@@ -295,7 +295,7 @@ all [[non-perturbative field theory|non-perturbative physics]], remains ill-unde
 
 The directly analogous problem in [[particle physics]],
 
-where the the [[energy gap]] is known as the *[[mass gap]]*,
+where the [[energy gap]] is known as the *[[mass gap]]*,
 
 has been termed a [Millennium Problem](https://en.wikipedia.org/wiki/Millennium_Prize_Problems) by the [Clay Math Institute](https://www.claymath.org/)
 
