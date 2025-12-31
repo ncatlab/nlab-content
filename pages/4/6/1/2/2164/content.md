@@ -73,7 +73,7 @@ $(-)^D : C \to C$ for maps out of $D$ (i.e. the functor of
 if it has a [[right adjoint]].
 =--
 
-An object which is infinitesimal atomic is small from the internal perspective of the category. In contrast, an object is a [[tiny object]] when it is small from the external perspective, that is when the functor $C(D,-):C\to Set$ into the category of sets preseves colimits. 
+An object which is infinitesimal atomic is small from the internal perspective of the category. In contrast, an object is a [[tiny object]] when it is small from the external perspective, that is when the functor $C(D,-):C\to Set$ into the category of sets preserves colimits. 
 
 When $C$ is a local Grothendieck topos over $Set$, then the two notions agree, but they do not in general. For example the terminal object $\mathbf 1$ in $C$ is always internally small (infinitesimal atomic), since the functor $(-)^{\mathbf 1}$ always has a right adjoint. But it is not necessarily a [[tiny object]] from the external perspective, since $C(\mathbf 1,-)$ need not preserve colimits. This happens in situations where it is not appropriate to view the terminal object $\mathbf 1$ in a categoy as a small object from the external perspective, for example when we are in a slice topos $C/S$. In such cases the correct intuitive external meaning of an object being internally small is that it is small in each fiber.  
 
