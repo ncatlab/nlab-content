@@ -104,7 +104,7 @@ with values in invertible [[matrices]], hence in the
 [[general linear group]] $GL(n)$. By construction (by the [[chain rule]]), these functions satisfy on triple overlaps of coordinate charts the [[matrix product]] equations
 
 $$
-  (\lambda_{i j})^\mu{}_\lambda (\lambda_{j k})^\lambda{}_{\nu} 
+  (\lambda_{i j})^\mu{}_\sigma (\lambda_{j k})^\sigma{}_{\nu} 
   = 
   (\lambda_{i k})^\mu{}_{\nu}
   \,,
