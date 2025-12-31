@@ -22,7 +22,7 @@
 \begin{proposition}\label{MateBijection}
 **(mate bijection)**
 \linebreak
-Given a [[2-category]] $K$, [[adjunction|adjoint pairs]] $(\eta,\epsilon) \colon f \dashv u \colon b \to a$ and $(\eta',\epsilon') \colon f' \dashv u' \colon b' \to a'$ , and [[1-morphisms|1-cells]] $x \colon a \to a'$ and $y \colon b \to b'$, there is a [[bijection]]
+Given a [[2-category]] $K$, [[adjunction|adjoint pairs]] $(\eta,\epsilon) \colon f \dashv u \colon b \to a$ and $(\eta',\epsilon') \colon f' \dashv u' \colon b' \to a'$, and [[1-morphisms|1-cells]] $x \colon a \to a'$ and $y \colon b \to b'$, there is a [[bijection]]
 $$ K(a,b')(f' x,y f) \cong K(b,a')(x u,u' y) $$
 given by [[pasting]] with the [[unit of an adjunction|unit]] of one adjunction and the [[counit of an adjunction|counit]] of the other, i.e.:
 
