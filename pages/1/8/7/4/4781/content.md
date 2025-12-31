@@ -25,7 +25,7 @@ Let $\pi : P \to X$ be a [[bundle]] in the [[category]] of [[SmoothManifolds]]. 
 
 The collection of vertical vectors forms the _vertical tangent bundle_ inside the full [[tangent bundle]], typically denoted $T_\pi P$.
 
-For $\pi \colon P \to B$ a [[smooth function]] between [[smooth manifolds]], its _vertical tangent bundle_ is the [[fiber]]-wise [[kernel]] of the [[differential]] $d \pi$, as shown in the following diagram (e.g [Tu 17 (27.4)](#Tu17),  [Berglund 20, p. 16](#Berglund20)):
+For $\pi \colon P \to B$ a [[smooth map]] between [[smooth manifolds]], its _vertical tangent bundle_ is the [[fiber]]-wise [[kernel]] of the [[differential]] $d \pi$, as shown in the following diagram (e.g [Tu 17 (27.4)](#Tu17),  [Berglund 20, p. 16](#Berglund20)):
 
 \begin{tikzcd}[column sep=normal, row sep=small]
   T_{\pi} P
