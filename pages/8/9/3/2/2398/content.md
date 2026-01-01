@@ -199,14 +199,14 @@ In the generality of [[diffeological spaces]]:
 
 The refinement of the de Rham theorem from an [[isomorphism]] of [[cohomology group]]s to an [[equivalence]] of  [[A-∞ algebras]] of cochains and forms was first stated in 
 
-* [[Victor Gugenheim]], _On Chen's iterated integrals_ , Illinois J. Math. Volume 21, Issue 3 (1977), 703-715.
+* [[Victor Gugenheim]], _On Chen's iterated integrals_, Illinois J. Math. **21** 3 (1977) 703-715 &lbrack;[doi:10.1215/ijm/1256049021](https://doi.org/10.1215/ijm/1256049021)&rbrack;
  {#Gugenheim}
 
 proven using Chen's [[iterated integral]]s.
 
 A review is in section 3 of
 
-* [[Camilo Arias Abad]], [[Florian Schätz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_ ([arXiv:1011.4693](http://arxiv.org/abs/1011.4693))
+* [[Camilo Arias Abad]], [[Florian Schätz]], _The $A_\infty$ de Rham theorem and integration of representations up to homotopy_, Int. Math. Res. Not. **2013** 16 (2013) 3790-3855 &lbrack;[arXiv:1011.4693](http://arxiv.org/abs/1011.4693), [doi:10.1093/imrn/rns166](https://doi.org/10.1093/imrn/rns166)&rbrack;
 
 
 [[!redirects deRham theorem]]
