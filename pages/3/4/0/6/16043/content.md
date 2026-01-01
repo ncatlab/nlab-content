@@ -25,7 +25,7 @@ A _prime geodesic_ is a primitive closed [[geodesic]] in a [[hyperbolic manifold
 
 Prime geodesics in hyperbolic geometry are in several ways [[analogy|analogous]] to [[prime numbers]] and [[prime ideals]] in [[arithmetic geometry]]. 
 
-Notably they appear in the [[Selberg zeta function]] (see there) in the same way as prime ideals appear in the [[Artin L-function]], and moreover their [[asymptotics]] is controled in an analogous way by this function via the [[prime geodesic theorem]] as that of prime numbers is by the [[prime number theorem]] and the [[Riemann zeta function]].
+Notably they appear in the [[Selberg zeta function]] (see there) in the same way as prime ideals appear in the [[Artin L-function]], and moreover their [[asymptotics]] is controlled in an analogous way by this function via the [[prime geodesic theorem]] as that of prime numbers is by the [[prime number theorem]] and the [[Riemann zeta function]].
 
 A table of analogies is in ([Brown 09, p. 9](#Brown09)). Some are also mentioned in [Wikipedia, prime geodesic -- Number theory](http://en.wikipedia.org/wiki/Prime_geodesic#Number_theory).
 
