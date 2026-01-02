@@ -221,6 +221,9 @@ On [[anyons]] in FQAH systems:
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQAH Anyons|Identifying Anyonic Topological Order in Fractional Quantum Anomalous Hall Systems]]*, Applied Physics Letters (2025) &lbrack;[arXiv:2507.00138](https://arxiv.org/abs/2507.00138)&rbrack;
 
+* Felix A. Palm, Nader Mostaan, Nathan Goldman, Fabian Grusdt: *Interferometric Braiding of Anyons in Chern insulators* &lbrack;[https://arxiv.org/abs/2511.09445](arXiv:2511.09445)&rbrack;
+
+
 
 [[!redirects quantum anomalous Hall effects]]
 
