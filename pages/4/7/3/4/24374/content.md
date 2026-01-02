@@ -127,3 +127,6 @@ Mathematics in synthetic guarded domain theory can be formalized in the [[intern
 * {#guardedcubical} [Guarded Cubical Agda ](https://agda.readthedocs.io/en/latest/language/guarded-cubical.html)
 
 * [[Jonathan Sterling]], [Bibliography of Guarded Domain Theory](https://www.jonmsterling.com/jms-005S.xml)
+
+
+[[!redirects guarded domain theory]]
