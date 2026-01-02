@@ -113,8 +113,9 @@ See also:
 
 ### Fractional QAHE
 
+#### General
 
-The original theoretical prediction (published back-to-back in the same volume):
+The original theoretical prediction (published back-to-back in the same volume) of the fractional quantum anomalous Hall in fractional Chern insulators:
 
 * {#TangMeiWen11} Evelyn Tang, Jia-Wei Mei, [[Xiao-Gang Wen]]: _High-Temperature Fractional Quantum Hall States_, Phys. Rev. Lett. **106** (2011) 236802 &lbrack;[arXiv:1101.1942](https://arxiv.org/abs/1101.1942), [doi:10.1103/PhysRevLett.106.236802](https://doi.org/10.1103/PhysRevLett.106.236802)&rbrack;
 
@@ -213,15 +214,28 @@ Relation to [[superconductors]]:
 
 * Taige Wang, Michael P. Zaletel: *Chiral superconductivity near a fractional Chern insulator* &lbrack;[arXiv:2507.07921](https://arxiv.org/abs/2507.07921)&rbrack;
 
+#### Anyonic states
+  {#ReferencesFQAHAnyons}
+
 On [[anyons]] in FQAH systems:
 
+* Aidan P. Reddy, Nisarga Paul, Ahmed Abouelkomsan, Liang Fu: *Non-Abelian fractionalization in topological minibands*, Phys. Rev. Lett. **133** (2024) 166503 &lbrack;[arXiv:2403.00059](https://arxiv.org/abs/2403.00059), [doi:10.1103/PhysRevLett.133.166503](https://doi.org/10.1103/PhysRevLett.133.166503)
+&rbrack;
+
+* Hui Liu, Zhao Liu, Emil J. Bergholtz: *Non-Abelian Fractional Chern Insulators and Competing States in Flat Moiré Bands*, Phys. Rev. Lett. **135** (2025) 106604 &lbrack;[arXiv:2405.08887](https://arxiv.org/abs/2405.08887), [doi:10.1103/43nq-ntqm](https://doi.org/10.1103/43nq-ntqm)&rbrack;
+
 * Ryohei Kobayashi, Yuxuan Zhang, Naren Manjunath, [[Maissam Barkeshli]]: *Crystalline invariants of fractional Chern insulators*, Phys. Rev. B (2025) &lbrack;[arXiv:2405.17431](https://arxiv.org/abs/2405.17431), [doi:10.1103/8bpm-qbzp](https://doi.org/10.1103/8bpm-qbzp)&rbrack;
+
+* Hui Liu, Raul Perea-Causin & Emil J. Bergholtz: *Parafermions in moiré minibands*, Nature Communications **16** (2025) 1770 &lbrack;[doi:10.1038/s41467-025-57035-x](https://doi.org/10.1038/s41467-025-57035-x)&rbrack;
 
 * Zhengyan Darius Shi, T. Senthil: *Anyon delocalization transitions out of a disordered FQAH insulator*, PNAS **122**  51 (2025) e2520608122 &lbrack;[arXiv:2506.02128](https://arxiv.org/abs/2506.02128), [doi:10.1073/pnas.2520608122](https://doi.org/10.1073/pnas.2520608122)&rbrack;
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQAH Anyons|Identifying Anyonic Topological Order in Fractional Quantum Anomalous Hall Systems]]*, Applied Physics Letters (2025) &lbrack;[arXiv:2507.00138](https://arxiv.org/abs/2507.00138)&rbrack;
 
-* Felix A. Palm, Nader Mostaan, Nathan Goldman, Fabian Grusdt: *Interferometric Braiding of Anyons in Chern insulators* &lbrack;[https://arxiv.org/abs/2511.09445](arXiv:2511.09445)&rbrack;
+* Felix A. Palm, Nader Mostaan, Nathan Goldman, Fabian Grusdt: *Interferometric Braiding of Anyons in Chern insulators* &lbrack;[arXiv:2511.09445](https://arxiv.org/abs/2511.09445)&rbrack;
+
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Crystalline Chern Order|Fragile Topological Phases and Topological Order of 2D Crystalline Chern Insulators]]* &lbrack;[arXiv:2512.24709](https://arxiv.org/abs/2512.24709)&rbrack;
+
 
 
 
