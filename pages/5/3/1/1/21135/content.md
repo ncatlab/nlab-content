@@ -54,6 +54,7 @@ Further discussion:
 
 * [[Ken Shiozaki]], [[Masatoshi Sato]], [[Kiyonori Gomi]], *Topological Crystalline Materials - General Formulation, Module Structure, and Wallpaper Groups*, Phys. Rev. B **95** (2017) 235425 $[$[arXiv:1701.08725](https://arxiv.org/abs/1701.08725), [doi:10.1103/PhysRevB.95.235425](https://doi.org/10.1103/PhysRevB.95.235425)\]
 
+* [[Jorrit Kruthoff]], [[Jan de Boer]], Jasper van Wezel, [[Charles L. Kane]], [[Robert-Jan Slager]]: *Topological Classification of Crystalline Insulators through Band Structure Combinatorics*, Phys. Rev. X **7** 041069 (2017) \[<a href="https://doi.org/10.1103/PhysRevX.7.041069">doi:10.1103/PhysRevX.7.041069</a>, [arXiv:1612.02007](https://arxiv.org/abs/1612.02007)\]
 
 * [[Luuk Stehouwer]], [[Jan de Boer]], [[Jorrit Kruthoff]], [[Hessel Posthuma]], *Classification of crystalline topological insulators through K-theory*, Adv. Theor. Math. Phys, **25** 3 (2021) 723–775 $[$[arXiv:1811.02592](https://arxiv.org/abs/1811.02592), [doi:10.4310/ATMP.2021.v25.n3.a3](https://doi.org/10.4310/ATMP.2021.v25.n3.a3)\]
 
