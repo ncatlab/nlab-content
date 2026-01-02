@@ -20,9 +20,9 @@ A midpoint algebra is an abstract treatment of the operation $a \vert b \coloneq
 
 A __midpoint algebra__ is a [[magma]] $(M,\vert)$ that is commutative, idempotent, and medial: 
 
-* for all $a$ in $M$, $a \vert a = a$
-
 * for all $a$ and $b$ in $M$, $a \vert b = b \vert a$
+
+* for all $a$ in $M$, $a \vert a = a$
 
 * for all $a$, $b$, $c$, and $d$ in $M$, $(a \vert b) \vert (c \vert d) = (a \vert c) \vert (b \vert d)$
 
