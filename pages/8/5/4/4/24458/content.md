@@ -26,7 +26,7 @@ An object is then a family of sets $X_i$ for each $i \in \omega$ with restrictio
 
 ## As Sheaves
 
-The topos of trees is equivalent to a [[sheaf category]] on the ordinal $\omega + 1$, where the sheaf condition is that the set $X_\omega$ with its restriction functions $X_\omega \to X_i$ is a limit of the $\omega^op$ given by the restriction to a presheaf on $\omega$. Sheafification of a presheaf on $\omega+1$ then replaces $X_\omega$ with a limit. This is equivalently defined as the sheaves on the [[topological space]] given by the [[Alexandroff topology]] on the poset $\omega^{op}$.
+The topos of trees is equivalent to a [[sheaf category]] on the ordinal $\omega + 1$, where the sheaf condition is that the set $X_\omega$ with its restriction functions $X_\omega \to X_i$ is a limit of the $\omega^op$ diagram given by the restriction to a presheaf on $\omega$. Sheafification of a presheaf on $\omega+1$ then replaces $X_\omega$ with a limit. This is equivalently defined as the sheaves on the [[topological space]] given by the [[Alexandroff topology]] on the poset $\omega^{op}$.
 
 ## Related pages
 
