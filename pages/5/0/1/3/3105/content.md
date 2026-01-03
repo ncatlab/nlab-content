@@ -108,11 +108,19 @@ There is also a **generalized Whitehead product** where we can take more general
 
 ## Properties
 
+### General
+
+\begin{proposition}\label{SuspensionOfWhiteheadProductIsNull}
+  The [[suspension]] of any Whitehead product is null.
+\end{proposition}
+
+(This is Chapter X, Theorem (8.20) (p. 485) in [Whitehead 1978](#Whitehead78), using the notation "$E$" for the suspension functor which is introduced on p. 369, right before Theorem 7.13 there. The statement is reiterated in words on p .549, above Cor. 2.6 ther.)
+
+
 ### Super Lie algebra structure
   {#SuperLieAlgebraStructure}
 
-If one assigns degree $n-1$ to the $n$th [[homotopy group]] $\pi_n$,
-then the degree-wise Whitehead products (eq:WhiteheadProductMapInSingleDegrees) 
+If one assigns degree $n-1$ to the $n$th [[homotopy group]] $\pi_n$, then the degree-wise Whitehead products (eq:WhiteheadProductMapInSingleDegrees) 
 organize into a single degree-0 bilinear pairing on the [[graded abelian group]] which is the [[direct sum]] of all the [[homotopy groups]]:
 
 
@@ -164,23 +172,6 @@ and it satisfies the corresponding graded [[Jacobi identity]] ([Hilton 55, Theor
 This makes the Whitehead bracket the [[Lie bracket]] of a [[super Lie algebra]] [[structure]] on $\pi_{\bullet-1}(X)$ (eq:DegreeShiftedHomotopyGroups), over the [[ring]] of [[integers]] (sometimes called, in this context, a _graded quasi-Lie algebra_, see [below](#OfAnElementWithItself)).
 
 
-### Of elements with themselves
- {#OfAnElementWithItself}
-
-Beware that the skew-symmetry of [[Lie algebras]] over the [[integers]], as opposed to over a [[field]] of [[characteristic zero]], implies for any element $\phi$ of [[even number|even]] homogeneous degree -- 
-hence here for elements of [[homotopy groups]] in [[odd number|odd]] degree -- only that the bracket with itself vanishes after multiplication by 2
-
-$$
-  [\phi,\phi]_{Wh} = - [\phi,\phi]_{Wh}
-  \phantom{AA}
-  \text{hence equivalently}
-  \phantom{AA}
-  2 \cdot [\phi,\phi]_{Wh} = 0
-$$
-
-but not necessarily that $[\phi,\phi]_{Wh} = 0$ by itself -- since [[multiplication]] by 2 is not an [[isomorphism]] over the [[integers]].
-
-But this means that the Whitehead bracket of any even-degree [[element]] with itself -- hence of any [[element]] of a [[homotopy group]] in [[odd number|odd]] degree -- has [[order of a group element|order]] at most 2, hence is in the 2-[[torsion subgroup]] of the respective [[homotopy group]]. 
 
 ### As primary homotopy operations
 
@@ -453,7 +444,7 @@ This is due to the [[minimal model|minimality]] of Sullivan models, which implie
 \end{remark}
 
 
-### Relation to Goodwillie Calculus:
+### Relation to Goodwillie Calculus
 
 On the relation to [[Goodwillie calculus]] see e.g. [Scherer & Chorny 2011, Sec. 1](#SchererChorny11), which also gives an application of the relationship between the Whitehead and [[Samelson products]].
 
