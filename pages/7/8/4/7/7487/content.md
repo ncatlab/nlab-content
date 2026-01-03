@@ -82,6 +82,8 @@ Discussion in [[homotopy type theory]]/[[univalent foundations]]:
 
 * [[Benedikt Ahrens]], [[Paige Randall North]], [[Michael Shulman]], [[Dimitris Tsementzis]], *The Univalence Principle* ([abs:2102.06275](https://arxiv.org/abs/2102.06275))
 
+* [[Simcha van Collem]], [[Niels van der Weide]], [[Herman Geuvers]], *Initial Algebras of Domains via Quotient Inductive-Inductive Types* &lbrack;[arXiv:2509.10187](https://arxiv.org/abs/2509.10187)&rbrack;
+
 Generalization to the context of [[quantum computation]] (via [[quantum sets]] carrying [[quantum relations]] providing [[categorical semantics]] for [[quantum programming languages]] like [[Quipper]] equipped with type recursion):
 
 * [[Andre Kornell]], [[Bert Lindenhovius]], [[Michael Mislove]], *Quantum CPOs*, EPTCS **340** (2021) 174-187 &lbrack;[arXiv:2109.02196](https://arxiv.org/abs/2109.02196), [doi:10.4204/EPTCS.340.9](https://doi.org/10.4204/EPTCS.340.9)&rbrack;
