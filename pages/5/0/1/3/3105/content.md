@@ -99,7 +99,8 @@ where $f_{n_1, n_2}$ is [[generalized the|the]] [[attaching map]] exhibiting the
 
 =--
 
-In this form this appears for instance in [Félix-Halperin-Thomas, p. 176 with  p. 177](#FelixHalperinThomas00).
+In this form this appears for instance in [Félix, Halperin & Thomas, p. 176 with  p. 177](#FelixHalperinThomas00).
+
 
 ### Generalized version
 
@@ -114,7 +115,7 @@ There is also a **generalized Whitehead product** where we can take more general
   The [[suspension]] of any Whitehead product is null.
 \end{proposition}
 
-(This is Chapter X, Theorem (8.20) (p. 485) in [Whitehead 1978](#Whitehead78), using the notation "$E$" for the suspension functor which is introduced on p. 369, right before Theorem 7.13 there. The statement is reiterated in words on p .549, above Cor. 2.6 ther.)
+(This is Chapter X, Theorem 8.20 (p. 485) in [Whitehead 1978](#Whitehead78), using the notation "$E$" for the suspension functor which is introduced on p. 369, right before Theorem 7.13 there. The statement is reiterated in words on p .549, above Cor. 2.6 there.)
 
 
 ### Super Lie algebra structure
@@ -164,12 +165,38 @@ $$
     \,
     \phi_1
   \big]_{Wh}
-  
 $$
 
-and it satisfies the corresponding graded [[Jacobi identity]] ([Hilton 55, Theorem B](#Hilton55)).
+([Whitehead 1978 (7.5) on p. 474](#Whitehead78)) and it satisfies the corresponding graded [[Jacobi identity]] ([Hilton 1955 Thm. B](#Hilton55). [Whitehead 1978 (7.14) on p. 478](#Whitehead78)).
 
 This makes the Whitehead bracket the [[Lie bracket]] of a [[super Lie algebra]] [[structure]] on $\pi_{\bullet-1}(X)$ (eq:DegreeShiftedHomotopyGroups), over the [[ring]] of [[integers]] (sometimes called, in this context, a _graded quasi-Lie algebra_, see [below](#OfAnElementWithItself)).
+
+
+\begin{remark}
+\label{WhiteheadBracketOfElementsWithThemselves}
+**(Whithead bracket of elements with themselves)**
+
+It follows in particular that the Whitehead bracket of even-degree homotopy groups with themselves need not vanish by degree reasons --- notably $\big[ [id_{S^{2k}}], [id_{S^{2k}}]\big]$ is non-vanishing (and of [[Hopf invariant]] 2, cf. Prop. \ref{WhiteheadBracketOfidS2kHasHopfInvariant2}).
+
+On the other hand, the skew-symmetry of [[Lie algebras]] over the [[integers]], as opposed to over a [[field]] of [[characteristic zero]], also implies for any element $\phi$ of [[even number|even]] homogeneous degree -- 
+hence here for elements of [[homotopy groups]] in [[odd number|odd]] degree -- only that the bracket with itself vanishes after multiplication by 2
+
+$$
+  [\phi,\phi]_{Wh} = - [\phi,\phi]_{Wh}
+  \phantom{AA}
+  \text{hence equivalently}
+  \phantom{AA}
+  2 \cdot [\phi,\phi]_{Wh} = 0
+  \mathrlap{\,,}
+$$
+
+but not necessarily that $[\phi,\phi]_{Wh} = 0$ by itself -- since [[multiplication]] by 2 is not an [[isomorphism]] over the [[integers]].
+
+But this means that the Whitehead bracket of any even-degree [[element]] with itself -- hence of any [[element]] of a [[homotopy group]] in [[odd number|odd]] degree -- has [[order of a group element|order]] at most 2, hence is in the 2-[[torsion subgroup]] of the respective [[homotopy group]]. 
+
+(cf. [Whitehead 1978, Thm. 8.8 on p. 536](#Whitehead78))
+
+\end{remark}
 
 
 
@@ -476,13 +503,24 @@ $$
 
 =--
 
-Generally, 
-$  \big[
+Generally:
+
+\begin{proposition}
+\label{WhiteheadBracketOfidS2kHasHopfInvariant2}
+
+For $k \in \mathbb{N}$,
+
+\[
+  \big[
     [id_{S^{2k}}],
     \; 
     [id_{S^{2k}}]
   \big]
-$ has [[Hopf invariant]] 2 ([Whitehead 1978 Thm. 2.5 on p. 495](#Whitehead78), using the notation $\iota_n \coloneqq [id_{S^{n}}]$ introduced on p. 194).
+\]
+has [[Hopf invariant]] 2 
+
+\end{proposition}
+([Whitehead 1978 Thm. 2.5 on p. 495](#Whitehead78), using the notation $\iota_n \coloneqq [id_{S^{n}}]$ introduced on p. 194).
 
 So we have similarly that
 
