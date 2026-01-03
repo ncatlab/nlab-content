@@ -171,7 +171,7 @@ The phrase “walking morphism” appears in:
 
 * {#OR24} [[Viktoriya Ozornova]], [[Martina Rovelli]], *What is an equivalence in a higher category*, Bulletin of the London Mathematical Society, Volume 56, Issue 1, January 2024, Pages 1-58 ([doi:10.1112/blms.12947](https://doi.org/10.1112/blms.12947))
 
-* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], section 1.5 of: *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
+* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], section 1.5 of: *Synthetic Category Theory*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
 The phrase "directed interval" appears in
 
