@@ -22,7 +22,7 @@ On [[(∞,1)-category theory]] and [[homotopical algebra]]:
 
 * [[Denis-Charles Cisinski]], _[[Higher categories and homotopical algebra]]_, Cambridge University Press, 2019 ([doi:10.1017/9781108588737](https://doi.org/10.1017/9781108588737), [pdf](https://cisinski.app.uni-regensburg.de/CatLR.pdf))
 
-* {#CCNW25} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], *Formalization of Higher Categories*, work in progress (2025) &lbrack;[pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view)&rbrack;
+* {#CCNW25} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], *Synthetic Category Theory*, work in progress (2025) &lbrack;[pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view)&rbrack;
 
 On [[dendroidal sets]] as modelling [[(infinity,1)-operads]]:
 
@@ -44,9 +44,6 @@ On the [[(infinity,1)-Grothendieck construction]] via [[straightening and unstra
 On [[directed homotopy type theory]]:
 
 * {#CisinskiEtAl23} [[Denis-Charles Cisinski]], [[Hoang Kim Nguyen]], [[Tashi Walde]]: *Univalent Directed Type Theory*, lecture series in the *[CMU Homotopy Type Theory Seminar](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html)* ([13, 20, 27 Mar 2023](https://www.cmu.edu/dietrich/philosophy/hott/seminars/previous.html#:~:text=Univalent%20Directed%20Type%20Theory)) &lbrack;[web](https://www.cmu.edu/dietrich/philosophy/hott/seminars/index.html#230313), video 1:[YT](https://www.youtube.com/watch?v=5YOltuTcBK8), 2:[YT](https://www.youtube.com/watch?v=xWmELBvHMPo), 3:[YT](https://www.youtube.com/watch?v=P0Cfb4eUJo4); slides 0:[pdf](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-intro_talk1.pdf), 1:[pdf](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-talk1.pdf), 2:[pdf](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-talk2.pdf), 3:[pdf](https://www.cmu.edu/dietrich/philosophy/hott/seminars/slides/cisinski-nguyen-walde-talk3.pdf)&rbrack;
-
-* {#CCNW25} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], *Formalization of Higher Categories*, work in progress (2025) &lbrack;[pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view)&rbrack;
-
 
 ## Related entries
 
