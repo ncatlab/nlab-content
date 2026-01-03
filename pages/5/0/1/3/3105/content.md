@@ -61,9 +61,10 @@ $$
   \big)
 $$
 
-to the [[homotopy class]] of the top [[composition|composite]] in the [[diagram]]
+to the [[homotopy class]] of the top [[composition|composite]] in this [[diagram]]:
 
-$$
+\[
+  \label{TheDefiningDiagram}
   \array{
     S^{ n_1 + n_2 -1 }
     &
@@ -93,13 +94,20 @@ $$
     &\underset{}{\longrightarrow}&
     S^{n_1} \times S^{n_2}
   }
-$$
+\]
 
 where $f_{n_1, n_2}$ is [[generalized the|the]] [[attaching map]] exhibiting the [[product space]] $S^{n_1} \times S^{n_2}$ as the result of a [[cell attachment]] to the [[wedge sum]] $S^{n_1} \vee S^{n_2}$.
 
 =--
 
 In this form this appears for instance in [Félix, Halperin & Thomas (2000) p. 176 with  p. 177](#FelixHalperinThomas00).
+
+\begin{example}
+  \label{WhiteheadProductOfFundamentalGroups}
+  For $n_1 = n_2 = 1$, the product space $S^1 \times S^1$ is the [[torus]] and the [[attaching map]] $f_{1,1}$ in (eq:TheDefiningDiagram) is a representative of the [[group commutator]] of a pair of generators of the fundamental group of its 1-[[skeleton]] (see at *[[surface]]*, [this](surface#Homotopy) paragraph).
+
+Indeed, the Whitehead product is generally given by forming [[group commutators]]: see below at *[In terms of Samelson products](#InTermsOfSamelsonProducts)*.
+\end{example}
 
 
 ### Generalized version
