@@ -75,7 +75,7 @@ For more details see [definition 1.2.12.3, p. 46](http://arxiv.org/PS_cache/math
 
 Terminal objects in $(\infty,1)$-categories are also defined in
 
-* [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], section 5.5 of: *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
+* [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], section 5.5 of: *Synthetic Category Theory*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
 [[!redirects terminal object in a quasi-category]]
 [[!redirects terminal objects in a quasi-category]]
