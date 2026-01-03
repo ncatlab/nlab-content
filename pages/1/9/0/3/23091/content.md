@@ -43,11 +43,11 @@ Textbook accounts of [[homotopy theory]] of [[topological spaces]] (i.e. via "[[
 * [[Albert S. Schwarz]]: *Topology for Physicists*, Grundlehren der mathematischen Wissenschaften **308**, Springer (1994) \[<a href="https://doi.org/10.1007/978-3-662-02998-5">doi:10.1007/978-3-662-02998-5</a>\] 
   > (with an eye towards application to [[topological quantum field theory]] and [[topological phases of matter]])
 
-* [[Hans-Joachim Baues]], _Homotopy types_, in [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland, 1995 ([ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2), [doi:10.1016/B978-0-444-81779-2.X5000-7](https://doi.org/10.1016/B978-0-444-81779-2.X5000-7))
+* [[Hans-Joachim Baues]]: _Homotopy Type and Homology_, Oxford University Press (1996) \[<a href="https://global.oup.com/academic/product/homotopy-type-and-homology-9780198514824">ISBN:9780198514824</a>, <a href="https://webhomes.maths.ed.ac.uk/~v1ranick/papers/baues6.pdf">pdf</a>\]
 
+* [[Hans-Joachim Baues]]: _Homotopy types_, in: [[Ioan Mackenzie James]] (ed.) _[[Handbook of Algebraic Topology]]_, North Holland (1995) \[<a href="https://doi.org/10.1016/B978-0-444-81779-2.X5000-7">doi:10.1016/B978-0-444-81779-2.X5000-7</a>, [ISBN:9780080532981](https://www.elsevier.com/books/handbook-of-algebraic-topology/james/978-0-444-81779-2)\]
 
 * [[Nicolas Bourbaki]], _Topologie Algébrique_, Chapitres 1 à 4, Springer (1998, 2016)  \[ISBN 978-3-662-49361-8, [doi:10.1007/978-3-662-49361-8](https://doi.org/10.1007/978-3-662-49361-8)\]
-
 
 * [[Marcelo Aguilar]], [[Samuel Gitler]], [[Carlos Prieto]], *Algebraic topology from a homotopical viewpoint*, Springer (2008) ([doi:10.1007/b97586](https://link.springer.com/book/10.1007/b97586))
 
@@ -116,7 +116,7 @@ Monographs:
 
 * {#Warner05} [[Garth Warner]]: *Topics in Topology and Homotopy Theory*, EPrint Collection, University of Washington (2005) \[<a href="http://hdl.handle.net/1773/2641">hdl:1773/2641</a>, <a href="https://sites.math.washington.edu//~warner/TTHT_Warner.pdf">pdf</a>, [arXiv:2007.02467](https://arxiv.org/abs/2007.02467)\]
 
-* [[Peter May]], [[Kate Ponto]], _[[More concise algebraic topology]]_,   University of Chicago Press (2012) ([ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/TEAK/KateBookFinal.pdf))
+* [[Peter May]], [[Kate Ponto]]: _[[More concise algebraic topology]]_,   University of Chicago Press (2012) $[$[ISBN:9780226511795](https://press.uchicago.edu/ucp/books/book/chicago/M/bo12322308.html), [pdf](https://www.math.uchicago.edu/~may/BOOKS/KateBookFinal.pdf)\]
 
 * Mahima Ranjan Adhikari: *Basic Algebraic Topology and Its Applications*, Springer (2016) \[<a href="https://doi.org/10.1007/978-81-322-2843-1">doi:10.1007/978-81-322-2843-1</a>, [pdf](https://agorism.dev/book/math/top/mahima-ranjan-adhikari-basic-algebraic-topology-and-its-applications-springer.pdf)\]
 
