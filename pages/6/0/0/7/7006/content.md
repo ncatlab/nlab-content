@@ -136,7 +136,7 @@ More on the [[directed univalence axiom]] in this context:
 
 A monograph in preparation:
 
-* {#CCNW25} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], *Formalization of Higher Categories*, work in progress (2025) &lbrack;[pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view)&rbrack;
+* {#CCNW25} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], *Synthetic Category Theory*, work in progress (2025) &lbrack;[pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view)&rbrack;
 
 
 
