@@ -82,31 +82,31 @@ On the other hand, working directed higher type theory may not be very practical
 
 ### General
 
-* [[Robert Harper]], [[Dan Licata]], _Canonicity for 2-Dimensional Type Theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh112tt/lh112tt.pdf))
+* [[Dan Licata]], Chapters 7 and 8 of: _Dependently Typed Programming with Domain-Specific Logics_, PhD thesis (2011) &lbrack;[pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf)&rbrack;
 
-* [[Robert Harper]], [[Dan Licata]], _2-Dimensional directed type theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf) [slides](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt-slides.pdf))
+* [[Robert Harper]], [[Dan Licata]]: _2-Dimensional directed type theory_, Mathematical Foundations of Programming Semantics 2011 &lbrack;[pdf](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf), [slides](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt-slides.pdf)&rbrack;
 
-* [[Andrea Laretto]], [[Fosco Loregian]], [[Niccolò Veltri]], _Di- is for Directed: First-Order Directed Type Theory via Dinaturality_ ([POPL 2026](https://popl26.sigplan.org/details/POPL-2026-popl-research-papers/63/Di-is-for-Directed-First-Order-Directed-Type-Theory-via-Dinaturality))
+* [[Robert Harper]], [[Dan Licata]]: _Canonicity for 2-Dimensional Type Theory_, POPL 2012 &lbrack;[pdf](http://www.cs.cmu.edu/~drl/pubs/lh112tt/lh112tt.pdf)&rbrack;
 
-* [[Michael Warren]], _Directed Type Theory_ ([video lecture](https://video.ias.edu/univalent/1213/0410-MichaelWarren))
+* [[Michael Warren]], _Directed Type Theory_ (2013) &lbrack;[video lecture](https://video.ias.edu/univalent/1213/0410-MichaelWarren)&rbrack;
 
-* [[Dan Licata]], Chapters 7 and 8 of _Dependently Typed Programming with Domain-Specific Logics_ PhD thesis, ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf))
+* [[Andreas Nuyts]], _Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance_ (2015) &lbrack;[pdf](https://anuyts.github.io/files/mathesis.pdf)&rbrack;
 
-* [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
-
-* {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* ([arXiv:2407.09146](https://arxiv.org/abs/2407.09146))
+* [[Emily Riehl]], [[Mike Shulman]]: *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
 
 * [[Paige Randall North]], _Towards a directed homotopy type theory_ &lbrack;[arXiv:1807.10566](https://arxiv.org/abs/1807.10566)&rbrack;
 
-* [[Alex Kavvos]], *A quantum of direction* (2019) &lbrack;[pdf](https://seis.bristol.ac.uk/~tz20861/papers/meio.pdf)&rbrack;
+* {#GWB24} [[Daniel Gratzer]], [[Jonathan Weinberger]], [[Ulrik Buchholtz]], *Directed univalence in simplicial homotopy type theory* &lbrack;[arXiv:2407.09146](https://arxiv.org/abs/2407.09146)&rbrack;
 
-* {#Nuyts24} [[Andreas Nuyts]], _Higher Pro-arrows: Towards a Model for Naturality Pretype Theory_, HoTTEST seminar, May 2, 2024, [Slides](https://anuyts.github.io/files/2024/natpt-hottest-pres.pdf), [Video](https://youtu.be/jcaG18oicP8)
+* [[Alex Kavvos]], *A quantum of direction* (2019) &lbrack;[pdf](https://seis.bristol.ac.uk/~tz20861/papers/meio.pdf)&rbrack;
 
 * {#Nuyts23} [[Andreas Nuyts]], _Higher Pro-arrows: Towards a Model for Naturality Pretype Theory_, HoTT/UF 2023, [PDF](https://hott-uf.github.io/2023/HoTTUF_2023_paper_1410.pdf), [Slides](https://anuyts.github.io/files/2023/natpt-hott-uf-pres.pdf), [Video](https://youtu.be/kw82hW-FlBc)
 
-* [[Andreas Nuyts]], _Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance_, 2015, [PDF](https://anuyts.github.io/files/mathesis.pdf)
+* {#Nuyts24} [[Andreas Nuyts]], _Higher Pro-arrows: Towards a Model for Naturality Pretype Theory_, HoTTEST seminar, May 2, 2024, [Slides](https://anuyts.github.io/files/2024/natpt-hottest-pres.pdf), [Video](https://youtu.be/jcaG18oicP8)
 
 * [[Thorsten Altenkirch]], [[Jacob Neumann]], _Synthetic 1-Categories in Directed Type Theory_ &lbrack;[arXiv:2410.19520](https://arxiv.org/abs/2410.19520)&rbrack;
+
+* Andrea Laretto, [[Fosco Loregian]], [[Niccolò Veltri]]: _Di- is for Directed: First-Order Directed Type Theory via Dinaturality_, POPL 2026 &lbrack;[no 36](https://popl26.sigplan.org/details/POPL-2026-popl-research-papers/63/Di-is-for-Directed-First-Order-Directed-Type-Theory-via-Dinaturality)&rbrack;
 
 
 ### Cisinski et al.
