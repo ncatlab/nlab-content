@@ -100,7 +100,7 @@ On the other hand, working directed higher type theory may not be very practical
 
 * [[Alex Kavvos]], *A quantum of direction* (2019) &lbrack;[pdf](https://seis.bristol.ac.uk/~tz20861/papers/meio.pdf)&rbrack;
 
-* {#Nuyts23} [[Andreas Nuyts]], _Higher Pro-arrows: Towards a Model for Naturality Pretype Theory_, HoTT/UF 2023, [PDF](https://hott-uf.github.io/2023/HoTTUF_2023_paper_1410.pdf), [Slides](https://anuyts.github.io/files/2023/natpt-hott-uf-pres.pdf), [Video](https://youtu.be/kw82hW-FlBc)
+* {#Nuyts23} [[Andreas Nuyts]]: _Higher Pro-arrows: Towards a Model for Naturality Pretype Theory_, HoTT/UF 2023 &lbrack;[pdf](https://hott-uf.github.io/2023/HoTTUF_2023_paper_1410.pdf), [slides](https://anuyts.github.io/files/2023/natpt-hott-uf-pres.pdf), [video](https://youtu.be/kw82hW-FlBc)&rbrack;
 
 * {#Nuyts24} [[Andreas Nuyts]], _Higher Pro-arrows: Towards a Model for Naturality Pretype Theory_, HoTTEST seminar, May 2, 2024, [Slides](https://anuyts.github.io/files/2024/natpt-hottest-pres.pdf), [Video](https://youtu.be/jcaG18oicP8)
 
