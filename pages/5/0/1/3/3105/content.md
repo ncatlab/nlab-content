@@ -99,7 +99,7 @@ where $f_{n_1, n_2}$ is [[generalized the|the]] [[attaching map]] exhibiting the
 
 =--
 
-In this form this appears for instance in [Félix, Halperin & Thomas, p. 176 with  p. 177](#FelixHalperinThomas00).
+In this form this appears for instance in [Félix, Halperin & Thomas (2000) p. 176 with  p. 177](#FelixHalperinThomas00).
 
 
 ### Generalized version
@@ -637,7 +637,7 @@ Discussion of Whitehead products in [[rational homotopy theory]] ([[the co-binar
 
 * {#AndrewsArkowitz78} Peter Andrews, [[Martin Arkowitz]], *Sullivan's Minimal Models and Higher Order Whitehead Products*, Canadian Journal of Mathematics, **30** 5 (1978) 961-982 &lbrack;[doi:10.4153/CJM-1978-083-6](https://doi.org/10.4153/CJM-1978-083-6)&rbrack;
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], J. C. Thomas, Prop. 13.16 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000)
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]], J. C. Thomas, Prop. 13.16 in: _Rational Homotopy Theory_, Graduate Texts in Mathematics **205** Springer (2000) &lbrack;[doi:10.1007/978-1-4613-0105-9](https://link.springer.com/book/10.1007/978-1-4613-0105-9)&rbrack;
 
 * Francisco Belchí, [[Urtzi Buijs]], José M. Moreno-Fernández, Aniceto Murillo, _Higher order Whitehead products and $L_\infty$ structures on the homology of a DGL_, Linear Algebra and its Applications, Volume 520 (2017), pages 16-31 ([arXiv:1604.01478](https://arxiv.org/abs/1604.01478), [doi:10.1016/j.laa.2017.01.008](https://doi.org/10.1016/j.laa.2017.01.008))
     
