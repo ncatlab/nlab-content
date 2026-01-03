@@ -130,30 +130,26 @@ That a limiting case of this is given by the [[orthosymplectic super Lie algebra
 
 Review and further discussion:
 
+* {#Azcarraga05} [[José de Azcárraga]], section 5 of: _Superbranes, $D=11$ CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf. Proc. **767** (2005) 243-267 \[<a href="https://doi.org/10.1063/1.1923338">doi:10.1063/1.1923338</a>, [arXiv:hep-th/0501198](https://arxiv.org/abs/hep-th/0501198)\]
+
 * [[Oscar Varela]]: *Symmetry and holonomy in M Theory*, PhD thesis, Valencia (2006) &lbrack;[arXiv:hep-th/0607088](https://arxiv.org/abs/hep-th/0607088), [hdl:10550/15484](https://hdl.handle.net/10550/15484),  [spire:1397691](https://inspirehep.net/literature/1397691)&rbrack;
-
-
 
 
 * {#AndrianopoliDAuriaRavera16} [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], *Hidden Gauge Structure of Supersymmetric Free Differential Algebras*, JHEP 1608 (2016) 095 &lbrack;[arXiv:1606.07328](https://arxiv.org/abs/1606.07328), <a href=" https://doi.org/10.1007/JHEP08(2016)095">doi:10.1007/JHEP08(2016)095</a>&rbrack;
 
-* [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _More on the Hidden Symmetries of 11D Supergravity_, Phys. Lett. B **772** (2017) 578 \[<a href="https://doi.org/10.1016/j.physletb.2017.07.016">doi:10.1016/j.physletb.2017.07.016</a>, [arXiv:1705.06251](https://arxiv.org/abs/1705.06251)\]
-
-where the algebra is referred to as the _DF-algebra_, in honor of [D'Auria & Fré 1982](#DAuriaFre82).
-
-All this is reviewed in 
-
-* {#Azcarraga05} [[José de Azcárraga]], section 5 of: _Superbranes, $D=11$ CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf. Proc. **767** (2005) 243-267 \[<a href="https://doi.org/10.1063/1.1923338">doi:10.1063/1.1923338</a>, [arXiv:hep-th/0501198](https://arxiv.org/abs/hep-th/0501198)\]
-
-also
+* [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]]: _More on the Hidden Symmetries of 11D Supergravity_, Phys. Lett. B **772** (2017) 578 \[<a href="https://doi.org/10.1016/j.physletb.2017.07.016">doi:10.1016/j.physletb.2017.07.016</a>, [arXiv:1705.06251](https://arxiv.org/abs/1705.06251)\]
+  > where the algebra is referred to as the _DF-algebra_, in honor of [D'Auria & Fré 1982](#DAuriaFre82).
 
 * [[Lucrezia Ravera]], *On the hidden symmetries of $D=11$ supergravity*, Springer Proceedings in Mathematics & Statistics **396** Springer (2021) \[<a href="https://doi.org/10.1007/978-981-19-4751-3_15">doi:10.1007/978-981-19-4751-3_15</a>, [arXiv:2112.00445](https://arxiv.org/abs/2112.00445)\]
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], *Supergravity in the Geometric Approach and its Hidden Graded Lie Algebra*, Expositiones Mathematicae, &lbrack;[arXiv:2404.13987](https://arxiv.org/abs/2404.13987) [10.1016/j.exmath.2024.125631](https://doi.org/10.1016/j.exmath.2024.125631)&rbrack;
 
+* [[Grigorios Giotopoulos]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:The Hidden M-Group]]*, Journal of Geometry and Physics (2025) &lbrack;[doi:10.1016/j.geomphys.2025.105743](https://doi.org/10.1016/j.geomphys.2025.105743), [arXiv:2411.11963](https://arxiv.org/abs/2411.11963)&rbrack;
 
 
-Another, alternative "weak [[decomposable differential form|decomposition]]" of the M2-brane [[extended super-Minkowski spacetime]] was found in 
+
+
+Another, alternative "weak [[decomposable differential form|decomposition]]" of the M2-brane [[extended super-Minkowski spacetime]] was claimed in 
 
 * {#Ravera18a} [[Lucrezia Ravera]], section 3: of _Hidden Role of Maxwell Superalgebras in the Free Differential Algebras of D=4 and D=11 Supergravity_, Eur. Phys. J. C **78** 3 (2018) 211 \[<a href="https://doi.org/10.1140/epjc/s10052-018-5673-8">doi:10.1140/epjc/s10052-018-5673-8</a>, [arXiv:1801.08860](https://arxiv.org/abs/1801.08860)\]
 
