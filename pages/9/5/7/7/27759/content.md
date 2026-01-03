@@ -29,6 +29,10 @@
 The **[[walking]] [[commutative triangle]]** or **[[triangle]] category** or **[[2-simplex]] category** is the category $\Delta^2$ which consists of three objects $0, 1, 2 \in \Delta^2$ and three morphisms $h_{01}:\mathrm{hom}_{\Delta^2}(0, 1)$, $h_{02}:\mathrm{hom}_{\Delta^2}(0, 2)$, $h_{12}:\mathrm{hom}_{\Delta^2}(1, 2)$, such that $h_{02} = h_{12} \circ h_{01}$.
 \end{definition}
 
+\begin{definition}
+The walking commutative triangle $\Delta^2$ is defined in [Cisinski, Cnossen, Nguyen & Walde](#CCNW) as the [[functor category]] $I^I$ from the [[walking morphism]] $I$ to itself. In this definition, the objects $0, 2 \in \Delta^2$ is given by the [[identity morphisms]] on the two objects $0, 1 \in I$ and the object $1 \in \Delta^2$ the unique morphism from $0$ to $1$ in $I$, and the morphisms of $\Delta^2$ can be constructed as three [[face map]] [[functors]] from $I$ to $\Delta^2$: the first which takes $0 \in I$ to $0 \in \Delta^2$ and $1 \in I$ to $1 \in \Delta^2$; the second which takes $0 \in I$ to $0 \in \Delta^2$ and $1 \in I$ to $2 \in \Delta^2$; and the third which takes $0 \in I$ to $1 \in \Delta^2$ and $1 \in I$ to $2 \in \Delta^2$.
+\end{definition}
+
 $\Delta^2$ is also called the **2-simplex poset** or **triangle poset** because $\Delta^2$ is a [[thin category]] and thus a [[poset]]. 
 
 Every [[commutative triangle]] in a category $C$ is represented by a [[functor]] $F:\Delta^2 \to C$ from the walking commutative triangle to $C$. By definition of a [[category]], we have an [[equivalence of categories]] between the [[functor category]] $C^\Lambda_1^2$ of [[composable pairs]] in $C$ and the functor category $C^\Delta^2$ of commutative triangles in $C$. 
@@ -38,10 +42,6 @@ Every [[commutative triangle]] in a category $C$ is represented by a [[functor]]
 In [[simplicial type theory]], given a [[directed interval]] $\mathbb{I}$, the **2-simplex type** representing the walking commutative triangle is defined as the type of pairs of elements of $\mathbb{I}$ such that $i \leq j$
 
 $$\Delta^2 \coloneqq \sum_{i:\mathbb{I}} \sum_{j:\mathbb{I}} i \leq j$$
-
-## Properties
-
-The walking commutative triangle is [[equivalence of categories|equivalent]] to the [[endofunctor category]] $I^I$ of the [[walking morphism]] $I$ to itself. 
 
 ## Related concepts
 
@@ -53,9 +53,9 @@ The walking commutative triangle is [[equivalence of categories|equivalent]] to 
 
 ## References
 
-The phrase "walking commutative triangle" appears in:
+The phrase "walking commutative triangle" is defined in Definition 1.5.12 of:
 
-* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], section 1.5.1 of: *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
+* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], section 1.5.1 of: *Synthetic Category Theory*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
 The phrase "2-simplex" appears in 
 
