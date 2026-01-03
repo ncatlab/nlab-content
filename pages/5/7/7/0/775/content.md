@@ -81,7 +81,7 @@ The commutative squares serve as the morphisms in the [[arrow category]] of $C$,
 
 Commutative squares are defined in:
 
-* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], page 9 of: *Formalization of Higher Categories*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
+* {#CCNW} [[Denis-Charles Cisinski]], [[Bastiaan Cnossen]], [[Hoang Kim Nguyen]], [[Tashi Walde]], page 9 of: *Synthetic Category Theory*, work in progress ([pdf](https://drive.google.com/file/d/1lKaq7watGGl3xvjqw9qHjm6SDPFJ2-0o/view))
 
 [[!redirects commutative square]]
 [[!redirects commutative squares]]
