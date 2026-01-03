@@ -41,6 +41,8 @@ of all boolean sequences $f$ for which $P$ is equivalent to there exists a natur
 
 * [[synthetic topology]], [[dominance]]
 
+* [[quasidecidable proposition]]
+
 ## References
 
 * [[Andrej Bauer]], [[Davorin Lešnik]], _Metric Spaces in Synthetic Topology_, 2010 ([pdf](http://math.andrej.com/wp-content/uploads/2010/01/csms_in_synthtop.pdf))
