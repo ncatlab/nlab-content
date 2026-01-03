@@ -86,6 +86,8 @@ On the other hand, working directed higher type theory may not be very practical
 
 * [[Robert Harper]], [[Dan Licata]], _2-Dimensional directed type theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt.pdf) [slides](http://www.cs.cmu.edu/~drl/pubs/lh102dtt/lh102dtt-slides.pdf))
 
+* [[Andrea Laretto]], [[Fosco Loregian]], [[Niccolò Veltri]], _Di- is for Directed: First-Order Directed Type Theory via Dinaturality_ ([POPL 2026](https://popl26.sigplan.org/details/POPL-2026-popl-research-papers/63/Di-is-for-Directed-First-Order-Directed-Type-Theory-via-Dinaturality))
+
 * [[Michael Warren]], _Directed Type Theory_ ([video lecture](https://video.ias.edu/univalent/1213/0410-MichaelWarren))
 
 * [[Dan Licata]], Chapters 7 and 8 of _Dependently Typed Programming with Domain-Specific Logics_ PhD thesis, ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf))
