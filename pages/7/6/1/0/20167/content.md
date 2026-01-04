@@ -28,21 +28,60 @@
 
 Let $n \in \mathbb{N}$ be a [[natural number]] and $X \in Mfd$ be a [[connected topological space|connected]] [[orientation|orientable]] [[closed manifold]] of [[dimension]] $n$. Then the $n$th [[cohomotopy]] classes $\left[X \overset{c}{\to} S^n\right] \in \pi^n(X)$ of $X$ are in [[bijection]] with the [[degree of a continuous function|degree]] $deg(c) \in \mathbb{Z}$ of the representing functions, hence the canonical function
 
-$$
+\[
+  \label{HopfDegreeOverManifolds}
   \pi^n(X) 
-    \underoverset{\simeq}{S^n \to K(\mathbb{Z},n)}{\longrightarrow}
+    \underoverset
+      {\simeq}
+      {S^n \to K(\mathbb{Z},n)}
+      {\longrightarrow}
    H^n(X,\mathbb{Z}) 
      \;\simeq\;   
    \mathbb{Z}
-$$
+\]
 
 from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 
 =--
 
-([Pontrjagin 55, Sec. 9](#Pontrjagin55), review in [Kosinski 93, IX (5.8)](#Kosinski93), [Kobin 16, 7.5](#Kobin16))
+([Pontrjagin 55, Sec. 9](#Pontrjagin55), review in [Kosinski 93, IX (5.8)](#Kosinski93))
 
-<br/>
+\begin{remark}\label{Generalizations}
+**(generalizations)**
+
+The form (eq:HopfDegreeOverManifolds) generalizes to $X$ any $n$-dimensional [[CW-complex]], in that pullback of the degree=$n$ cohomology generator on the sphere is still an isomorphism (cf. [Kobin 16, §7.5 Thm. 7.5.5](#Kobin16)):
+
+\[
+  \label{HopfDegreeOverCWComplexes}
+  \pi^n(X) 
+    \underoverset
+      {\simeq}
+      {S^n \to K(\mathbb{Z},n)}
+      {\longrightarrow}
+   H^n(X,\mathbb{Z}) 
+\]
+
+the only difference now that the cohomology group $H^n(X,\mathbb{Z})$ no longer needs to be [[isomorphism|isomorphic]] to the [[integers]] (for instance since $X$ may now be a [[wedge sum]]).
+
+Yet more generally, for $Y$ an [[n-connected space|$(n-1)$-connected space]], there is still an isomorphism 
+
+\[
+  \label{HopfDegreeOverCWComplexesWithHighlyConnectedCoeffs}
+  \pi^n(X) 
+    \underoverset
+      {\simeq}
+      {[f] \mapsto f^\ast \iota}
+      {\longrightarrow}
+   H^n\big(X,\pi_n(Y)\big) 
+\]
+
+where $\iota \in H^n\big(Y,\pi_n(Y)\big)$ is a certain unit class in the [[ordinary cohomology]] of $Y$ with [[coefficients]] in the $n$th [[homotopy group]] of $Y$.
+
+This is due to [Whitney 1937](#Whitney1937), whence in this generality one speaks of the *Hopf-Whitney theorem*.
+
+\end{remark}
+
+\linebreak
 
 ### In equivariant homotopy theory
  {#InEquivariantHomotopyTheory}
@@ -636,13 +675,28 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 ## References
 
-Due to [[Heinz Hopf]].
+The statement over [[manifolds]] is due to:
+
+* [[Heinz Hopf]]: *Die Klassen der Abbildungen der $n$-dimensionalen Polyeder auf die $n$-dimensionale Sphäre*, Commentarii Mathematici Helvetici **5** (1933) 39–54 &lbrack;[doi:10.1007/BF01297505](https://doi.org/10.1007/BF01297505)&rbrack;
+
+reprinted in:
+
+* *Selecta Heinz Hopf* Springer (1964) 80-94 &lbrack;[doi:10.1007/978-3-662-25046-4_6](https://doi.org/10.1007/978-3-662-25046-4_6)&rbrack;
+
+and the generalization to [[CW-complexes]] is due to:
+
+* {#Whitney1937} [[Hassler Whitney]]: *The maps of an $n$-complex into an $n$-sphere*,  Duke Math. Journal **3** 1 (1937) 51-55 &lbrack;[doi:10.1215/S0012-7094-37-00306-5](https://doi.org/10.1215/S0012-7094-37-00306-5)&rbrack;
+
+
+Early discussion:
 
 * {#Pontrjagin55} [[Lev Pontrjagin]], Section 9 of: _Smooth manifolds and their applications in Homotopy theory_, Trudy Mat. Inst. im Steklov, No 45, Izdat. Akad. Nauk. USSR, Moscow, 1955 (AMS Translation Series 2, Vol. 11, 1959) ([doi:10.1142/9789812772107_0001](https://www.worldscientific.com/doi/abs/10.1142/9789812772107_0001))
 
 Textbook accounts:
 
-* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 11 of  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics 82, Springer 1982 ([doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500))
+* {#Whitehead78} [[George W. Whitehead]], Cor. 6.19 on p. 244 of: *Elements of Homotopy Theory*, Springer (1978) \[<a href="https://link.springer.com/book/10.1007/978-1-4612-6318-0">doi:10.1007/978-1-4612-6318-0</a>\] 
+
+* {#BottTu82} [[Raoul Bott]], [[Loring Tu]], Chapter 11 of  _[[Differential Forms in Algebraic Topology]]_, Graduate Texts in Mathematics **82**, Springer (1982) &lbrack;[doi:10.1007/BFb0063500](https://doi.org/10.1007/BFb0063500)&rbrack;
 
 * {#DubrovinNovikovFomenko85} B. A. Dubrovin, [[S. P. Novikov]], A. T. Fomenko, section 13.3 of: _Modern Geometry — Methods and Applications: Part II: The Geometry and Topology of Manifolds_, Graduate Texts in Mathematics 104, Springer-Verlag New York, 1985
 
@@ -651,6 +705,12 @@ Textbook accounts:
 * [[John Milnor]], p. 62 of: _Topology from the differential viewpoint_, Princeton University Press (1997) &lbrack;[ISBN:9780691048338](https://press.princeton.edu/books/paperback/9780691048338/topology-from-the-differentiable-viewpoint), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/milnortop.pdf)&rbrack;
 
 * {#Kobin16} Andrew Kobin, Section 7.5 of: _Algebraic Topology_ (2016) &lbrack;[[KobinAT2016.pdf:file]]&rbrack;
+
+See also:
+
+* Wikipedia: *[Hopf theorem](https://en.wikipedia.org/wiki/Hopf_theorem)*
+
+* Wikipedia: *[Hopf-Whitney theorem](https://en.wikipedia.org/wiki/Hopf%E2%80%93Whitney_theorem)*
 
 Generalization to [[equivariant cohomotopy]] and [[equivariant cohomology]]
 
@@ -661,4 +721,8 @@ Generalization to [[equivariant cohomotopy]] and [[equivariant cohomology]]
 
 [[!redirects Hopf degree]]
 [[!redirects Hopf degrees]]
+
+[[!redirects Hopf-Whitney theorem]]
+
+
 
