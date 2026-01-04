@@ -23,7 +23,12 @@ Introducing the notion of *[[matroids]]*:
 
 Introducing the term "[[cohomology]]":
 
-* {#Whitney37} [[Hassler Whitney]], _On matrices of integers and combinatorial topology_.  Duke Mathematical Journal 3:1 (1937), 35–45 ([doi:10.1215/S0012-7094-37-00304-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-3/issue-1/On-matrices-of-integers-and-combinatorial-topology/10.1215/S0012-7094-37-00304-1.short))
+* {#Whitney37} [[Hassler Whitney]], _On matrices of integers and combinatorial topology_.  Duke Mathematical Journal **3** 1 (1937), 35–45 &lbrack;[doi:10.1215/S0012-7094-37-00304-1](https://projecteuclid.org/journals/duke-mathematical-journal/volume-3/issue-1/On-matrices-of-integers-and-combinatorial-topology/10.1215/S0012-7094-37-00304-1.short)&rbrack;
+
+Introducing what came to be called the *[[Hopf-Whitney theorem]]*:
+
+* {#Whitney1937} [[Hassler Whitney]]: *The maps of an $n$-complex into an $n$-sphere*,  Duke Math. Journal **3** 1 (1937) 51-55 &lbrack;[doi:10.1215/S0012-7094-37-00306-5](https://doi.org/10.1215/S0012-7094-37-00306-5)&rbrack;
+
 
 See also:
 
