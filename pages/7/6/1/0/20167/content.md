@@ -14,9 +14,13 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
+
+## Idea
+
+The *Hopf degree theorem* characterizes [[homotopy classes]] from suitable $n$-dimensional [[topological spaces]] to the [[n-sphere|$n$-sphere]] (hence the $n$-[[Cohomotopy]] of $n$-dimensional spaces) by their "degree" or "winding number".
+
 
 ## Statement
 
@@ -44,7 +48,7 @@ from $n$th [[cohomotopy]] to $n$th [[integral cohomology]] is a [[bijection]].
 
 =--
 
-([Pontrjagin 55, Sec. 9](#Pontrjagin55), review in [Kosinski 93, IX (5.8)](#Kosinski93))
+([Hopf 1933](#Hopf1933), review in [Pontrjagin 55, Sec. 9](#Pontrjagin55), [Kosinski 93, IX (5.8)](#Kosinski93))
 
 \begin{remark}\label{Generalizations}
 **(generalizations)**
@@ -77,7 +81,7 @@ Yet more generally, for $Y$ an [[n-connected space|$(n-1)$-connected space]], th
 
 where $\iota \in H^n\big(Y,\pi_n(Y)\big)$ is a certain unit class in the [[ordinary cohomology]] of $Y$ with [[coefficients]] in the $n$th [[homotopy group]] of $Y$.
 
-This is due to [Whitney 1937](#Whitney1937), whence in this generality one speaks of the *Hopf-Whitney theorem*.
+This is due to [Whitney 1937](#Whitney1937), whence in this generality one speaks of the *Hopf-Whitney theorem* (review in  [Whitehead 1978](#Whitehead78), Cor. 6.19 on p. 244).
 
 \end{remark}
 
@@ -677,7 +681,7 @@ and all degrees  must differ from that of the class of the [[identity function]]
 
 The statement over [[manifolds]] is due to:
 
-* [[Heinz Hopf]]: *Die Klassen der Abbildungen der $n$-dimensionalen Polyeder auf die $n$-dimensionale Sphäre*, Commentarii Mathematici Helvetici **5** (1933) 39–54 &lbrack;[doi:10.1007/BF01297505](https://doi.org/10.1007/BF01297505)&rbrack;
+* {#Hopf1933} [[Heinz Hopf]]: *Die Klassen der Abbildungen der $n$-dimensionalen Polyeder auf die $n$-dimensionale Sphäre*, Commentarii Mathematici Helvetici **5** (1933) 39–54 &lbrack;[doi:10.1007/BF01297505](https://doi.org/10.1007/BF01297505)&rbrack;
 
 reprinted in:
 
