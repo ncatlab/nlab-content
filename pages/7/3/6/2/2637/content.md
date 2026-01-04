@@ -105,6 +105,10 @@ More on the history of the notion:
 
 * [[Severino C. Coutinho]], *The Many Avatars of a Simple Algebra*, The American Mathematical Monthly **104** 7 (1997) 593-604 &lbrack;[doi:10.2307/2975052](https://doi.org/10.2307/2975052), [jstor:2975052](https://www.jstor.org/stable/2975052)&rbrack;
 
+Review:
+
+* Jan Dereziński: _Introduction to Representations of the Canonical Commutation and Anticommutation Relations_, in: _Large Coulomb Systems --- QED_, Lecture Notes in Physics **695**, Springer (2006) 63-143 &lbrack;[doi:10.1007/3-540-32579-4_3](https://doi.org/10.1007/3-540-32579-4_3), [arXiv:math-ph/0511030](https://arxiv.org/abs/math-ph/0511030)&rbrack;
+
 Monograph on [[commutators]] in [[operator algebra]]:
 
 * [[Calvin R. Putnam]], *Commutation Properties of Hilbert Space Operators and Related Topics*, Ergebnisse der Mathematik und ihrer Grenzgebiete **36**, Springer (1967) &lbrack;[doi:10.1007/978-3-642-85938-0](https://doi.org/10.1007/978-3-642-85938-0)&rbrack;
