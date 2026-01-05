@@ -19,6 +19,10 @@ On [[CD-categories]] ([[gs-monoidal categories]]) and what came to be known as *
 
 * [[Kenta Cho]], [[Bart Jacobs]], _Disintegration and Bayesian inversion via string diagrams_, Mathematical Structures in Computer Science **29** 7 (2019) 938-971 &lbrack;[arXiv:1709.00322](https://arxiv.org/abs/1709.00322), [doi:10.1017/S0960129518000488](https://doi.org/10.1017/S0960129518000488)&rbrack;
 
+On [[bases]] for [[algebras of an endofunctor]] in terms of [[coalgebra for an endofunctor|coalgebras]]:
+
+* [[Bart Jacobs]], _Bases as Coalgebras_ &lbrack;[arXiv:1309.0844](https://arxiv.org/abs/1309.0844)&rbrack;
+
 
 ## Related pages
 
