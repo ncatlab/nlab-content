@@ -129,6 +129,10 @@ On the History of [[supergravity]]:
 
 * [[Peter West]]: *The discovery of supergravity and its early development* &lbrack;[arXiv:2507.23634](https://arxiv.org/abs/2507.23634)&rbrack;
 
+On the [[BMS group]]:
+
+* Romain Ruzziconi, [[Peter West]]: *Extended BMS representations and strings* &lbrack;[arXiv:2601.00662](https://arxiv.org/abs/2601.00662)&rbrack;
+
 
 ## Related entries
 
