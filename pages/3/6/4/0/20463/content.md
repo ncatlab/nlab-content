@@ -47,7 +47,7 @@ The [[near horizon geometry]] of an S$p$-brane involves [[hyperbolic manifolds]]
 
 The S-brane solutions in [[type II supergravity]] and [[11-dimensional supergravity]] were found in
 
-* {#GutperleStrominger02} Michael Gutperle, [[Andrew Strominger]], _Spacelike Branes_, JHEP 0204:018, 2002  ([arXiv:hep-th/0202210](https://arxiv.org/abs/hep-th/0202210))
+* {#GutperleStrominger02} [[Michael Gutperle]], [[Andrew Strominger]]: _Spacelike Branes_, JHEP 0204:018 (2002)  &lbrack;[arXiv:hep-th/0202210](https://arxiv.org/abs/hep-th/0202210), [doi:10.1088/1126-6708/2002/04/018](https://doi.org/10.1088/1126-6708/2002/04/018)&rbrack;
 
 * {#ChenGaltsovGutperle02} Chiang-Mei Chen, Dmitri V. Gal'tsov, Michael Gutperle, _S-brane Solutions in Supergravity Theories_, Phys. Rev. D66 (2002) 024043 ([arXiv:hep-th/0204071](https://arxiv.org/abs/hep-th/0204071))
 
