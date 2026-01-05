@@ -19,37 +19,36 @@
 
 ## Idea
 
-In a [[concrete category]], an **injective hull** of an object $A$ is an [[extension]] $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is an [[essential embedding]]. It is the dual concept to [[projective cover]].
+In a [[concrete category]], an **injective hull** of an object $A$ is an [[extension]] $A \stackrel{m}{\longrightarrow} B$ of $A$ such that $B$ is [[injective object|injective]] and $m$ is an [[essential embedding]]. It is the dual concept to a [[projective cover]].
 
 Beware that, in general, there is no way of making the assignment of the injective hull to an object into a [[functor]] such that there is a [[natural transformation]] from the [[identity functor]] to that functor.
 
 
 ## Examples 
 
-* In [[Vect]] every object $A$ has an injective hull, $A \stackrel{id_A}{\longrightarrow} A$.  In other words, every vector space is already an [[injective object]].
-* In [[Pos]] every object has an injective hull, its [[MacNeille completion]].
-* In [[Ab]] every object has an injective hull. The embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ is an example.
-* In the category [[Field]] of [[fields]] and algebraic field extensions, every object has an injective hull, its [[algebraic closure]].
-* In the category of metric spaces and [[short map]]s, the injective hull is a standard construction also known as the [[tight span]] (see [Wikipedia](http://en.wikipedia.org/wiki/Tight_span)).
-* Given a ring $R$, the category $R-Mod$ of left $R$-modules has an injective envelope. Moreover, every essential monomorphism whose domain is an injective $R$-module is an isomorphism. Injective envelope of $M$ is a terminal object in a subcategory of the undercategory $M/R-Mod$ consisting of essential morphisms (these terminal objects are called maximal essential extensions).
+* In [[Vect]] every object $A$ has an injective hull, $A \stackrel{id_A}{\longrightarrow} A$. In other words, every vector space is an [[injective object]].
+* In [[Pos]], every object has an injective hull—its [[MacNeille completion]].
+* In [[Ab]], every object has an injective hull. The embedding $\mathbb{Z} \hookrightarrow \mathbb{Q}$ is an example.
+* In the category [[Field]] of [[fields]] and algebraic field extensions, every object has an injective hull—its [[algebraic closure]].
+* In the category of metric spaces and [[short maps]], the injective hull is a standard construction also known as the [[tight span]] (see [Wikipedia](http://en.wikipedia.org/wiki/Tight_span)).
+* Given a ring $R$, the category $R-Mod$ of left $R$-modules has injective envelopes. Moreover, every essential monomorphism whose domain is an injective $R$-module is an isomorphism. The injective envelope of a module $M$ is a terminal object in the subcategory of the [[slice category]] $M/R-Mod$ consisting of the essential morphisms. (These terminal objects are called maximal essential extensions.)
 
 ## Generalization
 
 Given a class $\mathcal{E}$ of objects in a category, an **$\mathcal{E}$-hull**
-(or $\mathcal{E}$-envelope) of an object $A$ is a map $h\colon A\longrightarrow E$
+(or **$\mathcal{E}$-envelope**) of an object $A$ is a morphism $h: A \longrightarrow E$ into some $E$ in $\mathcal{E}$
 such that the following two conditions hold:
 
-1. Any map $k\colon A\longrightarrow E'$ to an object in $\mathcal{E}$ factors
-through $h$ via some map $f: E\longrightarrow E'$.
+1. Any morphism $A \longrightarrow E'$ to an object in $\mathcal{E}$ factors through $h$ via some morphism $E \longrightarrow E'$.
 
-2. Whenever a map $f\colon E\longrightarrow E$ satisfies $f\circ h = h$ then it
+1. Whenever a morphism $f: E \longrightarrow E$ satisfies $f\circ h = h$, then it
 must be an automorphism.
 
-On the other hand, given a class $\mathcal{H}$ of *morphisms* in a category, an **$\mathcal{H}$-injective hull** of an object $A$ is a map $h:A\to E$ in $\mathcal{H}$ such that:
+On the other hand, given a class $\mathcal{H}$ of *morphisms* in a category, an **$\mathcal{H}$-injective hull** of an object $A$ is a morphism $h:A\to E$ in $\mathcal{H}$ such that:
 
-1. $E$ is a $\mathcal{H}$-injective object and
+1. $E$ is an $\mathcal{H}$-injective object and
 
-2. $h$ is $\mathcal{H}$-essential, i.e. if $k\circ h \in \mathcal{H}$ then $k\in\mathcal{H}$.
+2. $h$ is $\mathcal{H}$-essential, i.e., if $k\circ h \in \mathcal{H}$, then $k\in\mathcal{H}$.
 
 ## Related concepts
 
