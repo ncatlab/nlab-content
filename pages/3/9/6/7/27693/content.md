@@ -47,6 +47,9 @@ See also:
 
 * [[Xavier Bekaert]], Laura Donnay, Yannick Herfray: *BMS particles* &lbrack;[arXiv:2412.06002](https://arxiv.org/abs/2412.06002)&rbrack;
 
+* Romain Ruzziconi, [[Peter West]]: *Extended BMS representations and strings* &lbrack;[arXiv:2601.00662](https://arxiv.org/abs/2601.00662)&rbrack;
+
+
 
 
 [[!redirects BMS group]]
