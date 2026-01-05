@@ -6,6 +6,8 @@
 
 ***
 
+* [[Jerome P. Gauntlett]], [[Robert C. Myers]], [[Paul K. Townsend]]: *Supersymmetry of Rotating Branes*, Phys. Rev. D **59** (1998) 025001 &lbrack;[arXiv:hep-th/9809065](https://arxiv.org/abs/hep-th/9809065), [doi:10.1103/PhysRevD.59.025001](https://doi.org/10.1103/PhysRevD.59.025001)&rbrack;
+
 * [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory I, Local Solutions*, JHEP 0808:028 (2008) &lbrack;[arXiv:0806.0605](https://arxiv.org/abs/0806.0605), [doi:10.1088/1126-6708/2008/08/028](https://doi.org/10.1088/1126-6708/2008/08/028)&rbrack;
 
 * [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory II: Global solutions asymptotic to $AdS_7 \times S^4$, JHEP 0812:044 (2008) &lbrack;[arXiv:0810.4647](https://arxiv.org/abs/0810.4647), [doi:10.1088/1126-6708/2008/12/044](https://doi.org/10.1088/1126-6708/2008/12/044)&rbrack;
