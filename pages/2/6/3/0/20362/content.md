@@ -58,9 +58,10 @@ As [[black brane]]-solutions of [[D=11 supergravity]]:
 
 * [[Arkady Tseytlin]], §3.2 in: *Harmonic superpositions of M-branes*, Nucl. Phys. B **475** (1996) 149-163 &lbrack;[arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035), <a href="https://doi.org/10.1016/0550-3213(96)00328-8">doi:10.1016/0550-3213(96)00328-8</a>&rbrack;
 
-
 * [[Michael Green]], [[Neil Lambert]], [[George Papadopoulos]], [[Paul Townsend]], _Dyonic $p$-branes from self-dual $(p+1)$-branes_, Phys. Lett. B **384** (1996) 86-92 &lbrack;[arXiv:hep-th/9605146](https://arxiv.org/abs/hep-th/9605146)&rbrack;
 
+* Harm Jan Boonstra, Bas Peeters, [[Kostas Skenderis]]: *Brane intersections, anti-de Sitter space-times and dual superconformal theories*, Nuclear Physics B **533** 1–3  (1998) 127-162 \[<a href="https://doi.org/10.1016/S0550-3213(98)00512-4">doi:10.1016/S0550-3213(98)00512-4</a>, [arXiv:hep-th/9803231](https://arxiv.org/abs/hep-th/9803231)\]
+  > (including near-horizon geometries of non-standard M2/M5 intersections on spacetimes of the form $AdS_k \times S^k \times S^m \times E^n$)
 
 
 * [[Troels Harmark]], Section 3.1 of _Open Branes in Space-Time Non-Commutative Little String Theory_, Nucl. Phys. B **593** (2001) 76-98 ([arXiv:hep-th/0007147](https://arxiv.org/abs/hep-th/0007147))
