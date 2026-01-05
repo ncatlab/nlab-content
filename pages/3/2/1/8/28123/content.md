@@ -58,9 +58,22 @@ s_2
 +c_1^2.
 $$
 
+## Properties
+
+For complex [[vector bundles]] $E,F\twoheadrightarrow B$, one has $c(E\oplus F)=c(E)c(F)$, meaning that $c(F)=s(E)c(E\oplus F)$. In particular, if $B$ is a [[compact]] [[Hausdorff space]], then for every $E$ there exists a $F$ with $E\oplus F\cong\mathbb{R}^n$, ([Hatcher 17, Prop. 1.4](#Hatcher17)) which with $w(E\oplus F)=w(\mathbb{R}^n)=1$ makes the formula simplify to:
+$$
+s(E)
+=c(F).
+$$
+Hence in this case the Segre classes can be seen as the Chern classes of a complement to a trivial bundle.
+
 ## Related concepts
 
 * [[dual Stiefel-Whitney class]]
+
+## References
+
+* {#Hatcher17} [[Allen Hatcher]]: _Vector bundles and K-Theory_, book draft (2017) &lbrack;[webpage](https://pi.math.cornell.edu/~hatcher/VBKT/VBpage.html), [pdf](https://pi.math.cornell.edu/~hatcher/VBKT/VB.pdf)&rbrack;
 
 [[!redirects Segre classes]]
 [[!redirects total Segre class]]
