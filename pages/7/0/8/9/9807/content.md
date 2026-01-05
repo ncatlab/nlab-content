@@ -929,19 +929,24 @@ See also
 
 * Camilo Arias Abad, [[Marius Crainic]], Sec. 1 of: _The Weil algebra and the Van Est isomorphism_ ([arXiv:0901.0322](https://arxiv.org/abs/0901.0322))
 
-Early discussion of the Weil model includes
+Early discussion of the Weil model:
 
 * {#AtiyahBott84} [[Michael Atiyah]], [[Raoul Bott]], _The moment map and equivariant cohomology_, Topology 23, 1 (1984) (<a href="https://doi.org/10.1016/0040-9383(84)90021-1">doi:10.1016/0040-9383(84)90021-1</a>, [pdf](https://www.math.stonybrook.edu/~mmovshev/MAT570Spring2008/BOOKS/atiyahbott_moment.pdf))
  
-The slick proof of the equivalence between the Weil model and the the Cartan model via the _Mathai-Quillen isomorphism_ (Lemma \ref{ProjectionOntoHorizontalDifferentialForms}) is due to
+The slick proof of the equivalence between the Weil model and the the Cartan model via the _Mathai-Quillen isomorphism_ (Lemma \ref{ProjectionOntoHorizontalDifferentialForms}) is due to:
 
 * {#MathaiQuillen86} [[Varghese Mathai]], [[Daniel Quillen]], Sec. 5 of _Superconnections, Thom classes and equivariant differential forms_, Topology 25, 85 (1986)  (<a href="https://doi.org/10.1016/0040-9383(86)90007-8">doi:10.1016/0040-9383(86)90007-8</a>)
  
-A review of the Weil model and the Cartan model and the introduction of the "BRST model" (Kalkman model) is in
+A review of the Weil model and the Cartan model and the introduction of the "BRST model" (Kalkman model):
 
 * {#Kalkman93} [[Jaap Kalkman]], _BRST model applied to symplectic geometry_, Ph.D. Thesis, Utrecht, 1993 ([arXiv:hep-th/9308132 (broken)](https://arxiv.org/abs/hep-th/9308132), [cds:9308132](http://cds.cern.ch/record/568522), [pdf](http://cds.cern.ch/record/568522/files/9308132.pdf))
 
 * [[Jaap Kalkman]], _BRST Model for Equivariant Cohomology and  Representatives for the Equivariant Thom Class_, Comm. Math. Phys. Volume 153, Number 3 (1993), 447-463. ([euclid:1104252784](http://projecteuclid.org/euclid.cmp/1104252784))
+
+See also:
+
+* Lixin Xu: *Equivariant Cohomology, BRST Quantization, and Analytic Localization: A Unified Framework* &lbrack;[arXiv:2601.00256](https://arxiv.org/abs/2601.00256)&rbrack;
+
 
 
 Generalization of the [[equivariant de Rham theorem]] to non-compact Lie groups is due to 
