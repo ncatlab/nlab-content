@@ -290,7 +290,7 @@ Discussion of more general classification of solutions to [[supergravity]] prese
  
 * [[Jerome Gauntlett]], Stathis Pakis, _The Geometry of $D=11$ Killing Spinors_, JHEP 0304 (2003) 039 ([arXiv:hep-th/0212008](http://arxiv.org/abs/hep-th/0212008))
 
-* {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP 0812:047 (2008) &lbrack;[arXiv:0810.1484](http://arxiv.org/abs/0810.1484), [doi:10.1088/1126-6708/2008/12/047](https://iopscience.iop.org/article/10.1088/1126-6708/2008/12/047)&rbrack;
+* {#HEGKS08} [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym, Paul Sorba: _Half-BPS supergravity solutions and superalgebras_, JHEP 0812:047 (2008) &lbrack;[arXiv:0810.1484](http://arxiv.org/abs/0810.1484), [doi:10.1088/1126-6708/2008/12/047](https://iopscience.iop.org/article/10.1088/1126-6708/2008/12/047)&rbrack;
 
 The conceptual identification of the relevant brane-charge extension of the [[supersymmetry]] algebra as that of the [[conserved currents]] of the [[Green-Schwarz super p-brane sigma models]] for branes is due to
 
