@@ -78,8 +78,7 @@ As [[black brane]]-solutions of [[D=11 supergravity]]:
 
 * [[Kurt Lechner]], _Intersecting M2- and M5-branes_, Phys. Lett. B589 (2004) 147-154 ([arXiv:hep-th/0402078](https://arxiv.org/abs/hep-th/0402078), [doi:10.1016/j.physletb.2004.03.056](https://doi.org/10.1016/j.physletb.2004.03.056))
 
-* [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, _Exact Half-BPS Flux Solutions in M-theory I, Local Solutions_, JHEP 0808:028, 2008 ([arXiv:0806.0605](https://arxiv.org/abs/0806.0605))
-
+* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory I, Local Solutions*, JHEP 0808:028 (2008) &lbrack;[doi:10.1088/1126-6708/2008/08/028](https://doi.org/10.1088/1126-6708/2008/08/028), [arXiv:0806.0605](https://arxiv.org/abs/0806.0605)&rbrack;
 
 * [[Vasilis Niarchos]], [[Konstadinos Siampos]], *M2-M5 blackfold funnels*, Journal of High Energy Physics **2012** 175 (2012) &lbrack;[arXiv:1205.1535](https://arxiv.org/abs/1205.1535), <a href="https://doi.org/10.1007/JHEP06(2012)175">doi:10.1007/JHEP06(2012)175</a>&rbrack;
 
