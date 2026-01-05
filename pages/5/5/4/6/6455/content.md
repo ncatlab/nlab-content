@@ -1,5 +1,11 @@
 
-* [webpage](http://www.physics.ucla.edu/~dhoker/index.htm)
+* [institute page](http://www.physics.ucla.edu/~dhoker/index.htm)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Eric_D%27Hoker)
+
+* [inSpire page](https://inspirehep.net/authors/1012599)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=bW3HtQIAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -19,10 +25,13 @@ On [[half-BPS solutions]] in [[D=11 supergravity]]
 
 * {#HEGKS08} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, Paul Sorba, _Half-BPS supergravity solutions and superalgebras_, JHEP 0812:047 (2008) &lbrack;[arXiv:0810.1484](http://arxiv.org/abs/0810.1484), [doi:10.1088/1126-6708/2008/12/047](https://iopscience.iop.org/article/10.1088/1126-6708/2008/12/047)&rbrack;
 
+identified as [[anti de Sitter spacetime|$AdS_3$]] solutions with two [[3-sphere]]-factors (products $AdS_3 \times S^3 \times S^3 \times \Sigma^2$ warped over a surface $\Sigma^2$, being [[near horizon geometries]] of certain [[M2-M5-brane bound states]]):
 
-and [[black brane|black]] [[M2-M5 brane bound states]]:
+* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory I, Local Solutions*, JHEP 0808:028 (2008) &lbrack;[doi:10.1088/1126-6708/2008/08/028](https://doi.org/10.1088/1126-6708/2008/08/028), [arXiv:0806.0605](https://arxiv.org/abs/0806.0605)&rbrack;
 
-* [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, _Exact Half-BPS Flux Solutions in M-theory I, Local Solutions_, JHEP 0808:028, 2008 ([arXiv:0806.0605](https://arxiv.org/abs/0806.0605))
+* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory II: Global solutions asymptotic to $AdS_7 \times S^4$*, JHEP 0812:044 (2008) &lbrack;[doi:10.1088/1126-6708/2008/12/044](https://doi.org/10.1088/1126-6708/2008/12/044), [arXiv:0810.4647](https://arxiv.org/abs/0810.4647)&rbrack;
+
+* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory III: Existence and rigidity of global solutions asymptotic to $AdS_4 \times S^7$*, JHEP 0909:067 (2009) &lbrack;[doi:10.1088/1126-6708/2009/09/067](https://doi.org/10.1088/1126-6708/2009/09/067), [arXiv:0906.0596](https://arxiv.org/abs/0906.0596)&rbrack;
 
 
 
@@ -48,8 +57,6 @@ On [[2-loop]] [[string scattering amplitudes]] of the [[superstring]]:
 * [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings VI: Non-Renormalization Theorems and the 4-Point Function_,  	Nucl. Phys. B715:3-90, 2005 ([arXiv:hep-th/0501197](http://arxiv.org/abs/hep-th/0501197))
 
 * [[Eric D'Hoker]], [[Duong Phong]], _Two-Loop Superstrings VII, Cohomology of Chiral Amplitudes_, Nucl. Phys. B804:421-506, 2008 ([arXiv:0711.4314](http://arxiv.org/abs/0711.4314))
-
-
 
 * [[Eric D'Hoker]], [[Carlos Mafra]], [[Boris Pioline]], [[Oliver Schlotterer]], _Two-loop superstring five-point amplitudes I: Construction via chiral splitting and pure spinors_ ([arXiv:2006.05270](https://arxiv.org/abs/2006.05270))
 
