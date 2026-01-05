@@ -1,3 +1,4 @@
+[[!redirects Serge class]]
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -14,13 +15,13 @@
 
 ## Idea
 
-_Serge classes_ (or _dual Chern classes_) are $\mathbb{Z}$-valued [[characteristic classes]] for complex [[vector bundles]]. The total [[Chern class]] is invertible in the [[cohomology ring]] (using $c_0=1$ and the [[geometric series]]) and the Serge classes are then the components of its inverse, meaning in particular that they can be expressed by [[Chern classes]] again and carry the exact same information. Nonetheless, Serge classes can be used to simplfy calculations.
+_Segre classes_ (or _dual Chern classes_) are $\mathbb{Z}$-valued [[characteristic classes]] for complex [[vector bundles]]. The total [[Chern class]] is invertible in the [[cohomology ring]] (using $c_0=1$ and the [[geometric series]]) and the Segre classes are then the components of its inverse, meaning in particular that they can be expressed by [[Chern classes]] again and carry the exact same information. Nonetheless, Segre classes can be used to simplfy calculations.
 
 ## Definition
 
-Let $E\twoheadrightarrow B$ be a complex [[vector bundle]] of rank $n$ with total [[Chern class]] $c(E)\in H^*(B,\mathbb{Z})$, then its total Serge class $s(E)\in H^*(B,\mathbb{Z})$ is defined by:
+Let $E\twoheadrightarrow B$ be a complex [[vector bundle]] of rank $n$ with total [[Chern class]] $c(E)\in H^*(B,\mathbb{Z})$, then its total Segre class $s(E)\in H^*(B,\mathbb{Z})$ is defined by:
 $$
-c(E)\overline{c}(E)
+c(E)s(E)
 =1.
 $$
 If the [[Chern classes]] are known, then the equation can be solved inductively due to their linear and triangular form. Solving the equation in order $n$ yields:
@@ -30,7 +31,7 @@ s_n(E)
 $$
 Another direct computation uses the [[geometric series]]:
 $$
-\overline{c}(E)
+s(E)
 =c(E)^{-1}
 =\left(
 1+\sum_{k=1}^n c_k(E)
@@ -42,7 +43,7 @@ $$
 
 ## Examples
 
-Low Serge classes are:
+Low Segre classes are:
 $$
 s_0
 =1;
@@ -61,8 +62,8 @@ $$
 
 * [[dual Stiefel-Whitney class]]
 
-[[!redirects Serge classes]]
-[[!redirects total Serge class]]
+[[!redirects Segre classes]]
+[[!redirects total Segre class]]
 
 [[!redirects dual Chern class]]
 [[!redirects dual Chern classes]]
