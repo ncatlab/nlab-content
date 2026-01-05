@@ -290,7 +290,7 @@ The nonabelian generalization of this 7d action functional that follows from tak
 
 See also
 
-* {#HEGK} [[Eric D'Hoker]], John Estes, Michael Gutperle, Darya Krym, 
+* {#HEGK} [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym, 
 
   _Exact Half-BPS Flux Solutions in M-theory I
 Local Solutions_ ([arXiv:0806.0605](http://arxiv.org/abs/0806.0605))
