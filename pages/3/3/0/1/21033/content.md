@@ -21,7 +21,7 @@ Review:
 
 See also:
 
-* Michael Gutperle, Nicholas Klein, *A Penrose limit for type IIB $AdS_6$ solutions* ([arXiv:2105.10824](https://arxiv.org/abs/2105.10824))
+* [[Michael Gutperle]], Nicholas Klein, *A Penrose limit for type IIB $AdS_6$ solutions*,  J. High Energ. Phys. **2021** 73 (2021) \[<a href=" https://doi.org/10.1007/JHEP07(2021)073">doi:10.1007/JHEP07(2021)073</a>, [arXiv:2105.10824](https://arxiv.org/abs/2105.10824)\]
 
 
 
