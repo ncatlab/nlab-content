@@ -351,9 +351,9 @@ Classification of symmetric solutions:
 
 
 
-Discussion of [[black branes]] and [[BPS states]] includes
+Discussion of [[black branes]] and [[BPS states]]:
 
-* {#Stelle98} [[Kellogg Stelle]], section 3 of _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
+* {#Stelle98} [[Kellogg Stelle]], section 3 of: _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
 
 * {#EHKNT07} [[Francois Englert]], Laurent Houart, [[Axel Kleinschmidt]], [[Hermann Nicolai]], Nassiba Tabti, _An $E_9$ multiplet of BPS states_, JHEP 0705:065,2007 ([arXiv:hep-th/0703285](http://arxiv.org/abs/hep-th/0703285))
 
@@ -368,7 +368,20 @@ Discussion of [[black branes]] and [[BPS states]] includes
 
 * Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](http://arxiv.org/abs/1312.0578))
 
-Discussion of [[black hole]] horizons includes
+Discussion of [[anti de Sitter spacetime|$AdS_3$]] solutions with two [[3-sphere]]-factors (products $AdS_3 \times S^3 \times S^3 \times \Sigma^2$ warped over a surface $\Sigma^2$, being [[near horizon geometries]] of certain [[M2-M5-brane bound states]]):
+
+* Harm Jan Boonstra, Bas Peeters, [[Kostas Skenderis]]: *Brane intersections, anti-de Sitter space-times and dual superconformal theories*, Nuclear Physics B **533** 1–3  (1998) 127-162 \[<a href="https://doi.org/10.1016/S0550-3213(98)00512-4">doi:10.1016/S0550-3213(98)00512-4</a>, [arXiv:hep-th/9803231](https://arxiv.org/abs/hep-th/9803231)\]
+
+* [[Jerome P. Gauntlett]], [[Robert C. Myers]], [[Paul K. Townsend]]: *Supersymmetry of Rotating Branes*, Phys. Rev. D **59** (1998) 025001 &lbrack;[arXiv:hep-th/9809065](https://arxiv.org/abs/hep-th/9809065), [doi:10.1103/PhysRevD.59.025001](https://doi.org/10.1103/PhysRevD.59.025001)&rbrack;
+
+* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory I, Local Solutions*, JHEP 0808:028 (2008) &lbrack;[doi:10.1088/1126-6708/2008/08/028](https://doi.org/10.1088/1126-6708/2008/08/028), [arXiv:0806.0605](https://arxiv.org/abs/0806.0605)&rbrack;
+
+* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory II: Global solutions asymptotic to $AdS_7 \times S^4$*, JHEP 0812:044 (2008) &lbrack;[doi:10.1088/1126-6708/2008/12/044](https://doi.org/10.1088/1126-6708/2008/12/044), [arXiv:0810.4647](https://arxiv.org/abs/0810.4647)&rbrack;
+
+* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory III: Existence and rigidity of global solutions asymptotic to $AdS_4 \times S^7$*, JHEP 0909:067 (2009) &lbrack;[doi:10.1088/1126-6708/2009/09/067](https://doi.org/10.1088/1126-6708/2009/09/067), [arXiv:0906.0596](https://arxiv.org/abs/0906.0596)&rbrack;
+
+
+Discussion of [[black hole]] horizons:
 
 * [[Jan Gutowski]], [[George Papadopoulos]], _Static M-horizons_ ([arXiv:1106.3085](http://arxiv.org/abs/1106.3085))
 
