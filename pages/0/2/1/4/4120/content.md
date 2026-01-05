@@ -1,3 +1,7 @@
+* table of contents
+{: toc}
+
+## Idea
 
 There are different notions in mathematics called _basis_.  Generally speaking, these fall into two classes:
 
@@ -13,6 +17,12 @@ There are different notions in mathematics called _basis_.  Generally speaking, 
    *  etc ....
 
 Note that the plurals of 'basis' and 'base' are both spelt 'bases' (although their pronunciations differ).
+
+## References
+
+For a category-theoretic treatment of situations giving rise to bases in the second class see:
+
+* [[Bart Jacobs]], _Bases as Coalgebras_ &lbrack;[arXiv:1309.0844](https://arxiv.org/abs/1309.0844)&rbrack;
 
 
 [[!redirects basis]]
