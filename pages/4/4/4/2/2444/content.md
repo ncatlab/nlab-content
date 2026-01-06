@@ -35,98 +35,89 @@ However, considering ordinary smooth manifolds as ringed spaces with either thei
 
 1. In the second sense, a complex supermanifold is a super(complex manifold), a super-version of [[complex manifold]].
 
-## complex {super manifold} 
+## Smooth complex supermanifolds
 
-A **complex supermanifold** is a [[ringed space]] $X = (|X|, O_X)$ such that
+A **smooth complex supermanifold** is a [[ringed space]] $X = (|X|, O_X)$ such that
 
 * the [[structure sheaf]] $O_X$ a [[sheaf]] of commutative complex [[super algebra]]s
 
 *  locally $O_X$ is [[isomorphism|isomorphic]] to $
   C^\infty(\mathbb{R}^d) \otimes_{\mathbb{C}} \wedge^\bullet \mathbb{C}^\delta$
 
-Write [[cSDiff]] for the [[category]] of complex supermanifolds.
+The pair $d|\delta$ is known as the __superdimension__ of $X$.
+
+Write cSDiff for the [[category]] of complex supermanifolds.
 
 
-**Example**
-The functor $ \Pi : \{real vector bundles\} \to SDiff$
-has a complex analogue $ \Pi : \{complex vector bundles\} \to cSDiff $.
+\begin{example}
+The functor
+$$\Pi : \text{real vector bundles} \to SDiff$$
+has a complex analogue
+$$\Pi : \text{complex vector bundles} \to cSDiff.$$
 
 Let $E \to X$ be a complex [[vector bundle]] of rank $\delta$.
 This gives rise to the complex supermanifold $\Pi E$, in the [[supermanifold|same way]] as a real vector bundle gives rise to a real supermanifold: 
-the structure sheaf is given by sections of the exterior algebra 
-of the dual of $E$.
+the structure sheaf is given by sections of the exterior algebra of the dual of $E$.
+\end{example}
 
-
-**Remark** 
-
-$C^\infty(X) := O_X(X)$ does not in general have a $\mathbb{C}$-antilinear involution  $\bar{-} : C^\infty(X) \to C^\infty(X)$ but there does exist a canonical complex conjugation on the quotient $C^\infty(X)$ by the ideal of nilpotent sections, which is $C^\infty(X_{red}; \mathbb{C})$.
+\begin{remark}
+The algebra $C^\infty(X) := O_X(X)$ does not in general have a $\mathbb{C}$-antilinear involution  $\bar{-} : C^\infty(X) \to C^\infty(X)$ but there does exist a canonical complex conjugation on the quotient $C^\infty(X)$ by the ideal of nilpotent sections, which is $C^\infty(X_{red}; \mathbb{C})$.
 So on a complex supermanifold we have complex conjugation only on the reduced manifold.
+\end{remark}
 
 
+As for ordinary [[supermanifolds]] (and with same proof as in the real case), we have the following two statements.
 
-As for ordinary [[supermanifold]]s (and with same proof as in the real case)
-we have the following two statements:
-
-**Theorem**
+\begin{theorem}
 
 1. Every complex supermanifold is isomorphic to one of the form $\Pi E$.
 
-1. $ cSDiff(X,Y) \simeq  ComplexSuperAlg(C^\infty(Y), C^\infty(X)). $
+1. The functor $C^\infty$ is [[fully faithful]]:
+$$cSDiff(X,Y) \simeq  ComplexSuperAlg(C^\infty(Y), C^\infty(X)).$$
+
+\end{theorem}
  
-**Remark** 
+\begin{remark}
 It turns out that a $\mathbb{C}$-super algebra homomorphism 
-$
-  \phi : C^\infty(Y) \to C^\infty(X)
-$
-automatically satisfies $\phi_{red}(\overline{f_{red}}) = \overline{\phi_{red}(f_{red})}$.
+$$\phi : C^\infty(Y) \to C^\infty(X)$$
+automatically satisfies
+$$\phi_{red}(\overline{f_{red}}) = \overline{\phi_{red}(f_{red})}.$$
+\end{remark}
 
-
+\begin{example}
 Define the complex supermanifold $\mathbb{R}_{cs}^{d|\delta}$  as $\mathbb{R}^d$
 with structure sheaf $U\mapsto C^\infty(U) \otimes_{\mathbb{C}} \wedge^\bullet \mathbb{C}^\delta$.
 
 Then for $S$ an arbitrary complex supermanifold we have
+$$\mathbb{R}_{cs}^{d|\delta}(S)
+= cSDiff(S, \mathbb{R}_{cs}^{d|\delta})
+= \{ (x_1, \cdots, x_d, \theta_1, \cdots, \theta_{\delta})\},$$
+where $x_i \in C^\infty(S)^{ev}$,
+$\theta_j \in C^\infty(S)^{odd}$,
+and $(x_i)_{red}$ is real: $\overline{(x_i)_{red}} = (x_i)_{red} \}$.
+\end{example}
 
-$$
-  \mathbb{R}_{cs}^{d|\delta}(S)
-  =
-   cSDiff(S, \mathbb{R}_{cs}^{d|\delta})
-  =
-  \{
-    (x_1, \cdots, x_d, \theta_1, \cdots, \theta_{\delta})|
-    x_i \in C^\infty(S)^{ev} , 
-    \theta_j \in C^\infty(S)^{odd};
-    with x_i real in that \overline{(x_i)_{red}} = (x_i)_{red}
-  \}
-$$
-
-
-**Example** 
-
+\begin{example}
 For
-
-$$
-  \mathbb{R}^{2|1}(S)
-  =
-  \{
-    (x,y,\theta) |
-    x,y \in C^\infty(S)^{ev}, 
-    \theta \in C^\infty(S)^{odd}; x,y real
-  \}
-$$
-
+$$\mathbb{R}^{2|1}(S)
+= \{ (x,y,\theta) | x,y \in C^\infty(S)^{ev}, 
+    \theta \in C^\infty(S)^{odd}; x,y real \}$$
 we shall write
-
-$$
-  \simeq \{
-     (z,\bar z, \theta)
-     | z, \bar z \in C^\infty(S)^{ev}; \overline{z_{red}}=(\overline z )_{red}
-  \}.
-$$
-
+$$\simeq \{ (z,\bar z, \theta) | z, \bar z \in C^\infty(S)^{ev}; \overline{z_{red}}
+= (\overline z )_{red} \}.$$
+\end{example}
 
 ## Related concepts
 
+* [[supermanifold]], [[complex manifold]]
+
 * [[super Riemann surface]]
 
+
+## References
+
+Section 4.8 in 
+
+* [[Pierre Deligne]], [[John W. Morgan]], _Notes on Supersymmetry (following Joseph Bernstein)_, [[Quantum Fields and Strings]], Volume 1.
 
 [[!redirects complex supermanifolds]]
