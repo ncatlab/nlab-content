@@ -21,18 +21,17 @@
 
 ## Idea
 
-The _lifting property_ is a property of a pair of [[morphism|morphisms]] in a [[category]]. It is used in [[homotopy theory]] within [[algebraic topology]] to define properties of morphisms starting from an explicitly given class of morphisms. It appears in a prominent way in the theory of [[model categories]], an axiomatic framework for [[homotopy theory]] introduced by [[Daniel Quillen]]. It is also used in the definition of a [[factorization system]], and of a [[weak factorization system]], notions related to but less restrictive than the notion of a model category. 
-A number of elementary notions may also be expressed using the lifting property starting from a list of (counter)examples.
+The _lifting property_ is a property of a pair of [[morphism|morphisms]] in a [[category]]. It is used in [[homotopy theory]] to define properties of morphisms starting from an explicitly given class of morphisms. It appears in a prominent way in the theory of [[model categories]], an axiomatic framework for [[homotopy theory]] introduced by [[Daniel Quillen]]. It is also used in the definition of a [[factorization system]], and of a [[weak factorization system]], notions related to but less restrictive than the notion of a model category. A number of elementary notions may also be expressed using the lifting property starting from a list of (counter-)examples.
 
-{#AsQualitativeNegation} Often it is useful to think of lifting properties as a expressing a kind of qualitative negation ("[[Quillen negation]]"): The morphisms with the left/right lifting property against those in a class $P$ tend to be characterized by properties opposite of those in $P$.
-For example, a morphism in [[Sets]] is [[surjective]] iff it has the right lifting property against the archetypical non-surjective map $\varnothing \to \{*\}$, and [[injective]] iff it has either left or right lifting property against the archetypical non-injective map  $\{x_1,x_2\}\to \{*\}$. (For more such examples see at *[[separation axioms in terms of lifting properties]]*.) 
+{#AsQualitativeNegation} It is useful to think of lifting properties as expressing a kind of qualitative negation ("[[Quillen negation]]"). The morphisms with the left/right lifting property against those in a class $P$ tend to be characterized by properties opposite to those in $P$.
+For example, a morphism in [[Sets]] is [[surjective]] if and only if it has the right lifting property against the archetypical non-surjective map $\varnothing \to \{*\}$, and [[injective]] if and only if it has the left (or right) lifting property against the archetypical non-injective map $\{0,1\}\to \{0\}$. (For more examples, see *[[separation axioms in terms of lifting properties]]*.) 
 
 ## Definition
 
 \begin{definition}\label{LiftingPropertiesOfMorphisms}
 **(lifting properties of morphisms)**
 \linebreak
-A morphism $i$ in a category has the *left lifting property* with respect to a morphism $p$, and $p$ also has the *right lifting property* with respect to $i$, sometimes denoted $i\,\,&solb;\,\, p$ or $i\downarrow p$, iff the following implication holds for each morphism $f$ and $g$ in the category:
+A morphism $i$ in a category has the *left lifting property* with respect to a morphism $p$, and $p$ also has the *right lifting property* with respect to $i$, sometimes denoted $i\,\,&solb;\,\, p$ or $i\downarrow p$, if the following implication holds for each morphism $f$ and $g$ in the category:
 
 * if the outer square of the following diagram commutes, then there exists $h$ completing the diagram, i.e. for each $f:A\to X$ and $g:B\to Y$ such that $p\circ f = g \circ i$ there exists $h:B\to X$ such that $h\circ i = f$ and $p\circ h = g$.
 
@@ -56,15 +55,15 @@ A morphism $i$ in a category has the *left lifting property* with respect to a m
 \end{tikzcd}
 \end{definition}
 
-This is sometimes also known as the morphism $i$ being ''weakly orthogonal to'' the morphism $p$; however, ''orthogonal to'' will refer to the stronger property that whenever $f$ and $g$ are as above, the diagonal morphism $h$ exists and is also required to be unique.
+This is sometimes known as the morphism $i$ being ''weakly orthogonal'' to the morphism $p$. If this convention is used, then ''orthogonal'' refers to the stronger property that whenever $f$ and $g$ are as above, the diagonal morphism $h$ exists and is also required to be unique.
 
 \begin{remark} \label{LiftingForObjects}
 **(lifting properties of objects)**
 \linebreak
-One also speaks of *[[objects]]* having left or right lifting properties (for instance in the definition of [[projective objects]] and [[injective objects]], respectively, or in the characterization of [[cofibrant objects]] and [[fibrant objects]], respectively), by which one then means, respectively:
+One also speaks of *[[objects]]* having left or right lifting properties (for instance, in the definition of [[projective objects]] and [[injective objects]], respectively, or in the characterization of [[cofibrant objects]] and [[fibrant objects]], respectively), by which one then means, respectively, that:
 \end{remark}
 
-* that the corresponding unique morphisms $\varnothing \longrightarrow B$ (from the [[initial object]]) has the left lifting property in the sense of Def. \ref{LiftingPropertiesOfMorphisms} (against the given morphism $p$):
+* the corresponding unique morphisms $\varnothing \longrightarrow B$ (from the [[initial object]]) has the left lifting property in the sense of Def. \ref{LiftingPropertiesOfMorphisms} (against the given morphism $p$):
 
 \begin{tikzcd}
   \color{lightgray}
@@ -89,7 +88,7 @@ One also speaks of *[[objects]]* having left or right lifting properties (for in
   \mathrlap{\,,}
 \end{tikzcd}
 
-* that the unique morphism $X \longrightarrow \ast$ (to the [[terminal object]]) has the right lifting property (against the given morphism $i$):
+* the unique morphism $X \longrightarrow \ast$ (to the [[terminal object]]) has the right lifting property (against the given morphism $i$):
 
 \begin{tikzcd}
   A
@@ -222,9 +221,9 @@ into the [[zero]] [[module]]:
 \]
 
 
-An $R$-[[module]] $M$ is [[projective module|projective]] iff (by direct unwinding of the definitions of [[projective objects]] and lifts) the [[initial object|initial morphism]] $0 \to R$ (out of the [[zero]] [[module]] into the [[ground ring]]) has the [[left lifting property]] against all surjective homomorphisms.
+An $R$-[[module]] $M$ is [[projective module|projective]] iff (by direct unwinding of the definitions of [[projective objects]] and lifts) the [[initial object|initial morphism]] $0 \to M$ (out of the [[zero]] [[module]]) has the [[left lifting property]] against all surjective $R$-module homomorphisms.
 
-With the notation of Def. \ref{QuillenNegation} this reads as follows:
+With the notation of Def. \ref{QuillenNegation}, this reads as follows:
 
   $$
     M\;\text{projective}
