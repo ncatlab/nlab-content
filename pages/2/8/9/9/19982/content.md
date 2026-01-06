@@ -44,7 +44,12 @@ The [[finite rotation group]] inside [[orthogonal group|O(4)]] which is the [[sy
 ## References
 
 
-See also
+See also:
 
 * Wikipedia, _[24-cell](https://en.wikipedia.org/wiki/24-cell)_
+
+Construction via the 24-cell of [[Calabi-Yau manifold|Calabi-Yau 3-folds]] with minimal [[Hodge numbers]] $h^{1,1} = 1$ and $h^{2,1} = 1$:
+
+* [[Volker Braun]]: *The 24-Cell and Calabi-Yau Threefolds with Hodge Numbers $(1,1)$*, J. High Energ. Phys. **2012** 101 (2012) &lbrack;<a href="https://doi.org/10.1007/JHEP05(2012)101">doi:10.1007/JHEP05(2012)101</a>, [arXiv:1102.4880](https://arxiv.org/abs/1102.4880)&rbrack;
+
 
