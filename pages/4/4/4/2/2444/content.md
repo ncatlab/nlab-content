@@ -25,15 +25,15 @@
 
 ## Idea
 
-There are two different things that one might mean by a "complex supermanifold", and the term is in fact used for two different notions in the literature (the terminology is a mess!):
+There are two different notions that one might mean by "complex supermanifolds", and both are in use (the terminology is a mess!):
 
-1. In the first sense, a complex supermanifold generalizes the notion of a smooth manifold with its sheaf of smooth complex-valued functions, just as an
-ordinary [[supermanifold]] is a generalization of an ordinary manifold with its sheaf 
-of smooth real-valued functions.
-However, considering ordinary smooth manifolds as ringed spaces with either their sheaves of real or complex smooth functions gives two equivalent categories, whereas this is not true in the case of real and complex supermanifolds; the corresponding functor is neither essentially surjective nor fully faithful.
-(For $X$ a complex supermanifold in this sense, the underlying reduced manifold $X_{red}$ is **not** a [[complex manifold]] but just a [[smooth manifold]] regarded as a [[ringed space]] with [[structure sheaf]] taken to be the sheaf of $\mathbb{C}$-valued smooth functions on the ordinary real manifold.)
+1. In the first sense, complex supermanifolds generalize the notion of [[smooth manifolds]] with their [[sheaf]] of smooth complex-valued functions, just as ordinary [[supermanifolds]] are a generalization of ordinary manifold with their sheaf of smooth real-valued functions.
 
-1. In the second sense, a complex supermanifold is a super(complex manifold), a super-version of [[complex manifold]].
+   However, considering ordinary smooth manifolds as [[ringed spaces]] with either their sheaves of real or complex smooth functions gives two equivalent categories, whereas this is not true in the case of real and complex supermanifolds; the corresponding functor is neither [[essentially surjective]] nor [[fully faithful]].
+
+   (For $X$ a complex supermanifold in this sense, the underlying reduced manifold $X_{red}$ is *not* a [[complex manifold]] but just a [[smooth manifold]] regarded as a [[ringed space]] with [[structure sheaf]] taken to be the sheaf of $\mathbb{C}$-valued smooth functions on the ordinary real manifold.)
+
+1. In the second sense, complex supermanifolds are super(complex manifolds), a [[supergeometry|supergeometric]] version of [[complex manifolds]].
 
 ## Smooth complex supermanifolds
 
@@ -114,10 +114,10 @@ $$\simeq \{ (z,\bar z, \theta) | z, \bar z \in C^\infty(S)^{ev}; \overline{z_{re
 * [[super Riemann surface]]
 
 
-## References
+## References 
 
-Section 4.8 in 
+* {#DeligneMorgan1999} [[Pierre Deligne]], [[John Morgan]], Section 4.8 in: *Notes on supersymmetry*, in *[[Quantum Fields and Strings]], A course for mathematicians*, vol 1, Amer. Math. Soc. (1999) 41-98 &lbrack;[web version](http://www.math.ias.edu/qft), [[DeligneMorgan-NotesOnSusy.pdf:file]], [[DeligneMorgan-SignRule.pdf:file]]&rbrack;
 
-* [[Pierre Deligne]], [[John W. Morgan]], _Notes on Supersymmetry (following Joseph Bernstein)_, [[Quantum Fields and Strings]], Volume 1.
+
 
 [[!redirects complex supermanifolds]]
