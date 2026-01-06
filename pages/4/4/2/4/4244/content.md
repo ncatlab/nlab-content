@@ -19,7 +19,7 @@
 
 An $n$-dimensional _Calabi-Yau variety_ is an $n$-dimensional [[Kähler manifold]] with ([[holomorphic line bundle|holomorphically]], rather than just topologically) trivial [[canonical bundle]]. This is equivalent to saying that it is real [[Riemannian manifold]] of even [[dimension]] $2 N$ which has [[special holonomy]] in the [[subgroup]] $SU(N)\subset O(2 N, \mathbb{R})$. 
 
-For [[compact topological space|compact]] [[Kähler manifolds]], [[Yau's theorem]] (also known as the  [[Calabi conjecture]]) states any of the above conditions implies the vanishing of the first [[Chern class]].
+For [[compact topological space|compact]] [[Kähler manifolds]], *Yau's theorem* (also known as the *Calabi conjecture*) states that any of the above conditions implies the vanishing of the [[first Chern class]] $c_1(X)$.
 
 Note that $c_1(X) = 0$ implies in general that the canonical bundle is *topologically trivial*. But if $X$ is a simply connected compact K&#228;hler manifold, $c_1(X) = 0$ implies further that the canonical bundle is *holomorphically trivial*.
 
@@ -126,7 +126,7 @@ The original articles:
 * [[Shing-Tung Yau]], *On the Ricci curvature of a compact Kähler manifold and the complex Monge-Ampére equation*, Communications on Pure and Applied Mathematics, 
 **31** 3 (1978) 339-411 &lbrack;[doi:10.1002/cpa.3160310304](https://doi.org/10.1002/cpa.3160310304)&rbrack;
 
-Surveys and review:
+Survey and review:
 
 * [[Shing-Tung Yau]], _[Calabi-Yau manifold](http://www.scholarpedia.org/article/Calabi-Yau_manifold)_, Scholarpedia **4** 86524 (2009) &lbrack;[doi](https://doi.org/10.4249/scholarpedia.6524)&rbrack;	
 
@@ -140,26 +140,32 @@ In terms of [[G-structure]]:
 
 * {#Prins16} [[Daniël Prins]], Section 1.3 of: _On flux vacua, $SU(n)$-structures and generalised complex geometry_, Université Claude Bernard -- Lyon I, 2015.  ([arXiv:1602.05415](https://arxiv.org/abs/1602.05415), [tel:01280717](https://tel.archives-ouvertes.fr/tel-01280717))
 
-Discussion of the case of [[positive number|positive]] [[characteristic]] includes
 
-* {#GeerKatsura03} [[Gerard van der Geer]], T. Katsura, _On the height of Calabi-Yau varieties in positive characteristic_ ([arXiv:math/0302023](http://arxiv.org/abs/math/0302023))
 
 
 The following page collects information on Calabi-Yau manifolds with an eye to application in [[string theory]] (e.g. [[supersymmetry and Calabi-Yau manifolds]]):
 
 * [[Sheldon Katz]], [[Rolf Schimmrigk]], Andreas Wi&#223;kirchen, _[CALABI-YAU](http://www.th.physik.uni-bonn.de/th/Supplements/cy.html)_
 
-Discussion of the relation between the various shades of definitions includes
+Discussion of the relation between the various shades of definitions:
 
 * MathOverflow: _[Calabi-Yau manifolds](http://mathoverflow.net/q/42707/381)_
 
-Mathematical review of the relation to  [[quiver representations]] and [[mirror symmetry]] includes
+Mathematical review of the relation to  [[quiver representations]] and [[mirror symmetry]]:
 
 * Yang-Hui He, _Calabi-Yau Varieties: from Quiver Representations to Dessins d'Enfants_ ([arXiv:1611.09398](https://arxiv.org/abs/1611.09398))
 
-Discussion of CYs in [[positive characteristic]] includes
+Construction of CY 3-folds with minimal [[Hodge numbers]] $h^{1,1} = 1$ and $h^{2,1} = 1$, via the [[24-cell]]:
+
+* [[Volker Braun]]: *The 24-Cell and Calabi-Yau Threefolds with Hodge Numbers $(1,1)$*, J. High Energ. Phys. **2012** 101 (2012) &lbrack;<a href="https://doi.org/10.1007/JHEP05(2012)101">doi:10.1007/JHEP05(2012)101</a>, [arXiv:1102.4880](https://arxiv.org/abs/1102.4880)&rbrack;
+
+
+
+Discussion of CYs in [[positive characteristic]]:
 
 * [[Philip Candelas]], [[Xenia de la Ossa]], Fernando Rodriguez-Villegas, _Calabi-Yau Manifolds Over Finite Fields, I_ ([arXiv:hep-th/0012233](http://arxiv.org/abs/hep-th/0012233))
+
+* {#GeerKatsura03} [[Gerard van der Geer]], T. Katsura, _On the height of Calabi-Yau varieties in positive characteristic_ ([arXiv:math/0302023](http://arxiv.org/abs/math/0302023))
 
 * [[Philip Candelas]], [[Xenia de la Ossa]], Fernando Rodriguez-Villegas, _Calabi-Yau Manifolds Over Finite Fields, II_ ([arXiv:hep-th/0402133](http://arxiv.org/abs/hep-th/0402133))
 
@@ -188,6 +194,7 @@ On [[Calabi-Yau manifolds in SU-bordism theory]]:
 * {#CLP19} Georgy Chernykh, [[Ivan Limonchenko]], [[Taras Panov]], _$SU$-bordism: structure results and geometric representatives_, Russian Math. Surveys 74 (2019), no. 3, 461-524 ([arXiv:1903.07178](https://arxiv.org/abs/1903.07178))
 
 * [[Taras Panov]], _A geometric view on $SU$-bordism_, talk at Moscow State University 2020 ([webpage](https://www.math.princeton.edu/events/geometric-view-su-bordism-2020-09-17t170000), [pdf](http://higeom.math.msu.su/people/taras/talks/2019SPb-Panov.pdf), [[PanovSU-Bordism.pdf:file]])
+
 
 [[!redirects CY]]
 [[!redirects CYs]]
