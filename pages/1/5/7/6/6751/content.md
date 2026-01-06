@@ -1045,6 +1045,11 @@ A generalization to [[higher geometry]] and [[2-group]] [[2-representations]] is
 
 * [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantum field theory_ ([arXiv:0901.3975](http://arxiv.org/abs/0901.3975))
 
+Relation to [[spin chains]]:
+
+* Viacheslav Krivorol: *Point Particles as Spin Chains* &lbrack;[arXiv:2601.01504](https://arxiv.org/abs/2601.01504)&rbrack;
+
+
 The above discussion of the interpretation of the orbit method in terms of higher [[moduli stacks]] for [[differential cohomology]] appears in 
 
 * {#FSS} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], section 3.4.5 of _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_, in Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_, Mathematical Physics Studies, Springer 2014 ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
