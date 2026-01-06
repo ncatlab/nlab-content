@@ -134,22 +134,14 @@ Moreover, $CartSp$ is naturally equipped with the [[good open cover]] [[coverage
 Both properties together make it a [[pregeometry (for structured (∞,1)-toposes)]] (if the notion of [[Grothendieck topology]] is relaxed to that of [[coverage]] in [StrSp](#StrSp)).
 
 For $\mathcal{X}$ a [[topos]], a [[product]]-preserving [[functor]]
-
-$$
-  \mathcal{O} : \mathcal{G} \to \mathcal{X}
-$$
-
+$$\mathcal{O} : \mathcal{G} \to \mathcal{X}$$
 is a $\mathcal{G}$-[[algebra over an algebraic theory|algebra]] in $\mathcal{X}$. This makes $\mathcal{X}$ a $\mathcal{G}$-[[ringed topos]]. For $\mathcal{G} = $ [[CartSp]], this algebra is a [[smooth algebra]] in $\mathcal{X}$. If $\mathcal{X}$ has a [[site]] of definition $X$, then this is a [[sheaf]] of [[smooth algebra | smooth algebras]] on $X$. 
 
 If $\mathcal{O}$ sends [[covering]] families $\{U_i \to U\}$ in $\mathcal{G}$ to [[effective epimorphism]] $\coprod_i \mathcal{O}(U_i) \to \mathcal{O}(U)$ we say that it is a _local $\mathcal{G}$-algebra_ in $\mathcal{X}$, making $\mathcal{X}$ a $\mathcal{G}$-[[locally ringed topos]].
 
 The [[big topos]] $Sh(\mathcal{G})$ itself is canonically equipped with such a local $\mathcal{G}$-algebra, given by the [[Yoneda embedding]] $j$ followed by [[sheafification]] $L$
-
-$$
-  \mathcal{O} : \mathcal{G} \stackrel{j}{\to} PSh(\mathcal{G}) \stackrel{L}{\to}
-  Sh(\mathcal{G})
-  \,.
-$$
+$$\mathcal{O} : \mathcal{G} \stackrel{j}{\to} PSh(\mathcal{G}) \stackrel{L}{\to}
+  Sh(\mathcal{G}).$$
 
 It is important in the context of [[locally representable structured (infinity,1)-topos|locally representable locally ringed toposes]] that we regard $Sh(\mathcal{G})$ as equipped with this local $\mathcal{G}$-algebra. This is what remembers the [[site]] and gives a notion of local representability in the first place.
 
@@ -166,7 +158,7 @@ $$
   :=
   (Sh_{(\infty,1)}(CartSp)/U ,
     \;\;\; \mathcal{O}_U : CartSp \stackrel{j}{\to} Sh_{(\infty,1)}(CartSp) \stackrel{U^*}{\to} Sh_{(\infty,1)}(CartSp)/U)
-$$ 
+$$
 
 given by the [[over-(∞,1)-topos]] of the [[big topos|big]] [[(∞,1)-sheaf (∞,1)-topos]] over $CartSp$ and the [[structure sheaf]] given by the composite of the [[(∞,1)-Yoneda embedding]] and the [[inverse image]] of the [[etale geometric morphism]] induced by $U$.
 
@@ -177,11 +169,9 @@ given by the [[over-(∞,1)-topos]] of the [[big topos|big]] [[(∞,1)-sheaf (�
 ###### Definition
 
 Say a [[concrete sheaf|concrete object]] $X$ in the [[sheaf topos]] $Sh(CartSp)$ -- a [[diffeological space]] -- is _locally representable_ if there exists a family of open embeddings $\{U_i \hookrightarrow X\}_{i \in X}$ with $U_i \in CartSp \stackrel{j}{\hookrightarrow} Sh(CartSp)$ such that the canonical morphism out of the [[coproduct]]
-
 $$
   \coprod_i U_i \to X
 $$
-
 is an [[effective epimorphism]] in $Sh(CartSp)$.
 
 Let $LocRep(CartSp) \hookrightarrow Sh(CartSp)$ be the full [[subcategory]] on locally representable sheaves.
@@ -192,12 +182,9 @@ Let $LocRep(CartSp) \hookrightarrow Sh(CartSp)$ be the full [[subcategory]] on l
 ###### Proposition
 
 There is an [[equivalence of categories]]
-
 $$
   Diff \simeq LocRep(CartSp)
 $$
-
-
 of the category [[Diff]] of smooth manifolds with that of locally representable sheaves for the [[geometry (for structured (infinity,1)-toposes)|pre-geometry]] $CartSp$.
 
 =--
@@ -210,31 +197,24 @@ of the category [[Diff]] of smooth manifolds with that of locally representable 
 Define a functor $Diff \to LocRep(CartSp)$ by sending each smooth manifold to the sheaf over $CartSp$ that it naturally represents. By definition of [[manifold]] there is an [[open cover]] $\{U_i \hookrightarrow X\}$. We claim that $\coprod_i U_i \to X$ is an [[effective epimorphism]], so that this functor indeed lands in $LocRep(CartSp)$. (This is a standard argument of sheaf theory in [[Diff]], we really only need to observe that it goes through over [[CartSp]], too.)
 
 For that we need to show that
-
 $$
   \coprod_{i, j} U_i \times_X U_j \stackrel{\longrightarrow}{\longrightarrow} \coprod_i U_i \to X
 $$
-
 is a [[coequalizer]] diagram in $Sh(CartSp)$ (that the [[Cech groupoid]] of the cover is equivalent to $X$.). Notice that the [[fiber product]] here is just the intersection in $X$ $U_i \times_X U_j \simeq U_i \cap U_j$. By the fact that the [[sheaf topos]] $Sh(CartSp)$ is by definition a [[reflective subcategory]] of the [[presheaf topos]] $PSh(CartSp)$ we have that [[colimit | colimits]] in $Sh(CartSp)$ are computed as the [[sheafification]] of the corresponding colimit in $PSh(CartSp)$. The colimit in $PSh(CartSp)$ in turn is computed objectwise. Using this, we see that that we have a coequalizer diagram
-
 $$
   \coprod_{i, j} U_i \times_X U_j \stackrel{\longrightarrow}{\longrightarrow} \coprod_i U_i \to S(\{U_i\})
 $$
-
 in $PSh(CartSp)$, where $S(\{U_i\})$ is the [[sieve]] corresponding to the cover: the [[subfunctor]] $S(\{U_i\}) \hookrightarrow X$ of the functor $X : CartSp^{op} \to Set $ which assigns to $V \in CartSp$ the set of [[smooth function | smooth functions]] $V \to X$ that have the property that they factor through any one of the $U_i$.
 
 Essentially by the definition of the [[coverage]] on $CartSp$, it follows that [[sheafification]] takes this subfunctor inclusion to an [[isomorphism]]. This shows that $X$ is indeed the tip of the coequalizer in $Sh(CartSp)$ as above, and hence that it is a locally representable sheaf.
 
 Conversely, suppose that for $X \in Conc(Sh(CartSp)) \hookrightarrow Sh(CartSp)$ there is a family of open embeddings $\{U_i \hookrightarrow X\}$ such that we have a coequalizer diagram
-
 $$
   \coprod_{i, j} U_i \times_X U_j \stackrel{\longrightarrow}{\longrightarrow} \coprod_{i} U_i \to X
 $$
-
 in $Sh(CartSp)$, which is the sheafification of the corresponding coequalizer in $PSh(CartSp)$. By evaluating this on the point, we find that the underlying set of $X$ is the coequalizer of the underlying set of the $U_i$ in $Set$. Since every plot of $X$ factors locally through one of the $U_i$ it follows that $X$ is a [[diffeological space]].  
 
 It follows that in the pullback diagrams
-
 $$
   \array{
     U_i \times_X U_j &\to& U_j
@@ -244,7 +224,6 @@ $$
    U_i &\to& X 
   }
 $$
-
 the object $U_i \cap U_j$ is the diffeological space whose underlying topological space is the intersection of $U_i$ and $U_j$ in the topological space underlying $X$. In particular the inclusions $U_i \times_X U_j \hookrightarrow U_i$ are open embeddings. 
 
 =--
@@ -323,7 +302,7 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 \begin{remark}
 The analogous statement for [[supermanifolds]] is false.  The part that fails is that the formula
 $$A_{\mathbf{R}}=\{a\in A\mid \forall z\in\mathbf{C}\setminus\mathbf{R}\colon (a-z)\in A^\times\}.$$
-no longer defines a real structure on the commutative super algebra of smooth complex-valued functions on a supermanifold.
+no longer defines a real structure on the commutative super algebra of smooth complex-valued functions on a supermanifold, since adding a nilpotent element to $a$ does not change the invertibility of $a-z$.
 
 In fact, the complexification functor is no longer an equivalence of categories.  Accordingly, one distinguishes smooth real [[supermanifolds]] and smooth [[complex supermanifolds]].  Both are used in practice.
 \end{remark}
