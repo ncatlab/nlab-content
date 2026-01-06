@@ -37,7 +37,7 @@ There are two different notions that one might mean by "complex supermanifolds",
 
 ## Smooth complex supermanifolds
 
-A **smooth complex supermanifold** is a [[ringed space]] $X = (|X|, O_X)$ such that
+A **smooth complex supermanifold** (alias: __cs manifold__; c for "complex", s for "super") is a [[ringed space]] $X = (|X|, O_X)$ such that
 
 * the [[structure sheaf]] $O_X$ a [[sheaf]] of commutative complex [[super algebra]]s
 
@@ -69,6 +69,7 @@ So on a complex supermanifold we have complex conjugation only on the reduced ma
 As for ordinary [[supermanifolds]] (and with same proof as in the real case), we have the following two statements.
 
 \begin{theorem}
+\label{mfldalg}
 
 1. Every complex supermanifold is isomorphic to one of the form $\Pi E$.
 
@@ -105,6 +106,56 @@ $$\mathbb{R}^{2|1}(S)
 we shall write
 $$\simeq \{ (z,\bar z, \theta) | z, \bar z \in C^\infty(S)^{ev}; \overline{z_{red}}
 = (\overline z )_{red} \}.$$
+\end{example}
+
+## The special case of odd dimension 1
+
+The following observation will be used in examples constructed below.
+
+\begin{example}
+\label{oddone}
+Consider real or complex smooth supermanifolds of superdimension $n|1$.
+An isomorphisms of such supermanifolds (real or complex) induces an isomorphism of their algebras of functions, in particular, an isomorphism of their odd degrees as modules over even degrees.
+Since the odd dimension is 1, the odd degrees contain precisely the sections of the corresponding vector bundle coming from Batchelor's theorem.
+By the [[Serre–Swan theorem]], such isomorphisms are induced by isomorphisms of the corresponding vector bundles.
+Thus, the category of smooth supermanifolds of odd dimension 1 is equivalent to the category of line bundles over smooth manifolds.
+\end{example}
+
+
+## Comparison of real and complex smooth supermanifolds
+
+Using \ref{mfldalg}, we work with the corresponding commutative superalgebras over real or complex numbers, respectively.
+
+The [[complexification]] functor yields a [[faithful functor]] from real to complex smooth supermanifolds.
+
+The complexification functor is not full.
+
+\begin{example}
+Maps of smooth real supermanifolds $\mathbf{R}^{0|1}\to\mathbf{R}^{0|1}$ can be identified with homomorphisms of real algebras $\Lambda_{\mathbf{R}}\mathbf{R}\to\Lambda_{\mathbf{R}}\mathbf{R}$, which themselves can be identified with elements of $\mathbf{R}$ by restricting to the odd part.
+
+Maps of smooth complex supermanifolds $\mathbf{R}^{0|1}\to\mathbf{R}^{0|1}$ can be identified with homomorphisms of complex algebras $\Lambda_{\mathbf{C}}\mathbf{C}\to\Lambda_{\mathbf{C}}\mathbf{C}$, which themselves can be identified with elements of $\mathbf{C}$ by restricting to the odd part.
+
+The complexification functor maps $\mathbf{R}\to\mathbf{C}$ via the canonical inclusion.  Accordingly, a morphism of smooth complex supermanifolds $\mathbf{R}^{0|1}\to\mathbf{R}^{0|1}$ given by an element $a\in\mathbf{C}\setminus\mathbf{R}$ does not come from a morphism of smooth real supermanifolds.
+\end{example}
+
+\begin{example}
+Consider real or complex smooth supermanifolds of superdimension $1|1$ whose reduced part is a circle.
+By \ref{oddone}, there are exactly two such real supermanifolds, given by the two nonisomorphic real line bundles over $S^1$: the trivial line bundle (which gives $S^1\times\mathbf{R}^{0|1}$) and the Möbius line bundle.
+There is exactly one such complex supermanifold, given by the trivial complex line bundle over $S^1$.
+The complexification functor makes the two real supermanifolds isomorphic.
+Indeed, such isomorphisms are in bijection with smooth paths from $1$ to $-1$ in $\mathbf{C}^\times$.
+No such path factors through $\mathbf{R}^\times$, so none of these isomorphisms is in the image of the complexification functor.
+\end{example}
+
+The complexification functor is not [[essentially surjective]].
+
+\begin{example}
+Consider real or complex smooth supermanifolds of superdimension $2|1$ whose reduced part is a 2-sphere.
+By \ref{oddone},
+there is exactly one such real supermanifold, given by the trivial real line bundle over $S^2$, which yields $S^2\times\mathbf{R}^{0|1}$.
+The complex supermanifolds are classified by complex line bundles over $S^2$, which themselves are classified by $H^2(S^2,\mathbf{Z})\cong\mathbf{Z}$.
+The complexification functor sends the real supermanifold $S^2\times\mathbf{R}^{0|1}$ to its complex counterpart $S^2\times\mathbf{R}^{0|1}$.
+Thus, every complex supermanifold classified by $n\in\mathbf{Z}\setminus\{0\}$ is not in the [[essential image]] of the complexification functor.
 \end{example}
 
 ## Related concepts
