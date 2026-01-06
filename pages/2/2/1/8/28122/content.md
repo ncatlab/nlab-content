@@ -14,7 +14,7 @@
 
 ## Idea
 
-_Dual Stiefel-Whitney classes_ are $\mathbb{Z}_2$-valued [[characteristic classes]] for real [[vector bundles]]. The total [[Stiefel-Whitney class]] is invertible in the [[cohomology ring]] (using $w_0=1$ and the [[geometric series]]) and the dual Stiefel-Whitney classes are then the components of its inverse, meaning in particular that they can be expressed by [[Stiefel-Whitney classes]] again and carry the exact same information. Nonetheless, dual Stiefel-Whitney classes can be used to simplfy calculations. An important application is the description of embedding problems.
+_Dual Stiefel-Whitney classes_ are $\mathbb{Z}_2$-valued [[characteristic classes]] for [[real vector bundles]]. The total [[Stiefel-Whitney class]] is invertible in the [[cohomology ring]] (using $w_0=1$ and the [[geometric series]]) and the dual Stiefel-Whitney classes are then the components of its inverse, meaning in particular that they can be expressed by [[Stiefel-Whitney classes]] again and carry the exact same information. Nonetheless, dual Stiefel-Whitney classes can be used to simplfy calculations. An important application is the description of embedding problems.
 
 ## Definition
 
