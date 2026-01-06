@@ -240,6 +240,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[random variables|Random variables]] in terms of [[sheaves]]: [Simpson'17](#probability_sheaves), [Simpson'24](#atomic_sheaf), [Stein'25](#stein_RV).
 
+* An abstract categorical notion of [[stochastic matrices]] and relationship with [[tape diagrams]]: [Bonchi-Cioffo'26](#stochastic_tapes).
+
 * A [[universal property]] of the category [[BorelStoch]]: [Rischel'25](#universal_borel).
 
 (...)
@@ -277,6 +279,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * {#entropy_infloss} [[John Baez]], [[Tobias Fritz]] and [[Tom Leinster]], _A characterization of entropy in terms of information loss_, Entropy 13(2), 2011. ([arXiv](https://arxiv.org/abs/1106.1791))
 
 * {#bohinen} Mika Bohinen and [[Paolo Perrone]], _Categorical algebra of conditional probability_, 2025. ([arXiv](https://arxiv.org/abs/2502.14941))
+
+* {#stochastic_tapes} [[Filippo Bonchi]] and [[Cipriano Junior Cioffo]], _Tapes as Stochastic Matrices of String Diagrams_, 2026. ([arXiv](https://arxiv.org/abs/2601.01472))
 
 * {#entropy_operads} Tai-Danae Bradley, _Entropy as a topological operad derivation_, Entropy 23(9), 2021. ([arXiv](https://arxiv.org/abs/2107.09581))
 
