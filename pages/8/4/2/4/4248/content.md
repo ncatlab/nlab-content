@@ -12,7 +12,9 @@ The _Hodge numbers_ $h^{p,q}(X)$ of a [[compact space|compact]] [[complex manifo
 Via the [[Dolbeault theorem]], the $(p,q)$-Hodge number of a [[compact space|compact]] [[complex manifold]] $X$ is
 
 $$
-h^{p,q}(X) := dim_\mathbb{C}H^q(X;\Omega^p),
+  h^{p,q}(X) 
+    \;\coloneqq\; 
+  dim_\mathbb{C}H^q(X;\Omega^p),
 $$
 
 where $\Omega^p$ is the [[sheaf]] of [[holomorphic p-forms]] on $X$ and $H^q(X; \Omega^p)$ is the corresponding [[abelian sheaf cohomology]]. 
