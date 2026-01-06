@@ -291,25 +291,42 @@ The second and third condition say in words that $(\mathcal{X}, \mathcal{O}_{\ma
 
 ## Properties
 
-### Faithful embedding into $cAlg^{op}$
+### Faithful embedding into commutative algebras
+
+Consider the [[categories]] $CAlg_{\mathbf{R}}$ and $CAlg_{\mathbf{C}}$ of commutative [[algebras]] over real or complex numbers, respectively.
+All algebras are assumed to be associative and unital and all homomorphisms are required to preserve the unit.
 
 +-- {: .num_prop}
 ###### Proposition
-**(Milnor's exercise)**
+**(Pursell, 1952)**
 
-The [[functor]]
+The [[functors]]
+$$C^\infty(-,\mathbf{R}) \colon SmthMfd \hookrightarrow CAlg_{\mathbf{R}}^{op}$$
+and
+$$C^\infty(-,\mathbf{C}) \colon SmthMfd \hookrightarrow CAlg_{\mathbf{C}}^{op}$$
+(from the category of smooth manifolds to the [[opposite category]] of [[commutative algebras]] over the [[real numbers]] or [[complex numbers]], respectively) that sends a smooth manifold $X$ to its commutative [[associative algebra|algebra]] of [[smooth functions]] $X \to \mathbf{R}$ or $X\to \mathbf{C}$, respectively, is a [[fully faithful functor]], hence exhibits $SmthMfd$ as [[full subcategories]] of $CAlg_{\mathbf{R}}^{op}$ and $CAlg_{\mathbf{C}}^{op}$.
+These statements remain true for the categories of commutative [[*-algebras]], where the involution on $\mathbf{R}$ is trivial and the involution on $\mathbf{C}$ is given by [[conjugation]].
 
-$$
-  C^\infty(-) \colon SmthMfd \hookrightarrow cAlg_{\mathbb{R}}^{op}
-$$
+The [[complexification]] functor establishes an [[equivalence of categories]] from the [[essential image]] of $C^\infty(-,\mathbf{R})$ to the [[essential image]] of $C^\infty(-,\mathbf{C})$, with or without [[*-algebra]] structures.
 
-(from the category of smooth manifolds to the [[opposite category]] of [[commutative algebras]] over the [[real numbers]]) that sends a smooth manifold $X$ to its commutative $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] $X \to \mathbb{R}$ is a [[fully faithful functor]], hence exhibits $SmthMfd$ as a [[full subcategory]] of $cAlg^{op}$.
+The inverse functor on [[*-algebras]] is given by taking the real part of a complex [[*-algebra]], i.e., sending $A\mapsto\{a\in A\mid a^*=a\}$.
+
+The forgetful functors between essential images that discard the involution are [[equivalences of categories]].  The inverse functors are given by equipping a real algebra with the trivial involution and equipping a complex algebra with the unique involution whose real part is
+$$A_{\mathbf{R}}=\{a\in A\mid \forall z\in\mathbf{C}\setminus\mathbf{R}\colon (a-z)\in A^\times\}.$$
 
 =--
 
-([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](#KolarSlovakMichor93))
+Reference for the case of real algebras: [Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](#KolarSlovakMichor93).
 
 For more see at _[[embedding of smooth manifolds into formal duals of R-algebras]]_.
+
+\begin{remark}
+The analogous statement for [[supermanifolds]] is false.  The part that fails is that the formula
+$$A_{\mathbf{R}}=\{a\in A\mid \forall z\in\mathbf{C}\setminus\mathbf{R}\colon (a-z)\in A^\times\}.$$
+no longer defines a real structure on the commutative super algebra of smooth complex-valued functions on a supermanifold.
+
+In fact, the complexification functor is no longer an equivalence of categories.  Accordingly, one distinguishes smooth real [[supermanifolds]] and smooth [[complex supermanifolds]].  Both are used in practice.
+\end{remark}
 
 ### Further properties
 
