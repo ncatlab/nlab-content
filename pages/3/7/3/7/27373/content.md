@@ -82,7 +82,7 @@ Identification of the long-[[wavelength]] limit of the [GMP mode](Laughlin+wavef
 * Shiuan-Fan Liou, [[F. Duncan M. Haldane]], Kun Yang, [[Edward H. Rezayi]]: *Chiral Gravitons in Fractional Quantum Hall Liquids*, Phys. Rev. Lett. **123** 146801 (2019) \[<a href="https://doi.org/10.1103/PhysRevLett.123.146801">doi:PhysRevLett.123.146801</a>, [arXiv:1904.12231](https://arxiv.org/abs/1904.12231)\]
   > (effective [[gravitational waves]])
 
-* Wang Yuzhu: *Graviton Modes in Fractional Quantum HallLiquids*, PhD thesis, Nanyang TU (2023) \[<a href="https://hdl.handle.net/10356/165156">hndl:10356/165156</a>, <a href="https://dr.ntu.edu.sg/server/api/core/bitstreams/41f1a8f4-aca1-4d37-a68d-0d56e4811d5e/content">pdf</a>\]
+* Wang Yuzhu: *Graviton Modes in Fractional Quantum Hall Liquids*, PhD thesis, Nanyang TU (2023) \[<a href="https://hdl.handle.net/10356/165156">hndl:10356/165156</a>, <a href="https://dr.ntu.edu.sg/server/api/core/bitstreams/41f1a8f4-aca1-4d37-a68d-0d56e4811d5e/content">pdf</a>\]
 
 * J. Liang et al.: *Evidence for chiral graviton modes in fractional quantum Hall liquids*, Nature **628** (2024) 78–83 \[<a href=" https://doi.org/10.1038/s41586-024-07201-w">doi:10.1038/s41586-024-07201-w</a>\]
   > (experimental detection of the "[[graviton]]" mode)
