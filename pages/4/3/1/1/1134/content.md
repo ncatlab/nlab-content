@@ -62,6 +62,16 @@ A [[morphism]] of supermanifolds is a [[homomorphism]] of [[ringed spaces]] (...
 
 =--
 
+\begin{remark}
+Substituting complex-valued functions instead of real-valued functions, i.e., replacing
+$$C^\infty(\mathbf{R}^p,\mathbf{R})\otimes_{\mathbf{R}}\bigwedge\mathbf{R}^q$$
+with
+$$C^\infty(\mathbf{R}^p,\mathbf{C})\otimes_{\mathbf{C}}\bigwedge\mathbf{C}^q$$
+produces a nonequivalent category of smooth [[complex supermanifolds]] (not to be confused with holomorphic complex supermanifolds).
+
+In particular, the obvious complexification functor is not an equivalence of categories, unlike in the case of ordinary [[manifolds]].  The reason for the latter is that the algebra of complex-valued functions on an ordinary [[smooth manifold]] possesses a natural [[*-algebra]] structure, which is preserved by morphisms.
+\end{remark}
+
 Forgetting the graded part by projecting out the [[nilpotent ideal]] in $O_X$ (i.e. applying the [[bosonic modality]]) yields the underlying ordinary  [[smooth manifold]] $X_{red}$.
 
 One just writes $C^\infty(X)$ for the [[super algebra]] $O_X(X)$ of global sections.
