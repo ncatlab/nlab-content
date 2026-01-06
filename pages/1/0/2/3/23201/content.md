@@ -67,7 +67,7 @@ $$
 Morever, this correspondence extends to morphisms:
 \begin{proposition}
 \label{EquivalenceBetweenGroupoidsAndEffectiveEpimorphisms}
-**(equivalence between groupoids and effective epimoirphisms)**
+**(equivalence between groupoids and effective epimorphisms)**
 \linebreak
 In any [[(infinity,1)-topos|$\infty$-topos]] $\mathbf{H}$ 
 the correspondence of Prop. \ref{GroupoidObjectsInAnInfinityToposAreEffective}
