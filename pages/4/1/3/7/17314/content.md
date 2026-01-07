@@ -20,7 +20,9 @@ A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] 
 The above definition is not invariant under [[equivalences of categories]].
 It can be made invariant if we demand instead
 that any limiting cone for $F\circ J$ is isomorphic
-to the image of a limiting cone for $J$. Alternatively, this says that, if $F \circ J$ has a limit, then $J$ also has a limit and that limit is [[preserved limit|preserved]] by $F$.
+to the image of a limiting cone for $J$.
+
+Alternatively, this says that, if $F \circ J$ has a limit, then $J$ also has a limit and that limit is [[preserved limit|preserved]] by $F$. Of course, this then implies that $F$ preserves every limit of $J$.
 
 ## Terminological remarks
 
