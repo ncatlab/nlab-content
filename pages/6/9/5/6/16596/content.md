@@ -55,6 +55,10 @@ On [[intersecting brane|intersecting]] [[M2-M5 brane bound states]]:
 
 * [[Kurt Lechner]], _Intersecting M2- and M5-branes_, Phys. Lett. B589 (2004) 147-154 ([arXiv:hep-th/0402078](https://arxiv.org/abs/hep-th/0402078), [doi:10.1016/j.physletb.2004.03.056](https://doi.org/10.1016/j.physletb.2004.03.056))
 
+On the $U(1)$ [[self-dual higher gauge field]] in 10D:
+
+* Jessica Hutomo, [[Kurt Lechner]], [[Dmitri P. Sorokin]]: *On non-linear chiral 4-form theories in $D=10$* &lbrack;[arXiv:2509.14351](https://arxiv.org/abs/2509.14351)&rbrack;
+
 
 ## Related entries
 
