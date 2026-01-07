@@ -27,7 +27,7 @@
 
 There are two different notions that one might mean by "complex supermanifolds", and both are in use (the terminology is a mess!):
 
-1. In the first sense, complex supermanifolds generalize the notion of [[smooth manifolds]] with their [[sheaf]] of smooth complex-valued functions, just as ordinary [[supermanifolds]] are a generalization of ordinary manifold with their sheaf of smooth real-valued functions.
+1. In the first sense, complex supermanifolds (alias __cs manifolds__) generalize the notion of [[smooth manifolds]] with their [[sheaf]] of smooth complex-valued functions, just as ordinary [[supermanifolds]] are a generalization of ordinary manifold with their sheaf of smooth real-valued functions.
 
    However, considering ordinary smooth manifolds as [[ringed spaces]] with either their sheaves of real or complex smooth functions gives two equivalent categories, whereas this is not true in the case of real and complex supermanifolds; the corresponding functor is neither [[essentially surjective]] nor [[fully faithful]].
 
@@ -172,3 +172,5 @@ Thus, every complex supermanifold classified by $n\in\mathbf{Z}\setminus\{0\}$ i
 
 
 [[!redirects complex supermanifolds]]
+[[!redirects cs manifold]]
+[[!redirects cs manifolds]]
