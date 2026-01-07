@@ -252,13 +252,11 @@ Construction of 5d [[gauged supergravity]] via [[D'Auria-Fré formulation of sup
 * [[Laura Andrianopoli]], Francesco Cordaro, [[Pietro Fré]], _Non-Semisimple Gaugings of $D=5$ $\mathcal{N}=8$ Supergravity_, Fortsch.Phys. **49** (2001) 511-518 &lbrack;[arXiv:hep-th/0012203](http://arxiv.org/abs/hep-th/0012203)&rbrack;
 
 
-
-
 See also:
 
 * [[Sheldon Katz]], Hee-Cheol Kim, Houri-Christina Tarazi, [[Cumrun Vafa]]: *Swampland Constraints on $5d$ $\mathcal{N}=1$ Supergravity &lbrack;[arXiv:2004.14401](https://arxiv.org/abs/2004.14401)&rbrack;
 
-* Andrew Beckett, [[José Figueroa-O'Farrill]], *Killing superalgebras for lorentzian five-manifolds* &lbrack;[arxiv:2105.05775](https://arxiv.org/abs/2105.05775)&rbrack;
+* Andrew Beckett, [[José Figueroa-O'Farrill]]: *Killing superalgebras for lorentzian five-manifolds* &lbrack;[arxiv:2105.05775](https://arxiv.org/abs/2105.05775)&rbrack;
 
 * Soumya Adhikari, Bindusar Sahoo: *$\mathcal{N}=2$ conformal supergravity in five dimensions* &lbrack;[arXiv:2312.01879](https://arxiv.org/abs/2312.01879)&rbrack;
 
@@ -266,26 +264,10 @@ See also:
 
 
 
-### Via M-theory on Calabi-Yau 3-folds
- {#ReferencesViaMTheoryOnCY3Folds}
 
-Discussion via [[KK-compactification]] from [[D=11 supergravity]]/[[M-theory on Calabi-Yau manifolds]]:
-
-* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], p 30-31 of: _Unity of Superstring Dualities_, Nucl. Phys. B **438** (1995) 109-137 &lbrack;[arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167)&rbrack;
-
-* {#CadavidCeresoleDAuriaFerrara95} A. C. Cadavid, [[Anna Ceresole]], [[Riccardo D'Auria]], [[Sergio Ferrara]]: *11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds*, Phys. Lett. B **357** (1995) 76-80 &lbrack;[arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144), <a href="https://doi.org/10.1016/0370-2693(95)00891-N">doi:10.1016/0370-2693(95)00891-N</a>&rbrack;
-
-* {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], [[Ramzi R. Khuri]],  [[Ruben Minasian]]: _M-theory on a Calabi-Yau manifold_, Phys. Lett. B **375** (1996) 81-88 &lbrack;[arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102), <a href="https://doi.org/10.1016/0370-2693(96)00270-5">doi:10.1016/0370-2693(96)00270-5</a>&rbrack;
-
-* {#FerraraMinasianSagnotti96} [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]], _Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds_, Nucl. Phys. B **474** (1996) 323-342 &lbrack;[arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097)&rbrack;
+[[!include 11D Sugra on CY3 -- references]]
 
 
-* {#Falkowski99} [[Adam Falkowski]], *Five dimensional locally supersymmetric theories with branes*, Master Thesis, Warsaw (1999?) &lbrack;[[FalkowskiLecture.pdf:file]]&rbrack;
-
-
-See also: 
-
-* {#MizoguchiOhta98} [[Shun'ya Mizoguchi]], Nobuyoshi Ohta: *More on the Similarity between $D=5$ Simple Supergravity and M Theory*, Phys. Lett. B **441** (1998) 123-132 &lbrack;[arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111), <a href="https://doi.org/10.1016/S0370-2693(98)01122-8">doi:10.1016/S0370-2693(98)01122-8</a>&rbrack;
 
 
 ### Via type II theory
