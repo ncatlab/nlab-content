@@ -6,15 +6,30 @@
 
 ***
 
-* [[Jerome P. Gauntlett]], [[Robert C. Myers]], [[Paul K. Townsend]]: *Supersymmetry of Rotating Branes*, Phys. Rev. D **59** (1998) 025001 &lbrack;[arXiv:hep-th/9809065](https://arxiv.org/abs/hep-th/9809065), [doi:10.1103/PhysRevD.59.025001](https://doi.org/10.1103/PhysRevD.59.025001)&rbrack;
+[[11D Sugra on CY3 -- references]]
 
-* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory I, Local Solutions*, JHEP 0808:028 (2008) &lbrack;[arXiv:0806.0605](https://arxiv.org/abs/0806.0605), [doi:10.1088/1126-6708/2008/08/028](https://doi.org/10.1088/1126-6708/2008/08/028)&rbrack;
+### KK-Reduction of 11D SuGra on $CY^3$s to 5D SuGra
+ {#ReferencesReductionOf11DSugraOnCY3To5DSugra}
 
-* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory II: Global solutions asymptotic to $AdS_7 \times S^4$, JHEP 0812:044 (2008) &lbrack;[arXiv:0810.4647](https://arxiv.org/abs/0810.4647), [doi:10.1088/1126-6708/2008/12/044](https://doi.org/10.1088/1126-6708/2008/12/044)&rbrack;
+Discussion of [[KK-compactification]] of [[D=11 supergravity]] on [[Calabi-Yau 3-folds]] to [[D=5 supergravity]] (cf. *[[M-theory on Calabi-Yau manifolds]]*):
 
-* [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory III: Existence and rigidity of global solutions asymptotic to $AdS_4 \times S^7$*, JHEP 0909:067 (2009) &lbrack;[arXiv:0906.0596](https://arxiv.org/abs/0906.0596), [doi:10.1088/1126-6708/2009/09/067](https://doi.org/10.1088/1126-6708/2009/09/067)&rbrack;
+* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], p 30-31 of: _Unity of Superstring Dualities_, Nucl. Phys. B **438** (1995) 109-137 \[<a href="https://doi.org/10.1016/0550-3213(94)00559-W">doi:10.1016/0550-3213(94)00559-W</a>, [arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167)\]
 
+* [[George Papadopoulos]], [[Paul K. Townsend]]: *Compactification of $D=11$ supergravity on spaces of exceptional holonomy*, Phys. Lett. B **357** (1995) 300-306 \[<a href="https://doi.org/10.1016/0370-2693(95)00929-F">doi:10.1016/0370-2693(95)00929-F</a>, [arXiv:hep-th/9506150](https://arxiv.org/abs/hep-th/9506150)\]
 
----
+* {#CadavidCeresoleDAuriaFerrara95} A. C. Cadavid, [[Anna Ceresole]], [[Riccardo D'Auria]], [[Sergio Ferrara]]: *11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds*, Phys. Lett. B **357** (1995) 76-80 \[<a href="https://doi.org/10.1016/0370-2693(95)00891-N">doi:10.1016/0370-2693(95)00891-N</a>, [arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144)\]
 
-$$ \frac{\Gamma \vdash e:\mathsf{Bool} \qquad \Gamma, \underline{e} \vdash e_1 : T_1 \qquad \Gamma, \underline{\neg e} \vdash e_2 : T_2}{\Gamma \vdash \operatorname{if-then-else}(e, e_1, e_2) : T_1 \sqcup_e T_2} $$
+* {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], [[Ramzi R. Khuri]],  [[Ruben Minasian]]: _M-theory on a Calabi-Yau manifold_, Phys. Lett. B **375** (1996) 81-88 \[<a href="https://doi.org/10.1016/0370-2693(96)00270-5">doi:10.1016/0370-2693(96)00270-5</a>, [arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102)\]
+
+* [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]]: *Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds*, Nucl.Phys. B **474** (1996) 323-342 \[<a href="https://doi.org/10.1016/0550-3213(96)00268-4">doi:10.1016/0550-3213(96)00268-4</a>, [arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097)\]
+
+* [[Andre Lukas]], [[Burt A. Ovrut]], [[Kellogg S. Stelle]], [[Daniel Waldram]]: *Heterotic M-theory in Five Dimensions*, Nucl. Phys. B **552** (1999) 246-290 \[<a href="https://doi.org/10.1016/S0550-3213(99)00196-0">doi:10.1016/S0550-3213(99)00196-0</a>, [arXiv:hep-th/9806051](https://arxiv.org/abs/hep-th/9806051)\]
+  > (for [[Hořava-Witten theory]])
+
+* {#Falkowski99} [[Adam Falkowski]], *Five dimensional locally supersymmetric theories with branes*, Master Thesis, Warsaw (1999?) $[$[[FalkowskiLecture.pdf:file]]\]
+
+* Jieming Lin, Torben Skrzypek, [[Kellogg S. Stelle]]: *Compactification on Calabi-Yau threefolds: Consistent truncation to pure supergravity*, J. High Energ. Phys. **2025** 200 (2025) \[<a href="https://doi.org/10.1007/JHEP03(2025)200">doi:10.1007/JHEP03(2025)200</a>, [arXiv:2412.00186](https://arxiv.org/abs/2412.00186)\]
+
+See also: 
+
+* {#MizoguchiOhta98} [[Shun'ya Mizoguchi]], Nobuyoshi Ohta: *More on the Similarity between $D=5$ Simple Supergravity and M Theory*, Phys. Lett. B **441** (1998) 123-132 \[<a href="https://doi.org/10.1016/S0370-2693(98)01122-8">doi:10.1016/S0370-2693(98)01122-8</a>, [arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111)\]
