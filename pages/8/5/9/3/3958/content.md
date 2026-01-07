@@ -301,10 +301,11 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 
 \begin{remark}
 The analogous statement for [[supermanifolds]] is false.  The part that fails is that the formula
-$$A_{\mathbf{R}}=\{a\in A\mid \forall z\in\mathbf{C}\setminus\mathbf{R}\colon (a-z)\in A^\times\}.$$
+$$A_{\mathbf{R}}=\{a\in A\mid \forall z\in\mathbf{C}\setminus\mathbf{R}\colon (a-z)\in A^\times\}$$
 no longer defines a real structure on the commutative super algebra of smooth complex-valued functions on a supermanifold, since adding a nilpotent element to $a$ does not change the invertibility of $a-z$.
+(Modding out the nilpotent elements, i.e., passing to the reduction, does give a real structure on the reduced algebra.)
 
-In fact, the complexification functor is no longer an equivalence of categories.  Accordingly, one distinguishes smooth real [[supermanifolds]] and smooth [[complex supermanifolds]].  Both are used in practice.
+In fact, the complexification functor is no longer an equivalence of categories: it is not full and not essentially surjective, as shown in the article [[cs manifold]].  Accordingly, one distinguishes smooth real [[supermanifolds]] and smooth [[complex supermanifolds]].  Both are used in practice.
 \end{remark}
 
 ### Further properties
