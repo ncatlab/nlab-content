@@ -175,6 +175,9 @@ Review and exposition:
 
 * Shi-Ju Ran, Emanuele Tirrito, Cheng Peng, Xi Chen, [[Luca Tagliacozzo]], Gang Su, Maciej Lewenstein, _Tensor Network Contractions -- Methods and Applications to Quantum Many-Body Systems_, Lecture Notes in Physics, Springer (2020) ([arXiv:1708.09213](https://arxiv.org/abs/1708.09213), [doi:10.1007/978-3-030-34489-4](https://link.springer.com/book/10.1007/978-3-030-34489-4))
 
+* Xavier Waintal, Chen-How Huang, Christoph W. Groth: *Who can compete with quantum computers? Lecture notes on quantum inspired tensor networks computational techniques* &lbrack;[arXiv:2601.03035](https://arxiv.org/abs/2601.03035)&rbrack;
+
+
 
 
 With [[global symmetry]]:
