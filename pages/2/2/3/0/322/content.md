@@ -490,6 +490,8 @@ The [[Boardman-Vogt tensor product]] makes the category of symmetric colored ope
 
   * [[cooperad]]
 
+  * [[relative operad]]
+
 * [[properad]]
 
 * [[PROP]]
