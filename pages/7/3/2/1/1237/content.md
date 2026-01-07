@@ -126,7 +126,7 @@ $$
 For more see at _[one-point compactification -- Examples -- Spheres](one-point+compactification#ExamplesSpheres)_.
 \end{example}
 
-\begin{example} **(stable splitting of product spaces)** 
+\begin{example} **([[stable splitting]] of product spaces)** 
 \label{StableSplittingOfProductSpaces}
 \linebreak
   For $X$ and $Y$ a [[pair]] of [[pointed topological space|pointed]] [[CW-complexes]], the reduced suspension of their [[product space]] is [[homotopy equivalence|homotopy equivalent]] to the [[wedge sum]] of their individual reduced suspensions with that of their [[smash product]] $X \wedge Y$:
@@ -168,6 +168,8 @@ $$
     * [[suspension of a chain complex]]
 
     * [[Sullivan model of a suspension]]
+
+    * [[stable splitting]]
 
 ## References
  {#References}
