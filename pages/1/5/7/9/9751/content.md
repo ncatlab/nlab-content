@@ -81,6 +81,10 @@ On [[membranes]] in [[D=4 supergravity]] ([[super 2-brane in 4d]]):
 
 * [[Igor Bandos]], [[Fotis Farakos]] Stefano Lanza, L. Martucci,  [[Dmitri Sorokin]], _Higher Forms and Membranes in 4D Supergravities_, in: Proceedings of _[[Higher Structures in M-Theory 2018]]_, Fortschritte der Physik, Special Issue Volume 67, Issue 8-9 ([arXiv:1903.02841](https://arxiv.org/abs/1903.02841), [doi:10.1002/prop.201910020](https://doi.org/10.1002/prop.201910020))
 
+On the $U(1)$ [[self-dual higher gauge field]] in 10D:
+
+* Jessica Hutomo, [[Kurt Lechner]], [[Dmitri P. Sorokin]]: *On non-linear chiral 4-form theories in $D=10$* &lbrack;[arXiv:2509.14351](https://arxiv.org/abs/2509.14351)&rbrack;
+
 
 
 ## Related entries
