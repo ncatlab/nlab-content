@@ -1,5 +1,13 @@
 
-* [Wikipedia entry](http://de.wikipedia.org/wiki/John_Morgan_%28Mathematiker%29)
+John Willard Morgan
+
+* [personal page](https://www.math.columbia.edu/~jmorgan/)
+
+* <a href="https://en.wikipedia.org/wiki/John_Morgan_(mathematician)">Wikipedia enty</a> (en)
+
+* [Wikipedia entry](http://de.wikipedia.org/wiki/John_Morgan_%28Mathematiker%29) (de)
+
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=389)
 
 ## Selected writings
 
@@ -32,6 +40,11 @@ On [[string theory]] [[perturbative string theory vacuum|vacua]] [[KK-compactifi
 On [[automorphism groups]] [[internal group|internal]] to [[sheaf toposes]] ("automorphism sheaves"):
 
 * [[Robert Friedman]], [[John W. Morgan]], §2.1 in: *Automorphism sheaves, spectral covers, and the Kostant and Steinberg sections*, Contemporary Mathematics **322** (2003)  217-244 &lbrack;[arXiv:math/0209053](https://arxiv.org/abs/math/0209053)&rbrack;
+
+
+On the [[algebraic topology]] (e.g. the [[topological K-theory]]) of [[Calabi-Yau 3-folds]]:
+
+* [[Charles F. Doran]], [[John W. Morgan]]: *Algebraic Topology of Calabi-Yau Threefolds in Toric Varieties*, Geom. Topol. **11** (2007) 597-642 &lbrack;[arXiv:math/0605074](https://arxiv.org/abs/math/0605074), [arXiv:10.2140/gt.2007.11.597](https://doi.org/10.2140/gt.2007.11.597)&rbrack;
 
 
 On [[rational homotopy theory]]:
