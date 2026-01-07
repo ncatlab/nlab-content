@@ -46,5 +46,5 @@ Discussion from the point of view of [[Green-Schwarz action functional]]-[[schre
 
 On possible structures in M2-brane dynamics and [[M2-M5-brane bound states]] which could be [[M-theory]]-lifts of the familiar [[integrable system|integrability]] of the [[Green-Schwarz superstring]] on [[AdS spacetime|$AdS_5$]] $\times$ [[5-sphere|$S^5$]]:
 
-* [[Kirill Gubarev]], [[Edvard Musaev]], *Integrability structures in string theory* &lbrack;[arXiv:2301.06486](https://arxiv.org/abs/2301.06486)&rbrack;
+* [[Kirill Gubarev]], [[Edvard Musaev]], *Integrability structures in string theory*, Physics -- Uspekhi **67** 3 (2024) 219-250  \[<a href="https://arxiv.org/abs/2301.06486">arXiv:2301.06486</a>, [ufn:2024-3](https://ufn.ru/ufn2024/ufn2024_3/ufn243a.pdf)\]
 
