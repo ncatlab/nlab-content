@@ -63,6 +63,12 @@ On [[dimensional reduction]] of [[D=11 supergravity]]/[[M-theory on Calabi-Yau m
 
 * {#CadavidCeresoleDAuriaFerrara95} A. C. Cadavid, [[Anna Ceresole]], [[Riccardo D'Auria]], [[Sergio Ferrara]]: *11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds*, Phys. Lett. B **357** (1995) 76-80 &lbrack;[arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144), <a href="https://doi.org/10.1016/0370-2693(95)00891-N">doi:10.1016/0370-2693(95)00891-N</a>&rbrack;
 
+* [[George Papadopoulos]], [[Paul K. Townsend]]: *Compactification of $D=11$ supergravity on spaces of exceptional holonomy*, Phys. Lett. B **357** (1995) 300-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)00929-F">doi:10.1016/0370-2693(95)00929-F</a>, [arXiv:hep-th/9506150](https://arxiv.org/abs/hep-th/9506150)&rbrack;
+
+* Jieming Lin, Torben Skrzypek, [[Kellogg S. Stelle]]: *Compactification on Calabi-Yau threefolds: Consistent truncation to pure supergravity*, J. High Energ. Phys. **2025** 200 (2025) &lbrack;[arXiv:2412.00186](https://arxiv.org/abs/2412.00186), <a href="https://doi.org/10.1007/JHEP03(2025)200">doi:10.1007/JHEP03(2025)200</a>&rbrack;
+
+
+
 
 
 [[!redirects M-theory on CY-manifolds]]
