@@ -59,7 +59,7 @@ There is a notion of a module over a vertex algebra. A conformal vertex algebra 
 
 ## Simplified definition
 
-The following definition appears with increasing level of details in [Borcherds 1998](#Borcherds1998), [Kim 2011](#Kim2011), Joyce (unpublished), and the [blog post by Chenjing Bu](#Bu2021).
+The following definition appears with increasing level of details in [Borcherds 1998](#Borcherds1998), [Kim 2011](#Kim2011), Joyce (unpublished), and the [blog post by Chenjing Bu](#Bu2021).  A more refined version of this construction appears in [Huang](#HuangCFT) and [Brügmann](#Bruegmann).
 
 A __vertex algebra__ is a [[vector space]] $V$ equipped with a family of operations ($n\ge0$)
 $$V^{\otimes n}\to V[[z_1,\ldots,z_n]][(z_i-z_j)^{-1}],\qquad a_1\otimes\cdots\otimes a_n\mapsto a_1(z_1)\cdots a_n(z_n)$$
@@ -237,7 +237,11 @@ The original article with the interpretation of vertex operator algebras as holo
 A standard textbook summarizing these results is
 
 * {#HuangCFT} [[Yi-Zhi Huang]], _Two-dimensional conformal geometry and vertex operator algebras_, Progr. in Math. Birkhauser (1997) [gbooks](http://books.google.hr/books?isbn=0817638296)
- 
+
+Another proof of the equivalence of traditional Z-graded vertex algebras and geometric vertex algebras appears in
+
+* [[Daniel Brügmann]], _Geometric vertex algebras_, Graduate J. Math. 10:2 (2025), 1–20.  [arXiv](https://arxiv.org/abs/2012.09717).
+
 As mentioned in the [acknowledgements](http://books.google.com/books?id=SUUdknTpYjEC&pg=PR11&lpg=PR11&dq=%22vertex+operator+algebras%22+%22trimble%22&source=bl&ots=v3GHx_ra2M&sig=TW5MzAtDi4n_gJjvUHb6eELoAXQ&hl=en&ei=9jdnSoXqKJiCtge6xqDuDw&sa=X&oi=book_result&ct=result&resnum=4) there, [[Todd Trimble]] and [[Jim Stasheff]] had a hand in making the operadic picture manifest itself here. 
 
 See also:
