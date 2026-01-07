@@ -4,6 +4,7 @@
 
 * [inSpire page](https://inspirehep.net/authors/999598)
 
+
 ## Selected writings:
 
 On [[heterotic M-theory]]:
@@ -15,6 +16,11 @@ On [[gaugino condensation]] in [[heterotic string theory]] and [[Horava-Witten t
 * [[André Lukas]], [[Burt Ovrut]], [[Daniel Waldram]], _Gaugino condensation in M theory on $S^1/Z_2$_, Phys. Rev. D 57, 7529 (1998) ([arXiv:hep-th/9711197](https://arxiv.org/abs/hep-th/9711197), [doi:10.1103/PhysRevD.57.7529](https://doi.org/10.1103/PhysRevD.57.7529))
 
 * [[André Lukas]], [[Burt Ovrut]], [[Daniel Waldram]], _Five-Branes and Supersymmetry Breaking in M-Theory_, JHEP 9904:009, 1999 ([arXiv:hep-th/9901017](https://arxiv.org/abs/hep-th/9901017))
+
+On [[KK-compactification]] of [[D=11 supergravity]] with [[M9-branes]] ([[Hořava-Witten theory]]) on a [[Calabi-Yau 3-fold]] to [[D=5 supergravity]] (cf. *[[M-theory on Calabi-Yau 3-folds]]*):
+
+* [[Andre Lukas]], [[Burt A. Ovrut]], [[Kellogg S. Stelle]], [[Daniel Waldram]]: *Heterotic M-theory in Five Dimensions*, Nucl. Phys. B **552** (1999) 246-290 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(99)00196-0">doi:10.1016/S0550-3213(99)00196-0</a>, [arXiv:hep-th/9806051](https://arxiv.org/abs/hep-th/9806051)&rbrack;
+
 
 Database of [[heterotic string theory|heterotic]] [[perturbative string theory vacuum|string vacua]] via [[stable vector bundles]] on [[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]]:
 
