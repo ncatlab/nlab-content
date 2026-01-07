@@ -36,6 +36,30 @@ but don't include general [[subset types]], as type checking becomes undecidable
 
 Predicate subtyping is found in languages like [[Liquid Haskell]] and [[F*]].
 
+## Predicate subtyping
+
+### Typing rules
+
+Conditional expressions may be typed using the following rule:
+
+$$ \frac{\Gamma \vdash e:\mathsf{Bool} \qquad \Gamma, \underline{e} \vdash e_1 : T_1 \qquad \Gamma, \underline{\neg e} \vdash e_2 : T_2}{\Gamma \vdash \operatorname{if-then-else}(e, e_1, e_2) : T_1 \sqcup_e T_2} $$
+
+where $\Gamma, \underline{e}$ is the enrichment of $\Gamma$
+with the fact that $e$ is true, usually using a dummy variable,
+i.e., $\underline{e} = (\underline{} : \{ v : \mathsf{Unit} \mid e \})$,
+and where $T_1 \sqcup_e T_2$ is the dependent join of $T_1$ and $T_2$.
+
+$$ T_1 \sqcup_e T_2 = \{ v : T \mid (e \implies v \in T_1) \wedge (\neg e \implies v \in T_2) \} $$
+
+### Example
+
+In a language with (dependent) predicate subtyping, one may implement and type [[negation]] as follows (see [Jhala 2010](#Jhala2010)):
+
+```
+val not : x:bool => bool[ b | b ⇔ ¬x ]
+let not = x => { if (x) { false } else { true } };
+```
+
 ## Related concepts
 
 * [[subset type]], [[subtype]]
@@ -54,7 +78,7 @@ On datasort refinements:
 
 On predicate subtyping:
 
-* Ranjit Jhala, Niki Vazou, _Refinement Types: A Tutorial_, ([arXiv:2010.07763](https://arxiv.org/abs/2010.07763)).
+* {#Jhala2010} Ranjit Jhala, Niki Vazou, _Refinement Types: A Tutorial_, ([arXiv:2010.07763](https://arxiv.org/abs/2010.07763)).
 * Yitzhak Mandelbaum, David Walker, [[Robert Harper]], _An Effective Theory of Type Refinements_, ([pdf](http://www.cs.cmu.edu/~rwh/papers/effref/icfp03.pdf)).
 * Susumu Hayashi, _Logic of refinement types_, Proceedings of the Workshop on Types for Proofs and Programs, 1993, pp. 157-172.
 
