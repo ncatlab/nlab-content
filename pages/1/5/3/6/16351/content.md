@@ -30,8 +30,10 @@ The [[functor]] which sends
 
 turns out to be [[fully faithful functor|fully faithful]], hence a [[full subcategory]] embedding of [[SmthMfd]] into the [[opposite category|opposite]] of [[Alg|$\mathbb{R}Alg$]].
 
+The same statement continuous to hold if we replace smooth real-valued functions with smooth complex-valued functions and real algebras with complex algebras.
+
 This is remarkable, because such a relation between [[spaces]] and their *plain* [[algebras of functions]] is (more) manifest only for [[affine varieties]] in [[algebraic geometry]], where however it holds essentially by construction. 
-In contrast, nothing in the usual definition of [[smooth manifolds]] manifestly suggests that they behave to some extent similarly to [[affine varieties]] with respect to $\mathbb{R}$-algebras of smooth functions. (See also at *[[duality between algebra and geometry]]*.)
+In contrast, nothing in the usual definition of [[smooth manifolds]] manifestly suggests that they behave to some extent similarly to [[affine varieties]] with respect to $\mathbf{R}$-algebras (or $\mathbf{C}$-algebras) of smooth functions. (See also at *[[duality between algebra and geometry]]*.)
 
 Related "miracles" in [[differential geometry]], revealing a maybe surprising [[algebraic geometry|algebro-geometric]]-nature, are the facts that:
 
@@ -43,7 +45,7 @@ Related "miracles" in [[differential geometry]], revealing a maybe surprising [[
 
 * [[smooth Serre-Swan theorem|finitely generated projective modules over smooth functions are smooth vector bundles]].
 
-Accordingly, the embedding of smooth manifolds into [[formal duality|formal duals]] of $\mathbb{R}$-algebras allows to import some constructions and tools from [[algebraic geometry]] into [[differential geometry]] *without* strengthening the notion of "algebra" to something like [[smooth algebras]].
+Accordingly, the embedding of smooth manifolds into [[formal duality|formal duals]] of $\mathbf{R}$-algebras (or $\mathbf{C}$-algebras) allows to import some constructions and tools from [[algebraic geometry]] into [[differential geometry]] *without* strengthening the notion of "algebra" to something like [[smooth algebras]].
 
 This is useful and is used particularly for discussions in [[synthetic differential geometry]] --- cf. e.g. the emphasis on "Weil algebras", hence of would-be function algebras on [[infinitesimally thickened points]], in [Kolář, Michor & Slovák 1993 §35](#KolarSlovakMichor93).
 
@@ -54,30 +56,20 @@ This is useful and is used particularly for discussions in [[synthetic different
 \begin{lemma}\label{MilnorExercise}
 **([Pursell, Section 8](#Pursell52), 1952)**
 \linebreak
+Set $k=\mathbf{R}$ or $k=\mathbf{C}$.
 For a [[smooth manifold]] $X \in SmthMfd$, the [[evaluation map]] (from its [[underlying]] [[set]] to the [[hom-set]])
-$$
-  \begin{array}{l}
-   X 
-     &\overset{ev}{\longrightarrow}& 
-   Hom_{Alg_{\mathbb{R}}}
-   \big(
-     C^\infty(X)
-     ,\,
-     \mathbb{R}
-   \big)
-   \\
-   x &\mapsto&
-   \big(
-     \phi \,\mapsto\, \phi(x)
-   \big)
-  \end{array}
-$$
+$$\begin{array}{l}
+X&\overset{ev}{\longrightarrow}&Hom_{Alg_k}(C^\infty(X,k),k)\\
+x&\mapsto&(\phi\mapsto\phi(x))
+\end{array}$$
 is a [[bijection]].
 \end{lemma}
 
 The statement also appears in [Milnor & Stasheff (1974) Prob. 1-C (p. 11)](#MilnorStasheff74) and a detailed proof different from the one below is given by [Kolář, Michor & Slovák 1993 Lem. 35.8 & Cor. 35.9](#KolarSlovakMichor93).
 
 \begin{proof}
+First, we treat the case $k=\mathbf{R}$,
+so that $C^\infty(M)=C^\infty(M,\mathbf{R})$.
 We provide a simplified proof using [[Hadamard's lemma]].
 Suppose $M$ is a [[smooth manifold]] and $\phi\colon C^\infty(M)\to\mathbf{R}$ is a homomorphism of real algebras.
 
@@ -100,83 +92,62 @@ For example, we can take the smooth function with zero locus $M$ constructed by 
 The function $b$ vanishes on $M$ and therefore belongs to the kernel of the map $\rho$.
 The evaluation homomorphism at $p\notin M$ does not vanish on the element $b$, hence cannot factor through the map $\rho$, a contradiction.
 Therefore, we must have $p\in M$.
+
+Finally, consider the case $k=\mathbf{C}$,
+so that $C^\infty(M)=C^\infty(M,\mathbf{C})$.
+Observe that every homomorphism
+$\phi\colon C^\infty(M,\mathbf{C})\to\mathbf{C}$
+sends real-valued functions to real numbers.
+Indeed, if $f\in C^\infty(M,\mathbf{R})$, then for every $z\in\mathbf{C}\setminus\mathbf{R}$, the element $f-z$ is invertible in $C^\infty(M,\mathbf{C})$.
+Hece its image $\phi(f)-z$ under the homomorphism $\phi$ is also invertible, i.e., nonzero.
+This forces $\phi(f)$ to be real.
+
+Thus, every homomorphism
+$\phi\colon C^\infty(M,\mathbf{C})\to\mathbf{C}$
+restricts to a homomorphism
+$\phi\colon C^\infty(M,\mathbf{R})\to\mathbf{R}$
+and therefore comes from a unique point in $M$ by the real case.
 \end{proof}
 
-Pursell's theorem (Lemma \ref{MilnorExercise}) implies --- and also is the special case for $X = \ast$ (the [[point space|point]]) of:
+Pursell's theorem (Lemma \ref{MilnorExercise}) implies --- and also is the special case for $X = \ast$ (the [[point space|point]]) of the following result.
 \begin{theorem}\label{Embedding}
+Set $k=\mathbf{R}$ or $k=\mathbf{C}$.
 The [[functor]]
-$$
-  \begin{array}{ccc}
-  SmthMfd 
-    &\longrightarrow& 
-  Alg_{\mathbb{R}}^{op}
-  \\
-  X &\mapsto& C^\infty(X)
-  \\
-  \mathllap{{}^f}\Big\downarrow
-  &&  
-  \Big\uparrow\mathrlap{{}^{{f^\ast}}}
-  \\
-  Y
-  &\mapsto&
-  C^\infty(Y)  
-  \end{array}
-$$
-which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]], $C^\infty(X) \coloneqq C^\infty(X, \mathbb{R})$, is a [[full and faithful functor]].
+$$\begin{array}{ccc}
+SmthMfd &\longrightarrow & Alg_k^{op}\\
+X &\mapsto& C^\infty(X,k)\\
+\mathllap{{}f}\Big\downarrow&&\Big\uparrow\mathrlap{{}^{{f^\ast}}}\\
+Y&\mapsto&C^\infty(Y,k)  
+\end{array}$$
+which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $k$-[[associative algebra|algebra]] of [[smooth functions]], $C^\infty(X,k)$, is a [[full and faithful functor]].
 
-In other words, given a [[pair]] of [[smooth manifolds]] $X,Y$ then the operation of [[precomposition]] ([[pullback of a function|pullback of functions]]) $f^\ast(g) \coloneqq g \circ f$ constitutes a [[natural bijection]] 
-
-$$
-  \begin{array}{l}
-    C^\infty(X,Y)
-    &\overset{\sim}{\longrightarrow}&
-   Hom_{Alg_{\mathbb{R}}}\big(
-     C^\infty(Y)
-     ,\,
-     C^\infty(X)
-   \big)
-   \\
-   f &\mapsto& f^\ast
-  \end{array}
-$$
-
+In other words, given a [[pair]] of [[smooth manifolds]] $X$, $Y$, the operation of [[precomposition]] ([[pullback of a function|pullback of functions]]) $f^\ast(g) \coloneqq g \circ f$ constitutes a [[natural bijection]] 
+$$\begin{array}{l}
+C^\infty(X,Y)&\overset{\sim}{\longrightarrow}&Hom_{Alg_k}(C^\infty(Y,k),C^\infty(X,k))\\
+f &\mapsto& f^\ast
+\end{array}$$
 between 
 
 1. the [[smooth functions]] $X \to Y$,
 
-1. the $\mathbb{R}$-[[associative algebra|algebra]] [[homomorphisms]] $C^\infty(X)\leftarrow C^\infty(Y)$.
+1. the $k$-[[associative algebra|algebra]] [[homomorphisms]] $C^\infty(X,k)\leftarrow C^\infty(Y,k)$.
 
 In particular, the [[diffeomorphisms]] between smooth manifolds are in [[natural bijection]] to the [[isomorphisms]] between their [[algebras of functions]].
 \end{theorem}
 ([Kolář, Slovák & Michor 1993 Cor. 35.10](#KolarSlovakMichor93))
+
 \begin{proof}
 \label{ProofFromMilnorExercise}
-It is clear that the functor is [[faithful functor|faithful]]; we need to show that it is [[full functor|full]], hence that for any $\mathbb{R}$-algebra homomorphism
-$$
-  \phi
-  \;\colon\;
-  C^\infty(Y, \mathbb{R})
-  \longrightarrow
-  C^\infty(X, \mathbb{R})
-$$
+It is clear that the functor is [[faithful functor|faithful]]; we need to show that it is [[full functor|full]], hence that for any $k$-algebra homomorphism
+$$\phi\colon C^\infty(Y, k)\longrightarrow C^\infty(X, k)$$
 there exists a smooth function $f \colon X \to Y$ such that $\phi = f^\ast$.
 
 To that end, observe that given a point $x \in X$, the [[postcomposition]] of $\phi$ with the [[evaluation map]] at $x$
-$$  
-  C^\infty(Y, \mathbb{R})
-  \overset{ \phi }{\longrightarrow}
-  C^\infty(X, \mathbb{R})
-  \overset{ ev_x }{\longrightarrow}
-  \mathbb{R}
-$$
+$$C^\infty(Y,k)\overset{\phi}{\longrightarrow}C^\infty(X,k)\overset{ev_x}{\longrightarrow}k$$
 is an algebra homomorphism of the form assumed in Pursell's theorem (Lemma \ref{MilnorExercise}) and thus given uniquely by evaluation at some point $f(x) \in Y$
-$$
-  ev_x \circ \phi \;=\; ev_{f(x)}
-  \,.
-$$
-This implies that $\phi$ acts on any $g \in C^\infty(Y)$ by
-$$
-  \begin{array}{rcl}
+$$ev_x \circ \phi = ev_{f(x)}.$$
+This implies that $\phi$ acts on any $g \in C^\infty(Y,k)$ by
+$$\begin{array}{rcl}
     g 
      &\overset{\phi}{\mapsto}& 
     \big(
@@ -206,15 +177,10 @@ $$
   \end{array}
 $$
 hence that it acts by precomposition with the assignment $f$:
-$$
-  \phi(g) \;=\; g \circ f
-  \,.
-$$
+$$\phi(g) = g \circ f.$$
 
-It just remains to observe that this $f$ is necessarily [[smooth function|smooth]]. But since $\phi$ is given on *all* $g \in C^\infty(Y)$ this way, to see that $f$ is smooth at some $x \in X$, choose any [[coordinate chart]] $U \subset Y$ around $f(x) \in Y$ and consider a $g$ which restricts to one of the [[coordinate functions]] $x^i$ on $U$. Then $(g \circ f)_{\vert f^{-1}(U)} = f^i_{\vert f^{-1}(U)}$ is the $i$th coordinate component of $f$ restricted to a neighbourhood of $x$, and this being smooth for all $i$ means that $f$ is smooth around $x$.
+It just remains to observe that this $f$ is necessarily [[smooth function|smooth]]. But since $\phi$ is given on *all* $g \in C^\infty(Y,k)$ this way, to see that $f$ is smooth at some $x \in X$, choose any [[coordinate chart]] $U \subset Y$ around $f(x) \in Y$ and consider a $g$ which restricts to one of the [[coordinate functions]] $x^i$ on $U$. Then $(g \circ f)_{\vert f^{-1}(U)} = f^i_{\vert f^{-1}(U)}$ is the $i$th coordinate component of $f$ restricted to a neighbourhood of $x$, and this being smooth for all $i$ means that $f$ is smooth around $x$.
 \end{proof}
-
-
 
 \begin{remark}\label{Attribution}
 **(attribution)**
@@ -227,7 +193,6 @@ It is also left as an [[exercise]] (without reference to Pursell) in [Milnor & S
 The general statement of Theorem \ref{Embedding} appears as [Kolář, Slovák & Michor (1993) 35.10](#KolarSlovakMichor93).
 \end{remark}
 
-
 +-- {: .num_remark}
 ###### Remark
 
@@ -238,9 +203,16 @@ The statement of theorem \ref{Embedding} serves as the stepping-stone for genera
 +-- {: .num_remark}
 ###### Remark
 
-If one drops the second countability assumption on manifolds then theorem \ref{Embedding} may break. For instance allowing [[countable set|uncountably]] many connected components, then there are counterexamples ([MO discussion](http://mathoverflow.net/a/91445)).
+If one drops the second countability assumption on manifolds, allowing sets of connected components to have the cardinality of a [[measurable cardinal]], then Theorem \ref{Embedding} has counterexamples in dimension 0: not every homomorphism $\mathbf{R}^T\to\mathbf{R}^S$ is induced by a map of sets $S\to T$ ([MO discussion](http://mathoverflow.net/a/91445)).
 
 =--
+
+\begin{remark}
+As a consequence of the above results, the [[complexification]] functor establishes an [[equivalence of categories]] between the [[essential images]] of $C^\infty(-,\mathbf{R})$ and $C^\infty(-,\mathbf{C})$.
+For an explanation of this, see [[smooth manifold#faithful_embedding_into_commutative_algebras]].
+
+This result is false in the super case, leading to two nonequivalent notions of a smooth supermanifold: smooth real [[supermanifold]] and smooth [[complex supermanifold]] (alias cs manifold).
+\end{remark}
 
 ## Related theorems
 
