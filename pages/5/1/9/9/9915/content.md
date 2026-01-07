@@ -11,6 +11,10 @@ On [[heterotic M-theory]]:
 
 * {#Ovrut18} [[Burt Ovrut]], _Vacuum Constraints for Realistic Heterotic M-Theories_, Symmetry 2018, 10(12), 723 ([arXiv:1811.08892](https://arxiv.org/abs/1811.08892), [doi:10.3390/sym10120723](https://doi.org/10.3390/sym10120723))
 
+On [[KK-compactification]] of [[D=11 supergravity]] with [[M9-branes]] ([[Hořava-Witten theory]]/[[heterotic M-theory]]) on a [[Calabi-Yau 3-fold]] to [[D=5 supergravity]] (cf. *[[M-theory on Calabi-Yau 3-folds]]*):
+
+* [[Andre Lukas]], [[Burt A. Ovrut]], [[Kellogg S. Stelle]], [[Daniel Waldram]]: *Heterotic M-theory in Five Dimensions*, Nucl. Phys. B **552** (1999) 246-290 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(99)00196-0">doi:10.1016/S0550-3213(99)00196-0</a>, [arXiv:hep-th/9806051](https://arxiv.org/abs/hep-th/9806051)&rbrack;
+
 
 On [[string phenomenology]] in [[heterotic M-theory]]:
 
