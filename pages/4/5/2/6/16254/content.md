@@ -31,6 +31,11 @@ On [[black brane|black]] [[M2-brane]]-solutions to [[D=11 supergravity]]:
 
 * {#DuffStelle91} [[Mike Duff]], [[Kellogg Stelle]], _Multi-membrane solutions of $D = 11$ supergravity_, Phys. Lett. B 253, 113 (1991) ([spire:299386](http://inspirehep.net/record/299386), <a href="https://doi.org/10.1016/0370-2693(91)91371-2">doi:10.1016/0370-2693(91)91371-2</a>)
 
+On [[KK-compactification]] of [[D=11 supergravity]] with [[M9-branes]] ([[Hořava-Witten theory]]) on a [[Calabi-Yau 3-fold]] to [[D=5 supergravity]] (cf. *[[M-theory on Calabi-Yau 3-folds]]*):
+
+* [[Andre Lukas]], [[Burt A. Ovrut]], [[Kellogg S. Stelle]], [[Daniel Waldram]]: *Heterotic M-theory in Five Dimensions*, Nucl. Phys. B **552** (1999) 246-290 &lbrack;<a href="https://doi.org/10.1016/S0550-3213(99)00196-0">doi:10.1016/S0550-3213(99)00196-0</a>, [arXiv:hep-th/9806051](https://arxiv.org/abs/hep-th/9806051)&rbrack;
+
+
 On the [[Hopf-Wess-Zumino term]] of the [[M5-brane]]:
 
 * {#KalkkinenStelle02} [[Jussi Kalkkinen]], [[Kellogg Stelle]], Section 3.2 of: _Large Gauge Transformations in M-theory_, J. Geom. Phys. 48 (2003) 100-132 ([arXiv:hep-th/0212081](https://arxiv.org/abs/hep-th/0212081))
