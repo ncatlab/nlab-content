@@ -42,6 +42,7 @@ If $F$ preserves all limits or colimits of a given type (i.e. over a given categ
 
 A functor that preserves all small limits in $C$ that exist is called a __[[continuous functor]]__.  Usually this term is only used when $C$ has all small limits, i.e. is a [[complete category]].
 
+Note that if there exists at least one limit $(x, \eta)$ for $J$ that is preserved by $F$, then every limit for $J$ is preserved by $F$. This is because any other limit $(y, \mu)$ is uniquely isomorphic to $(x, \eta)$, and $F$ preserves this isomorphism (as all functors do), implying $(F(y), F \cdot \mu)$ is a limit for $F \circ J$.
 
 ## Examples
   {#Examples}
