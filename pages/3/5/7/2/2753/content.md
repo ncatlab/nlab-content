@@ -133,6 +133,11 @@ Discussion of [[crossed modules]] [[internalization|internal to]] the [[category
 
 * Joel Couchman, _Crossed modules and internal categories of Lie-Rinehart algebras_, Master's thesis, Macquarie University (2017) &lbrack;[doi:10.25949/19439645.v1](https://doi.org/10.25949/19439645.v1), [[Couchman-CrossedModules.pdf:file]]&rbrack;
 
+On the [[homotopical algebra]] of higher Lie-Rhinehart pairs:
+
+* Damjan Pištalo: *Homotopical algebra of Lie-Rinehart pairs* &lbrack;[arXiv:2601.02895](https://arxiv.org/abs/2601.02895)&rbrack;
+
+
 
 [[!redirects Lie-Rinehart pairs]]
 
