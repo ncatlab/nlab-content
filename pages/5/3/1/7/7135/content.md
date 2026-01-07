@@ -1,11 +1,12 @@
 
-Paul Townsend is professor for theoretical [[physics]] at Cambridge.
+Paul K. Townsend is professor for theoretical [[physics]] at Cambridge.
 
 * [institute page](http://www.damtp.cam.ac.uk/people/p.k.townsend)
 
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Paul_Townsend)
+
 * [inSpire page](https://inspirehep.net/authors/985767)
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Paul_Townsend)
 
 
 
@@ -56,6 +57,11 @@ Understanding [[extended supersymmetry]]-[[super Lie algebras|algebras]] as [[Li
 Understanding [[super p-brane]]-species as classified by the [[Lie algebra cohomology]] of their [[target spacetime|target]] [[super-Minkowski spacetime]] [[super Lie algebras]]:
 
 * {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]]: *Superspace geometry and the classification of supersymmetric extended objects*, Physical Review Letters **62** 22 (1989) &lbrack;[doi:10.1103/PhysRevLett.62.2579](https://doi.org/10.1103/PhysRevLett.62.2579), [spire:284635](http://inspirehep.net/record/284635)&rbrack;
+
+On [[KK-compactification]] of [[D=11 supergravity]] on fibers of [[special holonomy]] (cf. *[[M-theory on Calabi-Yau manifolds]]*):
+
+* [[George Papadopoulos]], [[Paul K. Townsend]]: *Compactification of $D=11$ supergravity on spaces of exceptional holonomy*, Phys. Lett. B **357** (1995) 300-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)00929-F">doi:10.1016/0370-2693(95)00929-F</a>, [arXiv:hep-th/9506150](https://arxiv.org/abs/hep-th/9506150)&rbrack;
+
 
 
 Early discussion of the [[duality between type IIA string theory and M-theory]] in view of [[double dimensional reduction]] of the [[M2-brane]]:
