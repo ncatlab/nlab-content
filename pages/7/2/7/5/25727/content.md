@@ -49,6 +49,11 @@ Further review:
 
 * Steven A. Kivelson, Shivaji Sondhi, *50 years of quantum spin liquids*, Nature Reviews Physics, May 26, 2023 &lbrack;[arXiv:2305.18103](https://arxiv.org/abs/2305.18103), [doi:10.1038/s42254-023-00596-x](https://doi.org/10.1038/s42254-023-00596-x)&rbrack;
 
+* [[Subir Sachdev]]: *Lectures on insulating and conducting quantum spin liquids* &lbrack;[arXiv:2512.23962](https://arxiv.org/abs/2512.23962)&rbrack;
+
+
+See also:
+
 * Wikipedia, *[Quantum spin liquid](https://en.wikipedia.org/wiki/Quantum_spin_liquid)*
 
 
