@@ -211,6 +211,7 @@ The basic [[BPS states]] of 11d SuGra are
 
 [[!include table of branes]]
 
+
 ## References
 
 * {#Duff99} [[Mike Duff]], chapter 1 of: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999) &lbrack;[ISBN:9780750306720 ](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720)&rbrack;
@@ -428,6 +429,13 @@ Via [[worldline formalism]]:
 Discussion of [[Freund-Rubin compactifications]]:
 
 * [[Hermann Nicolai]], [[Krzysztof Pilch]], _Consistent truncation of $d = 11$ supergravity on $AdS_4 \times S^7$_, JHEP 03 (2012) 099 ([arXiv:1112.6131](http://arxiv.org/abs/1112.6131))
+
+
+
+
+[[!include 11D Sugra on CY3 -- references]]
+
+
 
 ### Topology and anomaly cancellation
 
