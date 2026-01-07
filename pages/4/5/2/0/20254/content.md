@@ -9,6 +9,6 @@
 
 * [[5-manifolds]]
 
-* [[6-manifold]]
+* [[6-manifolds]]
 
 * [[8-manifolds]]
