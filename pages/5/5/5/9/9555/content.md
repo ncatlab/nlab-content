@@ -32,6 +32,10 @@ On [[phase transitions]] of [[metals]] including [[strange metals]]:
 
 * [[Subir Sachdev]]: *Lectures on the quantum phase transitions of metals* &lbrack;[arXiv:2407.15919](https://arxiv.org/abs/2407.15919)&rbrack;
 
+On [[quantum spin liquids]]:
+
+* [[Subir Sachdev]]: *Lectures on insulating and conducting quantum spin liquids* &lbrack;[arXiv:2512.23962](https://arxiv.org/abs/2512.23962)&rbrack;
+
 
 
 ## Related entries
