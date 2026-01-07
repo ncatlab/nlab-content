@@ -16,6 +16,7 @@ Early discussion of the [[D'Auria-Fré formulation of supergravity]]:
 
 * [[Riccardo D'Auria]], [[Pietro Fré]], [[Paul Townsend]],  *Invariance of actions, rheonomy and the new minimal $N=1$ supergravity in the group manifold approach*, Ann. Phys. 155 (1984) 423-446 &lbrack;[cds:143990](https://cds.cern.ch/record/143990), <a href="http://dx.doi.org/10.1016/0003-4916(84)90007-1">doi:10.1016/0003-4916(84)90007-1</a>, [pdf](https://cds.cern.ch/record/143990/files/198305027.pdf)&rbrack;
 
+
 On [[D=6 supergravity]] formulated on [[superspace]]:
 
 * [[Moustafa A. Awada]], [[Paul Townsend]], [[Germán Sierra]]:  *Six-dimensional simple and extended chiral supergravity in superspace*, Class. Quantum Grav. **2** (1985) L85 &lbrack;[doi:10.1088/0264-9381/2/4/005](https://iopscience.iop.org/article/10.1088/0264-9381/2/4/005)&rbrack;
@@ -29,7 +30,7 @@ On $D=6$ [[spin representations]] and [[supersymmetry]]:
 
 On [[D=7 supergravity]] (as [[gauged supergravity]]):
 
-* [[Paul Townsend]], [[Peter van Nieuwenhuizen]], _Gauged Seven-Dimensional Supergravity_ , Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
+* [[Paul Townsend]], [[Peter van Nieuwenhuizen]]: *Gauged Seven-Dimensional Supergravity*, Phys. Lett. 125B (1983) 41 ([spire:189055](http://inspirehep.net/record/189055), <a hraf="https://doi.org/10.1016/0370-2693(83)91230-3">doi:10.1016/0370-2693(83)91230-3</a>)
 
 
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
@@ -57,6 +58,12 @@ Understanding [[extended supersymmetry]]-[[super Lie algebras|algebras]] as [[Li
 Understanding [[super p-brane]]-species as classified by the [[Lie algebra cohomology]] of their [[target spacetime|target]] [[super-Minkowski spacetime]] [[super Lie algebras]]:
 
 * {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]]: *Superspace geometry and the classification of supersymmetric extended objects*, Physical Review Letters **62** 22 (1989) &lbrack;[doi:10.1103/PhysRevLett.62.2579](https://doi.org/10.1103/PhysRevLett.62.2579), [spire:284635](http://inspirehep.net/record/284635)&rbrack;
+
+On [[volume]]-preserving [[diffeomorphism]] [[gauge symmetry]] in the [[light cone gauge quantization]] of [[super p-branes]] (in higher dimensional generalization of the area-preserving diffeos of the [[M2-brane]] [[sigma-model]]):
+
+* [[Eric Bergshoeff]], [[Ergin Sezgin]], Y. Tanii, [[Paul K. Townsend]]: *Super $p$-branes as gauge theories of volume preserving diffeomorphisms*, Annals of Physics **199** 2 (1990) 340-365 \[<a href="https://doi.org/10.1016/0003-4916(90)90381-W">doi:10.1016/0003-4916(90)90381-W</a>\]
+
+
 
 On [[KK-compactification]] of [[D=11 supergravity]] on fibers of [[special holonomy]] (cf. *[[M-theory on Calabi-Yau manifolds]]*):
 
