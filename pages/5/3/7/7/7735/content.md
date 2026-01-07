@@ -1,5 +1,11 @@
 
-* [webpage](http://string.lpthe.jussieu.fr/members.pl?key=7)
+* [institute page](http://string.lpthe.jussieu.fr/members.pl?key=7)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=244040)
+
+* [inSpire page](https://inspirehep.net/authors/997364)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=jRGzmXAAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -71,11 +77,11 @@ On [[dimensional reduction]] of [[D=11 supergravity]]/[[M-theory on Calabi-Yau m
 
 * {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], [[Ramzi R. Khuri]], [[Ruben Minasian]]: _M-theory on a Calabi-Yau manifold_, Phys. Lett. B **375** (1996) 81-88 &lbrack;[arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102), <a href="https://doi.org/10.1016/0370-2693(96)00270-5">doi:10.1016/0370-2693(96)00270-5</a>&rbrack;
 
+* [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]]: *Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds*, Nucl.Phys. B **474** (1996) 323-342 &lbrack;[arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097), <a href="https://doi.org/10.1016/0550-3213(96)00268-4">doi:10.1016/0550-3213(96)00268-4</a>&rbrack;
 
 
 
 On [[generalized Calabi-Yau manifolds]]:
-
 
 * [[Mariana Graña]], [[Ruben Minasian]], Michela Petrini, [[Alessandro Tomasiello]], _Type II Strings and Generalized Calabi-Yau Manifolds_ ([arXiv:hep-th/0409176](http://arxiv.org/abs/hep-th/0409176))
 
@@ -84,6 +90,7 @@ On [[generalized Calabi-Yau manifolds]]:
 On [[BPS-states]] in [[string theory]]/[[supergravity]] using [[G-structures]]:
 
 * [[Ruben Minasian]], [[Daniël Prins]], [[Hagen Triendl]], _Supersymmetric branes and instantons on curved spaces_, JHEP 10 (2017) 159 ([arXiv:1707.07002](https://arxiv.org/abs/1707.07002))
+
 
 On [[supermultiplets]]:
 
