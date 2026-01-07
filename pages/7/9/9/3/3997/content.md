@@ -53,6 +53,10 @@ On the other hand, one might argue that it doesn't make sense to regard a limit 
 
 Finally, one might even argue that based on the meaning of the English word "created", only something that exists can be created at all.  In this case the more generally applicable definition could be stated as "$F$ creates limits for $J$ if $J$ and $F\circ J$ both have limits, and furthermore limits of $J$ are preserved and reflected by $F$."
 
+#### Relation to lifting limits
+
+If $F$ creates limits for $J$, then it necessarily [[lifted limit|lifts]] limits for $J$ as well. Conversely, so long as $F \circ J$ has a limit, creation of limits for $J$ is equivalent to lifting and reflection of limits for $J$. Thus, one could give an alternative definition for limit creation by saying "$F$ creates limits for $J$ iff it lifts and reflects limits for $J$", which also applies to the case of non-existing limits.
+
 ### Strictness
 
 The definitions given above are all "up to isomorphism", i.e. they satisfy the [[principle of equivalence]].  The definition in [[Categories Work]] is additionally *strict*: it requires that for every limiting cone $L$ over $F J$ in $D$ there exists a *unique* cone $L'$ over $J$ which is mapped *exactly* to $L$, and this $L'$ is a limit of $J$.  This is used in stating the version of the [[monadicity theorem]] that characterizes the [[category of algebras for a monad]] up to [[isomorphism]] rather than [[equivalence of categories]]. For [[amnestic functor|amnestic]] [[isofibrations]] the strict and the non-strict notion are equivalent.
