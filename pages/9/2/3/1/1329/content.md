@@ -43,6 +43,8 @@ This may be read as saying that the [[Whitehead theorem]] is valid in the [[(∞
 
 * [[topological localization]]
 * [[cotopological localization]]
+* [[hypercomplete object]]
+* [[hypercomplete (infinity,1)-topos|hypercomplete $(\infty,1)$-topos]]
 
 ## References
 
