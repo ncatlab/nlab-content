@@ -413,6 +413,8 @@ Further discussion:
 * Aviral Aggarwal, Subhroneel Chakrabarti, Madhusudhan Raman: *Monopoles, Clarified* &lbrack;[arXiv:2504.16673](https://arxiv.org/abs/2504.16673)&rbrack;
   > (in relation to [[magnetic monopoles]])
 
+* Jessica Hutomo, [[Kurt Lechner]], [[Dmitri P. Sorokin]]: *On non-linear chiral 4-form theories in $D=10$* &lbrack;[arXiv:2509.14351](https://arxiv.org/abs/2509.14351)&rbrack;
+
 
 
 ### For RR-fields / differential K-theory
