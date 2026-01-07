@@ -52,6 +52,11 @@ On the work of [[Mike Duff]]:
 * [[Leron Borsten]], [[Alessio Marrani]], [[Christopher N. Pope]], [[Kellogg Stelle]], *Introduction to the special issue dedicated to Michael J. Duff FRS on the occasion of his 70th birthday*, Proceedings of the Royal Society A, 
 **478** (2022) 2259 &lbrack;[doi:10.1098/rspa.2022.0166](https://doi.org/10.1098/rspa.2022.0166)&rbrack;
 
+On consistent [[KK-compactification]] of [[D=11 supergravity]] on [[Calabi-Yau 3-folds]] to [[D=5 supergravity]] (cf. *[[M-theory on Calabi-Yau manifolds]]*):
+
+* Jieming Lin, Torben Skrzypek, [[Kellogg S. Stelle]]: *Compactification on Calabi-Yau threefolds: Consistent truncation to pure supergravity*, J. High Energ. Phys. **2025** 200 (2025) &lbrack;[arXiv:2412.00186](https://arxiv.org/abs/2412.00186), <a href="https://doi.org/10.1007/JHEP03(2025)200">doi:10.1007/JHEP03(2025)200</a>&rbrack;
+
+
 
 ## Related entries
 
