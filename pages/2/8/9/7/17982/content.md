@@ -1,9 +1,21 @@
-Charles Doran is a professor of mathematics at the University of Alberta.
+Charles Francis Doran is a professor of mathematics at the University of Alberta.
 
-* [webpage](https://www.charlesdoran.net)
+* [personal page](https://www.charlesdoran.net)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=36332)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=VhTcFwEAAAAJ&hl=en)
+
+
+
 
 
 ## Selected writings
+
+On the [[algebraic topology]] (e.g. the [[topological K-theory]]) of [[Calabi-Yau 3-folds]]:
+
+* [[Charles F. Doran]], [[John W. Morgan]]: *Algebraic Topology of Calabi-Yau Threefolds in Toric Varieties*, Geom. Topol. **11** (2007) 597-642 &lbrack;[arXiv:math/0605074](https://arxiv.org/abs/math/0605074), [arXiv:10.2140/gt.2007.11.597](https://doi.org/10.2140/gt.2007.11.597)&rbrack;
+
 
 On [[supersymmetry]] via [[adinkras]]:
 
@@ -45,3 +57,5 @@ On the [[mirror map]] and related [[Picard-Fuchs equation]]s
 * [[mirror symmetry]]
 
 category: people
+
+[[!redirects Charles F. Doran]]
