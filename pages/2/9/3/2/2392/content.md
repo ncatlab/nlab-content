@@ -342,14 +342,20 @@ This is prop 1.8 4 in
 * [[Jacob Lurie]], _Commutative algebra_ ([pdf](http://www.math.harvard.edu/~lurie/papers/DAG-III.pdf))
 
 ### In terms of relative operads
+ {#InTermsOfRelativeOperads}
 
-This is an operadic analog of [[relative categories]].
+*Relative operads* are the operadic analogue of *[[relative categories]]*. In generalization of how the latter model [[(infinity,1)-category|$(\infty,1)$-categories]], so relative operads model $(\infty,1)$-operads:
 
-A **relative operad** is a pair $(O,W)$, where $O$ is a [[colored operad]] and $W$ is a [[replete subcategory]] of the category of unary operations of $O$. Given a relative operad $O$, one can formally invert the maps in $W$ to obtain an $(\infty,1)$-operad $O[W^{-1}]$, called its localization. This process defines a functor
+A *[[relative operad]]* is a pair $(O,W)$, where $O$ is a [[colored operad]] and $W$ is a [[replete subcategory]] of the category of unary operations of $O$. Given a relative operad $O$, one can formally invert the maps in $W$ to obtain an $(\infty,1)$-operad $O[W^{-1}]$, called its localization. This process defines a functor
 $$
-L\colon \mathsf{RelOp}\to \mathsf{Op}_{(\infty,1)}
+  L 
+   \;\colon\; 
+  \mathsf{RelOp}
+    \longrightarrow 
+  \mathsf{Op}_{(\infty,1)}
 $$
-from the category of relative operads to the [[(∞,1)-category]] of $(\infty,1)$-operads. The main theorem of [ACP25](#ACP25) asserts that $L$ is in fact a [[localization]] of [[(∞,1)-categories]]. Therefore, relative operads model $(\infty,1)$-operads.
+from the category of relative operads to the [[(∞,1)-category]] of $(\infty,1)$-operads. The main theorem of [ACP25](#ACP25) asserts that $L$ is in fact a [[localization of an (infinity,1)-category|localization]] of [[(∞,1)-categories]]. Therefore, relative operads model $(\infty,1)$-operads.
+
 
 ## Examples
 
@@ -711,9 +717,9 @@ On the [[Eckmann-Hilton argument]] for (∞,1)-operads:
 
 * [[Tomer Schlank]], [[Lior Yanovski]], *The ∞-Categorical Eckmann-Hilton Argument*, Algebr. Geom. Topol. 19 (2019) 3119-3170 ([arXiv:1808.06006](https://arxiv.org/abs/1808.06006), [doi:10.2140/agt.2019.19.3119](https://doi.org/10.2140/agt.2019.19.3119))
 
-That relative operads models $(\infty,1)$-operads is proved in:
+That relative operads model $(\infty,1)$-operads is proved in:
 
-* {#ACP25}[[Kensuke Arakawa]], [[Victor Carmona]], [[Francesca Pratali]], *Relative operads model $\infty$-operads*, ([arXiv:2512.16374](https://arxiv.org/abs/2512.16374))
+* {#ACP25} [[Kensuke Arakawa]], [[Victor Carmona]], [[Francesca Pratali]]: *Relative operads model $\infty$-operads* &lbrack;[arXiv:2512.16374](https://arxiv.org/abs/2512.16374)&rbrack;
 
 
 [[!redirects (∞,1)-operad]]
@@ -721,3 +727,4 @@ That relative operads models $(\infty,1)$-operads is proved in:
 [[!redirects (infinity,1)-operads]]
 [[!redirects ∞-operad]]
 [[!redirects ∞-operads]]
+[[!redirects infinity1-operad]]
