@@ -41,6 +41,8 @@ Reflection of limits is distinct from [[preservation of limits]], although there
 
 =--
 
+For example, if there exists at least one cone $\eta$ for $J$ such that $F(\eta)$ is a limit for $F \circ J$, and $F$ reflects limits of $J$, then $F$ necessarily preserves limits of $J$. This is because reflection implies $\eta$ is a limit for $J$ preserved by $F$, which immediately implies $F$ preserved any limit for $J$.
+
 
 ## Examples
  {#Examples}
