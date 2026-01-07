@@ -15,6 +15,7 @@ Eric Arnold Bergshoeff
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=EnI1UGEAAAAJ&hl=nl)
 
+
 ## Selected writings
 
 Introducing the [[Green-Schwarz sigma-model]]-type formulation of the [[super-membrane]] in 11D (the [[M2-brane]]):
@@ -29,6 +30,11 @@ and on the early history of the development:
 On the emergence of [[superconformal field theory]] in the perturbations of the [[super-membrane]] [[Green-Schwarz sigma model]] around a classical solution stretched along the [[asymptotic boundary]] of [[anti de Sitter spacetime]]:
 
 * {#BDPS87} [[Eric Bergshoeff]], [[Michael Duff]], [[Christopher Pope]], [[Ergin Sezgin]]: *Supersymmetric Supermembrane Vacua and Singletons*, Phys. Lett. B **199** (1987) 69-74 \[<a href="https://doi.org/10.1016/0370-2693(87)91465-1">doi:10.1016/0370-2693(87)91465-1</a>, [InSpire:250244](https://inspirehep.net/literature/250244)\]
+
+On [[volume]]-preserving [[diffeomorphism]] [[gauge symmetry]] in the [[light cone gauge quantization]] of [[super p-branes]] (in higher dimensional generalization of the area-preserving diffeos of the [[M2-brane]] [[sigma-model]]):
+
+* [[Eric Bergshoeff]], [[Ergin Sezgin]], Y. Tanii, [[Paul K. Townsend]]: *Super $p$-branes as gauge theories of volume preserving diffeomorphisms*, Annals of Physics **199** 2 (1990) 340-365 \[<a href="https://doi.org/10.1016/0003-4916(90)90381-W">doi:10.1016/0003-4916(90)90381-W</a>\]
+
 
 
 On [[double dimensional reduction]] of the [[M5-brane]] to the [[D4-brane]]:
