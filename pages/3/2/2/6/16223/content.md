@@ -1,9 +1,15 @@
 
-George Papadopoulos is professor for mathematics at King's College London.
+Georgios Papadopoulos is professor for mathematics at King's College London.
 
-* [webpage](http://www.kcl.ac.uk/nms/depts/mathematics/people/atoz/papadopoulosg.aspx)
+* [insitute page](https://www.kcl.ac.uk/people/georgios-papadopoulos)
 
 ## Seletced writings
+
+On [[KK-compactification]] of [[D=11 supergravity]] on fibers of [[special holonomy]] (cf. *[[M-theory on Calabi-Yau manifolds]]*):
+
+* [[George Papadopoulos]], [[Paul K. Townsend]]: *Compactification of $D=11$ supergravity on spaces of exceptional holonomy*, Phys. Lett. B **357** (1995) 300-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)00929-F">doi:10.1016/0370-2693(95)00929-F</a>, [arXiv:hep-th/9506150](https://arxiv.org/abs/hep-th/9506150)&rbrack;
+
+
 
 On [[Killing spinors]] in [[heterotic supergravity]]:
 
@@ -47,3 +53,5 @@ Showing that the maximally supersymmetric [[pp-wave]] solution of [[D=11 supergr
 * [[exceptional geometry]]
 
 category: people
+
+[[!redirects Georgios Papadopoulos]]
