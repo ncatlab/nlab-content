@@ -57,14 +57,14 @@ $$
     &\mapsto&
     \Big(
       \exp\big( 
-        2 \pi \mathrm{i} \tfrac{l_0}{n} 
+        2 \pi \mathrm{i} \tfrac{kl_0}{n} 
       \big) 
       \cdot z_0
       ,\,
       \cdots
       ,\,
       \exp\big( 
-        2 \pi \mathrm{i} \tfrac{l_d}{n} 
+        2 \pi \mathrm{i} \tfrac{kl_d}{n} 
       \big) 
       \cdot z_d
     \Big)
