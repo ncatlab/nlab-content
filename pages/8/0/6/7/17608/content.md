@@ -51,7 +51,12 @@ See also at _[[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]_.
 
 ## References
 
-* [[Sergio Ferrara]], [[Ramzi Khuri]],  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys. Lett.B 375:81-88, 1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
+* [[Sergio Ferrara]], [[Ramzi Khuri]],  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys. Lett. B **375** (1996) 81-88 &lbrack;[arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102)&rbrack;
+
+Via the [[BFSS matrix model]]:
+
+* [[Shamit Kachru]], A. Lawrence, [[Eva Silverstein]]: *On the Matrix Description of Calabi-Yau Compactifications*,  Phys. Rev. Lett. **80** (1998) 2996-2999 &lbrack;[doi:10.1103/PhysRevLett.80.2996](https://doi.org/10.1103/PhysRevLett.80.2996), [arXiv:hep-th/9712223](https://arxiv.org/abs/hep-th/9712223)&rbrack;
+
 
 On [[D=5 super Yang-Mills theory]] from [[KK-compactification]] of M-theory on Calabi-Yau 3-folds:
 
@@ -59,11 +64,13 @@ On [[D=5 super Yang-Mills theory]] from [[KK-compactification]] of M-theory on C
 
 * [[Vivek Saxena]]: *Rank-two 5d SCFTs from M-theory at isolated toric singularities: a systematic study*, High Energ. Phys. **2020** 198 (2020)  &lbrack;[arXiv:1911.09574](https://arxiv.org/abs/1911.09574)<a href="https://doi.org/10.1007/JHEP04(2020)198">doi:10.1007/JHEP04(2020)198</a>&rbrack;
 
-On [[dimensional reduction]] of [[D=11 supergravity]]/[[M-theory on Calabi-Yau manifolds]] to [[D=5 supergravity]]:
+On [[dimensional reduction]] of [[D=11 supergravity]] on [[Calabi-Yau 3-folds]] to [[D=5 supergravity]] (cf. [[M-theory on Calabi-Yau manifolds]]):
 
 * {#CadavidCeresoleDAuriaFerrara95} A. C. Cadavid, [[Anna Ceresole]], [[Riccardo D'Auria]], [[Sergio Ferrara]]: *11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds*, Phys. Lett. B **357** (1995) 76-80 &lbrack;[arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144), <a href="https://doi.org/10.1016/0370-2693(95)00891-N">doi:10.1016/0370-2693(95)00891-N</a>&rbrack;
 
 * [[George Papadopoulos]], [[Paul K. Townsend]]: *Compactification of $D=11$ supergravity on spaces of exceptional holonomy*, Phys. Lett. B **357** (1995) 300-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(95)00929-F">doi:10.1016/0370-2693(95)00929-F</a>, [arXiv:hep-th/9506150](https://arxiv.org/abs/hep-th/9506150)&rbrack;
+
+* [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]]: *Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds*, Nucl.Phys. B **474** (1996) 323-342 &lbrack;[arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097), <a href="https://doi.org/10.1016/0550-3213(96)00268-4">doi:10.1016/0550-3213(96)00268-4</a>&rbrack;
 
 * Jieming Lin, Torben Skrzypek, [[Kellogg S. Stelle]]: *Compactification on Calabi-Yau threefolds: Consistent truncation to pure supergravity*, J. High Energ. Phys. **2025** 200 (2025) &lbrack;[arXiv:2412.00186](https://arxiv.org/abs/2412.00186), <a href="https://doi.org/10.1007/JHEP03(2025)200">doi:10.1007/JHEP03(2025)200</a>&rbrack;
 
