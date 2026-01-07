@@ -74,11 +74,11 @@ Projects:
 * (upcoming) keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026), Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions)*, Hangzhou, 30 Oct--3 Nov 2026
 
 
-* (upcoming) 
-
-  **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
+* **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
 
   talk at *[Geometry, Higher Structures, and Physics](https://icms.ac.uk/activities/workshop/geometry-higher-structures-and-physics-icms-workshop/)*, [International Centre for Mathematical Sciences (ICMS)](https://www.icms.org.uk/), Bayes Centre, Edinburgh, 8-12 December 2025
+
+  video recording I: [yt](https://youtu.be/dzhIhRPoF-8), II: [yt](https://youtu.be/SAPqm55QsRI)
 
 
 <div style="float:right;margin:-72px 0px 00px 30px;">
