@@ -70,6 +70,8 @@ Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAn
 
 * [[loop space of a wedge of circles]]
 
+* [[stable splitting]]
+
 ## References
 
 Texbook accounts: 
