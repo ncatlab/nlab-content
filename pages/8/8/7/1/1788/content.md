@@ -14,3 +14,7 @@
 
 * [[Eric D'Hoker]], John Estes, [[Michael Gutperle]], Darya Krym: *Exact Half-BPS Flux Solutions in M-theory III: Existence and rigidity of global solutions asymptotic to $AdS_4 \times S^7$*, JHEP 0909:067 (2009) &lbrack;[arXiv:0906.0596](https://arxiv.org/abs/0906.0596), [doi:10.1088/1126-6708/2009/09/067](https://doi.org/10.1088/1126-6708/2009/09/067)&rbrack;
 
+
+---
+
+$$ \frac{\Gamma \vdash e:\mathsf{Bool} \qquad \Gamma, \underline{e} \vdash e_1 : T_1 \qquad \Gamma, \underline{\neg e} \vdash e_2 : T_2}{\Gamma \vdash \operatorname{if-then-else}(e, e_1, e_2) : T_1 \sqcup_e T_2} $$
