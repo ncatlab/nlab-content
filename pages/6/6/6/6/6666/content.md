@@ -1,5 +1,11 @@
 
-* [webpage](http://moby.mib.infn.it/~atom/)
+* [personal page](https://virgilio.mib.infn.it/~atom/)
+
+* [insitute page](https://en.unimib.it/alessandro-tomasiello)
+
+* [inSpire page](https://inspirehep.net/authors/985948)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Lo7idmUAAAAJ&hl=en)
 
 ## Selected writings
 
