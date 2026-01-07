@@ -2,12 +2,21 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Augusto_Sagnotti)
 
+* [inSpire page](https://inspirehep.net/authors/990734)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=S3-HIpMAAAAJ&hl=en)
+
 ## Selected writings
 
 Review of the [[Green-Schwarz mechanism]] with an eye towards [[KK-compactification]] to 6d (see also at [[D=6 N=(1,0) SCFT]]):
 
+* [[Augusto Sagnotti]], _A Note on the Green - Schwarz Mechanism in Open - String Theories_, Phys. Lett. B **294** (1992) 196-203 &lbrack;[arXiv:hep-th/9210127](https://arxiv.org/abs/hep-th/9210127)&rbrack;
 
-* [[Augusto Sagnotti]], _A Note on the Green - Schwarz Mechanism in Open - String Theories_, Phys. Lett. B294:196-203, 1992 ([arXiv:hep-th/9210127](https://arxiv.org/abs/hep-th/9210127))
+
+On [[dimensional reduction]] of [[D=11 supergravity]] on [[Calabi-Yau 3-folds]] to [[D=5 supergravity]] (cf. [[M-theory on Calabi-Yau manifolds]]):
+
+* [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]]: *Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds*, Nucl.Phys. B **474** (1996) 323-342 &lbrack;[arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097), <a href="https://doi.org/10.1016/0550-3213(96)00268-4">doi:10.1016/0550-3213(96)00268-4</a>&rbrack;
+
 
 
 On [[D=6 supergravity]]:
