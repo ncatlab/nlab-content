@@ -8,8 +8,7 @@ Dedicated discussion of [[pp-wave spacetimes]] as [[Penrose limits]] ([[Inönü-
 
 * [[Nakwoo Kim]], Ari Pankiewicz, Soo-Jong Rey, [[Stefan Theisen]], _Superstring on PP-Wave Orbifold from Large-N Quiver Gauge Theory_, Eur. Phys. J. C25:327-332, 2002 ([arXiv:hep-th/0203080](https://arxiv.org/abs/hep-th/0203080))
 
-* E. Floratos, [[Alex Kehagias]], 
-_Penrose Limits of Orbifolds and Orientifolds_, JHEP 0207 (2002) 031 ([arXiv:hep-th/0203134](https://arxiv.org/abs/hep-th/0203134))
+* [[Emmanuel G. Floratos]], [[Alex Kehagias]]: *Penrose Limits of Orbifolds and Orientifolds*, JHEP 0207 (2002) 031 \[<a href="https://arxiv.org/abs/hep-th/0203134">arXiv:hep-th/0203134</a>\]
 
 * E. M. Sahraoui, E. H. Saidi, _Metric Building of pp Wave Orbifold Geometries_, Phys.Lett. B558 (2003) 221-228 ([arXiv:hep-th/0210168](https://arxiv.org/abs//hep-th/0210168))
 
