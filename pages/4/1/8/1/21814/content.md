@@ -131,6 +131,11 @@ On defect branes in [[D=4 N=4 SYM]] via [[AdS/CFT]]:
 
 * Hongliang Jiang, [[Arkady A. Tseytlin]], *On co-dimension 2 defect anomalies in $\mathcal{N}=4$ SYM and $(2,0)$ theory via brane probes in AdS/CFT* &lbrack;[arXiv:2402.07881](https://arxiv.org/abs/2402.07881)&rbrack;
 
+See also:
+
+* [[Ashoke Sen]]: *Exotic Branes and Symmetries of String Theory* &lbrack;[arXiv:2512.19068](https://arxiv.org/abs/2512.19068)&rbrack;
+
+
 
 
 [[!redirects defect branes]]
