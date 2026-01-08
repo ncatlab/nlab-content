@@ -20,9 +20,9 @@ Given a [[submersion]] $p\colon E\to B$, one may ask: which [[differential forms
 
 If the [[fibers]] of $p$ are [[connected topological space|connected]] (otherwise the characterization given below is valid only locally in $E$), the answer is provided by the notion of a __basic form__: a differential form $\omega$ is basic if the following two conditions are met:
 
-* (1.) The [[tensor contraction|contraction]] of $\omega$ with any $p$-[[vertical vector field]] is [[zero]].
+1. The [[tensor contraction|contraction]] of $\omega$ with any $p$-[[vertical vector field]] is [[zero]] (i.e.: $\omega$ is [[horizontal differential form|horizontal]]),
 
-* (2.) The [[Lie derivative]] of $\omega$ with respect to any $p$-[[vertical vector field]] is [[zero]].
+1. the [[Lie derivative]] of $\omega$ with respect to any $p$-[[vertical vector field]] is [[zero]].
 
 Using [[Cartan's magic formula]], in the presence of the first condition, the second condition is equivalent to the following one:
 
