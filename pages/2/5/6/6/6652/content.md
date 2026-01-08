@@ -68,6 +68,10 @@ On [[string field theory]]:
 
 * [[Ashoke Sen]], [[Barton Zwiebach]]: *String Field Theory: A Review*, in *[[Handbook of Quantum Gravity]]*, Springer (2023-) &lbrack;[arXiv:2405.19421](https://arxiv.org/abs/2405.19421), [doi:10.1007/978-981-19-3079-9](https://doi.org/10.1007/978-981-19-3079-9)&rbrack;
 
+On [[defect branes]] and other [[exotic branes]]:
+
+* [[Ashoke Sen]]: *Exotic Branes and Symmetries of String Theory* &lbrack;[arXiv:2512.19068](https://arxiv.org/abs/2512.19068)&rbrack;
+
 
 
 ## Related entries
