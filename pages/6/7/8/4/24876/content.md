@@ -78,7 +78,7 @@ On the [[quantum Fourier transform]] with qdits:
 
 and its applications to [[arithmetic]] [[quantum algorithms]]:
 
-* Archimedes Pavlidis, Emmanuel Floratos: *Quantum-Fourier-transform-based quantum arithmetic with qudits*, Phys. Rev. A **103** (2021) 032417 &lbrack;[doi:10.1103/PhysRevA.103.032417](https://doi.org/10.1103/PhysRevA.103.032417)&rbrack;
+* Archimedes Pavlidis, [[Emmanuel Floratos]]: *Quantum-Fourier-transform-based quantum arithmetic with qudits*, Phys. Rev. A **103** (2021) 032417 &lbrack;[doi:10.1103/PhysRevA.103.032417](https://doi.org/10.1103/PhysRevA.103.032417)&rbrack;
 
 
 
