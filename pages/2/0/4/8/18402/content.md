@@ -46,7 +46,7 @@ $$
 
 Hence for $C \subset X$ a [[compact topological space|compact]], the [[extreme value theorem]] implies that this function attains its [[minimum]]. 
 
-This implies that for every $y \in \mathbb{R}$ with $f(x_{min}) \lt y \lt f(x_{max})$ there exists $t \in \mathbb{R}$ such that the [[flow of a vector field|flow]] $\phi_{\nabla f}$ along $\nabla f$ satisfies $\phi_{\nabla f}(x,t) \geq y$ for all $x \in \partial B$. In particular this is the case for $y$ the maximum of $f|_{C}$. This implies that $C$ is contained in the image of $B$ under some flow of $\nabla f$. But this image is, by the nature of the flow, diffeomorphic to a Euclidean ball. 
+This implies that for every $y \in \mathbb{R}$ with $f(x_{min}) \lt y \lt f(x_{max})$ there exists $t \in \mathbb{R}$ such that the [[flow of a vector field|flow]] $\phi_{\nabla f}$ along $\nabla f$ satisfies $f(\phi_{\nabla f}(x,t)) \geq y$ for all $x \in \partial B$. In particular this is the case for $y$ the maximum of $f|_{C}$. This implies that $C$ is contained in the image of $B$ under some flow of $\nabla f$. But this image is, by the nature of the flow, diffeomorphic to a Euclidean ball. 
 
 In conclusion this shows that every compact subspace of $X$ is contained in an open subspace diffeomorphic to a Euclidean ball. With this the claim follows by the [[Brown-Stallings lemma]].
 
