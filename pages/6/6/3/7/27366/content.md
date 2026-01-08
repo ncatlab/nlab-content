@@ -1263,7 +1263,7 @@ On (invertibility in) the [[group algebra]]:
 
 On the [[representation theory]] with an eye towards [[quantum information theory]]:
 
-* {#FloratosTsohantjis22} E. Floratos, I. Tsohantjis: *Complete set of unitary irreps of Discrete Heisenberg Group $H W_{2^s}$* &lbrack;[arXiv:2210.04263](https://arxiv.org/abs/2210.04263)&rbrack;
+* {#FloratosTsohantjis22} [[Emmanuel G. Floratos]], I. Tsohantjis: *Complete set of unitary irreps of Discrete Heisenberg Group $H W_{2^s}$*, Int. J. Theor. Phys. **64** 2 (2025) 22 &lbrack;[arXiv:2210.04263](https://arxiv.org/abs/2210.04263), [doi:10.1007/s10773-025-05888-9](https://doi.org/10.1007/s10773-025-05888-9)&rbrack;
 
 On the [[automorphism group]]:
 
