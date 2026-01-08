@@ -62,8 +62,12 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 Introduction and overview:
 
-* O. Babelon, D. Bernard, M. Talon: _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
-* V.E. Korepin, N. M. Bogoliubov, A. G. Izergin, _Quantum inverse scattering method and correlation functions_, Cambridge Univ. Press 1997.
+* O. Babelon, D. Bernard, M. Talon: _Introduction to classical integrable systems_, Cambridge Univ. Press (2003)
+
+* Maciej Dunajski: *Integrable Systems* &lbrack;[arXiv:2601.04077](https://arxiv.org/abs/2601.04077)&rbrack;
+
+
+* V.E. Korepin, N. M. Bogoliubov, A. G. Izergin: _Quantum inverse scattering method and correlation functions_, Cambridge Univ. Press (1997)
 
 * Wikipedia, [Integrable system](http://en.wikipedia.org/wiki/Integrable_system) 
 
