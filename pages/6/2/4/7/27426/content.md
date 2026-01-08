@@ -35,7 +35,7 @@ The original articles:
 
 * {#Fulling73} Stephen A. Fulling: *Nonuniqueness of Canonical Field Quantization in Riemannian Space-Time*, Phys. Rev. D **7** (1973) 2850 &lbrack;[doi:10.1103/PhysRevD.7.2850](https://doi.org/10.1103/PhysRevD.7.2850)&rbrack;
 
-* W. G. Unruh: *Notes on black-hole evaporation*, Phys. Rev. D **14** (1976) 870 &lbrack;[doi;10.1103/PhysRevD.14.870](https://doi.org/10.1103/PhysRevD.14.870)&rbrack;
+* [[William G. Unruh]]: *Notes on black-hole evaporation*, Phys. Rev. D **14** (1976) 870 &lbrack;[doi;10.1103/PhysRevD.14.870](https://doi.org/10.1103/PhysRevD.14.870)&rbrack;
 
 
 Review:
