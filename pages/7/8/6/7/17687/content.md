@@ -1,5 +1,6 @@
-
-# Inferior and superior limits
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
