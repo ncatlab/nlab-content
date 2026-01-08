@@ -866,7 +866,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The functor $i \colon S \to E$ is clerly [[essentially surjective functor|essentially surjective]] (every connected component of $E$ has a homotopy fiber under its map to $\mathbf{B}G$). This implies that $E$ is presented by 
+The functor $i \colon S \to E$ is clearly [[essentially surjective functor|essentially surjective]] (every connected component of $E$ has a homotopy fiber under its map to $\mathbf{B}G$). This implies that $E$ is presented by 
 
 $$
   E_\bullet \coloneqq (S \underset{E}{\times}S \stackrel{\overset{p_1}{\longrightarrow}}{\underset{p_2}{\longrightarrow}} S)
