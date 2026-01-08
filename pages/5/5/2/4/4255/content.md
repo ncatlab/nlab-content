@@ -24,10 +24,14 @@ On [[configuration spaces of points]]:
 
 * [[Dusa McDuff]]: *Configuration Spaces*, in: *K-Theory and Operator Algebras*, Lecture Notes in Mathematics **575** Springer (1977) 88-95 &lbrack;[doi:10.1007/BFb0095704](https://doi.org/10.1007/BFb0095704), [[McDuff-ConfigSpaces1977.pdf:file]]&rbrack;
 
+On [[volume-preserving diffeomorphisms]] of [[Cartesian spaces]]:
+
+* [[Dusa McDuff]]: *On the Group of Volume-Preserving Diffeomorphisms of $\mathbf{R}^n$*, Transactions of the AMS **261** 1 (1980) &lbrack;[doi:10.1090/S0002-9947-1980-0576866-3](https://doi.org/10.1090/S0002-9947-1980-0576866-3)&rbrack;
+
 
 On [[symplectic topology]]:
 
-* [[Dusa McDuff]], [[Dietmar Salamon]], _Introduction to symplectic topology_, 2 ed. Oxford Mathematical Monographs 1998. x+486 pp.
+* [[Dusa McDuff]], [[Dietmar Salamon]], _Introduction to symplectic topology_, 2 ed. Oxford Mathematical Monographs (1998)
 
 * [[Dusa McDuff]], [[Dietmar Salamon]], _J-holomorphic curves
 and quantum cohomology_, AMS, University Lecture Series __6__, 1994 ([revised pdf](http://www.barnard.edu/math/mcduff/survey/6manjl26.pdf) [1995 pdf](http://barnard.edu/sites/default/files/inline/jholsm_0.pdf))
