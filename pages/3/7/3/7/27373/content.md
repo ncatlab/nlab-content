@@ -75,6 +75,8 @@ See also:
 
 Identification of the long-[[wavelength]] limit of the [GMP mode](Laughlin+wavefunction#GMPExcitationsOfLaughlinStates) and its [[superpartner]] with an effective (massive, chiral) [[graviton]] and [[gravitino]] mode (on [[Brillouin torus|momentum space]]):
 
+* Bo Yang, Zi-Xiang Hu, Z. Papic, [[F. Duncan M. Haldane]]: *Model Wavefunctions for the Collective Modes and the Magneto-roton Theory of the Fractional Quantum Hall Effect*, Phys. Rev. Lett. **108** (2012) 256807 \[<a href="https://doi.org/10.1103/PhysRevLett.108.256807">doi:10.1103/PhysRevLett.108.256807</a>, [arXiv:1201.4165](https://arxiv.org/abs/1201.4165)\]
+
 * [[F. Duncan M. Haldane]]: *Majorana Physics, Neutral Fermion modes, and a "Gravitino", in the Moore-Read Fractional Quantum Hall State*, talk at *Majorana Physics in Condensed Matter*, Ettore Majorana Center, Erice Italy (July 12-18, 2013) $[$[pdf](https://haldane.scholar.princeton.edu/sites/g/files/toruqf2976/files/documents/erice.pdf)\]
 
 * [[F. Duncan M. Haldane]]: *Geometrical Description of the Fractional Quantum Hall Effect*, Phys. Rev. Lett. **123**  (2019) 146801 \[<a href="https://doi.org/10.1103/PhysRevLett.107.116801">doi:10.1103/PhysRevLett.107.116801</a>, [arXiv:1904.12231](https://arxiv.org/abs/1904.12231)\]
