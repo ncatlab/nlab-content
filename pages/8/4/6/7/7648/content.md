@@ -176,6 +176,8 @@ On the [[Tannaka duality]] of C-star weak Hopf algebras:
 
 * {#VV20} Leonid Vainerman, Jean-Michel Vallin. *Classifying (weak) coideal subalgebras of weak Hopf C-star-algebras.* Journal of Algebra 550 (2020): 333-357. ([doi](https://doi.org/10.1016/j.jalgebra.2019.12.026)).
 
+* Daniel Rogalski, Robert Won, James J. Zhang, _Homological integrals for weak Hopf algebras_, J. Algebra
+__692__, (2026) 173--204 [doi](https://doi.org/10.1016/j.jalgebra.2025.12.009)
 
 category: algebra
 
@@ -183,5 +185,6 @@ category: algebra
 
 [[!redirects weak Hopf algebra]]
 [[!redirects weak Hopf algebras]]
+
 
 
