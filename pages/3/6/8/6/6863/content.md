@@ -68,6 +68,10 @@ On [[gauged supergravity|gauged]] [[D=4 N=8 supergravity]]:
 
 * [[Bernard de Wit]]. [[Hermann Nicolai]], _$N = 8$ supergravity_,  Nucl. Phys. B208 (1982) 323 (<a href="https://doi.org/10.1016/0550-3213(82)90120-1">doi:10.1016/0550-3213(82)90120-1</a>)
 
+On [[area-preserving diffeomorphisms]] in the [[supermembrane]] ([[M2-brane]]) [[sigma-model]]:
+
+* [[Bernard de Wit]], U. Marquard, [[Hermann Nicolai]]: *Area-preserving diffeomorphisms and supermembrane Lorentz invariance*,  Commun. Math. Phys. **128** (1990) 39–62 \[<a href="https://doi.org/10.1007/BF02097044">doi:10.1007/BF02097044</a>, [inSpire:277216](https://inspirehep.net/literature/277216)\]
+
 
 
 On [[D=3 supergravity]]:
