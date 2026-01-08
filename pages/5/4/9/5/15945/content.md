@@ -103,7 +103,7 @@ There are indeed also the correct external [[(∞,1)-colimits]] and [[(∞,1)-li
 ### Borel construction and homotopy-quotients, -invariants, -coinvariants
  {#BorelConstructionHomotopyQuotients}
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $G$ an [[∞-group]] object, consider $X = \mathbf{B}G$ its [[delooping]]. Externally this is in general highly non-discrete, but internally this, being $\infty$-groupoidal, is a disrete diagram shape.
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $G$ an [[∞-group]] object, consider $X = \mathbf{B}G$ its [[delooping]]. Externally this is in general highly non-discrete, but internally this, being $\infty$-groupoidal, is a discrete diagram shape.
 
 An [[internal diagram]] of this shape
 
