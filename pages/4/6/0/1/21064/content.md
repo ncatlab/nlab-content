@@ -4,18 +4,19 @@
 
 The [[Poisson bracket]]-formulation of the [[classical mechanics|classical]] [[light-cone gauge]] [[Hamiltonian]] for the _[[bosonic modality|bosonic]]_ [[relativistic membrane]] and the corresponding matrix [[commutator]] regularization is due to:
 
-* {#Hoppe82} [[Jens Hoppe]], _Quantum theory of a massless relativistic surface and a two-dimensional bound state problem_, MIT 1982 ([dspace:1721.1/15717](http://hdl.handle.net/1721.1/15717), [[HoppeMembrane82.pdf:file]])
-
+* {#Hoppe82} [[Jens Hoppe]]: _Quantum theory of a massless relativistic surface and a two-dimensional bound state problem_, PhD thesis, MIT (1982) \[<a href="http://hdl.handle.net/1721.1/15717">hdl:1721.1/15717</a>, [[HoppeMembrane82.pdf:file]]\]
 
 Some exact solutions:
 
-* [[Jens Hoppe]], *Exact algebraic M(em)brane solutions* $[$[arXiv:2107.00569](https://arxiv.org/abs/2107.00569)$]$
+* [[Jens Hoppe]]: *Exact algebraic M(em)brane solutions*,     Asian J. Math. **26** 2 (2022) 253-256 \[<a href="https://doi.org/10.4310/AJM.2022.v26.n2.a4">doi:10.4310/AJM.2022.v26.n2.a4</a>, [arXiv:2107.00569](https://arxiv.org/abs/2107.00569)\]
 
-* [[Jens Hoppe]], *The fast non-commutative sharp drop* $[$[arXiv:2302.13146](https://arxiv.org/abs/2302.13146)$]$
+* [[Jens Hoppe]]: *The fast non-commutative sharp drop*, Physics Letters B **848** (2024) 138357 \[<a href="https://doi.org/10.1016/j.physletb.2023.138357">doi:10.1016/j.physletb.2023.138357</a>, [arXiv:2302.13146](https://arxiv.org/abs/2302.13146)\]
 
+Discussion of the residual (in [[light cone gauge]]) [[gauge symmetry]] of [[volume preserving diffeomorphism|area-preserving diffeomorphisms]]:
+
+* [[Emmanuel G. Floratos]], [[John Iliopoulos]]: *A note on the classical symmetries of the closed bosonic membranes*, Physics Letters B **201** 2 (1988) 237-240 \[<a href="https://doi.org/10.1016/0370-2693(88)90220-1">doi:10.1016/0370-2693(88)90220-1</a>\]
 
 On the regularized [[light-cone gauge quantization]] of the [[Green-Schwarz sigma model]] for the [[M2-brane]] on ([[super Minkowski spacetime|super]]) [[Minkowski spacetime]], yielding the [[BFSS matrix model]]:
-
 
 Original articles:
 
