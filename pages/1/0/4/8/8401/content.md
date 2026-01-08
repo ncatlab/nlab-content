@@ -17,6 +17,11 @@ Introducing [[general relativity]] (the modern theory of [[gravity]]):
 
 * [[Albert Einstein]], [[Marcel Grossmann]]: *Entwurf einer verallgemeinerten Relativitätstheorie und einer Theorie der Gravitation*, Teubner (1913) &lbrack;[[EinsteinGrossmann-Entwurf.pdf:file]]&rbrack;
 
+Discussion that later evolved into the idea of [[unimodular gravity]]:
+
+* [[Albert Einstein]]: *Spielen Gravitationsfelder im Aufbau der materiellen Elementarteilchen eine wesentliche Rolle?* Sitzungsber. Preuss. Akad. Wiss. Berlin (Math. Phys.) (1919) 349-356 &lbrack;[doi:10.1007/978-3-663-19510-8_10](https://doi.org/10.1007/978-3-663-19510-8_10)&rbrack;
+
+
 
 ### The 1919 eclipse
 
