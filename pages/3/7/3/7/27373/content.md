@@ -102,7 +102,7 @@ and explicit embedding of these phenomena into ([non-relativistic](supergravity#
 * Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
 
 * Yi-Hsien Du: *Chiral Graviton Theory of Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2509.04408">arXiv:2509.04408</a>\]
-  > (generalization to non-abelian Read-Rezayi states)
+  > (formulation via [[area-preserving diffeomorphisms]] and generalization to non-abelian Read-Rezayi states)
 
 
 
