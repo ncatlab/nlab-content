@@ -6,6 +6,8 @@
 
 ***
 
+**Internal formulation of $G$-invariant cocycles on a $G$-principal bundle.**
+
 {#Discussion} Consider:
 
 * $\mathbf{H}$ an $\infty$-topos,
@@ -222,7 +224,10 @@ and since pullbacks commute with products, the above pullback square is seen to 
 Finally, since $P \sslash G \,\simeq\, X$, this proves the claim.
 \end{proof}
 
+\linebreak
 
+
+**On the classical notion of basic forms on a principal bundle.**
 
 Consider 
 
