@@ -23,7 +23,11 @@ Prominent examples are *[[Calabi-Yau 3-folds]]*.
 
 [[!include low dimensional manifolds -- table]]
 
-Models: [[D=6 N=(2,0) SCFT]], [[D=6 N=(1,0) SCFT]]
+[[quantum field theories]] on 6-manifolds:
+
+* [[D=6 N=(2,0) SCFT]]
+
+* [[D=6 N=(1,0) SCFT]]
 
 ## References
 
