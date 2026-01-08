@@ -6,6 +6,7 @@
 > "The big international conference of $[$1974$]$ in 
 London was a turning point \[...\] Ellis' catalog well reflected the state  of theoretical confusion and general disarray in trying to  interpret the $e^+ e^-$ data. But in the midst of all of this was a  talk by [[John Iliopoulos]] (I think I was there too). With passionate zealotry, he laid out with great accuracy what we call  the [[standard model of particle physics|standard model]]. Everything was there: [[proton decay]], [[charm quark|charm]],  the GIM mechanism of course, [[QCD]], the $SU(2)\times U(1)$ [[electroweak  theory]], $SU(5)$ [[GUT|grand unification]], [[Higgs field|Higgs]], etc. It was all presented with absolute conviction and sounded at the time just a little mad, at least to me (I am a conservative)."
 
+
 ## Seleteced writings
 
 On [[gauge theory]]/[[Yang-Mills theory]]:
@@ -20,11 +21,15 @@ On [[gauge theory]] and the [[standard model of particle physics]]:
 
 * [[John Iliopoulos]]: *An introduction to gauge theories*, Academic Training Lectures, Geneva (1975) &lbrack;[cds:185945](https://cds.cern.ch/record/185945?ln=en), [pdf](https://cds.cern.ch/record/185945/files/CERN-76-11.pdf)&rbrack;
 
+On [[area-preserving diffeomorphisms]] in the [[M2-brane]] [[sigma-model]] (cf. *[M2-brane -- Light-cone quantization to the BFSS matrix model](M2-brane#LightConeQuantizationOfM2BranesToBFSSMatrixModel)*):
+
+* {#FloratosIliopoulos1988} [[Emmanuel G. Floratos]], [[John Iliopoulos]]: *A note on the classical symmetries of the closed bosonic membranes*, Physics Letters B **201** 2 (1988) 237-240 \[<a href="https://doi.org/10.1016/0370-2693(88)90220-1">doi:10.1016/0370-2693(88)90220-1</a>\]
+
 
 On the early history of the [[standard model of particle physics]]:
 
 * [[John Iliopoulos]]: *The rise of the Standard Model*, section 6 of: *Physics in the CERN theory division*, CHS-39, Geneva (1993) &lbrack;[cds:261679](https://cds.cern.ch/record/261679?ln=en), [pdf](https://cds.cern.ch/record/261679/files/CERN-CH-39.pdf)&rbrack;
-  > (and on early history of [[string theory]] in section 7)
+  > (and on the early history of [[string theory]] in section 7)
 
 
 * {#Iliopoulos16} [[John Iliopoulos]]: _The making of the standard theory_, Adv. Ser. Direct. High Energy Phys. **26** (2016) 29-59 &lbrack;[spire:1497884](http://inspirehep.net/record/1497884), [pdf](http://cds.cern.ch/record/2217096/files/9789814733519_0002.pdf)&rbrack;
