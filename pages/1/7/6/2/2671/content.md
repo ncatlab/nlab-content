@@ -77,6 +77,8 @@ So the [[configuration space]] of gravity on some $X$ is essentially the [[modul
 
 * [[Hořava–Lifshitz gravity]]
 
+* [[unimodular gravity]]
+
 * [[D=2 gravity]]
 
   * [[Liouville theory]]
