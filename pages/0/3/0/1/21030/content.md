@@ -115,7 +115,7 @@ See also
 
 * Yuhma Asano, Samuel Kováčic, Denjoe O'Connor, _The Confining Transition in the Bosonic BMN Matrix Model_ ([arXiv:2001.03749](https://arxiv.org/abs/2001.03749))
 
-* Minos Axenides, Emmanuel Floratos, Dimitrios Katsinis, Georgios Linardopoulos, *Cascade of instabilities in the classical limit of the BMN matrix model* ([arXiv:2109.01088](https://arxiv.org/abs/2109.01088))
+* Minos Axenides, [[Emmanuel Floratos]], Dimitrios Katsinis, Georgios Linardopoulos, *Cascade of instabilities in the classical limit of the BMN matrix model*, Phys. Rev. D **104** (2021) 106002 &lbrack;[arXiv:2109.01088](https://arxiv.org/abs/2109.01088), [doi:10.1103/PhysRevD.104.106002](https://doi.org/10.1103/PhysRevD.104.106002)&rbrack;
 
 * Shota Komatsu, Adrien Martina, João Penedones, Noé Suchel, Antoine Vuignier, Xiang Zhao, *Gravity from quantum mechanics of finite matrices* &lbrack;[arXiv:2401.16471](https://arxiv.org/abs/2401.16471)&rbrack;
 
