@@ -6,30 +6,218 @@
 
 ***
 
-[[11D Sugra on CY3 -- references]]
+{#Discussion} Consider:
 
-### KK-Reduction of 11D SuGra on $CY^3$s to 5D SuGra
- {#ReferencesReductionOf11DSugraOnCY3To5DSugra}
+* $\mathbf{H}$ an $\infty$-topos,
 
-Discussion of [[KK-compactification]] of [[D=11 supergravity]] on [[Calabi-Yau 3-folds]] to [[D=5 supergravity]] (cf. *[[M-theory on Calabi-Yau manifolds]]*):
+* $G \in Grp(\mathbf{H})$ an $\infty$-group,
 
-* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], p 30-31 of: _Unity of Superstring Dualities_, Nucl. Phys. B **438** (1995) 109-137 \[<a href="https://doi.org/10.1016/0550-3213(94)00559-W">doi:10.1016/0550-3213(94)00559-W</a>, [arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167)\]
+* $G \curvearrowright P \in G Act(\mathbf{H})$ an $\infty$-action,
 
-* [[George Papadopoulos]], [[Paul K. Townsend]]: *Compactification of $D=11$ supergravity on spaces of exceptional holonomy*, Phys. Lett. B **357** (1995) 300-306 \[<a href="https://doi.org/10.1016/0370-2693(95)00929-F">doi:10.1016/0370-2693(95)00929-F</a>, [arXiv:hep-th/9506150](https://arxiv.org/abs/hep-th/9506150)\]
+* $X \coloneqq P \sslash G$ its [[homotopy quotient]].
 
-* {#CadavidCeresoleDAuriaFerrara95} A. C. Cadavid, [[Anna Ceresole]], [[Riccardo D'Auria]], [[Sergio Ferrara]]: *11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds*, Phys. Lett. B **357** (1995) 76-80 \[<a href="https://doi.org/10.1016/0370-2693(95)00891-N">doi:10.1016/0370-2693(95)00891-N</a>, [arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144)\]
+Note that the quotient coprojection is a $G$-principal $\infty$-bundle:
 
-* {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], [[Ramzi R. Khuri]],  [[Ruben Minasian]]: _M-theory on a Calabi-Yau manifold_, Phys. Lett. B **375** (1996) 81-88 \[<a href="https://doi.org/10.1016/0370-2693(96)00270-5">doi:10.1016/0370-2693(96)00270-5</a>, [arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102)\]
+\begin{tikzcd}
+  G 
+  \ar[r]
+  &
+  P
+  \ar[d]
+  \\
+  {}
+  &
+  X
+\end{tikzcd}
 
-* [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]]: *Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds*, Nucl.Phys. B **474** (1996) 323-342 \[<a href="https://doi.org/10.1016/0550-3213(96)00268-4">doi:10.1016/0550-3213(96)00268-4</a>, [arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097)\]
+and every $G$-principal $\infty$-bundle is of this form (cf. [[schreiber:EPB]]v2 Prop. 1.2.1, [p. 15](https://ncatlab.org/schreiber/files/EquivariantInfinityBundles_251013.pdf#page=15)).
 
-* [[Andre Lukas]], [[Burt A. Ovrut]], [[Kellogg S. Stelle]], [[Daniel Waldram]]: *Heterotic M-theory in Five Dimensions*, Nucl. Phys. B **552** (1999) 246-290 \[<a href="https://doi.org/10.1016/S0550-3213(99)00196-0">doi:10.1016/S0550-3213(99)00196-0</a>, [arXiv:hep-th/9806051](https://arxiv.org/abs/hep-th/9806051)\]
-  > (for [[Hořava-Witten theory]])
 
-* {#Falkowski99} [[Adam Falkowski]], *Five dimensional locally supersymmetric theories with branes*, Master Thesis, Warsaw (1999?) $[$[[FalkowskiLecture.pdf:file]]\]
 
-* Jieming Lin, Torben Skrzypek, [[Kellogg S. Stelle]]: *Compactification on Calabi-Yau threefolds: Consistent truncation to pure supergravity*, J. High Energ. Phys. **2025** 200 (2025) \[<a href="https://doi.org/10.1007/JHEP03(2025)200">doi:10.1007/JHEP03(2025)200</a>, [arXiv:2412.00186](https://arxiv.org/abs/2412.00186)\]
+Further consider:
 
-See also: 
+* $\mathcal{A} \in \mathbf{H}$ any object,
 
-* {#MizoguchiOhta98} [[Shun'ya Mizoguchi]], Nobuyoshi Ohta: *More on the Similarity between $D=5$ Simple Supergravity and M Theory*, Phys. Lett. B **441** (1998) 123-132 \[<a href="https://doi.org/10.1016/S0370-2693(98)01122-8">doi:10.1016/S0370-2693(98)01122-8</a>, [arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111)\]
+  to be thought of as a moduli stack for some kind of structure, for instance for differential forms or differential cohomology,
+
+* $G \curvearrowright \mathcal{A} \coloneqq G \curvearrowright \ast \times \mathcal{A} \in G Act(\mathbf{H})$ its incarnation as a trivial $G$-action,
+
+* $G \curvearrowright [P, \mathcal{A}] \coloneqq  \big[G \curvearrowright P,\, G \curvearrowright \mathcal{A} \big] \in G Act(\mathbf{H})$ the internal hom of $G$-actions, being the mapping space $[P,\mathcal{A}]$ equipped with the induced conjugation action,
+
+* $[P, \mathcal{G}]^G$ its $G$-fixed locus
+
+(cf. [[schreiber:DCCT]]v1, Def. 3.6.232; [p. 339](https://arxiv.org/pdf/1310.7930v1#page=339);  [[schreiber:DCCT]]v2 Def. 5.1.278, [p. 443](https://ncatlab.org/schreiber/files/dcct170811.pdf#page=443)).
+
+**Claim:** We have a natural equivalence:
+
+$$
+  [P, \mathcal{A}]^G
+  \;\simeq\;
+  [X, \mathcal{A}]
+  \,.
+$$
+
+In words: "$G$-Invariant $\mathcal{A}$-cocycles on the total space $P$ of a $G$-principle bundle are equivalently plain $\mathcal{A}$-cocyles on the base space $X$."
+
+\begin{proof}
+
+Recall the equivalence ([[schreiber:EPB]]v2 Prop. 1.2.1, [p. 15](https://ncatlab.org/schreiber/files/EquivariantInfinityBundles_251013.pdf#page=15)):
+
+\begin{tikzcd}
+  G \mathrm{Act}(\mathbf{H})
+  \ar[r, "{ \sim }"]
+  &
+  \mathbf{H}_{/\mathbf{B}G}
+  \\[-40pt]
+  G \curvearrowright X
+  \ar[r, |->, shorten=4pt]
+  &
+  \big(
+    p_{X} \colon X /\!\!/ G \to \mathbf{B}G
+  \big)
+  \mathrlap{\,,}
+\end{tikzcd}
+
+under which forming fixed loci is right base change to the point: $(-)^G \leftrightarrow \prod_{\mathbf{B}G}$.
+
+Hence in our case:
+$$
+  [P,\mathcal{A}]^G
+  \;\;\leftrightarrow\;\;
+  \big[P \sslash G, \mathcal{A}\sslash G\big]_{\mathbf{B}G}
+  \,\coloneqq\,
+  \prod_{\mathbf{B}G}
+  \big[
+    p_P, p_{\mathcal{A}}
+  \big]
+  \mathrlap{\,.}
+$$
+
+
+Now observe that have have a pullback square of this form ([[schreiber:EPB]]v2 Lem. 4.2.69 with Def. 4.2.66, [p. 121](https://ncatlab.org/schreiber/files/EquivariantInfinityBundles_251013.pdf#page=121)):
+
+\begin{tikzcd}
+  \big[
+    P /\!\!/ G
+    ,\,
+   \mathcal{A} \times \mathbf{B}G
+  \big]_{ \mathbf{B}G }
+  \ar[r]
+  \ar[d]
+  \ar[dr, phantom, "{ \lrcorner }"{pos=.1}]
+  &
+  \big[
+    P /\!\!/ G
+    ,\,
+    \mathcal{A}\times \mathbf{B}G
+  \big]
+  \ar[
+    d,
+    "{ (\mathrm{pr}_2)_\ast }"
+  ]
+  \\
+  \ast
+  \ar[
+    r,
+    "{ \vdash \, p_{{}_P} }"
+  ]
+  &
+  \big[
+    P /\!\!/ G
+    ,\,
+   \mathbf{B}G
+  \big]
+  \mathrlap{\,,}
+\end{tikzcd}
+
+where we used in the top row that the $G$-action on $\mathcal{A}$ being trivial (by assumption) means equivalently that:
+
+\begin{tikzcd}
+  \mathcal{A} /\!\!/ G
+  \ar[rr, "{ \sim }"]
+  \ar[dr, "{ p_{\mathcal{A}} }"{swap}]
+  &[-40pt]&[-40pt]
+  \mathcal{A} \times \mathbf{B}G
+  \ar[dl, "{ \mathrm{pr}_2 }"]
+  \\[-10pt]
+  & 
+  \mathbf{B}G
+  \mathrlap{\,.}
+\end{tikzcd}
+
+But the internal hom $\big[-,-\big]$ preserves limits in its second argument, whence
+
+$$
+  \big[
+    P \sslash G 
+    ,\,
+    \mathcal{A} \times \mathbf{B}G
+  \big]
+  \,\simeq\,
+  \big[
+    P \sslash G 
+    ,\,
+    \mathcal{A}
+  \big]
+    \times
+  \big[
+    P \sslash G 
+    ,\,
+    \mathbf{B}G
+  \big]  
+  \,,
+$$
+
+and since pullbacks commute with products, the above pullback square is seen to be equivalent to:
+
+
+\begin{tikzcd}
+  \big[
+    P /\!\!/ G
+    ,\,
+   \mathcal{A}
+  \big]
+  \times
+  \ast
+  \ar[r]
+  \ar[
+    d,
+    "{ p \,\times\, \mathrm{id} }"
+  ]
+  \ar[dr, phantom, "{ \lrcorner }"{pos=.1}]
+  &
+  \big[
+    P /\!\!/ G
+    ,\,
+   \mathcal{A}
+  \big]
+  \times
+  \big[
+    P /\!\!/ G
+    ,\,
+   \mathbf{B}G
+  \big]
+  \ar[
+    d,
+    "{ p \,\times\, \mathrm{id} }"
+  ]
+  \\
+  \ast
+  \times \ast
+  \ar[
+    r,
+    "{ \mathrm{id} \,\times\, \vdash \, p_{{}_P} }"
+  ]
+  &
+  \ast 
+  \times
+  \big[
+    P /\!\!/ G
+    ,\,
+   \mathbf{B}G
+  \big]
+  \mathrlap{\,.}
+\end{tikzcd}
+
+Finally, since $P \sslash G \,\simeq\, X$, this proves the claim.
+\end{proof}
