@@ -221,3 +221,54 @@ and since pullbacks commute with products, the above pullback square is seen to 
 
 Finally, since $P \sslash G \,\simeq\, X$, this proves the claim.
 \end{proof}
+
+
+
+Consider 
+
+$G$ a Lie-group
+
+$M$ a smooth real manifold
+
+$P$ a $G$-principal bundle
+
+$\Omega^n(M)$ and $\Omega^n(P)$  the n-th degree of the Kähler differentials of $M$ and $P$ respectively.
+
+$C^{\infty}(M)$ and $C^{\infty}(P)$ the topological $\mathbb{R}$-algebra of smooth real valued functions on $M$ and $P$ respectively.
+
+
+\begin{center}
+\begin{tikzcd}
+\Omega^{n+1}(M) \arrow[rr] \arrow[rrdd] \arrow[rrrr, "\Omega^{n+1}(\pi)", bend left]                            &  & \Omega^{n+1}(P)^G \arrow[rr]                  &  & \Omega^{n+1}(P)                  \\
+                                                                                                                &  &                                               &  &                                  \\
+\Omega^{n}(M) \arrow[uu, "d"'] \arrow[rr] \arrow[rrrr, "\Omega^{n}(\pi)"', bend right, shift left] \arrow[rrdd] &  & \Omega^{n}(P)^G \arrow[uu, "d^G"'] \arrow[rr] &  & \Omega^{n}(P) \arrow[uu, "d"']   \\
+                                                                                                                &  &                                               &  &                                  \\
+\Omega^{n-1}(M) \arrow[uu, "d"'] \arrow[rr] \arrow[rrrr, "\Omega^{n-1}(\pi)"', bend right]                      &  & \Omega^{n-1}(P) \arrow[uu, "d^G"'] \arrow[rr] &  & \Omega^{n-1}(P) \arrow[uu, "d"']
+\end{tikzcd}
+\end{center}
+
+
+
+$G$ acts on each component of $\Omega^n(P)$ to produce $\Omega^n(P)^G$. Pullback produces a map $\Omega^n(M) \rightarrow \Omega^n(P)^G$, and $\Omega^*(P)^G$ is notation for $\Omega^*(P)^G$ in each grade.
+
+I see how this works for $C^{\infty}(-)$ as the choice of $\mathcal{A}$ is clear, but not for $\Omega^*(P)^G$ since the fixed object is constructed separately in each grade. 
+
+I was hoping a certain enhancement of the result in the sandbox generalizes to any smooth $\infty$-topos, one which connects to that theorem but which is about the chain-homotopy-contractible property of vertical forms.
+
+Basic forms are equivalently those such that 
+
+$\iota_{\xi^{\#}} \omega = 0 \forall \xi \in \mathfrak{g}$
+
+and this gets used to construct a chain homotopy, but a smooth $\infty$-groupoid should have a chain homotopy equivalence of some kind there as well. I imagine locally it would be something like this:
+
+$\Omega^*(X \times G)^G$ is chain homotopy equivalent for $\Omega^*(X)$ any smooth $\infty$-group $G$ and any smooth manifold $X$.
+
+* $\Omega^*(-)$ may be $[-,\mathcal{A}]$ for some $\mathcal{A}$ 
+
+*  $\mathbb{R}$ is an internal abelian group. I think they have a tensor product and a notion of $\Lambda^*$.
+
+* $\Omega^*$ is formed for the internal $\mathbb{R}$-module objects.
+
+* $G$ is as in one side of the recognition principal you extended to $C^{\infty}(-)$, an $\infty$-group
+
+It seems like locally one would have a nice theorem like $\Omega^*(X \times G)^G \simeq \Omega^*(X)$ (chain homotopy equivalence involving a generalization of $\iota_{\xi^{\#}}$).
