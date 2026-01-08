@@ -59,7 +59,7 @@ Understanding [[super p-brane]]-species as classified by the [[Lie algebra cohom
 
 * {#AzcarragaTownsend89} [[José de Azcárraga]], [[Paul Townsend]]: *Superspace geometry and the classification of supersymmetric extended objects*, Physical Review Letters **62** 22 (1989) &lbrack;[doi:10.1103/PhysRevLett.62.2579](https://doi.org/10.1103/PhysRevLett.62.2579), [spire:284635](http://inspirehep.net/record/284635)&rbrack;
 
-On [[volume]]-preserving [[diffeomorphism]] [[gauge symmetry]] in the [[light cone gauge quantization]] of [[super p-branes]] (in higher dimensional generalization of the area-preserving diffeos of the [[M2-brane]] [[sigma-model]]):
+On [[volume-preserving diffeomorphism]] [[gauge symmetry]] in the [[light cone gauge quantization]] of [[super p-branes]] (in higher dimensional generalization of the [[area-preserving diffeomorphisms]] of the [[M2-brane]] [[sigma-model]]):
 
 * [[Eric Bergshoeff]], [[Ergin Sezgin]], Y. Tanii, [[Paul K. Townsend]]: *Super $p$-branes as gauge theories of volume preserving diffeomorphisms*, Annals of Physics **199** 2 (1990) 340-365 \[<a href="https://doi.org/10.1016/0003-4916(90)90381-W">doi:10.1016/0003-4916(90)90381-W</a>\]
 
