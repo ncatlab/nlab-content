@@ -1,11 +1,17 @@
 
-* [website](http://www.e.kth.se/~hoppe/)
+* [personal page](http://www.e.kth.se/~hoppe/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=152973)
+
+* [inSpire page](https://inspirehep.net/authors/1028260)
 
 ## Selected writings
 
 Introducing the [[Poisson bracket]]-formulation of the [[classical mechanics|classical]] [[light-cone gauge]] [[Hamiltonian]] for the _[[bosonic modality|bosonic]]_ [[relativistic membrane]] and the corresponding matrix [[commutator]] regularization:
 
-* [[Jens Hoppe]], _Quantum theory of a massless relativistic surface and a two-dimensional bound state problem_, MIT 1982 ([dspace:1721.1/15717](http://hdl.handle.net/1721.1/15717), [[HoppeMembrane82.pdf:file]])
+* {#Hoppe82} [[Jens Hoppe]]: _Quantum theory of a massless relativistic surface and a two-dimensional bound state problem_, PhD thesis, MIT (1982) \[<a href="http://hdl.handle.net/1721.1/15717">hdl:1721.1/15717</a>, [[HoppeMembrane82.pdf:file]]\]
+
+
 
 On the regularized [[quantization]] of the [[supermembrane]] (the [[kappa-symmetry|kappa-symmetric]] [[Green-Schwarz sigma-model]] for the [[M2-brane]]) to the [[BFSS matrix model]]:
 
@@ -17,12 +23,11 @@ On the [[BMN matrix model]]:
 
 * [[Jens Hoppe]]. Ki-Myeong Lee, _New BPS Configurations of BMN Matrix Theory_, JHEP 0806:041, 2008 ([arXiv:0712.3616](https://arxiv.org/abs/0712.3616))
 
-On exact solutions to the (regularized) bosonic [[membrane]]/[[M2-brane]] model:
+On exact solutions to the (regularized) bosonic [[membrane]]/[[M2-brane]] [[sigma-model]]:
 
+* [[Jens Hoppe]]: *Exact algebraic M(em)brane solutions*,     Asian J. Math. **26** 2 (2022) 253-256 \[<a href="https://doi.org/10.4310/AJM.2022.v26.n2.a4">doi:10.4310/AJM.2022.v26.n2.a4</a>, [arXiv:2107.00569](https://arxiv.org/abs/2107.00569)\]
 
-* [[Jens Hoppe]], *Exact algebraic M(em)brane solutions* &lbrack;[arXiv:2107.00569](https://arxiv.org/abs/2107.00569)&rbrack;
-
-* [[Jens Hoppe]], *The fast non-commutative sharp drop* &lbrack;[arXiv:2302.13146](https://arxiv.org/abs/2302.13146)&rbrack;
+* [[Jens Hoppe]]: *The fast non-commutative sharp drop*, Physics Letters B **848** (2024) 138357 \[<a href="https://doi.org/10.1016/j.physletb.2023.138357">doi:10.1016/j.physletb.2023.138357</a>, [arXiv:2302.13146](https://arxiv.org/abs/2302.13146)\]
 
 
 
