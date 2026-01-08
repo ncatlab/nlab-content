@@ -16,6 +16,10 @@ Early discussion of [[U-duality]]-covariant [[D=11 supergravity]] (later: "[[exc
 
 * [[Bernard de Wit]], [[Hermann Nicolai]]: _Local SU(8) invariance in $d = 11$ supergravity_, talk at *[Nuffield Workshop on Supersymmetry and its Applications](https://inspirehep.net/conferences/966045)*, 0357 &lbrack;[spire:218601](http://inspirehep.net/record/218601)&rbrack;
 
+On [[area-preserving diffeomorphisms]] in the [[supermembrane]] ([[M2-brane]]) [[sigma-model]]:
+
+* [[Bernard de Wit]], U. Marquard, [[Hermann Nicolai]]: *Area-preserving diffeomorphisms and supermembrane Lorentz invariance*,  Commun. Math. Phys. **128** (1990) 39–62 \[<a href="https://doi.org/10.1007/BF02097044">doi:10.1007/BF02097044</a>, [inSpire:277216](https://inspirehep.net/literature/277216)\]
+
 
 On the regularized [[quantization]] of the [[supermembrane]] (the [[kappa-symmetry|kappa-symmetric]] [[Green-Schwarz sigma-model]] for the [[M2-brane]]) to the [[BFSS matrix model]]:
 
