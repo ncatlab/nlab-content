@@ -365,7 +365,7 @@ On [[loop quantum gravity]] and quantum [[Riemannian geometry]]:
 
 \linebreak
 
-An introduction to Unimodular [[gravity]] at the classical and quantum level and applications to the [[cosmological constant]] problem:
+An introduction to [[unimodular gravity]] at the classical and quantum level and applications to the [[cosmological constant]] problem:
 
 * Enrique Álvarez, Eduardo Velasco-Aja, *A Primer on Unimodular Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.07641](https://arxiv.org/abs/2301.07641)&rbrack;
 
