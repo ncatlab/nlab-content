@@ -18,7 +18,7 @@
 
 A [[diffeomorphism]] $\phi \colon X \longrightarrow X$ of a ([[pseudo-Riemannian manifold|pseudo]]-) [[Riemannian manifold]] $X$ is *volume preserving* if its [[pullback of differential forms]] fixes the [[volume form]]: $\phi^\ast vol = vol$.
 
-If the [[dimension of a manifold|dimensio]] is $dim(X) = 2$, then one also speaks of *area-preserving diffeomorphisms*.
+If the [[dimension of a manifold|dimension]] is $dim(X) = 2$, then one also speaks of *area-preserving diffeomorphisms*.
 
 Volume-preserving diffeomorphisms appear: 
 
