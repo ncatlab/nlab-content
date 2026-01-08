@@ -16,6 +16,9 @@ Discussion of the residual (in [[light cone gauge]]) [[gauge symmetry]] of [[vol
 
 * [[Emmanuel G. Floratos]], [[John Iliopoulos]]: *A note on the classical symmetries of the closed bosonic membranes*, Physics Letters B **201** 2 (1988) 237-240 \[<a href="https://doi.org/10.1016/0370-2693(88)90220-1">doi:10.1016/0370-2693(88)90220-1</a>\]
 
+* [[Bernard de Wit]], U. Marquard, [[Hermann Nicolai]]: *Area-preserving diffeomorphisms and supermembrane Lorentz invariance*,  Commun. Math. Phys. **128** (1990) 39–62 \[<a href="https://doi.org/10.1007/BF02097044">doi:10.1007/BF02097044</a>, [inSpire:277216](https://inspirehep.net/literature/277216)\]
+
+
 On the regularized [[light-cone gauge quantization]] of the [[Green-Schwarz sigma model]] for the [[M2-brane]] on ([[super Minkowski spacetime|super]]) [[Minkowski spacetime]], yielding the [[BFSS matrix model]]:
 
 Original articles:
@@ -28,23 +31,22 @@ Observation that the spectrum is continuous:
 
 Review:
 
-* {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In: _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ (1998) 29-74 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103), [spire:476366](http://inspirehep.net/record/476366))
+* {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In: _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ (1998) 29-74 \[<a href="http://arxiv.org/abs/hep-th/9809103"></a>, [spire:476366](http://inspirehep.net/record/476366)\]
   
-* [[Jens Hoppe]], _Membranes and Matrix Models_ \[<a href="https://arxiv.org/abs/hep-th/0206192">arXiv:hep-th/0206192</a>\]
+* [[Jens Hoppe]]: _Membranes and Matrix Models_ \[<a href="https://arxiv.org/abs/hep-th/0206192">arXiv:hep-th/0206192</a>\]
 
 * {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], *An Introduction to the Quantum Supermembrane*, Grav. Cosmol. **8** 1 (2002) and Rev. Mex. Fis. 49S1 (2003) 1-10 \[<a href="http://arxiv.org/abs/hep-th/0201182">arXiv:hep-th/0201182</a>, [spire:582067](https://inspirehep.net/literature/582067)\]
 
-* [[Gijs van den Oord]], _On Matrix Regularisation of Supermembranes_ MSc thesis (2006) ([[vdOoord-Supermembranes.pdf:file]])
+* [[Gijs van den Oord]]: *On Matrix Regularisation of Supermembranes*, MSc thesis (2006) $[$[[vdOoord-Supermembranes.pdf:file]]\]
 
-* [[Meer Ashwinkumar]], [[Lennart Schmidt]], [[Meng-Chwan Tan]], Section 2 of: _Matrix Regularization of Classical Nambu Brackets and Super $p$-Branes_ ([arXiv:2103.06666](https://arxiv.org/abs/2103.06666))
+* [[Meer Ashwinkumar]], [[Lennart Schmidt]], [[Meng-Chwan Tan]], Section 2 of: _Matrix Regularization of Classical Nambu Brackets and Super $p$-Branes_ \[<a href="https://arxiv.org/abs/2103.06666">arXiv:2103.06666</a>\]
 
 
 The generalization to [[pp-wave spacetimes]] (leading to the [[BMN matrix model]]):
 
-* {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], Section 2 of: _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
+* {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], Section 2 of: _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056 (2002) \[<a href="https://doi.org/10.1088/1126-6708/2002/05/056">doi:10.1088/1126-6708/2002/05/056</a>, [arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185)\]
 
-* {#DSJVR02} [[Keshav Dasgupta]], [[Mohammad Sheikh-Jabbari]], [[Mark Van Raamsdonk]], Section 2 of: _Matrix Perturbation Theory For M-theory On a PP-Wave_, JHEP 0205:056, 2002 ([arXiv:hep-th/0205185](https://arxiv.org/abs/hep-th/0205185))
-
+*
 
 See also
 
