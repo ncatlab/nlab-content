@@ -23,13 +23,13 @@ If the [[dimension of a manifold|dimension]] is $dim(X) = 2$, then one also spea
 
 Volume preserving diffeomorphisms form a [[subgroup]] of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$.
 
-Volume-preserving diffeomorphisms appear: 
+In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear: 
 
 * as the [[gauge symmetries]] of *[[unimodular gravity]]*, 
 
 * as residual [[gauge symmetries]] of relativistic [[brane]] [[sigma models]] after [[light cone gauge]]-[[gauge fixing|fixing]] (cf. [below](#ReferencesAsSymmetriesOfBraneDynamics)),
 
-* as symmetries of effective descriptions of [[fractional quantum Hall systems]] (cf. [below](#ReferencesAsSymmetriesOfFQHSystems)).
+* as symmetries of [[effective field theory|effective]] descriptions of [[fractional quantum Hall systems]] (cf. [below](#ReferencesAsSymmetriesOfFQHSystems)).
 
 
 
