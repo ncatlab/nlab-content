@@ -39,7 +39,7 @@ is an isomorphism.
 
   See also [[closed monoidal structure on presheaves]].
 
-* [[Cat]] is also cartesian closed. (Cf. e.g. p. 98 of [[Categories Work|Mac Lane]], 2nd ed.)
+* [[Cat]] is also cartesian closed. (Cf. e.g. p. 98 of [[Categories Work|Mac Lane]], 2nd ed., or the remark below Definition 4.3.9 in [[Category Theory in Context|Riehl]].)
 
 * Many [[nice category of spaces|nice categories of topological spaces]] are also cartesian closed, particularly the [[convenient category of topological spaces|convenient categories of spaces]].
 
@@ -222,7 +222,7 @@ It is straightforward to check that $\tilde{F}$ is a cartesian closed functor an
 ## References
 
 
-* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §IV.2 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
+* {#EilenbergKelly65} [[Samuel Eilenberg]], [[G. Max Kelly]],  §IV.2 of: *Closed Categories*, in: *[[Proceedings of the Conference on Categorical Algebra - La Jolla 1965]]*, Springer (1966) 421-562 &lbrack;[doi:10.1007/978-3-642-99902-4](https://doi.org/10.1007/978-3-642-99902-4)&rbrack;
 
 
 Textbook accounts:
@@ -238,7 +238,7 @@ Discussion with focus on [[mapping spaces]] ([[compact-open topology]]) in [[top
 
 * [[Susan Niefield]], *Cartesianness*, PhD thesis, Rutgers 1978 ([proquest:302920643](https://www.proquest.com/docview/302920643))
 
-* [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces and affine schemes_, J. Pure Appl. Algebra __23__ (<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi:10.1016/0022-4049(82)90004-4</a>)
+* [[Susan Niefield]], _Cartesianness: topological spaces, uniform spaces and affine schemes_, J. Pure Appl. Algebra __23__ (1982) 147-167 (<a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi:10.1016/0022-4049(82)90004-4</a>)
 
 See also the references at *[[exponential object]]*.
 
