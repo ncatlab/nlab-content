@@ -29,7 +29,7 @@ In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear:
 
 * as residual [[gauge symmetries]] of relativistic [[brane]] [[sigma models]] after [[light cone gauge]]-[[gauge fixing|fixing]] (cf. [below](#ReferencesAsSymmetriesOfBraneDynamics)),
 
-* as symmetries of [[effective field theory|effective]] descriptions of [[fractional quantum Hall systems]] (cf. [below](#ReferencesAsSymmetriesOfFQHSystems)).
+* as ([[gauge symmetry|gauge]]) [[symmetries]] of [[effective field theory|effective]] descriptions of [[fractional quantum Hall systems]] (cf. [below](#ReferencesAsSymmetriesOfFQHSystems)).
 
 
 
@@ -71,7 +71,7 @@ See also:
 ### As symmetries of fractional quantum Hall systems
  {#ReferencesAsSymmetriesOfFQHSystems}
 
-As symmetries of [[fractional quantum Hall systems]] (cf. *[supersymmetry in FQH systems](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall)*):
+As ([[gauge symmetry|gauge]]) [[symmetries]] of [[fractional quantum Hall systems]] (cf. *[supersymmetry in FQH systems](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall)*):
 
 * [[Yi-Hsien Du]], [[Umang Mehta]], Dung Xuan Nguyen, [[Dam Thanh Son]]: *Volume-preserving diffeomorphism as nonabelian higher-rank gauge symmetry*, SciPost Phys. **12** 050 (2022) &lbrack;[arXiv:2103.09826](https://arxiv.org/abs/2103.09826), [doi:10.21468/SciPostPhys.12.2.050](https://doi.org/10.21468/SciPostPhys.12.2.050)&rbrack;
 
