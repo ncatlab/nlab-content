@@ -199,7 +199,7 @@ On the [[elliptic genus]] of [[M-strings]] inside [[M5-branes]]:
 
 * M. Nouman Muteeb, _Domain walls and M2-branes partition functions: M-theory and ABJM Theory_ ([arXiv:2010.04233](https://arxiv.org/abs/2010.04233))
 
-* Kimyeong Lee, Kaiwen Sun, Xin Wang, *Twisted Elliptic Genera* &lbrack;[arXiv:2212.07341](https://arxiv.org/abs/2212.07341)&rbrack;
+* [[Kimyeong Lee]], [[Kaiwen Sun]], Xin Wang: *Twisted Elliptic Genera*, J. High Energ. Phys. **2024** 35 (2024) \[<a href="https://doi.org/10.1007/JHEP04(2024)035">doi:10.1007/JHEP04(2024)035</a>, [arXiv:2212.07341](https://arxiv.org/abs/2212.07341)\]
 
 
 
@@ -208,12 +208,10 @@ On the [[elliptic genus]] of [[M-strings]] inside [[M5-branes]]:
 
 On the [[elliptic genus]] of [[E-strings]] as [[wrapped brane|wrapped]] [[M5-branes]]:
 
-* J. A. Minahan, D. Nemeschansky, [[Cumrun Vafa]], N. P. Warner, 
-_E-Strings and $N=4$ Topological Yang-Mills Theories_, Nucl. Phys. B527 (1998) 581-623 ([arXiv:hep-th/9802168](https://arxiv.org/abs/hep-th/9802168))
+* J. A. Minahan, D. Nemeschansky, [[Cumrun Vafa]], N. P. Warner: _E-Strings and $N=4$ Topological Yang-Mills Theories_, Nucl. Phys. B527 (1998) 581-623 ([arXiv:hep-th/9802168](https://arxiv.org/abs/hep-th/9802168))
 
-* Wenhe Cai, Min-xin Huang, Kaiwen Sun, _On the Elliptic Genus of Three E-strings and Heterotic Strings_, J. High Energ. Phys. 2015, 79 (2015).
-([arXiv:1411.2801](https://arxiv.org/abs/1411.2801), <a href="https://doi.org/10.1007/JHEP01(2015)079">doi:10.1007/JHEP01(2015)079</a>)
+* Wenhe Cai, Min-xin Huang, [[Kaiwen Sun]]: _On the Elliptic Genus of Three E-strings and Heterotic Strings_, J. High Energ. Phys. **2015** 79 (2015) \[<a href="https://doi.org/10.1007/JHEP01(2015)079">doi:10.1007/JHEP01(2015)079</a>, [arXiv:1411.2801](https://arxiv.org/abs/1411.2801)\]
 
 On the [[elliptic genus]] of [[E-strings]] as [[M2-branes]] [[brane intersection|ending on]] [[M5-branes]]:
 
-* {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
+* {#KKLPV14} [[Joonho Kim]], [[Seok Kim]], [[Kimyeong Lee]], [[Jaemo Park]], [[Cumrun Vafa]]: _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 \[<a href="https://doi.org/10.1007/JHEP09(2017)098">doi:10.1007/JHEP09(2017)098</a>, [arXiv:1411.2324](https://arxiv.org/abs/1411.2324)\]
