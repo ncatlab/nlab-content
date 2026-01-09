@@ -51,9 +51,9 @@ and via [[F-theory]] methods:
 * [[Michele Del Zotto]], Muyang Liu, Paul-Konstantin Oehlmann, *6D Heterotic Little String Theories and F-theory Geometry: An Introduction* &lbrack;[arXiv:2303.13502](https://arxiv.org/abs/2303.13502)&rbrack;
 
 
-The [[T-duality]] between type IIA and type IIB little strings is discussed in
+On [[T-duality]] between type IIA and type IIB little strings:
 
-* Jungmin Kim, Seok Kim, Kimyeong Lee, _Little strings and T-duality_, JHEP  2016:170 ([arXiv:1503.07277](https://arxiv.org/abs/1503.07277))
+* Jungmin Kim, [[Seok Kim]], [[Kimyeong Lee]]: _Little strings and T-duality_,  J. High Energ. Phys. **2016** 170 (2016).  &lbrack;[arXiv:1503.07277](https://arxiv.org/abs/1503.07277), <a href="https://doi.org/10.1007/JHEP02(2016)170">doi:10.1007/JHEP02(2016)170</a>&rbrack;
 
 Construction within [[F-theory]] is discussed in
 
