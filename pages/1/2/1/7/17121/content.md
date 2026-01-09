@@ -29,7 +29,7 @@ A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[
 
 ## Extensions
 
-* Several mathematicians have constructed a larger triangle of Lie groups, known as the [[magic triangle]], which contains the magic square. 
+* Several mathematicians have constructed a larger triangle of Lie groups, known as the *[[magic triangle]]*, which contains the magic square. 
 
 * [[Michael Duff]] and colleagues ([ABDHN](#ABDHN)) have proposed a magic _pyramid_ whose base is the magic square.
 
