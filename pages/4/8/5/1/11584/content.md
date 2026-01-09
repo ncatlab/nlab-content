@@ -25,7 +25,7 @@ For more on all this see at _[[TCFT]]_ and at _[[2d TQFT]]_.
 
 ## References
 
-* {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, InternationalJournal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
+* {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, International Journal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
 
 * [[Maxim Kontsevich]], [[Yuri Manin]]: _Gromov–Witten classes, quantum cohomology, and enumerative geometry_, Comm. Math. Phys. 164.3 (1994) 525–562 
 
