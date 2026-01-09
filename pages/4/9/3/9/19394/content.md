@@ -126,8 +126,7 @@ On the [[E-string elliptic genus]]:
 
 * {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
 
-* Wenhe Cai, Min-xin Huang, Kaiwen Sun, _On the Elliptic Genus of Three E-strings and Heterotic Strings_, J. High Energ. Phys. 2015, 79 (2015).
-([arXiv:1411.2801](https://arxiv.org/abs/1411.2801), <a href="https://doi.org/10.1007/JHEP01(2015)079">doi:10.1007/JHEP01(2015)079</a>)
+* Wenhe Cai, Min-xin Huang, [[Kaiwen Sun]]: _On the Elliptic Genus of Three E-strings and Heterotic Strings_, J. High Energ. Phys. **2015** 79 (2015) \[<a href="https://doi.org/10.1007/JHEP01(2015)079">doi:10.1007/JHEP01(2015)079</a>, [arXiv:1411.2801](https://arxiv.org/abs/1411.2801)\]
 
 
 On the [[Green-Schwarz anomaly cancellation]] in [[D=6 N=(1,0) SCFT]]:
