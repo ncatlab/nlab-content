@@ -17,9 +17,13 @@ On [[Levin-Wen models]]:
 * Liang Chang, [[Meng Cheng]], [[Shawn X. Cui]], Yuting Hu, Wei Jin, Ramis Movassagh, [[Pieter Naaijkens]], [[Zhenghan Wang]], [[Amanda Young]]: *On Enriching the Levin-Wen model with Symmetry*, J. Phys. A: Math. Theor. **48** (2016) 12FT01  &lbrack;[arXiv:1412.6589](https://arxiv.org/abs/1412.6589)&rbrack;
 
 
-
 On [[symmetry protected topological phases]] and their [[topological orders]]:
 
-* {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) $[$[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147)$]$
+* {#BBCW19} [[Maissam Barkeshli]], [[Parsa Bonderson]], [[Meng Cheng]], [[Zhenghan Wang]], *Symmetry Fractionalization, Defects, and Gauging of Topological Phases*, Phys. Rev. B **100** 115147 (2019) $[$[arXiv:1410.4540](https://arxiv.org/abs/1410.4540), [doi:10.1103/PhysRevB.100.115147](https://doi.org/10.1103/PhysRevB.100.115147)\]
+
+A [[lattice field theory|lattice model]] for [[anyon|anyonic]] [[membrane braiding]] in 4D:
+
+* Yitao Feng, Hanyu Xue, Yuyang Li, [[Meng Cheng]], Ryohei Kobayashi, [[Po-Shen Hsin]], Yu-An Chen: *Anyonic membranes and Pontryagin statistics* &lbrack;[arXiv:2509.14314](https://arxiv.org/abs/2509.14314)&rbrack;
+
 
 category: people
