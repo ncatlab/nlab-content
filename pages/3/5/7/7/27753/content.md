@@ -236,6 +236,13 @@ On [[anyons]] in FQAH systems:
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Crystalline Chern Order|Fragile Topological Phases and Topological Order of 2D Crystalline Chern Insulators]]* &lbrack;[arXiv:2512.24709](https://arxiv.org/abs/2512.24709)&rbrack;
 
+#### Collective excitations
+
+On the chiral graviton mode in FCIs:
+
+* Min Long, Zeno Bacciconi, Hongyu Lu, Hernan B. Xavier, Zi Yang Meng, Marcello Dalmonte: *Chiral Graviton Modes in Fermionic Fractional Chern Insulators* &lbrack;[arXiv:2601.05196](https://arxiv.org/abs/2601.05196)&rbrack;
+
+
 
 
 
