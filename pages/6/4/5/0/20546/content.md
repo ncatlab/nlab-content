@@ -204,7 +204,7 @@ As [[type I' string theory]] with [[D6-branes]]:
 
 * {#HananyZaffaroni99} [[Amihay Hanany]], [[Alberto Zaffaroni]], _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
 
-* Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Masato Taki, Futoshi Yagi, _A new 5d description of 6d D-type minimal conformal matter_, JHEP 1508:097, 2015 ([arXiv:1505.04439](https://arxiv.org/abs/1505.04439))
+* Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Masato Taki, Futoshi Yagi: *A new 5d description of 6d D-type minimal conformal matter*, JHEP 1508:097 (2015) &lbrack;[arXiv:1505.04439](https://arxiv.org/abs/1505.04439)&rbrack;
 
 
 * Ibrahima Bah, Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
