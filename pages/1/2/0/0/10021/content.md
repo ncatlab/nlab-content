@@ -59,7 +59,7 @@ The contrast with non-rational CFTs:
 
 See also:
 
-* Zhihao Duan, Kimyeong Lee, Kaiwen Sun, *Hecke Relations, Cosets and the Classification of 2d RCFTs* $[$[arXiv:2206.07478](https://arxiv.org/abs/2206.07478)$]$
+* Zhihao Duan, [[Kimyeong Lee]], [[Kaiwen Sun]]: *Hecke Relations, Cosets and the Classification of 2d RCFTs*, J. High Energ. Phys. **2022** 202 (2022) &lbrack;[arXiv:2206.07478](https://arxiv.org/abs/2206.07478), <a href="https://doi.org/10.1007/JHEP09(2022)202">doi:10.1007/JHEP09(2022)202</a>&rbrack;
 
 Classification:
 
