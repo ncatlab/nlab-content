@@ -3,6 +3,11 @@
 
 ## Selected writings
 
+On [[string networks]] in relation to the [[D=6 N=(2,0) SCFT]] on [[M5-branes]]:
+
+* [[Stefano Bolognesi]], [[Kimyeong Lee]]: _$1/4$ BPS String Junctions and N3 Problem in 6-dim $(2,0)$ Superconformal Theories*, Phys. Rev. D. **84** (2011) 126018 &lbrack;[arXiv:1105.5073](https://arxiv.org/abs/1105.5073), [doi:10.1103/PhysRevD.84.126018](https://doi.org/10.1103/PhysRevD.84.126018)&rbrack;
+
+
 On [[skyrmions]]/[[solitons]] in the [[Sakai-Sugimoto model]] ([[AdS/QCD correspondence]] via [[D=5 Maxwell theory]]):
 
 * [[Stefano Bolognesi]], [[Paul Sutcliffe]], _The Sakai-Sugimoto soliton_, JHEP 1401:078, 2014 ([arXiv:1309.1396](https://arxiv.org/abs/1309.1396))
