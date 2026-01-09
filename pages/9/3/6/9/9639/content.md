@@ -691,6 +691,12 @@ The bulk/edge behaviour in a quantum Hall effect is that of a [[topological insu
 
 (...)
 
+### Collective excitations
+ {#CollectiveExcitations}
+
+The first collected excitations of an FQH fluid are a "magnetoroton" and its [[superpartner]] under an [effective supersymmetry](Laughlin+wavefunction#SupersymmetryBetweenLaughlinAndMooreReadStates). In the long-wavelength limit these excitations look like a (chiral, massive) [[graviton]] and [[gravitino]] mode.
+
+
 ## Related concepts
 
 
