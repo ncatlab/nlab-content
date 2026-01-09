@@ -148,7 +148,7 @@ The lift to [[11d supergravity]]/[[M-theory]] via [[membrane triple junctions]] 
 
 * [[Michael Gutperle]], Andrea Trivella, Christoph F. Uhlemann, _Type IIB 7-branes in warped $AdS_6$: partition functions, brane webs and probe limit_, JHEP04 (2018) 135 &lbrack;[arXiv:1802.07274](https://arxiv.org/abs/1802.07274)&rbrack;
 
-* Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _Dualities and 5-brane webs for 5d rank 2 SCFTs_ ([arXiv:1806.10569](https://arxiv.org/abs/1806.10569))
+* Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Futoshi Yagi: _Dualities and 5-brane webs for 5d rank 2 SCFTs_,     JHEP 12 (2018) 016 &lbrack;[arXiv:1806.10569](https://arxiv.org/abs/1806.10569), <a href="https://doi.org/10.1007/JHEP12(2018)016">doi:10.1007/JHEP12(2018)016</a>&rbrack;
 
 [[!redirects brane intersections]]
 
