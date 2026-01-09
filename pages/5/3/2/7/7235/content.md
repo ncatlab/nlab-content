@@ -250,7 +250,7 @@ On the "intermediate" $E_{7 \tfrac{1}{2}}$:
 * J. M. Landsberg, L. Manivel, *The sextonions and $E_{7\tfrac{1}{2}}$*, Advances in Mathematics
 **201** 1 (2006) 143-179 &lbrack;[arXiv:math/0402157](https://arxiv.org/abs/math/0402157), [doi:10.1016/j.aim.2005.02.001](https://doi.org/10.1016/j.aim.2005.02.001)&rbrack;
 
-* Kimyeong Lee, Kaiwen Sun, Haowu Wang, *On intermediate Lie algebra $E_{7 \tfrac{1}{2}}$* &lbrack;[arXiv:2306.09230](https://arxiv.org/abs/2306.09230)&rbrack;
+* [[Kimyeong Lee]], Kaiwen Sun, Haowu Wang, *On intermediate Lie algebra $E_{7 \tfrac{1}{2}}$* &lbrack;[arXiv:2306.09230](https://arxiv.org/abs/2306.09230)&rbrack;
 
 See also:
 
