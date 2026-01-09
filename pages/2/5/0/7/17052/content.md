@@ -107,9 +107,10 @@ Further development includes
 
 * {#KraanVanBaal98b} Thomas C. Kraan, Pierre van Baal, _Exact T-duality between Calorons and Taub-NUT spaces_, Phys.Lett.B428:268-276, 1998 ([arXiv:hep-th/9802049](https://arxiv.org/abs/hep-th/9802049))
 
-* {#LeeLu98} Kimyeong Lee, Changhai Lu, _$SU(2)$ Calorons and Magnetic Monopoles_, Phys. Rev. D 58, 025011 (1998) ([arXiv:hep-th/9802108](https://arxiv.org/abs/hep-th/9802108))
+* {#LeeLu98} [[Kimyeong Lee]], Changhai Lu: _$SU(2)$ Calorons and Magnetic Monopoles_, Phys. Rev. D **58** (1998) 025011  &lbrack;[arXiv:hep-th/9802108](https://arxiv.org/abs/hep-th/9802108), [doi:10.1103/PhysRevD.58.025011](https://doi.org/10.1103/PhysRevD.58.025011)&rbrack;
 
-See also
+
+See also:
 
 * Wikipedia, _[Caloron](https://en.wikipedia.org/wiki/Caloron)_
 
