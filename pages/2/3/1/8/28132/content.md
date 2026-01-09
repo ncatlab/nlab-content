@@ -21,6 +21,8 @@ This constraint restricts the [[diffeomorphism]]-invariance of these theories to
 
 ## References
 
+### General
+
 The idea goes back to: 
 
 * [[Albert Einstein]]: *Spielen Gravitationsfelder im Aufbau der materiellen Elementarteilchen eine wesentliche Rolle?* Sitzungsber. Preuss. Akad. Wiss. Berlin (Math. Phys.) (1919) 349-356 &lbrack;[doi:10.1007/978-3-663-19510-8_10](https://doi.org/10.1007/978-3-663-19510-8_10)&rbrack;
@@ -34,5 +36,11 @@ Early modern discussion:
 Review:
 
 * Enrique Álvarez, Eduardo Velasco-Aja, *A Primer on Unimodular Gravity*, in *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2301.07641](https://arxiv.org/abs/2301.07641)&rbrack;
+
+### For FQH excitations
+
+On unimodular gravity as an [[effective field theory]] for the [collective excitations](quantum+Hall+effect#CollectiveExcitations) of [[FQH systems]]:
+
+* [[Andrey Gromov]], [[Dam Thanh Son]]: *Bimetric Theory of Fractional Quantum Hall States*, Phys. Rev. X **7** 041032 (2017) &lbrack;[arXiv:1705.06739](https://arxiv.org/abs/1705.06739), [doi:10.1103/PhysRevX.7.041032](https://doi.org/10.1103/PhysRevX.7.041032)&rbrack;
 
 
