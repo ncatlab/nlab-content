@@ -45,9 +45,9 @@ On [[D4-D8 brane intersections]] with application to [[geometric engineering of 
 
 * Chiung Hwang, Joonho Kim, Seok Kim, [[Jaemo Park]], _General instanton counting and 5d SCFT_ ([arxiv:1406.6793](https://arxiv.org/abs/1406.6793))
 
-On [[E-strings]]:
+On the [[elliptic genus]] of [[E-strings]] as [[M2-branes]] [[brane intersection|ending on]] [[M5-branes]]:
 
-* {#KKLPV14} Joonho Kim, Seok Kim, Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
+* {#KKLPV14} [[Joonho Kim]], [[Seok Kim]], [[Kimyeong Lee]], [[Jaemo Park]], [[Cumrun Vafa]]: _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 \[<a href="https://doi.org/10.1007/JHEP09(2017)098">doi:10.1007/JHEP09(2017)098</a>, [arXiv:1411.2324](https://arxiv.org/abs/1411.2324)\]
 
 
 
