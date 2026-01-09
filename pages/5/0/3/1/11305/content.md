@@ -1,5 +1,13 @@
 
-* [webpage](http://www.th.physik.uni-bonn.de/people/aklemm/)
+* [personal page](http://www.th.physik.uni-bonn.de/people/aklemm/)
+
+* [institute page](https://www.physik-astro.uni-bonn.de/de/Assets/staff/prof-dr-albrecht-klemm)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=298254)
+
+* [inSpire page](https://inspirehep.net/authors/1002654)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=igN2UwwAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -20,7 +28,8 @@ On the [[M5-brane elliptic genus]]:
 
 On [[E-strings]] in [[F-theory]]:
 
-* Jie Gu, [[Babak Haghighat]], [[Albrecht Klemm]], Kaiwen Sun, Xin Wang, _Elliptic Blowup Equations for 6d SCFTs. III: E--strings, M--strings and Chains_ ([arXiv:1911.11724](https://arxiv.org/abs/1911.11724))
+* Jie Gu, [[Babak Haghighat]], [[Albrecht Klemm]], [[Kaiwen Sun]], Xin Wang: _Elliptic Blowup Equations for 6d SCFTs. III: E--strings, M--strings and Chains_, J. High Energ. Phys. **2020** 135 (2020) &lbrack;[arXiv:1911.11724](https://arxiv.org/abs/1911.11724)<a href="https://doi.org/10.1007/JHEP07(2020)135">doi:10.1007/JHEP07(2020)135</a>&rbrack;
+
 
 On the [[mirror map]]:
 
