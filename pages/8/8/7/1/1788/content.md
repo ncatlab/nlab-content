@@ -6,6 +6,21 @@
 
 ***
 
+* **Das 1-Millionen-Dollar-Rätsel der Physik: Hadronen und Quantencomputer** 
+
+  *Warum die moderne Physik eine neue globale Mathematik braucht*
+
+> *Abstract*: Populäre Darstellungen feiern das "Standardmodell" der Teilchenphysik oft als lückenlose Erfolgsgeschichte. Das größte Problem der modernen Physik scheine lediglich darin zu bestehen, dass Experimente keine neuen, unbekannten Teilchen finden. Doch dieses Bild ist irreführend.
+
+> Tatsächlich steht die theoretische Physik vor einem "Elefanten im Raum": Die Existenz und die Eigenschaften von stark gebundenen Zuständen – wie den Hadronen (z.B. Protonen), aus denen unsere Welt besteht – lassen sich kaum analytisch herleiten. Wir verlassen uns hier meist auf Computer-Simulationen statt auf echtes theoretisches Verständnis. Dieses Defizit ist so fundamental, dass das Clay Mathematics Institute die globale Formulierung der Theorie der nuklearen Wechselwirkung zu einem "Jahrtausend-Problem" erklärt und ein Preisgeld von 1 Million Dollar ausgesetzt hat.
+
+> Ein verblüffend ähnliches Problem bremst derzeit die Entwicklung von Quantencomputern: Um diese zu stabilisieren, muss die Festkörperphysik sogenannte "stark korrelierte Elektronengase" verstehen. All diese Phänomene liegen jenseits der klassischen "Störungstheorie", die die Physik seit einem Jahrhundert dominiert.
+
+> In diesem Vortrag versuchen wir einen Eindruck davon zu vermitteln, wie eine neue "globale Mathematik" helfen kann, diese Wissenslücken zu schließen. Mithilfe moderner Konzepte wie der Höheren Topostheorie und der Homotopie-Typentheorie wird es möglich, solch komplexe physikalische Phänomene erstmals wirklich zu fassen. Dies führt nicht nur zu tieferen theoretischen Einsichten, sondern ist auch technologisch relevant: So lassen sich jene intrinsisch robusten Quantenzustände ("Anyonen") neu verstehen, die vermutlich notwendig sind, um von den heutigen "Proof-of-Principle"-Geräten zu echten, leistungsfähigen Quantencomputern zu gelangen.
+
+
+***
+
 **Internal formulation of $G$-invariant cocycles on a $G$-principal bundle.**
 
 {#Discussion} Consider:
