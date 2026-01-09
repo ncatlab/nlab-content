@@ -76,9 +76,9 @@ Projects:
 
 * **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
 
-  talk at *[Geometry, Higher Structures, and Physics](https://icms.ac.uk/activities/workshop/geometry-higher-structures-and-physics-icms-workshop/)*, [International Centre for Mathematical Sciences (ICMS)](https://www.icms.org.uk/), Bayes Centre, Edinburgh, 8-12 December 2025
+  mini-course at *[Geometry, Higher Structures, and Physics](https://icms.ac.uk/activities/workshop/geometry-higher-structures-and-physics-icms-workshop/)*, [International Centre for Mathematical Sciences (ICMS)](https://www.icms.org.uk/), Bayes Centre, Edinburgh, 8-12 December 2025
 
-  video recording I: [yt](https://youtu.be/dzhIhRPoF-8), II: [yt](https://youtu.be/SAPqm55QsRI)
+  video recording I: [yt](https://youtu.be/dzhIhRPoF-8), II: [yt](https://youtu.be/SAPqm55QsRI), Playlist: [yt](https://www.youtube.com/playlist?list=PL_IZSUeNF7f_eQeAka33mcpsv2xD-Nlg5)
 
 
 <div style="float:right;margin:-72px 0px 00px 30px;">
