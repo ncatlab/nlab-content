@@ -80,5 +80,13 @@ More in the context of [[D1-D5-brane bound states]]
 
 * {#CastroDavidKrausLarsen08}  Alejandra Castro, Joshua L. Davis, [[Per Kraus]], [[Finn Larsen]], _String Theory Effects on Five-Dimensional Black Hole Physics_ ([arXiv:0801.1863](http://arxiv.org/abs/0801.1863))
 
+See also:
+
+* Pavan Dharanipragada, Gurmeet Singh Punia, Amitabh Virmani: *Non-supersymmetric F1-P black rings* &lbrack;[arXiv:2601.04623](https://arxiv.org/abs/2601.04623)&rbrack;
+
+* Pavan Dharanipragada, Gurmeet Singh Punia, Amitabh Virmani: *Index saddle for supersymmetric F1-P black ring* &lbrack;[arXiv:2601.04624](https://arxiv.org/abs/2601.04624)&rbrack;
+
+
+
 
 [[!redirects black rings]]
