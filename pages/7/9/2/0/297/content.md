@@ -1656,7 +1656,7 @@ Along these lines one checks the required [[zig-zag identities]].
 #### Action functionals and Slice groupoids
  {#1dDWLocalFieldTheory}
 
-We have now assembled all the ingredients need in order to formally regard a [[group character]] $c \colon G \to U(1)$ on a [[discrete group]] as a local action functional of a prequantum field theory, hence as a [[fully dualizable object]]
+We have now assembled all the ingredients needed in order to formally regard a [[group character]] $c \colon G \to U(1)$ on a [[discrete group]] as a local action functional of a prequantum field theory, hence as a [[fully dualizable object]]
 
 $$
   S
@@ -1741,7 +1741,7 @@ $$
 
 =--
 
-This means that if we have an [[action functional]] on a space of [[trajectories]], and if these trajectories are given by [[spans]]/[[correspondences]] of groupoids as discussed above, then the action functional is naturally expressed as the homotopy filling a completion of the span to a square diagram over $\mathbf{B}\flat U(1)$. Therefore we cosider the following.
+This means that if we have an [[action functional]] on a space of [[trajectories]], and if these trajectories are given by [[spans]]/[[correspondences]] of groupoids as discussed above, then the action functional is naturally expressed as the homotopy filling a completion of the span to a square diagram over $\mathbf{B}\flat U(1)$. Therefore we consider the following.
 
 +-- {: .num_defn #OneSpansInOneGroupoidsOverBU}
 ###### Definition
