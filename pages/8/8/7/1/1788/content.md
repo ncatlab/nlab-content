@@ -6,7 +6,9 @@
 
 ***
 
-* **Das 1-Millionen-Dollar-Rätsel der Physik: Hadronen und Quantencomputer** 
+Long version:
+
+* **Das 1-Millionen-Dollar-Rätsel: Hadronen und Quantencomputer** 
 
   *Warum die moderne Physik eine neue globale Mathematik braucht*
 
@@ -18,6 +20,13 @@
 
 > In diesem Vortrag versuchen wir einen Eindruck davon zu vermitteln, wie eine neue "globale Mathematik" helfen kann, diese Wissenslücken zu schließen. Mithilfe moderner Konzepte wie der Höheren Topostheorie und der Homotopie-Typentheorie wird es möglich, solch komplexe physikalische Phänomene erstmals wirklich zu fassen. Dies führt nicht nur zu tieferen theoretischen Einsichten, sondern ist auch technologisch relevant: So lassen sich jene intrinsisch robusten Quantenzustände ("Anyonen") neu verstehen, die vermutlich notwendig sind, um von den heutigen "Proof-of-Principle"-Geräten zu echten, leistungsfähigen Quantencomputern zu gelangen.
 
+\linebreak
+
+short version
+
+Das 1-Millionen-Dollar-Rätsel: Hadronen & Quantencomputer
+
+Das Standardmodell der Physik gilt als Erfolg, doch es hat eine Lücke: Stark gebundene Zustände (wie gewöhnliche Atomkerne) sind kaum analytisch herleitbar. Dieses Defizit ist so fundamental, dass es als "Millennium-Problem" mit 1 Mio &#36;.  Preisgeld dotiert ist. Ein ähnliches Problem bremst die Entwicklung stabiler Quantencomputer. Dieser Vortrag erklärt, wie eine neue "globale Mathematik" (Topos- und Typentheorie) hilft, diese Grenzen der traditionellen theoretischen Physik zu überwinden. Daraus ergibt sich konkret ein neues Verständnis topologischer Quantenzustände, die robuste Quanten-Hardware ermoglichen könnten.
 
 ***
 
