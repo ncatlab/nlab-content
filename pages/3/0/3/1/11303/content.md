@@ -189,7 +189,7 @@ On [[D=6 N=(1,0) SCFTs]] via [[geometric engineering of QFT|geometric engineerin
 
 * [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], _$S^1/T^2$ Compactifications of 6d $\mathcal{N} = (1,0)$ Theories and Brane Webs_, J. High Energ. Phys. (2016) 2016: 24 ([arXiv:1509.03195](https://arxiv.org/abs/1509.03195))
 
-* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Futoshi Yagi: _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05 (2019)203 &lbrack;[arXiv:1509.03300](https://arxiv.org/abs/1509.03300)&rbrack;
 
 * [[Ibrahima Bah]], Achilleas Passias, [[Alessandro Tomasiello]], _$AdS_5$ compactifications with punctures in massive IIA supergravity_, JHEP11 (2017)050 ([arXiv:1704.07389](https://arxiv.org/abs/1704.07389))
 
