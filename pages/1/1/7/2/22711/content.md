@@ -49,11 +49,15 @@ Accordingly, the role that the [[braid group]] plays in [[3d TQFTs]] such as [[C
 
 ## References
 
+### On general motion groups
+
 Original articles on motion groups:
 
 * {#Dahm62} D. Dahm, *A generalization of braid theory*, PhD thesis, Princeton University (1962)
 
 * {#Goldsmith81} [[Deborah L. Goldsmith]]: *The theory of motion groups*, Michigan Math. J. **28** 1 (1981) 3-17 &lbrack;[doi:10.1307/mmj/1029002454](https://projecteuclid.org/journals/michigan-mathematical-journal/volume-28/issue-1/The-theory-of-motion-groups/10.1307/mmj/1029002454.full)&rbrack;
+
+### On loop braid groups
 
 Specifically on the loop braid group:
 
@@ -72,7 +76,6 @@ Specifically on the loop braid group:
 Monograph:
 
 * [[Seiichi Kamada]]: *Braid and Knot Theory in Dimension Four*, Mathematical Surveys and Monographs **95**, AMS (2002) &lbrack;[ISBN:978-0-8218-2969-1](https://bookstore.ams.org/view?ProductCode=SURV/95)&rbrack;
-
 
 See also:
 
@@ -106,8 +109,6 @@ and similar models in [[condensed matter theory]]:
 
 * Zhi-Feng Zhang, Qing-Rui Wang, [[Peng Ye]], *Wilson Operators, Non-Abelian Fusion Rules, and Loop Shrinking Rules of Borromean Rings Topological Order* &lbrack;[arXiv:2208.09228](https://arxiv.org/abs/2208.09228)&rbrack;
 
-
-
 Relation to [[braided monoidal category|braided]] [[tensor categories]]:
 
 * Liang Chang,  *Representations of the loop braid groups from braided tensor categories*, Journal of Mathematical Physics 61, 051702 (2020) ([arXiv:2004.10896](https://arxiv.org/abs/2004.10896), [doi:10.1063/5.0005266](https://doi.org/10.1063/5.0005266))
@@ -116,9 +117,19 @@ Relation to [[integrable systems]]:
 
 * Pramod Padmanabhan, Abhishek Chowdhury, *Loop braid groups and integrable models* &lbrack;[arXiv:2210.12932](https://arxiv.org/abs/2210.12932)&rbrack;
 
+### On membrane braiding
+
 Argument that [[M2-branes]] braiding around each other in 7D pick up an anyonic braiding phase:
 
 * [[Sean A. Hartnoll]]: *Anyonic strings and membranes in AdS space and dual Aharonov-Bohm effects*, Phys. Rev. Lett. **98** (2007) 111601 &lbrack;[arXiv:hep-th/0612159](https://arxiv.org/abs/hep-th/0612159), [doi:10.1103/PhysRevLett.98.111601](https://doi.org/10.1103/PhysRevLett.98.111601)&rbrack;
+
+A lattice model for anyonic [[membranes]] in 4d:
+
+* Yitao Feng, Hanyu Xue, Yuyang Li, [[Meng Cheng]], Ryohei Kobayashi, [[Po-Shen Hsin]], Yu-An Chen: *Anyonic membranes and Pontryagin statistics* &lbrack;[arXiv:2509.14314](https://arxiv.org/abs/2509.14314)&rbrack;
+
+A derivation of [[cohomotopy|cohomotopically]] [[geometry of physics -- flux quantization|flux quantized]] [[membranes]] in $S^3 \times S^3$ exhibiting [[FQH]] braiding phases:
+
+* [[Sadok Kallel]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Higher-dimensional Anyons via Higher Cohomotopy]]*  &lbrack;[arXiv:2601.03150](https://arxiv.org/abs/2601.03150)&rbrack;
 
 
 
@@ -135,5 +146,6 @@ Argument that [[M2-branes]] braiding around each other in 7D pick up an anyonic 
 [[!redirects group of motions]]
 [[!redirects groups of motions]]
 
+[[!redirects membrane braiding]]
 
 
