@@ -484,7 +484,7 @@ Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black bran
 
 * {#GaiottoTomasiello14} [[Davide Gaiotto]], [[Alessandro Tomasiello]], _Holography for $(1,0)$ theories in six dimensions_ ([arXiv:1404.0711](https://arxiv.org/abs/1404.0711))
 
-* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05(2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, [[Kimyeong Lee]], Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_, JHEP05(2019)203 ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
 
 * {#ApruzziFazzi17} Fabio Apruzzi, [[Marco Fazzi]], _$AdS_7/CFT_6$ with orientifolds_, J. High Energ. Phys. (2018) 2018: 124 ([arXiv:1712.03235](https://arxiv.org/abs/1712.03235))
 
