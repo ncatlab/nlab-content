@@ -110,7 +110,7 @@ With application to [[geometric engineering of QFTs|geometric engineering]] of [
 
 * [Nastase 03, Sec. 5](#Nastase03)
 
-* Hee-Cheol Kim, Sung-Soo Kim, Kimyeong Lee, _5-dim Superconformal Index with Enhanced En Global Symmetry_, JHEP 1210 (2012) 142 ([arXiv:1206.6781](https://arxiv.org/abs/1206.6781))
+* Hee-Cheol Kim, Sung-Soo Kim, [[Kimyeong Lee]]: _5-dim Superconformal Index with Enhanced En Global Symmetry_, JHEP 1210 (2012) 142 &lbrack;[arXiv:1206.6781](https://arxiv.org/abs/1206.6781)&rbrack;
 
 * Chiung Hwang, Joonho Kim, Seok Kim, [[Jaemo Park]], _General instanton counting and 5d SCFT_ ([arxiv:1406.6793](https://arxiv.org/abs/1406.6793))
 
