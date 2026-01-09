@@ -191,7 +191,9 @@ On [[E-strings]]:
 
 * {#HLV14} [[Babak Haghighat]], [[Guglielmo Lockhart]], [[Cumrun Vafa]], _Fusing E-string to heterotic string: $E + E \to H$_, Phys. Rev. D 90, 126012 (2014) ([arXiv:1406.0850](https://arxiv.org/abs/1406.0850))
 
-* {#KKLPV14} [[Joonho Kim]], [[Seok Kim]], Kimyeong Lee, [[Jaemo Park]], [[Cumrun Vafa]], _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 ([arXiv:1411.2324](https://arxiv.org/abs/1411.2324))
+On the [[elliptic genus]] of [[E-strings]] as [[M2-branes]] [[brane intersection|ending on]] [[M5-branes]]:
+
+* {#KKLPV14} [[Joonho Kim]], [[Seok Kim]], [[Kimyeong Lee]], [[Jaemo Park]], [[Cumrun Vafa]]: _Elliptic Genus of E-strings_, JHEP 1709 (2017) 098 \[<a href="https://doi.org/10.1007/JHEP09(2017)098">doi:10.1007/JHEP09(2017)098</a>, [arXiv:1411.2324](https://arxiv.org/abs/1411.2324)\]
 
 and emergence of [[SU(2)]]  [[flavor (particle physics)|flavor]]-[[chiral symmetry|symmetry]] on [[M5-branes]] in [[heterotic M-theory]] (in the [[D=6 N=(1,0) SCFT]] on [[small instantons]] in [[heterotic string theory]]):
 
