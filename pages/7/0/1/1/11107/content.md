@@ -38,6 +38,11 @@ Early discussion of [[composite quantum systems]] and their [[quantum entangleme
 
 * [[Erwin Schrödinger]], *Discussion of Probability Relations between Separated Systems*, Mathematical Proceedings of the Cambridge Philosophical Society, **31** 4 (1935) 555-563 &lbrack;[doi:10.1017/S0305004100013554](https://doi.org/10.1017/S0305004100013554)&rbrack;
 
+See also:
+
+* Tobias Starke: *Quantenlogische Systeme und Tensorproduktraeume* &lbrack;[arXiv:2601.04880](https://arxiv.org/abs/2601.04880)&rbrack;
+
+
 [[!redirects composite systems]]
 
 [[!redirects compound system]]
