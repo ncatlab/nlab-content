@@ -14,9 +14,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -1041,19 +1041,26 @@ Generalization to [[supergeometry]] is discussed in:
 * Alexander Alldridge, Joachim Hilgert, Tilmann Wurzbacher, _Superorbits_ ([arXiv:1502.04375](https://arxiv.org/abs/1502.04375))
 
 
-A generalization to [[higher geometry]] and [[2-group]] [[2-representations]] is proposed in 
+A generalization to [[higher geometry]] and [[2-group]] [[2-representations]]:
 
 * [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantum field theory_ ([arXiv:0901.3975](http://arxiv.org/abs/0901.3975))
+
+
+The above discussion of the interpretation of the orbit method in terms of higher [[moduli stacks]] for [[differential cohomology]] appears in 
+
+* {#FSS} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], section 3.4.5 of _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_, in Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_, Mathematical Physics Studies, Springer 2014 ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
+
+
+An [[effective field theory]] for [[Fermi liquids]] using the orbit method:
+
+* [[Umang Mehta]]: *Postmodern Fermi Liquids*, Springer Theses, Springer (2024) &lbrack;[arXiv:2307.02536](https://arxiv.org/abs/2307.02536), [doi;10.1007/978-3-031-72403-9](https://doi.org/10.1007/978-3-031-72403-9)&rbrack;
+
 
 Relation to [[spin chains]]:
 
 * Viacheslav Krivorol: *Point Particles as Spin Chains* &lbrack;[arXiv:2601.01504](https://arxiv.org/abs/2601.01504)&rbrack;
 
 
-The above discussion of the interpretation of the orbit method in terms of higher [[moduli stacks]] for [[differential cohomology]] appears in 
-
-* {#FSS} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], section 3.4.5 of _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_, in Damien Calaque et al. (eds.) _Mathematical Aspects of Quantum Field Theories_, Mathematical Physics Studies, Springer 2014 ([arXiv:1301.2580](http://arxiv.org/abs/1301.2580))
- 
 
 
 [[!redirects method of coadjoint orbits]]
