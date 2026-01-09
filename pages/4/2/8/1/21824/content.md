@@ -12,6 +12,7 @@
 * [GoogleScholar page](https://scholar.google.com/citations?user=N1SYs84AAAAJ&hl=en)
 
 
+
 ## Selected writings
 
 On the [[M5-brane elliptic genus]]:
@@ -46,6 +47,10 @@ On [[KK-compactification]] of [[D=6 N=(2,0) SCFT]] on [[Riemann surfaces]] [[4d 
 
 * [[Jin Chen]], [[Babak Haghighat]], [[Shuwei Liu]], [[Marcus Sperling]], _4d $\mathcal{N}=1$ from 6d D-type $\mathcal{N}=(1,0)$_,  J. High Energ. Phys. **2020** 152 (2020) &lbrack;[arXiv:1907.00536](https://arxiv.org/abs/1907.00536), <a href=" https://doi.org/10.1007/JHEP01(2020)152">doi:10.1007/JHEP01(2020)152</a>&rbrack;
 
+On [[E-strings]] in [[F-theory]]:
+
+* Jie Gu, [[Babak Haghighat]], [[Albrecht Klemm]], [[Kaiwen Sun]], Xin Wang: _Elliptic Blowup Equations for 6d SCFTs. III: E--strings, M--strings and Chains_, J. High Energ. Phys. **2020** 135 (2020) &lbrack;[arXiv:1911.11724](https://arxiv.org/abs/1911.11724)<a href="https://doi.org/10.1007/JHEP07(2020)135">doi:10.1007/JHEP07(2020)135</a>&rbrack;
+
 
 On [[braid group representations]] for [[su(2)-anyon]]-[[anyon statistics|statistics]] from the [[monodromy]] of the [[Knizhnik-Zamolodchikov connection]] of bundles of [[conformal blocks]] over [[configuration spaces of points]]:
 
@@ -60,7 +65,6 @@ On [[conformal blocks]] for [[Liouville theory]]:
 * [[Babak Haghighat]], [[Yihua Liu]], [[Nicolai Reshetikhin]], *Flat Connections from Irregular Conformal Blocks* &lbrack;[arXiv:2311.07960](https://arxiv.org/abs/2311.07960)&rbrack;
 
 * [[Xia Gu]], [[Babak Haghighat]], [[Kevin Loo]], *Irregular Fibonacci Conformal Blocks* &lbrack;[arXiv:2311.13358](https://arxiv.org/abs/2311.13358)&rbrack;
-
 
 * [[Babak Haghighat]]: *Flat Connections from Irregular Conformal Blocks*, [talk at ](CQTS#HaghighatFeb2024) [[CQTS]] (Feb 2024) &lbrack;video: [zm](https://nyu.zoom.us/rec/share/c41GdU--I_-g2XLJ7A6T0HxK6AxI-utrlGb2mStB0XBOaJ3FrvC1JzoL_FsjWrEi.MBPR87t2nBR8f99t), [kt](https://cdnapisec.kaltura.com/p/1674401/sp/167440100/embedIframeJs/uiconf_id/23435151/partner_id/1674401?iframeembed=true&playerId=kaltura_player&entry_id=1_qyu7rg1l)&rbrack;
 
