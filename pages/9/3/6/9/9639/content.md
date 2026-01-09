@@ -1037,6 +1037,7 @@ category: physics
 [[!redirects FQH system]]
 [[!redirects FQH systems]]
 
+[[!redirects FQH]]
 
 [[!redirects fractional quantum Hall system]]
 [[!redirects fractional quantum Hall systems]]
