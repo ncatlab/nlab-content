@@ -10,9 +10,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -50,7 +49,9 @@ See also
 
 * Wikipedia, *[Fermi liquid theory](https://en.wikipedia.org/wiki/Fermi_liquid_theory)*
 
-* Umang Mehta, *Postmodern Fermi Liquids* &lbrack;[arXiv:2307.02536](https://arxiv.org/abs/2307.02536)&rbrack;
+Streamlined [[effective field theory]] for [[Fermi liquids]] using the [[coadjoint orbits|coadjoint]] [[orbit method]]:
+
+* [[Umang Mehta]]: *Postmodern Fermi Liquids*, Springer Theses, Springer (2024) &lbrack;[arXiv:2307.02536](https://arxiv.org/abs/2307.02536), [doi;10.1007/978-3-031-72403-9](https://doi.org/10.1007/978-3-031-72403-9)&rbrack;
 
 [[!redirects Landau's Fermi liquid model]]
 
