@@ -580,7 +580,7 @@ $$
 $$
 
 
-{#ExampleMapIdentifyingThreePoints} Notice here the role of the equality sign: In the denotation of a  functor as above, arrows may be sent to equality signs (but not the other way around): This corresponds to the corresponding [[continuous function]] "gluing" these points, in that it is (at least locally) the [[coprojection]] onto the [[quotient space|quotient]] by the subset of points that are being identified.
+{#ExampleMapIdentifyingThreePoints} Notice here the role of the equality sign: In the denotation of a functor as above, arrows may be sent to equality signs (but not the other way around): This corresponds to the corresponding [[continuous function]] "gluing" these points, in that it is (at least locally) the [[coprojection]] onto the [[quotient space|quotient]] by the subset of points that are being identified.
 
 For example, the following denotes the functor corresponding to a map that "glues" three points to each other:
 
@@ -1538,6 +1538,11 @@ The same property is also defined by the following diagram:
   \ast
 \end{tikzcd}
 
++--{.query}
+
+It seems that there is a mistake in the above diagram. Every singleton inclusion is left-orthogonal to every map from a space to a singleton.
+
+=--
 
 
 ### Symmetric spaces ($R_0$)
@@ -1562,7 +1567,7 @@ $$
 ### Accessible spaces ($T_1$)
  {#LiftingPropertyCorrespondingtoT1}
 
-$X$ is [[T1-space|$T_1$]] (or *accessible* or *Fréchet*) if any two distinct points in $X$ are separated, i.e.
+$X$ is [[T1-space|$T_1$]] (or *accessible* or *Fréchet*) if any two distinct points in $X$ are separated, i.e.,
 
    $$
      \{x{\searrow}y\} \longrightarrow  \{x=y\}
@@ -1570,12 +1575,11 @@ $X$ is [[T1-space|$T_1$]] (or *accessible* or *Fréchet*) if any two distinct po
      {X} \longrightarrow  \{*\}
    $$
 
- Thus, $X$ is T1 if and only if it is both T0 and R0: indeed, a morphism lifts wrt the composition 
+ Thus, $X$ is T1 if and only if it is both T0 and R0: indeed, a morphism lifts witg respect to the composition 
 $ \{x{\searrow}y\} \longrightarrow  \{x\leftrightarrow y\} \longrightarrow  \{x=y\}$
-iff it lifts wrt either one of the two morphisms. (Although you may
-say such things as "T1 space", "Frechet topology", and "Suppose that the
+iff it lifts with respect to either one of the two morphisms. (Although you may say such things as "T1 space", "Frechet topology", and "Suppose that the
 topological space $X$ is Frechet", avoid saying "Frechet space" in this
-context, since there is another entirely different notion of Frechet space in
+context, since there is another entirely different notion of a Frechet space in
 functional analysis.)
 
 
@@ -1667,7 +1671,7 @@ The same property is also defined by the following diagrams:
   \ast
 \end{tikzcd}
 
-### Reregular spaces ($R_1$)
+### Preregular spaces ($R_1$)
 
 $X$ is R1, or preregular, if any two topologically distinguishable points in X are separated by neighbourhoods. Every R1 space is also R0.
 
