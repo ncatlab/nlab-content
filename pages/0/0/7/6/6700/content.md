@@ -68,7 +68,7 @@ such that
 
    is a [[natural isomorphism]].
 
-1. normalization: for $X = S^2$ the [[Riemann sphere]] we have $E(S^1) = 1$ (the[[tensor unit]] vector space).
+1. normalization: for $X = S^2$ the [[Riemann sphere]] we have $E(S^1) = 1$ (the [[tensor unit]] vector space).
 
 =--
 
