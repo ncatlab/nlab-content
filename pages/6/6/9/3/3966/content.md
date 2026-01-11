@@ -1,6 +1,3 @@
-
-
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -27,7 +24,7 @@ The combination of an [[exterior derivative]] with a [[covariant derivative]].
 ## Definition
 
 ### Definition on vector bundles
-Let $p: E \to M$ be a [[vector bundle]] with a linear [[connection on a bundle|connection]] given by the [[covariant derivative]] $\nabla: \Gamma(T M) \times \Gamma(E) \to \Gamma(E)$. We let $\Omega(M, E)$ be the space of all [[differential form#twisted|differential forms with values in]] $E$. To define the exterior covariant derivative, we take the explicit formula of the [[exterior derivative]], and replace the usual [[derivative]] with the convariant derivative.
+Let $p: E \to M$ be a [[vector bundle]] with a linear [[connection on a bundle|connection]] given by the [[covariant derivative]] $\nabla: \Gamma(T M) \times \Gamma(E) \to \Gamma(E)$. We let $\Omega(M, E)$ be the space of all [[differential form#twisted|differential forms with values in]] $E$. To define the exterior covariant derivative, we take the explicit formula of the [[exterior derivative]], and replace the usual [[derivative]] with the covariant derivative.
 
 +-- {: .num_defn #DerivVect}
 ###### Definition
@@ -87,7 +84,7 @@ The [[restriction]] of $\mathrm{d}_{\omega}$ to $\Omega^k_{\rho}(P,V)$ can be de
 $$
 \mathrm{d}_{\omega}(\psi) = \mathrm{d}\psi + \omega \wedge_{\mathrm{d}\rho} \psi\text{.}
 $$
-Here we have used the following general notation: if $U,V,W$ are vector spaces, $\varphi \in \Omega^p(M,V)$, $\psi\in\Omega^q(M,W)$ and $f: V \times W \to U$ is a linear map, we have $\varphi \wedge_{f} \psi \in \Omega^{p+q}(M,U)$. 
+Here we have used the following general notation: if $U,V,W$ are vector spaces, $\varphi \in \Omega^p(M,V)$, $\psi\in\Omega^q(M,W)$ and $f: V \times W \to U$ is a bilinear map, we have $\varphi \wedge_{f} \psi \in \Omega^{p+q}(M,U)$. 
 =--
 
 +-- {: .num_prop}
@@ -112,7 +109,7 @@ Note that a connection on the principal bundle $p: P \to M$ [[induced connection
 
 +-- {: .num_example}
 ###### Example
-$ $
+$\;$
 
 * The [[connection on a bundle|connection]] $\omega$ itself is not in $\Omega_{\mathrm{Ad}}^1(P,\mathfrak{g})$: it is not horizontal.
 
