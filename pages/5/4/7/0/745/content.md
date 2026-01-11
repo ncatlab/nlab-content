@@ -174,8 +174,8 @@ In terms of the imagery of [[loop space objects]], the comma category is the cat
 
 ### Completeness and cocompleteness
 
-If $C$ and $D$ are [[cocomplete category|cocomplete]] and $f: C \to E$ is [[cocontinuous functor|cocontinuous]] and $g: D \to E$ is an arbitrary functor (not necessarily cocontinuous) then the comma category $(f/g)$ is cocomplete. 
-Similarly, as $(f/g)^{op}\cong (g^{op}/f^{op})$, if $C$ and $D$ are [[complete category|complete]] and $g: D \to E$ is [[continuous functor|continuous]] and $f: C \to E$ is an arbitrary functor (not necessarily continuous) then the comma category $(f/g)$ is complete.
+If $C$ and $D$ are [[cocomplete category|cocomplete]] and $f: C \to E$ is [[cocontinuous functor|cocontinuous]] and $g: D \to E$ is an arbitrary functor (not necessarily cocontinuous) then the comma category $(f/g)$ is cocomplete and the projection functors are cocontinuous.
+Similarly, as $(f/g)^{op}\cong (g^{op}/f^{op})$, if $C$ and $D$ are [[complete category|complete]] and $g: D \to E$ is [[continuous functor|continuous]] and $f: C \to E$ is an arbitrary functor (not necessarily continuous) then the comma category $(f/g)$ is complete and the projection functors are continuous.
 
 For a proof, see 
 
