@@ -69,7 +69,7 @@ $$
 $$
 is defined by
 $$
-(\mathrm{d}_{\omega}\psi)_q(v_1,\dots,v_k) := (\mathrm{d}\varphi)_q(H v_1,\dots,H v_k).
+(\mathrm{d}_{\omega}\psi)_q(v_1,\dots,v_k) := (\mathrm{d}\psi)_q(H v_1,\dots,H v_k).
 $$
 =--
 
@@ -89,7 +89,7 @@ Here we have used the following general notation: if $U,V,W$ are vector spaces, 
 
 +-- {: .num_prop}
 ###### Proposition
-Unlike the usual [[exterior derivative]], the exterior covariant derivative need not be [[nilpotent]] in general. Instead, we have
+Unlike the usual [[exterior derivative]], the exterior covariant derivative need not be [[nilpotent]] in general. Instead, for $\psi\in\Omega^k_{\rho}(P,V)$ we have
 $$
 \mathrm{d}_{\omega}(\mathrm{d}_{\omega}(\psi)) = \Omega \wedge_{\mathrm{d}\rho} \psi.
 $$
