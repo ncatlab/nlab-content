@@ -38,6 +38,9 @@ The [[trivial group]] with $a \vert b = a \cdot b$ is a midpoint algebra.
 
 ## Related concepts
 
+
+* [[convex space]]
+
 * [[commutative magma]]
 
 * [[cancellative midpoint algebra]]
