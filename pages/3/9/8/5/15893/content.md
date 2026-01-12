@@ -160,7 +160,7 @@ Niziol's [[algebraic K-theory|K-theoretic]] proof:
 
 * [[Bhargav Bhatt]], _p-adic derived de Rham cohomology_, [arXiv:1204.6560](http://arxiv.org/abs/1204.6560).
 
-* [[Luc Illusie]], _Around the Poincar&#233; lemma, after Beilinson_ (Preliminary notes), 2013, [pdf](http://www.math.u-psud.fr/~illusie/derived-deRham3.pdf).
+* [[Luc Illusie]], _Around the Poincar&#233; lemma, after Beilinson_ (Preliminary notes), 2013, [pdf](https://www.imo.universite-paris-saclay.fr/~luc.illusie/derived-deRham3a1.pdf).
 
 * {#BeilinsonLectures2014} [[Alexander Beilinson]], _p-adic Hodge theory_, lectures from Yaroslavl' summer school 2014, [videos](http://bogomolov-lab.ru/SHKOLA2014/talks/beilinson.html).
 
