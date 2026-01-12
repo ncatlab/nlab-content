@@ -67,7 +67,7 @@ Review:
 * [[Alexandre Deur]], [[Stanley Brodsky]], [[Guy de Teramond]], Section 4.2 of: *The QCD Running Coupling*, Prog. Part. Nuc. Phys. 90 1 (2016) ([arXiv:1604.08082](https://arxiv.org/abs/1604.08082), [doi:10.1016/j.ppnp.2016.04.003](https://doi.org/10.1016/j.ppnp.2016.04.003))
 
 
-* {#ZhouDosch18} Liping Zou, [[Hans Günter Dosch]], _A very Practical Guide to Light Front Holographic QCD_, ([arXiv:1801.00607](https://arxiv.org/abs/1801.00607))
+* {#ZhouDosch18} Liping Zou, [[Hans Günter Dosch]]: *A very Practical Guide to Light Front Holographic QCD* &lbrack;[arXiv:1801.00607](https://arxiv.org/abs/1801.00607)&rbrack;
 
 * [[Stanley Brodsky]], _Color Confinement and Supersymmetric Properties of Hadron Physics from Light-Front Holography_, International Conference on Beauty, Charm and Hyperon Hadrons (BEACH 2018) 17–23 June 2018, Peniche, Portugal ([arXiv:1912.12578](https://arxiv.org/abs/1912.12578))
 
