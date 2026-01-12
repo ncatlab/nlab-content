@@ -71,6 +71,8 @@ The case of double gluing along hom-functors, discussed above, is the case when 
 
 ## References
 
+* Audrey M. Tan, Full Completeness for models of Linear Logic, PhD thesis, Cambridge (1997) &lbrack;[pdf](/nlab/files/FullCompletenessForModelsOfLinearLogicTan.pdf)&rbrack;
+
 * {#HylandSchalk} [[Martin Hyland]] and Andrea Schalk, _Glueing and orthogonality for models of linear logic_, Theoretical Computer Science 294 (2003) 183–231 ([pdf](https://core.ac.uk/download/pdf/21173316.pdf))
  
 * [[Aleks Kissinger]] and Sander Uijlen, _A  categorical semantics for causal structure_. Arxiv [1701.04732](https://arxiv.org/abs/1701.04732).
