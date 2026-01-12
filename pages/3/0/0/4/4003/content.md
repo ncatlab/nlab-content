@@ -135,7 +135,7 @@ The final dependent product gives the output of the polynomial functor, which is
 
 In the above proof, the only place that the existence of arbitrary pullbacks in a lextensive category was used is in constructing the general dependent product along the codiagonal. Obviously one still needs finite products, just to get off the ground. For the purposes of expressing the literal polynomial as a polynomial functor, this dependent product only needs to be applied to the projection map $(Y\sqcup Y) \times S \to (Y\sqcup Y)$. Thus, while $\Pi_{\nabla_{Y_n}}$ may not exist in a general _extensive_ category with binary products, the composite $\Pi_{\nabla_{Y_n}}\circ (Y\sqcup Y)^*$ does. The extent to which such an endofunctor deserves to be called a polynomial endofunctor is up for debate.
 
-In a lextensive category with _countable_ coproducts (and the corresponding compatibility with pullbacks), for instance an [[infinitary pretopos]], one can extend the above example to endofunctors of the form
+In a _countably_ lextensive category, i.e. with _countable_ coproducts and the corresponding compatibility with pullbacks, for instance an [[infinitary pretopos]], one can extend the above example to endofunctors of the form
 $$
   S \mapsto  \coprod_{n=0}^\infty Y_n\times S^n\,,
 $$
