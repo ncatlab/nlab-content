@@ -201,8 +201,10 @@ Discussion of [[hadron supersymmetry]] via [[light cone gauge|light cone]] [[sup
 * {#BTDL16}  [[Stanley Brodsky]], [[Guy de Téramond]], [[Hans Günter Dosch]], Cédric Lorcé, _Meson/Baryon/Tetraquark Supersymmetry from Superconformal Algebra and Light-Front Holography_, International Journal of Modern Physics AVol. 31, No. 19, 1630029 (2016) ([arXiv:1606.04638](https://arxiv.org/abs/1606.04638))
 
 
-
 * [[Hans Günter Dosch]], [[Guy de Teramond]], [[Stanley Brodsky]], _Supersymmetry Across the Light and Heavy-Light Hadronic Spectrum II_, Phys. Rev. D 95, 034016 (2017) ([arXiv:1612.02370](https://arxiv.org/abs/1612.02370))
+
+* {#ZhouDosch18} Liping Zou, [[Hans Günter Dosch]], section 5 of: *A very Practical Guide to Light Front Holographic QCD* &lbrack;[arXiv:1801.00607](https://arxiv.org/abs/1801.00607)&rbrack;
+
 
 * {#NielsenBrodsky18} [[Marina Nielsen]], [[Stanley Brodsky]], _Hadronic Superpartners from Superconformal and Supersymmetric Algebra_, Phys. Rev. D 97, 114001 (2018) ([arXiv:1802.09652](https://arxiv.org/abs/1802.09652), [doi:10.1103/PhysRevD.97.114001](https://journals.aps.org/prd/references/10.1103/PhysRevD.97.114001))
 
