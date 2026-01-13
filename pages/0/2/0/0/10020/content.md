@@ -154,6 +154,11 @@ See also
 * Giorgio Belleri, [[Matthias R. Gaberdiel]]: 
 *D-Branes in $Ads_3 \times S^3 \times S^3 \times S^1$* &lbrack;[arXiv:2506.15776](https://arxiv.org/abs/2506.15776)&rbrack;
 
+Review:
+
+* [[Nicolas Kovensky]]: *Lecture notes on strings in $AdS_3$ from the worldsheet and the $AdS_3/CFT_2$ duality* &lbrack;[arXiv:2601.06697](https://arxiv.org/abs/2601.06697)&rbrack;
+
+
 
 
 
