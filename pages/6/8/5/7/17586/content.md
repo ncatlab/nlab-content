@@ -1,7 +1,9 @@
-[[!redirects Yves Felix]]
 
 
-* [webpage](http://uclouvain.be/yves.felix)
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=87123)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Yves-Felix-9769747)
+
 
 ## Selected writings
 
@@ -31,8 +33,10 @@ On rational models for [[spherical fibrations]] and [[Thom spaces]]:
 
 On [[rational parametrized stable homotopy theory]]:
 
+* {#FelixMurilloTanre10} [[Yves Félix]], [[Aniceto Murillo]], [[Daniel Tanré]], _Fibrewise stable rational homotopy_, Journal of Topology **3** 4 (2010) 743–758 &lbrack;[doi:10.1112/jtopol/jtq023](https://doi.org/10.1112/jtopol/jtq023)&rbrack;
 
-* {#FelixMurilloTanre10} [[Yves Félix]], Aniceto Murillo [[Daniel Tanré]], _Fibrewise stable rational homotopy_, Journal of Topology, Volume 3, Issue 4, 2010, Pages 743–758 ([doi:10.1112/jtopol/jtq023](https://doi.org/10.1112/jtopol/jtq023))
+* [[Yves Félix]], [[Aniceto Murillo]], Alejandro Saiz: *A new approach to rational stable parametrized homotopy theory* &lbrack;[arXiv:2509.11393](https://arxiv.org/abs/2509.11393)&rbrack;
+
 
 On [[rational models of mapping spaces]]:
 
@@ -58,3 +62,6 @@ On the Quillen Lie model of [[rational homotopy theory]]:
 * [[Sullivan model of free loop space]]
 
 category: people
+
+[[!redirects Yves Felix]]
+
