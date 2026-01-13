@@ -288,7 +288,7 @@ Discussion of rational fiberwise [[suspension spectra]]:
 
 * [[Michael C. Crabb]], [[Ioan Mackenzie James]], around Prop. 15.8 of: *Fiberwise homotopy theory*, Springer Monographs in Mathematics, Springer (1998) $[$[doi:10.1007/978-1-4471-1265-5](https://doi.org/10.1007/978-1-4471-1265-5), [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/crabbjames.pdf) ,[pdf](https://www.gbv.de/dms/ilmenau/toc/243540361.PDF)$]$
 
-* [[Yves Félix]], Aniceto Murillo [[Daniel Tanré]], _Fibrewise stable rational homotopy_, Journal of Topology, Volume 3, Issue 4, 2010, Pages 743–758 ([doi:10.1112/jtopol/jtq023]( https://doi.org/10.1112/jtopol/jtq023))
+* [[Yves Félix]], [[Aniceto Murillo]] [[Daniel Tanré]]: *Fibrewise stable rational homotopy*, Journal of Topology, **3** 4 (2010) 743–758 &lbrack;[doi:10.1112/jtopol/jtq023](https://doi.org/10.1112/jtopol/jtq023)&rbrack;
 
 
 A discussion of full-blown rational parametrized stable homotopy theory is due to
@@ -304,6 +304,9 @@ Application to mathematical analysis of [[duality between M-theory and type IIA 
 
 * [[Vincent Braunack-Mayer]], _[[schreiber:Parametrised homotopy theory and gauge enhancement]]_, talk at _[Higher Structures in M-Theory](http://www.maths.dur.ac.uk/lms/109/index.html)_ Durham Symposium 2018 , Fortschritte der Physik (2019) ([doi:10.1002/prop.201910003](https://onlinelibrary.wiley.com/doi/abs/10.1002/prop.201910003)m [arXiv:1903.02862](https://arxiv.org/abs/1903.02862))
 
+Further development:
+
+* [[Yves Félix]], [[Aniceto Murillo]], Alejandro Saiz: *A new approach to rational stable parametrized homotopy theory* &lbrack;[arXiv:2509.11393](https://arxiv.org/abs/2509.11393)&rbrack;
   
 
 
