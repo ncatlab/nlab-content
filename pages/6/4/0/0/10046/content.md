@@ -22,7 +22,7 @@ Let $P$ be a [[poset]] with [[directed joins]].
 
 +-- {: .un_defn}
 ###### Definition
-For $a, b \in P$, we say that $a$ is **way below** $b$ and write $a \ll b$ if whenever $S \subseteq P$ is a [[directed subset]] and $b \leq \bigvee S$ (where $\bigvee S$ denotes the [[join]] of $S$), then there exists $s \in S$ with $a \leq s$.
+For $a, b \in P$, we say that $b$ is **way below** $a$ and write $b \ll a$ if whenever $S \subseteq P$ is a [[directed subset]] and $a \leq \bigvee S$ (where $\bigvee S$ denotes the [[join]] of $S$), then there exists $s \in S$ with $b \leq s$.
 =--
 
 +-- {: .un_defn}
@@ -74,7 +74,7 @@ Between continuous lattices, we may use the same morphisms; or we may more gener
 
 ## Examples
 
-* In [Freyd08](#Freyd08) in [[constructive mathematics]] an [[interval coalgebra]] is a [[continuous poset]] and the [[unit interval]] is the terminal interval coalgebra. 
+* In ([Freyd 2008](#Freyd08)) in [[constructive mathematics]] an [[interval coalgebra]] is a [[continuous poset]] and the [[unit interval]] is the terminal interval coalgebra. 
 
 * A [[locale]] is called [[locally compact locale|locally compact]] just when the corresponding [[frame]] is a continuous lattice. This is equivalently to being an [[exponentiable object|exponentiable]] in the [[category of locales]]. A [[continuous map]] between such locales is [[proper map|proper]] iff its [[direct image]] function (which is always an [[inflattice]] morphism) is [[Scott topology|Scott-continuous]].
 
