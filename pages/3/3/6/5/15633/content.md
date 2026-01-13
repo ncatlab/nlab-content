@@ -30,6 +30,8 @@ In generality of its transformation properties, parastatistics is in-between ord
 
 * [[bosons]], [[fermions]], [[parafermion]]
 
+* [[spin-statistics theorem]]
+
 * [[braid group statistics]], [[anyons]]
 
 
