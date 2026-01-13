@@ -43,6 +43,8 @@ In the [[Haag-Kastler approach]] ("[[algebraic quantum field theory]]") the [[Bi
 
 * [[Atiyah-Sutcliffe conjecture]]
 
+* [[Pauli principle]]
+
 * [[PCT theorem]]
 
 * [[parastatistics]]
@@ -54,6 +56,7 @@ In the [[Haag-Kastler approach]] ("[[algebraic quantum field theory]]") the [[Bi
 ## References
 
 ### For relativistic fields
+ {#ReferencesForRelativisticFields}
 
 The original formulation of the spin-statistics theorem in [[relativistic field theory]]:
 
@@ -98,11 +101,13 @@ See also:
 * Wikipedia: *[Spin-statistics theorem](https://en.wikipedia.org/wiki/Spin%E2%80%93statistics_theorem)*
 
 ### For nonrelativistic particles
+ {#ReferencesForNonrelativisticParticles}
 
 [[!include spin-statistics via configuration spaces -- references]]
 
 
 ### For topological fields
+ {#ForTopologicalFields}
  
 Discussion relating the spin-statistics theorem to [[extended topological field theory]], [[categorification]] (via [[2-rings]]) and [[Deligne's theorem on tensor categories]]:
 
