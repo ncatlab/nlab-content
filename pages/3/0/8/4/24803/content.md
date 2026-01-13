@@ -34,6 +34,8 @@ One way to realize [[qbits]] (in [[quantum information theory]] and [[quantum co
 
 ### General
 
+* [[Malcolm H. Levitt]]: *Spin Dynamics: Basics of Nuclear Magnetic Resonance*, Wiley (2008) &lbrack;[ISBN:978-0-470-51117-6](https://www.wiley.com/en-ae/Spin+Dynamics%3A+Basics+of+Nuclear+Magnetic+Resonance%2C+2nd+Edition-p-9780470511176)&rbrack; 
+
 See also
 
 * Wikipedia, *[Nuclear magnetic resonance](https://en.wikipedia.org/wiki/Nuclear_magnetic_resonance)*
