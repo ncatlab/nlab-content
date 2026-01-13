@@ -14,7 +14,7 @@ On [[nuclear magnetic resonance]]:
 
 * [[Malcolm H. Levitt]]: *Spin Dynamics: Basics of Nuclear Magnetic Resonance*, Wiley (2008) &lbrack;[ISBN:978-0-470-51117-6](https://www.wiley.com/en-ae/Spin+Dynamics%3A+Basics+of+Nuclear+Magnetic+Resonance%2C+2nd+Edition-p-9780470511176)&rbrack; 
 
-On [endofullerens](https://en.wikipedia.org/wiki/Endohedral_fullerene):
+On [endofullerenes](https://en.wikipedia.org/wiki/Endohedral_fullerene):
 
 * G.R. Bacanu, “Spectroscopy of non-metallic $C_{60}$-endofullerenes,” Chem. Phys. Rev. 6(3), 031307 (2025); [doi.org/10.1063/5.0286718](http://doi.org/10.1063/5.0286718)
 
