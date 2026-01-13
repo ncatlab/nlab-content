@@ -1,7 +1,7 @@
 
 * [personal page](https://nicokov.github.io/)
 
-* [InSpire page](https://inspirehep.net/authors/1757361)
+* [inSpire page](https://inspirehep.net/authors/1757361)
 
 ## Selected writings
 
@@ -14,5 +14,9 @@ On predictions of [[holographic QCD]] in comparison to [[lattice QCD]]:
 
 * {#KovenskySchmitt24} [[Nicolas Kovensky]], [[Andreas Schmitt]]: *Thermal pion condensation: holography meets lattice QCD* &lbrack;[arXiv:2407.12641](https://arxiv.org/abs/2407.12641)&rbrack;
 
+On [[AdS3/CFT2 duality|$AdS_3/CFT_2$ duality]]:
 
-Category: people
+* [[Nicolas Kovensky]]: *Lecture notes on strings in $AdS_3$ from the worldsheet and the $AdS_3/CFT_2$ duality* &lbrack;[arXiv:2601.06697](https://arxiv.org/abs/2601.06697)&rbrack;
+
+
+category: people
