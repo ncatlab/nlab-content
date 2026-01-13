@@ -65,3 +65,6 @@ An interpretation of the [[s-rule]] for [[D-brane|D-]][[brane intersections]] wi
 * [[Constantin Bachas]], [[Michael Green]], _A Classical Manifestation of the Pauli Exclusion Principle_, JHEP 9801 (1998) 015 ([arXiv:hep-th/9712187](https://arxiv.org/abs/hep-th/9712187))
 
 
+[[!redirects Pauli principle]]
+
+
