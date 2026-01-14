@@ -66,15 +66,18 @@ The "S-model structure" (also called "flat model structure" in [Schwede 12, part
 
 * [[Brooke Shipley]], _A Convenient Model Category for Commutative Ring Spectra_, 2003 ([web](https://www.semanticscholar.org/paper/A-Convenient-Model-Category-for-Commutative-Ring-Shipley/ae906091dab8b64213f94b8ecc8047c37be20144))
 
-See also
+Another proof, beyond ([Hovey-Shipley-Smith 00](#HoveyShipleySmith00)), of the Quillen equivalence to the [[Bousfield-Friedlander model structure]] is due to
+
+* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], theorem 0.1 of _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society **82** (2001) 441-512 &lbrack;[pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf)&rbrack;
+
+See also:
 
 * {#Hovey00} [[Mark Hovey]], *Spectra and symmetric spectra in general model categories*, Journal of Pure and Applied Algebra **165** 1 (2001) 63-127 &lbrack;[arXiv:0004051](http://arxiv.org/abs/math/0004051), <a href="https://doi.org/10.1016/S0022-4049(00)00172-9">doi:10.1016/S0022-4049(00)00172-9</a>&rbrack;
 
-Another proof, beyond ([Hovey-Shipley-Smith 00](#HoveyShipleySmith00)), of the Quillen equivalence to the [[Bousfield-Friedlander model structure]] is due to
+* [[Cary Malkiewich]], Maru Sarazola: *A concise proof of the stable model structure on symmetric spectra* &lbrack;[arXiv:2402.04220](https://arxiv.org/abs/2402.04220)&rbrack;
 
-* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], theorem 0.1 of _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
-The Quillen equivalence to the [[model structure on S-modules]] is due to 
+The [[Quillen equivalence]] to the [[model structure on S-modules]] is due to 
 
 * {#Schwede01} [[Stefan Schwede]], _S-modules and symmetric spectra_, Math. Ann. 319, 517&#8211;532 (2001) ([pdf](http://www.math.uni-bonn.de/people/schwede/comparison.pdf))
 
