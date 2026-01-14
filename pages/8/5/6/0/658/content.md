@@ -45,7 +45,7 @@ Note that the convention that a profunctor is a functor $D^{op}\times C \to Set$
 
 Consider a profunctor $F \colon C \times D $&#8696;$ E$. By definition, this is encoded in an ordinary functor $H_F \colon E^{op} \times (C \times D) \to Set$. But since the categorical product is commutative and associative (up to isomorphism), we may equivalently view this as a functor $(E \times D^{op})^{op} \times C \to Set$; here we use the self-adjointness of the [[opposite category]] construction to replace $E^{op} \times D$ with $(E \times D^{op})^{op}$.
 
-In other words, there is a natural correspondence between profunctors $C \times D $&#8696;$ E$ and profunctors $C $&#8696;$ D^{op} \times E$ - compare the analogous result for finite-dimensional vector spaces, where there is a natural correspondence between linear maps $V \otimes W \to Z$ and linear maps $V \to W^* \otimes Z$.
+In other words, there is a natural correspondence between profunctors $C \times D $&#8696;$ E$ and profunctors $C $&#8696;$ D^{op} \times E$ - compare the analogous result for finite-dimensional vector spaces, where there is a natural correspondence between linear maps $V \otimes W \to Z$ and linear maps $V \to W^* \otimes Z$. The latter is an example of a [[compact closed category]], while the former is an example of a [[compact closed 2-category]].
 
 In particular, using the isomorphism $X \cong X \times 1$, where $1$ is the terminal category and $X$ is any category, any profunctor $F \colon C $&#8696;$ D$ naturally induces 3 others:
 
