@@ -384,7 +384,7 @@ A survey of homotopy type theory aimed at [[formal logic|logicians]] and [[philo
 
 and one with an emphasis on [[synthetic geometry]]:
 
-* {#Shulman17} [[Michael Shulman]], _Homotopy type theory: the logic of space_, in [[Gabriel Catren]], [[Mathieu Anel]] (eds.) _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
+* {#Shulman17} [[Michael Shulman]]: _Homotopy type theory: the logic of space_, in: [[Gabriel Catren]], [[Mathieu Anel]] (eds.): _[[New Spaces for Mathematics and Physics]] -- Formal and Conceptual Reflections_, Cambridge University Press (2021) 322--404 &lbrack;[arXiv:1703.03007](https://arxiv.org/abs/1703.03007), [doi:10.1017/9781108854429.009](https://doi.org/10.1017/9781108854429.009)&rbrack;
 
 More technical introductions:
 
