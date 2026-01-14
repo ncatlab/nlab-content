@@ -11,7 +11,6 @@
 =--
 
 
-
 \tableofcontents
 
 
@@ -44,11 +43,10 @@ Proof that the volume-preserving [[diffeomorphism group]] of [[Cartesian space]]
 ### As symmetries of brane dynamics
  {#ReferencesAsSymmetriesOfBraneDynamics}
 
-On volume-preserving diffeomoprhisms as residual [[gauge symmetries]] of [[brane]] [[sigma-models]] in [[light cone gauge]]:
+On volume-preserving diffeomorphisms as residual [[gauge symmetries]] of [[brane]] [[sigma-models]] in [[light cone gauge]]:
 
-* [[Eric Bergshoeff]], [[Ergin Sezgin]], Y. Tanii, [[Paul K. Townsend]]: *Super $p$-branes as gauge theories of volume preserving diffeomorphisms*, Annals of Physics **199** 2 (1990) 340-365 \[<a href="https://doi.org/10.1016/0003-4916(90)90381-W">doi:10.1016/0003-4916(90)90381-W</a>, [[BSTT-BraneVPD.pdf:file]]\]
 
-Discussion specifically for the [[M2-brane]] [[sigma-model]] (cf. *[M2-brane -- Light-cone quantization to the BFSS matrix model](M2-brane#LightConeQuantizationOfM2BranesToBFSSMatrixModel)*):
+On APD symmetry of the [[M2-brane]] [[sigma-model]] (cf. *[M2-brane -- Light-cone quantization to the BFSS matrix model](M2-brane#LightConeQuantizationOfM2BranesToBFSSMatrixModel)*):
 
 * {#FloratosIliopoulos1988} [[Emmanuel G. Floratos]], [[John Iliopoulos]]: *A note on the classical symmetries of the closed bosonic membranes*, Physics Letters B **201** 2 (1988) 237-240 \[<a href="https://doi.org/10.1016/0370-2693(88)90220-1">doi:10.1016/0370-2693(88)90220-1</a>\]
 
@@ -57,10 +55,34 @@ Discussion specifically for the [[M2-brane]] [[sigma-model]] (cf. *[M2-brane -- 
 
 * [[Bernard de Wit]], U. Marquard, [[Hermann Nicolai]]: *Area-preserving diffeomorphisms and supermembrane Lorentz invariance*,  Commun. Math. Phys. **128** (1990) 39–62 \[<a href="https://doi.org/10.1007/BF02097044">doi:10.1007/BF02097044</a>, [inSpire:277216](https://inspirehep.net/literature/277216)\]
 
+Generalization to VPD symmetry of the higher-dimensional [[super p-branes]] without gauge fields on their [[worldvolume]]:
+
+* [[Eric Bergshoeff]], [[Ergin Sezgin]], Y. Tanii, [[Paul K. Townsend]]: *Super $p$-branes as gauge theories of volume preserving diffeomorphisms*, Annals of Physics **199** 2 (1990) 340-365 \[<a href="https://doi.org/10.1016/0003-4916(90)90381-W">doi:10.1016/0003-4916(90)90381-W</a>, [[BSTT-BraneVPD.pdf:file]]\]
 
 See also:
 
 * Y. Matsuo, Y. Shibusa: *Volume Preserving Diffeomorphism and Noncommutative Branes*, JHEP 0102:006 (2001) &lbrack;[arXiv:hep-th/0010040](https://arxiv.org/abs/hep-th/0010040)&rbrack;
+
+On VPD symmetry in an [[M5-brane]] [[sigma-model]] obtained as a boundary theory for open [[M2-branes]] and controlled by a [[Nambu bracket]] as it appears in the latter's [[BLG model]]:
+
+* Pei-Ming Ho, Yosuke Imamura, Yutaka Matsuo, Shotaro Shiba; section 4 of: *M5-brane in three-form flux and multiple M2-branes*, JHEP 0808:014 (2008) &lbrack;[arXiv:0805.2898](https://arxiv.org/abs/0805.2898), [doi:10.1088/1126-6708/2008/08/014](https://doi.org/10.1088/1126-6708/2008/08/014)&rbrack;
+
+
+* Pei-Ming Ho, Chi-Hsien Yeh; section 2 of: *D-brane in R-R Field Background*, JHEP 1103:143 (2011) &lbrack;[arXiv:1101.4054](https://arxiv.org/abs/1101.4054)&rbrack;
+
+
+* Pei-Ming Ho, Chen-Te Ma, Chi-Hsien Yeh; section 2.2.1 of: *BPS States on M5-brane in Large $C$-field Background* &lbrack;[arXiv:1206.1467](https://arxiv.org/abs/1206.1467)&rbrack;
+
+
+Review:
+
+* Pei-Ming Ho; section 3.2.1 of: *A Concise Review on M5-brane in Large $C$-Field Background*, Chin. J. Phys. **48** 1 (2010) &lbrack;[arXiv:0912.0445](https://arxiv.org/abs/0912.0445)&rbrack;
+
+* Pei-Ming Ho, Yutaka Matsuo; section 4.3 of: *Nambu bracket and M-theory*, Prog Theor Exp Phys (2016) &lbrack;[arXiv:1603.09534](https://arxiv.org/abs/1603.09534)&rbrack;
+
+
+
+
 
 
 ### As symmetries of unimodular gravity
