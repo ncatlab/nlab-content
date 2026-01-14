@@ -35,6 +35,10 @@ On the [[parameterized stable homotopy theory]] of [[parameterized spectra]]:
 On the [[Dennis trace]] on [[algebraic K-theory]] and relating to [[bicategorical trace]]:
 
 * {#CLMPZ20} [[Jonathan Campbell]], [[John Lind]], [[Cary Malkiewich]], [[Kate Ponto]], [[Inna Zakharevich]], _K-theory of endomorphisms, the TR-trace, and zeta functions_ &lbrack;[arXiv:2005.04334](https://arxiv.org/abs/2005.04334)&rbrack;
+
+On the [[model structure on symmetric spectra]]:
+
+* [[Cary Malkiewich]], Maru Sarazola: *A concise proof of the stable model structure on symmetric spectra* &lbrack;[arXiv:2402.04220](https://arxiv.org/abs/2402.04220)&rbrack;
  
 
 ## Related entries
