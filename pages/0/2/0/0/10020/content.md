@@ -154,12 +154,11 @@ See also
 * Giorgio Belleri, [[Matthias R. Gaberdiel]]: 
 *D-Branes in $Ads_3 \times S^3 \times S^3 \times S^1$* &lbrack;[arXiv:2506.15776](https://arxiv.org/abs/2506.15776)&rbrack;
 
+* Alexandre Belin, [[Scott Collier]], [[Lorenz Eberhardt]], Diego Liska, Boris Post: *A universal sum over topologies in 3d gravity* \[<a href="https://arxiv.org/abs/2601.07906">arXiv:2601.07906</a>\]
+
 Review:
 
 * [[Nicolas Kovensky]]: *Lecture notes on strings in $AdS_3$ from the worldsheet and the $AdS_3/CFT_2$ duality* &lbrack;[arXiv:2601.06697](https://arxiv.org/abs/2601.06697)&rbrack;
-
-
-
 
 
 Relation of [[AdS3/CFT2]] to [[hyperbolic geometry]] and [[Arakelov geometry]] of [[algebraic curves]]:
