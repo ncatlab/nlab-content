@@ -75,7 +75,9 @@ Instead, as explained in [math.SE:a/3564754](https://math.stackexchange.com/a/35
 \begin{example}\label{AdjointMonadsInducedFromAdjointTriples}
 **(adjoint monads induced from adjoint triples of adjoint functors)**
 \linebreak
-Every [[adjoint triple]] (of [[adjoint functors]]) $F^*\dashv F_* \dashv F^!$ [induces](monad#RelationBetweenAdjunctionsAndMonads) an [[adjoint pair]] $F_* F^*\dashv F_* F^!$. The endofunctor $F_* F^*$ is underlying a monad induced by the adjunction $F^*\dashv F_*$ and $F_* F^!$ is underlying a comonad induced by the adjuntion $F_*\dashv F^!$. This pair of a monad and a comonad are adjoint. 
+Every [[adjoint triple]] (of [[adjoint functors]]) $F^*\dashv F_* \dashv F^!$, where $F^* : A \to B$ [induces](monad#RelationBetweenAdjunctionsAndMonads) an [[adjoint pair]] $F_* F^*\dashv F_* F^!$. The endofunctor $F_* F^*$ is underlying a monad on $A$ induced by the adjunction $F^*\dashv F_*$ and $F_* F^!$ is underlying a comonad on $A$ induced by the adjunction $F_*\dashv F^!$. Here, the induced monad is left-adjoint to the induced comonad.
+
+Dually, the same adjoint triple induces an adjoint pair $F^* F_* \dashv F^! F_*$ exhibiting the induced comonad on $B$ that is left-adjoint to the induced monad on $B$.
 \end{example}
 
 (See also at *[[adjoint modality]]*.)
