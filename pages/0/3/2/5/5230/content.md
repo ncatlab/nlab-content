@@ -41,13 +41,17 @@ One example that naturally gives rise to Nambu mechanics is the relativistic [[m
 
 ### General
 
-Nambu mechanics and Nambu brackets were introduced in 
+The original article:
 
-* [[Yoichiro Nambu]], _Generalized Hamiltonian dynamics_, Phys. Rev. D (3) 7 (1973), p. 2405-2412 [MR455611](http://www.ams.org/mathscinet-getitem?mr=455611) [doi](http://dx.doi.org/10.1103/PhysRevD.7.2405) [Zbl](http://www.zentralblatt-math.org/zmath/en/search/?q=an:1027.70503)
+* [[Yoichiro Nambu]]: _Generalized Hamiltonian dynamics_, Phys. Rev. D **3** 7 (1973) 2405-2412 &lbrack;[doi:10.1103/PhysRevD.7.2405](http://dx.doi.org/10.1103/PhysRevD.7.2405), [MR455611](http://www.ams.org/mathscinet-getitem?mr=455611) [Zbl](http://www.zentralblatt-math.org/zmath/en/search/?q=an:1027.70503)&rbrack;
 
-Detailed analysis is in
 
-* [[Tamiaki Yoneya]], _Generalized Hamilton-Jacobi theory of Nambu Mechanics_ ([arXiv:1612.08509](https://arxiv.org/abs/1612.08509))
+Further discussion: 
+
+* [[Leon Takhtajan]]: *On Foundation of the Generalized Nambu Mechanics*, Commun. Math. Phys. **160** (1994) 295-316 &lbrack;[arXiv:hep-th/9301111](https://arxiv.org/abs/hep-th/9301111), [doi:10.1007/BF02103278](https://doi.org/10.1007/BF02103278)&rbrack;
+
+
+* [[Tamiaki Yoneya]], _Generalized Hamilton-Jacobi theory of Nambu Mechanics_ &lbrack;[arXiv:1612.08509](https://arxiv.org/abs/1612.08509)&rbrack;
 
 * [[Tamiaki Yoneya]], _Lectures on Higher-Gauge Symmetries from Nambu Brackets and Covariantized M(atrix) Theory_,  lectures delivered in the workshop "[Higher Structure in String Theory and M-theory](http://www.tfc.tohoku.ac.jp/event/4123.html)", TFC Thematic Program, Fundamental Problems on Quantum Physics, Tohoku University (March 7-11, 2016), ([arXiv:1612.08513](https://arxiv.org/abs/1612.08513))
 
