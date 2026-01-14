@@ -424,6 +424,12 @@ identification then Feynman diagrams have a relation to [[proof nets]]. Somethin
 
 * [[Richard Blute]], [[Prakash Panangaden]], _Proof nets as formal Feynman diagrams_ ([pdf](http://www.indiana.edu/~iulg/qliqc/phi.pdf))
 
+### Other references
+
+For high-dimensional Feynman diagrams in the study of physical and biological networks:
+
+* Xiangyi Meng, Benjamin Piazza, Csaba Both, Baruch Barzel, Albert-László Barabási. *Surface optimization governs the local design of physical networks.* Nature 649, 315–322 (2026). &lbrack;[doi:10.1038/s41586-025-09784-4](https://doi.org/10.1038/s41586-025-09784-4)&rbrack;
+
 [[!redirects Feynman diagrams]]
 
 [[!redirects Feynman rule]]
