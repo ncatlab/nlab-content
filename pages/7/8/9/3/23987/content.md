@@ -3195,7 +3195,9 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   **Endofullerenes: Nano-scale test tubes for single molecules and atoms**
 
-  > Molecular [endofullerenes](https://en.wikipedia.org/wiki/Endohedral_fullerene) consist of symmetrical [[carbon]] cages, with each cage fully encapsulating a single [[atom]] or small [[molecule]]. These remarkable systems are synthesized by “molecular surgery” in whichmulti step organic syntheses lead to the opening of an orifice in each fullerene cage, the insertion of a molecule through the orifice, and the suturing of the cages. This leads to a molecular solid in which single atoms or molecules are fully confined but completely free to rotate and translate, even at cryogenic temperatures. Under these conditions the translational and rotational modes are fully [[quantization|quantized]], and in suitable cases are [[quantum entanglement|entangled]] with the [[nucleon|nuclear]] [[spin]] [[quantum state|states]] according to the [[Pauli principle]]. The quantized states of the confinedmolecules and atoms have been studied by cryogenic NMR, infrared spectroscopy,terahertz spectroscopy, and neutron scattering. As well as the “particle in abox” features of the molecular quantum mechanics, many of the systems displayspin isomerism, which may be studied by NMR, terahertz spectroscopy, infraredspectroscopy, and inelastic neutron scattering. We have also used endohedralnuclei such as 3He to study properties such as superconductivity in therubidium salts of fullerenes. I will review the main features of the quantummechanics and spectroscopy of these unique systems, and some of the physicalmethods which are used to study them.
+  slides: [[Levitt-CQTS2026.pdf:file]]
+
+  > Molecular [endofullerenes](https://en.wikipedia.org/wiki/Endohedral_fullerene) consist of symmetrical [[carbon]] cages, with each cage fully encapsulating a single [[atom]] or small [[molecule]]. These remarkable systems are synthesized by “molecular surgery” in which multi step organic syntheses lead to the opening of an orifice in each fullerene cage, the insertion of a molecule through the orifice, and the suturing of the cages. This leads to a molecular solid in which single atoms or molecules are fully confined but completely free to rotate and translate, even at cryogenic temperatures. Under these conditions the translational and rotational modes are fully [[quantization|quantized]], and in suitable cases are [[quantum entanglement|entangled]] with the [[nucleon|nuclear]] [[spin]] [[quantum state|states]] according to the [[Pauli principle]]. The quantized states of the confinedmolecules and atoms have been studied by cryogenic NMR, infrared spectroscopy,terahertz spectroscopy, and neutron scattering. As well as the “particle in abox” features of the molecular quantum mechanics, many of the systems displayspin isomerism, which may be studied by NMR, terahertz spectroscopy, infraredspectroscopy, and inelastic neutron scattering. We have also used endohedralnuclei such as 3He to study properties such as superconductivity in therubidium salts of fullerenes. I will review the main features of the quantummechanics and spectroscopy of these unique systems, and some of the physicalmethods which are used to study them.
 
   > $\,$
 
@@ -3207,15 +3209,15 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
   > $\,$
 
-  > T. Jafari, A. Shugai, U. Nagel, E.S. Marsden, S. Bloodworth,G. Hoffman, G.R. Bacanu, M.C. Walkey, M.H. Levitt, R.J. Whitby, and T.Rõõm, “Terahertz spectroscopy study of the confining potential for methane in the endofullerene $CH_4$@$C_{60}$,” J. Chem. Phys. 163(8), 084308 (2025); [doi.org/10.1063/5.0152628](https://doi.org/10.1063/5.0152628)
+  > T. Jafari, A. Shugai, U. Nagel, E.S. Marsden, S. Bloodworth, G. Hoffman, G.R. Bacanu, M.C. Walkey, M.H. Levitt, R.J. Whitby, and T.Rõõm, “Terahertz spectroscopy study of the confining potential for methane in the endofullerene $CH_4$@$C_{60}$,” J. Chem. Phys. 163(8), 084308 (2025); [doi.org/10.1063/5.0152628](https://doi.org/10.1063/5.0152628)
 
   > $\,$
 
-  > V.K. Vyas, G.R. Bacanu, M. Soundararajan, E.S. Marsden, T.Jafari, A. Shugai, M.E. Light, U. Nagel, T. Rõõm, M.H. Levitt, and R.J.Whitby, “Squeezing formaldehyde into $C_{60}$ fullerene,” Nat Commun 15(1), 2515(2024); [doi.org/10.1038/s41467-024-46886-5](https://doi.org/10.1038/s41467-024-46886-5)
+  > V.K. Vyas, G.R. Bacanu, M. Soundararajan, E.S. Marsden, T.Jafari, A. Shugai, M.E. Light, U. Nagel, T. Rõõm, M.H. Levitt, and R.J. Whitby, “Squeezing formaldehyde into $C_{60}$ fullerene,” Nat Commun 15(1), 2515(2024); [doi.org/10.1038/s41467-024-46886-5](https://doi.org/10.1038/s41467-024-46886-5)
 
   > $\,$
  
-  > M. Soundararajan, G.R. Bacanu, F. Giustiniano, M.C. Walkey,G. Hoffman, M. Carravetta, M.R. Lees, R.J. Whitby, and M.H. Levitt,“Solid-State ${}^3He$ NMR of the Superconducting Rubidium Endofulleride $Rb_3$(${}^3 He$@$C_{60}$),” Appl Magn Reson 54(11), 1177–1192 (2023); [doi.org/10.1007/s00723-023-01606-y](https://doi.org/10.1007/s00723-023-01606-y)
+  > M. Soundararajan, G.R. Bacanu, F. Giustiniano, M.C. Walkey,G. Hoffman, M. Carravetta, M.R. Lees, R.J. Whitby, and M.H. Levitt, “Solid-State ${}^3He$ NMR of the Superconducting Rubidium Endofulleride $Rb_3$(${}^3 He$@$C_{60}$),” Appl Magn Reson 54(11), 1177–1192 (2023); [doi.org/10.1007/s00723-023-01606-y](https://doi.org/10.1007/s00723-023-01606-y)
 
   > $\,$
 
@@ -4827,6 +4829,7 @@ Feature at *[Quantum Zeitgeist](https://quantumzeitgeist.com/)*:
 
 
 \linebreak  
+
 
 
 ***
