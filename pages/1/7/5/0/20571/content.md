@@ -37,6 +37,8 @@ On 3-dimensional ([[quantum gravity|quantum]]) [[gravity]] ([[general relativity
 
 * [[Scott Collier]], [[Lorenz Eberhardt]], [[Mengyang Zhang]]: *Solving 3d Gravity with Virasoro TQFT*, SciPost Phys. **15** 151 (2023) \[<a href="https://doi.org/10.21468/SciPostPhys.15.4.151">dou:10.21468/SciPostPhys.15.4.151</a>, [arXiv:2304.13650](https://arxiv.org/abs/2304.13650)\]
 
+* Alexandre Belin, [[Scott Collier]], [[Lorenz Eberhardt]], Diego Liska, Boris Post: *A universal sum over topologies in 3d gravity* \[<a href="https://arxiv.org/abs/2601.07906">arXiv:2601.07906</a>\]
+
 On [[D=2 quantum gravity]] via [[Liouville theory]]:
 
 * Scott Collier, [[Lorenz Eberhardt]], Beatrix Mühlmann: *The complex Liouville string: the gravitational path integral* &lbrack;[arXiv:2501.10265](https://arxiv.org/abs/2501.10265)&rbrack;
