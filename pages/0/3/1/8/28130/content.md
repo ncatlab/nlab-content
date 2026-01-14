@@ -40,6 +40,7 @@ Proof that the volume-preserving [[diffeomorphism group]] of [[Cartesian space]]
 
 * [[Dusa McDuff]]: *On the Group of Volume-Preserving Diffeomorphisms of $\mathbf{R}^n$*, Transactions of the AMS **261** 1 (1980) &lbrack;[doi:10.1090/S0002-9947-1980-0576866-3](https://doi.org/10.1090/S0002-9947-1980-0576866-3)&rbrack;
 
+
 ### As symmetries of brane dynamics
  {#ReferencesAsSymmetriesOfBraneDynamics}
 
@@ -63,7 +64,7 @@ See also:
 
 * Y. Matsuo, Y. Shibusa: *Volume Preserving Diffeomorphism and Noncommutative Branes*, JHEP 0102:006 (2001) &lbrack;[arXiv:hep-th/0010040](https://arxiv.org/abs/hep-th/0010040)&rbrack;
 
-On VPD symmetry in an [[M5-brane]] [[sigma-model]] obtained as a boundary theory for open [[M2-branes]] and controlled by a [[Nambu bracket]] as it appears in the latter's [[BLG model]]:
+On VPD symmetry in an NP-[[M5-brane]] [[sigma-model]] obtained via a kind of [[Myers effect]] from [[M2-branes]] and controlled by a [[Nambu bracket]] as it appears in the latter's [[BLG model]]:
 
 * Pei-Ming Ho, Yosuke Imamura, Yutaka Matsuo, Shotaro Shiba; section 4 of: *M5-brane in three-form flux and multiple M2-branes*, JHEP 0808:014 (2008) &lbrack;[arXiv:0805.2898](https://arxiv.org/abs/0805.2898), [doi:10.1088/1126-6708/2008/08/014](https://doi.org/10.1088/1126-6708/2008/08/014)&rbrack;
 
