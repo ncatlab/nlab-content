@@ -64,22 +64,20 @@ See also:
 
 * Y. Matsuo, Y. Shibusa: *Volume Preserving Diffeomorphism and Noncommutative Branes*, JHEP 0102:006 (2001) &lbrack;[arXiv:hep-th/0010040](https://arxiv.org/abs/hep-th/0010040)&rbrack;
 
-On VPD symmetry in an NP-[[M5-brane]] [[sigma-model]] obtained via a kind of [[Myers effect]] from [[M2-branes]] and controlled by a [[Nambu bracket]] as it appears in the latter's [[BLG model]]:
 
-* Pei-Ming Ho, Yosuke Imamura, Yutaka Matsuo, Shotaro Shiba; section 4 of: *M5-brane in three-form flux and multiple M2-branes*, JHEP 0808:014 (2008) &lbrack;[arXiv:0805.2898](https://arxiv.org/abs/0805.2898), [doi:10.1088/1126-6708/2008/08/014](https://doi.org/10.1088/1126-6708/2008/08/014)&rbrack;
+On VPD symmetry in the [[Nambu-Poisson M5-brane model]]:
 
+* [[Pei-Ming Ho]], Yosuke Imamura, Yutaka Matsuo, Shotaro Shiba; section 4 of: *M5-brane in three-form flux and multiple M2-branes*, JHEP 0808:014 (2008) &lbrack;[arXiv:0805.2898](https://arxiv.org/abs/0805.2898), [doi:10.1088/1126-6708/2008/08/014](https://doi.org/10.1088/1126-6708/2008/08/014)&rbrack;
 
-* Pei-Ming Ho, Chi-Hsien Yeh; section 2 of: *D-brane in R-R Field Background*, JHEP 1103:143 (2011) &lbrack;[arXiv:1101.4054](https://arxiv.org/abs/1101.4054), <a href=" https://doi.org/10.1007/JHEP03(2011)143">doi:10.1007/JHEP03(2011)143</a>&rbrack;
+* [[Pei-Ming Ho]], Chi-Hsien Yeh; section 2 of: *D-brane in R-R Field Background*, JHEP 1103:143 (2011) &lbrack;[arXiv:1101.4054](https://arxiv.org/abs/1101.4054), <a href=" https://doi.org/10.1007/JHEP03(2011)143">doi:10.1007/JHEP03(2011)143</a>&rbrack;
 
-
-* Pei-Ming Ho, Chen-Te Ma, Chi-Hsien Yeh; section 2.2.1 of: *BPS States on M5-brane in Large $C$-field Background*, J. High Energ. Phys. **2012** 76 (2012) &lbrack;[arXiv:1206.1467](https://arxiv.org/abs/1206.1467), <a href=" https://doi.org/10.1007/JHEP08(2012)076">doi:10.1007/JHEP08(2012)076</a>&rbrack;
-
+* [[Pei-Ming Ho]], Chen-Te Ma, Chi-Hsien Yeh; section 2.2.1 of: *BPS States on M5-brane in Large $C$-field Background*, J. High Energ. Phys. **2012** 76 (2012) &lbrack;[arXiv:1206.1467](https://arxiv.org/abs/1206.1467), <a href=" https://doi.org/10.1007/JHEP08(2012)076">doi:10.1007/JHEP08(2012)076</a>&rbrack;
 
 Review:
 
-* Pei-Ming Ho; section 3.2.1 of: *A Concise Review on M5-brane in Large $C$-Field Background*, Chin. J. Phys. **48** 1 (2010) &lbrack;[arXiv:0912.0445](https://arxiv.org/abs/0912.0445)&rbrack;
+* [[Pei-Ming Ho]]; section 3.2.1 of: *A Concise Review on M5-brane in Large $C$-Field Background*, Chin. J. Phys. **48** 1 (2010) &lbrack;[arXiv:0912.0445](https://arxiv.org/abs/0912.0445)&rbrack;
 
-* Pei-Ming Ho, Yutaka Matsuo; section 4.3 of: *Nambu bracket and M-theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A104 &lbrack;[arXiv:1603.09534](https://arxiv.org/abs/1603.09534), [doi:10.1093/ptep/ptw075](https://doi.org/10.1093/ptep/ptw075)&rbrack;
+* [[Pei-Ming Ho]], Yutaka Matsuo; section 4.3 of: *Nambu bracket and M-theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A104 &lbrack;[arXiv:1603.09534](https://arxiv.org/abs/1603.09534), [doi:10.1093/ptep/ptw075](https://doi.org/10.1093/ptep/ptw075)&rbrack;
 
 
 
