@@ -150,7 +150,7 @@ $$
   \,.
 $$
 
-The relation $Det(A) = \big(Pf(A)\big)^2$ follows readily (cf. [Math.SE:a/2705327](https://math.stackexchange.com/a/2705327/58526))
+The relation $Det(A) = \big(Pf(A)\big)^2$ follows readily (cf. [Math.SE:a/2705327](https://math.stackexchange.com/a/2705327/58526)).
 
 \end{remark}
 
