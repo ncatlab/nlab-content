@@ -159,7 +159,11 @@ Original references:
 
 Textbook accounts:
 
-* E. I. Gordon, A. G. Kusraev, [[Semën S. Kutateladze]], *Infinitesimal Analysis*, Mathematics and its Applications **544**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0063-4](https://doi.org/10.1007/978-94-017-0063-4)&rbrack;
+* Robert Lutz, Michel Goze: *Nonstandard Analysis -- A Practical Guide with Applications*, Lecture Notes in Mathematics **881**, Springer (1981) &lbrack;[doi:10.1007/BFb0093397](https://doi.org/10.1007/BFb0093397)&rbrack;
+
+* Francine Diener, Marc Diener (eds.): *Nonstandard analysis in practice*, Universitext, Springer (1995) &lbrack;[doi:10.1007/978-3-642-57758-1](https://doi.org/10.1007/978-3-642-57758-1)&rbrack;
+
+* E. I. Gordon, A. G. Kusraev, [[Semën S. Kutateladze]]: *Infinitesimal Analysis*, Mathematics and its Applications **544**, Springer (2002) &lbrack;[doi:10.1007/978-94-017-0063-4](https://doi.org/10.1007/978-94-017-0063-4)&rbrack;
 
 
 See also:
@@ -195,9 +199,9 @@ See also:
 
 * Imme van den Berg, _Nonstandard asymptotic analysis_, Lec. Notes Math. __1249__, Springer 1987
 
-* Edward Nelson, _Radically elementary probability theory_
+* [[Edward Nelson]], _Radically elementary probability theory_
 
-* Diener-Diener (eds.), _Nonstandard analysis in practice_
+* Francine Diener, Marc Diener (eds.): *Nonstandard analysis in practice*, Universitext, Springer (1995) &lbrack;[doi:10.1007/978-3-642-57758-1](https://doi.org/10.1007/978-3-642-57758-1)&rbrack;
 
 * Loeb-Wolff (eds.), _Nonstandard analysis for the working mathematician_
 
