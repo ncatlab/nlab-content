@@ -106,6 +106,12 @@ Discussion of infinitesimal neighbourhoods in [[nonstandard analysis]] and use o
 
 and using the "*halo*"-terminology:
 
+* Robert Lutz, Michel Goze; p. 5 of: *Nonstandard Analysis -- A Practical Guide with Applications*, Lecture Notes in Mathematics **881**, Springer (1981) &lbrack;[doi:10.1007/BFb0093397](https://doi.org/10.1007/BFb0093397)&rbrack;
+
+
+* Francine Diener, Marc Diener, p. 6, 11 of: *Tutorial*, chapter 1 of: *Nonstandard analysis in practice*, Universitext, Springer (1995) &lbrack;[doi:10.1007/978-3-642-57758-1](https://doi.org/10.1007/978-3-642-57758-1)&rbrack;
+
+
 * {#Rayo15} Diego Rayo, Def. 4.11 in: *Introduction to non-standard analysis* (2015) &lbrack;[pdf](http://math.uchicago.edu/~may/REUDOCS/Rayo.pdf)&rbrack;
 
 See also:
