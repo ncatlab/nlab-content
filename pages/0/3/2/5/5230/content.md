@@ -13,19 +13,24 @@
 
 > under construction
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
-What is called _Nambu mechanics_ is a generalization of the formulation of [[classical mechanics]] ([[prequantum geometry]]) via [[Poisson manifold|Poisson brackets]] to bracket-operations of arity $(n+1)$ higher than 2 -- the Nambu brackets --, with an "[[n-Lie algebra|(n+1)-Lie algebra]]"-structure (see the discussion there for distinction with proper [[Lie n-algebras]]).
+What is called _Nambu mechanics_ is a generalization of the formulation of [[classical mechanics]] ([[prequantum geometry]] formulated via [[Poisson manifold|Poisson brackets]]) to bracket-operations of arity $n+1 \gt 2$  -- the *Nambu brackets* --, with an "[[n-Lie algebra|(n+1)-Lie algebra]]"-structure (see the discussion there for distinction with proper [[Lie n-algebras]]).
 
 ## Examples
 
-### The membrane
+### The M2-brane
 
 One example that naturally gives rise to Nambu mechanics is the relativistic [[membrane]], see at _[[membrane matrix model]]_ and at _[[BLG model]]_.
+
+### The NP M5-brane
+
+See at *[[NP M5-brane]]*.
+
 
 ## Related concepts
 
@@ -62,13 +67,14 @@ Review:
 * Wikipedia, _[Nambu mechanics](http://en.wikipedia.org/wiki/Nambu_mechanics)_
 
 
-
-### Interpretation in higher symplectic geometry
 Comments on interpreting Nambu mechanics in [[2-plectic geometry]] (and in view of the [[IKKT matrix model]]) appear in
 
 * [[Christian Saemann]], [[Patricia Ritter]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
 
-For background on this see also the discussion at _[[3-Lie algebra]]_ on how these are given by [[Lie 2-algebras]] (as [metric Lie 2-algebras](#n-Lie+algebra#SaemannRitter13))
+For background on this see also the discussion at _[[3-Lie algebra]]_ on how these are given by [[Lie 2-algebras]] (as [metric Lie 2-algebras](n-Lie+algebra#SaemannRitter13))
 
 [[!redirects Nambu bracket]]
 [[!redirects Nambu brackets]]
+
+[[!redirects Nambu-Poisson bracket]]
+[[!redirects Nambu-Poisson brackets]]
