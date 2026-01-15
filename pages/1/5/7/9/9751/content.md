@@ -11,6 +11,7 @@ On [[Freund-Rubin compactification]] of [[D=11 supergravity|D=11]] and [[D=10 su
 
 * [[Dmitri P. Sorokin]], [[Vladimir I. Tkach]], [[Dmitrij V. Volkov]], *On the relationship between compactified vacua of $D=11$ and $D=10$ supergravities*, Phys. Lett. B **161** (1985) 301-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(85)90766-X">doi:10.1016/0370-2693(85)90766-X</a>&rbrack;
 
+
 Om the [[super particle]] and the [[spinning particle]]:
 
 * [[Dmitri P. Sorokin]], [[Vladimir I. Tkach]], [[Dmitrij V. Volkov]], [[Aleksandr A. Zheltukhin]], *From the Superparticle Siegel Symmetry to the Spinning Particle Proper Time Supersymmetry*, Phys. Lett. B **216** (1989) 302-306 &lbrack;<a href="https://doi.org/10.1016/0370-2693(89)91119-2">doi:10.1016/0370-2693(89)91119-2</a>&rbrack;
@@ -56,7 +57,6 @@ On the [[Green-Schwarz action functional]] for the [[M5-brane]]:
 
 * {#PST97} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for a D=11 Five-Brane with the Chiral Field_, Phys. Lett. B398 (1997) 41 ([arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037))
 
-* Sheng-Lan Ko, [[Dmitri Sorokin]], Pichet Vanichchapongjaroen, _The M5-brane action revisited_, JHEP11(2013)072 ([arXiv:1308.2231](https://arxiv.org/abs/1308.2231))
 
 On [[super p-brane]] [[sigma models]] perturbed around the [[asymptotic boundary]] of their own [[black brane]] [[near horizon geometry]] (related to [[AdS-CFT duality]]):
 
@@ -75,6 +75,14 @@ Proposal for a non-abelian and [[supersymmetry|supersymmetric]] [[DBI-action]] f
 On [[super anti-de Sitter spacetime|super-$AdS_4$]] (as in [[AdS4/CFT3-duality]]):
 
 * [[Jaume Gomis]], [[Dmitri Sorokin]], [[Linus Wulff]], *The complete $AdS_4 \times \mathbb{C}P^3$ superspace for the type IIA superstring and D-branes*, JHEP 0903:015 (2009) &lbrack;[arXiv:0811.1566](https://arxiv.org/abs/0811.1566)&rbrack;
+
+
+On the [[Nambu-Poisson M5-brane model]]:
+
+* [[Paolo Pasti]], Igor Samsonov, [[Dmitri Sorokin]], [[Mario Tonin]]: *BLG-motivated Lagrangian formulation for the chiral two-form gauge field in $D=6$ and M5-branes*, Phys. Rev. D **80** (2009) 086008 &lbrack;[arXiv:0907.4596](https://arxiv.org/abs/0907.4596), [doi:10.1103/PhysRevD.80.086008](https://doi.org/10.1103/PhysRevD.80.086008)&rbrack;
+
+* {#KSV2013} Sheng-Lan Ko, [[Dmitri Sorokin]], [[Pichet Vanichchapongjaroen]]: _The M5-brane action revisited_, JHEP11 (2013) 072 &lbrack;[arXiv:1308.2231](https://arxiv.org/abs/1308.2231), <a href="https://doi.org/10.1007/JHEP11(2013)072">doi:10.1007/JHEP11(2013)072</a>&rbrack;
+
 
 
 On [[membranes]] in [[D=4 supergravity]] ([[super 2-brane in 4d]]):
