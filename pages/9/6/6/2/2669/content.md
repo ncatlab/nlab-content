@@ -142,7 +142,7 @@ Suggestion that this is to be resolved by the [[Hilbert scheme of points]]:
 
 * [[Jeffrey Harvey]], [[Gregory Moore]], Section 5.1 of: _On the algebras of BPS states_, Commun. Math. Phys. 197:489-519, 1998 ([arXiv:hep-th/9609017](https://arxiv.org/abs/hep-th/9609017))
 
-* Kazuyuki Furuuchi, Hiroshi Kunitomo, Toshio Nakatsu, p. 17 of: _Topological Field Theory and Second-Quantized Five-Branes_, Nucl.Phys. B494 (1997) 144-160 ([arXiv:hep-th/9610016](https://arxiv.org/abs/hep-th/9610016))
+* [[Kazuyuki Furuuchi]], Hiroshi Kunitomo, Toshio Nakatsu, p. 17 of: _Topological Field Theory and Second-Quantized Five-Branes_, Nucl.Phys. B **494** (1997) 144-160 &lbrack;[arXiv:hep-th/9610016](https://arxiv.org/abs/hep-th/9610016), <a href="https://doi.org/10.1016/S0550-3213(97)00150-8">doi:10.1016/S0550-3213(97)00150-8</a>&rbrack;
 
 
 
