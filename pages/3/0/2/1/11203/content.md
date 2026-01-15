@@ -64,8 +64,6 @@ Theoretical introduction and review:
 
 Via [[effective field theory]]:
 
-Via [[effective field theory]]:
-
 * [[Eduardo C. Marino]]: *Quantum Field Theory Approach to Superconductivity*, chapter 23 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
 
 
@@ -73,6 +71,7 @@ Via [[effective field theory]]:
 See also:
 
 * Wikipedia, _[Superconductivity](http://en.wikipedia.org/wiki/Superconductivity)_
+
 
 * Wikipedia, _[Meissner effect](https://en.wikipedia.org/wiki/Meissner_effect)_
 
@@ -91,6 +90,11 @@ Introducing the [[dimer model]]:
 Argument that superconductors are actually [[topological order|topologically ordered]] [[phases of matter]]:
 
 * [[Thors Hans Hansson]], Vadim Oganesyan, S. L. Sondhi, *Superconductors are topologically ordered*, Annals Of Physics **313** 497 (2004) &lbrack;[arXiv:cond-mat/0404327](https://arxiv.org/abs/cond-mat/0404327), [doi:10.1016/j.aop.2004.05.006](https://doi.org/10.1016/j.aop.2004.05.006)&rbrack;
+
+Discussion via methods of [[AQFT]]:
+
+* Marc Klinger; section 2 of: *A Theory of Backgrounds and Background Independence* &lbrack;[arXiv:2512.05043](https://arxiv.org/abs/2512.05043)&rbrack;
+
 
 On doping [[semiconductors]] into superconductors:
 
