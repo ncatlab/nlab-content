@@ -231,13 +231,8 @@ $$
   \simeq holim X
 $$
 
-computes the [[homotopy limit]] of $X$ as a [[weighted limit]] (as explained there). Then the above theorem says that the homotopy limit is already computed by the totalization
-
-$$
-  holim X \simeq lim^\Delta X
-  \,.
-$$
-
+computes the [[homotopy limit]] of $X$ as a [[weighted limit]] (as explained there). Then the above theorem says that if $X$ is Reedy fibrant, then the homotopy limit is already computed by the totalization
+$$holim X \simeq lim^\Delta X.$$
 
 =--
 
