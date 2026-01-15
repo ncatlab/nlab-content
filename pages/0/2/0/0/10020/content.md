@@ -26,7 +26,7 @@ Indeed, the natural equivalence between the [[space of quantum states]] of [[Che
 
 For instance the [[FRS formalism]] _constructs_ all [[rational conformal field theories]] as full [[FQFTs]] holographically from the [[Reshetikhin-Turaev construction]] of the 3d Chern-Simons theory and fully classifies them this way.
 
-Later the [[AdS-CFT correspondence]] came to be understood as a canonical or default implementation of the [[holographic principle]]. Here the [[bulk field theory]] is a theory of [[3d quantum gravity]] which is very much like traditional [[Chern-Simons theory]] but may crucially differ from it, see at _[[Chern-Simons gravity]]_ the [comments on the non-perturbative regime](Chern-Simons%20gravity#ProblemsInTheNonPerturbativeRegime). Instead some variant of CS3/WTW2 appears as one "sector" inside AdS3/CFT2, this is discussed in ([Gukov-Martinec-Moore-Strominger 04](#GukovMartinecMooreStrominger04)).
+Later the [[AdS-CFT correspondence]] came to be understood as a canonical or default implementation of the [[holographic principle]]. Here the [[bulk field theory]] is a theory of [[3d quantum gravity]] which is very much like traditional [[Chern-Simons theory]] but may crucially differ from it, see at _[[Chern-Simons gravity]]_ the [comments on the non-perturbative regime](Chern-Simons%20gravity#ProblemsInTheNonPerturbativeRegime). Instead some variant of CS3/WZW2 appears as one "sector" inside AdS3/CFT2, this is discussed in ([Gukov-Martinec-Moore-Strominger 04](#GukovMartinecMooreStrominger04)).
 
 But notice that also plain [[Chern-Simons theory]] is a [[string theory]], but of [[topological strings]]. For more on this see at _[[TCFT]]_ the section _[Worldsheet and effective background theories](TCFT#ActionFunctionals)_.
 
