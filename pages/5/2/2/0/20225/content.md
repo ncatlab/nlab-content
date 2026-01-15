@@ -10,11 +10,11 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
-##Definition
+
+
+## Definition
 
 There is some variation in the literature on what one calls a "[[quaternionic]] [[manifold]]''. The most general definition, however, encompassing all the others, is:
 
@@ -93,9 +93,9 @@ See also
 
 In terms of [[G-structure]]:
 
-* [[Dmitri V. Alekseevsky]], [[Stefano Marchiafava]], _Quaternionic-like structures on a manifold: Note I. 1-integrability and integrability conditions_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni (1993) Volume: 4, Issue: 1, page 43-52 ([dml:244082](https://eudml.org/doc/244082))
+* [[Dmitri V. Alekseevsky]], [[Stefano Marchiafava]]: _Quaternionic-like structures on a manifold: Note I. 1-integrability and integrability conditions_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni **4** 1 (1993) 43-52 &lbrack;[[AlekseevskyMarchiafava-1993a.pdf:file]]&rbrack;
 
-* [[Dmitri V. Alekseevsky]], [[Stefano Marchiafava]], _Quaternionic-like structures on a manifold: Note II. Automorphism groups and their interrelations_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni (1993) Volume: 4, Issue: 1, page 53-61 ([dml:244299](https://eudml.org/doc/244299))
+* [[Dmitri V. Alekseevsky]], [[Stefano Marchiafava]]: _Quaternionic-like structures on a manifold: Note II. Automorphism groups and their interrelations_, Atti della Accademia Nazionale dei Lincei. Classe di Scienze Fisiche, Matematiche e Naturali. Rendiconti Lincei. Matematica e Applicazioni **4** 1 (1993) 53-61 &lbrack;[[AlekseevskyMarchiafava-1993b.pdf:file]]&rbrack;
 
 * [[Dmitry V. Alekseevsky]], _Quaternionic structures on a manifold and subordinated structures_, Annali di Matematica pura ed applicata 171, 205–273 (1996) ([doi:10.1007/BF01759388](https://doi.org/10.1007/BF01759388))
 
