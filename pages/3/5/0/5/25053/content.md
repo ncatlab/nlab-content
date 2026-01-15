@@ -1,10 +1,12 @@
 
-Member of [[CQTS]] at NYU Abu Dhabi.
-
+Grigorios Giotopoulos is a member of [[CQTS]] at NYU Abu Dhabi.
 
 * [institute page](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/cqts/grigorios-giotopoulos.html) at NYU Abu Dhabi
 
-* [inspire page](https://inspirehep.net/authors/1844380)
+* [inSpire page](https://inspirehep.net/authors/1844380)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=jj8PpJsAAAAJ&hl=en)
+
 
 ## Selected writings
 
