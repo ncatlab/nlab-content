@@ -33,4 +33,10 @@ On [[AdS4/CFT3 duality]] via [[exceptional field theory]] and [[super Chern-Simo
 
 * [[Oscar Varela]]: _Super-Chern-Simons spectra from Exceptional Field Theory_, J. High Energ. Phys. **2021** 283 (2021) &lbrack;[arXiv:2010.09743](https://arxiv.org/abs/2010.09743), <a href="https://doi.org/10.1007/JHEP04(2021)283">doi:10.1007/JHEP04(2021)283</a>&rbrack;
 
+See also:
+
+* Niklas Garner, Wenjun Niu: *Line Operators in $U(1|1)$ Chern-Simons Theory* &lbrack;[arXiv:2304.05414](https://arxiv.org/abs/2304.05414)&rbrack;
+
+
+
 
