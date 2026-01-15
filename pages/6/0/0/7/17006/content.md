@@ -44,7 +44,7 @@ On [[cosmology]] within the [[IKKT matrix model]]:
 
 On emergence of [[general relativity]] from the [[IKKT matrix model]]:
 
-* Pei-Ming Ho, [[Hikaru Kawai]], [[Harold C. Steinacker]]: *General Relativity in IIB Matrix Model* &lbrack;[arXiv:2509.06646](https://arxiv.org/abs/2509.06646)&rbrack;
+* [[Pei-Ming Ho]], [[Hikaru Kawai]], [[Harold C. Steinacker]]: *General Relativity in IIB Matrix Model* &lbrack;[arXiv:2509.06646](https://arxiv.org/abs/2509.06646)&rbrack;
 
 * [[Harold C. Steinacker]]: *Modified gravity at large scales on quantum spacetime in the IKKT model* &lbrack;[arXiv:2601.08031](https://arxiv.org/abs/2601.08031)&rbrack;
 
