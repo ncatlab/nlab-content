@@ -29,7 +29,7 @@ One example that naturally gives rise to Nambu mechanics is the relativistic [[m
 
 ### The NP M5-brane
 
-See at *[[NP M5-brane]]*.
+See at *[[Nambu-Poisson M5-brane model]]*.
 
 
 ## Related concepts
@@ -72,6 +72,13 @@ Comments on interpreting Nambu mechanics in [[2-plectic geometry]] (and in view 
 * [[Christian Saemann]], [[Patricia Ritter]], _Lie 2-algebra models_ ([arXiv:1308.4892](http://arxiv.org/abs/1308.4892))
 
 For background on this see also the discussion at _[[3-Lie algebra]]_ on how these are given by [[Lie 2-algebras]] (as [metric Lie 2-algebras](n-Lie+algebra#SaemannRitter13))
+
+### NP M5-brane model
+ {#ReferencesNPM5BraneModel}
+
+[[!include NP-M5 model -- references]]
+
+
 
 [[!redirects Nambu bracket]]
 [[!redirects Nambu brackets]]
