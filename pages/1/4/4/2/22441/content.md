@@ -13,7 +13,7 @@
 
 On the [[M5-brane]]'s [[Green-Schwarz sigma-model]]:
 
-* Sheng-Lan Ko, [[Dmitri Sorokin]], [[Pichet Vanichchapongjaroen]], _The M5-brane action revisited_, JHEP11(2013)072 &lbrack;[arXiv:1308.2231](https://arxiv.org/abs/1308.2231)&rbrack;
+* Sheng-Lan Ko, [[Dmitri Sorokin]], [[Pichet Vanichchapongjaroen]], _The M5-brane action revisited_, JHEP11 (2013) 072 &lbrack;[arXiv:1308.2231](https://arxiv.org/abs/1308.2231), <a href="https://doi.org/10.1007/JHEP11(2013)072">doi:10.1007/JHEP11(2013)072</a>&rbrack;
 
 with attention to the non-linearity of the [[self-dual higher gauge theory|self-duality]] of the 3-form flux:
 
