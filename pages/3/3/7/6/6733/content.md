@@ -520,12 +520,13 @@ Enhanced to a [[defect field theory]]:
 ### $\sigma$-Model description
  {#ReferencesSigmaModelDescription}
 
+#### General
+
 The [[Green-Schwarz action functional]]-type [[sigma-model]] of the (single) M5-brane of  was found in covariant form in 
 
 * {#PST97} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Covariant Action for a $D=11$ Five-Brane with the Chiral Field*, Phys. Lett. B **398** (1997) 41 &lbrack;[arXiv:hep-th/9701037](https://arxiv.org/abs/hep-th/9701037), <a href="https://doi.org/10.1016/S0370-2693(97)00188-3">doi:10.1016/S0370-2693(97)00188-3</a>&rbrack;
 
 * {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], [[Alexei Nurmagambetov]], [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. **78** (1997) 4332-4334 &lbrack;[arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149), [doi:10.1103/PhysRevLett.78.4332](https://doi.org/10.1103/PhysRevLett.78.4332)&rbrack;
-
 
 generally following
 
@@ -568,7 +569,7 @@ Amplification that the resulting B-field on the M5-brane is *not naively* [[self
 * {#HoweSezginWest97} [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]], *The six-dimensional self-dual tensor*, Physics Letters B **400** 3–4 (1997) 255-259 &lbrack;[arXiv:hep-th/9702111](https://arxiv.org/abs/hep-th/9702111), <a href="https://doi.org/10.1016/S0370-2693(97)00365-1">doi:10.1016/S0370-2693(97)00365-1</a>&rbrack;
 
 
-A variant adapted to a 3+3-dimensional split in
+A variant adapted to a 3+3-dimensional split in view of the [[NP M5-brane model]]:
 
 * Sheng-Lan Ko, [[Dmitri Sorokin]], [[Pichet Vanichchapongjaroen]], _The M5-brane action revisited_, JHEP11(2013)072 ([arXiv:1308.2231](https://arxiv.org/abs/1308.2231))
 
@@ -596,6 +597,11 @@ Further developments:
 [[BPS state|BPS]] solution in [[pp-wave]] backgounds:
 
 * Yuhma Asano, Goro Ishiki, Yuto Yoshida: *Classical BPS M5-brane on the plane wave background* &lbrack;[arXiv:2506.03708](https://arxiv.org/abs/2506.03708)&rbrack;
+
+
+#### NP M5-brane model
+
+[[!include NP-M5 model -- references]]
 
 
 
