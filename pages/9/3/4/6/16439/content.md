@@ -1,6 +1,10 @@
 
 
-* [webpage](http://en.didattica.unipd.it/offerta/docente/FC75C5CDA5B9043EC22C8D3710567C83)
+* [institute page](https://www.unipd.it/en/contatti/rubrica?detail=Y&ruolo=1&checkout=cerca&persona=PASTI&key=FC75C5CDA5B9043EC22C8D3710567C83)
+
+* [inSpire page](https://inspirehep.net/authors/1040137)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/P-Pasti-6253739)
 
 ## Selected writings
 
@@ -32,6 +36,10 @@ On the [[Green-Schwarz sigma-model]] of the [[M5-brane]]:
 On [[super p-brane]] [[sigma models]] perturbed around the [[asymptotic boundary]] of their own [[black brane]] [[near horizon geometry]] (related to [[AdS-CFT duality]]):
 
 * {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], [[Mario Tonin]], *Branes in Super-AdS Backgrounds and Superconformal Theories*, Proceedings, *International Workshop on Supersymmetries and Quantum Symmetries (SQS'99)*, Moscow (July 27-31, 1999) &lbrack;[arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076), [inspire:511348](https://inspirehep.net/literature/511348)&rbrack;
+
+On the [[Nambu-Poisson M5-brane model]]:
+
+* [[Paolo Pasti]], Igor Samsonov, [[Dmitri Sorokin]], [[Mario Tonin]]: *BLG-motivated Lagrangian formulation for the chiral two-form gauge field in $D=6$ and M5-branes*, Phys. Rev. D **80** (2009) 086008 &lbrack;[arXiv:0907.4596](https://arxiv.org/abs/0907.4596), [doi:10.1103/PhysRevD.80.086008](https://doi.org/10.1103/PhysRevD.80.086008)&rbrack;
 
 
 
