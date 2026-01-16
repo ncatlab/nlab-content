@@ -581,7 +581,7 @@ In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proo
   > (on the "second superstring revolution": the realization of [[D-branes]], [[dualities in string theory]] and [[M-theory]])
 
 
-* Andrea Cappelli, Elena Castellani, Filippo Colomo, [[Paolo Di Vecchia]] (eds.), *The Birth of String Theory*,  Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
+* [[Andrea Cappelli]], Elena Castellani, Filippo Colomo, [[Paolo Di Vecchia]] (eds.), *The Birth of String Theory*,  Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
 
 
 * {#Schwarz07} [[John Schwarz]], _The Early Years of String Theory: A Personal Perspective_ &lbrack;[arXiv:0708.1917](http://arxiv.org/abs/0708.1917)&rbrack;, 
