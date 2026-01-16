@@ -20,7 +20,7 @@ A [[diffeomorphism]] $\phi \colon X \longrightarrow X$ of a ([[pseudo-Riemannian
 
 If the [[dimension of a manifold|dimension]] is $dim(X) = 2$, then one also speaks of *area-preserving diffeomorphisms* (APD).
 
-Volume preserving diffeomorphisms form a [[subgroup]] of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$.
+Volume preserving diffeomorphisms form a [[subgroup]] of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$ this is also known as a *[[w-infinity algebra|$w_\infty$-algebra]]*.
 
 In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear: 
 
@@ -35,6 +35,11 @@ In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear:
 ## References
 
 ### General
+
+Original discussion of the $w_\infty$-algebra of the [[torus]]:
+
+* [[Vladimir Arnold]]; equation (109) in: *Sur la géométrie différentielle des groupes de Lie de dimension infinie et ses applications à l'hydrodynamique des fluides parfaits*, Annales de l'Institut Fourier **16** 1 (1966) 319--361 \[<a href="https://www.numdam.org/item/AIF_1966__16_1_319_0/">numdam:AIF_1966__16_1_319_0/</a>\]
+
 
 Proof that the volume-preserving [[diffeomorphism group]] of [[Cartesian space]] $\mathbb{R}^n$ is a [[perfect group]] when $n \geq 3$:
 
