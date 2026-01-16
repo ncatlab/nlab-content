@@ -30,7 +30,7 @@ Discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Simons 
 
 * [[Eduardo Fradkin]], Vishnu Jejjala, [[Robert G. Leigh]]: *Non-commutative Chern-Simons for the Quantum Hall System and Duality*, Nucl. Phys. B **642** (2002) 483-500 \[<a href="https://doi.org/10.1016/S0550-3213(02)00616-8">doi:10.1016/S0550-3213(02)00616-8</a>, [arXiv:cond-mat/0205653](https://arxiv.org/abs/cond-mat/0205653)\]
 
-* Andrea Cappelli, Ivan D. Rodriguez: *Matrix Effective Theories of the Fractional Quantum Hall effect*, J. Phys. A **42** (2009) 304006 \[<a href="https://doi.org/10.1088/1751-8113/42/30/304006">doi:10.1088/1751-8113/42/30/304006</a>, [arXiv:0902.0765](https://arxiv.org/abs/0902.0765)\]
+* [[Andrea Cappelli]], Ivan D. Rodriguez: *Matrix Effective Theories of the Fractional Quantum Hall effect*, J. Phys. A **42** (2009) 304006 \[<a href="https://doi.org/10.1088/1751-8113/42/30/304006">doi:10.1088/1751-8113/42/30/304006</a>, [arXiv:0902.0765](https://arxiv.org/abs/0902.0765)\]
 
 * Zhihuan Dong, T. Senthil: *Non-commutative field theory and composite Fermi Liquids in some quantum Hall systems*, Phys. Rev. B **102** (2020) 205126 \[<a href="https://doi.org/10.1103/PhysRevB.102.205126">doi:10.1103/PhysRevB.102.205126</a>, [arXiv:2006.01282](https://arxiv.org/abs/2006.01282)\]
 
