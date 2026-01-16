@@ -11,6 +11,12 @@
 
 ## Selected writings
 
+On [[infinite-dimensional Lie groups]] in application to [[hydrodynamics]] (and early discussion of [[W-infinity algebra|$W_\infty$-algebra]]):
+
+* [[Vladimir Arnold]]: *Sur la géométrie différentielle des groupes de Lie de dimension infinie et ses applications à l'hydrodynamique des fluides parfaits*, Annales de l'Institut Fourier **16** 1 (1966) 319--361 \[<a href="https://www.numdam.org/item/AIF_1966__16_1_319_0/">numdam:AIF_1966__16_1_319_0/</a>\]
+
+
+
 On the [[real cohomology]] of [[configuration spaces of points]]:
 
 * {#Arnold69} [[Vladimir Arnold]], _The cohomology ring of the colored braid group_, Mat. Zametki, 1969, Volume 5, Issue 2, Pages 227–231 ([mathnet:mz6827](http://mi.mathnet.ru/eng/mz6827))
