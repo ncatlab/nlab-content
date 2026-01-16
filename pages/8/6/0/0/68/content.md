@@ -97,7 +97,7 @@ See also:
 
 * {#Blohmann08} [[Christian Blohmann]]: _Stacky Lie groups_, Int. Mat. Res. Not. **2008** rnn082 (2008)  &lbrack;[arXiv:math/0702399](http://arxiv.org/abs/math/0702399), [doi:10.1093/imrn/rnn082](https://doi.org/10.1093/imrn/rnn082)&rbrack;
  
-* [[Kai Behrend]], [[Ping Xu]], _Differentiable Stacks and Gerbes_ J. Symplectic Geom. Volume 9, Number 3 (2011), 285-341. ([arXiv:math/0605694](http://arxiv.org/abs/arXiv:math/0605694))
+* [[Kai Behrend]], [[Ping Xu]]: _Differentiable Stacks and Gerbes_, J. Symplectic Geom. **9** 3 (2011) 285-341 &lbrack;[arXiv:math/0605694](http://arxiv.org/abs/arXiv:math/0605694), [euclid:jsg/1310388899](https://projecteuclid.org/journals/journal-of-symplectic-geometry/volume-9/issue-3/Differentiable-stacks-and-gerbes/jsg/1310388899.full)&rbrack;
 
 * [[Grégory Ginot]], _Introduction to Differentiable Stacks (and gerbes, moduli spaces ...)_, 2013 ([pdf](https://webusers.imj-prg.fr/~gregory.ginot/papers/DiffStacksIGG2013.pdf), [[GinotDifferentiableStacks.pdf:file]])
 
