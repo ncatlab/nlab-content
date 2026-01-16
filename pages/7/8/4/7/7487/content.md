@@ -55,7 +55,7 @@ Every poset $P$ becomes a [[topological space]] under the [[Scott topology]], bu
 
 A [[subset]] $A$ of a DCPO is Scott-[[open subset|open]] iff it's an [[upper subset]] and any directed subset of $P$ whose join belongs to $A$ must meet $A$; it\'s Scott-[[closed subset|closed]] iff it is a [[lower subset]] that is directed-complete in its own right.
 
-The [[specialisation order]] of the Scott topology of a DCPO is its original order (but the Scott topology is finer than the [[specialisation topology]]).
+The [[specialisation order]] of the Scott topology of a DCPO is its original order (but the Scott topology is coarser than the [[specialisation topology]]).
 
 ## Related entries
 
