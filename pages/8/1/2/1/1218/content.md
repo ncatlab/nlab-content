@@ -453,7 +453,7 @@ Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a 
 
 The basic idea of understanding [[generalized smooth spaces]] as [[concrete sheaves]] on a [[site]] of smooth test spaces originates in work of [[Kuo Tsai Chen]] (see also at _[[Chen space]]_):
 
-* {#Chen73} [[Kuo Tsai Chen]], _Iterated integrals of differential forms and loop space homology_, Ann. Math. 97 (1973), 217&#8211;246 ([jstor:1970846](https://www.jstor.org/stable/1970846))
+* {#Chen73} [[Kuo Tsai Chen]], _Iterated integrals of differential forms and loop space homology_, Ann. Math. 97 (1973), 217-246 ([jstor:1970846](https://www.jstor.org/stable/1970846))
 
 Chen considered (apart from [[iterated integrals]]) effectively [[presheaves]] on a site of [[convex subsets]] of [[Cartesian spaces]]. In
 
@@ -467,7 +467,7 @@ and served as the basis of a celebrated theorem on the [[de Rham cohomology]] of
 
 A brief review is in 
 
-* [[Kuo-Tsai Chen]], _On differentiable spaces_, in:  [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 1986 ([doi:10.1007/BFb0076928](https://link.springer.com/book/10.1007/BFb0076928))
+* [[Kuo-Tsai Chen]]: _On differentiable spaces_, in:  [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics **1174** (1986) &lbrack;[doi:10.1007/BFb0076928](https://link.springer.com/book/10.1007/BFb0076928)&rbrack;
 
 (which, curiously, still does not make the connection to the theory of sheaves).
 
@@ -475,9 +475,9 @@ A brief review is in
 
 The proper concept of diffeological spaces was introduced, under the name _diff&eacute;ologie_ and apparently independently from Chen, in:
 
-* {#Souriau79} [[Jean-Marie Souriau]], _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. 836, Springer, Berlin, (1980), pp. 91&#8211;128. ([doi:10.1007/BFb0089728](https://doi.org/10.1007/BFb0089728), [mr:607688](http://www.ams.org/mathscinet-getitem?mr=607688))
+* {#Souriau79} [[Jean-Marie Souriau]]: _Groupes diff&#233;rentiels_, in _Differential Geometrical Methods in Mathematical Physics_ (Proc. Conf., Aix-en-Provence/Salamanca, 1979), Lecture Notes in Math. **836**, Springer (1980) 91-128. &lbrack;[doi:10.1007/BFb0089728](https://doi.org/10.1007/BFb0089728), [mr:607688](http://www.ams.org/mathscinet-getitem?mr=607688)&rbrack;
 
-* {#Souriau84} [[Jean-Marie Souriau]], _Groupes différentiels et physique mathématique_,  In: Denardo G., Ghirardi G., Weber T. (eds.) Group Theoretical Methods in Physics. Lecture Notes in Physics, vol 201. Springer 1984 ([doi:10.1007/BFb0016198](https://doi.org/10.1007/BFb0016198))
+* {#Souriau84} [[Jean-Marie Souriau]], _Groupes différentiels et physique mathématique_,  In: Denardo G., Ghirardi G., Weber T. (eds.) Group Theoretical Methods in Physics. Lecture Notes in Physics **201**, Springer (1984) &lbrack;[doi:10.1007/BFb0016198](https://doi.org/10.1007/BFb0016198)&rbrack;
 
 motivated there by [[diffeological groups]] arising in [[geometric quantization]].
 
