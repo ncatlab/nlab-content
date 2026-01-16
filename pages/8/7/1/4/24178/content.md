@@ -399,6 +399,8 @@ on the given Laughlin/Moore-Read ground state, for instance the GMP-excitation o
   \,.
 \]
 
+(Cf. also at *[[W-infinity algebra|$W_\infty$-algebra]]*.)
+
 In fact, for the Moore-Read state another, second, excitation is expected &lbrack;[Greiter, Wen & Wilczek 1991](#GreiterWenWilczek91)&rbrack;, a "neutral fermion" excitation with putative wavefunction to be denoted 
 
 \[
