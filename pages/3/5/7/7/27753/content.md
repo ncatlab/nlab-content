@@ -137,6 +137,11 @@ Relation to [[W-infinity algebra]]:
 
 * [[Siddharth A. Parameswaran]], [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Chern Insulators and the W-Infinity Algebra*, Phys. Rev. B **85**  (2012) 241308(R) &lbrack;[arXiv:1106.4025](https://arxiv.org/abs/1106.4025), [doi:10.1103/PhysRevB.85.241308](https://doi.org/10.1103/PhysRevB.85.241308)&rbrack;
 
+See also:
+
+* Peleg Emanuel, Anna Keselman, Yuval Oreg: *A Unifying Framework for Fractional Chern Insulator Stabilization*, Phys. Rev. B **112** (2025) 235133  &lbrack;[arXiv:2505.07950](https://arxiv.org/abs/2505.07950), [doi:10.1103/9hpw-kz7g](https://doi.org/10.1103/9hpw-kz7g)&rbrack;
+
+
 
 Experimental realization of FQAH systems:
 
@@ -163,8 +168,9 @@ Review:
 
 * [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional quantum Hall effect without Landau levels*, Physics **4**46  (June 2011) &lbrack;[physics.aps:v4/46](https://physics.aps.org/articles/v4/46)&rbrack;
 
-* [[Titus Neupert]], [[Claudio Chamon]], [[Thomas Iadecola]], [[Luiz H. Santos]], [[Christopher Mudry]]: *Fractional (Chern and topological) insulators* Physica Scripta **2015** (2015) 014005 &lbrack;[arXiv:1410.5828](https://arxiv.org/abs/1410.5828), [doi:10.1088/0031-8949/2015/T164/014005](https://doi.org/10.1088/0031-8949/2015/T164/014005)&rbrack;
+* {#BergholtzLiu2013} Emil J. Bergholtz, Zhao Liu: *Topological Flat Band Models and Fractional Chern Insulators*, Int. J. Mod. Phys. B **27** (2013) 1330017 &lbrack;[doi:10.1142/S021797921330017X](https://doi.org/10.1142/S021797921330017X), [arXiv:1308.0343](https://arxiv.org/abs/1308.0343)&rbrack;
 
+* [[Titus Neupert]], [[Claudio Chamon]], [[Thomas Iadecola]], [[Luiz H. Santos]], [[Christopher Mudry]]: *Fractional (Chern and topological) insulators* Physica Scripta **2015** (2015) 014005 &lbrack;[arXiv:1410.5828](https://arxiv.org/abs/1410.5828), [doi:10.1088/0031-8949/2015/T164/014005](https://doi.org/10.1088/0031-8949/2015/T164/014005)&rbrack;
 
 * Long Yu et al., *The fractional quantum anomalous Hall effect*, Nature Reviews Materials **9** (2024) 455–459 &lbrack;[doi:10.1038/s41578-024-00694-x](https://doi.org/10.1038/s41578-024-00694-x)&rbrack;
 
