@@ -304,8 +304,6 @@ The [[Cartesian space]] $\mathbb{R}^n$ with its standard notion of open subsets 
 
 * [[pretopological space]]
 
-* [[spacial portal]]
-
 [[!include topology -- references]] 
 
 
