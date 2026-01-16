@@ -82,7 +82,7 @@ Sufficient conditions for a limit-preserving functor $R \colon C \to D$ to be a 
 
 =--
 
-In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $R$ preserves small limits (that it preserves all limits will follow).  The third case works by assuming that $C$ has, while not all large limits, enough so that the theorem goes through; thus is this case $R$ must be already known to preserve [[large category|large]] limits as well.
+In the first two cases, which work by replacing large limits by small ones, it suffices to assume that $R$ preserves small limits (that it preserves all limits will follow).  The third case works by assuming that $C$ has, while not all large limits, enough so that the theorem goes through; thus in this case $R$ must be already known to preserve [[large category|large]] limits as well.
 
 
 +-- {: .proof}
