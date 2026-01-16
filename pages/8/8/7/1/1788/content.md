@@ -9,7 +9,7 @@
 
 
 
-As [[symmetries]] of [[fractional quantum Hall systems]]:
+On [[W-infinity algebra|$W_\infty$-algebra]] [[symmetry]] in [[fractional quantum Hall systems]]:
 
 * [[Andrea Cappelli]], [[Carlo A. Trugenberger]], G. R. Zemba:
 *Infinite Symmetry in the Quantum Hall Effect*, Nucl. Phys. B **396** (1993) 465-490 \[<a href="https://doi.org/10.1016/0550-3213(93)90660-H">doi:10.1016/0550-3213(93)90660-H</a>, [arXiv:hep-th/9206027](https://arxiv.org/abs/hep-th/9206027)\]
@@ -21,6 +21,6 @@ As [[symmetries]] of [[fractional quantum Hall systems]]:
 * [[Andrea Cappelli]]: *$W_\infty$ Symmetry in the Quantum Hall Effect*, talk at *[Geometric and analytic aspects of the Quantum Hall effect](https://indico.global/event/9589/)* (May 2023) \[<a href="https://youtu.be/Ls44yHpbLtM">video</a>, [pdf](https://indico.global/event/9589/attachments/42089/78823/Slides.%20A.%20Cappelli.pdf)\]
 
 
-As [[symmetries]] of [[fractional Chern insulators]] ([[fractional quantum anomalous Hall systems]]):
+On [[W-infinity algebra|$W_\infty$-algebra]] [[symmetry]] in  [[fractional Chern insulators]] ([[fractional quantum anomalous Hall systems]]):
 
 * [[Siddharth A. Parameswaran]], [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Chern Insulators and the $W_\infty$ Algebra*, Phys. Rev. B **85** (2012) 241308(R) &lbrack;[arXiv:1106.4025](https://arxiv.org/abs/1106.4025), [doi:10.1103/PhysRevB.85.241308](https://doi.org/10.1103/PhysRevB.85.241308)&rbrack;
