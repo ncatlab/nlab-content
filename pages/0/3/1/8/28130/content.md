@@ -100,7 +100,11 @@ Review:
 ### As symmetries of fractional quantum Hall systems
  {#ReferencesAsSymmetriesOfFQHSystems}
 
-As ([[gauge symmetry|gauge]]) [[symmetries]] of [[fractional quantum Hall systems]] (cf. *[supersymmetry in FQH systems](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall)*):
+As ([[gauge symmetry|gauge]]) [[symmetries]] of [[fractional quantum Hall systems]] (cf. *[supersymmetry in FQH systems](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall)* and for more see at *[[W-infinity algebra|$W_\infty$-algebra]]*):
+
+
+* A. Cappelli, [[Carlo A. Trugenberger]], G. R. Zemba:
+*Infinite Symmetry in the Quantum Hall Effect*, Nucl. Phys. B **396** (1993) 465-490 \[<a href="https://doi.org/10.1016/0550-3213(93)90660-H">doi:10.1016/0550-3213(93)90660-H</a>, [arXiv:hep-th/9206027](https://arxiv.org/abs/hep-th/9206027)\]
 
 * [[Yi-Hsien Du]], [[Umang Mehta]], Dung Xuan Nguyen, [[Dam Thanh Son]]: *Volume-preserving diffeomorphism as nonabelian higher-rank gauge symmetry*, SciPost Phys. **12** 050 (2022) &lbrack;[arXiv:2103.09826](https://arxiv.org/abs/2103.09826), [doi:10.21468/SciPostPhys.12.2.050](https://doi.org/10.21468/SciPostPhys.12.2.050)&rbrack;
 
