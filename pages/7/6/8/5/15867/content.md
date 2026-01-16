@@ -52,6 +52,8 @@ Relation to [[M-brane]] [[brane intersections|intersections]] in [[M-theory]]
 
 On [[W-infinity algebra|$W_\infty$-algebra]] [[symmetry]] in [[fractional quantum Hall systems]]:
 
+* Satoshi Iso, Dimitra Karabali, B. Sakita: *Fermions in the lowest Landau level. Bosonization, W∞ algebra, droplets, chiral bosons*, Physics Letters B **296** 1–2 (1992) 143-150 \[<a href="https://doi.org/10.1016/0370-2693(92)90816-M">doi:10.1016/0370-2693(92)90816-M</a>\]
+
 * [[Andrea Cappelli]], [[Carlo A. Trugenberger]], G. R. Zemba: *Infinite Symmetry in the Quantum Hall Effect*, Nucl. Phys. B **396** (1993) 465-490 \[<a href="https://doi.org/10.1016/0550-3213(93)90660-H">doi:10.1016/0550-3213(93)90660-H</a>, [arXiv:hep-th/9206027](https://arxiv.org/abs/hep-th/9206027)\]
 
 * [[Andrea Cappelli]], [[Gerald V. Dunne]], [[Carlo A. Trugenberger]], G. R. Zemba: *Conformal Symmetry and Universal Properties of Quantum Hall States*, Nucl. Phys. B **398** (1993) 531-567 \[<a href="https://doi.org/10.1016/0550-3213(93)90603-M">doi:10.1016/0550-3213(93)90603-M</a>, [arXiv:hep-th/9211071](https://arxiv.org/abs/hep-th/9211071)\]
@@ -59,6 +61,11 @@ On [[W-infinity algebra|$W_\infty$-algebra]] [[symmetry]] in [[fractional quantu
 * [[Andrea Cappelli]], [[Carlo A. Trugenberger]], G. R. Zemba: *Classification of Quantum Hall Universality Classes by $W_{1+\infty}$ symmetry*, Phys. Rev. Lett. **72** (1994) 1902-1905 \[<a href="https://doi.org/10.1103/PhysRevLett.72.1902">doi:10.1103/PhysRevLett.72.1902</a>, [arXiv:hep-th/9310181](https://arxiv.org/abs/hep-th/9310181)\]
 
 * [[Andrea Cappelli]]: *$W_\infty$ Symmetry in the Quantum Hall Effect*, talk at *[Geometric and analytic aspects of the Quantum Hall effect](https://indico.global/event/9589/)* (May 2023) \[<a href="https://youtu.be/Ls44yHpbLtM">video</a>, [pdf](https://indico.global/event/9589/attachments/42089/78823/Slides.%20A.%20Cappelli.pdf)\]
+
+* Wang Yuzhu: *$W_\infty$-algebra and GMP algebra*, appendix B in: *Graviton Modes in Fractional Quantum Hall Liquids*, PhD thesis, Nanyang TU (2023) \[<a href="https://hdl.handle.net/10356/165156">hndl:10356/165156</a>, <a href="https://dr.ntu.edu.sg/server/api/core/bitstreams/41f1a8f4-aca1-4d37-a68d-0d56e4811d5e/content">pdf</a>\]
+
+* Yi-Hsien Du: *GMP/$W_\infty$ algebra*, section IV.B in: *Chiral Graviton Theory of Fractional Quantum Hall States* \[<a href="https://arxiv.org/abs/2509.04408">arXiv:2509.04408</a>\]
+
 
 On [[W-infinity algebra|$W_\infty$-algebra]] [[symmetry]] in  [[fractional Chern insulators]] ([[fractional quantum anomalous Hall systems]]):
 
