@@ -472,6 +472,14 @@ With Prop. \ref{M2Brane3AlgebrasEquivalentToMetricLieRepresentation} this shows 
 > from [[schreiber:Differential Cohomotopy implies intersecting brane observables|Sati-Schreiber 19c]]
 
 
+## Related entries
+
+* [[Nambu mechanics]]
+
+* [[BLG model]]
+
+* [[Nambu-Poisson M5-brane model]]
+
 ## References
 
 ### Appearance in M2-brane theory
