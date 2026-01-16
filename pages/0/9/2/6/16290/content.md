@@ -1,6 +1,10 @@
 
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Paolo_Di_Vecchia)
 
-* [webpage](http://www.nordita.org/people/staff/index.php?u=divecchi)
+* [inSpire page](https://inspirehep.net/authors/984879)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=SuVUttEAAAAJ&hl=en)
+
 
 ## Selected writings
 
@@ -24,7 +28,7 @@ The [[lattice field theory|lattice]]-formulation of the [[CP^N sigma-model|$\mat
 
 On the early history of [[string theory]]:
 
-* Andrea Cappelli, Elena Castellani, Filippo Colomo, [[Paolo Di Vecchia]] (eds.), *The Birth of String Theory*,  Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
+* [[Andrea Cappelli]], Elena Castellani, Filippo Colomo, [[Paolo Di Vecchia]] (eds.), *The Birth of String Theory*,  Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
 
 * [[Paolo Di Vecchia]], *The birth of string theory* &lbrack;[arXiv:0704.0101](https://arxiv.org/abs/0704.0101)&rbrack;
   
