@@ -91,6 +91,8 @@ It has also been suggested that "3-algebras" are to be interpreted in **[[n-plec
 
 * [[membrane matrix model]]
 
+* [[Nambu-Poisson M5-brane model]]
+
 [[!include superconformal symmetry -- table]]
 
 ## References
