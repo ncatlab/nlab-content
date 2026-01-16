@@ -3,6 +3,10 @@
 
 ## Selected writings
 
+On [[W-algebras]]:
+
+* [[Adel Bilal]]: *A remark on the $N \to \infty$ limit of $W_N$-algebras*, Physics Letters B **227** 3–4 (1989) 406-410 \[<a href="https://doi.org/10.1016/0370-2693(89)90951-9">doi:10.1016/0370-2693(89)90951-9</a>\]
+
 On the [[discrete light cone quantization]] formulation of [[M-theory]] in view of the [[BFSS matrix model]]:
 
 * [[Adel Bilal]], *DLCQ of M-Theory as the Light-Like Limit*, Phys. Lett. B **435** (1998) 312-318 &lbrack;[arXiv:hep-th/9805070](https://arxiv.org/abs/hep-th/9805070), <a href="https://doi.org/10.1016/S0370-2693(98)00811-9">doi:10.1016/S0370-2693(98)00811-9</a>&rbrack;
