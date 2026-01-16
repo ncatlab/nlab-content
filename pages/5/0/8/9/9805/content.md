@@ -1,7 +1,17 @@
 
-* [webpage](http://hep.physics.uoc.gr/~kiritsis/)
+* [personal page](http://hep.physics.uoc.gr/~kiritsis/)
+
+* [institute page](https://www.physics.uoc.gr/en/faculty/e.kiritsis)
+
+* [inSpire page](https://inspirehep.net/authors/1002813)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=BwFbG1kAAAAJ)
 
 ## Selected writings
+
+On [[W-infinity algebra|$W_\infty$-algebra]]:
+
+* Ioannis Bakas, [[Elias B. Kiritsis]]: *Structure and representations of the $W_\infty$ algebra*, Prog. Theor. Phys. Suppl. **102** (1990) 15-38 &lbrack;[inSpire:298496](https://inspirehep.net/literature/298496)&rbrack;
 
 On [[baryons]] in [[holographic QCD]] in relation to the [[open string]] [[tachyon]]:
 
@@ -14,3 +24,5 @@ On [[phase transitions]] in [[AdS-CMT|holographic condensed matter]]:
 
 
 category: people
+
+[[!redirects Elias B. Kiritsis]]
