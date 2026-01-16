@@ -15,7 +15,7 @@
 
 ## Idea
 
-*W-algebras* $W_N$ are higher [[spin]] [[algebra extension|extensions]] of the [[Virasoro algebra]], originally discovered as extended symmetry algebras of [[2D conformal field theories]].
+*W-algebras* $W_N$ are higher [[spin]] [[algebra extension|extensions]] of the [[Virasoro algebra]], originally discovered as extended [[symmetry]] algebras of [[2D conformal field theories]].
 
 For $N \to \infty$ the [[commutator]] in these algebras becomes linear in the standard generators, traditionally denoted "$W$". These "$W_\infty$-algebras" (with capital "W") are [[deformation quantizations]] of $w_\infty$-algebras (with lower case "w"), which in turn are [[central extensions]] of [[Lie algebras]] of [[area-preserving diffeomorphisms]].
 
