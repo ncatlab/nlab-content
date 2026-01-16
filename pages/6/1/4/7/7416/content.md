@@ -33,6 +33,11 @@ On [[G-structure]] for $G = Br_\infty$ the infinite [[braid group]]:
 
 * [[Jonathan Beardsley]], *On Braids and Cobordism Theories*, Glasgow (2022) &lbrack;notes: [pdf](https://www.jonathanbeardsley.com/GlasgowNotes2022.pdf), [[Beardsley-BraidsAndCobordism.pdf:file]]&rbrack;
 
+On [[Koszul duality]] in [[higher topos theory]]:
+
+* [[Jonathan Beardsley]], [[Maximilien Péroux]]: _Koszul Duality in Higher Topoi_, Homology, Homotopy and Applications, **25** 1 (2023)  53–70 &lbrack;[arXiv:1909.11724](https://arxiv.org/abs/1909.11724), [pdf](https://archive.intlpress.com/site/pub/files/_fulltext/journals/hha/2023/0025/0001/HHA-2023-0025-0001-a003.pdf)&rbrack;
+
+
 On [[projective geometry]] viewed in terms of [[modules]] over the "[[field with one element]]":
 
 * {#BeardsleySo24} [[Jonathan Beardsley]], [[So Nakamura]], *Projective geometries and simple pointed  matroids as $\mathbb{F}_1$-modules* &lbrack;[arXiv:2404.04730](https://arxiv.org/abs/2404.04730)&rbrack;
