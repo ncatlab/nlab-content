@@ -125,7 +125,7 @@ The original theoretical prediction (published back-to-back in the same volume) 
 
 and further early theoretical development:
 
-* S. A. Parameswaran, [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Quantum Hall Physics in Topological Flat Bands*, Comptes Rendus. Physique, Topological insulators / Isolants topologiques, **14** 9-10 (2013) 816-839 &lbrack;[arXiv:1302.6606](https://arxiv.org/abs/1302.6606), [doi:10.1016/j.crhy.2013.04.003](https://doi.org/10.1016/j.crhy.2013.04.003)&rbrack;
+* [[Siddharth A. Parameswaran]], [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Quantum Hall Physics in Topological Flat Bands*, Comptes Rendus. Physique, Topological insulators / Isolants topologiques, **14** 9-10 (2013) 816-839 &lbrack;[arXiv:1302.6606](https://arxiv.org/abs/1302.6606), [doi:10.1016/j.crhy.2013.04.003](https://doi.org/10.1016/j.crhy.2013.04.003)&rbrack;
   > "The possibility of stabilizing exotic topological phases outside of a dilution fridge and without a superconducting magnet, and the avenues it opens for further experimental
 probes of these phases, is among the primary motivations of the activity in this field"
 
@@ -133,6 +133,9 @@ probes of these phases, is among the primary motivations of the activity in this
 
 * [[Nicolas Regnault]], [[B. Andrei Bernevig]]: *Fractional Chern Insulator*, Phys. Rev. X **1** (2011) 021014  &lbrack;[arXiv:1105.4867](https://arxiv.org/abs/1105.4867), [doi:10.1103/PhysRevX.1.021014](https://doi.org/10.1103/PhysRevX.1.021014)&rbrack;
 
+Relation to [[W-infinity algebra]]:
+
+* [[Siddharth A. Parameswaran]], [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Chern Insulators and the W-Infinity Algebra*, Phys. Rev. B **85**  (2012) 241308(R) &lbrack;[arXiv:1106.4025](https://arxiv.org/abs/1106.4025), [doi:10.1103/PhysRevB.85.241308](https://doi.org/10.1103/PhysRevB.85.241308)&rbrack;
 
 
 Experimental realization of FQAH systems:
