@@ -47,7 +47,7 @@ $$
 
 It is easy to check that these would be the [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] of an [[adjunction]] $L\dashv R$. See _[[adjoint functor]]_ for more.
 
-The problem with this would-be argument is that in general the comma category $(c/G)$ may not be [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a [classical theorem of Freyd](complete+small+category#CompleteSmallCategoriesArePosets) says that any [[complete small category]] is a [[preorder]] (see [[complete small category]] for the proof, which is valid in [[classical logic]] and also holds classically in any [[Grothendieck topos]]).  Thus, the argument we gave above is necessarily only an **adjoint functor theorem for preorders**: 
+The problem with this would-be argument is that in general the comma category $(c/G)$ may not be a [[small category]]. But one can generally not expect a large category to have all large limits: even if we pass to a [[universe]] in which $(c/G)$ is considered small, a [classical theorem of Freyd](complete+small+category#CompleteSmallCategoriesArePosets) says that any [[complete small category]] is a [[preorder]] (see [[complete small category]] for the proof, which is valid in [[classical logic]] and also holds classically in any [[Grothendieck topos]]).  Thus, the argument we gave above is necessarily only an **adjoint functor theorem for preorders**: 
 
 +-- {: .num_theorem #ForPosets}
 ###### Theorem
@@ -210,7 +210,7 @@ Suppose $C$ and $D$ are categories that admit [[small colimits]]
 (i.e., are [[cocomplete]])
 and $F\colon C\to D$ is a functor that preserves [[small colimits]]
 (i.e., is cocontinuous).
-The $F$ has a [[right adjoint functor|right adjoint]]
+Then $F$ has a [[right adjoint functor|right adjoint]]
 if and only if for any object $d\in D$
 the functor
 $$C^{op} \to Set$$
