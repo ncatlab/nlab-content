@@ -5,7 +5,18 @@
 
 Introducing [[2d CFT|2d]] [[conformal field theory]]:
 
-* [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B Volume 241, Issue 2, 23 July 1984, Pages 333-380 (<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>)
+* [[Alexander Belavin]], [[Alexander Polyakov]], [[Alexander Zamolodchikov]], _Infinite conformal symmetry in two–dimensional quantum field theory_, Nuclear Physics B **241** 2 (1984) 333-380 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90052-X">doi:10.1016/0550-3213(84)90052-X</a>&rbrack;
+
+Introducing the [[W3-algebra|$W_3$-algebra]]:
+
+* [[Alexander Zamolodchikov]]: *Infinite additional symmetries in two-dimensional conformal quantum field theory*, Theor Math Phys **65** (1985) 1205–1213 \[<a href="https://doi.org/10.1007/BF01036128">doi:10.1007/BF01036128</a>, [mathnet:5141](https://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=tmf&paperid=5141&option_lang=eng)\] 
+
+and [[WN-algebra|$W_N$-algebras]]:
+
+* [[Vladimir A. Fateev]], [[Alexander B. Zamolodchikov]]: *Conformal quantum field theory models in two dimensions having $\mathbb{Z}_3$ symmetry*, Nuclear Physics B **280** (1987) 644-660 \[<a href="https://doi.org/10.1016/0550-3213(87)90166-0">doi:10.1016/0550-3213(87)90166-0</a>\]
+
+
+
 
 Introducing [[parafermion]] [[2d CFT]]:
 
