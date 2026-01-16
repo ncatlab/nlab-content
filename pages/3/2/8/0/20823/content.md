@@ -1,4 +1,10 @@
 
+Larry J. Romans
+
+* [inSpire page](https://inspirehep.net/authors/991345)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/L-J-Romans-2044309845)
+
 ## Selected writings
 
 On [[coset spaces]] ([[homogeneous spaces]]) and their [[Maurer-Cartan forms]] in application to [[first-order formulation of gravity|first-order formulation]] of ([[supergravity|super]]-)[[gravity]]:
@@ -16,5 +22,12 @@ On [[gauged supergravity|gauged]] [[D=5 supergravity]]:
 
 * [[Murat Günaydin]], [[L. J. Romans]] and [[Nicholas Warner]], _Compact and Non&#8211;Compact Gauged Supergravity Theories in Five Dimensions_, Nucl. Phys. B272 (1986) 598 ([spire:219727](http://inspirehep.net/record/219727), <a href="https://doi.org/10.1016/0550-3213(86)90237-3">doi:10.1016/0550-3213(86)90237-3</a>)
 
+On [[W-algebra]] [[symmetry]] in [[quantum field theory]]:
+
+* [[L. J. Romans]]: *Realisations of classical and quantum $W_3$ symmetry*, Nuclear Physics B **352** 3 (1991) 829--848 &lbrack;<a href="https://doi.org/10.1016/0550-3213(91)90108-A">doi:10.1016/0550-3213(91)90108-A</a>&rbrack;
+
 
 category: people
+
+[[!redirects Larry J. Romans]]
+[[!redirects Larry Romans]]
