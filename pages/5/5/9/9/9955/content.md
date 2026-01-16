@@ -31,6 +31,10 @@ On the emergence of [[superconformal field theory]] in the perturbations of the 
 
 * {#BDPS87} [[Eric Bergshoeff]], [[Michael Duff]], [[Christopher Pope]], [[Ergin Sezgin]]: *Supersymmetric Supermembrane Vacua and Singletons*, Phys. Lett. B **199** (1987) 69-74 \[<a href="https://doi.org/10.1016/0370-2693(87)91465-1">doi:10.1016/0370-2693(87)91465-1</a>, [InSpire:250244](https://inspirehep.net/literature/250244)\]
 
+On [[area-preserving diffeomorphisms]] and [[w-infinity algebra|$w_\infty$-algebra]]:
+
+* [[Eric Bergshoeff]], [[Miles P. Blencowe]], [[Kellogg S. Stelle]]: *Area-preserving diffeomorphisms and higher-spin algebras*,  Commun. Math. Phys. **128** (1990) 213–230 &lbrack;[doi:10.1007/BF02108779](https://doi.org/10.1007/BF02108779)&rbrack;
+
 On [[volume-preserving diffeomorphism]] [[gauge symmetry]] in the [[light cone gauge quantization]] of [[super p-branes]] (in higher dimensional generalization of the [[area-preserving diffeomorphisms]] of the [[M2-brane]] [[sigma-model]]):
 
 * [[Eric Bergshoeff]], [[Ergin Sezgin]], Y. Tanii, [[Paul K. Townsend]]: *Super $p$-branes as gauge theories of volume preserving diffeomorphisms*, Annals of Physics **199** 2 (1990) 340-365 \[<a href="https://doi.org/10.1016/0003-4916(90)90381-W">doi:10.1016/0003-4916(90)90381-W</a>\]
