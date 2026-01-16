@@ -26,6 +26,10 @@ On [[supergravity]] formulated on [[super spacetime]] [[supermanifolds]] ("[[sup
 
 * [[S. James Gates Jr.]], [[Kellogg S. Stelle]], [[Peter C. West]], *Algebraic origins of superspace constraints in supergravity*, Nuclear Physics B **169** 3–4 (1980) 347-364 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90037-1">doi:10.1016/0550-3213(80)90037-1</a>&rbrack;
 
+On [[area-preserving diffeomorphisms]] and [[w-infinity algebra|$w_\infty$-algebra]]:
+
+* [[Eric Bergshoeff]], [[Miles P. Blencowe]], [[Kellogg S. Stelle]]: *Area-preserving diffeomorphisms and higher-spin algebras*,  Commun. Math. Phys. **128** (1990) 213–230 &lbrack;[doi:10.1007/BF02108779](https://doi.org/10.1007/BF02108779)&rbrack;
+
 
 On [[black brane|black]] [[M2-brane]]-solutions to [[D=11 supergravity]]:
 
