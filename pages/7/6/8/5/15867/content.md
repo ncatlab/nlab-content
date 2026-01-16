@@ -50,8 +50,18 @@ and of the $W_\infty$-algebra of the [[noncommutative torus]]:
 
 * {#FFZ1989} [[David B. Fairlie]], Paul Fletcher, [[Cosmas K. Zachos]]; equation (6) in: *Trigonometric structure constants for new infinite-dimensional algebras*, Physics Letters B **218** 2 (1989) 203-206 \[<a href="https://doi.org/10.1016/0370-2693(89)91418-4">doi:10.1016/0370-2693(89)91418-4</a>\]
 
+Discussion of $W_\infty$ as the limiting case of $W_N$:
+
+* [[Adel Bilal]]: *A remark on the $N \to \infty$ limit of $W_N$-algebras*, Physics Letters B **227** 3–4 (1989) 406-410 \[<a href="https://doi.org/10.1016/0370-2693(89)90951-9">doi:10.1016/0370-2693(89)90951-9</a>\]
+
+
+* [[Christopher N. Pope]], [[Larry J. Romans]], X. Shen: *The complete structure of $W_\infty$*, Physics Letters B **236** 2 (1990) 173-178 \[<a href="https://doi.org/10.1016/0370-2693(90)90822-N">doi:10.1016/0370-2693(90)90822-N</a>\]
+
+
 
 Survey and review:
+
+* Ioannis Bakas, [[Elias B. Kiritsis]]: *Structure and representations of the $W_\infty$ algebra*, Prog. Theor. Phys. Suppl. **102** (1990) 15-38 &lbrack;[inSpire:298496](https://inspirehep.net/literature/298496)&rbrack;
 
 * [[Christopher N. Pope]]: *Lectures on W algebras and W gravity*, Summer School in High-energy Physics and Cosmology (1991) 827-867 &lbrack;[arXiv:hep-th/9112076](https://arxiv.org/abs/hep-th/9112076), [inSpire:321766](https://inspirehep.net/literature/321766)&rbrack;
 
@@ -62,6 +72,15 @@ Survey and review:
 * [[Peter Bouwknegt]], Jim McCarthy, [[Krzysztof Pilch]]: _The $W_3$ algebra: modules, semi-infinite cohomology, and BV algebras_, Lec. Notes in Phys. __42__, Springer (1996) &lbrack;[doi:10.1007/978-3-540-68719-1](https://link.springer.com/book/10.1007/978-3-540-68719-1)&rbrack;
 
 * Wikipedia: _[W-algebra](https://en.wikipedia.org/wiki/W-algebra#CITEREFBouwknegt1993)_
+
+
+Relation of $w_\infty$-algebras to [[area-preserving diffeomorphisms]]:
+
+* [[Eric Bergshoeff]], [[Miles P. Blencowe]], [[Kellogg S. Stelle]]: *Area-preserving diffeomorphisms and higher-spin algebras*,  Commun. Math. Phys. **128** (1990) 213–230 &lbrack;[doi:10.1007/BF02108779](https://doi.org/10.1007/BF02108779)&rbrack;
+
+* [[Ergin Sezgin]]: *Area-Preserving Diffeomorphisms, $w_\infty$ Algebras and $w_\infty$ Gravity* &lbrack;[arXiv:hep-th/9202086](https://arxiv.org/abs/hep-th/9202086)&rbrack;
+
+* Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
 
 
 Relation to [[Jordan algebra]]:
