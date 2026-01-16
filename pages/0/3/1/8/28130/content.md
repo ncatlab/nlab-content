@@ -20,7 +20,7 @@ A [[diffeomorphism]] $\phi \colon X \longrightarrow X$ of a ([[pseudo-Riemannian
 
 If the [[dimension of a manifold|dimension]] is $dim(X) = 2$, then one also speaks of *area-preserving diffeomorphisms* (APD).
 
-Volume preserving diffeomorphisms form a [[subgroup]] of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$ this is also known as a *[[w-infinity algebra|$w_\infty$-algebra]]*.
+Volume preserving diffeomorphisms form a [[subgroup]] of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$, [[central extensions]] of these Lie algebras are known as *[[w-infinity algebra|$w_\infty$-algebras]]* and certain [[quantizations]] of these as *[[W-infinity algebra|$W_\infty$-algebras]]*.
 
 In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear: 
 
