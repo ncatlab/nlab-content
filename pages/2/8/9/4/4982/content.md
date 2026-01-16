@@ -31,6 +31,10 @@ __Hydrodynamics__ is the dynamics of liquids, i.e. of low compressible fluids. I
 
 ## References
 
+* [[Vladimir Arnold]]: *Sur la géométrie différentielle des groupes de Lie de dimension infinie et ses applications à l'hydrodynamique des fluides parfaits*, Annales de l'Institut Fourier **16** 1 (1966) 319--361 \[<a href="https://www.numdam.org/item/AIF_1966__16_1_319_0/">numdam:AIF_1966__16_1_319_0/</a>\]
+  > (application of [[infinite-dimensional Lie groups]])
+
+
 * L. D. Landau, E. M. Lifschitz, _Fluid mechanics_ (Russian original is _Hydrodynamics_), vol. 6 of the [[Landau-Lifschitz|Course of Theoretical Physics]], Pergamon Press
 
 * [[Vladimir Arnold]], [[Boris Khesin]], _Topological methods in hydrodynamics_, Applied Mathematical Sciences __125__, Springer 1998 ([doi:10.1007/b97593](https://link.springer.com/book/10.1007/b97593))
