@@ -17,7 +17,7 @@ Early discussion of the [[fractional quantum anomalous Hall effect]]:
 
 and its relation to [[W-infinity algebra]]:
 
-* [[Siddharth A. Parameswaran]], [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Chern Insulators and the W-Infinity Algebra*, Phys. Rev. B **85**  (2012) 241308(R) &lbrack;[arXiv:1106.4025](https://arxiv.org/abs/1106.4025), [doi:10.1103/PhysRevB.85.241308](https://doi.org/10.1103/PhysRevB.85.241308)&rbrack;
+* [[Siddharth A. Parameswaran]], [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Chern Insulators and the $W_\infty$ Algebra*, Phys. Rev. B **85**  (2012) 241308(R) &lbrack;[arXiv:1106.4025](https://arxiv.org/abs/1106.4025), [doi:10.1103/PhysRevB.85.241308](https://doi.org/10.1103/PhysRevB.85.241308)&rbrack;
 
 
 category: people
