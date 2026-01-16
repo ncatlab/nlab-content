@@ -79,9 +79,11 @@ See also
 
 * {#GreenSchwarzWitten88} [[Michael Green]], [[John Schwarz]], [[Edward Witten]], _Superstring theory_, 3 vols. Cambridge Monographs on Mathematical Physics 1988 (Vol 1: [spire:250488](http://inspirehep.net/record/250488), [ISBN:9781107029118](https://www.cambridge.org/us/academic/subjects/physics/theoretical-physics-and-mathematical-physics/superstring-theory-25th-anniversary-edition-volume-1?format=HB&isbn=9781107029118); Vol 2: [spire:1384879](http://inspirehep.net/record/1384879), [doi:10.1017/CBO9781139248570](https://doi.org/10.1017/CBO9781139248570))
 
-* {#Polchinski98} [[Joseph Polchinski]], _[[String theory]]_, 2 vols. , Cambridge University Press, 1998 (Vol 1: [doi:10.1017/CBO9780511816079](https://doi.org/10.1017/CBO9780511816079), Vol 2: [ISBN:9780521633048](https://www.cambridge.org/us/academic/subjects/physics/theoretical-physics-and-mathematical-physics/string-theory-volume-2?format=HB&isbn=9780521633048))
+* {#Polchinski98} [[Joseph Polchinski]], _[[String theory]]_, 2 vols., Cambridge University Press, 1998 (Vol 1: [doi:10.1017/CBO9780511816079](https://doi.org/10.1017/CBO9780511816079), Vol 2: [ISBN:9780521633048](https://www.cambridge.org/us/academic/subjects/physics/theoretical-physics-and-mathematical-physics/string-theory-volume-2?format=HB&isbn=9780521633048))
 
 * [[Joseph Polchinski]], _Joe's Little Book of String_, class notes, UCSB Phys 230A, String Theory, Winter 2010, [pdf](http://www.kitp.ucsb.edu/sites/default/files/users/joep/JLBS.pdf)
+
+* [[Mike Duff]]: _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP (1999)
 
 
 * {#West12} [[Peter West]], _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
@@ -132,10 +134,7 @@ See also
 
 ## History
 
-* [[Mike Duff]], _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_ IoP 1999
-
-* {#TheBirthOfStringTheory} Andrea Cappelli, Elena Castellani, Filippo Colomo, Paolo Di Vecchia (eds.), _The Birth of String Theory_
-Cambridge University Press (2012). ([additional material](http://theory.fi.infn.it/colomo/string-book/), [publisher webpage](http://www.cambridge.org/gb/knowledge/isbn/item5979248/?site_locale=en_GB))
+* {#TheBirthOfStringTheory} [[Andrea Cappelli]], Elena Castellani, Filippo Colomo, [[Paolo Di Vecchia]] (eds.), *The Birth of String Theory*,  Cambridge University Press (2012) &lbrack;[doi:10.1017/CBO9780511977725](https://doi.org/10.1017/CBO9780511977725)&rbrack;
  
 
 ## Other lists of bibliography
