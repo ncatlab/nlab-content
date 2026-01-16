@@ -40,6 +40,14 @@ Proof that the volume-preserving [[diffeomorphism group]] of [[Cartesian space]]
 
 * [[Dusa McDuff]]: *On the Group of Volume-Preserving Diffeomorphisms of $\mathbf{R}^n$*, Transactions of the AMS **261** 1 (1980) &lbrack;[doi:10.1090/S0002-9947-1980-0576866-3](https://doi.org/10.1090/S0002-9947-1980-0576866-3)&rbrack;
 
+Discussion in relation to $w_\infty$-algebras:
+
+* [[Ergin Sezgin]]: *Area-Preserving Diffeomorphisms, $w_\infty$ Algebras and $w_\infty$ Gravity* &lbrack;[arXiv:hep-th/9202086](https://arxiv.org/abs/hep-th/9202086)&rbrack;
+
+* Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
+
+
+
 
 ### As symmetries of brane dynamics
  {#ReferencesAsSymmetriesOfBraneDynamics}
