@@ -40,6 +40,10 @@ If the underlying type of manifolds is [[Banach manifold]], then one speaks of _
 
 ## References
 
+* [[Vladimir Arnold]]: *Sur la géométrie différentielle des groupes de Lie de dimension infinie et ses applications à l'hydrodynamique des fluides parfaits*, Annales de l'Institut Fourier **16** 1 (1966) 319--361 \[<a href="https://www.numdam.org/item/AIF_1966__16_1_319_0/">numdam:AIF_1966__16_1_319_0/</a>\]
+ > (application to [[hydrodynamics]])
+
+
 * [[Andreas Kriegl]], [[Peter Michor]], _Regular infinite dimensional Lie groups_, Journal of Lie Theory Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PDF))
 
 * Rudolf Schmid, _Infinite-Dimensional Lie Groups and Algebras in Mathematical Physics_, Advances in Mathematical Physics Volume 2010, ([doi:10.1155/2010/280362](https://doi.org/10.1155/2010/280362), [pdf](http://www.emis.de/journals/HOA/AMP/Volume2010/280362.pdf))
