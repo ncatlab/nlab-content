@@ -22,7 +22,11 @@ On [[gauged supergravity|gauged]] [[D=5 supergravity]]:
 
 * [[Murat Günaydin]], [[L. J. Romans]] and [[Nicholas Warner]], _Compact and Non&#8211;Compact Gauged Supergravity Theories in Five Dimensions_, Nucl. Phys. B272 (1986) 598 ([spire:219727](http://inspirehep.net/record/219727), <a href="https://doi.org/10.1016/0550-3213(86)90237-3">doi:10.1016/0550-3213(86)90237-3</a>)
 
-On [[W-algebra]] [[symmetry]] in [[quantum field theory]]:
+On [[W-algebras]]:
+
+* [[Christopher N. Pope]], [[Larry J. Romans]], X. Shen: *The complete structure of $W_\infty$*, Physics Letters B **236** 2 (1990) 173-178 \[<a href="https://doi.org/10.1016/0370-2693(90)90822-N">doi:10.1016/0370-2693(90)90822-N</a>\]
+
+in [[quantum field theory]]:
 
 * [[L. J. Romans]]: *Realisations of classical and quantum $W_3$ symmetry*, Nuclear Physics B **352** 3 (1991) 829--848 &lbrack;<a href="https://doi.org/10.1016/0550-3213(91)90108-A">doi:10.1016/0550-3213(91)90108-A</a>&rbrack;
 
