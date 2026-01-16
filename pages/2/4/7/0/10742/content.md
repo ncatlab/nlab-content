@@ -32,6 +32,12 @@ On [[G₂-conifolds]]:
 
 * [[Gary Gibbons]], [[Don Page]], [[Christopher Pope]], _Einstein metrics on $S^3$, $\mathbb{R}^3$ and $\mathbb{R}^4$ bundles_, Comm. Math. Phys. Volume 127, Number 3 (1990), 529-553 ([euclid:cmp/1104180218](https://projecteuclid.org/euclid.cmp/1104180218))
 
+On [[W algebras]] and applications to [[gravity]]:
+
+* [[Christopher N. Pope]]: *Lectures on W algebras and W gravity*, Summer School in High-energy Physics and Cosmology (1991) 827-867 &lbrack;[arXiv:hep-th/9112076](https://arxiv.org/abs/hep-th/9112076), [inSpire:321766](https://inspirehep.net/literature/321766)&rbrack;
+
+
+
 On hidden [[duality in string theory|duality]]-[[symmetries]] ("[[U-duality]]") in [[torus|toroidal]] [[Kaluza-Klein compactifications]] of [[11D supergravity]]:
 
 * [[Eugène Cremmer]], [[Bernard Julia]], H. Lu, [[Christopher Pope]]: *Dualisation of Dualities, I*, Nucl. Phys.  B **523** (1998) 73-144 &lbrack;[arXiv:hep-th/9710119](https://arxiv.org/abs/hep-th/9710119), <a href="https://doi.org/10.1016/S0550-3213(98)00136-9">doi:10.1016/S0550-3213(98)00136-9</a>&rbrack;
