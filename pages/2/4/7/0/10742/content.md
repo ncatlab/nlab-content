@@ -32,7 +32,12 @@ On [[G₂-conifolds]]:
 
 * [[Gary Gibbons]], [[Don Page]], [[Christopher Pope]], _Einstein metrics on $S^3$, $\mathbb{R}^3$ and $\mathbb{R}^4$ bundles_, Comm. Math. Phys. Volume 127, Number 3 (1990), 529-553 ([euclid:cmp/1104180218](https://projecteuclid.org/euclid.cmp/1104180218))
 
-On [[W algebras]] and applications to [[gravity]]:
+On [[W algebras]]:
+
+* [[Christopher N. Pope]], [[Larry J. Romans]], X. Shen: *The complete structure of $W_\infty$*, Physics Letters B **236** 2 (1990) 173-178 \[<a href="https://doi.org/10.1016/0370-2693(90)90822-N">doi:10.1016/0370-2693(90)90822-N</a>\]
+
+
+and application to [[gravity]]:
 
 * [[Christopher N. Pope]]: *Lectures on W algebras and W gravity*, Summer School in High-energy Physics and Cosmology (1991) 827-867 &lbrack;[arXiv:hep-th/9112076](https://arxiv.org/abs/hep-th/9112076), [inSpire:321766](https://inspirehep.net/literature/321766)&rbrack;
 
