@@ -557,7 +557,7 @@ The Pfaffian modification of the Laughlin states for even-fractional filling fac
 
 The GMP *magneto-roton* excitation of the Moore-Read state:
 
-* {#GirvinMacDonaldPlatzman86} [[Steven M. Girvin]], A. H. MacDonald, P. M. Platzman: *Magneto-roton theory of collective excitations in the fractional quantum Hall effect*, Phys. Rev. B **33** (1986) 2481 &lbrack;[doi:10.1103/PhysRevB.33.2481](https://doi.org/10.1103/PhysRevB.33.2481), [inSpire:244382](https://inspirehep.net/literature/244382)&rbrack;
+* {#GirvinMacDonaldPlatzman86} [[Steven M. Girvin]], A. H. MacDonald, P. M. Platzman: *Magneto-roton theory of collective excitations in the fractional quantum Hall effect*, Phys. Rev. B **33** (1986) 2481 &lbrack;[doi:10.1103/PhysRevB.33.2481](https://doi.org/10.1103/PhysRevB.33.2481), [inSpire:244382](https://inspirehep.net/literature/244382), [[GMP-1986.pdf:file]]&rbrack;
 
 and the GWW *neutral fermion* excitation of the Moore-Read state:
 
