@@ -24,6 +24,13 @@ via [[super vertex operator algebras]]:
 * {#DLM02} Chongying Dong, [[Kefeng Liu]], Xiaonan Ma, _Elliptic genus and vertex operator algebras_, Algebr. Geom. Topol. 1 (2001) 743-762 ([arXiv:math/0201135](http://arxiv.org/abs/math/0201135), [doi:10.2140/agt.2001.1.743](http://dx.doi.org/10.2140/agt.2001.1.743))
 
 
+On [[orbifold]] [[elliptic genera]]:
+
+* Chongying Dong, [[Kefeng Liu]], Xiaonan Ma: _On orbifold elliptic genus_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.), _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics **310** AMS (2002) 87-105 &lbrack;[ams:conm-310](https://bookstore.ams.org/conm-310), [arXiv:math/0109005](https://arxiv.org/abs/math/0109005), [pdf](https://webusers.imj-prg.fr/~xiaonan.ma/mypubli/dlm02.pdf)&rbrack;
+
+
+
+
 On the [[volume conjecture]]:
 
 * {#ChenLiuZhu15} [[Qingtao Chen]], [[Kefeng Liu]], Shengmao Zhu, _Volume conjecture for $SU(n)$-invariants_ ([arXiv:1511.00658](https://arxiv.org/abs/1511.00658))
