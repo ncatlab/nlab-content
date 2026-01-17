@@ -15,12 +15,12 @@
 
 ## Idea
 
-The _solution set condition_ appears as part of the hypothesis in Freyd's [[adjoint functor theorem|General Adjoint Functor Theorem]].
+The _solution set condition_ appears as part of the hypothesis in Freyd's [[adjoint functor theorem|General Adjoint Functor Theorem]]. The theorem says that a [[functor]] $F : C \to D$ is a [[right adjoint]] (i.e.: has a [[left adjoint]]) in case the category $C$ is complete and locally small, $F$ preserves all small limits, and $F$ satisfies the solution set condition. This condition is a considerable weakening of the [[universal property]] required by a left adjoint of $F$.
 
 
 ## Statement
 
-A [[functor]] $F : C \to D$ satisfies the **solution set condition** if for every [[object]] $Y$ of $D$ there exists a [[small set]] $I$, an $I$-indexed family $(X_i)_{i \in I}$ of objects of $C$ and an $I$-indexed family $(f_i\colon Y \to F(X_i))_{i \in I}$ of morphisms in $D$ such that each morphism $h\colon Y \to F(X)$ in $D$ can be factored, for some index $i$ and some morphism $t\colon X_i \to X$ in $C$, as 
+A functor $F : C \to D$ satisfies the **solution set condition** if for every [[object]] $Y$ of $D$ there exists a [[small set]] $I$, an $I$-indexed family $(X_i)_{i \in I}$ of objects of $C$ and an $I$-indexed family $(f_i\colon Y \to F(X_i))_{i \in I}$ of morphisms in $D$ such that each morphism $h\colon Y \to F(X)$ in $D$ can be factored, for some index $i$ and some morphism $t\colon X_i \to X$ in $C$, as 
 
 $$
   F(t) \circ f_i
@@ -33,9 +33,9 @@ $$
 
 This is a smallness condition in that the family is required to be indexed by a [[small set]].
 
-A restatement of this condition is that the comma categories $(Y \downarrow F)$ all admit weakly initial families of objects.
+A restatement of this condition is that the [[comma category|comma categories]] $(Y \downarrow F)$ all admit weakly initial families of objects.
 
-Here is the connection with the adjoint functor theorem: when small products exist in those comma categories, this is equivalent to saying that they all admit weakly initial objects. When small equalizers exist in those comma categories also, this is equivalent to saying that they all admit initial objects, and this is equivalent to $F$ being a right adjoint.
+Here is the connection with the adjoint functor theorem: when small products exist in those comma categories, the existence of weakly initial families is equivalent to the existence of  [[weakly initial object|weakly initial objects]]. When small [[equalizer|equalizers]] exist in those comma categories also, the existence of weakly initial objects is equivalent to the existence of [[initial objects]], and this is equivalent to $F$ being a right adjoint.
 
 
 ## Examples
