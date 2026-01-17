@@ -568,6 +568,10 @@ Amplification that the resulting B-field on the M5-brane is *not naively* [[self
 
 * {#HoweSezginWest97} [[Paul S. Howe]], [[Ergin Sezgin]], [[Peter C. West]], *The six-dimensional self-dual tensor*, Physics Letters B **400** 3–4 (1997) 255-259 &lbrack;[arXiv:hep-th/9702111](https://arxiv.org/abs/hep-th/9702111), <a href="https://doi.org/10.1016/S0370-2693(97)00365-1">doi:10.1016/S0370-2693(97)00365-1</a>&rbrack;
 
+On residual [[volume-preserving diffeomorphism]]-[[symmetry]] after [[light cone gauge]]-[[gauge fixing|fixing]]:
+
+* [[Igor A. Bandos]], [[Paul K. Townsend]]: *Light-cone M5 and multiple M2-branes*, Class. Quant. Grav. **25** 245003 (2008) \[<a href="https://doi.org/10.1088/0264-9381/25/24/245003">doi:10.1088/0264-9381/25/24/245003</a>, [arXiv:0806.4777](https://arxiv.org/abs/0806.4777)\]
+
 
 A variant adapted to a 3+3-dimensional split in view of the [[NP M5-brane model]]:
 
