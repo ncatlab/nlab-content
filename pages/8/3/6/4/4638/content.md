@@ -1,8 +1,10 @@
-[[!redirects Dan Christensen]]
+John Daniel Christensen is a mathematician at the University of Western Ontario.
 
-Dan Christensen is a mathematician at the University of Western Ontario.
+* [personal page](http://jdc.math.uwo.ca/)
 
-* [website](http://jdc.math.uwo.ca/)
+* [MathGenealogy page](https://genealogy.math.ndsu.nodak.edu/id.php?id=37032)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=zNcRPCYAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -26,8 +28,7 @@ On the [[D-topology]] on [[diffeological spaces]]:
 
 On the [[homotopy theory]] of [[diffeological spaces]] via their [[cohesion|cohesive]] [[shape modality|shape]]:
 
-* [[J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces_, New York J. Math. 20 
-(2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+* [[J. Daniel Christensen]],  [[Enxin Wu]]: _The homotopy theory of diffeological spaces_, New York J. Math. **20** (2014) 1269-1303 &lbrack;[arXiv:1311.6394](http://arxiv.org/abs/1311.6394), [nyjm:2014/20-59](https://nyjm.albany.edu/j/2014/20-59.html)&rbrack;
 
 On [[localization of a space|localization]] (in [[algebraic topology]]) formulated in [[modal homotopy type theory|modal]] [[homotopy type theory]]:
 
@@ -48,7 +49,7 @@ On [[delooping]], [[H-spaces]] and [[Eilenberg-MacLane spaces]] in [[homotopy ty
 
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[model category]]
 
@@ -56,6 +57,10 @@ On [[delooping]], [[H-spaces]] and [[Eilenberg-MacLane spaces]] in [[homotopy ty
 
 category: people
 
+
+[[!redirects Dan Christensen]]
+
 [[!redirects Daniel Christensen]]
 
 [[!redirects John Daniel Christensen]]
+
