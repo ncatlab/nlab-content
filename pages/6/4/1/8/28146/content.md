@@ -38,3 +38,9 @@ Review:
 
 * [[Pei-Ming Ho]], Yutaka Matsuo: *Nambu bracket and M-theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A104 \[<a href="https://doi.org/10.1093/ptep/ptw075">doi:10.1093/ptep/ptw075</a>, [arXiv:1603.09534](https://arxiv.org/abs/1603.09534)\]
 
+See also:
+
+* [[Igor A. Bandos]], [[Paul K. Townsend]]: *Light-cone M5 and multiple M2-branes*, Class. Quant. Grav. **25** 245003 (2008) \[<a href="https://doi.org/10.1088/0264-9381/25/24/245003">doi:10.1088/0264-9381/25/24/245003</a>, [arXiv:0806.4777](https://arxiv.org/abs/0806.4777)\]
+
+* [[Igor A. Bandos]], [[Paul K. Townsend]]: *SDiff Gauge Theory and the M2 Condensate*, JHEP 0902:013 (2009) \[<a href="https://doi.org/10.1088/1126-6708/2009/02/013">doi:10.1088/1126-6708/2009/02/013</a>, [arXiv:0808.1583](https://arxiv.org/abs/0808.1583)\]
+
