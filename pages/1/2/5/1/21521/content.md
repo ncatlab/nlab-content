@@ -13,7 +13,7 @@ On [[mapping stacks]] between [[orbifolds]]:
 
 On [[symplectic orbifolds]]:
 
-* [[Weimin Chen]], _Resolving symplectic orbifolds with applications to finite group actions_, Journal of Gökova Geometry Topology **12** (2018), 1-39 ([arXiv:1708.09428](https://arxiv.org/abs/1708.09428))
+* [[Weimin Chen]]: _Resolving symplectic orbifolds with applications to finite group actions_, Journal of Gökova Geometry Topology **12** (2018) 1-39 &lbrack;[arXiv:1708.09428](https://arxiv.org/abs/1708.09428), [pdf](https://gokovagt.org/journal/2018/jggt18-chen.pdf)&rbrack;
 
 
 
