@@ -125,9 +125,17 @@ On [[higher curvature corrections]] to [[D=11 supergravity]] and [[M-theory on G
 
 * H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], [[Paul Townsend]], _String and M-theory Deformations of Manifolds with Special Holonomy_, JHEP 0507:075, 2005 ([arXiv:hep-th/0410176](https://arxiv.org/abs/hep-th/0410176))
 
+
 On open [[M5-branes]] [[intersecting brane|intersecting]] [[M9-branes]] in a [[Yang monopole]]:
 
 * [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. 97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193), [doi:10.1103/PhysRevLett.97.231601](https://doi.org/10.1103/PhysRevLett.97.231601))
+
+On [[volume-preserving diffeomorphisms]] and [[M-branes]] (also on the [[Nambu-Poisson M5-brane model]]):
+
+* [[Igor A. Bandos]], [[Paul K. Townsend]]: *Light-cone M5 and multiple M2-branes*, Class. Quant. Grav. **25** 245003 (2008) \[<a href="https://doi.org/10.1088/0264-9381/25/24/245003">doi:10.1088/0264-9381/25/24/245003</a>, [arXiv:0806.4777](https://arxiv.org/abs/0806.4777)\]
+
+* [[Igor A. Bandos]], [[Paul K. Townsend]]: *SDiff Gauge Theory and the M2 Condensate*, JHEP 0902:013 (2009) \[<a href="https://doi.org/10.1088/1126-6708/2009/02/013">doi:10.1088/1126-6708/2009/02/013</a>, [arXiv:0808.1583](https://arxiv.org/abs/0808.1583)\]
+
 
 On [[supersymmetry and division algebras]], the corresponding [twistor space](twistor+space#TwistorSpace) and its [[anti de Sitter spacetime|AdS]] version:
 
