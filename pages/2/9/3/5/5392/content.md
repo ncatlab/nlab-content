@@ -26,6 +26,8 @@ A [[subcategory]] $T$ of an [[abelian category]] $A$ is a __localizing subcatego
 
 One sometimes says that $T$ is the localizing subcategory associated with quotient (or localized) category $B$ (which is then equivalent to the [[Serre quotient category]] $A/T$). 
 
+A __localizing subcategory of a triangulated category__ is 
+a full triangulated subcategory closed under arbitrary direct sums (that is, the inclusion preserves direct sums). 
 
 ## Properties
 
@@ -44,7 +46,7 @@ A strictly [[full subcategory]] $T\subset A$ is localizing iff the class $\Sigma
 
 A [[reflective subcategory|reflective]] (strongly) [[thick subcategory]] $T$ is always localizing and the converse holds if $A$ has injective envelopes. 
 
-If $A$ admit [[colimits]] and has a set of generators, then any localizing subcategory $T\subset A$,and the [[quotient category|Serre quotient]] $A/T$, admit colimits and has a set of generators (Gabriel, Prop. 9) and the quotient functor $Q_T : A\to A/T$ preserves colimits (in the same [[Grothendieck universe]] if we work with universes). The generators of $A/T$ are the images of the generators in $A$ under the quotient functor $Q_T$. If $A$ is [[locally noetherian category|locally noetherian]] abelian category then any localizing subcategory $T\subset A$ and the quotient category $A/T$ are locally noetherian (Gabriel, Cor. 1). (If $A$ is locally finitely presented, $A$ and $A/T$ are locally finitely presented.?) If $A$ is locally noetherian and $A_{Noether}\subset A$ is the full subcategory of noetherian objects in $A$, then the assignment which to any localizing subcategory $T\subset A$ assigns the full subcategory $T_{Noether}\subset T$ of noetherian objects in $T$ is the bijection between the localizing subcategories in $A$ and (strongly) thick subcategories in $A_{Noether}$ (Gabriel Prop. 10). 
+If $A$ admit [[colimits]] and has a set of generators, then any localizing subcategory $T\subset A$,and the [[quotient category|Serre quotient]] $A/T$, admit colimits and has a set of generators (Gabriel, Prop. 9) and the quotient functor $Q_T : A\to A/T$ preserves colimits (in the same [[Grothendieck universe]] if we work with universes). The generators of $A/T$ are the images of the generators in $A$ under the quotient functor $Q_T$. If $A$ is [[locally noetherian category|locally noetherian]] abelian category then any localizing subcategory $T\subset A$ and the quotient category $A/T$ are locally noetherian (Gabriel, Cor. 1). (If $A$ is locally finitely presented, $A$ and $A/T$ are locally finitely presented.?) If $A$ is locally noetherian and $A_{Noether}\subset A$ is the full subcategory of noetherian objects in $A$, then the assignment which to any localizing subcategory $T\subset A$ assigns the full subcategory $T_{Noether}\subset T$ of noetherian objects in $T$ is the bijection between the localizing subcategories in $A$ and (strongly) thick subcategories in $A_{Noether}$ (Gabriel, Prop. 10). 
 
 
 ### In locally finitely presentable abelian categories
