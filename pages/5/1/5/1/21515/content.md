@@ -1,4 +1,5 @@
 
+
 ### Traditional orbifold cohomology
 
 Traditionally, the [[cohomology]] of [[orbifolds]]  has, by and large, been taken to be simply the [[ordinary cohomology]] of (the plain [[homotopy type]] of) the [[geometric realization of simplicial topological spaces|geometric realization]] of the [[topological groupoid|topological]]/[[Lie groupoid]]  corresponding to the orbifold. 
@@ -24,11 +25,11 @@ following analogous constructions in
 
 Since this traditional [[rational cohomology]] of orbifolds does, hence, not actually reflect the specific nature of orbifolds, a proposal for a finer notion of orbifold cohomology was famously introduced (motivated from orbifolds as [[target spaces]] in [[string theory]], hence from orbifolding of [[2d CFTs]]) in 
 
-* {#ChenRuan00} [[Weimin Chen]], [[Yongbin Ruan]], _A New Cohomology Theory for Orbifold_, Commun. Math. Phys. 248 (2004) 1-31 ([arXiv:math/0004129](https://arxiv.org/abs/math/0004129))
+* {#ChenRuan00} [[Weimin Chen]], [[Yongbin Ruan]]: _A New Cohomology Theory for Orbifold_, Commun. Math. Phys. 248 (2004) 1-31 \[<a href="https://doi.org/10.1007/s00220-004-1089-4">doi:10.1007/s00220-004-1089-4</a>, [arXiv:math/0004129](https://arxiv.org/abs/math/0004129)\]
 
 However, [[Chen-Ruan cohomology]] of an orbifold $\mathcal{X}$ turns out to be just Borel cohomology with rational coefficients, hence is just Satake's coarse cohomology -- but applied to the [[inertia orbifold]] of $\mathcal{X}$. A review that makes this nicely explicit is (see p. 4 and 7):
 
-* {#Clader14} Emily Clader, _Orbifolds and orbifold cohomology_, 2014 ([pdf](http://www-personal.umich.edu/~eclader/OctLect1.pdf))
+* {#Clader14} Emily Clader, _Orbifolds and orbifold cohomology_ (2014) $[$[[Clader-Orbifolds.pdf:file]]\]
 
 Hence [[Chen-Ruan cohomology]] of a global quotient orbifold is equivalently the [[rational cohomology]] ([[real cohomology]],  [[complex cohomology]]) for the [[topological quotient space]] $AutMor(X\!\sslash\!G)/G$ of the space of [[automorphisms]] in the [[action groupoid]] by the $G$-[[conjugation]] [[action]].
 
