@@ -595,4 +595,7 @@ For full CFT, The special case of _rational_ CFT has been essentially entirely f
 [[!redirects conformal weight]]
 [[!redirects conformal weights]]
 
+[[!redirects conformal spin]]
+[[!redirects conformal spins]]
+
 
