@@ -18,9 +18,7 @@ See also exposition in:
 
 Generalization to inhomogeneous [[magnetic fields]]:
 
-* [[Giandomenico Palumbo]]: *Noncommutative Geometry and Deformation Quantization in the Quantum Hall Fluids with Inhomogeneous Magnetic Fields*, J. Phys. A: Math. Theor. **56** 455203 (2023) \[<a href="https://doi.org/10.1088/1751-8121/ad018b">doi:10.1088/1751-8121/ad018b</a>\]
-
-
+* [[Giandomenico Palumbo]]: *Noncommutative Geometry and Deformation Quantization in the Quantum Hall Fluids with Inhomogeneous Magnetic Fields*, J. Phys. A: Math. Theor. **56** 455203 (2023) \[<a href="https://doi.org/10.1088/1751-8121/ad018b">doi:10.1088/1751-8121/ad018b</a>, [arXiv:2304.04002](https://arxiv.org/abs/2304.04002)\]
 
 Discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Simons theory|abelian]] but [[noncommutative  field theory|noncommutative]] ([[matrix model]]-)[[Chern-Simons theory]]:
 
