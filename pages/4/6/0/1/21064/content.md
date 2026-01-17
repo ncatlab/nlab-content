@@ -31,7 +31,7 @@ Observation that the spectrum is continuous:
 
 Review:
 
-* {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In: _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ (1998) 29-74 \[<a href="http://arxiv.org/abs/hep-th/9809103"></a>, [spire:476366](http://inspirehep.net/record/476366)\]
+* {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]], _Supermembranes and M(atrix) Theory_, In: _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ (1998) 29-74 \[<a href="http://arxiv.org/abs/hep-th/9809103">arXiv:hep-th/9809103</a>, [spire:476366](http://inspirehep.net/record/476366)\]
   
 * [[Jens Hoppe]]: _Membranes and Matrix Models_ \[<a href="https://arxiv.org/abs/hep-th/0206192">arXiv:hep-th/0206192</a>\]
 
