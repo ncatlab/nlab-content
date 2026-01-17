@@ -20,7 +20,7 @@ Introducing [[hemistrict Lie 2-algebras]]:
 
 On [[smooth superalgebras]]:
 
-* [[David Carchedi]], [[Dmitry Roytenberg]], *On Theories of Superalgebras of Differentiable Functions* &lbrack;[arXiv:1211.6134](http://arxiv.org/abs/1211.6134)&rbrack;
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]]: _On theories of superalgebras of differentiable functions_, Theory and Applications of Categories **28** 30 (2013) 1022-1098 &lbrack;[arxiv:1211.6134](http://arxiv.org/abs/1211.6134), [tac:28-39](http://www.tac.mta.ca/tac/volumes/28/30/28-30abs.html)&rbrack;
 
 On equivalence of dg manifolds
 
