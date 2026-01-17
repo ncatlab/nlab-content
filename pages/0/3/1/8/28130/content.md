@@ -58,12 +58,13 @@ Discussion in relation to $w_\infty$-algebras:
 * Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
 
 
-### Representation theory
+### Linear representations
  {#ReferencesRepresentationTheory}
 
-The [[representation theory]] of VPDs seems to be mostly absent, but see the following.
+There is no general [[representation theory]] of VPDs, but (cf. [Pickrell 2000 p. 179](#Pickrell2000)) the following examples have been constructed.
 
-On representations of $SDiff(\mathbb{R}^3)$
+
+On [[linear representations]] of $SDiff(\mathbb{R}^3)$
 
 in the context of discussion of [[vortices]]:
 
@@ -80,7 +81,8 @@ in the context of discussion of [[vortices]]:
 
 On representations of $SDiff(\mathbb{S}^2)$:
 
-* [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
+* {#Pickrell2000} [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
+  > (also discusses $SDiff(T^2)$)
 
 * [[Boris Kruglikov]], Oleg Morozov: *$SDiff(2)$ and uniqueness of the Plebański equation*, J. Math. Phys. **53** 083506 (2012) &lbrack;[doi:10.1063/1.4739749](https://doi.org/10.1063/1.4739749), [arXiv:1204.3577v2](https://arxiv.org/abs/1204.3577v2)&rbrack;
   > (in the context of the [[Plebański formulation of gravity]])
