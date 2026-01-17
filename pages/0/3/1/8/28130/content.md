@@ -40,7 +40,6 @@ Original discussion of the $w_\infty$-algebra of the [[torus]]:
 
 * [[Vladimir Arnold]]; equation (109) in: *Sur la géométrie différentielle des groupes de Lie de dimension infinie et ses applications à l'hydrodynamique des fluides parfaits*, Annales de l'Institut Fourier **16** 1 (1966) 319--361 \[<a href="https://www.numdam.org/item/AIF_1966__16_1_319_0/">numdam:AIF_1966__16_1_319_0/</a>\]
 
-
 Proof that the volume-preserving [[diffeomorphism group]] of [[Cartesian space]] $\mathbb{R}^n$ is a [[perfect group]] when $n \geq 3$:
 
 * [[Dusa McDuff]]: *On the Group of Volume-Preserving Diffeomorphisms of $\mathbf{R}^n$*, Transactions of the AMS **261** 1 (1980) &lbrack;[doi:10.1090/S0002-9947-1980-0576866-3](https://doi.org/10.1090/S0002-9947-1980-0576866-3)&rbrack;
@@ -53,6 +52,11 @@ Discussion in relation to $w_\infty$-algebras:
 
 * Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
 
+On the [[representation theory]]:
+
+
+* Robert F. Penna: *$SDiff(S^2)$ and the orbit method*, J. Math. Phys. **61** 012301 (2020) &lbrack;[arXiv:1806.05235](https://arxiv.org/abs/1806.05235), [doi:10.1063/1.5140475](https://doi.org/10.1063/1.5140475)&rbrack;
+  > (via the [[orbit method]])
 
 
 
