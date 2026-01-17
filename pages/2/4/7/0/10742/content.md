@@ -27,6 +27,11 @@ On [[supersymmetry]] and [[G-structure]] (notably [[Spin(7)-structure]] in [[M-t
 
 * {#IshamPopeWarner88} [[Chris Isham]], [[Christopher Pope]], [[Nicholas Warner]], _Nowhere-vanishing spinors and triality rotations in 8-manifolds_,  Classical and Quantum Gravity, Volume 5, Number 10, 1988 ([cds:185144](http://cds.cern.ch/record/185144), [doi:10.1088/0264-9381/5/10/009](https://iopscience.iop.org/article/10.1088/0264-9381/5/10/009))
 
+On [[area-preserving diffeomorphisms]] and [[su(n)|$\mathfrak{su}(n)$]]:
+
+* [[Christopher N. Pope]], [[Kellogg S. Stelle]]: *$SU(\infty)$, $SU_+(\infty)$ and area-preserving algebras*, Physics Letters B **226** 3–4 (1989) 257-263 \[<a href="https://doi.org/10.1016/0370-2693(89)91191-X">doi:10.1016/0370-2693(89)91191-X</a>\]
+
+
 
 On [[G₂-conifolds]]:
 
