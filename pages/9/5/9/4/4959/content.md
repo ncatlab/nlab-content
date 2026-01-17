@@ -15,13 +15,13 @@ On [[topological stacks]] and [[differentiable stacks]]:
 
 On [[smooth superalgebras]]:
 
-* [[David Carchedi]], [[Dmitry Roytenberg]], *On Theories of Superalgebras of Differentiable Functions* &lbrack;[arXiv:1211.6134](http://arxiv.org/abs/1211.6134)&rbrack;
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]]: _On theories of superalgebras of differentiable functions_, Theory and Applications of Categories **28** 30 (2013) 1022-1098 &lbrack;[arxiv:1211.6134](http://arxiv.org/abs/1211.6134), [tac:28-39](http://www.tac.mta.ca/tac/volumes/28/30/28-30abs.html)&rbrack;
 
 On [[étale infinity-groupoids]]:
 
-* [[David Carchedi]], _&#201;tale Stacks as Prolongations_, Advances in Mathematics Volume 352, 20 August 2019, Pages 56-132 ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+* {#Carched10} [[David Carchedi]]: _Sheaf Theory for &#201;tale Geometric Stacks_ &lbrack;[arXiv:1011.6070](http://arxiv.org/abs/1011.6070)&rbrack;
 
-* [[David Carchedi]], _Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity-Topoi_, Memoirs of the American Mathematical Society 2020; 120 ([arXiv:1312.2204](https://arxiv.org/abs/1312.2204),[ISBN:978-1-4704-5810-2](https://bookstore.ams.org/memo-264-1282))
+* [[David Carchedi]]: _Étale Stacks as Prolongations_, Advances in Mathematics **352** (2019) 56-132 &lbrack;[arXiv:1212.2282](http://arxiv.org/abs/1212.2282), [doi:10.1016/j.aim.2019.05.021](https://doi.org/10.1016/j.aim.2019.05.021)&rbrack;
 
 
 * {#Carchedi15} [[David Carchedi]], _On The Homotopy Type of Higher Orbifolds and Haefliger Classifying Spaces_, Advances of Mathematics, Volume 294, 2016, Pages 756-818 ([arXiv:1504.02394](http://arxiv.org/abs/1504.02394))
@@ -42,14 +42,16 @@ On [[derived smooth manifolds]]:
 
 On higher [[orbifolds]] and [[Deligne-Mumford stacks]] as [[(∞,1)-toposes]]:
 
-* [[David Carchedi]], *Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi*, Memoirs of the American Mathematical Society **264** 1282 (2020) &lbrack;[doi:10.1090/memo/1282](https://doi.org/10.1090/memo/1282), [arXiv:1312.2204](https://arxiv.org/abs/1312.2204)&rbrack;
+* [[David Carchedi]], *Higher Orbifolds and Deligne-Mumford Stacks as Structured Infinity Topoi*, Memoirs of the American Mathematical Society **264** 1282 (2020) &lbrack;[doi:10.1090/memo/1282](https://doi.org/10.1090/memo/1282), [ISBN:978-1-4704-5810-2](https://bookstore.ams.org/memo-264-1282), [arXiv:1312.2204](https://arxiv.org/abs/1312.2204)&rbrack;
+
+
 
 On derived differential [[supergeometry]]:
 
 * [[David Carchedi]], *Quasi-coherent sheaves and D-modules in Derived Differential Supergeometry* &lbrack;[arXiv:2503.14426](https://arxiv.org/abs/2503.14426)&rbrack;
 
 
-## Related $n$Lab entries
+## Related entries
 
 * [[geometric stack]]
 
