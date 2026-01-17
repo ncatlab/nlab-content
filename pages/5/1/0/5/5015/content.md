@@ -83,7 +83,7 @@ $$
 
 to the [[Haefliger groupoid]], example \ref{HaefligerGroupoid}, of its manifold of objects. The [[kernel]] of this map is the _ineffective part_ of $X_\bullet$. If the kernel vanishes, then $X$ is called an [[effective Lie groupoid]].
 
-(e.g. [Carchedi 12, section 2.2](Carchedi12))
+(e.g. [Carchedi 12, section 2.2](#Carchedi12))
 
 ### Characterization by convolution Hopf algebroids (Gelfand duality)
  {#GelfandDuality}
@@ -198,9 +198,9 @@ Further discussion of &#233;tale groupoids and their properties includes
 
 * [[Marius Crainic]], [[Ieke Moerdijk]], _A Homology Theory for &#201;tale groupoids_ ([journal](http://www.math.uiuc.edu/K-theory/0284/))
 
-* [[David Carchedi]], _Sheaf Theory for &#201;tale Geometric Stacks_ ([arXiv:1011.6070](http://arxiv.org/abs/1011.6070))
+* {#Carched10} [[David Carchedi]]: _Sheaf Theory for &#201;tale Geometric Stacks_ &lbrack;[arXiv:1011.6070](http://arxiv.org/abs/1011.6070)&rbrack;
 
-* {#Carchedi12} [[David Carchedi]], section 2.2, section 3 of _&#201;tale Stacks as Prolongations_ ([arXiv:1212.2282](http://arxiv.org/abs/1212.2282))
+* {#Carchedi12} [[David Carchedi]], sections 2.2 & 3 of: _Étale Stacks as Prolongations_, Advances in Mathematics **352** (2019) 56-132 &lbrack;[arXiv:1212.2282](http://arxiv.org/abs/1212.2282), [doi:10.1016/j.aim.2019.05.021](https://doi.org/10.1016/j.aim.2019.05.021)&rbrack;
 
   
 
