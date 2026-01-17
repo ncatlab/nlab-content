@@ -15,11 +15,11 @@
 
 ## Idea
 
-*W-algebras* $W_N$ are higher [[spin]] [[algebra extension|extensions]] of the [[Virasoro algebra]], originally discovered as extended [[symmetry]] algebras of [[2D conformal field theories]].
+For $N \in \mathbb{N}$, $N \geq 2$, *W-algebras* $W_N$ are [[associative algebras]] which are higher [[spin]] [[algebra extension|extensions]] of the [[Virasoro algebra]] (which is the case $N=2$)  ---  originally discovered as extended [[symmetry]] algebras of [[2D conformal field theories]].
 
-For $N \to \infty$ the [[commutator]] in these algebras becomes linear in the standard generators, traditionally denoted "$W$". These "$W_\infty$-algebras" (with capital "W") are [[deformation quantizations]] of $w_\infty$-algebras (with lower case "w"), which in turn are [[central extensions]] of [[Lie algebras]] of [[area-preserving diffeomorphisms]].
+For $N \to \infty$ the [[commutator]] in these algebras becomes linear in the standard generators (traditionally denoted "$W$"), whence the limiting case $W_\infty$ is the [[universal enveloping algebra]] of a [[Lie algebra]]. These *$W_\infty$-algebras* (with capital "W") are [[deformation quantizations]] of *$w_\infty$-algebras* (with lower case "w"), which in turn are [[central extensions]] of [[Lie algebras]] of [[area-preserving diffeomorphisms]].
 
-In the [[fractional quantum Hall effect]], $W_\infty$-algebras describe the symmetries of collective excitations of the 2D [[electron]] gas, notably of the *GMP magneto-roton* ([Girvin, MacDonald & Platzman 1986](#GirvinMacDonaldPlatzman86), see at *[[Laughlin wavefunction]] -- [GMP exitations](Laughlin+wavefunction#GMPExcitationsOfLaughlinStates)*), while their [[classical limit]] $w_\infty$-algebras describes the symmetries of the corresponding long-[[wavelength]] limit, known as the "chiral [[graviton]]"-excitation. In fact, the [[supersymmetry|supersymmetric]] form of these $W_\infty$-symmetries is asymptotically realized in [[FQH systems]] (see at *[effective SuGra of FQH systems](quantum+Hall+effect#ReferencesEffectiveFQHSupergravity)*), with the [[superpartner]] of the GMP mode being the "neutral fermion" excitation whose long-[[wavelength]] $w_\infty$ limit is the corresponding "[[gravitino]]".
+In the [[fractional quantum Hall effect]], $W_\infty$-algebras describe the [[symmetries]] of collective excitations of the 2D [[electron]] gas, notably of the *GMP magneto-roton mode* ([Girvin, MacDonald & Platzman 1986](#GirvinMacDonaldPlatzman86), see at *[[Laughlin wavefunction]] -- [GMP exitations](Laughlin+wavefunction#GMPExcitationsOfLaughlinStates)*), while their [[classical limit]] $w_\infty$-algebras describes the symmetries of the corresponding long-[[wavelength]] limit, known as the "chiral [[graviton]]"-excitation. In fact, the [[supersymmetry|supersymmetric]] form of these $W_\infty$-symmetries is asymptotically realized in [[FQH systems]] (see at *[effective supersymmetry of FQH systems](quantum+Hall+effect#ReferencesEffectiveFQHSupergravity)*), with the [[superpartner]] of the GMP mode being the "neutral fermion" excitation whose long-[[wavelength]] $w_\infty$ limit is the corresponding "[[gravitino]]".
 
 
 ## Related concepts
@@ -46,7 +46,7 @@ Early consideration (not using that terminology, though) of the $w_\infty$-algeb
 
 and of the $W_\infty$-algebra of the [[noncommutative torus]]:
 
-* [Girvin, MacDonald & Platzman 1986](#GirvinMacDonaldPlatzman86)
+* [Girvin, MacDonald & Platzman 1986 (4.13)](#GirvinMacDonaldPlatzman86) 
 
 * {#FFZ1989} [[David B. Fairlie]], Paul Fletcher, [[Cosmas K. Zachos]]; equation (6) in: *Trigonometric structure constants for new infinite-dimensional algebras*, Physics Letters B **218** 2 (1989) 203-206 \[<a href="https://doi.org/10.1016/0370-2693(89)91418-4">doi:10.1016/0370-2693(89)91418-4</a>\]
 
