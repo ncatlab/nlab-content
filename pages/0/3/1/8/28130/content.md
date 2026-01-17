@@ -20,7 +20,11 @@ A [[diffeomorphism]] $\phi \colon X \longrightarrow X$ of a ([[pseudo-Riemannian
 
 If the [[dimension of a manifold|dimension]] is $dim(X) = 2$, then one also speaks of *area-preserving diffeomorphisms* (APD).
 
-Volume preserving diffeomorphisms form a [[subgroup]] of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$, [[central extensions]] of these Lie algebras are known as *[[w-infinity algebra|$w_\infty$-algebras]]* and certain [[quantizations]] of these as *[[W-infinity algebra|$W_\infty$-algebras]]*.
+Volume preserving diffeomorphisms form a [[subgroup]] 
+$$
+  SDiff(X) \subset Diff(X)
+$$
+of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$, these Lie algebras (or their [[central extensions]]) are known as *[[w-infinity algebra|$w_\infty$-algebras]]* and certain [[deformation quantizations]] of these as *[[W-infinity algebra|$W_\infty$-algebras]]*.
 
 In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear: 
 
@@ -54,9 +58,17 @@ Discussion in relation to $w_\infty$-algebras:
 
 On the [[representation theory]]:
 
-
 * Robert F. Penna: *$SDiff(S^2)$ and the orbit method*, J. Math. Phys. **61** 012301 (2020) &lbrack;[arXiv:1806.05235](https://arxiv.org/abs/1806.05235), [doi:10.1063/1.5140475](https://doi.org/10.1063/1.5140475)&rbrack;
-  > (via the [[orbit method]])
+  > (via the [[orbit method]], though no real results obtained here)
+
+
+
+
+
+[[!include relating su(infinity) to Lie(APD) -- references]]
+
+
+
 
 
 
