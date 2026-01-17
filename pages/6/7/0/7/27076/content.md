@@ -16,6 +16,11 @@ See also exposition in:
 
 * [[Vincent Pasquier]]: *Quantum Hall Effect and Non-commutative Geometry*, in: *Quantum Spaces*, Progress in Mathematical Physics **53**, Birkhäuser (2007) \[<a href="https://doi.org/10.1007/978-3-7643-8522-4_1">doi:10.1007/978-3-7643-8522-4_1</a>, [pdf](http://www.bourbaphy.fr/pasquier.pdf)\]
 
+Generalization to inhomogeneous [[magnetic fields]]:
+
+* [[Giandomenico Palumbo]]: *Noncommutative Geometry and Deformation Quantization in the Quantum Hall Fluids with Inhomogeneous Magnetic Fields*, J. Phys. A: Math. Theor. **56** 455203 (2023) \[<a href="https://doi.org/10.1088/1751-8121/ad018b">doi:10.1088/1751-8121/ad018b</a>\]
+
+
 
 Discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Simons theory|abelian]] but [[noncommutative  field theory|noncommutative]] ([[matrix model]]-)[[Chern-Simons theory]]:
 
