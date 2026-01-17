@@ -723,7 +723,7 @@ For more along these lines see also the references at _[[supermanifold]]_ and at
 
 Discussion in terms of [[smooth algebras]] ([[synthetic differential supergeometry]]) is in 
 
-* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]], _On theories of superalgebras of differentiable functions_, Theory and Applications of Categories, Vol. 28, 2013, No. 30, pp 1022-1098. ([arxiv:1211.6134](http://arxiv.org/abs/1211.6134), [TAC](http://www.tac.mta.ca/tac/volumes/28/30/28-30abs.html))
+* {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]]: _On theories of superalgebras of differentiable functions_, Theory and Applications of Categories **28** 30 (2013) 1022-1098 &lbrack;[arxiv:1211.6134](http://arxiv.org/abs/1211.6134), [tac:28-39](http://www.tac.mta.ca/tac/volumes/28/30/28-30abs.html)&rbrack;
 
 
 ### Brauer groups and Picard 2-groupoid
