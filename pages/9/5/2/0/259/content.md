@@ -214,11 +214,11 @@ Textbook accounts:
 
 
 
-The relation between [[quasi-category|quasi-categories]] and [[simplicially enriched categories]] was discussed in detail in 
+On [[(∞,1)-categorical hom-spaces]] in terms of [[quasi-categories]] and the [[relation between quasi-categories and simplicial categories]]: 
 
-* [[Dan Dugger]], [[David Spivak]], _Rigidification of quasi-categories_ ([arXiv:0910.0814](http://arxiv.org/abs/0910.0814))
+* [[Dan Dugger]], [[David Spivak]]: _Rigidification of quasi-categories_, Algebr. Geom. Topol. **11** (2011) 225-261 &lbrack;[arXiv:0910.0814](http://arxiv.org/abs/0910.0814), [doi:10.2140/agt.2011.11.225](https://doi.org/10.2140/agt.2011.11.225)&rbrack;
 
-* [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_ ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469))
+* [[Dan Dugger]], [[David Spivak]]: _Mapping spaces in quasi-categories_, Algebr. Geom. Topol. **11** (2011) 263-325 &lbrack;[arXiv:0911.0469](http://arxiv.org/abs/0911.0469), [doi:10.2140/agt.2011.11.263](https://doi.org/10.2140/agt.2011.11.263)&rbrack;
 
 
 Further survey:
