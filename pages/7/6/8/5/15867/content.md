@@ -15,7 +15,7 @@
 
 ## Idea
 
-For $N \in \mathbb{N}$, $N \geq 2$, *W-algebras* $W_N$ are [[associative algebras]] which are higher [[spin]] [[algebra extension|extensions]] of the [[Virasoro algebra]] (which is the case $N=2$)  ---  originally discovered as extended [[symmetry]] algebras of [[2D conformal field theories]].
+For $N \in \mathbb{N}$, $N \geq 2$, *W-algebras* $W_N$ are [[associative algebras]] which are higher [[conformal spin]] [[algebra extension|extensions]] of the [[Virasoro algebra]] (which is the case $N=2$)  ---  originally discovered as extended [[symmetry]] algebras of [[2D conformal field theories]].
 
 For $N \to \infty$ the [[commutator]] in these algebras becomes linear in the standard generators (traditionally denoted "$W$"), whence the limiting case $W_\infty$ is the [[universal enveloping algebra]] of a [[Lie algebra]]. These *$W_\infty$-algebras* (with capital "W") are [[deformation quantizations]] of *$w_\infty$-algebras* (with lower case "w"), which in turn are [[central extensions]] of [[Lie algebras]] of [[area-preserving diffeomorphisms]].
 
@@ -25,6 +25,10 @@ In the [[fractional quantum Hall effect]], $W_\infty$-algebras describe the [[sy
 ## Related concepts
 
 * [[area-preserving diffeomorphisms]]
+
+* [[Virasoro algebra]]
+
+* [quantum Hall effect via noncommutative geometry](quantum+Hall+effect#ReferencesNoncommutativeGeometryOfFQHE)
 
 ## References
 
@@ -65,11 +69,15 @@ Survey and review:
 
 * [[Christopher N. Pope]]: *Lectures on W algebras and W gravity*, Summer School in High-energy Physics and Cosmology (1991) 827-867 &lbrack;[arXiv:hep-th/9112076](https://arxiv.org/abs/hep-th/9112076), [inSpire:321766](https://inspirehep.net/literature/321766)&rbrack;
 
+* X. Shen: *W-infinity and String Theory*, Int. J. Mod. Phys. **7** A (1992) 6953 &lbrack;[arXiv:hep-th/9202072](https://arxiv.org/abs/hep-th/9202072), [doi:10.1142/S0217751X92003203](https://doi.org/10.1142/S0217751X92003203)&rbrack;
+
 * [[Peter Bouwknegt]], Kareljan Schoutens: _W symmetry in conformal field theory_, Phys. Rep. __223__ 4 (1993) 183--276 \[<a href="https://doi.org/10.1016/0370-1573(93)90111-P">doi:10.1016/0370-1573(93)90111-P</a>\]
 
 * [[Peter Bouwknegt]], Kareljan Schoutens: *$W$-Symmetry*, Advanced Series in Mathematical Physics **22**, World Scientific (1995) \[<a href="https://doi.org/10.1142/2354">doi:10.1142/2354</a>, [inSpire:406843](https://inspirehep.net/literature/406843)\]
 
 * [[Peter Bouwknegt]], Jim McCarthy, [[Krzysztof Pilch]]: _The $W_3$ algebra: modules, semi-infinite cohomology, and BV algebras_, Lec. Notes in Phys. __42__, Springer (1996) &lbrack;[doi:10.1007/978-3-540-68719-1](https://link.springer.com/book/10.1007/978-3-540-68719-1)&rbrack;
+
+* D. V. Artamonov: *Introduction to finite $W$-algebras*, Boletín de Matemáticas, **23**  2 (2016) 165-219 &lbrack;[arXiv:1607.01697](https://arxiv.org/abs/1607.01697)&rbrack;
 
 * Wikipedia: _[W-algebra](https://en.wikipedia.org/wiki/W-algebra#CITEREFBouwknegt1993)_
 
@@ -90,6 +98,13 @@ Relation to [[Jordan algebra]]:
 Relation to [[L-infinity algebras|$L_\infty$-algebra]]:
 
 * {#BlumenhagenFuchsTraube17} [[Ralph Blumenhagen]], Michael Fuchs, Matthias Traube, _$\mathcal{W}$-Algebras are $L_\infty$-algebras_ &lbrack;[arXiv:1705.00736](https://arxiv.org/abs/1705.00736)&rbrack;
+
+### Representation theory
+
+On the [[representation theory]]:
+
+* H. Awata, M. Fukuma, Y. Matsuo, S. Odake: *Representation Theory of The $W_{1+\infty}$ Algebra*, Prog. Theor. Phys. Suppl. **118** (1995) 343-374 \[<a href="https://doi.org/10.1143/PTPS.118.343">doi:10.1143/PTPS.118.343</a>\]
+
 
 
 
