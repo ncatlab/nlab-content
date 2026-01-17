@@ -7,20 +7,47 @@
 
 ***
 
+[[relating su(infinity) to Lie(APD) -- references]]
+
+### Relation between $\mathfrak{su}(\infty)$ and $Lie(SDiff(\Sigma^2))$
+ {#ReferencesRelationBetweenSUInfinityAndLieAPD}
 
 
-On [[W-infinity algebra|$W_\infty$-algebra]] [[symmetry]] in [[fractional quantum Hall systems]]:
+On the identification of the [[special unitary Lie algebra]] [[su(n)|$\mathfrak{su}(n)$]], as $n \to \infty$, with the [[Lie algebra]] of [[area-preserving diffeomorphisms]] of [[surfaces]] (cf. also at *[Quantization of the M2-brane to the BFSS matrix model](M2-brane#LightConeQuantizationOfM2BranesToBFSSMatrixModel)*):
 
-* [[Andrea Cappelli]], [[Carlo A. Trugenberger]], G. R. Zemba:
-*Infinite Symmetry in the Quantum Hall Effect*, Nucl. Phys. B **396** (1993) 465-490 \[<a href="https://doi.org/10.1016/0550-3213(93)90660-H">doi:10.1016/0550-3213(93)90660-H</a>, [arXiv:hep-th/9206027](https://arxiv.org/abs/hep-th/9206027)\]
+For the [[2-sphere]]:
 
-* [[Andrea Cappelli]], [[Gerald V. Dunne]], [[Carlo A. Trugenberger]], G. R. Zemba: *Conformal Symmetry and Universal Properties of Quantum Hall States*, Nucl. Phys. B **398** (1993) 531-567 \[<a href="https://doi.org/10.1016/0550-3213(93)90603-M">doi:10.1016/0550-3213(93)90603-M</a>, [arXiv:hep-th/9211071](https://arxiv.org/abs/hep-th/9211071)\]
+* {#Hoppe82} [[Jens Hoppe]]; section B.II of: _Quantum theory of a massless relativistic surface and a two-dimensional bound state problem_, PhD thesis, MIT (1982) \[<a href="http://hdl.handle.net/1721.1/15717">hdl:1721.1/15717</a>, [[HoppeMembrane82.pdf:file]]\]
 
-* [[Andrea Cappelli]], [[Carlo A. Trugenberger]], G. R. Zemba: *Classification of Quantum Hall Universality Classes by $W_{1+\infty}$ symmetry*, Phys. Rev. Lett. **72** (1994) 1902-1905 \[<a href="https://doi.org/10.1103/PhysRevLett.72.1902">doi:10.1103/PhysRevLett.72.1902</a>, [arXiv:hep-th/9310181](https://arxiv.org/abs/hep-th/9310181)\]
-
-* [[Andrea Cappelli]]: *$W_\infty$ Symmetry in the Quantum Hall Effect*, talk at *[Geometric and analytic aspects of the Quantum Hall effect](https://indico.global/event/9589/)* (May 2023) \[<a href="https://youtu.be/Ls44yHpbLtM">video</a>, [pdf](https://indico.global/event/9589/attachments/42089/78823/Slides.%20A.%20Cappelli.pdf)\]
+* {#deWitHoppeNicolai88} [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]]; pp. 563 of: *On the Quantum Mechanics of Supermembranes*, Nucl. Phys. B **305** (1988) 545-581 \[<a href="https://doi.org/10.1016/0550-3213(88)90116-2">doi:10.1016/0550-3213(88)90116-2</a>, [spire:261702](http://inspirehep.net/record/261702), [pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]]\]
 
 
-On [[W-infinity algebra|$W_\infty$-algebra]] [[symmetry]] in  [[fractional Chern insulators]] ([[fractional quantum anomalous Hall systems]]):
+* [[Emmanuel G. Floratos]], [[John Iliopoulos]], G. Tiktopoulos: *A note on $SU(\infty)$ classical Yang-Mills theories*, Physics Letters B **217** 3 (1989) 285-288 \[<a href="https://doi.org/10.1016/0370-2693(89)90867-8">doi:10.1016/0370-2693(89)90867-8</a>\]
 
-* [[Siddharth A. Parameswaran]], [[Rahul Roy]], [[Shivaji L. Sondhi]]: *Fractional Chern Insulators and the $W_\infty$ Algebra*, Phys. Rev. B **85** (2012) 241308(R) &lbrack;[arXiv:1106.4025](https://arxiv.org/abs/1106.4025), [doi:10.1103/PhysRevB.85.241308](https://doi.org/10.1103/PhysRevB.85.241308)&rbrack;
+For the [[2-torus]]:
+
+* {#FFZ1989} [[David B. Fairlie]], Paul Fletcher, [[Cosmas K. Zachos]]: *Trigonometric structure constants for new infinite-dimensional algebras*, Physics Letters B **218** 2 (1989) 203-206 \[<a href="https://doi.org/10.1016/0370-2693(89)91418-4">doi:10.1016/0370-2693(89)91418-4</a>\]
+
+* [[Christopher N. Pope]], [[Kellogg S. Stelle]]: *$SU(\infty)$, $SU_+(\infty)$ and area-preserving algebras*, Physics Letters B **226** 3–4 (1989) 257-263 \[<a href="https://doi.org/10.1016/0370-2693(89)91191-X">doi:10.1016/0370-2693(89)91191-X</a>\]
+
+* {#NicolaiHelling98} [[Hermann Nicolai]], [[Robert C. Helling]]; p. 20 of: _Supermembranes and M(atrix) Theory_, In: _Trieste 1998, Nonperturbative aspects of strings, branes and supersymmetry_ (1998) 29-74 \[<a href="http://arxiv.org/abs/hep-th/9809103">arXiv:hep-th/9809103</a>, [spire:476366](http://inspirehep.net/record/476366)\]
+
+Warning that the analogous statements for the [[Lie groups]] (as opposed to their [[Lie algebras]]) *fail* dramatically, for basic topological reasons:
+
+* John Swain: *The Topology of $SU(\infty)$ and the Group of Area-Preserving Diffeomorphisms of a Compact 2-manifold* \[<a href="https://arxiv.org/abs/hep-th/0405003">arXiv:hep-th/0405003</a>\]
+
+
+Analogous discussions:
+
+for the [[tetrahedron]]:
+
+* A. Wolski, J. S. Dowker: *Area‐preserving diffeomorphisms of the tetrahedron*, J. Math. Phys. **32** (1991) 857–863 \[<a href="https://doi.org/10.1063/1.529343">doi:10.1063/1.529343</a>\]
+
+and for [[special linear Lie algebra|$\mathfrak{sl}(n;\mathbb{N})$]] and $\mathfrak{su}(n,n)$:
+
+* William Donnelly, [[Laurent Freidel]], Seyed Faroogh Moosavian, Antony J. Speranza: *Matrix quantization of gravitational edge modes*,  J. High Energ. Phys. 2023, 163 (2023) \[<a href="https://doi.org/10.1007/JHEP05(2023)163">doi:10.1007/JHEP05(2023)163</a>\]
+
+
+
+
+
