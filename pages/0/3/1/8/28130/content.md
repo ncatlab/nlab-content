@@ -11,6 +11,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -56,10 +57,39 @@ Discussion in relation to $w_\infty$-algebras:
 
 * Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
 
-On the [[representation theory]]:
+
+### Representation theory
+ {#ReferencesRepresentationTheory}
+
+The [[representation theory]] of VPDs seems to be mostly absent, but see the following.
+
+On representations of $SDiff(\mathbb{R}^3)$
+
+in the context of discussion of [[vortices]]:
+
+* [[Mario Rasetti]], [[Tullio Regge]]: *Vortices in He II, current algebras and quantum knots*, Physica A: Statistical Mechanics and its Applications **80** 3 (1975) 217-233 \[<a href="https://doi.org/10.1016/0378-4371(75)90105-3">doi:10.1016/0378-4371(75)90105-3</a>\]
+
+* [[Mario Rasetti]], [[Tullio Regge]]: *Quantum Vortices*, preprint TH.3643-CERN (1983) &lbrack;[pdf](https://cds.cern.ch/record/146513/files/198308324.pdf)&rbrack;
+
+* [[Mario Rasetti]], [[Tullio Regge]]: *Quantization of Extended Vortices and $SDiff(\mathbb{R}^3)$*, in: *Algebraic Analysis*, 
+**2**, Academic Press (1988) 727-734 \[<a href="https://doi.org/10.1016/B978-0-12-400466-5.50022-6">doi:10.1016/B978-0-12-400466-5.50022-6</a>\]
+
+* Mauro Spera: *Moment map and gauge geometric aspects of the Schrödinger and Pauli equations*,  International Journal of Geometric Methods in Modern Physics **13** 04 (2016) 1630004 \[<a href="https://doi.org/10.1142/S021988781630004X">doi:10.1142/S021988781630004X</a>\]
+
+
+
+On representations of $SDiff(\mathbb{S}^2)$:
+
+* [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
+
+* [[Boris Kruglikov]], Oleg Morozov: *$SDiff(2)$ and uniqueness of the Plebański equation*, J. Math. Phys. **53** 083506 (2012) &lbrack;[doi:10.1063/1.4739749](https://doi.org/10.1063/1.4739749), [arXiv:1204.3577v2](https://arxiv.org/abs/1204.3577v2)&rbrack;
+  > (in the context of the [[Plebański formulation of gravity]])
+
 
 * Robert F. Penna: *$SDiff(S^2)$ and the orbit method*, J. Math. Phys. **61** 012301 (2020) &lbrack;[arXiv:1806.05235](https://arxiv.org/abs/1806.05235), [doi:10.1063/1.5140475](https://doi.org/10.1063/1.5140475)&rbrack;
   > (via the [[orbit method]], though no real results obtained here)
+
+
 
 
 
@@ -110,6 +140,9 @@ Review:
 
 * [[Pei-Ming Ho]], Yutaka Matsuo; section 4.3 of: *Nambu bracket and M-theory*, Progress of Theoretical and Experimental Physics **2016** 6 (2016) 06A104 &lbrack;[arXiv:1603.09534](https://arxiv.org/abs/1603.09534), [doi:10.1093/ptep/ptw075](https://doi.org/10.1093/ptep/ptw075)&rbrack;
 
+On VPD symmetry of the actual [[M5-brane]] [[sigma-model]]:
+
+* [[Igor A. Bandos]], [[Paul K. Townsend]]: *Light-cone M5 and multiple M2-branes*, Class. Quant. Grav. **25** 245003 (2008) \[<a href="https://doi.org/10.1088/0264-9381/25/24/245003">doi:10.1088/0264-9381/25/24/245003</a>, [arXiv:0806.4777](https://arxiv.org/abs/0806.4777)\]
 
 
 
