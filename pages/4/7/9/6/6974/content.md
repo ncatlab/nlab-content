@@ -29,4 +29,6 @@
 
 * [[thick subcategory]] (of a [[triangulated category]])
 
+* [[block decomposition of a category]]
+
 <div markdown="1">[Edit this sidebar](/nlab/edit/notions+of+subcategory)</div>
