@@ -20,9 +20,16 @@ All currently known explicit constructions are nonextended, and with the excepti
 
 ### Pickrell
 
-* [[Doug Pickrell]], _P(phi)_2 quantum field theories and Segal's axioms_, [arXiv](https://arxiv.org/abs/math-ph/0702077).
+* [[Doug Pickrell]]: *$P(\phi)_2$ Quantum Field Theories and Segal's axioms*, Commun. Math. Phys. **280** (2008) 403-425 \[<a href="https://doi.org/10.1007/s00220-008-0467-8">doi:10.1007/s00220-008-0467-8</a>, [arXiv:math-ph/0702077](https://arxiv.org/abs/math-ph/0702077)\]
 
-$$S(\Phi)=\int_\Sigma 2^{-1}(\|d\Phi\|^2+m^2\Phi^2)+P(\Phi)$$
+$$
+  S(\Phi)
+  \;=\;
+  \int_\Sigma 2^{-1} 
+    \big(\|d\Phi\|^2+m^2\Phi^2\big)
+     + 
+    P(\Phi)
+$$
 
 ### Liouville field theory
 
