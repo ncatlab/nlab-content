@@ -33,6 +33,14 @@ An account of the general formalism is in
 
 * R. Capovilla, T. Jacobson, J. Dell, L. Mason, _Selfdual 2-forms and gravity_ Classical and Quantum Gravity 8, 41 (1991) ([doi](http://dx.doi.org/10.1088/0264-9381/8/1/009)).
 
-A discussion of practical computations in this formalism is in
+On practical computations:
 
 * Kirill Krasnov, _Plebanski Formulation of General Relativity: A Practical Introduction_ ([arXiv](http://arxiv.org/abs/0904.0423))
+
+Relation to [[area-preserving diffeomorphisms]]:
+
+* [[Boris Kruglikov]], Oleg Morozov: *$SDiff(2)$ and uniqueness of the Plebański equation*, J. Math. Phys. **53** 083506 (2012) &lbrack;[doi:10.1063/1.4739749](https://doi.org/10.1063/1.4739749), [arXiv:1204.3577v2](https://arxiv.org/abs/1204.3577v2)&rbrack;
+
+
+[[!redirects Plebański formulation of gravity]]
+
