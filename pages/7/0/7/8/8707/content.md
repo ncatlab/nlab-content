@@ -243,7 +243,7 @@ A general framework is discussed in
 
 * [[Egbert Rijke]], _Reflective subuniverses and modalities_, talk at _[Geometry in Modal HoTT (2019)](https://felix-cherubini.de/modal-workshop.html)_ ([video recording](https://youtu.be/OQthe5HpiKM))
 
-* [[Egbert Rijke]], _Modal descent_, talk at _[Geometry in Modal HoTT (2019)](https://felix-cherubini.de/modal-workshop.html)_ ([video recording](https://youtu.be/InaRkqKdyp4))
+* [[Egbert Rijke]]: _Modal descent_, talk at _[Geometry in Modal HoTT (2019)](https://felix-cherubini.de/modal-workshop.html)_ ([video recording](https://youtu.be/InaRkqKdyp4))
 
 
 See also
@@ -275,7 +275,7 @@ A modality in the [[internal language]] of a [[local topos]] is discussed in sec
  
 * {#dradjoint} Ranald Clouston, Bassel Mannaa, Rasmus Ejlers Møgelberg, Andrew M. Pitts, Bas Spitters, _Modal Dependent Type Theory and Dependent Right Adjoints_ [Arxiv](https://arxiv.org/abs/1804.05236), 2018
 
-* [[Felix Cherubini]], [[Egbert Rijke]], _Modal Descent_, ([arXiv:2003.09713](https://arxiv.org/abs/2003.09713))
+* [[Felix Cherubini]], [[Egbert Rijke]]: _Modal Descent_, Mathematical Structures in Computer Science **31** 4 (2021) 363-391 &lbrack;[arXiv:2003.09713](https://arxiv.org/abs/2003.09713), [doi:10.1017/S0960129520000201](https://doi.org/10.1017/S0960129520000201)&rbrack;
 
 
 A list of related references is also kept at
