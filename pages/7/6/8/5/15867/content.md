@@ -103,7 +103,7 @@ Relation to [[L-infinity algebras|$L_\infty$-algebra]]:
 
 On the [[representation theory]]:
 
-* H. Awata, M. Fukuma, Y. Matsuo, S. Odake: *Representation Theory of The $W_{1+\infty}$ Algebra*, Prog. Theor. Phys. Suppl. **118** (1995) 343-374 \[<a href="https://doi.org/10.1143/PTPS.118.343">doi:10.1143/PTPS.118.343</a>\]
+* H. Awata, M. Fukuma, Y. Matsuo, S. Odake: *Representation Theory of The $W_{1+\infty}$ Algebra*, Prog. Theor. Phys. Suppl. **118** (1995) 343-374 \[<a href="https://doi.org/10.1143/PTPS.118.343">doi:10.1143/PTPS.118.343</a>, [arXiv:hep-th/9408158](https://arxiv.org/abs/hep-th/9408158)\]
 
 
 
