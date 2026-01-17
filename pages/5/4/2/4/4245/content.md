@@ -40,7 +40,7 @@ $$
 $$
 in terms of counting pseudo-holomorphic disks into $X$ whose boundaries lie on the given Lagrangian submanifolds, but when intersections are nontransverse, the definition of $m_k$ becomes more elusive.
 
-When defined, the Fukaya category is an [[A-infinity category|$A_\infty$-category]] which consitutes one side of the [[duality in string theory|duality]] of [[homological mirror symmetry]].
+When defined, the Fukaya category is an [[A-infinity category|$A_\infty$-category]] which constitutes one side of the [[duality in string theory|duality]] of [[homological mirror symmetry]].
 
 ## In string theory
 
