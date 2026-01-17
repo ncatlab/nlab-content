@@ -48,6 +48,13 @@ On the [[M-algebra]] and [[D=11 supergravity]]:
 * {#BdAPV05} [[Igor Bandos]], [[José de Azcárraga]], Moises Picon, [[Oscar Varela]]: _On the formulation of $D=11$ supergravity and the composite nature of its three-from field_, Annals Phys. **317** (2005) 238-279 \[<a href="https://doi.org/10.1016/j.aop.2004.11.016">doi:10.1016/j.aop.2004.11.016</a>, [arXiv:hep-th/0409100](https://arxiv.org/abs/hep-th/0409100)\]
 
 
+On [[volume-preserving diffeomorphisms]] and [[M-branes]] (also on the [[Nambu-Poisson M5-brane model]]):
+
+* [[Igor A. Bandos]], [[Paul K. Townsend]]: *Light-cone M5 and multiple M2-branes*, Class. Quant. Grav. **25** 245003 (2008) \[<a href="https://doi.org/10.1088/0264-9381/25/24/245003">doi:10.1088/0264-9381/25/24/245003</a>, [arXiv:0806.4777](https://arxiv.org/abs/0806.4777)\]
+
+* [[Igor A. Bandos]], [[Paul K. Townsend]]: *SDiff Gauge Theory and the M2 Condensate*, JHEP 0902:013 (2009) \[<a href="https://doi.org/10.1088/1126-6708/2009/02/013">doi:10.1088/1126-6708/2009/02/013</a>, [arXiv:0808.1583](https://arxiv.org/abs/0808.1583)\]
+
+
 On the [[superembedding formalism]] for [[superstrings]] in [[super AdS spacetime]]:
 
 * [[Igor A. Bandos]]: *Superembedding approach to superstring in $AdS_5 \times S^5$ superspace*, in: *Fundamental Interactions* (2009) 303-334 &lbrack;[arXiv:0812.0257](https://arxiv.org/abs/0812.0257), [doi:10.1142/9789814277839_0018](https://doi.org/10.1142/9789814277839_0018)&rbrack;
