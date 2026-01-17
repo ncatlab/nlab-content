@@ -7,7 +7,7 @@
 
 ## Selected writings
 
-Introducing the [[Poisson bracket]]-formulation of the [[classical mechanics|classical]] [[light-cone gauge]] [[Hamiltonian]] for the _[[bosonic modality|bosonic]]_ [[relativistic membrane]] and the corresponding matrix [[commutator]] regularization:
+Introducing the [[Poisson bracket]]-formulation of the [[classical mechanics|classical]] [[light-cone gauge]] [[Hamiltonian]] for the _[[bosonic modality|bosonic]]_ [[relativistic membrane]] and the corresponding matrix [[commutator]] regularization, and the identification of [[su(n)|$\mathfrak{su}(n)$]], as $n \to \infty$, with the [[Lie algebra]] of [[area-preserving diffeomorphisms]] of the [[2-sphere]]:
 
 * {#Hoppe82} [[Jens Hoppe]]: _Quantum theory of a massless relativistic surface and a two-dimensional bound state problem_, PhD thesis, MIT (1982) \[<a href="http://hdl.handle.net/1721.1/15717">hdl:1721.1/15717</a>, [[HoppeMembrane82.pdf:file]]\]
 
