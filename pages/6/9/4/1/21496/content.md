@@ -9,7 +9,7 @@ On the [[D-topology]] on [[diffeological spaces]]:
 
 On the [[homotopy theory]] of [[diffeological spaces]] via their [[cohesion|cohesive]] [[shape modality|shape]]:
 
-* [[J. Daniel Christensen]],  [[Enxin Wu]], _The homotopy theory of diffeological spaces_, New York J. Math. 20 (2014), 1269-1303 ([arXiv:1311.6394](http://arxiv.org/abs/1311.6394))
+* [[J. Daniel Christensen]],  [[Enxin Wu]]: _The homotopy theory of diffeological spaces_, New York J. Math. **20** (2014) 1269-1303 &lbrack;[arXiv:1311.6394](http://arxiv.org/abs/1311.6394), [nyjm:2014/20-59](https://nyjm.albany.edu/j/2014/20-59.html)&rbrack;
 
 
 category: people
