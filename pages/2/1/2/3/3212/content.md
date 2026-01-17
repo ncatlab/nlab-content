@@ -1,8 +1,15 @@
 
+David Isaac Spivak
 
-* [website](http://www.dspivak.net/)
+* [personal page](http://www.dspivak.net/)
 
-* [institute website](https://topos.institute/people/david-spivak/)
+* [institute page](https://topos.institute/people/david-spivak/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=108219)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/David_Spivak)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=thGZ6w4AAAAJ&hl=en)
 
 ## Selected writings
 
@@ -11,13 +18,17 @@ On [[derived smooth manifolds]]:
 * [[David Spivak]], _Derived smooth manifolds_, Duke Math. J. **153** 1 (2010) 22-128 &lbrack;[arXiv:0810.5174](http://arxiv.org/abs/0810.5174), [doi:10.1215/00127094-2010-021](https://doi.org/10.1215/00127094-2010-021)&rbrack;
 
 
-On [[(∞,1)-categorical hom-spaces]] in terms of [[quasi-categories]]:
+On [[(∞,1)-categorical hom-spaces]] in terms of [[quasi-categories]] and the [[relation between quasi-categories and simplicial categories]]: 
 
-* [[Dan Dugger]], [[David Spivak]], _Mapping spaces in quasi-categories_, Algebraic & Geometric Topology 11 (2011) 263–325 ([arXiv:0911.0469](http://arxiv.org/abs/0911.0469), [doi:10.2140/agt.2011.11.263](http://dx.doi.org/10.2140/agt.2011.11.263))
+* [[Dan Dugger]], [[David Spivak]]: _Rigidification of quasi-categories_, Algebr. Geom. Topol. **11** (2011) 225-261 &lbrack;[arXiv:0910.0814](http://arxiv.org/abs/0910.0814), [doi:10.2140/agt.2011.11.225](https://doi.org/10.2140/agt.2011.11.225)&rbrack;
+
+* [[Dan Dugger]], [[David Spivak]]: _Mapping spaces in quasi-categories_, Algebr. Geom. Topol. **11** (2011) 263-325 &lbrack;[arXiv:0911.0469](http://arxiv.org/abs/0911.0469), [doi:10.2140/agt.2011.11.263](https://doi.org/10.2140/agt.2011.11.263)&rbrack;
+
+
 
 On [[internal categories in homotopy type theory]]:
 
-* [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], *Experience Implementing a Performant Category-Theory Library in Coq*,  In:  *Interactive Theorem Proving. ITP 2014* Lecture Notes in Computer Science, **8558** Springer (2014)  $[$[arXiv:1401.7694](http://arxiv.org/abs/1401.7694), [doi:10.1007/978-3-319-08970-6_18](https://doi.org/10.1007/978-3-319-08970-6_18)$]$
+* [[Jason Gross]], [[Adam Chlipala]], [[David Spivak]], *Experience Implementing a Performant Category-Theory Library in Coq*,  In:  *Interactive Theorem Proving. ITP 2014* Lecture Notes in Computer Science, **8558** Springer (2014)  $[$[arXiv:1401.7694](http://arxiv.org/abs/1401.7694), [doi:10.1007/978-3-319-08970-6_18](https://doi.org/10.1007/978-3-319-08970-6_18)\]
 
 
 On [[hypergraph categories]]:
