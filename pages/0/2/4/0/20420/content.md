@@ -34,7 +34,9 @@ On [[Gromov-Witten theory]] for orbifolds:
 
 On orbifold [[elliptic genera]]:
 
-* Chongying Dong, [[Kefeng Liu]], Xiaonan Ma, _On orbifold elliptic genus_ ([pdf](https://webusers.imj-prg.fr/~xiaonan.ma/mypubli/dlm02.pdf)), p. 87-105 In: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]], _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics 310 AMS (2002)([ams:conm-310](https://bookstore.ams.org/conm-310))
+* Chongying Dong, [[Kefeng Liu]], Xiaonan Ma: _On orbifold elliptic genus_, in: [[Alejandro Adem]], [[Jack Morava]], [[Yongbin Ruan]] (eds.), _[[Orbifolds in Mathematics and Physics]]_, Contemporary Mathematics **310** AMS (2002) 87-105 &lbrack;[ams:conm-310](https://bookstore.ams.org/conm-310), [arXiv:math/0109005](https://arxiv.org/abs/math/0109005), [pdf](https://webusers.imj-prg.fr/~xiaonan.ma/mypubli/dlm02.pdf)&rbrack;
+
+
 
 ## Loop groupoids, gerbes, and twisted sectors on orbifold (p. 163-184)
 
