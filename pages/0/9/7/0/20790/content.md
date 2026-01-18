@@ -121,6 +121,8 @@ in terms of [[worldline formalism]]:
 
 
 [[!redirects 2d QCD]]
+[[!redirects 2D QCD]]
+
 
 [[!redirects D=2 quantum chromodynamics]]
 [[!redirects 2d quantum chromodynamics]]
