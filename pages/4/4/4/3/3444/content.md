@@ -99,6 +99,8 @@ that sends a representation to its underlying [[vector space]]. The [[Tannakian 
 
 * [[tensor product of representations]]
 
+* [[block decomposition of a category]]
+
 
 ## References
 
