@@ -207,7 +207,7 @@ Most authors these days use "cobordism category" to refer to the notion where co
 
 The [GMTW theorem](#GMTWTheorem) about the [[homotopy type]] of the cobordisms category with topological structures on the cobordisms appears in 
 
-* {#GMWT09} [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]], _The homotopy type of the cobordism category_, Acta Math. **202** 2 (2009) 195--239 &lbrack;[arXiv:math/0605249](http://arxiv.org/abs/math/0605249)&rbrack;
+* {#GMWT09} [[Søren Galatius]], [[Ib Madsen]], [[Ulrike Tillmann]], and [[Michael Weiss]]: _The homotopy type of the cobordism category_, Acta Math. **202** 2 (2009) 195--239 &lbrack;[arXiv:math/0605249](http://arxiv.org/abs/math/0605249), [doi:10.1007/s11511-009-0036-9](https://doi.org/10.1007/s11511-009-0036-9)&rbrack;
 
 
 A generalization to geometric structure on the cobordisms is discussed in
