@@ -34,7 +34,7 @@ Its [[Lie algebra]] then is the algebra of incompressible (i.e. zero-[[divergenc
 
 In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear:
 
-* as enhanced [[symmetries]] of [[2D Yang-Mills theory]] (cf. [Witten 1991](2D+Yang-Mills+theory#Witten1991), [Pickrell 1996](#Pickrell1996)), 
+* as enhanced [[symmetries]] of [[2D Yang-Mills theory]] (cf. [Witten 1991](2D+Yang-Mills+theory#Witten1991), [Kogan 1992](#Kogan1992), [Pickrell 1996](#Pickrell1996)), 
 
 * as the [[gauge symmetries]] of *[[unimodular gravity]]*, 
 
@@ -68,7 +68,8 @@ Discussion in relation to [[w-infinity algebra|$w_\infty$-algebras]]:
 
 * [[Ergin Sezgin]]: *Area-Preserving Diffeomorphisms, $w_\infty$ Algebras and $w_\infty$ Gravity* &lbrack;[arXiv:hep-th/9202086](https://arxiv.org/abs/hep-th/9202086)&rbrack;
 
-* Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
+* {#Kogan1992} Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
+  > (in [[3D Maxwell-Chern-Simons theory]])
 
 
 ### Linear representations
