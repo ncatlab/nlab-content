@@ -37,6 +37,11 @@ for [[special linear Lie algebra|$\mathfrak{sl}(n;\mathbb{N})$]] and $\mathfrak{
 
 * William Donnelly, [[Laurent Freidel]], Seyed Faroogh Moosavian, Antony J. Speranza: *Matrix quantization of gravitational edge modes*,  J. High Energ. Phys. 2023, 163 (2023) \[<a href="https://doi.org/10.1007/JHEP05(2023)163">doi:10.1007/JHEP05(2023)163</a>\]
 
+and in relation to the [[KP hierarchy]]:
+
+* Kanehisa Takasaki, Takashi Takebe: *$SDiff(2)$ KP hierarchy*, Int. J. Mod. Phys. A **7** supp01B (1992) 889-922 \[<a href="https://doi.org/10.1142/S0217751X92004099">doi:10.1142/S0217751X92004099</a>, 
+[arXiv:hep-th/9112046](https://arxiv.org/abs/hep-th/9112046)\]
+
 
 
 
