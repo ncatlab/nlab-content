@@ -107,26 +107,30 @@ Further developments:
 
 * Dana S. Fine, _Quantum Yang-Mills on a Riemann surface_, Communications in Mathematical Physics **140** (1991) 321–338.  &lbrack;[doi:10.1007/BF02099502](https://doi.org/10.1007/BF02099502)&rbrack;
 
-* Ambar Sengupta, _The Yang-Mills measure for $S^2$_, Journal of Functional Analysis **108**  2 (1992) 231–273 &lbrack;<a href="https://doi.org/10.1016/0022-1236(92)90025-E">doi;10.1016/0022-1236(92)90025-E</a>&rbrack;
-
-* Ambar Sengupta, _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics **221** 1 (1993) 17–52 &lbrack;[doi:10.1006/aphy.1993.1002](https://doi.org/10.1006/aphy.1993.1002)&rbrack;
-
-* [[Matthias Blau]], [[George Thompson]], *Quantum Yang-Mills theory on arbitrary surfaces*, International Journal of Modern Physics A **7** 16 (1992) 3781–3806 &lbrack;[doi:10.1142/S0217751X9200168X](https://doi.org/10.1142/S0217751X9200168X)&rbrack;
-
 * [[Edward Witten]]. On quantum gauge theories in two dimensions, *Commun.Math. Phys*. **141** (1991) 153–209 &lbrack;[doi:10.1007/BF02100009](https://doi.org/10.1007/BF02100009)&rbrack;
 
 * [[Edward Witten]], _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics **9** 4 (1992) 303–368 &lbrack;[arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083), [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X)&rbrack;
 
-* Stefan Cordes, [[Gregory Moore]], [[Sanjaye Ramgoolam]]. *Lectures on 2D Yang-Mills Theory, Equivariant Cohomology and Topological Field Theories* (1994) &lbrack;[hep-th/9411210](https://arxiv.org/abs/hep-th/9411210)&rbrack;
+* Ambar Sengupta, _The Yang-Mills measure for $S^2$_, Journal of Functional Analysis **108**  2 (1992) 231–273 &lbrack;<a href="https://doi.org/10.1016/0022-1236(92)90025-E">doi;10.1016/0022-1236(92)90025-E</a>&rbrack;
 
-On [[D=2 QCD]] 
+* Ambar Sengupta: _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics **221** 1 (1993) 17–52 &lbrack;[doi:10.1006/aphy.1993.1002](https://doi.org/10.1006/aphy.1993.1002)&rbrack;
 
-* {#tHooft74} [[Gerard ’t Hooft]], *A Two-Dimensional Model For Mesons*, Nucl. Phys. B **75** (1974) 461-470 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90088-1">doi:10.1016/0550-3213(74)90088-1</a>&rbrack;
+* [[Matthias Blau]], [[George Thompson]]: *Quantum Yang-Mills theory on arbitrary surfaces*, International Journal of Modern Physics A **7** 16 (1992) 3781–3806 &lbrack;[doi:10.1142/S0217751X9200168X](https://doi.org/10.1142/S0217751X9200168X)&rbrack;
 
-* [[Michael Douglas]], Keke Li, [[Matthias Staudacher]], *Generalized Two-Dimensional QCD*, Nucl.Phys. B **420** (1994) 118-140 &lbrack;[arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062), <a href="https://doi.org/10.1016/0550-3213(94)90377-8">doi:10.1016/0550-3213(94)90377-8</a>&rbrack;
+* Stefan Cordes, [[Gregory Moore]], [[Sanjaye Ramgoolam]]: *Lectures on 2D Yang-Mills Theory, Equivariant Cohomology and Topological Field Theories* (1994) &lbrack;[hep-th/9411210](https://arxiv.org/abs/hep-th/9411210)&rbrack;
+
+On rigorous construction of the [[path integral]] [[measure]] [[invariant]] under [[area-preserving diffeomorphisms]]:
+
+* [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
+
+
+On [[D=2 QCD]]:
+
+* {#tHooft74} [[Gerard ’t Hooft]]: *A Two-Dimensional Model For Mesons*, Nucl. Phys. B **75** (1974) 461-470 &lbrack;<a href="https://doi.org/10.1016/0550-3213(74)90088-1">doi:10.1016/0550-3213(74)90088-1</a>&rbrack;
+
+* [[Michael Douglas]], Keke Li, [[Matthias Staudacher]]: *Generalized Two-Dimensional QCD*, Nucl.Phys. B **420** (1994) 118-140 &lbrack;[arXiv:hep-th/9401062](https://arxiv.org/abs/hep-th/9401062), <a href="https://doi.org/10.1016/0550-3213(94)90377-8">doi:10.1016/0550-3213(94)90377-8</a>&rbrack;
 
 * [[Emanuel Katz]], Gustavo Marques Tavares, Yiming Xu, _A solution of 2D QCD at Finite $N$ using a conformal basis_ &lbrack;[arxiv:1405.6727](https://arxiv.org/abs/1405.6727)&rbrack;
-
 
 and its relation to [[string theory]], the "Gross-Taylor model":
 
@@ -161,3 +165,4 @@ Discussion of [[lattice gauge theory|lattice]] 2d Yang-Mills theory via [[derive
 
 [[!redirects Two-dimensional Yang--Mills theory]]
 [[!redirects Yang--Mills theory in two dimensions]]
+[[!redirects 2D Yang-Mills theory]]
