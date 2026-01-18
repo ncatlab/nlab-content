@@ -36,13 +36,6 @@ called the **shift functor** or **translation functor** or **suspension functor*
 
 =--
 
-+-- {: .num_remark }
-###### Remark
-
-Frequently $C$ is an [[additive category]] in which case $T$ is also required to be an _[[additive functor]].
-
-=--
-
 +-- {: .num_defn }
 ###### Definition
 
@@ -103,3 +96,7 @@ In some variants the translation endofunctor $T$ is not required to be an [[equi
 
 [[!redirects shift functor]]
 [[!redirects shift functors]]
+
+## References
+
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, 10.1
