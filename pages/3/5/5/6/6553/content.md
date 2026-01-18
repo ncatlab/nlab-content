@@ -40,4 +40,13 @@ $$
 
 * [[uncertainty of fluxes]]
 
+
+## References
+
+On [[Yang-Mills theory]] and [[quantum chromodynamics]] in temporal gauge:
+
+* [[Kurt Haller]], *Yang-Mills theory and quantum chromodynamics in the temporal gauge*, Phys. Rev. D **36** (1987) 1839 &lbrack;[doi:10.1103/PhysRevD.36.1839](https://doi.org/10.1103/PhysRevD.36.1839)&rbrack;
+
+
+
   
