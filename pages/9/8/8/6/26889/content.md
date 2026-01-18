@@ -70,7 +70,7 @@ Again, by way of taking opposite rings, we have (1 $\iff$ 6) if and only if we h
 
 \begin{proposition} \label{McCoy} If $A$ is vN regular, then so is the matrix ring $M_n(A)$ for $n \geq 1$. \end{proposition} 
 
-\begin{proof} The following proof is adapted from Kaplansky ([Kaplansky] (#KapFaR)), starting at page 110; see particularly his Theorem 24. It uses a result called McCoy's lemma: If $a x a - a$ is regular, then so is $a$. (Proof: if $(a x a - a)y(a x a - a) = a$, then rewrite this as $a = a x a - (a x a - a)y(a x a - a)$, and notice the right side is of the form $a [\ast] a$.) 
+\begin{proof} The following proof is adapted from Kaplansky ([Kaplansky] (#KapFaR)), starting at page 110; see particularly his Theorem 24. It uses a result called McCoy's lemma: If $a x a - a$ is regular, then so is $a$. (Proof: if $(a x a - a)y(a x a - a) = a x a - a$, then rewrite this as $a = a x a - (a x a - a)y(a x a - a)$, and notice the right side is of the form $a [\ast] a$.) 
 
 First treat the case of a $2 \times 2$ matrix 
 
