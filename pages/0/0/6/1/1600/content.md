@@ -130,7 +130,7 @@ developed further in
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
  
-* {#Koerschgen16} [[Alexander Körschgen]], _A Comparison of two Models of Orbispaces_, Homology, Homotopy and Applications, vol. 20(1), 2018, pp. 329--358 ([arXiv:1612.04267](https://arxiv.org/abs/1612.04267))
+* {#Koerschgen16} [[Alexander Körschgen]]: _A Comparison of two Models of Orbispaces_, Homology, Homotopy and Applications **20** 1  (2018) 329--358 &lbrack;[arXiv:1612.04267](https://arxiv.org/abs/1612.04267), [doi:10.4310/HHA.2018.v20.n1.a19](https://doi.org/10.4310/HHA.2018.v20.n1.a19)&rbrack;
 
 * {#Schwede17} [[Stefan Schwede]], _Orbispaces, orthogonal spaces, and the universal compact Lie group_, Mathematische Zeitschrift 294 (2020), 71-107 ([arXiv:1711.06019](https://arxiv.org/abs/1711.06019))
 
