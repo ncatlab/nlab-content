@@ -22,7 +22,7 @@ For the [[2-torus]]:
 
 Warning that the analogous statements for the [[Lie groups]] (as opposed to their [[Lie algebras]]) *fail* dramatically, for basic topological reasons:
 
-* John Swain: *The Topology of $SU(\infty)$ and the Group of Area-Preserving Diffeomorphisms of a Compact 2-manifold* \[<a href="https://arxiv.org/abs/hep-th/0405003">arXiv:hep-th/0405003</a>\]
+* {#Swain2004a} John Swain: *The Topology of $SU(\infty)$ and the Group of Area-Preserving Diffeomorphisms of a Compact 2-manifold* \[<a href="https://arxiv.org/abs/hep-th/0405003">arXiv:hep-th/0405003</a>\]
 
 * John Swain: *The Majorana representation of spins and the relation between $SU(\infty)$ and $SDiff(S^2)$* \[<a href="https://arxiv.org/abs/hep-th/0405004">arXiv:hep-th/0405004</a>\]    
 
