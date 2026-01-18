@@ -19,7 +19,7 @@
 
 ## Idea
 
-If $J\colon I \to C$ is a [[diagram]] and $x$ is its [[limit]] in $C$, then we may na&#239;vely say that this limit is _preserved_ by a [[functor]] $F\colon C \to D$ if $F(x)$ is the limit of the [[composite]] diagram $I \overset{J}\to C \overset{F}\to D$.  However, it is not enough to state this at the level of objects; we also need to impose some coherence conditions, preserving the entire universal [[cone]].  Furthermore, we can use a trick involving the [[Yoneda embedding]] to get a meaningful condition even if $J$ has no limit in $C$ at all.
+If $J\colon I \to C$ is a [[diagram]] and $x$ is a [[limit]] of it in $C$, then we may na&#239;vely say that this limit is _preserved_ by a [[functor]] $F\colon C \to D$ if $F(x)$ is a limit of the [[composite]] diagram $I \overset{J}\to C \overset{F}\to D$.  However, it is not enough to state this at the level of objects; we also need to impose some coherence conditions, preserving the entire universal [[cone]].  Furthermore, we can use a trick involving the [[Yoneda embedding]] to get a meaningful condition even if $J$ has no limit in $C$ at all.
 
 
 ## Definitions
@@ -38,11 +38,14 @@ For instance:
 
 * Let $I$ be the [[discrete category]] $\mathbf{2}$, so that $J$ picks out two objects $a$ and $b$ of $C$ and the limit of $J$ is a [[product]] $a \times b$ of $a$ and $b$.  Note that this product comes equipped with product projections $\pi\colon a \times b \to a$ and $\rho\colon a \times b \to b$.  Then $F$ preserves this product if and only if $F(a \times b)$ is a product of $F(a)$ and $F(b)$ and furthermore the product projections are $F(\pi)$ and $F(\rho)$.
 
+If $F$ preserves all limits/colimits for a specified diagram $J\colon I \to C$, we say that $F$ preserves limits of $J$. Note that if there exists at least one limit $(x, \eta)$ for $J$ that is preserved by $F$, then every limit for $J$ is preserved by $F$. This is because any other limit $(y, \mu)$ is uniquely isomorphic to $(x, \eta)$, and $F$ preserves this isomorphism (as all functors do), implying $(F(y), F \cdot \mu)$ is a limit for $F \circ J$.
+
+Thus, for a specified diagram $J\colon I \to C$, preservation of limits either holds vacuously (if $J$ has no limit in $C$), or holds for all limit cones over $J$.
+
 If $F$ preserves all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ preserves that sort of limit (e.g. $F$ preserves [[products]], $F$ preserves [[equalizers]], etc.).
 
 A functor that preserves all small limits in $C$ that exist is called a __[[continuous functor]]__.  Usually this term is only used when $C$ has all small limits, i.e. is a [[complete category]].
 
-Note that if there exists at least one limit $(x, \eta)$ for $J$ that is preserved by $F$, then every limit for $J$ is preserved by $F$. This is because any other limit $(y, \mu)$ is uniquely isomorphic to $(x, \eta)$, and $F$ preserves this isomorphism (as all functors do), implying $(F(y), F \cdot \mu)$ is a limit for $F \circ J$.
 
 ## Examples
   {#Examples}
