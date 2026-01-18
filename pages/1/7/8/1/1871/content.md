@@ -272,7 +272,7 @@ On the [[phase space]], [[Poisson brackets]] and their [[quantization]] in Yang-
 
 * D. M. Gitman, S. L. Lyakhovich & I. V. Tyutin, *Canonical quantization of the Yang-Mills Lagrangian with higher derivatives*, Soviet Physics Journal **28** (1985) 554–556 &lbrack;[doi:10.1007/BF00896182](https://doi.org/10.1007/BF00896182)&rbrack;
 
-* Kurt Haller, *Yang-Mills theory and quantum chromodynamics in the temporal gauge*, Phys. Rev. D **36** (1987) 1839 &lbrack;[doi:10.1103/PhysRevD.36.1839](https://doi.org/10.1103/PhysRevD.36.1839)&rbrack;
+* [[Kurt Haller]]: *Yang-Mills theory and quantum chromodynamics in the temporal gauge*, Phys. Rev. D **36** (1987) 1839 &lbrack;[doi:10.1103/PhysRevD.36.1839](https://doi.org/10.1103/PhysRevD.36.1839)&rbrack;
 
 * {#Haagensen93} P. E. Haagensen, *On The Exact Implementation Of Gauss' Law In Yang-Mills Theory* &lbrack;[arXiv:hep-ph/9307319](https://arxiv.org/abs/hep-ph/9307319)&rbrack;
 
