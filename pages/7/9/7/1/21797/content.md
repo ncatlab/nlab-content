@@ -45,7 +45,7 @@ On [[2-representations]]:
 
 On [[quasi-elliptic cohomology]] of [[representation spheres]] as an approximation to [[equivariant Cohomotopy]]:
 
-* [[Zhen Huan]]: *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology* &lbrack;[arXiv:2006.00554](https://arxiv.org/abs/2006.00554)&rbrack;
+* [[Zhen Huan]]: *Twisted Quasi-elliptic cohomology and twisted equivariant elliptic cohomology*, Advances in Theoretical and Mathematical Physics **29** 7 (2025) 1857-1904 &lbrack;[arXiv:2006.00554](https://arxiv.org/abs/2006.00554), [doi:10.4310/ATMP.251120035411](https://doi.org/10.4310/ATMP.251120035411)&rbrack;
 
 * [[Zhen Huan]]: *Quasi-elliptic cohomology of 4-spheres*, Axioms **14** 4 (2025) 267; &lbrack;[doi;10.3390/axioms14040267](https://doi.org/10.3390/axioms14040267), [arXiv:2408.02278](https://arxiv.org/abs/2408.02278)&rbrack;
 
