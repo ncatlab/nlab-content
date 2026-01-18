@@ -25,11 +25,16 @@ Volume preserving diffeomorphisms form a [[subgroup]]
 $$
   SDiff(X) \subset Diff(X)
 $$
-of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. 
+of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is an [[infinite-dimensional Lie group|infinite-dimensional]] [[Fréchet Lie group]]. 
 
-Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$, these Lie algebras (or their [[central extensions]]) are known as *[[w-infinity algebra|$w_\infty$-algebras]]* and certain [[deformation quantizations]] of these as *[[W-infinity algebra|$W_\infty$-algebras]]*.
+Its [[Lie algebra]] then is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$, these Lie algebras (or their [[central extensions]]) are known as *[[w-infinity algebra|$w_\infty$-algebras]]* (with lower case "w") and certain [[deformation quantizations]] of these as *[[W-infinity algebra|$W_\infty$-algebras]]* (with capital "W").
 
-In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear: 
+
+## In physics
+
+In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear:
+
+* as enhanced [[symmetries]] of [[2D Yang-Mills theory]] (cf. [Witten 1991](2D+Yang-Mills+theory#Witten1991), [Pickrell 1996](#Pickrell1996)), 
 
 * as the [[gauge symmetries]] of *[[unimodular gravity]]*, 
 
@@ -37,13 +42,19 @@ In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear:
 
 * as ([[gauge symmetry|gauge]]) [[symmetries]] of [[effective field theory|effective]] descriptions of [[fractional quantum Hall systems]] (cf. [below](#ReferencesAsSymmetriesOfFQHSystems)).
 
+But **beware** that most of the physics literature considers this at the level of [[Lie algebras]], which can be misleading as the relation of [[infinite-dimensional Lie groups]] to their [[Lie algebras]] is more loose. For instance:
+
+* the relation between $Lie(SDiff(\Sigma^2))$ and [[special unitary Lie algebra|$\mathfrak{su}(\infty)$]]  (cf. references [below](#ReferencesRelationBetweenSUInfinityAndLieAPD)) fails drastically at the level of groups (already for basic [[algebraic topology|topological]] reasons, as highlighted by [Swain 2004](#Swain2004a));
+
+* the canonical [[group action]] of $SDiff(\Sigma^2)$ on [[quantum states]] of [[3D Maxwell-Chern-Simons theory]] is ([[continuous map|continuous]] but) not [[differentiable map|differentiable]], hence has no reflection on the level of Lie algebras ([Pickrell 2000](#Pickrell2000)).
+
 
 
 ## References
 
 ### General
 
-Original discussion of the $w_\infty$-algebra of the [[torus]]:
+Original discussion of the [[w-infinity algebra|$w_\infty$-algebra]] of the [[torus]]:
 
 * [[Vladimir Arnold]]; equation (109) in: *Sur la géométrie différentielle des groupes de Lie de dimension infinie et ses applications à l'hydrodynamique des fluides parfaits*, Annales de l'Institut Fourier **16** 1 (1966) 319--361 \[<a href="https://www.numdam.org/item/AIF_1966__16_1_319_0/">numdam:AIF_1966__16_1_319_0/</a>\]
 
@@ -51,7 +62,7 @@ Proof that the volume-preserving [[diffeomorphism group]] of [[Cartesian space]]
 
 * [[Dusa McDuff]]: *On the Group of Volume-Preserving Diffeomorphisms of $\mathbf{R}^n$*, Transactions of the AMS **261** 1 (1980) &lbrack;[doi:10.1090/S0002-9947-1980-0576866-3](https://doi.org/10.1090/S0002-9947-1980-0576866-3)&rbrack;
 
-Discussion in relation to $w_\infty$-algebras:
+Discussion in relation to [[w-infinity algebra|$w_\infty$-algebras]]:
 
 * [[Eric Bergshoeff]], [[Miles P. Blencowe]], [[Kellogg S. Stelle]]: *Area-preserving diffeomorphisms and higher-spin algebras*,  Commun. Math. Phys. **128** (1990) 213–230 &lbrack;[doi:10.1007/BF02108779](https://doi.org/10.1007/BF02108779)&rbrack;
 
@@ -87,13 +98,13 @@ Representation on [[sections]] of [[determinant line bundles]] of (tacitly) [[3D
 * {#Pickrell2000} [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
   > (also discusses $SDiff(T^2)$)
 
-using a rigorous APD-[[invariant]] [[path integral]] [[measure]] due to:
+using a rigorous APD-[[invariant]] [[path integral]] [[measure]] for [[2D Yang-Mills theory]], due to:
 
-* [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
+* {#Pickrell1996} [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
 
 In the context of the [[Plebański formulation of gravity]]:
 
-* [[Boris Kruglikov]], Oleg Morozov: *$SDiff(2)$ and uniqueness of the Plebański equation*, J. Math. Phys. **53** 083506 (2012) &lbrack;[doi:10.1063/1.4739749](https://doi.org/10.1063/1.4739749), [arXiv:1204.3577v2](https://arxiv.org/abs/1204.3577v2)&rbrack;
+* [[Boris Kruglikov]], Oleg Morozov: *$SDiff(2)$ and uniqueness of the Plebański equation*, J. Math. Phys. **53** 083506 (2012) &lbrack;[doi:10.1063/1.4739749](https://doi.org/10.1063/1.4739749), [arXiv:1204.3577](https://arxiv.org/abs/1204.3577)&rbrack;
 
 Via the [[orbit method]]:
 
@@ -156,13 +167,6 @@ On VPD symmetry of the actual [[M5-brane]] [[sigma-model]]:
 
 
 
-
-
-### As symmetries of unimodular gravity
-  {#ReferencesAsSymmetriesOfUnimodularGravity}
-
-(...)
-
 ### As symmetries of fractional quantum Hall systems
  {#ReferencesAsSymmetriesOfFQHSystems}
 
@@ -184,6 +188,11 @@ As ([[gauge symmetry|gauge]]) [[symmetries]] of [[fractional quantum Hall system
 
 [[!redirects volume-preserving diffeomorphism]]
 [[!redirects volume-preserving diffeomorphisms]]
+
+[[!redirects volume-preserving diffeomorphism group]]
+[[!redirects volume-preserving diffeomorphism groups]]
+[[!redirects volume preserving diffeomorphism group]]
+[[!redirects volume preserving diffeomorphism groups]]
 
 [[!redirects area-preserving diffeomorphism]]
 [[!redirects area-preserving diffeomorphisms]]
