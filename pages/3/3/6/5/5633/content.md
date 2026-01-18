@@ -1,5 +1,11 @@
 
-* [website](http://www.phys.vt.edu/~ersharpe/)
+Eric R. Sharpe
+
+* [personal page](http://www.phys.vt.edu/~ersharpe/)
+
+* [inSpire page](https://inspirehep.net/authors/989112)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=sa-LbqcAAAAJ&hl=en)
 
 Eric Sharpe works on [[theoretical physics]] related to [[string theory]] with an emphasis on structural aspects and mathematical formalization. He got his Phd under [[Edward Witten]].
 
@@ -9,15 +15,26 @@ More recently he has been investigating [[quantum sheaf cohomology]].
 
 In ([Sharpe 15](#Sharpe15)) he lays out a general perspective of the role of [[2-group]] and generally [[n-group]] ([[infinity-group]]) global [[higher gauge symmetry]] in [[quantum field theory]] and [[string theory]].
 
+
 ## Selected writings
 
 On [[discrete torsion]]:
 
-* [[Eric Sharpe]], _Discrete torsion_, Phys.Rev. D68 (2003) 126003 ([arXiv:hep-th/0008154](https://arxiv.org/abs/hep-th/0008154))
+* [[Eric Sharpe]]: *Discrete torsion*, Phys. Rev. D **68** (2003) 126003 &lbrack;[arXiv:hep-th/0008154](https://arxiv.org/abs/hep-th/0008154), [doi:10.1103/PhysRevD.68.126003](https://doi.org/10.1103/PhysRevD.68.126003)&rbrack;
 
 * {#Sharpe99} [[Eric Sharpe]], _Discrete Torsion and Gerbes I_ ([arXiv:hep-th/9909108](http://arxiv.org/abs/hep-th/9909108))
 
   _Discrete Torsion and Gerbes II_ ([arXiv:hep-th/9909120](http://arxiv.org/abs/hep-th/9909120))
+
+On the case of [[heterotic string theory]]:
+
+* [[Eric Sharpe]]: _Discrete Torsion in Perturbative Heterotic String Theory_, Phys. Rev. D **68** (2003) 126005 &lbrack;[arXiv:hep-th/0008184](https://arxiv.org/abs/hep-th/0008184), [doi:10.1103/PhysRevD.68.126005](https://doi.org/10.1103/PhysRevD.68.126005)&rbrack;
+
+
+On the higher version of discrete torsion for [[circle n-bundle|circle 3-bundles]] describing the [[supergravity C-field]]:
+
+* {#Sharpe00} [[Eric Sharpe]]: _Analogues of Discrete Torsion for the M-Theory Three-Form_, Phys. Rev. D **68** (2003) 126004 &lbrack;[arXiv:hep-th/0008170](https://arxiv.org/abs/hep-th/0008170), [doi:10.1103/PhysRevD.68.126004](https://doi.org/10.1103/PhysRevD.68.126004)&rbrack;
+
 
 On [[stacks]] as [[target spaces]] for [[sigma-models]]:
 
