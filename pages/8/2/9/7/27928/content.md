@@ -318,10 +318,27 @@ Finally, the first equation of motion (eq:EoMof5dMCS) says that the component fo
 ## References
 
 ### In 3D 
+ {#ReferencesIn3D}
 
-Original articles:
+#### Plain
+
+Early discussion of 3D Maxwell-Chern-Simons theory:
+
+> See also early discussions of [[abelian Chern-Simons theory]] as an [[effective field theory]] for [[fractional quantum Hall systems]], [here](abelian+Chern-Simons+theory#ReferencesAbCSForFQHE), many of which start with Maxwell-Chern-Simons theory; but beware of the claim in [Haller & Lim 1992](#HallerLim1992), [1996](#HallerLim1996) that "[[anyon statistics]]" does not actually arise in MCS as often claimed. 
+
+* Jonathan F. Schonfeld: *A mass term for three-dimensional gauge fields*, Nuclear Physics B **185** 1 (1981) 157-171 \[<a href="https://doi.org/10.1016/0550-3213(81)90369-2">doi:10.1016/0550-3213(81)90369-2</a>\]
+
+* [[Stanley Deser]], [[Roman Jackiw]] S. Templeton: *Topologically massive gauge theories* Annals of Physics **140** 2 (1982) 372-411 \[<a href="https://doi.org/10.1016/0003-4916(82)90164-6">doi:10.1016/0003-4916(82)90164-6</a>\]
 
 * [[A. P. Balachandran]], L. Chandar, E. Ercolessi, T. R. Govindarajan, [[Ramamurti Shankar]]: *Maxwell-Chern-Simons electrodynamics on a disk*, International Journal of Modern Physics A **09** 19 (1994) 3417-3441 &lbrack;[doi:10.1142/S0217751X94001357](https://doi.org/10.1142/S0217751X94001357)&rbrack;
+
+On the [[quantization]] of the theory:
+
+* F. P. Devecchi, M. Fleck, H. O Girotti: *Coulomb Gauge Quantization of the Maxwell-Chern-Simons Theory*, Annals of Physics **242** 2 (1995) 275-291 \[<a href="https://doi.org/10.1006/aphy.1995.1081">doi:10.1006/aphy.1995.1081</a>\]
+  > (in [[Coulomb gauge]])
+
+* Lorenzo Leal, Oswaldo Zapata: *Maxwell Chern Simons Theory in a Geometric Representation*, Phys. Rev. D **63** (2001) 065010 \[<a href="https://doi.org/10.1103/PhysRevD.63.065010">doi:10.1103/PhysRevD.63.065010</a>, [arXiv:hep-th/0008049](https://arxiv.org/abs/hep-th/0008049)\]
+
 
 Review:
 
@@ -329,13 +346,44 @@ Review:
 
 * S. I. Kruglov: *Maxwell–Chern–Simons Topologically Massive Gauge Fields in the First-Order Formalism*, Int J Theor Phys **51** (2012) 1–13 &lbrack;[doi:10.1007/s10773-011-0872-1](https://doi.org/10.1007/s10773-011-0872-1), [arXiv:1010.4728](https://arxiv.org/abs/1010.4728)&rbrack;
 
-As an [[effective field theory|effective]] description of [[superconductivity]]:
-
-* [[M. Cristina Diamantini]], P. Sodano, [[Carlo A. Trugenberger]]: *Gauge Theories of Josephson Junction Arrays*, Nucl. Phys. B **474** (1996) 641-677 \[<a href="https://doi.org/10.1016/0550-3213(96)00309-4">doi:10.1016/0550-3213(96)00309-4</a>, [arXiv:hep-th/9511168](https://arxiv.org/abs/hep-th/9511168)\]
 
 With [[boundary field theory|boundaries]]:
 
 * A. Blasi, N. Maggiore, N. Magnoli, S. Storace: *Maxwell-Chern-Simons Theory With Boundary*, Class. Quant. Grav. **27** (2010) 165018 &lbrack;[arXiv:1002.3227](https://arxiv.org/abs/1002.3227), [doi:10.1088/0264-9381/27/16/165018](https://doi.org/10.1088/0264-9381/27/16/165018)&rbrack;
+
+In view of [[electric-magnetic duality]] ("[[S-duality]]"):
+
+* Adi Armoni: *S-Dual of Maxwell Chern-Simons Theory*, Phys. Rev. Lett. **130** (2023) 141601 &lbrack;[doi:10.1103/PhysRevLett.130.141601](https://doi.org/10.1103/PhysRevLett.130.141601), [arXiv:2212.00513](https://arxiv.org/abs/2212.00513)&rbrack;
+
+On [[lattice gauge theory]]-simulations:
+
+* Ze-An Xu, Jing-Yuan Chen: *Lattice Chern-Simons-Maxwell Theory and its Chirality*, JHEP 08 (2025) 062 \[<a href="https://doi.org/10.1007/JHEP08(2025)062">doi:10.1007/JHEP08(2025)062</a>, [arXiv:2410.11034](https://arxiv.org/abs/2410.11034)\]
+
+
+
+#### With fermions
+
+Discussion of coupling to [[fermion]] [[field (physics)|fields]] hence of *Maxwell-Chern-Simons-Dirac theory* (MCSD) or *topologically massive [[QCD]]*:
+
+* {#HallerLim1992} [[Kurt Haller]], Edwin Lim-Lombridas: *Canonical quantization of $(2+1)$-dimensional QED with a topological mass term*, Phys. Rev. D **46** (1992) 1737 &lbrack;[doi:10.1103/PhysRevD.46.1737](https://doi.org/10.1103/PhysRevD.46.1737)&rbrack;
+
+* {#HallerLim1996} [[Kurt Haller]], Edwin Lim-Lombridas: *Maxwell-Chern-Simons Theory in Covariant and Coulomb Gauges* Annals of Physics **246** 1 (1996) 1-48 \[<a href="https://doi.org/10.1006/aphy.1996.0019">doi:10.1006/aphy.1996.0019</a>\]
+
+* Kei-Ichi Kondo: *First and Second Order Phase Transitions in Maxwell--Chern-Simons Theory Coupled to Fermions*, Int. J. Mod. Phys. A **11** (1996) 777-822 &lbrack;[arXiv:hep-ph/9509345](https://arxiv.org/abs/hep-ph/9509345), [doi:10.1142/S0217751X96000365](https://doi.org/10.1142/S0217751X96000365)&rbrack;
+
+On the [[quantum states]] of (tacitly) 3D MCSD theory as [[sections]] of [[determinant line bundles]] [[linear representation|representing]] [[area-preserving diffeomorphisms]]:
+
+* {#Pickrell2000} [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
+
+
+As an [[effective field theory|effective]] description of [[superconductivity]]:
+
+* [[M. Cristina Diamantini]], P. Sodano, [[Carlo A. Trugenberger]]: *Gauge Theories of Josephson Junction Arrays*, Nucl. Phys. B **474** (1996) 641-677 \[<a href="https://doi.org/10.1016/0550-3213(96)00309-4">doi:10.1016/0550-3213(96)00309-4</a>, [arXiv:hep-th/9511168](https://arxiv.org/abs/hep-th/9511168)\]
+
+* Adam Fredriksson: *$2+1$ Dimensional Chern-
+Simons Theory for Landau-Ginzburg Theory*, thesis, Uppsala (2023) &lbrack;[pdf](https://www.diva-portal.org/smash/get/diva2:1765576/FULLTEXT01.pdf)&rbrack;
+
+
 
 
 ### In 5d
@@ -360,7 +408,16 @@ With [[QFT with defects|defects]]:
 
 
 
+
 [[!redirects Maxwell-Chern-Simons theories]]
+
+
+[[!redirects 3D Maxwell-Chern-Simons theory]]
+[[!redirects 3D Maxwell-Chern-Simons theories]]
+
+[[!redirects D=3 Maxwell-Chern-Simons theory]]
+[[!redirects D=3 Maxwell-Chern-Simons theories]]
+
 
 [[!redirects 5D Maxwell-Chern-Simons theory]]
 [[!redirects 5D Maxwell-Chern-Simons theories]]
