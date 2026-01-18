@@ -8,6 +8,10 @@ Introducing what came to be called *[[BGG resolutions]]* of [[Lie group]] [[repr
 
 * [[Joseph N. Bernstein]], [[Israel M. Gelfand]], [[Sergei I. Gelfand]]: *Differential operators on the base affine space and a study of $\mathfrak{g}$-modules*, in: I. M. Gelfand (ed.), *Lie groups and their representations*, Adam Hilger (1975) 21-64 &lbrack;[pdf](http://www.math.tau.ac.il/~bernstei/Publication_list/publication_texts/BGG-differ-operators.pdf), [[BGG.pdf:file]]&rbrack;
 
+On [[block decomposition of a category|block decomposition]] of [[categories of representations]]:
+
+* [[Joseph N. Bernstein]], [[Israel M. Gelfand]], [[Sergei I. Gelfand]]: *Category of $\mathfrak{g}$ modules*, Funktsionalnyi Analiz i ego Prilozheniya **10** 2 (1976) 1-8 &lbrack;[doi:10.1007/BF01077933](https://doi.org/10.1007/BF01077933)&rbrack;
+
 
 On [[homological algebra]] and [[homotopical algebra]] (via [[triangulated categories]] and including the [[model structure on dgc-algebras]] for [[rational homotopy theory]]):
 
