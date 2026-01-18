@@ -20,13 +20,16 @@
 
 ## Definition
 
-The _diffeomorphism group_ $Diff(X)$ of a [[smooth manifold]] $X$ is the [[group]] of its [[diffeomorphism]]s: the [[automorphism group]] of $X$ as an [[object]] of the [[category]] [[SmoothMfd]].
+The _diffeomorphism group_ $Diff(X)$ of a [[smooth manifold]] $X$ is the [[group]] of its [[diffeomorphisms]]: the [[automorphism group]] of $X$ as an [[object]] of the [[category]] [[SmoothMfd]].
+
+This is generally a [[topological group]]. For $X$ [[compact topological space|compact]], it is an [[infinite-dimensional Lie group|infinite-dimensional]] [[Fréchet Lie group]] whose [[Lie algebra]] then is the algebra of [[vector fields]] on $X$. 
+
 
 Beware that when $X$ is assumed [[orientable]] then sometimes, but not always, $Diff(X)$ is implicitly taken to be the group of orientation-preserving diffeomorphisms. 
 
-In this vein if $X$ carries further [[extra structure]] then one considers groups of diffeomorphisms which are [[automorphism]] preserving that extra structure. For instance 
+In this vein, when $X$ carries further [[extra structure]] then one considers groups of diffeomorphisms which are [[automorphism]] preserving that extra structure. For instance 
 
-*  if $X$ is a [[G-manifold]] then one considers its *equivariant diffeomorphism group*, 
+* if $X$ is a [[G-manifold]] then one considers its *equivariant diffeomorphism group*, 
 
 * if $X$ carries the structure of a [[Riemannian manifold]] then one considers its *[[isometry group]]*, 
 
@@ -261,6 +264,12 @@ If $X$ is Seifert via an $S^1$-action, then the component of $Diff(X)$ are typic
 * [[diffeomorphism]]
 
 * [[general covariance]]
+
+* [[volume-preserving diffeomorphism group]]
+
+* [[symplectomorphism group]]
+
+* [[quantomorphism group]]
 
 * [[isometry group]]
 
