@@ -14,9 +14,9 @@
 
 ## Overview
 
-The *Kadomtsev-Petviashvili equation* (KP) is a particular nonlinear evolution equation for [[fluid dynamics]] which is completely integrable and has [[soliton]] solutions. 
+The *Kadomtsev-Petviashvili equation* (KP) is a particular nonlinear evolution equation for [[fluid dynamics]] which is completely [[integrable system|integrable]] and has [[soliton]] solutions. 
 
-the KP equation belongs to an infinite hierarchy of completely integrable quadratic [[partial differential equations]]. This is the *Kadomtsev-Petviashvili hierarchy* generalizing the [[KdV hierarchy]]. A [[linear combination]] of [[Schur functions]] satisfies the KP hierarchy iff its [[coefficients]] satisfy the [[Pluecker relations]]. 
+The KP equation belongs to an infinite hierarchy of completely integrable quadratic [[partial differential equations]]. This is the *Kadomtsev-Petviashvili hierarchy* generalizing the [[KdV hierarchy]]. A [[linear combination]] of [[Schur functions]] satisfies the KP hierarchy iff its [[coefficients]] satisfy the [[Pluecker relations]]. 
 
 
 ## Related entries
@@ -50,6 +50,12 @@ Relation to [[total positivity|positive Grassmannian]] and [[cluster algebra]]s
 * Yuji Kodama, Lauren Williams, _KP solitons, total positivity, and cluster algebras_, Proc. Natl. Acad. Sci. 108 (22) 8984--8989 [arxiv/1105.4170](https://arxiv.org/abs/1105.4170) [doi](https://doi.org/10.1073/pnas.1102627108) 
 
 * Yuji Kodama, Lauren Williams, _KP solitons and total positivity for the Grassmannian_,  Invent. math. __198__, 637--699 (2014) [doi](https://doi.org/10.1007/s00222-014-0506-3) [arXiv:1106.0023](https://arxiv.org/abs/1106.0023)
+
+In relation to [[area-preserving diffeomorphisms]]:
+
+* Kanehisa Takasaki, Takashi Takebe: *$SDiff(2)$ KP hierarchy*, Int. J. Mod. Phys. A **7** supp01B (1992) 889-922 &lbrack;[arXiv:hep-th/9112046](https://arxiv.org/abs/hep-th/9112046), [doi:10.1142/S0217751X92004099](https://doi.org/10.1142/S0217751X92004099)&rbrack;
+
+
 
 [[!redirects KP equation]]
 [[!redirects KP hierarchy]]
