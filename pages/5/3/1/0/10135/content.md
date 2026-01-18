@@ -172,7 +172,7 @@ The suggestion to regard orbifold cohomology in [[global equivariant homotopy th
 
 Spelling out this suggestion of [Schwede 17, Intro](#Schwede17), [Schwede 1, p. ix-x8](#Schwede18):
 
-* {#Juran20} [[Branko Juran]], _Orbifolds, Orbispaces and Global Homotopy Theory_ ([arXiv:2006.12374](https://arxiv.org/abs/2006.12374))
+* {#Juran20} [[Branko Juran]]: _Orbifolds, Orbispaces and Global Homotopy Theory_, Algebraic & Geometric Topology **25** (2025) 5175–5203 &lbrack;[arXiv:2006.12374](https://arxiv.org/abs/2006.12374), [doi:10.2140/agt.2025.25.5175](https://doi.org/10.2140/agt.2025.25.5175)&rbrack;
 
 Based on results of or related to:
 
