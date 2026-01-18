@@ -50,6 +50,10 @@ Introducing the [[GNS construction]]:
 
   Robert Doran (ed.), *$C^\ast$-Algebras: 1943–1993*, Contemporary Mathematics **167**, AMS 1994 ([doi:10.1090/conm/167](http://dx.doi.org/10.1090/conm/167))
 
+On [[block decomposition of a category|block decomposition]] of [[categories of representations]]:
+
+* [[Joseph N. Bernstein]], [[Israel M. Gelfand]], [[Sergei I. Gelfand]]: *Category of $\mathfrak{g}$ modules*, Funktsionalnyi Analiz i ego Prilozheniya **10** 2 (1976) 1-8 &lbrack;[doi:10.1007/BF01077933](https://doi.org/10.1007/BF01077933)&rbrack;
+
 One of the first comprehensive series of texts on [[generalized functions]] (also known as a [[distributions]]):
 
 * [[Israel M. Gelfand]], [[Georgiy E. Shilov]], *Generalized Functions* Vol. 1-6 (1958), Acad. Press  (1966-1968), AMS (2016) &lbrack;[ISBN:978-1-4704-2885-3](https://bookstore.ams.org/view?ProductCode=CHELGELFSET)&rbrack;
