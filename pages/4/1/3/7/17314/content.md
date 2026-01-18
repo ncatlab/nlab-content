@@ -15,14 +15,37 @@
 
 ## Definition
 
-A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] of a particular shape $I$ if for any diagram $J:I\to \mathcal{C}$, any limiting [[cone]] for $F \circ J$ in $\mathcal{D}$ is the image of a limiting cone for $J$ in $\mathcal{C}$.
+Let $J\colon I \to C$ be a diagram and $F\colon C \to D$ be a functor. Let $(d, \eta)$ with $\eta \colon \text{const}_d^I \to F \circ J$ be a [[limit]] for $F \circ J$.
 
-The above definition is not invariant under [[equivalences of categories]].
-It can be made invariant if we demand instead
-that any limiting cone for $F\circ J$ is isomorphic
-to the image of a limiting cone for $J$.
+$F$ is said to _lift_ this limit if there exists a limiting cone $(c, \alpha)$ with $\alpha \colon \text{const}_c^I \to J$ such that $(F c, F \cdot \alpha)$ is isomorphic to $(d, \eta)$ in the category of cones over $F \circ J$. $F$ is said to _lift limits for_ $J$ if it lifts every limiting cone of $F \circ J$.
 
-Alternatively, this says that, if $F \circ J$ has a limit, then $J$ also has a limit and that limit is [[preserved limit|preserved]] by $F$. Of course, this then implies that $F$ preserves every limit of $J$.
+Alternatively, this says that, if $F \circ J$ has a limit, then $J$ also has a limit and that limit is [[preserved limit|preserved]] by $F$. This implies $(F c, F \cdot \alpha)$ is a limiting cone, thus a terminal object in the cone category, and thus (uniquely) isomorphic to $(d, \eta)$.
+
+If $F$ lifts a limit $(d, \eta)$ for $F \circ J$ to $(c, \alpha)$, then it necessarily lifts any limit for $F \circ J$. This is because any other limit $(d', \eta')$ is (uniquely) isomorphic to $(d, \eta)$, and thus isomorphic to $(F c, F \cdot \alpha)$.
+
+Of course, all the above applies dually to colimits - $F$ lifts colimits for $J$ if and only if $F^{op} \colon C^{op} \to D^{op}$ lifts limits for the corresponding diagram $J^{op} \colon I^{op} \to C^{op}$.
+
+## Strictness
+
+Often this definition is phrased more strictly, where we require $(F c, F \cdot \alpha)$ to be _equal_ to $(d, \eta)$. This is not invariant under equivalence of categories, though in practice many functors that lift limits do so strictly.
+
+There is also a notion of functors _uniquely_ lifting limits, which says that there is a unique limiting cone $(c, \alpha)$ with $(F c, F \cdot \alpha) = (d, \eta)$, which is again too strict to hold for equivalences. If we relax strictness, then this holds automatically - any other limiting cone $(c', \alpha')$ with $(F c', F \cdot \alpha') \cong (d, \eta)$ is in particular a limit for $J$, and so (uniquely) isomorphic to $(c, \alpha)$.
+
+## Relation to preservation and reflection
+
+If $F$ lifts limits for $J$, and there exists at least one limiting cone $(d, \eta)$ for $F \circ J$, then $F$ necessarily preserves limits of $J$. Thus, lifting of limits either holds vacuously, or holds together with preservation of limits.
+
+In general, reflection of limits neither implies nor is implied by lifting:
+
+* If $F$ reflects limits for $J$, then any cone in $C$ whose image under $F$ is limiting must have already been limiting - but since this requires us to start with a cone in $C$, this cannot be used to lift a limit for $F \circ J$.
+
+* Conversely, if $F$ lifts limits for $J$, and $(c, \alpha)$ is a cone in $C$ such that $(F c, F \cdot \alpha)$ is limiting, then there exists a limiting cone $(c', \alpha')$ for $J$ in $C$ preserved by $F$. This gives a canonical morphism $c \to c'$ induced by the universal property, but in general this may not be an isomorphism. So we cannot conclude that $(c, \alpha)$ is limiting.
+
+## Examples
+
+* The forgetful functor $Top \to Set$ lifts limits and colimits of all small diagrams (and hence preserves them, since $Set$ is a [[bicomplete category]]). However, it does not reflect them - in general there are many possible lifts for a diagram, even strictly, by choosing coarser/finer topologies as appropriate, and not all of these can be limits/colimits.
+
+* Any functor that [[created limit|creates limits]] necessarily lifts them. In particular, [[monadic functor|monadic functors]] lift limits, often strictly.
 
 ## Terminological remarks
 
