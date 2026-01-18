@@ -22,7 +22,7 @@
 
 *D=2 Yang-Mills theory* (2D YM) is [[Yang-Mills theory]] (e.g. the study of the [[Yang-Mills equations]]) over base [[manifolds]] of [[dimension of a manifold|dimension]] $D=2$ ([[2-manifolds]]/[[surfaces]]). 
 
-In this special case the [[path integral]] [[measure]] exists, the _Yang-Mills measure_ (cf. [Pickrell 1996](#Picktell1996)).
+In this special case the [[path integral]] [[measure]] exists, the _Yang-Mills measure_ (cf. [Sengupta 1992](#Sengupta1992), [Pickrell 1996](#Picktell1996)).
 
 As with ordinary 4d [[Yang-Mills theory]] being the basis of [[quantum chromodynamics]] (QCD), so coupling suitable [[fermion]] [[field (physics)|firlds]] ("[[quarks]]") to $D=2$ Yang-Mills theory leads to *[[D=2 QCD]]* known as the *'t Hooft model*.
 
@@ -102,7 +102,7 @@ Further developments:
 
 * V. A. Kazakov, I. K. Kostov, _Non-linear strings in two-dimensional U(∞) gauge theory_, Nuclear Physics B **176** 1 (1980) 199–215 &lbrack;<a href="https://doi.org/10.1016/0550-3213(80)90072-3">doi:10.1016/0550-3213(80)90072-3</a>&rbrack;
 
-* Leonard Gross, Christopher King, Ambar Sengupta, _Two dimensional Yang-Mills theory via stochastic differential equations_, Annals of Physics 194:1 (1989) 65–112 &lbrack;<a href="https://doi.org/10.1016/0003-4916(89)90032-8">doi:10.1016/0003-4916(89)90032-8</a>&rbrack;
+* Leonard Gross, Christopher King, [[Ambar N. Sengupta]]: _Two dimensional Yang-Mills theory via stochastic differential equations_, Annals of Physics **194** 1 (1989) 65–112 &lbrack;<a href="https://doi.org/10.1016/0003-4916(89)90032-8">doi:10.1016/0003-4916(89)90032-8</a>&rbrack;
 
 * B. Ye. Rusakov, _Loop averages and partition functions in $U(N)$ gauge theory on two-dimensional manifolds_, Modern Physics Letters A **5** 9 (1990) 693–703 &lbrack;[doi:10.1142/S0217732390000780](https://doi.org/10.1142/S0217732390000780)&rbrack;
 
@@ -114,17 +114,21 @@ Further developments:
 
 * [[Edward Witten]], _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics **9** 4 (1992) 303–368 &lbrack;[arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083), [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X)&rbrack;
 
-* Ambar Sengupta, _The Yang-Mills measure for $S^2$_, Journal of Functional Analysis **108**  2 (1992) 231–273 &lbrack;<a href="https://doi.org/10.1016/0022-1236(92)90025-E">doi;10.1016/0022-1236(92)90025-E</a>&rbrack;
-
-* Ambar Sengupta: _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics **221** 1 (1993) 17–52 &lbrack;[doi:10.1006/aphy.1993.1002](https://doi.org/10.1006/aphy.1993.1002)&rbrack;
-
 * [[Matthias Blau]], [[George Thompson]]: *Quantum Yang-Mills theory on arbitrary surfaces*, International Journal of Modern Physics A **7** 16 (1992) 3781–3806 &lbrack;[doi:10.1142/S0217751X9200168X](https://doi.org/10.1142/S0217751X9200168X)&rbrack;
 
 * Stefan Cordes, [[Gregory Moore]], [[Sanjaye Ramgoolam]]: *Lectures on 2D Yang-Mills Theory, Equivariant Cohomology and Topological Field Theories* (1994) &lbrack;[hep-th/9411210](https://arxiv.org/abs/hep-th/9411210)&rbrack;
 
 On rigorous construction of the [[path integral]] [[measure]] [[invariant]] under [[area-preserving diffeomorphisms]]:
 
+* {#Sengupta1992} [[Ambar N. Sengupta]], *The Yang-Mills measure for $S^2$*, Journal of Functional Analysis **108**  2 (1992) 231–273 \[<a href="https://doi.org/10.1016/0022-1236(92)90025-E">doi;10.1016/0022-1236(92)90025-E</a>\]
+
+* [[Ambar N. Sengupta]]: _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics **221** 1 (1993) 17–52 &lbrack;[doi:10.1006/aphy.1993.1002](https://doi.org/10.1006/aphy.1993.1002)&rbrack;
+
+* [[Ambar N. Sengupta]]: *Quantum Gauge Theory on Compact Surfaces*, Memoirs of the AMS **126** (1997) &lbrack;[ISBN:978-1-4704-0185-6](https://bookstore.ams.org/memo-126-600)&rbrack;
+
 * {#Pickrell1996} [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
+
+* [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
 
 
 On [[D=2 QCD]]:
