@@ -82,7 +82,7 @@ In the context of discussion of [[vortices]]:
 
 #### Reps of $SDiff(S^2)$
 
-Representation on [[sections]] of [[determinant line bundles]] of [[2D Yang-Mills theory]]:
+Representation on [[sections]] of [[determinant line bundles]] of (tacitly) [[3D Maxwell-Chern-Simons theory]]:
 
 * {#Pickrell2000} [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
   > (also discusses $SDiff(T^2)$)
