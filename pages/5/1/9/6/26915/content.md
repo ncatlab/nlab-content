@@ -22,9 +22,11 @@
 
 *D=2 Yang-Mills theory* (2D YM) is [[Yang-Mills theory]] (e.g. the study of the [[Yang-Mills equations]]) over base [[manifolds]] of [[dimension of a manifold|dimension]] $D=2$ ([[2-manifolds]]/[[surfaces]]). 
 
-In this special case the [[path integral]] [[measure]] exists, the _Yang-Mills measure_ (cf. [Sengupta 1992](#Sengupta1992), [Pickrell 1996](#Picktell1996)).
+In this low-dimensional special case the [[path integral]] [[measure]] exists: known as the _Yang-Mills measure_ (cf. [Sengupta 1992](#Sengupta1992), [Pickrell 1996](#Picktell1996)).
 
-As with ordinary 4d [[Yang-Mills theory]] being the basis of [[quantum chromodynamics]] (QCD), so coupling suitable [[fermion]] [[field (physics)|firlds]] ("[[quarks]]") to $D=2$ Yang-Mills theory leads to *[[D=2 QCD]]* known as the *'t Hooft model*.
+While the [[Lagrangian density]] of [[Yang-Mills theories]] generally depends on a [[background field|background]] [[Riemannian metric|metric]], in 2D it actually only depends on the induced [[volume form]]. Accordingly, 2D YM is "[[general covariance|generally covariant]]" under *[[area-preserving diffeomorphisms]]* (cf. [Witten 1992](#Witten1992), [Pickrell 1996](#Pickrell1996)).
+
+Just as ordinary 4d [[Yang-Mills theory]] is the backbone of [[quantum chromodynamics]] (QCD), so coupling suitable [[fermion]] [[field (physics)|fields]] ("[[quarks]]") to $D=2$ Yang-Mills theory leads to *[[2D QCD]]* known as the *'t Hooft model*.
 
 
 ## Basics
@@ -58,6 +60,7 @@ Consider:
   \mathbb{Z}
   \,,
 \]
+
 
 ## Application on the 2-sphere
  {#ApplicationToThe2Sphere}
@@ -108,11 +111,11 @@ Further developments:
 
 * Dana S. Fine, _Quantum Yang-Mills on the two-sphere_, Communications in Mathematical Physics **134** (1990) 273–292  &lbrack;[doi:10.1007/BF02097703](https://doi.org/10.1007/BF02097703)&rbrack;
 
-* Dana S. Fine, _Quantum Yang-Mills on a Riemann surface_, Communications in Mathematical Physics **140** (1991) 321–338.  &lbrack;[doi:10.1007/BF02099502](https://doi.org/10.1007/BF02099502)&rbrack;
+* Dana S. Fine: _Quantum Yang-Mills on a Riemann surface_, Communications in Mathematical Physics **140** (1991) 321–338.  &lbrack;[doi:10.1007/BF02099502](https://doi.org/10.1007/BF02099502)&rbrack;
 
-* [[Edward Witten]]. On quantum gauge theories in two dimensions, *Commun.Math. Phys*. **141** (1991) 153–209 &lbrack;[doi:10.1007/BF02100009](https://doi.org/10.1007/BF02100009)&rbrack;
+* {#Witten1991} [[Edward Witten]]: *On quantum gauge theories in two dimensions*, *Commun. Math. Phys*. **141** (1991) 153–209 &lbrack;[doi:10.1007/BF02100009](https://doi.org/10.1007/BF02100009)&rbrack;
 
-* [[Edward Witten]], _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics **9** 4 (1992) 303–368 &lbrack;[arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083), [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X)&rbrack;
+* [[Edward Witten]]: _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics **9** 4 (1992) 303–368 &lbrack;[arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083), [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X)&rbrack;
 
 * [[Matthias Blau]], [[George Thompson]]: *Quantum Yang-Mills theory on arbitrary surfaces*, International Journal of Modern Physics A **7** 16 (1992) 3781–3806 &lbrack;[doi:10.1142/S0217751X9200168X](https://doi.org/10.1142/S0217751X9200168X)&rbrack;
 
