@@ -26,12 +26,12 @@ attempt to decompose the category into [[subcategories]] (i.e. _blocks_), which 
 
 The concept of Block Decomposition of a category, specifically regarding the representation theory of algebraic groups, is usually attributed to J. Bernstein, I.M. Gelfand, and S.I. Gelfand.
 
-* Joseph Bernstein,, Izrail Moiseevich Gelfand, and Sergei Izrailevich Gelfand, _Category of g-modules_ Funktsionalnyi Analiz i ego Prilozheniya 10, no. 2 (1976): 1-8.
+* Joseph Bernstein, Izrail Moiseevich Gelfand, and Sergei Izrailevich Gelfand, _Category of g-modules_ Funktsionalnyi Analiz i ego Prilozheniya 10, no. 2 (1976): 1-8.
 
-Further developments and analysis:
+Further developments and discussion:
 
 * Vincent Secherre & Shaun Stevens, _Block Decomposition of the Cateogory of l-modular
-smooth representation of GLn(F) and its inner forms &lbrack;[arxiv.org/abs/1402.5349](https://arxiv.org/abs/1402.5349)&rbrack;
+smooth representations of GLn(F) and its inner forms &lbrack;[arxiv.org/abs/1402.5349](https://arxiv.org/abs/1402.5349)&rbrack;
 
 
 
