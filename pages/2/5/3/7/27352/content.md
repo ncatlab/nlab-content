@@ -47,6 +47,12 @@ and was made more explicit in:
 
 * [[A. P. Balachandran]], L. Chandar, B. Sathiapalan: *Chern-Simons Duality and the Quantum Hall Effect*, Int. J. Mod. Phys.  **A11** (1996) 3587-3608 \[<a href="https://doi.org/10.1142/S0217751X96001693">doi:10.1142/S0217751X96001693</a>, [arXiv:hep-th/9509019](https://arxiv.org/abs/hep-th/9509019)\]
 
+Beware that many of these early articles actually consider [[Maxwell-Chern-Simons theory]], which however was later claimed not to actually exhibit the claimed "[[anyon statistics]]":
+
+* {#HallerLim1992} [[Kurt Haller]], Edwin Lim-Lombridas: *Canonical quantization of $(2+1)$-dimensional QED with a topological mass term*, Phys. Rev. D **46** (1992) 1737 \[<a href="https://doi.org/10.1103/PhysRevD.46.1737">doi:10.1103/PhysRevD.46.1737</a>\]
+
+* {#HallerLim1996} [[Kurt Haller]], Edwin Lim-Lombridas: *Maxwell-Chern-Simons Theory in Covariant and Coulomb Gauges* Annals of Physics **246** 1 (1996) 1-48 \[<a href="https://doi.org/10.1006/aphy.1996.0019">doi:10.1006/aphy.1996.0019</a>\]
+
 
 Early review:
 
