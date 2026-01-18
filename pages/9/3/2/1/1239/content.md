@@ -185,6 +185,9 @@ for [[finite groups]]:
 
 * {#Steinberg12} [[Benjamin Steinberg]]: *Representation Theory of Finite Groups -- An Introductory Approach*, Springer (2012) &lbrack;[doi:10.1007/978-1-4614-0776-8](https://doi.org/10.1007/978-1-4614-0776-8)&rbrack;
 
+* [[Ambar N. Sengupta]]: *Representing Finite Groups -- A Semisimple Introduction*, Springer (2012) &lbrack;[doi:10.1007/978-1-4614-1231-1](https://link.springer.com/book/10.1007/978-1-4614-1231-1)&rbrack;
+
+
 * Caroline Gruson, Vera Serganova, *From Finite Groups to Quivers via Algebras -- A Journey Through Representation Theory*, Springer (2018) &lbrack;[doi:10.1007/978-3-319-98271-7](https://doi.org/10.1007/978-3-319-98271-7)&rbrack;
 
 * [[Gabriel Navarro]]: *Character Theory and the McKay Conjecture*, Cambridge University Press (2018) &lbrack;[doi:10.1017/9781108552790](https://doi.org/10.1017/9781108552790)&rbrack;
