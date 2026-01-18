@@ -85,20 +85,20 @@ See also
 
 * [[Kiyonori Gomi]], [[Yuji Terashima]], _Discrete Torsion Phases as Topological Actions_, Commun. Math. Phys. (2009) 287: 889 ([doi:10.1007/s00220-009-0736-1](https://doi.org/10.1007/s00220-009-0736-1))
 
-The case of [[heterotic string theory]] is discussed in
+On the case of [[heterotic string theory]]:
 
-* [[Eric Sharpe]], _Discrete Torsion in Perturbative Heterotic String Theory_, Phys. Rev. D68 (2003) 126005 ([arXiv:hep-th/0008184](https://arxiv.org/abs/hep-th/0008184))
+* [[Eric Sharpe]]: _Discrete Torsion in Perturbative Heterotic String Theory_, Phys. Rev. D **68** (2003) 126005 &lbrack;[arXiv:hep-th/0008184](https://arxiv.org/abs/hep-th/0008184), [doi:10.1103/PhysRevD.68.126005](https://doi.org/10.1103/PhysRevD.68.126005)&rbrack;
 
 
 
 ### For the C-field
  {#ReferencesForTheCField}
 
-The higher version of discrete torsion for [[circle n-bundle|circle 3-bundles]] describing the [[supergravity C-field]] is discussed in
+On the higher version of discrete torsion for [[circle n-bundle|circle 3-bundles]] describing the [[supergravity C-field]]:
 
-* {#Sharpe00} [[Eric Sharpe]], _Analogues of Discrete Torsion for the M-Theory Three-Form_, Phys. Rev. D68 (2003) 126004 ([arXiv:hep-th/0008170](https://arxiv.org/abs/hep-th/0008170))
+* {#Sharpe00} [[Eric Sharpe]]: _Analogues of Discrete Torsion for the M-Theory Three-Form_, Phys. Rev. D **68** (2003) 126004 &lbrack;[arXiv:hep-th/0008170](https://arxiv.org/abs/hep-th/0008170), [doi:10.1103/PhysRevD.68.126004](https://doi.org/10.1103/PhysRevD.68.126004)&rbrack;
 
-* Shigenori Seki, _Discrete Torsion and Branes in M-theory from Mathematical Viewpoint_, Nucl. Phys. B606 (2001) 689-698 ([arXiv:hep-th/0103117](https://arxiv.org/abs/hep-th/0103117))
+* Shigenori Seki, _Discrete Torsion and Branes in M-theory from Mathematical Viewpoint_, Nucl. Phys. B **606** (2001) 689-698 &lbrack;[arXiv:hep-th/0103117](https://arxiv.org/abs/hep-th/0103117), <a href="https://doi.org/10.1016/S0550-3213(01)00245-0">doi:10.1016/S0550-3213(01)00245-0</a>&rbrack;
 
 * {#BDHKMMS01} [[Jan de Boer]], [[Robbert Dijkgraaf]], [[Kentaro Hori]], [[Arjan Keurentjes]], [[John Morgan]], [[David Morrison]], [[Savdeep Sethi]], section 4.6.2 of _Triples, Fluxes, and Strings_, Adv. Theor. Math. Phys. 4 (2002) 995-1186 ([arXiv:hep-th/0103170](https://arxiv.org/abs/hep-th/0103170))
 
