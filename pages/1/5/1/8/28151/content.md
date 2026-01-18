@@ -18,9 +18,8 @@
 
 ## Idea
 
-
 When considering a category of representations of some [[group]] or [[algebra]], a natural step is to
-attempt to decompose the category into [[subcategories]] (i.e. _blocks_), which are indecomposable summands. Therefore, any representation can be decomposed uniquely as a [[direct sum]] of pieces, one in each block, while any [[morphism]] comes as a product of morphisms, one in each block. Then a full understanding of the category is equivalent to a full understanding of all of its blocks.
+attempt to decompose the category into [[subcategories]] (i.e. _blocks_), which are indecomposable summands. Therefore, any representation can be decomposed uniquely as a [[direct sum]] of pieces, one in each block, while any [[morphism]] comes as a product of morphisms, one in each block. Then a full understanding of the category is equivalent to a full understanding of all of its blocks. This means that to understand the structure, one only needs to classify these indecomposable summands, which are much simpler. A similar principle applies to the Semiorthogonal Decomposition and the Krull-Schmidt Decomposition.
 
 ## References
 
