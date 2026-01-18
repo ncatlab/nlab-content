@@ -332,6 +332,10 @@ Early discussion of 3D Maxwell-Chern-Simons theory:
 
 * [[A. P. Balachandran]], L. Chandar, E. Ercolessi, T. R. Govindarajan, [[Ramamurti Shankar]]: *Maxwell-Chern-Simons electrodynamics on a disk*, International Journal of Modern Physics A **09** 19 (1994) 3417-3441 &lbrack;[doi:10.1142/S0217751X94001357](https://doi.org/10.1142/S0217751X94001357)&rbrack;
 
+In relation to [[area-preserving diffeomorphisms]]:
+
+* Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
+
 On the [[quantization]] of the theory:
 
 * F. P. Devecchi, M. Fleck, H. O Girotti: *Coulomb Gauge Quantization of the Maxwell-Chern-Simons Theory*, Annals of Physics **242** 2 (1995) 275-291 \[<a href="https://doi.org/10.1006/aphy.1995.1081">doi:10.1006/aphy.1995.1081</a>\]
