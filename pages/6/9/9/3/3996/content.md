@@ -23,7 +23,7 @@ A [[functor]] is said to _reflect_ [[limits]] ([[colimits]]) of a given shape if
 +-- {: .num_prop #ReflectedLimit}
 ###### Definition
 
-Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** [[limits]] of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $F(\eta)$ is a [[limit]] of $F\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
+Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** [[limits]] of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $F\cdot \eta$ is a [[limit]] of $F\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
 
 =--
 
@@ -41,7 +41,9 @@ Reflection of limits is distinct from [[preservation of limits]], although there
 
 =--
 
-For example, if there exists at least one cone $\eta$ for $J$ such that $F(\eta)$ is a limit for $F \circ J$, and $F$ reflects limits of $J$, then $F$ necessarily preserves limits of $J$. This is because reflection implies $\eta$ is a limit for $J$ preserved by $F$, which immediately implies $F$ preserved any limit for $J$.
+If there exists at least one cone $\eta$ for $J$ such that $F \cdot \eta$ is a limit for $F \circ J$, and $F$ reflects limits of $J$, then $F$ necessarily preserves limits of $J$. This is because reflection implies $\eta$ is a limit for $J$ preserved by $F$, from which it follows that $F$ preserves all limits for $J$.
+
+Thus, reflection of limits for a given diagram $J$ either holds vacuously, or holds together with preservation of limits for $J$.
 
 
 ## Examples
@@ -77,7 +79,7 @@ A [[conservative functor]] reflects any limits which exist in its domain and tha
 +-- {: .proof}
 ###### Proof
 
-If $J$ in def. \ref{ReflectedLimit} has some limit $\theta$ which is preserved by $F$, then there is a unique induced map $\eta\to\theta$ by the universal property of a limit, which becomes an isomorphism in $D$ since $F(\eta)$ and $F(\theta)$ are both limits of $F\circ J$; hence if $F$ is conservative then it must already have been an isomorphism in $C$, and so $\eta$ was already also a limit of $J$.
+If $J$ in def. \ref{ReflectedLimit} has some limit $\theta$ which is preserved by $F$, then there is a unique induced map $\eta\to\theta$ by the universal property of a limit, which becomes an isomorphism in $D$ since $F \cdot \eta$ and $F\cdot \theta$ are both limits of $F\circ J$; hence if $F$ is conservative then it must already have been an isomorphism in $C$, and so $\eta$ was already also a limit of $J$.
 
 =--
 
