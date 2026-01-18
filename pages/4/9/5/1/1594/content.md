@@ -559,7 +559,7 @@ Discussion of [[principal bundles]] and [[fiber bundles]] over orbifolds:
 
 * [[Camille Laurent-Gengoux]], [[Jean-Louis Tu]], [[Ping Xu]], _Chern-Weil map for principal bundles over groupoids_, Math. Z. 255, 451–491 (2007) ([arXiv:math/0401420](https://arxiv.org/abs/math/0401420), [doi:10.1007/s00209-006-0004-4](https://doi.org/10.1007/s00209-006-0004-4))
 
-* Christopher Seaton, _Characteristic Classes of Bad Orbifold Vector Bundles_, Journal of Geometry and Physics 57 (2007), no. 11, 2365--2371 ([arXiv:math/0606665](https://arxiv.org/abs/math/0606665))
+* Christopher Seaton: _Characteristic Classes of Bad Orbifold Vector Bundles_, Journal of Geometry and Physics **57** 11 (2007), 2365--2371 &lbrack;[arXiv:math/0606665](https://arxiv.org/abs/math/0606665), [doi:10.1016/j.geomphys.2007.08.001](https://doi.org/10.1016/j.geomphys.2007.08.001)&rbrack;
 
 
 An expected relation of orbifolds ([[orbispaces]]) to [[global equivariant homotopy theory]]:
@@ -604,7 +604,7 @@ See also at _[[orbifold cobordism]]_.
 
 * [[Tim Weelinck]], _Equivariant factorization homology of global quotient orbifolds_ ([arXiv:1810.12021](https://arxiv.org/abs/1810.12021), [talk pdf](https://www.maths.ed.ac.uk/~tweelinck/efhqsp.pdf))
 
-* John Pardon, _Orbifold bordism and duality for finite orbispectra_ ([arXiv:2006.12702](https://arxiv.org/abs/2006.12702))
+* John Pardon: _Orbifold bordism and duality for finite orbispectra_, Geom. Topol. **27** (2023) 1747-1844 &lbrack;[arXiv:2006.12702](https://arxiv.org/abs/2006.12702), [doi:10.2140/gt.2023.27.1747](https://doi.org/10.2140/gt.2023.27.1747)&rbrack;
 
 
 
