@@ -20,9 +20,11 @@
 
 ## Idea
 
-*D=2 [[Yang-Mills theory]]* (D=2 YM theory) studies the [[Yang-Mills equations]] over a base [[manifold]] with [[dimension]] $D=2$. This special case allows the definition of the _Yang-Mills measure_.
+*D=2 Yang-Mills theory* (2D YM) is [[Yang-Mills theory]] (e.g. the study of the [[Yang-Mills equations]]) over base [[manifolds]] of [[dimension of a manifold|dimension]] $D=2$ ([[2-manifolds]]/[[surfaces]]). 
 
-As with ordinary 4d [[Yang-Mills theory]] being the basis of [[quantum chromodynamics]] (QCD), so coupling suitable [[fermion]] [[field (physics)|physics]] ("[[quarks]]") to $D=2$ Yang-Mills theory leads to the "'t Hooft model" also called *[[D=2 QCD]]*.
+In this special case the [[path integral]] [[measure]] exists, the _Yang-Mills measure_ (cf. [Pickrell 1996](#Picktell1996)).
+
+As with ordinary 4d [[Yang-Mills theory]] being the basis of [[quantum chromodynamics]] (QCD), so coupling suitable [[fermion]] [[field (physics)|firlds]] ("[[quarks]]") to $D=2$ Yang-Mills theory leads to *[[D=2 QCD]]* known as the *'t Hooft model*.
 
 
 ## Basics
@@ -85,6 +87,7 @@ Given an $m\in\mathbb{Z}$, the corresponding [[principal bundle]] is given by [[
 
 * [[D=5 Yang-Mills theory]]
 
+
 ## References
 
 > See also the references at *[[D=2 QCD]]*.
@@ -121,7 +124,7 @@ Further developments:
 
 On rigorous construction of the [[path integral]] [[measure]] [[invariant]] under [[area-preserving diffeomorphisms]]:
 
-* [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
+* {#Pickrell1996} [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
 
 
 On [[D=2 QCD]]:
