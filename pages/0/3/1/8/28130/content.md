@@ -25,7 +25,9 @@ Volume preserving diffeomorphisms form a [[subgroup]]
 $$
   SDiff(X) \subset Diff(X)
 $$
-of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$, these Lie algebras (or their [[central extensions]]) are known as *[[w-infinity algebra|$w_\infty$-algebras]]* and certain [[deformation quantizations]] of these as *[[W-infinity algebra|$W_\infty$-algebras]]*.
+of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is a [[Fréchet Lie group]]. 
+
+Its [[Lie algebra]] is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$, these Lie algebras (or their [[central extensions]]) are known as *[[w-infinity algebra|$w_\infty$-algebras]]* and certain [[deformation quantizations]] of these as *[[W-infinity algebra|$W_\infty$-algebras]]*.
 
 In [[physics]] ([[field theory]]), volume-preserving diffeomorphisms appear: 
 
@@ -61,12 +63,12 @@ Discussion in relation to $w_\infty$-algebras:
 ### Linear representations
  {#ReferencesRepresentationTheory}
 
-There is no general [[representation theory]] of VPDs, but (cf. [Pickrell 2000 p. 179](#Pickrell2000)) the following examples have been constructed.
+There is no general [[representation theory]] of VPDs, but (cf. [Pickrell 2000 p. 179](#Pickrell2000)) the following examples of [[linear representations]] of $SDiff$ have been constructed.
 
 
-On [[linear representations]] of $SDiff(\mathbb{R}^3)$
+#### Reps of $SDiff(\mathbb{R}^3)$
 
-in the context of discussion of [[vortices]]:
+In the context of discussion of [[vortices]]:
 
 * [[Mario Rasetti]], [[Tullio Regge]]: *Vortices in He II, current algebras and quantum knots*, Physica A: Statistical Mechanics and its Applications **80** 3 (1975) 217-233 \[<a href="https://doi.org/10.1016/0378-4371(75)90105-3">doi:10.1016/0378-4371(75)90105-3</a>\]
 
@@ -78,19 +80,25 @@ in the context of discussion of [[vortices]]:
 * Mauro Spera: *Moment map and gauge geometric aspects of the Schrödinger and Pauli equations*,  International Journal of Geometric Methods in Modern Physics **13** 04 (2016) 1630004 \[<a href="https://doi.org/10.1142/S021988781630004X">doi:10.1142/S021988781630004X</a>\]
 
 
+#### Reps of $SDiff(S^2)$
 
-On representations of $SDiff(\mathbb{S}^2)$:
+Representation on [[sections]] of [[determinant line bundles]] of [[2D Yang-Mills theory]]:
 
 * {#Pickrell2000} [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
   > (also discusses $SDiff(T^2)$)
 
-* [[Boris Kruglikov]], Oleg Morozov: *$SDiff(2)$ and uniqueness of the Plebański equation*, J. Math. Phys. **53** 083506 (2012) &lbrack;[doi:10.1063/1.4739749](https://doi.org/10.1063/1.4739749), [arXiv:1204.3577v2](https://arxiv.org/abs/1204.3577v2)&rbrack;
-  > (in the context of the [[Plebański formulation of gravity]])
+using a rigorous APD-[[invariant]] [[path integral]] [[measure]] due to:
 
+* [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
+
+In the context of the [[Plebański formulation of gravity]]:
+
+* [[Boris Kruglikov]], Oleg Morozov: *$SDiff(2)$ and uniqueness of the Plebański equation*, J. Math. Phys. **53** 083506 (2012) &lbrack;[doi:10.1063/1.4739749](https://doi.org/10.1063/1.4739749), [arXiv:1204.3577v2](https://arxiv.org/abs/1204.3577v2)&rbrack;
+
+Via the [[orbit method]]:
 
 * Robert F. Penna: *$SDiff(S^2)$ and the orbit method*, J. Math. Phys. **61** 012301 (2020) &lbrack;[arXiv:1806.05235](https://arxiv.org/abs/1806.05235), [doi:10.1063/1.5140475](https://doi.org/10.1063/1.5140475)&rbrack;
-  > (via the [[orbit method]], though no real results obtained here)
-
+  > (though no real results obtained here)
 
 
 
