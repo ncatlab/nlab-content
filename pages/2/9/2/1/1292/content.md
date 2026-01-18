@@ -18,7 +18,8 @@
 
 ## Definition in (pre)triangulated categories
 
-A non-[[empty category|empty]] [[full subcategory|full]] (pre-)[[triangulated subcategory]] $T$ is called _thick_ (or __&#233;paisse__) if it is "closed under [[direct summands]]" (e.g. [Murayama, Def. 11](#Murayama), see [Stacks Project, Def. 13.6.1](#StacksProject05RA)). In other words, if $M\oplus N$ is isomorphic to an object in $T$ then both $M$ and $N$ are isomorphic to objects in $T$.
+A non-[[empty category|empty]] [[full subcategory|full]] (pre-)[[triangulated subcategory]] $T$ is called _thick_ (or __&#233;paisse__) if it is "closed under [[direct summands]]" (e.g. [Murayama, Def. 11](#Murayama), see [Stacks Project, Def. 13.6.1](#StacksProject05RA)). In other words, if $M\oplus N$ is isomorphic to an object in $T$ then both $M$ and $N$ are isomorphic to objects in $T$. There is an equivalent definition in triangulated context: A full subcategory of a triangulated category is __&#233;paisse__ if it is closed under isomorphisms, shifts, taking cones of morphisms, and
+direct summands of object. 
 
 ## In abelian categories
 
