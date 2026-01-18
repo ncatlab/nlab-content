@@ -902,6 +902,7 @@ On the other hand, the K-matrix formalism may be the natural description of *mul
 ## References
 
 ### General
+ {#ReferencesGeneral}
 
 General discussion of abelian Chern-Simons theory:
 
