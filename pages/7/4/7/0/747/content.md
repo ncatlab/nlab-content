@@ -863,7 +863,7 @@ Let $C$ be a [[site]] with [[point of a topos|enough points]]. Then the weak equ
 
 =--
 
-(p. 12 [here](http://www.math.uiuc.edu/K-theory/0175/))
+(p. 12 in [Goerss–Jardine, Localization theories for simplicial presheaves](https://web.archive.org/web/20161207205320/http://www.math.uiuc.edu/K-theory/0175/))
 
 +-- {: .num_prop #StalkwiseWeakEquivalencesImpliesRightProperness}
 ###### Proposition
@@ -877,6 +877,10 @@ the weak equivalences are precisely the [[stalk]]-wise [[simplicial weak equival
 This is mentioned for instance in ([Olsson, remark 4.3](#Olsson)).
 
 By Prop. \ref{OverSiteWithEnoughPointsWeakEquivalencesDetectedOnStalks} this sufficient condition holds, for instance, for the injective Jardine model structure when $C$ has [[point of a topos|enough points]].
+
+
+A more general result is established by [Jardine 1996](#Jardine96) (Theorem 24): the [[relative category]] of [[simplicial presheaves]] equipped with the class of local weak equivalences is right proper.
+Here local weak equivalences are defined using the local variant of the relative homotopy lifting property in the [[simplicial Whitehead theorem]].  Such weak equivalences are precisely the weak equivalences in the hypercompletion of the underlying [[(∞,1)-topos]]. 
 
 +-- {: .proof}
 ###### Proof
