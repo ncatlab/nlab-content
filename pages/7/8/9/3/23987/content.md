@@ -3233,6 +3233,16 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+* {#EleuchJan2026} 19 Jan 2026
+
+  [Hichem El Euch](https://scholar.google.com/citations?user=xnUL1qYAAAAJ) (American University of Sharjah, UAE):
+
+  **From ERS Theory to Anderson Localization in Random Media**
+
+  > The talk will begin with an overview of the Eleuch–Rostovtsev–Scully (ERS) method, which provides analytical solutions to Schrödinger and [[mass]]-dependent [[Schrödinger equations]] beyond the [[adiabatic theorem|adiabatic approximation]] in 1D, 2D and 3D. The speaker will then address [[wave]] propagation in random media, with a focus on [[Anderson localization]]. Using the ERS approach, localization properties can be analytically determined for all disorder strengths and correlation lengths, extending beyond the traditional low-disorder, perturbative regime. The results shed light on wave localization in strongly disordered systems, with direct relevance to cold-atom experiments, where strong localization persists even in regimes traditionally associatedwith metallic behavior.
+
+\linebreak
+
 
 
 ***
