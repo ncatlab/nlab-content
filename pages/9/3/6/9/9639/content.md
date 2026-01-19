@@ -866,6 +866,9 @@ See also:
 
 On the $\nu = 5/2$ FQH state:
 
+* W. Pan et al.: *Exact Quantization of the Even-Denominator Fractional Quantum Hall State at $\nu = 5/2$ Landau Level Filling Factor*, Phys. Rev. Lett. **83** (1999) 3530 \[<a href="https://doi.org/10.1103/PhysRevLett.83.3530">doi:10.1103/PhysRevLett.83.3530</a>\]
+  > (experimental realization highlighting the ultra low temperature needed)
+
 * [[Jainendra K. Jain]]: *The $5/2$ enigma in a spin?*, Physics **3** (2010) 71 &lbrack;[doi:10.1103/Physics.3.71](http://link.aps.org/doi/10.1103/Physics.3.71), [pdf](https://physics.aps.org/articles/pdf/10.1103/Physics.3.71)&rbrack;
 
 * Michael R Peterson: *The fractional quantum Hall effect at filling factor $5/2$: numerically searching for non-abelian anyons*, J. Phys.: Conf. Ser. **402** (2012) 012021 &lbrack;[doi:10.1088/1742-6596/402/1/012021](https://iopscience.iop.org/article/10.1088/1742-6596/402/1/012021)&rbrack;
