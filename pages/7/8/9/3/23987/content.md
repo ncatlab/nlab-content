@@ -2144,7 +2144,19 @@ $\phantom{-----------}$Tuesday, May 20
   **when analog and digitial hybridize**
 
 
-7
+\linebreak
+
+### May 2026
+
+* May 2026
+
+  **Qunantum Matter 2026**
+
+  New York University Abu Dhabi
+
+  (...)
+
+
 \linebreak
 
 
