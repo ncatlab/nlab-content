@@ -26,9 +26,6 @@ The definition evidently makes sense quite generally [[internalization|internal 
 
 Dynamical systems are used to describe not only physical motions but also the behaviour of parameters of various systems, e.g. in sociological, financial, weather and other models.  
 
-
-## Literature
-
 ## Related concepts
 
 * [[categorical systems theory]]
