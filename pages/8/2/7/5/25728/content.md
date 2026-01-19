@@ -9,6 +9,13 @@ Philip Warren Anderson (1923-2020)
 
 ## Selected writings
 
+Introducing what came to be known as *[[Anderson localization]]*:
+
+* [[Philip W. Anderson]]: *Absence of Diffusion in Certain Random Lattices*, Phys. Rev. **109** (1958) 1492 \[<a href="https://doi.org/10.1103/PhysRev.109.1492">doi:10.1103/PhysRev.109.1492</a>\]
+
+* E. Abrahams, [[Philip W. Anderson]], D. C. Licciardello, [[Tiruppatur V. Ramakrishnan]]: *Scaling Theory of Localization: Absence of Quantum Diffusion in Two Dimensions*, Phys. Rev. Lett. **42** (1979) 673 &lbrack;[doi:10.1103/PhysRevLett.42.673](https://doi.org/10.1103/PhysRevLett.42.673)&rbrack;
+
+
 Predicting [[quantum spin liquid]] (under the name "[[resonating valence bond states]]"):
 
 * [[Philip W. Anderson]], *Resonating valence bonds: A new kind of insulator?*, Materials Research Bulletin
