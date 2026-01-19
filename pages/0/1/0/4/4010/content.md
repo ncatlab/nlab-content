@@ -16,9 +16,7 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea ##
@@ -179,7 +177,13 @@ Any introductory textbook about [[quantum mechanics]] will explain the Schr&#246
 
 * Wikipedia: [Schr&#246;dinger equation] (http://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation)
 
+[[!redirects Schrödinger equations]]
+
 [[!redirects Schrödinger's equation]]
+[[!redirects Schrödinger's equations]]
 
 [[!redirects Schroedinger equation]]
+[[!redirects Schroedinger equations]]
+
 [[!redirects Schroedinger's equation]]
+[[!redirects Schroedinger's equations]]
