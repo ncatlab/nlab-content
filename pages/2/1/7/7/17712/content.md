@@ -35,6 +35,8 @@
 
 * [[categorical systems theory]]
 
+* [[Lyapunov function]]
+
 
 ## References
 
