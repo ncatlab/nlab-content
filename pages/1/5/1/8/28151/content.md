@@ -27,4 +27,4 @@ The concept of Block Decomposition of a category, specifically regarding the rep
 
 Further developments and discussion:
 
-* Vincent Sécherre, Shaun Stevens: *Block Decomposition of the Cateogory of $\ell$-modular smooth representations of $GL_n(F)$ and its inner forms*, Annales Scientifiques de l École Normale Supérieure **49** 3 (2014) &lbrack;[arxiv.org/abs/1402.5349](https://arxiv.org/abs/1402.5349)&rbrack;
+* Vincent Sécherre, Shaun Stevens: *Block Decomposition of the Category of $\ell$-modular smooth representations of $GL_n(F)$ and its inner forms*, Annales Scientifiques de l École Normale Supérieure **49** 3 (2014) &lbrack;[arxiv.org/abs/1402.5349](https://arxiv.org/abs/1402.5349)&rbrack;
