@@ -6,7 +6,9 @@ Joe Moeller is a postdoc at Caltech.
 
 On [[networks]] and [[systems]]:
 
-* [[Aaron Ames]], [[Joe Moeller]], [[Paulo Tabuada]], _Categorical Lyapunov theory I: stability of flows_, [arXiv:2502.15276](https://arxiv.org/abs/2502.15276)
+* {#AMT25} Aaron D. Ames, [[Joe Moeller]], Paulo Tabuada, *Categorical Lyapunov theory I: stability of flows* &lbrack;[arXiv:2502.15276](https://arxiv.org/abs/2502.15276)&rbrack;
+
+* {#AMM25} Aaron D. Ames, Sébastien Mattenet, [[Joe Moeller]], *Categorical Lyapunov Theory II: Stability of Systems* &lbrack;[arXiv:2505.22968](https://arxiv.org/abs/2505.22968)&rbrack;
 
 * [[John Baez]], [[Owen Lynch]], [[Joe Moeller]], _Compositional thermostatics_, Journal of Mathematical Physics, 2023. [arXiv:2111.10315](https://arxiv.org/abs/2111.10315)
 
@@ -29,7 +31,6 @@ On categorified [[representation theory]]:
 On [[FI-representations]] and [[representation stability]]:
 
 * [[Joe Moeller]], *Extensions of representation stable categories* &lbrack;[arXiv:2209.03879](https://arxiv.org/abs/2209.03879)&rbrack;
-
 
 
 
