@@ -1156,7 +1156,7 @@ Let $L \dashv R$ be a pair of adjoint functors (Def. \ref{AdjointFunctorsInTerms
   (exhibits a [[reflective subcategory]])
   precisely if
   the [[unit of an adjunction|counit]] is a [[natural isomorphism]] 
-  $\epsilon : L \circ R \stackrel{\simeq}{\to} Id_D$
+  $\epsilon : L \circ R \stackrel{\simeq}{\to} Id_D$;
 
 * $L$ is [[full and faithful functor|full and faithful]]
   (exhibits a [[coreflective subcategory]]) precisely if
