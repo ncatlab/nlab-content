@@ -53,3 +53,6 @@ On the other hand, a number of categorifications of rather special structures in
 category: algebra
 
 [[!redirects categorification in Lie theory]]
+
+
+[[!redirects categorified representation theory]]
