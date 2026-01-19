@@ -23,6 +23,11 @@
 
 [[interference]] of [[wave functions]]/[[probability amplitudes]] via [[superposition]] of their [[complex phases]]
 
+
+## Examples
+
+* [[Anderson localization]]
+
 ## Related concepts
 
 [[!include states and observables -- content]]
