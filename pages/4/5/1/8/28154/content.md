@@ -15,13 +15,12 @@
 
 
 
-
 \tableofcontents
 
 
 ## Idea
 
-In [[solid state physics]], *Anderson localization* is the phenomenon that [[quantum]] [[particles]] may *localize* in *disordered* media, meaning that instead of propagating freely they get stuck at certain positions. For [[electrons]] in a crystal this means that as the density of impurities becomes large, the crystal may turn from a [[conductor]] (where electrons move freely) to an [[insulator]], thus called an *Anderson insulator*.
+In [[solid state physics]], *Anderson localization* is the phenomenon that [[quantum]] [[particles]] may *localize* in *disordered* media, meaning that instead of propagating freely they get stuck at certain positions. For [[electrons]] in a [[crystal]] this means that as the density of impurities becomes large, the crystal may turn from a [[conductor]] (where electrons move freely) to an [[insulator]], then called an *Anderson insulator*.
 
 Anderson localization is a [[quantum mechanics|quantum mechanical]] phenomenon in stark contrast to the situation in [[classical physics]]: For the motion of classical bouncing Billiard balls, the presence of "bumpers" (impurities) in their path will make their motion [[diffusion|diffuse]] instead of localize. But for [[quanta]] described by [[wave mechanics]] the impurities tend to lead to destructive [[quantum interference]] of their [[wavefunction]] with itself, thus resulting in the localization phenomenon.
 
@@ -53,3 +52,7 @@ See also:
 * Wikipedia: *[Anderson localization](https://en.wikipedia.org/wiki/Anderson_localization)*
 
 [[!redirects Anderson localizations]]
+
+[[!redirects Anderson insulator]]
+[[!redirects Anderson insulators]]
+
