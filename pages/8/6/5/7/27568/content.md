@@ -12,6 +12,12 @@ On [[effective field theory|effective]] [[quantum field theory]] for [[solid sta
 
 * [[Eduardo C. Marino]]: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
 
+## Related entries
+
+* [[metal]]
+
+* [[Anderson insulator]]
+
 
 category: people
 
