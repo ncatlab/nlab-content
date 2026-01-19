@@ -30,6 +30,7 @@
 Textbook account in [[solid state physics]]:
 
 * [[Eduardo C. Marino]]: *Metals, Fermi Liquids, Mott and Anderson Insulators*, chapter 14 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
+  > (also on [[Anderson insulators]])
 
 
 See also:
