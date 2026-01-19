@@ -4217,7 +4217,7 @@ Neumann algebras**
 
 * 23 Oct 2024
 
-  Nizar Demni (Aix-Marseille Université (AMU) France and NYUAD):
+  [Nizar Demni](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/nizar-demni.html) (Aix-Marseille Université (AMU) France and NYUAD):
 
   **From the Dunkl Intertwining Operator to Simple Hurwitz Numbers**
 
