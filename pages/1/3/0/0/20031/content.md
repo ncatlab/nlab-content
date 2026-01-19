@@ -33,6 +33,13 @@ History:
 
 See also:
 
-* Wikipedia, *[Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion)*
+* Wikipedia: *[Brownian motion](https://en.wikipedia.org/wiki/Brownian_motion)*
 
-* Wikipedia, *[Wiener process](https://en.wikipedia.org/wiki/Wiener_process)*
+* Wikipedia: *[Wiener process](https://en.wikipedia.org/wiki/Wiener_process)*
+
+* Wikipedia: *[Diffusion](https://en.wikipedia.org/wiki/Diffusion)* 
+
+[[!redirects Brownian motions]]
+
+[[!redirects diffusion]]
+
