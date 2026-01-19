@@ -22,7 +22,7 @@ The concept of _equivalence of categories_ is the correct [[category theory|cate
 
 Concretely, an equivalence between two categories is a pair of [[functors]] between them which are [[inverse]] to each other _up to_ [[natural isomorphism]] of functors ([[inverse functors]]).
 
-This is like an [[isomorphism]], but weakened such as to accomodate for the fact that the correct ambient context for categories is not iself a 1-category, but is the [[2-category]] [[Cat]] of all categories. Hence abstractly an equivalence of categories is just the special case of an [[equivalence in a 2-category]] specialized to [[Cat]].
+This is like an [[isomorphism]], but weakened such as to accommodate for the fact that the correct ambient context for categories is not itself a 1-category, but is the [[2-category]] [[Cat]] of all categories. Hence abstractly an equivalence of categories is just the special case of an [[equivalence in a 2-category]] specialized to [[Cat]].
 
 If some foundational fine print is taken care of, then a functor exhibits an equivalence of categories precisely if it is both [[essentially surjective functor|essentially surjective]] and [[fully faithful functor|fully faithful]]. This is true in [[classical mathematics]] if the [[axiom of choice]] is assumed. It remains true non-classically, say for [[internal categories]], if the concept of functor is suitably adapted ("[[anafunctors]]"), or the concept of essentially surjective is suitably adapted ("[[split essentially surjective]]").
 
@@ -234,7 +234,7 @@ Identify a group $H$ with its [[delooping]]. One can check the following:
 
 * So take $H = K$ the Klein 4-group. This is a product of abelian groups, so abelian, so is its own center. In fact, it's $\mathbb{Z}/2 \mathbb{Z} \times \mathbb{Z} / 2 \mathbb{Z}$, so let $F = G$ the automorphism which interchanges coordinates. $FG = GF = \operatorname{id}_{K}$, which is given by conjugation by any element.
 
-* If this were adjoint, the triangle equality for $F$ will stipulate that $F(g_{\rho}) = g_{\sigma}^{-1}$. We can pick $g_{\rho}$ and $g_{\sigma}$ to break this. For example, let $g_{\rho}$ be $(1,1)$ and let $g_{\sigma}$ be $(0,1)$.
+* If this were adjoint, the triangle equality for $F$ would stipulate that $F(g_{\rho}) = g_{\sigma}^{-1}$. We can pick $g_{\rho}$ and $g_{\sigma}$ to break this. For example, let $g_{\rho}$ be $(1,1)$ and let $g_{\sigma}$ be $(0,1)$.
 
 This is a special case of the fact that, given a non-adjoint equivalence, you can always replace its unit with another unit (which determines the counit) to improve the equivalence to an [[adjoint equivalence]].
 
