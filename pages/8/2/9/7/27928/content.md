@@ -341,6 +341,9 @@ On the [[quantization]] of the theory:
 * F. P. Devecchi, M. Fleck, H. O Girotti: *Coulomb Gauge Quantization of the Maxwell-Chern-Simons Theory*, Annals of Physics **242** 2 (1995) 275-291 \[<a href="https://doi.org/10.1006/aphy.1995.1081">doi:10.1006/aphy.1995.1081</a>\]
   > (in [[Coulomb gauge]])
 
+* Dimitra Karabali, Chanju Kim, V.P. Nair: *Gauge invariant variables and the Yang-Mills-Chern-Simons theory*, Nucl. Phys. B **566** (2000) 331-347 &lbrack;[arXiv:hep-th/9907078](https://arxiv.org/abs/hep-th/9907078), <a href="https://doi.org/10.1016/S0550-3213(99)00701-4">doi:10.1016/S0550-3213(99)00701-4</a>\]
+&rbrack;
+
 * Lorenzo Leal, Oswaldo Zapata: *Maxwell Chern Simons Theory in a Geometric Representation*, Phys. Rev. D **63** (2001) 065010 \[<a href="https://doi.org/10.1103/PhysRevD.63.065010">doi:10.1103/PhysRevD.63.065010</a>, [arXiv:hep-th/0008049](https://arxiv.org/abs/hep-th/0008049)\]
 
 
@@ -362,6 +365,12 @@ In view of [[electric-magnetic duality]] ("[[S-duality]]"):
 On [[lattice gauge theory]]-simulations:
 
 * Ze-An Xu, Jing-Yuan Chen: *Lattice Chern-Simons-Maxwell Theory and its Chirality*, JHEP 08 (2025) 062 \[<a href="https://doi.org/10.1007/JHEP08(2025)062">doi:10.1007/JHEP08(2025)062</a>, [arXiv:2410.11034](https://arxiv.org/abs/2410.11034)\]
+
+See also:
+
+* M. Henningson, *Canonical coordinates for Yang-Mills-Chern-Simons theory*, J. High Energ. Phys. **2024** 138 (2024) \[<a href="https://doi.org/10.1007/JHEP10(2024)138">doi:10.1007/JHEP10(2024)138</a>\]
+
+
 
 
 
