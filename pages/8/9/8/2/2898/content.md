@@ -10,7 +10,7 @@ Related articles: [[Mori program]], [[function field]]
 
 * wikipedia: [birational geometry](http://en.wikipedia.org/wiki/Birational_geometry), [rational variety](http://en.wikipedia.org/wiki/Rational_variety)
 
-* Caucher Birkhar, _Birationali geometry_, online notes short version 35 pages, [pdf](https://www.dpmms.cam.ac.uk/~cb496/birgeom.pdf&#8206;); _Lectures on birational geometry_, 85 pages, [arxiv/1210.2670](http://arxiv.org/abs/1210.2670)
+* Caucher Birkar, _Birationali geometry_, online notes short version 35 pages, [pdf](https://www.dpmms.cam.ac.uk/~cb496/birgeom.pdf&#8206;); _Lectures on birational geometry_, 85 pages, [arxiv/1210.2670](http://arxiv.org/abs/1210.2670)
 
 * Bruno Kahn, R. Sujatha, _Birational geometry and localisation of categories_, [arxiv/0805.3753v1](http://arxiv.org/abs/0805.3753v1)
 
@@ -20,7 +20,7 @@ A recent new approach is in
 
 Probing birational geometry via the derived category of coherent sheaves is explained in
 
-* Alexander Kuznetsov, _Derived categories view on rationality problems_, [arxiv/1509.09115](http://arxiv.org/abs/1509.09115)
+* [[Alexander Kuznetsov]], _Derived categories view on rationality problems_, [arxiv/1509.09115](http://arxiv.org/abs/1509.09115)
 
 category: algebraic geometry
 [[!redirects birational algebraic geometry]]
