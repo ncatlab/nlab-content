@@ -43,17 +43,17 @@ The discussion of the concept of minimal (co-)fibrations is often restricted to 
 
 A general concept of minimal fibrations and minimal models (in general [[model categories]]) is discussed in
 
-* {#Roig93} [[Agustí Roig]], _Minimal resolutions and other minimal models_,  Publicacions Matem&#224;tiques Vol. 37, No. 2 (1993), pp. 285-303 ([JSTOR](http://www.jstor.org/stable/43736447))
+* {#Roig93} [[Agustí Roig]], _Minimal resolutions and other minimal models_,  Publicacions Matem&#224;tiques __37__:2 (1993), pp. 285--303 ([JSTOR](http://www.jstor.org/stable/43736447))
 
 and with an eye specifically towards [[minimal dg-modules]] in
 
-* {#Roig94} [[Agustí Roig]], section 1 of _Formalizability of dg modules and morphisms of cdg algebras_, Volume 38, Issue 3 (1994), 434-451 ([euclid](http://projecteuclid.org/euclid.ijm/1255986724))
+* {#Roig94} [[Agustí Roig]], section 1 of _Formalizability of dg modules and morphisms of cdg algebras_, Illinois J. Math. __38__:3 (1994), 434--451 ([euclid](http://projecteuclid.org/euclid.ijm/1255986724) [doi](https://doi.org/10.1215/ijm/1255986724))
 
 For discussion in [[rational homotopy theory]] see at _[[Sullivan minimal model]]_.
 
 Discussion in [[equivariant rational homotopy theory]] is in
 
-* Georgia Triantafillou, _Equivariant minimal models_, Trans. Amer. Math. Soc. vol 274 pp 509-532 (1982) ([jstor](http://www.jstor.org/stable/1999119 ))
+* Georgia Triantafillou, _Equivariant minimal models_, Trans. Amer. Math. Soc. __274__, pp 509--532 (1982) ([jstor](http://www.jstor.org/stable/1999119 ))
 
 
 [[!redirects minimal fibrations]]
