@@ -1,11 +1,21 @@
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/John_Ellis_%28physicist%29)
+Johnathan Richard Ellis
+
+
+* <a href="https://en.wikipedia.org/wiki/John_Ellis_(physicist,_born_1946)">Wikipedia page</a>
+
+* [Grokipedia page](https://grokipedia.com/page/john_r_ellis)
+
+* [inSpire page](https://inspirehep.net/authors/1010819)
+
+* [ResearchGate page](https://www.researchgate.net/profile/John-Ellis-12/9)
+
 
 ## Interviews
 
 On [[phenomenology]] of [[supersymmetry]]:
 
-* [John Ellis on the symbiosis between particle physics & astrophysics](http://archive.sciencewatch.com/ana/st/super/12janSTSuperElli/), Special topic of supersymmetry interview, January 2012
+* *[John Ellis on the symbiosis between particle physics & astrophysics](http://archive.sciencewatch.com/ana/st/super/12janSTSuperElli/)*, Special topic of supersymmetry interview, January 2012
 
 ## Selected writings
 
@@ -39,3 +49,5 @@ On quasi-[[phenomenology|realistic]] "flipped" [[SU(5)|$SU(5)$]]-[[GUT]],  model
 
 
 category: people
+
+[[!redirects Jonathan R. Ellis]]
