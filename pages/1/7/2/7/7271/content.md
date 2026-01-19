@@ -1,6 +1,10 @@
-[[!redirects Frank Adams]]
 
-Frank Adams (John Frank Adams) was a British mathematician who made a great contribution to [[algebraic topology]] and in particular [[stable homotopy theory]].
+<div style="float:right;margin:-60px 0px 00px 30px;">
+<a href="https://lists.illinois.edu/lists/arc/algtop-l/2026-01/msg00019.html"><img src="/nlab/files/FrankAdams-Portrait.png" width="250"></a> 
+</div>
+
+
+John Frank Adams (1930-1989) was a British mathematician who made a great contribution to [[algebraic topology]] and in particular [[stable homotopy theory]].
 
 
 * [wikipedia entry (English)](http://en.wikipedia.org/wiki/Frank_Adams)
@@ -69,6 +73,7 @@ category: people
 
 [[!redirects John Adams]]
 
+[[!redirects Frank Adams]]
 [[!redirects John F. Adams]]
 [[!redirects J. Frank Adams]]
 [[!redirects J. F. Adams]]
