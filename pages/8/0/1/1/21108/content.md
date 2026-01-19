@@ -32,13 +32,14 @@ For more see at *[[noncommutative topology of quasiperiodicity]]*.
 
 Survey:
 
-* Christian Janot, *The Properties and Applications of Quasicrystals*, Europhysics News 27 (1996) ([pdf](https://www.europhysicsnews.org/articles/epn/pdf/1996/02/epn19962702p60.pdf))
+* Christian Janot: *The Properties and Applications of Quasicrystals*, Europhysics News **27** (1996) &lbrack;[pdf](https://www.europhysicsnews.org/articles/epn/pdf/1996/02/epn19962702p60.pdf)&rbrack;
 
-* Christian Janot, *Quasicrystals -- A Primer*, Oxford Classic Texts in the Physical Sciences, Oxford University Press, 2012 ([ISBN:978-0-19-965740-7](https://global.oup.com/academic/product/quasicrystals-9780199657407?cc=ae&lang=en&))
+* Christian Janot: *Quasicrystals -- A Primer*, Oxford Classic Texts in the Physical Sciences, Oxford University Press (2012) &lbrack;[ISBN:978-0-19-965740-7](https://global.oup.com/academic/product/quasicrystals-9780199657407?cc=ae&lang=en&)&rbrack;
 
 See also
 
-* Wikipedia, _[Quasicrystal](https://en.m.wikipedia.org/wiki/Quasicrystal)
+* Wikipedia: _[Quasicrystal](https://en.m.wikipedia.org/wiki/Quasicrystal)
+
 
 ### As topological phases
 
@@ -53,6 +54,11 @@ As or in relation to [[topological phases of matter]]:
 As a substrate for [[topological quantum computation]]:
 
 * Marcelo Amaral, [[David Chester]], Fang Fang, Klee Irwin, *Exploiting Anyonic Behavior of Quasicrystals for Topological Quantum Computing*, Symmetry **14** 9 (2022) 1780 &lbrack;[arXiv:2207.08928](https://arxiv.org/abs/2207.08928), [doi:10.3390/sym14091780](https://doi.org/10.3390/sym14091780)&rbrack;
+
+In relation to [[quantum Hall systems]]:
+
+* Anuradha Jagannathan: *Topological connections between the 2D Quantum Hall problem and the 1D quasicrystal* &lbrack;[arXiv:2601.09432](https://arxiv.org/abs/2601.09432)&rbrack;
+
 
 
 
