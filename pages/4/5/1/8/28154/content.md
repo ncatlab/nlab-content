@@ -40,16 +40,44 @@ and its modern develoment:
 
 * E. Abrahams, [[Philip W. Anderson]], D. C. Licciardello, [[Tiruppatur V. Ramakrishnan]]: *Scaling Theory of Localization: Absence of Quantum Diffusion in Two Dimensions*, Phys. Rev. Lett. **42** (1979) 673 &lbrack;[doi:10.1103/PhysRevLett.42.673](https://doi.org/10.1103/PhysRevLett.42.673)&rbrack;
 
+Early experimental observation:
+
+* Melvin Cutler, N. F. Mott: *Observation of Anderson Localization in an Electron Gas*, Phys. Rev. **181** (1969) 1336 &lbrack;[doi:10.1103/PhysRev.181.1336](https://doi.org/10.1103/PhysRev.181.1336)&rbrack;
+
+
 Review:
 
 * Patrick A. Lee and [[Tiruppatur V. Ramakrishnan]]: *Disordered electronic systems*, Rev. Mod. Phys. **57** (1985) 287 &lbrack;[doi:10.1103/RevModPhys.57.287](https://doi.org/10.1103/RevModPhys.57.287)&rbrack;
 
 * B. Kramer, A. MacKinnon: *Localization: theory and experiment*,  Rep. Prog. Phys. **56** (1993) 1469 &lbrack;[doi:10.1088/0034-4885/56/12/001](https://doi.org/10.1088/0034-4885/56/12/001)&rbrack;
 
+* Ad Lagendijk, Bart van Tiggelen, Diederik S. Wiersma: *Fifty years of Anderson localization*, Physics Today (Aug 2009) &lbrack;[doi:10.1063/1.3206091](https://doi.org/10.1063/1.3206091)&rbrack;
+
+* [[Eduardo C. Marino]]: *Metals, Fermi Liquids, Mott and Anderson Insulators*, chapter 14 in: *Quantum Field Theory Approach to Condensed Matter Physics*,  Cambridge University Press (2017) &lbrack;[doi:10.1017/9781139696548](https://doi.org/10.1017/9781139696548)&rbrack;
 
 See also:
 
 * Wikipedia: *[Anderson localization](https://en.wikipedia.org/wiki/Anderson_localization)*
+
+Mathematical discussion:
+
+* [[Jürg Fröhlich]], Thomas Spencer: *A rigorous approach to Anderson localization*, Physics Reports **103** 1–4 (1984) 9-25 \[<a href="https://doi.org/10.1016/0370-1573(84)90061-9">doi:10.1016/0370-1573(84)90061-9</a>\]
+
+* Günter Stolz: *An Introduction to the Mathematics of Anderson Localization*, Contemp. Math. **552** (2011) 71-108 &lbrack;[arXiv:1104.2317](https://arxiv.org/abs/1104.2317), 
+[doi:10.1090/conm/552](https://doi.org/10.1090/conm/552)&rbrack;
+
+
+Further discussion:
+
+* Tobias Brandes, S. Kettemann (eds.): *Anderson Localization and Its Ramifications --
+Disorder, Phase Coherence, and Electron Correlations*, Lecture Notes in Physics **630**, Springer (2003) &lbrack;[doi:10.1007/b13139](https://doi.org/10.1007/b13139)&rbrack;
+
+* Marcel Filoche, Svitlana Mayboroda: *Universal mechanism for Anderson and weak localization*, PNAS **109** 37 (2012) 14761-14766 &lbrack;[doi:10.1073/pnas.1120432109](https://doi.org/10.1073/pnas.1120432109)&rbrack;
+
+
+
+
+
 
 [[!redirects Anderson localizations]]
 
