@@ -58,6 +58,8 @@ In [[analysis]] or [[differential geometry]], a _derivative_ is the result of ap
 
 * [[derivations of smooth functions are vector fields]]
 
+* [[chain rule]]
+
 
 ## Related concepts
 
