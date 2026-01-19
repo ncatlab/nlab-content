@@ -46,6 +46,8 @@ or had an "Editorial Expression of Concern" attached to them:
 
 * by *Nature communications* in 2025 &lbrack;[doi:10.1038/s41467-025-58136-3](https://doi.org/10.1038/s41467-025-58136-3)&rbrack;
 
+  cf.: *‘Data manipulations’ alleged in study that paved the way for Microsoft’s quantum chip -- Internal emails from 2021 reveal tensions among researchers hunting for elusive Majorana particle*, [Science (May 2025)](https://www.science.org/content/article/data-manipulations-alleged-study-paved-way-microsoft-s-quantum-chip?utm_campaign=Science&utm_source=Bluesky&utm_medium=ownedSocial)
+
 and a range of further claims are under similar criticism, see [Frolov & Mourik 2020](https://doi.org/10.5281/zenodo.6344447), [Das Sarma & Pan 2021](#DasSarmaPan21), [Frolov, Mourik & Zuo 2022](https://doi.org/10.5281/zenodo.6325378), [Mourik 2024](#Mourik24) and the extensive list [here](https://twitter.com/spinespresso/status/1503352928656138241) and [here](https://bsky.app/profile/spinespresso.bsky.social/post/3likchwf3p22d). 
 
 The systematic problem is that claimed signatures of Majorana zero modes (namely "Zero Bias Peaks" ZBPs) are not significantly distinguished from similar-looking *Andreev Bound States* attached to accidental quantum dots caused by [[Anderson localization]] due to disorder.
