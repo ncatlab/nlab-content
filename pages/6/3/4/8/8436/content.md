@@ -60,7 +60,7 @@ See at _[[K-theory classification of topological phases of matter]]_.
 
   * [[symmetry protected trivial order]]
 
-* [[AdS-CFT in condensed matter physics]]
+* [[Anderson localization]]
 
 * [[phase of matter]]
 
@@ -69,6 +69,8 @@ See at _[[K-theory classification of topological phases of matter]]_.
 * [[mesoscopic physics]]
 
 * [[high energy physics]], [[nuclear physics]]
+
+* [[AdS-CFT in condensed matter physics]]
 
 
 
