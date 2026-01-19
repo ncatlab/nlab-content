@@ -9,7 +9,12 @@
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=y_wpkH8AAAAJ&hl=vi)
 
+
 ## Selected writings
+
+On [[Anderson localization]]:
+
+* [[Jürg Fröhlich]], Thomas Spencer: *A rigorous approach to Anderson localization*, Physics Reports **103** 1–4 (1984) 9-25 \[<a href="https://doi.org/10.1016/0370-1573(84)90061-9">doi:10.1016/0370-1573(84)90061-9</a>\]
 
 On the [[Jones polynomial]] via [[Chern-Simons theory]]:
 
