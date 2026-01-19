@@ -26,8 +26,8 @@ A [[subcategory]] $T$ of an [[abelian category]] $A$ is a __localizing subcatego
 
 One sometimes says that $T$ is the localizing subcategory associated with quotient (or localized) category $B$ (which is then equivalent to the [[Serre quotient category]] $A/T$). 
 
-A __localizing subcategory of a triangulated category__ is 
-a full triangulated subcategory closed under small direct sums (that is, the inclusion preserves direct sums). If $\alpha$ is a regular cardinal, an $\alpha$-localizing subcategory is a full triangulated subcategory closed under direct sums of less than $\alpha$ objects. 
+A __localizing subcategory of a triangulated category__ with small direct sums is 
+a full triangulated subcategory which is also closed under small direct sums (that is, the inclusion preserves direct sums). If $\alpha$ is a regular cardinal, an $\alpha$-localizing subcategory is a full triangulated subcategory closed under direct sums of less than $\alpha$ objects. 
 
 ## Properties
 
