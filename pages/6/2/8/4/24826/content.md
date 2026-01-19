@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -72,4 +71,6 @@ On a [[triple category]]-generalization of the [[para construction]] for systems
 [[!redirects categorical systems theory]]
 
 [[!redirects cybernetics]]
+
+
 
