@@ -253,6 +253,12 @@ and is further developed in the following articles:
 
 * N. E. Martínez-Pérez, C. Ramírez, V. Vázquez-Báez, *FRW supersymmetric model of Starobinsky* ([arXiv:2110.00556](https://arxiv.org/abs/2110.00556))
 
+* Ignatios Antoniadis, [[John Ellis]], Wenqi Ke, Dimitri V. Nanopoulos, [[Keith A. Olive]]: *How Accidental was Inflation?* &lbrack;[arXiv:2504.12283](https://arxiv.org/abs/2504.12283)&rbrack;
+
+* [[John Ellis]], Marcos A. G. Garcia, Natsumi Nagata, Dimitri V. Nanopoulos, [[Keith A. Olive]]: *Deformations of Starobinsky Inflation in No-Scale $SU(5)$ and $SO(10)$ GUTs* &lbrack;[arXiv:2508.13279](https://arxiv.org/abs/2508.13279)&rbrack;
+
+
+
 
 ### Embedding into 11d supergravity
  {#ReferencesEmbeddingInto11dSupergravity}
