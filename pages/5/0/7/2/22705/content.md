@@ -34,3 +34,4 @@
 |[[monoidal groupoid]]|[[(2,1)-category]]|
 |[[2-group]]|[[2-groupoid]]/[[bigroupoid]]|
 |[[monoidal category]]|[[2-category]]/[[bicategory]]|
+|[[quantale]]|[[quantaloid]]|
