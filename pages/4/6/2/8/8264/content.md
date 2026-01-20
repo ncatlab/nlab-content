@@ -101,6 +101,9 @@ See _[[ekpyrotic cosmology]]_.
 
 * Debika Chowdhury, Jerome Martin, Christophe Ringeval, Vincent Vennin, _Inflation after Planck: Judgment Day_ ([arXiv:1902.03951](https://arxiv.org/abs/1902.03951))
 
+* [[John Ellis]], David Wands: *Inflation (2023)* &lbrack;[arXiv:2312.13238](https://arxiv.org/abs/2312.13238)&rbrack;
+
+
 * [[Renata Kallosh]], [[Andrei Linde]]: *On the Present Status of Inflationary Cosmology* &lbrack;[arXiv:2505.13646](https://arxiv.org/abs/2505.13646)&rbrack;
 
 * Alberto Salvio: *Inflationary scenarios beyond the Standard Model*, in: *[[Encyclopedia of Particle Physics]]* &lbrack;[arXiv:2501.08380](https://arxiv.org/abs/2501.08380)&rbrack;
