@@ -388,6 +388,8 @@ On the [[quantum states]] of (tacitly) 3D MCSD theory as [[sections]] of [[deter
 
 * {#Pickrell2000} [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
 
+* {#Pickrell2022} [[Doug Pickrell]]; §10 of: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
+
 
 As an [[effective field theory|effective]] description of [[superconductivity]]:
 
