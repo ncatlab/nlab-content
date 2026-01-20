@@ -25,5 +25,12 @@ On realizing certain [[scalar field theories]] on [[surfaces]] as [[functorial f
 
 * [[Doug Pickrell]]: *$P(\phi)_2$ Quantum Field Theories and Segal's axioms*, Commun. Math. Phys. **280** (2008) 403-425 \[<a href="https://doi.org/10.1007/s00220-008-0467-8">doi:10.1007/s00220-008-0467-8</a>, [arXiv:math-ph/0702077](https://arxiv.org/abs/math-ph/0702077)\]
 
+Concerning [[measures]] on [[loop groups]] related to [[path integral]] measures of low dimensional [[Yang-Mills theory]]:
+
+* [[Doug Pickrell]]: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
+
+
 
 category: people
+
+
