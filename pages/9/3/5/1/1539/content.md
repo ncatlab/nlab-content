@@ -9,24 +9,22 @@
 =--
 =--
 
-#Contents#
-* automatic table of contents goes here
-{:toc}
+\tableofcontents
 
 ## Idea
 
-A quasitopos is a particular kind of [[category]] that has properties similar to that of a [[topos]], but is not quite a [[topos]]. A major difference is that it need not be [[balanced category|balanced]]: a [[morphism]] that is both [[monomorphism|monic]] and [[epimorphism|epic]] is not necessarily invertible. A quasitopos that is balanced is a topos.
+A *quasitopos* is a particular kind of [[category]] that has properties similar to that of a [[topos]], without quite needing to be a [[topos]]. A major difference is that quasitopoi need not be [[balanced category|balanced]]: a [[morphism]] in a quasitopos that is both a [[monomorphism]] and an [[epimorphism]] need not necessarily be [[invertible morphism|invertible]]. In fact, a  quasitopos that is balanced is a topos.
 
-Instead of the usual [[subobject classifier]], it has a classifier only for *[[strong monomorphism|strong]]* [[subobject]]s. It satisfies the uniqueness, but not the existence, part of the sheaf axioms ([[Elephant]] A2.6).
+Instead of the [[subobject classifier]] of topoi, quasitopoi have classifiers only for *[[strong monomorphism|strong]]* [[subobjects]]. These satisfy the uniqueness but not the existence part of the sheaf axioms (cf. [Johnstone 2002, A2.6](#Johnstone2002)).
 
-Note that some of the literature definitions use the notion of a [[regular monomorphism]].  Since every regular monomorphism is a strong one, this article only uses  [[strong monomorphism]].
+Beware that some of the literature on quasitopoi considers [[regular monomorphism|regular]] subobjects, instead.  But since every [[regular monomorphism]] is a [[strong monomorphism]], here we stick to considering strong subobjects.
 
 ## Definition
 
 +-- {: .un_defn}
 ###### Definition
 
-A **quasitopos** is a [[finitely complete category|finitely complete]], [[finitely cocomplete category|finitely cocomplete]], [[locally cartesian closed category]] $E$ in which there exists an [[object]] $\Omega$ that classifies [[strong monomorphism|strong monomorphisms]]. 
+A **quasitopos** is a [[finitely complete category|finitely complete]], [[finitely cocomplete category|finitely cocomplete]], [[locally cartesian closed category]] $E$ in which there exists an [[object]] $\Omega$ that classifies [[strong monomorphisms]]. 
 
 =--
 
@@ -76,7 +74,7 @@ In a quasitopos the [[pushout]] of a [[strong monomorphism]] is again a strong m
 
 =--
 
-This appears as [Elephant, Lemma A.2.6.2](#Elephant), using the synonym _cocover_ for _strong monomorphism_. Since a [[topos]] is a quasitopos in which all monomorphisms are strong, this implies that the pushout of a mono in a topos is again a mono and that the resulting square is a pullback. Together with the fact that colimits are universal in a topos, this implies that a topos is an [[adhesive category]]. 
+This appears as [Johnstone '02 Lemma A.2.6.2](#Johnstone2002), using the synonym _cocover_ for _strong monomorphism_. Since a [[topos]] is a quasitopos in which all monomorphisms are strong, this implies that the pushout of a mono in a topos is again a mono and that the resulting square is a pullback. Together with the fact that colimits are universal in a topos, this implies that a topos is an [[adhesive category]]. 
 
 +-- {: .num_corollary}
 ###### Corollary
@@ -85,7 +83,7 @@ A quasitopos that is also a [[balanced category]] is a [[topos]].
 
 =--
 
-This is [Elephant, corollary 2.6.3](#Elephant).
+This is [Johnstone '02, Cor. 2.6.3](#Johnstone2002).
 
 
 +-- {: .num_lemma}
@@ -95,7 +93,7 @@ A quasitopos has [[disjoint coproduct]]s precisely if the unique morphism $\empt
 
 =--
 
-This is [Elephant, corollary 2.6.5](#Elephant).
+This is [Johnstone '02 Cor 2.6.5](#Johnstone2002).
 
 
 +-- {: .num_defn}
@@ -123,7 +121,7 @@ $$
 
 =--
 
-This is [Elephant, prop 2.6.12](#Elephant).
+This is [Johnstone '02 Prop 2.6.12](#Johnstone2002).
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -132,7 +130,7 @@ If $\mathcal{E} \simeq SepPSh(C)$ is a Grothendieck quasitopos of [[separated pr
 
 =--
 
-This is in [Elephant, section A4.4](#Elephant).
+This is in [Johnstone '02 Sec. A4.4](#Johnstone2002).
 
 
 ### Characterization
@@ -146,7 +144,7 @@ Grothendieck quasitoposes are those quasitoposes which are [[locally small categ
 
 =--
 
-see C2.2.13 of the ([Elephant](#Elephant))
+(cf. [Johnstone '02 C2.2.13](#Johnstone2002))
 
 ### Extensivity and exactness
 
@@ -230,8 +228,7 @@ Textbook accounts:
 
 * {#Wyler} [[Oswald Wyler]], _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991 ([doi:10.1142/1047](https://doi.org/10.1142/1047))
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_, Oxford UP 2002.
-{#Elephant} (section A2.6)
+* {#Johnstone2002} [[Peter Johnstone]]; section A2.6 of: *[[Sketches of an Elephant -- A Topos Theory Compendium]]*, Oxford University Press (2002)
 
 * [[Jiří Adámek]], [[Horst Herrlich]], [[George Strecker]], *Abstract and Concrete Categories*, Wiley 1990, reprinted as: Reprints in Theory and Applications of Categories, No. 17 (2006) pp. 1-507 ([tac:tr17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html))
 
