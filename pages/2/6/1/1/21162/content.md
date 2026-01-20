@@ -40,15 +40,16 @@ Examples of quarkonia:
 * An-Ping Chen, Yan-Qing Ma, Hong Zhang, *A short theoretical review of charmonium production* ([arXiv:2109.04028](https://arxiv.org/abs/2109.04028))
 
 
-
-
-
-
-See also
+See also:
 
 * Wikipedia, _[Quarkonium](https://en.m.wikipedia.org/wiki/Quarkonium)_
 
 * Wikipedia, _[XYZ particle](https://en.m.wikipedia.org/wiki/XYZ_particle)_
+
+On the history:
+
+* [[John Ellis]]: *Personal Memories of 50 Years of Quarkonia* &lbrack;[arXiv:2506.10643](https://arxiv.org/abs/2506.10643)&rbrack;
+
 
 Dicussion in the context of [[quark gluon plasma]]:
 
