@@ -219,14 +219,18 @@ The relation between [[representations]] of loop groups and [[twisted K-theory]]
 
 * [[Dan Freed]], [[Mike Hopkins]], [[Constantin Teleman]], _[[Loop Groups and Twisted K-Theory]]
 
-The relation between representations of loop groups an [[equivariant elliptic cohomology]] of the point is discussed in
+On the relation between representations of loop groups and [[equivariant elliptic cohomology]] of the point:
 
-* {#Ando00} [[Matthew Ando]], _Power operations in elliptic cohomology and representations of loop groups_ Transactions of the American
-Mathematical Society 352, 2000, pp. 5619-5666. ([JSTOR](http://www.jstor.org/stable/221905), [pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf))
+* {#Ando00} [[Matthew Ando]]: _Power operations in elliptic cohomology and representations of loop groups_, Transactions of the American Mathematical Society **352** (2000) 5619-5666 &lbrack;[JSTOR](http://www.jstor.org/stable/221905), [pdf](http://www.math.uiuc.edu/~mando/papers/POECLG/poeclg.pdf)&rbrack;
 
-Discussion with respect to [[flag varieties]] is in 
+Discussion with respect to [[flag varieties]]:
 
-* {#Kumar02} [[Shrawan Kumar]], _Kac-Moody Groups, their Flag Varieties and Representation Theory_, Birkh&#228;user 2002
+* {#Kumar02} [[Shrawan Kumar]]: _Kac-Moody Groups, their Flag Varieties and Representation Theory_, Birkh&#228;user (2002)
+
+Concerning [[measures]] on loop groups related to [[path integral]] measures of low dimensional [[Yang-Mills theory]] (cf. [[Maxwell-Chern-Simons theory]]):
+
+* [[Doug Pickrell]]: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
+
 
 [[!redirects loop group]]
 [[!redirects loop groups]]
