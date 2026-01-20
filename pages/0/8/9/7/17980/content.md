@@ -109,7 +109,7 @@ and further developed in the article
 
 and many more ("DFGHIL collaboration"). For instance the relation to Clifford supermodules is discussed in
 
-* [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], _Off-shell supersymmetry and filtered Clifford supermodules_, Algebr Represent Theor **21** (2018) 375–397 &lbracl[arXiv:math-ph/0603012](https://arxiv.org/abs/math-ph/0603012), [doi:10.1007/s10468-017-9718-8](https://doi.org/10.1007/s10468-017-9718-8)&rbrack;
+* [[Charles Doran]], [[Michael Faux]], [[Jim Gates]], [[Tristan Hübsch]], [[Kevin Iga]], [[Greg Landweber]], _Off-shell supersymmetry and filtered Clifford supermodules_, Algebr Represent Theor **21** (2018) 375–397 &lbrack;[arXiv:math-ph/0603012](https://arxiv.org/abs/math-ph/0603012), [doi:10.1007/s10468-017-9718-8](https://doi.org/10.1007/s10468-017-9718-8)&rbrack;
 
 kinetic terms are discussed in 
 
