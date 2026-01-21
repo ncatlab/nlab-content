@@ -106,6 +106,9 @@ On [[D=4 supergravity]] in [[BV-formalism]]:
 
 * [[Alberto S. Cattaneo]], [[Filippo Fila-Robattino]]: *BV description of $N=1$, $D=4$ Supergravity in the first order formalism* &lbrack;[arXiv:2503.07373](https://arxiv.org/abs/2503.07373)&rbrack;
 
+* [[Alberto S. Cattaneo]], [[Filippo Fila-Robattino]]: *The Reduced Phase Space of $N=1$, $D=4$ Supergravity in the BV-BFV formalism* &lbrack;[arXiv:2601.13025](https://arxiv.org/abs/2601.13025)&rbrack;
+
+
 On [[BF-theory]] via [[BV-formalism]]:
 
 * [[Alberto S. Cattaneo]]: *Surface Observables, 2-Knot Invariants, and Nonabelian Electric Fluxes* &lbrack;[arXiv:2511.13623](https://arxiv.org/abs/2511.13623)&rbrack;
