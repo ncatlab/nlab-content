@@ -299,13 +299,14 @@ Discussion in the broader context of [[Kalb-Ramond fields]]:
 ### Lightest super-partner 
 
 
-The observation that the lightest supersymmetric particle would be a natural dark matter candidate goes back to 
+The suggestion that the lightest [[supersymmetry|supersymmetric]] particle would be a natural dark matter candidate goes back to:
 
-* {#EHNOS84} [[John Ellis]],  J.S. Hagelin, Dimitri V. Nanopoulos, [[Keith Olive]], M. Srednicki  _Supersymmetric relics from the Big Bang_, Nuclear Physics B 238[2]: 453-76, 1984 ([SPIRE](http://inspirehep.net/record/191839?ln=en))
+* {#EHNOS84} [[John Ellis]], [[John S. Hagelin]], [[Dimitri V. Nanopoulos]], [[Keith Olive]], [[Mark Srednicki]]: _Supersymmetric relics from the Big Bang_, Nuclear Physics B **238** 2 (1984) 453-476 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90461-9">doi:10.1016/0550-3213(84)90461-9</a>, [spire:191839](http://inspirehep.net/record/191839)&rbrack;
 
-with review in 
+Review:
 
-* {#EllisOlive10} [[John Ellis]], [[Keith Olive]], _Supersymmetric Dark Matter Candidates_ ([arXiv:1001.3651](http://arxiv.org/abs/1001.3651))
+* {#EllisOlive10} [[John Ellis]], [[Keith Olive]]: _Supersymmetric Dark Matter Candidates_, chapter 8 of: *Particle Dark Matter -- Observations, Models and Searches*, Cambridge University Press (2010) 142 - 163 &lbrack;[arXiv:1001.3651](http://arxiv.org/abs/1001.3651), [doi:10.1017/CBO9780511770739.009](https://doi.org/10.1017/CBO9780511770739.009)&rbrack;
+
 
 ### Gravitinos
  {#ReferencesGravitinos}
