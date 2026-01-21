@@ -61,12 +61,17 @@ See also:
 [arXiv:hep-th/9202024](https://arxiv.org/abs/hep-th/9202024)\]
 
 
-* Brian P Dolan: *$\mathcal{N}=2$ Supersymmetric Yang-Mills and the Quantum Hall Effect*,  International Journal of Modern Physics A **21** 23/24 (2006) 4807-4822 \[<a href="https://arxiv.org/abs/hep-th/0505138">arXiv:hep-th/0505138</a>, <a href="https://doi.org/10.1142/S0217751X06033891">doi:10.1142/S0217751X06033891</a>, <a href="https://mural.maynoothuniversity.ie/id/eprint/2836/1/BD_Supersymmetric.pdf">pdf</a>\]
+* Brian P. Dolan: *$\mathcal{N}=2$ Supersymmetric Yang-Mills and the Quantum Hall Effect*,  International Journal of Modern Physics A **21** 23/24 (2006) 4807-4822 \[<a href="https://arxiv.org/abs/hep-th/0505138">arXiv:hep-th/0505138</a>, <a href="https://doi.org/10.1142/S0217751X06033891">doi:10.1142/S0217751X06033891</a>, <a href="https://mural.maynoothuniversity.ie/id/eprint/2836/1/BD_Supersymmetric.pdf">pdf</a>\]
 
 
 * Eran Sagi, Raul A. Santos: *Supersymmetry in the Fractional Quantum Hall Regime*,  	Phys. Rev. B **95** 205144 (2017) \[<a href="https://doi.org/10.1103/PhysRevB.95.205144">doi:10.1103/PhysRevB.95.205144</a>, [arXiv:1610.07627](https://arxiv.org/abs/1610.07627)\]
 
 * Jin-Beom Bae, Sungjay Lee, section 5 of: *Emergent Supersymmetry on the Edges*, SciPost Phys. **11** 091 (2021) \[<a href="https://doi.org/10.21468/SciPostPhys.11.5.091">doi:10.21468/SciPostPhys.11.5.091</a>, [arXiv:2105.02148](https://arxiv.org/abs/2105.02148)\]
+
+* [[Ajit C. Balram]]: *SUSY at $\nu = 5/2$*, section 3 of: *High-energy collective modes in fractional quantum Hall liquids: Rise of the parton*, [talk at](CQTS#BalramMay2023) *[Quantum Information and Quantum Matter 2023](Center+for+Quantum+and+Topological+Systems#ConferencesMay2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023)
+
+
+[[Ajit C. Balram]] (IMSc Chennai): *FQHE in the LLL Parton mode SUSY at $\nu = 5/2$ High-energy collective modes in fractional quantum Hall liquids: Rise of the parton* &lbrack;[pdf](https://nyuad.nyu.edu/content/dam/nyuad/research/centers-labs-projects/center-for-quantum-and-topological-systems-/events-conferences/quantum-matter-info-conference-2023/ACB_talk.pdf), [[Balram-CQTS2023.pdf:file]]&rbrack;
 
 
 #### Effective FQH Supergravity
