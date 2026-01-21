@@ -613,6 +613,9 @@ See also:
 
 * Álvaro Álvarez-Domínguez: *Quantization of charged fields in the presence of intense electromagnetic fields* &lbrack;[arXiv:2510.09447](https://arxiv.org/abs/2510.09447)&rbrack;
 
+* E. T. Akhmedov, P. S. Zavgorodny: *Does Schwinger's value for the current of created pairs gets modified for long and strong enough pulse?* &lbrack;[arXiv:2601.12847](https://arxiv.org/abs/2601.12847)&rbrack;
+
+
 
 
 
