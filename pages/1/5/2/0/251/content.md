@@ -226,6 +226,9 @@ Finally, if we want to discuss [[weighted limits]] and colimits in double catego
 | Strict double categories, strict functors | Strict functors, oplax horizontal, lax vertical, modifications | Yes | | Theorem 4.2 of [Femić24](#Femić24) |
 | Strict double categories, strict functors | Pseudo/lax/oplax functors, pseudo/lax/oplax horizontal, dually for vertical, modifications | Yes | Skew | §6.4.2 of [Femić24](#Femić24) |
 
+[Grandis and Par&#233; 1999](#GP99) construct double categories of normal lax/pseudo functors, tight transformations, and pseudo loose transformations (section 7.4).
+[Patterson 2024](#Patterson24) constructs double categories of lax functors, tight transformations, and lax/oplax/pseudo loose transformations. However, these authors do not investigate the kind of closed structures these form.
+
 ### References
 
 * {#Böhm20} [[Gabriella Böhm]], _The Gray monoidal product of double categories_, Applied Categorical Structures 28.3 (2020): 477-515.
@@ -239,6 +242,10 @@ An exploration of the possibility of a closed structure on strict double categor
 [[skew monoidal category|Skew monoidal]] structures are constructed on categories of double categories in:
 
 * {#Femić24} [[Bojana Femić]], _Gray (skew) multicategories: double and Gray-categorical cases_, [arXiv:2408.00561](https://arxiv.org/abs/2408.00561) (2024).
+
+See also:
+
+* {#Patterson24} [[Evan Patterson]], _Transposing cartesian and other structure in double categories_, [arXiv:2404.08835](https://arxiv.org/abs/2404.08835) (2024).
 
 ## Model structures on the category of double categories
 
@@ -308,7 +315,7 @@ The concept goes back to:
 
 For a comprehensive treatment, it is probably best to consult the series of papers by Grandis and Par&#233;:
 
-* Marco Grandis and Robert Par&#233;, [Limits in double categories](http://www.numdam.org/article/CTGDC_1999__40_3_162_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **40** (1999), 162--220.
+* {#GP99} Marco Grandis and Robert Par&#233;, [Limits in double categories](http://www.numdam.org/article/CTGDC_1999__40_3_162_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **40** (1999), 162--220.
 
 * Marco Grandis and Robert Par&#233;, [Adjoints for double categories](http://www.numdam.org/article/CTGDC_2004__45_3_193_0.pdf), _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_ **45** (2004), 193--240.
 
