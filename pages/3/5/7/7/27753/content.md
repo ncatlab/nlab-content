@@ -243,7 +243,17 @@ On [[anyons]] in FQAH systems:
 
 * Felix A. Palm, Nader Mostaan, Nathan Goldman, Fabian Grusdt: *Interferometric Braiding of Anyons in Chern insulators* &lbrack;[arXiv:2511.09445](https://arxiv.org/abs/2511.09445)&rbrack;
 
+* Chuyi Tuo, Ming-Rui Li, Hong Yao: *Fractional quantum anomalous Hall and anyon density-wave halo in a minimal interacting lattice model of twisted bilayer $MoTe_2$* &lbrack;[arXiv:2512.23608](https://arxiv.org/abs/2512.23608)&rbrack;  
+
+
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Crystalline Chern Order|Fragile Topological Phases and Topological Order of 2D Crystalline Chern Insulators]]* &lbrack;[arXiv:2512.24709](https://arxiv.org/abs/2512.24709)&rbrack;
+
+#### In view of TQC
+
+In view of potential [[topological quantum computing]] hardware:
+
+* James Urton: *[Researchers make a quantum computing leap with a magnetic twist](https://www.washington.edu/news/2023/06/27/fqah-states/)*, UW News (June 2023)
+
 
 #### Collective excitations
 
