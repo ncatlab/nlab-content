@@ -30,6 +30,11 @@ Concerning [[measures]] on [[loop groups]] related to [[path integral]] measures
 * [[Doug Pickrell]]: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
 
 
+## Related entries
+
+* [[constructive field theory]]
+
+
 
 category: people
 
