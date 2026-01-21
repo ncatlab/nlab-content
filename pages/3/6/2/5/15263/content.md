@@ -1,7 +1,28 @@
 
-* [webpage](https://www.physics.umn.edu/people/olive.html)
+Keith Alison Olive
+
+* [institute page](https://cse.umn.edu/physics/keith-olive)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Keith_Olive)
+
+* [inSpire page](https://inspirehep.net/authors/994945)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=Pue-0ZMAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Keith-A-Olive-64841536)
+
 
 ## Selected writings
+
+The original suggestion that the lightest [[supersymmetry|supersymmetric]] [[particle]] (LSP) would be a natural [[dark matter]] candidate:
+
+* {#EHNOS84} [[John Ellis]],  [[John S. Hagelin]], [[Dimitri V. Nanopoulos]], [[Keith Olive]], [[Mark Srednicki]]: _Supersymmetric relics from the Big Bang_, Nuclear Physics B **238** 2 (1984) 453-476 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90461-9">doi:10.1016/0550-3213(84)90461-9</a>, [spire:191839](http://inspirehep.net/record/191839)&rbrack;
+
+Review:
+
+* {#EllisOlive10} [[John Ellis]], [[Keith Olive]]: _Supersymmetric Dark Matter Candidates_, chapter 8 of: *Particle Dark Matter -- Observations, Models and Searches*, Cambridge University Press (2010) 142 - 163 &lbrack;[arXiv:1001.3651](http://arxiv.org/abs/1001.3651), [doi:10.1017/CBO9780511770739.009](https://doi.org/10.1017/CBO9780511770739.009)&rbrack;
+
+
 
 On the [[Starobinsky model of cosmic inflation]] and its embedding into [[supergravity]]:
 
