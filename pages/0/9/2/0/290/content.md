@@ -20,9 +20,8 @@
 =--
 
 
-#Contents# 
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -223,7 +222,9 @@ Application in/to [[solid state physics]]:
 * [[Alexei M. Tsvelik]]: *Quantum Field Theory in Condensed Matter Physics*, Cambridge University Press (2003) &lbrack;[doi:10.1017/CBO9780511615832](https://doi.org/10.1017/CBO9780511615832)&rbrack;
 
 
-* [[Eduardo Fradkin]], *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509](https://doi.org/10.1017/CBO9781139015509)&rbrack;
+* [[Eduardo Fradkin]], *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) &lbrack;ISBN: 9781139015509, [doi:10.1017/CBO9781139015509](https://doi.org/10.1017/CBO9781139015509), [pdf](http://home.ustc.edu.cn/~gengb/200923/Fradkin,%20Field%20Theories%20of%20Condensed%20Matter%20Physics.pdf)&rbrack;
+
+* [[Eduardo Fradkin]]: *Field Theoretic Aspects of Condensed Matter Physics: An Overview*, *Encyclopedia of Condensed Matter Physics (2nd ed.)* **1** (2024) 27-131 &lbrack;[doi:10.1016/B978-0-323-90800-9.00269-9](https://doi.org/10.1016/B978-0-323-90800-9.00269-9), [arXiv:2301.13234](https://arxiv.org/abs/2301.13234)&rbrack;
 
 
 
