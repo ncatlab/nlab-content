@@ -328,9 +328,15 @@ Early discussion of 3D Maxwell-Chern-Simons theory:
 
 * Jonathan F. Schonfeld: *A mass term for three-dimensional gauge fields*, Nuclear Physics B **185** 1 (1981) 157-171 \[<a href="https://doi.org/10.1016/0550-3213(81)90369-2">doi:10.1016/0550-3213(81)90369-2</a>\]
 
+* [[Stanley Deser]], [[Roman Jackiw]], S. Templeton: *Three-Dimensional Massive Gauge Theories*, Phys. Rev. Lett. **48** (1982) 975 \[<a href="https://doi.org/10.1103/PhysRevLett.48.975">doi:10.1103/PhysRevLett.48.975</a>\]
+
 * [[Stanley Deser]], [[Roman Jackiw]] S. Templeton: *Topologically massive gauge theories* Annals of Physics **140** 2 (1982) 372-411 \[<a href="https://doi.org/10.1016/0003-4916(82)90164-6">doi:10.1016/0003-4916(82)90164-6</a>\]
 
 * [[A. P. Balachandran]], L. Chandar, E. Ercolessi, T. R. Govindarajan, [[Ramamurti Shankar]]: *Maxwell-Chern-Simons electrodynamics on a disk*, International Journal of Modern Physics A **09** 19 (1994) 3417-3441 &lbrack;[doi:10.1142/S0217751X94001357](https://doi.org/10.1142/S0217751X94001357)&rbrack;
+
+Textbook account in the context of [[effective field theory]] for [[FQH systems]]:
+
+* [[Eduardo Fradkin]]; around (11.41) in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
 
 In relation to [[area-preserving diffeomorphisms]]:
 
@@ -379,6 +385,11 @@ See also:
 Discussion of coupling to [[fermion]] [[field (physics)|fields]] hence of *Maxwell-Chern-Simons-Dirac theory* (MCSD) or *topologically massive [[QCD]]*:
 
 * {#HallerLim1992} [[Kurt Haller]], Edwin Lim-Lombridas: *Canonical quantization of $(2+1)$-dimensional QED with a topological mass term*, Phys. Rev. D **46** (1992) 1737 &lbrack;[doi:10.1103/PhysRevD.46.1737](https://doi.org/10.1103/PhysRevD.46.1737)&rbrack;
+
+* Yutaka Hosotani: *Spontaneous Breakdown of the Lorentz Invariance*, Phys. Rev. D **51** (1995) 2022-2025 \[<a href="https://doi.org/10.1103/PhysRevD.51.2022">doi:10.1103/PhysRevD.51.2022</a>, [arXiv:hep-th/9402096](https://arxiv.org/abs/hep-th/9402096)\]
+
+
+* Denne Wesolowski, Yutaka Hosotani, Sumantra Chakravarty: *The Energy Density in the Maxwell-Chern-Simons Theory*, Phys. Rev. D **50** (1994) 7624-7637 \[<a href="https://doi.org/10.1103/PhysRevD.50.7624">doi:10.1103/PhysRevD.50.7624</a>, [arXiv:hep-th/9406169](https://arxiv.org/abs/hep-th/9406169)\]
 
 * {#HallerLim1996} [[Kurt Haller]], Edwin Lim-Lombridas: *Maxwell-Chern-Simons Theory in Covariant and Coulomb Gauges* Annals of Physics **246** 1 (1996) 1-48 \[<a href="https://doi.org/10.1006/aphy.1996.0019">doi:10.1006/aphy.1996.0019</a>\]
 
