@@ -89,7 +89,7 @@ Textbook accounts:
 
 * [[John W. Negele]], [[Henri Orland]], *Quantum Many-Particle Systems*, Westview Press (1988, 1998) &lbrack;[doi:10.1201/9780429497926](https://doi.org/10.1201/9780429497926)&rbrack;
 
-* [[Naoto Nagaosa]], *Quantum Field Theory in Condensed Matter Physics*, Texts and Monographs in Physics, Springer (1999) &lbrack;[doi:10.1007/978-3-662-03774-4_2](https://doi.org/10.1007/978-3-662-03774-4_2)&rbrack;
+* [[Naoto Nagaosa]], *Quantum Field Theory in Condensed Matter Physics*, Texts and Monographs in Physics, Springer (1999) &lbrack;[doi:10.1007/978-3-662-03774-4](https://link.springer.com/book/10.1007/978-3-662-03774-4)&rbrack;
 
 * [[Alexander L. Fetter]], [[John Dirk Walecka]], *Quantum theory of many-particle systems*, Mcgraw-Hill (1991); Dover (2003) &lbrack;[archive.org](https://archive.org/details/quantum-theory-of-many-particle-systems-by-alexander-l.-fetter-john-dirk-walecka-physics-z-lib.org/mode/thumb)&rbrack; 
 
