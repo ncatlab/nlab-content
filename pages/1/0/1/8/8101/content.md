@@ -10,6 +10,11 @@ Making manifest the local [[worldsheet]] [[supersymmetry]] of the [[spinning str
 
 * [[Stanley Deser]], [[Bruno Zumino]], *A complete action for the spinning string*, Physics Letters B **65** 4 (1976) 369-373 ([pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)) 
 
+Introducing [[Maxwell-Chern-Simons theory]]:
+
+* [[Stanley Deser]], [[Roman Jackiw]], S. Templeton: *Three-Dimensional Massive Gauge Theories*, Phys. Rev. Lett. **48** (1982) 975 \[<a href="https://doi.org/10.1103/PhysRevLett.48.975">doi:10.1103/PhysRevLett.48.975</a>\]
+
+* [[Stanley Deser]], [[Roman Jackiw]] S. Templeton: *Topologically massive gauge theories* Annals of Physics **140** 2 (1982) 372-411 \[<a href="https://doi.org/10.1016/0003-4916(82)90164-6">doi:10.1016/0003-4916(82)90164-6</a>\]
 
 
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
