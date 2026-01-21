@@ -33,17 +33,24 @@ It might be noteworthy that for the established rigorous construction of [[pertu
 
 ### General
 
-Review:
+Introduction and review:
 
-* {#Jaffe} [[Arthur Jaffe]], _Constructive quantum field theory_ &lbrack;[pdf](http://www.arthurjaffe.com/Assets/pdf/CQFT.pdf), [[Jaffe-CQFT.pdf:file]]&rbrack;
+* [[Arthur S. Wightman]]: *Constructive Field Theory Introduction to the Problems*, in: *Fundamental Interactions in Physics and Astrophysics*, Studies in the Natural Sciences **3**Springer (1973) &lbrack;[doi:10.1007/978-1-4613-4586-2_1](https://doi.org/10.1007/978-1-4613-4586-2_1)&rbrack; 
 
 * [[Stephen J. Summers]]: _A Perspective on Constructive Quantum Field Theory_ &lbrack;[arXiv:1203.3991](http://arxiv.org/abs/1203.3991), [pdf](https://www.eolss.net/sample-chapters/c05/E6-07-07.pdf)&rbrack;
 
+* {#Jaffe} [[Arthur Jaffe]], _Constructive quantum field theory_ &lbrack;[pdf](http://www.arthurjaffe.com/Assets/pdf/CQFT.pdf), [[Jaffe-CQFT.pdf:file]]&rbrack;
+
+
+* Wikipedia: *[Constructive quantum field theory](https://en.wikipedia.org/wiki/Constructive_quantum_field_theory)*
+
+
 See also:
+
+* [[John Baez]], [[Irving Segal]], Zhengfang Zhou: *Introduction to Algebraic and Constructive Quantum Field Theory*, Princeton University Press (1992) &lbrack;ISBN:9780691605128, [doi:10.1515/9781400862504](https://doi.org/10.1515/9781400862504), [pdf](https://math.ucr.edu/home/baez/bsz_new.pdf)&rbrack;
 
 * {#Warner08} [[Garth Warner]]: *Bosonic Quantum Field Theory*, EPrint Collection, University of Washington (2008) &lbrack;[hdl:1773/3710](http://hdl.handle.net/1773/3710), [pdf](https://sites.math.washington.edu//~warner/BQFT_Warner.pdf), [[Warner-BosonicQFT.pdf:file]]&rbrack;
 
-* Wikipedia: *[Constructive quantum field theory](https://en.wikipedia.org/wiki/Constructive_quantum_field_theory)*
 
 Discussion specifically of constructive [[path integrals]]:
 
@@ -51,16 +58,15 @@ Discussion specifically of constructive [[path integrals]]:
 
 * [[Barry Simon]]: *Functional integration and quantum physics*, AMS Chelsea Publishing **351**, AMS (2005) &lbrack;[ISBN:978-0-8218-3582-1](https://bookstore.ams.org/chel-351-h), [pdf](http://inis.jinr.ru/sl/vol2/Mathematics/%CC%E0%F2.%F4%E8%E7%E8%EA%E0/Simon%20B.,%20Functional%20Inegration%20&%20Quantum%20Physics,%201979,%201p.pdf)&rbrack;
 
-* [[Sergio Albeverio]], Raphael H&#248;egh-Krohn, Sonia Mazzucchi. _Mathematical theory of Feynman path integrals - An Introduction_, 2 nd corrected and enlarged edition,
-Lecture Notes in Mathematics **523**, Springer (2008) &lbrack;[ZMATH](href="http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05233292&format=complete)&rbrack;
+* [[Sergio Albeverio]], Raphael H&#248;egh-Krohn, Sonia Mazzucchi. _Mathematical theory of Feynman path integrals - An Introduction_, Lecture Notes in Mathematics **523**, Springer (2008) &lbrack;[ZMATH](href="http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:pre05233292&format=complete)&rbrack;
 
 * Sonia Mazzucchi, _Mathematical Feynman Path Integrals and Their Applications_, World Scientific (2009)
 
-* Magnen, Rivasseau, Seneor, _Construction of YM4 with an infrared cutoff_ &lbrack;[euclid:cmp/1104253284] (https://projecteuclid.org/euclid.cmp/1104253284)&rbrack;
+* Magnen, Rivasseau, Seneor: _Construction of $YM_4$ with an infrared cutoff_ &lbrack;[euclid:cmp/1104253284] (https://projecteuclid.org/euclid.cmp/1104253284)&rbrack;
 
 Discussion of the problem of [[quantization of Yang-Mills theory]] from the point of view of constructive field theory:
 
-* Sourav Chatterjee, _Yang-Mills for probabilists_ ([arXiv:1803.01950](https://arxiv.org/abs/1803.01950))
+* Sourav Chatterjee, _Yang-Mills for probabilists_ &lbrack;[arXiv:1803.01950](https://arxiv.org/abs/1803.01950)&rbrack;
 
 See also:
 
