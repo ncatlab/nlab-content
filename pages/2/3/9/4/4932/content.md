@@ -15,7 +15,6 @@ Introducing [[link groups]]:
 
 * {#Milnor64} [[John Milnor]]: *Link groups*, Ann. of Math. **2** 59 (1954) 177-195 &lbrack;[doi:10.2307/1969685](https://doi.org/10.2307/1969685), [jstor:1969685](https://www.jstor.org/stable/1969685), [MR](http://www.ams.org/mathscinet-getitem?mr=71020)&rbrack;
 
-
 On [[universal principal bundles]] via the *[[Milnor construction]]*:
 
 * [[John Milnor]], *Construction of Universal Bundles I*, Ann. of Math. __63__ 2 (1956) 272-284 &lbrack;[jstor:1969609](http://www.jstor.org/stable/1969609)&rbrack;
@@ -77,6 +76,13 @@ On [[characteristic classes]]:
 On [[invariant Riemannian metrics]] on ([[compact Lie group|compact]]) [[Lie groups]]:
 
 * {#Milnor76} [[John Milnor]], _Curvatures of left invariant metrics on Lie groups_, Advances in Mathematics, Volume 21, Issue 3, September 1976, Pages 293-329 (<a href="https://doi.org/10.1016/S0001-8708(76)80002-3">doi:10.1016/S0001-8708(76)80002-3</a>)
+
+
+On [[infinite-dimensional Lie groups]]:
+
+* [[John Milnor]]: *Remarks on infinite-dimensional Lie Groupds*, in: *Relativity, Groups, and Topology II*, Proceedings of Les Houches Session XL (1983) 1007-1058 &lbrack;[[Milnor-InfDimLieGroups.pdf:file]], [inSpire:217235](https://inspirehep.net/literature/217235)&rbrack;
+
+
 
 ## Related entries
 
