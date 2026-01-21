@@ -31,11 +31,19 @@ On quasi-[[phenomenology|realistic]] "flipped" [[SU(5)|$SU(5)$]]-[[GUT]],  model
 
 * [[Ignatios Antoniadis]], [[John Ellis]], [[John S. Hagelin]], [[Dimitri Nanopoulos]], *The flipped $SU(5) \times U(1)$ string model revamped*, Physics Letters B **231** 1–2 (1989) 65-74 &lbrack;<a href="https://doi.org/10.1016/0370-2693(89)90115-9">doi:10.1016/0370-2693(89)90115-9</a>&rbrack;
 
+The original suggestion that the lightest [[supersymmetry|supersymmetric]] [[particle]] (LSP) would be a natural [[dark matter]] candidate:
+
+* {#EHNOS84} [[John Ellis]],  [[John S. Hagelin]], [[Dimitri V. Nanopoulos]], [[Keith Olive]], [[Mark Srednicki]]: _Supersymmetric relics from the Big Bang_, Nuclear Physics B **238** 2 (1984) 453-476 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90461-9">doi:10.1016/0550-3213(84)90461-9</a>, [spire:191839](http://inspirehep.net/record/191839)&rbrack;
+
+Review:
+
+* {#EllisOlive10} [[John Ellis]], [[Keith Olive]]: _Supersymmetric Dark Matter Candidates_, chapter 8 of: *Particle Dark Matter -- Observations, Models and Searches*, Cambridge University Press (2010) 142 - 163 &lbrack;[arXiv:1001.3651](http://arxiv.org/abs/1001.3651), [doi:10.1017/CBO9780511770739.009](https://doi.org/10.1017/CBO9780511770739.009)&rbrack;
+
 
 
 On the [[Starobinsky model of cosmic inflation]] 
 
-* {#Ellis13} [[John Ellis]], _Planck-Compatible Inflationary Models_, talk 2013 ([pptx](http://londoncosmology.files.wordpress.com/2013/09/lcdm.pptx))
+* {#Ellis13} [[John Ellis]], _Planck-Compatible Inflationary Models_, talk (2013) &lbrack;[pptx](http://londoncosmology.files.wordpress.com/2013/09/lcdm.pptx)&rbrack;
 
 and its embedding in [[supergravity]]:
 
