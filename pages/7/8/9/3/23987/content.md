@@ -736,7 +736,15 @@ on [[quantum information]], [[quantum material|quantum matter]]
 
   > [5] D. Vodola et al., Fundamental thresholds of realistic quantum error correction circuits from classical spin models, Quantum 6, 618 (2022)
 
+\linebreak
 
+* {#BalramMay2023} [[Ajit C. Balram]] (IMSc Chennai): 
+
+  **FQHE in the LLL Parton mode SUSY at $\nu = 5/2$ High-energy collective modes in fractional quantum Hall liquids: Rise of the parton** 
+
+  slides: [pdf](https://nyuad.nyu.edu/content/dam/nyuad/research/centers-labs-projects/center-for-quantum-and-topological-systems-/events-conferences/quantum-matter-info-conference-2023/ACB_talk.pdf), [[Balram-CQTS2023.pdf:file]] 
+
+  > (cf. [Supersymmetry in FQH systems](quantum+Hall+effect#ReferencesSupersymmetryInFractionalQuantumHall))
 
 \linebreak
 
@@ -2148,9 +2156,9 @@ $\phantom{-----------}$Tuesday, May 20
 
 ### May 2026
 
-* May 2026
+* {#QIQM2026} 20-23 May 2026
 
-  **Qunantum Matter 2026**
+  **Quantum Information and Quantum Matter 2026**
 
   New York University Abu Dhabi
 
