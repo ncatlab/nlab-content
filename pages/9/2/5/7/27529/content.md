@@ -12,4 +12,6 @@ On [[D=4 supergravity]] in [[BV-formalism]]:
 
 * [[Alberto S. Cattaneo]], [[Filippo Fila-Robattino]]: *BV description of $N=1$, $D=4$ Supergravity in the first order formalism* &lbrack;[arXiv:2503.07373](https://arxiv.org/abs/2503.07373)&rbrack;
 
+* [[Alberto S. Cattaneo]], [[Filippo Fila-Robattino]]: *The Reduced Phase Space of $N=1$, $D=4$ Supergravity in the BV-BFV formalism* &lbrack;[arXiv:2601.13025](https://arxiv.org/abs/2601.13025)&rbrack;
+
 category: people
