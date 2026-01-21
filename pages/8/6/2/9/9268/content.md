@@ -48,6 +48,8 @@ If the underlying type of manifolds is [[Banach manifold]], then one speaks of _
 * [[Vladimir Arnold]]: *Sur la géométrie différentielle des groupes de Lie de dimension infinie et ses applications à l'hydrodynamique des fluides parfaits*, Annales de l'Institut Fourier **16** 1 (1966) 319--361 \[<a href="https://www.numdam.org/item/AIF_1966__16_1_319_0/">numdam:AIF_1966__16_1_319_0/</a>\]
  > (application to [[hydrodynamics]])
 
+* [[John Milnor]]: *Remarks on infinite-dimensional Lie Groupds*, in: *Relativity, Groups, and Topology II*, Proceedings of Les Houches Session XL (1983) 1007-1058 &lbrack;[[Milnor-InfDimLieGroups.pdf:file]], [inSpire:217235](https://inspirehep.net/literature/217235)&rbrack;
+
 * [[Andreas Kriegl]], [[Peter Michor]], _Regular infinite dimensional Lie groups_, Journal of Lie Theory Volume 7 (1997) 61-99 &lbrack;[pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PDF)&rbrack;
 
 * [[Karl-Hermann Neeb]]: _Monastir summer school: Infinite-dimensional Lie groups_ (2005) &lbrack;[pdf](http://www.math.uni-hamburg.de/home/wockel/data/monastir.pdf), [[Neeb_MonastirLieGroups.pdf:file]]&rbrack;
