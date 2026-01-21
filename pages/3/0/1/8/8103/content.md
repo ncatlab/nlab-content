@@ -8,6 +8,13 @@ On Jackiw's work on [[Chern-Simons theory]]:
 
 ## Selected writings
 
+Introducing [[Maxwell-Chern-Simons theory]]:
+
+* [[Stanley Deser]], [[Roman Jackiw]], S. Templeton: *Three-Dimensional Massive Gauge Theories*, Phys. Rev. Lett. **48** (1982) 975 \[<a href="https://doi.org/10.1103/PhysRevLett.48.975">doi:10.1103/PhysRevLett.48.975</a>\]
+
+* [[Stanley Deser]], [[Roman Jackiw]] S. Templeton: *Topologically massive gauge theories* Annals of Physics **140** 2 (1982) 372-411 \[<a href="https://doi.org/10.1016/0003-4916(82)90164-6">doi:10.1016/0003-4916(82)90164-6</a>\]
+
+
 On [[3d gravity]] as a [[Chern-Simons theory]] and its [[holography|holographic]] relation to a [[2d CFT]] [[boundary field theory]] (well before [[AdS/CFT]] was conceived from [[string theory]]):
 
 * [[Stanley Deser]], [[Roman Jackiw]], [[Gerard 't Hooft]], _Three-dimensional Einstein gravity: Dynamics of flat space_, Ann. Phys. 152 (1984) 220 (<a href="https://doi.org/10.1016/0003-4916(84)90085-X">doi:10.1016/0003-4916(84)90085-X</a>)
