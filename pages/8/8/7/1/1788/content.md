@@ -7,6 +7,9 @@
 
 ***
 
+* [[Ajit C. Balram]] (IMSc Chennai): *FQHE in the LLL Parton mode SUSY at $\nu = 5/2$ High-energy collective modes in fractional quantum Hall liquids: Rise of the parton* &lbrack;[pdf](https://nyuad.nyu.edu/content/dam/nyuad/research/centers-labs-projects/center-for-quantum-and-topological-systems-/events-conferences/quantum-matter-info-conference-2023/ACB_talk.pdf), [[Balram-CQTS2023.pdf:file]]&rbrack;
+
+
 On [[general relativity]], [[group theory]] and [[topology]]:
 
 * [[Bryce S. DeWitt]], [[Raymond Stora]]: *Relativity, Groups, and Topology II*, Proceedings of Les Houches Session XL (1983) &lbrack;[inSpire](https://inspirehep.net/literature/217235)&rbrack;
