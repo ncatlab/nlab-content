@@ -384,7 +384,7 @@ Discussion of coupling to [[fermion]] [[field (physics)|fields]] hence of *Maxwe
 
 * Kei-Ichi Kondo: *First and Second Order Phase Transitions in Maxwell--Chern-Simons Theory Coupled to Fermions*, Int. J. Mod. Phys. A **11** (1996) 777-822 &lbrack;[arXiv:hep-ph/9509345](https://arxiv.org/abs/hep-ph/9509345), [doi:10.1142/S0217751X96000365](https://doi.org/10.1142/S0217751X96000365)&rbrack;
 
-On the [[quantum states]] of (tacitly) 3D MCSD theory as [[sections]] of [[determinant line bundles]] [[linear representation|representing]] [[area-preserving diffeomorphisms]]:
+On the [[quantum states]] of (tacitly) 3D MCSD theory as [[sections]] of [[determinant line bundles]] [[linear representation|representing]] [[area-preserving diffeomorphisms]], via methods of [[constructive field theory]]:
 
 * {#Pickrell2000} [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
 
