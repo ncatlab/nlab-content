@@ -1,4 +1,6 @@
 
+Arthur Strong Wightman (1922-2013)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Arthur_Wightman)
 
 * [a biography at princeton.edu](https://www.princeton.edu/physics/arthur-wightman)
@@ -8,6 +10,10 @@
 Introducing the notion of [[superselection sectors]] in [[quantum field theory]] (in a context similar to the [[Wigner classification]] of [[fundamental particles]]):
 
 * {#WickWignerWightman52} [[Gian-Carlo Wick]], [[Eugene Wigner]], [[Arthur Wightman]]: *The intrinsic parity of elementary particles*, Phys. Rev. **88** (1952) 101-105 &lbrack;[doi;10.1103/PhysRev.88.101](https://doi.org/10.1103/PhysRev.88.101), [pdf](http://dieumsnh.qfb.umich.mx/archivoshistoricosmq/ModernaHist/Wick.pdf)&rbrack;
+
+On [[constructive quantum field theory]]:
+
+* [[Arthur S. Wightman]]: *Constructive Field Theory Introduction to the Problems*, in: *Fundamental Interactions in Physics and Astrophysics*, Studies in the Natural Sciences **3**Springer (1973) &lbrack;[doi:10.1007/978-1-4613-4586-2_1](https://doi.org/10.1007/978-1-4613-4586-2_1)&rbrack; 
 
 
 On [[non-perturbative quantum field theory|non-perturbative]]/[[AQFT|algebraic]] [[quantum field theory]] and its key [[theorems]] ([[spin-statistics theorem]], [[PCT theorem]], ...):
