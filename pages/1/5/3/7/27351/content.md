@@ -1031,7 +1031,16 @@ In relation to the [[dilogarithm]]:
 
 On unoriented manifolds:
 
-* Ippo Orii: *On dimensions of $(2+1)D$ abelian bosonic topological systems on unoriented manifolds* &lbrack;[arXiv:2502.13532](https://arxiv.org/abs/2502.13532)&rbrack;
+* Ippo Orii: *On dimensions of $(2+1)D$ abelian bosonic topological systems on unoriented manifolds*, Prog. Theor. Exp. Phys. **2025** (2025) 053B017 &lbrack;[arXiv:2502.13532](https://arxiv.org/abs/2502.13532), [doi:10.1093/ptep/ptaf056](https://doi.org/10.1093/ptep/ptaf056)&rbrack;
+
+* Ippo Orii: *Generalization of anomaly formula for time reversal symmetry in $(2+1)$D abelian bosonic TQFTs*, Prog. Theor. Exp. Phys. **2025** 123B02 (2025) &lbrack;[arXiv:2508.04990](https://arxiv.org/abs/2508.04990), 
+[doi:10.1093/ptep/ptaf155](https://doi.org/10.1093/ptep/ptaf155)&rbrack;
+
+* Ippo Orii: *Vanishing of the H^3 obstruction for time-reversal symmetry in (2+1)D abelian bosonic TQFTs* &lbrack;[arXiv:2509.07368](https://arxiv.org/abs/2509.07368)&rbrack;
+
+
+
+
 
 Coupled to a [[Higgs field]]:
 
