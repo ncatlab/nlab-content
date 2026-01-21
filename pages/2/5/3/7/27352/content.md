@@ -28,7 +28,7 @@ and was made more explicit in:
 
 * [[A. P. Balachandran]], A. M. Srivastava: *Chern-Simons Dynamics and the Quantum Hall Effect* \[<a href="https://arxiv.org/abs/hep-th/9111006">arXiv:hep-th/9111006</a>, [spire:319826](https://inspirehep.net/literature/319826)\]
 
-* Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>, [pdf](http://home.ustc.edu.cn/~gengb/200923/Fradkin,%20Field%20Theories%20of%20Condensed%20Matter%20Physics.pdf)\]
+* Ana Lopez, [[Eduardo Fradkin]]: *Fractional quantum Hall effect and Chern-Simons gauge theories*, Phys. Rev. B **44** (1991) 5246 \[<a href="https://doi.org/10.1103/PhysRevB.44.5246">doi:10.1103/PhysRevB.44.5246</a>\]
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Topological structures, universality classes, and statistics screening in the anyon superfluid*, Phys. Rev. B **44** (1991) 274 \[<a href="https://doi.org/10.1103/PhysRevB.44.274">doi:10.1103/PhysRevB.44.274</a>\]
 
@@ -68,7 +68,7 @@ Further review and exposition:
 
 * [[Yuan-Ming Lu]], [[Ashvin Vishwanath]], part II of: *Theory and classification of interacting integer topological phases in two dimensions: A Chern-Simons approach*, Phys. Rev. B **86** (2012) 125119, Erratum Phys. Rev. B **89** (2014) 199903 \[<a href="https://doi.org/10.1103/PhysRevB.86.125119">doi:10.1103/PhysRevB.86.125119</a>, [arXiv:1205.3156](https://arxiv.org/abs/1205.3156)\]
 
-* {#Fradkin13} [[Eduardo Fradkin]], chapter 13.7 of: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
+* {#Fradkin13} [[Eduardo Fradkin]], chapter 13.7 of: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509, [pdf](http://home.ustc.edu.cn/~gengb/200923/Fradkin,%20Field%20Theories%20of%20Condensed%20Matter%20Physics.pdf)\]
 
 
 * {#Witten16} [[Edward Witten]], pp 30 in: *Three Lectures On Topological Phases Of Matter*, La Rivista del Nuovo Cimento **39** (2016) 313-370 \[<a href="https://doi.org/10.1393/ncr/i2016-10125-3">doi:10.1393/ncr/i2016-10125-3</a>, [arXiv:1510.07698](https://arxiv.org/abs/1510.07698)\]
