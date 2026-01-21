@@ -268,6 +268,9 @@ See also:
 
 * James P. Vary, Chandan Mondal, Siqi Xu, Xingbo Zhao, Yang Li: *Nucleon Structure from Basis Light-Front Quantization : Status and Prospects* &lbrack;[arXiv:2512.08283](https://arxiv.org/abs/2512.08283)&rbrack;
 
+* Wayne de Paula, Tobias Frederico: *Minkowski Space Dynamics and Light-Front Projection* &lbrack;[arXiv:2601.11760](https://arxiv.org/abs/2601.11760)&rbrack;
+
+
 
 
 
