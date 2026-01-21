@@ -321,7 +321,7 @@ Further textbook accounts:
 
 * G. Johnson, M. Lapidus, _The Feynman integral and Feynman's operational calculus_, Oxford University Press (2000)
 
-* [[Barry Simon]], _Functional integration and quantum physics_ AMS Chelsea Publ. (2005)
+* [[Barry Simon]]: *Functional integration and quantum physics*, AMS Chelsea Publishing **351**, AMS (2005) &lbrack;[ISBN:978-0-8218-3582-1](https://bookstore.ams.org/chel-351-h), [pdf](http://inis.jinr.ru/sl/vol2/Mathematics/%CC%E0%F2.%F4%E8%E7%E8%EA%E0/Simon%20B.,%20Functional%20Inegration%20&%20Quantum%20Physics,%201979,%201p.pdf)&rbrack;
 
 * [[Pierre Cartier]], [[Cécile DeWitt-Morette]], _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics (2006) &lbrack;[ISBN:9780521143578](https://www.cambridge.org/ae/academic/subjects/physics/theoretical-physics-and-mathematical-physics/functional-integration-action-and-symmetries?format=PB#contentsTabAnchor)&rbrack;
 
