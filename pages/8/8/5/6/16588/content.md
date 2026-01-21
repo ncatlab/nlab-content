@@ -1,8 +1,18 @@
 
+* [institute page](https://artsci.tamu.edu/physics-astronomy/contact/profiles/dimitri-nanopoulos.html)
 
-* [webpage](http://people.physics.tamu.edu/dimitri/)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Dimitri_Nanopoulos)
+
+* [Grokipedia page](https://grokipedia.com/page/dimitri_nanopoulos)
+
+* [inSpire page](https://inspirehep.net/authors/996091)
 
 ## Selected writings
+
+The original suggestion that the lightest [[supersymmetry|supersymmetric]] [[particle]] (LSP) would be a natural [[dark matter]] candidate:
+
+* {#EHNOS84} [[John Ellis]],  [[John S. Hagelin]], [[Dimitri V. Nanopoulos]], [[Keith Olive]], [[Mark Srednicki]]: _Supersymmetric relics from the Big Bang_, Nuclear Physics B **238** 2 (1984) 453-476 &lbrack;<a href="https://doi.org/10.1016/0550-3213(84)90461-9">doi:10.1016/0550-3213(84)90461-9</a>, [spire:191839](http://inspirehep.net/record/191839)&rbrack;
+
 
 On realistic [[Yukawa couplings]] and [[fermion]] [[masses]] in an [[MSSM]] [[Pati-Salam GUT model]] with 3 [[generations of fermions]] realized on [[intersecting D-brane model|intersecting]] [[D6-branes]] [[KK-compactification|KK-compactified]] on a [[toroidal orbifold]] $T^6\sslash (\mathbb{Z}_2 \times \mathbb{Z}_2)$ are claimed in
 
@@ -31,3 +41,5 @@ On the [[Starobinsky model of cosmic inflation]] and its embedding into [[superg
 * [[Starobinsky model of cosmic inflation]]
 
 category: people
+
+[[!redirects Dimitri V. Nanopoulos]]
