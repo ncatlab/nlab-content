@@ -80,7 +80,7 @@ On [[invariant Riemannian metrics]] on ([[compact Lie group|compact]]) [[Lie gro
 
 On [[infinite-dimensional Lie groups]]:
 
-* [[John Milnor]]: *Remarks on infinite-dimensional Lie Groupds*, in: *Relativity, Groups, and Topology II*, Proceedings of Les Houches Session XL (1983) 1007-1058 &lbrack;[[Milnor-InfDimLieGroups.pdf:file]], [inSpire:217235](https://inspirehep.net/literature/217235)&rbrack;
+* [[John Milnor]]: *Remarks on infinite-dimensional Lie Groups*, in: *Relativity, Groups, and Topology II*, Proceedings of Les Houches Session XL (1983) 1007-1058 &lbrack;[[Milnor-InfDimLieGroups.pdf:file]], [inSpire:217235](https://inspirehep.net/literature/217235)&rbrack;
 
 
 
