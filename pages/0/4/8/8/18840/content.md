@@ -14,9 +14,8 @@
 =--
 =--
 
-# Contents
-* table of contents
-{: toc}
+
+\tableofcontents
 
 ## Idea
 
@@ -213,7 +212,7 @@ The axiomatization of [[probability theory]] in terms of the concept of [[expect
 
 * [vonNeumann 1932, §IV.1](#vonNeumann32)
 
-*  {#Segal65} [[Irving Segal]], _Algebraic integration theory_, Bull. Amer. Math. Soc. Volume 71, Number 3, Part 1 (1965), 419-489 ([eculid:1183526903](https://projecteuclid.org/euclid.bams/1183526903))
+* {#Segal65} [[Irving Segal]]: _Algebraic integration theory_ Part 1, Bull. Amer. Math. Soc. **71** 3 (1965) 419-489 &lbrack;[euclid:1183526903](https://projecteuclid.org/euclid.bams/1183526903)&rbrack;
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992 ([doi:10.1007/978-1-4612-0509-8](https://link.springer.com/book/10.1007/978-1-4612-0509-8))
 
