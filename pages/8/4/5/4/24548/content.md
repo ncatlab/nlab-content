@@ -16,8 +16,9 @@ exposition:
 
 * [[Qi Zhu]], *Fractured structure on condensed spaces*, talk notes (2023) &lbrack;[pdf](https://1429cecd-24a0-4223-8b7c-1ebf47aa12e2.filesusr.com/ugd/8e912a_8d2a90176ed14969a877e77ec1b787da.pdf), [[QiZhuFracturedCondensed.pdf:file]]&rbrack;
 
+On [[Thom spectra]] and real orientations:
 
-
+* Ryan Quinn, [[Qi Zhu]], *Multiplicative Equivariant Thom Spectra & Structured Real Orientations* (2025) &lbrack;[arXiv:1808.08073](https://arxiv.org/abs/1808.08073)&rbrack;
 
 
 
