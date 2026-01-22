@@ -2,10 +2,10 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+###Context###
+#### Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
@@ -86,7 +86,7 @@ Discussion for [[D=3 Yang-Mills theory]]:
 
 Review:
 
-* [[V. Parmeswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, ][arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
+* [[V. Parmeswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, [arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
 
 
 
