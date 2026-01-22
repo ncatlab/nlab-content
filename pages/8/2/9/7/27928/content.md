@@ -310,6 +310,8 @@ Finally, the first equation of motion (eq:EoMof5dMCS) says that the component fo
 
 * [[Chern-Simons theory]], [[abelian Chern-Simons theory]]
 
+* [[D=3 Yang-Mills theory]]
+
 * [[Einstein-Maxwell theory]]
 
 * [[Einstein-Yang-Mills theory]]
