@@ -86,6 +86,8 @@ Given an $m\in\mathbb{Z}$, the corresponding [[principal bundle]] is given by [[
 
 * [[D=2 QCD]]
 
+* [[D=3 Yang-Mills theory]]
+
 * [[D=4 Yang-Mills theory]]
 
 * [[D=5 Yang-Mills theory]]
