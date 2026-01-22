@@ -15,7 +15,6 @@ For [[U(1)]]-[[gauge group]] this reduces to [[D=5 Maxwell theory]]. Under [[KK-
 ### Hadrons as KK-modes of 5d Yang-Mills theory
  {#HadronsAsKKModesOf5dYangMillsTheoryReferences}
 
-
 On [[Skyrmions]] in 4d as [[AdS/QCD|holographic]]/[[KK reduction|KK-theoretic]] reduction of [[instantons]] in [[D=5 Yang-Mills theory]]:
 
 * {#AtiyahManton89} [[Michael Atiyah]], [[Nicholas Manton]], _Skyrmions from instantons_, Phys.  Lett.  B, 222(3):438–442, 1989 (<a href="https://doi.org/10.1016/0370-2693(89)90340-7">doi:10.1016/0370-2693(89)90340-7</a>)
@@ -48,6 +47,8 @@ This way, via the equivalence between [[D4-D8-brane intersections]] with [[insta
 ## Related concepts
 
 * [[D=2 Yang-Mills theory]]
+
+* [[D=3 Yang-Mills theory]]
 
 * [[D=4 Yang-Mills theory]]
 
