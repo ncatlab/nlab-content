@@ -1,6 +1,6 @@
-I am a PhD student at the Max-Planck Institute for Mathematics in Bonn under the supervision of Markus Hausmann. Previously, I've studied at the University of Bonn, the University of Minnesota and the Technical University of Munich.
+I am a PhD student at the Max-Planck Institute for Mathematics in Bonn under the supervision of [[Markus Hausmann]]. Previously, I've studied at the University of Bonn, the University of Minnesota and the Technical University of Munich.
 
-My research interests include higher category theory and equivariant stable homotopy theory. 
+My research interests include [[higher category theory]] and [[equivariant stable homotopy theory]]. 
 
 Pursuing ([[higher category theory|higher]]) [[category theory]] and [[homotopy theory]].
 
