@@ -34,7 +34,7 @@ In the context of [[jet bundles]] and [[partial differential equations]]:
 
 and further in the context of [[variational calculus]] and [[Lagrangian field theory]]:
 
-* [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Field Theory via Higher Geometry II: Thickened Smooth Sets as Synthetic Foundations* &lbrack;[arXiv:2512.22816](https://arxiv.org/abs/2512.22816)&rbrack;
+* {#GiotopoulosSati2026} [[Grigorios Giotopoulos]], [[Hisham Sati]]: *Field Theory via Higher Geometry II: Thickened Smooth Sets as Synthetic Foundations* &lbrack;[arXiv:2512.22816](https://arxiv.org/abs/2512.22816)&rbrack;
 
 
 
