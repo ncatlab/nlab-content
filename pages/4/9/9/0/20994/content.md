@@ -31,7 +31,10 @@ The special case of [[super Yang-Mills theory]] in [[dimension]] 3 and [[number 
 
 * [[3d-3d correspondence]]
 
+
 ## Related concept
+
+* [[D=3 Yang-Mills theory]]
 
 * [[3d superconformal gauge field theory]]
 
