@@ -66,6 +66,11 @@ On the phase diagram of [[quantum chromodynamics]]:
 
 * {#Schaefer05} [[Thomas Schaefer]], _Phases of QCD_ ([arXiv:hep-ph/0509068](https://arxiv.org/abs/hep-ph/0509068))
 
+Via [[holographic QCD]]:
+
+* Rong-Gen Cai, Song He, Li Li, Hong-An Zeng: *Neural Ordinary Differential Equations for Mapping the Magnetic QCD Phase Diagram via Holography* &lbrack;[arXiv:2406.12772](https://arxiv.org/abs/2406.12772)&rbrack;
+
+
 
 [[!redirects phases of matter]]
 
