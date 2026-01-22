@@ -18,11 +18,7 @@
 =--
 
 
-
-# Contents
-
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea
@@ -317,3 +313,5 @@ Introductory expositions of basic ideas of synthetic differential geometry are
 
 * [[Urs Schreiber]], _[[geometry of physics -- supergeometry]]_
 
+
+[[!redirects Synthetic Differential Geometry]]
