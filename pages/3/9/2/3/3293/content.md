@@ -314,3 +314,12 @@ Fr&#233;chet manifold structure on [[jet bundles]] is discussed in
 
 [[!redirects Frechet manifold]]
 [[!redirects Frechet manifolds]]
+
+[[!redirects Fréchet smooth manifold]]
+[[!redirects Fréchet smooth manifolds]]
+
+[[!redirects Frechet smooth manifold]]
+[[!redirects Frechet smooth manifolds]]
+
+
+
