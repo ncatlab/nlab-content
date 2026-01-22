@@ -29,6 +29,11 @@ On  higher [[arity]] [[algebraic structures]]:
 
 * [[Steven Duplij]], *Polyadic Algebraic Structures*, IOP (2022) &lbrack;[ISBN:978-0-7503-2646-9](https://iopscience.iop.org/book/978-0-7503-2648-3)&rbrack; 
 
+and correspondingly [[graded objects]]:
+
+* [[Steven Duplij]]: *Multiary gradings* &lbrack;[arXiv:2601.11738](https://arxiv.org/abs/2601.11738)&rbrack;
+
+
 On [[L-branes]]:
 
 * [[Steven Duplij]]: *L-Brane*, in: *Concise Encyclopedia of Supersymmetry*, Springer (2004) 225 &lbrack;[doi:10.1007/1-4020-4522-0_294](https://doi.org/10.1007/1-4020-4522-0_294), [[Duplij-LBrane.pdf:file]]&rbrack; 
