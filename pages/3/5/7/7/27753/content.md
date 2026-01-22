@@ -239,7 +239,7 @@ On [[anyons]] in FQAH systems:
 
 * Zhengyan Darius Shi, T. Senthil: *Anyon delocalization transitions out of a disordered FQAH insulator*, PNAS **122**  51 (2025) e2520608122 &lbrack;[arXiv:2506.02128](https://arxiv.org/abs/2506.02128), [doi:10.1073/pnas.2520608122](https://doi.org/10.1073/pnas.2520608122)&rbrack;
 
-* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQAH Anyons|Identifying Anyonic Topological Order in Fractional Quantum Anomalous Hall Systems]]*, Applied Physics Letters (2025) &lbrack;[arXiv:2507.00138](https://arxiv.org/abs/2507.00138)&rbrack;
+* [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:FQAH Anyons|Identifying Anyonic Topological Order in Fractional Quantum Anomalous Hall Systems]]*, Applied Physics Letters **128** 023101 (2026) &lbrack;[arXiv:2507.00138](https://arxiv.org/abs/2507.00138), [doi:10.1063/5.0305441](https://doi.org/10.1063/5.0305441)&rbrack;
 
 * Felix A. Palm, Nader Mostaan, Nathan Goldman, Fabian Grusdt: *Interferometric Braiding of Anyons in Chern insulators* &lbrack;[arXiv:2511.09445](https://arxiv.org/abs/2511.09445)&rbrack;
 
@@ -247,6 +247,9 @@ On [[anyons]] in FQAH systems:
 
 
 * [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Crystalline Chern Order|Fragile Topological Phases and Topological Order of 2D Crystalline Chern Insulators]]* &lbrack;[arXiv:2512.24709](https://arxiv.org/abs/2512.24709)&rbrack;
+
+* Tianhong Lu, Luiz H. Santos: *Exciton-Anyon Binding in Fractional Chern Insulators: Spectral Fingerprints* &lbrack;[arXiv:2601.14365](https://arxiv.org/abs/2601.14365)&rbrack;
+
 
 #### In view of TQC
 
