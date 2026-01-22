@@ -397,8 +397,14 @@ On jet bundles in [[noncommutative geometry]]:
 
 [[!redirects jet bundles]]
 
+[[!redirects infinite jet bundle]]
+[[!redirects infinite jet bundles]]
+
 [[!redirects jet]]
 [[!redirects jets]]
 
 [[!redirects jet type]]
 [[!redirects jet types]]
+
+
+
