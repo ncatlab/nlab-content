@@ -74,10 +74,17 @@ Given an $m\in\mathbb{Z}$, the corresponding [[principal bundle]] is given by [[
 ## Related concepts
 
 * [[D=2 Yang-Mills theory]]
+
+* [[D=3 Yang-Mills theory]]
+
 * [[D=5 Yang-Mills theory]]
+
 * [[D=4 N=1 super Yang-Mills theory]]
+
 * [[D=4 N=2 super Yang-Mills theory]]
+
 * [[D=4 N=4 super Yang-Mills theory]]
+
 * [[topologically twisted D=4 super Yang-Mills theory]]
 
 [[!redirects Four-dimensional Yang--Mills theory]]
