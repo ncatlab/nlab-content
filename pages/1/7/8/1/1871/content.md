@@ -94,9 +94,11 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 * [[Gauss law]]
 
-* [[D=5 Yang-Mills theory]]
-
 * [[D=2 Yang-Mills theory]]
+
+* [[D=3 Yang-Mills theory]]
+
+* [[D=5 Yang-Mills theory]]
 
 * [[massive Yang-Mills theory]]
 
