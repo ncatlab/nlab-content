@@ -98,6 +98,8 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 * [[D=3 Yang-Mills theory]]
 
+* [[D=4 Yang-Mills theory]]
+
 * [[D=5 Yang-Mills theory]]
 
 * [[massive Yang-Mills theory]]
