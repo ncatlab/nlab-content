@@ -53,7 +53,10 @@ via [[holographic QCD]]:
 
 for [[nucleons]]:
 
-* Kiminad A. Mamo, [[Ismail Zahed]],  _Nucleon mass radii and distribution: Holographic QCD, Lattice QCD and GlueX data_ ([arXiv:2103.03186](https://arxiv.org/abs/2103.03186))
+* Kiminad A. Mamo, [[Ismail Zahed]],  _Nucleon mass radii and distribution: Holographic QCD, Lattice QCD and GlueX data_ &lbrack;[arXiv:2103.03186](https://arxiv.org/abs/2103.03186)&rbrack;
+
+* Antti Hippeläinen, Niko Jokela, Matti Järvinen: *Gravitational form factors of the proton in the improved holographic QCD model* &lbrack;[arXiv:2601.14939](https://arxiv.org/abs/2601.14939)&rbrack;
+
 
 
 [[!redirects form factors]]
