@@ -334,11 +334,15 @@ Early discussion of 3D Maxwell-Chern-Simons theory:
 
 * [[A. P. Balachandran]], L. Chandar, E. Ercolessi, T. R. Govindarajan, [[Ramamurti Shankar]]: *Maxwell-Chern-Simons electrodynamics on a disk*, International Journal of Modern Physics A **09** 19 (1994) 3417-3441 &lbrack;[doi:10.1142/S0217751X94001357](https://doi.org/10.1142/S0217751X94001357)&rbrack;
 
-Textbook account in the context of [[effective field theory]] for [[FQH systems]]:
+In the context of [[effective field theory]] for [[FQH systems]] (cf. *[abelian Chern-Simons theory for FQH systems](abelian+Chern-Simons+theory#ReferencesAbCSForFQHE)*):
 
 * [[Eduardo Fradkin]]; around (11.41) in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
 
+* Josef Willsher; §2.3 of : *The Chern–Simons Action & Quantum Hall Effect: Effective Theory, Anomalies, and Dualities of a
+Topological Quantum Fluid*, PhD thesis, Imperial College London (2020) \[<a href="https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2020/Joseph-Willsher-Dissertation.pdf">pdf</a>, [[Willsher-CSFQH.pdf:file]]\]
+
 * [[Eduardo Fradkin]]; section 10 of: *Field Theoretic Aspects of Condensed Matter Physics: An Overview*, *Encyclopedia of Condensed Matter Physics (2nd ed.)* **1** (2024) 27-131 &lbrack;[doi:10.1016/B978-0-323-90800-9.00269-9](https://doi.org/10.1016/B978-0-323-90800-9.00269-9), [arXiv:2301.13234](https://arxiv.org/abs/2301.13234)&rbrack;
+
 
 In relation to [[area-preserving diffeomorphisms]]:
 
