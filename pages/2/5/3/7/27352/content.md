@@ -34,7 +34,6 @@ and was made more explicit in:
 
 * {#IengoLechner92} [[Roberto Iengo]], [[Kurt Lechner]]: *Anyon quantum mechanics and Chern-Simons theory*, Physics Reports **213** 4 (1992) 179-269 \[<a href="https://doi.org/10.1016/0370-1573(92)90039-3">doi:10.1016/0370-1573(92)90039-3</a>\]
 
-
 * {#WenZee92Classification} [[Xiao-Gang Wen]], [[Anthony Zee]]: *Classification of Abelian quantum Hall states and matrix formulation of topological fluids*, Phys. Rev. B **46** (1992) 2290 \[<a href="https://doi.org/10.1103/PhysRevB.46.2290">doi:10.1103/PhysRevB.46.2290</a>\]
 
 * [[Xiao-Gang Wen]], [[Anthony Zee]]: *Shift and spin vector: New topological quantum numbers for the Hall fluids*, Phys. Rev. Lett. **69** (1992) 953, Erratum Phys. Rev. Lett. **69** 3000 (1992) \[<a href="https://doi.org/10.1103/PhysRevLett.69.953">doi:10.1103/PhysRevLett.69.953</a>\]
@@ -62,6 +61,7 @@ Early review:
 
 * {#Wen95} [[Xiao-Gang Wen]]: *Topological orders and Edge excitations in FQH states*, Advances in Physics **44** 5 (1995) 405 \[<a href="https://doi.org/10.1080/00018739500101566">doi:10.1080/00018739500101566</a>, [arXiv:cond-mat/9506066](https://arxiv.org/abs/cond-mat/9506066)\]
 
+
 Further review and exposition:
 
 * {#Wen07} [[Xiao-Gang Wen]]: *Effective theory of fractional quantum Hall liquids*, section 7.3 of: *Quantum Field Theory of Many-Body Systems: From the Origin of Sound to an Origin of Light and Electrons*, Oxford Academic (2007)\[<a href="https://doi.org/10.1093/acprof:oso/9780199227259.001.0001">doi:10.1093/acprof:oso/9780199227259.001.0001</a>, [pdf](https://materias.df.uba.ar/cuanticaa2018c2/files/2012/07/wen_quantum_field_theory_of_many-body_systems_from_the_origin_of_sound_to_an_origin_of_light_and_electrons.pdf)\] 
@@ -70,13 +70,14 @@ Further review and exposition:
 
 * {#Fradkin13} [[Eduardo Fradkin]], chapter 13.7 of: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509, [pdf](http://home.ustc.edu.cn/~gengb/200923/Fradkin,%20Field%20Theories%20of%20Condensed%20Matter%20Physics.pdf)\]
 
-
 * {#Witten16} [[Edward Witten]], pp 30 in: *Three Lectures On Topological Phases Of Matter*, La Rivista del Nuovo Cimento **39** (2016) 313-370 \[<a href="https://doi.org/10.1393/ncr/i2016-10125-3">doi:10.1393/ncr/i2016-10125-3</a>, [arXiv:1510.07698](https://arxiv.org/abs/1510.07698)\]
 
 * {#Tong16} [[David Tong]] §5 of: *The Quantum Hall Effect*, lecture notes (2016) \[<a href="https://arxiv.org/abs/1606.06687">arXiv:1606.06687</a>, [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]\]
 
-* Josef Wilsher: *The Chern–Simons Action & Quantum Hall Effect: Effective Theory, Anomalies, and Dualities of a
-Topological Quantum Fluid*, PhD thesis, Imperial College London (2020) \[<a href="https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2020/Joseph-Willsher-Dissertation.pdf">pdf</a>\]
+* Josef Willsher; §2.3 of : *The Chern–Simons Action & Quantum Hall Effect: Effective Theory, Anomalies, and Dualities of a
+Topological Quantum Fluid*, PhD thesis, Imperial College London (2020) \[<a href="https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/theoretical-physics/msc/dissertations/2020/Joseph-Willsher-Dissertation.pdf">pdf</a>, [[Willsher-CSFQH.pdf:file]]\]
+
+* [[Eduardo Fradkin]]; section 10 of: *Field Theoretic Aspects of Condensed Matter Physics: An Overview*, *Encyclopedia of Condensed Matter Physics (2nd ed.)* **1** (2024) 27-131 &lbrack;<a href="https://doi.org/10.1016/B978-0-323-90800-9.00269-9">doi:10.1016/B978-0-323-90800-9.00269-9</a>, [arXiv:2301.13234](https://arxiv.org/abs/2301.13234)&rbrack;
 
 For discussion of the [[fractional quantum Hall effect]] via [[abelian Chern-Simons theory|abelian]] but *[[noncommutative  field theory|noncommutative]]* ([[matrix model]]-)[[Chern-Simons theory]]
 
@@ -123,12 +124,6 @@ Further developments:
 * T. H. Hansson, Rodrigo Arouca, Thomas Klein Kvorning: *On the relation between fractional charge and statistics* \[<a href="https://arxiv.org/abs/2412.15857">arXiv:2412.15857</a>\]
 
 * Paul Leask: *Anyon interactions in the Chern--Simons--Landau--Ginzburg model of the fractional quantum Hall effect* \[<a href="https://arxiv.org/abs/2510.04830">arXiv:2510.04830</a>\]
-
-
-
-
-
-
 
 
 
