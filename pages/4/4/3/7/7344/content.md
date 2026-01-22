@@ -46,7 +46,10 @@ See also the discussion at _[[symplectic duality]]_.
 
 A [[topological twist]] of [[D=3 N=4 super Yang-Mills theory]] is [[Rozansky-Witten theory]].
 
+
 ## Related concepts
+
+* [[D=3 Yang-Mills theory]]
 
 * [[3d superconformal gauge field theory]]
 
