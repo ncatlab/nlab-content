@@ -338,6 +338,8 @@ Textbook account in the context of [[effective field theory]] for [[FQH systems]
 
 * [[Eduardo Fradkin]]; around (11.41) in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
 
+* [[Eduardo Fradkin]]; section 10 of: *Field Theoretic Aspects of Condensed Matter Physics: An Overview*, *Encyclopedia of Condensed Matter Physics (2nd ed.)* **1** (2024) 27-131 &lbrack;[doi:10.1016/B978-0-323-90800-9.00269-9](https://doi.org/10.1016/B978-0-323-90800-9.00269-9), [arXiv:2301.13234](https://arxiv.org/abs/2301.13234)&rbrack;
+
 In relation to [[area-preserving diffeomorphisms]]:
 
 * Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
@@ -358,6 +360,13 @@ Review:
 * [[Gerald V. Dunne]]: section 2.2 in: *Aspects of Chern-Simons Theory*, in: *Topological aspects of low dimensional systems*, Les Houches -- École d'Été de Physique Théorique **69**, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1_3](https://doi.org/10.1007/3-540-46637-1_3), [arXiv:hep-th/9902115](https://arxiv.org/abs/hep-th/9902115)&rbrack;
 
 * S. I. Kruglov: *Maxwell–Chern–Simons Topologically Massive Gauge Fields in the First-Order Formalism*, Int J Theor Phys **51** (2012) 1–13 &lbrack;[doi:10.1007/s10773-011-0872-1](https://doi.org/10.1007/s10773-011-0872-1), [arXiv:1010.4728](https://arxiv.org/abs/1010.4728)&rbrack;
+
+On the [[quantum states]] of (tacitly) [[renormalization|renormalized]] 3D MCS theory [[linear representation|representing]] [[area-preserving diffeomorphisms]], via methods of [[constructive field theory]]:
+
+* {#Pickrell2000} [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
+
+* {#Pickrell2022} [[Doug Pickrell]]; §10 of: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
+
 
 
 With [[boundary field theory|boundaries]]:
@@ -399,11 +408,6 @@ Discussion of coupling to [[fermion]] [[field (physics)|fields]] hence of *Maxwe
   > (as [[effective field theory]] for [[FQH systems]] at even denominator filling fractions)
 
 
-On the [[quantum states]] of (tacitly) 3D MCSD theory as [[sections]] of [[determinant line bundles]] [[linear representation|representing]] [[area-preserving diffeomorphisms]], via methods of [[constructive field theory]]:
-
-* {#Pickrell2000} [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
-
-* {#Pickrell2022} [[Doug Pickrell]]; §10 of: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
 
 
 As an [[effective field theory|effective]] description of [[superconductivity]]:
