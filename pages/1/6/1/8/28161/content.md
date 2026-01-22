@@ -28,7 +28,7 @@ And coupling to [[Chern-Simons theory]] (cf. also *[[Maxwell-Chern-Simons theory
 
 Review:
 
-* [[V. Parmeswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, ][arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
+* [[V. Parmeswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, [arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
 
 
 category: people
