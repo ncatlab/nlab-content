@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the broad sense of the word _constructive quantum field theory_ refers to the mathematically rigorous construction of full (i.e. [[non-perturbative quantum field theory|non-perturbative]]) [[quantum field theories]]. More specifically the term has come to be used mainly for attempts to rigorously construct [[path integral]] [[measures]] for [[Wick rotation|Wick rotated]] Euclidean field theories on [[Minkowski spacetime]] ([Jaffe](#Jaffe)). This approach has led to a construction of [[scalar field theory]] in spacetime dimension 3, and [[Yang-Mills theory]] in 3 dimensions.
+In the broad sense of the term, _constructive quantum field theory_ refers to the mathematically rigorous construction of full (i.e. [[non-perturbative quantum field theory|non-perturbative]]) [[quantum field theories]]. More specifically the term has come to be used mainly for attempts to rigorously construct [[path integral]] [[measures]] for [[Wick rotation|Wick rotated]] Euclidean field theories on [[Minkowski spacetime]] ([Jaffe](#Jaffe)). This approach has led to a construction of [[scalar field theory]] in spacetime dimension 3, and [[Yang-Mills theory]] in 3 dimensions.
 
 While a mathematically rigorous construction of [[perturbative quantum field theory]] is given by [[causal perturbation theory]]/[[perturbative AQFT]], construction of [[non-perturbative quantum field theories]] has remained by and large elusive, except for toy example of [[free field theories]] or low [[spacetime]] [[dimension]] (e.g. [[2d CFTs]] or [[scalar field theory]] in 3d) or [[topological quantum field theories]]. In fact the non-perturbative [[quantization of Yang-Mills theory]]([[QCD]]) in 4d is listed as one of the open "Millennium Problems" by the Clay Mathematics Institute (see [here](mass+gap#ReferencesMassGapProblem)).
 
@@ -80,9 +80,9 @@ Discussion for [[D=3 Yang-Mills theory]]:
 
 * [[Dimitra Karabali]], [[V. Parmeswaran Nair]]: *On the origin of the mass gap for non-Abelian gauge theories in (2+1) dimensions*, Phys.Lett. B **379** (1996) 141-147 \[<a href="https://doi.org/10.1016/0370-2693(96)00422-4">doi:10.1016/0370-2693(96)00422-4</a>, [arXiv:hep-th/9602155](https://arxiv.org/abs/hep-th/9602155)\]
 
-* [[Dimitra Karabali]], [[Chanju Kim]], [[V. Parmeswaran Nair]]: *Planar Yang-Mills theory: Hamiltonian, regulators and mass gap*, Nucl. Phys. B **524** (1998) 661-694 \[<a href="https://doi.org/10.1016/S0550-3213(98)00309-5">doi:10.1016/S0550-3213(98)00309-5</a>, [arXiv:hep-th/9705087](https://arxiv.org/abs/)\]
+* [[Dimitra Karabali]], Chanju Kim, [[V. Parmeswaran Nair]]: *Planar Yang-Mills theory: Hamiltonian, regulators and mass gap*, Nucl. Phys. B **524** (1998) 661-694 \[<a href="https://doi.org/10.1016/S0550-3213(98)00309-5">doi:10.1016/S0550-3213(98)00309-5</a>, [arXiv:hep-th/9705087](https://arxiv.org/abs/)\]
 
-* [[Dimitra Karabali]], [[Chanju Kim]], [[V. Parmeswaran Nair]]: *On the vacuum wavefunction and string tension of Yang-Mills theories in (2+1) dimensions*, Phys. Lett. B **434** (1998) 103-109 \[<a href="https://doi.org/10.1016/S0370-2693(98)00751-5">doi:10.1016/S0370-2693(98)00751-5</a>, ][arXiv:hep-th/9804132](https://arxiv.org/abs/hep-th/9804132)\]
+* [[Dimitra Karabali]], Chanju Kim, [[V. Parmeswaran Nair]]: *On the vacuum wavefunction and string tension of Yang-Mills theories in (2+1) dimensions*, Phys. Lett. B **434** (1998) 103-109 \[<a href="https://doi.org/10.1016/S0370-2693(98)00751-5">doi:10.1016/S0370-2693(98)00751-5</a>, ][arXiv:hep-th/9804132](https://arxiv.org/abs/hep-th/9804132)\]
 
 Review:
 
