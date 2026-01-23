@@ -336,6 +336,11 @@ Early discussion of 3D Maxwell-Chern-Simons theory:
 
 * [[A. P. Balachandran]], L. Chandar, E. Ercolessi, T. R. Govindarajan, [[Ramamurti Shankar]]: *Maxwell-Chern-Simons electrodynamics on a disk*, International Journal of Modern Physics A **09** 19 (1994) 3417-3441 &lbrack;[doi:10.1142/S0217751X94001357](https://doi.org/10.1142/S0217751X94001357)&rbrack;
 
+Review: 
+
+* [[Gregory Moore]]: §2.2.3 in: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
+
+
 In the context of [[effective field theory]] for [[FQH systems]] (cf. *[abelian Chern-Simons theory for FQH systems](abelian+Chern-Simons+theory#ReferencesAbCSForFQHE)*):
 
 * [[Eduardo Fradkin]]; around (11.41) in: *Field Theories of Condensed Matter Physics*, Cambridge University Press (2013) \[<a href="https://doi.org/10.1017/CBO9781139015509">doi:10.1017/CBO9781139015509</a>, ISBN:9781139015509\]
@@ -403,12 +408,13 @@ Discussion of coupling to [[fermion]] [[field (physics)|fields]] hence of *Maxwe
 
 * {#HallerLim1992} [[Kurt Haller]], Edwin Lim-Lombridas: *Canonical quantization of $(2+1)$-dimensional QED with a topological mass term*, Phys. Rev. D **46** (1992) 1737 &lbrack;[doi:10.1103/PhysRevD.46.1737](https://doi.org/10.1103/PhysRevD.46.1737)&rbrack;
 
-* Yutaka Hosotani: *Spontaneous Breakdown of the Lorentz Invariance*, Phys. Rev. D **51** (1995) 2022-2025 \[<a href="https://doi.org/10.1103/PhysRevD.51.2022">doi:10.1103/PhysRevD.51.2022</a>, [arXiv:hep-th/9402096](https://arxiv.org/abs/hep-th/9402096)\]
-
-
 * Denne Wesolowski, Yutaka Hosotani, Sumantra Chakravarty: *The Energy Density in the Maxwell-Chern-Simons Theory*, Phys. Rev. D **50** (1994) 7624-7637 \[<a href="https://doi.org/10.1103/PhysRevD.50.7624">doi:10.1103/PhysRevD.50.7624</a>, [arXiv:hep-th/9406169](https://arxiv.org/abs/hep-th/9406169)\]
 
+* Yutaka Hosotani: *Spontaneous Breakdown of the Lorentz Invariance*, Phys. Rev. D **51** (1995) 2022-2025 \[<a href="https://doi.org/10.1103/PhysRevD.51.2022">doi:10.1103/PhysRevD.51.2022</a>, [arXiv:hep-th/9402096](https://arxiv.org/abs/hep-th/9402096)\]
+
 * {#HallerLim1996} [[Kurt Haller]], Edwin Lim-Lombridas: *Maxwell-Chern-Simons Theory in Covariant and Coulomb Gauges* Annals of Physics **246** 1 (1996) 1-48 \[<a href="https://doi.org/10.1006/aphy.1996.0019">doi:10.1006/aphy.1996.0019</a>\]
+
+* [[Kurt Haller]], Edwin Lim-Lombridas: *Gauss's Law, Gauge-Invariant States, and Spin and Statistics In Abelian Chern-Simons Theories*, Int. J. Mod. Phys.A **12** (1997) 1053-1062 &lbrack;[doi:10.1142/S0217751X97000785](https://doi.org/10.1142/S0217751X97000785), [arXiv:hep-th/9610146](https://arxiv.org/abs/hep-th/9610146)&rbrack;
 
 * Kei-Ichi Kondo: *First and Second Order Phase Transitions in Maxwell--Chern-Simons Theory Coupled to Fermions*, Int. J. Mod. Phys. A **11** (1996) 777-822 &lbrack;[arXiv:hep-ph/9509345](https://arxiv.org/abs/hep-ph/9509345), [doi:10.1142/S0217751X96000365](https://doi.org/10.1142/S0217751X96000365)&rbrack;
 
