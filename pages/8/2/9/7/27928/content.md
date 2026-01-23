@@ -382,9 +382,12 @@ In view of [[electric-magnetic duality]] ("[[S-duality]]"):
 
 * Adi Armoni: *S-Dual of Maxwell Chern-Simons Theory*, Phys. Rev. Lett. **130** (2023) 141601 &lbrack;[doi:10.1103/PhysRevLett.130.141601](https://doi.org/10.1103/PhysRevLett.130.141601), [arXiv:2212.00513](https://arxiv.org/abs/2212.00513)&rbrack;
 
-On [[lattice gauge theory]]-simulations:
+The [[lattice gauge theory|lattice]] formulation:
 
 * Ze-An Xu, Jing-Yuan Chen: *Lattice Chern-Simons-Maxwell Theory and its Chirality*, JHEP 08 (2025) 062 \[<a href="https://doi.org/10.1007/JHEP08(2025)062">doi:10.1007/JHEP08(2025)062</a>, [arXiv:2410.11034](https://arxiv.org/abs/2410.11034)\]
+
+* Yo Ikeda: *A Lattice $U(1)$ Chern-Simons Theory via Lattice Deligne-Beilinson Cohomology* &lbrack;[arXiv:2601.15939](https://arxiv.org/abs/2601.15939)&rbrack;
+
 
 See also:
 
