@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
 
@@ -150,7 +149,7 @@ Tentative discussion of charged particles via [[classical mechanics]] (cf. *[[cl
 
 * [[P. A. M. Dirac]]: *Classical theory of radiating electrons*, Proc. A  **167** 929 (1938) 148–169 &lbrack;[doi:10.1098/rspa.1938.0124](https://doi.org/10.1098/rspa.1938.0124), [jstor:97128](https://www.jstor.org/stable/97128)&rbrack;
 
-and motivated early discussion of what would now called a *[[relativistic membrane]] model*:
+and motivated early discussion of what is now called a *[[relativistic membrane]] model*:
 
 * {#Dirac62} [[Paul Dirac]], *An Extensible Model of the Electron*, Proc. Roy. Soc. A **268** (1962) 57-67 &lbrack;[jstor:2414316](https://www.jstor.org/stable/2414316)&rbrack;
   > (also proposing the [[Dirac-Born-Infeld action]])
