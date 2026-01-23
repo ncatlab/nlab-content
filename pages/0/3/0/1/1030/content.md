@@ -58,3 +58,8 @@ See at _[[zero object]]_ for examples.
 [[!redirects zero morphisms]]
 [[!redirects zero map]]
 [[!redirects zero maps]]
+
+[[!redirects null morphism]]
+[[!redirects null morphisms]]
+
+
