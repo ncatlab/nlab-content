@@ -888,6 +888,11 @@ Observations of the $\nu = 1/4$ FQH state:
 
 * A. A. Zibrov, et al.: *Even-denominator fractional quantum Hall states at an isospin transition in monolayer graphene*, Nature Physics **14** (2018) 930–935 &lbrack;[doi;10.1038/s41567-018-0190-0](https://doi.org/10.1038/s41567-018-0190-0)&rbrack;
 
+On even denominator filling fractions:
+
+* Misha Yutushui, David F. Mross: *Theory of Next-Generation Even-Denominator States* &lbrack;[arXiv:2601.15386](https://arxiv.org/abs/2601.15386)&rbrack;
+
+
 
 #### Edge modes
 
