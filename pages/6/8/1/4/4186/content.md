@@ -83,18 +83,23 @@ Further discussion:
 
 A somewhat novel take on conformal nets is presented and studied in 
 
-* [[Arthur Bartels]], [[Chris Douglas]], [[Andre Henriques]], _Conformal nets and local field theory_ ([arXiv:0912.5307](http://arxiv.org/abs/0912.5307))
+* [[Arthur Bartels]], [[Chris Douglas]], [[André Henriques]], _Conformal nets and local field theory_ ([arXiv:0912.5307](http://arxiv.org/abs/0912.5307))
 
-* [[Arthur Bartels]], [[Chris Douglas]], [[Andre Henriques]], _Conformal nets I: coordinate-free nets_ ([arXiv:1302.2604](http://arxiv.org/abs/1302.2604))
+* [[Arthur Bartels]], [[Chris Douglas]], [[André Henriques]], _Conformal nets I: coordinate-free nets_ ([arXiv:1302.2604](http://arxiv.org/abs/1302.2604))
 
 where conformal nets are arranged into a [[tricategory]]  with [[symmetric monoidal category|symmetric monoidal structure]] that is a [[delooping]] of the [[bicategory]] of [[von Neumann algebra]]s and [[bimodule]]s between these. Among other things, this work connects the [[AQFT]] notion of conformal nets with the [[FQFT]] notion of [[cobordism]] representations.
 
-More on this in
+More on this in:
 
 * [[Chris Douglas]], [[André Henriques]], _Topological modular forms and conformal nets_ , in [[Branislav Jurčo]], [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_
 
-* [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
- {#DouglasHenriquesGeometric}
+* {#DouglasHenriquesGeometric} [[Chris Douglas]], [[André Henriques]], _Geometric string structures_ ([pdf](http://www.staff.science.uu.nl/~henri105/PDF/TringWP.pdf))
+ 
+But see [here](https://sites.google.com/uniroma1.it/enfft/enfft/abstracts?authuser=0):
+
+> "A preliminary such 3-category was constructed in joint work \[of André Henriques\] with Chris Douglas and Arthur Bartels, but that 3-category is not very well behaved, as it is not (visibly) idempotent complete. In particular, it doesn't contain the 3-category of unitary fusion categories.
+
+
 
 Relation to [[vertex operator algebras]] is discussed in
 
