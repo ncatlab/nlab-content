@@ -41,4 +41,9 @@ Monographs:
 * [[Masaki Kashiwara]], [[Pierre Schapira]], section 18 of: _Categories and Sheaves_, Grundlehren der Mathematischen Wissenschaften __332__, Springer (2006)
 
 category: sheaf theory
+
 [[!redirects sheaves of abelian groups]]
+
+[[!redirects presheaf of abelian groups]]
+[[!redirects presheaves of abelian groups]]
+
