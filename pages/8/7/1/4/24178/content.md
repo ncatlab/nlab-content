@@ -530,7 +530,7 @@ Low-Dimensional Materials and Nanostructures](https://www.lancaster.ac.uk/users/
 
 * Roman Remme, *The Laughlin Wavefunction*, talk notes (2017) &lbrack;[pdf](https://www.mathi.uni-heidelberg.de/~walcher/teaching/sose17/atqft/writeups/Roman.pdf), [[Remme-LaughlinWavefunction.pdf:file]]&rbrack;
 
-* {#Simon20} [[Steven H. Simon]]: *Wavefunctionology: The Special Structure of Certain Fractional Quantum Hall Wavefunctions*, Chapter 8 of: *Fractional Quantum Hall Effects* eds. Halperin and Jain, World Scientific (2020) &lbrack;[arXiv:2107.00437](https://arxiv.org/abs/2107.00437), [doi:10.1142/11751](https://doi.org/10.1142/11751)&rbrack;
+* {#Simon20} [[Steven H. Simon]]: *Wavefunctionology: The Special Structure of Certain Fractional Quantum Hall Wavefunctions*, Chapter 8 in: [[Bertrand Halperin|Halperin]], [[Jainendra Jain|Jain]] (eds.): *Fractional Quantum Hall Effects*, World Scientific (2020) &lbrack;[arXiv:2107.00437](https://arxiv.org/abs/2107.00437), [doi:10.1142/11751](https://doi.org/10.1142/11751)&rbrack;
 
 
 See also:
