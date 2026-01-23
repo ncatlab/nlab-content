@@ -78,9 +78,9 @@ The original articles
 
 Further discussion:
 
-* {#GolubNikita24} Nikita Golub: *Functorial languages in homological algebra and the lower central series* &lbrack;[arXiv:2410.05708](https://arxiv.org/abs/2410.05708)&rbrack;
+* {#GolubNikita24} [[Nikita Golub]], Vasily Ionin, Lev Mukoseev: *Functorial languages in homological algebra and the lower central series* &lbrack;[arXiv:2410.05708](https://arxiv.org/abs/2410.05708)&rbrack;
 
-* Nikita Golub: *Functorial Languages in Homological Algebra*, [talk at](CQTS#Golub2024) [[CQTS]] @ NYU Abu Dhabi (Oct 2024) &lbrack;slides:[[Golub-CQTSOct2024.pdf:file]]&rbrack;
+* [[Nikita Golub]]: *Functorial Languages in Homological Algebra*, [talk at](CQTS#Golub2024) [[CQTS]] @ NYU Abu Dhabi (Oct 2024) &lbrack;slides:[[Golub-CQTSOct2024.pdf:file]]&rbrack;
 
 
 [[!redirects fr-codes]]
