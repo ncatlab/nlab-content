@@ -122,6 +122,8 @@ In conclusion, given a [[3d TQFT]] regarded as [[quantum gravity]] of 2+1-dimens
 ## References
  {#References}
 
+### General
+
 Chapter VI of 
 
 * {#Haag92} [[Rudolf Haag]], _[[Local Quantum Physics]]_ (1992)
@@ -136,7 +138,43 @@ Further discussion of subtleties of the definition of particles _in_ (non-[[free
 * Benjamin H. Feintzeig, Jonah Librande, Rory Soiffer, *Localizable Particles in the Classical Limit of Quantum Field Theory* ([arXiv:2104.06442](https://arxiv.org/abs/2104.06442))
 
 
+
+### Classical charged particles
+ {#ReferencesClassicalChargedParticles}
+
+Tentative discussion of charged particles via [[classical mechanics]] (cf. *[[classical charged particle]]*), goes back to:
+
+* [[Max Abraham]]: *Prinzipien der Dynamik des Elektrons*, Annalen der Physik **315** 1 (1902) 105-179 &lbrack;[doi:10.1002/andp.19023150105](https://doi.org/10.1002/andp.19023150105)&rbrack;
+
+* [[Hendrik Lorentz]]: *Electromagnetic phenomena in a system moving with any velocity smaller than that of light*, Proc. Acad. Science Amsterdam **4** (1904) 669–678
+
+* [[P. A. M. Dirac]]: *Classical theory of radiating electrons*, Proc. A  **167** 929 (1938) 148–169 &lbrack;[doi:10.1098/rspa.1938.0124](https://doi.org/10.1098/rspa.1938.0124), [jstor:97128](https://www.jstor.org/stable/97128)&rbrack;
+
+and motivated early discussion of what would now called a *[[relativistic membrane]] model*:
+
+* {#Dirac62} [[Paul Dirac]], *An Extensible Model of the Electron*, Proc. Roy. Soc. A **268** (1962) 57-67 &lbrack;[jstor:2414316](https://www.jstor.org/stable/2414316)&rbrack;
+  > (also proposing the [[Dirac-Born-Infeld action]])
+
+* [[Paul Dirac]], _The motion of an Extended Particle in the Gravitational Field_, in: [[Leopold Infeld|L. Infeld]] (ed.), *Relativistic Theories of Gravitation*, Proceedings of a Conference held in Warsaw and Jablonna, July 1962, P. W. N. Publishers, 1964, Warsaw, 163-171; discussion 171-175 &lbrack;[spire:1623740](http://inspirehep.net/record/1623740), article:[[Dirac-MotionOfAnExtendedParticle.pdf:file]], full proceedings:[pdf](https://cds.cern.ch/record/2282975/files/warsaw-1962.pdf)&rbrack;
+
+* [[Paul Dirac]], _Particles of Finite Size in the Gravitational Field_, Proc. Roy. Soc. A **270** (1962) 354-356 &lbrack;[doi:10.1098/rspa.1962.0228](https://doi.org/10.1098/rspa.1962.0228)&rbrack;
+
+
+Claim that technical issues with the old Abraham-Lorentz-Dirac approach can be resolved:
+
+* [[Fritz Rohrlich]]: *Classical Charged Particles* (1964), World Scientific (1995, 2007), CRC Press (202) &lbrack;[doi:10.1142/6220](https://doi.org/10.1142/6220), [doi:10.1201/9780429034947](https://doi.org/10.1201/9780429034947)&rbrack;
+
+* Arthur D. Yaghjian: *Relativistic Dynamics of a Charged Sphere -- Updating the Lorentz-Abraham Model*, Lecture Notes in Physics **686**, Springer (2006) &lbrack;[doi:10.1007/978-3-031-06067-0](https://doi.org/10.1007/978-3-031-06067-0), [pdf](https://www.prl.res.in/~library/gpdf/e-books/Springer_e-books/Relativistic%20Dynamics%202006.pdf)&rbrack;
+
+* [[Fritz Rohrlich]]: *The dynamics of a charged particle*, Phys. Rev. E **77** (2008) 046609 &lbrack;[arXiv:0804.4614](https://arxiv.org/abs/0804.4614), [doi:10.1103/PhysRevE.77.046609](https://doi.org/10.1103/PhysRevE.77.046609)&rbrack;
+
+
 [[!redirects particles]]
 
 [[!redirects quantum]]
 [[!redirects quanta]]
+
+[[!redirects classical charged particle]]
+[[!redirects classical charged particles]]
+
+
