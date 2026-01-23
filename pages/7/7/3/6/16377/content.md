@@ -38,10 +38,9 @@ In fact, according to the [[brane scan]], a [[super p-brane|super 2-brane]] [[si
 
 ### Pre-history
 
-Early speculations trying to unify the [[electron]] and the [[muon]] as two excitations of a single relativistic membrane:
+Early speculations trying to unify the [[electron]] and the [[muon]] as two excitations of a single relativistic membrane (cf. models for *[[classical charged particles]]*):
 
 * {#Dirac62} [[Paul Dirac]], *An Extensible Model of the Electron*, Proc. Roy. Soc. A **268** (1962) 57-67 &lbrack;[jstor:2414316](https://www.jstor.org/stable/2414316)&rbrack;
-
   > (also proposing the [[Dirac-Born-Infeld action]])
 
 * [[Paul Dirac]], _The motion of an Extended Particle in the Gravitational Field_, in: [[Leopold Infeld|L. Infeld]] (ed.), *Relativistic Theories of Gravitation*, Proceedings of a Conference held in Warsaw and Jablonna, July 1962, P. W. N. Publishers, 1964, Warsaw, 163-171; discussion 171-175 &lbrack;[spire:1623740](http://inspirehep.net/record/1623740), article:[[Dirac-MotionOfAnExtendedParticle.pdf:file]], full proceedings:[pdf](https://cds.cern.ch/record/2282975/files/warsaw-1962.pdf)&rbrack;
