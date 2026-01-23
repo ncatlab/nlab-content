@@ -4207,7 +4207,7 @@ Neumann algebras**
 
 * {#Golub2024} 09 Oct 2024
 
-  Nikita Golub (Saint Petersburg State University):
+  [[Nikita Golub]] (Saint Petersburg State University):
 
   **Functorial Languages in Homological Algebra**
 
