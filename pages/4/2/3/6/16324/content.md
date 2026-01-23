@@ -5,7 +5,7 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
-#### Super-Algebra and Super-Geometry
+#### Super-Algebra
 +--{: .hide}
 [[!include supergeometry - contents]]
 =--
@@ -13,19 +13,24 @@
 =--
 
 
-This page collects material related to the book
+This page is to record the reference
 
-* {#Grassmann44} [[Hermann Grassmann]],
+* {#Grassmann44} [[Hermann Grassmann]]:
 
-  _Die Wissenschaft der extensiven Gr&#246;ssen oder die Ausdehnungslehre_
+  \linebreak
 
-    _Erster Teil, die lineale Ausdehnungslehre_,
+  **Die Wissenschaft der extensiven Grössen oder die Ausdehnungslehre**
 
-  1844
+  --- **Erster Teil, die lineale Ausdehnungslehre**
 
-  ([pdf scan of original](http://www.uni-potsdam.de/u/philosophie/grassmann/Werke/Hermann/Ausdehnungslehre_1844.pdf), [Internet Archive copy](https://archive.org/details/dielinealeausde00grasgoog/page/n11))
+  \linebreak
 
-which introduced for the first time basic concepts of what today is known as [[linear algebra]] (including [[affine spaces]] as [[torsors]] over [[vector spaces]]) and introduced in addition an _exterior product_ (&#167;37, &#167;55) on [[vectors]], forming what today is known as _[[exterior algebra]]_ or _[[Grassmann algebra]]_, hence in fact _[[superalgebra]]_ (see [below](#SupercommutativeSuperalgebra)).
+  (1844)
+
+  scan:[[Grassmann-Ausdehnungslehre.pdf:file]], \linebreak
+  [Internet Archive copy](https://archive.org/details/dielinealeausde00grasgoog/page/n11)
+
+which introduced, for the first time, basic concepts of what today is known as [[linear algebra]] (including [[affine spaces]] as [[torsors]] over [[vector spaces]]) and introduced in addition an _exterior product_ (&#167;37, &#167;55) on [[vectors]], forming what today is known as _[[exterior algebra]]_ or _[[Grassmann algebra]]_, hence in fact _[[superalgebra]]_ (see [below](#SupercommutativeSuperalgebra)).
 
 
 Grassmann advertizes his work (p. xxv) as being the theory of _[[extensive quantity]]_. The modern way of speaking about this is that the elements of the [[exterior algebra]] he considered are [[differential forms]] on [[Euclidean space]].
