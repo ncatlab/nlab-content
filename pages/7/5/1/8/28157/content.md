@@ -41,7 +41,7 @@ $$
   0
   \mathrlap{\,,}
 $$
-where $a,b$ are objects in $C$.
+where $a,b$ are objects in $C$. In the case where $C$ is abelian already, finitely presentable sheaves were studied under the name of __coherent functors__ by Auslander.
 
 ### Verdier's definition
 
@@ -74,6 +74,10 @@ $$
 * {#Verdier1967} Verdier 1967
 
 * Neeman
+
+The category of coherent functors over an abelian category was studied in
+
+* M. Auslander, _Coherent functors_, In: Eilenberg, S., Harrison, D.K., MacLane, S., Röhrl, H. (eds) Proceedings of the Conference on Categorical Algebra, La Jolla 1965, Springer, 1966.
 
 
 
