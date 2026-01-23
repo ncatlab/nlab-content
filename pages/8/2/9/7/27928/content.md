@@ -436,6 +436,10 @@ In the context of minimal [[D=5 supergravity]]:
 
   see equation (0.1) in: Corrigendum: Phys. Lett. B **785** (2018) 631-632 &lbrack;[arXiv:1808.08955](https://arxiv.org/abs/1808.08955), [doi:10.1016/j.physletb.2018.05.029](https://doi.org/10.1016/j.physletb.2018.05.029)&rbrack;
 
+Concerning the [[coupling constant]]:
+
+* [[Xavier Bekaert]], Andres Gomberoff: *Quantization of the Chern-Simons Coupling Constant*, JHEP 0301 (2003) 054 \[<a href="https://doi.org/10.1088/1126-6708/2003/01/054">doi:10.1088/1126-6708/2003/01/054</a>, [arXiv:hep-th/0212099](https://arxiv.org/abs/hep-th/0212099)\]
+
 
 In the context of [[quantum electrodynamics]] in 5d:
 
