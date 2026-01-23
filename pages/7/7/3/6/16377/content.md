@@ -37,6 +37,7 @@ In fact, according to the [[brane scan]], a [[super p-brane|super 2-brane]] [[si
 ## References
 
 ### Pre-history
+ {#ReferencesPrehistory}
 
 Early speculations trying to unify the [[electron]] and the [[muon]] as two excitations of a single relativistic membrane (cf. models for *[[classical charged particles]]*):
 
