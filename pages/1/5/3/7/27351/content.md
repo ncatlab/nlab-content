@@ -1018,6 +1018,9 @@ On [[lattice gauge theory|lattice formulation]] of abelian Chern-Simons theory:
 
 * [[Theodore Jacobson]], [[Tin Sulejmanpasic]]: *Modified Villain formulation of abelian Chern-Simons theory*, Phys. Rev. D **107** (2023) 125017 &lbrack;[arXiv:2303.06160](https://arxiv.org/abs/2303.06160), [doi:10.1103/PhysRevD.107.125017](https://doi.org/10.1103/PhysRevD.107.125017)&rbrack;
 
+* Yo Ikeda: *A Lattice $U(1)$ Chern-Simons Theory via Lattice Deligne-Beilinson Cohomology* &lbrack;[arXiv:2601.15939](https://arxiv.org/abs/2601.15939)&rbrack;
+
+
 and its canonical [[quantization of D=3 Chern-Simons theory|quantization]]:
 
 * [[Theodore Jacobson]], [[Tin Sulejmanpasic]]: *Canonical quantization of lattice Chern-Simons theory*, High Energ. Phys. **2024** (2024) 87 &lbrack;[arXiv:2401.09597](https://arxiv.org/abs/2401.09597), <a href="https://doi.org/10.1007/JHEP11(2024)087">doi:10.1007/JHEP11(2024)087</a>&rbrack;
