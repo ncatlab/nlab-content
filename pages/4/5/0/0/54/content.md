@@ -71,7 +71,7 @@ Projects:
 <a href="https://sciforum.net/event/ICMMP2026?section=#Sessions"><img src="/schreiber/files/ICMMP26_anncmnt_Schreiber.png" width="680"></a> 
 </div>
 
-* (upcoming) keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026), Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions)*, Hangzhou, 30 Oct--3 Nov 2026
+* (upcoming) keynote talk at *[1st International Conference on Modern Mathematical Physics](https://sciforum.net/event/ICMMP2026)* (ICMMP 2026, flyer: [pdf](/schreiber/files/ICMMP2026-Flyer.pdf)), Session 1: *[Quantum Field Theory, String and Brane Theory, and Gravitation](https://sciforum.net/event/ICMMP2026?section=#Sessions)*, Hangzhou, 30 Oct--3 Nov 2026
 
 
 * **[[schreiber:Complete Topological Quantization|Complete Topological Quantization of Higher Gauge Fields]]**, 
