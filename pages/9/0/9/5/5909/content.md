@@ -13,6 +13,8 @@
 * table of contents
 {:toc}
 
+Disambiguation: there is a different notion of a coherent functor due Auslander as a finitely presented object in the category of additive functors from a fixed abelian category to the category of abelian groups, see [[abelianization of an additive category]]. This terminology is suggested by algebra where coherent algebras and modules have alike definition.
+
 ## Definition
 
 A [[functor]] $F : C \to D$ between [[coherent categories]] is called **coherent** if it is a [[regular functor]] and in addition preserves finite [[union]]s.
