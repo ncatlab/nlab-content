@@ -115,14 +115,16 @@ $$
 
 ## References
 
-* {#Triantafillou82} [[Georgia Triantafillou]], _Equivariant minimal models_, Trans. Amer. Math. Soc. vol 274 pp 509-532 (1982) ([jstor:1999119](http://www.jstor.org/stable/1999119))
+* {#Triantafillou82} [[Georgia Triantafillou]], _Equivariant minimal models_, Trans. Amer. Math. Soc. **274** (1982) 509-532 (1982) &lbrack;[jstor:1999119](http://www.jstor.org/stable/1999119)&rbrack;
 
 
-* [[Marek Golasiński]], _Equivariant rational homotopy theory as a closed model category_, Journal of Pure and Applied Algebra Volume 133, Issue 3, 30 December 1998, Pages 271-287 (<a href="https://doi.org/10.1016/S0022-4049(97)00127-8">doi:10.1016/S0022-4049(97)00127-8</a>)
+* [[Marek Golasiński]], _Equivariant rational homotopy theory as a closed model category_, Journal of Pure and Applied Algebra **133** 3 (1998) 271-287 &lbrack;<a href="https://doi.org/10.1016/S0022-4049(97)00127-8">doi:10.1016/S0022-4049(97)00127-8</a>&rbrack;
+  > (for Hamiltonian groups)
 
-  (for Hamiltonian groups)
+* {#Scull08} [[Laura Scull]]: _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society **360** 5 (2008) 2505-2525 &lbrack;[doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2)&rbrack;
 
-* {#Scull08} [[Laura Scull]], _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society 360 (5), 2505-2525, 2008 ([doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2))
+
+
 
 [[!redirects model structures on equivariant dgc-algebras]]
 
