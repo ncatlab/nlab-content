@@ -11,6 +11,11 @@ On the [[dual graviton]]:
 
 * {#BekaertBoulangerHenneaux02} [[Xavier Bekaert]], [[Nicolas Boulanger]], [[Marc Henneaux]]: *Consistent deformations of dual formulations of linearized gravity: A no-go result*, Phys. Rev. D **67** (2003) 044010 &lbrack;[arXiv:hep-th/0210278](http://arxiv.org/abs/hep-th/0210278), [doi:10.1103/PhysRevD.67.044010](https://doi.org/10.1103/PhysRevD.67.044010)&rbrack;
 
+On the [[coupling constant]] of higher-dimensional [[Maxwell-Chern-Simons theories]]:
+
+* [[Xavier Bekaert]], Andres Gomberoff: *Quantization of the Chern-Simons Coupling Constant*, JHEP 0301 (2003) 054 \[<a href="https://doi.org/10.1088/1126-6708/2003/01/054">doi:10.1088/1126-6708/2003/01/054</a>, [arXiv:hep-th/0212099](https://arxiv.org/abs/hep-th/0212099)\]
+
+
 Making more explicit the relation of higher spin gauge theory to [[Chevalley-Eilenberg algebras]] (physics jargon: "FDA"s) of [[L-infinity algebras|$L_\infty$-algebras]] -- under the name *unfolded formalism*:
 
 * [[Xavier Bekaert]], S. Cnockaert, [[Carlo Iazeolla]], [[Mikhail A. Vasiliev]]: *Nonlinear higher spin theories in various dimensions*, in *Higher spin gauge theories: Proceedings, 1st Solvay Workshop: Brussels, Belgium, 12-14 May, 2004*  \[<a href="https://arxiv.org/abs/hep-th/0503128">arXiv:hep-th/0503128</a>, [inSpire](https://inspirehep.net/literature/678495)\]
