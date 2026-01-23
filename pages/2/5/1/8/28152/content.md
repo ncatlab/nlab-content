@@ -15,4 +15,6 @@ On [[3D Maxwell-Chern-Simons theory]] coupled to [[fermion]] [[field (physics)|f
 
 * {#HallerLim1996} [[Kurt Haller]], Edwin Lim-Lombridas: *Maxwell-Chern-Simons Theory in Covariant and Coulomb Gauges* Annals of Physics **246** 1 (1996) 1-48 \[<a href="https://doi.org/10.1006/aphy.1996.0019">doi:10.1006/aphy.1996.0019</a>\]
 
+* [[Kurt Haller]], Edwin Lim-Lombridas: *Gauss's Law, Gauge-Invariant States, and Spin and Statistics In Abelian Chern-Simons Theories*, Int. J. Mod. Phys.A **12** (1997) 1053-1062 &lbrack;[doi:10.1142/S0217751X97000785](https://doi.org/10.1142/S0217751X97000785), [arXiv:hep-th/9610146](https://arxiv.org/abs/hep-th/9610146)&rbrack;
+
 category: people
