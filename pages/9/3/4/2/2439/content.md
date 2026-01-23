@@ -668,7 +668,7 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 
 The concept of [[Grassmann algebra]] and the [[signs in supergeometry|super-sign rule]] is due to
 
-* {#Grassmann1844} [[Hermann Grassmann]], _[[Ausdehnungslehre]]_ (1844):
+* {#Grassmann1844} [[Hermann Grassmann]], _[[Ausdehnungslehre]]_ (1844) &lbrack;[[Grassmann-Ausdehnungslehre.pdf:file]]&rbrack;
 
 Early modern account:
 
