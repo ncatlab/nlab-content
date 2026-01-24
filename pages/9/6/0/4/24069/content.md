@@ -20,6 +20,9 @@ On excitations of [[fractional quantum Hall systems]] identified as effective [[
 
 * Shiuan-Fan Liou, [[F. Duncan M. Haldane]], Kun Yang, [[Edward H. Rezayi]]: *Chiral Gravitons in Fractional Quantum Hall Liquids*, Phys. Rev. Lett. **123** 146801 (2019) \[<a href="https://doi.org/10.1103/PhysRevLett.123.146801">doi:PhysRevLett.123.146801</a>, [arXiv:1904.12231](https://arxiv.org/abs/1904.12231)\]
 
+On multiple modes replacing the would-be single GMP mode for [FQH excitations](quantum+Hall+effect#CollectiveExcitations) near filling fraction $\nu = 1/4$:
+
+* Dung Xuan Nguyen, [[F. D. M. Haldane]], [[Edward H. Rezayi]], [[Dam Thanh Son]], Kun Yang: *Multiple Magnetorotons and Spectral Sum Rules in Fractional Quantum Hall Systems*, Phys. Rev. Lett. **128** (2022) 246402 \[<a href="https://doi.org/10.1103/PhysRevLett.128.246402">doi:10.1103/PhysRevLett.128.246402</a>, [arXiv:2111.10593](https://arxiv.org/abs/2111.10593), suppl:[pdf](https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.128.246402/Supp.pdf)\]
 
 
 category: people
