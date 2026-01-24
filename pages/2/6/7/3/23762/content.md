@@ -61,6 +61,10 @@ On the [[fractional quantum Hall effect]]:
 
 * [[Duncan Haldane]]: *Geometry of flux attachment in the fractional quantum hall effect states*, lecture at *CESC Cargèse Corsica July 2017*, abstract published in: *Topological Phase Transitions And New Developments*, World Scientific (2018) 2 &lbrack;[pdf](https://indico.in2p3.fr/event/14018/images/1095-cargese1-haldane.pdf), [[Haldane-FLuxAttachment.pdf:file]], [doi:10.1142/9789813271340_0002](https://doi.org/10.1142/9789813271340_0002)&rbrack;
 
+On multiple modes replacing the would-be single GMP mode for [FQH excitations](quantum+Hall+effect#CollectiveExcitations) near filling fraction $1/4$:
+
+* Dung Xuan Nguyen, [[F. D. M. Haldane]], [[Edward H. Rezayi]], [[Dam Thanh Son]], Kun Yang: *Multiple Magnetorotons and Spectral Sum Rules in Fractional Quantum Hall Systems*, Phys. Rev. Lett. **128** (2022) 246402 \[<a href="https://doi.org/10.1103/PhysRevLett.128.246402">doi:10.1103/PhysRevLett.128.246402</a>, [arXiv:2111.10593](https://arxiv.org/abs/2111.10593), suppl:[pdf](https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.128.246402/Supp.pdf)\]
+
 
 
 category: people
