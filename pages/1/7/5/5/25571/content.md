@@ -52,6 +52,12 @@ The [[free cocompletion]] of a locally small category $A$ under small colimits a
 
 Theorem 1 of [Kelly & Koubek 1981](#KellyKoubek1981) states that every [[functor]] $F \colon K \to A$, where $A$ has such colimits, admits a colimit if $F$ has a [[weakly terminal set]].
 
+### Cointersections in total categories
+
+Proposition 4.1 of [Börger and Tholen](#Borger1990) states that every [[total category]] admits arbitrary [[cointersections]] of [[regular epimorphisms]].
+
+Example 4.3 of [Börger and Tholen](#Borger1990) shows that a [[total category]] need not admit arbitrary [[cointersections]] of [[extremal epimorphism|extremal]] or [[strong epimorphisms]], even if it admits a small extremal [[separator]].
+
 ## Other examples
 
 - The [[terminal object]] in a category $A$ is a colimit of the [[identity functor]] on $A$.
@@ -88,13 +94,15 @@ Despite its ill behaviour, it is possible to describe the cocompletion of a loca
 
 * {#KellyKoubek1981} [[Max Kelly]] and V. Koubek. _The large limits that all good categories admit_. Journal of Pure and Applied Algebra 22.3 (1981): 253-263.
 
-* {#Borger1981} R. Börger, [[Walter Tholen]], M. B. Wischnewsky & H. Wolff. _Compact and hypercomplete categories_. Journal of Pure and Applied Algebra 21.2 (1981): 129-144.
+* {#Borger1981} [[Reinhard Börger]], [[Walter Tholen]], M. B. Wischnewsky & H. Wolff. _Compact and hypercomplete categories_. Journal of Pure and Applied Algebra 21.2 (1981): 129-144.
+
+* {#Borger1990} [[Reinhard Börger]], [[Walter Tholen]]. _Total categories and solid functors_. Canadian Journal of Mathematics 42.2 (1990): 213–229.
 
 * {#Kelly1986} [[Max Kelly]], _A survey of totality for enriched and ordinary categories_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 27 no. 2 (1986), p. 109-132, [numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_109_0)
 
 * {#BKR15} [[Michael Barr]], [[John Kennison]], [[Robert Raphael]], *On reflective and coreflective hulls*, [[Cahiers|Cahiers Topologie Géométrie Différentielle Catégorique]] **56** (2015) 162–208 &lbrack;[pdf](https://www.math.mcgill.ca/barr/papers/biref.pdf), [[BarrKennisonRaphael-Reflective.pdf:file]]&rbrack;
 
-* {#Walker2019} Charles Walker: *Distributive laws via admissibility&, Applied Categorical Structures **27** 6 (2019) 567-617
+* {#Walker2019} [[Charles Walker]]. *Distributive laws via admissibility, Applied Categorical Structures **27** 6 (2019) 567-617
 
 * {#LackTendas2023} [[Stephen Lack]] and [[Giacomo Tendas]]. _Virtual concepts in the theory of accessible categories_. [Journal of Pure and Applied Algebra 227.2 (2023): 107196.](https://doi.org/10.1016/j.jpaa.2022.107196)
 
