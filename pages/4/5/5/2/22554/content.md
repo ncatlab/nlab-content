@@ -145,7 +145,7 @@ $$
 
 ## References
 
-In the comtext of [[quantum computing]]:
+In the context of [[quantum computing]]:
 
 * [[Michael A. Nielsen]], [[Isaac L. Chuang]], around (10.81) of: *Quantum computation and quantum information*, Cambridge University Press (2000, 2010) &lbrack;[doi:10.1017/CBO9780511976667](https://doi.org/10.1017/CBO9780511976667), [pdf](http://csis.pace.edu/~ctappert/cs837-19spring/QC-textbook.pdf), [[NielsenChuangQuantumComputation.pdf:file]]&rbrack;
 
