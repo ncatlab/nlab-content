@@ -837,7 +837,7 @@ Review and survey of the FQHE:
 
 * [[Tudor D. Stanescu]], *Effective theory of Abelian fractional quantum Hall liquids*, Section 6.2.1 of: *Introduction to Topological Quantum Matter & Quantum Computation*, CRC Press (2020) &lbrack;[ISBN:9780367574116](https://www.routledge.com/Introduction-to-Topological-Quantum-Matter--Quantum-Computation/Stanescu/p/book/9781032126524)&rbrack;
 
-* Zlatko Papić, [[Ajit C. Balram]]: *Fractional quantum Hall effect in semiconductor systems*, Encyclopedia of Condensed Matter Physics 2nd ed **1** (2024) 285-307 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00007-X">doi:10.1016/B978-0-323-90800-9.00007-X</a>, <a href="https://arxiv.org/abs/2205.03421">arXiv:2205.03421</a>\]
+* [[Zlatko Papić]], [[Ajit C. Balram]]: *Fractional quantum Hall effect in semiconductor systems*, Encyclopedia of Condensed Matter Physics 2nd ed **1** (2024) 285-307 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00007-X">doi:10.1016/B978-0-323-90800-9.00007-X</a>, <a href="https://arxiv.org/abs/2205.03421">arXiv:2205.03421</a>\]
 
 
 See also:
