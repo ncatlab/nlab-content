@@ -68,10 +68,8 @@ See also:
 
 * Jin-Beom Bae, Sungjay Lee, section 5 of: *Emergent Supersymmetry on the Edges*, SciPost Phys. **11** 091 (2021) \[<a href="https://doi.org/10.21468/SciPostPhys.11.5.091">doi:10.21468/SciPostPhys.11.5.091</a>, [arXiv:2105.02148](https://arxiv.org/abs/2105.02148)\]
 
-* [[Ajit C. Balram]]: *SUSY at $\nu = 5/2$*, section 3 of: *High-energy collective modes in fractional quantum Hall liquids: Rise of the parton*, [talk at](CQTS#BalramMay2023) *[Quantum Information and Quantum Matter 2023](Center+for+Quantum+and+Topological+Systems#ConferencesMay2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023)
+* [[Ajit C. Balram]]: *SUSY at $\nu = 5/2$*, section 3 of: *High-energy collective modes in fractional quantum Hall liquids: Rise of the parton*, [talk at](CQTS#BalramMay2023) *[Quantum Information and Quantum Matter 2023](Center+for+Quantum+and+Topological+Systems#ConferencesMay2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023) \[<a href="https://nyuad.nyu.edu/content/dam/nyuad/research/centers-labs-projects/center-for-quantum-and-topological-systems-/events-conferences/quantum-matter-info-conference-2023/ACB_talk.pdf">pdf</a>, [[Balram-CQTS2023.pdf:file]]\]
 
-
-[[Ajit C. Balram]] (IMSc Chennai): *FQHE in the LLL Parton mode SUSY at $\nu = 5/2$ High-energy collective modes in fractional quantum Hall liquids: Rise of the parton* &lbrack;[pdf](https://nyuad.nyu.edu/content/dam/nyuad/research/centers-labs-projects/center-for-quantum-and-topological-systems-/events-conferences/quantum-matter-info-conference-2023/ACB_talk.pdf), [[Balram-CQTS2023.pdf:file]]&rbrack;
 
 
 #### Effective FQH Supergravity
