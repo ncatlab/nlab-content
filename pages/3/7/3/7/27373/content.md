@@ -45,7 +45,7 @@ further discussed in:
 * Patricio Salgado-Rebolledo, Giandomenico Palumbo: *Nonrelativistic supergeometry in the Moore-Read fractional quantum Hall state*, Phys. Rev. D **106** (2022) 065020 \[<a href="https://doi.org/10.1103/PhysRevD.106.065020">doi:10.1103/PhysRevD.106.065020</a>, [arXiv:2112.14339](https://arxiv.org/abs/2112.14339), [talk video](https://youtu.be/LcmDsZK9oY8)\]
 
 
-* {#PuBalramFremlingGromovPapić23} Songyang Pu, [[Ajit C. Balram]], Mikael Fremling, [[Andrey Gromov]], Zlatko Papić: *Signatures of Supersymmetry in the $\nu = 5/2$ Fractional Quantum Hall Effect*, Phys. Rev. Lett. **130** (2023) 176501 \[<a href="https://doi.org/10.1103/PhysRevLett.130.176501">doi:10.1103/PhysRevLett.130.176501</a>, [arXiv:2301.04169](https://arxiv.org/abs/2301.04169)\]
+* {#PuBalramFremlingGromovPapić23} Songyang Pu, [[Ajit C. Balram]], Mikael Fremling, [[Andrey Gromov]], [[Zlatko Papić]]: *Signatures of Supersymmetry in the $\nu = 5/2$ Fractional Quantum Hall Effect*, Phys. Rev. Lett. **130** (2023) 176501 \[<a href="https://doi.org/10.1103/PhysRevLett.130.176501">doi:10.1103/PhysRevLett.130.176501</a>, [arXiv:2301.04169](https://arxiv.org/abs/2301.04169)\]
   > "Our results suggest that the SUSY structure is intrinsically present in spectral properties of the $\nu = 5/2$ state"
 
 
