@@ -19,6 +19,9 @@ Further on [[volume-preserving diffeomorphisms]] and their role in describing [c
 
 * [[Yi-Hsien Du]], [[Umang Mehta]], [[Dam Thanh Son]]: *Noncommutative gauge symmetry in the fractional quantum Hall effect*, J. High Energ. Phys. **2024** 125 (2024) &lbrack;<a href="https://doi.org/10.1007/JHEP08(2024)125">doi:10.1007/JHEP08(2024)125</a>, [arXiv:2110.13875](https://arxiv.org/abs/2110.13875)&rbrack;
 
+On multiple modes replacing the would-be single GMP mode for [FQH excitations](quantum+Hall+effect#CollectiveExcitations) near filling fraction $\nu = 1/4$:
+
+* Dung Xuan Nguyen, [[F. D. M. Haldane]], [[Edward H. Rezayi]], [[Dam Thanh Son]], Kun Yang: *Multiple Magnetorotons and Spectral Sum Rules in Fractional Quantum Hall Systems*, Phys. Rev. Lett. **128** (2022) 246402 \[<a href="https://doi.org/10.1103/PhysRevLett.128.246402">doi:10.1103/PhysRevLett.128.246402</a>, [arXiv:2111.10593](https://arxiv.org/abs/2111.10593), suppl:[pdf](https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.128.246402/Supp.pdf)\]
 
 
 
