@@ -54,7 +54,7 @@ See also:
 
 Discussion specifically of constructive [[path integrals]]:
 
-* [[James Glimm]], [[Arthur Jaffe]]: _[[Quantum physics -- A functional integral point of view]]_,  Springer
+* [[James Glimm]], [[Arthur Jaffe]]: _[[Quantum physics -- A functional integral point of view]]_,  Springer (1981, 1987) &lbrack;[doi:10.1007/978-1-4612-4728-9](https://doi.org/10.1007/978-1-4612-4728-9)&rbrack;
 
 * [[Barry Simon]]: *Functional integration and quantum physics*, AMS Chelsea Publishing **351**, AMS (2005) &lbrack;[ISBN:978-0-8218-3582-1](https://bookstore.ams.org/chel-351-h), [pdf](http://inis.jinr.ru/sl/vol2/Mathematics/%CC%E0%F2.%F4%E8%E7%E8%EA%E0/Simon%20B.,%20Functional%20Inegration%20&%20Quantum%20Physics,%201979,%201p.pdf)&rbrack;
 
