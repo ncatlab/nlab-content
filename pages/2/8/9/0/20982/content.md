@@ -12,7 +12,7 @@ Gerald V. Dunne
 
 ## Selected writings
 
-On [[abelian Chern-Simons theory]]:
+On [[abelian Chern-Simons theory]] and [[Maxwell-Chern-Simons theory]] with motivation from [[quantum Hall systems]]:
 
 * [[Gerald V. Dunne]]: *Aspects of Chern-Simons Theory*, in: *Topological aspects of low dimensional systems*, Les Houches -- École d'Été de Physique Théorique **69**, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1_3](https://doi.org/10.1007/3-540-46637-1_3), [arXiv:hep-th/9902115](https://arxiv.org/abs/hep-th/9902115)&rbrack;
 
