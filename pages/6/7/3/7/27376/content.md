@@ -23,8 +23,7 @@ On emergent [[supersymmetry]] in [collective excitations](quantum+Hall+effect#Co
 * Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
   > ([[supergravity]] formulation)
 
-* [[Ajit C. Balram]]: *High-energy collective modes in fractional quantum Hall liquids: Rise of the parton*, [talk at](CQTS#BalramMay2023) *[Quantum Information and Quantum Matter 2023](Center+for+Quantum+and+Topological+Systems#ConferencesMay2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023)
-
+* [[Ajit C. Balram]]: *High-energy collective modes in fractional quantum Hall liquids: Rise of the parton*, [talk at](CQTS#BalramMay2023) *[Quantum Information and Quantum Matter 2023](Center+for+Quantum+and+Topological+Systems#ConferencesMay2023)*, [[CQTS]] @ NYU Abu Dhabi (May 2023) \[<a href="https://nyuad.nyu.edu/content/dam/nyuad/research/centers-labs-projects/center-for-quantum-and-topological-systems-/events-conferences/quantum-matter-info-conference-2023/ACB_talk.pdf">pdf</a>, [[Balram-CQTS2023.pdf:file]]\]
 
 * Koyena Bose, [[Ajit C. Balram]]: *Dispersion of neutral collective modes in partonic fractional quantum Hall states and its applications to paired states of composite fermions*, Physical Review B **112** 3 (2025) \[<a href="https://doi.org/10.1103/p5sq-kczs">doi:10.1103/p5sq-kczs</a>, [arXiv:2502.02686](https://arxiv.org/abs/2502.02686)\]
 
