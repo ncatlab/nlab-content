@@ -21,7 +21,7 @@ On hidden [[supersymmetry]] in [[fractional quantum Hall systems]] (between [[La
 * [[Andrey Gromov]], [[Emil J. Martinec]], [[Shinsei Ryu]]: *Collective excitations at filling factor $5/2$: The view from superspace*, Phys. Rev. Lett. **125** (2020) 077601 \[<a href="https://doi.org/10.1103/PhysRevLett.125.077601">doi:10.1103/PhysRevLett.125.077601</a>, [arXiv:1909.06384](https://arxiv.org/abs/1909.06384)\]
   > ([[superspace]] formulation)
 
-* Songyang Pu, [[Ajit C. Balram]], Mikael Fremling, [[Andrey Gromov]], Zlatko Papić: *Signatures of Supersymmetry in the $\nu = 5/2$ Fractional Quantum Hall Effect*, Phys. Rev. Lett. **130** (2023) 176501 \[<a href="https://doi.org/10.1103/PhysRevLett.130.176501">doi:10.1103/PhysRevLett.130.176501</a>, [arXiv:2301.04169](https://arxiv.org/abs/2301.04169)\]
+* Songyang Pu, [[Ajit C. Balram]], Mikael Fremling, [[Andrey Gromov]], [[Zlatko Papić]]: *Signatures of Supersymmetry in the $\nu = 5/2$ Fractional Quantum Hall Effect*, Phys. Rev. Lett. **130** (2023) 176501 \[<a href="https://doi.org/10.1103/PhysRevLett.130.176501">doi:10.1103/PhysRevLett.130.176501</a>, [arXiv:2301.04169](https://arxiv.org/abs/2301.04169)\]
   > "Our results suggest that the SUSY structure is intrinsically present in spectral properties of the $\nu = 5/2$ state"
 
 * Dung Xuan Nguyen, Kartik Prabhu, [[Ajit C. Balram]], [[Andrey Gromov]]: *Supergravity model of the Haldane-Rezayi fractional quantum Hall state*, Phys. Rev. B **107** (2023) 125119 \[<a href="https://doi.org/10.1103/PhysRevB.107.125119">doi:10.1103/PhysRevB.107.125119</a>, [arXiv:2212.00686](https://arxiv.org/abs/2212.00686)\]
@@ -30,3 +30,10 @@ On hidden [[supersymmetry]] in [[fractional quantum Hall systems]] (between [[La
 On [[quasicrystal|quasicrystalline]] [[topological phases of matter]]:
 
 * Dominic V. Else, Sheng-Jie Huang, Abhinav Prem, [[Andrey Gromov]]: *Quantum many-body topology of quasicrystals*, Phys. Rev. X **11** (2021) 041051 &lbrack;[arXiv:2103.13393](https://arxiv.org/abs/2103.13393), [doi:10.1103/PhysRevX.11.041051](https://doi.org/10.1103/PhysRevX.11.041051)&rbrack;
+
+
+On multiple modes resolving the would-be single GMP mode for [FQH excitations](quantum+Hall+effect#CollectiveExcitations) at [Jain filling fractions](quantum+Hall+effect#CompositeParticlePicture) $n/(2 p n \pm 1)$ with ${\vert n \vert}\geq 2$ (e.g. $\nu = 2/5, 3/7, 2/9, 2/7$):
+
+* [[Ajit C. Balram]], Zhao Liu, [[Andrey Gromov]], [[Zlatko Papić]]: *Very-High-Energy Collective States of Partons in Fractional Quantum Hall Liquids*, Phys. Rev. X **12** (2022) 021008 \[<a href="https://doi.org/10.1103/PhysRevX.12.021008">doi:10.1103/PhysRevX.12.021008</a>, [arXiv:2111.10395](https://arxiv.org/abs/2111.10395)\]
+
+
