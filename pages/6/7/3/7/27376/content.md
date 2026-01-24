@@ -1,4 +1,6 @@
 
+Ajit Coimbatore Balram
+
 
 * [institute page](https://www.imsc.res.in/ajit_c_balram)
 
@@ -6,12 +8,14 @@
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=T1vffdAAAAAJ&hl=en)
 
+* [ResearchGate page](https://www.researchgate.net/lab/Ajit-Coimbatore-Balram-Lab)
+
 
 ## Selected writings
 
 
 
-On emergent [[supersymmetry]] in collective excitations of [[fractional quantum Hall systems]]:
+On emergent [[supersymmetry]] in [collective excitations](quantum+Hall+effect#CollectiveExcitations) of [[fractional quantum Hall systems]]:
 
 * Songyang Pu, [[Ajit C. Balram]], Mikael Fremling, [[Andrey Gromov]], Zlatko Papić: *Signatures of Supersymmetry in the $\nu = 5/2$ Fractional Quantum Hall Effect*, Phys. Rev. Lett. **130** (2023) 176501 \[<a href="https://doi.org/10.1103/PhysRevLett.130.176501">doi:10.1103/PhysRevLett.130.176501</a>, [arXiv:2301.04169](https://arxiv.org/abs/2301.04169)\]
   > "Our results suggest that the SUSY structure is intrinsically present in spectral properties of the $\nu = 5/2$ state"
