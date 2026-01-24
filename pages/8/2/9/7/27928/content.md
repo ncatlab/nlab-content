@@ -338,7 +338,11 @@ Early discussion of 3D Maxwell-Chern-Simons theory:
 
 Review: 
 
-* [[Gregory Moore]]: §2.2.3 in: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
+
+* [[Gerald V. Dunne]]; §2.2 in: *Aspects of Chern-Simons Theory*, in: *Topological aspects of low dimensional systems*, Les Houches -- École d'Été de Physique Théorique **69**, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1_3](https://doi.org/10.1007/3-540-46637-1_3), [arXiv:hep-th/9902115](https://arxiv.org/abs/hep-th/9902115)&rbrack;
+
+
+* [[Gregory Moore]]; §2.2.3 in: *Introduction to Chern-Simons Theories*, TASI lecture notes (2019) &lbrack;[pdf](https://www.physics.rutgers.edu/~gmoore/TASI-ChernSimons-StudentNotes.pdf), [[Moore-IntroChern-Simons.pdf:file]]&rbrack;
 
 
 In the context of [[effective field theory]] for [[FQH systems]] (cf. *[abelian Chern-Simons theory for FQH systems](abelian+Chern-Simons+theory#ReferencesAbCSForFQHE)*):
