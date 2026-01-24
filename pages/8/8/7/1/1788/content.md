@@ -7,20 +7,21 @@
 
 ***
 
-## 3D Yang-Mills theory
+### FQH Excitation modes
 
-On the [[Yang-Mills mass gap]] in 3D:
-
-Rigorous constructions via [[constructive field theory]]:
-
-* [[Dimitra Karabali]], [[V. Parmeswaran Nair]]: *On the origin of the mass gap for non-Abelian gauge theories in (2+1) dimensions*, Phys.Lett. B **379** (1996) 141-147 \[<a href="https://doi.org/10.1016/0370-2693(96)00422-4">doi:10.1016/0370-2693(96)00422-4</a>, [arXiv:hep-th/9602155](https://arxiv.org/abs/hep-th/9602155)\]
-
-* [[Dimitra Karabali]], [[Chanju Kim]], [[V. Parmeswaran Nair]]: *Planar Yang-Mills theory: Hamiltonian, regulators and mass gap*, Nucl. Phys. B **524** (1998) 661-694 \[<a href="https://doi.org/10.1016/S0550-3213(98)00309-5">doi:10.1016/S0550-3213(98)00309-5</a>, [arXiv:hep-th/9705087](https://arxiv.org/abs/)\]
-
-* [[Dimitra Karabali]], [[Chanju Kim]], [[V. Parmeswaran Nair]]: *On the vacuum wavefunction and string tension of Yang-Mills theories in (2+1) dimensions*, Phys. Lett. B **434** (1998) 103-109 \[<a href="https://doi.org/10.1016/S0370-2693(98)00751-5">doi:10.1016/S0370-2693(98)00751-5</a>, ][arXiv:hep-th/9804132](https://arxiv.org/abs/hep-th/9804132)\]
-
-Review:
-
-* [[V. Parmeswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, ][arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
+On multiple modes replacing the would-be single GMP mode 
 
 
+near filling fraction $1/4$:
+
+* Dung Xuan Nguyen, [[F. D. M. Haldane]], [[Edward H. Rezayi]], Dam Thanh Son, Kun Yang: *Multiple Magnetorotons and Spectral Sum Rules in Fractional Quantum Hall Systems*, Phys. Rev. Lett. **128** (2022) 246402 \[<a href="https://doi.org/10.1103/PhysRevLett.128.246402">doi:10.1103/PhysRevLett.128.246402</a>, [arXiv:2111.10593](https://arxiv.org/abs/2111.10593), suppl:[pdf](https://journals.aps.org/prl/supplemental/10.1103/PhysRevLett.128.246402/Supp.pdf)\]
+
+at [Jain filling fractions](quantum+Hall+effect#CompositeParticlePicture) $n/(2 p n \pm 1)$ with ${\vert n \vert}\geq 2$ (e.g. $\nu = 2/5, 3/7, 2/9, 2/7$):
+
+* [[Ajit C. Balram]], Zhao Liu, [[Andrey Gromov]], [[Zlatko Papić]]: *Very-High-Energy Collective States of Partons in Fractional Quantum Hall Liquids*, Phys. Rev. X **12** (2022) 021008 \[<a href="https://doi.org/10.1103/PhysRevX.12.021008">doi:10.1103/PhysRevX.12.021008</a>, [arXiv:2111.10395](https://arxiv.org/abs/2111.10395)\]
+
+
+
+in FQH liquids that are not fully spin-polarized:
+
+* Rakesh K. Dora, [[Ajit C. Balram]]: *Dispersion of collective modes in spinful fractional quantum Hall states on the sphere* \[<a href="https://arxiv.org/abs/2509.13100">arXiv:2509.13100</a>\] 
