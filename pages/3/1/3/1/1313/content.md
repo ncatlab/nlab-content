@@ -120,23 +120,25 @@ However, exponentiating objects do matter sometimes.
 
 As with other internal homs, the __[[currying]]__ isomorphism
 $$ hom_C(Z,X^Y) \cong hom_C(Z \times Y,X) $$
-is a [[natural isomorphism]] of sets. By the usual [[Yoneda lemma|Yoneda]] arguments, this isomorphism can be internalized to an isomorphism in $C$:
-$$ (X^Y)^Z \cong X^{Y\times Z}. $$
-Similarly, $X \cong X^1$, where $1$ is a [[terminal object]].  Thus, a product of exponentiable objects is exponentiable.
+is a [[natural isomorphism]] of sets. This isomorphism can be internalized to an isomorphism in $C$:
+$$(X^Y)^Z \cong X^{Y\times Z}$$
+by the [[Yoneda lemma]], it suffices to construct a natural isomorphism between the presheaves they represent:
+$$hom_C(W, (X^Y)^Z) \cong hom_C(W\times Z) , X^Y) \cong hom_C((W \times Z) \times Y , X) \cong hom_C(W\times(Z\times Y), X) \cong \cong hom_C(W\times(Y\times Z), X) \cong hom_C(W, X^(Y\times Z)).$$
+In fact if we remove the final step, this argument shows that $$(X^Y)^Z$$ is the exponential of $X$ to the power of $(Y\times Z)$, showing that exponentiable objects are closed under products. A similar argument shows that $X \cong X^1$ where $1$ is a [[terminal object]]. Therefore any finite product of exponentiable objects is exponentiable.
 
 Other natural isomorphisms that match equations from ordinary algebra include:
 
-*  $(X \times Y)^Z = X^Z \times Y^Z$;
+*  $(X \times Y)^Z \cong X^Z \times Y^Z$;
 *  $1^Z \cong 1$.
 
-These show that, in a cartesian monoidal category, a product of exponentiating objects is also exponentiating.
+Similar representability arguments show that, in a cartesian monoidal category, a product of exponentiating objects is also exponentiating.
 
 Now suppose that $C$ is a [[distributive category]].  Then we have these isomorphisms:
 
 *  $X^{Y + Z} \cong X^Y \times X^Z$;
 *  $X^0 \cong 1$.
 
-Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object]].  Thus in a distributive category, the exponentiable objects are closed under coproducts.
+Here $Y + Z$ is a [[coproduct]] of $Y$ and $Z$, while $0$ is an [[initial object]]. By similar modification as above, this shows that in a distributive category, the exponentiable objects are closed under coproducts.
 
 Note that any cartesian closed category with finite coproducts must be distributive, so all of the isomorphisms above hold in any closed [[2-rig]] (such as [[Set]], of course).
 
