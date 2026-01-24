@@ -68,7 +68,7 @@ On the [[fractional quantum Hall effect]] (see there for more) at such semicondu
 
 * [[Horst L. Störmer]]: *Pictures of the Fractional Quantized Hall Effect*, in: *Heterojunctions and Semiconductor Superlattices*, Springer (1986) 50-63 &lbrack;[doi:10.1007/978-3-642-71010-0_4](https://doi.org/10.1007/978-3-642-71010-0_4), [[Stormer-PicturesOfFQH.pdf:file]]&rbrack;
 
-* Zlatko Papić, [[Ajit C. Balram]]: *Fractional quantum Hall effect in semiconductor systems*, Encyclopedia of Condensed Matter Physics 2nd ed **1** (2024) 285-307 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00007-X">doi:10.1016/B978-0-323-90800-9.00007-X</a>, <a href="https://arxiv.org/abs/2205.03421">arXiv:2205.03421</a>\]
+* [[Zlatko Papić]], [[Ajit C. Balram]]: *Fractional quantum Hall effect in semiconductor systems*, Encyclopedia of Condensed Matter Physics 2nd ed **1** (2024) 285-307 \[<a href="https://doi.org/10.1016/B978-0-323-90800-9.00007-X">doi:10.1016/B978-0-323-90800-9.00007-X</a>, <a href="https://arxiv.org/abs/2205.03421">arXiv:2205.03421</a>\]
 
 
 [[!redirects semiconductors]]
