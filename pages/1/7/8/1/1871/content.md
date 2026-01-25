@@ -266,7 +266,7 @@ See also
 ### Phase space and canonical quantization
  {#ReferencesPhaseSpaceAndCanonicalQuantization}
 
-On the [[phase space]], [[Poisson brackets]] and their [[quantization]] in Yang-Mills theory:
+On the [[phase space]], [[Poisson brackets]] and their [[canonical quantization]] for Yang-Mills theory:
 
 * Taichiro Kugo, Izumi Ojima, *Manifestly Covariant Canonical Formulation of the Yang-Mills Field Theories. I:  General Formalism*, Progress of Theoretical Physics **60** 6 (1978) 1869–1889 &lbrack;[doi:10.1143/PTP.60.1869](https://doi.org/10.1143/PTP.60.1869)&rbrack;
 
@@ -281,10 +281,9 @@ On the [[phase space]], [[Poisson brackets]] and their [[quantization]] in Yang-
 * {#Haagensen93} P. E. Haagensen, *On The Exact Implementation Of Gauss' Law In Yang-Mills Theory* &lbrack;[arXiv:hep-ph/9307319](https://arxiv.org/abs/hep-ph/9307319)&rbrack;
 
 * [[Sarada G. Rajeev]], O. T. Turgut, *Poisson Algebra of Wilson Loops in Four-Dimensional Yang-Mills Theory*,  	Int. J. Mod. Phys. A **10** (1995) 2479 &lbrack;[arXiv:hep-th/9410053](https://arxiv.org/abs/hep-th/9410053), [doi:10.1142/S0217751X95001194](https://doi.org/10.1142/S0217751X95001194)&rbrack;
-
   > (in [[light-front formalism]])
 
-* [[Jonathan Dimock]], *Canonical Quantization of Yang-Millson a circle*,  Reviews in Mathematical Physics **08** 01 (1996) 85-102 &lbrack;[doi:10.1142/S0129055X96000044](https://doi.org/10.1142/S0129055X96000044)&rbrack;
+* [[Jonathan Dimock]], *Canonical Quantization of Yang-Mills on a circle*,  Reviews in Mathematical Physics **08** 01 (1996) 85-102 &lbrack;[doi:10.1142/S0129055X96000044](https://doi.org/10.1142/S0129055X96000044)&rbrack;
 
 * {#BlaschkeGieres21} [[Daniel N. Blaschke]], [[François Gieres]], *On the canonical formulation of gauge field theories and Poincaré transformations*, Nuclear Physics B **965** (2021) 115366 &lbrack;[doi:10.1016/j.nuclphysb.2021.115366](https://doi.org/10.1016/j.nuclphysb.2021.115366), [arXiv:2004.14406](https://arxiv.org/abs/2004.14406)&rbrack;
 
