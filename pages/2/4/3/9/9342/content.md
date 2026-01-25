@@ -117,6 +117,8 @@ But for this string theory, at least, there are hints as to its non-perturbative
 
 * [[Borel resummation]], [[resurgence theory]]
 
+* [[canonical quantization]]
+
 * [[strict deformation quantization]]
 
 * [[conformal bootstrap]]
