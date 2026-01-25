@@ -102,9 +102,9 @@ In the context of [[algebraic geometry]] and [[D-geometry]] the comonad structur
 * {#Lurie} [[Jacob Lurie]], *Notes on crystals and algebraic $\mathcal{D}$-modules* (2010) &lbrack;[[Lurie-NotesOnCrystals.pdf:file]]&rbrack;
 
 
-Discussion in [[differential cohesion]]:
+Discussion via the [[synthetic differential geometry]] of [[differential cohesion]]:
 
-* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+* [[Igor Khavkine]], [[Urs Schreiber]]: *[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations -- Jets and comonad structure]]*, J. Geom. Phys. (2026) &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
 
 Discussion in differentially cohesive [[modal homotopy type theory|modal]] [[homotopy type theory]]:
 
