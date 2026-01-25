@@ -15,25 +15,54 @@
 
 ## Definition
 
-Let $J\colon I \to C$ be a [[diagram]] and $F\colon C \to D$ be a [[functor]]. Let $(d, \eta)$ with $\eta \colon \text{const}_d^I \to F \circ J$ be a [[limit]] for $F \circ J$.
-
-$F$ is said to _lift_ this [[limit]] if there exists a limiting [[cone]] $(c, \alpha)$ with $\alpha \colon \text{const}_c^I \to J$ such that $(F c, F \cdot \alpha)$ is isomorphic to $(d, \eta)$ in the category of cones over $F \circ J$. $F$ is said to _lift limits for_ $J$ if it lifts every limiting cone of $F \circ J$.
+\begin{definition}
+  \label{LiftedLimit}
+  Let $J\colon I \to C$ be a [[diagram]] and $F\colon C \to D$ be a [[functor]]. Let $(d, \eta)$ with $\eta \colon \text{const}_d^I \to F \circ J$ be a [[limit]] for $F \circ J$. $F$ is said to _lift_ this [[limit]] if there exists a limiting [[cone]] $(c, \alpha)$ with $\alpha \colon \text{const}_c^I \to J$ such that $(F c, F \cdot \alpha)$ is isomorphic to $(d, \eta)$ in the category of cones over $F \circ J$. $F$ is said to _lift limits for_ $J$ if it lifts every limiting cone of $F \circ J$.
+\end{definition}
 
 Alternatively, this says that, if $F \circ J$ has a [[limit]], then $J$ also has a limit and that limit is [[preserved limit|preserved]] by $F$. This implies $(F c, F \cdot \alpha)$ is a limiting cone, thus a terminal object in the [[cone]] category, and thus (uniquely) isomorphic to $(d, \eta)$.
 
-If $F$ lifts a limit $(d, \eta)$ for $F \circ J$ to $(c, \alpha)$, then it necessarily lifts any limit for $F \circ J$. This is because any other limit $(d', \eta')$ is (uniquely) isomorphic to $(d, \eta)$, and thus isomorphic to $(F c, F \cdot \alpha)$.
-
 Of course, all the above applies dually to [[colimits]] - $F$ lifts colimits for $J$ if and only if $F^{op} \colon C^{op} \to D^{op}$ lifts limits for the corresponding diagram $J^{op} \colon I^{op} \to C^{op}$.
+
+\begin{remark}
+  \label{vacuous}
+  If $F$ lifts a limit $(d, \eta)$ for $F \circ J$ to $(c, \alpha)$, then it necessarily lifts any limit for $F \circ J$.
+\end{remark}
+
+\begin{proof}
+  Any other limit $(d', \eta')$ for $F \circ J$ is (uniquely) isomorphic to $(d, \eta)$, and thus isomorphic to $(F c, F \cdot \alpha)$. Hence, it is lifted by $F$.
+\end{proof}
+
+Hence, lifting of limits for $J$ by $F$ either holds vacuously, or holds for all limits of $F \circ J$.
 
 ## Strictness
 
-Often this definition is phrased more strictly, where we require $(F c, F \cdot \alpha)$ to be _equal_ to $(d, \eta)$. This is not invariant under [[equivalence of categories]], though in practice many functors that lift limits do so strictly.
+\begin{definition}
+  \label{strict}
+  $F$ is said to lift limits for $J$ __strictly__ if it lifts limits for $J$ and moreover, in the notation of \ref{LiftedLimit}, $(F c, F \cdot \alpha) = (d, \eta)$.
+\end{definition}
 
-There is also a notion of functors _uniquely_ lifting limits, which says that there is a unique limiting cone $(c, \alpha)$ with $(F c, F \cdot \alpha) = (d, \eta)$, which is again too strict to hold for equivalences. If we relax strictness, then this holds automatically - any other limiting cone $(c', \alpha')$ with $(F c', F \cdot \alpha') \cong (d, \eta)$ is in particular a limit for $J$, and so (uniquely) isomorphic to $(c, \alpha)$.
+This is often how the definition is phrased in textbooks, but it is not invariant under [[equivalence of categories]]. However, in practice many functors that lift limits do so strictly.
+
+\begin{definition}
+  \label{unique}
+  $F$ is said to lift limits for $J$ __uniquely__ if it strictly lifts limits for $J$ and moreover, in the notation of \ref{LiftedLimit}, there is a unique limiting cone $(c, \alpha)$ with $(Fc, F \cdot \alpha) = (d, \eta)$.
+\end{definition}
+
+Again, this is too strict to be invariant under equivalence of categories. If we relax strictness, then this actually holds automatically - any other limiting cone $(c', \alpha')$ with $(F c', F \cdot \alpha') \cong (d, \eta)$ is in particular a limit for $J$, and so (uniquely) isomorphic to $(c, \alpha)$.
 
 ## Relation to preservation and reflection
 
-If $F$ lifts limits for $J$, and there exists at least one limiting cone $(d, \eta)$ for $F \circ J$, then $F$ necessarily [[preservation of limits|preserves limits]] of $J$. Thus, lifting of limits either holds vacuously, or holds together with [[preservation of limits]].
+\begin{remark}
+  \label{vacuousPreserve}
+  If $F$ lifts limits for $J$, and there exists at least one limiting cone $(d, \eta)$ for $F \circ J$, then $F$ __[[preservation of limits|preserves]]__ limits of $J$.
+\end{remark}
+
+\begin{proof}
+  This is because, in the notation of \ref{LiftedLimit}, the lift $(c, \alpha)$ is preserved by $F$, which by [[preserved limit#vacuous|this remark]] implies all limits for $J$ are preserved by $F$.
+\end{proof}
+
+Thus, lifting of limits either holds vacuously, or holds together with preservation of limits.
 
 In general, [[reflection of limits]] neither implies nor is implied by lifting:
 
