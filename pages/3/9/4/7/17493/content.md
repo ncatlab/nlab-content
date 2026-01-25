@@ -99,6 +99,7 @@ See below for explanations.
 |----------------------------------------------|--------------------------------------------|----------------------------------------|--------------------------------|
 | **Finitist systems**                         |                                            |                                        |                                |
 | $\omega^3$                                   | EFA                                        | RCA$_0^*$                              |                                |
+| $\omega^4$                                   | SEFA                                        |                                        |                                |
 | $\omega^\omega$                              | PRA,I$\Sigma_1$                            | RCA$_0$, WKL$_0$                       | CPRC                           |
 | **Predicative systems**                      |                                            |                                        |                                |
 | $\varepsilon_0=\varphi(1,0)$                 | PA                                         | ACA$_0$, $\Delta_1^1$-CA$_0$, $\Sigma^1_1$-AC$_0$ | EM$_0$              |
@@ -160,6 +161,7 @@ The $\psi$ functions are ordinal collapsing functions.
 These assert some hierarchy of inductive defined sets of natural numbers.
 
 * EFA is elementary function arithmetic
+* SEFA is super exponential function arithmetic
 * PRA is [[primitive recursive arithmetic]]
 * PA is first-order Peano arithmetic
 * $\widehat{\mathrm{ID}}_\nu$ extends PA by $\nu$ iterated fixed points of monotone operators (not necessarily least).
