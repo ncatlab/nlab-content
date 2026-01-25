@@ -450,7 +450,7 @@ $$
   \partial_- \phi
   \mathrlap{\,.}
 $$
-While the nature of this light front momentum in canonical quantization (where it is a [[second class constraint]]) is quite different from the nature of the canonical momentum in instant form, at the end the equal-LF-parameter commutation relation has the same form as the usual equal-time commutator:
+While the nature of this light front momentum in [[canonical quantization]] (where it is a [[second class constraint]]) is quite different from the nature of the [[canonical momentum]] in instant form, at the end the equal-LF-parameter commutation relation has the same form as the usual equal-time commutator:
 $$
   \Big[
      \widehat{\pi}\big(x^+, x^-, \vec x_\perp\big)
