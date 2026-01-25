@@ -9,10 +9,7 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
-
+\tableofcontents
 
 ## Idea
 
@@ -230,6 +227,8 @@ This is the setup in which one can derive [[Feynman diagram]] rules form cohomol
 ## Related entries
 
 * **quantization**
+
+  * [[canonical quantization]]
 
   * [[deformation quantization]]
 
