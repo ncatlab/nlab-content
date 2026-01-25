@@ -7,6 +7,9 @@
 
 ***
 
+
+[[canonical quantization of gauge theories -- references]]
+
 ### FQH Excitation modes
 
 
