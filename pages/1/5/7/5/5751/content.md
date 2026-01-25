@@ -15,7 +15,7 @@
 
 
 
-This entry is about the textbook:
+This entry is to record the reference:
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]]: 
 
