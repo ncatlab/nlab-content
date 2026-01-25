@@ -121,8 +121,8 @@ A coherent object which is also [[n-truncated object of an (∞,1)-category|n-tr
 
 * {#Lurie} [[Jacob Lurie]], section 3 of _[[Spectral Schemes]]_ 
 
-* Ivo Herzog, _Contravariant functors on the category of finitely presented modules_,  Israel J. Math. [pdf](http://lima.osu.edu/people/iherzog/contra.pdf):
-_The Ziegler spectrum of a locally coherent Grothendieck category_, Proc. London Math. Soc. 74(3) (1997), 503-558 [pdf](http://lima.osu.edu/people/iherzog/Ziegler%20spec.pdf)
+* Ivo Herzog, _Contravariant functors on the category of finitely presented modules_,  Israel J. Math. __167__, 347--410 (2008)[doi](https://doi.org/10.1007/s11856-008-1052-8) [pdf](http://lima.osu.edu/people/iherzog/contra.pdf)
+* Ivo Herzog, _The Ziegler spectrum of a locally coherent Grothendieck category_, Proc. London Math. Soc. 74(3) (1997), 503--558 [pdf](http://lima.osu.edu/people/iherzog/Ziegler%20spec.pdf)
 
 
 [[!redirects coherent objects]]
