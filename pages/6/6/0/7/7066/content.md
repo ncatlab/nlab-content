@@ -188,6 +188,8 @@ If a polarization on an $2n$-dimensional symplectic manifold is generated from $
 
 ### Other
 
+* [[canonical quantization]]
+
 * [[canonical transformation]]
 
 * [[polarized algebraic variety]]
