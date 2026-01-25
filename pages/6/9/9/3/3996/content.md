@@ -45,7 +45,7 @@ Reflection of limits is distinct from [[preservation of limits]], although there
 Thus, reflection of limits for a given diagram $J$ either holds vacuously, or holds together with preservation of limits for $J$.
 
 \begin{remark}
-  A functor which both reflects *and* preserves limits, and such that limits exist in its domain whenever they do in its codomain, is said to [[created limit|create]] them.
+  A functor which both reflects *and* lifts limits is said to [[created limit|create]] them.
 \end{remark}
 
 
