@@ -250,7 +250,17 @@ See also:
 
 * [[David Tong]]: *Lectures on Gauge Theory* &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html)&rbrack;
 
-A standard textbook on the [[BV-BRST formalism]] for the quantization of gauge systems is in
+On the [[canonical quantization]] of gauge theories:
+
+* P. Hasenfratz, P. Hraskó: *Canonical quantization of gauge theories*, Phys. Rev. D **13** (1976) 2235 &lbrack;[doi:10.1103/PhysRevD.13.2235](https://doi.org/10.1103/PhysRevD.13.2235)&rbrack;
+
+* [[Daniel N. Blaschke]], Francois Gieres: *On the canonical formulation of gauge field theories and Poincaré transformations*, Nucl. Phys. B **965** (2021) 115366 \[<a href="https://doi.org/10.1016/j.nuclphysb.2021.115366">doi:10.1016/j.nuclphysb.2021.115366</a>, [arXiv:2004.14406](https://arxiv.org/abs/2004.14406)\]
+
+
+
+
+
+On the [[BV-BRST formalism]] for the [[quantization]] of gauge theories
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
 
@@ -259,7 +269,7 @@ Lecture notes on this:
 * [[Urs Schreiber]]: _[[geometry of physics -- perturbative quantum field theory]]_ (2017)
 
 
-Discussion of abelian higher gauge theory in terms of [[differential cohomology]]:
+Discussion of abelian [[higher gauge theory]] in terms of [[differential cohomology]]:
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_
 
