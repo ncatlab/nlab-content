@@ -138,6 +138,8 @@ Textbook accounts of [[classical field theory|classical]] electrodynamics:
 ### Phase space and Poisson brackets
  {#ReferencesPhaseSpaceAndPoissonBrackets}
 
+On the [[canonical quantization]] of electromagnetism:
+
 * {#BlaschkeGieres21} [[Daniel N. Blaschke]], [[François Gieres]], *On the canonical formulation of gauge field theories and Poincaré transformations*, Nuclear Physics B **965** (2021) 115366 &lbrack;[doi:10.1016/j.nuclphysb.2021.115366](https://doi.org/10.1016/j.nuclphysb.2021.115366), [arXiv:2004.14406](https://arxiv.org/abs/2004.14406)&rbrack;
 
 * [Corichi 1998, §III](#Corichi98)
