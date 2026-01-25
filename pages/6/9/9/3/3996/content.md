@@ -20,69 +20,60 @@ A [[functor]] is said to _reflect_ [[limits]] ([[colimits]]) of a given shape if
 
 ## Definition
 
-+-- {: .num_prop #ReflectedLimit}
-###### Definition
-
-Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** [[limits]] of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $F\cdot \eta$ is a [[limit]] of $F\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
-
-=--
+\begin{definition}
+  \label{ReflectedLimit}
+  Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** [[limits]] of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $F\cdot \eta$ is a [[limit]] of $F\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
+\end{definition}
 
 Of course, a functor $F$ reflects a colimit if $F^{op}$ reflects the corresponding limit.
 
 If $F$ reflects all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ reflects that sort of limit (e.g. $F$ reflects products, $F$ reflects equalizers, etc.).
 
-A functor which both reflects *and* preserves limits, and such that limits exist in its domain whenever they do in its codomain, is said to [[created limit|create]] them.
-
-
-+-- {: .num_remark}
-###### Remark
+## Relation to preservation of limits
 
 Reflection of limits is distinct from [[preservation of limits]], although there are relationships, e.g prop. \ref{ConservativeFunctors}.
 
-=--
+\begin{remark}
+  \label{vacuous}
+  If there exists at least one cone $\eta$ for $J$ such that $F \cdot \eta$ is a limit for $F \circ J$, and $F$ reflects limits of $J$, then $F$ __[[preservation of limits|preserves]]__ limits of $J$.
+\end{remark}
 
-If there exists at least one cone $\eta$ for $J$ such that $F \cdot \eta$ is a limit for $F \circ J$, and $F$ reflects limits of $J$, then $F$ necessarily preserves limits of $J$. This is because reflection implies $\eta$ is a limit for $J$ preserved by $F$, from which it follows that $F$ preserves all limits for $J$.
+\begin{proof}
+  Reflection implies $\eta$ is a limit for $J$ that is preserved by $F$. By [[preserved limit#vacuous|this remark]], $F$ necessarily preserves all limits of $J$.
+\end{proof}
 
 Thus, reflection of limits for a given diagram $J$ either holds vacuously, or holds together with preservation of limits for $J$.
+
+\begin{remark}
+  A functor which both reflects *and* preserves limits, and such that limits exist in its domain whenever they do in its codomain, is said to [[created limit|create]] them.
+\end{remark}
 
 
 ## Examples
  {#Examples}
 
-+-- {: .num_prop }
-###### Proposition
+\begin{proposition}
+  A [[faithful functor]] reflects [[epimorphisms]] and [[monomorphisms]].
+\end{proposition}
 
-A [[faithful functor]] reflects [[epimorphisms]] and [[monomorphisms]].
-
-=--
-
-(The simple proof is spelled out [here](epimorphism#EpimorphismsAreReflectedByFaithfulFunctors) at _[[epimorphism]]_.)
+The simple proof is spelled out [here](epimorphism#EpimorphismsAreReflectedByFaithfulFunctors) at _[[epimorphism]]_.
 
 
-+-- {: .num_example #FullSubcategoryInclusionsReflectCoLimits}
-###### Example
-
-A [[fully faithful functor]] (hence a [[full subcategory]] inclusion) reflects all limits and colimits.
-
-=--
+\begin{example}
+  \label{FullSubcategoryInclusionReflectCoLimits}
+  A [[fully faithful functor]] (hence a [[full subcategory]] inclusion) reflects all limits and colimits.
+\end{example}
 
 This is evident from inspection of the defining [[universal property]].
 
+\begin{proposition}
+  \label{ConservativeFunctors}
+  A [[conservative functor]] reflects any limits which exist in its domain and that it [[preserved limit|preserves]].
+\end{proposition}
 
-+-- {: .num_prop #ConservativeFunctors}
-###### Proposition
-
-A [[conservative functor]] reflects any limits which exist in its domain and that it [[preserved limit|preserves]].  
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-If $J$ in def. \ref{ReflectedLimit} has some limit $\theta$ which is preserved by $F$, then there is a unique induced map $\eta\to\theta$ by the universal property of a limit, which becomes an isomorphism in $D$ since $F \cdot \eta$ and $F\cdot \theta$ are both limits of $F\circ J$; hence if $F$ is conservative then it must already have been an isomorphism in $C$, and so $\eta$ was already also a limit of $J$.
-
-=--
-
+\begin{proof}
+  If $J$ in def. \ref{ReflectedLimit} has some limit $\theta$ which is preserved by $F$, then there is a unique induced map $\eta\to\theta$ by the universal property of a limit, which becomes an isomorphism in $D$ since $F \cdot \eta$ and $F\cdot \theta$ are both limits of $F\circ J$; hence if $F$ is conservative then it must already have been an isomorphism in $C$, and so $\eta$ was already also a limit of $J$.
+\end{proof}
 
 ## Related pages
 
