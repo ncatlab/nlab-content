@@ -9,9 +9,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -309,9 +309,16 @@ The algebra of smooth functions of just _locally_ finite order on the jet bundle
 
 Discussion of finite-order jet bundles in tems of [[synthetic differential geometry]] is in 
 
-* {#Kock80} [[Anders Kock]], _Formal manifolds and synthetic theory of jet bundles_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1980) Volume: 21, Issue: 3 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_3_227_0))
+* {#Kock80} [[Anders Kock]]: *Formal manifolds and synthetic theory of jet bundles*, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1980) **21** 3 &lbrack;[numdam:CTGDC_1980__21_3_227_0](http://www.numdam.org/item?id=CTGDC_1980__21_3_227_0)&rbrack;
 
-* {#Kock10} [[Anders Kock]], section 2.7 of _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+* {#Kock10} [[Anders Kock]]; section 2.7 of: _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics **180** (2010) &lbrack;[pdf](http://home.imf.au.dk/kock/SGM-final.pdf)&rbrack;
+
+and of infinite-order jet bundles in:
+
+* [[Igor Khavkine]], [[Urs Schreiber]]: *[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations -- Jets and comonad structure]]*, J. Geom. Phys. (2026) &lbrack;[arXiv:1701.06238](https://arxiv.org/abs/1701.06238)&rbrack;
+
+* [[Grigorios Giotopoulos]], [[Igor Khavkine]], [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Synthetic Differential Jet Bundles are Reduced]]* &lbrack;[arXiv:2601.15862](https://arxiv.org/abs/2601.15862)&rbrack;
+
 
 The [[jet comonad]] structure on the jet operation in the context of differential geometry is made explicit in 
 
@@ -322,8 +329,7 @@ The [[jet comonad]] structure on the jet operation in the context of differentia
 with further developments in 
 
 * {#Marvan89} [[Michal Marvan]] _On the horizontal cohomology with general coefficients_, 1989 ([web announcement](http://old.math.slu.cz/People/MichalMarvan/Annotations/horizontal.php), [web archive](http://dml.cz/dmlcz/701469))
-
-  **Abstract:** In the present paper the horizontal cohomology theory is interpreted as a special case of the Van Osdol bicohomology theory applied to what we call a "jet comonad". It follows that differential equations have well-defined cohomology groups with coefficients in linear differential equations. 
+  > **Abstract:** In the present paper the horizontal cohomology theory is interpreted as a special case of the Van Osdol bicohomology theory applied to what we call a "jet comonad". It follows that differential equations have well-defined cohomology groups with coefficients in linear differential equations. 
 
 * {#Marvan93} [[Michal Marvan]], section 1.1 of _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
 
