@@ -165,6 +165,11 @@ Subtleties with the Schr&#246;dinger picture for [[field theory]] in [[spacetime
 [[!redirects picture of quantum mechanics]]
 
 [[!redirects Heisenberg picture]]
+
 [[!redirects Schrödinger picture]]
 [[!redirects Schroedinger picture]]
 [[!redirects Schrodinger picture]]
+
+[[!redirects Schrödinger picture of quantum mechanics]]
+[[!redirects Schroedinger picture of quantum mechanics]]
+[[!redirects Schrodinger picture of quantum mechanics]]
