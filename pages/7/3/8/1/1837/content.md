@@ -250,15 +250,6 @@ See also:
 
 * [[David Tong]]: *Lectures on Gauge Theory* &lbrack;[webpage](https://www.damtp.cam.ac.uk/user/tong/gaugetheory.html)&rbrack;
 
-On the [[canonical quantization]] of gauge theories:
-
-* P. Hasenfratz, P. Hraskó: *Canonical quantization of gauge theories*, Phys. Rev. D **13** (1976) 2235 &lbrack;[doi:10.1103/PhysRevD.13.2235](https://doi.org/10.1103/PhysRevD.13.2235)&rbrack;
-
-* [[Daniel N. Blaschke]], Francois Gieres: *On the canonical formulation of gauge field theories and Poincaré transformations*, Nucl. Phys. B **965** (2021) 115366 \[<a href="https://doi.org/10.1016/j.nuclphysb.2021.115366">doi:10.1016/j.nuclphysb.2021.115366</a>, [arXiv:2004.14406](https://arxiv.org/abs/2004.14406)\]
-
-
-
-
 
 On the [[BV-BRST formalism]] for the [[quantization]] of gauge theories
 
@@ -282,6 +273,11 @@ Discussion of abelian [[higher gauge theory]] in terms of [[differential cohomol
 For discussion in the context of [[gravity]] see also
 
 * {#Witten17} [[Edward Witten]], _Symmetry and Emergence_ ([arXiv:1710.01791](https://arxiv.org/abs/1710.01791))
+
+
+
+[[!include canonical quantization of gauge theories -- references]]
+
 
 
 ### In AQFT
