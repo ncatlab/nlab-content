@@ -119,6 +119,10 @@ First works on coherent sheaves in complex analytic geometry. Serre adapted thei
 * [[EGA]] 0.5.3.1
 * Qing Liu, _Algebraic geometry and arithmetic curves_, 5.1.3
 
+An article which is considering coherent modules over noncommutative unital rings and sheaves is 
+
+* B. Kaup, _Coherent $\mathcal{D}$-modules_, Ch. 2 in A. Borel et. al. Algebraic D-modules, Acad. Press 1987
+
 Categories of ind-coherent sheaves on schemes and stacks are studied  in [[Dennis Gaitsgory]], _Notes on Geometric Langlands: ind-coherent sheaves_, [arxiv/1105.4857](http://arxiv.org/abs/1105.4857)
 
 Discussion in [[(∞,1)-topos theory]]
