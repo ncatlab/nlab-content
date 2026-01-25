@@ -16,11 +16,27 @@
 
 ## Definition
 
-Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]], and suppose that the composite $F \circ J$ has a [[limit]].  We say that $F$ **creates** this limit if $J$ has a limit, and $F$ both [[preserved limit|preserves]] and [[reflected limit|reflects]] limits of $J$.  The latter two conditions together mean that a [[cone]] over $J$ in $C$ is a limiting cone if and only if its image in $D$ is a limiting cone over $F\circ J$.
+\begin{definition}
+  \label{CreatedLimit}
+  Let $F\colon C \to D$ be a [[functor]] and $J\colon I \to C$ a [[diagram]]. We say that $F$ __creates__ limits of $J$ if it both [[lifted limit|lifts]] and [[reflected limit|reflects]] limits of $J$.
+\end{definition}
+
+Explicitly, this says that any [[limit|limiting]] [[cone]] $(d, \eta)$ for $F \circ J$ has, up to isomorphism, a unique cone $(c, \alpha)$ over $J$ with $(F c, F \cdot \alpha) \cong (d, \eta)$ in the category of cones over $F \circ J$, and moreover $(c, \alpha)$ is limiting. This implies that a cone over $J$ in $C$ is limiting if and only if its image in $D$ is limiting.
 
 Of course, a functor $F$ creates a [[colimit]] if $F^{op}$ creates the corresponding limit.
 
 If $F$ creates all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ creates that sort of limit (e.g. $F$ creates products, $F$ creates equalizers, etc.).
+
+\begin{remark}
+  Suppose $F$ creates limits of $J$, and $F \circ J$ has at least one limiting cone. Then $F$ additionally __[[preserved limit|preserves]]__ limits of $J$.
+\label{vacuous}
+\end{remark}
+
+This follows from [[lifted limit#vacuousPreserve|this remark]] on the page for [[lifted limit|lifting of limits]]. Thus, creation of limits either holds vacuously, or holds together with preservation.
+
+\begin{remark}
+  Sometimes, we additionally require $F \circ J$ to have a limit for $F$ to creates limits of $J$. In that case, creation is equivalent to preservation, reflection and lifting.
+\end{remark}
 
 ## Examples
 
@@ -52,10 +68,6 @@ In [[Categories Work]] the convention is that a functor creates *all* limits tha
 On the other hand, one might argue that it doesn't make sense to regard a limit that exists in the domain as being "created by the functor" if the limit in the codomain doesn't even exist.  In this case the more generally applicable definition could be stated as "$F$ creates limits for $J$ if $J$ has a limit whenever $F\circ J$ has a limit, and *furthermore in all cases* limits of $J$ are preserved and reflected by $F$."
 
 Finally, one might even argue that based on the meaning of the English word "created", only something that exists can be created at all.  In this case the more generally applicable definition could be stated as "$F$ creates limits for $J$ if $J$ and $F\circ J$ both have limits, and furthermore limits of $J$ are preserved and reflected by $F$."
-
-#### Relation to lifting limits
-
-If $F$ creates limits for $J$, then it necessarily [[lifted limit|lifts]] limits for $J$ as well. Conversely, so long as $F \circ J$ has a limit, creation of limits for $J$ is equivalent to lifting and reflection of limits for $J$. Thus, one could give an alternative definition for limit creation by saying "$F$ creates limits for $J$ iff it lifts and reflects limits for $J$", which also applies to the case of non-existing limits.
 
 ### Strictness
 
