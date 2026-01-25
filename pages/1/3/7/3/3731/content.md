@@ -9,7 +9,7 @@
 
 There are many examples that the objects of [[additive categories]] (abelian, abelian tensor categories, triangulated etc.) are equipped with **slope filtrations**, which are labelled by **real** numbers. 
 
-Slope is here related to [[Bridgeland stability]]. For instance [[stable coherent sheaf|stability of coherent sheaves]] in the case of [[slope of coherent sheaves]]
+Slope is here related to [[Bridgeland stability]]. For instance [[stable coherent sheaf|stability of coherent sheaves]] in the case of [[slope of a coherent sheaf|slope of coherent sheaves]]
 
 The _Stokes phenomenon_ in the study of asymptotics of differential equations may be regarded as a similar structure on the [[D-modules]] (or by the [[Riemann-Hilbert correspondence]], on the object in certain category  of monodromy data), which correspond to the solutions of differential equations. 
 
