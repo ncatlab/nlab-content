@@ -1094,6 +1094,8 @@ _[string -- Symplectic geometry and geometric quantization](string#ReferencesSym
 
 ## Related concepts
 
+* [[canonical quantization]]
+
 * [[Bohr-Sommerfeld quantization]]
 
 * [[fiber bundles in physics]]
