@@ -1156,6 +1156,8 @@ and of [[2d QCD]] ([[AdS/QCD]]):
 [[!redirects Chern–Simons theory]]
 [[!redirects Chern--Simons theory]]
 
+[[!redirects 3D Chern-Simons theory]]
+
 [[!redirects Chern-Simons action functional]]
 [[!redirects Chern-Simons theory action functional]]
 [[!redirects Chern-Simons functional]]
