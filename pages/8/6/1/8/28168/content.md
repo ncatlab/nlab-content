@@ -16,13 +16,14 @@ On canonical quantization of [[gauge theories]] with [[Gauss law]] [[constrained
 
 * [[Kurt Haller]]: *Yang-Mills theory and quantum chromodynamics in the temporal gauge*, Phys. Rev. D **36** (1987) 1839 \[<a href="https://doi.org/10.1103/PhysRevD.36.1839">doi:10.1103/PhysRevD.36.1839</a>\]
 
+* [[Marc Henneaux]], [[Claudio Teitelboim]]; §19.1.1 in:  *[[Quantization of Gauge Systems]]*, Princeton University Press (1992) &lbrack;[doi:10.2307/j.ctv10crg0r](https://doi.org/10.2307/j.ctv10crg0r)&rbrack;
+
 * {#Haagensen93} P. E. Haagensen, *On The Exact Implementation Of Gauss' Law In Yang-Mills Theory* \[<a href="https://arxiv.org/abs/hep-ph/9307319">arXiv:hep-ph/9307319</a>\]
 
 * [[Sarada G. Rajeev]], O. T. Turgut, *Poisson Algebra of Wilson Loops in Four-Dimensional Yang-Mills Theory*, Int. J. Mod. Phys. A **10** (1995) 2479 \[<a href="https://doi.org/10.1142/S0217751X95001194">doi:10.1142/S0217751X95001194</a>, [arXiv:hep-th/9410053](https://arxiv.org/abs/hep-th/9410053)\]
   > (in [[light-front formalism]])
 
 * [[Jonathan Dimock]]: *Canonical Quantization of Yang-Mills on a circle*,  Reviews in Mathematical Physics **08** 01 (1996) 85-102 \[<a href="https://doi.org/10.1142/S0129055X96000044">doi:10.1142/S0129055X96000044</a>\]
-
 
 * {#Corichi98} [[Alejandro Corichi]], *Introduction to the Fock Quantization of the Maxwell Field*, Rev. Mex. Fis. **44**  4  (1998) 402-412 \[<a href="https://arxiv.org/abs/physics/9804018">arXiv:physics/9804018</a>\]
 
