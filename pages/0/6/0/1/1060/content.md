@@ -66,7 +66,7 @@ $$
 such that there is a [[natural isomorphism]]
 
 $$
-  \mathcal{C}(A \otimes B, C^\ast) \simeq \mathcal{C}(A, (B\otimes C)^\ast)
+  \mathcal{C}(A \otimes B, C^\ast) \cong \mathcal{C}(A, (B\otimes C)^\ast)
   \,.
 $$
 
@@ -118,7 +118,7 @@ Conversely, given the latter then the [[dualizing object]] $\bot$ is defined as 
 A $\ast$-autonomous category in which the [[tensor product]] is compatible with duality in that there is a [[natural isomorphism]]
 
 $$
-  (A \otimes B)^\ast \simeq A^\ast \otimes B^\ast
+  (A \otimes B)^\ast \cong A^\ast \otimes B^\ast
 $$
 
 is a [[compact closed category]].  This follows from a stronger result of Dold and Puppe [DP83]{#DP83}.
