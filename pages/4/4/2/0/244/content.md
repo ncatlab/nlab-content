@@ -251,6 +251,8 @@ The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $
 
   * [[symmetric monoidal dagger category]]
 
+* [[braided monoidal category]]
+
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
 * [[symmetric monoidal closed category]]
