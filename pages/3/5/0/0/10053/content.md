@@ -74,6 +74,20 @@ See also:
 
 
 
+### For 2D YM theory
+
+For [[D=2 Yang-Mills theory]]:
+
+* Leonard Gross, Christopher King, [[Ambar N. Sengupta]]: _Two dimensional Yang-Mills theory via stochastic differential equations_, Annals of Physics **194** 1 (1989) 65–112 &lbrack;<a href="https://doi.org/10.1016/0003-4916(89)90032-8">doi:10.1016/0003-4916(89)90032-8</a>&rbrack;
+
+* {#Sengupta1992} [[Ambar Sengupta]], *The Yang-Mills measure for $S^2$*, Journal of Functional Analysis **108**  2 (1992) 231–273 \[<a href="https://doi.org/10.1016/0022-1236(92)90025-E">doi;10.1016/0022-1236(92)90025-E</a>\]
+
+* [[Ambar Sengupta]]: _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics **221** 1 (1993) 17–52 &lbrack;[doi:10.1006/aphy.1993.1002](https://doi.org/10.1006/aphy.1993.1002)&rbrack;
+
+* [[Ambar Sengupta]]: *Quantum Gauge Theory on Compact Surfaces*, Memoirs of the AMS **126** (1997) &lbrack;[ISBN:978-1-4704-0185-6](https://bookstore.ams.org/memo-126-600), <a href="https://doi.org/10.1006/aphy.1993.1002">doi:10.1006/aphy.1993.1002</a>&rbrack;
+
+
+
 ### For 3D YM theory
 
 Discussion for [[D=3 Yang-Mills theory]]:
@@ -90,7 +104,7 @@ Review:
 
 
 
-### For YM-CS theory
+### For 3D YM-CS theory
 
 On rigorous construction of [[path integral]] [[measures]] for [[2D Yang-Mills theory]] (at least for 2D [[Maxwell theory]]) [[invariant]] under [[area-preserving diffeomorphisms]]:
 
