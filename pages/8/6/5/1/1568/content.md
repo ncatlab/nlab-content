@@ -20,7 +20,7 @@ A __right ideal__ in $R$ is a subset $I$ such that:
 
 *  $0 \in I$;
 *  $x + y \in I$ whenever $x, y \in I$;
-*  $x y \in I$ whenever $x \in I$.
+*  $x y \in I$ whenever $x \in I$, regardless of whether $y \in I$.
 
 A __two-sided ideal__ in $R$ is a subset $I$ that is both a left and right ideal; that is:
 
