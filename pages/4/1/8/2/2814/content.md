@@ -37,7 +37,7 @@ together with coherence [[maps]]:
 1. a [[morphism]]
 
    $$
-     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
+     \eta \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
    $$  
 
 1. a [[natural transformation]]
@@ -88,7 +88,7 @@ satisfying the following conditions:
    $$
      \array{
        1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
-         &\overset{\epsilon \otimes id}{\longrightarrow}&
+         &\overset{\eta \otimes id}{\longrightarrow}&
        F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
        \\
        {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow 
@@ -106,7 +106,7 @@ satisfying the following conditions:
    $$
      \array{
        F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
-         &\overset{id \otimes \epsilon }{\longrightarrow}&
+         &\overset{id \otimes \eta }{\longrightarrow}&
        F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}}) 
        \\
        {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow 
@@ -121,7 +121,7 @@ satisfying the following conditions:
 
    where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
 
-{#StrictMonoidalFunctor} If $\epsilon$ and all $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
+{#StrictMonoidalFunctor} If $\eta$ and all $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
 
 > (Beware that it has also become common to say "strong monoidal functor" for monoidal functors with *[[tensorial strength]]*, which is different.)   
 
@@ -382,4 +382,3 @@ Exposition of basics of [[monoidal categories]] and [[categorical algebra]]:
 [[!redirects strict monoidal functors]]
 [[!redirects strong monoidal functors]]
 [[!redirects weak monoidal functors]]
-[[!redirects strength]]
