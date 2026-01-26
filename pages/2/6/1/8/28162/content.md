@@ -10,6 +10,11 @@ Dimitra Karabali
 
 ## Selected writings
 
+On [[W-infinity algebra|$W_\infty$-algebra]] symmetry in [[fractional quantum Hall systems]]:
+
+* Satoshi Iso, [[Dimitra Karabali]], B. Sakita: *Fermions in the lowest Landau level. Bosonization, $W_\infty$ algebra, droplets, chiral bosons*, Physics Letters B **296** 1–2 (1992) 143-150 \[<a href="https://doi.org/10.1016/0370-2693(92)90816-M">doi:10.1016/0370-2693(92)90816-M</a>\]
+
+
 On rigorous analysis of [[D=3 Yang-Mills theory]] ([[constructive field theory]]) including discussion of the [[Yang-Mills mass gap]]:
 
 * [[Dimitra Karabali]], [[V. Parameswaran Nair]]: *On the origin of the mass gap for non-Abelian gauge theories in (2+1) dimensions*, Phys.Lett. B **379** (1996) 141-147 \[<a href="https://doi.org/10.1016/0370-2693(96)00422-4">doi:10.1016/0370-2693(96)00422-4</a>, [arXiv:hep-th/9602155](https://arxiv.org/abs/hep-th/9602155)\]
