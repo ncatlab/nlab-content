@@ -14,7 +14,7 @@ Ambar Niel Sengupta
 ## Selected writings
 
 
-On rigorous [[path integral]] [[measures]]/[[quantization]] for/of [[2D Yang-Mills theory]]:
+On rigorous [[path integral]] [[measures]]/[[quantization]] for/of [[2D Yang-Mills theory]] ([[constructive quantum field theory]]):
 
 * Leonard Gross, Christopher King, [[Ambar N. Sengupta]]: _Two dimensional Yang-Mills theory via stochastic differential equations_, Annals of Physics **194** 1 (1989) 65–112 &lbrack;<a href="https://doi.org/10.1016/0003-4916(89)90032-8">doi:10.1016/0003-4916(89)90032-8</a>&rbrack;
 
@@ -22,7 +22,7 @@ On rigorous [[path integral]] [[measures]]/[[quantization]] for/of [[2D Yang-Mil
 
 * [[Ambar Sengupta]]: _Quantum Gauge Theory on Compact Surfaces_, Annals of Physics **221** 1 (1993) 17–52 &lbrack;[doi:10.1006/aphy.1993.1002](https://doi.org/10.1006/aphy.1993.1002)&rbrack;
 
-* [[Ambar Sengupta]]: *Quantum Gauge Theory on Compact Surfaces*, Memoirs of the AMS **126** (1997) &lbrack;[ISBN:978-1-4704-0185-6](https://bookstore.ams.org/memo-126-600)&rbrack;
+* [[Ambar Sengupta]]: *Quantum Gauge Theory on Compact Surfaces*, Memoirs of the AMS **126** (1997) &lbrack;[ISBN:978-1-4704-0185-6](https://bookstore.ams.org/memo-126-600), <a href="https://doi.org/10.1006/aphy.1993.1002">doi:10.1006/aphy.1993.1002</a>&rbrack;
 
 
 On the [[representation theory]] of [[finite groups]]:
