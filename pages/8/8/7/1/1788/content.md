@@ -8,7 +8,10 @@
 ***
 
 
-[[canonical quantization of gauge theories -- references]]
+### Gaussian measures
+
+* Hui-Hsiung Kuo: *Gaussian Measures in Banach Spaces*, Lecture Notes in Mathematics **463**, Springer (1975) &lbrack;[doi:10.1007/BFb0082007](https://doi.org/10.1007/BFb0082007)&rbrack; 
+
 
 ### FQH Excitation modes
 
