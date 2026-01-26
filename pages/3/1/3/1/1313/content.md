@@ -123,8 +123,8 @@ $$ hom_C(Z,X^Y) \cong hom_C(Z \times Y,X) $$
 is a [[natural isomorphism]] of sets. This isomorphism can be internalized to an isomorphism in $C$:
 $$(X^Y)^Z \cong X^{Y\times Z}$$
 by the [[Yoneda lemma]], it suffices to construct a natural isomorphism between the presheaves they represent:
-$$hom_C(W, (X^Y)^Z) \cong hom_C(W\times Z) , X^Y) \cong hom_C((W \times Z) \times Y , X) \cong hom_C(W\times(Z\times Y), X) \cong \cong hom_C(W\times(Y\times Z), X) \cong hom_C(W, X^(Y\times Z)).$$
-In fact if we remove the final step, this argument shows that $$(X^Y)^Z$$ is the exponential of $X$ to the power of $(Y\times Z)$, showing that exponentiable objects are closed under products. A similar argument shows that $X \cong X^1$ where $1$ is a [[terminal object]]. Therefore any finite product of exponentiable objects is exponentiable.
+$$hom_C(W, (X^Y)^Z) \cong hom_C(W\times Z) , X^Y) \cong hom_C((W \times Z) \times Y , X) \cong hom_C(W\times(Y\times Z), X) \cong hom_C(W, X^{Y\times Z}).$$
+In fact if we remove the final step, this argument shows that $(X^Y)^Z$ is the exponential of $X$ to the power of $Y\times Z$, showing that exponentiable objects are closed under products. A similar argument shows that $X \cong X^1$ where $1$ is a [[terminal object]]. Therefore any finite product of exponentiable objects is exponentiable.
 
 Other natural isomorphisms that match equations from ordinary algebra include:
 
