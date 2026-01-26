@@ -1,5 +1,5 @@
 
-> Beware that there is also a(nother) notion of *[[strong monoidal functor]]*.
+> Beware that (pseudo) [[monoidal functors]] are also called *[[strong monoidal functor]]*, but this is unrelated to the notion of (tensorial) strength.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
