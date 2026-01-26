@@ -123,7 +123,7 @@ whence often also called here the *GMP algebra*.
 
 Further discussion:
 
-* Satoshi Iso, Dimitra Karabali, B. Sakita: *Fermions in the lowest Landau level. Bosonization, $W_\infty$ algebra, droplets, chiral bosons*, Physics Letters B **296** 1–2 (1992) 143-150 \[<a href="https://doi.org/10.1016/0370-2693(92)90816-M">doi:10.1016/0370-2693(92)90816-M</a>\]
+* Satoshi Iso, [[Dimitra Karabali]], B. Sakita: *Fermions in the lowest Landau level. Bosonization, $W_\infty$ algebra, droplets, chiral bosons*, Physics Letters B **296** 1–2 (1992) 143-150 \[<a href="https://doi.org/10.1016/0370-2693(92)90816-M">doi:10.1016/0370-2693(92)90816-M</a>\]
 
 * [[Andrea Cappelli]], [[Carlo A. Trugenberger]], G. R. Zemba: *Infinite Symmetry in the Quantum Hall Effect*, Nucl. Phys. B **396** (1993) 465-490 \[<a href="https://doi.org/10.1016/0550-3213(93)90660-H">doi:10.1016/0550-3213(93)90660-H</a>, [arXiv:hep-th/9206027](https://arxiv.org/abs/hep-th/9206027)\]
 
