@@ -52,7 +52,12 @@ Further discussion:
 
 See also:
 
-* Jeremias Aguilera Damia, Giovanni Galati, Luigi Tizzano. *Symmetries, Universes and Phases of $\text{QCD}_2$ with an Adjoint Dirac Fermion* (2024). ([arXiv:2409.17989](https://arxiv.org/abs/2409.17989)).
+* Jeremias Aguilera Damia, Giovanni Galati, Luigi Tizzano: *Symmetries, Universes and Phases of $\text{QCD}_2$ with an Adjoint Dirac Fermion* &lbrack;[arXiv:2409.17989](https://arxiv.org/abs/2409.17989)&rbrack;
+
+With an [[energy gap]]:
+
+* Ross Dempsey, Anna-Maria E. Glück, Silviu S. Pufu, Benjamin T. Søgaard: *Vacuum structure of gapped QCD theories from the infinite Hamiltonian lattice* &lbrack;[arXiv:2601.16262](https://arxiv.org/abs/2601.16262)&rbrack;
+
 
 
 
