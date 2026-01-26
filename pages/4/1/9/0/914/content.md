@@ -113,7 +113,7 @@ $$
 +-- {: .num_defn #Net}
 ###### Definition
 
-For $X$ a [[set]], then a _net_ in $X$ is 
+For $X$ a [[set]], then a _net_ in $X$ consists of the following: 
 
 1. a [[directed set]] $A$ (def. \ref{DirectedSet}), called the _index set_,
 
