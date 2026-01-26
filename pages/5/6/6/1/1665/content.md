@@ -88,7 +88,7 @@ Dual to the situation in Kan extensions, one is interested in whether a Kan lift
 
 - given $(\widetilde{f}, \varepsilon) = \mathop{Rift}_p f$, $g$ is said to _respect_ this right lift if $(\widetilde{f}g, \varepsilon \bullet g) = \mathop{Rift}_p(f g)$
 
-and analogously for left Kan lifts. A Kan lift $\widehat{f}$ is _absolute_ if it is respected by any 1-cell into $\mathop{dom}(\widehat{f})$. Absolute Kan lifts subsume adjunctions and relative adjunctions, and are prominently present in the axioms of a [[Yoneda structure]]; for more see the examples below.
+and analogously for left Kan lifts. A Kan lift $\widehat{f}$ is _absolute_ if it is respected by any 1-cell into $\mathop{dom}(\widehat{f})$. Absolute Kan lifts subsume [[adjunctions]] and [[relative adjunctions]], and are prominently present in the axioms of a [[Yoneda structure]]; for more see the examples below.
 
 ## Examples ## 
 
@@ -113,6 +113,10 @@ $$\forall_{d: D} r(d, c) \Rightarrow s(d, b)$$
 $$y_A \to B(F-, -) \circ f$$ 
 (essentially, $hom(a, b) \to hom(F a, F b)$ taking $f: a \to b$ to $F f: F a \to F b$). This arrow exhibits $F$ as a left Kan lift of $y$ through $B(F-, -)$, which is moreover absolute. This example is important in the theory of [[Yoneda structure|Yoneda structures]], due to Street and Walters; see Mark Weber's updated [development](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf) in the context of 2-topos theory.
 
+## Related concepts
+
+* [[relative adjunction]]
+
 ## References
 
 Kan lifts were mentioned in passing in Definition I.12.6 of:
@@ -132,6 +136,10 @@ The terminology "Kan lifting" is used in:
 The terminology "Kan lift" seems to first appear in:
 
 * Weng Kin Ho, *Characterising E-projectives via Co-monads*, Electronic Notes in Theoretical Computer Science **301** (2014) 61-77 &lbrack;[doi:10.1016/j.entcs.2014.01.006](https://doi.org/10.1016/j.entcs.2014.01.006)&rbrack;
+
+In Remark 5.9 of the following paper, it is observed that the *pointwise* analogue of Kan lifts (corresponding to the pointwise notion of [[Kan extension]]) is precisely the notion of [[relative adjunction]]:
+
+* [[Nathanael Arkor]], [[Dylan McDermott]], _The formal theory of relative monads_, Journal of Pure and Applied Algebra 107676. (2024) &lbrack;[arXiv:2302.14014](https://arxiv.org/abs/2302.14014)&rbrack.
 
 [[!redirects Kan lifts]]
 [[!redirects Kan lifting]]
