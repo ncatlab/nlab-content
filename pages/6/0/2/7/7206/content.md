@@ -178,6 +178,10 @@ Review of the [[superspace]] formulations:
 
 * S. M. Kuzenko, E. S. N. Raptakis, G. Tartaglino-Mazzucchelli, *Covariant superspace approaches to $\mathcal{N}=2$ supergravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2211.11162](https://arxiv.org/abs/2211.11162)&rbrack;
 
+In [[de Sitter spacetime]]:
+
+* Nicolas Boulanger, Vasileios A. Letsios, Sylvain Thomée: *The complete action for $\mathcal{N}=2$ de Sitter pure supergravity* &lbrack;[arXiv:2601.16891](https://arxiv.org/abs/2601.16891)&rbrack;
+
 
 
 
