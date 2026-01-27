@@ -1,9 +1,11 @@
-* [Webpage](https://sites.google.com/view/moreno-fernandez/home)
 
+* [personal page](https://sites.google.com/view/moreno-fernandez/home)
 
 * [GoogleScholar page](https://scholar.google.com/citations?user=DZiEgu4AAAAJ)
 
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=236068)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Jose-Manuel-Fernandez-6)
 
 
 ## Selected writings
