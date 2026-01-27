@@ -21,6 +21,11 @@ Lifting of the theorem [Milnor & Moore, 1965 (Appendix)](Pontrjagin+ring#MilnorM
 
 * [[José M. Moreno-Fernández]], *The Milnor-Moore theorem for $L_\infty$-algebras in rational homotopy theory*, Mathematische Zeitschrift **300** (2022) 2147–2165  &lbrack;[arXiv:1904.12530](https://arxiv.org/abs/1904.12530), [doi:10.1007/s00209-021-02838-z](https://doi.org/10.1007/s00209-021-02838-z)&rbrack;
 
+On [[model structures on equivariant dgc-algebras]]:
+
+* [[José M. Moreno-Fernández]], [[Bruno Stonek]]: *Algebraic models for equivariant rational homotopy theory for discrete groups* &lbrack;[arXiv:2601.17345](https://arxiv.org/abs/2601.17345)&rbrack;
+
+
 
 category: people
 
