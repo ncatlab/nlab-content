@@ -4510,6 +4510,20 @@ Nov 2025
 
 \linebreak
 
+### Jan 2026
+
+* {#NeemanJan2026} 26 Jan 2026
+
+  [[Amnon Neeman]] (University of Milano): 
+
+  **Excellent metrics and enhancements **
+
+  cf.: [arXiv:1901.01453](https://arxiv.org/abs/1901.01453), [arXiv:2505.09120](https://arxiv.org/abs/2505.09120), 
+
+  > [[metric on a category|Metrics on categories]]$\;$[go back to the 1970s](metric+on+a+category#Lawvere1973). In 2018, I proved that a certain completion of a [[triangulated category]], with respect to a good metric, has a natural [[triangulated category|triangulated structure]]. We will give a brief review of the 2018 results. The recent work, which we will attempt to sketch, shows two things: It describes conditions on the metric, which guarantee that the construction is [[involution|involutive]]. It shows a compatibility with [[dg-category|dg]] and [[stable infinity-category|stable-infinity]] [[enhanced triangulated category|enhancements]]. And this gives a powerful tool for proving new uniqueness-of-[[enhanced triangulated category|enhancement]] results.
+
+\linebreak
+
 
 
 \linebreak  
