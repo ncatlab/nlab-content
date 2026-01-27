@@ -1,5 +1,5 @@
 
-__Gottfried Leibniz__ (1646-1716) 
+__Gottfried Wilhelm Leibniz__ (1646-1716) 
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz)
 
@@ -9,7 +9,7 @@ is responsible for a great many constructions and concepts of current interest:
 
 *  the [[product rule]] of calculus may be called the _Leibniz rule_ or _Leibniz law_;
 
-*  [[differentiation under the integral sign]] follows the _Leibniz integral rule_;
+*  differentiation under the integral sign follows the _Leibniz integral rule_;
 
 *  [[identity of indiscernibles]] may be called the _Leibniz law_;
 *  a version of [[infinitesimals]] sometimes regarded as a precursor to [[synthetic differential geometry]];
@@ -43,8 +43,9 @@ On [[infinitesimals]]:
 category: people
 
 [[!redirects Gottfried Wilhelm Leibniz]]
+[[!redirects Gottfried W. Leibniz]]
 [[!redirects Gottfried Leibniz]]
+[[!redirects G. W. Leibniz]]
 [[!redirects Leibniz]]
 
-[[!redirects G. W. Leibniz]]
 
