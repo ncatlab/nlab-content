@@ -249,6 +249,8 @@ General review:
 
 * [[Subir Sarkar]]: *A challenge to the cosmological standard model*, lectures (2023) &lbrack;[webpage](https://enabla.com/en/pub/1065/about), [pdf](https://enabla-s3.fra1.cdn.digitaloceanspaces.com/p/lecture/1065/additional/Presentation_Subir_Sarkar.pdf)&rbrack;
 
+* [[Subir Sarkar]]: *We Need to Go Back to Square One*, guest appearance on *Theories of Everything* with Curt Jaimungal (Jan 2026) &lbrack;[yt](https://youtu.be/epkuoytFJWA)&rbrack;
+
 
 
 On [[computer experiment]]:
