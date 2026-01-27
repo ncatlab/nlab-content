@@ -130,7 +130,7 @@ See also
 
 * {#Low16} [[Zhen Lin Low]], _Categories of spaces built from local models_, doctoral thesis (2016) ([web](https://www.repository.cam.ac.uk/handle/1810/256998),[doi.org/10.17863/CAM.384](https://doi.org/10.17863/CAM.384))
 
-* {#Blechschmidt17}[[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, doctoral thesis (2017) ([web](https://rawgit.com/iblech/internal-methods/master/notes.pdf))
+* {#Blechschmidt17}[[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, doctoral thesis (2017) ([arXiv:2111.03685](https://arxiv.org/abs/2111.03685))
 
 Exposition for [[differential geometry]], [[supergeometry]] and [[higher geometry]], with motivation from [[physics]]:
 
