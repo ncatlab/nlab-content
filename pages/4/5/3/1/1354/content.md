@@ -68,6 +68,13 @@ Brief overview and list of further references:
 
 * {#SchwedeHausmann19} [[Stefan Schwede]], [[Markus Hausmann]], _Enhancements of triangulated categories_, Graduate Seminar Topology, Bonn 2019-2020 ([[Schwede_EnhancedSeminar.pdf:file]])
 
+In relation to [[metric on a category|metrics on]] triangulated categories:
+
+* [[Amnon Neeman]]: *Metrics on triangulated categories*, J. Pure Appl. Algebra **224** 4 (2020) 106206 &lbrack;[arXiv:1901.01453](https://arxiv.org/abs/1901.01453), [doi:10.1016/j.jpaa.2019.106206](https://doi.org/10.1016/j.jpaa.2019.106206)&rbrack;
+
+* [[Amnon Neeman]]: *Excellent metrics on triangulated categories, and the involutivity of the map taking $\mathcal{S} to \mathfrak{S}({\mathcal{S})^{\mathrm{op}}}$* &lbrack;[arXiv:2505.09120](https://arxiv.org/abs/2505.09120)&rbrack;
+
+
 
 [[!redirects enhanced triangulated categories]]
 
