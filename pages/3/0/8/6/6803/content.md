@@ -76,6 +76,7 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 [[!include table of branes]]
 
 ## References
+ {#References}
 
 ### General
 
@@ -83,7 +84,8 @@ As a [[Green-Schwarz sigma-model]]:
 
 * {#APPS97b} [[Mina Aganagic]], [[Jaemo Park]], Costin Popescu, [[John Schwarz]], Section 6 of _Dual D-Brane Actions_, Nucl. Phys. B496 (1997) 215-230 ([arXiv:hep-th/9702133](https://arxiv.org/abs/hep-th/9702133))
 
-* {#Sakaguchi00} Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
+* {#Sakaguchi00} Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 &lbrack;[arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143)&rbrack;
+
 
 ### Double dimensional reduction from M5-brane
 
@@ -103,7 +105,7 @@ The relation of the [[M5-brane]] to the [[D4-brane]] and the [[D=5 super Yang-Mi
 
 ### D4-D8 intersection
 
-On [[D4-D8 bound states]]:
+On [[D4-D8 brane bound states]]:
 
 With an eye towards [[holographic QCD]]:
 
