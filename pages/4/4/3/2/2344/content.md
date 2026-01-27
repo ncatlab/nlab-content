@@ -107,9 +107,6 @@ The standard axioms are:
 
 There is substantial variation in (Der5).  Sometimes it is convenient to assume this property when $I$ is any (perhaps finite) [[free category]].  Some references do not include (Der5) at all in the definition, instead calling a derivator **strong** if it satisfies (Der5).
 
-+--{: .query}
-[[Mike Shulman]]: It's clear to me that these are desirable requirements, which are moreover satisfied by all derivators of the form $Ho(C)$, but I would really like a conceptual explanation for why these axioms are *sufficient*.
-=--
 
 It is easy to see that if $C$ has pointwise left and right Kan extensions along all functors in $Dia$, then its representable prederivator is a derivator.  Somewhat more difficult to prove is that if $C$ is a [[model category]] (or more generally, has well-behaved homotopy Kan extensions), then the prederivator $Ho(C)$ is also a derivator.  Thus the derivator encodes the notions of [[homotopy colimit]] and of [[homotopy limit]].  Note again that this way of seeing homotopy (co)limits does not use anything besides usual (2-)category theory.
 
