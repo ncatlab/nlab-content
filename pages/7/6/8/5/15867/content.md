@@ -99,6 +99,7 @@ Relation to [[L-infinity algebras|$L_\infty$-algebra]]:
 
 * {#BlumenhagenFuchsTraube17} [[Ralph Blumenhagen]], Michael Fuchs, Matthias Traube, _$\mathcal{W}$-Algebras are $L_\infty$-algebras_ &lbrack;[arXiv:1705.00736](https://arxiv.org/abs/1705.00736)&rbrack;
 
+
 ### Representation theory
 
 On the [[representation theory]]:
@@ -107,6 +108,11 @@ On the [[representation theory]]:
 
 * H. Awata, M. Fukuma, Y. Matsuo, S. Odake: *Representation Theory of The $W_{1+\infty}$ Algebra*, Prog. Theor. Phys. Suppl. **118** (1995) 343-374 \[<a href="https://doi.org/10.1143/PTPS.118.343">doi:10.1143/PTPS.118.343</a>, [arXiv:hep-th/9408158](https://arxiv.org/abs/hep-th/9408158)\]
 
+### W algebra CFT
+
+On [[2d CFT]] with extended W algebra symmetry:
+
+* Federico Ambrosino, Tomáš Procházka: *RG flows of minimal $\mathcal{W}$-algebra CFTs via non-invertible symmetries* &lbrack;[arXiv:2601.18667](https://arxiv.org/abs/2601.18667)&rbrack;
 
 
 
