@@ -2,9 +2,16 @@ Amnon Neeman
 
 * [personal page](http://wwwmaths.anu.edu.au/~neeman/)
 
-* [institute page](https://maths.anu.edu.au/people/amnon-neeman)
+* [institute page](https://www.unimi.it/en/ugov/person/amnon-neeman) (Milano)
+
+* [institute page](https://maths.anu.edu.au/people/amnon-neeman) (ANU)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Amnon_Neeman)
 
 * [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=28528)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Amnon-Neeman-9268292)
+
 
 ## Selected writing
 
@@ -27,6 +34,12 @@ On [[algebraic geometry]], [[analytic geometry]] and their relation ([[GAGA]]):
 
 * {#Neeman07} [[Amnon Neeman]]: _Algebraic and analytic geometry_, London Math. Soc. Lec. Note Series __345__, Cambridge University Press (2007) &lbrack;[ISBN:9780521709835](http://www.cambridge.org/us/academic/subjects/mathematics/geometry-and-topology/algebraic-and-analytic-geometry)&rbrack;
 
+
+Concerning [[metric on a category|metrics on]] [[triangulated categories]] in relation to their [[enhanced triangulated category|enhancement]]:
+
+* [[Amnon Neeman]]: *Metrics on triangulated categories*, J. Pure Appl. Algebra **224** 4 (2020) 106206 &lbrack;[arXiv:1901.01453](https://arxiv.org/abs/1901.01453), [doi:10.1016/j.jpaa.2019.106206](https://doi.org/10.1016/j.jpaa.2019.106206)&rbrack;
+
+* [[Amnon Neeman]]: *Excellent metrics on triangulated categories, and the involutivity of the map taking $\mathcal{S} to \mathfrak{S}({\mathcal{S})^{\mathrm{op}}}$* &lbrack;[arXiv:2505.09120](https://arxiv.org/abs/2505.09120)&rbrack;
 
 
 category: people
