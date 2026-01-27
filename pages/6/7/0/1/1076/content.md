@@ -604,6 +604,15 @@ On [[localization]] of triangulated categories:
 
 * {#Krause08} [[Henning Krause]], *Localization theory for triangulated categories*, in proceedings of *[Workshop on Triangulated Categories, Leeds 2006](https://www.commalg.org/2006/08/13/workshop-on-triangulated-categories-leeds/)* &lbrack;[arXiv:0806.1324](https://arxiv.org/abs/0806.1324)&rbrack;
 
+Concerning [[metric on a category|metrics on]] triangulated categories in relation to their [[enhanced triangulated category|enhancement]]:
+
+* [[Amnon Neeman]]: *Metrics on triangulated categories*, J. Pure Appl. Algebra **224** 4 (2020) 106206 &lbrack;[arXiv:1901.01453](https://arxiv.org/abs/1901.01453), [doi:10.1016/j.jpaa.2019.106206](https://doi.org/10.1016/j.jpaa.2019.106206)&rbrack;
+
+* [[Amnon Neeman]]: *Excellent metrics on triangulated categories, and the involutivity of the map taking $\mathcal{S} to \mathfrak{S}({\mathcal{S})^{\mathrm{op}}}$* &lbrack;[arXiv:2505.09120](https://arxiv.org/abs/2505.09120)&rbrack;
+
+
+
+
 category: triangulated categories
 
 [[!redirects triangulated categories]]
