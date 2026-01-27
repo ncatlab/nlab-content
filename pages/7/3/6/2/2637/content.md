@@ -94,7 +94,16 @@ Under passing to [[exponentials]] the canomical commutation relations are also c
 
 ## References
 
-Original discussion:
+Introducing the idea into [[quantum mechanics]] that came to be known as *[[canonical quantization]]*, the [[deformation quantization|deformation]] of [[Poisson brackets]] into [[commutators]] of [[linear operators]]:
+
+* [[P. A. M. Dirac]]: *The Fundamental Equations of Quantum Mechanics*, Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character, Vol. 109, No. 752 (Dec. 1, 1925), pp. 642-653 &lbrack;[jstor:94441](https://www.jstor.org/stable/94441), [pdf](https://www.informationphilosopher.com/solutions/scientists/dirac/Fund_QM_1925.pdf)&rbrack;
+
+as recalled in
+
+* {#Dirac1977} [[P. A. M. Dirac]]; around p. 124 of: *Recollections of an Exciting Era*, in: *Proceedings of the International School of Physics "Enrico Fermi", Course LVII, 1972--- History of Twentieth Century Physics*, Academic Press (1977) 109-146 &lbrack;[[Dirac-Recollections.pdf:file]]&rbrack;
+
+
+Further early discussion:
 
 * {#Weyl27} [[Hermann Weyl]], (36) in: *Quantenmechanik und Gruppentheorie*, Zeitschrift für Physik **46** (1927) 1–46 &lbrack;[doi:10.1007/BF02055756](https://doi.org/10.1007/BF02055756)&rbrack;
 
