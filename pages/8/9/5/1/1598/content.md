@@ -217,6 +217,18 @@ The [[exceptional Lie groups]] incude
 
 ### General
 
+The origin of the notion
+
+* [[Sophus Lie]]: *Theorie der Transformationsgruppen I*, Math. Ann. **16** (1880) 441–528 &lbrack;[doi:10.1007/BF01446218](https://doi.org/10.1007/BF01446218)&rbrack;
+
+* [[Sophus Lie]] unter Mitwirkung von Friedrich Engel: *Theorie der Transformationsgruppen*, Teubner (1888) \[<a href="https://archive.org/details/theotransformation01liesrich">ark:/13960/t25b0068w</a>\]
+
+English translation:
+
+* Joël Merker (ed.): *Theory of Transformation Groups by Sophus Lie and Friedrich Engel (Vol. I 1888)*, Springer (2015) &lbrack;[doi:10.1007/978-3-662-46211-9](https://doi.org/10.1007/978-3-662-46211-9), [arXiv:1003.3202](https://arxiv.org/pdf/1003.3202)&rbrack;
+
+Further discussion:
+
 * {#Weyl39} [[Hermann Weyl]]: *The Classical Groups -- Their Invariants and Representations*, Princeton University Press (1939) &lbrack;[jstor:j.ctv3hh48t](https://www.jstor.org/stable/j.ctv3hh48t), [pdf](https://www-fourier.ujf-grenoble.fr/~panchish/ETE%20LAMA%202018-AP/Weyl_The%20Classical%20Groups.pdf), [Wikipedia entry](https://en.wikipedia.org/wiki/The_Classical_Groups)&rbrack;
 
 * {#Serre64} [[Jean-Pierre Serre]]: *Lie Algebras and Lie Groups -- 1964 Lectures given at Harvard University*, Lecture Notes in Mathematics **1500**, Springer (1992) &lbrack;[doi:10.1007/978-3-540-70634-2](https://doi.org/10.1007/978-3-540-70634-2)&rbrack;
