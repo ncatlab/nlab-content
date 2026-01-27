@@ -38,6 +38,9 @@ Claim of establishing the mass gap for YMCS theory at a non-[[constructive field
 [[!redirects 3D Yang-Mills-Chern-Simons theory]]
 [[!redirects 3D Yang-Mills-Chern-Simons theories]]
 
+[[!redirects 3D Yang-Mills-Chern-Simon theory]]
+[[!redirects 3D Yang-Mills-Chern-Simon theories]]
+
 [[!redirects Yang-Mill-Chern-Simons theory]]
 [[!redirects Yang-Mill-Chern-Simons theories]]
 
