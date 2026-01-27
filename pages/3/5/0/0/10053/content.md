@@ -86,35 +86,22 @@ For [[D=2 Yang-Mills theory]]:
 
 * [[Ambar Sengupta]]: *Quantum Gauge Theory on Compact Surfaces*, Memoirs of the AMS **126** (1997) &lbrack;[ISBN:978-1-4704-0185-6](https://bookstore.ams.org/memo-126-600), <a href="https://doi.org/10.1006/aphy.1993.1002">doi:10.1006/aphy.1993.1002</a>&rbrack;
 
-
-
-### For 3D YM theory
-
-Discussion for [[D=3 Yang-Mills theory]]:
-
-* [[Dimitra Karabali]], [[V. Parameswaran Nair]]: *On the origin of the mass gap for non-Abelian gauge theories in (2+1) dimensions*, Phys.Lett. B **379** (1996) 141-147 \[<a href="https://doi.org/10.1016/0370-2693(96)00422-4">doi:10.1016/0370-2693(96)00422-4</a>, [arXiv:hep-th/9602155](https://arxiv.org/abs/hep-th/9602155)\]
-
-* [[Dimitra Karabali]], Chanju Kim, [[V. Parameswaran Nair]]: *Planar Yang-Mills theory: Hamiltonian, regulators and mass gap*, Nucl. Phys. B **524** (1998) 661-694 \[<a href="https://doi.org/10.1016/S0550-3213(98)00309-5">doi:10.1016/S0550-3213(98)00309-5</a>, [arXiv:hep-th/9705087](https://arxiv.org/abs/)\]
-
-* [[Dimitra Karabali]], Chanju Kim, [[V. Parameswaran Nair]]: *On the vacuum wavefunction and string tension of Yang-Mills theories in (2+1) dimensions*, Phys. Lett. B **434** (1998) 103-109 \[<a href="https://doi.org/10.1016/S0370-2693(98)00751-5">doi:10.1016/S0370-2693(98)00751-5</a>, ][arXiv:hep-th/9804132](https://arxiv.org/abs/hep-th/9804132)\]
-
-Review:
-
-* [[V. Parameswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, [arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
-
-
-
-### For 3D YM-CS theory
-
 On rigorous construction of [[path integral]] [[measures]] for [[2D Yang-Mills theory]] (at least for 2D [[Maxwell theory]]) [[invariant]] under [[area-preserving diffeomorphisms]]:
 
 * [[Doug Pickrell]]: *On $YM_2$ measures and area-preserving diffeomorphisms*, Journal of Geometry and Physics **19** 4 (1996) 315-367 \[<a href="https://doi.org/10.1016/0393-0440(95)00034-8">doi:10.1016/0393-0440(95)00034-8</a>\]
 
-On [[linear representations]] of [[area-preserving diffeomorphisms]] on [[quantum states]] of (tacitly) [[3D Maxwell-Chern-Simons theory]]:
+
+### For 3D MCS theory
+
+A construction of what looks like [[Maxwell-Chern-Simons theory]]:
 
 * [[Doug Pickrell]]: *On the Action of the Group of Diffeomorphisms of a Surface on Sections of the Determinant Line Bundle*, Pacific Journal of Mathematics **193** 1 (2000) 177-199 &lbrack;[doi:10.2140/pjm.2000.193.177](http://dx.doi.org/10.2140/pjm.2000.193.177), [pdf](https://msp.org/pjm/2000/193-1/pjm-v193-n1-p10-s.pdf)&rbrack;
 
-Concerning [[measures]] on [[loop groups]] related to [[path integral]] measures of low dimensional [[Yang-Mills theory]]:
+### For 3D YMCS theory
+
+No rigorous construction of non-abelian [[3D Yang-Mills-Chern-Simon theory]] is currently known.
+
+Comments on what is known and what is not, in comparison to the 2D case:
 
 * [[Doug Pickrell]]: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
 
