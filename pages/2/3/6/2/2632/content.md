@@ -358,7 +358,12 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 Historical review:
 
+
+* {#Dirac1977} [[P. A. M. Dirac]]: *Recollections of an Exciting Era*, in: *Proceedings of the International School of Physics "Enrico Fermi", Course LVII, 1972--- History of Twentieth Century Physics*, Academic Press (1977) 109-146 &lbrack;[[Dirac-Recollections.pdf:file]]&rbrack;
+
 * Eren Volkan Küçük: *The Birth of Quantum Mechanics: A Historical Study Through the Canonical Papers* &lbrack;[arXiv:2503.13630](https://arxiv.org/abs/2503.13630)&rbrack;
+
+
 
 The seed of quantum mechanics was sown in 
 
@@ -371,6 +376,8 @@ Quantum mechanics as such originates with:
 * [[Werner Heisenberg]], *Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen*, Zeitschrift für Physik **33** (1925) 879–893 &lbrack;[doi:10.1007/BF01328377]( https://doi.org/10.1007/BF01328377), [Engl. pdf](http://users.mat.unimi.it/users/galgani/arch/heis25ajp.pdf)&rbrack;
 
 * [[Max Born]], [[Pascual Jordan]], *Zur Quantenmechanik*, Zeitschrift für Physik **34** (1925) 858–888 &lbrack;[doi:10.1007/BF01328531](https://doi.org/10.1007/BF01328531)&rbrack;
+
+* [[P. A. M. Dirac]]: *The Fundamental Equations of Quantum Mechanics*, Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character, Vol. 109, No. 752 (Dec. 1, 1925), pp. 642-653 &lbrack;[jstor:94441](https://www.jstor.org/stable/94441), [pdf](https://www.informationphilosopher.com/solutions/scientists/dirac/Fund_QM_1925.pdf)&rbrack;
 
 * [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) &lbrack;[doi:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)&rbrack;
 
