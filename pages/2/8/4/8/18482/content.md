@@ -56,7 +56,12 @@ Later this was generalized further in ([Klein 02](#Klein02)) to any topological 
 
 * {#Farrell78} F. Thomas Farrell,  _An extension of Tate cohomology to a class of infinite groups_, J. Pure Appl. Algebra 10 (1977/78), no. 2, 153-161.
 
-* {#Klein02} [[John Klein]], _Axioms for generalized Farrell&#8211;Tate cohomology_, 2002, [pdf](http://www.math.wayne.edu/~klein/tate.pdf)
+* {#Klein02} [[John Klein]]: _Axioms for generalized Farrell&#8211;Tate cohomology_ (2002) &lbrack;[pdf](http://www.math.wayne.edu/~klein/tate.pdf)&rbrack;
+
+* Arpon Raksit: *Notes on Tate cohomology* &lbrack;[arXiv:2601.17677](https://arxiv.org/abs/2601.17677)&rbrack;
+
+
+
 
 
 
