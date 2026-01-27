@@ -49,6 +49,11 @@ See also:
 
 * [[Doug Pickrell]]: *Notes on invariant measures for loop groups* &lbrack;[arXiv:2207.09913](https://arxiv.org/abs/2207.09913)&rbrack;
 
+Further discussion:
+
+* Rocco Amorosso, Sergey Syritsyn, Raju Venugopalan: *Entanglement Enabled Tomography of Flux Tubes in $(2+1)D% Yang-Mills Theory* &lbrack;[arXiv:2601.17199](https://arxiv.org/abs/2601.17199)&rbrack;
+
+
 
 [[!redirects 3D Yang-Mills theory]]
 
