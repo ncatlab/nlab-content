@@ -101,20 +101,24 @@ These toposes are related to the smooth topos called $\mathcal{G}$ there, which 
 
 ## References
 
-For more see references at 
+> For more see references see also at *[[infinitesimal neighbourhood]]* and *[[synthetic differential geometry]]*.
 
-* *[[infinitesimal neighbourhood]]* 
+On infinitesimals in the work of [[Gottfried W. Leibniz]]:
 
-* *[[synthetic differential geometry]]*.
+* {#KatzSherry13} [[Mikhail Katz]], David Sherry: _Leibniz's Infinitesimals: Their Fictionality, Their Modern Implementations, And Their Foes From Berkeley To Russell And Beyond_, D. Erkenn (2013) 78: 571 ([arXiv:1205.0174](https://arxiv.org/abs/1205.0174), [doi:10.1007/s10670-012-9370-y](https://link.springer.com/article/10.1007/s10670-012-9370-y))
+
+On infinitesimals implicit in the work of [[Sophus Lie]]:
+
+* Joël Merker (ed.): *Geometric Introduction of Infinitesimal Transformations*, section 3.3 of: *Theory of Transformation Groups by Sophus Lie and Friedrich Engel (Vol. I 1888)*, Springer (2015) &lbrack;[doi:10.1007/978-3-662-46211-9](https://doi.org/10.1007/978-3-662-46211-9), [arXiv:1003.3202](https://arxiv.org/pdf/1003.3202)&rbrack;
+
+Further historical accounts:
+
+* {#Cohen83} [[Hermann Cohen]]: *Das Prinzip der Infinitesimal-Methode und seine Geschichte*, Berlin (1883) &lbrack;[html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html)&rbrack;
+
 
 See also
 
 *  Wikipedia: [Infinitesimals](http://en.wikipedia.org/wiki/Infinitesimal)
-
-* {#Cohen83} [[Hermann Cohen]]: *Das Prinzip der Infinitesimal-Methode und seine Geschichte*, Berlin (1883) &lbrack;[html](http://www.gleichsatz.de/b-u-t/archiv/Cohen/hc-infinit1.html)&rbrack;
-
-* {#KatzSherry13} [[Mikhail Katz]], David Sherry, _Leibniz's Infinitesimals: Their Fictionality, Their Modern Implementations, And Their Foes From Berkeley To Russell And Beyond_, D. Erkenn (2013) 78: 571 ([arXiv:1205.0174](https://arxiv.org/abs/1205.0174), [doi:10.1007/s10670-012-9370-y](https://link.springer.com/article/10.1007/s10670-012-9370-y))
-  > (on [[Gottfried Leibniz]]'s concept of infinitesimals)
 
 
 [[!redirects notions of infinitesimals]]
