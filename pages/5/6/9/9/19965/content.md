@@ -1,13 +1,25 @@
 
-* [Institute page Pisa](https://sites.google.com/a/unipi.it/pisa-theory-group/staff/strumia-alessandro)
+
+
+* [institute page](https://sites.google.com/a/unipi.it/pisa-theory-group/people/strumia-alessandro)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Alessandro_Strumia)
+
+* [inSpire page](https://inspirehep.net/authors/987315)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=CINl2I0AAAAJ&hl=it)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Alessandro-Strumia)
+
 
 ## Selected writings
 
 On [[dark matter]] [[model (in theoretical physics)|models]]:
 
-* Marco Cirelli, Nicolao Fornengo, [[Alessandro Strumia]], _Minimal Dark Matter_, Nucl.Phys.B753:178-194, 2006 ([arXiv:hep-ph/0512090](https://arxiv.org/abs/hep-ph/0512090))
+* Marco Cirelli, Nicolao Fornengo, [[Alessandro Strumia]], _Minimal Dark Matter_, Nucl. Phys. B **753** (2006) 178-194 &lbrack;[arXiv:hep-ph/0512090](https://arxiv.org/abs/hep-ph/0512090)&rbrack;
+
+* Marco Cirelli, [[Alessandro Strumia]], Jure Zupan: *Dark Matter*, SciPost Phys. Rev. **1** (2026) &lbrack;[arXiv:2406.01705](https://arxiv.org/abs/2406.01705), [doi:10.21468/SciPostPhysRev.1](https://doi.org/10.21468/SciPostPhysRev.1)&rbrack;
+
 
 On the [[Higgs field]] [[vacuum stability]]:
 
@@ -27,15 +39,9 @@ and implications for [[split supersymmetry]]:
 
 On [[flavour anomalies]]:
 
-* {#StrumiaEtAl17} Guido D'Amico, Marco Nardecchia, Paolo Panci, Francesco Sannino, [[Alessandro Strumia]], Riccardo Torre, Alfredo Urbano, 
+* {#StrumiaEtAl17} Guido D'Amico, Marco Nardecchia, Paolo Panci, Francesco Sannino, [[Alessandro Strumia]], Riccardo Torre, Alfredo Urbano: _Flavour anomalies after the $R_{K^\ast}$ measurement_,  J. High Energ. Phys. (2017) 2017 &lbrack;[arXiv:1704.05438](https://arxiv.org/abs/1704.05438)&rbrack;
 
-  _Flavour anomalies after the $R_{K^\ast}$ measurement_, 
 
-  J. High Energ. Phys. (2017) 2017 ([arXiv:1704.05438](https://arxiv.org/abs/1704.05438))
-
-On [[dark matter]]:
-
-* Marco Cirelli, [[Alessandro Strumia]], Jure Zupan, *Dark Matter* &lbrack;[arXiv:2406.01705](https://arxiv.org/abs/2406.01705)&rbrack;
 
 Discussion of possible [[experiment|experimental]] signatures via [[gravitational waves]] of primordial [[cosmology|cosmic]] [[electroweak symmetry breaking]]:
 
