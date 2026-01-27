@@ -128,6 +128,20 @@ Consequently:
 
 However, be warned that the conventions for what "colax-idempotent 2-comonad" means in the literature are inconsistent.
 
+## Morphisms between algebras for lax-idempotent 2-monads
+
+Given a lax-idempotent 2-monad $T$:
+
+- Every 1-cell between $T$-algebras has a unique lax morphism structure.
+- Every colax morphism between $T$-algebras is automatically a pseudo morphism (the structural 2-cell for the colax morphism structure necessarily being inverse to the 2-cell forming the unique lax morphism structure).
+
+Suppose we have a morphism of 2-monads $S \to T$, where for now neither $S$ nor $T$ are supposed to be lax-idempotent. Then every pseudo/lax/colax $T$-algebra morphism is a pseudo/lax/colax $S$-algebra morphism. Suppose now that $T$ is lax-idempotent. It follows that:
+
+- Every 1-cell between $T$-algebras has the structure of a lax morphism of $S$-algebras.
+- In general, colax $S$-algebra morphisms between $T$-algebra are not colax $T$-algebra morphisms. For instance, if $T$ is the [[cocartesian monoidal category]] 2-monad, and $S$ is the [[monoidal category]] 2-monad, then colax morphisms of $T$-algebras are functors that preserve [[finite coproducts]] (as may be seen by considering the naturality condition for a 2-cell in a colax morphism, at the unique map from the freely added initial object). However, there may be other functors that still form colax $S$-algebra morphisms.
+
+In some cases, for instance in the example of $S$ and $T$ above, the lax morphism of $S$-algebras will be unique. In this case, lax morphisms of $S$-algebras and of $T$-algebras (between $T$-algebras) agree: i.e. $T\text{-Alg}_{lax} \to \S\text{-Alg}_{lax}$ is [[fully faithful]] (on 1-cells and 2-cells). In this case, since pseudo morphisms are lax morphisms for which the strucural 2-cell is invertible, the pseudo morphisms of $S$-algebras and $T$-algebras also agree: i.e. $T\text{-Alg}_{ps} \to \S\text{-Alg}_{ps}$ is fully faithful.
+
 ## Related concepts
 
 * [[idempotent monad]]
