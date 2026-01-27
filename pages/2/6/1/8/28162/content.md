@@ -23,7 +23,7 @@ On rigorous analysis of [[D=3 Yang-Mills theory]] ([[constructive field theory]]
 
 * [[Dimitra Karabali]], Chanju Kim, [[V. Parameswaran Nair]]: *On the vacuum wavefunction and string tension of Yang-Mills theories in (2+1) dimensions*, Phys. Lett. B **434** (1998) 103-109 \[<a href="https://doi.org/10.1016/S0370-2693(98)00751-5">doi:10.1016/S0370-2693(98)00751-5</a>, ][arXiv:hep-th/9804132](https://arxiv.org/abs/hep-th/9804132)\]
 
-And coupling to [[Chern-Simons theory]] (cf. also *[[Maxwell-Chern-Simons theory]]*):
+On [[3D Yang-Mills-Chern-Simons theory]]:
 
 * [[Dimitra Karabali]], Chanju Kim, [[V. P. Nair]]: *Gauge invariant variables and the Yang-Mills-Chern-Simons theory*, Nucl. Phys. B **566** (2000) 331-347 &lbrack;[arXiv:hep-th/9907078](https://arxiv.org/abs/hep-th/9907078), <a href="https://doi.org/10.1016/S0550-3213(99)00701-4">doi:10.1016/S0550-3213(99)00701-4</a>\]
 
