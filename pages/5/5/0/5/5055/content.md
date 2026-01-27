@@ -1,7 +1,14 @@
 
+Paul Adrien Maurice Dirac (1902-1984)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Paul_Dirac)
 
 ## Selected writings
+
+Introducing the idea into [[quantum mechanics]] that came to be known as *[[canonical quantization]]* (the [[deformation quantization|deformation]] of [[Poisson brackets]] into [[canonical commutation relations|commutators]] of [[linear operators]]):
+
+* [[P. A. M. Dirac]]: *The Fundamental Equations of Quantum Mechanics*, Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character, Vol. 109, No. 752 (Dec. 1, 1925), pp. 642-653 &lbrack;[jstor:94441](https://www.jstor.org/stable/94441), [pdf](https://www.informationphilosopher.com/solutions/scientists/dirac/Fund_QM_1925.pdf)&rbrack;
+
 
 Early discussion of the foundations of [[quantum mechanics]] (including the possibly first consideration of what came to be known as the [[Slater determinant]]):
 
@@ -15,7 +22,6 @@ Introducing what came to be called *[[Dirac charge quantization]]* ([[geometry o
 
 * {#Dirac31} [[P.A.M. Dirac]], _Quantized Singularities in the Electromagnetic Field_,  Proceedings of the Royal Society A **133** 821 (1931) 60-72 &lbrack;[doi:10.1098/rspa.1931.0130](https://doi.org/10.1098/rspa.1931.0130)&rbrack;
  
-
 Precursor discussion to the [[path integral]]-formulation of [[quantum mechanics]]:
 
 * [[Paul A. M. Dirac]], *The Lagrangian in Quantum Mechanics*, Physikalische Zeitschrift der Sowjetunion, Band **3**, Heft 1 (1933) 64–72 &lbrack;[pdf](https://www.informationphilosopher.com/solutions/scientists/dirac/Lagrangian_1933.pdf)&rbrack;, reprinted in [Brown 2005](path+integral#Brown05) &lbrack;[doi:10.1142/9789812567635_0003](https://doi.org/10.1142/9789812567635_0003)&rbrack;
@@ -58,6 +64,11 @@ Early discussion of the [[positron]]:
 * {#Dirac33} [[Paul A. M. Dirac]], *Théorie du Positron*, Proceedings of *Structure et propriétés des noyaux atomiques*, [Solvay](http://www.solvayinstitutes.be/) Conference (1933) 203-212 &lbrack;full:[pdf](http://www.solvayinstitutes.be/pdf/Proceedings_Physics/1933.pdf)&rbrack;
 
 
+Personal reminiscences of the early history of [[special relativity]] and [[quantum mechanics]]:
+
+* {#Dirac1977} [[P. A. M. Dirac]]: *Recollections of an Exciting Era*, in: *Proceedings of the International School of Physics "Enrico Fermi", Course LVII, 1972--- History of Twentieth Century Physics*, Academic Press (1977) 109-146 &lbrack;[[Dirac-Recollections.pdf:file]]&rbrack;
+
+
 ## Quotes
 
 {#OnNotation} On [[syntax]]:
@@ -77,6 +88,7 @@ On anxiety with new ideas:
 
 > I had a great advantage over Heisenberg. I did not have any of these fears, because it was not my idea. I could play about with this non-commuting algebra... and see where it led
 
+(Similar comments are in [Dirac 1977](#Dirac1977))
 
 ## Related entries
 
