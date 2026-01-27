@@ -743,6 +743,10 @@ But there are also [[physical systems]] that one can set up in a laboratory expe
 
 * [[Spin Chern-Simons theory]]
 
+* [[Maxwell-Chern-Simons theory]]
+
+* [[Yang-Mills-Chern-Simons theory]]
+
 * [[schreiber:∞-Chern-Simons theory]]
 
 * [[higher dimensional Chern-Simons theory]]
@@ -1140,7 +1144,6 @@ and of [[2d QCD]] ([[AdS/QCD]]):
 
 
 [[!include topological quantum computation with anyons -- references]]
-
 
 
 
