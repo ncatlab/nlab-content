@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### QFT
+#### Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -19,7 +19,7 @@
 
 ## Idea
 
-Under *Maxwell-Chern-Simons theories* one understands [[Lagrangian field theories]] whose [[field (physics)|field]] content is a single [[circle group|$\mathrm{U}(1)$]] [[gauge field]] (locally on [[spacetime]] given by a [[differential 1-form]] $A$ with [[flux density]] $F = \mathrm{d}A$) and whose [[Lagrangian density]] is a [[sum]] of that of (vacuum) [[Maxwell theory]] with that of an [[abelian Chern-Simons theory]].
+Under *Maxwell-Chern-Simons theories* one understands [[Lagrangian field theories]] whose [[field (physics)|field]] content is a single [[circle group|$\mathrm{U}(1)$]] [[gauge field]] (locally on [[spacetime]] given by a [[differential 1-form]] $A$ with [[flux density]] $F = \mathrm{d}A$) and whose [[Lagrangian density]] is a [[sum]] of that of (vacuum) [[Maxwell theory]] with that of an [[abelian Chern-Simons theory]] (hence *[[3D Yang-Mills-Chern-Simons theory]]* for [[abelian group|abelian]] [[gauge group]]).
 
 This means, over a [[spacetime]] of [[dimension of a manifold|dimension]] $D = 3$, that the Lagrangian density is proportional to
 
@@ -365,6 +365,7 @@ On the [[quantization]] of the theory:
   > (in [[Coulomb gauge]])
 
 * [[Dimitra Karabali]], Chanju Kim, [[V. P. Nair]]: *Gauge invariant variables and the Yang-Mills-Chern-Simons theory*, Nucl. Phys. B **566** (2000) 331-347 &lbrack;[arXiv:hep-th/9907078](https://arxiv.org/abs/hep-th/9907078), <a href="https://doi.org/10.1016/S0550-3213(99)00701-4">doi:10.1016/S0550-3213(99)00701-4</a>\]
+  > (in the generality of *[[3D Yang-Mills-Chern-Simons theory]]*)
 
 * Lorenzo Leal, Oswaldo Zapata: *Maxwell Chern Simons Theory in a Geometric Representation*, Phys. Rev. D **63** (2001) 065010 \[<a href="https://doi.org/10.1103/PhysRevD.63.065010">doi:10.1103/PhysRevD.63.065010</a>, [arXiv:hep-th/0008049](https://arxiv.org/abs/hep-th/0008049)\]
 
