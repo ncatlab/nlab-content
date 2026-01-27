@@ -13,9 +13,9 @@
 =--
 =--
 
-# Infinitesimal neighbourhoods
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -84,7 +84,10 @@ Consider a morphism $(f,f^\sharp):(Y,\mathcal{O}_Y)\to(X,\mathcal{O}_X)$ of [[ri
 [[!include infinitesimal and local - table]]
 
 
+
 ## References
+
+> See also references at *[[infinitesimals]]*.
 
 In [[algebraic geometry]] (via [[infinitesimal shape modality]]):
 
