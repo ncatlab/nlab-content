@@ -610,6 +610,9 @@ Concerning [[metric on a category|metrics on]] triangulated categories in relati
 
 * [[Amnon Neeman]]: *Excellent metrics on triangulated categories, and the involutivity of the map taking $\mathcal{S} to \mathfrak{S}({\mathcal{S})^{\mathrm{op}}}$* &lbrack;[arXiv:2505.09120](https://arxiv.org/abs/2505.09120)&rbrack;
 
+Review:
+
+* [[Amnon Neeman]]: *Excellent metrics and enhancements *, [talk at](#NeemanJan2026) [[CQTS]] @ NYUAD (Jan 2026) &lbrack;slides:[[Neeman-CQTS-2026.pdf:file]]&rbrack;
 
 
 
