@@ -7,6 +7,8 @@
 
 ***
 
+[[Neeman-CQTS-2026.pdf:file]]
+
 
 ### Gaussian measures
 
