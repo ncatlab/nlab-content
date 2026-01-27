@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
+#### Differential cohomology
++--{: .hide}
+[[!include differential cohomology - contents]]
+=--
 =--
 =--
 
@@ -20,6 +24,8 @@
 
 * [[D=3 super Yang-Mills theory]]
 
+* [[D=3 Yang-Mills-Chern-Simons theory]]
+
 * [[Maxwell-Chern-Simons theory]]
 
 * [[D=2 Yang-Mills theory]]
@@ -30,8 +36,14 @@
 
 
 ## References
+ {#References}
 
-Rigorous construction via [[constructive field theory]], including demonstration of the [[Yang-Mills mass gap]]:
+Suggestion to consider the [[Yang-Mills mass gap]] problem for 3D YM theory:
+
+* {#Witten2002} [[Edward Witten]]; p 8 of: *Physical Law and the Quest for Mathematical Understanding*, Bulletin of the AMS **40** 1 (2002) 21-29 &lbrack;[doi:10.1090/S0273-0979-02-00969-2](https://doi.org/10.1090/S0273-0979-02-00969-2), [pdf](https://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00969-2/S0273-0979-02-00969-2.pdf), [[Witten-PhysicalLaw.pdf:file]]&rbrack;
+
+
+Claim of derivation of the [[Yang-Mills mass gap]] in 3D (though non-[[constructive field theory|constructive]]):
 
 * [[Dimitra Karabali]], [[V. Parameswaran Nair]]: *On the origin of the mass gap for non-Abelian gauge theories in (2+1) dimensions*, Phys.Lett. B **379** (1996) 141-147 \[<a href="https://doi.org/10.1016/0370-2693(96)00422-4">doi:10.1016/0370-2693(96)00422-4</a>, [arXiv:hep-th/9602155](https://arxiv.org/abs/hep-th/9602155)\]
 
@@ -51,9 +63,12 @@ See also:
 
 Further discussion:
 
-* Rocco Amorosso, Sergey Syritsyn, Raju Venugopalan: *Entanglement Enabled Tomography of Flux Tubes in $(2+1)D% Yang-Mills Theory* &lbrack;[arXiv:2601.17199](https://arxiv.org/abs/2601.17199)&rbrack;
+* Rocco Amorosso, Sergey Syritsyn, Raju Venugopalan: *Entanglement Enabled Tomography of Flux Tubes in $(2+1)D$ Yang-Mills Theory* &lbrack;[arXiv:2601.17199](https://arxiv.org/abs/2601.17199)&rbrack;
 
 
+[[!redirects D=3 Yang-Mills theories]]
 
-[[!redirects 3D Yang-Mills theory]]
+[[!rediects 3D Yang-Mills theory]]
+[[!rediects 3D Yang-Mills theories]]
+
 
