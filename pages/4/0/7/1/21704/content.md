@@ -123,6 +123,8 @@ $$
 
 * {#Scull08} [[Laura Scull]]: _A model category structure for equivariant algebraic models_, Transactions of the American Mathematical Society **360** 5 (2008) 2505-2525 &lbrack;[doi:10.1090/S0002-9947-07-04421-2](https://doi.org/10.1090/S0002-9947-07-04421-2)&rbrack;
 
+* [[José M. Moreno-Fernández]], [[Bruno Stonek]]: *Algebraic models for equivariant rational homotopy theory for discrete groups* &lbrack;[arXiv:2601.17345](https://arxiv.org/abs/2601.17345)&rbrack;
+
 
 
 
