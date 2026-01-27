@@ -82,7 +82,7 @@ On [[adjoint quadruples]] with a [[fully faithful functor|fully faithful]] [[rig
 
 See also: 
 
-* {#GrothShul17} [[Moritz Groth]], [[Mike Shulman]], _Generalized stability for abstract homotopy theories_, [arXiv:1704.08084](https://arxiv.org/abs/1704.08084).
+*  {#GrothShul17}  [[Moritz Groth]], [[Mike Shulman]], _Generalized stability for abstract homotopy theories_. Annals of K-Theory, 6(1), 1-28. ([doi](https://doi.org/10.2140/akt.2021.6.1)). [arXiv:1704.08084](https://arxiv.org/abs/1704.08084).
 
 On adjoint strings between a [[topos]] and [[Set]] and specifically on *completely connected* toposes ([[locally connected toposes]] with a further [[left adjoint]] to the left adjoint to the [[inverse image]] functor):
 
