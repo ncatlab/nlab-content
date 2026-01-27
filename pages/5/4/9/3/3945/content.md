@@ -113,7 +113,11 @@ See [[derivator]] for general references about derivators, and also [[pointed de
 
 * [[Moritz Groth]], _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
 
+*  {#GrothShul17}  [[Moritz Groth]], [[Mike Shulman]], _Generalized stability for abstract homotopy theories_. Annals of K-Theory, 6(1), 1-28. ([doi](https://doi.org/10.2140/akt.2021.6.1)). [arXiv:1704.08084](https://arxiv.org/abs/1704.08084).
+
 * [[Ian Coley]], _Stabilization of derivators revisited_, 2018, [arxiv](https://arxiv.org/abs/1802.04343)
+
+
 
 [[!redirects stable derivators]]
 [[!redirects triangulated derivator]]
