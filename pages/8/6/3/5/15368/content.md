@@ -49,7 +49,7 @@ A norm with this property is called _[[non-archimedean]].
 ## Interpretation in enriched category theory
  {#InterpretationInEnrichedCategoryTheory}
 
-One may equivalently regard the triangle equality in [[metric spaces]] as the [[composition]] operation in a certain incarnation of the metric space as an [[enriched category]] ([Lawvere 73](#Lawvere73)). From this perspective some concepts from [[analysis]] usefully generalize to other [[enriched categories]], notably the concept of _[[Cauchy complete categories]]_. For more on this see at _[Lawvere metric space](metric+space#LawvereMetricSpace)_.
+One may equivalently regard the triangle equality in [[metric spaces]] as the [[composition]] operation in a certain incarnation of the metric space as an [[enriched category]] ([Lawvere 73](#Lawvere73), cf. *[[metric on a category]]*). From this perspective some concepts from [[analysis]] usefully generalize to other [[enriched categories]], notably the concept of _[[Cauchy complete categories]]_. For more on this see at _[Lawvere metric space](metric+space#LawvereMetricSpace)_.
 
 Namely regard the [[half-open interval]] $[0,\infty) \subset \mathbb{R}$ as a [[poset]] under the [[relation]] $\geq$, and regard this poset as a [[category]] (see at [[(0,1)-category]]). The operation of addition of real numbers makes this a [[monoidal category]].
 
