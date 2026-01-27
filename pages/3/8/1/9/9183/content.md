@@ -150,7 +150,7 @@ Review:
 
 A comprehensive review (on 510 pages):
 
-* Marco Cirelli, [[Alessandro Strumia]], Jure Zupan, *Dark Matter* &lbrack;[arXiv:2406.01705](https://arxiv.org/abs/2406.01705)&rbrack;
+* Marco Cirelli, [[Alessandro Strumia]], Jure Zupan: *Dark Matter*, SciPost Phys. Rev. **1** (2026) &lbrack;[arXiv:2406.01705](https://arxiv.org/abs/2406.01705), [doi:10.21468/SciPostPhysRev.1](https://doi.org/10.21468/SciPostPhysRev.1)&rbrack;
 
 
 Discussion of possible matter representations that could serve as dark matter:
