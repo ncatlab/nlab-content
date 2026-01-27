@@ -41,7 +41,7 @@ $$
   0
   \mathrlap{\,,}
 $$
-where $a,b$ are objects in $C$. In the case where $C$ is abelian already, finitely presentable sheaves were studied under the name of __coherent functors__ by Auslander.
+where $a,b$ are objects in $C$. In the case where $C$ is abelian already, finitely presentable additive presheaves of abelian groups were studied under the name of __coherent functors__ by Auslander. They are automatically coherent objects in the functor category, namely each finitely generated subobject of a finitely presentable functor is finitely presentable as well. Moreover, for $C$ small abelian, coherent functors are also projective. 
 
 ### Verdier's definition
 
@@ -78,6 +78,10 @@ $$
 The category of coherent functors over an abelian category was studied in
 
 * M. Auslander, _Coherent functors_, In: Eilenberg, S., Harrison, D.K., MacLane, S., Röhrl, H. (eds) Proceedings of the Conference on Categorical Algebra, La Jolla 1965, Springer, 1966.
+
+Finitely presented additive functors on abelian categories with values in abelian groups are the topic of Ch. 10 in 
+
+* Mike Prest, _Purity, spectra and localization_, Enc. Math. Appl. 112 (2009)
 
 
 
