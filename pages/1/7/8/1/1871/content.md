@@ -102,6 +102,8 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 * [[D=5 Yang-Mills theory]]
 
+* [[Yang-Mills-Chern-Simons theory]]
+
 * [[massive Yang-Mills theory]]
 
 * [[self-dual Yang-Mills theory]]
