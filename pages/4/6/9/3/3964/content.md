@@ -311,21 +311,13 @@ It remains to consider the axiom (Der1) regarding coproducts.  The coproduct "$A
 
 By exactness with zeros, we can show that $j^* i_!$ and $i^* j_!$ send everything to zero.  Therefore, if we define a functor $(i,j)_!\colon D'(A) \times D'(B) \to D'(A\vee B)$ by $(i,j)_!(X,Y) = (i_! X + j_! Y)$, then we have $(i^*, j^*)(i,j)_! \cong Id$.  On the other hand, by fully-faithfulness of $i_!$ and $j_!$, for any $Z\in D'(A\vee B)$ the map $i_! i^* Z \to Z$ is an isomorphism on objects of $A$, and similarly for $j$ and $B$; hence $(i,j)_! (i^*,j^*) \cong Id$ as well.  In particular, $(i^*,j^*)$ is an equivalence of categories, providing the $Set_*$-enriched version of (Der1).
 
-+--{: .query}
-What about (Der5)?
-=--
+
 
 Conversely, given a functor $D'$ as above satisfying the axioms as given above, we can define $D(A) = D'(A')$, where $A'$ denotes the free $Set_*$-category on an ordinary category $A$ (i.e. adjoin a new zero morphism between each pair of objects).  This $D$ will automatically satisfy axioms (Der3) (homotopy Kan extensions) and (Der2) (conservativity on objects) since $D'$ does, and it satisfies (Der1) on coproducts since $D'$ does and since $(A+B)' \cong A' + B'$.
 
-+--{: .query}
-Does (Der4) on Beck-Chevalley conditions carry back over?  Does this require a "pointed version of Cisinski's theorem"?
-=--
 
 Finally, of course each category $D(A) = D'(A')$ has a zero object, so $D$ is a pointed derivator.  Thus, it seems that $Set_*$-enrichment is an essentially equivalent way to express the notion of pointed derivator.  (This approach was used by Franke (see below).)
 
-+--{: .query}
-However, what is not immediately clear is that passing from $D$ to $D'$ and back to $D$ again gives the same derivator.  At first sight this seems to require a stronger theorem about homotopy exactness with zeros than is stated above, one in which the square need not be homotopy exact without zeros.
-=--
 
 
 ## The pointed reflection
