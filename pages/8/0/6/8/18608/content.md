@@ -14,9 +14,8 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -60,7 +59,11 @@ A more fundamental approach to [[confinement|confined]] [[QCD]]/[[Yang-Mills the
 
 Survey and problem description in [[mathematics]]/[[mathematical physics]]:
 
-* [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_
+* [Clay Mathematics Institute](http://www.claymath.org/), _[Yang-Mills & The Mass Gap](https://www.claymath.org/millennium/yang-mills-the-maths-gap)_ (2000)
+
+* {#Witten2002} [[Edward Witten]]; pp. 4 of: *Physical Law and the Quest for Mathematical Understanding*, Bulletin of the AMS **40** 1 (2002) 21-29 &lbrack;[doi:10.1090/S0273-0979-02-00969-2](https://doi.org/10.1090/S0273-0979-02-00969-2), [pdf](https://www.ams.org/journals/bull/2003-40-01/S0273-0979-02-00969-2/S0273-0979-02-00969-2.pdf), [[Witten-PhysicalLaw.pdf:file]]&rbrack;
+  > "Prove the existence and mass gap of quantum Yang-Mills theory on $\mathbb{R}^4$, with gauge group a compact simple non-abelian Lie group $G$."
+
 
 * {#JaffeWitten00} [[Arthur Jaffe]], [[Edward Witten]]: *Quantum Yang-Mills theory*, in: J. Carlson, [[Arthur Jaffe|A. Jaffe]], [[Andrew Wiles|A. Wiles]] (eds.): *The Millennium Prize Problems*, CMI & AMS (2006) 129-152 &lbrack;[ISBN:978-1-4704-7460-7](https://bookstore.ams.org/MPRIZE), [pdf](https://www.claymath.org/library/monographs/MPPc.pdf),  [pdf](https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf), [pdf](https://www.arthurjaffe.com/Assets/pdf/QuantumYangMillsWebRevised.pdf), [[JaffeWitten-QuantumYangMills.pdf:file]]&rbrack;
 
@@ -203,19 +206,21 @@ But there is also an approach via rigorous analytic [[lattice gauge theory]]:
 
 #### In 3D YM theory
 
-Analytic results via methods of [[constructive field theory]] may be obtained in the lower dimension of [[D=3 Yang-Mills theory]]:
+Claim of (non-rigorous) derivation of the mass gap for [[D=3 Yang-Mills theory]]:
 
-* [[Dimitra Karabali]], [[V. Parmeswaran Nair]]: *On the origin of the mass gap for non-Abelian gauge theories in (2+1) dimensions*, Phys.Lett. B **379** (1996) 141-147 \[<a href="https://doi.org/10.1016/0370-2693(96)00422-4">doi:10.1016/0370-2693(96)00422-4</a>, [arXiv:hep-th/9602155](https://arxiv.org/abs/hep-th/9602155)\]
+* [[Dimitra Karabali]], [[V. Parameswaran Nair]]: *On the origin of the mass gap for non-Abelian gauge theories in (2+1) dimensions*, Phys.Lett. B **379** (1996) 141-147 \[<a href="https://doi.org/10.1016/0370-2693(96)00422-4">doi:10.1016/0370-2693(96)00422-4</a>, [arXiv:hep-th/9602155](https://arxiv.org/abs/hep-th/9602155)\]
 
-* [[Dimitra Karabali]], [[Chanju Kim]], [[V. Parmeswaran Nair]]: *Planar Yang-Mills theory: Hamiltonian, regulators and mass gap*, Nucl. Phys. B **524** (1998) 661-694 \[<a href="https://doi.org/10.1016/S0550-3213(98)00309-5">doi:10.1016/S0550-3213(98)00309-5</a>, [arXiv:hep-th/9705087](https://arxiv.org/abs/)\]
+* [[Dimitra Karabali]], Chanju Kim, [[V. Parameswaran Nair]]: *Planar Yang-Mills theory: Hamiltonian, regulators and mass gap*, Nucl. Phys. B **524** (1998) 661-694 \[<a href="https://doi.org/10.1016/S0550-3213(98)00309-5">doi:10.1016/S0550-3213(98)00309-5</a>, [arXiv:hep-th/9705087](https://arxiv.org/abs/)\]
 
-* [[Dimitra Karabali]], [[Chanju Kim]], [[V. Parmeswaran Nair]]: *On the vacuum wavefunction and string tension of Yang-Mills theories in (2+1) dimensions*, Phys. Lett. B **434** (1998) 103-109 \[<a href="https://doi.org/10.1016/S0370-2693(98)00751-5">doi:10.1016/S0370-2693(98)00751-5</a>, ][arXiv:hep-th/9804132](https://arxiv.org/abs/hep-th/9804132)\]
+* [[Dimitra Karabali]], Chanju Kim, [[V. Parameswaran Nair]]: *On the vacuum wavefunction and string tension of Yang-Mills theories in (2+1) dimensions*, Phys. Lett. B **434** (1998) 103-109 \[<a href="https://doi.org/10.1016/S0370-2693(98)00751-5">doi:10.1016/S0370-2693(98)00751-5</a>, ][arXiv:hep-th/9804132](https://arxiv.org/abs/hep-th/9804132)\]
 
 Review:
 
-* [[V. Parmeswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, ][arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
+* [[V. Parameswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, ][arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
 
+and in the combination to [[D=3 Yang-Mills-Chern-Simons theory]] (suggested by [Witten 2002 p 8](#Witten2002)):
 
+* [[Dimitra Karabali]], Chanju Kim, [[V. P. Nair]]: *Gauge invariant variables and the Yang-Mills-Chern-Simons theory*, Nucl. Phys. B **566** (2000) 331-347 &lbrack;[arXiv:hep-th/9907078](https://arxiv.org/abs/hep-th/9907078), <a href="https://doi.org/10.1016/S0550-3213(99)00701-4">doi:10.1016/S0550-3213(99)00701-4</a>\]
 
 
 ### In solid state physics
