@@ -33,7 +33,7 @@ one observes that here:
 
 1. in invoking the [[singleton set]] $\ast$ and the [[Cartesian product]] set $G \times G$ one is making use of the fact that [[Sets]] admit the [[universal construction]] of [[finite products]];
 
-and that this is _only_ [[mathematical structure|structure]] on [[Sets]] that the definition of [[groups]] is making use of.
+and that this is the _only_ [[mathematical structure|structure]] on [[Sets]] that the definition of [[groups]] is making use of.
 Therefore, we may abstract away from [[Sets]], consider _any_ [[category]] $\mathcal{C}$ with [[finite products]] and declare that:
 
 * An _[[internal group]]_ in $\mathcal{C}$ is an [[object]] $G$ of $\mathcal{C}$ equipped with [[morphisms]] $\mathrm{e} \colon \ast \to G$ (i.e. out of the [[terminal object]]) and $m \colon G \times G \to G$ (i.e. out of the [[Cartesian product]]-object) and $(-)^{-1} \colon G \to G$ such that the following [[commuting diagram|diagrams commute]] in $\mathcal{C}$:
