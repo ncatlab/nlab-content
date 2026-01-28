@@ -220,6 +220,11 @@ Discussion of ([[reduced phase space|reduced]]) [[phase spaces]] in light-cone c
 
 * Kianoosh Kargar, Ahmad Shirzad, Majid Monemzadeh, *Dynamical structure of fields in light cone coordinates*, Phys. Rev. D **99** (2019) 045019 &lbrack;[arXiv:1608.03255](https://arxiv.org/abs/1608.03255), [doi:10.1103/PhysRevD.99.045019](https://doi.org/10.1103/PhysRevD.99.045019)&rbrack;
 
+Discussion for [[2d conformal field theory]]:
+
+* Chueng-Ryong Ji, Hariprashad Ravikumar: *Interpolating conformal algebra in $(1+1)$ dimensions between the instant form and the light-front form of relativistic dynamics* &lbrack;[arXiv:2601.19251](https://arxiv.org/abs/2601.19251)&rbrack;
+
+
 ### Application to quantum electrodynamics
 
 Application to [[quantum electrodynamics]]:
