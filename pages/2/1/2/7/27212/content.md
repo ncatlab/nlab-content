@@ -67,7 +67,7 @@ For now, see [[club]].
 
 ### Yoneda embedding
 
-For now, see [[coherence theorem for bicategories with finite limits]], which gives an example of this approach.
+For now, see [[strictification theorem for bicategories with finite limits]], which gives an example of this approach.
 
 ## Strictification versus coherence
 
