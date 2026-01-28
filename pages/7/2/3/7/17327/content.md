@@ -114,7 +114,7 @@ This means equivalently that $U_x \times Y \cap C = \emptyset$, hence that $U_x 
 
 ## Consequences
 
-### Tychnoff theorem
+### Tychonoff theorem
 
 +-- {: .num_cor} 
 ###### Corollary 
