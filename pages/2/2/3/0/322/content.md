@@ -171,7 +171,7 @@ Note that this definition still makes sense when $v$ lives in any symmetric mono
 
 We describe here a compact one-sentence definition of operad first worked out by [[Max Kelly]], after a few preliminaries which are important in their own right. The treatment is essentially an exercise in [[enriched category theory]] and the formalism of [[Day convolution]]. We will work this out fully in the case of ordinary [[category theory]] first, that is for categories [[enriched category|enriched in]] $V = Set$; the case for categories enriched in a complete, cocomplete, [[symmetric monoidal category|symmetric monoidal]] [[closed monoidal category|closed]] $V$ is completely parallel. 
 
-More details along these lines are add _[[toddtrimble:Towards a doctrine of operads]]_.
+More details along these lines are at _[[toddtrimble:Towards a doctrine of operads]]_.
 
 ### Preparation 
 
