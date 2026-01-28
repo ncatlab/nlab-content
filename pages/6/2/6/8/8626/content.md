@@ -1,5 +1,3 @@
-[[!redirects coherence theorem for bicategories with finite limits]]
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
