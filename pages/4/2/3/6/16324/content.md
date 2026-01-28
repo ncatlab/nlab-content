@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -13,7 +14,7 @@
 =--
 
 
-This page is to record the reference
+This page is to record the reference:
 
 * {#Grassmann44} [[Hermann Grassmann]]:
 
@@ -28,7 +29,7 @@ This page is to record the reference
   (1844)
 
   scan:[[Grassmann-Ausdehnungslehre.pdf:file]], \linebreak
-  [Internet Archive copy](https://archive.org/details/dielinealeausde00grasgoog/page/n11)
+  [ark:/13960/t7jq1786p](https://archive.org/details/dielinealeausde00grasgoog/page/n11)
 
 which introduced, for the first time, basic concepts of what today is known as [[linear algebra]] (including [[affine spaces]] as [[torsors]] over [[vector spaces]]) and introduced in addition an _exterior product_ (&#167;37, &#167;55) on [[vectors]], forming what today is known as _[[exterior algebra]]_ or _[[Grassmann algebra]]_, hence in fact _[[superalgebra]]_ (see [below](#SupercommutativeSuperalgebra)).
 
