@@ -10,6 +10,7 @@
 =--
 
 
+
 \tableofcontents
 
 
@@ -17,9 +18,11 @@
 
 In [[quantum physics]], the term *canonical quantization* refers, somewhat broadly, to [[quantization]] of (possibly [[constrained mechanics|constrained]]) [[classical mechanics|classical mechanical systems]] regarded in their [[Hamiltonian mechanics|Hamiltonian formulation]], via [[symplectic geometry]] of [[phase spaces]]. It proceeds, ideally, by construction of [[Hilbert spaces]] [[space of quantum states|of]] [[quantum states]] on which [[algebras of quantum observables]], [[Planck's constant|$\hbar$]]-[[deformation quantization|deforming]] the [[Poisson algebra]] of classical [[observables]], are [[linear representation|represented]] by [[linear operators]] (the [[Schrödinger picture of quantum mechanics]]). 
 
-The first examples of [[quantization]] encountered in traditional textbooks on [[quantum mechanics]] echo the historical roots of [[quantum theory]] (whence "canonical"),  where *[[canonical coordinates]]* $q$ and *[[canonical momenta]]* $p$ with their [[Poisson bracket]] $\{q,p\} = 1$ defined up to *[[canonical transformations]]* are promoted to [[multiplication]] [[linear operator|operators]] $\widehat{q}$ and [[differentiation]] [[linear operator|operators]] $\widehat{p} = -\mathrm{i}\hbar\partial/\partial q$ satisfying the *[[canonical commutation relation]]* $[\widehat{q}, \widehat{p}] = \mathrm{i}\hbar$. 
+Beware that the use of "canonical" in "canonical quantization" is quite different from the use of the word in mathematics, where it refers to preferred choices. In contrast, [[deformation quantization]] of [[Poisson algebras]] is generally beset with *operator ordering* ambiguities and (beyond purely [[formal deformation quantization]]) with [[obstructions]] known as *[[quantum anomalies]]*, whence the saying that *...quantization is a mystery...* (cf. [here](Edward+Nelson#FirstQuantizationIsAMystery)).
 
-But in particular when applied to [[classical field theory]], this method crucially depends on a [[foliation]] of [[spacetime]] with [[spacelike]] leaves (or [[lightlike]] [[leaves]] for [[light cone quantization]]). While this exists at least on [[globally hyperbolic spacetimes]], such a choice breaks *manifest* local [[Lorentz group|Lorentz]]-[[symmetry]] and [[general covariance]]. Therefore canonical quantization is referred to in physics jargon as *non-covariant*. 
+Instead, "canonical" here refers to the older terminology of *[[canonical coordinates]]* $q$ and *[[canonical momenta]]* $p$ in [[classical mechanics|classical]] [[Hamiltonian mechanics]] (which of course are not really canonical, either), with their [[Poisson bracket]] $\{q,p\} = 1$ defined up to *[[canonical transformations]]*: In canonical quantization these are to be promoted to ([[multiplication]]) [[linear operator|operators]] $\widehat{q}$ and ([[differentiation]]) [[linear operator|operators]] $\widehat{p} (= -\mathrm{i}\hbar\partial/\partial q)$ satisfying the *[[canonical commutation relation]]* $[\widehat{q}, \widehat{p}] = \mathrm{i}\hbar$. 
+
+But in particular when applied to [[classical field theory]], the existence of a [[Hamiltonian mechanics|Hamiltonian]] formulation crucially depends on a [[foliation]] of [[spacetime]] with [[spacelike]] leaves (or [[lightlike]] [[leaves]] for [[light cone quantization]]). While this exists at least on [[globally hyperbolic spacetimes]], such a choice breaks *manifest* local [[Lorentz group|Lorentz]]-[[symmetry]] and [[general covariance]]. Therefore canonical quantization is sometimes referred to in physics jargon as *non-covariant*. 
 
 This is in contrast primarily to methods of quantization based on the [[Lagrangian density|Lagrangian]] formulation of [[classical mechanics]], such as notably [[path integral]] methods and their derivatives, like the construction of [[scattering amplitude]] [[S-matrices]] via [[Feynman perturbation series]] used traditionally in [[perturbative quantum field theory]].
 
