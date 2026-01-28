@@ -171,9 +171,14 @@ A discussion in [[quantum mechanics in terms of dagger-compact categories]] is i
 * {#CoeckeKissinger} [[Bob Coecke]], [[Aleks Kissinger]], _The compositional structure of multipartite quantum entanglement_ ([arXiv:1002.2540](http://arxiv.org/abs/1002.2540))
  
 
-See also
+See also:
 
 * W. D&#252;r, G. Vidal, J. I. Cirac, _Three qubits can be entangled in two inequivalent ways_, Phys. Rev. A. __62__, 062314
+
+* Kazuki Ikeda: *Introduction to Quantum Entanglement Geometry* &lbrack;[arXiv:2601.19111](https://arxiv.org/abs/2601.19111)&rbrack;
+
+
+
 
 Discussion in [[quantum optics]]:
 
