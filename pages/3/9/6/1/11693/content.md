@@ -9,3 +9,4 @@
 category: people
 
 [[!redirects Matias Menni]]
+[[!redirects M. Menni]]
