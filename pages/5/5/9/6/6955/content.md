@@ -25,5 +25,5 @@ Explicitly this has been considered in ([Rezk](#Rezk)).
 
 ## References
 
-* [[Charles Rezk]], _Spaces of algebra structures and cohomology of operads_ PhD thesis (1996) ([dvi](http://www.math.uiuc.edu/~rezk/rezk-thesis.dvi))
+* [[Charles Rezk]], _Spaces of algebra structures and cohomology of operads_ PhD thesis (1996) ([pdf](https://dspace.mit.edu/bitstream/handle/1721.1/41793/36023226-MIT.pdf))
  {#Rezk}
