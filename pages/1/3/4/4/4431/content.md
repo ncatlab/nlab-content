@@ -3,6 +3,9 @@ __Marcelo Aguiar__ works on [[category theory]], [[higher category theory]]/[[hi
 
 * [personal page](https://math.cornell.edu/marcelo-aguiar)
 
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=25171)
+
+
 ## Selected writings
 
 On [[noncartesian internal categories]] and [[quantum groups]]:
