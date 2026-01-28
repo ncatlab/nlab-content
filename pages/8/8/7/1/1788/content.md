@@ -7,12 +7,56 @@
 
 ***
 
-[[Neeman-CQTS-2026.pdf:file]]
+Let $\Sigma$ be a closed oriented [[surface]] equipped with a [[complex structure]] (a [[complex curve]]).
 
+Noticing
 
-### Gaussian measures
+$$
+  \begin{array}{ccc}
+    A_x \mathrm{d}x
+    + 
+    A_y \mathrm{d}y
+    &=&
+    A_x \tfrac{1}{2}(
+      \mathrm{d}z + \mathrm{d}\overline{z}
+    )
+    + 
+    A_y \tfrac{1}{2\mathrm{i}}(
+      \mathrm{d}z - \mathrm{d}\overline{z}
+    )
+    \\
+    &=&
+    \tfrac{1}{2}(A_x - \mathrm{i} A_y)
+    \mathrm{d}z
+    \,+\,
+    \tfrac{1}{2}(A_x + \mathrm{i} A_y)
+    \mathrm{d}\overline{z}
+  \end{array}
+$$
 
-* Hui-Hsiung Kuo: *Gaussian Measures in Banach Spaces*, Lecture Notes in Mathematics **463**, Springer (1975) &lbrack;[doi:10.1007/BFb0082007](https://doi.org/10.1007/BFb0082007)&rbrack; 
+we have an isomorphism
+
+$$
+  \begin{array}{ccc}
+    \Omega^1_{dR}(\Sigma; \mathrm{i} \mathbb{R})
+    &\xrightarrow{ \;\; \sim \;\; }&
+    \Omega^{0,1}_{dR}(\Sigma)
+    \\
+    A
+    &\mapsto&
+    a 
+      \coloneqq
+    \tfrac{1}{2}
+    \big(
+      A_x - \mathrm{i} A_y
+    \big)
+    \mathrm{d}z
+    \\
+    a - \overline{a}
+    &\mapsfrom& 
+    a
+  \end{array}
+$$
 
 
 ### FQH Excitation modes
