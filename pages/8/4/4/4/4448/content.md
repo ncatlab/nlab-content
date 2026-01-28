@@ -106,7 +106,7 @@ See ([Jacobs, p.57](#Jacobs)).
  
 ## Related entries
 
-* [[Artin gluing]]
+* [[Artin gluing]], [[double glueing]]
 
 * [[comma category]]
 
