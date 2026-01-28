@@ -1,7 +1,7 @@
 
 __Marcelo Aguiar__ works on [[category theory]], [[higher category theory]]/[[higher structures]], and their applications to [[combinatorics]].  
 
-* [personal page](http://www.math.cornell.edu/~maguiar)
+* [personal page](https://math.cornell.edu/marcelo-aguiar)
 
 ## Selected writings
 
