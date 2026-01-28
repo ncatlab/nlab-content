@@ -72,4 +72,27 @@ on [[mathematical physics]].
       &lbrack;[[ReedSimon-XIII16.pdf:file]]&rbrack;
 
 
+\linebreak
+
+**Contents**
+
+Volume 2 may be the origin of the famous saying attributed (there) to [[Edward Nelson]]:
+
+> *First quantization is a mystery, but second quantization is a functor.*
+
+(on "first" or "[[canonical quantization]]" versus "[[second quantization]]" of [[free field theory|free fields]]):
+
+\begin{imagefromfile}
+    "file_name": "NelsonQuoteInReedSimon.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -20,
+        "bottom": 20,
+        "right": 70, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
 category: reference
