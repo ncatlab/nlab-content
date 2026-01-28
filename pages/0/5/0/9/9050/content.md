@@ -14,9 +14,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -47,7 +45,13 @@ $$
 Write $d^*$ for the formal [[adjoint]] of the de Rham differential under this inner product. Then
 
 $$
-  \Delta := [d,d^*] := d d^* + d^* d = (d + d^*)^2
+  \Delta 
+    \coloneqq 
+  [d,d^*] 
+    \coloneqq 
+  d d^* + d^* d 
+    = 
+  (d + d^*)^2
 $$
 
 is the Hodge [[Laplace operator]] ($d + d^*$ is the corresponding [[Dirac operator]]). A [[differential form]] $\omega$ in the [[kernel]] of $\Delta$
