@@ -29,6 +29,31 @@ At one point Nelson claimed to have a [[formal proof]] of [[inconsistency]] of [
 
 * Edward Nelson, _Elements_, 2015 &lbrack;[arXiv:1510.00369 \[math.LO\]](https://arxiv.org/abs/1510.00369)&rbrack;
 
+## Quotes
+ {#Quotes}
+
+{#FirstQuantizationIsAMystery} Famously attributed to Edward Nelson is the phrase:
+
+> *First quantization is a mystery, but second quantization is a functor.*
+
+(on "first" or "[[canonical quantization]]" versus "[[second quantization]]" of [[free field theory|free fields]]) maybe first quoted as such in:
+
+* [[Michael Reed]], [[Barry Simon]]; p. 207 of Vol 2 of: *[[Methods of Modern Mathematical Physics]]*, Academic Press (1978) &lbrack;[pdf](http://www.astrosen.unam.mx/~aceves/Metodos/ebooks/reed_simon2.pdf)&rbrack;
+
+\begin{imagefromfile}
+    "file_name": "NelsonQuoteInReedSimon.jpg",
+    "width": 700,
+    "unit": "px",
+    "margin": {
+        "top": -40,
+        "bottom": 20,
+        "right": 40, 
+        "left": 0
+    }
+\end{imagefromfile}
+
+
+
 ## See also
 
 * inconsistent aka [[paraconsistent arithmetic]]
