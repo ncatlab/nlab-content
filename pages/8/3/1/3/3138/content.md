@@ -35,7 +35,7 @@ $$
 The **[[Chern character]]** of $\nabla$ is the inhomogenous [[curvature characteristic form]] 
 
 $$
- ch(\nabla) := \sum_{j \in \mathbb{N}}
+ ch(\nabla) \coloneqq \sum_{j \in \mathbb{N}}
    k_j
    tr( F_\nabla \wedge \cdots \wedge F_\nabla)
   \;\;
@@ -82,7 +82,7 @@ Under [[direct sum]] and [[tensor product]] of vector bundles, this becomes a co
 
 Let 
 $$
-  \hat K(X) := K(Struct(X))
+  \hat K(X) \coloneqq K\big(Struct(X)\big)
 $$
 
 be the additive [[group completion]] of this rig as usual in [[K-theory]].
@@ -104,7 +104,7 @@ Moreover...
 
 ## Refereces
 
-* {#SimonsSullivan08} [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_ ([arXiv:0810.4935](http://arxiv.org/abs/0810.4935))
+* {#SimonsSullivan08} [[James Simons]], [[Dennis Sullivan]], _Structured vector bundles define differential K-theory_, Géométrie différentielle, physique mathématique, mathématiques et société (I) : Volume en l'honneur de Jean Pierre Bourguignon, Astérisque, no. 321 (2008), pp. 1-3  &lbrack;[arXiv:0810.4935](http://arxiv.org/abs/0810.4935), [numdam:AST_2008__321__1_0](https://www.numdam.org/item/?id=AST_2008__321__1_0)&rbrack;
 
 
 
