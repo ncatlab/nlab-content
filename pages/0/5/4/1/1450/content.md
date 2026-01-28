@@ -217,6 +217,9 @@ See at [flow of a vector field](flow+of+a+vector+field#SyntheticDefinition).
 {#References}
 
 
+### General
+ {#ReferencesGeneral}
+
 The idea of axiomatizing [[differential geometry]] using ideas inspired by [[topos]] theory originates in 
 
 * {#Lawvere67} [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967). 
@@ -233,23 +236,22 @@ These models are constructed in terms of [[sheaf]] [[topos | toposes]] on the ca
 
 Transcripts or notes of further talks by Bill Lawvere on the subject are
 
-* [[Bill Lawvere]], _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal, Sept. 1997 ([[LawvereToposesOfLawsOfMotions.pdf:file]])
+* [[Bill Lawvere]]: _[[Toposes of laws of motion]]_ , transcript of a talk in Montreal (Sept. 1997) &lbrack;[[LawvereToposesOfLawsOfMotions.pdf:file]]&rbrack;
+  > (on the description of [[differential equation | differential equations]] in terms of synthetic differential geometry)
 
-  (on the description of [[differential equation | differential equations]] in terms of synthetic differential geometry)
-
-* [[Bill Lawvere]], _Outline of synthetic differential geometry_ , lectures in Buffalo (1998). ([[LawvereSDGOutline.pdf:file]])
+* [[Bill Lawvere]]: _Outline of synthetic differential geometry_ , lectures in Buffalo (1998). &lbrack;[[LawvereSDGOutline.pdf:file]]&rbrack;
 
 An abstract of another talk which reuses the title of the original 1967 lectures and 1978 notes:
 
-* [[Bill Lawvere]], [Categorical Dynamics](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf), Talk at the [Category Theory Conference](https://ncatlab.org/nlab/show/Category+Theory+conference) 2011 in Vancouver.
+* [[Bill Lawvere]]: *Categorical Dynamics*, talk at the [Category Theory Conference](https://ncatlab.org/nlab/show/Category+Theory+conference) 2011 in Vancouver &lbrack;[pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf)&rbrack;
 
 Two articles that exhibit the link to [[continuum mechanics]]:
 
-* [[Bill Lawvere|F. W. Lawvere]], _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_ , Cah. Top. G&#233;om. Diff. Cat. **21** no.4 (1980) pp.377-392. ([pdf](http://archive.numdam.org/article/CTGDC_1980__21_4_377_0.pdf))
+* [[F. W. Lawvere]]: _Toward the description in a smooth topos of the dynamically possible motions and deformations of a continuous body_ , Cah. Top. G&#233;om. Diff. Cat. **21** 4 (1980) 377-392 &lbrack;[pdf](http://archive.numdam.org/article/CTGDC_1980__21_4_377_0.pdf)&rbrack;
 
-* [[Bill Lawvere|F. W. Lawvere]], _Categorical algebra for continuum microphysics_ , JPAA **175** (2002) pp.267-287.
+* [[F. W. Lawvere]]: _Categorical algebra for continuum microphysics_, JPAA **175** (2002) 267-287
 
-See also
+See also:
 
 * [[Marta Bunge]], [[Eduardo Dubuc]], _Archimedian local $C^\infty$-rings and models of synthetic differential geometry_ Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, **XXVII-3** (1986) pp.3-22. ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_3_3_0)).
 
@@ -275,7 +277,7 @@ Discussion in differentially cohesive [[homotopy type theory]]:
 
 * {#JazMyers22} [[David Jaz Myers]], *Orbifolds as microlinear types in synthetic differential cohesive homotopy type theory* &lbrack;[arXiv:2205.15887](https://arxiv.org/abs/2205.15887)&rbrack;
 
-### Books
+### Monographs
 
 A nice elementary introduction which emphasizes calculations and the application as _engineering mathematics_ can be found in
 
@@ -315,3 +317,5 @@ Introductory expositions of basic ideas of synthetic differential geometry are
 
 
 [[!redirects Synthetic Differential Geometry]]
+
+[[!redirects SDG]]
