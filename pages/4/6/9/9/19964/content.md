@@ -464,6 +464,11 @@ On Skyrmions in relation to [[chiral perturbation theory|chiral]] [[effective fi
 
 * [[Nicholas S. Manton]], *Robustness of the Hedgehog Skyrmion* &lbrack;[arXiv:2405.05731](https://arxiv.org/abs/2405.05731)&rbrack;
 
+In thermal field theory:
+
+* Mikael Chala, Juan Carlos Criado, Luis Gil: *Thermoskyrmions* &lbrack;[arXiv:2601.18873](https://arxiv.org/abs/2601.18873)&rbrack;
+
+
 
 
 
