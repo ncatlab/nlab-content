@@ -17,7 +17,7 @@
 
 The _pseudocircle_ is a [[finite topological space]] which is [[weak homotopy equivalence|weakly homotopy equivalent]] to the standard [[circle]].
 
-In other word, for the purposes of [[homotopy theory]] (up to weak homotopy equivalence), it is equivalent to the circle, yet it is a purely finite combinatorial creature.
+In other words, for the purposes of [[homotopy theory]] (up to weak homotopy equivalence), it is equivalent to the circle, yet it is a purely finite combinatorial creature.
 
 
 ## Definition
