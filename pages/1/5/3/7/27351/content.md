@@ -194,7 +194,7 @@ $$
   \,.
 $$
 
-(for $g = 1$ this is [Wesolowski, Hosotani & Ho 1994 (3.25)](#WesolowskiHosotaniHo94), for  $N=1$ see [Manoliu 1998a p 40](#Manoliu98a), for general $N$ this goes back to [Wen & Zee 1992 (1.2)](#WenZee92Classification), recalled in [Fradkin 2013 (14.23)](#Fradkin13), [Belov & Moore 2005 p 26](#BelovMoore05)).
+(for $g = 1$ this is [Wesolowski, Hosotani & Ho 1994 (3.25)](#WesolowskiHosotaniHo94), for  $N=1$ see [Manoliu 1998a p 40](#Manoliu98a), for general $N$ this goes back to [Wen & Zee 1992 (1.2)](#WenZee92Classification), recalled in [Fradkin 2013 (14.23)](#Fradkin13), [Belov & Moore 2005 p 26](#BelovMoore05); see also references at *[[theta function]]*). 
 
 For the [[modular group]]-[[group action|action]] on these state spaces see at *[[integer Heisenberg group]]* the section *[Modular automorphisms](integer+Heisenberg+group#ModularAutomorphisms)* (there for $g=1$).
 
