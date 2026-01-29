@@ -1,6 +1,6 @@
 ## Definition
 
-An [[algebraic scheme]] is __semiseparated__ if it has a [[basis of topology]] by affine open subsets which is closed under finite intersections. 
+An [[algebraic scheme]] is __semiseparated__ if it has a [[basis of topology]] by affine open subsets which is closed under finite intersections. Equivalently, the diagonal morphism has an affine image (hence quasicompact image, that is, the semiseparated scheme is automatically [[quasiseparated scheme|quasiseparated]]).
 
 A __cover__ $\{U_i\}_{i\in I}$ of a scheme by affine open subsets is __semiseparated__ (also spelled semi-separated, some say semiseparating or semi-separating) if $U_i\cap U_j$ is also affine for every pair $(i,j)\in I\times I$. 
 
