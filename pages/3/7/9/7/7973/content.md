@@ -1,7 +1,16 @@
 
-* [Webpage](http://pages.uoregon.edu/apolish/)
+* [personal page](http://pages.uoregon.edu/apolish/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=18800)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Alexander-Polishchuk-2)
 
 ## Selected writings
+
+On [[abelian varieties]] and [[theta functions]]:
+
+* {#Polishchuk03} [[Alexander Polishchuk]], section 17 of: _Abelian varieties, Theta functions and the Fourier transform_, Cambridge Tracts in Mathematics **153**, Cambridge University Press (2003) &lbrack;[doi:10.1017/CBO9780511546532](https://doi.org/10.1017/CBO9780511546532), [review pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf)&rbrack;
+
 
 On [[t-structures]] on [[derived categories of coherent sheaves]]:
 
