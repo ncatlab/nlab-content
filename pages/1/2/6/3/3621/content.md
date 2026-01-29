@@ -1,6 +1,14 @@
-**Krzysztof Gaw&#281;dzki** is a mathematical physicist. Much of his works is related to [[conformal field theory]], especially geometric aspects of [[WZNW models]]. More recently he studies turbulence. He has helped identify the [[Kalb-Ramond field]]/[[B-field]] with a [[cocycle]] in [[ordinary differential cohomology]]  (in [[Deligne cohomology]]/a [[bundle gerbe]] with connection).
+Krzysztof Gawędzki (1947--2022) was a [[mathematical physics|mathematical physicist]]. Much of his works is related to [[conformal field theory]], especially geometric aspects of [[WZNW models]]. More recently he studies turbulence. He has helped identify the [[Kalb-Ramond field]]/[[B-field]] with a [[cocycle]] in [[ordinary differential cohomology]]  (in [[Deligne cohomology]]/a [[bundle gerbe]] with connection).
 
 Pronounciation note: the Polish '&#281;' (cf. [wikipedia](http://en.wikipedia.org/wiki/Polish_alphabet)) has a nazalization.
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Krzysztof_Gawedzki)
+
+* [Grokipedia page](https://grokipedia.com/page/krzysztof_gawedzki)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=212875)
+
+* [inSpire page](https://inspirehep.net/authors/1008738)
 
 ## Selected writings
 
@@ -14,11 +22,11 @@ On [[2d conformal field theory]] and introducing [[Deligne cohomology]] in degre
 
 * [[Krzysztof Gawędzki]], *Topological Actions in two-dimensional Quantum Field Theories*, in: _Nonperturbative quantum field theory_, Nato Science Series B **185**, Springer (1988) &lbrack;[spire:257658](http://inspirehep.net/record/257658), [doi:10.1007/978-1-4613-0729-7_5](https://doi.org/10.1007/978-1-4613-0729-7_5), [[Gawedzki-TopologicalActions.pdf:file]]&rbrack;
 
-* _Lectures on CFT_ (from Park City, published in QFT and strings for mathematicians, Dijkgraaf et al editors, [site](http://www.math.ias.edu/qft)) [source](http://www.math.ias.edu/QFT/fall/NewGaw.tex), [dvi](http://www.math.ias.edu/QFT/fall/NewGaw.dvi), [ps](http://www.math.ias.edu/QFT/fall/NewGaw.ps)
+* {#Gawedzki97} [[Krzysztof Gawędzki]]: *Lectures on Conformal Field Theory*, in *[[Quantum Fields and Strings]]* (1999) &lbrack;[cds:322984](https://cds.cern.ch/record/322984), [pdf](https://cds.cern.ch/record/322984/files/SCAN-9703129.pdf), [[Gawedzki-LecturesOnCFT.pdf:file]]&rbrack;
 
-and with emphases on the [[WZW model]] and its relation to [[Chern-Simons theory]] via the [[CS-WZW correspondence]]:
+and with emphasis on the [[WZW model]] and its relation to [[Chern-Simons theory]] via the [[CS-WZW correspondence]]:
 
-* [[Krzysztof Gawędzki]], *Conformal field theory: a case study*, in Y. Nutku, C. Saclioglu, T. Turgut (eds.) *Conformal Field Theory -- New Non-perturbative Methods In String And Field Theory*, CRC Press (2000) &lbrack;[arXiv:hep-th/9904145](https://arxiv.org/abs/hep-th/9904145), [doi:10.1201/9780429502873](https://doi.org/10.1201/9780429502873)&rbrack;
+* [[Krzysztof Gawędzki]]: *Conformal field theory: a case study*, in Y. Nutku, C. Saclioglu, T. Turgut (eds.) *Conformal Field Theory -- New Non-perturbative Methods In String And Field Theory*, CRC Press (2000) &lbrack;[arXiv:hep-th/9904145](https://arxiv.org/abs/hep-th/9904145), [doi:10.1201/9780429502873](https://doi.org/10.1201/9780429502873)&rbrack;
 
 On the [[basic bundle gerbe]] over a [[compact Lie group|compact]] [[simple Lie group]] in relation to the [[WZW model]]:
 
