@@ -34,7 +34,9 @@ Let $E$ be the class of [[final functors]] and $M$ be the class of [[discrete fi
 +-- {: .proof}
 ###### Proof
 
-Let $F:C\to D$ be a functor.  Define $K:D^{op}\to Set$ as the left Kan extension of the constant presheaf $C^{op}\to Set$ at the singleton along $F^{op}$. For each $d\in D$, $K d$ is the set of connected components of $d/F$. Let $E=\int K$ be the category of elements of the presheaf $K$.  Explicitly, $E$ has objects pairs $(d,[\alpha:d\to F c])$ where $[\alpha]$ denotes the connected component of $(c,\alpha)$ in $d/F$, and morphisms between objects $(d,[\alpha:d\to F c])$ and $(d',[\alpha':d'\to F c'])$ are morphisms $g:d\to d'$ such that $K(g)([\alpha'])=[\alpha'\circ g]=[\alpha]$.  Observe that $E$ is the pullback in the $1$-category $Cat$ of the forgetful functor $U:Set_{\ast}^{op}\to Set^{op}$ and $K^{op}:D\to Set^{op}$.  Let $m:E\to D$ and $p:E\to Set^{op}$ be the natural projections onto $D$ and $Set_{\ast}^{op}$, respectively, arising from this pullback.
+Let $F:C\to D$ be a functor.  Define $K:D^{op}\to Set$ as the left Kan extension of the constant presheaf $C^{op}\to Set$ at the singleton along $F^{op}$. For each $d\in D$, $K d$ is the set of connected components of $d/F$. Let $E=\int K$ be the category of elements of the presheaf $K$.  Explicitly, $E$ has objects pairs $(d,[\alpha:d\to F c])$ where $[\alpha]$ denotes the connected component of $(c,\alpha)$ in $d/F$, and morphisms between objects $(d,[\alpha:d\to F c])$ and $(d',[\alpha':d'\to F c'])$ are morphisms $g:d\to d'$ such that $K(g)([\alpha'])=[\alpha'\circ g]=[\alpha]$.
+
+Observe that $E$ is the pullback in the $1$-category $Cat$ of the forgetful functor $U:Set_{\ast}^{op}\to Set^{op}$ and $K^{op}:D\to Set^{op}$.  Let $m:E\to D$ and $p:E\to Set^{op}$ be the natural projections onto $D$ and $Set_{\ast}^{op}$, respectively, arising from this pullback.
 
 \begin{tikzcd}
 	C \\
@@ -49,11 +51,11 @@ Let $F:C\to D$ be a functor.  Define $K:D^{op}\to Set$ as the left Kan extension
 	\arrow["{K^{\text{op}}}"', from=3-2, to=3-3]
 \end{tikzcd}
 
-Each object $c\in C$ has a cannonical representative for a connected component of $F c/F$ given by $[id_{F c}] \in K F c$.  This determines a functor $J:C\to Set_{\ast}^{op}$ defined on objects by $J c=([id_{F c}],K F c)$ and on morphisms by taking $f:c\to c'$ to $J(f)=K^{op}F(f):J c'\to J c$. Since $U J=K^{op} F$, then by the universal property of $E$, there is a unique morphism $e:C\to E$ such that $m e=F$ and $p e=J$. From these properties, it is readily shown that $e(c)=(F c,[id_{F c}])$ and $e(f)=F(f):e(c)\to e(c')$. 
+Each object $c\in C$ has a canonical representative for a connected component of $F c/F$ given by $[id_{F c}] \in K F c$.  This determines a functor $J:C\to Set_{\ast}^{op}$ defined on objects by $J c=([id_{F c}],K F c)$ and on morphisms by $J(f)=K^{op}F(f)$. Since $U J=K^{op} F$, then by the universal property of $E$, there is a unique functor $e:C\to E$ such that $m e=F$ and $p e=J$. It is readily shown that $e(c)=(F c,[id_{F c}])$ and $e(f)=F(f)$.
 
-To show that $e$ is final, fix $(d,[\alpha:d\to F c]) \in E$. Then $\alpha:d\to F c$ is an arrow $(d,[\alpha])\to (F c,[id_{F c}])$ in $E$ as $K(\alpha)([id_{F c}])=[\alpha]$, thus $(d,[\alpha])/e$ is non-empty. For arrows $f:(d,[\alpha])\to (F a,[id_{F a}])$ and $g:(d,[\alpha])\to (F b,[id_{F b}])$, one has $K(f)([id_{F a}])=[f]=[\alpha]=[g]=K(g)([id_{F b}])$, thus $f$ and $g$ are in the same component of $d/F$. A standard zig-zag argument shows that $f$ and $g$ are in the same connected component of $(d,[\alpha])/e$. Thus $(d,[\alpha])/e$ is connected and $e$ is final.
+A sketch that $e$ is final is given, that is, $(d,[\alpha:d\to F c])/e$ is non-empty and connected. Note that $\alpha:(d,[\alpha])\to (F c,[id_{F c}])$ is an arrow in $E$ as $K(\alpha)([id_{F c}])=[\alpha]$, thus $(d,[\alpha])/e$ is non-empty. Given arrows $f:(d,[\alpha])\to (F a,[id_{F a}])$ and $g:(d,[\alpha])\to (F b,[id_{F b}])$, one has $[f]=[\alpha]=[g]$, thus $f$ and $g$ are in the same component of $d/F$. A standard zig-zag argument shows that $f$ and $g$ are in the same connected component of $(d,[\alpha])/e$.
 
-To show that $m$ is a discrete fibration, fix $(d,[\alpha:d\to F c]) \in E$ and let $g:d'\to d$ be a morphism in $D$. Notice that $g$ is a morphism $(d',[\alpha\circ g])\to (d,[\alpha])$ such that $m(g)=g$, thus $m$ is a discrete fibration.
+To show that $m$ is a discrete fibration, fix $(d,[\alpha:d\to F c]) \in E$ and let $g:d'\to d$ be a morphism in $D$. Notice that $g$ is a morphism $(d',[\alpha\circ g])\to (d,[\alpha])$ such that $m(g)=g$.
 
 Now we show that $E$ and $M$ are replete subcategories of $Cat$.  Clearly they include all isomorphisms.
 
