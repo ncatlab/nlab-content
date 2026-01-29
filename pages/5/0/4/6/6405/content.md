@@ -10,11 +10,11 @@ Abelian varieties are higher dimensional analogues of [[elliptic curve]]s (which
 ## Definition
 
 
-In his book _Abelian Varieties_, David Mumford defines an **abelian variety** over an algebraically closed field $k$ to be a [[complete algebraic variety|complete]] [[algebraic group]] over $k$.  Remarkably, any such thing is an _abelian_ algebraic group.  The assumption of connectedness is necessary for that conclusion.
+[Mumford 1970](#Mumford1970) defines an **abelian variety** over an algebraically closed field $k$ to be a [[complete algebraic variety|complete]] [[algebraic group]] over $k$.  Remarkably, any such thing is an _[[abelian group|abelian]]_ algebraic group.  The assumption of connectedness is necessary for that conclusion.
 
-##  Automatic abelianness
+## Automatic abelianness
 
-David Mumford gives at two proofs that every complete algebraic group over an algebraically closed field is automatically abelian.  One of them uses a 'rigidity lemma' which has an interesting category-theoretic interpretation.  We outline this here:
+[Mumford '70](#Mumford1970) gives at two proofs that every complete algebraic group over an algebraically closed field is automatically abelian.  One of them uses a 'rigidity lemma' which has an interesting category-theoretic interpretation.  We outline this here:
 
 In simple terms, the rigidity lemma says that under certain circumstances "a 2-variable function $f(x,y)$ that is independent of $x$ for one value of $y$ is independent of $x$ for all values of $y$."   
 
@@ -28,7 +28,7 @@ Say a <b>point</b> of $Y$ is a morphism $p: 1 \to Y$.  Say a morphism $f: X \tim
 
 +-- {: .proof}
 ######Proof
-The hard part, the rigidity lemma, is proved for complete algebraic varieties on page 43 of Mumford's _Abelian Varieties_.  Mumford mentions in a footnote that complete algebraic varieties are automatically irreducible, and he later seems to assume without much explanation that they are connected: these points could use some clarification, at least for amateurs. 
+The hard part, the rigidity lemma, is proved for complete algebraic varieties on page 43 of [Mumford '70](#Mumford1970).  Mumford mentions in a footnote that complete algebraic varieties are automatically irreducible, and he later seems to assume without much explanation that they are connected: these points could use some clarification, at least for amateurs. 
 =-- 
 
 **Theorem 2.** Suppose $G,H$ are group objects in a category $C$ with finite products obeying the rigidity lemma.  Suppose $f : G \to H$ is any morphism in $C$ preserving the identity.  Then $f$ is a homomorphism.
@@ -74,17 +74,18 @@ A consequence of Corollary 2 is that if $Alb : Var_* \to AbVar$ is the left adjo
 
 ## Literature
 
-* C. Bartocci, [[Ugo Bruzzo]], D. Hernandez Ruiperez, _Fourier-Mukai and Nahm transforms in geometry and mathematical physics_, Progress in Mathematics 276, Birkhauser 2009.
+* {#Mumford1970} [[David Mumford]]: *Abelian varieties*, Oxford Univ. Press (1970) &lbrack;full: [pdf](https://wstein.org/edu/Fall2003/252/references/mumford-abvar/Mumford-Abelian_Varieties.pdf), Part I: [[Mumford-AbelianVarieties-I.pdf:file]], II: [[Mumford-AbelianVarieties-II.pdf:file]], III: [[Mumford-AbelianVarieties-III.pdf:file]], IV: [[Mumford-AbelianVarieties-IV.pdf:file]]&rbrack;
 
 * [[M. Demazure]], [[P. Gabriel]], _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970 &#8211; has functor of points point of view; for review see Bull. London Math. Soc. (1980) 12 (6): 476-478, [doi](http://dx.doi.org/10.1112/blms/12.6.476b)
 
 * [[Daniel Huybrechts]], _Fourier-Mukai transforms in algebraic geometry_, Oxford Mathematical Monographs. 2006. 307 pages.
 
-* J. S. Milne, _Abelian varieties_, course notes, [pdf](http://www.jmilne.org/math/CourseNotes/AV.pdf)
+* C. Bartocci, [[Ugo Bruzzo]], D. Hernandez Ruiperez, _Fourier-Mukai and Nahm transforms in geometry and mathematical physics_, Progress in Mathematics 276, Birkhauser 2009.
 
-* David Mumford, _Abelian varieties_, Oxford Univ. Press 1970.
 
-* [[Alexander Polishchuk]], _Abelian varieties, theta functions and the Fourier transform_, Cambridge Univ. Press 2003.
+* J. S. Milne, _Abelian varieties_, course notes &lbrack;[pdf](http://www.jmilne.org/math/CourseNotes/AV.pdf)&rbrack;
+
+* {#Polishchuk03} [[Alexander Polishchuk]], section 17 of: _Abelian varieties, Theta functions and the Fourier transform_, Cambridge Tracts in Mathematics **153**, Cambridge University Press (2003) &lbrack;[doi:10.1017/CBO9780511546532](https://doi.org/10.1017/CBO9780511546532), [review pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf)&rbrack;
 
 * Goro Shimura, _Abelian varieties with complex multiplication and modular functions_, Princeton Univ. Press 1997.
 
@@ -95,7 +96,7 @@ In [[E-infinity geometry]]:
 * {#LurieI} [[Jacob Lurie]], _Elliptic Cohomology I: Spectral Abelian Varieties_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
 
 
-For a discussion of how the rigidity lemma gives 'automatic abelianness' see:
+Discussion of how the rigidity lemma gives 'automatic abelianness':
 
 * [Two miracles in algebraic geometry](https://golem.ph.utexas.edu/category/2016/08/the_magic_of_algebraic_geometr.html), _The n-Category Caf&eacute_.
 
