@@ -24,6 +24,10 @@ is exact.
 
 c)' The property c) holds for all exact sequences (*) of quasicoherent $\mathcal{O}_X$-modules such that $\mathcal{F}$ is a sub-$\mathcal{O}_X$-module of a finite product $\mathcal{O}_X^n$.
 
+d) $H^1(X,\mathcal{F})=0$ for each quasi-coherent sheaf of $\mathcal{O}_X$-modules $\mathcal{F}$
+
+d)' $H^1(X,\mathcal{I})=0$ for each quasi-coherent sheaf $\mathcal{I}$ of ideals in $\mathcal{O}_X$
+
 __EGA II Corollary 5.2.2__ Let $f:X\to Y$ be a quasicompact separated morphism of schemes. The following conditions are equivalent:
 
 a) $f$ is an affine homomorphism.
@@ -37,6 +41,8 @@ c') For every quasi-coherent sheaf $\mathcal{I}$ of ideals in $\mathcal{O}_X$, w
 ## Literature
 
 * See also [[EGA]] EGA IV 1.7.17
+
+* Stacks project tag/[0656](https://stacks.math.columbia.edu/tag/0656)
 
 * Akhil Mathew, [Serre's criterion for affineness as Morita theory](http://amathew.wordpress.com/2012/08/01/serres-criterion-for-affineness-as-morita-theory), a blog post
 
