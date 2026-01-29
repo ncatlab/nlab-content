@@ -41,6 +41,8 @@ Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 * [PSSL 111](https://progetto-itaca.github.io/pssl111/) (2025, Bologna) [schedule and abstracts](https://progetto-itaca.github.io/pssl111/programme.html)
 
+* [PSSL 112](https://sites.google.com/view/pssl112/)
+
 ## Related pages
 
 * [[Category Theory conference]]
