@@ -7,6 +7,11 @@
 
 ***
 
+[[Mumford-AbelianVarieties-I.pdf:file]]
+[[Mumford-AbelianVarieties-II.pdf:file]]
+[[Mumford-AbelianVarieties-III.pdf:file]]
+[[Mumford-AbelianVarieties-IV.pdf:file]]
+
 Let $\Sigma$ be a closed oriented [[surface]] equipped with a [[complex structure]] (a [[complex curve]]).
 
 Noticing
