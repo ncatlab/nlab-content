@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _store comonad_ (also _costate comonad_, as it is [[left adjoint]] to the *[[state monad]]*) is a [[comonad|co-]][[monad (in computer science)]] used to implement computational storage and retrieval of [[data]] ([[databases]]) in [[functional programming]].
+The _store comonad_ (also _costate comonad_, as it is in a sense dual to the *[[state monad]]*) is a [[comonad|co-]][[monad (in computer science)]] used to implement computational storage and retrieval of [[data]] ([[databases]]) in [[functional programming]].
 
 Concretely, the [[coalgebra over a comonad|coalgebras]] over the store monad are equivalently the well-behaved *[[lenses (in computer science)|lens]]-data structures* ([O’Connor (2010)](#O’Connor10), [(2011)](#O’Connor11);
 see [there](lens+in+computer+science#LensesAreCostateCoalgebras)) used to inspect and edit fields ("views") in [[databases]].
