@@ -17,9 +17,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
 
@@ -117,18 +115,21 @@ e.g. ([Beauville, above prop. 2.2](#Beauville)), also ([Beauville, section 3.4](
 
 ## References
 
-Introductions to the traditional notion include
+Introductions to the traditional notion:
 
-* D.H. Bailey et al, _The Miracle of Theta Functions_ ([web](http://www.cecm.sfu.ca/organics/papers/borwein/paper/html/node12.html))
+* D. H. Bailey et al.: _The Miracle of Theta Functions_ &lbrack;[web](http://www.cecm.sfu.ca/organics/papers/borwein/paper/html/node12.html)&rbrack;
 
-* M. Bertola, _Riemann surfaces and theta  functions_ ([pdf](http://www.mathstat.concordia.ca/faculty/bertola/ThetaCourse/ThetaCourse.pdf))
+* M. Bertola: _Riemann surfaces and theta  functions_ (2010) &lbrack;[pdf](https://mypage.concordia.ca/mathstat/bertola/ThetaCourse/ThetaCourse.pdf)&rbrack;
 
-Modern textbook accounts include
+Monographs:
 
-* {#Mumford83} [[David Mumford]], _Tata Lectures on Theta_, Birkh&#228;user 1983
+* {#Mumford1970} [[David Mumford]]; part I of: *Abelian varieties*, Oxford Univ. Press (1970) &lbrack;full: [pdf](https://wstein.org/edu/Fall2003/252/references/mumford-abvar/Mumford-Abelian_Varieties.pdf), Part I: [[Mumford-AbelianVarieties-I.pdf:file]], II: [[Mumford-AbelianVarieties-II.pdf:file]], III: [[Mumford-AbelianVarieties-III.pdf:file]], IV: [[Mumford-AbelianVarieties-IV.pdf:file]]&rbrack;
 
-* {#Polishchuk03} [[Alexander Polishchuk]], section 17 of _Abelian varieties, Theta functions and the Fourier transform_, Cambridge University Press (2003) ([review pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf))
+* {#Mumford83} [[David Mumford]]: _Tata Lectures on Theta I_,  Modern Birkhäuser Classics, Birkhäuser (1983) Springer (2007) &lbrack;[doi:10.1007/978-0-8176-4577-9](https://doi.org/10.1007/978-0-8176-4577-9)&rbrack;
 
+* [[David Mumford]]: _Tata Lectures on Theta II --- Jacobian theta functions and differential equations_, Modern Birkhäuser Classics, Birkhäuser (1983), Springer (2007) &lbrack;[doi:10.1007/978-0-8176-4578-6](https://doi.org/10.1007/978-0-8176-4578-6)&rbrack;
+
+* {#Polishchuk03} [[Alexander Polishchuk]], section 17 of: _Abelian varieties, Theta functions and the Fourier transform_, Cambridge Tracts in Mathematics **153**, Cambridge University Press (2003) &lbrack;[doi:10.1017/CBO9780511546532](https://doi.org/10.1017/CBO9780511546532), [review pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf)&rbrack;
 
 Further discussion with an emphasis of the origin of theta functions in [[geometric quantization]] of [[Chern-Simons theory]] is in 
 
