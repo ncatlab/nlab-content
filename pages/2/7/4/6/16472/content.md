@@ -39,7 +39,11 @@ Discussion of [[orbifold|orbifolding]] via [[categorification]], in [[homotopica
 
 On rigorous [[semi-topological 4d Chern-Simons theory]] via [[homotopical AQFT]]:
 
-* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ ([arXiv:2008.01829](https://arxiv.org/abs/2008.01829))
+* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ &lbrack;[arXiv:2008.01829](https://arxiv.org/abs/2008.01829)&rbrack;
+
+and its relation to 2d [[integrable models]] via [[L-infinity algebras|$L_\infty$-algebras]]:
+
+* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo: *The homological algebra of 2d integrable field theories* &lbrack;[arXiv:2601.19993](https://arxiv.org/abs/2601.19993)&rbrack;
 
 
 On 1d [[AQFT]] and [[smooth stacks]]:
