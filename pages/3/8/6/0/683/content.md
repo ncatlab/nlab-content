@@ -27,7 +27,7 @@
 
 ## Idea 
 
-In great generality, a _homotopy limit_ is a way of constructing an appropriate sorts of [[limit]]s in a [[higher category theory|(weak) higher category]] and in general and in [[(∞,1)-category]] theory in particular, using some _presentation_ of that higher category by a [[category theory|1-categorical]] structure.  The general study of such presentations is [[homotopy theory]].
+In great generality, a _homotopy limit_ is a way of constructing an appropriate sorts of [[limit]] in a [[higher category theory|(weak) higher category]] and in general and in [[(∞,1)-category]] theory in particular, using some _presentation_ of that higher category by a [[category theory|1-categorical]] structure.  The general study of such presentations is [[homotopy theory]].
 
 In classical homotopy theory, the presentation is given by a [[category with weak equivalences]], possibly satisfying extra axioms such as those of a [[homotopical category]], a [[category of fibrant objects]], or a [[model category]].  Such structures are considered to present an [[(∞,1)-category]], and homotopy limits give a way of constructing the appropriate sort of [[limit in a quasi-category|(∞,1)-categorical limits]].
 
