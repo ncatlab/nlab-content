@@ -34,7 +34,26 @@ Let $E$ be the class of [[final functors]] and $M$ be the class of [[discrete fi
 +-- {: .proof}
 ###### Proof
 
-Let $F:C\to D$ be a functor.  Define $K:D\to Set$ as the left Kan extension of the constant presheaf $C\to Set$ at the singleton along $F$.  Explicitly, $K(d)$ is the set of connected components of $F/d$. Let $E=\int K$, so an object of $E$ is an ordered pair $(d, [\alpha:F c\to d])$ where $[\alpha]$ denotes the connected component of $(c,\alpha)$.  Then it is not hard to verify that $e:C\to E$ mapping $c\mapsto (F c,[id_{F c}])$ is final, the canonical $m:E\to D$ is a discrete fibration, and $F = m e$.
+Let $F:C\to D$ be a functor.  Define $K:D^{op}\to Set$ as the left Kan extension of the constant presheaf $C^{op}\to Set$ at the singleton along $F^{op}$. For each $d\in D$, $K d$ is the set of connected components of $d/F$. Let $E=\int K$ be the category of elements of the presheaf $K$.  Explicitly, $E$ has objects pairs $(d,[\alpha:d\to F c])$ where $[\alpha]$ denotes the connected component of $(c,\alpha)$ in $d/F$, and morphisms between objects $(d,[\alpha:d\to F c])$ and $(d',[\alpha':d'\to F c'])$ are morphisms $g:d\to d'$ such that $K(g)([\alpha'])=[\alpha'\circ g]=[\alpha]$.  Observe that $E$ is the pullback in the $1$-category $Cat$ of the forgetful functor $U:Set_{\ast}^{op}\to Set^{op}$ and $K^{op}:D\to Set^{op}$.  Let $m:E\to D$ and $p:E\to Set^{op}$ be the natural projections onto $D$ and $Set_{\ast}^{op}$, respectively, arising from this pullback.
+
+\begin{tikzcd}
+	C \\
+	& E & {\text{Set}_{\ast}^{\text{op}}} \\
+	& D & {\text{Set}^{\text{op}}}
+	\arrow["e"{description}, dashed, from=1-1, to=2-2]
+	\arrow["J", from=1-1, to=2-3]
+	\arrow["F"', from=1-1, to=3-2]
+	\arrow["p"', dashed, from=2-2, to=2-3]
+	\arrow["m", dashed, from=2-2, to=3-2]
+	\arrow["U", from=2-3, to=3-3]
+	\arrow["{K^{\text{op}}}"', from=3-2, to=3-3]
+\end{tikzcd}
+
+Each object $c\in C$ has a cannonical representative for a connected component of $F c/F$ given by $[id_{F c}] \in K F c$.  This determines a functor $J:C\to Set_{\ast}^{op}$ defined on objects by $J c=([id_{F c}],K F c)$ and on morphisms by taking $f:c\to c'$ to $J(f)=K^{op}F(f):J c'\to J c$. Since $U J=K^{op} F$, then by the universal property of $E$, there is a unique morphism $e:C\to E$ such that $m e=F$ and $p e=J$. From these properties, it is readily shown that $e(c)=(F c,[id_{F c}])$ and $e(f)=F(f):e(c)\to e(c')$. 
+
+To show that $e$ is final, fix $(d,[\alpha:d\to F c]) \in E$. Then $\alpha:d\to F c$ is an arrow $(d,[\alpha])\to (F c,[id_{F c}])$ in $E$ as $K(\alpha)([id_{F c}])=[\alpha]$, thus $(d,[\alpha])/e$ is non-empty. For arrows $f:(d,[\alpha])\to (F a,[id_{F a}])$ and $g:(d,[\alpha])\to (F b,[id_{F b}])$, one has $K(f)([id_{F a}])=[f]=[\alpha]=[g]=K(g)([id_{F b}])$, thus $f$ and $g$ are in the same component of $d/F$. A standard zig-zag argument shows that $f$ and $g$ are in the same connected component of $(d,[\alpha])/e$. Thus $(d,[\alpha])/e$ is connected and $e$ is final.
+
+To show that $m$ is a discrete fibration, fix $(d,[\alpha:d\to F c]) \in E$ and let $g:d'\to d$ be a morphism in $D$. Notice that $g$ is a morphism $(d',[\alpha\circ g])\to (d,[\alpha])$ such that $m(g)=g$, thus $m$ is a discrete fibration.
 
 Now we show that $E$ and $M$ are replete subcategories of $Cat$.  Clearly they include all isomorphisms.
 
@@ -52,7 +71,7 @@ If functors $F:C\to D$ and $G: D\to E$ are final, then we show that $G\circ F$ i
   G F c'
 \end{xymatrix}
 
-By finality of $F$, the elements $(c,id:F c\to F c)$ and $(c', f:F c\to F c')$ of $Fc/F$ are connected.  A zig-zag path between them, by precomposition with $\gamma$, becomes a zig-zag path between $(c,\gamma)$ and $(c',\gamma')$.  So $G\circ F$ is final.
+By finality of $F$, the elements $(c,id:F c\to F c)$ and $(c', f:F c\to F c')$ of $F c/F$ are connected.  A zig-zag path between them, by precomposition with $\gamma$, becomes a zig-zag path between $(c,\gamma)$ and $(c',\gamma')$.  So $G\circ F$ is final.
 
 The proof that discrete fibrations form a subcategory is omitted.
 
@@ -103,7 +122,7 @@ Functoriality now follows easily from uniqueness of lifting for a discrete fibra
 
 =--
 
-Dually, there is an orthogonal factorisation system $(E,M)$ on $Cat$ for which $E$ is the class of [[initial functors]] and $M$ is the class of [[discrete opfibrations]].
+Dually, there is an orthogonal factorisation system $(E,M)$ on $Cat$ for which $E$ is the class of [[initial functors]] and $M$ is the class of [[discrete opfibrations]]. To obtain this factorization, let $K$ be the left Kan extension of the constant functor $C\to Set$ at the singleton along $F$. The category of elements of $K$ is the usual category of elements construction for a covariant functor. The resulting $e$ will be initial and the resulting $m$ will be a discrete opfibration.
 
 ## Remark on the terminology
 
