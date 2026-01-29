@@ -17,7 +17,7 @@
 
 ## Definition
 
-Hihger homotopies are *[[homotopies]] of [[homotopies]]*, existing in higher [[homotopy types]].
+Higher homotopies are *[[homotopies]] of [[homotopies]]*, existing in higher [[homotopy types]].
 
 The generalization of [[mathematical structures]] to the situation where identities/laws hold only up to [[coherence law|coherent]] higher homotopies are now often known as *[[higher structures]]*. 
 
