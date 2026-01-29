@@ -33,12 +33,12 @@ Operadic categories are thus a framework for [[generalised multicategories]], al
 
 ## References
 
-* [[Michael Batanin]] and [[Martin Markl]], _Operadic categories and duoidal Deligne's conjecture_, Advances in Mathematics 285 (2015): 1630-1687.
+* [[Michael Batanin]] and [[Martin Markl]], _Operadic categories and duoidal Deligne's conjecture_, Advances in Mathematics 285 (2015): 1630-1687, &lbrack;[arXiv:1404.3886](https://arxiv.org/abs/1404.3886)&rbrack;.
 
-* [[Steve Lack]], _Operadic structures and their skew monoidal categories of collections_, Higher Structures 2.1 (2018): 1-29.
+* [[Steve Lack]], _Operadic structures and their skew monoidal categories of collections_, Higher Structures 2.1 (2018): 1-29, &lbrack;[arXiv:1610.06282](https://arxiv.org/abs/1610.06282)&rbrack;.
 
-* [[Richard Garner]], [[Joachim Kock]], and [[Mark Weber]], _Operadic categories and décalage_, Advances in Mathematics 377 (2021): 107440.
+* [[Richard Garner]], [[Joachim Kock]], and [[Mark Weber]], _Operadic categories and décalage_, Advances in Mathematics 377 (2021): 107440, &lbrack;[arXiv:1812.01750](https://arxiv.org/abs/1812.01750)&rbrack;.
 
-* [[Michael Batanin]] and [[Martin Markl]], _Operadic categories as a natural environment for Koszul duality_, Compositionality 5 (2023).
+* [[Michael Batanin]] and [[Martin Markl]], _Operadic categories as a natural environment for Koszul duality_, Compositionality 5 (2023), &lbrack;[arXiv:1812.02935](https://arxiv.org/abs/1812.02935)&rbrack;.
 
 [[!redirects operadic categories]]
