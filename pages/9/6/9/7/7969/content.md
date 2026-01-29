@@ -150,8 +150,7 @@ Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]]
 
 * {#Freed87} [[Daniel Freed]], around p. 30-31 of _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
 
-* {#FalcetoGawedzki94} Fernando Falceto, [[Krzysztof Gawędzki]], _Chern-Simons states at genus one_, Comm. Math. Phys. Volume 159, Number 3 (1994), 549-579. ([Euclid](https://projecteuclid.org/euclid.cmp/1104254732))
-
+* {#FalcetoGawedzki94} Fernando Falceto, [[Krzysztof Gawędzki]]: *Chern-Simons states at genus one*, Comm. Math. Phys. **159** 3 (1994) 549-579 &lbrack;[euclid:1104254732](https://projecteuclid.org/euclid.cmp/1104254732)&rbrack;
 
 * Kazuhiro Hikami, _Mock (False) Theta Functions as Quantum Invariants_ ([arXiv:math-ph/0506073](http://arxiv.org/abs/math-ph/0506073))
 
