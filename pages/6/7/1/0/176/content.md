@@ -17,9 +17,7 @@
 =--
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
 
 
 ## Idea 
@@ -443,12 +441,13 @@ With emphases on [[braid group representations]] constituted by [[conformal bloc
 
 * [[Toshitake Kohno]], *Conformal field theory and topology*, transl. from the 1998 Japanese original by the author. Translations of Mathematical Monographs __210__. Iwanami Series in Modern Mathematics. Amer. Math. Soc. (2002) &lbrack;[AMS:mmono-210](https://bookstore.ams.org/mmono-210)&rbrack;
 
-
 Introduction and surveys:
 
 * [[Paul Ginsparg]], *Applied Conformal Field Theory*, lectures at: *[Fields, strings, critical phenomena, Les Houche Summer School 1988](https://inis.iaea.org/search/search.aspx?orig_q=RN:21047524)([arXiv:hep-th/9108028](https://arxiv.org/abs/hep-th/9108028))
 
-* {#Gawedzki99} [[Krzysztof Gawedzki]], _Conformal field theory: a case study_ ([arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145))
+* {#Gawedzki97} [[Krzysztof Gawędzki]]: *Lectures on Conformal Field Theory*, in *[[Quantum Fields and Strings]]* (1999) &lbrack;[cds:322984](https://cds.cern.ch/record/322984), [pdf](https://cds.cern.ch/record/322984/files/SCAN-9703129.pdf), [[Gawedzki-LecturesOnCFT.pdf:file]]&rbrack;
+
+* {#Gawedzki99} [[Krzysztof Gawędzki]]: _Conformal field theory: a case study_ &lbrack;[arXiv:hep-th/9904145](http://arxiv.org/abs/hep-th/9904145)&rbrack;
 
 * [[Ingo Runkel]], _Boundary problems in conformal field theory_ ([pdf](http://www.math.uni-hamburg.de/home/runkel/PDF/phd.pdf))
 
