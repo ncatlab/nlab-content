@@ -753,6 +753,12 @@ Review:
 
 * [[Daniel Arovas]]: *Lecture Notes on Quantum Hall Effect* (2024) &lbrack;[pdf](https://courses.physics.ucsd.edu/2019/Spring/physics230/LECTURES/QHE.pdf)&rbrack;
 
+Discussion of Landau levels via [[modular theory]]:
+
+* S Twareque Ali: *An interesting modular structure associated to Landau levels*, J. Phys.: Conf. Ser. **237** (2010) 012001 &lbrack;[doi:10.1088/1742-6596/237/1/012001](https://doi.org/10.1088/1742-6596/237/1/012001)&rbrack;
+
+
+
 
 Discussion via Newton-Cartan theory:
 
