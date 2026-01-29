@@ -55,7 +55,7 @@ Each object $c\in C$ has a canonical representative for a connected component of
 
 A sketch that $e$ is final is given, that is, $(d,[\alpha:d\to F c])/e$ is non-empty and connected. Note that $\alpha:(d,[\alpha])\to (F c,[id_{F c}])$ is an arrow in $E$ as $K(\alpha)([id_{F c}])=[\alpha]$, thus $(d,[\alpha])/e$ is non-empty. Given arrows $f:(d,[\alpha])\to (F a,[id_{F a}])$ and $g:(d,[\alpha])\to (F b,[id_{F b}])$, one has $[f]=[\alpha]=[g]$, thus $f$ and $g$ are in the same component of $d/F$. A standard zig-zag argument shows that $f$ and $g$ are in the same connected component of $(d,[\alpha])/e$.
 
-To show that $m$ is a discrete fibration, fix $(d,[\alpha:d\to F c]) \in E$ and let $g:d'\to d$ be a morphism in $D$. Notice that $g$ is a morphism $(d',[\alpha\circ g])\to (d,[\alpha])$ such that $m(g)=g$.
+To show that $m$ is a discrete fibration, fix $(d,[\alpha:d\to F c]) \in E$ and let $g:d'\to d$ be a morphism in $D$. Notice that $g$ is the unique morphism $(d',[\alpha\circ g])\to (d,[\alpha])$ such that $m(g)=g$.
 
 Now we show that $E$ and $M$ are replete subcategories of $Cat$.  Clearly they include all isomorphisms.
 
