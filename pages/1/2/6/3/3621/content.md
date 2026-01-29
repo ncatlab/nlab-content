@@ -12,10 +12,10 @@ Pronounciation note: the Polish '&#281;' (cf. [wikipedia](http://en.wikipedia.or
 
 ## Selected writings
 
+
 On [[supergeometry]] and [[supermanifolds]]:
 
 * {#Gawędzki77} [[Krzysztof Gawędzki]]: *Supersymmetries -- Mathematics of supergeometry*, Annales de l'I.H.P. **27** 4 (1977) 335-366 &lbrack;[numdam:AIHPA_1977__27_4_335_0](http://www.numdam.org/item/?id=AIHPA_1977__27_4_335_0), [dml:75963](https://eudml.org/doc/75963)&rbrack;
-
 
 
 On [[2d conformal field theory]] and introducing [[Deligne cohomology]] in degree 3 ([[bundle gerbes]] [[connection on a bundle gerbe|with connection]]) as global models for the [[background field|background]] [[B-field]], such as in the [[WZW model]]:
@@ -27,6 +27,11 @@ On [[2d conformal field theory]] and introducing [[Deligne cohomology]] in degre
 and with emphasis on the [[WZW model]] and its relation to [[Chern-Simons theory]] via the [[CS-WZW correspondence]]:
 
 * [[Krzysztof Gawędzki]]: *Conformal field theory: a case study*, in Y. Nutku, C. Saclioglu, T. Turgut (eds.) *Conformal Field Theory -- New Non-perturbative Methods In String And Field Theory*, CRC Press (2000) &lbrack;[arXiv:hep-th/9904145](https://arxiv.org/abs/hep-th/9904145), [doi:10.1201/9780429502873](https://doi.org/10.1201/9780429502873)&rbrack;
+
+On [[theta functions]] via [[SU(2)]] [[Chern-Simons theory]] on the [[torus]]:
+
+* {#FalcetoGawedzki94} Fernando Falceto, [[Krzysztof Gawędzki]]: *Chern-Simons states at genus one*, Comm. Math. Phys. **159** 3 (1994) 549-579 &lbrack;[euclid:1104254732](https://projecteuclid.org/euclid.cmp/1104254732)&rbrack;
+
 
 On the [[basic bundle gerbe]] over a [[compact Lie group|compact]] [[simple Lie group]] in relation to the [[WZW model]]:
 
