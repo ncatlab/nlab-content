@@ -59,7 +59,11 @@ The idea of semi-topological 4d CS theory, and its relation to [[Yangians]] and 
 
 Rigorous discussion using [[homotopy theory]] (see at [[homotopical AQFT]]):
 
-* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ ([arXiv:2008.01829](https://arxiv.org/abs/2008.01829))
+* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo, _Homotopical analysis of 4d Chern-Simons theory and integrable field theories_ &lbrack;[arXiv:2008.01829](https://arxiv.org/abs/2008.01829)&rbrack;
+
+and via [[L-infinity algebras|$L_\infty$-algebras]]:
+
+* [[Marco Benini]], [[Alexander Schenkel]], Benoit Vicedo: *The homological algebra of 2d integrable field theories* &lbrack;[arXiv:2601.19993](https://arxiv.org/abs/2601.19993)&rbrack;
 
 Review:
 
