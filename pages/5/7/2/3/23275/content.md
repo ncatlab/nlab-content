@@ -34,7 +34,7 @@ Let $E$ be the class of [[final functors]] and $M$ be the class of [[discrete fi
 +-- {: .proof}
 ###### Proof
 
-Let $F:C\to D$ be a functor.  Define $K:D^{op}\to Set$ as the left Kan extension of the constant presheaf $C^{op}\to Set$ at the singleton along $F^{op}$. For each $d\in D$, $K d$ is the set of connected components of $d/F$. Let $E=\int K$ be the category of elements of the presheaf $K$.  Explicitly, $E$ has objects pairs $(d,[\alpha:d\to F c])$ where $[\alpha]$ denotes the connected component of $(c,\alpha)$ in $d/F$, and morphisms between objects $(d,[\alpha:d\to F c])$ and $(d',[\alpha':d'\to F c'])$ are morphisms $g:d\to d'$ such that $K(g)([\alpha'])=[\alpha'\circ g]=[\alpha]$.
+Let $F:C\to D$ be a functor.  Define $K:D^{op}\to Set$ as the left Kan extension of the constant presheaf $C^{op}\to Set$ at the singleton along $F^{op}$.  Concretely, $K d$ is the set of connected components of $d/F$. Let $E=\int K$ be the category of elements of the presheaf $K$.  Explicitly, $E$ has objects pairs $(d,[\alpha:d\to F c])$ where $[\alpha]$ denotes the connected component of $(c,\alpha)$ in $d/F$, and morphisms between objects $(d,[\alpha:d\to F c])$ and $(d',[\alpha':d'\to F c'])$ are morphisms $g:d\to d'$ such that $K(g)([\alpha'])=[\alpha'\circ g]=[\alpha]$.
 
 Observe that $E$ is the pullback in the $1$-category $Cat$ of the forgetful functor $U:Set_{\ast}^{op}\to Set^{op}$ and $K^{op}:D\to Set^{op}$.  Let $m:E\to D$ and $p:E\to Set^{op}$ be the natural projections onto $D$ and $Set_{\ast}^{op}$, respectively, arising from this pullback.
 
