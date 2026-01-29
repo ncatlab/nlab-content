@@ -51,7 +51,7 @@ Observe that $E$ is the pullback in the $1$-category $Cat$ of the forgetful func
 	\arrow["{K^{\text{op}}}"', from=3-2, to=3-3]
 \end{tikzcd}
 
-Each object $c\in C$ has a canonical representative for a connected component of $F c/F$ given by $[id_{F c}] \in K F c$.  This determines a functor $J:C\to Set_{\ast}^{op}$ defined on objects by $J c=([id_{F c}],K F c)$ and on morphisms by $J(f)=K^{op}F(f)$. Since $U J=K^{op} F$, then by the universal property of $E$, there is a unique functor $e:C\to E$ such that $m e=F$ and $p e=J$. It is readily shown that $e(c)=(F c,[id_{F c}])$ and $e(f)=F(f)$.
+Each object $c\in C$ has a canonical representative for a connected component of $F c/F$ given by $[id_{F c}] \in K F c$ (coming from the natural transformation $1\Rightarrow K F^{op}$ of the left Kan extension).  This determines a functor $J:C\to Set_{\ast}^{op}$ defined on objects by $J c=([id_{F c}],K F c)$ and on morphisms by $J(f)=K^{op}F(f)$. Since $U J=K^{op} F$, then by the universal property of $E$, there is a unique functor $e:C\to E$ such that $m e=F$ and $p e=J$. It is readily shown that $e(c)=(F c,[id_{F c}])$ and $e(f)=F(f)$.
 
 A sketch that $e$ is final is given, that is, $(d,[\alpha:d\to F c])/e$ is non-empty and connected. Note that $\alpha:(d,[\alpha])\to (F c,[id_{F c}])$ is an arrow in $E$ as $K(\alpha)([id_{F c}])=[\alpha]$, thus $(d,[\alpha])/e$ is non-empty. Given arrows $f:(d,[\alpha])\to (F a,[id_{F a}])$ and $g:(d,[\alpha])\to (F b,[id_{F b}])$, one has $[f]=[\alpha]=[g]$, thus $f$ and $g$ are in the same component of $d/F$. A standard zig-zag argument shows that $f$ and $g$ are in the same connected component of $(d,[\alpha])/e$.
 
