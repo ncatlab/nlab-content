@@ -38,8 +38,7 @@ on ([[supersymmetry|supersymmetric]]) [[quantum field theory]] and ([[superstrin
 Parts of this appear separately elsewhere:
 
 * [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
-
-  (see also at _[[signs in supergeometry]]_)
+  > (see also at _[[signs in supergeometry]]_)
 
 on fundamental [[supergeometry]] needed for describing [[fermion]] [[particles]] (and [[superstrings]]). See also
 
@@ -53,6 +52,11 @@ See also:
 following the chapter
 
 * {#DeligneMorgan} [[Pierre Deligne]], [[John Morgan]], *Notes on supersymmetry (following [[Joseph Bernstein]])* &lbrack;[[DeligneMorgan-NotesOnSusy.pdf:file]]&rbrack;
+
+On [[2d CFT]]:
+
+* {#Gawedzki97} [[Krzysztof Gawędzki]]: *Lectures on Conformal Field Theory*, (1997) &lbrack;[cds:322984](https://cds.cern.ch/record/322984), [pdf](https://cds.cern.ch/record/322984/files/SCAN-9703129.pdf), [[Gawedzki-LecturesOnCFT.pdf:file]]&rbrack;
+
 
 While advertized as "A course for mathematicians", experience shows that it is not really suited for pure mathematicians without previous exposition to and tolerance for physics, particularly beyond the first chapters (which show strong ambition to be mathematically precise) towards the following lectures (which are mainly standard lectures of theoretical physicists). But it is much better than the average physics text.
 
