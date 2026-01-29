@@ -1,4 +1,6 @@
 
+Jacques Dixmier (born 1924-)
+
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Jacques_Dixmier)
 
 ## Selected writings
@@ -14,6 +16,11 @@ Introducing [[hyperstonean spaces]]:
 On [[C-star algebras|$C^\ast$-algebras]], [[states on star-algebras]], [[unitary representations]], ...
 
 * {#Dixmier77} [[Jacques Dixmier]], Chapter 13 of: *$C^\ast$-algebras*, North Holland (1977) &lbrack;ch2:[[Dixmier-CStarAlgebras-PosForms.pdf:file]], ch13:[[Dixmier-CStarAlgebras-UnitaryReps.pdf:file]]&rbrack;
+
+Published at age 100:
+
+* [[Jacques Dixmier]]: *Operateurs hypofermés*, Journal of Operator Theory **91** 2 (2024) 323-333 &lbrack;[doi:10.7900/jot.2023nov13.2451](http://dx.doi.org/10.7900/jot.2023nov13.2451)&rbrack;
+
 
 
 ## Related entries 
