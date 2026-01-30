@@ -148,7 +148,7 @@ Further discussion with an emphasis on the origin of theta functions in [[geomet
 
 Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]] and as spaces of sections of [[prequantum line bundles]] in [[quantization of Chern-Simons theory]] are discussed for instance in
 
-* {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]], _Theta functions, modular invariance, and strings_, Communications in Mathematical Physics Volume 106, Number 1 (1986), 1-4 ([Euclid](http://projecteuclid.org/euclid.cmp/1104115581))
+* {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]]: *Theta functions, modular invariance, and strings*, Communications in Mathematical Physics **106** 1 (1986) 1--40 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [euclid:cmp/1104115581](http://projecteuclid.org/euclid.cmp/1104115581)&rbrack;
 
 * {#AlvaresGaumeBostMooreNelsonVafa87} [[Luis Alvarez-Gaumé]], [[Jean-Benoit Bost]], [[Gregory Moore]], Philip Nelson, [[Cumrun Vafa]], _Bosonization on higher genus Riemann surfaces_, Communications in Mathematical Physics, Volume 112, Number 3 (1987), 503-552 ([Euclid](http://projecteuclid.org/euclid.cmp/1104159982))
 
