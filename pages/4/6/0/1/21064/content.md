@@ -67,11 +67,18 @@ Relation to the string [[dilaton]] under [[double dimensional reduction]]:
 
 * [[Krzysztof A. Meissner]], [[Hermann Nicolai]], *Fundamental Membranes and the String Dilaton*,  J. High Energ. Phys. **2022** 219 (2022) \[<a href="https://doi.org/10.1007/JHEP09(2022)219">doi:10.1007/JHEP09(2022)219</a>, [arXiv:2208.05822](https://arxiv.org/abs/2208.05822)\]
 
+Covariant discussion via [[volume-preserving diffeomorphism]] symmetry:
+
+* So Katagiri: *A Lorentz Covariant Matrix Model for Bosonic M2-Branes: Nambu Brackets and Restricted Volume-Preserving Deformations* \[<a href="https://arxiv.org/abs/2504.05940">arXiv2504.05940</a>\]
+
+* So Katagiri: *Quantum Stability at One Loop for BPS Membranes in a Lorentz-Covariant RVPD Matrix Model* \[<a href="https://arxiv.org/abs/2509.23853">arXiv:2509.23853</a>\]
+
 See also:
 
 * [[Eric Bergshoeff]], [[Ergin Sezgin]], Y. Tanii, [[Paul K. Townsend]]: *Super $p$-branes as gauge theories of volume preserving diffeomorphisms*, Annals of Physics **199** 2 (1990) 340-365 \[<a href="https://doi.org/10.1016/0003-4916(90)90381-W">doi:10.1016/0003-4916(90)90381-W</a>\]
 
-* So Katagiri: *A Lorentz Covariant Matrix Model for Bosonic M2-Branes: Nambu Brackets and Restricted Volume-Preserving Deformations* \[<a href="https://arxiv.org/abs/2504.05940">arXiv2504.05940</a>\]
+
+
 
 
 
