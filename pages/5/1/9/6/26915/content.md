@@ -115,7 +115,7 @@ Further developments:
 
 * Dana S. Fine: _Quantum Yang-Mills on a Riemann surface_, Communications in Mathematical Physics **140** (1991) 321–338.  &lbrack;[doi:10.1007/BF02099502](https://doi.org/10.1007/BF02099502)&rbrack;
 
-* {#Witten1991} [[Edward Witten]]: *On quantum gauge theories in two dimensions*, *Commun. Math. Phys*. **141** (1991) 153–209 &lbrack;[doi:10.1007/BF02100009](https://doi.org/10.1007/BF02100009)&rbrack;
+* {#Witten1991} [[Edward Witten]]: *On quantum gauge theories in two dimensions*, *Commun. Math. Phys*. **141** (1991) 153–209 &lbrack;[doi:10.1007/BF02100009](https://doi.org/10.1007/BF02100009), [euclid:cmp/1104248198](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-141/issue-1/On-quantum-gauge-theories-in-two-dimensions/cmp/1104248198.full)&rbrack;
 
 * [[Edward Witten]]: _Two-dimensional gauge theories revisited_, Journal of Geometry and Physics **9** 4 (1992) 303–368 &lbrack;[arXiv:hep-th/9204083](https://arxiv.org/abs/hep-th/9204083), [doi:10.1016/0393-0440(92)90034-X](https://doi.org/10.1016/0393-0440(92)90034-X)&rbrack;
 
