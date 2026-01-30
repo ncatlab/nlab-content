@@ -118,6 +118,14 @@ In fact, $Set^{op}$ admits a small dense subcategory if and only if there is not
 Let $V$ be a [[Bénabou cosmos]]. Then the inclusion of the 2-category of small $V$-categories into the 2-category of large $V$-categories is dense as a 2-functor (Lemma 2.16 of [Przybyłek (2014)](#Przybyłek2014)).
 \end{example}
 
+\begin{example}
+In the category of [[schemes]] the subcategory of [[affine schemes]] is dense, see [[schemes as sheaves on affine schemes ]].
+\end{example}
+
+\begin{example}
+In the category of [[smooth manifolds]], the full subcategory whose objects are given by $\mathbb{R}^n$ for $n\geq 1$ with the standard smooth structure, is dense.
+\end{example}
+
 ## Related entries
 
 * [[dense]]
