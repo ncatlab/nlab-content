@@ -50,13 +50,11 @@ Textbook on [[string theory]]:
 
     [doi:10.1017/CBO9780511816079](https://doi.org/10.1017/CBO9780511816079)
 
-    [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/polchinski1.pdf)
-
   * vol 2: **Superstring Theory and Beyond**
 
     [doi:10.1017/CBO9780511618123](https://doi.org/10.1017/CBO9780511618123)
 
-    [pdf](http://www.nucleares.unam.mx/~alberto/apuntes/polchinski2.pdf)
+
 
 On [[AdS/CFT duality]]:
 
