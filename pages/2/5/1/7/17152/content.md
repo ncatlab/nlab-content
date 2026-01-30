@@ -67,6 +67,6 @@ the [[stabilization]] [[adjunction]] between the [[homotopy category]] [[Ho(Top)
 
 ## References
 
-* {#Malkiewich11} [[Cary Malkiewich]], _Some facts about $Q X$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/Q.pdf))
+* {#Malkiewich11} [[Cary Malkiewich]], _Some facts about $Q X$_, 2011 ([pdf](https://people.math.binghamton.edu/malkiewich/Q.pdf))
 
 [[!redirects free infinite loop spaces]]
