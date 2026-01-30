@@ -139,7 +139,14 @@ On APD symmetry of the [[M2-brane]] [[sigma-model]] (cf. *[M2-brane -- Light-con
 
 * [[Bernard de Wit]], U. Marquard, [[Hermann Nicolai]]: *Area-preserving diffeomorphisms and supermembrane Lorentz invariance*,  Commun. Math. Phys. **128** (1990) 39–62 \[<a href="https://doi.org/10.1007/BF02097044">doi:10.1007/BF02097044</a>, [inSpire:277216](https://inspirehep.net/literature/277216)\]
 
-Generalization to VPD symmetry of the higher-dimensional [[super p-branes]] without gauge fields on their [[worldvolume]]:
+and on VPD symmetry in the M2's covariant 
+formulation:
+
+* So Katagiri: *A Lorentz Covariant Matrix Model for Bosonic M2-Branes: Nambu Brackets and Restricted Volume-Preserving Deformations* \[<a href="https://arxiv.org/abs/2504.05940">arXiv2504.05940</a>\]
+
+* So Katagiri: *Quantum Stability at One Loop for BPS Membranes in a Lorentz-Covariant RVPD Matrix Model* \[<a href="https://arxiv.org/abs/2509.23853">arXiv:2509.23853</a>\]
+
+Generalization to light cone gauge  VPD symmetry of the higher-dimensional [[super p-branes]] without gauge fields on their [[worldvolume]]:
 
 * [[Eric Bergshoeff]], [[Ergin Sezgin]], Y. Tanii, [[Paul K. Townsend]]: *Super $p$-branes as gauge theories of volume preserving diffeomorphisms*, Annals of Physics **199** 2 (1990) 340-365 \[<a href="https://doi.org/10.1016/0003-4916(90)90381-W">doi:10.1016/0003-4916(90)90381-W</a>, [[BSTT-BraneVPD.pdf:file]]\]
 
