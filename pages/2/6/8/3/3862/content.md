@@ -10,9 +10,8 @@
 
 
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Definition
  {#DeterminantLineBundles}
@@ -183,31 +182,54 @@ See at _[[vacuum energy]]_
 [[!include square roots of line bundles - table]]
 
 
+
 ## References
 
-The relation between determinant line bundles and the first Chern class is stated explicitly for instance on p. 414 of
 
-* Griffiths and Harris, _Principles of algebraic geometry_
- {#GriffithsHarris}
+The relation between determinant line bundles and the first Chern class is stated explicitly in
 
-Literature on determinant line bundles of infinite-dimensional bundles includes the following:
+* {#GriffithsHarris} Griffiths and Harris, p. 414 of: _Principles of algebraic geometry_
+ 
 
-* [[Daniel Quillen|D.G. Quillen]], _Determinants of Cauchy-Riemann operators over a Riemann surface_, Funkcionalnii Analiz i ego Prilozhenija __19__ (1985), 37-41, ([pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=1334&volume=19&year=1985&issue=1&fpage=37&what=fullt&option_lang=eng) of Russian version).
+Introducing what came to be called the *Quillen metric* on determinant line bundles:
 
-  reviewed e.g. in 
+* [[Daniel Quillen]]: *Determinants of Cauchy-Riemann operators over a Riemann surface*, Functional Analysis and its Applications **19** (1985) 31–34 &lbrack;[doi:10.1007/BF01086022](https://doi.org/10.1007/BF01086022)&rbrack;
 
-  Arlo Caine, _Quillen's construction of Determinants of
-Cauchy&#8211;Riemann operators over Riemann Surfaces_, 2005 ([pdf](http://web.archive.org/web/20150326122017/http://www.cpp.edu/~jacaine/pdf/quillen_determinant_notes.pdf))
+  Russian version: Funkcionalnii Analiz i ego Prilozhenija __19__ (1985) 37-41 &lbrack;[pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=faa&paperid=1334&volume=19&year=1985&issue=1&fpage=37&what=fullt&option_lang=eng)&rbrack;
+
+further developed in
+
+* [[Jean-Michel Bismut]], [[Daniel Freed]]: _The analysis of elliptic families. I. Metrics and connections on determinant bundles_, Comm. Math. Phys. __106__ 1 (1986) 159-176 &lbrack;[euclid:cmp/1104115586](http://projecteuclid.org/euclid.cmp/1104115586)&rbrack;
+
+* [[Jean-Michel Bismut]], [[Daniel Freed]]: _The analysis of elliptic families II. Dirac operators, eta invariants, and the holonomy theorem_, Comm. Math. Phys. __107__ 1 (1986) 103-163 &lbrack;[euclid:cmp/1104115934](http://projecteuclid.org/euclid.cmp/1104115934)&rbrack;
+
+Review:
+
+* Arlo Caine: _Quillen's construction of Determinants of
+Cauchy&#8211;Riemann operators over Riemann Surfaces_ (2005) &lbrack;[pdf](http://web.archive.org/web/20150326122017/http://www.cpp.edu/~jacaine/pdf/quillen_determinant_notes.pdf)&rbrack;
+
+* [[Jean-Michel Bismut]]: *Quillen metrics: a summary* (2022) &lbrack;[pdf](https://indico.global/event/9583/attachments/42067/78761/slides_Bismut.pdf)&rbrack;
+
+* Wikipedia: *[Quillen metric](https://en.wikipedia.org/wiki/Quillen_metric)*
+
+* [[Jean-Michel Bismut]], _Quillen metrics and determinant bundles_, 2 conference lectures in honour of [[A. N. Tyurin]] &lbrack;[video](http://www.mathnet.ru/php/presentation.phtml?presentid=62&option_lang=eng)&rbrack;
+
+In relation to the [[quantum Hall effect]]:
+
+* Semyon Klevtsov, Xiaonan Ma, George Marinescu, Paul Wiegmann: *Quantum Hall effect and Quillen metric*, Commun. Math. Phys. **349** (2017) 819-855 &lbrack;[doi:10.1007/s00220-016-2789-2](https://doi.org/10.1007/s00220-016-2789-2), [arXiv:1510.06720](https://arxiv.org/abs/1510.06720)&rbrack;
+
+
+
+See also:
+
 
 * [[Michael Atiyah]], [[Isadore Singer]], _Dirac operators coupled to vector potentials_, Proc. Nat. Acad. Sci. USA __81__, 2597-2600 (1984) ([pdf](http://www.pnas.org/content/81/8/2597.full.pdf) at pnas site)
 
-* {#Freed87} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  ([dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002), [revised pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf))
 
-* [[Jean-Michel Bismut]], [[Daniel Freed]], _The analysis of elliptic families.I. Metrics and connections on determinant bundles_, Comm. Math. Phys. __106__, 1 (1986), 159-176, [euclid](http://projecteuclid.org/euclid.cmp/1104115586), _II. Dirac operators, eta invariants, and the holonomy theorem_, Comm. Math. Phys. __107__, 1 (1986), 103-163. [euclid](http://projecteuclid.org/euclid.cmp/1104115934)
+* {#Freed87} [[Daniel Freed]], _On determinant line bundles_, in S. T. Yau (ed.), *Mathemetical Aspects of String Theory*, World Sci. Publ. (1987)  &lbrack;[dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002), [revised pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf)&rbrack;
 
-* [[Jean-Michel Bismut]], _Quillen metrics and determinant bundles_, 2 conference lectures in honour of A. N. Tyurin, video at [link](http://www.mathnet.ru/php/presentation.phtml?presentid=62&option_lang=eng)
 
-* A. Pressley, [[Graeme Segal|G. Segal]], _Loop Groups_, Oxford Math. Monographs, 1986. 
+* A. Pressley, [[Graeme Segal]], _Loop Groups_, Oxford Math. Monographs, 1986. 
 
 * Kenro Furutani, _On the Quillen determinant_, J. Geom. Phys. __49__, 4, 366-375, [math.DG/0309127](http://arxiv.org/abs/math/0309127), [doi](http://dx.doi.org/10.1016/j.geomphys.2003.07.001)
 
@@ -216,8 +238,16 @@ Vol. I (S. Gindikin, et al., eds.) In honor of the 80th birthday of [[Israel Gel
 
 * [[Robbert Dijkgraaf]], [[Edward Witten|E. Witten]], _Topological gauge theories and group cohomology_, Commun. Math.Phys. __129__, 393--429 (1990), [euclid](http://projecteuclid.org/euclid.cmp/1104180750), [MR1048699](http://www.ams.org/mathscinet-getitem?mr=1048699)
 
-Discussion in the context of the [[modular functor]] is in 
+Discussion in the context of the [[modular functor]]: 
 
-* [[Graeme Segal]], section 6 and section 5 of _The definition of conformal field theory_ , preprint, 1988; also in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_ , London Math. Soc. Lect. Note Ser., Vol. 308. Cambridge University Press, Cambridge (2004) 421-577. ([pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)) 
+* [[Graeme Segal]]; section 6 and section 5 of: _The definition of conformal field theory_ , preprint, 1988; also in [[Ulrike Tillmann]] (ed.) _Topology, geometry and quantum field theory_, London Math. Soc. Lect. Note Ser. **308**, Cambridge University Press, Cambridge (2004) 421-577 &lbrack;[pdf](https://people.maths.ox.ac.uk/segalg/0521540496txt.pdf)&rbrack;
+
+
+
+
 
 [[!redirects determinant line bundles]]
+
+
+[[!redirects Quillen metric]]
+[[!redirects Quillen metrics]]
