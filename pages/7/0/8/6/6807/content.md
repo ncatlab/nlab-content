@@ -162,6 +162,9 @@ See also
 
 * Anna Biggs, Aidan Herderschee: *Higher-point correlators in the BFSS matrix model* &lbrack;[arXiv:2503.14685](https://arxiv.org/abs/2503.14685)&rbrack;
 
+* J. Kluson: *BBGKY Hierarchy for $N$ D0-Branes* &lbrack;[arXiv:2601.21451](https://arxiv.org/abs/2601.21451)&rbrack;
+
+
 
 
 Discussion as a solution to the open problem of defining [[M-theory]] is in 
