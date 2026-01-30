@@ -145,7 +145,7 @@ A [[Kleisli morphism]] of $T_M$ is a [[morphism]] $k \colon X \to Y \times M$. W
 
 For example, it could be energy released by a chemical reaction, or waste, or a cost of the transaction. In [[computer science]], this is the behaviour of a function that computes a certain value, but that also writes into a log file (or to the standard output) that something has happened (the monoid operation being the concatenation of strings). For example, when you compile a TeX document, a log file is produced alongside your output file. Hence the name "writer monad".
  
- Let's now look at the [[Kleisli composition]]. If we have processes $k \colon X \to Y\times M$ and $h \colon Y\to Z\times M$, then $k\circ_{kl} Y \colon X\to Z\times M$ is given by
+ Let's now look at the [[Kleisli composition]]. If we have processes $k \colon X \to Y\times M$ and $h \colon Y\to Z\times M$, then $h \circ_{kl} k \colon X\to Z\times M$ is given by
 
 \begin{tikzcd}[row sep=0, column sep=large, nodes={scale=1.25}]
   X 
