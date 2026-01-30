@@ -15,11 +15,11 @@ A **rational homotopy equivalence** is the notion of equivalence of [[topologica
 
 For $X$ and $Y$ be [[simply connected space|simply connected]] [[topological space]]s and $f : X \to Y$ a continuous map between them, $f$ is called a **rational homotopy equivalence** if the following equivalent conditions are satisfied:
 
-1. it induces an isomorphism on rationalized homotopy groups: $\pi_*(f) \otimes \mathbb{Q} : \pi_*(X) \otimes \mathbb{Q} \stackrel{\simeq}{\to} \pi_*(X) \otimes \mathbb{Q}$;
+1. it induces an isomorphism on rationalized homotopy groups: $\pi_*(f) \otimes \mathbb{Q} : \pi_*(X) \otimes \mathbb{Q} \stackrel{\simeq}{\to} \pi_*(Y) \otimes \mathbb{Q}$;
 
-1. it induces an isomorphism on [[ordinary homology]] groups with rational [[coefficients]]: $H_*(f,\mathbb{Q}) : H_*(X,\mathbb{Q}) \stackrel{\simeq}{\to} H_*(X,\mathbb{Q})$;
+1. it induces an isomorphism on [[ordinary homology]] groups with rational [[coefficients]]: $H_*(f,\mathbb{Q}) : H_*(X,\mathbb{Q}) \stackrel{\simeq}{\to} H_*(Y,\mathbb{Q})$;
 
-1. it induces an isomorphism on rational [[cohomology]] groups: $H^*(f,\mathbb{Q}) : H^*(X,\mathbb{Q}) \stackrel{\simeq}{\to} H^*(X,\mathbb{Q})$;
+1. it induces an isomorphism on rational [[cohomology]] groups: $H^*(f,\mathbb{Q}) : H^*(Y,\mathbb{Q}) \stackrel{\simeq}{\to} H^*(X,\mathbb{Q})$;
 
 1. it induces a [[weak homotopy equivalence]] on the  [[rationalization]]s $X_{ra}$ and $Y_{ra}$ : $f_{ra} : X_{ra} \stackrel{\simeq_{whe}}{\to} Y_{ra}$.
 
