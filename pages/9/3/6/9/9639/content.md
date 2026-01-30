@@ -809,6 +809,7 @@ Review of this theory behind the quantum Hall effect:
 * [[Spyridon Michalakis]], _Why is the Hall conductance quantized?_, Nature Reviews Physics **2** (2020) 392–393 &lbrack;[doi:10.1038/s42254-020-0212-6](https://doi.org/10.1038/s42254-020-0212-6)&rbrack;
 
 * S. Klevtsov, X. Ma, G. Marinescu, P. Wiegmann, _Quantum Hall effect and Quillen metric_ Commun. Math. Phys. **349** (2017) 819–855 &lbrack;[doi:10.1007/s00220-016-2789-2](https://doi.org/10.1007/s00220-016-2789-2)&rbrack;
+  > (relation to the [[Quillen metric]] on [[determinant line bundles]])
 
 
 
