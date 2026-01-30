@@ -21,11 +21,36 @@
 
 The _clutching construction_ is the construction of a $G$-[[principal bundle]] on an [[n-sphere]] from a [[cocycle]] in $G$-[[Cech cohomology]] given by the [[covering]] of the $n$-sphere by two [[hemi-n-spheres]] that overlap a bit at the equator, and one single transition function on that equator $S^{n-1} \to G$.
 
+More generally, if $X$ is a space and $C_+X,C_-X$ are
+the two cones forming the [[suspension]] $\Sigma X$,
+a map $X\to G$ (called then a *clutching map*)
+provides a way to glue the trivial $G$-bundles on
+$C_\pm X$ to obtain a $G$-bundle on $\Sigma X$.
+To relate this construction with the [[classifying space|classification of $G$-bundles]]
+on $\Sigma X$, we can start with a [[pointed topological space|pointed space]] $(X,x)$ and
+require that the clutching map sends the basepoint $x$ to the identity $e\in G$.
+In this case, the clutching construction is the map
+\begin{equation}
+  [X,G]_* \cong [\Sigma X,BG]_* \to [\Sigma X,BG] =
+  \mathrm{Bun}_G(\Sigma X)
+\end{equation}
+sending pointed homotopy classes of pointed clutching functions to
+$G$-bundles over $\Sigma X$.
+By the path-connectedness of $BG$, the map is surjective, but the
+map can fail to be injective if $G$ is not connected.
+In general, the left hand side carries a trivialization of the fibre over the basepoint.
+
 ## Examples
 
-### Basic example
+### Basic examples
 
 The [[Möbius strip]] is the result of the single non-trivial clutching construction for [[real vector bundles|real]] [[line bundle]] over the [[circle]].
+
+The real plane bundles on the sphere $S^2$ come from clutching functions $S^1\to O(2)$. The pointed maps are $[S^1,O(2)]_*\cong\pi_1O(2)\cong\mathbb{Z}$ and the passage to the corresponding bundle
+\begin{equation}
+  \mathbb{Z} \cong [S^1,O(2)]_* \cong [S^2,BO(2)]_* \to [S^2,BO(2)] \cong \mathbb{N}
+\end{equation}
+identifies $n$ with $-n$.
 
 ### In physics
 
