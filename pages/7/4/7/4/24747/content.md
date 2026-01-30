@@ -37,7 +37,7 @@ Events after [PSSL 100](http://www.julia-goedecke.de/PSSL100/pssl100.html):
 
 * [PSSL 109](https://dutchcats.github.io/PSSL-2024/index.html) (2024, Leiden)
 
-* [PSSL 110](https://www.ioc.ee/~amar/pssl110/) (2025, Tallinn)
+* [PSSL 110](https://www.ioc.ee/~amar/pssl110/) (2025, Tallinn) [schedule and abstracts](https://www.ioc.ee/~amar/pssl110/programme.html)
 
 * [PSSL 111](https://progetto-itaca.github.io/pssl111/) (2025, Bologna) [schedule and abstracts](https://progetto-itaca.github.io/pssl111/programme.html)
 
