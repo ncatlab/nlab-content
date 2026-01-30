@@ -39,6 +39,11 @@ On the [[basic bundle gerbe]] over a [[compact Lie group|compact]] [[simple Lie 
 
 * [[Krzysztof Gawędzki]], [[Nuno Reis]], _Basic gerbe over non-simply connected compact groups_, Journal of Geometry and Physics **50** 1-4 (2004) 28–55 &lbrack;[arXiv:0307010](https://arxiv.org/abs/math/0307010), [doi:10.1016/j.geomphys.2003.11.004](http://dx.doi.org/10.1016/j.geomphys.2003.11.004)&rbrack;
 
+On [[gauge anomalies]] in [[WZW models]]:
+
+* Paul de Fromont, [[Krzysztof Gawędzki]], Clément Tauber: _Global gauge anomalies in coset models of conformal field theory_, Commun. Math. Phys. **328** (2014) 1371–1400  
+&lbrack;[arXiv:1301.2517](http://arxiv.org/abs/1301.2517), [doi:10.1007/s00220-014-1995-z](https://doi.org/10.1007/s00220-014-1995-z)&rbrack;
+
 
 ## Related entries
 
