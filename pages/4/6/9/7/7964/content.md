@@ -271,6 +271,11 @@ Discussion in "string localized" [[AQFT]] and claim of derivation of the quartic
 
 * Jens Mund, Karl-Henning Rehren, [[Bert Schroer]], *How the Higgs potential got its shape* &lbrack;[arXiv:2209.06133](https://arxiv.org/abs/2209.06133)&rbrack;
 
+See also:
+
+* Juan Carlos Criado: *Catalog of electroweak scalar manifolds* &lbrack;[arXiv:2601.20940](https://arxiv.org/abs/2601.20940)&rbrack;
+
+
 
 ### Detection
 
