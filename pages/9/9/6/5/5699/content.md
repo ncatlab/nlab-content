@@ -7,6 +7,9 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Cumrun_Vafa)
 
+* [inSpire page](https://inspirehep.net/authors/985117)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=LJQ0k-AAAAAJ&hl=en)
 
 
 
@@ -17,7 +20,7 @@ Cumrun Vafa is a [[string theory|string theorist]] at Harvard.
 
 On the [[group action|action]] of the [[modular group]] on [[spin structures]] over [[closed manifold|closed]] [[surfaces]] in relation to [[theta functions]] and [[string scattering amplitude|string amplitudes]]:
 
-* [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]]: *Theta functions, modular invariance, and strings*, Commun. Math. Phys. **106** (1986) 1–40 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [eculid:cmp/1104115581](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-106/issue-1/Theta-functions-modular-invariance-and-strings/cmp/1104115581.full)&rbrack;
+* {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]]: *Theta functions, modular invariance, and strings*, Communications in Mathematical Physics **106** 1 (1986) 1--40 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [euclid:cmp/1104115581](http://projecteuclid.org/euclid.cmp/1104115581)&rbrack;
 
 
 
