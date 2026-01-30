@@ -395,7 +395,15 @@ See also
 
 * [[Krzysztof Gawedzki]], Rafal Suszek, [[Konrad Waldorf]], _Global gauge anomalies in two-dimensional bosonic sigma models_ ([arXiv:1003.4154](http://arxiv.org/abs/1003.4154))
 
-* Paul de Fromont, [[Krzysztof Gawędzki]], Cl&#233;ment Tauber, _Global gauge anomalies in coset models of conformal field theory_ ([arXiv:1301.2517](http://arxiv.org/abs/1301.2517))
+On [[gauge anomalies]]:
+
+* Paul de Fromont, [[Krzysztof Gawędzki]], Clément Tauber: _Global gauge anomalies in coset models of conformal field theory_, Commun. Math. Phys. **328** (2014) 1371–1400  
+&lbrack;[arXiv:1301.2517](http://arxiv.org/abs/1301.2517), [doi:10.1007/s00220-014-1995-z](https://doi.org/10.1007/s00220-014-1995-z)&rbrack;
+
+In view of [[integrable model|integrability]]:
+
+* Lacroix Sylvain, Molines Adrien: *On the Integrable Structure of the $SU(2)$ Wess-Zumino-Novikov-Witten Model* &lbrack;[arXiv:2601.20960](https://arxiv.org/abs/2601.20960)&rbrack;
+
 
 
 
