@@ -28,3 +28,7 @@ On [[Bohr-Sommerfeld leaves]] in [[geometric quantization]] with application to 
 category: people
 
 [[!redirects Andrey Tyurin]]
+
+[[!redirects Andrei Nokolaevich Tyurin]]
+[[!redirects Andrei N. Tyurin]]
+[[!redirects A. N. Tyurin]]
