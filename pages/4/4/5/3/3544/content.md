@@ -10,6 +10,7 @@ Daniel Quillen (1940-2011)
 * [[Eric Friedlander]], [[Daniel Grayson]] (eds.): *Daniel Quillen*, Notices of the AMS **59** 10 (2012) 1392 &lbrack;[pdf](https://www.ams.org/notices/201210/rtx121001392p.pdf), full issue:[pdf](https://www.ams.org/notices/201210/201210FullIssue.pdf)&rbrack;
 
 
+
 ## Selected writings
 
 
@@ -33,9 +34,15 @@ On the (co)homology of [[commutative algebras]]:
 
 * [[D. G. Quillen]], 1970, _On the (co-)homology of commutative rings_, in _Proc. Symp. on Categorical Algebra_, 65–87, American Math. Soc.
 
+
 On [[cobordism cohomology theory]]:
 
 * {#Quillen71} [[Daniel Quillen]], _Elementary Proofs of Some Results of Cobordism Theory Using Steenrod Operations_, Advances in Mathematics 7 (1971), 29–56 (<a href="http://dx.doi.org/10.1016/0001-8708(71)90041-7">doi:10.1016/0001-8708(71)90041-7</a>)
+
+
+Introducing what came to be known as the *[[Quillen metric]]* on [[determinant line bundles]]:
+
+* [[Daniel Quillen]]: *Determinants of Cauchy-Riemann operators over a Riemann surface*, Functional Analysis and its Applications **19** (1985) 31–34 &lbrack;[doi:10.1007/BF01086022](https://doi.org/10.1007/BF01086022)&rbrack;
 
 
 
