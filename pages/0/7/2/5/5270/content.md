@@ -82,7 +82,7 @@ On the [[interpretation of quantum mechanics]]:
 
 On [[topological phases of matter]] in [[condensed matter physics]] with focus on the role of [[quantum anomalies]]:
 
-* [[Jürg Fröhlich]], *Gauge Invariance and Anomalies in Condensed Matter Physics*, Journal of Mathematical Physics &lbrack;[arXiv:2303.14741](https://arxiv.org/abs/2303.14741)&rbrack;
+* [[Jürg Fröhlich]]: *Gauge Invariance and Anomalies in Condensed Matter Physics*, Journal of Mathematical Physics **64** 031903 (2023) &lbrack;[arXiv:2303.14741](https://arxiv.org/abs/2303.14741), [doi:10.1063/5.0135142](https://doi.org/10.1063/5.0135142)&rbrack;
 
 
 On [[Ivan T. Todorov]]:
