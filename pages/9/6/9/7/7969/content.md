@@ -202,12 +202,16 @@ Theta functions for higher dimensional varieties and their relation to [[automor
 
 see [Gelbhart 84, page 35 (211)](Langlands+program#Gelbhart84) for review.
 
-Further developments here include
+On the "Siegel-Narain theta function":
+
+* Alexander Maloney, [[Edward Witten]]: *Averaging Over Narain Moduli Space*,  J. High Energ. Phys. **2020** 187 (2020) \[<a href="https://doi.org/10.1007/JHEP10(2020)187">doi:10.1007/JHEP10(2020)187</a>, [arXiv:2006.04855](https://arxiv.org/abs/2006.04855)[hep-th]\]
+
+
+See also:
 
 * {#Kudla77} [[Stephen Kudla]], _Relations between automorphic forms produced by theta-functions_, in _Modular Functions of One Variable VI_, Lecture Notes in Math. 627, Springer, 1977, 277&#8211;285.
 
 * {#Kudla78} [[Stephen Kudla]], _Theta functions and Hilbert modular forms_, Nagoya Math. J. 69 (1978) 97-106
-
 
 * {#Stopple95} [[Jeffrey Stopple]], _Theta and $L$-function splittings_, Acta Arithmetica LXXII.2 (1995) ([pdf](http://matwbn.icm.edu.pl/ksiazki/aa/aa72/aa7221.pdf))
 
