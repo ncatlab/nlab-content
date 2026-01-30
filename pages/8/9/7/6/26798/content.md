@@ -15,7 +15,7 @@
 
 ## Idea
 
-Am __elementary matrix__ is a [[square matrix]] which is obtained from the [[identity matrix]] by performing one [[row operation]], that is either 
+An __elementary matrix__ is a [[square matrix]] which is obtained from the [[identity matrix]] by performing one [[row operation]], that is either 
 
 1. interchanging two rows (in which case it is a [[permutation matrix]]), 
 
