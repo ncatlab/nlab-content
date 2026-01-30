@@ -44,7 +44,7 @@ A **frame** $\mathcal{O}$ is
 * and which satisfies the _infinite distributive law_:
 
   $$ 
-    x \wedge (\bigvee_i y_i) \leq \bigvee_i (x\wedge y_i)
+    x \wedge \left(\bigvee_i y_i\right) \leq \bigvee_i (x\wedge y_i)
   $$
 
   for all $x, \{y_i\}_i$ in $A$
