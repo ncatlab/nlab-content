@@ -23,7 +23,7 @@
 
 Given a [[commutative ring|commutative]] [[ground ring]] $R$, let  $Scheme$ denote the [[category]] of [[schemes]] (over $R$) regarded as [[locally ringed topological spaces]], and let $Aff \hookrightarrow Scheme$ denote its [[full subcategory]] of [[affine schemes]].
 
-The assgnment which takes $Y \in Scheme$ to the [[spectrum of a ring|spectrum]] $Spec(-)$ of the [[global sections]] $\Gamma_Y(-)$ of its [[structure sheaf]] $\mathcal{O}_Y$
+The assignment which takes $Y \in Scheme$ to the [[spectrum of a ring|spectrum]] $Spec(-)$ of the [[global sections]] $\Gamma_Y(-)$ of its [[structure sheaf]] $\mathcal{O}_Y$
 $$
   Y
    \mapsto 
