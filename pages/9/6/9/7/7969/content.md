@@ -38,7 +38,7 @@ Certain integrals of theta functions yield [[zeta functions]], see also at _[[fu
 ### In quantization
  {#IdeaInQuantization}
 
-Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instance ([Tyurin 02](#Tyurin02)). In this context they play a proming role specifically in the quantization of [[higher dimensional Chern-Simons theory]] and of [[self-dual higher gauge theory]]. See there for more.
+Theta functions are naturally thought of as being the [[space of states (in geometric quantization)|states]] in the [[geometric quantization]] of the given complex space, the given holomorphic line bundle being the [[prequantum line bundle]] and the condition of holomorphicity of the section being the [[polarization]] condition. See for instance [Tyurin 2003](#Tyurin2003). In this context they play a proming role specifically in the quantization of [[higher dimensional Chern-Simons theory]] and of [[self-dual higher gauge theory]]. See there for more.
 
 Specifically the fact that in [[geometric quantization|geometric]] [[quantization of Chern-Simons theory]] in the abelian case, and the [[holographic principle|holographically]] dual [[partition functions]] of the [[WZW model]] the choice of polarization is induced from the choice of [[complex structure]] $\mathbf{\tau}$ on a given [[Riemann surface]] $\Sigma$ and for each such choice there is then a section/[[partition function]] depending on a coordinate $\mathbf{z}$ in the  [[Jacobian]] $J(\Sigma)$ is reflected in the double coordinate dependence of the theta function:
 
@@ -131,16 +131,19 @@ Monographs:
 
 * {#Polishchuk03} [[Alexander Polishchuk]], section 17 of: _Abelian varieties, Theta functions and the Fourier transform_, Cambridge Tracts in Mathematics **153**, Cambridge University Press (2003) &lbrack;[doi:10.1017/CBO9780511546532](https://doi.org/10.1017/CBO9780511546532), [review pdf](http://math1.unice.fr/~beauvill/pubs/poli.pdf)&rbrack;
 
-Further discussion with an emphasis of the origin of theta functions in [[geometric quantization]] of [[Chern-Simons theory]] is in 
+Further discussion with an emphasis on the origin of theta functions in [[geometric quantization]] of [[Chern-Simons theory]]:
 
-* {#Beauville} [[Arnaud Beauville]], _Theta functions, old and new_, Open Problems and Surveys of Contemporary Mathematics SMM6, pp. 99&#8211;131 ([pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf))
+* {#Beauville} [[Arnaud Beauville]]: _Theta functions, old and new_, Open Problems and Surveys of Contemporary Mathematics SMM6, pp. 99&#8211;131 &lbrack;[pdf](http://math.unice.fr/~beauvill/pubs/thetaon.pdf)&rbrack;
 
-* {#Tyurin02} [[Andrei Tyurin]], _Quantization, Classical and quantum field theory and theta functions_, AMS 2003 ([arXiv:math/0210466v1](http://arxiv.org/abs/math/0210466))
+* [[Andrei Tyurin]]: *Quantization and "theta functions"* &lbrack;[arXiv:math/9904046](https://arxiv.org/abs/math/9904046)&rbrack;
 
-* {#Nohara} Yuichi Nohara, _Independence of polarization in geometric quantization_ ([pdf](http://geoquant.mi.ras.ru/nohara.pdf))
+* {#Tyurin2003} [[Andrei Tyurin]]: *Quantization, Classical and quantum field theory and theta functions*, CRM Monograph Series **21**,  AMS (2003) &lbrack;[ams:crmm-21](https://bookstore.ams.org/crmm-21), 
+[arXiv:math/0210466](http://arxiv.org/abs/math/0210466)&rbrack;
+
+* {#Nohara} Yuichi Nohara: _Independence of polarization in geometric quantization_ &lbrack;[pdf](http://geoquant.mi.ras.ru/nohara.pdf)&rbrack;
  
 
-* Gerard Lion, [[Michele Vergne]], _The Weil representation, Maslov index and theta series_
+* Gerard Lion, [[Michele Vergne]]: _The Weil representation, Maslov index and theta series_
 
 
 Specifically the theta functions appearing in [[2d CFT]] as [[conformal blocks]] and as spaces of sections of [[prequantum line bundles]] in [[quantization of Chern-Simons theory]] are discussed for instance in
