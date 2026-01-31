@@ -31,12 +31,12 @@ on $\Sigma X$, we can start with a [[pointed topological space|pointed space]] $
 require that the clutching map sends the basepoint $x$ to the identity $e\in G$.
 In this case, the clutching construction is the map
 \begin{equation}
-  [X,G]_* \cong [\Sigma X,BG]_* \to [\Sigma X,BG] =
+  [X,G]_* \cong [\Sigma X,B G]_* \to [\Sigma X,B G] =
   \mathrm{Bun}_G(\Sigma X)
 \end{equation}
 sending pointed homotopy classes of pointed clutching functions to
 $G$-bundles over $\Sigma X$.
-By the path-connectedness of $BG$, the map is surjective, but the
+By the path-connectedness of $B G$, the map is surjective, but the
 map can fail to be injective if $G$ is not connected.
 In general, the left hand side carries a trivialization of the fibre over the basepoint.
 
