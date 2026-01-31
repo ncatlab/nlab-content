@@ -79,6 +79,8 @@ Very relevant for [[quantization]] is also the geometric study of differential o
 
 Textbooks accounts:
 
+* E. T. Whittaker, G. N. Watson: *A Course of Modern Analysis*,  Cambridge University Press (1915, 2021) &lbrack;[doi:10.1017/9781009004091](https://doi.org/10.1017/9781009004091), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Course_of_Modern_Analysis)&rbrack;
+
 * [[Tom Apostol]], *Mathematical Analysis* (1973) &lbrack;ISBN:0201002884, [pdf](http://webpages.iust.ac.ir/amtehrani/files/Addison%20Wesley%20-%20Mathematical%20Analysis%20_%20Apostol%20%285Th%20Ed%29%20%281981%29.pdf)&rbrack;
 
 * {#Rudin64} [[Walter Rudin]], _Principles of Mathematical Analysis_, McGraw-Hill (1964, 1976) &lbrack;[pdf](https://web.math.ucsb.edu/~agboola/teaching/2021/winter/122A/rudin.pdf)&rbrack;
