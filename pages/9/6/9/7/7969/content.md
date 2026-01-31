@@ -121,6 +121,11 @@ Introductions to the traditional notion:
 
 * M. Bertola: _Riemann surfaces and theta  functions_ (2010) &lbrack;[pdf](https://mypage.concordia.ca/mathstat/bertola/ThetaCourse/ThetaCourse.pdf)&rbrack;
 
+Textbook:
+
+* E. T. Whittaker, G. N. Watson; chapter 21 of: *A Course of Modern Analysis*,  Cambridge University Press (1915, 2021) &lbrack;[doi:10.1017/9781009004091](https://doi.org/10.1017/9781009004091), [Wikipedia entry](https://en.wikipedia.org/wiki/A_Course_of_Modern_Analysis)&rbrack;
+
+
 Monographs:
 
 * {#Mumford1970} [[David Mumford]]; part I of: *Abelian varieties*, Oxford Univ. Press (1970) &lbrack;full: [pdf](https://wstein.org/edu/Fall2003/252/references/mumford-abvar/Mumford-Abelian_Varieties.pdf), Part I: [[Mumford-AbelianVarieties-I.pdf:file]], II: [[Mumford-AbelianVarieties-II.pdf:file]], III: [[Mumford-AbelianVarieties-III.pdf:file]], IV: [[Mumford-AbelianVarieties-IV.pdf:file]]&rbrack;
