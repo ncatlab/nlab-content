@@ -16,7 +16,7 @@
 
 ## Idea
 
-__Symplectic geometry__ is a branch of [[differential geometry]] studying [[symplectic manifold]]s and some generalizations; it originated as a formalization of the mathematical apparatus of [[classical mechanics]] and geometric optics (and the related [[semiclassical approximation|WKB-method]] in [[quantum mechanics]] and, more generally, the method of stationary phase in [[harmonic analysis]]). A wider branch including symplectic geometry is [[Poisson geometry]] and a sister branch in odd dimensions is [[contact geometry]]. A special and central role in the subject belongs to certain real-like half-dimensional submanifolds, called [[Lagrangian submanifold|lagrangian (or Lagrangean) submanifolds]], which are in some sense classical points. Symplectic geometry radically changed after the 1985 article of [[Mikhail Gromov]] on pseudoholomorphic curves and the subsequent work of [[Andreas Floer]] giving birth to symplectic topology or "hard methods" of symplectic geometry. 
+__Symplectic geometry__ is a branch of [[differential geometry]] studying [[symplectic manifold]]s and some generalizations; it originated as a formalization of the mathematical apparatus of [[classical mechanics]] and geometric optics (and the related [[semiclassical approximation|WKB-method]] in [[quantum mechanics]] and, more generally, the method of stationary phase in [[harmonic analysis]]). A wider branch including symplectic geometry is [[Poisson geometry]] and a sister branch in odd dimensions is [[contact geometry]]. A special and central role in the subject belongs to certain real-like half-dimensional submanifolds, called [[Lagrangian submanifold|lagrangian (or Lagrangean) submanifolds]], which are in some sense classical points. Symplectic geometry radically changed after the 1985 article of [[Mikhail Gromov]] on pseudoholomorphic curves and the subsequent work of [[Andreas Floer]] giving birth to [[symplectic topology]] or "hard methods" of [[symplectic geometry]]. 
 
 
 ## Applications 
@@ -40,6 +40,8 @@ __Symplectic geometry__ is a branch of [[differential geometry]] studying [[symp
   See [[higher symplectic geometry]]
 
 * [[holomorphic symplectic geometry]]
+
+* [[symplectic topology]]
 
 * [[Arnold conjecture]]
 
