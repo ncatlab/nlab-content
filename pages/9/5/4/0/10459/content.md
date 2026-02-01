@@ -23,6 +23,8 @@ In [[quantum mechanics]], the *uncertainty principle* states that the best possi
 
 ## Related concepts
 
+* [[matrix mechanics]]
+
 * [[quantum observables]]
 
 * [[commutator]]
