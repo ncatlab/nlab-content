@@ -39,7 +39,7 @@ More specifically, for $(X,g)$ a (pseudo)-[[Riemannian manifold]] of [[dimension
 
 This $vol_g$ is characterized by any of the following equivalent statements:
 
-* The symmetric square $vol_g \cdot vol_g$ is equal to the $n$-fold [[wedge product]] $g \wedge \cdots \wedge g$, as elements of $\Omega^n(X) \otimes \Omega^n(X)$, and $vol_g$ is [[positive n-form|positive]] (meaning that its [[integral]] on any [[open submanifold]] is nonnegative).
+* The symmetric square $vol_g \cdot vol_g$ is equal to the $n$-fold [[wedge product]] $g \wedge \cdots \wedge g$, as elements of $\Omega^n(X) \otimes \Omega^n(X)$, and $vol_g$ is [[positive n-form|positive]] (meaning that its [[integral]] on any [[open subset|open]] [[submanifold]] is nonnegative).
 
 * The volume form is the image under the [[Hodge star]] operator $\star_g\colon \Omega^k(X) \to \Omega^{n-k}(X)$ of the [[smooth function]] $1 \in \Omega^0(X)$
 
@@ -71,11 +71,23 @@ To remove the requirement of positivity is much more drastic; an arbitrary $n$-p
 
 ## Properties
 
-Since an $n$-(pseudo)form is [[positive n-form|positive]] iff its [[integration of differential forms|integral]] on any [[open submanifold]] is nonnegative and nondegenerate iff its integral on sufficiently small [[inhabited subspace|inhabited]] open submanifolds is nonzero, a volume (pseudo)form may be defined as one whose integral on any inhabited open submanifold is (strictly) positive.
+### General
+
+
+Since an $n$-(pseudo)form is [[positive n-form|positive]] iff its [[integration of differential forms|integral]] on any [[open subset|open]] [[submanifold]] is nonnegative and nondegenerate iff its integral on sufficiently small [[inhabited set|inhabited]] open submanifolds is nonzero, a volume (pseudo)form may be defined as one whose integral on any inhabited open submanifold is (strictly) positive.
 
 A volume (pseudo)form is also equivalent to an [[absolutely continuous measure|absolutely continuous]] positive [[Radon measure]] on $X$.  Here, nondegeneracy corresponds precisely to absolute continuity.
 
-If I remember correctly, every volume (pseudo)form comes from a metric, which is unique iff $n \leq 1$.
+### Moser's theorem
+
+Consider a [[compact topological space|compact]] [[connected space|connected]] [[smooth manifold]] $X$ of [[dimension of a manifold|dimension]] $d \coloneqq dim(X)$.
+
+\begin{theorem}**([[Moser's theorem]])**
+For $\omega, \omega' \in \Omega^d_{dR}(X)$ a [[pair]] of [[volume forms]] on $X$, there exists a [[diffeomorphism]] $\phi \colon X \longrightarrow X$ whose [[pullback of differential forms|pullback]] takes one to the other: $\omega' = \phi^\ast \omega$.
+
+Moreover, $\phi$ may be chosen to be in the [[connected component]] $Diff_0(X)$ of the [[identity map]] in the [[diffeomorphism group]].
+\end{theorem}
+
 
 
 ## Related concepts
