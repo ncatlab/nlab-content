@@ -1,5 +1,9 @@
 
-* [website](http://www.mat.univie.ac.at/~michor/)
+* [personal page](http://www.mat.univie.ac.at/~michor/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=58760)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=yi4NrkgAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -33,6 +37,11 @@ On [[differential geometry]] in terms of [[Frölicher spaces]] and [[diffeologic
 A textbook on [[differential geometry]], including an account of [[Schouten–Nijenhuis bracket]], [[Frölicher–Nijenhuis bracket]], and [[Nijenhuis–Richardson bracket]]:
 
 * [[Peter W. Michor]], _Topics in Differential Geometry_, Graduate Studies in Mathematics 93 (2008).  [PDF](https://www.mat.univie.ac.at/~michor/dgbook.pdf).
+
+
+On [[Moser's theorem]] generalized to [[manifolds with corners]]:
+
+* Martins Bruveris, [[Peter W. Michor]], Adam Parusinski, Armin Rainer: *Moser's theorem on manifolds with corners*, Proc. Amer. Math. Soc. **146** 11 (2018) 4889-4897 &lbrack;[doi:10.1090/proc/14130](https://doi.org/10.1090/proc/14130), [arXiv:1604.07787](https://arxiv.org/abs/1604.07787)&rbrack;
 
 
 ## Related entries
