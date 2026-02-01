@@ -167,8 +167,15 @@ In fact, any category with attributes gives rise to a full comprehension categor
 The category $\mathbf{CwA}$ of categories with attributes (def. \ref{CategoryWithAttributes}) is equivalent to the category $\mathbf{CompCat}_{\text{full,split}}$ of full split comprehension categories (def. \ref{FullAndSplitComprehensionCategory}).
 
 (These are, however, quite different as subcategories of $\mathbf{CompCat}$.)
+
 =--
 
++-- {: .num_remark}
+###### Remark
+
+In the original definition of categories with attributes in Cartmell's PhD, types are defined as a [[presheaf]] rather than as a [[discrete fibration]]. Thus, relatively to the original definition, the above holds up to the [[Grothendieck construction]].
+
+=--
 
 ### Categories with families
 
@@ -225,7 +232,6 @@ Given a category with families, let $E\to C$ be the [[Grothendieck construction]
 
 Conversely, given a category with attributes, let $Ty:C^{op}\to Set$ be the functor corresponding to the discrete fibration $E\to C$, and for $A\in Ty(\Gamma)$ let $Tm(A)$ be the set of [[sections]] of the morphism in $C$ that is the image of $A$ in $C^I$.  These constructions are inverses up to isomorphism.
 =--
-
 
 ### Natural Models
  {#NaturalModels}
@@ -556,7 +562,7 @@ Categories with families are defined in
 
 * [[Peter Dybjer]], *Internal type theory*, Types for proofs and programs (Torino, 1995), Lecture Notes in Comput. Sci. **1158** Springer (1996) 120-134 &lbrack;[doi:10.1007/3-540-61780-9_66](https://doi.org/10.1007/3-540-61780-9_66), [pdf](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf), [MR1474535](http://www.ams.org/mathscinet-getitem?mr=1474535)&rbrack;
 
-and shown to be equivalent to categories with attributes in [Hofmann (1997)](#Hofmann97)
+and shown to be equivalent to Cartmell's original presheaf-based definition of categories with attributes in [Hofmann (1997)](#Hofmann97)
 
 An extension of [[categories with families]] from [[set-truncation|set-truncated]] categories to [[groupoid]]-[[truncated]] categories, called [[groupoid categories with families]], is developed in:
 
