@@ -79,7 +79,7 @@ There is at least some similarity between synthetic mathematics and [[domain spe
 
 ## Philosophical arguments
 
-Proving an arithmetic result in [[Peano arithmetic]], or more generally a statement in an appropriate axiomatic theory, ensures axiomatic purity (a notion of [[purity of methods]]) as defined by [Lehet (2021)](#Lehet21).
+Proving an arithmetic result in [[Peano arithmetic]], or more generally a statement in an appropriate axiomatic theory, ensures axiomatic purity (a notion of *purity of methods*) , cf. [Lehet 2021](#Lehet21)).
 
 Moreover, such proofs are certain to be valid because of the nature of the fundamental objects considered, as captured by the axioms of the theory, and not by accident because of their particular construction in such and such a system.
 
@@ -96,14 +96,13 @@ Moreover, such proofs are certain to be valid because of the nature of the funda
 
 ### General
 
+* [[Andrej Bauer]]: *Synthetic Mathematics with an Excursion Into Computability Theory*, talk at University of Wisconsin Logic Seminar (Feb 2021) &lbrack;[blog](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/), slides:[pdf](https://math.andrej.com/asset/data/madison-synthetic-computability-talk.pdf), [[Bauer-Synthetic.pdf:file]] video:[yt](https://youtu.be/323qWM6tK5g)&rbrack;
 
-See also 
+* Wikipedia: _[Analytic-synthetic distinction](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)_
 
-* [[Andrej Bauer]], _Synthetic Mathematics with an Excursion Into Computability Theory_, 2021 ([slides and video](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/))
+On the axiomatic method:
 
-* Wikipedia, _[Analytic-synthetic distinction](https://en.wikipedia.org/wiki/Analytic%E2%80%93synthetic_distinction)_
-
-* {#Lehet21} Ellen Lehet, _Impurity in Contemporary mathematics_ (2021).
+* {#Lehet21} Ellen Lehet: *Impurity in Contemporary mathematics*,  Notre Dame J. Formal Logic **62** 1 (2021) 67-82 &lbrack;[doi:10.1215/00294527-2021-0003](https://doi.org/10.1215/00294527-2021-0003)&rbrack; 
 
 
 ### Synthetic homotopy theory
