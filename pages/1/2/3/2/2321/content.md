@@ -25,7 +25,7 @@ The basic concept is for [[vector spaces]], and the remainder are defined in ter
 ###### Definition
 
 **_(orientation of a vector space)_**
-Given an [[ordered field]] $K$ and a [[vector space]] $V$ over $K$ of dimension $n$ (a [[natural number]]), an __orientation__ of $V$ is a choice of one of the two [[equivalence classes]] of [[ordered basis|ordered bases]] of $V$, where two bases are considered equivalent if the [[transformation matrix]] from one to the other has [[positive number|positive]] [[determinant]].
+Given an [[ordered field]] $K$ and a [[vector space]] $V$ over $K$ of dimension $n$ (a [[natural number]]), an __orientation__ of $V$ is a choice of one of the two [[equivalence classes]] of [[linear order|ordered]] [[linear bases]] of $V$, where two bases are considered equivalent if the transformation matrix from one to the other has [[positive number|positive]] [[determinant]].
 =--
 
 In the case $n = 0$, the only ordered basis is the [[empty list]], but we still declare there to be two orientations by fiat, usually called positive and negative.  We can make the definition seamless by taking the elements of the equivalence class to be pairs consisting of an ordered basis and a nonzero [[sign]] (positive or negative), with $(B_1, s_1) \sim (B_2, s_2)$ iff $\sgn \det I^{B_1}_{B_2} = s_1/s_2$.  This is redundant except in dimension $0$, where now each equivalence class has a single element, $(*, +)$ for the positive orientation and $(*, -)$ for the negative orientation (where $*$ is the empty list).
