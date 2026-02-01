@@ -381,6 +381,9 @@ Quantum mechanics as such originates with:
 
 * [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) &lbrack;[doi:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)&rbrack;
 
+* [[Werner Heisenberg]]: *Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik*, Zeitschrift f&uuml;r Physik **43** (1927) 172–198 &lbrack;[doi:10.1007/BF01397280](https://doi.org/10.1007/BF01397280), [pdf](https://people.isy.liu.se/jalar/kurser/QF/references/Heisenberg1927.pdf)&rbrack;
+  > (the [[uncertainty principle]])
+
 *  [[Paul A. M. Dirac]], *The physical interpretation of the quantum dynamics*, Proceedings of the Royal Society of London **113** 765 (1927) &lbrack;[doi:10.1098/rspa.1927.0012](https://doi.org/10.1098/rspa.1927.0012)&rbrack;
 
 * {#HilbertvonNeumannNordheim} [[David Hilbert]], [[John von Neumann]], [[Lothar W. Nordheim]], *Über die Grundlagen der Quantenmechanik*,  Math. Ann. **98** (1928) 1–30 &lbrack;[doi:10.1007/BF01451579](https://doi.org/10.1007/BF01451579)&rbrack;
