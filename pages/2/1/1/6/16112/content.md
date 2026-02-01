@@ -40,9 +40,9 @@ A close [[analogy]] between CR geometry and [[supergravity]] [[superspacetimes]]
 
 ## References
 
-The original article is
+The original article:
 
-* [[Shiing-shen Chern]], [[Jürgen Moser]], _Real hypersurfaces in complex manifolds_, Acta Math. 133 (1975), 219&#8211;271 ([MathNet](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=7161&option_lang=eng))
+* [[Shiing-shen Chern]], [[Jürgen Moser]]: _Real hypersurfaces in complex manifolds_, Acta Math. **133** (1975) 219-271 &lbrack;[doi:10.1007/BF02392146](https://doi.org/10.1007/BF02392146), [MathNet](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=7161&option_lang=eng)&rbrack;
 
 Surveys:
 
