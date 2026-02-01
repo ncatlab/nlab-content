@@ -31,12 +31,13 @@ On [[volume-preserving diffeomorphisms]] of [[Cartesian spaces]]:
 
 On [[symplectic topology]]:
 
-* [[Dusa McDuff]], [[Dietmar Salamon]], _Introduction to symplectic topology_, 2 ed. Oxford Mathematical Monographs (1998)
+* [[Dusa McDuff]], [[Dietmar Salamon]]: *Introduction to symplectic topology*, Oxford Mathematical Monographs, Oxford University Press (1998, 2017) &lbrack;[doi:10.1093/oso/9780198794899.001.0001](https://doi.org/10.1093/oso/9780198794899.001.0001)&rbrack;
 
-* [[Dusa McDuff]], [[Dietmar Salamon]], _J-holomorphic curves
-and quantum cohomology_, AMS, University Lecture Series __6__, 1994 ([revised pdf](http://www.barnard.edu/math/mcduff/survey/6manjl26.pdf) [1995 pdf](http://barnard.edu/sites/default/files/inline/jholsm_0.pdf))
+* [[Dusa McDuff]], [[Dietmar Salamon]]: _J-holomorphic curves and symplectic topology_, AMS Colloquium Publications __52__ (2004) &lbrack;[ams:coll-52-r](https://bookstore.ams.org/coll-52-r)&rbrack;
 
-* [[Dusa McDuff]], D.A. Salamon, _J-holomorphic curves and symplectic topology_, AMS Colloquium Publications __52__, 2004.
+On [[quantum cohomology]]:
+
+* [[Dusa McDuff]], [[Dietmar Salamon]]: _J-holomorphic curves and quantum cohomology_, University Lecture Series __6__, AMS (1994) &lbrack;[revised pdf](http://www.barnard.edu/math/mcduff/survey/6manjl26.pdf), [1995 pdf](http://barnard.edu/sites/default/files/inline/jholsm_0.pdf)&rbrack;
 
 
 category: people
