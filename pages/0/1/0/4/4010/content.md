@@ -171,11 +171,18 @@ Now in this form one may notice a similarity of the form of these two equations 
 * [[Dirac equation]]
 
 
-## References ##
+## References 
+
+The original article:
+
+* {#Schrödinger1926} [[Erwin Schrödinger]]: *Quantisierung als Eigenwertproblem (Erste Mitteilung)*, Annalen der Physik *384** 4 (1926) 361-376 &lbrack;[doi:10.1002/andp.19263840404](https://doi.org/10.1002/andp.19263840404)&rbrack;
+
 
 Any introductory textbook about [[quantum mechanics]] will explain the Schr&#246;dinger equation (from the viewpoint of physicists mostly).
 
-* Wikipedia: [Schr&#246;dinger equation] (http://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation)
+See also: 
+
+* Wikipedia: *[Schr&#246;dinger equation] (http://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation)*
 
 [[!redirects Schrödinger equations]]
 
