@@ -93,4 +93,4 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 
 * [[Sam Staton]], _Name-passing process calculi: operational models and structural operational semantics_, Technical Report **688** CL University Cambridge 2007. ([pdf](https://www.cl.cam.ac.uk/techreports/UCAM-CL-TR-688.pdf))
 
-* [[Gavin Wraith|G. Wraith]], _Intuitionistic Algebra: Some Recent Developments of Topos Theory_ , Proc. ICM Helsinki (1978) pp.331-337. ([pdf](http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf))
+* [[Gavin Wraith|G. Wraith]], _Intuitionistic Algebra: Some Recent Developments of Topos Theory_ , Proc. ICM Helsinki (1978) pp.331-337. ([pdf](https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1978.1/ICM1978.1.ocr.pdf#page=331))
