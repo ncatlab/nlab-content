@@ -53,6 +53,7 @@ See [[states]].
 
 * [[von Neumann algebra]]
 
+* [[matrix mechanics]]
 
 
 ## References
