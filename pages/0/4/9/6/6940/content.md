@@ -11,7 +11,7 @@
 
 On [[propositional truncation]] in [[dependent type theory]]:
 
-* [[Steve Awodey]], [[Andrej Bauer]], *Propositions as $[$Types$]$*, Journal of Logic and Computation, **14**  (2004) 447-471 &lbrack;[doi:10.1093/logcom/14.4.447](https://doi.org/10.1093/logcom/14.4.447), [pdf](http://andrej.com/papers/brackets_letter.pdf)&rbrack;
+* [[Steve Awodey]], [[Andrej Bauer]], *Propositions as \[Types\]*, Journal of Logic and Computation, **14**  (2004) 447-471 &lbrack;[doi:10.1093/logcom/14.4.447](https://doi.org/10.1093/logcom/14.4.447), [pdf](http://andrej.com/papers/brackets_letter.pdf)&rbrack;
 
 
 On the [[Dedekind real numbers]] via [[abstract Stone duality]]:
@@ -45,6 +45,11 @@ On [[separable metric spaces]] in [[function realizability]]:
 On a non-commutative Priestley duality between distributive skew lattices and sheaves over local Priestley spaces:
 
 * [[Andrej Bauer]], [[Karin Cvetko-Vah]], [[Mai Gehrke]], [[Sam van Gool]], [[Ganna Kudryavtseva]], *A non-commutative Priestley duality*, Topology and its Applications, Volume 160, Issue 12, 1 August 2013, Pages 1423-1438 ([doi:10.1016/j.topol.2013.05.012](https://doi.org/10.1016/j.topol.2013.05.012), [arXiv:1206.5848](https://arxiv.org/abs/1206.5848))
+
+On [[synthetic mathematics]]:
+
+* [[Andrej Bauer]]: *Synthetic Mathematics with an Excursion Into Computability Theory*, talk at University of Wisconsin Logic Seminar (Feb 2021) &lbrack;[blog](http://math.andrej.com/2021/02/03/synthetic-mathematics-with-excursion-to-computability/), slides:[pdf](https://math.andrej.com/asset/data/madison-synthetic-computability-talk.pdf), [[Bauer-Synthetic.pdf:file]] video:[yt](https://youtu.be/323qWM6tK5g)&rbrack;
+
 
 On [[realizability]]:
 
