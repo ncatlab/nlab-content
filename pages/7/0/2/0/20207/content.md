@@ -88,7 +88,12 @@ Exposition of [[homotopy type theory]]:
 
 A blog post from the [[Topos Institute]] on [[bridge types]] for the theory of version control: 
 
-* [[David Jaz Myers]], *Structure-aware version control via observational bridge types*, [[Topos Institute]], 13 November 2024 ([web](https://topos.institute/blog/2024-11-13-structure-aware-version-control-via-observational-bridge-types/))
+* [[David Jaz Myers]]: *Structure-aware version control via observational bridge types*, [[Topos Institute]] (13 November 2024) &lbrack;[web](https://topos.institute/blog/2024-11-13-structure-aware-version-control-via-observational-bridge-types/)&rbrack;
+
+On [[Schreier theory]] of [[group extensions]] for [[infinity-group|$\infty$-groups]] in [[homotopy type theory]] formalized via [cubical Agda](Agda#CubicalAgda):
+
+* [[David J. Myers]], Zyad Yasser: *Higher Schreier Theory in Cubical Agda*, Journal of Symbolic Logic (2025) &lbrack;[doi:10.1017/jsl.2024.78](https://doi.org/10.1017/jsl.2024.78), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C3D0E95550689C21D11A18E0F531D5DE/S0022481224000781a.pdf/higher-schreier-theory-in-cubical-agda.pdf)&rbrack;
+
 
 ## Related entries
 
