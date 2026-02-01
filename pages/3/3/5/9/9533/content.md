@@ -3,13 +3,18 @@
 
 ## Selected writings
 
-Introducing [[quantum mechanics]]:
+Introducing [[quantum mechanics]] in the form of [[matrix mechanics]]:
 
 * [[Werner Heisenberg]], *Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen*, Zeitschrift für Physik **33** (1925) 879–893 \[<a href="https://doi.org/10.1007/BF01328377">doi:10.1007/BF01328377</a>, [Engl. pdf](http://users.mat.unimi.it/users/galgani/arch/heis25ajp.pdf)\]
 
+and recognizing the [[matrices]] in [[matrix mechanics]]:
+
+* [[Max Born]], [[Werner Heisenberg]], [[Pascual Jordan]]: *Zur Quantenmechanik. II.*, Z. Physik **35** (1926) 557–615 &lbrack;[doi:10.1007/BF01379806](https://doi.org/10.1007/BF01379806)&rbrack;
+
+
 Introducing the [[uncertainty principle]] in [[quantum mechanics]]:
 
-* [[Werner Heisenberg]]: *Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik*, Zeitschrift f&uuml;r Physik **43** (1927) 172–198 &lbrack;[doi:10.1007/BF01397280](https://doi.org/10.1007/BF01397280), [pdf](https://people.isy.liu.se/jalar/kurser/QF/references/Heisenberg1927.pdf)&rbrack;
+* {#Heisenberg1927} [[Werner Heisenberg]]: *Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik*, Zeitschrift f&uuml;r Physik **43** (1927) 172–198 &lbrack;[doi:10.1007/BF01397280](https://doi.org/10.1007/BF01397280), [pdf](https://people.isy.liu.se/jalar/kurser/QF/references/Heisenberg1927.pdf)&rbrack;
   > (where it is announced as equation (1) and established as equation (6))
 
 with English translation (or something close) in 
