@@ -299,6 +299,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   * [[Schrödinger picture]], [[Heisenberg picture]], [[Dirac picture]]
 
+  * [[matrix mechanics]]
+
   * [[quantum observable]], [[uncertainty principle]]
 
   * [[quantum state]] ([[pure quantum state|pure]], [[mixed quantum state|mixed]])
@@ -373,11 +375,19 @@ with the recognition of a quantum of "action": [[Planck's constant]] ([p. 164](h
 
 Quantum mechanics as such originates with:
 
-* [[Werner Heisenberg]], *Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen*, Zeitschrift für Physik **33** (1925) 879–893 &lbrack;[doi:10.1007/BF01328377]( https://doi.org/10.1007/BF01328377), [Engl. pdf](http://users.mat.unimi.it/users/galgani/arch/heis25ajp.pdf)&rbrack;
+* [[Werner Heisenberg]]: *Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen*, Zeitschrift für Physik **33** (1925) 879–893 &lbrack;[doi:10.1007/BF01328377]( https://doi.org/10.1007/BF01328377), [Engl. pdf](http://users.mat.unimi.it/users/galgani/arch/heis25ajp.pdf)&rbrack;
+  > ([[matrix mechanics]])
 
-* [[Max Born]], [[Pascual Jordan]], *Zur Quantenmechanik*, Zeitschrift für Physik **34** (1925) 858–888 &lbrack;[doi:10.1007/BF01328531](https://doi.org/10.1007/BF01328531)&rbrack;
+* [[Max Born]], [[Pascual Jordan]]: *Zur Quantenmechanik*, Zeitschrift für Physik **34** (1925) 858–888 &lbrack;[doi:10.1007/BF01328531](https://doi.org/10.1007/BF01328531)&rbrack;
+
+* [[Max Born]], [[Werner Heisenberg]], [[Pascual Jordan]]: *Zur Quantenmechanik. II.*, Z. Physik **35** (1926) 557–615 &lbrack;[doi:10.1007/BF01379806](https://doi.org/10.1007/BF01379806)&rbrack;
+  > (recognizing the [[matrices]] in [[matrix mechanics]])
+
+* {#Schrödinger1926} [[Erwin Schrödinger]]: *Quantisierung als Eigenwertproblem (Erste Mitteilung)*, Annalen der Physik *384** 4 (1926) 361-376 &lbrack;[doi:10.1002/andp.19263840404](https://doi.org/10.1002/andp.19263840404)&rbrack;
+  > (the [[Schrödinger equation]], [[wave mechanics]])
 
 * [[P. A. M. Dirac]]: *The Fundamental Equations of Quantum Mechanics*, Proceedings of the Royal Society of London. Series A, Containing Papers of a Mathematical and Physical Character, Vol. 109, No. 752 (Dec. 1, 1925), pp. 642-653 &lbrack;[jstor:94441](https://www.jstor.org/stable/94441), [pdf](https://www.informationphilosopher.com/solutions/scientists/dirac/Fund_QM_1925.pdf)&rbrack;
+  > ([[canonical quantization]])
 
 * [[Paul A. M. Dirac]], *On the theory of quantum mechanics*, Proceedings of the Royal Society **112** 762 (1926) &lbrack;[doi:10.1098/rspa.1926.0133](https://doi.org/10.1098/rspa.1926.0133)&rbrack;
 
