@@ -21,11 +21,21 @@ A [[diffeomorphism]] $\phi \colon X \longrightarrow X$ of a ([[pseudo-Riemannian
 
 If the [[dimension of a manifold|dimension]] is $dim(X) = 2$, then one also speaks of *area-preserving diffeomorphisms* (APD).
 
-Volume preserving diffeomorphisms form a [[subgroup]] 
+## Properties
+
+Volume preserving diffeomorphisms form a [[topological group|topological]] [[subgroup]] 
 $$
-  SDiff(X) \subset Diff(X)
+  SDiff(X) \subset Diff(X)^+
 $$
-of the general [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. For $X$ [[compact topological space|compact]], this is an [[infinite-dimensional Lie group|infinite-dimensional]] [[Fréchet Lie group]]. 
+of the general ([[orientation]]-preserving) [[diffeomorphism group]] of the [[underlying]] [[smooth manifold]] of $X$. 
+
+\begin{proposition}
+  \label{InclusionIntoDiffPlusIsWHE}
+  This inclusion is a [[weak homotopy equivalence]], in fact a [[deformation retract]].
+\end{proposition}
+This follows by [[Moser's theorem]] (cf. [Banyaga 1997 Cor. 1.5.4](#Banyaga1997)).
+
+For $X$ [[compact topological space|compact]], $SDiff$ is an [[infinite-dimensional Lie group|infinite-dimensional]] [[Fréchet Lie group]]. 
 
 Its [[Lie algebra]] then is the algebra of incompressible (i.e. zero-[[divergence]]) [[vector fields]] on $X$. For the case $dim(X) = 2$, these Lie algebras (or their [[central extensions]]) are known as *[[w-infinity algebra|$w_\infty$-algebras]]* (with lower case "w") and certain [[deformation quantizations]] of these as *[[W-infinity algebra|$W_\infty$-algebras]]* (with capital "W").
 
@@ -53,6 +63,11 @@ But **beware** that most of the physics literature considers this at the level o
 ## References
 
 ### General
+
+Monograph:
+
+* {#Banyaga1997} [[Augustin Banyaga]]; *Volume Preserving Diffeomorphisms*, chapter 5 of: *The Structure of Classical Diffeomorphism Groups*,  Mathematics and Its Applications **400**, Springer (1997) &lbrack;[doi:10.1007/978-1-4757-6800-8](https://doi.org/10.1007/978-1-4757-6800-8)&rbrack;
+
 
 Original discussion of the [[w-infinity algebra|$w_\infty$-algebra]] of the [[torus]]:
 
