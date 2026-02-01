@@ -353,7 +353,7 @@ More general than cojet forms (but analytic), we have the _coflare differential 
 
 A more abstract version of coflare forms (including both cogerm forms and the coflare forms of the previous paragraph) may be based on germs of maps with domain $\mathbb{R}^p$ instead of only curves (with domain $\mathbb{R}$).  To fix notation, number the coordinates on $\mathbb{R}^p$ from $0$ to $p - 1$; if $\phi$ is a partial function from $\mathbb{R}^p$ to $\mathbb{R}$ and $U$ is the subset of $\dom \phi$ on which $\phi$ is (say) $3$-times differentiable, then write $\mathrm{D}_{i,j,k}\phi\colon U \to \mathbb{R}$ for the third partial derivative of $\phi$ with respect to variable $i$, variable $j$, and variable $k$ (in any order).  Then if $c$ is a thrice-differentiable function to $X$ from a neighbourhood of the origin in $\mathbb{R}^p$ and $f$ is a thrice-differentiable function to $\mathbb{R}$ from a neighbourhood of $c(0)$ in $X$, then we have $\langle \mathrm{d}_{i,j,k}f | c \rangle \coloneqq \mathrm{D}_{i,j,k}(f \circ c)(0)$, etc.
 
-Even more abstractly, there is no reason to limit the domain of $c$ to $\mathbb{R}^p$, although it\'s not clear if the forms on more general classes of germs correspond to anything of independent interest.
+Even more abstractly, there is no reason to limit the domain of $c$ to $\mathbb{R}^p$, although it\'s not clear if the forms on more general classes of germs correspond to anything of independent interest.  (Note that you'd use some more general [[pointed space|pointed]] manifold (or other [[smooth space]]) in place of $\mathbb{R}^p$ pointed at the origin; the choice of point in $\mathbb{R}^p$ is just a matter of convenience, but in some other space it might matter more.)
 
 
 ## References
