@@ -112,7 +112,7 @@ Historically, the terms 'Schr&#246;dinger picture' and 'Heisenberg picture' (at 
 
 For example, these terms included also Schr&#246;dinger\'s use of typically [[wave]]-like functions as pure states (and correspondingly [[operators]] in the higher-type-theoretic sense as observables) vs Heisenberg\'s use of infinite-dimensional [[matrix|matrices]] as observables (and correspondingly [[infinite sequences]] as pure states).  This difference was rectified by [[John von Neumann|von Neumann]]\'s application of [[Hilbert space]] to the problem, showing that (if one suitably restricts the allowed functions and sequences and also identifies equivalent functions a bit) both approaches used Hilbert space (what we would now call the infinite-dimensional  iseparable Hilbert space) as the space of pure states.
 
-This is entirely separate from the question of whether states or observables are taken to evolve with time.  Still, there is this connection: Schr&#246;dinger evolved states, and his approach was called 'wave mechanics' after his representation for states, while Heisenberg evolved observables, and his approach was called 'matrix mechanics' after his representation for observables.
+This is entirely separate from the question of whether states or observables are taken to evolve with time.  Still, there is this connection: Schr&#246;dinger evolved states, and his approach was called '[[wave mechanics]]' after his representation for states, while Heisenberg evolved observables, and his approach was called '[[matrix mechanics]]' after his representation for observables.
 
 ## Examples
 
@@ -173,3 +173,6 @@ Subtleties with the Schr&#246;dinger picture for [[field theory]] in [[spacetime
 [[!redirects Schrödinger picture of quantum mechanics]]
 [[!redirects Schroedinger picture of quantum mechanics]]
 [[!redirects Schrodinger picture of quantum mechanics]]
+
+[[!redirects Heisenberg picture of quantum mechanics]]
+
