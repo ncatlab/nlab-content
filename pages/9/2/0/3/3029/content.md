@@ -1682,9 +1682,13 @@ See also:
 
 * [[Antonio M. Cegarra]], [[Antonio R. Garzón]], A long exact sequence in non-abelian cohomology, Proc. Int. Conf. Como 1990., Lec. Notes in Math. 1488, Springer 1991.
 
-A theory for central 2-group extensions is here:
+On central extensions of [[2-groups]]:
 
-* [[Antonio R. Garzón]] and E.M. Vitale, On the second cohomology categorical group and a Hochschild-Serre 2-exact sequence, Theory and Applications of Categories, Vol. 30 (2015), 933-984.  ([pdf](http://www.tac.mta.ca/tac/volumes/30/27/30-27.pdf))
+* [[Antonio R. Garzón]] and E. M. Vitale, On the second cohomology categorical group and a Hochschild-Serre 2-exact sequence, Theory and Applications of Categories, Vol. 30 (2015), 933-984.  ([pdf](http://www.tac.mta.ca/tac/volumes/30/27/30-27.pdf))
+
+Discussion for [[infinity-group|$\infty$-groups]] in [[homotopy type theory]] formalized via [cubical Agda](Agda#CubicalAgda):
+
+* [[David J. Myers]], Zyad Yasser: *Higher Schreier Theory in Cubical Agda*, Journal of Symbolic Logic (2025) &lbrack;[doi:10.1017/jsl.2024.78](https://doi.org/10.1017/jsl.2024.78), [pdf](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C3D0E95550689C21D11A18E0F531D5DE/S0022481224000781a.pdf/higher-schreier-theory-in-cubical-agda.pdf)&rbrack;
 
 
 See also references to Dedecker listed [[zoranskoda:Paul Dedecker|here]]. 
