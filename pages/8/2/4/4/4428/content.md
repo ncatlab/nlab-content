@@ -21,6 +21,10 @@ Introducing [[Chern-Simons forms]]:
 
 * {#ChernSimons74} [[Shiing-Shen Chern]], [[James Simons]]: _[[Characteristic forms and geometric invariants]]_  The Annals of Mathematics, Second Series, **99** 1 (1974) 48-69 &lbrack;[jstor:1971013](http://www.jstor.org/pss/1971013), [pdf](http://www.dpmms.cam.ac.uk/~hk244/chern-simons.cp.pdf)&rbrack;
 
+Introducing the notion of [[CR manifolds]]:
+
+* [[Shiing-shen Chern]], [[Jürgen Moser]]: _Real hypersurfaces in complex manifolds_, Acta Math. **133** (1975) 219-271 &lbrack;[doi:10.1007/BF02392146](https://doi.org/10.1007/BF02392146), [MathNet](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=rm&paperid=7161&option_lang=eng)&rbrack;
+
 
 ## Quotes
  {#Quotes}
