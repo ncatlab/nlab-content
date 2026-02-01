@@ -7,61 +7,25 @@
 
 ***
 
-[[Mumford-AbelianVarieties-I.pdf:file]]
-[[Mumford-AbelianVarieties-II.pdf:file]]
-[[Mumford-AbelianVarieties-III.pdf:file]]
-[[Mumford-AbelianVarieties-IV.pdf:file]]
+## Statements
 
-Let $\Sigma$ be a closed oriented [[surface]] equipped with a [[complex structure]] (a [[complex curve]]).
+Consider a [[compact topological space|compact]] [[connected space|connected]] [[smooth manifold]] $X$ of [[dimension of a manifold|dimension]] $d \coloneqq dim(X)$.
 
-Noticing
+\begin{theorem}
+For $\omega, \omega' \in \Omega^d_{dR}(X)$ a [[pair]] of [volume forms]] on $X$, there exists a [[diffeomorphism]] $\phi \colon X \longrightarrow X$ whose [[pullback of differential forms|pullback]] takes one to the other: $\omega' = \phi^\ast \omega$.
 
-$$
-  \begin{array}{ccc}
-    A_x \mathrm{d}x
-    + 
-    A_y \mathrm{d}y
-    &=&
-    A_x \tfrac{1}{2}(
-      \mathrm{d}z + \mathrm{d}\overline{z}
-    )
-    + 
-    A_y \tfrac{1}{2\mathrm{i}}(
-      \mathrm{d}z - \mathrm{d}\overline{z}
-    )
-    \\
-    &=&
-    \tfrac{1}{2}(A_x - \mathrm{i} A_y)
-    \mathrm{d}z
-    \,+\,
-    \tfrac{1}{2}(A_x + \mathrm{i} A_y)
-    \mathrm{d}\overline{z}
-  \end{array}
-$$
+Moreover, $\phi$ may be chosen to be in the [[connected component]] $Diff_0(X)$ of the [[identity map]] in the [[diffeomorphism group]].
+\end{theorem}
 
-we have an isomorphism
+## References
 
-$$
-  \begin{array}{ccc}
-    \Omega^1_{dR}(\Sigma; \mathrm{i} \mathbb{R})
-    &\xrightarrow{ \;\; \sim \;\; }&
-    \Omega^{0,1}_{dR}(\Sigma)
-    \\
-    A
-    &\mapsto&
-    a 
-      \coloneqq
-    \tfrac{1}{2}
-    \big(
-      A_x - \mathrm{i} A_y
-    \big)
-    \mathrm{d}z
-    \\
-    a - \overline{a}
-    &\mapsfrom& 
-    a
-  \end{array}
-$$
+The original article:
+
+* [[Jürgen Moser]]: *On the Volume Elements on a Manifold*, Trans. Amer. Math. Soc. 120 (1965) 286-294 &lbrack;[doi:10.1090/S0002-9947-1965-0182927-5](https://doi.org/10.1090/S0002-9947-1965-0182927-5), [pdf](https://www.ams.org/journals/tran/1965-120-02/S0002-9947-1965-0182927-5/S0002-9947-1965-0182927-5.pdf)&rbrack;
+
+See also
+
+* Wikipedia: *[Moser's trick](https://en.wikipedia.org/wiki/Moser%27s_trick)*
 
 
 ### FQH Excitation modes
