@@ -80,11 +80,14 @@ This yields the relatively young subjects of symplectic and contact topologies, 
 
     * [[equivariant differential topology]]
 
+    * [[symplectic topology]]
+
   * [[algebraic topology]]
 
     * [[nonabelian algebraic topology]]
 
 * [[homotopy theory]]
+
 
 
 ## References
