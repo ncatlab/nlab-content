@@ -10,6 +10,8 @@ A scheme is semiseparated iff it has an affine cover which is semiseparated.
 
 An open subset of a semiseparated scheme is semiseparated. 
 
+Every semiseparated scheme is [[quasiseparated scheme|quasiseparated]].
+
 ## Literature
 
 The notion is explained in 
