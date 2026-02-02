@@ -39,6 +39,11 @@ Thus the Henstock integral may be seen as a non-uniform generalization of the Ri
 In [[constructive analysis]], we must allow a gauge to take [[lower real number|lower real]] values.  (This is not necessary with the Riemann integral.)  Otherwise, there may not be enough gauges, since these are rarely continuous.  (The definition could also be made constructive by explicitly referring to an assignment of neighbourhoods to points or by replacing $\delta$ with an [[entire relation]].)
 
 
+### Cousin\'s Lemma
+
+Conceivably, there might exist an interval $[a,b]$ and a gauge $\delta$ such that no $\delta$-fine partition of $[a,b]$ exists at all; in that case, the integral of any function $f$ on $[a,b]$ would vacuously take every value $I$.  This is ruled out by [[Cousin's Lemma]], which states precisely that such a partition always exists.  This lemma can be leveraged to prove that the integral is not only nontrivial but also (if it exists at all) unique.
+
+
 ## Examples
 
 The [[characteristic function]] $\chi_{\mathbb{Q}}$ of the [[rational numbers]] (as a subset of the real numbers) is a famous example of a function that's Lebesgue integrable but not even locally Riemann integrable.  It is Henstock integrable (with integral $0$) on any $[a,b]$ as follows:  Enumerate the rationals in $[a,b]$ as $(q_i)_{i=0}^\infty$.  Given $\epsilon \gt 0$, let $\delta(x)$ be $b-a$ if $x$ is irrational but $2^{-i-2}\epsilon(b-a)$ if $x$ is the rational $q_i$.  Then $\sum_{x\in[a,b]} \chi_{\mathbb{Q}}(x) \,2\delta(x) = \epsilon$.  Since a $\delta$-fine Riemann sum consists of just some of these terms, with $2\delta(x)$ replaced by a length that might be smaller, the value of the $\delta$-fine Riemann sum is thus always at most $\epsilon$.
