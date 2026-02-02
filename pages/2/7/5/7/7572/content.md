@@ -207,7 +207,7 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
 
 
-## Related theorem
+## Related theorems
 
 * [[closed subspaces of compact Hausdorff spaces are equivalently compact subspaces]]
 
@@ -223,11 +223,14 @@ in $\mathbb{R}^n$ is clearly a bounded subset, and hence so is $S$.
 
 * [[Heine-Cantor theorem]]
 
+* [[Cousin's theorem]]
+
 * [[fan theorem]] (The [[locale]] of [[Cantor space]] is a [[spatial locale]].)
 
 * [[monotone bar induction]] (The [[locale]] of the [[Baire space of sequences]] is a [[spatial locale]].)
 
 * [[principle of enough functions]] (The [[locale]] of the [[function space]] $\mathbb{R}^\mathbb{R}$ is a [[spatial locale]].)
+
 
 ## References
 
