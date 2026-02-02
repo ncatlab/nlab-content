@@ -199,6 +199,8 @@ As ([[gauge symmetry|gauge]]) [[symmetries]] of [[fractional quantum Hall system
 * A. Cappelli, [[Carlo A. Trugenberger]], G. R. Zemba:
 *Infinite Symmetry in the Quantum Hall Effect*, Nucl. Phys. B **396** (1993) 465-490 \[<a href="https://doi.org/10.1016/0550-3213(93)90660-H">doi:10.1016/0550-3213(93)90660-H</a>, [arXiv:hep-th/9206027](https://arxiv.org/abs/hep-th/9206027)\]
 
+* [[Dimitra Karabali]], [[V. Parameswaran Nair]]: *The effective action for edge states in higher dimensional quantum Hall systems*, Nucl. Phys. B **679** (2004) 427-446 \[<a href="https://doi.org/10.1016/j.nuclphysb.2003.11.020">doi:10.1016/j.nuclphysb.2003.11.020</a>, [arXiv:hep-th/0307281](https://arxiv.org/abs/hep-th/0307281)\]
+
 * [[Yi-Hsien Du]], [[Umang Mehta]], Dung Xuan Nguyen, [[Dam Thanh Son]]: *Volume-preserving diffeomorphism as nonabelian higher-rank gauge symmetry*, SciPost Phys. **12** 050 (2022) &lbrack;[arXiv:2103.09826](https://arxiv.org/abs/2103.09826), [doi:10.21468/SciPostPhys.12.2.050](https://doi.org/10.21468/SciPostPhys.12.2.050)&rbrack;
 
 * [[Yi-Hsien Du]], [[Umang Mehta]], [[Dam Thanh Son]]: *Noncommutative gauge symmetry in the fractional quantum Hall effect*, J. High Energ. Phys. **2024** 125 (2024) &lbrack;<a href="https://doi.org/10.1007/JHEP08(2024)125">doi:10.1007/JHEP08(2024)125</a>, [arXiv:2110.13875](https://arxiv.org/abs/2110.13875)&rbrack;
