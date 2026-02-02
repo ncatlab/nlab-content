@@ -197,6 +197,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * Stochastic $\lambda$-calculus: [AKM'21](#stoch_lambda).
 
+* The [[Metropolis-Hastings algorithm]] using [[Markov categories]]: [Cornish-Wang'26](#MH).
+
 * Probability monads for probabilistic computation: [Jones-Plotkin'89](#jones_plotkin89), [Jacobs'18](#jacobs_pmonads), [DKPS'2023](#affine_lazy).
 
 * Privacy of name generation: [HKSY'17](#QBS), [SSSW'21](#name_gen), [FGGPS'23](#dilations).
@@ -217,6 +219,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * Constructions of free Markov and CD categories: [Fritz-Liang'23](#free_gs).
 
 * Notions of [[conditional independence]] as [[universal properties]]: [Simpson'18](#independence), [Simpson'24](#atomic_sheaf), [Stein'25](#stein_RV), [dMHLPS'25](#dagger_relations).
+
+* [[CD-categories]] enriched in commutative monoids: [Cornish-Wang'26](#MH).
 
 * Study of joint and marginal distributions for [[probability monads]]: [Fritz-Perrone'18](#bimonoidal_monads).
 
@@ -301,6 +305,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * {#entropy_topos} Carmen Constantin and Andreas Döring, _A topos-theoretic notion of entropy_, 2020. ([arXiv](https://arxiv.org/abs/2006.03139))
 
 * {#cornish} Rob Cornish, _Stochastic Neural Network Symmetrization in Markov Categories_, 2024. ([arXiv](https://arxiv.org/abs/2406.11814))
+
+* {#MH} Rob Cornish and Andi Wang, _A categorical account of the Metropolis-Hastings algorithm_, 2026. ([arXiv](https://arxiv.org/abs/2601.22911))
 
 * {#krn} Fredrik Dahlqvist, Vincent Danos, Ilias Garnier, and Alexandra Silva, _Borel kernels and
 their approximation, categorically_. In MFPS 34: Proceedings of the Thirty-Fourth Conference on the Mathematical Foundations of Programming Semantics, volume 341, 91–119, 2018.  [arXiv](https://arxiv.org/abs/1803.02651).
