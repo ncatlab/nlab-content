@@ -1,11 +1,27 @@
 
-# Cogerm differential forms
-* table of contents
-{: toc}
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Higher geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
+\tableofcontents
+
+
 
 ## Idea
 
-A cogerm differential form is a vast generalization of the usual exterior [[differential forms]], which includes also [[absolute differential forms]], as well as "higher" differential forms such as $d^2x$ and a commutative differential operator (at least in the case of 1-forms).
+The notion of *cogerm differential forms* is a vast generalization of that of usual [[exterior calculus|exterior]] [[differential forms]], which includes also [[absolute differential forms]], as well as "higher" differential forms such as $d^2 x$ and a commutative differential operator (at least in the case of 1-forms).
 
 
 ## Definition
