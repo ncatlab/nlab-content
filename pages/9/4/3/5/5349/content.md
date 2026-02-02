@@ -61,7 +61,7 @@ where $\bigcup$ is the [[supremum]] operation on ordinals (literally the [[union
 
 Recall that a [[cardinal number]] $\alpha$ is said to be _regular_ if $|\bigcup_{i\in I} X_i |$&lt;$\alpha$ whenever $|I|$&lt;$\alpha$ and $|X_i|$&lt;$\alpha$ for all $i\in I$.
 
-A functor $F:\mathcal{A}\to \mathcal{B}$  _has rank_ $\alpha$ for some regular cardinal $\alpha$ if $F$ preserves $\alpha$-[[filtered colimit|filtered colimits]]. $F$ _has rank_ when it has rank $\alpha$ for some regular cardinal $\alpha$. A monad has rank ($\alpha$) when its underlying endofunctor does.
+A functor $F:\mathcal{A}\to \mathcal{B}$  _has rank_ $\alpha$ for some regular cardinal $\alpha$ if $F$ preserves $\alpha$-[[filtered colimit|filtered colimits]]. $F$ _has rank_ when it has rank $\alpha$ for some regular cardinal $\alpha$. A monad has rank ($\alpha$) when its underlying endofunctor does. If both $\mathcal{A}$ and $\mathcal{B}$ are $\alpha$-[[accessible categories]], having rank $\alpha$ is the same as being an $\alpha$-[[accessible functor]] by definition.
 
 The properties of functors with rank are discussed in section 5.5 of Borceux ([1994](#Borceux2)).
 
