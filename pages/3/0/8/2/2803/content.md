@@ -28,7 +28,7 @@ For bicategories $A$ and $B$, $[A,B]$ denotes the bicategory of [[pseudofunctors
 
 ## Implications
 
-In particular, the Yoneda lemma for bicategories implies that there is a [[Yoneda embedding]] for bicategories $C\to [C^{op},Cat]$ which is [[2-fully-faithful functor|2-fully-faithful]], i.e. an equivalence on hom-categories.  Therefore, $C$ is [[equivalence|equivalent]] to a sub-bicategory of $[C^{op},Cat]$.  Since [[Cat]] is a [[strict 2-category]], it follows that $C$ is equivalent to a strict 2-category, which is one form of the [[coherence theorem for bicategories]].  (Conversely, another form of the coherence theorem can be used to prove the Yoneda lemma; see below.)
+In particular, the Yoneda lemma for bicategories implies that there is a [[Yoneda embedding]] for bicategories $C\to [C^{op},Cat]$ which is [[2-fully-faithful functor|2-fully-faithful]], i.e. an equivalence on hom-categories.  Therefore, $C$ is [[equivalence|equivalent]] to a sub-bicategory of $[C^{op},Cat]$.  Since [[Cat]] is a [[strict 2-category]], it follows that $C$ is equivalent to a strict 2-category, which is one form of the [[strictification theorem for bicategories]].  (Conversely, another form of the strictification theorem can be used to prove the Yoneda lemma; see below.)
 
 ## Proof
 
@@ -44,7 +44,7 @@ We will take it for granted that $[C^{op},Cat]$ is a well-defined bicategory; th
 $$ [C^{op},Cat](C(-,x), F) \to F(x) $$
 is well-defined and pseudonatural in $F$ and $x$; our goal is to prove that it is an equivalence.  (Granted, these basic facts require a fair amount of verification as well.)
 
-We will use part of the [[coherence theorem for pseudoalgebras]], which says that for a suitably well-behaved strict [[2-monad]] $T$, the inclusion $T$-$Alg_{strict} \hookrightarrow Ps$-$T$-$Alg$ of the 2-category of strict $T$-algebras and strict $T$-morphisms into the 2-category of pseudo $T$-algebras and pseudo $T$-morphisms has a left adjoint, usually written as $(-)'$.  Moreover, for any pseudo $T$-algebra $A$, the unit $A\to A'$ is an equivalence in $Ps$-$T$-$Alg$.
+We will use part of the [[strictification theorem for pseudoalgebras]], which says that for a suitably well-behaved strict [[2-monad]] $T$, the inclusion $T$-$Alg_{strict} \hookrightarrow Ps$-$T$-$Alg$ of the 2-category of strict $T$-algebras and strict $T$-morphisms into the 2-category of pseudo $T$-algebras and pseudo $T$-morphisms has a left adjoint, usually written as $(-)'$.  Moreover, for any pseudo $T$-algebra $A$, the unit $A\to A'$ is an equivalence in $Ps$-$T$-$Alg$.
 
 First, there is a 2-monad $T$ such that strict $T$-algebras are strict 2-categories, strict $T$-morphisms are strict 2-functors, pseudo $T$-algebras are [[biased|unbiased bicategories]], and pseudo $T$-morphisms are [[pseudofunctors]].  By Mac Lane's coherence theorem for bicategories, any ordinary bicategory can equally well be considered as an unbiased one.  Thus, since $Cat$ is a strict 2-category, for any bicategory $C$ there is a strict 2-category $C'$ such that pseudofunctors $C\to Cat$ are in bijection with strict 2-functors $C'\to Cat$.
 
