@@ -171,12 +171,15 @@ Basics are recalled for instance in:
 
 The [[geometric quantization]] of 3d CS theory in codimension 1 is due to:
 
-* {#AxelrodPietraWitten91} [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]], _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. **33** (1991) 787-902  &lbrack;[euclid:jdg/1214446565](http://projecteuclid.org/euclid.jdg/1214446565)&rbrack;
+* {#ElitzurMooreSchwimmerSeiberg1989} S. Elitzur, [[Greg Moore]], A. Schwimmer, [[Nathan Seiberg]]: *Remarks on the Canonical Quantization of the Chern-Simons-Witten Theory*, Nucl. Phys. B **326** (1989) 108--134 \[<a href="https://doi.org/10.1016/0550-3213(89)90436-7">doi:10.1016/0550-3213(89)90436-7</a>, [pdf](https://people.maths.ox.ac.uk/beem/papers/chern_simons_canonical.pdf)\]  
+
+* {#AxelrodPietraWitten91} [[Scott Axelrod]], S. Della Pietra, [[Edward Witten]]: _Geometric quantization of Chern-Simons gauge theory_, Jour. Diff. Geom. **33** (1991) 787-902  &lbrack;[euclid:jdg/1214446565](http://projecteuclid.org/euclid.jdg/1214446565)&rbrack;
 
 * {#Hitchin90} [[Nigel Hitchin]]: _Flat connections and geometric quantization_, Comm. Math. Phys. **131** 2 (1990) 347-380 &lbrack;[euclid:cmp/1104200841](http://projecteuclid.org/euclid.cmp/1104200841)&rbrack;
   > (cf. at _[[Hitchin connection]]_)
 
 See also:
+
 
 * {#Atiyah90} [[Michael Atiyah]], Section 5 of: *The Geometry and Physics of Knots*,  Cambridge University Press (1990) &lbrack;[doi:10.1017/CBO9780511623868](https://doi.org/10.1017/CBO9780511623868), [pdf](http://lib.ysu.am/open_books/417997.pdf)&rbrack;
 
