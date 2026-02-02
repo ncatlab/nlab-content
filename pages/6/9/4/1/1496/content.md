@@ -218,7 +218,7 @@ We will consider two types of integrals:
 The Bochner integral is a direct generalization of the Lesbegue integral to functions that take values in a Banach space. Whenever you encounter an integral of a function taking values in a Banach space in the [[AQFT]] literature, it is safe to assume that it is meant to be a Bochner integral. Two points already explained by Wikipedia are of interest:
 
 1. A version of the dominated convergence theorem is true for the Bochner integral.
-2. There are theorems that are not valid for the Bochner integral, notably the Radon-Nikodym theorem does not hold in general.
+2. There are theorems that are not valid for the Bochner integral, notably the [[Radon-Nikodym theorem]] does not hold in general.
 
 * [Wikipedia] (http://en.wikipedia.org/wiki/Bochner_integral)
 
