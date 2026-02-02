@@ -845,7 +845,7 @@ Introduction and review:
 
 * [[Romesh K. Kaul]], T. R. Govindarajan, P. Ramadevi: _Schwarz Type Topological Quantum Field Theories_, [[Encyclopedia of Mathematical Physics]], Elsevier (2006) 494-503 &lbrack;[arXiv:hep-th/0504100](http://arxiv.org/abs/hep-th/0504100)&rbrack;
 
-* [[Daniel Freed]]: _Remarks on Chern-Simons theory_ Bulletin of the AMS **46** 2 (2009) 221-254S &lbrack;[arXiv:0808.2507](http://arxiv.org/abs/0808.2507)&rbrack;
+* [[Daniel Freed]]: *Remarks on Chern-Simons theory*, Bulletin of the AMS **46** 2 (2009) 221-254S &lbrack;[arXiv:0808.2507](http://arxiv.org/abs/0808.2507)&rbrack;
 
 * [[Jorge Zanelli]], Luis Huerta: *Introduction to Chern-Simons theories*, PoS ICFI2010 (2010) 004 &lbrack;[doi:10.22323/1.124.0004](https://doi.org/10.22323/1.124.0004)&rbrack;
 
@@ -905,11 +905,12 @@ Relation to Chern-Simons to [[Dijkgraaf-Witten theory]]:
 ### With Wilson loops, defects and boundaries
  {#ReferencesWithWilsonLoops}
 
-The [[orbit method]]-formulation of [[Wilson loops]] in 3d Chern-Simons theory was vaguely indicated in ([Witten89, p. 22 ](#Witten89)). 
-More details were discussed in
+The [[orbit method]]-formulation of [[Wilson loops]] in 3d Chern-Simons theory was vaguely indicated in [Witten '89, p. 22 ](#Witten89). 
 
-* S. Elitzur, [[Greg Moore]], A. Schwimmer, and [[Nathan Seiberg]], _Remarks on the Canonical Quantization of the Chern-Simons-Witten Theory_, Nucl. Phys. B 326 (1989) 108&#8211;134.  
- {#EMSS}
+More details:
+
+* {#EMSS} S. Elitzur, [[Greg Moore]], A. Schwimmer, [[Nathan Seiberg]]: *Remarks on the Canonical Quantization of the Chern-Simons-Witten Theory*, Nucl. Phys. B **326** (1989) 108--134 \[<a href="https://doi.org/10.1016/0550-3213(89)90436-7">doi:10.1016/0550-3213(89)90436-7</a>, [pdf](https://people.maths.ox.ac.uk/beem/papers/chern_simons_canonical.pdf)\]  
+ 
 
 In the context of other [[gauge theories]] ([[Yang-Mills theory]]) the same formulation appears much earlier in
 
