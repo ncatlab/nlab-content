@@ -2,9 +2,10 @@
 * [Wikipedia entry](https://fr.wikipedia.org/wiki/Pierre_Cousin)
 
 
-## related $n$Lab entries
+## Related entries
 
 * [[Cousin's theorem]]
+
 * [[Heine-Borel theorem]]
 
 
