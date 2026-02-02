@@ -1,5 +1,13 @@
 
-* [wikipedia entry](http://en.wikipedia.org/wiki/Nathan_Seiberg)
+* [institute page](https://www.ias.edu/scholars/seiberg)
+
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Nathan_Seiberg)
+
+* [inSpire page](https://inspirehep.net/authors/989440)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=-3oTIWAAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Nathan-Seiberg)
 
 ## Selected writings
 
@@ -12,10 +20,14 @@ On the [[GSO projection]] and introducing what came to be called [[type 0 string
 * [[Nathan Seiberg]], [[Edward Witten]], section 4 of: *Spin Structures in String Theory*, Nucl. Phys. B **276** (1986) 272 \[<a href="https://doi.org/10.1016/0550-3213(86)90297-X">doi:10.1016/0550-3213(86)90297-X</a>\]
 
 
+On the [[canonical quantization|canonical]]/[[geometric quantization|geometric]] [[quantization of D=3 Chern-Simons theory]]:
+
+* S. Elitzur, [[Greg Moore]], A. Schwimmer, [[Nathan Seiberg]]: *Remarks on the Canonical Quantization of the Chern-Simons-Witten Theory*, Nucl. Phys. B **326** (1989) 108--134 \[<a href="https://doi.org/10.1016/0550-3213(89)90436-7">doi:10.1016/0550-3213(89)90436-7</a>, [pdf](https://people.maths.ox.ac.uk/beem/papers/chern_simons_canonical.pdf)\]  
+
 
 Introducing [[mirror symmetry]] of [[D=3 N=4 super Yang-Mills theory]]:
 
-* {#IntriligatorSeiberg96} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys. Lett. B 387:513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
+* {#IntriligatorSeiberg96} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys. Lett. B 387 513-519 (1996) &lbrack;[arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207)&rbrack;
 
 
 On the [[D=6 N=(1,0) SCFT]] on [[heterotic M5-branes]] and their [[KK-compactifications]]:
