@@ -1,5 +1,6 @@
 
-* [Wikipedia entry](https://fr.wikipedia.org/wiki/Pierre_Cousin)
+* [Wikipedia entry][PC]
+[PC]: https://fr.wikipedia.org/wiki/Pierre_Cousin_(mathématicien)
 
 
 ## Related entries
