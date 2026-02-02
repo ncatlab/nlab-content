@@ -126,6 +126,8 @@ The original development of the theory by [[Grothendieck]]  is in
 
 See also:
 
+* [[Alexander Grothendieck]], (1965), *Algèbres Étales et théorie de Galois*, Rédaction Bourbaki No. 457. Unpublished note. 10.1965 [pdf](https://csg.igrothendieck.org/wp-content/uploads/2026/02/U114d.pdf). 
+
 * J. P. Murre, _Lectures on an introduction to Grothendieck's theory of the fundamental group_, Tata Inst. of Fund. Res. Lectures on Mathematics _40_, Bombay, 1967. iv+176+iv pp. 
 
 * {#JoyalTierney84} [[André Joyal]], [[Myles Tierney]], *An extension of the Galois theory of Grothendieck*,  Mem. Amer. Math. Soc. **309** (1984) &lbrack;[ISBN:978-1-4704-0722-3](https://bookstore.ams.org/memo-51-309)&rbrack;
