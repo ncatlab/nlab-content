@@ -1069,7 +1069,8 @@ category: physics
 [[!redirects FQH liquid]]
 [[!redirects FQH liquids]]
 
-
+[[!redirects integer quantum Hall system]]
+[[!redirects integer quantum Hall systems]]
 
 
 
