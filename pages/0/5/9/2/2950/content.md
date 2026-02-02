@@ -17,6 +17,10 @@ On the [[group action|action]] of the [[modular group]] on [[spin structures]] o
 
 * {#AlvaresGaumeMooreVafa86} [[Luis Alvarez-Gaumé]], [[Gregory Moore]], [[Cumrun Vafa]]: *Theta functions, modular invariance, and strings*, Communications in Mathematical Physics **106** 1 (1986) 1--40 &lbrack;[doi:10.1007/BF01210925](https://doi.org/10.1007/BF01210925), [euclid:cmp/1104115581](http://projecteuclid.org/euclid.cmp/1104115581)&rbrack;
 
+On the [[canonical quantization|canonical]]/[[geometric quantization|geometric]] [[quantization of D=3 Chern-Simons theory]]:
+
+* S. Elitzur, [[Greg Moore]], A. Schwimmer, [[Nathan Seiberg]]: *Remarks on the Canonical Quantization of the Chern-Simons-Witten Theory*, Nucl. Phys. B **326** (1989) 108--134 \[<a href="https://doi.org/10.1016/0550-3213(89)90436-7">doi:10.1016/0550-3213(89)90436-7</a>, [pdf](https://people.maths.ox.ac.uk/beem/papers/chern_simons_canonical.pdf)\]  
+
 
 Early argument that the [[RR-field]] [[flux]] [[differential form|density]]-expressions for [[D-brane charge]] are of the form of [[Chern characters]] on [[topological K-theory]], leading to the [[K-theory classification of D-brane charge]]:
 
