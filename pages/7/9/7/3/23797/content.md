@@ -64,6 +64,10 @@ Review:
 
 * {#Tong16} [[David Tong]]: *Edge Modes*, chapter 6 of: *The Quantum Hall Effect*, lecture notes (2016) &lbrack;[arXiv:1606.06687](https://arxiv.org/abs/1606.06687), [course webpage](https://www.damtp.cam.ac.uk/user/tong/qhe.html), [pdf](http://www.damtp.cam.ac.uk/user/tong/qhe/qhe.pdf), [[Tong-QuantumHallEffect.pdf:file]]&rbrack;
 
+In the generality of higher dimensional [[integer quantum Hall systems]] and relating to [[area-preserving diffeomorphisms]] [regularized by](volume+preserving+diffeomorphism#ReferencesRelationBetweenSUInfinityAndLieAPD) $\mathfrak{u}(\infty)$:
+
+* [[Dimitra Karabali]], [[V. Parameswaran Nair]]: *The effective action for edge states in higher dimensional quantum Hall systems*, Nucl. Phys. B **679** (2004) 427-446 \[<a href="https://doi.org/10.1016/j.nuclphysb.2003.11.020">doi:10.1016/j.nuclphysb.2003.11.020</a>, [arXiv:hep-th/0307281](https://arxiv.org/abs/hep-th/0307281)\]
+
 
 ### In topological insulators
 
