@@ -62,6 +62,7 @@ A (partial) **cogerm differential 1-form** on $X$ is a [[partial function]] $\om
   $$
   In the section on integration below we will see why this deserves the name "delta function".
 
+
 ## The cogerm differential
 
 For any curve $c$ and real number $h$, let $c_h$ be the curve defined by $c_h(t) = c(t+h)$.  If $\omega$ is any cogerm differential 1-form, then we define its **differential** $\mathrm{d}\omega$ by
@@ -134,7 +135,7 @@ It is convenient to do this in the manner of the [[Henstock integral]].  That is
 The genuine integral also agrees with the usual integral for exterior 1-forms, and probably also for absolute differential forms.  However, in other cases it disagrees with the naive integral.  In particular, it "detects only the degree-1 part" of a form, in a way that we can make precise as follows.
 
 
-### Integration of negligible forms
+### Integration of negligible forms {#negligible}
 
 Let us say that $\omega$ is **$o(dx)$** if $\lim_{h\to 0} \frac{\langle \omega | h\cdot c \rangle}{h} = 0$ for any curve $c$.  Some examples of forms that are $o(dx)$ are $\mathrm{d}x^2$ and $\mathrm{d}^2x$.
 
@@ -283,6 +284,17 @@ Now $L$ and $E$ depend on the point chosen, but nevertheless, we can choose gaug
 =--
 
 
+### Relationship to summants {#summants}
+
+Solomon Leader ([2001](#Leader)) introduces a notion of differential (or differential form) on closed intervals in $\bar\mathbb{R} \coloneqq [-\infty,\infty]$ as equivalence classes of _summants_ (a concept that he credits to Kurzweil and Henstock); it is these summants that correspond more directly to our generalized differential forms.  A summant $S$ on a closed interval $I$ is a function that assigns a real number to each nondegenerate closed subinterval $[a,b]$ tagged by an endpoint.  (Actually, Leader allows $I$ to be any union of closed intervals, not necessarily a single closed interval, but not an arbitrary subset.)  Equivalently, we might think of a summant as assigning a real number $S(a,h)$ to any pair $(a,h) \in \bar\mathbb{R}^2$ with $h \ne 0$ such that $[a,a+h]$ or $[a+h,a]$ (as appropriate) is contained in $I$.  This is much like a 1-cojet 1-form on $I$, which assigns a real number to any pair $(a,h)$ with ${|h|} \lt \infty$ such that $a$ belongs to $I$; any summant may be extended to a 1-cojet 1-form by mapping $(a,h)$ to $0$ when undefined under the summant (or in some other way), and any 1-cojet 1-form defines a summant by restriction and mapping $(a,\pm\infty)$ to $0$ (or something else) when needed.
+
+The mismatch is less serious than it may appear, since it doesn't affect the value of integrals; these depend only on the values of $S(a,h)$ for sufficiently small non-zero $h$.  And the integral of a summant is defined almost exactly like the genuine integral of a 1-cojet 1-form, with the requirement that every subinterval in a partition must be tagged with one of its endpoints.  (But this is easy to arrange by splitting any subinterval not so tagged into two, each tagged by the original tag, which is now an endpoint of both.)  Since Leader doesn't allow subintervals of zero length, the 1-cojet 1-form must satisfy $(a,0) = 0$ for all $a \in I$ (but this is necessary for integrability anyway).
+
+Leader defines a _differential_ (which is more what we would call a differential form since it's not the differential *of* anything in particular) to be an equivalence class of summants, where $S_1 \sim S_2$ iff $\int_I {|S_2 - S_1|} = 0$; equivalently (if either summant is integrable), they are equivalent if they have the same integrals on the closed subintervals of $I$.  Effectively, this makes two 1-cojet 1-forms equivalent if they are the same up to degree $1$, that is if their difference is negligible in the sense of being $\mathrm{o}(\mathrm{d}x)$.  We do not want to consider these to be equal as differential forms; for example, we don't want to say that $\mathrm{d}x^2$ is equal to $0$ (even though its integral is always $0$), because we make calculations like $\sqrt{\mathrm{d}x^2 + \mathrm{d}y^2}$ (although on $\bar\mathbb{R}$ one can avoid $\sqrt{\mathrm{d}x^2}$ by simply writing ${|\mathrm{d}x|}$).  So our differential forms are closer to Leader\'s summants than to his differentials.  But this is still an interesting equivalence relation on them.
+
+Leader especially considers summants of the form $f\, \Delta{g}$ and $f\, {|\Delta{g}|}$ for Stieltjes integrals (see below), which correspond exactly to what we mean by this notation.  Leader writes $f\, \mathrm{d}g$ and $f\, {|\mathrm{d}g|}$ for the corresponding differentials (in his sense); we would only write $f\, \mathrm{d}g$ or $f\, {|\mathrm{d}g|}$ when $g$ is differentiable (and we mean 1-cojet 1-forms by this notation, not equivalence classes of such), but in that case, these are equivalent to $f\, \Delta{g}$ and $f\, {|\Delta{g}|}$.  Leader especially notes that $\int_I {|\mathrm{d}g|}$ equals the total variation of $g$ on $I$ if either exists; in our notation, it's still true that $\int_I {|\Delta{g}|}$ equals this total variation if either exists.
+
+
 ### Stieltjes integrals, $\delta$-functions, and distributions
 
 An alternative approach to proving FTC would be to observe that essentially by definition of $\mathrm{d}f$, the form
@@ -363,6 +375,10 @@ Even more abstractly, there is no reason to limit the domain of $c$ to $\mathbb{
 Historical reference saved for later reading:
 
 * Henk Bos (1973). Differentials, Higher-Order Differentials and the Derivative in the Leibnizian Calculus. Archive for History of Exact Sciences 14:1--90. [DOI](http://dx.doi.org/10.1007%2FBF00327456). [PDF](http://www.tau.ac.il/~corry/teaching/toldot/download/Bos1974.pdf) hosted by Leo Corry.
+
+A comprehensive introduction to the Henstock--Kurzweil integral, including summants:
+
+* {#Leader} Solomon Leader (2001). The Kurzweil--Henstock Integral and its Differentials: A Unified Theory of Integration on $\mathbb{R}$ and $\mathbb{R}^n$. Marcel Dekker, Inc., 2001.
 
 
 [[!redirects cogerm differential form]]
