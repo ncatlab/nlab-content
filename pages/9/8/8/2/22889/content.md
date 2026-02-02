@@ -40,6 +40,11 @@ Review:
 * [[V. Parameswaran Nair]]: *Yang-Mills theory in (2+1) dimensions: a short review*, Nucl. Phys. Proc. Suppl. **108** (2002) 194-200 \[<a href="https://doi.org/10.1016/S0920-5632(02)01328-2">doi:10.1016/S0920-5632(02)01328-2</a>, [arXiv:hep-th/0204063](https://arxiv.org/abs/hep-th/0204063)\]
 
 
+On [[edge modes]] in higher dimensional [[integer quantum Hall systems]] and relating to [[volume-preserving diffeomorphisms]] [regularized by](volume+preserving+diffeomorphism#ReferencesRelationBetweenSUInfinityAndLieAPD) $\mathfrak{u}(\infty)$:
+
+* [[Dimitra Karabali]], [[V. Parameswaran Nair]]: *The effective action for edge states in higher dimensional quantum Hall systems*, Nucl. Phys. B **679** (2004) 427-446 \[<a href="https://doi.org/10.1016/j.nuclphysb.2003.11.020">doi:10.1016/j.nuclphysb.2003.11.020</a>, [arXiv:hep-th/0307281](https://arxiv.org/abs/hep-th/0307281)\]
+
+
 On [[superselection sectors]] and [[asymptotic symmetries]] of [[gauge theories]]:
 
 * [[A. P. Balachandran]],  [[V. P. Nair]], A. Pinzul, [[A. F. Reyes-Lega]], S. Vaidya: *Superselection, boundary algebras, and duality in gauge theories*, Phys. Rev. D **106** (2022) 025001 &lbrack;[doi:10.1103/PhysRevD.106.025001](https://doi.org/10.1103/PhysRevD.106.025001), [arXiv:2112.08631](https://arxiv.org/abs/2112.08631)&rbrack;
