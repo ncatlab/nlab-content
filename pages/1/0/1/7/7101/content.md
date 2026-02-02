@@ -57,7 +57,7 @@ Among the earliest references that consider the notion of universal bundles is
 
 A review is for instance in
 
-* Stephen Mitchell, _Universal principal bundles and classifying spaces_ ([pdf](http://www-math.mit.edu/~mbehrens/18.906/prin.pdf))
+* Stephen Mitchell, _Notes on principal bundles and classifying spaces_ ([pdf](https://sites.math.washington.edu/~mitchell/Notes/prin.pdf))
 * [[Dale Husemoeller]], _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) [gBooks](https://books.google.hr/books?id=DPr_BSH89cAC)  [pdf](https://www.maths.ed.ac.uk/~v1ranick/papers/husemoller)
 
 For more see the references at _[[classifying space]]_.
