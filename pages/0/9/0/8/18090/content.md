@@ -162,6 +162,8 @@ Introductory textbooks include
 
 * {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall (1975, 2000)
 
+* {#StarbirdSu19} [[Michael Starbird]], [[Francis Su]], _Topology Through Inquiry_, MAA Press (2019)
+
 Lecture notes include
 
 * {#Waldhausen} [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
