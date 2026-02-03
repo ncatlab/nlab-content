@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Quantum systems
++--{: .hide}
+[[!include quantum systems -- contents]]
+=--
+#### Computation
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -24,6 +38,16 @@ Quantum stabilizer codes are closely related to classical [[error correcting cod
 ## Related concepts
 
 * [[Clifford group]]
+
+* [[bit flip code]]
+  
+* [[stabilizer code]]
+
+* [[HaPPY code]]
+
+* [[Majorana dimer code]]
+
+* [[surface code]], [[toric code]]
 
 
 ## References
