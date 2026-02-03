@@ -7,25 +7,17 @@
 
 ***
 
-## Statements
+### In practice
 
-Consider a [[compact topological space|compact]] [[connected space|connected]] [[smooth manifold]] $X$ of [[dimension of a manifold|dimension]] $d \coloneqq dim(X)$.
+As of the 2020s, quantum error correction (QEC) on [NISQ](quantum+computation#ReferencesNISQ) machines is the dominant paradigm strategy, both in academia and in industry, for achieving meaningful (commercial value) [[quantum computation]] in the future. 
 
-\begin{theorem}
-For $\omega, \omega' \in \Omega^d_{dR}(X)$ a [[pair]] of [volume forms]] on $X$, there exists a [[diffeomorphism]] $\phi \colon X \longrightarrow X$ whose [[pullback of differential forms|pullback]] takes one to the other: $\omega' = \phi^\ast \omega$.
+More specifically, the dominant idea is to use [[surface codes]] for the encoding of logical qubits, on which [[Clifford gates]] are implemented natrively, and to use magic state resources in order to implement the remaining T-gates.
 
-Moreover, $\phi$ may be chosen to be in the [[connected component]] $Diff_0(X)$ of the [[identity map]] in the [[diffeomorphism group]].
-\end{theorem}
+In technical discussions of aspects of this paradigm the nature of the end game of this approach can easily be missed. It is important to notice that, even in optimistic scenarios where suitable error thresholds can be achieved, the NISQ+QEC paradigm for future robust quantum computing aims at a staggering scenario of quantum hardware engineering:
 
-## References
+Namely the error correcting mechanism that will have to be carried out on a meaningful quantum computer which, say, implements [[Shor's algorithm]] for cracking RSA encryption, is going to involve a humongous rate of data processing that will require in excess of the classical computational power of contemporary building-sized supercomputers, which will need to exchange hundres of terabits per second with the quantum device (reading error "syndrome" data form the quantum computer, processing this and then sending back error correction commands).
 
-The original article:
-
-* [[Jürgen Moser]]: *On the Volume Elements on a Manifold*, Trans. Amer. Math. Soc. 120 (1965) 286-294 &lbrack;[doi:10.1090/S0002-9947-1965-0182927-5](https://doi.org/10.1090/S0002-9947-1965-0182927-5), [pdf](https://www.ams.org/journals/tran/1965-120-02/S0002-9947-1965-0182927-5/S0002-9947-1965-0182927-5.pdf)&rbrack;
-
-See also
-
-* Wikipedia: *[Moser's trick](https://en.wikipedia.org/wiki/Moser%27s_trick)*
+But at this rate of data any ordinary data cables between the quantum and the classical machine would be too slow (latency problem), and would anyways risk the transfer of too much heat from the outside world into the quantum machine operating at near absolute zero temperature.  Therefore one will need to somehow *integrate* the classical 
 
 
 ### FQH Excitation modes
