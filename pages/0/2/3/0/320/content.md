@@ -20,7 +20,7 @@
 
 Recall that a [[category]] consists of a collection of [[morphisms]] each having a single [[object]] as source or input, and a single object as target or output, together with laws for composition and identity obeying associativity and identity axioms. A _multicategory_ is like a category, except that one allows multiple inputs and a single output.
 
-Another term for _multicategory_ is _coloured [[operad]]_.
+Another term for _multicategory_ is (nonsymmetric/planar)_coloured [[operad]]_.
 
 
 ## Definition
@@ -38,7 +38,7 @@ where the source is obtained by concatenating lists in the evident way.
 
 These operations are subject to [[associativity]] and [[identity]] axioms which the reader can probably figure out, but see for example ([Leinster, page 35 ff.](#Leinster)), for details.
 
-Many people (especially non-category theorists) use the word _multicategory_ or the word _colored [[operad]]_ to mean what we would call a _[[symmetric multicategory]]_ / _[[symmetric operad]]_. These are multicategories equipped with an [[action]] of the [[symmetric group]] $S_n$ on the multimorphisms $c_1, \ldots, c_n \to c$ such that the composition is equivariant with respect to these actions.
+Many people (especially non-category theorists) use the word _multicategory_ or _colored [[operad]]_ to mean what we would call a _[[symmetric multicategory]]_ / _[[symmetric operad]]_. These are multicategories equipped with an [[action]] of the [[symmetric group]] $S_n$ on the multimorphisms $c_1, \ldots, c_n \to c$ such that the composition is equivariant with respect to these actions.
 
 ### In terms of cartesian monads
 
@@ -143,7 +143,7 @@ and developed further in:
 
 * Joachim Lambek, _Multicategories revisited_, Contemp. Math 92 (1989): 217-239.
 
-Hermida constructed a monadic 2-adjunction between the 2-category of nonsymmetric colored operads in $(Set, \times)$ (which he calls [[multicategories]]) and the 2-category of strict monoidal categories in Theorem 7.2 of this paper:
+Hermida constructed a monadic 2-adjunction between the 2-category of [[multicategories]] and the 2-category of strict monoidal categories in Theorem 7.2 of this paper:
 
 * {#Hermida2000} [[Claudio Hermida]], _Representable multicategories_, Advances in Mathematics, Volume 151, Issue 2, 2000, 164-225.  ([pdf](https://www.sciencedirect.com/science/article/pii/S0001870899918777/))
 
