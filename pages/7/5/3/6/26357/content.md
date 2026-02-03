@@ -32,7 +32,16 @@ It is formed by defining logical-qubit encoding codewords and theorem proving th
 
 ## Related entries
 
-* [[bit-flip code]]
+* [[bit flip code]]
+  
+* [[stabilizer code]]
+
+* [[HaPPY code]]
+
+* [[Majorana dimer code]]
+
+* [[surface code]], [[toric code]]
+
 
 ## References
 
