@@ -9,6 +9,8 @@
 
 ## Related entries
 
+* [[data]]
+
 * [[topological data analysis]]
 
 * [[statistical inference]]
@@ -17,7 +19,7 @@
 
 See also:
 
-* Wikipedia, _[Data analysis](https://en.wikipedia.org/wiki/Data_analysis)_
+* Wikipedia: _[Data analysis](https://en.wikipedia.org/wiki/Data_analysis)_
 
 [[!redirects data science]]
 
