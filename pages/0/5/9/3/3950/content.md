@@ -213,6 +213,12 @@ An equippable 2-category with $\mathcal{E} =$ liberal cofaithfuls = liberals is 
 
 * [[Bob Rosebrugh]] and [[Richard Wood]], "Pullback preserving functors". Journal of Pure and Applied Algebra 73.1 (1991): 73-90.
 
+A survey is presented in section 2 of:
+
+* [[Claudio Hermida]], _From Coherent Structures to Universal Properties_, Journal of Pure and Applied Algebra 165.1 (2001): 7-61. ([arXiv:0006161](http://arxiv.org/abs/math/0006161))
+
+* Hermida, Claudio. "Descent on 2-fibrations and strongly 2-regular 2-categories." Applied Categorical Structures 12.5 (2004): 427-459.
+
 [[!redirects codiscrete cofibrations]]
 [[!redirects two-sided cofibration]]
 [[!redirects two-sided cofibrations]]
