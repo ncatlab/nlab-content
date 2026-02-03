@@ -1,5 +1,15 @@
 
-* [website](https://www.maths.ed.ac.uk/~cbarwick/)
+* [personal page](https://webhomes.maths.ed.ac.uk/~cbarwick/)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Clark_Barwick)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=93010)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=CUIBpH8AAAAJ&hl=en)
+
+* [SHIFTED project page](https://shifted-project.github.io/)
+
+
 
 
 
@@ -56,7 +66,7 @@ See also:
 
 On [[factorization algebras]]:
 
-* [[Clark Barwick]], _Factorization algebras in quite a lot of generality_ (2025) &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/facts.pdf)&rbrack;
+* [[Clark Barwick]], _Factorization algebras in quite a lot of generality_ &lbrack; [arXiv:2602.01292](https://arxiv.org/abs/2602.01292),  [pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/facts.pdf)&rbrack;
 
 
 ## Related entries 
