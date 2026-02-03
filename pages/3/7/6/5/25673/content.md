@@ -1,7 +1,11 @@
 
 * [personal page](https://sites.google.com/view/bmera/home)
 
+* [institute page](http://cefema-gt.ist.utl.pt/~bmera/)
+
 * [GoogleScholar page](https://scholar.google.pt/citations?user=eS0baHEAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/profile/Bruno-Mera)
 
 ## Selected writings
 
