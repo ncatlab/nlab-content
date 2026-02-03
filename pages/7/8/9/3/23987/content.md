@@ -3263,6 +3263,24 @@ Weekly colloquium, broadly on [[quantum systems]], with focus on [[quantum compu
 
 \linebreak
 
+### Feb 2026
+
+* {#AsfawFeb2026} 2 Feb 2026
+
+  [Abraham Asfaw](https://abrahamasfaw.com/) ([Riverlane Quantum](https://www.riverlane.com/), NY):
+
+  **Quantum error correction: experimental techniques and recent results**
+
+  cf.: [Nature 638 (2025) 920-926](quantum+error+correction#GQ2025)
+
+  > [[quantum computer|Quantum computers]] can [[quantum simulation|simulate]] the [[dynamics]] of [[quantum systems]] more efficiently than their [[classical computation|classical counterparts]]. Some [[quantum algorithms]] are also known to outperform existing classical [[algorithms]]. This has led to the development of various quantum computing hardware systems which implement [[qubits]] [[spin resonance qubit|using]] [[electron]] and [[nucleus|nuclear]] [[spins]] of donors in silicon, the [[quantum state|states]] of [[atoms]] and ions, and various [[degrees of freedom]] in [superconducting](superconductivity#SuperconductingQBitsReferences) [[quantum circuit|circuits]]. 
+
+  > To date, the error rates of the best single-qubit and multi-qubit operations in these systems are of order 1 in 10000 to 1 in 1000. However, resource estimates for the most promising quantum algorithms indicate that we will need error rates of order 1 in 1 billion or less for useful quantum computation. Quantum error correction is the key to filling the seemingly large gap between these resource estimates and the state of the art in quantum hardware. In this talk, I will discuss quantum computation using [[quantum error correction|error-corrected qubits]], providing a survey of recently published experimental results and highlighting opportunities for further exploration, including in research, software and hardware development, and pedagogy.
+
+  
+
+\linebreak
+
 
 
 ***
