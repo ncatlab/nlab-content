@@ -540,7 +540,7 @@ Realization of [[quantum error correction]] in [[experiment]], hence in actual [
 
 * [[Markus Müller]] et al., *Demonstration of fault-tolerant universal quantum gate operations*, Nature **605** (2022) 675-680 &lbrack;[doi:10.1038/s41586-022-04721-1](https://doi.org/10.1038/s41586-022-04721-1), [arXiv:2111.12654](https://arxiv.org/abs/2111.12654)&rbrack;
 
-
+* {#GQ2025} Google Quantum AI et al.: *Quantum error correction below the surface code threshold*, Nature **638** (2025) 920-926 &lbrack;[doi:10.1038/s41586-024-08449-y](https://doi.org/10.1038/s41586-024-08449-y), [arXiv:2408.13687](https://arxiv.org/abs/2408.13687)&rbrack;
 
 ### Via holographic tensor networks
  {#ReferencesViaHolographicTensorNetworks}
