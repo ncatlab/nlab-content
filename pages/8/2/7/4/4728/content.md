@@ -308,6 +308,8 @@ Cf. [Atiyah 1971](#Atiyah71), [Lawson & Michelson 1989 Ex. 2.6](spin+structure#L
 
 * analog for dimension 1: [[curve]], [[algebraic curve]]
 
+* [[surface code]]
+
 * [[2D Yang-Mills theory]]
 
 * [[2D TQFT]]
