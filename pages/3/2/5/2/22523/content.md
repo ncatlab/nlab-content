@@ -56,8 +56,12 @@ and thus as a [[linear map]] form the [[tensor product]] over the [[bulk]]-[[ver
 * [[stabilizer code]]
 
 * [[bit flip code]]
+  
+* [[stabilizer code]]
 
 * [[Majorana dimer code]]
+
+* [[surface code]], [[toric code]]
 
 ## References
 
