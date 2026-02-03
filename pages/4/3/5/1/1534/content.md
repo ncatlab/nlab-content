@@ -298,9 +298,9 @@ Relation with [[vertex algebras]]
 
 > We construct functors between the category of vertex algebras and that of Costello-Gwilliam factorization algebras on the complex plane ℂ, without analytic structures such as differentiable vector spaces, nuclear spaces, and bornological vector spaces. We prove that this pair of functors is an adjoint pair and that the functor from vertex algebras to factorization algebras is fully faithful. Also, we identify the class of factorization algebras that are categorically equivalent to vertex algebras. To illustrate, we check the compatibility with the commutative structures and the factorization algebras constructed as factorization envelopes, including the Kac-Moody factorization algebra, the quantum observables of the βγ system, and the Virasoro factorization algebra. 
 
-A very general treatment of factorization algebras is given in 
+A generalized treatment:
 
-* [[Clark Barwick]], _Factorization algebras in quite a lot of generality_ (2025) &lbrack;[pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/facts.pdf)&rbrack;
+* [[Clark Barwick]], _Factorization algebras in quite a lot of generality_ &lbrack; [arXiv:2602.01292](https://arxiv.org/abs/2602.01292),  [pdf](https://webhomes.maths.ed.ac.uk/~cbarwick/papers/facts.pdf)&rbrack;
 
 
 
