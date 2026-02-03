@@ -1,7 +1,11 @@
 
 Chris Heunen is EPSRC research fellow in [[computer science]] at Oxford.
 
-* [website](http://www.comlab.ox.ac.uk/people/chris.heunen/about.html)
+* [personal page](http://www.comlab.ox.ac.uk/people/chris.heunen/about.html)
+
+* [inSpire page](https://inspirehep.net/authors/1959630)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=K_LnaH0AAAAJ&hl=en)
 
 ## Selected writings
 
