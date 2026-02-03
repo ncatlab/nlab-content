@@ -20,13 +20,27 @@
 
 ## Idea
 
-What is called the *toric code* &lbrack;[Kitaev 2003](#Kitaev03)&rbrack; is a [[quantum error correction|quantum error]] [[error correcting code|correcting code]] whose [[underlying]] [[Hilbert space]] is that of a collection of [[qubits]] ("spins" as in the [[Ising model]]) arranged on the [[vertices]] of a rectangular 2-dimensional [[lattice (discrete subgroup)|lattice]] with periodic [[boundary conditions]], hence a lattice on a [[torus]]. (If the periodic boundary conditions are disregarded one speaks of a *planar code* or *surface code* and here specifically of the *Kitaev surface code*).
+What is called the *toric code* &lbrack;[Kitaev 2003](#Kitaev03)&rbrack; is a [[quantum error correction|quantum error]] [[error correcting code|correcting code]] whose [[underlying]] [[Hilbert space]] is that of a collection of [[qubits]] ("spins" as in the [[Ising model]]) arranged on the [[vertices]] of a rectangular 2-dimensional [[lattice (discrete subgroup)|lattice]] with periodic [[boundary conditions]], hence a lattice on a [[torus]] -- a [[surface code]]. (If the periodic boundary conditions are disregarded one speaks of a *planar code* or *surface code* and here specifically of the *Kitaev surface code*).
 
 The code subspace of Kitaev's toric code (the subspace whose elements are regarded as error-free quantum states) is the [[kernel]] of an operator that may be thought of as the [[Hamiltonian]] of a hypothetical [[quantum system]] (a lattice-spin model as often considered in [[solid state physics]] akin to the [[Ising model]]) featuring next-to-nearest neighbour interactions of the qubits/spins via [[Pauli operators]]. Therefore one may think of the physical qbits of the toric code as forming the [[ground state]] of this system and of errors to them as the excitations above the ground state.
 
 (The actual physical realization of the toric code Hamiltonian has remained elusive even besides the question of modelling periodic boundary conditions, cf. e.g. [Nussinov & Ortiz 2008](#NussinovOrtiz08), [VLV21](#VLV21).)
 
 This hypothetical [[quantum system]] exhibits a simple form of [[topological order]] in that the local errors happen to look like the creation of [[anyons]] out of the [[vacuum]], the [[quantum error correction|error correction]] looks like moving these anyons back intoeach other for them to annihilate, and the failure of error correction through the code corresponds to these anyons undergoing non-trivial [[braiding]] before re-annihilation. For this reason, the toric code has attracted much interest also as a theoretical toy model for [[anyon|anyonic]] [[topological order]] in addition to or independently of its use in [[quantum error correction]].
+
+## Related concepts
+
+* [[surface code]]
+
+* [[bit flip code]]
+  
+* [[stabilizer code]]
+
+* [[HaPPY code]]
+
+* [[Majorana dimer code]]
+
+
 
 ## References
 
