@@ -41,6 +41,15 @@ and makes the nature of [[holographic entanglement entropy]] particularly manife
 
 * [[chord diagram]]
 
+* [[bit flip code]]
+  
+* [[stabilizer code]]
+
+* [[HaPPY code]]
+
+* [[surface code]], [[toric code]]
+
+
 ## References
 
 ### General
