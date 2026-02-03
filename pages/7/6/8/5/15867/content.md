@@ -114,6 +114,11 @@ On [[2d CFT]] with extended W algebra symmetry:
 
 * Federico Ambrosino, Tomáš Procházka: *RG flows of minimal $\mathcal{W}$-algebra CFTs via non-invertible symmetries* &lbrack;[arXiv:2601.18667](https://arxiv.org/abs/2601.18667)&rbrack;
 
+On [[conformal blocks]] in $\mathcal{W}_3$-Algebra CFT:
+
+* V. Belavin, Mikhail Pavlov: *Towards $\mathcal{W}_3$ classical blocks with semi-degenerate operators* &lbrack;[arXiv:2512.23868](https://arxiv.org/abs/2512.23868)&rbrack;
+
+
 
 
 ### In Fractional Quantum Hall systems
