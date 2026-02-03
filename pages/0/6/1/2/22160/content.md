@@ -1,7 +1,10 @@
 
+* [institute page](https://www.microsoft.com/en-us/research/people/mahastin/)
+
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Matthew_Hastings)
 
-* [Institute page](https://www.microsoft.com/en-us/research/people/mahastin/)
+* [GoogleScholar page](https://scholar.google.com/citations?user=hBEje20AAAAJ&hl=en)
+
 
 ## Selected writings
 
