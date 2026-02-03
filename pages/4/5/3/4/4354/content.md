@@ -1,5 +1,11 @@
 
-* [website](http://www.comlab.ox.ac.uk/people/Jamie.Vicary/)
+* [institute page](http://www.comlab.ox.ac.uk/people/Jamie.Vicary/)
+
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=205177)
+
+* [inSpire page](https://inspirehep.net/authors/1287225)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=9LG1IeMAAAAJ&hl=en)
 
 ## Selected writings
 
