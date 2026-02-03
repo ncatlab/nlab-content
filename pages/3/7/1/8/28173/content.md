@@ -55,6 +55,20 @@ Now suppose that $s \in [a, b]$ and $[a, s) \subseteq S$; we will show that $[a,
 Now we use the [[open induction principle]], a form of completeness of the [[real line]] that is both classically and intuitionistically valid, which states that if $S$ is an open subset of $[a, b]$, and $[a, s] \subseteq S$ whenever $[a, s) \subseteq S$, then $S = [a, b]$.
 =--
 
+Sometimes it\'s desired that every subinterval have positive length, so that $x_i \lt x_{i+1}$ for $0 \leq i \lt n$.  This is trivial classically; simply throw out any duplicates among the list of $x$s.  Intuitionistically, we can\'t expect this to be possible in all situations; if $a \lt b$ then we obviously need $n \gt 0$, while if $a = b$ then we need $n = 0$ to have all subintervals of positive length, but we can\'t expect to be able to decide this.  However, this is the only hang-up:
+
++-- {: .num_theorem #positive}
+###### Corollary
+
+If $a \lt b$, then there exists a partition in which each subinterval has positive length.
+=--
+
++-- {: .proof}
+###### Proof
+
+Form a partition as above; because $a \lt b$, we have $n \gt 0$.  By performing a finite number of comparisons, we can verify $x_i \lt x_{i+1}$ for all $i \lt n$, or find some $i \lt n$ such that $x_i \in U_{i+1}$ (unless $i = n - 1$, since there is no $U_n$) and $x_{i+1} \in U_{i-1}$ (unless $i = 0$, since there is no $U_{-1}$).  Since $n \gt 0$, we have $x_i \in U_{i+1}$ *or* $x_{i+1} \in U_{i-1}$ no matter what value $i$ takes, and this allows us to remove $x_{i+1}$ or $x_i$ (respectively) from the list of $x$s.  Repeating this (for a maximum of $n - 1$ times), we eventually get a partition with only positive-length subintervals.
+=--
+
 
 ## Cousin\'s Lemma
 
