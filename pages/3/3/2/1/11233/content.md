@@ -74,7 +74,7 @@ If $f$ is differentiable on $[a,b]$, then $f'$ is Henstock integrable on $[a,b]$
 
 +-- {: .un_theorem}
 ###### Theorem
-If $f$ is Henstock integrable on $[a,b]$, then $F(x) = \int_a f(x) d x$ is differentiable [[almost everywhere]] on $[a,b]$ and $F' = f|_{\dom F'}$.
+If $f$ is Henstock integrable on $[a,b]$, then $F(x) = \int_a f(x) d x$ is differentiable [[almost everywhere]] on $[a,b]$ and in fact $F' = f$ almost everywhere (although possibly not everywhere $F$ is differentiable).
 =--
 
 
