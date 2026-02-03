@@ -126,6 +126,10 @@ In the category of [[schemes]] the subcategory of [[affine schemes]] is dense, s
 In the category of [[smooth manifolds]], the full subcategory whose objects are given by $\mathbb{R}^n$ for $n\geq 1$ with the standard smooth structure, is dense.
 \end{example}
 
+\begin{example}
+In the category of modules over a ring $R$, the full subcategory spanned by $\{R,R^2\}$ is dense.
+\end{example}
+
 ## Related entries
 
 * [[dense]]
