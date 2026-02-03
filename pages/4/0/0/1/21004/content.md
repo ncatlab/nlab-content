@@ -35,6 +35,7 @@ Many examples of fuzzy logics are t-norm fuzzy logics, including [[basic fuzzy l
 ## Related entries
 
 - [[Gödel logic]]
+- [[fuzzy set]]
 
 ## References
 
