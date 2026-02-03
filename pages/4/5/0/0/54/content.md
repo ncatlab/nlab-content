@@ -4,7 +4,7 @@
 
 $\,$
 
-<div style="float:right;margin:0px 0px 10px 20px;"><img width = "230" src="http:ncatlab.org/nlab/files/Urs_Schreiber_portrait_Jan2024.jpg" alt="Urs Schreiber" />
+<div style="float:right;margin:-30px 30px 10px 20px;"><img width = "340" src="/schreiber/files/UrsSchreiber_Portrait_Jan2026-1.jpg" alt="Urs Schreiber" />
 </div>
 
 
