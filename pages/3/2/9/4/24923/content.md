@@ -253,6 +253,16 @@ In terms of [[quantum circuit diagrams]] and the [[schreiber:QS]]-[[pseudo-code]
 
 * [[Æ code]]
 
+* [[bit flip code]]
+
+* [[stabilizer code]]
+
+* [[HaPPY code]]
+
+* [[Majorana dimer code]]
+
+* [[surface code]] [[toric code]]
+
 
 
 ## References
