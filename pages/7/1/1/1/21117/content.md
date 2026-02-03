@@ -22,9 +22,10 @@
 
 ## Idea
 
-### General
+*Quantum error correction* is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]] (e.g. against [[bit flip channel|bit flip errors]]), by "correcting errors as they occur" at runtime.
 
-*Quantum error correction* is concerned with ensuring the robustness of [[quantum computation]] against [[noise]] (as in classical [[error correction]]) and particularly against [[quantum noise]] and [[quantum decoherence]] (e.g. against [[bit flip channel|bit flip errors]]).
+
+### In theory
 
 From [Ferris & Poulin 2013](#FerrisPoulin13):
 
@@ -64,14 +65,18 @@ From [CDCW 21](#CDCW21):
 > Holographic codes can admit erasure thresholds comparable to that of the widely-studied surface code, and likewise for their threshold against Pauli errors.  Their holographic structure also naturally leads to an organization of encoded qubits into a hierarchy of levels of protection from errors, which could be useful for applications which call for many qubits withvarying levels of protection. In particular, this is reminiscent of many schemes for magic state distillation -- and indeed, the concatenated codes utilized for magic state distillation share a similar hierarchical structure to holographic codes. The layered structure of holographic codes is also reminiscent of memory architectures in classical computers, where it is useful to have different levels of short- and long-term memory.  Although these codes have some notable drawbacks, in particular holographic stabilizer codes require nonlocal stabilizer generators, other codes such as concatenated codes suffer similar drawbacks and have still proven to be useful. Conversely, the stringent requirement of non-local stabilizer generators allows holographic codes to protect many more qubits than a topological code and in fact attain a finite nonzero encoding rate, which is typically not possible for topological codes. Nonetheless, many open questions remain about the usefulness of holographic codes for fault-tolerant quantum computing.
 
 
-### Quantum error correcting codes
+#### Quantum error correcting codes
 
 The simple but important special case of passive correction of erasures may be  handled by *quantum error correcting codes*:
 
 Recall that a classical [[error correcting code]] on a [[finite set]] of states $L$ is, typically, a choice of [[injection]] of $L$ into some larger set, typically a [[Cartesian power]] 
 
 $$
-  L \overset{code}{\hookrightarrow} P \coloneqq H \times \cdots \times H
+  L 
+    \overset{code}{\hookrightarrow} 
+  P 
+    \coloneqq 
+  H \times \cdots \times H
 $$
 
 (often considered in the form of [[linear codes]], but classical nonetheless). In [[quantum physics]] the [[Cartesian product]] of sets of states is replaced by the [[tensor product of vector spaces|tensor product]] of [[Hilbert spaces]].
@@ -116,6 +121,10 @@ such that the information in $code(\psi)$ in some of the tensor factors $\mathca
 (Often one demands additional properties, such as that a given set of [[linear operators]] $O$ ([[quantum observables]]) acting on $\psi \in \mathcal{H}$ are implemented on $code(\psi)$ by combinations of operators that act non-trivially only on some of the tensor factors.)
 
 While this is superficially analogous to a classical [[error correcting code]], the crucial and subtle difference is that quantum error correction codes thus take place in a non-[[cartesian monoidal category|Cartesian]] [[symmetric monoidal category|symmetric]] [[monoidal category]]. For this reason, effects of [[quantum entanglement]] play a paramount role in quantum error correction codes.
+
+### In practice
+
+(...)
 
 
 ## Example
