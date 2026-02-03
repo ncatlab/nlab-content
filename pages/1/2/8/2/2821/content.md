@@ -127,7 +127,7 @@ Discussion of the [[2-adjunction]] with the left adjoint [[prop]]-construction i
 
 and in section 9 of 
 
-* [[Claudio Hermida]], _From Coherent Structures to Universal Properties_ ([arXiv:0006161](http://arxiv.org/abs/math/0006161))
+* [[Claudio Hermida]], _From Coherent Structures to Universal Properties_, Journal of Pure and Applied Algebra 165.1 (2001): 7-61. ([arXiv:0006161](http://arxiv.org/abs/math/0006161))
 
 Discussion in the context of [[generalized multicategories]] is in section 9 of
 
