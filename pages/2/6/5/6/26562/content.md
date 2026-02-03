@@ -222,6 +222,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 
 * [[CD-categories]] enriched in commutative monoids: [Cornish-Wang'26](#MH).
 
+* Generalization of Gaussian probability theory to [[additive category|additive]] [[dagger categories]]: [Comfort-Lemay'25](#moore_penrose).
+
 * Study of joint and marginal distributions for [[probability monads]]: [Fritz-Perrone'18](#bimonoidal_monads).
 
 * Markov categories for [[partial maps]]: [Di Lavore-Román'23](#partial_markov), [DLRS'25](#partial_markov_ext), and [SM'25](#areeb_partial).
@@ -301,6 +303,8 @@ Here is a partial list, roughly in alphabetical order, roughly divided by subjec
 * {#structuralism} [[Bob Coecke]], Eric Oliver Paquette, Dusko Pavlovic, _Classical and quantum structuralism_, ([arXiv:0904.1997](https://arxiv.org/abs/0904.1997))
 
 * {#coecke_spekkens12} [[Bob Coecke]] and Robert W. Spekkens, _Picturing classical and quantum Bayesian inference_, Synthese, 186(3), 2012. ([arXiv](https://arxiv.org/abs/1102.2368))
+
+* {#moore_penrose} [[Cole Comfort]] and [[JS Lemay]], _From Moore-Penrose to Markov via Gauss_, 2025. ([arXiv](https://arxiv.org/abs/2512.18364))
 
 * {#entropy_topos} Carmen Constantin and Andreas Döring, _A topos-theoretic notion of entropy_, 2020. ([arXiv](https://arxiv.org/abs/2006.03139))
 
