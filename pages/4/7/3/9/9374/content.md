@@ -103,6 +103,9 @@ See also:
 
 * Philippe Ruelle, _Logarithmic conformal invariance in the Abelian sandpile model_, [arxiv/1303.4310](http://arxiv.org/abs/1303.4310)
 
+* Iao-Fai Io, Fu-Hsiang Huang, Chang-Tse Hsieh: *Non-Hermitian free-fermion critical systems and logarithmic conformal field theory* &lbrack;[arXiv:2602.02649](https://arxiv.org/abs/2602.02649)&rbrack;
+
+
 
 
 
