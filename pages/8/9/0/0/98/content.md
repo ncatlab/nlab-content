@@ -87,7 +87,7 @@ This has a more or less evident generalization to infinite-dimensional Lie algeb
 
 One observes that for $\mathfrak{g}$ a vector space,  the graded-commutative dg-algebra structures on $\wedge^\bullet \mathfrak{g}^*$ are precisely in bijection with Lie algebra structures on $\mathfrak{g}$: the dual of the restriction of $d$ to $\mathfrak{g}^*$ defines a skew-linear bracket and the condition $d^2 = 0$ holds if and only if that bracket satisfies the Jacobi identity.
 
-Moreover, morphisms if Lie algebras $\mathfrak{g} \to \mathfrak{h}$ are precisely in bijection with morphisms of dg-algebras $CE(\mathfrak{g}) \leftarrow CE(\mathfrak{h})$. And the $CE$-construction is functorial.
+Moreover, morphisms of Lie algebras $\mathfrak{g} \to \mathfrak{h}$ are precisely in bijection with morphisms of dg-algebras $CE(\mathfrak{g}) \leftarrow CE(\mathfrak{h})$. And the $CE$-construction is functorial.
 
 Therefore, if we write $dgAlg_{sf,1}$ for the category whose objects are [[semifree dga]]s on generators in degree 1, we find that the construction of CE-algebras from Lie algebras constitutes a canonical [[equivalence of categories]]
 
@@ -332,3 +332,4 @@ See also almost any text on [[Lie algebra cohomology]] (see the list of referenc
 
 [[!redirects Chevalley-Eilenberg differential]]
 [[!redirects Chevalley-Eilenberg differentials]]
+V. B. Marques and A. Mertens, 2024, Templicial nerve of an A-infinity category, URL https://arxiv.org/abs/2411.19751.mo
