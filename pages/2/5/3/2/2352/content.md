@@ -25,15 +25,19 @@ of a functor $F\colon C \to D$, or more generally that of a [[profunctor]] $H : 
 
 However, there are a number of different ways to construct such a category of elements, depending on the variance of morphisms in $C$ and $D$ that we include in it.  A one-variable functor $C\to Set$ has two categories of elements, one with a projection to $C$ (which is a [[discrete opfibration]]) and one with a projection to $C^{op}$ (which is a [[discrete fibration]]).  Similarly, a two-variable functor such as $H : C^{op}\times D\to Set$ has *four* categories of elements; thus a profunctor has four different "graphs".  In addition, there are two ways to make a functor into a profunctor, so a functor actually has *eight* graphs.
 
+These can be unified by instead choosing a canonical notion of "graph of a profunctor", and recognising that, using the fact that [[Prof]] is a [[compact closed 2-category]], we can "shift around" the defining factors in a profunctor to produce different graphs.
+
 ## Definition
 
 ### Graphs of a profunctor
 
-Let $H:C^{op} \times D \to Set$ be a [[profunctor]]; it has the following four **graphs**.  In each case, the objects are triples $(c\in C, d\in D, x\in H(c,d))$, but we can take the morphisms $(c,d,x) \to (c',d',x')$ to be any of the following:
+Let $H \colon C^{op} \times D \to Set$ be a [[profunctor]]. Using the convention in that article, we say that $H$ is a profunctor $H \colon D &#8696; C$.
 
-* Pairs $(f:c\to c', g:d\to d')$ such that $H(1,g)(x) = H(f,1)(x')$.  This graph comes with a projection to $C\times D$, which is a [[two-sided discrete fibration]] that is contravariant over $C$ and covariant over $D$.
+We obtain the following four **graphs** by shifting around factors:
 
-* Pairs $(f:c'\to c, g:d\to d')$ such that $H(f,g)(x) = x'$.  This graph comes with a projection to $C^{op}\times D$, which is a [[discrete opfibration]].  It is also the [[comma category]] $(*\downarrow H)$:
+* The [[category of elements]] of the profunctor $D &#8696; C$, which comes equipped with a projection to $D \times C$ that is a [[two-sided discrete fibration]] contravariant over $C$ and covariant over $D$. This is the *canonical* graph associated to the profunctor $H$.
+
+* The category of elements of the induced profunctor $C^{op} \times D &#8696; 1$, using the [[compact closed 2-category]] structure on [[Prof]]. This comes equipped with a projection to $C^{op} \times D$ that is a [[discrete opfibration]]. It is also the [[comma category]] $(* \downarrow H)$:
 
   $$
   \array{
@@ -45,58 +49,19 @@ Let $H:C^{op} \times D \to Set$ be a [[profunctor]]; it has the following four *
   }
   $$
 
-* Pairs $(f:c\to c', g:d'\to d)$ such that $H(f,g)(x') = x$.  This graph comes with a projection to $C\times D^{op}$, which is a [[discrete fibration]]; it is the opposite of the previous category.
+* The category of elements of the induced profunctor $1 &#8696; D^{op} \times C$. This graph comes with a projection to $C \times D^{op}$ that is a [[discrete fibration]]; it is the opposite of the previous category.
 
-* Pairs $(f:c'\to c, g:d'\to d)$ such that $H(1,g)(x') = H(f,1)(x)$.  This graph comes with a projection to $C^{op}\times D^{op}$, which is a [[two-sided discrete fibration]] that is covariant over $C^{op}$ and contravariant over $D^{op}$; it is the opposite of the first graph.
+* The category of elements of the induced profunctor $C^{op} &#8696; D^{op}$. This graphs comes with a projection to $C^{op} \times D^{op}$ that is a [[two-sided discrete fibration]], covariant over $C^{op}$ and contravariant over $D^{op}$; it is the opposite of the first graph.
 
 If the profunctor is the [[hom profunctor]] of a category $C$, then the first graph is the [[arrow category]] of $C$ and the second graph is the [[twisted arrow category]] of $C$.
 
 ### Graphs of a functor
 
-Let $F:C\to D$ be a functor, and let $F^\bullet : C^{op}\times D \to Set$ and $F_\bullet$ be the corresponding representable [[profunctors]]:
+Let $F:C\to D$ be a functor, and let $F^\bullet \colon C^{op} \times D \to Set$ and $F_\bullet \colon D^{op} \times C \to Set$ be the corresponding representable [[profunctors]]:
 
 $$F^\bullet(c,d) = D(F c, d) \qquad F_\bullet(d,c) = D(d,Fc).$$
 
-Then the graphs of $F^\bullet$ yield four graphs of $F$, all of whose objects are triples $(c\in C, d\in D, \phi:F c \to d)$, and whose morphisms $(c,d,\phi) \to (c',d',\phi')$ are:
-
-* Pairs $(f:c\to c', g:d\to d')$ such that $\phi' \circ F f = g \circ \phi$.  This graph comes with a projection to $C\times D$, which is a [[two-sided discrete fibration]] that is contravariant over $C$ and covariant over $D$.  It is also the [[comma category]] $(F\downarrow Id_D)$:
-
-  $$
-  \array{
-    Graph(F) &\to& C
-    \\
-    \downarrow & \swArrow & \downarrow^F
-    \\
-    D &\stackrel{Id_D}{\to}& D
-  }
-  $$
-
-* Pairs $(f:c'\to c, g:d\to d')$ such that $\phi' = g \circ \phi \circ F f$.  This graph comes with a projection to $C^{op}\times D$, which is a [[discrete opfibration]]; it is the comma category $(* \downarrow F^\bullet)$.
-
-* Pairs $(f:c\to c', g:d'\to d)$ such that $\phi = g \circ \phi' \circ F f$.  This graph comes with a projection to $C\times D^{op}$, which is a [[discrete fibration]]; it is the opposite of the preceeding graph.
-
-* Pairs $(f:c'\to c, g:d'\to d)$ such that $\phi \circ F f = g \circ \phi'$.  This graph comes with a projection to $C^{op}\times D^{op}$, which is a [[two-sided discrete fibration]] that is covariant over $C^{op}$ and contravariant over $D^{op}$; it is the opposite of the first graph of $F^\bullet$.
-
-Similarly, the graphs of $F_\bullet$ yield four graphs of $F$, all of whose objects are triples $(c\in C, d\in D, \psi : d \to F c)$, and whose morphisms $(c,d,\psi) \to (c',d',\psi')$ are:
-
-* Pairs $(f:c\to c', g:d\to d')$ such that $F f \circ \psi = \psi\circ g$.  This graph comes with a projection to $C\times D$, which is a [[two-sided discrete fibration]] that is covariant over $C^{op}$ and contravariant over $D^{op}$.  It is also the [[comma category]] $(Id_D \downarrow F)$:
-
-  $$
-  \array{
-    Graph(F) &\to& D
-    \\
-    \downarrow & \swArrow & \downarrow^{Id_D}
-    \\
-    C &\stackrel{F}{\to}& D
-  }
-  $$
-
-
-* Pairs $(f:c'\to c, g:d\to d')$ such that $\psi' = F f \circ \psi \circ g$.  This graph comes with a projection to $C^{op}\times D$, which is a [[discrete opfibration]]; it is the comma category $(* \downarrow F^\bullet)$.
-
-* Pairs $(f:c\to c', g:d'\to d)$ such that $\psi = F f \circ \psi' \circ g$.  This graph comes with a projection to $C\times D^{op}$, which is a [[discrete fibration]]; it is the opposite of the preceeding graph.
-
-* Pairs $(f:c'\to c, g:d'\to d)$ such that $\psi \circ g = F f \circ \psi'$.  This graph comes with a projection to $C^{op}\times D^{op}$, which is a [[two-sided discrete fibration]] that is contravariant over $C$ and covariant over $D$; it is the opposite of the first graph of $F_\bullet$.
+We may regard $F^\bullet$ as a profunctor $D &#8696; C$, and $F_\bullet$ as a profunctor $C &#8696; D$. Each of these yield four distinct graphs (with one "canonical" graph), so $F$ has 8 resulting distinct graphs (with two "canonical" graphs).
 
 ## For higher categories
 
