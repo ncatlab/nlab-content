@@ -78,6 +78,11 @@ $$
 \end{defn}
 
 \begin{remark}
+  This is the [[category of elements]] of the [[profunctor]] $E(f(-), g(+)) \colon C^{op} \times D \to \mathbf{Set}$.
+\end{remark}
+
+\begin{remark}
+
 In addition, there are two canonical [[forgetful functors]] defined on the comma category:
 
 * there is a functor $H_C\colon (f/g)\rightarrow C$ which sends each object $(c,d,\alpha)$ to $c$, and each pair $(\beta,\gamma)$ to $\beta$.
