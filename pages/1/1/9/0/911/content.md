@@ -153,6 +153,10 @@ The category of elements of $F$ has an [[initial object]] if and only if $F$ is 
 
 ## Examples
 
+### Pointed Sets
+
+Perhaps the simplest example of a category of elements comes from the identity functor $\mathbf{Set} \to \mathbf{Set}$. The objects of this category are $(A, a)$ where $A$ is a set and $a \in A$. And morphisms $(A, a) \to (B, b)$ are functions $f \colon A \to B$ with $f(a) = b$. This is precisely the category of [[pointed set|pointed sets]]! We recognise this as the "universal set bundle" $U \colon \mathbf{Set}_* \to \mathbf{Set}$.
+
 ### Representable Presheaves
 
 Let $Y(c):\mathcal{C}^{op}\to \mathbf{Set}$ be a [[representable functor|representable presheaf]] with $Y(c)(d)=Hom_{\mathcal{C}}(d,c)$. Consider the contravariant category of elements $\int_\mathcal{C} Y(c)$ . This has objects $(d_1,p_1)$ with $p_1\in Y(c)(d_1)$, hence $p_1$ is just an arrow $d_1\to c$ in $\mathcal{C}$. A map from $(d_1, p_1)$ to $(d_2, p_2)$ is just a map $u:d_1\to d_2$ such that $p_2\circ u =p_1$ but this is just a morphism from $p_1$ to $p_2$ in the [[overcategory|slice category]] $\mathcal{C}/c$. Accordingly we see that $\int_\mathcal{C} Y(c)\simeq \mathcal{C}/c$ .
@@ -182,17 +186,19 @@ commutes, namely $g . x=\varrho(g)(x)=y$. We can also present the right adjoint 
 
 Now for any category $D$, $K( D)(*)$ is exactly the set of functors $[G/\!/G, D]$, which inherits from $G/\!/G$ an obvious action: given $F\in [G/\!/G,  D]$ we define $F^h=J(h)^*F=F \circ J(h) \colon g \mapsto F(g h)$.
 =--
-### Category of simplices
+### Category of Simplices
 
-For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]], the corresponding category of elements is called its _[[category of simplices]]_. See there for more. As we have suggested at the beginning of this article, the category of elements of a covariant functor is defined differently than the category of elements of a presheaf, so the [[category of simplices]] is not an instance of the definition given above.
+For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]], the corresponding category of elements is called its _[[category of simplices]]_. See there for more.
 
-### Categories of cones
+### Category of Cones
 
-Let $J \colon I \to C$ be a [[diagram]]. Then we can define a presheaf $Cone_J \colon C^{op} \to \mathbf{Set}$ mapping $c \in C$ to the set of [[cone|cones]] over $J$ with tip $c$, with the functorial action given by precomposition of cone morphisms. The category of elements of this presheaf is precisely the category of cones over $J$! Thus, we observe that this presheaf is representable if and only if the category of cones has a terminal object - or, in more familiar terms, $J$ has a limit if and only if there exists a _universal_ cone.
+Let $J \colon I \to C$ be a [[diagram]]. Then we can define a presheaf $Cone_J \colon C^{op} \to \mathbf{Set}$ mapping $c \in C$ to the set of [[cone|cones]] over $J$ with tip $c$, with the functorial action given by precomposition of cone morphisms. The category of elements of this presheaf is precisely the category of cones over $J$!
+
+Thus, we observe that this presheaf is representable if and only if the category of cones has a terminal object - or, in more familiar terms, $J$ has a limit if and only if there exists a _universal_ cone.
 
 ### Comma Categories
 
-Let $F \colon C \to E$ and $G \colon D \to E$ be functors. We can form a profunctor $P \colon C^{op} \times D \to \mathbf{Set}$ by defining $P(c, d) := E(F(c), G(d))$, the set of morphisms in $E$ between $F(c)$ and $G(d)$. We can use the functorial actions of $F$ and $G$ to "compose" these heteromorphisms with ordinary morphisms $f \colon c' \to c, g \colon d \to d'$, sending $\alpha \colon F(c) \to G(d)$ to $G(g) \circ \alpha \circ F(f) \colon F(c') \to G(d')$, which defines the action of $P$ on morphisms.
+Let $F \colon C \to E$ and $G \colon D \to E$ be functors. We can form a profunctor $P \colon C^{op} \times D \to \mathbf{Set}$ by defining $P(c, d) \coloneqq E(F(c), G(d))$, the set of morphisms in $E$ between $F(c)$ and $G(d)$. We can use the functorial actions of $F$ and $G$ to "compose" these heteromorphisms with ordinary morphisms $f \colon c' \to c, g \colon d \to d'$, sending $\alpha \colon F(c) \to G(d)$ to $G(g) \circ \alpha \circ F(f) \colon F(c') \to G(d')$, which defines the action of $P$ on morphisms.
 
 Then, the category of elements of this profunctor is precisely the [[comma category]] $F \downarrow G$! Which has a projection functor $\pi_P \colon el(P) \to C \times D$ that forms a [[two-sided fibration]].
 
