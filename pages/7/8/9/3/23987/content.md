@@ -4548,7 +4548,7 @@ Nov 2025
 
 * {#AntzFeb2025} 25 Feb 20206
 
-  [[Samuel Adrian Antz]]:
+  [[Samuel Adrian Antz]] (Dalian University of Technology):
 
   **Mathematical Approach to Magnetic Monopoles with Yang–Mills theory**
 
