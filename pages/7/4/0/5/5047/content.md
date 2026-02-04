@@ -51,6 +51,11 @@ On [[mathematical physics]]:
 
 * [[Richard Szabo]], [[Martin Bojowald]] (eds.): *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[ISBN:9780323957038](https://shop.elsevier.com/books/encyclopedia-of-mathematical-physics/szabo/978-0-323-95703-8)&rbrack;
 
+On [[connections on smooth principal infinity-bundles]] via splittings of [[L-infinity algebroid|higher]] [[Atiyah Lie algebroids]]:
+
+* [[Severin Bunk]], [[Lukas Müller]], [[Joost Nuiten]], [[Richard J. Szabo]]: *Symmetries and Higher-Form Connections in Derived Differential Geometry* &lbrack;[arXiv:2602.03441](https://arxiv.org/abs/2602.03441)&rbrack;
+
+
 
 
 [[!redirects Richard J. Szabo]]
