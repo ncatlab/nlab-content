@@ -7,6 +7,16 @@
 
 ***
 
+### Complex dilatation
+
+* L. V. Ahlfors: *Lectures on quasiconformal mappings*, Van Nostrand, Princeton (1966), University Lecture Series **38** AMS (2006)
+
+* Davoud Cheraghi; sections 7.1-2 in: *Geometric Complex Analysis* (2016) &lbrack;[pdf](https://www.ma.imperial.ac.uk/~dcheragh/Teaching/2016-F-GCA/2016-F-GCA.pdf)&rbrack;
+
+* Nikolai V. Ivanov: *The geometric meaning of the complex dilatation* &lbrack;[arXiv:1701.06259](https://arxiv.org/abs/1701.06259)&rbrack;
+
+
+
 ### In practice
 
 As of the 2020s, quantum error correction (QEC) applied to noisy intermediate-scale quantum ([NISQ](quantum+computation#ReferencesNISQ)) machines is the dominant paradigm in both academia and industry for achieving meaningful commercial value [[quantum computation]]. Specifically, the prevailing strategy utilizes [[surface codes]] for the encoding of logical qubits—upon which [[Clifford gates]] are implemented natively—supplemented by "magic state" resource distillation to implement the remaining universal [[T-gates]].
@@ -29,14 +39,7 @@ Of course, the initial problem at the base of this story is the instability of c
 This analogy makes clear that an alternative strategy may be to actually fix the buckets. On the quantum technology side this corresponds to the approach of [[topological quantum computing]] (cf. [Das Sarma 2022](#DasSarma22)), where it is not runtime software redundancy that stabilizes shaky qubits, but intrinsic physical effects in topological quantum hardware. However, while such topological stabilization of quantum states and topological protection of quantum gates exists in theory (and even that theory is not well developed at this point) essentially no experience with practical engineering implementation exists at this point. 
 
 
-* {#Waintal24} Xavier Waintal: *The Quantum House Of Cards*, PNAS **121** 1 (2024) e2313269120 \[<a href="https://doi.org/10.1073/pnas.2313269120">doi:10.1073/pnas.2313269120</a>, [arXiv:2312.17570](https://arxiv.org/abs/2312.17570)\]
-
-* {#Riverlane2026} [riverlane](https://www.riverlane.com/): *[Quantum Error Correction](https://www.riverlane.com/quantum-error-correction)*
-
-* {#Erol2026} Volkan Erol: *Quantum Computing is No Longer a Physics Problem. It is a Systems Engineering Nightmare* (Jan 2026)
-
-* {#DasSarma22} [[Sankar Das Sarma]]: *Quantum computing has a hype problem*, [MIT Technology Review (March 2022)](https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/)
-  > "The qubit systems we have today are a tremendous scientific achievement, but they take us no closer to having a quantum computer that can solve a problem that anybody cares about. \[...\] What is missing is the breakthrough \[...\] bypassing [[quantum error correction]] by using far-more-stable qubits, in an approach called topological quantum computing."
+* {#Waintal24} Xavier Waintal: *The Quantum House Of Cards*, PNAS **121** 1 (2024) e2313269120 \[<a href="https://doi.org/10.1073/pnas.2313269120">doi:10.1073/pnas.2313269120</a>, [arXiv:2312.17570](https://arxiv.org/abs/2
 
 
 ### FQH Excitation modes
