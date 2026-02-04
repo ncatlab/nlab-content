@@ -16,7 +16,7 @@
 
 ## Definition
 
-A [[smooth function]] $f \;\colon\; X_1 \to X_2$ between two [[Riemannian manifold]] $(X_1,g_1)$, $(X_2,g_2)$ is called _conformal_ if it preserves the [[conformal geometry]] induced by the [[Riemannian metrics]] $g_1$ and $g_2$, hence if there is a [[smooth function]] $r\;\colon\; X_1 \to \mathbb{R}$ such that
+A [[smooth function]] $f \;\colon\; X_1 \to X_2$ between a [[pair]] of [[Riemannian manifolds]] $(X_1,g_1)$, $(X_2,g_2)$ is called _conformal_ if it preserves the [[conformal geometry]] induced by the [[Riemannian metrics]] $g_1$ and $g_2$, hence if there is a [[smooth function]] $r\;\colon\; X_1 \to \mathbb{R}$ such that
 
 $$
   f^\ast g_2 = r g_1
@@ -30,6 +30,8 @@ If $X_1 = X_2$ and $f$ is a [[diffeomorphism]], then this is also called a _[[co
 * [[stereographic projection]]
 
 * [[conformal compactification]]
+
+* [[quasiconformal map]]
 
 ## References
 
