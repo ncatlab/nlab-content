@@ -269,7 +269,7 @@ Discussion with an eye towards [[quantum physics]]:
 
 A nice short exposition together with an unorthodox proposal to expand geometric logic with fix point operators can be found here:
 
-* [[Andreas Blass]], _Topoi and Computation_, Bull. European Assoc.Theoret. Comp.Sci. **36** (1988) pp.57-65. ([draft](http://www.math.lsa.umich.edu/~ablass/eatcs.pdf))
+* [[Andreas Blass]], _Topoi and Computation_, Bull. European Assoc.Theoret. Comp.Sci. **36** (1988) pp.57-65. ([draft](https://sites.lsa.umich.edu/ablass/wp-content/uploads/sites/1471/2025/10/eatcs.pdf))
 
 [[!redirects geometric theory]]
 [[!redirects geometric theories]]
