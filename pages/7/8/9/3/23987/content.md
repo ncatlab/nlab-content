@@ -4544,6 +4544,18 @@ Nov 2025
 
 \linebreak
 
+### Feb 2026
+
+* {#AntzFeb2025} 25 Feb 20206
+
+  [[Samuel Adrian Antz]]:
+
+  **Mathematical Approach to Magnetic Monopoles with Yang–Mills theory**
+
+  > [[magnetic monopole|Magnetic monopoles]] have never been observed, but have interesting implications: In [[physics]], [[magnetic monopoles]] complete the deep symmetry of [[Maxwell's equations]] given by [[electric-magnetic duality]] and also imply the [[charge quantization|quantization of]] [[electric charge]], which has indeed been observed. In [[mathematics]], [[magnetic monopoles]] naturally lead to the [[fiber bundles in physics|description by]] [[principal bundles]] required by local triviality and global non-triviality as well as a larger space necessary to glue them together using the underlying [[symmetry]]. In the framework of [[principal bundles]] and in particular [[connection on a principal bundle|connections on them]], the [[Yang-Mills equations]] then provide a strong generalization of [[Maxwell's equations]]. Since these are non-linear in general, the [[Yang-Mills equations]] can be used to describe self-interactions in physics, which includes the [[strong nuclear force|strong interaction]] in [[quantum chromodynamics]] and also [[gravity]] in [[general relativity]].
+
+\linebreak
+
 
 
 \linebreak  
