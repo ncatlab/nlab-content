@@ -15,9 +15,9 @@
 =--
 
 
-# Complex analysis
-* table of contents
-{: toc}
+
+\tableofcontents
+
 
 ## Idea
 
@@ -28,16 +28,21 @@ Since a complex number can be understood as a pair of [[real numbers]], this wou
 
 ## Related entries
 
-* [[Weierstrass preparation theorem]], [[several complex variables]], [[spectral theory]], [[Riemann surface]]
+* [[Weierstrass preparation theorem]]
+
+* [[several complex variables]]
+
+* [[spectral theory]]
+
+* [[Riemann surface]]
 
 
 ## References
 
-* Wikipedia (English): [Complex analysis](http://en.wikipedia.org/wiki/Complex_analysis), [Several complex variables](http://en.wikipedia.org/wiki/Several_complex_variables)
+* [[Lars V. Ahlfors]]: *Complex Analysis*, McGraw-Hill (1966) &lbrack;[ams:CHEL/385](https://bookstore.ams.org/view?ProductCode=CHEL/385), [pdf](https://mccuan.math.gatech.edu/courses/6321/lars-ahlfors-complex-analysis-third-edition-mcgraw-hill-science_engineering_math-1979.pdf)&rbrack;
 
 * [[John B. Conway]], _Functions of one complex variable_, Springer 1978; _Functions of one complex variable II_, GTM 159
 
-* Lars V. Ahlfors, _Complex analysis_, McGraw-Hill, 1966.
 
 * Raghavan Narasimhan, _Complex analysis in one variable_, Birkh&#228;user, 1985.
 
@@ -50,6 +55,16 @@ Since a complex number can be understood as a pair of [[real numbers]], this wou
 * Douglas N. Arnold, _Complex analysis_, lecture notes, [pdf](http://www.ima.umn.edu/~arnold/502.s97/complex.pdf)
 
 * [[Elias M. Stein]], Rami Shakarchi: _Complex analysis_, Princeton University Press (2003, 2012) &lbrack;[ISBN:9780691113852](https://press.princeton.edu/books/hardcover/9780691113852/complex-analysis?srsltid=AfmBOorhQ48pR5BbXQhMF6YTUtCSU-HbCG69Zp953MeM73xcAOWiEGbq), [pdf](https://www.fing.edu.uy/~cerminar/Complex_Analysis.pdf)&rbrack;
+
+* Davoud Cheraghi: *Geometric Complex Analysis* (2016) &lbrack;[pdf](https://www.ma.imperial.ac.uk/~dcheragh/Teaching/2016-F-GCA/2016-F-GCA.pdf), [[Cheraghi-ComplexAnalysis.pdf:file]]&rbrack;
+
+
+See also:
+
+* Wikipedia: *[Complex analysis](http://en.wikipedia.org/wiki/Complex_analysis)* 
+
+* Wikipedia: *[Several complex variables](http://en.wikipedia.org/wiki/Several_complex_variables)*
+
 
 Via [[constructive analysis]]:
 
