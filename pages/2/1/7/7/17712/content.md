@@ -27,6 +27,8 @@
 
 ## Related concepts
 
+* [[dynamical system]]
+
 * [[Laplace transform]]
 
 * [[signal processing]]
