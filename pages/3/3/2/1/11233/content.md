@@ -27,6 +27,13 @@ for any $\delta$-fine partition $P$.  If such an $I$ exists, it must be unique, 
 We can also write $\int_a f(x) \,d x$ for the [[semidefinite integral|semidefinite]] Henstock integral $\int_a^x f(t) \,d t$, and write $\int_a f$ for the function $x \mapsto \int_a f(x) \,d x$.
 
 
+### Improper and infinite integrals
+
+We don\'t usually try to define a Henstock integral on a non-closed interval.  If $f\colon {[a, b[} \to \mathbb{R}$ is integrable on every $[a, c]$ with $a \leq c \lt b$, then we might define $\int_a^b f$ to be $\lim_{c\nearrow{b}} \int_a^c f$ as an _improper_ integral.  However, [Hake\'s Theorem](#Hake) assures us that in this case, we can define $f(b)$ however we like and find that this limit exists if and only $\int_a^b f$ exists by the proper definition above (and then the two values are equal).  So we don\'t bother with improper bounded integrals.
+
+However, we do still want to define a Henstock integral on a non-bounded interval.  If $f\colon {[a, \infty[} \to \mathbb{R}$ is integrable on every $[a, c]$ with $a \leq c$, then we can define $\int_a^\infty f$ to be $\lim_{c\nearrow\infty} \int_a^c f$.  Another approach is to take a [[diffeomorphism]] $\phi\colon {[a, c[} \to {[a, \infty[}$ (such as $\phi(t) \coloneqq \frac{t - a t + a c - a}{c - t}$) and define $\int_a^\infty f$ to be $\int_a^c (f \circ \phi) \phi'$.  We can again use Hake\'s Theorem (and the substitution theorem for Henstock integrals, which works as usual) to show that these definitions are equivalent.  Finally, we can work directly on $[-\infty, +\infty]$, requiring $\delta(-\infty)$ and $\delta(+\infty)$ to be part of the data of a gauge, replace ${[t - \delta(t), t + \delta(t)]}$ (in the definition of a $\delta$-fine partition) with ${[-\infty, -{/\delta(-\infty)}]}$ when $t = -\infty$, and replace this with ${[{/\delta(+\infty)}, +\infty]}$ when $t = +\infty$; with some care, this can also be proved equivalent.  (This is the approach taken in [Leader 2001](#Leader).)
+
+
 ### Comparison to the Riemann definition
 
 If we require a gauge to be a [[constant function]], then we recover the definition of the [[Riemann integral]].
@@ -46,7 +53,7 @@ Conceivably, there might exist an interval $[a,b]$ and a gauge $\delta$ such tha
 
 ## Examples
 
-The [[characteristic function]] $\chi_{\mathbb{Q}}$ of the [[rational numbers]] (as a subset of the real numbers) is a famous example of a function that's Lebesgue integrable but not even locally Riemann integrable.  It is Henstock integrable (with integral $0$) on any $[a,b]$ as follows:  Enumerate the rationals in $[a,b]$ as $(q_i)_{i=0}^\infty$.  Given $\epsilon \gt 0$, let $\delta(x)$ be $b-a$ if $x$ is irrational but $2^{-i-2}\epsilon(b-a)$ if $x$ is the rational $q_i$.  Then $\sum_{x\in[a,b]} \chi_{\mathbb{Q}}(x) \,2\delta(x) = \epsilon$.  Since a $\delta$-fine Riemann sum consists of just some of these terms, with $2\delta(x)$ replaced by a length that might be smaller, the value of the $\delta$-fine Riemann sum is thus always at most $\epsilon$.
+The [[characteristic function]] $\chi_{\mathbb{Q}}$ of the [[rational numbers]] (as a subset of the real numbers) is a famous example of a function that\'s Lebesgue integrable but not even locally Riemann integrable.  It is Henstock integrable (with integral $0$) on any $[a,b]$ as follows:  Enumerate the rationals in $[a,b]$ as $(q_i)_{i=0}^\infty$.  Given $\epsilon \gt 0$, let $\delta(x)$ be $b-a$ if $x$ is irrational but $2^{-i-2}\epsilon(b-a)$ if $x$ is the rational $q_i$.  Then $\sum_{x\in[a,b]} \chi_{\mathbb{Q}}(x) \,2\delta(x) = \epsilon$.  Since a $\delta$-fine Riemann sum consists of just some of these terms, with $2\delta(x)$ replaced by a length that might be smaller, the value of the $\delta$-fine Riemann sum is thus always at most $\epsilon$.
 
 The (even) function
 $$
@@ -58,7 +65,7 @@ $$
 $$
 where $Si(t)$ is the [[sine integral]] $\int_0 \frac{\sin(t)}{t}d t $ (which extends to an [[entire function]] on $\mathbb{C}$).  This integral can also be found as an [[improper integral|improper]] Riemann integral.
 
-For an example that is neither Lebesgue integrable nor improperly Riemann integrable (not even locally Riemann integrable), we can let $f(x)$ be $\sin(1/x^3)/x$ for irrational $x$ and $1$ for rational $x$.  This one can still be done as an improper Lebesgue integral.  (Are there any functions that are Henstock integrable but not locally Lebesgue integrable?)
+For an example that is neither Lebesgue integrable nor improperly Riemann integrable (not even locally Riemann integrable), we can let $f(x)$ be $\sin(1/x^3)/x$ for irrational $x$ and $1$ for rational $x$.  This one can still be done as an improper Lebesgue integral, however.  (Are there any functions that are Henstock integrable but not improperly Lebesgue integrable?  In other words, it\'s Henstock integrable, but the set of points on which it\'s not locally Lebesgue integrable, which is $\{0\}$ in this example, has an [[accumulation point]].)
 
 
 ## Properties
@@ -78,7 +85,7 @@ If $f$ is Henstock integrable on $[a,b]$, then $F(x) = \int_a f(x) d x$ is diffe
 =--
 
 
-### Hake's theorem
+### Hake\'s theorem {#Hake}
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -87,28 +94,32 @@ $$ \int_a^b f(x) d x = \lim_{c\to b^-} \int_a^c f(x) d x $$
 in the strong sense that if either side exists, then so does the other, and they are equal.
 =--
 
-In particular, what is often taken as a *definition* of the [[improper integral|improper]] Riemann integral (of a potentially unbounded function on a finite interval) is actually a *theorem* for Henstock integrals.  (However, we still need improper Henstock integrals to allow $a = -\infty$ or $b = \infty$.)
+In particular, what is often taken as a *definition* of the [[improper integral|improper]] Riemann integral (of a potentially unbounded function on a finite interval) is actually a *theorem* for Henstock integrals.
+
+Since the theorem holds regardless of the value $f(c)$, this has as a corollary that the values of a function can be changed on any finite number of points without affecting the existence or value of any integral.  (Can it be changed on any set of measure zero, like the Lebesgue integral?)
 
 
 ### Recovery of Riemann and Lebesgue integrals
-
-+-- {: .query}
-I need to check some of the claims below, but I\'m out of time right now.  They are definitely correct for the proper integrals.  ---Toby
-=--
 
 Recall that $f\colon [a, b] \to \mathbb{R}$ is Riemann integrable iff $f$ is continuous almost everywhere and bounded; in this case, $f$ is also Henstock integrable, and the Riemann integral of $f$ equals its Henstock integral.
 
 More generally, $f$ is improperly Riemann integrable iff $f$ is Henstock integrable and $f$ is locally Riemann integrable at all but finitely many points in $[a, b]$; then the improper Riemann integral of $f$ equals its Henstock integral.
 
-Still more generally, $f\colon \mathbb{R} \to \mathbb{R}$ is improperly Riemann integrable iff $f$ is improperly Henstock integrable (meaning merely that
-$$ \lim_{a \to -\infty, b \to \infty} \int_a^b f(x) \,\mathrm{d}x $$
-exists using Henstock integrals) and locally Riemann integrable except at a set of [[isolated point]]s; then the improper Riemann integral of $f$ equals its improper Henstock integral.
+Still more generally, $f\colon \mathbb{R} \to \mathbb{R}$ is improperly Riemann integrable iff $f$ is Henstock integrable and locally Riemann integrable except at a set of [[isolated point]]s; then the improper Riemann integral of $f$ equals its Henstock integral.
 
-Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ is Lebesgue integrable iff ${|f|}$ is improperly Henstock integrable; then the Lebesgue integral of $f$ equals its improper Henstock integral (which is proper if the [[support]] of $f$ is [[bounded set|bounded]], of course).
+Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ is Lebesgue integrable iff ${|f|}$ is Henstock integrable; then the Lebesgue integral of $f$ equals its Henstock integral.
+
+
+## References
+
+Here is a comprehensive introduction the Henstock integral, including in multiple dimensions:
+
+* {#Leader} Solomon Leader (2001). The Kurzweil--Henstock Integral and its Differentials: A Unified Theory of Integration on $\mathbb{R}$ and $\mathbb{R}^n$. Marcel Dekker, Inc., 2001.
 
 
 [[!redirects Henstock integral]]
 [[!redirects Henstock integrals]]
+[[!redirects Henstock integrability]]
 [[!redirects Henstock integrable]]
 [[!redirects Henstock-integrable]]
 [[!redirects Henstock integrable function]]
@@ -118,6 +129,7 @@ Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ 
 
 [[!redirects Kurzweil integral]]
 [[!redirects Kurzweil integrals]]
+[[!redirects Kurzweil integrability]]
 [[!redirects Kurzweil integrable]]
 [[!redirects Kurzweil-integrable]]
 [[!redirects Kurzweil integrable function]]
@@ -131,12 +143,27 @@ Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ 
 [[!redirects Henstock–Kurzweil integrals]]
 [[!redirects Henstock--Kurzweil integral]]
 [[!redirects Henstock--Kurzweil integrals]]
+[[!redirects Henstock-Kurzweil integrable]]
+[[!redirects Henstock–Kurzweil integrable]]
+[[!redirects Henstock--Kurzweil integrable]]
+[[!redirects Henstock-Kurzweil integrability]]
+[[!redirects Henstock–Kurzweil integrability]]
+[[!redirects Henstock--Kurzweil integrability]]
+[[!redirects Henstock-Kurzweil-integrable]]
+[[!redirects Henstock–Kurzweil-integrable]]
+[[!redirects Henstock--Kurzweil-integrable]]
 [[!redirects Henstock-Kurzweil integrable function]]
 [[!redirects Henstock-Kurzweil integrable functions]]
 [[!redirects Henstock–Kurzweil integrable function]]
 [[!redirects Henstock–Kurzweil integrable functions]]
 [[!redirects Henstock--Kurzweil integrable function]]
 [[!redirects Henstock--Kurzweil integrable functions]]
+[[!redirects Henstock-Kurzweil-integrable function]]
+[[!redirects Henstock-Kurzweil-integrable functions]]
+[[!redirects Henstock–Kurzweil-integrable function]]
+[[!redirects Henstock–Kurzweil-integrable functions]]
+[[!redirects Henstock--Kurzweil-integrable function]]
+[[!redirects Henstock--Kurzweil-integrable functions]]
 
 [[!redirects Kurzweil-Henstock integral]]
 [[!redirects Kurzweil-Henstock integrals]]
@@ -144,30 +171,61 @@ Finally (and with incomparable generality), $f\colon \mathbb{R} \to \mathbb{R}$ 
 [[!redirects Kurzweil–Henstock integrals]]
 [[!redirects Kurzweil--Henstock integral]]
 [[!redirects Kurzweil--Henstock integrals]]
+[[!redirects Kurzweil-Henstock integrability]]
+[[!redirects Kurzweil–Henstock integrability]]
+[[!redirects Kurzweil--Henstock integrability]]
+[[!redirects Kurzweil-Henstock integrable]]
+[[!redirects Kurzweil–Henstock integrable]]
+[[!redirects Kurzweil--Henstock integrable]]
+[[!redirects Kurzweil-Henstock-integrable]]
+[[!redirects Kurzweil–Henstock-integrable]]
+[[!redirects Kurzweil--Henstock-integrable]]
 [[!redirects Kurzweil-Henstock integrable function]]
 [[!redirects Kurzweil-Henstock integrable functions]]
 [[!redirects Kurzweil–Henstock integrable function]]
 [[!redirects Kurzweil–Henstock integrable functions]]
 [[!redirects Kurzweil--Henstock integrable function]]
 [[!redirects Kurzweil--Henstock integrable functions]]
+[[!redirects Kurzweil-Henstock-integrable function]]
+[[!redirects Kurzweil-Henstock-integrable functions]]
+[[!redirects Kurzweil–Henstock-integrable function]]
+[[!redirects Kurzweil–Henstock-integrable functions]]
+[[!redirects Kurzweil--Henstock-integrable function]]
+[[!redirects Kurzweil--Henstock-integrable functions]]
 
 [[!redirects Denjoy integral]]
 [[!redirects Denjoy integrals]]
+[[!redirects Denjoy integrability]]
+[[!redirects Denjoy integrable]]
+[[!redirects Denjoy-integrable]]
 [[!redirects Denjoy integrable function]]
 [[!redirects Denjoy integrable functions]]
+[[!redirects Denjoy-integrable function]]
+[[!redirects Denjoy-integrable functions]]
 
 [[!redirects Luzin integral]]
 [[!redirects Luzin integrals]]
+[[!redirects Luzin integrability]]
+[[!redirects Luzin integrable]]
+[[!redirects Luzin-integrable]]
 [[!redirects Luzin integrable function]]
 [[!redirects Luzin integrable functions]]
+[[!redirects Luzin-integrable function]]
+[[!redirects Luzin-integrable functions]]
 
 [[!redirects Perron integral]]
 [[!redirects Perron integrals]]
+[[!redirects Perron integrability]]
+[[!redirects Perron integrable]]
+[[!redirects Perron-integrable]]
 [[!redirects Perron integrable function]]
 [[!redirects Perron integrable functions]]
+[[!redirects Perron-integrable function]]
+[[!redirects Perron-integrable functions]]
 
 [[!redirects gauge integral]]
 [[!redirects gauge integrals]]
+[[!redirects gauge integrability]]
 [[!redirects gauge integrable]]
 [[!redirects gauge-integrable]]
 [[!redirects gauge integrable function]]
