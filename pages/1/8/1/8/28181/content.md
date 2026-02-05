@@ -19,9 +19,12 @@ An **outer measure** is a function that assigns a "size" to every subset of a gi
 An **outer measure** on a set $X$ is a function $\mu^* \colon \mathcal{P}(X) \to [0, \infty]$ satisfying the following axioms:
 
 1. **Null empty set**: $\mu^*(\emptyset) = 0$.
+
 2. **Monotonicity**: If $A \subseteq B \subseteq X$, then $\mu^*(A) \leq \mu^*(B)$.
+
 3. **Countable subadditivity**: For any sequence of subsets $\{A_n\}_{n=1}^\infty$ of $X$, 
    $$\mu^*\left( \bigcup_{n=1}^\infty A_n \right) \leq \sum_{n=1}^\infty \mu^*(A_n)$$
+
 \end{definition}
 
 ## Construction from pre-measures
