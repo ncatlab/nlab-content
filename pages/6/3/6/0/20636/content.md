@@ -32,4 +32,6 @@ On [[dynamical systems]] and their [[categorical systems theory]]:
 
 * [[Patrick Schultz]], [[David I. Spivak]], [[Christina Vasilakopoulou]], *Dynamical Systems and Sheaves*, Appl Categor Struct **28** (2020) 1--57 &lbrack;[arXiv:1609.08086](https://arxiv.org/abs/1609.08086), [doi:10.1007/s10485-019-09565-x](https://doi.org/10.1007/s10485-019-09565-x)&rbrack;
 
+* Georgios Bakirtzis, Cody H. Fleming, and [[Christina Vasilakopoulou]], *Categorical Semantics of Cyber-Physical Systems Theory*. ACM Transactions on Cyber-Physical Systems, **5** 3 (2021) 1-32. &lbrack;[doi:10.1145/3461669](https://dl.acm.org/doi/pdf/10.1145/3461669)&rbrack;
+
 category: people
