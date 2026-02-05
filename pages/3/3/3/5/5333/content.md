@@ -245,7 +245,12 @@ and in [[BV-formalism]]:
 
 * [[Julian Kupka]], [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Batalin-Vilkovisky formulation of the $\mathcal{N}=1$ supergravity in ten dimensions* &lbrack;[arXiv:2501.18008](https://arxiv.org/abs/2501.18008)&rbrack;
 
-* [[Julian Kupka]], [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Geometry of supergravity and the Batalin-Vilkovisky formulation of the \mathcal N=1 theory in ten dimensions* &lbrack;[arXiv:2508.06398](https://arxiv.org/abs/2508.06398)&rbrack;
+* [[Julian Kupka]], [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Geometry of supergravity and the Batalin-Vilkovisky formulation of the $\mathcal{N}=1$ theory in ten dimensions* &lbrack;[arXiv:2508.06398](https://arxiv.org/abs/2508.06398)&rbrack;
+
+* [[Julian Kupka]], [[Ingmar Saberi]], [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Kodaira-Spencer theory for Courant algebroids* &lbrack;[arXiv:2602.04658](https://arxiv.org/abs/2602.04658)&rbrack;
+  > (relation to [BCOV theory](B-model#ReferencesBCOV))
+
+
 
 
 See also:
