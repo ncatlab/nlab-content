@@ -41,7 +41,7 @@ In [[constructive analysis]], we must allow a gauge to take [[lower real number|
 
 ### Cousin\'s Lemma
 
-Conceivably, there might exist an interval $[a,b]$ and a gauge $\delta$ such that no $\delta$-fine partition of $[a,b]$ exists at all; in that case, the integral of any function $f$ on $[a,b]$ would vacuously take every value $I$.  This is ruled out by [[Cousin's Lemma]], which states precisely that such a partition always exists.  This lemma can be leveraged to prove that the integral is not only nontrivial but also (if it exists at all) unique.
+Conceivably, there might exist an interval $[a,b]$ and a gauge $\delta$ such that no $\delta$-fine partition of $[a,b]$ exists at all; in that case, the integral of any function $f$ on $[a,b]$ would vacuously take every value $I$.  This is ruled out by [[Cousin's Lemma]], which states precisely that such a partition always exists.  This lemma can be leveraged to prove that the integral is not only nontrivial but also (if it exists at all) unique.  (Proof sketch: prove that if $I$ is an integral of $f$ on $[a, b]$ and $J$ is an integral of $g$ on $[a, b]$, then $I - J$ is an integral of $f - g$ on $[a, b]$, which can be done in the usual way without assuming uniqueness; use Cousin\'s Lemma to prove that any integral of $0$ on $[a, b]$ must be $0$; conclude that if $I$ and $J$ are both integrals of $f$ on $[a, b]$, then $I - J = 0$.)
 
 
 ## Examples
