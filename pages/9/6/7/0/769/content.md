@@ -89,7 +89,7 @@ When combining this with the constraint in Rem. \ref{IsoCommaObjects}, one also 
 
 ### Construction
 
-The comma object $f/g$ can be constructed by means of [[pullbacks]] and [[cotensors]]:
+The comma object $f/g$ can be constructed by means of [[pullbacks]] and [[powers]]:
 $$
 \array{
 f/g & \to & P & \to & A \\
@@ -99,7 +99,7 @@ Q & \to & C^{\mathbf{2}} & \underset{dom}{\to} & C \\
 B & \underset{g}{\to} & C
 }
 $$
-where $C^{\mathbf{2}}$ is the cotensor of $C$ with the arrow category $\mathbf{2} = \bullet \to \bullet$.
+where $C^{\mathbf{2}}$ is the power of $C$ with the arrow category $\mathbf{2} = \bullet \to \bullet$.
 
 
 ### Pasting lemma
