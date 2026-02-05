@@ -72,7 +72,39 @@ Form a partition as above; because $a \lt b$, we have $n \gt 0$.  By performing 
 
 ## Cousin\'s Lemma
 
-This is the form needed for the [[Henstock–Kurzweil integral]]; see there for now.
+For purposes of [[integration]] theory, we want a form of Cousin\'s Theorem with [[tagged partitions]]; that is, each subinterval should be equipped with a point (its _tag_), generally required to belong to the subinterval.  Since each subinterval is [[inhabited subset|inhabited]], it\'s easy enough to tag each one (even constructively since there are only finitely many), but Cousin\'s Lemma (so-called because it\'s a lemma in integration theory) gives us more: it lets us specify ahead of time which open [[neighbourhood]] of the tag its subinterval should be contained in.
+
+We start with a relatively easy version fitted to the McShane integral (which is equivalent to the [[Lebesgue integral]] on the real line):
+
++-- {: .num_theorem #McShane}
+###### Theorem
+
+Let $N$ be a [[function]] from $[a, b]$ to its [[powerset]] (or equivalently a [[binary relation]] on $[a, b]$) such that for each $t \in [a, b]$, $N(t)$ is a [[neighbourhood]] of $t$.  Then there exists a freely tagged partition of $[a, b]$, that is a list $a = x_0 \leq \cdots \leq x_n = b$ (as before) together with a list $t_0, \ldots, t_{n-1} \in [a, b]$ (but *without* requiring $x_i \leq t_i \leq x_{i+1}$, which is why the partition is *freely* tagged), such that for each $i \lt n$, we have $[x_i, x_{i+1}] \subseteq N(t_i)$.
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\mathcal{U}$ be the collection of [[open subsets]] of the $N(t)$, so that an open set $U$ of $[a, b]$ belongs to $\mathcal{U}$ iff $U \subseteq N(t)$ for some $t$.  Let $x_0, \ldots, x_n$ be a partition as given by Theorem \ref{basic}.  Each subinterval $[x_i, x_{i+1}]$ is contained in some member of $\mathcal{U}$, which in turn is contained in $N_t$ for some point $t$; pick one and call it $t_i$.  (These choices are no problem constructively, since there are only finitely many to make.)  Using these points as tags, we have a freely tagged partition as desired.
+=--
+
+Using Theorem \ref{positive} instead, we can guarantee that each subinterval has positive length if we wish (assuming that $a = b$ or $a \lt b$ to be constructive).  It\'s common to start with a [[function]] $\delta\colon [a, b] \to {]0, \infty]}$ (a _gauge_) and let $N(t)$ be a [[ball]] around $t$ of radius $\delta(t)$.  (Conversely, we can get $\delta$ from $N$ by taking a [[supremum]], although constructively this means that $\delta$ is valued in the [[lower reals]].)
+
+For the [[Henstock–Kurzweil integral]], we need a tagged partition that is *not* free, so that each tag belongs to the corresponding subinterval.
+
++-- {: .num_theorem #HK}
+###### Theorem
+
+As before, let $N$ be a [[function]] mapping each $t \in [a, b]$ to a neighbourhood $N(t)$.  Then there exist $a = x_0 \leq t_0 \leq x_1 \leq \cdots \leq x_{n-1} \leq t_{n-1} \leq x_n = b$, such that for each $i \lt n$, we have $[x_i, x_{i+1}] \subseteq N(t_i)$.
+=--
+
++-- {: .proof}
+###### Proof
+
+...
+=--
+
+We can again guarantee that each subinterval has positive length, or start with a gauge $\delta$, if we wish.
 
 
 ## Constructive version {#constructive}
