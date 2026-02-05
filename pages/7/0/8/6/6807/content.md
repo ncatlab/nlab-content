@@ -268,6 +268,9 @@ In relation to the [[soft graviton theorem]]:
 
 * [[Aidan Herderschee]], [[Juan Maldacena]], *Soft Theorems in Matrix Theory* &lbrack;[arXiv:2312.15111](https://arxiv.org/abs/2312.15111)&rbrack;
 
+* Davide Laurenzano, John F. Wheater: *A Soft Theorem from vertex-like operators in BFSS Theory* &lbrack;[arXiv:2510.15488](https://arxiv.org/abs/2510.15488)&rbrack;
+
+
 
 
 ### Black holes
