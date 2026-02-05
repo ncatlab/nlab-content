@@ -43,6 +43,11 @@ On [[superconformal symmetry]] via [[derived geometry]]:
 
 * [[Fabian Hahner]], Surya Raghavendran, [[Ingmar Saberi]], [[Brian R. Williams]]: *Local superconformal algebras* &lbrack;[arXiv:2410.08176](https://arxiv.org/abs/2410.08176)&rbrack;
 
+On [[BV formalism]] for [[heterotic string theory|heterotic]] [[D=10 supergravity]] in relation to [[Corant algebroids]] and [BCOV theory](B-model#ReferencesBCOV):
+
+* [[Julian Kupka]], [[Ingmar Saberi]], [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Kodaira-Spencer theory for Courant algebroids* &lbrack;[arXiv:2602.04658](https://arxiv.org/abs/2602.04658)&rbrack;
+
+
 ### Related entries
 
 * [[p-adic AdS-CFT]]
