@@ -71,7 +71,10 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 ### General
 
-Fermions are named after [[Enrico Fermi]].
+Fermions are named after [[Enrico Fermi]]:
+
+* Roberto Casalbuoni, Daniele Dominici: *From Florence to Fermions: a historical reconstruction of the origins of Fermi's statistics one hundred years later* &lbrack;[arXiv:2602.04484](https://arxiv.org/abs/2602.04484)&rbrack;
+
 
 
 
