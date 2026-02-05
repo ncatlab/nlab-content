@@ -36,6 +36,8 @@ On [[category theory]] (and [[higher category theory]]) for the conceptualizatio
 
 * [[Patrick Schultz]], [[David I. Spivak]], [[Christina Vasilakopoulou]], *Dynamical Systems and Sheaves*, Appl Categor Struct **28** (2020) 1–57 &lbrack;[arXiv:1609.08086](https://arxiv.org/abs/1609.08086), [doi:10.1007/s10485-019-09565-x](https://doi.org/10.1007/s10485-019-09565-x)&rbrack;
 
+* Georgios Bakirtzis, Cody H. Fleming, and [[Christina Vasilakopoulou]], *Categorical Semantics of Cyber-Physical Systems Theory*. ACM Transactions on Cyber-Physical Systems, **5** 3 (2021) 1-32. &lbrack;[doi:10.1145/3461669](https://dl.acm.org/doi/pdf/10.1145/3461669)&rbrack;
+
 * [[David Jaz Myers]], *Double Categories of Open Dynamical Systems*, EPTCS **333** (2021) 154-167 &lbrack;[arXiv:2005.05956](https://arxiv.org/abs/2005.05956), [doi:10.4204/EPTCS.333.11](https://doi.org/10.4204/EPTCS.333.11)&rbrack;
 
 * {#CGHR22} [[Matteo Capucci]], [[Bruno Gavranović]], [[Jules Hedges]], [[Eigil F. Rischel]], *Towards Foundations of Categorical Cybernetics*, EPTCS **372** (2022) 235-248 &lbrack;[arXiv:2105.06332](https://arxiv.org/abs/2105.06332), [doi:10.4204/EPTCS.372.17](https://doi.org/10.4204/EPTCS.372.17)&rbrack;
