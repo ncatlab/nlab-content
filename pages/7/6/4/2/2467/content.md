@@ -1,8 +1,18 @@
 Alain Connes (born on April 1, 1947) is a French mathematician, Fields medalist (1982), Crafoord prize winner (2001), Professor at [IH&#201;S](http://www.ihes.fr), Professor at Coll&#232;ge de France and part-time working as a Professor at Vanderbilt University. His interests include [[geometry]], [[topology]], especially K-theory and index theory, [[operator algebras]], the connections between noncommutative geometry and number theory, and more recently also the absolute geometry over a [[field with one element]].
 
-#Contents#
-* table of contents
-{:toc}
+
+* [personal site](http://www.alainconnes.org/en)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Alain_Connes)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=34220)
+
+* [inSpire page](https://inspirehep.net/authors/1013151)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=OMnIF4sAAAAJ&hl=fr)
+
+
+\tableofcontents
 
 ## Research
 
@@ -42,17 +52,24 @@ Introducing the [[Bost-Connes system]]:
 
 * {#BostConnes95} [[Jean-Benoit Bost]]; [[Alain Connes]], *Hecke algebras, type III factors and phase transitions with spontaneous symmetry breaking in number theory*, Selecta Mathematica, New Series **1** 3 (1995) 411-457 &lbrack;[doi:10.1007/BF01589495](https://doi.org/10.1007/BF01589495), ISSN 1022-1824, [pdf](https://web.archive.org/web/20110806043925/https://alainconnes.org/docs/bostconnesscan.pdf)&rbrack;
 
+On the [[Riemann hypothesis]]:
 
-For more see Connes' official [website](http://www.alainconnes.org/en).
+* [[Alain Connes]]: *An Essay on the Riemann Hypothesis: Past, Present and a Letter Through Time*, in: *Open Problems in Mathematics*, Springer (2016) &lbrack;[arXiv:2602.04022](https://arxiv.org/abs/2602.04022), [doi:10.1007/978-3-319-32162-2_5](https://doi.org/10.1007/978-3-319-32162-2_5)&rbrack;
+
+
 
 ## Related entries
 
 * [[noncommutative geometry]], [[operator algebra]], [[C-star algebra]]
 
 * [[spectral triple]]
+
 * [[Hochschild-Kostant-Rosenberg theorem]]
+
 * [[cyclic object]], [[cycle category]], [[cyclic cohomology]]
+
 * [[renormalization]], [[field with one element]]
+
 * [[Bost-Connes system]]
 
 category: people 
