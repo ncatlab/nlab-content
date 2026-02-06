@@ -49,6 +49,11 @@ The $AdS_2 \times S^{d-2}$ [[near horizon geometry]] of near-extremal black hole
 
 * [[Ashoke Sen]], _Extremal black holes_, talk slides 2009 ([pdf](https://www.icts.res.in/sites/default/files/1250480845tifr.pdf))
 
+Via [[L-infinity algebras]]:
+
+* [[Jan Gutowski]], Chettha Saelim, [[Martin Wolf]]: *Extremal Black Holes from Homotopy Algebras* &lbrack;[arXiv:2508.08886](https://arxiv.org/abs/2508.08886)&rbrack;
+
+
 See also 
 
 * Wikipedia, _[Extremal black hole](https://en.wikipedia.org/wiki/Extremal_black_hole)_
