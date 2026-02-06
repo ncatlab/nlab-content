@@ -90,6 +90,8 @@ In the case of [[topological spaces]] or other models of  classical [[homotopy t
 
 ## Related concepts
 
+* [[cocategory]]
+
 * [[coalgebra]]
 
 * [[co-associativity]]
