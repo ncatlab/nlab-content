@@ -17,6 +17,7 @@ On [[categorical algebra]], [[enriched categories]], and [[Grothendieck fibratio
 
 * [[Mitchell Buckley]], [[Timmy Fieremans]], [[Christina Vasilakopoulou]], [[Joost Vercruysse]], _A Larson-Sweedler Theorem for Hopf V-Categories_ ([arXiv:1908.02049](https://arxiv.org/abs/1908.02049))
 
+* Vasileios Aravantinos-Sotiropoulos, and [[Christina Vasilakopoulou]], _Sweedler theory for double categories_ &lbrack;[arXiv:2408.03180](https://arxiv.org/abs/2408.03180)&rbrack;
 
 On the [[monoidal Grothendieck construction]]:
 
