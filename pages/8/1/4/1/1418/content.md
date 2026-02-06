@@ -52,6 +52,7 @@ Replacing "finite" by "of cardinality less than $\kappa$" everywhere, for some [
 ## Related pages
 
 * [[locally strongly finitely presentable category]]
+* [[accessible category]]
 
 ## References
 
