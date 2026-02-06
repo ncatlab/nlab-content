@@ -1,8 +1,12 @@
 Joost Nuiten is a postdoc in mathematics at Université de Montpellier
 
-Joost Nuiten did his PhD student in mathematics at Utrecht University with [[Ieke Moerdijk]].
+Joost Nuiten did his PhD student in mathematics at Utrecht University with [[Ieke Moerdijk]]; his Master in mathematics and physics at Utrecht University with [[Urs Schreiber]].
 
-Nuiten did his Master in mathematics and physics at Utrecht University with [[Urs Schreiber]].
+* [personal page](https://www.math.univ-toulouse.fr/~jnuiten/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=264168)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Joost-Nuiten-2119071716)
 
 ## Texts
 
