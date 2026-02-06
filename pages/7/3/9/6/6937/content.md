@@ -63,6 +63,10 @@ On [[dependent type theory]]:
 
 * {#BauerHaselwarterLumsdaine20} [[Andrej Bauer]], [[Philipp G. Haselwarter]], [[Peter LeFanu Lumsdaine]], *A general definition of dependent type theories* &lbrack;[arXiv:2009.05539](https://arxiv.org/abs/2009.05539)&rbrack;
 
+On [[cocategories]]:
+
+* [[Peter LeFanu Lumsdaine]], _A Small Observation on Co-categories_ &lbrack;[arXiv:0902.4743](https://arxiv.org/abs/0902.4743)&rbrack;
+
 ## Related entries
 
 * [[initiality conjecture]]
