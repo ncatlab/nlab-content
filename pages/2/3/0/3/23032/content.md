@@ -26,5 +26,10 @@ On [[non-perturbative quantum field theory]] ([[solitons]], [[Skyrmions]], [[ins
 
 * [[Roberto Percacci]]: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
 
+On [[differential geometry]], [[gauge theory]] and [[gravity]] (including discussion of [[fiber bundles in physics]]):
+
+
+* [[Roberto Percacci]], Omar Zanusso: *Geometry, Gauge, Gravity*, OAPEN (2026)  &lbrack;[doi:10.22323/9788898587087](http://doi.org/10.22323/9788898587087)&rbrack;
+
 
 category: people
