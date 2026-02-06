@@ -32,6 +32,10 @@ On [[higher gauge theory]]:
 
 * [[Leron Borsten]], [[Mehran Jalali Farahani]], [[Branislav Jurčo]], [[Hyungrok Kim]], [[Jiří Nárožný]], [[Dominik Rist]], [[Christian Saemann]], [[Martin Wolf]], *Higher Gauge Theory*, in *[[Encyclopedia of Mathematical Physics 2nd ed]]*, Elsevier (2024) &lbrack;[arXiv:2401.05275](https://arxiv.org/abs/2401.05275)&rbrack;
 
+On [[extremal black holes]] via [[L-infinity algebras]]:
+
+* [[Jan Gutowski]], Chettha Saelim, [[Martin Wolf]]: *Extremal Black Holes from Homotopy Algebras* &lbrack;[arXiv:2508.08886](https://arxiv.org/abs/2508.08886)&rbrack;
+
 
 ## Related entries
 
