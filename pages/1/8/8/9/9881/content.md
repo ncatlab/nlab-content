@@ -94,6 +94,10 @@ The [[Veneziano amplitude]] (open bosonic string tree-level scattering) has an e
 ### General
  {#General}
 
+Introduction:
+
+* Chrysoula Markou: *An introduction to string states and their interactions* &lbrack;[arXiv:2602.05173](https://arxiv.org/abs/2602.05173)&rbrack;
+
 A comprehensive account of the [[superstring]] [[S-matrix]] may be obtained from combining the general idea presented in
 
 * {#Polchinski01} [[Joseph Polchinski]], section 12.5 of vol 2 of _String theory_, Cambridge Monographs on Mathematical Physics (2001)
