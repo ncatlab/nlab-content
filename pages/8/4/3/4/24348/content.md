@@ -25,7 +25,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Some Aspects of Internal Category Theory in an Elementary Topos|[[Peter Johnstone]]|1974| | |
 |Relative Bildzerlegungen und algebraische Kategorien|[[Walter Tholen]]|1974|[Scan](https://tholen.mathstats.yorku.ca/files/2021/01/PhD_Thesis.pdf)|English translation of the title is *Relative image decompositions and algebraic categories*|
 |Coherence for a closed functor|Geoffrey Lewis|1974|[UNSW repository](https://unsworks.unsw.edu.au/entities/publication/3c1ee9e9-9d61-4fc9-9766-5fb9bf6415c2)| |
-|Catégories internes et fibrations ; Cohomologie de Gel'fand-Fuks|[[Jean Celeyrette]]|1975|[[celeyrette-thesis-1975.pdf:file]]|[[internal categories]], [[fibrations]], [[Gelfand-Fuks cohomology]]|
+|Catégories internes et fibrations ; Cohomologie de Gel'fand-Fuks|[[Jean Celeyrette]]|1975|[[celeyrette-thesis-1975.pdf:file]]|[[internal categories]], [[fibrations]], [[Gelfand-Fuks cohomology]]|
 |Théorie formelle des bicatégories|[[Syméon Bozapalides]]|1976| <a href="/nlab/files/BOZAPALIDES_theorie_formelle_bicategories.pdf">Scan</a> | on 2-dimensional [[coends]], [[enriched bicategories]], etc. |
 |Universal coalgebras|[[Thomas Fox]]|1976|[McGill repository](https://escholarship.mcgill.ca/concern/theses/xs55mc798)| |
 |Indicial methods for relative categories|[[Richard Wood]]|1976|[Dalhousie repository](https://dalspace.library.dal.ca//handle/10222/55465)| |
@@ -49,6 +49,7 @@ Note: the list is ordered first by year, then alphabetically by last name.
 |Ultraproducts and continuous families of models|[[Francisco Marmolejo]]|1995|[pdf](http://peterlefanulumsdaine.com/files/marmolejo-1995-phd-thesis.pdf)|on [[ultracategory|ultracategories]], treated 2-monadically|
 |Groupoid Representations for Sheaves on Orbifolds|[[Dorette Pronk]]|1995| | |
 |Internal categories and quantum groups|[[Marcelo Aguiar]]|1997|[pdf](https://ncatlab.org/nlab/files/Aguiar_InternalCategoriesAndQuantumGroups.pdf)| |
+|Full Completeness for models of Linear Logic|[[Audrey Tan]]|1997|[pdf](https://ncatlab.org/nlab/files/FullCompletenessForModelsOfLinearLogicTan.pdf)| |
 |Monadicity, Purity, and Descent Equivalence|Xiuzhan Guo|2000|[pdf](https://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp02/NQ59136.pdf)| on [[monadicity]], [[descent]], and [[locally presentable categories]] |
 |Higher-Dimensional Category Theory: Opetopic Foundations|[[Eugenia Cheng]]|2002|[pdf](https://eugeniacheng.com/wp-content/uploads/2017/02/cheng-thesis.pdf)| |
 |Polycategories|[[Richard Garner]]|2006|[PDF](http://web.science.mq.edu.au/~rgarner/Thesis/Thesis.pdf)| on [[polycategories]] via Kleisli bicategories and [[mixed distributive laws]] |
