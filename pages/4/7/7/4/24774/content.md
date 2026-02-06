@@ -154,7 +154,7 @@ On the [[super-embedding formalism]] for [[Green-Schwarz superstrings]] and [[su
 
 On [[asymptotic safety]]:
 
-* Riccardo Martini, Gian Paolo Vacca, Omar Zanusso, *Perturbative approaches to non-perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.13910](https://arxiv.org/abs/2210.13910)&rbrack;
+* Riccardo Martini, Gian Paolo Vacca, [[Omar Zanusso]], *Perturbative approaches to non-perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.13910](https://arxiv.org/abs/2210.13910)&rbrack;
 
 \linebreak
 
