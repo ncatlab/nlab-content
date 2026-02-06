@@ -34,7 +34,10 @@ An important special case over [[finite fields]] is called the **Riemann--Weil c
 
 ### General
 
-* [[Terence Tao]], _[The Riemann hypothesis in various settings](http://terrytao.wordpress.com/2013/07/19/the-riemann-hypothesis-in-various-settings/)_
+* [[Terence Tao]]: _[The Riemann hypothesis in various settings](http://terrytao.wordpress.com/2013/07/19/the-riemann-hypothesis-in-various-settings/)_ (2013)
+
+* [[Alain Connes]]: *An Essay on the Riemann Hypothesis: Past, Present and a Letter Through Time*, in: *Open Problems in Mathematics*, Springer (2016) &lbrack;[arXiv:2602.04022](https://arxiv.org/abs/2602.04022), [doi:10.1007/978-3-319-32162-2_5](https://doi.org/10.1007/978-3-319-32162-2_5)&rbrack;
+
 
 See also
 
