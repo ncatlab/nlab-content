@@ -81,7 +81,7 @@ A [[formal language]] ([[theory]]) for expressing [[programs]]. Used and studied
 
 * **computer algebra systems
 
-  * [[Mathematica]], SageMath, SymPy, ...
+  * [[Mathematica]], [[SageMath]], SymPy, ...
 
 
 ## Related concepts
