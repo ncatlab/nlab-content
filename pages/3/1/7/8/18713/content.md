@@ -2,7 +2,15 @@
 Severin Bunk is working on [[higher structures]] in geometry and topology, field theories and [[mathematical physics]], currently at the University of Hertfordshire.
 
 
-* [website](https://sites.google.com/view/severinbunk/home)
+* [personal page](https://sites.google.com/view/severinbunk/home)
+
+* [institute page](https://researchprofiles.herts.ac.uk/en/persons/severin-bunk/)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=287945)
+
+* [inSpire page](https://inspirehep.net/authors/1318594)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=UrvkfL0AAAAJ&hl=en)
 
 ## Selected writings
 
