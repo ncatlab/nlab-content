@@ -1,5 +1,10 @@
 
-* [website](https://researchers.adelaide.edu.au/profile/daniel.stevenson)
+* [institute page](https://researchers.adelaide.edu.au/profile/daniel.stevenson)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=5_6iDYwAAAAJ&hl=en)
+
+* [ResearchGate page](https://www.researchgate.net/scientific-contributions/Danny-Stevenson-11998673)
+
 
 ## Selected writings
 
