@@ -24,7 +24,7 @@
 
 ## Idea
 
-A formal language ([[theory]]) for expressing [[programs]]. Used and studied in [[computer science]].
+A [[formal language]] ([[theory]]) for expressing [[programs]]. Used and studied in [[computer science]].
 
 ## Examples
 
@@ -43,13 +43,21 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 ### Specific examples
 
-* **general**
+* **general-purpose (operating within [[classical logic]])**
 
-  * [[Python]]
+  * [[Python]], C++, Java, C#, ...
+
+* **[[predicate logic]] (based on its subset)
+
+  * Prolog, Datalog, ...
 
 * **[[linear logic]]
 
   * [[Rust]]
+
+* **[[fuzzy logic]]
+
+  * FuzzyCLIPS, Bousi~Prolog, FASILL, LIKELOG, ...
 
 * **[[higher order logic]]**:
 
@@ -63,7 +71,7 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
 * **[[dependent type theory]]**:
 
-  * [[Rocq]], [[Agda]], [[Lean]], [[NuPRL]], ....
+  * [[Rocq]], [[Agda]], [[Lean]], [[NuPRL]], ...
 
 * **[[quantum computation]]**
 
@@ -71,7 +79,9 @@ A formal language ([[theory]]) for expressing [[programs]]. Used and studied in 
 
   * [[Quipper]]
 
-* [[Mathematica]]
+* **computer algebra systems
+
+  * [[Mathematica]], SageMath, SymPy, ...
 
 
 ## Related concepts
