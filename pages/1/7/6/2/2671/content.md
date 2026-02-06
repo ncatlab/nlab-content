@@ -150,8 +150,12 @@ Monographs:
 * [[Pietro Fré]], *Gravity, a Geometrical Course*, Volume 1: *Development of the Theory and Basic Physical Applications*, Spinger (2013) &lbrack;[doi:10.1007/978-94-007-5361-7](https://doi.org/10.1007/978-94-007-5361-7)&rbrack;
 
 * [[Pietro Fré]], *Gravity, a Geometrical Course*, Volume 2: *Black Holes, Cosmology and Introduction to Supergravity*, Springer (2013) &lbrack;[doi:10.1007/978-94-007-5443-0](https://doi.org/10.1007/978-94-007-5443-0)&rbrack;
-
   > on [[black holes]], [[cosmology]] and the ([[D'Auria-Fré formulation of supergravity|D'Auria-Fré formulation of]]) [[supergravity]]
+
+
+* [[Roberto Percacci]], [[Omar Zanusso]]: *Geometry, Gauge, Gravity*, OAPEN (2026)  &lbrack;[doi:10.22323/9788898587087](http://doi.org/10.22323/9788898587087)&rbrack;
+  > (including discussion of [[fiber bundles in physics]])
+
 
 Background on [[pseudo-Riemannian manifolds|pseudo-]][[Riemannian geometry]]:
 
