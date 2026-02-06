@@ -80,6 +80,10 @@ The [[Polyakov action]] (but see there for more) for the bosonic string (and rel
 
 * [[Jürgen Jost]], *Bosonic Strings: A Mathematical Treatment*, AMS/IP Stud. Adv. Math. **21** (2001) &lbrack;[ISBBN:978-0-8218-4336-9](https://bookstore.ams.org/view?ProductCode=AMSIP/21.S.B)[spire:1388134](https://inspirehep.net/literature/1388134)&rbrack;
 
+Lecture notes:
+
+* Chrysoula Markou: *An introduction to string states and their interactions* &lbrack;[arXiv:2602.05173](https://arxiv.org/abs/2602.05173)&rbrack;
+
 See the references at _[[string theory]]_ for more.
 
 
@@ -101,7 +105,7 @@ with further comments in
 
 * Hendrik Grundlin, C. A. Hurst, _The operator quantization of the open bosonic string: field algebra_, Communications in mathematical physics 156 (1993) ([pdf](http://web.maths.unsw.edu.au/~hendrik/String-CMP.pdf))
 
-A correction of some points in these articles is discussed in
+A correction of some points in these articles:
 
 * [[Sergei Merkulov]], _On the geometric quantization of bosonic string_,  Class. Quantum Grav. 9 2267 (1992) ([IOP](http://iopscience.iop.org/0264-9381/9/10/010))
 
@@ -112,7 +116,10 @@ See also
 
 * Yu-liang Liu, Su-qing Chen,Guang-jiong Ni, _Geometrical quantization of bosonic string with Wess-Zumino term on genus-g Riemann surface_, Phys. Rev. D 41, 472&#8211;477 (1990) 
 
-* A. D. Popov, _Geometric quantization of strings and reparametrization invariance_, Theoretical and Mathematical Physics, Volume 83, Number 3 (1990) ([journal](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=tmf&paperid=5817&option_lang=eng))
+* A. D. Popov, _Geometric quantization of strings and reparametrization invariance_, Theoretical and Mathematical Physics **83** 3 (1990) &lbrack;[journal](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=tmf&paperid=5817&option_lang=eng)&rbrack;
+
+
+
 
 ### In multisymplectic geometry and higher geometric quantization
  {#ReferencesMultisymplecticGeometry}
