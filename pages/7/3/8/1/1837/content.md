@@ -13,9 +13,8 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+\tableofcontents
+
 
 ## Idea 
 
@@ -235,9 +234,12 @@ Monographs
 * Mike Guidry, _Gauge Field Theories: An Introduction with Applications_, Wiley 2008 ([ISBN:978-3-527-61736-4](https://www.wiley.com/en-us/Gauge+Field+Theories%3A+An+Introduction+with+Applications-p-9783527617364))
 
 
-Basics on [[fiber bundles in physics]] are recalled in
+Further on basics on [[fiber bundles in physics]]:
 
 * Adam Marsh, _Gauge Theories and Fiber Bundles: Definitions, Pictures, and Results_ ([arXiv:1607.03089](https://arxiv.org/abs/1607.03089))
+
+
+* [[Roberto Percacci]], [[Omar Zanusso]]: *Geometry, Gauge, Gravity*, OAPEN (2026)  &lbrack;[doi:10.22323/9788898587087](http://doi.org/10.22323/9788898587087)&rbrack;
 
 
 An introduction to concepts in the [[quantization]] of gauge theories is in
