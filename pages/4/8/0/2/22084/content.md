@@ -1,6 +1,10 @@
 
 * [personal page](https://sites.google.com/view/lukas-mueller/home)
 
+* [MathGenealogy page](https://www.mathgenealogy.org/id.php?id=287944)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=qaen4vwAAAAJ&hl=en)
+
 
 ## Selected writings
 
