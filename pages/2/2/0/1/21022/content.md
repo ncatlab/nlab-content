@@ -1,4 +1,15 @@
-* [website](https://www.mathi.uni-heidelberg.de/~saberi/)
+
+* [personal page](https://i-saberi.github.io/)
+
+* [personal page](https://www.mathi.uni-heidelberg.de/~saberi/) (old)
+
+* [institute page](https://www.cas.lmu.de/en/people-at-cas/details/ingmar-saberi-51eec07e.html)
+
+* [MathGenealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=216014)
+
+* [inSpire page](https://inspirehep.net/authors/1274312)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=oYUEYnwAAAAJ&hl=de)
 
 
 ### Selected writings
@@ -43,7 +54,7 @@ On [[superconformal symmetry]] via [[derived geometry]]:
 
 * [[Fabian Hahner]], Surya Raghavendran, [[Ingmar Saberi]], [[Brian R. Williams]]: *Local superconformal algebras* &lbrack;[arXiv:2410.08176](https://arxiv.org/abs/2410.08176)&rbrack;
 
-On [[BV formalism]] for [[heterotic string theory|heterotic]] [[D=10 supergravity]] in relation to [[Corant algebroids]] and [BCOV theory](B-model#ReferencesBCOV):
+On [[BV formalism]] for [[heterotic string theory|heterotic]] [[D=10 supergravity]] in relation to [[Courant algebroids]] and [BCOV theory](B-model#ReferencesBCOV):
 
 * [[Julian Kupka]], [[Ingmar Saberi]], [[Charles Strickland-Constable]], [[Fridrich Valach]]: *Kodaira-Spencer theory for Courant algebroids* &lbrack;[arXiv:2602.04658](https://arxiv.org/abs/2602.04658)&rbrack;
 
