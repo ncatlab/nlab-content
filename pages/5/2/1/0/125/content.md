@@ -163,6 +163,8 @@ In some older category theory papers, arrows were written pointing from right to
 
 * [[hom set]], [[hom type]]
 
+* [[cocomposition]]
+
 ## References
 
 * {#RS17} [[Emily Riehl]], [[Mike Shulman]], *A type theory for synthetic ∞-categories*, Higher Structures **1** 1 (2017) &lbrack;[arxiv:1705.07442](https://arxiv.org/abs/1705.07442), [published article](https://higher-structures.math.cas.cz/api/files/issues/Vol1Iss1/RiehlShulman)&rbrack;
