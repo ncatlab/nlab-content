@@ -126,7 +126,7 @@ The observation that the irreps of the Poincar&#233; group correspond to [[funda
 
 * [[Eugene Wigner]], _On unitary representations of the inhomogeneous Lorentz group_ , Ann. Math. **40:1** (1939), 149–204.
 
-Review includes
+Review:
 
 * [[Rudolf Haag]], section I.3.1  of _[[Local Quantum Physics -- Fields, Particles, Algebras]]_
 
@@ -137,7 +137,10 @@ Group, Localization, Statistics and the S-Matrix_, 1996  ([pdf](http://cds.cern.
 
 * [[Xavier Bekaert]], Nicolas Boulanger, _The unitary representations of the Poincare group in any spacetime dimension_ ([arXiv:hep-th/0611263](http://arxiv.org/abs/hep-th/0611263))
 
-* {#Dragon16} [[Norbert Dragon]], _Currents for Arbitrary Helicity_ ([arXiv:1601.07825](http://arxiv.org/abs/1601.07825))
+* {#Dragon16} [[Norbert Dragon]]: _Currents for Arbitrary Helicity_ &lbrack;[arXiv:1601.07825](http://arxiv.org/abs/1601.07825)&rbrack;
+
+* Giovanni Camilletti, María A. Lledó, Mariano A. del Olmo: *Representations of the $D=2$ Euclidean and Poincaré groups* &lbrack;[arXiv:2602.05677](https://arxiv.org/abs/2602.05677)&rbrack;
+
 
 
 [[!redirects unitary irrep of the Poincare group]]
