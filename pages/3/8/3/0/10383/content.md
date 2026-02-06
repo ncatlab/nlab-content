@@ -19,9 +19,7 @@
 
 
 
-#Fiber Bundles in Physics#
-* table of contents
-{:toc}
+\tableofcontents
 
 ## Idea
  {#Idea}
@@ -224,6 +222,7 @@ Further discussion and review:
 
 * [[Roberto Percacci]]: *Non-Perturbative Quantum Field Theory -- An Introduction to Topological and Semiclassical Methods*, SISSA & ICTP (2024) &lbrack;[doi:10.22323/9788898587056](https://doi.org/10.22323/9788898587056), [pdf](https://library.oapen.org/bitstream/handle/20.500.12657/96025/9788898587056.pdf)&rbrack;
 
+* [[Roberto Percacci]], [[Omar Zanusso]]: *Geometry, Gauge, Gravity*, OAPEN (2026)  &lbrack;[doi:10.22323/9788898587087](http://doi.org/10.22323/9788898587087)&rbrack;
 
 Specifically in [[solid state physics]] ([[valence bundles]] and their [[K-theory classification of topological phases of matter]]):
 
