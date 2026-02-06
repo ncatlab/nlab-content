@@ -100,7 +100,8 @@ Review:
 
 * [[Max Niedermaier]], [[Martin Reuter]], _The Asymptotic Safety Scenario in Quantum Gravity_, Living Reviews in Relativity December 2006, 9:5 [doi:10.12942/lrr-2006-5](http://link.springer.com/article/10.12942/lrr-2006-5)
 
-* Riccardo Martini, Gian Paolo Vacca, Omar Zanusso, *Perturbative approaches to non-perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.13910](https://arxiv.org/abs/2210.13910)&rbrack;
+* Riccardo Martini, Gian Paolo Vacca, [[Omar Zanusso]], *Perturbative approaches to non-perturbative quantum gravity*, in: *[[Handbook of Quantum Gravity]]*, Springer (2023) &lbrack;[arXiv:2210.13910](https://arxiv.org/abs/2210.13910)&rbrack;
+
 
 * Astrid Eichhorn, Marc Schiffer, *Asymptotic safety of gravity with matter*, in: [[Handbook of Quantum Gravity]], Springer (2023) &lbrack;[arXiv:2212.07456](https://arxiv.org/abs/2212.07456)&rbrack;
 
