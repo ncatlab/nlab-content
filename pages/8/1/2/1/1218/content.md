@@ -457,11 +457,11 @@ The basic idea of understanding [[generalized smooth spaces]] as [[concrete shea
 
 Chen considered (apart from [[iterated integrals]]) effectively [[presheaves]] on a site of [[convex subsets]] of [[Cartesian spaces]]. In
 
-* {#Chen75} [[Kuo Tsai Chen]], _Iterated integrals, fundamental groups and covering spaces_, Trans. Amer. Math. Soc. 206 (1975), 83&#8211;98 ([jstor:1997148](https://www.jstor.org/stable/1997148))
+* {#Chen75} [[Kuo Tsai Chen]]: _Iterated integrals, fundamental groups and covering spaces_, Trans. Amer. Math. Soc. 206 (1975), 83&#8211;98 ([jstor:1997148](https://www.jstor.org/stable/1997148))
 
 roughly the [[sheaf]] condition was added (without using any of this sheaf-theoretic terminology). The definition of _[[Chen spaces]]_ stabilized in
 
-* {#Chen77} [[Kuo Tsai Chen]], _Iterated path integrals_, Bull. Amer. Math. Soc. 83, (1977), 831&#8211;879 ([euclid:1183539443](https://projecteuclid.org/euclid.bams/1183539443))
+* {#Chen77} [[Kuo Tsai Chen]]: *Iterated path integrals*, Bull. Amer. Math. Soc. **83** (1977), 831-879 &lbrack;[euclid:1183539443](https://projecteuclid.org/euclid.bams/1183539443)&rbrack;
 
 and served as the basis of a celebrated theorem on the [[de Rham cohomology]] of [[loop spaces]].
 
