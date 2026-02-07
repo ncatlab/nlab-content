@@ -38,6 +38,8 @@ Mostly however "superspace" is used for [[superspacetimes]], and here mostly for
 ## References
  {#References}
 
+### General
+
 The concept of superspace in physics (together with that of [[superfields]]) is due to
 
 * [[Abdus Salam]], [[John Strathdee]], _Supergauge Transformations_, Nucl.Phys. B76 (1974) 477-482 ([spire:89208](http://inspirehep.net/record/89208))
@@ -51,6 +53,26 @@ Monographs:
 * {#GatesGrisaruRocekSiegel83} [[Jim Gates]] Jr, [[Marcus Grisaru]], [[Martin Roček]], [[Warren Siegel]], _Superspace, or One thousand and one lessons in supersymmetry_, Front. Phys. **58** (1983) 1-548 &lbrack;[arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200), [inspire:195126](https://inspirehep.net/literature/195126)&rbrack;
 
 * [[Ioseph L. Buchbinder]], [[Sergei M. Kuzenko]], *Ideas and Methods of Supersymmetry and Supergravity -- or: A Walk Through Superspace*, IoP (1995) &lbrack;[doi:10.1201/9780367802530](https://doi.org/10.1201/9780367802530), [oapen:20.500.12657/50874](https://library.oapen.org/handle/20.500.12657/50874), [inspire:1946734](https://inspirehep.net/literature/1946734)&rbrack;
+
+Further review:
+
+* I. L. Buchbinder, S. M. Kuzenko: _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
+
+* [[Albert Schwarz]], _On the definition of superspace_ Teoret. Mat. Fiz., 1984,  Volume 60,  Number 1, Pages 37&#8211;42   (Mi tmf5111), ([russian original](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
+
+* [[Urs Schreiber]]: _[[geometry of physics -- supergeometry]]_
+
+Further mathematical discussion via [[supermanifolds]]:
+
+* Johannes Moerland: *Spinorial Superspaces and Super Yang-Mills Theories* &lbrack;[arXiv:2411.06165](https://arxiv.org/abs/2411.06165)&rbrack;
+
+Discussion of superspace within [[philosophy of physics]]:
+
+* Tushar Menon, _Taking up superspace -- the spacetime structure of supersymmetric field theory_ ([philsci:14682](http://philsci-archive.pitt.edu/14682/), [pdf](https://core.ac.uk/download/pdf/157868366.pdf))
+
+
+### For supergravity
+ {#ReferencesForSupergravity}
 
 The formulation of [[supergravity]] on [[super spacetime]] [[supermanifolds]]: 
 
@@ -98,13 +120,8 @@ A proof of this claim is laid out in
 using further lemmas and then heavy computer algebra checks ([here](/schreiber/show/Flux+Quantization+on+11d+Superspace#AncillaryFiles)).
 
 
-Further review:
 
-* I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
-
-* [[Albert Schwarz]], _On the definition of superspace_ Teoret. Mat. Fiz., 1984,  Volume 60,  Number 1, Pages 37&#8211;42   (Mi tmf5111), ([russian original](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
-
-* [[Urs Schreiber]], _[[geometry of physics -- supergeometry]]_
+### For T-duality
 
 On [[T-duality]] formulated on superspace:
 
@@ -118,13 +135,6 @@ On [[T-duality]] formulated on superspace:
 
 * [[Daniel Butter]], [[Falk Hassler]], [[Christopher N. Pope]], Haoyu Zhang: *Generalized Dualities and Supergroups*, J. High Energ. Phys. **2023** 52 (2023) &lbrack;[arXiv:2307.05665](https://arxiv.org/abs/2307.05665), <a href="https://doi.org/10.1007/JHEP12(2023)052">doi:10.1007/JHEP12(2023)052</a>&rbrack;
 
-More mathematical discussion via [[supermanifolds]]:
-
-* Johannes Moerland: *Spinorial Superspaces and Super Yang-Mills Theories* &lbrack;[arXiv:2411.06165](https://arxiv.org/abs/2411.06165)&rbrack;
-
-Discussion of superspace within [[philosophy of physics]]:
-
-* Tushar Menon, _Taking up superspace -- the spacetime structure of supersymmetric field theory_ ([philsci:14682](http://philsci-archive.pitt.edu/14682/), [pdf](https://core.ac.uk/download/pdf/157868366.pdf))
 
 
 [[!redirects superspaces]]
