@@ -76,9 +76,9 @@ $$
 $$
 
 
-## Categorical semantics
+## Cocategorical semantics
 
-In the context of [[formal logic]], particularly in [[linear logic]] and [[type theories]] with costructural rules, cocomposition is the [[categorical semantics]] for the [[contraction rule]], realized categorically as [[monoidal category with diagonals|diagonal (comultiplicative) maps]] on objects or morphisms.
+In the context of [[formal logic]], particularly in [[linear logic]] and [[type theories]] with costructural rules, cocomposition is the [[categorical semantics|cocategorical semantics]] for the [[contraction rule]], realized categorically as [[monoidal category with diagonals|diagonal (comultiplicative) maps]] on objects or morphisms.
 
 ## Examples
 
