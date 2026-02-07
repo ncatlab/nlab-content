@@ -53,7 +53,7 @@ A review with an eye towards the interpretation of the Riemann theta functions a
 
 Discussion as covariantly constant sections of the [[Hitchin connection]]:
 
-* {#Hitchin90} [[Nigel Hitchin]]: _Flat connections and geometric quantization_, : Comm. Math. Phys. **131** 2 (1990) 347-380 &lbrack;[euclid:cmp/1104200841](http://projecteuclid.org/euclid.cmp/1104200841)&rbrack;
+* {#Hitchin90} [[Nigel Hitchin]]: _Flat connections and geometric quantization_, Comm. Math. Phys. **131** 2 (1990) 347-380 &lbrack;[euclid:cmp/1104200841](http://projecteuclid.org/euclid.cmp/1104200841)&rbrack;
 
 As the [[quantum states]] of [[abelian Chern-Simons theory]] [[3D TQFT]]:
 
