@@ -971,7 +971,7 @@ Via the [[Reshetikhin-Turaev construction]]:
 * Philippe Mathieu, [[Frank Thuillier]]: *Abelian Turaev-Virelizier theorem and $U(1)$ BF surgery formulas* &lbrack;[arXiv:1706.01845](https://arxiv.org/abs/1706.01845)&rbrack;
 
 
-On abelian Chern-Simons theory via [[theta functions]] and the [[representation theory]] of the [[integer Heisenberg group]]:
+On abelian Chern-Simons theory via ([[Riemann theta function|Riemann's]]) [[theta functions]] and the [[representation theory]] of the [[integer Heisenberg group]]:
 
 * {#GelcaUribe10} [[Răzvan Gelca]], [[Alejandro Uribe]]: *From classical theta functions to topological quantum field theory*, in: *The Influence of Solomon Lefschetz in Geometry and Topology: 50 Years of Mathematics at CINVESTAV*, Contemporary Mathematics **621**, AMS (2014) 35-68 &lbrack;[arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [doi;10.1090/conm/621](https://doi.org/10.1090/conm/621), [ams:conm-621](https://bookstore.ams.org/conm-621), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf), [[GelcaUribe-ThetaFunctionsTQFT.pdf:file]]&rbrack;
 
