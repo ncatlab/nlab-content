@@ -1,4 +1,4 @@
-Matthew Di Meglio is a PhD student in the Laboratory for Foundations of Computer Science at the University of Edinburgh working with [[Chris Heunen]] and [[Perdita Stevens]]. He previously completed a Masters of Research at Macquarie University with [[Michael Johnson]]. 
+Matthew Di Meglio is a postdoctoral researcher at Inria Saclay. He was previously a PhD student in the Laboratory for Foundations of Computer Science at the University of Edinburgh working with [[Chris Heunen]] and [[Perdita Stevens]]. He previously completed a Masters of Research at Macquarie University with [[Michael Johnson]]. 
 
 * [website](https://mdimeglio.github.io)
 
