@@ -33,7 +33,7 @@ See also [[discrete valuation]] and [[valuation ring]].
 
 ## Definition
 
-Given a [[total order|totally ordered]] [[abelian group]] $G$, a $G$-valued __valuation__ $v$ on a (commutative) [[field]] $K$ is a (typically required to be surjective) [[function]] $v:K\to G\cup \infty$ such that $v(K^\times)\subset G$ and 
+Given a [[total order|totally ordered]] [[abelian group]] $G$, a $G$-valued __valuation__ $v$ on a (commutative) [[field]] $K$ is a (typically required to be surjective) [[function]] $v:K\to G\cup \{\infty\}$ such that $v(K^\times)\subset G$ and 
 
 * $v$ defines a [[homomorphism]] of [[groups]] $v|_K : K^\times\to G$ where $K^\times$ is the [[multiplicative group]] of $K$
 
