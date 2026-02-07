@@ -42,7 +42,7 @@ Double ∞-categories were introduced in
 
 Other works include: 
 
-* [[Lyne Moser]], _A double (∞,1)-categorical nerve for double categories_ &lbrack;[arXiv:2007.01848](https://arxiv.org/abs/2308.03583)&rbrack;
+* [[Lyne Moser]], _A double (∞,1)-categorical nerve for double categories_ &lbrack;[arXiv:2007.01848](https://arxiv.org/abs/2007.01848)&rbrack;
 
 * [[Jaco Ruit]], _Formal category theory in ∞-equipments I_ &lbrack;[arXiv:2308.03583](https://arxiv.org/abs/2308.03583)&rbrack;
 
