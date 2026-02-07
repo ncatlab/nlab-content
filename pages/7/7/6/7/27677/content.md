@@ -19,7 +19,7 @@ On [[quantization of Chern-Simons theory]] in terms of [[Weyl quantization]] and
 * {#GelcaUribe10b} [[Răzvan Gelca]], [[Alejandro Uribe]]: _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ &lbrack;[arXiv:1007.2010](http://arxiv.org/abs/1007.2010)&rbrack;
 
 
-On the [[integer Heisenberg group]] describing the [[phase space]] of [[abelian Chern-Simons theory]] on [[closed manifold|closed]] [[Riemann surfaces]] (and its relation to [[skein relations]] and [[theta functions]]):
+On the [[integer Heisenberg group]] describing the [[phase space]] of [[abelian Chern-Simons theory]] on [[closed manifold|closed]] [[Riemann surfaces]] (and its relation to [[skein relations]] and [[Riemann theta function|Riemann's]] [[theta functions]]):
 
 * {#GelcaUribe10} [[Răzvan Gelca]], [[Alejandro Uribe]]: *From classical theta functions to topological quantum field theory*, in: *The Influence of Solomon Lefschetz in Geometry and Topology: 50 Years of Mathematics at CINVESTAV*, Contemporary Mathematics **621**, AMS (2014) 35-68 &lbrack;[arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [doi;10.1090/conm/621](https://doi.org/10.1090/conm/621), [ams:conm-621](https://bookstore.ams.org/conm-621), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf), [[GelcaUribe-ThetaFunctionsTQFT.pdf:file]]&rbrack;
 
