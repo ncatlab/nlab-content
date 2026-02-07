@@ -19,7 +19,7 @@
 
 ## Idea
 
-For a [[category]] $C$, its _opposite category_ $C^{op}$ is the category obtained by formally reversing the direction of all its [[morphisms]] (while retaining their original composition law).
+For a [[category]] $C$, its _opposite category_ (often called an _opcategory_) $C^{op}$ is the category obtained by formally reversing the direction of all its [[morphisms]] (while retaining their original composition law).
 
 Categories generalize (are a [[horizontal categorification]] of) [[monoids]], [[groups]] and [[algebras]], and forming the opposite category corresponds to forming the opposite of a group, of a monoid, of an algebra.
 
@@ -319,6 +319,10 @@ and discussion for the case of [[Ho(Cat)]]:
 
 [[!redirects dual category]]
 [[!redirects dual categories]]
+
+[[!redirects op-category]]
+[[!redirects op-categories]]
+[[!redirects opcategories]]
 
 [[!redirects op]]
 
