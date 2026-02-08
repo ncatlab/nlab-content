@@ -21,7 +21,7 @@
 
 ## Idea
 
-In [[algebra]] a _bimodule_ over a [[ring]] is a [[module]] in two compatible ways, with one [[action]] from the left and one from the right.
+In [[algebra]], a _bimodule_ over a [[ring]] is a [[module]] in two compatible ways, with one [[action]] from the left and one from the right.
 
 This notion generalizes to the broader context of [[actions]] of ([[enriched category|enriched]]) [[categories]], in which case bimodules are also called *[[profunctors]]* or *[[distributors]]*.
 
