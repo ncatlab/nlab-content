@@ -29,6 +29,13 @@ $$
 $$
 $M'$ is in $T$ if $M$ and $M''$ are in $T$. 
 
+Equivalently, it is a full nonempty subcategory such that 
+for any short exact sequence
+$$
+  0\to M\to M'\to M''\to 0
+$$
+$M'$ is in $T$ if _and only if_ $M$ and $M''$ are in $T$ (in other words, it is a strictly full subcategory containing $0$ and closed under subobjects, quotients and extensions).
+
 \begin{remark}
 **(Terminology)**
 This notion in general is called a [[thick subcategory]] in Gabriel's thesis, [[Des Catégories Abéliennes]]. The terminology is a minefield as there are variants that occur in the literature, see [[thick subcategory]], and also the [Stack's Project section on this](http://stacks.math.columbia.edu/tag/02MN). Some of these variants are mentioned below.
