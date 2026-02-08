@@ -21,9 +21,11 @@
 
 ## Idea
 
-A _bimodule_ is a [[module]] in two compatible ways over two [[rings]].
+In [[algebra]] a _bimodule_ over a [[ring]] is a [[module]] in two compatible ways, with one [[action]] from the left and one from the right.
 
-A bimodule is also sometimes called a **[[profunctor]]** or a **distributor** or a **relator** or a **correspondence**, though the latter word is also used for a [[span]].
+This notion generalizes to the broader context of [[actions]] of ([[enriched category|enriched]]) [[categories]], in which case bimodules are also called *[[profunctors]]* or *[[distributors]]*.
+
+
 
 ## Definition
 
