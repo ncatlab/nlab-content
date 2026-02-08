@@ -30,7 +30,7 @@ $\mathbf{Prof}$ can also be obtained as the [[Kleisli 2-category]] of [[functori
 
 ## Properties
 
-If profunctors are [[categorification|categorified]] [[binary relations]], then $Prof$ is a categorification of [[Rel]].
+If profunctors are [[categorification|categorified]] [[binary relations]], then $Prof$ is a [[vertical categorification|categorification]] of [[Rel]].
 
 Note that as defined here, $Prof$ is a weak $2$-[[2-category|category]] or [[bicategory]].  A naturally defined equivalent [[strict 2-category]] has the same objects, but the morphisms $A\to B$ are [[cocontinuous functor]]s $P A \to P B$, where $P A$ is the [[presheaf category]] of $A$.  This is equivalent because a profunctor $A\to B$ can equivalently be regarded as a functor $A\to P B$, and $P A$ is the [[free cocompletion]] of $A$.  This equivalence is an instance of [[Lack's coherence theorem]].
 
