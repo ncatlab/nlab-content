@@ -146,11 +146,13 @@ $$
 
 such that the $\{V_i \to V\}$ form a good open cover of $V$. 
 
-Now, while $ParaSmMfd$ does not have all [[pullbacks]], the pullback  of an [[open cover]] does exist, and since $f$ is necessarily a [[continuous function]] this is an [[open cover]] $\{f^* U_i \to V\}$. The $f^* U_i$ need not be contractible, but being open subsets of a paracompact manifold, they are themselves paracompact manifolds and hence admit themselves good open covers $\{W_{i,j} \to f^* U_i\}$.
+Now, while $ParaSmMfd$ does not have all [[pullbacks]], the pullback  of an [[open cover]] as such does exist, and since $f$ is necessarily a [[continuous function]] this is an [[open cover]] $\{f^* U_i \to V\}$, the *pullback cover*.
 
-Then the family of composites $\{W_{i,j} \to f^* U_i \to V\}$ is clearly a good open cover of $V$.
+Now it just remains to see that this pullback cover can in turn be refined to a differentiably good open cover. But that follows essentially the same logic as in the existence proof [above](#ExistenceOnParacompactManifolds): 
 
+Choose a Riemannian metric on $V$. For each point $v \in V$ we may find an $i \in I$ such that $v \in f^\ast U_i$ and then a radius $r_v$ small enough such that the $r_v$-ball $V_v$ around $v$ is geodesically convex, *and* such that it is still contained in $f^\ast U_i$.
 
+The collection of all these $V_v \hookrightarrow V$ is the desired refinement. 
 
 =--
 
