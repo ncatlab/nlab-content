@@ -1427,7 +1427,7 @@ See also:
 
 Discussion in the context of [[principal infinity-bundles|principal $\infty$-bundles]]:
 
-* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]* ([arXiv:2112.13654](https://arxiv.org/abs/2112.13654))
+* {#SatiSchreiber21} [[Hisham Sati]], [[Urs Schreiber]], *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]*, Cambridge University Press (2026) &lbrack;ISBN:9781009698559, [arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
 
 
 
