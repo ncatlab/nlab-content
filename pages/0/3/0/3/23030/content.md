@@ -256,7 +256,7 @@ also [Guillou, May & Merling 2017, Lem. 4.5](#GuillouMayMerling17).
 \begin{remark}
   Subgroups of the form (eq:MayStyleCrossedHomomorphism)
   are considered throughout articles by [[Peter May]] on [[equivariant principal bundles]] (e.g. in [Lashof & May 1986, Thm. 10](equivariant+bundle#LashofMay86), [May 1990, Thm. 7](equivariant+bundle#May90)).
-That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomorphisms]] may have been one the key observations that lead to [Murayama & Shimakawa 1995](#MurayamaShimakawa95), though the statement of Prop. \ref{GraphOfACrossedHomomorphism} was still not explicit there.
+That these are equivalently ([[graph of a function|graphs]] of) [[crossed homomorphisms]] may have been one of the key observations that lead to [Murayama & Shimakawa 1995](#MurayamaShimakawa95), though the statement of Prop. \ref{GraphOfACrossedHomomorphism} was still not explicit there.
 \end{remark}
 
 
@@ -1407,7 +1407,6 @@ In view of [[homotopy fixed points]]:
 In discussion of [[equivariant principal bundles]]:
 
 * {#tomDieck69} [[Tammo tom Dieck]], Sec. 2.1 in: _Faserbündel mit Gruppenoperation_, Arch. Math 20, 136–143 (1969) ([doi:10.1007/BF01899003](https://doi.org/10.1007/BF01899003))
-
   > (not using the terminology "crossed homomorphism", but already characterizing their graphs, as in Lem. \ref{GraphOfACrossedHomomorphism})
 
 * {#MurayamaShimakawa95} [[Mitutaka Murayama]], [[Kazuhisa Shimakawa]], p. 2 of: _Universal equivariant bundles_, Proc. Amer. Math. Soc. 123 (1995), 1289-1295 ([doi:10.1090/S0002-9939-1995-1231040-9](https://doi.org/10.1090/S0002-9939-1995-1231040-9))
@@ -1425,6 +1424,11 @@ Discussion for [[Lie groups]]:
 Discussion in relation to [[crossed modules]]:
 
 * {#Noohi07} [[Behrang Noohi]], *Notes on 2-groupoids, 2-groups and crossed-modules*, Homotopy, Homology, and Applications, 9, (2007), no. 1, 75--106 ([arXiv:math/0512106](https://arxiv.org/abs/math/0512106))
+
+The discussion above follows:
+
+* {#SatiSchreiber2026} [[Hisham Sati]], [[Urs Schreiber]]: *[[schreiber:Equivariant principal infinity-bundles|Equivariant principal $\infty$-bundles]]*, Cambridge University Press (2026) &lbrack;ISBN:9781009698559, [arXiv:2112.13654](https://arxiv.org/abs/2112.13654)&rbrack;
+
 
 
 [[!redirects crossed homomorphisms]]
