@@ -23,6 +23,8 @@
 
 A _bimodule_ is a [[module]] in two compatible ways over two [[rings]].
 
+A bimodule is also sometimes called a **[[profunctor]]** or a **distributor** or a **relator** or a **correspondence**, though the latter word is also used for a [[span]].
+
 ## Definition
 
 ### Over a ring
