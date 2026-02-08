@@ -141,7 +141,7 @@ $\,$
 
 ## Basic Homotopy Theory
 
-This chapter is at _[[Introduction to Topology -- 2|Introduction to Topology 1 -- Basic Homotopy Theory]]_
+This chapter is at _[[Introduction to Topology -- 2|Introduction to Topology 2 -- Basic Homotopy Theory]]_
 
 $\,$
 
