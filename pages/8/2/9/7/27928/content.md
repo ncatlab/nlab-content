@@ -336,8 +336,9 @@ Early discussion of 3D Maxwell-Chern-Simons theory:
 
 * [[A. P. Balachandran]], L. Chandar, E. Ercolessi, T. R. Govindarajan, [[Ramamurti Shankar]]: *Maxwell-Chern-Simons electrodynamics on a disk*, International Journal of Modern Physics A **09** 19 (1994) 3417-3441 &lbrack;[doi:10.1142/S0217751X94001357](https://doi.org/10.1142/S0217751X94001357)&rbrack;
 
-Review: 
 
+
+Review: 
 
 * [[Gerald V. Dunne]]; §2.2 in: *Aspects of Chern-Simons Theory*, in: *Topological aspects of low dimensional systems*, Les Houches -- École d'Été de Physique Théorique **69**, Springer (1999) &lbrack;[doi:10.1007/3-540-46637-1_3](https://doi.org/10.1007/3-540-46637-1_3), [arXiv:hep-th/9902115](https://arxiv.org/abs/hep-th/9902115)&rbrack;
 
@@ -354,8 +355,14 @@ Topological Quantum Fluid*, PhD thesis, Imperial College London (2020) \[<a href
 
 * [[Eduardo Fradkin]]; section 10 of: *Field Theoretic Aspects of Condensed Matter Physics: An Overview*, *Encyclopedia of Condensed Matter Physics (2nd ed.)* **1** (2024) 27-131 &lbrack;[doi:10.1016/B978-0-323-90800-9.00269-9](https://doi.org/10.1016/B978-0-323-90800-9.00269-9), [arXiv:2301.13234](https://arxiv.org/abs/2301.13234)&rbrack;
 
+On Maxwell-Chern-Simons theory as the result of "[[bosonization]]" of interacting [[fermions]]:
 
-In relation to [[area-preserving diffeomorphisms]]:
+* [[Eduardo Fradkin]], Fidel A. Schaposnik: *The Fermion-Boson Mapping in Three Dimensional Quantum Field Theory*, Phys. Lett. B **338** (1994) 253-258 &lbrack;[arXiv:hep-th/9407182](https://arxiv.org/abs/hep-th/9407182), <a href="https://doi.org/10.1016/0370-2693(94)91374-9">doi:10.1016/0370-2693(94)91374-9</a>&rbrack;
+  (from the massive [[Thirring model]])
+
+
+
+On [[area-preserving diffeomorphisms]] [[symmetry]] Maxwell-Chern-Simons theory:
 
 * Ian I. Kogan: *Area Preserving Diffeomorphisms and  Symmetry in a  Chern-Simons Theory* &lbrack;[arXiv:hep-th/9208028](https://arxiv.org/abs/hep-th/9208028)&rbrack;
 
