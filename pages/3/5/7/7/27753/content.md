@@ -226,6 +226,11 @@ Relation to [[superconductors]]:
 
 * Taige Wang, Michael P. Zaletel: *Chiral superconductivity near a fractional Chern insulator* &lbrack;[arXiv:2507.07921](https://arxiv.org/abs/2507.07921)&rbrack;
 
+Derivation from a [[Hubbard model]]:
+
+* Fabian J. Pauw, Ulrich Schollwöck, Nathan Goldman, Sebastian Paeckel, Felix A. Palm: *From hidden order to skyrmions: Quantum Hall states in an extended Hofstadter-Fermi-Hubbard model*, Phys. Rev. B **113** (2026) 035142 &lbrack;[arXiv:2509.12184](https://arxiv.org/abs/2509.12184), [doi:10.1103/cqt2-b327](https://doi.org/10.1103/cqt2-b327)&rbrack;
+
+
 #### Anyonic states
   {#ReferencesFQAHAnyons}
 
@@ -309,6 +314,8 @@ On the chiral graviton mode in FCIs:
 [[!redirects fractional Chern insulator]]
 [[!redirects fractional Chern insulators]]
 
+[[!redirects FCI]]
+[[!redirects FCIs]]
 
 
 
