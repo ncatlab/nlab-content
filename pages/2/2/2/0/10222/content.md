@@ -164,9 +164,6 @@ Dually, viewing partitions as surjections from $S$, the lattice structure may be
 [[!redirects partition]]
 [[!redirects partitions]]
 
-[[!redirects composition]]
-[[!redirects compositions]]
-
 [[!redirects tagged partition]]
 [[!redirects tagged partitions]]
 [[!redirects freely tagged partition]]
