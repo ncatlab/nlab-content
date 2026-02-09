@@ -65,7 +65,7 @@ Lax transformations from $F$ to $G$ and [[modification]]s between them form a [[
 
 Pushing it up a notch, for 2-categories $C$ and $D$ we have hom-2-categories $2Cat_{lax}(C,D)$, $2Cat_{ps}(C,D)$, and $2Cat_{oplax}(C,D)$ whose objects are 2-functors (generally taken to be strong or strict), whose morphisms are lax, pseudo, or oplax transformations respectively, and whose 2-cells are modifications.  These hom-2-categories are the [[internal homs]] for the various version of the [[Gray tensor product]] on $2Cat$.
 
-Finally, there is a [[3-category]] consisting of 2-categories, (strong or strict) 2-functors, pseudo-natural transformations, and modifications.  No laxness is possible at this level (without "laxifying" the notion of 3-category).
+Finally, there is a [[Gray-category]] consisting of 2-categories, (strong or strict) 2-functors, pseudo-natural transformations, and modifications.  No laxness is possible at this level (without "laxifying" the notion of Gray-category).
 
 
 ## "Lax" versus "oplax" ##
