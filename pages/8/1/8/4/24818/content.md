@@ -15,6 +15,8 @@ Argument that "entanglement islands" can resolve the [[black hole information pa
 
 * [[Hao Geng]]: *Making the Case for Massive Islands* \[<a href="https://arxiv.org/abs/2509.22775">arXiv:2509.22775</a>\]
 
+* [[Hao Geng]], [[Andreas Karch]], [[Carlos Perez-Pardavila]], [[Suvrat Raju]], [[Lisa Randall]], [[Marcos Riojas]]: *Seeing Page Curves and Islands with Blinders On* \[<a href="https://arxiv.org/abs/2602.06543">arXiv:2602.06543</a>\]
+
 and what to do about it:
 
 * [[Hao Geng]], [[Andreas Karch]], [[Carlos Perez-Pardavila]], [[Suvrat Raju]], [[Lisa Randall]], [[Marcos Riojas]], [[Sanjit Shashi]], *Information Transfer with a Gravitating Bath*, SciPost Phys. **10** 103 (2021)  \[<a href="https://arxiv.org/abs/2012.04671">arXiv:2012.04671</a>, [doi:10.21468/SciPostPhys.10.5.103](https://scipost.org/10.21468/SciPostPhys.10.5.103)\]
