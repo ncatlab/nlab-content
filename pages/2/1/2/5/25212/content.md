@@ -2,7 +2,7 @@
 
 ## Idea
 
-A unique factorization ring is like a unique factorization domain but where we do not require the [[commutative ring]] to be an [[integral domain]]: instead of talking about the non-zero elements, we simply talk about the [[regular elements]] of the commutative ring, since the non-regular elements of a commutative ring are precisely the [[zero divisors]] of a commutative ring. 
+A unique factorization ring is like a [[unique factorization domain]] but where we do not require the [[commutative ring]] to be an [[integral domain]]: instead of talking about the non-zero elements, we simply talk about the [[regular elements]] of the commutative ring, since the non-regular elements of a commutative ring are precisely the [[zero divisors]] of a commutative ring. 
 
 This becomes important in [[constructive mathematics]] when we have multiple different notions of [[integral domain]], where one could talk about 
 
