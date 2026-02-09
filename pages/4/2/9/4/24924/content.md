@@ -88,6 +88,11 @@ Reaction to the criticism:
 
 * Stefano Antonini, Chang-Han Chen, Henry Maxfield, [[Geoff Penington]]: *An apologia for islands* \[<a href="https://arxiv.org/abs/2506.04311">arXiv:2506.04311</a>\]
 
+and reply to the reaction:
+
+* [[Hao Geng]], [[Andreas Karch]], [[Carlos Perez-Pardavila]], [[Suvrat Raju]], [[Lisa Randall]], [[Marcos Riojas]]: *Seeing Page Curves and Islands with Blinders On* \[<a href="https://arxiv.org/abs/2602.06543">arXiv:2602.06543</a>\]
+
+
 
 
 
