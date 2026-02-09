@@ -52,10 +52,10 @@ Usually this term is only used when $C$ has all small limits, i.e. is a [[comple
 
 ## Properties
 
-\begin{remark}
+\begin{proposition}
   \label{vacuous}
   If there exists at least one limit $(x, \eta)$ for $J$ that is preserved by $F$, then every limit for $J$ is preserved by $F$.
-\end{remark}
+\end{proposition}
 
 \begin{proof}
   Any other limit $(y, \mu)$ is uniquely isomorphic to $(x, \eta)$, and $F$ preserves this isomorphism (as all functors do). This implies $(F(y), F \cdot \mu)$ is a limit for $F \circ J$.
@@ -63,14 +63,48 @@ Usually this term is only used when $C$ has all small limits, i.e. is a [[comple
 
 Thus, for a specified diagram $J\colon I \to C$, preservation of limits either holds vacuously (if $J$ has no limit in $C$), or holds for all limit cones over $J$.
 
-\begin{remark}
+\begin{proposition}
   \label{comparisonMap}
-  Suppose $(x, \eta)$ is a limit for $J$ and $(y, \mu)$ is a limit for $F \circ J$. Since $(Fx, F \cdot \eta)$ is a cone over $F \circ J$, there is a canonical comparision map $f \colon Fx \to y$ with $(F \cdot \eta)_j = \mu_j \circ f$ for each $j \in I$. Then $F$ preserves $(x, \eta)$ if and only if this comparision map is an isomorphism.
-\end{remark}
+  Suppose $(x, \eta)$ is a limit for $J$ and $(y, \mu)$ is a limit for $F \circ J$. Since $(F(x), F \cdot \eta)$ is a cone over $F \circ J$, there is a canonical comparision map $f \colon F(x) \to y$ with $(F \cdot \eta)_j = \mu_j \circ f$ for each $j \in I$. Then $F$ preserves $(x, \eta)$ if and only if this comparision map is an isomorphism.
+\end{proposition}
 
 \begin{proof}
-  $F$ preserves $(x, \eta)$ if and only if $(Fx, F \cdot \eta)$ is a limit for $F \circ J$. Since $(y, \mu)$ is already a limit for $F \circ J$, that is if and only if $(Fx, F \cdot \eta)$ is isomorphic to $(y, \mu)$ in the category of cones over $F \circ J$. And since $(y, \mu)$ is terminal in this category, that's if and only if the comparison map, between the unique morphism $(Fx, F \cdot \eta) \to (y, \mu)$ in the cone category, is an isomorphism.
+  $F$ preserves $(x, \eta)$ if and only if $(F(x), F \cdot \eta)$ is a limit for $F \circ J$. Since $(y, \mu)$ is already a limit for $F \circ J$, that is if and only if $(F(x), F \cdot \eta)$ is isomorphic to $(y, \mu)$ in the category of cones over $F \circ J$. And since $(y, \mu)$ is terminal in this category, that's if and only if the comparison map, between the unique morphism $(F(x), F \cdot \eta) \to (y, \mu)$ in the cone category, is an isomorphism.
 \end{proof}
+
+For the following properties, we have $J \colon I \to C$ a diagram, and $F \colon C \to D, G \colon D \to E$ functors.
+
+\begin{proposition}
+  \label{compositionsOfLimitPreservingAreLimitPreserving}
+  If $F$ preserves limits of $J$ and $G$ preserves limits of $F \circ J$, we have that $G \circ F$ preserves limits of $J$.
+\end{proposition}
+
+\begin{proof}
+  Take a limit $(x, \eta)$ for $J$. Then $(F(x), F \cdot \eta)$ is a limit for $F \circ J$ since $F$ preserves this limit, and then $((G \circ F)(x), (G \circ F) \cdot \eta)$ is a limit for $(G \circ F) \circ J$ since $G$ preserves this limit, as required.
+\end{proof}
+
+\begin{proposition}
+  \label{compositePreservesAndSecondReflectsImpliesFirstPreserves}
+  If $G \circ F$ preserves limits of $J$ and $G$ [[reflected limit|reflects]] limits of $F \circ J$, we have that $F$ preserves limits of $J$.
+\end{proposition}
+
+\begin{proof}
+  Take a limit $(x, \eta)$ for $J$. We want to show $(F(x), F \cdot \eta)$ is a limit for $F \circ J$. Since $G$ reflects limits of $F \circ J$, it suffices to show $((G \circ F)(x), (G \circ F) \cdot \eta)$ is a limit for $(G \circ F) \circ J$. But this follows since $G \circ F$ preserves limits of $J$.
+\end{proof}
+
+\begin{proposition}
+  \label{compositePreservesAndFirstLiftsImpliesSecondPreserves}
+  If $G \circ F$ preserves limits of $J$ and $F$ [[lifted limit|lifts]] limits for $J$, we have that $G$ preserves limits of $F \circ J$.
+\end{proposition}
+
+\begin{proof}
+  Take a limit $(y, \mu)$ for $F \circ J$. We want to show $(G(y), G \cdot \mu)$ is a limit for $(G \circ F) \circ J$. Since $F$ lifts limits for $J$, there is some limit cone $(x, \eta)$ over $J$ with $(F(x), F \cdot \eta) \cong (y, \mu)$ in the category of cones over $F \circ J$. Thus, $((G \circ F)(x), (G \circ F) \cdot \eta) \cong (G(y), G \cdot \mu)$ in the category of cones over $(G \circ F) \circ J$. But the former is a limit for $(G \circ F) \circ J$ since $G \circ F$ preserves limits of $J$, implying the latter is too.
+\end{proof}
+
+The propositions above taken together imply the following:
+
+* If $G$ preserves and reflects limits of $F \circ J$, then $F$ preserves limits of $J$ if and only if $G \circ F$ does.
+* If $F$ preserves and lifts limits of $J$, then $G$ preserves limits of $F \circ J$ if and only if $G \circ F$ preserves limits of $J$.
 
 ## Examples
   {#Examples}
