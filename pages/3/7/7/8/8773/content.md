@@ -393,9 +393,9 @@ On further [[dimensional reduction]] of $D=5$ Chern-Simons theory:
 
 * M. Temple‐Raston: *The reduction of five dimensional Chern–Simons theories*, J. Math. Phys. **35** (1994) 759–768 &lbrack;[doi:10.1063/1.530665](https://doi.org/10.1063/1.530665), [[TempleRaston-Red5dCS.pdf:file]]&rbrack;
 
-On its 4d [[boundary field theory]]:
+On its [[edge modes]] in higher dimensional generalization of the relation between 3D [[abelian Chern-Simons theory]] and [[fractional quantum Hall systems]]:
 
-* K. S. Gupta, Allen Stern: *4D edge currents from 5D Chern-Simons theory*, Nuclear Physics B **442** 1–2 (1995) 157-178 \[<a href="https://doi.org/10.1016/S0550-3213(95)00075-5">doi:10.1016/S0550-3213(95)00075-5</a>\]
+* K. S. Gupta, [[Allen B. Stern]]: *4D edge currents from 5D Chern-Simons theory*, Nuclear Physics B **442** 1–2 (1995) 157-178 \[<a href="https://doi.org/10.1016/S0550-3213(95)00075-5">doi:10.1016/S0550-3213(95)00075-5</a>, [arXiv:hep-th/9410216](https://arxiv.org/abs/hep-th/9410216)\]
 
 
 More on [[supersymmetry|supersymmetric]] 5d CS:
