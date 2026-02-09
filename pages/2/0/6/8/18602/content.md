@@ -180,6 +180,9 @@ Further [[lattice QCD]]-simulation increasingly points to there not being an ano
 
 * [Aliberti et al 2025](#AlibertiEtAl25)
 
+But the situation remains murky:
+
+* CernCourier: *[There’s more $g-2$ physics over the horizon](https://cerncourier.com/a/theres-more-g-2-physics-over-the-horizon/)* (Jan 2026)
 
 
 
