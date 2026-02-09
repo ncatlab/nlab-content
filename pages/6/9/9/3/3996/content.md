@@ -29,14 +29,14 @@ Of course, a functor $F$ reflects a colimit if $F^{op}$ reflects the correspondi
 
 If $F$ reflects all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ reflects that sort of limit (e.g. $F$ reflects products, $F$ reflects equalizers, etc.).
 
-## Relation to preservation of limits
+## Properties
 
 Reflection of limits is distinct from [[preservation of limits]], although there are relationships, e.g prop. \ref{ConservativeFunctors}.
 
-\begin{remark}
+\begin{proposition}
   \label{vacuous}
   If there exists at least one cone $\eta$ for $J$ such that $F \cdot \eta$ is a limit for $F \circ J$, and $F$ reflects limits of $J$, then $F$ __[[preservation of limits|preserves]]__ limits of $J$.
-\end{remark}
+\end{proposition}
 
 \begin{proof}
   Reflection implies $\eta$ is a limit for $J$ that is preserved by $F$. By [[preserved limit#vacuous|this remark]], $F$ necessarily preserves all limits of $J$.
@@ -48,6 +48,29 @@ Thus, reflection of limits for a given diagram $J$ either holds vacuously, or ho
   A functor which both reflects *and* lifts limits is said to [[created limit|create]] them.
 \end{remark}
 
+Let $F_i \colon C \to D_i$ be a family of functors, and $J \colon I \to C$ a diagram. We say that these functors **collectively reflect limits of $J$** if and only if a cone $(x, \eta)$ for $J$ that is mapped to a limit cone under all $F_i$ is a limit cone in $C$.
+
+Given such a family, we can consider their "product" $F \colon C \to \prod_i D_i$. Then we have the following relationship:
+
+\begin{proposition}
+  \label{productReflectsImpliesCollectiveReflects}
+  Suppose $F \colon C \to \prod_i D_i$ reflects limits of $J$. Then the functors $\pi_i \circ F \coloneqq F_i \colon C \to D_i$ collectively reflect limits of $J$.
+\end{proposition}
+
+\begin{proof}
+  Take a cone $(x, \eta)$ for $J$, and suppose that $(F_i(x), F_i \cdot \eta)$ is a limit cone in $D_i$ for all $i$. Then, by inspection of the universal property, $(F(x), F \cdot \eta)$ is a limit cone in $\prod_i D_i$. Thus, since $F$ reflects limits of $J$, we conclude that $(x, \eta)$ is a limit cone.
+\end{proof}
+
+The reverse implication also holds provided we make a mild assumption on existence of limits:
+
+\begin{proposition}
+  \label{collectiveReflectsAndExistsImpliesProductReflects}
+  Suppose $F_i \colon C \to D_i$ collectively reflect limits of $J$, and that, for every $i$, $F_i \circ J \colon I \to D_i$ has a limit cone $(L_i, \lambda_{i, j})$, with $\lambda_{i, j} \colon L_i \to (F_i \circ J)(j)$ for $j \in I$ the legs of the cone. Then $F$ reflects limits of $J$.
+\end{proposition}
+
+\begin{proof}
+  Take a cone $(x, \eta)$ for $J$, and suppose it is mapped to a limit cone $(F x, F \cdot \eta)$ for $F \circ J$ in $\prod_i D_i$. By inspecting the universal property, we know that $(\prod_i L_i, \prod_i \lambda_{i, j})$ is a limit for $F \circ J$, so we must have $(F x, F \cdot \eta) \cong (\prod_i L_i, \prod_i \lambda_{i, j})$ in the category of cones over $F \circ J$. Thus, composing with the projections, we have that $(F_i x, F_i \cdot \eta) \cong (L_i, \lambda_{i, j})$ for every $i$ in the category of cones over $F_i \circ J$. Thus $(F_i x, F_i \cdot \eta)$ is a limit cone for every $i$, which by assumption means $(x, \eta)$ is a limit cone, and so $F$ reflects limits of $J$.
+\end{proof}
 
 ## Examples
  {#Examples}
