@@ -12,6 +12,11 @@
 
 ## Selected writings
 
+On the [[standard model of particle physics]]:
+
+* [[Hans Günter Dosch]]: *The Standard Model of Particle Physics*, in: *Approaches to Fundamental Physics*, Lecture Notes in Physics **721** Springer (2007) &lbrack;[doi:10.1007/978-3-540-71117-9_2](https://doi.org/10.1007/978-3-540-71117-9_2), [pdf](link.springer.com/content/pdf/10.1007/978-3-540-71117-9_2.pdf)&rbrack;
+
+
 On [[AdS/CFT duality]] and [[AdS/QCD duality]]:
 
 * [[Hans Günter Dosch]], *A Practical Guide to AdS/CFT*, lecture notes (2009) &lbrack;[pdf](https://www.thphys.uni-heidelberg.de/~dosch/wuhantot.pdf), [[Dosch-AdSCFT.pdf:file]]&rbrack;
