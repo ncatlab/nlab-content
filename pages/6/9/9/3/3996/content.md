@@ -50,27 +50,40 @@ Thus, reflection of limits for a given diagram $J$ either holds vacuously, or ho
 
 Let $F_i \colon C \to D_i$ be a family of functors, and $J \colon I \to C$ a diagram. We say that these functors **collectively reflect limits of $J$** if and only if a cone $(x, \eta)$ for $J$ that is mapped to a limit cone under all $F_i$ is a limit cone in $C$.
 
-Given such a family, we can consider their "product" $F \colon C \to \prod_i D_i$. Then we have the following relationship:
+Given such a family, we can consider their "product" $F \colon C \to \prod_i D_i$. We have that:
 
 \begin{proposition}
-  \label{productReflectsImpliesCollectiveReflects}
-  Suppose $F \colon C \to \prod_i D_i$ reflects limits of $J$. Then the functors $\pi_i \circ F \coloneqq F_i \colon C \to D_i$ collectively reflect limits of $J$.
+  \label{productReflectsIffCollectiveReflects}
+  $F \colon C \to \prod_i D_i$ reflects limits of $J$ if and only if the functors $\pi_i \circ F \coloneqq F_i \colon C \to D_i$ collectively reflect limits of $J$.
 \end{proposition}
 
 \begin{proof}
-  Take a cone $(x, \eta)$ for $J$, and suppose that $(F_i(x), F_i \cdot \eta)$ is a limit cone in $D_i$ for all $i$. Then, by inspection of the universal property, $(F(x), F \cdot \eta)$ is a limit cone in $\prod_i D_i$. Thus, since $F$ reflects limits of $J$, we conclude that $(x, \eta)$ is a limit cone.
+  For the forwards direction, take a cone $(x, \eta)$ for $J$, and suppose that $(F_i(x), F_i \cdot \eta)$ is a limit cone in $D_i$ for all $i$. Then, by inspection of the universal property, $(F(x), F \cdot \eta)$ is a limit cone in $\prod_i D_i$. Thus, since $F$ reflects limits of $J$, we conclude that $(x, \eta)$ is a limit cone.
+
+For the reverse direction, we exploit [[limit#limitProductCategoryComponentwise|limits in product categories are computed componentwise]]. Take a cone $(x, \eta)$ for $J$, and suppose it is mapped to a limit cone $(F(x), F \cdot \eta)$ for $F \circ J$ in $\prod_i D_i$. This means that $(F_i(x), F_i \cdot \eta)$ is a limit cone for $F_i \circ J$ in each $D_i$. Since the $F_i$ collectively reflect limits, this implies $(x, \eta)$ is a limit cone, as required.
 \end{proof}
 
-The reverse implication also holds provided we make a mild assumption on existence of limits:
+In the following, let $J \colon I \to C$ be a diagram, and $F \colon C \to D, G \colon D \to E$ be functors.
 
 \begin{proposition}
-  \label{collectiveReflectsAndExistsImpliesProductReflects}
-  Suppose $F_i \colon C \to D_i$ collectively reflect limits of $J$, and that, for every $i$, $F_i \circ J \colon I \to D_i$ has a limit cone $(L_i, \lambda_{i, j})$, with $\lambda_{i, j} \colon L_i \to (F_i \circ J)(j)$ for $j \in I$ the legs of the cone. Then $F$ reflects limits of $J$.
+  \label{compositeOfReflectingIsReflecting}
+  If $F$ reflects limits of $J$ and $G$ reflects limits of $F \circ J$, then $G \circ F$ reflects limits of $J$.
 \end{proposition}
 
 \begin{proof}
-  Take a cone $(x, \eta)$ for $J$, and suppose it is mapped to a limit cone $(F x, F \cdot \eta)$ for $F \circ J$ in $\prod_i D_i$. By inspecting the universal property, we know that $(\prod_i L_i, \prod_i \lambda_{i, j})$ is a limit for $F \circ J$, so we must have $(F x, F \cdot \eta) \cong (\prod_i L_i, \prod_i \lambda_{i, j})$ in the category of cones over $F \circ J$. Thus, composing with the projections, we have that $(F_i x, F_i \cdot \eta) \cong (L_i, \lambda_{i, j})$ for every $i$ in the category of cones over $F_i \circ J$. Thus $(F_i x, F_i \cdot \eta)$ is a limit cone for every $i$, which by assumption means $(x, \eta)$ is a limit cone, and so $F$ reflects limits of $J$.
+  Take a cone $(x, \eta)$ for $J$ such that $((G \circ F)(x), (G \circ F) \cdot \eta)$ is a limit for $(G \circ F) \circ J$. Since $G$ reflects limits of $F \circ J$ we have that $(F(x), F \cdot \eta)$ is a limit for $F \circ J$, and then since $F$ reflects limits of $J$ we conclude $(x, \eta)$ is a limit cone, as required.
 \end{proof}
+
+\begin{proposition}
+  \label{compositeReflectsSecondPreservesImpliesFirstReflects}
+  If $G \circ F$ reflects limits of $J$ and $G$ preserves limits of $F \circ J$, then $F$ reflects limits of $J$.
+\end{proposition}
+
+\begin{proof}
+  Take a cone $(x, \eta)$ for $J$ such that $(F(x), F \cdot \eta)$ is a limit for $F \circ J$. Since $G$ preserves this, $((G \circ F)(x), (G \circ F) \cdot \eta)$ is a limit for $(G \circ F) \circ J$. Then, since $G \circ F$ reflects this, $(x, \eta)$ is a limit for $J$, as required.
+\end{proof}
+
+Thus, if $G$ both preserves and reflects limits of $F \circ J$, then $F$ reflects limits of $J$ if and only if $G \circ F$ does.
 
 ## Examples
  {#Examples}
