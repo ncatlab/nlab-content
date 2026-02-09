@@ -349,7 +349,7 @@ $$
    ,\, 
    (Ran_p F)(c')
   \big) 
-  \;\simeq\; 
+  \;\cong\; 
   Set^C\Big(
     C'\big(c', p(-)\big)
     ,\, 
@@ -362,7 +362,7 @@ $$
     ,\, 
     d
   \big)  
-  \;\simeq\; 
+  \;\cong\; 
   Set^{C^{op}}\Big(
     C'\big(p(-), c'\big)
     ,\, 
