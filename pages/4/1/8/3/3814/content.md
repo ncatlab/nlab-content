@@ -280,6 +280,8 @@ Monographs:
 
 Further review and introduction:
 
+* [[Hans Günter Dosch]]: *The Standard Model of Particle Physics*, in: *Approaches to Fundamental Physics*, Lecture Notes in Physics **721** Springer (2007) &lbrack;[doi:10.1007/978-3-540-71117-9_2](https://doi.org/10.1007/978-3-540-71117-9_2), [pdf](link.springer.com/content/pdf/10.1007/978-3-540-71117-9_2.pdf)&rbrack;
+
 * [[Cliff Burgess]], Guy Moore: *The Standard Model -- A Primer*, Cambridge University Press (2011) &lbrack;[doi:10.1017/CBO9780511819698](https://doi.org/10.1017/CBO9780511819698), [pdf](https://physics.mcmaster.ca/~cburgess/Book/Ch1-6SnippetSM.pdf)&rbrack;
 
 * [[Matthew Schwartz]], *Quantum Field Theory and the Standard Model*, Cambridge University Press (2014) &lbrack;[ISBN:9781107034730](https://www.cambridge.org/de/universitypress/subjects/physics/theoretical-physics-and-mathematical-physics/quantum-field-theory-and-standard-model?format=HB&isbn=9781107034730), [doi:10.1017/9781139540940](https://doi.org/10.1017/9781139540940), [pdf](https://indico.ihep.ac.cn/event/11134/attachments/3783/4308/QFT-Schwartz.pdf)&rbrack;
