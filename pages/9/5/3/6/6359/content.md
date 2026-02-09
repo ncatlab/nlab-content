@@ -37,10 +37,10 @@ Given a [[small category]] $C$ and a [[set]] of [[morphisms]] $S \subset Mor(C)$
 
 On the other hand, it is often interesting to look at which morphisms of $C$ become isomorphisms under the action of a functor $F \colon C \to D$ (e.g. $F$ might be a [[cohomology theory]] and we want to assess which maps in $C$ are [[quasi-isomorphisms]]).
 
-Call $\ker F$ the class of maps in $C$ which are inverted by $F$ (ndr: this isn't standard notation). Then we can localize $C$ at $\ker F$ and thus factor $F$ as a localization $L_1$ followed by a functor $F_1:C[\ker F^{-1}] \to D$:
+Call $\ker F$ the class of maps in $C$ which are inverted by $F$ (ndr: this isn't standard notation). Then we can localize $C$ at $\ker F$ and thus factor $F$ as a localization $L_1$ followed by a functor $F_1 \,\colon\, C\big[(\ker F)^{-1}\big] \longrightarrow D$:
 
 \begin{tikzcd}
-	C & {C[\ker F^{-1}]} \\
+	C & {C\big[(\ker F)^{-1}\big]} \\
 	& D
 	\arrow["{L_1}", from=1-1, to=1-2]
 	\arrow["F"', from=1-1, to=2-2]
@@ -57,24 +57,31 @@ It turns out that this $F_1$, in general, still inverts further morphisms. There
 	\arrow["F"', from=1-1, to=3-3]
 	\arrow["{L_2}", from=1-2, to=1-3]
 	\arrow["{F_1}", from=1-2, to=3-3]
-	\arrow["{L_n}", from=1-3, to=1-4]
-	\arrow["{L_{n+1}}", from=1-4, to=1-5]
+	\arrow["{L_{n+1}}", from=1-3, to=1-4]
+	\arrow["{L_{n+2}}", from=1-4, to=1-5]
 	\arrow["{F_{n+1}}"{description}, from=1-4, to=3-3]
 	\arrow[from=1-5, to=1-6]
 	\arrow["K", from=1-6, to=3-3]
 \end{tikzcd}
-where $C_{n+1} \coloneqq C[\ker F_n^{-1}]$.
+
+where $C_{n+1} \coloneqq C\big[(\ker F_n)^{-1}\big]$.
 
 Now consider the [[colimit]] 
 
 $$
-  C_\omega \,\coloneqq\, \colim_n C_n
+  C_\omega 
+    \,\coloneqq\, 
+  \colim_n C_n
 $$ 
 
 of this sequence of localizations. Clearly there is a canonical functor $L \colon C \to C_\omega$ and also a mediating map 
 \[
   \label{MediatingMap}
-  K \,\colon\, C_\omega \to D
+  K 
+    \,\colon\, 
+  C_\omega 
+    \longrightarrow
+  D
 \] 
 such that $K\circ L = F$. In fact, one can prove that $K$ is [[conservative functor|conservative]].
 
@@ -91,6 +98,7 @@ This makes $\big(\text{iterated localizations}, \text{conservative functors}\big
 * [[orthogonal factorization systems]]
 
 * [[conservative functor]]
+
 
 ## References
 
