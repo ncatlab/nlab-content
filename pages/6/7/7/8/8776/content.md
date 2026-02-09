@@ -269,6 +269,11 @@ See also:
 
 
 
+Further reduction to [[D=3 supergravity]]:
+
+* Gerard Clement: *The symmetries of five-dimensional minimal supergravity reduced to three dimensions*, J. Math. Phys. **49** (2008) 042503 &lbrack;[arXiv:0710.1192](https://arxiv.org/abs/0710.1192), [doi:10.1063/1.2907863](https://doi.org/10.1063/1.2907863)&rbrack;
+
+
 
 ### Via type II theory
 
