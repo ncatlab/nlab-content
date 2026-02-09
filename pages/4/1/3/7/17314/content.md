@@ -24,6 +24,8 @@ Alternatively, this says that, if $F \circ J$ has a [[limit]], then $J$ also has
 
 Of course, all the above applies dually to [[colimits]] - $F$ lifts colimits for $J$ if and only if $F^{op} \colon C^{op} \to D^{op}$ lifts limits for the corresponding diagram $J^{op} \colon I^{op} \to C^{op}$.
 
+## Properties
+
 \begin{remark}
   \label{vacuous}
   If $F$ lifts a limit $(d, \eta)$ for $F \circ J$ to $(c, \alpha)$, then it necessarily lifts any limit for $F \circ J$.
@@ -34,6 +36,49 @@ Of course, all the above applies dually to [[colimits]] - $F$ lifts colimits for
 \end{proof}
 
 Hence, lifting of limits for $J$ by $F$ either holds vacuously, or holds for all limits of $F \circ J$.
+
+\begin{proposition}
+  \label{productLiftsLimitsIffComponentsDo}
+  Let $F_i \colon C \to D_i$ be a family of functors, and $J \colon I \to C$ a diagram. Then their product $F \colon C \to \prod_i D_i$ lifts limits for $J$ if and only if the components $F_i$ *collectively* lift limits for $J$, meaning a family of limit cones $(L_i, \lambda_{i, j})$ for $F_i \circ J$ can be simultaneously lifted to a limit cone for $J$.
+\end{proposition}
+
+\begin{proof}
+  We exploit [[limit#limitProductCategoryComponentwise|limits in product categories are computed componentwise]]. So, limits for $F \circ J$ correspond to families of limits for $F_i \circ J$. By unfolding definitions, $F$ lifts limits for $J$ precisely if the $F_i$ collectively lift limits for $J$.
+\end{proof}
+
+In the following, $J \colon I \to C$ is a diagram and $F \colon C \to D, G \colon D \to E$ are functors.
+
+\begin{proposition}
+  \label{compositeOfLiftingsLifts}
+  Suppose $F$ lifts limits for $J$ and $G$ lifts limits for $F \circ J$. Then $G \circ F$ lifts limits for $J$.
+\end{proposition}
+
+\begin{proof}
+  Take a limit cone over $(G \circ F) \circ J$. Since $G$ lifts limits for $F \circ J$, this can be lifted to a limit cone for $F \circ J$ that $G$ preserves. And then, since $F$ lifts limits for $J$, this can be lifted to a limit cone for $J$ that $F$ preserves, which implies $G \circ F$ also preserves it, as requires.
+\end{proof}
+
+\begin{proposition}
+  \label{compositeLiftsFirstPreservesSecondLifts}
+  Suppose $G \circ F$ lifts limits for $J$ and $F$ preserves limits of $J$. Then $G$ lifts limits for $F \circ J$.
+\end{proposition}
+
+\begin{proof}
+  Take a limit cone $(z, \alpha)$ for $(G \circ F) \circ J$. Then since $G \circ F$ lifts this, we obtain a limit cone $(x, \mu)$ for $J$ that $G \circ F$ preserves. This implies $(F(x), F \cdot \mu)$ is a limit cone for $F \circ J$ which $G$ preserves, as required.
+\end{proof}
+
+\begin{proposition}
+  \label{compositeLiftsSecondPreservesReflectsFirstLifts}
+  Suppose $G \circ F$ lifts limits for $J$ and $G$ preserves and reflects limits of $F \circ J$. Then $F$ lifts limits for $J$.
+\end{proposition}
+
+\begin{proof}
+  Take a limit cone $(y, \mu)$ for $F \circ J$. Since $G$ preserves this, $(G(y), G \cdot \mu)$ is a limit for $(G \circ F) \circ J$. Then, since $G \circ F$ lifts this, there is a limit cone $(x, \eta)$ for $J$ preserved by $F \circ G$. Finally, since $G$ additionally reflects limits for $F \circ J$, we conclude that $F$ preserves $(x, \eta)$ too, as required.
+\end{proof}
+
+The propositions above show that:
+
+* If $F$ preserves limits of $J$ and lifts limits for $J$, then $G$ lifts limits for $F \circ J$ if and only if $G \circ F$ lifts limits for $J$.
+* If $G$ preserves and reflects limits of $F \circ J$, and lifts limits for $F \circ J$, then $F$ lifts limits of $J$ if and only if $G \circ F$ does.
 
 ## Strictness
 
