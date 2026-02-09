@@ -44,6 +44,14 @@ For instance:
 
 If $F$ preserves all limits or colimits of a given type (i.e. over a given category $I$), we simply say that $F$ preserves that sort of limit (e.g. $F$ preserves [[products]], $F$ preserves [[equalizers]], etc.).
 
+\begin{definition}
+  A functor that preserves all small limits in $C$ that exist is called a __[[continuous functor]]__.
+\end{definition}
+
+Usually this term is only used when $C$ has all small limits, i.e. is a [[complete category]].
+
+## Properties
+
 \begin{remark}
   \label{vacuous}
   If there exists at least one limit $(x, \eta)$ for $J$ that is preserved by $F$, then every limit for $J$ is preserved by $F$.
@@ -55,12 +63,14 @@ If $F$ preserves all limits or colimits of a given type (i.e. over a given categ
 
 Thus, for a specified diagram $J\colon I \to C$, preservation of limits either holds vacuously (if $J$ has no limit in $C$), or holds for all limit cones over $J$.
 
-\begin{definition}
-  A functor that preserves all small limits in $C$ that exist is called a __[[continuous functor]]__.
-\end{definition}
+\begin{remark}
+  \label{comparisonMap}
+  Suppose $(x, \eta)$ is a limit for $J$ and $(y, \mu)$ is a limit for $F \circ J$. Since $(Fx, F \cdot \eta)$ is a cone over $F \circ J$, there is a canonical comparision map $f \colon Fx \to y$ with $(F \cdot \eta)_j = \mu_j \circ f$ for each $j \in I$. Then $F$ preserves $(x, \eta)$ if and only if this comparision map is an isomorphism.
+\end{remark}
 
-Usually this term is only used when $C$ has all small limits, i.e. is a [[complete category]].
-
+\begin{proof}
+  $F$ preserves $(x, \eta)$ if and only if $(Fx, F \cdot \eta)$ is a limit for $F \circ J$. Since $(y, \mu)$ is already a limit for $F \circ J$, that is if and only if $(Fx, F \cdot \eta)$ is isomorphic to $(y, \mu)$ in the category of cones over $F \circ J$. And since $(y, \mu)$ is terminal in this category, that's if and only if the comparison map, between the unique morphism $(Fx, F \cdot \eta) \to (y, \mu)$ in the cone category, is an isomorphism.
+\end{proof}
 
 ## Examples
   {#Examples}
