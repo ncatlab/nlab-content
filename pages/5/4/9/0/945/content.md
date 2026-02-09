@@ -99,7 +99,7 @@ Then
 
 1. $\Delta_{\leq [1]} \hookrightarrow \Delta$ is a [[dense subcategory]] inclusion;
 
-1. $\Delta \hookrightarrow \mathbf{Cat}$ is a [[dense subcategory]] inclusion, 
+1. $\Delta \hookrightarrow \mathbf{Cat}$ is a [[dense subcategory]] inclusion ([Kerodon 8.4.1.3](#Kerodon): [03VB](https://kerodon.net/tag/03VB)),
 
 1. but the composite $\Delta_{\leq [1]} \hookrightarrow \Delta \hookrightarrow Cat$ is *not* dense in $\mathbf{Cat}$ (see Remark \ref{DenseFunctorsNotClosedUnderComposition}).
 
@@ -187,6 +187,8 @@ More recently, [[Jacob Lurie]] has referred to the analogue notion for [[(∞,1)
 * [[Giacomo Tendas]], *Dense functors and density presentations*, unpublished notes ([pdf](https://gtendas.github.io/pdfs/day.pdf))
 
 * {#Przybyłek2014} [[Michał Przybyłek]], _Analysis and construction of logical systems: a category-theoretic approach_ (2014), PhD thesis ([pdf](https://www.mimuw.edu.pl/~mrp/phd_mrp.pdf)).
+
+* {#Kerodon} [[Kerodon]], 8.4.1.3 ([03VB](https://kerodon.net/tag/03VB))
 
 [[!redirects adequate subcategory]]
 [[!redirects left adequate subcategory]]
