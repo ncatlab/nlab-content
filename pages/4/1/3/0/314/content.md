@@ -450,6 +450,24 @@ $$
 in the [[functor category]], i.e. the set of [[natural transformation|natural transformations]] from the constant functor into $F$.
 =--
 
+### In product categories
+
+\begin{proposition}
+  \label{limitProductCategoryComponentwise}
+**(limits in product categories are computed componentwise)
+
+Let $(D_i)$ be a family of categories, and $J \colon I \to \prod_i D_i$ a diagram. Then limits of $J$ naturally correspond to componentwise families of limits of $\pi_i \circ J \colon I \to D_i$.
+
+\end{proposition}
+
+\begin{proof}
+  First, suppose $\pi_i \circ J \colon I \to D_i$ has a limit $(L_i, \lambda_{i, j})$ for each $i$, with $\lambda_{i, j} \colon L_i \to (\pi_i \circ J)(j)$ forming the legs of each limit cone. Then, by inspection of the universal property, $(\prod_i L_i, \prod_i \lambda_{i, j})$ is a limit cone for $J$ in $\prod_i D_i$.
+
+Conversely, suppose we have a limit $(L, \lambda_j)$ for $J$. Our task is to show that $(\pi_i(L), \pi_i(\lambda_j))$ is a limit cone in each $D_i$. So, take a cone $(d, \nu_j)$ over $\pi_i \circ J$. We can extend this to a cone over $J$ by taking the components in every other factor to be $(\pi_k(L), \pi_k(\lambda_j))$. Using the universal property of $L$, there is a unique factorisation of this total cone through the limit cone $(L, \lambda_j)$, providing a morphism $f \colon d \to \pi_i(L)$ factorising the cone in the $D_i$ factor.
+
+However, any such factorisation provided by a $g \colon d \to \pi_i(L)$ also factorises the total cone, via extending with identities in every other factor $D_k$. Thus, by uniqueness, we have $g = f$, and so $(\pi_i(L), \pi_i(\lambda_j))$ is a limit cone in $D_i$, as required.
+\end{proof}
+
 ### In functor categories
 
 +-- {: .un_prop}
