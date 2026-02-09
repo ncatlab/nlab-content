@@ -17,9 +17,9 @@
 =--
 =--
 
-#Contents#
-* table of contents
-{:toc}
+
+\tableofcontents
+
 
 ## Idea
  {#Idea}
@@ -196,7 +196,10 @@ Relevance of non-perturbative methods in [[condensed matter theory]] ([[quantum 
 * Andreas Schadschneider, Götz S. Uhrig: *Strongly Correlated Systems in Solid State Physics*, lecture notes (2004) &lbrack;[pdf](https://www.thp.uni-koeln.de/~as/Mypage/PSfiles/Korrel/korrel.pdf), [[SchadschneiderUhrig-StronglyCorrelated.pdf:file]]&rbrack;
   > (focus on [[spin chain]]-models)
 
-Lectures notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such as in [[AdS-CFT]]) includes
+* Jorge Quintanilla, Chris Hooley: *The strong-correlations puzzle*, Physics World (June 2009) &lbrack;[pdf](https://www.isis.stfc.ac.uk/Pages/the-strong-correlations-puzzle.pdf), [[QuintanilliHooley-StrongCorrelation.pdf:file]]&rbrack;
+
+
+Lecture notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such as in [[AdS-CFT]]) includes
 
 * John Terning, _TASI-2002 Lectures: Non-perturbative Supersymmetry_ ([arXiv:hep-th/0306119](http://arxiv.org/abs/hep-th/0306119))
 
