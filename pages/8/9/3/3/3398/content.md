@@ -72,6 +72,15 @@ Thus, for a specified diagram $J\colon I \to C$, preservation of limits either h
   $F$ preserves $(x, \eta)$ if and only if $(F(x), F \cdot \eta)$ is a limit for $F \circ J$. Since $(y, \mu)$ is already a limit for $F \circ J$, that is if and only if $(F(x), F \cdot \eta)$ is isomorphic to $(y, \mu)$ in the category of cones over $F \circ J$. And since $(y, \mu)$ is terminal in this category, that's if and only if the comparison map, between the unique morphism $(F(x), F \cdot \eta) \to (y, \mu)$ in the cone category, is an isomorphism.
 \end{proof}
 
+\begin{proposition}
+  \label{productPreservesIffComponentsPreserve}
+  Let $F_i \colon C \to D_i$ be a family of functors, and $J \colon I \to C$ a diagram. Then every $F_i$ preserves limits of $J$ if and only if their product $F \colon C \to \prod_i D_i$ preserves limits of $J$.
+\end{proposition}
+
+\begin{proof}
+  We exploit [[limit#limitProductCategoryComponentwise|limits in product categories are computed componentwise]]. If every $F_i$ preserves a limit $(x, \eta)$ of $J$, then the $(F_i(x), F_i \cdot \eta)$ collectively determine a limit $(F(x), F \cdot \eta)$, so that $F$ preserves this. Conversely, if $F$ preserves the limit, then limits being computed componentwise implies each $F_i$ preserves the limit.
+\end{proof}
+
 For the following properties, we have $J \colon I \to C$ a diagram, and $F \colon C \to D, G \colon D \to E$ functors.
 
 \begin{proposition}
