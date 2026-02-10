@@ -16,12 +16,12 @@
 
 **Intersection types** are a way to add finite [[polymorphism]]
 to the [simply typed](lambda-calculus#SimplyTypedLambdaCalculus) [[λ-calculus]].
-For example, the [[judgment]] $\Gamma \vdash e \colon \tau \land \sigma$ means that $e$ has _both_ types $\tau$ and $\sigma$.
+For example, the [[judgment]] $\Gamma \vdash e \colon \tau \wedge \sigma$ means that $e$ has _both_ types $\tau$ and $\sigma$.
 
 Intersection types (without a universal type $\omega$) capture exactly the strongly-normalizing terms of the λ-calculus.
 For example the value $\lambda x. x \, x$
 can be typed using the following judgment:
-$x : (\sigma \to \sigma) \land \sigma \vdash x\,x : \sigma$.
+$x : (\sigma \to \sigma) \wedge \sigma \vdash x\,x : \sigma$.
 However, [[type inference]] for intersection type systems is [[undecidable]].
 
 ## Typing rules
@@ -42,8 +42,8 @@ In most intersection type systems, we can derive a [[inference rule|rule]] for [
 ## Non-idempotent intersection types
 
 In the majority of intersection type systems,
-$\land$ is [[associativity|associative]], [[commutativity|commutative]] and [[idempotent]].
-However, $\land$ can also be seen as the non-idempotent
+$\wedge$ is [[associativity|associative]], [[commutativity|commutative]] and [[idempotent]].
+However, $\wedge$ can also be seen as the non-idempotent
 [[multiplicative conjunction]] from [[linear logic]].
 
 ## Related concepts
