@@ -38,7 +38,7 @@ $$
   el_\bullet = \mathbb{Z}[a,b,c, \epsilon]/(2a, a^3, a b, b^2-4)
 $$
 
-wich, after inversion of 2, surjects onto the ring $\mathbb{Z}[\tfrac{1}{2}][\delta, \epsilon]$ of [[modular forms]] for [[congruence subgroup]] $\Gamma_0(2)$
+which, after inversion of 2, surjects onto the ring $\mathbb{Z}[\tfrac{1}{2}][\delta, \epsilon]$ of [[modular forms]] for [[congruence subgroup]] $\Gamma_0(2)$
 
 This is [Kreck-Stolz 93, theorem 1](#KreckStolz93) (while we follow in notation [Hovey 95, page 2](#Hovey95)), which is a kind of refinement of the [[SO orientation of elliptic cohomology]] due to  ([Landweber-Ravenel-Stong 93](#LandweberRavenelStong93)).
 
