@@ -147,10 +147,10 @@ Review of the original work [Miyazawa 66](#Miyazawa66), [Miyazawa 68](#Miyazawa6
 
 * Mauro Anselmino, Enrico Predazzi, Svante Ekelin, Sverker Fredriksson, [[Don B. Lichtenberg]], Chapter IX of: *Diquarks*, Rev. Mod. Phys. **65** (1993) 1199 ([doi:10.1103/RevModPhys.65.1199](https://doi.org/10.1103/RevModPhys.65.1199))
 
-* [[Don Lichtenberg]], _Hadron Supersymmetry and Relations between Meson and Baryon Masses_, In: Kursunoglu B.N., Mintz S.L., Perlmutter A. (eds.) _Neutrino Mass, Dark Matter, Gravitational Waves, Monopole Condensation, and Light Cone Quantization_, Springer 1996 ([doi:10.1007/978-1-4899-1564-1_29](https://doi.org/10.1007/978-1-4899-1564-1_29))
+* [[Don Lichtenberg]]: _Hadron Supersymmetry and Relations between Meson and Baryon Masses_, In: Kursunoglu B.N., Mintz S.L., Perlmutter A. (eds.): _Neutrino Mass, Dark Matter, Gravitational Waves, Monopole Condensation, and Light Cone Quantization_, Springer (1996) &lbrack;[doi:10.1007/978-1-4899-1564-1_29](https://doi.org/10.1007/978-1-4899-1564-1_29)&rbrack;
 
-* {#Lichtenberg99} [[Don Lichtenberg]], _Whither Hadron Supersymmetry?_, Contribution to: _[International Conference on Orbis Scientiae 1999: Quantum Gravity, Generalized Theory of Gravitation and Superstring Theory Based Unification_ (28th Conference on High-Energy Physics and Cosmology Since 1964)](https://inspirehep.net/conferences/972660) (1999) 203-208
-([arXiv:hep-ph/9912280](https://arxiv.org/abs/hep-ph/9912280), [spire:511339](https://inspirehep.net/literature/511339))
+* {#Lichtenberg99} [[Don Lichtenberg]]: _Whither Hadron Supersymmetry?_, Contribution to: *[International Conference on Orbis Scientiae 1999: Quantum Gravity, Generalized Theory of Gravitation and Superstring Theory Based Unification (28th Conference on High-Energy Physics and Cosmology Since 1964)](https://inspirehep.net/conferences/972660)* (1999) 203-208
+&lbrack;[arXiv:hep-ph/9912280](https://arxiv.org/abs/hep-ph/9912280), [spire:511339](https://inspirehep.net/literature/511339)&rbrack;
 
 
 Review with emphasis on the formulation via [[holographic light front QCD]]:
