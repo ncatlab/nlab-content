@@ -153,6 +153,13 @@ $$
 
 * {#CohenGitler02} [[Fred Cohen]], [[Samuel Gitler]], p. 2 of: _On loop spaces of configuration spaces_, Trans. Amer. Math. Soc. __354__ (2002), no. 5, 1705&#8211;1748, ([jstor:2693715](https://www.jstor.org/stable/2693715), [MR2002m:55020](http://www.ams.org/mathscinet-getitem?mr=1881013))
 
+
+On [[spherical braid group|spherical]] pure infinitesimal braid relations in relation to [[polylogarithms]]:
+
+* [[Anton Alekseev]], Megan Howarth, Florian Naef, Muze Ren, [[Pavol Ševera]]: *The kernel of formal polylogarithms* &lbrack;[arXiv:2601.19455](https://arxiv.org/abs/2601.19455)&rbrack;
+
+
+
 [[!redirects infinitesimal braid relations]]
 
 [[!redirects infinitesimal braid Lie algebra]]
