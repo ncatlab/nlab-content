@@ -454,7 +454,7 @@ in the [[functor category]], i.e. the set of [[natural transformation|natural tr
 
 \begin{proposition}
   \label{limitProductCategoryComponentwise}
-**(limits in product categories are computed componentwise)
+**(limits in product categories are computed componentwise)**
 
 Let $(D_i)$ be a family of categories, and $J \colon I \to \prod_i D_i$ a diagram. Then limits of $J$ naturally correspond to componentwise families of limits of $\pi_i \circ J \colon I \to D_i$.
 
