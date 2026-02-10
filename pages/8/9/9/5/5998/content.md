@@ -85,9 +85,11 @@ representing $a$pplication and $\ell$ambda, such that $a \circ \ell = 1$ (to val
 
 From the point of view of [[type theory]] and in particular the "types &#224; la Church" perspective, such a reflexive object $U$ can also be seen as the intrinsic type of _every_ lambda term, and so the untyped lambda calculus is sometimes referred to (a bit cheekily) as really being "uni-typed".  On the other hand, from the "types &#224; la Curry" perspective, it is also possible to begin with the pure lambda calculus as a foundation, and then try to ascribe individual terms more precise types.  For example, the normalizing terms of pure lambda calculus can be characterized precisely as those which are typable in an [[intersection type]] system.
 
-### Simply typed lambda calculus
 
-In *[[simple type theory|simply typed]]* lambda calculus, each variable and term has a [[type theory|type]], and we can only form the application $f t$ if $t$ is of some type $A$ while $f$ is of a [[function type]] $A \to B = B^A$ whose domain is $A$; the type of $f t$ is then $B$.  Similarly, if $x$ is a variable of type $A$ and $t$ is a term of type $B$ involving $x$, then $\lambda x. t$ has type $A\to B$.
+### Simply typed lambda calculus
+  {#SimplyTypedLambdaCalculus}
+
+In *[[simple type theory|simply typed]]* lambda calculus (cf. *[[simple type theory]]*), each variable and term has a *[[type]]*, and we can only form the application $f t$ if $t$ is of some type $A$ while $f$ is of a [[function type]] $A \to B = B^A$ whose domain is $A$; the type of $f t$ is then $B$.  Similarly, if $x$ is a variable of type $A$ and $t$ is a term of type $B$ involving $x$, then $\lambda x. t$ has type $A\to B$.
 
 Without some further type and term constructors, there is not much that can be done, but if we add a [[natural numbers object]] (that is, a type $N$ with constants $0$ of type $N$ and $s$ of type $N\to N$, along with a "definition-by-recursion" operator), then we can express many recursive functions.  (We cannot by this means express *all* computable functions, although we can go beyond [[primitive recursive function]]s; for instance we can define the [[Ackermann function]].  One way to increase the expressiveness to all [[partial recursive function]]s is to add a [[fixpoint]] [[combinator]], or an unbounded search operator).
 
