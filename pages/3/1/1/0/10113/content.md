@@ -18,11 +18,11 @@
 
 In [[QCD]] a [[bound state]] of [[quarks]] via the [[strong nuclear force]]. 
 
-Binding two quarks: [[meson]],
+Bound state of two quarks: [[meson]],
 
-Binding three quarks: [[baryon]],
+Bound state of three quarks: [[baryon]],
 
-Binding four quarks: [[tetraquark]].
+Bound state of four quarks: [[tetraquark]].
 
 ## Properties
 
