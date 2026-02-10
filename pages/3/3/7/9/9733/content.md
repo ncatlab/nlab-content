@@ -38,6 +38,11 @@ The reconstruction theorems of nice classes of schemes from the abelian categori
 
 ## References
 
+Lecture notes:
+
+* [[Greg Stevenson]]: *Some notes on tensor triangular geometry* &lbrack;[arXiv:2602.08480](https://arxiv.org/abs/2602.08480)&rbrack;
+
+
 An important theorem of reconstruction using the triangulated category (but not the monoidal structure) is the [[Bondal-Orlov reconstruction theorem]]:
 
 * {#BondalOrlov03} [[Aleksei Bondal]], [[Dmitri Orlov]], _Reconstruction of a variety from the derived category and groups of autoequivalences_, Compositio Mathematica __125__ (03), 327-344 [doi](http://dx.doi.org/10.1023/A:1002470302976), [pdf](http://www.mi.ras.ru/~orlov/papers/Compositio2001.pdf)
@@ -54,6 +59,7 @@ In this vein, Thomason, Balmer, Garkusha and others considered instead tensor tr
 * {#Thomason97} [[R. W. Thomason]], _The classification of triangulated subcategories_, Compositio Math. __105__(1):1&#8211;27, 1997 [MR98b:18017](http://www.ams.org/mathscinet-getitem?mr=1436741) [doi](http://dx.doi.org/10.1023/A:1017932514274)
 
 * {#Balmer02} [[Paul Balmer]], _Presheaves of triangulated categories and reconstruction of schemes_, Mathematische Annalen __324__:3 (2002), 557-580 [dvi](https://www.math.ucla.edu/~balmer/Pubfile/Reconstr.dvi), [pdf](https://www.math.ucla.edu/~balmer/Pubfile/Reconstr.pdf) [ps](https://www.math.ucla.edu/~balmer/Pubfile/Reconstr.ps); _The spectrum of prime ideals in tensor triangulated categories_, J. Reine Angew. Math. __588__:149&#8211;168, 2005 [](http://www.math.ucla.edu/~balmer/Pubfile/Spectrum.dvi) [pdf](http://www.math.ucla.edu/~balmer/Pubfile/Spectrum.pdf) [ps](http://www.math.ucla.edu/~balmer/Pubfile/Spectrum.ps); _Spectra, spectra, spectra - Tensor triangular spectra versus Zariski spectra of endomorphism rings_, Alg. and Geom. Topology __10__:3 (2010) 1521-1563 [dvi](http://www.math.ucla.edu/~balmer/Pubfile/SSS.dvi) [pdf](http://www.math.ucla.edu/~balmer/Pubfile/SSS.pdf) [ps](http://www.math.ucla.edu/~balmer/Pubfile/SSS.ps)
+
 * [[Grigory Garkusha]], M. Prest, _Reconstructing projective schemes from Serre subcategories_, J. Algebra __319__(3) (2008), 1132-1153, [pdf](http://www.swansea.ac.uk/media/garkpr44.pdf); _Triangulated categories and the Ziegler spectrum_, Algebras Repr. Theory 8 (2005), 499-523 [pdf](http://www.swansea.ac.uk/media/gark-pr2.pdf)
 
 * {#Balmer04} [[Paul Balmer]], _The spectrum of prime ideals in tensor triangulated categories_. J. Reine Angew. Math., 588:149&#8211;168, 2005 ([arXiv:math/0409360](http://arxiv.org/abs/math/0409360))
