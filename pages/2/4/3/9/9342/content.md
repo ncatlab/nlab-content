@@ -187,7 +187,7 @@ See also:
 * M. Rovira, A. Parreño, R. J. Perry: *A Variational Approach to Quantum Field Theory* &lbrack;[arXiv:2409.17887](https://arxiv.org/abs/2409.17887)&rbrack;
 
 
-Relevance of non-perturbative methods in [[condensed matter theory]] ([[quantum materials]]) and [[quantum information theory]] ([[topological quantum computation]]):
+Relevance of non-perturbative methods in [[condensed matter theory]] ([[quantum materials]]) and [[quantum information theory]] ([[topological quantum computation]]), there usually referred to as *[[strongly correlated system|strong correlation]]* phenomena:
 
 *  Alvaro Ferraz, [[Kumar S. Gupta]], [[Gordon W. Semenoff]], Pasquale Sodano (eds): *Strongly Coupled Field Theories for Condensed Matter and Quantum Information Theory*, Springer Proceedings in Physics **239**, Springer (2020) &lbrack;[doi:10.1007/978-3-030-35473-2](https://doi.org/10.1007/978-3-030-35473-2), [pdf](https://link.springer.com/content/pdf/10.1007/978-3-030-35473-2.pdf)&rbrack;
 
@@ -196,7 +196,7 @@ Relevance of non-perturbative methods in [[condensed matter theory]] ([[quantum 
 * Andreas Schadschneider, Götz S. Uhrig: *Strongly Correlated Systems in Solid State Physics*, lecture notes (2004) &lbrack;[pdf](https://www.thp.uni-koeln.de/~as/Mypage/PSfiles/Korrel/korrel.pdf), [[SchadschneiderUhrig-StronglyCorrelated.pdf:file]]&rbrack;
   > (focus on [[spin chain]]-models)
 
-* Jorge Quintanilla, Chris Hooley: *The strong-correlations puzzle*, Physics World (June 2009) &lbrack;[pdf](https://www.isis.stfc.ac.uk/Pages/the-strong-correlations-puzzle.pdf), [[QuintanilliHooley-StrongCorrelation.pdf:file]]&rbrack;
+* Jorge Quintanilla, Chris Hooley: *The strong-correlations puzzle*, Physics World, **22** 06 (2009) &lbrack;[doi:10.1088/2058-7058/22/06/38](http://doi.org/10.1088/2058-7058/22/06/38), [pdf](https://www.isis.stfc.ac.uk/Pages/the-strong-correlations-puzzle.pdf), [[QuintanilliHooley-StrongCorrelation.pdf:file]]&rbrack;
 
 
 Lecture notes for non-perturbative [[supersymmetry|supersymmetric]] QFT (such as in [[AdS-CFT]]) includes
