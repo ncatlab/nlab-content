@@ -35,7 +35,13 @@ On [[duality in physics|duality]] for [[higher gauge theories]], subsuming [[non
 
 
 
-## Related $n$Lab entries
+On [[spherical braid group|spherical]] pure [[infinitesimal braid relations]] in relation to [[polylogarithms]]:
+
+* [[Anton Alekseev]], Megan Howarth, Florian Naef, Muze Ren, [[Pavol Ševera]]: *The kernel of formal polylogarithms* &lbrack;[arXiv:2601.19455](https://arxiv.org/abs/2601.19455)&rbrack;
+
+
+
+## Related entries
 
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
