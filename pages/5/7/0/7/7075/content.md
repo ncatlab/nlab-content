@@ -201,9 +201,9 @@ $$
     \\
      = && = && =
     \\
-    \frac{Spin(2)}{Spin(1)}
+    Spin(2)
     &\longrightarrow&
-    \frac{Spin(3)}{Spin(1)}
+    Spin(3)
     &\longrightarrow&
     \frac{Spin(3)}{Spin(2)}  
   }
