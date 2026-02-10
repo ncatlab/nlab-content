@@ -126,6 +126,15 @@ The propositions above taken together imply the following:
 
 * {#ExampleYonedaEmbedding} the [[Yoneda embedding]] preserves limits (see [there](Yoneda+embedding#PreservesLimits))
 
+## Non-Examples
+
+Let $A$ be any infinite set, and consider the constant functor $\Delta_A \colon C \to Set$ sending every object of $C$ to $A$, and every morphism to the identity.
+
+Then this functor preserves binary products *objectwise*, since $\Delta_A(x \times y) = A \cong A \times A \cong \Delta_A(x) \times \Delta_A(y)$. However, it does *not* preserve the product of $x$ and $y$ in the sense above, since the projection maps $\pi_x \colon x \times y \to x, \pi_y \colon x \times y \to y$ get sent to identities $A \to A$, which do not form a limit cone in $Set$.
+
+This illustrates that it is not enough to merely show that $F(\lim J)$ is *a* limit of $F \circ J$ at the level of objects - we also need that the projections get mapped to the corresponding projections.
+
+We can also view this through the language of [[representable functor|representable functors]]. Preserving limits "objectwise" means $F(\lim J)$ represents the presheaf $d \mapsto Cones(d, F \circ J) := Nat(\Delta_d, F \circ J)$ on $D$, so that there is a natural isomorphism $D(-, F(\lim J)) \cong Cones(-, F \circ J)$. However, for $F$ to preserve the limit we don't just care *that* $F(\lim J)$ represents this functor, but *how* it does - in other words, we need the corresponding [[universal element]] in $Cones(F(\lim J), F \circ J)$ to be $F$ applied to the projections in $Cones(\lim J, J)$. Given the natural isomorphism, then, we can check $F$ preserves the limit by following the identity $F(\lim J) \to F(\lim J)$ and checking it maps to the correct element.
 
 ## Preservation of weighted limits
 
