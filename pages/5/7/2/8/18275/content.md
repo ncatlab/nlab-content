@@ -103,7 +103,7 @@ We use the following facts
   
    Again, this is essentially by definition of [[limits]]/[[colimits]].
 
-1. ([[Yoneda lemma]]) If for two objects $X$ and $Y$ in some [[category]] the [[hom-sets]] out of or into these objects (their [[representable functors]]) are [[naturally isomorphic]], then the two objects are isomorphic.
+1. ([[Yoneda lemma]]) If for two objects $X$ and $Y$ in some [[category]] the [[hom-sets]] out of or into these objects (their [[representable functors]]) are [[naturally isomorphic]], then the two objects are isomorphic, and the isomorphism is obtained by "following the identity" along the natural isomorphisms.
 
 Now using the first two items, we obtain the following chain of [[natural isomorphisms]], for every [[object]] $Y \in \mathcal{D}$:
 
@@ -125,7 +125,7 @@ $$
   \,.
 $$
 
-Hence the third item above, the [[Yoneda lemma]], implies the claim.
+This implies that $R \left( \underset{\longleftarrow}{\lim}_i X_i \right) \cong \underset{\longleftarrow}{\lim}_i \left(R\left(X_i\right) \right)$, but to show $R$ preserves the limit we also need that the isomorphism is given by the "canonical map" $R \left( \underset{\longleftarrow}{\lim}_i X_i \right) \to \underset{\longleftarrow}{\lim}_i \left(R\left(X_i\right) \right)$ given by the universal property. Luckily, we can deduce this simply by following the identity $R \left( \underset{\longleftarrow}{\lim}_i X_i \right) \to R \left( \underset{\longleftarrow}{\lim}_i X_i \right)$ through the chain of natural isomorphisms - naturality of the adjunction implies that the final map we obtain is indeed the canonical map, as required.
 
 =--
 
