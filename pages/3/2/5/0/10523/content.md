@@ -17,14 +17,18 @@
 
 ## Idea
 
-Many-body systems, that is physical systems comprising many interacting particles are called strongly correlated if the interactions are strong in the sense that they are causing configurations which are not just perturbations of the non-interacting or weakly interacting system; and in which the correlations between different particles are also strong. 
+The effect of strong [[interaction]] in [[quantum many-body systems]] tends to make their constituents be *strongly [[correlation|correlated]]*, resilting in configurations which are not just [[perturbations]] of the non-interacting or weakly interacting system.
+
+The term *strongly correlated systems* hence refers in [[condensed matter theory]] largely to what in [[high energy physics]] are called [[non-perturbative effects]].
+
+The special properties of [[topological order|topologically ordered]] [[quantum materials]] are due strong correlation (of [[electrons]], usually), such as for instance those of [[fractional quantum Hall systems]].
 
 ## Examples 
 
 
 * [[plasma]]
 
-* strongly correlated electron systems (cf. [[topological order]]) 
+* strongly correlated electron systems (cf. [[topological order]], [[FQH systems]]) 
 
 * many models of [[magnetism]], frustrated magnetism
 
@@ -42,6 +46,9 @@ Relevance of [[non-perturbative field theory]]-methods in [[condensed matter the
 
 * Andreas Schadschneider, Götz S. Uhrig: *Strongly Correlated Systems in Solid State Physics*, lecture notes (2004) &lbrack;[pdf](https://www.thp.uni-koeln.de/~as/Mypage/PSfiles/Korrel/korrel.pdf), [[SchadschneiderUhrig-StronglyCorrelated.pdf:file]]&rbrack;
   > (focus on [[spin chain]]-models)
+
+* Jorge Quintanilla, Chris Hooley: *The strong-correlations puzzle*, Physics World, **22** 06 (2009) &lbrack;[doi:10.1088/2058-7058/22/06/38](http://doi.org/10.1088/2058-7058/22/06/38), [pdf](https://www.isis.stfc.ac.uk/Pages/the-strong-correlations-puzzle.pdf), [[QuintanilliHooley-StrongCorrelation.pdf:file]]&rbrack;
+
 
 
 [[!redirects strongly correlated systems]]
