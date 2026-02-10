@@ -60,11 +60,9 @@ One can also define infinitary intersections, which can be constructed categoric
 ## Related concepts
 
 * [[product]]
-
 * [[union]]
-
 * [[intersection product]], [[intersection theory]]
-
+* [[intersection type]]
 * [[brane intersection]]
 
 [[!redirects intersection]]
