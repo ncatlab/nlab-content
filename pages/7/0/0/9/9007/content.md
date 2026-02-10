@@ -13,5 +13,9 @@ On the [[symplectic geometry]]/[[phase space]]-structure of [[Chern-Simons theor
 
 * {#AlekseevMalkin} [[Anton Alekseev]], A. Z. Malkin: *Symplectic Geometry of the Chern-Simons theory*, in: *Integrable Models and Strings*, Lecture Notes in Physics **436**, Springer (1994) &lbrack;[doi:10.1007/3-540-58453-6_5](https://doi.org/10.1007/3-540-58453-6_5), [inSpire:398944](https://inspirehep.net/literature/398944), [pdf](https://inspirehep.net/files/f61b4dfd4442520fa61fa585e6f91d54)&rbrack; 
 
+On [[spherical braid group|spherical]] pure [[infinitesimal braid relations]] in relation to [[polylogarithms]]:
+
+* [[Anton Alekseev]], Megan Howarth, Florian Naef, Muze Ren, [[Pavol Ševera]]: *The kernel of formal polylogarithms* &lbrack;[arXiv:2601.19455](https://arxiv.org/abs/2601.19455)&rbrack;
+
 
 category: people
