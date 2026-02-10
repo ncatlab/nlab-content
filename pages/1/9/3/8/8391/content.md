@@ -95,3 +95,4 @@ For [[simple type theory]], type inhabitation is  decidable, whereas it is undec
  
 
 [[!redirects decidable]]
+[[!redirects undecidable]]
