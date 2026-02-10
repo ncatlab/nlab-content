@@ -52,6 +52,19 @@ On whether/how [[experiments]] can detect [[gravitons]]:
 * [[Freeman Dyson]], *Is the graviton detectable?*, International Journal of Modern Physics A **28** 25 (2013) 1330041 &lbrack;[doi:10.1142/S0217751X1330041X](https://doi.org/10.1142/S0217751X1330041X)&rbrack;
 
 
+## Quotes
+
+From a [New York Book Review](https://www.nybooks.com/articles/2004/05/13/the-world-on-a-string/) of [[Brian Greene]]'s "The Fabric of the Cosmos".
+
+> In the history of science there is always a tension between revolutionaries and conservatives, between those who build grand castles in the air and those who prefer to lay one brick at a time on solid ground. The normal state of tension is between young revolutionaries and old conservatives. This is the way it is now, and the way it was eighty years ago when the quantum revolution happened. I [Dyson in 2004] am a typical old conservative, out of touch with the new ideas and surrounded by young string theorists whose conversation I do not pretend to understand. In the 1920s, the golden age of quantum theory, the young revolutionaries were Werner Heisenberg and Paul Dirac, making their great discoveries at the age of twenty-five, and the old conservative was Ernest Rutherford... a great scientist, left behind by the revolution that he had helped to bring about. That is the normal state of affairs.
+
+> Fifty years ago, when I was considerably younger than Greene is now, things were different. The normal state of affairs was inverted. At that time, in the late 1940s and early 1950s, the revolutionaries were old and the conservatives were young. The old revolutionaries were Albert Einstein, Dirac, Heisenberg, Max Born, and Erwin Schrödinger. Every one of them had a crazy theory that he thought would be the key to understanding everything. Einstein had his unified field theory, Heisenberg had his fundamental length theory, Born had a new version of quantum theory that he called reciprocity, Schrödinger had a new version of Einstein’s unified field theory that he called the Final Affine Field Laws, and Dirac had a weird version of quantum theory in which every state had probability either plus two or minus two... . Each of the five old men believed that physics needed another revolution as profound as the quantum revolution that they had led twenty-five years earlier. Each of them believed that his pet idea was the crucial first step along a road that would lead to the next big breakthrough.
+
+> Young people like me saw all these famous old men making fools of themselves, and so we became conservatives. The chief young players then were Julian Schwinger and Richard Feynman in America and Sin-Itiro Tomonaga in Japan. Anyone who knew Feynman might be surprised to hear him labeled a conservative, but the label is accurate. Feynman’s style was ebullient and wonderfully original, but the substance of his science was conservative. He and Schwinger and Tomonaga understood that the physics they had inherited from the quantum revolution was pretty good. The physical ideas were basically correct. They did not need to start another revolution. They only needed to take the existing physical theories and clean up the details. I helped them with the later stages of the cleanup. The result of our efforts was the modern theory of quantum electrodynamics, the theory that accurately describes the way atoms and radiation behave.
+
+> This theory was a triumph of conservatism. We took the theories that Dirac and Heisenberg had invented in the 1920s, and changed as little as possible to make the theories self-consistent and user-friendly. Nature smiled on our efforts. When new experiments were done to test the theory, the results agreed with the theory to eleven decimal places... .
+
+
 ## Related entries
 
 * [[perturbative quantum field theory]]
