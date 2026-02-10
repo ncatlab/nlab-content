@@ -30,6 +30,7 @@ Very speculative but prominently promoted by mathematician [[Roger Penrose]], ba
 
 * [[quantum cryptography]]
 
+
 ## References
  {#References}
 
@@ -40,10 +41,16 @@ The suggestion that quantum biology is relevant for fundamentally understanding 
 
 Review:
 
+* Alessandro Sergi: *Quantum Biology*, Atti della Accademia Peloritana dei Pericolanti Classe di Scienze Fisiche, Matematiche e Naturali, Vol. LXXXVII, C1C0901001 (2009) &lbrack;[arXiv:0907.1968](https://arxiv.org/abs/0907.1968), [doi:10.1478/C1C0901001](https://doi.org/10.1478/C1C0901001), [doi:10.1478/C1C0901001](http://dx.doi.org/10.1478/C1C0901001)&rbrack;
+
 * N. Lambert et al.,  *Quantum biology*, Nature Physics **9** (2013) 10–18 &lbrack;[doi:10.1038/nphys2474](https://doi.org/10.1038/nphys2474)&rbrack;
 
 * Y. Kim et al., *Quantum Biology: An Update and Perspective*, Quantum Reports **3** 1 (2021) 80-126 &lbrack;[doi:10.3390/quantum3010006](https://doi.org/10.3390/quantum3010006)&rbrack;
 
+* {#BabcockBabcock2025} Nathan S. Babcock, Brandy N. Babcock: *Physical Principles of Quantum Biology* &lbrack;[arXiv:2503.11747](https://arxiv.org/abs/2503.11747)&rbrack;
+
+* Rong-Hang Chen, Jing Dong, Wen Yang, Qing Ai, Gui-Lu Long: *Quantum Biology, Quantum Simulation and Quantum Coherent Devices* &lbrack;[arXiv:2511.14363](https://arxiv.org/abs/2511.14363)&rbrack;
+  > (relation to [[quantum simulation]])
 
 Specifically on the existence and relevance -- or not -- of non-negligible coherent [[quantum entanglement]] in photosynthesis:
 
@@ -53,10 +60,9 @@ Specifically on the existence and relevance -- or not -- of non-negligible coher
 
 * {#Cao20} J. Cao et al., *Quantum biology revisited*, Science Advances **6** 14 (2020) &lbrack;[doi:10.1126/sciadv.aaz4888](https://doi.org/10.1126/sciadv.aaz4888)&rbrack;
 
-See also:
-
 * E. Keil, A. Kumar et al.: *Reassessing the role and lifetime of $Q_x$ in the energy transfer dynamics of chlorophyll $a$*, Chemical Science **4** (2025) &lbrack;[doi:10.1039/D4SC06441K](https://doi.org/10.1039/D4SC06441K)&rbrack;
 
+* *Photosynthesis & Open Quantum System Dynamics*, Chapter 4 of: [Babcock & Babcock 2025](#BabcockBabcock2025)
 
 An argument in favour of quantum biology which claims that cellular [[information theory|information processing]] must employ [[quantum coherence]] as a resource for [[reversible computation|reversibility]] in order to maintain a biologically reasonable [[free energy]] budget:
 
