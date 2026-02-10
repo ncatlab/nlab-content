@@ -11,6 +11,7 @@ List of [[hadrons]] dicovered at the [[LHC experiment]]:
 
 * {#Koppenburg21} [[Patrick Koppenburg]] for the [[LHCb collaboration]]: *List of hadrons observed at the LHC* (2021) &lbrack;[pdf](https://cds.cern.ch/record/2749030/files/FIGURE-2021-001.pdf), [webpage](https://www.nikhef.nl/~pkoppenb/particles.html), [cds:2749030](https://cds.cern.ch/record/2749030)&rbrack;
 
+* Nikhef blog: *[No new particles since the higgs? LHC experiments have caught 59 so far](https://www.nikhef.nl/en/news/no-new-particles-lhc-experiments-have-caught-59-so-far/)* (March 2021)
 
 On [[B meson]]-[[decays]]:
 
