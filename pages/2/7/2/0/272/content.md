@@ -34,7 +34,7 @@ From the [[nPOV]] we may think of a [[local net]] as a co-flabby [[presheaf|copr
 
 * **locality:** algebras assigned to spacelike separated regions commute with each other when embedded into any joint superalgebra.
 
-This is traditionally formulated (implicitly) as a structure in ordinary [[category theory]]. More recently, with the proof of the [[cobordism hypothesis]] and the corresponding [[(∞,n)-category]]-formulation of [[FQFT]] also [[higher category theory|higher categorical]] versions of systems of local algebras of observables are being put forward and studied. Three structures are curently being studied, that are all conceptually very similar and similar to the Haag-Kastler axioms:
+This is traditionally formulated (implicitly) as a structure in ordinary [[category theory]]. More recently, with the proof of the [[cobordism hypothesis]] and the corresponding [[(∞,n)-category]]-formulation of [[FQFT]] also [[higher category theory|higher categorical]] versions of systems of local algebras of observables are being put forward and studied. Three structures are currently being studied, that are all conceptually very similar and similar to the Haag-Kastler axioms:
 
 
 * [[factorization algebra]]s
