@@ -22,6 +22,8 @@
 
 * [[mean-field theory]]
 
+* [[strongly correlated system]]
+
 * [[Fock space]]
 
 * [[second quantization]]
@@ -63,3 +65,14 @@ In regards to [[tensor networks]]:
 * [[Thorsten B. Wahl]], _Tensor network states for the description of quantum many-body systems_ ([arXiv:1509.05984](https://arxiv.org/abs/1509.05984))
 
 [[!redirects quantum many body physics]]
+
+[[!redirects quantum many-body system]]
+[[!redirects quantum many-body systems]]
+
+[[!redirects quantum many body system]]
+[[!redirects quantum many body systems]]
+
+
+
+
+
