@@ -31,7 +31,7 @@ $$
   }
 $$
 
-For $\big\{v^i \in V^\ast\big\}_{i =1}^{dim(V)}$ any [[linear basis]] of the [[dual vector space]] to $V$, which may be regarded as [[coordinate functions]] on the manifold $V$, then the Euler vector field is equivalenty given by
+For $\big\{v^i \in V^\ast \big\}_{i =1}^{dim(V)}$ any [[linear basis]] of the [[dual vector space]] to $V$, which may be regarded as [[coordinate functions]] on the manifold $V$, then the Euler vector field is equivalenty given by
 \[
   \label{CoordinateExpression}
   \epsilon 
