@@ -1,5 +1,9 @@
 
-* [website](http://web.comlab.ox.ac.uk/people/Aleks.Kissinger/)
+* [persinal page](http://web.comlab.ox.ac.uk/people/Aleks.Kissinger/)
+
+* [inSpire page](https://inspirehep.net/authors/2034823)
+
+* [GoogleScholar page](https://scholar.google.com/citations?user=znjzEpUAAAAJ&hl=en)
 
 ## Selected writings
 
@@ -17,7 +21,7 @@ On [[quantum information theory via dagger-compact categories]]:
 
 Relating the [[ZX-calculus]] to [[braided fusion categories]] for [[anyon]] [[braiding]]:
 
-* [[Fatimah Rita Ahmadi]], [[Aleks Kissinger]], *Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics* $[$[arXiv:2211.03855](https://arxiv.org/abs/2211.03855)$]$
+* [[Fatimah Rita Ahmadi]], [[Aleks Kissinger]]: *Topological Quantum Computation Through the Lens of Categorical Quantum Mechanics*, Journal of Physics A: Mathematical and Theoretical **56** 41 (2023) \[<a href="https://doi.org/10.1088/1751-8121/acef7e">doi:10.1088/1751-8121/acef7e</a>, [arXiv:2211.03855](https://arxiv.org/abs/2211.03855)\]
 
 On the online proof assistant *[[Globular]]* for higher dimensional [[rewriting]] via [[semistrict]] [[globular set|globular]] [[higher categories]]:
 
