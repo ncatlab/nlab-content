@@ -56,7 +56,7 @@ $$
 This is exactly what is needed for the pullback stability axiom to hold, and the other axioms are immediate.
 =--
 
-The condition occurring in the proposition is called the (right) [[Ore condition]]. It is a result by [[Peter Johnstone|P. T. Johnstone]] (1979) that $Set^{\mathcal{C}^{op}}$ is a [[De Morgan topos]] precisely if $\mathcal{C}$ satisfies the Ore condition. Whence we see that every [[atomic topos|atomic Grothendieck toposes]] is a ([[Boolean topos|Boolean]]) subtopos of a De Morgan [[presheaf topos]].
+The condition occurring in the proposition is called the (right) [[Ore condition]]. It is a result by [[Peter Johnstone|P. T. Johnstone]] (1979) that $Set^{\mathcal{C}^{op}}$ is a [[De Morgan topos]] precisely if $\mathcal{C}$ satisfies the Ore condition. Whence we see that every [[atomic topos|atomic Grothendieck topos]] is a ([[Boolean topos|Boolean]]) subtopos of a De Morgan [[presheaf topos]].
 
 Recall that the [[dense topology]] $J_d$ on a category $\mathcal{C}$ consists of all sieves $S\in J_d(C)$ with the property that given $f:D\to C$ there exists $g:E\to D$ such that $f\cdot g\in S$. The atomic topology is a special case of this:
 
