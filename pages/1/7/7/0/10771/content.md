@@ -56,7 +56,7 @@ This is B1.1.15 in the [[Elephant]].  If the algebra structure $a : T A \to A$ h
 
 +--{: .num_theorem #Comonadicity}
 ###### Theorem
-Let $G$ be the pseudo [[2-comonad]] on the 2-category $T Alg$ of $T$-algebras induced by the free-forgetful adjunction.  Then $G$ is lax-idempotent, and a $T$-algebra $A$ is continuous if and only if it is a $G$-coalgebra.
+Supposing that $T$ is a lax-idempotent pseudomonad, let $G$ be the pseudo [[2-comonad]] on the 2-category $T Alg$ of $T$-algebras induced by the free-forgetful adjunction.  Then $G$ is lax-idempotent, and a $T$-algebra $A$ is continuous if and only if it is a $G$-coalgebra.
 =--
 +--{: .proof}
 ###### Proof
