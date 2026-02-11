@@ -13,8 +13,8 @@ and their [[anomaly cancellation]] via the [[Green-Schwarz mechanism]]:
 
 * [[Kantaro Ohmori]], [[Hiroyuki Shimizu]], [[Yuji Tachikawa]], [[Kazuya Yonekura]], _Anomaly polynomial of general 6d SCFTs_, Progress of Theoretical and Experimental Physics, Volume 2014, Issue 10, October 2014, 103B07 ([arXiv:1408.5572](https://arxiv.org/abs/1408.5572))
 
-Discussion of [[anomaly cancellation]]:
+Discussion of [[anomaly cancellation]] on [[ADE-singularities]]:
 
-* [[Hiroyuki Shimizu]], _Aspects of anomalies in 6d superconformal field theories_, Tokyo 2018 ([spire:1802462](https://inspirehep.net/literature/1802462))
+* [[Hiroyuki Shimizu]]: _Aspects of anomalies in 6d superconformal field theories_, Tokyo (2018) &lbrack;[doi:10.15083/00077898](http://doi.org/10.15083/00077898), [spire:1802462](https://inspirehep.net/literature/1802462), [[ShimizuAnomaliesIn6dSCFT.pdf:file]]&rbrack;
 
 category: people
