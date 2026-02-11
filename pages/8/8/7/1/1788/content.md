@@ -7,12 +7,8 @@
 
 ***
 
-$\and$
 
-
-| [[QCD]] | [[Hubbard model]] |
-|---------|-------------------|
-
+[[Golub-CQTS-Feb2026.pdf:file]]
 
 
 
